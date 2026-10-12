@@ -140,7 +140,7 @@ export const GAMES: Game[] = [
     slug: 'majo',
     description: 'R18 Strategy RPG • EROLABS • Witch Contracts • Real-Time Vertical Combat',
     image: 'https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/majo/icon.webp?v=2',
-    url: '/guides/majo/',
+    url: '/guides/majo/select/',
     status: 'active',
     themeColor: '#8577a8',
     sections: ['Characters', 'Items', 'Gacha', 'Skills'],

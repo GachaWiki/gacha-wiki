@@ -1,0 +1,315 @@
+---
+// Shared body of the MAJO witch detail page. The English pages and the four
+// localized wikis (/zh/, /zh-tw/, /ja/, /ko/) render this template with a
+// text pack: everything user-visible comes from `t` (primary language) plus
+// `t.alt` fields (secondary English line, like the EN page's Chinese line).
+// Images, icons and the lightbox are language-independent.
+import MajoCharacterImage from '../../components/majo/MajoCharacterImage.astro';
+import MajoIcon from '../../components/majo/MajoIcon.astro';
+import { WITCH_ILLUSTRATIONS } from '../../data/majo/gallery.js';
+import { resolveSkillFormula } from '../../data/majo/skill-formula.js';
+import '../../styles/games/majo/majo-characters.css';
+import '../../styles/games/majo/majo-gallery.css';
+
+export interface SkillEntry {
+  name: string;
+  nameAlt?: string;
+  info?: string;
+  infoAlt?: string;
+  detail?: string;
+}
+
+export interface CharTextPack {
+  name: string;
+  nameAlt?: string;
+  title?: string;
+  attackTypeLabel?: string;
+  factionLabel?: string;
+  skills: Record<string, SkillEntry[]>;
+  description?: string;
+  descriptionAlt?: string;
+}
+
+export interface Props {
+  char: any;
+  t: CharTextPack;
+  // [{ key, label, tag, icon }] in the page's language
+  skillSections: Array<{ key: string; label: string; tag: string; icon: string }>;
+  // ui labels: chips, section headers, art/illustration labels, illus note
+  ui: any;
+}
+
+const { char, t, skillSections, ui } = Astro.props;
+
+const GALLERY_R2 = 'https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/majo/gallery';
+const illustrations = WITCH_ILLUSTRATIONS.find(g => g.id === char.id)?.images ?? [];
+const illuLabel = (label: string) => ui.illuLabels[label] || label;
+const lightboxItems = illustrations.map(im => ({
+  src: `${GALLERY_R2}/${im.file}`,
+  caption: `${t.name} ${illuLabel(im.label)}`,
+  w: im.w,
+  h: im.h,
+}));
+
+function fmtDetail(s: string): string {
+  return resolveSkillFormula(s)
+    .replace(/<color=#[0-9A-Fa-f]+>/g, '<span class="majo-skill-val">')
+    .replace(/<\/color>/g, '</span>');
+}
+
+// Buff/debuff chips from the official skill text in BOTH languages (the EN
+// text carries the keywords the regexes know; the target language adds zh
+// keywords). Labels come from the ui chip map.
+function parseEffects(en: string, zh: string): Array<{ label: string; kind: string; icon?: string }> {
+  const text = `${en} ${zh}`.toLowerCase();
+  const chips: Array<{ label: string; kind: string; icon?: string }> = [];
+  const add = (label: string, kind: string, icon?: string) => {
+    if (!chips.some(c => c.label === label)) chips.push({ label, kind, icon });
+  };
+  if (/(attack power|attack speed|atk)[^.]*?(increas|boost|enhanc)|攻击力提升|攻击速度提升/.test(text)) add('ATK Up', 'buff');
+  if (/(attack speed|攻击速度)[^.]*?(increas|boost|up|提升)/.test(text)) add('Atk Speed Up', 'buff');
+  if (/(movement speed|移动速度)[^.]*?(increas|boost|up|提升)/.test(text)) add('Move Up', 'buff', 'MovingSpeedUp');
+  if (/crit[^.]*?damage[^.]*?(increas|up|boost)|暴击伤害/.test(text)) add('Crit DMG Up', 'buff', 'CriticalDamageUp');
+  else if (/crit[^.]*?(rate|increas|up|boost)|暴击(率)?(提升|上升)/.test(text)) add('Crit Up', 'buff', 'CriticalValueUp');
+  if (/(damage (taken|received)|受到伤害|受到的伤害)[^.]*?(reduc|decreas|down|降低|减少)/.test(text)) add('DMG Taken Down', 'buff', 'DamageResistanceUp');
+  if (/(attack|atk|damage output|造成的伤害)[^.]*?(decreas|weaken|down|reduc|降低|弱化)/.test(text)) add('ATK/DMG Down', 'debuff', 'AttackDown');
+  if (/(damage (taken|received)|受到伤害)[^.]*?(increas|up|提升)/.test(text)) add('DMG Taken Up', 'debuff', 'DamageResistanceDown');
+  if (/(defense|防御)[^.]*?(decreas|weaken|down|reduc|降低|弱化)/.test(text)) add('DEF Down', 'debuff', 'DefenseDown');
+  if (/(dodge|闪避)/.test(text)) add('Dodge Up', 'buff', 'DodgeValueUp');
+  if (/(max(imum)? hp|生命值)[^.]*?(increas|up|提升)/.test(text)) add('Max HP Up', 'buff', 'MaxHpUp');
+  if (/stun|晕眩|眩晕/.test(text)) add('Stun', 'debuff', 'Stun');
+  if (/knock ?(down|out)|击倒/.test(text)) add('Knockdown', 'debuff');
+  if (/heal|回复|恢复|治疗/.test(text)) add('Heal', 'util', 'ExtraHealUp');
+  if (/shield|护盾/.test(text)) add('Shield', 'util');
+  if (/taunt|嘲讽/.test(text)) add('Taunt', 'util', 'TauntUp');
+  if (/cool ?down[^.]*?(zero|reset)|冷却时间归零|重置/.test(text)) add('CD Reset', 'util');
+  return chips;
+}
+
+const chipLabel = (label: string) => (ui.chips && ui.chips[label]) || label;
+---
+
+<section class="majo-content-section">
+  <div class="majo-detail-header">
+    <MajoCharacterImage
+      filename={char.image}
+      alt={`${t.name} ${char.nameEn}`}
+      class="majo-detail-art"
+    />
+    <div class="majo-detail-info">
+      <h1>{t.name}</h1>
+      {t.nameAlt && <p class="majo-detail-name-zh">{t.nameAlt}</p>}
+      {t.title && <p class="majo-detail-title">{t.title}</p>}
+      <div class="majo-meta">
+        <MajoIcon
+          filename={`CharacterDetails_Icon_${char.rarity}.png`}
+          alt={char.rarity}
+          class="majo-icon-rarity majo-icon-lg"
+        />
+        <MajoIcon
+          filename={`GachaPage_Icon_${char.cls}.png`}
+          alt={char.cls}
+          class="majo-icon-class majo-icon-lg"
+        />
+        {char.attackType && t.attackTypeLabel && (
+          <span class={`majo-type-chip chip-attack-${char.attackType.toLowerCase()}`}>{t.attackTypeLabel}</span>
+        )}
+        {char.faction && t.factionLabel && (
+          <span class={`majo-type-chip chip-faction-${char.faction.toLowerCase()}`}>{t.factionLabel}</span>
+        )}
+      </div>
+    </div>
+  </div>
+
+  {char.skills && (
+    <div class="majo-detail-section">
+      <h2>{ui.sectionSkills}</h2>
+      {skillSections.map(({ key, label, tag, icon }) => t.skills[key] && t.skills[key].length > 0 && (
+        <div class="majo-skill">
+          <div class="majo-skill-header">
+            <MajoIcon
+              filename={`${char.id}_${icon}.png`}
+              alt={label}
+              class="majo-skill-icon"
+            />
+            <p class="majo-skill-name">
+              <span class="majo-skill-tag">[{tag}]</span>
+              {label}
+            </p>
+          </div>
+          {t.skills[key].map((s, i) => {
+            const chips = parseEffects(s.detail || s.info || '', s.infoAlt || '');
+            return (
+              <div>
+                <p class="majo-skill-name">
+                  {s.name} {s.nameAlt && <span class="majo-skill-name-en">/ {s.nameAlt}</span>}
+                  {t.skills[key].length > 1 && <span class="majo-skill-name-en"> (R{i})</span>}
+                </p>
+                {chips.length > 0 && (
+                  <div class="majo-skill-chips">
+                    {chips.map(c => c.icon ? (
+                      <span class={`majo-chip-icon ${c.kind}`} title={chipLabel(c.label)}>
+                        <MajoIcon filename={`${c.icon}.png`} alt={chipLabel(c.label)} class="majo-buff-icon" />
+                        <span class="majo-chip-icon-label">{chipLabel(c.label)}</span>
+                      </span>
+                    ) : (
+                      <span class={`majo-chip ${c.kind}`}>{chipLabel(c.label)}</span>
+                    ))}
+                  </div>
+                )}
+                {s.info && <p class="majo-skill-desc">{resolveSkillFormula(s.info)}</p>}
+                {s.infoAlt && s.infoAlt !== s.info && <p class="majo-skill-desc-en">{resolveSkillFormula(s.infoAlt)}</p>}
+                {s.detail && (
+                  <div class="majo-skill-detail">
+                    <p class="majo-skill-detail-en" set:html={fmtDetail(s.detail)} />
+                  </div>
+                )}
+              </div>
+            );
+          })}
+        </div>
+      ))}
+    </div>
+  )}
+
+  {(t.description || t.descriptionAlt) && (
+    <div class="majo-detail-section">
+      <h2>{ui.sectionLore}</h2>
+      {t.description && <p class="majo-lore">{t.description}</p>}
+      {t.descriptionAlt && t.descriptionAlt !== t.description && (
+        <p class="majo-lore-en">{t.descriptionAlt}</p>
+      )}
+    </div>
+  )}
+
+  <div class="majo-detail-section">
+    <h2>{ui.sectionArt}</h2>
+    {char.image === char.awakenImage ? (
+      <div class="majo-art-pair">
+        <figure>
+          <MajoCharacterImage filename={char.image} alt={`${t.name}`} />
+          <figcaption>{ui.awakenedLabel}</figcaption>
+        </figure>
+      </div>
+    ) : (
+      <div class="majo-art-pair">
+        <figure>
+          <MajoCharacterImage
+            filename={char.image}
+            alt={`${t.name}`}
+          />
+          <figcaption>{ui.baseLabel}</figcaption>
+        </figure>
+        <figure>
+          <MajoCharacterImage
+            filename={char.awakenImage}
+            alt={`${t.name} ${ui.awakenedLabel}`}
+          />
+          <figcaption>{ui.awakenedLabel}</figcaption>
+        </figure>
+      </div>
+    )}
+  </div>
+  {illustrations.length > 0 && (
+    <div class="majo-detail-section">
+      <h2>{ui.sectionIllus}</h2>
+      <p class="majo-gal-section-sub">{ui.illusNote}</p>
+      <div class="majo-gal-row">
+        {illustrations.map((im) => (
+          <button
+            class="majo-gal-item"
+            type="button"
+            aria-label={`${t.name} ${illuLabel(im.label)}`}
+            data-src={`${GALLERY_R2}/${im.file}`}
+            data-caption={`${t.name} ${illuLabel(im.label)}`}
+            data-w={im.w}
+            data-h={im.h}
+          >
+            <img
+              src={`${GALLERY_R2}/${im.file}`}
+              alt={`${t.name} ${illuLabel(im.label)}`}
+              width={im.w}
+              height={im.h}
+              loading="lazy"
+              decoding="async"
+            />
+            <span class="majo-gal-item-label">{illuLabel(im.label)}</span>
+          </button>
+        ))}
+      </div>
+    </div>
+  )}
+</section>
+
+<div class="majo-lightbox" id="majo-lightbox" role="dialog" aria-modal="true" aria-label="Image viewer">
+  <button class="majo-lightbox-close" type="button" aria-label="Close viewer">&times;</button>
+  <button class="majo-lightbox-prev" type="button" aria-label="Previous image">&#8249;</button>
+  <figure class="majo-lightbox-figure">
+    <img id="majo-lightbox-img" src="" alt="" />
+    <figcaption class="majo-lightbox-caption">
+      <span id="majo-lightbox-caption"></span>
+      <span id="majo-lightbox-counter"></span>
+    </figcaption>
+  </figure>
+  <button class="majo-lightbox-next" type="button" aria-label="Next image">&#8250;</button>
+</div>
+
+<script is:inline define:vars={{ lightboxItems }}>
+  (function () {
+    if (window.__mjCharGalleryInit) return;
+    window.__mjCharGalleryInit = true;
+
+    var box = document.getElementById('majo-lightbox');
+    var img = document.getElementById('majo-lightbox-img');
+    var captionEl = document.getElementById('majo-lightbox-caption');
+    var counterEl = document.getElementById('majo-lightbox-counter');
+    var current = 0;
+    var lastFocus = null;
+
+    function render() {
+      var item = lightboxItems[current];
+      img.src = item.src;
+      img.alt = item.caption;
+      img.style.aspectRatio = item.w + ' / ' + item.h;
+      captionEl.textContent = item.caption;
+      counterEl.textContent = (current + 1) + ' / ' + lightboxItems.length;
+    }
+    function open(index) {
+      current = index;
+      render();
+      lastFocus = document.activeElement;
+      box.classList.add('open');
+      document.body.style.overflow = 'hidden';
+      box.querySelector('.majo-lightbox-close').focus();
+    }
+    function close() {
+      box.classList.remove('open');
+      document.body.style.overflow = '';
+      if (lastFocus) lastFocus.focus();
+    }
+    function step(delta) {
+      current = (current + delta + lightboxItems.length) % lightboxItems.length;
+      render();
+    }
+
+    document.querySelectorAll('.majo-gal-item').forEach(function (btn) {
+      btn.addEventListener('click', function () {
+        var src = btn.getAttribute('data-src');
+        var index = lightboxItems.findIndex(function (x) { return x.src === src; });
+        if (index >= 0) open(index);
+      });
+    });
+    box.querySelector('.majo-lightbox-close').addEventListener('click', close);
+    box.querySelector('.majo-lightbox-prev').addEventListener('click', function () { step(-1); });
+    box.querySelector('.majo-lightbox-next').addEventListener('click', function () { step(1); });
+    box.addEventListener('click', function (e) {
+      if (e.target === box) close();
+    });
+    document.addEventListener('keydown', function (e) {
+      if (!box.classList.contains('open')) return;
+      if (e.key === 'Escape') close();
+      else if (e.key === 'ArrowLeft') step(-1);
+      else if (e.key === 'ArrowRight') step(1);
+    });
+  })();
+</script>

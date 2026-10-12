@@ -1,0 +1,88 @@
+---
+// Language-generic layout for the localized MAJO wikis (/zh/, /zh-tw/, /ja/,
+// /ko/). Same house style as the English wiki (majo-colors/layout/common);
+// the caller passes its language ui module (gameName/baseUrl/nav from
+// src/data/majo/<lang>/ui.js) and the html lang code. The majo game nav is
+// overridden with translated sections (keeps the music player + theme).
+import MajoBaseHead from '../../components/majo/MajoBaseHead.astro';
+import GameSEO from '../../components/GameSEO.astro';
+import Analytics from '../../components/Analytics.astro';
+import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
+import GameNavigationHeader from '../../components/GameNavigationHeader.astro';
+import CustomScrollbar from '../../components/CustomScrollbar.astro';
+import DecorativeLines from '../../components/DecorativeLines.astro';
+import MajoBreadcrumb from '../../components/majo/MajoBreadcrumb.astro';
+
+import '../../styles/games/majo/majo-colors.css';
+import '../../styles/global.css';
+import '../../styles/typography.css';
+import '../../styles/games/majo/majo-layout.css';
+import '../../styles/games/majo/majo-common.css';
+
+export interface Props {
+  title: string;
+  description?: string;
+  // the language's ui module (MJ_UI export from data/majo/<lang>/ui.js)
+  ui: any;
+  gameTitle?: string;
+  crumbName?: string;
+  // manual breadcrumb items (localized): [{ name, href }]
+  breadcrumbItems?: Array<{ name: string; href?: string }>;
+  seoKeywords?: readonly string[];
+}
+
+const { title, description, ui, gameTitle, crumbName, breadcrumbItems, seoKeywords } = Astro.props;
+const seoTitle = `${title} | ${ui.gameName}`;
+const seoDescription = description || `${ui.gameName} wiki (${ui.langLabel})`;
+
+const langNav = {
+  name: ui.gameName,
+  gameUrl: ui.baseUrl,
+  sections: ui.nav,
+};
+---
+
+<html lang={ui.htmlLang}>
+  <head>
+    <MajoBaseHead title={seoTitle} description={seoDescription} />
+    <GameSEO
+      gameKey="majo"
+      title={seoTitle}
+      description={seoDescription}
+      additionalKeywords={[...(seoKeywords || []), ...ui.seoExtra]}
+    />
+    <Analytics />
+  </head>
+  <body class="majo-body">
+    <CustomScrollbar />
+    <div class="bg-layer majo-bg-primary"></div>
+
+    <div class="majo-content">
+      <Header />
+      <GameNavigationHeader currentPath={Astro.url.pathname} gameKey="majo" navOverride={langNav} />
+
+      <div class="majo-container">
+        <main class="majo-main" id="main-content">
+          {gameTitle && (
+            <section class="majo-title-only-section">
+              <h1 class="majo-title-only-heading">{gameTitle}</h1>
+              <DecorativeLines />
+            </section>
+          )}
+
+          <MajoBreadcrumb
+            items={breadcrumbItems || [{ name: ui.gameName, href: ui.baseUrl }, { name: crumbName || title }]}
+            showBackButton={true}
+          />
+
+          <div class="content-area">
+            <slot />
+          </div>
+        </main>
+      </div>
+
+      <Footer />
+    </div>
+  </body>
+</html>

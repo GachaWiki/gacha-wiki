@@ -1,0 +1,126 @@
+---
+// Korean witch database for the MAJO wiki: /ko/guides/majo/characters/.
+// Mirrors the English database grid; names, titles and class chips use the
+// game's own Korean localization, with the English line as secondary.
+import MajoLangLayout from '../../../../layouts/majo/MajoLangLayout.astro';
+import MajoCharacterImage from '../../../../components/majo/MajoCharacterImage.astro';
+import MajoIcon from '../../../../components/majo/MajoIcon.astro';
+import { majoCharacters, majoClasses, majoRarities } from '../../../../data/majo/characters.js';
+import { buildLangTextPack } from '../../../../data/majo/lang-text.js';
+import { MJ_UI } from '../../../../data/majo/ko/ui.js';
+import {
+  MJ_KO_NAMES,
+  MJ_KO_TITLES,
+  MJ_KO_DESCRIPTIONS,
+  MJ_KO_SKILLS,
+  MJ_KO_CLASSES,
+  MJ_KO_FACTIONS,
+  MJ_KO_ATTACK_TYPES,
+} from '../../../../data/majo/ko/game-text.js';
+
+const GT = { NAMES: MJ_KO_NAMES, TITLES: MJ_KO_TITLES, DESCRIPTIONS: MJ_KO_DESCRIPTIONS, SKILLS: MJ_KO_SKILLS, CLASSES: MJ_KO_CLASSES, FACTIONS: MJ_KO_FACTIONS, ATTACK_TYPES: MJ_KO_ATTACK_TYPES };
+const characters = majoCharacters.map(c => ({ ...c, t: buildLangTextPack(c, GT) }));
+const title = MJ_UI.nav[0].links[0].name;
+const desc = `${MJ_UI.gameName} witch database (${MJ_UI.langLabel}): all ${characters.length} witches with rarity, class, titles, skills, and lore.`;
+---
+
+<MajoLangLayout
+  ui={ MJ_UI }
+  title={ title }
+  description=desc
+  gameTitle={ title }
+  breadcrumbItems={[{ name: MJ_UI.gameName, href: MJ_UI.baseUrl }, { name: title }]}
+>
+  <section class="majo-content-section">
+    <div class="majo-toolbar">
+      <input type="text" class="majo-search" placeholder={ MJ_UI.searchPlaceholder } id="majo-search" />
+      <button class="majo-filter-btn active" data-filter="all">{ MJ_UI.allLabel }</button>
+      { majoRarities.map(r => (
+        <button class="majo-filter-btn" data-filter={ r }>{ r }</button>
+      )) }
+      { majoClasses.map(c => (
+        <button class="majo-filter-btn" data-filter={ c }>{ (GT.CLASSES && GT.CLASSES[c]) || c }</button>
+      )) }
+      <span class="majo-count" id="majo-count">{ MJ_UI.witchesCount.replace('{n}', String(characters.length)) }</span>
+    </div>
+
+    <div class="majo-char-grid" id="majo-char-grid">
+      { characters.map(char => (
+        <a
+          href={ `/ko/guides/majo/characters/${char.slug}/` }
+          class="majo-char-card"
+          data-rarity={ char.rarity }
+          data-class={ char.cls }
+          data-name-zh={ (char.t.name || '').toLowerCase() }
+          data-name-en={ (char.nameEn || '').toLowerCase() }
+          data-name-ja={ (char.nameJa || '').toLowerCase() }
+        >
+          <MajoCharacterImage
+            filename={ char.image }
+            alt={ `${char.t.name} ${char.nameEn}` }
+            class="majo-char-art"
+          />
+          <div class="majo-char-card-body">
+            <p class="majo-char-name-en">{ char.t.name }</p>
+            <p class="majo-char-name-zh">{ char.nameEn }{ char.nameJa ? ' · ' + char.nameJa : '' }</p>
+            <p class="majo-char-title">{ char.t.title }</p>
+            <p class="majo-char-meta">
+              <MajoIcon
+                filename={ `CharacterDetails_Icon_${char.rarity}.png` }
+                alt={ char.rarity }
+                class="majo-icon-rarity"
+              />
+              <MajoIcon
+                filename={ `GachaPage_Icon_${char.cls}.png` }
+                alt={ char.cls }
+                class="majo-icon-class"
+              />
+            </p>
+          </div>
+        </a>
+      )) }
+    </div>
+  </section>
+</MajoLangLayout>
+
+<script>
+  const search = document.getElementById('majo-search') as HTMLInputElement;
+  const grid = document.getElementById('majo-char-grid');
+  const countEl = document.getElementById('majo-count');
+  const filterBtns = document.querySelectorAll('.majo-filter-btn');
+  const countTemplate = '{n}명의 마녀';
+  const countOne = '1명의 마녀';
+
+  function updateDisplay() {
+    if (!search || !grid) return;
+    const query = search.value.toLowerCase();
+    const activeFilter = document.querySelector('.majo-filter-btn.active')?.getAttribute('data-filter') || 'all';
+    const cards = grid?.querySelectorAll('.majo-char-card') as NodeListOf<HTMLElement>;
+    let visible = 0;
+
+    cards?.forEach(card => {
+      const nameZh = card.dataset.nameZh || '';
+      const nameEn = card.dataset.nameEn || '';
+      const nameJa = card.dataset.nameJa || '';
+      const cls = card.dataset.class || '';
+      const rarity = card.dataset.rarity || '';
+      const matchesSearch = nameZh.includes(query) || nameEn.includes(query) || nameJa.includes(query);
+      const matchesFilter = activeFilter === 'all' || cls === activeFilter || rarity === activeFilter;
+      const show = matchesSearch && matchesFilter;
+      card.style.display = show ? '' : 'none';
+      if (show) visible++;
+    });
+
+    if (countEl) countEl.textContent = visible === 1 ? countOne : countTemplate.replace('{n}', String(visible));
+  }
+
+  search?.addEventListener('input', updateDisplay);
+
+  filterBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      filterBtns.forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      updateDisplay();
+    });
+  });
+</script>

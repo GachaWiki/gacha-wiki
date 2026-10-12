@@ -131,7 +131,7 @@ export const majoItems = [
     icon: "Frame_FirstPurchase",
     nameZh: "首储礼遇头框",
     nameEn: "First Purchase Avatar Frame",
-    descEn: "A special profile frame for your First Drop support — a witness to where it all began.",
+    descEn: "A special profile frame for your First Drop support ,  a witness to where it all began.",
   },
   {
     id: "Frame_MainCH6_SR",
@@ -931,7 +931,7 @@ export const majoItems = [
     icon: "RegularTower_profile_avatar",
     nameZh: "全适性探查区踏破头像",
     nameEn: "All-Affinity Exploration Zone Conqueror Avatar",
-    descEn: "An exclusive avatar for brave souls who have cleared the General Recon Zone — the first proof of true strength.",
+    descEn: "An exclusive avatar for brave souls who have cleared the General Recon Zone ,  the first proof of true strength.",
   },
   {
     id: "SkillBookA",

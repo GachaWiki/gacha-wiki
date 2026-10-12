@@ -1,0 +1,143 @@
+---
+// Language selection page for MAJO: Witches Night, shown when entering the
+// wiki from the games list. Five choices: the English wiki plus four wikis
+// using the game's own official localization (zh-Hans, zh-Hant, ja, ko).
+import GameSEO from '../../../components/GameSEO.astro';
+import Header from '../../../components/Header.astro';
+import Footer from '../../../components/Footer.astro';
+import CustomScrollbar from '../../../components/CustomScrollbar.astro';
+import Analytics from '../../../components/Analytics.astro';
+import '../../../styles/global.css';
+import '../../../styles/typography.css';
+import '../../../styles/games/majo/majo-colors.css';
+import '../../../styles/games/majo/majo-common.css';
+
+export const prerender = true;
+
+const languages = [
+  { lang: 'English', note: 'English wiki', href: '/guides/majo/' },
+  { lang: '简体中文', note: '游戏官方文本 · 魔女之夜', href: '/zh/guides/majo/' },
+  { lang: '繁體中文', note: '遊戲官方文本 · 魔女之夜', href: '/zh-tw/guides/majo/' },
+  { lang: '日本語', note: 'ゲーム公式テキスト · ウィッチーズ・ナイト', href: '/ja/guides/majo/' },
+  { lang: '한국어', note: '게임 공식 텍스트 · 마녀의 밤', href: '/ko/guides/majo/' },
+];
+---
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MAJO: Witches Night Wiki: Choose Language - GachaWiki</title>
+    <meta
+      name="description"
+      content="Choose the language for the MAJO: Witches Night wiki: English, Simplified Chinese, Traditional Chinese, Japanese or Korean."
+    />
+    <GameSEO
+      gameKey="majo"
+      title="MAJO: Witches Night Wiki: Choose Language"
+      description="English, Chinese, Japanese or Korean MAJO: Witches Night wiki."
+    />
+    <Analytics />
+  </head>
+  <body class="majo-body">
+    <CustomScrollbar />
+    <div class="bg-layer majo-bg-primary"></div>
+
+    <div class="majo-content">
+      <Header />
+
+      <div class="majo-container">
+        <main
+          class="majo-main"
+          style="display:flex;align-items:center;justify-content:center;min-height:72vh;padding:2rem 1rem;"
+          id="main-content"
+        >
+          <section class="majo-select-card">
+            <h1 class="majo-select-title">MAJO: Witches Night</h1>
+            <p class="majo-select-sub">Choose a language · 选择语言 · 言語を選択 · 언어 선택</p>
+
+            <div class="majo-select-buttons">
+              {languages.map(l => (
+                <a href={l.href} class="majo-select-btn">
+                  <span class="majo-select-lang">{l.lang}</span>
+                  <span class="majo-select-note">{l.note}</span>
+                </a>
+              ))}
+            </div>
+          </section>
+        </main>
+      </div>
+
+      <Footer />
+    </div>
+  </body>
+</html>
+
+<style>
+  .majo-select-card {
+    width: 100%;
+    max-width: 640px;
+    background: rgba(255, 255, 255, 0.04);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-radius: 16px;
+    padding: 3rem 2rem;
+    text-align: center;
+  }
+
+  .majo-select-title {
+    font-size: 1.875rem;
+    font-weight: 700;
+    color: #ffffff;
+    margin: 0 0 0.5rem 0;
+  }
+
+  .majo-select-sub {
+    font-size: 1rem;
+    color: #cccccc;
+    margin: 0 0 2.25rem 0;
+  }
+
+  .majo-select-buttons {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
+
+  .majo-select-btn {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem 1rem;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    border-radius: 12px;
+    text-decoration: none;
+  }
+
+  .majo-select-lang {
+    font-size: 1.35rem;
+    font-weight: 700;
+    color: #c084fc;
+  }
+
+  .majo-select-note {
+    font-size: 0.8125rem;
+    color: #cccccc;
+  }
+
+  .majo-select-btn:first-child .majo-select-lang {
+    color: #a78bfa;
+  }
+
+  @media (max-width: 560px) {
+    .majo-select-buttons {
+      grid-template-columns: 1fr;
+    }
+
+    .majo-select-card {
+      padding: 2.25rem 1.5rem;
+    }
+  }
+</style>

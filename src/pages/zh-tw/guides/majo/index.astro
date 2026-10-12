@@ -1,0 +1,153 @@
+---
+// Traditional Chinese landing page for the MAJO wiki: /zh-tw/guides/majo/.
+// Mirrors the English landing (story, title video, download, resources grid)
+// with official game terms and translated labels from ui.js. Resource buttons
+// marked EN point to the English wiki pages.
+import MajoLangLayout from '../../../../layouts/majo/MajoLangLayout.astro';
+import DiscordPromo from '../../../../components/DiscordPromo.astro';
+import { majoCharacters } from '../../../../data/majo/characters.js';
+import { MJ_UI } from '../../../../data/majo/zh-tw/ui.js';
+import '../../../../styles/games/majo/majo-landing.css';
+
+const R2 = 'https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/majo';
+const witches = majoCharacters.length;
+
+// split the story paragraph on the strong word (the Observer) to wrap it
+function withStrong(para, strong) {
+  if (!strong || !para.includes(strong)) return [para];
+  const [a, ...rest] = para.split(strong);
+  return [a, strong, rest.join(strong)];
+}
+
+const langs = [
+  { label: 'English', href: '/guides/majo/' },
+  { label: '简体中文', href: '/zh/guides/majo/' },
+  { label: '繁體中文', href: '/zh-tw/guides/majo/' },
+  { label: '日本語', href: '/ja/guides/majo/' },
+  { label: '한국어', href: '/ko/guides/majo/' },
+].filter(l => l.href !== MJ_UI.baseUrl);
+---
+
+<MajoLangLayout
+  ui={ MJ_UI }
+  title="Home"
+  description="{ MJ_UI.gameName } wiki ({ MJ_UI.langLabel }): R18 strategy gacha RPG on EROLABS. Witch database with official { MJ_UI.langLabel } game text."
+>
+
+  <div class="majo-bg-video-wrap" aria-hidden="true">
+    <video class="majo-bg-video" autoplay muted loop playsinline preload="auto">
+      <source src="/videos/majo-hero.mp4" type="video/mp4" />
+    </video>
+  </div>
+
+  <section class="majo-content-section">
+    <div class="majo-story">
+      { MJ_UI.storyParas.map(p => (
+        <p>
+          { withStrong(p, MJ_UI.storyStrong).map(part => part === MJ_UI.storyStrong ? <strong>{ part }</strong> : part) }
+        </p>
+      )) }
+    </div>
+
+    <div class="majo-title-video-wrap">
+      <video
+        class="majo-title-video majo-title-video-wide"
+        controls
+        preload="metadata"
+        playsinline
+        poster={ `${R2}/hero.webp` }
+      >
+        <source src="/videos/majo-title.mp4" type="video/mp4" />
+      </video>
+      <video
+        class="majo-title-video majo-title-video-square"
+        controls
+        preload="metadata"
+        playsinline
+        poster="/videos/majo-title-16x9-poster.jpg"
+      >
+        <source src="/videos/majo-title-16x9.mp4" type="video/mp4" />
+      </video>
+      <p class="majo-title-video-caption">{ MJ_UI.videoCaption }</p>
+    </div>
+
+    <div class="majo-download-row">
+      <a
+        class="majo-download-btn"
+        href="https://game.erolabsshare.live/app/f302f717/MAJO_Witches_Night"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        { MJ_UI.downloadBtn }
+        <span class="majo-download-arrow">→</span>
+      </a>
+      <a
+        class="majo-download-btn majo-discord-btn"
+        href="https://discord.gg/YdWFddQKR8"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <svg class="majo-discord-icon" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+          <path d="M20.317 4.37a19.79 19.79 0 0 0-4.885-1.515.074.074 0 0 0-.079.037c-.21.375-.444.865-.608 1.25a18.27 18.27 0 0 0-5.487 0 12.64 12.64 0 0 0-.617-1.25.077.077 0 0 0-.079-.037A19.736 19.736 0 0 0 3.677 4.37a.07.07 0 0 0-.032.027C.533 9.046-.32 13.58.099 18.058a.082.082 0 0 0 .031.056 19.9 19.9 0 0 0 5.993 3.03.078.078 0 0 0 .084-.028c.462-.63.874-1.295 1.226-1.994a.076.076 0 0 0-.041-.106 13.107 13.107 0 0 1-1.872-.892.077.077 0 0 1-.008-.128 10.2 10.2 0 0 0 .372-.292.074.074 0 0 1 .077-.01c3.928 1.793 8.18 1.793 12.062 0a.074.074 0 0 1 .078.01c.12.098.246.198.373.292a.077.077 0 0 1-.006.127 12.3 12.3 0 0 1-1.873.892.077.077 0 0 0-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 0 0 .084.028 19.84 19.84 0 0 0 6.002-3.03.077.077 0 0 0 .032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 0 0-.031-.03zM8.02 15.33c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.956-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.956 2.418-2.157 2.418zm7.975 0c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.955-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.946 2.418-2.157 2.418z" />
+        </svg>
+        { MJ_UI.discordBtn }
+      </a>
+    </div>
+  </section>
+
+  <section class="majo-resources-section">
+    <h2 class="majo-resources-title">{ MJ_UI.resourcesTitle }</h2>
+
+    <div class="majo-resources-grid">
+      { MJ_UI.categories.map(cat => (
+        <div class="majo-resource-category">
+          <div class="majo-category-header">
+            <h3>{ cat.title }</h3>
+            <p class="majo-category-description">{ cat.description.replace('{witches}', String(witches)) }</p>
+          </div>
+          <div class="majo-buttons-grid">
+            { cat.buttons.map(b => (
+              <a href={ b.href } class="majo-resource-button">{ b.label }{ b.en ? ' · EN' : '' }</a>
+            )) }
+          </div>
+        </div>
+      )) }
+    </div>
+
+    <div class="majo-lang-row">
+      <p class="majo-lang-title">{ MJ_UI.otherLangsTitle }</p>
+      <div class="majo-lang-chips">
+        { langs.map(l => <a class="majo-lang-chip" href={ l.href }>{ l.label }</a>) }
+      </div>
+    </div>
+  </section>
+
+  <DiscordPromo accent="#8577a8" />
+</MajoLangLayout>
+
+<style>
+  .majo-lang-row {
+    margin-top: 2.5rem;
+    padding-top: 1.75rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+  }
+  .majo-lang-title {
+    margin: 0 0 0.75rem 0;
+    color: rgba(255, 255, 255, 0.75);
+    font-size: 0.9rem;
+  }
+  .majo-lang-chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.6rem;
+  }
+  .majo-lang-chip {
+    padding: 0.45rem 1rem;
+    border: 1px solid rgba(255, 255, 255, 0.22);
+    border-radius: 999px;
+    background: rgba(255, 255, 255, 0.05);
+    color: rgba(255, 255, 255, 0.85);
+    text-decoration: none;
+    font-size: 0.875rem;
+  }
+</style>

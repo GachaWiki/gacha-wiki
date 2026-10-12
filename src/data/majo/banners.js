@@ -14,7 +14,7 @@ export const bannerTypes = [
     kind: 'Standard banner',
     pity: '100th Contact guarantees an SSR Witch',
     details: [
-      'Permanent pool. Rotating rate-ups have included Jenny, Yuhong, Lumi and Patra.',
+      'Permanent pool. Rotating rate-ups have included Jenny, Yuhong, Lumi (returning Oct 21 to Nov 11) and Patra.',
       'Wishlist: pick one witch and her weight among SSR results increases 100x (does not change the overall SSR rate).',
       'Pity count resets on any SSR and does NOT carry over between Origin pools.',
     ],
@@ -38,7 +38,7 @@ export const bannerTypes = [
     details: [
       'Each UR pulled cuts the pity threshold by 10, up to twice (80 down to 70, then to a minimum of 60).',
       'Pity count is RETAINED and carries over between Eternal Contact pools.',
-      'Eternal series features: Isabelle (first pool, opened Aug 26), then Dayu, Macak and Daphine in rotation, plus Bazhuli (Sep 16 to Oct 7).',
+      'Eternal series featured runs so far: Isabelle (first pool, opened Aug 26), Bazhuli (Sep 16 to Oct 7), Bellakey (Oct 7 to Oct 28), Daphine (Oct 28 to Nov 18). Dayu and Macak appear in the standing rotation text.',
     ],
   },
   {
@@ -75,6 +75,30 @@ export const bannerTypes = [
 
 export const bannerTimeline = [
   {
+    name: 'Daphine UR Pickup',
+    image: 'https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/majo/banners/ur-pu-4-daphine.webp',
+    imageWidth: 1200,
+    imageHeight: 480,
+    type: 'Eternal Contact',
+    date: 'Oct 28 to Nov 18, 2026',
+    dateNote: 'run window',
+    featured: ['Daphine'],
+    slugs: [],
+    note: 'Announced in the October update. Daphine is a UR Healer per client data (P0021, "Exotic Perfumer"); her kit ships Oct 28 with her event, The Perfumer\'s Final Destination. Same Eternal pity rules: 80, then 70, then 60, carried over between Eternal pools.',
+  },
+  {
+    name: 'Bellakey UR Pickup',
+    image: 'https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/majo/banners/ur-pu-3-bellakey.webp',
+    imageWidth: 1200,
+    imageHeight: 480,
+    type: 'Eternal Contact',
+    date: 'Oct 7 to Oct 28, 2026',
+    dateNote: 'run window',
+    featured: ['Bellakey'],
+    slugs: ['bellakey'],
+    note: 'First Bellakey run and the first UR Fighter. Community reroll-account sellers already swapped their default target to her. Pity 80, then 70, then 60, carried over between Eternal pools.',
+  },
+  {
     name: 'Luoqin + Lucia dual Pickup',
     image: 'https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/majo/banners/ssr-pu-3-luoqin-lucia.webp',
     imageWidth: 1200,
@@ -84,7 +108,7 @@ export const bannerTimeline = [
     dateNote: 'start date',
     featured: ['Luoqin', 'Lucia'],
     slugs: ['luoqin', 'lucia'],
-    note: 'Dual SSR Pickup with the September pair. Banners confirmed by JP wiki calendar and the official EROLABS announcement.',
+    note: 'Dual SSR Pickup with the September pair. Banners confirmed by JP wiki calendar and the official EROLABS announcement. Runs to Oct 21.',
   },
   {
     name: 'Bazhuli UR Pickup',
@@ -111,16 +135,16 @@ export const bannerTimeline = [
     note: 'Shipped with the September update: wishlist system, PVP, Chapter 7 and the Emily event all landed the same day.',
   },
   {
-    name: 'Daphine, Dayu and Macak UR rotation',
-    image: 'https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/majo/banners/ur-pu-4-dayu.webp',
+    name: 'Eternal Contact UR rotation',
+    image: 'https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/majo/banners/ur-pu-4-daphine.webp',
     imageWidth: 1200,
     imageHeight: 480,
     type: 'Eternal Contact',
-    date: 'Current pool text',
+    date: 'Current pool text (Oct 12, 2026)',
     dateNote: 'rotation',
     featured: ['Daphine', 'Dayu', 'Macak'],
     slugs: ['dayu', 'macak'],
-    note: 'The live Eternal Contact text lists this trio as rate-ups. Dayu is also obtainable from the event exchange shop (about 3,250 event tokens per copy). Daphine is a UR not yet covered by the wiki roster. Data-mined (Sep 23 client data): her personal event is preloaded (event token, chibi avatar, exchange shop and the "The Perfumer\'s Final Destination" challenge stage), but her skill and profile data has not shipped yet.',
+    note: 'The live Eternal Contact pool texts name these three as the standing rotation rate-ups ([Daphine, Dayu, Macak]), while featured runs take the banner one at a time: Isabelle (Aug 26), Bazhuli (Sep 16 to Oct 7), Bellakey (Oct 7 to Oct 28), Daphine (Oct 28 to Nov 18). Dayu is also obtainable from the event exchange shop (about 3,250 event tokens per copy). Daphine joins the wiki roster when she becomes playable on Oct 28 (UR Healer per client data).',
   },
   {
     name: 'Isabelle UR Pickup',

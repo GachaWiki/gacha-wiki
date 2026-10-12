@@ -1,0 +1,54 @@
+---
+// Korean witch detail pages for the MAJO wiki:
+// /ko/guides/majo/characters/<slug>/. Renders the shared
+// CharacterPageTemplate with the game's own Korean text (names, titles,
+// skill strings, lore) from game-text.js; stats-free kit data and all images
+// are the wiki's own, shared with the English pages.
+import MajoLangLayout from '../../../../../layouts/majo/MajoLangLayout.astro';
+import CharacterPageTemplate from '../../../../../templates/majo/CharacterPageTemplate.astro';
+import { majoCharacters } from '../../../../../data/majo/characters.js';
+import { buildLangTextPack } from '../../../../../data/majo/lang-text.js';
+import { MJ_UI } from '../../../../../data/majo/ko/ui.js';
+import {
+  MJ_KO_NAMES,
+  MJ_KO_TITLES,
+  MJ_KO_DESCRIPTIONS,
+  MJ_KO_SKILLS,
+  MJ_KO_CLASSES,
+  MJ_KO_FACTIONS,
+  MJ_KO_ATTACK_TYPES,
+} from '../../../../../data/majo/ko/game-text.js';
+
+const GT = { NAMES: MJ_KO_NAMES, TITLES: MJ_KO_TITLES, DESCRIPTIONS: MJ_KO_DESCRIPTIONS, SKILLS: MJ_KO_SKILLS, CLASSES: MJ_KO_CLASSES, FACTIONS: MJ_KO_FACTIONS, ATTACK_TYPES: MJ_KO_ATTACK_TYPES };
+
+// NOTE: getStaticPaths is hoisted above the frontmatter consts by the Astro
+// compiler, so it must reference the imported MJ_KO_NAMES directly, never GT
+// (which would be a temporal-dead-zone ReferenceError).
+export function getStaticPaths() {
+  return majoCharacters.filter(c => MJ_KO_NAMES[c.slug]).map(c => ({
+    params: { slug: c.slug },
+  }));
+}
+
+// computed in the body (NOT inside getStaticPaths) because the compiler
+// hoists getStaticPaths above these consts
+const char = majoCharacters.find(c => c.slug === Astro.params.slug);
+const t = buildLangTextPack(char, GT);
+const dbLabel = MJ_UI.nav[0].links[0].name;
+const skillSections = MJ_UI.skillSections.map(s => ({
+  key: s.key,
+  label: s.label,
+  tag: s.tag,
+  icon: { normal: 'NormalSkill', auto: 'AutoSkill', class: 'ClassSkill', extreme: 'ExtremeSkill', interference: 'Interference', passive: 'PassiveSkill' }[s.key],
+}));
+---
+
+<MajoLangLayout
+  ui={ MJ_UI }
+  title={ `${t.name} (${char.nameEn}), ${char.rarity} ${char.cls}` }
+  description={ `${t.name} ${char.nameEn}, ${char.rarity} ${char.cls}. ${t.title || ''}` }
+  breadcrumbItems={[{ name: MJ_UI.gameName, href: MJ_UI.baseUrl }, { name: dbLabel, href: MJ_UI.baseUrl + 'characters/' }, { name: t.name }]}
+  seoKeywords={ [char.nameEn, char.nameZh, char.nameJa, char.slug] }
+>
+  <CharacterPageTemplate char={ char } t={ t } skillSections={ skillSections } ui={ MJ_UI } />
+</MajoLangLayout>

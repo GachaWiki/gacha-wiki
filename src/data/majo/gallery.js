@@ -216,6 +216,14 @@ export const WITCH_ILLUSTRATIONS = [
       { file: 'P0045_awaken.webp', label: 'Awakened', w: 720, h: 960 },
     ],
   },
+  {
+    id: 'P0047',
+    images: [
+      { file: 'P0047_basic.webp', label: 'Default', w: 720, h: 960 },
+      { file: 'P0047_awaken.webp', label: 'Awakened', w: 1440, h: 1920 },
+      { file: 'P0047_special.webp', label: 'Special', w: 1440, h: 1920 },
+    ],
+  },
 ];
 
 export const STORY_CHAPTERS = [

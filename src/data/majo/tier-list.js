@@ -1,8 +1,10 @@
-// MAJO tier list: kit-based placements (updated 2026-09-16), grouped by class.
+// MAJO tier list: kit-based placements (updated 2026-10-12), grouped by class.
 // Placements are editorial, grounded in each witch's full skill data in
 // characters.js and cross-checked with community lists (OSLink 2026-08-18,
-// GamingPile 2026-08-30, Bilibili + Gamerch 2026-09-16). Emily and bazhuli
-// are community-checked; luoqin and lucia (banner 2026-09-30) are kit-only.
+// GamingPile 2026-08-30, Bilibili + Gamerch 2026-09-16, and the October wave:
+// Bilibili tier video 2026-10-08, Gamerch tier list 2026-10-03, DC Inside
+// god-tier ladder 2026-10-11). Bellakey is community-checked (CN #1 overall
+// claim at 6 stars, KR just below Bazhuli and Yuhong, JP provisional S).
 // NEW WITCHES MUST BE ADDED TO MAJO_TIER_PLACEMENTS or they land in C with a
 // console warning in dev.
 
@@ -23,14 +25,19 @@ export const MAJO_CLASS_SECTIONS = ['Fighter', 'Mage', 'Tank', 'Healer'];
 
 const CLASS_ZH = { Fighter: '破阵', Mage: '飞袭', Tank: '守护', Healer: '支援' };
 
-export const MAJO_TIER_UPDATED = 'September 16, 2026';
+export const MAJO_TIER_UPDATED = 'October 12, 2026';
 
 // slug -> { tier, reason, isNew? }
 export const MAJO_TIER_PLACEMENTS = {
   // Fighters (破阵)
   xinzi: {
-    tier: 'S',
-    reason: 'Single-target breaker: a +100% Crit Rate Salvo auto, a teleport Extreme with heavy Stagger, and a 90% damage-reduction Dodge Counter. The all-region community core: strongest free DPS in the game.',
+    tier: 'SS',
+    reason: 'Single-target breaker: a +100% Crit Rate Salvo auto, a teleport Extreme with heavy Stagger, and a 90% damage-reduction Dodge Counter. The all-region community core and strongest free DPS in the game. The CN all-character analysis rates her its top grade (shared only with paid Zhijie, "the reason dedicated Guardians lose their jobs") and the KR October god-tier ladder puts her fourth overall behind Bazhuli, Yuhong and Bellakey.',
+  },
+  bellakey: {
+    tier: 'SS',
+    reason: 'New. The first UR Fighter: a teleport Extreme that pulls priority aggro onto herself for 12 seconds while landing 11 hits (about 1200%, awakened about 1370%) and shaving 2% enemy Crit Resist per hit (down to 22%), a 453% crit-boosted Dodge Counter that feeds 10 Extreme charge, and every ally crit adds 5000 more charge on a 3 second cooldown. CN guides call her overall strength the current number one (sustained DPS still below Bazhuli, physical rules PVP) and KR ranks her just under Bazhuli and Yuhong. Caveats: no invulnerability during the long ult, vulnerable to crowd control, and Yun\'s parry shuts down her posture-free Extreme in the arena.',
+    isNew: true,
   },
   huarui: {
     tier: 'A',
@@ -38,8 +45,7 @@ export const MAJO_TIER_PLACEMENTS = {
   },
   luoqin: {
     tier: 'A',
-    reason: 'New. Burst-window fighter: her Extreme self-buffs +50% Attack Speed, +25% Crit Rate and +50% Crit Damage while locking both skill cooldowns to 4 seconds. Her Crit Damage Interference fits every crit DPS.',
-    isNew: true,
+    reason: 'Burst-window fighter: her Extreme self-buffs +50% Attack Speed, +25% Crit Rate and +50% Crit Damage while locking both skill cooldowns to 4 seconds. Her Crit Damage Interference fits every crit DPS. A month of community verdicts agree on A: CN calls the September pair "very decent", JP sees a spirit-version Xinzi that needs 6-star and maxed investment to bloom, and KR likes the damage but notes she overlaps Xinzi.',
   },
   alice: {
     tier: 'A',
@@ -84,14 +90,12 @@ export const MAJO_TIER_PLACEMENTS = {
     reason: 'Support-mage: her Charge zone drips +8% team damage per second, her Extreme self-buffs +50/80% Crit Damage, and her Interference spawns an ally Attack zone after every ult.',
   },
   lucia: {
-    tier: 'A',
-    reason: 'New. Execution sword-mage: a multi-hit Extreme ending in a 1008% blast with 30 total Stagger, a knockdown-locked 600% Execution auto, and a Crit Power Interference.',
-    isNew: true,
+    tier: 'S',
+    reason: 'Execution sword-mage: a multi-hit Extreme ending in a 1008% blast with 30 total Stagger, a knockdown-locked 600% Execution auto, and a Crit Power Interference. A month in, communities rate her the mental team\'s core: JP ranks her Assault number one and Spirit number one ("might have the highest total performance of anyone") and KR calls her a unique debuffer worth maxing over Luoqin. Weaknesses: short range and low bulk on the frontline.',
   },
   bazhuli: {
     tier: 'SS',
-    reason: "New. UR ult-cycler: her awakened Extreme drops 4 lingering zones at 50% damage per second each, her kit self-stacks up to +80 Extreme charge speed, and every ally ult refunds her Class cooldown and feeds her passive up to +40% Extreme damage (10 stacks x 4%). CN players already call her the top DPS efficiency in the game and JP ranks her the #1 magic attacker, with one caveat: she is welded to Patra's ult cycle and wants heavy investment.",
-    isNew: true,
+    reason: "UR ult-cycler: her awakened Extreme drops 4 lingering zones at 50% damage per second each, her kit self-stacks up to +80 Extreme charge speed, and every ally ult refunds her Class cooldown and feeds her passive up to +40% Extreme damage (10 stacks x 4%). A month of play confirms the hype: CN calls her output efficiency the best in the game (sustained DPS above Bellakey), KR's ladder has her first overall and irreplaceable, JP rates her S but notes evasion units shut her down in PVP and her multipliers lag her charge speed. She is welded to Patra's ult cycle and wants heavy investment.",
   },
   grina: {
     tier: 'B',
@@ -143,8 +147,7 @@ export const MAJO_TIER_PLACEMENTS = {
   },
   emily: {
     tier: 'SS',
-    reason: 'New. The only team-wide Ultimate charger in the game (+320 charge, +640 for high-cost allies, on her auto) plus all-ally Extreme damage from her own ult and a hybrid heal-damage Extreme. Ult-cycle teams want her everywhere.',
-    isNew: true,
+    reason: 'The only team-wide Ultimate charger in the game (+320 charge, +640 for high-cost allies, on her auto) plus all-ally Extreme damage from her own ult and a hybrid heal-damage Extreme. Ult-cycle teams want her everywhere. A month in: JP keeps her Support number one (S) while trading ult rotation for one-shot party-wide recovery vs Peseshet, CN calls her skippable if you already run paid Zhijie, and KR barely discusses her because free Peseshet covers their healer slot.',
   },
   peseshet: {
     tier: 'A',
