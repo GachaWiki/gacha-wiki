@@ -1,20 +1,23 @@
-// Gene-Sys: Adam tier list: kit-based placements (updated 2026-09-22: Qing Yin,
-// Leng Zhen added, Connie rescored now that her kit ships readable data),
-// grouped by job like the majo list. Placements are editorial, grounded in
-// each character's skill data in characters.js (multipliers, cooldowns, EN
-// costs, buff values). Day-one launch assessment: no community consensus
-// exists yet, dupes and star upgrades are not factored.
+// Gene-Sys: Adam tier list: kit-based placements, SSR only (updated
+// 2026-10-08: the SR tab was dropped so the page rates the premium roster
+// only, an element view was added for pursuit-based team building, and
+// Fujiwara Arisa was rated now that her art shipped). Two views over the
+// same SSR roster: by job (combat style) and by element (pursuit teams).
+// Placements are editorial, grounded in each character's skill data in
+// characters.js (multipliers, cooldowns, EN costs, buff values). No community
+// consensus exists yet, dupes and star upgrades are not factored.
 // Rarities come from the gacha tables, not guesswork: joining DrawSingleData
 // buckets to DrawMachineChanceTitleData makes group 3 = SR (cr031-cr041 plus
 // quest-only Theodore on the same qualification tier) and group 4+ = SSR
 // (cr043 and up; Amber and Rachel also appear in an explicit Pick UP SSR
-// bucket). The beginner callout below carries the early-game reality the
-// tiers cannot show: class upgrades are dupe-gated, so invested SRs carry
-// progression.
-// NEW CHARACTERS MUST BE ADDED TO GSA_TIER_PLACEMENTS or they land in C with
+// bucket). SR placements are still kept below: the early-game callout reads
+// their rarity badges, and the assessments survive if SRs ever return to the
+// page. They simply do not render in the SSR-only list.
+// NEW SSR CHARACTERS MUST BE ADDED TO GSA_TIER_PLACEMENTS or they land in C with
 // a console warning in dev.
 
 import { gsaCharacters } from './characters.js';
+import { GSA_ELEMENT_MATCHUPS, GSA_PURSUIT_CHAINS } from './elements.js';
 
 // Same tier ladder colors as the majo list so tiers read the same site-wide.
 // SSS is RESERVED for a future "broken" unit; it stays empty and hidden until
@@ -51,9 +54,21 @@ export const GSA_JOB_SECTIONS = [
   { job: 'Breaker', zh: '破壞', icon: `${R2}/master_0.webp` },
 ];
 
-export const GSA_TIER_UPDATED = 'September 22, 2026';
+// Element view sections in element id order, each carrying its status-to-
+// pursuit chain so the section header can show what the element's pursuit
+// team is built around.
+export const GSA_ELEMENT_SECTIONS = Object.entries(GSA_ELEMENT_MATCHUPS)
+  .sort((a, b) => a[1].id - b[1].id)
+  .map(([name, m]) => ({
+    element: name,
+    zh: m.zh,
+    icon: m.icon,
+    chain: GSA_PURSUIT_CHAINS[name],
+  }));
 
-// Early-game callout rendered above the job sections. The tiers rate end-state
+export const GSA_TIER_UPDATED = 'October 8, 2026';
+
+// Early-game callout rendered above the views. The tiers rate end-state
 // power; this box explains why low placements still carry your account early.
 export const GSA_BEGINNER_NOTE = {
   title: 'Early-game priorities',
@@ -68,6 +83,17 @@ export const GSA_BEGINNER_NOTE = {
     name: 'Last slot',
     note: 'Your highest-dupe SSR, or an SR with good dupes from missions. Prioritize a DPS.',
   },
+};
+
+// Pursuit system callout rendered right after the early-game box. Copy is
+// grounded in the game's own combat tips (the EN localization of the
+// "what is Pursuit" tip plus the per-element initiator and finisher
+// descriptions); the chain table itself comes from elements.js.
+export const GSA_PURSUIT_NOTE = {
+  title: 'The Pursuit system',
+  intro: 'Past the early game, combat is built around Pursuits: bonus attacks that fire when a skill carrying a Pursuit effect hits an enemy suffering the matching status. Every element owns exactly one pair, listed below. The status half comes from initiator skills: Freeze, Petrify and their siblings disable the enemy and interrupt casting while they hold. The pursuit half is the "trigger an Ice Break M Pursuit" line on a skill: land that skill on a Frozen target and a burst of extra damage follows. Pursuits are graded S, M and L, and the higher the grade the harder they hit. The status is consumed when the pursuit fires, so the working core is one initiator keeping the status up while the rest of the team unloads pursuit skills into it.',
+  chainsIntro: 'Status, the pursuit it triggers, and what the pursuit does when it fires:',
+  footnote: 'This chain is why the element view below exists: pick the element your initiator and your finishers share, keep the +30% / -30% advantage wheel in mind, and build the team around the loop.',
 };
 
 // slug -> { tier, rarity, reason }
@@ -113,6 +139,7 @@ export const GSA_TIER_PLACEMENTS = {
   'connie': { tier: 'B', rarity: 'SSR', reason: 'An anti-healer: her loop and active aim at the lowest-HP targets and stack Healing Down with Healing Received Down 25%, and the awakened passive gives the whole team ATK SPD Up 23%. The ultimate\u0027s Abyss pursuit needs the Ebon status, which nobody on the roster applies yet. Real PvP utility, modest raw numbers.' },
   'qing-yin': { tier: 'S', rarity: 'SSR', reason: 'CC-and-burst Breaker: a 6s loop that stuns at Extremely High chance, an 827% double-strike ultimate with Attack Up 15% and ATK SPD Up 30% attached, and Wind Res Down 12% shredding. Every line prioritizes Electrocuted targets, so she wants Li Mu or Ruby applying Shock, and the awakened passives spread Crit Chance 14% and Energy DMG Up 6% to the team.' },
   'leng-zhen': { tier: 'S', rarity: 'SSR', reason: 'A second energy battery with Freeze attached: her active injects +2 team EN per hit (+2.5 awakened, on her normal attack too), the loop lands three Freeze M rolls every 6s, and the ultimate is a 900% three-hit with Freeze Hit Rate Up 35% and a freeze on every strike. Awakened passive adds party Skill Damage Up 12.5%. Random targeting keeps the numbers unfocused, but Freeze feeds the Ice Break core.' },
+  'fujiwara-arisa': { tier: 'S', rarity: 'SSR', reason: 'Single-target Fire carry and the SSR Burn initiator: a 435% three-hit talent, a nine-hit 900% ultimate that stuns and applies Burn M, and Burn S on her auto loop. Fire teams run her to keep Burn up so the Detonate carriers (Elena, Theodore) can pursue.' },
 };
 
 const placementOf = slug =>
@@ -122,53 +149,72 @@ const placementOf = slug =>
     reason: 'No written assessment yet. Defaulted to C.',
   };
 
-// Job sections -> tier rows -> compact character cards, SPLIT BY RARITY into
-// SSR / SR tab groups: each tab rates one rarity against itself, since dupes
-// gate class-ups and an invested SR is not competing with a base SSR. The
-// reasons stay here in the data file, they are not rendered on the page,
-// matching the majo list. Unplaced characters default to C on the SSR tab
-// (the dev warning below flags them).
+// SSR-only list (2026-10-08): the SR tab was dropped. SR placements above
+// stay for the early-game callout and possible future re-inclusion, but only
+// SSR units render here. Unplaced SSR characters default to C (the dev
+// warning below flags them).
 //
 // RELEASE GATE: only units with pulled icon art are listed. This game
 // preloads future kits and draw-table buckets into the client before the
 // server enables them, and a unit's art bundle only downloads once it is
 // actually encounterable in game, so "has art" = "released". Artless units
-// (qing-yin, leng-zhen, elena, victoria, connie, belle-clumsy-cowgirl as of
-// the September 22 data pull) stay off the list and return automatically
-// once their bundles are pulled and uploaded.
+// (qing-yin, leng-zhen, elena, victoria, connie as of the October 8 data
+// pull) stay off the list and return automatically once their bundles are
+// pulled and uploaded.
 const isReleased = c => Boolean(c.icon);
+const isSSR = c => (placementOf(c.slug).rarity || 'SSR') === 'SSR';
 
-export const gsaTierTabs = ['SSR', 'SR'].map(rarity => ({
-  rarity,
-  jobs: GSA_JOB_SECTIONS.concat([{
-    // characters with no job data yet would land here
-    job: 'Unclassified',
-    zh: '未分類',
-  }]).map(({ job, zh, icon }) => ({
-    job,
-    zh,
-    icon,
-    tiers: GSA_TIERS.map(({ tier, color }) => ({
-      tier,
-      color,
-      characters: gsaCharacters
-        .filter(c => isReleased(c)
-          && (c.job ? c.job.name === job : job === 'Unclassified')
-          && (placementOf(c.slug).rarity || 'SSR') === rarity
-          && placementOf(c.slug).tier === tier)
-        .map(c => ({ ...c, placement: placementOf(c.slug) }))
-        .sort((a, b) => a.name.localeCompare(b.name)),
-    })).filter(t => t.characters.length > 0),
-  })).filter(g => g.tiers.length > 0),
-}));
+const releasedSSR = gsaCharacters.filter(c => isReleased(c) && isSSR(c));
 
-export const gsaTierTabCount = rarity =>
-  gsaCharacters.filter(c => isReleased(c) && (placementOf(c.slug).rarity || 'SSR') === rarity).length;
+// One section's members bucketed into tier rows, name-sorted inside a row.
+const tierRows = members => GSA_TIERS
+  .map(({ tier, color }) => ({
+    tier,
+    color,
+    characters: members
+      .filter(c => placementOf(c.slug).tier === tier)
+      .map(c => ({ ...c, placement: placementOf(c.slug) }))
+      .sort((a, b) => a.name.localeCompare(b.name)),
+  }))
+  .filter(t => t.characters.length > 0);
+
+// Two views over the same SSR roster: by job (combat style) and by element
+// (pursuit teams, each header showing the element's status-to-pursuit chain).
+// The reasons stay here in the data file, they are not rendered on the page,
+// matching the majo list.
+export const GSA_TIER_VIEWS = [
+  {
+    view: 'job',
+    label: 'By Job',
+    sections: GSA_JOB_SECTIONS.concat([{
+      // characters with no job data yet would land here
+      job: 'Unclassified',
+      zh: '未分類',
+    }]).map(({ job, zh, icon }) => {
+      const tiers = tierRows(releasedSSR.filter(c => (c.job ? c.job.name : 'Unclassified') === job));
+      return tiers.length ? { key: job, title: job, zh, icon, tiers } : null;
+    }).filter(Boolean),
+  },
+  {
+    view: 'element',
+    label: 'By Element',
+    sections: GSA_ELEMENT_SECTIONS.concat([{
+      // characters with no element data yet would land here
+      element: 'Unclassified',
+      zh: '未分類',
+    }]).map(section => {
+      const tiers = tierRows(releasedSSR.filter(c => (c.element ? c.element.name : 'Unclassified') === section.element));
+      return tiers.length ? { ...section, key: section.element, title: section.element, tiers } : null;
+    }).filter(Boolean),
+  },
+];
+
+export const gsaTierSsrCount = releasedSSR.length;
 
 if (import.meta.env.DEV) {
-  const unplaced = gsaCharacters.filter(c => !GSA_TIER_PLACEMENTS[c.slug]);
+  const unplaced = releasedSSR.filter(c => !GSA_TIER_PLACEMENTS[c.slug]);
   if (unplaced.length) {
-    console.warn('[gsa-tier-list] characters without a placement (rendered as C):', unplaced.map(c => c.slug));
+    console.warn('[gsa-tier-list] SSR characters without a placement (rendered as C):', unplaced.map(c => c.slug));
   }
   const artless = gsaCharacters.filter(c => !isReleased(c));
   if (artless.length) {

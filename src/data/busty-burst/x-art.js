@@ -13,7 +13,7 @@ export const BB_X_CARDS = {
   "agile-mercenary-shaty": [
     { src: "x/1912438338088497177-1.webp", lang: "jp", date: "2025-04-16", name: "【凄腕傭兵】シャティ" },
   ],
-  "aiming-for-your-heart-shati": [
+  "aiming-for-your-heart-shaty": [
     { src: "x/1816742775326646462-1.webp", lang: "jp", date: "2024-07-26", name: "【キミのハートを狙い撃ち♪】シャティ" },
   ],
   "american-police-lapis": [
@@ -42,7 +42,7 @@ export const BB_X_CARDS = {
   "bewildered-bride-magdalena": [
     { src: "x/1932747137936187469-1.webp", lang: "jp", date: "2025-06-11", name: "【困惑の花嫁】マグダレーナ" },
   ],
-  "big-wave-surfing-of-love-priscilla": [
+  "riding-the-big-wave-of-love-priscilla": [
     { src: "x/1816742556182675683-1.webp", lang: "jp", date: "2024-07-26", name: "【恋のビッグウェーブライド】プリシラ" },
   ],
   "bikini-beatdown-gil": [
@@ -512,7 +512,7 @@ export const BB_X_VIDEO_ART = {
   "agile-mercenary-shaty": [
     { src: "x/1912445864322428962-1.webp", lang: "jp", date: "2025-04-16" , video: "x/videos/1912445864322428962.mp4" },
   ],
-  "aiming-for-your-heart-shati": [
+  "aiming-for-your-heart-shaty": [
     { src: "x/1816742990699975104-1.webp", lang: "jp", date: "2024-07-26" , video: "x/videos/1816742990699975104.mp4" },
   ],
   "artist-on-ice-ilugio": [

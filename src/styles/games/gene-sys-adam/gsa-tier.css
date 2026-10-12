@@ -264,9 +264,142 @@ a.gsa-tier-card:active {
   margin: 0 auto;
 }
 
-/* Rarity tabs (SSR / SR): each rarity gets its own scale, since dupes gate
-   class-ups and invested SRs are not competing with base SSRs. Flat buttons,
-   active = accent fill, no hover effects. */
+/* Pursuit system callout: status-to-pursuit chains per element. Static. */
+.gsa-pursuit-box {
+  background: var(--gsa-bg-secondary);
+  border: 1px solid var(--gsa-border);
+  border-radius: 14px;
+  padding: 1.4rem 1.5rem;
+  margin-bottom: 2.25rem;
+}
+
+.gsa-pursuit-chains-intro {
+  color: var(--gsa-text-dim);
+  font-size: 0.82rem;
+  font-weight: 600;
+  margin: 0 0 0.6rem;
+}
+
+.gsa-pursuit-chains {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 0.6rem;
+  margin: 0 0 0.9rem;
+}
+
+.gsa-pursuit-chain {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+  background: var(--gsa-bg-tertiary);
+  border: 1px solid var(--gsa-border);
+  border-radius: 10px;
+  padding: 0.55rem 0.8rem;
+}
+
+.gsa-pursuit-elem {
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+  min-width: 88px;
+  color: var(--gsa-text);
+}
+
+.gsa-pursuit-elem img {
+  width: 30px;
+  height: 30px;
+  border-radius: 7px;
+  background: #171114;
+  border: 1px solid var(--gsa-border);
+  display: block;
+}
+
+.gsa-pursuit-elem b {
+  font-size: 0.92rem;
+  display: flex;
+  align-items: baseline;
+  gap: 0.3rem;
+}
+
+.gsa-pursuit-elem-zh {
+  font-style: normal;
+  font-size: 0.78rem;
+  font-weight: 500;
+  color: #e0596b;
+}
+
+.gsa-pursuit-status,
+.gsa-pursuit-name {
+  font-size: 0.76rem;
+  font-weight: 800;
+  letter-spacing: 0.03em;
+  padding: 3px 10px;
+  border-radius: 999px;
+  white-space: nowrap;
+}
+
+.gsa-pursuit-status {
+  background: var(--gsa-accent-tint);
+  color: var(--gsa-accent-strong);
+}
+
+.gsa-pursuit-name {
+  background: var(--gsa-gold);
+  color: #1c1610;
+}
+
+.gsa-pursuit-arrow {
+  color: var(--gsa-text-dim);
+  flex-shrink: 0;
+}
+
+.gsa-pursuit-effect {
+  flex: 1;
+  min-width: 120px;
+  font-size: 0.78rem;
+  color: var(--gsa-text-dim);
+  line-height: 1.4;
+}
+
+.gsa-pursuit-footnote {
+  color: var(--gsa-text-dim);
+  font-size: 0.84rem;
+  line-height: 1.55;
+  margin: 0;
+  max-width: 90ch;
+}
+
+/* Element section header chip: the element's pursuit chain in one line. */
+.gsa-tier-pursuit-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.76rem;
+  font-weight: 700;
+  color: var(--gsa-text-dim);
+  background: var(--gsa-bg-tertiary);
+  border: 1px solid var(--gsa-border);
+  border-radius: 999px;
+  padding: 4px 12px;
+  white-space: nowrap;
+}
+
+@media (max-width: 760px) {
+  .gsa-tier-job-header {
+    flex-wrap: wrap;
+    row-gap: 0.5rem;
+  }
+  .gsa-tier-pursuit-chip {
+    order: 5;
+  }
+  .gsa-tier-job-count {
+    margin-left: auto;
+  }
+}
+
+/* View tabs (By Job / By Element): two groupings of the same SSR roster.
+   Flat buttons, active = accent fill, no hover effects. */
 .gsa-tier-tabs {
   display: flex;
   gap: 10px;

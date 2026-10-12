@@ -1,19 +1,19 @@
 ---
-// Gene-Sys: Adam tier list: job sections with tier rows, same shape as the
-// majo list. Reasons live in tier-list.js, not on the page.
+// Gene-Sys: Adam tier list: SSR only, with a job view and an element view
+// over the same roster. The pursuit note (after the early-game callout)
+// explains the status-to-pursuit chains the element view is built around.
+// Reasons live in tier-list.js, not on the page.
 import GSALayout from '../../../layouts/gene-sys-adam/LandingLayout.astro';
-import { gsaTierTabs, gsaTierTabCount, GSA_TIER_UPDATED, GSA_BEGINNER_NOTE, GSA_TIER_PLACEMENTS, gsaRarityBadge } from '../../../data/gene-sys-adam/tier-list.js';
+import { GSA_TIER_VIEWS, gsaTierSsrCount, GSA_TIER_UPDATED, GSA_BEGINNER_NOTE, GSA_PURSUIT_NOTE, GSA_TIER_PLACEMENTS, gsaRarityBadge, GSA_ELEMENT_SECTIONS } from '../../../data/gene-sys-adam/tier-list.js';
 import { gsaCharacters } from '../../../data/gene-sys-adam/characters.js';
 import GSAElementCard from '../../../components/gene-sys-adam/GSAElementCard.astro';
 import '../../../styles/games/gene-sys-adam/gsa-common.css';
 import '../../../styles/games/gene-sys-adam/gsa-tier.css';
-
-const total = gsaTierTabs.reduce((n, t) => n + gsaTierTabCount(t.rarity), 0);
 ---
 
 <GSALayout
   title="Tier List"
-  description={`Gene-Sys: Adam tier list (${GSA_TIER_UPDATED}): all ${total} released characters rated by combat style, from the decrypted kit numbers.`}
+  description={`Gene-Sys: Adam SSR tier list (${GSA_TIER_UPDATED}): all ${gsaTierSsrCount} SSR characters rated by job and by element, from the decrypted kit numbers.`}
   gameTitle="Tier List"
   crumbName="Tier List"
 >
@@ -55,33 +55,58 @@ const total = gsaTierTabs.reduce((n, t) => n + gsaTierTabCount(t.rarity), 0);
       </div>
     </div>
 
-    <div class="gsa-tier-tabs" role="tablist" aria-label="Rarity">
-      {gsaTierTabs.map((tab, i) => (
+    <div class="gsa-pursuit-box">
+      <h2 class="gsa-beginner-title">{GSA_PURSUIT_NOTE.title}</h2>
+      <p class="gsa-beginner-intro">{GSA_PURSUIT_NOTE.intro}</p>
+      <p class="gsa-pursuit-chains-intro">{GSA_PURSUIT_NOTE.chainsIntro}</p>
+      <div class="gsa-pursuit-chains">
+        {GSA_ELEMENT_SECTIONS.map(({ element, zh, icon, chain }) => (
+          <div class="gsa-pursuit-chain">
+            <span class="gsa-pursuit-elem">
+              <img src={icon} alt="" width="36" height="36" loading="lazy" />
+              <b>{element}<i class="gsa-pursuit-elem-zh">{zh}</i></b>
+            </span>
+            <span class="gsa-pursuit-status" title={`${chain.status} (${chain.statusZh})`}>{chain.status}</span>
+            <svg class="gsa-pursuit-arrow" viewBox="0 0 26 12" width="22" height="10" aria-hidden="true"><path d="M0 6 H20 M15 1 L20 6 L15 11" stroke="currentColor" fill="none" stroke-width="2" /></svg>
+            <span class="gsa-pursuit-name" title={`${chain.pursuit} (${chain.pursuitZh})`}>{chain.pursuit}</span>
+            <span class="gsa-pursuit-effect">{chain.effect}</span>
+          </div>
+        ))}
+      </div>
+      <p class="gsa-pursuit-footnote">{GSA_PURSUIT_NOTE.footnote}</p>
+    </div>
+
+    <div class="gsa-tier-tabs" role="tablist" aria-label="Tier list view">
+      {GSA_TIER_VIEWS.map((v, i) => (
         <button
           class={`gsa-tier-tab${i === 0 ? ' active' : ''}`}
-          data-rarity-tab={tab.rarity}
+          data-view-tab={v.view}
           role="tab"
           aria-selected={i === 0 ? 'true' : 'false'}
         >
-          {tab.rarity}
-          <span class="gsa-tier-tab-count">{gsaTierTabCount(tab.rarity)}</span>
+          {v.label}
         </button>
       ))}
     </div>
 
-    {gsaTierTabs.map((tab, i) => (
-      <div class="gsa-tier-tabpanel" data-rarity-panel={tab.rarity} style={i > 0 ? 'display:none' : undefined}>
-        {tab.jobs.map(group => (
+    {GSA_TIER_VIEWS.map((v, i) => (
+      <div class="gsa-tier-tabpanel" data-view-panel={v.view} style={i > 0 ? 'display:none' : undefined}>
+        {v.sections.map(section => (
           <div class="gsa-tier-job-section">
             <div class="gsa-tier-job-header">
-              {group.icon && <img class="gsa-tier-job-icon" src={group.icon} alt="" width="40" height="40" loading="lazy" />}
-              <h2 class="gsa-tier-job-title">{group.job}<span class="gsa-tier-job-zh">{group.zh}</span></h2>
+              {section.icon && <img class="gsa-tier-job-icon" src={section.icon} alt="" width="40" height="40" loading="lazy" />}
+              <h2 class="gsa-tier-job-title">{section.title}<span class="gsa-tier-job-zh">{section.zh}</span></h2>
+              {section.chain && (
+                <span class="gsa-tier-pursuit-chip" title={`${section.chain.effect} when it fires`}>
+                  {section.chain.status} triggers {section.chain.pursuit}
+                </span>
+              )}
               <span class="gsa-tier-job-count">
-                {group.tiers.reduce((n, t) => n + t.characters.length, 0)} characters
+                {section.tiers.reduce((n, t) => n + t.characters.length, 0)} characters
               </span>
             </div>
             <div class="gsa-tier-grid">
-              {group.tiers.map(row => (
+              {section.tiers.map(row => (
                 <div class="gsa-tier-row">
                   <div class="gsa-tier-label">
                     <span class="gsa-tier-name" style={`color:${row.color}`}>{row.tier}</span>
@@ -114,7 +139,7 @@ const total = gsaTierTabs.reduce((n, t) => n + gsaTierTabCount(t.rarity), 0);
 </GSALayout>
 
 <script is:inline>
-  // Rarity tabs: SSR and SR rate their own tier lists independently.
+  // View tabs: the same SSR roster grouped by job or by element.
   (function () {
     var tabs = document.querySelectorAll('.gsa-tier-tab');
     var panels = document.querySelectorAll('.gsa-tier-tabpanel');
@@ -123,9 +148,9 @@ const total = gsaTierTabs.reduce((n, t) => n + gsaTierTabCount(t.rarity), 0);
         tabs.forEach(function (b) { b.classList.remove('active'); b.setAttribute('aria-selected', 'false'); });
         btn.classList.add('active');
         btn.setAttribute('aria-selected', 'true');
-        var rarity = btn.getAttribute('data-rarity-tab');
+        var view = btn.getAttribute('data-view-tab');
         panels.forEach(function (p) {
-          p.style.display = p.getAttribute('data-rarity-panel') === rarity ? '' : 'none';
+          p.style.display = p.getAttribute('data-view-panel') === view ? '' : 'none';
         });
       });
     });

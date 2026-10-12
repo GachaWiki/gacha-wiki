@@ -20,3 +20,8 @@
 # Fix URLs missing trailing slash (redirect to proper version)
 /guides/zone-nova/characters/kela    /guides/zone-nova/characters/kela/    301
 /guides/zone-nova/characters/anubis    /guides/zone-nova/characters/anubis/    301
+# Busty Burst v1.0.26 official EN renames (Oct 2026)
+/guides/busty-burst/characters/aiming-for-your-heart-shati    /guides/busty-burst/characters/aiming-for-your-heart-shaty/    301
+/guides/busty-burst/characters/aiming-for-your-heart-shati/    /guides/busty-burst/characters/aiming-for-your-heart-shaty/    301
+/guides/busty-burst/characters/big-wave-surfing-of-love-priscilla    /guides/busty-burst/characters/riding-the-big-wave-of-love-priscilla/    301
+/guides/busty-burst/characters/big-wave-surfing-of-love-priscilla/    /guides/busty-burst/characters/riding-the-big-wave-of-love-priscilla/    301

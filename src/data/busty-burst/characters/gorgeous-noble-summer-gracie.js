@@ -68,7 +68,7 @@ export const skills = {
     },
     {
       "slot": 3,
-      "name": "Here I come!",
+      "name": "Here I go!",
       "icon": "skill001/skill0019",
       "description": "Applies Debuff Resistance 1%UP to self for 4 seconds and Hit-Based Physical Damage UP(100%+300, 1 hit(s)) for 4 seconds",
       "descriptionLv1": "Applies Debuff Resistance 1%UP to self for 4 seconds and Hit-Based Physical Damage UP(100%+300, 1 hit(s)) for 4 seconds",
@@ -105,7 +105,7 @@ export const skills = {
   "ultimate": [
     {
       "rank": 1,
-      "name": "Super Ultimate Gorgeous Noble Kill Shot!",
+      "name": "Super Ultra Gorgeous Noble Strike!",
       "icon": "skill001/skill0003_1",
       "description": "Deals physical damage to the nearest enemy and inflicts Physical Defense DOWN(LV 1) for 10 seconds",
       "effect": "1100% + 500",
@@ -120,7 +120,7 @@ export const skills = {
     },
     {
       "rank": 2,
-      "name": "Super Ultimate Gorgeous Noble Kill Shot!",
+      "name": "Super Ultra Gorgeous Noble Strike!",
       "icon": "skill001/skill0003_2",
       "description": "Deals physical damage to the nearest enemy and inflicts Physical Defense DOWN(LV 2) for 10 seconds",
       "effect": "1320% + 650",
@@ -135,7 +135,7 @@ export const skills = {
     },
     {
       "rank": 3,
-      "name": "Super Ultimate Gorgeous Noble Kill Shot!",
+      "name": "Super Ultra Gorgeous Noble Strike!",
       "icon": "skill001/skill0003_3",
       "description": "Deals physical damage to the nearest enemy and inflicts Physical Defense DOWN(LV 3) for 10 seconds",
       "effect": "1470% + 800",
@@ -150,7 +150,7 @@ export const skills = {
     },
     {
       "rank": 4,
-      "name": "Super Ultimate Gorgeous Noble Kill Shot!",
+      "name": "Super Ultra Gorgeous Noble Strike!",
       "icon": "skill001/skill0003_4",
       "description": "Deals physical damage to the nearest enemy and inflicts Physical Defense DOWN(LV 4) for 10 seconds",
       "effect": "1590% + 900",
@@ -165,7 +165,7 @@ export const skills = {
     },
     {
       "rank": 5,
-      "name": "Super Ultimate Gorgeous Noble Kill Shot!",
+      "name": "Super Ultra Gorgeous Noble Strike!",
       "icon": "skill001/skill0003_5",
       "description": "Deals physical damage to the nearest enemy and inflicts Physical Defense DOWN(LV 5) for 10 seconds",
       "effect": "1700% + 1000",

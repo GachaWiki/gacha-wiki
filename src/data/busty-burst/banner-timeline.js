@@ -5,7 +5,32 @@
  */
 
 export const bannerTimelineData = [
-  // #43 - "Burst FES" / Elaine (Sep 29 - Oct 6) - CURRENT
+  // #44 - "Octopus Empire's Counterattack" / Shaty & Priscilla (Oct 6 - Oct 20) - CURRENT
+  {
+    id: 'octopus-empire-counterattack-2026',
+    title: "\"Octopus Empire's Counterattack\" Event Summon",
+    bannerType: 'event',
+    featuredPaladins: [
+      {
+        name: '[Aiming for Your Heart] Shaty',
+        rarity: 'SSR',
+        type: 'Attacker',
+      },
+      {
+        name: '[Riding the Big Wave of Love] Priscilla',
+        rarity: 'SSR',
+        type: 'Attacker',
+      },
+    ],
+    startDate: '2026-10-06T04:00:00Z',
+    endDate: '2026-10-20T04:00:00Z',
+    description:
+      "\"Octopus Empire's Counterattack\" Event Summon! New Paladin Rate Up! [Aiming for Your Heart] Shaty (SSR Water Physical Attacker) and [Riding the Big Wave of Love] Priscilla (SSR Wind Physical Attacker). Guaranteed SR Paladin when performing a 10-pull.",
+    note: 'Shaty (characterId 2149, renamed from Shati) and Priscilla (characterId 2150, retitled from "Big Wave surfing of Love") are the v1.0.26 event paladins. End time from game data (2026/10/20 04:00 UTC); start from the rotation switch on Oct 6 when Burst FES ended. Official EN skill text landed with the Oct 6 update. Gracie (characterId 2151) also shipped in this update but does not appear on any summon banner in the game data.',
+    status: 'current',
+    image: 'banner-octopus-empire-counterattack',
+  },
+  // #43 - "Burst FES" / Elaine (Sep 29 - Oct 6) - ENDED
   {
     id: 'burst-fes-elaine-2026',
     title: '"Burst FES" Special Event Summon',
@@ -1094,7 +1119,62 @@ seasonalCharactersData.forEach(season => {
  * Guild Battle pickup summons, tracked separately from the main timeline.
  */
 export const guildBattleData = [
-  // Competitive Battle MAGIC pick up (Sep 22 - Oct 6) - CURRENT
+  // Competitive Battle FIRE pick up (Oct 6 - Oct 20) - CURRENT
+  {
+    id: 'competitive-battle-fire-2026-10',
+    title: 'Competitive Battle・FIRE Pick Up Summon',
+    bannerType: 'event',
+    featuredPaladins: [
+      {
+        name: 'Marina',
+        rarity: 'SSR',
+        type: 'Support',
+      },
+      {
+        name: 'Natasha',
+        rarity: 'SSR',
+        type: 'Tank',
+      },
+      {
+        name: 'Lapis',
+        rarity: 'SSR',
+        type: 'Attacker',
+      },
+      {
+        name: 'Inrine',
+        rarity: 'SSR',
+        type: 'Attacker',
+      },
+      {
+        name: 'Nina',
+        rarity: 'SSR',
+        type: 'Attacker',
+      },
+      {
+        name: 'Constantia',
+        rarity: 'SR',
+        type: 'Support',
+      },
+      {
+        name: 'Farneria',
+        rarity: 'SR',
+        type: 'Attacker',
+      },
+      {
+        name: 'Veronica',
+        rarity: 'SR',
+        type: 'Support',
+      },
+    ],
+    startDate: '2026-10-06T04:00:00Z',
+    endDate: '2026-10-20T04:00:00Z',
+    description:
+      'Competitive Battle FIRE support summon! Rate up for Water-attribute paladins Marina, Natasha, Lapis, Inrine, Nina, Constantia, Farneria and Veronica ahead of the FIRE Competitive Battle. Guaranteed SR Paladin when performing a 10-pull.',
+    note: 'Attribute pickup summon for the Competitive Battle FIRE season, boosting the counter element (Water) like MAGIC boosted Light. Two-week run: end time from game data (2026/10/20 04:00 UTC); start from the rotation switch on Oct 6 when the MAGIC pickup ended.',
+    status: 'current',
+    image: 'banner-competitive-battle-fire',
+  },
+  // Competitive Battle MAGIC pick up (Sep 22 - Oct 6) - ENDED
   {
     id: 'competitive-battle-magic-2026-09',
     title: 'Competitive Battle・MAGIC Pick Up Summon',
