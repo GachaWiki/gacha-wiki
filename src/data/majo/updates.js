@@ -7,23 +7,6 @@ const OFFICIAL = 'https://majo-x.com/en/news/';
 
 export const majoUpdates = [
   {
-    slug: '2026-10-07-known-issues-fix',
-    date: '2026-10-07',
-    display: 'Oct 7, 2026',
-    category: 'Maintenance',
-    title: 'Known Issues Fix (Oct 7)',
-    image: 'https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/majo/banners/witch-arena.webp',
-    imageWidth: 512,
-    imageHeight: 205,
-    summary: 'Witch Arena reward and defense Law fixes. Community consensus: pre-fix arena results were distorted.',
-    url: OFFICIAL + '20261007_announcement/',
-    points: [
-      'Witch Arena: players who climbed ranks through opponents losing points or successful defense gains were not receiving the Version Highest Ranking Rewards and the Milestone Highest Ranking Rewards. Fixed.',
-      'Witch Arena: defender Law (star chart) effects were activating regardless of team conditions. Fixed.',
-      'Community note: the defense Law bug stacked roughly +30% charge speed, +46% attack speed, +20% crit and +75% crit resistance unconditionally on defense teams, so arena results from Sep 9 to Oct 7 are considered unreliable; the real PVP season effectively starts here.',
-    ],
-  },
-  {
     slug: '2026-10-07-october-update',
     date: '2026-10-07',
     display: 'Oct 7, 2026',
@@ -49,6 +32,23 @@ export const majoUpdates = [
       'Interaction Records: Training Rooms added for Xuanji, Xinzi and Tomoe.',
       'System: new automated abnormal-behavior and cheating detection. Omen Stones can now refill Stamina past the natural cap.',
       'Data-mined alongside this update: Chapter 8 AVG assets, Daphine (P0021) playable configuration (UR Healer), and future-witch prefabs for P0023, P0029, P0043.',
+    ],
+  },
+  {
+    slug: '2026-10-07-known-issues-fix',
+    date: '2026-10-07',
+    display: 'Oct 7, 2026',
+    category: 'Maintenance',
+    title: 'Known Issues Fix (Oct 7)',
+    image: 'https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/majo/banners/witch-arena.webp',
+    imageWidth: 512,
+    imageHeight: 205,
+    summary: 'Witch Arena reward and defense Law fixes. Community consensus: pre-fix arena results were distorted.',
+    url: OFFICIAL + '20261007_announcement/',
+    points: [
+      'Witch Arena: players who climbed ranks through opponents losing points or successful defense gains were not receiving the Version Highest Ranking Rewards and the Milestone Highest Ranking Rewards. Fixed.',
+      'Witch Arena: defender Law (star chart) effects were activating regardless of team conditions. Fixed.',
+      'Community note: the defense Law bug stacked roughly +30% charge speed, +46% attack speed, +20% crit and +75% crit resistance unconditionally on defense teams, so arena results from Sep 9 to Oct 7 are considered unreliable; the real PVP season effectively starts here.',
     ],
   },
   {

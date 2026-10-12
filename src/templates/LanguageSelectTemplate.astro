@@ -82,16 +82,25 @@ const seoDescription =
   description ||
   `Choose the language for the ${gameName} wiki: ${languages.map(l => l.lang).join(', ')}.`;
 const title = `${gameName} Wiki: Choose Language`;
+// when the wrapper provides a game head component, it owns the <title>;
+// the generic block below is only for games without one
+const hasGameHead = Astro.slots.has('head');
 ---
 
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
-    <title>{title} - GachaWiki</title>
-    <meta name="description" content={seoDescription} />
-    <meta name="generator" content={Astro.generator} />
+    {hasGameHead ? (
+      <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    ) : (
+      <fragment>
+        <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+        <title>{title} - GachaWiki</title>
+        <meta name="description" content={seoDescription} />
+        <meta name="generator" content={Astro.generator} />
+      </fragment>
+    )}
     <slot name="head" />
     <GameSEO gameKey={gameKey} title={title} description={seoDescription} />
     <Analytics />

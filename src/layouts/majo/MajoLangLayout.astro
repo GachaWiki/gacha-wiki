@@ -33,7 +33,9 @@ export interface Props {
 }
 
 const { title, description, ui, gameTitle, crumbName, breadcrumbItems, seoKeywords } = Astro.props;
-const seoTitle = `${title} | ${ui.gameName}`;
+// pass the raw title through: MajoBaseHead appends the single site suffix
+// (appending the localized game name here would duplicate it)
+const seoTitle = title;
 const seoDescription = description || `${ui.gameName} wiki (${ui.langLabel})`;
 
 const langNav = {
