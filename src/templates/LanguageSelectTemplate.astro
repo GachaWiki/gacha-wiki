@@ -1,0 +1,177 @@
+---
+// Shared language-selection page template, rendered as a full document.
+// Any game with localized wikis points its games-list entry at a thin select
+// page that uses this template (see pages/guides/majo/select.astro and
+// pages/guides/gene-sys-adam/select.astro). Self-contained house styling
+// (site dark theme + one accent color per game), so it never depends on a
+// game's own layout CSS. Flat cards, static borders, no hover, no glow.
+import GameSEO from '../components/GameSEO.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import CustomScrollbar from '../components/CustomScrollbar.astro';
+import Analytics from '../components/Analytics.astro';
+import '../styles/global.css';
+import '../styles/typography.css';
+
+export interface SelectLanguage {
+  /** display label, e.g. 'English' or '简体中文' */
+  lang: string;
+  /** html lang code for the label span, e.g. 'zh-Hans' (optional) */
+  htmlLang?: string;
+  /** small note under the label, e.g. 'English wiki' or '遊戲官方文本' */
+  note?: string;
+  href: string;
+}
+
+export interface Props {
+  /** game key for GameSEO (e.g. 'majo') */
+  gameKey: string;
+  /** game display name shown as the card title */
+  gameName: string;
+  languages: SelectLanguage[];
+  /** theme accent for the language labels (game theme color) */
+  accent: string;
+  /** line under the title; defaults to a multi-language "choose a language" */
+  subtitle?: string;
+  /** SEO description override */
+  description?: string;
+}
+
+const {
+  gameKey,
+  gameName,
+  languages,
+  accent,
+  subtitle = 'Choose a language · 选择语言 · 言語を選択 · 언어 선택',
+  description,
+} = Astro.props;
+
+const seoDescription =
+  description ||
+  `Choose the language for the ${gameName} wiki: ${languages.map(l => l.lang).join(', ')}.`;
+const title = `${gameName} Wiki: Choose Language`;
+---
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <title>{title} - GachaWiki</title>
+    <meta name="description" content={seoDescription} />
+    <meta name="generator" content={Astro.generator} />
+    <GameSEO gameKey={gameKey} title={title} description={seoDescription} />
+    <Analytics />
+  </head>
+  <body class="lang-select-body">
+    <CustomScrollbar />
+
+    <div class="lang-select-content">
+      <Header />
+
+      <main class="lang-select-main" id="main-content">
+        <section class="lang-select-card" style={`--lang-select-accent: ${accent};`}>
+          <h1 class="lang-select-title">{gameName}</h1>
+          <p class="lang-select-subtitle">{subtitle}</p>
+
+          <div class="lang-select-buttons">
+            {languages.map(l => (
+              <a href={l.href} class="lang-select-btn">
+                <span class="lang-select-lang" lang={l.htmlLang}>{l.lang}</span>
+                {l.note && <span class="lang-select-note">{l.note}</span>}
+              </a>
+            ))}
+          </div>
+        </section>
+      </main>
+
+      <Footer />
+    </div>
+  </body>
+</html>
+
+<style>
+  .lang-select-body {
+    margin: 0;
+    background: #0e0f15;
+    color: #eceaf2;
+    min-height: 100vh;
+  }
+
+  .lang-select-content {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+
+  .lang-select-main {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2.5rem 1rem;
+  }
+
+  .lang-select-card {
+    width: 100%;
+    max-width: 640px;
+    background: rgba(255, 255, 255, 0.04);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-radius: 16px;
+    padding: 3rem 2rem;
+    text-align: center;
+  }
+
+  .lang-select-title {
+    font-size: 1.875rem;
+    font-weight: 700;
+    color: #ffffff;
+    margin: 0 0 0.5rem 0;
+  }
+
+  .lang-select-subtitle {
+    font-size: 1rem;
+    color: #cccccc;
+    margin: 0 0 2.25rem 0;
+  }
+
+  .lang-select-buttons {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
+
+  .lang-select-btn {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem 1rem;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    border-radius: 12px;
+    text-decoration: none;
+  }
+
+  .lang-select-lang {
+    font-size: 1.35rem;
+    font-weight: 700;
+    color: var(--lang-select-accent);
+  }
+
+  .lang-select-note {
+    font-size: 0.8125rem;
+    color: #cccccc;
+  }
+
+  @media (max-width: 560px) {
+    .lang-select-buttons {
+      grid-template-columns: 1fr;
+    }
+
+    .lang-select-card {
+      padding: 2.25rem 1.5rem;
+    }
+  }
+</style>
