@@ -1,0 +1,8 @@
+# oxfmt reads this ignore list (Prettier-compatible)
+# generated game data + build output: never reformat
+src/data/
+public/
+dist/
+node_modules/
+.astro/
+bun.lock

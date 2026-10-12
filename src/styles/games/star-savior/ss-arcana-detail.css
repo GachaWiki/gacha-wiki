@@ -193,10 +193,6 @@
   height: 40px;
   display: block;
 }
-  align-items: center;
-  justify-content: space-between;
-  gap: 0.5rem;
-}
 
 .ss-arcana-unique-title {
   font-size: 1rem;

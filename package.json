@@ -24,7 +24,15 @@
     "start": "astro preview",
     "astro": "astro",
     "check": "astro check",
-    "sync": "astro sync"
+    "sync": "astro sync",
+    "lint": "oxlint",
+    "lint:fix": "oxlint --fix --fix-suggestions",
+    "fmt": "oxfmt",
+    "fmt:check": "oxfmt --check"
   },
-  "type": "module"
+  "type": "module",
+  "devDependencies": {
+    "oxfmt": "^0.72.0",
+    "oxlint": "^1.87.0"
+  }
 }

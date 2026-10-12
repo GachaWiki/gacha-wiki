@@ -1,0 +1,10 @@
+{
+  "$schema": "./node_modules/oxlint/configuration_schema.json",
+  "ignorePatterns": [
+    "src/data/**",
+    "public/**",
+    "dist/**",
+    "node_modules/**",
+    ".astro/**"
+  ]
+}
