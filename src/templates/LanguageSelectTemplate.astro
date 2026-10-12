@@ -17,6 +17,11 @@ import Analytics from '../components/Analytics.astro';
 import DecorativeLines from '../components/DecorativeLines.astro';
 import '../styles/global.css';
 import '../styles/typography.css';
+// Site color variables (--bg-dark, --amber-glow, ...) for the shared Header and
+// Footer. On regular game pages these load transitively via
+// game-navigation-desktop.css (GameNavigationHeader), which this page never
+// renders, so import them here or the header/footer backgrounds collapse.
+import '../styles/colors.css';
 
 export interface SelectLanguage {
   /** display label, e.g. 'English' or '简体中文' */
@@ -71,7 +76,7 @@ const {
   contentClass = 'lang-select-content',
   containerClass = 'lang-select-container',
   mainClass = 'lang-select-main',
-  mainStyle = 'display:flex;align-items:center;justify-content:center;min-height:72vh;padding:2rem 1rem;',
+  mainStyle = 'display:flex;flex-direction:column;align-items:center;justify-content:center;min-height:72vh;padding:2rem 1rem;',
   bgLayers = [],
   heroClass,
   titleClass,
