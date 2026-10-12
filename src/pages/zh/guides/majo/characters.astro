@@ -17,6 +17,7 @@ import {
   MJ_ZH_FACTIONS,
   MJ_ZH_ATTACK_TYPES,
 } from '../../../../data/majo/zh/game-text.js';
+import '../../../../styles/games/majo/majo-characters.css';
 
 const GT = { NAMES: MJ_ZH_NAMES, TITLES: MJ_ZH_TITLES, DESCRIPTIONS: MJ_ZH_DESCRIPTIONS, SKILLS: MJ_ZH_SKILLS, CLASSES: MJ_ZH_CLASSES, FACTIONS: MJ_ZH_FACTIONS, ATTACK_TYPES: MJ_ZH_ATTACK_TYPES };
 const characters = majoCharacters.map(c => ({ ...c, t: buildLangTextPack(c, GT) }));

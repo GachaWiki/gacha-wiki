@@ -17,6 +17,7 @@ import {
   MJ_KO_FACTIONS,
   MJ_KO_ATTACK_TYPES,
 } from '../../../../data/majo/ko/game-text.js';
+import '../../../../styles/games/majo/majo-characters.css';
 
 const GT = { NAMES: MJ_KO_NAMES, TITLES: MJ_KO_TITLES, DESCRIPTIONS: MJ_KO_DESCRIPTIONS, SKILLS: MJ_KO_SKILLS, CLASSES: MJ_KO_CLASSES, FACTIONS: MJ_KO_FACTIONS, ATTACK_TYPES: MJ_KO_ATTACK_TYPES };
 const characters = majoCharacters.map(c => ({ ...c, t: buildLangTextPack(c, GT) }));

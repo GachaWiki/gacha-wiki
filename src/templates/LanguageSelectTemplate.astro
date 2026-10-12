@@ -1,15 +1,20 @@
 ---
 // Shared language-selection page template, rendered as a full document.
 // Any game with localized wikis points its games-list entry at a thin select
-// page that uses this template (see pages/guides/majo/select.astro and
-// pages/guides/gene-sys-adam/select.astro). Self-contained house styling
-// (site dark theme + one accent color per game), so it never depends on a
-// game's own layout CSS. Flat cards, static borders, no hover, no glow.
+// page that uses this template (see pages/guides/<game>/select.astro).
+//
+// THEMING: the wrapper page imports its game's own CSS files and passes the
+// game's structural class names via props, so the page renders in that
+// game's house style (same background layers, container, heading and footer
+// context as the game's English pages). The card itself is template-owned
+// and generic: a flat panel with the game accent on the language labels.
+// Flat borders only, no hover, no glow (site style rules).
 import GameSEO from '../components/GameSEO.astro';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import CustomScrollbar from '../components/CustomScrollbar.astro';
 import Analytics from '../components/Analytics.astro';
+import DecorativeLines from '../components/DecorativeLines.astro';
 import '../styles/global.css';
 import '../styles/typography.css';
 
@@ -26,7 +31,7 @@ export interface SelectLanguage {
 export interface Props {
   /** game key for GameSEO (e.g. 'majo') */
   gameKey: string;
-  /** game display name shown as the card title */
+  /** game display name shown as the page title */
   gameName: string;
   languages: SelectLanguage[];
   /** theme accent for the language labels (game theme color) */
@@ -35,6 +40,24 @@ export interface Props {
   subtitle?: string;
   /** SEO description override */
   description?: string;
+  /** game body class, e.g. 'majo-body' (from the game CSS the wrapper imports) */
+  bodyClass?: string;
+  /** game content wrapper class, e.g. 'majo-content' */
+  contentClass?: string;
+  /** game container class, e.g. 'majo-container' */
+  containerClass?: string;
+  /** game main class, e.g. 'majo-main' */
+  mainClass?: string;
+  /** inline styles for main (centering); default centers the card */
+  mainStyle?: string;
+  /** extra classes for the bg-layer divs, e.g. ['majo-bg-primary'] */
+  bgLayers?: string[];
+  /** optional game hero section + heading classes; when given, the game name
+     renders in the game's standard page heading instead of inside the card */
+  heroClass?: string;
+  titleClass?: string;
+  /** show DecorativeLines under the hero title (majo/hw style) */
+  decorativeLines?: boolean;
 }
 
 const {
@@ -44,6 +67,15 @@ const {
   accent,
   subtitle = 'Choose a language · 选择语言 · 言語を選択 · 언어 선택',
   description,
+  bodyClass = 'lang-select-body',
+  contentClass = 'lang-select-content',
+  containerClass = 'lang-select-container',
+  mainClass = 'lang-select-main',
+  mainStyle = 'display:flex;align-items:center;justify-content:center;min-height:72vh;padding:2rem 1rem;',
+  bgLayers = [],
+  heroClass,
+  titleClass,
+  decorativeLines = false,
 } = Astro.props;
 
 const seoDescription =
@@ -60,30 +92,42 @@ const title = `${gameName} Wiki: Choose Language`;
     <title>{title} - GachaWiki</title>
     <meta name="description" content={seoDescription} />
     <meta name="generator" content={Astro.generator} />
+    <slot name="head" />
     <GameSEO gameKey={gameKey} title={title} description={seoDescription} />
     <Analytics />
   </head>
-  <body class="lang-select-body">
+  <body class={bodyClass}>
     <CustomScrollbar />
 
-    <div class="lang-select-content">
+    {bgLayers.map(cls => <div class={`bg-layer ${cls}`}></div>)}
+
+    <div class={contentClass}>
       <Header />
 
-      <main class="lang-select-main" id="main-content">
-        <section class="lang-select-card" style={`--lang-select-accent: ${accent};`}>
-          <h1 class="lang-select-title">{gameName}</h1>
-          <p class="lang-select-subtitle">{subtitle}</p>
+      <div class={containerClass}>
+        <main class={mainClass} style={mainStyle} id="main-content">
+          {heroClass && titleClass && (
+            <section class={heroClass}>
+              <h1 class={titleClass}>{gameName}</h1>
+              {decorativeLines && <DecorativeLines />}
+            </section>
+          )}
 
-          <div class="lang-select-buttons">
-            {languages.map(l => (
-              <a href={l.href} class="lang-select-btn">
-                <span class="lang-select-lang" lang={l.htmlLang}>{l.lang}</span>
-                {l.note && <span class="lang-select-note">{l.note}</span>}
-              </a>
-            ))}
-          </div>
-        </section>
-      </main>
+          <section class="lang-select-card" style={`--lang-select-accent: ${accent};`}>
+            {(!heroClass || !titleClass) && <h2 class="lang-select-card-title">{gameName}</h2>}
+            <p class="lang-select-subtitle">{subtitle}</p>
+
+            <div class="lang-select-buttons">
+              {languages.map(l => (
+                <a href={l.href} class="lang-select-btn">
+                  <span class="lang-select-lang" lang={l.htmlLang}>{l.lang}</span>
+                  {l.note && <span class="lang-select-note">{l.note}</span>}
+                </a>
+              ))}
+            </div>
+          </section>
+        </main>
+      </div>
 
       <Footer />
     </div>
@@ -91,6 +135,9 @@ const title = `${gameName} Wiki: Choose Language`;
 </html>
 
 <style>
+  /* Generic fallbacks: used only when a game passes no structural classes.
+     With game classes + the game CSS imported by the wrapper, these barely
+     apply (the game rules take over the body/content/main styling). */
   .lang-select-body {
     margin: 0;
     background: #0e0f15;
@@ -104,17 +151,14 @@ const title = `${gameName} Wiki: Choose Language`;
     min-height: 100vh;
   }
 
-  .lang-select-main {
-    flex: 1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 2.5rem 1rem;
+  .lang-select-container {
+    width: 100%;
   }
 
   .lang-select-card {
     width: 100%;
     max-width: 640px;
+    margin: 0 auto;
     background: rgba(255, 255, 255, 0.04);
     border: 1px solid rgba(255, 255, 255, 0.12);
     border-radius: 16px;
@@ -122,7 +166,7 @@ const title = `${gameName} Wiki: Choose Language`;
     text-align: center;
   }
 
-  .lang-select-title {
+  .lang-select-card-title {
     font-size: 1.875rem;
     font-weight: 700;
     color: #ffffff;
@@ -157,7 +201,7 @@ const title = `${gameName} Wiki: Choose Language`;
   .lang-select-lang {
     font-size: 1.35rem;
     font-weight: 700;
-    color: var(--lang-select-accent);
+    color: var(--lang-select-accent, #ffffff);
   }
 
   .lang-select-note {

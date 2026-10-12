@@ -1,17 +1,34 @@
 ---
 // Language selection page for MAJO: Witches Night: shown when entering the
 // wiki from the games list. Thin wrapper around the shared
-// LanguageSelectTemplate: the English wiki plus four wikis using the game's
-// own official localization (zh-Hans, zh-Hant, ja, ko).
+// LanguageSelectTemplate, themed as a real majo page: the game's own CSS,
+// background layer, container and title heading, with the select card in the
+// standard content area. Languages: English plus the four wikis using the
+// game's own official localization (zh-Hans, zh-Hant, ja, ko).
 import LanguageSelectTemplate from '../../../templates/LanguageSelectTemplate.astro';
+import MajoBaseHead from '../../../components/majo/MajoBaseHead.astro';
+import '../../../styles/games/majo/majo-colors.css';
+import '../../../styles/games/majo/majo-layout.css';
+import '../../../styles/games/majo/majo-common.css';
 
 export const prerender = true;
+
+const title = 'MAJO: Witches Night Wiki: Choose Language';
 ---
 
 <LanguageSelectTemplate
   gameKey="majo"
   gameName="MAJO: Witches Night"
-  accent="#c084fc"
+  accent="#a89bd1"
+  subtitle="Choose a language · 选择语言 · 言語を選択 · 언어 선택"
+  bodyClass="majo-body"
+  contentClass="majo-content"
+  containerClass="majo-container"
+  mainClass="majo-main"
+  bgLayers={['majo-bg-primary']}
+  heroClass="majo-title-only-section"
+  titleClass="majo-title-only-heading"
+  decorativeLines
   languages={[
     { lang: 'English', note: 'English wiki', href: '/guides/majo/' },
     { lang: '简体中文', htmlLang: 'zh-Hans', note: '游戏官方文本 · 魔女之夜', href: '/zh/guides/majo/' },
@@ -19,4 +36,6 @@ export const prerender = true;
     { lang: '日本語', htmlLang: 'ja', note: 'ゲーム公式テキスト · ウィッチーズ・ナイト', href: '/ja/guides/majo/' },
     { lang: '한국어', htmlLang: 'ko', note: '게임 공식 텍스트 · 마녀의 밤', href: '/ko/guides/majo/' },
   ]}
-/>
+>
+  <MajoBaseHead slot="head" title={title} description="Choose the language for the MAJO: Witches Night wiki: English, Simplified Chinese, Traditional Chinese, Japanese or Korean." />
+</LanguageSelectTemplate>

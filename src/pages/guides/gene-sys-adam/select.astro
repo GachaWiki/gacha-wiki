@@ -1,8 +1,10 @@
 ---
 // Language selection page for Gene-Sys: Adam: shown when entering the wiki
-// from the games list. Thin wrapper around the shared LanguageSelectTemplate:
-// English wiki or the Traditional Chinese wiki (the game's base language).
+// from the games list. Thin wrapper around the shared LanguageSelectTemplate,
+// themed with the game's own CSS: English wiki or the Traditional Chinese
+// wiki (the game's base language).
 import LanguageSelectTemplate from '../../../templates/LanguageSelectTemplate.astro';
+import '../../../styles/games/gene-sys-adam/gsa-common.css';
 
 export const prerender = true;
 ---
@@ -12,6 +14,11 @@ export const prerender = true;
   gameName="Gene-Sys: Adam"
   accent="#e0596b"
   subtitle="Choose a language · 選擇語言"
+  bodyClass="gsa-body"
+  contentClass="gsa-content"
+  containerClass="gsa-container"
+  mainClass="gsa-main"
+  bgLayers={['gsa-bg']}
   languages={[
     { lang: 'English', note: 'English wiki', href: '/guides/gene-sys-adam/' },
     { lang: '繁體中文', htmlLang: 'zh-Hant', note: '遊戲官方文本 · 黑色基因', href: '/zh-tw/guides/gene-sys-adam/' },
