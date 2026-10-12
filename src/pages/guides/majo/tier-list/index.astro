@@ -1,10 +1,19 @@
 ---
-// MAJO tier list, grouped by class: kit-based placements with per-witch reasons.
+// MAJO tier list, grouped by class: kit-based placements with per-witch
+// reasons, plus tabs showing the CN/JP/KR community ladders side by side.
 import MajoLayout from '../../../../layouts/majo/LandingLayout.astro';
 import MajoCharacterImage from '../../../../components/majo/MajoCharacterImage.astro';
 import MajoIcon from '../../../../components/majo/MajoIcon.astro';
-import { majoTierByClass, MAJO_TIER_UPDATED } from '../../../../data/majo/tier-list.js';
+import { majoTierByClass, MAJO_TIER_UPDATED, MAJO_TIER_PLACEMENTS } from '../../../../data/majo/tier-list.js';
+import { MAJO_COMMUNITY_TIERS, resolveCommunityTiers } from '../../../../data/majo/community-tiers.js';
 import '../../../../styles/games/majo/majo-tier.css';
+
+const charactersBySlug = Object.fromEntries(
+  (await import('../../../../data/majo/characters.js')).majoCharacters.map(c => [c.slug, c])
+);
+const communityLists = MAJO_COMMUNITY_TIERS.map(list =>
+  resolveCommunityTiers(list, charactersBySlug, MAJO_TIER_PLACEMENTS)
+);
 ---
 
 <MajoLayout
@@ -28,6 +37,19 @@ import '../../../../styles/games/majo/majo-tier.css';
         Questions? <a href="https://discord.gg/YdWFddQKR8" target="_blank" rel="noopener noreferrer" class="majo-tier-discord">Discord</a>.
       </p>
     </div>
+
+    <div class="majo-tier-tabs" role="tablist" aria-label="Tier list source">
+      <button class="majo-tier-tab active" type="button" role="tab" aria-selected="true" data-tab="wiki">
+        Wiki (kit-based)
+      </button>
+      {communityLists.map(list => (
+        <button class="majo-tier-tab" type="button" role="tab" aria-selected="false" data-tab={list.id}>
+          {list.tab}
+        </button>
+      ))}
+    </div>
+
+    <div class="majo-tier-panel" id="majo-tier-panel-wiki" data-panel="wiki">
 
     {majoTierByClass.map(group => (
       <div class="majo-tier-class-section">
@@ -61,5 +83,99 @@ import '../../../../styles/games/majo/majo-tier.css';
         </div>
       </div>
     ))}
+    </div>
+
+    {communityLists.map(list => (
+      <div class="majo-tier-panel" id={`majo-tier-panel-${list.id}`} data-panel={list.id} hidden>
+        <div class="majo-community-head">
+          <h2 class="majo-community-title">
+            {list.source}
+            <span class="majo-community-updated">{list.updated}</span>
+          </h2>
+          <p class="majo-community-intro">{list.intro}</p>
+          <a class="majo-community-link" href={list.url} target="_blank" rel="noopener noreferrer">
+            View the original {list.tab} list
+          </a>
+          {list.notes.length > 0 && (
+            <ul class="majo-community-notes">
+              {list.notes.map(n => <li>{n}</li>)}
+            </ul>
+          )}
+          <p class="majo-community-legend">
+            Cards carry a small "Wiki" chip with our kit-based tier for comparison.
+          </p>
+        </div>
+
+        <div class="majo-tier-grid">
+          {list.rows.map(row => (
+            <div class="majo-tier-row">
+              <div class="majo-tier-label">
+                <span class="majo-tier-name majo-tier-name-sm">{row.tier}</span>
+              </div>
+              <div class="majo-tier-characters">
+                {row.characters.map(c => (
+                  <a class="majo-tier-card" href={`/guides/majo/characters/${c.slug}/`}>
+                    <MajoCharacterImage filename={c.icon} alt={c.nameEn} class="majo-tier-thumb" />
+                    <span class="majo-tier-icons">
+                      <MajoIcon filename={`CharacterDetails_Icon_${c.rarity}.png`} alt={c.rarity} class="majo-icon-rarity" />
+                    </span>
+                    <span class="majo-tier-name-label">{c.nameEn}</span>
+                    {c.wikiTier && <span class="majo-tier-wiki-chip">Wiki {c.wikiTier}</span>}
+                  </a>
+                ))}
+              </div>
+            </div>
+          ))}
+          {list.notRated && list.notRated.characters.length > 0 && (
+            <div class="majo-tier-row majo-tier-row-muted">
+              <div class="majo-tier-label">
+                <span class="majo-tier-name-sm majo-tier-name-muted">?</span>
+              </div>
+              <div class="majo-tier-characters">
+                <p class="majo-tier-notrated-label">{list.notRated.label}</p>
+                <p class="majo-tier-notrated-reason">{list.notRated.reason}</p>
+                <div class="majo-tier-notrated-cards">
+                  {list.notRated.characters.map(c => (
+                    <a class="majo-tier-card" href={`/guides/majo/characters/${c.slug}/`}>
+                      <MajoCharacterImage filename={c.icon} alt={c.nameEn} class="majo-tier-thumb" />
+                      <span class="majo-tier-icons">
+                        <MajoIcon filename={`CharacterDetails_Icon_${c.rarity}.png`} alt={c.rarity} class="majo-icon-rarity" />
+                      </span>
+                      <span class="majo-tier-name-label">{c.nameEn}</span>
+                      {c.wikiTier && <span class="majo-tier-wiki-chip">Wiki {c.wikiTier}</span>}
+                    </a>
+                  ))}
+                </div>
+              </div>
+            </div>
+          )}
+        </div>
+      </div>
+    ))}
   </section>
+
+  <script>
+    const tabs = document.querySelectorAll('.majo-tier-tab');
+    const panels = document.querySelectorAll('.majo-tier-panel');
+
+    function activate(btn) {
+      tabs.forEach(b => {
+        b.classList.remove('active');
+        b.setAttribute('aria-selected', 'false');
+      });
+      btn.classList.add('active');
+      btn.setAttribute('aria-selected', 'true');
+      panels.forEach(p => {
+        p.hidden = p.getAttribute('data-panel') !== btn.getAttribute('data-tab');
+      });
+    }
+
+    tabs.forEach(btn => {
+      btn.addEventListener('click', () => activate(btn));
+    });
+
+    // open a specific tab via #tab-id (shareable community-list links)
+    const fromHash = document.querySelector(`.majo-tier-tab[data-tab="${location.hash.replace('#', '')}"]`);
+    if (fromHash) activate(fromHash);
+  </script>
 </MajoLayout>
