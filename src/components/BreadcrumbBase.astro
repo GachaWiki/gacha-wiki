@@ -1,0 +1,341 @@
+---
+// Shared pill breadcrumb used by every game guide via thin per-game wrappers.
+// The wrapper passes this component's per-game look as inline CSS custom
+// properties (--bc-* tokens, defaults below) plus an optional legacy class
+// prefix so external game CSS (e.g. busty-burst-landing.css) keeps matching.
+// Styles stay scoped so they win over page-level CSS exactly like the old
+// per-game copies did.
+import {
+  generateBreadcrumbs,
+  getParentBreadcrumb,
+  generateBackNavigation,
+} from '../utils/breadcrumb-generator.js';
+import type { BreadcrumbItem, BackNavigation } from '../utils/breadcrumb-generator.js';
+
+export interface Props {
+  // Manual breadcrumb items (legacy support)
+  items?: Array<{
+    name: string;
+    href?: string;
+  }>;
+  // Auto-generation options
+  autoGenerate?: boolean;
+  gameKey?: string;
+  currentPageName?: string;
+  includeHome?: boolean;
+  showBackButton?: boolean;
+  // Fallback crumbs when nothing else produced any (stella-sora's Guides default)
+  defaultItems?: Array<{ name: string; href?: string }>;
+  // Legacy per-game root class (`${prefix}-breadcrumb`) for external CSS hooks
+  classPrefix?: string;
+  ariaLabel?: string;
+  // Inline CSS custom properties (--bc-accent etc.) from the game wrapper
+  style?: string;
+}
+
+const {
+  items,
+  autoGenerate = false,
+  gameKey,
+  currentPageName,
+  includeHome = true,
+  showBackButton = true,
+  defaultItems,
+  classPrefix,
+  ariaLabel = 'Breadcrumb',
+  style,
+} = Astro.props;
+
+// Generate breadcrumbs automatically if requested, otherwise use provided items
+let breadcrumbItems: BreadcrumbItem[] = items || [];
+let backNavigation: BackNavigation | null = null;
+
+if (autoGenerate) {
+  breadcrumbItems = generateBreadcrumbs(Astro.url.pathname, {
+    includeHome,
+    currentPageName,
+    gameKey,
+  });
+
+  if (showBackButton) {
+    backNavigation = generateBackNavigation(Astro.url.pathname, { gameKey });
+  }
+} else if (showBackButton && items) {
+  // Generate back navigation from provided items
+  const parent = getParentBreadcrumb(items);
+  if (parent) {
+    backNavigation = {
+      href: parent.href || '/',
+      text: `Back to ${parent.name}`,
+      parentName: parent.name,
+    };
+  }
+}
+
+if (breadcrumbItems.length === 0 && defaultItems) {
+  breadcrumbItems = defaultItems;
+}
+---
+
+<nav class:list={['gw-bc', classPrefix && `${classPrefix}-breadcrumb`]} aria-label={ariaLabel} style={style}>
+  <div class="gw-bc-container">
+    {/* Back Button */}
+    {
+      backNavigation && (
+        <button
+          type="button"
+          class="gw-bc-back"
+          onclick={`window.location.href='${backNavigation.href}'`}
+          aria-label={backNavigation.text}
+          title={backNavigation.text}
+        >
+          <svg
+            class="gw-bc-back-arrow"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            aria-hidden="true"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M15 18l-6-6 6-6"
+            />
+          </svg>
+          <span class="gw-bc-back-text">Back</span>
+        </button>
+      )
+    }
+
+    {/* Breadcrumb Trail */}
+    <ol class="gw-bc-list">
+      {
+        breadcrumbItems.map((item, index) => (
+          <li class="gw-bc-item">
+            {item.href ? (
+              <a href={item.href} class="gw-bc-link">
+                {item.name}
+              </a>
+            ) : (
+              <span class="gw-bc-current" aria-current="page">
+                {item.name}
+              </span>
+            )}
+            {index < breadcrumbItems.length - 1 && (
+              <span class="gw-bc-separator" aria-hidden="true">
+                ›
+              </span>
+            )}
+          </li>
+        ))
+      }
+    </ol>
+  </div>
+</nav>
+
+<style>
+  .gw-bc {
+    margin-bottom: 2rem;
+    /* Align with parent container */
+    max-width: var(--bc-max-width, 75rem);
+    margin-left: var(--bc-margin-x, auto);
+    margin-right: var(--bc-margin-x, auto);
+    padding-left: 2rem;
+    padding-right: 2rem;
+    /* Ensure breadcrumb appears above other elements */
+    position: relative;
+    z-index: 20;
+
+    /* Per-game tokens; wrappers override via inline style. The typography
+       tokens (--bc-font/-leading/-tracking/-list-weight) have NO defaults:
+       when a game does not pass them the property becomes unset and inherits,
+       matching the old per-game copies which never set it. */
+    --bc-accent: #ffb74d;
+    --bc-focus: #ffd54f;
+    --bc-list: var(--text-secondary);
+    --bc-current: #ffffff;
+    --bc-current-weight: 600;
+    --bc-sep: rgba(255, 255, 255, 0.5);
+    --bc-sep-opacity: 1;
+    --bc-sep-size: 1rem;
+    --bc-back-bg: #2a2a2a;
+    --bc-back-border: none;
+    --bc-weight: 500;
+    --bc-size: 0.9rem;
+    --bc-size-480: 0.85rem;
+  }
+
+  .gw-bc-container {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+
+  .gw-bc-back {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 0.75rem 1rem;
+    background: var(--bc-back-bg, #2a2a2a);
+    border: var(--bc-back-border, none);
+    border-radius: 6px;
+    color: var(--bc-accent);
+    font-family: var(--bc-font);
+    font-size: var(--bc-size, 0.9rem);
+    font-weight: var(--bc-weight, 500);
+    line-height: var(--bc-leading);
+    letter-spacing: var(--bc-tracking);
+    text-decoration: none;
+    cursor: pointer;
+    white-space: nowrap;
+    /* Touch-friendly sizing */
+    min-height: 48px;
+    /* Touch optimization */
+    touch-action: manipulation;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  .gw-bc-back:focus-visible {
+    outline: 2px solid var(--bc-focus);
+    outline-offset: 2px;
+  }
+
+  .gw-bc-back-arrow {
+    width: 1rem;
+    height: 1rem;
+    flex-shrink: 0;
+  }
+
+  .gw-bc-back-text {
+    font-size: var(--bc-size, 0.9rem);
+  }
+
+  .gw-bc-list {
+    display: flex;
+    gap: 0.5rem;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    color: var(--bc-list);
+    font-family: var(--bc-font);
+    font-size: var(--bc-size, 0.9rem);
+    font-weight: var(--bc-list-weight);
+    line-height: var(--bc-leading);
+    letter-spacing: var(--bc-tracking);
+    flex-wrap: wrap;
+    align-items: center;
+    flex: 1;
+  }
+
+  .gw-bc-item {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .gw-bc-link {
+    color: var(--bc-link, var(--bc-accent));
+    text-decoration: none;
+    padding: 0.75rem;
+    border-radius: 6px;
+    /* Touch-friendly link area */
+    min-height: 48px;
+    display: flex;
+    align-items: center;
+    touch-action: manipulation;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  .gw-bc-current {
+    color: var(--bc-current, #ffffff);
+    font-weight: var(--bc-current-weight, 600);
+    font-family: var(--bc-font);
+    font-size: var(--bc-size, 0.9rem);
+    line-height: var(--bc-leading);
+    letter-spacing: var(--bc-tracking);
+    padding: 0.75rem;
+  }
+
+  .gw-bc-separator {
+    color: var(--bc-sep, rgba(255, 255, 255, 0.5));
+    user-select: none;
+    opacity: var(--bc-sep-opacity, 1);
+    font-size: var(--bc-sep-size, 1rem);
+    font-family: var(--bc-font);
+    font-weight: var(--bc-sep-weight);
+  }
+
+  /* Mobile optimization */
+  @media (max-width: 768px) {
+    .gw-bc {
+      padding-left: 1rem;
+      padding-right: 1rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .gw-bc-container {
+      gap: 1rem;
+    }
+
+    .gw-bc-back {
+      padding: 0.75rem 1rem;
+      font-size: var(--bc-size, 0.9rem);
+      min-height: 48px;
+    }
+
+    .gw-bc-list {
+      font-size: var(--bc-size, 0.9rem);
+    }
+  }
+
+  @media (max-width: 480px) {
+    .gw-bc {
+      padding-left: 0.75rem;
+      padding-right: 0.75rem;
+      margin-bottom: 1rem;
+    }
+
+    .gw-bc-container {
+      gap: 0.75rem;
+      flex-direction: column;
+      align-items: flex-start;
+    }
+
+    .gw-bc-back {
+      padding: 0.75rem 1rem;
+      font-size: var(--bc-size-480, 0.85rem);
+      min-height: 48px;
+      width: 100%;
+      justify-content: center;
+    }
+
+    .gw-bc-list {
+      font-size: var(--bc-size-480, 0.85rem);
+      gap: 0.5rem;
+      width: 100%;
+    }
+
+    .gw-bc-item {
+      gap: 0.5rem;
+    }
+
+    .gw-bc-link,
+    .gw-bc-current {
+      padding: 0.75rem;
+      min-height: 48px;
+    }
+  }
+
+  /* High contrast mode support */
+  @media (prefers-contrast: high) {
+    .gw-bc-back {
+      border-color: currentColor;
+    }
+
+    .gw-bc-link {
+      text-decoration: underline;
+    }
+  }
+</style>
