@@ -100,9 +100,6 @@
   border-color: #5865f2;
 }
 
-.majo-discord-btn:hover {
-  box-shadow: 0 6px 18px rgba(88, 101, 242, 0.35);
-}
 
 /* Title-theme video (click to play, no autoplay) */
 .majo-title-video-wrap {

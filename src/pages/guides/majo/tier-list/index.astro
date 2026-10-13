@@ -7,6 +7,7 @@ import MajoIcon from '../../../../components/majo/MajoIcon.astro';
 import { majoTierByClass, MAJO_TIER_UPDATED, MAJO_TIER_PLACEMENTS } from '../../../../data/majo/tier-list.js';
 import { MAJO_COMMUNITY_TIERS, resolveCommunityTiers } from '../../../../data/majo/community-tiers.js';
 import '../../../../styles/games/majo/majo-tier.css';
+import { SITE } from '../../../../consts';
 
 const charactersBySlug = Object.fromEntries(
   (await import('../../../../data/majo/characters.js')).majoCharacters.map(c => [c.slug, c])
@@ -34,7 +35,7 @@ const communityLists = MAJO_COMMUNITY_TIERS.map(list =>
         <a href="https://www.bilibili.com/video/BV1Z1HD6FE16" target="_blank" rel="noopener noreferrer">Bilibili (Oct 8 tier list)</a>,
         <a href="https://gamerch.com/majorstudio/1009530" target="_blank" rel="noopener noreferrer">Gamerch (Oct 3)</a>,
         <a href="https://gall.dcinside.com/mgallery/board/lists/?id=majo" target="_blank" rel="noopener noreferrer">DC Inside</a>.
-        Questions? <a href="https://discord.gg/YdWFddQKR8" target="_blank" rel="noopener noreferrer" class="majo-tier-discord">Discord</a>.
+        Questions? <a href={SITE.SOCIAL.DISCORD} target="_blank" rel="noopener noreferrer" class="majo-tier-discord">Discord</a>.
       </p>
     </div>
 
