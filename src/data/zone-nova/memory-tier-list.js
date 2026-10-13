@@ -50,7 +50,7 @@ export const MEMORY_CLASS_ORDER = [
 
 export const MEMORY_TIER_LIST = {
   name: 'Memory Card Rankings by Class',
-  lastUpdated: '2026-09-29',
+  lastUpdated: '2026-10-13',
   description:
     'Memory card rankings by class. Each character can only equip memories matching their class.',
   tiers: {
@@ -92,6 +92,7 @@ export const MEMORY_TIER_LIST = {
       SS: [
         { name: "Black-Faced Fool" },
         { name: "Christmas present" },
+        { name: "Drunk General" },
         { name: "Lonely Dark Midnight" },
         { name: "Sunlit sweetness awaits " },
       ],
