@@ -11,6 +11,282 @@ import { BangDreamMygoAveMujicaSet } from './bang-dream-mygo-ave-mujica.js';
 import { HatsuneMikuColorfulStageSet } from './hatsune-miku-colorful-stage.js';
 import { LoveLiveSif2MiracleLiveSet } from './love-live-sif2-miracle-live.js';
 import { OshiNoKoVol1Set } from './oshi-no-ko-vol1.js';
+import { BangDream10thAnniversarySet } from './bang-dream-10th-anniversary.js';
+import { UmamusumePrettyDerbyRace1Set } from './umamusume-pretty-derby-race-1.js';
+import { NazarickTombOfTheUndeadVol3Set } from './nazarick-tomb-of-the-undead-vol-3.js';
+import { FujimiFantasiaBunkoVol2Set } from './fujimi-fantasia-bunko-vol-2.js';
+import { FujimiFantasiaBunkoVol2281Set } from './fujimi-fantasia-bunko-vol-2-281.js';
+import { TheEminenceInShadowSet } from './the-eminence-in-shadow.js';
+import { TheEminenceInShadow279Set } from './the-eminence-in-shadow-279.js';
+import { FairyTail100YearsQuestSet } from './fairy-tail-100-years-quest.js';
+import { MakeineTooManyLosingHeroinesSet } from './makeine-too-many-losing-heroines.js';
+import { MakeineTooManyLosingHeroines275Set } from './makeine-too-many-losing-heroines-275.js';
+import { TvAnimeDandadanSet } from './tv-anime-dandadan.js';
+import { TvAnimeDandadan273Set } from './tv-anime-dandadan-273.js';
+import { GirlsBandCrySet } from './girls-band-cry.js';
+import { GirlsBandCry271Set } from './girls-band-cry-271.js';
+import { KonosubaGodSBlessingOnThisWonderfulWorldReEditSet } from './konosuba-god-s-blessing-on-this-wonderful-world-re-edit.js';
+import { AzurLaneVol2Set } from './azur-lane-vol-2.js';
+import { MarvelSet } from './marvel.js';
+import { DisneyMirrorverseSet } from './disney-mirrorverse.js';
+import { DisneyMirrorverse265Set } from './disney-mirrorverse-265.js';
+import { BangDreamAveMujicaSet } from './bang-dream-ave-mujica.js';
+import { FairyTailSet } from './fairy-tail.js';
+import { HatsuneMikuColorfulStageNightcordAt2500Set } from './hatsune-miku-colorful-stage-nightcord-at-25-00.js';
+import { HatsuneMikuColorfulStageWonderlandsXShowtimeSet } from './hatsune-miku-colorful-stage-wonderlands-x-showtime.js';
+import { HatsuneMikuColorfulStageVividBadSquadSet } from './hatsune-miku-colorful-stage-vivid-bad-squad.js';
+import { HatsuneMikuColorfulStageMoreMoreJumpSet } from './hatsune-miku-colorful-stage-more-more-jump.js';
+import { HatsuneMikuColorfulStageLeoNeedSet } from './hatsune-miku-colorful-stage-leo-need.js';
+import { LycorisRecoilSet } from './lycoris-recoil.js';
+import { RurouniKenshinSet } from './rurouni-kenshin.js';
+import { RurouniKenshin253Set } from './rurouni-kenshin-253.js';
+import { GoddessOfVictoryNikkeSet } from './goddess-of-victory-nikke.js';
+import { RascalDoesNotDreamSeriesSet } from './rascal-does-not-dream-series.js';
+import { Persona3ReloadSet } from './persona-3-reload.js';
+import { BlueArchiveSet } from './blue-archive.js';
+import { BlueArchive247Set } from './blue-archive-247.js';
+import { PixarCharactersSet } from './pixar-characters.js';
+import { CarsSet } from './cars.js';
+import { MonsterIncSet } from './monster-inc.js';
+import { ToyStorySet } from './toy-story.js';
+import { TheQuintessentialQuintupletsSpecialsSet } from './the-quintessential-quintuplets-specials.js';
+import { MacrossDeltaSet } from './macross-delta.js';
+import { FrierenBeyondJourneySEndSet } from './frieren-beyond-journey-s-end.js';
+import { FrierenBeyondJourneySEnd239Set } from './frieren-beyond-journey-s-end-239.js';
+import { DengekiBunkoSet } from './dengeki-bunko.js';
+import { DengekiBunkoSchwarzSideSet } from './dengeki-bunko-schwarz-side.js';
+import { DengekiBunkoWeiSideSet } from './dengeki-bunko-wei-side.js';
+import { Marvel234Set } from './marvel-234.js';
+import { Marvel233Set } from './marvel-233.js';
+import { JojoSBizarreAdventureStoneOceanSet } from './jojo-s-bizarre-adventure-stone-ocean.js';
+import { JojoSBizarreAdventureStardustCrusadersSet } from './jojo-s-bizarre-adventure-stardust-crusaders.js';
+import { OshiNoKoSet } from './oshi-no-ko.js';
+import { HololiveProductionSummerCollectionSet } from './hololive-production-summer-collection.js';
+import { AyakashiTriangleSet } from './ayakashi-triangle.js';
+import { AyakashiTriangle226Set } from './ayakashi-triangle-226.js';
+import { HololiveProductionFeatWeiSchwarzAmbassadorsSet } from './hololive-production-feat-wei-schwarz-ambassadors.js';
+import { LoveLiveSchoolIdolFestivalSeries10thAnniversarySet } from './love-live-school-idol-festival-series-10th-anniversary.js';
+import { ShakuganNoShanaSet } from './shakugan-no-shana.js';
+import { RwbySet } from './rwby.js';
+import { BocchiTheRockSet } from './bocchi-the-rock.js';
+import { BocchiTheRock220Set } from './bocchi-the-rock-220.js';
+import { BangDreamGirlsBandPartyCountdownCollectionSet } from './bang-dream-girls-band-party-countdown-collection.js';
+import { BangDreamMygoSet } from './bang-dream-mygo.js';
+import { SaekanoTheMovieFinaleSet } from './saekano-the-movie-finale.js';
+import { LycorisRecoil216Set } from './lycoris-recoil-216.js';
+import { LycorisRecoil215Set } from './lycoris-recoil-215.js';
+import { ChainsawManSet } from './chainsaw-man.js';
+import { ChainsawMan213Set } from './chainsaw-man-213.js';
+import { SpyXFamilySet } from './spy-x-family.js';
+import { SpyXFamily211Set } from './spy-x-family-211.js';
+import { GuiltyGearStriveSet } from './guilty-gear-strive.js';
+import { GuiltyGearStrive209Set } from './guilty-gear-strive-209.js';
+import { ArifuretaFromCommonplaceToWorldSStrongestSet } from './arifureta-from-commonplace-to-world-s-strongest.js';
+import { ArifuretaFromCommonplaceToWorldSStrongest207Set } from './arifureta-from-commonplace-to-world-s-strongest-207.js';
+import { AzurLaneSet } from './azur-lane.js';
+import { AzurLaneIronBloodVerSet } from './azur-lane-iron-blood-ver.js';
+import { AzurLaneSakuraEmpireVerSet } from './azur-lane-sakura-empire-ver.js';
+import { AzurLaneRoyalNavyVerSet } from './azur-lane-royal-navy-ver.js';
+import { AzurLaneEagleUnionVerSet } from './azur-lane-eagle-union-ver.js';
+import { RevueStarlightTheMovieSet } from './revue-starlight-the-movie.js';
+import { NazarickTombOfTheUndeadVol2Set } from './nazarick-tomb-of-the-undead-vol-2.js';
+import { UmamusumePrettyDerby199Set } from './umamusume-pretty-derby-199.js';
+import { TheEminenceInShadow198Set } from './the-eminence-in-shadow-198.js';
+import { RevueStarlightReLiveSet } from './revue-starlight-re-live.js';
+import { MakeineTooManyLosingHeroines196Set } from './makeine-too-many-losing-heroines-196.js';
+import { DandadanSet } from './dandadan.js';
+import { GirlsBandCry194Set } from './girls-band-cry-194.js';
+import { DisneyMirrorverse193Set } from './disney-mirrorverse-193.js';
+import { TheFruitOfGrisaiaSet } from './the-fruit-of-grisaia.js';
+import { HatsuneMikuColorfulStage191Set } from './hatsune-miku-colorful-stage-191.js';
+import { RurouniKenshin190Set } from './rurouni-kenshin-190.js';
+import { GoddessOfVictoryNikke189Set } from './goddess-of-victory-nikke-189.js';
+import { BangDreamGirlsBandParty5thAnniversarySet } from './bang-dream-girls-band-party-5th-anniversary.js';
+import { DateALiveVol2Set } from './date-a-live-vol-2.js';
+import { BlueArchive186Set } from './blue-archive-186.js';
+import { PixarCharacters185Set } from './pixar-characters-185.js';
+import { MacrossDelta184Set } from './macross-delta-184.js';
+import { FrierenBeyondJourneySEnd183Set } from './frieren-beyond-journey-s-end-183.js';
+import { LoveLiveSchoolIdolFestival2MiracleLiveSet } from './love-live-school-idol-festival-2-miracle-live.js';
+import { MissKobayashiSDragonMaidSet } from './miss-kobayashi-s-dragon-maid.js';
+import { LoveLiveSuperstarSet } from './love-live-superstar.js';
+import { SaekanoHowToRaiseABoringGirlfriendSet } from './saekano-how-to-raise-a-boring-girlfriend.js';
+import { SaekanoHowToRaiseABoringGirlfriend178Set } from './saekano-how-to-raise-a-boring-girlfriend-178.js';
+import { DengekiBunko177Set } from './dengeki-bunko-177.js';
+import { Marvel176Set } from './marvel-176.js';
+import { OshiNoKo175Set } from './oshi-no-ko-175.js';
+import { AyakashiTriangle174Set } from './ayakashi-triangle-174.js';
+import { LoveLiveNijigasakiSet } from './love-live-nijigasaki.js';
+import { ShakuganNoShana172Set } from './shakugan-no-shana-172.js';
+import { BocchiTheRock171Set } from './bocchi-the-rock-171.js';
+import { LycorisRecoil170Set } from './lycoris-recoil-170.js';
+import { ChainsawMan169Set } from './chainsaw-man-169.js';
+import { SpyXFamily168Set } from './spy-x-family-168.js';
+import { GuiltyGearStrive167Set } from './guilty-gear-strive-167.js';
+import { ArifuretaFromCommonplaceToWorldSStrongest166Set } from './arifureta-from-commonplace-to-world-s-strongest-166.js';
+import { AzurLane165Set } from './azur-lane-165.js';
+import { AvatarTheLastAirbenderSet } from './avatar-the-last-airbender.js';
+import { TheFruitOfGrisaia163Set } from './the-fruit-of-grisaia-163.js';
+import { HololiveProduction2ndGenerationSet } from './hololive-production-2nd-generation.js';
+import { MissKobayashiSDragonMaid161Set } from './miss-kobayashi-s-dragon-maid-161.js';
+import { SaekanoHowToRaiseABoringGirlfriend160Set } from './saekano-how-to-raise-a-boring-girlfriend-160.js';
+import { TokyoRevengersSet } from './tokyo-revengers.js';
+import { IsItWrongToTryToPickUpGirlsInADungeonSet } from './is-it-wrong-to-try-to-pick-up-girls-in-a-dungeon.js';
+import { MushokuTenseiJoblessReincarnationSet } from './mushoku-tensei-jobless-reincarnation.js';
+import { HololiveProductionSet } from './hololive-production.js';
+import { RentAGirlfriendSet } from './rent-a-girlfriend.js';
+import { MushokuTenseiJoblessReincarnation154Set } from './mushoku-tensei-jobless-reincarnation-154.js';
+import { Rwby153Set } from './rwby-153.js';
+import { TheQuintessentialQuintupletsSet } from './the-quintessential-quintuplets.js';
+import { Rwby151Set } from './rwby-151.js';
+import { TheSevenDeadlySinsSet } from './the-seven-deadly-sins.js';
+import { KaguyaSamaLoveIsWarSet } from './kaguya-sama-love-is-war.js';
+import { DateALiveSet } from './date-a-live.js';
+import { AdventureTimeSet } from './adventure-time.js';
+import { FujimiFantasiaBunkoSet } from './fujimi-fantasia-bunko.js';
+import { RascalDoesNotDreamSeries145Set } from './rascal-does-not-dream-series-145.js';
+import { CardcaptorSakuraClearCardSet } from './cardcaptor-sakura-clear-card.js';
+import { KonosubaGodSBlessingOnThisWonderfulWorldSet } from './konosuba-god-s-blessing-on-this-wonderful-world.js';
+import { BangDreamSet } from './bang-dream.js';
+import { LoveLiveSunshineSet } from './love-live-sunshine.js';
+import { ToLoveruDarkness2ndSet } from './to-loveru-darkness-2nd.js';
+import { TheIdolmSterCinderellaGirlsSet } from './the-idolm-ster-cinderella-girls.js';
+import { TheMelancholyOfHaruhiSuzumiyaSet } from './the-melancholy-of-haruhi-suzumiya.js';
+import { NisekoiFalseLoveSet } from './nisekoi-false-love.js';
+import { AngelBeatsReEditSet } from './angel-beats-re-edit.js';
+import { LoveLiveSet } from './love-live.js';
+import { PuellaMagiMadokaMagicaSet } from './puella-magi-madoka-magica.js';
+import { BofuriIDonTWantToGetHurtSoILlMaxOutMyDefenseSet } from './bofuri-i-don-t-want-to-get-hurt-so-i-ll-max-out-my-defense.js';
+import { FateGrandOrderSet } from './fate-grand-order.js';
+import { MobPsycho100Set } from './mob-psycho-100.js';
+import { NazarickTombOfTheUndeadSet } from './nazarick-tomb-of-the-undead.js';
+import { ThatTimeIGotReincarnatedAsASlimeSet } from './that-time-i-got-reincarnated-as-a-slime.js';
+import { JojoSBizarreAdventureSet } from './jojo-s-bizarre-adventure.js';
+import { GoblinSlayerSet } from './goblin-slayer.js';
+import { BatmanNinjaSet } from './batman-ninja.js';
+import { RevueStarlightSet } from './revue-starlight.js';
+import { SaoAlternativeGunGaleOnlineSet } from './sao-alternative-gun-gale-online.js';
+import { NoGameNoLifeSet } from './no-game-no-life.js';
+import { ReZeroStartingLifeInAnotherWorldSet } from './re-zero-starting-life-in-another-world.js';
+import { FateApocryphaSet } from './fate-apocrypha.js';
+import { GurrenLagannSet } from './gurren-lagann.js';
+import { AccelWorldSet } from './accel-world.js';
+import { FateKaleidLinerPrismaIllyaSet } from './fate-kaleid-liner-prisma-illya.js';
+import { DetectiveOperaMilkyHolmesSet } from './detective-opera-milky-holmes.js';
+import { LogHorizonSet } from './log-horizon.js';
+import { AttackOnTitanSet } from './attack-on-titan.js';
+import { KancolleSet } from './kancolle.js';
+import { FairyTail113Set } from './fairy-tail-113.js';
+import { PersonaSet } from './persona.js';
+import { KillLaKillSet } from './kill-la-kill.js';
+import { MonogatariSeriesBakemonogatariNisemonogatariSet } from './monogatari-series-bakemonogatari-nisemonogatari.js';
+import { HatsuneMikuProjectDivaSet } from './hatsune-miku-project-diva.js';
+import { FateSet } from './fate.js';
+import { SwordArtOnlineSet } from './sword-art-online.js';
+import { RascalDoesNotDreamOfBunnyGirlSenpaiSet } from './rascal-does-not-dream-of-bunny-girl-senpai.js';
+import { RascalDoesNotDreamOfBunnyGirlSenpai105Set } from './rascal-does-not-dream-of-bunny-girl-senpai-105.js';
+import { BangDreamGirlsBandPartyVol2Set } from './bang-dream-girls-band-party-vol-2.js';
+import { ReZeroStartingLifeInAnotherWorldVol2Set } from './re-zero-starting-life-in-another-world-vol-2.js';
+import { DemoDeckBatmanNinjaSet } from './demo-deck-batman-ninja.js';
+import { BatmanNinja101Set } from './batman-ninja-101.js';
+import { BatmanNinja100Set } from './batman-ninja-100.js';
+import { RevueStarlight99Set } from './revue-starlight-99.js';
+import { RevueStarlight98Set } from './revue-starlight-98.js';
+import { BangDreamGirlsBandPartyMultiLiveSet } from './bang-dream-girls-band-party-multi-live.js';
+import { SaoAlternativeGunGaleOnline96Set } from './sao-alternative-gun-gale-online-96.js';
+import { SaoAlternativeGunGaleOnline95Set } from './sao-alternative-gun-gale-online-95.js';
+import { NoGameNoLife94Set } from './no-game-no-life-94.js';
+import { NoGameNoLife93Set } from './no-game-no-life-93.js';
+import { CardcaptorSakuraClearCard92Set } from './cardcaptor-sakura-clear-card-92.js';
+import { CardcaptorSakuraClearCard91Set } from './cardcaptor-sakura-clear-card-91.js';
+import { ReZeroStartingLifeInAnotherWorld90Set } from './re-zero-starting-life-in-another-world-90.js';
+import { ReZeroStartingLifeInAnotherWorld89Set } from './re-zero-starting-life-in-another-world-89.js';
+import { KonosubaGodSBlessingOnThisWonderfulWorld2Set } from './konosuba-god-s-blessing-on-this-wonderful-world-2.js';
+import { KancolleArrivalReinforcementFleetsFromEuropeSet } from './kancolle-arrival-reinforcement-fleets-from-europe.js';
+import { FateApocrypha86Set } from './fate-apocrypha-86.js';
+import { FateApocrypha85Set } from './fate-apocrypha-85.js';
+import { BangDreamGirlsBandPartySet } from './bang-dream-girls-band-party.js';
+import { BangDreamGirlsBandPartyRoseliaSet } from './bang-dream-girls-band-party-roselia.js';
+import { GurrenLagann82Set } from './gurren-lagann-82.js';
+import { GurrenLagann81Set } from './gurren-lagann-81.js';
+import { LoveLiveSunshine80Set } from './love-live-sunshine-80.js';
+import { LoveLiveSunshine79Set } from './love-live-sunshine-79.js';
+import { Persona5Set } from './persona-5.js';
+import { Persona577Set } from './persona-5-77.js';
+import { SwordArtOnlineTheMovieOrdinalScaleSet } from './sword-art-online-the-movie-ordinal-scale.js';
+import { AccelWorldInfiniteBurstSet } from './accel-world-infinite-burst.js';
+import { AttackOnTitanVol2Set } from './attack-on-titan-vol-2.js';
+import { KonosubaGodSBlessingOnThisWonderfulWorld73Set } from './konosuba-god-s-blessing-on-this-wonderful-world-73.js';
+import { KonosubaGodSBlessingOnThisWonderfulWorld72Set } from './konosuba-god-s-blessing-on-this-wonderful-world-72.js';
+import { BangDream71Set } from './bang-dream-71.js';
+import { AccelWorld70Set } from './accel-world-70.js';
+import { AccelWorld69Set } from './accel-world-69.js';
+import { KancolleFleetInTheDeepSeaSightedSet } from './kancolle-fleet-in-the-deep-sea-sighted.js';
+import { SwordArtOnlineReEditSet } from './sword-art-online-re-edit.js';
+import { BangDream66Set } from './bang-dream-66.js';
+import { LoveLiveSunshine65Set } from './love-live-sunshine-65.js';
+import { LoveLiveSunshine64Set } from './love-live-sunshine-64.js';
+import { ToLoveruDarkness2nd62Set } from './to-loveru-darkness-2nd-62.js';
+import { ToLoveruDarkness2nd61Set } from './to-loveru-darkness-2nd-61.js';
+import { FateKaleidLinerPrismaIllya60Set } from './fate-kaleid-liner-prisma-illya-60.js';
+import { LoveLiveDxVol2Set } from './love-live-dx-vol-2.js';
+import { NisekoiFalseLove58Set } from './nisekoi-false-love-58.js';
+import { DisgaeaSet } from './disgaea.js';
+import { Disgaea55Set } from './disgaea-55.js';
+import { SwordArtOnlineVol2Set } from './sword-art-online-vol-2.js';
+import { TheMelancholyOfHaruhiSuzumiya53Set } from './the-melancholy-of-haruhi-suzumiya-53.js';
+import { FateStayNightUnlimitedBladeWorksVol2Set } from './fate-stay-night-unlimited-blade-works-vol-2.js';
+import { TheIdolmSterCinderellaGirls51Set } from './the-idolm-ster-cinderella-girls-51.js';
+import { TheIdolmSterCinderellaGirlsHeartSet } from './the-idolm-ster-cinderella-girls-heart.js';
+import { TheIdolmSterCinderellaGirlsPowerSet } from './the-idolm-ster-cinderella-girls-power.js';
+import { TheIdolmSterCinderellaGirlsSmileSet } from './the-idolm-ster-cinderella-girls-smile.js';
+import { NisemonogatariSet } from './nisemonogatari.js';
+import { Nisemonogatari46Set } from './nisemonogatari-46.js';
+import { TheMelancholyOfHaruhiSuzumiya45Set } from './the-melancholy-of-haruhi-suzumiya-45.js';
+import { TheMelancholyOfHaruhiSuzumiya44Set } from './the-melancholy-of-haruhi-suzumiya-44.js';
+import { TutorialDeckDetectiveOperaMilkyHolmesSet } from './tutorial-deck-detective-opera-milky-holmes.js';
+import { LoveLiveVol2Set } from './love-live-vol-2.js';
+import { LoveLiveSchoolIdolFestivalSet } from './love-live-school-idol-festival.js';
+import { Kancolle2ndFleetSet } from './kancolle-2nd-fleet.js';
+import { LogHorizon39Set } from './log-horizon-39.js';
+import { LogHorizon38Set } from './log-horizon-38.js';
+import { PuellaMagiMadokaMagicaTheMovieRebellionSet } from './puella-magi-madoka-magica-the-movie-rebellion.js';
+import { FateStayNightUnlimitedBladeWorksSet } from './fate-stay-night-unlimited-blade-works.js';
+import { FateStayNightUnlimitedBladeWorks35Set } from './fate-stay-night-unlimited-blade-works-35.js';
+import { AttackOnTitan34Set } from './attack-on-titan-34.js';
+import { AttackOnTitan33Set } from './attack-on-titan-33.js';
+import { LoveLiveDxSet } from './love-live-dx.js';
+import { Kancolle31Set } from './kancolle-31.js';
+import { Kancolle30Set } from './kancolle-30.js';
+import { SwordArtOnlineIiSet } from './sword-art-online-ii.js';
+import { SwordArtOnlineIi28Set } from './sword-art-online-ii-28.js';
+import { HatsuneMikuProjectDivaF2ndSet } from './hatsune-miku-project-diva-f-2nd.js';
+import { NisekoiFalseLoveVerESet } from './nisekoi-false-love-ver-e.js';
+import { NisekoiFalseLove25Set } from './nisekoi-false-love-25.js';
+import { FairyTailVerESet } from './fairy-tail-ver-e.js';
+import { FairyTailVerE23Set } from './fairy-tail-ver-e-23.js';
+import { Persona4VerESet } from './persona-4-ver-e.js';
+import { Persona4VerE21Set } from './persona-4-ver-e-21.js';
+import { KillLaKill20Set } from './kill-la-kill-20.js';
+import { KillLaKill19Set } from './kill-la-kill-19.js';
+import { AngelBeatsReEdit18Set } from './angel-beats-re-edit-18.js';
+import { AngelBeatsReEdit17Set } from './angel-beats-re-edit-17.js';
+import { LoveLive16Set } from './love-live-16.js';
+import { LoveLive15Set } from './love-live-15.js';
+import { SwordArtOnlineVol214Set } from './sword-art-online-vol-2-14.js';
+import { BakemonogatariSet } from './bakemonogatari.js';
+import { Bakemonogatari12Set } from './bakemonogatari-12.js';
+import { HatsuneMikuProjectDiva11Set } from './hatsune-miku-project-diva-11.js';
+import { HatsuneMikuProjectDiva10Set } from './hatsune-miku-project-diva-10.js';
+import { FateZeroSet } from './fate-zero.js';
+import { SwordArtOnline8Set } from './sword-art-online-8.js';
+import { SwordArtOnline7Set } from './sword-art-online-7.js';
+import { DisgaeaHourOfDarknessSet } from './disgaea-hour-of-darkness.js';
+import { PuellaMagiMadokaMagica5Set } from './puella-magi-madoka-magica-5.js';
+import { PrCardSchwarzSideSet } from './pr-card-schwarz-side.js';
+import { PrCardWeiSideSet } from './pr-card-wei-side.js';
+import { FateZero2Set } from './fate-zero-2.js';
+import { Disgaea1Set } from './disgaea-1.js';
 
 export const WS_CARD_SETS = [
   NikkeVol2Set,
@@ -25,8 +301,285 @@ export const WS_CARD_SETS = [
   HatsuneMikuColorfulStageSet,
   LoveLiveSif2MiracleLiveSet,
   OshiNoKoVol1Set,
+  BangDream10thAnniversarySet,
+  UmamusumePrettyDerbyRace1Set,
+  NazarickTombOfTheUndeadVol3Set,
+  FujimiFantasiaBunkoVol2Set,
+  FujimiFantasiaBunkoVol2281Set,
+  TheEminenceInShadowSet,
+  TheEminenceInShadow279Set,
+  FairyTail100YearsQuestSet,
+  MakeineTooManyLosingHeroinesSet,
+  MakeineTooManyLosingHeroines275Set,
+  TvAnimeDandadanSet,
+  TvAnimeDandadan273Set,
+  GirlsBandCrySet,
+  GirlsBandCry271Set,
+  KonosubaGodSBlessingOnThisWonderfulWorldReEditSet,
+  AzurLaneVol2Set,
+  MarvelSet,
+  DisneyMirrorverseSet,
+  DisneyMirrorverse265Set,
+  BangDreamAveMujicaSet,
+  FairyTailSet,
+  HatsuneMikuColorfulStageNightcordAt2500Set,
+  HatsuneMikuColorfulStageWonderlandsXShowtimeSet,
+  HatsuneMikuColorfulStageVividBadSquadSet,
+  HatsuneMikuColorfulStageMoreMoreJumpSet,
+  HatsuneMikuColorfulStageLeoNeedSet,
+  LycorisRecoilSet,
+  RurouniKenshinSet,
+  RurouniKenshin253Set,
+  GoddessOfVictoryNikkeSet,
+  RascalDoesNotDreamSeriesSet,
+  Persona3ReloadSet,
+  BlueArchiveSet,
+  BlueArchive247Set,
+  PixarCharactersSet,
+  CarsSet,
+  MonsterIncSet,
+  ToyStorySet,
+  TheQuintessentialQuintupletsSpecialsSet,
+  MacrossDeltaSet,
+  FrierenBeyondJourneySEndSet,
+  FrierenBeyondJourneySEnd239Set,
+  DengekiBunkoSet,
+  DengekiBunkoSchwarzSideSet,
+  DengekiBunkoWeiSideSet,
+  Marvel234Set,
+  Marvel233Set,
+  JojoSBizarreAdventureStoneOceanSet,
+  JojoSBizarreAdventureStardustCrusadersSet,
+  OshiNoKoSet,
+  HololiveProductionSummerCollectionSet,
+  AyakashiTriangleSet,
+  AyakashiTriangle226Set,
+  HololiveProductionFeatWeiSchwarzAmbassadorsSet,
+  LoveLiveSchoolIdolFestivalSeries10thAnniversarySet,
+  ShakuganNoShanaSet,
+  RwbySet,
+  BocchiTheRockSet,
+  BocchiTheRock220Set,
+  BangDreamGirlsBandPartyCountdownCollectionSet,
+  BangDreamMygoSet,
+  SaekanoTheMovieFinaleSet,
+  LycorisRecoil216Set,
+  LycorisRecoil215Set,
+  ChainsawManSet,
+  ChainsawMan213Set,
+  SpyXFamilySet,
+  SpyXFamily211Set,
+  GuiltyGearStriveSet,
+  GuiltyGearStrive209Set,
+  ArifuretaFromCommonplaceToWorldSStrongestSet,
+  ArifuretaFromCommonplaceToWorldSStrongest207Set,
+  AzurLaneSet,
+  AzurLaneIronBloodVerSet,
+  AzurLaneSakuraEmpireVerSet,
+  AzurLaneRoyalNavyVerSet,
+  AzurLaneEagleUnionVerSet,
+  RevueStarlightTheMovieSet,
+  NazarickTombOfTheUndeadVol2Set,
+  UmamusumePrettyDerby199Set,
+  TheEminenceInShadow198Set,
+  RevueStarlightReLiveSet,
+  MakeineTooManyLosingHeroines196Set,
+  DandadanSet,
+  GirlsBandCry194Set,
+  DisneyMirrorverse193Set,
+  TheFruitOfGrisaiaSet,
+  HatsuneMikuColorfulStage191Set,
+  RurouniKenshin190Set,
+  GoddessOfVictoryNikke189Set,
+  BangDreamGirlsBandParty5thAnniversarySet,
+  DateALiveVol2Set,
+  BlueArchive186Set,
+  PixarCharacters185Set,
+  MacrossDelta184Set,
+  FrierenBeyondJourneySEnd183Set,
+  LoveLiveSchoolIdolFestival2MiracleLiveSet,
+  MissKobayashiSDragonMaidSet,
+  LoveLiveSuperstarSet,
+  SaekanoHowToRaiseABoringGirlfriendSet,
+  SaekanoHowToRaiseABoringGirlfriend178Set,
+  DengekiBunko177Set,
+  Marvel176Set,
+  OshiNoKo175Set,
+  AyakashiTriangle174Set,
+  LoveLiveNijigasakiSet,
+  ShakuganNoShana172Set,
+  BocchiTheRock171Set,
+  LycorisRecoil170Set,
+  ChainsawMan169Set,
+  SpyXFamily168Set,
+  GuiltyGearStrive167Set,
+  ArifuretaFromCommonplaceToWorldSStrongest166Set,
+  AzurLane165Set,
+  AvatarTheLastAirbenderSet,
+  TheFruitOfGrisaia163Set,
+  HololiveProduction2ndGenerationSet,
+  MissKobayashiSDragonMaid161Set,
+  SaekanoHowToRaiseABoringGirlfriend160Set,
+  TokyoRevengersSet,
+  IsItWrongToTryToPickUpGirlsInADungeonSet,
+  MushokuTenseiJoblessReincarnationSet,
+  HololiveProductionSet,
+  RentAGirlfriendSet,
+  MushokuTenseiJoblessReincarnation154Set,
+  Rwby153Set,
+  TheQuintessentialQuintupletsSet,
+  Rwby151Set,
+  TheSevenDeadlySinsSet,
+  KaguyaSamaLoveIsWarSet,
+  DateALiveSet,
+  AdventureTimeSet,
+  FujimiFantasiaBunkoSet,
+  RascalDoesNotDreamSeries145Set,
+  CardcaptorSakuraClearCardSet,
+  KonosubaGodSBlessingOnThisWonderfulWorldSet,
+  BangDreamSet,
+  LoveLiveSunshineSet,
+  ToLoveruDarkness2ndSet,
+  TheIdolmSterCinderellaGirlsSet,
+  TheMelancholyOfHaruhiSuzumiyaSet,
+  NisekoiFalseLoveSet,
+  AngelBeatsReEditSet,
+  LoveLiveSet,
+  PuellaMagiMadokaMagicaSet,
+  BofuriIDonTWantToGetHurtSoILlMaxOutMyDefenseSet,
+  FateGrandOrderSet,
+  MobPsycho100Set,
+  NazarickTombOfTheUndeadSet,
+  ThatTimeIGotReincarnatedAsASlimeSet,
+  JojoSBizarreAdventureSet,
+  GoblinSlayerSet,
+  BatmanNinjaSet,
+  RevueStarlightSet,
+  SaoAlternativeGunGaleOnlineSet,
+  NoGameNoLifeSet,
+  ReZeroStartingLifeInAnotherWorldSet,
+  FateApocryphaSet,
+  GurrenLagannSet,
+  AccelWorldSet,
+  FateKaleidLinerPrismaIllyaSet,
+  DetectiveOperaMilkyHolmesSet,
+  LogHorizonSet,
+  AttackOnTitanSet,
+  KancolleSet,
+  FairyTail113Set,
+  PersonaSet,
+  KillLaKillSet,
+  MonogatariSeriesBakemonogatariNisemonogatariSet,
+  HatsuneMikuProjectDivaSet,
+  FateSet,
+  SwordArtOnlineSet,
+  RascalDoesNotDreamOfBunnyGirlSenpaiSet,
+  RascalDoesNotDreamOfBunnyGirlSenpai105Set,
+  BangDreamGirlsBandPartyVol2Set,
+  ReZeroStartingLifeInAnotherWorldVol2Set,
+  DemoDeckBatmanNinjaSet,
+  BatmanNinja101Set,
+  BatmanNinja100Set,
+  RevueStarlight99Set,
+  RevueStarlight98Set,
+  BangDreamGirlsBandPartyMultiLiveSet,
+  SaoAlternativeGunGaleOnline96Set,
+  SaoAlternativeGunGaleOnline95Set,
+  NoGameNoLife94Set,
+  NoGameNoLife93Set,
+  CardcaptorSakuraClearCard92Set,
+  CardcaptorSakuraClearCard91Set,
+  ReZeroStartingLifeInAnotherWorld90Set,
+  ReZeroStartingLifeInAnotherWorld89Set,
+  KonosubaGodSBlessingOnThisWonderfulWorld2Set,
+  KancolleArrivalReinforcementFleetsFromEuropeSet,
+  FateApocrypha86Set,
+  FateApocrypha85Set,
+  BangDreamGirlsBandPartySet,
+  BangDreamGirlsBandPartyRoseliaSet,
+  GurrenLagann82Set,
+  GurrenLagann81Set,
+  LoveLiveSunshine80Set,
+  LoveLiveSunshine79Set,
+  Persona5Set,
+  Persona577Set,
+  SwordArtOnlineTheMovieOrdinalScaleSet,
+  AccelWorldInfiniteBurstSet,
+  AttackOnTitanVol2Set,
+  KonosubaGodSBlessingOnThisWonderfulWorld73Set,
+  KonosubaGodSBlessingOnThisWonderfulWorld72Set,
+  BangDream71Set,
+  AccelWorld70Set,
+  AccelWorld69Set,
+  KancolleFleetInTheDeepSeaSightedSet,
+  SwordArtOnlineReEditSet,
+  BangDream66Set,
+  LoveLiveSunshine65Set,
+  LoveLiveSunshine64Set,
+  ToLoveruDarkness2nd62Set,
+  ToLoveruDarkness2nd61Set,
+  FateKaleidLinerPrismaIllya60Set,
+  LoveLiveDxVol2Set,
+  NisekoiFalseLove58Set,
+  DisgaeaSet,
+  Disgaea55Set,
+  SwordArtOnlineVol2Set,
+  TheMelancholyOfHaruhiSuzumiya53Set,
+  FateStayNightUnlimitedBladeWorksVol2Set,
+  TheIdolmSterCinderellaGirls51Set,
+  TheIdolmSterCinderellaGirlsHeartSet,
+  TheIdolmSterCinderellaGirlsPowerSet,
+  TheIdolmSterCinderellaGirlsSmileSet,
+  NisemonogatariSet,
+  Nisemonogatari46Set,
+  TheMelancholyOfHaruhiSuzumiya45Set,
+  TheMelancholyOfHaruhiSuzumiya44Set,
+  TutorialDeckDetectiveOperaMilkyHolmesSet,
+  LoveLiveVol2Set,
+  LoveLiveSchoolIdolFestivalSet,
+  Kancolle2ndFleetSet,
+  LogHorizon39Set,
+  LogHorizon38Set,
+  PuellaMagiMadokaMagicaTheMovieRebellionSet,
+  FateStayNightUnlimitedBladeWorksSet,
+  FateStayNightUnlimitedBladeWorks35Set,
+  AttackOnTitan34Set,
+  AttackOnTitan33Set,
+  LoveLiveDxSet,
+  Kancolle31Set,
+  Kancolle30Set,
+  SwordArtOnlineIiSet,
+  SwordArtOnlineIi28Set,
+  HatsuneMikuProjectDivaF2ndSet,
+  NisekoiFalseLoveVerESet,
+  NisekoiFalseLove25Set,
+  FairyTailVerESet,
+  FairyTailVerE23Set,
+  Persona4VerESet,
+  Persona4VerE21Set,
+  KillLaKill20Set,
+  KillLaKill19Set,
+  AngelBeatsReEdit18Set,
+  AngelBeatsReEdit17Set,
+  LoveLive16Set,
+  LoveLive15Set,
+  SwordArtOnlineVol214Set,
+  BakemonogatariSet,
+  Bakemonogatari12Set,
+  HatsuneMikuProjectDiva11Set,
+  HatsuneMikuProjectDiva10Set,
+  FateZeroSet,
+  SwordArtOnline8Set,
+  SwordArtOnline7Set,
+  DisgaeaHourOfDarknessSet,
+  PuellaMagiMadokaMagica5Set,
+  PrCardSchwarzSideSet,
+  PrCardWeiSideSet,
+  FateZero2Set,
+  Disgaea1Set,
 ];
 
 export function getCardSetCount() {
   return WS_CARD_SETS.reduce((n, s) => n + s.cards.length, 0);
 }
+

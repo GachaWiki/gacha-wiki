@@ -38,12 +38,28 @@ const totalCards = WS_CARD_SETS.reduce((n, s) => n + s.cards.length, 0);
       browse its cards.
     </p>
 
-    <div class="wsc-sets">
+    <div class="wsc-toolbar wsc-sets-toolbar">
+      <input
+        id="wsc-set-search"
+        class="wsc-input"
+        type="search"
+        placeholder="Filter sets by name..."
+        aria-label="Filter sets by name"
+      />
+      <span id="wsc-set-count" class="wsc-count" aria-live="polite"></span>
+    </div>
+
+    <div class="wsc-sets" id="wsc-sets">
       {
         WS_CARD_SETS.map((set) => {
           const shop = shopImage.get(set.shopItem ?? undefined);
           return (
-            <a class="wsc-setcard" href={`/cards/${set.id}/`} aria-label={`${set.name} card database`}>
+            <a
+              class="wsc-setcard"
+              href={`/cards/${set.id}/`}
+              aria-label={`${set.name} card database`}
+              data-search={set.name.toLowerCase()}
+            >
               {shop && (
                 <span class="wsc-setcard-media">
                   <img
@@ -67,9 +83,35 @@ const totalCards = WS_CARD_SETS.reduce((n, s) => n + s.cards.length, 0);
       }
     </div>
 
+    <p class="wsc-no-results" id="wsc-set-no-results" hidden>No sets match that name.</p>
+
     <p class="wsc-fineprint">
       Card data and images: official Weiss Schwarz English cardlist (en.ws-tcg.com), Bushiroad.
       Imported for reference; buy the sets in our <a href="/shop/">shop</a>.
     </p>
   </div>
 </AboutLayout>
+
+<script>
+  // Client-side set filter (site convention: server-rendered tiles, visibility
+  // toggled by data attributes).
+  const search = document.getElementById('wsc-set-search') as HTMLInputElement;
+  const count = document.getElementById('wsc-set-count');
+  const noResults = document.getElementById('wsc-set-no-results');
+  const tiles = Array.from(document.querySelectorAll<HTMLElement>('.wsc-setcard'));
+
+  function apply(): void {
+    const q = search.value.trim().toLowerCase();
+    let visible = 0;
+    for (const el of tiles) {
+      const show = !q || el.dataset.search?.includes(q);
+      el.style.display = show ? '' : 'none';
+      if (show) visible++;
+    }
+    if (count) count.textContent = `${visible} of ${tiles.length} sets`;
+    if (noResults) noResults.hidden = visible > 0;
+  }
+
+  search.addEventListener('input', apply);
+  apply();
+</script>

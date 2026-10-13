@@ -35,8 +35,24 @@ bun tools/ws-carddb/gen-data.mjs <setId>                 # -> src/data/ws-cards/
    it up in the expansion `<select>` on en.ws-tcg.com/cardlist/), display
    name, EN release date, and the matching shop item id.
 2. Run the three commands above with the new setId.
-3. Check the dev server `/weiss-schwarz/cards/` and `/shop/` (the shop card
-   gains a "Card database" link automatically via the registry).
+3. Check the dev server `/cards/` and `/shop/` (the shop card gains a
+   "Card database" link automatically via the registry).
+
+## Full catalog import (2026-10-13)
+
+`SETS` now covers EVERY English expansion on the official cardlist (288 sets,
+~30k cards). Entries below the "Generated" marker come from
+`gen-registry.mjs`-style generation against the live expansion select:
+
+- The 12 hand-curated sets (with release dates and shop links) stay on top.
+- Generated entries have `release: null` and no `shopItem`; the pages omit
+  the release date and buy links for those.
+- Slug collisions between a Trial Deck / Extra Booster and its booster of the
+  same name get the expansion id appended (`fujimi-fantasia-bunko-vol-2-281`).
+- Card images: until a set is rehosted, generated data files reference the
+  OFFICIAL image URLs (`en.ws-tcg.com/wordpress/...`). Rehost waves
+  (`fetch-card-images.mjs <setId> --upload` + re-run `gen-data.mjs`) move
+  them to R2 incrementally, newest sets first.
 
 ## Gotchas
 
