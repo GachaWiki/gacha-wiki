@@ -1,6 +1,14 @@
 // Zone Nova Updates Data
 export const zoneNovaUpdates = [
   {
+    id: 'maintenance-october-13-2026',
+    title: 'October 13, 2026 Maintenance Update',
+    date: 'October 13, 2026',
+    type: 'maintenance',
+    summary: "Maintenance on October 13, 2026 (14:00 UTC+8, ~2 hours). Ootakemaru (Attacker, Ice) limited recruitment October 13, 2026 14:15 - October 27, 2026 03:59 (UTC+8). Rift Surge XXXVIII open October 14, 2026 - October 27, 2026. New Ice Attacker built around punishment: [Flow Severance] cuts enemy healing and shields received by 150%, her passive [Mirror Blade] instantly counterattacks the highest-DEF enemy whenever an enemy begins casting an Ultimate, and her ultimate [Moon Mirror: Flash] raises her ATK by 95% before a 1050% ATK strike. New signature Remembrance: Drunk General (SSR, Attacker, ATK +39% and Pursue Damage +45% with a Max HP shield after casting an Ultimate), on the limited Remembrance banner alongside her recruitment banner. Bedivere and Shuten-doji limited recruitment reruns October 20 - October 27, 2026. New Prayer Codex wave: New Prayer Codex Pages (Dawn, Echo, Verse, Crown) plus Brynhild's and Fenrir's Archives in the Prayer Codex Shop. Snowfield Journey event: The Chase Between Demons, Celestial Maidens, and Bandits Part 1 October 13 - October 27 (Part 2 October 27 - November 10). Trial of Bravery season 28 (October 14 - October 27): Kemich, Avalon, A.S.A, and Heikyo Castle factions, with a rule that favors ATTACKERs and follow-up damage.",
+    url: '/guides/zone-nova/updates/maintenance-october-13-2026/',
+  },
+  {
     id: 'maintenance-september-29-2026',
     title: 'September 29, 2026 Maintenance Update',
     date: 'September 29, 2026',

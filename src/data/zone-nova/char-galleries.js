@@ -57,6 +57,7 @@ export const CHAR_GALLERIES = {
   'brynhild': [
     { label: 'Awakened', image: 'https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/zone-nova/gallery/awaken/brynhild.webp', w: 256, h: 256 },
     { label: 'Event 19', title: '[Soul Hunting Grounds: The Valkyrie and the Dire Wolf\'s Counterattack] Part 1', image: 'https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/zone-nova/events/event-19-a.webp', w: 1024, h: 512 },
+    { label: 'Event 19 Banner', title: '[Soul Hunting Grounds: The Valkyrie and the Dire Wolf\'s Counterattack] Part 1', image: 'https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/zone-nova/gallery/campaign/campaign-37.webp', w: 433, h: 212 },
     { label: 'Gacha Banner', image: 'https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/zone-nova/gallery/gacha/brynhild.webp', w: 433, h: 212 },
   ],
   'chiya': [
@@ -80,6 +81,7 @@ export const CHAR_GALLERIES = {
   'fenrir': [
     { label: 'Awakened', image: 'https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/zone-nova/gallery/awaken/fenrir.webp', w: 256, h: 256 },
     { label: 'Event 19', title: '[Soul Hunting Grounds: The Valkyrie and the Dire Wolf\'s Counterattack] Part 2', image: 'https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/zone-nova/events/event-19-b.webp', w: 1024, h: 512 },
+    { label: 'Event 19 Banner', title: '[Soul Hunting Grounds: The Valkyrie and the Dire Wolf\'s Counterattack] Part 2', image: 'https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/zone-nova/gallery/campaign/campaign-38.webp', w: 433, h: 212 },
     { label: 'Gacha Banner', image: 'https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/zone-nova/gallery/gacha/fenrir.webp', w: 433, h: 212 },
   ],
   'freya': [
@@ -242,6 +244,11 @@ export const CHAR_GALLERIES = {
     { label: 'Event 4', title: '[Ragnarok: Prelude to Frost] Part 1', image: 'https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/zone-nova/events/event-04.webp', w: 1024, h: 512 },
     { label: 'Event 4 Banner', title: '[Ragnarok: Prelude to Frost] Part 1', image: 'https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/zone-nova/gallery/campaign/campaign-07.webp', w: 433, h: 212 },
     { label: 'Gacha Banner', image: 'https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/zone-nova/gallery/gacha/odin.webp', w: 433, h: 212 },
+  ],
+  'ootakemaru': [
+    { label: 'Event 20', title: '[Snowfield Journey: The Chase Between Demons, Celestial Maidens, and Bandits] Part 1', image: 'https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/zone-nova/events/event-20-a.webp', w: 1024, h: 512 },
+    { label: 'Event 20 Banner', title: '[Snowfield Journey: The Chase Between Demons, Celestial Maidens, and Bandits] Part 1', image: 'https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/zone-nova/gallery/campaign/campaign-39.webp', w: 433, h: 212 },
+    { label: 'Gacha Banner', image: 'https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/zone-nova/gallery/gacha/ootakemaru.webp', w: 433, h: 212 },
   ],
   'penny': [
     { label: 'Awakened', image: 'https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/zone-nova/gallery/awaken/penny.webp', w: 256, h: 256 },

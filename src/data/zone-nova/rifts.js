@@ -21,6 +21,9 @@ import { riftSurge19Data } from './rifts/rift-surge-19.js';
 import { riftSurge21Data } from './rifts/rift-surge-21.js';
 import { riftSurge22Data } from './rifts/rift-surge-22.js';
 import { riftSurge36Data } from './rifts/rift-surge-36.js';
+import { riftSurge37Data } from './rifts/rift-surge-37.js';
+import { riftSurge38Data } from './rifts/rift-surge-38.js';
+import { riftSurge39Data } from './rifts/rift-surge-39.js';
 import { riftSurge35Data } from './rifts/rift-surge-35.js';
 import { riftSurge34Data } from './rifts/rift-surge-34.js';
 import { riftSurge33Data } from './rifts/rift-surge-33.js';
@@ -46,6 +49,9 @@ export const RIFT_STATUS = {
 
 // Main rifts data array - imported from individual files
 export const zoneNovaRifts = [
+  riftSurge39Data,
+  riftSurge38Data,
+  riftSurge37Data,
   riftSurge36Data,
   riftSurge35Data,
   riftSurge34Data,

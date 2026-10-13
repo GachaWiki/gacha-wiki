@@ -41,6 +41,7 @@ import { belphegarBuild } from './character-builds/belphegar.js';
 import { borsBuild } from './character-builds/bors.js';
 import { brynhildBuild } from './character-builds/brynhild.js';
 import { fenrirBuild } from './character-builds/fenrir.js';
+import { ootakemaruBuild } from './character-builds/ootakemaru.js';
 import { cleopatraBuild } from './character-builds/cleopatra.js';
 import { erikaBuild } from './character-builds/erika.js';
 import { greedMammonBuild } from './character-builds/greed-mammon.js';
@@ -191,6 +192,8 @@ export const CHARACTER_BUILDS = {
   'brynhild': brynhildBuild,
   // Fenrir Build - SSR Ice Disruptor
   'fenrir': fenrirBuild,
+  // Ootakemaru Build - SSR Ice Attacker
+  'ootakemaru': ootakemaruBuild,
 
   // Cleopatra Build - SSR Chaos Destroyer
   'cleopatra': cleopatraBuild,

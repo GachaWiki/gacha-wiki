@@ -54,7 +54,7 @@ export const CLASS_ORDER = [
 // Overall PvE Tier List - General content performance
 export const PVE_TIER_LIST = {
   name: 'PvE Rankings by Class & Role',
-  lastUpdated: '2026-09-29',
+  lastUpdated: '2026-10-13',
   description:
     'Class-based PvE rankings with role highlights for story, events, and general progression.',
   tiers: {
@@ -103,6 +103,7 @@ export const PVE_TIER_LIST = {
       { name: 'Poseidon' },
       { name: 'Bedivere' },
       { name: 'Fenrir' },
+      { name: 'Ootakemaru' },
     ],
     S: [
       { name: 'Zashiki-warashi' },
@@ -139,11 +140,11 @@ export const PVE_TIER_LIST = {
 // PvP Arena Tier List
 export const PVP_TIER_LIST = {
   name: 'Arena PvP Rankings by Class & Role',
-  lastUpdated: '2026-09-29',
+  lastUpdated: '2026-10-13',
   description: 'Class-based Arena PvP rankings with role highlights for competitive play.',
   tiers: {
     UR: [{ name: 'Pride-Lucifer' }, { name: 'Bors' }, { name: 'Medusa' }],
-    SSS: [{ name: 'Sharin' }, { name: 'Gluttony - Beelzebub' }, { name: 'Keller' }, { name: 'Nina' }, { name: 'Morgan Le Fay' }, { name: 'Odin' }, { name: 'Tamamo-no-Mae' }, { name: 'Wrath-Samael' }, { name: 'Gaia' }, { name: 'Jill' }, { name: 'Jorogumo' }, { name: 'Thor' }, { name: 'Apep' }, { name: 'Artemis' }, { name: 'Freya' }, { name: 'Hiyori' }, { name: 'Veronica' }, { name: 'Set' }, { name: 'Brynhild' }, { name: 'Fenrir' }],
+    SSS: [{ name: 'Sharin' }, { name: 'Gluttony - Beelzebub' }, { name: 'Keller' }, { name: 'Nina' }, { name: 'Morgan Le Fay' }, { name: 'Odin' }, { name: 'Tamamo-no-Mae' }, { name: 'Wrath-Samael' }, { name: 'Gaia' }, { name: 'Jill' }, { name: 'Jorogumo' }, { name: 'Thor' }, { name: 'Apep' }, { name: 'Artemis' }, { name: 'Freya' }, { name: 'Hiyori' }, { name: 'Veronica' }, { name: 'Set' }, { name: 'Brynhild' }, { name: 'Fenrir' }, { name: 'Ootakemaru' }],
     SS: [
       { name: 'Guinevere' },
       { name: 'Frigga' },
@@ -197,7 +198,7 @@ export const PVP_TIER_LIST = {
 // New Player Tier List (F2P Friendly)
 export const NEW_PLAYER_TIER_LIST = {
   name: 'New Player / F2P Tier List',
-  lastUpdated: '2026-09-29',
+  lastUpdated: '2026-10-13',
   description:
     'You can get any character from this list from day 1. This tier list focuses on accessibility for new players. The main problem early on is finding good damage dealers.',
   tiers: {
@@ -221,7 +222,7 @@ export const NEW_PLAYER_TIER_LIST = {
       { name: 'Bors' },
       { name: 'Medusa' },
     ],
-    S: [{ name: 'Snow Girl' }, { name: 'Merlin' }, { name: 'Arthur' }, { name: 'Greed Mammon' }, { name: 'Veronica' }, { name: 'Poseidon' }, { name: 'Set' }, { name: 'Nephthys' }, { name: 'Bedivere' }, { name: 'Brynhild' }, { name: 'Fenrir' }],
+    S: [{ name: 'Snow Girl' }, { name: 'Merlin' }, { name: 'Arthur' }, { name: 'Greed Mammon' }, { name: 'Veronica' }, { name: 'Poseidon' }, { name: 'Set' }, { name: 'Nephthys' }, { name: 'Bedivere' }, { name: 'Brynhild' }, { name: 'Fenrir' }, { name: 'Ootakemaru' }],
     A: [
       { name: 'Tefnut' },
       { name: 'Bastet' },
@@ -363,6 +364,17 @@ export function getCharactersByTier(tierLevel, listType = 'pve') {
 
 // Tier list changelog
 export const TIER_LIST_CHANGELOG = [
+  {
+    date: '2026-10-13',
+    changes: [
+      'New character added: Ootakemaru (SS PvE, SSS PvP, S for New Players)',
+      'Ice Attacker built around punishment: [Flow Severance] from her Skill and Ultimate reduces enemy healing and shields received by 150% for 4s (full anti-sustain)',
+      'Ultimate [Moon Mirror: Flash] raises her ATK by 95% for 4s when casting begins, then strikes for 1050% of own ATK',
+      'Passive [Mirror Blade] instantly counterattacks the highest-DEF enemy for 463.9% of their DEF as Ice Pursue Damage whenever an enemy begins casting an Ultimate, and every 4 enemy actions triggers a 223.3% ATK pursuit on the highest-ATK enemy',
+      'Season synergy: Trial of Bravery 28 and Rift Surge XXXVIII rules both amplify ATTACKER damage and follow-up (Pursue) hits',
+      'Memory card Drunk General added: SS for Attackers (signature card, ATK +39% and Pursue Damage +45% at max awaken, plus a 42% Max HP shield after casting an Ultimate)',
+    ],
+  },
   {
     date: '2026-09-29',
     changes: [

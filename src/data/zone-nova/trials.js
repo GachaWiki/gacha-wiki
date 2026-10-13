@@ -160,6 +160,14 @@ export const BRAVERY_SEASONS = [
     factionsRaw: [2, 5, 6, 7],
     rule: 'All allies receive 70% less damage. Every 3 seconds, all allies receive and deal 1% more damage. DISRUPTOR reduces the target’s damage dealt by 40% for 10 seconds when using an ultimate skill. DISRUPTOR reduces the target’s movement speed by 45%, increases their chances of being critical hit by 30%, and increases their damage taken by 50% for 4 seconds when dealing frost damage.',
   },
+  {
+    id: 28,
+    start: '2026-10-14',
+    end: '2026-10-27',
+    factions: factionsOf([2, 3, 5, 6]),
+    factionsRaw: [2, 3, 5, 6],
+    rule: 'All allies receive 70% less damage. Every 3 seconds, all allies receive and deal 1% more damage. When an ATTACKER deals damage, the target takes 100% more damage for 3 seconds; when an ATTACKER deals follow-up damage, the target takes an additional 100% more damage for 6 seconds.',
+  },
 ];
 
 // Current season stages (tower_setting_info): 180s time limit each

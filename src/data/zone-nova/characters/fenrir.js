@@ -6,7 +6,7 @@ export const fenrirData = {
   image: "Fenrir.png",
   rarity: 'SSR',
   element: 'Ice',
-  class: 'Debuffer',
+  class: 'Disruptor',
   role: "Disruptor",
   faction: "A.S.A",
   stats: {

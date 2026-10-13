@@ -1,0 +1,16 @@
+---
+import CharacterIndividualLayout from '../../../../layouts/zone-nova/CharacterIndividualLayout.astro';
+import CharacterPageTemplate from '../../../../templates/zone-nova/CharacterPageTemplate.astro';
+import { ootakemaruData, ootakemaruSEO } from '../../../../data/zone-nova/characters/ootakemaru.js';
+
+export const prerender = true;
+---
+
+<CharacterIndividualLayout
+  title={ootakemaruSEO.title}
+  description={ootakemaruSEO.description}
+  gameTitle={ootakemaruData.name}
+  character={ootakemaruData}
+>
+  <CharacterPageTemplate characterData={ootakemaruData} />
+</CharacterIndividualLayout>

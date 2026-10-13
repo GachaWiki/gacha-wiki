@@ -54,7 +54,7 @@ export const ZONE_NOVA_FACTIONS = {
   'Heikyo Castle': {
     name: 'Heikyo Castle',
     chineseName: '平京城',
-    characters: ['Ibaraki-doji', 'Zashiki-warashi', 'Snow Girl', 'Jorogumo', 'Shuten-doji', 'Tamamo-no-Mae'],
+    characters: ['Ibaraki-doji', 'Zashiki-warashi', 'Snow Girl', 'Jorogumo', 'Shuten-doji', 'Tamamo-no-Mae', 'Ootakemaru'],
     color: '#00bcd4',
     description: 'The Heikyo Castle faction with Japanese influences',
   },
