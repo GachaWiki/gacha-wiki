@@ -42,8 +42,8 @@ export const info = {
     }
   },
   "obtain": {
-    "type": "unknown",
-    "source": ""
+    "type": "banner",
+    "source": "FANZINE 4th Event Summon"
   },
   "characterId": 2152
 };
@@ -89,11 +89,11 @@ export const skills = {
     },
     {
       "slot": 3,
-      "name": "You can't even do this?",
+      "name": "You can't even do that?",
       "icon": "skill001/skill0019",
-      "description": "Applies Taunt to self for 12 seconds, all enemies 12s Physical Attack -9%-20 DOWN, 12s Magic Attack -9%-20 DOWN",
-      "descriptionLv1": "Applies Taunt to self for 12 seconds, all enemies 12s Physical Attack -9%-20 DOWN, 12s Magic Attack -9%-20 DOWN",
-      "descriptionLv90": "Applies Taunt to self for 12 seconds, all enemies 12s Physical Attack -9%-200 DOWN, 12s Magic Attack -9%-200 DOWN",
+      "description": "Applies Taunt to self for 12 seconds. Inflicts Physical Attack -9%-20 DOWN for 12 seconds and Magic Attack -9%-20 DOWN for 12 seconds to all enemies",
+      "descriptionLv1": "Applies Taunt to self for 12 seconds. Inflicts Physical Attack -9%-20 DOWN for 12 seconds and Magic Attack -9%-20 DOWN for 12 seconds to all enemies",
+      "descriptionLv90": "Applies Taunt to self for 12 seconds. Inflicts Physical Attack -9%-200 DOWN for 12 seconds and Magic Attack -9%-200 DOWN for 12 seconds to all enemies",
       "target": "All Enemies",
       "castTime": 1.0,
       "damageScaling": null,
@@ -136,7 +136,7 @@ export const skills = {
       "rank": 1,
       "name": "BigAir1080 Moondrop Nue Special",
       "icon": "skill001/skill0012_1",
-      "description": "Deals physical damage to the nearest enemy and inflicts Stun for 3 seconds, 3s, self 10s Hit-Based Shield(LV 1)",
+      "description": "Deals physical damage to the nearest enemy, also inflicts Stun for 3 seconds and Dispel for 3 seconds. Applies Hit-Based Shield(LV 1) to self for 10 seconds",
       "effect": "1200% + 1000",
       "buffEffects": [
         {
@@ -163,7 +163,7 @@ export const skills = {
       "rank": 2,
       "name": "BigAir1080 Moondrop Nue Special",
       "icon": "skill001/skill0012_2",
-      "description": "Deals physical damage to the nearest enemy and inflicts Stun for 4 seconds, 4s, self 10s Hit-Based Shield(LV 2)",
+      "description": "Deals physical damage to the nearest enemy, also inflicts Stun for 4 seconds and Dispel for 4 seconds. Applies Hit-Based Shield(LV 2) to self for 10 seconds",
       "effect": "1440% + 1200",
       "buffEffects": [
         {
@@ -190,7 +190,7 @@ export const skills = {
       "rank": 3,
       "name": "BigAir1080 Moondrop Nue Special",
       "icon": "skill001/skill0012_3",
-      "description": "Deals physical damage to the nearest enemy and inflicts Stun for 4 seconds, 4s, self 10s Hit-Based Shield(LV 3)",
+      "description": "Deals physical damage to the nearest enemy, also inflicts Stun for 4 seconds and Dispel for 4 seconds. Applies Hit-Based Shield(LV 3) to self for 10 seconds",
       "effect": "1620% + 1380",
       "buffEffects": [
         {
@@ -217,7 +217,7 @@ export const skills = {
       "rank": 4,
       "name": "BigAir1080 Moondrop Nue Special",
       "icon": "skill001/skill0012_4",
-      "description": "Deals physical damage to the nearest enemy and inflicts Stun for 5 seconds, 5s, self 10s Hit-Based Shield(LV 4)",
+      "description": "Deals physical damage to the nearest enemy, also inflicts Stun for 5 seconds and Dispel for 5 seconds. Applies Hit-Based Shield(LV 4) to self for 10 seconds",
       "effect": "1739% + 1500",
       "buffEffects": [
         {
@@ -244,7 +244,7 @@ export const skills = {
       "rank": 5,
       "name": "BigAir1080 Moondrop Nue Special",
       "icon": "skill001/skill0012_5",
-      "description": "Deals physical damage to the nearest enemy and inflicts Stun for 5 seconds, 5s, self 10s Hit-Based Shield(LV 5)",
+      "description": "Deals physical damage to the nearest enemy, also inflicts Stun for 5 seconds and Dispel for 5 seconds. Applies Hit-Based Shield(LV 5) to self for 10 seconds",
       "effect": "1800% + 1600",
       "buffEffects": [
         {
@@ -273,7 +273,7 @@ export const skills = {
       "slot": 1,
       "name": "Debuff Resistance+, MP Regeneration",
       "icon": "skill001/skill1001",
-      "description": "Gain Debuff Resistance UP(Small), within 3s of battle start, self gains MP Regeneration 200",
+      "description": "Gain Debuff Resistance UP(Small). Applies MP Regeneration 200 to self for 3 seconds at beginning of battle",
       "effect": "MP Regeneration (+200%)",
       "effectValues": [
         {

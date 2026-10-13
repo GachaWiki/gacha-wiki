@@ -5,6 +5,51 @@
  */
 
 export const bannerTimelineData = [
+  // #46 - "FANZINE" 4th / Skateboarder Nue (Oct 13 - Oct 20) - CURRENT
+  {
+    id: 'fanzine-4th-2026',
+    title: '"FANZINE" 4th Event Summon',
+    bannerType: 'event',
+    featuredPaladins: [
+      {
+        name: '[Skateboarder] Nue',
+        rarity: 'SSR',
+        type: 'Tank',
+      },
+    ],
+    startDate: '2026-10-13T04:00:00Z',
+    endDate: '2026-10-20T04:00:00Z',
+    description:
+      '"FANZINE" 4th Event Summon! New Paladin Rate Up! [Skateboarder] Nue (SSR Wind Physical Tank), a taunting frontline skater who stuns enemies and drops enemy physical and magic attacks. Guaranteed SR Paladin when performing a 10-pull.',
+    note: 'Nue (characterId 2152), the 4th EN Fanzine banner pickup after Zilka. The in-game banner name carries no ordinal; numbering follows the EN Fanzine series. Official EN skill text landed with the Oct 13 hot-update (her page previously carried a fan translation). End time from game data (2026/10/20 04:00 UTC); start from the 7-day rotation switch on Oct 13.',
+    status: 'current',
+    image: 'banner-fanzine-4th',
+  },
+  // #45 - "Octo-Octo Beach Panic!!" rerun / Nerys & Theresia (Oct 13 - Oct 20) - CURRENT
+  {
+    id: 'octo-octo-beach-panic-rerun-2026',
+    title: '"Octo-Octo Beach Panic!!" Event Summon (Rerun)',
+    bannerType: 'rerun',
+    featuredPaladins: [
+      {
+        name: '[Seductive High-Cut Swimsuit] Nerys',
+        rarity: 'SSR',
+        type: 'Attacker',
+      },
+      {
+        name: '[Killer☆Bikini] Theresia',
+        rarity: 'SSR',
+        type: 'Attacker',
+      },
+    ],
+    startDate: '2026-10-13T04:00:00Z',
+    endDate: '2026-10-20T04:00:00Z',
+    description:
+      '"Octo-Octo Beach Panic!!" Event Summon rerun! Limited-Time Paladin Rate Up! [Seductive High-Cut Swimsuit] Nerys and [Killer☆Bikini] Theresia (SSR). Get 50 extra memories for the corresponding Paladin when you summon a featured Paladin.',
+    note: 'Rerun of the January beach event (first run Jan 13 to Jan 27, 2026, which also featured [Epic Fishing] Meinias as SR). Pickup heroes from game data (2077, 2078). Runs concurrently with the "FANZINE" 4th and "Octopus Empire\'s Counterattack" banners. End time from game data (2026/10/20 04:00 UTC).',
+    status: 'current',
+    image: 'banner-octo-octo-beach-panic-rerun',
+  },
   // #44 - "Octopus Empire's Counterattack" / Shaty & Priscilla (Oct 6 - Oct 20) - CURRENT
   {
     id: 'octopus-empire-counterattack-2026',
