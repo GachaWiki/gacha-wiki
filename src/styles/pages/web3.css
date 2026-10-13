@@ -30,6 +30,7 @@
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   gap: 1.4rem;
   margin-bottom: 2rem;
+  align-items: stretch;
 }
 
 .web3-card {
@@ -40,26 +41,42 @@
   border-radius: 14px;
   overflow: hidden;
   text-decoration: none;
+  height: 100%;
 }
 
 .web3-card-media {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
+  gap: 0.3rem;
   aspect-ratio: 16 / 9;
   background: rgba(255, 255, 255, 0.03);
   border-bottom: 1px solid var(--text-secondary);
 }
 
 .web3-card-media img {
-  max-width: 100%;
-  max-height: 100%;
+  max-width: 82%;
+  max-height: 82%;
   width: auto;
   height: auto;
+  object-fit: contain;
 }
 
-.web3-card-media-swap {
+/* Swap card media: the GachaWiki text wordmark (the site logo), same style
+   as the header logo-title */
+.web3-wordmark {
+  font-family: var(--font-display);
+  font-size: 2rem;
+  font-weight: 700;
   color: var(--amber-glow);
+}
+
+.web3-wordmark-sub {
+  color: var(--text-inverse);
+  opacity: 0.6;
+  font-size: 0.85rem;
+  letter-spacing: 0.04em;
 }
 
 .web3-card-body {
@@ -67,6 +84,7 @@
   flex-direction: column;
   gap: 0.5rem;
   padding: 1.2rem 1.3rem 1.4rem;
+  flex: 1;
 }
 
 .web3-card-kicker {
@@ -90,8 +108,9 @@
   line-height: 1.6;
 }
 
+/* CTA pinned to the card bottom so both cards align regardless of text length */
 .web3-card-cta {
-  margin-top: 0.6rem;
+  margin-top: auto;
   align-self: flex-start;
   background: var(--amber-glow);
   color: #1a1a1a;
