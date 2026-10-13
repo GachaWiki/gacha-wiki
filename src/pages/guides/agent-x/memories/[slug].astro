@@ -20,7 +20,7 @@ const RARITY_IMG = { SSR: 'rarity_ssr', SR: 'rarity_sr', R: 'rarity_r_star' };
 
 <AgentXLayout
   title={`${m.name} - Agent X Memoria`}
-  description={`${m.name} (${m.rarity} ${m.role} Memoria) guide for Agent X — base and growth stats, skill, and linked agent.`}
+  description={`${m.name} (${m.rarity} ${m.role} Memoria) guide for Agent X, base and growth stats, skill, and linked agent.`}
   gameTitle={m.name}
 >
   <section class="ax-content-section">
@@ -30,7 +30,7 @@ const RARITY_IMG = { SSR: 'rarity_ssr', SR: 'rarity_sr', R: 'rarity_r_star' };
       </div>
       <div class="ax-detail-info">
         <h1>{m.name}</h1>
-        <p class="ax-detail-title">{m.charName ? `Signature Memoria — ${m.charName}` : `${m.role} Memoria`}</p>
+        <p class="ax-detail-title">{m.charName ? `Signature Memoria, ${m.charName}` : `${m.role} Memoria`}</p>
         <div class="ax-icon-row">
           {RARITY_IMG[m.rarity] && <img src={`${R2}/icons/${RARITY_IMG[m.rarity]}.webp`} alt={m.rarity} title={m.rarity} class="ax-icon-rarity-lg" loading="lazy" />}
           {ROLE_ICON[m.role] && <img src={`${R2}/icons/${ROLE_ICON[m.role]}.webp`} alt={m.role} class="ax-icon-lg" loading="lazy" />}

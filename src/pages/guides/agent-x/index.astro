@@ -1,24 +1,26 @@
 ---
 // Agent X game overview landing page (standard wiki landing: hero banner, description,
-// video, download row, resources — mirrors majo/star-savior structure).
+// video, download row, resources, mirrors majo/star-savior structure).
 import AgentXLayout from '../../../layouts/agent-x/LandingLayout.astro';
 import FormattedDate from '../../../components/FormattedDate.astro';
 import DiscordPromo from '../../../components/DiscordPromo.astro';
 import { agentXCharacters } from '../../../data/agent-x/characters.js';
+import { axMemoria } from '../../../data/agent-x/memoria.js';
 import '../../../styles/games/agent-x/agentx-landing.css';
 
 
 const R2 = 'https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/agent-x/gameimg';
 const R2_BANNER = `${R2}/gacha_standard.webp`;
 const agents = agentXCharacters.length;
+const memoriaCount = axMemoria.length;
 ---
 
 <AgentXLayout
   title="Home"
-  description="Agent X wiki — R18 spy-agency gacha RPG on EROLABS. Agent database, skills, gacha rates, and lore. Recruit P.R.I.S.M. agents and fight The Fallen."
+  description="Agent X wiki, R18 spy-agency gacha RPG on EROLABS. Agent database, skills, gacha rates, and lore. Recruit P.R.I.S.M. agents and fight The Fallen."
   gameTitle="Agent X"
 >
-  <!-- Ambient background video (46s montage of 9 agent cut-ins, crossfaded) — full-bleed top, fades out by mid-page -->
+  <!-- Ambient background video (46s montage of 9 agent cut-ins, crossfaded), full-bleed top, fades out by mid-page -->
   <div class="ax-bg-video-wrap" aria-hidden="true">
     <video class="ax-bg-video" autoplay muted loop playsinline preload="auto">
       <source src="/videos/agent-x-cutin.mp4" type="video/mp4" />
@@ -30,7 +32,7 @@ const agents = agentXCharacters.length;
       <p>
         Ten years after the Zero Point resonance birthed The Fallen, the intelligence agency
         <strong>P.R.I.S.M.</strong> makes its last stand in a city under martial law. You are the
-        Commander — the rare Syncher whose resonance can drive an agent's power to 100%.
+        Commander, the rare Syncher whose resonance can drive an agent's power to 100%.
         Recruit agents from P.R.I.S.M. and The Fallen alike, raise bonds through their personal
         stories, and uncover what really happened at Ground Zero.
       </p>
@@ -68,7 +70,7 @@ const agents = agentXCharacters.length;
         <div class="ax-category-header">
           <h3>Agents</h3>
           <p class="ax-category-description">
-            All {agents} agents with rarity, element, role, verified stats, skills and lore — plus 40 Memoria files.
+            All {agents} agents with rarity, element, role, verified stats, skills and lore, plus {memoriaCount} Memoria files.
           </p>
         </div>
         <div class="ax-buttons-grid">

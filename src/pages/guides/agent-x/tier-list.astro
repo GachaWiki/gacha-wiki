@@ -31,12 +31,12 @@ const groups = ROLES.map(role => {
 
 <AgentXLayout
   title="Tier List"
-  description="Agent X tier list grouped by role — all 30 playable agents ranked by class. SSR Light and Dark agents rank highest (element advantage)."
+  description={`Agent X tier list grouped by role, all ${agentXCharacters.filter(c => c.playable).length} playable agents ranked by class. SSR Light and Dark agents rank highest (element advantage).`}
   gameTitle="Tier List"
 >
   <section class="ax-content-section">
     <p class="ax-tier-note">
-      Light and Dark agents hold the strongest element matchup (mutual ×1.5) — SSR Light/Dark top
+      Light and Dark agents hold the strongest element matchup (mutual ×1.5), so SSR Light/Dark top
       each class.
     </p>
 
