@@ -1,0 +1,72 @@
+---
+// Web3 hub: one page for the on-chain side of GachaWiki (Swap + OGs NFTs),
+// so the site header needs a single link instead of two.
+import HomeLayout from '../layouts/HomeLayout.astro';
+import { SITE_TITLE } from '../consts';
+import '../styles/pages/web3.css';
+---
+
+<HomeLayout
+  title={`${SITE_TITLE} - Web3`}
+  description="GachaWiki on-chain: swap $GW and other tokens on Robinhood Chain via GachaWiki Swap (Uniswap V3), and mint GachaWiki OGs, the 1,000-piece hand-drawn NFT collection."
+  keywords={[
+    'gachawiki web3',
+    'gachawiki swap',
+    'gw token',
+    'gachawiki ogs',
+    'nft gacha',
+    'robinhood chain',
+    'uniswap swap',
+  ]}
+>
+  <div class="web3-page">
+    <header class="web3-header">
+      <h1 class="web3-title">Web3</h1>
+      <p class="web3-subtitle">The on-chain side of GachaWiki: the $GW token.</p>
+    </header>
+
+    <div class="web3-grid">
+      <a class="web3-card" href="/swap/" aria-label="GachaWiki Swap">
+        <span class="web3-card-media web3-card-media-swap" aria-hidden="true">
+          <svg width="72" height="72" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M16 3l4 4-4 4"></path>
+            <path d="M20 7H7"></path>
+            <path d="M8 21l-4-4 4-4"></path>
+            <path d="M4 17h13"></path>
+            <circle cx="12" cy="12" r="11" stroke-opacity="0.25"></circle>
+          </svg>
+        </span>
+        <span class="web3-card-body">
+          <span class="web3-card-kicker">Token swap</span>
+          <span class="web3-card-name">GachaWiki Swap</span>
+          <span class="web3-card-desc">
+            Trade $GW and other tokens on Robinhood Chain. Powered by Uniswap V3, with live price
+            charts and price alerts.
+          </span>
+          <span class="web3-card-cta">Open Swap</span>
+        </span>
+      </a>
+
+      <a class="web3-card" href="/nft/" aria-label="GachaWiki OGs NFT collection">
+        <span class="web3-card-media">
+          <img src="/images/nft/hero.png" alt="GachaWiki OGs sample NFT" width="512" height="512" loading="lazy" />
+        </span>
+        <span class="web3-card-body">
+          <span class="web3-card-kicker">NFT collection</span>
+          <span class="web3-card-name">GachaWiki OGs</span>
+          <span class="web3-card-desc">
+            1,000 unique hand-drawn mascots on Robinhood Chain, each with its own motivational verse
+            in English and Japanese. Mint for about $2 in ETH or $GW.
+          </span>
+          <span class="web3-card-cta">Open OGs</span>
+        </span>
+      </a>
+    </div>
+
+    <p class="web3-links">
+      <a href="https://opensea.io/collection/gachawiki-ogs" target="_blank" rel="noopener noreferrer">OGs on OpenSea</a>
+      <a href="https://robinhoodchain.blockscout.com/address/0x9C0f41ce4F8e72F866CC79Acd80386472c53B40B" target="_blank" rel="noopener noreferrer">OGs contract on Blockscout</a>
+      <a href="https://discord.gg/YdWFddQKR8" target="_blank" rel="noopener noreferrer">Join us on Discord</a>
+    </p>
+  </div>
+</HomeLayout>
