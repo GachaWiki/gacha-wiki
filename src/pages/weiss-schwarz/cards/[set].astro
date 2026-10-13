@@ -4,6 +4,8 @@
 import AboutLayout from '../../../layouts/AboutLayout.astro';
 import { SITE_TITLE } from '../../../consts';
 import { WS_CARD_SETS } from '../../../data/ws-cards/index.js';
+import { SHOP_ITEMS } from '../../../data/shop-items.js';
+import { shopLink } from '../../../data/shop.js';
 import '../../../styles/pages/ws-cards.css';
 
 export function getStaticPaths() {
@@ -11,6 +13,14 @@ export function getStaticPaths() {
 }
 
 const set = WS_CARD_SETS.find((s) => s.id === Astro.params.set)!;
+
+// Buy links go straight to the set's Amazon product page (with the referral
+// tag) instead of routing through the shop page. Falls back to the shop
+// anchor only if the catalog has no Amazon link for this set.
+const shopItem = SHOP_ITEMS.find((i) => i.id === set.shopItem);
+const amazonLink = shopItem?.links.find((l) => l.store.toLowerCase().includes('amazon'));
+const buyUrl = amazonLink ? shopLink(amazonLink) : `/shop/#${set.shopItem}`;
+const buyExternal = Boolean(amazonLink);
 
 const title = `${SITE_TITLE} ${set.name} Card List`;
 const description = `Every card in the Weiss Schwarz ${set.name} set: images, rarities, colors, levels, costs, power and full ability text, imported from the official cardlist.`;
@@ -42,7 +52,7 @@ const fmtDate = (iso: string) =>
 
     <p class="wsc-intro">
       {`${set.cards.length} cards in the Weiss Schwarz ${set.name} set, released ${fmtDate(set.release)}. `}
-      <a href={`/shop/#${set.shopItem}`}>Buy this set in the shop</a> or
+      <a href={buyUrl} target={buyExternal ? '_blank' : undefined} rel={buyExternal ? 'noopener noreferrer' : undefined}>Buy this set on Amazon</a> or
       <a href="/weiss-schwarz/cards/">browse other sets</a>. Click any card for details.
     </p>
 
@@ -107,7 +117,7 @@ const fmtDate = (iso: string) =>
 
     <p class="wsc-fineprint">
       Card data and images: official Weiss Schwarz English cardlist (en.ws-tcg.com), Bushiroad.
-      Imported for reference; buy the set in our <a href={`/shop/#${set.shopItem}`}>shop</a>.
+      Imported for reference; buy the set on <a href={buyUrl} target={buyExternal ? '_blank' : undefined} rel={buyExternal ? 'noopener noreferrer' : undefined}>Amazon</a>.
     </p>
   </div>
 </AboutLayout>
@@ -130,7 +140,7 @@ const fmtDate = (iso: string) =>
         <a id="wsc-modal-official" href="https://en.ws-tcg.com/cardlist/" target="_blank" rel="noopener noreferrer nofollow">
           Official cardlist entry
         </a>
-        <a id="wsc-modal-shop" href={`/shop/#${set.shopItem}`}>Buy this set in the shop</a>
+        <a id="wsc-modal-shop" href={buyUrl} target={buyExternal ? '_blank' : undefined} rel={buyExternal ? 'noopener noreferrer' : undefined}>Buy this set on Amazon</a>
       </div>
     </div>
   </div>
