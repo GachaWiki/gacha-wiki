@@ -105,9 +105,12 @@
   color: #1a1a1a;
 }
 
+/* Bullets sit flush with the rest of the column content (chips, links):
+   inside markers + no list indent instead of the default ~24px offset. */
 .shop-specs {
   margin: 0 0 1.4rem 0;
-  padding-left: 1.2rem;
+  padding-left: 0;
+  list-style-position: inside;
   color: var(--text-inverse);
   font-size: 1rem;
   line-height: 1.75;
@@ -236,6 +239,14 @@
 @media (max-width: 480px) {
   .shop-links {
     grid-template-columns: 1fr;
+  }
+}
+
+/* Stacked info-box buttons take the full width so the two links line up */
+@media (max-width: 640px) {
+  .shop-info-links .shop-info-link {
+    flex: 1 1 100%;
+    text-align: center;
   }
 }
 

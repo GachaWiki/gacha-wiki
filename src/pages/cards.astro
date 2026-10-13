@@ -1,15 +1,15 @@
 ---
 // Weiss Schwarz card database index: one overview card per set, linking to
-// each set's own card database page (/weiss-schwarz/cards/<set>/).
-import AboutLayout from '../../layouts/AboutLayout.astro';
-import { SITE_TITLE } from '../../consts';
-import { WS_CARD_SETS } from '../../data/ws-cards/index.js';
-import { SHOP_ITEMS } from '../../data/shop-items.js';
-import '../../styles/pages/ws-cards.css';
+// each set's own card database page (/cards/<set>/).
+import AboutLayout from '../layouts/AboutLayout.astro';
+import { SITE_TITLE } from '../consts';
+import { WS_CARD_SETS } from '../data/ws-cards/index.js';
+import { SHOP_ITEMS } from '../data/shop-items.js';
+import '../styles/pages/ws-cards.css';
 
 const title = `${SITE_TITLE} Weiss Schwarz Card Database`;
 const description =
-  'Weiss Schwarz card databases for gacha game sets like NIKKE, Blue Archive, Uma Musume and Re:Zero: every card with image, rarity, color, level, cost, power and full ability text, imported from the official cardlist.';
+  'The complete Weiss Schwarz English card database: every set from NIKKE, Blue Archive and Re:Zero to DANDADAN, SPY x FAMILY and Chainsaw Man. Each card with image, rarity, color, level, cost, power and full ability text, imported from the official cardlist.';
 const keywords = [
   'weiss schwarz card list',
   'weiss schwarz card database',
@@ -32,20 +32,20 @@ const totalCards = WS_CARD_SETS.reduce((n, s) => n + s.cards.length, 0);
     </header>
 
     <p class="wsc-intro">
-      Card databases for the Weiss Schwarz sets sold in our {''}
-      <a href="/shop/">TCG Shop</a>: {totalCards} cards across {WS_CARD_SETS.length} sets, each
+      Every English Weiss Schwarz set: {totalCards} cards across {WS_CARD_SETS.length} sets, each
       with images, rarities, stats and full ability text, imported from the official cardlist.
-      Pick a set to browse its cards.
+      Sets sold in our <a href="/shop/">TCG Shop</a> are shown with their box art. Pick a set to
+      browse its cards.
     </p>
 
     <div class="wsc-sets">
       {
         WS_CARD_SETS.map((set) => {
-          const shop = shopImage.get(set.shopItem);
+          const shop = shopImage.get(set.shopItem ?? undefined);
           return (
-            <a class="wsc-setcard" href={`/weiss-schwarz/cards/${set.id}/`} aria-label={`${set.name} card database`}>
-              <span class="wsc-setcard-media">
-                {shop && (
+            <a class="wsc-setcard" href={`/cards/${set.id}/`} aria-label={`${set.name} card database`}>
+              {shop && (
+                <span class="wsc-setcard-media">
                   <img
                     src={shop.image}
                     alt={shop.imageAlt}
@@ -54,12 +54,12 @@ const totalCards = WS_CARD_SETS.reduce((n, s) => n + s.cards.length, 0);
                     loading="lazy"
                     draggable="false"
                   />
-                )}
-              </span>
+                </span>
+              )}
               <span class="wsc-setcard-name">{set.name}</span>
               <span class="wsc-setcard-meta">
                 <span class="wsc-chip">{`${set.cards.length} cards`}</span>
-                <span class="wsc-setcard-date">{fmtDate(set.release)}</span>
+                {set.release && <span class="wsc-setcard-date">{fmtDate(set.release)}</span>}
               </span>
             </a>
           );

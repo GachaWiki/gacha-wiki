@@ -1,12 +1,12 @@
 ---
 // Per-set Weiss Schwarz card database: only one set's cards per page, with
 // type/color/rarity/level/text filters and a card detail popup.
-import AboutLayout from '../../../layouts/AboutLayout.astro';
-import { SITE_TITLE } from '../../../consts';
-import { WS_CARD_SETS } from '../../../data/ws-cards/index.js';
-import { SHOP_ITEMS } from '../../../data/shop-items.js';
-import { shopLink } from '../../../data/shop.js';
-import '../../../styles/pages/ws-cards.css';
+import AboutLayout from '../../layouts/AboutLayout.astro';
+import { SITE_TITLE } from '../../consts';
+import { WS_CARD_SETS } from '../../data/ws-cards/index.js';
+import { SHOP_ITEMS } from '../../data/shop-items.js';
+import { shopLink } from '../../data/shop.js';
+import '../../styles/pages/ws-cards.css';
 
 export function getStaticPaths() {
   return WS_CARD_SETS.map((set) => ({ params: { set: set.id } }));
@@ -19,7 +19,8 @@ const set = WS_CARD_SETS.find((s) => s.id === Astro.params.set)!;
 // anchor only if the catalog has no Amazon link for this set.
 const shopItem = SHOP_ITEMS.find((i) => i.id === set.shopItem);
 const amazonLink = shopItem?.links.find((l) => l.store.toLowerCase().includes('amazon'));
-const buyUrl = amazonLink ? shopLink(amazonLink) : `/shop/#${set.shopItem}`;
+// Sets outside the shop catalog get no buy links at all
+const buyUrl = amazonLink ? shopLink(amazonLink) : shopItem ? `/shop/#${set.shopItem}` : null;
 const buyExternal = Boolean(amazonLink);
 
 const title = `${SITE_TITLE} ${set.name} Card List`;
@@ -50,11 +51,18 @@ const fmtDate = (iso: string) =>
       <h1 class="page-title">{`${set.name} Cards`}</h1>
     </header>
 
-    <p class="wsc-intro">
-      {`${set.cards.length} cards in the Weiss Schwarz ${set.name} set, released ${fmtDate(set.release)}. `}
-      <a href={buyUrl} target={buyExternal ? '_blank' : undefined} rel={buyExternal ? 'noopener noreferrer' : undefined}>Buy this set on Amazon</a> or
-      <a href="/weiss-schwarz/cards/">browse other sets</a>. Click any card for details.
-    </p>
+    {buyUrl ? (
+      <p class="wsc-intro">
+        {`${set.cards.length} cards in the Weiss Schwarz ${set.name} set${set.release ? `, released ${fmtDate(set.release)}` : ''}. `}
+        <a href={buyUrl} target={buyExternal ? '_blank' : undefined} rel={buyExternal ? 'noopener noreferrer' : undefined}>Buy this set on Amazon</a> or
+        <a href="/cards/"> browse other sets</a>. Click any card for details.
+      </p>
+    ) : (
+      <p class="wsc-intro">
+        {`${set.cards.length} cards in the Weiss Schwarz ${set.name} set${set.release ? `, released ${fmtDate(set.release)}` : ''}. `}
+        <a href="/cards/">Browse other sets</a>. Click any card for details.
+      </p>
+    )}
 
     <div class="wsc-toolbar">
       <select id="wsc-type" class="wsc-select" aria-label="Filter by card type">
@@ -117,7 +125,8 @@ const fmtDate = (iso: string) =>
 
     <p class="wsc-fineprint">
       Card data and images: official Weiss Schwarz English cardlist (en.ws-tcg.com), Bushiroad.
-      Imported for reference; buy the set on <a href={buyUrl} target={buyExternal ? '_blank' : undefined} rel={buyExternal ? 'noopener noreferrer' : undefined}>Amazon</a>.
+      Imported for reference{buyUrl && '; buy the set on '}
+      {buyUrl && <a href={buyUrl} target={buyExternal ? '_blank' : undefined} rel={buyExternal ? 'noopener noreferrer' : undefined}>Amazon</a>}{buyUrl && '.'}
     </p>
   </div>
 </AboutLayout>
@@ -140,7 +149,9 @@ const fmtDate = (iso: string) =>
         <a id="wsc-modal-official" href="https://en.ws-tcg.com/cardlist/" target="_blank" rel="noopener noreferrer nofollow">
           Official cardlist entry
         </a>
-        <a id="wsc-modal-shop" href={buyUrl} target={buyExternal ? '_blank' : undefined} rel={buyExternal ? 'noopener noreferrer' : undefined}>Buy this set on Amazon</a>
+        {buyUrl && (
+          <a id="wsc-modal-shop" href={buyUrl} target={buyExternal ? '_blank' : undefined} rel={buyExternal ? 'noopener noreferrer' : undefined}>Buy this set on Amazon</a>
+        )}
       </div>
     </div>
   </div>
@@ -291,3 +302,4 @@ const fmtDate = (iso: string) =>
     if (e.key === 'Escape') closeModal();
   });
 </script>
+

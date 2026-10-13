@@ -4,6 +4,11 @@
 # Example redirect
 /http-version    /    301
 
+# Card database moved from /weiss-schwarz/cards/ to /cards/
+/weiss-schwarz/cards/*    /cards/:splat    301
+/weiss-schwarz/cards/    /cards/    301
+/weiss-schwarz/cards    /cards/    301
+
 # Fix 404 errors from GSC - waifu-skins pages that don't exist
 # Redirect to main Silver and Blood characters page
 /guides/silver-and-blood/waifu-skins/*    /guides/silver-and-blood/characters/    301
