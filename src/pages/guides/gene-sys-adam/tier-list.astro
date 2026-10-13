@@ -6,9 +6,19 @@
 import GSALayout from '../../../layouts/gene-sys-adam/LandingLayout.astro';
 import { GSA_TIER_VIEWS, gsaTierSsrCount, GSA_TIER_UPDATED, GSA_BEGINNER_NOTE, GSA_PURSUIT_NOTE, GSA_TIER_PLACEMENTS, gsaRarityBadge, GSA_ELEMENT_SECTIONS } from '../../../data/gene-sys-adam/tier-list.js';
 import { gsaCharacters } from '../../../data/gene-sys-adam/characters.js';
+import { gsaPursuitRole } from '../../../data/gene-sys-adam/pursuit-roles.js';
 import GSAElementCard from '../../../components/gene-sys-adam/GSAElementCard.astro';
 import '../../../styles/games/gene-sys-adam/gsa-common.css';
 import '../../../styles/games/gene-sys-adam/gsa-tier.css';
+
+// Pursuit-system role chips for the tier cards (from pursuit-roles.js; the
+// same data drives the Pursuit System box on each character page).
+const TIER_ROLE_LABEL = {
+  trigger: 'Pursuit Trigger',
+  enabler: 'Status Enabler',
+  both: 'Trigger + Enabler',
+  none: 'No Pursuit Role',
+};
 ---
 
 <GSALayout
@@ -125,6 +135,9 @@ import '../../../styles/games/gene-sys-adam/gsa-tier.css';
                           <span class={`gsa-tier-rarity gsa-tier-rarity-${(c.placement.rarity || 'sr').toLowerCase()}`}>{c.placement.rarity}</span>
                         )}
                         <span class="gsa-tier-name-label">{c.name}</span>
+                        {(() => { const pr = gsaPursuitRole(c.slug); return (
+                          <span class={`gsa-tier-role gsa-tier-role-${pr.role}`}>{TIER_ROLE_LABEL[pr.role]}</span>
+                        ); })()}
                       </a>
                     ))}
                   </div>

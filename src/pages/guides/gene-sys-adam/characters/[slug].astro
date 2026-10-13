@@ -5,6 +5,8 @@ import GSALayout from '../../../../layouts/gene-sys-adam/LandingLayout.astro';
 import { gsaCharacters, getGsaCharacter } from '../../../../data/gene-sys-adam/characters.js';
 import { gsaItems } from '../../../../data/gene-sys-adam/items.js';
 import { gsaPropertyTypes } from '../../../../data/gene-sys-adam/property-types.js';
+import { getGsaReworkArchive } from '../../../../data/gene-sys-adam/rework-archive.js';
+import { gsaPursuitRole, GSA_PURSUIT_ROLES } from '../../../../data/gene-sys-adam/pursuit-roles.js';
 import '../../../../styles/games/gene-sys-adam/gsa-common.css';
 import '../../../../styles/games/gene-sys-adam/gsa-characters.css';
 
@@ -15,6 +17,34 @@ export async function getStaticPaths() {
 const { slug } = Astro.params;
 const c = getGsaCharacter(slug);
 if (!c) return Astro.redirect('/guides/gene-sys-adam/characters/');
+
+const reworkArchive = getGsaReworkArchive(slug);
+
+// Pursuit-system role: trigger fires pursuits, enabler applies the initiating
+// status, both is self-sufficient. "Pairs with" lists the roster characters
+// that feed or consume this character's element chains, computed from the
+// same roles data (factual, not editorial).
+const pursuit = gsaPursuitRole(slug);
+const ROLE_LABEL = {
+  trigger: 'Pursuit Trigger',
+  enabler: 'Status Enabler',
+  both: 'Trigger and Enabler',
+  none: 'No Pursuit Role',
+};
+const bySlug = Object.fromEntries(gsaCharacters.map(x => [x.slug, x]));
+const partners = new Set();
+if (pursuit.role !== 'none') {
+  for (const [s2, r2] of Object.entries(GSA_PURSUIT_ROLES)) {
+    if (s2 === slug) continue;
+    const feedsMe =
+      (pursuit.role === 'trigger' || pursuit.role === 'both') &&
+      r2.applies.some(a => pursuit.triggers.some(t => t.element === a.element));
+    const iFeed =
+      (pursuit.role === 'enabler' || pursuit.role === 'both') &&
+      r2.triggers.some(t => pursuit.applies.some(a => a.element === t.element));
+    if (feedsMe || iFeed) partners.add(s2);
+  }
+}
 
 const profile = c.profile || {};
 const stats = c.stats || {};
@@ -121,6 +151,51 @@ const growth = c.growth || { rate: 1, hp: [0, 0, 0, 0, 0, 0], atk: [0, 0, 0, 0, 
           {c.inGacha ? null : <span class="gsa-chip solid-muted">Not in Summons</span>}
         </div>
       </div>
+    </div>
+
+    <div class={`gsa-pursuit-box${pursuit.role === 'none' ? ' gsa-pursuit-none' : ''}`}>
+      <div class="gsa-pursuit-head">
+        <span class={`gsa-chip ${pursuit.role === 'none' ? 'solid-muted' : 'solid-accent'}`}>{ROLE_LABEL[pursuit.role]}</span>
+        <span class="gsa-pursuit-title">Pursuit System</span>
+      </div>
+      {pursuit.role === 'none' ? (
+        <p class="gsa-pursuit-line">
+          This character does not participate in the Pursuit system: no skill applies a
+          pursuit status and no skill carries a pursuit trigger. Their kit is scored on its
+          own output and support instead.
+        </p>
+      ) : (
+        <div class="gsa-pursuit-body">
+          {pursuit.triggers.map(t => (
+            <p class="gsa-pursuit-line">
+              Triggers <b>{t.pursuit}</b> ({t.status} pursuit, {t.element}) on final hits
+              against {t.status} targets: {t.skills.join(', ')}.
+              {t.grades.length > 0 && ` Grade ${t.grades.join('/')}.`}
+            </p>
+          ))}
+          {pursuit.applies.map(a => (
+            <p class="gsa-pursuit-line">
+              Applies <b>{a.status}</b> ({a.element}){a.grades.length > 0 && ` grade ${a.grades.join('/')}`}
+              {a.chance && ` (${a.chance} chance)`}
+              {a.via === 'passive' ? ' through a passive effect' : ''}: {a.skills.join(', ')}.
+              The pursuit that consumes it fires off any ally with the matching trigger.
+            </p>
+          ))}
+          {pursuit.riders.map(r => <p class="gsa-pursuit-line">{r.en}.</p>)}
+          {pursuit.synergy.map(sy => <p class="gsa-pursuit-line">{sy.en}.</p>)}
+          {partners.size > 0 && (
+            <p class="gsa-pursuit-line gsa-pursuit-partners">
+              Pursuit partners on the roster:{' '}
+              {[...partners].map((s2, i) => (
+                <fragment>
+                  {i > 0 && ', '}
+                  <a href={`/guides/gene-sys-adam/characters/${s2}/`}>{bySlug[s2]?.name || s2}</a>
+                </fragment>
+              ))}.
+            </p>
+          )}
+        </div>
+      )}
     </div>
 
     {
@@ -355,6 +430,12 @@ const growth = c.growth || { rate: 1, hp: [0, 0, 0, 0, 0, 0], atk: [0, 0, 0, 0, 
       c.skills && c.skills.length ? (
         <div class="gsa-detail-section">
           <h2>Skills</h2>
+          {reworkArchive && (
+            <p class="gsa-rework-pointer">
+              {c.name} was reworked on {reworkArchive.date}. The current version is shown here; the pre-rework text is preserved in the{' '}
+              <a href="#gsa-rework-archive">Rework Archive</a> at the bottom of this page.
+            </p>
+          )}
           <div class="gsa-skills">
             {c.skills.map(s => (
               <div class={`gsa-skill ${s.slot === 'Ultimate' ? 'gsa-skill-ult' : ''}`}>
@@ -418,6 +499,41 @@ const growth = c.growth || { rate: 1, hp: [0, 0, 0, 0, 0, 0], atk: [0, 0, 0, 0, 
         </div>
       )
     }
+
+    {reworkArchive && (
+      <div class="gsa-detail-section" id="gsa-rework-archive">
+        <h2>Rework Archive</h2>
+        <p class="gsa-section-note">
+          {reworkArchive.intro}{' '}
+          <a href={reworkArchive.patchHref}>{reworkArchive.patchLabel}</a>.
+        </p>
+        {reworkArchive.unchangedNote && (
+          <p class="gsa-section-note">{reworkArchive.unchangedNote}</p>
+        )}
+        <div class="gsa-rework-list">
+          {reworkArchive.items.map(item => (
+            <div class="gsa-rework-item">
+              <h3 class="gsa-rework-item-title">{item.title}</h3>
+              <div class="gsa-rework-grid">
+                <div class="gsa-rework-card gsa-rework-before">
+                  <span class="gsa-chip solid-muted">Before</span>
+                  <div class="gsa-rework-text">
+                    {item.before.split('\n').map(line => <p>{line}</p>)}
+                  </div>
+                </div>
+                <div class="gsa-rework-card gsa-rework-after">
+                  <span class="gsa-chip solid-accent">After</span>
+                  <div class="gsa-rework-text">
+                    {item.after.split('\n').map(line => <p>{line}</p>)}
+                  </div>
+                </div>
+              </div>
+              {item.note && <p class="gsa-rework-item-note">{item.note}</p>}
+            </div>
+          ))}
+        </div>
+      </div>
+    )}
   </div>
 </GSALayout>
 

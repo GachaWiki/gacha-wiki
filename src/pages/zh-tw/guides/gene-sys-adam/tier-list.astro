@@ -5,10 +5,19 @@
 import GsaZhLayout from '../../../../layouts/gene-sys-adam/GsaZhLayout.astro';
 import { GSA_TIERS, GSA_JOB_SECTIONS, GSA_TIER_PLACEMENTS, gsaRarityBadge } from '../../../../data/gene-sys-adam/tier-list.js';
 import { gsaCharactersZh } from '../../../../data/gene-sys-adam/zh-tw/characters.js';
+import { gsaPursuitRole } from '../../../../data/gene-sys-adam/pursuit-roles.js';
 import { GSA_ZH } from '../../../../data/gene-sys-adam/zh-tw/ui.js';
 import GSAElementCard from '../../../../components/gene-sys-adam/GSAElementCard.astro';
 import '../../../../styles/games/gene-sys-adam/gsa-common.css';
 import '../../../../styles/games/gene-sys-adam/gsa-tier.css';
+
+// 追擊體系角色標籤（pursuit-roles.js；角色頁的追擊體系區塊使用同一份資料）
+const TIER_ROLE_ZH = {
+  trigger: '追擊觸發',
+  enabler: '狀態賦予',
+  both: '追擊＋賦予',
+  none: '無追擊參與',
+};
 
 const base = GSA_ZH.baseUrl;
 
@@ -149,6 +158,9 @@ const total = tierTabs.reduce((n, t) => n + tabCount(t.rarity), 0);
                           <span class={`gsa-tier-rarity gsa-tier-rarity-${(c.placement.rarity || 'sr').toLowerCase()}`}>{c.placement.rarity}</span>
                         )}
                         <span class="gsa-tier-name-label">{c.name}</span>
+                        {(() => { const pr = gsaPursuitRole(c.slug); return (
+                          <span class={`gsa-tier-role gsa-tier-role-${pr.role}`}>{TIER_ROLE_ZH[pr.role]}</span>
+                        ); })()}
                       </a>
                     ))}
                   </div>

@@ -6,6 +6,7 @@ import GsaZhLayout from '../../../../../layouts/gene-sys-adam/GsaZhLayout.astro'
 import { gsaCharactersZh, getGsaCharacterZh } from '../../../../../data/gene-sys-adam/zh-tw/characters.js';
 import { gsaPropertyTypes } from '../../../../../data/gene-sys-adam/property-types.js';
 import { GSA_ZH_REVERSE } from '../../../../../data/gene-sys-adam/zh-tw/game-text.js';
+import { gsaPursuitRole, GSA_PURSUIT_ROLES } from '../../../../../data/gene-sys-adam/pursuit-roles.js';
 import { GSA_ZH } from '../../../../../data/gene-sys-adam/zh-tw/ui.js';
 import '../../../../../styles/games/gene-sys-adam/gsa-common.css';
 import '../../../../../styles/games/gene-sys-adam/gsa-characters.css';
@@ -49,6 +50,178 @@ const ROW_EN = {
   '冷卻速度%': 'Cooldown Speed %',
 };
 const CORE_EN = { '生命力': 'HP', '攻擊力': 'ATK' };
+
+// 改版紀錄（slug -> 繁中條目）：官方繁中技能文字的改版前後對照（地平線
+// 新危機樣式）。「改版前」取自繁中維基上一次提交時的遊戲資料表（10 月 2
+// 日版本），「改版後」為目前資料表；技能名與敘述皆為官方繁中。
+const REWORK_ZH = {
+  elena: {
+    date: '2026年10月13日',
+    patchLabel: '10 月 13 日更新公告',
+    patchHref: `${base}updates/2026-10-13-black-gold-hunter-rerun/`,
+    intro:
+      '伊蓮娜的技能組於 2026 年 10 月 13 日的資料表改版，為其「戰爭與音樂」卡池鋪路：攻擊改為多段並直接附加燃燒，引爆追擊主題移出核心技能。上方顯示當前版本；改版前的文字保存於下方。',
+    unchangedNote:
+      '開場演出（自動技）與至上狂歡（被動 2）文字未變；開場演出的狀態標籤於同波改版中重新標注（現為暴擊閃避提升、技能傷害提升、攻擊速度提升）。',
+    items: [
+      {
+        title: '普攻：躁動音符',
+        before: '對目標造成100%物理傷害。',
+        after: '對目標造成兩段100%物理傷害。',
+      },
+      {
+        title: '天賦：引爆全場',
+        before:
+          '對前方範圍內至多三名目標造成100%能量傷害。\n最後一擊命中時，若目標處於燃燒狀態，則對其造成引爆M追擊。\n覺醒：對前方範圍內至多三名目標造成170%能量傷害。\n覺醒：最後一擊命中時，若目標處於燃燒狀態，則對其造成引爆M追擊。',
+        after:
+          '對前方範圍內至多三名目標造成五段100%能量傷害。\n命中時，使其陷入燃燒M狀態(0秒)。\n覺醒：對前方範圍內至多三名目標造成五段170%能量傷害。\n覺醒：命中時，使其陷入燃燒M狀態(0秒)。',
+      },
+      {
+        title: '被動 1：我要跟我媽媽講！',
+        before:
+          '引爆追擊成功時，對自身賦予火屬性攻擊提升6%(12秒)。\n引爆追擊成功時，對自身賦予暴擊提升9%(12秒)。\n覺醒：引爆追擊成功時，對自身賦予火屬性攻擊提升7%(12秒)。\n覺醒：引爆追擊成功時，對自身賦予暴擊提升10%(12秒)。\n覺醒：對全體隊員賦予暴擊傷害提升12%。',
+        after:
+          '命中時，若為燃燒狀態中目標，對自身賦予火屬性攻擊提升6%(12秒)。\n覺醒：命中時，若為燃燒狀態中目標，對自身賦予火屬性攻擊提升7%(12秒)。\n覺醒：對全體隊員賦予暴擊傷害提升12%。',
+      },
+      {
+        title: '奧義技：紅棘亂舞',
+        before:
+          '進入覺醒狀態，對自身賦予能量傷害提升10%(24秒)。\n對全體目標造成250%能量傷害。\n最後一擊命中時，對其施加火屬性抗性降低10%(12秒)。\n最後一擊命中時，對其施加治療暴擊加成降低18%(12秒)。',
+        after:
+          '進入覺醒狀態，對自身賦予能量傷害提升10%(24秒)。\n對全體目標造成十八段250%能量傷害。\n命中時，使其陷入燃燒L狀態(12秒)。\n最後一擊命中時，對其施加治療暴擊加成降低18%(12秒)。',
+      },
+    ],
+  },
+  victoria: {
+    date: '2026年10月13日',
+    patchLabel: '10 月 13 日更新公告',
+    patchHref: `${base}updates/2026-10-13-black-gold-hunter-rerun/`,
+    intro:
+      '維多莉亞於 10 月 2 日與 10 月 13 日兩度改版。繁中維基上線時已收錄 10 月 2 日版本，因此此處對照的「改版前」為 10 月 2 日版本、「改版後」為 10 月 13 日版本；更早的改版前文字見英文版頁面。',
+    items: [
+      {
+        title: '普攻：優雅刺殺',
+        before: '對目標造成83%物理傷害。',
+        after: '對目標造成兩段83%物理傷害。',
+      },
+      {
+        title: '奧義技：鬼魅影擊',
+        before:
+          '進入覺醒狀態，對自身賦予EN值獲取提升45%(24秒)。\n對前方範圍內至多三名目標造成53%能量傷害。\n最後一擊命中時，對其施加暴擊閃避降低15%(12秒)。',
+        after:
+          '進入覺醒狀態，對自身賦予EN值獲取提升45%(24秒)。\n對前方範圍內至多三名目標造成八段53%能量傷害。\n最後一擊命中時，對其施加暴擊閃避降低15%(12秒)。',
+        note: '10 月 2 日版本先將單段 425% 降為單段 53%，10 月 13 日再拆為八段 53%。',
+      },
+    ],
+  },
+  'leng-zhen': {
+    date: '2026年10月13日',
+    patchLabel: '10 月 13 日更新公告',
+    patchHref: `${base}updates/2026-10-13-black-gold-hunter-rerun/`,
+    intro:
+      '冷鴆的被動於 2026 年 10 月 13 日的資料表再次改版。新的被動文字指向尚未隨靜態資料表實裝的效果行，因此當前卡片僅顯示觸發間隔；完整數值待其「音行自鳴」波次上線時補齊。改版前的文字保存於下方。',
+    items: [
+      {
+        title: '被動 1：斷覺',
+        before:
+          '命中時，中機率對自身賦予水屬性攻擊提升7%(6秒)。\n覺醒：命中時，中機率對自身賦予水屬性攻擊提升8.5%(6秒)。',
+        after:
+          '此效果每次觸發需間隔至少6秒。\n覺醒：此效果每次觸發需間隔至少6秒。\n覺醒：對全體隊員賦予水屬性攻擊提升8.5%。',
+        note: '改版後的命中觸發條件為燃燒或冰凍狀態中目標；效果數值行尚未隨資料表實裝。',
+      },
+      {
+        title: '被動 2：蠱令',
+        before:
+          '對自身賦予技能傷害提升12.5%。\n覺醒：對全體隊員賦予技能傷害提升12.5%。',
+        after: '對自身賦予技能傷害提升12.5%。',
+        note: '覺醒版本現指向同樣未實裝的效果行，額外說明待波次實裝後補齊。',
+      },
+    ],
+  },
+  'belle-clumsy-cowgirl': {
+    date: '2026年10月13日',
+    patchLabel: '10 月 13 日更新公告',
+    patchHref: `${base}updates/2026-10-13-black-gold-hunter-rerun/`,
+    intro:
+      '迷糊乳牛-貝兒的技能組於 2026 年 10 月 13 日的資料表改版，與「黑金獵人」復刻同步：治療被動改為暴擊觸發的護盾，並替換了多條覺醒附加效果。上方顯示當前版本；改版前的文字保存於下方。',
+    items: [
+      {
+        title: '自動技：冰鎮牛奶配送',
+        before: '為生命值比例最低的隊員恢復180%生命值。冷卻時間：5秒。',
+        after: '為生命值比例最低的隊員恢復180%生命值。冷卻時間：6秒。',
+      },
+      {
+        title: '被動 1：睡前必備儀式',
+        before:
+          '碎石追擊成功時，為生命值比例最低的隊員恢復65%生命值。\n覺醒：碎石追擊成功時，為生命值比例最低的隊員恢復65%生命值。\n覺醒：對全體隊員賦予暴擊傷害提升15%。',
+        after:
+          '造成暴擊時，為生命值比例最低的隊員附加65%護盾(4秒)。\n此效果每次觸發需間隔至少6秒。\n覺醒：造成暴擊時，為生命值比例最低的隊員附加65%護盾(4秒)。\n覺醒：此效果每次觸發需間隔至少6秒。\n覺醒：對全體隊員賦予水屬性抗性提升5%。',
+      },
+      {
+        title: '奧義技：乳牛降臨・巨擠炮',
+        before:
+          '進入覺醒狀態，對自身賦予命中提升10%(24秒)。\n對全體目標造成五段143%物理分攤傷害。\n命中時，對目標額外造成20%物理傷害。\n最後一擊命中時，低機率使其陷入石化S狀態(2秒)。\n最後一擊命中時，對其施加攻擊速度降低15%(12秒)。',
+        after:
+          '進入覺醒狀態，對自身賦予命中提升10%(24秒)。\n對全體目標造成五段143%物理分攤傷害。\n命中時，對目標額外造成20%物理傷害。\n最後一擊命中時，低機率使其陷入石化S狀態(3秒)。\n最後一擊命中時，對其施加攻擊速度降低15%(12秒)。',
+        note: '石化S 持續時間由 2 秒延長為 3 秒。',
+      },
+      {
+        title: '被動 2：什麼都做得到',
+        before:
+          '對自身賦予土屬性攻擊提升9.5%。\n覺醒：對全體隊員賦予土屬性攻擊提升9.5%。\n覺醒：PVP系統中，對自身賦予EN值獲取提升28%。',
+        after:
+          '對自身賦予土屬性攻擊提升9.5%。\n覺醒：對全體隊員賦予土屬性攻擊提升9.5%。\n覺醒：PVP系統中，對自身賦予水屬性抗性提升7%。',
+      },
+    ],
+  },
+  danxin: {
+    date: '2026年10月13日',
+    patchLabel: '10 月 13 日更新公告',
+    patchHref: `${base}updates/2026-10-13-black-gold-hunter-rerun/`,
+    intro:
+      '丹芯於 2026 年 10 月 13 日的資料表中被重新分派：戰鬥位置代碼從突擊欄位移至防護欄位（遊戲內與本頁顯示的職業隨之變更），且「纏絲卸力」的覺醒版本新增 PVP 附加效果。',
+    items: [
+      {
+        title: '職業',
+        before: '突擊',
+        after: '防護',
+      },
+      {
+        title: '被動 2：纏絲卸力',
+        before:
+          '對自身賦予受到能量傷害降低10%。\n覺醒：對全體隊員賦予受到能量傷害降低10%。',
+        after:
+          '對自身賦予受到能量傷害降低10%。\n覺醒：對全體隊員賦予受到能量傷害降低10%。\n覺醒：PVP系統中，對自身賦予受治療效果提升13%。',
+      },
+    ],
+  },
+};
+const reworkZh = REWORK_ZH[slug] || null;
+
+// 追擊體系角色（trigger 觸發追擊／enabler 賦予狀態／both 兩者兼具）；
+// 夥伴清單由同一份資料計算（賦予者餵養觸發者，事實而非編輯評價）。
+const pursuit = gsaPursuitRole(slug);
+const EL_ZH = { Fire: '火', Earth: '土', Wind: '風', Water: '水', Light: '光', Dark: '闇' };
+const ROLE_ZH = {
+  trigger: '追擊觸發',
+  enabler: '狀態賦予',
+  both: '追擊＋賦予',
+  none: '無追擊參與',
+};
+const bySlugZh = Object.fromEntries(gsaCharactersZh.map(x => [x.slug, x]));
+const partners = new Set();
+if (pursuit.role !== 'none') {
+  for (const [s2, r2] of Object.entries(GSA_PURSUIT_ROLES)) {
+    if (s2 === slug) continue;
+    const feedsMe =
+      (pursuit.role === 'trigger' || pursuit.role === 'both') &&
+      r2.applies.some(a => pursuit.triggers.some(t => t.element === a.element));
+    const iFeed =
+      (pursuit.role === 'enabler' || pursuit.role === 'both') &&
+      r2.triggers.some(t => pursuit.applies.some(a => a.element === t.element));
+    if (feedsMe || iFeed) partners.add(s2);
+  }
+}
 // 官方 EN 數值說明 -> 官方繁中說明（反查），找不到就不顯示小字。
 const zhDesc = enLabel => {
   const en = gsaPropertyTypes[enLabel];
@@ -152,6 +325,48 @@ const growth = c.growth || { rate: 1, hp: [0, 0, 0, 0, 0, 0], atk: [0, 0, 0, 0, 
           {c.inGacha ? null : <span class="gsa-chip solid-muted">未在卡池中</span>}
         </div>
       </div>
+    </div>
+
+    <div class={`gsa-pursuit-box${pursuit.role === 'none' ? ' gsa-pursuit-none' : ''}`}>
+      <div class="gsa-pursuit-head">
+        <span class={`gsa-chip ${pursuit.role === 'none' ? 'solid-muted' : 'solid-accent'}`}>{ROLE_ZH[pursuit.role]}</span>
+        <span class="gsa-pursuit-title">追擊體系</span>
+      </div>
+      {pursuit.role === 'none' ? (
+        <p class="gsa-pursuit-line">
+          此角色不參與追擊體系：沒有技能賦予追擊狀態，也沒有技能帶有追擊觸發。其強度以自身輸出與輔助能力評價。
+        </p>
+      ) : (
+        <div class="gsa-pursuit-body">
+          {pursuit.triggers.map(t => (
+            <p class="gsa-pursuit-line">
+              對{t.statusZh}狀態目標的最後一擊觸發<b>{t.pursuitZh}</b>追擊（{t.statusZh}，{EL_ZH[t.element]}屬性鏈）：{t.skillsZh.join('、')}。
+              {t.grades.length > 0 && `等級 ${t.grades.join('/')}。`}
+            </p>
+          ))}
+          {pursuit.applies.map(a => (
+            <p class="gsa-pursuit-line">
+              賦予<b>{a.statusZh}</b>（{EL_ZH[a.element]}屬性鏈）{a.grades.length > 0 && `，等級 ${a.grades.join('/')}`}
+              {a.chance && `（${a.chance === 'High' ? '高' : a.chance === 'Medium' ? '中' : '低'}機率）`}
+              {a.via === 'passive' ? '（被動效果）' : ''}：{a.skillsZh.join('、')}。
+              對應的追擊由任何帶有觸發技能的隊友發動。
+            </p>
+          ))}
+          {pursuit.riders.map(r => <p class="gsa-pursuit-line">{r.zh}。</p>)}
+          {pursuit.synergy.map(sy => <p class="gsa-pursuit-line">{sy.zh}。</p>)}
+          {partners.size > 0 && (
+            <p class="gsa-pursuit-line gsa-pursuit-partners">
+              追擊夥伴：
+              {[...partners].map((s2, i) => (
+                <fragment>
+                  {i > 0 && '、'}
+                  <a href={`${base}characters/${s2}/`}>{bySlugZh[s2]?.name || s2}</a>
+                </fragment>
+              ))}。
+            </p>
+          )}
+        </div>
+      )}
     </div>
 
     {
@@ -374,6 +589,12 @@ const growth = c.growth || { rate: 1, hp: [0, 0, 0, 0, 0, 0], atk: [0, 0, 0, 0, 
       c.skills && c.skills.length ? (
         <div class="gsa-detail-section">
           <h2>技能</h2>
+          {reworkZh && (
+            <p class="gsa-rework-pointer">
+              {c.name} 的技能組於 {reworkZh.date} 改版。此處顯示當前版本；改版前的文字保存於本頁底部的{' '}
+              <a href="#gsa-rework-archive">改版紀錄</a>。
+            </p>
+          )}
           <div class="gsa-skills">
             {c.skills.map(s => (
               <div class={`gsa-skill ${s.slot === '奧義技' ? 'gsa-skill-ult' : ''}`}>
@@ -431,5 +652,40 @@ const growth = c.growth || { rate: 1, hp: [0, 0, 0, 0, 0, 0], atk: [0, 0, 0, 0, 
         </div>
       )
     }
+
+    {reworkZh && (
+      <div class="gsa-detail-section" id="gsa-rework-archive">
+        <h2>改版紀錄</h2>
+        <p class="gsa-section-note">
+          {reworkZh.intro}{' '}
+          <a href={reworkZh.patchHref}>{reworkZh.patchLabel}</a>。
+        </p>
+        {reworkZh.unchangedNote && (
+          <p class="gsa-section-note">{reworkZh.unchangedNote}</p>
+        )}
+        <div class="gsa-rework-list">
+          {reworkZh.items.map(item => (
+            <div class="gsa-rework-item">
+              <h3 class="gsa-rework-item-title">{item.title}</h3>
+              <div class="gsa-rework-grid">
+                <div class="gsa-rework-card gsa-rework-before">
+                  <span class="gsa-chip solid-muted">改版前</span>
+                  <div class="gsa-rework-text">
+                    {item.before.split('\n').map(line => <p>{line}</p>)}
+                  </div>
+                </div>
+                <div class="gsa-rework-card gsa-rework-after">
+                  <span class="gsa-chip solid-accent">改版後</span>
+                  <div class="gsa-rework-text">
+                    {item.after.split('\n').map(line => <p>{line}</p>)}
+                  </div>
+                </div>
+              </div>
+              {item.note && <p class="gsa-rework-item-note">{item.note}</p>}
+            </div>
+          ))}
+        </div>
+      </div>
+    )}
   </div>
 </GsaZhLayout>

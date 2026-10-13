@@ -750,3 +750,94 @@
 #gsa-armament .gsa-gear-stats .gsa-chip {
   font-size: 0.72rem;
 }
+
+/* Rework Archive: pre-rework vs current text compare (HW pattern), flat cards */
+.gsa-rework-pointer {
+  margin: 0 0 14px;
+  color: var(--gsa-text-dim);
+  font-size: 0.85rem;
+}
+.gsa-rework-pointer a {
+  color: var(--gsa-accent-strong);
+}
+.gsa-rework-list {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+.gsa-rework-item-title {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--gsa-text);
+  margin: 0 0 8px;
+}
+.gsa-rework-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+}
+.gsa-rework-card {
+  border: 1px solid var(--gsa-border, rgba(255, 255, 255, 0.09));
+  border-radius: 10px;
+  padding: 12px 14px;
+  background: rgba(255, 255, 255, 0.04);
+}
+.gsa-rework-text p {
+  margin: 0 0 0.35rem;
+  font-size: 0.82rem;
+  line-height: 1.55;
+  color: var(--gsa-text);
+}
+.gsa-rework-before .gsa-rework-text p {
+  color: var(--gsa-text-dim);
+}
+.gsa-rework-item-note {
+  margin: 8px 0 0;
+  font-size: 0.78rem;
+  color: var(--gsa-text-dim);
+}
+@media (max-width: 720px) {
+  .gsa-rework-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Pursuit-system role box: trigger / enabler / both / none (below header) */
+.gsa-pursuit-box {
+  margin: 14px 0 20px;
+  padding: 12px 16px;
+  border: 1px solid var(--gsa-border);
+  border-radius: 10px;
+  background: rgba(176, 42, 55, 0.08);
+}
+.gsa-pursuit-box.gsa-pursuit-none {
+  background: rgba(255, 255, 255, 0.03);
+}
+.gsa-pursuit-head {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 8px;
+}
+.gsa-pursuit-title {
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--gsa-text-dim);
+}
+.gsa-pursuit-line {
+  margin: 0 0 0.4rem;
+  font-size: 0.84rem;
+  line-height: 1.55;
+  color: var(--gsa-text);
+}
+.gsa-pursuit-line:last-child {
+  margin-bottom: 0;
+}
+.gsa-pursuit-line b {
+  color: var(--gsa-accent-strong);
+}
+.gsa-pursuit-partners a {
+  color: var(--gsa-accent-strong);
+}

@@ -431,3 +431,18 @@ a.gsa-tier-card:active {
   opacity: 0.75;
   font-variant-numeric: tabular-nums;
 }
+
+/* Pursuit-role chip on tier cards */
+.gsa-tier-role {
+  display: block;
+  margin-top: 2px;
+  font-size: 0.62rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--gsa-text-dim);
+}
+.gsa-tier-role-trigger,
+.gsa-tier-role-both {
+  color: var(--gsa-accent-strong);
+}
