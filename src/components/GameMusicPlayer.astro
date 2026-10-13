@@ -1,27 +1,41 @@
 ---
-// Horizon Walker background music player with two selectable tracks (With You,
-// Platinum Sanctuary Adventure) and a header toggle. Persists across HW page
-// navigations: preference + track in localStorage, per-track playback position
-// in sessionStorage, and an autoplay-block fallback that resumes on the first
-// user interaction.
+// Shared background music player for every game guide: header toggle plus an
+// optional track switcher (hidden when the game has a single track). Config
+// comes from src/data/game-music.ts; colors flow in as CSS custom properties
+// so each game keeps its exact palette. Persists across page navigations:
+// preference + track in localStorage, per-track playback position in
+// sessionStorage (legacy per-game key prefixes), and an autoplay-block
+// fallback that resumes on the first user interaction.
+import type { GameMusicConfig } from '../data/game-music';
+
 interface Props {
+  config: GameMusicConfig;
   variant?: 'desktop' | 'mobile';
 }
-const { variant = 'desktop' } = Astro.props;
-const R2 = 'https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/horizon-walker/audio';
-const MUSIC_SRC = `${R2}/login-music.mp3?v=2`;
-const MUSIC_SRC_2 = `${R2}/login-music-2.mp3?v=1`;
+const { config, variant = 'desktop' } = Astro.props;
+const single = config.tracks.length === 1;
+const cssVars = [
+  `--gmp-accent:${config.accent}`,
+  `--gmp-accent-border:${config.accentBorder}`,
+  `--gmp-border:${config.idleBorder}`,
+  `--gmp-fg:${config.idleColor}`,
+].join(';');
 ---
 
-<div class={`hw-music ${variant === 'mobile' ? 'hw-music-mobile' : ''}`}>
+<div
+  class:list={['gmp-music', variant === 'mobile' && 'gmp-music-mobile', single && 'gmp-music-single']}
+  style={cssVars}
+  data-gmp-prefix={config.storagePrefix}
+  data-gmp-tracks={JSON.stringify(config.tracks)}
+>
   <button
     type="button"
-    class="hw-music-btn"
-    aria-label="Toggle Horizon Walker background music"
+    class="gmp-music-btn"
+    aria-label={`Toggle ${config.gameLabel} background music`}
     aria-pressed="false"
     title="Background music"
   >
-    <svg class="hw-music-icon hw-music-on-icon" viewBox="0 0 24 24" width="16" height="16" aria-hidden="true">
+    <svg class="gmp-music-icon gmp-music-on-icon" viewBox="0 0 24 24" width="16" height="16" aria-hidden="true">
       <path
         d="M9 18V6l10-2v12"
         fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
@@ -29,7 +43,7 @@ const MUSIC_SRC_2 = `${R2}/login-music-2.mp3?v=1`;
       <circle cx="6.5" cy="18" r="2.5" fill="currentColor"></circle>
       <circle cx="16.5" cy="16" r="2.5" fill="currentColor"></circle>
     </svg>
-    <svg class="hw-music-icon hw-music-off-icon" viewBox="0 0 24 24" width="16" height="16" aria-hidden="true">
+    <svg class="gmp-music-icon gmp-music-off-icon" viewBox="0 0 24 24" width="16" height="16" aria-hidden="true">
       <path
         d="M9 18V6l10-2v12"
         fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
@@ -37,84 +51,104 @@ const MUSIC_SRC_2 = `${R2}/login-music-2.mp3?v=1`;
       <circle cx="6.5" cy="18" r="2.5" fill="none" stroke="currentColor" stroke-width="2"></circle>
       <line x1="3" y1="3" x2="21" y2="21" stroke="currentColor" stroke-width="2" stroke-linecap="round"></line>
     </svg>
-    <span class="hw-music-label">Music</span>
+    <span class="gmp-music-label">Music</span>
   </button>
-  <button
-    type="button"
-    class="hw-music-btn hw-music-track-btn"
-    aria-label="Switch background music track"
-    title="Background music track"
-  >
-    <span class="hw-music-track-num">1</span>
-  </button>
+  {!single && (
+    <button
+      type="button"
+      class="gmp-music-btn gmp-music-track-btn"
+      aria-label="Switch background music track"
+      title="Background music track"
+    >
+      <span class="gmp-music-track-num">1</span>
+    </button>
+  )}
   {/* One shared audio per page: only the desktop header instance renders it */}
-  {variant === 'desktop' && <audio id="hw-music-audio" src={MUSIC_SRC} loop preload="none"></audio>}
+  {
+    variant === 'desktop' && (
+      <audio
+        id={`${config.storagePrefix}-music-audio`}
+        data-gmp-audio={config.storagePrefix}
+        src={config.tracks[0]}
+        loop
+        preload="none"
+      />
+    )
+  }
 </div>
 
 <style>
-  .hw-music {
+  .gmp-music {
     position: absolute;
     right: 0;
     top: 50%;
     transform: translateY(-50%);
     display: inline-flex;
+    --gmp-fg: #b3b3b3;
+    --gmp-border: rgba(255, 255, 255, 0.15);
+    --gmp-accent: #ffb74a;
+    --gmp-accent-border: rgba(255, 183, 77, 0.4);
   }
 
-  .hw-music-btn {
+  .gmp-music-btn {
     display: inline-flex;
     align-items: center;
     gap: 0.4rem;
     padding: 0.35rem 0.75rem;
     background: rgba(255, 255, 255, 0.04);
-    border: 1px solid rgba(255, 255, 255, 0.15);
-    color: #b3b3b3;
+    border: 1px solid var(--gmp-border);
+    color: var(--gmp-fg);
     font-size: 0.78rem;
     font-weight: 600;
     cursor: pointer;
     white-space: nowrap;
   }
 
-  .hw-music-btn:first-child {
+  .gmp-music-single .gmp-music-btn {
+    border-radius: 999px;
+  }
+
+  .gmp-music:not(.gmp-music-single) .gmp-music-btn:first-child {
     border-radius: 999px 0 0 999px;
     border-right: none;
   }
 
-  .hw-music-track-btn {
+  .gmp-music-track-btn {
     border-radius: 0 999px 999px 0;
     min-width: 1.8rem;
     justify-content: center;
     padding: 0.35rem 0.5rem;
   }
 
-  .hw-music-btn .hw-music-on-icon {
+  .gmp-music-btn .gmp-music-on-icon {
     display: none;
   }
 
-  .hw-music-btn.playing {
-    color: #e8a547;
-    border-color: rgba(232, 165, 71, 0.4);
+  .gmp-music-btn.playing {
+    color: var(--gmp-accent);
+    border-color: var(--gmp-accent-border);
   }
 
-  .hw-music-btn.playing + .hw-music-track-btn {
-    border-color: rgba(232, 165, 71, 0.4);
-    color: #e8a547;
+  .gmp-music-btn.playing + .gmp-music-track-btn {
+    border-color: var(--gmp-accent-border);
+    color: var(--gmp-accent);
   }
 
-  .hw-music-btn.playing .hw-music-on-icon {
+  .gmp-music-btn.playing .gmp-music-on-icon {
     display: block;
   }
 
-  .hw-music-btn.playing .hw-music-off-icon {
+  .gmp-music-btn.playing .gmp-music-off-icon {
     display: none;
   }
 
-  .hw-music-track-num {
+  .gmp-music-track-num {
     min-width: 0.6rem;
     text-align: center;
   }
 
   @media (max-width: 768px) {
-    .hw-music-label {
+    .gmp-music-label {
       display: none;
     }
   }
@@ -123,29 +157,30 @@ const MUSIC_SRC_2 = `${R2}/login-music-2.mp3?v=1`;
 <script is:inline>
   (function () {
     // Desktop + mobile header instances both render; init once, bind all.
-    if (window.__hwMusicInit) return;
-    window.__hwMusicInit = true;
+    if (window.__gmpMusicInit) return;
+    window.__gmpMusicInit = true;
 
     document.addEventListener('DOMContentLoaded', function () {
-      var audio = document.getElementById('hw-music-audio');
-      var playBtns = document.querySelectorAll('.hw-music-btn:not(.hw-music-track-btn)');
-      var trackBtns = document.querySelectorAll('.hw-music-track-btn');
-      if (!audio || !playBtns.length || !trackBtns.length) return;
+      var wrap = document.querySelector('.gmp-music[data-gmp-prefix]');
+      var audio = document.querySelector('audio[data-gmp-audio]');
+      var playBtns = document.querySelectorAll('.gmp-music-btn:not(.gmp-music-track-btn)');
+      var trackBtns = document.querySelectorAll('.gmp-music-track-btn');
+      if (!wrap || !audio || !playBtns.length) return;
 
-      var TRACKS = [
-        'https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/horizon-walker/audio/login-music.mp3?v=2',
-        'https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/horizon-walker/audio/login-music-2.mp3?v=1'
-      ];
-      var PREF = 'hw-music-on';
-      var TRACK = 'hw-music-track';
+      var PREFIX = wrap.getAttribute('data-gmp-prefix');
+      var TRACKS = JSON.parse(wrap.getAttribute('data-gmp-tracks') || '[]');
+      var multi = TRACKS.length > 1;
+      var PREF = PREFIX + '-music-on';
+      var TRACK = PREFIX + '-music-track';
 
       function posKey() {
-        return 'hw-music-pos-' + currentTrack();
+        // single-track players keep the legacy unsuffixed position key
+        return multi ? PREFIX + '-music-pos-' + currentTrack() : PREFIX + '-music-pos';
       }
 
       function currentTrack() {
         var t = parseInt(localStorage.getItem(TRACK) || '0', 10);
-        return t === 1 ? 1 : 0;
+        return t >= 0 && t < TRACKS.length ? t : 0;
       }
 
       function setTrack(t, keepPlaying) {
@@ -154,7 +189,7 @@ const MUSIC_SRC_2 = `${R2}/login-music-2.mp3?v=1`;
         if (!keepPlaying) wasPlaying = false;
         audio.src = TRACKS[t];
         trackBtns.forEach(function (b) {
-          b.querySelector('.hw-music-track-num').textContent = String(t + 1);
+          b.querySelector('.gmp-music-track-num').textContent = String(t + 1);
         });
         var pos = parseFloat(sessionStorage.getItem(posKey()) || '0');
         if (isFinite(pos) && pos > 0) {
@@ -197,12 +232,14 @@ const MUSIC_SRC_2 = `${R2}/login-music-2.mp3?v=1`;
         );
       }
 
-      // restore track selection, then position for near-seamless playback
-      var t = currentTrack();
-      if (audio.src !== TRACKS[t]) audio.src = TRACKS[t];
-      trackBtns.forEach(function (b) {
-        b.querySelector('.hw-music-track-num').textContent = String(t + 1);
-      });
+      if (multi) {
+        // restore track selection, then position for near-seamless playback
+        var t = currentTrack();
+        if (audio.src !== TRACKS[t]) audio.src = TRACKS[t];
+        trackBtns.forEach(function (b) {
+          b.querySelector('.gmp-music-track-num').textContent = String(t + 1);
+        });
+      }
       var pos = parseFloat(sessionStorage.getItem(posKey()) || '0');
       if (isFinite(pos) && pos > 0) {
         try {
@@ -241,11 +278,13 @@ const MUSIC_SRC_2 = `${R2}/login-music-2.mp3?v=1`;
         });
       });
 
-      trackBtns.forEach(function (b) {
-        b.addEventListener('click', function () {
-          setTrack(currentTrack() === 0 ? 1 : 0, true);
+      if (multi) {
+        trackBtns.forEach(function (b) {
+          b.addEventListener('click', function () {
+            setTrack((currentTrack() + 1) % TRACKS.length, true);
+          });
         });
-      });
+      }
     });
   })();
 </script>

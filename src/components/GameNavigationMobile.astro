@@ -1,13 +1,8 @@
 ---
 import { getGameData, isValidGameKey, type GameKey } from '../data/game-navigation';
+import { getMusicConfig } from '../data/game-music';
 import { Image } from 'astro:assets';
-import ZNMusicPlayer from './zone-nova/ZNMusicPlayer.astro';
-import BBMusicPlayer from './busty-burst/BBMusicPlayer.astro';
-import HWMusicPlayer from './horizon-walker/HWMusicPlayer.astro';
-import MajoMusicPlayer from './majo/MajoMusicPlayer.astro';
-import SSMusicPlayer from './stella-sora/SSMusicPlayer.astro';
-import GSAMusicPlayer from './gene-sys-adam/GSAMusicPlayer.astro';
-import TSMusicPlayer from './taimanin-squad/TSMusicPlayer.astro';
+import GameMusicPlayer from './GameMusicPlayer.astro';
 
 interface Props {
   currentPath?: string;
@@ -39,6 +34,8 @@ const bestMatch = navHrefs
   .filter((href: string) => currentPathNorm === href || currentPathNorm.startsWith(href))
   .sort((a: string, b: string) => b.length - a.length)[0];
 const isActive = (href: string) => href === bestMatch;
+
+const musicConfig = getMusicConfig(validatedGameKey);
 
 ---
 
@@ -79,13 +76,7 @@ const isActive = (href: string) => href === bestMatch;
           <h2 class="game-title">{game.name} {game.sections[game.sections.length - 1].title}</h2>
         </button>
       </div>
-      {validatedGameKey === 'zone-nova' && <ZNMusicPlayer variant="mobile" />}
-      {validatedGameKey === 'busty-burst' && <BBMusicPlayer variant="mobile" />}
-      {validatedGameKey === 'horizon-walker' && <HWMusicPlayer variant="mobile" />}
-      {validatedGameKey === 'majo' && <MajoMusicPlayer variant="mobile" />}
-      {validatedGameKey === 'stella-sora' && <SSMusicPlayer variant="mobile" />}
-      {validatedGameKey === 'gene-sys-adam' && <GSAMusicPlayer variant="mobile" />}
-      {validatedGameKey === 'taimanin-squad' && <TSMusicPlayer variant="mobile" />}
+      {musicConfig && <GameMusicPlayer config={musicConfig} variant="mobile" />}
     </div>
   </div>
 </nav>
