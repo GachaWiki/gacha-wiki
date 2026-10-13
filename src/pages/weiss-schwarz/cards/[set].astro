@@ -1,0 +1,283 @@
+---
+// Per-set Weiss Schwarz card database: only one set's cards per page, with
+// type/color/rarity/level/text filters and a card detail popup.
+import AboutLayout from '../../../layouts/AboutLayout.astro';
+import { SITE_TITLE } from '../../../consts';
+import { WS_CARD_SETS } from '../../../data/ws-cards/index.js';
+import '../../../styles/pages/ws-cards.css';
+
+export function getStaticPaths() {
+  return WS_CARD_SETS.map((set) => ({ params: { set: set.id } }));
+}
+
+const set = WS_CARD_SETS.find((s) => s.id === Astro.params.set)!;
+
+const title = `${SITE_TITLE} ${set.name} Card List`;
+const description = `Every card in the Weiss Schwarz ${set.name} set: images, rarities, colors, levels, costs, power and full ability text, imported from the official cardlist.`;
+const keywords = [
+  `${set.name.toLowerCase()} weiss schwarz`,
+  `${set.name.toLowerCase()} card list`,
+  'weiss schwarz card database',
+  'ws tcg cards',
+];
+
+const COLORS: Record<string, string> = {
+  yellow: '#eab308',
+  green: '#22c55e',
+  red: '#ef4444',
+  blue: '#3b82f6',
+};
+
+const rarities = [...new Set(set.cards.map((c) => c.rarity))].sort();
+const levels = [...new Set(set.cards.map((c) => c.level).filter(Boolean))].sort();
+const fmtDate = (iso: string) =>
+  new Date(iso).toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' });
+---
+
+<AboutLayout title={title} description={description} keywords={keywords}>
+  <div class="main-content">
+    <header class="page-header">
+      <h1 class="page-title">{`${set.name} Cards`}</h1>
+    </header>
+
+    <p class="wsc-intro">
+      {`${set.cards.length} cards in the Weiss Schwarz ${set.name} set, released ${fmtDate(set.release)}. `}
+      <a href={`/shop/#${set.shopItem}`}>Buy this set in the shop</a> or
+      <a href="/weiss-schwarz/cards/">browse other sets</a>. Click any card for details.
+    </p>
+
+    <div class="wsc-toolbar">
+      <select id="wsc-type" class="wsc-select" aria-label="Filter by card type">
+        <option value="">All types</option>
+        <option value="Character">Character</option>
+        <option value="Event">Event</option>
+        <option value="Climax">Climax</option>
+      </select>
+      <select id="wsc-color" class="wsc-select" aria-label="Filter by color">
+        <option value="">All colors</option>
+        <option value="yellow">Yellow</option>
+        <option value="green">Green</option>
+        <option value="red">Red</option>
+        <option value="blue">Blue</option>
+      </select>
+      <select id="wsc-rarity" class="wsc-select" aria-label="Filter by rarity">
+        <option value="">All rarities</option>
+        {rarities.map((r) => <option value={r}>{r}</option>)}
+      </select>
+      <select id="wsc-level" class="wsc-select" aria-label="Filter by level">
+        <option value="">All levels</option>
+        {levels.map((l) => <option value={l}>{`Level ${l}`}</option>)}
+      </select>
+      <input id="wsc-search" class="wsc-input" type="search" placeholder="Search name or number..." aria-label="Search cards" />
+      <button id="wsc-clear" class="wsc-clear" type="button">Clear</button>
+      <span id="wsc-count" class="wsc-count" aria-live="polite"></span>
+    </div>
+
+    <div class="wsc-grid" id="wsc-grid">
+      {
+        set.cards.map((card) => (
+          <button
+            type="button"
+            class="wsc-tile"
+            data-type={card.type}
+            data-color={card.color}
+            data-rarity={card.rarity}
+            data-level={card.level}
+            data-search={`${card.name} ${card.num}`.toLowerCase()}
+            data-card={JSON.stringify({ ...card, setName: set.name })}
+          >
+            <span class="wsc-tile-media">
+              {card.img ? (
+                <img src={card.img} alt={card.name} width="173" height="242" loading="lazy" draggable="false" />
+              ) : (
+                <span class="wsc-tile-noimg">{card.num}</span>
+              )}
+            </span>
+            <span class="wsc-tile-name">{card.name}</span>
+            <span class="wsc-tile-meta">
+              <span class="wsc-chip" style={`background:${COLORS[card.color] ?? '#52606d'}`}>{card.rarity}</span>
+              <span class="wsc-tile-num">{card.num}</span>
+            </span>
+          </button>
+        ))
+      }
+    </div>
+
+    <p class="wsc-no-results" id="wsc-no-results" hidden>No cards match those filters.</p>
+
+    <p class="wsc-fineprint">
+      Card data and images: official Weiss Schwarz English cardlist (en.ws-tcg.com), Bushiroad.
+      Imported for reference; buy the set in our <a href={`/shop/#${set.shopItem}`}>shop</a>.
+    </p>
+  </div>
+</AboutLayout>
+
+<div class="wsc-modal" id="wsc-modal" hidden>
+  <div class="wsc-modal-backdrop" data-close></div>
+  <div class="wsc-modal-card" role="dialog" aria-modal="true" aria-labelledby="wsc-modal-name">
+    <button class="wsc-modal-close" type="button" data-close>Close</button>
+    <div class="wsc-modal-media">
+      <img id="wsc-modal-img" alt="" width="346" height="484" draggable="false" />
+    </div>
+    <div class="wsc-modal-info">
+      <p class="wsc-modal-set" id="wsc-modal-set"></p>
+      <h3 class="wsc-modal-name" id="wsc-modal-name"></h3>
+      <p class="wsc-modal-num" id="wsc-modal-num"></p>
+      <div class="wsc-modal-chips" id="wsc-modal-chips"></div>
+      <dl class="wsc-modal-stats" id="wsc-modal-stats"></dl>
+      <p class="wsc-modal-text" id="wsc-modal-text"></p>
+      <div class="wsc-modal-links">
+        <a id="wsc-modal-official" href="https://en.ws-tcg.com/cardlist/" target="_blank" rel="noopener noreferrer nofollow">
+          Official cardlist entry
+        </a>
+        <a id="wsc-modal-shop" href={`/shop/#${set.shopItem}`}>Buy this set in the shop</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  // Per-set card filtering + detail popup (site convention: everything is
+  // server-rendered, visibility toggles via data attributes).
+  const typeSel = document.getElementById('wsc-type') as HTMLSelectElement;
+  const colorSel = document.getElementById('wsc-color') as HTMLSelectElement;
+  const raritySel = document.getElementById('wsc-rarity') as HTMLSelectElement;
+  const levelSel = document.getElementById('wsc-level') as HTMLSelectElement;
+  const search = document.getElementById('wsc-search') as HTMLInputElement;
+  const clear = document.getElementById('wsc-clear') as HTMLButtonElement;
+  const count = document.getElementById('wsc-count');
+  const noResults = document.getElementById('wsc-no-results');
+  const tiles = Array.from(document.querySelectorAll<HTMLElement>('.wsc-tile'));
+
+  function apply(): void {
+    const t = typeSel.value;
+    const c = colorSel.value;
+    const r = raritySel.value;
+    const l = levelSel.value;
+    const q = search.value.trim().toLowerCase();
+    let visible = 0;
+    for (const el of tiles) {
+      const show =
+        (!t || el.dataset.type === t) &&
+        (!c || el.dataset.color === c) &&
+        (!r || el.dataset.rarity === r) &&
+        (!l || el.dataset.level === l) &&
+        (!q || el.dataset.search?.includes(q));
+      el.style.display = show ? '' : 'none';
+      if (show) visible++;
+    }
+    if (count) count.textContent = `${visible} of ${tiles.length} cards`;
+    if (noResults) noResults.hidden = visible > 0;
+  }
+
+  [typeSel, colorSel, raritySel, levelSel, search].forEach((el) =>
+    el.addEventListener('input', apply)
+  );
+  clear.addEventListener('click', () => {
+    typeSel.value = '';
+    colorSel.value = '';
+    raritySel.value = '';
+    levelSel.value = '';
+    search.value = '';
+    apply();
+  });
+  apply();
+
+  // Detail popup
+  const modal = document.getElementById('wsc-modal');
+  const mImg = document.getElementById('wsc-modal-img') as HTMLImageElement;
+  const mSet = document.getElementById('wsc-modal-set');
+  const mName = document.getElementById('wsc-modal-name');
+  const mNum = document.getElementById('wsc-modal-num');
+  const mChips = document.getElementById('wsc-modal-chips');
+  const mStats = document.getElementById('wsc-modal-stats');
+  const mText = document.getElementById('wsc-modal-text');
+  const mOfficial = document.getElementById('wsc-modal-official') as HTMLAnchorElement;
+
+  const COLOR_LABEL: Record<string, string> = {
+    yellow: 'Yellow',
+    green: 'Green',
+    red: 'Red',
+    blue: 'Blue',
+  };
+
+  function openModal(el: HTMLElement): void {
+    const card = JSON.parse(el.dataset.card || '{}');
+    if (mImg) {
+      mImg.src = card.img || '';
+      mImg.alt = card.name || '';
+    }
+    if (mSet) mSet.textContent = card.setName || '';
+    if (mName) mName.textContent = card.name || '';
+    if (mNum) mNum.textContent = card.num || '';
+    if (mChips) {
+      mChips.innerHTML = '';
+      // label, background, text color: yellow/amber chips need dark text
+      const chips: Array<[string, string, string]> = [
+        [card.type || '', '#52606d', '#ffffff'],
+        [
+          COLOR_LABEL[card.color] || '',
+          card.color === 'yellow'
+            ? '#eab308'
+            : card.color === 'green'
+              ? '#22c55e'
+              : card.color === 'red'
+                ? '#ef4444'
+                : '#3b82f6',
+          card.color === 'yellow' ? '#1a1a1a' : '#ffffff',
+        ],
+        [card.rarity || '', 'var(--amber-glow)', '#1a1a1a'],
+      ];
+      for (const [label, bg, fg] of chips) {
+        if (!label) continue;
+        const span = document.createElement('span');
+        span.className = 'wsc-chip wsc-chip-lg';
+        span.style.background = bg;
+        span.style.color = fg;
+        span.textContent = label;
+        mChips.appendChild(span);
+      }
+    }
+    if (mStats) {
+      mStats.innerHTML = '';
+      // Side lives in the set code after the slash (NIK/S135 = S, BAV/W129 = W)
+      const rows: Array<[string, string]> = [
+        ['Level', card.level ?? ''],
+        ['Cost', card.cost ?? ''],
+        ['Power', card.power ?? ''],
+        ['Soul', card.soul ? '● '.repeat(card.soul).trim() : ''],
+        ['Trigger', card.trigger ?? ''],
+        ['Side', card.num?.split('/')[1]?.startsWith('W') ? 'W' : 'S'],
+      ];
+      for (const [k, v] of rows) {
+        if (v === '' || v === undefined) continue;
+        const dt = document.createElement('dt');
+        dt.textContent = k;
+        const dd = document.createElement('dd');
+        dd.textContent = v;
+        mStats.appendChild(dt);
+        mStats.appendChild(dd);
+      }
+    }
+    if (mText) mText.textContent = card.text || '';
+    if (mOfficial)
+      mOfficial.href = `https://en.ws-tcg.com/cardlist/?cardno=${encodeURIComponent(card.num)}`;
+    if (modal) {
+      modal.hidden = false;
+      document.body.style.overflow = 'hidden';
+    }
+  }
+
+  function closeModal(): void {
+    if (modal) {
+      modal.hidden = true;
+      document.body.style.overflow = '';
+    }
+  }
+
+  tiles.forEach((el) => el.addEventListener('click', () => openModal(el)));
+  modal?.querySelectorAll('[data-close]').forEach((el) => el.addEventListener('click', closeModal));
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') closeModal();
+  });
+</script>

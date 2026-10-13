@@ -1,0 +1,75 @@
+---
+// Weiss Schwarz card database index: one overview card per set, linking to
+// each set's own card database page (/weiss-schwarz/cards/<set>/).
+import AboutLayout from '../../layouts/AboutLayout.astro';
+import { SITE_TITLE } from '../../consts';
+import { WS_CARD_SETS } from '../../data/ws-cards/index.js';
+import { SHOP_ITEMS } from '../../data/shop-items.js';
+import '../../styles/pages/ws-cards.css';
+
+const title = `${SITE_TITLE} Weiss Schwarz Card Database`;
+const description =
+  'Weiss Schwarz card databases for gacha game sets like NIKKE, Blue Archive, Uma Musume and Re:Zero: every card with image, rarity, color, level, cost, power and full ability text, imported from the official cardlist.';
+const keywords = [
+  'weiss schwarz card list',
+  'weiss schwarz card database',
+  'nikke weiss schwarz cards',
+  'blue archive weiss schwarz cards',
+  'ws tcg cards',
+];
+
+const fmtDate = (iso: string) =>
+  new Date(iso).toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' });
+
+const shopImage = new Map(SHOP_ITEMS.map((i) => [i.id, i]));
+const totalCards = WS_CARD_SETS.reduce((n, s) => n + s.cards.length, 0);
+---
+
+<AboutLayout title={title} description={description} keywords={keywords}>
+  <div class="main-content">
+    <header class="page-header">
+      <h1 class="page-title">Weiss Schwarz Card Database</h1>
+    </header>
+
+    <p class="wsc-intro">
+      Card databases for the Weiss Schwarz sets sold in our {''}
+      <a href="/shop/">TCG Shop</a>: {totalCards} cards across {WS_CARD_SETS.length} sets, each
+      with images, rarities, stats and full ability text, imported from the official cardlist.
+      Pick a set to browse its cards.
+    </p>
+
+    <div class="wsc-sets">
+      {
+        WS_CARD_SETS.map((set) => {
+          const shop = shopImage.get(set.shopItem);
+          return (
+            <a class="wsc-setcard" href={`/weiss-schwarz/cards/${set.id}/`} aria-label={`${set.name} card database`}>
+              <span class="wsc-setcard-media">
+                {shop && (
+                  <img
+                    src={shop.image}
+                    alt={shop.imageAlt}
+                    width={shop.imageWidth}
+                    height={shop.imageHeight}
+                    loading="lazy"
+                    draggable="false"
+                  />
+                )}
+              </span>
+              <span class="wsc-setcard-name">{set.name}</span>
+              <span class="wsc-setcard-meta">
+                <span class="wsc-chip">{`${set.cards.length} cards`}</span>
+                <span class="wsc-setcard-date">{fmtDate(set.release)}</span>
+              </span>
+            </a>
+          );
+        })
+      }
+    </div>
+
+    <p class="wsc-fineprint">
+      Card data and images: official Weiss Schwarz English cardlist (en.ws-tcg.com), Bushiroad.
+      Imported for reference; buy the sets in our <a href="/shop/">shop</a>.
+    </p>
+  </div>
+</AboutLayout>

@@ -1,0 +1,30 @@
+[
+  { "id": "nikke-vol2", "url": "https://en.ws-tcg.com/products/bp-nik2/", "images": [
+    "https://en.ws-tcg.com/wordpress/wp-content/images/cardimages/NIK/S135-E001SP.png",
+    "https://en.ws-tcg.com/wordpress/wp-content/images/cardimages/NIK/S135-E001SEC.png",
+    "https://en.ws-tcg.com/wordpress/wp-content/images/cardimages/NIK/S135-E003SSP.png"
+  ] },
+  { "id": "nikke-vol1", "url": "https://en.ws-tcg.com/products/bp-nik/" },
+  { "id": "re-zero-vol3", "url": "https://en.ws-tcg.com/products/bp-rzv3/", "images": [
+    "https://en.ws-tcg.com/wordpress/wp-content/images/cardimages/RZ/S116-E001S.png",
+    "https://en.ws-tcg.com/wordpress/wp-content/images/cardimages/RZ/S116-E002S.png",
+    "https://en.ws-tcg.com/wordpress/wp-content/images/cardimages/RZ/S116-E003S.png"
+  ] },
+  { "id": "blue-archive-the-animation", "url": "https://en.ws-tcg.com/products/bp-bava/", "images": [
+    "https://en.ws-tcg.com/wordpress/wp-content/images/cardimages/BAV/W129-E001SP.png",
+    "https://en.ws-tcg.com/wordpress/wp-content/images/cardimages/BAV/W129-E001S.png",
+    "https://en.ws-tcg.com/wordpress/wp-content/images/cardimages/BAV/W129-E002S.png"
+  ] },
+  { "id": "umamusume-pretty-derby", "url": "https://en.ws-tcg.com/products/bp-uma/" },
+  { "id": "umamusume-trial-deck-race-2", "url": "https://en.ws-tcg.com/products/td-umar2/" },
+  { "id": "oshi-no-ko-vol2", "url": "https://en.ws-tcg.com/products/bp-osk2/" },
+  { "id": "sao-gun-gale-online-2", "url": "https://en.ws-tcg.com/products/eb-ggo2/" },
+  { "id": "bang-dream-mygo-ave-mujica", "url": "https://en.ws-tcg.com/products/bp-bdam-2/" },
+  { "id": "hatsune-miku-colorful-stage", "url": "https://en.ws-tcg.com/products/bp-pjs/", "images": [
+    "https://en.ws-tcg.com/wordpress/wp-content/images/cardimages/PJS/S91-E001SSP.png",
+    "https://en.ws-tcg.com/wordpress/wp-content/images/cardimages/PJS/S91-E002SSP.png",
+    "https://en.ws-tcg.com/wordpress/wp-content/images/cardimages/PJS/S91-E003SSP.png"
+  ] },
+  { "id": "love-live-sif2-miracle-live", "url": "https://en.ws-tcg.com/products/bp-llsif-2/" },
+  { "id": "oshi-no-ko-vol1", "url": "https://en.ws-tcg.com/products/bp-osk/" }
+]

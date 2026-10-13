@@ -1,0 +1,17 @@
+{
+  "scan": [
+    { "franchise": "GODDESS OF VICTORY: NIKKE", "keywords": ["weiss schwarz goddess of victory nikke booster box", "weiss schwarz nikke trial deck"] },
+    { "franchise": "Blue Archive", "keywords": ["weiss schwarz blue archive booster box"] },
+    { "franchise": "Uma Musume Pretty Derby", "keywords": ["weiss schwarz uma musume booster box"] },
+    { "franchise": "Fate/Grand Order", "keywords": ["weiss schwarz fate grand order booster box"] },
+    { "franchise": "Project SEKAI", "keywords": ["weiss schwarz project sekai booster box"] },
+    { "franchise": "Love Live!", "keywords": ["weiss schwarz love live booster box"] },
+    { "franchise": "Date A Live", "keywords": ["weiss schwarz date a live booster box"] },
+    { "franchise": "Oshi no Ko", "keywords": ["weiss schwarz oshi no ko booster box"] },
+    { "franchise": "Re:Zero", "keywords": ["weiss schwarz re zero starting life in another world booster box"] },
+    { "franchise": "Sword Art Online", "keywords": ["weiss schwarz sword art online booster box"] },
+    { "franchise": "Muv-Luv", "keywords": ["weiss schwarz muv-luv"], "wikiGame": "muv-luv-girls-garden" },
+    { "franchise": "Lyrian", "keywords": ["weiss schwarz lyrian"] },
+    { "franchise": "IDOLY PRIDE", "keywords": ["weiss schwarz idoly pride"] }
+  ]
+}

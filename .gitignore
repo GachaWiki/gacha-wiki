@@ -81,3 +81,8 @@ NUL
 
 # Local Wrangler/miniflare state
 .wrangler/
+
+# shop-scanner / ws-carddb working data (staged images + intermediate JSON)
+tools/ws-carddb/r2_upload/
+tools/ws-carddb/sets/
+tools/shop-scanner/r2_upload/

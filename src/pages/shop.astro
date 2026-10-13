@@ -1,24 +1,45 @@
 ---
-// TCG Shop page: featured trading card sets and store directory with referral links
+// TCG Shop page: Weiss Schwarz sets for gacha games, Amazon US links only.
+// Every item renders as a full-width rich card (image, blurb, specs, sample
+// cards) with a filter toolbar: buyers should understand what they are buying.
 import AboutLayout from '../layouts/AboutLayout.astro';
 import { SITE_TITLE } from '../consts';
-import { featuredSets, shopLink } from '../data/shop.js';
+import { SHOP_ITEMS, SHOP_TYPES, getShopFranchises } from '../data/shop-items.js';
+import { shopLink } from '../data/shop.js';
+import { WS_CARD_SETS } from '../data/ws-cards/index.js';
 import '../styles/pages/shop.css';
 
-const title = `${SITE_TITLE} Shop: Where to Buy Weiss Schwarz NIKKE Vol.2 and More`;
+const title = `${SITE_TITLE} Shop: Weiss Schwarz Sets for Gacha Games`;
 const description =
-  'Where to buy the Weiss Schwarz GODDESS OF VICTORY: NIKKE Vol.2 booster boxes and Trial Decks. Store links support the wiki at no extra cost to you.';
+  'Where to buy Weiss Schwarz booster boxes, trial decks and special sets for gacha games like NIKKE and Blue Archive. Buying through our Amazon links supports the wiki at no extra cost to you.';
 const keywords = [
-  'weiss schwarz nikke',
-  'nikke vol.2',
-  'goddess of victory nikke tcg',
+  'weiss schwarz shop',
+  'gacha tcg',
   'weiss schwarz booster box',
-  'nikke cards where to buy',
-  'ws tcg shop',
+  'weiss schwarz nikke',
+  'weiss schwarz blue archive',
+  'tcg shop',
 ];
 
 const fmtDate = (iso: string) =>
   new Date(iso).toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' });
+
+const slug = (s: string) => s.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
+
+const franchises = getShopFranchises();
+const cardDbIds = new Set(WS_CARD_SETS.map((s) => s.id));
+
+// Release chips: featured-style entries carry a releases array; scanner/manual
+// entries carry a single English-edition release string.
+function releaseChips(item: (typeof SHOP_ITEMS)[number]) {
+  if (item.releases?.length) return item.releases;
+  if (item.release) {
+    const parsed = new Date(item.release);
+    const date = isNaN(parsed.getTime()) ? item.release : fmtDate(item.release);
+    return [{ region: 'English', dateLabel: date, status: 'out' }];
+  }
+  return [];
+}
 ---
 
 <AboutLayout title={title} description={description} keywords={keywords}>
@@ -28,60 +49,193 @@ const fmtDate = (iso: string) =>
     </header>
 
     <p class="shop-intro">
-      Trading card sets for the games and franchises our community loves, with store links that
-      support the wiki. Buying through a referral link costs you nothing extra: the store pays us a
-      small commission instead.
+      Weiss Schwarz sets for the games and franchises our community loves. Buying through our
+      Amazon links costs you nothing extra: Amazon pays the wiki a small commission instead.
     </p>
 
-    {
-      featuredSets.map(set => (
-        <section class="shop-set" aria-label={set.name}>
-          <div class="shop-set-body">
-            <div class="shop-set-media">
-              <img
-                src={set.image}
-                alt={set.imageAlt}
-                width={set.imageWidth}
-                height={set.imageHeight}
-                loading="lazy"
-              />
+    <section class="shop-info" aria-label="About Weiss Schwarz">
+      <h2 class="shop-info-title">New to Weiss Schwarz?</h2>
+      <p>
+        Weiss Schwarz is a Japanese trading card game from Bushiroad built around anime, manga and
+        mobile game franchises. You build a deck using cards from a single title, then duel against
+        decks from other titles, so your favorite characters can face off across franchises.
+        Booster boxes are the collecting side, while Trial Decks are prebuilt and ready to play
+        right out of the box.
+      </p>
+      <div class="shop-info-links">
+        <a
+          class="shop-info-link"
+          href="https://en.ws-tcg.com/"
+          target="_blank"
+          rel="noopener noreferrer nofollow"
+        >
+          Weiss Schwarz official site (English)
+        </a>
+        <a
+          class="shop-info-link"
+          href="https://ws-tcg.com/"
+          target="_blank"
+          rel="noopener noreferrer nofollow"
+        >
+          Official site (Japanese)
+        </a>
+      </div>
+    </section>
+
+    <div class="shop-toolbar">
+      <input
+        id="shop-search"
+        class="shop-input"
+        type="search"
+        placeholder="Search sets..."
+        aria-label="Search sets"
+      />
+      <select id="shop-franchise" class="shop-select" aria-label="Filter by franchise">
+        <option value="">All franchises</option>
+        {franchises.map((f) => <option value={slug(f)}>{f}</option>)}
+      </select>
+      <select id="shop-type" class="shop-select" aria-label="Filter by product type">
+        <option value="">All types</option>
+        {Object.entries(SHOP_TYPES).map(([value, label]) => <option value={value}>{label}</option>)}
+      </select>
+      <button id="shop-clear" class="shop-clear" type="button">Clear</button>
+      <span id="shop-count" class="shop-count" aria-live="polite"></span>
+    </div>
+
+    <div id="shop-list">
+      {
+        SHOP_ITEMS.map(item => (
+          <section
+            class="shop-set"
+            id={item.id}
+            aria-label={item.name}
+            data-franchise={slug(item.franchise)}
+            data-type={item.type}
+            data-search={`${item.name} ${item.franchise}`.toLowerCase()}
+          >
+            <div class="shop-set-body">
+              <div class="shop-set-media">
+                <img
+                  src={item.image}
+                  alt={item.imageAlt}
+                  width={item.imageWidth}
+                  height={item.imageHeight}
+                  loading="lazy"
+                />
+              </div>
+              <div class="shop-set-info">
+                <div class="shop-set-head">
+                  <h2 class="shop-set-title">{item.name}</h2>
+                  <span class="shop-set-game">{SHOP_TYPES[item.type] ?? 'Weiss Schwarz'}</span>
+                </div>
+                <p class="shop-set-franchise">{item.franchise}</p>
+                {item.tagline && <p class="shop-set-tagline">{item.tagline}</p>}
+                <p class="shop-set-blurb">{item.blurb}</p>
+                <div class="shop-chips">
+                  {releaseChips(item).map(r => (
+                    <span class={`shop-chip shop-chip-${r.status}`}>
+                      {`${r.region}: ${r.dateLabel ?? fmtDate(r.date)}`}
+                    </span>
+                  ))}
+                </div>
+                {item.specs?.length > 0 && (
+                  <ul class="shop-specs">
+                    {item.specs.map(spec => (
+                      <li>{spec}</li>
+                    ))}
+                  </ul>
+                )}
+                {item.cardPreviews?.length > 0 && (
+                  <div class="shop-set-cards" aria-label="Sample cards">
+                    {item.cardPreviews.map((src, i) => (
+                      <img src={src} alt={`${item.name} sample card ${i + 1}`} loading="lazy" />
+                    ))}
+                  </div>
+                )}
+                <div class="shop-set-reflinks">
+                  {cardDbIds.has(item.id) && (
+                    <a class="shop-set-official" href={`/weiss-schwarz/cards/${item.id}/`}>
+                      Card database
+                    </a>
+                  )}
+                  {item.wikiGame && (
+                    <a class="shop-set-official" href={`/guides/${item.wikiGame}/`}>
+                      Wiki guide
+                    </a>
+                  )}
+                </div>
+                <div class="shop-links">
+                  {item.links.map(link => (
+                    <a
+                      class="shop-btn shop-btn-primary"
+                      href={shopLink(link)}
+                      target="_blank"
+                      rel="noopener noreferrer nofollow sponsored"
+                    >
+                      <span class="shop-btn-store">{link.asin ? 'View on Amazon' : link.store}</span>
+                      {link.note && <span class="shop-btn-note">{link.note}</span>}
+                    </a>
+                  ))}
+                  {item.officialUrl && (
+                    <a
+                      class="shop-btn"
+                      href={item.officialUrl}
+                      target="_blank"
+                      rel="noopener noreferrer nofollow"
+                    >
+                      <span class="shop-btn-store">Official product page</span>
+                      <span class="shop-btn-note">Card list and rarities on en.ws-tcg.com</span>
+                    </a>
+                  )}
+                </div>
+              </div>
             </div>
-            <div class="shop-set-info">
-              <div class="shop-set-head">
-                <h2 class="shop-set-title">{set.name}</h2>
-                <span class="shop-set-game">{set.game}</span>
-              </div>
-              <p class="shop-set-tagline">{set.tagline}</p>
-              <p class="shop-set-blurb">{set.blurb}</p>
-              <div class="shop-chips">
-                {set.releases.map(r => (
-                  <span class={`shop-chip shop-chip-${r.status}`}>{`${r.region}: ${fmtDate(r.date)}${r.status === 'preorder' ? ', preorder open' : ''}`}</span>
-                ))}
-              </div>
-              <ul class="shop-specs">
-                {set.specs.map(spec => (
-                  <li>{spec}</li>
-                ))}
-              </ul>
-              <div class="shop-links">
-                {set.links.map(link => (
-                  <a
-                    class="shop-btn"
-                    href={shopLink(link)}
-                    target="_blank"
-                    rel="noopener noreferrer nofollow sponsored"
-                  >
-                    <span class="shop-btn-store">{link.store}</span>
-                    <span class="shop-btn-note">{link.note}</span>
-                  </a>
-                ))}
-              </div>
-            </div>
-          </div>
-        </section>
-      ))
-    }
+          </section>
+        ))
+      }
+    </div>
+
+    <p class="shop-no-results" id="shop-no-results" hidden>No sets match those filters.</p>
 
     <p class="shop-fineprint">As an Amazon Associate, GachaWiki earns from qualifying purchases.</p>
   </div>
 </AboutLayout>
+
+<script>
+  // Client-side filtering for the shop list (site convention: everything is
+  // server-rendered, visibility toggles via data attributes, no pagination).
+  const search = document.getElementById('shop-search') as HTMLInputElement;
+  const franchise = document.getElementById('shop-franchise') as HTMLSelectElement;
+  const type = document.getElementById('shop-type') as HTMLSelectElement;
+  const clear = document.getElementById('shop-clear') as HTMLButtonElement;
+  const count = document.getElementById('shop-count');
+  const noResults = document.getElementById('shop-no-results');
+  const items = Array.from(document.querySelectorAll<HTMLElement>('#shop-list .shop-set'));
+
+  function apply(): void {
+    const q = search.value.trim().toLowerCase();
+    const f = franchise.value;
+    const t = type.value;
+    let visible = 0;
+    for (const el of items) {
+      const show =
+        (!q || el.dataset.search?.includes(q)) &&
+        (!f || el.dataset.franchise === f) &&
+        (!t || el.dataset.type === t);
+      el.style.display = show ? '' : 'none';
+      if (show) visible++;
+    }
+    if (count) count.textContent = `${visible} of ${items.length} sets`;
+    if (noResults) noResults.hidden = visible > 0;
+  }
+
+  [search, franchise, type].forEach((el) => el.addEventListener('input', apply));
+  clear.addEventListener('click', () => {
+    search.value = '';
+    franchise.value = '';
+    type.value = '';
+    apply();
+  });
+  apply();
+</script>
+
