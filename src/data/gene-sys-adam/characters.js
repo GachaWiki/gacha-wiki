@@ -5211,10 +5211,10 @@ export const gsaCharacters = [
       "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/battleelement_1.webp"
     },
     "job": {
-      "id": 2,
-      "name": "Striker",
-      "color": "#EA3333",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/fighters_1.webp"
+      "id": 1,
+      "name": "Guardian",
+      "color": "#957C7A",
+      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/guard_1.webp"
     },
     "attackType": {
       "id": 1,
@@ -5314,7 +5314,7 @@ export const gsaCharacters = [
         "cost": null,
         "statuses": [],
         "awakened": {
-          "desc": "Grant all party members Energy Damage Taken Decreased 10%.",
+          "desc": "Grant all party members Energy Damage Taken Decreased 10%.\nIn PVP mode, grant self Healing Received Up 13%.",
           "detail": null
         }
       },
@@ -6504,14 +6504,14 @@ export const gsaCharacters = [
       {"tier": 10, "hp": 58226, "atk": 5988}
     ],
     "growth": {"rate": 2, "hp": [45.75, 91.51, 228.78, 366.04, 503.31, 640.58], "atk": [3.3, 6.6, 16.5, 26.4, 36.3, 46.2]},
-    "affection": [{"label": "ATK", "value": 50}, {"label": "ATK", "value": 50}, {"label": "ATK", "value": 50}, {"label": "ATK", "value": 50}, {"label": "ATK", "value": 50}, {"label": "ATK", "value": 50}, {"label": "ATK", "value": 50}, {"label": "ATK", "value": 50}, {"label": "ATK", "value": 50}, {"label": "ATK", "value": 50}],
+    "affection": [{"label": "ATK", "value": 50}, {"label": "ATK", "value": 50}, {"label": "ATK", "value": 50}, {"label": "ATK", "value": 50}, {"label": "ATK", "value": 50}, {"label": "ATK", "value": 50}, {"label": "ATK", "value": 100}, {"label": "ATK", "value": 100}, {"label": "ATK", "value": 100}, {"label": "ATK", "value": 200}],
     "gear": [{"slot": "Gloves", "name": "Verdant Rain Bracelet EX", "stats": [{"label": "ATK", "base": 118, "pct": false}, {"label": "Wind ATK", "base": 1000, "pct": true}, {"label": "Energy Boost", "base": 62, "pct": false}, {"label": "ATK Speed", "base": 163, "pct": false}]}, {"slot": "Weapon", "name": "Resonant Wind Flute EX", "stats": [{"label": "ATK", "base": 118, "pct": false}, {"label": "Wind ATK", "base": 1000, "pct": true}, {"label": "Crit", "base": 97, "pct": false}, {"label": "Crit DMG", "base": 217, "pct": false}]}, {"slot": "Shoes", "name": "Breezy Heels EX", "stats": [{"label": "ATK", "base": 118, "pct": false}, {"label": "Wind ATK", "base": 1000, "pct": true}, {"label": "ATK Speed", "base": 182, "pct": false}, {"label": "Evasion", "base": 58, "pct": false}]}, {"slot": "Accessory", "name": "Jade Dew Hairpin", "stats": [{"label": "ATK", "base": 77, "pct": false}]}],
     "model": "cr067",
     "slug": "qing-yin",
     "name": "Qing Yin",
     "nameZh": "清音",
     "title": "Siren of a Fallen City",
-    "epithet": "",
+    "epithet": "Gentle Thunder, Lingering Soul",
     "sex": "Female",
     "inGacha": true,
     "icon": null,
@@ -6694,7 +6694,7 @@ export const gsaCharacters = [
     "name": "Leng Zhen",
     "nameZh": "冷鴆",
     "title": "Soulless Executioner",
-    "epithet": "",
+    "epithet": "Chilled Needles, Flowing Essence",
     "sex": "Female",
     "inGacha": true,
     "icon": null,
@@ -6782,13 +6782,13 @@ export const gsaCharacters = [
         "type": "Passive",
         "mainStat": null,
         "gcd": null,
-        "desc": "On hit, Medium chance to grant self Water ATK Up 7% (6s).",
+        "desc": "This effect can only trigger once every 6 seconds.",
         "detail": "Having been reduced to a vessel with no sense of self, she is completely cut off from the interference of emotions like fear and hesitation.",
         "cooldown": null,
         "cost": null,
         "statuses": [],
         "awakened": {
-          "desc": "On hit, Medium chance to grant self Water ATK Up 8.5% (6s).",
+          "desc": "This effect can only trigger once every 6 seconds.\nGrant all party members Water ATK Up 8.5%.",
           "detail": null
         }
       },
@@ -6805,11 +6805,7 @@ export const gsaCharacters = [
         "detail": "A body whose sense of pain is devoured by venom can push itself to the limit, utterly ignoring the price of torn muscles.",
         "cooldown": null,
         "cost": null,
-        "statuses": [],
-        "awakened": {
-          "desc": "Grant all party members Skill Damage Up 12.5%.",
-          "detail": null
-        }
+        "statuses": []
       },
       {
         "id": "150006841",
@@ -6881,7 +6877,7 @@ export const gsaCharacters = [
     "name": "Elena",
     "nameZh": "伊蓮娜",
     "title": "Rebellious Red Thorn",
-    "epithet": "",
+    "epithet": "Alluring Beauty, Rose Onslaught",
     "sex": "Female",
     "inGacha": true,
     "icon": null,
@@ -6912,7 +6908,7 @@ export const gsaCharacters = [
         "type": "Instant",
         "mainStat": "ATK",
         "gcd": "10s",
-        "desc": "Deal 100% Physical DMG to a target.",
+        "desc": "Deal two hits of 100% Physical DMG to a target.",
         "detail": null,
         "cooldown": null,
         "cost": null,
@@ -6927,16 +6923,15 @@ export const gsaCharacters = [
         "type": "Instant",
         "mainStat": "ATK",
         "gcd": null,
-        "desc": "Deal 100% Energy DMG to up to 3 targets within the forward area.\nOn final hit, if the target has the Burn status, trigger an Detonate M Pursuit.",
+        "desc": "Deal five hits of 100% Energy DMG to up to 3 targets within the forward area.\nOn hit, inflict Burn M (0s).",
         "detail": null,
         "cooldown": "10s",
         "cost": 1,
         "statuses": [
-          "Detonate",
-          "Healing Down"
+          "Burn"
         ],
         "awakened": {
-          "desc": "Deal 170% Energy DMG to up to 3 targets within the forward area.\nOn final hit, if the target has the Burn status, trigger an Detonate M Pursuit.",
+          "desc": "Deal five hits of 170% Energy DMG to up to 3 targets within the forward area.\nOn hit, inflict Burn M (0s).",
           "detail": null
         }
       },
@@ -6954,9 +6949,9 @@ export const gsaCharacters = [
         "cooldown": "6s",
         "cost": null,
         "statuses": [
-          "Block Penetration Up",
+          "Crit Evasion Up",
           "Skill Damage Up",
-          "EN Gain Up"
+          "ATK SPD Up"
         ],
         "awakened": {
           "desc": "Grant self Block Penetration Up 24% (12s).\nGrant self Skill Damage Up 18% (12s).\nGrant self EN Gain Up 60% (12s).",
@@ -6970,15 +6965,15 @@ export const gsaCharacters = [
         "unlockStar": 4,
         "icon": null,
         "type": "Passive",
-        "mainStat": "ATK",
+        "mainStat": null,
         "gcd": null,
-        "desc": "When a Detonate Pursuit succeeds, grant self Fire ATK Up 6% (12s).\nWhen a Detonate Pursuit succeeds, grant self Crit Chance Up 9% (12s).",
+        "desc": "On hit, if the target is Burning, grant self Fire ATK Up 6% (12s).",
         "detail": "With her mother backing her up, no matter what Elena does, she knows she'll be forgiven~",
         "cooldown": null,
         "cost": null,
         "statuses": [],
         "awakened": {
-          "desc": "When a Detonate Pursuit succeeds, grant self Fire ATK Up 7% (12s).\nWhen a Detonate Pursuit succeeds, grant self Crit Chance Up 10% (12s).\nGrant all party members Crit DMG Up 12%.",
+          "desc": "On hit, if the target is Burning, grant self Fire ATK Up 7% (12s).\nGrant all party members Crit DMG Up 12%.",
           "detail": null
         }
       },
@@ -6992,7 +6987,7 @@ export const gsaCharacters = [
         "mainStat": null,
         "gcd": null,
         "desc": "Grant self Energy DMG Up 10%.",
-        "detail": "Every gunshot is a beat for the party! In combat, Elena follows the rhythm of her attacks, gradually entering a frenzied state that greatly boosts her Fire Type damage and critical chance.",
+        "detail": null,
         "cooldown": null,
         "cost": null,
         "statuses": [],
@@ -7010,7 +7005,7 @@ export const gsaCharacters = [
         "type": "Instant",
         "mainStat": "ATK",
         "gcd": null,
-        "desc": "Enter the Awakening state, granting self Energy DMG Up 10% (24s).\nDeal 250% Energy DMG to all targets.\nOn final hit, inflict Fire Res Down 10% (12s) on the target.\nOn final hit, inflict Healing Crit Bonus Down 18% (12s) on the target.",
+        "desc": "Enter the Awakening state, granting self Energy DMG Up 10% (24s).\nDeal eighteen hits of 250% Energy DMG to all targets.\nOn hit, inflict Burn L (12s).\nOn final hit, inflict Healing Crit Bonus Down 18% (12s) on the target.",
         "detail": null,
         "cooldown": "24s",
         "cost": 3,
@@ -7064,14 +7059,14 @@ export const gsaCharacters = [
       {"tier": 10, "hp": 97044, "atk": 5445}
     ],
     "growth": {"rate": 1.5, "hp": [76.26, 152.52, 381.3, 610.08, 838.86, 1067.64], "atk": [3, 6, 15, 24, 33, 42]},
-    "affection": [{"label": "ATK", "value": 50}, {"label": "ATK", "value": 50}, {"label": "ATK", "value": 50}, {"label": "ATK", "value": 50}, {"label": "ATK", "value": 50}, {"label": "ATK", "value": 50}, {"label": "ATK", "value": 50}, {"label": "ATK", "value": 50}, {"label": "ATK", "value": 50}, {"label": "ATK", "value": 50}],
+    "affection": [{"label": "ATK", "value": 50}, {"label": "ATK", "value": 50}, {"label": "ATK", "value": 50}, {"label": "ATK", "value": 50}, {"label": "ATK", "value": 50}, {"label": "ATK", "value": 50}, {"label": "ATK", "value": 100}, {"label": "ATK", "value": 100}, {"label": "ATK", "value": 100}, {"label": "ATK", "value": 200}],
     "gear": [{"slot": "Gloves", "name": "Neutral Nail Polish EX", "stats": [{"label": "ATK", "base": 100, "pct": false}, {"label": "Earth ATK", "base": 1200, "pct": true}, {"label": "ACC", "base": 42, "pct": false}, {"label": "Judgment Hit Rate", "base": 1500, "pct": true}]}, {"slot": "Weapon", "name": "Bloodbound Oath EX", "stats": [{"label": "ATK", "base": 100, "pct": false}, {"label": "Earth ATK", "base": 1200, "pct": true}, {"label": "Crit", "base": 50, "pct": false}, {"label": "Block PEN", "base": 50, "pct": false}]}, {"slot": "Shoes", "name": "Designer Custom Heels EX", "stats": [{"label": "ATK", "base": 100, "pct": false}, {"label": "Earth ATK", "base": 1200, "pct": true}, {"label": "ATK Speed", "base": 50, "pct": false}, {"label": "Crit Evasion", "base": 50, "pct": false}]}, {"slot": "Accessory", "name": "Black Hair Dye", "stats": [{"label": "ATK", "base": 77, "pct": false}]}],
     "model": "cr071",
     "slug": "victoria",
     "name": "Victoria",
     "nameZh": "維多莉亞",
     "title": "Machiavellian Witch",
-    "epithet": "",
+    "epithet": "Nightmare Mirage, Stonebound Seal",
     "sex": "Female",
     "inGacha": true,
     "icon": null,
@@ -7102,7 +7097,7 @@ export const gsaCharacters = [
         "type": "Instant",
         "mainStat": "ATK",
         "gcd": "10s",
-        "desc": "Deal 83% Physical DMG to a target.",
+        "desc": "Deal two hits of 83% Physical DMG to a target.",
         "detail": null,
         "cooldown": null,
         "cost": null,
@@ -7197,7 +7192,7 @@ export const gsaCharacters = [
         "type": "Instant",
         "mainStat": "ATK",
         "gcd": null,
-        "desc": "Enter the Awakening state, granting self EN Gain Up 45% (24s).\nDeal 53% Energy DMG to up to 3 targets within the forward area.\nOn final hit, inflict Crit Evasion Down 15% (12s) on the target.",
+        "desc": "Enter the Awakening state, granting self EN Gain Up 45% (24s).\nDeal eight hits of 53% Energy DMG to up to 3 targets within the forward area.\nOn final hit, inflict Crit Evasion Down 15% (12s) on the target.",
         "detail": null,
         "cooldown": "24s",
         "cost": 3,
@@ -7258,7 +7253,7 @@ export const gsaCharacters = [
     "name": "Connie",
     "nameZh": "昆妮",
     "title": "Flawless Goddess",
-    "epithet": "",
+    "epithet": "Splendid Execution, Feverish Applause",
     "sex": "Female",
     "inGacha": true,
     "icon": null,
@@ -7705,7 +7700,7 @@ export const gsaCharacters = [
         "gcd": null,
         "desc": "Restore 180% HP to lowest HP percentage party members.",
         "detail": null,
-        "cooldown": "5s",
+        "cooldown": "6s",
         "cost": null,
         "statuses": [
           "Heal"
@@ -7724,15 +7719,13 @@ export const gsaCharacters = [
         "type": "Passive",
         "mainStat": null,
         "gcd": null,
-        "desc": "Upon a successful Shatter Pursuit, restore 65% HP to lowest HP percentage party members.",
+        "desc": "On a critical hit, apply a 65% Shield (4s) to lowest HP percentage party members.\nThis effect can only trigger once every 6 seconds.",
         "detail": "She can never bring herself to turn off the light once she starts reading her favorite romance novels before bed. She always says, \"Just one more page, then I'll go to sleep,\" only to end up reading another half the book.",
         "cooldown": null,
         "cost": null,
-        "statuses": [
-          "Heal"
-        ],
+        "statuses": [],
         "awakened": {
-          "desc": "Upon a successful Shatter Pursuit, restore 65% HP to lowest HP percentage party members.\nGrant all party members Crit DMG Up 15%.",
+          "desc": "On a critical hit, apply a 65% Shield (4s) to lowest HP percentage party members.\nThis effect can only trigger once every 6 seconds.\nGrant all party members Water Res Up 5%.",
           "detail": null
         }
       },
@@ -7751,7 +7744,7 @@ export const gsaCharacters = [
         "cost": null,
         "statuses": [],
         "awakened": {
-          "desc": "Grant all party members Earth ATK Up 9.5%.\nIn PVP mode, grant self EN Gain Up 28%.",
+          "desc": "Grant all party members Earth ATK Up 9.5%.\nIn PVP mode, grant self Water Res Up 7%.",
           "detail": null
         }
       },
@@ -7764,7 +7757,7 @@ export const gsaCharacters = [
         "type": "Instant",
         "mainStat": "ATK",
         "gcd": null,
-        "desc": "Enter the Awakening state, granting self ACC Up 10% (24s).\nDeal five hits of 143% Physical Spread DMG to all targets.\nOn hit, deal an additional 20% Physical DMG to the target.\nOn final hit, Low chance to inflict Petrify S (2s).\nOn final hit, inflict ATK SPD Down 15% (12s) on the target.",
+        "desc": "Enter the Awakening state, granting self ACC Up 10% (24s).\nDeal five hits of 143% Physical Spread DMG to all targets.\nOn hit, deal an additional 20% Physical DMG to the target.\nOn final hit, Low chance to inflict Petrify S (3s).\nOn final hit, inflict ATK SPD Down 15% (12s) on the target.",
         "detail": null,
         "cooldown": "24s",
         "cost": 3,

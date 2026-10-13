@@ -1,49 +1,65 @@
 // Gene-Sys: Adam banner history, built from the decrypted DrawMachineData /
 // DrawMachineGroupData / DrawMachineRoleBannerData / InGameBannerData /
-// ActivityMissionTimeData tables (Patch pull 2026-10-02, D:/GeneSysAdam),
-// cross-checked against the official site notices and the X account
-// (@GeneSysAdamEN). Banner schedules run server-side: entries carry the data
-// wave they appeared in, not exact hours. Banner art (Draw_Bg_*) is the game's
-// own drawcard bundle art on R2; banners whose art has not shipped to the
-// client render the featured strip instead.
+// ActivityMissionTimeData tables (Patch pull 2026-10-13, D:/GeneSysAdam),
+// cross-checked against the official site notices and the X accounts
+// (@GeneSysAdamEN / @GeneSysAdamJP). Banner schedules run server-side:
+// entries carry the data wave they appeared in, not exact hours. Banner art
+// (Draw_Bg_*) is the game's own drawcard bundle art on R2; banners whose art
+// has not shipped to the client (or is R18, like the Black Gold Hunter panel)
+// use the official event art instead.
 import { gsaCharacters } from './characters.js';
 
 const bySlug = Object.fromEntries(gsaCharacters.map(c => [c.slug, c]));
 
 const R2 = 'https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam';
 
-export const GSA_BANNERS_UPDATED = 'October 2, 2026';
+export const GSA_BANNERS_UPDATED = 'October 13, 2026';
 
-// status: live (running now) | beta (ran in the Sep 17 beta window) | scheduled
-// (machines configured in the client tables but not observed running yet)
+// status: live (running now) | ended (observed running, since superseded) |
+// beta (ran in the Sep 17 beta window) | scheduled (machines configured in
+// the client tables but not observed running yet)
 export const GSA_BANNERS = [
+  {
+    slug: 'black-gold-hunter',
+    name: 'Black Gold Hunter: Cowgirl Belle',
+    nameZh: '黑金獵人 - 乳牛貝兒',
+    kind: 'Event Ticket Recruit',
+    status: 'live',
+    since: 'Live again since October 13, 2026, running to November 3, 06:59 (UTC+8)',
+    featured: ['belle-clumsy-cowgirl'],
+    pity: 120,
+    eventToken: 'Warrant Gems and Gold Bars',
+    training: ['Belle'],
+    image: `${R2}/X_BGH_Event.webp`,
+    note: 'The Black Gold Hunter event returned on October 13 (official period on the @GeneSysAdamJP account): event stages drop Warrant Gems that open the eight black-market vaults, each vault paying from a uniform-probability reward table, while paid and free Gold Bars feed the event training bonus. Ticket lanes cover Cowgirl Belle and Rookie Maid Sugimoto Arina, and the gem machine carries a 120-pull guarantee. The client pulled its banner art panel (Draw_Bg_23) on October 13; the panel itself is R18 and stays off the wiki, so the card uses the official event art. Login gifts run alongside.',
+  },
   {
     slug: 'ogino-rui-rate-up',
     name: 'Ogino Rui Rate-Up',
     nameZh: '指定召募 - 荻野瑠衣',
     kind: 'Solo Rate-Up',
-    status: 'live',
-    since: 'Since the September 29 maintenance',
+    status: 'ended',
+    since: 'September 29 to October 13, 2026',
     featured: ['ogino-rui'],
     pity: 100,
     eventToken: null,
     training: [],
     image: null,
-    note: 'Live solo banner, confirmed by the client pulling its art panels on October 2 (the panels are plain backdrop art, so the card shows the featured strip instead). SSR rate x2, a Designated Seal per pull and a 100-pull featured guarantee.',
+    note: 'Solo banner from the September 29 maintenance until the October 13 wave took the summon screen for the Black Gold Hunter re-run (the panels are plain backdrop art, so the card shows the featured strip instead). SSR rate x2, a Designated Seal per pull and a 100-pull featured guarantee.',
   },
   {
     slug: 'sugimoto-arina-rate-up',
     name: 'Sugimoto Arina Rate-Up',
     nameZh: '指定召募 - 杉本有菜',
     kind: 'Solo Rate-Up',
-    status: 'live',
-    since: 'Since the September 29 maintenance',
+    status: 'ended',
+    since: 'September 29 to October 13, 2026',
     featured: ['sugimoto-arina'],
     pity: 100,
     eventToken: null,
     training: [],
     image: null,
-    note: 'Live solo banner alongside the Rui rate-up. Same deal as every solo: SSR rate x2, Designated Seal per pull, 100-pull featured guarantee.',
+    note: 'Ran alongside the Rui rate-up for the same two weeks. Same deal as every solo: SSR rate x2, Designated Seal per pull, 100-pull featured guarantee.',
   },
   {
     slug: 'lunar-splendor',
@@ -58,20 +74,6 @@ export const GSA_BANNERS = [
     training: ['Komachi Sayaka', 'Hijikata Chizuru'],
     image: `${R2}/News_3520.webp`,
     note: 'The official-launch limited banner: a 120-pull featured guarantee, an ECoin ticket lane, and an exchange shop stocking Moonflower Naginata and Footwear components for Hijikata Chizuru. Card art is the official event notice from genesys-adam.com; the in-game art panels are R18 and stay off the wiki. Dates from the same official notice.',
-  },
-  {
-    slug: 'black-gold-hunter',
-    name: 'Black Gold Hunter: Cowgirl Belle',
-    nameZh: '黑金獵人 - 乳牛貝兒',
-    kind: 'Event Ticket Recruit',
-    status: 'beta',
-    since: 'Non-wipe beta window, from September 17, 2026',
-    featured: ['belle-clumsy-cowgirl'],
-    pity: null,
-    eventToken: 'Onyx (event vault currency)',
-    training: ['Belle'],
-    image: null,
-    note: 'Ran during the beta window per the official September 17 notice: play the Black Gold Hunter event, collect Onyx to open the event vault for summon cards, and spend them on the Cowgirl Belle ticket recruit (its machines, art Draw_Bg_23 included, are configured again in the current client tables for a re-run).',
   },
   {
     slug: 'heavens-door-jessica',
@@ -141,7 +143,7 @@ export const GSA_BANNERS = [
     eventToken: null,
     training: [],
     image: null,
-    note: 'Three more solo machines (Milena, Lin Lin, Annabelle) are configured in the current tables behind the live Rui and Arina pair, on the same 100-pull featured guarantee. A 1,000,000 Downloads celebration summon is also preloaded.',
+    note: 'Three more solo machines (Milena, Lin Lin, Annabelle) are configured in the current tables behind the event rotation, on the same 100-pull featured guarantee. A 1,000,000 Downloads celebration summon is also preloaded.',
   },
 ];
 

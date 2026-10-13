@@ -114,7 +114,8 @@
 }
 
 .gsa-bn-status-beta,
-.gsa-bn-status-scheduled {
+.gsa-bn-status-scheduled,
+.gsa-bn-status-ended {
   background: #3a2a2c;
   color: var(--gsa-text-dim);
 }

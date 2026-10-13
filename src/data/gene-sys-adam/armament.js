@@ -3419,6 +3419,144 @@ export const gsaSignatureGear = [
     ]
   },
   {
+    "slug": "fujiwara-arisa",
+    "char": "Fujiwara Arisa",
+    "cr": 66,
+    "element": "Fire",
+    "weaponClass": "Physical",
+    "slot": "Gloves",
+    "name": "Sword Maiden's Finger",
+    "nameEx": "Sword Maiden's Finger EX",
+    "flavor": "Exquisite nail art that doesn’t interfere with sword dancing. Each line is carefully crafted, creating an elegance that doesn't sacrifice its deadly aura.",
+    "icon": null,
+    "quality": "Blue",
+    "stats": [
+      {
+        "label": "ATK",
+        "pct": false,
+        "base": 100,
+        "max": 136
+      },
+      {
+        "label": "Fire ATK",
+        "pct": true,
+        "base": 1000,
+        "max": 1000
+      },
+      {
+        "label": "ACC",
+        "pct": false,
+        "base": 58,
+        "max": 70
+      },
+      {
+        "label": "Physical Boost",
+        "pct": false,
+        "base": 62,
+        "max": 74
+      }
+    ]
+  },
+  {
+    "slug": "fujiwara-arisa",
+    "char": "Fujiwara Arisa",
+    "cr": 66,
+    "element": "Fire",
+    "weaponClass": "Physical",
+    "slot": "Weapon",
+    "name": "Evermoon Blade",
+    "nameEx": "Evermoon Blade EX",
+    "flavor": "A katana that has accompanied Fujiwara throughout her growth. It has been meticulously maintained every day and is only ever drawn in the name of her sense of justice.",
+    "icon": null,
+    "quality": "Blue",
+    "stats": [
+      {
+        "label": "ATK",
+        "pct": false,
+        "base": 100,
+        "max": 136
+      },
+      {
+        "label": "Fire ATK",
+        "pct": true,
+        "base": 1000,
+        "max": 1000
+      },
+      {
+        "label": "Block PEN",
+        "pct": false,
+        "base": 80,
+        "max": 95
+      },
+      {
+        "label": "Skill Boost",
+        "pct": true,
+        "base": 500,
+        "max": 500
+      }
+    ]
+  },
+  {
+    "slug": "fujiwara-arisa",
+    "char": "Fujiwara Arisa",
+    "cr": 66,
+    "element": "Fire",
+    "weaponClass": "Physical",
+    "slot": "Shoes",
+    "name": "Elegant Travel Shoes",
+    "nameEx": "Elegant Travel Shoes EX",
+    "flavor": "Lightweight with a strong grip. It prioritize functionality while remaining extremely beautiful, perfect for an elegant swordswoman.",
+    "icon": null,
+    "quality": "Blue",
+    "stats": [
+      {
+        "label": "ATK",
+        "pct": false,
+        "base": 100,
+        "max": 136
+      },
+      {
+        "label": "Fire ATK",
+        "pct": true,
+        "base": 1000,
+        "max": 1000
+      },
+      {
+        "label": "ATK Speed",
+        "pct": false,
+        "base": 182,
+        "max": 210
+      },
+      {
+        "label": "Crit Evasion",
+        "pct": false,
+        "base": 80,
+        "max": 95
+      }
+    ]
+  },
+  {
+    "slug": "fujiwara-arisa",
+    "char": "Fujiwara Arisa",
+    "cr": 66,
+    "element": null,
+    "weaponClass": "Physical",
+    "slot": "Accessory",
+    "name": "Floral Kanzashi",
+    "nameEx": "Floral Kanzashi EX",
+    "flavor": "A hairpin adorned with traditional fabric flowers, used to neatly and smoothly tie back her jet-black hair. A tidy appearance is also a form of etiquette.",
+    "icon": null,
+    "quality": "Gold",
+    "stats": [
+      {
+        "label": "ATK",
+        "pct": false,
+        "base": 77,
+        "max": 86
+      }
+    ]
+  },
+  {
     "slug": "qing-yin",
     "char": "Qing Yin",
     "cr": 67,

@@ -6,6 +6,27 @@
 // approximate; content lists are exact.
 export const GSA_UPDATES = [
   {
+    slug: '2026-10-13-black-gold-hunter-rerun',
+    date: 'October 13, 2026',
+    title: 'Black Gold Hunter returns with Cowgirl Belle',
+    tag: 'Update',
+    image: 'https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/X_BGH_Event.webp',
+    imageW: 1080,
+    imageH: 1080,
+    imageCaption: 'Official event art for the Black Gold Hunter re-run, posted on X (@GeneSysAdamJP, October 13, 2026).',
+    summary: 'The Black Gold Hunter event re-ran on October 13 with the Cowgirl Belle ticket recruits, a 120-pity gem lane, the eight-vault Warrant Gem economy and Gold Bar training, while kit reworks landed on Belle, Elena, Victoria, Alyna and Leng Zhen.',
+    points: [
+      'Black Gold Hunter event re-run live October 13, 07:00 to November 3, 06:59 (UTC+8), per the official @GeneSysAdamJP announcement. Event stages drop Warrant Gems that open the eight black-market vaults (uniform-probability rewards per vault), paid and free Gold Bars feed the event training bonus, and login gifts run alongside. The client pulled the banner art panel (Draw_Bg_23) on October 13; the panel is R18 and stays off the wiki.',
+      'Ticket recruit lanes for Cowgirl Belle and Rookie Maid Sugimoto Arina, plus a gem machine with a 120-pull guarantee. The Ogino Rui and Sugimoto Arina solo rate-ups that had run since September 29 were superseded by this wave.',
+      'Kit reworks: Belle Clumsy Cowgirl gained a critical-hit ally shield passive (65% Shield, 4 seconds, 6-second internal cooldown) and her Chilled Milky Delivery cooldown went from 5 to 6 seconds; Elena\'s basic attack now hits twice, her talent fires five hits applying Burn M, and her reworked passive grants self Fire ATK Up 6% (12s) on hit against Burning targets; Victoria\'s basic attack hits twice and her awakened ultimate lands eight hits.',
+      'Affection tracks buffed: Qing Yin and Victoria had four affection reward steps raised (+50 to +100 on three steps, +100 to +200 on the last), lifting each track from +500 to +800 flat ATK in total.',
+      'Fujiwara Arisa\'s signature gear set (Sword Maiden\'s Finger, Evermoon Blade, Elegant Travel Shoes, Floral Kanzashi) entered the equipment tables; her Armament page section is live. Bond names for 60+ characters were filled in, and the cr067 to cr073 wave gained official epithet taglines (Connie\'s ships Traditional Chinese only; translated on the wiki).',
+      'Preload for later waves: four previously nameless roles received names (Yoru, DJ JOY, Emeline, and the hacker girl), HL-branded tactical gear appeared for a future character, a new story event was staged for cr082 with Florette SNS chats, and Leng Zhen\'s tables point at effect rows that have not shipped yet (her passive descriptions will complete when her wave goes live).',
+      'Client hot-update modules landed across October 5 to 8 (139 to 142 KB each); 17 game tables changed in total, with no new characters or draw machines.',
+    ],
+    source: 'Official X announcement (@GeneSysAdamJP, October 13, 2026) and decrypted client tables, Patch pull of October 13, 2026.',
+  },
+  {
     slug: '2026-10-02-skill-reworks-and-rui-arina-rotation',
     date: 'October 2, 2026',
     title: 'Skill reworks and the Ogino Rui / Sugimoto Arina rotation',
@@ -115,7 +136,7 @@ export const GSA_UPDATES = [
     tag: 'Datamine',
     summary: 'The next new-character wave, fully preloaded in the client: the Lingering Echoes dual banner for Qing Yin and Leng Zhen with the Gagaku Emblem event.',
     points: [
-      'Two SSR characters with complete kits already in the tables: Qing Yin, a Wind Breaker whose whole kit prioritizes Electrocuted targets and triggers Overload pursuits, and Leng Zhen, a Water Breaker who charges the team 2 EN per hit and lands Freeze M rolls on every loop.',
+      'Two SSR characters with kits in the tables: Qing Yin, a Wind Breaker whose whole kit prioritizes Electrocuted targets and triggers Overload pursuits, and Leng Zhen, a Water Breaker who charges the team 2 EN per hit and lands Freeze M rolls on every loop. Leng Zhen\'s passives were reworked again on October 13 and now reference effect rows that have not shipped in the static tables yet; those lines complete when her wave goes live.',
       'Lingering Echoes dual rate-up banner for both (art panels Draw_Bg_40_1 and _40_2) with a 120-pull featured guarantee, plus training missions for each.',
       'Collect Gagaku Emblems event: emblems drop from event stages and trade in the event exchange shop.',
       'Last in the current activity pipeline; their kits arrived in the September 22 tables alongside 90 preload items (1,001 to 1,078: the Source of Chaos event set, date and chat portraits, and new HCG scene unlocks) and the Assembly-CSharp 1.0.0 hot-update module.',

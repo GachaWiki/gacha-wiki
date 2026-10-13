@@ -5453,10 +5453,10 @@ export const gsaCharactersZh = [
       "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/battleelement_1.webp"
     },
     "job": {
-      "id": 2,
-      "name": "突擊",
-      "color": "#EA3333",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/fighters_1.webp"
+      "id": 1,
+      "name": "防護",
+      "color": "#957C7A",
+      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/guard_1.webp"
     },
     "attackType": {
       "id": 1,
@@ -5561,7 +5561,7 @@ export const gsaCharactersZh = [
         "cost": null,
         "statuses": [],
         "awakened": {
-          "desc": "對全體隊員賦予受到能量傷害降低10%。",
+          "desc": "對全體隊員賦予受到能量傷害降低10%。\nPVP系統中，對自身賦予受治療效果提升13%。",
           "detail": null
         }
       },
@@ -6810,14 +6810,14 @@ export const gsaCharactersZh = [
       {"tier": 10, "hp": 58226, "atk": 5988}
     ],
     "growth": {"rate": 2, "hp": [45.75, 91.51, 228.78, 366.04, 503.31, 640.58], "atk": [3.3, 6.6, 16.5, 26.4, 36.3, 46.2]},
-    "affection": [{"label": "攻擊力", "value": 50}, {"label": "攻擊力", "value": 50}, {"label": "攻擊力", "value": 50}, {"label": "攻擊力", "value": 50}, {"label": "攻擊力", "value": 50}, {"label": "攻擊力", "value": 50}, {"label": "攻擊力", "value": 50}, {"label": "攻擊力", "value": 50}, {"label": "攻擊力", "value": 50}, {"label": "攻擊力", "value": 50}],
+    "affection": [{"label": "攻擊力", "value": 50}, {"label": "攻擊力", "value": 50}, {"label": "攻擊力", "value": 50}, {"label": "攻擊力", "value": 50}, {"label": "攻擊力", "value": 50}, {"label": "攻擊力", "value": 50}, {"label": "攻擊力", "value": 100}, {"label": "攻擊力", "value": 100}, {"label": "攻擊力", "value": 100}, {"label": "攻擊力", "value": 200}],
     "gear": [{"slot": "手套", "name": "翠雨金鐲 EX", "stats": [{"label": "攻擊力", "base": 118, "pct": false}, {"label": "風屬性攻擊", "base": 1000, "pct": true}, {"label": "能量強化", "base": 62, "pct": false}, {"label": "攻擊速度", "base": 163, "pct": false}]}, {"slot": "武器", "name": "鳴風玉笛 EX", "stats": [{"label": "攻擊力", "base": 118, "pct": false}, {"label": "風屬性攻擊", "base": 1000, "pct": true}, {"label": "暴擊", "base": 97, "pct": false}, {"label": "暴擊傷害", "base": 217, "pct": false}]}, {"slot": "足部", "name": "清風高跟 EX", "stats": [{"label": "攻擊力", "base": 118, "pct": false}, {"label": "風屬性攻擊", "base": 1000, "pct": true}, {"label": "攻擊速度", "base": 182, "pct": false}, {"label": "閃避", "base": 58, "pct": false}]}, {"slot": "飾品", "name": "碧露花簪", "stats": [{"label": "攻擊力", "base": 77, "pct": false}]}],
     "model": "cr067",
     "slug": "qing-yin",
     "name": "清音",
     "nameEn": "Qing Yin",
     "title": "絕色傾城之樂姬",
-    "epithet": "",
+    "epithet": "柔音驚雷，曲終魂滯",
     "sex": "女性",
     "inGacha": true,
     "icon": null,
@@ -7009,7 +7009,7 @@ export const gsaCharactersZh = [
     "name": "冷鴆",
     "nameEn": "Leng Zhen",
     "title": "無魂的處刑者",
-    "epithet": "",
+    "epithet": "寒針封穴，運氣流轉",
     "sex": "女性",
     "inGacha": true,
     "icon": null,
@@ -7101,13 +7101,13 @@ export const gsaCharactersZh = [
         "type": "被動",
         "mainStat": null,
         "gcd": null,
-        "desc": "命中時，中機率對自身賦予水屬性攻擊提升7%(6秒)。",
+        "desc": "此效果每次觸發需間隔至少6秒。",
         "detail": "淪為無自我載體後，徹底斷絕了恐懼與猶豫等情緒干擾。",
         "cooldown": null,
         "cost": null,
         "statuses": [],
         "awakened": {
-          "desc": "命中時，中機率對自身賦予水屬性攻擊提升8.5%(6秒)。",
+          "desc": "此效果每次觸發需間隔至少6秒。\n對全體隊員賦予水屬性攻擊提升8.5%。",
           "detail": null
         }
       },
@@ -7125,11 +7125,7 @@ export const gsaCharactersZh = [
         "detail": "被蠱毒吞噬痛覺的肉體，能完全無視肌肉撕裂的代價進行極限發力。",
         "cooldown": null,
         "cost": null,
-        "statuses": [],
-        "awakened": {
-          "desc": "對全體隊員賦予技能傷害提升12.5%。",
-          "detail": null
-        }
+        "statuses": []
       },
       {
         "id": "150006841",
@@ -7206,7 +7202,7 @@ export const gsaCharactersZh = [
     "name": "伊蓮娜",
     "nameEn": "Elena",
     "title": "叛逆的紅棘",
-    "epithet": "",
+    "epithet": "嬌豔麗人，薔薇狂襲",
     "sex": "女性",
     "inGacha": true,
     "icon": null,
@@ -7238,7 +7234,7 @@ export const gsaCharactersZh = [
         "type": "瞬發型",
         "mainStat": "攻擊力",
         "gcd": "10s",
-        "desc": "對目標造成100%物理傷害。",
+        "desc": "對目標造成兩段100%物理傷害。",
         "detail": null,
         "cooldown": null,
         "cost": null,
@@ -7254,16 +7250,15 @@ export const gsaCharactersZh = [
         "type": "瞬發型",
         "mainStat": "攻擊力",
         "gcd": null,
-        "desc": "對前方範圍內至多三名目標造成100%能量傷害。\n最後一擊命中時，若目標處於燃燒狀態，則對其造成引爆M追擊。",
+        "desc": "對前方範圍內至多三名目標造成五段100%能量傷害。\n命中時，使其陷入燃燒M狀態(0秒)。",
         "detail": null,
         "cooldown": "10s",
         "cost": 1,
         "statuses": [
-          "引爆",
-          "治療效果降低"
+          "燃燒"
         ],
         "awakened": {
-          "desc": "對前方範圍內至多三名目標造成170%能量傷害。\n最後一擊命中時，若目標處於燃燒狀態，則對其造成引爆M追擊。",
+          "desc": "對前方範圍內至多三名目標造成五段170%能量傷害。\n命中時，使其陷入燃燒M狀態(0秒)。",
           "detail": null
         }
       },
@@ -7282,9 +7277,9 @@ export const gsaCharactersZh = [
         "cooldown": "6s",
         "cost": null,
         "statuses": [
-          "格擋無視提升",
+          "暴擊閃避提升",
           "技能傷害提升",
-          "EN值獲取提升"
+          "攻擊速度提升"
         ],
         "awakened": {
           "desc": "對自身賦予格擋無視提升24%(12秒)。\n對自身賦予技能傷害提升18%(12秒)。\n對自身賦予EN值獲取提升60%(12秒)。",
@@ -7299,15 +7294,15 @@ export const gsaCharactersZh = [
         "unlockStar": 4,
         "icon": null,
         "type": "被動",
-        "mainStat": "攻擊力",
+        "mainStat": null,
         "gcd": null,
-        "desc": "引爆追擊成功時，對自身賦予火屬性攻擊提升6%(12秒)。\n引爆追擊成功時，對自身賦予暴擊提升9%(12秒)。",
+        "desc": "命中時，若為燃燒狀態中目標，對自身賦予火屬性攻擊提升6%(12秒)。",
         "detail": "有了母親的撐腰，不論伊蓮娜做什麼都會被原諒的呦～",
         "cooldown": null,
         "cost": null,
         "statuses": [],
         "awakened": {
-          "desc": "引爆追擊成功時，對自身賦予火屬性攻擊提升7%(12秒)。\n引爆追擊成功時，對自身賦予暴擊提升10%(12秒)。\n對全體隊員賦予暴擊傷害提升12%。",
+          "desc": "命中時，若為燃燒狀態中目標，對自身賦予火屬性攻擊提升7%(12秒)。\n對全體隊員賦予暴擊傷害提升12%。",
           "detail": null
         }
       },
@@ -7322,7 +7317,7 @@ export const gsaCharactersZh = [
         "mainStat": null,
         "gcd": null,
         "desc": "對自身賦予能量傷害提升10%。",
-        "detail": "每一次的槍響都是派對的節拍！伊蓮娜在戰鬥中會隨著攻擊節奏逐漸進入狂熱狀態，大幅提升自身的火屬性傷害與爆擊機率。",
+        "detail": "每一次的槍響都是派對的節拍！伊蓮娜在戰鬥中會隨著攻擊節奏逐漸進入狂熱狀態。",
         "cooldown": null,
         "cost": null,
         "statuses": [],
@@ -7341,7 +7336,7 @@ export const gsaCharactersZh = [
         "type": "瞬發型",
         "mainStat": "攻擊力",
         "gcd": null,
-        "desc": "進入覺醒狀態，對自身賦予能量傷害提升10%(24秒)。\n對全體目標造成250%能量傷害。\n最後一擊命中時，對其施加火屬性抗性降低10%(12秒)。\n最後一擊命中時，對其施加治療暴擊加成降低18%(12秒)。",
+        "desc": "進入覺醒狀態，對自身賦予能量傷害提升10%(24秒)。\n對全體目標造成十八段250%能量傷害。\n命中時，使其陷入燃燒L狀態(12秒)。\n最後一擊命中時，對其施加治療暴擊加成降低18%(12秒)。",
         "detail": null,
         "cooldown": "24s",
         "cost": 3,
@@ -7398,14 +7393,14 @@ export const gsaCharactersZh = [
       {"tier": 10, "hp": 97044, "atk": 5445}
     ],
     "growth": {"rate": 1.5, "hp": [76.26, 152.52, 381.3, 610.08, 838.86, 1067.64], "atk": [3, 6, 15, 24, 33, 42]},
-    "affection": [{"label": "攻擊力", "value": 50}, {"label": "攻擊力", "value": 50}, {"label": "攻擊力", "value": 50}, {"label": "攻擊力", "value": 50}, {"label": "攻擊力", "value": 50}, {"label": "攻擊力", "value": 50}, {"label": "攻擊力", "value": 50}, {"label": "攻擊力", "value": 50}, {"label": "攻擊力", "value": 50}, {"label": "攻擊力", "value": 50}],
+    "affection": [{"label": "攻擊力", "value": 50}, {"label": "攻擊力", "value": 50}, {"label": "攻擊力", "value": 50}, {"label": "攻擊力", "value": 50}, {"label": "攻擊力", "value": 50}, {"label": "攻擊力", "value": 50}, {"label": "攻擊力", "value": 100}, {"label": "攻擊力", "value": 100}, {"label": "攻擊力", "value": 100}, {"label": "攻擊力", "value": 200}],
     "gear": [{"slot": "手套", "name": "裸色指甲油 EX", "stats": [{"label": "攻擊力", "base": 100, "pct": false}, {"label": "土屬性攻擊", "base": 1200, "pct": true}, {"label": "命中", "base": 42, "pct": false}, {"label": "審判命中", "base": 1500, "pct": true}]}, {"slot": "武器", "name": "祭血之誓 EX", "stats": [{"label": "攻擊力", "base": 100, "pct": false}, {"label": "土屬性攻擊", "base": 1200, "pct": true}, {"label": "暴擊", "base": 50, "pct": false}, {"label": "格擋無視", "base": 50, "pct": false}]}, {"slot": "足部", "name": "設計師訂製款高跟鞋 EX", "stats": [{"label": "攻擊力", "base": 100, "pct": false}, {"label": "土屬性攻擊", "base": 1200, "pct": true}, {"label": "攻擊速度", "base": 50, "pct": false}, {"label": "暴擊閃避", "base": 50, "pct": false}]}, {"slot": "飾品", "name": "黑色染髮劑", "stats": [{"label": "攻擊力", "base": 77, "pct": false}]}],
     "model": "cr071",
     "slug": "victoria",
     "name": "維多莉亞",
     "nameEn": "Victoria",
     "title": "權欲魔女",
-    "epithet": "",
+    "epithet": "厄夜幻影，封岩困縛",
     "sex": "女性",
     "inGacha": true,
     "icon": null,
@@ -7437,7 +7432,7 @@ export const gsaCharactersZh = [
         "type": "瞬發型",
         "mainStat": "攻擊力",
         "gcd": "10s",
-        "desc": "對目標造成83%物理傷害。",
+        "desc": "對目標造成兩段83%物理傷害。",
         "detail": null,
         "cooldown": null,
         "cost": null,
@@ -7537,7 +7532,7 @@ export const gsaCharactersZh = [
         "type": "瞬發型",
         "mainStat": "攻擊力",
         "gcd": null,
-        "desc": "進入覺醒狀態，對自身賦予EN值獲取提升45%(24秒)。\n對前方範圍內至多三名目標造成53%能量傷害。\n最後一擊命中時，對其施加暴擊閃避降低15%(12秒)。",
+        "desc": "進入覺醒狀態，對自身賦予EN值獲取提升45%(24秒)。\n對前方範圍內至多三名目標造成八段53%能量傷害。\n最後一擊命中時，對其施加暴擊閃避降低15%(12秒)。",
         "detail": null,
         "cooldown": "24s",
         "cost": 3,
@@ -7600,7 +7595,7 @@ export const gsaCharactersZh = [
     "name": "昆妮",
     "nameEn": "Connie",
     "title": "完美女神",
-    "epithet": "",
+    "epithet": "Splendid Execution, Feverish Applause",
     "sex": "女性",
     "inGacha": true,
     "icon": null,
@@ -8065,7 +8060,7 @@ export const gsaCharactersZh = [
         "gcd": null,
         "desc": "為生命值比例最低的隊員恢復180%生命值。",
         "detail": null,
-        "cooldown": "5s",
+        "cooldown": "6s",
         "cost": null,
         "statuses": [
           "治療"
@@ -8085,15 +8080,13 @@ export const gsaCharactersZh = [
         "type": "被動",
         "mainStat": null,
         "gcd": null,
-        "desc": "碎石追擊成功時，為生命值比例最低的隊員恢復65%生命值。",
+        "desc": "造成暴擊時，為生命值比例最低的隊員附加65%護盾(4秒)。\n此效果每次觸發需間隔至少6秒。",
         "detail": "睡前一看喜歡的言情小說就捨不得關燈。常說「再看一頁就睡」，結果又多看半本。",
         "cooldown": null,
         "cost": null,
-        "statuses": [
-          "治療"
-        ],
+        "statuses": [],
         "awakened": {
-          "desc": "碎石追擊成功時，為生命值比例最低的隊員恢復65%生命值。\n對全體隊員賦予暴擊傷害提升15%。",
+          "desc": "造成暴擊時，為生命值比例最低的隊員附加65%護盾(4秒)。\n此效果每次觸發需間隔至少6秒。\n對全體隊員賦予水屬性抗性提升5%。",
           "detail": null
         }
       },
@@ -8113,7 +8106,7 @@ export const gsaCharactersZh = [
         "cost": null,
         "statuses": [],
         "awakened": {
-          "desc": "對全體隊員賦予土屬性攻擊提升9.5%。\nPVP系統中，對自身賦予EN值獲取提升28%。",
+          "desc": "對全體隊員賦予土屬性攻擊提升9.5%。\nPVP系統中，對自身賦予水屬性抗性提升7%。",
           "detail": null
         }
       },
@@ -8127,7 +8120,7 @@ export const gsaCharactersZh = [
         "type": "瞬發型",
         "mainStat": "攻擊力",
         "gcd": null,
-        "desc": "進入覺醒狀態，對自身賦予命中提升10%(24秒)。\n對全體目標造成五段143%物理分攤傷害。\n命中時，對目標額外造成20%物理傷害。\n最後一擊命中時，低機率使其陷入石化S狀態(2秒)。\n最後一擊命中時，對其施加攻擊速度降低15%(12秒)。",
+        "desc": "進入覺醒狀態，對自身賦予命中提升10%(24秒)。\n對全體目標造成五段143%物理分攤傷害。\n命中時，對目標額外造成20%物理傷害。\n最後一擊命中時，低機率使其陷入石化S狀態(3秒)。\n最後一擊命中時，對其施加攻擊速度降低15%(12秒)。",
         "detail": null,
         "cooldown": "24s",
         "cost": 3,

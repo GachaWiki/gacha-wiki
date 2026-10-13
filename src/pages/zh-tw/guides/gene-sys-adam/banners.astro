@@ -11,7 +11,7 @@ import '../../../../styles/games/gene-sys-adam/gsa-banners.css';
 
 const base = GSA_ZH.baseUrl;
 
-const STATUS_ZH = { live: '進行中', beta: '測試期間', scheduled: '即將開放' };
+const STATUS_ZH = { live: '進行中', ended: '已結束', beta: '測試期間', scheduled: '即將開放' };
 const KIND_ZH = {
   'Solo Rate-Up': '指定召募',
   'Dual Rate-Up': '雙角色限定召募',
@@ -24,25 +24,25 @@ const TOKEN_ZH = {
   'Phantom Emblem': '魅影徽記',
   'Gagaku Emblem': '雅樂徽記',
   "Heaven's Door summon letters": '天堂之門召募信',
-  'Onyx (event vault currency)': '黑曜石（活動寶庫貨幣）',
+  'Warrant Gems and Gold Bars': '通緝令寶石與金條',
 };
 // 每張卡池的檔期與說明（繁中）。卡池名（nameZh）已是官方文字。
 const BANNER_ZH = {
   'ogino-rui-rate-up': {
-    since: '自 2026年9月29日維護起',
-    note: '進行中的單角色池，用戶端於 10 月 2 日拉取其美術面板證實（面板為純背景圖，因此卡片改顯示當期角色列）。SSR 機率 2 倍、每抽附一張指定印章（Designated Seal），100 抽保底取得當期角色。',
+    since: '2026年9月29日至10月13日',
+    note: '自 9 月 29 日維護起運行的單角色池，至 10 月 13 日「黑金獵人」復刻接手召喚介面為止（面板為純背景圖，因此卡片改顯示當期角色列）。SSR 機率 2 倍、每抽附一張指定印章（Designated Seal），100 抽保底取得當期角色。',
   },
   'sugimoto-arina-rate-up': {
-    since: '自 2026年9月29日維護起',
-    note: '與荻野瑠衣池同時進行的單角色池。條件與所有單角色池相同：SSR 機率 2 倍、每抽附指定印章、100 抽保底取得當期角色。',
+    since: '2026年9月29日至10月13日',
+    note: '與荻野瑠衣池同時運行兩週的單角色池。條件與所有單角色池相同：SSR 機率 2 倍、每抽附指定印章、100 抽保底取得當期角色。',
   },
   'lunar-splendor': {
     since: '正式營運：2026年9月22日至11月3日',
     note: '正式營運的限定池：120 抽保底當期角色、ECoin 票券通道，兌換商店備有土方千鶴的月華薙刀與足部裝備零件。卡片圖為 genesys-adam.com 的官方活動公告；遊戲內美術面板為 R18 內容，不放在維基上。日期出自同一份官方公告。',
   },
   'black-gold-hunter': {
-    since: '不刪檔測試期間，自 2026年9月17日起',
-    note: '依 9 月 17 日官方公告於測試期間登場：遊玩「黑金獵人」活動、收集黑曜石開啟活動寶庫取得召募卡，再投入乳牛貝兒的票券召募（其召募機與美術 Draw_Bg_23 已再次設定於目前的用戶端資料表中，預計復刻）。',
+    since: '2026年10月13日07:00復刻，至11月3日06:59（UTC+8）',
+    note: '「黑金獵人」活動於 10 月 13 日復刻（官方日程出自 @GeneSysAdamJP）：活動關卡掉落通緝令寶石開啟 8 個黑市金庫，每庫以均一機率支付獎勵；付費與免費金條投入活動鍛鍊加成。票券通道涵蓋迷糊乳牛-貝兒與新手女僕-杉本有菜，寶石機保底 120 抽。用戶端於 10 月 13 日拉取其美術面板（Draw_Bg_23）；面板本身為 R18 內容不放在維基上，卡片改用官方活動圖。另有活動登入禮。',
   },
   'heavens-door-jessica': {
     since: '不刪檔測試期間，自 2026年9月17日起',
@@ -68,6 +68,7 @@ const BANNER_ZH = {
 
 const SECTIONS = [
   { key: 'live', title: '進行中' },
+  { key: 'ended', title: '近期卡池' },
   { key: 'beta', title: '不刪檔測試期間（2026年9月17日至22日）' },
   { key: 'scheduled', title: '用戶端資料中的預定卡池' },
 ];
