@@ -1,0 +1,74 @@
+---
+// Shared landing template for the Gene-Sys: Adam non-EN language sections
+// (ja/ko/th/vi/zh-cn): story blurb, download buttons, the localized character
+// database card and pointers to the EN/zh-tw sections (tier list, banners,
+// updates). All copy comes from the per-language ui module; gsa-landing.css.
+export interface Props {
+  ui: any;
+  charCount: number;
+}
+const { ui, charCount } = Astro.props;
+const base = ui.baseUrl;
+const L = ui.labels;
+---
+
+<section class="gsa-content-section">
+  <div class="gsa-story">
+    <p>
+      <strong>{ui.gameName}</strong>（{ui.gameNameEn}）R18 · {ui.landing.heroKicker}.
+    </p>
+    <p>
+      {ui.landing.dbDesc}
+    </p>
+  </div>
+
+  <div class="gsa-download-row">
+    <a
+      class="gsa-download-btn"
+      href="https://game.erolabsshare.live/app/f302f717/Gene_Sys_Adam"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      {ui.gameName}
+      <span class="gsa-download-arrow">→</span>
+    </a>
+    <a
+      class="gsa-download-btn"
+      href="https://www.genesys-adam.com/"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      genesys-adam.com
+      <span class="gsa-download-arrow">→</span>
+    </a>
+  </div>
+</section>
+
+<section class="gsa-resources-section">
+  <h2 class="gsa-resources-title">{L.home}</h2>
+  <div class="gsa-resources-grid">
+    <div class="gsa-resource-category">
+      <div class="gsa-category-header">
+        <h3>{L.characters}</h3>
+        <p class="gsa-category-description">
+          {charCount} · {ui.landing.dbDesc}
+        </p>
+      </div>
+      <div class="gsa-buttons-grid">
+        <a href={`${base}characters/`} class="gsa-resource-button">{L.charactersDb}</a>
+      </div>
+    </div>
+    <div class="gsa-resource-category">
+      <div class="gsa-category-header">
+        <h3>{ui.landing.moreTitle}</h3>
+        <p class="gsa-category-description">{ui.landing.moreDesc}</p>
+      </div>
+      <div class="gsa-buttons-grid">
+        <a href="/guides/gene-sys-adam/tier-list/" class="gsa-resource-button">Tier List (EN)</a>
+        <a href="/guides/gene-sys-adam/banners/" class="gsa-resource-button">Banners (EN)</a>
+        <a href="/guides/gene-sys-adam/updates/" class="gsa-resource-button">Updates (EN)</a>
+        <a href="/zh-tw/guides/gene-sys-adam/" class="gsa-resource-button">繁體中文</a>
+      </div>
+    </div>
+  </div>
+</section>

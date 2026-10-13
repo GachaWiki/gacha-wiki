@@ -1,0 +1,19 @@
+---
+// Gene-Sys: Adam ko character database: shared i18n template.
+import GsaI18nLayout from '../../../../../layouts/gene-sys-adam/GsaI18nLayout.astro';
+import I18nCharactersIndex from '../../../../../components/gene-sys-adam/i18n/I18nCharactersIndex.astro';
+import { GSA_KO } from '../../../../../data/gene-sys-adam/ko/ui.js';
+import { gsaCharactersKo } from '../../../../../data/gene-sys-adam/ko/characters.js';
+import '../../../../../styles/games/gene-sys-adam/gsa-characters.css';
+const ui = GSA_KO;
+const characters = gsaCharactersKo;
+---
+
+<GsaI18nLayout
+  ui={ui}
+  title={ui.labels.charactersDb}
+  gameTitle={ui.labels.characters}
+  breadcrumbItems={[{ name: ui.gameName, href: ui.baseUrl }, { name: ui.labels.charactersDb }]}
+>
+  <I18nCharactersIndex ui={ui} characters={characters} />
+</GsaI18nLayout>

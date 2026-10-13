@@ -1,0 +1,14 @@
+---
+// Gene-Sys: Adam zh-cn section landing: shared i18n template + per-language ui.
+import GsaI18nLayout from '../../../../layouts/gene-sys-adam/GsaI18nLayout.astro';
+import I18nLanding from '../../../../components/gene-sys-adam/i18n/I18nLanding.astro';
+import { GSA_ZHCN } from '../../../../data/gene-sys-adam/zh-cn/ui.js';
+import { gsaCharactersZhCn } from '../../../../data/gene-sys-adam/zh-cn/characters.js';
+import '../../../../styles/games/gene-sys-adam/gsa-landing.css';
+const ui = GSA_ZHCN;
+const charCount = gsaCharactersZhCn.length;
+---
+
+<GsaI18nLayout ui={ui} title={ui.labels.home} gameTitle={ui.gameName} ambientVideo breadcrumbItems={[{ name: ui.gameName, href: ui.baseUrl }]}>
+  <I18nLanding ui={ui} charCount={charCount} />
+</GsaI18nLayout>
