@@ -1,14 +1,20 @@
 ---
-// Guild Battle support summons page: alliance battle (同盟戦) pickup banners,
-// split out of the banner timeline per user request 2026-10-14
+// Busty Burst Guild Battle database: mode mechanics, season boss ladder,
+// element profile + season buffs from game data; support pickups at the bottom.
 import BannerTimelineLayout from '../../../layouts/busty-burst/BannerTimelineLayout.astro';
 import BBBannerImage from '../../../components/busty-burst/BBBannerImage.astro';
 import RarityImage from '../../../components/busty-burst/RarityImage.astro';
+import { R2 } from '../../../components/busty-burst/bb-r2';
 import { guildBattleEventData } from '../../../data/busty-burst/banner-timeline.js';
+import {
+  GUILD_WAR_MECHANICS,
+  GUILD_WAR_SEASONS,
+  GUILD_WAR_MAP_ART,
+} from '../../../data/busty-burst/guild-battle.js';
 
-const pageTitle = 'Busty Burst Guild Battle Summons - Alliance Battle Pickups';
+const pageTitle = 'Busty Burst Guild Battle Database - Bosses, Seasons and Rewards';
 const pageDescription =
-  'Guild Battle support summons in Busty Burst Fantasy. Attribute rate-up banners that run alongside each Guild Battle season, with featured paladins and periods.';
+  'Guild Battle database for Busty Burst Fantasy: how the alliance battle mode works, season boss ladder with cycles and levels, boss element weaknesses, season unit buffs and support pickup summons.';
 const gameTitle = 'Guild Battle';
 
 const formatDate = (dateString: string) => {
@@ -30,10 +36,10 @@ const getStatusLabel = (status: string) => {
   }
 };
 
-const computeStatus = (startDate: string, endDate: string, fallback: string) => {
-  const start = Date.parse(startDate);
-  const end = Date.parse(endDate);
-  if (Number.isNaN(start) || Number.isNaN(end)) return fallback;
+const computeStatus = (startDate: string, endDate: string) => {
+  const start = Date.parse(startDate.replace(' ', 'T').replace(/\//g, '-'));
+  const end = Date.parse(endDate.replace(' ', 'T').replace(/\//g, '-'));
+  if (Number.isNaN(start) || Number.isNaN(end)) return 'ended';
   const now = Date.now();
   if (now < start) return 'upcoming';
   if (now > end) return 'ended';
@@ -42,85 +48,381 @@ const computeStatus = (startDate: string, endDate: string, fallback: string) => 
 
 const banners = guildBattleEventData.map(b => ({
   ...b,
-  live: computeStatus(b.startDate, b.endDate, b.status),
+  live: computeStatus(b.startDate, b.endDate),
+}));
+
+const seasons = GUILD_WAR_SEASONS.map(s => ({
+  ...s,
+  live: computeStatus(s.startTime, s.endTime),
 }));
 ---
 
 <BannerTimelineLayout title={pageTitle} description={pageDescription} gameTitle={gameTitle}>
   <meta
     slot="head"
-    content="Busty Burst, Busty Burst Fantasy, guild battle, alliance battle, pickup summon, attribute pickup, paladins, SSR, Ero Lab games"
+    content="Busty Burst, Busty Burst Fantasy, guild battle, alliance war, guild boss, boss ladder, guild coins, Ero Lab games"
   />
   <main class="banner-timeline-content" role="main">
     <p class="intro-text">
-      Attribute rate-up summons that run alongside each Guild Battle season, boosting the featured
-      element of that battle. Guild Battle is the alliance co-op mode where guilds fight timed
-      element-themed battles; these banners sell the units that match the season.
+      Guild Battle is the alliance mode where guilds fight a shared element-themed boss for Guild
+      Points and compete on global and guild-internal rankings. This database is built from the
+      game data: seasons, the 40-cycle boss ladder, boss weaknesses, season unit buffs and the
+      support pickup summons.
     </p>
 
-    {
-      banners.map(banner => (
-        <article class="banner-section">
-          <header class="banner-header">
-            <h2>{banner.title}</h2>
-            <span class={`banner-type-badge banner-type-badge--${banner.bannerType}`}>
-              Event Banner
-            </span>
-            <span
-              class={`status-badge status-badge--${banner.live}`}
-              data-start={banner.startDate}
-              data-end={banner.endDate}
-            >
-              {getStatusLabel(banner.live)}
-            </span>
-          </header>
+    <!-- How it works -->
+    <section class="gw-panel">
+      <h2 class="gw-heading">How It Works</h2>
+      <div class="gw-facts">
+        <div class="gw-fact">
+          <span class="gw-fact-value">3</span>
+          <span class="gw-fact-label">battles per day; paladins lock after use until the daily reset</span>
+        </div>
+        <div class="gw-fact">
+          <span class="gw-fact-value">2</span>
+          <span class="gw-fact-label">challenge types: Raid (scored) and Practice</span>
+        </div>
+        <div class="gw-fact">
+          <span class="gw-fact-value">120s</span>
+          <span class="gw-fact-label">time limit per battle; damage still counts on timeout or withdraw</span>
+        </div>
+        <div class="gw-fact">
+          <span class="gw-fact-value">1/day</span>
+          <span class="gw-fact-label">each support paladin from a guild member can join once per day</span>
+        </div>
+      </div>
+      <ul class="gw-notes">
+        {
+          GUILD_WAR_MECHANICS.notes.map(n => (
+            <li>{n}</li>
+          ))
+        }
+        <li>
+          Guild Coins (earned from battles and rankings) are spent in the Guild Shop; guild
+          membership is locked for the whole battle period.
+        </li>
+      </ul>
+    </section>
 
-          <section class="banner-content">
-            <div class="banner-info">
-              <div class="summon-banner-card">
-                <BBBannerImage bannerId={banner.image} alt={banner.title} width={400} height={225} />
-                <div class="featured-details">
-                  <h3>Featured Paladins</h3>
-                  <div class="summon-featured-paladins">
-                    {banner.featuredPaladins.map(paladin => (
-                      <div class="summon-paladin">
-                        <span class="summon-paladin-name">{paladin.name}</span>
-                        <div class="summon-paladin-badges">
-                          <RarityImage rarity={paladin.rarity} width={36} height={18} />
-                          <span
-                            class="bb-badge"
-                            data-role={paladin.type === 'Attack' ? 'Attacker' : paladin.type}
-                          >
-                            {paladin.type}
-                          </span>
+    <!-- Seasons -->
+    {seasons.map(season => (
+      <section class="gw-panel">
+        <h2 class="gw-heading">
+          Season {season.id === '110' ? '1' : season.id}: {season.name} {season.startTime.slice(0, 4)}
+          <span class={`status-badge status-badge--${season.live}`}>{getStatusLabel(season.live)}</span>
+        </h2>
+        <p class="gw-period">
+          {formatDate(season.startTime.replace(/\//g, '-').replace(' ', 'T'))} -
+          {formatDate(season.endTime.replace(/\//g, '-').replace(' ', 'T'))} (UTC), coin item:
+          {season.coinItem}
+        </p>
+
+        <div class="gw-map-row">
+          {season.bosses[0].maps.concat(season.bosses[season.bosses.length - 1].maps.filter(m => !season.bosses[0].maps.includes(m))).map(m => (
+            <figure class="gw-map">
+              <img
+                src={`${R2}/${GUILD_WAR_MAP_ART[m]}`}
+                alt={`Guild Battle map ${m}`}
+                width="492"
+                height="300"
+                loading="lazy"
+              />
+              <figcaption>Battle map {m}</figcaption>
+            </figure>
+          ))}
+        </div>
+
+        <h3 class="gw-subheading">Boss Element Profile</h3>
+        <p class="gw-elements">
+          <span class="gw-el gw-el-weak">Weak: {season.elementProfile.weak.join(', ')}</span>
+          <span class="gw-el gw-el-resist">
+            Resists: {season.elementProfile.resist.join(', ')}
+          </span>
+          <span class="gw-el gw-el-ail">
+            Ailment immunity: {season.elementProfile.ailmentResist.join(', ')}
+          </span>
+        </p>
+        <p class="gw-note">
+          All bosses this season take amplified Fire damage and reduced damage from every other
+          element, so Fire attackers are the play. The values come from the boss buff group in the
+          game data.
+        </p>
+
+        <h3 class="gw-subheading">Boss Ladder</h3>
+        <div class="gw-table-wrap">
+          <table class="gw-table">
+            <thead>
+              <tr>
+                <th>Boss</th>
+                <th>Cycles</th>
+                <th>Boss Level</th>
+                <th>Maps</th>
+                <th>Score Multiplier</th>
+                <th>Rewards</th>
+              </tr>
+            </thead>
+            <tbody>
+              {season.bosses.map(b => (
+                <tr>
+                  <td>#{b.index}</td>
+                  <td>{b.cycleRange[0]} - {b.cycleRange[1]}</td>
+                  <td>Lv {b.levelRange[0]} - {b.levelRange[1]}</td>
+                  <td>{b.maps.join(', ')}</td>
+                  <td>x{b.scoreScale[0].toFixed(1)} - x{b.scoreScale[1].toFixed(1)}</td>
+                  <td>
+                    {b.rewards.gold.toLocaleString('en-US')} gold + {b.rewards.guildCoins} guild
+                    coins per battle
+                  </td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+        <p class="gw-note">
+          Kill drops per cycle (cycles {season.bosses[0].cycleRange[0]}-
+          {season.bosses[2].cycleRange[1]}): {season.bosses[0].drops.map(d => `${d.item} x${d.amount.toLocaleString('en-US')}`).join(', ')}.
+          Later cycles ({season.bosses[3].cycleRange[0]}-
+          {season.bosses[3].cycleRange[1]}): {season.bosses[3].drops.map(d => `${d.item} x${d.amount.toLocaleString('en-US')}`).join(', ')}.
+        </p>
+
+        <h3 class="gw-subheading">Season Unit Buffs</h3>
+        <div class="gw-buffs">
+          <div class="gw-buff">
+            <span class="gw-buff-name">{season.buffedUnits.damage}</span>
+            <span class="gw-buff-label">bonus damage in Guild Battle</span>
+          </div>
+          <div class="gw-buff">
+            <span class="gw-buff-name">{season.buffedUnits.damageTaken}</span>
+            <span class="gw-buff-label">reduced damage taken</span>
+          </div>
+          <div class="gw-buff">
+            <span class="gw-buff-name">{season.buffedUnits.guildCoins}</span>
+            <span class="gw-buff-label">bonus guild coins</span>
+          </div>
+        </div>
+        <p class="gw-note">
+          The buffs apply to the whole hero group and are exactly the units featured on the
+          season's Pick Up Summon below.
+        </p>
+      </section>
+    ))}
+
+    <!-- Support pickups -->
+    <section class="gw-panel">
+      <h2 class="gw-heading">Support Pick Up Summons</h2>
+      {
+        banners.map(banner => (
+          <article class="banner-section">
+            <header class="banner-header">
+              <h2>{banner.title}</h2>
+              <span class={`banner-type-badge banner-type-badge--${banner.bannerType}`}>
+                Event Banner
+              </span>
+              <span
+                class={`status-badge status-badge--${banner.live}`}
+                data-start={banner.startDate}
+                data-end={banner.endDate}
+              >
+                {getStatusLabel(banner.live)}
+              </span>
+            </header>
+
+            <section class="banner-content">
+              <div class="banner-info">
+                <div class="summon-banner-card">
+                  <BBBannerImage bannerId={banner.image} alt={banner.title} width={400} height={225} />
+                  <div class="featured-details">
+                    <h3>Featured Paladins</h3>
+                    <div class="summon-featured-paladins">
+                      {banner.featuredPaladins.map(paladin => (
+                        <div class="summon-paladin">
+                          <span class="summon-paladin-name">{paladin.name}</span>
+                          <div class="summon-paladin-badges">
+                            <RarityImage rarity={paladin.rarity} width={36} height={18} />
+                            <span
+                              class="bb-badge"
+                              data-role={paladin.type === 'Attack' ? 'Attacker' : paladin.type}
+                            >
+                              {paladin.type}
+                            </span>
+                          </div>
                         </div>
-                      </div>
-                    ))}
-                  </div>
+                      ))}
+                    </div>
 
-                  <div class="banner-details">
-                    <p>
-                      <strong>Period:</strong> {formatDate(banner.startDate)} -{' '}
-                      {formatDate(banner.endDate)} (UTC)
-                    </p>
-                    <p>
-                      <strong>Details:</strong> {banner.description}
-                    </p>
-                    {banner.note && (
+                    <div class="banner-details">
                       <p>
-                        <strong>Note:</strong> {banner.note}
+                        <strong>Period:</strong> {formatDate(banner.startDate)} -{' '}
+                        {formatDate(banner.endDate)} (UTC)
                       </p>
-                    )}
+                      <p>
+                        <strong>Details:</strong> {banner.description}
+                      </p>
+                      {banner.note && (
+                        <p>
+                          <strong>Note:</strong> {banner.note}
+                        </p>
+                      )}
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
-          </section>
-        </article>
-      ))
-    }
+            </section>
+          </article>
+        ))
+      }
+    </section>
   </main>
 </BannerTimelineLayout>
+
+<style>
+  .gw-panel {
+    background: rgba(255, 255, 255, 0.04);
+    border: 1px solid rgba(255, 255, 255, 0.09);
+    border-radius: 10px;
+    padding: 1.25rem 1.4rem;
+    margin-bottom: 1.5rem;
+  }
+  .gw-heading {
+    font-size: 1.35rem;
+    margin: 0 0 0.5rem;
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    flex-wrap: wrap;
+  }
+  .gw-subheading {
+    font-size: 1.05rem;
+    margin: 1.25rem 0 0.5rem;
+  }
+  .gw-period {
+    color: rgba(255, 255, 255, 0.75);
+    margin: 0 0 1rem;
+  }
+  .gw-facts {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 0.75rem;
+    margin-bottom: 1rem;
+  }
+  .gw-fact {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.09);
+    border-radius: 10px;
+    padding: 0.75rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+  }
+  .gw-fact-value {
+    font-size: 1.4rem;
+    font-weight: 700;
+  }
+  .gw-fact-label {
+    font-size: 0.85rem;
+    color: rgba(255, 255, 255, 0.7);
+  }
+  .gw-notes {
+    margin: 0;
+    padding-left: 1.2rem;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 0.9rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.35rem;
+  }
+  .gw-map-row {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 0.75rem;
+    margin: 0.75rem 0 1rem;
+  }
+  .gw-map {
+    margin: 0;
+  }
+  .gw-map img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.09);
+  }
+  .gw-map figcaption {
+    font-size: 0.8rem;
+    color: rgba(255, 255, 255, 0.6);
+    margin-top: 0.3rem;
+  }
+  .gw-elements {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin: 0.25rem 0;
+  }
+  .gw-el {
+    border-radius: 5px;
+    padding: 0.25rem 0.6rem;
+    font-size: 0.85rem;
+    font-weight: 600;
+  }
+  .gw-el-weak {
+    background: rgba(239, 68, 68, 0.18);
+    color: #f87171;
+  }
+  .gw-el-resist {
+    background: rgba(96, 165, 250, 0.15);
+    color: #93c5fd;
+  }
+  .gw-el-ail {
+    background: rgba(148, 163, 184, 0.15);
+    color: #cbd5e1;
+  }
+  .gw-note {
+    font-size: 0.85rem;
+    color: rgba(255, 255, 255, 0.65);
+    margin: 0.4rem 0 0;
+  }
+  .gw-table-wrap {
+    overflow-x: auto;
+  }
+  .gw-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.9rem;
+    min-width: 640px;
+  }
+  .gw-table th,
+  .gw-table td {
+    text-align: left;
+    padding: 0.55rem 0.7rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.09);
+  }
+  .gw-table th {
+    color: rgba(255, 255, 255, 0.65);
+    font-weight: 600;
+    font-size: 0.8rem;
+  }
+  .gw-buffs {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 0.75rem;
+  }
+  .gw-buff {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.09);
+    border-radius: 10px;
+    padding: 0.7rem 0.8rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+  }
+  .gw-buff-name {
+    font-weight: 700;
+  }
+  .gw-buff-label {
+    font-size: 0.82rem;
+    color: rgba(255, 255, 255, 0.7);
+  }
+</style>
 
 <script>
   // Refresh statuses from dates so the page stays correct between rebuilds
