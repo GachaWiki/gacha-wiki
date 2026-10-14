@@ -1,0 +1,483 @@
+{
+ "id": "jp-sao-e266",
+ "name": "[TD+]ソードアート・オンライン アリシゼーション",
+ "expansion": 266,
+ "lang": "jp",
+ "release": null,
+ "shopItem": null,
+ "box": null,
+ "cards": [
+  {
+   "num": "SAO/S65-T01",
+   "name": "“あるはずのない記憶”アリス",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの「“あるはずのない記憶”ユージオ」すべてに、パワーを＋1000。\n【自】 絆／「“あるはずのない記憶”ユージオ」 ［(1)］ （このカードがプレイされて舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「“あるはずのない記憶”ユージオ」を1枚選び、手札に戻す）\n\"-\"",
+   "traits": [
+    "フラクトライト",
+    "神聖術"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sao_s65/sao_s65_t01.png",
+   "variant": ""
+  },
+  {
+   "num": "SAO/S65-T02",
+   "name": "まばゆい金色 アリス",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋500。\n【自】 あなたのクライマックスがクライマックス置場に置かれた時、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋1000。\n\"こら、なに二人で内緒話してるのよ！\"",
+   "traits": [
+    "フラクトライト",
+    "神聖術"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sao_s65/sao_s65_t02.png",
+   "variant": ""
+  },
+  {
+   "num": "SAO/S65-T02S",
+   "name": "まばゆい金色 アリス",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋500。\n【自】 あなたのクライマックスがクライマックス置場に置かれた時、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋1000。\n\"-\"",
+   "traits": [
+    "フラクトライト",
+    "神聖術"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sao_s65/sao_s65_t02s.png",
+   "variant": ""
+  },
+  {
+   "num": "SAO/S65-T03",
+   "name": "氷を求めて アリス",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "yellow",
+   "level": "1",
+   "cost": "1",
+   "power": "6000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードがアタックした時、他のあなたの《フラクトライト》のキャラが2枚以上なら、そのターン中、このカードのパワーを＋2000。\n【自】 アンコール ［手札のキャラを1枚控え室に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"知ってるわよ。最後には央都から整合騎士が来て、退治してくれたんでしょ？\"",
+   "traits": [
+    "フラクトライト",
+    "神聖術"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sao_s65/sao_s65_t03.png",
+   "variant": ""
+  },
+  {
+   "num": "SAO/S65-T04",
+   "name": "頑張り屋のセルカ",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【起】【カウンター】 助太刀3000 レベル2 ［(1) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋3000）\n\"ユージオ「アリスがいなくなったあと、シスターになるため、教会に住み込みで神聖術を学んでいるんだ」\"",
+   "traits": [
+    "フラクトライト",
+    "神聖術"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sao_s65/sao_s65_t04.png",
+   "variant": ""
+  },
+  {
+   "num": "SAO/S65-T05",
+   "name": "“金木犀の騎士”アリス・シンセシス・サーティ",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "8000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 このカードはサイドアタックできない。\n【自】 このカードがアタックした時、そのターン中、このカードのパワーを＋Ｘ。Ｘは他のあなたの《フラクトライト》のキャラの枚数×1000に等しい。\n\"セントリア市域統括、公理教会整合騎士――アリス・シンセシス・サーティです\"",
+   "traits": [
+    "フラクトライト",
+    "整合騎士"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sao_s65/sao_s65_t05.png",
+   "variant": ""
+  },
+  {
+   "num": "SAO/S65-T05R",
+   "name": "“金木犀の騎士”アリス・シンセシス・サーティ",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "8000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 このカードはサイドアタックできない。\n【自】 このカードがアタックした時、そのターン中、このカードのパワーを＋Ｘ。Ｘは他のあなたの《フラクトライト》のキャラの枚数×1000に等しい。\n\"-\"",
+   "traits": [
+    "フラクトライト",
+    "整合騎士"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sao_s65/sao_s65_t05r.png",
+   "variant": ""
+  },
+  {
+   "num": "SAO/S65-T06",
+   "name": "“幼馴染の少女”アリス",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "yellow",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札を上からＸ枚まで見て、カードを1枚まで選び、手札に加え、残りのカードを控え室に置く。Ｘはあなたの《フラクトライト》のキャラの枚数に等しい。\n【自】［(1) 手札を1枚控え室に置く］ このカードがアタックした時、あなたはコストを払ってよい。そうしたら、そのターン中、このカードのパワーを＋2000し、このカードは次の能力を得る。『【自】 このカードのバトル相手が【リバース】した時、あなたは相手に1ダメージを与えてよい。』（ダメージキャンセルは発生する）\n\"-\"",
+   "traits": [
+    "フラクトライト",
+    "神聖術"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sao_s65/sao_s65_t06.png",
+   "variant": ""
+  },
+  {
+   "num": "SAO/S65-T06SP",
+   "name": "“幼馴染の少女”アリス",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "yellow",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札を上からＸ枚まで見て、カードを1枚まで選び、手札に加え、残りのカードを控え室に置く。Ｘはあなたの《フラクトライト》のキャラの枚数に等しい。\n【自】［(1) 手札を1枚控え室に置く］ このカードがアタックした時、あなたはコストを払ってよい。そうしたら、そのターン中、このカードのパワーを＋2000し、このカードは次の能力を得る。『【自】 このカードのバトル相手が【リバース】した時、あなたは相手に1ダメージを与えてよい。』（ダメージキャンセルは発生する）\n\"-\"",
+   "traits": [
+    "フラクトライト",
+    "神聖術"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sao_s65/sao_s65_t06sp.png",
+   "variant": ""
+  },
+  {
+   "num": "SAO/S65-T07",
+   "name": "指先の罪",
+   "type": "Climax",
+   "rarity": "TD",
+   "color": "yellow",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[bounce.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[bounce.gif]]：このカードがトリガーした時、あなたは相手のキャラを1枚選び、手札に戻してよい）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sao_s65/sao_s65_t07.png",
+   "variant": ""
+  },
+  {
+   "num": "SAO/S65-T08",
+   "name": "ライト・アンド・セルフ・トゥ・レフト",
+   "type": "Climax",
+   "rarity": "TD",
+   "color": "yellow",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【永】 あなたのキャラすべてに、ソウルを＋2。\n\"（俺とセルカの天命を移動させてる、ってことか……）\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sao_s65/sao_s65_t08.png",
+   "variant": ""
+  },
+  {
+   "num": "SAO/S65-T09",
+   "name": "物憂げな表情 ユージオ",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 相手のターン中、他のあなたの前列の中央の枠のキャラに、パワーを＋1500。\n【起】 集中 ［(1) このカードを【レスト】する］ あなたは自分の山札の上から4枚をめくり、控え室に置く。それらのカードのクライマックス1枚につき、あなたは1枚まで引く。\n\"いつかこの剣が振れるようになれたら、と思ったんだ\"",
+   "traits": [
+    "フラクトライト",
+    "樵"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sao_s65/sao_s65_t09.png",
+   "variant": ""
+  },
+  {
+   "num": "SAO/S65-T10",
+   "name": "氷を求めて キリト",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードがアタックした時、あなたは自分の《フラクトライト》のキャラを1枚選び、そのターン中、レベルを＋1し、パワーを＋1000。\n\"そうだよ、氷だよ！氷を探しに行こう！\"",
+   "traits": [
+    "フラクトライト",
+    "樵"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sao_s65/sao_s65_t10.png",
+   "variant": ""
+  },
+  {
+   "num": "SAO/S65-T11",
+   "name": "“初等練士”ユージオ＆キリト",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのストックが2枚以下なら、このカードのパワーを＋1500。\n\"ユージオ「相変わらずだね、キリトは」\"",
+   "traits": [
+    "フラクトライト",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sao_s65/sao_s65_t11.png",
+   "variant": ""
+  },
+  {
+   "num": "SAO/S65-T11S",
+   "name": "“初等練士”ユージオ＆キリト",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのストックが2枚以下なら、このカードのパワーを＋1500。\n\"キリト「俺たちが今この学院にいられるのは、二人だったからだよ」\"",
+   "traits": [
+    "フラクトライト",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sao_s65/sao_s65_t11s.png",
+   "variant": ""
+  },
+  {
+   "num": "SAO/S65-T12",
+   "name": "“巨樹の刻み手”キリト",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1) 手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見て《フラクトライト》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"おーまーえーは～～ 何でそう優等生なんだ！\"",
+   "traits": [
+    "フラクトライト",
+    "樵"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sao_s65/sao_s65_t12.png",
+   "variant": ""
+  },
+  {
+   "num": "SAO/S65-T13",
+   "name": "ランチタイム ユージオ",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの《フラクトライト》のキャラ1枚につき、このカードのパワーを＋500。\n\"今日のパイはおいしいなあ\"",
+   "traits": [
+    "フラクトライト",
+    "樵"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sao_s65/sao_s65_t13.png",
+   "variant": ""
+  },
+  {
+   "num": "SAO/S65-T14",
+   "name": "動き出す運命 ユージオ",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】【CXコンボ】 このカードがアタックした時、クライマックス置場に「昔日の冒険」があり、他のあなたの《フラクトライト》のキャラがいるなら、あなたは自分の山札を上から4枚まで見て、《フラクトライト》のキャラを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。\n\"僕は――剣士になります\"",
+   "traits": [
+    "フラクトライト",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sao_s65/sao_s65_t14.png",
+   "variant": ""
+  },
+  {
+   "num": "SAO/S65-T14SP",
+   "name": "動き出す運命 ユージオ",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】【CXコンボ】 このカードがアタックした時、クライマックス置場に「昔日の冒険」があり、他のあなたの《フラクトライト》のキャラがいるなら、あなたは自分の山札を上から4枚まで見て、《フラクトライト》のキャラを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。\n\"-\"",
+   "traits": [
+    "フラクトライト",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sao_s65/sao_s65_t14sp.png",
+   "variant": ""
+  },
+  {
+   "num": "SAO/S65-T15",
+   "name": "“あるはずのない記憶”ユージオ",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "5500",
+   "soul": 1,
+   "trigger": "",
+   "text": "-\n\"-\"",
+   "traits": [
+    "フラクトライト",
+    "樵"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sao_s65/sao_s65_t15.png",
+   "variant": ""
+  },
+  {
+   "num": "SAO/S65-T16",
+   "name": "“巨樹の刻み手”ユージオ",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋Ｘ。Ｘはそのキャラのレベル×500に等しい。\n【自】 このカードが手札から舞台に置かれた時、あなたは1枚引き、自分の手札を1枚選び、控え室に置く。\n\"この《ギガスシダー》を切り倒すことが、僕らの天職なんだから\"",
+   "traits": [
+    "フラクトライト",
+    "樵"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sao_s65/sao_s65_t16.png",
+   "variant": ""
+  },
+  {
+   "num": "SAO/S65-T17",
+   "name": "“ベクタの迷子”キリト",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "3",
+   "cost": "2",
+   "power": "9500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの《フラクトライト》のキャラ1枚につき、このカードのパワーを＋500。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n\"ここは……どこだ\"",
+   "traits": [
+    "フラクトライト"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sao_s65/sao_s65_t17.png",
+   "variant": ""
+  },
+  {
+   "num": "SAO/S65-T17R",
+   "name": "“ベクタの迷子”キリト",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "blue",
+   "level": "3",
+   "cost": "2",
+   "power": "9500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの《フラクトライト》のキャラ1枚につき、このカードのパワーを＋500。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n\"-\"",
+   "traits": [
+    "フラクトライト"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sao_s65/sao_s65_t17r.png",
+   "variant": ""
+  },
+  {
+   "num": "SAO/S65-T18",
+   "name": "ステイシアの窓",
+   "type": "Event",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "1",
+   "cost": "1",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "あなたは自分の山札を上から3枚まで見て、山札の上に元の順番で置き、自分の控え室のキャラを1枚まで選び、手札に戻す。\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sao_s65/sao_s65_t18.png",
+   "variant": ""
+  },
+  {
+   "num": "SAO/S65-T19",
+   "name": "昔日の冒険",
+   "type": "Climax",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[draw.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[draw.gif]]：このカードがトリガーした時、あなたは1枚引いてよい）\n\"キリト「ベルクーリが盗み出そうとしたっていう、《青薔薇の剣》だろうな」\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sao_s65/sao_s65_t19.png",
+   "variant": ""
+  },
+  {
+   "num": "SAO/S65-T19R",
+   "name": "昔日の冒険",
+   "type": "Climax",
+   "rarity": "RRR",
+   "color": "blue",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[draw.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[draw.gif]]：このカードがトリガーした時、あなたは1枚引いてよい）\n\"アリス「持っていく気にはならないわね…墓荒らしみたいだし…」\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sao_s65/sao_s65_t19.png",
+   "variant": ""
+  }
+ ]
+}

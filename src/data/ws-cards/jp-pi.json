@@ -1,0 +1,712 @@
+{
+ "id": "jp-pi",
+ "name": "Fate/kaleid liner プリズマ☆イリヤ",
+ "expansion": 108,
+ "lang": "jp",
+ "release": null,
+ "shopItem": null,
+ "box": null,
+ "cards": [
+  {
+   "num": "PI/SE18-01",
+   "name": "“爆炎弾七連”ルヴィア",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "8000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】［(3) 手札の《宝石》のキャラを1枚控え室に置く］ このカードがアタックした時、他のあなたの前列の「“轟風弾五連”凛」がいるなら、あなたはコストを払ってよい。そうしたら、相手に7ダメージを与える。（ダメージキャンセルは発生する）\n\"サイン！\"",
+   "traits": [
+    "宝石",
+    "令嬢"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/pi_se18/pi_se18_001.png",
+   "variant": ""
+  },
+  {
+   "num": "PI/SE18-02",
+   "name": "“轟風弾五連”凛",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "8500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたのキャラすべてに、次の能力を与える。『【永】 このカードはサイドアタックできない。』\n【永】 経験 あなたのレベル置場のカードのレベルの合計が3以上なら、このカードのパワーを＋1000。\n\"セット！\"",
+   "traits": [
+    "宝石"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/pi_se18/pi_se18_002.png",
+   "variant": ""
+  },
+  {
+   "num": "PI/SE18-03",
+   "name": "カレイドルビー 凛",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの前列の中央の枠のキャラに、パワーを＋500。\n【起】［(2) このカードを【レスト】する］ あなたは自分の控え室のキャラを1枚選び、手札に戻す。\n\"それじゃ…本番を始めましょうか\"",
+   "traits": [
+    "宝石",
+    "魔法"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/pi_se18/pi_se18_003.png",
+   "variant": ""
+  },
+  {
+   "num": "PI/SE18-04",
+   "name": "元マスター 凛",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの「元マスター ルヴィア」1枚につき、このカードのパワーを＋1500し、このカードの正面のキャラのソウルを＋1。\n\"何すんのよ、コラ～～～\"",
+   "traits": [
+    "宝石"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/pi_se18/pi_se18_004.png",
+   "variant": ""
+  },
+  {
+   "num": "PI/SE18-05",
+   "name": "元マスター ルヴィア",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの「元マスター 凛」1枚につき、このカードのパワーを＋1500し、このカードの正面のキャラのソウルを＋1。\n\"ルビー「お二人のケンカに巻き込まないで欲しいものですねー」\"",
+   "traits": [
+    "宝石",
+    "令嬢"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/pi_se18/pi_se18_005.png",
+   "variant": ""
+  },
+  {
+   "num": "PI/SE18-06",
+   "name": "高飛車なお嬢様 ルヴィア",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが【リバース】した時、このカードのバトル相手のレベルが1以下なら、あなたはそのキャラを【リバース】してよい。\n\"ワタクシたちだけでは、おそらく勝てなかったでしょう\"",
+   "traits": [
+    "宝石",
+    "令嬢"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/pi_se18/pi_se18_006.png",
+   "variant": ""
+  },
+  {
+   "num": "PI/SE18-07",
+   "name": "カレイドサファイア ルヴィア",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "5500",
+   "soul": 1,
+   "trigger": "",
+   "text": "-\n\"やはりワタクシとは持ち主の格というものが違う…\"",
+   "traits": [
+    "宝石",
+    "魔法"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/pi_se18/pi_se18_007.png",
+   "variant": ""
+  },
+  {
+   "num": "PI/SE18-08",
+   "name": "時計塔の首席候補 凛",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "1",
+   "cost": "1",
+   "power": "5500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの《宝石》のキャラ1枚につき、このカードのパワーを＋500。\n【自】 アンコール ［あなたの山札の上から1枚をクロック置場に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"あなたたちがいてくれてよかった\"",
+   "traits": [
+    "宝石"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/pi_se18/pi_se18_008.png",
+   "variant": ""
+  },
+  {
+   "num": "PI/SE18-09",
+   "name": "普通の女の子 イリヤ",
+   "type": "Character",
+   "rarity": "R",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードがアタックした時、クライマックス置場に「誕生！魔法少女！」があるなら、あなたは自分の山札の上から2枚を、控え室に置く。それらのカードすべてが《魔法》のキャラなら、あなたは1枚引く。\n\"そ～だ。お兄ちゃん、家まで競争しよっか\"",
+   "traits": [
+    "マスター",
+    "魔法"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/pi_se18/pi_se18_009.png",
+   "variant": ""
+  },
+  {
+   "num": "PI/SE18-10",
+   "name": "カレイドの魔法少女 イリヤ",
+   "type": "Character",
+   "rarity": "R",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 経験 あなたのレベル置場のカードのレベルの合計が2以上なら、このカードのパワーを＋1000。\n\"なんか魔法少女っぽくなってきたかも！\"",
+   "traits": [
+    "マスター",
+    "魔法"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/pi_se18/pi_se18_010.png",
+   "variant": ""
+  },
+  {
+   "num": "PI/SE18-11",
+   "name": "完璧超人？ 美遊",
+   "type": "Character",
+   "rarity": "R",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードがアタックした時、クライマックス置場に青のクライマックスがあるなら、あなたは1枚引き、自分の手札を1枚選び、控え室に置く。\n\"あ、飛んでる…\"",
+   "traits": [
+    "マスター",
+    "魔法"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/pi_se18/pi_se18_011.png",
+   "variant": ""
+  },
+  {
+   "num": "PI/SE18-12",
+   "name": "メイド服の美遊",
+   "type": "Character",
+   "rarity": "R",
+   "color": "blue",
+   "level": "1",
+   "cost": "1",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 あなたがこのカードの『助太刀』を使った時、あなたは自分のバトル中のキャラを1枚選び、そのターン中、パワーを＋Ｘ。Ｘはあなたのカード名に「イリヤ」か「美遊」を含むキャラの枚数×500に等しい。\n【起】【カウンター】 助太刀500 レベル1 ［(1) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋500）\n\"イリヤスフィールも悪気があったわけじゃ…\"",
+   "traits": [
+    "マスター",
+    "魔法"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/pi_se18/pi_se18_012.png",
+   "variant": ""
+  },
+  {
+   "num": "PI/SE18-13",
+   "name": "夢見がちな少女 イリヤ",
+   "type": "Character",
+   "rarity": "R",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋1000。\n【永】 経験 あなたのレベル置場のカードのレベルの合計が3以上なら、他のあなたの前列の中央の枠のキャラに、パワーを＋500。\n【自】 チェンジ ［(1) このカードを控え室に置く］ あなたのドローフェイズの始めに、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「“Kaleidoscope”イリヤ」を1枚選び、このカードがいた枠に置く。\n\"まあ…つまり、アレでしょ？考えるな！空想しろ！\"",
+   "traits": [
+    "マスター",
+    "魔法"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/pi_se18/pi_se18_013.png",
+   "variant": ""
+  },
+  {
+   "num": "PI/SE18-14",
+   "name": "“ママ”アイリスフィール",
+   "type": "Character",
+   "rarity": "R",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋Ｘ。Ｘはそのキャラのレベル×500に等しい。\n【自】 このカードが手札から舞台に置かれた時、あなたは1枚引き、自分の手札を1枚選び、控え室に置く。\n\"ん。おはよ\"",
+   "traits": [
+    "ホムンクルス",
+    "錬金術"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/pi_se18/pi_se18_014.png",
+   "variant": ""
+  },
+  {
+   "num": "PI/SE18-15",
+   "name": "夜の終わりに　イリヤ",
+   "type": "Character",
+   "rarity": "R",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "8000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードがアタックした時、クライマックス置場に「クラスカード アーチャー」があるなら、次の相手のターンの終わりまで、このカードは次の能力を得る。『【永】 このカードのパワーを＋Ｘ。Ｘはこのカードの正面のキャラのレベル×1500に等しい。』\n\"…な、何？\"",
+   "traits": [
+    "マスター",
+    "魔法"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/pi_se18/pi_se18_015.png",
+   "variant": ""
+  },
+  {
+   "num": "PI/SE18-16",
+   "name": "現実的な美遊",
+   "type": "Character",
+   "rarity": "R",
+   "color": "blue",
+   "level": "2",
+   "cost": "2",
+   "power": "8000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 アンコール ［あなたの山札の上から1枚をクロック置場に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n【自】 チェンジ ［このカードを控え室に置く］ あなたのドローフェイズの始めに、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「“Kaleidoscope”美遊」を1枚選び、このカードがいた枠に置く。\n\"ううん…多分、ムリ…\"",
+   "traits": [
+    "マスター",
+    "魔法"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/pi_se18/pi_se18_016.png",
+   "variant": ""
+  },
+  {
+   "num": "PI/SE18-17",
+   "name": "“Kaleidoscope”イリヤ",
+   "type": "Character",
+   "rarity": "R",
+   "color": "blue",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時か『チェンジ』で舞台に置かれた時、あなたは2枚まで引き、自分の手札を1枚選び、控え室に置く。\n【自】［手札の「クラスカード セイバー」を1枚控え室に置く］ あなたのクライマックス置場に「クラスカード セイバー」が置かれた時、他のあなたの「“Kaleidoscope”美遊」がいるなら、あなたは自分の山札の上から1枚を、控え室に置く。そのカードのレベルが1以下なら、あなたはコストを払ってよい。そうしたら、あなたのキャラすべてに、そのターン中、次の能力を与える。『【自】 このカードがアタックした時、相手に1ダメージを与える。』（クライマックスのレベルは0として扱う。ダメージキャンセルは発生する）\n\"美遊がしてくれたみたいに、私だって美遊の力になりたい！\"",
+   "traits": [
+    "マスター",
+    "魔法"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/pi_se18/pi_se18_017.png",
+   "variant": ""
+  },
+  {
+   "num": "PI/SE18-17SP",
+   "name": "“Kaleidoscope”イリヤ",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "blue",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時か『チェンジ』で舞台に置かれた時、あなたは2枚まで引き、自分の手札を1枚選び、控え室に置く。\n【自】［手札の「クラスカード セイバー」を1枚控え室に置く］ あなたのクライマックス置場に「クラスカード セイバー」が置かれた時、他のあなたの「“Kaleidoscope”美遊」がいるなら、あなたは自分の山札の上から1枚を、控え室に置く。そのカードのレベルが1以下なら、あなたはコストを払ってよい。そうしたら、あなたのキャラすべてに、そのターン中、次の能力を与える。『【自】 このカードがアタックした時、相手に1ダメージを与える。』（クライマックスのレベルは0として扱う。ダメージキャンセルは発生する）\n\"SECRET\"",
+   "traits": [
+    "マスター",
+    "魔法"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/pi_se18/pi_se18_17sp.png",
+   "variant": ""
+  },
+  {
+   "num": "PI/SE18-18",
+   "name": "“Kaleidoscope”美遊",
+   "type": "Character",
+   "rarity": "R",
+   "color": "blue",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時か『チェンジ』で舞台に置かれた時、あなたは自分の山札を上からＸ枚まで見て、カードを1枚まで選び、手札に加える。残りのカードを控え室に置く。Ｘはあなたの《魔法》のキャラの枚数に等しい。\n【自】 あなたのクライマックス置場に「クラスカード セイバー」が置かれた時、前列にこのカードがいるなら、あなたは1枚引き、そのターン中、このカードのパワーを＋1500し、このカードは次の能力を得る。『【自】 このカードのバトル相手が【リバース】した時、あなたはそのキャラを山札の下に置いてよい。』\n\"初めてだったんだ…。私を友達って言ってくれた人…\"",
+   "traits": [
+    "マスター",
+    "魔法"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/pi_se18/pi_se18_018.png",
+   "variant": ""
+  },
+  {
+   "num": "PI/SE18-18SP",
+   "name": "“Kaleidoscope”美遊",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "blue",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時か『チェンジ』で舞台に置かれた時、あなたは自分の山札を上からＸ枚まで見て、カードを1枚まで選び、手札に加える。残りのカードを控え室に置く。Ｘはあなたの《魔法》のキャラの枚数に等しい。\n【自】 あなたのクライマックス置場に「クラスカード セイバー」が置かれた時、前列にこのカードがいるなら、あなたは1枚引き、そのターン中、このカードのパワーを＋1500し、このカードは次の能力を得る。『【自】 このカードのバトル相手が【リバース】した時、あなたはそのキャラを山札の下に置いてよい。』\n\"SECRET\"",
+   "traits": [
+    "マスター",
+    "魔法"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/pi_se18/pi_se18_18sp.png",
+   "variant": ""
+  },
+  {
+   "num": "PI/SE18-19",
+   "name": "魔法の練習 イリヤ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 絆／「完璧超人？ 美遊」 ［(1)］ （このカードがプレイされて舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「完璧超人？ 美遊」を1枚選び、手札に戻す）【起】［(1) このカードを【レスト】する］ あなたは自分のカード名に「美遊」を含むキャラを1枚選び、そのターン中、パワーを＋1500。\n\"元？あー…それなら…\"",
+   "traits": [
+    "マスター",
+    "魔法"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/pi_se18/pi_se18_019.png",
+   "variant": ""
+  },
+  {
+   "num": "PI/SE18-20",
+   "name": "マジカルサファイア",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたの手札が5枚以上なら、他のあなたのキャラすべてに、パワーを＋500。\n【永】 あなたが自分の手札か舞台のキャラの【起】のコストを払う時、このカードの下のマーカー1枚を、ストック1枚のかわりに控え室に置いてよい。\n【自】［あなたの【スタンド】しているキャラを2枚【レスト】する］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札の上から1枚を、このカードの下にマーカーとして置く。\n\"そのイメージの元となった何かがあるのでは？\"",
+   "traits": [
+    "魔法"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/pi_se18/pi_se18_020.png",
+   "variant": ""
+  },
+  {
+   "num": "PI/SE18-21",
+   "name": "カレイドの魔法少女 美遊",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの前列の中央の枠のキャラに、パワーを＋500。\n【起】 集中 ［(1) あなたのキャラを2枚【レスト】する］ あなたは自分の山札の上から4枚をめくり、控え室に置く。それらのカードのクライマックス1枚につき、あなたは1枚まで引く。\n\"回収完了…\"",
+   "traits": [
+    "マスター",
+    "魔法"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/pi_se18/pi_se18_021.png",
+   "variant": ""
+  },
+  {
+   "num": "PI/SE18-22",
+   "name": "アインツベルン家 セラ＆リズ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは他の自分の《マスター》のキャラを1枚選び、次の相手のターンの終わりまで、パワーを＋1000。\n\"リズ「そうそう。セラは心配しすぎ」<br />セラ「あなたは放任しすぎなんです！」\"",
+   "traits": [
+    "ホムンクルス",
+    "メイド"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/pi_se18/pi_se18_022.png",
+   "variant": ""
+  },
+  {
+   "num": "PI/SE18-23",
+   "name": "“約束する”イリヤ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたの手札が6枚以上なら、このカードのパワーを＋1500。\n\"友達を見捨てたままじゃ前へは進めないって\"",
+   "traits": [
+    "マスター",
+    "魔法"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/pi_se18/pi_se18_023.png",
+   "variant": ""
+  },
+  {
+   "num": "PI/SE18-24",
+   "name": "突然の転校生 美遊",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの前列のキャラがいないなら、このカードのパワーを＋1000し、このカードは『【自】 アンコール ［手札のキャラを1枚控え室に置く］』を得る。\n\"美遊・エーデルフェルトです\"",
+   "traits": [
+    "マスター",
+    "魔法"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/pi_se18/pi_se18_024.png",
+   "variant": ""
+  },
+  {
+   "num": "PI/SE18-25",
+   "name": "私服の美遊",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "",
+   "text": "-\n\"航空力学はおろか、重力も慣性も作用反作用も無視したでたらめな動き…\"",
+   "traits": [
+    "マスター",
+    "魔法"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/pi_se18/pi_se18_025.png",
+   "variant": ""
+  },
+  {
+   "num": "PI/SE18-26",
+   "name": "マジカルルビー",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［手札の《宝石》のキャラを1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見て《マスター》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n【起】［手札のクライマックスを1枚控え室に置く］ あなたは自分のキャラを1枚選び、次の相手のターンの終わりまで、パワーを＋1500。\n\"そこのあなた、魔法少女になりませんか？\"",
+   "traits": [
+    "魔法"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/pi_se18/pi_se18_026.png",
+   "variant": ""
+  },
+  {
+   "num": "PI/SE18-27",
+   "name": "“信じる”美遊",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたの手札が6枚以上なら、このカードのパワーを＋1500。\n【自】［あなたの山札の上から1枚をクロック置場に置く］ このカードがアタックした時、クライマックス置場に「クラスカード ランサー」があるなら、あなたはコストを払ってよい。そうしたら、あなたは1枚引き、そのターン中、このカードのパワーを＋1000。\n\"一人じゃできない事でも、一緒ならうまくいくって\"",
+   "traits": [
+    "マスター",
+    "魔法"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/pi_se18/pi_se18_027.png",
+   "variant": ""
+  },
+  {
+   "num": "PI/SE18-28",
+   "name": "導かれた運命 イリヤ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【起】［手札の《魔法》のキャラを1枚控え室に置く］ あなたは自分の山札の上から1枚を公開する。そのカードのレベルが0以下なら、そのターン中、このカードは次の能力を得る。『【永】 このカードがアタックする時、あなたはかわりに相手の後列のキャラを1枚選び、このカードはそのキャラを防御キャラとしてフロントアタックしてよい。』（クライマックスのレベルは0として扱う。公開したカードは元に戻す）\n\"乗って！！\"",
+   "traits": [
+    "マスター",
+    "魔法"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/pi_se18/pi_se18_028.png",
+   "variant": ""
+  },
+  {
+   "num": "PI/SE18-29",
+   "name": "パジャマのイリヤ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "1",
+   "cost": "1",
+   "power": "7000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、そのターン中、このカードのパワーを－1500。\n【自】 アンコール ［手札のキャラを1枚控え室に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"え～、風邪じゃないのに～～っ\"",
+   "traits": [
+    "マスター",
+    "魔法"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/pi_se18/pi_se18_029.png",
+   "variant": ""
+  },
+  {
+   "num": "PI/SE18-30",
+   "name": "デレデレ美遊",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "7500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたのキャラすべてがカード名に「イリヤ」か「美遊」を含むなら、このカードのパワーを＋2000。\n\"私の友達は生涯イリヤだけ。他の人なんてどうでもいいでしょう？\"",
+   "traits": [
+    "マスター",
+    "魔法"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/pi_se18/pi_se18_030.png",
+   "variant": ""
+  },
+  {
+   "num": "PI/SE18-31",
+   "name": "もう一人の魔法少女 美遊",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "8500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "-\n\"……\"",
+   "traits": [
+    "マスター",
+    "魔法"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/pi_se18/pi_se18_031.png",
+   "variant": ""
+  },
+  {
+   "num": "PI/SE18-32",
+   "name": "“友達”イリヤ＆美遊",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの「“友達”イリヤ＆美遊」1枚につき、このカードのパワーを＋1000。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n\"イリヤ「なんでもできるよ…二人なら！」<br />美遊「うん。前へ進もう」\"",
+   "traits": [
+    "マスター",
+    "魔法"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/pi_se18/pi_se18_032.png",
+   "variant": ""
+  },
+  {
+   "num": "PI/SE18-33",
+   "name": "誕生！魔法少女！",
+   "type": "Climax",
+   "rarity": "CC",
+   "color": "blue",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【自】 このカードが手札からクライマックス置場に置かれた時、あなたは1枚引き、自分のキャラを1枚選び、そのターン中、パワーを＋2000し、ソウルを＋1。\n\"ルビー「新生カレイドライナープリズマイリヤ爆誕！」\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/pi_se18/pi_se18_033.png",
+   "variant": ""
+  },
+  {
+   "num": "PI/SE18-34",
+   "name": "クラスカード アーチャー",
+   "type": "Climax",
+   "rarity": "CC",
+   "color": "blue",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【自】 このカードが手札からクライマックス置場に置かれた時、あなたは自分の控え室の青のカードを1枚まで選び、ストック置場に置き、自分のキャラすべてに、そのターン中、ソウルを＋1。\n\"インストール…\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/pi_se18/pi_se18_034.png",
+   "variant": ""
+  },
+  {
+   "num": "PI/SE18-35",
+   "name": "クラスカード ランサー",
+   "type": "Climax",
+   "rarity": "CC",
+   "color": "blue",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[draw.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[draw.gif]]：このカードがトリガーした時、あなたは1枚引いてよい）\n\"ランサーインクルード…！！\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/pi_se18/pi_se18_035.png",
+   "variant": ""
+  },
+  {
+   "num": "PI/SE18-36",
+   "name": "クラスカード セイバー",
+   "type": "Climax",
+   "rarity": "CC",
+   "color": "blue",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[gate.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[gate.gif]]：このカードがトリガーした時、あなたは自分の控え室のクライマックスを1枚選び、手札に戻してよい）\n\"すべての力をもって…今日、ここで戦いを終わらせる！\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/pi_se18/pi_se18_036.png",
+   "variant": ""
+  }
+ ]
+}

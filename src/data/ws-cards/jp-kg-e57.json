@@ -1,0 +1,282 @@
+{
+ "id": "jp-kg-e57",
+ "name": "【エクストラトライアル】刀語",
+ "expansion": 57,
+ "lang": "jp",
+ "release": null,
+ "shopItem": null,
+ "box": null,
+ "cards": [
+  {
+   "num": "KG/SE07-06_",
+   "name": "“否定姫の懐刀”左右田 右衛門左衛門",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのターン中、このカードのパワーを＋1000。\n\"『不肯』あなたに言われたくはない\"",
+   "traits": [
+    "忍",
+    "仮面"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kg_se07/kg_se07_06t.png",
+   "variant": ""
+  },
+  {
+   "num": "KG/SE07-07_",
+   "name": "“心王一鞘流”汽口 慚愧",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 このカードはサイドアタックできない。\n【起】［このカードを【レスト】する］ あなたは自分の《武器》のキャラを1枚選び、そのターン中、パワーを＋1000。\n\"棋士の聖地・出羽の将棋村に道場を構える心王一鞘流の十二代目当主。\"",
+   "traits": [
+    "武器",
+    "将棋"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kg_se07/kg_se07_07t.png",
+   "variant": ""
+  },
+  {
+   "num": "KG/SE07-10_",
+   "name": "千刀流 敦賀 迷彩",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのターン中、他のあなたの「千刀流 敦賀 迷彩」1枚につき、このカードのパワーを＋2000。\n\"では、虚刀流――見せてもらおうか\"",
+   "traits": [
+    "武器",
+    "巫女"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kg_se07/kg_se07_10t.png",
+   "variant": ""
+  },
+  {
+   "num": "KG/SE07-14_",
+   "name": "否定姫の悪巧み",
+   "type": "Climax",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[bounce.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[bounce.gif]]：このカードがトリガーした時、あなたは相手のキャラを1枚選び、手札に戻してよい）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kg_se07/kg_se07_14t.png",
+   "variant": ""
+  },
+  {
+   "num": "KG/SE07-36_",
+   "name": "奇策士 とがめ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "",
+   "text": "-\n\"-\"",
+   "traits": [
+    "和服"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kg_se07/kg_se07_36t.png",
+   "variant": ""
+  },
+  {
+   "num": "KG/SE07-41_",
+   "name": "智謀知略と手練手管 とがめ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【起】【カウンター】 助太刀3000 レベル2 ［(1) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋3000）\n\"-\"",
+   "traits": [
+    "和服",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kg_se07/kg_se07_41t.png",
+   "variant": ""
+  },
+  {
+   "num": "KG/SE07-42_",
+   "name": "ちぇりおー！",
+   "type": "Climax",
+   "rarity": "C",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【自】 このカードが手札からクライマックス置場に置かれた時、あなたは1枚引き、自分のキャラを1枚選び、そのターン中、パワーを＋2000し、ソウルを＋1。\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kg_se07/kg_se07_42t.png",
+   "variant": ""
+  },
+  {
+   "num": "KG/SE07-45_",
+   "name": "旅の終わり",
+   "type": "Climax",
+   "rarity": "C",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[salvage.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[salvage.gif]]：このカードがトリガーした時、あなたは自分の控え室のキャラを1枚選び、手札に戻してよい）\n\"わたしはそなたに、惚れてもいいか？\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kg_se07/kg_se07_45t.png",
+   "variant": ""
+  },
+  {
+   "num": "KG/SE07-T01",
+   "name": "桜吹雪の下 とがめ＆七花",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 このカードの正面のキャラのソウルを－1。\n【自】［(2)］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の《武器》のキャラを1枚選び、手札に戻す。\n\"-\"",
+   "traits": [
+    "和服",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kg_se07/kg_se07_t01.png",
+   "variant": ""
+  },
+  {
+   "num": "KG/SE07-T02",
+   "name": "“三途神社の長”敦賀 迷彩",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "",
+   "text": "-\n\"出雲にある三途神社の実質的な長を務める女性。豪快で明朗快活な性格だが、その裏には、とある悲しい過去を抱えている\"",
+   "traits": [
+    "武器",
+    "巫女"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kg_se07/kg_se07_t02.png",
+   "variant": ""
+  },
+  {
+   "num": "KG/SE07-T03",
+   "name": "堕剣士 錆 白兵",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "yellow",
+   "level": "2",
+   "cost": "2",
+   "power": "9000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "-\n\"太陽すら斬ると言われるほど天才的な剣技を誇る美貌の剣士。まだ年若いながらも日本最強の剣客だと噂されている\"",
+   "traits": [
+    "武器",
+    "和服"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kg_se07/kg_se07_t03.png",
+   "variant": ""
+  },
+  {
+   "num": "KG/SE07-T04",
+   "name": "幼い日の七実＆七花",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋500。\n\"-\"",
+   "traits": [
+    "武器",
+    "和服"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kg_se07/kg_se07_t04.png",
+   "variant": ""
+  },
+  {
+   "num": "KG/SE07-T05",
+   "name": "ふたり旅 とがめ＆七花",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "5500",
+   "soul": 1,
+   "trigger": "",
+   "text": "-\n\"-\"",
+   "traits": [
+    "和服",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kg_se07/kg_se07_t05.png",
+   "variant": ""
+  },
+  {
+   "num": "KG/SE07-T06",
+   "name": "悪刀七実",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "red",
+   "level": "1",
+   "cost": "1",
+   "power": "5500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの《和服》のキャラが2枚以上なら、このカードのパワーを＋1000。\n\"-\"",
+   "traits": [
+    "武器",
+    "和服"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kg_se07/kg_se07_t06.png",
+   "variant": ""
+  },
+  {
+   "num": "KG/SE07-T07",
+   "name": "“一本の日本刀”鑢 七花",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "8500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "-\n\"-\"",
+   "traits": [
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kg_se07/kg_se07_t07.png",
+   "variant": ""
+  }
+ ]
+}

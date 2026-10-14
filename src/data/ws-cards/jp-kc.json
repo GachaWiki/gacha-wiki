@@ -1,0 +1,4172 @@
+{
+ "id": "jp-kc",
+ "name": "艦隊これくしょん -艦これ-",
+ "expansion": 113,
+ "lang": "jp",
+ "release": null,
+ "shopItem": null,
+ "box": null,
+ "cards": [
+  {
+   "num": "KC/S25-001",
+   "name": "大和型戦艦1番艦 大和",
+   "type": "Character",
+   "rarity": "RR+",
+   "color": "yellow",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n【自】 このカードがアタックした時、クライマックス置場に「砲雷撃戦、用意！」があるなら、あなたのキャラすべてに、そのターン中、パワーを＋2000し、そのターン中、相手は『【自】 アンコール』を使えない。（ルールによる『【自】 アンコール ［(3)］』も使えない）\n\"戦艦大和。推して参ります。\"",
+   "traits": [
+    "艦娘",
+    "戦艦"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_001.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-001SP",
+   "name": "大和型戦艦1番艦 大和",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "yellow",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n【自】 このカードがアタックした時、クライマックス置場に「砲雷撃戦、用意！」があるなら、あなたのキャラすべてに、そのターン中、パワーを＋2000し、そのターン中、相手は『【自】 アンコール』を使えない。（ルールによる『【自】 アンコール ［(3)］』も使えない）\n\"SECRET\"",
+   "traits": [
+    "艦娘",
+    "戦艦"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_001sp.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-001SSP",
+   "name": "大和型戦艦1番艦 大和",
+   "type": "Character",
+   "rarity": "SSP",
+   "color": "yellow",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n【自】 このカードがアタックした時、クライマックス置場に「砲雷撃戦、用意！」があるなら、あなたのキャラすべてに、そのターン中、パワーを＋2000し、そのターン中、相手は『【自】 アンコール』を使えない。（ルールによる『【自】 アンコール ［(3)］』も使えない）\n\"SECRET\"",
+   "traits": [
+    "艦娘",
+    "戦艦"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_001ssp.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-002",
+   "name": "大和型戦艦2番艦 武蔵",
+   "type": "Character",
+   "rarity": "RR+",
+   "color": "yellow",
+   "level": "3",
+   "cost": "2",
+   "power": "11000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 このカードはサイドアタックできない。\n【自】 この能力は1ターンにつき1回まで発動する。このカードが手札から舞台に置かれたターン中、このカードの与えたダメージがキャンセルされた時、あなたは自分の山札の上から1枚を、控え室に置き、相手にＸダメージを与える。Ｘはそのカードのレベル＋1に等しい。（クライマックスのレベルは0として扱う。ダメージキャンセルは発生する）\n\"この戦、武蔵に任せてもらおうか！\"",
+   "traits": [
+    "艦娘",
+    "戦艦"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_002.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-002S",
+   "name": "大和型戦艦2番艦 武蔵",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "yellow",
+   "level": "3",
+   "cost": "2",
+   "power": "11000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 このカードはサイドアタックできない。\n【自】 この能力は1ターンにつき1回まで発動する。このカードが手札から舞台に置かれたターン中、このカードの与えたダメージがキャンセルされた時、あなたは自分の山札の上から1枚を、控え室に置き、相手にＸダメージを与える。Ｘはそのカードのレベル＋1に等しい。（クライマックスのレベルは0として扱う。ダメージキャンセルは発生する）\n\"SECRET\"",
+   "traits": [
+    "艦娘",
+    "戦艦"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_002s.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-003",
+   "name": "島風型駆逐艦 島風",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードのバトル相手が【リバース】した時、あなたのクライマックス置場に「速きこと、島風の如し」があるなら、あなたは自分の山札を見て《艦娘》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"連装砲ちゃん、一緒に行くよ！\"",
+   "traits": [
+    "艦娘",
+    "駆逐艦"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_003.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-003S",
+   "name": "島風型駆逐艦 島風",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードのバトル相手が【リバース】した時、あなたのクライマックス置場に「速きこと、島風の如し」があるなら、あなたは自分の山札を見て《艦娘》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"SECRET\"",
+   "traits": [
+    "艦娘",
+    "駆逐艦"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_003s.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-003SP",
+   "name": "島風型駆逐艦 島風",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードのバトル相手が【リバース】した時、あなたのクライマックス置場に「速きこと、島風の如し」があるなら、あなたは自分の山札を見て《艦娘》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"SECRET\"",
+   "traits": [
+    "艦娘",
+    "駆逐艦"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_003sp.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-003SSP",
+   "name": "島風型駆逐艦 島風",
+   "type": "Character",
+   "rarity": "SSP",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードのバトル相手が【リバース】した時、あなたのクライマックス置場に「速きこと、島風の如し」があるなら、あなたは自分の山札を見て《艦娘》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"SECRET\"",
+   "traits": [
+    "艦娘",
+    "駆逐艦"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_003ssp.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-004",
+   "name": "翔鶴型正規空母2番艦 瑞鶴",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 あなたのクライマックス置場に「全航空隊、発艦始め！」が置かれた時、あなたは自分の「空母」を含む特徴を持つキャラを1枚選び、そのターン中、次の能力を与える。『【自】［(1)］ この能力は1ターンにつき1回まで発動する。このカードの与えたダメージがキャンセルされた時、あなたはコストを払ってよい。そうしたら、相手に1ダメージを与える。』（ダメージキャンセルは発生する）\n【起】［このカードを【レスト】する］ あなたは自分のキャラを1枚選び、そのターン中、パワーを＋3000。\n\"五航戦、瑞鶴、出撃よ！\"",
+   "traits": [
+    "艦娘",
+    "正規空母"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_004.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-004SP",
+   "name": "翔鶴型正規空母2番艦 瑞鶴",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 あなたのクライマックス置場に「全航空隊、発艦始め！」が置かれた時、あなたは自分の「空母」を含む特徴を持つキャラを1枚選び、そのターン中、次の能力を与える。『【自】［(1)］ この能力は1ターンにつき1回まで発動する。このカードの与えたダメージがキャンセルされた時、あなたはコストを払ってよい。そうしたら、相手に1ダメージを与える。』（ダメージキャンセルは発生する）\n【起】［このカードを【レスト】する］ あなたは自分のキャラを1枚選び、そのターン中、パワーを＋3000。\n\"SECRET\"",
+   "traits": [
+    "艦娘",
+    "正規空母"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_004sp.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-005",
+   "name": "翔鶴型正規空母1番艦 翔鶴",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "yellow",
+   "level": "2",
+   "cost": "2",
+   "power": "8000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードがアタックした時、クライマックス置場に「全航空隊、発艦始め！」があるなら、あなたは相手のキャラを1枚選び、手札に戻してよい。\n【自】 アンコール ［あなたの山札の上から1枚をクロック置場に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"五航戦、翔鶴、出撃します！\"",
+   "traits": [
+    "艦娘",
+    "正規空母"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_005.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-005S",
+   "name": "翔鶴型正規空母1番艦 翔鶴",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "yellow",
+   "level": "2",
+   "cost": "2",
+   "power": "8000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードがアタックした時、クライマックス置場に「全航空隊、発艦始め！」があるなら、あなたは相手のキャラを1枚選び、手札に戻してよい。\n【自】 アンコール ［あなたの山札の上から1枚をクロック置場に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"SECRET\"",
+   "traits": [
+    "艦娘",
+    "正規空母"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_005s.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-006",
+   "name": "陽炎型駆逐艦7番艦 初風",
+   "type": "Character",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの《艦娘》のキャラすべてに、パワーを＋500。\n【自】 アタックフェイズ中、あなたか相手のキャラが、控え室から手札に戻った時、そのプレイヤーのキャラすべてに、そのターン中、ソウルを－3。\n\"出るわ！足手まといは置いてくわよ！\"",
+   "traits": [
+    "艦娘",
+    "駆逐艦"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_006.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-007",
+   "name": "陽炎型駆逐艦18番艦 舞風",
+   "type": "Character",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から1枚を公開する。そのカードが《艦娘》のキャラでないならクロック置場に置く。（そうでないなら元に戻す）\n\"ナイス判断！提督！\"",
+   "traits": [
+    "艦娘",
+    "駆逐艦"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_007.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-008",
+   "name": "奇跡の駆逐艦 雪風",
+   "type": "Character",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、そのターン中、このカードのパワーを＋1500。\n【自】［(1)］ バトル中のこのカードが【リバース】した時、あなたは自分の山札の上から1枚を公開する。そのカードが《艦娘》のキャラなら、あなたはコストを払ってよい。そうしたら、このカードを手札に戻す。（公開したカードは元に戻す）\n\"幸運の女神のキスを感じちゃいます！\"",
+   "traits": [
+    "艦娘",
+    "駆逐艦"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_008.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-008SP",
+   "name": "奇跡の駆逐艦 雪風",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、そのターン中、このカードのパワーを＋1500。\n【自】［(1)］ バトル中のこのカードが【リバース】した時、あなたは自分の山札の上から1枚を公開する。そのカードが《艦娘》のキャラなら、あなたはコストを払ってよい。そうしたら、このカードを手札に戻す。（公開したカードは元に戻す）\n\"SECRET\"",
+   "traits": [
+    "艦娘",
+    "駆逐艦"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_008sp.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-009",
+   "name": "巡潜III型潜水艦2番艦 伊8",
+   "type": "Character",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1) 手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見て《艦娘》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n【自】［(2)］ このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「巡潜Ⅲ型潜水艦2番艦 伊8改」を1枚選び、舞台の好きな枠に【レスト】して置く。\n\"これはよいものですね、Danke schön。\"",
+   "traits": [
+    "艦娘",
+    "潜水艦"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_009.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-010",
+   "name": "阿賀野型軽巡3番艦 矢矧",
+   "type": "Character",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "1",
+   "cost": "1",
+   "power": "6000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 アンコール ［あなたの山札の上から1枚をクロック置場に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n【起】［あなたの《艦娘》のキャラを2枚【レスト】する］ そのターン中、このカードのパワーを＋2500。\n\"阿賀野型を軽巡と侮らないで！\"",
+   "traits": [
+    "艦娘",
+    "軽巡洋艦"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_010.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-011",
+   "name": "陽炎型駆逐艦1番艦 陽炎",
+   "type": "Character",
+   "rarity": "U",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(2)］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見て《艦娘》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n【自】［(1)］ このカードの与えたダメージがキャンセルされた時、あなたはコストを払ってよい。そうしたら、あなたは1枚引く。\n\"やっと会えた！陽炎よ。よろしくねっ！\"",
+   "traits": [
+    "艦娘",
+    "駆逐艦"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_011.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-012",
+   "name": "夕雲型駆逐艦4番艦 長波",
+   "type": "Character",
+   "rarity": "U",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのターン中、他のあなたのキャラすべてに、パワーを＋500。\n【起】［(2) このカードを【レスト】する］ あなたの《駆逐艦》のキャラすべてに、そのターン中、ソウルを＋1。\n\"いいじゃない、寄せ集め軍団最高！\"",
+   "traits": [
+    "艦娘",
+    "駆逐艦"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_012.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-013",
+   "name": "陽炎型駆逐艦19番艦 秋雲",
+   "type": "Character",
+   "rarity": "U",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードがアタックした時、あなたは自分の手札を公開してよい。そうしたら、それらのカードにクライマックスがあるなら、そのターン中、このカードのパワーを＋2000。\n\"雁首揃えて！いらっしゃいませー！\"",
+   "traits": [
+    "艦娘",
+    "駆逐艦"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_013.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-014",
+   "name": "夕雲型駆逐艦1番艦 夕雲",
+   "type": "Character",
+   "rarity": "U",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 他のあなたの「夕雲型駆逐艦2番艦 巻雲」がアタックした時、そのターン中、このカードのパワーを＋500し、ソウルを＋1。\n\"提督といい、巻雲さんといい、<br />スキンシップ大好きですね。\"",
+   "traits": [
+    "艦娘",
+    "駆逐艦"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_014.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-015",
+   "name": "夕雲型駆逐艦2番艦 巻雲",
+   "type": "Character",
+   "rarity": "U",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【起】［(3)］ そのターン中、このカードのパワーを＋7500し、このカードは次の能力を得る。『【自】 このカードのバトル相手が【リバース】した時、あなたはそのキャラをストック置場に置いてよい。』\n\"司令官様、巻雲、お役に立ちますよぉ？\"",
+   "traits": [
+    "艦娘",
+    "駆逐艦"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_015.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-015P",
+   "name": "夕雲型駆逐艦2番艦 巻雲",
+   "type": "Character",
+   "rarity": "PR",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【起】［(3)］ そのターン中、このカードのパワーを＋7500し、このカードは次の能力を得る。『【自】 このカードのバトル相手が【リバース】した時、あなたはそのキャラをストック置場に置いてよい。』\n\"はわわわわ……こんな時に探照灯つけるなんて！\"",
+   "traits": [
+    "艦娘",
+    "駆逐艦"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_015p.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-016",
+   "name": "巡潜乙型改II潜水艦3番艦 伊58",
+   "type": "Character",
+   "rarity": "U",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードがサイドアタックした時、そのターン中、このカードのソウルを＋1。\n【自】 チェンジ ［(2) このカードを控え室に置く］ あなたのアンコールステップの始めに、このカードが【レスト】しているなら、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「巡潜乙型改Ⅱ潜水艦3番艦 伊58改」を1枚選び、このカードがいた枠に置く。\n\"海の中からこんにちはー！ゴーヤだよ！\"",
+   "traits": [
+    "艦娘",
+    "潜水艦"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_016.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-017",
+   "name": "阿賀野型軽巡1番艦 阿賀野",
+   "type": "Character",
+   "rarity": "U",
+   "color": "yellow",
+   "level": "1",
+   "cost": "1",
+   "power": "7000",
+   "soul": 1,
+   "trigger": "",
+   "text": "-\n\"いよいよ阿賀野の出番ね。えへへ、待ってたんだから。\"",
+   "traits": [
+    "艦娘",
+    "軽巡洋艦"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_017.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-018",
+   "name": "飛鷹型軽空母1番艦 飛鷹",
+   "type": "Character",
+   "rarity": "U",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "7500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】［(2) あなたの山札の上から1枚をクロック置場に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは相手のコスト1以下のキャラを1枚選び、ストック置場に置く。\n【自】 バトル中のこのカードが【リバース】した時、このカードを思い出にする。\n\"全機爆装！さあ、飛び立って！\"",
+   "traits": [
+    "艦娘",
+    "軽空母"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_018.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-019",
+   "name": "巡潜III型潜水艦2番艦 伊8改",
+   "type": "Character",
+   "rarity": "U",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "7500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 他のあなたの《艦娘》のキャラがアタックした時、そのターン中、このカードのパワーを＋1000。\n【起】［あなたの《艦娘》のキャラを1枚【レスト】する］ そのターン中、このカードのパワーを＋1000。\n\"長距離航海の練度なら、誰にも負けません！\"",
+   "traits": [
+    "艦娘",
+    "潜水空母"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_019.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-020",
+   "name": "利根型重巡1番艦 利根",
+   "type": "Character",
+   "rarity": "U",
+   "color": "yellow",
+   "level": "2",
+   "cost": "2",
+   "power": "7500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの《艦娘》のキャラ1枚につき、このカードのパワーを＋500。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から1枚を公開する。そのカードが《艦娘》のキャラなら、そのターン中、このカードのソウルを＋1。（公開したカードは元に戻す）\n\"吾輩が艦隊に加わる以上、もう、索敵の心配はないぞ！\"",
+   "traits": [
+    "艦娘",
+    "重巡洋艦"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_020.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-020P",
+   "name": "利根型重巡1番艦 利根",
+   "type": "Character",
+   "rarity": "PR",
+   "color": "yellow",
+   "level": "2",
+   "cost": "2",
+   "power": "7500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの《艦娘》のキャラ1枚につき、このカードのパワーを＋500。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から1枚を公開する。そのカードが《艦娘》のキャラなら、そのターン中、このカードのソウルを＋1。（公開したカードは元に戻す）\n\"直撃だと！？この程度では吾輩は沈まん！\"",
+   "traits": [
+    "艦娘",
+    "重巡洋艦"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_020p.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-021",
+   "name": "巡潜乙型潜水艦3番艦 伊19改",
+   "type": "Character",
+   "rarity": "U",
+   "color": "yellow",
+   "level": "2",
+   "cost": "2",
+   "power": "8000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたの手札が3枚以下なら、このカードのパワーを＋1500。\n【自】［(2) 手札の《艦娘》のキャラを1枚控え室に置く］ このカードがアタックした時、あなたはコストを払ってよい。そうしたら、あなたは相手の前列のレベル3以下のキャラを1枚と相手の後列のレベル3以下のキャラを1枚選び、手札に戻す。\n\"提督！イクから目を逸らしちゃダメなの！\"",
+   "traits": [
+    "艦娘",
+    "潜水空母"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_021.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-022",
+   "name": "陽炎型駆逐艦2番艦 不知火",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1)］ バトル中のこのカードが【リバース】した時、あなたはコストを払ってよい。そうしたら、このカードを【レスト】し、このカードは次のあなたのスタンドフェイズに【スタンド】しない。\n\"なんでしょうか。……不知火に落ち度でも？\"",
+   "traits": [
+    "艦娘",
+    "駆逐艦"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_022.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-023",
+   "name": "陽炎型駆逐艦3番艦 黒潮",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "",
+   "text": "-\n\"黒潮や、よろしゅうな。\"",
+   "traits": [
+    "艦娘",
+    "駆逐艦"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_023.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-024",
+   "name": "海大VI型a潜水艦1番艦 伊168",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【起】【カウンター】 助太刀1500 レベル1 ［手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋1500）\n\"わぉ！大漁大漁！\"",
+   "traits": [
+    "艦娘",
+    "潜水艦"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_024.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-025",
+   "name": "阿賀野型軽巡2番艦 能代",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "1",
+   "cost": "1",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 この能力は1ターンにつき1回まで発動する。あなたが【起】を使った時、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋1500。\n【起】［(1)］ あなたは自分の《軽巡洋艦》のキャラを1枚選び、そのターン中、パワーを＋2000。\n\"大切な物資、感謝です！\"",
+   "traits": [
+    "艦娘",
+    "軽巡洋艦"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_025.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-026",
+   "name": "巡潜乙型潜水艦3番艦 伊19",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "1",
+   "cost": "1",
+   "power": "6000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、そのターン中、このカードのパワーを＋Ｘ。Ｘはあなたの《艦娘》のキャラの枚数×500に等しい。\n【自】［手札を1枚控え室に置き、このカードを控え室に置く］ このカードがフロントアタックされた時、あなたはコストを払ってよい。そうしたら、あなたは自分の手札の「巡潜乙型潜水艦3番艦 伊19改」を1枚まで選び、このカードがいた枠に防御キャラとして置く。\n\"はーい！イク、行くの！\"",
+   "traits": [
+    "艦娘",
+    "潜水艦"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_026.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-027",
+   "name": "利根型重巡2番艦 筑摩",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【起】【カウンター】 助太刀3000 レベル2 ［(1) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋3000）\n\"水偵たちも大丈夫ね？はい！出撃です！\"",
+   "traits": [
+    "艦娘",
+    "重巡洋艦"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_027.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-028",
+   "name": "飛鷹型軽空母2番艦 隼鷹",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "6000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 このカードは相手の効果に選ばれない。\n【永】 他のあなたの《艦娘》のキャラすべてに、ソウルを＋1。\n\"商船改装空母、隼鷹でーすっ！ひゃっはぁー！\"",
+   "traits": [
+    "艦娘",
+    "軽空母"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_028.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-029",
+   "name": "巡潜乙型改II潜水艦3番艦 伊58改",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "7500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの《艦娘》のキャラが2枚以上なら、このカードのソウルを＋1し、このカードは『【自】 アンコール ［手札のキャラを1枚控え室に置く］』を得る。\n\"ゴーヤ、潜りまーす！\"",
+   "traits": [
+    "艦娘",
+    "潜水空母"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_029.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-030",
+   "name": "伊400型潜水艦2番艦 伊401",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "8000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードがサイドアタックした時、あなたは他の自分のキャラを1枚選び、そのターン中、パワーを＋2500。\n\"潜ります？潜っちゃいます？\"",
+   "traits": [
+    "艦娘",
+    "潜水空母"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_030.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-031",
+   "name": "らしんばん",
+   "type": "Event",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "1",
+   "cost": "1",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "【カウンター】 集中 あなたは自分の山札の上から3枚をめくり、控え室に置く。それらのカードにクライマックスがあるなら、あなたは相手のバトル中のキャラを1枚選び、そのターン中、次の能力を与える。『【永】 このカードはプレイヤーにダメージを与えることができない。』そうでないなら、このカードを山札の上に置く。\n\"どこに進む？\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_031.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-032",
+   "name": "砲雷撃戦、用意！",
+   "type": "Climax",
+   "rarity": "CR",
+   "color": "yellow",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[shot.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[shot.gif]]：このターン中、このカードをトリガーした攻撃キャラが次に与えるダメージがキャンセルされた時、相手に1ダメージを与える）\n\"戦艦大和。連合艦隊、出撃です。\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_032.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-032R",
+   "name": "砲雷撃戦、用意！",
+   "type": "Climax",
+   "rarity": "RRR",
+   "color": "yellow",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[shot.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[shot.gif]]：このターン中、このカードをトリガーした攻撃キャラが次に与えるダメージがキャンセルされた時、相手に1ダメージを与える）\n\"SECRET\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_032r.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-033",
+   "name": "全航空隊、発艦始め！",
+   "type": "Climax",
+   "rarity": "CR",
+   "color": "yellow",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[bounce.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[bounce.gif]]：このカードがトリガーした時、あなたは相手のキャラを1枚選び、手札に戻してよい）\n\"翔鶴「いい？瑞鶴、行くわよ！機動部隊、出撃！」\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_033.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-033R",
+   "name": "全航空隊、発艦始め！",
+   "type": "Climax",
+   "rarity": "RRR",
+   "color": "yellow",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[bounce.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[bounce.gif]]：このカードがトリガーした時、あなたは相手のキャラを1枚選び、手札に戻してよい）\n\"SECRET\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_033r.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-034",
+   "name": "速きこと、島風の如し",
+   "type": "Climax",
+   "rarity": "CC",
+   "color": "yellow",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【自】 このカードが手札からクライマックス置場に置かれた時、あなたは1枚引き、自分のキャラを1枚選び、そのターン中、パワーを＋2000し、ソウルを＋1。\n\"私には誰も追いつけないよ！\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_034.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-034R",
+   "name": "速きこと、島風の如し",
+   "type": "Climax",
+   "rarity": "RRR",
+   "color": "yellow",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【自】 このカードが手札からクライマックス置場に置かれた時、あなたは1枚引き、自分のキャラを1枚選び、そのターン中、パワーを＋2000し、ソウルを＋1。\n\"SECRET\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_034r.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-035",
+   "name": "赤城型正規空母 赤城改",
+   "type": "Character",
+   "rarity": "RR+",
+   "color": "green",
+   "level": "3",
+   "cost": "2",
+   "power": "9500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは2枚まで引き、自分の手札を1枚選び、控え室に置く。\n【自】 あなたのクライマックスフェイズの始めに、あなたは自分のストックすべてを、控え室に置き、あなたのキャラすべてに、次の相手のターンの終わりまで、パワーを＋1000。\n【自】 このカードのバトル相手が【リバース】した時、あなたのクライマックス置場に「一航戦赤城、出ます！」があるなら、あなたはそのキャラをクロック置場に置いてよい。\n\"艦載機のみなさん、用意はいい？\"",
+   "traits": [
+    "艦娘",
+    "正規空母"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_035.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-035SP",
+   "name": "赤城型正規空母 赤城改",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "green",
+   "level": "3",
+   "cost": "2",
+   "power": "9500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは2枚まで引き、自分の手札を1枚選び、控え室に置く。\n【自】 あなたのクライマックスフェイズの始めに、あなたは自分のストックすべてを、控え室に置き、あなたのキャラすべてに、次の相手のターンの終わりまで、パワーを＋1000。\n【自】 このカードのバトル相手が【リバース】した時、あなたのクライマックス置場に「一航戦赤城、出ます！」があるなら、あなたはそのキャラをクロック置場に置いてよい。\n\"SECRET\"",
+   "traits": [
+    "艦娘",
+    "正規空母"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_035sp.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-036",
+   "name": "加賀型正規空母 加賀",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "green",
+   "level": "3",
+   "cost": "2",
+   "power": "7500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの《艦娘》のキャラすべてに、パワーを＋1500。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から2枚を、このカードの下にマーカーとして置いてよい。\n【自】［(3)］ 相手のアタックフェイズの始めに、あなたはコストを払ってよい。そうしたら、あなたは相手のキャラを1枚選び、そのターン中、ソウルを＋4。\n【自】 あなたのドローフェイズの始めに、あなたはこのカードの下のマーカーをすべてストック置場に置く。\n\"ここは譲れません。\"",
+   "traits": [
+    "艦娘",
+    "正規空母"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_036.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-036S",
+   "name": "加賀型正規空母 加賀",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "3",
+   "cost": "2",
+   "power": "7500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの《艦娘》のキャラすべてに、パワーを＋1500。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から2枚を、このカードの下にマーカーとして置いてよい。\n【自】［(3)］ 相手のアタックフェイズの始めに、あなたはコストを払ってよい。そうしたら、あなたは相手のキャラを1枚選び、そのターン中、ソウルを＋4。\n【自】 あなたのドローフェイズの始めに、あなたはこのカードの下のマーカーをすべてストック置場に置く。\n\"SECRET\"",
+   "traits": [
+    "艦娘",
+    "正規空母"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_036s.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-036SP",
+   "name": "加賀型正規空母 加賀",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "green",
+   "level": "3",
+   "cost": "2",
+   "power": "7500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの《艦娘》のキャラすべてに、パワーを＋1500。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から2枚を、このカードの下にマーカーとして置いてよい。\n【自】［(3)］ 相手のアタックフェイズの始めに、あなたはコストを払ってよい。そうしたら、あなたは相手のキャラを1枚選び、そのターン中、ソウルを＋4。\n【自】 あなたのドローフェイズの始めに、あなたはこのカードの下のマーカーをすべてストック置場に置く。\n\"SECRET\"",
+   "traits": [
+    "艦娘",
+    "正規空母"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_036sp.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-037",
+   "name": "夕張型軽巡 夕張",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "green",
+   "level": "1",
+   "cost": "1",
+   "power": "6000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 このカードは、あなたの控え室のクライマックスが1枚以下なら、手札からプレイできない。\n【永】 あなたのストックが4枚以上なら、このカードのパワーを＋1000。\n【自】 相手のキャラが、控え室から手札に戻った時、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋2000。\n【永】 あなたのレベルが2以上なら、このカードのパワーを＋1500。\n\"あとで感想、聞かせてね！\"",
+   "traits": [
+    "艦娘",
+    "軽巡洋艦"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_037.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-037SP",
+   "name": "夕張型軽巡 夕張",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "green",
+   "level": "1",
+   "cost": "1",
+   "power": "6000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 このカードは、あなたの控え室のクライマックスが1枚以下なら、手札からプレイできない。\n【永】 あなたのストックが4枚以上なら、このカードのパワーを＋1000。\n【自】 相手のキャラが、控え室から手札に戻った時、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋2000。\n【永】 あなたのレベルが2以上なら、このカードのパワーを＋1500。\n\"SECRET\"",
+   "traits": [
+    "艦娘",
+    "軽巡洋艦"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_037sp.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-038",
+   "name": "“信頼”の駆逐艦 Верный",
+   "type": "Character",
+   "rarity": "R",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 記憶 あなたの思い出置場に「暁型駆逐艦2番艦 響」があるなら、このカードのパワーを＋1000。\n\"ひび…Верныйだ。信頼できると言う意味の名なんだ。\"",
+   "traits": [
+    "艦娘",
+    "駆逐艦"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_038.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-038S",
+   "name": "“信頼”の駆逐艦 Верный",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 記憶 あなたの思い出置場に「暁型駆逐艦2番艦 響」があるなら、このカードのパワーを＋1000。\n\"SECRET\"",
+   "traits": [
+    "艦娘",
+    "駆逐艦"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_038s.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-039",
+   "name": "青葉型重巡2番艦 衣笠改二",
+   "type": "Character",
+   "rarity": "R",
+   "color": "green",
+   "level": "2",
+   "cost": "1",
+   "power": "8000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から1枚を公開する。そのカードが《艦娘》のキャラなら、そのターン中、このカードのパワーを＋2000。（公開したカードは元に戻す）\n\"衣笠さんにお任せ！\"",
+   "traits": [
+    "艦娘",
+    "重巡洋艦"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_039.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-039S",
+   "name": "青葉型重巡2番艦 衣笠改二",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "2",
+   "cost": "1",
+   "power": "8000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から1枚を公開する。そのカードが《艦娘》のキャラなら、そのターン中、このカードのパワーを＋2000。（公開したカードは元に戻す）\n\"SECRET\"",
+   "traits": [
+    "艦娘",
+    "重巡洋艦"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_039s.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-040",
+   "name": "千歳型軽空母1番艦 千歳航改二",
+   "type": "Character",
+   "rarity": "R",
+   "color": "green",
+   "level": "2",
+   "cost": "1",
+   "power": "5500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの《艦娘》のキャラすべてに、パワーを＋1000。\n【自】 アンコール ［(2)］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"新開発の二座水上偵察機が自慢なの！\"",
+   "traits": [
+    "艦娘",
+    "軽空母"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_040.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-041",
+   "name": "千歳型軽空母2番艦 千代田航改二",
+   "type": "Character",
+   "rarity": "R",
+   "color": "green",
+   "level": "2",
+   "cost": "2",
+   "power": "2500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋1500。\n【自】 相手のキャラが、控え室から手札に戻った時、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋2000。\n\"艦載機の練度も十分。出撃ね！\"",
+   "traits": [
+    "艦娘",
+    "軽空母"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_041.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-042",
+   "name": "伊勢型航空戦艦1番艦 伊勢改",
+   "type": "Character",
+   "rarity": "R",
+   "color": "green",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの「伊勢型航空戦艦2番艦 日向改」すべてに、パワーを＋1000。\n【自】［手札を1枚控え室に置く］ 相手のアタックフェイズの始めに、あなたはコストを払ってよい。そうしたら、あなたは他の自分のキャラを1枚とこのカードを選び、それぞれを【スタンド】して入れ替え、そのターン中、このカードのパワーを＋2000。\n\"主砲、四基八門、一斉射！\"",
+   "traits": [
+    "艦娘",
+    "航空戦艦"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_042.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-043",
+   "name": "伊勢型航空戦艦2番艦 日向改",
+   "type": "Character",
+   "rarity": "R",
+   "color": "green",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの「伊勢型航空戦艦1番艦 伊勢改」すべてに、パワーを＋1000。\n【自】［手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時か「伊勢型戦艦2番艦 日向」の【自】の効果で舞台に置かれた時、あなたはコストを払ってよい。そうしたら、そのターン中、このカードのパワーを＋1000し、このカードは次の能力を得る。『このカードのバトル相手が【リバース】した時、あなたはそのキャラをクロック置場に置いてよい。』\n【自】 この能力は1ターンにつき1回まで発動する。あなたが【起】を使った時、そのターン中、このカードのパワーを＋1000。\n\"航空戦艦の真の力、思い知れ！\"",
+   "traits": [
+    "艦娘",
+    "航空戦艦"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_043.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-044",
+   "name": "綾波型駆逐艦1番艦 綾波",
+   "type": "Character",
+   "rarity": "U",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたのキャラがいないなら、このカードのパワーを＋2000。\n【自】 このカードが手札から舞台に置かれた時、そのターン中、このカードのパワーを＋Ｘ。Ｘは相手のキャラの枚数×500に等しい。\n\"綾波が一番だなんて……嬉しいです。<br />……司令官のおかげですね。\"",
+   "traits": [
+    "艦娘",
+    "駆逐艦"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_044.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-045",
+   "name": "初春型駆逐艦1番艦 初春",
+   "type": "Character",
+   "rarity": "U",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 このカードの下にマーカーがあるなら、このカードのパワーを＋2000。\n【起】［このカードを【レスト】する］ このカードの下にマーカーがないなら、あなたは自分の控え室の《艦娘》のキャラを1枚選び、このカードの下にマーカーとして裏向きに置く。\n\"初春、推して参るぞ！\"",
+   "traits": [
+    "艦娘",
+    "駆逐艦"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_045.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-046",
+   "name": "暁型駆逐艦1番艦 暁",
+   "type": "Character",
+   "rarity": "U",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードがアタックした時、クライマックス置場に「暁の出番ね、見てなさい！」があるなら、他のあなたのレベル1以下のキャラすべてに、そのターン中、パワーを＋2000。\n\"暁よ。一人前のレディーとして扱ってよね！\"",
+   "traits": [
+    "艦娘",
+    "駆逐艦"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_046.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-046S",
+   "name": "暁型駆逐艦1番艦 暁",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードがアタックした時、クライマックス置場に「暁の出番ね、見てなさい！」があるなら、他のあなたのレベル1以下のキャラすべてに、そのターン中、パワーを＋2000。\n\"SECRET\"",
+   "traits": [
+    "艦娘",
+    "駆逐艦"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_046s.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-047",
+   "name": "古鷹型重巡1番艦 古鷹",
+   "type": "Character",
+   "rarity": "U",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 あなたがこのカードの『助太刀』を使った時、あなたは自分の手札を公開してよい。そうしたら、それらのカードにクライマックスがあるなら、あなたは自分のバトル中のキャラを1枚選び、そのターン中、パワーを＋1000。\n【起】【カウンター】 助太刀1000 レベル1 ［手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋1000）\n\"重巡洋艦のいいところ、たくさん知ってもらえると嬉しいです。\"",
+   "traits": [
+    "艦娘",
+    "重巡洋艦"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_047.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-048",
+   "name": "川内型軽巡3番艦 那珂",
+   "type": "Character",
+   "rarity": "U",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "5500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から1枚を、控え室に置く。そのカードがクライマックスなら、このカードをストック置場に置く。\n【自】 アンコール ［手札のキャラを1枚控え室に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"那珂ちゃん、現場はいりまーす！\"",
+   "traits": [
+    "艦娘",
+    "軽巡洋艦"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_048.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-048P",
+   "name": "川内型軽巡3番艦 那珂",
+   "type": "Character",
+   "rarity": "PR",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "5500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から1枚を、控え室に置く。そのカードがクライマックスなら、このカードをストック置場に置く。\n【自】 アンコール ［手札のキャラを1枚控え室に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"きゃあっ、顔はやめて……。\"",
+   "traits": [
+    "艦娘",
+    "軽巡洋艦"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_048p.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-049",
+   "name": "川内型軽巡1番艦 川内",
+   "type": "Character",
+   "rarity": "U",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 あなたのクライマックス置場に「絶対夜戦してよね！」が置かれた時、前列にこのカードがいるなら、次の相手のターンの終わりまで、このカードは次の能力を得る。『【永】 レベル1以下のキャラすべてに、ソウルを＋2。』\n\"夜は良いよね～夜はさ。\"",
+   "traits": [
+    "艦娘",
+    "軽巡洋艦"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_049.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-050",
+   "name": "青葉型重巡1番艦 青葉",
+   "type": "Character",
+   "rarity": "U",
+   "color": "green",
+   "level": "1",
+   "cost": "1",
+   "power": "7500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、相手は自分のキャラを1枚選び、そのターン中、パワーを＋1000。\n\"ども、恐縮です、青葉です！一言お願いします！\"",
+   "traits": [
+    "艦娘",
+    "重巡洋艦"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_050.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-051",
+   "name": "伊勢型戦艦1番艦 伊勢",
+   "type": "Character",
+   "rarity": "U",
+   "color": "green",
+   "level": "2",
+   "cost": "1",
+   "power": "7500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの「伊勢型戦艦2番艦 日向」すべてに、パワーを＋1000。\n【自】［(1) このカードをクロック置場に置く］ あなたのクライマックス置場に「航空戦艦、出撃！」が置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「伊勢型航空戦艦1番艦 伊勢改」を1枚選び、このカードがいた枠に置く。\n\"えっ、私の戦果が一番なの？やったぁ！<br />日向、見た見た？どうよ！\"",
+   "traits": [
+    "艦娘",
+    "戦艦"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_051.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-052",
+   "name": "伊勢型戦艦2番艦 日向",
+   "type": "Character",
+   "rarity": "U",
+   "color": "green",
+   "level": "2",
+   "cost": "1",
+   "power": "7500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの「伊勢型戦艦1番艦 伊勢」すべてに、パワーを＋1000。\n【自】［(1) このカードをクロック置場に置く］ あなたのクライマックス置場に「航空戦艦、出撃！」が置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「伊勢型航空戦艦2番艦 日向改」を1枚選び、このカードがいた枠に置く。\n\"私の攻撃が効果的だったのか……なるほど。<br />悪い気持ちではない、が意味もないな。\"",
+   "traits": [
+    "艦娘",
+    "戦艦"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_052.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-053",
+   "name": "龍驤型軽空母 龍驤",
+   "type": "Character",
+   "rarity": "U",
+   "color": "green",
+   "level": "2",
+   "cost": "1",
+   "power": "8000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【起】［手札の《艦娘》のキャラを1枚控え室に置く］ そのターン中、このカードのパワーを＋3500。\n\"やったで！ウチ大活躍や！褒めて褒めてぇ！\"",
+   "traits": [
+    "艦娘",
+    "軽空母"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_053.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-054",
+   "name": "高雄型重巡2番艦 愛宕",
+   "type": "Character",
+   "rarity": "U",
+   "color": "green",
+   "level": "2",
+   "cost": "2",
+   "power": "9500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードがアタックした時、クライマックス置場に「ぱんぱかぱーんっ！」があるなら、あなたは自分の控え室の《重巡洋艦》のキャラを2枚まで選び、ストック置場に好きな順番で置く。\n【自】 このカードがアタックした時、あなたは自分の山札の上から1枚を公開する。そのカードのレベルが0以下なら、そのターン中、このカードのソウルを－2。（クライマックスのレベルは0として扱う。公開したカードは元に戻す）\n\"ヨーソロー。うふっ♪\"",
+   "traits": [
+    "艦娘",
+    "重巡洋艦"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_054.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-054SP",
+   "name": "高雄型重巡2番艦 愛宕",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "green",
+   "level": "2",
+   "cost": "2",
+   "power": "9500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードがアタックした時、クライマックス置場に「ぱんぱかぱーんっ！」があるなら、あなたは自分の控え室の《重巡洋艦》のキャラを2枚まで選び、ストック置場に好きな順番で置く。\n【自】 このカードがアタックした時、あなたは自分の山札の上から1枚を公開する。そのカードのレベルが0以下なら、そのターン中、このカードのソウルを－2。（クライマックスのレベルは0として扱う。公開したカードは元に戻す）\n\"SECRET\"",
+   "traits": [
+    "艦娘",
+    "重巡洋艦"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_054sp.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-055",
+   "name": "綾波型駆逐艦8番艦 曙",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの前列の中央の枠のキャラに、パワーを＋1000。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札を上から2枚まで見て、山札の上に元の順番で置く。\n\"こっち見んな！この糞提督！\"",
+   "traits": [
+    "艦娘",
+    "駆逐艦"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_055.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-056",
+   "name": "暁型駆逐艦2番艦 響",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1) このカードを思い出にする］ バトル中のこのカードが【リバース】した時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「“信頼”の駆逐艦 Верный」を1枚選び、このカードがいた枠に【レスト】して置く。\n【自】 記憶 思い出置場にこのカードがあるなら、あなたか相手のクロックが、自分のカードの効果で控え室に置かれた時、そのプレイヤーは自分のストックの上から2枚を、控え室に置いてよい。そうしないなら、そのプレイヤーは自分の山札の上から1枚を、クロック置場に置く。\n\"不死鳥の名は伊達じゃない。\"",
+   "traits": [
+    "艦娘",
+    "駆逐艦"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_056.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-057",
+   "name": "しっかり者 雷",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【起】 集中 ［(1) このカードを【レスト】する］ あなたは自分の山札の上から4枚をめくり、控え室に置く。それらのカードのクライマックス1枚につき、次の行動を行う。『あなたは自分のクロックを1枚選び、手札に戻し、自分の山札の上から1枚を、クロック置場に置く。』\n\"雷、司令官のために出撃しちゃうね。\"",
+   "traits": [
+    "艦娘",
+    "駆逐艦"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_057.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-057SP",
+   "name": "しっかり者 雷",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【起】 集中 ［(1) このカードを【レスト】する］ あなたは自分の山札の上から4枚をめくり、控え室に置く。それらのカードのクライマックス1枚につき、次の行動を行う。『あなたは自分のクロックを1枚選び、手札に戻し、自分の山札の上から1枚を、クロック置場に置く。』\n\"SECRET\"",
+   "traits": [
+    "艦娘",
+    "駆逐艦"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_057sp.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-058",
+   "name": "初春型駆逐艦2番艦 子日",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 このカードの下にマーカーがあるなら、このカードのレベルを＋1し、パワーを＋2500。\n【起】［このカードを【レスト】する］ このカードの下にマーカーがないなら、あなたは自分の控え室のクライマックスを1枚選び、このカードの下にマーカーとして裏向きに置く。\n\"はじめまして、ねのひ、だよぉ！<br />艦名、読みづらくなんか、ないよね？ね？\"",
+   "traits": [
+    "艦娘",
+    "駆逐艦"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_058.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-059",
+   "name": "綾波型駆逐艦2番艦 敷波",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［このカードを控え室に置く］ 他のあなたの《艦娘》のキャラがフロントアタックされた時、あなたはコストを払ってよい。そうしたら、あなたは自分のバトル中のキャラを1枚選び、そのターン中、パワーを＋1000。\n\"じゃ、いっきまぁーす！しゅっつげーき！\"",
+   "traits": [
+    "艦娘",
+    "駆逐艦"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_059.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-060",
+   "name": "綾波型駆逐艦9番艦 漣",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［あなたの山札の上から1枚をクロック置場に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは相手の前列のレベル0以下のキャラを1枚選ぶ。そのキャラは次の相手のスタンドフェイズに【スタンド】しない。\n\"逃げられないよ！漣はしつこいからっ！\"",
+   "traits": [
+    "艦娘",
+    "駆逐艦"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_060.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-061",
+   "name": "ドジっ娘 電",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から1枚を公開する。そのカードが《艦娘》のキャラでないなら、このカードを【レスト】する。（公開したカードは元に戻す）\n【自】［(1) あなたの山札の上から1枚をクロック置場に置く］ このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見てレベル1以下のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"はわわわ、びっくりしたのです！\"",
+   "traits": [
+    "艦娘",
+    "駆逐艦"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_061.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-061SP",
+   "name": "ドジっ娘 電",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から1枚を公開する。そのカードが《艦娘》のキャラでないなら、このカードを【レスト】する。（公開したカードは元に戻す）\n【自】［(1) あなたの山札の上から1枚をクロック置場に置く］ このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見てレベル1以下のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"SECRET\"",
+   "traits": [
+    "艦娘",
+    "駆逐艦"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_061sp.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-062",
+   "name": "初春型駆逐艦4番艦 初霜",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 この能力は1ターンにつき1回まで発動する。バトル中のこのカードが【リバース】した時、あなたは自分の山札の上から1枚を公開する。そのカードのレベルが2以上なら、あなたはこのカードを【レスト】してよい。（クライマックスのレベルは0として扱う。公開したカードは元に戻す）\n\"はいっ！いつでもご質問どうぞ。\"",
+   "traits": [
+    "艦娘",
+    "駆逐艦"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_062.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-063",
+   "name": "綾波型駆逐艦7番艦 朧",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "",
+   "text": "-\n\"朧が頑張ったって？<br />あ……そう、そうね、次も頑張るから！\"",
+   "traits": [
+    "艦娘",
+    "駆逐艦"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_063.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-064",
+   "name": "綾波型駆逐艦10番艦 潮",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 このカードの正面のキャラに、『【自】 アンコール ［手札のキャラを1枚控え室に置く］』を与える。\n\"できれば全員助けます！\"",
+   "traits": [
+    "艦娘",
+    "駆逐艦"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_064.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-065",
+   "name": "初春型駆逐艦3番艦 若葉",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 あなたのクライマックスフェイズの始めに、他のあなたの【レスト】しているキャラがいるなら、このカードを【レスト】する。\n\"いつでも出撃可能だ。\"",
+   "traits": [
+    "艦娘",
+    "駆逐艦"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_065.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-066",
+   "name": "川内型軽巡2番艦 神通",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋1000。【自】 他のあなたのキャラが手札から舞台に置かれた時、あなたは自分の山札の上から1枚を公開する。そのカードがクライマックスなら、そのキャラを【レスト】する。（公開したカードは元に戻す）\n\"そんなに触られると、わたし混乱しちゃいます……。\"",
+   "traits": [
+    "艦娘",
+    "軽巡洋艦"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_066.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-067",
+   "name": "青葉型重巡2番艦 衣笠",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［手札を1枚控え室に置き、このカードを控え室に置く］ このカードがフロントアタックされた時、あなたはコストを払ってよい。そうしたら、あなたは自分の手札の「青葉型重巡2番艦 衣笠改二」を1枚まで選び、このカードがいた枠に防御キャラとして置く。\n\"はーいっ！衣笠さんの登場よ！\"",
+   "traits": [
+    "艦娘",
+    "重巡洋艦"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_067.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-068",
+   "name": "古鷹型重巡2番艦 加古",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "5500",
+   "soul": 1,
+   "trigger": "",
+   "text": "-\n\"古鷹型重巡の2番艦、加古ってんだ、<br />よっろしくぅー！\"",
+   "traits": [
+    "艦娘",
+    "重巡洋艦"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_068.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-069",
+   "name": "千歳型水上機母艦1番艦 千歳",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 チェンジ ［(2) このカードを控え室に置く］ あなたのアンコールステップの始めに、このカードが【レスト】しているなら、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「千歳型軽空母1番艦 千歳航改二」を1枚選び、このカードがいた枠に置く。\n【起】［このカードを【レスト】する］ あなたは自分のキャラを1枚選び、そのターン中、パワーを＋1500。\n\"千歳です。日本では初めての<br />水上機母艦なのよ。よろしくね！\"",
+   "traits": [
+    "艦娘",
+    "水上機母艦"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_069.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-069S",
+   "name": "千歳型水上機母艦1番艦 千歳",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 チェンジ ［(2) このカードを控え室に置く］ あなたのアンコールステップの始めに、このカードが【レスト】しているなら、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「千歳型軽空母1番艦 千歳航改二」を1枚選び、このカードがいた枠に置く。\n【起】［このカードを【レスト】する］ あなたは自分のキャラを1枚選び、そのターン中、パワーを＋1500。\n\"SECRET\"",
+   "traits": [
+    "艦娘",
+    "水上機母艦"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_069s.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-070",
+   "name": "千歳型水上機母艦2番艦 千代田",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "1",
+   "cost": "1",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 チェンジ ［(2) このカードを控え室に置く］ あなたのアンコールステップの始めに、このカードが【レスト】しているなら、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「千歳型軽空母2番艦 千代田航改二」を1枚選び、このカードがいた枠に置く。\n【起】［このカードを【レスト】する］ あなたは自分の山札の上から1枚を公開する。そのカードのレベルが1以上ならストック置場に置く。（クライマックスのレベルは0として扱う。そうでないなら元に戻す）\n\"水上機母艦、千代田です。<br />姉の千歳がいつも迷惑かけてませんか？\"",
+   "traits": [
+    "艦娘",
+    "水上機母艦"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_070.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-070S",
+   "name": "千歳型水上機母艦2番艦 千代田",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "1",
+   "cost": "1",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 チェンジ ［(2) このカードを控え室に置く］ あなたのアンコールステップの始めに、このカードが【レスト】しているなら、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「千歳型軽空母2番艦 千代田航改二」を1枚選び、このカードがいた枠に置く。\n【起】［このカードを【レスト】する］ あなたは自分の山札の上から1枚を公開する。そのカードのレベルが1以上ならストック置場に置く。（クライマックスのレベルは0として扱う。そうでないなら元に戻す）\n\"SECRET\"",
+   "traits": [
+    "艦娘",
+    "水上機母艦"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_070s.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-071",
+   "name": "高雄型重巡4番艦 鳥海",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "2",
+   "cost": "1",
+   "power": "8500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "-\n\"私の計算通りだったわ。<br />もちろん司令官さんの戦略だから、できたのよ。\"",
+   "traits": [
+    "艦娘",
+    "重巡洋艦"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_071.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-072",
+   "name": "高雄型重巡3番艦 摩耶",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "2",
+   "cost": "2",
+   "power": "1000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【起】【カウンター】 助太刀4000 レベル2 ［(2) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋4000）\n\"ようし、みなぎってきたぜ！やるぞ！\"",
+   "traits": [
+    "艦娘",
+    "重巡洋艦"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_072.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-073",
+   "name": "高雄型重巡1番艦 高雄",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "2",
+   "cost": "2",
+   "power": "7500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 前列の中央の枠にこのカードがいるなら、このカードのパワーを＋1000。\n【永】 他のあなたの《艦娘》のキャラ1枚につき、このカードのパワーを＋500。\n\"私に続いてくださーい！\"",
+   "traits": [
+    "艦娘",
+    "重巡洋艦"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_073.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-074",
+   "name": "任務娘",
+   "type": "Event",
+   "rarity": "C",
+   "color": "green",
+   "level": "2",
+   "cost": "0",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "あなたは自分のキャラを2枚まで選び、そのターン中、パワーを＋1000し、次の能力を与える。『【自】 このカードのバトル相手が【リバース】した時、あなたは自分の山札の上から1枚を、ストック置場に置いてよい。』\n\"お疲れ様です。\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_074.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-075",
+   "name": "一航戦赤城、出ます！",
+   "type": "Climax",
+   "rarity": "CR",
+   "color": "green",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[treasure.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[treasure.gif]]：このカードがトリガーした時、あなたはこのカードを手札に戻す。あなたは自分の山札の上から1枚を、ストック置場に置いてよい）\n\"第一次攻撃隊、発艦してください！\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_075.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-075R",
+   "name": "一航戦赤城、出ます！",
+   "type": "Climax",
+   "rarity": "RRR",
+   "color": "green",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[treasure.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[treasure.gif]]：このカードがトリガーした時、あなたはこのカードを手札に戻す。あなたは自分の山札の上から1枚を、ストック置場に置いてよい）\n\"SECRET\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_075r.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-076",
+   "name": "ぱんぱかぱーんっ！",
+   "type": "Climax",
+   "rarity": "CR",
+   "color": "green",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[treasure.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[treasure.gif]]：このカードがトリガーした時、あなたはこのカードを手札に戻す。あなたは自分の山札の上から1枚を、ストック置場に置いてよい）\n\"わたしが力になってあげるわ♪\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_076.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-076R",
+   "name": "ぱんぱかぱーんっ！",
+   "type": "Climax",
+   "rarity": "RRR",
+   "color": "green",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[treasure.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[treasure.gif]]：このカードがトリガーした時、あなたはこのカードを手札に戻す。あなたは自分の山札の上から1枚を、ストック置場に置いてよい）\n\"SECRET\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_076r.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-077",
+   "name": "航空戦艦、出撃！",
+   "type": "Climax",
+   "rarity": "CC",
+   "color": "green",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【自】 このカードが手札からクライマックス置場に置かれた時、あなたは自分の控え室の緑のカードを1枚まで選び、ストック置場に置き、自分のキャラすべてに、そのターン中、ソウルを＋1。\n\"伊勢「日向遅いよ。置いてくからね？」\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_077.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-077R",
+   "name": "航空戦艦、出撃！",
+   "type": "Climax",
+   "rarity": "RRR",
+   "color": "green",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【自】 このカードが手札からクライマックス置場に置かれた時、あなたは自分の控え室の緑のカードを1枚まで選び、ストック置場に置き、自分のキャラすべてに、そのターン中、ソウルを＋1。\n\"SECRET\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_077r.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-078",
+   "name": "絶対夜戦してよね！",
+   "type": "Climax",
+   "rarity": "CC",
+   "color": "green",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【自】 このカードが手札からクライマックス置場に置かれた時、あなたは1枚引き、自分のキャラを1枚選び、そのターン中、パワーを＋2000し、ソウルを＋1。\n\"砲雷撃戦よーい！撃てー！\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_078.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-078R",
+   "name": "絶対夜戦してよね！",
+   "type": "Climax",
+   "rarity": "RRR",
+   "color": "green",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【自】 このカードが手札からクライマックス置場に置かれた時、あなたは1枚引き、自分のキャラを1枚選び、そのターン中、パワーを＋2000し、ソウルを＋1。\n\"SECRET\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_078r.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-079",
+   "name": "暁の出番ね、見てなさい！",
+   "type": "Climax",
+   "rarity": "CC",
+   "color": "green",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【永】 あなたのキャラすべてに、ソウルを＋2。\n\"暁、水雷戦隊、出撃します！\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_079.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-079R",
+   "name": "暁の出番ね、見てなさい！",
+   "type": "Climax",
+   "rarity": "RRR",
+   "color": "green",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【永】 あなたのキャラすべてに、ソウルを＋2。\n\"SECRET\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_079r.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-080",
+   "name": "金剛型戦艦1番艦 金剛改二",
+   "type": "Character",
+   "rarity": "RR+",
+   "color": "red",
+   "level": "3",
+   "cost": "3",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの《艦娘》のキャラ1枚につき、このカードのパワーを＋500。\n【自】 このカードが手札から舞台に置かれた時か『チェンジ』で舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n【自】［手札を1枚控え室に置く］ 相手のターン中、バトル中のこのカードが【リバース】した時、あなたはコストを払ってよい。そうしたら、このカードを【レスト】し、次のあなたのアンコールステップの始めに、このカードを控え室に置く。\n\"もっと頑張るから目を離しちゃNo！なんだからネ！\"",
+   "traits": [
+    "艦娘",
+    "戦艦"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_080.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-080SP",
+   "name": "金剛型戦艦1番艦 金剛改二",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "red",
+   "level": "3",
+   "cost": "3",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの《艦娘》のキャラ1枚につき、このカードのパワーを＋500。\n【自】 このカードが手札から舞台に置かれた時か『チェンジ』で舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n【自】［手札を1枚控え室に置く］ 相手のターン中、バトル中のこのカードが【リバース】した時、あなたはコストを払ってよい。そうしたら、このカードを【レスト】し、次のあなたのアンコールステップの始めに、このカードを控え室に置く。\n\"SECRET\"",
+   "traits": [
+    "艦娘",
+    "戦艦"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_080sp.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-081",
+   "name": "金剛型戦艦2番艦 比叡改二",
+   "type": "Character",
+   "rarity": "RR+",
+   "color": "red",
+   "level": "3",
+   "cost": "3",
+   "power": "9500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 このカードのパワーを＋Ｘ。Ｘはこのカードの正面のキャラのレベル×1000に等しい。\n【自】 このカードが手札から舞台に置かれた時か「金剛型戦艦2番艦 比叡」の【起】の効果で舞台に置かれた時、あなたのキャラすべてに、そのターン中、パワーを＋2000。\n\"いつでも準備、できています！\"",
+   "traits": [
+    "艦娘",
+    "戦艦"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_081.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-081S",
+   "name": "金剛型戦艦2番艦 比叡改二",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "3",
+   "cost": "3",
+   "power": "9500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 このカードのパワーを＋Ｘ。Ｘはこのカードの正面のキャラのレベル×1000に等しい。\n【自】 このカードが手札から舞台に置かれた時か「金剛型戦艦2番艦 比叡」の【起】の効果で舞台に置かれた時、あなたのキャラすべてに、そのターン中、パワーを＋2000。\n\"SECRET\"",
+   "traits": [
+    "艦娘",
+    "戦艦"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_081s.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-082",
+   "name": "金剛型戦艦1番艦 金剛",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "8500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、そのターン中、このカードは次の能力を得る。『【自】 このカードのバトル相手が【リバース】した時、あなたは自分の控え室の《艦娘》のキャラを2枚まで選び、手札に戻す。』\n【自】 このカードがアタックした時、クライマックス置場に「撃ちます！Fire！！」があるなら、相手に1ダメージを与え、そのターン中、このカードのパワーを＋3000。（ダメージキャンセルは発生する）\n【自】 チェンジ ［このカードを控え室に置く］ あなたのアンコールステップの始めに、このカードが【レスト】しているなら、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「金剛型戦艦1番艦 金剛改二」を1枚選び、このカードがいた枠に置く。\n\"Yes！私の実力、見せてあげるネー！\"",
+   "traits": [
+    "艦娘",
+    "戦艦"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_082.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-082SSP",
+   "name": "金剛型戦艦1番艦 金剛",
+   "type": "Character",
+   "rarity": "SSP",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "8500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、そのターン中、このカードは次の能力を得る。『【自】 このカードのバトル相手が【リバース】した時、あなたは自分の控え室の《艦娘》のキャラを2枚まで選び、手札に戻す。』\n【自】 このカードがアタックした時、クライマックス置場に「撃ちます！Fire！！」があるなら、相手に1ダメージを与え、そのターン中、このカードのパワーを＋3000。（ダメージキャンセルは発生する）\n【自】 チェンジ ［このカードを控え室に置く］ あなたのアンコールステップの始めに、このカードが【レスト】しているなら、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「金剛型戦艦1番艦 金剛改二」を1枚選び、このカードがいた枠に置く。\n\"SECRET\"",
+   "traits": [
+    "艦娘",
+    "戦艦"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_082ssp.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-083",
+   "name": "金剛型戦艦2番艦 比叡",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "9500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の控え室の《艦娘》のキャラを1枚選び、手札に戻してよい。\n【起】［他のあなたの《艦娘》のキャラを2枚【レスト】し、このカードを控え室に置く］ あなたは自分の控え室の「金剛型戦艦2番艦 比叡改二」を1枚選び、このカードがいた枠に置き、そのターン中、そのキャラのパワーを＋1000。\n\"気合！入れて！行きます！\"",
+   "traits": [
+    "艦娘",
+    "戦艦"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_083.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-083S",
+   "name": "金剛型戦艦2番艦 比叡",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "9500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の控え室の《艦娘》のキャラを1枚選び、手札に戻してよい。\n【起】［他のあなたの《艦娘》のキャラを2枚【レスト】し、このカードを控え室に置く］ あなたは自分の控え室の「金剛型戦艦2番艦 比叡改二」を1枚選び、このカードがいた枠に置き、そのターン中、そのキャラのパワーを＋1000。\n\"SECRET\"",
+   "traits": [
+    "艦娘",
+    "戦艦"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_083s.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-084",
+   "name": "金剛型戦艦3番艦 榛名",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から1枚を公開する。そのカードが《艦娘》のキャラなら、あなたは相手に1ダメージを与えてよい。（ダメージキャンセルは発生する。公開したカードは元に戻す）\n【自】［(1)］ アンコールステップの始めに、他のあなたの前列の【レスト】しているキャラがいないなら、あなたはコストを払ってよい。そうしたら、このカードを【レスト】する。\n【起】［あなたの《艦娘》のキャラを1枚【レスト】する］ そのターン中、このカードのパワーを＋1000。\n\"榛名！いざ、出撃します！\"",
+   "traits": [
+    "艦娘",
+    "戦艦"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_084.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-084SP",
+   "name": "金剛型戦艦3番艦 榛名",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から1枚を公開する。そのカードが《艦娘》のキャラなら、あなたは相手に1ダメージを与えてよい。（ダメージキャンセルは発生する。公開したカードは元に戻す）\n【自】［(1)］ アンコールステップの始めに、他のあなたの前列の【レスト】しているキャラがいないなら、あなたはコストを払ってよい。そうしたら、このカードを【レスト】する。\n【起】［あなたの《艦娘》のキャラを1枚【レスト】する］ そのターン中、このカードのパワーを＋1000。\n\"SECRET\"",
+   "traits": [
+    "艦娘",
+    "戦艦"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_084sp.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-085",
+   "name": "金剛型戦艦4番艦 霧島",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から3枚を、控え室に置く。それらのカードにレベル1のカードとレベル2のカードがあるなら、あなたは相手の控え室のカードを1枚選び、山札の上に置いてよい。（クライマックスのレベルは0として扱う）\n【自】［手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは相手のレベル2以下のキャラを1枚選び、控え室に置く。\n\"マイク音量大丈夫……？チェック、1、2……。よし。<br />はじめまして、私、霧島です。\"",
+   "traits": [
+    "艦娘",
+    "戦艦"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_085.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-085S",
+   "name": "金剛型戦艦4番艦 霧島",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から3枚を、控え室に置く。それらのカードにレベル1のカードとレベル2のカードがあるなら、あなたは相手の控え室のカードを1枚選び、山札の上に置いてよい。（クライマックスのレベルは0として扱う）\n【自】［手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは相手のレベル2以下のキャラを1枚選び、控え室に置く。\n\"SECRET\"",
+   "traits": [
+    "艦娘",
+    "戦艦"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_085s.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-086",
+   "name": "天龍型軽巡1番艦 天龍改",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの《艦娘》のキャラが2枚以上なら、このカードのパワーを＋1000。\n【自】［(1)］ このカードがアタックした時、クライマックス置場に「そう来なくっちゃな、抜錨だっ！」があるなら、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室のキャラを1枚選び、手札に戻す。\n\"天龍、水雷戦隊、出撃するぜ！\"",
+   "traits": [
+    "艦娘",
+    "軽巡洋艦"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_086.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-086SP",
+   "name": "天龍型軽巡1番艦 天龍改",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの《艦娘》のキャラが2枚以上なら、このカードのパワーを＋1000。\n【自】［(1)］ このカードがアタックした時、クライマックス置場に「そう来なくっちゃな、抜錨だっ！」があるなら、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室のキャラを1枚選び、手札に戻す。\n\"SECRET\"",
+   "traits": [
+    "艦娘",
+    "軽巡洋艦"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_086sp.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-087",
+   "name": "球磨型雷巡3番艦 北上改二",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "8000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 あなたのクライマックス置場に「重雷装艦、出撃します！」が置かれた時、前列にこのカードがいるなら、あなたは自分の山札の上から2枚を、控え室に置く。それらのカードにクライマックスがあるなら、相手にＸダメージを与える。Ｘは他のあなたの《重雷装巡洋艦》のキャラの枚数に等しい。（ダメージキャンセルは発生する）\n\"単装砲って、何気に侘び寂びよねー。\"",
+   "traits": [
+    "艦娘",
+    "重雷装巡洋艦"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_087.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-087SP",
+   "name": "球磨型雷巡3番艦 北上改二",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "8000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 あなたのクライマックス置場に「重雷装艦、出撃します！」が置かれた時、前列にこのカードがいるなら、あなたは自分の山札の上から2枚を、控え室に置く。それらのカードにクライマックスがあるなら、相手にＸダメージを与える。Ｘは他のあなたの《重雷装巡洋艦》のキャラの枚数に等しい。（ダメージキャンセルは発生する）\n\"SECRET\"",
+   "traits": [
+    "艦娘",
+    "重雷装巡洋艦"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_087sp.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-088",
+   "name": "球磨型雷巡4番艦 大井改二",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "8000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 あなたのクライマックス置場に「重雷装艦、出撃します！」が置かれた時、前列にこのカードがいるなら、あなたは自分の山札の上から2枚を、控え室に置く。それらのカードにクライマックスがあるなら、相手にＸダメージを与える。Ｘは他のあなたの《重雷装巡洋艦》のキャラの枚数に等しい。（ダメージキャンセルは発生する）\n\"私、砲雷撃戦って聞くと……燃えちゃいます！\"",
+   "traits": [
+    "艦娘",
+    "重雷装巡洋艦"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_088.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-089",
+   "name": "球磨型雷巡5番艦 木曾改二",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "6000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 このカードの下にマーカーがあるなら、このカードのパワーを＋3000。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分の控え室の「球磨型軽巡5番艦 木曾」を1枚選び、このカードの下にマーカーとして裏向きに置いてよい。\n【起】［このカードの下のマーカーを1枚控え室に置く］ そのターン中、このカードのソウルを＋1。\n\"俺に勝負を挑む馬鹿は何奴だぁ？\"",
+   "traits": [
+    "艦娘",
+    "重雷装巡洋艦"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_089.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-090",
+   "name": "旗艦はお任せ！ 五十鈴改二",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "2",
+   "cost": "2",
+   "power": "8000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 手札のこのカードをプレイするにあたり、あなたは自分の「長良型軽巡2番艦 五十鈴」を1枚選び、控え室に置いてよい。そうしたら、このカードをコスト0でプレイできる。\n【自】［手札を1枚控え室に置く］ このカードがアタックした時、クライマックス置場に「水雷戦隊、突撃！」があるなら、あなたはコストを払ってよい。そうしたら、相手に1ダメージを与え、そのターン中、このカードのパワーを＋1000。（ダメージキャンセルは発生する）\n\"さあ、改装された五十鈴の力、<br />存分に見せてあげる！\"",
+   "traits": [
+    "艦娘",
+    "軽巡洋艦"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_090.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-091",
+   "name": "吹雪型駆逐艦1番艦 吹雪",
+   "type": "Character",
+   "rarity": "U",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの前列のキャラがいないなら、このカードのパワーを＋1500。\n【自】 あなたのクライマックス置場に「私がやっつけちゃうんだから！」が置かれた時、前列にこのカードがいるなら、あなたは自分の山札を上から1枚見て、山札の上か控え室に置き、そのターン中、このカードのパワーを＋2000。\n\"はじめまして、吹雪です。よろしくお願いいたします！\"",
+   "traits": [
+    "艦娘",
+    "駆逐艦"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_091.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-091SP",
+   "name": "吹雪型駆逐艦1番艦 吹雪",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの前列のキャラがいないなら、このカードのパワーを＋1500。\n【自】 あなたのクライマックス置場に「私がやっつけちゃうんだから！」が置かれた時、前列にこのカードがいるなら、あなたは自分の山札を上から1枚見て、山札の上か控え室に置き、そのターン中、このカードのパワーを＋2000。\n\"SECRET\"",
+   "traits": [
+    "艦娘",
+    "駆逐艦"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_091sp.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-092",
+   "name": "睦月型駆逐艦1番艦 睦月",
+   "type": "Character",
+   "rarity": "U",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 このカードの正面のキャラのソウルを＋1。\n\"睦月の艦隊、いざ参りますよー！\"",
+   "traits": [
+    "艦娘",
+    "駆逐艦"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_092.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-093",
+   "name": "天龍型軽巡2番艦 龍田",
+   "type": "Character",
+   "rarity": "U",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 あなたのクライマックス置場に「そう来なくっちゃな、抜錨だっ！」が置かれた時、あなたはこのカードの下のマーカーを1枚ストック置場に置いてよい。\n【起】［このカードを【レスト】する］ このカードの下にマーカーがないなら、あなたは自分の控え室の《艦娘》のキャラを1枚選び、このカードの下にマーカーとして裏向きに置く。\n【起】［このカードを【レスト】する］ あなたはこのカードの下のマーカーを1枚ストック置場に置く。\n\"はじめまして、龍田だよ。<br />天龍ちゃんがご迷惑かけてないかなぁ。\"",
+   "traits": [
+    "艦娘",
+    "軽巡洋艦"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_093.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-094",
+   "name": "球磨型軽巡3番艦 北上",
+   "type": "Character",
+   "rarity": "U",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの「球磨型雷巡4番艦 大井改二」がいるなら、このカードは次の能力を得る。『【起】［(1) このカードを控え室に置く］ あなたは自分の控え室の「球磨型雷巡3番艦 北上改二」を1枚選び、このカードがいた枠に置く。』\n\"まぁ私はやっぱ、基本雷撃よねー。\"",
+   "traits": [
+    "艦娘",
+    "軽巡洋艦"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_094.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-095",
+   "name": "球磨型軽巡4番艦 大井",
+   "type": "Character",
+   "rarity": "U",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの「球磨型雷巡3番艦 北上改二」がいるなら、このカードは次の能力を得る。『【起】［(1) このカードを控え室に置く］ あなたは自分の控え室の「球磨型雷巡4番艦 大井改二」を1枚選び、このカードがいた枠に置く。』\n\"海の藻屑となりなさいな！\"",
+   "traits": [
+    "艦娘",
+    "軽巡洋艦"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_095.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-096",
+   "name": "球磨型軽巡1番艦 球磨",
+   "type": "Character",
+   "rarity": "U",
+   "color": "red",
+   "level": "1",
+   "cost": "1",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋Ｘ。Ｘはあなたの『応援』を持つキャラの枚数×500に等しい。\n【自】［(1) あなたの山札の上から1枚をクロック置場に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室のキャラを1枚選び、手札に戻す。\n\"クマー。よろしくだクマ。\"",
+   "traits": [
+    "艦娘",
+    "軽巡洋艦"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_096.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-097",
+   "name": "長良型軽巡1番艦 長良",
+   "type": "Character",
+   "rarity": "U",
+   "color": "red",
+   "level": "1",
+   "cost": "1",
+   "power": "6500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの《艦娘》のキャラが2枚以上なら、このカードのパワーを＋1000。\n\"水雷戦隊、出撃よ！腕が鳴るわ！\"",
+   "traits": [
+    "艦娘",
+    "軽巡洋艦"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_097.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-098",
+   "name": "扶桑型戦艦1番艦 扶桑",
+   "type": "Character",
+   "rarity": "U",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【起】［他のあなたの《艦娘》のキャラを2枚【レスト】し、このカードを控え室に置く］ あなたは自分の控え室の「扶桑型航空戦艦1番艦 扶桑改」を1枚選び、このカードがいた枠に置き、そのターン中、そのキャラのパワーを＋1000。\n【起】【カウンター】 助太刀3000 レベル2 ［(1) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋3000）\n\"戦艦扶桑、出撃いたします。\"",
+   "traits": [
+    "艦娘",
+    "戦艦"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_098.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-099",
+   "name": "鳳翔型軽空母 鳳翔",
+   "type": "Character",
+   "rarity": "U",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋Ｘ。Ｘはそのキャラのレベル×500に等しい。\n【自】［(1) 手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見て《正規空母》か《軽空母》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"お疲れ様です。お風呂にしますか？ご飯にしますか？<br />それとも……ふふっ、冗談ですよ。\"",
+   "traits": [
+    "艦娘",
+    "軽空母"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_099.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-100",
+   "name": "扶桑型航空戦艦2番艦 山城改",
+   "type": "Character",
+   "rarity": "U",
+   "color": "red",
+   "level": "2",
+   "cost": "2",
+   "power": "9500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から1枚を、クロック置場に置く。\n【自】［あなたの【スタンド】しているキャラを2枚【レスト】する］ バトル中のこのカードが【リバース】した時、あなたはコストを払ってよい。そうしたら、このカードを【レスト】し、このカードは次のあなたのスタンドフェイズに【スタンド】しない。\n\"姉さま……山城、必ず帰ってきます……。\"",
+   "traits": [
+    "艦娘",
+    "航空戦艦"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_100.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-101",
+   "name": "吹雪型駆逐艦5番艦 叢雲",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(2)］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の《艦娘》のキャラを1枚選び、手札に戻す。\n【自】 絆／「古鷹型重巡1番艦 古鷹」 ［(1)］ （このカードがプレイされて舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「古鷹型重巡1番艦 古鷹」を1枚選び、手札に戻す）\n\"あんたが司令官ね。ま、せいぜい頑張りなさい！\"",
+   "traits": [
+    "艦娘",
+    "駆逐艦"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_101.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-102",
+   "name": "睦月型駆逐艦7番艦 文月",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［他のあなたの【スタンド】している《駆逐艦》のキャラを1枚と、このカードを【レスト】する］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札の上から1枚を、ストック置場に置く。\n\"出撃です！本領発揮するよぉ。\"",
+   "traits": [
+    "艦娘",
+    "駆逐艦"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_102.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-103",
+   "name": "睦月型駆逐艦9番艦 菊月",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋500。\n【起】［(1)］ あなたは相手の前列のレベル0以下のキャラを1枚選び、控え室に置く。\n\"私が菊月だ……共にゆこう。\"",
+   "traits": [
+    "艦娘",
+    "駆逐艦"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_103.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-104",
+   "name": "睦月型駆逐艦5番艦 皐月",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが【リバース】した時、このカードのバトル相手のレベルが0以下なら、あなたはそのキャラを【リバース】してよい。\n【自】 アンコール ［(2)］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"ボクとやり合う気なの？可愛いね！\"",
+   "traits": [
+    "艦娘",
+    "駆逐艦"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_104.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-105",
+   "name": "吹雪型駆逐艦2番艦 白雪",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札を上から1枚見て、山札の上か控え室に置く。\n【自】 他のあなたの「吹雪型駆逐艦3番艦 初雪」がアタックした時、前列にこのカードがいるなら、あなたは相手の前列のレベル0以下のキャラを1枚選び、控え室に置いてよい。\n\"皆さん、ご一緒にがんばりましょう。\"",
+   "traits": [
+    "艦娘",
+    "駆逐艦"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_105.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-106",
+   "name": "吹雪型駆逐艦9番艦 磯波",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの《艦娘》のキャラすべてに、パワーを＋500。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から1枚を公開する。そのカードが《艦娘》のキャラでないなら、このカードを【レスト】する。（公開したカードは元に戻す）\n\"出撃なんですね……うぅ……が、頑張ります！\"",
+   "traits": [
+    "艦娘",
+    "駆逐艦"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_106.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-107",
+   "name": "睦月型駆逐艦10番艦 三日月",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードがアタックした時、あなたは他の自分の《艦娘》のキャラを1枚選び、そのターン中、パワーを＋1000。\n\"負けたくはありません！戦いなんですから！\"",
+   "traits": [
+    "艦娘",
+    "駆逐艦"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_107.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-108",
+   "name": "睦月型駆逐艦11番艦 望月",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 アンコール ［手札のキャラを1枚控え室に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"んぁ？……ぁあ、望月でーす。\"",
+   "traits": [
+    "艦娘",
+    "駆逐艦"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_108.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-109",
+   "name": "睦月型駆逐艦8番艦 長月",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "",
+   "text": "-\n\"作戦を頭に叩き込んだな？さぁ行くぞっ！\"",
+   "traits": [
+    "艦娘",
+    "駆逐艦"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_109.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-110",
+   "name": "吹雪型駆逐艦3番艦 初雪",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードがアタックした時、あなたは自分の山札の上から1枚を公開する。そのカードがクライマックスなら、そのターン中、このカードのパワーを－3000。（公開したカードは元に戻す）\n\"初雪……です……よろしく。\"",
+   "traits": [
+    "艦娘",
+    "駆逐艦"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_110.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-111",
+   "name": "睦月型駆逐艦2番艦 如月",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 バトル中のこのカードが【リバース】した時、相手は自分のキャラを1枚選び、そのターン中、パワーを＋1000。\n\"如月も一緒に行かせて。ねっ？\"",
+   "traits": [
+    "艦娘",
+    "駆逐艦"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_111.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-112",
+   "name": "吹雪型駆逐艦4番艦 深雪",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から1枚を公開する。そのカードがクライマックスなら、このカードを控え室に置く。（公開したカードは元に戻す）\n\"深雪スペシャル！いっけー！！\"",
+   "traits": [
+    "艦娘",
+    "駆逐艦"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_112.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-113",
+   "name": "長良型軽巡5番艦 鬼怒",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【起】【カウンター】 助太刀1500 レベル1 ［手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋1500）\n\"来た来たぁ！鬼怒、いよいよ到着しましたよ！\"",
+   "traits": [
+    "艦娘",
+    "軽巡洋艦"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_113.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-114",
+   "name": "長良型軽巡2番艦 五十鈴",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードがアタックした時、クライマックス置場に「水雷戦隊、突撃！」があるなら、あなたのレベル1以下のキャラすべてに、そのターン中、パワーを＋1500。\n【自】 アンコール ［あなたの山札の上から1枚をクロック置場に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"いつでも準備万全よ！\"",
+   "traits": [
+    "艦娘",
+    "軽巡洋艦"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_114.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-114P",
+   "name": "長良型軽巡2番艦 五十鈴",
+   "type": "Character",
+   "rarity": "PR",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードがアタックした時、クライマックス置場に「水雷戦隊、突撃！」があるなら、あなたのレベル1以下のキャラすべてに、そのターン中、パワーを＋1500。\n【自】 アンコール ［あなたの山札の上から1枚をクロック置場に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"やだっ、痛いじゃない！\"",
+   "traits": [
+    "艦娘",
+    "軽巡洋艦"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_114p.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-115",
+   "name": "長良型軽巡6番艦 阿武隈",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1)］ このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「綾波型駆逐艦10番艦 潮」を1枚選び、このカードがいた枠に【レスト】して置く。\n\"待ってました！<br />……って、そんな心待ちにしてたわけじゃないから。\"",
+   "traits": [
+    "艦娘",
+    "軽巡洋艦"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_115.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-116",
+   "name": "長良型軽巡4番艦 由良",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "5500",
+   "soul": 1,
+   "trigger": "",
+   "text": "-\n\"さあ、由良のいいとこ、見せちゃおうかな？\"",
+   "traits": [
+    "艦娘",
+    "軽巡洋艦"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_116.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-117",
+   "name": "球磨型軽巡5番艦 木曾",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "5500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 このカードのバトル中、すべてのプレイヤーは『助太刀』を手札からプレイできない。\n\"木曾だ。お前に最高の勝利を与えてやる。\"",
+   "traits": [
+    "艦娘",
+    "軽巡洋艦"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_117.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-118",
+   "name": "長良型軽巡3番艦 名取",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "1",
+   "cost": "1",
+   "power": "6000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 前列の中央の枠にこのカードがいるなら、このカードのパワーを＋1000。\n【自】 アンコール ［手札のキャラを1枚控え室に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"名取といいます。<br />ご迷惑をおかけしないように、が、頑張ります！\"",
+   "traits": [
+    "艦娘",
+    "軽巡洋艦"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_118.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-119",
+   "name": "球磨型軽巡2番艦 多摩",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "1",
+   "cost": "1",
+   "power": "7000",
+   "soul": 1,
+   "trigger": "",
+   "text": "-\n\"多摩の手も借りたいって？しょうがないにゃあ。\"",
+   "traits": [
+    "艦娘",
+    "軽巡洋艦"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_119.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-120",
+   "name": "扶桑型戦艦2番艦 山城",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "7500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】［このカードを控え室に置く］ このカードが手札から舞台に置かれた時、あなたは自分の山札の上から3枚を、控え室に置く。それらのカードにクライマックスがあるなら、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「扶桑型航空戦艦2番艦 山城改」を1枚選び、このカードがいた枠に置く。\n\"扶桑型戦艦姉妹、妹のほう、山城です。<br />あの、扶桑姉さま、見ませんでした？\"",
+   "traits": [
+    "艦娘",
+    "戦艦"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_120.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-121",
+   "name": "扶桑型航空戦艦1番艦 扶桑改",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "2",
+   "cost": "2",
+   "power": "9000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "-\n\"伊勢、日向には……負けたくないの！\"",
+   "traits": [
+    "艦娘",
+    "航空戦艦"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_121.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-122",
+   "name": "アイテム屋娘",
+   "type": "Event",
+   "rarity": "C",
+   "color": "red",
+   "level": "2",
+   "cost": "0",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "すべてのプレイヤーは自分の控え室のカードすべてを、山札に戻す。それらの山札をシャッフルする。\nあなたは自分のキャラを1枚選び、そのターン中、パワーを＋2000。\n\"どうぞよろしくお願い致します。\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_122.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-123",
+   "name": "撃ちます！Fire！！",
+   "type": "Climax",
+   "rarity": "CR",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[salvage.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[salvage.gif]]：このカードがトリガーした時、あなたは自分の控え室のキャラを1枚選び、手札に戻してよい）\n\"Burning Love！\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_123.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-123R",
+   "name": "撃ちます！Fire！！",
+   "type": "Climax",
+   "rarity": "RRR",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[salvage.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[salvage.gif]]：このカードがトリガーした時、あなたは自分の控え室のキャラを1枚選び、手札に戻してよい）\n\"SECRET\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_123r.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-124",
+   "name": "そう来なくっちゃな、抜錨だっ！",
+   "type": "Climax",
+   "rarity": "CR",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[salvage.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[salvage.gif]]：このカードがトリガーした時、あなたは自分の控え室のキャラを1枚選び、手札に戻してよい）\n\"天龍「怖くて声も出ねぇかァ？オラオラ！」\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_124.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-124R",
+   "name": "そう来なくっちゃな、抜錨だっ！",
+   "type": "Climax",
+   "rarity": "RRR",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[salvage.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[salvage.gif]]：このカードがトリガーした時、あなたは自分の控え室のキャラを1枚選び、手札に戻してよい）\n\"SECRET\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_124r.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-125",
+   "name": "私がやっつけちゃうんだから！",
+   "type": "Climax",
+   "rarity": "CC",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【自】 このカードが手札からクライマックス置場に置かれた時、あなたは1枚引き、自分のキャラを1枚選び、そのターン中、パワーを＋2000し、ソウルを＋1。\n\"みんな、準備はいい？\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_125.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-125R",
+   "name": "私がやっつけちゃうんだから！",
+   "type": "Climax",
+   "rarity": "RRR",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【自】 このカードが手札からクライマックス置場に置かれた時、あなたは1枚引き、自分のキャラを1枚選び、そのターン中、パワーを＋2000し、ソウルを＋1。\n\"SECRET\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_125r.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-126",
+   "name": "重雷装艦、出撃します！",
+   "type": "Climax",
+   "rarity": "CC",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【永】 あなたのキャラすべてに、ソウルを＋2。\n\"北上「まぁ大井っちと組めば最強よねー」\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_126.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-126R",
+   "name": "重雷装艦、出撃します！",
+   "type": "Climax",
+   "rarity": "RRR",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【永】 あなたのキャラすべてに、ソウルを＋2。\n\"SECRET\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_126r.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-127",
+   "name": "水雷戦隊、突撃！",
+   "type": "Climax",
+   "rarity": "CC",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【自】 このカードが手札からクライマックス置場に置かれた時、あなたは自分の控え室の赤のカードを1枚まで選び、ストック置場に置き、自分のキャラすべてに、そのターン中、ソウルを＋1。\n\"五十鈴には丸見えよ？\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_127.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-127R",
+   "name": "水雷戦隊、突撃！",
+   "type": "Climax",
+   "rarity": "RRR",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【自】 このカードが手札からクライマックス置場に置かれた時、あなたは自分の控え室の赤のカードを1枚まで選び、ストック置場に置き、自分のキャラすべてに、そのターン中、ソウルを＋1。\n\"SECRET\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_127r.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-128",
+   "name": "長門型戦艦1番艦 長門",
+   "type": "Character",
+   "rarity": "RR+",
+   "color": "blue",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n【自】 あなたのクライマックス置場に「ビッグ7の力、侮るなよ」が置かれた時、前列にこのカードがいるなら、あなたのキャラすべてに、そのターン中、パワーを＋500し、次の能力を与える。『【自】 このカードのバトル相手が【リバース】した時、あなたはそのキャラを山札の下に置いてよい。』\n\"待ちに待った艦隊決戦か。胸が熱いな。\"",
+   "traits": [
+    "艦娘",
+    "戦艦"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_128.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-128SP",
+   "name": "長門型戦艦1番艦 長門",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "blue",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n【自】 あなたのクライマックス置場に「ビッグ7の力、侮るなよ」が置かれた時、前列にこのカードがいるなら、あなたのキャラすべてに、そのターン中、パワーを＋500し、次の能力を与える。『【自】 このカードのバトル相手が【リバース】した時、あなたはそのキャラを山札の下に置いてよい。』\n\"SECRET\"",
+   "traits": [
+    "艦娘",
+    "戦艦"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_128sp.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-128SSP",
+   "name": "長門型戦艦1番艦 長門",
+   "type": "Character",
+   "rarity": "SSP",
+   "color": "blue",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n【自】 あなたのクライマックス置場に「ビッグ7の力、侮るなよ」が置かれた時、前列にこのカードがいるなら、あなたのキャラすべてに、そのターン中、パワーを＋500し、次の能力を与える。『【自】 このカードのバトル相手が【リバース】した時、あなたはそのキャラを山札の下に置いてよい。』\n\"SECRET\"",
+   "traits": [
+    "艦娘",
+    "戦艦"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_128ssp.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-129",
+   "name": "最上型重巡3番艦 鈴谷",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(2)］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見て《艦娘》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n【自】［このカードを控え室に置く］ あなたのクライマックス置場に「鈴谷にお任せー！」が置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の手札の「最上型航空巡洋艦3番艦 鈴谷改」を1枚まで選び、このカードがいた枠に置く。\n\"鈴谷の甲板ニーソ、そんなに触んないでって、もー。\"",
+   "traits": [
+    "艦娘",
+    "重巡洋艦"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_129.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-129S",
+   "name": "最上型重巡3番艦 鈴谷",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(2)］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見て《艦娘》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n【自】［このカードを控え室に置く］ あなたのクライマックス置場に「鈴谷にお任せー！」が置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の手札の「最上型航空巡洋艦3番艦 鈴谷改」を1枚まで選び、このカードがいた枠に置く。\n\"SECRET\"",
+   "traits": [
+    "艦娘",
+    "重巡洋艦"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_129s.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-130",
+   "name": "最上型重巡4番艦 熊野",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "6000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのレベルが2以上なら、このカードは次の能力を得る。『【起】［(1) 手札を1枚控え室に置き、このカードを控え室に置く］ あなたは自分の控え室の「最上型航空巡洋艦4番艦 熊野改」を1枚選び、このカードがいた枠に置く。』\n【自】 バトル中のこのカードが【リバース】した時、あなたは自分の山札の上から1枚を、クロック置場に置き、このカードを【レスト】する。\n\"とぉぉぉおぅ！！\"",
+   "traits": [
+    "艦娘",
+    "重巡洋艦"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_130.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-130S",
+   "name": "最上型重巡4番艦 熊野",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "6000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのレベルが2以上なら、このカードは次の能力を得る。『【起】［(1) 手札を1枚控え室に置き、このカードを控え室に置く］ あなたは自分の控え室の「最上型航空巡洋艦4番艦 熊野改」を1枚選び、このカードがいた枠に置く。』\n【自】 バトル中のこのカードが【リバース】した時、あなたは自分の山札の上から1枚を、クロック置場に置き、このカードを【レスト】する。\n\"SECRET\"",
+   "traits": [
+    "艦娘",
+    "重巡洋艦"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_130s.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-131",
+   "name": "長門型戦艦2番艦 陸奥",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "blue",
+   "level": "3",
+   "cost": "2",
+   "power": "9500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札を上からＸ枚まで見て、カードを1枚まで選び、手札に加える。残りのカードを控え室に置く。Ｘはあなたの《艦娘》のキャラの枚数に等しい。\n【自】 あなたのクライマックスフェイズの始めに、あなたは自分の山札の上から1枚を公開する。そのカードのレベルが3以上なら、このカードを控え室に置く。そうでないなら、次の相手のターンの終わりまで、このカードのパワーを＋1500。（クライマックスのレベルは0として扱う。公開したカードは元に戻す）\n【起】［あなたの《艦娘》のキャラを2枚【レスト】する］ あなたは自分の山札を上から1枚見て、山札の上か下に置く。\n\"だから火遊びはしないでって言ったでしょう？<br />……えっ、本気なの？ふぅーん、お姉さん、知らないぞ♪\"",
+   "traits": [
+    "艦娘",
+    "戦艦"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_131.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-131S",
+   "name": "長門型戦艦2番艦 陸奥",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "3",
+   "cost": "2",
+   "power": "9500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札を上からＸ枚まで見て、カードを1枚まで選び、手札に加える。残りのカードを控え室に置く。Ｘはあなたの《艦娘》のキャラの枚数に等しい。\n【自】 あなたのクライマックスフェイズの始めに、あなたは自分の山札の上から1枚を公開する。そのカードのレベルが3以上なら、このカードを控え室に置く。そうでないなら、次の相手のターンの終わりまで、このカードのパワーを＋1500。（クライマックスのレベルは0として扱う。公開したカードは元に戻す）\n【起】［あなたの《艦娘》のキャラを2枚【レスト】する］ あなたは自分の山札を上から1枚見て、山札の上か下に置く。\n\"SECRET\"",
+   "traits": [
+    "艦娘",
+    "戦艦"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_131s.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-132",
+   "name": "白露型駆逐艦4番艦 夕立改二",
+   "type": "Character",
+   "rarity": "R",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1)］ あなたのクライマックス置場に「さぁ、素敵なパーティしましょ！」が置かれた時、前列にこのカードがいるなら、あなたはコストを払ってよい。そうしたら、あなたは相手のキャラを1枚選び、相手の舞台のキャラのいない他の枠に動かす。\n\"お呼びっぽい？何ですか？\"",
+   "traits": [
+    "艦娘",
+    "駆逐艦"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_132.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-132P",
+   "name": "白露型駆逐艦4番艦 夕立改二",
+   "type": "Character",
+   "rarity": "PR",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1)］ あなたのクライマックス置場に「さぁ、素敵なパーティしましょ！」が置かれた時、前列にこのカードがいるなら、あなたはコストを払ってよい。そうしたら、あなたは相手のキャラを1枚選び、相手の舞台のキャラのいない他の枠に動かす。\n\"も、も～ばかぁ～！これじゃあ戦えないっぽい！？\"",
+   "traits": [
+    "艦娘",
+    "駆逐艦"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_132p.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-132S",
+   "name": "白露型駆逐艦4番艦 夕立改二",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1)］ あなたのクライマックス置場に「さぁ、素敵なパーティしましょ！」が置かれた時、前列にこのカードがいるなら、あなたはコストを払ってよい。そうしたら、あなたは相手のキャラを1枚選び、相手の舞台のキャラのいない他の枠に動かす。\n\"SECRET\"",
+   "traits": [
+    "艦娘",
+    "駆逐艦"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_132s.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-133",
+   "name": "幸運の駆逐艦 時雨改二",
+   "type": "Character",
+   "rarity": "R",
+   "color": "blue",
+   "level": "1",
+   "cost": "1",
+   "power": "6500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時か「白露型駆逐艦2番艦 時雨」の【起】の効果で舞台に置かれた時、相手は自分の山札の上から1枚を公開する。そのカードのレベルが1以上なら、次の相手のターンの終わりまで、このカードのパワーを＋1000。（クライマックスのレベルは0として扱う。公開したカードは元に戻す）\n\"この勝利、僕の力なんて些細なものさ。<br />この雨と……そう、提督のおかげだよ。\"",
+   "traits": [
+    "艦娘",
+    "駆逐艦"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_133.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-133S",
+   "name": "幸運の駆逐艦 時雨改二",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "1",
+   "cost": "1",
+   "power": "6500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時か「白露型駆逐艦2番艦 時雨」の【起】の効果で舞台に置かれた時、相手は自分の山札の上から1枚を公開する。そのカードのレベルが1以上なら、次の相手のターンの終わりまで、このカードのパワーを＋1000。（クライマックスのレベルは0として扱う。公開したカードは元に戻す）\n\"SECRET\"",
+   "traits": [
+    "艦娘",
+    "駆逐艦"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_133s.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-134",
+   "name": "祥鳳型軽空母2番艦 瑞鳳",
+   "type": "Character",
+   "rarity": "R",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】［(2) あなたの山札の上から1枚をクロック置場に置く］ あなたがこのカードの『助太刀』を使った時、あなたはコストを払ってよい。そうしたら、あなたは相手の、レベルが相手のレベルより高いキャラを1枚選び、山札の下に置く。\n【起】【カウンター】 助太刀2500 レベル2 ［(1) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋2500）\n\"お昼です！提督、お弁当広げましょ♪<br />……私の作った玉子焼き、食べる？\"",
+   "traits": [
+    "艦娘",
+    "軽空母"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_134.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-134P",
+   "name": "祥鳳型軽空母2番艦 瑞鳳",
+   "type": "Character",
+   "rarity": "PR",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】［(2) あなたの山札の上から1枚をクロック置場に置く］ あなたがこのカードの『助太刀』を使った時、あなたはコストを払ってよい。そうしたら、あなたは相手の、レベルが相手のレベルより高いキャラを1枚選び、山札の下に置く。\n【起】【カウンター】 助太刀2500 レベル2 ［(1) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋2500）\n\"やられちゃったなー。温泉、入りたいな。\"",
+   "traits": [
+    "艦娘",
+    "軽空母"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_134p.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-135",
+   "name": "蒼龍型正規空母 蒼龍",
+   "type": "Character",
+   "rarity": "R",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "6500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの《艦娘》のキャラすべてに、パワーを＋500し、『【自】 アンコール ［手札のキャラを1枚控え室に置く］』を与える。\n\"対空見張りも厳として。よろしくねっ！\"",
+   "traits": [
+    "艦娘",
+    "正規空母"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_135.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-136",
+   "name": "最上型航空巡洋艦2番艦 三隈改",
+   "type": "Character",
+   "rarity": "R",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "7500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 このカードの下にマーカーがあるなら、このカードのパワーを＋2000。\n【自】 このカードが控え室から舞台に置かれた時、あなたは自分の控え室の「最上型重巡2番艦 三隈」を1枚選び、このカードの下にマーカーとして裏向きに置いてよい。\n\"今までの私と、同じと思ってもらっては困ります。\"",
+   "traits": [
+    "艦娘",
+    "航空巡洋艦"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_136.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-137",
+   "name": "最上型航空巡洋艦3番艦 鈴谷改",
+   "type": "Character",
+   "rarity": "R",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "7500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの《艦娘》のキャラ1枚につき、このカードのパワーを＋500。\n\"さてさて、突撃いたしましょーう！\"",
+   "traits": [
+    "艦娘",
+    "航空巡洋艦"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_137.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-138",
+   "name": "飛龍型正規空母 飛龍",
+   "type": "Character",
+   "rarity": "R",
+   "color": "blue",
+   "level": "2",
+   "cost": "2",
+   "power": "8000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードがアタックした時、クライマックス置場に「二航戦出撃します！」があるなら、次の相手のターンの終わりまで、このカードのパワーを＋3000。\n【自】 あなたのドローフェイズの始めに、他のあなたの前列のキャラがいないなら、そのターン中、このカードのパワーを＋4000。\n\"たとえ最後の一艦になっても、叩いて見せます！\"",
+   "traits": [
+    "艦娘",
+    "正規空母"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_138.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-139",
+   "name": "最上型航空巡洋艦4番艦 熊野改",
+   "type": "Character",
+   "rarity": "R",
+   "color": "blue",
+   "level": "2",
+   "cost": "2",
+   "power": "8500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 他のあなたの《艦娘》のキャラがアタックした時、そのターン中、このカードのパワーを＋1000。\n\"一捻りで黙らせてやりますわ！\"",
+   "traits": [
+    "艦娘",
+    "航空巡洋艦"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_139.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-140",
+   "name": "白露型駆逐艦4番艦 夕立",
+   "type": "Character",
+   "rarity": "U",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、そのターン中、このカードのパワーを＋Ｘ。Ｘは相手のキャラの枚数×500に等しい。\n【自】［このカードを控え室に置く］ このカードがフロントアタックされた時、あなたはコストを払ってよい。そうしたら、あなたは自分の手札の「白露型駆逐艦4番艦 夕立改二」を1枚まで選び、このカードがいた枠に防御キャラとして置く。\n\"えぇーっと放置っぽい？私じゃ不足っぽい？<br />もっともっと鍛えなきゃ！\"",
+   "traits": [
+    "艦娘",
+    "駆逐艦"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_140.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-141",
+   "name": "朝潮型駆逐艦1番艦 朝潮",
+   "type": "Character",
+   "rarity": "U",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［このカードを控え室に置く］ 他のあなたのキャラが舞台から控え室に置かれた時、後列にこのカードがいるなら、あなたはコストを払ってよい。そうしたら、そのキャラをそのキャラがいた枠に【レスト】して置く。\n\"司令官が待てと言うなら、この朝潮、<br />ここでいつまででも待つ覚悟です！\"",
+   "traits": [
+    "艦娘",
+    "駆逐艦"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_141.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-142",
+   "name": "白露型駆逐艦1番艦 白露",
+   "type": "Character",
+   "rarity": "U",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 あなたがレベルアップした時、このカードを控え室に置く。\n\"え？慌ててタンカーと衝突しないようにって？大丈夫！\"",
+   "traits": [
+    "艦娘",
+    "駆逐艦"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_142.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-143",
+   "name": "最上型重巡1番艦 最上",
+   "type": "Character",
+   "rarity": "U",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から1枚を公開する。そのカードが《艦娘》のキャラでないなら、このカードを【レスト】する。（公開したカードは元に戻す）\n【自】 チェンジ ［(2) このカードを控え室に置く］ あなたのアンコールステップの始めに、このカードが【レスト】しているなら、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「最上型航空巡洋艦1番艦 最上改」を1枚選び、このカードがいた枠に置く。\n\"ボクが最上さ。大丈夫、今度は衝突しないって。ホントだよ。\"",
+   "traits": [
+    "艦娘",
+    "重巡洋艦"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_143.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-144",
+   "name": "最上型重巡2番艦 三隈",
+   "type": "Character",
+   "rarity": "U",
+   "color": "blue",
+   "level": "1",
+   "cost": "1",
+   "power": "6000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 チェンジ ［(1) このカードを控え室に置く］ あなたのアンコールステップの始めに、このカードが【レスト】しているなら、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「最上型航空巡洋艦2番艦 三隈改」を1枚選び、このカードがいた枠に置く。\n\"モガミンはどこ？彼女には気をつけないと。\"",
+   "traits": [
+    "艦娘",
+    "重巡洋艦"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_144.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-144S",
+   "name": "最上型重巡2番艦 三隈",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "1",
+   "cost": "1",
+   "power": "6000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 チェンジ ［(1) このカードを控え室に置く］ あなたのアンコールステップの始めに、このカードが【レスト】しているなら、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「最上型航空巡洋艦2番艦 三隈改」を1枚選び、このカードがいた枠に置く。\n\"SECRET\"",
+   "traits": [
+    "艦娘",
+    "重巡洋艦"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_144s.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-145",
+   "name": "妙高型重巡1番艦 妙高",
+   "type": "Character",
+   "rarity": "U",
+   "color": "blue",
+   "level": "1",
+   "cost": "1",
+   "power": "7000",
+   "soul": 1,
+   "trigger": "",
+   "text": "-\n\"この戦い、退くわけには参りませんわ！\"",
+   "traits": [
+    "艦娘",
+    "重巡洋艦"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_145.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-146",
+   "name": "祥鳳型軽空母1番艦 祥鳳",
+   "type": "Character",
+   "rarity": "U",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "7500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、次の相手のターンの終わりまで、このカードのパワーを＋1500。\n\"私だって、航空母艦です。やります！\"",
+   "traits": [
+    "艦娘",
+    "軽空母"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_146.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-147",
+   "name": "最上型航空巡洋艦1番艦 最上改",
+   "type": "Character",
+   "rarity": "U",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "8000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの《艦娘》のキャラが2枚以上なら、このカードのパワーを＋500し、このカードは『【自】 アンコール ［あなたの山札の上から1枚をクロック置場に置く］』を得る。\n\"よーし、ボクも突撃するぞー！\"",
+   "traits": [
+    "艦娘",
+    "航空巡洋艦"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_147.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-148",
+   "name": "朝潮型駆逐艦9番艦 霰",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋500。\n【起】［(2) あなたのキャラを2枚【レスト】する］ あなたは1枚引く。\n\"新しい船ができたみたい。\"",
+   "traits": [
+    "艦娘",
+    "駆逐艦"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_148.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-149",
+   "name": "白露型駆逐艦3番艦 村雨",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［あなたの山札の上から1枚をクロック置場に置く］ このカードのバトル相手が【リバース】した時、あなたはコストを払ってよい。そうしたら、あなたは1枚引く。\n【起】［あなたの《艦娘》のキャラを1枚【レスト】する］ そのターン中、このカードのパワーを＋1000。\n\"村雨の、ちょっといいとこ見せたげる♪\"",
+   "traits": [
+    "艦娘",
+    "駆逐艦"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_149.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-150",
+   "name": "朝潮型駆逐艦3番艦 満潮",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1)］ 相手のアタックフェイズの始めに、あなたはコストを払ってよい。そうしたら、あなたはこのカードを後列のキャラのいない枠に動かす。\n\"つまらない戦略たてないでよね、ふんっ！\"",
+   "traits": [
+    "艦娘",
+    "駆逐艦"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_150.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-151",
+   "name": "白露型駆逐艦2番艦 時雨",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたのキャラがいないなら、このカードのパワーを＋1500し、このカードは『【自】 アンコール ［手札のキャラを1枚控え室に置く］』を得る。\n【永】 あなたのレベルが1以上なら、このカードは次の能力を得る。『【起】［手札を1枚控え室に置き、このカードを控え室に置く］ あなたは自分の控え室の「幸運の駆逐艦 時雨改二」を1枚選び、このカードがいた枠に置く。』\n\"皆が忘れても、僕だけはずっと覚えているから……。\"",
+   "traits": [
+    "艦娘",
+    "駆逐艦"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_151.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-152",
+   "name": "朝潮型駆逐艦4番艦 荒潮",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札を上から1枚見て、山札の上か下に置く。\n【起】［(1)］ あなたは1枚引き、自分の手札を1枚選び、控え室に置く。\n\"荒潮、華麗に出撃よ！\"",
+   "traits": [
+    "艦娘",
+    "駆逐艦"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_152.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-153",
+   "name": "白露型駆逐艦6番艦 五月雨",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの《艦娘》のキャラが2枚以上なら、このカードのパワーを＋1000。\n\"はい！私、頑張っちゃいますから！\"",
+   "traits": [
+    "艦娘",
+    "駆逐艦"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_153.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-154",
+   "name": "朝潮型駆逐艦2番艦 大潮",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【起】［あなたの「朝潮型駆逐艦1番艦 朝潮」を1枚【レスト】する］ そのターン中、このカードのパワーを＋2500。\n\"駆逐艦、大潮です！<br />小さな体に大きな魚雷！お任せください。\"",
+   "traits": [
+    "艦娘",
+    "駆逐艦"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_154.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-155",
+   "name": "朝潮型駆逐艦10番艦 霞",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 前列にこのカードがいるなら、このカードはあなたのスタンドフェイズに【スタンド】しない。\n【自】 このカードのバトル相手が【リバース】した時、あなたは他の自分のキャラを1枚選び、【レスト】し、後列のキャラのいない枠に動かす。\n\"霞よ。ガンガン行くわよ。ついてらっしゃい。\"",
+   "traits": [
+    "艦娘",
+    "駆逐艦"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_155.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-156",
+   "name": "白露型駆逐艦10番艦 涼風",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "",
+   "text": "-\n\"がってんだ！涼風の本気見せたげるぅ！\"",
+   "traits": [
+    "艦娘",
+    "駆逐艦"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_156.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-157",
+   "name": "妙高型重巡4番艦 羽黒",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［このカードを控え室に置く］ 他のあなたの《艦娘》のキャラがフロントアタックされた時、あなたはコストを払ってよい。そうしたら、あなたは自分のバトル中のキャラを1枚選び、そのターン中、パワーを＋1500。\n\"貴方たちの背中は、私が守ります！\"",
+   "traits": [
+    "艦娘",
+    "重巡洋艦"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_157.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-158",
+   "name": "妙高型重巡3番艦 足柄",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "1",
+   "cost": "1",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 あなたがこのカードの『助太刀』を使った時、あなたは自分のバトル中の《艦娘》のキャラを1枚選び、そのターン中、パワーを＋1000。\n【起】【カウンター】 助太刀1500 レベル1 ［(1) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋1500）\n\"出撃よ！戦場が、勝利が私を呼んでいるわ！\"",
+   "traits": [
+    "艦娘",
+    "重巡洋艦"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_158.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-159",
+   "name": "妙高型重巡2番艦 那智",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "1",
+   "cost": "1",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 応援 相手のターン中、このカードの前のあなたのキャラすべてに、パワーを＋1000。\n【自】［手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を上から4枚まで見て、《艦娘》のキャラを1枚まで選んで相手に見せ、手札に加える。残りのカードを控え室に置く。\n\"新しい艦が進水したようだ。楽しみだな。\"",
+   "traits": [
+    "艦娘",
+    "重巡洋艦"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_159.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-160",
+   "name": "給糧艦 間宮",
+   "type": "Event",
+   "rarity": "C",
+   "color": "blue",
+   "level": "1",
+   "cost": "1",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "あなたは自分の山札を見て《艦娘》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。あなたは自分の手札を1枚選び、控え室に置く。\nあなたは自分のキャラを1枚選び、次の相手のターンの終わりまで、パワーを＋2500。\n\"間宮のアイス、冷えてますよ！\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_160.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-161",
+   "name": "ビッグ7の力、侮るなよ",
+   "type": "Climax",
+   "rarity": "CR",
+   "color": "blue",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[draw.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[draw.gif]]：このカードがトリガーした時、あなたは1枚引いてよい）\n\"第一戦隊、出撃するぞ！\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_161.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-161R",
+   "name": "ビッグ7の力、侮るなよ",
+   "type": "Climax",
+   "rarity": "RRR",
+   "color": "blue",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[draw.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[draw.gif]]：このカードがトリガーした時、あなたは1枚引いてよい）\n\"SECRET\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_161r.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-162",
+   "name": "鈴谷にお任せー！",
+   "type": "Climax",
+   "rarity": "CR",
+   "color": "blue",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[gate.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[gate.gif]]：このカードがトリガーした時、あなたは自分の控え室のクライマックスを1枚選び、手札に戻してよい）\n\"最上型重巡、鈴谷！いっくよー！\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_162.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-162R",
+   "name": "鈴谷にお任せー！",
+   "type": "Climax",
+   "rarity": "RRR",
+   "color": "blue",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[gate.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[gate.gif]]：このカードがトリガーした時、あなたは自分の控え室のクライマックスを1枚選び、手札に戻してよい）\n\"SECRET\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_162r.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-163",
+   "name": "二航戦出撃します！",
+   "type": "Climax",
+   "rarity": "CC",
+   "color": "blue",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【自】 このカードが手札からクライマックス置場に置かれた時、あなたは自分の控え室の青のカードを1枚まで選び、ストック置場に置き、自分のキャラすべてに、そのターン中、ソウルを＋1。\n\"第二次攻撃の要を認めます、急いで！\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_163.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-163R",
+   "name": "二航戦出撃します！",
+   "type": "Climax",
+   "rarity": "RRR",
+   "color": "blue",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【自】 このカードが手札からクライマックス置場に置かれた時、あなたは自分の控え室の青のカードを1枚まで選び、ストック置場に置き、自分のキャラすべてに、そのターン中、ソウルを＋1。\n\"SECRET\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_163r.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-164",
+   "name": "さぁ、素敵なパーティしましょ！",
+   "type": "Climax",
+   "rarity": "CC",
+   "color": "blue",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【自】 このカードが手札からクライマックス置場に置かれた時、あなたは1枚引き、自分のキャラを1枚選び、そのターン中、パワーを＋2000し、ソウルを＋1。\n\"まず何から撃とうかしら？\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_164.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-164R",
+   "name": "さぁ、素敵なパーティしましょ！",
+   "type": "Climax",
+   "rarity": "RRR",
+   "color": "blue",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【自】 このカードが手札からクライマックス置場に置かれた時、あなたは1枚引き、自分のキャラを1枚選び、そのターン中、パワーを＋2000し、ソウルを＋1。\n\"SECRET\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_164r.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-165P",
+   "name": "陸軍丙型特殊船 あきつ丸",
+   "type": "Character",
+   "rarity": "PR",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【起】［あなたのキャラを2枚【レスト】する］ あなたは自分の《艦娘》のキャラを1枚選び、そのターン中、パワーを＋1500。\n\"よぉし、奴らを倒して陸を目指すぞ。\"",
+   "traits": [
+    "艦娘",
+    "揚陸艦"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_165p.png",
+   "variant": ""
+  },
+  {
+   "num": "KC/S25-166P",
+   "name": "三式潜航輸送艇 まるゆ",
+   "type": "Character",
+   "rarity": "PR",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 このカードと同じカード名のカードは、デッキに好きな枚数入れることができる。\n【起】［(1) このカードを控え室に置く］ あなたは2枚まで引き、自分の手札を2枚選び、控え室に置く。\n\"まるゆがお荷物持って行きますね。はい、モグラ輸送です。\"",
+   "traits": [
+    "艦娘",
+    "潜水艦"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kc_s25/kc_s25_166p.png",
+   "variant": ""
+  }
+ ]
+}

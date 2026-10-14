@@ -1,0 +1,3509 @@
+{
+ "id": "jp-uma-e486",
+ "name": " 劇場版『ウマ娘 プリティーダービー 新時代の扉』",
+ "expansion": 486,
+ "lang": "jp",
+ "release": null,
+ "shopItem": null,
+ "box": null,
+ "cards": [
+  {
+   "num": "UMA/W119-001",
+   "name": "楽しんでいってよ フジキセキ",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 継承 他のあなたのキャラが手札から舞台に置かれた時、そのキャラの下にマーカーがないなら、あなたはこのカードの下のマーカー1枚までとこのカードを選び、その舞台に置かれたキャラの下にマーカーとして好きな順番で表向きに置いてよい。そうしたら、残りのマーカーを控え室に置く。\n【起】 集中 ［(1) このカードを【レスト】する］ あなたは自分の山札の上から5枚をめくり、控え室に置く。それらのカードにCXがあるなら、あなたは自分の控え室のキャラを1枚選び、手札に戻す。\n\"-\"",
+   "traits": [
+    "ウマ娘"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_001.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-001SP",
+   "name": "楽しんでいってよ フジキセキ",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 継承 他のあなたのキャラが手札から舞台に置かれた時、そのキャラの下にマーカーがないなら、あなたはこのカードの下のマーカー1枚までとこのカードを選び、その舞台に置かれたキャラの下にマーカーとして好きな順番で表向きに置いてよい。そうしたら、残りのマーカーを控え室に置く。\n【起】 集中 ［(1) このカードを【レスト】する］ あなたは自分の山札の上から5枚をめくり、控え室に置く。それらのカードにCXがあるなら、あなたは自分の控え室のキャラを1枚選び、手札に戻す。\n\"-\"",
+   "traits": [
+    "ウマ娘"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_001sp.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-002",
+   "name": "漆黒のエンターテイナー フジキセキ",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたのターン中、他のあなたの《ウマ娘》のキャラが2枚以上なら、このカードのレベルを＋1し、パワーを＋3500。\n【自】【CXコンボ】 このカードのアタックの終わりに、CX置場に「夢の続き」があり、他のあなたの《ウマ娘》のキャラが2枚以上なら、あなたは自分の山札を上から1枚見て、《ウマ娘》のキャラかイベントを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。その後、あなたはこのカードを思い出にしてよい。そうしたら、次のあなたのドローフェイズの始めに、あなたは自分の思い出置場の「漆黒のエンターテイナー フジキセキ」を1枚選び、舞台の好きな枠に置く。\n\"-\"",
+   "traits": [
+    "ウマ娘"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_002.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-002S",
+   "name": "漆黒のエンターテイナー フジキセキ",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたのターン中、他のあなたの《ウマ娘》のキャラが2枚以上なら、このカードのレベルを＋1し、パワーを＋3500。\n【自】【CXコンボ】 このカードのアタックの終わりに、CX置場に「夢の続き」があり、他のあなたの《ウマ娘》のキャラが2枚以上なら、あなたは自分の山札を上から1枚見て、《ウマ娘》のキャラかイベントを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。その後、あなたはこのカードを思い出にしてよい。そうしたら、次のあなたのドローフェイズの始めに、あなたは自分の思い出置場の「漆黒のエンターテイナー フジキセキ」を1枚選び、舞台の好きな枠に置く。\n\"-\"",
+   "traits": [
+    "ウマ娘"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_002s.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-003",
+   "name": "限界を越えた先 ジャングルポケット",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "yellow",
+   "level": "3",
+   "cost": "2",
+   "power": "8000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたのターン中、このカードのパワーを＋3000。\n【自】 このカードが手札から舞台に置かれた時、次の2つの効果のうちあなたが選んだ1つを行う。『あなたは自分のクロックの上から1枚を、控え室に置いてよい。』『［手札を1枚控え室に置く］ あなたはコストを払ってよい。そうしたら、あなたは自分のクロックの上から1枚を、このカードの下にマーカーとして表向きに置く。』\n【自】【CXコンボ】 このカードがアタックした時、CX置場に「先に行くぜ」があり、他のあなたの《ウマ娘》のキャラが2枚以上なら、相手に1ダメージをＸ回与える。Ｘはこのカードの下のマーカーが2枚以下なら1、3枚なら2、4枚以上なら3に等しい。（ダメージキャンセルは発生する）\n\"-\"",
+   "traits": [
+    "ウマ娘"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_003.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-003SP",
+   "name": "限界を越えた先 ジャングルポケット",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "yellow",
+   "level": "3",
+   "cost": "2",
+   "power": "8000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたのターン中、このカードのパワーを＋3000。\n【自】 このカードが手札から舞台に置かれた時、次の2つの効果のうちあなたが選んだ1つを行う。『あなたは自分のクロックの上から1枚を、控え室に置いてよい。』『［手札を1枚控え室に置く］ あなたはコストを払ってよい。そうしたら、あなたは自分のクロックの上から1枚を、このカードの下にマーカーとして表向きに置く。』\n【自】【CXコンボ】 このカードがアタックした時、CX置場に「先に行くぜ」があり、他のあなたの《ウマ娘》のキャラが2枚以上なら、相手に1ダメージをＸ回与える。Ｘはこのカードの下のマーカーが2枚以下なら1、3枚なら2、4枚以上なら3に等しい。（ダメージキャンセルは発生する）\n\"-\"",
+   "traits": [
+    "ウマ娘"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_003sp.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-004",
+   "name": "ひたむきな努力 ダンツフレーム",
+   "type": "Character",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1) 手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を上から3枚まで見て、カードを1枚まで選び、手札に加え、残りのカードを控え室に置く。\n【自】［手札の《ウマ娘》のキャラを1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは1枚引く。\n\"-\"",
+   "traits": [
+    "ウマ娘"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_004.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-004S",
+   "name": "ひたむきな努力 ダンツフレーム",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1) 手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を上から3枚まで見て、カードを1枚まで選び、手札に加え、残りのカードを控え室に置く。\n【自】［手札の《ウマ娘》のキャラを1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは1枚引く。\n\"-\"",
+   "traits": [
+    "ウマ娘"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_004s.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-005",
+   "name": "トレセン学園 ジャングルポケット",
+   "type": "Character",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのターン中、このカードの下にマーカーがあり、他のあなたの《ウマ娘》のキャラがいるなら、このカードのパワーを＋5000。\n【自】［(1)］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の『継承』を持つキャラを1枚選び、このカードの下にマーカーとして表向きに置く。\n【自】 継承 他のあなたのキャラが手札から舞台に置かれた時、そのキャラの下にマーカーがないなら、あなたはこのカードの下のマーカー1枚までとこのカードを選び、その舞台に置かれたキャラの下にマーカーとして好きな順番で表向きに置いてよい。そうしたら、残りのマーカーを控え室に置く。\n\"-\"",
+   "traits": [
+    "ウマ娘"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_005.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-005S",
+   "name": "トレセン学園 ジャングルポケット",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのターン中、このカードの下にマーカーがあり、他のあなたの《ウマ娘》のキャラがいるなら、このカードのパワーを＋5000。\n【自】［(1)］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の『継承』を持つキャラを1枚選び、このカードの下にマーカーとして表向きに置く。\n【自】 継承 他のあなたのキャラが手札から舞台に置かれた時、そのキャラの下にマーカーがないなら、あなたはこのカードの下のマーカー1枚までとこのカードを選び、その舞台に置かれたキャラの下にマーカーとして好きな順番で表向きに置いてよい。そうしたら、残りのマーカーを控え室に置く。\n\"-\"",
+   "traits": [
+    "ウマ娘"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_005s.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-006",
+   "name": "誰からも慕われているウマ娘 フジキセキ",
+   "type": "Character",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードがダイレクトアタックした時、あなたは他の自分のキャラを1枚選び、【レスト】し、後列のキャラのいない枠に動かす。\n\"-\"",
+   "traits": [
+    "ウマ娘"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_006.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-006S",
+   "name": "誰からも慕われているウマ娘 フジキセキ",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードがダイレクトアタックした時、あなたは他の自分のキャラを1枚選び、【レスト】し、後列のキャラのいない枠に動かす。\n\"-\"",
+   "traits": [
+    "ウマ娘"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_006s.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-007",
+   "name": "お人よしなウマ娘 ダンツフレーム",
+   "type": "Character",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、他のあなたの《ウマ娘》のキャラがいるなら、次の2つの効果のうちあなたが選んだ1つを行う。『あなたは自分の手札を1枚選び、ストック置場に置いてよい。』『あなたは他の自分のキャラを1枚選び、自分の手札の『継承』を持つキャラを1枚まで選んで相手に見せ、そのキャラの下にマーカーとして表向きに置く。』\n\"-\"",
+   "traits": [
+    "ウマ娘"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_007.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-007S",
+   "name": "お人よしなウマ娘 ダンツフレーム",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、他のあなたの《ウマ娘》のキャラがいるなら、次の2つの効果のうちあなたが選んだ1つを行う。『あなたは自分の手札を1枚選び、ストック置場に置いてよい。』『あなたは他の自分のキャラを1枚選び、自分の手札の『継承』を持つキャラを1枚まで選んで相手に見せ、そのキャラの下にマーカーとして表向きに置く。』\n\"-\"",
+   "traits": [
+    "ウマ娘"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_007s.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-008",
+   "name": "託した願い フジキセキ",
+   "type": "Character",
+   "rarity": "U",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたのカード名に「ジャングルポケット」を含むキャラすべてに、パワーを＋500し、次の能力を与える。『【永】 このカードは相手の効果に選ばれない。』\n\"ポッケにはナベさんを<br>日本ダービーに連れていってほしいんだ\"",
+   "traits": [
+    "ウマ娘"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_008.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-008S",
+   "name": "託した願い フジキセキ",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたのカード名に「ジャングルポケット」を含むキャラすべてに、パワーを＋500し、次の能力を与える。『【永】 このカードは相手の効果に選ばれない。』\n\"-\"",
+   "traits": [
+    "ウマ娘"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_008s.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-009",
+   "name": "信頼の証 フジキセキ",
+   "type": "Character",
+   "rarity": "U",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室のカード名に「ジャングルポケット」を含むキャラを1枚選び、手札に戻す。\n\"…ごめんね。でも、私には…<br>ナベさん以上のトレーナーは思いつかなかったんだ\"",
+   "traits": [
+    "ウマ娘"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_009.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-009S",
+   "name": "信頼の証 フジキセキ",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室のカード名に「ジャングルポケット」を含むキャラを1枚選び、手札に戻す。\n\"-\"",
+   "traits": [
+    "ウマ娘"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_009s.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-010",
+   "name": "先輩ウマ娘 フジキセキ",
+   "type": "Character",
+   "rarity": "U",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたのカード名に「ジャングルポケット」を含むキャラすべてに、次の能力を与える。『【自】［(1)］ アンコールステップの始めに、他のあなたの前列の【レスト】しているキャラがいないなら、あなたはコストを払ってよい。そうしたら、このカードを【レスト】する。』\n\"この敗戦を次にどう活かすかが<br>今後のカギだと私は思うけどね\"",
+   "traits": [
+    "ウマ娘"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_010.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-010S",
+   "name": "先輩ウマ娘 フジキセキ",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたのカード名に「ジャングルポケット」を含むキャラすべてに、次の能力を与える。『【自】［(1)］ アンコールステップの始めに、他のあなたの前列の【レスト】しているキャラがいないなら、あなたはコストを払ってよい。そうしたら、このカードを【レスト】する。』\n\"-\"",
+   "traits": [
+    "ウマ娘"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_010s.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-011",
+   "name": "新時代 ジャングルポケット",
+   "type": "Character",
+   "rarity": "U",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 このカードの下のマーカー1枚につき、このカードのパワーを＋2000。\n【永】 他のあなたの《ウマ娘》のキャラが2枚以上なら、このカードのパワーを＋1000し、このカードは次の2つの能力を得る。『【永】 このカードはサイドアタックできない。』『【永】 このカードは相手の効果に選ばれない。』\n\"良いな。アガるぜやっぱ\"",
+   "traits": [
+    "ウマ娘"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_011.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-011S",
+   "name": "新時代 ジャングルポケット",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 このカードの下のマーカー1枚につき、このカードのパワーを＋2000。\n【永】 他のあなたの《ウマ娘》のキャラが2枚以上なら、このカードのパワーを＋1000し、このカードは次の2つの能力を得る。『【永】 このカードはサイドアタックできない。』『【永】 このカードは相手の効果に選ばれない。』\n\"-\"",
+   "traits": [
+    "ウマ娘"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_011s.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-012",
+   "name": "託された願い ジャングルポケット",
+   "type": "Character",
+   "rarity": "U",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのターン中、他のあなたの《ウマ娘》のキャラがいるなら、このカードのパワーを＋3000。\n【自】【CXコンボ】 このカードがアタックした時、CX置場に「勝利の雄叫び」があり、他のあなたの《ウマ娘》のキャラが2枚以上なら、次の2つの効果のうちあなたが選んだ1つを行う。『あなたは自分の山札を上から4枚まで見て、《ウマ娘》のキャラを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。』『あなたは自分のキャラを2枚まで選び、そのターン中、ソウルを＋1。』\n\"俺は絶対最強になって<br>フジさんとナベさんの夢叶えてみせますよ\"",
+   "traits": [
+    "ウマ娘"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_012.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-012S",
+   "name": "託された願い ジャングルポケット",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのターン中、他のあなたの《ウマ娘》のキャラがいるなら、このカードのパワーを＋3000。\n【自】【CXコンボ】 このカードがアタックした時、CX置場に「勝利の雄叫び」があり、他のあなたの《ウマ娘》のキャラが2枚以上なら、次の2つの効果のうちあなたが選んだ1つを行う。『あなたは自分の山札を上から4枚まで見て、《ウマ娘》のキャラを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。』『あなたは自分のキャラを2枚まで選び、そのターン中、ソウルを＋1。』\n\"-\"",
+   "traits": [
+    "ウマ娘"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_012s.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-013",
+   "name": "始まりの一戦 ダンツフレーム",
+   "type": "Character",
+   "rarity": "U",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(2)］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室のカードすべてを、山札に戻し、その山札をシャッフルする。\n【自】 継承 他のあなたのキャラが手札から舞台に置かれた時、そのキャラの下にマーカーがないなら、あなたはこのカードの下のマーカー1枚までとこのカードを選び、その舞台に置かれたキャラの下にマーカーとして好きな順番で表向きに置いてよい。そうしたら、残りのマーカーを控え室に置く。\n\"伝説の始まりを、一瞬たりとも見逃すな！\"",
+   "traits": [
+    "ウマ娘"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_013.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-013S",
+   "name": "始まりの一戦 ダンツフレーム",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(2)］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室のカードすべてを、山札に戻し、その山札をシャッフルする。\n【自】 継承 他のあなたのキャラが手札から舞台に置かれた時、そのキャラの下にマーカーがないなら、あなたはこのカードの下のマーカー1枚までとこのカードを選び、その舞台に置かれたキャラの下にマーカーとして好きな順番で表向きに置いてよい。そうしたら、残りのマーカーを控え室に置く。\n\"-\"",
+   "traits": [
+    "ウマ娘"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_013s.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-014",
+   "name": "帰ってきたエンターテイナー フジキセキ",
+   "type": "Character",
+   "rarity": "U",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋Ｘ。Ｘはそのキャラのレベル×500に等しい。\n【起】［このカードを【レスト】する］ あなたは自分の「限界を越えた先 ジャングルポケット」を1枚選び、自分の控え室の『継承』を持つキャラを1枚選び、そのキャラの下にマーカーとして表向きに置く。\n\"今度はもっと貴方を喜ばせてみせるよ<br>トレーナーさん\"",
+   "traits": [
+    "ウマ娘"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_014.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-014S",
+   "name": "帰ってきたエンターテイナー フジキセキ",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋Ｘ。Ｘはそのキャラのレベル×500に等しい。\n【起】［このカードを【レスト】する］ あなたは自分の「限界を越えた先 ジャングルポケット」を1枚選び、自分の控え室の『継承』を持つキャラを1枚選び、そのキャラの下にマーカーとして表向きに置く。\n\"-\"",
+   "traits": [
+    "ウマ娘"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_014s.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-015",
+   "name": "写真撮影 ハルウララ",
+   "type": "Character",
+   "rarity": "U",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】［(2)］ あなたがこのカードの『助太刀』を使った時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室のカードすべてを、山札に戻し、その山札をシャッフルする。\n【起】【カウンター】 助太刀2500 レベル2 ［(1) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋2500）\n\"-\"",
+   "traits": [
+    "ウマ娘"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_015.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-015S",
+   "name": "写真撮影 ハルウララ",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】［(2)］ あなたがこのカードの『助太刀』を使った時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室のカードすべてを、山札に戻し、その山札をシャッフルする。\n【起】【カウンター】 助太刀2500 レベル2 ［(1) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋2500）\n\"-\"",
+   "traits": [
+    "ウマ娘"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_015s.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-016",
+   "name": "宣戦布告 ジャングルポケット",
+   "type": "Character",
+   "rarity": "U",
+   "color": "yellow",
+   "level": "3",
+   "cost": "2",
+   "power": "8500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、他のあなたの《ウマ娘》のキャラが2枚以上なら、あなたは2枚引いてよい。そうしたら、あなたは自分の手札を2枚選び、控え室に置く。\n【自】［手札の「宣戦布告 ジャングルポケット」を1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、相手は自分のストックすべてを、控え室に置き、自分の山札の上から同じ枚数をストック置場に置き、そのターン中、このカードのパワーを＋3000。\n\"今度は勝たしてもらうぜ！\"",
+   "traits": [
+    "ウマ娘"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_016.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-016S",
+   "name": "宣戦布告 ジャングルポケット",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "yellow",
+   "level": "3",
+   "cost": "2",
+   "power": "8500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、他のあなたの《ウマ娘》のキャラが2枚以上なら、あなたは2枚引いてよい。そうしたら、あなたは自分の手札を2枚選び、控え室に置く。\n【自】［手札の「宣戦布告 ジャングルポケット」を1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、相手は自分のストックすべてを、控え室に置き、自分の山札の上から同じ枚数をストック置場に置き、そのターン中、このカードのパワーを＋3000。\n\"-\"",
+   "traits": [
+    "ウマ娘"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_016s.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-017",
+   "name": "フリースタイル・レースのカリスマ ジャングルポケット",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの《ウマ娘》のキャラすべてに、パワーを＋500。\n【自】 このカードが【リバース】した時、このカードのバトル相手のレベルが0以下なら、あなたはそのキャラをストック置場に置いてよい。そうしたら、あなたは相手のストックの下から1枚を、控え室に置く。\n\"ここのお嬢サン連中が、どんだけ速ぇのか<br>見てみよーじゃねーか\"",
+   "traits": [
+    "ウマ娘"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_017.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-017S",
+   "name": "フリースタイル・レースのカリスマ ジャングルポケット",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの《ウマ娘》のキャラすべてに、パワーを＋500。\n【自】 このカードが【リバース】した時、このカードのバトル相手のレベルが0以下なら、あなたはそのキャラをストック置場に置いてよい。そうしたら、あなたは相手のストックの下から1枚を、控え室に置く。\n\"-\"",
+   "traits": [
+    "ウマ娘"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_017s.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-018",
+   "name": "願いの成就 フジキセキ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［あなたの山札の上から1枚を控え室に置き、手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。この能力のコストで山札の上から控え室に置かれたカードのレベルが1以上なら、あなたは自分の山札を上から4枚まで見て、《ウマ娘》のキャラを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。この能力のコストで山札の上から控え室に置かれたカードのレベルが0以下なら、あなたは自分の控え室のレベル2以上の《ウマ娘》のキャラを1枚選び、手札に戻す。（CXのレベルは0として扱う）\n\"うん。…すごいね\"",
+   "traits": [
+    "ウマ娘"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_018.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-018S",
+   "name": "願いの成就 フジキセキ",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［あなたの山札の上から1枚を控え室に置き、手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。この能力のコストで山札の上から控え室に置かれたカードのレベルが1以上なら、あなたは自分の山札を上から4枚まで見て、《ウマ娘》のキャラを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。この能力のコストで山札の上から控え室に置かれたカードのレベルが0以下なら、あなたは自分の控え室のレベル2以上の《ウマ娘》のキャラを1枚選び、手札に戻す。（CXのレベルは0として扱う）\n\"-\"",
+   "traits": [
+    "ウマ娘"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_018s.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-019",
+   "name": "光を追って ダンツフレーム",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時かアタックした時、あなたは自分の《ウマ娘》のキャラを1枚選び、そのターン中、パワーを＋1500。\n\"皐月の栄冠をつかみ取るのは<br>一体、どのウマ娘か!?\"",
+   "traits": [
+    "ウマ娘"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_019.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-019S",
+   "name": "光を追って ダンツフレーム",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時かアタックした時、あなたは自分の《ウマ娘》のキャラを1枚選び、そのターン中、パワーを＋1500。\n\"-\"",
+   "traits": [
+    "ウマ娘"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_019s.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-020",
+   "name": "新たな時代の幕開け フジキセキ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】［(1) 手札を1枚控え室に置く］ このカードが手札から舞台に置かれたターン中、あなたのトリガーアイコンが[[choice.gif]]のCXがCX置場に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室のトリガーアイコンが[[choice.gif]]のCXを1枚選び、手札に戻す。\n\"-\"",
+   "traits": [
+    "ウマ娘"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_020.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-020S",
+   "name": "新たな時代の幕開け フジキセキ",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】［(1) 手札を1枚控え室に置く］ このカードが手札から舞台に置かれたターン中、あなたのトリガーアイコンが[[choice.gif]]のCXがCX置場に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室のトリガーアイコンが[[choice.gif]]のCXを1枚選び、手札に戻す。\n\"-\"",
+   "traits": [
+    "ウマ娘"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_020s.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-021",
+   "name": "オレのライブ ジャングルポケット",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "1",
+   "cost": "1",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 あなたのトリガーアイコンに[[soul.gif]]があるカードがトリガーした時、あなたは自分の《ウマ娘》のキャラを1枚選び、そのターン中、パワーを＋2000。\n【自】 このカードが【リバース】した時、このカードのバトル相手のレベルが相手のレベルより高いなら、あなたはそのキャラをストック置場に置いてよい。そうしたら、あなたは相手のストックの下から1枚を、控え室に置く。\n\"-\"",
+   "traits": [
+    "ウマ娘"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_021.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-021S",
+   "name": "オレのライブ ジャングルポケット",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "yellow",
+   "level": "1",
+   "cost": "1",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 あなたのトリガーアイコンに[[soul.gif]]があるカードがトリガーした時、あなたは自分の《ウマ娘》のキャラを1枚選び、そのターン中、パワーを＋2000。\n【自】 このカードが【リバース】した時、このカードのバトル相手のレベルが相手のレベルより高いなら、あなたはそのキャラをストック置場に置いてよい。そうしたら、あなたは相手のストックの下から1枚を、控え室に置く。\n\"-\"",
+   "traits": [
+    "ウマ娘"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_021s.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-022",
+   "name": "不穏な気配 ジャングルポケット",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードがアタックした時、あなたは自分の山札の上から1枚を公開する。そのカードが《ウマ娘》のキャラなら、あなたのキャラすべてに、そのターン中、パワーを＋5000。（公開したカードは元に戻す）\n\"…タキオン？\"",
+   "traits": [
+    "ウマ娘"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_022.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-022S",
+   "name": "不穏な気配 ジャングルポケット",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードがアタックした時、あなたは自分の山札の上から1枚を公開する。そのカードが《ウマ娘》のキャラなら、あなたのキャラすべてに、そのターン中、パワーを＋5000。（公開したカードは元に戻す）\n\"-\"",
+   "traits": [
+    "ウマ娘"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_022s.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-023",
+   "name": "光を追って ジャングルポケット",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの《ウマ娘》のキャラが4枚以上なら、このカードのパワーを＋6000。\n【自】 このカードが手札から舞台に置かれた時、他のあなたの《ウマ娘》のキャラが2枚以上なら、あなたは2枚引いてよい。そうしたら、あなたは自分の手札を2枚選び、控え室に置く。\n\"皐月の栄冠をつかみ取るのは<br>一体、どのウマ娘か!?\"",
+   "traits": [
+    "ウマ娘"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_023.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-023S",
+   "name": "光を追って ジャングルポケット",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの《ウマ娘》のキャラが4枚以上なら、このカードのパワーを＋6000。\n【自】 このカードが手札から舞台に置かれた時、他のあなたの《ウマ娘》のキャラが2枚以上なら、あなたは2枚引いてよい。そうしたら、あなたは自分の手札を2枚選び、控え室に置く。\n\"-\"",
+   "traits": [
+    "ウマ娘"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_023s.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-024",
+   "name": "ベテラントレーナー タナベ",
+   "type": "Event",
+   "rarity": "U",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "【カウンター】 このカードは、あなたの《ウマ娘》のキャラがいないなら、手札からプレイできない。あなたは自分の山札を上から4枚まで見て、《ウマ娘》のキャラを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。\n\"お帰り\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_024.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-024S",
+   "name": "ベテラントレーナー タナベ",
+   "type": "Event",
+   "rarity": "SR",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "【カウンター】 このカードは、あなたの《ウマ娘》のキャラがいないなら、手札からプレイできない。あなたは自分の山札を上から4枚まで見て、《ウマ娘》のキャラを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_024s.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-025",
+   "name": "先に行くぜ",
+   "type": "Climax",
+   "rarity": "CR",
+   "color": "yellow",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[choice.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[choice.gif]]：このカードがトリガーした時、あなたは自分の控え室のトリガーアイコンに[[soul.gif]]があるキャラを1枚選び、手札に戻すかストック置場に置いてよい）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_025.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-025R",
+   "name": "先に行くぜ",
+   "type": "Climax",
+   "rarity": "RRR",
+   "color": "yellow",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[choice.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[choice.gif]]：このカードがトリガーした時、あなたは自分の控え室のトリガーアイコンに[[soul.gif]]があるキャラを1枚選び、手札に戻すかストック置場に置いてよい）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_025r.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-026",
+   "name": "勝利の雄叫び",
+   "type": "Climax",
+   "rarity": "CR",
+   "color": "yellow",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[shot.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[shot.gif]]：このターン中、このカードをトリガーした攻撃キャラが次に与えるダメージがキャンセルされた時、相手に1ダメージを与える）\n\"うぉぉぉぉーーーーー\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_026.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-026R",
+   "name": "勝利の雄叫び",
+   "type": "Climax",
+   "rarity": "RRR",
+   "color": "yellow",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[shot.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[shot.gif]]：このターン中、このカードをトリガーした攻撃キャラが次に与えるダメージがキャンセルされた時、相手に1ダメージを与える）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_026r.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-027",
+   "name": "夢の続き",
+   "type": "Climax",
+   "rarity": "CR",
+   "color": "yellow",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[choice.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[choice.gif]]：このカードがトリガーした時、あなたは自分の控え室のトリガーアイコンに[[soul.gif]]があるキャラを1枚選び、手札に戻すかストック置場に置いてよい）\n\"まだ立ち止まりたくないと<br>少しでも思っているなら…\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_027.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-027R",
+   "name": "夢の続き",
+   "type": "Climax",
+   "rarity": "RRR",
+   "color": "yellow",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[choice.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[choice.gif]]：このカードがトリガーした時、あなたは自分の控え室のトリガーアイコンに[[soul.gif]]があるキャラを1枚選び、手札に戻すかストック置場に置いてよい）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_027r.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-028",
+   "name": "憧れに並ぶ為に メイショウドトウ",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードがアタックした時、あなたは他の自分のキャラを1枚選び、そのターン中、パワーを＋1500。\n【自】［(1) あなたの山札の上から1枚をクロック置場に置く］ このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を上から2枚まで見て、《ウマ娘》のキャラを2枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。\n\"-\"",
+   "traits": [
+    "ウマ娘"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_028.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-028SP",
+   "name": "憧れに並ぶ為に メイショウドトウ",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードがアタックした時、あなたは他の自分のキャラを1枚選び、そのターン中、パワーを＋1500。\n【自】［(1) あなたの山札の上から1枚をクロック置場に置く］ このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を上から2枚まで見て、《ウマ娘》のキャラを2枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。\n\"-\"",
+   "traits": [
+    "ウマ娘"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_028sp.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-029",
+   "name": "勝利の栄光へ テイエムオペラオー",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "green",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n【自】【CXコンボ】［(1) 手札を1枚控え室に置く］ このカードがアタックした時、CX置場に「覇道の軌跡」があり、このカードの下にマーカーがあり、他のあなたの《ウマ娘》のキャラがいるなら、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を上から1枚見て、好きな数を宣言し、相手にＸダメージを与える。Ｘはあなたの宣言した数に等しい。（見たカードは元に戻す。マイナスの数は宣言できない。ダメージキャンセルは発生する）\n\"-\"",
+   "traits": [
+    "ウマ娘"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_029.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-029SP",
+   "name": "勝利の栄光へ テイエムオペラオー",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "green",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n【自】【CXコンボ】［(1) 手札を1枚控え室に置く］ このカードがアタックした時、CX置場に「覇道の軌跡」があり、このカードの下にマーカーがあり、他のあなたの《ウマ娘》のキャラがいるなら、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を上から1枚見て、好きな数を宣言し、相手にＸダメージを与える。Ｘはあなたの宣言した数に等しい。（見たカードは元に戻す。マイナスの数は宣言できない。ダメージキャンセルは発生する）\n\"-\"",
+   "traits": [
+    "ウマ娘"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_029sp.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-030",
+   "name": "想いを背負って ナリタトップロード",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "green",
+   "level": "3",
+   "cost": "2",
+   "power": "10500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】［(2) 手札を1枚控え室に置く］ あなたのアンコールステップの始めに、あなたはコストを払ってよい。そうしたら、相手に1ダメージを与える。（ダメージキャンセルは発生する）\n【自】 チェンジ ［このカードを控え室に置く］ あなたのドローフェイズの始めに、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の《ウマ娘》のキャラを1枚選び、このカードがいた枠に置き、そのターン中、そのキャラのパワーを＋3000。（ドローフェイズの始めにこのカードがいないなら発動しない）\n\"-\"",
+   "traits": [
+    "ウマ娘"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_030.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-030SP",
+   "name": "想いを背負って ナリタトップロード",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "green",
+   "level": "3",
+   "cost": "2",
+   "power": "10500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】［(2) 手札を1枚控え室に置く］ あなたのアンコールステップの始めに、あなたはコストを払ってよい。そうしたら、相手に1ダメージを与える。（ダメージキャンセルは発生する）\n【自】 チェンジ ［このカードを控え室に置く］ あなたのドローフェイズの始めに、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の《ウマ娘》のキャラを1枚選び、このカードがいた枠に置き、そのターン中、そのキャラのパワーを＋3000。（ドローフェイズの始めにこのカードがいないなら発動しない）\n\"-\"",
+   "traits": [
+    "ウマ娘"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_030sp.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-031",
+   "name": "百戦錬磨の絶対王者 テイエムオペラオー",
+   "type": "Character",
+   "rarity": "R",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、そのターン中、このカードのパワーを＋1500。\n【自】 このカードが手札から舞台に置かれた時、相手の前列のキャラすべてに、そのターン中、パワーを－500。\n\"-\"",
+   "traits": [
+    "ウマ娘"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_031.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-031S",
+   "name": "百戦錬磨の絶対王者 テイエムオペラオー",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、そのターン中、このカードのパワーを＋1500。\n【自】 このカードが手札から舞台に置かれた時、相手の前列のキャラすべてに、そのターン中、パワーを－500。\n\"-\"",
+   "traits": [
+    "ウマ娘"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_031s.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-032",
+   "name": "頂きへの道 ナリタトップロード",
+   "type": "Character",
+   "rarity": "R",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【起】［このカードを【レスト】する］ 他のあなたの《ウマ娘》のキャラが4枚以上なら、あなたは1枚引き、自分の手札を1枚選び、控え室に置く。\n【起】 集中 ［(1) このカードを【レスト】する］ あなたは自分の山札の上から4枚をめくり、控え室に置く。それらのカードのCX1枚につき、あなたは自分の山札を見て《ウマ娘》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"-\"",
+   "traits": [
+    "ウマ娘"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_032.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-032S",
+   "name": "頂きへの道 ナリタトップロード",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【起】［このカードを【レスト】する］ 他のあなたの《ウマ娘》のキャラが4枚以上なら、あなたは1枚引き、自分の手札を1枚選び、控え室に置く。\n【起】 集中 ［(1) このカードを【レスト】する］ あなたは自分の山札の上から4枚をめくり、控え室に置く。それらのカードのCX1枚につき、あなたは自分の山札を見て《ウマ娘》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"-\"",
+   "traits": [
+    "ウマ娘"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_032s.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-033",
+   "name": "世紀末覇王 テイエムオペラオー",
+   "type": "Character",
+   "rarity": "R",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1)］ あなたのCXがCX置場に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を上から4枚まで見て、《ウマ娘》のキャラを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。\n【自】 継承 他のあなたのキャラが手札から舞台に置かれた時、そのキャラの下にマーカーがないなら、あなたはこのカードの下のマーカー1枚までとこのカードを選び、その舞台に置かれたキャラの下にマーカーとして好きな順番で表向きに置いてよい。そうしたら、残りのマーカーを控え室に置く。\n\"-\"",
+   "traits": [
+    "ウマ娘"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_033.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-033S",
+   "name": "世紀末覇王 テイエムオペラオー",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1)］ あなたのCXがCX置場に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を上から4枚まで見て、《ウマ娘》のキャラを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。\n【自】 継承 他のあなたのキャラが手札から舞台に置かれた時、そのキャラの下にマーカーがないなら、あなたはこのカードの下のマーカー1枚までとこのカードを選び、その舞台に置かれたキャラの下にマーカーとして好きな順番で表向きに置いてよい。そうしたら、残りのマーカーを控え室に置く。\n\"-\"",
+   "traits": [
+    "ウマ娘"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_033s.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-034",
+   "name": "トレセン学園 アグネスタキオン",
+   "type": "Character",
+   "rarity": "R",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［他のあなたの舞台の《ウマ娘》のキャラを1枚控え室に置く］ このカードのアタックの終わりに、あなたはコストを払ってよい。そうしたら、あなたはこのカードを後列のキャラのいない枠に動かす。\n【自】 継承 他のあなたのキャラが手札から舞台に置かれた時、そのキャラの下にマーカーがないなら、あなたはこのカードの下のマーカー1枚までとこのカードを選び、その舞台に置かれたキャラの下にマーカーとして好きな順番で表向きに置いてよい。そうしたら、残りのマーカーを控え室に置く。\n\"-\"",
+   "traits": [
+    "ウマ娘"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_034.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-034S",
+   "name": "トレセン学園 アグネスタキオン",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［他のあなたの舞台の《ウマ娘》のキャラを1枚控え室に置く］ このカードのアタックの終わりに、あなたはコストを払ってよい。そうしたら、あなたはこのカードを後列のキャラのいない枠に動かす。\n【自】 継承 他のあなたのキャラが手札から舞台に置かれた時、そのキャラの下にマーカーがないなら、あなたはこのカードの下のマーカー1枚までとこのカードを選び、その舞台に置かれたキャラの下にマーカーとして好きな順番で表向きに置いてよい。そうしたら、残りのマーカーを控え室に置く。\n\"-\"",
+   "traits": [
+    "ウマ娘"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_034s.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-035",
+   "name": "頂きへの道 テイエムオペラオー",
+   "type": "Character",
+   "rarity": "R",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの《ウマ娘》のキャラが2枚以上なら、このカードのパワーを＋2000。\n【自】【CXコンボ】［手札を1枚控え室に置く］ このカードがアタックした時、CX置場に「歴史に刻まれた偉業」があり、他のあなたの《ウマ娘》のキャラが2枚以上なら、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の《ウマ娘》のキャラを1枚選び、手札に戻し、次の相手のターンの終わりまで、このカードは次の能力を得る。『【永】 相手のターン中、このカードは【リバース】しない。』\n\"-\"",
+   "traits": [
+    "ウマ娘"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_035.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-035S",
+   "name": "頂きへの道 テイエムオペラオー",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの《ウマ娘》のキャラが2枚以上なら、このカードのパワーを＋2000。\n【自】【CXコンボ】［手札を1枚控え室に置く］ このカードがアタックした時、CX置場に「歴史に刻まれた偉業」があり、他のあなたの《ウマ娘》のキャラが2枚以上なら、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の《ウマ娘》のキャラを1枚選び、手札に戻し、次の相手のターンの終わりまで、このカードは次の能力を得る。『【永】 相手のターン中、このカードは【リバース】しない。』\n\"-\"",
+   "traits": [
+    "ウマ娘"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_035s.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-036",
+   "name": "頂きへの道 メイショウドトウ",
+   "type": "Character",
+   "rarity": "R",
+   "color": "green",
+   "level": "2",
+   "cost": "1",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】［(2) 手札の《ウマ娘》のキャラを1枚控え室に置く］ あなたがこのカードの『助太刀』を使った時、あなたはコストを払ってよい。そうしたら、あなたは相手のキャラを1枚選び、そのターン中、ソウルを－2。\n【起】【カウンター】 助太刀2500 レベル2 ［(1) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋2500）\n\"-\"",
+   "traits": [
+    "ウマ娘"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_036.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-036S",
+   "name": "頂きへの道 メイショウドトウ",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "2",
+   "cost": "1",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】［(2) 手札の《ウマ娘》のキャラを1枚控え室に置く］ あなたがこのカードの『助太刀』を使った時、あなたはコストを払ってよい。そうしたら、あなたは相手のキャラを1枚選び、そのターン中、ソウルを－2。\n【起】【カウンター】 助太刀2500 レベル2 ［(1) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋2500）\n\"-\"",
+   "traits": [
+    "ウマ娘"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_036s.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-037",
+   "name": "狂気の光 アグネスタキオン",
+   "type": "Character",
+   "rarity": "R",
+   "color": "green",
+   "level": "3",
+   "cost": "2",
+   "power": "9000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたの控え室のCXが2枚以下なら、あなたの手札のこのカードのレベルを－1。\n【永】 あなたのターン中、他のあなたの《ウマ娘》のキャラがいるなら、このカードのパワーを＋3000。\n【自】［(1) 手札の《ウマ娘》のキャラを2枚控え室に置く］ この能力は1ターンにつき1回まで発動する。このカードが手札から舞台に置かれたターン中、このカードのバトル相手が【リバース】した時、あなたはコストを払ってよい。そうしたら、このカードを【スタンド】する。\n\"-\"",
+   "traits": [
+    "ウマ娘"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_037.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-037SP",
+   "name": "狂気の光 アグネスタキオン",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "green",
+   "level": "3",
+   "cost": "2",
+   "power": "9000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたの控え室のCXが2枚以下なら、あなたの手札のこのカードのレベルを－1。\n【永】 あなたのターン中、他のあなたの《ウマ娘》のキャラがいるなら、このカードのパワーを＋3000。\n【自】［(1) 手札の《ウマ娘》のキャラを2枚控え室に置く］ この能力は1ターンにつき1回まで発動する。このカードが手札から舞台に置かれたターン中、このカードのバトル相手が【リバース】した時、あなたはコストを払ってよい。そうしたら、このカードを【スタンド】する。\n\"-\"",
+   "traits": [
+    "ウマ娘"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_037sp.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-038",
+   "name": "負けられない戦い メイショウドトウ",
+   "type": "Character",
+   "rarity": "U",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードがダイレクトアタックした時、そのターン中、このカードのソウルを＋1。\n【自】［(1) このカードを控え室に置く］ 他のあなたの《ウマ娘》のキャラがフロントアタックされた時、あなたはコストを払ってよい。そうしたら、そのキャラを手札に戻す。\n\"ナリタトップロードやメイショウドトウといった<br>ＧＩウマ娘たちのひしめくこの一戦\"",
+   "traits": [
+    "ウマ娘"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_038.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-038S",
+   "name": "負けられない戦い メイショウドトウ",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードがダイレクトアタックした時、そのターン中、このカードのソウルを＋1。\n【自】［(1) このカードを控え室に置く］ 他のあなたの《ウマ娘》のキャラがフロントアタックされた時、あなたはコストを払ってよい。そうしたら、そのキャラを手札に戻す。\n\"-\"",
+   "traits": [
+    "ウマ娘"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_038s.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-039",
+   "name": "可能性の探究 アグネスタキオン",
+   "type": "Character",
+   "rarity": "U",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1)］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の手札を好きな枚数選び、控え室に置き、Ｘ枚引く。Ｘはこの効果で控え室に置かれたカードの枚数に等しい。\n\"走らずにはいられない<br>その先にある何かを渇望し、執着し、追い続ける<br>ウマ娘の持つ可能性、その先へと\"",
+   "traits": [
+    "ウマ娘"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_039.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-039S",
+   "name": "可能性の探究 アグネスタキオン",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1)］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の手札を好きな枚数選び、控え室に置き、Ｘ枚引く。Ｘはこの効果で控え室に置かれたカードの枚数に等しい。\n\"-\"",
+   "traits": [
+    "ウマ娘"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_039s.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-040",
+   "name": "覇王の意地 テイエムオペラオー",
+   "type": "Character",
+   "rarity": "U",
+   "color": "green",
+   "level": "2",
+   "cost": "1",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたの《ウマ娘》のキャラが4枚以上なら、あなたの手札のこのカードのレベルを－1。\n【永】 前列の中央の枠にこのカードがいるなら、このカードのパワーを＋6000。\n【自】 このカードのバトル相手が【リバース】した時、あなたのCX置場にCXがあるなら、あなたはそのキャラを山札の上に置いてよい。\n\"-\"",
+   "traits": [
+    "ウマ娘"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_040.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-040S",
+   "name": "覇王の意地 テイエムオペラオー",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "2",
+   "cost": "1",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたの《ウマ娘》のキャラが4枚以上なら、あなたの手札のこのカードのレベルを－1。\n【永】 前列の中央の枠にこのカードがいるなら、このカードのパワーを＋6000。\n【自】 このカードのバトル相手が【リバース】した時、あなたのCX置場にCXがあるなら、あなたはそのキャラを山札の上に置いてよい。\n\"-\"",
+   "traits": [
+    "ウマ娘"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_040s.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-041",
+   "name": "ルームメイト ナリタトップロード",
+   "type": "Character",
+   "rarity": "U",
+   "color": "green",
+   "level": "2",
+   "cost": "1",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 応援 このカードの前のあなたのレベル3以上のキャラすべてに、パワーを＋2000。\n【起】［このカードを【レスト】する］ あなたは相手の山札を上から2枚まで見て、山札の上に好きな順番で置く。\n\"-\"",
+   "traits": [
+    "ウマ娘"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_041.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-041S",
+   "name": "ルームメイト ナリタトップロード",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "2",
+   "cost": "1",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 応援 このカードの前のあなたのレベル3以上のキャラすべてに、パワーを＋2000。\n【起】［このカードを【レスト】する］ あなたは相手の山札を上から2枚まで見て、山札の上に好きな順番で置く。\n\"-\"",
+   "traits": [
+    "ウマ娘"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_041s.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-042",
+   "name": "プランB アグネスタキオン",
+   "type": "Character",
+   "rarity": "U",
+   "color": "green",
+   "level": "2",
+   "cost": "1",
+   "power": "7000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたのターン中、他のあなたの《ウマ娘》のキャラが2枚以上なら、このカードのパワーを＋4000。\n【自】【CXコンボ】 このカードがアタックした時、CX置場に「残光の輝き」があるなら、そのアタック中、このカードのパワーを＋2000し、あなたはトリガーステップにトリガーチェックを2回行う。\n\"アグネス先頭！アグネス先頭！\"",
+   "traits": [
+    "ウマ娘"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_042.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-042S",
+   "name": "プランB アグネスタキオン",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "2",
+   "cost": "1",
+   "power": "7000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたのターン中、他のあなたの《ウマ娘》のキャラが2枚以上なら、このカードのパワーを＋4000。\n【自】【CXコンボ】 このカードがアタックした時、CX置場に「残光の輝き」があるなら、そのアタック中、このカードのパワーを＋2000し、あなたはトリガーステップにトリガーチェックを2回行う。\n\"-\"",
+   "traits": [
+    "ウマ娘"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_042s.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-043",
+   "name": "私のライブ アグネスタキオン",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、そのターン中、このカードのパワーを＋3000。\n【自】［手札のCXを1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の《ウマ娘》のキャラを1枚選び、手札に戻す。\n\"-\"",
+   "traits": [
+    "ウマ娘"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_043.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-043S",
+   "name": "私のライブ アグネスタキオン",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、そのターン中、このカードのパワーを＋3000。\n【自】［手札のCXを1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の《ウマ娘》のキャラを1枚選び、手札に戻す。\n\"-\"",
+   "traits": [
+    "ウマ娘"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_043s.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-044",
+   "name": "写真撮影 アドマイヤベガ＆カレンチャン",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、そのターン中、このカードのパワーを＋4500。\n\"-\"",
+   "traits": [
+    "ウマ娘"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_044.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-044S",
+   "name": "写真撮影 アドマイヤベガ＆カレンチャン",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、そのターン中、このカードのパワーを＋4500。\n\"-\"",
+   "traits": [
+    "ウマ娘"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_044s.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-045",
+   "name": "データ収集 アグネスタキオン",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 あなたのCXがCX置場に置かれた時、あなたは自分の山札の上から1枚を公開する。そのカードがレベル0以下のキャラならストック置場に置く。（そうでないなら元に戻す）\n\"実験だぁー!!\"",
+   "traits": [
+    "ウマ娘"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_045.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-045S",
+   "name": "データ収集 アグネスタキオン",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 あなたのCXがCX置場に置かれた時、あなたは自分の山札の上から1枚を公開する。そのカードがレベル0以下のキャラならストック置場に置く。（そうでないなら元に戻す）\n\"-\"",
+   "traits": [
+    "ウマ娘"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_045s.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-046",
+   "name": "まだ見ぬ偉業 テイエムオペラオー",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、そのターン中、このカードのパワーを＋Ｘ。Ｘはあなたの《ウマ娘》のキャラの枚数×1000に等しい。\n\"ここに、ここにいます！\"",
+   "traits": [
+    "ウマ娘"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_046.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-046S",
+   "name": "まだ見ぬ偉業 テイエムオペラオー",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、そのターン中、このカードのパワーを＋Ｘ。Ｘはあなたの《ウマ娘》のキャラの枚数×1000に等しい。\n\"-\"",
+   "traits": [
+    "ウマ娘"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_046s.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-047",
+   "name": "負けられない戦い ナリタトップロード",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 あなたのCXがCX置場に置かれた時、そのターン中、このカードのパワーを＋2500し、このカードは次の能力を得る。『【自】 このカードのバトル相手が【リバース】した時、あなたはこのカードを思い出にしてよい。そうしたら、次のあなたのドローフェイズの始めに、あなたは自分の思い出置場の「負けられない戦い ナリタトップロード」を1枚選び、舞台の好きな枠に置く。』\n\"ナリタトップロードやメイショウドトウといった<br>ＧＩウマ娘たちのひしめくこの一戦\"",
+   "traits": [
+    "ウマ娘"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_047.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-047S",
+   "name": "負けられない戦い ナリタトップロード",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 あなたのCXがCX置場に置かれた時、そのターン中、このカードのパワーを＋2500し、このカードは次の能力を得る。『【自】 このカードのバトル相手が【リバース】した時、あなたはこのカードを思い出にしてよい。そうしたら、次のあなたのドローフェイズの始めに、あなたは自分の思い出置場の「負けられない戦い ナリタトップロード」を1枚選び、舞台の好きな枠に置く。』\n\"-\"",
+   "traits": [
+    "ウマ娘"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_047s.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-048",
+   "name": "ドジっ子ウマ娘 メイショウドトウ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 このカードの下にマーカーがあり、他のあなたの《ウマ娘》のキャラが2枚以上なら、このカードのパワーを＋2500し、このカードは次の能力を得る。『【自】［(1)］ アンコールステップの始めに、他のあなたの前列の【レスト】しているキャラがいないなら、あなたはコストを払ってよい。そうしたら、このカードを【レスト】する。』\n\"-\"",
+   "traits": [
+    "ウマ娘"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_048.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-048S",
+   "name": "ドジっ子ウマ娘 メイショウドトウ",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 このカードの下にマーカーがあり、他のあなたの《ウマ娘》のキャラが2枚以上なら、このカードのパワーを＋2500し、このカードは次の能力を得る。『【自】［(1)］ アンコールステップの始めに、他のあなたの前列の【レスト】しているキャラがいないなら、あなたはコストを払ってよい。そうしたら、このカードを【レスト】する。』\n\"-\"",
+   "traits": [
+    "ウマ娘"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_048s.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-049",
+   "name": "観察対象への興味 アグネスタキオン",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "7000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは相手の前列のキャラを1枚選び、そのターン中、パワーを＋3000。\n\"『お友だち』を追う君の走りが<br>私にどんなデータを提供してくれるか… それも楽しみだ\"",
+   "traits": [
+    "ウマ娘"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_049.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-049S",
+   "name": "観察対象への興味 アグネスタキオン",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "7000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは相手の前列のキャラを1枚選び、そのターン中、パワーを＋3000。\n\"-\"",
+   "traits": [
+    "ウマ娘"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_049s.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-050",
+   "name": "爽やか優等生 ナリタトップロード",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "1",
+   "cost": "1",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から3枚を、控え室に置く。それらのカードにCXがあるなら、あなたは1枚引いてよい。\n【自】 このカードが【リバース】した時、このカードのバトル相手のレベルが相手のレベルより高いなら、あなたは相手のクロックの上から1枚を、控え室に置いてよい。そうしたら、あなたはそのキャラをクロック置場に置く。\n\"-\"",
+   "traits": [
+    "ウマ娘"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_050.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-050S",
+   "name": "爽やか優等生 ナリタトップロード",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "1",
+   "cost": "1",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から3枚を、控え室に置く。それらのカードにCXがあるなら、あなたは1枚引いてよい。\n【自】 このカードが【リバース】した時、このカードのバトル相手のレベルが相手のレベルより高いなら、あなたは相手のクロックの上から1枚を、控え室に置いてよい。そうしたら、あなたはそのキャラをクロック置場に置く。\n\"-\"",
+   "traits": [
+    "ウマ娘"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_050s.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-051",
+   "name": "実証実験 アグネスタキオン",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "2",
+   "cost": "1",
+   "power": "7000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードがアタックした時、このカードの正面のキャラのレベルが3以上なら、そのターン中、このカードのパワーを＋6000。\n【自】 このカードのバトル相手が【リバース】した時、あなたは相手のクロックの上から1枚を、控え室に置いてよい。そうしたら、あなたはそのキャラをクロック置場に置く。\n\"…あぁ\"",
+   "traits": [
+    "ウマ娘"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_051.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-051S",
+   "name": "実証実験 アグネスタキオン",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "2",
+   "cost": "1",
+   "power": "7000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードがアタックした時、このカードの正面のキャラのレベルが3以上なら、そのターン中、このカードのパワーを＋6000。\n【自】 このカードのバトル相手が【リバース】した時、あなたは相手のクロックの上から1枚を、控え室に置いてよい。そうしたら、あなたはそのキャラをクロック置場に置く。\n\"-\"",
+   "traits": [
+    "ウマ娘"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_051s.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-052",
+   "name": "覇道の軌跡",
+   "type": "Climax",
+   "rarity": "CR",
+   "color": "green",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[treasure.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[treasure.gif]]：このカードがトリガーした時、あなたはこのカードを手札に戻す。あなたは自分の山札の上から1枚を、ストック置場に置いてよい）\n\"ボクの前に敗れ<br>覇道の軌跡の一ページとなることを\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_052.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-052R",
+   "name": "覇道の軌跡",
+   "type": "Climax",
+   "rarity": "RRR",
+   "color": "green",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[treasure.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[treasure.gif]]：このカードがトリガーした時、あなたはこのカードを手札に戻す。あなたは自分の山札の上から1枚を、ストック置場に置いてよい）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_052r.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-053",
+   "name": "歴史に刻まれた偉業",
+   "type": "Climax",
+   "rarity": "CR",
+   "color": "green",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[treasure.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[treasure.gif]]：このカードがトリガーした時、あなたはこのカードを手札に戻す。あなたは自分の山札の上から1枚を、ストック置場に置いてよい）\n\"覇王の意地を！底力を！<br>全てのウマ娘に示してみせました!!!\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_053.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-053R",
+   "name": "歴史に刻まれた偉業",
+   "type": "Climax",
+   "rarity": "RRR",
+   "color": "green",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[treasure.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[treasure.gif]]：このカードがトリガーした時、あなたはこのカードを手札に戻す。あなたは自分の山札の上から1枚を、ストック置場に置いてよい）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_053r.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-054",
+   "name": "残光の輝き",
+   "type": "Climax",
+   "rarity": "CR",
+   "color": "green",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[treasure.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[treasure.gif]]：このカードがトリガーした時、あなたはこのカードを手札に戻す。あなたは自分の山札の上から1枚を、ストック置場に置いてよい）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_054.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-054R",
+   "name": "残光の輝き",
+   "type": "Climax",
+   "rarity": "RRR",
+   "color": "green",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[treasure.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[treasure.gif]]：このカードがトリガーした時、あなたはこのカードを手札に戻す。あなたは自分の山札の上から1枚を、ストック置場に置いてよい）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_054r.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-055",
+   "name": "“お友だち”を追って マンハッタンカフェ",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのターン中、他のあなたの《ウマ娘》のキャラがいるなら、このカードのパワーを＋3000。\n【自】【CXコンボ】 あなたのCX置場に「私は追いつく、必ず」が置かれた時、前列にこのカードがいて、他のあなたの《ウマ娘》のキャラが2枚以上なら、あなたは自分の山札を見て《ウマ娘》のキャラを2枚まで選んで相手に見せる。その後、相手はそれらのキャラを1枚選び、控え室に置き、残りのカードをあなたの手札に加え、その山札をシャッフルし、このカードの下にマーカーがあるなら、あなたは自分の控え室の《ウマ娘》のキャラを1枚選び、手札に戻す。\n\"-\"",
+   "traits": [
+    "ウマ娘"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_055.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-055SP",
+   "name": "“お友だち”を追って マンハッタンカフェ",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのターン中、他のあなたの《ウマ娘》のキャラがいるなら、このカードのパワーを＋3000。\n【自】【CXコンボ】 あなたのCX置場に「私は追いつく、必ず」が置かれた時、前列にこのカードがいて、他のあなたの《ウマ娘》のキャラが2枚以上なら、あなたは自分の山札を見て《ウマ娘》のキャラを2枚まで選んで相手に見せる。その後、相手はそれらのキャラを1枚選び、控え室に置き、残りのカードをあなたの手札に加え、その山札をシャッフルし、このカードの下にマーカーがあるなら、あなたは自分の控え室の《ウマ娘》のキャラを1枚選び、手札に戻す。\n\"-\"",
+   "traits": [
+    "ウマ娘"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_055sp.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-056",
+   "name": "可能性のその先へ アグネスタキオン",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "9500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札を上から2枚まで見て、カードを1枚まで選び、手札に加え、残りのカードを控え室に置く。\n【自】【CXコンボ】［(1)］ このカードがアタックした時、CX置場に「本能のままに」があるなら、あなたはコストを払ってよい。そうしたら、次の2つの効果のうちあなたが選んだ1つを行う。『あなたのレベルが3で、相手のレベルが2でクロックが4枚以上なら、あなたは自分の手札を2枚選び、控え室に置く。2枚置いたなら、相手は自分のクロックを1枚選び、レベル置場に置き、残りのクロックを控え室に置く。』『相手に2ダメージを与える。』（ダメージキャンセルは発生する）\n\"-\"",
+   "traits": [
+    "ウマ娘"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_056.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-056SP",
+   "name": "可能性のその先へ アグネスタキオン",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "9500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札を上から2枚まで見て、カードを1枚まで選び、手札に加え、残りのカードを控え室に置く。\n【自】【CXコンボ】［(1)］ このカードがアタックした時、CX置場に「本能のままに」があるなら、あなたはコストを払ってよい。そうしたら、次の2つの効果のうちあなたが選んだ1つを行う。『あなたのレベルが3で、相手のレベルが2でクロックが4枚以上なら、あなたは自分の手札を2枚選び、控え室に置く。2枚置いたなら、相手は自分のクロックを1枚選び、レベル置場に置き、残りのクロックを控え室に置く。』『相手に2ダメージを与える。』（ダメージキャンセルは発生する）\n\"-\"",
+   "traits": [
+    "ウマ娘"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_056sp.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-057",
+   "name": "変わり者なウマ娘 アグネスタキオン",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれたターン中、あなたのターンの終わりに、他のあなたの《ウマ娘》のキャラが2枚以上なら、あなたは自分の前列の《ウマ娘》のキャラを1枚と自分の後列の《ウマ娘》のキャラを1枚選び、それぞれを【レスト】して入れ替えてよい。\n【自】 継承 他のあなたのキャラが手札から舞台に置かれた時、そのキャラの下にマーカーがないなら、あなたはこのカードの下のマーカー1枚までとこのカードを選び、その舞台に置かれたキャラの下にマーカーとして好きな順番で表向きに置いてよい。そうしたら、残りのマーカーを控え室に置く。\n\"-\"",
+   "traits": [
+    "ウマ娘"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_057.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-057S",
+   "name": "変わり者なウマ娘 アグネスタキオン",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれたターン中、あなたのターンの終わりに、他のあなたの《ウマ娘》のキャラが2枚以上なら、あなたは自分の前列の《ウマ娘》のキャラを1枚と自分の後列の《ウマ娘》のキャラを1枚選び、それぞれを【レスト】して入れ替えてよい。\n【自】 継承 他のあなたのキャラが手札から舞台に置かれた時、そのキャラの下にマーカーがないなら、あなたはこのカードの下のマーカー1枚までとこのカードを選び、その舞台に置かれたキャラの下にマーカーとして好きな順番で表向きに置いてよい。そうしたら、残りのマーカーを控え室に置く。\n\"-\"",
+   "traits": [
+    "ウマ娘"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_057s.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-058",
+   "name": "トレセン学園 マンハッタンカフェ",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは他の自分の《ウマ娘》のキャラを1枚選び、そのターン中、パワーを＋1000。\n【自】【CXコンボ】［あなたのCX置場の「焼き付けられた残光」を1枚控え室に置く］ あなたのCX置場に「焼き付けられた残光」が置かれた時、あなたの手札が6枚以下なら、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を上から4枚まで見て、《ウマ娘》のキャラを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置き、自分の《ウマ娘》のキャラを1枚選び、そのターン中、パワーを＋1000。\n\"-\"",
+   "traits": [
+    "ウマ娘"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_058.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-058S",
+   "name": "トレセン学園 マンハッタンカフェ",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは他の自分の《ウマ娘》のキャラを1枚選び、そのターン中、パワーを＋1000。\n【自】【CXコンボ】［あなたのCX置場の「焼き付けられた残光」を1枚控え室に置く］ あなたのCX置場に「焼き付けられた残光」が置かれた時、あなたの手札が6枚以下なら、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を上から4枚まで見て、《ウマ娘》のキャラを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置き、自分の《ウマ娘》のキャラを1枚選び、そのターン中、パワーを＋1000。\n\"-\"",
+   "traits": [
+    "ウマ娘"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_058s.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-059",
+   "name": "ミステリアスなウマ娘 マンハッタンカフェ",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［手札を2枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室のイベントを1枚選び、手札に戻す。\n【自】 このカードが【リバース】した時、このカードのバトル相手のレベルが1以下なら、あなたはそのキャラを【リバース】してよい。\n\"-\"",
+   "traits": [
+    "ウマ娘"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_059.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-059S",
+   "name": "ミステリアスなウマ娘 マンハッタンカフェ",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［手札を2枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室のイベントを1枚選び、手札に戻す。\n【自】 このカードが【リバース】した時、このカードのバトル相手のレベルが1以下なら、あなたはそのキャラを【リバース】してよい。\n\"-\"",
+   "traits": [
+    "ウマ娘"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_059s.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-060",
+   "name": "秘めた思い マンハッタンカフェ",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのターン中、他のあなたの《ウマ娘》のキャラすべてに、パワーを＋1000。\n【自】［(1)］ あなたのトリガーアイコンが[[salvage.gif]]のCXがトリガーした時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を上から2枚まで見て、カードを1枚まで選び、手札に加え、残りのカードを控え室に置く。\n\"-\"",
+   "traits": [
+    "ウマ娘"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_060.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-060S",
+   "name": "秘めた思い マンハッタンカフェ",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのターン中、他のあなたの《ウマ娘》のキャラすべてに、パワーを＋1000。\n【自】［(1)］ あなたのトリガーアイコンが[[salvage.gif]]のCXがトリガーした時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を上から2枚まで見て、カードを1枚まで選び、手札に加え、残りのカードを控え室に置く。\n\"-\"",
+   "traits": [
+    "ウマ娘"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_060s.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-061",
+   "name": "マッドサイエンティスト アグネスタキオン",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、他のあなたの《ウマ娘》のキャラがいるなら、そのターン中、このカードのパワーを＋2000。\n【自】［(1) 他のあなたの【スタンド】している《ウマ娘》のキャラを1枚【レスト】する］ このカードが手札から舞台に置かれたターン中、このカードのバトル相手が【リバース】した時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見て《ウマ娘》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"-\"",
+   "traits": [
+    "ウマ娘"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_061.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-061S",
+   "name": "マッドサイエンティスト アグネスタキオン",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、他のあなたの《ウマ娘》のキャラがいるなら、そのターン中、このカードのパワーを＋2000。\n【自】［(1) 他のあなたの【スタンド】している《ウマ娘》のキャラを1枚【レスト】する］ このカードが手札から舞台に置かれたターン中、このカードのバトル相手が【リバース】した時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見て《ウマ娘》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"-\"",
+   "traits": [
+    "ウマ娘"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_061s.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-062",
+   "name": "いつか必ず マンハッタンカフェ",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "8000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたの《ウマ娘》のキャラが4枚以上なら、あなたの手札のこのカードのレベルを－1。\n【自】［手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分のクロックの上から1枚を、ストック置場に置く。\n【自】 このカードがアタックした時、あなたのCX置場にCXがあり、他のあなたの《ウマ娘》のキャラがいるなら、あなたは自分の山札の上から1枚を公開する。そのカードが《ウマ娘》のキャラなら、あなたは相手の控え室のカードを1枚まで選び、山札の上に置き、そのターン中、このカードのパワーを＋4000。（公開したカードは元に戻す）\n\"-\"",
+   "traits": [
+    "ウマ娘"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_062.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-062SP",
+   "name": "いつか必ず マンハッタンカフェ",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "8000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたの《ウマ娘》のキャラが4枚以上なら、あなたの手札のこのカードのレベルを－1。\n【自】［手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分のクロックの上から1枚を、ストック置場に置く。\n【自】 このカードがアタックした時、あなたのCX置場にCXがあり、他のあなたの《ウマ娘》のキャラがいるなら、あなたは自分の山札の上から1枚を公開する。そのカードが《ウマ娘》のキャラなら、あなたは相手の控え室のカードを1枚まで選び、山札の上に置き、そのターン中、このカードのパワーを＋4000。（公開したカードは元に戻す）\n\"-\"",
+   "traits": [
+    "ウマ娘"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_062sp.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-063",
+   "name": "私のライブ マンハッタンカフェ",
+   "type": "Character",
+   "rarity": "U",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［手札を1枚控え室に置く］ このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を上から3枚まで見て、レベル1以上のカードを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。（CXのレベルは0として扱う）\n【起】 集中 ［(1) このカードを【レスト】する］ あなたは自分の山札の上から4枚をめくり、控え室に置く。それらのカードのCX1枚につき、あなたは自分の控え室のキャラを1枚まで選び、手札に戻す。\n\"-\"",
+   "traits": [
+    "ウマ娘"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_063.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-063S",
+   "name": "私のライブ マンハッタンカフェ",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［手札を1枚控え室に置く］ このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を上から3枚まで見て、レベル1以上のカードを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。（CXのレベルは0として扱う）\n【起】 集中 ［(1) このカードを【レスト】する］ あなたは自分の山札の上から4枚をめくり、控え室に置く。それらのカードのCX1枚につき、あなたは自分の控え室のキャラを1枚まで選び、手札に戻す。\n\"-\"",
+   "traits": [
+    "ウマ娘"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_063s.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-064",
+   "name": "ただ前を見据えて マンハッタンカフェ",
+   "type": "Character",
+   "rarity": "U",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1) 手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の《ウマ娘》のキャラを1枚選び、手札に戻し、他の自分の《ウマ娘》のキャラを1枚選び、そのターン中、次の能力を与える。『【自】 このカードがアタックした時、あなたは自分の山札を上から2枚まで見て、カードを1枚選び、山札の上に置き、残りのカードを控え室に置く。』\n\"いらないです\"",
+   "traits": [
+    "ウマ娘"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_064.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-064S",
+   "name": "ただ前を見据えて マンハッタンカフェ",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1) 手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の《ウマ娘》のキャラを1枚選び、手札に戻し、他の自分の《ウマ娘》のキャラを1枚選び、そのターン中、次の能力を与える。『【自】 このカードがアタックした時、あなたは自分の山札を上から2枚まで見て、カードを1枚選び、山札の上に置き、残りのカードを控え室に置く。』\n\"-\"",
+   "traits": [
+    "ウマ娘"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_064s.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-065",
+   "name": "お手製ドリンク アグネスタキオン",
+   "type": "Character",
+   "rarity": "U",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードがアタックした時、このカードの正面のキャラのレベルが2なら、そのターン中、このカードのパワーを＋6000。\n【自】 加速 ［あなたの控え室の《ウマ娘》のキャラを1枚クロック置場の下に置く］ あなたのCXフェイズの始めに、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を上から3枚まで見て、《ウマ娘》のキャラを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。\n\"そんな君に実は…<br>完成したばかりの滋養強壮ドリンクがあるんだけどねぇ！\"",
+   "traits": [
+    "ウマ娘"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_065.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-065S",
+   "name": "お手製ドリンク アグネスタキオン",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードがアタックした時、このカードの正面のキャラのレベルが2なら、そのターン中、このカードのパワーを＋6000。\n【自】 加速 ［あなたの控え室の《ウマ娘》のキャラを1枚クロック置場の下に置く］ あなたのCXフェイズの始めに、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を上から3枚まで見て、《ウマ娘》のキャラを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。\n\"-\"",
+   "traits": [
+    "ウマ娘"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_065s.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-066",
+   "name": "プランA アグネスタキオン",
+   "type": "Character",
+   "rarity": "U",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 応援 このカードの前のあなたのレベル3以上のキャラすべてに、パワーを＋2000。\n【自】 加速 ［あなたの控え室の《ウマ娘》のキャラを1枚クロック置場の下に置き、【スタンド】しているこのカードを【レスト】する］ あなたのCXフェイズの始めかあなたのアンコールステップの始めに、他のあなたの「可能性のその先へ アグネスタキオン」がいるなら、あなたはコストを払ってよい。そうしたら、相手に1ダメージを与える。（ダメージキャンセルは発生する）\n\"アグネスタキオンが先頭だ！中団から一気に上がった\"",
+   "traits": [
+    "ウマ娘"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_066.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-066S",
+   "name": "プランA アグネスタキオン",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 応援 このカードの前のあなたのレベル3以上のキャラすべてに、パワーを＋2000。\n【自】 加速 ［あなたの控え室の《ウマ娘》のキャラを1枚クロック置場の下に置き、【スタンド】しているこのカードを【レスト】する］ あなたのCXフェイズの始めかあなたのアンコールステップの始めに、他のあなたの「可能性のその先へ アグネスタキオン」がいるなら、あなたはコストを払ってよい。そうしたら、相手に1ダメージを与える。（ダメージキャンセルは発生する）\n\"-\"",
+   "traits": [
+    "ウマ娘"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_066s.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-067",
+   "name": "新時代 マンハッタンカフェ",
+   "type": "Character",
+   "rarity": "U",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋1000。\n【自】 継承 他のあなたのキャラが手札から舞台に置かれた時、そのキャラの下にマーカーがないなら、あなたはこのカードの下のマーカー1枚までとこのカードを選び、その舞台に置かれたキャラの下にマーカーとして好きな順番で表向きに置いてよい。そうしたら、残りのマーカーを控え室に置き、あなたは自分の山札の上から1枚を、ストック置場に置く。\n【起】［このカードを【レスト】する］ あなたは自分の《ウマ娘》のキャラを1枚選び、そのターン中、パワーを＋1500。\n\"-\"",
+   "traits": [
+    "ウマ娘"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_067.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-067S",
+   "name": "新時代 マンハッタンカフェ",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋1000。\n【自】 継承 他のあなたのキャラが手札から舞台に置かれた時、そのキャラの下にマーカーがないなら、あなたはこのカードの下のマーカー1枚までとこのカードを選び、その舞台に置かれたキャラの下にマーカーとして好きな順番で表向きに置いてよい。そうしたら、残りのマーカーを控え室に置き、あなたは自分の山札の上から1枚を、ストック置場に置く。\n【起】［このカードを【レスト】する］ あなたは自分の《ウマ娘》のキャラを1枚選び、そのターン中、パワーを＋1500。\n\"-\"",
+   "traits": [
+    "ウマ娘"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_067s.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-068",
+   "name": "写真撮影 ライスシャワー",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 応援 このカードの前のあなたのレベル0以下のキャラすべてに、パワーを＋1000。\n【起】［(1)］ あなたは自分の《ウマ娘》のキャラを1枚選び、そのターン中、ソウルを＋1。\n\"-\"",
+   "traits": [
+    "ウマ娘"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_068.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-068S",
+   "name": "写真撮影 ライスシャワー",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 応援 このカードの前のあなたのレベル0以下のキャラすべてに、パワーを＋1000。\n【起】［(1)］ あなたは自分の《ウマ娘》のキャラを1枚選び、そのターン中、ソウルを＋1。\n\"-\"",
+   "traits": [
+    "ウマ娘"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_068s.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-069",
+   "name": "追いつく為に マンハッタンカフェ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1) 手札の《ウマ娘》のキャラを1枚控え室に置く］ このカードが手札から舞台に置かれた時か舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を上から3枚まで見て、カードを1枚まで選び、手札に加え、残りのカードを控え室に置く。\n\"-\"",
+   "traits": [
+    "ウマ娘"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_069.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-069S",
+   "name": "追いつく為に マンハッタンカフェ",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1) 手札の《ウマ娘》のキャラを1枚控え室に置く］ このカードが手札から舞台に置かれた時か舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を上から3枚まで見て、カードを1枚まで選び、手札に加え、残りのカードを控え室に置く。\n\"-\"",
+   "traits": [
+    "ウマ娘"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_069s.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-070",
+   "name": "復帰に向けて マンハッタンカフェ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたはイベントと『助太刀』を手札からプレイできない。\n【自】 継承 他のあなたのキャラが手札から舞台に置かれた時、そのキャラの下にマーカーがないなら、あなたはこのカードの下のマーカー1枚までとこのカードを選び、その舞台に置かれたキャラの下にマーカーとして好きな順番で表向きに置いてよい。そうしたら、残りのマーカーを控え室に置く。\n\"秋までには、しっかり戻ってきます…\"",
+   "traits": [
+    "ウマ娘"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_070.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-070S",
+   "name": "復帰に向けて マンハッタンカフェ",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたはイベントと『助太刀』を手札からプレイできない。\n【自】 継承 他のあなたのキャラが手札から舞台に置かれた時、そのキャラの下にマーカーがないなら、あなたはこのカードの下のマーカー1枚までとこのカードを選び、その舞台に置かれたキャラの下にマーカーとして好きな順番で表向きに置いてよい。そうしたら、残りのマーカーを控え室に置く。\n\"-\"",
+   "traits": [
+    "ウマ娘"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_070s.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-071",
+   "name": "新時代 アグネスタキオン",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［手札を2枚控え室に置く］ あなたがこのカードの『助太刀』を使った時、あなたはコストを払ってよい。そうしたら、あなたは相手の、レベルが相手のレベルより高いキャラを1枚選び、思い出にする。\n【起】【カウンター】 助太刀1000 レベル1 ［手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋1000）\n\"-\"",
+   "traits": [
+    "ウマ娘"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_071.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-071S",
+   "name": "新時代 アグネスタキオン",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［手札を2枚控え室に置く］ あなたがこのカードの『助太刀』を使った時、あなたはコストを払ってよい。そうしたら、あなたは相手の、レベルが相手のレベルより高いキャラを1枚選び、思い出にする。\n【起】【カウンター】 助太刀1000 レベル1 ［手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋1000）\n\"-\"",
+   "traits": [
+    "ウマ娘"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_071s.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-072",
+   "name": "冷たい憤怒 マンハッタンカフェ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【起】【カウンター】 助太刀3500 レベル2 ［(1) 手札のこのカードを公開し、山札の下に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋3500）\n\"『お友だち』には追いつけたかい？\"",
+   "traits": [
+    "ウマ娘"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_072.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-072S",
+   "name": "冷たい憤怒 マンハッタンカフェ",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【起】【カウンター】 助太刀3500 レベル2 ［(1) 手札のこのカードを公開し、山札の下に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋3500）\n\"-\"",
+   "traits": [
+    "ウマ娘"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_072s.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-073",
+   "name": "実力派アナウンサー 泉本奈々",
+   "type": "Event",
+   "rarity": "U",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "このカードは、あなたの《ウマ娘》のキャラが1枚以下なら、手札からプレイできない。\nあなたは自分の《ウマ娘》のキャラを2枚まで選び、そのターン中、ソウルを＋1。\nそのターン中、あなたのすべての領域の「実力派アナウンサー 泉本奈々」のトリガーアイコンに[[salvage.gif]][[standby.gif]]を与える。\n\"新時代の扉をこじ開けたのは<br>ジャングルポケット!!\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_073.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-073S",
+   "name": "実力派アナウンサー 泉本奈々",
+   "type": "Event",
+   "rarity": "SR",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "このカードは、あなたの《ウマ娘》のキャラが1枚以下なら、手札からプレイできない。\nあなたは自分の《ウマ娘》のキャラを2枚まで選び、そのターン中、ソウルを＋1。\nそのターン中、あなたのすべての領域の「実力派アナウンサー 泉本奈々」のトリガーアイコンに[[salvage.gif]][[standby.gif]]を与える。\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_073s.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-074",
+   "name": "滋養強壮ドリンク",
+   "type": "Event",
+   "rarity": "U",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "【カウンター】 あなたは自分の山札を上から3枚まで見て、カードを3枚まで選び、控え室に置き、残りのカードを山札に戻し、その山札をシャッフルする。\n\"漢方をベースに<br>アーユルヴェーダの理論を取り入れて<br>(ピー)を(パー)することで(ポー)が(ペー)し\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_074.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-074S",
+   "name": "滋養強壮ドリンク",
+   "type": "Event",
+   "rarity": "SR",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "【カウンター】 あなたは自分の山札を上から3枚まで見て、カードを3枚まで選び、控え室に置き、残りのカードを山札に戻し、その山札をシャッフルする。\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_074s.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-075",
+   "name": "本能のままに",
+   "type": "Climax",
+   "rarity": "CR",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[salvage.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[salvage.gif]]：このカードがトリガーした時、あなたは自分の控え室のキャラを1枚選び、手札に戻してよい）\n\"そうだ。そうなんだ。意味がない<br>他者の到達する光景など！\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_075.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-075R",
+   "name": "本能のままに",
+   "type": "Climax",
+   "rarity": "RRR",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[salvage.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[salvage.gif]]：このカードがトリガーした時、あなたは自分の控え室のキャラを1枚選び、手札に戻してよい）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_075r.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-076",
+   "name": "私は追いつく、必ず",
+   "type": "Climax",
+   "rarity": "CR",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[salvage.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[salvage.gif]]：このカードがトリガーした時、あなたは自分の控え室のキャラを1枚選び、手札に戻してよい）\n\"マンハッタンカフェ！\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_076.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-076R",
+   "name": "私は追いつく、必ず",
+   "type": "Climax",
+   "rarity": "RRR",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[salvage.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[salvage.gif]]：このカードがトリガーした時、あなたは自分の控え室のキャラを1枚選び、手札に戻してよい）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_076r.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-077",
+   "name": "焼き付けられた残光",
+   "type": "Climax",
+   "rarity": "CR",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[standby.gif]]",
+   "text": "【自】 このカードが手札からCX置場に置かれた時、[[standby.gif]]の効果を行う。\n（[[standby.gif]]：このカードがトリガーした時、あなたは自分の控え室の自分のレベル＋1以下のレベルのキャラを1枚選び、舞台の好きな枠に【レスト】して置いてよい）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_077.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-077R",
+   "name": "焼き付けられた残光",
+   "type": "Climax",
+   "rarity": "RRR",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[standby.gif]]",
+   "text": "【自】 このカードが手札からCX置場に置かれた時、[[standby.gif]]の効果を行う。\n（[[standby.gif]]：このカードがトリガーした時、あなたは自分の控え室の自分のレベル＋1以下のレベルのキャラを1枚選び、舞台の好きな枠に【レスト】して置いてよい）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_077r.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-078",
+   "name": "「最強」を目指して ジャングルポケット",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのターン中、他のあなたの前列の中央の枠の《ウマ娘》のキャラに、パワーを＋1000。\n【自】［(1) 【スタンド】しているこのカードを【レスト】する］ この能力は1ターンにつき1回まで発動する。あなたのカードがマーカー置場以外からマーカー置場に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を上から4枚まで見て、《ウマ娘》のキャラを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。\n\"-\"",
+   "traits": [
+    "ウマ娘"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_078.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-078SP",
+   "name": "「最強」を目指して ジャングルポケット",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのターン中、他のあなたの前列の中央の枠の《ウマ娘》のキャラに、パワーを＋1000。\n【自】［(1) 【スタンド】しているこのカードを【レスト】する］ この能力は1ターンにつき1回まで発動する。あなたのカードがマーカー置場以外からマーカー置場に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を上から4枚まで見て、《ウマ娘》のキャラを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。\n\"-\"",
+   "traits": [
+    "ウマ娘"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_078sp.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-079",
+   "name": "舞台の真ん中に ダンツフレーム",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "blue",
+   "level": "3",
+   "cost": "2",
+   "power": "3000",
+   "soul": 3,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたの《ウマ娘》のキャラが4枚以上なら、あなたの手札のこのカードのレベルを－1。\n【永】 あなたのターン中、このカードのパワーを＋8000。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n【自】 このカードのアタックの終わりに、あなたは他の自分の《ウマ娘》のキャラを1枚選び、このカードをそのキャラの下にマーカーとして表向きに置いてよい。そうしたら、あなたは自分の山札の上から1枚を、ストック置場に置いてよい。\n\"-\"",
+   "traits": [
+    "ウマ娘"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_079.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-079SP",
+   "name": "舞台の真ん中に ダンツフレーム",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "blue",
+   "level": "3",
+   "cost": "2",
+   "power": "3000",
+   "soul": 3,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたの《ウマ娘》のキャラが4枚以上なら、あなたの手札のこのカードのレベルを－1。\n【永】 あなたのターン中、このカードのパワーを＋8000。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n【自】 このカードのアタックの終わりに、あなたは他の自分の《ウマ娘》のキャラを1枚選び、このカードをそのキャラの下にマーカーとして表向きに置いてよい。そうしたら、あなたは自分の山札の上から1枚を、ストック置場に置いてよい。\n\"-\"",
+   "traits": [
+    "ウマ娘"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_079sp.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-080",
+   "name": "勝利を目指して ダンツフレーム",
+   "type": "Character",
+   "rarity": "R",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】この能力は1ターンにつき1回まで発動する。あなたが『集中』を使った時、このカードの下にマーカーがあり、その効果でめくったCXが控え室に置かれたなら、あなたは自分の山札の上から2枚を公開し、相手はそれらのカードのキャラかイベントを1枚選び、あなたの手札に加え、残りのカードを控え室に置き、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋1000。\n【起】 集中 ［(1) このカードを【レスト】する］ あなたは自分の山札の上から4枚をめくり、控え室に置く。それらのカードのCX1枚につき、次の行動を行う。『あなたは自分の山札を上から3枚まで見て、カードを1枚まで選び、手札に加え、残りのカードを控え室に置く。』\n\"-\"",
+   "traits": [
+    "ウマ娘"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_080.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-080SP",
+   "name": "勝利を目指して ダンツフレーム",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】この能力は1ターンにつき1回まで発動する。あなたが『集中』を使った時、このカードの下にマーカーがあり、その効果でめくったCXが控え室に置かれたなら、あなたは自分の山札の上から2枚を公開し、相手はそれらのカードのキャラかイベントを1枚選び、あなたの手札に加え、残りのカードを控え室に置き、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋1000。\n【起】 集中 ［(1) このカードを【レスト】する］ あなたは自分の山札の上から4枚をめくり、控え室に置く。それらのカードのCX1枚につき、次の行動を行う。『あなたは自分の山札を上から3枚まで見て、カードを1枚まで選び、手札に加え、残りのカードを控え室に置く。』\n\"-\"",
+   "traits": [
+    "ウマ娘"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_080sp.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-081",
+   "name": "トレセン学園 フジキセキ",
+   "type": "Character",
+   "rarity": "R",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが【リバース】した時、このカードのバトル相手のレベルが0以下なら、あなたはそのキャラを山札の下に置いてよい。\n【自】 継承 他のあなたのキャラが手札から舞台に置かれた時、そのキャラの下にマーカーがないなら、あなたはこのカードの下のマーカー1枚までとこのカードを選び、その舞台に置かれたキャラの下にマーカーとして好きな順番で表向きに置いてよい。そうしたら、残りのマーカーを控え室に置く。\n\"-\"",
+   "traits": [
+    "ウマ娘"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_081.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-081S",
+   "name": "トレセン学園 フジキセキ",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが【リバース】した時、このカードのバトル相手のレベルが0以下なら、あなたはそのキャラを山札の下に置いてよい。\n【自】 継承 他のあなたのキャラが手札から舞台に置かれた時、そのキャラの下にマーカーがないなら、あなたはこのカードの下のマーカー1枚までとこのカードを選び、その舞台に置かれたキャラの下にマーカーとして好きな順番で表向きに置いてよい。そうしたら、残りのマーカーを控え室に置く。\n\"-\"",
+   "traits": [
+    "ウマ娘"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_081s.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-082",
+   "name": "トレセン学園 ダンツフレーム",
+   "type": "Character",
+   "rarity": "R",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが舞台から控え室に置かれた時、あなたは自分の山札を上から1枚見て、山札の上か控え室に置く。\n【自】［手札を1枚控え室に置く］ このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を上から4枚まで見て、レベル1以上のカードを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。（CXのレベルは0として扱う）\n\"-\"",
+   "traits": [
+    "ウマ娘"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_082.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-082S",
+   "name": "トレセン学園 ダンツフレーム",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが舞台から控え室に置かれた時、あなたは自分の山札を上から1枚見て、山札の上か控え室に置く。\n【自】［手札を1枚控え室に置く］ このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を上から4枚まで見て、レベル1以上のカードを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。（CXのレベルは0として扱う）\n\"-\"",
+   "traits": [
+    "ウマ娘"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_082s.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-083",
+   "name": "最強への挑戦 ジャングルポケット",
+   "type": "Character",
+   "rarity": "R",
+   "color": "blue",
+   "level": "2",
+   "cost": "0",
+   "power": "6000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】【CXコンボ】 このカードがアタックした時、CX置場に「最強の証明」があるなら、あなたは自分の控え室の《ウマ娘》のキャラを1枚まで選び、手札に戻し、ターンの終わりに、次の行動を行う。『あなたは自分の前列の《ウマ娘》のキャラを1枚と自分の後列の《ウマ娘》のキャラを1枚選び、それぞれを【レスト】して入れ替えてよい。』\n【自】 継承 他のあなたのキャラが手札から舞台に置かれた時、そのキャラの下にマーカーがないなら、あなたはこのカードの下のマーカー1枚までとこのカードを選び、その舞台に置かれたキャラの下にマーカーとして好きな順番で表向きに置いてよい。そうしたら、残りのマーカーを控え室に置く。\n\"-\"",
+   "traits": [
+    "ウマ娘"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_083.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-083S",
+   "name": "最強への挑戦 ジャングルポケット",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "2",
+   "cost": "0",
+   "power": "6000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】【CXコンボ】 このカードがアタックした時、CX置場に「最強の証明」があるなら、あなたは自分の控え室の《ウマ娘》のキャラを1枚まで選び、手札に戻し、ターンの終わりに、次の行動を行う。『あなたは自分の前列の《ウマ娘》のキャラを1枚と自分の後列の《ウマ娘》のキャラを1枚選び、それぞれを【レスト】して入れ替えてよい。』\n【自】 継承 他のあなたのキャラが手札から舞台に置かれた時、そのキャラの下にマーカーがないなら、あなたはこのカードの下のマーカー1枚までとこのカードを選び、その舞台に置かれたキャラの下にマーカーとして好きな順番で表向きに置いてよい。そうしたら、残りのマーカーを控え室に置く。\n\"-\"",
+   "traits": [
+    "ウマ娘"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_083s.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-084",
+   "name": "天真爛漫なウマ娘 ジャングルポケット",
+   "type": "Character",
+   "rarity": "R",
+   "color": "blue",
+   "level": "3",
+   "cost": "2",
+   "power": "9500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは2枚まで引き、自分の手札を2枚選び、控え室に置き、自分の山札の上から1枚までを、ストック置場に置く。\n【自】［(1) 手札を1枚控え室に置く］ このカードがアタックした時、あなたはコストを払ってよい。そうしたら、あなたは相手の山札を上から2枚まで見て、カードを2枚まで選び、山札の上に好きな順番で置き、残りのカードを控え室に置く。\n\"-\"",
+   "traits": [
+    "ウマ娘"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_084.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-084S",
+   "name": "天真爛漫なウマ娘 ジャングルポケット",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "3",
+   "cost": "2",
+   "power": "9500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは2枚まで引き、自分の手札を2枚選び、控え室に置き、自分の山札の上から1枚までを、ストック置場に置く。\n【自】［(1) 手札を1枚控え室に置く］ このカードがアタックした時、あなたはコストを払ってよい。そうしたら、あなたは相手の山札を上から2枚まで見て、カードを2枚まで選び、山札の上に好きな順番で置き、残りのカードを控え室に置く。\n\"-\"",
+   "traits": [
+    "ウマ娘"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_084s.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-085",
+   "name": "憧れに向かって ジャングルポケット",
+   "type": "Character",
+   "rarity": "U",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのターン中、他のあなたの《ウマ娘》のキャラがいるなら、このカードのパワーを＋3000。\n【自】 あなたのCXフェイズの始めに、前列にこのカードがいるなら、あなたは自分のキャラを2枚まで選び、そのターン中、次の能力を与える。『【自】 このカードがアタックした時、そのアタック中、あなたはトリガーステップにトリガーチェックを2回行う。2回行ったら、あなたは自分のストックの上から1枚を、控え室に置く。』\n\"-\"",
+   "traits": [
+    "ウマ娘"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_085.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-085S",
+   "name": "憧れに向かって ジャングルポケット",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのターン中、他のあなたの《ウマ娘》のキャラがいるなら、このカードのパワーを＋3000。\n【自】 あなたのCXフェイズの始めに、前列にこのカードがいるなら、あなたは自分のキャラを2枚まで選び、そのターン中、次の能力を与える。『【自】 このカードがアタックした時、そのアタック中、あなたはトリガーステップにトリガーチェックを2回行う。2回行ったら、あなたは自分のストックの上から1枚を、控え室に置く。』\n\"-\"",
+   "traits": [
+    "ウマ娘"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_085s.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-086",
+   "name": "感謝の言葉 フジキセキ",
+   "type": "Character",
+   "rarity": "U",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［手札を1枚控え室に置く］ あなたのCXがトリガーした時、あなたはコストを払ってよい。そうしたら、あなたは他の自分の舞台の自分のレベル以下のレベルのキャラを1枚選び、自分の控え室の『継承』を持つキャラを1枚選び、そのキャラの下にマーカーとして表向きに置き、そのターン中、そのキャラのパワーを＋1000。\n【起】［このカードを【レスト】する］ あなたは自分の《ウマ娘》のキャラを1枚選び、そのターン中、パワーを＋1500。\n\"ふ…君にまだ、ちゃんとお礼を言えてなかったね<br>ダービーウマ娘になってくれて<br>ナベさんの夢をかなえてくれて、ありがとう\"",
+   "traits": [
+    "ウマ娘"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_086.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-086S",
+   "name": "感謝の言葉 フジキセキ",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［手札を1枚控え室に置く］ あなたのCXがトリガーした時、あなたはコストを払ってよい。そうしたら、あなたは他の自分の舞台の自分のレベル以下のレベルのキャラを1枚選び、自分の控え室の『継承』を持つキャラを1枚選び、そのキャラの下にマーカーとして表向きに置き、そのターン中、そのキャラのパワーを＋1000。\n【起】［このカードを【レスト】する］ あなたは自分の《ウマ娘》のキャラを1枚選び、そのターン中、パワーを＋1500。\n\"-\"",
+   "traits": [
+    "ウマ娘"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_086s.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-087",
+   "name": "私のライブ ダンツフレーム",
+   "type": "Character",
+   "rarity": "U",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "6000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】［手札を2枚控え室に置く］ このカードがアタックした時、あなたはコストを払ってよい。そうしたら、相手に1ダメージを与える。（ダメージキャンセルは発生する）\n【自】 このカードが【リバース】した時、このカードのバトル相手のレベルが相手のレベルより高いなら、あなたはそのキャラを山札の下に置いてよい。\n\"-\"",
+   "traits": [
+    "ウマ娘"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_087.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-087S",
+   "name": "私のライブ ダンツフレーム",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "6000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】［手札を2枚控え室に置く］ このカードがアタックした時、あなたはコストを払ってよい。そうしたら、相手に1ダメージを与える。（ダメージキャンセルは発生する）\n【自】 このカードが【リバース】した時、このカードのバトル相手のレベルが相手のレベルより高いなら、あなたはそのキャラを山札の下に置いてよい。\n\"-\"",
+   "traits": [
+    "ウマ娘"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_087s.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-088",
+   "name": "私だって ダンツフレーム",
+   "type": "Character",
+   "rarity": "U",
+   "color": "blue",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から1枚までを、ストック置場に置き、そのターン中、このカードのパワーを＋4500し、このカードは次の能力を得る。『【永】 このカードは相手の効果に選ばれない。』\n【自】【CXコンボ】 加速 ［(2) 手札を1枚控え室に置き、あなたの山札の上から1枚をクロック置場に置く］ この能力は1ターンにつき1回まで発動する。このカードのアタックの終わりに、CX置場に「勝利への執念」があり、他のあなたの《ウマ娘》のキャラが2枚以上なら、あなたはコストを払ってよい。そうしたら、このカードを【スタンド】する。\n\"-\"",
+   "traits": [
+    "ウマ娘"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_088.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-088S",
+   "name": "私だって ダンツフレーム",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から1枚までを、ストック置場に置き、そのターン中、このカードのパワーを＋4500し、このカードは次の能力を得る。『【永】 このカードは相手の効果に選ばれない。』\n【自】【CXコンボ】 加速 ［(2) 手札を1枚控え室に置き、あなたの山札の上から1枚をクロック置場に置く］ この能力は1ターンにつき1回まで発動する。このカードのアタックの終わりに、CX置場に「勝利への執念」があり、他のあなたの《ウマ娘》のキャラが2枚以上なら、あなたはコストを払ってよい。そうしたら、このカードを【スタンド】する。\n\"-\"",
+   "traits": [
+    "ウマ娘"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_088s.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-089",
+   "name": "負けっぱなしじゃいらんねぇ！ ジャングルポケット",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から1枚を公開する。そのカードが《ウマ娘》のキャラなら、そのターン中、このカードのパワーを＋4000。（公開したカードは元に戻す）\n【自】 このカードが手札から舞台に置かれた時、あなたは自分の《ウマ娘》のキャラを1枚選び、そのターン中、パワーを＋1500。\n\"-\"",
+   "traits": [
+    "ウマ娘"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_089.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-089S",
+   "name": "負けっぱなしじゃいらんねぇ！ ジャングルポケット",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から1枚を公開する。そのカードが《ウマ娘》のキャラなら、そのターン中、このカードのパワーを＋4000。（公開したカードは元に戻す）\n【自】 このカードが手札から舞台に置かれた時、あなたは自分の《ウマ娘》のキャラを1枚選び、そのターン中、パワーを＋1500。\n\"-\"",
+   "traits": [
+    "ウマ娘"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_089s.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-090",
+   "name": "消えない幻影 ジャングルポケット",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1)］ このカードがアタックした時、あなたはコストを払ってよい。そうしたら、そのアタック中、あなたはトリガーステップにトリガーチェックを2回行う。\n【自】【CXコンボ】［他のあなたの舞台の《ウマ娘》のキャラを1枚手札に戻し、あなたのCX置場の「思い出した想い」を1枚控え室に置く］ このカードがアタックした時、あなたはコストを払ってよい。そうしたら、次の相手のターンの終わりまで、このカードは次の能力を得る。『【自】 このカードがフロントアタックされた時、あなたはこのカードを手札に戻してよい。』\n\"-\"",
+   "traits": [
+    "ウマ娘"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_090.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-090S",
+   "name": "消えない幻影 ジャングルポケット",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1)］ このカードがアタックした時、あなたはコストを払ってよい。そうしたら、そのアタック中、あなたはトリガーステップにトリガーチェックを2回行う。\n【自】【CXコンボ】［他のあなたの舞台の《ウマ娘》のキャラを1枚手札に戻し、あなたのCX置場の「思い出した想い」を1枚控え室に置く］ このカードがアタックした時、あなたはコストを払ってよい。そうしたら、次の相手のターンの終わりまで、このカードは次の能力を得る。『【自】 このカードがフロントアタックされた時、あなたはこのカードを手札に戻してよい。』\n\"-\"",
+   "traits": [
+    "ウマ娘"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_090s.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-091",
+   "name": "振り回され役 ダンツフレーム",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの前列の中央の枠の《ウマ娘》のキャラに、パワーを＋1500。\n【自】［(1) このカードを控え室に置く］ あなたのCXがトリガーした時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の《ウマ娘》のキャラを1枚選び、手札に戻す。\n\"-\"",
+   "traits": [
+    "ウマ娘"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_091.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-091S",
+   "name": "振り回され役 ダンツフレーム",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの前列の中央の枠の《ウマ娘》のキャラに、パワーを＋1500。\n【自】［(1) このカードを控え室に置く］ あなたのCXがトリガーした時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の《ウマ娘》のキャラを1枚選び、手札に戻す。\n\"-\"",
+   "traits": [
+    "ウマ娘"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_091s.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-092",
+   "name": "迷いの中 ジャングルポケット",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは相手の後列の、レベルが相手のレベルより高いキャラを1枚選ぶ。そのキャラは次の相手のスタンドフェイズに【スタンド】しない。\n【自】［(1) 手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見て《ウマ娘》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"-\"",
+   "traits": [
+    "ウマ娘"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_092.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-092S",
+   "name": "迷いの中 ジャングルポケット",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは相手の後列の、レベルが相手のレベルより高いキャラを1枚選ぶ。そのキャラは次の相手のスタンドフェイズに【スタンド】しない。\n【自】［(1) 手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見て《ウマ娘》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"-\"",
+   "traits": [
+    "ウマ娘"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_092s.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-093",
+   "name": "新時代 ダンツフレーム",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【起】【カウンター】 助太刀Ｘ レベル1 ［手札のこのカードを控え室に置く］ Ｘはあなたの《ウマ娘》のキャラの枚数×500に等しい。（あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋Ｘ）\n\"-\"",
+   "traits": [
+    "ウマ娘"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_093.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-093S",
+   "name": "新時代 ダンツフレーム",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【起】【カウンター】 助太刀Ｘ レベル1 ［手札のこのカードを控え室に置く］ Ｘはあなたの《ウマ娘》のキャラの枚数×500に等しい。（あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋Ｘ）\n\"-\"",
+   "traits": [
+    "ウマ娘"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_093s.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-094",
+   "name": "次はレースで フジキセキ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのターン中、このカードのパワーを＋4000。\n【自】 このカードがアタックした時、このカードの正面のキャラのレベルが2なら、そのターン中、このカードのパワーを＋6000。\n\"-\"",
+   "traits": [
+    "ウマ娘"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_094.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-094S",
+   "name": "次はレースで フジキセキ",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのターン中、このカードのパワーを＋4000。\n【自】 このカードがアタックした時、このカードの正面のキャラのレベルが2なら、そのターン中、このカードのパワーを＋6000。\n\"-\"",
+   "traits": [
+    "ウマ娘"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_094s.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-095",
+   "name": "夏合宿 ジャングルポケット",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのターン中、このカードのパワーを＋3000。\n【自】 このカードがアタックした時、あなたは他の自分の《ウマ娘》のキャラを1枚選び、そのターン中、パワーを＋Ｘ。Ｘは他のあなたの《ウマ娘》のキャラの枚数×500に等しい。\n\"-\"",
+   "traits": [
+    "ウマ娘"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_095.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-095S",
+   "name": "夏合宿 ジャングルポケット",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのターン中、このカードのパワーを＋3000。\n【自】 このカードがアタックした時、あなたは他の自分の《ウマ娘》のキャラを1枚選び、そのターン中、パワーを＋Ｘ。Ｘは他のあなたの《ウマ娘》のキャラの枚数×500に等しい。\n\"-\"",
+   "traits": [
+    "ウマ娘"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_095s.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-096",
+   "name": "プリズム",
+   "type": "Event",
+   "rarity": "U",
+   "color": "blue",
+   "level": "1",
+   "cost": "1",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "【カウンター】 このカードは、あなたの《ウマ娘》のキャラがいないなら、手札からプレイできない。あなたは自分のキャラを1枚選び、そのターン中、次の能力を与える。『【永】 このカードは【リバース】しない。』\n\"フジさんのレースを見た日<br>…あん時感じた想いが、ちゃんと残ってて…\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_096.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-096S",
+   "name": "プリズム",
+   "type": "Event",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "1",
+   "cost": "1",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "【カウンター】 このカードは、あなたの《ウマ娘》のキャラがいないなら、手札からプレイできない。あなたは自分のキャラを1枚選び、そのターン中、次の能力を与える。『【永】 このカードは【リバース】しない。』\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_096s.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-097",
+   "name": "BEGINNING OF A NEW ERA",
+   "type": "Event",
+   "rarity": "U",
+   "color": "blue",
+   "level": "1",
+   "cost": "1",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "あなたは自分の山札を見て《ウマ娘》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。このカードを思い出にする。\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_097.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-097S",
+   "name": "BEGINNING OF A NEW ERA",
+   "type": "Event",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "1",
+   "cost": "1",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "あなたは自分の山札を見て《ウマ娘》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。このカードを思い出にする。\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_097s.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-098",
+   "name": "最強の証明",
+   "type": "Climax",
+   "rarity": "CR",
+   "color": "blue",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[gate.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[gate.gif]]：このカードがトリガーした時、あなたは自分の控え室のCXを1枚選び、手札に戻してよい）\n\"うぉーーーーーーーー\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_098.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-098R",
+   "name": "最強の証明",
+   "type": "Climax",
+   "rarity": "RRR",
+   "color": "blue",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[gate.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[gate.gif]]：このカードがトリガーした時、あなたは自分の控え室のCXを1枚選び、手札に戻してよい）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_098r.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-099",
+   "name": "思い出した想い",
+   "type": "Climax",
+   "rarity": "CR",
+   "color": "blue",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【自】 このカードが手札からCX置場に置かれた時、あなたは自分の控え室のレベル1以下のキャラを1枚まで選び、ストック置場に置き、自分のキャラすべてに、そのターン中、ソウルを＋1。\n\"走ります、俺\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_099.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-099R",
+   "name": "思い出した想い",
+   "type": "Climax",
+   "rarity": "RRR",
+   "color": "blue",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【自】 このカードが手札からCX置場に置かれた時、あなたは自分の控え室のレベル1以下のキャラを1枚まで選び、ストック置場に置き、自分のキャラすべてに、そのターン中、ソウルを＋1。\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_099r.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-100",
+   "name": "勝利への執念",
+   "type": "Climax",
+   "rarity": "CR",
+   "color": "blue",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[gate.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[gate.gif]]：このカードがトリガーした時、あなたは自分の控え室のCXを1枚選び、手札に戻してよい）\n\"真ん中は!!私だァーーー!!!<br>最強は!!俺だァーーー!!!\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_100.png",
+   "variant": ""
+  },
+  {
+   "num": "UMA/W119-100R",
+   "name": "勝利への執念",
+   "type": "Climax",
+   "rarity": "RRR",
+   "color": "blue",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[gate.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[gate.gif]]：このカードがトリガーした時、あなたは自分の控え室のCXを1枚選び、手札に戻してよい）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/u/uma_w119/uma_w119_100r.png",
+   "variant": ""
+  }
+ ]
+}

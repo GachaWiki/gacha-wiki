@@ -1,0 +1,2280 @@
+{
+ "id": "jp-jj-e434",
+ "name": "プレミアムブースター ジョジョの奇妙な冒険 スターダストクルセイダース",
+ "expansion": 434,
+ "lang": "jp",
+ "release": null,
+ "shopItem": null,
+ "box": null,
+ "cards": [
+  {
+   "num": "JJ/SE41-01",
+   "name": "過去最高の力 DIO",
+   "type": "Character",
+   "rarity": "N",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［あなたの山札の上から1枚をクロック置場に置く］ バトル中のこのカードが【リバース】した時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札の上から2枚を、控え室に置き、自分の控え室のレベルＸ以下の、《スタンド使い》か《スタンド》のキャラを1枚選び、手札に戻す。Ｘはそれらのカードのレベルの合計に等しい。（クライマックスのレベルは0として扱う）\n\"まだまだパワーを感じる…\"",
+   "traits": [
+    "スタンド使い"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/j/jj_se41/jj_se41_01.png",
+   "variant": ""
+  },
+  {
+   "num": "JJ/SE41-01J",
+   "name": "過去最高の力 DIO",
+   "type": "Character",
+   "rarity": "JJR",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［あなたの山札の上から1枚をクロック置場に置く］ バトル中のこのカードが【リバース】した時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札の上から2枚を、控え室に置き、自分の控え室のレベルＸ以下の、《スタンド使い》か《スタンド》のキャラを1枚選び、手札に戻す。Ｘはそれらのカードのレベルの合計に等しい。（クライマックスのレベルは0として扱う）\n\"-\"",
+   "traits": [
+    "スタンド使い"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/j/jj_se41/jj_se41_01j.png",
+   "variant": ""
+  },
+  {
+   "num": "JJ/SE41-02",
+   "name": "地獄の門番 ペット・ショップ",
+   "type": "Character",
+   "rarity": "N",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは相手のキャラを1枚選び、次の相手のターンの終わりまで、次の能力を与える。『【永】 このカードは他の枠に動かせない。』\n\"-\"",
+   "traits": [
+    "スタンド使い",
+    "スタンド"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/j/jj_se41/jj_se41_02.png",
+   "variant": ""
+  },
+  {
+   "num": "JJ/SE41-02J",
+   "name": "地獄の門番 ペット・ショップ",
+   "type": "Character",
+   "rarity": "JJR",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは相手のキャラを1枚選び、次の相手のターンの終わりまで、次の能力を与える。『【永】 このカードは他の枠に動かせない。』\n\"-\"",
+   "traits": [
+    "スタンド使い",
+    "スタンド"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/j/jj_se41/jj_se41_02j.png",
+   "variant": ""
+  },
+  {
+   "num": "JJ/SE41-03",
+   "name": "｢セト神｣のアレッシー",
+   "type": "Character",
+   "rarity": "N",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から3枚を、控え室に置いてよい。\n【起】［手札を1枚控え室に置き、このカードを控え室に置く］ あなたは自分の控え室の、《スタンド使い》か《スタンド》のキャラを1枚選び、手札に戻す。\n\"-\"",
+   "traits": [
+    "スタンド使い"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/j/jj_se41/jj_se41_03.png",
+   "variant": ""
+  },
+  {
+   "num": "JJ/SE41-03J",
+   "name": "｢セト神｣のアレッシー",
+   "type": "Character",
+   "rarity": "JJR",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から3枚を、控え室に置いてよい。\n【起】［手札を1枚控え室に置き、このカードを控え室に置く］ あなたは自分の控え室の、《スタンド使い》か《スタンド》のキャラを1枚選び、手札に戻す。\n\"-\"",
+   "traits": [
+    "スタンド使い"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/j/jj_se41/jj_se41_03j.png",
+   "variant": ""
+  },
+  {
+   "num": "JJ/SE41-04",
+   "name": "テレンス・T・ダービー＆アトゥム神",
+   "type": "Character",
+   "rarity": "N",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのターン中、あなたの手札が5枚以上なら、このカードのパワーを＋2000。\n【自】 相手のドローフェイズの始めに、「魂」を賭けたゲームをする。\n【リプレイ】 「魂」を賭けたゲームをする あなたは自分の山札の上から1枚を公開する。そのカードのレベルが1以上なら、あなたはこのカードを手札に戻してよい。そうでないなら、このカードを控え室に置く。（クライマックスのレベルは0として扱う。公開したカードは元に戻す）\n\"最初は誰です？誰が わたしの相手です？\"",
+   "traits": [
+    "スタンド使い",
+    "スタンド"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/j/jj_se41/jj_se41_04.png",
+   "variant": ""
+  },
+  {
+   "num": "JJ/SE41-04J",
+   "name": "テレンス・T・ダービー＆アトゥム神",
+   "type": "Character",
+   "rarity": "JJR",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのターン中、あなたの手札が5枚以上なら、このカードのパワーを＋2000。\n【自】 相手のドローフェイズの始めに、「魂」を賭けたゲームをする。\n【リプレイ】 「魂」を賭けたゲームをする あなたは自分の山札の上から1枚を公開する。そのカードのレベルが1以上なら、あなたはこのカードを手札に戻してよい。そうでないなら、このカードを控え室に置く。（クライマックスのレベルは0として扱う。公開したカードは元に戻す）\n\"-\"",
+   "traits": [
+    "スタンド使い",
+    "スタンド"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/j/jj_se41/jj_se41_04j.png",
+   "variant": ""
+  },
+  {
+   "num": "JJ/SE41-05",
+   "name": "傲岸不遜 DIO",
+   "type": "Character",
+   "rarity": "N",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［手札を1枚控え室に置く］ このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を上から3枚まで見て、黄のキャラを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。\n\"フン\"",
+   "traits": [
+    "スタンド使い"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/j/jj_se41/jj_se41_05.png",
+   "variant": ""
+  },
+  {
+   "num": "JJ/SE41-05J",
+   "name": "傲岸不遜 DIO",
+   "type": "Character",
+   "rarity": "JJR",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［手札を1枚控え室に置く］ このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を上から3枚まで見て、黄のキャラを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。\n\"-\"",
+   "traits": [
+    "スタンド使い"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/j/jj_se41/jj_se41_05j.png",
+   "variant": ""
+  },
+  {
+   "num": "JJ/SE41-06",
+   "name": "亜空の瘴気 ヴァニラ・アイス",
+   "type": "Character",
+   "rarity": "N",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 このカードのバトル中、あなたはイベントと『助太刀』を、手札からプレイできない。\n【自】 このカードのバトル相手が【リバース】した時、あなたはそのキャラを思い出にする。\n\"わたしのスタンドは圧倒的に やつより勝っているのだ………………\"",
+   "traits": [
+    "スタンド使い",
+    "スタンド"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/j/jj_se41/jj_se41_06.png",
+   "variant": ""
+  },
+  {
+   "num": "JJ/SE41-06J",
+   "name": "亜空の瘴気 ヴァニラ・アイス",
+   "type": "Character",
+   "rarity": "JJR",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 このカードのバトル中、あなたはイベントと『助太刀』を、手札からプレイできない。\n【自】 このカードのバトル相手が【リバース】した時、あなたはそのキャラを思い出にする。\n\"-\"",
+   "traits": [
+    "スタンド使い",
+    "スタンド"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/j/jj_se41/jj_se41_06j.png",
+   "variant": ""
+  },
+  {
+   "num": "JJ/SE41-07",
+   "name": "銃は剣よりも強し ホル・ホース",
+   "type": "Character",
+   "rarity": "N",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】【CXコンボ】 あなたのクライマックス置場に「ホル・ホースの人生哲学」が置かれた時、あなたは他の自分の、《スタンド使い》か《スタンド》のキャラを1枚選び、そのターン中、次の能力を与える。『【自】 このカードのバトル相手が【リバース】した時、あなたは自分の控え室の、《スタンド使い》か《スタンド》のキャラを1枚選び、手札に戻してよい。』\n【自】 あなたのアタックフェイズの始めに、あなたは自分の、《スタンド使い》か《スタンド》のキャラを1枚選び、そのターン中、パワーを＋1500。\n\"この「軍人将棋」はもうこわいコマはねえぜッ！\"",
+   "traits": [
+    "スタンド使い",
+    "スタンド"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/j/jj_se41/jj_se41_07.png",
+   "variant": ""
+  },
+  {
+   "num": "JJ/SE41-07J",
+   "name": "銃は剣よりも強し ホル・ホース",
+   "type": "Character",
+   "rarity": "JJR",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】【CXコンボ】 あなたのクライマックス置場に「ホル・ホースの人生哲学」が置かれた時、あなたは他の自分の、《スタンド使い》か《スタンド》のキャラを1枚選び、そのターン中、次の能力を与える。『【自】 このカードのバトル相手が【リバース】した時、あなたは自分の控え室の、《スタンド使い》か《スタンド》のキャラを1枚選び、手札に戻してよい。』\n【自】 あなたのアタックフェイズの始めに、あなたは自分の、《スタンド使い》か《スタンド》のキャラを1枚選び、そのターン中、パワーを＋1500。\n\"-\"",
+   "traits": [
+    "スタンド使い",
+    "スタンド"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/j/jj_se41/jj_se41_07j.png",
+   "variant": ""
+  },
+  {
+   "num": "JJ/SE41-07SP",
+   "name": "銃は剣よりも強し ホル・ホース",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】【CXコンボ】 あなたのクライマックス置場に「ホル・ホースの人生哲学」が置かれた時、あなたは他の自分の、《スタンド使い》か《スタンド》のキャラを1枚選び、そのターン中、次の能力を与える。『【自】 このカードのバトル相手が【リバース】した時、あなたは自分の控え室の、《スタンド使い》か《スタンド》のキャラを1枚選び、手札に戻してよい。』\n【自】 あなたのアタックフェイズの始めに、あなたは自分の、《スタンド使い》か《スタンド》のキャラを1枚選び、そのターン中、パワーを＋1500。\n\"-\"",
+   "traits": [
+    "スタンド使い",
+    "スタンド"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/j/jj_se41/jj_se41_07sp.png",
+   "variant": ""
+  },
+  {
+   "num": "JJ/SE41-08",
+   "name": "｢ゲブ神｣のンドゥール",
+   "type": "Character",
+   "rarity": "N",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのターン中、他のあなたの、《スタンド使い》か《スタンド》のキャラすべてに、パワーを＋1000し、次の能力を与える。『【永】 このカードはサイドアタックできない。』\n【自】［手札の、《スタンド使い》か《スタンド》のキャラを1枚控え室に置く］ あなたのキャラのトリガーチェックでトリガーアイコンが[[choice.gif]]のクライマックスがでた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を上から2枚まで見て、カードを1枚まで選び、手札に加え、残りのカードを控え室に置く。\n\"-\"",
+   "traits": [
+    "スタンド使い"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/j/jj_se41/jj_se41_08.png",
+   "variant": ""
+  },
+  {
+   "num": "JJ/SE41-08J",
+   "name": "｢ゲブ神｣のンドゥール",
+   "type": "Character",
+   "rarity": "JJR",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのターン中、他のあなたの、《スタンド使い》か《スタンド》のキャラすべてに、パワーを＋1000し、次の能力を与える。『【永】 このカードはサイドアタックできない。』\n【自】［手札の、《スタンド使い》か《スタンド》のキャラを1枚控え室に置く］ あなたのキャラのトリガーチェックでトリガーアイコンが[[choice.gif]]のクライマックスがでた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を上から2枚まで見て、カードを1枚まで選び、手札に加え、残りのカードを控え室に置く。\n\"-\"",
+   "traits": [
+    "スタンド使い"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/j/jj_se41/jj_se41_08j.png",
+   "variant": ""
+  },
+  {
+   "num": "JJ/SE41-09",
+   "name": "｢バステト女神｣のマライア",
+   "type": "Character",
+   "rarity": "N",
+   "color": "yellow",
+   "level": "1",
+   "cost": "1",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが【リバース】した時、このカードのバトル相手のコストが1以下なら、あなたはそのキャラをストック置場に置いてよい。そうしたら、あなたは相手のストックの下から1枚を、控え室に置く。\n\"ナレーション「バステト女神のカード 本体の名は『マライア』」\"",
+   "traits": [
+    "スタンド使い"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/j/jj_se41/jj_se41_09.png",
+   "variant": ""
+  },
+  {
+   "num": "JJ/SE41-09J",
+   "name": "｢バステト女神｣のマライア",
+   "type": "Character",
+   "rarity": "JJR",
+   "color": "yellow",
+   "level": "1",
+   "cost": "1",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが【リバース】した時、このカードのバトル相手のコストが1以下なら、あなたはそのキャラをストック置場に置いてよい。そうしたら、あなたは相手のストックの下から1枚を、控え室に置く。\n\"-\"",
+   "traits": [
+    "スタンド使い"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/j/jj_se41/jj_se41_09j.png",
+   "variant": ""
+  },
+  {
+   "num": "JJ/SE41-10",
+   "name": "無敵の兄弟 オインゴ＆ボインゴ",
+   "type": "Character",
+   "rarity": "N",
+   "color": "yellow",
+   "level": "1",
+   "cost": "1",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのターン中、このカードのパワーを＋6000。\n【自】 アンコール ［手札のキャラを1枚控え室に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"-\"",
+   "traits": [
+    "スタンド使い"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/j/jj_se41/jj_se41_10.png",
+   "variant": ""
+  },
+  {
+   "num": "JJ/SE41-10J",
+   "name": "無敵の兄弟 オインゴ＆ボインゴ",
+   "type": "Character",
+   "rarity": "JJR",
+   "color": "yellow",
+   "level": "1",
+   "cost": "1",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのターン中、このカードのパワーを＋6000。\n【自】 アンコール ［手札のキャラを1枚控え室に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"-\"",
+   "traits": [
+    "スタンド使い"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/j/jj_se41/jj_se41_10j.png",
+   "variant": ""
+  },
+  {
+   "num": "JJ/SE41-11",
+   "name": "冥府の神 アヌビス神",
+   "type": "Character",
+   "rarity": "N",
+   "color": "yellow",
+   "level": "1",
+   "cost": "1",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 このカードの正面のキャラのコストが0以下なら、このカードは【リバース】しない。\n【永】 このカードの下のマーカー1枚につき、このカードのパワーを＋1000。\n【自】 このカードがアタックした時、あなたのキャラすべてが《スタンド使い》か《スタンド》なら、あなたは自分の山札を上から1枚見てよい。そうしたら、あなたはそのカードをこのカードの下にマーカーとして裏向きに置く。\n\"アヌビス神「おまえは誰よりも強い…わたしを使って殺すのだ…」\"",
+   "traits": [
+    "スタンド"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/j/jj_se41/jj_se41_11.png",
+   "variant": ""
+  },
+  {
+   "num": "JJ/SE41-11J",
+   "name": "冥府の神 アヌビス神",
+   "type": "Character",
+   "rarity": "JJR",
+   "color": "yellow",
+   "level": "1",
+   "cost": "1",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 このカードの正面のキャラのコストが0以下なら、このカードは【リバース】しない。\n【永】 このカードの下のマーカー1枚につき、このカードのパワーを＋1000。\n【自】 このカードがアタックした時、あなたのキャラすべてが《スタンド使い》か《スタンド》なら、あなたは自分の山札を上から1枚見てよい。そうしたら、あなたはそのカードをこのカードの下にマーカーとして裏向きに置く。\n\"-\"",
+   "traits": [
+    "スタンド"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/j/jj_se41/jj_se41_11j.png",
+   "variant": ""
+  },
+  {
+   "num": "JJ/SE41-12",
+   "name": "ダニエル・J・ダービー＆オシリス神",
+   "type": "Character",
+   "rarity": "N",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、「魂」を賭けたゲームをする。\n【起】［このカードを【レスト】する］ あなたは他の自分のキャラを1枚選び、ストック置場に置く。\n【リプレイ】 「魂」を賭けたゲームをする すべてのプレイヤーは自分のキャラを1枚選び、自分の山札の上から1枚を、控え室に置く。あなたのこの効果で控え室に置かれたカードのレベルが相手のこの効果で控え室に置かれたカードのレベルより低いなら、あなたは自分が選んだキャラを控え室に置く。そうでないなら、相手は自分が選んだキャラを控え室に置く。（クライマックスのレベルは0として扱う）\n\"生まれついての「賭け師」だから闘いに来たのだッ！\"",
+   "traits": [
+    "スタンド使い",
+    "スタンド"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/j/jj_se41/jj_se41_12.png",
+   "variant": ""
+  },
+  {
+   "num": "JJ/SE41-12J",
+   "name": "ダニエル・J・ダービー＆オシリス神",
+   "type": "Character",
+   "rarity": "JJR",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、「魂」を賭けたゲームをする。\n【起】［このカードを【レスト】する］ あなたは他の自分のキャラを1枚選び、ストック置場に置く。\n【リプレイ】 「魂」を賭けたゲームをする すべてのプレイヤーは自分のキャラを1枚選び、自分の山札の上から1枚を、控え室に置く。あなたのこの効果で控え室に置かれたカードのレベルが相手のこの効果で控え室に置かれたカードのレベルより低いなら、あなたは自分が選んだキャラを控え室に置く。そうでないなら、相手は自分が選んだキャラを控え室に置く。（クライマックスのレベルは0として扱う）\n\"-\"",
+   "traits": [
+    "スタンド使い",
+    "スタンド"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/j/jj_se41/jj_se41_12j.png",
+   "variant": ""
+  },
+  {
+   "num": "JJ/SE41-13",
+   "name": "最後の攻撃 DIO",
+   "type": "Character",
+   "rarity": "N",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたのターン中、他のあなたの、《スタンド使い》か《スタンド》のキャラが4枚以上なら、このカードのパワーを＋6000。\n【自】 このカードが手札から舞台に置かれた時、他のあなたの、《スタンド使い》か《スタンド》のキャラが2枚以上なら、あなたは2枚引いてよい。そうしたら、あなたは自分の手札を2枚選び、控え室に置く。\n【自】 このカードが手札から舞台に置かれた時、他のあなたの、《スタンド使い》か《スタンド》のキャラが4枚以上なら、あなたは自分の控え室の、《スタンド使い》か《スタンド》のキャラを1枚選び、ストック置場に置いてよい。\n\"ウリイイイイヤアアアッー<br>ぶっつぶれよォォッ\"",
+   "traits": [
+    "スタンド使い"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/j/jj_se41/jj_se41_13.png",
+   "variant": ""
+  },
+  {
+   "num": "JJ/SE41-13J",
+   "name": "最後の攻撃 DIO",
+   "type": "Character",
+   "rarity": "JJR",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたのターン中、他のあなたの、《スタンド使い》か《スタンド》のキャラが4枚以上なら、このカードのパワーを＋6000。\n【自】 このカードが手札から舞台に置かれた時、他のあなたの、《スタンド使い》か《スタンド》のキャラが2枚以上なら、あなたは2枚引いてよい。そうしたら、あなたは自分の手札を2枚選び、控え室に置く。\n【自】 このカードが手札から舞台に置かれた時、他のあなたの、《スタンド使い》か《スタンド》のキャラが4枚以上なら、あなたは自分の控え室の、《スタンド使い》か《スタンド》のキャラを1枚選び、ストック置場に置いてよい。\n\"-\"",
+   "traits": [
+    "スタンド使い"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/j/jj_se41/jj_se41_13j.png",
+   "variant": ""
+  },
+  {
+   "num": "JJ/SE41-14",
+   "name": "絶対的存在 DIO",
+   "type": "Character",
+   "rarity": "N",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "6000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 応援 このカードの前のあなたの黄のキャラすべてに、パワーを＋1500。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分の控え室の「完全なる存在 DIO＆ザ・ワールド」を1枚選び、このカードの下にマーカーとして表向きに置いてよい。\n【起】［(2) 手札のキャラを1枚控え室に置く］ あなたのレベルが3以上なら、あなたはこのカードのマーカーの「完全なる存在 DIO＆ザ・ワールド」を1枚選び、舞台の好きな枠に置く。ターンの終わりに、あなたはそのキャラをこのカードの下にマーカーとして表向きに置いてよい。\n\"きさま！見ているなッ！\"",
+   "traits": [
+    "スタンド使い"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/j/jj_se41/jj_se41_14.png",
+   "variant": ""
+  },
+  {
+   "num": "JJ/SE41-14J",
+   "name": "絶対的存在 DIO",
+   "type": "Character",
+   "rarity": "JJR",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "6000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 応援 このカードの前のあなたの黄のキャラすべてに、パワーを＋1500。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分の控え室の「完全なる存在 DIO＆ザ・ワールド」を1枚選び、このカードの下にマーカーとして表向きに置いてよい。\n【起】［(2) 手札のキャラを1枚控え室に置く］ あなたのレベルが3以上なら、あなたはこのカードのマーカーの「完全なる存在 DIO＆ザ・ワールド」を1枚選び、舞台の好きな枠に置く。ターンの終わりに、あなたはそのキャラをこのカードの下にマーカーとして表向きに置いてよい。\n\"-\"",
+   "traits": [
+    "スタンド使い"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/j/jj_se41/jj_se41_14j.png",
+   "variant": ""
+  },
+  {
+   "num": "JJ/SE41-15",
+   "name": "おぞましい処刑 DIO",
+   "type": "Character",
+   "rarity": "N",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "6000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの、《スタンド使い》か《スタンド》のキャラが2枚以上なら、このカードのパワーを＋4000。\n【自】【CXコンボ】［手札を1枚控え室に置く］ 控え室にこのカードがあり、あなたのクライマックス置場に「スタンドラッシュ!!」が置かれた時、あなたのレベルが2以上で、あなたのキャラすべてが《スタンド使い》か《スタンド》なら、あなたはコストを払ってよい。そうしたら、あなたはこのカードを舞台の好きな枠に置き、そのターン中、このカードのパワーを＋1000し、このカードは次の能力を得る。『【自】 このカードのバトル相手が【リバース】した時、あなたはそのキャラを山札の上に置いてよい。』\n\"きさまが何秒動けようと関係のない処刑を思いついた……\"",
+   "traits": [
+    "スタンド使い"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/j/jj_se41/jj_se41_15.png",
+   "variant": ""
+  },
+  {
+   "num": "JJ/SE41-15J",
+   "name": "おぞましい処刑 DIO",
+   "type": "Character",
+   "rarity": "JJR",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "6000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの、《スタンド使い》か《スタンド》のキャラが2枚以上なら、このカードのパワーを＋4000。\n【自】【CXコンボ】［手札を1枚控え室に置く］ 控え室にこのカードがあり、あなたのクライマックス置場に「スタンドラッシュ!!」が置かれた時、あなたのレベルが2以上で、あなたのキャラすべてが《スタンド使い》か《スタンド》なら、あなたはコストを払ってよい。そうしたら、あなたはこのカードを舞台の好きな枠に置き、そのターン中、このカードのパワーを＋1000し、このカードは次の能力を得る。『【自】 このカードのバトル相手が【リバース】した時、あなたはそのキャラを山札の上に置いてよい。』\n\"-\"",
+   "traits": [
+    "スタンド使い"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/j/jj_se41/jj_se41_15j.png",
+   "variant": ""
+  },
+  {
+   "num": "JJ/SE41-16",
+   "name": "スガスガしい気分 DIO",
+   "type": "Character",
+   "rarity": "N",
+   "color": "yellow",
+   "level": "3",
+   "cost": "2",
+   "power": "8500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 相手のレベル3以上のキャラがいるなら、あなたの手札のこのカードのレベルを－1。\n【永】 他のあなたの、《スタンド使い》か《スタンド》のキャラが2枚以上なら、このカードのパワーを＋2500し、このカードは『【自】 アンコール ［手札の黄のカードを1枚控え室に置く］』を得る。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n\"ジョセフ・ジョースターの血を吸うための『逃走経路』だ！\"",
+   "traits": [
+    "スタンド使い"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/j/jj_se41/jj_se41_16.png",
+   "variant": ""
+  },
+  {
+   "num": "JJ/SE41-16J",
+   "name": "スガスガしい気分 DIO",
+   "type": "Character",
+   "rarity": "JJR",
+   "color": "yellow",
+   "level": "3",
+   "cost": "2",
+   "power": "8500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 相手のレベル3以上のキャラがいるなら、あなたの手札のこのカードのレベルを－1。\n【永】 他のあなたの、《スタンド使い》か《スタンド》のキャラが2枚以上なら、このカードのパワーを＋2500し、このカードは『【自】 アンコール ［手札の黄のカードを1枚控え室に置く］』を得る。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n\"-\"",
+   "traits": [
+    "スタンド使い"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/j/jj_se41/jj_se41_16j.png",
+   "variant": ""
+  },
+  {
+   "num": "JJ/SE41-17",
+   "name": "完全なる存在 DIO＆ザ・ワールド",
+   "type": "Character",
+   "rarity": "N",
+   "color": "yellow",
+   "level": "3",
+   "cost": "2",
+   "power": "9000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたのターン中、このカードのパワーを＋2000。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n【自】【CXコンボ】［(2) 手札を2枚控え室に置く］ あなたのアンコールステップの始めに、クライマックス置場に「止まった時の世界」があり、相手の前列のキャラがいないか相手の前列のキャラすべてが【リバース】しているなら、あなたはコストを払ってよい。そうしたら、相手は自分の山札の上から2枚を、クロック置場に置く。\n\"「世界」!!\"",
+   "traits": [
+    "スタンド使い",
+    "スタンド"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/j/jj_se41/jj_se41_17.png",
+   "variant": ""
+  },
+  {
+   "num": "JJ/SE41-17J",
+   "name": "完全なる存在 DIO＆ザ・ワールド",
+   "type": "Character",
+   "rarity": "JJR",
+   "color": "yellow",
+   "level": "3",
+   "cost": "2",
+   "power": "9000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたのターン中、このカードのパワーを＋2000。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n【自】【CXコンボ】［(2) 手札を2枚控え室に置く］ あなたのアンコールステップの始めに、クライマックス置場に「止まった時の世界」があり、相手の前列のキャラがいないか相手の前列のキャラすべてが【リバース】しているなら、あなたはコストを払ってよい。そうしたら、相手は自分の山札の上から2枚を、クロック置場に置く。\n\"-\"",
+   "traits": [
+    "スタンド使い",
+    "スタンド"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/j/jj_se41/jj_se41_17j.png",
+   "variant": ""
+  },
+  {
+   "num": "JJ/SE41-17SP",
+   "name": "完全なる存在 DIO＆ザ・ワールド",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "yellow",
+   "level": "3",
+   "cost": "2",
+   "power": "9000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたのターン中、このカードのパワーを＋2000。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n【自】【CXコンボ】［(2) 手札を2枚控え室に置く］ あなたのアンコールステップの始めに、クライマックス置場に「止まった時の世界」があり、相手の前列のキャラがいないか相手の前列のキャラすべてが【リバース】しているなら、あなたはコストを払ってよい。そうしたら、相手は自分の山札の上から2枚を、クロック置場に置く。\n\"-\"",
+   "traits": [
+    "スタンド使い",
+    "スタンド"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/j/jj_se41/jj_se41_17sp.png",
+   "variant": ""
+  },
+  {
+   "num": "JJ/SE41-18",
+   "name": "DIOの世界",
+   "type": "Event",
+   "rarity": "N",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "［あなたの舞台のキャラを1枚控え室に置く］ あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見て《スタンド使い》か《スタンド》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルし、自分のキャラを1枚選び、そのターン中、パワーを＋1000。\n\"ポルナレフか ひさしぶりだな\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/j/jj_se41/jj_se41_18.png",
+   "variant": ""
+  },
+  {
+   "num": "JJ/SE41-18J",
+   "name": "DIOの世界",
+   "type": "Event",
+   "rarity": "JJR",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "［あなたの舞台のキャラを1枚控え室に置く］ あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見て《スタンド使い》か《スタンド》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルし、自分のキャラを1枚選び、そのターン中、パワーを＋1000。\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/j/jj_se41/jj_se41_18j.png",
+   "variant": ""
+  },
+  {
+   "num": "JJ/SE41-19",
+   "name": "ホル・ホースの人生哲学",
+   "type": "Climax",
+   "rarity": "N",
+   "color": "yellow",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[choice.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[choice.gif]]：このカードがトリガーした時、あなたは自分の控え室のトリガーアイコンに[[soul.gif]]があるキャラを1枚選び、手札に戻すかストック置場に置いてよい）\n\"よく言ってくれたベイビー！\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/j/jj_se41/jj_se41_19.png",
+   "variant": ""
+  },
+  {
+   "num": "JJ/SE41-19J",
+   "name": "ホル・ホースの人生哲学",
+   "type": "Climax",
+   "rarity": "JJR",
+   "color": "yellow",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[choice.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[choice.gif]]：このカードがトリガーした時、あなたは自分の控え室のトリガーアイコンに[[soul.gif]]があるキャラを1枚選び、手札に戻すかストック置場に置いてよい）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/j/jj_se41/jj_se41_19j.png",
+   "variant": ""
+  },
+  {
+   "num": "JJ/SE41-20",
+   "name": "スタンドラッシュ!!",
+   "type": "Climax",
+   "rarity": "N",
+   "color": "yellow",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[choice.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[choice.gif]]：このカードがトリガーした時、あなたは自分の控え室のトリガーアイコンに[[soul.gif]]があるキャラを1枚選び、手札に戻すかストック置場に置いてよい）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/j/jj_se41/jj_se41_20.png",
+   "variant": ""
+  },
+  {
+   "num": "JJ/SE41-20J",
+   "name": "スタンドラッシュ!!",
+   "type": "Climax",
+   "rarity": "JJR",
+   "color": "yellow",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[choice.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[choice.gif]]：このカードがトリガーした時、あなたは自分の控え室のトリガーアイコンに[[soul.gif]]があるキャラを1枚選び、手札に戻すかストック置場に置いてよい）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/j/jj_se41/jj_se41_20j.png",
+   "variant": ""
+  },
+  {
+   "num": "JJ/SE41-21",
+   "name": "止まった時の世界",
+   "type": "Climax",
+   "rarity": "N",
+   "color": "yellow",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[choice.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[choice.gif]]：このカードがトリガーした時、あなたは自分の控え室のトリガーアイコンに[[soul.gif]]があるキャラを1枚選び、手札に戻すかストック置場に置いてよい）\n\"「世界」！\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/j/jj_se41/jj_se41_21.png",
+   "variant": ""
+  },
+  {
+   "num": "JJ/SE41-21J",
+   "name": "止まった時の世界",
+   "type": "Climax",
+   "rarity": "JJR",
+   "color": "yellow",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[choice.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[choice.gif]]：このカードがトリガーした時、あなたは自分の控え室のトリガーアイコンに[[soul.gif]]があるキャラを1枚選び、手札に戻すかストック置場に置いてよい）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/j/jj_se41/jj_se41_21j.png",
+   "variant": ""
+  },
+  {
+   "num": "JJ/SE41-22",
+   "name": "焼き尽くす炎 アヴドゥル",
+   "type": "Character",
+   "rarity": "N",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1) 手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を上から3枚まで見て、カードを1枚まで選び、手札に加え、残りのカードを控え室に置く。\n【自】［手札の、《スタンド使い》か《スタンド》のキャラを1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは1枚引く。\n\"地獄を！きさまに！ HELL 2U！\"",
+   "traits": [
+    "スタンド使い"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/j/jj_se41/jj_se41_22.png",
+   "variant": ""
+  },
+  {
+   "num": "JJ/SE41-22J",
+   "name": "焼き尽くす炎 アヴドゥル",
+   "type": "Character",
+   "rarity": "JJR",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1) 手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を上から3枚まで見て、カードを1枚まで選び、手札に加え、残りのカードを控え室に置く。\n【自】［手札の、《スタンド使い》か《スタンド》のキャラを1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは1枚引く。\n\"-\"",
+   "traits": [
+    "スタンド使い"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/j/jj_se41/jj_se41_22j.png",
+   "variant": ""
+  },
+  {
+   "num": "JJ/SE41-23",
+   "name": "命懸けの戦い イギー",
+   "type": "Character",
+   "rarity": "N",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのターン中、他のあなたの、《スタンド使い》か《スタンド》のキャラ1枚につき、このカードのパワーを＋1000。\n【自】［(1)］ 相手のアタックフェイズの始めに、あなたはコストを払ってよい。そうしたら、あなたはこのカードを後列のキャラのいない枠に動かす。\n\"その出血だ…もう動かねえ方がいいぜ\"",
+   "traits": [
+    "スタンド使い"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/j/jj_se41/jj_se41_23.png",
+   "variant": ""
+  },
+  {
+   "num": "JJ/SE41-23J",
+   "name": "命懸けの戦い イギー",
+   "type": "Character",
+   "rarity": "JJR",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのターン中、他のあなたの、《スタンド使い》か《スタンド》のキャラ1枚につき、このカードのパワーを＋1000。\n【自】［(1)］ 相手のアタックフェイズの始めに、あなたはコストを払ってよい。そうしたら、あなたはこのカードを後列のキャラのいない枠に動かす。\n\"-\"",
+   "traits": [
+    "スタンド使い"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/j/jj_se41/jj_se41_23j.png",
+   "variant": ""
+  },
+  {
+   "num": "JJ/SE41-24",
+   "name": "仇敵を探せ ポルナレフ",
+   "type": "Character",
+   "rarity": "N",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは相手の前列のキャラを1枚選び、そのターン中、パワーを－1000。\n【自】 このカードがアタックした時、あなたは他の自分の、《スタンド使い》か《スタンド》のキャラを1枚選び、そのターン中、パワーを＋1000。\n\"おれの『スタンド』がしかるべき報いを与えてやるッ！\"",
+   "traits": [
+    "スタンド使い"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/j/jj_se41/jj_se41_24.png",
+   "variant": ""
+  },
+  {
+   "num": "JJ/SE41-24J",
+   "name": "仇敵を探せ ポルナレフ",
+   "type": "Character",
+   "rarity": "JJR",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは相手の前列のキャラを1枚選び、そのターン中、パワーを－1000。\n【自】 このカードがアタックした時、あなたは他の自分の、《スタンド使い》か《スタンド》のキャラを1枚選び、そのターン中、パワーを＋1000。\n\"-\"",
+   "traits": [
+    "スタンド使い"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/j/jj_se41/jj_se41_24j.png",
+   "variant": ""
+  },
+  {
+   "num": "JJ/SE41-25",
+   "name": "歴戦の導き手 ジョセフ＆ハーミットパープル",
+   "type": "Character",
+   "rarity": "N",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 他のあなたのキャラがマーカー置場から舞台に置かれた時、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋2000。\n【起】 集中 ［(1) このカードを【レスト】する］ あなたは自分の山札の上から4枚をめくり、控え室に置く。それらのカードのクライマックス1枚につき、あなたは自分の山札を見て《スタンド使い》か《スタンド》か《波紋》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"今まで気にもとめてなかったわしらの運命なのじゃ！\"",
+   "traits": [
+    "スタンド使い",
+    "波紋"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/j/jj_se41/jj_se41_25.png",
+   "variant": ""
+  },
+  {
+   "num": "JJ/SE41-25J",
+   "name": "歴戦の導き手 ジョセフ＆ハーミットパープル",
+   "type": "Character",
+   "rarity": "JJR",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 他のあなたのキャラがマーカー置場から舞台に置かれた時、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋2000。\n【起】 集中 ［(1) このカードを【レスト】する］ あなたは自分の山札の上から4枚をめくり、控え室に置く。それらのカードのクライマックス1枚につき、あなたは自分の山札を見て《スタンド使い》か《スタンド》か《波紋》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"-\"",
+   "traits": [
+    "スタンド使い",
+    "波紋"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/j/jj_se41/jj_se41_25j.png",
+   "variant": ""
+  },
+  {
+   "num": "JJ/SE41-26",
+   "name": "咄嗟の反応 アヴドゥル",
+   "type": "Character",
+   "rarity": "N",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1) このカードを思い出にする］ 相手のアタックフェイズの始めに、あなたはコストを払ってよい。そうしたら、あなたは他の自分のキャラを1枚選び、手札に戻す。\n\"-\"",
+   "traits": [
+    "スタンド使い"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/j/jj_se41/jj_se41_26.png",
+   "variant": ""
+  },
+  {
+   "num": "JJ/SE41-26J",
+   "name": "咄嗟の反応 アヴドゥル",
+   "type": "Character",
+   "rarity": "JJR",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1) このカードを思い出にする］ 相手のアタックフェイズの始めに、あなたはコストを払ってよい。そうしたら、あなたは他の自分のキャラを1枚選び、手札に戻す。\n\"-\"",
+   "traits": [
+    "スタンド使い"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/j/jj_se41/jj_se41_26j.png",
+   "variant": ""
+  },
+  {
+   "num": "JJ/SE41-27",
+   "name": "熱くクールに 承太郎",
+   "type": "Character",
+   "rarity": "N",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 相手のアタックフェイズの始めに、あなたはこのカードを前列の中央のキャラのいない枠に動かしてよい。\n【自】［手札を1枚控え室に置く］ このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を上から4枚まで見て、レベル1以上のカードを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。（クライマックスのレベルは0として扱う）\n\"こんなことを見せられて 頭に来ねえヤツはいねえッ！\"",
+   "traits": [
+    "スタンド使い"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/j/jj_se41/jj_se41_27.png",
+   "variant": ""
+  },
+  {
+   "num": "JJ/SE41-27J",
+   "name": "熱くクールに 承太郎",
+   "type": "Character",
+   "rarity": "JJR",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 相手のアタックフェイズの始めに、あなたはこのカードを前列の中央のキャラのいない枠に動かしてよい。\n【自】［手札を1枚控え室に置く］ このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を上から4枚まで見て、レベル1以上のカードを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。（クライマックスのレベルは0として扱う）\n\"-\"",
+   "traits": [
+    "スタンド使い"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/j/jj_se41/jj_se41_27j.png",
+   "variant": ""
+  },
+  {
+   "num": "JJ/SE41-28",
+   "name": "ジョースター家の伝統 承太郎",
+   "type": "Character",
+   "rarity": "N",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［あなたのストックの上から1枚をクロック置場に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見て自分のレベル以下でコスト0以下の、《スタンド使い》か《スタンド》のキャラを1枚まで選び、舞台の好きな枠に置き、その山札をシャッフルする。\n【自】 このカードのバトル中、あなたの受けたダメージがキャンセルされた時、あなたはこのカードをストック置場に置いてよい。\n\"ひとつだけ残された戦法があったぜ\"",
+   "traits": [
+    "スタンド使い"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/j/jj_se41/jj_se41_28.png",
+   "variant": ""
+  },
+  {
+   "num": "JJ/SE41-28J",
+   "name": "ジョースター家の伝統 承太郎",
+   "type": "Character",
+   "rarity": "JJR",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［あなたのストックの上から1枚をクロック置場に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見て自分のレベル以下でコスト0以下の、《スタンド使い》か《スタンド》のキャラを1枚まで選び、舞台の好きな枠に置き、その山札をシャッフルする。\n【自】 このカードのバトル中、あなたの受けたダメージがキャンセルされた時、あなたはこのカードをストック置場に置いてよい。\n\"-\"",
+   "traits": [
+    "スタンド使い"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/j/jj_se41/jj_se41_28j.png",
+   "variant": ""
+  },
+  {
+   "num": "JJ/SE41-29",
+   "name": "好物のチェリー 花京院",
+   "type": "Character",
+   "rarity": "N",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札を上から2枚まで見て、山札の上に好きな順番で置く。\n【自】［(1) 手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の、《スタンド使い》か《スタンド》のキャラを1枚選び、手札に戻し、他の自分の、《スタンド使い》か《スタンド》のキャラを1枚選び、そのターン中、パワーを＋1000。\n\"レロレロレロレロ\"",
+   "traits": [
+    "スタンド使い"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/j/jj_se41/jj_se41_29.png",
+   "variant": ""
+  },
+  {
+   "num": "JJ/SE41-29J",
+   "name": "好物のチェリー 花京院",
+   "type": "Character",
+   "rarity": "JJR",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札を上から2枚まで見て、山札の上に好きな順番で置く。\n【自】［(1) 手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の、《スタンド使い》か《スタンド》のキャラを1枚選び、手札に戻し、他の自分の、《スタンド使い》か《スタンド》のキャラを1枚選び、そのターン中、パワーを＋1000。\n\"-\"",
+   "traits": [
+    "スタンド使い"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/j/jj_se41/jj_se41_29j.png",
+   "variant": ""
+  },
+  {
+   "num": "JJ/SE41-30",
+   "name": "オラオララッシュ 承太郎＆スタープラチナ",
+   "type": "Character",
+   "rarity": "N",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から1枚を公開する。そのカードが《スタンド使い》か《スタンド》のキャラなら、そのターン中、このカードのパワーを＋2000。（公開したカードは元に戻す）\n【起】［(1) このカードを控え室に置く］ あなたは自分の控え室の「希望の星 承太郎＆スタープラチナ」を1枚選び、手札に戻す。\n\"てめーはこの空条承太郎がじきじきにブチのめす\"",
+   "traits": [
+    "スタンド使い",
+    "スタンド"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/j/jj_se41/jj_se41_30.png",
+   "variant": ""
+  },
+  {
+   "num": "JJ/SE41-30J",
+   "name": "オラオララッシュ 承太郎＆スタープラチナ",
+   "type": "Character",
+   "rarity": "JJR",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から1枚を公開する。そのカードが《スタンド使い》か《スタンド》のキャラなら、そのターン中、このカードのパワーを＋2000。（公開したカードは元に戻す）\n【起】［(1) このカードを控え室に置く］ あなたは自分の控え室の「希望の星 承太郎＆スタープラチナ」を1枚選び、手札に戻す。\n\"-\"",
+   "traits": [
+    "スタンド使い",
+    "スタンド"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/j/jj_se41/jj_se41_30j.png",
+   "variant": ""
+  },
+  {
+   "num": "JJ/SE41-31",
+   "name": "打開の一手 花京院",
+   "type": "Character",
+   "rarity": "N",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［あなたの山札の上から1枚をクロック置場に置く］ あなたのクライマックスがクライマックス置場に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を上から4枚まで見て、レベル1以上のカードを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。（クライマックスのレベルは0として扱う）\n【自】【CXコンボ】［このカードを手札に戻し、あなたのクライマックス置場の「エメラルド・スプラッシュ」を1枚控え室に置く］ あなたのアタックフェイズの始めに、あなたはコストを払ってよい。そうしたら、あなたは他の自分の、《スタンド使い》か《スタンド》のキャラを1枚選び、【スタンド】する。\n\"触れれば発射される「法皇〈ルビ：ハイエロファント〉」の「結界」はッ！すでにお前の周り半径20m！\"",
+   "traits": [
+    "スタンド使い"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/j/jj_se41/jj_se41_31.png",
+   "variant": ""
+  },
+  {
+   "num": "JJ/SE41-31J",
+   "name": "打開の一手 花京院",
+   "type": "Character",
+   "rarity": "JJR",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［あなたの山札の上から1枚をクロック置場に置く］ あなたのクライマックスがクライマックス置場に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を上から4枚まで見て、レベル1以上のカードを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。（クライマックスのレベルは0として扱う）\n【自】【CXコンボ】［このカードを手札に戻し、あなたのクライマックス置場の「エメラルド・スプラッシュ」を1枚控え室に置く］ あなたのアタックフェイズの始めに、あなたはコストを払ってよい。そうしたら、あなたは他の自分の、《スタンド使い》か《スタンド》のキャラを1枚選び、【スタンド】する。\n\"-\"",
+   "traits": [
+    "スタンド使い"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/j/jj_se41/jj_se41_31j.png",
+   "variant": ""
+  },
+  {
+   "num": "JJ/SE41-32",
+   "name": "戦いの年季 ジョセフ",
+   "type": "Character",
+   "rarity": "N",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1) 手札を2枚控え室に置く］ このカードが手札から舞台に置かれたターン中、このカードがアタックした時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見て《スタンド使い》か《スタンド》か《波紋》のキャラを2枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"老いてますます健在というところかな\"",
+   "traits": [
+    "スタンド使い",
+    "波紋"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/j/jj_se41/jj_se41_32.png",
+   "variant": ""
+  },
+  {
+   "num": "JJ/SE41-32J",
+   "name": "戦いの年季 ジョセフ",
+   "type": "Character",
+   "rarity": "JJR",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1) 手札を2枚控え室に置く］ このカードが手札から舞台に置かれたターン中、このカードがアタックした時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見て《スタンド使い》か《スタンド》か《波紋》のキャラを2枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"-\"",
+   "traits": [
+    "スタンド使い",
+    "波紋"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/j/jj_se41/jj_se41_32j.png",
+   "variant": ""
+  },
+  {
+   "num": "JJ/SE41-33",
+   "name": "目にも止まらぬ速さ ポルナレフ＆シルバーチャリオッツ",
+   "type": "Character",
+   "rarity": "N",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 あなたのアタックフェイズの始めに、次の相手のターンの終わりまで、あなたはこのカードのパワーを－1000してよい。そうしたら、次の相手のターンの終わりまで、このカードは次の能力を得る。『【自】 相手のアタックフェイズの始めに、あなたはこのカードを前列のキャラのいない枠に動かしてよい。』\n\"なぜなら君に「ゾッ」とするものをおみせするからだ\"",
+   "traits": [
+    "スタンド使い",
+    "スタンド"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/j/jj_se41/jj_se41_33.png",
+   "variant": ""
+  },
+  {
+   "num": "JJ/SE41-33J",
+   "name": "目にも止まらぬ速さ ポルナレフ＆シルバーチャリオッツ",
+   "type": "Character",
+   "rarity": "JJR",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 あなたのアタックフェイズの始めに、次の相手のターンの終わりまで、あなたはこのカードのパワーを－1000してよい。そうしたら、次の相手のターンの終わりまで、このカードは次の能力を得る。『【自】 相手のアタックフェイズの始めに、あなたはこのカードを前列のキャラのいない枠に動かしてよい。』\n\"-\"",
+   "traits": [
+    "スタンド使い",
+    "スタンド"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/j/jj_se41/jj_se41_33j.png",
+   "variant": ""
+  },
+  {
+   "num": "JJ/SE41-34",
+   "name": "唯一の方法 承太郎",
+   "type": "Character",
+   "rarity": "N",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1) 手札のクライマックスを1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室のクライマックスを1枚選び、手札に戻す。\n【自】 このカードが【リバース】した時、このカードのバトル相手のレベルが1以下なら、あなたはそのキャラを【リバース】してよい。\n\"わかるかもしれねえ！\"",
+   "traits": [
+    "スタンド使い"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/j/jj_se41/jj_se41_34.png",
+   "variant": ""
+  },
+  {
+   "num": "JJ/SE41-34J",
+   "name": "唯一の方法 承太郎",
+   "type": "Character",
+   "rarity": "JJR",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1) 手札のクライマックスを1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室のクライマックスを1枚選び、手札に戻す。\n【自】 このカードが【リバース】した時、このカードのバトル相手のレベルが1以下なら、あなたはそのキャラを【リバース】してよい。\n\"-\"",
+   "traits": [
+    "スタンド使い"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/j/jj_se41/jj_se41_34j.png",
+   "variant": ""
+  },
+  {
+   "num": "JJ/SE41-35",
+   "name": "頼りになる仲間 花京院",
+   "type": "Character",
+   "rarity": "N",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのターン中、あなたのキャラすべてが《スタンド使い》か《スタンド》なら、このカードのパワーを＋2000し、このカードは次の能力を得る。『【自】 このカードがアタックした時、このカードの正面のキャラのレベルが2なら、そのターン中、このカードのパワーを＋6000。』\n【自】［手札を1枚控え室に置く］ 控え室にこのカードがあるなら、あなたの「唯一の方法 承太郎」が手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたはこのカードを舞台の好きな枠に置く。\n\"恋をするとしたらあんな 気持ちの女性がいいと思います\"",
+   "traits": [
+    "スタンド使い"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/j/jj_se41/jj_se41_35.png",
+   "variant": ""
+  },
+  {
+   "num": "JJ/SE41-35J",
+   "name": "頼りになる仲間 花京院",
+   "type": "Character",
+   "rarity": "JJR",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのターン中、あなたのキャラすべてが《スタンド使い》か《スタンド》なら、このカードのパワーを＋2000し、このカードは次の能力を得る。『【自】 このカードがアタックした時、このカードの正面のキャラのレベルが2なら、そのターン中、このカードのパワーを＋6000。』\n【自】［手札を1枚控え室に置く］ 控え室にこのカードがあるなら、あなたの「唯一の方法 承太郎」が手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたはこのカードを舞台の好きな枠に置く。\n\"-\"",
+   "traits": [
+    "スタンド使い"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/j/jj_se41/jj_se41_35j.png",
+   "variant": ""
+  },
+  {
+   "num": "JJ/SE41-36",
+   "name": "振り絞った命 イギー",
+   "type": "Character",
+   "rarity": "N",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 記憶 あなたの思い出置場に「咄嗟の反応 アヴドゥル」があるなら、このカードのパワーを＋3000。\n【自】 バトル中のこのカードが【リバース】した時、あなたの思い出が2枚以下なら、あなたはこのカードを思い出にしてよい。\n\"-\"",
+   "traits": [
+    "スタンド使い",
+    "スタンド"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/j/jj_se41/jj_se41_36.png",
+   "variant": ""
+  },
+  {
+   "num": "JJ/SE41-36J",
+   "name": "振り絞った命 イギー",
+   "type": "Character",
+   "rarity": "JJR",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 記憶 あなたの思い出置場に「咄嗟の反応 アヴドゥル」があるなら、このカードのパワーを＋3000。\n【自】 バトル中のこのカードが【リバース】した時、あなたの思い出が2枚以下なら、あなたはこのカードを思い出にしてよい。\n\"-\"",
+   "traits": [
+    "スタンド使い",
+    "スタンド"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/j/jj_se41/jj_se41_36j.png",
+   "variant": ""
+  },
+  {
+   "num": "JJ/SE41-37",
+   "name": "「魂」のオールイン 承太郎",
+   "type": "Character",
+   "rarity": "N",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1)］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、「魂」を賭けたゲームをする。\n【リプレイ】 「魂」を賭けたゲームをする あなたは自分の山札をシャッフルし、自分の山札の上から1枚を公開する。そのカードが《スタンド使い》か《スタンド》のキャラなら、あなたは自分の控え室のキャラを1枚選び、手札に戻し、そのターン中、このカードのパワーを＋3000。そうでないなら、このカードを控え室に置く。（公開したカードは元に戻す）\n\"承太郎「アヴドゥルの…………『魂』を全部賭ける！」\"",
+   "traits": [
+    "スタンド使い"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/j/jj_se41/jj_se41_37.png",
+   "variant": ""
+  },
+  {
+   "num": "JJ/SE41-37J",
+   "name": "「魂」のオールイン 承太郎",
+   "type": "Character",
+   "rarity": "JJR",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1)］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、「魂」を賭けたゲームをする。\n【リプレイ】 「魂」を賭けたゲームをする あなたは自分の山札をシャッフルし、自分の山札の上から1枚を公開する。そのカードが《スタンド使い》か《スタンド》のキャラなら、あなたは自分の控え室のキャラを1枚選び、手札に戻し、そのターン中、このカードのパワーを＋3000。そうでないなら、このカードを控え室に置く。（公開したカードは元に戻す）\n\"-\"",
+   "traits": [
+    "スタンド使い"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/j/jj_se41/jj_se41_37j.png",
+   "variant": ""
+  },
+  {
+   "num": "JJ/SE41-38",
+   "name": "勝利をその手に ポルナレフ＆シルバーチャリオッツ",
+   "type": "Character",
+   "rarity": "N",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのターン中、他のあなたの、《スタンド使い》か《スタンド》のキャラがいるなら、このカードのパワーを＋3000。\n【自】【CXコンボ】［手札を1枚控え室に置く］ このカードのバトル相手が【リバース】した時、あなたのクライマックス置場に「友を失った悲しみ」があり、他のあなたの、《スタンド使い》か《スタンド》のキャラが2枚以上なら、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見て《スタンド使い》か《スタンド》のキャラを2枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"『我が名はジャン・ピエール・ポルナレフ』\"",
+   "traits": [
+    "スタンド使い",
+    "スタンド"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/j/jj_se41/jj_se41_38.png",
+   "variant": ""
+  },
+  {
+   "num": "JJ/SE41-38J",
+   "name": "勝利をその手に ポルナレフ＆シルバーチャリオッツ",
+   "type": "Character",
+   "rarity": "JJR",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのターン中、他のあなたの、《スタンド使い》か《スタンド》のキャラがいるなら、このカードのパワーを＋3000。\n【自】【CXコンボ】［手札を1枚控え室に置く］ このカードのバトル相手が【リバース】した時、あなたのクライマックス置場に「友を失った悲しみ」があり、他のあなたの、《スタンド使い》か《スタンド》のキャラが2枚以上なら、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見て《スタンド使い》か《スタンド》のキャラを2枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"-\"",
+   "traits": [
+    "スタンド使い",
+    "スタンド"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/j/jj_se41/jj_se41_38j.png",
+   "variant": ""
+  },
+  {
+   "num": "JJ/SE41-38SP",
+   "name": "勝利をその手に ポルナレフ＆シルバーチャリオッツ",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのターン中、他のあなたの、《スタンド使い》か《スタンド》のキャラがいるなら、このカードのパワーを＋3000。\n【自】【CXコンボ】［手札を1枚控え室に置く］ このカードのバトル相手が【リバース】した時、あなたのクライマックス置場に「友を失った悲しみ」があり、他のあなたの、《スタンド使い》か《スタンド》のキャラが2枚以上なら、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見て《スタンド使い》か《スタンド》のキャラを2枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"-\"",
+   "traits": [
+    "スタンド使い",
+    "スタンド"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/j/jj_se41/jj_se41_38sp.png",
+   "variant": ""
+  },
+  {
+   "num": "JJ/SE41-39",
+   "name": "帰ってきた男 アヴドゥル",
+   "type": "Character",
+   "rarity": "N",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 他のあなたの、《スタンド使い》か《スタンド》のキャラがアタックした時、そのターン中、このカードのパワーを＋1000。\n【自】［(1) 手札の、《スタンド使い》か《スタンド》のキャラを1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは相手の前列のコスト1以下のキャラを1枚選び、控え室に置く。\n\"チッ♪チッ♪チッ♪チッ♪\"",
+   "traits": [
+    "スタンド使い"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/j/jj_se41/jj_se41_39.png",
+   "variant": ""
+  },
+  {
+   "num": "JJ/SE41-39J",
+   "name": "帰ってきた男 アヴドゥル",
+   "type": "Character",
+   "rarity": "JJR",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 他のあなたの、《スタンド使い》か《スタンド》のキャラがアタックした時、そのターン中、このカードのパワーを＋1000。\n【自】［(1) 手札の、《スタンド使い》か《スタンド》のキャラを1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは相手の前列のコスト1以下のキャラを1枚選び、控え室に置く。\n\"-\"",
+   "traits": [
+    "スタンド使い"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/j/jj_se41/jj_se41_39j.png",
+   "variant": ""
+  },
+  {
+   "num": "JJ/SE41-40",
+   "name": "愛を求めるポルナレフ",
+   "type": "Character",
+   "rarity": "N",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "5500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 このカードはサイドアタックできない。\n【自】 この能力は1ターンにつき1回まで発動する。あなたが【起】を使った時、そのターン中、このカードは次の能力を得る。『【自】 このカードのバトル相手が【リバース】した時、あなたは自分の山札の上から1枚を、ストック置場に置いてよい。』\n\"フィーリングぴったしの女の子に出会いたいな\"",
+   "traits": [
+    "スタンド使い"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/j/jj_se41/jj_se41_40.png",
+   "variant": ""
+  },
+  {
+   "num": "JJ/SE41-40J",
+   "name": "愛を求めるポルナレフ",
+   "type": "Character",
+   "rarity": "JJR",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "5500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 このカードはサイドアタックできない。\n【自】 この能力は1ターンにつき1回まで発動する。あなたが【起】を使った時、そのターン中、このカードは次の能力を得る。『【自】 このカードのバトル相手が【リバース】した時、あなたは自分の山札の上から1枚を、ストック置場に置いてよい。』\n\"-\"",
+   "traits": [
+    "スタンド使い"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/j/jj_se41/jj_se41_40j.png",
+   "variant": ""
+  },
+  {
+   "num": "JJ/SE41-41",
+   "name": "波紋疾走 ジョセフ",
+   "type": "Character",
+   "rarity": "N",
+   "color": "red",
+   "level": "1",
+   "cost": "1",
+   "power": "500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 あなたがこのカードの『助太刀』を使った時、あなたは自分の山札の上から1枚を公開する。そのカードが《スタンド使い》か《スタンド》か《波紋》のキャラなら手札に加え、あなたは自分の手札を1枚選び、控え室に置く。（そうでないなら元に戻す）\n【起】【カウンター】 助太刀2000 レベル1 ［(1) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋2000）\n\"そして くらえッ！太陽のエネルギー「波紋」ッ！\"",
+   "traits": [
+    "スタンド使い",
+    "波紋"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/j/jj_se41/jj_se41_41.png",
+   "variant": ""
+  },
+  {
+   "num": "JJ/SE41-41J",
+   "name": "波紋疾走 ジョセフ",
+   "type": "Character",
+   "rarity": "JJR",
+   "color": "red",
+   "level": "1",
+   "cost": "1",
+   "power": "500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 あなたがこのカードの『助太刀』を使った時、あなたは自分の山札の上から1枚を公開する。そのカードが《スタンド使い》か《スタンド》か《波紋》のキャラなら手札に加え、あなたは自分の手札を1枚選び、控え室に置く。（そうでないなら元に戻す）\n【起】【カウンター】 助太刀2000 レベル1 ［(1) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋2000）\n\"-\"",
+   "traits": [
+    "スタンド使い",
+    "波紋"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/j/jj_se41/jj_se41_41j.png",
+   "variant": ""
+  },
+  {
+   "num": "JJ/SE41-42",
+   "name": "土壇場での強さ 承太郎",
+   "type": "Character",
+   "rarity": "N",
+   "color": "red",
+   "level": "1",
+   "cost": "1",
+   "power": "5500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの、《スタンド使い》か《スタンド》のキャラが2枚以上なら、このカードのパワーを＋2000。\n【自】 アンコール ［手札のキャラを1枚控え室に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"ところでお前相撲は好きか？とくに土俵際のかけひきを！\"",
+   "traits": [
+    "スタンド使い"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/j/jj_se41/jj_se41_42.png",
+   "variant": ""
+  },
+  {
+   "num": "JJ/SE41-42J",
+   "name": "土壇場での強さ 承太郎",
+   "type": "Character",
+   "rarity": "JJR",
+   "color": "red",
+   "level": "1",
+   "cost": "1",
+   "power": "5500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの、《スタンド使い》か《スタンド》のキャラが2枚以上なら、このカードのパワーを＋2000。\n【自】 アンコール ［手札のキャラを1枚控え室に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"-\"",
+   "traits": [
+    "スタンド使い"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/j/jj_se41/jj_se41_42j.png",
+   "variant": ""
+  },
+  {
+   "num": "JJ/SE41-43",
+   "name": "流星指刺 承太郎",
+   "type": "Character",
+   "rarity": "N",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 あなたがこのカードの『助太刀』を使った時、あなたは自分のバトル中のキャラを1枚選び、そのターン中、次の能力を与える。『【自】 このカードのバトル相手が【リバース】した時、あなたはそのキャラを思い出にする。』\n【起】【カウンター】 助太刀3000 レベル2 ［(1) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋3000）\n\"なにイッ！きこえねえなあ\"",
+   "traits": [
+    "スタンド使い"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/j/jj_se41/jj_se41_43.png",
+   "variant": ""
+  },
+  {
+   "num": "JJ/SE41-43J",
+   "name": "流星指刺 承太郎",
+   "type": "Character",
+   "rarity": "JJR",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 あなたがこのカードの『助太刀』を使った時、あなたは自分のバトル中のキャラを1枚選び、そのターン中、次の能力を与える。『【自】 このカードのバトル相手が【リバース】した時、あなたはそのキャラを思い出にする。』\n【起】【カウンター】 助太刀3000 レベル2 ［(1) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋3000）\n\"-\"",
+   "traits": [
+    "スタンド使い"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/j/jj_se41/jj_se41_43j.png",
+   "variant": ""
+  },
+  {
+   "num": "JJ/SE41-44",
+   "name": "夢の中 花京院",
+   "type": "Character",
+   "rarity": "N",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたのターン中、他のあなたの、《スタンド使い》か《スタンド》のキャラすべてに、パワーを＋2000。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分の控え室の「夢の中 ハイエロファントグリーン」を1枚選び、このカードの下にマーカーとして表向きに置いてよい。\n【起】［手札のキャラを1枚控え室に置く］ あなたはこのカードのマーカーの「夢の中 ハイエロファントグリーン」を1枚選び、舞台の好きな枠に置く。ターンの終わりに、あなたはそのキャラをこのカードの下にマーカーとして表向きに置いてよい。\n\"夢の中はなんでもありだから傷ぐらいなおせるだろ？\"",
+   "traits": [
+    "スタンド使い"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/j/jj_se41/jj_se41_44.png",
+   "variant": ""
+  },
+  {
+   "num": "JJ/SE41-44J",
+   "name": "夢の中 花京院",
+   "type": "Character",
+   "rarity": "JJR",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたのターン中、他のあなたの、《スタンド使い》か《スタンド》のキャラすべてに、パワーを＋2000。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分の控え室の「夢の中 ハイエロファントグリーン」を1枚選び、このカードの下にマーカーとして表向きに置いてよい。\n【起】［手札のキャラを1枚控え室に置く］ あなたはこのカードのマーカーの「夢の中 ハイエロファントグリーン」を1枚選び、舞台の好きな枠に置く。ターンの終わりに、あなたはそのキャラをこのカードの下にマーカーとして表向きに置いてよい。\n\"-\"",
+   "traits": [
+    "スタンド使い"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/j/jj_se41/jj_se41_44j.png",
+   "variant": ""
+  },
+  {
+   "num": "JJ/SE41-45",
+   "name": "遠隔地の念写 ジョセフ",
+   "type": "Character",
+   "rarity": "N",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 応援 このカードの前のあなたのレベル3以上のキャラすべてに、パワーを＋2000。\n【起】［このカードを【レスト】する］ あなたは相手の山札を上から2枚まで見て、山札の上に好きな順番で置く。\n\"みせよう わしの「幽波紋」〈ルビ：スタンド〉はッ！これじゃあ―――――ッ!!<br>\"",
+   "traits": [
+    "スタンド使い",
+    "波紋"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/j/jj_se41/jj_se41_45.png",
+   "variant": ""
+  },
+  {
+   "num": "JJ/SE41-45J",
+   "name": "遠隔地の念写 ジョセフ",
+   "type": "Character",
+   "rarity": "JJR",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 応援 このカードの前のあなたのレベル3以上のキャラすべてに、パワーを＋2000。\n【起】［このカードを【レスト】する］ あなたは相手の山札を上から2枚まで見て、山札の上に好きな順番で置く。\n\"-\"",
+   "traits": [
+    "スタンド使い",
+    "波紋"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/j/jj_se41/jj_se41_45j.png",
+   "variant": ""
+  },
+  {
+   "num": "JJ/SE41-46",
+   "name": "エジプト上陸 承太郎",
+   "type": "Character",
+   "rarity": "N",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "6500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分のキャラを2枚まで選び、そのターン中、次の能力を与える。『【自】 このカードが【リバース】した時、このカードのバトル相手のレベルが相手のレベルより高いなら、あなたはそのキャラを【リバース】してよい。』\n\"-\"",
+   "traits": [
+    "スタンド使い"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/j/jj_se41/jj_se41_46.png",
+   "variant": ""
+  },
+  {
+   "num": "JJ/SE41-46J",
+   "name": "エジプト上陸 承太郎",
+   "type": "Character",
+   "rarity": "JJR",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "6500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分のキャラを2枚まで選び、そのターン中、次の能力を与える。『【自】 このカードが【リバース】した時、このカードのバトル相手のレベルが相手のレベルより高いなら、あなたはそのキャラを【リバース】してよい。』\n\"-\"",
+   "traits": [
+    "スタンド使い"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/j/jj_se41/jj_se41_46j.png",
+   "variant": ""
+  },
+  {
+   "num": "JJ/SE41-47",
+   "name": "夢の中 ハイエロファントグリーン",
+   "type": "Character",
+   "rarity": "N",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "6500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたのターン中、他のあなたの、《スタンド使い》か《スタンド》のキャラ1枚につき、このカードのパワーを＋1500。\n【自】 このカードのバトル相手が【リバース】した時、あなたはそのキャラを思い出にしてよい。\n\"死神13「胴体を紐状にして耳からおれの体内へ！」\"",
+   "traits": [
+    "スタンド"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/j/jj_se41/jj_se41_47.png",
+   "variant": ""
+  },
+  {
+   "num": "JJ/SE41-47J",
+   "name": "夢の中 ハイエロファントグリーン",
+   "type": "Character",
+   "rarity": "JJR",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "6500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたのターン中、他のあなたの、《スタンド使い》か《スタンド》のキャラ1枚につき、このカードのパワーを＋1500。\n【自】 このカードのバトル相手が【リバース】した時、あなたはそのキャラを思い出にしてよい。\n\"-\"",
+   "traits": [
+    "スタンド"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/j/jj_se41/jj_se41_47j.png",
+   "variant": ""
+  },
+  {
+   "num": "JJ/SE41-48",
+   "name": "遺志を胸に ポルナレフ",
+   "type": "Character",
+   "rarity": "N",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "7000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 記憶 あなたの思い出置場に「咄嗟の反応 アヴドゥル」と「振り絞った命 イギー」があるなら、このカードのパワーを＋3500し、ソウルを＋1。\n\"-\"",
+   "traits": [
+    "スタンド使い"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/j/jj_se41/jj_se41_48.png",
+   "variant": ""
+  },
+  {
+   "num": "JJ/SE41-48J",
+   "name": "遺志を胸に ポルナレフ",
+   "type": "Character",
+   "rarity": "JJR",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "7000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 記憶 あなたの思い出置場に「咄嗟の反応 アヴドゥル」と「振り絞った命 イギー」があるなら、このカードのパワーを＋3500し、ソウルを＋1。\n\"-\"",
+   "traits": [
+    "スタンド使い"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/j/jj_se41/jj_se41_48j.png",
+   "variant": ""
+  },
+  {
+   "num": "JJ/SE41-49",
+   "name": "火炎の創造 アヴドゥル＆マジシャンズレッド",
+   "type": "Character",
+   "rarity": "N",
+   "color": "red",
+   "level": "2",
+   "cost": "2",
+   "power": "7000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたのターン中、あなたのキャラすべてが《スタンド使い》か《スタンド》なら、このカードのパワーを＋6000。\n【自】［手札の、《スタンド使い》か《スタンド》のキャラを1枚控え室に置き、このカードを思い出にする］ バトル中のこのカードが【リバース】した時、あなたはコストを払ってよい。そうしたら、次のあなたのドローフェイズの始めに、あなたは自分の思い出置場の「火炎の創造 アヴドゥル＆マジシャンズレッド」を1枚選び、舞台の好きな枠に置く。\n\"わたしの炎は自在といったろう\"",
+   "traits": [
+    "スタンド使い",
+    "スタンド"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/j/jj_se41/jj_se41_49.png",
+   "variant": ""
+  },
+  {
+   "num": "JJ/SE41-49J",
+   "name": "火炎の創造 アヴドゥル＆マジシャンズレッド",
+   "type": "Character",
+   "rarity": "JJR",
+   "color": "red",
+   "level": "2",
+   "cost": "2",
+   "power": "7000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたのターン中、あなたのキャラすべてが《スタンド使い》か《スタンド》なら、このカードのパワーを＋6000。\n【自】［手札の、《スタンド使い》か《スタンド》のキャラを1枚控え室に置き、このカードを思い出にする］ バトル中のこのカードが【リバース】した時、あなたはコストを払ってよい。そうしたら、次のあなたのドローフェイズの始めに、あなたは自分の思い出置場の「火炎の創造 アヴドゥル＆マジシャンズレッド」を1枚選び、舞台の好きな枠に置く。\n\"-\"",
+   "traits": [
+    "スタンド使い",
+    "スタンド"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/j/jj_se41/jj_se41_49j.png",
+   "variant": ""
+  },
+  {
+   "num": "JJ/SE41-49SP",
+   "name": "火炎の創造 アヴドゥル＆マジシャンズレッド",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "red",
+   "level": "2",
+   "cost": "2",
+   "power": "7000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたのターン中、あなたのキャラすべてが《スタンド使い》か《スタンド》なら、このカードのパワーを＋6000。\n【自】［手札の、《スタンド使い》か《スタンド》のキャラを1枚控え室に置き、このカードを思い出にする］ バトル中のこのカードが【リバース】した時、あなたはコストを払ってよい。そうしたら、次のあなたのドローフェイズの始めに、あなたは自分の思い出置場の「火炎の創造 アヴドゥル＆マジシャンズレッド」を1枚選び、舞台の好きな枠に置く。\n\"-\"",
+   "traits": [
+    "スタンド使い",
+    "スタンド"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/j/jj_se41/jj_se41_49sp.png",
+   "variant": ""
+  },
+  {
+   "num": "JJ/SE41-50",
+   "name": "止まらぬ追撃 承太郎",
+   "type": "Character",
+   "rarity": "N",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "9000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたのターン中、他のあなたの、《スタンド使い》か《スタンド》のキャラ1枚につき、このカードのパワーを＋1000。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n【自】【CXコンボ】［(1) あなたのクライマックス置場の「ぶちのめす宣言」を1枚控え室に置く］ あなたのアタックフェイズの始めに、あなたはコストを払ってよい。そうしたら、このカードを【スタンド】し、次の相手のターンの終わりまで、このカードは次の能力を得る。『【永】 このカードは【リバース】しない。』\n\"逃がすわけにはいかんな\"",
+   "traits": [
+    "スタンド使い"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/j/jj_se41/jj_se41_50.png",
+   "variant": ""
+  },
+  {
+   "num": "JJ/SE41-50J",
+   "name": "止まらぬ追撃 承太郎",
+   "type": "Character",
+   "rarity": "JJR",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "9000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたのターン中、他のあなたの、《スタンド使い》か《スタンド》のキャラ1枚につき、このカードのパワーを＋1000。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n【自】【CXコンボ】［(1) あなたのクライマックス置場の「ぶちのめす宣言」を1枚控え室に置く］ あなたのアタックフェイズの始めに、あなたはコストを払ってよい。そうしたら、このカードを【スタンド】し、次の相手のターンの終わりまで、このカードは次の能力を得る。『【永】 このカードは【リバース】しない。』\n\"-\"",
+   "traits": [
+    "スタンド使い"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/j/jj_se41/jj_se41_50j.png",
+   "variant": ""
+  },
+  {
+   "num": "JJ/SE41-51",
+   "name": "強固な精神 花京院＆ハイエロファントグリーン",
+   "type": "Character",
+   "rarity": "N",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "9000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの、《スタンド使い》か《スタンド》のキャラが2枚以上なら、このカードのパワーを＋2000。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n【自】［手札を2枚控え室に置く］ このカードがアタックした時、あなたはコストを払ってよい。そうしたら、あなたは相手の山札の下から4枚を、控え室に置き、相手にＸダメージを与える。Ｘはそれらのカードのクライマックスの枚数に等しい。（ダメージキャンセルは発生する）\n\"-\"",
+   "traits": [
+    "スタンド使い",
+    "スタンド"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/j/jj_se41/jj_se41_51.png",
+   "variant": ""
+  },
+  {
+   "num": "JJ/SE41-51J",
+   "name": "強固な精神 花京院＆ハイエロファントグリーン",
+   "type": "Character",
+   "rarity": "JJR",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "9000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの、《スタンド使い》か《スタンド》のキャラが2枚以上なら、このカードのパワーを＋2000。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n【自】［手札を2枚控え室に置く］ このカードがアタックした時、あなたはコストを払ってよい。そうしたら、あなたは相手の山札の下から4枚を、控え室に置き、相手にＸダメージを与える。Ｘはそれらのカードのクライマックスの枚数に等しい。（ダメージキャンセルは発生する）\n\"-\"",
+   "traits": [
+    "スタンド使い",
+    "スタンド"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/j/jj_se41/jj_se41_51j.png",
+   "variant": ""
+  },
+  {
+   "num": "JJ/SE41-51SP",
+   "name": "強固な精神 花京院＆ハイエロファントグリーン",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "9000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの、《スタンド使い》か《スタンド》のキャラが2枚以上なら、このカードのパワーを＋2000。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n【自】［手札を2枚控え室に置く］ このカードがアタックした時、あなたはコストを払ってよい。そうしたら、あなたは相手の山札の下から4枚を、控え室に置き、相手にＸダメージを与える。Ｘはそれらのカードのクライマックスの枚数に等しい。（ダメージキャンセルは発生する）\n\"-\"",
+   "traits": [
+    "スタンド使い",
+    "スタンド"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/j/jj_se41/jj_se41_51sp.png",
+   "variant": ""
+  },
+  {
+   "num": "JJ/SE41-52",
+   "name": "自由な生き様 イギー＆ザ・フール",
+   "type": "Character",
+   "rarity": "N",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "9500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 前列にこのカードがいるなら、あなたの、《スタンド使い》か《スタンド》のキャラすべてに、パワーを＋1500。\n【自】［(2) 手札を2枚控え室に置く］ このカードがアタックした時、あなたはコストを払ってよい。そうしたら、相手に2ダメージを与える。（ダメージキャンセルは発生する）\n【自】 アンコール ［手札の、《スタンド使い》か《スタンド》のキャラを1枚控え室に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"この鳥公！くるなら来い！ブッ殺してやる！\"",
+   "traits": [
+    "スタンド使い",
+    "スタンド"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/j/jj_se41/jj_se41_52.png",
+   "variant": ""
+  },
+  {
+   "num": "JJ/SE41-52J",
+   "name": "自由な生き様 イギー＆ザ・フール",
+   "type": "Character",
+   "rarity": "JJR",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "9500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 前列にこのカードがいるなら、あなたの、《スタンド使い》か《スタンド》のキャラすべてに、パワーを＋1500。\n【自】［(2) 手札を2枚控え室に置く］ このカードがアタックした時、あなたはコストを払ってよい。そうしたら、相手に2ダメージを与える。（ダメージキャンセルは発生する）\n【自】 アンコール ［手札の、《スタンド使い》か《スタンド》のキャラを1枚控え室に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"-\"",
+   "traits": [
+    "スタンド使い",
+    "スタンド"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/j/jj_se41/jj_se41_52j.png",
+   "variant": ""
+  },
+  {
+   "num": "JJ/SE41-52SP",
+   "name": "自由な生き様 イギー＆ザ・フール",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "9500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 前列にこのカードがいるなら、あなたの、《スタンド使い》か《スタンド》のキャラすべてに、パワーを＋1500。\n【自】［(2) 手札を2枚控え室に置く］ このカードがアタックした時、あなたはコストを払ってよい。そうしたら、相手に2ダメージを与える。（ダメージキャンセルは発生する）\n【自】 アンコール ［手札の、《スタンド使い》か《スタンド》のキャラを1枚控え室に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"-\"",
+   "traits": [
+    "スタンド使い",
+    "スタンド"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/j/jj_se41/jj_se41_52sp.png",
+   "variant": ""
+  },
+  {
+   "num": "JJ/SE41-53",
+   "name": "希望の星 承太郎＆スタープラチナ",
+   "type": "Character",
+   "rarity": "N",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】［他のあなたの舞台の、《スタンド使い》か《スタンド》のキャラを1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分のクロックの上から1枚を、ストック置場に置く。\n【自】【CXコンボ】 あなたのアタックフェイズの始めに、クライマックス置場に「ジョースター家の宿命」があり、他のあなたの前列のキャラがいないなら、そのターン中、このカードのパワーを＋11000し、このカードは次の能力を得る。『【自】［手札の「希望の星 承太郎＆スタープラチナ」を2枚控え室に置き、手札を4枚控え室に置く］ このカードのアタックの終わりに、あなたはコストを払ってよい。そうしたら、相手に1ダメージを7回与え、相手に7ダメージを与える。』（ダメージキャンセルは発生する）\n\"「悪」とはてめー自身のためだけに弱者を利用しふみつけるやつのことだ!!\"",
+   "traits": [
+    "スタンド使い",
+    "スタンド"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/j/jj_se41/jj_se41_53.png",
+   "variant": ""
+  },
+  {
+   "num": "JJ/SE41-53J",
+   "name": "希望の星 承太郎＆スタープラチナ",
+   "type": "Character",
+   "rarity": "JJR",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】［他のあなたの舞台の、《スタンド使い》か《スタンド》のキャラを1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分のクロックの上から1枚を、ストック置場に置く。\n【自】【CXコンボ】 あなたのアタックフェイズの始めに、クライマックス置場に「ジョースター家の宿命」があり、他のあなたの前列のキャラがいないなら、そのターン中、このカードのパワーを＋11000し、このカードは次の能力を得る。『【自】［手札の「希望の星 承太郎＆スタープラチナ」を2枚控え室に置き、手札を4枚控え室に置く］ このカードのアタックの終わりに、あなたはコストを払ってよい。そうしたら、相手に1ダメージを7回与え、相手に7ダメージを与える。』（ダメージキャンセルは発生する）\n\"-\"",
+   "traits": [
+    "スタンド使い",
+    "スタンド"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/j/jj_se41/jj_se41_53j.png",
+   "variant": ""
+  },
+  {
+   "num": "JJ/SE41-53SP",
+   "name": "希望の星 承太郎＆スタープラチナ",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】［他のあなたの舞台の、《スタンド使い》か《スタンド》のキャラを1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分のクロックの上から1枚を、ストック置場に置く。\n【自】【CXコンボ】 あなたのアタックフェイズの始めに、クライマックス置場に「ジョースター家の宿命」があり、他のあなたの前列のキャラがいないなら、そのターン中、このカードのパワーを＋11000し、このカードは次の能力を得る。『【自】［手札の「希望の星 承太郎＆スタープラチナ」を2枚控え室に置き、手札を4枚控え室に置く］ このカードのアタックの終わりに、あなたはコストを払ってよい。そうしたら、相手に1ダメージを7回与え、相手に7ダメージを与える。』（ダメージキャンセルは発生する）\n\"-\"",
+   "traits": [
+    "スタンド使い",
+    "スタンド"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/j/jj_se41/jj_se41_53sp.png",
+   "variant": ""
+  },
+  {
+   "num": "JJ/SE41-54",
+   "name": "騎士道精神 ポルナレフ",
+   "type": "Character",
+   "rarity": "N",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "11000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたの控え室のクライマックスが2枚以下なら、あなたの手札のこのカードのレベルを－1。\n【永】 他のあなたの、《スタンド使い》か《スタンド》のキャラがいないなら、このカードはあなたのスタンドフェイズに【スタンド】しない。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分のクロック置場の、《スタンド使い》か《スタンド》のキャラを1枚選び、山札の下に置いてよい。\n\"-\"",
+   "traits": [
+    "スタンド使い"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/j/jj_se41/jj_se41_54.png",
+   "variant": ""
+  },
+  {
+   "num": "JJ/SE41-54J",
+   "name": "騎士道精神 ポルナレフ",
+   "type": "Character",
+   "rarity": "JJR",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "11000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたの控え室のクライマックスが2枚以下なら、あなたの手札のこのカードのレベルを－1。\n【永】 他のあなたの、《スタンド使い》か《スタンド》のキャラがいないなら、このカードはあなたのスタンドフェイズに【スタンド】しない。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分のクロック置場の、《スタンド使い》か《スタンド》のキャラを1枚選び、山札の下に置いてよい。\n\"-\"",
+   "traits": [
+    "スタンド使い"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/j/jj_se41/jj_se41_54j.png",
+   "variant": ""
+  },
+  {
+   "num": "JJ/SE41-55",
+   "name": "遥かなる旅路",
+   "type": "Event",
+   "rarity": "N",
+   "color": "red",
+   "level": "1",
+   "cost": "1",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "あなたは自分の手札すべてを、控え室に置き、Ｘ枚引く。Ｘはこの効果で控え室に置かれたカードの枚数＋1に等しい。\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/j/jj_se41/jj_se41_55.png",
+   "variant": ""
+  },
+  {
+   "num": "JJ/SE41-55J",
+   "name": "遥かなる旅路",
+   "type": "Event",
+   "rarity": "JJR",
+   "color": "red",
+   "level": "1",
+   "cost": "1",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "あなたは自分の手札すべてを、控え室に置き、Ｘ枚引く。Ｘはこの効果で控え室に置かれたカードの枚数＋1に等しい。\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/j/jj_se41/jj_se41_55j.png",
+   "variant": ""
+  },
+  {
+   "num": "JJ/SE41-56",
+   "name": "さらば友よ",
+   "type": "Event",
+   "rarity": "N",
+   "color": "red",
+   "level": "3",
+   "cost": "6",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "［手札を2枚控え室に置く］ あなたはコストを払ってよい。そうしたら、相手に4ダメージを2回与える。（ダメージキャンセルは発生する）\n\"ジョセフ「彼らのおかげでわしらは生きているのじゃ…」\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/j/jj_se41/jj_se41_56.png",
+   "variant": ""
+  },
+  {
+   "num": "JJ/SE41-56J",
+   "name": "さらば友よ",
+   "type": "Event",
+   "rarity": "JJR",
+   "color": "red",
+   "level": "3",
+   "cost": "6",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "［手札を2枚控え室に置く］ あなたはコストを払ってよい。そうしたら、相手に4ダメージを2回与える。（ダメージキャンセルは発生する）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/j/jj_se41/jj_se41_56j.png",
+   "variant": ""
+  },
+  {
+   "num": "JJ/SE41-57",
+   "name": "エメラルド・スプラッシュ",
+   "type": "Climax",
+   "rarity": "N",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[standby.gif]]",
+   "text": "【自】 このカードが手札からクライマックス置場に置かれた時、[[standby.gif]]の効果を行う。\n（[[standby.gif]]：このカードがトリガーした時、あなたは自分の控え室の自分のレベル＋1以下のレベルのキャラを1枚選び、舞台の好きな枠に【レスト】して置いてよい）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/j/jj_se41/jj_se41_57.png",
+   "variant": ""
+  },
+  {
+   "num": "JJ/SE41-57J",
+   "name": "エメラルド・スプラッシュ",
+   "type": "Climax",
+   "rarity": "JJR",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[standby.gif]]",
+   "text": "【自】 このカードが手札からクライマックス置場に置かれた時、[[standby.gif]]の効果を行う。\n（[[standby.gif]]：このカードがトリガーした時、あなたは自分の控え室の自分のレベル＋1以下のレベルのキャラを1枚選び、舞台の好きな枠に【レスト】して置いてよい）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/j/jj_se41/jj_se41_57j.png",
+   "variant": ""
+  },
+  {
+   "num": "JJ/SE41-58",
+   "name": "友を失った悲しみ",
+   "type": "Climax",
+   "rarity": "N",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[salvage.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[salvage.gif]]：このカードがトリガーした時、あなたは自分の控え室のキャラを1枚選び、手札に戻してよい）\n\"迷惑なんだよ<br>自分の周りで死なれるのは\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/j/jj_se41/jj_se41_58.png",
+   "variant": ""
+  },
+  {
+   "num": "JJ/SE41-58J",
+   "name": "友を失った悲しみ",
+   "type": "Climax",
+   "rarity": "JJR",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[salvage.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[salvage.gif]]：このカードがトリガーした時、あなたは自分の控え室のキャラを1枚選び、手札に戻してよい）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/j/jj_se41/jj_se41_58j.png",
+   "variant": ""
+  },
+  {
+   "num": "JJ/SE41-59",
+   "name": "ぶちのめす宣言",
+   "type": "Climax",
+   "rarity": "N",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[standby.gif]]",
+   "text": "【自】 このカードが手札からクライマックス置場に置かれた時、[[standby.gif]]の効果を行う。\n（[[standby.gif]]：このカードがトリガーした時、あなたは自分の控え室の自分のレベル＋1以下のレベルのキャラを1枚選び、舞台の好きな枠に【レスト】して置いてよい）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/j/jj_se41/jj_se41_59.png",
+   "variant": ""
+  },
+  {
+   "num": "JJ/SE41-59J",
+   "name": "ぶちのめす宣言",
+   "type": "Climax",
+   "rarity": "JJR",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[standby.gif]]",
+   "text": "【自】 このカードが手札からクライマックス置場に置かれた時、[[standby.gif]]の効果を行う。\n（[[standby.gif]]：このカードがトリガーした時、あなたは自分の控え室の自分のレベル＋1以下のレベルのキャラを1枚選び、舞台の好きな枠に【レスト】して置いてよい）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/j/jj_se41/jj_se41_59j.png",
+   "variant": ""
+  },
+  {
+   "num": "JJ/SE41-60",
+   "name": "ジョースター家の宿命",
+   "type": "Climax",
+   "rarity": "N",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[salvage.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[salvage.gif]]：このカードがトリガーした時、あなたは自分の控え室のキャラを1枚選び、手札に戻してよい）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/j/jj_se41/jj_se41_60.png",
+   "variant": ""
+  },
+  {
+   "num": "JJ/SE41-60J",
+   "name": "ジョースター家の宿命",
+   "type": "Climax",
+   "rarity": "JJR",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[salvage.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[salvage.gif]]：このカードがトリガーした時、あなたは自分の控え室のキャラを1枚選び、手札に戻してよい）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/j/jj_se41/jj_se41_60j.png",
+   "variant": ""
+  }
+ ]
+}

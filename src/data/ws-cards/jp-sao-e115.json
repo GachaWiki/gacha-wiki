@@ -1,0 +1,1900 @@
+{
+ "id": "jp-sao-e115",
+ "name": "ソードアート・オンライン Vol.2",
+ "expansion": 115,
+ "lang": "jp",
+ "release": null,
+ "shopItem": null,
+ "box": null,
+ "cards": [
+  {
+   "num": "SAO/S26-001",
+   "name": "前向きな気持ち アスナ",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1)］ このカードがアタックした時、クライマックス置場に「“奥さん”の正体」があるなら、あなたはコストを払ってよい。そうしたら、あなたは相手のキャラを1枚選び、手札に戻す。\n【自】 加速 ［あなたの山札の上から1枚をクロック置場に置く］ あなたのクライマックスフェイズの始めに、あなたはコストを払ってよい。そうしたら、そのターン中、このカードのパワーを＋3500。\n\"ほら、いつまでもくよくよしてない！\"",
+   "traits": [
+    "アバター",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sao_s26/sao_s26_001.png",
+   "variant": ""
+  },
+  {
+   "num": "SAO/S26-001R",
+   "name": "前向きな気持ち アスナ",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1)］ このカードがアタックした時、クライマックス置場に「“奥さん”の正体」があるなら、あなたはコストを払ってよい。そうしたら、あなたは相手のキャラを1枚選び、手札に戻す。\n【自】 加速 ［あなたの山札の上から1枚をクロック置場に置く］ あなたのクライマックスフェイズの始めに、あなたはコストを払ってよい。そうしたら、そのターン中、このカードのパワーを＋3500。\n\"SECRET\"",
+   "traits": [
+    "アバター",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sao_s26/sao_s26_001r.png",
+   "variant": ""
+  },
+  {
+   "num": "SAO/S26-002",
+   "name": "希望の光 アスナ",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "yellow",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 この能力は1ターンにつき1回まで発動する。このカードが手札からか『チェンジ』で、舞台に置かれたターン中、このカードの与えたダメージがキャンセルされた時、あなたは相手に1ダメージを与えてよい。（ダメージキャンセルは発生する）\n【自】 このカードがアタックした時、クライマックス置場に「《世界樹》の上で」があるなら、あなたのキャラすべてに、そのターン中、パワーを＋5000し、次の能力を与える。『【自】 このカードのバトル相手が【リバース】した時、あなたはそのキャラをストック置場に置く。』\n\"――さ、行こ！\"",
+   "traits": [
+    "アバター",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sao_s26/sao_s26_002.png",
+   "variant": ""
+  },
+  {
+   "num": "SAO/S26-002SP",
+   "name": "希望の光 アスナ",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "yellow",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 この能力は1ターンにつき1回まで発動する。このカードが手札からか『チェンジ』で、舞台に置かれたターン中、このカードの与えたダメージがキャンセルされた時、あなたは相手に1ダメージを与えてよい。（ダメージキャンセルは発生する）\n【自】 このカードがアタックした時、クライマックス置場に「《世界樹》の上で」があるなら、あなたのキャラすべてに、そのターン中、パワーを＋5000し、次の能力を与える。『【自】 このカードのバトル相手が【リバース】した時、あなたはそのキャラをストック置場に置く。』\n\"SECRET\"",
+   "traits": [
+    "アバター",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sao_s26/sao_s26_002sp.png",
+   "variant": ""
+  },
+  {
+   "num": "SAO/S26-003",
+   "name": "大切な時間 アスナ",
+   "type": "Character",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのターン中、他のあなたのキャラすべてに、パワーを＋500。\n【起】［あなたのキャラを2枚【レスト】する］ あなたは自分の《アバター》のキャラを1枚選び、そのターン中、パワーを＋1000。\n\"わたしにとっては大事な二年間なの。今ならそう思える\"",
+   "traits": [
+    "アバター",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sao_s26/sao_s26_003.png",
+   "variant": ""
+  },
+  {
+   "num": "SAO/S26-004",
+   "name": "手料理の披露 アスナ",
+   "type": "Character",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたのキャラが1枚以下なら、このカードのレベルを＋1し、パワーを＋1000。\n【起】 集中 ［(1)］ あなたは自分の山札の上から4枚をめくり、控え室に置く。それらのカードのクライマックス1枚につき、そのターン中、このカードのパワーを＋1000し、ソウルを＋1。\n\"一年の修行と研鑚の成果よ\"",
+   "traits": [
+    "アバター",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sao_s26/sao_s26_004.png",
+   "variant": ""
+  },
+  {
+   "num": "SAO/S26-004S",
+   "name": "手料理の披露 アスナ",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたのキャラが1枚以下なら、このカードのレベルを＋1し、パワーを＋1000。\n【起】 集中 ［(1)］ あなたは自分の山札の上から4枚をめくり、控え室に置く。それらのカードのクライマックス1枚につき、そのターン中、このカードのパワーを＋1000し、ソウルを＋1。\n\"SECRET\"",
+   "traits": [
+    "アバター",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sao_s26/sao_s26_004s.png",
+   "variant": ""
+  },
+  {
+   "num": "SAO/S26-005",
+   "name": "鳥かごの中 アスナ",
+   "type": "Character",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "7500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの「二つの世界 キリト」がいるなら、このカードのパワーを＋2000。\n\"信じてる……\"",
+   "traits": [
+    "アバター",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sao_s26/sao_s26_005.png",
+   "variant": ""
+  },
+  {
+   "num": "SAO/S26-006",
+   "name": "結城 明日奈",
+   "type": "Character",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "7500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋500。\n【自】 チェンジ ［(2) 手札を1枚控え室に置き、このカードを控え室に置く］ あなたのクライマックスフェイズの始めに、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「希望の光 アスナ」を1枚選び、このカードがいた枠に置く。\n\"さあ、行こ\"",
+   "traits": [
+    "ネット"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sao_s26/sao_s26_006.png",
+   "variant": ""
+  },
+  {
+   "num": "SAO/S26-006S",
+   "name": "結城 明日奈",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "7500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋500。\n【自】 チェンジ ［(2) 手札を1枚控え室に置き、このカードを控え室に置く］ あなたのクライマックスフェイズの始めに、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「希望の光 アスナ」を1枚選び、このカードがいた枠に置く。\n\"SECRET\"",
+   "traits": [
+    "ネット"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sao_s26/sao_s26_006s.png",
+   "variant": ""
+  },
+  {
+   "num": "SAO/S26-007",
+   "name": "妖精王の妃 アスナ",
+   "type": "Character",
+   "rarity": "U",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 絆／「二つの世界 キリト」 ［(1)］ （このカードがプレイされて舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「二つの世界 キリト」を1枚選び、手札に戻す）\n\"きっと……助けに来るわ\"",
+   "traits": [
+    "アバター",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sao_s26/sao_s26_007.png",
+   "variant": ""
+  },
+  {
+   "num": "SAO/S26-008",
+   "name": "“生ける伝説”ヒースクリフ",
+   "type": "Character",
+   "rarity": "U",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、そのターン中、このカードのパワーを＋1500。\n\"……\"",
+   "traits": [
+    "アバター",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sao_s26/sao_s26_008.png",
+   "variant": ""
+  },
+  {
+   "num": "SAO/S26-009",
+   "name": "家庭的な一面 明日奈",
+   "type": "Character",
+   "rarity": "U",
+   "color": "yellow",
+   "level": "1",
+   "cost": "1",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋Ｘ。Ｘはあなたの『応援』を持つキャラの枚数×500に等しい。\n【自】［(1)］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは相手の控え室のカードを1枚選び、山札に戻し、その山札をシャッフルする。\n\"シチューはこれで良しと\"",
+   "traits": [
+    "ネット"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sao_s26/sao_s26_009.png",
+   "variant": ""
+  },
+  {
+   "num": "SAO/S26-010",
+   "name": "優しい佇まい アスナ",
+   "type": "Character",
+   "rarity": "U",
+   "color": "yellow",
+   "level": "1",
+   "cost": "1",
+   "power": "6000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのターン中、他のあなたの【レスト】しているキャラ1枚につき、このカードのパワーを＋500。\n【自】 アンコール ［あなたの山札の上から1枚をクロック置場に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"ごめんなさい、嫌なことに巻き込んじゃって\"",
+   "traits": [
+    "アバター",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sao_s26/sao_s26_010.png",
+   "variant": ""
+  },
+  {
+   "num": "SAO/S26-011",
+   "name": "はにかんだ微笑 アスナ",
+   "type": "Character",
+   "rarity": "U",
+   "color": "yellow",
+   "level": "2",
+   "cost": "2",
+   "power": "9000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの、《アバター》か《ネット》のキャラが3枚以上なら、このカードは『【自】 アンコール ［手札のキャラを1枚控え室に置く］』を得る。\n【永】 他のあなたのキャラすべてに、次の能力を与える。『【永】 このカードはサイドアタックできない。』\n\"これまでも、これからも。きみは私のヒーロー……\"",
+   "traits": [
+    "アバター",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sao_s26/sao_s26_011.png",
+   "variant": ""
+  },
+  {
+   "num": "SAO/S26-012",
+   "name": "《ウンディーネ》の少女 アスナ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋500。\n\"さあ、行こ、リーファちゃん\"",
+   "traits": [
+    "アバター",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sao_s26/sao_s26_012.png",
+   "variant": ""
+  },
+  {
+   "num": "SAO/S26-013",
+   "name": "《攻略組》の休日 アスナ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "",
+   "text": "-\n\"ん……\"",
+   "traits": [
+    "アバター",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sao_s26/sao_s26_013.png",
+   "variant": ""
+  },
+  {
+   "num": "SAO/S26-014",
+   "name": "茅場 晶彦",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【起】［(1) このカードを思い出にする］ あなたは自分の《アバター》のキャラを1枚選び、そのターン中、パワーを＋4000。\n\"――さて、私はそろそろ行くよ\"",
+   "traits": [
+    "ネット",
+    "科学"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sao_s26/sao_s26_014.png",
+   "variant": ""
+  },
+  {
+   "num": "SAO/S26-015",
+   "name": "休暇の過ごし方 アスナ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "5500",
+   "soul": 1,
+   "trigger": "",
+   "text": "-\n\"仕方ないわね\"",
+   "traits": [
+    "アバター",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sao_s26/sao_s26_015.png",
+   "variant": ""
+  },
+  {
+   "num": "SAO/S26-016",
+   "name": "前線に身を置くアスナ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【起】【カウンター】 助太刀3000 レベル2 ［(1) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋3000）\n\"お言葉に甘えて今日は楽させてもらうわね\"",
+   "traits": [
+    "アバター",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sao_s26/sao_s26_016.png",
+   "variant": ""
+  },
+  {
+   "num": "SAO/S26-017",
+   "name": "《ケットシー》の領主 アリシャ・ルー",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "8500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "-\n\"うそつきくんにしてはキミ、ずいぶん強いネ？\"",
+   "traits": [
+    "アバター",
+    "魔法"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sao_s26/sao_s26_017.png",
+   "variant": ""
+  },
+  {
+   "num": "SAO/S26-018",
+   "name": "アスナの贈り物",
+   "type": "Event",
+   "rarity": "U",
+   "color": "yellow",
+   "level": "1",
+   "cost": "1",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "【カウンター】 このカードは、あなたの《アバター》のキャラがいないなら、手札からプレイできない。\nあなたは自分のキャラを1枚選び、そのターン中、パワーを＋2500。このカードを思い出にする。\n\"キリト「これは、多分……」\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sao_s26/sao_s26_018.png",
+   "variant": ""
+  },
+  {
+   "num": "SAO/S26-019",
+   "name": "《世界樹》の上で",
+   "type": "Climax",
+   "rarity": "CR",
+   "color": "yellow",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[bounce.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[bounce.gif]]：このカードがトリガーした時、あなたは相手のキャラを1枚選び、手札に戻してよい）\n\"アスナ「ユイ……ちゃん……」\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sao_s26/sao_s26_019.png",
+   "variant": ""
+  },
+  {
+   "num": "SAO/S26-020",
+   "name": "“奥さん”の正体",
+   "type": "Climax",
+   "rarity": "CC",
+   "color": "yellow",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【自】 このカードが手札からクライマックス置場に置かれた時、あなたは1枚引き、自分のキャラを1枚選び、そのターン中、パワーを＋2000し、ソウルを＋1。\n\"あ…あはは…\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sao_s26/sao_s26_020.png",
+   "variant": ""
+  },
+  {
+   "num": "SAO/S26-021",
+   "name": "《シルフ》の手練れ リーファ",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "green",
+   "level": "2",
+   "cost": "1",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの、《アバター》か《ネット》のキャラすべてに、パワーを＋1000。\n【自】［(1) このカードを【レスト】する］ 他のあなたのバトル中のキャラが【リバース】した時、このカードが【スタンド】しているなら、あなたはコストを払ってよい。そうしたら、そのターン中、そのキャラに『【自】 アンコール ［手札のキャラを1枚控え室に置く］』を与える。\n\"……で、あたしはどうすればいいのかしら\"",
+   "traits": [
+    "アバター",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sao_s26/sao_s26_021.png",
+   "variant": ""
+  },
+  {
+   "num": "SAO/S26-022",
+   "name": "仮想と現実 リーファ＆直葉",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "green",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n【自】［(1)］ このカードがアタックした時、クライマックス置場に「フェアリィ・ダンス」があるなら、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見て《アバター》か《ネット》のキャラを2枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"多分、ゲームじゃないのよ、今だけは\"",
+   "traits": [
+    "アバター",
+    "ネット"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sao_s26/sao_s26_022.png",
+   "variant": ""
+  },
+  {
+   "num": "SAO/S26-022SP",
+   "name": "仮想と現実 リーファ＆直葉",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "green",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n【自】［(1)］ このカードがアタックした時、クライマックス置場に「フェアリィ・ダンス」があるなら、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見て《アバター》か《ネット》のキャラを2枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"SECRET\"",
+   "traits": [
+    "アバター",
+    "ネット"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sao_s26/sao_s26_022sp.png",
+   "variant": ""
+  },
+  {
+   "num": "SAO/S26-023",
+   "name": "勝気な少女 リーファ",
+   "type": "Character",
+   "rarity": "R",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋500。\n【起】［このカードを【レスト】する］ あなたは自分のキャラを1枚選び、そのターン中、レベルを＋1。\n\"ユイ「さっきのはパパが悪いです！」<br />リーファ「ほんとだよ」\"",
+   "traits": [
+    "アバター",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sao_s26/sao_s26_023.png",
+   "variant": ""
+  },
+  {
+   "num": "SAO/S26-024",
+   "name": "兄を応援する直葉",
+   "type": "Character",
+   "rarity": "R",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 絆／「揺るがぬ信念 キリト」 ［(1)］ （このカードがプレイされて舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「揺るがぬ信念 キリト」を1枚選び、手札に戻す）\n【自】 チェンジ ［(1) 手札を1枚控え室に置き、このカードを控え室に置く］ あなたのクライマックスフェイズの始めに、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「キリトの妹 直葉」を1枚選び、このカードがいた枠に置く。\n\"好きになった人のこと、そんな簡単に諦めちゃだめだよ\"",
+   "traits": [
+    "ネット",
+    "スポーツ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sao_s26/sao_s26_024.png",
+   "variant": ""
+  },
+  {
+   "num": "SAO/S26-024R",
+   "name": "兄を応援する直葉",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 絆／「揺るがぬ信念 キリト」 ［(1)］ （このカードがプレイされて舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「揺るがぬ信念 キリト」を1枚選び、手札に戻す）\n【自】 チェンジ ［(1) 手札を1枚控え室に置き、このカードを控え室に置く］ あなたのクライマックスフェイズの始めに、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「キリトの妹 直葉」を1枚選び、このカードがいた枠に置く。\n\"SECRET\"",
+   "traits": [
+    "ネット",
+    "スポーツ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sao_s26/sao_s26_024r.png",
+   "variant": ""
+  },
+  {
+   "num": "SAO/S26-025",
+   "name": "仮想世界の少女 リーファ",
+   "type": "Character",
+   "rarity": "R",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "6000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の【スタンド】している《アバター》のキャラを1枚選び、【レスト】する。\n\"仮想世界を自分の眼で見てみたい、<br />初めてそう思ったのはいつだったろう\"",
+   "traits": [
+    "アバター",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sao_s26/sao_s26_025.png",
+   "variant": ""
+  },
+  {
+   "num": "SAO/S26-025S",
+   "name": "仮想世界の少女 リーファ",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "6000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の【スタンド】している《アバター》のキャラを1枚選び、【レスト】する。\n\"SECRET\"",
+   "traits": [
+    "アバター",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sao_s26/sao_s26_025s.png",
+   "variant": ""
+  },
+  {
+   "num": "SAO/S26-026",
+   "name": "着替え中の直葉",
+   "type": "Character",
+   "rarity": "R",
+   "color": "green",
+   "level": "2",
+   "cost": "1",
+   "power": "6500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードがアタックした時、あなたは他の自分のキャラを1枚選び、そのターン中、パワーを＋Ｘ。Ｘはあなたの、《アバター》か《ネット》のキャラの枚数×500に等しい。\n【自】 アンコール ［手札のキャラを1枚控え室に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"うわっ\"",
+   "traits": [
+    "ネット",
+    "スポーツ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sao_s26/sao_s26_026.png",
+   "variant": ""
+  },
+  {
+   "num": "SAO/S26-026S",
+   "name": "着替え中の直葉",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "2",
+   "cost": "1",
+   "power": "6500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードがアタックした時、あなたは他の自分のキャラを1枚選び、そのターン中、パワーを＋Ｘ。Ｘはあなたの、《アバター》か《ネット》のキャラの枚数×500に等しい。\n【自】 アンコール ［手札のキャラを1枚控え室に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"SECRET\"",
+   "traits": [
+    "ネット",
+    "スポーツ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sao_s26/sao_s26_026s.png",
+   "variant": ""
+  },
+  {
+   "num": "SAO/S26-027",
+   "name": "“スピードホリック”リーファ",
+   "type": "Character",
+   "rarity": "U",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(2)］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分のクロック置場のキャラを1枚選び、手札に戻し、自分の山札の上から1枚を、クロック置場に置く。\n【自】 このカードがアタックした時、あなたは自分の、《アバター》か《ネット》のキャラを2枚まで選び、そのターン中、パワーを＋500。\n\"それじゃあ、ついてきて！\"",
+   "traits": [
+    "アバター",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sao_s26/sao_s26_027.png",
+   "variant": ""
+  },
+  {
+   "num": "SAO/S26-028",
+   "name": "“古参プレイヤー”リーファ",
+   "type": "Character",
+   "rarity": "U",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたは自分のクライマックスフェイズに、クライマックスを手札からプレイできない。\n\"あたしは構わないけど……命の保証まではできないわよ\"",
+   "traits": [
+    "アバター",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sao_s26/sao_s26_028.png",
+   "variant": ""
+  },
+  {
+   "num": "SAO/S26-029",
+   "name": "キリトの妹 直葉",
+   "type": "Character",
+   "rarity": "U",
+   "color": "green",
+   "level": "1",
+   "cost": "1",
+   "power": "6500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1) あなたの山札の上から1枚をクロック置場に置く］ あなたのクライマックス置場に「昨夜の記憶」が置かれた時、前列にこのカードがいるなら、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見てレベル1以下の《アバター》のキャラを1枚まで選び、舞台の好きな枠に置き、その山札をシャッフルし、そのターン中、そのキャラのパワーを＋1000\n\"……お兄ちゃんと私が本当は従兄同士だなんて、<br />今でもよくわかんない\"",
+   "traits": [
+    "ネット",
+    "スポーツ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sao_s26/sao_s26_029.png",
+   "variant": ""
+  },
+  {
+   "num": "SAO/S26-030",
+   "name": "悩める乙女 リーファ",
+   "type": "Character",
+   "rarity": "U",
+   "color": "green",
+   "level": "2",
+   "cost": "1",
+   "power": "8000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの、《アバター》か《ネット》のキャラが3枚以上なら、このカードのパワーを＋1000。\n\"う～ん……\"",
+   "traits": [
+    "アバター",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sao_s26/sao_s26_030.png",
+   "variant": ""
+  },
+  {
+   "num": "SAO/S26-031",
+   "name": "家庭教師 直葉",
+   "type": "Character",
+   "rarity": "U",
+   "color": "green",
+   "level": "2",
+   "cost": "2",
+   "power": "8000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 このカードの正面のキャラのレベルが3以上なら、このカードのパワーを＋3000。\n\"なら、あたしが家庭教師してあげる\"",
+   "traits": [
+    "ネット",
+    "スポーツ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sao_s26/sao_s26_031.png",
+   "variant": ""
+  },
+  {
+   "num": "SAO/S26-032",
+   "name": "気がかりなレコン",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1)］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分のクロック置場のクライマックスを1枚選び、手札に戻し、自分の手札を1枚選び、クロック置場に置く。\n\"……来ないの？\"",
+   "traits": [
+    "アバター",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sao_s26/sao_s26_032.png",
+   "variant": ""
+  },
+  {
+   "num": "SAO/S26-033",
+   "name": "領地からの旅立ち リーファ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "",
+   "text": "-\n\"――人を求める心、かぁ……\"",
+   "traits": [
+    "アバター",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sao_s26/sao_s26_033.png",
+   "variant": ""
+  },
+  {
+   "num": "SAO/S26-034",
+   "name": "料理中の直葉",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【起】【カウンター】 助太刀1500 レベル1 ［手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋1500）\n\"じゃあ、早速今日、食べに行かない？\"",
+   "traits": [
+    "ネット",
+    "スポーツ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sao_s26/sao_s26_034.png",
+   "variant": ""
+  },
+  {
+   "num": "SAO/S26-035",
+   "name": "ゲームマスター オベイロン",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【起】［(1)］ あなたは相手の前列のキャラを1枚選び、そのターン中、パワーを－1000。\n\"くくく、痛いだろ？<br />段階的に強くしてやるから楽しみにしていたまえ\"",
+   "traits": [
+    "アバター",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sao_s26/sao_s26_035.png",
+   "variant": ""
+  },
+  {
+   "num": "SAO/S26-036",
+   "name": "幼い頃の直葉",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "1",
+   "cost": "1",
+   "power": "7000",
+   "soul": 1,
+   "trigger": "",
+   "text": "-\n\"はっ！はっ！\"",
+   "traits": [
+    "ネット",
+    "スポーツ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sao_s26/sao_s26_036.png",
+   "variant": ""
+  },
+  {
+   "num": "SAO/S26-037",
+   "name": "《シルフ》の領主 サクヤ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "2",
+   "cost": "1",
+   "power": "8500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "-\n\"すまんが……状況を説明してもらえると助かる\"",
+   "traits": [
+    "アバター",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sao_s26/sao_s26_037.png",
+   "variant": ""
+  },
+  {
+   "num": "SAO/S26-038",
+   "name": "スイルベーンの特産品",
+   "type": "Event",
+   "rarity": "U",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "あなたは自分のクロック置場の、《アバター》か《ネット》のキャラを1枚選び、手札に戻す。このカードをクロック置場に置く。\n\"あたし知らないわよ、そんなの\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sao_s26/sao_s26_038.png",
+   "variant": ""
+  },
+  {
+   "num": "SAO/S26-039",
+   "name": "フェアリィ・ダンス",
+   "type": "Climax",
+   "rarity": "CR",
+   "color": "green",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【自】 このカードが手札からクライマックス置場に置かれた時、あなたは1枚引き、自分のキャラを1枚選び、そのターン中、パワーを＋2000し、ソウルを＋1。\n\"ね、キリト君。踊ろう\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sao_s26/sao_s26_039.png",
+   "variant": ""
+  },
+  {
+   "num": "SAO/S26-040",
+   "name": "昨夜の記憶",
+   "type": "Climax",
+   "rarity": "CC",
+   "color": "green",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[treasure.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[treasure.gif]]：このカードがトリガーした時、あなたはこのカードを手札に戻す。あなたは自分の山札の上から1枚を、ストック置場に置いてよい）\n\"はあ…\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sao_s26/sao_s26_040.png",
+   "variant": ""
+  },
+  {
+   "num": "SAO/S26-041",
+   "name": "《ケットシー》の少女 シリカ",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "red",
+   "level": "1",
+   "cost": "1",
+   "power": "7500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から1枚を公開する。そのカードが、《アバター》か《ネット》か《竜》のキャラでないなら、あなたのアンコールステップの始めに、このカードを控え室に置く。（公開したカードは元に戻す）\n\"よろしくお願いします\"",
+   "traits": [
+    "アバター",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sao_s26/sao_s26_041.png",
+   "variant": ""
+  },
+  {
+   "num": "SAO/S26-041SP",
+   "name": "《ケットシー》の少女 シリカ",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "red",
+   "level": "1",
+   "cost": "1",
+   "power": "7500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から1枚を公開する。そのカードが、《アバター》か《ネット》か《竜》のキャラでないなら、あなたのアンコールステップの始めに、このカードを控え室に置く。（公開したカードは元に戻す）\n\"SECRET\"",
+   "traits": [
+    "アバター",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sao_s26/sao_s26_041sp.png",
+   "variant": ""
+  },
+  {
+   "num": "SAO/S26-042",
+   "name": "安堵の笑顔 シリカ",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "7500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札を上から1枚見て、山札の上か控え室に置く。\n【自】［(2)］ このカードがアタックした時、クライマックス置場に「戦闘中のハプニング」があるなら、あなたはコストを払ってよい。そうしたら、相手に1ダメージを与え、あなたは相手の控え室のカードを1枚まで選び、山札の上に置く。（ダメージキャンセルは発生する）\n\"はい！\"",
+   "traits": [
+    "アバター",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sao_s26/sao_s26_042.png",
+   "variant": ""
+  },
+  {
+   "num": "SAO/S26-043",
+   "name": "空を見上げるシリカ",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1) 手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見て《アバター》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"『11月7日14時55分、ゲームはクリアされました――』\"",
+   "traits": [
+    "アバター",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sao_s26/sao_s26_043.png",
+   "variant": ""
+  },
+  {
+   "num": "SAO/S26-044",
+   "name": "《レプラコーン》の少女 リズベット",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのストックが5枚以上なら、このカードは次の能力を得る。『【自】 このカードが【リバース】した時、このカードのバトル相手のレベルが1以下なら、あなたはそのキャラを【リバース】してよい。』\n\"へっへ、主役は最後に登場するものですからね\"",
+   "traits": [
+    "アバター",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sao_s26/sao_s26_044.png",
+   "variant": ""
+  },
+  {
+   "num": "SAO/S26-044S",
+   "name": "《レプラコーン》の少女 リズベット",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのストックが5枚以上なら、このカードは次の能力を得る。『【自】 このカードが【リバース】した時、このカードのバトル相手のレベルが1以下なら、あなたはそのキャラを【リバース】してよい。』\n\"SECRET\"",
+   "traits": [
+    "アバター",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sao_s26/sao_s26_044s.png",
+   "variant": ""
+  },
+  {
+   "num": "SAO/S26-045",
+   "name": "恥らいの困り顔 シリカ",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "9500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの、《アバター》か《ネット》か《竜》のキャラ1枚につき、このカードのパワーを＋500。\n【自】［(1)］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、相手に1ダメージを与える。（ダメージキャンセルは発生する）\n\"……見ました？\"",
+   "traits": [
+    "アバター",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sao_s26/sao_s26_045.png",
+   "variant": ""
+  },
+  {
+   "num": "SAO/S26-045S",
+   "name": "恥らいの困り顔 シリカ",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "9500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの、《アバター》か《ネット》か《竜》のキャラ1枚につき、このカードのパワーを＋500。\n【自】［(1)］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、相手に1ダメージを与える。（ダメージキャンセルは発生する）\n\"SECRET\"",
+   "traits": [
+    "アバター",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sao_s26/sao_s26_045s.png",
+   "variant": ""
+  },
+  {
+   "num": "SAO/S26-046",
+   "name": "輝く笑顔 リズベット",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札を上から1枚見て、山札の上か控え室に置く。\n【自】 このカードが手札から舞台に置かれた時、そのターン中、このカードのパワーを＋Ｘ。Ｘはあなたの、《アバター》か《ネット》のキャラの枚数×500に等しい。\n【自】［(1)］ あなたのターン中、このカードのバトル相手が【リバース】した時、あなたはコストを払ってよい。そうしたら、あなたは相手の前列のレベル2以下のキャラを1枚選び、山札の上に置く。\n\"-\"",
+   "traits": [
+    "アバター",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sao_s26/sao_s26_046.png",
+   "variant": ""
+  },
+  {
+   "num": "SAO/S26-046SP",
+   "name": "輝く笑顔 リズベット",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札を上から1枚見て、山札の上か控え室に置く。\n【自】 このカードが手札から舞台に置かれた時、そのターン中、このカードのパワーを＋Ｘ。Ｘはあなたの、《アバター》か《ネット》のキャラの枚数×500に等しい。\n【自】［(1)］ あなたのターン中、このカードのバトル相手が【リバース】した時、あなたはコストを払ってよい。そうしたら、あなたは相手の前列のレベル2以下のキャラを1枚選び、山札の上に置く。\n\"SECRET\"",
+   "traits": [
+    "アバター",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sao_s26/sao_s26_046sp.png",
+   "variant": ""
+  },
+  {
+   "num": "SAO/S26-047",
+   "name": "篠崎 里香",
+   "type": "Character",
+   "rarity": "U",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(2)］ このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の、《アバター》か《ネット》のキャラを1枚選び、手札に戻す。\n\"あんたは今日のオフ会、行くの？\"",
+   "traits": [
+    "ネット"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sao_s26/sao_s26_047.png",
+   "variant": ""
+  },
+  {
+   "num": "SAO/S26-048",
+   "name": "自覚した恋心 リズベット",
+   "type": "Character",
+   "rarity": "U",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードがアタックした時、クライマックス置場に「笑顔に戻るまで」があるなら、あなたは自分の山札の上から3枚を、控え室に置く。それらのカードすべてが《アバター》か《ネット》のキャラなら、あなたは自分の控え室のキャラを1枚選び、手札に戻す。\n\"キリトの手の温かさ……あたしの気持ち……<br />錯覚なんかじゃない\"",
+   "traits": [
+    "アバター",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sao_s26/sao_s26_048.png",
+   "variant": ""
+  },
+  {
+   "num": "SAO/S26-049",
+   "name": "休戦協定 珪子",
+   "type": "Character",
+   "rarity": "U",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたの控え室のクライマックスが3枚以上なら、あなたは自分の山札の上から1枚を、クロック置場に置く。\n\"一ヶ月だけあの二人にらぶらぶさせてあげよう、<br />なんて……。甘いんですよまったく\"",
+   "traits": [
+    "ネット",
+    "動物"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sao_s26/sao_s26_049.png",
+   "variant": ""
+  },
+  {
+   "num": "SAO/S26-050",
+   "name": "綾野 珪子",
+   "type": "Character",
+   "rarity": "U",
+   "color": "red",
+   "level": "1",
+   "cost": "1",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 応援 このカードの前のあなたの、《アバター》か《ネット》のキャラすべてに、レベルを＋1し、パワーを＋500。\n【自】［(1) あなたの山札の上から1枚をクロック置場に置く］ このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見て《アバター》か《ネット》か《竜》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"もちろんですよー\"",
+   "traits": [
+    "ネット",
+    "動物"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sao_s26/sao_s26_050.png",
+   "variant": ""
+  },
+  {
+   "num": "SAO/S26-051",
+   "name": "休戦協定 里香",
+   "type": "Character",
+   "rarity": "U",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "7500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 加速 ［あなたの山札の上から1枚をクロック置場に置く］ あなたのクライマックスフェイズの始めに、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の、《アバター》か《ネット》のキャラを1枚選び、手札に戻す。\n\"《一ヶ月休戦協定》なんて結ぶんじゃなかったなあ\"",
+   "traits": [
+    "ネット"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sao_s26/sao_s26_051.png",
+   "variant": ""
+  },
+  {
+   "num": "SAO/S26-051R",
+   "name": "休戦協定 里香",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "7500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 加速 ［あなたの山札の上から1枚をクロック置場に置く］ あなたのクライマックスフェイズの始めに、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の、《アバター》か《ネット》のキャラを1枚選び、手札に戻す。\n\"SECRET\"",
+   "traits": [
+    "ネット"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sao_s26/sao_s26_051r.png",
+   "variant": ""
+  },
+  {
+   "num": "SAO/S26-052",
+   "name": "制服の珪子",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋500。\n\"趣味悪いですよ、覗きなんて\"",
+   "traits": [
+    "ネット",
+    "動物"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sao_s26/sao_s26_052.png",
+   "variant": ""
+  },
+  {
+   "num": "SAO/S26-053",
+   "name": "素材採集の冒険 リズベット",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "",
+   "text": "-\n\"あれ？\"",
+   "traits": [
+    "アバター",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sao_s26/sao_s26_053.png",
+   "variant": ""
+  },
+  {
+   "num": "SAO/S26-054",
+   "name": "親切への警戒 シリカ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "5500",
+   "soul": 1,
+   "trigger": "",
+   "text": "-\n\"なんで……そこまでしてくれるんですか……？\"",
+   "traits": [
+    "アバター",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sao_s26/sao_s26_054.png",
+   "variant": ""
+  },
+  {
+   "num": "SAO/S26-055",
+   "name": "意地になったリズベット",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "1",
+   "cost": "1",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【起】【カウンター】 助太刀2000 レベル1 ［(1) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋2000）\n\"そこまで言ったからには全部付き合ってもらうわよ！\"",
+   "traits": [
+    "アバター",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sao_s26/sao_s26_055.png",
+   "variant": ""
+  },
+  {
+   "num": "SAO/S26-056",
+   "name": "優しい温もり リズベット",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "2",
+   "cost": "2",
+   "power": "9000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "-\n\"……あんたは大丈夫なの？\"",
+   "traits": [
+    "アバター",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sao_s26/sao_s26_056.png",
+   "variant": ""
+  },
+  {
+   "num": "SAO/S26-057",
+   "name": "指揮官 ユージーン",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "2",
+   "cost": "2",
+   "power": "9500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 このカードのバトル中、あなたはイベントと『助太刀』を、手札からプレイできない。\n\"その度胸に免じて話だけは聞いてやろう\"",
+   "traits": [
+    "アバター",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sao_s26/sao_s26_057.png",
+   "variant": ""
+  },
+  {
+   "num": "SAO/S26-058",
+   "name": "《魔剣グラム》",
+   "type": "Event",
+   "rarity": "U",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "あなたは自分のキャラを1枚選び、そのターン中、パワーを＋3000。\nそのターン中、相手はイベントと『助太刀』を手札からプレイできない。\n\"ほう……よく生きていたな！\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sao_s26/sao_s26_058.png",
+   "variant": ""
+  },
+  {
+   "num": "SAO/S26-059",
+   "name": "戦闘中のハプニング",
+   "type": "Climax",
+   "rarity": "CR",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[salvage.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[salvage.gif]]：このカードがトリガーした時、あなたは自分の控え室のキャラを1枚選び、手札に戻してよい）\n\"きっ、キリトさん助けて！見ないで助けて！！\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sao_s26/sao_s26_059.png",
+   "variant": ""
+  },
+  {
+   "num": "SAO/S26-060",
+   "name": "笑顔に戻るまで",
+   "type": "Climax",
+   "rarity": "CC",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【永】 あなたのキャラすべてに、ソウルを＋2。\n\"……だめだよ、今来ちゃ\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sao_s26/sao_s26_060.png",
+   "variant": ""
+  },
+  {
+   "num": "SAO/S26-061",
+   "name": "ママを探す冒険 ユイ",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋Ｘ。Ｘはそのキャラのレベル×500に等しい。\n【起】［あなたのキャラを2枚【レスト】する］ あなたは自分の山札を上から1枚見て、山札の上か下に置く。\n\"パパにくっついていいのはママとわたしだけです！\"",
+   "traits": [
+    "ネット"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sao_s26/sao_s26_061.png",
+   "variant": ""
+  },
+  {
+   "num": "SAO/S26-061SP",
+   "name": "ママを探す冒険 ユイ",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋Ｘ。Ｘはそのキャラのレベル×500に等しい。\n【起】［あなたのキャラを2枚【レスト】する］ あなたは自分の山札を上から1枚見て、山札の上か下に置く。\n\"SECRET\"",
+   "traits": [
+    "ネット"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sao_s26/sao_s26_061sp.png",
+   "variant": ""
+  },
+  {
+   "num": "SAO/S26-062",
+   "name": "《二刀流》の悪魔 キリト",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "blue",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時か『チェンジ』で舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n【自】［(3) 手札を2枚控え室に置く］ この能力は1ターンにつき1回まで発動する。このカードがアタックした時、あなたのレベルが3以上で、あなたのクロックが6枚なら、あなたはコストを払ってよい。そうしたら、このカードを【スタンド】する。\n\"いいでしょう、剣で語れと言うなら望むところです\"",
+   "traits": [
+    "アバター",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sao_s26/sao_s26_062.png",
+   "variant": ""
+  },
+  {
+   "num": "SAO/S26-062SP",
+   "name": "《二刀流》の悪魔 キリト",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "blue",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時か『チェンジ』で舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n【自】［(3) 手札を2枚控え室に置く］ この能力は1ターンにつき1回まで発動する。このカードがアタックした時、あなたのレベルが3以上で、あなたのクロックが6枚なら、あなたはコストを払ってよい。そうしたら、このカードを【スタンド】する。\n\"SECRET\"",
+   "traits": [
+    "アバター",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sao_s26/sao_s26_062sp.png",
+   "variant": ""
+  },
+  {
+   "num": "SAO/S26-063",
+   "name": "雨宿り キリト",
+   "type": "Character",
+   "rarity": "R",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードがアタックした時、あなたは他の自分のキャラを1枚選び、そのターン中、レベルを＋1し、パワーを＋1000。\n\"変な奴だな。帰りたくないのか？\"",
+   "traits": [
+    "アバター",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sao_s26/sao_s26_063.png",
+   "variant": ""
+  },
+  {
+   "num": "SAO/S26-064",
+   "name": "《ALO》への挑戦 和人",
+   "type": "Character",
+   "rarity": "R",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1)］ 他のあなたのキャラがアタックした時、あなたはコストを払ってよい。そうしたら、そのターン中、そのキャラに次の能力を与える。『【自】 このカードのバトル相手が【リバース】した時、あなたはそのキャラを山札の下に置いてよい。』\n\"この眼で確かめる\"",
+   "traits": [
+    "ネット"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sao_s26/sao_s26_064.png",
+   "variant": ""
+  },
+  {
+   "num": "SAO/S26-064R",
+   "name": "《ALO》への挑戦 和人",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1)］ 他のあなたのキャラがアタックした時、あなたはコストを払ってよい。そうしたら、そのターン中、そのキャラに次の能力を与える。『【自】 このカードのバトル相手が【リバース】した時、あなたはそのキャラを山札の下に置いてよい。』\n\"SECRET\"",
+   "traits": [
+    "ネット"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sao_s26/sao_s26_064r.png",
+   "variant": ""
+  },
+  {
+   "num": "SAO/S26-065",
+   "name": "《スプリガン》の少年 キリト",
+   "type": "Character",
+   "rarity": "R",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 絆／「鳥かごの中 アスナ」 ［(1)］ （このカードがプレイされて舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「鳥かごの中 アスナ」を1枚選び、手札に戻す）\n【起】 集中 ［(1) あなたのキャラを2枚【レスト】する］ あなたは自分の山札の上から4枚をめくり、控え室に置く。それらのカードのクライマックス1枚につき、あなたは自分の山札を見て《アバター》か《ネット》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"もう少し待っていてくれ\"",
+   "traits": [
+    "アバター",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sao_s26/sao_s26_065.png",
+   "variant": ""
+  },
+  {
+   "num": "SAO/S26-065S",
+   "name": "《スプリガン》の少年 キリト",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 絆／「鳥かごの中 アスナ」 ［(1)］ （このカードがプレイされて舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「鳥かごの中 アスナ」を1枚選び、手札に戻す）\n【起】 集中 ［(1) あなたのキャラを2枚【レスト】する］ あなたは自分の山札の上から4枚をめくり、控え室に置く。それらのカードのクライマックス1枚につき、あなたは自分の山札を見て《アバター》か《ネット》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"SECRET\"",
+   "traits": [
+    "アバター",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sao_s26/sao_s26_065s.png",
+   "variant": ""
+  },
+  {
+   "num": "SAO/S26-066",
+   "name": "揺るがぬ信念 キリト",
+   "type": "Character",
+   "rarity": "R",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたの手札が5枚以上なら、このカードのパワーを＋2000。\n【自】 加速 ［あなたの山札の上から1枚をクロック置場に置く］ あなたのクライマックスフェイズの始めに、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「《世界の種子》」を1枚選び、手札に戻す。\n\"俺が生きてる間は、パーティーメンバーを殺させやしない\"",
+   "traits": [
+    "アバター",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sao_s26/sao_s26_066.png",
+   "variant": ""
+  },
+  {
+   "num": "SAO/S26-067",
+   "name": "新婚生活 キリト",
+   "type": "Character",
+   "rarity": "U",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋500。\n【起】［(1)］ あなたは1枚引き、自分の手札を1枚選び、控え室に置く。\n\"愉快なおじさんだったなぁ\"",
+   "traits": [
+    "アバター",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sao_s26/sao_s26_067.png",
+   "variant": ""
+  },
+  {
+   "num": "SAO/S26-068",
+   "name": "取り戻した記憶 ユイ",
+   "type": "Character",
+   "rarity": "U",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 相手のターン中、他のあなたのキャラすべてに、パワーを＋500。\n【自】［(1) あなたの【スタンド】しているキャラを2枚【レスト】する］ あなたが『加速』を使った時、あなたはコストを払ってよい。そうしたら、あなたは自分のクロックの上から1枚を、控え室に置く。\n\"偽物なんです、全部……この涙も……。ごめんなさい\"",
+   "traits": [
+    "ネット"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sao_s26/sao_s26_068.png",
+   "variant": ""
+  },
+  {
+   "num": "SAO/S26-069",
+   "name": "二つの世界 キリト",
+   "type": "Character",
+   "rarity": "U",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "7000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの「鳥かごの中 アスナ」がいるなら、このカードのパワーを＋2000。\n【自】 このカードがアタックした時、クライマックス置場に「最強プレイヤーとの対峙」があるなら、次の相手のターンの終わりまで、このカードのパワーを＋3000。\n\"次は、向こう側でな\"",
+   "traits": [
+    "アバター",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sao_s26/sao_s26_069.png",
+   "variant": ""
+  },
+  {
+   "num": "SAO/S26-070",
+   "name": "MMOとの出会い 和人",
+   "type": "Character",
+   "rarity": "U",
+   "color": "blue",
+   "level": "2",
+   "cost": "2",
+   "power": "8500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 チェンジ ［(1) 手札を1枚控え室に置き、このカードを控え室に置く］ あなたのクライマックスフェイズの始めに、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「《二刀流》の悪魔 キリト」を1枚選び、このカードがいた枠に置く。\n\"俺はこの家の本当の子供ではない。<br />そのことを知ったのは十歳の頃だ\"",
+   "traits": [
+    "ネット"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sao_s26/sao_s26_070.png",
+   "variant": ""
+  },
+  {
+   "num": "SAO/S26-071",
+   "name": "《ナビゲーション・ピクシー》 ユイ",
+   "type": "Character",
+   "rarity": "U",
+   "color": "blue",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは2枚まで引き、自分の手札を1枚選び、控え室に置く。\n【自】［(1)］ あなたのクライマックス置場に「ユイとの再会」が置かれた時、他のあなたの前列の、《アバター》か《ネット》のキャラが2枚以上で、前列にこのカードがいるなら、あなたはコストを払ってよい。そうしたら、あなたは相手の前列のレベル3以下のキャラを1枚選び、山札の下に置く。\n\"ご主人様じゃなくて、パパです\"",
+   "traits": [
+    "ネット"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sao_s26/sao_s26_071.png",
+   "variant": ""
+  },
+  {
+   "num": "SAO/S26-071S",
+   "name": "《ナビゲーション・ピクシー》 ユイ",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは2枚まで引き、自分の手札を1枚選び、控え室に置く。\n【自】［(1)］ あなたのクライマックス置場に「ユイとの再会」が置かれた時、他のあなたの前列の、《アバター》か《ネット》のキャラが2枚以上で、前列にこのカードがいるなら、あなたはコストを払ってよい。そうしたら、あなたは相手の前列のレベル3以下のキャラを1枚選び、山札の下に置く。\n\"SECRET\"",
+   "traits": [
+    "ネット"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sao_s26/sao_s26_071s.png",
+   "variant": ""
+  },
+  {
+   "num": "SAO/S26-072",
+   "name": "晴れ着のユイ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "",
+   "text": "-\n\"わたしはわたしですから\"",
+   "traits": [
+    "ネット",
+    "和服"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sao_s26/sao_s26_072.png",
+   "variant": ""
+  },
+  {
+   "num": "SAO/S26-073",
+   "name": "《フラワーガーデン》のキリト",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 バトル中のこのカードが【リバース】した時、他のあなたの、《アバター》か《ネット》のキャラが1枚以下なら、このカードをクロック置場に置く。\n\"……俺が慰められちゃったな\"",
+   "traits": [
+    "アバター",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sao_s26/sao_s26_073.png",
+   "variant": ""
+  },
+  {
+   "num": "SAO/S26-074",
+   "name": "シンプルな答え ユイ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 相手のターン中、このカードのパワーを＋1000。\n\"ヒトを求める心を、<br />あんなふうにややこしく表現する心理は理解できません\"",
+   "traits": [
+    "ネット"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sao_s26/sao_s26_074.png",
+   "variant": ""
+  },
+  {
+   "num": "SAO/S26-075",
+   "name": "故買商 エギル",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "1",
+   "cost": "1",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【起】【カウンター】 助太刀2000 レベル1 ［(1) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋2000）\n\"安く仕入れて安く提供するのがウチのモットーなんでね\"",
+   "traits": [
+    "アバター",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sao_s26/sao_s26_075.png",
+   "variant": ""
+  },
+  {
+   "num": "SAO/S26-076",
+   "name": "最前線の戦い キリト",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "1",
+   "cost": "1",
+   "power": "7000",
+   "soul": 1,
+   "trigger": "",
+   "text": "-\n\"くっ……！\"",
+   "traits": [
+    "アバター",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sao_s26/sao_s26_076.png",
+   "variant": ""
+  },
+  {
+   "num": "SAO/S26-077",
+   "name": "気さくな青年 クライン",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "8500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "-\n\"ったく、水臭ぇなあキリト。<br />そんなすげえウラワザ黙ってるなんてよう\"",
+   "traits": [
+    "アバター",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sao_s26/sao_s26_077.png",
+   "variant": ""
+  },
+  {
+   "num": "SAO/S26-078",
+   "name": "《世界の種子》",
+   "type": "Event",
+   "rarity": "U",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "【カウンター】 あなたは自分の、《アバター》か《ネット》のキャラを1枚選び、そのターン中、パワーを＋2000。\n\"茅場「もし君が、<br />あの世界に憎しみ以外の感情を残しているのなら……」\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sao_s26/sao_s26_078.png",
+   "variant": ""
+  },
+  {
+   "num": "SAO/S26-079",
+   "name": "最強プレイヤーとの対峙",
+   "type": "Climax",
+   "rarity": "CR",
+   "color": "blue",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[gate.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[gate.gif]]：このカードがトリガーした時、あなたは自分の控え室のクライマックスを1枚選び、手札に戻してよい）\n\"はぁぁぁぁ！\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sao_s26/sao_s26_079.png",
+   "variant": ""
+  },
+  {
+   "num": "SAO/S26-080",
+   "name": "ユイとの再会",
+   "type": "Climax",
+   "rarity": "CC",
+   "color": "blue",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【自】 このカードが手札からクライマックス置場に置かれた時、あなたは1枚引き、自分のキャラを1枚選び、そのターン中、パワーを＋2000し、ソウルを＋1。\n\"キリト「あっ… …!?」\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sao_s26/sao_s26_080.png",
+   "variant": ""
+  },
+  {
+   "num": "SAO/S26-081",
+   "name": "《スター・スプラッシュ》",
+   "type": "Climax",
+   "rarity": "PR",
+   "color": "yellow",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[shot.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[shot.gif]]：このターン中、このカードをトリガーした攻撃キャラが次に与えるダメージがキャンセルされた時、相手に1ダメージを与える）\n\"イヤァァァァ！！\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sao_s26/sao_s26_081.png",
+   "variant": ""
+  },
+  {
+   "num": "SAO/S26-082",
+   "name": "スペル詠唱",
+   "type": "Climax",
+   "rarity": "PR",
+   "color": "green",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[stock.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[stock.gif]]：このカードがトリガーした時、あなたは自分の山札の上から1枚を、ストック置場に置いてよい）\n\"……ブロット・スバール・バーニ\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sao_s26/sao_s26_082.png",
+   "variant": ""
+  },
+  {
+   "num": "SAO/S26-083",
+   "name": "気づいた本当の気持ち",
+   "type": "Climax",
+   "rarity": "PR",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[salvage.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[salvage.gif]]：このカードがトリガーした時、あなたは自分の控え室のキャラを1枚選び、手札に戻してよい）\n\"何でもなーい！！\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sao_s26/sao_s26_083.png",
+   "variant": ""
+  },
+  {
+   "num": "SAO/S26-084",
+   "name": "初めての冒険",
+   "type": "Climax",
+   "rarity": "PR",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【自】 このカードが手札からクライマックス置場に置かれた時、あなたは自分の控え室の赤のカードを1枚まで選び、ストック置場に置き、自分のキャラすべてに、そのターン中、ソウルを＋1。\n\"やぁ！\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sao_s26/sao_s26_084.png",
+   "variant": ""
+  },
+  {
+   "num": "SAO/S26-085",
+   "name": "突然の別れ",
+   "type": "Climax",
+   "rarity": "PR",
+   "color": "blue",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[draw.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[draw.gif]]：このカードがトリガーした時、あなたは1枚引いてよい）\n\"――ママ、わらって……\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sao_s26/sao_s26_085.png",
+   "variant": ""
+  },
+  {
+   "num": "SAO/S26-086",
+   "name": "《二刀流》の使い手",
+   "type": "Climax",
+   "rarity": "PR",
+   "color": "blue",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【自】 このカードが手札からクライマックス置場に置かれた時、あなたは自分の控え室の青のカードを1枚まで選び、ストック置場に置き、自分のキャラすべてに、そのターン中、ソウルを＋1。\n\"速く！もっと速く…！\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sao_s26/sao_s26_086.png",
+   "variant": ""
+  }
+ ]
+}

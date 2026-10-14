@@ -1,0 +1,1309 @@
+{
+ "id": "jp-dc3-e361",
+ "name": "ポートレートブースター 舞台「D.C.Ⅲ ～ダ・カーポⅢ～君と旅する時の魔法」",
+ "expansion": 361,
+ "lang": "jp",
+ "release": null,
+ "shopItem": null,
+ "box": null,
+ "cards": [
+  {
+   "num": "DC3/WE36-01",
+   "name": "“君と旅する時の魔法”立夏",
+   "type": "Character",
+   "rarity": "N",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "9000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 記憶 あなたの思い出が2枚以上なら、このカードのパワーを＋1000し、このカードは次の能力を得る。『【永】 このカードのバトル中、相手はイベントを手札からプレイできない。』\n【自】 このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n【自】【CXコンボ】［(1) 手札を1枚控え室に置く］ このカードがアタックした時、クライマックス置場に「With You」があり、他のあなたの《新聞》のキャラが2枚以上なら、あなたはコストを払ってよい。そうしたら、相手に2ダメージを与え、そのターン中、このカードのパワーを＋3000。（ダメージキャンセルは発生する）\n\"-\"",
+   "traits": [
+    "新聞",
+    "生徒会"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dc3_we36/dc3_we36_01.png",
+   "variant": ""
+  },
+  {
+   "num": "DC3/WE36-01S",
+   "name": "“君と旅する時の魔法”立夏",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "9000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 記憶 あなたの思い出が2枚以上なら、このカードのパワーを＋1000し、このカードは次の能力を得る。『【永】 このカードのバトル中、相手はイベントを手札からプレイできない。』\n【自】 このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n【自】【CXコンボ】［(1) 手札を1枚控え室に置く］ このカードがアタックした時、クライマックス置場に「With You」があり、他のあなたの《新聞》のキャラが2枚以上なら、あなたはコストを払ってよい。そうしたら、相手に2ダメージを与え、そのターン中、このカードのパワーを＋3000。（ダメージキャンセルは発生する）\n\"-\"",
+   "traits": [
+    "新聞",
+    "生徒会"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dc3_we36/dc3_we36_01s.png",
+   "variant": ""
+  },
+  {
+   "num": "DC3/WE36-01SP",
+   "name": "“君と旅する時の魔法”立夏",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "9000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 記憶 あなたの思い出が2枚以上なら、このカードのパワーを＋1000し、このカードは次の能力を得る。『【永】 このカードのバトル中、相手はイベントを手札からプレイできない。』\n【自】 このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n【自】【CXコンボ】［(1) 手札を1枚控え室に置く］ このカードがアタックした時、クライマックス置場に「With You」があり、他のあなたの《新聞》のキャラが2枚以上なら、あなたはコストを払ってよい。そうしたら、相手に2ダメージを与え、そのターン中、このカードのパワーを＋3000。（ダメージキャンセルは発生する）\n\"-\"",
+   "traits": [
+    "新聞",
+    "生徒会"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dc3_we36/dc3_we36_01sp.png",
+   "variant": ""
+  },
+  {
+   "num": "DC3/WE36-02",
+   "name": "潤んだ瞳 立夏",
+   "type": "Character",
+   "rarity": "N",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［手札のクライマックスを1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の自分のレベル以下のレベルでコスト0以下の、《新聞》か《生徒会》のキャラを1枚選び、舞台の好きな枠に置く。\n【起】［(1) このカードを思い出にする］ あなたは自分の山札を上から4枚まで見て、《新聞》か《生徒会》のキャラを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。\n\"-\"",
+   "traits": [
+    "新聞",
+    "生徒会"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dc3_we36/dc3_we36_02.png",
+   "variant": ""
+  },
+  {
+   "num": "DC3/WE36-02S",
+   "name": "潤んだ瞳 立夏",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［手札のクライマックスを1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の自分のレベル以下のレベルでコスト0以下の、《新聞》か《生徒会》のキャラを1枚選び、舞台の好きな枠に置く。\n【起】［(1) このカードを思い出にする］ あなたは自分の山札を上から4枚まで見て、《新聞》か《生徒会》のキャラを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。\n\"-\"",
+   "traits": [
+    "新聞",
+    "生徒会"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dc3_we36/dc3_we36_02s.png",
+   "variant": ""
+  },
+  {
+   "num": "DC3/WE36-03",
+   "name": "ふたつの世界の物語 立夏",
+   "type": "Character",
+   "rarity": "N",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】【CXコンボ】 記憶 このカードがアタックした時、クライマックス置場に「With You」があるなら、 あなたは自分の控え室のレベルＸ以下の、《新聞》か《生徒会》のキャラを1枚選び、手札に戻してよい。Ｘはあなたの思い出の枚数に等しい。\n\"-\"",
+   "traits": [
+    "新聞",
+    "生徒会"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dc3_we36/dc3_we36_03.png",
+   "variant": ""
+  },
+  {
+   "num": "DC3/WE36-03S",
+   "name": "ふたつの世界の物語 立夏",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】【CXコンボ】 記憶 このカードがアタックした時、クライマックス置場に「With You」があるなら、 あなたは自分の控え室のレベルＸ以下の、《新聞》か《生徒会》のキャラを1枚選び、手札に戻してよい。Ｘはあなたの思い出の枚数に等しい。\n\"-\"",
+   "traits": [
+    "新聞",
+    "生徒会"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dc3_we36/dc3_we36_03s.png",
+   "variant": ""
+  },
+  {
+   "num": "DC3/WE36-04",
+   "name": "ふたつの世界の物語 リッカ",
+   "type": "Character",
+   "rarity": "N",
+   "color": "yellow",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、そのターン中、このカードのパワーを＋Ｘ。Ｘはあなたの、《魔法》か《生徒会》のキャラの枚数×500に等しい。\n【自】［(3) 手札を1枚控え室に置く］ この能力は1ターンにつき1回まで発動する。このカードが手札から舞台に置かれたターン中、このカードのバトル相手が【リバース】した時、あなたはコストを払ってよい。そうしたら、このカードを【スタンド】する。\n\"-\"",
+   "traits": [
+    "魔法",
+    "生徒会"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dc3_we36/dc3_we36_04.png",
+   "variant": ""
+  },
+  {
+   "num": "DC3/WE36-04S",
+   "name": "ふたつの世界の物語 リッカ",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "yellow",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、そのターン中、このカードのパワーを＋Ｘ。Ｘはあなたの、《魔法》か《生徒会》のキャラの枚数×500に等しい。\n【自】［(3) 手札を1枚控え室に置く］ この能力は1ターンにつき1回まで発動する。このカードが手札から舞台に置かれたターン中、このカードのバトル相手が【リバース】した時、あなたはコストを払ってよい。そうしたら、このカードを【スタンド】する。\n\"-\"",
+   "traits": [
+    "魔法",
+    "生徒会"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dc3_we36/dc3_we36_04s.png",
+   "variant": ""
+  },
+  {
+   "num": "DC3/WE36-05",
+   "name": "桜の研究 リッカ",
+   "type": "Character",
+   "rarity": "N",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "6500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 このカードの正面のキャラのレベルがこのカードのレベルより高いなら、このカードはフロントアタックできない。\n\"-\"",
+   "traits": [
+    "魔法",
+    "生徒会"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dc3_we36/dc3_we36_05.png",
+   "variant": ""
+  },
+  {
+   "num": "DC3/WE36-05S",
+   "name": "桜の研究 リッカ",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "6500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 このカードの正面のキャラのレベルがこのカードのレベルより高いなら、このカードはフロントアタックできない。\n\"-\"",
+   "traits": [
+    "魔法",
+    "生徒会"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dc3_we36/dc3_we36_05s.png",
+   "variant": ""
+  },
+  {
+   "num": "DC3/WE36-06",
+   "name": "With You",
+   "type": "Climax",
+   "rarity": "N",
+   "color": "yellow",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[choice.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[choice.gif]]：このカードがトリガーした時、あなたは自分の控え室のトリガーアイコンに[[soul.gif]]があるキャラを1枚選び、手札に戻すかストック置場に置いてよい）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dc3_we36/dc3_we36_06.png",
+   "variant": ""
+  },
+  {
+   "num": "DC3/WE36-06S",
+   "name": "With You",
+   "type": "Climax",
+   "rarity": "SR",
+   "color": "yellow",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[choice.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[choice.gif]]：このカードがトリガーした時、あなたは自分の控え室のトリガーアイコンに[[soul.gif]]があるキャラを1枚選び、手札に戻すかストック置場に置いてよい）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dc3_we36/dc3_we36_06s.png",
+   "variant": ""
+  },
+  {
+   "num": "DC3/WE36-07",
+   "name": "“君と旅する時の魔法”シャルル",
+   "type": "Character",
+   "rarity": "N",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "8500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 応援 このカードの前のあなたの、《新聞》か《生徒会》のキャラすべてに、パワーを＋2000。\n【自】［(1)］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、相手は自分のストックすべてを、控え室に置き、自分の山札の上から同じ枚数をストック置場に置く。\n\"-\"",
+   "traits": [
+    "新聞",
+    "生徒会"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dc3_we36/dc3_we36_07.png",
+   "variant": ""
+  },
+  {
+   "num": "DC3/WE36-07S",
+   "name": "“君と旅する時の魔法”シャルル",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "8500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 応援 このカードの前のあなたの、《新聞》か《生徒会》のキャラすべてに、パワーを＋2000。\n【自】［(1)］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、相手は自分のストックすべてを、控え室に置き、自分の山札の上から同じ枚数をストック置場に置く。\n\"-\"",
+   "traits": [
+    "新聞",
+    "生徒会"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dc3_we36/dc3_we36_07s.png",
+   "variant": ""
+  },
+  {
+   "num": "DC3/WE36-07SP",
+   "name": "“君と旅する時の魔法”シャルル",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "8500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 応援 このカードの前のあなたの、《新聞》か《生徒会》のキャラすべてに、パワーを＋2000。\n【自】［(1)］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、相手は自分のストックすべてを、控え室に置き、自分の山札の上から同じ枚数をストック置場に置く。\n\"-\"",
+   "traits": [
+    "新聞",
+    "生徒会"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dc3_we36/dc3_we36_07sp.png",
+   "variant": ""
+  },
+  {
+   "num": "DC3/WE36-08",
+   "name": "食欲の秋 シャルル",
+   "type": "Character",
+   "rarity": "N",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1) 手札を1枚控え室に置き、このカードを思い出にする］ バトル中のこのカードが【リバース】した時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見て《新聞》か《生徒会》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"-\"",
+   "traits": [
+    "新聞",
+    "生徒会"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dc3_we36/dc3_we36_08.png",
+   "variant": ""
+  },
+  {
+   "num": "DC3/WE36-08S",
+   "name": "食欲の秋 シャルル",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1) 手札を1枚控え室に置き、このカードを思い出にする］ バトル中のこのカードが【リバース】した時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見て《新聞》か《生徒会》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"-\"",
+   "traits": [
+    "新聞",
+    "生徒会"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dc3_we36/dc3_we36_08s.png",
+   "variant": ""
+  },
+  {
+   "num": "DC3/WE36-09",
+   "name": "雪の日の登校 シャルル",
+   "type": "Character",
+   "rarity": "N",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 他のあなたのバトル中のキャラが【リバース】した時、あなたは自分の、《新聞》か《生徒会》のキャラを1枚選び、そのターン中、パワーを＋1500。\n【起】［(1) このカードを【レスト】する］ あなたは自分の、《新聞》か《生徒会》のキャラを1枚選び、そのターン中、次の能力を与える。『【自】 このカードのバトル相手が【リバース】した時、あなたは自分の控え室のキャラを1枚選び、手札に戻してよい。』\n\"-\"",
+   "traits": [
+    "新聞",
+    "生徒会"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dc3_we36/dc3_we36_09.png",
+   "variant": ""
+  },
+  {
+   "num": "DC3/WE36-09S",
+   "name": "雪の日の登校 シャルル",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 他のあなたのバトル中のキャラが【リバース】した時、あなたは自分の、《新聞》か《生徒会》のキャラを1枚選び、そのターン中、パワーを＋1500。\n【起】［(1) このカードを【レスト】する］ あなたは自分の、《新聞》か《生徒会》のキャラを1枚選び、そのターン中、次の能力を与える。『【自】 このカードのバトル相手が【リバース】した時、あなたは自分の控え室のキャラを1枚選び、手札に戻してよい。』\n\"-\"",
+   "traits": [
+    "新聞",
+    "生徒会"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dc3_we36/dc3_we36_09s.png",
+   "variant": ""
+  },
+  {
+   "num": "DC3/WE36-10",
+   "name": "しあわせな時間 シャルル",
+   "type": "Character",
+   "rarity": "N",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "5500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 このカードのバトル中、あなたは『助太刀』を手札からプレイできない。\n【自】 このカードが手札から舞台に置かれた時、そのターン中、このカードのパワーを＋Ｘ。Ｘはあなたの、《Anniversary》か《魔法》か《新聞》のキャラの枚数×500に等しい。\n\"-\"",
+   "traits": [
+    "Anniversary",
+    "魔法",
+    "新聞"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dc3_we36/dc3_we36_10.png",
+   "variant": ""
+  },
+  {
+   "num": "DC3/WE36-10S",
+   "name": "しあわせな時間 シャルル",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "5500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 このカードのバトル中、あなたは『助太刀』を手札からプレイできない。\n【自】 このカードが手札から舞台に置かれた時、そのターン中、このカードのパワーを＋Ｘ。Ｘはあなたの、《Anniversary》か《魔法》か《新聞》のキャラの枚数×500に等しい。\n\"-\"",
+   "traits": [
+    "Anniversary",
+    "魔法",
+    "新聞"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dc3_we36/dc3_we36_10s.png",
+   "variant": ""
+  },
+  {
+   "num": "DC3/WE36-11",
+   "name": "大はしゃぎ！ シャルル",
+   "type": "Character",
+   "rarity": "N",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 バトル中のこのカードが【リバース】した時、あなたは自分の山札の上から1枚を公開する。そのカードが《生徒会》のキャラなら、あなたはこのカードを思い出にしてよい。（公開したカードは元に戻す）\n【自】【クロック】 シフト レベル0 （あなたのメインフェイズの始めに、あなたは自分の手札の黄のカードを1枚とクロック置場のこのカードを選び、入れ替えてよい）\n\"-\"",
+   "traits": [
+    "魔法",
+    "生徒会"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dc3_we36/dc3_we36_11.png",
+   "variant": ""
+  },
+  {
+   "num": "DC3/WE36-11S",
+   "name": "大はしゃぎ！ シャルル",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 バトル中のこのカードが【リバース】した時、あなたは自分の山札の上から1枚を公開する。そのカードが《生徒会》のキャラなら、あなたはこのカードを思い出にしてよい。（公開したカードは元に戻す）\n【自】【クロック】 シフト レベル0 （あなたのメインフェイズの始めに、あなたは自分の手札の黄のカードを1枚とクロック置場のこのカードを選び、入れ替えてよい）\n\"-\"",
+   "traits": [
+    "魔法",
+    "生徒会"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dc3_we36/dc3_we36_11s.png",
+   "variant": ""
+  },
+  {
+   "num": "DC3/WE36-12",
+   "name": "浜辺のお願い シャルル",
+   "type": "Character",
+   "rarity": "N",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードのバトル相手が【リバース】した時、あなたは他の自分の、《魔法》か《生徒会》のキャラを1枚選び、【レスト】し、後列のキャラのいない枠に動かす。\n\"-\"",
+   "traits": [
+    "魔法",
+    "生徒会"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dc3_we36/dc3_we36_12.png",
+   "variant": ""
+  },
+  {
+   "num": "DC3/WE36-12S",
+   "name": "浜辺のお願い シャルル",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードのバトル相手が【リバース】した時、あなたは他の自分の、《魔法》か《生徒会》のキャラを1枚選び、【レスト】し、後列のキャラのいない枠に動かす。\n\"-\"",
+   "traits": [
+    "魔法",
+    "生徒会"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dc3_we36/dc3_we36_12s.png",
+   "variant": ""
+  },
+  {
+   "num": "DC3/WE36-13",
+   "name": "“君と旅する時の魔法”姫乃",
+   "type": "Character",
+   "rarity": "N",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 バトル中のこのカードが【リバース】した時、あなたは自分の山札の上から1枚を公開する。そのカードが《新聞》のキャラなら、あなたはこのカードを思い出にしてよい。（公開したカードは元に戻す）\n【自】【クロック】 シフト レベル0 （あなたのメインフェイズの始めに、あなたは自分の手札の赤のカードを1枚とクロック置場のこのカードを選び、入れ替えてよい）\n\"-\"",
+   "traits": [
+    "新聞"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dc3_we36/dc3_we36_13.png",
+   "variant": ""
+  },
+  {
+   "num": "DC3/WE36-13S",
+   "name": "“君と旅する時の魔法”姫乃",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 バトル中のこのカードが【リバース】した時、あなたは自分の山札の上から1枚を公開する。そのカードが《新聞》のキャラなら、あなたはこのカードを思い出にしてよい。（公開したカードは元に戻す）\n【自】【クロック】 シフト レベル0 （あなたのメインフェイズの始めに、あなたは自分の手札の赤のカードを1枚とクロック置場のこのカードを選び、入れ替えてよい）\n\"-\"",
+   "traits": [
+    "新聞"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dc3_we36/dc3_we36_13s.png",
+   "variant": ""
+  },
+  {
+   "num": "DC3/WE36-13SP",
+   "name": "“君と旅する時の魔法”姫乃",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 バトル中のこのカードが【リバース】した時、あなたは自分の山札の上から1枚を公開する。そのカードが《新聞》のキャラなら、あなたはこのカードを思い出にしてよい。（公開したカードは元に戻す）\n【自】【クロック】 シフト レベル0 （あなたのメインフェイズの始めに、あなたは自分の手札の赤のカードを1枚とクロック置場のこのカードを選び、入れ替えてよい）\n\"-\"",
+   "traits": [
+    "新聞"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dc3_we36/dc3_we36_13sp.png",
+   "variant": ""
+  },
+  {
+   "num": "DC3/WE36-14",
+   "name": "初夏の夢 姫乃",
+   "type": "Character",
+   "rarity": "N",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札を上から1枚見て、山札の上か控え室に置く。\n【自】 このカードが【リバース】した時、このカードのバトル相手のレベルが1以下なら、あなたはそのキャラを【リバース】してよい。\n\"-\"",
+   "traits": [
+    "新聞"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dc3_we36/dc3_we36_14.png",
+   "variant": ""
+  },
+  {
+   "num": "DC3/WE36-14S",
+   "name": "初夏の夢 姫乃",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札を上から1枚見て、山札の上か控え室に置く。\n【自】 このカードが【リバース】した時、このカードのバトル相手のレベルが1以下なら、あなたはそのキャラを【リバース】してよい。\n\"-\"",
+   "traits": [
+    "新聞"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dc3_we36/dc3_we36_14s.png",
+   "variant": ""
+  },
+  {
+   "num": "DC3/WE36-15",
+   "name": "ガチガチ 姫乃",
+   "type": "Character",
+   "rarity": "N",
+   "color": "red",
+   "level": "1",
+   "cost": "1",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、次の能力を与える。『【自】 バトル中のこのカードが【リバース】した時、あなたのストックが相手のストックより少ないなら、あなたはこのカードをストック置場に置いてよい。』\n【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札を上から1枚見て、山札の上か控え室に置く。\n\"-\"",
+   "traits": [
+    "魔法",
+    "スポーツ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dc3_we36/dc3_we36_15.png",
+   "variant": ""
+  },
+  {
+   "num": "DC3/WE36-15S",
+   "name": "ガチガチ 姫乃",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "1",
+   "cost": "1",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、次の能力を与える。『【自】 バトル中のこのカードが【リバース】した時、あなたのストックが相手のストックより少ないなら、あなたはこのカードをストック置場に置いてよい。』\n【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札を上から1枚見て、山札の上か控え室に置く。\n\"-\"",
+   "traits": [
+    "魔法",
+    "スポーツ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dc3_we36/dc3_we36_15s.png",
+   "variant": ""
+  },
+  {
+   "num": "DC3/WE36-16",
+   "name": "共に歩む未来 姫乃",
+   "type": "Character",
+   "rarity": "N",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "9500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの《新聞》のキャラが2枚以上なら、このカードのパワーを＋1500し、このカードは次の能力を得る。『【永】 このカードのバトル中、相手は『助太刀』を手札からプレイできない。』\n【自】［手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分のクロックの上から1枚を、ストック置場に置く。\n\"-\"",
+   "traits": [
+    "新聞"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dc3_we36/dc3_we36_16.png",
+   "variant": ""
+  },
+  {
+   "num": "DC3/WE36-16S",
+   "name": "共に歩む未来 姫乃",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "9500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの《新聞》のキャラが2枚以上なら、このカードのパワーを＋1500し、このカードは次の能力を得る。『【永】 このカードのバトル中、相手は『助太刀』を手札からプレイできない。』\n【自】［手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分のクロックの上から1枚を、ストック置場に置く。\n\"-\"",
+   "traits": [
+    "新聞"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dc3_we36/dc3_we36_16s.png",
+   "variant": ""
+  },
+  {
+   "num": "DC3/WE36-17",
+   "name": "表彰式 姫乃",
+   "type": "Character",
+   "rarity": "N",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの《魔法》のキャラすべてに、パワーを＋500。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分のクロックの下から1枚と控え室の《魔法》のキャラを1枚を選び、入れ替えてよい。\n\"-\"",
+   "traits": [
+    "魔法"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dc3_we36/dc3_we36_17.png",
+   "variant": ""
+  },
+  {
+   "num": "DC3/WE36-17S",
+   "name": "表彰式 姫乃",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの《魔法》のキャラすべてに、パワーを＋500。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分のクロックの下から1枚と控え室の《魔法》のキャラを1枚を選び、入れ替えてよい。\n\"-\"",
+   "traits": [
+    "魔法"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dc3_we36/dc3_we36_17s.png",
+   "variant": ""
+  },
+  {
+   "num": "DC3/WE36-18",
+   "name": "まるでハネムーンのように 姫乃",
+   "type": "Character",
+   "rarity": "N",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの《魔法》のキャラ1枚につき、このカードのパワーを＋500。\n\"-\"",
+   "traits": [
+    "魔法",
+    "和服"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dc3_we36/dc3_we36_18.png",
+   "variant": ""
+  },
+  {
+   "num": "DC3/WE36-18S",
+   "name": "まるでハネムーンのように 姫乃",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの《魔法》のキャラ1枚につき、このカードのパワーを＋500。\n\"-\"",
+   "traits": [
+    "魔法",
+    "和服"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dc3_we36/dc3_we36_18s.png",
+   "variant": ""
+  },
+  {
+   "num": "DC3/WE36-19",
+   "name": "“君と旅する時の魔法”さら",
+   "type": "Character",
+   "rarity": "N",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 この能力は1ターンにつき1回まで発動する。あなたが【起】を使った時、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋500。\n【起】 集中 ［(1) このカードを【レスト】する］ あなたは自分の山札の上から4枚をめくり、控え室に置く。それらのカードのクライマックス1枚につき、あなたは自分の控え室の、《新聞》か《スポーツ》のキャラを1枚まで選び、手札に戻す。\n\"-\"",
+   "traits": [
+    "新聞",
+    "スポーツ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dc3_we36/dc3_we36_19.png",
+   "variant": ""
+  },
+  {
+   "num": "DC3/WE36-19S",
+   "name": "“君と旅する時の魔法”さら",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 この能力は1ターンにつき1回まで発動する。あなたが【起】を使った時、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋500。\n【起】 集中 ［(1) このカードを【レスト】する］ あなたは自分の山札の上から4枚をめくり、控え室に置く。それらのカードのクライマックス1枚につき、あなたは自分の控え室の、《新聞》か《スポーツ》のキャラを1枚まで選び、手札に戻す。\n\"-\"",
+   "traits": [
+    "新聞",
+    "スポーツ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dc3_we36/dc3_we36_19s.png",
+   "variant": ""
+  },
+  {
+   "num": "DC3/WE36-19SP",
+   "name": "“君と旅する時の魔法”さら",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 この能力は1ターンにつき1回まで発動する。あなたが【起】を使った時、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋500。\n【起】 集中 ［(1) このカードを【レスト】する］ あなたは自分の山札の上から4枚をめくり、控え室に置く。それらのカードのクライマックス1枚につき、あなたは自分の控え室の、《新聞》か《スポーツ》のキャラを1枚まで選び、手札に戻す。\n\"-\"",
+   "traits": [
+    "新聞",
+    "スポーツ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dc3_we36/dc3_we36_19sp.png",
+   "variant": ""
+  },
+  {
+   "num": "DC3/WE36-20",
+   "name": "聖夜の輝き さら",
+   "type": "Character",
+   "rarity": "N",
+   "color": "blue",
+   "level": "3",
+   "cost": "2",
+   "power": "9000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたの控え室のクライマックスが2枚以下なら、あなたの手札のこのカードのレベルを－1。\n【永】 他のあなたの、《新聞》か《スポーツ》のキャラ1枚につき、このカードのパワーを＋500。\n【自】 このカードが手札から舞台に置かれた時、あなたは2枚まで引き、自分の手札を1枚選び、控え室に置く。\n\"-\"",
+   "traits": [
+    "新聞",
+    "スポーツ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dc3_we36/dc3_we36_20.png",
+   "variant": ""
+  },
+  {
+   "num": "DC3/WE36-20S",
+   "name": "聖夜の輝き さら",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "3",
+   "cost": "2",
+   "power": "9000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたの控え室のクライマックスが2枚以下なら、あなたの手札のこのカードのレベルを－1。\n【永】 他のあなたの、《新聞》か《スポーツ》のキャラ1枚につき、このカードのパワーを＋500。\n【自】 このカードが手札から舞台に置かれた時、あなたは2枚まで引き、自分の手札を1枚選び、控え室に置く。\n\"-\"",
+   "traits": [
+    "新聞",
+    "スポーツ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dc3_we36/dc3_we36_20s.png",
+   "variant": ""
+  },
+  {
+   "num": "DC3/WE36-21",
+   "name": "大切な人の隣に さら",
+   "type": "Character",
+   "rarity": "N",
+   "color": "blue",
+   "level": "3",
+   "cost": "2",
+   "power": "9500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの、《新聞》か《スポーツ》のキャラ1枚につき、このカードのパワーを＋500。\n【自】［(2) 手札の、《新聞》か《スポーツ》のキャラを2枚控え室に置く］ この能力は1ターンにつき1回まで発動する。このカードが手札から舞台に置かれたターン中、あなたの前列の中央の枠のキャラがアタックした時、あなたはコストを払ってよい。そうしたら、このカードを【スタンド】する。\n\"-\"",
+   "traits": [
+    "新聞",
+    "スポーツ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dc3_we36/dc3_we36_21.png",
+   "variant": ""
+  },
+  {
+   "num": "DC3/WE36-21S",
+   "name": "大切な人の隣に さら",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "3",
+   "cost": "2",
+   "power": "9500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの、《新聞》か《スポーツ》のキャラ1枚につき、このカードのパワーを＋500。\n【自】［(2) 手札の、《新聞》か《スポーツ》のキャラを2枚控え室に置く］ この能力は1ターンにつき1回まで発動する。このカードが手札から舞台に置かれたターン中、あなたの前列の中央の枠のキャラがアタックした時、あなたはコストを払ってよい。そうしたら、このカードを【スタンド】する。\n\"-\"",
+   "traits": [
+    "新聞",
+    "スポーツ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dc3_we36/dc3_we36_21s.png",
+   "variant": ""
+  },
+  {
+   "num": "DC3/WE36-22",
+   "name": "涙尽きるまで… サラ",
+   "type": "Character",
+   "rarity": "N",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から2枚を、控え室に置く。それらのカードにクライマックスがあるなら、あなたは相手の前列のキャラを1枚選び、そのターン中、パワーを－1000。\n【自】［手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分のクロック置場の、《魔法》か《スポーツ》のキャラを1枚選び、手札に戻し、自分の山札の上から1枚を、クロック置場に置く。\n\"-\"",
+   "traits": [
+    "魔法",
+    "スポーツ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dc3_we36/dc3_we36_22.png",
+   "variant": ""
+  },
+  {
+   "num": "DC3/WE36-22S",
+   "name": "涙尽きるまで… サラ",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から2枚を、控え室に置く。それらのカードにクライマックスがあるなら、あなたは相手の前列のキャラを1枚選び、そのターン中、パワーを－1000。\n【自】［手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分のクロック置場の、《魔法》か《スポーツ》のキャラを1枚選び、手札に戻し、自分の山札の上から1枚を、クロック置場に置く。\n\"-\"",
+   "traits": [
+    "魔法",
+    "スポーツ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dc3_we36/dc3_we36_22s.png",
+   "variant": ""
+  },
+  {
+   "num": "DC3/WE36-23",
+   "name": "とびっきりの笑顔 サラ",
+   "type": "Character",
+   "rarity": "N",
+   "color": "green",
+   "level": "1",
+   "cost": "1",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 あなたがこのカードの『助太刀』を使った時、あなたは相手のバトル中のキャラを1枚選び、そのターン中、ソウルを＋1。\n【起】【カウンター】 助太刀2500 レベル1 ［(1) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋2500）\n\"-\"",
+   "traits": [
+    "魔法",
+    "スポーツ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dc3_we36/dc3_we36_23.png",
+   "variant": ""
+  },
+  {
+   "num": "DC3/WE36-23S",
+   "name": "とびっきりの笑顔 サラ",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "1",
+   "cost": "1",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 あなたがこのカードの『助太刀』を使った時、あなたは相手のバトル中のキャラを1枚選び、そのターン中、ソウルを＋1。\n【起】【カウンター】 助太刀2500 レベル1 ［(1) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋2500）\n\"-\"",
+   "traits": [
+    "魔法",
+    "スポーツ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dc3_we36/dc3_we36_23s.png",
+   "variant": ""
+  },
+  {
+   "num": "DC3/WE36-24",
+   "name": "未来の花嫁さん サラ",
+   "type": "Character",
+   "rarity": "N",
+   "color": "green",
+   "level": "1",
+   "cost": "1",
+   "power": "6000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの、《魔法》か《スポーツ》のキャラ1枚につき、このカードのパワーを＋500。\n\"-\"",
+   "traits": [
+    "魔法",
+    "スポーツ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dc3_we36/dc3_we36_24.png",
+   "variant": ""
+  },
+  {
+   "num": "DC3/WE36-24S",
+   "name": "未来の花嫁さん サラ",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "1",
+   "cost": "1",
+   "power": "6000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの、《魔法》か《スポーツ》のキャラ1枚につき、このカードのパワーを＋500。\n\"-\"",
+   "traits": [
+    "魔法",
+    "スポーツ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dc3_we36/dc3_we36_24s.png",
+   "variant": ""
+  },
+  {
+   "num": "DC3/WE36-25",
+   "name": "“君と旅する時の魔法”葵",
+   "type": "Character",
+   "rarity": "N",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの後列の、《新聞》か《ウェイトレス》のキャラ1枚につき、このカードのパワーを＋1000。\n【自】【CXコンボ】 このカードがアタックした時、クライマックス置場に「“お兄ちゃん”へ」があり、他のあなたの、《新聞》か《ウェイトレス》のキャラがいるなら、あなたは自分の山札の上から2枚を、控え室に置き、自分の控え室のレベルＸ以下の、《新聞》か《ウェイトレス》のキャラを1枚まで選び、手札に戻す。Ｘはこの効果で控え室に置かれたカードのレベルの合計に等しい。（クライマックスのレベルは0として扱う）\n\"-\"",
+   "traits": [
+    "新聞",
+    "ウェイトレス"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dc3_we36/dc3_we36_25.png",
+   "variant": ""
+  },
+  {
+   "num": "DC3/WE36-25S",
+   "name": "“君と旅する時の魔法”葵",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの後列の、《新聞》か《ウェイトレス》のキャラ1枚につき、このカードのパワーを＋1000。\n【自】【CXコンボ】 このカードがアタックした時、クライマックス置場に「“お兄ちゃん”へ」があり、他のあなたの、《新聞》か《ウェイトレス》のキャラがいるなら、あなたは自分の山札の上から2枚を、控え室に置き、自分の控え室のレベルＸ以下の、《新聞》か《ウェイトレス》のキャラを1枚まで選び、手札に戻す。Ｘはこの効果で控え室に置かれたカードのレベルの合計に等しい。（クライマックスのレベルは0として扱う）\n\"-\"",
+   "traits": [
+    "新聞",
+    "ウェイトレス"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dc3_we36/dc3_we36_25s.png",
+   "variant": ""
+  },
+  {
+   "num": "DC3/WE36-25SP",
+   "name": "“君と旅する時の魔法”葵",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの後列の、《新聞》か《ウェイトレス》のキャラ1枚につき、このカードのパワーを＋1000。\n【自】【CXコンボ】 このカードがアタックした時、クライマックス置場に「“お兄ちゃん”へ」があり、他のあなたの、《新聞》か《ウェイトレス》のキャラがいるなら、あなたは自分の山札の上から2枚を、控え室に置き、自分の控え室のレベルＸ以下の、《新聞》か《ウェイトレス》のキャラを1枚まで選び、手札に戻す。Ｘはこの効果で控え室に置かれたカードのレベルの合計に等しい。（クライマックスのレベルは0として扱う）\n\"-\"",
+   "traits": [
+    "新聞",
+    "ウェイトレス"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dc3_we36/dc3_we36_25sp.png",
+   "variant": ""
+  },
+  {
+   "num": "DC3/WE36-26",
+   "name": "とっても幸せ 葵",
+   "type": "Character",
+   "rarity": "N",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "7000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードがアタックした時、このカードの正面のキャラのレベルが3以上なら、そのターン中、このカードのパワーを＋6000。\n【自】 アンコール ［手札の、《新聞》か《ウェイトレス》のキャラを1枚控え室に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"-\"",
+   "traits": [
+    "新聞",
+    "ウェイトレス"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dc3_we36/dc3_we36_26.png",
+   "variant": ""
+  },
+  {
+   "num": "DC3/WE36-26S",
+   "name": "とっても幸せ 葵",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "7000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードがアタックした時、このカードの正面のキャラのレベルが3以上なら、そのターン中、このカードのパワーを＋6000。\n【自】 アンコール ［手札の、《新聞》か《ウェイトレス》のキャラを1枚控え室に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"-\"",
+   "traits": [
+    "新聞",
+    "ウェイトレス"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dc3_we36/dc3_we36_26s.png",
+   "variant": ""
+  },
+  {
+   "num": "DC3/WE36-27",
+   "name": "グニルックの練習 葵",
+   "type": "Character",
+   "rarity": "N",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋500。\n【起】［(2) このカードを【レスト】する］ あなたは自分の山札を見て《魔法》か《ウェイトレス》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"-\"",
+   "traits": [
+    "魔法",
+    "ウェイトレス"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dc3_we36/dc3_we36_27.png",
+   "variant": ""
+  },
+  {
+   "num": "DC3/WE36-27S",
+   "name": "グニルックの練習 葵",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋500。\n【起】［(2) このカードを【レスト】する］ あなたは自分の山札を見て《魔法》か《ウェイトレス》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"-\"",
+   "traits": [
+    "魔法",
+    "ウェイトレス"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dc3_we36/dc3_we36_27s.png",
+   "variant": ""
+  },
+  {
+   "num": "DC3/WE36-28",
+   "name": "新しい一年の始まり 葵",
+   "type": "Character",
+   "rarity": "N",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1) 手札のクライマックスを1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室のクライマックスを1枚選び、手札に戻す。\n\"-\"",
+   "traits": [
+    "魔法",
+    "ウェイトレス"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dc3_we36/dc3_we36_28.png",
+   "variant": ""
+  },
+  {
+   "num": "DC3/WE36-28S",
+   "name": "新しい一年の始まり 葵",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1) 手札のクライマックスを1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室のクライマックスを1枚選び、手札に戻す。\n\"-\"",
+   "traits": [
+    "魔法",
+    "ウェイトレス"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dc3_we36/dc3_we36_28s.png",
+   "variant": ""
+  },
+  {
+   "num": "DC3/WE36-29",
+   "name": "ホラーは苦手",
+   "type": "Event",
+   "rarity": "N",
+   "color": "blue",
+   "level": "2",
+   "cost": "3",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "【カウンター】   あなたはバトル中のキャラを1枚選び、そのターン中、次の能力を与える。『【永】 このカードはプレイヤーにダメージを与えることができない。』\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dc3_we36/dc3_we36_29.png",
+   "variant": ""
+  },
+  {
+   "num": "DC3/WE36-29S",
+   "name": "ホラーは苦手",
+   "type": "Event",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "2",
+   "cost": "3",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "【カウンター】   あなたはバトル中のキャラを1枚選び、そのターン中、次の能力を与える。『【永】 このカードはプレイヤーにダメージを与えることができない。』\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dc3_we36/dc3_we36_29s.png",
+   "variant": ""
+  },
+  {
+   "num": "DC3/WE36-30",
+   "name": "“お兄ちゃん”へ",
+   "type": "Climax",
+   "rarity": "N",
+   "color": "blue",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[draw.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[draw.gif]]：このカードがトリガーした時、あなたは1枚引いてよい）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dc3_we36/dc3_we36_30.png",
+   "variant": ""
+  },
+  {
+   "num": "DC3/WE36-30S",
+   "name": "“お兄ちゃん”へ",
+   "type": "Climax",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[draw.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[draw.gif]]：このカードがトリガーした時、あなたは1枚引いてよい）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dc3_we36/dc3_we36_30s.png",
+   "variant": ""
+  },
+  {
+   "num": "DC3/WE36-P01S",
+   "name": "“君と旅する時の魔法”立夏",
+   "type": "Character",
+   "rarity": "PR",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "9000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 記憶 あなたの思い出が2枚以上なら、このカードのパワーを＋1000し、このカードは次の能力を得る。『【永】 このカードのバトル中、相手はイベントを手札からプレイできない。』\n【自】 このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n【自】【CXコンボ】［(1) 手札を1枚控え室に置く］ このカードがアタックした時、クライマックス置場に「With You」があり、他のあなたの《新聞》のキャラが2枚以上なら、あなたはコストを払ってよい。そうしたら、相手に2ダメージを与え、そのターン中、このカードのパワーを＋3000。（ダメージキャンセルは発生する）\n\"行ってたのよ。精神だけ、あの時代に……\"",
+   "traits": [
+    "新聞",
+    "生徒会"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dc3_we36/dc3_we36_p01s.png",
+   "variant": ""
+  },
+  {
+   "num": "DC3/WE36-P02S",
+   "name": "“君と旅する時の魔法”シャルル",
+   "type": "Character",
+   "rarity": "PR",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "8500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 応援 このカードの前のあなたの、《新聞》か《生徒会》のキャラすべてに、パワーを＋2000。\n【自】［(1)］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、相手は自分のストックすべてを、控え室に置き、自分の山札の上から同じ枚数をストック置場に置く。\n\"ロマンチックだなぁ、とは思うけど……\"",
+   "traits": [
+    "新聞",
+    "生徒会"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dc3_we36/dc3_we36_p02s.png",
+   "variant": ""
+  },
+  {
+   "num": "DC3/WE36-P03S",
+   "name": "“君と旅する時の魔法”姫乃",
+   "type": "Character",
+   "rarity": "PR",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 バトル中のこのカードが【リバース】した時、あなたは自分の山札の上から1枚を公開する。そのカードが《新聞》のキャラなら、あなたはこのカードを思い出にしてよい。（公開したカードは元に戻す）\n【自】【クロック】 シフト レベル0 （あなたのメインフェイズの始めに、あなたは自分の手札の赤のカードを1枚とクロック置場のこのカードを選び、入れ替えてよい）\n\"わたし、なんだか変な夢を見てた気がします\"",
+   "traits": [
+    "新聞"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dc3_we36/dc3_we36_p03s.png",
+   "variant": ""
+  },
+  {
+   "num": "DC3/WE36-P04S",
+   "name": "“君と旅する時の魔法”さら",
+   "type": "Character",
+   "rarity": "PR",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 この能力は1ターンにつき1回まで発動する。あなたが【起】を使った時、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋500。\n【起】 集中 ［(1) このカードを【レスト】する］ あなたは自分の山札の上から4枚をめくり、控え室に置く。それらのカードのクライマックス1枚につき、あなたは自分の控え室の、《新聞》か《スポーツ》のキャラを1枚まで選び、手札に戻す。\n\"あ、あの木じゃないですか？\"",
+   "traits": [
+    "新聞",
+    "スポーツ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dc3_we36/dc3_we36_p04s.png",
+   "variant": ""
+  },
+  {
+   "num": "DC3/WE36-P05S",
+   "name": "“君と旅する時の魔法”葵",
+   "type": "Character",
+   "rarity": "PR",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの後列の、《新聞》か《ウェイトレス》のキャラ1枚につき、このカードのパワーを＋1000。\n【自】【CXコンボ】 このカードがアタックした時、クライマックス置場に「“お兄ちゃん”へ」があり、他のあなたの、《新聞》か《ウェイトレス》のキャラがいるなら、あなたは自分の山札の上から2枚を、控え室に置き、自分の控え室のレベルＸ以下の、《新聞》か《ウェイトレス》のキャラを1枚まで選び、手札に戻す。Ｘはこの効果で控え室に置かれたカードのレベルの合計に等しい。（クライマックスのレベルは0として扱う）\n\"魔法の力で何とかできないかなって\"",
+   "traits": [
+    "新聞",
+    "ウェイトレス"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dc3_we36/dc3_we36_p05s.png",
+   "variant": ""
+  }
+ ]
+}

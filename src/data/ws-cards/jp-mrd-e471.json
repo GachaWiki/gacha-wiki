@@ -1,0 +1,3715 @@
+{
+ "id": "jp-mrd-e471",
+ "name": "Disney ミラー・ウォリアーズ",
+ "expansion": 471,
+ "lang": "jp",
+ "release": null,
+ "shopItem": null,
+ "box": null,
+ "cards": [
+  {
+   "num": "MRd/S111-001",
+   "name": "“Explorer Mage”ベル",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 あなたのCXフェイズの始めに、あなたは自分の、《Mirrorverse》か《Disney》のキャラを1枚選び、そのターン中、パワーを＋Ｘ。Ｘはそのキャラのレベル×500に等しい。\n【起】 集中 ［(1) このカードを【レスト】する］ あなたは自分の山札の上から4枚をめくり、控え室に置く。それらのカードのCX1枚につき、あなたは自分の控え室のキャラを1枚まで選び、手札に戻す。\n\"-\"",
+   "traits": [
+    "Mirrorverse",
+    "Disney"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrd_s111_001.png",
+   "variant": ""
+  },
+  {
+   "num": "MRd/S111-001MSP",
+   "name": "“Explorer Mage”ベル",
+   "type": "Character",
+   "rarity": "MSP",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 あなたのCXフェイズの始めに、あなたは自分の、《Mirrorverse》か《Disney》のキャラを1枚選び、そのターン中、パワーを＋Ｘ。Ｘはそのキャラのレベル×500に等しい。\n【起】 集中 ［(1) このカードを【レスト】する］ あなたは自分の山札の上から4枚をめくり、控え室に置く。それらのカードのCX1枚につき、あなたは自分の控え室のキャラを1枚まで選び、手札に戻す。\n\"-\"",
+   "traits": [
+    "Mirrorverse",
+    "Disney"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrd_s111_001msp.png",
+   "variant": ""
+  },
+  {
+   "num": "MRd/S111-002",
+   "name": "“Illuminated Warrior”ラプンツェル",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "yellow",
+   "level": "3",
+   "cost": "2",
+   "power": "7500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたの控え室のCXが2枚以下か6枚以上なら、あなたの手札のこのカードのレベルを－1。\n【永】 他のあなたの、《Mirrorverse》か《Disney》のキャラが2枚以上なら、このカードのパワーを＋3000。\n【自】 このカードが、手札か山札から舞台に置かれた時、次の2つの効果のうちあなたが選んだ1つを行う。『あなたは自分のクロックの上から1枚を、控え室に置いてよい。』『あなたは自分の控え室のカードすべてを、山札に戻してよい。そうしたら、その山札をシャッフルし、そのターン中、このカードのパワーを＋2000。』\n\"-\"",
+   "traits": [
+    "Mirrorverse",
+    "Disney"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrd_s111_002.png",
+   "variant": ""
+  },
+  {
+   "num": "MRd/S111-002MSP",
+   "name": "“Illuminated Warrior”ラプンツェル",
+   "type": "Character",
+   "rarity": "MSP",
+   "color": "yellow",
+   "level": "3",
+   "cost": "2",
+   "power": "7500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたの控え室のCXが2枚以下か6枚以上なら、あなたの手札のこのカードのレベルを－1。\n【永】 他のあなたの、《Mirrorverse》か《Disney》のキャラが2枚以上なら、このカードのパワーを＋3000。\n【自】 このカードが、手札か山札から舞台に置かれた時、次の2つの効果のうちあなたが選んだ1つを行う。『あなたは自分のクロックの上から1枚を、控え室に置いてよい。』『あなたは自分の控え室のカードすべてを、山札に戻してよい。そうしたら、その山札をシャッフルし、そのターン中、このカードのパワーを＋2000。』\n\"-\"",
+   "traits": [
+    "Mirrorverse",
+    "Disney"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrd_s111_002msp.png",
+   "variant": ""
+  },
+  {
+   "num": "MRd/S111-003",
+   "name": "“Stellar Sorcerer”ミッキーマウス",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "yellow",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたのクロック置場に「“Stellar Sorcerer”ミッキーマウス」があるなら、あなたの手札のこのカードのレベルを－1。\n【自】【CXコンボ】 このカードが、手札か山札から舞台に置かれた時、あなたは自分の控え室の「Cosmic Command」を1枚まで選び、手札に戻し、そのターン中、このカードのパワーを＋1000。\n【自】【CXコンボ】［(1)］ あなたのアタックフェイズの始めに、CX置場に「Cosmic Command」があり、前列にこのカードがいるなら、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見て《Mirrorverse》のキャラを1枚まで選び、舞台の好きな枠に置き、その山札をシャッフルし、そのターン中、そのキャラとこのカードのソウルを－1。\n\"-\"",
+   "traits": [
+    "Mirrorverse",
+    "Disney"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrd_s111_003.png",
+   "variant": ""
+  },
+  {
+   "num": "MRd/S111-003MSP",
+   "name": "“Stellar Sorcerer”ミッキーマウス",
+   "type": "Character",
+   "rarity": "MSP",
+   "color": "yellow",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたのクロック置場に「“Stellar Sorcerer”ミッキーマウス」があるなら、あなたの手札のこのカードのレベルを－1。\n【自】【CXコンボ】 このカードが、手札か山札から舞台に置かれた時、あなたは自分の控え室の「Cosmic Command」を1枚まで選び、手札に戻し、そのターン中、このカードのパワーを＋1000。\n【自】【CXコンボ】［(1)］ あなたのアタックフェイズの始めに、CX置場に「Cosmic Command」があり、前列にこのカードがいるなら、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見て《Mirrorverse》のキャラを1枚まで選び、舞台の好きな枠に置き、その山札をシャッフルし、そのターン中、そのキャラとこのカードのソウルを－1。\n\"-\"",
+   "traits": [
+    "Mirrorverse",
+    "Disney"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrd_s111_003msp.png",
+   "variant": ""
+  },
+  {
+   "num": "MRd/S111-004",
+   "name": "“Cantankerous Iron-Clad Sailor”ドナルドダック",
+   "type": "Character",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】【CXコンボ】［あなたのCX置場の「Aggressive Passion」を1枚控え室に置く］ あなたのアンコールステップの始めに、他のあなたのキャラが2枚以上なら、あなたはコストを払ってよい。そうしたら、次の行動を2回行う。『あなたは自分の山札の上から1枚を、控え室に置いてよい。そのカードが《Mirrorverse》か《Disney》のキャラなら手札に戻す。』\n【起】［このカードを【レスト】する］ 他のあなたの、《Mirrorverse》か《Disney》のキャラが4枚以上なら、あなたは1枚引き、自分の手札を1枚選び、控え室に置く。\n\"-\"",
+   "traits": [
+    "Mirrorverse",
+    "Disney"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrd_s111_004.png",
+   "variant": ""
+  },
+  {
+   "num": "MRd/S111-004SP",
+   "name": "“Cantankerous Iron-Clad Sailor”ドナルドダック",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】【CXコンボ】［あなたのCX置場の「Aggressive Passion」を1枚控え室に置く］ あなたのアンコールステップの始めに、他のあなたのキャラが2枚以上なら、あなたはコストを払ってよい。そうしたら、次の行動を2回行う。『あなたは自分の山札の上から1枚を、控え室に置いてよい。そのカードが《Mirrorverse》か《Disney》のキャラなら手札に戻す。』\n【起】［このカードを【レスト】する］ 他のあなたの、《Mirrorverse》か《Disney》のキャラが4枚以上なら、あなたは1枚引き、自分の手札を1枚選び、控え室に置く。\n\"-\"",
+   "traits": [
+    "Mirrorverse",
+    "Disney"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrd_s111_004sp.png",
+   "variant": ""
+  },
+  {
+   "num": "MRd/S111-005",
+   "name": "“Heart's Fire Fighter”ミニーマウス",
+   "type": "Character",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】［あなたの控え室のキャラを2枚山札に戻し、その山札をシャッフルする］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋1000。\n【自】［このカードを手札に戻す］ あなたのCXがCX置場に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分のキャラを1枚選び、そのターン中、ソウルを＋1。\n\"-\"",
+   "traits": [
+    "Mirrorverse",
+    "Disney"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrd_s111_005.png",
+   "variant": ""
+  },
+  {
+   "num": "MRd/S111-005SP",
+   "name": "“Heart's Fire Fighter”ミニーマウス",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】［あなたの控え室のキャラを2枚山札に戻し、その山札をシャッフルする］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋1000。\n【自】［このカードを手札に戻す］ あなたのCXがCX置場に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分のキャラを1枚選び、そのターン中、ソウルを＋1。\n\"-\"",
+   "traits": [
+    "Mirrorverse",
+    "Disney"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrd_s111_005sp.png",
+   "variant": ""
+  },
+  {
+   "num": "MRd/S111-006",
+   "name": "“Shadowy Manipulator”スカー",
+   "type": "Character",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札か思い出置場から舞台に置かれた時、そのターン中、このカードのパワーを＋1500。\n【自】 このカードのバトル相手が【リバース】した時、あなたはこのカードを思い出にしてよい。そうしたら、次のあなたのドローフェイズの始めに、あなたは自分の思い出置場の「“Shadowy Manipulator”スカー」を1枚選び、舞台の好きな枠に置く。\n\"-\"",
+   "traits": [
+    "Mirrorverse",
+    "Disney"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrd_s111_006.png",
+   "variant": ""
+  },
+  {
+   "num": "MRd/S111-006SP",
+   "name": "“Shadowy Manipulator”スカー",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札か思い出置場から舞台に置かれた時、そのターン中、このカードのパワーを＋1500。\n【自】 このカードのバトル相手が【リバース】した時、あなたはこのカードを思い出にしてよい。そうしたら、次のあなたのドローフェイズの始めに、あなたは自分の思い出置場の「“Shadowy Manipulator”スカー」を1枚選び、舞台の好きな枠に置く。\n\"-\"",
+   "traits": [
+    "Mirrorverse",
+    "Disney"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrd_s111_006sp.png",
+   "variant": ""
+  },
+  {
+   "num": "MRd/S111-007",
+   "name": "“Stellar-Powered Walking Disaster”グーフィー",
+   "type": "Character",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "3",
+   "cost": "2",
+   "power": "6500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの「“Stellar Sorcerer”ミッキーマウス」すべてに、次の能力を与える。『【自】［(1) 手札を1枚控え室に置く］ このカードがアタックした時、あなたはコストを払ってよい。そうしたら、あなたは相手の山札を上から2枚まで見て、カードを1枚まで選び、山札の下に置き、残りのカードを山札の上に好きな順番で置く。』\n【永】 他のあなたの、《Mirrorverse》か《Disney》のキャラすべてに、パワーを＋1500。\n【自】［手札を1枚控え室に置く］ このカードが、手札か山札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分のクロックの上から1枚を、ストック置場に置く。\n\"-\"",
+   "traits": [
+    "Mirrorverse",
+    "Disney"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrd_s111_007.png",
+   "variant": ""
+  },
+  {
+   "num": "MRd/S111-007SP",
+   "name": "“Stellar-Powered Walking Disaster”グーフィー",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "yellow",
+   "level": "3",
+   "cost": "2",
+   "power": "6500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの「“Stellar Sorcerer”ミッキーマウス」すべてに、次の能力を与える。『【自】［(1) 手札を1枚控え室に置く］ このカードがアタックした時、あなたはコストを払ってよい。そうしたら、あなたは相手の山札を上から2枚まで見て、カードを1枚まで選び、山札の下に置き、残りのカードを山札の上に好きな順番で置く。』\n【永】 他のあなたの、《Mirrorverse》か《Disney》のキャラすべてに、パワーを＋1500。\n【自】［手札を1枚控え室に置く］ このカードが、手札か山札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分のクロックの上から1枚を、ストック置場に置く。\n\"-\"",
+   "traits": [
+    "Mirrorverse",
+    "Disney"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrd_s111_007sp.png",
+   "variant": ""
+  },
+  {
+   "num": "MRd/S111-009",
+   "name": "スクルージ・マクダック",
+   "type": "Character",
+   "rarity": "U",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分のクロックを1枚選び、手札に戻してよい。そうしたら、あなたは自分の手札を1枚選び、クロック置場に置く。\n【自】 このカードがアタックした時、あなたは他の自分の、《Mirrorverse》か《Disney》のキャラを1枚選び、そのターン中、パワーを＋Ｘ。Ｘは他のあなたの、《Mirrorverse》か《Disney》のキャラの枚数×500に等しい。\n\"-\"",
+   "traits": [
+    "Mirrorverse",
+    "Disney"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrd_s111_009.png",
+   "variant": ""
+  },
+  {
+   "num": "MRd/S111-009S",
+   "name": "スクルージ・マクダック",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分のクロックを1枚選び、手札に戻してよい。そうしたら、あなたは自分の手札を1枚選び、クロック置場に置く。\n【自】 このカードがアタックした時、あなたは他の自分の、《Mirrorverse》か《Disney》のキャラを1枚選び、そのターン中、パワーを＋Ｘ。Ｘは他のあなたの、《Mirrorverse》か《Disney》のキャラの枚数×500に等しい。\n\"-\"",
+   "traits": [
+    "Mirrorverse",
+    "Disney"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrd_s111_009s.png",
+   "variant": ""
+  },
+  {
+   "num": "MRd/S111-010",
+   "name": "“ミラー・ウォリアーズ”ラプンツェル",
+   "type": "Character",
+   "rarity": "U",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札の上から1枚を公開し、自分の控え室のレベルＸ以下のキャラを1枚選び、手札に戻す。Ｘは公開されたカードのレベルに等しい。（CXのレベルは0として扱う。公開したカードは元に戻す）\n\"-\"",
+   "traits": [
+    "Mirrorverse",
+    "Disney"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrd_s111_010.png",
+   "variant": ""
+  },
+  {
+   "num": "MRd/S111-010S",
+   "name": "“ミラー・ウォリアーズ”ラプンツェル",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札の上から1枚を公開し、自分の控え室のレベルＸ以下のキャラを1枚選び、手札に戻す。Ｘは公開されたカードのレベルに等しい。（CXのレベルは0として扱う。公開したカードは元に戻す）\n\"-\"",
+   "traits": [
+    "Mirrorverse",
+    "Disney"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrd_s111_010s.png",
+   "variant": ""
+  },
+  {
+   "num": "MRd/S111-011",
+   "name": "“Peaceful Radiant Protector”シンバ",
+   "type": "Character",
+   "rarity": "U",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードがアタックした時、あなたは他の自分の、《Mirrorverse》か《Disney》のキャラを1枚選び、次の相手のターンの終わりまで、次の能力を与える。『【永】 相手のターン中、このカードのパワーを＋2000。』\n\"-\"",
+   "traits": [
+    "Mirrorverse",
+    "Disney"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrd_s111_011.png",
+   "variant": ""
+  },
+  {
+   "num": "MRd/S111-011S",
+   "name": "“Peaceful Radiant Protector”シンバ",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードがアタックした時、あなたは他の自分の、《Mirrorverse》か《Disney》のキャラを1枚選び、次の相手のターンの終わりまで、次の能力を与える。『【永】 相手のターン中、このカードのパワーを＋2000。』\n\"-\"",
+   "traits": [
+    "Mirrorverse",
+    "Disney"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrd_s111_011s.png",
+   "variant": ""
+  },
+  {
+   "num": "MRd/S111-013",
+   "name": "“Wings of Olympus”ヘラクレス",
+   "type": "Character",
+   "rarity": "U",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたのターン中、このカードのパワーを＋10000。\n【自】 あなたのターン中、このカードのバトル相手が【リバース】した時、あなたのCX置場にCXがないなら、あなたは自分の控え室の、《Mirrorverse》か《Disney》のキャラを1枚まで選び、手札に戻す。\n\"-\"",
+   "traits": [
+    "Mirrorverse",
+    "Disney"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrd_s111_013.png",
+   "variant": ""
+  },
+  {
+   "num": "MRd/S111-013S",
+   "name": "“Wings of Olympus”ヘラクレス",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたのターン中、このカードのパワーを＋10000。\n【自】 あなたのターン中、このカードのバトル相手が【リバース】した時、あなたのCX置場にCXがないなら、あなたは自分の控え室の、《Mirrorverse》か《Disney》のキャラを1枚まで選び、手札に戻す。\n\"-\"",
+   "traits": [
+    "Mirrorverse",
+    "Disney"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrd_s111_013s.png",
+   "variant": ""
+  },
+  {
+   "num": "MRd/S111-014",
+   "name": "“ミラー・ウォリアーズ”アリス",
+   "type": "Character",
+   "rarity": "U",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】［(2) あなたの舞台のキャラを1枚控え室に置く］ あなたがこのカードの『助太刀』を使った時、あなたはコストを払ってよい。そうしたら、あなたは相手の、レベルが相手のレベルより高いキャラを1枚選び、控え室に置く。\n【起】【カウンター】 助太刀2500 レベル2 ［(1) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋2500）\n\"-\"",
+   "traits": [
+    "Mirrorverse",
+    "Disney"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrd_s111_014.png",
+   "variant": ""
+  },
+  {
+   "num": "MRd/S111-014S",
+   "name": "“ミラー・ウォリアーズ”アリス",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】［(2) あなたの舞台のキャラを1枚控え室に置く］ あなたがこのカードの『助太刀』を使った時、あなたはコストを払ってよい。そうしたら、あなたは相手の、レベルが相手のレベルより高いキャラを1枚選び、控え室に置く。\n【起】【カウンター】 助太刀2500 レベル2 ［(1) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋2500）\n\"-\"",
+   "traits": [
+    "Mirrorverse",
+    "Disney"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrd_s111_014s.png",
+   "variant": ""
+  },
+  {
+   "num": "MRd/S111-016",
+   "name": "“ミラー・ウォリアーズ”スカー",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのストックが3枚以下なら、このカードのパワーを＋2000。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から3枚を、控え室に置いてよい。\n\"-\"",
+   "traits": [
+    "Mirrorverse",
+    "Disney"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrd_s111_016.png",
+   "variant": ""
+  },
+  {
+   "num": "MRd/S111-016S",
+   "name": "“ミラー・ウォリアーズ”スカー",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのストックが3枚以下なら、このカードのパワーを＋2000。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から3枚を、控え室に置いてよい。\n\"-\"",
+   "traits": [
+    "Mirrorverse",
+    "Disney"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrd_s111_016s.png",
+   "variant": ""
+  },
+  {
+   "num": "MRd/S111-017",
+   "name": "“ミラー・ウォリアーズ”シンバ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたのターン中、このカードのパワーを＋4000。\n【自】［このカードを控え室に置く］ 他のあなたの、《Mirrorverse》か《Disney》のキャラがフロントアタックされた時、あなたはコストを払ってよい。そうしたら、あなたは自分のバトル中のキャラを1枚選び、そのターン中、パワーを＋1500。\n\"-\"",
+   "traits": [
+    "Mirrorverse",
+    "Disney"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrd_s111_017.png",
+   "variant": ""
+  },
+  {
+   "num": "MRd/S111-017S",
+   "name": "“ミラー・ウォリアーズ”シンバ",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたのターン中、このカードのパワーを＋4000。\n【自】［このカードを控え室に置く］ 他のあなたの、《Mirrorverse》か《Disney》のキャラがフロントアタックされた時、あなたはコストを払ってよい。そうしたら、あなたは自分のバトル中のキャラを1枚選び、そのターン中、パワーを＋1500。\n\"-\"",
+   "traits": [
+    "Mirrorverse",
+    "Disney"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrd_s111_017s.png",
+   "variant": ""
+  },
+  {
+   "num": "MRd/S111-018",
+   "name": "“ミラー・ウォリアーズ”ティガー",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、そのターン中、このカードのパワーを＋3000。\n【自】 このカードのバトル中、あなたの受けたダメージがキャンセルされた時、あなたはこのカードを手札に戻してよい。\n\"-\"",
+   "traits": [
+    "Mirrorverse",
+    "Disney"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrd_s111_018.png",
+   "variant": ""
+  },
+  {
+   "num": "MRd/S111-018S",
+   "name": "“ミラー・ウォリアーズ”ティガー",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、そのターン中、このカードのパワーを＋3000。\n【自】 このカードのバトル中、あなたの受けたダメージがキャンセルされた時、あなたはこのカードを手札に戻してよい。\n\"-\"",
+   "traits": [
+    "Mirrorverse",
+    "Disney"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrd_s111_018s.png",
+   "variant": ""
+  },
+  {
+   "num": "MRd/S111-019",
+   "name": "“Adventure Venture Investor”スクルージ・マクダック",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの「“Stellar Sorcerer”ミッキーマウス」すべてに、『【自】 アンコール ［(2)］』を与える。\n【永】 応援 あなたのターン中、このカードの前のあなたのキャラすべてに、パワーを＋Ｘ。Ｘはそのキャラのレベル×1000に等しい。\n\"-\"",
+   "traits": [
+    "Mirrorverse",
+    "Disney"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrd_s111_019.png",
+   "variant": ""
+  },
+  {
+   "num": "MRd/S111-019S",
+   "name": "“Adventure Venture Investor”スクルージ・マクダック",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの「“Stellar Sorcerer”ミッキーマウス」すべてに、『【自】 アンコール ［(2)］』を与える。\n【永】 応援 あなたのターン中、このカードの前のあなたのキャラすべてに、パワーを＋Ｘ。Ｘはそのキャラのレベル×1000に等しい。\n\"-\"",
+   "traits": [
+    "Mirrorverse",
+    "Disney"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrd_s111_019s.png",
+   "variant": ""
+  },
+  {
+   "num": "MRd/S111-020",
+   "name": "Cosmic Command",
+   "type": "Climax",
+   "rarity": "CR",
+   "color": "yellow",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[choice.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[choice.gif]]：このカードがトリガーした時、あなたは自分の控え室のトリガーアイコンに[[soul.gif]]があるキャラを1枚選び、手札に戻すかストック置場に置いてよい）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrd_s111_020.png",
+   "variant": ""
+  },
+  {
+   "num": "MRd/S111-020MKS",
+   "name": "Cosmic Command",
+   "type": "Climax",
+   "rarity": "MKS",
+   "color": "yellow",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[choice.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[choice.gif]]：このカードがトリガーした時、あなたは自分の控え室のトリガーアイコンに[[soul.gif]]があるキャラを1枚選び、手札に戻すかストック置場に置いてよい）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrd_s111_020mks.png",
+   "variant": ""
+  },
+  {
+   "num": "MRd/S111-021",
+   "name": "Aggressive Passion",
+   "type": "Climax",
+   "rarity": "CR",
+   "color": "yellow",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[choice.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[choice.gif]]：このカードがトリガーした時、あなたは自分の控え室のトリガーアイコンに[[soul.gif]]があるキャラを1枚選び、手札に戻すかストック置場に置いてよい）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrd_s111_021.png",
+   "variant": ""
+  },
+  {
+   "num": "MRd/S111-021R",
+   "name": "Aggressive Passion",
+   "type": "Climax",
+   "rarity": "RRR",
+   "color": "yellow",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[choice.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[choice.gif]]：このカードがトリガーした時、あなたは自分の控え室のトリガーアイコンに[[soul.gif]]があるキャラを1枚選び、手札に戻すかストック置場に置いてよい）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrd_s111_021r.png",
+   "variant": ""
+  },
+  {
+   "num": "MRd/S111-022",
+   "name": "“Stalwart Friend of the Forest”白雪姫",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが【リバース】した時、あなたは自分の山札を上から3枚まで見て、CXを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。手札に加えたなら、あなたは自分の手札を1枚選び、控え室に置く。\n【自】 このカードが【リバース】した時、このカードのバトル相手のレベルが0以下なら、あなたは相手のクロックの上から1枚を、控え室に置いてよい。そうしたら、あなたはそのキャラをクロック置場に置く。\n\"-\"",
+   "traits": [
+    "Mirrorverse",
+    "Disney"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrd_s111_022.png",
+   "variant": ""
+  },
+  {
+   "num": "MRd/S111-022MSP",
+   "name": "“Stalwart Friend of the Forest”白雪姫",
+   "type": "Character",
+   "rarity": "MSP",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが【リバース】した時、あなたは自分の山札を上から3枚まで見て、CXを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。手札に加えたなら、あなたは自分の手札を1枚選び、控え室に置く。\n【自】 このカードが【リバース】した時、このカードのバトル相手のレベルが0以下なら、あなたは相手のクロックの上から1枚を、控え室に置いてよい。そうしたら、あなたはそのキャラをクロック置場に置く。\n\"-\"",
+   "traits": [
+    "Mirrorverse",
+    "Disney"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrd_s111_022msp.png",
+   "variant": ""
+  },
+  {
+   "num": "MRd/S111-024",
+   "name": "“Cutting Desert Diamond”アラジン",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "green",
+   "level": "3",
+   "cost": "2",
+   "power": "11000",
+   "soul": 2,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n【自】【CXコンボ】 このカードがアタックした時、CX置場に「Shrouded Sword」があり、他のあなたのキャラが2枚以上なら、次の2つの効果のうちあなたが選んだ1つを行う。『相手に1ダメージを与える。』『［(1) 手札を1枚控え室に置く］ あなたはコストを払ってよい。そうしたら、あなたは相手の山札を上から4枚まで見て、カードを4枚まで選び、控え室に置き、残りのカードを山札に戻し、相手はその山札をシャッフルする。』（ダメージキャンセルは発生する）\n\"-\"",
+   "traits": [
+    "Mirrorverse",
+    "Disney"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrd_s111_024.png",
+   "variant": ""
+  },
+  {
+   "num": "MRd/S111-024MSP",
+   "name": "“Cutting Desert Diamond”アラジン",
+   "type": "Character",
+   "rarity": "MSP",
+   "color": "green",
+   "level": "3",
+   "cost": "2",
+   "power": "11000",
+   "soul": 2,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n【自】【CXコンボ】 このカードがアタックした時、CX置場に「Shrouded Sword」があり、他のあなたのキャラが2枚以上なら、次の2つの効果のうちあなたが選んだ1つを行う。『相手に1ダメージを与える。』『［(1) 手札を1枚控え室に置く］ あなたはコストを払ってよい。そうしたら、あなたは相手の山札を上から4枚まで見て、カードを4枚まで選び、控え室に置き、残りのカードを山札に戻し、相手はその山札をシャッフルする。』（ダメージキャンセルは発生する）\n\"-\"",
+   "traits": [
+    "Mirrorverse",
+    "Disney"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrd_s111_024msp.png",
+   "variant": ""
+  },
+  {
+   "num": "MRd/S111-027",
+   "name": "“Ascended Cosmic Comic”ジーニー",
+   "type": "Character",
+   "rarity": "R",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1)］ あなたのCXがCX置場に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を上から4枚まで見て、《Mirrorverse》か《Disney》のキャラを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。\n【起】［このカードを【レスト】する］ あなたは自分のキャラを1枚選び、そのターン中、パワーを＋1000。\n【起】［手札を2枚控え室に置き、このカードを控え室に置く］ あなたは自分の控え室の自分のレベル以下のレベルのキャラを1枚選び、このカードがいた枠に置く。\n\"-\"",
+   "traits": [
+    "Mirrorverse",
+    "Disney"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrd_s111_027.png",
+   "variant": ""
+  },
+  {
+   "num": "MRd/S111-027SP",
+   "name": "“Ascended Cosmic Comic”ジーニー",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1)］ あなたのCXがCX置場に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を上から4枚まで見て、《Mirrorverse》か《Disney》のキャラを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。\n【起】［このカードを【レスト】する］ あなたは自分のキャラを1枚選び、そのターン中、パワーを＋1000。\n【起】［手札を2枚控え室に置き、このカードを控え室に置く］ あなたは自分の控え室の自分のレベル以下のレベルのキャラを1枚選び、このカードがいた枠に置く。\n\"-\"",
+   "traits": [
+    "Mirrorverse",
+    "Disney"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrd_s111_027sp.png",
+   "variant": ""
+  },
+  {
+   "num": "MRd/S111-029",
+   "name": "“Intermolecular Galactic Force”スティッチ",
+   "type": "Character",
+   "rarity": "R",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "6000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 このカードの正面のキャラのレベルがこのカードのレベルより高いなら、このカードはフロントアタックできない。\n【自】［手札の、《Mirrorverse》か《Disney》のキャラを1枚控え室に置き、このカードを控え室に置く］ 他のあなたの、《Mirrorverse》か《Disney》のキャラがフロントアタックされた時、あなたはコストを払ってよい。そうしたら、あなたは自分のバトル中のキャラを1枚選び、そのターン中、パワーを＋3500。\n\"-\"",
+   "traits": [
+    "Mirrorverse",
+    "Disney"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrd_s111_029.png",
+   "variant": ""
+  },
+  {
+   "num": "MRd/S111-029SP",
+   "name": "“Intermolecular Galactic Force”スティッチ",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "6000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 このカードの正面のキャラのレベルがこのカードのレベルより高いなら、このカードはフロントアタックできない。\n【自】［手札の、《Mirrorverse》か《Disney》のキャラを1枚控え室に置き、このカードを控え室に置く］ 他のあなたの、《Mirrorverse》か《Disney》のキャラがフロントアタックされた時、あなたはコストを払ってよい。そうしたら、あなたは自分のバトル中のキャラを1枚選び、そのターン中、パワーを＋3500。\n\"-\"",
+   "traits": [
+    "Mirrorverse",
+    "Disney"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrd_s111_029sp.png",
+   "variant": ""
+  },
+  {
+   "num": "MRd/S111-030",
+   "name": "“Natural Navigator”フランク",
+   "type": "Character",
+   "rarity": "R",
+   "color": "green",
+   "level": "3",
+   "cost": "2",
+   "power": "10500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが、手札か山札から舞台に置かれた時、あなたは自分の手札の自分のレベル以下のレベルのキャラを1枚まで選び、舞台の好きな枠に置き、そのターン中、このカードのパワーを＋2000。\n【自】［(2) 手札を2枚控え室に置く］ このカードのバトル相手が【リバース】した時、あなたはコストを払ってよい。そうしたら、相手に4ダメージを与える。（ダメージキャンセルは発生する）\n\"-\"",
+   "traits": [
+    "Mirrorverse",
+    "Disney"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrd_s111_030.png",
+   "variant": ""
+  },
+  {
+   "num": "MRd/S111-030SP",
+   "name": "“Natural Navigator”フランク",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "green",
+   "level": "3",
+   "cost": "2",
+   "power": "10500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが、手札か山札から舞台に置かれた時、あなたは自分の手札の自分のレベル以下のレベルのキャラを1枚まで選び、舞台の好きな枠に置き、そのターン中、このカードのパワーを＋2000。\n【自】［(2) 手札を2枚控え室に置く］ このカードのバトル相手が【リバース】した時、あなたはコストを払ってよい。そうしたら、相手に4ダメージを与える。（ダメージキャンセルは発生する）\n\"-\"",
+   "traits": [
+    "Mirrorverse",
+    "Disney"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrd_s111_030sp.png",
+   "variant": ""
+  },
+  {
+   "num": "MRd/S111-031",
+   "name": "“The Fastest Fuzz”ジュディ",
+   "type": "Character",
+   "rarity": "U",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1) 手札を1枚控え室に置く］ このカードが、手札から舞台に置かれた時か舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見て《Mirrorverse》か《Disney》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"-\"",
+   "traits": [
+    "Mirrorverse",
+    "Disney"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrd_s111_031.png",
+   "variant": ""
+  },
+  {
+   "num": "MRd/S111-031S",
+   "name": "“The Fastest Fuzz”ジュディ",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1) 手札を1枚控え室に置く］ このカードが、手札から舞台に置かれた時か舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見て《Mirrorverse》か《Disney》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"-\"",
+   "traits": [
+    "Mirrorverse",
+    "Disney"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrd_s111_031s.png",
+   "variant": ""
+  },
+  {
+   "num": "MRd/S111-033",
+   "name": "“Bold Pilot Fighter”バルー",
+   "type": "Character",
+   "rarity": "U",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの前列のキャラが1枚以下なら、このカードのパワーを＋7000。\n\"-\"",
+   "traits": [
+    "Mirrorverse",
+    "Disney"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrd_s111_033.png",
+   "variant": ""
+  },
+  {
+   "num": "MRd/S111-033S",
+   "name": "“Bold Pilot Fighter”バルー",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの前列のキャラが1枚以下なら、このカードのパワーを＋7000。\n\"-\"",
+   "traits": [
+    "Mirrorverse",
+    "Disney"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrd_s111_033s.png",
+   "variant": ""
+  },
+  {
+   "num": "MRd/S111-034",
+   "name": "“Fiery Pixie Avatar”ティンカー・ベル",
+   "type": "Character",
+   "rarity": "U",
+   "color": "green",
+   "level": "1",
+   "cost": "1",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】【クロック】 アラーム ［手札を1枚控え室に置く］ このカードがクロックの1番上にあるなら、あなたのCXフェイズの始めに、あなたはコストを払ってよい。そうしたら、あなたは相手のレベル1以上のキャラを1枚選び、相手は自分の控え室のレベルＸ以下のキャラを1枚選び、入れ替える。Ｘはあなたが選んだキャラのレベル－1に等しい。\n【起】【カウンター】 助太刀2000 レベル1 ［(1) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋2000）\n\"-\"",
+   "traits": [
+    "Mirrorverse",
+    "Disney"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrd_s111_034.png",
+   "variant": ""
+  },
+  {
+   "num": "MRd/S111-034S",
+   "name": "“Fiery Pixie Avatar”ティンカー・ベル",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "1",
+   "cost": "1",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】【クロック】 アラーム ［手札を1枚控え室に置く］ このカードがクロックの1番上にあるなら、あなたのCXフェイズの始めに、あなたはコストを払ってよい。そうしたら、あなたは相手のレベル1以上のキャラを1枚選び、相手は自分の控え室のレベルＸ以下のキャラを1枚選び、入れ替える。Ｘはあなたが選んだキャラのレベル－1に等しい。\n【起】【カウンター】 助太刀2000 レベル1 ［(1) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋2000）\n\"-\"",
+   "traits": [
+    "Mirrorverse",
+    "Disney"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrd_s111_034s.png",
+   "variant": ""
+  },
+  {
+   "num": "MRd/S111-036",
+   "name": "“One Woman Army”ムーラン",
+   "type": "Character",
+   "rarity": "U",
+   "color": "green",
+   "level": "2",
+   "cost": "1",
+   "power": "6000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードがアタックした時、そのターン中、このカードのパワーを＋Ｘ。Ｘは相手のキャラの枚数×1000に等しい。\n【自】 このカードのバトル相手でレベル2以上のキャラが【リバース】した時、あなたのCX置場にCXがあるなら、あなたは自分のクロック置場の、《Mirrorverse》か《Disney》のキャラを1枚選び、山札の下に置いてよい。\n\"-\"",
+   "traits": [
+    "Mirrorverse",
+    "Disney"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrd_s111_036.png",
+   "variant": ""
+  },
+  {
+   "num": "MRd/S111-036S",
+   "name": "“One Woman Army”ムーラン",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "2",
+   "cost": "1",
+   "power": "6000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードがアタックした時、そのターン中、このカードのパワーを＋Ｘ。Ｘは相手のキャラの枚数×1000に等しい。\n【自】 このカードのバトル相手でレベル2以上のキャラが【リバース】した時、あなたのCX置場にCXがあるなら、あなたは自分のクロック置場の、《Mirrorverse》か《Disney》のキャラを1枚選び、山札の下に置いてよい。\n\"-\"",
+   "traits": [
+    "Mirrorverse",
+    "Disney"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrd_s111_036s.png",
+   "variant": ""
+  },
+  {
+   "num": "MRd/S111-037",
+   "name": "“True-Sighted Symbol of the People”ジャスミン",
+   "type": "Character",
+   "rarity": "U",
+   "color": "green",
+   "level": "2",
+   "cost": "1",
+   "power": "7000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのCX置場にトリガーアイコンが[[treasure.gif]]のCXがあるなら、すべての領域にあるこのカードはトリガーアイコンに[[treasure.gif]]を得る。\n【自】 あなたのCXがCX置場に置かれた時、あなたは自分のレベル1以上のキャラを2枚まで選び、そのターン中、パワーを＋3000。\n\"-\"",
+   "traits": [
+    "Mirrorverse",
+    "Disney"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrd_s111_037.png",
+   "variant": ""
+  },
+  {
+   "num": "MRd/S111-037S",
+   "name": "“True-Sighted Symbol of the People”ジャスミン",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "2",
+   "cost": "1",
+   "power": "7000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのCX置場にトリガーアイコンが[[treasure.gif]]のCXがあるなら、すべての領域にあるこのカードはトリガーアイコンに[[treasure.gif]]を得る。\n【自】 あなたのCXがCX置場に置かれた時、あなたは自分のレベル1以上のキャラを2枚まで選び、そのターン中、パワーを＋3000。\n\"-\"",
+   "traits": [
+    "Mirrorverse",
+    "Disney"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrd_s111_037s.png",
+   "variant": ""
+  },
+  {
+   "num": "MRd/S111-038",
+   "name": "“Vainglorious Vengeful Swordsman”フック船長",
+   "type": "Character",
+   "rarity": "U",
+   "color": "green",
+   "level": "3",
+   "cost": "2",
+   "power": "9500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 相手のレベル3以上のキャラがいるなら、あなたの手札のこのカードのレベルを－1。\n【自】 このカードが、手札か山札から舞台に置かれた時、次の相手のターンの終わりまで、このカードのパワーを＋4500し、このカードは次の能力を得る。『【永】 このカードのバトル中、すべてのプレイヤーは『助太刀』を手札からプレイできない。』\n【自】 このカードのバトル相手でレベル2以上のキャラが【リバース】した時、あなたは自分の山札の上から1枚を、ストック置場に置いてよい。\n\"-\"",
+   "traits": [
+    "Mirrorverse",
+    "Disney"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrd_s111_038.png",
+   "variant": ""
+  },
+  {
+   "num": "MRd/S111-038S",
+   "name": "“Vainglorious Vengeful Swordsman”フック船長",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "3",
+   "cost": "2",
+   "power": "9500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 相手のレベル3以上のキャラがいるなら、あなたの手札のこのカードのレベルを－1。\n【自】 このカードが、手札か山札から舞台に置かれた時、次の相手のターンの終わりまで、このカードのパワーを＋4500し、このカードは次の能力を得る。『【永】 このカードのバトル中、すべてのプレイヤーは『助太刀』を手札からプレイできない。』\n【自】 このカードのバトル相手でレベル2以上のキャラが【リバース】した時、あなたは自分の山札の上から1枚を、ストック置場に置いてよい。\n\"-\"",
+   "traits": [
+    "Mirrorverse",
+    "Disney"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrd_s111_038s.png",
+   "variant": ""
+  },
+  {
+   "num": "MRd/S111-039",
+   "name": "“ミラー・ウォリアーズ”フランク",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 前列の中央の枠にこのカードがいるなら、このカードのパワーを＋3000。\n【自】［手札のCXを1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室のレベル1以上のキャラを1枚選び、手札に戻す。\n\"-\"",
+   "traits": [
+    "Mirrorverse",
+    "Disney"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrd_s111_039.png",
+   "variant": ""
+  },
+  {
+   "num": "MRd/S111-039S",
+   "name": "“ミラー・ウォリアーズ”フランク",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 前列の中央の枠にこのカードがいるなら、このカードのパワーを＋3000。\n【自】［手札のCXを1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室のレベル1以上のキャラを1枚選び、手札に戻す。\n\"-\"",
+   "traits": [
+    "Mirrorverse",
+    "Disney"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrd_s111_039s.png",
+   "variant": ""
+  },
+  {
+   "num": "MRd/S111-040",
+   "name": "“ミラー・ウォリアーズ”ティンカー・ベル",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、そのターン中、このカードのパワーを＋1500。\n【自】［(1) 手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を上から3枚まで見て、カードを1枚まで選び、手札に加え、残りのカードを控え室に置く。\n\"-\"",
+   "traits": [
+    "Mirrorverse",
+    "Disney"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrd_s111_040.png",
+   "variant": ""
+  },
+  {
+   "num": "MRd/S111-040S",
+   "name": "“ミラー・ウォリアーズ”ティンカー・ベル",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、そのターン中、このカードのパワーを＋1500。\n【自】［(1) 手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を上から3枚まで見て、カードを1枚まで選び、手札に加え、残りのカードを控え室に置く。\n\"-\"",
+   "traits": [
+    "Mirrorverse",
+    "Disney"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrd_s111_040s.png",
+   "variant": ""
+  },
+  {
+   "num": "MRd/S111-041",
+   "name": "“ミラー・ウォリアーズ”バルー",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの前列の中央の枠の、《Mirrorverse》か《Disney》のキャラに、パワーを＋1500。\n【起】［(1) このカードを控え室に置く］ あなたは自分の山札の上から2枚を、控え室に置き、自分の控え室のレベルＸ以下の、《Mirrorverse》か《Disney》のキャラを1枚選び、手札に戻す。Ｘはそれらのカードのレベルの合計に等しい。（CXのレベルは0として扱う）\n\"-\"",
+   "traits": [
+    "Mirrorverse",
+    "Disney"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrd_s111_041.png",
+   "variant": ""
+  },
+  {
+   "num": "MRd/S111-041S",
+   "name": "“ミラー・ウォリアーズ”バルー",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの前列の中央の枠の、《Mirrorverse》か《Disney》のキャラに、パワーを＋1500。\n【起】［(1) このカードを控え室に置く］ あなたは自分の山札の上から2枚を、控え室に置き、自分の控え室のレベルＸ以下の、《Mirrorverse》か《Disney》のキャラを1枚選び、手札に戻す。Ｘはそれらのカードのレベルの合計に等しい。（CXのレベルは0として扱う）\n\"-\"",
+   "traits": [
+    "Mirrorverse",
+    "Disney"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrd_s111_041s.png",
+   "variant": ""
+  },
+  {
+   "num": "MRd/S111-042",
+   "name": "“ミラー・ウォリアーズ”ムーラン",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 このカードはサイドアタックできない。\n【自】［このカードをクロック置場に置く］ このカードが【リバース】した時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札の上から1枚を公開する。そのカードが《Mirrorverse》か《Disney》のキャラなら手札に加える。（そうでないなら元に戻す）\n\"-\"",
+   "traits": [
+    "Mirrorverse",
+    "Disney"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrd_s111_042.png",
+   "variant": ""
+  },
+  {
+   "num": "MRd/S111-042S",
+   "name": "“ミラー・ウォリアーズ”ムーラン",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 このカードはサイドアタックできない。\n【自】［このカードをクロック置場に置く］ このカードが【リバース】した時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札の上から1枚を公開する。そのカードが《Mirrorverse》か《Disney》のキャラなら手札に加える。（そうでないなら元に戻す）\n\"-\"",
+   "traits": [
+    "Mirrorverse",
+    "Disney"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrd_s111_042s.png",
+   "variant": ""
+  },
+  {
+   "num": "MRd/S111-043",
+   "name": "“ミラー・ウォリアーズ”ジュディ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札を上から2枚まで見て、山札の上に好きな順番で置く。\n【自】 あなたのCXがCX置場に置かれた時、そのターン中、このカードのパワーを＋3000。\n\"-\"",
+   "traits": [
+    "Mirrorverse",
+    "Disney"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrd_s111_043.png",
+   "variant": ""
+  },
+  {
+   "num": "MRd/S111-043S",
+   "name": "“ミラー・ウォリアーズ”ジュディ",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札を上から2枚まで見て、山札の上に好きな順番で置く。\n【自】 あなたのCXがCX置場に置かれた時、そのターン中、このカードのパワーを＋3000。\n\"-\"",
+   "traits": [
+    "Mirrorverse",
+    "Disney"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrd_s111_043s.png",
+   "variant": ""
+  },
+  {
+   "num": "MRd/S111-045",
+   "name": "“ミラー・ウォリアーズ”白雪姫",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "2",
+   "cost": "1",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 あなたがこのカードの『助太刀』を使った時、あなたは自分の山札の上から3枚を、控え室に置く。\n【起】【カウンター】 助太刀3000 レベル2 ［(1) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋3000）\n\"-\"",
+   "traits": [
+    "Mirrorverse",
+    "Disney"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrd_s111_045.png",
+   "variant": ""
+  },
+  {
+   "num": "MRd/S111-045S",
+   "name": "“ミラー・ウォリアーズ”白雪姫",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "2",
+   "cost": "1",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 あなたがこのカードの『助太刀』を使った時、あなたは自分の山札の上から3枚を、控え室に置く。\n【起】【カウンター】 助太刀3000 レベル2 ［(1) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋3000）\n\"-\"",
+   "traits": [
+    "Mirrorverse",
+    "Disney"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrd_s111_045s.png",
+   "variant": ""
+  },
+  {
+   "num": "MRd/S111-046",
+   "name": "“ミラー・ウォリアーズ”フック船長",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "2",
+   "cost": "1",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの前列のキャラが1枚以下なら、このカードのパワーを＋8000し、このカードの正面のキャラのソウルを－1。\n\"-\"",
+   "traits": [
+    "Mirrorverse",
+    "Disney"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrd_s111_046.png",
+   "variant": ""
+  },
+  {
+   "num": "MRd/S111-046S",
+   "name": "“ミラー・ウォリアーズ”フック船長",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "2",
+   "cost": "1",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの前列のキャラが1枚以下なら、このカードのパワーを＋8000し、このカードの正面のキャラのソウルを－1。\n\"-\"",
+   "traits": [
+    "Mirrorverse",
+    "Disney"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrd_s111_046s.png",
+   "variant": ""
+  },
+  {
+   "num": "MRd/S111-047",
+   "name": "“ミラー・ウォリアーズ”スティッチ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "2",
+   "cost": "1",
+   "power": "6000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたの、《Mirrorverse》か《Disney》のキャラが4枚以上なら、あなたの手札のこのカードのレベルを－1。\n【自】 このカードがアタックした時、そのターン中、このカードのパワーを＋Ｘ。Ｘは相手のキャラの枚数×1000に等しい。\n【自】【CXコンボ】［あなたのCX置場の「Superheated Stitch」を1枚控え室に置く］ このカードのバトル相手が【リバース】した時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を上から2枚まで見て、《Mirrorverse》か《Disney》のキャラを2枚まで選んで相手に見せ、手札に加え、残りのカードを山札の上に好きな順番で置き、次の相手のターンの終わりまで、このカードのパワーを＋6000。\n\"-\"",
+   "traits": [
+    "Mirrorverse",
+    "Disney"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrd_s111_047.png",
+   "variant": ""
+  },
+  {
+   "num": "MRd/S111-047S",
+   "name": "“ミラー・ウォリアーズ”スティッチ",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "2",
+   "cost": "1",
+   "power": "6000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたの、《Mirrorverse》か《Disney》のキャラが4枚以上なら、あなたの手札のこのカードのレベルを－1。\n【自】 このカードがアタックした時、そのターン中、このカードのパワーを＋Ｘ。Ｘは相手のキャラの枚数×1000に等しい。\n【自】【CXコンボ】［あなたのCX置場の「Superheated Stitch」を1枚控え室に置く］ このカードのバトル相手が【リバース】した時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を上から2枚まで見て、《Mirrorverse》か《Disney》のキャラを2枚まで選んで相手に見せ、手札に加え、残りのカードを山札の上に好きな順番で置き、次の相手のターンの終わりまで、このカードのパワーを＋6000。\n\"-\"",
+   "traits": [
+    "Mirrorverse",
+    "Disney"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrd_s111_047s.png",
+   "variant": ""
+  },
+  {
+   "num": "MRd/S111-051",
+   "name": "Shrouded Sword",
+   "type": "Climax",
+   "rarity": "CR",
+   "color": "green",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[treasure.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[treasure.gif]]：このカードがトリガーした時、あなたはこのカードを手札に戻す。あなたは自分の山札の上から1枚を、ストック置場に置いてよい）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrd_s111_051.png",
+   "variant": ""
+  },
+  {
+   "num": "MRd/S111-051R",
+   "name": "Shrouded Sword",
+   "type": "Climax",
+   "rarity": "RRR",
+   "color": "green",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[treasure.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[treasure.gif]]：このカードがトリガーした時、あなたはこのカードを手札に戻す。あなたは自分の山札の上から1枚を、ストック置場に置いてよい）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrd_s111_051r.png",
+   "variant": ""
+  },
+  {
+   "num": "MRd/S111-052",
+   "name": "Superheated Stitch",
+   "type": "Climax",
+   "rarity": "CR",
+   "color": "green",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[treasure.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[treasure.gif]]：このカードがトリガーした時、あなたはこのカードを手札に戻す。あなたは自分の山札の上から1枚を、ストック置場に置いてよい）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrd_s111_052.png",
+   "variant": ""
+  },
+  {
+   "num": "MRd/S111-052R",
+   "name": "Superheated Stitch",
+   "type": "Climax",
+   "rarity": "RRR",
+   "color": "green",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[treasure.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[treasure.gif]]：このカードがトリガーした時、あなたはこのカードを手札に戻す。あなたは自分の山札の上から1枚を、ストック置場に置いてよい）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrd_s111_052r.png",
+   "variant": ""
+  },
+  {
+   "num": "MRd/S111-053",
+   "name": "“Curse Collector”ジャック・スパロウ",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのキャラすべてが《Mirrorverse》か《Disney》なら、このカードのパワーを＋3000。\n【自】［(1) あなたの控え室の、《Mirrorverse》か《Disney》のキャラを1枚クロック置場の下に置く］ このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を上から4枚まで見て、レベル1以上のカードを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置き、1枚引き、自分の手札を1枚選び、控え室に置く。（CXのレベルは0として扱う）\n\"-\"",
+   "traits": [
+    "Mirrorverse",
+    "Disney"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrd_s111_053.png",
+   "variant": ""
+  },
+  {
+   "num": "MRd/S111-053MSP",
+   "name": "“Curse Collector”ジャック・スパロウ",
+   "type": "Character",
+   "rarity": "MSP",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのキャラすべてが《Mirrorverse》か《Disney》なら、このカードのパワーを＋3000。\n【自】［(1) あなたの控え室の、《Mirrorverse》か《Disney》のキャラを1枚クロック置場の下に置く］ このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を上から4枚まで見て、レベル1以上のカードを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置き、1枚引き、自分の手札を1枚選び、控え室に置く。（CXのレベルは0として扱う）\n\"-\"",
+   "traits": [
+    "Mirrorverse",
+    "Disney"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrd_s111_053msp.png",
+   "variant": ""
+  },
+  {
+   "num": "MRd/S111-057",
+   "name": "“Personal Battle Companion”ベイマックス",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの前列の「“Genius Matter Programmer”ヒロ」がいるなら、このカードのパワーを＋4000。\n【自】 絆／「“Genius Matter Programmer”ヒロ」 ［手札を1枚控え室に置く］ （このカードがプレイされて舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「“Genius Matter Programmer”ヒロ」を1枚選び、手札に戻す）\n\"-\"",
+   "traits": [
+    "Mirrorverse",
+    "Disney"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrd_s111_057.png",
+   "variant": ""
+  },
+  {
+   "num": "MRd/S111-057SP",
+   "name": "“Personal Battle Companion”ベイマックス",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの前列の「“Genius Matter Programmer”ヒロ」がいるなら、このカードのパワーを＋4000。\n【自】 絆／「“Genius Matter Programmer”ヒロ」 ［手札を1枚控え室に置く］ （このカードがプレイされて舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「“Genius Matter Programmer”ヒロ」を1枚選び、手札に戻す）\n\"-\"",
+   "traits": [
+    "Mirrorverse",
+    "Disney"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrd_s111_057sp.png",
+   "variant": ""
+  },
+  {
+   "num": "MRd/S111-058",
+   "name": "“Genius Matter Programmer”ヒロ",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのターン中、他のあなたの前列の「“Personal Battle Companion”ベイマックス」がいるなら、このカードのパワーを＋2500。\n【自】 相手のターン中、このカードが【リバース】した時、他のあなたの前列の「“Personal Battle Companion”ベイマックス」がいて、このカードのバトル相手のレベルが1以下なら、あなたはそのバトル相手を【リバース】してよい。\n【自】 絆／「“Personal Battle Companion”ベイマックス」 ［手札を1枚控え室に置く］ （このカードがプレイされて舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「“Personal Battle Companion”ベイマックス」を1枚選び、手札に戻す）\n\"-\"",
+   "traits": [
+    "Mirrorverse",
+    "Disney"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrd_s111_058.png",
+   "variant": ""
+  },
+  {
+   "num": "MRd/S111-058SP",
+   "name": "“Genius Matter Programmer”ヒロ",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのターン中、他のあなたの前列の「“Personal Battle Companion”ベイマックス」がいるなら、このカードのパワーを＋2500。\n【自】 相手のターン中、このカードが【リバース】した時、他のあなたの前列の「“Personal Battle Companion”ベイマックス」がいて、このカードのバトル相手のレベルが1以下なら、あなたはそのバトル相手を【リバース】してよい。\n【自】 絆／「“Personal Battle Companion”ベイマックス」 ［手札を1枚控え室に置く］ （このカードがプレイされて舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「“Personal Battle Companion”ベイマックス」を1枚選び、手札に戻す）\n\"-\"",
+   "traits": [
+    "Mirrorverse",
+    "Disney"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrd_s111_058sp.png",
+   "variant": ""
+  },
+  {
+   "num": "MRd/S111-059",
+   "name": "“Inventor of Holiday Spirit”ジャック・スケリントン",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 前列にこのカードがいるなら、あなたの、《Mirrorverse》か《Disney》のキャラすべてに、パワーを＋1000し、次の能力を与える。『【永】 このカードは相手の効果に選ばれない。』\n【自】［(2)］ このカードのバトル相手が【リバース】した時、あなたはコストを払ってよい。そうしたら、相手に1ダメージを与える。（ダメージキャンセルは発生する）\n\"-\"",
+   "traits": [
+    "Mirrorverse",
+    "Disney"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrd_s111_059.png",
+   "variant": ""
+  },
+  {
+   "num": "MRd/S111-059SP",
+   "name": "“Inventor of Holiday Spirit”ジャック・スケリントン",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 前列にこのカードがいるなら、あなたの、《Mirrorverse》か《Disney》のキャラすべてに、パワーを＋1000し、次の能力を与える。『【永】 このカードは相手の効果に選ばれない。』\n【自】［(2)］ このカードのバトル相手が【リバース】した時、あなたはコストを払ってよい。そうしたら、相手に1ダメージを与える。（ダメージキャンセルは発生する）\n\"-\"",
+   "traits": [
+    "Mirrorverse",
+    "Disney"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrd_s111_059sp.png",
+   "variant": ""
+  },
+  {
+   "num": "MRd/S111-061",
+   "name": "“ミラー・ウォリアーズ”ジャック・スケリントン",
+   "type": "Character",
+   "rarity": "U",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、他のあなたの、《Mirrorverse》か《Disney》のキャラがいるなら、そのターン中、このカードのパワーを＋2000。\n【自】【CXコンボ】 このカードがアタックした時、CX置場に「Flight Of The Living Thread」があり、他のあなたの、《Mirrorverse》か《Disney》のキャラが2枚以上なら、あなたは自分の山札の上から1枚を公開する。そのカードが《Mirrorverse》か《Disney》のキャラなら手札に加え、あなたは相手の控え室のカードを1枚まで選び、山札の下に置く。（そうでないなら元に戻す）\n\"-\"",
+   "traits": [
+    "Mirrorverse",
+    "Disney"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrd_s111_061.png",
+   "variant": ""
+  },
+  {
+   "num": "MRd/S111-061S",
+   "name": "“ミラー・ウォリアーズ”ジャック・スケリントン",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、他のあなたの、《Mirrorverse》か《Disney》のキャラがいるなら、そのターン中、このカードのパワーを＋2000。\n【自】【CXコンボ】 このカードがアタックした時、CX置場に「Flight Of The Living Thread」があり、他のあなたの、《Mirrorverse》か《Disney》のキャラが2枚以上なら、あなたは自分の山札の上から1枚を公開する。そのカードが《Mirrorverse》か《Disney》のキャラなら手札に加え、あなたは相手の控え室のカードを1枚まで選び、山札の下に置く。（そうでないなら元に戻す）\n\"-\"",
+   "traits": [
+    "Mirrorverse",
+    "Disney"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrd_s111_061s.png",
+   "variant": ""
+  },
+  {
+   "num": "MRd/S111-062",
+   "name": "“World Network Enforcer”トロン",
+   "type": "Character",
+   "rarity": "U",
+   "color": "red",
+   "level": "1",
+   "cost": "1",
+   "power": "5500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの、《Mirrorverse》か《Disney》のキャラが2枚以上なら、このカードのパワーを＋2000。\n【自】 アンコール ［手札のキャラを1枚控え室に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"-\"",
+   "traits": [
+    "Mirrorverse",
+    "Disney"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrd_s111_062.png",
+   "variant": ""
+  },
+  {
+   "num": "MRd/S111-062S",
+   "name": "“World Network Enforcer”トロン",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "1",
+   "cost": "1",
+   "power": "5500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの、《Mirrorverse》か《Disney》のキャラが2枚以上なら、このカードのパワーを＋2000。\n【自】 アンコール ［手札のキャラを1枚控え室に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"-\"",
+   "traits": [
+    "Mirrorverse",
+    "Disney"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrd_s111_062s.png",
+   "variant": ""
+  },
+  {
+   "num": "MRd/S111-063",
+   "name": "“ミラー・ウォリアーズ”ジャック・スパロウ",
+   "type": "Character",
+   "rarity": "U",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたのキャラすべてが《Mirrorverse》か《Disney》なら、このカードのパワーを＋7000し、このカードは次の能力を得る。『【自】［(1)］ このカードがアタックした時、あなたはコストを払ってよい。そうしたら、そのアタック中、あなたはトリガーステップにトリガーチェックを2回行う。』\n【自】【CXコンボ】［あなたのCX置場の「Broadside」を1枚控え室に置く］ あなたのアタックフェイズの始めに、前列にこのカードがいて、他のあなたのキャラが2枚以上なら、あなたはコストを払ってよい。そうしたら、このカードを【スタンド】し、次の相手のターンの終わりまで、このカードは『【自】 アンコール ［手札のキャラを1枚控え室に置く］』を得る。\n\"-\"",
+   "traits": [
+    "Mirrorverse",
+    "Disney"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrd_s111_063.png",
+   "variant": ""
+  },
+  {
+   "num": "MRd/S111-063S",
+   "name": "“ミラー・ウォリアーズ”ジャック・スパロウ",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたのキャラすべてが《Mirrorverse》か《Disney》なら、このカードのパワーを＋7000し、このカードは次の能力を得る。『【自】［(1)］ このカードがアタックした時、あなたはコストを払ってよい。そうしたら、そのアタック中、あなたはトリガーステップにトリガーチェックを2回行う。』\n【自】【CXコンボ】［あなたのCX置場の「Broadside」を1枚控え室に置く］ あなたのアタックフェイズの始めに、前列にこのカードがいて、他のあなたのキャラが2枚以上なら、あなたはコストを払ってよい。そうしたら、このカードを【スタンド】し、次の相手のターンの終わりまで、このカードは『【自】 アンコール ［手札のキャラを1枚控え室に置く］』を得る。\n\"-\"",
+   "traits": [
+    "Mirrorverse",
+    "Disney"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrd_s111_063s.png",
+   "variant": ""
+  },
+  {
+   "num": "MRd/S111-064",
+   "name": "“ミラー・ウォリアーズ”ヒロ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードがアタックした時、あなたは自分の山札を上から1枚見て、山札の上か下か控え室に置く。\n【自】 このカードが【リバース】した時、このカードのバトル相手のレベルが0以下なら、あなたはそのキャラを【リバース】してよい。\n\"-\"",
+   "traits": [
+    "Mirrorverse",
+    "Disney"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrd_s111_064.png",
+   "variant": ""
+  },
+  {
+   "num": "MRd/S111-064S",
+   "name": "“ミラー・ウォリアーズ”ヒロ",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードがアタックした時、あなたは自分の山札を上から1枚見て、山札の上か下か控え室に置く。\n【自】 このカードが【リバース】した時、このカードのバトル相手のレベルが0以下なら、あなたはそのキャラを【リバース】してよい。\n\"-\"",
+   "traits": [
+    "Mirrorverse",
+    "Disney"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrd_s111_064s.png",
+   "variant": ""
+  },
+  {
+   "num": "MRd/S111-065",
+   "name": "“ミラー・ウォリアーズ”ベイマックス",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋Ｘ。Ｘはそのキャラのレベル×500に等しい。\n【起】［(4) このカードを【レスト】する］ あなたは自分のクロック置場の、《Mirrorverse》か《Disney》のキャラを2枚まで選び、山札に戻し、その山札をシャッフルする。\n\"-\"",
+   "traits": [
+    "Mirrorverse",
+    "Disney"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrd_s111_065.png",
+   "variant": ""
+  },
+  {
+   "num": "MRd/S111-065S",
+   "name": "“ミラー・ウォリアーズ”ベイマックス",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋Ｘ。Ｘはそのキャラのレベル×500に等しい。\n【起】［(4) このカードを【レスト】する］ あなたは自分のクロック置場の、《Mirrorverse》か《Disney》のキャラを2枚まで選び、山札に戻し、その山札をシャッフルする。\n\"-\"",
+   "traits": [
+    "Mirrorverse",
+    "Disney"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrd_s111_065s.png",
+   "variant": ""
+  },
+  {
+   "num": "MRd/S111-067",
+   "name": "“ミラー・ウォリアーズ”トロン",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "2",
+   "cost": "2",
+   "power": "6500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの前列の、《Mirrorverse》か《Disney》のキャラ1枚につき、このカードのパワーを＋2000。\n【自】［(1)］ アンコールステップの始めに、他のあなたの前列の【レスト】しているキャラがいないなら、あなたはコストを払ってよい。そうしたら、このカードを【レスト】する。\n\"-\"",
+   "traits": [
+    "Mirrorverse",
+    "Disney"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrd_s111_067.png",
+   "variant": ""
+  },
+  {
+   "num": "MRd/S111-067S",
+   "name": "“ミラー・ウォリアーズ”トロン",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "2",
+   "cost": "2",
+   "power": "6500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの前列の、《Mirrorverse》か《Disney》のキャラ1枚につき、このカードのパワーを＋2000。\n【自】［(1)］ アンコールステップの始めに、他のあなたの前列の【レスト】しているキャラがいないなら、あなたはコストを払ってよい。そうしたら、このカードを【レスト】する。\n\"-\"",
+   "traits": [
+    "Mirrorverse",
+    "Disney"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrd_s111_067s.png",
+   "variant": ""
+  },
+  {
+   "num": "MRd/S111-069",
+   "name": "Flight Of The Living Thread",
+   "type": "Climax",
+   "rarity": "CR",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[salvage.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[salvage.gif]]：このカードがトリガーした時、あなたは自分の控え室のキャラを1枚選び、手札に戻してよい）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrd_s111_069.png",
+   "variant": ""
+  },
+  {
+   "num": "MRd/S111-069R",
+   "name": "Flight Of The Living Thread",
+   "type": "Climax",
+   "rarity": "RRR",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[salvage.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[salvage.gif]]：このカードがトリガーした時、あなたは自分の控え室のキャラを1枚選び、手札に戻してよい）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrd_s111_069r.png",
+   "variant": ""
+  },
+  {
+   "num": "MRd/S111-070",
+   "name": "Broadside",
+   "type": "Climax",
+   "rarity": "CR",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[standby.gif]]",
+   "text": "【自】 このカードが手札からCX置場に置かれた時、[[standby.gif]]の効果を行う。\n（[[standby.gif]]：このカードがトリガーした時、あなたは自分の控え室の自分のレベル＋1以下のレベルのキャラを1枚選び、舞台の好きな枠に【レスト】して置いてよい）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrd_s111_070.png",
+   "variant": ""
+  },
+  {
+   "num": "MRd/S111-070R",
+   "name": "Broadside",
+   "type": "Climax",
+   "rarity": "RRR",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[standby.gif]]",
+   "text": "【自】 このカードが手札からCX置場に置かれた時、[[standby.gif]]の効果を行う。\n（[[standby.gif]]：このカードがトリガーした時、あなたは自分の控え室の自分のレベル＋1以下のレベルのキャラを1枚選び、舞台の好きな枠に【レスト】して置いてよい）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrd_s111_070r.png",
+   "variant": ""
+  },
+  {
+   "num": "MRd/S111-071",
+   "name": "“Commander of the Underworld”ハデス",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札を上から2枚まで見て、カードを2枚まで選び、山札の上に好きな順番で置き、残りのカードを控え室に置く。\n【自】［(1) 手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時か舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室のキャラを1枚選び、手札に戻す。\n\"-\"",
+   "traits": [
+    "Mirrorverse",
+    "Disney"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrd_s111_071.png",
+   "variant": ""
+  },
+  {
+   "num": "MRd/S111-071MSP",
+   "name": "“Commander of the Underworld”ハデス",
+   "type": "Character",
+   "rarity": "MSP",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札を上から2枚まで見て、カードを2枚まで選び、山札の上に好きな順番で置き、残りのカードを控え室に置く。\n【自】［(1) 手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時か舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室のキャラを1枚選び、手札に戻す。\n\"-\"",
+   "traits": [
+    "Mirrorverse",
+    "Disney"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrd_s111_071msp.png",
+   "variant": ""
+  },
+  {
+   "num": "MRd/S111-072",
+   "name": "“Draconic Mage”マレフィセント",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "blue",
+   "level": "3",
+   "cost": "2",
+   "power": "10500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】【CXコンボ】［(1) あなたの舞台のキャラを2枚控え室に置く］ 控え室にこのカードがあり、あなたのCX置場に「Electroclasm」が置かれた時、あなたのレベルが2以上なら、あなたはコストを払ってよい。そうしたら、あなたはこのカードを舞台の好きな枠に置き、そのターン中、このカードのパワーを＋1000。\n【自】 このカードがアタックした時、あなたは自分の山札の上から1枚を、控え室に置いてよい。そのカードが《Mirrorverse》か《Disney》のキャラなら、相手にＸダメージを与える。Ｘはそのカードのレベルに等しい。（ダメージキャンセルは発生する）\n\"-\"",
+   "traits": [
+    "Mirrorverse",
+    "Disney"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrd_s111_072.png",
+   "variant": ""
+  },
+  {
+   "num": "MRd/S111-072MSP",
+   "name": "“Draconic Mage”マレフィセント",
+   "type": "Character",
+   "rarity": "MSP",
+   "color": "blue",
+   "level": "3",
+   "cost": "2",
+   "power": "10500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】【CXコンボ】［(1) あなたの舞台のキャラを2枚控え室に置く］ 控え室にこのカードがあり、あなたのCX置場に「Electroclasm」が置かれた時、あなたのレベルが2以上なら、あなたはコストを払ってよい。そうしたら、あなたはこのカードを舞台の好きな枠に置き、そのターン中、このカードのパワーを＋1000。\n【自】 このカードがアタックした時、あなたは自分の山札の上から1枚を、控え室に置いてよい。そのカードが《Mirrorverse》か《Disney》のキャラなら、相手にＸダメージを与える。Ｘはそのカードのレベルに等しい。（ダメージキャンセルは発生する）\n\"-\"",
+   "traits": [
+    "Mirrorverse",
+    "Disney"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrd_s111_072msp.png",
+   "variant": ""
+  },
+  {
+   "num": "MRd/S111-073",
+   "name": "“Poison Hearted Monarch”女王",
+   "type": "Character",
+   "rarity": "R",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［手札を1枚控え室に置く］ あなたのトリガーアイコンが[[gate.gif]]のCXがトリガーした時、あなたはコストを払ってよい。そうしたら、あなたは1枚引く。\n【自】【CXコンボ】［他のあなたの舞台の、《Mirrorverse》か《Disney》のキャラを1枚控え室に置き、あなたのCX置場の「Heartsbane Harvest」を1枚控え室に置く］ あなたのアンコールステップの始めに、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見て《Mirrorverse》か《Disney》のキャラを2枚まで選んで相手に見せ、1枚選び、手札に加え、残りのカードをストック置場に置き、その山札をシャッフルする。\n\"-\"",
+   "traits": [
+    "Mirrorverse",
+    "Disney"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrd_s111_073.png",
+   "variant": ""
+  },
+  {
+   "num": "MRd/S111-073SP",
+   "name": "“Poison Hearted Monarch”女王",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［手札を1枚控え室に置く］ あなたのトリガーアイコンが[[gate.gif]]のCXがトリガーした時、あなたはコストを払ってよい。そうしたら、あなたは1枚引く。\n【自】【CXコンボ】［他のあなたの舞台の、《Mirrorverse》か《Disney》のキャラを1枚控え室に置き、あなたのCX置場の「Heartsbane Harvest」を1枚控え室に置く］ あなたのアンコールステップの始めに、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見て《Mirrorverse》か《Disney》のキャラを2枚まで選んで相手に見せ、1枚選び、手札に加え、残りのカードをストック置場に置き、その山札をシャッフルする。\n\"-\"",
+   "traits": [
+    "Mirrorverse",
+    "Disney"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrd_s111_073sp.png",
+   "variant": ""
+  },
+  {
+   "num": "MRd/S111-074",
+   "name": "“Sorcerous Seeker”ジャファー",
+   "type": "Character",
+   "rarity": "R",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［他のあなたの舞台の、《Mirrorverse》か《Disney》のキャラを1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは相手の後列のキャラを1枚選び、相手の舞台のキャラのいない他の枠に動かす。\n\"-\"",
+   "traits": [
+    "Mirrorverse",
+    "Disney"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrd_s111_074.png",
+   "variant": ""
+  },
+  {
+   "num": "MRd/S111-074SP",
+   "name": "“Sorcerous Seeker”ジャファー",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［他のあなたの舞台の、《Mirrorverse》か《Disney》のキャラを1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは相手の後列のキャラを1枚選び、相手の舞台のキャラのいない他の枠に動かす。\n\"-\"",
+   "traits": [
+    "Mirrorverse",
+    "Disney"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrd_s111_074sp.png",
+   "variant": ""
+  },
+  {
+   "num": "MRd/S111-076",
+   "name": "“Ice Storm Elemental”エルサ",
+   "type": "Character",
+   "rarity": "R",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "6000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの、《Mirrorverse》か《Disney》のキャラ1枚につき、このカードのパワーを＋1000。\n【自】【CXコンボ】［あなたのCX置場の「Frostbite」を1枚控え室に置く］ このカードのバトル相手が【リバース】した時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を上から4枚まで見て、《Mirrorverse》か《Disney》のキャラを4枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。\n\"-\"",
+   "traits": [
+    "Mirrorverse",
+    "Disney"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrd_s111_076.png",
+   "variant": ""
+  },
+  {
+   "num": "MRd/S111-076SP",
+   "name": "“Ice Storm Elemental”エルサ",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "6000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの、《Mirrorverse》か《Disney》のキャラ1枚につき、このカードのパワーを＋1000。\n【自】【CXコンボ】［あなたのCX置場の「Frostbite」を1枚控え室に置く］ このカードのバトル相手が【リバース】した時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を上から4枚まで見て、《Mirrorverse》か《Disney》のキャラを4枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。\n\"-\"",
+   "traits": [
+    "Mirrorverse",
+    "Disney"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrd_s111_076sp.png",
+   "variant": ""
+  },
+  {
+   "num": "MRd/S111-077",
+   "name": "“Dicey Heavy Hitter”ウギー・ブギー",
+   "type": "Character",
+   "rarity": "R",
+   "color": "blue",
+   "level": "3",
+   "cost": "2",
+   "power": "9000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたの、《Mirrorverse》か《Disney》のキャラが4枚以上なら、あなたの手札のこのカードのレベルを－1。\n【永】 他のあなたの、《Mirrorverse》か《Disney》のキャラが2枚以上なら、このカードのパワーを＋1000。\n【自】 このカードが、手札か山札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n\"-\"",
+   "traits": [
+    "Mirrorverse",
+    "Disney"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrd_s111_077.png",
+   "variant": ""
+  },
+  {
+   "num": "MRd/S111-077SP",
+   "name": "“Dicey Heavy Hitter”ウギー・ブギー",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "blue",
+   "level": "3",
+   "cost": "2",
+   "power": "9000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたの、《Mirrorverse》か《Disney》のキャラが4枚以上なら、あなたの手札のこのカードのレベルを－1。\n【永】 他のあなたの、《Mirrorverse》か《Disney》のキャラが2枚以上なら、このカードのパワーを＋1000。\n【自】 このカードが、手札か山札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n\"-\"",
+   "traits": [
+    "Mirrorverse",
+    "Disney"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrd_s111_077sp.png",
+   "variant": ""
+  },
+  {
+   "num": "MRd/S111-078",
+   "name": "“Royal Champion of Atlantica”アリエル",
+   "type": "Character",
+   "rarity": "R",
+   "color": "blue",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 相手のレベル3以上のキャラがいるなら、あなたの手札のこのカードのレベルを－1。\n【自】 このカードが、手札か山札から舞台に置かれたターン中、このカードがアタックした時、あなたのキャラすべてに、そのターン中、パワーを＋1000し、次の能力を与える。『【自】 このカードのバトル相手が【リバース】した時、あなたはそのキャラを山札の下に置いてよい。』\n\"-\"",
+   "traits": [
+    "Mirrorverse",
+    "Disney"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrd_s111_078.png",
+   "variant": ""
+  },
+  {
+   "num": "MRd/S111-078SP",
+   "name": "“Royal Champion of Atlantica”アリエル",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "blue",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 相手のレベル3以上のキャラがいるなら、あなたの手札のこのカードのレベルを－1。\n【自】 このカードが、手札か山札から舞台に置かれたターン中、このカードがアタックした時、あなたのキャラすべてに、そのターン中、パワーを＋1000し、次の能力を与える。『【自】 このカードのバトル相手が【リバース】した時、あなたはそのキャラを山札の下に置いてよい。』\n\"-\"",
+   "traits": [
+    "Mirrorverse",
+    "Disney"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrd_s111_078sp.png",
+   "variant": ""
+  },
+  {
+   "num": "MRd/S111-079",
+   "name": "“ミラー・ウォリアーズ”ハデス",
+   "type": "Character",
+   "rarity": "U",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の控え室の、《Mirrorverse》か《Disney》のキャラを1枚選び、このカードの下にマーカーとして裏向きに置いてよい。\n【自】 あなたのターン中、このカードの下にマーカーがあり、【スタンド】しているこのカードが舞台から控え室に置かれた時、あなたはこのカードをこのカードがいた枠に【レスト】して置いてよい。\n【起】 集中 ［(1) このカードを【レスト】する］ あなたは自分の山札の上から4枚をめくり、控え室に置く。それらのカードのCX1枚につき、あなたは自分の控え室のキャラを1枚まで選び、手札に戻す。\n\"-\"",
+   "traits": [
+    "Mirrorverse",
+    "Disney"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrd_s111_079.png",
+   "variant": ""
+  },
+  {
+   "num": "MRd/S111-079S",
+   "name": "“ミラー・ウォリアーズ”ハデス",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の控え室の、《Mirrorverse》か《Disney》のキャラを1枚選び、このカードの下にマーカーとして裏向きに置いてよい。\n【自】 あなたのターン中、このカードの下にマーカーがあり、【スタンド】しているこのカードが舞台から控え室に置かれた時、あなたはこのカードをこのカードがいた枠に【レスト】して置いてよい。\n【起】 集中 ［(1) このカードを【レスト】する］ あなたは自分の山札の上から4枚をめくり、控え室に置く。それらのカードのCX1枚につき、あなたは自分の控え室のキャラを1枚まで選び、手札に戻す。\n\"-\"",
+   "traits": [
+    "Mirrorverse",
+    "Disney"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrd_s111_079s.png",
+   "variant": ""
+  },
+  {
+   "num": "MRd/S111-080",
+   "name": "“Reinforced Resilience”アナ",
+   "type": "Character",
+   "rarity": "U",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［手札を3枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室のキャラを2枚まで選び、手札に戻す。\n\"-\"",
+   "traits": [
+    "Mirrorverse",
+    "Disney"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrd_s111_080.png",
+   "variant": ""
+  },
+  {
+   "num": "MRd/S111-080S",
+   "name": "“Reinforced Resilience”アナ",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［手札を3枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室のキャラを2枚まで選び、手札に戻す。\n\"-\"",
+   "traits": [
+    "Mirrorverse",
+    "Disney"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrd_s111_080s.png",
+   "variant": ""
+  },
+  {
+   "num": "MRd/S111-081",
+   "name": "“Ward of Arendelle”アナ",
+   "type": "Character",
+   "rarity": "U",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのキャラすべてが《Mirrorverse》か《Disney》なら、このカードのパワーを＋2500し、このカードは『【自】 アンコール ［あなたの控え室の、《Mirrorverse》か《Disney》のキャラを1枚クロック置場の下に置く］』を得る。\n【自】［手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「“Ice Storm Elemental”エルサ」を1枚まで選び、手札に戻す。\n\"-\"",
+   "traits": [
+    "Mirrorverse",
+    "Disney"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrd_s111_081.png",
+   "variant": ""
+  },
+  {
+   "num": "MRd/S111-081S",
+   "name": "“Ward of Arendelle”アナ",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのキャラすべてが《Mirrorverse》か《Disney》なら、このカードのパワーを＋2500し、このカードは『【自】 アンコール ［あなたの控え室の、《Mirrorverse》か《Disney》のキャラを1枚クロック置場の下に置く］』を得る。\n【自】［手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「“Ice Storm Elemental”エルサ」を1枚まで選び、手札に戻す。\n\"-\"",
+   "traits": [
+    "Mirrorverse",
+    "Disney"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrd_s111_081s.png",
+   "variant": ""
+  },
+  {
+   "num": "MRd/S111-082",
+   "name": "“ミラー・ウォリアーズ”ウギー・ブギー",
+   "type": "Character",
+   "rarity": "U",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［手札を2枚控え室に置く］ このカードが手札から舞台に置かれた時、他のあなたの、《Mirrorverse》か《Disney》のキャラが2枚以上なら、あなたはコストを払ってよい。そうしたら、あなたは2枚まで引く。\n\"-\"",
+   "traits": [
+    "Mirrorverse",
+    "Disney"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrd_s111_082.png",
+   "variant": ""
+  },
+  {
+   "num": "MRd/S111-082S",
+   "name": "“ミラー・ウォリアーズ”ウギー・ブギー",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［手札を2枚控え室に置く］ このカードが手札から舞台に置かれた時、他のあなたの、《Mirrorverse》か《Disney》のキャラが2枚以上なら、あなたはコストを払ってよい。そうしたら、あなたは2枚まで引く。\n\"-\"",
+   "traits": [
+    "Mirrorverse",
+    "Disney"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrd_s111_082s.png",
+   "variant": ""
+  },
+  {
+   "num": "MRd/S111-083",
+   "name": "“Luminous Alchemist”ティアナ",
+   "type": "Character",
+   "rarity": "U",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 他のあなたの、《Mirrorverse》か《Disney》のキャラがアタックした時、そのターン中、このカードのパワーを＋1500。\n【自】 加速 ［あなたの山札の上から1枚をクロック置場に置く］ あなたのCXフェイズの始めに、あなたはコストを払ってよい。そうしたら、そのターン中、このカードのパワーを＋1000し、このカードは次の能力を得る。『【自】 このカードのバトル相手が【リバース】した時、あなたは自分の山札を上から4枚まで見て、レベル1以上のカードを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。』（CXのレベルは0として扱う）\n\"-\"",
+   "traits": [
+    "Mirrorverse",
+    "Disney"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrd_s111_083.png",
+   "variant": ""
+  },
+  {
+   "num": "MRd/S111-083S",
+   "name": "“Luminous Alchemist”ティアナ",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 他のあなたの、《Mirrorverse》か《Disney》のキャラがアタックした時、そのターン中、このカードのパワーを＋1500。\n【自】 加速 ［あなたの山札の上から1枚をクロック置場に置く］ あなたのCXフェイズの始めに、あなたはコストを払ってよい。そうしたら、そのターン中、このカードのパワーを＋1000し、このカードは次の能力を得る。『【自】 このカードのバトル相手が【リバース】した時、あなたは自分の山札を上から4枚まで見て、レベル1以上のカードを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。』（CXのレベルは0として扱う）\n\"-\"",
+   "traits": [
+    "Mirrorverse",
+    "Disney"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrd_s111_083s.png",
+   "variant": ""
+  },
+  {
+   "num": "MRd/S111-084",
+   "name": "“Merciless Beast Hunter”ガストン",
+   "type": "Character",
+   "rarity": "U",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのターン中、他のあなたの、《Mirrorverse》か《Disney》のキャラがいるなら、このカードのパワーを＋1500。\n【自】［(1) 他のあなたの舞台の、《Mirrorverse》か《Disney》のキャラを1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見て《Mirrorverse》か《Disney》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"-\"",
+   "traits": [
+    "Mirrorverse",
+    "Disney"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrd_s111_084.png",
+   "variant": ""
+  },
+  {
+   "num": "MRd/S111-084S",
+   "name": "“Merciless Beast Hunter”ガストン",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのターン中、他のあなたの、《Mirrorverse》か《Disney》のキャラがいるなら、このカードのパワーを＋1500。\n【自】［(1) 他のあなたの舞台の、《Mirrorverse》か《Disney》のキャラを1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見て《Mirrorverse》か《Disney》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"-\"",
+   "traits": [
+    "Mirrorverse",
+    "Disney"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrd_s111_084s.png",
+   "variant": ""
+  },
+  {
+   "num": "MRd/S111-085",
+   "name": "“Living Legend”マウイ",
+   "type": "Character",
+   "rarity": "U",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "6000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが【リバース】した時、あなたは自分の山札の上から1枚を、クロック置場に置き、このカードを【レスト】する。\n【起】［手札を1枚控え室に置き、このカードを控え室に置く］ あなたは自分の山札を見て《Mirrorverse》か《Disney》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"-\"",
+   "traits": [
+    "Mirrorverse",
+    "Disney"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrd_s111_085.png",
+   "variant": ""
+  },
+  {
+   "num": "MRd/S111-085S",
+   "name": "“Living Legend”マウイ",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "6000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが【リバース】した時、あなたは自分の山札の上から1枚を、クロック置場に置き、このカードを【レスト】する。\n【起】［手札を1枚控え室に置き、このカードを控え室に置く］ あなたは自分の山札を見て《Mirrorverse》か《Disney》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"-\"",
+   "traits": [
+    "Mirrorverse",
+    "Disney"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrd_s111_085s.png",
+   "variant": ""
+  },
+  {
+   "num": "MRd/S111-086",
+   "name": "“Mistress of the Darkest Depths”アースラ",
+   "type": "Character",
+   "rarity": "U",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋Ｘ。Ｘはそのキャラのレベル×500に等しい。\n【自】［(1)］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室のレベル0以下のキャラを2枚まで選び、舞台の別々の枠に【レスト】して置く。\n\"-\"",
+   "traits": [
+    "Mirrorverse",
+    "Disney"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrd_s111_086.png",
+   "variant": ""
+  },
+  {
+   "num": "MRd/S111-086S",
+   "name": "“Mistress of the Darkest Depths”アースラ",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋Ｘ。Ｘはそのキャラのレベル×500に等しい。\n【自】［(1)］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室のレベル0以下のキャラを2枚まで選び、舞台の別々の枠に【レスト】して置く。\n\"-\"",
+   "traits": [
+    "Mirrorverse",
+    "Disney"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrd_s111_086s.png",
+   "variant": ""
+  },
+  {
+   "num": "MRd/S111-087",
+   "name": "“Devilish Queen of Crime”クルエラ",
+   "type": "Character",
+   "rarity": "U",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "7000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】［他のあなたの舞台のキャラを1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは相手のレベル0以下のキャラを1枚選び、控え室に置く。\n\"-\"",
+   "traits": [
+    "Mirrorverse",
+    "Disney"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrd_s111_087.png",
+   "variant": ""
+  },
+  {
+   "num": "MRd/S111-087S",
+   "name": "“Devilish Queen of Crime”クルエラ",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "7000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】［他のあなたの舞台のキャラを1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは相手のレベル0以下のキャラを1枚選び、控え室に置く。\n\"-\"",
+   "traits": [
+    "Mirrorverse",
+    "Disney"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrd_s111_087s.png",
+   "variant": ""
+  },
+  {
+   "num": "MRd/S111-088",
+   "name": "“ミラー・ウォリアーズ”ジャファー",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［手札を1枚控え室に置き、他のあなたの舞台のキャラを1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を上から3枚まで見て、カードを1枚まで選び、手札に加え、残りのカードを控え室に置く。\n\"-\"",
+   "traits": [
+    "Mirrorverse",
+    "Disney"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrd_s111_088.png",
+   "variant": ""
+  },
+  {
+   "num": "MRd/S111-088S",
+   "name": "“ミラー・ウォリアーズ”ジャファー",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［手札を1枚控え室に置き、他のあなたの舞台のキャラを1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を上から3枚まで見て、カードを1枚まで選び、手札に加え、残りのカードを控え室に置く。\n\"-\"",
+   "traits": [
+    "Mirrorverse",
+    "Disney"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrd_s111_088s.png",
+   "variant": ""
+  },
+  {
+   "num": "MRd/S111-089",
+   "name": "“ミラー・ウォリアーズ”クルエラ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは相手の前列のキャラを1枚選び、そのターン中、パワーを－1000。\n【自】 このカードが舞台から控え室に置かれた時、あなたは自分の山札の上から3枚までを、公開してよい。1枚以上公開したなら、あなたはそれらのカードのトリガーアイコンに[[soul.gif]]があるカードを1枚まで選び、手札に加え、残りのカードを控え室に置き、自分の手札を1枚選び、控え室に置く。\n\"-\"",
+   "traits": [
+    "Mirrorverse",
+    "Disney"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrd_s111_089.png",
+   "variant": ""
+  },
+  {
+   "num": "MRd/S111-089S",
+   "name": "“ミラー・ウォリアーズ”クルエラ",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは相手の前列のキャラを1枚選び、そのターン中、パワーを－1000。\n【自】 このカードが舞台から控え室に置かれた時、あなたは自分の山札の上から3枚までを、公開してよい。1枚以上公開したなら、あなたはそれらのカードのトリガーアイコンに[[soul.gif]]があるカードを1枚まで選び、手札に加え、残りのカードを控え室に置き、自分の手札を1枚選び、控え室に置く。\n\"-\"",
+   "traits": [
+    "Mirrorverse",
+    "Disney"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrd_s111_089s.png",
+   "variant": ""
+  },
+  {
+   "num": "MRd/S111-090",
+   "name": "“ミラー・ウォリアーズ”アースラ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは相手のキャラを1枚とそのキャラの特徴を1つ選び、そのターン中、そのキャラはその特徴をすべて失う。\n【起】［このカードを【レスト】する］ あなたは相手のキャラを1枚選び、次の相手のターンの終わりまで、パワーを＋500し、次の能力を与える。『【永】 このカードのバトル中、あなたはイベントと『助太刀』を、手札からプレイできない。』\n\"-\"",
+   "traits": [
+    "Mirrorverse",
+    "Disney"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrd_s111_090.png",
+   "variant": ""
+  },
+  {
+   "num": "MRd/S111-090S",
+   "name": "“ミラー・ウォリアーズ”アースラ",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは相手のキャラを1枚とそのキャラの特徴を1つ選び、そのターン中、そのキャラはその特徴をすべて失う。\n【起】［このカードを【レスト】する］ あなたは相手のキャラを1枚選び、次の相手のターンの終わりまで、パワーを＋500し、次の能力を与える。『【永】 このカードのバトル中、あなたはイベントと『助太刀』を、手札からプレイできない。』\n\"-\"",
+   "traits": [
+    "Mirrorverse",
+    "Disney"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrd_s111_090s.png",
+   "variant": ""
+  },
+  {
+   "num": "MRd/S111-093",
+   "name": "闇の勢力「虚像」",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、そのターン中、このカードのパワーを＋5000し、このカードは次の能力を得る。『【自】 ターンの終わりに、このカードを控え室に置く。』\n\"-\"",
+   "traits": [
+    "Mirrorverse",
+    "Disney"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrd_s111_093.png",
+   "variant": ""
+  },
+  {
+   "num": "MRd/S111-093S",
+   "name": "闇の勢力「虚像」",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、そのターン中、このカードのパワーを＋5000し、このカードは次の能力を得る。『【自】 ターンの終わりに、このカードを控え室に置く。』\n\"-\"",
+   "traits": [
+    "Mirrorverse",
+    "Disney"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrd_s111_093s.png",
+   "variant": ""
+  },
+  {
+   "num": "MRd/S111-095",
+   "name": "“ミラー・ウォリアーズ”ガストン",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 相手のキャラ1枚につき、このカードのパワーを＋1000。\n【自】［他のあなたの舞台の、《Mirrorverse》か《Disney》のキャラを1枚控え室に置く］ 相手のアタックフェイズの始めに、あなたはコストを払ってよい。そうしたら、あなたはこのカードをキャラのいない枠に動かし、そのターン中、このカードのパワーを＋1000。\n\"-\"",
+   "traits": [
+    "Mirrorverse",
+    "Disney"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrd_s111_095.png",
+   "variant": ""
+  },
+  {
+   "num": "MRd/S111-095S",
+   "name": "“ミラー・ウォリアーズ”ガストン",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 相手のキャラ1枚につき、このカードのパワーを＋1000。\n【自】［他のあなたの舞台の、《Mirrorverse》か《Disney》のキャラを1枚控え室に置く］ 相手のアタックフェイズの始めに、あなたはコストを払ってよい。そうしたら、あなたはこのカードをキャラのいない枠に動かし、そのターン中、このカードのパワーを＋1000。\n\"-\"",
+   "traits": [
+    "Mirrorverse",
+    "Disney"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrd_s111_095s.png",
+   "variant": ""
+  },
+  {
+   "num": "MRd/S111-096",
+   "name": "“Wayfinding Warrior”モアナ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "4500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、他のあなたの、《Mirrorverse》か《Disney》のキャラが4枚以上なら、次の相手のターンの終わりまで、このカードは次の能力を得る。『【永】 このカードは【リバース】しない。』\n\"-\"",
+   "traits": [
+    "Mirrorverse",
+    "Disney"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrd_s111_096.png",
+   "variant": ""
+  },
+  {
+   "num": "MRd/S111-096S",
+   "name": "“Wayfinding Warrior”モアナ",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "4500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、他のあなたの、《Mirrorverse》か《Disney》のキャラが4枚以上なら、次の相手のターンの終わりまで、このカードは次の能力を得る。『【永】 このカードは【リバース】しない。』\n\"-\"",
+   "traits": [
+    "Mirrorverse",
+    "Disney"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrd_s111_096s.png",
+   "variant": ""
+  },
+  {
+   "num": "MRd/S111-097",
+   "name": "マレフィセントの虚像",
+   "type": "Event",
+   "rarity": "U",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "あなたは自分の控え室の、自分か相手の舞台にいる《Mirrorverse》のキャラと同じカード名の《Mirrorverse》のキャラを1枚選び、手札に戻す。\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrd_s111_097.png",
+   "variant": ""
+  },
+  {
+   "num": "MRd/S111-097S",
+   "name": "マレフィセントの虚像",
+   "type": "Event",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "あなたは自分の控え室の、自分か相手の舞台にいる《Mirrorverse》のキャラと同じカード名の《Mirrorverse》のキャラを1枚選び、手札に戻す。\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrd_s111_097s.png",
+   "variant": ""
+  },
+  {
+   "num": "MRd/S111-098",
+   "name": "Electroclasm",
+   "type": "Climax",
+   "rarity": "CR",
+   "color": "blue",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[gate.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[gate.gif]]：このカードがトリガーした時、あなたは自分の控え室のCXを1枚選び、手札に戻してよい）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrd_s111_098.png",
+   "variant": ""
+  },
+  {
+   "num": "MRd/S111-098R",
+   "name": "Electroclasm",
+   "type": "Climax",
+   "rarity": "RRR",
+   "color": "blue",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[gate.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[gate.gif]]：このカードがトリガーした時、あなたは自分の控え室のCXを1枚選び、手札に戻してよい）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrd_s111_098r.png",
+   "variant": ""
+  },
+  {
+   "num": "MRd/S111-099",
+   "name": "Heartsbane Harvest",
+   "type": "Climax",
+   "rarity": "CR",
+   "color": "blue",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[gate.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[gate.gif]]：このカードがトリガーした時、あなたは自分の控え室のCXを1枚選び、手札に戻してよい）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrd_s111_099.png",
+   "variant": ""
+  },
+  {
+   "num": "MRd/S111-099R",
+   "name": "Heartsbane Harvest",
+   "type": "Climax",
+   "rarity": "RRR",
+   "color": "blue",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[gate.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[gate.gif]]：このカードがトリガーした時、あなたは自分の控え室のCXを1枚選び、手札に戻してよい）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrd_s111_099r.png",
+   "variant": ""
+  },
+  {
+   "num": "MRd/S111-100",
+   "name": "Frostbite",
+   "type": "Climax",
+   "rarity": "CR",
+   "color": "blue",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[gate.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[gate.gif]]：このカードがトリガーした時、あなたは自分の控え室のCXを1枚選び、手札に戻してよい）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrd_s111_100.png",
+   "variant": ""
+  },
+  {
+   "num": "MRd/S111-100R",
+   "name": "Frostbite",
+   "type": "Climax",
+   "rarity": "RRR",
+   "color": "blue",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[gate.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[gate.gif]]：このカードがトリガーした時、あなたは自分の控え室のCXを1枚選び、手札に戻してよい）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrd_s111_100r.png",
+   "variant": ""
+  },
+  {
+   "num": "MRp/S111-008",
+   "name": "“Heavy Hitting Cowboy”ウッディ",
+   "type": "Character",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "3",
+   "cost": "2",
+   "power": "9500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが、手札か山札から舞台に置かれた時、あなたは1枚まで引き、相手のキャラを1枚選び、そのターン中、次の能力を与える。『【永】 このカードのバトル中、あなたはイベントと『助太刀』を、手札からプレイできない。』\n【自】 このカードが、手札か山札から舞台に置かれた時、あなたは自分の、《Mirrorverse》か《PIXAR》のキャラを1枚選び、そのターン中、パワーを＋Ｘ。Ｘはあなたの、《Mirrorverse》か《PIXAR》のキャラの枚数×500に等しい。\n\"-\"",
+   "traits": [
+    "Mirrorverse",
+    "PIXAR"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrp_s111_008.png",
+   "variant": ""
+  },
+  {
+   "num": "MRp/S111-008SP",
+   "name": "“Heavy Hitting Cowboy”ウッディ",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "yellow",
+   "level": "3",
+   "cost": "2",
+   "power": "9500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが、手札か山札から舞台に置かれた時、あなたは1枚まで引き、相手のキャラを1枚選び、そのターン中、次の能力を与える。『【永】 このカードのバトル中、あなたはイベントと『助太刀』を、手札からプレイできない。』\n【自】 このカードが、手札か山札から舞台に置かれた時、あなたは自分の、《Mirrorverse》か《PIXAR》のキャラを1枚選び、そのターン中、パワーを＋Ｘ。Ｘはあなたの、《Mirrorverse》か《PIXAR》のキャラの枚数×500に等しい。\n\"-\"",
+   "traits": [
+    "Mirrorverse",
+    "PIXAR"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrp_s111_008sp.png",
+   "variant": ""
+  },
+  {
+   "num": "MRp/S111-012",
+   "name": "“Fiery Arbiter of Justice”イカリ",
+   "type": "Character",
+   "rarity": "U",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのCX置場にトリガーアイコンが[[choice.gif]]のCXがあるなら、すべての領域にあるこのカードはトリガーアイコンに[[choice.gif]]を得る。\n【永】 あなたのターン中、他のあなたの、《Mirrorverse》か《PIXAR》のキャラが2枚以上なら、このカードのパワーを＋4000。\n\"-\"",
+   "traits": [
+    "Mirrorverse",
+    "PIXAR"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrp_s111_012.png",
+   "variant": ""
+  },
+  {
+   "num": "MRp/S111-012S",
+   "name": "“Fiery Arbiter of Justice”イカリ",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのCX置場にトリガーアイコンが[[choice.gif]]のCXがあるなら、すべての領域にあるこのカードはトリガーアイコンに[[choice.gif]]を得る。\n【永】 あなたのターン中、他のあなたの、《Mirrorverse》か《PIXAR》のキャラが2枚以上なら、このカードのパワーを＋4000。\n\"-\"",
+   "traits": [
+    "Mirrorverse",
+    "PIXAR"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrp_s111_012s.png",
+   "variant": ""
+  },
+  {
+   "num": "MRp/S111-015",
+   "name": "“Bomb-bastic Battle-saurus”レックス",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、他のあなたの、《Mirrorverse》か《PIXAR》のキャラが2枚以上なら、あなたは1枚引いてよい。そうしたら、あなたは自分の手札を1枚選び、控え室に置く。\n【自】 このカードがアタックした時、あなたは他の自分の、《Mirrorverse》か《PIXAR》のキャラを1枚選び、次の相手のターンの終わりまで、パワーを＋1000し、『【自】 アンコール ［手札のキャラを1枚控え室に置く］』を与える。\n\"-\"",
+   "traits": [
+    "Mirrorverse",
+    "PIXAR"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrp_s111_015.png",
+   "variant": ""
+  },
+  {
+   "num": "MRp/S111-015S",
+   "name": "“Bomb-bastic Battle-saurus”レックス",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、他のあなたの、《Mirrorverse》か《PIXAR》のキャラが2枚以上なら、あなたは1枚引いてよい。そうしたら、あなたは自分の手札を1枚選び、控え室に置く。\n【自】 このカードがアタックした時、あなたは他の自分の、《Mirrorverse》か《PIXAR》のキャラを1枚選び、次の相手のターンの終わりまで、パワーを＋1000し、『【自】 アンコール ［手札のキャラを1枚控え室に置く］』を与える。\n\"-\"",
+   "traits": [
+    "Mirrorverse",
+    "PIXAR"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrp_s111_015s.png",
+   "variant": ""
+  },
+  {
+   "num": "MRp/S111-023",
+   "name": "“Prototypical Space Ranger”バズ",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの、《Mirrorverse》か《PIXAR》のキャラが2枚以上なら、このカードのパワーを＋2000。\n【自】【CXコンボ】 このカードがアタックした時、CX置場に「Disruptor Cannon」があり、他のあなたの、《Mirrorverse》か《PIXAR》のキャラが2枚以上なら、あなたは自分の山札を上から4枚まで見て、《Mirrorverse》か《PIXAR》のキャラを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置き、バトル中以外の相手のキャラを1枚まで選び、思い出にし、相手は自分の思い出置場のそのキャラを、そのキャラがいた枠に置く。\n\"-\"",
+   "traits": [
+    "Mirrorverse",
+    "PIXAR"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrp_s111_023.png",
+   "variant": ""
+  },
+  {
+   "num": "MRp/S111-023MSP",
+   "name": "“Prototypical Space Ranger”バズ",
+   "type": "Character",
+   "rarity": "MSP",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの、《Mirrorverse》か《PIXAR》のキャラが2枚以上なら、このカードのパワーを＋2000。\n【自】【CXコンボ】 このカードがアタックした時、CX置場に「Disruptor Cannon」があり、他のあなたの、《Mirrorverse》か《PIXAR》のキャラが2枚以上なら、あなたは自分の山札を上から4枚まで見て、《Mirrorverse》か《PIXAR》のキャラを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置き、バトル中以外の相手のキャラを1枚まで選び、思い出にし、相手は自分の思い出置場のそのキャラを、そのキャラがいた枠に置く。\n\"-\"",
+   "traits": [
+    "Mirrorverse",
+    "PIXAR"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrp_s111_023msp.png",
+   "variant": ""
+  },
+  {
+   "num": "MRp/S111-025",
+   "name": "“Tyrant of the Timelines”ザーグ",
+   "type": "Character",
+   "rarity": "R",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［手札を1枚控え室に置く］ あなたのトリガーアイコンが[[treasure.gif]]のCXがトリガーした時、あなたはコストを払ってよい。そうしたら、あなたは自分のクロックを1枚選び、手札に戻し、自分の山札の上から1枚を、クロック置場に置く。\n【起】【CXコンボ】 集中 ［(1) このカードを【レスト】する］ あなたは自分の山札の上から4枚をめくり、控え室に置く。それらのカードの「Disruptor Cannon」か「Shrouded Sword」1枚につき、あなたは自分の控え室のキャラを1枚まで選び、手札に戻し、自分のキャラを1枚選び、そのターン中、パワーを＋1000。\n\"-\"",
+   "traits": [
+    "Mirrorverse",
+    "PIXAR"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrp_s111_025.png",
+   "variant": ""
+  },
+  {
+   "num": "MRp/S111-025SP",
+   "name": "“Tyrant of the Timelines”ザーグ",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［手札を1枚控え室に置く］ あなたのトリガーアイコンが[[treasure.gif]]のCXがトリガーした時、あなたはコストを払ってよい。そうしたら、あなたは自分のクロックを1枚選び、手札に戻し、自分の山札の上から1枚を、クロック置場に置く。\n【起】【CXコンボ】 集中 ［(1) このカードを【レスト】する］ あなたは自分の山札の上から4枚をめくり、控え室に置く。それらのカードの「Disruptor Cannon」か「Shrouded Sword」1枚につき、あなたは自分の控え室のキャラを1枚まで選び、手札に戻し、自分のキャラを1枚選び、そのターン中、パワーを＋1000。\n\"-\"",
+   "traits": [
+    "Mirrorverse",
+    "PIXAR"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrp_s111_025sp.png",
+   "variant": ""
+  },
+  {
+   "num": "MRp/S111-026",
+   "name": "“Terraformer of Planets”WALL・E",
+   "type": "Character",
+   "rarity": "R",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［手札を1枚控え室に置く］ このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を上から4枚まで見て、レベル1以上のカードを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。（CXのレベルは0として扱う）\n\"-\"",
+   "traits": [
+    "Mirrorverse",
+    "PIXAR"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrp_s111_026.png",
+   "variant": ""
+  },
+  {
+   "num": "MRp/S111-026SP",
+   "name": "“Terraformer of Planets”WALL・E",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［手札を1枚控え室に置く］ このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を上から4枚まで見て、レベル1以上のカードを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。（CXのレベルは0として扱う）\n\"-\"",
+   "traits": [
+    "Mirrorverse",
+    "PIXAR"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrp_s111_026sp.png",
+   "variant": ""
+  },
+  {
+   "num": "MRp/S111-028",
+   "name": "“Planetary Security Sentry”EVE",
+   "type": "Character",
+   "rarity": "R",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのターン中、他のあなたの、《Mirrorverse》か《PIXAR》のキャラがいるなら、このカードのパワーを＋1500。\n【自】［(1) 手札のCXを1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室のCXを1枚選び、手札に戻す。\n\"-\"",
+   "traits": [
+    "Mirrorverse",
+    "PIXAR"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrp_s111_028.png",
+   "variant": ""
+  },
+  {
+   "num": "MRp/S111-028SP",
+   "name": "“Planetary Security Sentry”EVE",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのターン中、他のあなたの、《Mirrorverse》か《PIXAR》のキャラがいるなら、このカードのパワーを＋1500。\n【自】［(1) 手札のCXを1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室のCXを1枚選び、手札に戻す。\n\"-\"",
+   "traits": [
+    "Mirrorverse",
+    "PIXAR"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrp_s111_028sp.png",
+   "variant": ""
+  },
+  {
+   "num": "MRp/S111-032",
+   "name": "“Monstrous Mechanized Pal”マイク",
+   "type": "Character",
+   "rarity": "U",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［あなたのストックの上から1枚をクロック置場に置く］ このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を上から2枚まで見て、《Mirrorverse》か《PIXAR》のキャラを2枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。\n\"-\"",
+   "traits": [
+    "Mirrorverse",
+    "PIXAR"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrp_s111_032.png",
+   "variant": ""
+  },
+  {
+   "num": "MRp/S111-032S",
+   "name": "“Monstrous Mechanized Pal”マイク",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［あなたのストックの上から1枚をクロック置場に置く］ このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を上から2枚まで見て、《Mirrorverse》か《PIXAR》のキャラを2枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。\n\"-\"",
+   "traits": [
+    "Mirrorverse",
+    "PIXAR"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrp_s111_032s.png",
+   "variant": ""
+  },
+  {
+   "num": "MRp/S111-035",
+   "name": "“ミラー・ウォリアーズ”ザーグ",
+   "type": "Character",
+   "rarity": "U",
+   "color": "green",
+   "level": "1",
+   "cost": "1",
+   "power": "5500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】【クロック】 アラーム このカードがクロックの1番上にあり、あなたの、《Mirrorverse》か《PIXAR》のキャラが2枚以上なら、あなたのCXフェイズの始めに、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋1500。\n【起】［このカードを控え室に置く］ あなたは自分の控え室の「“Prototypical Space Ranger”バズ」を1枚選び、このカードがいた枠に置き、そのターン中、そのキャラのパワーを＋3000。\n\"-\"",
+   "traits": [
+    "Mirrorverse",
+    "PIXAR"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrp_s111_035.png",
+   "variant": ""
+  },
+  {
+   "num": "MRp/S111-035S",
+   "name": "“ミラー・ウォリアーズ”ザーグ",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "1",
+   "cost": "1",
+   "power": "5500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】【クロック】 アラーム このカードがクロックの1番上にあり、あなたの、《Mirrorverse》か《PIXAR》のキャラが2枚以上なら、あなたのCXフェイズの始めに、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋1500。\n【起】［このカードを控え室に置く］ あなたは自分の控え室の「“Prototypical Space Ranger”バズ」を1枚選び、このカードがいた枠に置き、そのターン中、そのキャラのパワーを＋3000。\n\"-\"",
+   "traits": [
+    "Mirrorverse",
+    "PIXAR"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrp_s111_035s.png",
+   "variant": ""
+  },
+  {
+   "num": "MRp/S111-044",
+   "name": "“ミラー・ウォリアーズ”マイク",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 他のあなたの、《Mirrorverse》か《PIXAR》のキャラがアタックした時、そのターン中、このカードのパワーを＋1500。\n【自】［手札のCXを1枚控え室に置く］ このカードのバトル相手が【リバース】した時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室のキャラを1枚選び、手札に戻す。\n\"-\"",
+   "traits": [
+    "Mirrorverse",
+    "PIXAR"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrp_s111_044.png",
+   "variant": ""
+  },
+  {
+   "num": "MRp/S111-044S",
+   "name": "“ミラー・ウォリアーズ”マイク",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 他のあなたの、《Mirrorverse》か《PIXAR》のキャラがアタックした時、そのターン中、このカードのパワーを＋1500。\n【自】［手札のCXを1枚控え室に置く］ このカードのバトル相手が【リバース】した時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室のキャラを1枚選び、手札に戻す。\n\"-\"",
+   "traits": [
+    "Mirrorverse",
+    "PIXAR"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrp_s111_044s.png",
+   "variant": ""
+  },
+  {
+   "num": "MRp/S111-048",
+   "name": "“ミラー・ウォリアーズ”WALL・E",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "2",
+   "cost": "1",
+   "power": "6500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 経験 あなたのレベル置場に「“ミラー・ウォリアーズ”EVE」があるなら、あなたの手札のこのカードのレベルを－1。\n【自】［手札の、《Mirrorverse》か《PIXAR》のキャラを1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「“ミラー・ウォリアーズ”EVE」を1枚選び、舞台の好きな枠に置く。\n\"-\"",
+   "traits": [
+    "Mirrorverse",
+    "PIXAR"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrp_s111_048.png",
+   "variant": ""
+  },
+  {
+   "num": "MRp/S111-048S",
+   "name": "“ミラー・ウォリアーズ”WALL・E",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "2",
+   "cost": "1",
+   "power": "6500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 経験 あなたのレベル置場に「“ミラー・ウォリアーズ”EVE」があるなら、あなたの手札のこのカードのレベルを－1。\n【自】［手札の、《Mirrorverse》か《PIXAR》のキャラを1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「“ミラー・ウォリアーズ”EVE」を1枚選び、舞台の好きな枠に置く。\n\"-\"",
+   "traits": [
+    "Mirrorverse",
+    "PIXAR"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrp_s111_048s.png",
+   "variant": ""
+  },
+  {
+   "num": "MRp/S111-049",
+   "name": "“ミラー・ウォリアーズ”EVE",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "2",
+   "cost": "1",
+   "power": "6500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたのキャラすべてが《Mirrorverse》か《PIXAR》なら、このカードのパワーを＋3000。\n【自】［手札を1枚控え室に置く］ 相手のアタックフェイズの始めに、あなたはコストを払ってよい。そうしたら、あなたは自分の、《Mirrorverse》か《PIXAR》のキャラを1枚とこのカードを選び、それぞれを【スタンド】して入れ替え、そのターン中、このカードのパワーを＋1000。\n\"-\"",
+   "traits": [
+    "Mirrorverse",
+    "PIXAR"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrp_s111_049.png",
+   "variant": ""
+  },
+  {
+   "num": "MRp/S111-049S",
+   "name": "“ミラー・ウォリアーズ”EVE",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "2",
+   "cost": "1",
+   "power": "6500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたのキャラすべてが《Mirrorverse》か《PIXAR》なら、このカードのパワーを＋3000。\n【自】［手札を1枚控え室に置く］ 相手のアタックフェイズの始めに、あなたはコストを払ってよい。そうしたら、あなたは自分の、《Mirrorverse》か《PIXAR》のキャラを1枚とこのカードを選び、それぞれを【スタンド】して入れ替え、そのターン中、このカードのパワーを＋1000。\n\"-\"",
+   "traits": [
+    "Mirrorverse",
+    "PIXAR"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrp_s111_049s.png",
+   "variant": ""
+  },
+  {
+   "num": "MRp/S111-050",
+   "name": "Disruptor Cannon",
+   "type": "Climax",
+   "rarity": "CR",
+   "color": "green",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[treasure.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[treasure.gif]]：このカードがトリガーした時、あなたはこのカードを手札に戻す。あなたは自分の山札の上から1枚を、ストック置場に置いてよい）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrp_s111_050.png",
+   "variant": ""
+  },
+  {
+   "num": "MRp/S111-050R",
+   "name": "Disruptor Cannon",
+   "type": "Climax",
+   "rarity": "RRR",
+   "color": "green",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[treasure.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[treasure.gif]]：このカードがトリガーした時、あなたはこのカードを手札に戻す。あなたは自分の山札の上から1枚を、ストック置場に置いてよい）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrp_s111_050r.png",
+   "variant": ""
+  },
+  {
+   "num": "MRp/S111-054",
+   "name": "“Rebellious Wisp Archer”メリダ",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "9000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたのキャラすべてが《Mirrorverse》か《PIXAR》なら、このカードのパワーを＋2000し、このカードは次の能力を得る。『【自】［(1)］ このカードがアタックした時、あなたはコストを払ってよい。そうしたら、そのアタック中、あなたはトリガーステップにトリガーチェックを2回行う。』\n【自】【CXコンボ】［(1) 手札のキャラを1枚控え室に置く］ アンコールステップの始めに、あなたのCX置場に「Bear Spirit」があるなら、あなたはコストを払ってよい。そうしたら、相手に1ダメージを与え、あなたは自分のクロックの上から1枚までを、控え室に置く。（ダメージキャンセルは発生する）\n\"-\"",
+   "traits": [
+    "Mirrorverse",
+    "PIXAR"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrp_s111_054.png",
+   "variant": ""
+  },
+  {
+   "num": "MRp/S111-054MSP",
+   "name": "“Rebellious Wisp Archer”メリダ",
+   "type": "Character",
+   "rarity": "MSP",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "9000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたのキャラすべてが《Mirrorverse》か《PIXAR》なら、このカードのパワーを＋2000し、このカードは次の能力を得る。『【自】［(1)］ このカードがアタックした時、あなたはコストを払ってよい。そうしたら、そのアタック中、あなたはトリガーステップにトリガーチェックを2回行う。』\n【自】【CXコンボ】［(1) 手札のキャラを1枚控え室に置く］ アンコールステップの始めに、あなたのCX置場に「Bear Spirit」があるなら、あなたはコストを払ってよい。そうしたら、相手に1ダメージを与え、あなたは自分のクロックの上から1枚までを、控え室に置く。（ダメージキャンセルは発生する）\n\"-\"",
+   "traits": [
+    "Mirrorverse",
+    "PIXAR"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrp_s111_054msp.png",
+   "variant": ""
+  },
+  {
+   "num": "MRp/S111-055",
+   "name": "“A Forcefield for Justice”ヴァイオレット",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［あなたのストックの上から1枚を控え室に置くか、あなたの山札の上から1枚をクロック置場に置く］ このカードがアタックした時、あなたはコストを払ってよい。そうしたら、そのアタック中、あなたはトリガーステップにトリガーチェックを2回行う。\n\"-\"",
+   "traits": [
+    "Mirrorverse",
+    "PIXAR"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrp_s111_055.png",
+   "variant": ""
+  },
+  {
+   "num": "MRp/S111-055SP",
+   "name": "“A Forcefield for Justice”ヴァイオレット",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［あなたのストックの上から1枚を控え室に置くか、あなたの山札の上から1枚をクロック置場に置く］ このカードがアタックした時、あなたはコストを払ってよい。そうしたら、そのアタック中、あなたはトリガーステップにトリガーチェックを2回行う。\n\"-\"",
+   "traits": [
+    "Mirrorverse",
+    "PIXAR"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrp_s111_055sp.png",
+   "variant": ""
+  },
+  {
+   "num": "MRp/S111-056",
+   "name": "“Justice Reforged”Mr.インクレディブル",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは他の自分の、《Mirrorverse》か《PIXAR》のキャラを1枚選び、そのターン中、パワーを＋1000。\n【自】［このカードを手札に戻す］ あなたのCXがCX置場に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋2000。\n\"-\"",
+   "traits": [
+    "Mirrorverse",
+    "PIXAR"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrp_s111_056.png",
+   "variant": ""
+  },
+  {
+   "num": "MRp/S111-056SP",
+   "name": "“Justice Reforged”Mr.インクレディブル",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは他の自分の、《Mirrorverse》か《PIXAR》のキャラを1枚選び、そのターン中、パワーを＋1000。\n【自】［このカードを手札に戻す］ あなたのCXがCX置場に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋2000。\n\"-\"",
+   "traits": [
+    "Mirrorverse",
+    "PIXAR"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrp_s111_056sp.png",
+   "variant": ""
+  },
+  {
+   "num": "MRp/S111-060",
+   "name": "“ミラー・ウォリアーズ”ヴァイオレット",
+   "type": "Character",
+   "rarity": "U",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 あなたがこのカードの『助太刀』を使った時、あなたの、《Mirrorverse》か《PIXAR》のキャラがいるなら、あなたは自分のバトル中のキャラを1枚選び、そのターン中、パワーを＋1000。\n【起】【カウンター】 助太刀1500 レベル1 ［手札のこのカードを公開し、山札の下に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋1500）\n\"-\"",
+   "traits": [
+    "Mirrorverse",
+    "PIXAR"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrp_s111_060.png",
+   "variant": ""
+  },
+  {
+   "num": "MRp/S111-060S",
+   "name": "“ミラー・ウォリアーズ”ヴァイオレット",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 あなたがこのカードの『助太刀』を使った時、あなたの、《Mirrorverse》か《PIXAR》のキャラがいるなら、あなたは自分のバトル中のキャラを1枚選び、そのターン中、パワーを＋1000。\n【起】【カウンター】 助太刀1500 レベル1 ［手札のこのカードを公開し、山札の下に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋1500）\n\"-\"",
+   "traits": [
+    "Mirrorverse",
+    "PIXAR"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrp_s111_060s.png",
+   "variant": ""
+  },
+  {
+   "num": "MRp/S111-066",
+   "name": "“ミラー・ウォリアーズ”Mr.インクレディブル",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "2",
+   "cost": "2",
+   "power": "4000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋1500。\n【起】［このカードを【レスト】する］ あなたは自分の山札を上から1枚見て、山札の上か控え室に置く。\n\"-\"",
+   "traits": [
+    "Mirrorverse",
+    "PIXAR"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrp_s111_066.png",
+   "variant": ""
+  },
+  {
+   "num": "MRp/S111-066S",
+   "name": "“ミラー・ウォリアーズ”Mr.インクレディブル",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "2",
+   "cost": "2",
+   "power": "4000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋1500。\n【起】［このカードを【レスト】する］ あなたは自分の山札を上から1枚見て、山札の上か控え室に置く。\n\"-\"",
+   "traits": [
+    "Mirrorverse",
+    "PIXAR"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrp_s111_066s.png",
+   "variant": ""
+  },
+  {
+   "num": "MRp/S111-068",
+   "name": "Bear Spirit",
+   "type": "Climax",
+   "rarity": "CR",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[standby.gif]]",
+   "text": "【自】 このカードが手札からCX置場に置かれた時、[[standby.gif]]の効果を行う。\n（[[standby.gif]]：このカードがトリガーした時、あなたは自分の控え室の自分のレベル＋1以下のレベルのキャラを1枚選び、舞台の好きな枠に【レスト】して置いてよい）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrp_s111_068.png",
+   "variant": ""
+  },
+  {
+   "num": "MRp/S111-068R",
+   "name": "Bear Spirit",
+   "type": "Climax",
+   "rarity": "RRR",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[standby.gif]]",
+   "text": "【自】 このカードが手札からCX置場に置かれた時、[[standby.gif]]の効果を行う。\n（[[standby.gif]]：このカードがトリガーした時、あなたは自分の控え室の自分のレベル＋1以下のレベルのキャラを1枚選び、舞台の好きな枠に【レスト】して置いてよい）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrp_s111_068r.png",
+   "variant": ""
+  },
+  {
+   "num": "MRp/S111-075",
+   "name": "“Master Mage of New Mushroomton High”イアン",
+   "type": "Character",
+   "rarity": "R",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】［(1)］ あなたがこのカードの『助太刀』を使った時、あなたの控え室のトリガーアイコンが[[choice.gif]]のCXが5枚以上なら、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室のカードすべてを、山札に戻し、その山札をシャッフルする。\n【起】【カウンター】 助太刀2500 レベル2 ［(1) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋2500）\n\"-\"",
+   "traits": [
+    "Mirrorverse",
+    "PIXAR"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrp_s111_075.png",
+   "variant": ""
+  },
+  {
+   "num": "MRp/S111-075SP",
+   "name": "“Master Mage of New Mushroomton High”イアン",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】［(1)］ あなたがこのカードの『助太刀』を使った時、あなたの控え室のトリガーアイコンが[[choice.gif]]のCXが5枚以上なら、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室のカードすべてを、山札に戻し、その山札をシャッフルする。\n【起】【カウンター】 助太刀2500 レベル2 ［(1) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋2500）\n\"-\"",
+   "traits": [
+    "Mirrorverse",
+    "PIXAR"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrp_s111_075sp.png",
+   "variant": ""
+  },
+  {
+   "num": "MRp/S111-091",
+   "name": "“Low Tech Fish in a High Tech Sub”ドリー",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 相手のアタックフェイズの始めに、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋500。\n【起】 集中 ［(1)］ あなたは自分の山札の上から4枚をめくり、控え室に置く。それらのカードのCX1枚につき、次の行動を行う。『あなたは自分の控え室の、《Mirrorverse》か《PIXAR》のキャラを1枚選び、手札に戻し、自分の手札を1枚選び、控え室に置く。』\n\"-\"",
+   "traits": [
+    "Mirrorverse",
+    "PIXAR"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrp_s111_091.png",
+   "variant": ""
+  },
+  {
+   "num": "MRp/S111-091S",
+   "name": "“Low Tech Fish in a High Tech Sub”ドリー",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 相手のアタックフェイズの始めに、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋500。\n【起】 集中 ［(1)］ あなたは自分の山札の上から4枚をめくり、控え室に置く。それらのカードのCX1枚につき、次の行動を行う。『あなたは自分の控え室の、《Mirrorverse》か《PIXAR》のキャラを1枚選び、手札に戻し、自分の手札を1枚選び、控え室に置く。』\n\"-\"",
+   "traits": [
+    "Mirrorverse",
+    "PIXAR"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrp_s111_091s.png",
+   "variant": ""
+  },
+  {
+   "num": "MRp/S111-092",
+   "name": "“ミラー・ウォリアーズ”イアン",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたのキャラが1枚以下なら、このカードのパワーを＋1000し、このカードは次の能力を得る。『【自】 このカードがアタックした時、そのアタック中、あなたはトリガーステップにトリガーチェックを2回行う。2回行ったら、あなたは自分のストックの上から1枚を、控え室に置く。』\n\"-\"",
+   "traits": [
+    "Mirrorverse",
+    "PIXAR"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrp_s111_092.png",
+   "variant": ""
+  },
+  {
+   "num": "MRp/S111-092S",
+   "name": "“ミラー・ウォリアーズ”イアン",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたのキャラが1枚以下なら、このカードのパワーを＋1000し、このカードは次の能力を得る。『【自】 このカードがアタックした時、そのアタック中、あなたはトリガーステップにトリガーチェックを2回行う。2回行ったら、あなたは自分のストックの上から1枚を、控え室に置く。』\n\"-\"",
+   "traits": [
+    "Mirrorverse",
+    "PIXAR"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrp_s111_092s.png",
+   "variant": ""
+  },
+  {
+   "num": "MRp/S111-094",
+   "name": "“Fearsome Protector”サリー",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "1",
+   "cost": "1",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 応援 このカードの前のあなたの、《Mirrorverse》か《PIXAR》のキャラすべてに、パワーを＋Ｘ。Ｘはそのキャラのレベル×500に等しい。\n【自】 あなたのCXがCX置場に置かれた時、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋2000。\n【自】［手札のCXを1枚控え室に置く］ あなたのキャラのトリガーチェックでCXがでた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を上から2枚まで見て、カードを1枚まで選び、手札に加え、残りのカードを控え室に置く。\n\"-\"",
+   "traits": [
+    "Mirrorverse",
+    "PIXAR"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrp_s111_094.png",
+   "variant": ""
+  },
+  {
+   "num": "MRp/S111-094S",
+   "name": "“Fearsome Protector”サリー",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "1",
+   "cost": "1",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 応援 このカードの前のあなたの、《Mirrorverse》か《PIXAR》のキャラすべてに、パワーを＋Ｘ。Ｘはそのキャラのレベル×500に等しい。\n【自】 あなたのCXがCX置場に置かれた時、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋2000。\n【自】［手札のCXを1枚控え室に置く］ あなたのキャラのトリガーチェックでCXがでた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を上から2枚まで見て、カードを1枚まで選び、手札に加え、残りのカードを控え室に置く。\n\"-\"",
+   "traits": [
+    "Mirrorverse",
+    "PIXAR"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mrw_s111/mrp_s111_094s.png",
+   "variant": ""
+  }
+ ]
+}

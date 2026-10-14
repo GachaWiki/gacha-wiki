@@ -1,0 +1,485 @@
+{
+ "id": "jp-ngl",
+ "name": "[TD+]ノーゲーム・ノーライフ",
+ "expansion": 235,
+ "lang": "jp",
+ "release": null,
+ "shopItem": null,
+ "box": null,
+ "cards": [
+  {
+   "num": "NGL/S58-T01",
+   "name": "空",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 他のあなたのキャラのバトル相手が【リバース】した時、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋1000。\n【起】 集中 ［(1) このカードを【レスト】する］ あなたは自分の山札の上から4枚をめくり、控え室に置く。それらのカードのクライマックス1枚につき、あなたは1枚まで引く。\n\"ああ、やっぱこの格好が一番落ち着く\"",
+   "traits": [
+    "ゲーム",
+    "人類種"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/ngl_s58/ngl_s58_t01.png",
+   "variant": ""
+  },
+  {
+   "num": "NGL/S58-T02",
+   "name": "詐術 空",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札を上から1枚見て、山札の上か下に置く。\n【自】 このカードが手札から舞台に置かれた時、相手は0か1か2か3を宣言する。あなたは自分の山札の上から1枚を公開し、そのカードが相手の宣言したレベルのキャラなら、舞台の好きな枠に置く。（そうでないなら元に戻す）\n\"その願いの内容は？\"",
+   "traits": [
+    "ゲーム",
+    "人類種"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/ngl_s58/ngl_s58_t02.png",
+   "variant": ""
+  },
+  {
+   "num": "NGL/S58-T03",
+   "name": "『　』の片割れ 空",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1) 手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見て《ゲーム》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"その65万分の1が今だったんだろ\"",
+   "traits": [
+    "ゲーム",
+    "人類種"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/ngl_s58/ngl_s58_t03.png",
+   "variant": ""
+  },
+  {
+   "num": "NGL/S58-T03R",
+   "name": "『　』の片割れ 空",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1) 手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見て《ゲーム》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"俺らに勝てるやつがいるか、見せてもらおーじゃねえか\"",
+   "traits": [
+    "ゲーム",
+    "人類種"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/ngl_s58/ngl_s58_t03r.png",
+   "variant": ""
+  },
+  {
+   "num": "NGL/S58-T04",
+   "name": "戦闘指揮 空",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から2枚を、控え室に置き、そのターン中、このカードのパワーを＋Ｘ。Ｘはそれらのカードの《ゲーム》のキャラの枚数×1000に等しい。\n\"騎兵2番隊！　ポーンがあけた活路を無駄にするな！\"",
+   "traits": [
+    "ゲーム",
+    "人類種"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/ngl_s58/ngl_s58_t04.png",
+   "variant": ""
+  },
+  {
+   "num": "NGL/S58-T05",
+   "name": "天才ゲーマー兄妹 空",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "5500",
+   "soul": 1,
+   "trigger": "",
+   "text": "-\n\"俺ら兄妹だから、これは別に――\"",
+   "traits": [
+    "ゲーム",
+    "人類種"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/ngl_s58/ngl_s58_t05.png",
+   "variant": ""
+  },
+  {
+   "num": "NGL/S58-T06",
+   "name": "挑発する挑戦者 空",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "5500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの《ゲーム》のキャラ1枚につき、このカードのパワーを＋1000。\n【自】 アンコール ［手札のキャラを1枚控え室に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"もうちょい笑った方が可愛いよ\"",
+   "traits": [
+    "ゲーム",
+    "人類種"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/ngl_s58/ngl_s58_t06.png",
+   "variant": ""
+  },
+  {
+   "num": "NGL/S58-T07",
+   "name": "スパイ一掃 空",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "6000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの《ゲーム》のキャラすべてに、パワーを＋1000。\n【起】［(2) このカードを【レスト】する］ あなたは自分の山札を見て《ゲーム》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"では行くぞ\"",
+   "traits": [
+    "ゲーム",
+    "人類種"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/ngl_s58/ngl_s58_t07.png",
+   "variant": ""
+  },
+  {
+   "num": "NGL/S58-T08",
+   "name": "国王 空",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "yellow",
+   "level": "3",
+   "cost": "2",
+   "power": "9500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの《ゲーム》のキャラ1枚につき、このカードのパワーを＋500。\n【自】 このカードが手札から舞台に置かれた時、あなたは1枚まで引き、相手のキャラを1枚選び、そのターン中、次の能力を与える。『【永】 このカードのバトル中、あなたはイベントと『助太刀』を、手札からプレイできない。』\n\"とりあえず、これで数ターン様子見ってところか\"",
+   "traits": [
+    "ゲーム",
+    "人類種"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/ngl_s58/ngl_s58_t08.png",
+   "variant": ""
+  },
+  {
+   "num": "NGL/S58-T08S",
+   "name": "国王 空",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "yellow",
+   "level": "3",
+   "cost": "2",
+   "power": "9500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの《ゲーム》のキャラ1枚につき、このカードのパワーを＋500。\n【自】 このカードが手札から舞台に置かれた時、あなたは1枚まで引き、相手のキャラを1枚選び、そのターン中、次の能力を与える。『【永】 このカードのバトル中、あなたはイベントと『助太刀』を、手札からプレイできない。』\n\"待たせたな！　人類種同胞諸君！\"",
+   "traits": [
+    "ゲーム",
+    "人類種"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/ngl_s58/ngl_s58_t08s.png",
+   "variant": ""
+  },
+  {
+   "num": "NGL/S58-T09",
+   "name": "盟約の力",
+   "type": "Climax",
+   "rarity": "TD",
+   "color": "yellow",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【永】 あなたのキャラすべてに、ソウルを＋2。\n\"ステフ「違う！　違いますわー！」\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/ngl_s58/ngl_s58_t09.png",
+   "variant": ""
+  },
+  {
+   "num": "NGL/S58-T10",
+   "name": "ディスボードへようこそ",
+   "type": "Climax",
+   "rarity": "TD",
+   "color": "yellow",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[bounce.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[bounce.gif]]：このカードがトリガーした時、あなたは相手のキャラを1枚選び、手札に戻してよい）\n\"空＆白「超クソゲー」\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/ngl_s58/ngl_s58_t10.png",
+   "variant": ""
+  },
+  {
+   "num": "NGL/S58-T11",
+   "name": "天才ゲーマー兄妹 白",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのターン中、他のあなたの「天才ゲーマー兄妹 空」すべてに、パワーを＋2000。\n【自】 絆／「天才ゲーマー兄妹 空」 ［(1)］ （このカードがプレイされて舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「天才ゲーマー兄妹 空」を1枚選び、手札に戻す）\n\"……うぇぇ、にぃにフラれたぁ……\"",
+   "traits": [
+    "ゲーム",
+    "人類種"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/ngl_s58/ngl_s58_t11.png",
+   "variant": ""
+  },
+  {
+   "num": "NGL/S58-T12",
+   "name": "異議あり！ 白",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋500。\n【起】［このカードを【レスト】する］ あなたは自分の《ゲーム》のキャラを1枚選び、次の相手のターンの終わりまで、パワーを＋500。\n\"……にぃ、が王様なったら……、ハーレム、作れる\"",
+   "traits": [
+    "ゲーム",
+    "人類種"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/ngl_s58/ngl_s58_t12.png",
+   "variant": ""
+  },
+  {
+   "num": "NGL/S58-T13",
+   "name": "『　』の片割れ 白",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのストックが2枚以下なら、このカードのパワーを＋1500。\n\"……盟約に誓って\"",
+   "traits": [
+    "ゲーム",
+    "人類種"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/ngl_s58/ngl_s58_t13.png",
+   "variant": ""
+  },
+  {
+   "num": "NGL/S58-T13SP",
+   "name": "『　』の片割れ 白",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのストックが2枚以下なら、このカードのパワーを＋1500。\n\"-\"",
+   "traits": [
+    "ゲーム",
+    "人類種"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/ngl_s58/ngl_s58_t13sp.png",
+   "variant": ""
+  },
+  {
+   "num": "NGL/S58-T14",
+   "name": "白",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、そのターン中、このカードのパワーを＋Ｘ。Ｘはあなたの《ゲーム》のキャラの枚数×500に等しい。\n【自】【CXコンボ】 このカードがアタックした時、クライマックス置場に「戴冠式」があるなら、あなたは自分の山札の上から1枚を公開する。そのカードが《ゲーム》のキャラなら手札に加える。（そうでないなら元に戻す）\n\"……それ、チート\"",
+   "traits": [
+    "ゲーム",
+    "人類種"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/ngl_s58/ngl_s58_t14.png",
+   "variant": ""
+  },
+  {
+   "num": "NGL/S58-T14R",
+   "name": "白",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、そのターン中、このカードのパワーを＋Ｘ。Ｘはあなたの《ゲーム》のキャラの枚数×500に等しい。\n【自】【CXコンボ】 このカードがアタックした時、クライマックス置場に「戴冠式」があるなら、あなたは自分の山札の上から1枚を公開する。そのカードが《ゲーム》のキャラなら手札に加える。（そうでないなら元に戻す）\n\"……にぃ、ずる\"",
+   "traits": [
+    "ゲーム",
+    "人類種"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/ngl_s58/ngl_s58_t14r.png",
+   "variant": ""
+  },
+  {
+   "num": "NGL/S58-T15",
+   "name": "コミュニケーションエラー 白",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "6500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 このカードの正面のキャラに、『【自】 アンコール ［あなたの山札の上から1枚をクロック置場に置く］』を与える。\n【自】 バトル中のこのカードが【リバース】した時、このカードを山札の下に置く。\n\"にぃ！\"",
+   "traits": [
+    "ゲーム",
+    "人類種"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/ngl_s58/ngl_s58_t15.png",
+   "variant": ""
+  },
+  {
+   "num": "NGL/S58-T16",
+   "name": "異世界への招待 テト",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【起】【カウンター】 助太刀3000 レベル2 ［(1) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋3000）\n\"この世の全てが単純なゲームで決まる。――人の命も、国境線さえも！\"",
+   "traits": [
+    "ゲーム",
+    "唯一神"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/ngl_s58/ngl_s58_t16.png",
+   "variant": ""
+  },
+  {
+   "num": "NGL/S58-T17",
+   "name": "不健全への誘い 白",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "7500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、そのターン中、このカードのパワーを＋Ｘ。Ｘはあなたの《ゲーム》のキャラの枚数×1000に等しい。\n\"……にぃ……、童貞卒業、おめ\"",
+   "traits": [
+    "ゲーム",
+    "人類種"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/ngl_s58/ngl_s58_t17.png",
+   "variant": ""
+  },
+  {
+   "num": "NGL/S58-T18",
+   "name": "国王 白",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "3",
+   "cost": "2",
+   "power": "9000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n【自】 このカードがアタックした時、そのターン中、このカードのパワーを＋Ｘ。Ｘは他のあなたの《ゲーム》のキャラの枚数×1000に等しい。\n【自】 このカードの与えたダメージがキャンセルされた時、そのターン中、このカードのパワーを＋2000。\n\"……チェスなんて……ただの、マルバツゲーム\"",
+   "traits": [
+    "ゲーム",
+    "人類種"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/ngl_s58/ngl_s58_t18.png",
+   "variant": ""
+  },
+  {
+   "num": "NGL/S58-T18S",
+   "name": "国王 白",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "3",
+   "cost": "2",
+   "power": "9000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n【自】 このカードがアタックした時、そのターン中、このカードのパワーを＋Ｘ。Ｘは他のあなたの《ゲーム》のキャラの枚数×1000に等しい。\n【自】 このカードの与えたダメージがキャンセルされた時、そのターン中、このカードのパワーを＋2000。\n\"……二人で……『　』。大、丈夫\"",
+   "traits": [
+    "ゲーム",
+    "人類種"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/ngl_s58/ngl_s58_t18s.png",
+   "variant": ""
+  },
+  {
+   "num": "NGL/S58-T19",
+   "name": "反撃の一手",
+   "type": "Event",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "あなたは自分の山札を上から4枚まで見て、《ゲーム》のキャラを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。\n\"空「別に戦わなくたって……勝てる！」\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/ngl_s58/ngl_s58_t19.png",
+   "variant": ""
+  },
+  {
+   "num": "NGL/S58-T20",
+   "name": "戴冠式",
+   "type": "Climax",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]] [[gate.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[gate.gif]]：このカードがトリガーした時、あなたは自分の控え室のクライマックスを1枚選び、手札に戻してよい）\n\"空「生き残るための力を！　強者が手にしたからだ！」\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/ngl_s58/ngl_s58_t20.png",
+   "variant": ""
+  },
+  {
+   "num": "NGL/S58-T20R",
+   "name": "戴冠式",
+   "type": "Climax",
+   "rarity": "RRR",
+   "color": "blue",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]] [[gate.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[gate.gif]]：このカードがトリガーした時、あなたは自分の控え室のクライマックスを1枚選び、手札に戻してよい）\n\"空「我ら二人は弱者として生き、弱者らしく戦い、そして弱者らしく強者を屠ることをここに宣言する！」\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/ngl_s58/ngl_s58_t20r.png",
+   "variant": ""
+  }
+ ]
+}

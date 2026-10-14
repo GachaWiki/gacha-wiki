@@ -1,0 +1,557 @@
+{
+ "id": "jp-smp",
+ "name": "[TD+]Summer Pockets",
+ "expansion": 237,
+ "lang": "jp",
+ "release": null,
+ "shopItem": null,
+ "box": null,
+ "cards": [
+  {
+   "num": "SMP/W60-T01",
+   "name": "“さしずめ俺は……”羽依里",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの「“聞きたいこと”しろは」すべてに、パワーを＋1000。\n【自】 このカードが手札から舞台に置かれた時、以下のカード名のうちあなたが選んだ1つを宣言する。\n「“傷ついた渡り鳥”羽依里」「“歌を忘れたカナリア”羽依里」\n「“拳を壊したボクサー”羽依里」「“口説き方を忘れたホスト”羽依里」\nこのカードが舞台を離れるまで、このカードのカード名は宣言したカード名としても扱う。\n【自】 絆／「“聞きたいこと”しろは」 ［あなたの山札の上から1枚をクロック置場に置く］ （このカードがプレイされて舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「“聞きたいこと”しろは」を1枚選び、手札に戻す）\n\"-\"",
+   "traits": [
+    "サマポケ",
+    "時間"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/smp_w60/smp_w60_t01.png",
+   "variant": ""
+  },
+  {
+   "num": "SMP/W60-T02",
+   "name": "“ともだちの距離”しろは",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札を上から2枚まで見て、山札の上に元の順番で置く。\n【自】 このカードが【リバース】した時、このカードのバトル相手のレベルが0以下なら、あなたはそのキャラをストック置場に置いてよい。そうしたら、あなたは相手のストックの下から1枚を、控え室に置く。\n\"……そ、そう\"",
+   "traits": [
+    "サマポケ",
+    "時間"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/smp_w60/smp_w60_t02.png",
+   "variant": ""
+  },
+  {
+   "num": "SMP/W60-T02SP",
+   "name": "“ともだちの距離”しろは",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札を上から2枚まで見て、山札の上に元の順番で置く。\n【自】 このカードが【リバース】した時、このカードのバトル相手のレベルが0以下なら、あなたはそのキャラをストック置場に置いてよい。そうしたら、あなたは相手のストックの下から1枚を、控え室に置く。\n\"-\"",
+   "traits": [
+    "サマポケ",
+    "時間"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/smp_w60/smp_w60_t02sp.png",
+   "variant": ""
+  },
+  {
+   "num": "SMP/W60-T03",
+   "name": "“並々ならぬ情熱”うみ",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの《サマポケ》のキャラすべてに、パワーを＋500。\n【自】 このカードが手札から舞台に置かれた時、あなたは他の自分の《サマポケ》のキャラを1枚選び、そのターン中、パワーを＋1000し、《チャーハン》を与える。\n\"と、当然ですよ。元気１００倍ですよ\"",
+   "traits": [
+    "サマポケ",
+    "時間"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/smp_w60/smp_w60_t03.png",
+   "variant": ""
+  },
+  {
+   "num": "SMP/W60-T03R",
+   "name": "“並々ならぬ情熱”うみ",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの《サマポケ》のキャラすべてに、パワーを＋500。\n【自】 このカードが手札から舞台に置かれた時、あなたは他の自分の《サマポケ》のキャラを1枚選び、そのターン中、パワーを＋1000し、《チャーハン》を与える。\n\"何かリクエストがあれば、<br>チャーハンの具に盛り込みますよ\"",
+   "traits": [
+    "サマポケ",
+    "時間"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/smp_w60/smp_w60_t03r.png",
+   "variant": ""
+  },
+  {
+   "num": "SMP/W60-T04a",
+   "name": "“聞きたいこと”しろは",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "5500",
+   "soul": 1,
+   "trigger": "",
+   "text": "-\n\"あの、あのね。翼が傷ついているって何。<br>あなたは、傷ついた翼を癒やしに来たって<br>……おばーちゃんから聞いたから\"",
+   "traits": [
+    "サマポケ",
+    "時間"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/smp_w60/smp_w60_t04a.png",
+   "variant": ""
+  },
+  {
+   "num": "SMP/W60-T04b",
+   "name": "“聞きたいこと”しろは",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "5500",
+   "soul": 1,
+   "trigger": "",
+   "text": "-\n\"あの、あのね。歌えないカナリアって何。<br>あなたは、歌を忘れたカナリアだって<br>……おばーちゃんから聞いたから\"",
+   "traits": [
+    "サマポケ",
+    "時間"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/smp_w60/smp_w60_t04b.png",
+   "variant": ""
+  },
+  {
+   "num": "SMP/W60-T04c",
+   "name": "“聞きたいこと”しろは",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "5500",
+   "soul": 1,
+   "trigger": "",
+   "text": "-\n\"あの、あのね。拳が壊れてるって何。<br>あなたは、壊れた拳を治しに来たボクサーだって<br>……おばーちゃんから聞いたから\"",
+   "traits": [
+    "サマポケ",
+    "時間"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/smp_w60/smp_w60_t04c.png",
+   "variant": ""
+  },
+  {
+   "num": "SMP/W60-T04d",
+   "name": "“聞きたいこと”しろは",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "5500",
+   "soul": 1,
+   "trigger": "",
+   "text": "-\n\"あの、あのね。ホストなの？<br>あなたは、口説き方を忘れたホストだって<br>……おばーちゃんから聞いたから\"",
+   "traits": [
+    "サマポケ",
+    "時間"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/smp_w60/smp_w60_t04d.png",
+   "variant": ""
+  },
+  {
+   "num": "SMP/W60-T05",
+   "name": "“蔵の掘り出し物”鏡子",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋Ｘ。Ｘはそのキャラのレベル×500に等しい。\n【自】［(1) 手札のクライマックスを1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室のクライマックスを1枚選び、手札に戻す。\n\"これ、あげる\"",
+   "traits": [
+    "サマポケ",
+    "本"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/smp_w60/smp_w60_t05.png",
+   "variant": ""
+  },
+  {
+   "num": "SMP/W60-T06",
+   "name": "“まだ見ぬ未来”しろは",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "yellow",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n【自】【CXコンボ】 このカードがアタックした時、クライマックス置場に「初めて出会った日」があるなら、あなたは相手のキャラを1枚まで選び、手札に戻し、そのターン中、このカードのパワーを＋3000。\n\"海の上を、二羽の鳥が飛んでいたの\"",
+   "traits": [
+    "サマポケ",
+    "時間"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/smp_w60/smp_w60_t06.png",
+   "variant": ""
+  },
+  {
+   "num": "SMP/W60-T06S",
+   "name": "“まだ見ぬ未来”しろは",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "yellow",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n【自】【CXコンボ】 このカードがアタックした時、クライマックス置場に「初めて出会った日」があるなら、あなたは相手のキャラを1枚まで選び、手札に戻し、そのターン中、このカードのパワーを＋3000。\n\"そう思えるのはきっと――<br>島があなたに合ってるのかもしれない\"",
+   "traits": [
+    "サマポケ",
+    "時間"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/smp_w60/smp_w60_t06s.png",
+   "variant": ""
+  },
+  {
+   "num": "SMP/W60-T07",
+   "name": "初めて出会った日",
+   "type": "Climax",
+   "rarity": "TD",
+   "color": "yellow",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[shot.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[shot.gif]]：このターン中、このカードをトリガーした攻撃キャラが次に与えるダメージがキャンセルされた時、相手に1ダメージを与える）\n\"あなたは……誰\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/smp_w60/smp_w60_t07.png",
+   "variant": ""
+  },
+  {
+   "num": "SMP/W60-T07R",
+   "name": "初めて出会った日",
+   "type": "Climax",
+   "rarity": "RRR",
+   "color": "yellow",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[shot.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[shot.gif]]：このターン中、このカードをトリガーした攻撃キャラが次に与えるダメージがキャンセルされた時、相手に1ダメージを与える）\n\"どすこいっ\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/smp_w60/smp_w60_t07r.png",
+   "variant": ""
+  },
+  {
+   "num": "SMP/W60-T08",
+   "name": "ようこそ！鳥白島へ！",
+   "type": "Climax",
+   "rarity": "TD",
+   "color": "yellow",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【永】 あなたのキャラすべてに、ソウルを＋2。\n\"美希「これより、鷹原羽依里君の歓迎会を始める」\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/smp_w60/smp_w60_t08.png",
+   "variant": ""
+  },
+  {
+   "num": "SMP/W60-T09",
+   "name": "“教えてあげないよ！”鴎",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 相手のターン中、他のあなたのキャラすべてに、パワーを＋500。\n【起】 集中 ［(1) このカードを【レスト】する］ あなたは自分の山札の上から4枚をめくり、控え室に置く。それらのカードのクライマックス1枚につき、あなたは1枚まで引く。\n\"じゃん\"",
+   "traits": [
+    "サマポケ",
+    "海賊"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/smp_w60/smp_w60_t09.png",
+   "variant": ""
+  },
+  {
+   "num": "SMP/W60-T10",
+   "name": "“夕暮れの灯台”紬",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 相手のアタックフェイズの始めに、あなたはこのカードを前列のキャラのいない枠に動かしてよい。\n\"ムテキでーす\"",
+   "traits": [
+    "サマポケ",
+    "ヌイグルミ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/smp_w60/smp_w60_t10.png",
+   "variant": ""
+  },
+  {
+   "num": "SMP/W60-T10R",
+   "name": "“夕暮れの灯台”紬",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 相手のアタックフェイズの始めに、あなたはこのカードを前列のキャラのいない枠に動かしてよい。\n\"むぎゅ！？\"",
+   "traits": [
+    "サマポケ",
+    "ヌイグルミ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/smp_w60/smp_w60_t10r.png",
+   "variant": ""
+  },
+  {
+   "num": "SMP/W60-T11",
+   "name": "“大きなスーツケース”鴎",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1) 手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見て《サマポケ》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"バランスとって座ってるのもけっこう大変なんだよ\"",
+   "traits": [
+    "サマポケ",
+    "海賊"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/smp_w60/smp_w60_t11.png",
+   "variant": ""
+  },
+  {
+   "num": "SMP/W60-T11R",
+   "name": "“大きなスーツケース”鴎",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1) 手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見て《サマポケ》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"スーツケース押すの、手伝ってくれないかな\"",
+   "traits": [
+    "サマポケ",
+    "海賊"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/smp_w60/smp_w60_t11r.png",
+   "variant": ""
+  },
+  {
+   "num": "SMP/W60-T12",
+   "name": "“息ピッタリ”蒼",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 相手のクライマックスがクライマックス置場に置かれた時、このカードを控え室に置く。\n\"って、ちっがーーーう！\"",
+   "traits": [
+    "サマポケ",
+    "双子"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/smp_w60/smp_w60_t12.png",
+   "variant": ""
+  },
+  {
+   "num": "SMP/W60-T13",
+   "name": "“女神だった”紬",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【起】【カウンター】 助太刀1500 レベル1 ［手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋1500）\n\"めがみです\"",
+   "traits": [
+    "サマポケ",
+    "ヌイグルミ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/smp_w60/smp_w60_t13.png",
+   "variant": ""
+  },
+  {
+   "num": "SMP/W60-T14",
+   "name": "“気持ちが大切”鴎",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの《サマポケ》のキャラ1枚につき、このカードのパワーを＋500。\n\"そう。手作りのお話って、すごく思い出になると思うよ\"",
+   "traits": [
+    "サマポケ",
+    "海賊"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/smp_w60/smp_w60_t14.png",
+   "variant": ""
+  },
+  {
+   "num": "SMP/W60-T15",
+   "name": "“無防備な寝顔”蒼",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】【CXコンボ】 このカードのバトル相手が【リバース】した時、あなたのクライマックス置場に「ラッキーアクシデント」があるなら、あなたは自分の山札を見て《サマポケ》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"……すぅ……すぅ……\"",
+   "traits": [
+    "サマポケ",
+    "双子"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/smp_w60/smp_w60_t15.png",
+   "variant": ""
+  },
+  {
+   "num": "SMP/W60-T15S",
+   "name": "“無防備な寝顔”蒼",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】【CXコンボ】 このカードのバトル相手が【リバース】した時、あなたのクライマックス置場に「ラッキーアクシデント」があるなら、あなたは自分の山札を見て《サマポケ》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"ん……んう……ん～……\"",
+   "traits": [
+    "サマポケ",
+    "双子"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/smp_w60/smp_w60_t15s.png",
+   "variant": ""
+  },
+  {
+   "num": "SMP/W60-T16",
+   "name": "“お友達紹介”紬",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "6500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 相手の後列のキャラ1枚につき、このカードのパワーを＋1000。\n【自】［手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を上から4枚まで見て、《サマポケ》のキャラを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。\n\"だららららら<br>ばーん\"",
+   "traits": [
+    "サマポケ",
+    "ヌイグルミ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/smp_w60/smp_w60_t16.png",
+   "variant": ""
+  },
+  {
+   "num": "SMP/W60-T17",
+   "name": "“それは夏のせい”蒼",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは2枚まで引き、自分の手札を1枚選び、控え室に置く。\n【自】［手札を2枚控え室に置く］ このカードがアタックした時、あなたはコストを払ってよい。そうしたら、あなたは相手の山札の下から4枚を、控え室に置き、相手にＸダメージを与える。Ｘはそれらのカードのクライマックスの枚数に等しい。（ダメージキャンセルは発生する）\n\"強引なのは……嫌いじゃないけど……<br>せめて……ひ、人気のないところで……\"",
+   "traits": [
+    "サマポケ",
+    "双子"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/smp_w60/smp_w60_t17.png",
+   "variant": ""
+  },
+  {
+   "num": "SMP/W60-T18",
+   "name": "Summer Pockets",
+   "type": "Event",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "1",
+   "cost": "1",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "あなたは自分の山札を見て《サマポケ》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。このカードを思い出にする。\n\"眩しさだけは、忘れなかった。\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/smp_w60/smp_w60_t18.png",
+   "variant": ""
+  },
+  {
+   "num": "SMP/W60-T19",
+   "name": "ラッキーアクシデント",
+   "type": "Climax",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[gate.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[gate.gif]]：このカードがトリガーした時、あなたは自分の控え室のクライマックスを1枚選び、手札に戻してよい）\n\"え……\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/smp_w60/smp_w60_t19.png",
+   "variant": ""
+  },
+  {
+   "num": "SMP/W60-T19SP",
+   "name": "ラッキーアクシデント",
+   "type": "Climax",
+   "rarity": "SP",
+   "color": "blue",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[gate.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[gate.gif]]：このカードがトリガーした時、あなたは自分の控え室のクライマックスを1枚選び、手札に戻してよい）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/smp_w60/smp_w60_t19sp.png",
+   "variant": ""
+  }
+ ]
+}

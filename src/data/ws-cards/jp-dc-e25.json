@@ -1,0 +1,327 @@
+{
+ "id": "jp-dc-e25",
+ "name": "D.C.II P.C.",
+ "expansion": 25,
+ "lang": "jp",
+ "release": null,
+ "shopItem": null,
+ "box": null,
+ "cards": [
+  {
+   "num": "DC/WE02-001",
+   "name": "サンタのアイシア",
+   "type": "Character",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "2",
+   "cost": "2",
+   "power": "8500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】［手札のレベル1以上のキャラを3枚控え室に置く］ このカードがアタックした時、クライマックス置場に「我がままなアイシア」があるなら、あなたはコストを払ってよい。そうしたら、あなたは自分の【リバース】しているキャラを1枚選び、【スタンド】する。\n\"せっかくもうすぐクリスマスだって言うのに……\"",
+   "traits": [
+    "魔法",
+    "オモチャ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dc_we02/dc_we02_001.png",
+   "variant": ""
+  },
+  {
+   "num": "DC/WE02-002",
+   "name": "お雛様 音姫",
+   "type": "Character",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードがアタックした時、あなたは自分の山札の上から1枚を公開する。そのカードが《生徒会》のキャラなら、そのターン中、このカードのソウルを＋1。（公開したカードは元に戻す）\n\"似合ってるかな……弟くん？\"",
+   "traits": [
+    "生徒会",
+    "和服"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dc_we02/dc_we02_002.png",
+   "variant": ""
+  },
+  {
+   "num": "DC/WE02-003",
+   "name": "魂を送るまひる",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "1",
+   "cost": "1",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 このカードは相手の効果に選ばれない。\n【自】 このカードが舞台から控え室に置かれた時、このカードを思い出にする。\n\"約束したんです。 理想の恋愛を叶えるって\"",
+   "traits": [
+    "たとえ話"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dc_we02/dc_we02_003.png",
+   "variant": ""
+  },
+  {
+   "num": "DC/WE02-004",
+   "name": "贅沢な悩み",
+   "type": "Event",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "あなたは自分のキャラを1枚選び、そのターン中、パワーを＋1000。\nそのターン中、相手は『【自】 アンコール』を使えない。（ルールによる『【自】 アンコール ［(3)］』も使えない）\n\"だって、この先に明るい未来なんてないんですから\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dc_we02/dc_we02_004.png",
+   "variant": ""
+  },
+  {
+   "num": "DC/WE02-005",
+   "name": "我がままなアイシア",
+   "type": "Climax",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【永】 あなたのキャラすべてに、ソウルを＋2。\n\"それは義之くん相手だからだよ\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dc_we02/dc_we02_005.png",
+   "variant": ""
+  },
+  {
+   "num": "DC/WE02-006",
+   "name": "旅立つ茜",
+   "type": "Character",
+   "rarity": "R",
+   "color": "green",
+   "level": "2",
+   "cost": "1",
+   "power": "8000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードがアタックした時、クライマックス置場に「一緒に食べよ♪」があるなら、あなたは他の自分のキャラを1枚選び、そのターン中、パワーを＋3000し、このカードのパワーを＋3000。\n\"それじゃあ、義之くん。行ってきます\"",
+   "traits": [
+    "特徴なし"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dc_we02/dc_we02_006.png",
+   "variant": ""
+  },
+  {
+   "num": "DC/WE02-007",
+   "name": "歌姫 ななか",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードがアタックした時、あなたは自分の山札の上から1枚を公開する。そのカードが《音楽》のキャラなら、そのターン中、このカードのパワーを＋2000。（公開したカードは元に戻す）\n\"わたしの気持を歌で伝えたいの\"",
+   "traits": [
+    "音楽",
+    "魔法"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dc_we02/dc_we02_007.png",
+   "variant": ""
+  },
+  {
+   "num": "DC/WE02-008",
+   "name": "ハロウィン小恋",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "",
+   "text": "-\n\"こ、これじゃ見えちゃうよぉ\"",
+   "traits": [
+    "音楽",
+    "かぼちゃ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dc_we02/dc_we02_008.png",
+   "variant": ""
+  },
+  {
+   "num": "DC/WE02-009",
+   "name": "一緒に食べよ♪",
+   "type": "Climax",
+   "rarity": "C",
+   "color": "green",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【自】 このカードが手札からクライマックス置場に置かれた時、あなたは自分の山札の上から1枚を、ストック置場に置き、自分のキャラすべてに、そのターン中、ソウルを＋1。\n\"メリークリスマス、義之くん♪\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dc_we02/dc_we02_009.png",
+   "variant": ""
+  },
+  {
+   "num": "DC/WE02-010",
+   "name": "水着のエリカ",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "2",
+   "cost": "2",
+   "power": "7500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの『【自】 アンコール ［手札のキャラを1枚控え室に置く］』を持つキャラ1枚につき、このカードのパワーを＋500。\n【自】 このカードがアタックした時、クライマックス置場に「寝ぼけるエリカ」があるなら、あなたは自分の控え室のキャラを1枚選び、手札に戻す。\n\"べ、別に！　は、恥ずかしくなどありませんわ\"",
+   "traits": [
+    "生徒会",
+    "水着"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dc_we02/dc_we02_010.png",
+   "variant": ""
+  },
+  {
+   "num": "DC/WE02-011",
+   "name": "豆まき美夏",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "1",
+   "cost": "1",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたのカード名に「杏」を含むキャラがいるなら、このカードは次の能力を得る。『【自】 このカードとバトルしているキャラが【リバース】した時、あなたはそのキャラを山札の上に置いてよい。』\n【永】 他のあなたの《委員長》のキャラがいるなら、このカードのパワーを＋1000。\n\"よし、鬼は桜内だな！\"",
+   "traits": [
+    "メカ",
+    "バナナ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dc_we02/dc_we02_011.png",
+   "variant": ""
+  },
+  {
+   "num": "DC/WE02-012",
+   "name": "お月見 由夢",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札を上から1枚見て、山札の上か控え室に置く。\n\"……綺麗ですね。兄さん\"",
+   "traits": [
+    "魔法",
+    "だんご"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dc_we02/dc_we02_012.png",
+   "variant": ""
+  },
+  {
+   "num": "DC/WE02-013",
+   "name": "寝ぼけるエリカ",
+   "type": "Climax",
+   "rarity": "C",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[salvage.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[salvage.gif]]：このカードがトリガーした時、あなたは自分の控え室のキャラを1枚選び、手札に戻してよい）\n\"ど、どうしてわたしの布団の中に！？<br />いったい、いつの間に！？\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dc_we02/dc_we02_013.png",
+   "variant": ""
+  },
+  {
+   "num": "DC/WE02-014",
+   "name": "星に願う杏",
+   "type": "Character",
+   "rarity": "R",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札を上から2枚まで見て、山札の上に好きな順番で置く。\n\"何を書いたかは……秘密よ\"",
+   "traits": [
+    "和服",
+    "演劇"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dc_we02/dc_we02_014.png",
+   "variant": ""
+  },
+  {
+   "num": "DC/WE02-015",
+   "name": "ボランティア巫女 麻耶",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 あなたのクライマックス置場に「委員長の巫女姿」が置かれた時、あなたは自分の山札の上から1枚を公開する。そのカードが《メカ》のキャラならストック置場に置く。（そうでないなら元に戻す）\n【起】［(1) このカードを【レスト】する］ あなたは自分の山札の上から1枚を公開する。そのカードが《メカ》のキャラなら手札に加える。（そうでないなら元に戻す）\n\"は、恥ずかしいから、あんまり見ないで……\"",
+   "traits": [
+    "委員長",
+    "巫女"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dc_we02/dc_we02_015.png",
+   "variant": ""
+  },
+  {
+   "num": "DC/WE02-016",
+   "name": "アジサイ畑のまゆき",
+   "type": "Character",
+   "rarity": "R",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの《生徒会》のキャラすべてに、『【自】 アンコール ［手札のキャラを1枚控え室に置く］』を与える。\n\"弟くんもこっちにきなよ\"",
+   "traits": [
+    "生徒会",
+    "傘"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dc_we02/dc_we02_016.png",
+   "variant": ""
+  },
+  {
+   "num": "DC/WE02-017",
+   "name": "ごめんね。そして、ありがとう",
+   "type": "Event",
+   "rarity": "C",
+   "color": "blue",
+   "level": "2",
+   "cost": "2",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "このカードは、あなたの《生徒会》のキャラがいないなら、手札からプレイできない。\nあなたは自分のクロックを1枚選び、手札に戻す。このカードを思い出にする。\n\"あたしは、すごく嬉しかったんだ\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dc_we02/dc_we02_017.png",
+   "variant": ""
+  },
+  {
+   "num": "DC/WE02-018",
+   "name": "委員長の巫女姿",
+   "type": "Climax",
+   "rarity": "C",
+   "color": "blue",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【自】 このカードが手札からクライマックス置場に置かれた時、あなたは1枚引き、自分のキャラを1枚選び、そのターン中、ソウルを＋3。\n\"桜内……何の用？　いま手が離せないんだけど\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dc_we02/dc_we02_018.png",
+   "variant": ""
+  }
+ ]
+}

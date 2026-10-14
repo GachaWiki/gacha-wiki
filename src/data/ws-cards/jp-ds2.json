@@ -1,0 +1,835 @@
+{
+ "id": "jp-ds2",
+ "name": "TVアニメ「デビルサバイバー2」",
+ "expansion": 104,
+ "lang": "jp",
+ "release": null,
+ "shopItem": null,
+ "box": null,
+ "cards": [
+  {
+   "num": "DS2/SE16-01",
+   "name": "“悪魔使い”イオ",
+   "type": "Character",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋500。\n【起】 集中 ［(1) あなたのキャラを2枚【レスト】する］ あなたは自分の山札の上から4枚をめくり、控え室に置く。それらのカードのクライマックス1枚につき、あなたは自分の山札を見て《サマナー》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"私達が戦った7日間、無駄じゃなかったよね\"",
+   "traits": [
+    "サマナー"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/ds2_se16/ds2_se16_01.png",
+   "variant": ""
+  },
+  {
+   "num": "DS2/SE16-02",
+   "name": "“悪魔使い”ヒビキ",
+   "type": "Character",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの、《サマナー》か《悪魔》のキャラすべてに、パワーを＋500。\n【自】 他のあなたのバトル中の《サマナー》のキャラが【リバース】した時、あなたは自分の山札の上から1枚を、このカードの下にマーカーとして置く。\n【自】 マーカーがこのカードの下に置かれた時、このカードの下のマーカーが11枚以上なら、あなたはこのカードの下のマーカーすべてを、控え室に置き、自分の、手札か控え室の「ルシファー」を1枚まで選び、舞台の好きな枠に【レスト】して置く。\n\"みんなの悪魔、使わせてもらうよ！！\"",
+   "traits": [
+    "サマナー",
+    "竜"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/ds2_se16/ds2_se16_02.png",
+   "variant": ""
+  },
+  {
+   "num": "DS2/SE16-03",
+   "name": "活発な少女 アイリ",
+   "type": "Character",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1) 手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見て《サマナー》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"美味しい……\"",
+   "traits": [
+    "サマナー",
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/ds2_se16/ds2_se16_03.png",
+   "variant": ""
+  },
+  {
+   "num": "DS2/SE16-04",
+   "name": "“悪魔使い”ケイタ",
+   "type": "Character",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【起】［あなたのキャラを2枚【レスト】する］ あなたは自分のキャラを1枚選び、そのターン中、次の能力を与える。『【自】 このカードのバトル相手でレベル1以上のキャラが【リバース】した時、あなたは自分の山札を見て《サマナー》のキャラを1枚まで選んで相手に見せ、手札に加え、自分の手札を1枚選び、控え室に置き、その山札をシャッフルする。』\n\"俺の仕事はな……悪魔狩りや\"",
+   "traits": [
+    "サマナー",
+    "スポーツ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/ds2_se16/ds2_se16_04.png",
+   "variant": ""
+  },
+  {
+   "num": "DS2/SE16-05",
+   "name": "稀有なる資質 ヒビキ",
+   "type": "Character",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたのレベル0以下のキャラ1枚につき、このカードのパワーを＋500。\n\"誰かに期待しちゃだめだ。考えるんだ。<br />今俺にできる、最善のことを！\"",
+   "traits": [
+    "サマナー",
+    "竜"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/ds2_se16/ds2_se16_05.png",
+   "variant": ""
+  },
+  {
+   "num": "DS2/SE16-06",
+   "name": "ダイチ＆じゃあくフロスト",
+   "type": "Character",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "1",
+   "cost": "1",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 あなたがこのカードの『助太刀』を使った時、あなたは自分の《サマナー》のキャラを1枚選び、そのターン中、パワーを＋1000。\n【起】【カウンター】 助太刀1500 レベル1 ［(1) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋1500）\n\"ヒ、ヒビキをいじめてんじゃねえよ\"",
+   "traits": [
+    "サマナー",
+    "悪魔"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/ds2_se16/ds2_se16_06.png",
+   "variant": ""
+  },
+  {
+   "num": "DS2/SE16-07",
+   "name": "7日間の戦い イオ",
+   "type": "Character",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "1",
+   "cost": "1",
+   "power": "6000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 他のあなたの《サマナー》のキャラがアタックした時、そのターン中、このカードのパワーを＋1000。\n【自】 アンコール ［あなたの山札の上から1枚をクロック置場に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"生き残れば…失ったものを取り戻せるんですか？\"",
+   "traits": [
+    "サマナー"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/ds2_se16/ds2_se16_07.png",
+   "variant": ""
+  },
+  {
+   "num": "DS2/SE16-08",
+   "name": "“悪魔使い”アイリ",
+   "type": "Character",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "6500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたのカード名に「ジュンゴ」を含むキャラがいるなら、このカードのパワーを＋2000し、ソウルを＋1。\n\"あんたも行くのよ！\"",
+   "traits": [
+    "サマナー",
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/ds2_se16/ds2_se16_08.png",
+   "variant": ""
+  },
+  {
+   "num": "DS2/SE16-09",
+   "name": "“輝く者”ヒビキ",
+   "type": "Character",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n【自】 このカードがアタックした時、クライマックス置場に「ビャッコ召喚」があるなら、あなたは相手のキャラを1枚まで選び、手札に戻し、そのターン中、このカードのパワーを＋3000。\n\"ヤマト、約束を果たすよ。君を倒し、<br />俺がポラリスと謁見する！\"",
+   "traits": [
+    "サマナー",
+    "竜"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/ds2_se16/ds2_se16_09.png",
+   "variant": ""
+  },
+  {
+   "num": "DS2/SE16-10",
+   "name": "人見知り イオ",
+   "type": "Character",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n【自】 他のあなたの《サマナー》のキャラがアタックした時、そのターン中、このカードのパワーを＋1000。\n\"今、好きって言いました？\"",
+   "traits": [
+    "サマナー"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/ds2_se16/ds2_se16_10.png",
+   "variant": ""
+  },
+  {
+   "num": "DS2/SE16-11",
+   "name": "“悪魔使い”ジュンゴ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 絆／「“悪魔使い”アイリ」 ［(1)］ （このカードがプレイされて舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「“悪魔使い”アイリ」を1枚選び、手札に戻す）\n\"生きてる。だったら大丈夫\"",
+   "traits": [
+    "サマナー",
+    "板前"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/ds2_se16/ds2_se16_11.png",
+   "variant": ""
+  },
+  {
+   "num": "DS2/SE16-12",
+   "name": "“悪魔使い”ダイチ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのストックが2枚以下なら、このカードのパワーを＋1500。\n\"あいつは俺達じゃ止められない\"",
+   "traits": [
+    "サマナー"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/ds2_se16/ds2_se16_12.png",
+   "variant": ""
+  },
+  {
+   "num": "DS2/SE16-13",
+   "name": "一匹狼 ケイタ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【起】［あなたの《サマナー》のキャラを2枚【レスト】する］ そのターン中、このカードのパワーを＋2500。\n\"はあ……手掛かりもなしに人捜しぃ…？\"",
+   "traits": [
+    "サマナー",
+    "スポーツ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/ds2_se16/ds2_se16_13.png",
+   "variant": ""
+  },
+  {
+   "num": "DS2/SE16-14",
+   "name": "元刑事 ロナウド",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのターン中、このカードのパワーを＋1000。\n\"職業病でね。その後も色々と調べさせてもらった\"",
+   "traits": [
+    "サマナー",
+    "警察"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/ds2_se16/ds2_se16_14.png",
+   "variant": ""
+  },
+  {
+   "num": "DS2/SE16-15",
+   "name": "家族を想うイオ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "",
+   "text": "-\n\"私たち……どうなっちゃうんだろ……\"",
+   "traits": [
+    "サマナー"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/ds2_se16/ds2_se16_15.png",
+   "variant": ""
+  },
+  {
+   "num": "DS2/SE16-16",
+   "name": "生きる意志 ヒビキ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から1枚を公開する。そのカードが《サマナー》のキャラでないならクロック置場に置く。（そうでないなら元に戻す）\n\"生き残る……必ず\"",
+   "traits": [
+    "サマナー",
+    "竜"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/ds2_se16/ds2_se16_16.png",
+   "variant": ""
+  },
+  {
+   "num": "DS2/SE16-17",
+   "name": "“悪魔使い”ロナウド",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【起】【カウンター】 助太刀1500 レベル1 ［手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋1500）\n\"我々は……誰も犠牲になどしない\"",
+   "traits": [
+    "サマナー",
+    "警察"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/ds2_se16/ds2_se16_17.png",
+   "variant": ""
+  },
+  {
+   "num": "DS2/SE16-18",
+   "name": "テキトーな男 ジョー",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、そのターン中、このカードのパワーを＋1500。\n\"あれ？君なんか暗いね\"",
+   "traits": [
+    "サマナー",
+    "メガネ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/ds2_se16/ds2_se16_18.png",
+   "variant": ""
+  },
+  {
+   "num": "DS2/SE16-19",
+   "name": "姉御肌 ヒナコ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "1",
+   "cost": "1",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたのターン中、他のあなたのキャラすべてに、パワーを＋1000。\n【自】 あなたのキャラのトリガーチェックでクライマックスがでた時、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋2000。\n\"やらしいなあ…<br />目的を明かさんと私らを検査してたっちゅうわけね\"",
+   "traits": [
+    "サマナー",
+    "メガネ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/ds2_se16/ds2_se16_19.png",
+   "variant": ""
+  },
+  {
+   "num": "DS2/SE16-20",
+   "name": "ヒビキ＆ビャッコ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "1",
+   "cost": "1",
+   "power": "7000",
+   "soul": 1,
+   "trigger": "",
+   "text": "-\n\"そいつを倒せ！\"",
+   "traits": [
+    "サマナー",
+    "悪魔"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/ds2_se16/ds2_se16_20.png",
+   "variant": ""
+  },
+  {
+   "num": "DS2/SE16-21",
+   "name": "闘う決意 ヒビキ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "7500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 このカードの正面のキャラのレベルが3以上なら、このカードのパワーを＋3000。\n\"俺は俺の意思で人を守るために戦う\"",
+   "traits": [
+    "サマナー",
+    "竜"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/ds2_se16/ds2_se16_21.png",
+   "variant": ""
+  },
+  {
+   "num": "DS2/SE16-22",
+   "name": "イオ＆ルーグ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "8000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】［(1)］ このカードがアタックした時、クライマックス置場に「私、生きたい」があるなら、あなたはコストを払ってよい。そうしたら、あなたのキャラすべてに、そのターン中、パワーを＋2000し、相手は『【自】 アンコール』を使えない。（ルールによる『【自】 アンコール ［(3)］』も使えない）\n\"人間とはいつの時代でも愚かしい\"",
+   "traits": [
+    "サマナー",
+    "悪魔"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/ds2_se16/ds2_se16_22.png",
+   "variant": ""
+  },
+  {
+   "num": "DS2/SE16-23",
+   "name": "“悪魔使い”ヒナコ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "8000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの《サマナー》のキャラが2枚以上なら、このカードのパワーを＋1000。\n\"こんな時こそ笑いは大切なんやけどね\"",
+   "traits": [
+    "サマナー",
+    "メガネ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/ds2_se16/ds2_se16_23.png",
+   "variant": ""
+  },
+  {
+   "num": "DS2/SE16-24",
+   "name": "優しい板前 ジュンゴ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "2",
+   "cost": "2",
+   "power": "7500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたのカード名に「アイリ」を含むキャラがいるなら、このカードのパワーを＋1500。\n【自】 アンコール ［あなたの山札の上から1枚をクロック置場に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"ジュンゴ、怖くない\"",
+   "traits": [
+    "サマナー",
+    "板前"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/ds2_se16/ds2_se16_24.png",
+   "variant": ""
+  },
+  {
+   "num": "DS2/SE16-25",
+   "name": "“悪魔使い”ジョー",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "2",
+   "cost": "2",
+   "power": "8000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】［(1) 手札を1枚控え室に置く］ このカードがアタックした時、あなたはコストを払ってよい。そうしたら、あなたのキャラすべてに、そのターン中、パワーを＋500し、ソウルを＋1。\n\"ま、やるしかないでしょ\"",
+   "traits": [
+    "サマナー",
+    "メガネ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/ds2_se16/ds2_se16_25.png",
+   "variant": ""
+  },
+  {
+   "num": "DS2/SE16-26",
+   "name": "ルシファー",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 このカードの下にマーカーがあるなら、このカードのパワーを＋3000し、このカードは次の能力を得る。『【自】 この能力は1ターンにつき1回まで発動する。このカードの与えたダメージがキャンセルされた時、あなたは相手に1ダメージを与えてよい。』（ダメージキャンセルは発生する）\n【自】 このカードが「“悪魔使い”ヒビキ」の【自】の効果で舞台に置かれた時、あなたは自分のクロックの上から1枚を、このカードの下にマーカーとして裏向きに置いてよい。\n\"-\"",
+   "traits": [
+    "天使",
+    "悪魔"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/ds2_se16/ds2_se16_26.png",
+   "variant": ""
+  },
+  {
+   "num": "DS2/SE16-27",
+   "name": "死に顔動画",
+   "type": "Event",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "2",
+   "cost": "2",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "あなたは自分の山札の上から1枚を公開する。そのカードがクライマックスなら、あなたは自分のキャラを1枚選び、控え室に置く。そうでないなら、あなたのキャラすべてに、次の相手のターンの終わりまで、次の能力を与える。『【自】 このカードが舞台から控え室に置かれた時、あなたはこのカードをこのカードがいた枠に【レスト】して置いてよい。』（公開したカードは元に戻す）\n\"新しい死に顔動画が着信しました\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/ds2_se16/ds2_se16_27.png",
+   "variant": ""
+  },
+  {
+   "num": "DS2/SE16-28",
+   "name": "ビャッコ召喚",
+   "type": "Climax",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[bounce.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[bounce.gif]]：このカードがトリガーした時、あなたは相手のキャラを1枚選び、手札に戻してよい）\n\"行け、ビャッコ！！\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/ds2_se16/ds2_se16_28.png",
+   "variant": ""
+  },
+  {
+   "num": "DS2/SE16-29",
+   "name": "私、生きたい",
+   "type": "Climax",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【自】 このカードが手札からクライマックス置場に置かれた時、あなたは1枚引き、自分のキャラを1枚選び、そのターン中、パワーを＋2000し、ソウルを＋1。\n\"ちがう！ヒビキくんは、あなたは強いもの！\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/ds2_se16/ds2_se16_29.png",
+   "variant": ""
+  },
+  {
+   "num": "DS2/SE16-30",
+   "name": "“憂う者”アルコル",
+   "type": "Character",
+   "rarity": "R",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードがアタックした時、あなたは他の自分のカード名に「ヤマト」を含むキャラを1枚選び、そのターン中、パワーを＋1500。\n【自】 このカードがアタックした時、あなたは他の自分のカード名に「ヒビキ」を含むキャラを1枚選び、そのターン中、レベルを＋1し、パワーを＋1000。\n\"ヤマト、君が進もうとしている道は……真っ暗だよ？\"",
+   "traits": [
+    "セプテントリオン"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/ds2_se16/ds2_se16_30.png",
+   "variant": ""
+  },
+  {
+   "num": "DS2/SE16-31",
+   "name": "凛とした美貌 マコト",
+   "type": "Character",
+   "rarity": "R",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたのキャラが1枚以下なら、このカードのパワーを＋1000し、このカードは『【自】 アンコール ［手札のキャラを1枚控え室に置く］』を得る。\n\"敵が無防備になるチャンスだ、倒せ！\"",
+   "traits": [
+    "サマナー",
+    "オペレーター"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/ds2_se16/ds2_se16_31.png",
+   "variant": ""
+  },
+  {
+   "num": "DS2/SE16-32",
+   "name": "“悪魔使い”フミ",
+   "type": "Character",
+   "rarity": "R",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "6000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から1枚を公開する。そのカードが《サマナー》のキャラでないなら、あなたのアンコールステップの始めに、このカードを控え室に置く。（公開したカードは元に戻す）\n\"最後のセプテントリオンの特徴は……『最強』\"",
+   "traits": [
+    "サマナー",
+    "科学"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/ds2_se16/ds2_se16_32.png",
+   "variant": ""
+  },
+  {
+   "num": "DS2/SE16-33",
+   "name": "“悪魔使い”ヤマト",
+   "type": "Character",
+   "rarity": "R",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋Ｘ。Ｘはそのキャラのレベル×500に等しい。\n【自】 チェンジ ［(2) 手札を1枚控え室に置き、このカードを控え室に置く］ あなたのクライマックスフェイズの始めに、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「最後の戦い ヤマト」を1枚選び、このカードがいた枠に置く。\n\"ヒビキ…『生きる』とは何だ？\"",
+   "traits": [
+    "サマナー",
+    "竜"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/ds2_se16/ds2_se16_33.png",
+   "variant": ""
+  },
+  {
+   "num": "DS2/SE16-34",
+   "name": "最後の戦い ヤマト",
+   "type": "Character",
+   "rarity": "R",
+   "color": "blue",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時か『チェンジ』で舞台に置かれた時、あなたのキャラすべてに、そのターン中、次の能力を与える。『【自】 このカードのバトル相手が【リバース】した時、あなたはそのキャラを山札の下に置いてよい。』\n【自】 このカードがアタックした時、クライマックス置場に「悪魔合体」があるなら、次の相手のターンの終わりまで、このカードのパワーを＋4500。\n\"約束か…\"",
+   "traits": [
+    "サマナー",
+    "竜"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/ds2_se16/ds2_se16_34.png",
+   "variant": ""
+  },
+  {
+   "num": "DS2/SE16-35",
+   "name": "“龍脈”の力 ヤマト",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1)］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「龍脈」を1枚選び、手札に戻す。\n【自】 このカードがアタックした時、あなたは他の自分のキャラを1枚選び、そのターン中、パワーを＋500。\n\"全力で相手をしてやる\"",
+   "traits": [
+    "サマナー",
+    "竜"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/ds2_se16/ds2_se16_35.png",
+   "variant": ""
+  },
+  {
+   "num": "DS2/SE16-36",
+   "name": "俗事への無関心 フミ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 相手のターン中、他のあなたの前列の中央の枠のキャラに、パワーを＋1000。\n【起】［(1)］ あなたは1枚引き、自分の手札を1枚選び、控え室に置く。\n\"科学に100％はあり得ない\"",
+   "traits": [
+    "サマナー",
+    "科学"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/ds2_se16/ds2_se16_36.png",
+   "variant": ""
+  },
+  {
+   "num": "DS2/SE16-37",
+   "name": "ジプス専属医 オトメ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 相手のターン中、このカードのパワーを＋1000。\n\"そんな…見捨てたなんて…\"",
+   "traits": [
+    "サマナー",
+    "医者"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/ds2_se16/ds2_se16_37.png",
+   "variant": ""
+  },
+  {
+   "num": "DS2/SE16-38",
+   "name": "不思議な存在 アルコル",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1) 手札を1枚控え室に置く］ このカードがアタックした時、クライマックス置場に「ヤマト VS アルコル」があるなら、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見てカード名に「ヤマト」を含むキャラを1枚までとカード名に「ヒビキ」を含むキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"ヤマトとこんな風に楽しいのはいつ以来だろうね\"",
+   "traits": [
+    "セプテントリオン"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/ds2_se16/ds2_se16_38.png",
+   "variant": ""
+  },
+  {
+   "num": "DS2/SE16-39",
+   "name": "ヤマト＆ケルベロス",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "5500",
+   "soul": 1,
+   "trigger": "",
+   "text": "-\n\"あまり手間をかけさせるな\"",
+   "traits": [
+    "サマナー",
+    "悪魔"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/ds2_se16/ds2_se16_39.png",
+   "variant": ""
+  },
+  {
+   "num": "DS2/SE16-40",
+   "name": "“悪魔使い”オトメ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "1",
+   "cost": "1",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 応援 このカードの前のあなたの《サマナー》のキャラすべてに、レベルを＋1し、パワーを＋500。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札を上から1枚見て、山札の上か下に置く。\n\"私って、ミステリアスな女でしょ～\"",
+   "traits": [
+    "サマナー",
+    "医者"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/ds2_se16/ds2_se16_40.png",
+   "variant": ""
+  },
+  {
+   "num": "DS2/SE16-41",
+   "name": "“悪魔使い”マコト",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【起】【カウンター】 助太刀3000 レベル2 ［(1) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋3000）\n\"私がどうなろうとも局長に付き従う……そう決めている\"",
+   "traits": [
+    "サマナー",
+    "オペレーター"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/ds2_se16/ds2_se16_41.png",
+   "variant": ""
+  },
+  {
+   "num": "DS2/SE16-42",
+   "name": "縁を断ち切るヤマト",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "9000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたのキャラすべてに、次の能力を与える。『【永】 このカードはサイドアタックできない。』\n\"貴様との縁も今日までだ。最後に死の概念を教えてやる\"",
+   "traits": [
+    "サマナー",
+    "竜"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/ds2_se16/ds2_se16_42.png",
+   "variant": ""
+  },
+  {
+   "num": "DS2/SE16-43",
+   "name": "龍脈",
+   "type": "Event",
+   "rarity": "C",
+   "color": "blue",
+   "level": "1",
+   "cost": "1",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "このカードは、あなたのカード名に「ヤマト」か「ヒビキ」を含むキャラがいないなら、手札からプレイできない。\nあなたは自分のキャラを1枚選び、次の相手のターンの終わりまで、パワーを＋4000。\nこのカードを思い出にする。\n\"新田さん…死、なんて……そんな選択選ばないでくれ……\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/ds2_se16/ds2_se16_43.png",
+   "variant": ""
+  },
+  {
+   "num": "DS2/SE16-44",
+   "name": "悪魔合体",
+   "type": "Climax",
+   "rarity": "C",
+   "color": "blue",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[draw.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[draw.gif]]：このカードがトリガーした時、あなたは1枚引いてよい）\n\"ヤマト「サタン！！」\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/ds2_se16/ds2_se16_44.png",
+   "variant": ""
+  },
+  {
+   "num": "DS2/SE16-45",
+   "name": "ヤマト VS アルコル",
+   "type": "Climax",
+   "rarity": "C",
+   "color": "blue",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【自】 このカードが手札からクライマックス置場に置かれた時、あなたは1枚引き、自分のキャラを1枚選び、そのターン中、パワーを＋2000し、ソウルを＋1。\n\"私は君を殺して、ヒビキに希望を託すよ\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/ds2_se16/ds2_se16_45.png",
+   "variant": ""
+  }
+ ]
+}

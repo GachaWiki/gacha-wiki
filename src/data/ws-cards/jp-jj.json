@@ -1,0 +1,485 @@
+{
+ "id": "jp-jj",
+ "name": "[TD+]ジョジョの奇妙な冒険 黄金の風",
+ "expansion": 265,
+ "lang": "jp",
+ "release": null,
+ "shopItem": null,
+ "box": null,
+ "cards": [
+  {
+   "num": "JJ/S66-T01",
+   "name": "勉強が苦手 ナランチャ",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋500。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札を上から1枚見て、山札の上か下に置く。\n\"やったーッ！終わったよフーゴ…どう？\"",
+   "traits": [
+    "黄金の風",
+    "スタンド使い"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/j/jj_s66/jj_s66_t01.png",
+   "variant": ""
+  },
+  {
+   "num": "JJ/S66-T02",
+   "name": "優しい教え フーゴ",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 他のあなたの《黄金の風》のキャラかこのカードが手札から舞台に置かれた時、あなたは自分の山札を上から1枚見てよい。（見たカードは元に戻す）\n【起】 集中 ［(1) このカードを【レスト】する］ あなたは自分の山札の上から4枚をめくり、控え室に置く。それらのカードのクライマックス1枚につき、あなたは1枚まで引く。\n\"やっぱりできるじゃあないですか！\"",
+   "traits": [
+    "黄金の風",
+    "スタンド使い"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/j/jj_s66/jj_s66_t02.png",
+   "variant": ""
+  },
+  {
+   "num": "JJ/S66-T03",
+   "name": "ギャング入門 ジョルノ",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのキャラすべてが《黄金の風》なら、このカードのパワーを＋1000。\n【自】［手札のクライマックスを1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の《黄金の風》のキャラを1枚選び、手札に戻す。\n\"ぼくはあんたのボスを倒してこの街を乗っとるつもりでいる\"",
+   "traits": [
+    "黄金の風",
+    "スタンド使い"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/j/jj_s66/jj_s66_t03.png",
+   "variant": ""
+  },
+  {
+   "num": "JJ/S66-T03SP",
+   "name": "ギャング入門 ジョルノ",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのキャラすべてが《黄金の風》なら、このカードのパワーを＋1000。\n【自】［手札のクライマックスを1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の《黄金の風》のキャラを1枚選び、手札に戻す。\n\"-\"",
+   "traits": [
+    "黄金の風",
+    "スタンド使い"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/j/jj_s66/jj_s66_t03sp.png",
+   "variant": ""
+  },
+  {
+   "num": "JJ/S66-T04",
+   "name": "ギャングの洗礼 アバッキオ",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "yellow",
+   "level": "1",
+   "cost": "1",
+   "power": "5500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの《黄金の風》のキャラ1枚につき、このカードのパワーを＋500。\n【自】 アンコール ［あなたの山札の上から1枚をクロック置場に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"お茶でも飲んで…話でもしようや………\"",
+   "traits": [
+    "黄金の風",
+    "スタンド使い"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/j/jj_s66/jj_s66_t04.png",
+   "variant": ""
+  },
+  {
+   "num": "JJ/S66-T05",
+   "name": "正確な射撃 ミスタ",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋Ｘ。Ｘはそのキャラのレベル×500に等しい。\n【自】［(1) 手札のクライマックスを1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室のクライマックスを1枚選び、手札に戻す。\n\"行け………『S･P』ッ！\"",
+   "traits": [
+    "黄金の風",
+    "スタンド使い"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/j/jj_s66/jj_s66_t05.png",
+   "variant": ""
+  },
+  {
+   "num": "JJ/S66-T06",
+   "name": "黄金体験 G･E",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "yellow",
+   "level": "3",
+   "cost": "2",
+   "power": "9000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの「黄金の意思 ジョルノ」すべてに、パワーを＋1000。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n【自】 このカードが手札から舞台に置かれた時、そのターン中、このカードのパワーを＋Ｘ。Ｘはあなたの《黄金の風》のキャラの枚数×1000に等しい。\n\"ジョルノ「G･Eを使ってこいつの攻撃をかわすしかない！」\"",
+   "traits": [
+    "黄金の風",
+    "スタンド"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/j/jj_s66/jj_s66_t06.png",
+   "variant": ""
+  },
+  {
+   "num": "JJ/S66-T06S",
+   "name": "黄金体験 G･E",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "yellow",
+   "level": "3",
+   "cost": "2",
+   "power": "9000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの「黄金の意思 ジョルノ」すべてに、パワーを＋1000。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n【自】 このカードが手札から舞台に置かれた時、そのターン中、このカードのパワーを＋Ｘ。Ｘはあなたの《黄金の風》のキャラの枚数×1000に等しい。\n\"ジョルノ「G･Eは物体を殴ればそれに生命を与えることができる」\"",
+   "traits": [
+    "黄金の風",
+    "スタンド"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/j/jj_s66/jj_s66_t06s.png",
+   "variant": ""
+  },
+  {
+   "num": "JJ/S66-T07",
+   "name": "黄金の意思 ジョルノ",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "yellow",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは2枚まで引き、自分の手札を1枚選び、控え室に置く。\n【自】【CXコンボ】 あなたのクライマックス置場に「黄金体験」が置かれた時、前列にこのカードがいるなら、あなたは自分の山札を見て《黄金の風》のキャラを1枚まで選んで相手に見せ、手札に加え、自分の手札の「黄金体験 G･E」を1枚まで選び、舞台の好きな枠に置き、その山札をシャッフルする。\n\"ぼくらはのし上がって行かなくっちゃあいけないんです！\"",
+   "traits": [
+    "黄金の風",
+    "スタンド使い"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/j/jj_s66/jj_s66_t07.png",
+   "variant": ""
+  },
+  {
+   "num": "JJ/S66-T07S",
+   "name": "黄金の意思 ジョルノ",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "yellow",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは2枚まで引き、自分の手札を1枚選び、控え室に置く。\n【自】【CXコンボ】 あなたのクライマックス置場に「黄金体験」が置かれた時、前列にこのカードがいるなら、あなたは自分の山札を見て《黄金の風》のキャラを1枚まで選んで相手に見せ、手札に加え、自分の手札の「黄金体験 G･E」を1枚まで選び、舞台の好きな枠に置き、その山札をシャッフルする。\n\"あなた…『覚悟して来てる人』…………ですよね\"",
+   "traits": [
+    "黄金の風",
+    "スタンド使い"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/j/jj_s66/jj_s66_t07s.png",
+   "variant": ""
+  },
+  {
+   "num": "JJ/S66-T08",
+   "name": "溢れ出る生命力",
+   "type": "Event",
+   "rarity": "TD",
+   "color": "yellow",
+   "level": "1",
+   "cost": "1",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "あなたは自分の控え室のキャラを1枚まで選び、手札に戻し、自分のキャラを1枚選び、そのターン中、パワーを＋1000。\n\"ジョルノ「うおぉおおおお」\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/j/jj_s66/jj_s66_t08.png",
+   "variant": ""
+  },
+  {
+   "num": "JJ/S66-T09",
+   "name": "黄金体験",
+   "type": "Climax",
+   "rarity": "TD",
+   "color": "yellow",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[bounce.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[bounce.gif]]：このカードがトリガーした時、あなたは相手のキャラを1枚選び、手札に戻してよい）\n\"ジョルノ「なぜ　ぼくにこんな「能力」が身についてるのか知らないが…せいぜい利用させてもらうかな……」\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/j/jj_s66/jj_s66_t09.png",
+   "variant": ""
+  },
+  {
+   "num": "JJ/S66-T09J",
+   "name": "黄金体験",
+   "type": "Climax",
+   "rarity": "JJR",
+   "color": "yellow",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[bounce.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[bounce.gif]]：このカードがトリガーした時、あなたは相手のキャラを1枚選び、手札に戻してよい）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/j/jj_s66/jj_s66_t09j.png",
+   "variant": ""
+  },
+  {
+   "num": "JJ/S66-T10",
+   "name": "最後の弾丸",
+   "type": "Climax",
+   "rarity": "TD",
+   "color": "yellow",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【永】 あなたのキャラすべてに、ソウルを＋2。\n\"おめーには必ずブチ込む！この『1発』をな\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/j/jj_s66/jj_s66_t10.png",
+   "variant": ""
+  },
+  {
+   "num": "JJ/S66-T11",
+   "name": "始末する覚悟 ブチャラティ",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの「未来の仲間 ジョルノ」すべてに、パワーを＋1000。\n【自】 絆／「未来の仲間 ジョルノ」 ［(1)］ （このカードがプレイされて舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「未来の仲間 ジョルノ」を1枚選び、手札に戻す）\n\"こいつにはやると言ったらやる………『スゴ味』があるッ！\"",
+   "traits": [
+    "黄金の風",
+    "スタンド使い"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/j/jj_s66/jj_s66_t11.png",
+   "variant": ""
+  },
+  {
+   "num": "JJ/S66-T12",
+   "name": "新入りへの興味 アバッキオ",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたのキャラが1枚以下なら、このカードのパワーを＋1500。\n\"ジョルノ・ジョバァーナ‼こいつ……クレイジーな野郎だな…\"",
+   "traits": [
+    "黄金の風",
+    "スタンド使い"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/j/jj_s66/jj_s66_t12.png",
+   "variant": ""
+  },
+  {
+   "num": "JJ/S66-T13",
+   "name": "ムードメイカー ミスタ",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から2枚を、控え室に置き、そのターン中、このカードのパワーを＋Ｘ。Ｘはそれらのカードの《黄金の風》のキャラの枚数×1000に等しい。\n\"またオラァ～ッNo.3！No.5を泣かせるんじゃあねェー‼\"",
+   "traits": [
+    "黄金の風",
+    "スタンド使い"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/j/jj_s66/jj_s66_t13.png",
+   "variant": ""
+  },
+  {
+   "num": "JJ/S66-T14",
+   "name": "突如の激昂 フーゴ",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の《黄金の風》のキャラを1枚選び、そのターン中、パワーを＋1500。\n\"このチンピラがオレをナメてんのかッ！\"",
+   "traits": [
+    "黄金の風",
+    "スタンド使い"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/j/jj_s66/jj_s66_t14.png",
+   "variant": ""
+  },
+  {
+   "num": "JJ/S66-T15",
+   "name": "S･F",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードのバトル相手が【リバース】した時、あなたはこのカードを思い出にしてよい。そうしたら、次のあなたのドローフェイズの始めに、あなたは自分の思い出置場の「S･F」を1枚選び、舞台の好きな枠に置く。\n\"ブチャラティ「S･F！」\"",
+   "traits": [
+    "黄金の風",
+    "スタンド"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/j/jj_s66/jj_s66_t15.png",
+   "variant": ""
+  },
+  {
+   "num": "JJ/S66-T15J",
+   "name": "S･F",
+   "type": "Character",
+   "rarity": "JJR",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードのバトル相手が【リバース】した時、あなたはこのカードを思い出にしてよい。そうしたら、次のあなたのドローフェイズの始めに、あなたは自分の思い出置場の「S･F」を1枚選び、舞台の好きな枠に置く。\n\"-\"",
+   "traits": [
+    "黄金の風",
+    "スタンド"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/j/jj_s66/jj_s66_t15j.png",
+   "variant": ""
+  },
+  {
+   "num": "JJ/S66-T16",
+   "name": "純粋で無邪気 ナランチャ",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードがアタックした時、他のあなたの《黄金の風》のキャラが2枚以上なら、そのターン中、このカードのパワーを＋2000。\n\"どこにそんな金を隠したんだよブチャラティ\"",
+   "traits": [
+    "黄金の風",
+    "スタンド使い"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/j/jj_s66/jj_s66_t16.png",
+   "variant": ""
+  },
+  {
+   "num": "JJ/S66-T17",
+   "name": "見えない攻撃 ブチャラティ",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "1",
+   "cost": "1",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【起】【カウンター】 助太刀2500 レベル1 ［(1) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋2500）\n\"どうだいブルっちまう特技だろう…\"",
+   "traits": [
+    "黄金の風",
+    "スタンド使い"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/j/jj_s66/jj_s66_t17.png",
+   "variant": ""
+  },
+  {
+   "num": "JJ/S66-T18",
+   "name": "突然の攻撃 ブチャラティ",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "6500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたのターン中、他のあなたの「S･F」がいるなら、このカードのパワーを＋4000。\n【自】［手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見て「S･F」を1枚まで選び、舞台の好きな枠に置く。その後、その山札をシャッフルし、そのターン中、そのキャラのパワーを＋2000。\n\"スティッキィ・フィンガーズ！\"",
+   "traits": [
+    "黄金の風",
+    "スタンド使い"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/j/jj_s66/jj_s66_t18.png",
+   "variant": ""
+  },
+  {
+   "num": "JJ/S66-T18J",
+   "name": "突然の攻撃 ブチャラティ",
+   "type": "Character",
+   "rarity": "JJR",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "6500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたのターン中、他のあなたの「S･F」がいるなら、このカードのパワーを＋4000。\n【自】［手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見て「S･F」を1枚まで選び、舞台の好きな枠に置く。その後、その山札をシャッフルし、そのターン中、そのキャラのパワーを＋2000。\n\"-\"",
+   "traits": [
+    "黄金の風",
+    "スタンド使い"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/j/jj_s66/jj_s66_t18j.png",
+   "variant": ""
+  },
+  {
+   "num": "JJ/S66-T19",
+   "name": "未来の仲間 ジョルノ",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "8500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "-\n\"-\"",
+   "traits": [
+    "黄金の風",
+    "スタンド使い"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/j/jj_s66/jj_s66_t19.png",
+   "variant": ""
+  },
+  {
+   "num": "JJ/S66-T20",
+   "name": "許可された入門",
+   "type": "Climax",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[gate.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[gate.gif]]：このカードがトリガーした時、あなたは自分の控え室のクライマックスを1枚選び、手札に戻してよい）\n\"一緒に来いっ。ジョルノ・ジョバァーナ\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/j/jj_s66/jj_s66_t20.png",
+   "variant": ""
+  }
+ ]
+}

@@ -1,0 +1,880 @@
+{
+ "id": "jp-imc-e475",
+ "name": "[TD]アイドルマスター シンデレラガールズ Type:Cool",
+ "expansion": 475,
+ "lang": "jp",
+ "release": null,
+ "shopItem": null,
+ "box": null,
+ "cards": [
+  {
+   "num": "IMC/W115-T24",
+   "name": "アドバンス・アバンチュール 川島瑞樹",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札を上から2枚まで見て、山札の上に好きな順番で置く。\n【自】 このカードがアタックした時、あなたは自分の《音楽》のキャラを1枚選び、そのターン中、パワーを＋1500。\n\"ソイヤァァ、ハアっ！甘いわよ比奈ちゃん春菜ちゃんっ、もっと本気で来ないとミズキディフェンスは破れないわ！\"",
+   "traits": [
+    "音楽",
+    "アナウンサー"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/i/imc_w115/imc_w115_t24.png",
+   "variant": ""
+  },
+  {
+   "num": "IMC/W115-T24Co",
+   "name": "アドバンス・アバンチュール 川島瑞樹",
+   "type": "Character",
+   "rarity": "Co",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札を上から2枚まで見て、山札の上に好きな順番で置く。\n【自】 このカードがアタックした時、あなたは自分の《音楽》のキャラを1枚選び、そのターン中、パワーを＋1500。\n\"-\"",
+   "traits": [
+    "音楽",
+    "アナウンサー"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/i/imc_w115/imc_w115_t24co.png",
+   "variant": ""
+  },
+  {
+   "num": "IMC/W115-T25",
+   "name": "ライフ・オンライン 砂塚あきら",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋500。\n【起】［(2) このカードを【レスト】する］ あなたは自分の山札を見て《音楽》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"へへー、どーデスか？ここが自分の部屋で。城ってやつ。ゲーム配信とかもここからしてます\"",
+   "traits": [
+    "音楽",
+    "ファッション"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/i/imc_w115/imc_w115_t25.png",
+   "variant": ""
+  },
+  {
+   "num": "IMC/W115-T25Co",
+   "name": "ライフ・オンライン 砂塚あきら",
+   "type": "Character",
+   "rarity": "Co",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋500。\n【起】［(2) このカードを【レスト】する］ あなたは自分の山札を見て《音楽》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"-\"",
+   "traits": [
+    "音楽",
+    "ファッション"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/i/imc_w115/imc_w115_t25co.png",
+   "variant": ""
+  },
+  {
+   "num": "IMC/W115-T26",
+   "name": "ありすのティーパーティー 橘 ありす",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋1000。\n【起】 集中 ［(1) このカードを【レスト】する］ あなたは自分の山札の上から4枚をめくり、控え室に置く。それらのカードのCX1枚につき、あなたは自分の控え室のキャラを1枚まで選び、手札に戻す。\n\"さぁ、みなさんを呼んできて、楽しいスイーツパーティーをはじめましょう！\"",
+   "traits": [
+    "音楽",
+    "本"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/i/imc_w115/imc_w115_t26.png",
+   "variant": ""
+  },
+  {
+   "num": "IMC/W115-T26Co",
+   "name": "ありすのティーパーティー 橘 ありす",
+   "type": "Character",
+   "rarity": "Co",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋1000。\n【起】 集中 ［(1) このカードを【レスト】する］ あなたは自分の山札の上から4枚をめくり、控え室に置く。それらのカードのCX1枚につき、あなたは自分の控え室のキャラを1枚まで選び、手札に戻す。\n\"-\"",
+   "traits": [
+    "音楽",
+    "本"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/i/imc_w115/imc_w115_t26co.png",
+   "variant": ""
+  },
+  {
+   "num": "IMC/W115-T27",
+   "name": "トゥインクル・パーティー 北条加蓮",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 相手のアタックフェイズの始めに、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋500。\n【起】 集中 ［(1) このカードを【レスト】する］ あなたは自分の山札の上から4枚をめくり、控え室に置く。それらのカードのCX1枚につき、あなたは自分の控え室のキャラを1枚まで選び、手札に戻す。\n\"事務所のパーティーだったのに…私の誕生日までお祝いしてもらえるなんて、ビックリ！ありがとまゆ、李衣菜♪\"",
+   "traits": [
+    "音楽",
+    "ネイル"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/i/imc_w115/imc_w115_t27.png",
+   "variant": ""
+  },
+  {
+   "num": "IMC/W115-T27Co",
+   "name": "トゥインクル・パーティー 北条加蓮",
+   "type": "Character",
+   "rarity": "Co",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 相手のアタックフェイズの始めに、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋500。\n【起】 集中 ［(1) このカードを【レスト】する］ あなたは自分の山札の上から4枚をめくり、控え室に置く。それらのカードのCX1枚につき、あなたは自分の控え室のキャラを1枚まで選び、手札に戻す。\n\"-\"",
+   "traits": [
+    "音楽",
+    "ネイル"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/i/imc_w115/imc_w115_t27co.png",
+   "variant": ""
+  },
+  {
+   "num": "IMC/W115-T28",
+   "name": "クリスタルスノー アナスタシア",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのストックが2枚以下なら、このカードのパワーを＋1500。\n【自】 相手のアタックフェイズの始めに、あなたはこのカードを前列のキャラのいない枠に動かしてよい。\n\"あぁ…ズヴェズダ…街に降っています…。日本のクリスマスは…星がたくさんありますね\"",
+   "traits": [
+    "音楽",
+    "星"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/i/imc_w115/imc_w115_t28.png",
+   "variant": ""
+  },
+  {
+   "num": "IMC/W115-T28Co",
+   "name": "クリスタルスノー アナスタシア",
+   "type": "Character",
+   "rarity": "Co",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのストックが2枚以下なら、このカードのパワーを＋1500。\n【自】 相手のアタックフェイズの始めに、あなたはこのカードを前列のキャラのいない枠に動かしてよい。\n\"-\"",
+   "traits": [
+    "音楽",
+    "星"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/i/imc_w115/imc_w115_t28co.png",
+   "variant": ""
+  },
+  {
+   "num": "IMC/W115-T29",
+   "name": "ルージュクチュール 三船美優",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から1枚を公開する。そのカードが《音楽》のキャラなら手札に加え、あなたは自分の手札を1枚選び、控え室に置く。（そうでないなら元に戻す）\n【自】［手札の《音楽》のキャラを1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは1枚引く。\n\"次のLIVEの衣装、今までにないイメージで……挑戦することにワクワクしている自分がいるんです\"",
+   "traits": [
+    "音楽",
+    "アロマ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/i/imc_w115/imc_w115_t29.png",
+   "variant": ""
+  },
+  {
+   "num": "IMC/W115-T29Co",
+   "name": "ルージュクチュール 三船美優",
+   "type": "Character",
+   "rarity": "Co",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から1枚を公開する。そのカードが《音楽》のキャラなら手札に加え、あなたは自分の手札を1枚選び、控え室に置く。（そうでないなら元に戻す）\n【自】［手札の《音楽》のキャラを1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは1枚引く。\n\"-\"",
+   "traits": [
+    "音楽",
+    "アロマ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/i/imc_w115/imc_w115_t29co.png",
+   "variant": ""
+  },
+  {
+   "num": "IMC/W115-T30",
+   "name": "オーバー・マイセルフ 渋谷 凛",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 このカードと同じカード名のカードと、「渋谷 凛」は、デッキに合計4枚まで入れることができる。\n【自】［手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を上から4枚まで見て、青のキャラを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。\n\"あー…。あっ！なんでいるの！？というか、なんで見てるの…？\"",
+   "traits": [
+    "音楽",
+    "花"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/i/imc_w115/imc_w115_t30.png",
+   "variant": ""
+  },
+  {
+   "num": "IMC/W115-T30Co",
+   "name": "オーバー・マイセルフ 渋谷 凛",
+   "type": "Character",
+   "rarity": "Co",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 このカードと同じカード名のカードと、「渋谷 凛」は、デッキに合計4枚まで入れることができる。\n【自】［手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を上から4枚まで見て、青のキャラを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。\n\"-\"",
+   "traits": [
+    "音楽",
+    "花"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/i/imc_w115/imc_w115_t30co.png",
+   "variant": ""
+  },
+  {
+   "num": "IMC/W115-T30S",
+   "name": "オーバー・マイセルフ 渋谷 凛",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 このカードと同じカード名のカードと、「渋谷 凛」は、デッキに合計4枚まで入れることができる。\n【自】［手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を上から4枚まで見て、青のキャラを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。\n\"-\"",
+   "traits": [
+    "音楽",
+    "花"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/i/imc_w115/imc_w115_t30s.png",
+   "variant": ""
+  },
+  {
+   "num": "IMC/W115-T31",
+   "name": "ホワイトスノードール 白坂小梅",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 このカードと同じカード名のカードと、「ホラー大好き 小梅」は、デッキに合計4枚まで入れることができる。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札を上から4枚まで見て、CXを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。手札に加えたなら、あなたは自分の手札を1枚選び、控え室に置く。\n\"私たちが作った雪だるま…いつまで生き残るかな…。外、寒いし、朝までは残ってるよね…\"",
+   "traits": [
+    "音楽",
+    "オカルト"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/i/imc_w115/imc_w115_t31.png",
+   "variant": ""
+  },
+  {
+   "num": "IMC/W115-T31Co",
+   "name": "ホワイトスノードール 白坂小梅",
+   "type": "Character",
+   "rarity": "Co",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 このカードと同じカード名のカードと、「ホラー大好き 小梅」は、デッキに合計4枚まで入れることができる。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札を上から4枚まで見て、CXを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。手札に加えたなら、あなたは自分の手札を1枚選び、控え室に置く。\n\"-\"",
+   "traits": [
+    "音楽",
+    "オカルト"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/i/imc_w115/imc_w115_t31co.png",
+   "variant": ""
+  },
+  {
+   "num": "IMC/W115-T32",
+   "name": "ノーブルヴィーナス 新田美波",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたの手札が5枚以上なら、このカードのパワーを＋2000。\n\"プールって体力作りにも役立つし、なにより気持ちいいですよね\"",
+   "traits": [
+    "音楽",
+    "スポーツ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/i/imc_w115/imc_w115_t32.png",
+   "variant": ""
+  },
+  {
+   "num": "IMC/W115-T32Co",
+   "name": "ノーブルヴィーナス 新田美波",
+   "type": "Character",
+   "rarity": "Co",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたの手札が5枚以上なら、このカードのパワーを＋2000。\n\"-\"",
+   "traits": [
+    "音楽",
+    "スポーツ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/i/imc_w115/imc_w115_t32co.png",
+   "variant": ""
+  },
+  {
+   "num": "IMC/W115-T33",
+   "name": "なよ竹の美器 藤原 肇",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［手札のCXを1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の《音楽》のキャラを1枚選び、手札に戻す。\n【自】 このカードが【リバース】した時、このカードのバトル相手のコストが0以下なら、あなたはそのキャラを山札の下に置いてよい。\n\"さ…どうぞ、プロデューサーさん。岡山名産の、トマトゼリーです♪\"",
+   "traits": [
+    "音楽",
+    "陶芸"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/i/imc_w115/imc_w115_t33.png",
+   "variant": ""
+  },
+  {
+   "num": "IMC/W115-T33Co",
+   "name": "なよ竹の美器 藤原 肇",
+   "type": "Character",
+   "rarity": "Co",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［手札のCXを1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の《音楽》のキャラを1枚選び、手札に戻す。\n【自】 このカードが【リバース】した時、このカードのバトル相手のコストが0以下なら、あなたはそのキャラを山札の下に置いてよい。\n\"-\"",
+   "traits": [
+    "音楽",
+    "陶芸"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/i/imc_w115/imc_w115_t33co.png",
+   "variant": ""
+  },
+  {
+   "num": "IMC/W115-T34",
+   "name": "ドレスアップナイト 神谷奈緒",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの《音楽》のキャラが2枚以上なら、このカードのパワーを＋1000。\n【自】【CXコンボ】 このカードがアタックした時、CX置場に「Trinity Field」があり、他のあなたの《音楽》のキャラが2枚以上なら、あなたは自分の山札の上から3枚を、控え室に置き、自分の控え室のレベルＸ以下のキャラを1枚まで選び、手札に戻す。Ｘはこの効果で控え室に置かれたキャラの枚数に等しい。\n\"勝負服とか言われて強引に着せられて。だから誤解すんなっ。アンタのためじゃない！断じてない！クリスマスなんか、楽しみにしてない～！？\"",
+   "traits": [
+    "音楽",
+    "アニメ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/i/imc_w115/imc_w115_t34.png",
+   "variant": ""
+  },
+  {
+   "num": "IMC/W115-T34Co",
+   "name": "ドレスアップナイト 神谷奈緒",
+   "type": "Character",
+   "rarity": "Co",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの《音楽》のキャラが2枚以上なら、このカードのパワーを＋1000。\n【自】【CXコンボ】 このカードがアタックした時、CX置場に「Trinity Field」があり、他のあなたの《音楽》のキャラが2枚以上なら、あなたは自分の山札の上から3枚を、控え室に置き、自分の控え室のレベルＸ以下のキャラを1枚まで選び、手札に戻す。Ｘはこの効果で控え室に置かれたキャラの枚数に等しい。\n\"-\"",
+   "traits": [
+    "音楽",
+    "アニメ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/i/imc_w115/imc_w115_t34co.png",
+   "variant": ""
+  },
+  {
+   "num": "IMC/W115-T35",
+   "name": "夜色の暁風 塩見周子",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの後列の《音楽》のキャラ1枚につき、このカードのパワーを＋1000。\n\"この音、いいねー。伝統的でも、縛られないで、自由に泳いでる。なんとなくシンパシー感じるし♪\"",
+   "traits": [
+    "音楽",
+    "お菓子"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/i/imc_w115/imc_w115_t35.png",
+   "variant": ""
+  },
+  {
+   "num": "IMC/W115-T35Co",
+   "name": "夜色の暁風 塩見周子",
+   "type": "Character",
+   "rarity": "Co",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの後列の《音楽》のキャラ1枚につき、このカードのパワーを＋1000。\n\"-\"",
+   "traits": [
+    "音楽",
+    "お菓子"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/i/imc_w115/imc_w115_t35co.png",
+   "variant": ""
+  },
+  {
+   "num": "IMC/W115-T36",
+   "name": "夜風の誘い 高垣 楓",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "1",
+   "cost": "1",
+   "power": "500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 あなたがこのカードの『助太刀』を使った時、あなたは自分の山札の上から1枚を公開する。そのカードが《音楽》のキャラなら手札に加え、あなたは自分の手札を1枚選び、控え室に置く。（そうでないなら元に戻す）\n【起】【カウンター】 助太刀2000 レベル1 ［(1) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋2000）\n\"ずっと同じ現場にいられる日なんて、なかなかないですものね。だからなんだか、ほろ酔い気分♪今夜は歩いて帰りましょう。ね？\"",
+   "traits": [
+    "音楽",
+    "神秘"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/i/imc_w115/imc_w115_t36.png",
+   "variant": ""
+  },
+  {
+   "num": "IMC/W115-T36Co",
+   "name": "夜風の誘い 高垣 楓",
+   "type": "Character",
+   "rarity": "Co",
+   "color": "blue",
+   "level": "1",
+   "cost": "1",
+   "power": "500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 あなたがこのカードの『助太刀』を使った時、あなたは自分の山札の上から1枚を公開する。そのカードが《音楽》のキャラなら手札に加え、あなたは自分の手札を1枚選び、控え室に置く。（そうでないなら元に戻す）\n【起】【カウンター】 助太刀2000 レベル1 ［(1) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋2000）\n\"-\"",
+   "traits": [
+    "音楽",
+    "神秘"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/i/imc_w115/imc_w115_t36co.png",
+   "variant": ""
+  },
+  {
+   "num": "IMC/W115-T37",
+   "name": "麗しのミューズ 松永 涼",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "1",
+   "cost": "1",
+   "power": "5500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの《音楽》のキャラが2枚以上なら、このカードのパワーを＋2000。\n【自】 アンコール ［手札のキャラを1枚控え室に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"それじゃあ次は…こいつを聴いてもらおうかな。あんま有名じゃない曲だけど、初めて聴いた時から好きなんだ\"",
+   "traits": [
+    "音楽",
+    "ロック"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/i/imc_w115/imc_w115_t37.png",
+   "variant": ""
+  },
+  {
+   "num": "IMC/W115-T37Co",
+   "name": "麗しのミューズ 松永 涼",
+   "type": "Character",
+   "rarity": "Co",
+   "color": "blue",
+   "level": "1",
+   "cost": "1",
+   "power": "5500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの《音楽》のキャラが2枚以上なら、このカードのパワーを＋2000。\n【自】 アンコール ［手札のキャラを1枚控え室に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"-\"",
+   "traits": [
+    "音楽",
+    "ロック"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/i/imc_w115/imc_w115_t37co.png",
+   "variant": ""
+  },
+  {
+   "num": "IMC/W115-T38",
+   "name": "運命の待ち人 神崎蘭子",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは相手のレベル1以上のキャラを1枚選んでよい。そうしたら、相手は自分の控え室のレベルＸ以下のキャラを1枚選び、入れ替える。Ｘはあなたが選んだキャラのレベル－1に等しい。\n\"白薔薇の婚礼…それは、人に与えられた最上の幸福と聞くわ。ならば私は、世界で最も恵まれし花嫁になりましょう。貴方と…<br>（結婚式のお仕事、幸せだなぁ～。でも、恥ずかしい～）\"",
+   "traits": [
+    "音楽",
+    "闇"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/i/imc_w115/imc_w115_t38.png",
+   "variant": ""
+  },
+  {
+   "num": "IMC/W115-T38Co",
+   "name": "運命の待ち人 神崎蘭子",
+   "type": "Character",
+   "rarity": "Co",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは相手のレベル1以上のキャラを1枚選んでよい。そうしたら、相手は自分の控え室のレベルＸ以下のキャラを1枚選び、入れ替える。Ｘはあなたが選んだキャラのレベル－1に等しい。\n\"-\"",
+   "traits": [
+    "音楽",
+    "闇"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/i/imc_w115/imc_w115_t38co.png",
+   "variant": ""
+  },
+  {
+   "num": "IMC/W115-T39",
+   "name": "エンド・オブ・ザ・ブルー 速水 奏",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "7000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたのターン中、他のあなたの《音楽》のキャラ1枚につき、このカードのパワーを＋1500。\n\"私たちは、付かず離れずのコバルトフィッシュ。で、それに惹かれたエンゼルたち…。夜に迷い込んだのは…どっち？\"",
+   "traits": [
+    "音楽",
+    "キス"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/i/imc_w115/imc_w115_t39.png",
+   "variant": ""
+  },
+  {
+   "num": "IMC/W115-T39Co",
+   "name": "エンド・オブ・ザ・ブルー 速水 奏",
+   "type": "Character",
+   "rarity": "Co",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "7000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたのターン中、他のあなたの《音楽》のキャラ1枚につき、このカードのパワーを＋1500。\n\"-\"",
+   "traits": [
+    "音楽",
+    "キス"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/i/imc_w115/imc_w115_t39co.png",
+   "variant": ""
+  },
+  {
+   "num": "IMC/W115-T40",
+   "name": "目をあけてみる夢 多田李衣菜",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "2",
+   "cost": "2",
+   "power": "6000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの《音楽》のキャラ1枚につき、このカードのパワーを＋1000。\n【自】 アンコール ［手札のキャラを1枚控え室に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"ん～、あれ…？プロデューサーさん…なんでここに…？\"",
+   "traits": [
+    "音楽",
+    "ロック"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/i/imc_w115/imc_w115_t40.png",
+   "variant": ""
+  },
+  {
+   "num": "IMC/W115-T40Co",
+   "name": "目をあけてみる夢 多田李衣菜",
+   "type": "Character",
+   "rarity": "Co",
+   "color": "blue",
+   "level": "2",
+   "cost": "2",
+   "power": "6000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの《音楽》のキャラ1枚につき、このカードのパワーを＋1000。\n【自】 アンコール ［手札のキャラを1枚控え室に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"-\"",
+   "traits": [
+    "音楽",
+    "ロック"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/i/imc_w115/imc_w115_t40co.png",
+   "variant": ""
+  },
+  {
+   "num": "IMC/W115-T41",
+   "name": "ギフト・フォー・アンサー 森久保乃々",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "3",
+   "cost": "2",
+   "power": "7000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 応援 このカードの前のあなたの《音楽》のキャラすべてに、パワーを＋2000し、次の能力を与える。『【永】 このカードのバトル中、相手は『助太刀』を手札からプレイできない。』\n【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札を上から3枚まで見て、カードを1枚まで選び、手札に加え、残りのカードを控え室に置く。\n【自】 この能力は1ターンにつき3回まで発動する。他のあなたのキャラが控え室から舞台に置かれた時、あなたは自分のキャラを1枚選び、そのターン中、ソウルを＋1。\n\"…せーの、おーぷん！？ひゃぁ…あ、これは…誕生日プレゼント…？\"",
+   "traits": [
+    "音楽",
+    "ポエム"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/i/imc_w115/imc_w115_t41.png",
+   "variant": ""
+  },
+  {
+   "num": "IMC/W115-T41Co",
+   "name": "ギフト・フォー・アンサー 森久保乃々",
+   "type": "Character",
+   "rarity": "Co",
+   "color": "blue",
+   "level": "3",
+   "cost": "2",
+   "power": "7000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 応援 このカードの前のあなたの《音楽》のキャラすべてに、パワーを＋2000し、次の能力を与える。『【永】 このカードのバトル中、相手は『助太刀』を手札からプレイできない。』\n【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札を上から3枚まで見て、カードを1枚まで選び、手札に加え、残りのカードを控え室に置く。\n【自】 この能力は1ターンにつき3回まで発動する。他のあなたのキャラが控え室から舞台に置かれた時、あなたは自分のキャラを1枚選び、そのターン中、ソウルを＋1。\n\"-\"",
+   "traits": [
+    "音楽",
+    "ポエム"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/i/imc_w115/imc_w115_t41co.png",
+   "variant": ""
+  },
+  {
+   "num": "IMC/W115-T42",
+   "name": "密やかな饗宴 鷺沢文香",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時か「密やかな饗宴 鷺沢文香」の【CXコンボ】の効果で舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n【自】【CXコンボ】［手札を1枚控え室に置く］ あなたのCX置場に「咲いてJewel」が置かれた時、前列にこのカードがいるなら、あなたはコストを払ってよい。そうしたら、次の2つの効果のうちあなたが選んだ1つを行う。『相手は自分の山札の上から24枚を、控え室に置く。』『あなたは自分の控え室の《音楽》のキャラを1枚まで選び、舞台の好きな枠に置く。』\n\"…乾杯を…しにきてみました。お邪魔かとも思ったのですが、せっかくのパーティーなので\"",
+   "traits": [
+    "音楽",
+    "本"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/i/imc_w115/imc_w115_t42.png",
+   "variant": ""
+  },
+  {
+   "num": "IMC/W115-T42Co",
+   "name": "密やかな饗宴 鷺沢文香",
+   "type": "Character",
+   "rarity": "Co",
+   "color": "blue",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時か「密やかな饗宴 鷺沢文香」の【CXコンボ】の効果で舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n【自】【CXコンボ】［手札を1枚控え室に置く］ あなたのCX置場に「咲いてJewel」が置かれた時、前列にこのカードがいるなら、あなたはコストを払ってよい。そうしたら、次の2つの効果のうちあなたが選んだ1つを行う。『相手は自分の山札の上から24枚を、控え室に置く。』『あなたは自分の控え室の《音楽》のキャラを1枚まで選び、舞台の好きな枠に置く。』\n\"-\"",
+   "traits": [
+    "音楽",
+    "本"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/i/imc_w115/imc_w115_t42co.png",
+   "variant": ""
+  },
+  {
+   "num": "IMC/W115-T43",
+   "name": "パレス・オブ・ファンタジア 二宮飛鳥",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 前列の中央の枠にこのカードがいるなら、他のあなたの《音楽》のキャラ1枚につき、このカードのパワーを＋1000。\n【自】 相手のターン中、あなたの受けたダメージがキャンセルされなかった時、前列にこのカードがいるなら、あなたは自分の山札を上から1枚見て、山札の上か控え室に置く。\n\"溶けて失われる、かつての形。でも境界が虚ろになり、新たな存在価値が生まれる…。零れ落ちるキミを、セカイは見捨てやしないさ。ああ…美味しいな。チョコレートってやつは♪\"",
+   "traits": [
+    "音楽",
+    "中二病"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/i/imc_w115/imc_w115_t43.png",
+   "variant": ""
+  },
+  {
+   "num": "IMC/W115-T43Co",
+   "name": "パレス・オブ・ファンタジア 二宮飛鳥",
+   "type": "Character",
+   "rarity": "Co",
+   "color": "blue",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 前列の中央の枠にこのカードがいるなら、他のあなたの《音楽》のキャラ1枚につき、このカードのパワーを＋1000。\n【自】 相手のターン中、あなたの受けたダメージがキャンセルされなかった時、前列にこのカードがいるなら、あなたは自分の山札を上から1枚見て、山札の上か控え室に置く。\n\"-\"",
+   "traits": [
+    "音楽",
+    "中二病"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/i/imc_w115/imc_w115_t43co.png",
+   "variant": ""
+  },
+  {
+   "num": "IMC/W115-T44",
+   "name": "Nation Blue",
+   "type": "Event",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "1",
+   "cost": "1",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "［あなたの【スタンド】している《音楽》のキャラを1枚【レスト】する］ あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見て《音楽》のキャラを2枚まで選んで相手に見せ、手札に加え、その山札をシャッフルし、自分の手札を1枚選び、控え室に置き、自分のキャラを1枚選び、そのターン中、パワーを＋1000。\n\"そう、ここは蒼い世界。堕天使は、街へと降り立ったの。そして、夢を追うために、蒼く輝く道を歩き出す……あなたと、いっしょに……！\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/i/imc_w115/imc_w115_t44.png",
+   "variant": ""
+  },
+  {
+   "num": "IMC/W115-T44Co",
+   "name": "Nation Blue",
+   "type": "Event",
+   "rarity": "Co",
+   "color": "blue",
+   "level": "1",
+   "cost": "1",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "［あなたの【スタンド】している《音楽》のキャラを1枚【レスト】する］ あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見て《音楽》のキャラを2枚まで選んで相手に見せ、手札に加え、その山札をシャッフルし、自分の手札を1枚選び、控え室に置き、自分のキャラを1枚選び、そのターン中、パワーを＋1000。\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/i/imc_w115/imc_w115_t44co.png",
+   "variant": ""
+  },
+  {
+   "num": "IMC/W115-T45",
+   "name": "Trinity Field",
+   "type": "Climax",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[gate.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[gate.gif]]：このカードがトリガーした時、あなたは自分の控え室のCXを1枚選び、手札に戻してよい）\n\"奈緒「アンコールの声、すごいなぁ！こんなにみんなが楽しんでくれて、望んでくれてるんだ。応えないわけにはいかないよな！」\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/i/imc_w115/imc_w115_t45.png",
+   "variant": ""
+  },
+  {
+   "num": "IMC/W115-T45Co",
+   "name": "Trinity Field",
+   "type": "Climax",
+   "rarity": "Co",
+   "color": "blue",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[gate.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[gate.gif]]：このカードがトリガーした時、あなたは自分の控え室のCXを1枚選び、手札に戻してよい）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/i/imc_w115/imc_w115_t45co.png",
+   "variant": ""
+  },
+  {
+   "num": "IMC/W115-T46",
+   "name": "咲いてJewel",
+   "type": "Climax",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[gate.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[gate.gif]]：このカードがトリガーした時、あなたは自分の控え室のCXを1枚選び、手札に戻してよい）\n\"飛鳥「クリスタルなセットはより澄んで、ライトの光は柔らかく、声援は煌めいて…そうか、これが仲間と咲かせた、Jewelな光景…」\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/i/imc_w115/imc_w115_t46.png",
+   "variant": ""
+  },
+  {
+   "num": "IMC/W115-T46Co",
+   "name": "咲いてJewel",
+   "type": "Climax",
+   "rarity": "Co",
+   "color": "blue",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[gate.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[gate.gif]]：このカードがトリガーした時、あなたは自分の控え室のCXを1枚選び、手札に戻してよい）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/i/imc_w115/imc_w115_t46co.png",
+   "variant": ""
+  }
+ ]
+}

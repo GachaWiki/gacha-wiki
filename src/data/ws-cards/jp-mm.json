@@ -1,0 +1,2283 @@
+{
+ "id": "jp-mm",
+ "name": "魔法少女まどか☆マギカ",
+ "expansion": 74,
+ "lang": "jp",
+ "release": null,
+ "shopItem": null,
+ "box": null,
+ "cards": [
+  {
+   "num": "MM/W17-001",
+   "name": "銀の魔銃 マミ",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "7500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたのターン中、このカードの正面のキャラのレベルが3以上なら、このカードのパワーを＋4000し、ソウルを＋1。\n\"今日という今日は速攻で片付けるわよ！\"",
+   "traits": [
+    "魔法",
+    "お茶"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mm_w17/mm_w17_001.png",
+   "variant": ""
+  },
+  {
+   "num": "MM/W17-001S",
+   "name": "銀の魔銃 マミ",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "7500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたのターン中、このカードの正面のキャラのレベルが3以上なら、このカードのパワーを＋4000し、ソウルを＋1。\n\"SECRET\"",
+   "traits": [
+    "魔法",
+    "お茶"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mm_w17/mm_w17_001s.png",
+   "variant": ""
+  },
+  {
+   "num": "MM/W17-002",
+   "name": "巴 マミ",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "yellow",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n【自】［(2)］ このカードがアタックした時、クライマックス置場に「ティロ・フィナーレ」があるなら、あなたはコストを払ってよい。そうしたら、あなたは相手の前列のレベル3以下のキャラを1枚まで選び、ストック置場に置き、そのターン中、相手は『【自】 アンコール』を使えない。（ルールによる『【自】 アンコール ［(3)］』も使えない）\n\"せっかくのとこ悪いけど、一気に決めさせて――もらうわよ！\"",
+   "traits": [
+    "魔法",
+    "お茶"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mm_w17/mm_w17_002.png",
+   "variant": ""
+  },
+  {
+   "num": "MM/W17-002SP",
+   "name": "巴 マミ",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "yellow",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n【自】［(2)］ このカードがアタックした時、クライマックス置場に「ティロ・フィナーレ」があるなら、あなたはコストを払ってよい。そうしたら、あなたは相手の前列のレベル3以下のキャラを1枚まで選び、ストック置場に置き、そのターン中、相手は『【自】 アンコール』を使えない。（ルールによる『【自】 アンコール ［(3)］』も使えない）\n\"SECRET\"",
+   "traits": [
+    "魔法",
+    "お茶"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mm_w17/mm_w17_002sp.png",
+   "variant": ""
+  },
+  {
+   "num": "MM/W17-003",
+   "name": "契約をせまるキュゥべえ",
+   "type": "Character",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの《魔法》のキャラすべてに、パワーを＋500。\n【永】 あなたが自分のキャラの『チェンジ』のコストを払う時、このカードの下のマーカーを、ストック1枚のかわりに控え室に置いてよい。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から1枚を、このカードの下にマーカーとして置く。\n\"僕と契約して魔法少女になってよ！\"",
+   "traits": [
+    "宇宙人",
+    "魔法"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mm_w17/mm_w17_003.png",
+   "variant": ""
+  },
+  {
+   "num": "MM/W17-004",
+   "name": "先輩魔法少女 マミ",
+   "type": "Character",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(2)］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見て《魔法》のキャラを1枚まで選んで相手に見せ、手札に加える。その山札をシャッフルする。\n【自】【クロック】 シフト レベル0 （あなたのメインフェイズの始めに、あなたは自分の手札の黄のカードを1枚とクロック置場のこのカードを選び、入れ替えてよい）\n\"そして、キュゥべえと契約した魔法少女よ\"",
+   "traits": [
+    "魔法",
+    "お茶"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mm_w17/mm_w17_004.png",
+   "variant": ""
+  },
+  {
+   "num": "MM/W17-004S",
+   "name": "先輩魔法少女 マミ",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(2)］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見て《魔法》のキャラを1枚まで選んで相手に見せ、手札に加える。その山札をシャッフルする。\n【自】【クロック】 シフト レベル0 （あなたのメインフェイズの始めに、あなたは自分の手札の黄のカードを1枚とクロック置場のこのカードを選び、入れ替えてよい）\n\"SECRET\"",
+   "traits": [
+    "魔法",
+    "お茶"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mm_w17/mm_w17_004s.png",
+   "variant": ""
+  },
+  {
+   "num": "MM/W17-005",
+   "name": "パジャマのマミ",
+   "type": "Character",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、他のあなたの《魔法》のキャラが2枚以上なら、そのターン中、このカードのパワーを＋2000。\n\"-\"",
+   "traits": [
+    "魔法",
+    "お茶"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mm_w17/mm_w17_005.png",
+   "variant": ""
+  },
+  {
+   "num": "MM/W17-006",
+   "name": "宿命を背負うマミ",
+   "type": "Character",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "2",
+   "cost": "2",
+   "power": "9000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 このカードのバトル中、すべてのプレイヤーは『助太刀』を手札からプレイできない。\n\"私の場合は……考えている余裕さえなかったってだけ\"",
+   "traits": [
+    "魔法",
+    "お茶"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mm_w17/mm_w17_006.png",
+   "variant": ""
+  },
+  {
+   "num": "MM/W17-006R",
+   "name": "宿命を背負うマミ",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "yellow",
+   "level": "2",
+   "cost": "2",
+   "power": "9000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 このカードのバトル中、すべてのプレイヤーは『助太刀』を手札からプレイできない。\n\"SECRET\"",
+   "traits": [
+    "魔法",
+    "お茶"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mm_w17/mm_w17_006r.png",
+   "variant": ""
+  },
+  {
+   "num": "MM/W17-007",
+   "name": "“お菓子の魔女”シャルロッテ",
+   "type": "Character",
+   "rarity": "U",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 このカードの正面のキャラのソウルを＋1。\n【自】 このカードのバトル中、あなたの受けたダメージがキャンセルされた時、次のあなたのターンの終わりまで、このカードのパワーを＋1000。\n\"-\"",
+   "traits": [
+    "魔法",
+    "お菓子"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mm_w17/mm_w17_007.png",
+   "variant": ""
+  },
+  {
+   "num": "MM/W17-008",
+   "name": "“もうひとりじゃない”マミ",
+   "type": "Character",
+   "rarity": "U",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードがフロントアタックした時、クライマックス置場に「もう何も恐くない」があるなら、あなたは自分の山札の上から1枚を公開する。そのカードがクライマックスなら、そのターン中、このカードのパワーを－4500。そうでないなら、そのターン中、このカードのパワーを＋4500。（公開したカードは元に戻す）\n\"身体が、軽い。こんな幸せな気持ちで戦うのなんて初めて\"",
+   "traits": [
+    "魔法",
+    "お茶"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mm_w17/mm_w17_008.png",
+   "variant": ""
+  },
+  {
+   "num": "MM/W17-009",
+   "name": "生きるための願い マミ",
+   "type": "Character",
+   "rarity": "U",
+   "color": "yellow",
+   "level": "1",
+   "cost": "1",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたのターン中、他のあなたのキャラすべてに、パワーを＋1000。\n【自】 チェンジ ［(1) このカードを控え室に置く］ あなたのドローフェイズの始めに、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「宿命を背負うマミ」を1枚選び、このカードがいた枠に置く。\n\"いいものじゃないわよ……魔法少女なんて\"",
+   "traits": [
+    "魔法",
+    "お茶"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mm_w17/mm_w17_009.png",
+   "variant": ""
+  },
+  {
+   "num": "MM/W17-010",
+   "name": "束縛魔法 マミ",
+   "type": "Character",
+   "rarity": "U",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【起】【カウンター】 助太刀3000 レベル2 ［(1) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋3000）\n\"暁美さん、お願い！\"",
+   "traits": [
+    "魔法",
+    "お茶"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mm_w17/mm_w17_010.png",
+   "variant": ""
+  },
+  {
+   "num": "MM/W17-011",
+   "name": "お茶をたしなむマミ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋500。\n【起】［このカードを【レスト】する］ あなたは自分のカード名に「まどか」を含むキャラを1枚選び、そのターン中、パワーを＋500。\n\"そう、命懸けよ。<br />だからあなたたちも慎重に選んだほうがいい\"",
+   "traits": [
+    "魔法",
+    "お茶"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mm_w17/mm_w17_011.png",
+   "variant": ""
+  },
+  {
+   "num": "MM/W17-012",
+   "name": "忠告するマミ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのターン中、このカードのパワーを＋1000。\n\"――なら二度と遭うことのないよう努力して\"",
+   "traits": [
+    "魔法",
+    "お茶"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mm_w17/mm_w17_012.png",
+   "variant": ""
+  },
+  {
+   "num": "MM/W17-013",
+   "name": "ベテラン魔法少女 マミ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "",
+   "text": "-\n\"大丈夫。未来の後輩に、<br />あんまり格好悪いとこ見せられないものね！\"",
+   "traits": [
+    "魔法",
+    "お茶"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mm_w17/mm_w17_013.png",
+   "variant": ""
+  },
+  {
+   "num": "MM/W17-014",
+   "name": "希望を託すマミ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "5500",
+   "soul": 1,
+   "trigger": "",
+   "text": "-\n\"あなた自身が希望になるのよ。私達、全ての希望に\"",
+   "traits": [
+    "魔法",
+    "お茶"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mm_w17/mm_w17_014.png",
+   "variant": ""
+  },
+  {
+   "num": "MM/W17-015",
+   "name": "優しく見守るマミ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "1",
+   "cost": "1",
+   "power": "7000",
+   "soul": 1,
+   "trigger": "",
+   "text": "-\n\"まいったなぁ……まだまだちゃんと<br />先輩ぶってなきゃいけないのになぁ……<br />やっぱり私、駄目な子だ…\"",
+   "traits": [
+    "魔法",
+    "お茶"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mm_w17/mm_w17_015.png",
+   "variant": ""
+  },
+  {
+   "num": "MM/W17-016",
+   "name": "優雅なるマミ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "8500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "-\n\"-\"",
+   "traits": [
+    "魔法",
+    "お茶"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mm_w17/mm_w17_016.png",
+   "variant": ""
+  },
+  {
+   "num": "MM/W17-017",
+   "name": "グリーフシード",
+   "type": "Event",
+   "rarity": "U",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "【カウンター】 あなたは自分のキャラを1枚選び、そのターン中、パワーを＋Ｘ。Ｘはあなたの《魔法》のキャラの枚数×1000に等しい。\n\"マミ「これがグリーフシード。魔女の卵よ」\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mm_w17/mm_w17_017.png",
+   "variant": ""
+  },
+  {
+   "num": "MM/W17-018",
+   "name": "一瞬の出来事",
+   "type": "Event",
+   "rarity": "U",
+   "color": "yellow",
+   "level": "2",
+   "cost": "2",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "あなたは相手の前列のレベル2以下のキャラを1枚選び、思い出にする。\n\"――えっ？\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mm_w17/mm_w17_018.png",
+   "variant": ""
+  },
+  {
+   "num": "MM/W17-019",
+   "name": "もう何も恐くない",
+   "type": "Climax",
+   "rarity": "CR",
+   "color": "yellow",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[bounce.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[bounce.gif]]：このカードがトリガーした時、あなたは相手のキャラを1枚選び、手札に戻してよい）\n\"――私、ひとりぼっちじゃないもの\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mm_w17/mm_w17_019.png",
+   "variant": ""
+  },
+  {
+   "num": "MM/W17-020",
+   "name": "ティロ・フィナーレ",
+   "type": "Climax",
+   "rarity": "CC",
+   "color": "yellow",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【自】 このカードが手札からクライマックス置場に置かれた時、あなたは1枚引き、自分のキャラを1枚選び、そのターン中、パワーを＋2000し、ソウルを＋1。\n\"ティロ・フィナ――――レ!!\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mm_w17/mm_w17_020.png",
+   "variant": ""
+  },
+  {
+   "num": "MM/W17-021",
+   "name": "悲壮な覚悟 ほむら",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "green",
+   "level": "2",
+   "cost": "1",
+   "power": "7500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードがアタックした時、クライマックス置場に「もう誰にも頼らない」があり、他のあなたの前列の【スタンド】しているキャラがいないなら、そのターン中、このカードのパワーを＋7000。\n【自】【クロック】 シフト レベル2 （あなたのメインフェイズの始めに、あなたは自分の手札の緑のカードを1枚とクロック置場のこのカードを選び、入れ替えてよい）\n\"あなたには、関係ないわ\"",
+   "traits": [
+    "魔法",
+    "時間"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mm_w17/mm_w17_021.png",
+   "variant": ""
+  },
+  {
+   "num": "MM/W17-021SP",
+   "name": "悲壮な覚悟 ほむら",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "green",
+   "level": "2",
+   "cost": "1",
+   "power": "7500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードがアタックした時、クライマックス置場に「もう誰にも頼らない」があり、他のあなたの前列の【スタンド】しているキャラがいないなら、そのターン中、このカードのパワーを＋7000。\n【自】【クロック】 シフト レベル2 （あなたのメインフェイズの始めに、あなたは自分の手札の緑のカードを1枚とクロック置場のこのカードを選び、入れ替えてよい）\n\"SECRET\"",
+   "traits": [
+    "魔法",
+    "時間"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mm_w17/mm_w17_021sp.png",
+   "variant": ""
+  },
+  {
+   "num": "MM/W17-022",
+   "name": "“内緒”のまどか",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "green",
+   "level": "2",
+   "cost": "1",
+   "power": "7500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの《魔法》のキャラが3枚以上なら、このカードのパワーを＋1000。\n【自】 このカードがアタックした時、クライマックス置場に「クラスのみんなには、内緒だよ！」があるなら、あなたは他の自分のキャラを1枚まで選び、思い出にし、次のあなたのドローフェイズの始めに、あなたは自分の思い出置場のそのキャラを舞台の好きな枠に置く。\n【自】 このカードがアタックした時、クライマックス置場に「クラスのみんなには、内緒だよ！」があるなら、次の相手のターンの終わりまで、このカードのパワーを＋2000。\n\"いきなり、秘密がばれちゃったね\"",
+   "traits": [
+    "魔法"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mm_w17/mm_w17_022.png",
+   "variant": ""
+  },
+  {
+   "num": "MM/W17-022SP",
+   "name": "“内緒”のまどか",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "green",
+   "level": "2",
+   "cost": "1",
+   "power": "7500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの《魔法》のキャラが3枚以上なら、このカードのパワーを＋1000。\n【自】 このカードがアタックした時、クライマックス置場に「クラスのみんなには、内緒だよ！」があるなら、あなたは他の自分のキャラを1枚まで選び、思い出にし、次のあなたのドローフェイズの始めに、あなたは自分の思い出置場のそのキャラを舞台の好きな枠に置く。\n【自】 このカードがアタックした時、クライマックス置場に「クラスのみんなには、内緒だよ！」があるなら、次の相手のターンの終わりまで、このカードのパワーを＋2000。\n\"SECRET\"",
+   "traits": [
+    "魔法"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mm_w17/mm_w17_022sp.png",
+   "variant": ""
+  },
+  {
+   "num": "MM/W17-023",
+   "name": "容姿端麗 ほむら",
+   "type": "Character",
+   "rarity": "R",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［あなたの控え室のキャラを2枚山札に戻す。その山札をシャッフルする］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、そのターン中、このカードのパワーを＋2000。\n【自】【クロック】 シフト レベル0 （あなたのメインフェイズの始めに、あなたは自分の手札の緑のカードを1枚とクロック置場のこのカードを選び、入れ替えてよい）\n\"あなたは、鹿目まどかのままでいいればいい。<br />今まで通りに、これからも\"",
+   "traits": [
+    "魔法",
+    "時間"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mm_w17/mm_w17_023.png",
+   "variant": ""
+  },
+  {
+   "num": "MM/W17-023S",
+   "name": "容姿端麗 ほむら",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［あなたの控え室のキャラを2枚山札に戻す。その山札をシャッフルする］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、そのターン中、このカードのパワーを＋2000。\n【自】【クロック】 シフト レベル0 （あなたのメインフェイズの始めに、あなたは自分の手札の緑のカードを1枚とクロック置場のこのカードを選び、入れ替えてよい）\n\"SECRET\"",
+   "traits": [
+    "魔法",
+    "時間"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mm_w17/mm_w17_023s.png",
+   "variant": ""
+  },
+  {
+   "num": "MM/W17-024",
+   "name": "見守るほむら",
+   "type": "Character",
+   "rarity": "R",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【起】 集中 ［(1) あなたのキャラを2枚【レスト】する］ あなたは自分の山札の上から4枚をめくり、控え室に置く。それらのカードのクライマックス1枚につき、あなたは自分の山札を見て《魔法》のキャラを1枚まで選んで相手に見せ、手札に加える。その山札をシャッフルする。\n\"彼女だけは、契約させるわけにはいかない\"",
+   "traits": [
+    "魔法",
+    "時間"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mm_w17/mm_w17_024.png",
+   "variant": ""
+  },
+  {
+   "num": "MM/W17-025",
+   "name": "隠された思い ほむら",
+   "type": "Character",
+   "rarity": "R",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "6000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 このカードは、あなたの《魔法》のキャラが2枚以下なら、手札からプレイできない。\n\"本当の気持ちなんて、伝わるわけないのよ\"",
+   "traits": [
+    "魔法",
+    "時間"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mm_w17/mm_w17_025.png",
+   "variant": ""
+  },
+  {
+   "num": "MM/W17-025S",
+   "name": "隠された思い ほむら",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "6000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 このカードは、あなたの《魔法》のキャラが2枚以下なら、手札からプレイできない。\n\"SECRET\"",
+   "traits": [
+    "魔法",
+    "時間"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mm_w17/mm_w17_025s.png",
+   "variant": ""
+  },
+  {
+   "num": "MM/W17-026",
+   "name": "弓の魔法少女 まどか",
+   "type": "Character",
+   "rarity": "R",
+   "color": "green",
+   "level": "1",
+   "cost": "1",
+   "power": "6500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのストックが4枚以上なら、このカードのパワーを＋1000。\n\"それでも――わたしは魔法少女だから。<br />みんなのこと守らなきゃいけないから\"",
+   "traits": [
+    "魔法"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mm_w17/mm_w17_026.png",
+   "variant": ""
+  },
+  {
+   "num": "MM/W17-026S",
+   "name": "弓の魔法少女 まどか",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "1",
+   "cost": "1",
+   "power": "6500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのストックが4枚以上なら、このカードのパワーを＋1000。\n\"SECRET\"",
+   "traits": [
+    "魔法"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mm_w17/mm_w17_026s.png",
+   "variant": ""
+  },
+  {
+   "num": "MM/W17-027",
+   "name": "揺れ動く気持ち まどか",
+   "type": "Character",
+   "rarity": "R",
+   "color": "green",
+   "level": "2",
+   "cost": "1",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋Ｘ。Ｘはそのキャラのレベル×500に等しい。\n【自】 チェンジ ［(1) このカードを控え室に置く］ あなたのドローフェイズの始めに、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「アルティメットまどか」を1枚選び、このカードがいた枠に置く。\n\"……ごめんなさい……わたし、弱い子で……<br />ごめんなさい……\"",
+   "traits": [
+    "魔法"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mm_w17/mm_w17_027.png",
+   "variant": ""
+  },
+  {
+   "num": "MM/W17-028",
+   "name": "時の魔法少女 ほむら",
+   "type": "Character",
+   "rarity": "R",
+   "color": "green",
+   "level": "2",
+   "cost": "2",
+   "power": "8000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたのストックが5枚以上なら、このカードのパワーを＋1000。\n【自】［手札の《魔法》のキャラを1枚控え室に置き、このカードを思い出にする］ バトル中のこのカードが【リバース】した時、あなたはコストを払ってよい。そうしたら、次のあなたのドローフェイズの始めに、あなたは自分の思い出置場の「時の魔法少女 ほむら」を1枚選び、舞台の好きな枠に置く。\n\"誰も、未来を受け止められない。だったら、私は――\"",
+   "traits": [
+    "魔法",
+    "時間"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mm_w17/mm_w17_028.png",
+   "variant": ""
+  },
+  {
+   "num": "MM/W17-028R",
+   "name": "時の魔法少女 ほむら",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "green",
+   "level": "2",
+   "cost": "2",
+   "power": "8000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたのストックが5枚以上なら、このカードのパワーを＋1000。\n【自】［手札の《魔法》のキャラを1枚控え室に置き、このカードを思い出にする］ バトル中のこのカードが【リバース】した時、あなたはコストを払ってよい。そうしたら、次のあなたのドローフェイズの始めに、あなたは自分の思い出置場の「時の魔法少女 ほむら」を1枚選び、舞台の好きな枠に置く。\n\"SECRET\"",
+   "traits": [
+    "魔法",
+    "時間"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mm_w17/mm_w17_028r.png",
+   "variant": ""
+  },
+  {
+   "num": "MM/W17-029",
+   "name": "因果の終着点 まどか",
+   "type": "Character",
+   "rarity": "R",
+   "color": "green",
+   "level": "2",
+   "cost": "2",
+   "power": "8500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 このカードの下のマーカー1枚につき、このカードのパワーを＋1500。\n【自】 あなたが山札をリフレッシュした時、あなたは自分の山札の上から1枚を、このカードの下にマーカーとして置いてよい。\n\"キュゥべえ「まどかが産み出すかもしれない<br />ソウルジェムの大きさは、僕にも測定しきれない」\"",
+   "traits": [
+    "魔法"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mm_w17/mm_w17_029.png",
+   "variant": ""
+  },
+  {
+   "num": "MM/W17-029S",
+   "name": "因果の終着点 まどか",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "2",
+   "cost": "2",
+   "power": "8500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 このカードの下のマーカー1枚につき、このカードのパワーを＋1500。\n【自】 あなたが山札をリフレッシュした時、あなたは自分の山札の上から1枚を、このカードの下にマーカーとして置いてよい。\n\"SECRET\"",
+   "traits": [
+    "魔法"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mm_w17/mm_w17_029s.png",
+   "variant": ""
+  },
+  {
+   "num": "MM/W17-030",
+   "name": "アルティメットまどか",
+   "type": "Character",
+   "rarity": "R",
+   "color": "green",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時か『チェンジ』で舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n【自】［このカードを思い出にする］ あなたのクライマックス置場に「まどかの願い」が置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見て「“戦い続ける”ほむら」を1枚まで選び、このカードがいた枠に置く。その後、その山札をシャッフルし、次の相手のターンの終わりまで、そのキャラのパワーを＋3000。\n\"わたしの願いは、すべての魔女を消し去ること\"",
+   "traits": [
+    "魔法"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mm_w17/mm_w17_030.png",
+   "variant": ""
+  },
+  {
+   "num": "MM/W17-030R",
+   "name": "アルティメットまどか",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "green",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時か『チェンジ』で舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n【自】［このカードを思い出にする］ あなたのクライマックス置場に「まどかの願い」が置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見て「“戦い続ける”ほむら」を1枚まで選び、このカードがいた枠に置く。その後、その山札をシャッフルし、次の相手のターンの終わりまで、そのキャラのパワーを＋3000。\n\"SECRET\"",
+   "traits": [
+    "魔法"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mm_w17/mm_w17_030r.png",
+   "variant": ""
+  },
+  {
+   "num": "MM/W17-031",
+   "name": "ほむらとの絆 まどか",
+   "type": "Character",
+   "rarity": "U",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(2)］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分のクロック置場の《魔法》のキャラを1枚選び、手札に戻し、自分の山札の上から1枚を、クロック置場に置く。\n【自】 絆／「隠された思い ほむら」 ［(1)］ （このカードがプレイされて舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「隠された思い ほむら」を1枚選び、手札に戻す）\n\"わたし、魔法少女になる\"",
+   "traits": [
+    "魔法"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mm_w17/mm_w17_031.png",
+   "variant": ""
+  },
+  {
+   "num": "MM/W17-032",
+   "name": "ワルプルギスの夜に挑むまどか",
+   "type": "Character",
+   "rarity": "U",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたのキャラが2枚以下なら、このカードのパワーを＋1500。\n\"さよなら、ほむらちゃん。元気でね\"",
+   "traits": [
+    "魔法"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mm_w17/mm_w17_032.png",
+   "variant": ""
+  },
+  {
+   "num": "MM/W17-033",
+   "name": "希望を守る まどか",
+   "type": "Character",
+   "rarity": "U",
+   "color": "green",
+   "level": "1",
+   "cost": "1",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 あなたがこのカードの『助太刀』を使った時、あなたは自分のバトル中の緑のキャラを1枚選び、そのターン中、パワーを＋1000。\n【起】【カウンター】 助太刀1500 レベル1 ［(1) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋1500）\n\"わたしなんかが人の役に立てていることが嬉しい\"",
+   "traits": [
+    "魔法"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mm_w17/mm_w17_033.png",
+   "variant": ""
+  },
+  {
+   "num": "MM/W17-034",
+   "name": "決意のほむら",
+   "type": "Character",
+   "rarity": "U",
+   "color": "green",
+   "level": "1",
+   "cost": "1",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 チェンジ ［(1) このカードを控え室に置く］ あなたのドローフェイズの始めに、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「時の魔法少女 ほむら」を1枚選び、このカードがいた枠に置く。\n【起】［このカードを【レスト】する］ あなたは自分の《魔法》のキャラを1枚選び、次の相手のターンの終わりまで、パワーを＋1000。\n\"誰も……未来を信じない……\"",
+   "traits": [
+    "魔法",
+    "時間"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mm_w17/mm_w17_034.png",
+   "variant": ""
+  },
+  {
+   "num": "MM/W17-035",
+   "name": "時間遡行者 ほむら",
+   "type": "Character",
+   "rarity": "U",
+   "color": "green",
+   "level": "2",
+   "cost": "1",
+   "power": "7500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたの山札が5枚以下なら、あなたは自分の控え室のカードすべてを山札に戻す。そうしたら、その山札をシャッフルし、あなたは自分の「因果の終着点 まどか」を1枚選び、自分の山札の上から2枚までを、そのキャラの下にマーカーとして置き、あなたのキャラすべてに、そのターン中、パワーを＋2000。\n\"――繰り返す。<br />――私は、何度でも繰り返す\"",
+   "traits": [
+    "魔法",
+    "時間"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mm_w17/mm_w17_035.png",
+   "variant": ""
+  },
+  {
+   "num": "MM/W17-036",
+   "name": "“戦い続ける”ほむら",
+   "type": "Character",
+   "rarity": "U",
+   "color": "green",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 記憶 あなたの思い出置場に「アルティメットまどか」があるなら、このカードのパワーを＋1500。\n【自】 このカードがフロントアタックされた時、あなたは自分の山札を上から1枚見て、山札の上か控え室に置く。\n\"ぼやいたって仕方ないわ。<br />――さあ、行くわよ\"",
+   "traits": [
+    "魔法",
+    "時間"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mm_w17/mm_w17_036.png",
+   "variant": ""
+  },
+  {
+   "num": "MM/W17-037",
+   "name": "鹿目 まどか",
+   "type": "Character",
+   "rarity": "U",
+   "color": "green",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの《魔法》のキャラが3枚以上なら、このカードのパワーを＋1000。\n【自】 このカードが手札から舞台に置かれた時、あなたのキャラすべてに、そのターン中、パワーを＋2000。\n【起】［(1)］ そのターン中、このカードのパワーを＋2000。\n\"それを邪魔するルールなんて、壊してみせる、変えてみせる\"",
+   "traits": [
+    "魔法"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mm_w17/mm_w17_037.png",
+   "variant": ""
+  },
+  {
+   "num": "MM/W17-038",
+   "name": "暁美 ほむら",
+   "type": "Character",
+   "rarity": "U",
+   "color": "green",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたのストックが4枚以下なら、このカードのパワーを＋500し、このカードは『【自】 アンコール ［手札のキャラを1枚控え室に置く］ 』を得る。\n【永】 このカードの正面のキャラのソウルを－1。\n\"愚か者が相手なら、私は手段を選ばない\"",
+   "traits": [
+    "魔法",
+    "時間"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mm_w17/mm_w17_038.png",
+   "variant": ""
+  },
+  {
+   "num": "MM/W17-039",
+   "name": "転校生 ほむら",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋500。\n\"あああ暁美、ほ、ほむら、です。<br />その……どうか、よよよろしくお願いします\"",
+   "traits": [
+    "魔法",
+    "時間"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mm_w17/mm_w17_039.png",
+   "variant": ""
+  },
+  {
+   "num": "MM/W17-040",
+   "name": "絆を抱く少女 ほむら",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 絆／「揺れ動く気持ち まどか」 ［(1)］ （このカードがプレイされて舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「揺れ動く気持ち まどか」を1枚選び、手札に戻す）\n\"あなたは自分を責めすぎてるわ。鹿目まどか\"",
+   "traits": [
+    "魔法",
+    "時間"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mm_w17/mm_w17_040.png",
+   "variant": ""
+  },
+  {
+   "num": "MM/W17-041",
+   "name": "まどかを想うほむら",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたのカード名に「まどか」を含むキャラがいるなら、このカードのパワーを＋1500。\n\"すべての魔女は、わたし一人で片付ける\"",
+   "traits": [
+    "魔法",
+    "時間"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mm_w17/mm_w17_041.png",
+   "variant": ""
+  },
+  {
+   "num": "MM/W17-042",
+   "name": "“みんなを守るために” まどか",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードがアタックした時、あなたは他の自分の《魔法》のキャラを1枚選び、次の相手のターンの終わりまで、パワーを＋1000。\n\"魔女をやっつければ<br />それだけ大勢の人を助けることができて――<br />それが怖さよりも嬉しいの\"",
+   "traits": [
+    "魔法"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mm_w17/mm_w17_042.png",
+   "variant": ""
+  },
+  {
+   "num": "MM/W17-043",
+   "name": "保健係 まどか",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1)］ このカードがアタックした時、クライマックス置場に「夢に出てきた少女」があるなら、あなたはコストを払ってよい。そうしたら、あなたは自分のクロック置場のキャラを1枚選び、手札に戻し、自分の山札の上から1枚を、クロック置場に置く。\n\"ほむら「鹿目、まどかさん。<br />あなたが、このクラスの保健係よね？」\"",
+   "traits": [
+    "魔法"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mm_w17/mm_w17_043.png",
+   "variant": ""
+  },
+  {
+   "num": "MM/W17-044",
+   "name": "志筑 仁美",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードがアタックした時、他のあなたのキャラすべてに、そのターン中、レベルを＋1。\n\"まどかのお母さんみたいに、<br />きっぱり割り切れたらいいんだけど……\"",
+   "traits": [
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mm_w17/mm_w17_044.png",
+   "variant": ""
+  },
+  {
+   "num": "MM/W17-045",
+   "name": "黒髪の少女 ほむら",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "",
+   "text": "-\n\"暁美ほむらです。よろしくお願いします\"",
+   "traits": [
+    "魔法",
+    "時間"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mm_w17/mm_w17_045.png",
+   "variant": ""
+  },
+  {
+   "num": "MM/W17-046",
+   "name": "見滝原中学二年生 まどか",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】【クロック】 シフト レベル1 （あなたのメインフェイズの始めに、あなたは自分の手札の緑のカードを1枚とクロック置場のこのカードを選び、入れ替えてよい）\n【起】 集中 ［(1)］ あなたは自分の山札の上から4枚をめくり、控え室に置く。それらのカードのクライマックス1枚につき、あなたは自分の《魔法》のキャラを1枚選び、そのターン中、パワーを＋2000。\n\"わ、わたし……呼ばれたんです。<br />頭の中に直接、この子の声が\"",
+   "traits": [
+    "魔法"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mm_w17/mm_w17_046.png",
+   "variant": ""
+  },
+  {
+   "num": "MM/W17-047",
+   "name": "最高の友達 まどか＆ほむら",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1)］ このカードがアタックした時、クライマックス置場に「わたしの、最高の友達」があるなら、あなたはコストを払ってよい。そうしたら、あなたの《魔法》のキャラすべてに、そのターン中、パワーを＋2500。\n\"ほむら「だとしてもここは、<br />かつてあの子が守ろうとした場所だった」\"",
+   "traits": [
+    "魔法",
+    "時間"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mm_w17/mm_w17_047.png",
+   "variant": ""
+  },
+  {
+   "num": "MM/W17-048",
+   "name": "青空のまどか",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "5500",
+   "soul": 1,
+   "trigger": "",
+   "text": "-\n\"それは、いつかなりたい、理想の自分でした\"",
+   "traits": [
+    "魔法"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mm_w17/mm_w17_048.png",
+   "variant": ""
+  },
+  {
+   "num": "MM/W17-049",
+   "name": "鹿目 詢子",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "1",
+   "cost": "1",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたのカード名に「まどか」を含むキャラすべてに、パワーを＋1000。\n\"女は外見で舐められたら終わりだよ？\"",
+   "traits": [
+    "特徴なし"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mm_w17/mm_w17_049.png",
+   "variant": ""
+  },
+  {
+   "num": "MM/W17-050",
+   "name": "孤独な戦い ほむら",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "1",
+   "cost": "1",
+   "power": "6000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(2)］ あなたのクライマックス置場に「時間操作」が置かれた時、あなたはコストを払ってよい。そうしたら、そのターン中、このカードは次の能力を得る。『【永】 このカードがアタックする時、あなたはかわりに相手の後列のキャラを1枚選び、このカードはそのキャラを防御キャラとしてフロントアタックしてよい。』\n【自】 アンコール ［手札のキャラを1枚控え室に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"キュゥべえ「彼女が、まだ希望を求めているからさ」\"",
+   "traits": [
+    "魔法",
+    "時間"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mm_w17/mm_w17_050.png",
+   "variant": ""
+  },
+  {
+   "num": "MM/W17-051",
+   "name": "“舞台装置の魔女”ワルプルギスの夜",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "2",
+   "cost": "2",
+   "power": "8500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【起】［(2)］ そのターン中、このカードのパワーを＋5000。\n\"ほむら「この街に、ワルプルギスの夜が来る」\"",
+   "traits": [
+    "魔法"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mm_w17/mm_w17_051.png",
+   "variant": ""
+  },
+  {
+   "num": "MM/W17-052",
+   "name": "ふわふわスカート まどか",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "2",
+   "cost": "2",
+   "power": "9000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "-\n\"と、とりあえず、衣装だけでも考えておこうかと思って……\"",
+   "traits": [
+    "魔法"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mm_w17/mm_w17_052.png",
+   "variant": ""
+  },
+  {
+   "num": "MM/W17-053",
+   "name": "円環の理",
+   "type": "Event",
+   "rarity": "U",
+   "color": "green",
+   "level": "1",
+   "cost": "1",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "あなたは自分の山札を見て《魔法》のキャラを1枚まで選んで相手に見せ、手札に加える。その山札をシャッフルする。\n\"あなたたちの祈りを、絶望で終わらせたりしない\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mm_w17/mm_w17_053.png",
+   "variant": ""
+  },
+  {
+   "num": "MM/W17-054",
+   "name": "無意味な連鎖",
+   "type": "Event",
+   "rarity": "U",
+   "color": "green",
+   "level": "2",
+   "cost": "1",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "あなたは相手の山札を上から3枚まで見てカードを1枚まで選び、山札の下に置く。残りのカードを山札の上に好きな順番で置く。\n\"まどか「……希望を持つ限り、救われないっていうの？」\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mm_w17/mm_w17_054.png",
+   "variant": ""
+  },
+  {
+   "num": "MM/W17-055",
+   "name": "まどかの願い",
+   "type": "Climax",
+   "rarity": "CR",
+   "color": "green",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[treasure.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[treasure.gif]]：このカードがトリガーした時、あなたはこのカードを手札に戻す。あなたは自分の山札の上から1枚を、ストック置場に置いてよい）\n\"わたしだって――もう絶望する必要なんて、ない\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mm_w17/mm_w17_055.png",
+   "variant": ""
+  },
+  {
+   "num": "MM/W17-056",
+   "name": "もう誰にも頼らない",
+   "type": "Climax",
+   "rarity": "CC",
+   "color": "green",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[treasure.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[treasure.gif]]：このカードがトリガーした時、あなたはこのカードを手札に戻す。あなたは自分の山札の上から1枚を、ストック置場に置いてよい）\n\"私の戦場はここじゃない\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mm_w17/mm_w17_056.png",
+   "variant": ""
+  },
+  {
+   "num": "MM/W17-057",
+   "name": "時間操作",
+   "type": "Climax",
+   "rarity": "CC",
+   "color": "green",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【自】 このカードが手札からクライマックス置場に置かれた時、あなたは1枚引き、自分のキャラを1枚選び、そのターン中、パワーを＋2000し、ソウルを＋1。\n\"まどかとは、違う時間を生きてるんだもの\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mm_w17/mm_w17_057.png",
+   "variant": ""
+  },
+  {
+   "num": "MM/W17-058",
+   "name": "わたしの、最高の友達",
+   "type": "Climax",
+   "rarity": "CC",
+   "color": "green",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[stock.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[stock.gif]]：このカードがトリガーした時、あなたは自分の山札の上から1枚を、ストック置場に置いてよい）\n\"それを覚えてる。けして忘れたりしない\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mm_w17/mm_w17_058.png",
+   "variant": ""
+  },
+  {
+   "num": "MM/W17-059",
+   "name": "クラスのみんなには、内緒だよ！",
+   "type": "Climax",
+   "rarity": "CC",
+   "color": "green",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【永】 あなたのキャラすべてに、ソウルを＋2。\n\"キュゥべえ「彼女たちは、魔法少女」\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mm_w17/mm_w17_059.png",
+   "variant": ""
+  },
+  {
+   "num": "MM/W17-060",
+   "name": "夢に出てきた少女",
+   "type": "Climax",
+   "rarity": "CC",
+   "color": "green",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【自】 このカードが手札からクライマックス置場に置かれた時、あなたは自分の山札の上から1枚を、ストック置場に置き、自分のキャラすべてに、そのターン中、ソウルを＋1。\n\"ほむら「鹿目まどか、<br />あなたは自分の人生が貴いと思う？」\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mm_w17/mm_w17_060.png",
+   "variant": ""
+  },
+  {
+   "num": "MM/W17-061",
+   "name": "好戦的 杏子",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 アンコール ［手札のキャラを1枚控え室に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n【起】［あなたの《魔法》のキャラを1枚【レスト】する］ そのターン中、このカードのパワーを＋1500。\n\"だってチョロそうじゃん、瞬殺っしょ、あんなやつ\"",
+   "traits": [
+    "魔法",
+    "お菓子"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mm_w17/mm_w17_061.png",
+   "variant": ""
+  },
+  {
+   "num": "MM/W17-061R",
+   "name": "好戦的 杏子",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 アンコール ［手札のキャラを1枚控え室に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n【起】［あなたの《魔法》のキャラを1枚【レスト】する］ そのターン中、このカードのパワーを＋1500。\n\"SECRET\"",
+   "traits": [
+    "魔法",
+    "お菓子"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mm_w17/mm_w17_061r.png",
+   "variant": ""
+  },
+  {
+   "num": "MM/W17-062",
+   "name": "佐倉 杏子",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時か『チェンジ』で舞台に置かれた時、あなたは自分の控え室の《魔法》のキャラを1枚選び、手札に戻してよい。\n【起】［(1) あなたのキャラを2枚【レスト】する］ そのターン中、このカードのパワーを＋2000し、このカードは次の能力を得る。『【自】 このカードのバトル相手が【リバース】した時、あなたはそのキャラを山札の上に置いてよい。』\n\"そういうもんじゃん？<br />最後に愛と勇気が勝つストーリーってのは\"",
+   "traits": [
+    "魔法",
+    "お菓子"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mm_w17/mm_w17_062.png",
+   "variant": ""
+  },
+  {
+   "num": "MM/W17-062SP",
+   "name": "佐倉 杏子",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時か『チェンジ』で舞台に置かれた時、あなたは自分の控え室の《魔法》のキャラを1枚選び、手札に戻してよい。\n【起】［(1) あなたのキャラを2枚【レスト】する］ そのターン中、このカードのパワーを＋2000し、このカードは次の能力を得る。『【自】 このカードのバトル相手が【リバース】した時、あなたはそのキャラを山札の上に置いてよい。』\n\"SECRET\"",
+   "traits": [
+    "魔法",
+    "お菓子"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mm_w17/mm_w17_062sp.png",
+   "variant": ""
+  },
+  {
+   "num": "MM/W17-063",
+   "name": "林檎のおすそわけ 杏子",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの「見滝原中学二年生 さやか」すべてに、パワーを＋1000。\n【自】 絆／「見滝原中学二年生 さやか」 ［(1)］ （このカードがプレイされて舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「見滝原中学二年生 さやか」を1枚選び、手札に戻す）\n\"食うかい？\"",
+   "traits": [
+    "魔法",
+    "お菓子"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mm_w17/mm_w17_063.png",
+   "variant": ""
+  },
+  {
+   "num": "MM/W17-064",
+   "name": "多節槍 杏子",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "1",
+   "cost": "1",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋Ｘ。Ｘはあなたの『応援』を持つキャラの枚数×500に等しい。\n【自】［(2)］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の《魔法》のキャラを1枚選び、手札に戻す。\n\"何なんだアンタ？　いったい誰の味方だ？\"",
+   "traits": [
+    "魔法",
+    "お菓子"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mm_w17/mm_w17_064.png",
+   "variant": ""
+  },
+  {
+   "num": "MM/W17-065",
+   "name": "利己主義者 杏子",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "8000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】［(2)］ このカードがアタックした時、クライマックス置場に「さやか VS 杏子」があるなら、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室のキャラを2枚まで選び、手札に戻す。\n\"アンタ、タマゴ産む前のニワトリ締めてどーすんのさ\"",
+   "traits": [
+    "魔法",
+    "お菓子"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mm_w17/mm_w17_065.png",
+   "variant": ""
+  },
+  {
+   "num": "MM/W17-065S",
+   "name": "利己主義者 杏子",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "8000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】［(2)］ このカードがアタックした時、クライマックス置場に「さやか VS 杏子」があるなら、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室のキャラを2枚まで選び、手札に戻す。\n\"SECRET\"",
+   "traits": [
+    "魔法",
+    "お菓子"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mm_w17/mm_w17_065s.png",
+   "variant": ""
+  },
+  {
+   "num": "MM/W17-066",
+   "name": "吠える杏子",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "2",
+   "cost": "2",
+   "power": "8000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたのカード名に「さやか」を含むキャラがいるなら、このカードのパワーを＋1500。\n\"テメェいったい何なんだ!?<br />さやかに何をしやがったッ!?\"",
+   "traits": [
+    "魔法",
+    "お菓子"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mm_w17/mm_w17_066.png",
+   "variant": ""
+  },
+  {
+   "num": "MM/W17-066S",
+   "name": "吠える杏子",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "2",
+   "cost": "2",
+   "power": "8000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたのカード名に「さやか」を含むキャラがいるなら、このカードのパワーを＋1500。\n\"SECRET\"",
+   "traits": [
+    "魔法",
+    "お菓子"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mm_w17/mm_w17_066s.png",
+   "variant": ""
+  },
+  {
+   "num": "MM/W17-067",
+   "name": "サポート役 キュゥべえ",
+   "type": "Character",
+   "rarity": "U",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 前列にこのカードがいるなら、他のあなたの前列の中央の枠の《魔法》のキャラに、『【自】 アンコール ［あなたの山札の上から1枚をクロック置場に置く］』を与える。\n\"訳がわからないよ。<br />どうして人間はそんなに、魂の在処にこだわるんだい？\"",
+   "traits": [
+    "宇宙人",
+    "魔法"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mm_w17/mm_w17_067.png",
+   "variant": ""
+  },
+  {
+   "num": "MM/W17-068",
+   "name": "過去の告白 杏子",
+   "type": "Character",
+   "rarity": "U",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたの控え室のクライマックスが3枚以上なら、あなたは自分の山札の上から1枚を、クロック置場に置く。\n\"あたしたちは一家そろって食う物にも事欠くありさまだった\"",
+   "traits": [
+    "魔法",
+    "お菓子"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mm_w17/mm_w17_068.png",
+   "variant": ""
+  },
+  {
+   "num": "MM/W17-069",
+   "name": "奇跡を願う杏子",
+   "type": "Character",
+   "rarity": "U",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［手札を1枚控え室に置く］ あなたのクライマックス置場に「独りぼっちは、寂しいもんな」が置かれた時、前列にこのカードがいるなら、あなたはコストを払ってよい。そうしたら、あなたは相手の前列のレベル2以下のキャラを1枚選び、控え室に置き、ターンの終わりに、このカードを控え室に置く。\n\"頼むよ、神様……こんな人生だったんだ……<br />せめて一度くらい、幸せな夢を見させてよ……\"",
+   "traits": [
+    "魔法",
+    "お菓子"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mm_w17/mm_w17_069.png",
+   "variant": ""
+  },
+  {
+   "num": "MM/W17-070",
+   "name": "路地裏の杏子",
+   "type": "Character",
+   "rarity": "U",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋1000。\n【自】 チェンジ ［(1) このカードを控え室に置く］ あなたのドローフェイズの始めに、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「佐倉 杏子」を1枚選び、このカードがいた枠に置く。\n\"ちょっと話があるんだ。顔貸してくれる？\"",
+   "traits": [
+    "魔法",
+    "お菓子"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mm_w17/mm_w17_070.png",
+   "variant": ""
+  },
+  {
+   "num": "MM/W17-071",
+   "name": "赤いソウルジェム 杏子",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋500。\n\"文句あるっての？　アンタ\"",
+   "traits": [
+    "魔法",
+    "お菓子"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mm_w17/mm_w17_071.png",
+   "variant": ""
+  },
+  {
+   "num": "MM/W17-072",
+   "name": "地下鉄ホームでの別れ 杏子",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが【リバース】した時、このカードのバトル相手のレベルが0以下なら、あなたはそのキャラを【リバース】してよい。\n\"あんたさぁ、いつまで強情張ってるわけ？\"",
+   "traits": [
+    "魔法",
+    "お菓子"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mm_w17/mm_w17_072.png",
+   "variant": ""
+  },
+  {
+   "num": "MM/W17-073",
+   "name": "新たなる魔法少女 杏子",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "",
+   "text": "-\n\"キュゥべえ「まさか君が来るとはね」\"",
+   "traits": [
+    "魔法",
+    "お菓子"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mm_w17/mm_w17_073.png",
+   "variant": ""
+  },
+  {
+   "num": "MM/W17-074",
+   "name": "やって来た杏子",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【起】【カウンター】 助太刀1500 レベル1 ［手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋1500）\n\"こんな絶好のナワバリ、みすみすルーキーの<br />ひよっこにくれてやるってのもしゃくだよね？\"",
+   "traits": [
+    "魔法",
+    "お菓子"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mm_w17/mm_w17_074.png",
+   "variant": ""
+  },
+  {
+   "num": "MM/W17-075",
+   "name": "地球外生命体 キュゥべえ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "1",
+   "cost": "1",
+   "power": "7000",
+   "soul": 1,
+   "trigger": "",
+   "text": "-\n\"まったく、人類とのコミュニケーションは本当に難しいなあ\"",
+   "traits": [
+    "宇宙人",
+    "魔法"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mm_w17/mm_w17_075.png",
+   "variant": ""
+  },
+  {
+   "num": "MM/W17-076",
+   "name": "槍の魔法少女 杏子",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "2",
+   "cost": "2",
+   "power": "7500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの《魔法》のキャラが3枚以上なら、このカードのパワーを＋1000。\n【自】 アンコール ［手札のキャラを1枚控え室に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"フン、ウザイ奴にはウザイ仲間がいるもんだねぇ\"",
+   "traits": [
+    "魔法",
+    "お菓子"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mm_w17/mm_w17_076.png",
+   "variant": ""
+  },
+  {
+   "num": "MM/W17-077",
+   "name": "杏子の覚悟",
+   "type": "Event",
+   "rarity": "U",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "あなたの《魔法》のキャラすべてに、そのターン中、パワーを＋1500。\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mm_w17/mm_w17_077.png",
+   "variant": ""
+  },
+  {
+   "num": "MM/W17-078",
+   "name": "魔法少女現る",
+   "type": "Event",
+   "rarity": "U",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "あなたは自分の控え室のキャラを2枚まで選び、手札に戻し、自分の手札を1枚選び、控え室に置く。\n\"ブッ潰しちゃえばいいんでしょ？ その子\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mm_w17/mm_w17_078.png",
+   "variant": ""
+  },
+  {
+   "num": "MM/W17-079",
+   "name": "さやか VS 杏子",
+   "type": "Climax",
+   "rarity": "CR",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[salvage.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[salvage.gif]]：このカードがトリガーした時、あなたは自分の控え室のキャラを1枚選び、手札に戻してよい）\n\"遊び半分で首突っ込まれるのってさぁ……<br />ほんとムカツクんだわ\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mm_w17/mm_w17_079.png",
+   "variant": ""
+  },
+  {
+   "num": "MM/W17-080",
+   "name": "独りぼっちは、寂しいもんな",
+   "type": "Climax",
+   "rarity": "CC",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【自】 このカードが手札からクライマックス置場に置かれた時、あなたは1枚引き、自分のキャラを1枚選び、そのターン中、パワーを＋2000し、ソウルを＋1。\n\"独りぼっちは、寂しいもんな……いいよ。<br />一緒にいてやるよ。さやか……\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mm_w17/mm_w17_080.png",
+   "variant": ""
+  },
+  {
+   "num": "MM/W17-081",
+   "name": "新人魔法少女 さやか",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、『【自】 アンコール ［手札のキャラを1枚控え室に置く］』を与える。\n【自】 チェンジ ［(1) このカードを控え室に置く］ あなたのドローフェイズの始めに、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「虚ろな目 さやか」を1枚選び、このカードがいた枠に置く。\n\"この町は、これからあたしが守る\"",
+   "traits": [
+    "魔法",
+    "愛"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mm_w17/mm_w17_081.png",
+   "variant": ""
+  },
+  {
+   "num": "MM/W17-081R",
+   "name": "新人魔法少女 さやか",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、『【自】 アンコール ［手札のキャラを1枚控え室に置く］』を与える。\n【自】 チェンジ ［(1) このカードを控え室に置く］ あなたのドローフェイズの始めに、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「虚ろな目 さやか」を1枚選び、このカードがいた枠に置く。\n\"SECRET\"",
+   "traits": [
+    "魔法",
+    "愛"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mm_w17/mm_w17_081r.png",
+   "variant": ""
+  },
+  {
+   "num": "MM/W17-082",
+   "name": "美樹 さやか",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "blue",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの《魔法》のキャラ1枚につき、このカードのパワーを＋500。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n【自】 バトル中のこのカードが【リバース】した時、このカードを思い出にする。\n\"私はね、ただ魔女と戦うだけじゃなくて、<br />大切な人を守るためにこの力を望んだの\"",
+   "traits": [
+    "魔法",
+    "愛"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mm_w17/mm_w17_082.png",
+   "variant": ""
+  },
+  {
+   "num": "MM/W17-082SP",
+   "name": "美樹 さやか",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "blue",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの《魔法》のキャラ1枚につき、このカードのパワーを＋500。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n【自】 バトル中のこのカードが【リバース】した時、このカードを思い出にする。\n\"SECRET\"",
+   "traits": [
+    "魔法",
+    "愛"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mm_w17/mm_w17_082sp.png",
+   "variant": ""
+  },
+  {
+   "num": "MM/W17-083",
+   "name": "人の為に戦うさやか",
+   "type": "Character",
+   "rarity": "R",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの「吠える杏子」すべてに、パワーを＋500し、『【自】 アンコール ［手札のキャラを1枚控え室に置く］』を与える。\n【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋500。\n\"私は人の為に祈った事を後悔してない\"",
+   "traits": [
+    "魔法",
+    "愛"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mm_w17/mm_w17_083.png",
+   "variant": ""
+  },
+  {
+   "num": "MM/W17-084",
+   "name": "マミへの憧れ さやか",
+   "type": "Character",
+   "rarity": "R",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札を上から1枚見て、山札の上か下に置く。\n【自】 このカードがアタックした時、あなたは自分の山札の上から1枚を公開する。そのカードが《魔法》のキャラなら手札に加え、あなたは自分の手札を1枚選び、控え室に置く。（そうでないなら元に戻す）\n\"さやか「やっぱマミさんってかっこいいね！」\"",
+   "traits": [
+    "魔法",
+    "愛"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mm_w17/mm_w17_084.png",
+   "variant": ""
+  },
+  {
+   "num": "MM/W17-085",
+   "name": "癒しの祈り さやか",
+   "type": "Character",
+   "rarity": "R",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "6500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 バトル中のこのカードが【リバース】した時、あなたは自分の山札の上から1枚を、クロック置場に置き、このカードを【レスト】する。\n\"キュゥべえ「彼女は癒しの祈りを契約にして<br />魔法少女になったからね」\"",
+   "traits": [
+    "魔法",
+    "愛"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mm_w17/mm_w17_085.png",
+   "variant": ""
+  },
+  {
+   "num": "MM/W17-085S",
+   "name": "癒しの祈り さやか",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "6500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 バトル中のこのカードが【リバース】した時、あなたは自分の山札の上から1枚を、クロック置場に置き、このカードを【レスト】する。\n\"SECRET\"",
+   "traits": [
+    "魔法",
+    "愛"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mm_w17/mm_w17_085s.png",
+   "variant": ""
+  },
+  {
+   "num": "MM/W17-086",
+   "name": "虚ろな目 さやか",
+   "type": "Character",
+   "rarity": "R",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 相手のターン中、他のあなたのキャラすべてに、パワーを＋1000。\n【自】［(1) このカードを控え室に置く］ あなたのクライマックス置場に「あたしって、ほんとバカ」が置かれた時、あなたはコストを払ってよい。そうしたら、あなたは、自分の控え室の「“人魚の魔女”」か「傷つきながら戦うさやか」を1枚選び、このカードがいた枠に置き、1枚引き、次の相手のターンの終わりまで、そのキャラのパワーを＋1500。\n\"邪魔、しないで……\"",
+   "traits": [
+    "魔法",
+    "愛"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mm_w17/mm_w17_086.png",
+   "variant": ""
+  },
+  {
+   "num": "MM/W17-086S",
+   "name": "虚ろな目 さやか",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 相手のターン中、他のあなたのキャラすべてに、パワーを＋1000。\n【自】［(1) このカードを控え室に置く］ あなたのクライマックス置場に「あたしって、ほんとバカ」が置かれた時、あなたはコストを払ってよい。そうしたら、あなたは、自分の控え室の「“人魚の魔女”」か「傷つきながら戦うさやか」を1枚選び、このカードがいた枠に置き、1枚引き、次の相手のターンの終わりまで、そのキャラのパワーを＋1500。\n\"SECRET\"",
+   "traits": [
+    "魔法",
+    "愛"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mm_w17/mm_w17_086s.png",
+   "variant": ""
+  },
+  {
+   "num": "MM/W17-087",
+   "name": "クラスメイト さやか",
+   "type": "Character",
+   "rarity": "U",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 前列にこのカードがいるなら、このカードはあなたのスタンドフェイズに【スタンド】しない。\n\"いやー、相変わらず、まどかのママはかっこいいなぁ\"",
+   "traits": [
+    "魔法",
+    "愛"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mm_w17/mm_w17_087.png",
+   "variant": ""
+  },
+  {
+   "num": "MM/W17-088",
+   "name": "願いを見つけたさやか",
+   "type": "Character",
+   "rarity": "U",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1) このカードを控え室に置く］ あなたのクライマックス置場に「奇跡も、魔法も、あるんだよ」が置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の手札の「虚ろな目 さやか」を1枚まで選び、このカードがいた枠に置き、自分の控え室のレベル0以下のカード名に「上条」を含むキャラを1枚選び、舞台の好きな枠に置く。\n\"願い事、見つけたんだもの\"",
+   "traits": [
+    "魔法",
+    "愛"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mm_w17/mm_w17_088.png",
+   "variant": ""
+  },
+  {
+   "num": "MM/W17-089",
+   "name": "正義の味方 さやか",
+   "type": "Character",
+   "rarity": "U",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "8000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの《魔法》のキャラが3枚以上なら、このカードのパワーを＋1000。\n\"これからも見滝原市の平和は、<br />この魔法少女さやかちゃんが<br />ガンガン護りまくっちゃいますからね！\"",
+   "traits": [
+    "魔法",
+    "愛"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mm_w17/mm_w17_089.png",
+   "variant": ""
+  },
+  {
+   "num": "MM/W17-090",
+   "name": "“人魚の魔女”",
+   "type": "Character",
+   "rarity": "U",
+   "color": "blue",
+   "level": "2",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】［手札のキャラを1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしないなら、このカードを控え室に置く。\n\"まどか「ねぇお願い……もとのさやかちゃんに戻って！<br />わたしの大好きなさやかちゃんに戻って！」\"",
+   "traits": [
+    "魔法",
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mm_w17/mm_w17_090.png",
+   "variant": ""
+  },
+  {
+   "num": "MM/W17-091",
+   "name": "対決するさやか",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 絆／「奇跡を願う杏子」 ［(1)］ （このカードがプレイされて舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「奇跡を願う杏子」を1枚選び、手札に戻す）\n\"魔女に襲われてる人たちを……<br />あんた、見殺しにするっていうの!?\"",
+   "traits": [
+    "魔法",
+    "愛"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mm_w17/mm_w17_091.png",
+   "variant": ""
+  },
+  {
+   "num": "MM/W17-092",
+   "name": "上条 恭介",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードがアタックした時、あなたは自分の山札を上から1枚見て、山札の上か下に置く。\n\"さやか「願い事って、自分の事柄じゃなきゃだめなのかな」\"",
+   "traits": [
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mm_w17/mm_w17_092.png",
+   "variant": ""
+  },
+  {
+   "num": "MM/W17-093",
+   "name": "上条君の幼なじみ さやか",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "",
+   "text": "-\n\"――うゎぁ\"",
+   "traits": [
+    "魔法",
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mm_w17/mm_w17_093.png",
+   "variant": ""
+  },
+  {
+   "num": "MM/W17-094",
+   "name": "見滝原中学二年生 さやか",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "5500",
+   "soul": 1,
+   "trigger": "",
+   "text": "-\n\"……昨日の続きかよ？\"",
+   "traits": [
+    "魔法",
+    "愛"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mm_w17/mm_w17_094.png",
+   "variant": ""
+  },
+  {
+   "num": "MM/W17-095",
+   "name": "剣の魔法少女 さやか",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "1",
+   "cost": "1",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【起】【カウンター】 助太刀2000 レベル1 ［(1) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋2000）\n\"-\"",
+   "traits": [
+    "魔法",
+    "愛"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mm_w17/mm_w17_095.png",
+   "variant": ""
+  },
+  {
+   "num": "MM/W17-096",
+   "name": "傷つきながら戦うさやか",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "2",
+   "cost": "2",
+   "power": "9500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 バトル中のこのカードが【リバース】した時、あなたは自分の山札の上から1枚を、クロック置場に置き、このカードを【レスト】する。\n【起】［あなたの《魔法》のキャラを1枚【レスト】する］ そのターン中、このカードのパワーを＋1000。\n\"その気になれば、痛みなんて……<br />完全に消しちゃえるんだぁ……\"",
+   "traits": [
+    "魔法",
+    "愛"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mm_w17/mm_w17_096.png",
+   "variant": ""
+  },
+  {
+   "num": "MM/W17-097",
+   "name": "孵卵器",
+   "type": "Event",
+   "rarity": "U",
+   "color": "blue",
+   "level": "2",
+   "cost": "0",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "あなたは自分の【スタンド】している《魔法》のキャラを1枚選び【レスト】する。そうしたら、あなたは2枚まで引き、自分の手札を1枚選び、控え室に置く。\n\"代わりはいくらでもあるけど、<br />無意味に潰されるのは困るんだよね\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mm_w17/mm_w17_097.png",
+   "variant": ""
+  },
+  {
+   "num": "MM/W17-098",
+   "name": "さやかの願い",
+   "type": "Event",
+   "rarity": "U",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "【カウンター】あなたは自分のカード名に「さやか」を含むキャラを1枚選び、控え室に置く。そうしたら、あなたは自分のクロックの上から1枚を、手札に戻し、このカードを思い出にする。\n\"後悔なんて、あるわけない\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mm_w17/mm_w17_098.png",
+   "variant": ""
+  },
+  {
+   "num": "MM/W17-099",
+   "name": "あたしって、ほんとバカ",
+   "type": "Climax",
+   "rarity": "CR",
+   "color": "blue",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[draw.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[draw.gif]]：このカードがトリガーした時、あなたは1枚引いてよい）\n\"心には恨みや妬みが溜まって、<br />いちばん大切な友達さえ傷つけて……\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mm_w17/mm_w17_099.png",
+   "variant": ""
+  },
+  {
+   "num": "MM/W17-100",
+   "name": "奇跡も、魔法も、あるんだよ",
+   "type": "Climax",
+   "rarity": "CC",
+   "color": "blue",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【永】 あなたのキャラすべてに、ソウルを＋2。\n\"これで、トドメだぁ――ッ！\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mm_w17/mm_w17_100.png",
+   "variant": ""
+  },
+  {
+   "num": "MM/W17-106",
+   "name": "ちびマミ",
+   "type": "Character",
+   "rarity": "PR",
+   "color": "yellow",
+   "level": "1",
+   "cost": "1",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【起】【カウンター】 助太刀2000 レベル1 ［(1) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋2000）\n\"危なかったわね。でももう大丈夫\"",
+   "traits": [
+    "魔法",
+    "お茶"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mm_w17/mm_w17_106.png",
+   "variant": ""
+  },
+  {
+   "num": "MM/W17-107",
+   "name": "ちびまどか",
+   "type": "Character",
+   "rarity": "PR",
+   "color": "green",
+   "level": "2",
+   "cost": "2",
+   "power": "8000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 アンコール ［手札のキャラを1枚控え室に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"私、鹿目まどか。まどかって呼んで\"",
+   "traits": [
+    "魔法"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mm_w17/mm_w17_107.png",
+   "variant": ""
+  },
+  {
+   "num": "MM/W17-108",
+   "name": "ちびほむら",
+   "type": "Character",
+   "rarity": "PR",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "5500",
+   "soul": 1,
+   "trigger": "",
+   "text": "-\n\"きっともう人間じゃないから、かもね\"",
+   "traits": [
+    "魔法",
+    "時間"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mm_w17/mm_w17_108.png",
+   "variant": ""
+  },
+  {
+   "num": "MM/W17-109",
+   "name": "ちび杏子",
+   "type": "Character",
+   "rarity": "PR",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "5500",
+   "soul": 1,
+   "trigger": "",
+   "text": "-\n\"いつまでもショボくれてんじゃねえぞ、ボンクラ\"",
+   "traits": [
+    "魔法",
+    "お菓子"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mm_w17/mm_w17_109.png",
+   "variant": ""
+  },
+  {
+   "num": "MM/W17-110",
+   "name": "ちびさやか",
+   "type": "Character",
+   "rarity": "PR",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋500。\n\"私はさ、なるべくして魔法少女になったわけ\"",
+   "traits": [
+    "魔法",
+    "愛"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mm_w17/mm_w17_110.png",
+   "variant": ""
+  }
+ ]
+}

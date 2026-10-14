@@ -1,0 +1,2259 @@
+{
+ "id": "jp-klk",
+ "name": "キルラキル",
+ "expansion": 117,
+ "lang": "jp",
+ "release": null,
+ "shopItem": null,
+ "box": null,
+ "cards": [
+  {
+   "num": "KLK/S27-001",
+   "name": "闇医者の娘のはしくれ マコ",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋Ｘ。Ｘはそのキャラのレベル×500に等しい。\n【自】［手札を1枚控え室に置き、あなたの舞台の「“暴走”流子」を1枚思い出にする］ あなたのクライマックス置場に「だから、今度は私の番！」が置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の手札の、《服》か《家族》のキャラを1枚まで選び、舞台の好きな枠に置く。\n\"人はしっけつしすると死んでしまうのです！\"",
+   "traits": [
+    "家族"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/klk_s27/klk_s27_001.png",
+   "variant": ""
+  },
+  {
+   "num": "KLK/S27-001S",
+   "name": "闇医者の娘のはしくれ マコ",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋Ｘ。Ｘはそのキャラのレベル×500に等しい。\n【自】［手札を1枚控え室に置き、あなたの舞台の「“暴走”流子」を1枚思い出にする］ あなたのクライマックス置場に「だから、今度は私の番！」が置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の手札の、《服》か《家族》のキャラを1枚まで選び、舞台の好きな枠に置く。\n\"SECRET\"",
+   "traits": [
+    "家族"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/klk_s27/klk_s27_001s.png",
+   "variant": ""
+  },
+  {
+   "num": "KLK/S27-002",
+   "name": "どうにもとまらないマコ",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "yellow",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、そのターン中、このカードのパワーを＋Ｘ。Ｘはあなたの、《服》か《家族》のキャラの枚数×500に等しい。\n【自】 この能力は1ターンにつき1回まで発動する。このカードが手札から舞台に置かれたターン中、このカードの与えたダメージがキャンセルされた時、あなたは自分の山札の上から1枚を、控え室に置き、相手にＸダメージを与える。Ｘはそのカードのレベル＋1に等しい。（クライマックスのレベルは0として扱う。ダメージキャンセルは発生する）\n\"私の人生信号はいっつも黄色だよ\"",
+   "traits": [
+    "家族"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/klk_s27/klk_s27_002.png",
+   "variant": ""
+  },
+  {
+   "num": "KLK/S27-002SP",
+   "name": "どうにもとまらないマコ",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "yellow",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、そのターン中、このカードのパワーを＋Ｘ。Ｘはあなたの、《服》か《家族》のキャラの枚数×500に等しい。\n【自】 この能力は1ターンにつき1回まで発動する。このカードが手札から舞台に置かれたターン中、このカードの与えたダメージがキャンセルされた時、あなたは自分の山札の上から1枚を、控え室に置き、相手にＸダメージを与える。Ｘはそのカードのレベル＋1に等しい。（クライマックスのレベルは0として扱う。ダメージキャンセルは発生する）\n\"SECRET\"",
+   "traits": [
+    "家族"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/klk_s27/klk_s27_002sp.png",
+   "variant": ""
+  },
+  {
+   "num": "KLK/S27-003",
+   "name": "心配するマコ",
+   "type": "Character",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの、《服》か《家族》のキャラすべてに、パワーを＋500。\n【永】 他のあなたの前列の中央の枠のキャラに、次の能力を与える。『【永】 このカードは相手の効果に選ばれない。』\n\"セコンド席があったらマコがついて介抱してあげるのに\"",
+   "traits": [
+    "家族"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/klk_s27/klk_s27_003.png",
+   "variant": ""
+  },
+  {
+   "num": "KLK/S27-003R",
+   "name": "心配するマコ",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの、《服》か《家族》のキャラすべてに、パワーを＋500。\n【永】 他のあなたの前列の中央の枠のキャラに、次の能力を与える。『【永】 このカードは相手の効果に選ばれない。』\n\"SECRET\"",
+   "traits": [
+    "家族"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/klk_s27/klk_s27_003r.png",
+   "variant": ""
+  },
+  {
+   "num": "KLK/S27-004",
+   "name": "喧嘩部部長 マコ",
+   "type": "Character",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "7500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの、《服》か《家族》のキャラが3枚以上なら、このカードのパワーを＋1000し、このカードは『【自】 アンコール ［手札のキャラを1枚控え室に置く］』を得る。\n\"だって、やっと掴んだ贅沢だもん！もう貧乏には戻れないもん！\"",
+   "traits": [
+    "家族",
+    "服"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/klk_s27/klk_s27_004.png",
+   "variant": ""
+  },
+  {
+   "num": "KLK/S27-005",
+   "name": "大阪観光 マコ",
+   "type": "Character",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードがアタックした時、そのターン中、このカードのパワーを＋Ｘ。Ｘは他のあなたの、《服》か《家族》のキャラの枚数×500に等しい。\n\"あれが大阪の新名所、なにわスカイタワー！\"",
+   "traits": [
+    "家族"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/klk_s27/klk_s27_005.png",
+   "variant": ""
+  },
+  {
+   "num": "KLK/S27-006",
+   "name": "2年甲組 流子",
+   "type": "Character",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "6500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードのバトル相手が【リバース】した時、あなたはそのキャラをストック置場に置く。\n\"く～…\"",
+   "traits": [
+    "服",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/klk_s27/klk_s27_006.png",
+   "variant": ""
+  },
+  {
+   "num": "KLK/S27-006S",
+   "name": "2年甲組 流子",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "6500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードのバトル相手が【リバース】した時、あなたはそのキャラをストック置場に置く。\n\"SECRET\"",
+   "traits": [
+    "服",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/klk_s27/klk_s27_006s.png",
+   "variant": ""
+  },
+  {
+   "num": "KLK/S27-007",
+   "name": "喧嘩部所属 流子",
+   "type": "Character",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "2",
+   "cost": "2",
+   "power": "7500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの、《服》か《家族》のキャラ1枚につき、このカードのパワーを＋500。\n【自】 このカードのバトル相手でレベル2以上のキャラが【リバース】した時、あなたは自分の山札の上から1枚を、ストック置場に置いてよい。\n\"バカ！目を覚ませ！\"",
+   "traits": [
+    "服",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/klk_s27/klk_s27_007.png",
+   "variant": ""
+  },
+  {
+   "num": "KLK/S27-008",
+   "name": "パジャマの流子",
+   "type": "Character",
+   "rarity": "U",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 絆／「喧嘩部部長 マコ」 ［あなたの山札の上から1枚をクロック置場に置く］ （このカードがプレイされて舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「喧嘩部部長 マコ」を1枚選び、手札に戻す）\n【起】［(1)］ そのターン中、このカードのソウルを＋1。\n\"神衣は今、洗濯中だ！\"",
+   "traits": [
+    "服",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/klk_s27/klk_s27_008.png",
+   "variant": ""
+  },
+  {
+   "num": "KLK/S27-009",
+   "name": "不動のマコ",
+   "type": "Character",
+   "rarity": "U",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 この能力は1ターンにつき2回まで発動する。あなたのキャラが手札からクロック置場に置かれた時、そのターン中、このカードのパワーを＋2000。\n【自】 アンコール ［手札のキャラを1枚控え室に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"流子「てめー！マコに何しやがった！」\"",
+   "traits": [
+    "家族"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/klk_s27/klk_s27_009.png",
+   "variant": ""
+  },
+  {
+   "num": "KLK/S27-010",
+   "name": "コロッケを食べるマコ",
+   "type": "Character",
+   "rarity": "U",
+   "color": "yellow",
+   "level": "1",
+   "cost": "1",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 あなたがこのカードの『助太刀』を使った時、あなたは自分のバトル中の黄のキャラを1枚選び、そのターン中、パワーを＋1000。\n【起】【カウンター】 助太刀1500 レベル1 ［(1) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋1500）\n\"おいしいでしょ\"",
+   "traits": [
+    "家族"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/klk_s27/klk_s27_010.png",
+   "variant": ""
+  },
+  {
+   "num": "KLK/S27-011",
+   "name": "“超”マイペースお母さん 好代",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【起】［あなたのキャラを2枚【レスト】する］ あなたは自分の、《服》か《家族》のキャラを1枚選び、そのターン中、ソウルを＋1し、次の能力を与える。『【永】 このカードはサイドアタックできない。』\n\"たいしたものはないけど、どんどん食べてちょーだい\"",
+   "traits": [
+    "家族",
+    "コロッケ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/klk_s27/klk_s27_011.png",
+   "variant": ""
+  },
+  {
+   "num": "KLK/S27-012",
+   "name": "がっついてるからガッツ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、そのターン中、このカードのパワーを＋1500。\n\"ワン！\"",
+   "traits": [
+    "家族",
+    "動物"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/klk_s27/klk_s27_012.png",
+   "variant": ""
+  },
+  {
+   "num": "KLK/S27-013",
+   "name": "メガネのマコ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "",
+   "text": "－\n\"私達、本当にキラキラだよね\"",
+   "traits": [
+    "家族",
+    "メガネ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/klk_s27/klk_s27_013.png",
+   "variant": ""
+  },
+  {
+   "num": "KLK/S27-014",
+   "name": "時代錯誤の悪ガキ 又郎",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【起】［(2)］ あなたは相手のキャラを1枚選び、そのターン中、パワーを－500し、このカードのパワーを＋3000。\n\"すんげぇ腕なんだよ。半分裸みたいな格好でハサミふるってさ\"",
+   "traits": [
+    "家族",
+    "メガネ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/klk_s27/klk_s27_014.png",
+   "variant": ""
+  },
+  {
+   "num": "KLK/S27-015",
+   "name": "満艦飾家に居候 流子",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "1",
+   "cost": "1",
+   "power": "6500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 あなたのクライマックス置場に「いただきまーす！」が置かれた時、前列にこのカードがいるなら、あなたは自分の山札の上から1枚を公開する。そのカードが《服》か《家族》のキャラなら、あなたのキャラすべてに、そのターン中、パワーを＋2000。（公開したカードは元に戻す）\n\"マコ「ぼやぼやしてないで食べる！」\"",
+   "traits": [
+    "服",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/klk_s27/klk_s27_015.png",
+   "variant": ""
+  },
+  {
+   "num": "KLK/S27-016",
+   "name": "町の闇医者 薔薇蔵",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "8500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "－\n\"心配すんな。死んだ奴からはクレームはこねえよ\"",
+   "traits": [
+    "家族",
+    "医者"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/klk_s27/klk_s27_016.png",
+   "variant": ""
+  },
+  {
+   "num": "KLK/S27-017",
+   "name": "怪しいコロッケ",
+   "type": "Event",
+   "rarity": "U",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "あなたは自分のキャラを1枚選び、そのターン中、パワーを＋3000。ターンの終わりに、そのキャラをストック置場に置く。\n\"好代「やだねぇ。一応、毒じゃないものしか入れてませんよ」\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/klk_s27/klk_s27_017.png",
+   "variant": ""
+  },
+  {
+   "num": "KLK/S27-018",
+   "name": "古典的な罠",
+   "type": "Event",
+   "rarity": "U",
+   "color": "yellow",
+   "level": "2",
+   "cost": "0",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "【カウンター】 あなたは自分のキャラを1枚選び、手札に戻す。\n\"流子「マコ！あぶない！」\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/klk_s27/klk_s27_018.png",
+   "variant": ""
+  },
+  {
+   "num": "KLK/S27-019",
+   "name": "だから、今度は私の番！",
+   "type": "Climax",
+   "rarity": "CR",
+   "color": "yellow",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[bounce.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[bounce.gif]]：このカードがトリガーした時、あなたは相手のキャラを1枚選び、手札に戻してよい）\n\"ダメェ～～～\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/klk_s27/klk_s27_019.png",
+   "variant": ""
+  },
+  {
+   "num": "KLK/S27-019R",
+   "name": "だから、今度は私の番！",
+   "type": "Climax",
+   "rarity": "RRR",
+   "color": "yellow",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[bounce.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[bounce.gif]]：このカードがトリガーした時、あなたは相手のキャラを1枚選び、手札に戻してよい）\n\"SECRET\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/klk_s27/klk_s27_019r.png",
+   "variant": ""
+  },
+  {
+   "num": "KLK/S27-020",
+   "name": "いただきまーす！",
+   "type": "Climax",
+   "rarity": "CC",
+   "color": "yellow",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【自】 このカードが手札からクライマックス置場に置かれた時、あなたは1枚引き、自分のキャラを1枚選び、そのターン中、パワーを＋2000し、ソウルを＋1。\n\"マコ「疲労回復疾病快癒元気溌剌って感じだよ！」\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/klk_s27/klk_s27_020.png",
+   "variant": ""
+  },
+  {
+   "num": "KLK/S27-021",
+   "name": "繭星降誕を謀る羅暁",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "green",
+   "level": "1",
+   "cost": "1",
+   "power": "6000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 このカードの下のマーカー1枚につき、このカードのレベルを＋1し、パワーを＋2000。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分の「凄まじい気迫 皐月」の下のマーカーを1枚このカードの下にマーカーとして置いてよい。\n【自】［(1)］ このカードがアタックした時、クライマックス置場に「神羅纐纈、絶対服従！」があるなら、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の《服》のキャラを1枚選び、このカードの下にマーカーとして裏向きに置く。\n\"皐月は所詮、生命戦維を着る器ではなかったということだ\"",
+   "traits": [
+    "服",
+    "CEO"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/klk_s27/klk_s27_021.png",
+   "variant": ""
+  },
+  {
+   "num": "KLK/S27-022",
+   "name": "運命の糸車 縫",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "green",
+   "level": "3",
+   "cost": "2",
+   "power": "9500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたのキャラすべてが《服》なら、このカードのパワーを＋2000。\n【自】 このカードが手札から舞台に置かれた時、あなたは相手のレベル2以下のキャラを1枚選び、控え室に置いてよい。そうしたら、相手は自分の控え室のレベル0以下のキャラを1枚まで選び、そのキャラがいた枠に置く。\n\"遊びも全力で。じゃなきゃ、人生楽しくないよ\"",
+   "traits": [
+    "服",
+    "眼帯"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/klk_s27/klk_s27_022.png",
+   "variant": ""
+  },
+  {
+   "num": "KLK/S27-022SP",
+   "name": "運命の糸車 縫",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "green",
+   "level": "3",
+   "cost": "2",
+   "power": "9500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたのキャラすべてが《服》なら、このカードのパワーを＋2000。\n【自】 このカードが手札から舞台に置かれた時、あなたは相手のレベル2以下のキャラを1枚選び、控え室に置いてよい。そうしたら、相手は自分の控え室のレベル0以下のキャラを1枚まで選び、そのキャラがいた枠に置く。\n\"SECRET\"",
+   "traits": [
+    "服",
+    "眼帯"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/klk_s27/klk_s27_022sp.png",
+   "variant": ""
+  },
+  {
+   "num": "KLK/S27-023",
+   "name": "糸引く縫",
+   "type": "Character",
+   "rarity": "R",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、相手の前列のキャラが1枚以下なら、あなたは相手の前列のキャラを1枚選び、そのターン中、パワーを－3000。\n\"裸のキミが見たいな！\"",
+   "traits": [
+    "服",
+    "眼帯"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/klk_s27/klk_s27_023.png",
+   "variant": ""
+  },
+  {
+   "num": "KLK/S27-024",
+   "name": "ハサミの持ち主 縫",
+   "type": "Character",
+   "rarity": "R",
+   "color": "green",
+   "level": "2",
+   "cost": "1",
+   "power": "8500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、そのターン中、このカードのパワーを－1500。\n【自】 あなたのクライマックス置場に「不意打ちの告白」が置かれた時、前列にこのカードがいるなら、あなたは自分の山札を見て「ハサミの持ち主 縫」を1枚まで選び、舞台の好きな枠に置き、その山札をシャッフルする。\n\"見たでしょ、僕がさっき極制服を倒すところ\"",
+   "traits": [
+    "服",
+    "眼帯"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/klk_s27/klk_s27_024.png",
+   "variant": ""
+  },
+  {
+   "num": "KLK/S27-024R",
+   "name": "ハサミの持ち主 縫",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "green",
+   "level": "2",
+   "cost": "1",
+   "power": "8500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、そのターン中、このカードのパワーを－1500。\n【自】 あなたのクライマックス置場に「不意打ちの告白」が置かれた時、前列にこのカードがいるなら、あなたは自分の山札を見て「ハサミの持ち主 縫」を1枚まで選び、舞台の好きな枠に置き、その山札をシャッフルする。\n\"SECRET\"",
+   "traits": [
+    "服",
+    "眼帯"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/klk_s27/klk_s27_024r.png",
+   "variant": ""
+  },
+  {
+   "num": "KLK/S27-025",
+   "name": "身をかわす縫",
+   "type": "Character",
+   "rarity": "R",
+   "color": "green",
+   "level": "2",
+   "cost": "2",
+   "power": "8000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】［このカードを控え室に置く］ このカードがフロントアタックされた時、あなたはコストを払ってよい。そうしたら、あなたは自分の手札の「運命の糸車 縫」を1枚まで選び、このカードがいた枠に防御キャラとして置く。\n\"うっ\"",
+   "traits": [
+    "服",
+    "眼帯"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/klk_s27/klk_s27_025.png",
+   "variant": ""
+  },
+  {
+   "num": "KLK/S27-025S",
+   "name": "身をかわす縫",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "2",
+   "cost": "2",
+   "power": "8000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】［このカードを控え室に置く］ このカードがフロントアタックされた時、あなたはコストを払ってよい。そうしたら、あなたは自分の手札の「運命の糸車 縫」を1枚まで選び、このカードがいた枠に防御キャラとして置く。\n\"SECRET\"",
+   "traits": [
+    "服",
+    "眼帯"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/klk_s27/klk_s27_025s.png",
+   "variant": ""
+  },
+  {
+   "num": "KLK/S27-026",
+   "name": "REVOCS社CEO 羅暁",
+   "type": "Character",
+   "rarity": "R",
+   "color": "green",
+   "level": "2",
+   "cost": "2",
+   "power": "8000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 このカードの下のマーカー1枚につき、このカードのレベルを＋1し、パワーを＋3000。\n【自】 このカードがアタックした時、あなたは他の自分の「羅暁の秘書 鳳凰丸」を1枚選び、このカードの下にマーカーとして裏向きに置いてよい。\n【自】［(1) あなたの山札の上から1枚をクロック置場に置き、手札の「既製服 縫」を1枚公開し、このカードの下にマーカーとして裏向きに置く］ バトル中のこのカードが【リバース】した時、あなたはコストを払ってよい。そうしたら、このカードを【レスト】する。\n\"待たせたな、鳳凰丸\"",
+   "traits": [
+    "服",
+    "CEO"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/klk_s27/klk_s27_026.png",
+   "variant": ""
+  },
+  {
+   "num": "KLK/S27-027",
+   "name": "高次縫製師 縫",
+   "type": "Character",
+   "rarity": "U",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋500。\n【起】［手札の「変装」を1枚控え室に置き、このカードを【レスト】する］ あなたは自分のクロック置場のキャラを1枚選び、手札に戻し、自分の山札の上から1枚を、クロック置場に置く。\n\"ステキステキ！こんなの隠してたなんて、さすがは纏博士だわ\"",
+   "traits": [
+    "服",
+    "眼帯"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/klk_s27/klk_s27_027.png",
+   "variant": ""
+  },
+  {
+   "num": "KLK/S27-028",
+   "name": "鬼龍院家筆頭執事 黒井戸",
+   "type": "Character",
+   "rarity": "U",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 あなたが山札をリフレッシュした時、あなたはこのカードをストック置場に置いてよい。\n【起】［(1) このカードを【レスト】する］ あなたは自分のクロックを1枚選び、手札に戻し、自分の手札を1枚選び、クロック置場に置く。\n\"皐月お嬢様、その服の持ち出しはお母様から固く禁じられています\"",
+   "traits": [
+    "執事",
+    "メガネ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/klk_s27/klk_s27_028.png",
+   "variant": ""
+  },
+  {
+   "num": "KLK/S27-029",
+   "name": "“精神仮縫い”羅暁",
+   "type": "Character",
+   "rarity": "U",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたのキャラすべてに、パワーを＋500。\n【起】［(1) このカードを【レスト】する］ あなたは自分の、マーカーを持つキャラを1枚選び、そのターン中、パワーを＋2500。\n\"戦力のつもりだったかもしれないが、こうすれば私の駒になる\"",
+   "traits": [
+    "服",
+    "CEO"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/klk_s27/klk_s27_029.png",
+   "variant": ""
+  },
+  {
+   "num": "KLK/S27-030",
+   "name": "既製服 縫",
+   "type": "Character",
+   "rarity": "U",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの《服》のキャラが2枚以上なら、このカードのパワーを＋1000。\n【自】 アンコール ［あなたの山札の上から1枚をクロック置場に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"モン ミニョン プレタポルテ！\"",
+   "traits": [
+    "服",
+    "眼帯"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/klk_s27/klk_s27_030.png",
+   "variant": ""
+  },
+  {
+   "num": "KLK/S27-031",
+   "name": "羅暁の秘書 鳳凰丸",
+   "type": "Character",
+   "rarity": "U",
+   "color": "green",
+   "level": "2",
+   "cost": "1",
+   "power": "8000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードがアタックした時、あなたは他の自分の《服》のキャラを1枚選び、そのターン中、パワーを＋1000。\n\"まさか羅暁様の精神仮縫いを破るとは…\"",
+   "traits": [
+    "服",
+    "秘書"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/klk_s27/klk_s27_031.png",
+   "variant": ""
+  },
+  {
+   "num": "KLK/S27-032",
+   "name": "気まぐれな縫",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(2)］ このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見て《服》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"キミ、邪魔だよ\"",
+   "traits": [
+    "服",
+    "眼帯"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/klk_s27/klk_s27_032.png",
+   "variant": ""
+  },
+  {
+   "num": "KLK/S27-033",
+   "name": "風紀部トラップ開発員 大暮",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1)］ バトル中のこのカードが【リバース】した時、あなたは自分の山札の上から1枚を公開する。そのカードのレベルが1以上なら、あなたはコストを払ってよい。そうしたら、このカードを手札に戻す。（クライマックスのレベルは0として扱う。公開したカードは元に戻す）\n\"ありがとう、纏さん\"",
+   "traits": [
+    "メガネ",
+    "風紀委員"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/klk_s27/klk_s27_033.png",
+   "variant": ""
+  },
+  {
+   "num": "KLK/S27-034",
+   "name": "皐月の母 羅暁",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの前列のキャラがいないなら、このカードのパワーを＋1500。\n\"ご苦労だったな\"",
+   "traits": [
+    "服",
+    "CEO"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/klk_s27/klk_s27_034.png",
+   "variant": ""
+  },
+  {
+   "num": "KLK/S27-035",
+   "name": "テニス部部長 函館",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "",
+   "text": "－\n\"このテニス部主将、函館臣子とテニスの試合をやるというのか！\"",
+   "traits": [
+    "服",
+    "スポーツ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/klk_s27/klk_s27_035.png",
+   "variant": ""
+  },
+  {
+   "num": "KLK/S27-036",
+   "name": "ボクシング部部長 袋田",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【起】【カウンター】 助太刀1500 レベル1 ［手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋1500）\n\"ボクサーにとっての制服、それはこのグローブにトランクス！その他！\"",
+   "traits": [
+    "服",
+    "スポーツ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/klk_s27/klk_s27_036.png",
+   "variant": ""
+  },
+  {
+   "num": "KLK/S27-037",
+   "name": "謎の少女 縫",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "5500",
+   "soul": 1,
+   "trigger": "",
+   "text": "－\n\"皐月「何をしにきた、針目縫」\"",
+   "traits": [
+    "服",
+    "眼帯"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/klk_s27/klk_s27_037.png",
+   "variant": ""
+  },
+  {
+   "num": "KLK/S27-038",
+   "name": "変装",
+   "type": "Event",
+   "rarity": "U",
+   "color": "green",
+   "level": "1",
+   "cost": "2",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "あなたは自分のキャラを1枚選び、控え室に置く。そうしたら、あなたは自分のクロック置場のレベル2以下の《服》のキャラを1枚選び、舞台の好きな枠に置き、このカードをクロック置場に置く。\n\"じゃじゃーん\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/klk_s27/klk_s27_038.png",
+   "variant": ""
+  },
+  {
+   "num": "KLK/S27-039",
+   "name": "不意打ちの告白",
+   "type": "Climax",
+   "rarity": "CR",
+   "color": "green",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[treasure.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[treasure.gif]]：このカードがトリガーした時、あなたはこのカードを手札に戻す。あなたは自分の山札の上から1枚を、ストック置場に置いてよい）\n\"そう、僕だよ。キミのお父さんを殺したのは\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/klk_s27/klk_s27_039.png",
+   "variant": ""
+  },
+  {
+   "num": "KLK/S27-039R",
+   "name": "不意打ちの告白",
+   "type": "Climax",
+   "rarity": "RRR",
+   "color": "green",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[treasure.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。（[[treasure.gif]]：このカードがトリガーした時、あなたはこのカードを手札に戻す。あなたは自分の山札の上から1枚を、ストック置場に置いてよい）\n\"SECRET\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/klk_s27/klk_s27_039r.png",
+   "variant": ""
+  },
+  {
+   "num": "KLK/S27-040",
+   "name": "神羅纐纈、絶対服従！",
+   "type": "Climax",
+   "rarity": "CC",
+   "color": "green",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【自】 このカードが手札からクライマックス置場に置かれた時、あなたは1枚引き、自分のキャラを1枚選び、そのターン中、パワーを＋2000し、ソウルを＋1。\n\"神羅纐纈はすべての生命戦維の上に立つ\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/klk_s27/klk_s27_040.png",
+   "variant": ""
+  },
+  {
+   "num": "KLK/S27-041",
+   "name": "新しい自分へ 流子",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードがアタックした時、クライマックス置場に「セーラー服とは卒業するものだ」があるなら、そのターン中、このカードのパワーを＋4500。\n【自】 このカードがアタックした時、クライマックス置場に「セーラー服とは卒業するものだ」があり、あなたのレベルが2以上なら、あなたは相手の控え室のカードを1枚選び、山札の上に置いてよい。\n\"私達はもっと強くならなけりゃいけない\"",
+   "traits": [
+    "服",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/klk_s27/klk_s27_041.png",
+   "variant": ""
+  },
+  {
+   "num": "KLK/S27-041R",
+   "name": "新しい自分へ 流子",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードがアタックした時、クライマックス置場に「セーラー服とは卒業するものだ」があるなら、そのターン中、このカードのパワーを＋4500。\n【自】 このカードがアタックした時、クライマックス置場に「セーラー服とは卒業するものだ」があり、あなたのレベルが2以上なら、あなたは相手の控え室のカードを1枚選び、山札の上に置いてよい。\n\"SECRET\"",
+   "traits": [
+    "服",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/klk_s27/klk_s27_041r.png",
+   "variant": ""
+  },
+  {
+   "num": "KLK/S27-042",
+   "name": "決めて着るから決着！ 流子",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の控え室の「純潔」を1枚選び、思い出にしてよい。そうしたら、あなたは自分の控え室の「流子の一張羅 鮮血」を1枚選び、このカードの下にマーカーとして裏向きに置く。\n【自】［(1) 手札の《服》のキャラを1枚公開し、このカードの下にマーカーとして裏向きに置く］ バトル中のこのカードが【リバース】した時、あなたはコストを払ってよい。そうしたら、このカードを【レスト】する。\n【自】［(2)］ あなたのアンコールステップの始めに、あなたはコストを払ってよい。そうしたら、相手にＸダメージを与える。Ｘはこのカードの下のマーカーの枚数に等しい。（ダメージキャンセルは発生する）\n\"これが本当の人衣一体だぁぁぁ！\"",
+   "traits": [
+    "服",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/klk_s27/klk_s27_042.png",
+   "variant": ""
+  },
+  {
+   "num": "KLK/S27-042SP",
+   "name": "決めて着るから決着！ 流子",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の控え室の「純潔」を1枚選び、思い出にしてよい。そうしたら、あなたは自分の控え室の「流子の一張羅 鮮血」を1枚選び、このカードの下にマーカーとして裏向きに置く。\n【自】［(1) 手札の《服》のキャラを1枚公開し、このカードの下にマーカーとして裏向きに置く］ バトル中のこのカードが【リバース】した時、あなたはコストを払ってよい。そうしたら、このカードを【レスト】する。\n【自】［(2)］ あなたのアンコールステップの始めに、あなたはコストを払ってよい。そうしたら、相手にＸダメージを与える。Ｘはこのカードの下のマーカーの枚数に等しい。（ダメージキャンセルは発生する）\n\"SECRET\"",
+   "traits": [
+    "服",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/klk_s27/klk_s27_042sp.png",
+   "variant": ""
+  },
+  {
+   "num": "KLK/S27-043",
+   "name": "深まる絆 流子",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［手札のクライマックスを1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の、《服》か《家族》のキャラを1枚選び、手札に戻す。\n【自】 他のあなたのバトル中の、《服》か《家族》のキャラが【リバース】した時、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋1000。\n\"鮮血「お互いボロボロだ。無理はするな」\"",
+   "traits": [
+    "服",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/klk_s27/klk_s27_043.png",
+   "variant": ""
+  },
+  {
+   "num": "KLK/S27-044",
+   "name": "鮮血奪還！ 流子",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(2)］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見て「赤手甲」を1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n【起】 集中 ［(1)］ あなたは自分の山札の上から4枚をめくり、控え室に置く。それらのカードのクライマックス1枚につき、あなたは自分の、《服》か《家族》のキャラを1枚選び、そのターン中、パワーを＋2000。\n\"お前の相手をしてる暇はない！\"",
+   "traits": [
+    "服",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/klk_s27/klk_s27_044.png",
+   "variant": ""
+  },
+  {
+   "num": "KLK/S27-045",
+   "name": "流子の一張羅 鮮血",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは他の自分の、マーカーを持つキャラを1枚選び、そのターン中、パワーを＋1000。\n【自】 このカードが【リバース】した時、このカードのバトル相手のレベルが0以下なら、あなたはそのキャラを【リバース】してよい。\n\"流子に手を出すな。私は許さない\"",
+   "traits": [
+    "服",
+    "血"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/klk_s27/klk_s27_045.png",
+   "variant": ""
+  },
+  {
+   "num": "KLK/S27-045S",
+   "name": "流子の一張羅 鮮血",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは他の自分の、マーカーを持つキャラを1枚選び、そのターン中、パワーを＋1000。\n【自】 このカードが【リバース】した時、このカードのバトル相手のレベルが0以下なら、あなたはそのキャラを【リバース】してよい。\n\"SECRET\"",
+   "traits": [
+    "服",
+    "血"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/klk_s27/klk_s27_045s.png",
+   "variant": ""
+  },
+  {
+   "num": "KLK/S27-046",
+   "name": "鮮血との出会い 流子",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1) 手札を1枚控え室に置き、このカードを思い出にする］ バトル中のこのカードが【リバース】した時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「“暴走”流子」を1枚選び、このカードがいた枠に【レスト】して置く。\n【自】 記憶 思い出置場にこのカードがあるなら、あなたか相手のクロックが、自分のカードの効果で控え室に置かれた時、そのプレイヤーは自分のストックの上から2枚を、控え室に置いてよい。そうしないなら、そのプレイヤーは自分の山札の上から1枚を、クロック置場に置く。\n\"な、なんだ、この破廉恥な格好は！？\"",
+   "traits": [
+    "服",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/klk_s27/klk_s27_046.png",
+   "variant": ""
+  },
+  {
+   "num": "KLK/S27-046S",
+   "name": "鮮血との出会い 流子",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1) 手札を1枚控え室に置き、このカードを思い出にする］ バトル中のこのカードが【リバース】した時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「“暴走”流子」を1枚選び、このカードがいた枠に【レスト】して置く。\n【自】 記憶 思い出置場にこのカードがあるなら、あなたか相手のクロックが、自分のカードの効果で控え室に置かれた時、そのプレイヤーは自分のストックの上から2枚を、控え室に置いてよい。そうしないなら、そのプレイヤーは自分の山札の上から1枚を、クロック置場に置く。\n\"SECRET\"",
+   "traits": [
+    "服",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/klk_s27/klk_s27_046s.png",
+   "variant": ""
+  },
+  {
+   "num": "KLK/S27-047",
+   "name": "“暴走”流子",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "1",
+   "cost": "1",
+   "power": "7500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 このカードは相手のキャラの【自】の効果によって【リバース】されない。\n【自】 このカードが舞台から控え室に置かれた時、あなたは自分の山札の上から1枚を、クロック置場に置く。\n\"皐月「いかん！それが狙いか、針目縫」\"",
+   "traits": [
+    "服",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/klk_s27/klk_s27_047.png",
+   "variant": ""
+  },
+  {
+   "num": "KLK/S27-048",
+   "name": "宣戦布告！ 流子",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "8000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの《服》のキャラすべてに、パワーを＋1000。\n【自】 このカードが手札から舞台に置かれた時、このカードを【レスト】する。\n【自】 あなたのクライマックス置場に「因縁の戦い」が置かれた時、前列にこのカードがいるなら、このカードを【スタンド】し、あなたは自分の控え室のレベル1以下のキャラを1枚まで選び、手札に戻す。\n\"…またゆっくり話をきかせてもらうぜ、鬼龍院皐月！\"",
+   "traits": [
+    "服",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/klk_s27/klk_s27_048.png",
+   "variant": ""
+  },
+  {
+   "num": "KLK/S27-049",
+   "name": "流子の父 一身",
+   "type": "Character",
+   "rarity": "U",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［このカードを控え室に置く］ 他のあなたのバトル中の《服》のキャラが【リバース】した時、後列にこのカードがいるなら、あなたはコストを払ってよい。そうしたら、あなたはそのキャラを【レスト】する。\n\"誰だ、お前は\"",
+   "traits": [
+    "服",
+    "眼帯"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/klk_s27/klk_s27_049.png",
+   "variant": ""
+  },
+  {
+   "num": "KLK/S27-050",
+   "name": "鮮血と共に 皐月",
+   "type": "Character",
+   "rarity": "U",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは他の自分のキャラの中でレベルが1番高いキャラを1枚選び、控え室に置く。\n\"お前の力をかしてくれ、鮮血\"",
+   "traits": [
+    "服",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/klk_s27/klk_s27_050.png",
+   "variant": ""
+  },
+  {
+   "num": "KLK/S27-051",
+   "name": "純潔を身に纏う流子",
+   "type": "Character",
+   "rarity": "U",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(2)］ このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「つながる血 流子」を1枚選び、舞台の好きな枠に【レスト】して置く。\n\"ぶっ壊してやるよ！\"",
+   "traits": [
+    "服",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/klk_s27/klk_s27_051.png",
+   "variant": ""
+  },
+  {
+   "num": "KLK/S27-052",
+   "name": "ヌーディスト・ビーチの一員 黄長瀬",
+   "type": "Character",
+   "rarity": "U",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、すべてのプレイヤーは自分の控え室のカードすべてを、山札に戻し、それらの山札をシャッフルする。\n\"やっぱりお前も服に呑み込まれちまったな\"",
+   "traits": [
+    "武器",
+    "モヒカン"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/klk_s27/klk_s27_052.png",
+   "variant": ""
+  },
+  {
+   "num": "KLK/S27-053",
+   "name": "届いた声 鮮血",
+   "type": "Character",
+   "rarity": "U",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 あなたがこのカードの『助太刀』を使った時、あなたは自分の山札の上から1枚を公開する。そのカードが《服》か《家族》のキャラなら、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋1000。（公開したカードは元に戻す）\n【起】【カウンター】 助太刀2500 レベル2 ［(1) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋2500）\n\"流子、無茶だ！\"",
+   "traits": [
+    "服",
+    "血"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/klk_s27/klk_s27_053.png",
+   "variant": ""
+  },
+  {
+   "num": "KLK/S27-054",
+   "name": "気持ちは一緒！ マコ",
+   "type": "Character",
+   "rarity": "U",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "7500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 このカードの下にマーカーがあるなら、このカードのパワーを＋1500し、このカードは《服》を得る。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分の控え室の「流子の一張羅 鮮血」を1枚選び、このカードの下にマーカーとして裏向きに置いてよい。\n\"だって鮮血ちゃん着てるのは、一番好きだからでしょう！？\"",
+   "traits": [
+    "家族"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/klk_s27/klk_s27_054.png",
+   "variant": ""
+  },
+  {
+   "num": "KLK/S27-055",
+   "name": "鮮血を身に纏う皐月",
+   "type": "Character",
+   "rarity": "U",
+   "color": "red",
+   "level": "2",
+   "cost": "2",
+   "power": "8000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の控え室の「流子の一張羅 鮮血」を1枚選び、このカードの下にマーカーとして裏向きに置いてよい。\n【自】 相手の【スタンド】しているキャラが【レスト】した時、このカードの下にマーカーがあるなら、そのターン中、このカードのパワーを＋2000。\n\"未練ではない！執念と言ってもらおうか！\"",
+   "traits": [
+    "服",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/klk_s27/klk_s27_055.png",
+   "variant": ""
+  },
+  {
+   "num": "KLK/S27-056",
+   "name": "“片太刀バサミの女”を捜す流子",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの、《服》か《家族》のキャラが2枚以上なら、このカードのパワーを＋1500。\n\"ちょっとつきあってもらうぞ、鮮血\"",
+   "traits": [
+    "服",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/klk_s27/klk_s27_056.png",
+   "variant": ""
+  },
+  {
+   "num": "KLK/S27-057",
+   "name": "隣の席 マコ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 前列の中央の枠にこのカードがいるなら、このカードのパワーを＋1000。\n\"三つ星だからね！\"",
+   "traits": [
+    "家族"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/klk_s27/klk_s27_057.png",
+   "variant": ""
+  },
+  {
+   "num": "KLK/S27-058",
+   "name": "転校生 流子",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "",
+   "text": "-\n\"奴は偉いのか？\"",
+   "traits": [
+    "服",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/klk_s27/klk_s27_058.png",
+   "variant": ""
+  },
+  {
+   "num": "KLK/S27-059",
+   "name": "しゃべるセーラー服 鮮血",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1) 手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見て《服》か《家族》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"私を着てくれ！\"",
+   "traits": [
+    "服",
+    "血"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/klk_s27/klk_s27_059.png",
+   "variant": ""
+  },
+  {
+   "num": "KLK/S27-060",
+   "name": "難波金満高校 宝多",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(2) 手札の「難波金満高校 宝多」を1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室のレベル0以下のキャラを3枚まで選び、舞台の別々の枠に置く。\n\"わてらが金つかわんで誰が使うっちゅーねん！\"",
+   "traits": [
+    "銭",
+    "メガネ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/klk_s27/klk_s27_060.png",
+   "variant": ""
+  },
+  {
+   "num": "KLK/S27-061",
+   "name": "鮮血との力 流子",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 加速 ［あなたの山札の上から1枚をクロック置場に置く］ あなたのクライマックスフェイズの始めに、あなたはコストを払ってよい。そうしたら、そのターン中、このカードのパワーを＋3500。\n\"これでいけるぜ！\"",
+   "traits": [
+    "服",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/klk_s27/klk_s27_061.png",
+   "variant": ""
+  },
+  {
+   "num": "KLK/S27-062",
+   "name": "空を見上げる皐月",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "5500",
+   "soul": 1,
+   "trigger": "",
+   "text": "-\n\"ああ、これで解放される。鬼龍院の宿業から\"",
+   "traits": [
+    "服",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/klk_s27/klk_s27_062.png",
+   "variant": ""
+  },
+  {
+   "num": "KLK/S27-063",
+   "name": "裸のヌーディスト 美木杉",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "1",
+   "cost": "1",
+   "power": "6500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 アンコール ［手札のキャラを1枚控え室に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"さらばだ\"",
+   "traits": [
+    "先生",
+    "ナルシスト"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/klk_s27/klk_s27_063.png",
+   "variant": ""
+  },
+  {
+   "num": "KLK/S27-064",
+   "name": "つながる血 流子",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "7500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】［手札を1枚控え室に置く］ このカードがアタックした時、クライマックス置場に「人衣一体、神衣鮮血！」があるなら、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室のキャラを1枚選び、手札に戻し、そのターン中、このカードのパワーを＋4000。\n【自】 アンコール ［あなたの山札の上から1枚をクロック置場に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"わかる、これがお前か鮮血！\"",
+   "traits": [
+    "服",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/klk_s27/klk_s27_064.png",
+   "variant": ""
+  },
+  {
+   "num": "KLK/S27-065",
+   "name": "謎の男 美木杉",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "2",
+   "cost": "2",
+   "power": "9000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "-\n\"答えは自分で見つけることだ\"",
+   "traits": [
+    "先生",
+    "ナルシスト"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/klk_s27/klk_s27_065.png",
+   "variant": ""
+  },
+  {
+   "num": "KLK/S27-066",
+   "name": "純潔",
+   "type": "Event",
+   "rarity": "U",
+   "color": "red",
+   "level": "1",
+   "cost": "1",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "【カウンター】 あなたは自分の《服》のキャラを1枚選び、そのターン中、パワーを＋3500。\n\"羅暁「純潔に心をゆだねなさい流子…」\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/klk_s27/klk_s27_066.png",
+   "variant": ""
+  },
+  {
+   "num": "KLK/S27-066S",
+   "name": "純潔",
+   "type": "Event",
+   "rarity": "SR",
+   "color": "red",
+   "level": "1",
+   "cost": "1",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "【カウンター】 あなたは自分の《服》のキャラを1枚選び、そのターン中、パワーを＋3500。\n\"SECRET\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/klk_s27/klk_s27_066s.png",
+   "variant": ""
+  },
+  {
+   "num": "KLK/S27-067",
+   "name": "赤手甲",
+   "type": "Event",
+   "rarity": "U",
+   "color": "red",
+   "level": "2",
+   "cost": "2",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "あなたは自分の控え室のキャラを2枚まで選び、手札に戻す。\n\"美木杉「効率よく血を与えることができるぞ」\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/klk_s27/klk_s27_067.png",
+   "variant": ""
+  },
+  {
+   "num": "KLK/S27-068",
+   "name": "セーラー服とは卒業するものだ",
+   "type": "Climax",
+   "rarity": "CR",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[salvage.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[salvage.gif]]：このカードがトリガーした時、あなたは自分の控え室のキャラを1枚選び、手札に戻してよい）\n\"鮮血―――――\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/klk_s27/klk_s27_068.png",
+   "variant": ""
+  },
+  {
+   "num": "KLK/S27-068R",
+   "name": "セーラー服とは卒業するものだ",
+   "type": "Climax",
+   "rarity": "RRR",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[salvage.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[salvage.gif]]：このカードがトリガーした時、あなたは自分の控え室のキャラを1枚選び、手札に戻してよい）\n\"SECRET\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/klk_s27/klk_s27_068r.png",
+   "variant": ""
+  },
+  {
+   "num": "KLK/S27-069",
+   "name": "因縁の戦い",
+   "type": "Climax",
+   "rarity": "CC",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【自】 このカードが手札からクライマックス置場に置かれた時、あなたは自分の控え室の赤のカードを1枚まで選び、ストック置場に置き、自分のキャラすべてに、そのターン中、ソウルを＋1。\n\"流子「教えてもらうぜ、鬼龍院皐月！」\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/klk_s27/klk_s27_069.png",
+   "variant": ""
+  },
+  {
+   "num": "KLK/S27-070",
+   "name": "人衣一体、神衣鮮血！",
+   "type": "Climax",
+   "rarity": "CC",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【自】 このカードが手札からクライマックス置場に置かれた時、あなたは1枚引き、自分のキャラを1枚選び、そのターン中、パワーを＋2000し、ソウルを＋1。\n\"やめておけ。私はもう絶対に鮮血を脱がない\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/klk_s27/klk_s27_070.png",
+   "variant": ""
+  },
+  {
+   "num": "KLK/S27-071",
+   "name": "野望を抱く皐月",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋500。\n【自】［(1)］ あなたのクライマックス置場に「人衣圧倒、神衣純潔！」が置かれた時、あなたは自分の山札の上から3枚を、控え室に置く。それらのカードすべてが《服》のキャラなら、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見て《服》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"母を倒すのは私の大望だ\"",
+   "traits": [
+    "服",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/klk_s27/klk_s27_071.png",
+   "variant": ""
+  },
+  {
+   "num": "KLK/S27-071R",
+   "name": "野望を抱く皐月",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋500。\n【自】［(1)］ あなたのクライマックス置場に「人衣圧倒、神衣純潔！」が置かれた時、あなたは自分の山札の上から3枚を、控え室に置く。それらのカードすべてが《服》のキャラなら、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見て《服》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"SECRET\"",
+   "traits": [
+    "服",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/klk_s27/klk_s27_071r.png",
+   "variant": ""
+  },
+  {
+   "num": "KLK/S27-072",
+   "name": "守りたい世界のために 皐月",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "blue",
+   "level": "3",
+   "cost": "2",
+   "power": "9000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたの控え室の「本能字学園へ」が3枚以上なら、あなたの手札のこのカードのレベルを－1。\n【永】 このカードの下にマーカーがあるなら、このカードのパワーを＋1500。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚までを、控え室に置き、自分の控え室の「純潔」を1枚選び、このカードの下にマーカーとして裏向きに置く。\n\"その世界を守るため、一緒に戦ってくれ！\"",
+   "traits": [
+    "服",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/klk_s27/klk_s27_072.png",
+   "variant": ""
+  },
+  {
+   "num": "KLK/S27-072SP",
+   "name": "守りたい世界のために 皐月",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "blue",
+   "level": "3",
+   "cost": "2",
+   "power": "9000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたの控え室の「本能字学園へ」が3枚以上なら、あなたの手札のこのカードのレベルを－1。\n【永】 このカードの下にマーカーがあるなら、このカードのパワーを＋1500。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚までを、控え室に置き、自分の控え室の「純潔」を1枚選び、このカードの下にマーカーとして裏向きに置く。\n\"SECRET\"",
+   "traits": [
+    "服",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/klk_s27/klk_s27_072sp.png",
+   "variant": ""
+  },
+  {
+   "num": "KLK/S27-073",
+   "name": "決戦を前に 皐月",
+   "type": "Character",
+   "rarity": "R",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 相手の前列のキャラが2枚以下なら、このカードのパワーを＋1000。\n【起】 集中 ［(1) あなたのキャラを2枚【レスト】する］ あなたは自分の山札の上から4枚をめくり、控え室に置く。それらのカードのクライマックス1枚につき、あなたは1枚まで引く。\n\"この本能字学園にお迎えすることも決まったぞ\"",
+   "traits": [
+    "服",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/klk_s27/klk_s27_073.png",
+   "variant": ""
+  },
+  {
+   "num": "KLK/S27-073S",
+   "name": "決戦を前に 皐月",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 相手の前列のキャラが2枚以下なら、このカードのパワーを＋1000。\n【起】 集中 ［(1) あなたのキャラを2枚【レスト】する］ あなたは自分の山札の上から4枚をめくり、控え室に置く。それらのカードのクライマックス1枚につき、あなたは1枚まで引く。\n\"SECRET\"",
+   "traits": [
+    "服",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/klk_s27/klk_s27_073s.png",
+   "variant": ""
+  },
+  {
+   "num": "KLK/S27-074",
+   "name": "大望の第一歩 皐月",
+   "type": "Character",
+   "rarity": "R",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1) 手札を1枚控え室に置く］ このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見て《服》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"三都制圧襲学旅行、作戦開始！\"",
+   "traits": [
+    "服",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/klk_s27/klk_s27_074.png",
+   "variant": ""
+  },
+  {
+   "num": "KLK/S27-075",
+   "name": "天才ハッカー  犬牟田",
+   "type": "Character",
+   "rarity": "R",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 応援 このカードの前のあなたの《服》のキャラすべてに、レベルを＋1し、パワーを＋500。\n【自】［(2)］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは2枚まで引き、自分の手札を1枚選び、控え室に置く。\n\"やれやれ、なんなのかな。この蒟蒻問答は\"",
+   "traits": [
+    "服",
+    "メガネ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/klk_s27/klk_s27_075.png",
+   "variant": ""
+  },
+  {
+   "num": "KLK/S27-076",
+   "name": "凄まじい気迫 皐月",
+   "type": "Character",
+   "rarity": "R",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 このカードの下にマーカーがあるなら、このカードのパワーを＋1500。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分の控え室の「純潔」を1枚選び、このカードの下にマーカーとして裏向きに置いてよい。\n\"何！？\"",
+   "traits": [
+    "服",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/klk_s27/klk_s27_076.png",
+   "variant": ""
+  },
+  {
+   "num": "KLK/S27-077",
+   "name": "志高く 皐月",
+   "type": "Character",
+   "rarity": "R",
+   "color": "blue",
+   "level": "1",
+   "cost": "1",
+   "power": "6000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［あなたの山札の上から1枚をクロック置場に置く］ このカードがアタックした時、クライマックス置場に「我が行動に一点の曇り無し！」があるなら、あなたはコストを払ってよい。そうしたら、あなたは1枚引き、そのターン中、このカードのパワーを＋Ｘ。Ｘは他のあなたの《服》のキャラの枚数×500に等しい。\n【自】 アンコール ［手札のキャラを1枚控え室に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"だが貴様に人間の自由を守るという志があるなら、今は全力で戦え！\"",
+   "traits": [
+    "服",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/klk_s27/klk_s27_077.png",
+   "variant": ""
+  },
+  {
+   "num": "KLK/S27-078",
+   "name": "皐月の幼なじみ 蛇崩",
+   "type": "Character",
+   "rarity": "R",
+   "color": "blue",
+   "level": "2",
+   "cost": "2",
+   "power": "8000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 このカードの下にマーカーがあるなら、このカードのパワーを＋2000。\n【永】 他のあなたの《服》のキャラが2枚以上なら、このカードは『【自】 アンコール ［手札のキャラを1枚控え室に置く］』を得る。\n【自】 このカードが控え室から舞台に置かれた時、あなたは自分の山札の上から1枚を、このカードの下にマーカーとして置いてよい。\n\"くっ\"",
+   "traits": [
+    "服",
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/klk_s27/klk_s27_078.png",
+   "variant": ""
+  },
+  {
+   "num": "KLK/S27-079",
+   "name": "裁縫部部長 伊織",
+   "type": "Character",
+   "rarity": "U",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【起】［あなたのキャラを2枚【レスト】する］ あなたは自分の《服》のキャラを1枚選び、そのターン中、パワーを＋2000。\n\"三つ星極制服、誂の装！\"",
+   "traits": [
+    "服",
+    "メガネ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/klk_s27/klk_s27_079.png",
+   "variant": ""
+  },
+  {
+   "num": "KLK/S27-080",
+   "name": "風紀を取り締まる蟇郡",
+   "type": "Character",
+   "rarity": "U",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのクロックが3枚以上なら、このカードのパワーを＋1000。\n【自】 加速 ［あなたの山札の上から1枚をクロック置場に置く］ あなたのクライマックスフェイズの始めに、あなたはコストを払ってよい。そうしたら、そのターン中、このカードのパワーを＋2500。\n\"いいかげんにしろお前達。皐月様の御前であるぞ\"",
+   "traits": [
+    "服",
+    "風紀委員"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/klk_s27/klk_s27_080.png",
+   "variant": ""
+  },
+  {
+   "num": "KLK/S27-081",
+   "name": "実家はコンニャク製造業 猿投山",
+   "type": "Character",
+   "rarity": "U",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたの手札が5枚以上なら、このカードのパワーを＋1000。\n【永】 このカードのパワーを＋Ｘ。Ｘはこのカードの正面のキャラのレベル×2000に等しい。\n\"それ以上北関東を馬鹿にすると、貴様も石灰まぜてゆであげるぞ\"",
+   "traits": [
+    "服",
+    "スポーツ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/klk_s27/klk_s27_081.png",
+   "variant": ""
+  },
+  {
+   "num": "KLK/S27-082",
+   "name": "曲の冒頭へ 蛇崩",
+   "type": "Character",
+   "rarity": "U",
+   "color": "blue",
+   "level": "1",
+   "cost": "1",
+   "power": "6500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1) あなたの山札の上から1枚をクロック置場に置く］ あなたのクライマックス置場に「本能字四天王、極戦装束！」が置かれた時、あなたはコストを払ってよい。そうしたら、そのターン中、このカードのパワーを＋1000し、このカードは次の能力を得る。『【永】 このカードがアタックする時、あなたはかわりに相手の後列のキャラを1枚選び、このカードはそのキャラを防御キャラとしてフロントアタックしてよい。』\n\"アンコールは超スタンダードにいきましょう\"",
+   "traits": [
+    "服",
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/klk_s27/klk_s27_082.png",
+   "variant": ""
+  },
+  {
+   "num": "KLK/S27-083",
+   "name": "勝機を見いだす皐月",
+   "type": "Character",
+   "rarity": "U",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "7500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの《服》のキャラ1枚につき、このカードのパワーを＋500。\n\"私が逆転の可能性を信じているのは貴様のおかげだよ！\"",
+   "traits": [
+    "服",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/klk_s27/klk_s27_083.png",
+   "variant": ""
+  },
+  {
+   "num": "KLK/S27-084",
+   "name": "天眼通を超える心眼通 猿投山",
+   "type": "Character",
+   "rarity": "U",
+   "color": "blue",
+   "level": "2",
+   "cost": "2",
+   "power": "8500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】［手札を1枚控え室に置く］ あなたのクライマックス置場に「本能字四天王、極戦装束！」が置かれた時、前列にこのカードがいるなら、あなたはコストを払ってよい。そうしたら、あなたは相手の山札を上から2枚まで見てカードを1枚まで選び、山札の下に置く。その後、残りのカードを山札の上に好きな順番で置き、そのターン中、このカードのパワーを＋4000。\n\"お前の心の動きが手に取るようにわかるぞ\"",
+   "traits": [
+    "服",
+    "スポーツ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/klk_s27/klk_s27_084.png",
+   "variant": ""
+  },
+  {
+   "num": "KLK/S27-085",
+   "name": "皐月の執事 揃",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは他の自分のカード名に「皐月」を含むキャラを1枚選び、そのターン中、パワーを＋2000。\n\"お湯はたっぷりわかしておきます\"",
+   "traits": [
+    "執事",
+    "お茶"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/klk_s27/klk_s27_085.png",
+   "variant": ""
+  },
+  {
+   "num": "KLK/S27-086",
+   "name": "摩天楼の最上階で 皐月",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から1枚を公開する。そのカードが《服》のキャラなら、そのターン中、このカードのパワーを＋2000。（公開したカードは元に戻す）\n\"だが、諸君らの戦いはこれからだ！\"",
+   "traits": [
+    "服",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/klk_s27/klk_s27_086.png",
+   "variant": ""
+  },
+  {
+   "num": "KLK/S27-087",
+   "name": "生徒会四天王 犬牟田",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは他の自分の《服》のキャラを1枚選び、そのターン中、パワーを＋1000。\n\"解析完了\"",
+   "traits": [
+    "服",
+    "メガネ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/klk_s27/klk_s27_087.png",
+   "variant": ""
+  },
+  {
+   "num": "KLK/S27-088",
+   "name": "生徒会四天王 蛇崩",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "",
+   "text": "-\n\"あら、簡単に倒しちゃつまんないでしょ\"",
+   "traits": [
+    "服",
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/klk_s27/klk_s27_088.png",
+   "variant": ""
+  },
+  {
+   "num": "KLK/S27-089",
+   "name": "絶対的な恐怖 皐月",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 相手のターン中、このカードのパワーを＋1000。\n\"この鬼龍院皐月の先を行く者がいるなど、断じてありえん！\"",
+   "traits": [
+    "服",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/klk_s27/klk_s27_089.png",
+   "variant": ""
+  },
+  {
+   "num": "KLK/S27-090",
+   "name": "変身するたび変態 蟇郡",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードがアタックした時、クライマックス置場に「本能字四天王、極戦装束！」があるなら、あなたは他の自分の、《服》かカード名に「マコ」を含むキャラを1枚選び、次の相手のターンの終わりまで、パワーを＋1500。\n\"死縛の装の本当のおそろしさ、見せてやろう！\"",
+   "traits": [
+    "服",
+    "風紀委員"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/klk_s27/klk_s27_090.png",
+   "variant": ""
+  },
+  {
+   "num": "KLK/S27-091",
+   "name": "生徒会四天王 猿投山",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "5500",
+   "soul": 1,
+   "trigger": "",
+   "text": "-\n\"よし、男の意地見せてみろ\"",
+   "traits": [
+    "服",
+    "スポーツ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/klk_s27/klk_s27_091.png",
+   "variant": ""
+  },
+  {
+   "num": "KLK/S27-092",
+   "name": "生徒会四天王 蟇郡",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【起】【カウンター】 助太刀3000 レベル2 ［(1) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋3000）\n\"弁明はきかん。即刻処罰する！\"",
+   "traits": [
+    "服",
+    "風紀委員"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/klk_s27/klk_s27_092.png",
+   "variant": ""
+  },
+  {
+   "num": "KLK/S27-093",
+   "name": "データ主義 犬牟田",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "8000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードがアタックした時、クライマックス置場に「本能字四天王、極戦装束！」があるなら、あなたは自分の山札を上から2枚まで見て、レベル0以下のカードを2枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。（クライマックスのレベルは0として扱う）\n\"鮮血「だが嫌な感じだ。丸裸にされるような」\"",
+   "traits": [
+    "服",
+    "メガネ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/klk_s27/klk_s27_093.png",
+   "variant": ""
+  },
+  {
+   "num": "KLK/S27-094",
+   "name": "微笑む皐月",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "2",
+   "cost": "2",
+   "power": "9000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "-\n\"流石だな\"",
+   "traits": [
+    "服",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/klk_s27/klk_s27_094.png",
+   "variant": ""
+  },
+  {
+   "num": "KLK/S27-095",
+   "name": "純潔",
+   "type": "Event",
+   "rarity": "U",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "あなたは自分の山札を上から4枚まで見て、《服》のキャラを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。\n\"皐月「その服の名は、純潔」\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/klk_s27/klk_s27_095.png",
+   "variant": ""
+  },
+  {
+   "num": "KLK/S27-095S",
+   "name": "純潔",
+   "type": "Event",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "あなたは自分の山札を上から4枚まで見て、《服》のキャラを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。\n\"SECRET\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/klk_s27/klk_s27_095s.png",
+   "variant": ""
+  },
+  {
+   "num": "KLK/S27-096",
+   "name": "揃の紅茶",
+   "type": "Event",
+   "rarity": "U",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "【カウンター】 あなたは1枚引き、自分の手札を1枚選び、控え室に置く。\nあなたは自分の《服》のキャラを1枚選び、そのターン中、パワーを＋3500。\n\"最初は苦かったお前のお茶も、今ではこんなにおいしいと感じる\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/klk_s27/klk_s27_096.png",
+   "variant": ""
+  },
+  {
+   "num": "KLK/S27-097",
+   "name": "本能字学園へ",
+   "type": "Climax",
+   "rarity": "CR",
+   "color": "blue",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【自】 このカードが手札からクライマックス置場に置かれた時、あなたは1枚引き、自分のキャラを1枚選び、そのターン中、パワーを＋2000し、ソウルを＋1。\n\"皐月「よし。取り戻すぞ、我々の学園を！」\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/klk_s27/klk_s27_097.png",
+   "variant": ""
+  },
+  {
+   "num": "KLK/S27-097R",
+   "name": "本能字学園へ",
+   "type": "Climax",
+   "rarity": "RRR",
+   "color": "blue",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【自】 このカードが手札からクライマックス置場に置かれた時、あなたは1枚引き、自分のキャラを1枚選び、そのターン中、パワーを＋2000し、ソウルを＋1。\n\"SECRET\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/klk_s27/klk_s27_097r.png",
+   "variant": ""
+  },
+  {
+   "num": "KLK/S27-098",
+   "name": "我が行動に一点の曇り無し！",
+   "type": "Climax",
+   "rarity": "CC",
+   "color": "blue",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【永】 あなたのキャラすべてに、ソウルを＋2。\n\"この姿は神衣が最も力をふるえる姿！\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/klk_s27/klk_s27_098.png",
+   "variant": ""
+  },
+  {
+   "num": "KLK/S27-099",
+   "name": "人衣圧倒、神衣純潔！",
+   "type": "Climax",
+   "rarity": "CC",
+   "color": "blue",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[draw.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[draw.gif]]：このカードがトリガーした時、あなたは1枚引いてよい）\n\"ほう…素晴らしいな\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/klk_s27/klk_s27_099.png",
+   "variant": ""
+  },
+  {
+   "num": "KLK/S27-100",
+   "name": "本能字四天王、極戦装束！",
+   "type": "Climax",
+   "rarity": "CC",
+   "color": "blue",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[gate.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[gate.gif]]：このカードがトリガーした時、あなたは自分の控え室のクライマックスを1枚選び、手札に戻してよい）\n\"四天王「三つ星極制服最終形態！」\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/klk_s27/klk_s27_100.png",
+   "variant": ""
+  },
+  {
+   "num": "KLK/S27-101",
+   "name": "ちびマコ",
+   "type": "Character",
+   "rarity": "PR",
+   "color": "yellow",
+   "level": "2",
+   "cost": "2",
+   "power": "8500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、そのターン中、このカードのパワーを＋1500。\n\"友情で勝つということは人生で勝つということです\"",
+   "traits": [
+    "家族"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/klk_s27/klk_s27_101.png",
+   "variant": ""
+  },
+  {
+   "num": "KLK/S27-102",
+   "name": "ちび流子",
+   "type": "Character",
+   "rarity": "PR",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 相手のアタックフェイズの始めに、あなたはこのカードを前列の中央のキャラのいない枠に動かしてよい。\n\"人の食べかけのレモンを盗むなんて、ませてるじゃねえか\"",
+   "traits": [
+    "服",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/klk_s27/klk_s27_102.png",
+   "variant": ""
+  },
+  {
+   "num": "KLK/S27-103",
+   "name": "ちび“人衣一体”流子",
+   "type": "Character",
+   "rarity": "PR",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "6500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 あなたのドローフェイズの始めに、あなたは自分の山札の上から1枚を、クロック置場に置く。\n\"人衣一体、神衣鮮血！\"",
+   "traits": [
+    "服",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/klk_s27/klk_s27_103.png",
+   "variant": ""
+  },
+  {
+   "num": "KLK/S27-104",
+   "name": "ちび皐月",
+   "type": "Character",
+   "rarity": "PR",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "8000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】［(1) 手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見て《服》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"服を着た豚共、その真実に屈服せよ！\"",
+   "traits": [
+    "服",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/klk_s27/klk_s27_104.png",
+   "variant": ""
+  }
+ ]
+}

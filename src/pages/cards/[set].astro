@@ -1,6 +1,8 @@
 ---
 // Per-set Weiss Schwarz card database: only one set's cards per page, with
 // type/color/rarity/level/text filters and a card detail popup.
+import fs from 'node:fs';
+import path from 'node:path';
 import AboutLayout from '../../layouts/AboutLayout.astro';
 import { SITE_TITLE } from '../../consts';
 import { WS_CARD_SETS } from '../../data/ws-cards/index.js';
@@ -8,16 +10,17 @@ import { SHOP_ITEMS } from '../../data/shop-items.js';
 import { shopLink } from '../../data/shop.js';
 import '../../styles/pages/ws-cards.css';
 
-// Full card data is lazy-loaded per set: the metadata registry keeps the
-// build small now that the catalog is ~100k cards across 800+ sets.
-const setModules = import.meta.glob('../../data/ws-cards/*.js');
-
 export function getStaticPaths() {
   return WS_CARD_SETS.map((set) => ({ params: { set: set.id } }));
 }
 
 const setMeta = WS_CARD_SETS.find((s) => s.id === Astro.params.set)!;
-const setData = (await setModules[`../../data/ws-cards/${setMeta.id}.js`]()).default;
+// Card data is read from generated JSON at build time (not imported): with
+// ~100k cards across 850+ sets, having them in the module graph OOM'd the
+// production build. fs keeps them invisible to the bundler.
+const setData = JSON.parse(
+  fs.readFileSync(path.join(process.cwd(), 'src', 'data', 'ws-cards', `${setMeta.id}.json`), 'utf8')
+);
 const set = { ...setMeta, ...setData };
 
 // Buy links go straight to the set's Amazon product page (with the referral

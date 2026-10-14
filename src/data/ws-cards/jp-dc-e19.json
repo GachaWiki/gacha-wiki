@@ -1,0 +1,341 @@
+{
+ "id": "jp-dc-e19",
+ "name": "D.C. D.C.II",
+ "expansion": 19,
+ "lang": "jp",
+ "release": null,
+ "shopItem": null,
+ "box": null,
+ "cards": [
+  {
+   "num": "DC/W01-E01",
+   "name": "水着の音姫",
+   "type": "Character",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードがアタックした時、あなたのキャラすべてに、そのターン中、パワーを+500。\n\"弟くんのことなら、何でもわかるんだから\"",
+   "traits": [
+    "生徒会",
+    "水着"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dc_w01/dc_w01_e01.png",
+   "variant": ""
+  },
+  {
+   "num": "DC/W01-E02",
+   "name": "水着の音夢＆さくら",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋500。\n\"それで、どうですか？　私の水着姿は\"",
+   "traits": [
+    "魔法",
+    "水着"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dc_w01/dc_w01_e02.png",
+   "variant": ""
+  },
+  {
+   "num": "DC/W01-E03",
+   "name": "水着の由夢＆さくら",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "1",
+   "cost": "1",
+   "power": "5500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から1枚を公開する。そのカードのレベルが1以上なら、そのターン中、このカードのソウルを＋1。（クライマックスのレベルは0として扱う）\n\"やっほー！　元気ー！\"",
+   "traits": [
+    "魔法",
+    "水着"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dc_w01/dc_w01_e03.png",
+   "variant": ""
+  },
+  {
+   "num": "DC/W01-E04",
+   "name": "水着の和泉子",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "6500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードがアタックした時、あなたは自分の山札の上から1枚を公開する。そのカードがクライマックスなら、あなたは相手のキャラを2枚まで選び、手札に戻す。\n\"朝倉さん、朝倉さん、カニです！　カニがいます！\"",
+   "traits": [
+    "宇宙人",
+    "水着"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dc_w01/dc_w01_e04.png",
+   "variant": ""
+  },
+  {
+   "num": "DC/W01-E05",
+   "name": "水着のななか",
+   "type": "Character",
+   "rarity": "R",
+   "color": "green",
+   "level": "1",
+   "cost": "2",
+   "power": "7000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から1枚を公開する。そのカードのレベルが1以上なら、あなたは自分の山札の上から1枚を、ストック置場に置く。（クライマックスのレベルは0として扱う）\n\"せっかくだから、ふたりっきりで遊ぼ？\"",
+   "traits": [
+    "音楽",
+    "水着"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dc_w01/dc_w01_e05.png",
+   "variant": ""
+  },
+  {
+   "num": "DC/W01-E06",
+   "name": "水着のことり",
+   "type": "Character",
+   "rarity": "R",
+   "color": "green",
+   "level": "2",
+   "cost": "2",
+   "power": "8500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの《先生》のキャラがいるなら、このカードは『【自】 アンコール ［手札のキャラを1枚控え室に置く］』を得る。\n\"ふふ、私ともっと一緒にいたいですか？\"",
+   "traits": [
+    "音楽",
+    "水着"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dc_w01/dc_w01_e06.png",
+   "variant": ""
+  },
+  {
+   "num": "DC/W01-E07",
+   "name": "水着の小恋",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【起】［あなたの《音楽》のキャラを2枚【レスト】する］ あなたは自分のキャラを1枚選び、そのターン中、パワーを＋2000。\n\"そんなじろじろ見ないでよ～\"",
+   "traits": [
+    "音楽",
+    "水着"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dc_w01/dc_w01_e07.png",
+   "variant": ""
+  },
+  {
+   "num": "DC/W01-E08",
+   "name": "水着のななか＆由夢",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から1枚を公開する。そのカードのレベルが1以上なら、そのターン中、このカードのパワーを＋2000。（クライマックスのレベルは0として扱う）\n\"ななか「楽しいことはあっという間だね」\"",
+   "traits": [
+    "音楽",
+    "水着"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dc_w01/dc_w01_e08.png",
+   "variant": ""
+  },
+  {
+   "num": "DC/W01-E09",
+   "name": "水着の環",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは相手の山札を上から2枚まで見てカードを1枚まで選び、山札の下に置く。残りのカードを山札の上に好きな順番で置く。\n\"もう、恥ずかしいです\"",
+   "traits": [
+    "巫女",
+    "水着"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dc_w01/dc_w01_e09.png",
+   "variant": ""
+  },
+  {
+   "num": "DC/W01-E10",
+   "name": "スイカ割り",
+   "type": "Event",
+   "rarity": "C",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "あなたは自分の山札の上から1枚を公開する。そのカードがクライマックスなら、あなたは自分の山札の上から2枚を、ストック置場に置く。\n\"ななか「いっくよ～、えいっ！」\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dc_w01/dc_w01_e10.png",
+   "variant": ""
+  },
+  {
+   "num": "DC/W01-E11",
+   "name": "水着の音夢",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "1",
+   "cost": "1",
+   "power": "5500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 アンコール ［手札のキャラを1枚控え室に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"ほら、兄さんも泳ぎましょうよ\"",
+   "traits": [
+    "魔法",
+    "水着"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dc_w01/dc_w01_e11.png",
+   "variant": ""
+  },
+  {
+   "num": "DC/W01-E12",
+   "name": "水着の美春",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【起】［このカードを【レスト】する］ あなたは自分の控え室の《人形》のキャラを1枚選び、手札に戻す。あなたは自分の手札を1枚選び、控え室に置く。\n\"バナナの世界にようこそ！\"",
+   "traits": [
+    "バナナ",
+    "水着"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dc_w01/dc_w01_e12.png",
+   "variant": ""
+  },
+  {
+   "num": "DC/W01-E13",
+   "name": "水着の由夢",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "9000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札を上から4枚まで見て、山札の上に好きな順番で置く。\n【自】 このカードがアタックした時、クライマックス置場に「ねことお風呂で」があるなら、あなたは自分の控え室のキャラを1枚選び、手札に戻す。\n\"あぁもう！　兄さんの鈍感！\"",
+   "traits": [
+    "魔法",
+    "水着"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dc_w01/dc_w01_e13.png",
+   "variant": ""
+  },
+  {
+   "num": "DC/W01-E14",
+   "name": "ねことお風呂で",
+   "type": "Climax",
+   "rarity": "C",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n\"にゃ？\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dc_w01/dc_w01_e14.png",
+   "variant": ""
+  },
+  {
+   "num": "DC/W01-E15",
+   "name": "小悪魔 杏",
+   "type": "Character",
+   "rarity": "R",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札を上から1枚見て、山札の上か下に置く。\n\"本当は好きなんでしょ？　こーゆーのも\"",
+   "traits": [
+    "魔法",
+    "水着"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dc_w01/dc_w01_e15.png",
+   "variant": ""
+  },
+  {
+   "num": "DC/W01-E16",
+   "name": "水着のアリス",
+   "type": "Character",
+   "rarity": "R",
+   "color": "blue",
+   "level": "1",
+   "cost": "1",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札を上から1枚を公開する。そのカードが自分のレベル以下のレベルのキャラなら、舞台の好きな枠に置いてよい。\n\"子供っぽいですか……\"",
+   "traits": [
+    "人形",
+    "水着"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dc_w01/dc_w01_e16.png",
+   "variant": ""
+  },
+  {
+   "num": "DC/W01-E17",
+   "name": "水着の麻耶",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【起】【カウンター】 助太刀3000 レベル2 ［(1) 手札のこのカードを控え室に置く］ （あなたはフロントアタックされている自分のキャラを1枚選び、そのターン中、パワーを＋3000）\n\"んもう！　静かにしなさーーーい！！\"",
+   "traits": [
+    "委員長",
+    "水着"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dc_w01/dc_w01_e17.png",
+   "variant": ""
+  },
+  {
+   "num": "DC/W01-E18",
+   "name": "小川で遊ぼう！",
+   "type": "Event",
+   "rarity": "C",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "あなたは2枚まで引き、自分の手札を2枚選び、山札の上に置く。\n\"環「ええ、とっても。気持ち良いですよ」\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dc_w01/dc_w01_e18.png",
+   "variant": ""
+  }
+ ]
+}

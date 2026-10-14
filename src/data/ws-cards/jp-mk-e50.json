@@ -1,0 +1,2150 @@
+{
+ "id": "jp-mk-e50",
+ "name": "探偵オペラ　ミルキィホームズ",
+ "expansion": 50,
+ "lang": "jp",
+ "release": null,
+ "shopItem": null,
+ "box": null,
+ "cards": [
+  {
+   "num": "MK/S11-001",
+   "name": "エプロン姿のネロ",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、ソウルを＋1。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から1枚を公開する。そのカードが《探偵》のキャラなら手札に加え、あなたは自分の手札を1枚選び、控え室に置く。（そうでないなら元に戻す）\n\"ほら、これをお食べ\"",
+   "traits": [
+    "探偵",
+    "お菓子"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mk_s11/mk_s11_001.png",
+   "variant": ""
+  },
+  {
+   "num": "MK/S11-002",
+   "name": "制服のネロ",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "yellow",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、そのターン中、このカードのパワーを＋4000し、ソウルを＋1。\n【自】 このカードが手札から舞台に置かれた時、あなたの手札が相手の手札より少ないなら、あなたは自分の山札の上から1枚を、ストック置場に置いてよい。\n\"ダメダメなコーデリアに任せたのは間違いだったよ！\"",
+   "traits": [
+    "探偵",
+    "お菓子"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mk_s11/mk_s11_002.png",
+   "variant": ""
+  },
+  {
+   "num": "MK/S11-003",
+   "name": "小林 オペラ",
+   "type": "Character",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋500。\n【起】［(2) このカードを【レスト】する］ あなたは自分の《探偵》のキャラを2枚まで選び、そのターン中、ソウルを＋1。\n\"あの…こんな額…経費で落ちないんだけど…\"",
+   "traits": [
+    "探偵"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mk_s11/mk_s11_003.png",
+   "variant": ""
+  },
+  {
+   "num": "MK/S11-004",
+   "name": "運動会のネロ＆エリー",
+   "type": "Character",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1)］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分のキャラを1枚選び、そのターン中、ソウルを＋1。\n\"ネロ「行けー！エリー！」\"",
+   "traits": [
+    "探偵",
+    "スポーツ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mk_s11/mk_s11_004.png",
+   "variant": ""
+  },
+  {
+   "num": "MK/S11-005",
+   "name": "譲崎 ネロ",
+   "type": "Character",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(2)］ このカードがアタックした時、クライマックス置場に「ふたりっきりのデート」があるなら、あなたはコストを払ってよい。そうしたら、あなたは他の自分のキャラを2枚まで選び、手札に戻す。\n\"ボクのトイズで、こんな事件<br />あっという間に解決してみせる\"",
+   "traits": [
+    "探偵",
+    "お菓子"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mk_s11/mk_s11_005.png",
+   "variant": ""
+  },
+  {
+   "num": "MK/S11-005S",
+   "name": "譲崎 ネロ",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(2)］ このカードがアタックした時、クライマックス置場に「ふたりっきりのデート」があるなら、あなたはコストを払ってよい。そうしたら、あなたは他の自分のキャラを2枚まで選び、手札に戻す。\n\"SECRET\"",
+   "traits": [
+    "探偵",
+    "お菓子"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mk_s11/mk_s11_005s.png",
+   "variant": ""
+  },
+  {
+   "num": "MK/S11-006",
+   "name": "浴衣のシャロ",
+   "type": "Character",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードがアタックした時、クライマックス置場に「オペラとの出会い」があるなら、次の相手のターンの終わりまで、相手はイベントを手札からプレイできない。\n【自】 このカードがアタックした時、クライマックス置場に「オペラとの出会い」があるなら、そのターン中、このカードのパワーを＋1500。\n\"みんなで回るお祭りは楽しいですね！\"",
+   "traits": [
+    "探偵",
+    "和服"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mk_s11/mk_s11_006.png",
+   "variant": ""
+  },
+  {
+   "num": "MK/S11-007",
+   "name": "ネコミミ ネロ",
+   "type": "Character",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "2",
+   "cost": "2",
+   "power": "8000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 経験 あなたのレベル置場のカードのレベルの合計が3以上なら、このカードのパワーを＋1000。\n【自】 このカードがアタックした時、クライマックス置場に「こっそりとトイズ」があるなら、あなたは相手のキャラを1枚選び、手札に戻してよい。\n\"-\"",
+   "traits": [
+    "探偵",
+    "動物"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mk_s11/mk_s11_007.png",
+   "variant": ""
+  },
+  {
+   "num": "MK/S11-007SP",
+   "name": "ネコミミ ネロ",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "yellow",
+   "level": "2",
+   "cost": "2",
+   "power": "8000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 経験 あなたのレベル置場のカードのレベルの合計が3以上なら、このカードのパワーを＋1000。\n【自】 このカードがアタックした時、クライマックス置場に「こっそりとトイズ」があるなら、あなたは相手のキャラを1枚選び、手札に戻してよい。\n\"SECRET\"",
+   "traits": [
+    "探偵",
+    "動物"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mk_s11/mk_s11_007sp.png",
+   "variant": ""
+  },
+  {
+   "num": "MK/S11-008",
+   "name": "調理長 石流さん",
+   "type": "Character",
+   "rarity": "U",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【起】［(1) あなたのキャラを2枚【レスト】する］ そのターン中、このカードのパワーを＋1500し、ソウルを＋1。\n\"この、パン泥棒が…！\"",
+   "traits": [
+    "怪盗",
+    "コック"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mk_s11/mk_s11_008.png",
+   "variant": ""
+  },
+  {
+   "num": "MK/S11-009",
+   "name": "“スリーカード”ラット",
+   "type": "Character",
+   "rarity": "U",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 経験 あなたのレベル置場のカードのレベルの合計が2以上なら、このカードのパワーを＋500し、このカードは次の能力を得る。『【自】 このカードのバトル相手が【リバース】した時、あなたはそのキャラをストック置場に置いてよい。』\n\"へっ、くらわせてあげるよ、オレの爆弾を――！\"",
+   "traits": [
+    "怪盗",
+    "炎"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mk_s11/mk_s11_009.png",
+   "variant": ""
+  },
+  {
+   "num": "MK/S11-009S",
+   "name": "“スリーカード”ラット",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 経験 あなたのレベル置場のカードのレベルの合計が2以上なら、このカードのパワーを＋500し、このカードは次の能力を得る。『【自】 このカードのバトル相手が【リバース】した時、あなたはそのキャラをストック置場に置いてよい。』\n\"SECRET\"",
+   "traits": [
+    "怪盗",
+    "炎"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mk_s11/mk_s11_009s.png",
+   "variant": ""
+  },
+  {
+   "num": "MK/S11-010",
+   "name": "ナルシスト 二十里先生",
+   "type": "Character",
+   "rarity": "U",
+   "color": "yellow",
+   "level": "1",
+   "cost": "1",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 あなたがこのカードの『助太刀』を使った時、あなたは自分の山札の上から3枚を、控え室に置く。\n【起】【カウンター】 助太刀2000 レベル1 ［(1) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋2000）\n\"怪盗は、きっと、ボクのようにマーベラスにビューティフル！\"",
+   "traits": [
+    "怪盗",
+    "ナルシスト"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mk_s11/mk_s11_010.png",
+   "variant": ""
+  },
+  {
+   "num": "MK/S11-011",
+   "name": "糖分補給 ネロ",
+   "type": "Character",
+   "rarity": "U",
+   "color": "yellow",
+   "level": "1",
+   "cost": "2",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたのターン中、他のあなたのキャラすべてに、パワーを＋1000。\n【自】 チェンジ ［このカードを控え室に置く］ あなたのドローフェイズの始めに、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「ネコミミ ネロ」を1枚選び、このカードがいた枠に置く。\n\"あんたにもあげるよ。 糖分補給で頭もフル回転ってね\"",
+   "traits": [
+    "探偵",
+    "お菓子"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mk_s11/mk_s11_011.png",
+   "variant": ""
+  },
+  {
+   "num": "MK/S11-012",
+   "name": "いつも笑顔 シャロ",
+   "type": "Character",
+   "rarity": "U",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "7000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 アンコール ［手札のキャラを1枚控え室に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n【起】［あなたの《探偵》のキャラを1枚【レスト】する］ そのターン中、このカードのパワーを＋1000。\n\"気になる点、見つけました！\"",
+   "traits": [
+    "探偵",
+    "カメラ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mk_s11/mk_s11_012.png",
+   "variant": ""
+  },
+  {
+   "num": "MK/S11-013",
+   "name": "シャロ＆かまぼこ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのターン中、他のあなたの《探偵》のキャラ1枚につき、このカードのパワーを＋500。\n【自】 絆／「ネコミミ ネロ」 ［(1)］ （このカードがプレイされて舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「ネコミミ ネロ」を1枚選び、手札に戻す）\n\"こら、動かないの！\"",
+   "traits": [
+    "探偵",
+    "動物"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mk_s11/mk_s11_013.png",
+   "variant": ""
+  },
+  {
+   "num": "MK/S11-014",
+   "name": "コンソール操作 ネロ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から1枚を公開する。そのカードが《探偵》のキャラなら手札に加え、あなたは自分の手札を1枚選び、控え室に置く。（そうでないなら元に戻す）\n\"物理的に断線してる…コントロールできないよ…\"",
+   "traits": [
+    "探偵",
+    "お菓子"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mk_s11/mk_s11_014.png",
+   "variant": ""
+  },
+  {
+   "num": "MK/S11-015",
+   "name": "“スリーカード”トゥエンティ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのターン中、このカードのパワーを＋1000。\n\"そのミッション！是非この僕に御命じ下さい！\"",
+   "traits": [
+    "怪盗",
+    "ナルシスト"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mk_s11/mk_s11_015.png",
+   "variant": ""
+  },
+  {
+   "num": "MK/S11-015S",
+   "name": "“スリーカード”トゥエンティ",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのターン中、このカードのパワーを＋1000。\n\"SECRET\"",
+   "traits": [
+    "怪盗",
+    "ナルシスト"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mk_s11/mk_s11_015s.png",
+   "variant": ""
+  },
+  {
+   "num": "MK/S11-016",
+   "name": "浴衣のネロ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "",
+   "text": "-\n\"やっぱり三人だと楽しさも三倍だと思わない？\"",
+   "traits": [
+    "探偵",
+    "和服"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mk_s11/mk_s11_016.png",
+   "variant": ""
+  },
+  {
+   "num": "MK/S11-017",
+   "name": "ネロ＆シャロ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "1",
+   "cost": "1",
+   "power": "7000",
+   "soul": 1,
+   "trigger": "",
+   "text": "-\n\"シャロ「ほら、ネロ！あっちだよ」\"",
+   "traits": [
+    "探偵",
+    "お菓子"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mk_s11/mk_s11_017.png",
+   "variant": ""
+  },
+  {
+   "num": "MK/S11-018",
+   "name": "クラスメイト 根津くん",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "8000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【起】［(1)］ そのターン中、このカードのソウルを＋1。\n\"お前の早とちりのせいで、アンリエット様の計画が台無しだよ！\"",
+   "traits": [
+    "怪盗",
+    "炎"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mk_s11/mk_s11_018.png",
+   "variant": ""
+  },
+  {
+   "num": "MK/S11-019",
+   "name": "“スリーカード”ストーンリバー",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "2",
+   "cost": "2",
+   "power": "9000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "-\n\"我が主君、アルセーヌ様のご命令とあらば\"",
+   "traits": [
+    "怪盗",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mk_s11/mk_s11_019.png",
+   "variant": ""
+  },
+  {
+   "num": "MK/S11-019S",
+   "name": "“スリーカード”ストーンリバー",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "yellow",
+   "level": "2",
+   "cost": "2",
+   "power": "9000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "-\n\"SECRET\"",
+   "traits": [
+    "怪盗",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mk_s11/mk_s11_019s.png",
+   "variant": ""
+  },
+  {
+   "num": "MK/S11-020",
+   "name": "万能のトイズ？",
+   "type": "Event",
+   "rarity": "U",
+   "color": "yellow",
+   "level": "1",
+   "cost": "1",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "【カウンター】 あなたは自分の《探偵》のキャラを1枚選び、そのターン中、パワーを＋2500し、ソウルを＋1。\n\"僕のこと、そんなふうに考えてたんだ\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mk_s11/mk_s11_020.png",
+   "variant": ""
+  },
+  {
+   "num": "MK/S11-021",
+   "name": "お菓子な探偵",
+   "type": "Event",
+   "rarity": "U",
+   "color": "yellow",
+   "level": "3",
+   "cost": "4",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "あなたは相手の控え室のカードを6枚まで選び、山札に戻す。相手はその山札をシャッフルする。\n\"どう？お菓子食べる？\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mk_s11/mk_s11_021.png",
+   "variant": ""
+  },
+  {
+   "num": "MK/S11-022",
+   "name": "食料集め",
+   "type": "Event",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "2",
+   "cost": "0",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "あなたは自分のキャラを1枚選び、そのターン中、パワーを＋5000。\n相手のクロックが0枚なら、そのターン中、相手は『【自】 アンコール』を使えない。（ルールによる『【自】 アンコール ［(3)］』も使えない）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mk_s11/mk_s11_022.png",
+   "variant": ""
+  },
+  {
+   "num": "MK/S11-023",
+   "name": "こっそりとトイズ",
+   "type": "Climax",
+   "rarity": "CR",
+   "color": "yellow",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[bounce.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[bounce.gif]]：このカードがトリガーした時、あなたは相手のキャラを1枚選び、手札に戻してよい）\n\"ストップ！ストップ！ ダメダメ、死にたいの？\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mk_s11/mk_s11_023.png",
+   "variant": ""
+  },
+  {
+   "num": "MK/S11-024",
+   "name": "ふたりっきりのデート",
+   "type": "Climax",
+   "rarity": "CC",
+   "color": "yellow",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[shot.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[shot.gif]]：このターン中、このカードをトリガーした攻撃キャラが次に与えるダメージがキャンセルされた時、相手に1ダメージを与える）\n\"小林「どういうこと？みんなが来ないって？」<br />ネロ「どうでもいいでしょ、そんなこと」\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mk_s11/mk_s11_024.png",
+   "variant": ""
+  },
+  {
+   "num": "MK/S11-025",
+   "name": "オペラとの出会い",
+   "type": "Climax",
+   "rarity": "CC",
+   "color": "yellow",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【永】 あなたのキャラすべてに、ソウルを＋2。\n\"きゃぁぁぁぁぁぁぁぁっ！！！\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mk_s11/mk_s11_025.png",
+   "variant": ""
+  },
+  {
+   "num": "MK/S11-026",
+   "name": "本好きなエリー",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "green",
+   "level": "2",
+   "cost": "1",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 チェンジ ［(1) このカードを控え室に置く］ あなたのドローフェイズの始めに、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「ハロウィンナイト エリー」を1枚選び、このカードがいた枠に置く。\n【起】［このカードを【レスト】する］ あなたは自分の山札の上から1枚を、ストック置場に置く。\n\"みんなの前でくらい…平気にならないと…\"",
+   "traits": [
+    "探偵",
+    "本"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mk_s11/mk_s11_026.png",
+   "variant": ""
+  },
+  {
+   "num": "MK/S11-026S",
+   "name": "本好きなエリー",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "2",
+   "cost": "1",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 チェンジ ［(1) このカードを控え室に置く］ あなたのドローフェイズの始めに、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「ハロウィンナイト エリー」を1枚選び、このカードがいた枠に置く。\n【起】［このカードを【レスト】する］ あなたは自分の山札の上から1枚を、ストック置場に置く。\n\"SECRET\"",
+   "traits": [
+    "探偵",
+    "本"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mk_s11/mk_s11_026s.png",
+   "variant": ""
+  },
+  {
+   "num": "MK/S11-027",
+   "name": "恥ずかしがり屋 エリー",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の《探偵》のキャラを1枚選び、そのターン中、パワーを＋1500。\n【自】 このカードがアタックした時、クライマックス置場に「トライアセンド」があるなら、あなたは相手の前列のキャラを1枚選び、そのターン中、パワーを－2000。\n\"見ないでぇぇぇぇぇ～っ！！！！！\"",
+   "traits": [
+    "探偵",
+    "本"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mk_s11/mk_s11_027.png",
+   "variant": ""
+  },
+  {
+   "num": "MK/S11-028",
+   "name": "早とちり コーデリア",
+   "type": "Character",
+   "rarity": "R",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1)］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは相手の山札を上から1枚見て、山札の上か下に置く。\n【自】 絆／「恥ずかしがり屋 エリー」 ［あなたの山札の上から1枚をクロック置場に置く］ （このカードがプレイされて舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「恥ずかしがり屋 エリー」を1枚選び、手札に戻す）\n\"そんな！ふたりきりじゃなくて！ みんなとも一緒じゃないと！\"",
+   "traits": [
+    "探偵",
+    "スポーツ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mk_s11/mk_s11_028.png",
+   "variant": ""
+  },
+  {
+   "num": "MK/S11-029",
+   "name": "エリー＆ネロ",
+   "type": "Character",
+   "rarity": "R",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 この能力は1ターンにつき2回まで発動する。他のあなたの《探偵》のキャラが、手札から舞台に置かれた時、そのターン中、このカードのパワーを＋1500。\n\"ネロ「ちょっと！エリーも手を貸して！ 絶対にできるって、僕たちなら」\"",
+   "traits": [
+    "探偵",
+    "本"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mk_s11/mk_s11_029.png",
+   "variant": ""
+  },
+  {
+   "num": "MK/S11-030",
+   "name": "平乃＆咲",
+   "type": "Character",
+   "rarity": "R",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 経験 あなたのレベル置場のカードのレベルの合計が2以上なら、このカードのパワーを＋1000。\n\"平乃「では、参ります」<br />咲「なう～」\"",
+   "traits": [
+    "警察",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mk_s11/mk_s11_030.png",
+   "variant": ""
+  },
+  {
+   "num": "MK/S11-031",
+   "name": "エルキュール・バートン",
+   "type": "Character",
+   "rarity": "R",
+   "color": "green",
+   "level": "2",
+   "cost": "2",
+   "power": "8000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたのストックが6枚以上なら、このカードのパワーを＋1500。\n【自】 このカードがアタックした時、クライマックス置場に「ヌイグルミとエルキュール」があるなら、あなたは自分の控え室の《探偵》のキャラを1枚まで選び、ストック置場に置き、そのターン中、このカードのパワーを＋3000。\n\"ありがとうございます。私、捜査に戻ります…\"",
+   "traits": [
+    "探偵",
+    "本"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mk_s11/mk_s11_031.png",
+   "variant": ""
+  },
+  {
+   "num": "MK/S11-032",
+   "name": "ハロウィンナイト エリー",
+   "type": "Character",
+   "rarity": "R",
+   "color": "green",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 経験 あなたのレベル置場のカードのレベルの合計が6以上なら、このカードのパワーを＋1500。\n【自】 このカードが手札から舞台に置かれた時か『チェンジ』で舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n\"え……？ど……どうして……\"",
+   "traits": [
+    "探偵",
+    "本"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mk_s11/mk_s11_032.png",
+   "variant": ""
+  },
+  {
+   "num": "MK/S11-032SP",
+   "name": "ハロウィンナイト エリー",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "green",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 経験 あなたのレベル置場のカードのレベルの合計が6以上なら、このカードのパワーを＋1500。\n【自】 このカードが手札から舞台に置かれた時か『チェンジ』で舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n\"SECRET\"",
+   "traits": [
+    "探偵",
+    "本"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mk_s11/mk_s11_032sp.png",
+   "variant": ""
+  },
+  {
+   "num": "MK/S11-033",
+   "name": "神津 玲",
+   "type": "Character",
+   "rarity": "U",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの《警察》のキャラすべてに、パワーを＋500。\n【自】［(2)］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分のクロック置場のキャラを1枚選び、手札に戻し、自分の山札の上から1枚を、クロック置場に置く。\n\"Ｇ４全員移動！\"",
+   "traits": [
+    "警察",
+    "メガネ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mk_s11/mk_s11_033.png",
+   "variant": ""
+  },
+  {
+   "num": "MK/S11-034",
+   "name": "そうじ好きなコーデリア",
+   "type": "Character",
+   "rarity": "U",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードがアタックした時、クライマックス置場に「メリーゴーランド」があるなら、あなたは相手の山札を上から1枚見て、山札の上か下に置く。\n\"教官もそうは思いませんか？\"",
+   "traits": [
+    "探偵",
+    "スポーツ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mk_s11/mk_s11_034.png",
+   "variant": ""
+  },
+  {
+   "num": "MK/S11-035",
+   "name": "遠山 咲",
+   "type": "Character",
+   "rarity": "U",
+   "color": "green",
+   "level": "1",
+   "cost": "1",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 あなたがこのカードの『助太刀』を使った時、あなたは自分の山札の上から1枚を公開する。そのカードが《警察》のキャラなら手札に加え、あなたは自分の手札を1枚選び、控え室に置く。（そうでないなら元に戻す）\n【起】【カウンター】 助太刀1500 レベル1 ［(1) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋1500）\n\"疲れたときは休憩も必要だよね～\"",
+   "traits": [
+    "警察",
+    "ヘッドフォン"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mk_s11/mk_s11_035.png",
+   "variant": ""
+  },
+  {
+   "num": "MK/S11-035S",
+   "name": "遠山 咲",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "1",
+   "cost": "1",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 あなたがこのカードの『助太刀』を使った時、あなたは自分の山札の上から1枚を公開する。そのカードが《警察》のキャラなら手札に加え、あなたは自分の手札を1枚選び、控え室に置く。（そうでないなら元に戻す）。\n【起】【カウンター】 助太刀1500 レベル1 ［(1) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋1500）\n\"SECRET\"",
+   "traits": [
+    "警察",
+    "ヘッドフォン"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mk_s11/mk_s11_035s.png",
+   "variant": ""
+  },
+  {
+   "num": "MK/S11-036",
+   "name": "ダメダメなコーデリア",
+   "type": "Character",
+   "rarity": "U",
+   "color": "green",
+   "level": "2",
+   "cost": "1",
+   "power": "6000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 経験 あなたのレベル置場のカードのレベルの合計が3以上なら、他のあなたのキャラすべてに、パワーを＋500。\n【自】 アンコール ［手札のキャラを1枚控え室に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"-\"",
+   "traits": [
+    "探偵",
+    "スポーツ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mk_s11/mk_s11_036.png",
+   "variant": ""
+  },
+  {
+   "num": "MK/S11-037",
+   "name": "長谷川 平乃",
+   "type": "Character",
+   "rarity": "U",
+   "color": "green",
+   "level": "2",
+   "cost": "2",
+   "power": "8500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 このカードの下のマーカー1枚につき、このカードのパワーを＋1000。\n【自】 このカードのバトル相手が【リバース】した時、あなたは自分の山札の上から1枚を、このカードの下にマーカーとして置いてよい。\n\"そう言っていただけると…\"",
+   "traits": [
+    "警察",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mk_s11/mk_s11_037.png",
+   "variant": ""
+  },
+  {
+   "num": "MK/S11-037S",
+   "name": "長谷川 平乃",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "2",
+   "cost": "2",
+   "power": "8500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 このカードの下のマーカー1枚につき、このカードのパワーを＋1000。\n【自】 このカードのバトル相手が【リバース】した時、あなたは自分の山札の上から1枚を、このカードの下にマーカーとして置いてよい。\n\"SECRET\"",
+   "traits": [
+    "警察",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mk_s11/mk_s11_037s.png",
+   "variant": ""
+  },
+  {
+   "num": "MK/S11-038",
+   "name": "浴衣のエリー",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋500。\n\"かわいい…\"",
+   "traits": [
+    "探偵",
+    "和服"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mk_s11/mk_s11_038.png",
+   "variant": ""
+  },
+  {
+   "num": "MK/S11-039",
+   "name": "マイペース 咲",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【起】［(2)］ あなたは自分のキャラを1枚選び、そのターン中、パワーを＋4000。\n\"あんた心配性だね～？ハゲるよ～？\"",
+   "traits": [
+    "警察",
+    "ヘッドフォン"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mk_s11/mk_s11_039.png",
+   "variant": ""
+  },
+  {
+   "num": "MK/S11-040",
+   "name": "接近戦担当 平乃",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのストックが3枚以下なら、このカードのパワーを＋1000。\n\"柔道、剣道、合気道などを嗜んでおります\"",
+   "traits": [
+    "警察",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mk_s11/mk_s11_040.png",
+   "variant": ""
+  },
+  {
+   "num": "MK/S11-041",
+   "name": "私服のエリー",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "",
+   "text": "-\n\"かまぼこ…！ダメよ！\"",
+   "traits": [
+    "探偵",
+    "本"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mk_s11/mk_s11_041.png",
+   "variant": ""
+  },
+  {
+   "num": "MK/S11-042",
+   "name": "制服のエリー",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "1",
+   "cost": "1",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 アンコール ［あなたの山札の上から1枚をクロック置場に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n【起】［(1)］ そのターン中、このカードのパワーを＋2000。\n\"小林さん、ありがとうございます。わ、私……\"",
+   "traits": [
+    "探偵",
+    "本"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mk_s11/mk_s11_042.png",
+   "variant": ""
+  },
+  {
+   "num": "MK/S11-043",
+   "name": "頑張り屋 コーデリア",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "1",
+   "cost": "1",
+   "power": "7000",
+   "soul": 1,
+   "trigger": "",
+   "text": "-\n\"ネロ！ちゃんと働きなさい！\"",
+   "traits": [
+    "探偵",
+    "スポーツ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mk_s11/mk_s11_043.png",
+   "variant": ""
+  },
+  {
+   "num": "MK/S11-044",
+   "name": "情報収集担当 咲",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "2",
+   "cost": "1",
+   "power": "8500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "-\n\"情報収集担当って感じ～？\"",
+   "traits": [
+    "警察",
+    "ヘッドフォン"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mk_s11/mk_s11_044.png",
+   "variant": ""
+  },
+  {
+   "num": "MK/S11-045",
+   "name": "理想の部屋",
+   "type": "Event",
+   "rarity": "U",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "あなたは自分の山札を見て《警察》のキャラを1枚まで選んで相手に見せ、手札に加える。その山札をシャッフルする。あなたは自分のキャラを1枚選び、そのターン中、パワーを＋2000。このカードをクロック置場に置く。\n\"やっぱり日本人は和でしょ！\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mk_s11/mk_s11_045.png",
+   "variant": ""
+  },
+  {
+   "num": "MK/S11-046",
+   "name": "とつぜんの目眩",
+   "type": "Event",
+   "rarity": "U",
+   "color": "green",
+   "level": "2",
+   "cost": "0",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "あなたは相手の山札を上から1枚見て、山札の上か下に置く。このカードをストック置場に置く。\n\"小林「大丈夫かい、エルキュール？」\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mk_s11/mk_s11_046.png",
+   "variant": ""
+  },
+  {
+   "num": "MK/S11-047",
+   "name": "こじ開けられたドア",
+   "type": "Event",
+   "rarity": "C",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "【カウンター】 あなたは自分のキャラを1枚選び、そのターン中、パワーを＋Ｘ。Ｘはあなたの《探偵》のキャラの枚数×500に等しい。\n\"もう…こっちをむいて…平気…\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mk_s11/mk_s11_047.png",
+   "variant": ""
+  },
+  {
+   "num": "MK/S11-048",
+   "name": "トライアセンド",
+   "type": "Climax",
+   "rarity": "CR",
+   "color": "green",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【自】 このカードが手札からクライマックス置場に置かれた時、あなたは1枚引き、自分のキャラを1枚選び、そのターン中、パワーを＋2000し、ソウルを＋1。\n\"みーなーいーで！\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mk_s11/mk_s11_048.png",
+   "variant": ""
+  },
+  {
+   "num": "MK/S11-049",
+   "name": "ヌイグルミとエルキュール",
+   "type": "Climax",
+   "rarity": "CC",
+   "color": "green",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[stock.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[stock.gif]]：このカードがトリガーした時、あなたは自分の山札の上から1枚を、ストック置場に置いてよい）\n\"小林「すごいよエルキュール！一回で取れるなんて！」\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mk_s11/mk_s11_049.png",
+   "variant": ""
+  },
+  {
+   "num": "MK/S11-050",
+   "name": "メリーゴーランド",
+   "type": "Climax",
+   "rarity": "CC",
+   "color": "green",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[treasure.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[treasure.gif]]：このカードがトリガーした時、あなたはこのカードを手札に戻す。あなたは自分の山札の上から1枚を、ストック置場に置いてよい）\n\"コーデリア「うふふふふ…！きょうか～ん…！」\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mk_s11/mk_s11_050.png",
+   "variant": ""
+  },
+  {
+   "num": "MK/S11-051",
+   "name": "シャーロック・シェリンフォード",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "red",
+   "level": "1",
+   "cost": "1",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 応援 このカードの前のあなたの《探偵》のキャラすべてに、パワーを＋Ｘ。Ｘはそのキャラのレベル×500に等しい。\n【自】 チェンジ ［(1) このカードを控え室に置く］ あなたのドローフェイズの始めに、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「ドジっ子探偵 シャロ」を1枚選び、このカードがいた枠に置く。\n\"あたしたちもこれまでの現場を回って情報を集めましょう！\"",
+   "traits": [
+    "探偵",
+    "カメラ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mk_s11/mk_s11_051.png",
+   "variant": ""
+  },
+  {
+   "num": "MK/S11-051S",
+   "name": "シャーロック・シェリンフォード",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "1",
+   "cost": "1",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 応援 このカードの前のあなたの《探偵》のキャラすべてに、パワーを＋Ｘ。Ｘはそのキャラのレベル×500に等しい。\n【自】 チェンジ ［(1) このカードを控え室に置く］ あなたのドローフェイズの始めに、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「ドジっ子探偵 シャロ」を1枚選び、このカードがいた枠に置く。\n\"SECRET\"",
+   "traits": [
+    "探偵",
+    "カメラ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mk_s11/mk_s11_051s.png",
+   "variant": ""
+  },
+  {
+   "num": "MK/S11-052",
+   "name": "ドジっ子探偵 シャロ",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "red",
+   "level": "2",
+   "cost": "2",
+   "power": "8500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードがアタックした時、クライマックス置場に「シャーロックの膝枕」があるなら、あなたは相手の控え室のカードを1枚まで選び、山札の上に置き、そのターン中、このカードのパワーを＋3000。\n\"あなたが犯人ですね！\"",
+   "traits": [
+    "探偵",
+    "カメラ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mk_s11/mk_s11_052.png",
+   "variant": ""
+  },
+  {
+   "num": "MK/S11-052SP",
+   "name": "ドジっ子探偵 シャロ",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "red",
+   "level": "2",
+   "cost": "2",
+   "power": "8500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードがアタックした時、クライマックス置場に「シャーロックの膝枕」があるなら、あなたは相手の控え室のカードを1枚まで選び、山札の上に置き、そのターン中、このカードのパワーを＋3000。\n\"SECRET\"",
+   "traits": [
+    "探偵",
+    "カメラ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mk_s11/mk_s11_052sp.png",
+   "variant": ""
+  },
+  {
+   "num": "MK/S11-053",
+   "name": "“IQ1300？”小衣",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの「神津 玲」がいるなら、このカードのパワーを＋1000。\n【自】 このカードが【リバース】した時、このカードのバトル相手のレベルが0以下なら、あなたはそのキャラを【リバース】してよい。\n\"もうあんたたちの出番は無いと思いなさい\"",
+   "traits": [
+    "警察"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mk_s11/mk_s11_053.png",
+   "variant": ""
+  },
+  {
+   "num": "MK/S11-054",
+   "name": "お菓子を差し出すネロ",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたのキャラすべてに、次の能力を与える。『【永】 このカードはサイドアタックできない。』\n\"はい、あ～ん。小林も食べなよ\"",
+   "traits": [
+    "探偵",
+    "お菓子"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mk_s11/mk_s11_054.png",
+   "variant": ""
+  },
+  {
+   "num": "MK/S11-055",
+   "name": "天然少女 シャロ",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの《探偵》のキャラ1枚につき、このカードのパワーを＋500。\n【自】 アンコール ［手札のキャラを1枚控え室に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"みてみてココロちゃん、虹ですよ～！\"",
+   "traits": [
+    "探偵",
+    "カメラ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mk_s11/mk_s11_055.png",
+   "variant": ""
+  },
+  {
+   "num": "MK/S11-056",
+   "name": "銭形 次子",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "1",
+   "cost": "1",
+   "power": "6500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1)］ このカードのバトル相手が【リバース】した時、あなたはコストを払ってよい。そうしたら、あなたは相手の控え室のカードを1枚選び、山札の上に置く。\n\"ふー。今日もいい天気だなー！\"",
+   "traits": [
+    "警察",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mk_s11/mk_s11_056.png",
+   "variant": ""
+  },
+  {
+   "num": "MK/S11-056S",
+   "name": "銭形 次子",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "1",
+   "cost": "1",
+   "power": "6500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1)］ このカードとバトル中のキャラが【リバース】した時、あなたはコストを払ってよい。そうしたら、あなたは相手の控え室のカードを1枚選び、山札の上に置く。\n\"SECRET\"",
+   "traits": [
+    "警察",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mk_s11/mk_s11_056s.png",
+   "variant": ""
+  },
+  {
+   "num": "MK/S11-057",
+   "name": "明智 小衣",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "2",
+   "cost": "2",
+   "power": "7500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 経験 相手の【スタンド】しているキャラが【レスト】した時、あなたのレベル置場のカードのレベルの合計が3以上なら、そのターン中、このカードのパワーを＋1500。\n【自】 アンコール ［手札のキャラを1枚控え室に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"はぁ…警視…\"",
+   "traits": [
+    "警察"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mk_s11/mk_s11_057.png",
+   "variant": ""
+  },
+  {
+   "num": "MK/S11-057S",
+   "name": "明智 小衣",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "2",
+   "cost": "2",
+   "power": "7500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 経験 相手の【スタンド】しているキャラが【レスト】した時、あなたのレベル置場のカードのレベルの合計が3以上なら、そのターン中、このカードのパワーを＋1500。\n【自】 アンコール ［手札のキャラを1枚控え室に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"SECRET\"",
+   "traits": [
+    "警察"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mk_s11/mk_s11_057s.png",
+   "variant": ""
+  },
+  {
+   "num": "MK/S11-058",
+   "name": "活発なネロ",
+   "type": "Character",
+   "rarity": "U",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(2)］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の《探偵》のキャラを1枚選び、手札に戻す。\n【自】 絆／「けなげでひたむき シャロ」 ［(1)］ （このカードがプレイされて舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「けなげでひたむき シャロ」を1枚選び、手札に戻す）\n\"おやつを食べてきたからバッチリだよ\"",
+   "traits": [
+    "探偵",
+    "お菓子"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mk_s11/mk_s11_058.png",
+   "variant": ""
+  },
+  {
+   "num": "MK/S11-059",
+   "name": "収録中のシャロ",
+   "type": "Character",
+   "rarity": "U",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［手札のクライマックスを1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の《探偵》のキャラを1枚選び、手札に戻す。\n\"あー、あー。もう少しマイクを低くできませんか？\"",
+   "traits": [
+    "探偵",
+    "ヘッドフォン"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mk_s11/mk_s11_059.png",
+   "variant": ""
+  },
+  {
+   "num": "MK/S11-060",
+   "name": "小林のライバル 神津",
+   "type": "Character",
+   "rarity": "U",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 他のあなたのバトル中のキャラが【リバース】した時、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋1000。\n【起】［(2) このカードを【レスト】する］ あなたは自分の控え室の《警察》のキャラを1枚選び、手札に戻す。\n\"「怪盗には探偵」という構図はもうなりたたないと思え\"",
+   "traits": [
+    "警察",
+    "メガネ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mk_s11/mk_s11_060.png",
+   "variant": ""
+  },
+  {
+   "num": "MK/S11-060S",
+   "name": "小林のライバル 神津",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 他のあなたのバトル中のキャラが【リバース】した時、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋1000。\n【起】［(2) このカードを【レスト】する］ あなたは自分の控え室の《警察》のキャラを1枚選び、手札に戻す。\n\"SECRET\"",
+   "traits": [
+    "警察",
+    "メガネ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mk_s11/mk_s11_060s.png",
+   "variant": ""
+  },
+  {
+   "num": "MK/S11-061",
+   "name": "お姉さん役 次子",
+   "type": "Character",
+   "rarity": "U",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "6500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの《警察》のキャラすべてに、パワーを＋1000。\n\"車はもちろん、ヘリから飛行機なんでもござれ\"",
+   "traits": [
+    "警察",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mk_s11/mk_s11_061.png",
+   "variant": ""
+  },
+  {
+   "num": "MK/S11-062",
+   "name": "けなげでひたむき シャロ",
+   "type": "Character",
+   "rarity": "U",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n【自】［(1)］ このカードがアタックした時、クライマックス置場に「サイコキネシス」があるなら、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室のキャラを1枚選び、手札に戻し、あなたの《探偵》のキャラすべてに、そのターン中、パワーを＋2000。\n\"待ってください！\"",
+   "traits": [
+    "探偵",
+    "カメラ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mk_s11/mk_s11_062.png",
+   "variant": ""
+  },
+  {
+   "num": "MK/S11-063",
+   "name": "フォーチュンクッキー 次子",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの《警察》のキャラが2枚以上なら、このカードのパワーを＋1000。\n\"あらよっと…！\"",
+   "traits": [
+    "警察",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mk_s11/mk_s11_063.png",
+   "variant": ""
+  },
+  {
+   "num": "MK/S11-064",
+   "name": "合同捜査 小衣＆シャロ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［あなたの【スタンド】しているキャラを1枚【レスト】する］ このカードが手札から舞台に置かれた時、相手の「合同捜査 小衣＆シャロ」がいるなら、あなたはコストを払ってよい。そうしたら、あなたは相手と勝負が付くまでじゃんけんし、勝ったプレイヤーは1枚引く。\n\"シャロ「ココロちゃん！一緒に手がかりを見つけようね！」<br />小衣「ココロちゃんって言うな～！」\"",
+   "traits": [
+    "探偵",
+    "警察"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mk_s11/mk_s11_064.png",
+   "variant": ""
+  },
+  {
+   "num": "MK/S11-065",
+   "name": "桜並木のシャロ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から1枚を公開する。そのカードが《探偵》のキャラでないならクロック置場に置く。（そうでないなら元に戻す）\n\"今日も一日がんばります！\"",
+   "traits": [
+    "探偵",
+    "カメラ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mk_s11/mk_s11_065.png",
+   "variant": ""
+  },
+  {
+   "num": "MK/S11-066",
+   "name": "困った子 ネロ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1)］ このカードがアタックした時、クライマックス置場に「ダイレクトハック」があるなら、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室のキャラを1枚選び、手札に戻す。\n\"ぼ、僕のお菓子が～！\"",
+   "traits": [
+    "探偵",
+    "お菓子"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mk_s11/mk_s11_066.png",
+   "variant": ""
+  },
+  {
+   "num": "MK/S11-067",
+   "name": "Ｇ４のリーダー 小衣",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "5500",
+   "soul": 1,
+   "trigger": "",
+   "text": "-\n\"ほら、雨あがったわよ！\"",
+   "traits": [
+    "警察",
+    "傘"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mk_s11/mk_s11_067.png",
+   "variant": ""
+  },
+  {
+   "num": "MK/S11-068",
+   "name": "トイズ発動！ シャロ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【起】【カウンター】 助太刀3000 レベル2 ［(1) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋3000）\n\"ん～！\"",
+   "traits": [
+    "探偵",
+    "カメラ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mk_s11/mk_s11_068.png",
+   "variant": ""
+  },
+  {
+   "num": "MK/S11-069",
+   "name": "とても食いしん坊 ネロ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "2",
+   "cost": "2",
+   "power": "9000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "-\n\"むぐ…\"",
+   "traits": [
+    "探偵",
+    "お菓子"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mk_s11/mk_s11_069.png",
+   "variant": ""
+  },
+  {
+   "num": "MK/S11-070",
+   "name": "吸いましょう！",
+   "type": "Event",
+   "rarity": "U",
+   "color": "red",
+   "level": "1",
+   "cost": "2",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "あなたは自分の【スタンド】しているカード名に「シャロ」を含むキャラを1枚選び【レスト】する。そうしたら、あなたは相手の控え室のカードを1枚選び、思い出にし、このカードを思い出にする。\n\"すぅ～！すぅ～！\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mk_s11/mk_s11_070.png",
+   "variant": ""
+  },
+  {
+   "num": "MK/S11-071",
+   "name": "会心のチョップ",
+   "type": "Event",
+   "rarity": "U",
+   "color": "red",
+   "level": "2",
+   "cost": "0",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "あなたは自分のキャラを1枚選び、そのターン中、パワーを＋3000。\nあなたは自分のキャラを1枚選び、そのターン中、次の能力を与える。『【自】 このカードが【リバース】した時、このカードとバトル中のキャラのレベルがこのカードのレベル以下なら、あなたはそのキャラを【リバース】してよい。』\n\"てやぁぁぁぁぁーっ！！！\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mk_s11/mk_s11_071.png",
+   "variant": ""
+  },
+  {
+   "num": "MK/S11-072",
+   "name": "PDA",
+   "type": "Event",
+   "rarity": "C",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "あなたは自分の【スタンド】しているキャラを2枚選び【レスト】する。2枚【レスト】したなら、あなたは自分の控え室の《探偵》のキャラを1枚選び、手札に戻す。\n\"まじめに調べなきゃダメですよね…まじめに…まじめに…\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mk_s11/mk_s11_072.png",
+   "variant": ""
+  },
+  {
+   "num": "MK/S11-073",
+   "name": "サイコキネシス",
+   "type": "Climax",
+   "rarity": "CR",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[salvage.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[salvage.gif]]：このカードがトリガーした時、あなたは自分の控え室のキャラを1枚選び、手札に戻してよい）\n\"念じただけで物を動かせる…といっても軽いものだけ…\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mk_s11/mk_s11_073.png",
+   "variant": ""
+  },
+  {
+   "num": "MK/S11-074",
+   "name": "シャーロックの膝枕",
+   "type": "Climax",
+   "rarity": "CC",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【自】 このカードが手札からクライマックス置場に置かれた時、あなたは1枚引き、自分のキャラを1枚選び、そのターン中、パワーを＋2000し、ソウルを＋1。\n\"シャロ「初めて会ったときのこと覚えてますか？ すごくうれしかったんですよ…」\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mk_s11/mk_s11_074.png",
+   "variant": ""
+  },
+  {
+   "num": "MK/S11-075",
+   "name": "ダイレクトハック",
+   "type": "Climax",
+   "rarity": "CC",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【自】 このカードが手札からクライマックス置場に置かれた時、あなたは自分の山札の上から1枚を、ストック置場に置き、自分のキャラすべてに、そのターン中、ソウルを＋1。\n\"僕のトイズはダイレクトハック。 電子機器にふれることでハッキングできる\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mk_s11/mk_s11_075.png",
+   "variant": ""
+  },
+  {
+   "num": "MK/S11-076",
+   "name": "制服のコーデリア",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、『【自】 アンコール ［手札のキャラを1枚控え室に置く］』を与える。\n【自】 あなたのクライマックス置場に「コーデリアの告白」が置かれた時、あなたは自分の《探偵》のキャラを1枚選び、そのターン中、パワーを＋2000。\n\"ダメダメなネロに言われたくないわよ！\"",
+   "traits": [
+    "探偵",
+    "スポーツ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mk_s11/mk_s11_076.png",
+   "variant": ""
+  },
+  {
+   "num": "MK/S11-076SP",
+   "name": "制服のコーデリア",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、『【自】 アンコール ［手札のキャラを1枚控え室に置く］』を与える。\n【自】 あなたのクライマックス置場に「コーデリアの告白」が置かれた時、あなたは自分の《探偵》のキャラを1枚選び、そのターン中、パワーを＋2000。\n\"SECRET\"",
+   "traits": [
+    "探偵",
+    "スポーツ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mk_s11/mk_s11_076sp.png",
+   "variant": ""
+  },
+  {
+   "num": "MK/S11-077",
+   "name": "チームのまとめ役 コーデリア",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 相手のターン中、他のあなたのキャラすべてに、パワーを＋1000。\n【自】 チェンジ ［(1) このカードを控え室に置く］ あなたのドローフェイズの始めに、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「頼れるお姉さん コーデリア」を1枚選び、このカードがいた枠に置く。\n\"あなたたち、もう少し行儀よく食べなさいよ…\"",
+   "traits": [
+    "探偵",
+    "スポーツ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mk_s11/mk_s11_077.png",
+   "variant": ""
+  },
+  {
+   "num": "MK/S11-078",
+   "name": "ハロウィンナイト アンリエット",
+   "type": "Character",
+   "rarity": "R",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋500。\n【自】 チェンジ ［このカードを控え室に置く］ あなたのドローフェイズの始めに、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「怪盗 アルセーヌ」を1枚選び、このカードがいた枠に置く。\n\"顔を隠していたらカレーが食べられないでしょ\"",
+   "traits": [
+    "探偵",
+    "仮面"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mk_s11/mk_s11_078.png",
+   "variant": ""
+  },
+  {
+   "num": "MK/S11-078S",
+   "name": "ハロウィンナイト アンリエット",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋500。\n【自】 チェンジ ［このカードを控え室に置く］ あなたのドローフェイズの始めに、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「怪盗 アルセーヌ」を1枚選び、このカードがいた枠に置く。\n\"SECRET\"",
+   "traits": [
+    "探偵",
+    "仮面"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mk_s11/mk_s11_078s.png",
+   "variant": ""
+  },
+  {
+   "num": "MK/S11-079",
+   "name": "慌てるコーデリア",
+   "type": "Character",
+   "rarity": "R",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの《探偵》のキャラすべてに、パワーを＋500。\n【自】［(1)］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分のレベル置場のカードと控え室のカードを1枚ずつ選び、入れ替える。\n\"と、とんでもないです！ごめんなさい！私ったら！\"",
+   "traits": [
+    "探偵",
+    "スポーツ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mk_s11/mk_s11_079.png",
+   "variant": ""
+  },
+  {
+   "num": "MK/S11-080",
+   "name": "怖がりなエリー",
+   "type": "Character",
+   "rarity": "R",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、そのターン中、このカードのパワーを＋Ｘ。Ｘはあなたの《探偵》のキャラの枚数×500に等しい。\n【自】［(1)］ このカードがアタックした時、クライマックス置場に「黒猫のしおり」があるなら、あなたはコストを払ってよい。そうしたら、あなたは1枚引く。\n\"あ…ありがとうございます…。 調査を続けますね…\"",
+   "traits": [
+    "探偵",
+    "本"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mk_s11/mk_s11_080.png",
+   "variant": ""
+  },
+  {
+   "num": "MK/S11-081",
+   "name": "紅茶好き コーデリア",
+   "type": "Character",
+   "rarity": "R",
+   "color": "blue",
+   "level": "1",
+   "cost": "1",
+   "power": "5500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 経験 相手のターン中、あなたのレベル置場のカードのレベルの合計が1以上なら、他のあなたのキャラすべてに、パワーを＋500。\n【自】 アンコール ［手札のキャラを1枚控え室に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"あっ！\"",
+   "traits": [
+    "探偵",
+    "スポーツ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mk_s11/mk_s11_081.png",
+   "variant": ""
+  },
+  {
+   "num": "MK/S11-082",
+   "name": "深い溜息 コーデリア",
+   "type": "Character",
+   "rarity": "R",
+   "color": "blue",
+   "level": "2",
+   "cost": "2",
+   "power": "8000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 相手のターン中、他のあなたの《探偵》のキャラ1枚につき、このカードのパワーを＋500。\n【自】 このカードがアタックした時、クライマックス置場に「ハイパーセンシティブ」があるなら、あなたは自分の山札を見て《探偵》のキャラを1枚まで選んで相手に見せ、手札に加える。その山札をシャッフルする。\n\"はぁ…\"",
+   "traits": [
+    "探偵",
+    "スポーツ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mk_s11/mk_s11_082.png",
+   "variant": ""
+  },
+  {
+   "num": "MK/S11-083",
+   "name": "会長への憧れ エリー",
+   "type": "Character",
+   "rarity": "U",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 絆／「紅茶好き コーデリア」 ［あなたの山札の上から1枚をクロック置場に置く］ （このカードがプレイされて舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「紅茶好き コーデリア」を1枚選び、手札に戻す）\n\"小林さん…会長って…その…すてきですよね…？\"",
+   "traits": [
+    "探偵",
+    "本"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mk_s11/mk_s11_083.png",
+   "variant": ""
+  },
+  {
+   "num": "MK/S11-084",
+   "name": "怪盗帝国の首領 アルセーヌ",
+   "type": "Character",
+   "rarity": "U",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの、「“スリーカード”トゥエンティ」と「“スリーカード”ストーンリバー」と「“スリーカード”ラット」すべてに、パワーを＋1000。\n\"我が親愛なる怪盗帝国の騎士達…スリーカードよ\"",
+   "traits": [
+    "怪盗",
+    "仮面"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mk_s11/mk_s11_084.png",
+   "variant": ""
+  },
+  {
+   "num": "MK/S11-085",
+   "name": "完璧な執事 舘",
+   "type": "Character",
+   "rarity": "U",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "7000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】［(2)］ このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見て《怪盗》のキャラを1枚まで選んで相手に見せ、手札に加える。その山札をシャッフルする。\n\"お嬢様がお呼びでございます\"",
+   "traits": [
+    "執事"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mk_s11/mk_s11_085.png",
+   "variant": ""
+  },
+  {
+   "num": "MK/S11-086",
+   "name": "生徒会長 アンリエット",
+   "type": "Character",
+   "rarity": "U",
+   "color": "blue",
+   "level": "2",
+   "cost": "2",
+   "power": "8500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 経験 あなたのレベル置場のカードのレベルの合計が3以上なら、このカードは『【自】 アンコール ［手札のキャラを1枚控え室に置く］』を得る。\n\"これくらいのフォローはお任せ下さい\"",
+   "traits": [
+    "探偵",
+    "生徒会"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mk_s11/mk_s11_086.png",
+   "variant": ""
+  },
+  {
+   "num": "MK/S11-087",
+   "name": "頼れるお姉さん コーデリア",
+   "type": "Character",
+   "rarity": "U",
+   "color": "blue",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時か『チェンジ』で舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n【起】［(4) あなたのキャラを2枚【レスト】する］ あなたは自分の山札を見て《探偵》のキャラを2枚まで選んで相手に見せ、手札に加える。その山札をシャッフルする。\n\"それじゃみんな、ついてきて\"",
+   "traits": [
+    "探偵",
+    "スポーツ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mk_s11/mk_s11_087.png",
+   "variant": ""
+  },
+  {
+   "num": "MK/S11-087S",
+   "name": "頼れるお姉さん コーデリア",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時か『チェンジ』で舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n【起】［(4) あなたのキャラを2枚【レスト】する］ あなたは自分の山札を見て《探偵》のキャラを2枚まで選んで相手に見せ、手札に加える。その山札をシャッフルする。\n\"SECRET\"",
+   "traits": [
+    "探偵",
+    "スポーツ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mk_s11/mk_s11_087s.png",
+   "variant": ""
+  },
+  {
+   "num": "MK/S11-088",
+   "name": "アルセーヌの執事 ユタカ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の《怪盗》のキャラを1枚選び、そのターン中、パワーを＋1500。\n\"どなたにお任せになられても<br />きっとご期待にそえると思いますっ\"",
+   "traits": [
+    "怪盗",
+    "執事"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mk_s11/mk_s11_088.png",
+   "variant": ""
+  },
+  {
+   "num": "MK/S11-089",
+   "name": "コーデリア＆エリー",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 相手のターン中、このカードのパワーを＋1000。\n\"コーデリア「ほら、エリー。ちゃんと前を向いて」\"",
+   "traits": [
+    "探偵",
+    "スポーツ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mk_s11/mk_s11_089.png",
+   "variant": ""
+  },
+  {
+   "num": "MK/S11-090",
+   "name": "コーデリア・グラウカ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "",
+   "text": "-\n\"こんな所にいたのね。ほら、早く行きましょう！\"",
+   "traits": [
+    "探偵",
+    "スポーツ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mk_s11/mk_s11_090.png",
+   "variant": ""
+  },
+  {
+   "num": "MK/S11-091",
+   "name": "引っこみ思案 エリー",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【起】【カウンター】 助太刀1500 レベル1 ［手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋1500）\n\"たくさんの人に…見られてると…は…恥ずかしいから…\"",
+   "traits": [
+    "探偵",
+    "本"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mk_s11/mk_s11_091.png",
+   "variant": ""
+  },
+  {
+   "num": "MK/S11-092",
+   "name": "怪盗 アルセーヌ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "5500",
+   "soul": 1,
+   "trigger": "",
+   "text": "-\n\"次はわたくしが…このアルセーヌが参りましょう！\"",
+   "traits": [
+    "怪盗",
+    "仮面"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mk_s11/mk_s11_092.png",
+   "variant": ""
+  },
+  {
+   "num": "MK/S11-093",
+   "name": "元名探偵 小林",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "1",
+   "cost": "1",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 応援 このカードの前のあなたのレベル2以上のキャラすべてに、パワーを＋1000。\n【起】［このカードを【レスト】する］ あなたは自分の《探偵》のキャラを1枚選び、そのターン中、レベルを＋1。\n\"そのトイズはキミだけがおこせる奇跡なんだよ\"",
+   "traits": [
+    "探偵"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mk_s11/mk_s11_093.png",
+   "variant": ""
+  },
+  {
+   "num": "MK/S11-093S",
+   "name": "元名探偵 小林",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "1",
+   "cost": "1",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 応援 このカードの前のあなたのレベル2以上のキャラすべてに、パワーを＋1000。\n【起】［このカードを【レスト】する］ あなたは自分の《探偵》のキャラを1枚選び、そのターン中、レベルを＋1。\n\"SECRET\"",
+   "traits": [
+    "探偵"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mk_s11/mk_s11_093s.png",
+   "variant": ""
+  },
+  {
+   "num": "MK/S11-094",
+   "name": "内気な少女 エリー",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "2",
+   "cost": "2",
+   "power": "9000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "-\n\"え！？ええ！？\"",
+   "traits": [
+    "探偵",
+    "本"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mk_s11/mk_s11_094.png",
+   "variant": ""
+  },
+  {
+   "num": "MK/S11-095",
+   "name": "恩を仇で返す",
+   "type": "Event",
+   "rarity": "U",
+   "color": "blue",
+   "level": "2",
+   "cost": "2",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "あなたは自分の【スタンド】している《スポーツ》のキャラを1枚選び【レスト】する。そうしたら、あなたは相手の前列のレベル3以下のキャラを1枚選び、山札の下に置く。\n\"痴漢！！！変態！！！犯・罪・者ぁぁぁ～！！！\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mk_s11/mk_s11_095.png",
+   "variant": ""
+  },
+  {
+   "num": "MK/S11-096",
+   "name": "コーデリアのお花畑",
+   "type": "Event",
+   "rarity": "U",
+   "color": "blue",
+   "level": "3",
+   "cost": "2",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "あなたは自分のクロックの上から2枚までを、控え室に置く。\nあなたは自分のキャラを1枚選び、そのターン中、パワーを＋3000。このカードを思い出にする。\n\"コーデリア「私の、お花畑…&#9825;」\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mk_s11/mk_s11_096.png",
+   "variant": ""
+  },
+  {
+   "num": "MK/S11-097",
+   "name": "ネコミミ虫メガネ",
+   "type": "Event",
+   "rarity": "C",
+   "color": "blue",
+   "level": "2",
+   "cost": "2",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "あなたは自分の山札を見て《探偵》のキャラを2枚まで選んで相手に見せ、手札に加える。その山札をシャッフルする。\n\"怪盗はどこからくるんでしょう…？\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mk_s11/mk_s11_097.png",
+   "variant": ""
+  },
+  {
+   "num": "MK/S11-098",
+   "name": "ハイパーセンシティブ",
+   "type": "Climax",
+   "rarity": "CR",
+   "color": "blue",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【自】 このカードが手札からクライマックス置場に置かれた時、あなたは1枚引き、自分のキャラを1枚選び、そのターン中、パワーを＋2000し、ソウルを＋1。\n\"私についてきてください！\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mk_s11/mk_s11_098.png",
+   "variant": ""
+  },
+  {
+   "num": "MK/S11-099",
+   "name": "コーデリアの告白",
+   "type": "Climax",
+   "rarity": "CC",
+   "color": "blue",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【自】 このカードが手札からクライマックス置場に置かれた時、あなたは自分の山札の上から1枚を、ストック置場に置き、自分のキャラすべてに、そのターン中、ソウルを＋1。\n\"私…！教官の…！いえ！ あ、あなたの…あなたの…ことが…\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mk_s11/mk_s11_099.png",
+   "variant": ""
+  },
+  {
+   "num": "MK/S11-100",
+   "name": "黒猫のしおり",
+   "type": "Climax",
+   "rarity": "CC",
+   "color": "blue",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[draw.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[draw.gif]]：このカードがトリガーした時、あなたは1枚引いてよい）\n\"かわいいですよね…\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mk_s11/mk_s11_100.png",
+   "variant": ""
+  }
+ ]
+}

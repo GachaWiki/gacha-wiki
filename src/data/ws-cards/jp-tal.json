@@ -1,0 +1,766 @@
+{
+ "id": "jp-tal",
+ "name": "[TD]『テイルズ オブ』シリーズ",
+ "expansion": 537,
+ "lang": "jp",
+ "release": null,
+ "shopItem": null,
+ "box": null,
+ "cards": [
+  {
+   "num": "TAL/S126-T01",
+   "name": "目覚めた血統 カイウス・クオールズ",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、次の相手のターンの終わりまで、このカードのパワーを＋Ｘ。Ｘはあなたの《冒険》のキャラの枚数×1000に等しい。\n【自】 このカードのバトル相手が【リバース】した時、あなたは自分の山札の上から1枚を公開する。そのカードが《冒険》のキャラなら手札に加え、あなたは自分の手札を1枚選び、控え室に置く。（そうでないなら元に戻す）\n\"オレは外の世界を見たいんだ！\"",
+   "traits": [
+    "冒険",
+    "ザ テンペスト"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/tal_s126/tal_s126_t01.png",
+   "variant": ""
+  },
+  {
+   "num": "TAL/S126-T01R",
+   "name": "目覚めた血統 カイウス・クオールズ",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、次の相手のターンの終わりまで、このカードのパワーを＋Ｘ。Ｘはあなたの《冒険》のキャラの枚数×1000に等しい。\n【自】 このカードのバトル相手が【リバース】した時、あなたは自分の山札の上から1枚を公開する。そのカードが《冒険》のキャラなら手札に加え、あなたは自分の手札を1枚選び、控え室に置く。（そうでないなら元に戻す）\n\"-\"",
+   "traits": [
+    "冒険",
+    "ザ テンペスト"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/tal_s126/tal_s126_t01r.png",
+   "variant": ""
+  },
+  {
+   "num": "TAL/S126-T02",
+   "name": "法術師 ミント・アドネード",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの「アルベイン流剣術 クレス・アルベイン」すべてに、次の2つの能力を与える。『【自】 このカードがアタックした時、そのターン中、このカードのパワーを＋Ｘ。Ｘは他のあなたの《冒険》のキャラの枚数×1500に等しい。』『【自】［(1)］ アンコールステップの始めに、他のあなたの前列の【レスト】しているキャラがいないなら、あなたはコストを払ってよい。そうしたら、このカードを【レスト】する。』\n【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋500。\n\"あの・・・助けていただいてありがとうございます\"",
+   "traits": [
+    "冒険",
+    "ファンタジア"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/tal_s126/tal_s126_t02.png",
+   "variant": ""
+  },
+  {
+   "num": "TAL/S126-T02R",
+   "name": "法術師 ミント・アドネード",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの「アルベイン流剣術 クレス・アルベイン」すべてに、次の2つの能力を与える。『【自】 このカードがアタックした時、そのターン中、このカードのパワーを＋Ｘ。Ｘは他のあなたの《冒険》のキャラの枚数×1500に等しい。』『【自】［(1)］ アンコールステップの始めに、他のあなたの前列の【レスト】しているキャラがいないなら、あなたはコストを払ってよい。そうしたら、このカードを【レスト】する。』\n【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋500。\n\"本当に・・・ありがとう・・・\"",
+   "traits": [
+    "冒険",
+    "ファンタジア"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/tal_s126/tal_s126_t02r.png",
+   "variant": ""
+  },
+  {
+   "num": "TAL/S126-T03",
+   "name": "内気な少年 エミル・キャスタニエ",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 あなたのCXがCX置場に置かれた時、あなたは自分の《冒険》のキャラを1枚選び、そのターン中、パワーを＋1500。\n【起】 集中 ［(1) このカードを【レスト】する］ あなたは自分の山札の上から5枚をめくり、控え室に置く。それらのカードのCX1枚につき、あなたは1枚まで引く。\n\"し、仕方ないな……。やってみるけど、失敗しても怒らないでよ\"",
+   "traits": [
+    "冒険",
+    "ラタトスクの騎士"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/tal_s126/tal_s126_t03.png",
+   "variant": ""
+  },
+  {
+   "num": "TAL/S126-T03R",
+   "name": "内気な少年 エミル・キャスタニエ",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 あなたのCXがCX置場に置かれた時、あなたは自分の《冒険》のキャラを1枚選び、そのターン中、パワーを＋1500。\n【起】 集中 ［(1) このカードを【レスト】する］ あなたは自分の山札の上から5枚をめくり、控え室に置く。それらのカードのCX1枚につき、あなたは1枚まで引く。\n\"-\"",
+   "traits": [
+    "冒険",
+    "ラタトスクの騎士"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/tal_s126/tal_s126_t03r.png",
+   "variant": ""
+  },
+  {
+   "num": "TAL/S126-T04",
+   "name": "謎の少女 マルタ・ルアルディ",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［手札の《冒険》のキャラを1枚控え室に置く］ このカードが手札から舞台に置かれた時か舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは1枚引く。\n【自】［手札のCXを1枚控え室に置き、他のあなたの舞台のキャラを1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室のCXを1枚選び、手札に戻す。\n\"男なら、しっかりする！\"",
+   "traits": [
+    "冒険",
+    "ラタトスクの騎士"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/tal_s126/tal_s126_t04.png",
+   "variant": ""
+  },
+  {
+   "num": "TAL/S126-T04R",
+   "name": "謎の少女 マルタ・ルアルディ",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［手札の《冒険》のキャラを1枚控え室に置く］ このカードが手札から舞台に置かれた時か舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは1枚引く。\n【自】［手札のCXを1枚控え室に置き、他のあなたの舞台のキャラを1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室のCXを1枚選び、手札に戻す。\n\"エミル……。私のためにありがとう！<br>エミルはやっぱり私の王子さまだね！\"",
+   "traits": [
+    "冒険",
+    "ラタトスクの騎士"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/tal_s126/tal_s126_t04r.png",
+   "variant": ""
+  },
+  {
+   "num": "TAL/S126-T04SP",
+   "name": "謎の少女 マルタ・ルアルディ",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［手札の《冒険》のキャラを1枚控え室に置く］ このカードが手札から舞台に置かれた時か舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは1枚引く。\n【自】［手札のCXを1枚控え室に置き、他のあなたの舞台のキャラを1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室のCXを1枚選び、手札に戻す。\n\"-\"",
+   "traits": [
+    "冒険",
+    "ラタトスクの騎士"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/tal_s126/tal_s126_t04sp.png",
+   "variant": ""
+  },
+  {
+   "num": "TAL/S126-T05",
+   "name": "アルベイン流剣術 クレス・アルベイン",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "5500",
+   "soul": 1,
+   "trigger": "",
+   "text": "-\n\"僕は、もう迷わない！\"",
+   "traits": [
+    "冒険",
+    "ファンタジア"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/tal_s126/tal_s126_t05.png",
+   "variant": ""
+  },
+  {
+   "num": "TAL/S126-T05S",
+   "name": "アルベイン流剣術 クレス・アルベイン",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "5500",
+   "soul": 1,
+   "trigger": "",
+   "text": "-\n\"-\"",
+   "traits": [
+    "冒険",
+    "ファンタジア"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/tal_s126/tal_s126_t05s.png",
+   "variant": ""
+  },
+  {
+   "num": "TAL/S126-T06",
+   "name": "音律士 ティア・グランツ",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 あなたがこのカードの『助太刀』を使った時、あなたは自分のバトル中のキャラを1枚選び、そのターン中、次の能力を与える。『【自】 このカードのバトル相手が【リバース】した時、あなたはそのキャラを思い出にする。』\n【起】【カウンター】 助太刀3000 レベル2 ［(1) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋3000）\n\"どうやら私とあなたの間で超振動が起きたようね\"",
+   "traits": [
+    "冒険",
+    "ジ アビス"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/tal_s126/tal_s126_t06.png",
+   "variant": ""
+  },
+  {
+   "num": "TAL/S126-T06R",
+   "name": "音律士 ティア・グランツ",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 あなたがこのカードの『助太刀』を使った時、あなたは自分のバトル中のキャラを1枚選び、そのターン中、次の能力を与える。『【自】 このカードのバトル相手が【リバース】した時、あなたはそのキャラを思い出にする。』\n【起】【カウンター】 助太刀3000 レベル2 ［(1) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋3000）\n\"見ているわ、あなたのこと\"",
+   "traits": [
+    "冒険",
+    "ジ アビス"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/tal_s126/tal_s126_t06r.png",
+   "variant": ""
+  },
+  {
+   "num": "TAL/S126-T07",
+   "name": "秘めた意志 コレット・ブルーネル",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋Ｘ。Ｘはそのキャラのレベル×500に等しい。\n【自】 あなたのCXがトリガーした時、あなたは自分の山札を上から2枚まで見て、山札の上に好きな順番で置き、自分の《冒険》のキャラを1枚選び、そのターン中、パワーを＋1500。\n\"・・・うん。私、戦うよ。みんなのために\"",
+   "traits": [
+    "冒険",
+    "シンフォニア"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/tal_s126/tal_s126_t07.png",
+   "variant": ""
+  },
+  {
+   "num": "TAL/S126-T07R",
+   "name": "秘めた意志 コレット・ブルーネル",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋Ｘ。Ｘはそのキャラのレベル×500に等しい。\n【自】 あなたのCXがトリガーした時、あなたは自分の山札を上から2枚まで見て、山札の上に好きな順番で置き、自分の《冒険》のキャラを1枚選び、そのターン中、パワーを＋1500。\n\"世界を再生することと目の前の困っている人を助けることはそんなに相反することなの？<br>私はそうは思わない\"",
+   "traits": [
+    "冒険",
+    "シンフォニア"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/tal_s126/tal_s126_t07r.png",
+   "variant": ""
+  },
+  {
+   "num": "TAL/S126-T08",
+   "name": "真っ直ぐで一途 ロイド・アーヴィング",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "6000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたのターン中、他のあなたの《冒険》のキャラがいるなら、このカードのパワーを＋6000。\n【自】 このカードが手札から舞台に置かれた時、他のあなたの《冒険》のキャラが4枚以上なら、あなたは自分の控え室の《冒険》のキャラを1枚選び、ストック置場に置いてよい。\n\"目の前の人間も救えなくて世界再生なんてやれるかよ\"",
+   "traits": [
+    "冒険",
+    "シンフォニア"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/tal_s126/tal_s126_t08.png",
+   "variant": ""
+  },
+  {
+   "num": "TAL/S126-T08R",
+   "name": "真っ直ぐで一途 ロイド・アーヴィング",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "6000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたのターン中、他のあなたの《冒険》のキャラがいるなら、このカードのパワーを＋6000。\n【自】 このカードが手札から舞台に置かれた時、他のあなたの《冒険》のキャラが4枚以上なら、あなたは自分の控え室の《冒険》のキャラを1枚選び、ストック置場に置いてよい。\n\"-\"",
+   "traits": [
+    "冒険",
+    "シンフォニア"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/tal_s126/tal_s126_t08r.png",
+   "variant": ""
+  },
+  {
+   "num": "TAL/S126-T09",
+   "name": "公爵子息 ルーク・フォン・ファブレ",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "9500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、そのターン中、このカードのパワーを＋Ｘ。Ｘはあなたの《冒険》のキャラの枚数×1000に等しい。\n【自】【ターン1】［(3) 手札を1枚控え室に置く］ このカードが手札から舞台に置かれたターン中、このカードのアタックの終わりに、他のあなたの《冒険》のキャラが4枚以上なら、あなたはコストを払ってよい。そうしたら、このカードを【スタンド】する。\n\"俺をケチな盗賊野郎と一緒にするんじゃねぇ\"",
+   "traits": [
+    "冒険",
+    "ジ アビス"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/tal_s126/tal_s126_t09.png",
+   "variant": ""
+  },
+  {
+   "num": "TAL/S126-T09R",
+   "name": "公爵子息 ルーク・フォン・ファブレ",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "9500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、そのターン中、このカードのパワーを＋Ｘ。Ｘはあなたの《冒険》のキャラの枚数×1000に等しい。\n【自】【ターン1】［(3) 手札を1枚控え室に置く］ このカードが手札から舞台に置かれたターン中、このカードのアタックの終わりに、他のあなたの《冒険》のキャラが4枚以上なら、あなたはコストを払ってよい。そうしたら、このカードを【スタンド】する。\n\"-\"",
+   "traits": [
+    "冒険",
+    "ジ アビス"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/tal_s126/tal_s126_t09r.png",
+   "variant": ""
+  },
+  {
+   "num": "TAL/S126-T09SP",
+   "name": "公爵子息 ルーク・フォン・ファブレ",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "9500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、そのターン中、このカードのパワーを＋Ｘ。Ｘはあなたの《冒険》のキャラの枚数×1000に等しい。\n【自】【ターン1】［(3) 手札を1枚控え室に置く］ このカードが手札から舞台に置かれたターン中、このカードのアタックの終わりに、他のあなたの《冒険》のキャラが4枚以上なら、あなたはコストを払ってよい。そうしたら、このカードを【スタンド】する。\n\"-\"",
+   "traits": [
+    "冒険",
+    "ジ アビス"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/tal_s126/tal_s126_t09sp.png",
+   "variant": ""
+  },
+  {
+   "num": "TAL/S126-T10",
+   "name": "猟師の青年 リッド・ハーシェル",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の手札の自分のレベル以下のレベルのキャラを1枚まで選び、舞台の好きな枠に置き、そのターン中、このカードのパワーを＋3500。\n【自】【CXコンボ】 このカードがアタックした時、CX置場に「冒険は終わらない」があるなら、あなたは相手に1ダメージを与えてよい。（ダメージキャンセルは発生する）\n\"大切な人を守るためだったら、人はいくらでも強くなれる。<br>だから、オレはここにいる\"",
+   "traits": [
+    "冒険",
+    "エターニア"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/tal_s126/tal_s126_t10.png",
+   "variant": ""
+  },
+  {
+   "num": "TAL/S126-T10R",
+   "name": "猟師の青年 リッド・ハーシェル",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の手札の自分のレベル以下のレベルのキャラを1枚まで選び、舞台の好きな枠に置き、そのターン中、このカードのパワーを＋3500。\n【自】【CXコンボ】 このカードがアタックした時、CX置場に「冒険は終わらない」があるなら、あなたは相手に1ダメージを与えてよい。（ダメージキャンセルは発生する）\n\"-\"",
+   "traits": [
+    "冒険",
+    "エターニア"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/tal_s126/tal_s126_t10r.png",
+   "variant": ""
+  },
+  {
+   "num": "TAL/S126-T11",
+   "name": "明朗快活な少女  ファラ・エルステッド",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分のクロックの下から1枚を、控え室に置いてよい。\n【自】［(2) 手札を1枚控え室に置く］ このカードがアタックした時、あなたのキャラすべてが《冒険》なら、あなたはコストを払ってよい。そうしたら、あなたは自分の山札の上から1枚を公開し、相手にＸダメージを与える。Ｘはそのカードのレベル＋1に等しい。（CXのレベルは0として扱う。ダメージキャンセルは発生する。公開したカードは元に戻す）\n\"イケる、イケる！<br>何でもやれば、何とかなるって\"",
+   "traits": [
+    "冒険",
+    "エターニア"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/tal_s126/tal_s126_t11.png",
+   "variant": ""
+  },
+  {
+   "num": "TAL/S126-T11R",
+   "name": "明朗快活な少女  ファラ・エルステッド",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分のクロックの下から1枚を、控え室に置いてよい。\n【自】［(2) 手札を1枚控え室に置く］ このカードがアタックした時、あなたのキャラすべてが《冒険》なら、あなたはコストを払ってよい。そうしたら、あなたは自分の山札の上から1枚を公開し、相手にＸダメージを与える。Ｘはそのカードのレベル＋1に等しい。（CXのレベルは0として扱う。ダメージキャンセルは発生する。公開したカードは元に戻す）\n\"わたしひとりじゃ無理でもみんないる。<br>仲間がいればきっと・・・怖いものなんてないよね？\"",
+   "traits": [
+    "冒険",
+    "エターニア"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/tal_s126/tal_s126_t11r.png",
+   "variant": ""
+  },
+  {
+   "num": "TAL/S126-T11SP",
+   "name": "明朗快活な少女  ファラ・エルステッド",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分のクロックの下から1枚を、控え室に置いてよい。\n【自】［(2) 手札を1枚控え室に置く］ このカードがアタックした時、あなたのキャラすべてが《冒険》なら、あなたはコストを払ってよい。そうしたら、あなたは自分の山札の上から1枚を公開し、相手にＸダメージを与える。Ｘはそのカードのレベル＋1に等しい。（CXのレベルは0として扱う。ダメージキャンセルは発生する。公開したカードは元に戻す）\n\"-\"",
+   "traits": [
+    "冒険",
+    "エターニア"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/tal_s126/tal_s126_t11sp.png",
+   "variant": ""
+  },
+  {
+   "num": "TAL/S126-T12",
+   "name": "冒険は終わらない",
+   "type": "Climax",
+   "rarity": "TD",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[salvage.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[salvage.gif]]：このカードがトリガーした時、あなたは自分の控え室のキャラを1枚選び、手札に戻してよい）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/tal_s126/tal_s126_t12.png",
+   "variant": ""
+  },
+  {
+   "num": "TAL/S126-T12R",
+   "name": "冒険は終わらない",
+   "type": "Climax",
+   "rarity": "RRR",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[salvage.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[salvage.gif]]：このカードがトリガーした時、あなたは自分の控え室のキャラを1枚選び、手札に戻してよい）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/tal_s126/tal_s126_t12r.png",
+   "variant": ""
+  },
+  {
+   "num": "TAL/S126-T13",
+   "name": "マリントルーパー セネル・クーリッジ",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1) 手札の《冒険》のキャラを1枚控え室に置く］ このカードが手札から舞台に置かれた時か舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を上からＸ枚まで見て、カードを1枚まで選び、手札に加え、残りのカードを控え室に置く。Ｘは相手のキャラの枚数に等しい。\n\"お前がひとりじゃないってことを、俺達がそばにいるってことを、教えてやるから！\"",
+   "traits": [
+    "冒険",
+    "レジェンディア"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/tal_s126/tal_s126_t13.png",
+   "variant": ""
+  },
+  {
+   "num": "TAL/S126-T13R",
+   "name": "マリントルーパー セネル・クーリッジ",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1) 手札の《冒険》のキャラを1枚控え室に置く］ このカードが手札から舞台に置かれた時か舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を上からＸ枚まで見て、カードを1枚まで選び、手札に加え、残りのカードを控え室に置く。Ｘは相手のキャラの枚数に等しい。\n\"-\"",
+   "traits": [
+    "冒険",
+    "レジェンディア"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/tal_s126/tal_s126_t13r.png",
+   "variant": ""
+  },
+  {
+   "num": "TAL/S126-T14",
+   "name": "下町の青年 ユーリ・ローウェル",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのターン中、あなたのストックが3枚以下なら、このカードのパワーを＋2000。\n【自】［(1) あなたの控え室の《冒険》のキャラを1枚クロック置場の下に置く］ このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を上から2枚まで見て、《冒険》のキャラを2枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。\n\"ガラクタの価値もわからねぇなら<br>おまえらはガラクタ以下だよ\"",
+   "traits": [
+    "冒険",
+    "ヴェスペリア"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/tal_s126/tal_s126_t14.png",
+   "variant": ""
+  },
+  {
+   "num": "TAL/S126-T14R",
+   "name": "下町の青年 ユーリ・ローウェル",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのターン中、あなたのストックが3枚以下なら、このカードのパワーを＋2000。\n【自】［(1) あなたの控え室の《冒険》のキャラを1枚クロック置場の下に置く］ このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を上から2枚まで見て、《冒険》のキャラを2枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。\n\"-\"",
+   "traits": [
+    "冒険",
+    "ヴェスペリア"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/tal_s126/tal_s126_t14r.png",
+   "variant": ""
+  },
+  {
+   "num": "TAL/S126-T15",
+   "name": "騎士候補生 アスベル・ラント",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室のレベルＸ以下の《冒険》のキャラを1枚選び、手札に戻す。Ｘはあなたの控え室の「記憶喪失の少女 ソフィ」の枚数に等しい。\n【自】 このカードがアタックした時、他のあなたの《冒険》のキャラが2枚以上なら、そのターン中、このカードのパワーを＋4000。\n\"故郷を出る時に誓ったんです。<br>もう誰も失いたくない……<br>その為に強くなるって……\"",
+   "traits": [
+    "冒険",
+    "グレイセス エフ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/tal_s126/tal_s126_t15.png",
+   "variant": ""
+  },
+  {
+   "num": "TAL/S126-T15R",
+   "name": "騎士候補生 アスベル・ラント",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室のレベルＸ以下の《冒険》のキャラを1枚選び、手札に戻す。Ｘはあなたの控え室の「記憶喪失の少女 ソフィ」の枚数に等しい。\n【自】 このカードがアタックした時、他のあなたの《冒険》のキャラが2枚以上なら、そのターン中、このカードのパワーを＋4000。\n\"-\"",
+   "traits": [
+    "冒険",
+    "グレイセス エフ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/tal_s126/tal_s126_t15r.png",
+   "variant": ""
+  },
+  {
+   "num": "TAL/S126-T16",
+   "name": "記憶喪失の少女 ソフィ",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードがアタックした時、他のあなたの《冒険》のキャラがいるなら、そのターン中、このカードのパワーを＋3000。\n【自】【CXコンボ】［手札を1枚控え室に置く］ このカードのバトル相手が【リバース】した時、あなたのCX置場に「続いていく物語」があり、他のあなたの《冒険》のキャラが2枚以上なら、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見て《冒険》のキャラを2枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"わからない<br>でもこの木を見ていると不思議な気持ちになる\"",
+   "traits": [
+    "冒険",
+    "グレイセス エフ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/tal_s126/tal_s126_t16.png",
+   "variant": ""
+  },
+  {
+   "num": "TAL/S126-T16R",
+   "name": "記憶喪失の少女 ソフィ",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードがアタックした時、他のあなたの《冒険》のキャラがいるなら、そのターン中、このカードのパワーを＋3000。\n【自】【CXコンボ】［手札を1枚控え室に置く］ このカードのバトル相手が【リバース】した時、あなたのCX置場に「続いていく物語」があり、他のあなたの《冒険》のキャラが2枚以上なら、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見て《冒険》のキャラを2枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"守る！あの時のようにはさせない！\"",
+   "traits": [
+    "冒険",
+    "グレイセス エフ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/tal_s126/tal_s126_t16r.png",
+   "variant": ""
+  },
+  {
+   "num": "TAL/S126-T17",
+   "name": "お城住まいの治癒術師 エステル",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "1",
+   "cost": "1",
+   "power": "6000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 他のあなたの《冒険》のキャラがアタックした時、そのターン中、このカードのパワーを＋Ｘ。Ｘは他のあなたの《冒険》のキャラの枚数×500に等しい。\n【自】 アンコール ［手札のキャラを1枚控え室に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"不謹慎かもしれませんが……<br>わたし、旅を続けられてすこしだけうれしいです\"",
+   "traits": [
+    "冒険",
+    "ヴェスペリア"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/tal_s126/tal_s126_t17.png",
+   "variant": ""
+  },
+  {
+   "num": "TAL/S126-T17R",
+   "name": "お城住まいの治癒術師 エステル",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "blue",
+   "level": "1",
+   "cost": "1",
+   "power": "6000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 他のあなたの《冒険》のキャラがアタックした時、そのターン中、このカードのパワーを＋Ｘ。Ｘは他のあなたの《冒険》のキャラの枚数×500に等しい。\n【自】 アンコール ［手札のキャラを1枚控え室に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"自分から歩み寄らなければ何も得られない……<br>それをこの旅で知りました。<br>だから！だから旅を続けます！\"",
+   "traits": [
+    "冒険",
+    "ヴェスペリア"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/tal_s126/tal_s126_t17r.png",
+   "variant": ""
+  },
+  {
+   "num": "TAL/S126-T18",
+   "name": "寡黙な剣士 ヴェイグ・リュングベル",
+   "type": "Event",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "集中 あなたは自分の山札の上から3枚をめくり、控え室に置く。あなたは自分の控え室のレベルＸ以下の《冒険》のキャラを1枚選び、手札に戻す。Ｘはそれらのカードの《冒険》のキャラの枚数に等しい。\n\"クレア、待っていろ。必ず助け出す……\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/tal_s126/tal_s126_t18.png",
+   "variant": ""
+  },
+  {
+   "num": "TAL/S126-T18R",
+   "name": "寡黙な剣士 ヴェイグ・リュングベル",
+   "type": "Event",
+   "rarity": "RRR",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "集中 あなたは自分の山札の上から3枚をめくり、控え室に置く。あなたは自分の控え室のレベルＸ以下の《冒険》のキャラを1枚選び、手札に戻す。Ｘはそれらのカードの《冒険》のキャラの枚数に等しい。\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/tal_s126/tal_s126_t18r.png",
+   "variant": ""
+  },
+  {
+   "num": "TAL/S126-T19",
+   "name": "続いていく物語",
+   "type": "Climax",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[gate.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[gate.gif]]：このカードがトリガーした時、あなたは自分の控え室のCXを1枚選び、手札に戻してよい）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/tal_s126/tal_s126_t19.png",
+   "variant": ""
+  },
+  {
+   "num": "TAL/S126-T19R",
+   "name": "続いていく物語",
+   "type": "Climax",
+   "rarity": "RRR",
+   "color": "blue",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[gate.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[gate.gif]]：このカードがトリガーした時、あなたは自分の控え室のCXを1枚選び、手札に戻してよい）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/tal_s126/tal_s126_t19r.png",
+   "variant": ""
+  }
+ ]
+}

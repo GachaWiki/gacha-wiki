@@ -1,0 +1,3023 @@
+{
+ "id": "jp-yhn-e450",
+ "name": "幻日のヨハネ -SUNSHINE in the MIRROR-",
+ "expansion": 450,
+ "lang": "jp",
+ "release": null,
+ "shopItem": null,
+ "box": null,
+ "cards": [
+  {
+   "num": "YHN/W111-001",
+   "name": "ドドーンとお届け ヨウ",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1) あなたの山札の上から1枚をクロック置場に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見て《心の音》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"-\"",
+   "traits": [
+    "心の音"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yhn_w111/yhn_w111_001.png",
+   "variant": ""
+  },
+  {
+   "num": "YHN/W111-001SP",
+   "name": "ドドーンとお届け ヨウ",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1) あなたの山札の上から1枚をクロック置場に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見て《心の音》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"-\"",
+   "traits": [
+    "心の音"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yhn_w111/yhn_w111_001sp.png",
+   "variant": ""
+  },
+  {
+   "num": "YHN/W111-002",
+   "name": "最高の一日 カナン",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "yellow",
+   "level": "3",
+   "cost": "2",
+   "power": "10500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】［(1) 手札を1枚控え室に置く］ この能力は1ターンにつき2回まで発動する。あなたが【起】を使った時、あなたはコストを払ってよい。そうしたら、あなたのターンで、このカードの下のマーカーが1枚以下なら、あなたは自分の山札の上から1枚を、このカードの下にマーカーとして表向きに置き、相手のターンなら、あなたは自分のクロックの上から1枚を、控え室に置く。\n【自】【CXコンボ】［(1)］ このカードがアタックした時、クライマックス置場に「必要としてくれる人のために」があるなら、あなたはコストを払ってよい。そうしたら、相手に2ダメージをＸ回与える。Ｘはこのカードの下のマーカーの枚数に等しい。（ダメージキャンセルは発生する）\n\"-\"",
+   "traits": [
+    "心の音"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yhn_w111/yhn_w111_002.png",
+   "variant": ""
+  },
+  {
+   "num": "YHN/W111-002SP",
+   "name": "最高の一日 カナン",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "yellow",
+   "level": "3",
+   "cost": "2",
+   "power": "10500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】［(1) 手札を1枚控え室に置く］ この能力は1ターンにつき2回まで発動する。あなたが【起】を使った時、あなたはコストを払ってよい。そうしたら、あなたのターンで、このカードの下のマーカーが1枚以下なら、あなたは自分の山札の上から1枚を、このカードの下にマーカーとして表向きに置き、相手のターンなら、あなたは自分のクロックの上から1枚を、控え室に置く。\n【自】【CXコンボ】［(1)］ このカードがアタックした時、クライマックス置場に「必要としてくれる人のために」があるなら、あなたはコストを払ってよい。そうしたら、相手に2ダメージをＸ回与える。Ｘはこのカードの下のマーカーの枚数に等しい。（ダメージキャンセルは発生する）\n\"-\"",
+   "traits": [
+    "心の音"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yhn_w111/yhn_w111_002sp.png",
+   "variant": ""
+  },
+  {
+   "num": "YHN/W111-003",
+   "name": "工作大好き カナン",
+   "type": "Character",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 この能力は1ターンにつき1回まで発動する。あなたが【起】を使った時、他のあなたの《心の音》のキャラがいるなら、あなたは自分の《心の音》のキャラを1枚選び、そのターン中、ソウルを＋1。\n【起】［このカードを【レスト】する］ あなたは自分の《心の音》のキャラを1枚選び、次の相手のターンの終わりまで、パワーを＋1000。\n\"-\"",
+   "traits": [
+    "心の音"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yhn_w111/yhn_w111_003.png",
+   "variant": ""
+  },
+  {
+   "num": "YHN/W111-003S",
+   "name": "工作大好き カナン",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 この能力は1ターンにつき1回まで発動する。あなたが【起】を使った時、他のあなたの《心の音》のキャラがいるなら、あなたは自分の《心の音》のキャラを1枚選び、そのターン中、ソウルを＋1。\n【起】［このカードを【レスト】する］ あなたは自分の《心の音》のキャラを1枚選び、次の相手のターンの終わりまで、パワーを＋1000。\n\"-\"",
+   "traits": [
+    "心の音"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yhn_w111/yhn_w111_003s.png",
+   "variant": ""
+  },
+  {
+   "num": "YHN/W111-004",
+   "name": "重なる心の音 カナン",
+   "type": "Character",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【起】［このカードを【レスト】する］ 他のあなたの《心の音》のキャラが4枚以上なら、あなたは1枚引き、自分の手札を1枚選び、控え室に置く。\n【起】 集中 ［(1) このカードを【レスト】する］ あなたは自分の山札の上から4枚をめくり、控え室に置く。それらのカードのクライマックス1枚につき、あなたは自分の山札を見て《心の音》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"-\"",
+   "traits": [
+    "心の音"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yhn_w111/yhn_w111_004.png",
+   "variant": ""
+  },
+  {
+   "num": "YHN/W111-004OFR",
+   "name": "重なる心の音 カナン",
+   "type": "Character",
+   "rarity": "OFR",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【起】［このカードを【レスト】する］ 他のあなたの《心の音》のキャラが4枚以上なら、あなたは1枚引き、自分の手札を1枚選び、控え室に置く。\n【起】 集中 ［(1) このカードを【レスト】する］ あなたは自分の山札の上から4枚をめくり、控え室に置く。それらのカードのクライマックス1枚につき、あなたは自分の山札を見て《心の音》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"-\"",
+   "traits": [
+    "心の音"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yhn_w111/yhn_w111_004ofr.png",
+   "variant": ""
+  },
+  {
+   "num": "YHN/W111-005",
+   "name": "元気はつらつ！ ヨウ",
+   "type": "Character",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのターン中、他のあなたの《心の音》のキャラがいるなら、このカードのパワーを＋3000。\n【自】【CXコンボ】 このカードのバトル相手が【リバース】した時、あなたのクライマックス置場に「Letter for you!」があり、他のあなたの《心の音》のキャラが2枚以上なら、あなたは自分の山札を上から3枚まで見て、カードを1枚まで選び、手札に加え、残りのカードを控え室に置く。\n\"-\"",
+   "traits": [
+    "心の音"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yhn_w111/yhn_w111_005.png",
+   "variant": ""
+  },
+  {
+   "num": "YHN/W111-005S",
+   "name": "元気はつらつ！ ヨウ",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのターン中、他のあなたの《心の音》のキャラがいるなら、このカードのパワーを＋3000。\n【自】【CXコンボ】 このカードのバトル相手が【リバース】した時、あなたのクライマックス置場に「Letter for you!」があり、他のあなたの《心の音》のキャラが2枚以上なら、あなたは自分の山札を上から3枚まで見て、カードを1枚まで選び、手札に加え、残りのカードを控え室に置く。\n\"-\"",
+   "traits": [
+    "心の音"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yhn_w111/yhn_w111_005s.png",
+   "variant": ""
+  },
+  {
+   "num": "YHN/W111-006",
+   "name": "重なる心の音 ヨウ",
+   "type": "Character",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたの後列の【レスト】している【起】を持つキャラが2枚以上なら、このカードは次の能力を得る。『【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋1500。』\n【自】【クロック】 アラーム このカードがクロックの1番上にあり、あなたのレベルが2以上なら、あなたのクライマックスフェイズの始めに、あなたは自分のキャラを1枚とこのカードを選び、入れ替えてよい。そうしたら、このカードを【レスト】してよい。\n【起】［このカードを【レスト】する］ あなたは自分のキャラを1枚選び、そのターン中、パワーを＋1000。\n\"-\"",
+   "traits": [
+    "心の音"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yhn_w111/yhn_w111_006.png",
+   "variant": ""
+  },
+  {
+   "num": "YHN/W111-006OFR",
+   "name": "重なる心の音 ヨウ",
+   "type": "Character",
+   "rarity": "OFR",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたの後列の【レスト】している【起】を持つキャラが2枚以上なら、このカードは次の能力を得る。『【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋1500。』\n【自】【クロック】 アラーム このカードがクロックの1番上にあり、あなたのレベルが2以上なら、あなたのクライマックスフェイズの始めに、あなたは自分のキャラを1枚とこのカードを選び、入れ替えてよい。そうしたら、このカードを【レスト】してよい。\n【起】［このカードを【レスト】する］ あなたは自分のキャラを1枚選び、そのターン中、パワーを＋1000。\n\"-\"",
+   "traits": [
+    "心の音"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yhn_w111/yhn_w111_006ofr.png",
+   "variant": ""
+  },
+  {
+   "num": "YHN/W111-007",
+   "name": "頼れる存在 カナン",
+   "type": "Character",
+   "rarity": "U",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードがアタックした時、あなたは他の自分の《心の音》のキャラを1枚選び、そのターン中、パワーを＋Ｘ。Ｘは他のあなたの《心の音》のキャラの枚数×500に等しい。\n【自】 このカードが【リバース】した時、このカードのバトル相手のレベルが0以下なら、あなたはそのキャラをストック置場に置いてよい。そうしたら、あなたは相手のストックの下から1枚を、控え室に置く。\n\"-\"",
+   "traits": [
+    "心の音"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yhn_w111/yhn_w111_007.png",
+   "variant": ""
+  },
+  {
+   "num": "YHN/W111-007S",
+   "name": "頼れる存在 カナン",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードがアタックした時、あなたは他の自分の《心の音》のキャラを1枚選び、そのターン中、パワーを＋Ｘ。Ｘは他のあなたの《心の音》のキャラの枚数×500に等しい。\n【自】 このカードが【リバース】した時、このカードのバトル相手のレベルが0以下なら、あなたはそのキャラをストック置場に置いてよい。そうしたら、あなたは相手のストックの下から1枚を、控え室に置く。\n\"-\"",
+   "traits": [
+    "心の音"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yhn_w111/yhn_w111_007s.png",
+   "variant": ""
+  },
+  {
+   "num": "YHN/W111-008",
+   "name": "繋がる心、始まる友情 ルビィ＆ヨウ",
+   "type": "Character",
+   "rarity": "U",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の手札の、キャラを1枚までとイベントかクライマックスを1枚まで選んで相手に見せ、ストック置場に好きな順番で置く。\n【自】 このカードが手札から舞台に置かれた時、他のあなたの《心の音》のキャラがいるなら、そのターン中、このカードのパワーを＋2000。\n\"-\"",
+   "traits": [
+    "心の音"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yhn_w111/yhn_w111_008.png",
+   "variant": ""
+  },
+  {
+   "num": "YHN/W111-008S",
+   "name": "繋がる心、始まる友情 ルビィ＆ヨウ",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の手札の、キャラを1枚までとイベントかクライマックスを1枚まで選んで相手に見せ、ストック置場に好きな順番で置く。\n【自】 このカードが手札から舞台に置かれた時、他のあなたの《心の音》のキャラがいるなら、そのターン中、このカードのパワーを＋2000。\n\"-\"",
+   "traits": [
+    "心の音"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yhn_w111/yhn_w111_008s.png",
+   "variant": ""
+  },
+  {
+   "num": "YHN/W111-009",
+   "name": "元気をお届け！ ヨウ",
+   "type": "Character",
+   "rarity": "U",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのターン中、このカードのパワーを＋1000。\n【自】 相手のアタックフェイズの始めに、このカードの正面に相手のキャラがいるなら、あなたはこのカードを前列のキャラのいない枠に動かしてよい。\n\"-\"",
+   "traits": [
+    "心の音"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yhn_w111/yhn_w111_009.png",
+   "variant": ""
+  },
+  {
+   "num": "YHN/W111-009S",
+   "name": "元気をお届け！ ヨウ",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのターン中、このカードのパワーを＋1000。\n【自】 相手のアタックフェイズの始めに、このカードの正面に相手のキャラがいるなら、あなたはこのカードを前列のキャラのいない枠に動かしてよい。\n\"-\"",
+   "traits": [
+    "心の音"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yhn_w111/yhn_w111_009s.png",
+   "variant": ""
+  },
+  {
+   "num": "YHN/W111-010",
+   "name": "繋がる心、始まる友情 カナン",
+   "type": "Character",
+   "rarity": "U",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1) 手札のクライマックスを1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室のクライマックスを1枚選び、手札に戻す。\n\"-\"",
+   "traits": [
+    "心の音"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yhn_w111/yhn_w111_010.png",
+   "variant": ""
+  },
+  {
+   "num": "YHN/W111-010S",
+   "name": "繋がる心、始まる友情 カナン",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1) 手札のクライマックスを1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室のクライマックスを1枚選び、手札に戻す。\n\"-\"",
+   "traits": [
+    "心の音"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yhn_w111/yhn_w111_010s.png",
+   "variant": ""
+  },
+  {
+   "num": "YHN/W111-011",
+   "name": "ウチーラのリサイクルクイーン カナン",
+   "type": "Character",
+   "rarity": "U",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から1枚を公開する。そのカードが《心の音》のキャラならこのカードの下にマーカーとして表向きに置いてよい。（そうしないなら元に戻す）\n【自】 この能力は1ターンにつき2回まで発動する。あなたが【起】を使った時、そのターン中、このカードのパワーを＋Ｘ。Ｘは他のあなたの《心の音》のキャラの枚数×500に等しい。\n【起】［手札を1枚控え室に置く］ あなたはこのカードの下のマーカーを1枚手札に戻す。\n\"人は私をこう呼んでいる。<br>『ウチーラのリサイクルクイーン、カナン。なんでもお任せあれ！』ってね\"",
+   "traits": [
+    "心の音"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yhn_w111/yhn_w111_011.png",
+   "variant": ""
+  },
+  {
+   "num": "YHN/W111-011S",
+   "name": "ウチーラのリサイクルクイーン カナン",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から1枚を公開する。そのカードが《心の音》のキャラならこのカードの下にマーカーとして表向きに置いてよい。（そうしないなら元に戻す）\n【自】 この能力は1ターンにつき2回まで発動する。あなたが【起】を使った時、そのターン中、このカードのパワーを＋Ｘ。Ｘは他のあなたの《心の音》のキャラの枚数×500に等しい。\n【起】［手札を1枚控え室に置く］ あなたはこのカードの下のマーカーを1枚手札に戻す。\n\"-\"",
+   "traits": [
+    "心の音"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yhn_w111/yhn_w111_011s.png",
+   "variant": ""
+  },
+  {
+   "num": "YHN/W111-012",
+   "name": "メッセンジャー ヨウ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 この能力は1ターンにつき2回まで発動する。あなたが【起】を使った時、他のあなたの《心の音》のキャラがいるなら、次の相手のターンの終わりまで、このカードのパワーを＋1000。\n【起】［あなたの《心の音》のキャラを1枚【レスト】する］ そのターン中、このカードのパワーを＋1500。\n\"こんにちはヨハネちゃん！\"",
+   "traits": [
+    "心の音"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yhn_w111/yhn_w111_012.png",
+   "variant": ""
+  },
+  {
+   "num": "YHN/W111-013",
+   "name": "運動神経抜群 ヨウ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［手札を1枚控え室に置く］ あなたがこのカードの『助太刀』を使った時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「運動神経抜群 ヨウ」を1枚選び、手札に戻す。\n【起】【カウンター】 助太刀1000 レベル1 ［手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋1000）\n\"-\"",
+   "traits": [
+    "心の音"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yhn_w111/yhn_w111_013.png",
+   "variant": ""
+  },
+  {
+   "num": "YHN/W111-014",
+   "name": "確かな信念 カナン",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 前列にこのカードがいるなら、あなたの手札の《心の音》のキャラすべてに、『【起】【カウンター】 助太刀2000 レベル0 ［手札のこのカードを控え室に置く］』を与える。\n【起】［あなたの《心の音》のキャラを2枚【レスト】する］ そのターン中、このカードはサイドアタックしてもソウルが減少しない。\n\"でも私、この仕事を続けてきてわかったの、どんな物も必ず生まれ変わることができるって\"",
+   "traits": [
+    "心の音"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yhn_w111/yhn_w111_014.png",
+   "variant": ""
+  },
+  {
+   "num": "YHN/W111-015",
+   "name": "いつも明るい元気印 ヨウ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "1",
+   "cost": "1",
+   "power": "6000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 他のあなたの《心の音》のキャラがアタックした時、そのターン中、このカードのパワーを＋Ｘ。Ｘは他のあなたの《心の音》のキャラの枚数×500に等しい。\n【自】 アンコール ［手札のキャラを1枚控え室に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"-\"",
+   "traits": [
+    "心の音"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yhn_w111/yhn_w111_015.png",
+   "variant": ""
+  },
+  {
+   "num": "YHN/W111-015S",
+   "name": "いつも明るい元気印 ヨウ",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "yellow",
+   "level": "1",
+   "cost": "1",
+   "power": "6000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 他のあなたの《心の音》のキャラがアタックした時、そのターン中、このカードのパワーを＋Ｘ。Ｘは他のあなたの《心の音》のキャラの枚数×500に等しい。\n【自】 アンコール ［手札のキャラを1枚控え室に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"-\"",
+   "traits": [
+    "心の音"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yhn_w111/yhn_w111_015s.png",
+   "variant": ""
+  },
+  {
+   "num": "YHN/W111-016",
+   "name": "メカニック カナン",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】［手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を上から4枚まで見て、《心の音》のキャラかイベントを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。\n【自】 このカードが【リバース】した時、このカードのバトル相手のレベルが相手のレベルより高いなら、あなたはそのキャラをストック置場に置いてよい。そうしたら、あなたは相手のストックの下から1枚を、控え室に置く。\n\"-\"",
+   "traits": [
+    "心の音"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yhn_w111/yhn_w111_016.png",
+   "variant": ""
+  },
+  {
+   "num": "YHN/W111-017",
+   "name": "あなたへお届け！",
+   "type": "Event",
+   "rarity": "U",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "次の2つの効果のうちあなたが選んだ1つを行う。\n『あなたは自分の控え室の「元気はつらつ！ ヨウ」を1枚選び、舞台の好きな枠に置く。』\n『あなたは自分の山札を見て「元気はつらつ！ ヨウ」を1枚まで選び、舞台の好きな枠に置き、その山札をシャッフルする。』\n\"郵便で～～～～す！\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yhn_w111/yhn_w111_017.png",
+   "variant": ""
+  },
+  {
+   "num": "YHN/W111-018",
+   "name": "必要としてくれる人のために",
+   "type": "Climax",
+   "rarity": "CR",
+   "color": "yellow",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[choice.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[choice.gif]]：このカードがトリガーした時、あなたは自分の控え室のトリガーアイコンに[[soul.gif]]があるキャラを1枚選び、手札に戻すかストック置場に置いてよい）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yhn_w111/yhn_w111_018.png",
+   "variant": ""
+  },
+  {
+   "num": "YHN/W111-018R",
+   "name": "必要としてくれる人のために",
+   "type": "Climax",
+   "rarity": "RRR",
+   "color": "yellow",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[choice.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[choice.gif]]：このカードがトリガーした時、あなたは自分の控え室のトリガーアイコンに[[soul.gif]]があるキャラを1枚選び、手札に戻すかストック置場に置いてよい）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yhn_w111/yhn_w111_018r.png",
+   "variant": ""
+  },
+  {
+   "num": "YHN/W111-019",
+   "name": "Letter for you!",
+   "type": "Climax",
+   "rarity": "CC",
+   "color": "yellow",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[choice.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[choice.gif]]：このカードがトリガーした時、あなたは自分の控え室のトリガーアイコンに[[soul.gif]]があるキャラを1枚選び、手札に戻すかストック置場に置いてよい）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yhn_w111/yhn_w111_019.png",
+   "variant": ""
+  },
+  {
+   "num": "YHN/W111-019R",
+   "name": "Letter for you!",
+   "type": "Climax",
+   "rarity": "RRR",
+   "color": "yellow",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[choice.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[choice.gif]]：このカードがトリガーした時、あなたは自分の控え室のトリガーアイコンに[[soul.gif]]があるキャラを1枚選び、手札に戻すかストック置場に置いてよい）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yhn_w111/yhn_w111_019r.png",
+   "variant": ""
+  },
+  {
+   "num": "YHN/W111-020",
+   "name": "交わした約束 ライラプス",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［手札を1枚控え室に置く］ このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を上から4枚まで見て、レベル1以上のカードを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。（クライマックスのレベルは0として扱う）\n【起】［【スタンド】しているこのカードを控え室に置く］ あなたは自分のカード名に「ヨハネ」か「ライラプス」を含むキャラを1枚選び、このカードをそのカードの下にマーカーとして表向きに置く。\n\"ヨハネの母「ねぇ、ヨハネが一人前になるまで一緒にいてあげて。約束よ？」\"",
+   "traits": [
+    "心の音"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yhn_w111/yhn_w111_020.png",
+   "variant": ""
+  },
+  {
+   "num": "YHN/W111-020S",
+   "name": "交わした約束 ライラプス",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［手札を1枚控え室に置く］ このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を上から4枚まで見て、レベル1以上のカードを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。（クライマックスのレベルは0として扱う）\n【起】［【スタンド】しているこのカードを控え室に置く］ あなたは自分のカード名に「ヨハネ」か「ライラプス」を含むキャラを1枚選び、このカードをそのカードの下にマーカーとして表向きに置く。\n\"-\"",
+   "traits": [
+    "心の音"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yhn_w111/yhn_w111_020s.png",
+   "variant": ""
+  },
+  {
+   "num": "YHN/W111-021",
+   "name": "あの子を待って マリ",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "green",
+   "level": "3",
+   "cost": "2",
+   "power": "8500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたの《心の音》のキャラが4枚以上なら、あなたの手札のこのカードのレベルを－1。\n【永】 あなたのターン中、相手の後列のキャラ1枚につき、このカードのパワーを＋2000。\n【自】［手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分のクロックの上から1枚を、ストック置場に置く。\n\"-\"",
+   "traits": [
+    "心の音"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yhn_w111/yhn_w111_021.png",
+   "variant": ""
+  },
+  {
+   "num": "YHN/W111-021SP",
+   "name": "あの子を待って マリ",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "green",
+   "level": "3",
+   "cost": "2",
+   "power": "8500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたの《心の音》のキャラが4枚以上なら、あなたの手札のこのカードのレベルを－1。\n【永】 あなたのターン中、相手の後列のキャラ1枚につき、このカードのパワーを＋2000。\n【自】［手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分のクロックの上から1枚を、ストック置場に置く。\n\"-\"",
+   "traits": [
+    "心の音"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yhn_w111/yhn_w111_021sp.png",
+   "variant": ""
+  },
+  {
+   "num": "YHN/W111-022",
+   "name": "絆が紡ぐ奇跡の歌 ヨハネ",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "green",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n【自】【CXコンボ】 このカードがアタックした時、クライマックス置場に「君と紡ぐ心の音」があり、あなたの手札が5枚以下で、他のあなたの《心の音》のキャラが2枚以上なら、相手に1ダメージを与え、そのターン中、このカードは次の能力を得る。『【自】［(2) 手札を1枚控え室に置く］ あなたのアンコールステップの始めに、このカードの下にマーカーがあるなら、あなたはコストを払ってよい。そうしたら、相手に2ダメージを与える。』（ダメージキャンセルは発生する）\n\"-\"",
+   "traits": [
+    "心の音"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yhn_w111/yhn_w111_022.png",
+   "variant": ""
+  },
+  {
+   "num": "YHN/W111-022SP",
+   "name": "絆が紡ぐ奇跡の歌 ヨハネ",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "green",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n【自】【CXコンボ】 このカードがアタックした時、クライマックス置場に「君と紡ぐ心の音」があり、あなたの手札が5枚以下で、他のあなたの《心の音》のキャラが2枚以上なら、相手に1ダメージを与え、そのターン中、このカードは次の能力を得る。『【自】［(2) 手札を1枚控え室に置く］ あなたのアンコールステップの始めに、このカードの下にマーカーがあるなら、あなたはコストを払ってよい。そうしたら、相手に2ダメージを与える。』（ダメージキャンセルは発生する）\n\"-\"",
+   "traits": [
+    "心の音"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yhn_w111/yhn_w111_022sp.png",
+   "variant": ""
+  },
+  {
+   "num": "YHN/W111-023",
+   "name": "お出迎え ライラプス",
+   "type": "Character",
+   "rarity": "R",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】【CXコンボ】 あなたのクライマックス置場に「君と歩んだ日々」があるなら、すべての領域にあるこのカードはトリガーアイコンに[[stock.gif]][[stock.gif]][[stock.gif]]を得る。\n【自】 このカードが手札から舞台に置かれた時、そのターン中、このカードのパワーを＋2500し、このカードは次の能力を得る。『【自】 このカードのアタックの終わりに、このカードを山札に戻し、その山札をシャッフルする。』\n\"ヨハネ「いるならいるって言ってよー。相変わらず自分のサイズわかってなさすぎ」\"",
+   "traits": [
+    "心の音"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yhn_w111/yhn_w111_023.png",
+   "variant": ""
+  },
+  {
+   "num": "YHN/W111-023S",
+   "name": "お出迎え ライラプス",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】【CXコンボ】 あなたのクライマックス置場に「君と歩んだ日々」があるなら、すべての領域にあるこのカードはトリガーアイコンに[[stock.gif]][[stock.gif]][[stock.gif]]を得る。\n【自】 このカードが手札から舞台に置かれた時、そのターン中、このカードのパワーを＋2500し、このカードは次の能力を得る。『【自】 このカードのアタックの終わりに、このカードを山札に戻し、その山札をシャッフルする。』\n\"ごめんごめん\"",
+   "traits": [
+    "心の音"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yhn_w111/yhn_w111_023s.png",
+   "variant": ""
+  },
+  {
+   "num": "YHN/W111-024",
+   "name": "重なる心の音 マリ",
+   "type": "Character",
+   "rarity": "R",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［手札の《心の音》のキャラを1枚クロック置場に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を上から3枚まで見て、カードを1枚まで選び、手札に加え、残りのカードを控え室に置く。\n【自】 相手のアタックフェイズの始めに、あなたはこのカードを前列のキャラのいない枠に動かしてよい。\n\"-\"",
+   "traits": [
+    "心の音"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yhn_w111/yhn_w111_024.png",
+   "variant": ""
+  },
+  {
+   "num": "YHN/W111-024OFR",
+   "name": "重なる心の音 マリ",
+   "type": "Character",
+   "rarity": "OFR",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［手札の《心の音》のキャラを1枚クロック置場に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を上から3枚まで見て、カードを1枚まで選び、手札に加え、残りのカードを控え室に置く。\n【自】 相手のアタックフェイズの始めに、あなたはこのカードを前列のキャラのいない枠に動かしてよい。\n\"-\"",
+   "traits": [
+    "心の音"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yhn_w111/yhn_w111_024ofr.png",
+   "variant": ""
+  },
+  {
+   "num": "YHN/W111-025",
+   "name": "重なる心の音 ヨハネ",
+   "type": "Character",
+   "rarity": "R",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】【CXコンボ】 このカードがアタックした時、そのターン中、このカードのパワーを＋4000し、クライマックス置場に「世界は歌で満たされる」があるなら、次の相手のターンの終わりまで、このカードは次の能力を得る。『【自】 このカードがフロントアタックされた時、あなたはこのカードを手札に戻してよい。』\n【起】［手札のトリガーアイコンが、[[draw.gif]]か[[treasure.gif]]のクライマックスを1枚控え室に置き、このカードを控え室に置く］ あなたの控え室のトリガーアイコンが、[[draw.gif]]のクライマックスと[[treasure.gif]]のクライマックスがそれぞれ2枚以上なら、あなたは自分の山札を上から3枚まで見て、《心の音》のキャラを3枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。\n\"-\"",
+   "traits": [
+    "心の音"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yhn_w111/yhn_w111_025.png",
+   "variant": ""
+  },
+  {
+   "num": "YHN/W111-025OFR",
+   "name": "重なる心の音 ヨハネ",
+   "type": "Character",
+   "rarity": "OFR",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】【CXコンボ】 このカードがアタックした時、そのターン中、このカードのパワーを＋4000し、クライマックス置場に「世界は歌で満たされる」があるなら、次の相手のターンの終わりまで、このカードは次の能力を得る。『【自】 このカードがフロントアタックされた時、あなたはこのカードを手札に戻してよい。』\n【起】［手札のトリガーアイコンが、[[draw.gif]]か[[treasure.gif]]のクライマックスを1枚控え室に置き、このカードを控え室に置く］ あなたの控え室のトリガーアイコンが、[[draw.gif]]のクライマックスと[[treasure.gif]]のクライマックスがそれぞれ2枚以上なら、あなたは自分の山札を上から3枚まで見て、《心の音》のキャラを3枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。\n\"-\"",
+   "traits": [
+    "心の音"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yhn_w111/yhn_w111_025ofr.png",
+   "variant": ""
+  },
+  {
+   "num": "YHN/W111-026",
+   "name": "似た者同士 マリ",
+   "type": "Character",
+   "rarity": "R",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードがアタックした時、あなたは他の自分の《心の音》のキャラを1枚選び、次の相手のターンの終わりまで、パワーを＋1500し、『【自】 アンコール ［手札のキャラを1枚控え室に置く］』を与える。\n【自】［(2)］ あなたのアンコールステップの始めに、あなたはコストを払ってよい。そうしたら、あなたは他の自分のキャラを1枚と、このカードを選び、思い出にする。次のあなたのドローフェイズの始めに、あなたは自分の思い出置場のそれらのキャラを、舞台の別々の枠に置く。\n\"-\"",
+   "traits": [
+    "心の音"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yhn_w111/yhn_w111_026.png",
+   "variant": ""
+  },
+  {
+   "num": "YHN/W111-026S",
+   "name": "似た者同士 マリ",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードがアタックした時、あなたは他の自分の《心の音》のキャラを1枚選び、次の相手のターンの終わりまで、パワーを＋1500し、『【自】 アンコール ［手札のキャラを1枚控え室に置く］』を与える。\n【自】［(2)］ あなたのアンコールステップの始めに、あなたはコストを払ってよい。そうしたら、あなたは他の自分のキャラを1枚と、このカードを選び、思い出にする。次のあなたのドローフェイズの始めに、あなたは自分の思い出置場のそれらのキャラを、舞台の別々の枠に置く。\n\"-\"",
+   "traits": [
+    "心の音"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yhn_w111/yhn_w111_026s.png",
+   "variant": ""
+  },
+  {
+   "num": "YHN/W111-027",
+   "name": "出戻り少女 ヨハネ",
+   "type": "Character",
+   "rarity": "R",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのターン中、他のあなたの《心の音》のキャラがいるなら、このカードのパワーを＋3000。\n【自】［手札を1枚控え室に置く］ このカードがアタックした時、あなたはコストを払ってよい。そうしたら、そのアタック中、あなたはトリガーステップにトリガーチェックを2回行う。\n\"-\"",
+   "traits": [
+    "心の音"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yhn_w111/yhn_w111_027.png",
+   "variant": ""
+  },
+  {
+   "num": "YHN/W111-027S",
+   "name": "出戻り少女 ヨハネ",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのターン中、他のあなたの《心の音》のキャラがいるなら、このカードのパワーを＋3000。\n【自】［手札を1枚控え室に置く］ このカードがアタックした時、あなたはコストを払ってよい。そうしたら、そのアタック中、あなたはトリガーステップにトリガーチェックを2回行う。\n\"-\"",
+   "traits": [
+    "心の音"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yhn_w111/yhn_w111_027s.png",
+   "variant": ""
+  },
+  {
+   "num": "YHN/W111-028",
+   "name": "君に贈る魔法 ライラプス",
+   "type": "Character",
+   "rarity": "R",
+   "color": "green",
+   "level": "1",
+   "cost": "1",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 応援 このカードの前のあなたの《心の音》のキャラすべてに、パワーを＋Ｘ。Ｘはそのキャラのレベル×500に等しい。\n【自】 あなたのアタックフェイズの始めに、このカードの下にマーカーがあるなら、あなたは自分の《心の音》のキャラを1枚選び、そのターン中、パワーを＋1000し、ソウルを＋1。\n【起】［このカードを【レスト】する］ あなたは自分の「絆が紡ぐ奇跡の歌 ヨハネ」を1枚選び、そのキャラの下にマーカーがないなら、このカードのマーカーか自分の控え室の「交わした約束 ライラプス」を1枚まで選び、その「絆が紡ぐ奇跡の歌 ヨハネ」の下にマーカーとして表向きに置く。\n\"-\"",
+   "traits": [
+    "心の音"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yhn_w111/yhn_w111_028.png",
+   "variant": ""
+  },
+  {
+   "num": "YHN/W111-028S",
+   "name": "君に贈る魔法 ライラプス",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "1",
+   "cost": "1",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 応援 このカードの前のあなたの《心の音》のキャラすべてに、パワーを＋Ｘ。Ｘはそのキャラのレベル×500に等しい。\n【自】 あなたのアタックフェイズの始めに、このカードの下にマーカーがあるなら、あなたは自分の《心の音》のキャラを1枚選び、そのターン中、パワーを＋1000し、ソウルを＋1。\n【起】［このカードを【レスト】する］ あなたは自分の「絆が紡ぐ奇跡の歌 ヨハネ」を1枚選び、そのキャラの下にマーカーがないなら、このカードのマーカーか自分の控え室の「交わした約束 ライラプス」を1枚まで選び、その「絆が紡ぐ奇跡の歌 ヨハネ」の下にマーカーとして表向きに置く。\n\"-\"",
+   "traits": [
+    "心の音"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yhn_w111/yhn_w111_028s.png",
+   "variant": ""
+  },
+  {
+   "num": "YHN/W111-029",
+   "name": "良き相棒 ライラプス",
+   "type": "Character",
+   "rarity": "R",
+   "color": "green",
+   "level": "2",
+   "cost": "1",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの《心の音》のキャラが2枚以上なら、このカードのパワーを＋8000。\n【自】 このカードが手札から舞台に置かれた時、次の相手のターンの終わりまで、このカードは次の2つの能力を得る。『【永】 相手のターン中、このカードのパワーを＋2000。』『【永】 大活躍』\n\"-\"",
+   "traits": [
+    "心の音"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yhn_w111/yhn_w111_029.png",
+   "variant": ""
+  },
+  {
+   "num": "YHN/W111-029S",
+   "name": "良き相棒 ライラプス",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "2",
+   "cost": "1",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの《心の音》のキャラが2枚以上なら、このカードのパワーを＋8000。\n【自】 このカードが手札から舞台に置かれた時、次の相手のターンの終わりまで、このカードは次の2つの能力を得る。『【永】 相手のターン中、このカードのパワーを＋2000。』『【永】 大活躍』\n\"-\"",
+   "traits": [
+    "心の音"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yhn_w111/yhn_w111_029s.png",
+   "variant": ""
+  },
+  {
+   "num": "YHN/W111-030",
+   "name": "水面に手を伸ばす ヨハネ",
+   "type": "Character",
+   "rarity": "R",
+   "color": "green",
+   "level": "2",
+   "cost": "1",
+   "power": "7500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】［手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時、他のあなたの《心の音》のキャラが4枚以上なら、あなたはコストを払ってよい。そうしたら、相手は自分の控え室のクライマックスを1枚選び、そのカード以外の控え室のカードすべてを、山札に戻し、その山札をシャッフルする。\n\"-\"",
+   "traits": [
+    "心の音"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yhn_w111/yhn_w111_030.png",
+   "variant": ""
+  },
+  {
+   "num": "YHN/W111-030S",
+   "name": "水面に手を伸ばす ヨハネ",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "2",
+   "cost": "1",
+   "power": "7500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】［手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時、他のあなたの《心の音》のキャラが4枚以上なら、あなたはコストを払ってよい。そうしたら、相手は自分の控え室のクライマックスを1枚選び、そのカード以外の控え室のカードすべてを、山札に戻し、その山札をシャッフルする。\n\"-\"",
+   "traits": [
+    "心の音"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yhn_w111/yhn_w111_030s.png",
+   "variant": ""
+  },
+  {
+   "num": "YHN/W111-031",
+   "name": "私にしかできないこと ヨハネ",
+   "type": "Character",
+   "rarity": "U",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［あなたの山札の上から1枚をクロック置場に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札の上から1枚を、ストック置場に置く。\n【自】 このカードが【リバース】した時、このカードのバトル相手のレベルが0以下なら、あなたは相手のクロックの上から1枚を、控え室に置いてよい。そうしたら、あなたはそのキャラをクロック置場に置く。\n\"-\"",
+   "traits": [
+    "心の音"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yhn_w111/yhn_w111_031.png",
+   "variant": ""
+  },
+  {
+   "num": "YHN/W111-032",
+   "name": "過去の心の傷 マリ",
+   "type": "Character",
+   "rarity": "U",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札を上から1枚見て、山札の上か控え室に置く。\n【起】 集中 ［(1) このカードを【レスト】する］ 他のあなたの《心の音》のキャラが2枚以上なら、あなたは自分の山札の上から4枚をめくり、控え室に置く。それらのカードのクライマックス1枚につき、次の行動を行う。『あなたは3枚まで引き、自分の手札を2枚選び、控え室に置く。』\n\"こんな格好で町に出て行っても、変に思われるだけよ\"",
+   "traits": [
+    "心の音"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yhn_w111/yhn_w111_032.png",
+   "variant": ""
+  },
+  {
+   "num": "YHN/W111-032S",
+   "name": "過去の心の傷 マリ",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札を上から1枚見て、山札の上か控え室に置く。\n【起】 集中 ［(1) このカードを【レスト】する］ 他のあなたの《心の音》のキャラが2枚以上なら、あなたは自分の山札の上から4枚をめくり、控え室に置く。それらのカードのクライマックス1枚につき、次の行動を行う。『あなたは3枚まで引き、自分の手札を2枚選び、控え室に置く。』\n\"みんなと同じならよかったのに…\"",
+   "traits": [
+    "心の音"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yhn_w111/yhn_w111_032s.png",
+   "variant": ""
+  },
+  {
+   "num": "YHN/W111-033",
+   "name": "受け取った魔法 ライラプス",
+   "type": "Character",
+   "rarity": "U",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分のカード名に「ヨハネ」か「ライラプス」を含むキャラを1枚選び、そのキャラの下にマーカーがないなら、自分の控え室の「交わした約束 ライラプス」を1枚まで選び、そのキャラの下にマーカーとして表向きに置く。\n【起】［手札を1枚控え室に置き、このカードを控え室に置く］ あなたは自分の控え室のカード名に「ヨハネ」か「ライラプス」を含むキャラを1枚選び、手札に戻す。\n\"-\"",
+   "traits": [
+    "心の音"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yhn_w111/yhn_w111_033.png",
+   "variant": ""
+  },
+  {
+   "num": "YHN/W111-033S",
+   "name": "受け取った魔法 ライラプス",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分のカード名に「ヨハネ」か「ライラプス」を含むキャラを1枚選び、そのキャラの下にマーカーがないなら、自分の控え室の「交わした約束 ライラプス」を1枚まで選び、そのキャラの下にマーカーとして表向きに置く。\n【起】［手札を1枚控え室に置き、このカードを控え室に置く］ あなたは自分の控え室のカード名に「ヨハネ」か「ライラプス」を含むキャラを1枚選び、手札に戻す。\n\"-\"",
+   "traits": [
+    "心の音"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yhn_w111/yhn_w111_033s.png",
+   "variant": ""
+  },
+  {
+   "num": "YHN/W111-034",
+   "name": "新たに始まる物語 ヨハネ",
+   "type": "Character",
+   "rarity": "U",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1) 手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見て《心の音》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n【自】 このカードがアタックした時、あなたは自分の山札を上から2枚まで見て、山札の上に好きな順番で置く。\n\"-\"",
+   "traits": [
+    "心の音"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yhn_w111/yhn_w111_034.png",
+   "variant": ""
+  },
+  {
+   "num": "YHN/W111-034S",
+   "name": "新たに始まる物語 ヨハネ",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1) 手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見て《心の音》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n【自】 このカードがアタックした時、あなたは自分の山札を上から2枚まで見て、山札の上に好きな順番で置く。\n\"-\"",
+   "traits": [
+    "心の音"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yhn_w111/yhn_w111_034s.png",
+   "variant": ""
+  },
+  {
+   "num": "YHN/W111-035",
+   "name": "繋がる心、始まる友情 マリ",
+   "type": "Character",
+   "rarity": "U",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【起】［このカードを控え室に置く］ あなたは自分の「似た者同士 ヨハネ」を1枚選び、そのターン中、パワーを＋1000し、次の能力を与える。『【自】 このカードのバトル相手が【リバース】した時、あなたは自分の控え室の《心の音》のキャラを1枚まで選び、ストック置場に置き、自分の山札の上から1枚を公開する。そのカードのレベルが1以上ならストック置場に置く。』（クライマックスのレベルは0として扱う。そうでないなら元に戻す）\n【起】 共鳴 ［(1) 手札の「似た者同士 ヨハネ」を1枚公開し、このカードを【レスト】する］ あなたは自分の山札を上から3枚まで見て、《心の音》のキャラを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。\n\"-\"",
+   "traits": [
+    "心の音"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yhn_w111/yhn_w111_035.png",
+   "variant": ""
+  },
+  {
+   "num": "YHN/W111-035S",
+   "name": "繋がる心、始まる友情 マリ",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【起】［このカードを控え室に置く］ あなたは自分の「似た者同士 ヨハネ」を1枚選び、そのターン中、パワーを＋1000し、次の能力を与える。『【自】 このカードのバトル相手が【リバース】した時、あなたは自分の控え室の《心の音》のキャラを1枚まで選び、ストック置場に置き、自分の山札の上から1枚を公開する。そのカードのレベルが1以上ならストック置場に置く。』（クライマックスのレベルは0として扱う。そうでないなら元に戻す）\n【起】 共鳴 ［(1) 手札の「似た者同士 ヨハネ」を1枚公開し、このカードを【レスト】する］ あなたは自分の山札を上から3枚まで見て、《心の音》のキャラを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。\n\"-\"",
+   "traits": [
+    "心の音"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yhn_w111/yhn_w111_035s.png",
+   "variant": ""
+  },
+  {
+   "num": "YHN/W111-036",
+   "name": "繋がる心、始まる友情 ヨハネ",
+   "type": "Character",
+   "rarity": "U",
+   "color": "green",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】［(1) 手札を1枚控え室に置く］ このカードのアタック中、あなたがカードを引いた時、あなたはコストを払ってよい。そうしたら、相手に1ダメージを与える。（ダメージキャンセルは発生する）\n【自】【CXコンボ】 あなたのクライマックス置場に「ひとみしりのハーモニー」が置かれた時、前列にこのカードがいるなら、そのターン中、このカードのパワーを＋1000し、次の相手のターンの終わりまで、このカードは次の2つの能力を得る。『【永】 相手のターン中、このカードは【リバース】しない。』『【自】 このカードがアタックした時、あなたは2枚まで引き、自分の手札を同じ枚数選び、控え室に置く。』\n\"-\"",
+   "traits": [
+    "心の音"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yhn_w111/yhn_w111_036.png",
+   "variant": ""
+  },
+  {
+   "num": "YHN/W111-036S",
+   "name": "繋がる心、始まる友情 ヨハネ",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】［(1) 手札を1枚控え室に置く］ このカードのアタック中、あなたがカードを引いた時、あなたはコストを払ってよい。そうしたら、相手に1ダメージを与える。（ダメージキャンセルは発生する）\n【自】【CXコンボ】 あなたのクライマックス置場に「ひとみしりのハーモニー」が置かれた時、前列にこのカードがいるなら、そのターン中、このカードのパワーを＋1000し、次の相手のターンの終わりまで、このカードは次の2つの能力を得る。『【永】 相手のターン中、このカードは【リバース】しない。』『【自】 このカードがアタックした時、あなたは2枚まで引き、自分の手札を同じ枚数選び、控え室に置く。』\n\"-\"",
+   "traits": [
+    "心の音"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yhn_w111/yhn_w111_036s.png",
+   "variant": ""
+  },
+  {
+   "num": "YHN/W111-037",
+   "name": "“宿題”探し ヨハネの母",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは相手のキャラを1枚選び、次の相手のターンの終わりまで、次の能力を与える。『【永】 このカードは他の枠に動かせない。』\n【起】［このカードを【レスト】する］ あなたは自分の《心の音》のキャラを1枚選び、そのターン中、パワーを＋1500。\n\"-\"",
+   "traits": [
+    "心の音"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yhn_w111/yhn_w111_037.png",
+   "variant": ""
+  },
+  {
+   "num": "YHN/W111-038",
+   "name": "冥界を束ねる者 マリ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードがダイレクトアタックした時、そのターン中、このカードのソウルを＋1。\n【自】［(1) このカードを控え室に置く］ 他のあなたの《心の音》のキャラがフロントアタックされた時、あなたはコストを払ってよい。そうしたら、そのキャラを手札に戻す。\n\"-\"",
+   "traits": [
+    "心の音"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yhn_w111/yhn_w111_038.png",
+   "variant": ""
+  },
+  {
+   "num": "YHN/W111-038S",
+   "name": "冥界を束ねる者 マリ",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードがダイレクトアタックした時、そのターン中、このカードのソウルを＋1。\n【自】［(1) このカードを控え室に置く］ 他のあなたの《心の音》のキャラがフロントアタックされた時、あなたはコストを払ってよい。そうしたら、そのキャラを手札に戻す。\n\"-\"",
+   "traits": [
+    "心の音"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yhn_w111/yhn_w111_038s.png",
+   "variant": ""
+  },
+  {
+   "num": "YHN/W111-039",
+   "name": "素直になれないお年頃 ヨハネ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 あなたのクライマックスフェイズの始めに、相手は自分のストックの上から2枚を、控え室に置いてよい。そうしたら、そのターン中、このカードはフロントアタックできない。\n\"-\"",
+   "traits": [
+    "心の音"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yhn_w111/yhn_w111_039.png",
+   "variant": ""
+  },
+  {
+   "num": "YHN/W111-040",
+   "name": "君のそばで見守る ライラプス",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、そのターン中、このカードのパワーを＋1500。\n【自】 あなたのトリガーアイコンが[[treasure.gif]]のクライマックスがクライマックス置場に置かれた時、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋1000し、次の能力を与える。『【自】 このカードのバトル相手が【リバース】した時、あなたは相手のクロックの上から1枚を、控え室に置いてよい。そうしたら、あなたはそのキャラをクロック置場に置く。』\n\"-\"",
+   "traits": [
+    "心の音"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yhn_w111/yhn_w111_040.png",
+   "variant": ""
+  },
+  {
+   "num": "YHN/W111-041",
+   "name": "困り顔 ライラプス",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "1",
+   "cost": "1",
+   "power": "500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 あなたがこのカードの『助太刀』を使った時、あなたは自分の山札の上から1枚を公開する。そのカードが《心の音》のキャラなら手札に加え、あなたは自分の手札を1枚選び、控え室に置く。（そうでないなら元に戻す）\n【起】【カウンター】 助太刀2000 レベル1 ［(1) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋2000）\n\"-\"",
+   "traits": [
+    "心の音"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yhn_w111/yhn_w111_041.png",
+   "variant": ""
+  },
+  {
+   "num": "YHN/W111-042",
+   "name": "魔王族の末裔 マリ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "1",
+   "cost": "1",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から3枚を、控え室に置く。それらのカードにクライマックスがあるなら、あなたは1枚引いてよい。\n【自】 このカードが【リバース】した時、このカードのバトル相手のレベルが相手のレベルより高いなら、あなたは相手のクロックの上から1枚を、控え室に置いてよい。そうしたら、あなたはそのキャラをクロック置場に置く。\n\"-\"",
+   "traits": [
+    "心の音"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yhn_w111/yhn_w111_042.png",
+   "variant": ""
+  },
+  {
+   "num": "YHN/W111-043",
+   "name": "大人っぽい笑み マリ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "2",
+   "cost": "1",
+   "power": "5500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたの《心の音》のキャラが4枚以上なら、あなたの手札のこのカードのレベルを－1。\n【永】 あなたのターン中、他のあなたの《心の音》のキャラが2枚以上なら、このカードのパワーを＋6000。\n【自】【CXコンボ】［あなたのクライマックス置場の「貰った勇気、広がる世界」を1枚控え室に置く］ このカードのバトル相手が【リバース】した時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を上から4枚まで見て、《心の音》のキャラを4枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。\n\"-\"",
+   "traits": [
+    "心の音"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yhn_w111/yhn_w111_043.png",
+   "variant": ""
+  },
+  {
+   "num": "YHN/W111-044",
+   "name": "似た者同士 ヨハネ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "2",
+   "cost": "1",
+   "power": "8500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "-\n\"-\"",
+   "traits": [
+    "心の音"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yhn_w111/yhn_w111_044.png",
+   "variant": ""
+  },
+  {
+   "num": "YHN/W111-044S",
+   "name": "似た者同士 ヨハネ",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "2",
+   "cost": "1",
+   "power": "8500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "-\n\"-\"",
+   "traits": [
+    "心の音"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yhn_w111/yhn_w111_044s.png",
+   "variant": ""
+  },
+  {
+   "num": "YHN/W111-045",
+   "name": "心の音は響き合う",
+   "type": "Event",
+   "rarity": "U",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "集中 あなたは自分の山札の上から3枚をめくり、控え室に置く。あなたは自分の控え室のレベルＸ以下の《心の音》のキャラを1枚選び、手札に戻す。Ｘはそれらのカードの《心の音》のキャラの枚数に等しい。\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yhn_w111/yhn_w111_045.png",
+   "variant": ""
+  },
+  {
+   "num": "YHN/W111-046",
+   "name": "君と紡ぐ心の音",
+   "type": "Climax",
+   "rarity": "CR",
+   "color": "green",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[treasure.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[treasure.gif]]：このカードがトリガーした時、あなたはこのカードを手札に戻す。あなたは自分の山札の上から1枚を、ストック置場に置いてよい）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yhn_w111/yhn_w111_046.png",
+   "variant": ""
+  },
+  {
+   "num": "YHN/W111-046OFR",
+   "name": "君と紡ぐ心の音",
+   "type": "Climax",
+   "rarity": "OFR",
+   "color": "green",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[treasure.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[treasure.gif]]：このカードがトリガーした時、あなたはこのカードを手札に戻す。あなたは自分の山札の上から1枚を、ストック置場に置いてよい）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yhn_w111/yhn_w111_046ofr.png",
+   "variant": ""
+  },
+  {
+   "num": "YHN/W111-047",
+   "name": "君と歩んだ日々",
+   "type": "Climax",
+   "rarity": "CC",
+   "color": "green",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[stock.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[stock.gif]]：このカードがトリガーした時、あなたは自分の山札の上から1枚を、ストック置場に置いてよい）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yhn_w111/yhn_w111_047.png",
+   "variant": ""
+  },
+  {
+   "num": "YHN/W111-047R",
+   "name": "君と歩んだ日々",
+   "type": "Climax",
+   "rarity": "RRR",
+   "color": "green",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[stock.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[stock.gif]]：このカードがトリガーした時、あなたは自分の山札の上から1枚を、ストック置場に置いてよい）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yhn_w111/yhn_w111_047r.png",
+   "variant": ""
+  },
+  {
+   "num": "YHN/W111-048",
+   "name": "世界は歌で満たされる",
+   "type": "Climax",
+   "rarity": "CC",
+   "color": "green",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[treasure.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[treasure.gif]]：このカードがトリガーした時、あなたはこのカードを手札に戻す。あなたは自分の山札の上から1枚を、ストック置場に置いてよい）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yhn_w111/yhn_w111_048.png",
+   "variant": ""
+  },
+  {
+   "num": "YHN/W111-048R",
+   "name": "世界は歌で満たされる",
+   "type": "Climax",
+   "rarity": "RRR",
+   "color": "green",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[treasure.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[treasure.gif]]：このカードがトリガーした時、あなたはこのカードを手札に戻す。あなたは自分の山札の上から1枚を、ストック置場に置いてよい）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yhn_w111/yhn_w111_048r.png",
+   "variant": ""
+  },
+  {
+   "num": "YHN/W111-049",
+   "name": "貰った勇気、広がる世界",
+   "type": "Climax",
+   "rarity": "CC",
+   "color": "green",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[stock.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[stock.gif]]：このカードがトリガーした時、あなたは自分の山札の上から1枚を、ストック置場に置いてよい）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yhn_w111/yhn_w111_049.png",
+   "variant": ""
+  },
+  {
+   "num": "YHN/W111-049R",
+   "name": "貰った勇気、広がる世界",
+   "type": "Climax",
+   "rarity": "RRR",
+   "color": "green",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[stock.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[stock.gif]]：このカードがトリガーした時、あなたは自分の山札の上から1枚を、ストック置場に置いてよい）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yhn_w111/yhn_w111_049r.png",
+   "variant": ""
+  },
+  {
+   "num": "YHN/W111-050",
+   "name": "お菓子作り ハナマル",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードがアタックした時、他のあなたの《心の音》のキャラがいるなら、そのターン中、このカードのパワーを＋3500し、前列の中央の枠にこのカードがいるなら、次の相手のターンの終わりまで、このカードは『【自】 アンコール ［手札のキャラを1枚控え室に置く］』を得る。\n【自】【CXコンボ】［手札を1枚控え室に置く］ このカードのアタックの終わりに、クライマックス置場に「おかえり」があり、このカードの正面のキャラがいないか【リバース】しているなら、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の、《心の音》のキャラを1枚までと《心の音》のキャラか「お菓子をどうぞ」を1枚まで選び、手札に戻す。\n\"-\"",
+   "traits": [
+    "心の音"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yhn_w111/yhn_w111_050.png",
+   "variant": ""
+  },
+  {
+   "num": "YHN/W111-050SP",
+   "name": "お菓子作り ハナマル",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードがアタックした時、他のあなたの《心の音》のキャラがいるなら、そのターン中、このカードのパワーを＋3500し、前列の中央の枠にこのカードがいるなら、次の相手のターンの終わりまで、このカードは『【自】 アンコール ［手札のキャラを1枚控え室に置く］』を得る。\n【自】【CXコンボ】［手札を1枚控え室に置く］ このカードのアタックの終わりに、クライマックス置場に「おかえり」があり、このカードの正面のキャラがいないか【リバース】しているなら、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の、《心の音》のキャラを1枚までと《心の音》のキャラか「お菓子をどうぞ」を1枚まで選び、手札に戻す。\n\"-\"",
+   "traits": [
+    "心の音"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yhn_w111/yhn_w111_050sp.png",
+   "variant": ""
+  },
+  {
+   "num": "YHN/W111-051",
+   "name": "スイーツ大好き ダイヤ",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのターン中、このカードのパワーを＋3000。\n【自】［手札を1枚控え室に置くか、あなたのストックの上から1枚を控え室に置く］ このカードが手札から舞台に置かれたターン中、このカードのバトル相手が【リバース】した時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を上から4枚まで見て、《心の音》のキャラを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。\n\"-\"",
+   "traits": [
+    "心の音"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yhn_w111/yhn_w111_051.png",
+   "variant": ""
+  },
+  {
+   "num": "YHN/W111-051SP",
+   "name": "スイーツ大好き ダイヤ",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのターン中、このカードのパワーを＋3000。\n【自】［手札を1枚控え室に置くか、あなたのストックの上から1枚を控え室に置く］ このカードが手札から舞台に置かれたターン中、このカードのバトル相手が【リバース】した時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を上から4枚まで見て、《心の音》のキャラを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。\n\"-\"",
+   "traits": [
+    "心の音"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yhn_w111/yhn_w111_051sp.png",
+   "variant": ""
+  },
+  {
+   "num": "YHN/W111-052",
+   "name": "フルーツをどうぞ！ ルビィ",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "8500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードがアタックした時、あなたは自分の山札の上から1枚を公開する。そのカードが《心の音》のキャラなら、あなたは相手に1ダメージを与えてよい。（ダメージキャンセルは発生する。公開したカードは元に戻す）\n【自】 このカードのバトル相手が【リバース】した時、あなたはこのカードを手札に戻してよい。\n【自】 このカードが【リバース】した時、他のあなたの《心の音》のキャラが2枚以上で、このカードのバトル相手のレベルが3以下なら、あなたはそのバトル相手を【リバース】してよい。\n\"-\"",
+   "traits": [
+    "心の音"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yhn_w111/yhn_w111_052.png",
+   "variant": ""
+  },
+  {
+   "num": "YHN/W111-052SP",
+   "name": "フルーツをどうぞ！ ルビィ",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "8500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードがアタックした時、あなたは自分の山札の上から1枚を公開する。そのカードが《心の音》のキャラなら、あなたは相手に1ダメージを与えてよい。（ダメージキャンセルは発生する。公開したカードは元に戻す）\n【自】 このカードのバトル相手が【リバース】した時、あなたはこのカードを手札に戻してよい。\n【自】 このカードが【リバース】した時、他のあなたの《心の音》のキャラが2枚以上で、このカードのバトル相手のレベルが3以下なら、あなたはそのバトル相手を【リバース】してよい。\n\"-\"",
+   "traits": [
+    "心の音"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yhn_w111/yhn_w111_052sp.png",
+   "variant": ""
+  },
+  {
+   "num": "YHN/W111-053",
+   "name": "重なる心の音 ハナマル",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札の上から1枚を公開し、自分の控え室のレベルＸ以下のキャラを1枚選び、手札に戻す。Ｘは公開されたカードのレベルに等しい。（クライマックスのレベルは0として扱う。公開したカードは元に戻す）\n\"-\"",
+   "traits": [
+    "心の音"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yhn_w111/yhn_w111_053.png",
+   "variant": ""
+  },
+  {
+   "num": "YHN/W111-053OFR",
+   "name": "重なる心の音 ハナマル",
+   "type": "Character",
+   "rarity": "OFR",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札の上から1枚を公開し、自分の控え室のレベルＸ以下のキャラを1枚選び、手札に戻す。Ｘは公開されたカードのレベルに等しい。（クライマックスのレベルは0として扱う。公開したカードは元に戻す）\n\"-\"",
+   "traits": [
+    "心の音"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yhn_w111/yhn_w111_053ofr.png",
+   "variant": ""
+  },
+  {
+   "num": "YHN/W111-054",
+   "name": "重なる心の音 ルビィ",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［手札の《心の音》のキャラを1枚控え室に置く］ このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札の上から2枚を公開し、相手はそれらのカードのキャラかイベントを1枚選び、あなたの手札に加え、残りのカードを控え室に置く。\n【起】 集中 ［(1) このカードを【レスト】する］ あなたは自分の山札の上から4枚をめくり、控え室に置く。それらのカードのクライマックス1枚につき、あなたは自分の控え室のキャラを1枚まで選び、手札に戻す。\n\"-\"",
+   "traits": [
+    "心の音"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yhn_w111/yhn_w111_054.png",
+   "variant": ""
+  },
+  {
+   "num": "YHN/W111-054OFR",
+   "name": "重なる心の音 ルビィ",
+   "type": "Character",
+   "rarity": "OFR",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［手札の《心の音》のキャラを1枚控え室に置く］ このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札の上から2枚を公開し、相手はそれらのカードのキャラかイベントを1枚選び、あなたの手札に加え、残りのカードを控え室に置く。\n【起】 集中 ［(1) このカードを【レスト】する］ あなたは自分の山札の上から4枚をめくり、控え室に置く。それらのカードのクライマックス1枚につき、あなたは自分の控え室のキャラを1枚まで選び、手札に戻す。\n\"-\"",
+   "traits": [
+    "心の音"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yhn_w111/yhn_w111_054ofr.png",
+   "variant": ""
+  },
+  {
+   "num": "YHN/W111-055",
+   "name": "“コランダムストライダー” ルビィ",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "1",
+   "cost": "1",
+   "power": "500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 応援 このカードの前のあなたの《心の音》のキャラすべてに、パワーを＋Ｘ。Ｘはそのキャラのレベル×500に等しい。\n【自】［(1)］ この能力は1ターンにつき1回まで発動する。あなたが『加速』を使った時、あなたはコストを払ってよい。そうしたら、あなたは自分のクロックの上から1枚を、控え室に置く。\n【起】［このカードを【レスト】する］ あなたは自分のキャラを1枚選び、そのターン中、パワーを＋1000。\n\"お姉ちゃーん\"",
+   "traits": [
+    "心の音"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yhn_w111/yhn_w111_055.png",
+   "variant": ""
+  },
+  {
+   "num": "YHN/W111-055S",
+   "name": "“コランダムストライダー” ルビィ",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "1",
+   "cost": "1",
+   "power": "500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 応援 このカードの前のあなたの《心の音》のキャラすべてに、パワーを＋Ｘ。Ｘはそのキャラのレベル×500に等しい。\n【自】［(1)］ この能力は1ターンにつき1回まで発動する。あなたが『加速』を使った時、あなたはコストを払ってよい。そうしたら、あなたは自分のクロックの上から1枚を、控え室に置く。\n【起】［このカードを【レスト】する］ あなたは自分のキャラを1枚選び、そのターン中、パワーを＋1000。\n\"-\"",
+   "traits": [
+    "心の音"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yhn_w111/yhn_w111_055s.png",
+   "variant": ""
+  },
+  {
+   "num": "YHN/W111-056",
+   "name": "重なる心の音 ダイヤ",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "1",
+   "cost": "1",
+   "power": "5500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの《心の音》のキャラが2枚以上なら、このカードのパワーを＋2000。\n【自】 アンコール ［あなたの控え室の《心の音》のキャラを1枚クロック置場の下に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"-\"",
+   "traits": [
+    "心の音"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yhn_w111/yhn_w111_056.png",
+   "variant": ""
+  },
+  {
+   "num": "YHN/W111-056OFR",
+   "name": "重なる心の音 ダイヤ",
+   "type": "Character",
+   "rarity": "OFR",
+   "color": "red",
+   "level": "1",
+   "cost": "1",
+   "power": "5500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの《心の音》のキャラが2枚以上なら、このカードのパワーを＋2000。\n【自】 アンコール ［あなたの控え室の《心の音》のキャラを1枚クロック置場の下に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"-\"",
+   "traits": [
+    "心の音"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yhn_w111/yhn_w111_056ofr.png",
+   "variant": ""
+  },
+  {
+   "num": "YHN/W111-057",
+   "name": "美味しいものが大好き ハナマル",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "6500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの《心の音》のキャラすべてに、パワーを＋1500。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札を上から3枚まで見て、カードを1枚まで選び、手札に加え、残りのカードを控え室に置く。\n【起】［(2) このカードを【レスト】する］ あなたは自分のクロックの上から1枚を、控え室に置く。\n\"-\"",
+   "traits": [
+    "心の音"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yhn_w111/yhn_w111_057.png",
+   "variant": ""
+  },
+  {
+   "num": "YHN/W111-057S",
+   "name": "美味しいものが大好き ハナマル",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "6500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの《心の音》のキャラすべてに、パワーを＋1500。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札を上から3枚まで見て、カードを1枚まで選び、手札に加え、残りのカードを控え室に置く。\n【起】［(2) このカードを【レスト】する］ あなたは自分のクロックの上から1枚を、控え室に置く。\n\"-\"",
+   "traits": [
+    "心の音"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yhn_w111/yhn_w111_057s.png",
+   "variant": ""
+  },
+  {
+   "num": "YHN/W111-058",
+   "name": "紅の装甲纏いしライダー ダイヤ",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "8000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたのキャラすべてが《心の音》なら、このカードのパワーを＋2000。\n【自】【CXコンボ】［(1) 手札を1枚控え室に置く］ このカードがアタックした時、クライマックス置場に「月光に照らされし刃」があるなら、あなたはコストを払ってよい。そうしたら、相手に2ダメージを与え、あなたは自分のクロックの上から1枚までを、控え室に置く。（ダメージキャンセルは発生する）\n【自】 加速 ［(1) あなたの控え室の《心の音》のキャラを1枚クロック置場の下に置く］ 相手のアタックフェイズの始めに、あなたはコストを払ってよい。そうしたら、あなたは相手のキャラを1枚選び、そのターン中、ソウルを－2。\n\"-\"",
+   "traits": [
+    "心の音"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yhn_w111/yhn_w111_058.png",
+   "variant": ""
+  },
+  {
+   "num": "YHN/W111-058S",
+   "name": "紅の装甲纏いしライダー ダイヤ",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "8000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたのキャラすべてが《心の音》なら、このカードのパワーを＋2000。\n【自】【CXコンボ】［(1) 手札を1枚控え室に置く］ このカードがアタックした時、クライマックス置場に「月光に照らされし刃」があるなら、あなたはコストを払ってよい。そうしたら、相手に2ダメージを与え、あなたは自分のクロックの上から1枚までを、控え室に置く。（ダメージキャンセルは発生する）\n【自】 加速 ［(1) あなたの控え室の《心の音》のキャラを1枚クロック置場の下に置く］ 相手のアタックフェイズの始めに、あなたはコストを払ってよい。そうしたら、あなたは相手のキャラを1枚選び、そのターン中、ソウルを－2。\n\"-\"",
+   "traits": [
+    "心の音"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yhn_w111/yhn_w111_058s.png",
+   "variant": ""
+  },
+  {
+   "num": "YHN/W111-059",
+   "name": "繋がる心、始まる友情 ダイヤ",
+   "type": "Character",
+   "rarity": "U",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの《心の音》のキャラすべてに、パワーを＋500。\n【自】 このカードが手札から舞台に置かれた時、あなたは相手の前列のキャラを1枚選び、そのターン中、パワーを－500。\n【自】 あなたのメインフェイズの始めに、あなたは自分の山札を上から1枚見て、自分のストックすべてを見る。（見たカードは元の順番で戻す）\n\"-\"",
+   "traits": [
+    "心の音"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yhn_w111/yhn_w111_059.png",
+   "variant": ""
+  },
+  {
+   "num": "YHN/W111-059S",
+   "name": "繋がる心、始まる友情 ダイヤ",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの《心の音》のキャラすべてに、パワーを＋500。\n【自】 このカードが手札から舞台に置かれた時、あなたは相手の前列のキャラを1枚選び、そのターン中、パワーを－500。\n【自】 あなたのメインフェイズの始めに、あなたは自分の山札を上から1枚見て、自分のストックすべてを見る。（見たカードは元の順番で戻す）\n\"-\"",
+   "traits": [
+    "心の音"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yhn_w111/yhn_w111_059s.png",
+   "variant": ""
+  },
+  {
+   "num": "YHN/W111-060",
+   "name": "素直 ハナマル",
+   "type": "Character",
+   "rarity": "U",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から1枚を公開する。そのカードが《心の音》のキャラなら、そのターン中、このカードのパワーを＋4000。（公開したカードは元に戻す）\n【自】 このカードが手札から舞台に置かれた時、あなたは自分の《心の音》のキャラを1枚選び、そのターン中、パワーを＋1500。\n\"-\"",
+   "traits": [
+    "心の音"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yhn_w111/yhn_w111_060.png",
+   "variant": ""
+  },
+  {
+   "num": "YHN/W111-060S",
+   "name": "素直 ハナマル",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から1枚を公開する。そのカードが《心の音》のキャラなら、そのターン中、このカードのパワーを＋4000。（公開したカードは元に戻す）\n【自】 このカードが手札から舞台に置かれた時、あなたは自分の《心の音》のキャラを1枚選び、そのターン中、パワーを＋1500。\n\"-\"",
+   "traits": [
+    "心の音"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yhn_w111/yhn_w111_060s.png",
+   "variant": ""
+  },
+  {
+   "num": "YHN/W111-061",
+   "name": "落ち着いた笑み ダイヤ",
+   "type": "Character",
+   "rarity": "U",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［手札のトリガーアイコンが、[[gate.gif]]か[[standby.gif]]のクライマックスを1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の《心の音》のキャラを1枚まで選び、手札に戻し、あなたの控え室のトリガーアイコンが、[[gate.gif]]のクライマックスと[[standby.gif]]のクライマックスがそれぞれ2枚以上なら、自分の控え室の《心の音》のキャラを1枚まで選び、ストック置場に置く。\n\"-\"",
+   "traits": [
+    "心の音"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yhn_w111/yhn_w111_061.png",
+   "variant": ""
+  },
+  {
+   "num": "YHN/W111-061S",
+   "name": "落ち着いた笑み ダイヤ",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［手札のトリガーアイコンが、[[gate.gif]]か[[standby.gif]]のクライマックスを1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の《心の音》のキャラを1枚まで選び、手札に戻し、あなたの控え室のトリガーアイコンが、[[gate.gif]]のクライマックスと[[standby.gif]]のクライマックスがそれぞれ2枚以上なら、自分の控え室の《心の音》のキャラを1枚まで選び、ストック置場に置く。\n\"-\"",
+   "traits": [
+    "心の音"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yhn_w111/yhn_w111_061s.png",
+   "variant": ""
+  },
+  {
+   "num": "YHN/W111-062",
+   "name": "明るい表情 ルビィ",
+   "type": "Character",
+   "rarity": "U",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】【CXコンボ】［このカードを手札に戻し、あなたのクライマックス置場の「バイクと一体化」を1枚控え室に置く］ あなたのクライマックス置場に「バイクと一体化」が置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を上から3枚まで見て、《心の音》のキャラを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置き、自分のキャラを1枚選び、そのターン中、パワーを＋2500。\n\"-\"",
+   "traits": [
+    "心の音"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yhn_w111/yhn_w111_062.png",
+   "variant": ""
+  },
+  {
+   "num": "YHN/W111-062S",
+   "name": "明るい表情 ルビィ",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】【CXコンボ】［このカードを手札に戻し、あなたのクライマックス置場の「バイクと一体化」を1枚控え室に置く］ あなたのクライマックス置場に「バイクと一体化」が置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を上から3枚まで見て、《心の音》のキャラを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置き、自分のキャラを1枚選び、そのターン中、パワーを＋2500。\n\"-\"",
+   "traits": [
+    "心の音"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yhn_w111/yhn_w111_062s.png",
+   "variant": ""
+  },
+  {
+   "num": "YHN/W111-063",
+   "name": "のんびりとした女の子 ハナマル",
+   "type": "Character",
+   "rarity": "U",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、他のあなたの《心の音》のキャラが2枚以上なら、あなたは1枚引いてよい。そうしたら、あなたは自分の手札を1枚選び、控え室に置く。\n【自】 このカードが【リバース】した時、このカードのバトル相手のレベルが1以下なら、あなたはそのキャラを【リバース】してよい。\n\"-\"",
+   "traits": [
+    "心の音"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yhn_w111/yhn_w111_063.png",
+   "variant": ""
+  },
+  {
+   "num": "YHN/W111-063S",
+   "name": "のんびりとした女の子 ハナマル",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、他のあなたの《心の音》のキャラが2枚以上なら、あなたは1枚引いてよい。そうしたら、あなたは自分の手札を1枚選び、控え室に置く。\n【自】 このカードが【リバース】した時、このカードのバトル相手のレベルが1以下なら、あなたはそのキャラを【リバース】してよい。\n\"-\"",
+   "traits": [
+    "心の音"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yhn_w111/yhn_w111_063s.png",
+   "variant": ""
+  },
+  {
+   "num": "YHN/W111-064",
+   "name": "妖精族の末裔 ルビィ",
+   "type": "Character",
+   "rarity": "U",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、そのターン中、このカードのパワーを＋3000。\n【自】 このカードが手札から舞台に置かれたターン中、あなたのターンの終わりに、あなたは自分の前列の《心の音》のキャラを1枚と自分の後列の《心の音》のキャラを1枚選び、それぞれを【レスト】して入れ替えてよい。\n\"-\"",
+   "traits": [
+    "心の音"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yhn_w111/yhn_w111_064.png",
+   "variant": ""
+  },
+  {
+   "num": "YHN/W111-065",
+   "name": "頼れる妹 ルビィ",
+   "type": "Character",
+   "rarity": "U",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 あなたがこのカードの『助太刀』を使った時、あなたは自分のバトル中のキャラを1枚選び、そのターン中、次の能力を与える。『【自】 このカードのバトル相手が【リバース】した時、あなたはそのキャラを思い出にする。』\n【起】【カウンター】 助太刀3000 レベル2 ［(1) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋3000）\n\"-\"",
+   "traits": [
+    "心の音"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yhn_w111/yhn_w111_065.png",
+   "variant": ""
+  },
+  {
+   "num": "YHN/W111-065S",
+   "name": "頼れる妹 ルビィ",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 あなたがこのカードの『助太刀』を使った時、あなたは自分のバトル中のキャラを1枚選び、そのターン中、次の能力を与える。『【自】 このカードのバトル相手が【リバース】した時、あなたはそのキャラを思い出にする。』\n【起】【カウンター】 助太刀3000 レベル2 ［(1) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋3000）\n\"-\"",
+   "traits": [
+    "心の音"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yhn_w111/yhn_w111_065s.png",
+   "variant": ""
+  },
+  {
+   "num": "YHN/W111-066",
+   "name": "才色兼備 ダイヤ",
+   "type": "Character",
+   "rarity": "U",
+   "color": "red",
+   "level": "2",
+   "cost": "2",
+   "power": "6000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの《心の音》のキャラ1枚につき、このカードのパワーを＋1000。\n【自】 アンコール ［手札のキャラを1枚控え室に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"-\"",
+   "traits": [
+    "心の音"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yhn_w111/yhn_w111_066.png",
+   "variant": ""
+  },
+  {
+   "num": "YHN/W111-066S",
+   "name": "才色兼備 ダイヤ",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "2",
+   "cost": "2",
+   "power": "6000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの《心の音》のキャラ1枚につき、このカードのパワーを＋1000。\n【自】 アンコール ［手札のキャラを1枚控え室に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"-\"",
+   "traits": [
+    "心の音"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yhn_w111/yhn_w111_066s.png",
+   "variant": ""
+  },
+  {
+   "num": "YHN/W111-067",
+   "name": "真剣な表情 ルビィ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時か舞台から控え室に置かれた時、あなたは自分の山札の上から2枚を、控え室に置く。それらのカードにクライマックスがあるなら、あなたは相手のキャラを1枚選び、そのターン中、パワーを－1000。\n\"ダイヤ「頑張りましょう」\"",
+   "traits": [
+    "心の音"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yhn_w111/yhn_w111_067.png",
+   "variant": ""
+  },
+  {
+   "num": "YHN/W111-068",
+   "name": "意気込み十分 ルビィ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 前列の中央の枠にこのカードがいるなら、このカードのパワーを＋3000。\n【起】［(1) このカードを控え室に置く］ あなたは自分の山札を上から4枚まで見て、《心の音》のキャラを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。\n\"-\"",
+   "traits": [
+    "心の音"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yhn_w111/yhn_w111_068.png",
+   "variant": ""
+  },
+  {
+   "num": "YHN/W111-068S",
+   "name": "意気込み十分 ルビィ",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 前列の中央の枠にこのカードがいるなら、このカードのパワーを＋3000。\n【起】［(1) このカードを控え室に置く］ あなたは自分の山札を上から4枚まで見て、《心の音》のキャラを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。\n\"あの、せっかくの女子会だから… その、当日…私…とにかく、当日、驚かないでね\"",
+   "traits": [
+    "心の音"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yhn_w111/yhn_w111_068s.png",
+   "variant": ""
+  },
+  {
+   "num": "YHN/W111-069",
+   "name": "頼れる右腕 コハク",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、そのターン中、このカードのパワーを＋3000。\n【自】［手札の《心の音》のキャラを1枚控え室に置く］ このカードが手札から舞台に置かれた時か舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは1枚引く。\n\"-\"",
+   "traits": [
+    "心の音"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yhn_w111/yhn_w111_069.png",
+   "variant": ""
+  },
+  {
+   "num": "YHN/W111-070",
+   "name": "繋がる心、始まる友情 ハナマル",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードがアタックした時、あなたは他の自分の《心の音》のキャラを1枚選び、次の相手のターンの終わりまで、次の能力を与える。『【永】 相手のターン中、このカードのパワーを＋3000。』\n\"-\"",
+   "traits": [
+    "心の音"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yhn_w111/yhn_w111_070.png",
+   "variant": ""
+  },
+  {
+   "num": "YHN/W111-070S",
+   "name": "繋がる心、始まる友情 ハナマル",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードがアタックした時、あなたは他の自分の《心の音》のキャラを1枚選び、次の相手のターンの終わりまで、次の能力を与える。『【永】 相手のターン中、このカードのパワーを＋3000。』\n\"-\"",
+   "traits": [
+    "心の音"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yhn_w111/yhn_w111_070s.png",
+   "variant": ""
+  },
+  {
+   "num": "YHN/W111-071",
+   "name": "冷静沈着 ダイヤ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 相手のキャラすべてに、『【自】 アンコール ［(2)］』を与える。\n\"-\"",
+   "traits": [
+    "心の音"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yhn_w111/yhn_w111_071.png",
+   "variant": ""
+  },
+  {
+   "num": "YHN/W111-072",
+   "name": "パティシエ ハナマル",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのターン中、このカードのパワーを＋1000。\n【自】 このカードがアタックした時、あなたは他の自分の《心の音》のキャラを1枚選び、そのターン中、パワーを＋Ｘ。Ｘは他のあなたの《心の音》のキャラの枚数×500に等しい。\n\"-\"",
+   "traits": [
+    "心の音"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yhn_w111/yhn_w111_072.png",
+   "variant": ""
+  },
+  {
+   "num": "YHN/W111-073",
+   "name": "ヌマヅ執務長官 ダイヤ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "1",
+   "cost": "1",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたのターン中、他のあなたの《心の音》のキャラがいるなら、このカードのパワーを＋3000。\n【永】 このカードの正面のキャラのコストが0以下なら、このカードは【リバース】しない。\n\"-\"",
+   "traits": [
+    "心の音"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yhn_w111/yhn_w111_073.png",
+   "variant": ""
+  },
+  {
+   "num": "YHN/W111-074",
+   "name": "優しい笑顔 ハナマル",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "7000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードがアタックした時、このカードの正面のキャラのレベルが3以上なら、そのターン中、このカードのパワーを＋6000し、ソウルを＋2。\n\"-\"",
+   "traits": [
+    "心の音"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yhn_w111/yhn_w111_074.png",
+   "variant": ""
+  },
+  {
+   "num": "YHN/W111-075",
+   "name": "お菓子をどうぞ",
+   "type": "Event",
+   "rarity": "U",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "【カウンター】 次の2つの効果のうちあなたが選んだ1つを行う。\n『あなたの《心の音》のキャラが3枚以上なら、あなたは自分の山札を上から4枚まで見て、《心の音》のキャラを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。』\n『あなたは自分の「お菓子作り ハナマル」を1枚選び、そのターン中、次の能力を与える。『【永】 相手のターン中、このカードのバトル相手とこのカードは【リバース】しない。』』\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yhn_w111/yhn_w111_075.png",
+   "variant": ""
+  },
+  {
+   "num": "YHN/W111-076",
+   "name": "おかえり",
+   "type": "Climax",
+   "rarity": "CR",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[salvage.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[salvage.gif]]：このカードがトリガーした時、あなたは自分の控え室のキャラを1枚選び、手札に戻してよい）\n\"ヨハネちゃん\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yhn_w111/yhn_w111_076.png",
+   "variant": ""
+  },
+  {
+   "num": "YHN/W111-076R",
+   "name": "おかえり",
+   "type": "Climax",
+   "rarity": "RRR",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[salvage.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[salvage.gif]]：このカードがトリガーした時、あなたは自分の控え室のキャラを1枚選び、手札に戻してよい）\n\"おかえり\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yhn_w111/yhn_w111_076r.png",
+   "variant": ""
+  },
+  {
+   "num": "YHN/W111-077",
+   "name": "月光に照らされし刃",
+   "type": "Climax",
+   "rarity": "CC",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[standby.gif]]",
+   "text": "【自】 このカードが手札からクライマックス置場に置かれた時、[[standby.gif]]の効果を行う。\n（[[standby.gif]]：このカードがトリガーした時、あなたは自分の控え室の自分のレベル＋1以下のレベルのキャラを1枚選び、舞台の好きな枠に【レスト】して置いてよい）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yhn_w111/yhn_w111_077.png",
+   "variant": ""
+  },
+  {
+   "num": "YHN/W111-077R",
+   "name": "月光に照らされし刃",
+   "type": "Climax",
+   "rarity": "RRR",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[standby.gif]]",
+   "text": "【自】 このカードが手札からクライマックス置場に置かれた時、[[standby.gif]]の効果を行う。\n（[[standby.gif]]：このカードがトリガーした時、あなたは自分の控え室の自分のレベル＋1以下のレベルのキャラを1枚選び、舞台の好きな枠に【レスト】して置いてよい）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yhn_w111/yhn_w111_077r.png",
+   "variant": ""
+  },
+  {
+   "num": "YHN/W111-078",
+   "name": "バイクと一体化",
+   "type": "Climax",
+   "rarity": "CC",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[standby.gif]]",
+   "text": "【自】 このカードが手札からクライマックス置場に置かれた時、[[standby.gif]]の効果を行う。\n（[[standby.gif]]：このカードがトリガーした時、あなたは自分の控え室の自分のレベル＋1以下のレベルのキャラを1枚選び、舞台の好きな枠に【レスト】して置いてよい）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yhn_w111/yhn_w111_078.png",
+   "variant": ""
+  },
+  {
+   "num": "YHN/W111-078R",
+   "name": "バイクと一体化",
+   "type": "Climax",
+   "rarity": "RRR",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[standby.gif]]",
+   "text": "【自】 このカードが手札からクライマックス置場に置かれた時、[[standby.gif]]の効果を行う。\n（[[standby.gif]]：このカードがトリガーした時、あなたは自分の控え室の自分のレベル＋1以下のレベルのキャラを1枚選び、舞台の好きな枠に【レスト】して置いてよい）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yhn_w111/yhn_w111_078r.png",
+   "variant": ""
+  },
+  {
+   "num": "YHN/W111-079",
+   "name": "ありのままでいられる瞬間 リコ",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［手札を1枚控え室に置く］ あなたのクライマックスがクライマックス置場に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札の上から1枚を公開し、自分の控え室のレベルＸ以下のキャラを1枚選び、手札に戻す。Ｘは公開されたカードのレベルに等しい。（クライマックスのレベルは0として扱う。公開したカードは元に戻す）\n【起】 集中 ［(1) このカードを【レスト】する］ あなたは自分の山札の上から4枚をめくり、控え室に置く。それらのカードのクライマックス1枚につき、次の行動を行う。『あなたは自分の山札を上から3枚まで見て、カードを1枚まで選び、手札に加え、残りのカードを控え室に置く。』\n\"-\"",
+   "traits": [
+    "心の音"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yhn_w111/yhn_w111_079.png",
+   "variant": ""
+  },
+  {
+   "num": "YHN/W111-079SP",
+   "name": "ありのままでいられる瞬間 リコ",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［手札を1枚控え室に置く］ あなたのクライマックスがクライマックス置場に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札の上から1枚を公開し、自分の控え室のレベルＸ以下のキャラを1枚選び、手札に戻す。Ｘは公開されたカードのレベルに等しい。（クライマックスのレベルは0として扱う。公開したカードは元に戻す）\n【起】 集中 ［(1) このカードを【レスト】する］ あなたは自分の山札の上から4枚をめくり、控え室に置く。それらのカードのクライマックス1枚につき、次の行動を行う。『あなたは自分の山札を上から3枚まで見て、カードを1枚まで選び、手札に加え、残りのカードを控え室に置く。』\n\"-\"",
+   "traits": [
+    "心の音"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yhn_w111/yhn_w111_079sp.png",
+   "variant": ""
+  },
+  {
+   "num": "YHN/W111-080",
+   "name": "ヌマヅを守る怪傑 チカ",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのターン中、このカードのパワーを＋2000。\n【自】【CXコンボ】 このカードがアタックした時、クライマックス置場に「パップガン」があり、他のあなたの《心の音》のキャラが2枚以上なら、次の2つの効果のうちあなたが選んだ1つを行う。『あなたは自分の山札を上から4枚まで見て、《心の音》のキャラを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。』『あなたは自分の控え室のレベル2以上の《心の音》のキャラを1枚選び、手札に戻す。』\n\"-\"",
+   "traits": [
+    "心の音"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yhn_w111/yhn_w111_080.png",
+   "variant": ""
+  },
+  {
+   "num": "YHN/W111-080SP",
+   "name": "ヌマヅを守る怪傑 チカ",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのターン中、このカードのパワーを＋2000。\n【自】【CXコンボ】 このカードがアタックした時、クライマックス置場に「パップガン」があり、他のあなたの《心の音》のキャラが2枚以上なら、次の2つの効果のうちあなたが選んだ1つを行う。『あなたは自分の山札を上から4枚まで見て、《心の音》のキャラを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。』『あなたは自分の控え室のレベル2以上の《心の音》のキャラを1枚選び、手札に戻す。』\n\"-\"",
+   "traits": [
+    "心の音"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yhn_w111/yhn_w111_080sp.png",
+   "variant": ""
+  },
+  {
+   "num": "YHN/W111-081",
+   "name": "秘密兵器 チカ",
+   "type": "Character",
+   "rarity": "R",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、他のあなたの《心の音》のキャラがいるなら、次の相手のターンの終わりまで、このカードのパワーを＋2000。\n【自】［(1) 手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは相手のキャラを1枚選び、手札に戻す。\n\"シマ「子猫ちゃん、危ないから隠れてて」\"",
+   "traits": [
+    "心の音"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yhn_w111/yhn_w111_081.png",
+   "variant": ""
+  },
+  {
+   "num": "YHN/W111-081S",
+   "name": "秘密兵器 チカ",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、他のあなたの《心の音》のキャラがいるなら、次の相手のターンの終わりまで、このカードのパワーを＋2000。\n【自】［(1) 手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは相手のキャラを1枚選び、手札に戻す。\n\"-\"",
+   "traits": [
+    "心の音"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yhn_w111/yhn_w111_081s.png",
+   "variant": ""
+  },
+  {
+   "num": "YHN/W111-082",
+   "name": "お茶目な一面 リコ",
+   "type": "Character",
+   "rarity": "R",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのターン中、このカードのパワーを＋1000。\n【自】 このカードのバトル相手が【リバース】した時、あなたは他の自分の《心の音》のキャラを1枚選び、【レスト】し、後列のキャラのいない枠に動かす。\n\"-\"",
+   "traits": [
+    "心の音"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yhn_w111/yhn_w111_082.png",
+   "variant": ""
+  },
+  {
+   "num": "YHN/W111-082S",
+   "name": "お茶目な一面 リコ",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのターン中、このカードのパワーを＋1000。\n【自】 このカードのバトル相手が【リバース】した時、あなたは他の自分の《心の音》のキャラを1枚選び、【レスト】し、後列のキャラのいない枠に動かす。\n\"-\"",
+   "traits": [
+    "心の音"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yhn_w111/yhn_w111_082s.png",
+   "variant": ""
+  },
+  {
+   "num": "YHN/W111-083",
+   "name": "重なる心の音 チカ",
+   "type": "Character",
+   "rarity": "R",
+   "color": "blue",
+   "level": "3",
+   "cost": "2",
+   "power": "8500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたの控え室のクライマックスが2枚以下なら、あなたの手札のこのカードのレベルを－1。\n【永】 あなたのキャラすべてが《心の音》なら、このカードのパワーを＋1500し、このカードは『【自】 アンコール ［手札のキャラを1枚控え室に置く］』を得る。\n【永】 前列にこのカードがいるなら、あなたの《心の音》のキャラすべてに、パワーを＋1500。\n\"-\"",
+   "traits": [
+    "心の音"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yhn_w111/yhn_w111_083.png",
+   "variant": ""
+  },
+  {
+   "num": "YHN/W111-083OFR",
+   "name": "重なる心の音 チカ",
+   "type": "Character",
+   "rarity": "OFR",
+   "color": "blue",
+   "level": "3",
+   "cost": "2",
+   "power": "8500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたの控え室のクライマックスが2枚以下なら、あなたの手札のこのカードのレベルを－1。\n【永】 あなたのキャラすべてが《心の音》なら、このカードのパワーを＋1500し、このカードは『【自】 アンコール ［手札のキャラを1枚控え室に置く］』を得る。\n【永】 前列にこのカードがいるなら、あなたの《心の音》のキャラすべてに、パワーを＋1500。\n\"-\"",
+   "traits": [
+    "心の音"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yhn_w111/yhn_w111_083ofr.png",
+   "variant": ""
+  },
+  {
+   "num": "YHN/W111-084",
+   "name": "重なる心の音 リコ",
+   "type": "Character",
+   "rarity": "R",
+   "color": "blue",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n【自】【CXコンボ】［(1)］ この能力は1ターンにつき1回まで発動する。このカードのアタックの終わりに、クライマックス置場に「ひとりぼっちだから分かり合えた心」があるなら、あなたはコストを払ってよい。そうしたら、あなたは自分の山札の上から1枚を公開する。そのカードが《心の音》のキャラなら、このカードを【スタンド】する。（公開したカードは元に戻す）\n\"-\"",
+   "traits": [
+    "心の音"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yhn_w111/yhn_w111_084.png",
+   "variant": ""
+  },
+  {
+   "num": "YHN/W111-084OFR",
+   "name": "重なる心の音 リコ",
+   "type": "Character",
+   "rarity": "OFR",
+   "color": "blue",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n【自】【CXコンボ】［(1)］ この能力は1ターンにつき1回まで発動する。このカードのアタックの終わりに、クライマックス置場に「ひとりぼっちだから分かり合えた心」があるなら、あなたはコストを払ってよい。そうしたら、あなたは自分の山札の上から1枚を公開する。そのカードが《心の音》のキャラなら、このカードを【スタンド】する。（公開したカードは元に戻す）\n\"-\"",
+   "traits": [
+    "心の音"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yhn_w111/yhn_w111_084ofr.png",
+   "variant": ""
+  },
+  {
+   "num": "YHN/W111-085",
+   "name": "探究心旺盛 リコ",
+   "type": "Character",
+   "rarity": "U",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋500。\n【自】［このカードを控え室に置く］ 他のあなたの《心の音》のキャラが舞台から控え室に置かれた時、後列にこのカードがいるなら、あなたはコストを払ってよい。そうしたら、そのキャラをそのキャラがいた枠に【レスト】して置く。\n\"-\"",
+   "traits": [
+    "心の音"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yhn_w111/yhn_w111_085.png",
+   "variant": ""
+  },
+  {
+   "num": "YHN/W111-085S",
+   "name": "探究心旺盛 リコ",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋500。\n【自】［このカードを控え室に置く］ 他のあなたの《心の音》のキャラが舞台から控え室に置かれた時、後列にこのカードがいるなら、あなたはコストを払ってよい。そうしたら、そのキャラをそのキャラがいた枠に【レスト】して置く。\n\"-\"",
+   "traits": [
+    "心の音"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yhn_w111/yhn_w111_085s.png",
+   "variant": ""
+  },
+  {
+   "num": "YHN/W111-086",
+   "name": "似た者同士 リコ",
+   "type": "Character",
+   "rarity": "U",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたが自分の手札の「似た者同士 ヨハネ」のコストを払う時、このカードの下のマーカー1枚を、ストック1枚のかわりに控え室に置いてよい。\n【自】 共鳴 ［手札の「似た者同士 ヨハネ」を1枚公開する］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札の上から1枚を、このカードの下にマーカーとして表向きに置く。\n【起】［このカードを控え室に置く］ あなたは自分の「似た者同士 ヨハネ」を1枚選び、そのターン中、パワーを＋1500し、次の能力を与える。『【自】 このカードのバトル相手が【リバース】した時、あなたは自分の控え室の《心の音》のキャラを1枚選び、手札に戻してよい。』\n\"-\"",
+   "traits": [
+    "心の音"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yhn_w111/yhn_w111_086.png",
+   "variant": ""
+  },
+  {
+   "num": "YHN/W111-086S",
+   "name": "似た者同士 リコ",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたが自分の手札の「似た者同士 ヨハネ」のコストを払う時、このカードの下のマーカー1枚を、ストック1枚のかわりに控え室に置いてよい。\n【自】 共鳴 ［手札の「似た者同士 ヨハネ」を1枚公開する］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札の上から1枚を、このカードの下にマーカーとして表向きに置く。\n【起】［このカードを控え室に置く］ あなたは自分の「似た者同士 ヨハネ」を1枚選び、そのターン中、パワーを＋1500し、次の能力を与える。『【自】 このカードのバトル相手が【リバース】した時、あなたは自分の控え室の《心の音》のキャラを1枚選び、手札に戻してよい。』\n\"-\"",
+   "traits": [
+    "心の音"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yhn_w111/yhn_w111_086s.png",
+   "variant": ""
+  },
+  {
+   "num": "YHN/W111-087",
+   "name": "誰も知らない秘密 チカ",
+   "type": "Character",
+   "rarity": "U",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の《心の音》のキャラを1枚選び、そのターン中、パワーを＋1500。\n【自】 このカードがアタックした時、あなたは自分の《心の音》のキャラを1枚選び、そのターン中、パワーを＋1500。\n\"-\"",
+   "traits": [
+    "心の音"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yhn_w111/yhn_w111_087.png",
+   "variant": ""
+  },
+  {
+   "num": "YHN/W111-087S",
+   "name": "誰も知らない秘密 チカ",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の《心の音》のキャラを1枚選び、そのターン中、パワーを＋1500。\n【自】 このカードがアタックした時、あなたは自分の《心の音》のキャラを1枚選び、そのターン中、パワーを＋1500。\n\"-\"",
+   "traits": [
+    "心の音"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yhn_w111/yhn_w111_087s.png",
+   "variant": ""
+  },
+  {
+   "num": "YHN/W111-088",
+   "name": "明るい表情 チカ",
+   "type": "Character",
+   "rarity": "U",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】［(2) あなたの舞台のキャラを1枚控え室に置く］ あなたがこのカードの『助太刀』を使った時、あなたはコストを払ってよい。そうしたら、あなたは相手の、レベルが相手のレベルより高いキャラを1枚選び、控え室に置く。\n【起】【カウンター】 助太刀2500 レベル2 ［(1) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋2500）\n\"-\"",
+   "traits": [
+    "心の音"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yhn_w111/yhn_w111_088.png",
+   "variant": ""
+  },
+  {
+   "num": "YHN/W111-088S",
+   "name": "明るい表情 チカ",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】［(2) あなたの舞台のキャラを1枚控え室に置く］ あなたがこのカードの『助太刀』を使った時、あなたはコストを払ってよい。そうしたら、あなたは相手の、レベルが相手のレベルより高いキャラを1枚選び、控え室に置く。\n【起】【カウンター】 助太刀2500 レベル2 ［(1) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋2500）\n\"-\"",
+   "traits": [
+    "心の音"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yhn_w111/yhn_w111_088s.png",
+   "variant": ""
+  },
+  {
+   "num": "YHN/W111-089",
+   "name": "繋がる心、始まる友情 リコ",
+   "type": "Character",
+   "rarity": "U",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "5500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの《心の音》のキャラすべてに、パワーを＋1000。\n【自】【CXコンボ】 あなたのクライマックス置場に「ひとみしりのハーモニー」が置かれた時、後列にこのカードがいるなら、あなたは自分の「繋がる心、始まる友情 ヨハネ」を1枚選び、そのターン中、パワーを＋1000し、次の能力を与える。『【自】［あなたの【スタンド】しているキャラを1枚【レスト】する］ このカードがアタックした時、あなたはコストを払ってよい。そうしたら、そのアタック中、あなたはトリガーステップにトリガーチェックを3回行う。』\n【起】［手札を2枚控え室に置き、このカードを【レスト】する］ あなたは自分の山札を上から6枚まで見て、カードを3枚選び、控え室に置き、残りのカードを山札の上に好きな順番で置く。\n\"-\"",
+   "traits": [
+    "心の音"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yhn_w111/yhn_w111_089.png",
+   "variant": ""
+  },
+  {
+   "num": "YHN/W111-089S",
+   "name": "繋がる心、始まる友情 リコ",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "5500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの《心の音》のキャラすべてに、パワーを＋1000。\n【自】【CXコンボ】 あなたのクライマックス置場に「ひとみしりのハーモニー」が置かれた時、後列にこのカードがいるなら、あなたは自分の「繋がる心、始まる友情 ヨハネ」を1枚選び、そのターン中、パワーを＋1000し、次の能力を与える。『【自】［あなたの【スタンド】しているキャラを1枚【レスト】する］ このカードがアタックした時、あなたはコストを払ってよい。そうしたら、そのアタック中、あなたはトリガーステップにトリガーチェックを3回行う。』\n【起】［手札を2枚控え室に置き、このカードを【レスト】する］ あなたは自分の山札を上から6枚まで見て、カードを3枚選び、控え室に置き、残りのカードを山札の上に好きな順番で置く。\n\"-\"",
+   "traits": [
+    "心の音"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yhn_w111/yhn_w111_089s.png",
+   "variant": ""
+  },
+  {
+   "num": "YHN/W111-090",
+   "name": "フレンドリーな女の子 チカ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは相手のキャラを1枚まで選び、思い出にし、相手は自分の思い出置場のそのキャラを、舞台の好きな枠に置く。\n【自】 このカードが手札から舞台に置かれた時、あなたは他の自分の《心の音》のキャラを1枚選び、そのターン中、パワーを＋2000。\n\"-\"",
+   "traits": [
+    "心の音"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yhn_w111/yhn_w111_090.png",
+   "variant": ""
+  },
+  {
+   "num": "YHN/W111-091",
+   "name": "旅館の看板娘 チカ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】  このカードが手札から舞台に置かれた時、あなたは自分の山札の上から2枚までを、控え室に置く。\n【自】 ［手札のクライマックスを1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の《心の音》のキャラを1枚選び、手札に戻す。\n\"-\"",
+   "traits": [
+    "心の音"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yhn_w111/yhn_w111_091.png",
+   "variant": ""
+  },
+  {
+   "num": "YHN/W111-092",
+   "name": "素直になれない リコ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［手札を1枚クロック置場に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を上からＸ枚まで見て、カードを1枚まで選び、手札に加え、残りのカードを控え室に置く。Ｘは他のあなたの《心の音》のキャラの枚数に等しい。\n\"-\"",
+   "traits": [
+    "心の音"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yhn_w111/yhn_w111_092.png",
+   "variant": ""
+  },
+  {
+   "num": "YHN/W111-093",
+   "name": "旅館の看板娘 ミト",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "1000",
+   "soul": 2,
+   "trigger": "",
+   "text": "【自】 このカードがアタックした時、あなたは他の自分のカード名に「チカ」を含むキャラを1枚選び、次の相手のターンの終わりまで、パワーを＋1500し、ソウルを＋1し、『【自】 アンコール ［手札のキャラを1枚控え室に置く］』を与える。\n【自】［(1)］ このカードの与えたダメージがキャンセルされた時、あなたはコストを払ってよい。そうしたら、あなたは1枚引き、自分の手札を1枚選び、控え室に置き、相手の前列のレベル1以下のキャラを1枚まで選び、控え室に置く。\n\"ようこそ、トチマン旅館へ\"",
+   "traits": [
+    "心の音"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yhn_w111/yhn_w111_093.png",
+   "variant": ""
+  },
+  {
+   "num": "YHN/W111-094",
+   "name": "旅館の看板娘 シマ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札を上から3枚まで見て、カード名に「チカ」を含むキャラを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。手札に加えたなら、あなたは自分の手札を1枚選び、控え室に置く。\n【自】 このカードが【リバース】した時、このカードのバトル相手のコストが0以下なら、あなたはそのキャラを山札の下に置いてよい。\n\"-\"",
+   "traits": [
+    "心の音"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yhn_w111/yhn_w111_094.png",
+   "variant": ""
+  },
+  {
+   "num": "YHN/W111-095",
+   "name": "繋がる心、始まる友情 チカ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの《心の音》のキャラ1枚につき、このカードのパワーを＋500。\n【自】 このカードがアタックした時、このカードの正面のキャラのレベルが2なら、そのターン中、このカードのパワーを＋6000。\n\"-\"",
+   "traits": [
+    "心の音"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yhn_w111/yhn_w111_095.png",
+   "variant": ""
+  },
+  {
+   "num": "YHN/W111-095S",
+   "name": "繋がる心、始まる友情 チカ",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの《心の音》のキャラ1枚につき、このカードのパワーを＋500。\n【自】 このカードがアタックした時、このカードの正面のキャラのレベルが2なら、そのターン中、このカードのパワーを＋6000。\n\"-\"",
+   "traits": [
+    "心の音"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yhn_w111/yhn_w111_095s.png",
+   "variant": ""
+  },
+  {
+   "num": "YHN/W111-096",
+   "name": "動物学者 リコ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 あなたのクライマックスがクライマックス置場に置かれた時、そのターン中、このカードのパワーを＋2500し、このカードは次の能力を得る。『【自】 このカードのバトル相手が【リバース】した時、あなたはこのカードを思い出にしてよい。そうしたら、次のあなたのドローフェイズの始めに、あなたは自分の思い出置場の「動物学者 リコ」を1枚選び、舞台の好きな枠に置く。』\n\"-\"",
+   "traits": [
+    "心の音"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yhn_w111/yhn_w111_096.png",
+   "variant": ""
+  },
+  {
+   "num": "YHN/W111-097",
+   "name": "月夜の元、華麗な助太刀",
+   "type": "Event",
+   "rarity": "U",
+   "color": "blue",
+   "level": "3",
+   "cost": "2",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "【カウンター】 あなたの《心の音》のキャラが5枚以上なら、あなたは自分のクロックの上から2枚までを、控え室に置き、自分の《心の音》のキャラを1枚選び、そのターン中、パワーを＋1500。このカードを思い出にする。\n\"ダイヤ「お怪我はありませんか？」\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yhn_w111/yhn_w111_097.png",
+   "variant": ""
+  },
+  {
+   "num": "YHN/W111-098",
+   "name": "パップガン",
+   "type": "Climax",
+   "rarity": "CR",
+   "color": "blue",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[gate.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[gate.gif]]：このカードがトリガーした時、あなたは自分の控え室のクライマックスを1枚選び、手札に戻してよい）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yhn_w111/yhn_w111_098.png",
+   "variant": ""
+  },
+  {
+   "num": "YHN/W111-098R",
+   "name": "パップガン",
+   "type": "Climax",
+   "rarity": "RRR",
+   "color": "blue",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[gate.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[gate.gif]]：このカードがトリガーした時、あなたは自分の控え室のクライマックスを1枚選び、手札に戻してよい）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yhn_w111/yhn_w111_098r.png",
+   "variant": ""
+  },
+  {
+   "num": "YHN/W111-099",
+   "name": "ひとりぼっちだから分かり合えた心",
+   "type": "Climax",
+   "rarity": "CC",
+   "color": "blue",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[gate.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[gate.gif]]：このカードがトリガーした時、あなたは自分の控え室のクライマックスを1枚選び、手札に戻してよい）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yhn_w111/yhn_w111_099.png",
+   "variant": ""
+  },
+  {
+   "num": "YHN/W111-099R",
+   "name": "ひとりぼっちだから分かり合えた心",
+   "type": "Climax",
+   "rarity": "RRR",
+   "color": "blue",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[gate.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[gate.gif]]：このカードがトリガーした時、あなたは自分の控え室のクライマックスを1枚選び、手札に戻してよい）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yhn_w111/yhn_w111_099r.png",
+   "variant": ""
+  },
+  {
+   "num": "YHN/W111-100",
+   "name": "ひとみしりのハーモニー",
+   "type": "Climax",
+   "rarity": "CC",
+   "color": "blue",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[draw.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[draw.gif]]：このカードがトリガーした時、あなたは1枚引いてよい）\n\"ヨハネ「今までの私達がいて、こんな出会い方があるなら、ひとみしりも悪くないね」\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yhn_w111/yhn_w111_100.png",
+   "variant": ""
+  },
+  {
+   "num": "YHN/W111-100R",
+   "name": "ひとみしりのハーモニー",
+   "type": "Climax",
+   "rarity": "RRR",
+   "color": "blue",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[draw.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[draw.gif]]：このカードがトリガーした時、あなたは1枚引いてよい）\n\"ヨハネ「今までの私達がいて、こんな出会い方があるなら、ひとみしりも悪くないね」\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yhn_w111/yhn_w111_100r.png",
+   "variant": ""
+  }
+ ]
+}

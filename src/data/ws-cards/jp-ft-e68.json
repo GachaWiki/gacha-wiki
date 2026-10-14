@@ -1,0 +1,1020 @@
+{
+ "id": "jp-ft-e68",
+ "name": "FAIRY TAIL",
+ "expansion": 68,
+ "lang": "jp",
+ "release": null,
+ "shopItem": null,
+ "box": null,
+ "cards": [
+  {
+   "num": "FT/SE10-01",
+   "name": "幼き日のジェラール",
+   "type": "Character",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1)］ バトル中のこのカードが【リバース】した時、あなたはコストを払ってよい。そうしたら、このカードを思い出にする。\n【自】 絆／「幼き日のエルザ」 ［あなたの山札の上から1枚をクロック置場に置く］ （このカードがプレイされて舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「幼き日のエルザ」を1枚選び、手札に戻す）\n\"行こう、エルザ\"",
+   "traits": [
+    "魔法"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/f/ft_se10/ft_se10_01.png",
+   "variant": ""
+  },
+  {
+   "num": "FT/SE10-02",
+   "name": "愛する友と共に エルザ",
+   "type": "Character",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの後列の《魔法》のキャラ1枚につき、このカードのパワーを＋500。\n\"もう迷いはない!!!!\"",
+   "traits": [
+    "魔法",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/f/ft_se10/ft_se10_02.png",
+   "variant": ""
+  },
+  {
+   "num": "FT/SE10-03",
+   "name": "幼き日のエルザ",
+   "type": "Character",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 記憶 あなたの思い出置場の《魔法》のキャラが2枚以上なら、このカードのパワーを＋1500。\n\"ついて来い!!!!!\"",
+   "traits": [
+    "魔法",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/f/ft_se10/ft_se10_03.png",
+   "variant": ""
+  },
+  {
+   "num": "FT/SE10-04",
+   "name": "ラクサス・ドレアー",
+   "type": "Character",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 この能力は1ターンにつき1回まで発動する。あなたが【起】を使った時、そのターン中、このカードのパワーを＋1500。\n\"ジジィがうるせえからずっと隠してきたんだがな。<br />特別に見せてやろう\"",
+   "traits": [
+    "魔法",
+    "竜"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/f/ft_se10/ft_se10_04.png",
+   "variant": ""
+  },
+  {
+   "num": "FT/SE10-05",
+   "name": "“悠遠の衣”エルザ",
+   "type": "Character",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "2",
+   "cost": "2",
+   "power": "8000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの《魔法》のキャラが3枚以上なら、このカードのパワーを＋1000。\n【自】 あなたのクライマックス置場に「そして常に優しくあれ」が置かれた時、前列にこのカードがいるなら、あなたは相手の控え室のカードを2枚まで選び、山札に戻す。相手はその山札をシャッフルする。\n\"貴様等のくだらん目的は私が止めてやる。必ずな!!!!\"",
+   "traits": [
+    "魔法",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/f/ft_se10/ft_se10_05.png",
+   "variant": ""
+  },
+  {
+   "num": "FT/SE10-06",
+   "name": "“セイズ魔法【人形憑】”ビックスロー",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋500。\n【起】［(2)］ あなたは自分の山札を見てレベル0以下の《魔法》のキャラを1枚まで選び、舞台の好きな枠に置く。その山札をシャッフルする。\n\"よォ、遊ぼーぜぇ\"",
+   "traits": [
+    "魔法",
+    "人形"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/f/ft_se10/ft_se10_06.png",
+   "variant": ""
+  },
+  {
+   "num": "FT/SE10-07",
+   "name": "“石化眼”エバーグリーン",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードがダイレクトアタックした時、あなたは相手の前列のレベル0以下のキャラを1枚まで選ぶ。そのキャラは次の相手のスタンドフェイズに【スタンド】しない。\n\"私・・石像も好きよ。どんなに醜い獣でも、<br />石像となれば、美しいと評価される事もある\"",
+   "traits": [
+    "魔法",
+    "メガネ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/f/ft_se10/ft_se10_07.png",
+   "variant": ""
+  },
+  {
+   "num": "FT/SE10-08",
+   "name": "“香り魔法”一夜",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたのキャラがいないなら、このカードのパワーを＋2000。\n【自】［(1)］ バトル中のこのカードが【リバース】した時、あなたはコストを払ってよい。そうしたら、このカードを思い出にする。\n\"会いたかったよ、マイハニー\"",
+   "traits": [
+    "魔法",
+    "薔薇"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/f/ft_se10/ft_se10_08.png",
+   "variant": ""
+  },
+  {
+   "num": "FT/SE10-09",
+   "name": "小さな妖精 レビィ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【起】［(1)］ あなたは自分の《魔法》のキャラを１枚選び、そのターン中、パワーを＋2000。\n\"ナツ、ガジル、準備はいい？<br />バトル・オブ・フェアリーテイル参戦だよ\"",
+   "traits": [
+    "魔法",
+    "本"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/f/ft_se10/ft_se10_09.png",
+   "variant": ""
+  },
+  {
+   "num": "FT/SE10-10",
+   "name": "“闇の文字”フリード",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【起】［(2)］ そのターン中、このカードのパワーを＋2000し、相手は『【自】 アンコール』を使えない。（ルールによる『【自】 アンコール ［(3)］』も使えない）\n\"一度敗れた駒がゲームへ復帰する事は禁ずる\"",
+   "traits": [
+    "魔法",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/f/ft_se10/ft_se10_10.png",
+   "variant": ""
+  },
+  {
+   "num": "FT/SE10-11",
+   "name": "とっておきの換装 エルザ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "1",
+   "cost": "1",
+   "power": "7000",
+   "soul": 1,
+   "trigger": "",
+   "text": "-\n\"フフ・・・・決まった！\"",
+   "traits": [
+    "魔法",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/f/ft_se10/ft_se10_11.png",
+   "variant": ""
+  },
+  {
+   "num": "FT/SE10-12",
+   "name": "ラクサスの“じーじ”マカロフ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋1000。\n【永】 記憶 あなたの思い出置場の《魔法》のキャラが2枚以上なら、他のあなたの《魔法》のキャラすべてに、パワーを＋500。\n\"たとえ姿が見えなくとも、たとえ遠く離れていようと、<br />ワシはいつでもおまえを見てる\"",
+   "traits": [
+    "魔法",
+    "マスター"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/f/ft_se10/ft_se10_12.png",
+   "variant": ""
+  },
+  {
+   "num": "FT/SE10-13",
+   "name": "楽園の塔の支配者 ジェラール",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "8000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードがアタックした時、あなたは自分のカード名に「エルザ」を含むキャラを1枚選び、ストック置場に置いてよい。\n\"やはりゲームはこうでないとな。<br />一方的な展開ほど退屈なゲームはない\"",
+   "traits": [
+    "魔法"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/f/ft_se10/ft_se10_13.png",
+   "variant": ""
+  },
+  {
+   "num": "FT/SE10-14",
+   "name": "そして常に優しくあれ",
+   "type": "Climax",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【自】 このカードが手札からクライマックス置場に置かれた時、あなたは1枚引き、自分のキャラを1枚選び、そのターン中、パワーを＋2000し、ソウルを＋1。\n\"ゴォ――ン　ゴォ――ン\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/f/ft_se10/ft_se10_14.png",
+   "variant": ""
+  },
+  {
+   "num": "FT/SE10-15",
+   "name": "星霊魔導士 エンジェル",
+   "type": "Character",
+   "rarity": "R",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【起】［(2)］ あなたは自分の山札を見て自分か相手の舞台にいるキャラと同じカード名のキャラを1枚まで選んで相手に見せ、手札に加える。その山札をシャッフルする。\n\"自分に倒されるってのもマヌケな話だゾ。<br />あははははっ\"",
+   "traits": [
+    "魔法",
+    "鍵"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/f/ft_se10/ft_se10_15.png",
+   "variant": ""
+  },
+  {
+   "num": "FT/SE10-16",
+   "name": "美しき絆 ルーシィ",
+   "type": "Character",
+   "rarity": "R",
+   "color": "green",
+   "level": "2",
+   "cost": "2",
+   "power": "7500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの《鍵》のキャラ1枚につき、このカードのパワーを＋500。\n【自】［(1)］ このカードがアタックした時、クライマックス置場に「罪なんかじゃない！」があるなら、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を上から2枚まで見て、《鍵》のキャラを2枚まで選んで相手に見せ、手札に加える。その後、残りのカードを控え室に置く。\n\"絶対帰らせてあげるから!!!\"",
+   "traits": [
+    "魔法",
+    "鍵"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/f/ft_se10/ft_se10_16.png",
+   "variant": ""
+  },
+  {
+   "num": "FT/SE10-17",
+   "name": "“合体魔法”ルーシィ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1) 手札を1枚控え室に置き、このカードを思い出にする］ バトル中のこのカードが【リバース】した時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見て《魔法》のキャラを1枚まで選んで相手に見せ、手札に加える。その山札をシャッフルする。\n\"あははっ!! 面白い表現ね\"",
+   "traits": [
+    "魔法",
+    "鍵"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/f/ft_se10/ft_se10_17.png",
+   "variant": ""
+  },
+  {
+   "num": "FT/SE10-18",
+   "name": "大切な友達と共に ルーシィ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの《鍵》のキャラすべてに、パワーを＋500。\n\"戦いが終わって、あたしたちはそれぞれのギルドに帰る\"",
+   "traits": [
+    "魔法",
+    "鍵"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/f/ft_se10/ft_se10_18.png",
+   "variant": ""
+  },
+  {
+   "num": "FT/SE10-19",
+   "name": "あたしの決意 ルーシィ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 バトル中のこのカードが【リバース】した時、あなたは自分の山札の上から1枚を公開する。そのカードが《鍵》のキャラなら、あなたはこのカードを思い出にしてよい。（公開したカードは元に戻す）\n\"おとなしくしないと痛い目みるよ!!!\"",
+   "traits": [
+    "魔法",
+    "鍵"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/f/ft_se10/ft_se10_19.png",
+   "variant": ""
+  },
+  {
+   "num": "FT/SE10-20Ari",
+   "name": "黄道十二門の星霊",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "1",
+   "cost": "1",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 記憶 あなたがこのカードの『助太刀』を使った時、あなたの思い出置場の《魔法》のキャラが2枚以上なら、あなたは自分のバトル中のキャラを1枚選び、そのターン中、パワーを＋1500。\n【起】【カウンター】 助太刀1500 レベル1 ［(1) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋1500）\n\"アリエス「ウールボム!!!」\"",
+   "traits": [
+    "魔法",
+    "鍵"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/f/ft_se10/ft_se10_20ari.png",
+   "variant": ""
+  },
+  {
+   "num": "FT/SE10-20Gem",
+   "name": "黄道十二門の星霊",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "1",
+   "cost": "1",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 記憶 あなたがこのカードの『助太刀』を使った時、あなたの思い出置場の《魔法》のキャラが2枚以上なら、あなたは自分のバトル中のキャラを1枚選び、そのターン中、パワーを＋1500。\n【起】【カウンター】 助太刀1500 レベル1 ［(1) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋1500）\n\"ジェミニ「ピーリッ、ピーリッ」\"",
+   "traits": [
+    "魔法",
+    "鍵"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/f/ft_se10/ft_se10_20gem.png",
+   "variant": ""
+  },
+  {
+   "num": "FT/SE10-20Leo",
+   "name": "黄道十二門の星霊",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "1",
+   "cost": "1",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 記憶 あなたがこのカードの『助太刀』を使った時、あなたの思い出置場の《魔法》のキャラが2枚以上なら、あなたは自分のバトル中のキャラを1枚選び、そのターン中、パワーを＋1500。\n【起】【カウンター】 助太刀1500 レベル1 ［(1) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋1500）\n\"レオ「約束を果たす時が来たようだね」\"",
+   "traits": [
+    "魔法",
+    "鍵"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/f/ft_se10/ft_se10_20leo.png",
+   "variant": ""
+  },
+  {
+   "num": "FT/SE10-20Sgr",
+   "name": "黄道十二門の星霊",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "1",
+   "cost": "1",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 記憶 あなたがこのカードの『助太刀』を使った時、あなたの思い出置場の《魔法》のキャラが2枚以上なら、あなたは自分のバトル中のキャラを1枚選び、そのターン中、パワーを＋1500。\n【起】【カウンター】 助太刀1500 レベル1 ［(1) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋1500）\n\"サジタリウス「お呼びでありますか、もしもし」\"",
+   "traits": [
+    "魔法",
+    "鍵"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/f/ft_se10/ft_se10_20sgr.png",
+   "variant": ""
+  },
+  {
+   "num": "FT/SE10-20Tau",
+   "name": "黄道十二門の星霊",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "1",
+   "cost": "1",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 記憶 あなたがこのカードの『助太刀』を使った時、あなたの思い出置場の《魔法》のキャラが2枚以上なら、あなたは自分のバトル中のキャラを1枚選び、そのターン中、パワーを＋1500。\n【起】【カウンター】 助太刀1500 レベル1 ［(1) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋1500）\n\"タウロス「ＭＯォォ!!! 素敵です!!!<br />ルーシィさぁぁん!!!」\"",
+   "traits": [
+    "魔法",
+    "鍵"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/f/ft_se10/ft_se10_20tau.png",
+   "variant": ""
+  },
+  {
+   "num": "FT/SE10-20Vir",
+   "name": "黄道十二門の星霊",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "1",
+   "cost": "1",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 記憶 あなたがこのカードの『助太刀』を使った時、あなたの思い出置場の《魔法》のキャラが2枚以上なら、あなたは自分のバトル中のキャラを1枚選び、そのターン中、パワーを＋1500。\n【起】【カウンター】 助太刀1500 レベル1 ［(1) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋1500）\n\"バルゴ「では」\"",
+   "traits": [
+    "魔法",
+    "鍵"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/f/ft_se10/ft_se10_20vir.png",
+   "variant": ""
+  },
+  {
+   "num": "FT/SE10-21",
+   "name": "優しい笑顔 ミラジェーン",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "2",
+   "cost": "2",
+   "power": "8500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 このカードの下にマーカーがあるなら、このカードのパワーを＋2000。\n【自】［(1)］ 他のあなたのバトル中の《魔法》のキャラが【リバース】した時、このカードの下にマーカーがないなら、あなたはコストを払ってよい。そうしたら、あなたは自分の山札の上から1枚を、このカードの下にマーカーとして置く。\n\"一人が寂しいと気づいた時、人はやさしくなれるの\"",
+   "traits": [
+    "魔法",
+    "ウェイトレス"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/f/ft_se10/ft_se10_21.png",
+   "variant": ""
+  },
+  {
+   "num": "FT/SE10-22",
+   "name": "六魔の祈り",
+   "type": "Event",
+   "rarity": "C",
+   "color": "green",
+   "level": "1",
+   "cost": "1",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "【カウンター】 あなたは自分のキャラを1枚選び、控え室に置く。そうしたら、あなたは自分の山札を見てそのキャラと同じ特徴を1つ以上持つキャラを1枚まで選んで相手に見せ、手札に加える。その山札をシャッフルする。\nこのカードを思い出にする。\n\"エンジェル『私の祈り・・・・天使のように・・・<br />空に・・・・消えたい・・・・』\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/f/ft_se10/ft_se10_22.png",
+   "variant": ""
+  },
+  {
+   "num": "FT/SE10-23",
+   "name": "LOVE & LUCKY",
+   "type": "Event",
+   "rarity": "C",
+   "color": "green",
+   "level": "2",
+   "cost": "0",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "あなたは自分の山札の上から1枚を公開する。そのカードが《鍵》のキャラならストック置場に置き、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋3000。（そうでないなら元に戻す）\nこのカードをストック置場に置く。\n\"その時ギルドの看板が壊れてて、<br />ＬＵＣＫＹがＬＵＣＹになっていたんだ\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/f/ft_se10/ft_se10_23.png",
+   "variant": ""
+  },
+  {
+   "num": "FT/SE10-24",
+   "name": "罪なんかじゃない！",
+   "type": "Climax",
+   "rarity": "C",
+   "color": "green",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[treasure.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[treasure.gif]]：このカードがトリガーした時、あなたはこのカードを手札に戻す。あなたは自分の山札の上から1枚を、ストック置場に置いてよい）\n\"罪なんかじゃない!!!!<br />仲間を想う気持ちは罪なんかじゃない!!!!\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/f/ft_se10/ft_se10_24.png",
+   "variant": ""
+  },
+  {
+   "num": "FT/SE10-25",
+   "name": "ネコマンダーのハッピー",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの《竜》のキャラすべてに、『【自】 アンコール ［(2)］』を与える。\n【起】［このカードを【レスト】する］ あなたは自分の《竜》のキャラを1枚選び、そのターン中、パワーを＋1000。\n\"でぇきてぇる゛\"",
+   "traits": [
+    "魔法",
+    "動物"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/f/ft_se10/ft_se10_25.png",
+   "variant": ""
+  },
+  {
+   "num": "FT/SE10-26",
+   "name": "ドラゴンフォース ナツ",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 あなたのクライマックス置場に「ナツ vs. ゼロ」が置かれた時、そのターン中、このカードのパワーを＋1000し、このカードは次の能力を得る。『【自】 このカードのバトル相手が【リバース】した時、あなたはそのキャラを山札の上に置いてよい。』\n【自】 このカードが【リバース】した時、このカードのバトル相手のレベルが1以下なら、あなたはそのキャラを【リバース】してよい。\n\"確かに受け取ったぞ、ジェラール\"",
+   "traits": [
+    "魔法",
+    "竜"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/f/ft_se10/ft_se10_26.png",
+   "variant": ""
+  },
+  {
+   "num": "FT/SE10-27",
+   "name": "オレたちの帰る場所 ナツ",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "7500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの《魔法》のキャラ1枚につき、このカードのパワーを＋500。\n\"ギルドこそがオレたちの家族だろうが!!!!!\"",
+   "traits": [
+    "魔法",
+    "竜"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/f/ft_se10/ft_se10_27.png",
+   "variant": ""
+  },
+  {
+   "num": "FT/SE10-28",
+   "name": "仲間の力 ナツ",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、他のあなたの《魔法》のキャラが3枚以上なら、あなたは自分の山札の上から1枚を、ストック置場に置いてよい。\n【自】 このカードがフロントアタックされた時、あなたは自分の山札を上から1枚見て、山札の上か控え室に置く。\n\"うおおぉおお!!!!\"",
+   "traits": [
+    "魔法",
+    "竜"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/f/ft_se10/ft_se10_28.png",
+   "variant": ""
+  },
+  {
+   "num": "FT/SE10-29Ang",
+   "name": "六魔将軍",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 このカードと同じカード名のカードは、デッキに6枚まで入れることができる。\n【自】 バトル中のこのカードが【リバース】した時、あなたは自分の「六魔将軍のマスター ゼロ」を1枚選び、このカードをそのカードの下にマーカーとして裏向きに置いてよい。\n\"エンジェル「邪魔する子は天使が裁くゾ」\"",
+   "traits": [
+    "魔法"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/f/ft_se10/ft_se10_29ang.png",
+   "variant": ""
+  },
+  {
+   "num": "FT/SE10-29Bra",
+   "name": "六魔将軍",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 このカードと同じカード名のカードは、デッキに6枚まで入れることができる。\n【自】 バトル中のこのカードが【リバース】した時、あなたは自分の「六魔将軍のマスター ゼロ」を1枚選び、このカードをそのカードの下にマーカーとして裏向きに置いてよい。\n\"止める？ ニルヴァーナを？ できるものか\"",
+   "traits": [
+    "魔法"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/f/ft_se10/ft_se10_29bra.png",
+   "variant": ""
+  },
+  {
+   "num": "FT/SE10-29Cob",
+   "name": "六魔将軍",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 このカードと同じカード名のカードは、デッキに6枚まで入れることができる。\n【自】 バトル中のこのカードが【リバース】した時、あなたは自分の「六魔将軍のマスター ゼロ」を1枚選び、このカードをそのカードの下にマーカーとして裏向きに置いてよい。\n\"コブラ「聴こえるぞ。光の崩れ落ちる・・音が」\"",
+   "traits": [
+    "魔法"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/f/ft_se10/ft_se10_29cob.png",
+   "variant": ""
+  },
+  {
+   "num": "FT/SE10-29Hot",
+   "name": "六魔将軍",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 このカードと同じカード名のカードは、デッキに6枚まで入れることができる。\n【自】 バトル中のこのカードが【リバース】した時、あなたは自分の「六魔将軍のマスター ゼロ」を1枚選び、このカードをそのカードの下にマーカーとして裏向きに置いてよい。\n\"ホットアイ「お金は人を強くするデスネ」\"",
+   "traits": [
+    "魔法"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/f/ft_se10/ft_se10_29hot.png",
+   "variant": ""
+  },
+  {
+   "num": "FT/SE10-29Mid",
+   "name": "六魔将軍",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 このカードと同じカード名のカードは、デッキに6枚まで入れることができる。\n【自】 バトル中のこのカードが【リバース】した時、あなたは自分の「六魔将軍のマスター ゼロ」を1枚選び、このカードをそのカードの下にマーカーとして裏向きに置いてよい。\n\"ミッドナイト「数打てば当たると思った？」\"",
+   "traits": [
+    "魔法"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/f/ft_se10/ft_se10_29mid.png",
+   "variant": ""
+  },
+  {
+   "num": "FT/SE10-29Rac",
+   "name": "六魔将軍",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 このカードと同じカード名のカードは、デッキに6枚まで入れることができる。\n【自】 バトル中のこのカードが【リバース】した時、あなたは自分の「六魔将軍のマスター ゼロ」を1枚選び、このカードをそのカードの下にマーカーとして裏向きに置いてよい。\n\"レーサー「仕事は速ェ方がいい。<br />それにはアンタら・・邪魔なんだよ」\"",
+   "traits": [
+    "魔法"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/f/ft_se10/ft_se10_29rac.png",
+   "variant": ""
+  },
+  {
+   "num": "FT/SE10-30",
+   "name": "まさかの共闘 ガジル",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1) このカードを控え室に置く］ 他のあなたの《竜》のキャラがフロントアタックされた時、あなたはコストを払ってよい。そうしたら、あなたは自分のバトル中のキャラを1枚選び、そのターン中、パワーを＋2000。\n\"仲間・・・・じゃなかったのか？<br />それを消して喜んでるとァどうかしてるぜ\"",
+   "traits": [
+    "魔法",
+    "竜"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/f/ft_se10/ft_se10_30.png",
+   "variant": ""
+  },
+  {
+   "num": "FT/SE10-31",
+   "name": "六魔将軍のマスター ゼロ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "1",
+   "cost": "1",
+   "power": "5500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 このカードの下のマーカーが6枚以上なら、このカードのレベルを＋2し、パワーを＋6000し、このカードは次の能力を得る。『【自】 このカードのバトル相手が【リバース】した時、あなたはそのキャラを山札の上に置いてよい。』\n【自】 他のあなたのバトル中の《魔法》のキャラが【リバース】した時、このカードの下のマーカーが5枚以下なら、あなたは自分の山札の上から1枚を、このカードの下にマーカーとして置いてよい。\n\"形あるものを壊すのが面白ェんだろうが!!!!\"",
+   "traits": [
+    "魔法",
+    "マスター"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/f/ft_se10/ft_se10_31.png",
+   "variant": ""
+  },
+  {
+   "num": "FT/SE10-32",
+   "name": "炎のドラゴン イグニール",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "2",
+   "cost": "2",
+   "power": "6000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 応援 このカードの前のあなたの《竜》のキャラすべてに、パワーを＋2000。\n\"出ていけ!!!! 人間に干渉するな!!!!<br />このイグニールを怒らせたいのかぁ!!!!!\"",
+   "traits": [
+    "魔法",
+    "竜"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/f/ft_se10/ft_se10_32.png",
+   "variant": ""
+  },
+  {
+   "num": "FT/SE10-33",
+   "name": "紅蓮鳳凰劍",
+   "type": "Event",
+   "rarity": "C",
+   "color": "red",
+   "level": "2",
+   "cost": "2",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "【カウンター】 あなたは自分の《魔法》のキャラを1枚選び、そのターン中、パワーを＋6500。このカードを思い出にする。\n\"全魔力解放!!!! 滅竜奥義“不知火型”\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/f/ft_se10/ft_se10_33.png",
+   "variant": ""
+  },
+  {
+   "num": "FT/SE10-34",
+   "name": "ナツ vs. ゼロ",
+   "type": "Climax",
+   "rarity": "C",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[salvage.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[salvage.gif]]：このカードがトリガーした時、あなたは自分の控え室のキャラを1枚選び、手札に戻してよい）\n\"ゼロ「来い、ドラゴンの力よ」<br />ナツ「行くぞォ!!!!」\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/f/ft_se10/ft_se10_34.png",
+   "variant": ""
+  },
+  {
+   "num": "FT/SE10-35",
+   "name": "ウェンディ・マーベル",
+   "type": "Character",
+   "rarity": "R",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［あなたの山札の上から1枚をクロック置場に置く］ あなたのクライマックス置場に「天竜の咆哮」が置かれた時、前列にこのカードがいるなら、あなたはコストを払ってよい。そうしたら、あなたは相手のレベル0以下のキャラを1枚選び、山札の下に置き、そのターン中、このカードのパワーを＋1000。\n\"これは私がやらなきゃいけない事なんだ\"",
+   "traits": [
+    "魔法",
+    "竜"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/f/ft_se10/ft_se10_35.png",
+   "variant": ""
+  },
+  {
+   "num": "FT/SE10-36",
+   "name": "妖精の尻尾の魔導士 ジュビア",
+   "type": "Character",
+   "rarity": "R",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "7000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 記憶 あなたの思い出置場の《魔法》のキャラが2枚以上なら、他のあなたの、《愛》か《氷》のキャラすべてに、パワーを＋1000。\n\"グレイ様、見てますか!!!\"",
+   "traits": [
+    "魔法",
+    "愛"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/f/ft_se10/ft_se10_36.png",
+   "variant": ""
+  },
+  {
+   "num": "FT/SE10-37",
+   "name": "“治癒魔法”ウェンディ",
+   "type": "Character",
+   "rarity": "R",
+   "color": "blue",
+   "level": "2",
+   "cost": "2",
+   "power": "8000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの《魔法》のキャラが3枚以上なら、このカードは『【自】 アンコール ［手札のキャラを1枚控え室に置く］』を得る。\n【起】［(2) あなたのキャラを2枚【レスト】する］ あなたは自分のクロックの上から1枚を、控え室に置く。\n\"終わりました。エルザさんの体から毒は消えました\"",
+   "traits": [
+    "魔法",
+    "竜"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/f/ft_se10/ft_se10_37.png",
+   "variant": ""
+  },
+  {
+   "num": "FT/SE10-38",
+   "name": "天空の滅竜魔導士 ウェンディ",
+   "type": "Character",
+   "rarity": "R",
+   "color": "blue",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n【起】［(1) 手札を1枚控え室に置く］ あなたは自分の《竜》のキャラを1枚選び、次の相手のターンの終わりまで、パワーを＋2500。\n\"よろしくお願いします\"",
+   "traits": [
+    "魔法",
+    "竜"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/f/ft_se10/ft_se10_38.png",
+   "variant": ""
+  },
+  {
+   "num": "FT/SE10-39",
+   "name": "幼き日のウェンディ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【起】［(1)］ あなたは自分の《竜》のキャラを１枚選び、次の相手のターンの終わりまで、パワーを＋1000。\n\"いないの・・・・いなくなっちゃたの・・・・\"",
+   "traits": [
+    "魔法",
+    "竜"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/f/ft_se10/ft_se10_39.png",
+   "variant": ""
+  },
+  {
+   "num": "FT/SE10-40",
+   "name": "化猫の宿のマスター ローバウル",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【起】［(1)］ あなたは自分のキャラを1枚選び、そのターン中、パワーを＋1500。ターンの終わりに、このカードを思い出にする。\n\"今・・・・ようやく役目が終わった\"",
+   "traits": [
+    "魔法",
+    "マスター"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/f/ft_se10/ft_se10_40.png",
+   "variant": ""
+  },
+  {
+   "num": "FT/SE10-41",
+   "name": "氷の城壁 グレイ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 相手のアタックフェイズの始めに、あなたはこのカードを、前列のキャラのいない枠で、正面に相手のキャラがいる枠に動かしてよい。\n\"ここは死んでも通さねェ!!!! 行け!!!! エルザの所に!!!!\"",
+   "traits": [
+    "魔法",
+    "氷"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/f/ft_se10/ft_se10_41.png",
+   "variant": ""
+  },
+  {
+   "num": "FT/SE10-42",
+   "name": "素直で健気 ウェンディ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "",
+   "text": "-\n\"私・・戦闘はぜんぜんできませんけど、<br />みなさんの役に立つサポートの魔法、いっぱい使えます\"",
+   "traits": [
+    "魔法",
+    "竜"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/f/ft_se10/ft_se10_42.png",
+   "variant": ""
+  },
+  {
+   "num": "FT/SE10-43",
+   "name": "ウェンディの世話係 シャルル",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【起】［あなたのキャラを2枚【レスト】する］ あなたは自分の《魔法》のキャラを1枚選び、そのターン中、パワーを＋2000。\n\"へあっ!?\"",
+   "traits": [
+    "魔法",
+    "動物"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/f/ft_se10/ft_se10_43.png",
+   "variant": ""
+  },
+  {
+   "num": "FT/SE10-44",
+   "name": "“合体魔法”ジュビア",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "1",
+   "cost": "1",
+   "power": "6500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 記憶 このカードのバトル相手が【リバース】した時、あなたの思い出置場に「“合体魔法”ルーシィ」があるなら、あなたは1枚引き、自分の手札を1枚選び、控え室に置く。\n\"あれ・・ジュビア・・・・目から雨が降ってきました\"",
+   "traits": [
+    "魔法",
+    "愛"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/f/ft_se10/ft_se10_44.png",
+   "variant": ""
+  },
+  {
+   "num": "FT/SE10-45",
+   "name": "天竜の咆哮",
+   "type": "Climax",
+   "rarity": "C",
+   "color": "blue",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【自】 このカードが手札からクライマックス置場に置かれた時、あなたは1枚引き、自分のキャラを1枚選び、そのターン中、パワーを＋2000し、ソウルを＋1。\n\"天竜の咆哮・・!!!\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/f/ft_se10/ft_se10_45.png",
+   "variant": ""
+  }
+ ]
+}

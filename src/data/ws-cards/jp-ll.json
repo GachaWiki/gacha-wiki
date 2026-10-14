@@ -1,0 +1,652 @@
+{
+ "id": "jp-ll",
+ "name": "ラブライブ！",
+ "expansion": 120,
+ "lang": "jp",
+ "release": null,
+ "shopItem": null,
+ "box": null,
+ "cards": [
+  {
+   "num": "LL/WE19-01",
+   "name": "“それは僕たちの奇跡”矢澤 にこ",
+   "type": "Character",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたのカード名に「にこ」を含むキャラすべてに、パワーを＋500。\n【起】［(2) このカードを【レスト】する］ あなたは自分のカード名に「にこ」を含むキャラを1枚選び、そのターン中、パワーを＋2000し、次の能力を与える。『【自】 このカードのバトル相手が【リバース】した時、あなたは自分の控え室のキャラを1枚選び、手札に戻してよい。』\n\"-\"",
+   "traits": [
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_we19/ll_we19_01.png",
+   "variant": ""
+  },
+  {
+   "num": "LL/WE19-01SP",
+   "name": "“それは僕たちの奇跡”矢澤 にこ",
+   "type": "Character",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたのカード名に「にこ」を含むキャラすべてに、パワーを＋500。\n【起】［(2) このカードを【レスト】する］ あなたは自分のカード名に「にこ」を含むキャラを1枚選び、そのターン中、パワーを＋2000し、次の能力を与える。『【自】 このカードのバトル相手が【リバース】した時、あなたは自分の控え室のキャラを1枚選び、手札に戻してよい。』\n\"-\"",
+   "traits": [
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_we19/ll_we19_01sp.png",
+   "variant": ""
+  },
+  {
+   "num": "LL/WE19-02",
+   "name": "“それは僕たちの奇跡”南 ことり",
+   "type": "Character",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋1000。\n【自】 相手のアタックフェイズの始めに、あなたは自分の山札の上から1枚を、控え室に置いてよい。そのカードのレベルが0以下なら、あなたはこのカードを前列のキャラのいない枠に動かしてよい。（クライマックスのレベルは0として扱う）\n\"-\"",
+   "traits": [
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_we19/ll_we19_02.png",
+   "variant": ""
+  },
+  {
+   "num": "LL/WE19-02SP",
+   "name": "“それは僕たちの奇跡”南 ことり",
+   "type": "Character",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋1000。\n【自】 相手のアタックフェイズの始めに、あなたは自分の山札の上から1枚を、控え室に置いてよい。そのカードのレベルが0以下なら、あなたはこのカードを前列のキャラのいない枠に動かしてよい。（クライマックスのレベルは0として扱う）\n\"-\"",
+   "traits": [
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_we19/ll_we19_02sp.png",
+   "variant": ""
+  },
+  {
+   "num": "LL/WE19-03",
+   "name": "“それは僕たちの奇跡”高坂 穂乃果",
+   "type": "Character",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1) あなたの山札の上から1枚をクロック置場に置く］ このカードがアタックした時、クライマックス置場に「どんなときもずっと」があるなら、あなたはコストを払ってよい。そうしたら、そのターン中、このカードのパワーを＋7000し、相手は『【自】 アンコール』を使えない。（ルールによる『【自】 アンコール ［(3)］』も使えない）\n\"-\"",
+   "traits": [
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_we19/ll_we19_03.png",
+   "variant": ""
+  },
+  {
+   "num": "LL/WE19-03SP",
+   "name": "“それは僕たちの奇跡”高坂 穂乃果",
+   "type": "Character",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1) あなたの山札の上から1枚をクロック置場に置く］ このカードがアタックした時、クライマックス置場に「どんなときもずっと」があるなら、あなたはコストを払ってよい。そうしたら、そのターン中、このカードのパワーを＋7000し、相手は『【自】 アンコール』を使えない。（ルールによる『【自】 アンコール ［(3)］』も使えない）\n\"-\"",
+   "traits": [
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_we19/ll_we19_03sp.png",
+   "variant": ""
+  },
+  {
+   "num": "LL/WE19-04",
+   "name": "“それは僕たちの奇跡”西木野 真姫",
+   "type": "Character",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたのレベル0以下のキャラ1枚につき、このカードのパワーを＋500。\n\"-\"",
+   "traits": [
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_we19/ll_we19_04.png",
+   "variant": ""
+  },
+  {
+   "num": "LL/WE19-04SP",
+   "name": "“それは僕たちの奇跡”西木野 真姫",
+   "type": "Character",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたのレベル0以下のキャラ1枚につき、このカードのパワーを＋500。\n\"-\"",
+   "traits": [
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_we19/ll_we19_04sp.png",
+   "variant": ""
+  },
+  {
+   "num": "LL/WE19-05",
+   "name": "“それは僕たちの奇跡”東條 希",
+   "type": "Character",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "6000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から1枚を公開する。そのカードが《音楽》のキャラでないなら、このカードを【レスト】する。（公開したカードは元に戻す）\n\"-\"",
+   "traits": [
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_we19/ll_we19_05.png",
+   "variant": ""
+  },
+  {
+   "num": "LL/WE19-05SP",
+   "name": "“それは僕たちの奇跡”東條 希",
+   "type": "Character",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "6000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から1枚を公開する。そのカードが《音楽》のキャラでないなら、このカードを【レスト】する。（公開したカードは元に戻す）\n\"-\"",
+   "traits": [
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_we19/ll_we19_05sp.png",
+   "variant": ""
+  },
+  {
+   "num": "LL/WE19-06",
+   "name": "“それは僕たちの奇跡”園田 海未",
+   "type": "Character",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "1",
+   "cost": "1",
+   "power": "6000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの《音楽》のキャラが3枚以上なら、このカードのパワーを＋1000。\n【自】 アンコール ［あなたの山札の上から1枚をクロック置場に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"-\"",
+   "traits": [
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_we19/ll_we19_06.png",
+   "variant": ""
+  },
+  {
+   "num": "LL/WE19-06SP",
+   "name": "“それは僕たちの奇跡”園田 海未",
+   "type": "Character",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "1",
+   "cost": "1",
+   "power": "6000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの《音楽》のキャラが3枚以上なら、このカードのパワーを＋1000。\n【自】 アンコール ［あなたの山札の上から1枚をクロック置場に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"-\"",
+   "traits": [
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_we19/ll_we19_06sp.png",
+   "variant": ""
+  },
+  {
+   "num": "LL/WE19-07",
+   "name": "“それは僕たちの奇跡”小泉 花陽",
+   "type": "Character",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "1",
+   "cost": "1",
+   "power": "7000",
+   "soul": 1,
+   "trigger": "",
+   "text": "-\n\"-\"",
+   "traits": [
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_we19/ll_we19_07.png",
+   "variant": ""
+  },
+  {
+   "num": "LL/WE19-07SP",
+   "name": "“それは僕たちの奇跡”小泉 花陽",
+   "type": "Character",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "1",
+   "cost": "1",
+   "power": "7000",
+   "soul": 1,
+   "trigger": "",
+   "text": "-\n\"-\"",
+   "traits": [
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_we19/ll_we19_07sp.png",
+   "variant": ""
+  },
+  {
+   "num": "LL/WE19-08",
+   "name": "“それは僕たちの奇跡”星空 凛",
+   "type": "Character",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 あなたがこのカードの『助太刀』を使った時、あなたは自分の山札の上から1枚を公開する。そのカードが《音楽》のキャラなら、あなたは自分のバトル中のキャラを1枚選び、そのターン中、パワーを＋1000。（公開したカードは元に戻す）\n【起】【カウンター】 助太刀2500 レベル2 ［(1) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋2500）\n\"-\"",
+   "traits": [
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_we19/ll_we19_08.png",
+   "variant": ""
+  },
+  {
+   "num": "LL/WE19-08SP",
+   "name": "“それは僕たちの奇跡”星空 凛",
+   "type": "Character",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 あなたがこのカードの『助太刀』を使った時、あなたは自分の山札の上から1枚を公開する。そのカードが《音楽》のキャラなら、あなたは自分のバトル中のキャラを1枚選び、そのターン中、パワーを＋1000。（公開したカードは元に戻す）\n【起】【カウンター】 助太刀2500 レベル2 ［(1) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋2500）\n\"-\"",
+   "traits": [
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_we19/ll_we19_08sp.png",
+   "variant": ""
+  },
+  {
+   "num": "LL/WE19-09",
+   "name": "“それは僕たちの奇跡”絢瀬 絵里",
+   "type": "Character",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "2",
+   "cost": "2",
+   "power": "8000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの《音楽》のキャラ1枚につき、このカードのパワーを＋500。\n\"-\"",
+   "traits": [
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_we19/ll_we19_09.png",
+   "variant": ""
+  },
+  {
+   "num": "LL/WE19-09SP",
+   "name": "“それは僕たちの奇跡”絢瀬 絵里",
+   "type": "Character",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "2",
+   "cost": "2",
+   "power": "8000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの《音楽》のキャラ1枚につき、このカードのパワーを＋500。\n\"-\"",
+   "traits": [
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_we19/ll_we19_09sp.png",
+   "variant": ""
+  },
+  {
+   "num": "LL/WE19-10",
+   "name": "統堂 英玲奈",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "8000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【起】［あなたのキャラを2枚【レスト】する］ そのターン中、このカードのパワーを＋2000。\n\"人を惹きつける魅力。<br />カリスマ性とでも言えばいいのだろうか…\"",
+   "traits": [
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_we19/ll_we19_10.png",
+   "variant": ""
+  },
+  {
+   "num": "LL/WE19-11",
+   "name": "優木 あんじゅ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "2",
+   "cost": "2",
+   "power": "8000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの【レスト】しているキャラ1枚につき、このカードのパワーを＋500。\n\"いいのよ。気にしないで\"",
+   "traits": [
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_we19/ll_we19_11.png",
+   "variant": ""
+  },
+  {
+   "num": "LL/WE19-12",
+   "name": "綺羅 ツバサ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたの控え室の「綺羅 ツバサ」が2枚以上なら、あなたの手札のこのカードのレベルを－1。\n【自】 このカードがアタックした時、クライマックス置場に「Shocking Party」があり、他のあなたの前列の、「統堂 英玲奈」と「優木 あんじゅ」がいるなら、あなたの前列のキャラすべてに、そのターン中、パワーを＋1500し、次の能力を与える。『【自】 この能力は1ターンにつき1回まで発動する。このカードの与えたダメージがキャンセルされた時、あなたは相手に1ダメージを与えてよい。』（ダメージキャンセルは発生する）\n\"-\"",
+   "traits": [
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_we19/ll_we19_12.png",
+   "variant": ""
+  },
+  {
+   "num": "LL/WE19-13",
+   "name": "“夢に向かって”μ's",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分の【スタンド】している《音楽》のキャラを1枚選び、【レスト】する。\n【自】［(2) あなたの山札の上から1枚をクロック置場に置く］ この能力は1ターンにつき1回まで発動する。このカードのバトル相手が【リバース】した時、あなたのクライマックス置場に「それは僕たちの奇跡」があるなら、あなたはコストを払ってよい。そうしたら、このカードを【スタンド】する。\n\"-\"",
+   "traits": [
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_we19/ll_we19_13.png",
+   "variant": ""
+  },
+  {
+   "num": "LL/WE19-14",
+   "name": "スランプ",
+   "type": "Event",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "2",
+   "cost": "0",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "あなたのキャラすべてに、そのターン中、ソウルを＋1。\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_we19/ll_we19_14.png",
+   "variant": ""
+  },
+  {
+   "num": "LL/WE19-15",
+   "name": "それは僕たちの奇跡",
+   "type": "Climax",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【自】 このカードが手札からクライマックス置場に置かれた時、あなたは1枚引き、自分のキャラを1枚選び、そのターン中、パワーを＋2000し、ソウルを＋1。\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_we19/ll_we19_15.png",
+   "variant": ""
+  },
+  {
+   "num": "LL/WE19-16",
+   "name": "どんなときもずっと",
+   "type": "Climax",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【自】 このカードが手札からクライマックス置場に置かれた時、あなたは自分の控え室の黄のカードを1枚まで選び、ストック置場に置き、自分のキャラすべてに、そのターン中、ソウルを＋1。\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_we19/ll_we19_16.png",
+   "variant": ""
+  },
+  {
+   "num": "LL/WE19-17",
+   "name": "ユメノトビラ",
+   "type": "Climax",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[bounce.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[bounce.gif]]：このカードがトリガーした時、あなたは相手のキャラを1枚選び、手札に戻してよい）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_we19/ll_we19_17.png",
+   "variant": ""
+  },
+  {
+   "num": "LL/WE19-18",
+   "name": "Shocking Party",
+   "type": "Climax",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[shot.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[shot.gif]]：このターン中、このカードをトリガーした攻撃キャラが次に与えるダメージがキャンセルされた時、相手に1ダメージを与える）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_we19/ll_we19_18.png",
+   "variant": ""
+  },
+  {
+   "num": "LL/WE19-19",
+   "name": "生徒会長 穂乃果",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 バトル中のこのカードが【リバース】した時、他のあなたの《音楽》のキャラが1枚以下なら、このカードをクロック置場に置く。\n\"ふえ～、生徒会長って大変なんだね～！\"",
+   "traits": [
+    "音楽",
+    "お菓子"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_we19/ll_we19_19.png",
+   "variant": ""
+  },
+  {
+   "num": "LL/WE19-20",
+   "name": "デザイナー ことり",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1)］ アタックフェイズの始めに、あなたのクライマックス置場に「ユメノトビラ」があり、前列にこのカードがいるなら、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室のレベル0以下の《音楽》のキャラを1枚選び、舞台の好きな枠に置き、そのターン中、このカードのパワーを＋2000。\n\"一息ついたら少しイメージが湧いてきたよ\"",
+   "traits": [
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_we19/ll_we19_20.png",
+   "variant": ""
+  },
+  {
+   "num": "LL/WE19-21",
+   "name": "山頂アタック 海未",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "8000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 あなたのクライマックス置場に「ユメノトビラ」が置かれた時、前列にこのカードがいるなら、あなたは自分の控え室のコスト0以下のキャラを1枚まで選び、舞台の好きな枠に置き、そのターン中、このカードのパワーを＋2000。\n\"山頂アタックです！\"",
+   "traits": [
+    "音楽",
+    "スポーツ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_we19/ll_we19_21.png",
+   "variant": ""
+  },
+  {
+   "num": "LL/WE19-22",
+   "name": "“名案”絵里",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは相手のストックの上から1枚を、控え室に置いてよい。そうしたら、あなたは相手の控え室のカードを1枚選び、ストック置場に置く。\n【起】 集中 ［(1) このカードを【レスト】する］ あなたは自分の山札の上から4枚をめくり、控え室に置く。それらのカードのクライマックス1枚につき、次の行動を行う。『あなたは自分のクロックを1枚選び、手札に戻し、自分の山札の上から1枚を、クロック置場に置く。』\n\"…！　そうだ！\"",
+   "traits": [
+    "音楽",
+    "スポーツ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_we19/ll_we19_22.png",
+   "variant": ""
+  },
+  {
+   "num": "LL/WE19-23",
+   "name": "後輩想いの希",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの前列のキャラが1枚以下なら、このカードのパワーを＋1000。\n\"フフフ、頑張ってるかね？　キミ達？\"",
+   "traits": [
+    "音楽",
+    "占い"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_we19/ll_we19_23.png",
+   "variant": ""
+  },
+  {
+   "num": "LL/WE19-24",
+   "name": "自慢の作詞 にこ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(2)］ あなたがこのカードの『助太刀』を使った時、あなたはコストを払ってよい。そうしたら、あなたは相手の、レベルが相手のレベルより高いキャラを1枚選び、控え室に置き、相手は自分の控え室のレベル0以下のキャラを1枚まで選び、そのキャラがいた枠に置く。\n【起】【カウンター】 助太刀1000 レベル1 ［手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋1000）\n\"こーなったらば仕方ない\"",
+   "traits": [
+    "音楽",
+    "オタク"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_we19/ll_we19_24.png",
+   "variant": ""
+  },
+  {
+   "num": "LL/WE19-25",
+   "name": "アイドル発見！ 花陽",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1) 手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見て《音楽》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"今の絶対！\"",
+   "traits": [
+    "音楽",
+    "動物"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_we19/ll_we19_25.png",
+   "variant": ""
+  },
+  {
+   "num": "LL/WE19-26",
+   "name": "作曲中 真姫",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1)］ このカードがアタックした時、クライマックス置場に「ユメノトビラ」があり、他のあなたの《音楽》のキャラが2枚以上なら、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見て《音楽》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"-\"",
+   "traits": [
+    "音楽",
+    "令嬢"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_we19/ll_we19_26.png",
+   "variant": ""
+  },
+  {
+   "num": "LL/WE19-27",
+   "name": "大号泣 凛",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋Ｘ。Ｘはそのキャラのレベル×500に等しい。\n【起】［あなたのキャラを2枚【レスト】する］ あなたは自分のキャラを1枚選び、そのターン中、次の能力を与える。『【自】 このカードのバトル相手が【リバース】した時、あなたは1枚引いてよい。そうしたら、あなたは自分の手札を1枚選び、控え室に置く。』\n\"作詞に来たはずにゃー！！\"",
+   "traits": [
+    "音楽",
+    "スポーツ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_we19/ll_we19_27.png",
+   "variant": ""
+  }
+ ]
+}

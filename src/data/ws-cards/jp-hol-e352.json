@@ -1,0 +1,671 @@
+{
+ "id": "jp-hol-e352",
+ "name": "[TD+]ホロライブプロダクション ホロライブ2期生",
+ "expansion": 352,
+ "lang": "jp",
+ "release": null,
+ "shopItem": null,
+ "box": null,
+ "cards": [
+  {
+   "num": "HOL/W91-T038",
+   "name": "隣国のスパイ 癒月ちょこ",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの《ホロライブ》のキャラが2枚以上なら、他のあなたの、「あやめのひととせ 百鬼あやめ」と「元気いっぱい！ 大空スバル」すべてに、パワーを＋1000。\n【起】 集中 ［(1) このカードを【レスト】する］ あなたは自分の山札の上から5枚をめくり、控え室に置く。それらのカードのクライマックス1枚につき、あなたは1枚まで引く。\n\"王様！報告が！\"",
+   "traits": [
+    "ホロライブ",
+    "2期生"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/h/hol_w91/hol_w91_t038.png",
+   "variant": ""
+  },
+  {
+   "num": "HOL/W91-T038R",
+   "name": "隣国のスパイ 癒月ちょこ",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの《ホロライブ》のキャラが2枚以上なら、他のあなたの、「あやめのひととせ 百鬼あやめ」と「元気いっぱい！ 大空スバル」すべてに、パワーを＋1000。\n【起】 集中 ［(1) このカードを【レスト】する］ あなたは自分の山札の上から5枚をめくり、控え室に置く。それらのカードのクライマックス1枚につき、あなたは1枚まで引く。\n\"ころね「だいじんスパイだから牢屋行きね」\"",
+   "traits": [
+    "ホロライブ",
+    "2期生"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/h/hol_w91/hol_w91_t038r.png",
+   "variant": ""
+  },
+  {
+   "num": "HOL/W91-T039",
+   "name": "ハロウィンは終わらない 癒月ちょこ",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 このカードの正面のキャラは他の枠に動かせない。\n【自】 このカードがアタックした時、あなたは自分の《ホロライブ》のキャラを1枚選び、そのターン中、パワーを＋1500。\n\"でも、もう12月も終わるのに…\"",
+   "traits": [
+    "ホロライブ",
+    "2期生"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/h/hol_w91/hol_w91_t039.png",
+   "variant": ""
+  },
+  {
+   "num": "HOL/W91-T039R",
+   "name": "ハロウィンは終わらない 癒月ちょこ",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 このカードの正面のキャラは他の枠に動かせない。\n【自】 このカードがアタックした時、あなたは自分の《ホロライブ》のキャラを1枚選び、そのターン中、パワーを＋1500。\n\"ロボ子「まだハロウィンは終わってないんだ！」\"",
+   "traits": [
+    "ホロライブ",
+    "2期生"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/h/hol_w91/hol_w91_t039r.png",
+   "variant": ""
+  },
+  {
+   "num": "HOL/W91-T040",
+   "name": "怠け者に喝 百鬼あやめ",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【起】【カウンター】 助太刀1500 レベル1 ［手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋1500）\n\"余だぞ！\"",
+   "traits": [
+    "ホロライブ",
+    "2期生"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/h/hol_w91/hol_w91_t040.png",
+   "variant": ""
+  },
+  {
+   "num": "HOL/W91-T040R",
+   "name": "怠け者に喝 百鬼あやめ",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【起】【カウンター】 助太刀1500 レベル1 ［手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋1500）\n\"春が来てすっかりポカポカだな！\"",
+   "traits": [
+    "ホロライブ",
+    "2期生"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/h/hol_w91/hol_w91_t040r.png",
+   "variant": ""
+  },
+  {
+   "num": "HOL/W91-T041",
+   "name": "あやめのひととせ 百鬼あやめ",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの《ホロライブ》のキャラが2枚以上なら、このカードのパワーを＋1000。\n【自】【CXコンボ】 このカードがアタックした時、クライマックス置場に「一緒にお祝い」があり、他のあなたの《ホロライブ》のキャラがいるなら、あなたは自分の山札を上から4枚まで見て、レベル1以上のカードを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。（クライマックスのレベルは0として扱う）\n\"－\"",
+   "traits": [
+    "ホロライブ",
+    "2期生"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/h/hol_w91/hol_w91_t041.png",
+   "variant": ""
+  },
+  {
+   "num": "HOL/W91-T041SP",
+   "name": "あやめのひととせ 百鬼あやめ",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの《ホロライブ》のキャラが2枚以上なら、このカードのパワーを＋1000。\n【自】【CXコンボ】 このカードがアタックした時、クライマックス置場に「一緒にお祝い」があり、他のあなたの《ホロライブ》のキャラがいるなら、あなたは自分の山札を上から4枚まで見て、レベル1以上のカードを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。（クライマックスのレベルは0として扱う）\n\"－\"",
+   "traits": [
+    "ホロライブ",
+    "2期生"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/h/hol_w91/hol_w91_t041sp.png",
+   "variant": ""
+  },
+  {
+   "num": "HOL/W91-T042",
+   "name": "FAMS 百鬼あやめ",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋Ｘ。Ｘはそのキャラのレベル×500に等しい。\n【起】［このカードを【レスト】する］ あなたは1枚引き、自分の手札を1枚選び、控え室に置く。\n\"ご名答☆\"",
+   "traits": [
+    "ホロライブ",
+    "2期生"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/h/hol_w91/hol_w91_t042.png",
+   "variant": ""
+  },
+  {
+   "num": "HOL/W91-T042R",
+   "name": "FAMS 百鬼あやめ",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋Ｘ。Ｘはそのキャラのレベル×500に等しい。\n【起】［このカードを【レスト】する］ あなたは1枚引き、自分の手札を1枚選び、控え室に置く。\n\"フッ、私が一番乗りのようですね\"",
+   "traits": [
+    "ホロライブ",
+    "2期生"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/h/hol_w91/hol_w91_t042r.png",
+   "variant": ""
+  },
+  {
+   "num": "HOL/W91-T043",
+   "name": "サンオイル 癒月ちょこ",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n【自】［手札を2枚控え室に置く］ このカードがアタックした時、あなたはコストを払ってよい。そうしたら、相手に1ダメージを与える。（ダメージキャンセルは発生する）\n\"－\"",
+   "traits": [
+    "ホロライブ",
+    "2期生"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/h/hol_w91/hol_w91_t043.png",
+   "variant": ""
+  },
+  {
+   "num": "HOL/W91-T043SP",
+   "name": "サンオイル 癒月ちょこ",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n【自】［手札を2枚控え室に置く］ このカードがアタックした時、あなたはコストを払ってよい。そうしたら、相手に1ダメージを与える。（ダメージキャンセルは発生する）\n\"－\"",
+   "traits": [
+    "ホロライブ",
+    "2期生"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/h/hol_w91/hol_w91_t043sp.png",
+   "variant": ""
+  },
+  {
+   "num": "HOL/W91-T044",
+   "name": "#ホロライブ2期生",
+   "type": "Event",
+   "rarity": "TD",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "あなたの、「隣国のスパイ 癒月ちょこ」と「FAMS 百鬼あやめ」がいるなら、あなたは自分の手札の「元気いっぱい！ 大空スバル」を1枚まで選び、舞台の好きな枠に置き、次の相手のターンの終わりまで、そのキャラに次の2つの能力を与える。『【永】 このカードのバトル中、相手はイベントと『助太刀』を手札からプレイできない。』『【永】 このカードは相手の効果に選ばれない。』\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/h/hol_w91/hol_w91_t044.png",
+   "variant": ""
+  },
+  {
+   "num": "HOL/W91-T044S",
+   "name": "#ホロライブ2期生",
+   "type": "Event",
+   "rarity": "SR",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "あなたの、「隣国のスパイ 癒月ちょこ」と「FAMS 百鬼あやめ」がいるなら、あなたは自分の手札の「元気いっぱい！ 大空スバル」を1枚まで選び、舞台の好きな枠に置き、次の相手のターンの終わりまで、そのキャラに次の2つの能力を与える。『【永】 このカードのバトル中、相手はイベントと『助太刀』を手札からプレイできない。』『【永】 このカードは相手の効果に選ばれない。』\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/h/hol_w91/hol_w91_t044s.png",
+   "variant": ""
+  },
+  {
+   "num": "HOL/W91-T045",
+   "name": "一緒にお祝い",
+   "type": "Climax",
+   "rarity": "TD",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[salvage.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[salvage.gif]]：このカードがトリガーした時、あなたは自分の控え室のキャラを1枚選び、手札に戻してよい）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/h/hol_w91/hol_w91_t045.png",
+   "variant": ""
+  },
+  {
+   "num": "HOL/W91-T045R",
+   "name": "一緒にお祝い",
+   "type": "Climax",
+   "rarity": "RRR",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[salvage.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[salvage.gif]]：このカードがトリガーした時、あなたは自分の控え室のキャラを1枚選び、手札に戻してよい）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/h/hol_w91/hol_w91_t045r.png",
+   "variant": ""
+  },
+  {
+   "num": "HOL/W91-T046",
+   "name": "悪い魔女役 紫咲シオン",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［このカードを控え室に置く］ 他のあなたの《ホロライブ》のキャラがフロントアタックされた時、あなたはコストを払ってよい。そうしたら、あなたは自分のバトル中のキャラを1枚選び、そのターン中、パワーを＋1000。\n【自】 絆／「カニ捕獲大作戦 湊あくあ」「元気いっぱい！ 大空スバル」 ［手札を1枚控え室に置く］ （このカードがプレイされて舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の、「カニ捕獲大作戦 湊あくあ」か「元気いっぱい！ 大空スバル」を1枚選び、手札に戻す）\n\"よーし捕まえた～\"",
+   "traits": [
+    "ホロライブ",
+    "2期生"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/h/hol_w91/hol_w91_t046.png",
+   "variant": ""
+  },
+  {
+   "num": "HOL/W91-T046R",
+   "name": "悪い魔女役 紫咲シオン",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［このカードを控え室に置く］ 他のあなたの《ホロライブ》のキャラがフロントアタックされた時、あなたはコストを払ってよい。そうしたら、あなたは自分のバトル中のキャラを1枚選び、そのターン中、パワーを＋1000。\n【自】 絆／「カニ捕獲大作戦 湊あくあ」「元気いっぱい！ 大空スバル」 ［手札を1枚控え室に置く］ （このカードがプレイされて舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の、「カニ捕獲大作戦 湊あくあ」か「元気いっぱい！ 大空スバル」を1枚選び、手札に戻す）\n\"その扉は一度開けたらもう開かないようになってるんだぞ！\"",
+   "traits": [
+    "ホロライブ",
+    "2期生"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/h/hol_w91/hol_w91_t046r.png",
+   "variant": ""
+  },
+  {
+   "num": "HOL/W91-T047",
+   "name": "ある冬の日 湊あくあ",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 あなたのメインフェイズ中、このカードが手札から舞台に置かれた時、あなたは自分の山札を上から1枚見て、山札の上か下に置き、あなたのクロックが1枚以下なら、自分の《ホロライブ》のキャラを1枚選び、【スタンド】する。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から1枚を公開する。そのカードが《ホロライブ》のキャラなら手札に加え、あなたは自分の手札を1枚選び、控え室に置く。（そうでないなら元に戻す）\n\"－\"",
+   "traits": [
+    "ホロライブ",
+    "2期生"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/h/hol_w91/hol_w91_t047.png",
+   "variant": ""
+  },
+  {
+   "num": "HOL/W91-T047SP",
+   "name": "ある冬の日 湊あくあ",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 あなたのメインフェイズ中、このカードが手札から舞台に置かれた時、あなたは自分の山札を上から1枚見て、山札の上か下に置き、あなたのクロックが1枚以下なら、自分の《ホロライブ》のキャラを1枚選び、【スタンド】する。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から1枚を公開する。そのカードが《ホロライブ》のキャラなら手札に加え、あなたは自分の手札を1枚選び、控え室に置く。（そうでないなら元に戻す）\n\"－\"",
+   "traits": [
+    "ホロライブ",
+    "2期生"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/h/hol_w91/hol_w91_t047sp.png",
+   "variant": ""
+  },
+  {
+   "num": "HOL/W91-T048",
+   "name": "逃走 大空スバル",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの《ホロライブ》のキャラすべてに、パワーを＋500。\n【起】［(1) このカードを控え室に置く］ あなたは自分の控え室の「#ホロライブ2期生」を1枚選び、手札に戻す。\n\"あいつらスバルを具材だと思ってやがる！\"",
+   "traits": [
+    "ホロライブ",
+    "2期生"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/h/hol_w91/hol_w91_t048.png",
+   "variant": ""
+  },
+  {
+   "num": "HOL/W91-T048R",
+   "name": "逃走 大空スバル",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの《ホロライブ》のキャラすべてに、パワーを＋500。\n【起】［(1) このカードを控え室に置く］ あなたは自分の控え室の「#ホロライブ2期生」を1枚選び、手札に戻す。\n\"今度こそやられる！！今度こそやられる！！！！\"",
+   "traits": [
+    "ホロライブ",
+    "2期生"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/h/hol_w91/hol_w91_t048r.png",
+   "variant": ""
+  },
+  {
+   "num": "HOL/W91-T049",
+   "name": "冷静なツッコミ 湊あくあ",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 このカードの下にマーカーがあるなら、このカードのレベルを＋1し、パワーを＋1500。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から1枚を公開する。そのカードが《ホロライブ》のキャラならこのカードの下にマーカーとして裏向きに置いてよい。（そうしないなら元に戻す）\n\"ひぃ！おばけ！\"",
+   "traits": [
+    "ホロライブ",
+    "2期生"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/h/hol_w91/hol_w91_t049.png",
+   "variant": ""
+  },
+  {
+   "num": "HOL/W91-T049R",
+   "name": "冷静なツッコミ 湊あくあ",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 このカードの下にマーカーがあるなら、このカードのレベルを＋1し、パワーを＋1500。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から1枚を公開する。そのカードが《ホロライブ》のキャラならこのカードの下にマーカーとして裏向きに置いてよい。（そうしないなら元に戻す）\n\"覚えてないじゃん\"",
+   "traits": [
+    "ホロライブ",
+    "2期生"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/h/hol_w91/hol_w91_t049r.png",
+   "variant": ""
+  },
+  {
+   "num": "HOL/W91-T050",
+   "name": "あなたへのお返し 紫咲シオン",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1)］ 相手のアタックフェイズの始めに、あなたはコストを払ってよい。そうしたら、あなたはこのカードの正面のキャラを1枚と、そのキャラ以外の相手の前列のキャラを1枚選び、それぞれを【スタンド】して入れ替える。\n\"－\"",
+   "traits": [
+    "ホロライブ",
+    "2期生"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/h/hol_w91/hol_w91_t050.png",
+   "variant": ""
+  },
+  {
+   "num": "HOL/W91-T050SP",
+   "name": "あなたへのお返し 紫咲シオン",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1)］ 相手のアタックフェイズの始めに、あなたはコストを払ってよい。そうしたら、あなたはこのカードの正面のキャラを1枚と、そのキャラ以外の相手の前列のキャラを1枚選び、それぞれを【スタンド】して入れ替える。\n\"－\"",
+   "traits": [
+    "ホロライブ",
+    "2期生"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/h/hol_w91/hol_w91_t050sp.png",
+   "variant": ""
+  },
+  {
+   "num": "HOL/W91-T051",
+   "name": "FAMS 大空スバル",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのターン中、このカードのパワーを＋4000。\n\"なんでそんなところにいるんだ？\"",
+   "traits": [
+    "ホロライブ",
+    "2期生"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/h/hol_w91/hol_w91_t051.png",
+   "variant": ""
+  },
+  {
+   "num": "HOL/W91-T051R",
+   "name": "FAMS 大空スバル",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのターン中、このカードのパワーを＋4000。\n\"あやめ「スバ谷さんが窓から入ってくるのが悪いんですよ！」\"",
+   "traits": [
+    "ホロライブ",
+    "2期生"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/h/hol_w91/hol_w91_t051r.png",
+   "variant": ""
+  },
+  {
+   "num": "HOL/W91-T052",
+   "name": "カニ捕獲大作戦 湊あくあ",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "5500",
+   "soul": 1,
+   "trigger": "",
+   "text": "－\n\"ズワイガニのズワイガって何なの？\"",
+   "traits": [
+    "ホロライブ",
+    "2期生"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/h/hol_w91/hol_w91_t052.png",
+   "variant": ""
+  },
+  {
+   "num": "HOL/W91-T052R",
+   "name": "カニ捕獲大作戦 湊あくあ",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "5500",
+   "soul": 1,
+   "trigger": "",
+   "text": "－\n\"カニ\"",
+   "traits": [
+    "ホロライブ",
+    "2期生"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/h/hol_w91/hol_w91_t052r.png",
+   "variant": ""
+  },
+  {
+   "num": "HOL/W91-T053",
+   "name": "サウナの誘い 紫咲シオン",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "6500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの《ホロライブ》のキャラ1枚につき、このカードのパワーを＋1000。\n\"あくあ「シオンちゃん、サウナ行こうよサウナ」\"",
+   "traits": [
+    "ホロライブ",
+    "2期生"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/h/hol_w91/hol_w91_t053.png",
+   "variant": ""
+  },
+  {
+   "num": "HOL/W91-T053R",
+   "name": "サウナの誘い 紫咲シオン",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "6500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの《ホロライブ》のキャラ1枚につき、このカードのパワーを＋1000。\n\"サウナ！？いくいく！\"",
+   "traits": [
+    "ホロライブ",
+    "2期生"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/h/hol_w91/hol_w91_t053r.png",
+   "variant": ""
+  },
+  {
+   "num": "HOL/W91-T054",
+   "name": "元気いっぱい！ 大空スバル",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札を見て《ホロライブ》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n【自】【CXコンボ】 あなたのクライマックス置場に「向日葵の君に」が置かれた時、前列にこのカードがいるなら、あなたは自分の控え室の《ホロライブ》のキャラを1枚まで選び、手札に戻し、次の相手のターンの終わりまで、このカードのパワーを＋Ｘ。Ｘは他のあなたの《ホロライブ》のキャラの枚数×1000に等しい。\n\"－\"",
+   "traits": [
+    "ホロライブ",
+    "2期生"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/h/hol_w91/hol_w91_t054.png",
+   "variant": ""
+  },
+  {
+   "num": "HOL/W91-T054SP",
+   "name": "元気いっぱい！ 大空スバル",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "blue",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札を見て《ホロライブ》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n【自】【CXコンボ】 あなたのクライマックス置場に「向日葵の君に」が置かれた時、前列にこのカードがいるなら、あなたは自分の控え室の《ホロライブ》のキャラを1枚まで選び、手札に戻し、次の相手のターンの終わりまで、このカードのパワーを＋Ｘ。Ｘは他のあなたの《ホロライブ》のキャラの枚数×1000に等しい。\n\"－\"",
+   "traits": [
+    "ホロライブ",
+    "2期生"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/h/hol_w91/hol_w91_t054sp.png",
+   "variant": ""
+  },
+  {
+   "num": "HOL/W91-T055",
+   "name": "向日葵の君に",
+   "type": "Climax",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[gate.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[gate.gif]]：このカードがトリガーした時、あなたは自分の控え室のクライマックスを1枚選び、手札に戻してよい）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/h/hol_w91/hol_w91_t055.png",
+   "variant": ""
+  },
+  {
+   "num": "HOL/W91-T055R",
+   "name": "向日葵の君に",
+   "type": "Climax",
+   "rarity": "RRR",
+   "color": "blue",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[gate.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[gate.gif]]：このカードがトリガーした時、あなたは自分の控え室のクライマックスを1枚選び、手札に戻してよい）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/h/hol_w91/hol_w91_t055r.png",
+   "variant": ""
+  }
+ ]
+}

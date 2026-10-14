@@ -1,0 +1,671 @@
+{
+ "id": "jp-hol-e354",
+ "name": "[TD+]ホロライブプロダクション ホロライブ3期生",
+ "expansion": 354,
+ "lang": "jp",
+ "release": null,
+ "shopItem": null,
+ "box": null,
+ "cards": [
+  {
+   "num": "HOL/W91-T075",
+   "name": "修羅場 不知火フレア",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの「横ピース 白銀ノエル」すべてに、パワーを＋500し、次の能力を与える。『【自】［(1)］ 相手のアタックフェイズの始めに、あなたはコストを払ってよい。そうしたら、あなたは自分の《ホロライブ》のキャラを1枚とこのカードを選び、それぞれを【スタンド】して入れ替える。』\n【自】 絆／「横ピース 白銀ノエル」「穏やかな時間 潤羽るしあ」 ［手札を1枚控え室に置く］ （このカードがプレイされて舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の、「横ピース 白銀ノエル」か「穏やかな時間 潤羽るしあ」を1枚選び、手札に戻す）\n\"ノエちゃん最近ラミィちゃんといい感じらしいね…\"",
+   "traits": [
+    "ホロライブ",
+    "3期生"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/h/hol_w91/hol_w91_t075.png",
+   "variant": ""
+  },
+  {
+   "num": "HOL/W91-T075R",
+   "name": "修羅場 不知火フレア",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの「横ピース 白銀ノエル」すべてに、パワーを＋500し、次の能力を与える。『【自】［(1)］ 相手のアタックフェイズの始めに、あなたはコストを払ってよい。そうしたら、あなたは自分の《ホロライブ》のキャラを1枚とこのカードを選び、それぞれを【スタンド】して入れ替える。』\n【自】 絆／「横ピース 白銀ノエル」「穏やかな時間 潤羽るしあ」 ［手札を1枚控え室に置く］ （このカードがプレイされて舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の、「横ピース 白銀ノエル」か「穏やかな時間 潤羽るしあ」を1枚選び、手札に戻す）\n\"エルフならだれでもいいんだぁ！\"",
+   "traits": [
+    "ホロライブ",
+    "3期生"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/h/hol_w91/hol_w91_t075r.png",
+   "variant": ""
+  },
+  {
+   "num": "HOL/W91-T076",
+   "name": "ボトルシップ作り 宝鐘マリン",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1) あなたの山札の上から1枚をクロック置場に置く］ このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を上から4枚まで見て、キャラを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。\n\"ボトルシップです\"",
+   "traits": [
+    "ホロライブ",
+    "3期生"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/h/hol_w91/hol_w91_t076.png",
+   "variant": ""
+  },
+  {
+   "num": "HOL/W91-T076R",
+   "name": "ボトルシップ作り 宝鐘マリン",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1) あなたの山札の上から1枚をクロック置場に置く］ このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を上から4枚まで見て、キャラを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。\n\"すいせい「なんか神経使いそうな作業だね」\"",
+   "traits": [
+    "ホロライブ",
+    "3期生"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/h/hol_w91/hol_w91_t076r.png",
+   "variant": ""
+  },
+  {
+   "num": "HOL/W91-T077",
+   "name": "エア配信 宝鐘マリン",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの《ホロライブ》のキャラが2枚以上なら、このカードのパワーを＋2000。\n【自】 この能力は1ターンにつき1回まで発動する。バトル中のこのカードが【リバース】した時、あなたは自分の山札の上から1枚を公開する。そのカードのレベルが2以上なら、あなたはこのカードを【レスト】してよい。（クライマックスのレベルは0として扱う。公開したカードは元に戻す）\n\"フブキ「配信だ！」\"",
+   "traits": [
+    "ホロライブ",
+    "3期生"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/h/hol_w91/hol_w91_t077.png",
+   "variant": ""
+  },
+  {
+   "num": "HOL/W91-T077R",
+   "name": "エア配信 宝鐘マリン",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの《ホロライブ》のキャラが2枚以上なら、このカードのパワーを＋2000。\n【自】 この能力は1ターンにつき1回まで発動する。バトル中のこのカードが【リバース】した時、あなたは自分の山札の上から1枚を公開する。そのカードのレベルが2以上なら、あなたはこのカードを【レスト】してよい。（クライマックスのレベルは0として扱う。公開したカードは元に戻す）\n\"フブキ「空気椅子をしながら船長はエア配信を始めたーーー！！」\"",
+   "traits": [
+    "ホロライブ",
+    "3期生"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/h/hol_w91/hol_w91_t077r.png",
+   "variant": ""
+  },
+  {
+   "num": "HOL/W91-T078",
+   "name": "君と一緒にお花見 不知火フレア",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの《ホロライブ》のキャラ1枚につき、このカードのパワーを＋500。\n【自】【CXコンボ】［(1)］ このカードがアタックした時、クライマックス置場に「雪の降る街で」があり、他のあなたの《ホロライブ》のキャラがいるなら、あなたは自分の山札を上から1枚見て、《ホロライブ》のキャラか「#ホロライブ3期生」を1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置き、コストを払ってよい。そうしたら、そのアタック中、あなたはトリガーステップにトリガーチェックを2回行う。\n\"-\"",
+   "traits": [
+    "ホロライブ",
+    "3期生"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/h/hol_w91/hol_w91_t078.png",
+   "variant": ""
+  },
+  {
+   "num": "HOL/W91-T078SP",
+   "name": "君と一緒にお花見 不知火フレア",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの《ホロライブ》のキャラ1枚につき、このカードのパワーを＋500。\n【自】【CXコンボ】［(1)］ このカードがアタックした時、クライマックス置場に「雪の降る街で」があり、他のあなたの《ホロライブ》のキャラがいるなら、あなたは自分の山札を上から1枚見て、《ホロライブ》のキャラか「#ホロライブ3期生」を1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置き、コストを払ってよい。そうしたら、そのアタック中、あなたはトリガーステップにトリガーチェックを2回行う。\n\"-\"",
+   "traits": [
+    "ホロライブ",
+    "3期生"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/h/hol_w91/hol_w91_t078sp.png",
+   "variant": ""
+  },
+  {
+   "num": "HOL/W91-T079",
+   "name": "やさしいエルフ 不知火フレア",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたのレベルが2以上なら、このカードは次の能力を得る。『【起】［(2) あなたの「修羅場 白銀ノエル」を1枚とこのカードを【レスト】する］ あなたは自分の手札の「穏やかな時間 潤羽るしあ」を1枚まで選び、舞台の好きな枠に置く。』\n【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋Ｘ。Ｘはそのキャラのレベル×500に等しい。\n\"髪になんもささってないと少し寂しいね\"",
+   "traits": [
+    "ホロライブ",
+    "3期生"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/h/hol_w91/hol_w91_t079.png",
+   "variant": ""
+  },
+  {
+   "num": "HOL/W91-T079R",
+   "name": "やさしいエルフ 不知火フレア",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたのレベルが2以上なら、このカードは次の能力を得る。『【起】［(2) あなたの「修羅場 白銀ノエル」を1枚とこのカードを【レスト】する］ あなたは自分の手札の「穏やかな時間 潤羽るしあ」を1枚まで選び、舞台の好きな枠に置く。』\n【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋Ｘ。Ｘはそのキャラのレベル×500に等しい。\n\"なんて、そんなことするわけないじゃん\"",
+   "traits": [
+    "ホロライブ",
+    "3期生"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/h/hol_w91/hol_w91_t079r.png",
+   "variant": ""
+  },
+  {
+   "num": "HOL/W91-T080",
+   "name": "宝鐘海賊団船長 宝鐘マリン",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "yellow",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時か「穏やかな時間 潤羽るしあ」の【自】の効果で舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n【自】［(1) 手札を1枚控え室に置く］ このカードがアタックした時、あなたはコストを払ってよい。そうしたら、あなたは自分の《ホロライブ》のキャラを3枚まで選び、そのターン中、パワーを＋500し、ソウルを＋1。\n\"-\"",
+   "traits": [
+    "ホロライブ",
+    "3期生"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/h/hol_w91/hol_w91_t080.png",
+   "variant": ""
+  },
+  {
+   "num": "HOL/W91-T080SP",
+   "name": "宝鐘海賊団船長 宝鐘マリン",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "yellow",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時か「穏やかな時間 潤羽るしあ」の【自】の効果で舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n【自】［(1) 手札を1枚控え室に置く］ このカードがアタックした時、あなたはコストを払ってよい。そうしたら、あなたは自分の《ホロライブ》のキャラを3枚まで選び、そのターン中、パワーを＋500し、ソウルを＋1。\n\"-\"",
+   "traits": [
+    "ホロライブ",
+    "3期生"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/h/hol_w91/hol_w91_t080sp.png",
+   "variant": ""
+  },
+  {
+   "num": "HOL/W91-T081",
+   "name": "雪の降る街で",
+   "type": "Climax",
+   "rarity": "TD",
+   "color": "yellow",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[choice.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[choice.gif]]：このカードがトリガーした時、あなたは自分の控え室のトリガーアイコンに[[soul.gif]]があるキャラを1枚選び、手札に戻すかストック置場に置いてよい）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/h/hol_w91/hol_w91_t081.png",
+   "variant": ""
+  },
+  {
+   "num": "HOL/W91-T081R",
+   "name": "雪の降る街で",
+   "type": "Climax",
+   "rarity": "RRR",
+   "color": "yellow",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[choice.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[choice.gif]]：このカードがトリガーした時、あなたは自分の控え室のトリガーアイコンに[[soul.gif]]があるキャラを1枚選び、手札に戻すかストック置場に置いてよい）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/h/hol_w91/hol_w91_t081r.png",
+   "variant": ""
+  },
+  {
+   "num": "HOL/W91-T082",
+   "name": "大忙しっ! 兎田ぺこら",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードがアタックした時、あなたは他の自分の《ホロライブ》のキャラを1枚選び、そのターン中、パワーを＋2000。\n【自】［(1)］ 相手のアタックフェイズの始めに、あなたはコストを払ってよい。そうしたら、あなたはこのカードを後列のキャラのいない枠に動かす。\n\"-\"",
+   "traits": [
+    "ホロライブ",
+    "3期生"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/h/hol_w91/hol_w91_t082.png",
+   "variant": ""
+  },
+  {
+   "num": "HOL/W91-T082SP",
+   "name": "大忙しっ! 兎田ぺこら",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードがアタックした時、あなたは他の自分の《ホロライブ》のキャラを1枚選び、そのターン中、パワーを＋2000。\n【自】［(1)］ 相手のアタックフェイズの始めに、あなたはコストを払ってよい。そうしたら、あなたはこのカードを後列のキャラのいない枠に動かす。\n\"-\"",
+   "traits": [
+    "ホロライブ",
+    "3期生"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/h/hol_w91/hol_w91_t082sp.png",
+   "variant": ""
+  },
+  {
+   "num": "HOL/W91-T083",
+   "name": "修羅場 白銀ノエル",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの《ホロライブ》のキャラが2枚以上なら、他のあなたの、「君と一緒にお花見 不知火フレア」と「穏やかな時間 潤羽るしあ」すべてに、パワーを＋1000。\n【起】 集中 ［(1) このカードを【レスト】する］ あなたは自分の山札の上から5枚をめくり、控え室に置く。それらのカードのクライマックス1枚につき、あなたは1枚まで引く。\n\"えっ違うよ！\"",
+   "traits": [
+    "ホロライブ",
+    "3期生"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/h/hol_w91/hol_w91_t083.png",
+   "variant": ""
+  },
+  {
+   "num": "HOL/W91-T083R",
+   "name": "修羅場 白銀ノエル",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの《ホロライブ》のキャラが2枚以上なら、他のあなたの、「君と一緒にお花見 不知火フレア」と「穏やかな時間 潤羽るしあ」すべてに、パワーを＋1000。\n【起】 集中 ［(1) このカードを【レスト】する］ あなたは自分の山札の上から5枚をめくり、控え室に置く。それらのカードのクライマックス1枚につき、あなたは1枚まで引く。\n\"いや！違くないけど！\"",
+   "traits": [
+    "ホロライブ",
+    "3期生"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/h/hol_w91/hol_w91_t083r.png",
+   "variant": ""
+  },
+  {
+   "num": "HOL/W91-T084",
+   "name": "まぶしい日差しの下で 白銀ノエル",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、他のあなたの《ホロライブ》のキャラが2枚以上なら、あなたは1枚引いてよい。そうしたら、あなたは自分の手札を1枚選び、控え室に置く。\n【自】 このカードがアタックした時、あなたは自分の山札を上から2枚まで見て、カードを1枚選び、山札の上に置き、残りのカードを控え室に置く。\n\"-\"",
+   "traits": [
+    "ホロライブ",
+    "3期生"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/h/hol_w91/hol_w91_t084.png",
+   "variant": ""
+  },
+  {
+   "num": "HOL/W91-T084SP",
+   "name": "まぶしい日差しの下で 白銀ノエル",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、他のあなたの《ホロライブ》のキャラが2枚以上なら、あなたは1枚引いてよい。そうしたら、あなたは自分の手札を1枚選び、控え室に置く。\n【自】 このカードがアタックした時、あなたは自分の山札を上から2枚まで見て、カードを1枚選び、山札の上に置き、残りのカードを控え室に置く。\n\"-\"",
+   "traits": [
+    "ホロライブ",
+    "3期生"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/h/hol_w91/hol_w91_t084sp.png",
+   "variant": ""
+  },
+  {
+   "num": "HOL/W91-T085",
+   "name": "終わらないハロウィン 潤羽るしあ",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋500。\n【自】 あなたのクライマックスがクライマックス置場に置かれた時、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋1000。\n\"ホロライブもクリスマスと向き合う時なんだ\"",
+   "traits": [
+    "ホロライブ",
+    "3期生"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/h/hol_w91/hol_w91_t085.png",
+   "variant": ""
+  },
+  {
+   "num": "HOL/W91-T085R",
+   "name": "終わらないハロウィン 潤羽るしあ",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋500。\n【自】 あなたのクライマックスがクライマックス置場に置かれた時、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋1000。\n\"ミオ「……ええんか？」\"",
+   "traits": [
+    "ホロライブ",
+    "3期生"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/h/hol_w91/hol_w91_t085r.png",
+   "variant": ""
+  },
+  {
+   "num": "HOL/W91-T086",
+   "name": "台パン 潤羽るしあ",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、他のあなたの《ホロライブ》のキャラがいるなら、そのターン中、このカードのパワーを＋2000。\n\"るしあがいったいなにしたってんだい！\"",
+   "traits": [
+    "ホロライブ",
+    "3期生"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/h/hol_w91/hol_w91_t086.png",
+   "variant": ""
+  },
+  {
+   "num": "HOL/W91-T086R",
+   "name": "台パン 潤羽るしあ",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、他のあなたの《ホロライブ》のキャラがいるなら、そのターン中、このカードのパワーを＋2000。\n\"-\"",
+   "traits": [
+    "ホロライブ",
+    "3期生"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/h/hol_w91/hol_w91_t086r.png",
+   "variant": ""
+  },
+  {
+   "num": "HOL/W91-T087",
+   "name": "喜色満面 兎田ぺこら",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "1",
+   "cost": "1",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 あなたがこのカードの『助太刀』を使った時、あなたのキャラすべてが《ホロライブ》なら、あなたは自分の山札の上から1枚を、ストック置場に置いてよい。\n【起】【カウンター】 助太刀2000 レベル1 ［(1) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋2000）\n\"わあー！美味しそうぺこー！\"",
+   "traits": [
+    "ホロライブ",
+    "3期生"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/h/hol_w91/hol_w91_t087.png",
+   "variant": ""
+  },
+  {
+   "num": "HOL/W91-T087R",
+   "name": "喜色満面 兎田ぺこら",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "blue",
+   "level": "1",
+   "cost": "1",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 あなたがこのカードの『助太刀』を使った時、あなたのキャラすべてが《ホロライブ》なら、あなたは自分の山札の上から1枚を、ストック置場に置いてよい。\n【起】【カウンター】 助太刀2000 レベル1 ［(1) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋2000）\n\"トワ「（まあぺこらちゃんなら怒っても怖くないし丁度いいよね）」\"",
+   "traits": [
+    "ホロライブ",
+    "3期生"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/h/hol_w91/hol_w91_t087r.png",
+   "variant": ""
+  },
+  {
+   "num": "HOL/W91-T088",
+   "name": "横ピース 白銀ノエル",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "1",
+   "cost": "1",
+   "power": "7000",
+   "soul": 1,
+   "trigger": "",
+   "text": "-\n\"お疲れ様でーす！\"",
+   "traits": [
+    "ホロライブ",
+    "3期生"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/h/hol_w91/hol_w91_t088.png",
+   "variant": ""
+  },
+  {
+   "num": "HOL/W91-T088R",
+   "name": "横ピース 白銀ノエル",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "blue",
+   "level": "1",
+   "cost": "1",
+   "power": "7000",
+   "soul": 1,
+   "trigger": "",
+   "text": "-\n\"団長に任せて下さい！\"",
+   "traits": [
+    "ホロライブ",
+    "3期生"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/h/hol_w91/hol_w91_t088r.png",
+   "variant": ""
+  },
+  {
+   "num": "HOL/W91-T089",
+   "name": "怒り狂った兎 兎田ぺこら",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "6500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の《ホロライブ》のキャラを1枚選び、そのターン中、パワーを＋1500。\n【自】 このカードがアタックした時、そのターン中、このカードのパワーを＋Ｘ。Ｘは他のあなたの《ホロライブ》のキャラの枚数×1000に等しい。\n\"お困りのようペコね\"",
+   "traits": [
+    "ホロライブ",
+    "3期生"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/h/hol_w91/hol_w91_t089.png",
+   "variant": ""
+  },
+  {
+   "num": "HOL/W91-T089R",
+   "name": "怒り狂った兎 兎田ぺこら",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "6500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の《ホロライブ》のキャラを1枚選び、そのターン中、パワーを＋1500。\n【自】 このカードがアタックした時、そのターン中、このカードのパワーを＋Ｘ。Ｘは他のあなたの《ホロライブ》のキャラの枚数×1000に等しい。\n\"わため「兎先輩！！」\"",
+   "traits": [
+    "ホロライブ",
+    "3期生"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/h/hol_w91/hol_w91_t089r.png",
+   "variant": ""
+  },
+  {
+   "num": "HOL/W91-T090",
+   "name": "穏やかな時間 潤羽るしあ",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "3",
+   "cost": "2",
+   "power": "9000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの《ホロライブ》のキャラが2枚以上なら、このカードのパワーを＋1500し、このカードは『【自】 アンコール ［手札の《ホロライブ》のキャラを1枚控え室に置く］』を得る。\n【自】【CXコンボ】 あなたのクライマックス置場に「どんな時でも一緒」が置かれた時、前列にこのカードがいて、他のあなたの《ホロライブ》のキャラがいるなら、あなたは自分の控え室の《ホロライブ》のキャラを1枚まで選び、手札に戻すか舞台の好きな枠に置く。手札に戻したなら、あなたは相手の控え室のカードを4枚まで選び、山札に戻し、相手はその山札をシャッフルする。舞台に置いたなら、次の相手のターンの終わりまで、そのキャラのパワーを＋2500。\n\"-\"",
+   "traits": [
+    "ホロライブ",
+    "3期生"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/h/hol_w91/hol_w91_t090.png",
+   "variant": ""
+  },
+  {
+   "num": "HOL/W91-T090SP",
+   "name": "穏やかな時間 潤羽るしあ",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "blue",
+   "level": "3",
+   "cost": "2",
+   "power": "9000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの《ホロライブ》のキャラが2枚以上なら、このカードのパワーを＋1500し、このカードは『【自】 アンコール ［手札の《ホロライブ》のキャラを1枚控え室に置く］』を得る。\n【自】【CXコンボ】 あなたのクライマックス置場に「どんな時でも一緒」が置かれた時、前列にこのカードがいて、他のあなたの《ホロライブ》のキャラがいるなら、あなたは自分の控え室の《ホロライブ》のキャラを1枚まで選び、手札に戻すか舞台の好きな枠に置く。手札に戻したなら、あなたは相手の控え室のカードを4枚まで選び、山札に戻し、相手はその山札をシャッフルする。舞台に置いたなら、次の相手のターンの終わりまで、そのキャラのパワーを＋2500。\n\"-\"",
+   "traits": [
+    "ホロライブ",
+    "3期生"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/h/hol_w91/hol_w91_t090sp.png",
+   "variant": ""
+  },
+  {
+   "num": "HOL/W91-T091",
+   "name": "#ホロライブ3期生",
+   "type": "Event",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "あなたは自分の控え室のキャラを2枚まで選び、手札に戻し、自分の手札を1枚選び、控え室に置く。\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/h/hol_w91/hol_w91_t091.png",
+   "variant": ""
+  },
+  {
+   "num": "HOL/W91-T091S",
+   "name": "#ホロライブ3期生",
+   "type": "Event",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "あなたは自分の控え室のキャラを2枚まで選び、手札に戻し、自分の手札を1枚選び、控え室に置く。\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/h/hol_w91/hol_w91_t091s.png",
+   "variant": ""
+  },
+  {
+   "num": "HOL/W91-T092",
+   "name": "どんな時でも一緒",
+   "type": "Climax",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[gate.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[gate.gif]]：このカードがトリガーした時、あなたは自分の控え室のクライマックスを1枚選び、手札に戻してよい）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/h/hol_w91/hol_w91_t092.png",
+   "variant": ""
+  },
+  {
+   "num": "HOL/W91-T092R",
+   "name": "どんな時でも一緒",
+   "type": "Climax",
+   "rarity": "RRR",
+   "color": "blue",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[gate.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[gate.gif]]：このカードがトリガーした時、あなたは自分の控え室のクライマックスを1枚選び、手札に戻してよい）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/h/hol_w91/hol_w91_t092r.png",
+   "variant": ""
+  }
+ ]
+}

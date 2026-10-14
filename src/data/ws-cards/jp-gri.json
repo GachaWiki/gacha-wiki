@@ -1,0 +1,508 @@
+{
+ "id": "jp-gri",
+ "name": "[TD+]グリザイアの果実",
+ "expansion": 284,
+ "lang": "jp",
+ "release": null,
+ "shopItem": null,
+ "box": null,
+ "cards": [
+  {
+   "num": "GRI/S72-T01",
+   "name": "彼女の不安な日常 由美子",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの前列の中央の枠のキャラに、パワーを＋500。\n【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋500。\n\"貴方、そうやってずっと立っているばかりで、<br>わたしには一切話しかけようとしないのね\"",
+   "traits": [
+    "グリザイア",
+    "令嬢"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gri_s72/gri_s72_t01.png",
+   "variant": ""
+  },
+  {
+   "num": "GRI/S72-T02",
+   "name": "頼もしい護衛 雄二",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードのバトル相手が【リバース】した時、あなたは他の自分の《グリザイア》のキャラを1枚選び、【レスト】し、後列のキャラのいない枠に動かす。\n\"…良い天気だ\"",
+   "traits": [
+    "グリザイア",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gri_s72/gri_s72_t02.png",
+   "variant": ""
+  },
+  {
+   "num": "GRI/S72-T03",
+   "name": "姉妹のように仲良し 蒔菜",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "",
+   "text": "-\n\"痛ぁい！<br>そんなに強くしたららめぇ～！　らめなのぉ～！\"",
+   "traits": [
+    "グリザイア",
+    "パン"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gri_s72/gri_s72_t03.png",
+   "variant": ""
+  },
+  {
+   "num": "GRI/S72-T04",
+   "name": "入巣 蒔菜",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの《グリザイア》のキャラが2枚以上なら、このカードのパワーを＋1000。\n【自】【CXコンボ】 このカードがアタックした時、クライマックス置場に「寝る子は猫」があるなら、次の相手のターンの終わりまで、このカードは次の能力を得る。『【自】 このカードがフロントアタックされた時、あなたはこのカードを手札に戻してよい。』\n\"えっと…じゃあ…お兄ちゃん…\"",
+   "traits": [
+    "グリザイア",
+    "パン"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gri_s72/gri_s72_t04.png",
+   "variant": ""
+  },
+  {
+   "num": "GRI/S72-T04R",
+   "name": "入巣 蒔菜",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの《グリザイア》のキャラが2枚以上なら、このカードのパワーを＋1000。\n【自】【CXコンボ】 このカードがアタックした時、クライマックス置場に「寝る子は猫」があるなら、次の相手のターンの終わりまで、このカードは次の能力を得る。『【自】 このカードがフロントアタックされた時、あなたはこのカードを手札に戻してよい。』\n\"ありがとうお兄ちゃん！　また遊んでくれる？\"",
+   "traits": [
+    "グリザイア",
+    "パン"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gri_s72/gri_s72_t04r.png",
+   "variant": ""
+  },
+  {
+   "num": "GRI/S72-T05",
+   "name": "榊 由美子",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "green",
+   "level": "1",
+   "cost": "1",
+   "power": "5500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの《グリザイア》のキャラ1枚につき、このカードのパワーを＋500。\n【自】 アンコール ［手札のキャラを1枚控え室に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"いつか絶対に弱点を握ってやる…\"",
+   "traits": [
+    "グリザイア",
+    "令嬢"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gri_s72/gri_s72_t05.png",
+   "variant": ""
+  },
+  {
+   "num": "GRI/S72-T05S",
+   "name": "榊 由美子",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "1",
+   "cost": "1",
+   "power": "5500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの《グリザイア》のキャラ1枚につき、このカードのパワーを＋500。\n【自】 アンコール ［手札のキャラを1枚控え室に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"…あのね貴方、<br>いい加減、名前で気安く呼ぶのやめてくれない？\"",
+   "traits": [
+    "グリザイア",
+    "令嬢"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gri_s72/gri_s72_t05s.png",
+   "variant": ""
+  },
+  {
+   "num": "GRI/S72-T06",
+   "name": "甘えん坊 蒔菜",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "green",
+   "level": "2",
+   "cost": "1",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋Ｘ。Ｘはそのキャラのレベル×500に等しい。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から3枚を、控え室に置く。それらのカードにクライマックスがあるなら、あなたは相手の前列のレベル2以下のキャラを1枚選び、控え室に置いてよい。\n\"ね、お兄ちゃん、コレ、開けて？\"",
+   "traits": [
+    "グリザイア",
+    "パン"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gri_s72/gri_s72_t06.png",
+   "variant": ""
+  },
+  {
+   "num": "GRI/S72-T07",
+   "name": "深窓の令嬢 由美子",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "green",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたのキャラすべてに、そのターン中、パワーを＋3000。\n【自】［(4) 手札を2枚控え室に置く］ この能力は1ターンにつき1回まで発動する。このカードのバトル相手が【リバース】した時、あなたはコストを払ってよい。そうしたら、このカードを【スタンド】する。\n\"貴方、変わってるわね、本当に…\"",
+   "traits": [
+    "グリザイア",
+    "令嬢"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gri_s72/gri_s72_t07.png",
+   "variant": ""
+  },
+  {
+   "num": "GRI/S72-T07SP",
+   "name": "深窓の令嬢 由美子",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "green",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたのキャラすべてに、そのターン中、パワーを＋3000。\n【自】［(4) 手札を2枚控え室に置く］ この能力は1ターンにつき1回まで発動する。このカードのバトル相手が【リバース】した時、あなたはコストを払ってよい。そうしたら、このカードを【スタンド】する。\n\"-\"",
+   "traits": [
+    "グリザイア",
+    "令嬢"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gri_s72/gri_s72_t07sp.png",
+   "variant": ""
+  },
+  {
+   "num": "GRI/S72-T08",
+   "name": "授業参観",
+   "type": "Climax",
+   "rarity": "TD",
+   "color": "green",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【永】 あなたのキャラすべてに、ソウルを＋2。\n\"…そう、ならばそっとしておいて。<br>話しかけないで頂戴\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gri_s72/gri_s72_t08.png",
+   "variant": ""
+  },
+  {
+   "num": "GRI/S72-T09",
+   "name": "寝る子は猫",
+   "type": "Climax",
+   "rarity": "TD",
+   "color": "green",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[treasure.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[treasure.gif]]：このカードがトリガーした時、あなたはこのカードを手札に戻す。あなたは自分の山札の上から1枚を、ストック置場に置いてよい）\n\"…ンごっ…ん…にゅ…………\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gri_s72/gri_s72_t09.png",
+   "variant": ""
+  },
+  {
+   "num": "GRI/S72-T10",
+   "name": "小嶺 幸",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 他のあなたのバトル中のキャラが【リバース】した時、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋1000。\n【起】 集中 ［(1) このカードを【レスト】する］ あなたは自分の山札の上から4枚をめくり、控え室に置く。それらのカードのクライマックス1枚につき、あなたは1枚まで引く。\n\"…やっぱり、あなたが転入生さんだったんですね\"",
+   "traits": [
+    "グリザイア",
+    "メイド"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gri_s72/gri_s72_t10.png",
+   "variant": ""
+  },
+  {
+   "num": "GRI/S72-T10R",
+   "name": "小嶺 幸",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 他のあなたのバトル中のキャラが【リバース】した時、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋1000。\n【起】 集中 ［(1) このカードを【レスト】する］ あなたは自分の山札の上から4枚をめくり、控え室に置く。それらのカードのクライマックス1枚につき、あなたは1枚まで引く。\n\"はい、こちらこそよろしくお願いします\"",
+   "traits": [
+    "グリザイア",
+    "メイド"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gri_s72/gri_s72_t10r.png",
+   "variant": ""
+  },
+  {
+   "num": "GRI/S72-T11",
+   "name": "大事な練習 みちる",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが【リバース】した時、このカードのバトル相手のレベルが0以下なら、あなたはそのキャラを【リバース】してよい。\n【起】［(1) このカードを控え室に置く］ あなたのレベルが2以上なら、あなたは自分の控え室の「松嶋 みちる」を1枚選び、このカードがいた枠に置く。\n\"あんたの為にやってるんじゃないんだからねっ！\"",
+   "traits": [
+    "グリザイア",
+    "ツンデレ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gri_s72/gri_s72_t11.png",
+   "variant": ""
+  },
+  {
+   "num": "GRI/S72-T12",
+   "name": "姉妹のように仲良し 天音",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの「姉妹のように仲良し 蒔菜」すべてに、パワーを＋1000。\n【自】［手札の《グリザイア》のキャラを1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見て「姉妹のように仲良し 蒔菜」を1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"こら！　逃げるな！　ジッとしてなさいよもー！<br>つか “らめぇ”って言うな\"",
+   "traits": [
+    "グリザイア",
+    "家事"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gri_s72/gri_s72_t12.png",
+   "variant": ""
+  },
+  {
+   "num": "GRI/S72-T13",
+   "name": "一目惚れ 天音",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、そのターン中、このカードのレベルを＋1し、パワーを＋1000。\n【自】 このカードがアタックした時、あなたは他の自分の《グリザイア》のキャラを1枚選び、そのターン中、パワーを＋Ｘ。Ｘは他のあなたの《グリザイア》のキャラの枚数×500に等しい。\n\"ねぇ、私の彼氏になってよ\"",
+   "traits": [
+    "グリザイア",
+    "家事"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gri_s72/gri_s72_t13.png",
+   "variant": ""
+  },
+  {
+   "num": "GRI/S72-T13SP",
+   "name": "一目惚れ 天音",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、そのターン中、このカードのレベルを＋1し、パワーを＋1000。\n【自】 このカードがアタックした時、あなたは他の自分の《グリザイア》のキャラを1枚選び、そのターン中、パワーを＋Ｘ。Ｘは他のあなたの《グリザイア》のキャラの枚数×500に等しい。\n\"-\"",
+   "traits": [
+    "グリザイア",
+    "家事"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gri_s72/gri_s72_t13sp.png",
+   "variant": ""
+  },
+  {
+   "num": "GRI/S72-T14",
+   "name": "みんなで海水浴 幸",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの《グリザイア》のキャラ1枚につき、このカードのパワーを＋500。\n\"みちる「ねぇ！　天音！<br>ロケットは！？　ロケット花火ないの！？」\"",
+   "traits": [
+    "グリザイア",
+    "メイド"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gri_s72/gri_s72_t14.png",
+   "variant": ""
+  },
+  {
+   "num": "GRI/S72-T15",
+   "name": "ちっぽけな悩み みちる",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "red",
+   "level": "1",
+   "cost": "1",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【起】【カウンター】 助太刀2500 レベル1 ［(1) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋2500）\n\"ん、風が気持ちいい……\"",
+   "traits": [
+    "グリザイア",
+    "ツンデレ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gri_s72/gri_s72_t15.png",
+   "variant": ""
+  },
+  {
+   "num": "GRI/S72-T16",
+   "name": "松嶋 みちる",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "6000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードがアタックした時、そのターン中、このカードのパワーを＋Ｘ。Ｘは相手のキャラの枚数×1000に等しい。\n【自】 アンコール ［手札の《グリザイア》のキャラを1枚控え室に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"あたしは松嶋みちる。よろしくね\"",
+   "traits": [
+    "グリザイア",
+    "ツンデレ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gri_s72/gri_s72_t16.png",
+   "variant": ""
+  },
+  {
+   "num": "GRI/S72-T16R",
+   "name": "松嶋 みちる",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "6000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードがアタックした時、そのターン中、このカードのパワーを＋Ｘ。Ｘは相手のキャラの枚数×1000に等しい。\n【自】 アンコール ［手札の《グリザイア》のキャラを1枚控え室に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"ツンデレは金髪ツインテールなの！\"",
+   "traits": [
+    "グリザイア",
+    "ツンデレ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gri_s72/gri_s72_t16r.png",
+   "variant": ""
+  },
+  {
+   "num": "GRI/S72-T17",
+   "name": "勝者のご褒美 幸",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "6500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの《グリザイア》のキャラ1枚につき、このカードのパワーを＋1000。\n\"風見さんに勝ったわたしのことを…<br>褒めてもらってもいいでしょうか？\"",
+   "traits": [
+    "グリザイア",
+    "メイド"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gri_s72/gri_s72_t17.png",
+   "variant": ""
+  },
+  {
+   "num": "GRI/S72-T18",
+   "name": "周防 天音",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n【自】［(1)］ アンコールステップの始めに、他のあなたの前列の【レスト】しているキャラがいないなら、あなたはコストを払ってよい。そうしたら、このカードを【レスト】する。\n\"もしかして今日転入してくる学生って、キミ？\"",
+   "traits": [
+    "グリザイア",
+    "家事"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gri_s72/gri_s72_t18.png",
+   "variant": ""
+  },
+  {
+   "num": "GRI/S72-T18S",
+   "name": "周防 天音",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n【自】［(1)］ アンコールステップの始めに、他のあなたの前列の【レスト】しているキャラがいないなら、あなたはコストを払ってよい。そうしたら、このカードを【レスト】する。\n\"私は周防天音、初めまして、ユージ君\"",
+   "traits": [
+    "グリザイア",
+    "家事"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gri_s72/gri_s72_t18s.png",
+   "variant": ""
+  },
+  {
+   "num": "GRI/S72-T19",
+   "name": "セミ姉妹",
+   "type": "Event",
+   "rarity": "TD",
+   "color": "red",
+   "level": "2",
+   "cost": "2",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "あなたは自分の控え室のキャラを2枚まで選び、手札に戻す。\n\"あははははは、天姉ぇ、なんで逃げるの、<br>セミかわいいよおおお？？\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gri_s72/gri_s72_t19.png",
+   "variant": ""
+  },
+  {
+   "num": "GRI/S72-T20",
+   "name": "サプライズ・パーティー",
+   "type": "Climax",
+   "rarity": "TD",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[salvage.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[salvage.gif]]：このカードがトリガーした時、あなたは自分の控え室のキャラを1枚選び、手札に戻してよい）\n\"うわ…ビックリした！<br>急にドア開けないでよ\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gri_s72/gri_s72_t20.png",
+   "variant": ""
+  }
+ ]
+}

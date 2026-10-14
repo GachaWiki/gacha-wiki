@@ -1,0 +1,3885 @@
+{
+ "id": "jp-gf",
+ "name": "ガールフレンド（仮）",
+ "expansion": 131,
+ "lang": "jp",
+ "release": null,
+ "shopItem": null,
+ "box": null,
+ "cards": [
+  {
+   "num": "GF/W33-001",
+   "name": "素顔の私を 櫻井明音",
+   "type": "Character",
+   "rarity": "RR+",
+   "color": "yellow",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時か『チェンジ』で舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n【自】 このカードがアタックした時、クライマックス置場に「白熱実況」があるなら、そのターン中、このカードのパワーを＋3000し、このカードは次の能力を得る。『【自】 この能力は1ターンにつき1回まで発動する。このカードの与えたダメージがキャンセルされた時、あなたは相手に1ダメージを与えてよい。』（ダメージキャンセルは発生する）\n\"あらら、これはまたアレ、かな～…？\"",
+   "traits": [
+    "ガール",
+    "手紙"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_001.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-001SSP",
+   "name": "素顔の私を 櫻井明音",
+   "type": "Character",
+   "rarity": "SSP",
+   "color": "yellow",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時か『チェンジ』で舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n【自】 このカードがアタックした時、クライマックス置場に「白熱実況」があるなら、そのターン中、このカードのパワーを＋3000し、このカードは次の能力を得る。『【自】 この能力は1ターンにつき1回まで発動する。このカードの与えたダメージがキャンセルされた時、あなたは相手に1ダメージを与えてよい。』（ダメージキャンセルは発生する）\n\"-\"",
+   "traits": [
+    "ガール",
+    "手紙"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_001ssp.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-002",
+   "name": "今日の役割 櫻井明音",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは他の自分の黄のキャラを1枚選び、そのターン中、パワーを＋1000。\n【自】［(1) あなたの山札の上から1枚をクロック置場に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見てレベル1以下の黄のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"イベントを盛り上げる手段の一つだもの。それだけが大切なわけじゃないでしょ？\"",
+   "traits": [
+    "ガール",
+    "演劇"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_002.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-002R",
+   "name": "今日の役割 櫻井明音",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは他の自分の黄のキャラを1枚選び、そのターン中、パワーを＋1000。\n【自】［(1) あなたの山札の上から1枚をクロック置場に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見てレベル1以下の黄のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"イベントを盛り上げる手段の一つだもの。それだけが大切なわけじゃないでしょ？\"",
+   "traits": [
+    "ガール",
+    "演劇"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_002r.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-003",
+   "name": "君との静寂 玉井麗巳",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1)］ このカードがアタックした時、クライマックス置場に「自由研究」があり、あなたのキャラすべてが黄なら、あなたはコストを払ってよい。そうしたら、そのターン中、このカードのパワーを＋4000し、このカードは次の能力を得る。『【自】 このカードのバトル相手が【リバース】した時、あなたは自分の山札を見て黄のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。』\n\"ん～…　パジャマパーティ、ねぇ…いやぁ、それは別にいいんだけどね、別に\"",
+   "traits": [
+    "ガール",
+    "パジャマ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_003.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-003SP",
+   "name": "君との静寂 玉井麗巳",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1)］ このカードがアタックした時、クライマックス置場に「自由研究」があり、あなたのキャラすべてが黄なら、あなたはコストを払ってよい。そうしたら、そのターン中、このカードのパワーを＋4000し、このカードは次の能力を得る。『【自】 このカードのバトル相手が【リバース】した時、あなたは自分の山札を見て黄のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。』\n\"-\"",
+   "traits": [
+    "ガール",
+    "パジャマ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_003sp.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-004",
+   "name": "茸ノ目ニモ涙 姫島木乃子",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "8000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、他のあなたの黄のキャラが3枚以上で、あなたの山札が5枚以下なら、あなたは自分の控え室のカードすべてを山札に戻す。そうしたら、その山札をシャッフルし、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋2000し、次の能力を与える。『【自】 この能力は1ターンにつき1回まで発動する。このカードの与えたダメージがキャンセルされた時、あなたは相手に1ダメージを与えてよい。』（ダメージキャンセルは発生する）\n\"で、今多分ラスボスだから。…見ていく？んじゃまあ、やらないなら、見てけば………\"",
+   "traits": [
+    "ガール"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_004.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-004R",
+   "name": "茸ノ目ニモ涙 姫島木乃子",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "8000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、他のあなたの黄のキャラが3枚以上で、あなたの山札が5枚以下なら、あなたは自分の控え室のカードすべてを山札に戻す。そうしたら、その山札をシャッフルし、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋2000し、次の能力を与える。『【自】 この能力は1ターンにつき1回まで発動する。このカードの与えたダメージがキャンセルされた時、あなたは相手に1ダメージを与えてよい。』（ダメージキャンセルは発生する）\n\"はぁ…今回は、本当に名作だったな…ん、泣いてない、別に泣いてなんかないぞ！？\"",
+   "traits": [
+    "ガール"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_004r.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-005",
+   "name": "モデル探し 時谷小瑠璃",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "yellow",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 この能力は1ターンにつき1回まで発動する。このカードが手札から舞台に置かれたターン中、このカードの与えたダメージがキャンセルされた時、あなたは自分の山札の上から1枚を、控え室に置き、相手にＸダメージを与える。Ｘはそのカードのレベル＋1に等しい。（クライマックスのレベルは0として扱う。ダメージキャンセルは発生する）\n【自】 このカードのバトル相手が【リバース】した時、あなたはそのキャラを思い出にしてよい。\n\"…う～ん？　そこのきみ。…そうきみだ。ふむふむ、なるほど…こんなところかな\"",
+   "traits": [
+    "ガール"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_005.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-005R",
+   "name": "モデル探し 時谷小瑠璃",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "yellow",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 この能力は1ターンにつき1回まで発動する。このカードが手札から舞台に置かれたターン中、このカードの与えたダメージがキャンセルされた時、あなたは自分の山札の上から1枚を、控え室に置き、相手にＸダメージを与える。Ｘはそのカードのレベル＋1に等しい。（クライマックスのレベルは0として扱う。ダメージキャンセルは発生する）\n【自】 このカードのバトル相手が【リバース】した時、あなたはそのキャラを思い出にしてよい。\n\"きみ、身長と体重は？　…そうか、よし。それでは、後で手芸部部室まできたまえ\"",
+   "traits": [
+    "ガール"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_005r.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-006",
+   "name": "ゾンビハンター 甘利燈",
+   "type": "Character",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが【リバース】した時、このカードのバトル相手のレベルが0以下なら、あなたはそのキャラをストック置場に置いてよい。そうしたら、あなたは相手のストックの下から1枚を、控え室に置く。\n【起】［(1)］ あなたは自分の黄のキャラを1枚選び、そのターン中、パワーを＋1500。\n\"いやぁ…良い撃ちっぷりでしたねー！見て下さいっ。砕け散ったゾンビ達を！\"",
+   "traits": [
+    "ガール"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_006.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-006S",
+   "name": "ゾンビハンター 甘利燈",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが【リバース】した時、このカードのバトル相手のレベルが0以下なら、あなたはそのキャラをストック置場に置いてよい。そうしたら、あなたは相手のストックの下から1枚を、控え室に置く。\n【起】［(1)］ あなたは自分の黄のキャラを1枚選び、そのターン中、パワーを＋1500。\n\"あー…絶景ですよね！爽快ですよねっ！ふふっ、こんなのがまだまだ続きますよー！\"",
+   "traits": [
+    "ガール"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_006s.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-007",
+   "name": "Yシャツ＋エプロン 葉月柚子",
+   "type": "Character",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのターン中、他のあなたの前列の中央の枠のキャラに、パワーを＋1000。\n【起】 集中 ［(1) あなたのキャラを2枚【レスト】する］ あなたは自分の山札の上から4枚をめくり、控え室に置く。それらのカードのクライマックス1枚につき、あなたは自分の山札を見て黄のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"そんなにおかしいんですかねぇ、これ。…これはこれでいい気がする、ですか\"",
+   "traits": [
+    "ガール",
+    "お菓子"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_007.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-007S",
+   "name": "Yシャツ＋エプロン 葉月柚子",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのターン中、他のあなたの前列の中央の枠のキャラに、パワーを＋1000。\n【起】 集中 ［(1) あなたのキャラを2枚【レスト】する］ あなたは自分の山札の上から4枚をめくり、控え室に置く。それらのカードのクライマックス1枚につき、あなたは自分の山札を見て黄のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"よかった、それじゃあ…　この格好だし、朝ご飯用意しますね。待っててください！\"",
+   "traits": [
+    "ガール",
+    "お菓子"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_007s.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-008",
+   "name": "個人レッスン 九重忍",
+   "type": "Character",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのキャラすべてが黄なら、このカードのパワーを＋1000。\n\"…ん、案外筋はいいと思う、お世辞抜きで。最初でそれだけできれば、上々よ？\"",
+   "traits": [
+    "ガール"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_008.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-008S",
+   "name": "個人レッスン 九重忍",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのキャラすべてが黄なら、このカードのパワーを＋1000。\n\"…それじゃ、ちょっと真面目にやろうかな。格好いいところも見せておかないとね\"",
+   "traits": [
+    "ガール"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_008s.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-009",
+   "name": "現場監督 螺子川来夢",
+   "type": "Character",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのターン中、他のあなたの黄のキャラ1枚につき、このカードのパワーを＋1000。\n【永】 このカードは相手の効果に選ばれない。\n【自】 このカードのバトル相手が【リバース】した時、あなたはそのキャラを思い出にしてよい。\n\"むむむ、ちょっとギリギリで作りすぎたか…。もう少し余裕がないと危ないのだなぁ\"",
+   "traits": [
+    "ガール"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_009.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-009S",
+   "name": "現場監督 螺子川来夢",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのターン中、他のあなたの黄のキャラ1枚につき、このカードのパワーを＋1000。\n【永】 このカードは相手の効果に選ばれない。\n【自】 このカードのバトル相手が【リバース】した時、あなたはそのキャラを思い出にしてよい。\n\"…とりあえず、急いで修理しないとだね。ああ、平気平気。本番には間に合わせるさ～\"",
+   "traits": [
+    "ガール"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_009s.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-010",
+   "name": "照れ隠し味 春宮つぐみ",
+   "type": "Character",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋Ｘ。Ｘはそのキャラのレベル×500に等しい。\n【自】 あなたのクライマックスがクライマックス置場に置かれた時、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋1000。\n\"そこのチョコおいしいと思うから、味わって食べてね…\"",
+   "traits": [
+    "ガール",
+    "お菓子"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_010.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-010S",
+   "name": "照れ隠し味 春宮つぐみ",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋Ｘ。Ｘはそのキャラのレベル×500に等しい。\n【自】 あなたのクライマックスがクライマックス置場に置かれた時、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋1000。\n\"どうかした？　やっぱり、手作りとかがよかった…？　…それじゃ、その、こっちも…オマケね？\"",
+   "traits": [
+    "ガール",
+    "お菓子"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_010s.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-011",
+   "name": "晴れ舞台 戸村美知留",
+   "type": "Character",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "8000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードがアタックした時、クライマックス置場に「さあコレを！」があり、あなたのキャラすべてが黄なら、あなたは相手のキャラを1枚まで選び、手札に戻し、そのターン中、このカードのソウルを＋1。\n\"…さあさ、どうだったかな？人の多さといい、カメラの列といい…ミッチーさん、なかなかのもんでしょ～\"",
+   "traits": [
+    "ガール",
+    "コスプレ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_011.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-011S",
+   "name": "晴れ舞台 戸村美知留",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "8000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードがアタックした時、クライマックス置場に「さあコレを！」があり、あなたのキャラすべてが黄なら、あなたは相手のキャラを1枚まで選び、手札に戻し、そのターン中、このカードのソウルを＋1。\n\"見直してくれて、よろしくってよ～？\"",
+   "traits": [
+    "ガール",
+    "コスプレ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_011s.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-012",
+   "name": "背水の陣 玉井麗巳",
+   "type": "Character",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたの黄のキャラが4枚以上なら、あなたの手札のこのカードのレベルを－1。\n【自】 このカードがアタックした時、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋4000。\n【自】 バトル中のこのカードが【リバース】した時、このカードを思い出にする。\n\"それじゃもう少しトレーニングいくよ～今日はもうちょっとやらないとダメなんだ\"",
+   "traits": [
+    "ガール",
+    "スポーツ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_012.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-012S",
+   "name": "背水の陣 玉井麗巳",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "yellow",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたの黄のキャラが4枚以上なら、あなたの手札のこのカードのレベルを－1。\n【自】 このカードがアタックした時、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋4000。\n【自】 バトル中のこのカードが【リバース】した時、このカードを思い出にする。\n\"さあ、倒れないようについてきてね\"",
+   "traits": [
+    "ガール",
+    "スポーツ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_012s.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-013",
+   "name": "海水浴 櫻井明音",
+   "type": "Character",
+   "rarity": "U",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋500。\n【自】［あなたの【スタンド】しているキャラを2枚【レスト】する］ あなたのクライマックスがクライマックス置場に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の黄のキャラを1枚選び、そのターン中、ソウルを＋1。\n\"太陽も人も、みんなキラキラしてるね～\"",
+   "traits": [
+    "ガール",
+    "水着"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_013.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-014",
+   "name": "職業体験 戸村美知留",
+   "type": "Character",
+   "rarity": "U",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードがアタックした時、あなたは他の自分の黄のキャラを1枚選び、そのターン中、パワーを＋Ｘ。Ｘはそのキャラのソウル×1000に等しい。\n\"…ふむふむ、さすがに本物となると、しっかりしてるよね、このナース服。どう、似合ってる？\"",
+   "traits": [
+    "ガール",
+    "ナース"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_014.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-015",
+   "name": "ゴーストマシーンズ 螺子川来夢",
+   "type": "Character",
+   "rarity": "U",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたのキャラがいないなら、このカードのレベルを＋1し、パワーを＋1500。\n\"さあさあ皆の衆、やってくるが良いぞぉ。バッチリ驚かせてあげるからねぇ、にひひ\"",
+   "traits": [
+    "ガール",
+    "オカルト"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_015.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-016",
+   "name": "振袖 九重忍",
+   "type": "Character",
+   "rarity": "U",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から1枚を公開する。そのカードが黄のキャラでないなら、そのターン中、このカードは次の能力を得る。『【永】 このカードはアタックできない。』（公開したカードは元に戻す）\n\"ああ、こっちこっち。　遅いよ～？なに、どうかした？　変な顔しちゃって\"",
+   "traits": [
+    "ガール",
+    "和服"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_016.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-017",
+   "name": "節分大会　姫島木乃子",
+   "type": "Character",
+   "rarity": "U",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのターン中、他のあなたの黄のキャラ1枚につき、このカードのパワーを＋500。\n【自】［(1)］ このカードがアタックした時、クライマックス置場に「頭を使え」があるなら、あなたはコストを払ってよい。そうしたら、あなたのキャラすべてに、そのターン中、ソウルを＋1。\n\"なんか最近、このあたしがイベントに、参加させられてる率が高い気ガス\"",
+   "traits": [
+    "ガール"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_017.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-018",
+   "name": "屍の宴 甘利燈",
+   "type": "Character",
+   "rarity": "U",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 アンコール ［あなたの山札の上から1枚をクロック置場に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n【起】［あなたの《ガール》のキャラを2枚【レスト】する］ そのターン中、このカードのパワーを＋2500。\n\"この死に様を美しく保存して愛でるのが甘利の役目であり使命じゃないですかー\"",
+   "traits": [
+    "ガール",
+    "オカルト"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_018.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-019",
+   "name": "雪の日 葉月柚子",
+   "type": "Character",
+   "rarity": "U",
+   "color": "yellow",
+   "level": "1",
+   "cost": "1",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 あなたがこのカードの『助太刀』を使った時、あなたは自分の山札の上から3枚を、控え室に置く。\n【起】【カウンター】 助太刀2000 レベル1 ［(1) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋2000）\n\"いつの間にか、もう結構積もってる～本格的な雪なんて、久しぶりかも？\"",
+   "traits": [
+    "ガール"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_019.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-020",
+   "name": "ジューンブライド 春宮つぐみ",
+   "type": "Character",
+   "rarity": "U",
+   "color": "yellow",
+   "level": "1",
+   "cost": "1",
+   "power": "7000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の【スタンド】している黄のキャラを1枚選び、【レスト】する。\n【自】 アンコール ［手札のキャラを1枚控え室に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"お試しでも着てみると、何だろうこれ、恥ずかしいというか、むず痒いというか…\"",
+   "traits": [
+    "ガール",
+    "ドレス"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_020.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-021",
+   "name": "お菓子作り 玉井麗巳",
+   "type": "Character",
+   "rarity": "U",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】［(2) あなたの舞台のキャラを1枚控え室に置く］ あなたがこのカードの『助太刀』を使った時、あなたはコストを払ってよい。そうしたら、あなたは相手の、レベルが相手のレベルより高いキャラを1枚選び、ストック置場に置く。\n【起】【カウンター】 助太刀2500 レベル2 ［(1) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋2500）\n\"あっれ～？　ちょっと焦げちゃってる。長すぎたかな…　やっぱりダメかぁ\"",
+   "traits": [
+    "ガール",
+    "お菓子"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_021.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-022",
+   "name": "チャイナドレス 玉井麗巳",
+   "type": "Character",
+   "rarity": "U",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたのターン中、他のあなたの黄のキャラすべてに、パワーを＋2000。\n【起】［(2) このカードを【レスト】する］ あなたは自分の山札を見て黄のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"…ふむふむ。これって、そういう道具かぁ。国が違えば、いろいろ様式があるもんね\"",
+   "traits": [
+    "ガール",
+    "ドレス"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_022.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-023",
+   "name": "ホワイトデー 時谷小瑠璃",
+   "type": "Character",
+   "rarity": "U",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 あなたのクライマックス置場に「服飾姫」が置かれた時、前列にこのカードがいるなら、あなたは自分の山札を見て黄のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n【自】 このカードが【リバース】した時、このカードのバトル相手のレベルが2以下なら、あなたはそのキャラをストック置場に置いてよい。そうしたら、あなたは相手のストックの下から1枚を、控え室に置く。\n\"ん、どうした？　こんなところで珍しい。…私の調子？　別に普通だけど\"",
+   "traits": [
+    "ガール"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_023.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-024",
+   "name": "夕涼み 櫻井明音",
+   "type": "Character",
+   "rarity": "U",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "7000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、そのターン中、このカードのパワーを＋1500。\n【自】 チェンジ ［(2) このカードを控え室に置く］ あなたのアンコールステップの始めに、このカードが【レスト】しているなら、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「素顔の私を 櫻井明音」を1枚選び、このカードがいた枠に置く。\n\"その代わり、夏の風物詩いろいろとか、暑いからできることもあるわけだし\"",
+   "traits": [
+    "ガール"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_024.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-025",
+   "name": "姫の風格 時谷小瑠璃",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋500。\n【起】［このカードを【レスト】する］ あなたは自分のキャラを1枚選び、そのターン中、レベルを＋1。\n\"それで、記念撮影はどっちだって？…あの集団の向こうか\"",
+   "traits": [
+    "ガール",
+    "和服"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_025.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-026",
+   "name": "健康健啖 春宮つぐみ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたのカード名に「真尋」を含むキャラすべてに、パワーを＋500。\n【永】 あなたのターン中、他のあなたのキャラすべてに、パワーを＋500。\n\"え？　お弁当、そんなに多い？私はいつも、これくらいのサイズだよ？\"",
+   "traits": [
+    "ガール"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_026.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-027",
+   "name": "体育祭 玉井麗巳",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードがアタックした時、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋500。\n【自】［(1)］ このカードの与えたダメージがキャンセルされた時、あなたはコストを払ってよい。そうしたら、あなたは1枚引く。\n\"でもまあ、やるからには負けないけどね。…ん？　私がそんなこと言うの、意外？\"",
+   "traits": [
+    "ガール",
+    "スポーツ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_027.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-028",
+   "name": "ファッションショー 玉井麗巳",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードがアタックした時、クライマックス置場に「エール」があるなら、あなたは自分の山札の上から1枚を公開する。そのカードがレベル1以上のキャラなら手札に加える。（そうでないなら元に戻す）\n\"うっわぁ、これはどうなのかなぁ…ちょっとこれ、あたしには可愛すぎない？\"",
+   "traits": [
+    "ガール"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_028.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-029",
+   "name": "どろんこ 螺子川来夢",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［手札を1枚控え室に置く］ このカードがアタックした時、あなたはコストを払ってよい。そうしたら、あなたは他の自分の黄のキャラを1枚選び、手札に戻す。\n\"農業体験ねえ。農業体験だねぇ。作る経験をして、食物を大事にって話かい？\"",
+   "traits": [
+    "ガール",
+    "植物"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_029.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-030",
+   "name": "芸術鑑賞 姫島木乃子",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、そのターン中、このカードのパワーを＋1500。\n\"ふむふむ…さすがに素晴らしいものだね、この…絵師９９人展は\"",
+   "traits": [
+    "ガール"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_030.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-031",
+   "name": "太陽回避 戸村美知留",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "",
+   "text": "-\n\"ふ～んだ、こだわりのわからない奴め～さっさと一人で流されてきちゃえー\"",
+   "traits": [
+    "ガール",
+    "水着"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_031.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-032",
+   "name": "試着モデル 戸村美知留",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【起】【カウンター】 助太刀1500 レベル1 ［手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋1500）\n\"じゃじゃーん、と。実際に着てみると、ざっとこんな感じになるんだよね\"",
+   "traits": [
+    "ガール"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_032.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-033",
+   "name": "スプラッタドール 甘利燈",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの黄のキャラすべてに、パワーを＋500。\n【起】［(1) このカードを【レスト】する］ あなたは自分のキャラを1枚選び、そのターン中、パワーを＋2500。\n\"あ、この場合のコレクションしたいって言うのは、甘利の愛の表現の一つですよぉ\"",
+   "traits": [
+    "ガール",
+    "人形"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_033.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-034",
+   "name": "海辺の迷子 時谷小瑠璃",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの「タペストリ？ 優木苗」すべてに、パワーを＋1500し、『【自】 アンコール ［手札のキャラを1枚控え室に置く］』を与える。\n\"なにを人の名前で迷子の呼び出しなんぞ流してくれとるかぁ、このおバカ～！\"",
+   "traits": [
+    "ガール",
+    "水着"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_034.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-035",
+   "name": "笑顔快晴 葉月柚子",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードがアタックした時、あなたは他の自分のカード名に「桃子」を含むキャラを1枚選び、そのターン中、ソウルを＋1。\n\"あれ、今日はラクロス部の見学ですか？…通りすがり？　あはは、本当かなぁ\"",
+   "traits": [
+    "ガール",
+    "スポーツ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_035.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-036",
+   "name": "明るい新年 櫻井明音",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から1枚を控え室に置く。そのカードが黄のカードなら、そのターン中、このカードのソウルを＋1。\n\"今年一年の無事を、ちゃんと願わないと。ぼーっとしてないで行くわよ、ほら\"",
+   "traits": [
+    "ガール",
+    "和服"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_036.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-037",
+   "name": "ジューンブライド 櫻井明音",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "5500",
+   "soul": 1,
+   "trigger": "",
+   "text": "-\n\"ん？　ああ、これね。いつもと違う？そこはほら、ウェディングドレスだから\"",
+   "traits": [
+    "ガール",
+    "ドレス"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_037.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-038",
+   "name": "お礼を一つ 九重忍",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "1",
+   "cost": "1",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 応援 このカードの前のあなたの黄のキャラすべてに、レベルを＋1し、パワーを＋500。\n【起】［このカードを【レスト】する］ あなたは自分のキャラを1枚選び、そのターン中、パワーを＋Ｘ。Ｘはそのキャラのレベル×500に等しい。\n\"待っててくれたお礼ね。これ買ってて更に待たせたかも？　あはは\"",
+   "traits": [
+    "ガール"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_038.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-039",
+   "name": "猫カフェ 螺子川来夢",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "1",
+   "cost": "1",
+   "power": "7000",
+   "soul": 1,
+   "trigger": "",
+   "text": "-\n\"ふうむ…。私の知ってるネコカフェは、こういうものではなかったと思うけど…この猫耳？　脳波で動くというあれだよー尻尾とあわせて、作ってみたのだー\"",
+   "traits": [
+    "ガール",
+    "動物"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_039.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-040",
+   "name": "新歓 姫島木乃子",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "7500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたのターン中、他のあなたの黄のキャラ1枚につき、このカードのパワーを＋1000。\n\"この勧誘に紛れてだね、帰宅部募集～…なんてしてたら、どうなんだろうかね？\"",
+   "traits": [
+    "ガール"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_040.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-041",
+   "name": "創作教室 葉月柚子",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "7500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたのターン中、このカードの正面のキャラのレベルが3以上なら、このカードのパワーを＋3000し、ソウルを＋2。\n\"…ここをこうして、こんな感じで…　あれ、曲がっちゃったかな？\"",
+   "traits": [
+    "ガール"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_041.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-042",
+   "name": "創作教室 甘利燈",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "8500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "-\n\"あ、せんぱーい。見てください～。甘利はこの子のお友達を作っているんですよぉ\"",
+   "traits": [
+    "ガール",
+    "人形"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_042.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-043",
+   "name": "天体観測 春宮つぐみ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "2",
+   "cost": "2",
+   "power": "7000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードがアタックした時、そのターン中、このカードのパワーを＋Ｘ。Ｘはこのカードの正面のキャラのレベル×1000に等しい。\n【自】 アンコール ［手札のキャラを1枚控え室に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"…天文部の子たちが説明してくれるの？そっか、それじゃ適当に待ってようか\"",
+   "traits": [
+    "ガール"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_043.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-044",
+   "name": "レディハスラー 九重忍",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "2",
+   "cost": "2",
+   "power": "9500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたのキャラすべてに、次の能力を与える。『【永】 このカードはサイドアタックできない。』\n\"ビリヤードのクールなイメージを演出、なんだけど…似合わないかな、やっぱり\"",
+   "traits": [
+    "ガール"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_044.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-045",
+   "name": "肝試し",
+   "type": "Event",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "【カウンター】 あなたは自分のキャラを1枚選び、そのターン中、パワーを＋Ｘ。Ｘはあなたの黄のキャラの枚数×1000に等しい。\n\"毎度毎度のことではあるんだけど…なんでここまで本的にやるかなぁ…<br>これってその辺の下手なオバケ屋敷より、よっぽど完成度高いんじゃないの…？\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_045.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-046",
+   "name": "白熱実況",
+   "type": "Climax",
+   "rarity": "CR",
+   "color": "yellow",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[bounce.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[bounce.gif]]：このカードがトリガーした時、あなたは相手のキャラを1枚選び、手札に戻してよい）\n\"…ゴール、ゴール！　勝ち越しの１点です！\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_046.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-047",
+   "name": "自由研究",
+   "type": "Climax",
+   "rarity": "CR",
+   "color": "yellow",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【自】 このカードが手札からクライマックス置場に置かれた時、あなたは自分の控え室の黄のカードを1枚まで選び、ストック置場に置き、自分のキャラすべてに、そのターン中、ソウルを＋1。\n\"ん？　何書いてるのかって？　これは、自由研究～\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_047.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-048",
+   "name": "服飾姫",
+   "type": "Climax",
+   "rarity": "CC",
+   "color": "yellow",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【永】 あなたのキャラすべてに、ソウルを＋2。\n\"…なんでこれのモデルにきみを選んだか？ん～、基本的にはサイズと…後は勘だな\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_048.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-049",
+   "name": "頭を使え",
+   "type": "Climax",
+   "rarity": "CC",
+   "color": "yellow",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【自】 このカードが手札からクライマックス置場に置かれた時、あなたは1枚引き、自分のキャラを1枚選び、そのターン中、パワーを＋2000し、ソウルを＋1。\n\"撃ち合いは、上取った方が有利なんじゃ！はは、バカめ、禁止とは書いてないぞ～！\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_049.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-050",
+   "name": "さあコレを！",
+   "type": "Climax",
+   "rarity": "CC",
+   "color": "yellow",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[shot.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[shot.gif]]：このターン中、このカードをトリガーした攻撃キャラが次に与えるダメージがキャンセルされた時、相手に1ダメージを与える）\n\"…さあ我が相方よ、着てみてくれたまえ～\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_050.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-051",
+   "name": "プリティドール 朝比奈桃子",
+   "type": "Character",
+   "rarity": "RR+",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "9500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの赤のキャラ1枚につき、このカードのパワーを＋500。\n【自】［(1)］ あなたのターン中、このカードのバトル相手が【リバース】した時、あなたはコストを払ってよい。そうしたら、相手に1ダメージを与える。（ダメージキャンセルは発生する）\n\"…はい？　どうかしたんですか、先輩？…えっと、この格好が似合ってる、ですか？\"",
+   "traits": [
+    "ガール",
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_051.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-051SSP",
+   "name": "プリティドール 朝比奈桃子",
+   "type": "Character",
+   "rarity": "SSP",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "9500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの赤のキャラ1枚につき、このカードのパワーを＋500。\n【自】［(1)］ あなたのターン中、このカードのバトル相手が【リバース】した時、あなたはコストを払ってよい。そうしたら、相手に1ダメージを与える。（ダメージキャンセルは発生する）\n\"-\"",
+   "traits": [
+    "ガール",
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_051ssp.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-052",
+   "name": "いつもの輝き クロエ・ルメール",
+   "type": "Character",
+   "rarity": "RR+",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n【自】［(2)］ このカードのバトル相手が【リバース】した時、あなたのクライマックス置場に「チハヤナントカ」があるなら、あなたはコストを払ってよい。そうしたら、相手にＸダメージを与える。Ｘはあなたの控え室のクライマックスの枚数に等しい。（ダメージキャンセルは発生する）\n\"-\"",
+   "traits": [
+    "ガール"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_052.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-052SSP",
+   "name": "いつもの輝き クロエ・ルメール",
+   "type": "Character",
+   "rarity": "SSP",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n【自】［(2)］ このカードのバトル相手が【リバース】した時、あなたのクライマックス置場に「チハヤナントカ」があるなら、あなたはコストを払ってよい。そうしたら、相手にＸダメージを与える。Ｘはあなたの控え室のクライマックスの枚数に等しい。（ダメージキャンセルは発生する）\n\"-\"",
+   "traits": [
+    "ガール"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_052ssp.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-053",
+   "name": "兎を狙う兎 望月エレナ",
+   "type": "Character",
+   "rarity": "RR+",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたの赤のキャラが4枚以上なら、あなたの手札のこのカードのレベルを－1。\n【自】［(1)］ このカードがアタックした時、クライマックス置場に「ストライク！」があり、あなたのキャラすべてが赤なら、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室のキャラを2枚まで選び、手札に戻し、次の相手のターンの終わりまで、このカードのパワーを＋2500。\n\"ビバッ、イースターバニー！　ありがとう！\"",
+   "traits": [
+    "ガール",
+    "カメラ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_053.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-053SSP",
+   "name": "兎を狙う兎 望月エレナ",
+   "type": "Character",
+   "rarity": "SSP",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたの赤のキャラが4枚以上なら、あなたの手札のこのカードのレベルを－1。\n【自】［(1)］ このカードがアタックした時、クライマックス置場に「ストライク！」があり、あなたのキャラすべてが赤なら、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室のキャラを2枚まで選び、手札に戻し、次の相手のターンの終わりまで、このカードのパワーを＋2500。\n\"-\"",
+   "traits": [
+    "ガール",
+    "カメラ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_053ssp.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-054",
+   "name": "バレンタイン　加賀美茉莉",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの前列の中央の枠の赤のキャラに、パワーを＋500。\n【起】 集中 ［(1) このカードを【レスト】する］ あなたは自分の山札の上から4枚をめくり、控え室に置く。それらのカードのクライマックス1枚につき、あなたは自分の控え室の赤のキャラを1枚まで選び、手札に戻す。\n\"…朝から機嫌が悪い？　…そりゃね。誰かさんが女の子からチョコもらって、デレデレしてるところ見たせいかもね\"",
+   "traits": [
+    "ガール"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_054.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-054SP",
+   "name": "バレンタイン　加賀美茉莉",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの前列の中央の枠の赤のキャラに、パワーを＋500。\n【起】 集中 ［(1) このカードを【レスト】する］ あなたは自分の山札の上から4枚をめくり、控え室に置く。それらのカードのクライマックス1枚につき、あなたは自分の控え室の赤のキャラを1枚まで選び、手札に戻す。\n\"-\"",
+   "traits": [
+    "ガール"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_054sp.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-055",
+   "name": "似合の二人 笹原野々花",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1) 手札のクライマックスを1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室のクライマックスを1枚選び、手札に戻す。\n【自】［(1)］ このカードがアタックした時、クライマックス置場に「エール」があるなら、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室のキャラを1枚選び、手札に戻す。\n\"いつも気をつけて、って言ってるんだけど…困っちゃうよね\"",
+   "traits": [
+    "ガール"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_055.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-055SP",
+   "name": "似合の二人 笹原野々花",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1) 手札のクライマックスを1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室のクライマックスを1枚選び、手札に戻す。\n【自】［(1)］ このカードがアタックした時、クライマックス置場に「エール」があるなら、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室のキャラを1枚選び、手札に戻す。\n\"-\"",
+   "traits": [
+    "ガール"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_055sp.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-056",
+   "name": "金色に輝く クロエ・ルメール",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "red",
+   "level": "1",
+   "cost": "1",
+   "power": "5500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの赤のキャラ1枚につき、このカードのパワーを＋500。\n【永】 このカードは相手のキャラの【自】の効果によって【リバース】されない。\n\"どうしましょう…と、とりあえず笑顔笑顔～\"",
+   "traits": [
+    "ガール",
+    "ドレス"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_056.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-056R",
+   "name": "金色に輝く クロエ・ルメール",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "red",
+   "level": "1",
+   "cost": "1",
+   "power": "5500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの赤のキャラ1枚につき、このカードのパワーを＋500。\n【永】 このカードは相手のキャラの【自】の効果によって【リバース】されない。\n\"前の人は、手を振ったりして…えっと、一番前でアピールしないとです？\"",
+   "traits": [
+    "ガール",
+    "ドレス"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_056r.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-057",
+   "name": "似顔絵さん 小日向いちご",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】［(2)］ このカードのバトル相手が【リバース】した時、あなたはコストを払ってよい。そうしたら、相手に1ダメージを与える。（ダメージキャンセルは発生する）\n【自】 このカードが【リバース】した時、このカードのバトル相手のレベルが2以下なら、あなたはそのキャラを【リバース】してよい。\n\"…先輩の似顔絵も？　是非描きたいです、けど…今日はお客さん優先なんですよ～\"",
+   "traits": [
+    "ガール"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_057.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-057SP",
+   "name": "似顔絵さん 小日向いちご",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】［(2)］ このカードのバトル相手が【リバース】した時、あなたはコストを払ってよい。そうしたら、相手に1ダメージを与える。（ダメージキャンセルは発生する）\n【自】 このカードが【リバース】した時、このカードのバトル相手のレベルが2以下なら、あなたはそのキャラを【リバース】してよい。\n\"-\"",
+   "traits": [
+    "ガール"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_057sp.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-058",
+   "name": "緊張ストロベリー 優木苗",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n【自】［(1)］ このカードがアタックした時、あなたはコストを払ってよい。そうしたら、そのターン中、このカードのパワーを＋1000し、このカードは次の能力を得る。『【自】 このカードのバトル相手が【リバース】した時、あなたはそのキャラを山札の上に置いてよい。』\n\"え？　今から一緒に食べるんですか？ええっ、先輩の教室で～～～？\"",
+   "traits": [
+    "ガール"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_058.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-058SP",
+   "name": "緊張ストロベリー 優木苗",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n【自】［(1)］ このカードがアタックした時、あなたはコストを払ってよい。そうしたら、そのターン中、このカードのパワーを＋1000し、このカードは次の能力を得る。『【自】 このカードのバトル相手が【リバース】した時、あなたはそのキャラを山札の上に置いてよい。』\n\"-\"",
+   "traits": [
+    "ガール"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_058sp.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-059",
+   "name": "スィーツデコ 小日向いちご",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの赤のキャラすべてに、パワーを＋500。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札を上から1枚見て、山札の上か控え室に置く。\n\"うん、これくらいで平気そうですね。ポンポンポン、と型抜きをしていって…ここからが腕の見せ所です\"",
+   "traits": [
+    "ガール",
+    "お菓子"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_059.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-059S",
+   "name": "スィーツデコ 小日向いちご",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの赤のキャラすべてに、パワーを＋500。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札を上から1枚見て、山札の上か控え室に置く。\n\"クッキーを、可愛くデコレーションしちゃいますから～\"",
+   "traits": [
+    "ガール",
+    "お菓子"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_059s.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-060",
+   "name": "南国植彩 夢前春瑚",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが【リバース】した時、このカードのバトル相手のレベルが0以下なら、あなたはそのキャラを【リバース】してよい。\n【起】［(1)］ あなたは相手の前列のレベル0以下のキャラを1枚選び、控え室に置く。\n\"これは…あらぁ、珍しい。上手に栽培できてます\"",
+   "traits": [
+    "ガール",
+    "植物"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_060.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-060S",
+   "name": "南国植彩 夢前春瑚",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが【リバース】した時、このカードのバトル相手のレベルが0以下なら、あなたはそのキャラを【リバース】してよい。\n【起】［(1)］ あなたは相手の前列のレベル0以下のキャラを1枚選び、控え室に置く。\n\"思ったよりも、しっかりしてるんですね～専門の植物園レベルの充実度ですよ～\"",
+   "traits": [
+    "ガール",
+    "植物"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_060s.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-061",
+   "name": "歌います 風町陽歌",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードのバトル相手が【リバース】した時、あなたの控え室のクライマックスが1枚以下なら、あなたは他の自分のキャラを1枚選び、【レスト】し、後列のキャラのいない枠に動かす。\n\"…で、なんで知らない宴会に誘われて、カラオケのマイク持ってるの～！？\"",
+   "traits": [
+    "ガール",
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_061.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-061S",
+   "name": "歌います 風町陽歌",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードのバトル相手が【リバース】した時、あなたの控え室のクライマックスが1枚以下なら、あなたは他の自分のキャラを1枚選び、【レスト】し、後列のキャラのいない枠に動かす。\n\"いいからいいからって…う～ん、仕方ない…。こうなったら、とにかく一曲歌います！\"",
+   "traits": [
+    "ガール",
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_061s.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-062",
+   "name": "風の悪戯 望月エレナ",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの赤のキャラが3枚以上なら、このカードは次の能力を得る。『【自】 このカードが【リバース】した時、このカードのバトル相手のレベルが1以下なら、あなたはそのキャラを【リバース】してよい。』\n\"じゃあ、キミの番ね。…好きに指示して。この辺？　もう少しこっちね？\"",
+   "traits": [
+    "ガール",
+    "カメラ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_062.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-062S",
+   "name": "風の悪戯 望月エレナ",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの赤のキャラが3枚以上なら、このカードは次の能力を得る。『【自】 このカードが【リバース】した時、このカードのバトル相手のレベルが1以下なら、あなたはそのキャラを【リバース】してよい。』\n\"きゃ、風でスカートが！　もぉ～～って、もしかして…今の、撮ってたぁ！？\"",
+   "traits": [
+    "ガール",
+    "カメラ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_062s.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-063",
+   "name": "幽玄の舞台 森園芽以",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 他のあなたの赤のキャラがアタックした時、そのターン中、このカードのパワーを＋1000。\n【自】 アンコール ［あなたの山札の上から1枚をクロック置場に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"…はぁ。終わり、なんでしょうか？　細かいことはよくわかりませんけど\"",
+   "traits": [
+    "ガール",
+    "本"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_063.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-063S",
+   "name": "幽玄の舞台 森園芽以",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 他のあなたの赤のキャラがアタックした時、そのターン中、このカードのパワーを＋1000。\n【自】 アンコール ［あなたの山札の上から1枚をクロック置場に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"…なんでしょう、幽玄って言うんでしたっけ、空気に引き込まれて見入っちゃいました\"",
+   "traits": [
+    "ガール",
+    "本"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_063s.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-064",
+   "name": "品行方正 加賀美茉莉",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［手札を1枚控え室に置く］ このカードがアタックした時、クライマックス置場に赤のクライマックスがあるなら、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の赤のキャラを1枚選び、手札に戻す。\n\"後はこれを…　あ、持ってくれるの？　うん、ありがとう。じゃ、行こっか\"",
+   "traits": [
+    "ガール",
+    "スポーツ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_064.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-064S",
+   "name": "品行方正 加賀美茉莉",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［手札を1枚控え室に置く］ このカードがアタックした時、クライマックス置場に赤のクライマックスがあるなら、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の赤のキャラを1枚選び、手札に戻す。\n\"…なぁに、さっきの説明が…　猫被り？いいの、ああいうのも必要なんだから～\"",
+   "traits": [
+    "ガール",
+    "スポーツ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_064s.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-065",
+   "name": "ウッカリマーメイド 笹原野々花",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "6000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の【スタンド】している赤のキャラを1枚選び、【レスト】する。\n\"本当にいるんだね、そういう人たちって。ちょっとびっくりしちゃった\"",
+   "traits": [
+    "ガール",
+    "水着"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_065.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-065S",
+   "name": "ウッカリマーメイド 笹原野々花",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "6000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の【スタンド】している赤のキャラを1枚選び、【レスト】する。\n\"私を守ってくれたんだね。驚いたけれど、嬉しいな。ありがとね\"",
+   "traits": [
+    "ガール",
+    "水着"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_065s.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-066",
+   "name": "海水浴 優木苗",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "1",
+   "cost": "1",
+   "power": "6000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードがアタックした時、クライマックス置場に「エンジョイサマー」があるなら、あなたは相手の前列の、レベルが相手のレベルより高いキャラを1枚選び、控え室に置いてよい。\n【自】 アンコール ［手札のキャラを1枚控え室に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"晴れましたね～。凄く暑いです。人もいっぱいで、海水浴って感じですね\"",
+   "traits": [
+    "ガール",
+    "水着"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_066.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-066S",
+   "name": "海水浴 優木苗",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "1",
+   "cost": "1",
+   "power": "6000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードがアタックした時、クライマックス置場に「エンジョイサマー」があるなら、あなたは相手の前列の、レベルが相手のレベルより高いキャラを1枚選び、控え室に置いてよい。\n【自】 アンコール ［手札のキャラを1枚控え室に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"海は大分久しぶりに来たんですけど、やっぱりこんな感じなんですね～\"",
+   "traits": [
+    "ガール",
+    "水着"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_066s.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-067",
+   "name": "夏準備 朝比奈桃子",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "7000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードがアタックした時、クライマックス置場に「応援休憩」があるなら、そのターン中、このカードのパワーを＋2000し、このカードは次の能力を得る。『【自】 このカードのバトル相手が【リバース】した時、あなたは自分の控え室のキャラを1枚選び、手札に戻してよい。』\n【自】 チェンジ ［(2) このカードを控え室に置く］ あなたのアンコールステップの始めに、このカードが【レスト】しているなら、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「プリティドール 朝比奈桃子」を1枚選び、このカードがいた枠に置く。\n\"よいしょ、よいしょ…　暑いですね～でも、プールだしその方がいいのかな？\"",
+   "traits": [
+    "ガール"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_067.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-067S",
+   "name": "夏準備 朝比奈桃子",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "7000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードがアタックした時、クライマックス置場に「応援休憩」があるなら、そのターン中、このカードのパワーを＋2000し、このカードは次の能力を得る。『【自】 このカードのバトル相手が【リバース】した時、あなたは自分の控え室のキャラを1枚選び、手札に戻してよい。』\n【自】 チェンジ ［(2) このカードを控え室に置く］ あなたのアンコールステップの始めに、このカードが【レスト】しているなら、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「プリティドール 朝比奈桃子」を1枚選び、このカードがいた枠に置く。\n\"あ、今日はユズちゃんに誘われたので～一緒にプール掃除のお手伝いですよ～\"",
+   "traits": [
+    "ガール"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_067s.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-068",
+   "name": "ハロウィン 優木苗",
+   "type": "Character",
+   "rarity": "U",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋500。\n【起】［このカードを【レスト】する］ あなたは自分の赤のキャラを1枚選び、そのターン中、パワーを＋500。\n\"さあさあ、早くお菓子をくれないと、悪戯しちゃいますよ～\"",
+   "traits": [
+    "ガール",
+    "かぼちゃ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_068.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-069",
+   "name": "努力賞 朝比奈桃子",
+   "type": "Character",
+   "rarity": "U",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのストックが5枚以上なら、他のあなたの前列の中央の枠のキャラに、パワーを＋1000。\n【起】［このカードを【レスト】する］ あなたは自分のキャラを1枚選び、そのターン中、パワーを＋1000。\n\"あ、は～い、こっちのオカズもどうぞ～朝早く起きて、一生懸命作ったんですよ～\"",
+   "traits": [
+    "ガール",
+    "スポーツ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_069.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-070",
+   "name": "夕涼み 笹原野々花",
+   "type": "Character",
+   "rarity": "U",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードがアタックした時、あなたは他の自分のキャラを1枚選び、そのターン中、パワーを＋1500。\n【自】 アンコール ［手札のキャラを1枚控え室に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"…でも、お祭りの後ってなんだかちょっと、終わっちゃったっていう寂しさがあるよね\"",
+   "traits": [
+    "ガール",
+    "和服"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_070.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-071",
+   "name": "トロピカル クロエ・ルメール",
+   "type": "Character",
+   "rarity": "U",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの《ガール》のキャラすべてに、パワーを＋500。\n\"わわ、寄ってきましたヨ？　人懐っこくて、可愛いですネ。エサをあげてもいいですか？\"",
+   "traits": [
+    "ガール",
+    "水着"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_071.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-072",
+   "name": "水泳大会 望月エレナ",
+   "type": "Character",
+   "rarity": "U",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの前列のキャラがいないなら、このカードのパワーを＋1500。\n\"今日は、ドキッ、水着だらけの水泳大会よ！\"",
+   "traits": [
+    "ガール",
+    "水着"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_072.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-073",
+   "name": "手を引いて 小日向いちご",
+   "type": "Character",
+   "rarity": "U",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から1枚を控え室に置く。そのカードが赤のカードなら、そのターン中、このカードのパワーを＋2000。\n\"…えっと、このままでいいんですか？ずっと手を持ってもらっているのも…\"",
+   "traits": [
+    "ガール",
+    "水着"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_073.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-074",
+   "name": "白日贈答 森園芽以",
+   "type": "Character",
+   "rarity": "U",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 このカードのパワーを＋Ｘ。Ｘはこのカードの正面のキャラのレベル×2000に等しい。\n\"いえ、嬉しいですよ？　わたしの好きな物、わかっててそれにしてくれたんですから\"",
+   "traits": [
+    "ガール",
+    "本"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_074.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-075",
+   "name": "浮き立つ心 加賀美茉莉",
+   "type": "Character",
+   "rarity": "U",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 このカードはサイドアタックできない。\n\"…写真出来たら、欲しいの？　う、うん、焼き増し出来るなら、あげよう、かな？\"",
+   "traits": [
+    "ガール",
+    "ドレス"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_075.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-076",
+   "name": "雨宿り 望月エレナ",
+   "type": "Character",
+   "rarity": "U",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 あなたがこのカードの『助太刀』を使った時、あなたは自分のバトル中の赤のキャラを1枚選び、そのターン中、パワーを＋1000。\n【起】【カウンター】 助太刀1000 レベル1 ［手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋1000）\n\"仕方ない、無理やり向こうまで行こうか。よ～し…そ～れっ、急いで走れ～！\"",
+   "traits": [
+    "ガール",
+    "植物"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_076.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-077",
+   "name": "スキー教室 朝比奈桃子",
+   "type": "Character",
+   "rarity": "U",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、そのターン中、このカードのパワーを＋1500。\n【自】［手札のクライマックスを1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の『助太刀』を持つキャラを1枚選び、手札に戻す。\n\"…はい、スキーをするのは初めてで…先輩、ご指導よろしくお願いしますね～\"",
+   "traits": [
+    "ガール",
+    "スポーツ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_077.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-078",
+   "name": "職業体験 風町陽歌",
+   "type": "Character",
+   "rarity": "U",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 この能力は1ターンにつき1回まで発動する。あなたが【起】を使った時、そのターン中、このカードのパワーを＋1500。\n【自】 アンコール ［手札のキャラを1枚控え室に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"あらら、いけないなぁ。皆仲良く遊ばないと、駄目なんだよ～？\"",
+   "traits": [
+    "ガール",
+    "人形"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_078.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-079",
+   "name": "エンジョイサマー 加賀美茉莉",
+   "type": "Character",
+   "rarity": "U",
+   "color": "red",
+   "level": "1",
+   "cost": "1",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋Ｘ。Ｘはあなたの『応援』を持つキャラの枚数×500に等しい。\n【起】［あなたのキャラを2枚【レスト】する］ あなたは自分のキャラを1枚選び、そのターン中、次の能力を与える。『【自】 このカードのバトル相手でレベル1以上のキャラが【リバース】した時、あなたは自分の控え室のキャラを1枚選び、手札に戻し、自分の手札を1枚選び、控え室に置く。』\n\"…ほぉらぁ、のんびりしてないで、早く～はぐれたら困るんだから、一緒に来るの～\"",
+   "traits": [
+    "ガール",
+    "水着"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_079.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-080",
+   "name": "日本文化 夢前春瑚",
+   "type": "Character",
+   "rarity": "U",
+   "color": "red",
+   "level": "1",
+   "cost": "1",
+   "power": "7000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 バトル中のこのカードが【リバース】した時、相手はあなたの控え室のキャラを1枚選び、山札の上に置いてよい。\n【自】 アンコール ［あなたの山札の上から1枚をクロック置場に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"…ところで、抹茶には新茶って関係あるんでしょうか～？\"",
+   "traits": [
+    "ガール",
+    "植物"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_080.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-081",
+   "name": "願い飾り 小日向いちご",
+   "type": "Character",
+   "rarity": "U",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋1000。\n【自】 この能力は1ターンにつき1回まで発動する。あなたが【起】を使った時、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋1000。\n\"お手伝いありがとうございました、先輩！あとは、皆が短冊をつけるだけですよね\"",
+   "traits": [
+    "ガール"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_081.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-082",
+   "name": "林間学校 クロエ・ルメール",
+   "type": "Character",
+   "rarity": "U",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋Ｘ。Ｘはそのキャラのレベル×500に等しい。\n【起】［(1)］ あなたは相手の山札の上から1枚を控え室に置き、相手の控え室のカードを1枚選び、山札の上に置く。\n\"これだけの人数で一気にやると確かに、賑やかでそれだけで楽しいですネ\"",
+   "traits": [
+    "ガール"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_082.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-083",
+   "name": "雪見で一杯 笹原野々花",
+   "type": "Character",
+   "rarity": "U",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "7000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは他の自分の赤のキャラを1枚選び、そのターン中、パワーを＋Ｘ。Ｘはそのキャラのレベル×1000に等しい。\n【自】［(1) 手札を1枚控え室に置く］ このカードのバトル相手が【リバース】した時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室のキャラを1枚選び、手札に戻す。\n\"…はいどうぞ、サービスね。ココア飲んで、温まってね。…私も飲んじゃおっと\"",
+   "traits": [
+    "ガール",
+    "ウェイトレス"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_083.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-084",
+   "name": "姫様おねむ　優木苗",
+   "type": "Character",
+   "rarity": "U",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "7500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 他のあなたの赤のキャラがアタックした時、そのターン中、このカードのパワーを＋1500。\n\"はふぅ～、先輩のナデナデが心地よくて…ふわぁ…眠くなって来ちゃいましたぁ…\"",
+   "traits": [
+    "ガール",
+    "人形"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_084.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-085",
+   "name": "振袖 朝比奈桃子",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 絆／「笑顔快晴 葉月柚子」 ［あなたの山札の上から1枚をクロック置場に置く］ （このカードがプレイされて舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「笑顔快晴 葉月柚子」を1枚選び、手札に戻す）\n【起】［(1) このカードを【レスト】する］ あなたは自分のカード名に「柚子」を含むキャラを1枚選び、そのターン中、パワーを＋1500。\n\"…あ、あけましておめでとうございます。今年もよろしくお願いしますね、先輩\"",
+   "traits": [
+    "ガール",
+    "和服"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_085.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-086",
+   "name": "アミューズメント 望月エレナ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋500。\n\"…あ～でも、一部分だけ撮影なんてしないわよ？女の子はあくまで可愛く撮らないとね～\"",
+   "traits": [
+    "ガール",
+    "カメラ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_086.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-087",
+   "name": "紅葉デート 夢前春瑚",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1) 手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋1000し、次の能力を与える。『【自】 このカードのバトル相手が【リバース】した時、あなたは自分の控え室のキャラを1枚選び、手札に戻してよい。』\n\"どうぞ、いらして下さいね～。歓迎ですよ～\"",
+   "traits": [
+    "ガール",
+    "植物"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_087.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-088",
+   "name": "乗馬体験 クロエ・ルメール",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "",
+   "text": "-\n\"今年は、午年だから？　お～、なるほどですネ～\"",
+   "traits": [
+    "ガール"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_088.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-089",
+   "name": "上達祈願 笹原野々花",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "",
+   "text": "-\n\"…いたいた。どうしたの、こんなところに呼んで？　これは…ホワイトデーのお返し？　あっ。ああ、そうか～。うん、ありがとうね\"",
+   "traits": [
+    "ガール"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_089.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-090",
+   "name": "清純巫女子 森園芽以",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたの控え室のクライマックスが3枚以上なら、あなたは自分の山札の上から1枚を、クロック置場に置く。\n\"特に何もないですけど、どうぞごゆっくり～\"",
+   "traits": [
+    "ガール"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_090.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-091",
+   "name": "スケート 小日向いちご",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの赤のキャラすべてに、パワーを＋500。\n【自】 あなたのキャラのトリガーチェックでクライマックスがでた時、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋2000。\n\"せーのっ、ふわわわぁ～　ツ、ツルツル～せんぱーい、きゃぁ、あぁ、滑ります～\"",
+   "traits": [
+    "ガール",
+    "スポーツ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_091.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-092",
+   "name": "日本文化 クロエ・ルメール",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 アンコール ［手札のキャラを1枚控え室に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"…あ、この歌は…はい、これです！　やった、取りましたヨ！\"",
+   "traits": [
+    "ガール",
+    "和服"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_092.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-093",
+   "name": "裏方も主役 優木苗",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【起】［(1)］ そのターン中、このカードのパワーを＋2000。\n\"先輩のために尽くしま～す\"",
+   "traits": [
+    "ガール"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_093.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-094",
+   "name": "繊細技巧 加賀美茉莉",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1)］ このカードがアタックした時、クライマックス置場に「運動合宿」があり、あなたのキャラすべてが赤なら、あなたはコストを払ってよい。そうしたら、次の相手のターンの終わりまで、このカードのパワーを＋4000。\n\"最後に、この飾りを上に乗せて、と…えっと、これで一通り完成したかな\"",
+   "traits": [
+    "ガール",
+    "和服"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_094.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-095",
+   "name": "教えます 小日向いちご",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "5500",
+   "soul": 1,
+   "trigger": "",
+   "text": "-\n\"…部の主導で、制作体験はわかりますけど…私が講師役でいいんでしょうかぁ…？\"",
+   "traits": [
+    "ガール"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_095.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-096",
+   "name": "フワフワキーボード 朝比奈桃子",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "1",
+   "cost": "1",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【起】【カウンター】 助太刀2000 レベル1 ［(1) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋2000）\n\"あ～、今聞こえてたピアノですかー？はいー、わたしがひいてたんですよー\"",
+   "traits": [
+    "ガール",
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_096.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-097",
+   "name": "タペストリ？ 優木苗",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "1",
+   "cost": "1",
+   "power": "6000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの「海辺の迷子 時谷小瑠璃」すべてに、パワーを＋2000。\n\"…凄いけど、やっぱり絵日記っぽい？　えぇ～\"",
+   "traits": [
+    "ガール"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_097.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-098",
+   "name": "山盛アップリケ 風町陽歌",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "1",
+   "cost": "1",
+   "power": "7000",
+   "soul": 1,
+   "trigger": "",
+   "text": "-\n\"と…あ、そうそう、お客さんにも褒められたよ、エプロン可愛いねって。ほらね～？\"",
+   "traits": [
+    "ガール"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_098.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-099",
+   "name": "巫女怖がり 森園芽以",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【起】【カウンター】 助太刀3000 レベル2 ［(1) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋3000）\n\"はうう、もう駄目です先輩、立てません…ゴールはもうすぐ？\"",
+   "traits": [
+    "ガール"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_099.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-100",
+   "name": "お花見 夢前春瑚",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "6500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたのカード名に「五十鈴」を含むキャラがいるなら、このカードのパワーを＋3000。\n\"今日は、裏の庭の方ですよ。…この辺りの何本かが、桜です。まあ、見ればわかりますよね～\"",
+   "traits": [
+    "ガール",
+    "植物"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_100.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-101",
+   "name": "誰かの悪戯 笹原野々花",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "7500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたのカード名に「砂夜」を含むキャラがいるなら、このカードのパワーを＋1500。\n\"…よいしょ、っと。大分綺麗になったし、もう少しやれば終わりそうだね～…はい？　私が泡まみれ？　え、どこどこ？…あららぁ、いつの間にこんなことに～\"",
+   "traits": [
+    "ガール"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_101.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-102",
+   "name": "チャイナドレス 風町陽歌",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "2",
+   "cost": "2",
+   "power": "7000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 このカードの正面のキャラのレベルが3以上なら、このカードのパワーを＋3000。\n【自】 アンコール ［手札のキャラを1枚控え室に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"もっと派手な感じなのかと思ってたけど、落ち着いて上品な感じなんだな～\"",
+   "traits": [
+    "ガール",
+    "ドレス"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_102.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-103",
+   "name": "読書中 加賀美茉莉",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "2",
+   "cost": "2",
+   "power": "9000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "-\n\"読んでる時の顔が、いつもと違ってた？　…優しい顔？　そ、そう見えましたか…？\"",
+   "traits": [
+    "ガール",
+    "スポーツ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_103.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-104",
+   "name": "ミニスカサンタ 望月エレナ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "2",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】［手札のキャラを1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしないなら、このカードを控え室に置く。\n\"今年最後の学校イベント、クリスマス～。終業式の後でもこんなに女の子が…\"",
+   "traits": [
+    "ガール",
+    "コスプレ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_104.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-105",
+   "name": "体力測定",
+   "type": "Event",
+   "rarity": "C",
+   "color": "red",
+   "level": "2",
+   "cost": "0",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "あなたの赤のキャラが5枚以上なら、あなたは相手の後列のレベル2以下のキャラを1枚選び、控え室に置く。\n\"せめて、一回くらいは頑張ります…　う、う～～ん…\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_105.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-106",
+   "name": "応援休憩",
+   "type": "Climax",
+   "rarity": "CR",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[salvage.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[salvage.gif]]：このカードがトリガーした時、あなたは自分の控え室のキャラを1枚選び、手札に戻してよい）\n\"あや、ユズちゃんも…あっ、上手に避けたぁ。行けるかな～？　そのままそのまま…　わぁい、やったぁ～\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_106.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-107",
+   "name": "エンジョイサマー",
+   "type": "Climax",
+   "rarity": "CR",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【永】 あなたのキャラすべてに、ソウルを＋2。\n\"泳げること、証明します！さあさあ先輩、早く海に入りましょう！\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_107.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-108",
+   "name": "運動合宿",
+   "type": "Climax",
+   "rarity": "CR",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【自】 このカードが手札からクライマックス置場に置かれた時、あなたは自分の控え室の赤のカードを1枚まで選び、ストック置場に置き、自分のキャラすべてに、そのターン中、ソウルを＋1。\n\"はい、それでは…私はテニス部の２年、加賀美茉莉です。これから、軽く説明をしていきますね\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_108.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-109",
+   "name": "チハヤナントカ",
+   "type": "Climax",
+   "rarity": "CC",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[salvage.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[salvage.gif]]：このカードがトリガーした時、あなたは自分の控え室のキャラを1枚選び、手札に戻してよい）\n\"百人一首はなかなか激しいスポーツですネ！\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_109.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-110",
+   "name": "ストライク！",
+   "type": "Climax",
+   "rarity": "CC",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【自】 このカードが手札からクライマックス置場に置かれた時、あなたは1枚引き、自分のキャラを1枚選び、そのターン中、パワーを＋2000し、ソウルを＋1。\n\"華麗なストライク、期待してるわよ～\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_110.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-111",
+   "name": "エール",
+   "type": "Climax",
+   "rarity": "CC",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【自】 このカードが手札からクライマックス置場に置かれた時、あなたは1枚引き、自分のキャラを1枚選び、そのターン中、パワーを＋2000し、ソウルを＋1。\n\"きみの声が、僕を強くする\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_111.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-112",
+   "name": "ど忘れ少女 村上文緒",
+   "type": "Character",
+   "rarity": "RR+",
+   "color": "blue",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】［(1)］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは相手の控え室のカードを2枚まで選び、それらのカード以外の相手の控え室のカードすべてを、山札に戻し、相手はその山札をシャッフルする。\n【自】 このカードがアタックした時、クライマックス置場に「クールメイド」があるなら、次の相手のターンの終わりまで、このカードのパワーを＋4500。\n\"-\"",
+   "traits": [
+    "ガール",
+    "本"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_112.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-112SSP",
+   "name": "ど忘れ少女 村上文緒",
+   "type": "Character",
+   "rarity": "SSP",
+   "color": "blue",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】［(1)］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは相手の控え室のカードを2枚まで選び、それらのカード以外の相手の控え室のカードすべてを、山札に戻し、相手はその山札をシャッフルする。\n【自】 このカードがアタックした時、クライマックス置場に「クールメイド」があるなら、次の相手のターンの終わりまで、このカードのパワーを＋4500。\n\"-\"",
+   "traits": [
+    "ガール",
+    "本"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_112ssp.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-113",
+   "name": "彼女の日常 椎名心実",
+   "type": "Character",
+   "rarity": "RR+",
+   "color": "blue",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】［(1) 手札を1枚クロック置場に置く］ あなたのクライマックス置場に「ナイスシュート」が置かれた時、あなたはコストを払ってよい。そうしたら、そのターン中、このカードのパワーを＋1000し、このカードは次の能力を得る。『【自】 この能力は1ターンにつき1回まで発動する。このカードのバトル相手が【リバース】した時、あなたはこのカードを【スタンド】してよい。』\n【自】 このカードがフロントアタックされた時、あなたは自分の山札を上から1枚見て、山札の上か控え室に置く。\n\"-\"",
+   "traits": [
+    "ガール"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_113.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-113SSP",
+   "name": "彼女の日常 椎名心実",
+   "type": "Character",
+   "rarity": "SSP",
+   "color": "blue",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】［(1) 手札を1枚クロック置場に置く］ あなたのクライマックス置場に「ナイスシュート」が置かれた時、あなたはコストを払ってよい。そうしたら、そのターン中、このカードのパワーを＋1000し、このカードは次の能力を得る。『【自】 この能力は1ターンにつき1回まで発動する。このカードのバトル相手が【リバース】した時、あなたはこのカードを【スタンド】してよい。』\n【自】 このカードがフロントアタックされた時、あなたは自分の山札を上から1枚見て、山札の上か控え室に置く。\n\"-\"",
+   "traits": [
+    "ガール"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_113ssp.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-114",
+   "name": "彼女の童心 椎名心実",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から2枚を、控え室に置く。それらのカードにクライマックスがあるなら、このカードを【レスト】する。\n【自】 アンコール ［手札のキャラを1枚控え室に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"こうして持ってると、ついつい手が…童心に返るってこういうことかな、ふふ\"",
+   "traits": [
+    "ガール",
+    "和服"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_114.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-114R",
+   "name": "彼女の童心 椎名心実",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から2枚を、控え室に置く。それらのカードにクライマックスがあるなら、このカードを【レスト】する。\n【自】 アンコール ［手札のキャラを1枚控え室に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"う～ん、取れたのは一つだけでしたね。まあ、一つ取れただけいいのかな？\"",
+   "traits": [
+    "ガール",
+    "和服"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_114r.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-115",
+   "name": "夕涼み 村上文緒",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "blue",
+   "level": "1",
+   "cost": "1",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 応援 このカードの前のあなたの青のキャラすべてに、パワーを＋Ｘ。Ｘはそのキャラのレベル×500に等しい。\n【自】 このカードが手札から舞台に置かれた時、あなたは1枚引き、自分の手札を1枚選び、控え室に置く。\n\"…ふう。お昼のうちは暑かったですけど…こうして日が落ちると、少し楽ですね\"",
+   "traits": [
+    "ガール",
+    "和服"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_115.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-115R",
+   "name": "夕涼み 村上文緒",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "blue",
+   "level": "1",
+   "cost": "1",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 応援 このカードの前のあなたの青のキャラすべてに、パワーを＋Ｘ。Ｘはそのキャラのレベル×500に等しい。\n【自】 このカードが手札から舞台に置かれた時、あなたは1枚引き、自分の手札を1枚選び、控え室に置く。\n\"浴衣で歩いていると、特に涼しげに見える？そうですね、気持ちの差もあるのかも\"",
+   "traits": [
+    "ガール",
+    "和服"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_115r.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-116",
+   "name": "怜悧な輝き 神楽坂砂夜",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "blue",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたの青のキャラが4枚以上なら、あなたの手札のこのカードのレベルを－1。\n【自】 このカードが手札から舞台に置かれた時、そのターン中、このカードのパワーを－1500。\n【自】 相手のドローフェイズの始めに、前列にこのカードがいるなら、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋4000。\n\"…どう、似合う？　眼鏡は普段かけないし、自分では印象がよくわからないのだけど\"",
+   "traits": [
+    "ガール",
+    "メガネ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_116.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-116SP",
+   "name": "怜悧な輝き 神楽坂砂夜",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "blue",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたの青のキャラが4枚以上なら、あなたの手札のこのカードのレベルを－1。\n【自】 このカードが手札から舞台に置かれた時、そのターン中、このカードのパワーを－1500。\n【自】 相手のドローフェイズの始めに、前列にこのカードがいるなら、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋4000。\n\"-\"",
+   "traits": [
+    "ガール",
+    "メガネ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_116sp.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-117",
+   "name": "探索電気街 東雲レイ",
+   "type": "Character",
+   "rarity": "R",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1) 手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見て青のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"よっし、大体必要な物は揃ったかな。それじゃ、帰って早速試してみよーほらほら、さっさと帰るぞ、荷物持ち～\"",
+   "traits": [
+    "ガール"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_117.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-117S",
+   "name": "探索電気街 東雲レイ",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1) 手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見て青のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"…文句言うなよ、後で礼はするからさぁ\"",
+   "traits": [
+    "ガール"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_117s.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-118",
+   "name": "休日小姫 不知火五十鈴",
+   "type": "Character",
+   "rarity": "R",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 このカードの下にマーカーがあるなら、このカードのパワーを＋1000。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から1枚を、控え室に置く。そのカードが青のキャラなら、あなたは自分の控え室の青のキャラを1枚選び、このカードの下にマーカーとして裏向きに置いてよい。\n\"…ふう、もうこんな時間になってたか。今日はなんだか、時がたつのが早いな\"",
+   "traits": [
+    "ガール"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_118.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-118S",
+   "name": "休日小姫 不知火五十鈴",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 このカードの下にマーカーがあるなら、このカードのパワーを＋1000。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から1枚を、控え室に置く。そのカードが青のキャラなら、あなたは自分の控え室の青のキャラを1枚選び、このカードの下にマーカーとして裏向きに置いてよい。\n\"…いつもよりはしゃいでたから？か、格好のせいで、そう見えただけだろ\"",
+   "traits": [
+    "ガール"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_118s.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-119",
+   "name": "楽しむ姿 鴫野睦",
+   "type": "Character",
+   "rarity": "R",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの青のキャラ1枚につき、このカードのパワーを＋500。\n\"わぁ、この波のプールすごいですね～波の感じが凄くリアルで…　ほら。思ったのと違うタイミングで…\"",
+   "traits": [
+    "ガール",
+    "水着"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_119.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-119S",
+   "name": "楽しむ姿 鴫野睦",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの青のキャラ1枚につき、このカードのパワーを＋500。",
+   "traits": [
+    "ガール",
+    "水着"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_119s.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-120",
+   "name": "自信の表情 飛原鋭子",
+   "type": "Character",
+   "rarity": "R",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から1枚を控え室に置く。そのカードが青のカードなら、そのターン中、このカードは次の能力を得る。『【自】［(1)］ このカードのバトル相手が【リバース】した時、あなたはコストを払ってよい。そうしたら、あなたは1枚引く。』\n\"…やあ、来たか。これを撮影したとして、間に合いそうかな？\"",
+   "traits": [
+    "ガール"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_120.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-120S",
+   "name": "自信の表情 飛原鋭子",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から1枚を控え室に置く。そのカードが青のカードなら、そのターン中、このカードは次の能力を得る。『【自】［(1)］ このカードのバトル相手が【リバース】した時、あなたはコストを払ってよい。そうしたら、あなたは1枚引く。』\n\"…かなりギリギリ？　ふむ。それならその分いいところを見せて、待っただけの甲斐がある映像にしないとね\"",
+   "traits": [
+    "ガール"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_120s.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-121",
+   "name": "レディコンダクター 神楽坂砂夜",
+   "type": "Character",
+   "rarity": "R",
+   "color": "blue",
+   "level": "1",
+   "cost": "1",
+   "power": "6000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 アンコール ［あなたの山札の上から1枚をクロック置場に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n【起】［手札のクライマックスを1枚控え室に置く］ そのターン中、このカードのパワーを＋1000し、このカードは次の能力を得る。『【自】 このカードのバトル相手が【リバース】した時、あなたは1枚引いてよい。』\n\"…ね？　指揮者は歌わないもの。やっぱり、期待はずれだったかしら？\"",
+   "traits": [
+    "ガール"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_121.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-121S",
+   "name": "レディコンダクター 神楽坂砂夜",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "1",
+   "cost": "1",
+   "power": "6000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 アンコール ［あなたの山札の上から1枚をクロック置場に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n【起】［手札のクライマックスを1枚控え室に置く］ そのターン中、このカードのパワーを＋1000し、このカードは次の能力を得る。『【自】 このカードのバトル相手が【リバース】した時、あなたは1枚引いてよい。』\n\"…指揮している姿も、綺麗だった？　あら、ありがとう。お飾りでも嬉しいわ\"",
+   "traits": [
+    "ガール"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_121s.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-122",
+   "name": "海辺の輝き 見吉奈央",
+   "type": "Character",
+   "rarity": "R",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 あなたがこのカードの『助太刀』を使った時、あなたのキャラすべてが青なら、あなたは自分の山札の上から1枚を、ストック置場に置いてよい。\n【起】【カウンター】 助太刀2500 レベル2 ［(1) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋2500）\n\"きみが海がいいって言うから来たんだし、それくらいサービスしてもいいでしょ？\"",
+   "traits": [
+    "ガール",
+    "水着"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_122.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-122S",
+   "name": "海辺の輝き 見吉奈央",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 あなたがこのカードの『助太刀』を使った時、あなたのキャラすべてが青なら、あなたは自分の山札の上から1枚を、ストック置場に置いてよい。\n【起】【カウンター】 助太刀2500 レベル2 ［(1) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋2500）\n\"…どっちがサービスか、わからないけど\"",
+   "traits": [
+    "ガール",
+    "水着"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_122s.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-123",
+   "name": "休日謳歌 夏目真尋",
+   "type": "Character",
+   "rarity": "R",
+   "color": "blue",
+   "level": "2",
+   "cost": "2",
+   "power": "2000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋1500。\n【自】 このカードが手札から舞台に置かれた時、あなたの手札が相手の手札より少ないなら、あなたは自分の山札の上から1枚を、ストック置場に置いてよい。\n\"…はい、お疲れ様。これで観たい映画は、一通り観られたわ\"",
+   "traits": [
+    "ガール"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_123.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-123S",
+   "name": "休日謳歌 夏目真尋",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "2",
+   "cost": "2",
+   "power": "2000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋1500。\n【自】 このカードが手札から舞台に置かれた時、あなたの手札が相手の手札より少ないなら、あなたは自分の山札の上から1枚を、ストック置場に置いてよい。\n\"それで明日からは…レンタルビデオで、いろいろ観ましょう。今日のうちに、何本か借りて帰らないと\"",
+   "traits": [
+    "ガール"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_123s.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-124",
+   "name": "近く咲く花 上条るい",
+   "type": "Character",
+   "rarity": "R",
+   "color": "blue",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n【自】 このカードがアタックした時、あなたは自分の山札の上から1枚を、控え室に置いてよい。そのカードがクライマックスなら、あなたは1枚引き、自分の手札を1枚選び、控え室に置く。\n\"いつも通り過ぎるから意識してなかったけど、ここの桜ってこんなに綺麗だったのね……\"",
+   "traits": [
+    "ガール"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_124.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-124S",
+   "name": "近く咲く花 上条るい",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n【自】 このカードがアタックした時、あなたは自分の山札の上から1枚を、控え室に置いてよい。そのカードがクライマックスなら、あなたは1枚引き、自分の手札を1枚選び、控え室に置く。\n\"確か、ここを抜けた所が桜並木になってて…わぁ～……！　満開ねっ！　綺麗……！\"",
+   "traits": [
+    "ガール"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_124s.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-125",
+   "name": "素直が一番 鴫野睦",
+   "type": "Character",
+   "rarity": "U",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋500。\n【自】［このカードを控え室に置く］ 他のあなたの青のキャラが舞台から控え室に置かれた時、後列にこのカードがいるなら、あなたはコストを払ってよい。そうしたら、そのキャラをそのキャラがいた枠に【レスト】して置く。\n\"…一番素直に、すませたいと思うので…先輩、これ…バレンタインのチョコです\"",
+   "traits": [
+    "ガール",
+    "お菓子"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_125.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-126",
+   "name": "マニュアル派 村上文緒",
+   "type": "Character",
+   "rarity": "U",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 この能力は1ターンにつき1回まで発動する。あなたが【起】を使った時、あなたは自分の青のキャラを1枚選び、そのターン中、パワーを＋1000。\n【起】［(1)］ あなたは1枚引き、自分の手札を1枚選び、控え室に置く。\n\"レシピは確か、これでちゃんとあってたはず…多分\"",
+   "traits": [
+    "ガール",
+    "本"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_126.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-127",
+   "name": "私の精一杯 村上文緒",
+   "type": "Character",
+   "rarity": "U",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 相手のターン中、他のあなたのキャラすべてに、パワーを＋500。\n【起】 集中 ［(1)］ あなたは自分の山札の上から4枚をめくり、控え室に置く。それらのカードのクライマックス1枚につき、あなたは自分の青のキャラを1枚選び、次の相手のターンの終わりまで、パワーを＋1000。\n\"…はぁ。…はい、お疲れ様でした。結果はまあ…予想通りなので、なんとも\"",
+   "traits": [
+    "ガール",
+    "スポーツ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_127.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-128",
+   "name": "寝起き 見吉奈央",
+   "type": "Character",
+   "rarity": "U",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの前列の中央の枠のキャラに、パワーを＋500。\n【起】［あなたのキャラを2枚【レスト】する］ あなたは自分の山札を上から1枚見て、山札の上か下に置く。\n\"ここは…　教室だねぇ～う～ん？　待ってる間に寝ちゃってたぁ。それで、私に用事って、なぁに～？\"",
+   "traits": [
+    "ガール"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_128.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-129",
+   "name": "熟考配置 飛原鋭子",
+   "type": "Character",
+   "rarity": "U",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 ［(2)］ あなたがこのカードの『助太刀』を使った時、あなたの青のキャラが4枚以上なら、あなたはコストを払ってよい。そうしたら、あなたはバトル中のキャラを1枚選び、そのターン中、ソウルを－1。\n【起】【カウンター】 助太刀1000 レベル1 ［手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋1000）\n\"…で、これはこんな感じでいいのか？　ふ～む、これでは少々バランスが悪いな…ん？\"",
+   "traits": [
+    "ガール"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_129.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-130",
+   "name": "釣果上出来 神楽坂砂夜",
+   "type": "Character",
+   "rarity": "U",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 相手のターン中、他のあなたの《ガール》のキャラすべてに、パワーを＋1000。\n【自】［(1) 手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見て『助太刀』を持つキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"あら、引いてる…？　なかなか強いのね。……やったわ、ほら。釣れたでしょう？\"",
+   "traits": [
+    "ガール"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_130.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-131",
+   "name": "海水浴 椎名心実",
+   "type": "Character",
+   "rarity": "U",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたの手札が5枚以上なら、このカードのパワーを＋2000。\n\"青い空に白い雲、大きく広がる海…これこそまさに夏、という感じですよ～\"",
+   "traits": [
+    "ガール",
+    "水着"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_131.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-132",
+   "name": "海水浴 不知火五十鈴",
+   "type": "Character",
+   "rarity": "U",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、そのターン中、このカードのパワーを＋1500。\n【自】［(1)］ このカードがアタックした時、クライマックス置場に「芸術の困惑」があるなら、あなたはコストを払ってよい。そうしたら、そのターン中、このカードのパワーを＋3500し、このカードは次の能力を得る。『【自】 このカードのバトル相手が【リバース】した時、あなたはそのキャラを山札の下に置いてよい。』\n\"…浮輪？　これは念のためだ、念のため。泳げたって、何があるかわからないだろ\"",
+   "traits": [
+    "ガール",
+    "水着"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_132.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-133",
+   "name": "嬉し涙 上条るい",
+   "type": "Character",
+   "rarity": "U",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1) あなたの山札の上から1枚をクロック置場に置く］ このカードがアタックした時、クライマックス置場に「星の思い出」があり、あなたのキャラすべてが青なら、あなたはコストを払ってよい。そうしたら、あなたは2枚まで引く。\n\"そ、その…お返し貰えて嬉しいわ\"",
+   "traits": [
+    "ガール"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_133.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-134",
+   "name": "照れサンタ 夏目真尋",
+   "type": "Character",
+   "rarity": "U",
+   "color": "blue",
+   "level": "1",
+   "cost": "1",
+   "power": "7000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードがアタックした時、あなたは自分の山札の上から1枚を、控え室に置く。そのカードがクライマックスなら、そのターン中、このカードのソウルを＋4。\n\"こんな格好までさせたんだから、その…後でいろいろお返しはあるんでしょうね？\"",
+   "traits": [
+    "ガール",
+    "コスプレ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_134.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-135",
+   "name": "意外な動き 東雲レイ",
+   "type": "Character",
+   "rarity": "U",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの青のキャラすべてに、パワーを＋1000。\n【自】 このカードが手札から舞台に置かれた時、あなたは他の自分のキャラを1枚選び、そのターン中、次の能力を与える。『【自】 このカードが舞台から控え室に置かれた時、あなたはこのカードをこのカードがいた枠に【レスト】して置いてよい。』\n\"ほら、こんな感じで滑れば、行ける行ける\"",
+   "traits": [
+    "ガール",
+    "スポーツ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_135.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-136",
+   "name": "隣の織姫 椎名心実",
+   "type": "Character",
+   "rarity": "U",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "7000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 チェンジ ［(2) このカードを控え室に置く］ あなたのアンコールステップの始めに、このカードが【レスト】しているなら、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「彼女の日常 椎名心実」を1枚選び、このカードがいた枠に置く。\n【起】［あなたの青のキャラを2枚【レスト】する］ そのターン中、このカードはサイドアタックしてもソウルが減少しない。\n\"こんなに晴れて、星が綺麗で…天の川までよく見えますよ\"",
+   "traits": [
+    "ガール"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_136.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-137",
+   "name": "一時の休息 神楽坂砂夜",
+   "type": "Character",
+   "rarity": "U",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "8000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】［(1)］ あなたのクライマックス置場に「体験取材」が置かれた時、前列にこのカードがいるなら、あなたはコストを払ってよい。そうしたら、あなたは相手のキャラを1枚まで選び、相手の舞台のキャラのいない他の枠に動かし、そのターン中、このカードのパワーを＋3000。\n\"…練習でバテた？　仕方ないわねぇ。それなら、はい、これ。…それを飲んだら、続きに行ってきてね\"",
+   "traits": [
+    "ガール",
+    "スポーツ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_137.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-138",
+   "name": "二人の海 神楽坂砂夜",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 絆／「誰かの悪戯 笹原野々花」 ［(1)］ （このカードがプレイされて舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「誰かの悪戯 笹原野々花」を1枚選び、手札に戻す）\n\"海に来るのは久しぶりだったけど…来てよかったわ\"",
+   "traits": [
+    "ガール",
+    "水着"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_138.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-139",
+   "name": "猫コス 夏目真尋",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(2)］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見てカード名に「つぐみ」を含むキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"いらっしゃいませ、こちらへどうぞにゃん！\"",
+   "traits": [
+    "ガール",
+    "コスプレ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_139.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-140",
+   "name": "真剣修練 椎名心実",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 相手のターン中、相手のキャラが3枚以下なら、このカードのレベルを＋1し、パワーを＋1500。\n【自】［(1)］ このカードがアタックした時、クライマックス置場に「エール」があるなら、あなたはコストを払ってよい。そうしたら、あなたは他の自分のキャラを1枚選び、次の相手のターンの終わりまで、パワーを＋2500。\n\"さあ、それではここからは個別練習です。合宿ですから、もちろんしっかりと\"",
+   "traits": [
+    "ガール",
+    "スポーツ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_140.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-141",
+   "name": "幼馴染弁当 上条るい",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたの手札が6枚以上なら、このカードのパワーを＋1500。\n\"やれば出来るってとこ、見せなさいよっ！\"",
+   "traits": [
+    "ガール"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_141.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-142",
+   "name": "奈央の本気 見吉奈央",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたのキャラが1枚以下なら、このカードのパワーを＋1000し、このカードは『【自】 アンコール ［手札のキャラを1枚控え室に置く］』を得る。\n\"…よ～し、私の出番だぁ、行ってくるね。少しはプロっぽいところ見せちゃうよ～\"",
+   "traits": [
+    "ガール",
+    "ドレス"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_142.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-143",
+   "name": "宴席の一花 飛原鋭子",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードがアタックした時、クライマックス置場に青のクライマックスがあるなら、あなたは1枚引き、自分の手札を1枚選び、控え室に置く。\n\"歩いていたら、偶然見かけたんでね。まあそれじゃ、そろそろ行こうか\"",
+   "traits": [
+    "ガール"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_143.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-144",
+   "name": "緊張の代役 村上文緒",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "",
+   "text": "-\n\"…はぁ、大丈夫、大丈夫。少し頑張れば、後は出番もないんだから\"",
+   "traits": [
+    "ガール",
+    "演劇"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_144.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-145",
+   "name": "逆取材 神楽坂砂夜",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "",
+   "text": "-\n\"無様な姿は見せられないわよ？\"",
+   "traits": [
+    "ガール",
+    "新聞"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_145.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-146",
+   "name": "辛辣指揮官 東雲レイ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 あなたのクライマックスフェイズの始めに、あなたは自分の山札の上から1枚を公開する。そのカードがクライマックスなら、このカードを【レスト】する。（公開したカードは元に戻す）\n\"よ～し、こっからデカイの入れてくぞ～今のうちにしっかりヘイト稼いどけよぉ\"",
+   "traits": [
+    "ガール"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_146.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-147",
+   "name": "天の光河 東雲レイ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、そのターン中、このカードのパワーを＋1500。\n【起】［あなたのキャラを2枚【レスト】する］ あなたは自分のキャラを1枚選び、そのターン中、次の能力を与える。『【自】 このカードのバトル相手が【リバース】した時、あなたは1枚引いてよい。そうしたら、あなたは自分の手札を1枚選び、控え室に置く。』\n\"何を…　あれ、天の川か？へぇ…　見えれば案外綺麗なもんだな～\"",
+   "traits": [
+    "ガール"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_147.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-148",
+   "name": "緊張の訪問 不知火五十鈴",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 相手のターン中、このカードのパワーを＋1000。\n\"それでは、宿題を始めるとしようか。先に言っておくと、写すほどやってないぞ？\"",
+   "traits": [
+    "ガール",
+    "和服"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_148.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-149",
+   "name": "チャイナドレス 見吉奈央",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 相手のターン中、他のあなたの青のキャラが3枚以上なら、このカードのパワーを＋2000。\n\"さあ、格好だけ決まってても駄目よね。お茶会自体も、きちんとやらないと\"",
+   "traits": [
+    "ガール",
+    "ドレス"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_149.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-150",
+   "name": "出来る限り 夏目真尋",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "5500",
+   "soul": 1,
+   "trigger": "",
+   "text": "-\n\"…はぁ、なんとか打ち返し…わあ、またこっちなの？　もう…それっ！\"",
+   "traits": [
+    "ガール",
+    "スポーツ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_150.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-151",
+   "name": "等価交換？ 鴫野睦",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "1",
+   "cost": "1",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【起】【カウンター】 助太刀2000 レベル1 ［(1) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋2000）\n\"あの、これは…　先輩の作った物？…くれるんですか？　でも、それじゃ…それならこれと交換？\"",
+   "traits": [
+    "ガール",
+    "人形"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_151.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-152",
+   "name": "運動合宿 椎名心実",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "1",
+   "cost": "1",
+   "power": "7000",
+   "soul": 1,
+   "trigger": "",
+   "text": "-\n\"お互いに刺激しあいましょうね\"",
+   "traits": [
+    "ガール",
+    "スポーツ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_152.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-153",
+   "name": "クリスマスギフト 村上文緒",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【起】【カウンター】 助太刀3000 レベル2 ［(1) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋3000）\n\"それより、これ…　はい、クリスマスプレゼントです\"",
+   "traits": [
+    "ガール",
+    "コスプレ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_153.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-154",
+   "name": "猫コス 鴫野睦",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "7500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの青のキャラが3枚以上なら、このカードは『【自】 アンコール ［手札のキャラを1枚控え室に置く］』を得る。\n【自】 このカードがアタックした時、クライマックス置場に「猫も休憩」があるなら、そのターン中、このカードのパワーを＋3500し、このカードは次の能力を得る。『【自】 このカードのバトル相手が【リバース】した時、あなたはそのキャラを山札の下に置いてよい。』\n\"１番さんケーキセット二つですにゃ。これは５番さん？　持って行きますにゃん\"",
+   "traits": [
+    "ガール",
+    "コスプレ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_154.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-155",
+   "name": "気迫の花 上条るい",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "8000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、そのターン中、このカードのパワーを＋Ｘ。Ｘはあなたの青のキャラの枚数×500に等しい。\n\"えっと……生け花は美しさが大事。ふんふん、それで……って、それだけ！？\"",
+   "traits": [
+    "ガール",
+    "和服"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_155.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-156",
+   "name": "腕試し 飛原鋭子",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "8000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの青のキャラが3枚以上なら、このカードのパワーを＋1000。\n\"あまり出来ない子ばかりではつまらないし、難しすぎて誰もこないのでは意味がないし\"",
+   "traits": [
+    "ガール"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_156.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-157",
+   "name": "思いやり 不知火五十鈴",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "2",
+   "cost": "2",
+   "power": "7000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたのカード名に「春瑚」を含むキャラがいるなら、このカードのパワーを＋2000し、このカードは『【自】 アンコール ［手札のキャラを1枚控え室に置く］』を得る。\n\"これくらい、お姉ちゃんがすぐ直すからな。だからほら、男がこんなことで泣くなよ？\"",
+   "traits": [
+    "ガール",
+    "和服"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_157.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-158",
+   "name": "ホワイトデーのお返し",
+   "type": "Event",
+   "rarity": "C",
+   "color": "blue",
+   "level": "1",
+   "cost": "1",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "あなたは自分の山札を見て《ガール》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。このカードを思い出にする。\n\"これを私に？ …凄く嬉しいです\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_158.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-159",
+   "name": "クールメイド",
+   "type": "Climax",
+   "rarity": "CR",
+   "color": "blue",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[gate.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[gate.gif]]：このカードがトリガーした時、あなたは自分の控え室のクライマックスを1枚選び、手札に戻してよい）\n\"それで、ご注文はどうしますか？\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_159.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-160",
+   "name": "体験取材",
+   "type": "Climax",
+   "rarity": "CR",
+   "color": "blue",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【自】 このカードが手札からクライマックス置場に置かれた時、あなたは1枚引き、自分のキャラを1枚選び、そのターン中、パワーを＋2000し、ソウルを＋1。\n\"うちの子たちもきちんと来てるわよ。あちこちに混じって取材をしてるわ\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_160.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-161",
+   "name": "星の思い出",
+   "type": "Climax",
+   "rarity": "CR",
+   "color": "blue",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【自】 このカードが手札からクライマックス置場に置かれた時、あなたは自分の控え室の青のカードを1枚まで選び、ストック置場に置き、自分のキャラすべてに、そのターン中、ソウルを＋1。\n\"こうやってキミと一緒に観てると、懐かしい気分になるのよね。何でかしらね\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_161.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-162",
+   "name": "ナイスシュート",
+   "type": "Climax",
+   "rarity": "CC",
+   "color": "blue",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[draw.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[draw.gif]]：このカードがトリガーした時、あなたは1枚引いてよい）\n\"勝負の鍵は、チームワークです\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_162.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-163",
+   "name": "芸術の困惑",
+   "type": "Climax",
+   "rarity": "CC",
+   "color": "blue",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【永】 あなたのキャラすべてに、ソウルを＋2。\n\"…とはいえ…現代美術は、よくわからんな～私が理解するには、シュール過ぎるかな…どうだ？\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_163.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-164",
+   "name": "猫も休憩",
+   "type": "Climax",
+   "rarity": "CC",
+   "color": "blue",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[gate.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[gate.gif]]：このカードがトリガーした時、あなたは自分の控え室のクライマックスを1枚選び、手札に戻してよい）\n\"ここで私がケーキを食べていても、それは正当なこととして許されますにゃぁ\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_164.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-165",
+   "name": "天真爛漫 クロエ・ルメール",
+   "type": "Character",
+   "rarity": "PR",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【起】 [(1)] そのターン中、このカードのパワーを＋1000。このカードは次の能力を得る。『【自】 このカードのバトル相手が【リバース】した時、あなたはそのキャラを山札の上に置いてよい。』\n\"クロエ・ルメールですよ\"",
+   "traits": [
+    "ガール"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_165.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-166",
+   "name": "文武両道 椎名心実",
+   "type": "Character",
+   "rarity": "PR",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 [(1) 手札を1枚控え室に置く] このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見て青のキャラを1枚まで選んで相手に見せ、手札 に加え、その山札をシャッフルする。\n\"椎名心実です\"",
+   "traits": [
+    "ガール"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_166.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-167",
+   "name": "戦場レポート 櫻井明音",
+   "type": "Character",
+   "rarity": "PR",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【起】【カウンター】 助太刀3000 レベル2 [(1) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋3000）\n\"おっとぉ、ここで歴史研二名が続けて脱落！これで勝負はわからなくなってきたぁ！\"",
+   "traits": [
+    "ガール"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_167.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-168",
+   "name": "ネットゲーム クロエ・ルメール",
+   "type": "Character",
+   "rarity": "PR",
+   "color": "red",
+   "level": "1",
+   "cost": "1",
+   "power": "7000",
+   "soul": 1,
+   "trigger": "",
+   "text": "-\n\"ほうほう…　こんな装備があるんですネ～<br>着てみると…　ありゃりゃ？\"",
+   "traits": [
+    "ガール",
+    "ネット"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_168.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-169",
+   "name": "ホームステイ 村上文緒",
+   "type": "Character",
+   "rarity": "PR",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】  あなたの手札が6枚以上なら、このカードのパワーを＋1500。\n\"…こうやって歩いてみるとやっぱり、町並みも日本とは違うものですね\"",
+   "traits": [
+    "ガール",
+    "本"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_169.png",
+   "variant": ""
+  },
+  {
+   "num": "GF/W33-170",
+   "name": "台上遊戯 椎名心実",
+   "type": "Character",
+   "rarity": "PR",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 あなたのクライマックスがクライマックス置場に置かれた時、そのターン中、このカードのパワーを＋1500。\n\"これでまっすぐ打てれば、多分ですけど、ちゃんと入るはず\"",
+   "traits": [
+    "ガール"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gf_w33/gf_w33_170.png",
+   "variant": ""
+  }
+ ]
+}

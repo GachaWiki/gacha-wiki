@@ -1,0 +1,2844 @@
+{
+ "id": "jp-rsl-e250",
+ "name": "少女☆歌劇 レヴュースタァライト",
+ "expansion": 250,
+ "lang": "jp",
+ "release": null,
+ "shopItem": null,
+ "box": null,
+ "cards": [
+  {
+   "num": "RSL/S56-001",
+   "name": "“ふたりの花道”石動 双葉",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、そのターン中、このカードのパワーを＋1500。\n【自】【CXコンボ】 このカードのバトル相手が【リバース】した時、あなたのクライマックス置場に「一番近くで」があるなら、あなたは自分の山札を見て《レヴュー》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"お前の性根――あたしが、たたき直してやる!!\"",
+   "traits": [
+    "レヴュー",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/r/rsl_s56/rsl_s56_001.png",
+   "variant": ""
+  },
+  {
+   "num": "RSL/S56-001SSP",
+   "name": "“ふたりの花道”石動 双葉",
+   "type": "Character",
+   "rarity": "SSP",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、そのターン中、このカードのパワーを＋1500。\n【自】【CXコンボ】 このカードのバトル相手が【リバース】した時、あなたのクライマックス置場に「一番近くで」があるなら、あなたは自分の山札を見て《レヴュー》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"-\"",
+   "traits": [
+    "レヴュー",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/r/rsl_s56/rsl_s56_001ssp.png",
+   "variant": ""
+  },
+  {
+   "num": "RSL/S56-002",
+   "name": "守りたい時間 大場 なな",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "yellow",
+   "level": "3",
+   "cost": "2",
+   "power": "6000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたのターン中、他のあなたの前列の中央の枠のキャラに、パワーを＋1000。\n【永】 他のあなたの《レヴュー》のキャラすべてに、パワーを＋1500。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n【自】［(1)］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは相手の控え室のキャラを1枚選び、舞台のキャラのいない枠に置く。\n\"いつかあの娘と戦うことになっても……？\"",
+   "traits": [
+    "レヴュー",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/r/rsl_s56/rsl_s56_002.png",
+   "variant": ""
+  },
+  {
+   "num": "RSL/S56-002SSP",
+   "name": "守りたい時間 大場 なな",
+   "type": "Character",
+   "rarity": "SSP",
+   "color": "yellow",
+   "level": "3",
+   "cost": "2",
+   "power": "6000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたのターン中、他のあなたの前列の中央の枠のキャラに、パワーを＋1000。\n【永】 他のあなたの《レヴュー》のキャラすべてに、パワーを＋1500。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n【自】［(1)］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは相手の控え室のキャラを1枚選び、舞台のキャラのいない枠に置く。\n\"-\"",
+   "traits": [
+    "レヴュー",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/r/rsl_s56/rsl_s56_002ssp.png",
+   "variant": ""
+  },
+  {
+   "num": "RSL/S56-003",
+   "name": "“ふたりの花道”花柳 香子",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "yellow",
+   "level": "3",
+   "cost": "2",
+   "power": "9500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは相手のキャラを1枚まで選び、手札に戻し、そのターン中、このカードのパワーを＋2000。\n【自】【CXコンボ】［(1) 手札のカード名に「双葉」か「香子」を含むキャラを1枚控え室に置く］ あなたのクライマックス置場に「最高の自分」が置かれた時、前列にこのカードがいるなら、あなたはコストを払ってよい。そうしたら、他のあなたのキャラすべてに、そのターン中、次の能力を与える。『【自】 この能力は1ターンにつき1回まで発動する。このカードの与えたダメージがキャンセルされた時、あなたは相手に2ダメージを与えてよい。』（ダメージキャンセルは発生する）\n\"メインキャストは双葉はん……あんたの方がふさわしいわ\"",
+   "traits": [
+    "レヴュー",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/r/rsl_s56/rsl_s56_003.png",
+   "variant": ""
+  },
+  {
+   "num": "RSL/S56-003SSP",
+   "name": "“ふたりの花道”花柳 香子",
+   "type": "Character",
+   "rarity": "SSP",
+   "color": "yellow",
+   "level": "3",
+   "cost": "2",
+   "power": "9500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは相手のキャラを1枚まで選び、手札に戻し、そのターン中、このカードのパワーを＋2000。\n【自】【CXコンボ】［(1) 手札のカード名に「双葉」か「香子」を含むキャラを1枚控え室に置く］ あなたのクライマックス置場に「最高の自分」が置かれた時、前列にこのカードがいるなら、あなたはコストを払ってよい。そうしたら、他のあなたのキャラすべてに、そのターン中、次の能力を与える。『【自】 この能力は1ターンにつき1回まで発動する。このカードの与えたダメージがキャンセルされた時、あなたは相手に2ダメージを与えてよい。』（ダメージキャンセルは発生する）\n\"-\"",
+   "traits": [
+    "レヴュー",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/r/rsl_s56/rsl_s56_003ssp.png",
+   "variant": ""
+  },
+  {
+   "num": "RSL/S56-004",
+   "name": "私のキラめき 大場 なな",
+   "type": "Character",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのターン中、他のあなたの《レヴュー》のキャラがいるなら、このカードのパワーを＋3000。\n【自】［(1)］ このカードがアタックした時、あなたはコストを払ってよい。そうしたら、そのアタック中、あなたはトリガーステップにトリガーチェックを2回行う。\n\"私の再演で、守ってあげる\"",
+   "traits": [
+    "レヴュー",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/r/rsl_s56/rsl_s56_004.png",
+   "variant": ""
+  },
+  {
+   "num": "RSL/S56-004SP",
+   "name": "私のキラめき 大場 なな",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのターン中、他のあなたの《レヴュー》のキャラがいるなら、このカードのパワーを＋3000。\n【自】［(1)］ このカードがアタックした時、あなたはコストを払ってよい。そうしたら、そのアタック中、あなたはトリガーステップにトリガーチェックを2回行う。\n\"-\"",
+   "traits": [
+    "レヴュー",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/r/rsl_s56/rsl_s56_004sp.png",
+   "variant": ""
+  },
+  {
+   "num": "RSL/S56-004STR",
+   "name": "私のキラめき 大場 なな",
+   "type": "Character",
+   "rarity": "STR",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのターン中、他のあなたの《レヴュー》のキャラがいるなら、このカードのパワーを＋3000。\n【自】［(1)］ このカードがアタックした時、あなたはコストを払ってよい。そうしたら、そのアタック中、あなたはトリガーステップにトリガーチェックを2回行う。\n\"-\"",
+   "traits": [
+    "レヴュー",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/r/rsl_s56/rsl_s56_004str.png",
+   "variant": ""
+  },
+  {
+   "num": "RSL/S56-005",
+   "name": "気合十分 石動 双葉",
+   "type": "Character",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 前列の中央の枠にこのカードがいるなら、このカードのパワーを＋3000し、ソウルを＋1。\n\"-\"",
+   "traits": [
+    "レヴュー",
+    "バイク"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/r/rsl_s56/rsl_s56_005.png",
+   "variant": ""
+  },
+  {
+   "num": "RSL/S56-005S",
+   "name": "気合十分 石動 双葉",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 前列の中央の枠にこのカードがいるなら、このカードのパワーを＋3000し、ソウルを＋1。\n\"-\"",
+   "traits": [
+    "レヴュー",
+    "バイク"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/r/rsl_s56/rsl_s56_005s.png",
+   "variant": ""
+  },
+  {
+   "num": "RSL/S56-006",
+   "name": "私のキラめき 花柳 香子",
+   "type": "Character",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分のキャラを1枚選び、次の相手のターンの終わりまで、次の能力を与える。『【永】 このカードは相手のキャラの【自】の効果によって【リバース】されない。』\n【起】 集中 ［(1) このカードを【レスト】する］ あなたは自分の山札の上から4枚をめくり、控え室に置く。それらのカードのクライマックス1枚につき、あなたは自分の控え室のキャラを1枚まで選び、手札に戻す。\n\"見とき、うちかて舞台少女や\"",
+   "traits": [
+    "レヴュー",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/r/rsl_s56/rsl_s56_006.png",
+   "variant": ""
+  },
+  {
+   "num": "RSL/S56-006SP",
+   "name": "私のキラめき 花柳 香子",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分のキャラを1枚選び、次の相手のターンの終わりまで、次の能力を与える。『【永】 このカードは相手のキャラの【自】の効果によって【リバース】されない。』\n【起】 集中 ［(1) このカードを【レスト】する］ あなたは自分の山札の上から4枚をめくり、控え室に置く。それらのカードのクライマックス1枚につき、あなたは自分の控え室のキャラを1枚まで選び、手札に戻す。\n\"-\"",
+   "traits": [
+    "レヴュー",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/r/rsl_s56/rsl_s56_006sp.png",
+   "variant": ""
+  },
+  {
+   "num": "RSL/S56-006STR",
+   "name": "私のキラめき 花柳 香子",
+   "type": "Character",
+   "rarity": "STR",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分のキャラを1枚選び、次の相手のターンの終わりまで、次の能力を与える。『【永】 このカードは相手のキャラの【自】の効果によって【リバース】されない。』\n【起】 集中 ［(1) このカードを【レスト】する］ あなたは自分の山札の上から4枚をめくり、控え室に置く。それらのカードのクライマックス1枚につき、あなたは自分の控え室のキャラを1枚まで選び、手札に戻す。\n\"-\"",
+   "traits": [
+    "レヴュー",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/r/rsl_s56/rsl_s56_006str.png",
+   "variant": ""
+  },
+  {
+   "num": "RSL/S56-007",
+   "name": "無二の仲 双葉＆香子",
+   "type": "Character",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードがアタックした時、あなたは他の自分の《レヴュー》のキャラを1枚選び、そのターン中、パワーを＋1000。\n【自】 このカードが【リバース】した時、このカードのバトル相手のレベルが0以下なら、あなたはそのキャラをストック置場に置いてよい。そうしたら、あなたは相手のストックの下から1枚を、控え室に置く。\n\"香子「おっ……思てまへん、そこまでは！」\"",
+   "traits": [
+    "レヴュー"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/r/rsl_s56/rsl_s56_007.png",
+   "variant": ""
+  },
+  {
+   "num": "RSL/S56-007S",
+   "name": "無二の仲 双葉＆香子",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードがアタックした時、あなたは他の自分の《レヴュー》のキャラを1枚選び、そのターン中、パワーを＋1000。\n【自】 このカードが【リバース】した時、このカードのバトル相手のレベルが0以下なら、あなたはそのキャラをストック置場に置いてよい。そうしたら、あなたは相手のストックの下から1枚を、控え室に置く。\n\"香子「タクシー代は出世払いや♪」<br>双葉「しかたね～なぁ」\"",
+   "traits": [
+    "レヴュー"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/r/rsl_s56/rsl_s56_007s.png",
+   "variant": ""
+  },
+  {
+   "num": "RSL/S56-008",
+   "name": "料理上手 大場 なな",
+   "type": "Character",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの《レヴュー》のキャラ1枚につき、このカードのパワーを＋500。\n【自】【CXコンボ】 このカードがアタックした時、クライマックス置場に「星祭りの夜に」があるなら、あなたは自分の山札の上から1枚を公開する。そのカードが《レヴュー》のキャラなら手札に加える。（そうでないなら元に戻す）\n\"まひるいも出来てるよ♪\"",
+   "traits": [
+    "レヴュー",
+    "料理"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/r/rsl_s56/rsl_s56_008.png",
+   "variant": ""
+  },
+  {
+   "num": "RSL/S56-008S",
+   "name": "料理上手 大場 なな",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの《レヴュー》のキャラ1枚につき、このカードのパワーを＋500。\n【自】【CXコンボ】 このカードがアタックした時、クライマックス置場に「星祭りの夜に」があるなら、あなたは自分の山札の上から1枚を公開する。そのカードが《レヴュー》のキャラなら手札に加える。（そうでないなら元に戻す）\n\"みんなと一緒、うれしいな♪\"",
+   "traits": [
+    "レヴュー",
+    "料理"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/r/rsl_s56/rsl_s56_008s.png",
+   "variant": ""
+  },
+  {
+   "num": "RSL/S56-009",
+   "name": "言葉の真意 花柳 香子",
+   "type": "Character",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "7000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から2枚を、控え室に置く。それらのカードにレベル0以下のキャラがあるなら、そのターン中、このカードはサイドアタックしてもソウルが減少しない。\n【自】［(1) このカードを控え室に置く］ このカードがフロントアタックされたターン中、アンコールステップの始めに、あなたはコストを払ってよい。そうしたら、あなたは自分の手札の「“ふたりの花道”花柳 香子」を1枚まで選び、このカードがいた枠に置く。\n\"それに比べてうちは……\"",
+   "traits": [
+    "レヴュー",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/r/rsl_s56/rsl_s56_009.png",
+   "variant": ""
+  },
+  {
+   "num": "RSL/S56-009S",
+   "name": "言葉の真意 花柳 香子",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "7000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から2枚を、控え室に置く。それらのカードにレベル0以下のキャラがあるなら、そのターン中、このカードはサイドアタックしてもソウルが減少しない。\n【自】［(1) このカードを控え室に置く］ このカードがフロントアタックされたターン中、アンコールステップの始めに、あなたはコストを払ってよい。そうしたら、あなたは自分の手札の「“ふたりの花道”花柳 香子」を1枚まで選び、このカードがいた枠に置く。\n\"それに比べてうちは……\"",
+   "traits": [
+    "レヴュー",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/r/rsl_s56/rsl_s56_009s.png",
+   "variant": ""
+  },
+  {
+   "num": "RSL/S56-010",
+   "name": "私のキラめき 石動 双葉",
+   "type": "Character",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは2枚まで引き、自分の手札を1枚選び、控え室に置く。\n【自】［(1) 手札を1枚控え室に置く］ このカードがアタックした時、あなたの前列の中央の枠にカード名に「香子」を含むキャラがいるなら、あなたはコストを払ってよい。そうしたら、相手に1ダメージを与え、そのターン中、このカードのパワーを＋1000。（ダメージキャンセルは発生する）\n\"一緒にキラめきが見たいんだ！\"",
+   "traits": [
+    "レヴュー",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/r/rsl_s56/rsl_s56_010.png",
+   "variant": ""
+  },
+  {
+   "num": "RSL/S56-010SP",
+   "name": "私のキラめき 石動 双葉",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "yellow",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは2枚まで引き、自分の手札を1枚選び、控え室に置く。\n【自】［(1) 手札を1枚控え室に置く］ このカードがアタックした時、あなたの前列の中央の枠にカード名に「香子」を含むキャラがいるなら、あなたはコストを払ってよい。そうしたら、相手に1ダメージを与え、そのターン中、このカードのパワーを＋1000。（ダメージキャンセルは発生する）\n\"-\"",
+   "traits": [
+    "レヴュー",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/r/rsl_s56/rsl_s56_010sp.png",
+   "variant": ""
+  },
+  {
+   "num": "RSL/S56-010STR",
+   "name": "私のキラめき 石動 双葉",
+   "type": "Character",
+   "rarity": "STR",
+   "color": "yellow",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは2枚まで引き、自分の手札を1枚選び、控え室に置く。\n【自】［(1) 手札を1枚控え室に置く］ このカードがアタックした時、あなたの前列の中央の枠にカード名に「香子」を含むキャラがいるなら、あなたはコストを払ってよい。そうしたら、相手に1ダメージを与え、そのターン中、このカードのパワーを＋1000。（ダメージキャンセルは発生する）\n\"-\"",
+   "traits": [
+    "レヴュー",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/r/rsl_s56/rsl_s56_010str.png",
+   "variant": ""
+  },
+  {
+   "num": "RSL/S56-011",
+   "name": "自信満々 花柳 香子",
+   "type": "Character",
+   "rarity": "U",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［手札を1枚控え室に置く］ このカードがアタックした時、あなたはコストを払ってよい。そうしたら、あなたは他の自分の《レヴュー》のキャラを1枚選び、手札に戻す。\n【自】 絆／「気合十分 石動 双葉」 ［あなたの山札の上から1枚をクロック置場に置く］ （このカードがプレイされて舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「気合十分 石動 双葉」を1枚選び、手札に戻す）\n\"うちが、世界で一番キラめくとこを一番はじめに観せたるから♪\"",
+   "traits": [
+    "レヴュー",
+    "日本舞踊"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/r/rsl_s56/rsl_s56_011.png",
+   "variant": ""
+  },
+  {
+   "num": "RSL/S56-012",
+   "name": "幼馴染との対峙 石動 双葉",
+   "type": "Character",
+   "rarity": "U",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの《レヴュー》のキャラすべてに、パワーを＋500。\n【自】 あなたのキャラのトリガーチェックでクライマックスがでた時、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋1000。\n\"香子「花、咲かせはったんやねぇ……」\"",
+   "traits": [
+    "レヴュー",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/r/rsl_s56/rsl_s56_012.png",
+   "variant": ""
+  },
+  {
+   "num": "RSL/S56-013",
+   "name": "眩しい舞台 大場 なな",
+   "type": "Character",
+   "rarity": "U",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から2枚を、控え室に置き、そのターン中、このカードのパワーを＋Ｘ。Ｘはそれらのカードの《レヴュー》のキャラの枚数×1000に等しい。\n【自】【CXコンボ】 相手がレベルアップした時、あなたのクライマックス置場に「再演」があるなら、あなたは自分の山札を上から4枚まで見て、《レヴュー》のキャラを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。\n\"届かない……\"",
+   "traits": [
+    "レヴュー",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/r/rsl_s56/rsl_s56_013.png",
+   "variant": ""
+  },
+  {
+   "num": "RSL/S56-014",
+   "name": "レオタードの石動 双葉",
+   "type": "Character",
+   "rarity": "U",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 前列の中央の枠にこのカードがいるなら、このカードのパワーを＋3000し、ソウルを＋1。\n【自】 アンコール ［あなたの山札の上から1枚をクロック置場に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"-\"",
+   "traits": [
+    "レヴュー",
+    "バイク"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/r/rsl_s56/rsl_s56_014.png",
+   "variant": ""
+  },
+  {
+   "num": "RSL/S56-015",
+   "name": "レオタードの花柳 香子",
+   "type": "Character",
+   "rarity": "U",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札を上から2枚まで見て《レヴュー》のキャラか「意地の張り合い」を2枚まで選んで相手に見せ、このカードの下にマーカーとして好きな順番で表向きに置き、残りのカードを控え室に置く。\n【起】［このカードの下のマーカーを2枚控え室に置く］ あなたは相手のレベル0以下のキャラを1枚選び、手札に戻し、そのターン中、このカードのパワーを＋4500。\n\"-\"",
+   "traits": [
+    "レヴュー",
+    "日本舞踊"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/r/rsl_s56/rsl_s56_015.png",
+   "variant": ""
+  },
+  {
+   "num": "RSL/S56-016",
+   "name": "向けられた剣 大場 なな",
+   "type": "Character",
+   "rarity": "U",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】［(2) あなたの舞台のキャラを1枚控え室に置く］ あなたがこのカードの『助太刀』を使った時、あなたはコストを払ってよい。そうしたら、あなたは相手の、レベルが相手のレベルより高いキャラを1枚選び、ストック置場に置く。\n【起】【カウンター】 助太刀2500 レベル2 ［(1) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋2500）\n\"怖がらないで……ひかりちゃんはもう、私たちの仲間なんだから\"",
+   "traits": [
+    "レヴュー",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/r/rsl_s56/rsl_s56_016.png",
+   "variant": ""
+  },
+  {
+   "num": "RSL/S56-017",
+   "name": "永遠の舞台 大場 なな",
+   "type": "Character",
+   "rarity": "U",
+   "color": "yellow",
+   "level": "2",
+   "cost": "2",
+   "power": "7500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたのターン中、あなたのキャラすべてが《レヴュー》なら、このカードのパワーを＋4000。\n【自】 アンコール ［手札の《レヴュー》のキャラを1枚控え室に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"最高の舞台……大切な仲間たち……全部守りたいから……\"",
+   "traits": [
+    "レヴュー",
+    "料理"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/r/rsl_s56/rsl_s56_017.png",
+   "variant": ""
+  },
+  {
+   "num": "RSL/S56-018",
+   "name": "パジャマパーティー 大場 なな",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードがダイレクトアタックした時、あなたは他の自分のキャラを1枚選び、そのターン中、パワーを＋1500。\n【自】［(1)］ 相手のターン中、バトル中のこのカードが【リバース】した時、あなたはコストを払ってよい。そうしたら、このカードを【レスト】し、次のあなたのアンコールステップの始めに、このカードを控え室に置く。\n\"-\"",
+   "traits": [
+    "レヴュー",
+    "料理"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/r/rsl_s56/rsl_s56_018.png",
+   "variant": ""
+  },
+  {
+   "num": "RSL/S56-019",
+   "name": "幼馴染の逃亡 石動 双葉",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの前列の中央の枠の「注目の的 花柳 香子」に、パワーを＋2000。\n【自】 絆／「注目の的 花柳 香子」 ［手札を1枚控え室に置く］ （このカードがプレイされて舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「注目の的 花柳 香子」を1枚選び、手札に戻す）\n\"-\"",
+   "traits": [
+    "レヴュー"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/r/rsl_s56/rsl_s56_019.png",
+   "variant": ""
+  },
+  {
+   "num": "RSL/S56-020",
+   "name": "キリン",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 他のあなたの《レヴュー》のキャラかこのカードが手札から舞台に置かれた時、あなたは自分の山札を上から1枚見てよい。（見たカードは元に戻す）\n【起】［(2) このカードを【レスト】する］ あなたは自分の山札を見て《レヴュー》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"……その覚悟があなたに？\"",
+   "traits": [
+    "レヴュー",
+    "謎"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/r/rsl_s56/rsl_s56_020.png",
+   "variant": ""
+  },
+  {
+   "num": "RSL/S56-021",
+   "name": "世界一になるために 花柳 香子",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのターン中、他のあなたの《レヴュー》のキャラがいるなら、このカードのパワーを＋3000。\n【起】［(1)］ 他のあなたの《レヴュー》のキャラが2枚以上なら、そのターン中、このカードのパワーを＋1000し、相手は『【自】 アンコール』を使えない。（ルールによる『【自】 アンコール ［(3)］』も使えない）\n\"日舞だけやのうて色んな踊りの勉強ができるんやて\"",
+   "traits": [
+    "レヴュー",
+    "日本舞踊"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/r/rsl_s56/rsl_s56_021.png",
+   "variant": ""
+  },
+  {
+   "num": "RSL/S56-022",
+   "name": "“ばなナイス！”大場 なな",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、他のあなたの《レヴュー》のキャラがいるなら、そのターン中、このカードのパワーを＋2000。\n\"華恋「ばななナイス！ ばなナイス！」\"",
+   "traits": [
+    "レヴュー",
+    "料理"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/r/rsl_s56/rsl_s56_022.png",
+   "variant": ""
+  },
+  {
+   "num": "RSL/S56-023",
+   "name": "注目の的 花柳 香子",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "5500",
+   "soul": 1,
+   "trigger": "",
+   "text": "-\n\"双葉「なーにが『おおきに～』だよ」\"",
+   "traits": [
+    "レヴュー",
+    "日本舞踊"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/r/rsl_s56/rsl_s56_023.png",
+   "variant": ""
+  },
+  {
+   "num": "RSL/S56-024",
+   "name": "見物中 石動 双葉",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "6500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの「私のキラめき 花柳 香子」がいないなら、このカードのパワーを－2000。\n\"-\"",
+   "traits": [
+    "レヴュー",
+    "バイク"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/r/rsl_s56/rsl_s56_024.png",
+   "variant": ""
+  },
+  {
+   "num": "RSL/S56-025",
+   "name": "大切な思い出 大場 なな",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "1",
+   "cost": "1",
+   "power": "7000",
+   "soul": 1,
+   "trigger": "",
+   "text": "-\n\"純那「私に気を遣って、とか……だったりしたら……」\"",
+   "traits": [
+    "レヴュー",
+    "料理"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/r/rsl_s56/rsl_s56_025.png",
+   "variant": ""
+  },
+  {
+   "num": "RSL/S56-026",
+   "name": "見物中 花柳 香子",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの前列の中央の枠のキャラに、パワーを＋500。\n【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋Ｘ。Ｘはそのキャラのレベル×500に等しい。\n【自】［(1)］ 相手のメインフェイズの始めに、あなたはコストを払ってよい。そうしたら、あなたは相手のクロックを1枚選び、控え室に置いてよい。そうしたら、相手は自分の山札の上から1枚を、クロック置場に置く。\n\"-\"",
+   "traits": [
+    "レヴュー",
+    "日本舞踊"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/r/rsl_s56/rsl_s56_026.png",
+   "variant": ""
+  },
+  {
+   "num": "RSL/S56-027",
+   "name": "喧嘩中 石動 双葉",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】【クロック】 アラーム このカードがクロックの1番上にあり、あなたの《レヴュー》のキャラが2枚以上なら、あなたのクライマックスフェイズの始めに、あなたは自分のキャラを1枚選び、【スタンド】し、そのターン中、そのキャラのパワーを＋2000。\n\"真矢「応援してくれる人のため」\"",
+   "traits": [
+    "レヴュー",
+    "バイク"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/r/rsl_s56/rsl_s56_027.png",
+   "variant": ""
+  },
+  {
+   "num": "RSL/S56-028",
+   "name": "入学の誘い 石動 双葉",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 このカードの下にマーカーがないなら、このカードのパワーを－7500。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分の控え室の「入学の誘い 石動 双葉」を1枚選び、このカードの下にマーカーとして表向きに置いてよい。\n\"香子「せやから、双葉はんもくるんやで」\"",
+   "traits": [
+    "レヴュー"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/r/rsl_s56/rsl_s56_028.png",
+   "variant": ""
+  },
+  {
+   "num": "RSL/S56-029",
+   "name": "意地の張り合い",
+   "type": "Event",
+   "rarity": "U",
+   "color": "yellow",
+   "level": "1",
+   "cost": "1",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "【カウンター】 あなたは自分のバトル中のカード名に「双葉」か「香子」を含むキャラを1枚まで選び、手札に戻し、自分の控え室のキャラを1枚まで選び、手札に戻し、自分の手札を1枚選び、控え室に置く。\n\"香子「双葉の裏切りもん！」<br>双葉「香子の意地っぱり！」\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/r/rsl_s56/rsl_s56_029.png",
+   "variant": ""
+  },
+  {
+   "num": "RSL/S56-030",
+   "name": "打ち上げの写真",
+   "type": "Event",
+   "rarity": "U",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "このカードは、あなたのカード名に「なな」を含むキャラがいないなら、手札からプレイできない。\nあなたは自分の控え室の自分のレベル以下のレベルのカード名に「真矢」か「クロディーヌ」を含むキャラを1枚選び、舞台の好きな枠に置く。\n\"全く同じ舞台はもうできないのかな\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/r/rsl_s56/rsl_s56_030.png",
+   "variant": ""
+  },
+  {
+   "num": "RSL/S56-031",
+   "name": "最高の自分",
+   "type": "Climax",
+   "rarity": "CR",
+   "color": "yellow",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[bounce.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[bounce.gif]]：このカードがトリガーした時、あなたは相手のキャラを1枚選び、手札に戻してよい）\n\"おおきに……『双葉』\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/r/rsl_s56/rsl_s56_031.png",
+   "variant": ""
+  },
+  {
+   "num": "RSL/S56-031R",
+   "name": "最高の自分",
+   "type": "Climax",
+   "rarity": "RRR",
+   "color": "yellow",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[bounce.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[bounce.gif]]：このカードがトリガーした時、あなたは相手のキャラを1枚選び、手札に戻してよい）\n\"歌に踊りにゆきかえり。歩みすすんだ二人道――\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/r/rsl_s56/rsl_s56_031r.png",
+   "variant": ""
+  },
+  {
+   "num": "RSL/S56-032",
+   "name": "一番近くで",
+   "type": "Climax",
+   "rarity": "CC",
+   "color": "yellow",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[bounce.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[bounce.gif]]：このカードがトリガーした時、あなたは相手のキャラを1枚選び、手札に戻してよい）\n\"あ……ああん!?\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/r/rsl_s56/rsl_s56_032.png",
+   "variant": ""
+  },
+  {
+   "num": "RSL/S56-032R",
+   "name": "一番近くで",
+   "type": "Climax",
+   "rarity": "RRR",
+   "color": "yellow",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[bounce.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[bounce.gif]]：このカードがトリガーした時、あなたは相手のキャラを1枚選び、手札に戻してよい）\n\"だけどあたしも見つけちまった。夜空にそびえる一本道！\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/r/rsl_s56/rsl_s56_032r.png",
+   "variant": ""
+  },
+  {
+   "num": "RSL/S56-033",
+   "name": "星祭りの夜に",
+   "type": "Climax",
+   "rarity": "CC",
+   "color": "yellow",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[shot.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[shot.gif]]：このターン中、このカードをトリガーした攻撃キャラが次に与えるダメージがキャンセルされた時、相手に1ダメージを与える）\n\"純那「だから、一緒に創ろ、なな……私たちで次のスタァライト」\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/r/rsl_s56/rsl_s56_033.png",
+   "variant": ""
+  },
+  {
+   "num": "RSL/S56-033R",
+   "name": "星祭りの夜に",
+   "type": "Climax",
+   "rarity": "RRR",
+   "color": "yellow",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[shot.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[shot.gif]]：このターン中、このカードをトリガーした攻撃キャラが次に与えるダメージがキャンセルされた時、相手に1ダメージを与える）\n\"純那「だから、一緒に創ろ、なな……私たちで次のスタァライト」\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/r/rsl_s56/rsl_s56_033r.png",
+   "variant": ""
+  },
+  {
+   "num": "RSL/S56-034",
+   "name": "そばに居た存在 露崎 まひる",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から1枚を公開する。そのカードのレベルが2以上ならストック置場に置く。（クライマックスのレベルは0として扱う。そうでないなら元に戻す）\n【自】 このカードが【リバース】した時、このカードのバトル相手のレベルが0以下なら、あなたはそのキャラを【リバース】してよい。\n\"ずっとそばに居たのは……わたしなんだよ？\"",
+   "traits": [
+    "レヴュー",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/r/rsl_s56/rsl_s56_034.png",
+   "variant": ""
+  },
+  {
+   "num": "RSL/S56-034SSP",
+   "name": "そばに居た存在 露崎 まひる",
+   "type": "Character",
+   "rarity": "SSP",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から1枚を公開する。そのカードのレベルが2以上ならストック置場に置く。（クライマックスのレベルは0として扱う。そうでないなら元に戻す）\n【自】 このカードが【リバース】した時、このカードのバトル相手のレベルが0以下なら、あなたはそのキャラを【リバース】してよい。\n\"-\"",
+   "traits": [
+    "レヴュー",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/r/rsl_s56/rsl_s56_034ssp.png",
+   "variant": ""
+  },
+  {
+   "num": "RSL/S56-035",
+   "name": "私のキラめき 愛城 華恋",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札を上から1枚見て、山札の上か控え室に置く。\n【自】［(1) あなたの山札の上から1枚をクロック置場に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室のレベル1以下のキャラを1枚選び、手札に戻す。\n\"アタシ！再生産!!\"",
+   "traits": [
+    "レヴュー",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/r/rsl_s56/rsl_s56_035.png",
+   "variant": ""
+  },
+  {
+   "num": "RSL/S56-035SP",
+   "name": "私のキラめき 愛城 華恋",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札を上から1枚見て、山札の上か控え室に置く。\n【自】［(1) あなたの山札の上から1枚をクロック置場に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室のレベル1以下のキャラを1枚選び、手札に戻す。\n\"-\"",
+   "traits": [
+    "レヴュー",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/r/rsl_s56/rsl_s56_035sp.png",
+   "variant": ""
+  },
+  {
+   "num": "RSL/S56-035STR",
+   "name": "私のキラめき 愛城 華恋",
+   "type": "Character",
+   "rarity": "STR",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札を上から1枚見て、山札の上か控え室に置く。\n【自】［(1) あなたの山札の上から1枚をクロック置場に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室のレベル1以下のキャラを1枚選び、手札に戻す。\n\"-\"",
+   "traits": [
+    "レヴュー",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/r/rsl_s56/rsl_s56_035str.png",
+   "variant": ""
+  },
+  {
+   "num": "RSL/S56-036",
+   "name": "“情熱とキラめき”愛城 華恋",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時か「“華、ひらくとき”神楽 ひかり」の【自】の効果で舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n【自】【CXコンボ】 このカードがアタックした時、クライマックス置場に「されど舞台はつづく」があり、あなたの前列の中央の枠に「“情熱とキラめき”愛城 華恋」がいるなら、そのターン中、このカードのパワーを＋1500し、このカードは次の能力を得る。『【自】［(2) 手札を1枚控え室に置く］ このカードのバトル相手が【リバース】した時、あなたはコストを払ってよい。そうしたら、相手に3ダメージを与える。』（ダメージキャンセルは発生する）\n\"私たちは何度だって舞台に立てる！\"",
+   "traits": [
+    "レヴュー",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/r/rsl_s56/rsl_s56_036.png",
+   "variant": ""
+  },
+  {
+   "num": "RSL/S56-036SSP",
+   "name": "“情熱とキラめき”愛城 華恋",
+   "type": "Character",
+   "rarity": "SSP",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時か「“華、ひらくとき”神楽 ひかり」の【自】の効果で舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n【自】【CXコンボ】 このカードがアタックした時、クライマックス置場に「されど舞台はつづく」があり、あなたの前列の中央の枠に「“情熱とキラめき”愛城 華恋」がいるなら、そのターン中、このカードのパワーを＋1500し、このカードは次の能力を得る。『【自】［(2) 手札を1枚控え室に置く］ このカードのバトル相手が【リバース】した時、あなたはコストを払ってよい。そうしたら、相手に3ダメージを与える。』（ダメージキャンセルは発生する）\n\"-\"",
+   "traits": [
+    "レヴュー",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/r/rsl_s56/rsl_s56_036ssp.png",
+   "variant": ""
+  },
+  {
+   "num": "RSL/S56-037",
+   "name": "“華、ひらくとき”神楽 ひかり",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】［(1)］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「“情熱とキラめき”愛城 華恋」を1枚選び、舞台の好きな枠に置く。\n【自】【CXコンボ】［(1) あなたの前列の中央の枠のカード名に「華恋」を含むキャラを1枚控え室に置く］ あなたのアンコールステップの始めに、クライマックス置場に「されど舞台はつづく」があり、前列にこのカードがいるなら、あなたはコストを払ってよい。そうしたら、あなたはこのカードを【レスト】し、前列の中央のキャラのいない枠に動かし、相手に1ダメージを与え、次の相手のターンの終わりまで、このカードのパワーを＋2000し、このカードは『【永】 大活躍』を得る。（ダメージキャンセルは発生する）\n\"それでも……見えたの！ふたりの！スタァライトが!!!!\"",
+   "traits": [
+    "レヴュー",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/r/rsl_s56/rsl_s56_037.png",
+   "variant": ""
+  },
+  {
+   "num": "RSL/S56-037SSP",
+   "name": "“華、ひらくとき”神楽 ひかり",
+   "type": "Character",
+   "rarity": "SSP",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】［(1)］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「“情熱とキラめき”愛城 華恋」を1枚選び、舞台の好きな枠に置く。\n【自】【CXコンボ】［(1) あなたの前列の中央の枠のカード名に「華恋」を含むキャラを1枚控え室に置く］ あなたのアンコールステップの始めに、クライマックス置場に「されど舞台はつづく」があり、前列にこのカードがいるなら、あなたはコストを払ってよい。そうしたら、あなたはこのカードを【レスト】し、前列の中央のキャラのいない枠に動かし、相手に1ダメージを与え、次の相手のターンの終わりまで、このカードのパワーを＋2000し、このカードは『【永】 大活躍』を得る。（ダメージキャンセルは発生する）\n\"-\"",
+   "traits": [
+    "レヴュー",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/r/rsl_s56/rsl_s56_037ssp.png",
+   "variant": ""
+  },
+  {
+   "num": "RSL/S56-038",
+   "name": "レオタードの華恋＆ひかり",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 あなたのクライマックスフェイズの始めに、あなたは自分の《レヴュー》のキャラを1枚選び、そのターン中、パワーを＋500。\n【起】 集中 ［(1) このカードを【レスト】する］ あなたは自分の山札の上から4枚をめくり、控え室に置く。それらのカードのクライマックス1枚につき、次の行動を行う。『あなたは2枚まで引き、自分の手札を1枚選び、控え室に置く。』\n\"ひかり「チカラ抜いて！」\"",
+   "traits": [
+    "レヴュー"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/r/rsl_s56/rsl_s56_038.png",
+   "variant": ""
+  },
+  {
+   "num": "RSL/S56-038S",
+   "name": "レオタードの華恋＆ひかり",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 あなたのクライマックスフェイズの始めに、あなたは自分の《レヴュー》のキャラを1枚選び、そのターン中、パワーを＋500。\n【起】 集中 ［(1) このカードを【レスト】する］ あなたは自分の山札の上から4枚をめくり、控え室に置く。それらのカードのクライマックス1枚につき、次の行動を行う。『あなたは2枚まで引き、自分の手札を1枚選び、控え室に置く。』\n\"ひかり「ほら、背中固くなってる！」\"",
+   "traits": [
+    "レヴュー"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/r/rsl_s56/rsl_s56_038s.png",
+   "variant": ""
+  },
+  {
+   "num": "RSL/S56-039",
+   "name": "二人の舞台 露崎 まひる",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】【CXコンボ】［このカードを手札に戻す］ あなたのクライマックス置場に「キラめきのありか」が置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を上から2枚まで見て、カードを1枚まで選び、手札に加え、残りのカードを控え室に置き、自分の手札を1枚選び、控え室に置く。\n【起】［このカードを【レスト】する］ 他のあなたの《レヴュー》のキャラすべてに、そのターン中、パワーを＋500。\n\"あはははははは……\"",
+   "traits": [
+    "レヴュー",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/r/rsl_s56/rsl_s56_039.png",
+   "variant": ""
+  },
+  {
+   "num": "RSL/S56-039S",
+   "name": "二人の舞台 露崎 まひる",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】【CXコンボ】［このカードを手札に戻す］ あなたのクライマックス置場に「キラめきのありか」が置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を上から2枚まで見て、カードを1枚まで選び、手札に加え、残りのカードを控え室に置き、自分の手札を1枚選び、控え室に置く。\n【起】［このカードを【レスト】する］ 他のあなたの《レヴュー》のキャラすべてに、そのターン中、パワーを＋500。\n\"大丈夫だよ、華恋ちゃん。痛くしないから\"",
+   "traits": [
+    "レヴュー",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/r/rsl_s56/rsl_s56_039s.png",
+   "variant": ""
+  },
+  {
+   "num": "RSL/S56-040",
+   "name": "私のキラめき 神楽 ひかり",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのストックが2枚以下なら、このカードのパワーを＋1500。\n【自】 この能力は1ターンにつき1回まで発動する。バトル中のこのカードが【リバース】した時、あなたは自分の山札の上から1枚を、控え室に置く。そのカードのレベルが2以上なら、あなたはこのカードを【レスト】してよい。（クライマックスのレベルは0として扱う）\n\"二人で一番キラめけば……きっと\"",
+   "traits": [
+    "レヴュー",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/r/rsl_s56/rsl_s56_040.png",
+   "variant": ""
+  },
+  {
+   "num": "RSL/S56-040SP",
+   "name": "私のキラめき 神楽 ひかり",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのストックが2枚以下なら、このカードのパワーを＋1500。\n【自】 この能力は1ターンにつき1回まで発動する。バトル中のこのカードが【リバース】した時、あなたは自分の山札の上から1枚を、控え室に置く。そのカードのレベルが2以上なら、あなたはこのカードを【レスト】してよい。（クライマックスのレベルは0として扱う）\n\"-\"",
+   "traits": [
+    "レヴュー",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/r/rsl_s56/rsl_s56_040sp.png",
+   "variant": ""
+  },
+  {
+   "num": "RSL/S56-041",
+   "name": "差し伸べた手 愛城 華恋",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(2) 手札を2枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見て《レヴュー》のキャラを2枚まで選んで相手に見せ、手札に加え、その山札をシャッフルし、そのターン中、このカードのパワーを＋3000。\n\"大丈夫！……\"",
+   "traits": [
+    "レヴュー",
+    "髪留め"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/r/rsl_s56/rsl_s56_041.png",
+   "variant": ""
+  },
+  {
+   "num": "RSL/S56-041S",
+   "name": "差し伸べた手 愛城 華恋",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(2) 手札を2枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見て《レヴュー》のキャラを2枚まで選んで相手に見せ、手札に加え、その山札をシャッフルし、そのターン中、このカードのパワーを＋3000。\n\"-\"",
+   "traits": [
+    "レヴュー",
+    "髪留め"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/r/rsl_s56/rsl_s56_041s.png",
+   "variant": ""
+  },
+  {
+   "num": "RSL/S56-042",
+   "name": "2人で1つ 華恋＆ひかり",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 あなたがこのカードの『助太刀』を使った時、あなたの《レヴュー》のキャラがいるなら、あなたは自分のバトル中のキャラを1枚選び、そのターン中、パワーを＋1000。\n【起】【カウンター】 助太刀1000 レベル1 ［手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋1000）\n\"真矢「2人で……1つ…それがこのキラめきの!?」\"",
+   "traits": [
+    "レヴュー",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/r/rsl_s56/rsl_s56_042.png",
+   "variant": ""
+  },
+  {
+   "num": "RSL/S56-042S",
+   "name": "2人で1つ 華恋＆ひかり",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 あなたがこのカードの『助太刀』を使った時、あなたの《レヴュー》のキャラがいるなら、あなたは自分のバトル中のキャラを1枚選び、そのターン中、パワーを＋1000。\n【起】【カウンター】 助太刀1000 レベル1 ［手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋1000）\n\"華恋「覚えてる？ あの約束のこと」<br>ひかり「覚えてるよ、あの約束のこと」\"",
+   "traits": [
+    "レヴュー",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/r/rsl_s56/rsl_s56_042s.png",
+   "variant": ""
+  },
+  {
+   "num": "RSL/S56-043",
+   "name": "“キラめきの再生産” 神楽 ひかり",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "1",
+   "cost": "1",
+   "power": "5500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】【CXコンボ】 このカードがアタックした時、クライマックス置場に「ひかり、さす方へ」があり、他のあなたの《レヴュー》のキャラがいるなら、あなたは自分の山札を上から4枚まで見て、《レヴュー》のキャラを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。\n【自】［このカードを控え室に置く］ このカードがフロントアタックされた時、あなたはコストを払ってよい。そうしたら、あなたは自分の手札の「アンコール 愛城 華恋」を1枚まで選び、このカードがいた枠に防御キャラとして置く。\n\"華恋「ずっと幽閉されてたんだね……私たちの罪を背負って」\"",
+   "traits": [
+    "レヴュー",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/r/rsl_s56/rsl_s56_043.png",
+   "variant": ""
+  },
+  {
+   "num": "RSL/S56-043S",
+   "name": "“キラめきの再生産” 神楽 ひかり",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "1",
+   "cost": "1",
+   "power": "5500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】【CXコンボ】 このカードがアタックした時、クライマックス置場に「ひかり、さす方へ」があり、他のあなたの《レヴュー》のキャラがいるなら、あなたは自分の山札を上から4枚まで見て、《レヴュー》のキャラを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。\n【自】［このカードを控え室に置く］ このカードがフロントアタックされた時、あなたはコストを払ってよい。そうしたら、あなたは自分の手札の「アンコール 愛城 華恋」を1枚まで選び、このカードがいた枠に防御キャラとして置く。\n\"もう二度と……負けない!!!\"",
+   "traits": [
+    "レヴュー",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/r/rsl_s56/rsl_s56_043s.png",
+   "variant": ""
+  },
+  {
+   "num": "RSL/S56-044",
+   "name": "急接近 華恋＆まひる",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "1",
+   "cost": "1",
+   "power": "5500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの《レヴュー》のキャラが2枚以上なら、このカードのパワーを＋2000。\n【自】 アンコール ［手札のキャラを1枚控え室に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"まひる「ナシナシっ！」\"",
+   "traits": [
+    "レヴュー"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/r/rsl_s56/rsl_s56_044.png",
+   "variant": ""
+  },
+  {
+   "num": "RSL/S56-044S",
+   "name": "急接近 華恋＆まひる",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "1",
+   "cost": "1",
+   "power": "5500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの《レヴュー》のキャラが2枚以上なら、このカードのパワーを＋2000。\n【自】 アンコール ［手札のキャラを1枚控え室に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"華恋「ほら、もっとお腹に力を入れて！」<br>まひる「え～！こう？」\"",
+   "traits": [
+    "レヴュー"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/r/rsl_s56/rsl_s56_044s.png",
+   "variant": ""
+  },
+  {
+   "num": "RSL/S56-045",
+   "name": "アンコール 愛城 華恋",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "7000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの《レヴュー》のキャラ1枚につき、このカードのパワーを＋500。\n【自】 アンコール ［手札の《レヴュー》のキャラを1枚控え室に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"キリン「これこそ私が観たかった舞台……！」\"",
+   "traits": [
+    "レヴュー",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/r/rsl_s56/rsl_s56_045.png",
+   "variant": ""
+  },
+  {
+   "num": "RSL/S56-045S",
+   "name": "アンコール 愛城 華恋",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "7000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの《レヴュー》のキャラ1枚につき、このカードのパワーを＋500。\n【自】 アンコール ［手札の《レヴュー》のキャラを1枚控え室に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"ひかりちゃん……！\"",
+   "traits": [
+    "レヴュー",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/r/rsl_s56/rsl_s56_045s.png",
+   "variant": ""
+  },
+  {
+   "num": "RSL/S56-046",
+   "name": "私のキラめき 露崎 まひる",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたの控え室のクライマックスが2枚以下なら、あなたの手札のこのカードのレベルを－1。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札を上からＸ枚まで見て、カードを1枚まで選び、手札に加え、残りのカードを控え室に置く。Ｘはあなたの《レヴュー》のキャラの枚数に等しい。\n\"ほんとだ……ちゃんとキラめいてる私……\"",
+   "traits": [
+    "レヴュー",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/r/rsl_s56/rsl_s56_046.png",
+   "variant": ""
+  },
+  {
+   "num": "RSL/S56-046SP",
+   "name": "私のキラめき 露崎 まひる",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたの控え室のクライマックスが2枚以下なら、あなたの手札のこのカードのレベルを－1。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札を上からＸ枚まで見て、カードを1枚まで選び、手札に加え、残りのカードを控え室に置く。Ｘはあなたの《レヴュー》のキャラの枚数に等しい。\n\"-\"",
+   "traits": [
+    "レヴュー",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/r/rsl_s56/rsl_s56_046sp.png",
+   "variant": ""
+  },
+  {
+   "num": "RSL/S56-046STR",
+   "name": "私のキラめき 露崎 まひる",
+   "type": "Character",
+   "rarity": "STR",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたの控え室のクライマックスが2枚以下なら、あなたの手札のこのカードのレベルを－1。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札を上からＸ枚まで見て、カードを1枚まで選び、手札に加え、残りのカードを控え室に置く。Ｘはあなたの《レヴュー》のキャラの枚数に等しい。\n\"-\"",
+   "traits": [
+    "レヴュー",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/r/rsl_s56/rsl_s56_046str.png",
+   "variant": ""
+  },
+  {
+   "num": "RSL/S56-047",
+   "name": "くつろぎの時間 神楽 ひかり",
+   "type": "Character",
+   "rarity": "U",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 応援 このカードの前のあなたのレベル0以下のキャラすべてに、パワーを＋1000。\n【起】 集中 ［(1)］ あなたは自分の山札の上から4枚をめくり、控え室に置く。それらのカードのクライマックス1枚につき、次の行動を行う。『あなたは自分の控え室のキャラを1枚選び、手札に戻し、自分の手札を1枚選び、控え室に置く。』\n\"うん……。キラめいてる\"",
+   "traits": [
+    "レヴュー",
+    "髪留め"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/r/rsl_s56/rsl_s56_047.png",
+   "variant": ""
+  },
+  {
+   "num": "RSL/S56-048",
+   "name": "舞台少女の夏 神楽 ひかり",
+   "type": "Character",
+   "rarity": "U",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 相手のアタックフェイズの始めに、あなたはこのカードを前列のキャラのいない枠に動かしてよい。\n\"-\"",
+   "traits": [
+    "レヴュー",
+    "髪留め"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/r/rsl_s56/rsl_s56_048.png",
+   "variant": ""
+  },
+  {
+   "num": "RSL/S56-048S",
+   "name": "舞台少女の夏 神楽 ひかり",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 相手のアタックフェイズの始めに、あなたはこのカードを前列のキャラのいない枠に動かしてよい。\n\"-\"",
+   "traits": [
+    "レヴュー",
+    "髪留め"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/r/rsl_s56/rsl_s56_048s.png",
+   "variant": ""
+  },
+  {
+   "num": "RSL/S56-049",
+   "name": "追いかけっこ 愛城 華恋",
+   "type": "Character",
+   "rarity": "U",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 前列の中央の枠にこのカードがいるなら、このカードのパワーを＋2000。\n【自】［手札を1枚控え室に置く］ 他のあなたの「追いかけっこ 露崎 まひる」がこのカードの下にマーカーとして置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を上から4枚まで見て、《レヴュー》のキャラを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。\n\"-\"",
+   "traits": [
+    "レヴュー",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/r/rsl_s56/rsl_s56_049.png",
+   "variant": ""
+  },
+  {
+   "num": "RSL/S56-050",
+   "name": "お掃除開始！ 露崎 まひる",
+   "type": "Character",
+   "rarity": "U",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたは自分の山札の上から2枚を、控え室に置く。それらのカードにクライマックスがあるなら、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室のキャラを1枚選び、手札に戻す。\n【自】 このカードがアタックした時、他のあなたの《レヴュー》のキャラが2枚以上なら、そのターン中、このカードのパワーを＋2000。\n\"さて！ やりますか♪\"",
+   "traits": [
+    "レヴュー",
+    "バトン"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/r/rsl_s56/rsl_s56_050.png",
+   "variant": ""
+  },
+  {
+   "num": "RSL/S56-051",
+   "name": "オーディション最終日 神楽 ひかり",
+   "type": "Character",
+   "rarity": "U",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "5500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたのカード名に「華恋」を含むキャラがいないなら、このカードはあなたのスタンドフェイズに【スタンド】しない。\n【自】 他のあなたの《レヴュー》のキャラがアタックした時、そのターン中、このカードのパワーを＋1000。\n\"まひる「あぁ～っ、ひかりちゃんまで！」\"",
+   "traits": [
+    "レヴュー",
+    "髪留め"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/r/rsl_s56/rsl_s56_051.png",
+   "variant": ""
+  },
+  {
+   "num": "RSL/S56-052",
+   "name": "寝起きの露崎 まひる",
+   "type": "Character",
+   "rarity": "U",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの前列の中央の枠のキャラに、パワーを＋500。\n【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋Ｘ。Ｘはそのキャラのレベル×500に等しい。\n【自】【クロック】 アラーム このカードがクロックの1番上にあり、あなたの《レヴュー》のキャラが3枚以上なら、あなたのクライマックスフェイズの始めに、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋2000。\n\"ほんとに大丈夫？……\"",
+   "traits": [
+    "レヴュー",
+    "バトン"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/r/rsl_s56/rsl_s56_052.png",
+   "variant": ""
+  },
+  {
+   "num": "RSL/S56-053",
+   "name": "新章 愛城 華恋",
+   "type": "Character",
+   "rarity": "U",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "6500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】【CXコンボ】［(1)］ あなたのクライマックス置場に「レヴュースタァライト」が置かれた時、前列にこのカードがいるなら、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の自分のレベル以下のレベルの《レヴュー》のキャラを1枚選び、舞台の好きな枠に置き、そのターン中、そのキャラのパワーを＋1000。\n【自】 このカードがアタックした時、このカードの正面のキャラのレベルが3以上なら、そのターン中、このカードのパワーを＋6000。\n\"あなたをスタァライトしちゃいます\"",
+   "traits": [
+    "レヴュー",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/r/rsl_s56/rsl_s56_053.png",
+   "variant": ""
+  },
+  {
+   "num": "RSL/S56-054",
+   "name": "廊下を守る女神 露崎 まひる",
+   "type": "Character",
+   "rarity": "U",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "7000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、他のあなたのカード名に「華恋」か「まひる」を含むキャラがいるなら、そのターン中、このカードのパワーを＋4000。\n【自】［(1) 他のあなたの【スタンド】しているカード名に「華恋」か「まひる」を含むキャラを1枚【レスト】する］ このカードが手札から舞台に置かれたターン中、このカードのバトル相手が【リバース】した時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見てカード名に「華恋」か「まひる」を含むキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"校則違反でライバルを減らせるかも……なんて、思ってないよね!?\"",
+   "traits": [
+    "レヴュー",
+    "バトン"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/r/rsl_s56/rsl_s56_054.png",
+   "variant": ""
+  },
+  {
+   "num": "RSL/S56-055",
+   "name": "追いかけっこ 露崎 まひる",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 他のあなたの「追いかけっこ 愛城 華恋」がアタックした時、そのキャラの下にマーカーがないなら、あなたはこのカードをそのキャラの下にマーカーとして表向きに置いてよい。そうしたら、そのターン中、そのキャラのパワーを＋1000。\n\"あっ……ふふ……\"",
+   "traits": [
+    "レヴュー",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/r/rsl_s56/rsl_s56_055.png",
+   "variant": ""
+  },
+  {
+   "num": "RSL/S56-056",
+   "name": "新たなルームメイト 愛城 華恋",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "",
+   "text": "-\n\"ぬえぇーーっ!?\"",
+   "traits": [
+    "レヴュー",
+    "髪留め"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/r/rsl_s56/rsl_s56_056.png",
+   "variant": ""
+  },
+  {
+   "num": "RSL/S56-057",
+   "name": "ロンドンでの生活 神楽 ひかり",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの《レヴュー》のキャラが2枚以上なら、このカードのパワーを＋1000。\n【永】 他のあなたの前列の中央の枠のカード名に「華恋」を含むキャラに、次の能力を与える。『【永】 このカードは相手の効果に選ばれない。』\n\"行ってきます\"",
+   "traits": [
+    "レヴュー",
+    "髪留め"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/r/rsl_s56/rsl_s56_057.png",
+   "variant": ""
+  },
+  {
+   "num": "RSL/S56-058",
+   "name": "“約束タワー”愛城 華恋",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 このカードはサイドアタックできない。\n【永】 このカードの下のマーカー1枚につき、このカードのレベルを＋1し、パワーを＋1500。\n【自】 このカードのバトル相手が【リバース】した時、あなたは自分の山札の上から1枚を、このカードの下にマーカーとして表向きに置いてよい。\n\"うん……きっとね\"",
+   "traits": [
+    "レヴュー",
+    "髪留め"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/r/rsl_s56/rsl_s56_058.png",
+   "variant": ""
+  },
+  {
+   "num": "RSL/S56-059",
+   "name": "新たなルームメイト 露崎 まひる",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【起】［手札の「新たなルームメイト 愛城 華恋」を1枚控え室に置く］ あなたは自分の山札を上から4枚まで見て、カード名に「華恋」か「まひる」を含むキャラを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。\n\"ぬえぇーーっ!?\"",
+   "traits": [
+    "レヴュー",
+    "バトン"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/r/rsl_s56/rsl_s56_059.png",
+   "variant": ""
+  },
+  {
+   "num": "RSL/S56-060",
+   "name": "私たちの約束 神楽 ひかり",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋Ｘ。Ｘはそのキャラのレベル×500に等しい。\n【自】 このカードが手札から舞台に置かれた時、あなたは1枚引き、自分の手札を1枚選び、控え室に置く。\n\"いつか……案内してあげる……\"",
+   "traits": [
+    "レヴュー",
+    "髪留め"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/r/rsl_s56/rsl_s56_060.png",
+   "variant": ""
+  },
+  {
+   "num": "RSL/S56-061",
+   "name": "新章 神楽 ひかり",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "2",
+   "cost": "2",
+   "power": "7000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの《レヴュー》のキャラ1枚につき、このカードのパワーを＋1000。\n\"私の全て―奪ってみせて\"",
+   "traits": [
+    "レヴュー",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/r/rsl_s56/rsl_s56_061.png",
+   "variant": ""
+  },
+  {
+   "num": "RSL/S56-062",
+   "name": "予想外の朝帰り",
+   "type": "Event",
+   "rarity": "U",
+   "color": "red",
+   "level": "2",
+   "cost": "2",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "あなたは自分の手札を2枚選ぶ。相手はそれらのカードを公開させてよい。公開させなかったなら、あなたは自分の控え室のキャラを2枚まで選び、手札に戻す。公開させて、カード名に「華恋」を含むキャラと「ひかり」を含むキャラが別々に1枚ずつ公開されたなら、あなたは自分の控え室のキャラを3枚まで選び、手札に戻す。公開させたカードがそうでないなら、あなたは自分の控え室のキャラを1枚まで選び、手札に戻す。\n\"まひる「華恋ちゃん！」<br>ひかり「……お金、なくなった……」\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/r/rsl_s56/rsl_s56_062.png",
+   "variant": ""
+  },
+  {
+   "num": "RSL/S56-063",
+   "name": "ひかり、さす方へ",
+   "type": "Climax",
+   "rarity": "CR",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[salvage.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[salvage.gif]]：このカードがトリガーした時、あなたは自分の控え室のキャラを1枚選び、手札に戻してよい）\n\"それでも私は……華恋と……\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/r/rsl_s56/rsl_s56_063.png",
+   "variant": ""
+  },
+  {
+   "num": "RSL/S56-063R",
+   "name": "ひかり、さす方へ",
+   "type": "Climax",
+   "rarity": "RRR",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[salvage.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[salvage.gif]]：このカードがトリガーした時、あなたは自分の控え室のキャラを1枚選び、手札に戻してよい）\n\"「スタァライト……これは運命で結ばれた、9人の舞台少女たちがつむぐ新しい、永遠の物語」\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/r/rsl_s56/rsl_s56_063r.png",
+   "variant": ""
+  },
+  {
+   "num": "RSL/S56-064",
+   "name": "されど舞台はつづく",
+   "type": "Climax",
+   "rarity": "CR",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[salvage.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[salvage.gif]]：このカードがトリガーした時、あなたは自分の控え室のキャラを1枚選び、手札に戻してよい）\n\"華恋「いこう、ひかりちゃん」<br>ひかり「うん」\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/r/rsl_s56/rsl_s56_064.png",
+   "variant": ""
+  },
+  {
+   "num": "RSL/S56-064R",
+   "name": "されど舞台はつづく",
+   "type": "Climax",
+   "rarity": "RRR",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[salvage.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[salvage.gif]]：このカードがトリガーした時、あなたは自分の控え室のキャラを1枚選び、手札に戻してよい）\n\"ひかり＆華恋「ポジションゼロ！」\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/r/rsl_s56/rsl_s56_064r.png",
+   "variant": ""
+  },
+  {
+   "num": "RSL/S56-065",
+   "name": "キラめきのありか",
+   "type": "Climax",
+   "rarity": "CC",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[standby.gif]]",
+   "text": "【自】 このカードが手札からクライマックス置場に置かれた時、[[standby.gif]]の効果を行う。\n（[[standby.gif]]：このカードがトリガーした時、あなたは自分の控え室の自分のレベル＋1以下のレベルのキャラを1枚選び、舞台の好きな枠に【レスト】して置いてよい）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/r/rsl_s56/rsl_s56_065.png",
+   "variant": ""
+  },
+  {
+   "num": "RSL/S56-065R",
+   "name": "キラめきのありか",
+   "type": "Climax",
+   "rarity": "RRR",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[standby.gif]]",
+   "text": "【自】 このカードが手札からクライマックス置場に置かれた時、[[standby.gif]]の効果を行う。\n（[[standby.gif]]：このカードがトリガーした時、あなたは自分の控え室の自分のレベル＋1以下のレベルのキャラを1枚選び、舞台の好きな枠に【レスト】して置いてよい）\n\"華恋「まひるちゃんにもあるでしょ!?まひるちゃんのスタァライトが！」\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/r/rsl_s56/rsl_s56_065r.png",
+   "variant": ""
+  },
+  {
+   "num": "RSL/S56-066",
+   "name": "私だけの星 星見 純那",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 あなたのクライマックスフェイズの始めに、あなたは自分の山札を上から1枚見てよい。（見たカードは元に戻す）\n【起】 集中 ［(1) このカードを【レスト】する］ あなたは自分の山札の上から4枚をめくり、控え室に置く。それらのカードのクライマックス1枚につき、あなたは自分の山札を見て《レヴュー》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"力の限り、スタァを目指して……ねっ！\"",
+   "traits": [
+    "レヴュー",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/r/rsl_s56/rsl_s56_066.png",
+   "variant": ""
+  },
+  {
+   "num": "RSL/S56-066SSP",
+   "name": "私だけの星 星見 純那",
+   "type": "Character",
+   "rarity": "SSP",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 あなたのクライマックスフェイズの始めに、あなたは自分の山札を上から1枚見てよい。（見たカードは元に戻す）\n【起】 集中 ［(1) このカードを【レスト】する］ あなたは自分の山札の上から4枚をめくり、控え室に置く。それらのカードのクライマックス1枚につき、あなたは自分の山札を見て《レヴュー》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"-\"",
+   "traits": [
+    "レヴュー",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/r/rsl_s56/rsl_s56_066ssp.png",
+   "variant": ""
+  },
+  {
+   "num": "RSL/S56-067",
+   "name": "壮烈な覚悟 天堂 真矢",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "blue",
+   "level": "3",
+   "cost": "2",
+   "power": "9000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの《レヴュー》のキャラが2枚以上なら、このカードのパワーを＋2000。\n【自】［(1)］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「気高き意志 西條 クロディーヌ」を1枚選び、舞台の好きな枠に置く。\n【自】【CXコンボ】 この能力は1ターンにつき2回まで発動する。このカードがアタックした時、クライマックス置場に「The Show Must Go On」があるなら、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n\"ポジション、ゼロ……This is 天堂 真矢！\"",
+   "traits": [
+    "レヴュー",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/r/rsl_s56/rsl_s56_067.png",
+   "variant": ""
+  },
+  {
+   "num": "RSL/S56-067SSP",
+   "name": "壮烈な覚悟 天堂 真矢",
+   "type": "Character",
+   "rarity": "SSP",
+   "color": "blue",
+   "level": "3",
+   "cost": "2",
+   "power": "9000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの《レヴュー》のキャラが2枚以上なら、このカードのパワーを＋2000。\n【自】［(1)］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「気高き意志 西條 クロディーヌ」を1枚選び、舞台の好きな枠に置く。\n【自】【CXコンボ】 この能力は1ターンにつき2回まで発動する。このカードがアタックした時、クライマックス置場に「The Show Must Go On」があるなら、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n\"-\"",
+   "traits": [
+    "レヴュー",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/r/rsl_s56/rsl_s56_067ssp.png",
+   "variant": ""
+  },
+  {
+   "num": "RSL/S56-068",
+   "name": "気高き意志 西條 クロディーヌ",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "blue",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時か「壮烈な覚悟 天堂 真矢」の【自】の効果で舞台に置かれた時、あなたは自分の山札を上から3枚まで見て、カードを1枚まで選び、手札に加え、残りのカードを控え室に置く。\n【自】【CXコンボ】［(3) 手札を1枚控え室に置く］ この能力は1ターンにつき1回まで発動する。このカードのアタックの終わりに、クライマックス置場に「The Show Must Go On」があるなら、あなたはコストを払ってよい。そうしたら、あなたは自分の前列の中央の枠の「壮烈な覚悟 天堂 真矢」を1枚選び、【スタンド】する。\n\"-\"",
+   "traits": [
+    "レヴュー",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/r/rsl_s56/rsl_s56_068.png",
+   "variant": ""
+  },
+  {
+   "num": "RSL/S56-068SSP",
+   "name": "気高き意志 西條 クロディーヌ",
+   "type": "Character",
+   "rarity": "SSP",
+   "color": "blue",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時か「壮烈な覚悟 天堂 真矢」の【自】の効果で舞台に置かれた時、あなたは自分の山札を上から3枚まで見て、カードを1枚まで選び、手札に加え、残りのカードを控え室に置く。\n【自】【CXコンボ】［(3) 手札を1枚控え室に置く］ この能力は1ターンにつき1回まで発動する。このカードのアタックの終わりに、クライマックス置場に「The Show Must Go On」があるなら、あなたはコストを払ってよい。そうしたら、あなたは自分の前列の中央の枠の「壮烈な覚悟 天堂 真矢」を1枚選び、【スタンド】する。\n\"-\"",
+   "traits": [
+    "レヴュー",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/r/rsl_s56/rsl_s56_068ssp.png",
+   "variant": ""
+  },
+  {
+   "num": "RSL/S56-069",
+   "name": "私のキラめき 西條 クロディーヌ",
+   "type": "Character",
+   "rarity": "R",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 前列の中央の枠にこのカードがいるなら、このカードのパワーを＋2000。\n【自】［手札のクライマックスを1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の《レヴュー》のキャラを1枚選び、手札に戻す。\n\"<img src=\"../wordpress/wp-content/cardimages/r/rsl_s56/flavor069.png\">\"",
+   "traits": [
+    "レヴュー",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/r/rsl_s56/rsl_s56_069.png",
+   "variant": ""
+  },
+  {
+   "num": "RSL/S56-069SP",
+   "name": "私のキラめき 西條 クロディーヌ",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 前列の中央の枠にこのカードがいるなら、このカードのパワーを＋2000。\n【自】［手札のクライマックスを1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の《レヴュー》のキャラを1枚選び、手札に戻す。\n\"-\"",
+   "traits": [
+    "レヴュー",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/r/rsl_s56/rsl_s56_069sp.png",
+   "variant": ""
+  },
+  {
+   "num": "RSL/S56-069STR",
+   "name": "私のキラめき 西條 クロディーヌ",
+   "type": "Character",
+   "rarity": "STR",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 前列の中央の枠にこのカードがいるなら、このカードのパワーを＋2000。\n【自】［手札のクライマックスを1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の《レヴュー》のキャラを1枚選び、手札に戻す。\n\"-\"",
+   "traits": [
+    "レヴュー",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/r/rsl_s56/rsl_s56_069str.png",
+   "variant": ""
+  },
+  {
+   "num": "RSL/S56-070",
+   "name": "パジャマパーティー 天堂 真矢",
+   "type": "Character",
+   "rarity": "R",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのストックが2枚以下なら、このカードのパワーを＋1500。\n\"-\"",
+   "traits": [
+    "レヴュー",
+    "主席"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/r/rsl_s56/rsl_s56_070.png",
+   "variant": ""
+  },
+  {
+   "num": "RSL/S56-070S",
+   "name": "パジャマパーティー 天堂 真矢",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのストックが2枚以下なら、このカードのパワーを＋1500。\n\"-\"",
+   "traits": [
+    "レヴュー",
+    "主席"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/r/rsl_s56/rsl_s56_070s.png",
+   "variant": ""
+  },
+  {
+   "num": "RSL/S56-071",
+   "name": "私のキラめき 天堂 真矢",
+   "type": "Character",
+   "rarity": "R",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札を上から2枚まで見て、山札の上に好きな順番で置く。\n【自】 バトル中のこのカードが【リバース】した時、このカードのバトル相手のコストが0以下なら、あなたはそのキャラを山札の下に置いてよい。\n\"頂に煌めく星は――一つ\"",
+   "traits": [
+    "レヴュー",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/r/rsl_s56/rsl_s56_071.png",
+   "variant": ""
+  },
+  {
+   "num": "RSL/S56-071SP",
+   "name": "私のキラめき 天堂 真矢",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札を上から2枚まで見て、山札の上に好きな順番で置く。\n【自】 バトル中のこのカードが【リバース】した時、このカードのバトル相手のコストが0以下なら、あなたはそのキャラを山札の下に置いてよい。\n\"-\"",
+   "traits": [
+    "レヴュー",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/r/rsl_s56/rsl_s56_071sp.png",
+   "variant": ""
+  },
+  {
+   "num": "RSL/S56-071STR",
+   "name": "私のキラめき 天堂 真矢",
+   "type": "Character",
+   "rarity": "STR",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札を上から2枚まで見て、山札の上に好きな順番で置く。\n【自】 バトル中のこのカードが【リバース】した時、このカードのバトル相手のコストが0以下なら、あなたはそのキャラを山札の下に置いてよい。\n\"-\"",
+   "traits": [
+    "レヴュー",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/r/rsl_s56/rsl_s56_071str.png",
+   "variant": ""
+  },
+  {
+   "num": "RSL/S56-072",
+   "name": "私のキラめき 星見 純那",
+   "type": "Character",
+   "rarity": "R",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、そのターン中、このカードのパワーを＋1500。\n【自】［(1)］ バトル中のこのカードが【リバース】した時、あなたは自分の山札の上から1枚を公開する。そのカードが《レヴュー》のキャラなら、あなたはコストを払ってよい。そうしたら、このカードを手札に戻す。（公開したカードは元に戻す）\n\"諦めない！ 私だって舞台少女よ！\"",
+   "traits": [
+    "レヴュー",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/r/rsl_s56/rsl_s56_072.png",
+   "variant": ""
+  },
+  {
+   "num": "RSL/S56-072SP",
+   "name": "私のキラめき 星見 純那",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、そのターン中、このカードのパワーを＋1500。\n【自】［(1)］ バトル中のこのカードが【リバース】した時、あなたは自分の山札の上から1枚を公開する。そのカードが《レヴュー》のキャラなら、あなたはコストを払ってよい。そうしたら、このカードを手札に戻す。（公開したカードは元に戻す）\n\"-\"",
+   "traits": [
+    "レヴュー",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/r/rsl_s56/rsl_s56_072sp.png",
+   "variant": ""
+  },
+  {
+   "num": "RSL/S56-072STR",
+   "name": "私のキラめき 星見 純那",
+   "type": "Character",
+   "rarity": "STR",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、そのターン中、このカードのパワーを＋1500。\n【自】［(1)］ バトル中のこのカードが【リバース】した時、あなたは自分の山札の上から1枚を公開する。そのカードが《レヴュー》のキャラなら、あなたはコストを払ってよい。そうしたら、このカードを手札に戻す。（公開したカードは元に戻す）\n\"-\"",
+   "traits": [
+    "レヴュー",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/r/rsl_s56/rsl_s56_072str.png",
+   "variant": ""
+  },
+  {
+   "num": "RSL/S56-073",
+   "name": "舞台に挑む覚悟 西條 クロディーヌ",
+   "type": "Character",
+   "rarity": "R",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、そのターン中、このカードのパワーを＋1500。\n【自】【CXコンボ】 このカードのバトル相手が【リバース】した時、あなたのクライマックス置場に「さらなる高みへ」があるなら、あなたは自分の山札の上から1枚までを、ストック置場に置き、自分の山札の上から1枚を公開する。そのカードのレベルが1以上なら手札に加える。（クライマックスのレベルは0として扱う。そうでないなら元に戻す）\n\"-\"",
+   "traits": [
+    "レヴュー",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/r/rsl_s56/rsl_s56_073.png",
+   "variant": ""
+  },
+  {
+   "num": "RSL/S56-073S",
+   "name": "舞台に挑む覚悟 西條 クロディーヌ",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、そのターン中、このカードのパワーを＋1500。\n【自】【CXコンボ】 このカードのバトル相手が【リバース】した時、あなたのクライマックス置場に「さらなる高みへ」があるなら、あなたは自分の山札の上から1枚までを、ストック置場に置き、自分の山札の上から1枚を公開する。そのカードのレベルが1以上なら手札に加える。（クライマックスのレベルは0として扱う。そうでないなら元に戻す）\n\"『大きな星を摘んだなら、あなたは大きな富を手に入れる』\"",
+   "traits": [
+    "レヴュー",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/r/rsl_s56/rsl_s56_073s.png",
+   "variant": ""
+  },
+  {
+   "num": "RSL/S56-074",
+   "name": "しっかり者の委員長 星見 純那",
+   "type": "Character",
+   "rarity": "R",
+   "color": "blue",
+   "level": "3",
+   "cost": "2",
+   "power": "9500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたの控え室のクライマックスが2枚以下なら、あなたの手札のこのカードのレベルを－1。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n【自】【CXコンボ】［(1) 手札を1枚控え室に置く］ このカードがアタックした時、クライマックス置場に「星祭りの夜に」があり、あなたの前列の中央の枠に「しっかり者の委員長 星見 純那」がいるなら、あなたはコストを払ってよい。そうしたら、あなたは相手の山札を上から4枚まで見てカードを4枚まで選び、控え室に置き、残りのカードを山札に戻し、相手はその山札をシャッフルし、そのターン中、このカードのパワーを＋1000。\n\"いいかげん、一人で起きれるようになりなさい！\"",
+   "traits": [
+    "レヴュー",
+    "メガネ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/r/rsl_s56/rsl_s56_074.png",
+   "variant": ""
+  },
+  {
+   "num": "RSL/S56-074S",
+   "name": "しっかり者の委員長 星見 純那",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "3",
+   "cost": "2",
+   "power": "9500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたの控え室のクライマックスが2枚以下なら、あなたの手札のこのカードのレベルを－1。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n【自】【CXコンボ】［(1) 手札を1枚控え室に置く］ このカードがアタックした時、クライマックス置場に「星祭りの夜に」があり、あなたの前列の中央の枠に「しっかり者の委員長 星見 純那」がいるなら、あなたはコストを払ってよい。そうしたら、あなたは相手の山札を上から4枚まで見てカードを4枚まで選び、控え室に置き、残りのカードを山札に戻し、相手はその山札をシャッフルし、そのターン中、このカードのパワーを＋1000。\n\"上級生としても学級委員長としても、恥ずかしくないようにしなくちゃ\"",
+   "traits": [
+    "レヴュー",
+    "メガネ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/r/rsl_s56/rsl_s56_074s.png",
+   "variant": ""
+  },
+  {
+   "num": "RSL/S56-075",
+   "name": "一番星を目指して 星見 純那",
+   "type": "Character",
+   "rarity": "U",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋500。\n【起】［(2) このカードを【レスト】する］ あなたは自分の山札を見て《レヴュー》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"みなさんの一番星を目指して精進していきます!!\"",
+   "traits": [
+    "レヴュー",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/r/rsl_s56/rsl_s56_075.png",
+   "variant": ""
+  },
+  {
+   "num": "RSL/S56-076",
+   "name": "舞台少女の夏 西條 クロディーヌ",
+   "type": "Character",
+   "rarity": "U",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から1枚を公開する。そのカードが《レヴュー》のキャラなら手札に加え、あなたは自分の手札を1枚選び、控え室に置く。（そうでないなら元に戻す）\n【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から2枚を、控え室に置く。それらのカードにクライマックスがあるなら、そのターン中、このカードのパワーを＋3000。\n\"-\"",
+   "traits": [
+    "レヴュー",
+    "子役"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/r/rsl_s56/rsl_s56_076.png",
+   "variant": ""
+  },
+  {
+   "num": "RSL/S56-077",
+   "name": "レヴューデュエット 天堂 真矢",
+   "type": "Character",
+   "rarity": "U",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、そのターン中、このカードのパワーを＋1500。\n【自】 このカードがアタックした時、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋1000。\n\"-\"",
+   "traits": [
+    "レヴュー",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/r/rsl_s56/rsl_s56_077.png",
+   "variant": ""
+  },
+  {
+   "num": "RSL/S56-078",
+   "name": "レオタードの純那＆まひる",
+   "type": "Character",
+   "rarity": "U",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(2)］ 相手のアタックフェイズの始めに、あなたはコストを払ってよい。そうしたら、あなたは自分の《レヴュー》のキャラを1枚とこのカードを選び、それぞれを【スタンド】して入れ替え、そのターン中、その《レヴュー》のキャラのレベルを＋1し、パワーを＋1000。\n\"-\"",
+   "traits": [
+    "レヴュー"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/r/rsl_s56/rsl_s56_078.png",
+   "variant": ""
+  },
+  {
+   "num": "RSL/S56-079",
+   "name": "次のスタァライト 天堂 真矢",
+   "type": "Character",
+   "rarity": "U",
+   "color": "blue",
+   "level": "1",
+   "cost": "1",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの前列の「次のスタァライト 西條 クロディーヌ」1枚につき、このカードのパワーを＋2000。\n【永】 このカードの下にマーカーがあるなら、他のあなたの「次のスタァライト 西條 クロディーヌ」すべてに、パワーを＋2000。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から1枚を公開する。そのカードが《レヴュー》のキャラならこのカードの下にマーカーとして表向きに置いてよい。（そうしないなら元に戻す）\n\"同じ事を考えているからでは？\"",
+   "traits": [
+    "レヴュー",
+    "主席"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/r/rsl_s56/rsl_s56_079.png",
+   "variant": ""
+  },
+  {
+   "num": "RSL/S56-080",
+   "name": "トップの秘訣 天堂 真矢",
+   "type": "Character",
+   "rarity": "U",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "6000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 応援 このカードの前のあなたのレベル3以上のキャラすべてに、パワーを＋2000。\n【自】［(1) 手札のクライマックスを1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室のクライマックスを1枚選び、手札に戻す。\n\"ご一緒しても？\"",
+   "traits": [
+    "レヴュー",
+    "主席"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/r/rsl_s56/rsl_s56_080.png",
+   "variant": ""
+  },
+  {
+   "num": "RSL/S56-081",
+   "name": "リベンジ 星見 純那",
+   "type": "Character",
+   "rarity": "U",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "6000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】【CXコンボ】 あなたのクライマックス置場に「運命の主役」が置かれた時、前列にこのカードがいて、他のあなたの《レヴュー》のキャラが2枚以上なら、あなたは相手の後列のレベル1以下のキャラを1枚選び、山札の下に置いてよい。\n【自】 このカードが【リバース】した時、このカードのバトル相手のレベルが相手のレベルより高いなら、あなたはそのキャラを山札の下に置いてよい。\n\"私はこのチャンスを逃がさない！\"",
+   "traits": [
+    "レヴュー",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/r/rsl_s56/rsl_s56_081.png",
+   "variant": ""
+  },
+  {
+   "num": "RSL/S56-082",
+   "name": "パジャマパーティー 西條 クロディーヌ",
+   "type": "Character",
+   "rarity": "U",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "6000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの《レヴュー》のキャラ1枚につき、このカードのパワーを＋1000。\n【自】［(1)］ このカードのバトル相手でレベル2以上のキャラが【リバース】した時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見て《レヴュー》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"-\"",
+   "traits": [
+    "レヴュー",
+    "子役"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/r/rsl_s56/rsl_s56_082.png",
+   "variant": ""
+  },
+  {
+   "num": "RSL/S56-083",
+   "name": "大切な思い出 星見 純那",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 この能力は1ターンにつき1回まで発動する。他のあなたの「大切な思い出 大場 なな」が手札から舞台に置かれた時、あなたは自分の山札の上から1枚を、ストック置場に置いてよい。\n【自】 絆／「大切な思い出 大場 なな」 ［手札を1枚控え室に置く］ （このカードがプレイされて舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「大切な思い出 大場 なな」を1枚選び、手札に戻す）\n\"うん、食べる\"",
+   "traits": [
+    "レヴュー",
+    "メガネ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/r/rsl_s56/rsl_s56_083.png",
+   "variant": ""
+  },
+  {
+   "num": "RSL/S56-084",
+   "name": "“第99回聖翔祭”天堂 真矢",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの「“第99回聖翔祭”西條 クロディーヌ」すべてに、パワーを＋1000。\n【自】 絆／「“第99回聖翔祭”西條 クロディーヌ」 ［あなたの山札の上から1枚をクロック置場に置く］ （このカードがプレイされて舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「“第99回聖翔祭”西條 クロディーヌ」を1枚選び、手札に戻す）\n\"-\"",
+   "traits": [
+    "レヴュー",
+    "主席"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/r/rsl_s56/rsl_s56_084.png",
+   "variant": ""
+  },
+  {
+   "num": "RSL/S56-085",
+   "name": "届かない存在 天堂 真矢",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの《レヴュー》のキャラすべてに、パワーを＋500。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札を上から1枚見て、山札の上か下に置く。\n【自】【CXコンボ】［(1)］ あなたのクライマックス置場に「トップスタァ」が置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の《レヴュー》のキャラを1枚選び、手札に戻す。\n\"純那「前を走り続けるあの人たちには……」\"",
+   "traits": [
+    "レヴュー",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/r/rsl_s56/rsl_s56_085.png",
+   "variant": ""
+  },
+  {
+   "num": "RSL/S56-086",
+   "name": "“第99回聖翔祭”西條 クロディーヌ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "",
+   "text": "-\n\"-\"",
+   "traits": [
+    "レヴュー",
+    "子役"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/r/rsl_s56/rsl_s56_086.png",
+   "variant": ""
+  },
+  {
+   "num": "RSL/S56-087",
+   "name": "次のスタァライト 西條 クロディーヌ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、他のあなたの《レヴュー》のキャラが2枚以上なら、あなたは1枚引いてよい。そうしたら、あなたは自分の手札を1枚選び、控え室に置く。\n\"トップスタァのキラめきしかない……\"",
+   "traits": [
+    "レヴュー",
+    "子役"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/r/rsl_s56/rsl_s56_087.png",
+   "variant": ""
+  },
+  {
+   "num": "RSL/S56-088",
+   "name": "過度の自主練 星見 純那",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "6500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 あなたのアンコールステップの始めに、あなたは自分の山札の上から1枚を控え室に置く。そのカードのレベルが1以上なら、このカードを控え室に置く。（クライマックスのレベルは0として扱う）\n\"なな「純那ちゃん!!」\"",
+   "traits": [
+    "レヴュー",
+    "メガネ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/r/rsl_s56/rsl_s56_088.png",
+   "variant": ""
+  },
+  {
+   "num": "RSL/S56-089",
+   "name": "寝坊の西條 クロディーヌ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "1",
+   "cost": "1",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 応援 このカードの前のあなたの《レヴュー》のキャラすべてに、パワーを＋Ｘ。Ｘはそのキャラのレベル×500に等しい。\n【起】［このカードを【レスト】する］ あなたは自分の《レヴュー》のキャラを1枚選び、そのターン中、パワーを＋1000。\n\"いや～～～私としたことが寝坊しちゃったわ\"",
+   "traits": [
+    "レヴュー",
+    "子役"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/r/rsl_s56/rsl_s56_089.png",
+   "variant": ""
+  },
+  {
+   "num": "RSL/S56-090",
+   "name": "舞台少女の夏 星見 純那",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 あなたがこのカードの『助太刀』を使った時、あなたの《レヴュー》のキャラがいるなら、あなたは自分のバトル中のキャラを1枚選び、そのターン中、パワーを＋1000。\n【起】【カウンター】 助太刀2500 レベル2 ［(1) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋2500）\n\"-\"",
+   "traits": [
+    "レヴュー",
+    "メガネ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/r/rsl_s56/rsl_s56_090.png",
+   "variant": ""
+  },
+  {
+   "num": "RSL/S56-091",
+   "name": "トップスタァの座 天堂 真矢",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "8000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたの《レヴュー》のキャラが4枚以上なら、あなたの手札のこのカードのレベルを－1。\n【自】 バトル中のこのカードが【リバース】した時、このカードを山札の下に置く。\n\"何があなたをそこまで\"",
+   "traits": [
+    "レヴュー",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/r/rsl_s56/rsl_s56_091.png",
+   "variant": ""
+  },
+  {
+   "num": "RSL/S56-092",
+   "name": "持病のあがり症？ 西條 クロディーヌ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "10000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、このカードを【レスト】する。\n【自】 あなたの青のクライマックスがクライマックス置場に置かれた時、このカードを【スタンド】する。\n\"<img src=\"../wordpress/wp-content/cardimages/r/rsl_s56/flavor092.png\">\"",
+   "traits": [
+    "レヴュー",
+    "子役"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/r/rsl_s56/rsl_s56_092.png",
+   "variant": ""
+  },
+  {
+   "num": "RSL/S56-093",
+   "name": "わたしたちは",
+   "type": "Event",
+   "rarity": "U",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "あなたは自分の山札を上から4枚まで見て、《レヴュー》のキャラを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。\n\"<img src=\"../wordpress/wp-content/cardimages/r/rsl_s56/flavor093a.png\"><br><img src=\"../wordpress/wp-content/cardimages/r/rsl_s56/flavor093b.png\">\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/r/rsl_s56/rsl_s56_093.png",
+   "variant": ""
+  },
+  {
+   "num": "RSL/S56-094",
+   "name": "掴んでみせます！自分星!!",
+   "type": "Event",
+   "rarity": "U",
+   "color": "blue",
+   "level": "3",
+   "cost": "2",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "あなたは自分の山札の上から4枚を、控え室に置き、相手にＸダメージを与える。Ｘはそれらのカードのトリガーアイコンの[[soul.gif]]の合計に等しい。（ダメージキャンセルは発生する）\n\"純那「なりたいの……スタァに……」\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/r/rsl_s56/rsl_s56_094.png",
+   "variant": ""
+  },
+  {
+   "num": "RSL/S56-095",
+   "name": "The Show Must Go On",
+   "type": "Climax",
+   "rarity": "CR",
+   "color": "blue",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[gate.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[gate.gif]]：このカードがトリガーした時、あなたは自分の控え室のクライマックスを1枚選び、手札に戻してよい）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/r/rsl_s56/rsl_s56_095.png",
+   "variant": ""
+  },
+  {
+   "num": "RSL/S56-095R",
+   "name": "The Show Must Go On",
+   "type": "Climax",
+   "rarity": "RRR",
+   "color": "blue",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[gate.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[gate.gif]]：このカードがトリガーした時、あなたは自分の控え室のクライマックスを1枚選び、手札に戻してよい）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/r/rsl_s56/rsl_s56_095r.png",
+   "variant": ""
+  },
+  {
+   "num": "RSL/S56-096",
+   "name": "さらなる高みへ",
+   "type": "Climax",
+   "rarity": "CC",
+   "color": "blue",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[draw.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[draw.gif]]：このカードがトリガーした時、あなたは1枚引いてよい）\n\"真矢「……されど、『あの子』の情熱の焔は――……」\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/r/rsl_s56/rsl_s56_096.png",
+   "variant": ""
+  },
+  {
+   "num": "RSL/S56-096R",
+   "name": "さらなる高みへ",
+   "type": "Climax",
+   "rarity": "RRR",
+   "color": "blue",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[draw.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[draw.gif]]：このカードがトリガーした時、あなたは1枚引いてよい）\n\"<img src=\"../wordpress/wp-content/cardimages/r/rsl_s56/flavor096R.png\">\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/r/rsl_s56/rsl_s56_096r.png",
+   "variant": ""
+  },
+  {
+   "num": "RSL/S56-097",
+   "name": "運命の主役",
+   "type": "Climax",
+   "rarity": "CC",
+   "color": "blue",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[draw.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[draw.gif]]：このカードがトリガーした時、あなたは1枚引いてよい）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/r/rsl_s56/rsl_s56_097.png",
+   "variant": ""
+  },
+  {
+   "num": "RSL/S56-098",
+   "name": "トップスタァ",
+   "type": "Climax",
+   "rarity": "CC",
+   "color": "blue",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【自】 このカードが手札からクライマックス置場に置かれた時、あなたは自分の控え室の青のカードを1枚まで選び、ストック置場に置き、自分のキャラすべてに、そのターン中、ソウルを＋1。\n\"……This is 天堂 真矢\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/r/rsl_s56/rsl_s56_098.png",
+   "variant": ""
+  },
+  {
+   "num": "RSL/S56-099",
+   "name": "再演",
+   "type": "Climax",
+   "rarity": "CC",
+   "color": "yellow",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【永】 あなたのキャラすべてに、ソウルを＋2。\n\"キリン「……わかります」\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/r/rsl_s56/rsl_s56_099.png",
+   "variant": ""
+  },
+  {
+   "num": "RSL/S56-100",
+   "name": "レヴュースタァライト",
+   "type": "Climax",
+   "rarity": "CC",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【自】 このカードが手札からクライマックス置場に置かれた時、あなたは自分の控え室の赤のカードを1枚まで選び、ストック置場に置き、自分のキャラすべてに、そのターン中、ソウルを＋1。\n\"華恋「見つけたよ……私たちの星を」<br>ひかり「見つけたね……私たちの運命」\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/r/rsl_s56/rsl_s56_100.png",
+   "variant": ""
+  },
+  {
+   "num": "RSL/S56-101",
+   "name": "2人の気持ち 香子＆双葉",
+   "type": "Character",
+   "rarity": "PR",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたのカード名に「双葉」か「香子」を含むキャラが2枚以上なら、このカードのパワーを＋1000。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分の《レヴュー》のキャラを1枚選び、そのターン中、パワーを＋1500。\n\"香子「はぁ……気持ちいいわぁ……」<br>双葉「気持ちわりぃ声出してんじゃねーよ」\"",
+   "traits": [
+    "レヴュー"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/r/rsl_s56/rsl_s56_101.png",
+   "variant": ""
+  },
+  {
+   "num": "RSL/S56-102",
+   "name": "放課後レッスン 愛城 華恋",
+   "type": "Character",
+   "rarity": "PR",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの前列の中央の枠のキャラに、パワーを＋500。\n【自】 この能力は1ターンにつき3回まで発動する。他のあなたの《レヴュー》のキャラが手札から舞台に置かれた時、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋500。\n\"一緒にやろっ、『スタァライト』！\"",
+   "traits": [
+    "レヴュー",
+    "髪留め"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/r/rsl_s56/rsl_s56_102.png",
+   "variant": ""
+  },
+  {
+   "num": "RSL/S56-103",
+   "name": "放課後レッスン 神楽 ひかり",
+   "type": "Character",
+   "rarity": "PR",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのターン中、他のあなたの《レヴュー》のキャラがいるなら、このカードのパワーを＋3000。\n【自】 このカードがアタックした時、あなたは自分の山札を上から2枚まで見て、山札の上に元の順番で置く。\n\"……どうせ断っても無駄なんでしょ\"",
+   "traits": [
+    "レヴュー",
+    "髪留め"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/r/rsl_s56/rsl_s56_103.png",
+   "variant": ""
+  },
+  {
+   "num": "RSL/S56-104",
+   "name": "ランチタイム 露崎 まひる",
+   "type": "Character",
+   "rarity": "PR",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1) 手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の《レヴュー》のキャラを1枚選び、手札に戻し、他の自分の《レヴュー》のキャラを1枚選び、そのターン中、パワーを＋1000。\n\"一緒にお昼食べよ～～っ！\"",
+   "traits": [
+    "レヴュー",
+    "バトン"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/r/rsl_s56/rsl_s56_104.png",
+   "variant": ""
+  },
+  {
+   "num": "RSL/S56-105",
+   "name": "ランチタイム なな＆純那",
+   "type": "Character",
+   "rarity": "PR",
+   "color": "blue",
+   "level": "1",
+   "cost": "1",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 あなたがこのカードの『助太刀』を使った時、あなたは自分の山札の上から3枚を、控え室に置く。\n【起】【カウンター】 助太刀2000 レベル1 ［(1) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋2000）\n\"なな「……あっ、華恋ちゃんたちだ」<br>純那「大道具の片付け当番、終わったみたいね」\"",
+   "traits": [
+    "レヴュー"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/r/rsl_s56/rsl_s56_105.png",
+   "variant": ""
+  },
+  {
+   "num": "RSL/S56-106",
+   "name": "2人の気持ち クロディーヌ＆真矢",
+   "type": "Character",
+   "rarity": "PR",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードがアタックした時、あなたは他の自分の《レヴュー》のキャラを1枚選び、そのターン中、パワーを＋Ｘ。Ｘは他のあなたの《レヴュー》のキャラの枚数×500に等しい。\n\"真矢「気になる方なら……西條さん、あなたが」<br>クロディーヌ「わ、わたしぃ!?」\"",
+   "traits": [
+    "レヴュー"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/r/rsl_s56/rsl_s56_106.png",
+   "variant": ""
+  }
+ ]
+}

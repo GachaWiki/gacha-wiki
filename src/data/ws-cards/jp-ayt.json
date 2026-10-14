@@ -1,0 +1,739 @@
+{
+ "id": "jp-ayt",
+ "name": "[TD]あやかしトライアングル",
+ "expansion": 451,
+ "lang": "jp",
+ "release": null,
+ "shopItem": null,
+ "box": null,
+ "cards": [
+  {
+   "num": "AYT/W110-T01",
+   "name": "祓忍の日常 祭里",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 応援 このカードの前のあなたの《小美呼市》のキャラすべてに、パワーを＋500。\n【起】 集中 ［(1) このカードを【レスト】する］ あなたは自分の山札の上から5枚をめくり、控え室に置く。それらのカードのクライマックス1枚につき、あなたは1枚まで引く。\n\"-\"",
+   "traits": [
+    "小美呼市",
+    "祓忍"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/ayt_w110/ayt_w110_t01.png",
+   "variant": ""
+  },
+  {
+   "num": "AYT/W110-T01R",
+   "name": "祓忍の日常 祭里",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 応援 このカードの前のあなたの《小美呼市》のキャラすべてに、パワーを＋500。\n【起】 集中 ［(1) このカードを【レスト】する］ あなたは自分の山札の上から5枚をめくり、控え室に置く。それらのカードのクライマックス1枚につき、あなたは1枚まで引く。\n\"-\"",
+   "traits": [
+    "小美呼市",
+    "祓忍"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/ayt_w110/ayt_w110_t01r.png",
+   "variant": ""
+  },
+  {
+   "num": "AYT/W110-T02",
+   "name": "女子としての生活 祭里",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードがアタックした時、あなたは自分の《小美呼市》のキャラを1枚選び、そのターン中、パワーを＋1500。\n【自】 このカードのバトル相手が【リバース】した時、あなたは他の自分の《小美呼市》のキャラを1枚選び、【レスト】し、後列のキャラのいない枠に動かす。\n\"-\"",
+   "traits": [
+    "小美呼市",
+    "祓忍"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/ayt_w110/ayt_w110_t02.png",
+   "variant": ""
+  },
+  {
+   "num": "AYT/W110-T02SP",
+   "name": "女子としての生活 祭里",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードがアタックした時、あなたは自分の《小美呼市》のキャラを1枚選び、そのターン中、パワーを＋1500。\n【自】 このカードのバトル相手が【リバース】した時、あなたは他の自分の《小美呼市》のキャラを1枚選び、【レスト】し、後列のキャラのいない枠に動かす。\n\"-\"",
+   "traits": [
+    "小美呼市",
+    "祓忍"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/ayt_w110/ayt_w110_t02sp.png",
+   "variant": ""
+  },
+  {
+   "num": "AYT/W110-T03",
+   "name": "待ちわびた時 シロガネ",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【起】［(2) 他のあなたの舞台の「祓忍の日常 祭里」を1枚控え室に置く］ あなたのレベルが3以上なら、あなたは自分の控え室の「“女友達”祭里＆すず」を1枚選び、舞台の好きな枠に置き、そのターン中、そのキャラのパワーを＋2000。\n【起】［手札を1枚控え室に置き、このカードを控え室に置く］ あなたは自分の控え室の《小美呼市》のキャラを1枚選び、手札に戻す。\n\"-\"",
+   "traits": [
+    "小美呼市",
+    "妖"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/ayt_w110/ayt_w110_t03.png",
+   "variant": ""
+  },
+  {
+   "num": "AYT/W110-T03R",
+   "name": "待ちわびた時 シロガネ",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【起】［(2) 他のあなたの舞台の「祓忍の日常 祭里」を1枚控え室に置く］ あなたのレベルが3以上なら、あなたは自分の控え室の「“女友達”祭里＆すず」を1枚選び、舞台の好きな枠に置き、そのターン中、そのキャラのパワーを＋2000。\n【起】［手札を1枚控え室に置き、このカードを控え室に置く］ あなたは自分の控え室の《小美呼市》のキャラを1枚選び、手札に戻す。\n\"-\"",
+   "traits": [
+    "小美呼市",
+    "妖"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/ayt_w110/ayt_w110_t03r.png",
+   "variant": ""
+  },
+  {
+   "num": "AYT/W110-T04",
+   "name": "肉体への順応 祭里",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのターン中、他のあなたの《小美呼市》のキャラが2枚以上なら、このカードのパワーを＋2000。\n【自】【CXコンボ】 このカードがアタックした時、クライマックス置場に「男を捨てる覚悟」があり、他のあなたの《小美呼市》のキャラが2枚以上なら、あなたは自分の山札の上から2枚を、控え室に置き、自分の控え室のレベルＸ以下のキャラを1枚まで選び、手札に戻す。Ｘはこの効果で控え室に置かれたカードのレベルの合計に等しい。（クライマックスのレベルは0として扱う）\n\"上等！\"",
+   "traits": [
+    "小美呼市",
+    "祓忍"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/ayt_w110/ayt_w110_t04.png",
+   "variant": ""
+  },
+  {
+   "num": "AYT/W110-T04R",
+   "name": "肉体への順応 祭里",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのターン中、他のあなたの《小美呼市》のキャラが2枚以上なら、このカードのパワーを＋2000。\n【自】【CXコンボ】 このカードがアタックした時、クライマックス置場に「男を捨てる覚悟」があり、他のあなたの《小美呼市》のキャラが2枚以上なら、あなたは自分の山札の上から2枚を、控え室に置き、自分の控え室のレベルＸ以下のキャラを1枚まで選び、手札に戻す。Ｘはこの効果で控え室に置かれたカードのレベルの合計に等しい。（クライマックスのレベルは0として扱う）\n\"上等！\"",
+   "traits": [
+    "小美呼市",
+    "祓忍"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/ayt_w110/ayt_w110_t04r.png",
+   "variant": ""
+  },
+  {
+   "num": "AYT/W110-T05",
+   "name": "担当職人として 恋緒",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "red",
+   "level": "1",
+   "cost": "1",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【起】【カウンター】 助太刀2500 レベル1 ［(1) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋2500）\n\"-\"",
+   "traits": [
+    "小美呼市",
+    "祓忍"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/ayt_w110/ayt_w110_t05.png",
+   "variant": ""
+  },
+  {
+   "num": "AYT/W110-T05R",
+   "name": "担当職人として 恋緒",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "red",
+   "level": "1",
+   "cost": "1",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【起】【カウンター】 助太刀2500 レベル1 ［(1) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋2500）\n\"-\"",
+   "traits": [
+    "小美呼市",
+    "祓忍"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/ayt_w110/ayt_w110_t05r.png",
+   "variant": ""
+  },
+  {
+   "num": "AYT/W110-T06",
+   "name": "花鳥風月 祭里",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "red",
+   "level": "1",
+   "cost": "1",
+   "power": "7000",
+   "soul": 1,
+   "trigger": "",
+   "text": "-\n\"異議なーし！\"",
+   "traits": [
+    "小美呼市",
+    "祓忍"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/ayt_w110/ayt_w110_t06.png",
+   "variant": ""
+  },
+  {
+   "num": "AYT/W110-T06R",
+   "name": "花鳥風月 祭里",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "red",
+   "level": "1",
+   "cost": "1",
+   "power": "7000",
+   "soul": 1,
+   "trigger": "",
+   "text": "-\n\"異議なーし！\"",
+   "traits": [
+    "小美呼市",
+    "祓忍"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/ayt_w110/ayt_w110_t06r.png",
+   "variant": ""
+  },
+  {
+   "num": "AYT/W110-T07",
+   "name": "予期せぬ暴走 恋緒",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "red",
+   "level": "2",
+   "cost": "2",
+   "power": "6000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの《小美呼市》のキャラ1枚につき、このカードのパワーを＋1000。\n【自】 アンコール ［手札のキャラを1枚控え室に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"絶頂くすぐり責め装置が、なぜ勝手に……!!\"",
+   "traits": [
+    "小美呼市",
+    "祓忍"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/ayt_w110/ayt_w110_t07.png",
+   "variant": ""
+  },
+  {
+   "num": "AYT/W110-T07R",
+   "name": "予期せぬ暴走 恋緒",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "red",
+   "level": "2",
+   "cost": "2",
+   "power": "6000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの《小美呼市》のキャラ1枚につき、このカードのパワーを＋1000。\n【自】 アンコール ［手札のキャラを1枚控え室に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"絶頂くすぐり責め装置が、なぜ勝手に……!!\"",
+   "traits": [
+    "小美呼市",
+    "祓忍"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/ayt_w110/ayt_w110_t07r.png",
+   "variant": ""
+  },
+  {
+   "num": "AYT/W110-T08",
+   "name": "家庭的な一面 祭里",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたのターン中、このカードのパワーを＋1000。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札を上から3枚まで見て、山札の上に好きな順番で置き、相手のキャラを1枚まで選び、手札に戻す。\n\"じいちゃんと二人だからずっと俺が家事をやってんだよ！\"",
+   "traits": [
+    "小美呼市",
+    "祓忍"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/ayt_w110/ayt_w110_t08.png",
+   "variant": ""
+  },
+  {
+   "num": "AYT/W110-T08R",
+   "name": "家庭的な一面 祭里",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたのターン中、このカードのパワーを＋1000。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札を上から3枚まで見て、山札の上に好きな順番で置き、相手のキャラを1枚まで選び、手札に戻す。\n\"じいちゃんと二人だからずっと俺が家事をやってんだよ！\"",
+   "traits": [
+    "小美呼市",
+    "祓忍"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/ayt_w110/ayt_w110_t08r.png",
+   "variant": ""
+  },
+  {
+   "num": "AYT/W110-T09",
+   "name": "あやかし恋愛ファンタジー",
+   "type": "Event",
+   "rarity": "TD",
+   "color": "red",
+   "level": "1",
+   "cost": "1",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "あなたは自分の山札を見てカード名に「祭里」を含むキャラを1枚までとカード名に「すず」を含むキャラを1枚まで選んで相手に見せ、手札に加え、自分の手札を1枚選び、控え室に置き、その山札をシャッフルする。\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/ayt_w110/ayt_w110_t09.png",
+   "variant": ""
+  },
+  {
+   "num": "AYT/W110-T09R",
+   "name": "あやかし恋愛ファンタジー",
+   "type": "Event",
+   "rarity": "RRR",
+   "color": "red",
+   "level": "1",
+   "cost": "1",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "あなたは自分の山札を見てカード名に「祭里」を含むキャラを1枚までとカード名に「すず」を含むキャラを1枚まで選んで相手に見せ、手札に加え、自分の手札を1枚選び、控え室に置き、その山札をシャッフルする。\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/ayt_w110/ayt_w110_t09r.png",
+   "variant": ""
+  },
+  {
+   "num": "AYT/W110-T10",
+   "name": "男を捨てる覚悟",
+   "type": "Climax",
+   "rarity": "TD",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[salvage.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[salvage.gif]]：このカードがトリガーした時、あなたは自分の控え室のキャラを1枚選び、手札に戻してよい）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/ayt_w110/ayt_w110_t10.png",
+   "variant": ""
+  },
+  {
+   "num": "AYT/W110-T10R",
+   "name": "男を捨てる覚悟",
+   "type": "Climax",
+   "rarity": "RRR",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[salvage.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[salvage.gif]]：このカードがトリガーした時、あなたは自分の控え室のキャラを1枚選び、手札に戻してよい）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/ayt_w110/ayt_w110_t10r.png",
+   "variant": ""
+  },
+  {
+   "num": "AYT/W110-T11",
+   "name": "女の子の部屋 すず",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札を上から1枚見て、山札の上か下に置く。\n【自】 バトル中のこのカードが【リバース】した時、このカードのバトル相手のレベルが0以下なら、あなたはそのキャラを山札の下に置いてよい。\n\"シロガネも一緒に来たんだね\"",
+   "traits": [
+    "小美呼市",
+    "妖巫女"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/ayt_w110/ayt_w110_t11.png",
+   "variant": ""
+  },
+  {
+   "num": "AYT/W110-T11R",
+   "name": "女の子の部屋 すず",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札を上から1枚見て、山札の上か下に置く。\n【自】 バトル中のこのカードが【リバース】した時、このカードのバトル相手のレベルが0以下なら、あなたはそのキャラを山札の下に置いてよい。\n\"シロガネも一緒に来たんだね\"",
+   "traits": [
+    "小美呼市",
+    "妖巫女"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/ayt_w110/ayt_w110_t11r.png",
+   "variant": ""
+  },
+  {
+   "num": "AYT/W110-T12",
+   "name": "花鳥風月 すず",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの「花鳥風月 祭里」すべてに、パワーを＋1500し、『【自】 アンコール ［手札のキャラを1枚控え室に置く］』を与える。\n【自】 絆／「花鳥風月 祭里」 ［手札を1枚控え室に置く］ （このカードがプレイされて舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「花鳥風月 祭里」を1枚選び、手札に戻す）\n\"異議なーし！\"",
+   "traits": [
+    "小美呼市",
+    "妖巫女"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/ayt_w110/ayt_w110_t12.png",
+   "variant": ""
+  },
+  {
+   "num": "AYT/W110-T12R",
+   "name": "花鳥風月 すず",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの「花鳥風月 祭里」すべてに、パワーを＋1500し、『【自】 アンコール ［手札のキャラを1枚控え室に置く］』を与える。\n【自】 絆／「花鳥風月 祭里」 ［手札を1枚控え室に置く］ （このカードがプレイされて舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「花鳥風月 祭里」を1枚選び、手札に戻す）\n\"異議なーし！\"",
+   "traits": [
+    "小美呼市",
+    "妖巫女"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/ayt_w110/ayt_w110_t12r.png",
+   "variant": ""
+  },
+  {
+   "num": "AYT/W110-T13",
+   "name": "花鳥風月 ルーシー",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたの手札が5枚以上なら、このカードのパワーを＋2000。\n\"異議なーし！\"",
+   "traits": [
+    "小美呼市",
+    "花鳥風月"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/ayt_w110/ayt_w110_t13.png",
+   "variant": ""
+  },
+  {
+   "num": "AYT/W110-T13R",
+   "name": "花鳥風月 ルーシー",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたの手札が5枚以上なら、このカードのパワーを＋2000。\n\"異議なーし！\"",
+   "traits": [
+    "小美呼市",
+    "花鳥風月"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/ayt_w110/ayt_w110_t13r.png",
+   "variant": ""
+  },
+  {
+   "num": "AYT/W110-T14",
+   "name": "“超ハイカロリーの悪魔的限定スイーツ”すず",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、そのターン中、このカードのパワーを＋3000。\n【自】［手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札の上から1枚を公開し、自分の控え室のレベルＸ以下のキャラを1枚選び、手札に戻す。Ｘは公開されたカードのレベルに等しい。（クライマックスのレベルは0として扱う。公開したカードは元に戻す）\n\"-\"",
+   "traits": [
+    "小美呼市",
+    "妖巫女"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/ayt_w110/ayt_w110_t14.png",
+   "variant": ""
+  },
+  {
+   "num": "AYT/W110-T14SP",
+   "name": "“超ハイカロリーの悪魔的限定スイーツ”すず",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、そのターン中、このカードのパワーを＋3000。\n【自】［手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札の上から1枚を公開し、自分の控え室のレベルＸ以下のキャラを1枚選び、手札に戻す。Ｘは公開されたカードのレベルに等しい。（クライマックスのレベルは0として扱う。公開したカードは元に戻す）\n\"-\"",
+   "traits": [
+    "小美呼市",
+    "妖巫女"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/ayt_w110/ayt_w110_t14sp.png",
+   "variant": ""
+  },
+  {
+   "num": "AYT/W110-T15",
+   "name": "期待するお年頃 すず",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたのターン中、このカードのパワーを＋10000。\n【自】 このカードのバトル相手が【リバース】した時、あなたのクライマックス置場にクライマックスがあるなら、あなたは自分の山札の上から1枚を、ストック置場に置いてよい。\n\"はー、明日から高校生だってのにぃー\"",
+   "traits": [
+    "小美呼市",
+    "妖巫女"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/ayt_w110/ayt_w110_t15.png",
+   "variant": ""
+  },
+  {
+   "num": "AYT/W110-T15R",
+   "name": "期待するお年頃 すず",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたのターン中、このカードのパワーを＋10000。\n【自】 このカードのバトル相手が【リバース】した時、あなたのクライマックス置場にクライマックスがあるなら、あなたは自分の山札の上から1枚を、ストック置場に置いてよい。\n\"はー、明日から高校生だってのにぃー\"",
+   "traits": [
+    "小美呼市",
+    "妖巫女"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/ayt_w110/ayt_w110_t15r.png",
+   "variant": ""
+  },
+  {
+   "num": "AYT/W110-T16",
+   "name": "花鳥風月 弥生",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋Ｘ。Ｘはそのキャラのレベル×500に等しい。\n【自】［手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の《小美呼市》のキャラを1枚選び、手札に戻す。\n\"『花鳥風月』でよくね？\"",
+   "traits": [
+    "小美呼市",
+    "花鳥風月"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/ayt_w110/ayt_w110_t16.png",
+   "variant": ""
+  },
+  {
+   "num": "AYT/W110-T16R",
+   "name": "花鳥風月 弥生",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋Ｘ。Ｘはそのキャラのレベル×500に等しい。\n【自】［手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の《小美呼市》のキャラを1枚選び、手札に戻す。\n\"『花鳥風月』でよくね？\"",
+   "traits": [
+    "小美呼市",
+    "花鳥風月"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/ayt_w110/ayt_w110_t16r.png",
+   "variant": ""
+  },
+  {
+   "num": "AYT/W110-T17",
+   "name": "“女友達”祭里＆すず",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時か「待ちわびた時 シロガネ」の【起】の効果で舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n【自】【CXコンボ】［(2) 手札を1枚控え室に置く］ このカードがアタックした時、クライマックス置場に「祓忍と妖巫女」があるなら、あなたはコストを払ってよい。そうしたら、相手に1ダメージを2回与え、そのターン中、このカードのパワーを＋1000。（ダメージキャンセルは発生する）\n\"-\"",
+   "traits": [
+    "小美呼市",
+    "花鳥風月"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/ayt_w110/ayt_w110_t17.png",
+   "variant": ""
+  },
+  {
+   "num": "AYT/W110-T17S",
+   "name": "“女友達”祭里＆すず",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "blue",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時か「待ちわびた時 シロガネ」の【起】の効果で舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n【自】【CXコンボ】［(2) 手札を1枚控え室に置く］ このカードがアタックした時、クライマックス置場に「祓忍と妖巫女」があるなら、あなたはコストを払ってよい。そうしたら、相手に1ダメージを2回与え、そのターン中、このカードのパワーを＋1000。（ダメージキャンセルは発生する）\n\"-\"",
+   "traits": [
+    "小美呼市",
+    "花鳥風月"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/ayt_w110/ayt_w110_t17s.png",
+   "variant": ""
+  },
+  {
+   "num": "AYT/W110-T18",
+   "name": "女の子同士 すず",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは他の自分の《小美呼市》のキャラを1枚選び、ストック置場に置いてよい。\n【自】［(2) 手札を1枚控え室に置く］ このカードが手札から舞台に置かれたターン中、このカードがアタックした時、あなたはコストを払ってよい。そうしたら、相手に4ダメージを与える。（ダメージキャンセルは発生する）\n\"-\"",
+   "traits": [
+    "小美呼市",
+    "妖巫女"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/ayt_w110/ayt_w110_t18.png",
+   "variant": ""
+  },
+  {
+   "num": "AYT/W110-T18R",
+   "name": "女の子同士 すず",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "blue",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは他の自分の《小美呼市》のキャラを1枚選び、ストック置場に置いてよい。\n【自】［(2) 手札を1枚控え室に置く］ このカードが手札から舞台に置かれたターン中、このカードがアタックした時、あなたはコストを払ってよい。そうしたら、相手に4ダメージを与える。（ダメージキャンセルは発生する）\n\"-\"",
+   "traits": [
+    "小美呼市",
+    "妖巫女"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/ayt_w110/ayt_w110_t18r.png",
+   "variant": ""
+  },
+  {
+   "num": "AYT/W110-T19",
+   "name": "祓忍と妖巫女",
+   "type": "Climax",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[gate.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[gate.gif]]：このカードがトリガーした時、あなたは自分の控え室のクライマックスを1枚選び、手札に戻してよい）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/ayt_w110/ayt_w110_t19.png",
+   "variant": ""
+  },
+  {
+   "num": "AYT/W110-T19R",
+   "name": "祓忍と妖巫女",
+   "type": "Climax",
+   "rarity": "RRR",
+   "color": "blue",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[gate.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[gate.gif]]：このカードがトリガーした時、あなたは自分の控え室のクライマックスを1枚選び、手札に戻してよい）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/ayt_w110/ayt_w110_t19r.png",
+   "variant": ""
+  },
+  {
+   "num": "AYT/W110-T20",
+   "name": "訪れた新生活",
+   "type": "Climax",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【永】 あなたのキャラすべてに、ソウルを＋2。\n\"祭里「じゃ！　高校行ってくる!!」\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/ayt_w110/ayt_w110_t20.png",
+   "variant": ""
+  },
+  {
+   "num": "AYT/W110-T20R",
+   "name": "訪れた新生活",
+   "type": "Climax",
+   "rarity": "RRR",
+   "color": "blue",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【永】 あなたのキャラすべてに、ソウルを＋2。\n\"祭里「じゃ！　高校行ってくる!!」\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/ayt_w110/ayt_w110_t20r.png",
+   "variant": ""
+  }
+ ]
+}

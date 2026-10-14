@@ -1,0 +1,1341 @@
+{
+ "id": "jp-bd-e325",
+ "name": "プレミアムブースター バンドリ！ ガールズバンドパーティ！",
+ "expansion": 325,
+ "lang": "jp",
+ "release": null,
+ "shopItem": null,
+ "box": null,
+ "cards": [
+  {
+   "num": "BD/WE32-01BDR",
+   "name": "“にこにこプラネット”北沢はぐみ",
+   "type": "Character",
+   "rarity": "BDR",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのターン中、このカードの下にマーカーがあるなら、このカードのパワーを＋2000。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から1枚を公開する。そのカードが《音楽》のキャラならこのカードの下にマーカーとして裏向きに置いてよい。（そうしないなら元に戻す）\n\"ハロハピだったら、きっとそうなれるって思うんだ！\"",
+   "traits": [
+    "音楽",
+    "ハロー、ハッピーワールド！"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/b/bd_we32/bd_we32_01bdr.png",
+   "variant": ""
+  },
+  {
+   "num": "BD/WE32-01S",
+   "name": "“にこにこプラネット”北沢はぐみ",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのターン中、このカードの下にマーカーがあるなら、このカードのパワーを＋2000。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から1枚を公開する。そのカードが《音楽》のキャラならこのカードの下にマーカーとして裏向きに置いてよい。（そうしないなら元に戻す）\n\"もっともーっといろんなものを好きになりたい！\"",
+   "traits": [
+    "音楽",
+    "ハロー、ハッピーワールド！"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/b/bd_we32/bd_we32_01s.png",
+   "variant": ""
+  },
+  {
+   "num": "BD/WE32-02BDR",
+   "name": "“にこにこプラネット”弦巻こころ",
+   "type": "Character",
+   "rarity": "BDR",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの《ハロー、ハッピーワールド！》のキャラがいないなら、このカードはあなたのスタンドフェイズに【スタンド】しない。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から1枚を控え室に置く。そのカードがクライマックスなら、このカードをストック置場に置く。\n\"ハロハピのメンバーはあたしだけじゃないもの！\"",
+   "traits": [
+    "音楽",
+    "ハロー、ハッピーワールド！"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/b/bd_we32/bd_we32_02bdr.png",
+   "variant": ""
+  },
+  {
+   "num": "BD/WE32-02S",
+   "name": "“にこにこプラネット”弦巻こころ",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの《ハロー、ハッピーワールド！》のキャラがいないなら、このカードはあなたのスタンドフェイズに【スタンド】しない。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から1枚を控え室に置く。そのカードがクライマックスなら、このカードをストック置場に置く。\n\"あたし達、ハロハピのみーーんなで世界を笑顔にしていくのよ！\"",
+   "traits": [
+    "音楽",
+    "ハロー、ハッピーワールド！"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/b/bd_we32/bd_we32_02s.png",
+   "variant": ""
+  },
+  {
+   "num": "BD/WE32-03BDR",
+   "name": "“イノセントフラップ”広町七深",
+   "type": "Character",
+   "rarity": "BDR",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの《Morfonica》のキャラがいないなら、このカードはあなたのスタンドフェイズに【スタンド】しない。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から1枚を控え室に置く。そのカードがクライマックスなら、このカードをストック置場に置く。\n\"今のちょっと普通じゃなかったかも……！？\"",
+   "traits": [
+    "音楽",
+    "Morfonica"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/b/bd_we32/bd_we32_03bdr.png",
+   "variant": ""
+  },
+  {
+   "num": "BD/WE32-03S",
+   "name": "“イノセントフラップ”広町七深",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの《Morfonica》のキャラがいないなら、このカードはあなたのスタンドフェイズに【スタンド】しない。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から1枚を控え室に置く。そのカードがクライマックスなら、このカードをストック置場に置く。\n\"そういう普通の青春が送れたらうれしいです～\"",
+   "traits": [
+    "音楽",
+    "Morfonica"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/b/bd_we32/bd_we32_03s.png",
+   "variant": ""
+  },
+  {
+   "num": "BD/WE32-04BDR",
+   "name": "“ブルーミングエール”氷川日菜",
+   "type": "Character",
+   "rarity": "BDR",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、そのターン中、このカードのパワーを＋1500。\n【自】 このカードがアタックした時、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋1000。\n\"とにかくあたしはパスパレが大好き！\"",
+   "traits": [
+    "音楽",
+    "Pastel＊Palettes"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/b/bd_we32/bd_we32_04bdr.png",
+   "variant": ""
+  },
+  {
+   "num": "BD/WE32-04S",
+   "name": "“ブルーミングエール”氷川日菜",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、そのターン中、このカードのパワーを＋1500。\n【自】 このカードがアタックした時、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋1000。\n\"パスパレのみんなはよくわからないことをあたしに色々教えてくれるんだ。だから大好き！\"",
+   "traits": [
+    "音楽",
+    "Pastel＊Palettes"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/b/bd_we32/bd_we32_04s.png",
+   "variant": ""
+  },
+  {
+   "num": "BD/WE32-05BDR",
+   "name": "“にこにこプラネット”松原花音",
+   "type": "Character",
+   "rarity": "BDR",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、そのターン中、このカードのパワーを＋1500。\n【自】 このカードがアタックした時、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋1000。\n\"『無理』じゃないって思うから\"",
+   "traits": [
+    "音楽",
+    "ハロー、ハッピーワールド！"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/b/bd_we32/bd_we32_05bdr.png",
+   "variant": ""
+  },
+  {
+   "num": "BD/WE32-05S",
+   "name": "“にこにこプラネット”松原花音",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、そのターン中、このカードのパワーを＋1500。\n【自】 このカードがアタックした時、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋1000。\n\"これからも、世界中を笑顔にするためにハロハピとしてがんばりたいって思ってます！\"",
+   "traits": [
+    "音楽",
+    "ハロー、ハッピーワールド！"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/b/bd_we32/bd_we32_05s.png",
+   "variant": ""
+  },
+  {
+   "num": "BD/WE32-06BDR",
+   "name": "“イノセントフラップ”桐ヶ谷透子",
+   "type": "Character",
+   "rarity": "BDR",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、そのターン中、このカードのパワーを＋1500。\n【自】 このカードがアタックした時、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋1000。\n\"あたしらMorfonicaが来るに決まってんじゃん！\"",
+   "traits": [
+    "音楽",
+    "Morfonica"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/b/bd_we32/bd_we32_06bdr.png",
+   "variant": ""
+  },
+  {
+   "num": "BD/WE32-06S",
+   "name": "“イノセントフラップ”桐ヶ谷透子",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、そのターン中、このカードのパワーを＋1500。\n【自】 このカードがアタックした時、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋1000。\n\"なんかビビっときてわかるんだよね～次はこれが来るっていうのが！\"",
+   "traits": [
+    "音楽",
+    "Morfonica"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/b/bd_we32/bd_we32_06s.png",
+   "variant": ""
+  },
+  {
+   "num": "BD/WE32-07BDR",
+   "name": "“にこにこプラネット”瀬田薫",
+   "type": "Character",
+   "rarity": "BDR",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から1枚を公開する。そのカードが《ハロー、ハッピーワールド！》のキャラなら、あなたは自分の《ハロー、ハッピーワールド！》のキャラを1枚選び、そのターン中、パワーを＋1500。（公開したカードは元に戻す）\n\"こんなに悲しく、儚いことはないよ！　儚い……っ！\"",
+   "traits": [
+    "音楽",
+    "ハロー、ハッピーワールド！"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/b/bd_we32/bd_we32_07bdr.png",
+   "variant": ""
+  },
+  {
+   "num": "BD/WE32-07S",
+   "name": "“にこにこプラネット”瀬田薫",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から1枚を公開する。そのカードが《ハロー、ハッピーワールド！》のキャラなら、あなたは自分の《ハロー、ハッピーワールド！》のキャラを1枚選び、そのターン中、パワーを＋1500。（公開したカードは元に戻す）\n\"私達が会いに行くとなれば……今そこに、笑顔がないかもしれないということだからね\"",
+   "traits": [
+    "音楽",
+    "ハロー、ハッピーワールド！"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/b/bd_we32/bd_we32_07s.png",
+   "variant": ""
+  },
+  {
+   "num": "BD/WE32-08BDR",
+   "name": "“ブルーミングエール”白鷺千聖",
+   "type": "Character",
+   "rarity": "BDR",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 あなたがこのカードの『助太刀』を使った時、あなたの《音楽》のキャラがいるなら、あなたは自分のバトル中のキャラを1枚選び、そのターン中、パワーを＋1000。\n【起】【カウンター】 助太刀2500 レベル2 ［(1) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋2500）\n\"私達にとって大切な場所であるパスパレ……\"",
+   "traits": [
+    "音楽",
+    "Pastel＊Palettes"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/b/bd_we32/bd_we32_08bdr.png",
+   "variant": ""
+  },
+  {
+   "num": "BD/WE32-08S",
+   "name": "“ブルーミングエール”白鷺千聖",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 あなたがこのカードの『助太刀』を使った時、あなたの《音楽》のキャラがいるなら、あなたは自分のバトル中のキャラを1枚選び、そのターン中、パワーを＋1000。\n【起】【カウンター】 助太刀2500 レベル2 ［(1) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋2500）\n\"みんなとのレッスンがない日のほうがそわそわしてしまうくらいなんです。ふふっ\"",
+   "traits": [
+    "音楽",
+    "Pastel＊Palettes"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/b/bd_we32/bd_we32_08s.png",
+   "variant": ""
+  },
+  {
+   "num": "BD/WE32-09BDR",
+   "name": "“にこにこプラネット”奥沢美咲",
+   "type": "Character",
+   "rarity": "BDR",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 あなたがこのカードの『助太刀』を使った時、あなたの《音楽》のキャラがいるなら、あなたは自分のバトル中のキャラを1枚選び、そのターン中、パワーを＋1000。\n【起】【カウンター】 助太刀2500 レベル2 ［(1) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋2500）\n\"ミッシェルもみーんなが大好きだよ～\"",
+   "traits": [
+    "音楽",
+    "ハロー、ハッピーワールド！"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/b/bd_we32/bd_we32_09bdr.png",
+   "variant": ""
+  },
+  {
+   "num": "BD/WE32-09S",
+   "name": "“にこにこプラネット”奥沢美咲",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 あなたがこのカードの『助太刀』を使った時、あなたの《音楽》のキャラがいるなら、あなたは自分のバトル中のキャラを1枚選び、そのターン中、パワーを＋1000。\n【起】【カウンター】 助太刀2500 レベル2 ［(1) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋2500）\n\"そんなこんなで、すっごくにぎやかなメンバーにかこまれて、毎日楽しく活動していまーす\"",
+   "traits": [
+    "音楽",
+    "ハロー、ハッピーワールド！"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/b/bd_we32/bd_we32_09s.png",
+   "variant": ""
+  },
+  {
+   "num": "BD/WE32-10BDR",
+   "name": "“スカーレットソウル”上原ひまり",
+   "type": "Character",
+   "rarity": "BDR",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのターン中、このカードの下にマーカーがあるなら、このカードのパワーを＋2000。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から1枚を公開する。そのカードが《音楽》のキャラならこのカードの下にマーカーとして裏向きに置いてよい。（そうしないなら元に戻す）\n\"ずっとずーっとバンドが続くようにがんばろうっ！！\"",
+   "traits": [
+    "音楽",
+    "Afterglow"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/b/bd_we32/bd_we32_10bdr.png",
+   "variant": ""
+  },
+  {
+   "num": "BD/WE32-10S",
+   "name": "“スカーレットソウル”上原ひまり",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのターン中、このカードの下にマーカーがあるなら、このカードのパワーを＋2000。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から1枚を公開する。そのカードが《音楽》のキャラならこのカードの下にマーカーとして裏向きに置いてよい。（そうしないなら元に戻す）\n\"私はAfterglowが大好きだし、Afterglowのリーダーでいることが私の『いつも通り』だって思うから\"",
+   "traits": [
+    "音楽",
+    "Afterglow"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/b/bd_we32/bd_we32_10s.png",
+   "variant": ""
+  },
+  {
+   "num": "BD/WE32-11BDR",
+   "name": "“スカーレットソウル”羽沢つぐみ",
+   "type": "Character",
+   "rarity": "BDR",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの《Afterglow》のキャラがいないなら、このカードはあなたのスタンドフェイズに【スタンド】しない。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から1枚を控え室に置く。そのカードがクライマックスなら、このカードをストック置場に置く。\n\"それが『いつも通り』ですからっ\"",
+   "traits": [
+    "音楽",
+    "Afterglow"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/b/bd_we32/bd_we32_11bdr.png",
+   "variant": ""
+  },
+  {
+   "num": "BD/WE32-11S",
+   "name": "“スカーレットソウル”羽沢つぐみ",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの《Afterglow》のキャラがいないなら、このカードはあなたのスタンドフェイズに【スタンド】しない。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から1枚を控え室に置く。そのカードがクライマックスなら、このカードをストック置場に置く。\n\"もちろんクラスがみんな一緒になってもこれからもバンドは続けますよ！\"",
+   "traits": [
+    "音楽",
+    "Afterglow"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/b/bd_we32/bd_we32_11s.png",
+   "variant": ""
+  },
+  {
+   "num": "BD/WE32-12BDR",
+   "name": "“スカーレットソウル”宇田川巴",
+   "type": "Character",
+   "rarity": "BDR",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、そのターン中、このカードのパワーを＋1500。\n【自】 このカードがアタックした時、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋1000。\n\"これからも最高にカッコよくありたいって思ってる！\"",
+   "traits": [
+    "音楽",
+    "Afterglow"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/b/bd_we32/bd_we32_12bdr.png",
+   "variant": ""
+  },
+  {
+   "num": "BD/WE32-12S",
+   "name": "“スカーレットソウル”宇田川巴",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、そのターン中、このカードのパワーを＋1500。\n【自】 このカードがアタックした時、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋1000。\n\"あこは相変わらずアタシのことをカッコいい！　ってついてきてくれてる\"",
+   "traits": [
+    "音楽",
+    "Afterglow"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/b/bd_we32/bd_we32_12s.png",
+   "variant": ""
+  },
+  {
+   "num": "BD/WE32-13BDR",
+   "name": "“エキサイトパフォーム”ロック",
+   "type": "Character",
+   "rarity": "BDR",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、そのターン中、このカードのパワーを＋1500。\n【自】 このカードがアタックした時、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋1000。\n\"このメンバーで音楽を……バンドをやれることが本当にうれしいです\"",
+   "traits": [
+    "音楽",
+    "RAISE A SUILEN"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/b/bd_we32/bd_we32_13bdr.png",
+   "variant": ""
+  },
+  {
+   "num": "BD/WE32-13S",
+   "name": "“エキサイトパフォーム”ロック",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、そのターン中、このカードのパワーを＋1500。\n【自】 このカードがアタックした時、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋1000。\n\"私達RASの『最強の音楽』を、ぜひライブ会場に聴きに来てください！\"",
+   "traits": [
+    "音楽",
+    "RAISE A SUILEN"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/b/bd_we32/bd_we32_13s.png",
+   "variant": ""
+  },
+  {
+   "num": "BD/WE32-14BDR",
+   "name": "“スカーレットソウル”美竹蘭",
+   "type": "Character",
+   "rarity": "BDR",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から1枚を公開する。そのカードが《Afterglow》のキャラなら、あなたは自分の《Afterglow》のキャラを1枚選び、そのターン中、パワーを＋1500。（公開したカードは元に戻す）\n\"まあ、そういう瞬間も悪くないかなって思ってる\"",
+   "traits": [
+    "音楽",
+    "Afterglow"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/b/bd_we32/bd_we32_14bdr.png",
+   "variant": ""
+  },
+  {
+   "num": "BD/WE32-14S",
+   "name": "“スカーレットソウル”美竹蘭",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から1枚を公開する。そのカードが《Afterglow》のキャラなら、あなたは自分の《Afterglow》のキャラを1枚選び、そのターン中、パワーを＋1500。（公開したカードは元に戻す）\n\"ここはあたしだけじゃなくて、あたし達五人にとって大事な場所だから\"",
+   "traits": [
+    "音楽",
+    "Afterglow"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/b/bd_we32/bd_we32_14s.png",
+   "variant": ""
+  },
+  {
+   "num": "BD/WE32-15BDR",
+   "name": "“ブルーミングエール”若宮イヴ",
+   "type": "Character",
+   "rarity": "BDR",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から1枚を公開する。そのカードが《Pastel＊Palettes》のキャラなら、あなたは自分の《Pastel＊Palettes》のキャラを1枚選び、そのターン中、パワーを＋1500。（公開したカードは元に戻す）\n\"真のブシドーがあるに違いありませんっ！！\"",
+   "traits": [
+    "音楽",
+    "Pastel＊Palettes"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/b/bd_we32/bd_we32_15bdr.png",
+   "variant": ""
+  },
+  {
+   "num": "BD/WE32-15S",
+   "name": "“ブルーミングエール”若宮イヴ",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から1枚を公開する。そのカードが《Pastel＊Palettes》のキャラなら、あなたは自分の《Pastel＊Palettes》のキャラを1枚選び、そのターン中、パワーを＋1500。（公開したカードは元に戻す）\n\"みなさんとたくさんの大変なことを乗り越えた先にはきっと……\"",
+   "traits": [
+    "音楽",
+    "Pastel＊Palettes"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/b/bd_we32/bd_we32_15s.png",
+   "variant": ""
+  },
+  {
+   "num": "BD/WE32-16BDR",
+   "name": "“エキサイトパフォーム”レイヤ",
+   "type": "Character",
+   "rarity": "BDR",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から1枚を公開する。そのカードが《RAISE A SUILEN》のキャラなら、あなたは自分の《RAISE A SUILEN》のキャラを1枚選び、そのターン中、パワーを＋1500。（公開したカードは元に戻す）\n\"そういう時間も含めて、私はRASが好き\"",
+   "traits": [
+    "音楽",
+    "RAISE A SUILEN"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/b/bd_we32/bd_we32_16bdr.png",
+   "variant": ""
+  },
+  {
+   "num": "BD/WE32-16S",
+   "name": "“エキサイトパフォーム”レイヤ",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から1枚を公開する。そのカードが《RAISE A SUILEN》のキャラなら、あなたは自分の《RAISE A SUILEN》のキャラを1枚選び、そのターン中、パワーを＋1500。（公開したカードは元に戻す）\n\"今以上に結果が出せるように腕を磨いて、このバンドで歌い続けていきたいと思ってます\"",
+   "traits": [
+    "音楽",
+    "RAISE A SUILEN"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/b/bd_we32/bd_we32_16s.png",
+   "variant": ""
+  },
+  {
+   "num": "BD/WE32-17BDR",
+   "name": "“スカーレットソウル”青葉モカ",
+   "type": "Character",
+   "rarity": "BDR",
+   "color": "green",
+   "level": "2",
+   "cost": "1",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 あなたがこのカードの『助太刀』を使った時、あなたの《音楽》のキャラがいるなら、あなたは自分のバトル中のキャラを1枚選び、そのターン中、パワーを＋1000。\n【起】【カウンター】 助太刀2500 レベル2 ［(1) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋2500）\n\"みんなあたしの幼馴染でーす\"",
+   "traits": [
+    "音楽",
+    "Afterglow"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/b/bd_we32/bd_we32_17bdr.png",
+   "variant": ""
+  },
+  {
+   "num": "BD/WE32-17S",
+   "name": "“スカーレットソウル”青葉モカ",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "2",
+   "cost": "1",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 あなたがこのカードの『助太刀』を使った時、あなたの《音楽》のキャラがいるなら、あなたは自分のバトル中のキャラを1枚選び、そのターン中、パワーを＋1000。\n【起】【カウンター】 助太刀2500 レベル2 ［(1) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋2500）\n\"ということで、バンドメンバーは今の蘭ちゃんとー、ひーちゃんとトモちん、つぐの五人でーす\"",
+   "traits": [
+    "音楽",
+    "Afterglow"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/b/bd_we32/bd_we32_17s.png",
+   "variant": ""
+  },
+  {
+   "num": "BD/WE32-18BDR",
+   "name": "“エキサイトパフォーム”マスキング",
+   "type": "Character",
+   "rarity": "BDR",
+   "color": "green",
+   "level": "2",
+   "cost": "1",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 あなたがこのカードの『助太刀』を使った時、あなたの《音楽》のキャラがいるなら、あなたは自分のバトル中のキャラを1枚選び、そのターン中、パワーを＋1000。\n【起】【カウンター】 助太刀2500 レベル2 ［(1) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋2500）\n\"そういうの、なんかいいよな\"",
+   "traits": [
+    "音楽",
+    "RAISE A SUILEN"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/b/bd_we32/bd_we32_18bdr.png",
+   "variant": ""
+  },
+  {
+   "num": "BD/WE32-18S",
+   "name": "“エキサイトパフォーム”マスキング",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "2",
+   "cost": "1",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 あなたがこのカードの『助太刀』を使った時、あなたの《音楽》のキャラがいるなら、あなたは自分のバトル中のキャラを1枚選び、そのターン中、パワーを＋1000。\n【起】【カウンター】 助太刀2500 レベル2 ［(1) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋2500）\n\"RASに入って、初めてちゃんとバンドを組んだから新しいことばっかですげー楽しいんだ\"",
+   "traits": [
+    "音楽",
+    "RAISE A SUILEN"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/b/bd_we32/bd_we32_18s.png",
+   "variant": ""
+  },
+  {
+   "num": "BD/WE32-19BDR",
+   "name": "“ピースフルジャンプ！”牛込りみ",
+   "type": "Character",
+   "rarity": "BDR",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのターン中、このカードの下にマーカーがあるなら、このカードのパワーを＋2000。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から1枚を公開する。そのカードが《音楽》のキャラならこのカードの下にマーカーとして裏向きに置いてよい。（そうしないなら元に戻す）\n\"ずっとずっとポピパでいたいなって思ってます\"",
+   "traits": [
+    "音楽",
+    "Poppin'Party"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/b/bd_we32/bd_we32_19bdr.png",
+   "variant": ""
+  },
+  {
+   "num": "BD/WE32-19S",
+   "name": "“ピースフルジャンプ！”牛込りみ",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのターン中、このカードの下にマーカーがあるなら、このカードのパワーを＋2000。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から1枚を公開する。そのカードが《音楽》のキャラならこのカードの下にマーカーとして裏向きに置いてよい。（そうしないなら元に戻す）\n\"これからもみんなと一緒に、ずっとずっとポピパでいたいなって思ってます\"",
+   "traits": [
+    "音楽",
+    "Poppin'Party"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/b/bd_we32/bd_we32_19s.png",
+   "variant": ""
+  },
+  {
+   "num": "BD/WE32-20BDR",
+   "name": "“ブルーミングエール”大和麻弥",
+   "type": "Character",
+   "rarity": "BDR",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのターン中、このカードの下にマーカーがあるなら、このカードのパワーを＋2000。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から1枚を公開する。そのカードが《音楽》のキャラならこのカードの下にマーカーとして裏向きに置いてよい。（そうしないなら元に戻す）\n\"そわそわも、ドキドキに変わってきた気がします！\"",
+   "traits": [
+    "音楽",
+    "Pastel＊Palettes"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/b/bd_we32/bd_we32_20bdr.png",
+   "variant": ""
+  },
+  {
+   "num": "BD/WE32-20S",
+   "name": "“ブルーミングエール”大和麻弥",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのターン中、このカードの下にマーカーがあるなら、このカードのパワーを＋2000。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から1枚を公開する。そのカードが《音楽》のキャラならこのカードの下にマーカーとして裏向きに置いてよい。（そうしないなら元に戻す）\n\"今回はどんな経験ができるんだろう、って楽しみに思う気持ちが強くなってきまして\"",
+   "traits": [
+    "音楽",
+    "Pastel＊Palettes"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/b/bd_we32/bd_we32_20s.png",
+   "variant": ""
+  },
+  {
+   "num": "BD/WE32-21BDR",
+   "name": "“ピースフルジャンプ！”戸山香澄",
+   "type": "Character",
+   "rarity": "BDR",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの《Poppin'Party》のキャラがいないなら、このカードはあなたのスタンドフェイズに【スタンド】しない。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から1枚を控え室に置く。そのカードがクライマックスなら、このカードをストック置場に置く。\n\"えへへ、そうそう！キラキラドキドキしてるっ！\"",
+   "traits": [
+    "音楽",
+    "Poppin'Party"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/b/bd_we32/bd_we32_21bdr.png",
+   "variant": ""
+  },
+  {
+   "num": "BD/WE32-21S",
+   "name": "“ピースフルジャンプ！”戸山香澄",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの《Poppin'Party》のキャラがいないなら、このカードはあなたのスタンドフェイズに【スタンド】しない。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から1枚を控え室に置く。そのカードがクライマックスなら、このカードをストック置場に置く。\n\"それはきっと、私達だけじゃなくって、いろんなバンドの人達に出会えたからだと思うんです\"",
+   "traits": [
+    "音楽",
+    "Poppin'Party"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/b/bd_we32/bd_we32_21s.png",
+   "variant": ""
+  },
+  {
+   "num": "BD/WE32-22BDR",
+   "name": "“ピースフルジャンプ！”山吹沙綾",
+   "type": "Character",
+   "rarity": "BDR",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、そのターン中、このカードのパワーを＋1500。\n【自】 このカードがアタックした時、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋1000。\n\"だから、大切にしたいです！……なーんて\"",
+   "traits": [
+    "音楽",
+    "Poppin'Party"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/b/bd_we32/bd_we32_22bdr.png",
+   "variant": ""
+  },
+  {
+   "num": "BD/WE32-22S",
+   "name": "“ピースフルジャンプ！”山吹沙綾",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、そのターン中、このカードのパワーを＋1500。\n【自】 このカードがアタックした時、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋1000。\n\"こうやって相変わらず一緒にいられてることってすごいことなんだろうなー、なんて思います\"",
+   "traits": [
+    "音楽",
+    "Poppin'Party"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/b/bd_we32/bd_we32_22s.png",
+   "variant": ""
+  },
+  {
+   "num": "BD/WE32-23BDR",
+   "name": "“ロフティアンビション”宇田川あこ",
+   "type": "Character",
+   "rarity": "BDR",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのターン中、このカードの下にマーカーがあるなら、このカードのパワーを＋2000。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から1枚を公開する。そのカードが《音楽》のキャラならこのカードの下にマーカーとして裏向きに置いてよい。（そうしないなら元に戻す）\n\"漆黒の闇より現れし、混沌を司る魔王！\"",
+   "traits": [
+    "音楽",
+    "Roselia"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/b/bd_we32/bd_we32_23bdr.png",
+   "variant": ""
+  },
+  {
+   "num": "BD/WE32-23S",
+   "name": "“ロフティアンビション”宇田川あこ",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのターン中、このカードの下にマーカーがあるなら、このカードのパワーを＋2000。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から1枚を公開する。そのカードが《音楽》のキャラならこのカードの下にマーカーとして裏向きに置いてよい。（そうしないなら元に戻す）\n\"あこはRoseliaで世界一カッコいいドラマーになるんだって決めてるから！\"",
+   "traits": [
+    "音楽",
+    "Roselia"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/b/bd_we32/bd_we32_23s.png",
+   "variant": ""
+  },
+  {
+   "num": "BD/WE32-24BDR",
+   "name": "“イノセントフラップ”八潮瑠唯",
+   "type": "Character",
+   "rarity": "BDR",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのターン中、このカードの下にマーカーがあるなら、このカードのパワーを＋2000。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から1枚を公開する。そのカードが《音楽》のキャラならこのカードの下にマーカーとして裏向きに置いてよい。（そうしないなら元に戻す）\n\"必要なことは話したわ。終わりにしましょう\"",
+   "traits": [
+    "音楽",
+    "Morfonica"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/b/bd_we32/bd_we32_24bdr.png",
+   "variant": ""
+  },
+  {
+   "num": "BD/WE32-24S",
+   "name": "“イノセントフラップ”八潮瑠唯",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのターン中、このカードの下にマーカーがあるなら、このカードのパワーを＋2000。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から1枚を公開する。そのカードが《音楽》のキャラならこのカードの下にマーカーとして裏向きに置いてよい。（そうしないなら元に戻す）\n\"趣味はないし、特技もない。それにその話がバンドの紹介映像に必要とは思えない\"",
+   "traits": [
+    "音楽",
+    "Morfonica"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/b/bd_we32/bd_we32_24s.png",
+   "variant": ""
+  },
+  {
+   "num": "BD/WE32-25BDR",
+   "name": "“エキサイトパフォーム”パレオ",
+   "type": "Character",
+   "rarity": "BDR",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのターン中、このカードの下にマーカーがあるなら、このカードのパワーを＋2000。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から1枚を公開する。そのカードが《音楽》のキャラならこのカードの下にマーカーとして裏向きに置いてよい。（そうしないなら元に戻す）\n\"チュチュ様……素敵です～♪\"",
+   "traits": [
+    "音楽",
+    "RAISE A SUILEN"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/b/bd_we32/bd_we32_25bdr.png",
+   "variant": ""
+  },
+  {
+   "num": "BD/WE32-25S",
+   "name": "“エキサイトパフォーム”パレオ",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのターン中、このカードの下にマーカーがあるなら、このカードのパワーを＋2000。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から1枚を公開する。そのカードが《音楽》のキャラならこのカードの下にマーカーとして裏向きに置いてよい。（そうしないなら元に戻す）\n\"RASの音楽は鮮度が命！目が離せない展開にはスピード感が大切なのです！\"",
+   "traits": [
+    "音楽",
+    "RAISE A SUILEN"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/b/bd_we32/bd_we32_25s.png",
+   "variant": ""
+  },
+  {
+   "num": "BD/WE32-26BDR",
+   "name": "“ブルーミングエール”丸山彩",
+   "type": "Character",
+   "rarity": "BDR",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの《Pastel＊Palettes》のキャラがいないなら、このカードはあなたのスタンドフェイズに【スタンド】しない。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から1枚を控え室に置く。そのカードがクライマックスなら、このカードをストック置場に置く。\n\"みなさんとお会いできるのを楽しみにしてまーっす！\"",
+   "traits": [
+    "音楽",
+    "Pastel＊Palettes"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/b/bd_we32/bd_we32_26bdr.png",
+   "variant": ""
+  },
+  {
+   "num": "BD/WE32-26S",
+   "name": "“ブルーミングエール”丸山彩",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの《Pastel＊Palettes》のキャラがいないなら、このカードはあなたのスタンドフェイズに【スタンド】しない。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から1枚を控え室に置く。そのカードがクライマックスなら、このカードをストック置場に置く。\n\"さいっこーのステージをお届けしますのでぜひぜひ、遊びに来てくださいっ！\"",
+   "traits": [
+    "音楽",
+    "Pastel＊Palettes"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/b/bd_we32/bd_we32_26s.png",
+   "variant": ""
+  },
+  {
+   "num": "BD/WE32-27BDR",
+   "name": "“ロフティアンビション”今井リサ",
+   "type": "Character",
+   "rarity": "BDR",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの《Roselia》のキャラがいないなら、このカードはあなたのスタンドフェイズに【スタンド】しない。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から1枚を控え室に置く。そのカードがクライマックスなら、このカードをストック置場に置く。\n\"今のRoseliaがすっごく好きなんだ\"",
+   "traits": [
+    "音楽",
+    "Roselia"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/b/bd_we32/bd_we32_27bdr.png",
+   "variant": ""
+  },
+  {
+   "num": "BD/WE32-27S",
+   "name": "“ロフティアンビション”今井リサ",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの《Roselia》のキャラがいないなら、このカードはあなたのスタンドフェイズに【スタンド】しない。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から1枚を控え室に置く。そのカードがクライマックスなら、このカードをストック置場に置く。\n\"みんな、Roseliaしてるって感じがするんだよね☆\"",
+   "traits": [
+    "音楽",
+    "Roselia"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/b/bd_we32/bd_we32_27s.png",
+   "variant": ""
+  },
+  {
+   "num": "BD/WE32-28BDR",
+   "name": "“エキサイトパフォーム”チュチュ",
+   "type": "Character",
+   "rarity": "BDR",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの《RAISE A SUILEN》のキャラがいないなら、このカードはあなたのスタンドフェイズに【スタンド】しない。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から1枚を控え室に置く。そのカードがクライマックスなら、このカードをストック置場に置く。\n\"ワタシ達を目撃する準備はできてる？Are you ready？\"",
+   "traits": [
+    "音楽",
+    "RAISE A SUILEN"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/b/bd_we32/bd_we32_28bdr.png",
+   "variant": ""
+  },
+  {
+   "num": "BD/WE32-28S",
+   "name": "“エキサイトパフォーム”チュチュ",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの《RAISE A SUILEN》のキャラがいないなら、このカードはあなたのスタンドフェイズに【スタンド】しない。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から1枚を控え室に置く。そのカードがクライマックスなら、このカードをストック置場に置く。\n\"他では感じることのできない圧倒的なバンドぢから……アナタはRASから目が離せなくなる\"",
+   "traits": [
+    "音楽",
+    "RAISE A SUILEN"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/b/bd_we32/bd_we32_28s.png",
+   "variant": ""
+  },
+  {
+   "num": "BD/WE32-29BDR",
+   "name": "“ロフティアンビション”湊友希那",
+   "type": "Character",
+   "rarity": "BDR",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、そのターン中、このカードのパワーを＋1500。\n【自】 このカードがアタックした時、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋1000。\n\"私達には目指すべき場所がある\"",
+   "traits": [
+    "音楽",
+    "Roselia"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/b/bd_we32/bd_we32_29bdr.png",
+   "variant": ""
+  },
+  {
+   "num": "BD/WE32-29S",
+   "name": "“ロフティアンビション”湊友希那",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、そのターン中、このカードのパワーを＋1500。\n【自】 このカードがアタックした時、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋1000。\n\"『私達』Roseliaの演奏を聴けば……\"",
+   "traits": [
+    "音楽",
+    "Roselia"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/b/bd_we32/bd_we32_29s.png",
+   "variant": ""
+  },
+  {
+   "num": "BD/WE32-30BDR",
+   "name": "“ピースフルジャンプ！”花園たえ",
+   "type": "Character",
+   "rarity": "BDR",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から1枚を公開する。そのカードが《Poppin'Party》のキャラなら、あなたは自分の《Poppin'Party》のキャラを1枚選び、そのターン中、パワーを＋1500。（公開したカードは元に戻す）\n\"この気持ちを教えてくれたのは、きっとポピパのみんな\"",
+   "traits": [
+    "音楽",
+    "Poppin'Party"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/b/bd_we32/bd_we32_30bdr.png",
+   "variant": ""
+  },
+  {
+   "num": "BD/WE32-30S",
+   "name": "“ピースフルジャンプ！”花園たえ",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から1枚を公開する。そのカードが《Poppin'Party》のキャラなら、あなたは自分の《Poppin'Party》のキャラを1枚選び、そのターン中、パワーを＋1500。（公開したカードは元に戻す）\n\"一人でギター弾いてた頃には、もう戻れないかも。そのくらいバンドが、ポピパが、好き\"",
+   "traits": [
+    "音楽",
+    "Poppin'Party"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/b/bd_we32/bd_we32_30s.png",
+   "variant": ""
+  },
+  {
+   "num": "BD/WE32-31BDR",
+   "name": "“ロフティアンビション”氷川紗夜",
+   "type": "Character",
+   "rarity": "BDR",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から1枚を公開する。そのカードが《Roselia》のキャラなら、あなたは自分の《Roselia》のキャラを1枚選び、そのターン中、パワーを＋1500。（公開したカードは元に戻す）\n\"Roseliaらしく、私らしくもある音……\"",
+   "traits": [
+    "音楽",
+    "Roselia"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/b/bd_we32/bd_we32_31bdr.png",
+   "variant": ""
+  },
+  {
+   "num": "BD/WE32-31S",
+   "name": "“ロフティアンビション”氷川紗夜",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から1枚を公開する。そのカードが《Roselia》のキャラなら、あなたは自分の《Roselia》のキャラを1枚選び、そのターン中、パワーを＋1500。（公開したカードは元に戻す）\n\"それがどんなものなのか、探していければと\"",
+   "traits": [
+    "音楽",
+    "Roselia"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/b/bd_we32/bd_we32_31s.png",
+   "variant": ""
+  },
+  {
+   "num": "BD/WE32-32BDR",
+   "name": "“イノセントフラップ”二葉つくし",
+   "type": "Character",
+   "rarity": "BDR",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から1枚を公開する。そのカードが《Morfonica》のキャラなら、あなたは自分の《Morfonica》のキャラを1枚選び、そのターン中、パワーを＋1500。（公開したカードは元に戻す）\n\"ふふん、堂々としてリーダーらしい感じ出てたんじゃない？\"",
+   "traits": [
+    "音楽",
+    "Morfonica"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/b/bd_we32/bd_we32_32bdr.png",
+   "variant": ""
+  },
+  {
+   "num": "BD/WE32-32S",
+   "name": "“イノセントフラップ”二葉つくし",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から1枚を公開する。そのカードが《Morfonica》のキャラなら、あなたは自分の《Morfonica》のキャラを1枚選び、そのターン中、パワーを＋1500。（公開したカードは元に戻す）\n\"そんな子たちをまとめているのが、しっかり者のこの私！\"",
+   "traits": [
+    "音楽",
+    "Morfonica"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/b/bd_we32/bd_we32_32s.png",
+   "variant": ""
+  },
+  {
+   "num": "BD/WE32-33BDR",
+   "name": "“ピースフルジャンプ！”市ヶ谷有咲",
+   "type": "Character",
+   "rarity": "BDR",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 あなたがこのカードの『助太刀』を使った時、あなたの《音楽》のキャラがいるなら、あなたは自分のバトル中のキャラを1枚選び、そのターン中、パワーを＋1000。\n【起】【カウンター】 助太刀2500 レベル2 ［(1) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋2500）\n\"って、なんでもねー！\"",
+   "traits": [
+    "音楽",
+    "Poppin'Party"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/b/bd_we32/bd_we32_33bdr.png",
+   "variant": ""
+  },
+  {
+   "num": "BD/WE32-33S",
+   "name": "“ピースフルジャンプ！”市ヶ谷有咲",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 あなたがこのカードの『助太刀』を使った時、あなたの《音楽》のキャラがいるなら、あなたは自分のバトル中のキャラを1枚選び、そのターン中、パワーを＋1000。\n【起】【カウンター】 助太刀2500 レベル2 ［(1) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋2500）\n\"でも、ポピパのためだったら……って、なんでもねー！\"",
+   "traits": [
+    "音楽",
+    "Poppin'Party"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/b/bd_we32/bd_we32_33s.png",
+   "variant": ""
+  },
+  {
+   "num": "BD/WE32-34BDR",
+   "name": "“ロフティアンビション”白金燐子",
+   "type": "Character",
+   "rarity": "BDR",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 あなたがこのカードの『助太刀』を使った時、あなたの《音楽》のキャラがいるなら、あなたは自分のバトル中のキャラを1枚選び、そのターン中、パワーを＋1000。\n【起】【カウンター】 助太刀2500 レベル2 ［(1) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋2500）\n\"この時間がいつまでも続くように……\"",
+   "traits": [
+    "音楽",
+    "Roselia"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/b/bd_we32/bd_we32_34bdr.png",
+   "variant": ""
+  },
+  {
+   "num": "BD/WE32-34S",
+   "name": "“ロフティアンビション”白金燐子",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 あなたがこのカードの『助太刀』を使った時、あなたの《音楽》のキャラがいるなら、あなたは自分のバトル中のキャラを1枚選び、そのターン中、パワーを＋1000。\n【起】【カウンター】 助太刀2500 レベル2 ［(1) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋2500）\n\"Roseliaに関わるすべてが……わたしにとって……とても大切な……時間です\"",
+   "traits": [
+    "音楽",
+    "Roselia"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/b/bd_we32/bd_we32_34s.png",
+   "variant": ""
+  },
+  {
+   "num": "BD/WE32-35BDR",
+   "name": "“イノセントフラップ”倉田ましろ",
+   "type": "Character",
+   "rarity": "BDR",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 あなたがこのカードの『助太刀』を使った時、あなたの《音楽》のキャラがいるなら、あなたは自分のバトル中のキャラを1枚選び、そのターン中、パワーを＋1000。\n【起】【カウンター】 助太刀2500 レベル2 ［(1) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋2500）\n\"平凡な私でも特別なものを見つけられたら……\"",
+   "traits": [
+    "音楽",
+    "Morfonica"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/b/bd_we32/bd_we32_35bdr.png",
+   "variant": ""
+  },
+  {
+   "num": "BD/WE32-35S",
+   "name": "“イノセントフラップ”倉田ましろ",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 あなたがこのカードの『助太刀』を使った時、あなたの《音楽》のキャラがいるなら、あなたは自分のバトル中のキャラを1枚選び、そのターン中、パワーを＋1000。\n【起】【カウンター】 助太刀2500 レベル2 ［(1) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋2500）\n\"このバンドが特別なものになったらうれしいです\"",
+   "traits": [
+    "音楽",
+    "Morfonica"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/b/bd_we32/bd_we32_35s.png",
+   "variant": ""
+  }
+ ]
+}

@@ -1,0 +1,756 @@
+{
+ "id": "jp-csm",
+ "name": "[TD]チェンソーマン",
+ "expansion": 422,
+ "lang": "jp",
+ "release": null,
+ "shopItem": null,
+ "box": null,
+ "cards": [
+  {
+   "num": "CSM/S96-T01",
+   "name": "仕事の信念 早川アキ",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのターン中、他のあなたの、《デビルハンター》か《悪魔》のキャラすべてに、パワーを＋500。\n【起】 集中 ［(1) このカードを【レスト】する］ あなたは自分の山札の上から5枚をめくり、控え室に置く。それらのカードのクライマックス1枚につき、あなたは1枚まで引く。\n\"マキマさんはなぁ……お前みたいなチンピラが好きになっていい人間じゃねえんだよ！\"",
+   "traits": [
+    "デビルハンター",
+    "公安"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/c/csm_s96/csm_s96_t01.png",
+   "variant": ""
+  },
+  {
+   "num": "CSM/S96-T01R",
+   "name": "仕事の信念 早川アキ",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのターン中、他のあなたの、《デビルハンター》か《悪魔》のキャラすべてに、パワーを＋500。\n【起】 集中 ［(1) このカードを【レスト】する］ あなたは自分の山札の上から5枚をめくり、控え室に置く。それらのカードのクライマックス1枚につき、あなたは1枚まで引く。\n\"マキマさんはなぁ……お前みたいなチンピラが好きになっていい人間じゃねえんだよ！\"",
+   "traits": [
+    "デビルハンター",
+    "公安"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/c/csm_s96/csm_s96_t01r.png",
+   "variant": ""
+  },
+  {
+   "num": "CSM/S96-T02",
+   "name": "デビルハンター パワー",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが【リバース】した時、このカードのバトル相手のレベルが0以下なら、あなたはそのキャラをストック置場に置いてよい。そうしたら、あなたは相手のストックの下から1枚を、控え室に置く。\n【自】［(1) あなたの控え室の、《デビルハンター》か《悪魔》のキャラを1枚クロック置場の下に置く］ このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の、《デビルハンター》か《悪魔》のキャラを1枚選び、手札に戻す。\n\"おうおう！ひれ伏せ人間！！\"",
+   "traits": [
+    "デビルハンター",
+    "公安"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/c/csm_s96/csm_s96_t02.png",
+   "variant": ""
+  },
+  {
+   "num": "CSM/S96-T02SSP",
+   "name": "デビルハンター パワー",
+   "type": "Character",
+   "rarity": "SSP",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが【リバース】した時、このカードのバトル相手のレベルが0以下なら、あなたはそのキャラをストック置場に置いてよい。そうしたら、あなたは相手のストックの下から1枚を、控え室に置く。\n【自】［(1) あなたの控え室の、《デビルハンター》か《悪魔》のキャラを1枚クロック置場の下に置く］ このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の、《デビルハンター》か《悪魔》のキャラを1枚選び、手札に戻す。\n\"-\"",
+   "traits": [
+    "デビルハンター",
+    "公安"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/c/csm_s96/csm_s96_t02ssp.png",
+   "variant": ""
+  },
+  {
+   "num": "CSM/S96-T03",
+   "name": "チェンソーの悪魔 ポチタ",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの、《デビルハンター》か《悪魔》のキャラすべてに、パワーを＋500。\n【起】［(2) このカードを【レスト】する］ あなたは自分の山札を見て《デビルハンター》か《悪魔》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"-\"",
+   "traits": [
+    "悪魔"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/c/csm_s96/csm_s96_t03.png",
+   "variant": ""
+  },
+  {
+   "num": "CSM/S96-T03R",
+   "name": "チェンソーの悪魔 ポチタ",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの、《デビルハンター》か《悪魔》のキャラすべてに、パワーを＋500。\n【起】［(2) このカードを【レスト】する］ あなたは自分の山札を見て《デビルハンター》か《悪魔》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"-\"",
+   "traits": [
+    "悪魔"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/c/csm_s96/csm_s96_t03r.png",
+   "variant": ""
+  },
+  {
+   "num": "CSM/S96-T04",
+   "name": "好きなタイプ？ マキマ",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードがアタックした時、他のあなたの、《デビルハンター》か《悪魔》のキャラがいるなら、そのターン中、このカードのパワーを＋3000。\n\"デンジくんみたいな人\"",
+   "traits": [
+    "デビルハンター",
+    "公安"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/c/csm_s96/csm_s96_t04.png",
+   "variant": ""
+  },
+  {
+   "num": "CSM/S96-T04R",
+   "name": "好きなタイプ？ マキマ",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードがアタックした時、他のあなたの、《デビルハンター》か《悪魔》のキャラがいるなら、そのターン中、このカードのパワーを＋3000。\n\"デンジくんみたいな人\"",
+   "traits": [
+    "デビルハンター",
+    "公安"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/c/csm_s96/csm_s96_t04r.png",
+   "variant": ""
+  },
+  {
+   "num": "CSM/S96-T05",
+   "name": "血の匂い パワー",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【起】【カウンター】 助太刀3000 レベル2 ［(1) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋3000）\n\"血の匂いじゃ！！\"",
+   "traits": [
+    "デビルハンター",
+    "公安"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/c/csm_s96/csm_s96_t05.png",
+   "variant": ""
+  },
+  {
+   "num": "CSM/S96-T05R",
+   "name": "血の匂い パワー",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【起】【カウンター】 助太刀3000 レベル2 ［(1) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋3000）\n\"血の匂いじゃ！！\"",
+   "traits": [
+    "デビルハンター",
+    "公安"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/c/csm_s96/csm_s96_t05r.png",
+   "variant": ""
+  },
+  {
+   "num": "CSM/S96-T06",
+   "name": "悪魔の名前 マキマ",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋Ｘ。Ｘはそのキャラのレベル×500に等しい。\n【自】 このカードが手札から舞台に置かれた時、他のあなたの、《デビルハンター》か《悪魔》のキャラが4枚以上なら、あなたは自分の控え室の、《デビルハンター》か《悪魔》のキャラを1枚選び、ストック置場に置いてよい。\n\"すべての悪魔は名前をもって産まれてくる\"",
+   "traits": [
+    "デビルハンター",
+    "公安"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/c/csm_s96/csm_s96_t06.png",
+   "variant": ""
+  },
+  {
+   "num": "CSM/S96-T06R",
+   "name": "悪魔の名前 マキマ",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋Ｘ。Ｘはそのキャラのレベル×500に等しい。\n【自】 このカードが手札から舞台に置かれた時、他のあなたの、《デビルハンター》か《悪魔》のキャラが4枚以上なら、あなたは自分の控え室の、《デビルハンター》か《悪魔》のキャラを1枚選び、ストック置場に置いてよい。\n\"すべての悪魔は名前をもって産まれてくる\"",
+   "traits": [
+    "デビルハンター",
+    "公安"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/c/csm_s96/csm_s96_t06r.png",
+   "variant": ""
+  },
+  {
+   "num": "CSM/S96-T07",
+   "name": "仕事への覚悟 早川アキ",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "6500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の、《デビルハンター》か《悪魔》のキャラを1枚選び、そのターン中、パワーを＋1500。\n【自】 このカードがアタックした時、他のあなたの、《デビルハンター》か《悪魔》のキャラが2枚以上なら、そのターン中、このカードのパワーを＋4000。\n\"お前さ……マキマさん目当てでデビルハンターなったろ\"",
+   "traits": [
+    "デビルハンター",
+    "公安"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/c/csm_s96/csm_s96_t07.png",
+   "variant": ""
+  },
+  {
+   "num": "CSM/S96-T07R",
+   "name": "仕事への覚悟 早川アキ",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "6500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の、《デビルハンター》か《悪魔》のキャラを1枚選び、そのターン中、パワーを＋1500。\n【自】 このカードがアタックした時、他のあなたの、《デビルハンター》か《悪魔》のキャラが2枚以上なら、そのターン中、このカードのパワーを＋4000。\n\"お前さ……マキマさん目当てでデビルハンターなったろ\"",
+   "traits": [
+    "デビルハンター",
+    "公安"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/c/csm_s96/csm_s96_t07r.png",
+   "variant": ""
+  },
+  {
+   "num": "CSM/S96-T08",
+   "name": "最強のパン",
+   "type": "Event",
+   "rarity": "TD",
+   "color": "yellow",
+   "level": "3",
+   "cost": "4",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "あなたは自分の手札を1枚選び、控え室に置いてよい。そうしたら、次の3つの効果を1回ずつ行う。\n『あなたは自分の山札を上から3枚まで見て、山札の上に好きな順番で置き、相手のキャラを1枚まで選び、手札に戻す。』\n『相手に1ダメージを与え、相手の控え室のカードを1枚まで選び、山札の上に置き、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋1000。』（ダメージキャンセルは発生する）\n『あなたは自分のキャラを2枚まで選び、そのターン中、ソウルを＋1。』\n\"デンジ「最強のパンができちまったぜ～！」\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/c/csm_s96/csm_s96_t08.png",
+   "variant": ""
+  },
+  {
+   "num": "CSM/S96-T08R",
+   "name": "最強のパン",
+   "type": "Event",
+   "rarity": "RRR",
+   "color": "yellow",
+   "level": "3",
+   "cost": "4",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "あなたは自分の手札を1枚選び、控え室に置いてよい。そうしたら、次の3つの効果を1回ずつ行う。\n『あなたは自分の山札を上から3枚まで見て、山札の上に好きな順番で置き、相手のキャラを1枚まで選び、手札に戻す。』\n『相手に1ダメージを与え、相手の控え室のカードを1枚まで選び、山札の上に置き、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋1000。』（ダメージキャンセルは発生する）\n『あなたは自分のキャラを2枚まで選び、そのターン中、ソウルを＋1。』\n\"デンジ「最強のパンができちまったぜ～！」\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/c/csm_s96/csm_s96_t08r.png",
+   "variant": ""
+  },
+  {
+   "num": "CSM/S96-T09",
+   "name": "犬と主人",
+   "type": "Climax",
+   "rarity": "TD",
+   "color": "yellow",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[shot.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[shot.gif]]：このターン中、このカードをトリガーした攻撃キャラが次に与えるダメージがキャンセルされた時、相手に1ダメージを与える）\n\"マキマ「ハイ、アーん」<br>デンジ「アーーーーん」\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/c/csm_s96/csm_s96_t09.png",
+   "variant": ""
+  },
+  {
+   "num": "CSM/S96-T09R",
+   "name": "犬と主人",
+   "type": "Climax",
+   "rarity": "RRR",
+   "color": "yellow",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[shot.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[shot.gif]]：このターン中、このカードをトリガーした攻撃キャラが次に与えるダメージがキャンセルされた時、相手に1ダメージを与える）\n\"マキマ「ハイ、アーん」<br>デンジ「アーーーーん」\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/c/csm_s96/csm_s96_t09r.png",
+   "variant": ""
+  },
+  {
+   "num": "CSM/S96-T10",
+   "name": "初めての出会い パワー",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 絆／「心臓の秘密 デンジ」「急所狙い デンジ」 ［手札を1枚控え室に置く］ （このカードがプレイされて舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の、「心臓の秘密 デンジ」か「急所狙い デンジ」を1枚選び、手札に戻す）\n【起】［手札を1枚控え室に置き、このカードを控え室に置く］ あなたは自分の控え室の、《デビルハンター》か《悪魔》のキャラを1枚選び、手札に戻す。\n\"ニャーコ。ウヌの名はニャーコじゃ！猫にしてはウマそうな匂いじゃなあ！\"",
+   "traits": [
+    "デビルハンター",
+    "公安"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/c/csm_s96/csm_s96_t10.png",
+   "variant": ""
+  },
+  {
+   "num": "CSM/S96-T10R",
+   "name": "初めての出会い パワー",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 絆／「心臓の秘密 デンジ」「急所狙い デンジ」 ［手札を1枚控え室に置く］ （このカードがプレイされて舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の、「心臓の秘密 デンジ」か「急所狙い デンジ」を1枚選び、手札に戻す）\n【起】［手札を1枚控え室に置き、このカードを控え室に置く］ あなたは自分の控え室の、《デビルハンター》か《悪魔》のキャラを1枚選び、手札に戻す。\n\"ニャーコ。ウヌの名はニャーコじゃ！猫にしてはウマそうな匂いじゃなあ！\"",
+   "traits": [
+    "デビルハンター",
+    "公安"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/c/csm_s96/csm_s96_t10r.png",
+   "variant": ""
+  },
+  {
+   "num": "CSM/S96-T11",
+   "name": "不思議な匂い マキマ",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1) 手札のクライマックスを1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室のクライマックスを1枚選び、手札に戻す。\n\"これ…君がやったの？\"",
+   "traits": [
+    "デビルハンター",
+    "公安"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/c/csm_s96/csm_s96_t11.png",
+   "variant": ""
+  },
+  {
+   "num": "CSM/S96-T11R",
+   "name": "不思議な匂い マキマ",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1) 手札のクライマックスを1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室のクライマックスを1枚選び、手札に戻す。\n\"これ…君がやったの？\"",
+   "traits": [
+    "デビルハンター",
+    "公安"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/c/csm_s96/csm_s96_t11r.png",
+   "variant": ""
+  },
+  {
+   "num": "CSM/S96-T12",
+   "name": "電ノコ悪魔 チェンソーマン",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 相手のキャラすべてに、『【自】 アンコール ［(2)］』を与える。\n\"-\"",
+   "traits": [
+    "デビルハンター",
+    "公安"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/c/csm_s96/csm_s96_t12.png",
+   "variant": ""
+  },
+  {
+   "num": "CSM/S96-T12R",
+   "name": "電ノコ悪魔 チェンソーマン",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 相手のキャラすべてに、『【自】 アンコール ［(2)］』を与える。\n\"-\"",
+   "traits": [
+    "デビルハンター",
+    "公安"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/c/csm_s96/csm_s96_t12r.png",
+   "variant": ""
+  },
+  {
+   "num": "CSM/S96-T13",
+   "name": "デビルハンター デンジ",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードがアタックした時、他のあなたの、《デビルハンター》か《悪魔》のキャラが2枚以上なら、そのターン中、このカードのパワーを＋2000。\n【自】【CXコンボ】 このカードがアタックした時、クライマックス置場に「ゴミ箱での契約」があり、他のあなたの、《デビルハンター》か《悪魔》のキャラがいるなら、あなたは自分の山札の上から2枚を、控え室に置き、自分の控え室のレベルＸ以下の、《デビルハンター》か《悪魔》のキャラを1枚まで選び、手札に戻す。Ｘはこの効果で控え室に置かれたカードのレベルの合計に等しい。（クライマックスのレベルは0として扱う）\n\"じゃあ夢バトルしようぜ！夢バトル！\"",
+   "traits": [
+    "デビルハンター",
+    "公安"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/c/csm_s96/csm_s96_t13.png",
+   "variant": ""
+  },
+  {
+   "num": "CSM/S96-T13S",
+   "name": "デビルハンター デンジ",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードがアタックした時、他のあなたの、《デビルハンター》か《悪魔》のキャラが2枚以上なら、そのターン中、このカードのパワーを＋2000。\n【自】【CXコンボ】 このカードがアタックした時、クライマックス置場に「ゴミ箱での契約」があり、他のあなたの、《デビルハンター》か《悪魔》のキャラがいるなら、あなたは自分の山札の上から2枚を、控え室に置き、自分の控え室のレベルＸ以下の、《デビルハンター》か《悪魔》のキャラを1枚まで選び、手札に戻す。Ｘはこの効果で控え室に置かれたカードのレベルの合計に等しい。（クライマックスのレベルは0として扱う）\n\"じゃあ夢バトルしようぜ！夢バトル！\"",
+   "traits": [
+    "デビルハンター",
+    "公安"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/c/csm_s96/csm_s96_t13s.png",
+   "variant": ""
+  },
+  {
+   "num": "CSM/S96-T13SSP",
+   "name": "デビルハンター デンジ",
+   "type": "Character",
+   "rarity": "SSP",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードがアタックした時、他のあなたの、《デビルハンター》か《悪魔》のキャラが2枚以上なら、そのターン中、このカードのパワーを＋2000。\n【自】【CXコンボ】 このカードがアタックした時、クライマックス置場に「ゴミ箱での契約」があり、他のあなたの、《デビルハンター》か《悪魔》のキャラがいるなら、あなたは自分の山札の上から2枚を、控え室に置き、自分の控え室のレベルＸ以下の、《デビルハンター》か《悪魔》のキャラを1枚まで選び、手札に戻す。Ｘはこの効果で控え室に置かれたカードのレベルの合計に等しい。（クライマックスのレベルは0として扱う）\n\"-\"",
+   "traits": [
+    "デビルハンター",
+    "公安"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/c/csm_s96/csm_s96_t13ssp.png",
+   "variant": ""
+  },
+  {
+   "num": "CSM/S96-T14",
+   "name": "急所狙い デンジ",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "5500",
+   "soul": 1,
+   "trigger": "",
+   "text": "-\n\"俺は！男と！喧嘩する！時ゃ！股間！しか！狙わねえ！\"",
+   "traits": [
+    "デビルハンター",
+    "公安"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/c/csm_s96/csm_s96_t14.png",
+   "variant": ""
+  },
+  {
+   "num": "CSM/S96-T14R",
+   "name": "急所狙い デンジ",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "5500",
+   "soul": 1,
+   "trigger": "",
+   "text": "-\n\"俺は！男と！喧嘩する！時ゃ！股間！しか！狙わねえ！\"",
+   "traits": [
+    "デビルハンター",
+    "公安"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/c/csm_s96/csm_s96_t14r.png",
+   "variant": ""
+  },
+  {
+   "num": "CSM/S96-T15",
+   "name": "本気の動機 マキマ",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "red",
+   "level": "1",
+   "cost": "1",
+   "power": "6000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 他のあなたの、《デビルハンター》か《悪魔》のキャラがアタックした時、そのターン中、このカードのパワーを＋Ｘ。Ｘは他のあなたの、《デビルハンター》か《悪魔》のキャラの枚数×500に等しい。\n【自】 アンコール ［あなたの山札の上から1枚をクロック置場に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"ムネダ？\"",
+   "traits": [
+    "デビルハンター",
+    "公安"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/c/csm_s96/csm_s96_t15.png",
+   "variant": ""
+  },
+  {
+   "num": "CSM/S96-T15R",
+   "name": "本気の動機 マキマ",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "red",
+   "level": "1",
+   "cost": "1",
+   "power": "6000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 他のあなたの、《デビルハンター》か《悪魔》のキャラがアタックした時、そのターン中、このカードのパワーを＋Ｘ。Ｘは他のあなたの、《デビルハンター》か《悪魔》のキャラの枚数×500に等しい。\n【自】 アンコール ［あなたの山札の上から1枚をクロック置場に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"ムネダ？\"",
+   "traits": [
+    "デビルハンター",
+    "公安"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/c/csm_s96/csm_s96_t15r.png",
+   "variant": ""
+  },
+  {
+   "num": "CSM/S96-T16",
+   "name": "心臓の秘密 デンジ",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは1枚引き、自分の手札を1枚選び、控え室に置く。\n【起】［このカードを控え室に置く］ あなたは自分の控え室の「悪魔を狩る悪魔 チェンソーマン」を1枚選び、自分の「チェンソーの悪魔 ポチタ」がいる枠に置き、その「チェンソーの悪魔 ポチタ」をその「悪魔を狩る悪魔 チェンソーマン」の下にマーカーとして表向きに置く。\n\"マキマ「キミの親友はキミの中で生きてる」\"",
+   "traits": [
+    "デビルハンター",
+    "公安"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/c/csm_s96/csm_s96_t16.png",
+   "variant": ""
+  },
+  {
+   "num": "CSM/S96-T16R",
+   "name": "心臓の秘密 デンジ",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは1枚引き、自分の手札を1枚選び、控え室に置く。\n【起】［このカードを控え室に置く］ あなたは自分の控え室の「悪魔を狩る悪魔 チェンソーマン」を1枚選び、自分の「チェンソーの悪魔 ポチタ」がいる枠に置き、その「チェンソーの悪魔 ポチタ」をその「悪魔を狩る悪魔 チェンソーマン」の下にマーカーとして表向きに置く。\n\"マキマ「キミの親友はキミの中で生きてる」\"",
+   "traits": [
+    "デビルハンター",
+    "公安"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/c/csm_s96/csm_s96_t16r.png",
+   "variant": ""
+  },
+  {
+   "num": "CSM/S96-T17",
+   "name": "悪魔を狩る悪魔 チェンソーマン",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時か「心臓の秘密 デンジ」の【起】の効果で舞台に置かれた時、あなたは自分の山札を上から3枚まで見て、カードを1枚まで選び、手札に加え、残りのカードを控え室に置く。\n【自】［(1) 手札を1枚控え室に置く］ このカードのバトル相手が【リバース】した時、あなたはコストを払ってよい。そうしたら、あなたは相手の山札の下から4枚を、控え室に置き、相手にＸダメージを与える。Ｘはそれらのカードのクライマックスの枚数に等しい。（ダメージキャンセルは発生する）\n\"-\"",
+   "traits": [
+    "デビルハンター",
+    "公安"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/c/csm_s96/csm_s96_t17.png",
+   "variant": ""
+  },
+  {
+   "num": "CSM/S96-T17OFR",
+   "name": "悪魔を狩る悪魔 チェンソーマン",
+   "type": "Character",
+   "rarity": "OFR",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時か「心臓の秘密 デンジ」の【起】の効果で舞台に置かれた時、あなたは自分の山札を上から3枚まで見て、カードを1枚まで選び、手札に加え、残りのカードを控え室に置く。\n【自】［(1) 手札を1枚控え室に置く］ このカードのバトル相手が【リバース】した時、あなたはコストを払ってよい。そうしたら、あなたは相手の山札の下から4枚を、控え室に置き、相手にＸダメージを与える。Ｘはそれらのカードのクライマックスの枚数に等しい。（ダメージキャンセルは発生する）\n\"-\"",
+   "traits": [
+    "デビルハンター",
+    "公安"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/c/csm_s96/csm_s96_t17ofr.png",
+   "variant": ""
+  },
+  {
+   "num": "CSM/S96-T18",
+   "name": "愚かじゃな！ パワー",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n【自】［(1) 他のあなたの舞台の、《デビルハンター》か《悪魔》のキャラを1枚控え室に置く］ このカードがアタックした時、あなたはコストを払ってよい。そうしたら、あなたは相手の控え室のカードを2枚まで選び、山札に戻し、相手はその山札をシャッフルし、そのターン中、このカードのパワーを＋1000。\n\"人間は愚かじゃな！\"",
+   "traits": [
+    "デビルハンター",
+    "公安"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/c/csm_s96/csm_s96_t18.png",
+   "variant": ""
+  },
+  {
+   "num": "CSM/S96-T18R",
+   "name": "愚かじゃな！ パワー",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n【自】［(1) 他のあなたの舞台の、《デビルハンター》か《悪魔》のキャラを1枚控え室に置く］ このカードがアタックした時、あなたはコストを払ってよい。そうしたら、あなたは相手の控え室のカードを2枚まで選び、山札に戻し、相手はその山札をシャッフルし、そのターン中、このカードのパワーを＋1000。\n\"人間は愚かじゃな！\"",
+   "traits": [
+    "デビルハンター",
+    "公安"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/c/csm_s96/csm_s96_t18r.png",
+   "variant": ""
+  },
+  {
+   "num": "CSM/S96-T19",
+   "name": "ゴミ箱での契約",
+   "type": "Climax",
+   "rarity": "TD",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[salvage.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[salvage.gif]]：このカードがトリガーした時、あなたは自分の控え室のキャラを1枚選び、手札に戻してよい）\n\"デンジ「……俺の体…ちゃんと奪えたか？」\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/c/csm_s96/csm_s96_t19.png",
+   "variant": ""
+  },
+  {
+   "num": "CSM/S96-T19OFR",
+   "name": "ゴミ箱での契約",
+   "type": "Climax",
+   "rarity": "OFR",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[salvage.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[salvage.gif]]：このカードがトリガーした時、あなたは自分の控え室のキャラを1枚選び、手札に戻してよい）\n\"デンジ「……俺の体…ちゃんと奪えたか？」\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/c/csm_s96/csm_s96_t19ofr.png",
+   "variant": ""
+  },
+  {
+   "num": "CSM/S96-T20",
+   "name": "悪魔の咆哮",
+   "type": "Climax",
+   "rarity": "TD",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【永】 あなたのキャラすべてに、ソウルを＋2。\n\"まだ!!一揉みもしてねーんだよォォォォォォォォ!!\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/c/csm_s96/csm_s96_t20.png",
+   "variant": ""
+  },
+  {
+   "num": "CSM/S96-T20R",
+   "name": "悪魔の咆哮",
+   "type": "Climax",
+   "rarity": "RRR",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【永】 あなたのキャラすべてに、ソウルを＋2。\n\"まだ!!一揉みもしてねーんだよォォォォォォォォ!!\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/c/csm_s96/csm_s96_t20r.png",
+   "variant": ""
+  }
+ ]
+}

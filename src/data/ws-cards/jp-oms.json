@@ -1,0 +1,2595 @@
+{
+ "id": "jp-oms",
+ "name": "おそ松さん",
+ "expansion": 171,
+ "lang": "jp",
+ "release": null,
+ "shopItem": null,
+ "box": null,
+ "cards": [
+  {
+   "num": "OMS/S41-001",
+   "name": "“一緒にチェキ”橋本にゃー",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "yellow",
+   "level": "3",
+   "cost": "2",
+   "power": "9500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたの控え室のクライマックスが2枚以下なら、あなたの手札のこのカードのレベルを－1。\n【永】 あなたのキャラすべてが黄なら、このカードのパワーを＋1000。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札を上からＸ枚まで見て、カードを1枚まで選び、手札に加え、残りのカードを控え室に置く。Ｘはあなたの黄のキャラの枚数に等しい。\n\"おそ松「チェキ１０００円？たっか！」\"",
+   "traits": [
+    "音楽",
+    "動物"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/o/oms_s41/oms_s41_001.png",
+   "variant": ""
+  },
+  {
+   "num": "OMS/S41-001S",
+   "name": "“一緒にチェキ”橋本にゃー",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "yellow",
+   "level": "3",
+   "cost": "2",
+   "power": "9500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたの控え室のクライマックスが2枚以下なら、あなたの手札のこのカードのレベルを－1。\n【永】 あなたのキャラすべてが黄なら、このカードのパワーを＋1000。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札を上からＸ枚まで見て、カードを1枚まで選び、手札に加え、残りのカードを控え室に置く。Ｘはあなたの黄のキャラの枚数に等しい。\n\"SECRET\"",
+   "traits": [
+    "音楽",
+    "動物"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/o/oms_s41/oms_s41_001s.png",
+   "variant": ""
+  },
+  {
+   "num": "OMS/S41-002",
+   "name": "“超絶かわいいヒロイン”トト子",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "yellow",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n【自】［手札を1枚控え室に置く］ このカードのバトル相手が【リバース】した時、あなたのクライマックス置場に「トト子の夢」があるなら、あなたはコストを払ってよい。そうしたら、あなたは他の自分のキャラを2枚まで選び、そのターン中、次の能力を与える。『【自】 この能力は1ターンにつき1回まで発動する。このカードの与えたダメージがキャンセルされた時、あなたは自分の山札の上から1枚を、控え室に置き、相手にＸダメージを与える。Ｘはそのカードのレベル＋1に等しい。』（クライマックスのレベルは0として扱う。ダメージキャンセルは発生する）\n\"私は有名になってただチヤホヤされたいだけ！\"",
+   "traits": [
+    "音楽",
+    "魚"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/o/oms_s41/oms_s41_002.png",
+   "variant": ""
+  },
+  {
+   "num": "OMS/S41-002S",
+   "name": "“超絶かわいいヒロイン”トト子",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "yellow",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n【自】［手札を1枚控え室に置く］ このカードのバトル相手が【リバース】した時、あなたのクライマックス置場に「トト子の夢」があるなら、あなたはコストを払ってよい。そうしたら、あなたは他の自分のキャラを2枚まで選び、そのターン中、次の能力を与える。『【自】 この能力は1ターンにつき1回まで発動する。このカードの与えたダメージがキャンセルされた時、あなたは自分の山札の上から1枚を、控え室に置き、相手にＸダメージを与える。Ｘはそのカードのレベル＋1に等しい。』（クライマックスのレベルは0として扱う。ダメージキャンセルは発生する）\n\"SECRET\"",
+   "traits": [
+    "音楽",
+    "魚"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/o/oms_s41/oms_s41_002s.png",
+   "variant": ""
+  },
+  {
+   "num": "OMS/S41-003",
+   "name": "“主役争奪レース”トト子",
+   "type": "Character",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのターン中、他のあなたのキャラすべてに、パワーを＋500。\n【起】 集中 ［(1) あなたのキャラを2枚【レスト】する］ あなたは自分の山札の上から4枚をめくり、控え室に置く。それらのカードのクライマックス1枚につき、あなたは自分の山札を見て黄のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"勝ったら主役だって、どうしよう\"",
+   "traits": [
+    "音楽",
+    "魚"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/o/oms_s41/oms_s41_003.png",
+   "variant": ""
+  },
+  {
+   "num": "OMS/S41-003S",
+   "name": "“主役争奪レース”トト子",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのターン中、他のあなたのキャラすべてに、パワーを＋500。\n【起】 集中 ［(1) あなたのキャラを2枚【レスト】する］ あなたは自分の山札の上から4枚をめくり、控え室に置く。それらのカードのクライマックス1枚につき、あなたは自分の山札を見て黄のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"SECRET\"",
+   "traits": [
+    "音楽",
+    "魚"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/o/oms_s41/oms_s41_003s.png",
+   "variant": ""
+  },
+  {
+   "num": "OMS/S41-004",
+   "name": "赤塚不二夫",
+   "type": "Character",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードがアタックした時、あなたは自分の山札の上から1枚を公開する。そのカードが黄のキャラなら手札に加え、あなたは自分の手札を1枚選び、控え室に置く。（そうでないなら元に戻す）\n【自】 このカードがアタックした時、あなたは他の自分のキャラを1枚選び、そのターン中、パワーを＋Ｘ。Ｘはそのキャラのソウル×1000に等しい。\n\"おそ松「ねぇ赤塚先生。これでいいのだ～」\"",
+   "traits": [
+    "先生",
+    "漫画"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/o/oms_s41/oms_s41_004.png",
+   "variant": ""
+  },
+  {
+   "num": "OMS/S41-005",
+   "name": "“主役争奪レース”イヤミ",
+   "type": "Character",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの黄のキャラが2枚以上なら、このカードのパワーを＋2000。\n【自】［手札の黄のキャラを1枚控え室に置く］ このカードがアタックした時、クライマックス置場に「逆襲のイヤミ」があるなら、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見て黄のキャラを1枚まで選んで相手に見せ、手札に加える。その後、その山札をシャッフルし、そのターン中、このカードのパワーを＋1500。\n\"ミーがこのボタンを押せばすべて終わり。時速１０００ｋｍの車体がチミ達全員を吹き飛ばしごぼう抜きザンス\"",
+   "traits": [
+    "出っ歯"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/o/oms_s41/oms_s41_005.png",
+   "variant": ""
+  },
+  {
+   "num": "OMS/S41-006",
+   "name": "十四松の好きな人",
+   "type": "Character",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1) 手札を1枚控え室に置き、このカードを思い出にする］ バトル中のこのカードが【リバース】した時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見てカード名に「十四松」を含むキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"-\"",
+   "traits": [
+    "特徴なし"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/o/oms_s41/oms_s41_006.png",
+   "variant": ""
+  },
+  {
+   "num": "OMS/S41-007",
+   "name": "“レンタル彼女”チビ美",
+   "type": "Character",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 相手のアタックフェイズの始めに、あなたは自分の山札の上から1枚を、控え室に置いてよい。そのカードが黄のキャラなら、あなたはこのカードを前列のキャラのいない枠に動かしてよい。\n\"いちいち手間だからお財布ちょうだい\"",
+   "traits": [
+    "おでん"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/o/oms_s41/oms_s41_007.png",
+   "variant": ""
+  },
+  {
+   "num": "OMS/S41-008",
+   "name": "“サンタ服”トト子",
+   "type": "Character",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの黄のキャラ1枚につき、このカードのパワーを＋500。\n\"-\"",
+   "traits": [
+    "音楽",
+    "魚"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/o/oms_s41/oms_s41_008.png",
+   "variant": ""
+  },
+  {
+   "num": "OMS/S41-009",
+   "name": "“みんなのアイドル”橋本にゃー",
+   "type": "Character",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードがアタックした時、クライマックス置場に「ニャンとニャイト」があり、他のあなたの黄のキャラがいるなら、あなたは自分の山札を上から4枚まで見て、黄のキャラを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。\n\"-\"",
+   "traits": [
+    "音楽",
+    "動物"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/o/oms_s41/oms_s41_009.png",
+   "variant": ""
+  },
+  {
+   "num": "OMS/S41-009S",
+   "name": "“みんなのアイドル”橋本にゃー",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードがアタックした時、クライマックス置場に「ニャンとニャイト」があり、他のあなたの黄のキャラがいるなら、あなたは自分の山札を上から4枚まで見て、黄のキャラを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。\n\"SECRET\"",
+   "traits": [
+    "音楽",
+    "動物"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/o/oms_s41/oms_s41_009s.png",
+   "variant": ""
+  },
+  {
+   "num": "OMS/S41-010",
+   "name": "イヤミ",
+   "type": "Character",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "3",
+   "cost": "2",
+   "power": "8500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたの黄のキャラが4枚以上なら、あなたの手札のこのカードのレベルを－1。\n【永】 他のあなたの黄のキャラが3枚以上なら、このカードのパワーを＋1500し、このカードは次の能力を得る。『【自】 このカードのバトル相手が【リバース】した時、あなたはそのキャラを思い出にしてよい。』\n【自】 このカードが手札から舞台に置かれた時、あなたは1枚まで引き、そのターン中、このカードのパワーを＋2000。\n\"うっひょー！\"",
+   "traits": [
+    "出っ歯"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/o/oms_s41/oms_s41_010.png",
+   "variant": ""
+  },
+  {
+   "num": "OMS/S41-010a",
+   "name": "イヤミ",
+   "type": "Character",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "3",
+   "cost": "2",
+   "power": "8500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたの黄のキャラが4枚以上なら、あなたの手札のこのカードのレベルを－1。\n【永】 他のあなたの黄のキャラが3枚以上なら、このカードのパワーを＋1500し、このカードは次の能力を得る。『【自】 このカードのバトル相手が【リバース】した時、あなたはそのキャラを思い出にしてよい。』\n【自】 このカードが手札から舞台に置かれた時、あなたは1枚まで引き、そのターン中、このカードのパワーを＋2000。\n\"SECRET\"",
+   "traits": [
+    "出っ歯"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/o/oms_s41/oms_s41_010a.png",
+   "variant": ""
+  },
+  {
+   "num": "OMS/S41-011",
+   "name": "“科学者”デカパン博士",
+   "type": "Character",
+   "rarity": "U",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの黄のキャラすべてに、パワーを＋500。\n【自】 このカードが手札から舞台に置かれた時、あなたは他の自分のレベル1以下のキャラを1枚選び、そのターン中、パワーを＋1000。\n\"名づけてイヤメタル\"",
+   "traits": [
+    "パンツ",
+    "科学"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/o/oms_s41/oms_s41_011.png",
+   "variant": ""
+  },
+  {
+   "num": "OMS/S41-012",
+   "name": "橋本にゃー",
+   "type": "Character",
+   "rarity": "U",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1) あなたの山札の上から1枚をクロック置場に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見てレベル1以下の黄のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"-\"",
+   "traits": [
+    "音楽",
+    "動物"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/o/oms_s41/oms_s41_012.png",
+   "variant": ""
+  },
+  {
+   "num": "OMS/S41-013",
+   "name": "ハタ坊",
+   "type": "Character",
+   "rarity": "U",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、相手の控え室のクライマックスが3枚以上なら、このカードを【レスト】する。\n\"みんなどうしたジョー\"",
+   "traits": [
+    "旗"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/o/oms_s41/oms_s41_013.png",
+   "variant": ""
+  },
+  {
+   "num": "OMS/S41-013a",
+   "name": "ハタ坊",
+   "type": "Character",
+   "rarity": "U",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、相手の控え室のクライマックスが3枚以上なら、このカードを【レスト】する。\n\"SECRET\"",
+   "traits": [
+    "旗"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/o/oms_s41/oms_s41_013a.png",
+   "variant": ""
+  },
+  {
+   "num": "OMS/S41-014",
+   "name": "“ミスターフラッグ”ハタ坊",
+   "type": "Character",
+   "rarity": "U",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 あなたがこのカードの『助太刀』を使った時、あなたは自分のバトル中の黄のキャラを1枚選び、そのターン中、パワーを＋1000。\n【起】【カウンター】 助太刀1000 レベル1 ［手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋1000）\n\"これで友達だジョー！\"",
+   "traits": [
+    "旗"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/o/oms_s41/oms_s41_014.png",
+   "variant": ""
+  },
+  {
+   "num": "OMS/S41-015",
+   "name": "“レンタル彼女”イヤ代",
+   "type": "Character",
+   "rarity": "U",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードがアタックした時、そのターン中、このカードのパワーを＋Ｘ。Ｘは他のあなたの黄のキャラの枚数×500に等しい。\n【自】 アンコール ［手札のキャラを1枚控え室に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"-\"",
+   "traits": [
+    "出っ歯"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/o/oms_s41/oms_s41_015.png",
+   "variant": ""
+  },
+  {
+   "num": "OMS/S41-016",
+   "name": "ダヨーン",
+   "type": "Character",
+   "rarity": "U",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】［(2) あなたの舞台のキャラを1枚控え室に置く］ あなたがこのカードの『助太刀』を使った時、あなたはコストを払ってよい。そうしたら、あなたは相手の、レベルが相手のレベルより高いキャラを1枚選び、ストック置場に置く。\n【起】【カウンター】 助太刀2500 レベル2 ［(1) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋2500）\n\"-\"",
+   "traits": [
+    "謎"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/o/oms_s41/oms_s41_016.png",
+   "variant": ""
+  },
+  {
+   "num": "OMS/S41-016a",
+   "name": "ダヨーン",
+   "type": "Character",
+   "rarity": "U",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】［(2) あなたの舞台のキャラを1枚控え室に置く］ あなたがこのカードの『助太刀』を使った時、あなたはコストを払ってよい。そうしたら、あなたは相手の、レベルが相手のレベルより高いキャラを1枚選び、ストック置場に置く。\n【起】【カウンター】 助太刀2500 レベル2 ［(1) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋2500）\n\"SECRET\"",
+   "traits": [
+    "謎"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/o/oms_s41/oms_s41_016a.png",
+   "variant": ""
+  },
+  {
+   "num": "OMS/S41-017",
+   "name": "“おでん屋”チビ太",
+   "type": "Character",
+   "rarity": "U",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋Ｘ。Ｘはそのキャラのレベル×500に等しい。\n【自】 あなたのクライマックス置場に「仕込みの極意」が置かれた時、他のあなたの黄のキャラが4枚以上なら、あなたは相手のキャラを1枚選び、手札に戻してよい。\n\"おでん作る上で一番大事なのは何かわかるか？\"",
+   "traits": [
+    "おでん"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/o/oms_s41/oms_s41_017.png",
+   "variant": ""
+  },
+  {
+   "num": "OMS/S41-018",
+   "name": "“クリスマスの奇跡”トト子",
+   "type": "Character",
+   "rarity": "U",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "8000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、他のあなたの黄のキャラが3枚以上で、あなたの山札が5枚以下なら、あなたは自分の控え室のカードすべてを山札に戻す。そうしたら、その山札をシャッフルし、あなたは相手のキャラを1枚まで選び、手札に戻し、そのターン中、このカードのパワーを＋2000。\n\"-\"",
+   "traits": [
+    "音楽",
+    "魚"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/o/oms_s41/oms_s41_018.png",
+   "variant": ""
+  },
+  {
+   "num": "OMS/S41-019",
+   "name": "デカパン",
+   "type": "Character",
+   "rarity": "U",
+   "color": "yellow",
+   "level": "2",
+   "cost": "2",
+   "power": "7500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、他のあなたの黄のキャラが4枚以上なら、あなたは自分の山札の上から1枚を、ストック置場に置いてよい。\n【自】 このカードがアタックした時、このカードの正面のキャラのレベルが3以上なら、そのターン中、このカードのパワーを＋6000。\n\"ホエー\"",
+   "traits": [
+    "パンツ",
+    "科学"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/o/oms_s41/oms_s41_019.png",
+   "variant": ""
+  },
+  {
+   "num": "OMS/S41-019a",
+   "name": "デカパン",
+   "type": "Character",
+   "rarity": "U",
+   "color": "yellow",
+   "level": "2",
+   "cost": "2",
+   "power": "7500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、他のあなたの黄のキャラが4枚以上なら、あなたは自分の山札の上から1枚を、ストック置場に置いてよい。\n【自】 このカードがアタックした時、このカードの正面のキャラのレベルが3以上なら、そのターン中、このカードのパワーを＋6000。\n\"SECRET\"",
+   "traits": [
+    "パンツ",
+    "科学"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/o/oms_s41/oms_s41_019a.png",
+   "variant": ""
+  },
+  {
+   "num": "OMS/S41-020",
+   "name": "“くノ一”トト子",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "",
+   "text": "-\n\"それ私が水遁の術で使う竹筒でしょ！返しなさい！\"",
+   "traits": [
+    "音楽",
+    "魚"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/o/oms_s41/oms_s41_020.png",
+   "variant": ""
+  },
+  {
+   "num": "OMS/S41-021",
+   "name": "聖澤庄之助",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 舞台にこのカードがいるなら、このカードのカード名は「NEWおそ松兄さん」としても扱う。\n\"-\"",
+   "traits": [
+    "謎"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/o/oms_s41/oms_s41_021.png",
+   "variant": ""
+  },
+  {
+   "num": "OMS/S41-022",
+   "name": "チビ太",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "5500",
+   "soul": 1,
+   "trigger": "",
+   "text": "-\n\"おいらはおでんが大好きだから銀河一うめぇもん作れるんだ\"",
+   "traits": [
+    "おでん"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/o/oms_s41/oms_s41_022.png",
+   "variant": ""
+  },
+  {
+   "num": "OMS/S41-022a",
+   "name": "チビ太",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "5500",
+   "soul": 1,
+   "trigger": "",
+   "text": "-\n\"SECRET\"",
+   "traits": [
+    "おでん"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/o/oms_s41/oms_s41_022a.png",
+   "variant": ""
+  },
+  {
+   "num": "OMS/S41-023",
+   "name": "“ハッピーデビューコンサート”トト子",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "1",
+   "cost": "1",
+   "power": "6000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのキャラすべてが黄なら、このカードのパワーを＋500し、このカードは『【自】 アンコール ［あなたの山札の上から1枚をクロック置場に置く］』を得る。\n【自】 他のあなたの黄のキャラがアタックした時、そのターン中、このカードのパワーを＋1000。\n\"♪ウロコを剥がさないで胸がいっぱい(イカは1杯)恋は幻(一夜干し)人類みなエラ呼吸(ぱくぱくぱくいぇーい)\"",
+   "traits": [
+    "音楽",
+    "魚"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/o/oms_s41/oms_s41_023.png",
+   "variant": ""
+  },
+  {
+   "num": "OMS/S41-024",
+   "name": "お魚アイドル",
+   "type": "Event",
+   "rarity": "U",
+   "color": "yellow",
+   "level": "3",
+   "cost": "4",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "相手に6ダメージを与える。このダメージがキャンセルされたなら、相手に1ダメージを与える。（ダメージキャンセルは発生する）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/o/oms_s41/oms_s41_024.png",
+   "variant": ""
+  },
+  {
+   "num": "OMS/S41-025",
+   "name": "トト子の夢",
+   "type": "Climax",
+   "rarity": "CR",
+   "color": "yellow",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[shot.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。（[[shot.gif]]：このターン中、このカードをトリガーした攻撃キャラが次に与えるダメージがキャンセルされた時、相手に1ダメージを与える）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/o/oms_s41/oms_s41_025.png",
+   "variant": ""
+  },
+  {
+   "num": "OMS/S41-026",
+   "name": "ニャンとニャイト",
+   "type": "Climax",
+   "rarity": "CC",
+   "color": "yellow",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【自】 このカードが手札からクライマックス置場に置かれた時、あなたは自分の控え室の黄のカードを1枚まで選び、ストック置場に置き、自分のキャラすべてに、そのターン中、ソウルを＋1。\n\"チョロ松「アメショ！ペルシャ！ミケ！マンチカン！スコ！シャム！ロシアンブルー！」\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/o/oms_s41/oms_s41_026.png",
+   "variant": ""
+  },
+  {
+   "num": "OMS/S41-027",
+   "name": "逆襲のイヤミ",
+   "type": "Climax",
+   "rarity": "CC",
+   "color": "yellow",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【自】 このカードが手札からクライマックス置場に置かれた時、あなたは1枚引き、自分のキャラを1枚選び、そのターン中、パワーを＋2000し、ソウルを＋1。\n\"今日をもってミーが主役に返り咲くザンス\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/o/oms_s41/oms_s41_027.png",
+   "variant": ""
+  },
+  {
+   "num": "OMS/S41-028",
+   "name": "仕込みの極意",
+   "type": "Climax",
+   "rarity": "CC",
+   "color": "yellow",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[bounce.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。（[[bounce.gif]]：このカードがトリガーした時、あなたは相手のキャラを1枚選び、手札に戻してよい）\n\"つまり…こうやんだよ\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/o/oms_s41/oms_s41_028.png",
+   "variant": ""
+  },
+  {
+   "num": "OMS/S41-029",
+   "name": "“お気に入りの一枚”チョロ松",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの前列の中央の枠のキャラに、パワーを＋500。\n【起】 集中 ［(1) このカードを【レスト】する］ あなたは自分の山札の上から4枚をめくり、控え室に置く。それらのカードのクライマックス1枚につき、あなたは自分の山札を見てカード名に「松」を含むキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"超絶かわいいよ！トト子！\"",
+   "traits": [
+    "６つ子",
+    "オタク"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/o/oms_s41/oms_s41_029.png",
+   "variant": ""
+  },
+  {
+   "num": "OMS/S41-029SP",
+   "name": "“お気に入りの一枚”チョロ松",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの前列の中央の枠のキャラに、パワーを＋500。\n【起】 集中 ［(1) このカードを【レスト】する］ あなたは自分の山札の上から4枚をめくり、控え室に置く。それらのカードのクライマックス1枚につき、あなたは自分の山札を見てカード名に「松」を含むキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"SECRET\"",
+   "traits": [
+    "６つ子",
+    "オタク"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/o/oms_s41/oms_s41_029sp.png",
+   "variant": ""
+  },
+  {
+   "num": "OMS/S41-030",
+   "name": "“お気に入りの一枚”カラ松",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を上から4枚まで見て、カード名に「松」を含むキャラを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。\n\"やっと会えたなデスティニー\"",
+   "traits": [
+    "６つ子",
+    "まゆげ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/o/oms_s41/oms_s41_030.png",
+   "variant": ""
+  },
+  {
+   "num": "OMS/S41-030SP",
+   "name": "“お気に入りの一枚”カラ松",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を上から4枚まで見て、カード名に「松」を含むキャラを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。\n\"SECRET\"",
+   "traits": [
+    "６つ子",
+    "まゆげ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/o/oms_s41/oms_s41_030sp.png",
+   "variant": ""
+  },
+  {
+   "num": "OMS/S41-031",
+   "name": "“お気に入りの一枚”おそ松",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "green",
+   "level": "3",
+   "cost": "2",
+   "power": "9000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたの控え室のクライマックスが6枚以上なら、あなたの手札のこのカードのレベルを－1。\n【永】 他のあなたのカード名に「松」を含むキャラが2枚以上なら、このカードのパワーを＋2000。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n\"そんなの俺が勝つでしょ、だって主役だし\"",
+   "traits": [
+    "６つ子",
+    "ギャンブル"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/o/oms_s41/oms_s41_031.png",
+   "variant": ""
+  },
+  {
+   "num": "OMS/S41-031SP",
+   "name": "“お気に入りの一枚”おそ松",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "green",
+   "level": "3",
+   "cost": "2",
+   "power": "9000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたの控え室のクライマックスが6枚以上なら、あなたの手札のこのカードのレベルを－1。\n【永】 他のあなたのカード名に「松」を含むキャラが2枚以上なら、このカードのパワーを＋2000。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n\"SECRET\"",
+   "traits": [
+    "６つ子",
+    "ギャンブル"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/o/oms_s41/oms_s41_031sp.png",
+   "variant": ""
+  },
+  {
+   "num": "OMS/S41-032",
+   "name": "“スイーツ男子”おそ松",
+   "type": "Character",
+   "rarity": "R",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたのカード名に「松」を含むキャラすべてに、パワーを＋500。\n【起】［(2) このカードを【レスト】する］ あなたは自分の山札を見てカード名に「松」を含むキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"なんで４個だよ！どうやって分けるんだよこれ！\"",
+   "traits": [
+    "６つ子",
+    "ギャンブル"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/o/oms_s41/oms_s41_032.png",
+   "variant": ""
+  },
+  {
+   "num": "OMS/S41-032R",
+   "name": "“スイーツ男子”おそ松",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたのカード名に「松」を含むキャラすべてに、パワーを＋500。\n【起】［(2) このカードを【レスト】する］ あなたは自分の山札を見てカード名に「松」を含むキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"SECRET\"",
+   "traits": [
+    "６つ子",
+    "ギャンブル"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/o/oms_s41/oms_s41_032r.png",
+   "variant": ""
+  },
+  {
+   "num": "OMS/S41-033",
+   "name": "“F６”カラ松",
+   "type": "Character",
+   "rarity": "R",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分のカード名に「松」を含むキャラを1枚選び、そのターン中、パワーを＋1500。\n\"心配するな。履いてるぜ\"",
+   "traits": [
+    "６つ子",
+    "まゆげ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/o/oms_s41/oms_s41_033.png",
+   "variant": ""
+  },
+  {
+   "num": "OMS/S41-033S",
+   "name": "“F６”カラ松",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分のカード名に「松」を含むキャラを1枚選び、そのターン中、パワーを＋1500。\n\"SECRET\"",
+   "traits": [
+    "６つ子",
+    "まゆげ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/o/oms_s41/oms_s41_033s.png",
+   "variant": ""
+  },
+  {
+   "num": "OMS/S41-034",
+   "name": "“F６”おそ松",
+   "type": "Character",
+   "rarity": "R",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードがアタックした時、他のあなたのカード名に「松」を含むキャラが2枚以上なら、そのターン中、このカードのパワーを＋2000。\n【自】 アンコール ［あなたの山札の上から1枚をクロック置場に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"そう、F６なのさ\"",
+   "traits": [
+    "６つ子",
+    "ギャンブル"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/o/oms_s41/oms_s41_034.png",
+   "variant": ""
+  },
+  {
+   "num": "OMS/S41-034S",
+   "name": "“F６”おそ松",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードがアタックした時、他のあなたのカード名に「松」を含むキャラが2枚以上なら、そのターン中、このカードのパワーを＋2000。\n【自】 アンコール ［あなたの山札の上から1枚をクロック置場に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"SECRET\"",
+   "traits": [
+    "６つ子",
+    "ギャンブル"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/o/oms_s41/oms_s41_034s.png",
+   "variant": ""
+  },
+  {
+   "num": "OMS/S41-035",
+   "name": "“ライジングシコースキー”チョロ松",
+   "type": "Character",
+   "rarity": "R",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたのカード名に「松」を含むキャラが2枚以上なら、このカードのパワーを＋1000。\n【自】 このカードのバトル相手が【リバース】した時、あなたのクライマックス置場に「チョロ松ライジング」があるなら、あなたは自分の山札の上から2枚までを、ストック置場に置く。\n\"無理だよ、帰ろうよ\"",
+   "traits": [
+    "６つ子",
+    "オタク"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/o/oms_s41/oms_s41_035.png",
+   "variant": ""
+  },
+  {
+   "num": "OMS/S41-036",
+   "name": "“スイーツ男子”カラ松",
+   "type": "Character",
+   "rarity": "R",
+   "color": "green",
+   "level": "3",
+   "cost": "2",
+   "power": "9000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 このカードの正面のキャラとこのカードのレベルの合計が6以上なら、このカードのパワーを＋2000。\n【自】 このカードが手札から舞台に置かれた時、あなたは相手の前列のキャラを1枚選び、そのターン中、パワーを－4500。\n【自】 このカードがアタックした時、クライマックス置場に「ハリネズミのジレンマ」があるなら、あなたは自分のクロックの上から1枚を、ストック置場に置いてよい。\n\"うますぎる！\"",
+   "traits": [
+    "６つ子",
+    "まゆげ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/o/oms_s41/oms_s41_036.png",
+   "variant": ""
+  },
+  {
+   "num": "OMS/S41-036R",
+   "name": "“スイーツ男子”カラ松",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "green",
+   "level": "3",
+   "cost": "2",
+   "power": "9000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 このカードの正面のキャラとこのカードのレベルの合計が6以上なら、このカードのパワーを＋2000。\n【自】 このカードが手札から舞台に置かれた時、あなたは相手の前列のキャラを1枚選び、そのターン中、パワーを－4500。\n【自】 このカードがアタックした時、クライマックス置場に「ハリネズミのジレンマ」があるなら、あなたは自分のクロックの上から1枚を、ストック置場に置いてよい。\n\"SECRET\"",
+   "traits": [
+    "６つ子",
+    "まゆげ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/o/oms_s41/oms_s41_036r.png",
+   "variant": ""
+  },
+  {
+   "num": "OMS/S41-037",
+   "name": "“スイーツ男子”チョロ松",
+   "type": "Character",
+   "rarity": "R",
+   "color": "green",
+   "level": "3",
+   "cost": "2",
+   "power": "9000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたのストックが6枚以上なら、このカードのパワーを＋3000。\n【自】 このカードが手札から舞台に置かれた時、あなたは2枚まで引き、自分の手札を2枚選び、控え室に置き、自分の山札の上から1枚までを、ストック置場に置く。\n【自】［(2) 手札を1枚控え室に置く］ このカードのバトル相手が【リバース】した時、あなたはコストを払ってよい。そうしたら、あなたはそのキャラをクロック置場に置く。\n\"なにこれすげーうまいよ！\"",
+   "traits": [
+    "６つ子",
+    "オタク"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/o/oms_s41/oms_s41_037.png",
+   "variant": ""
+  },
+  {
+   "num": "OMS/S41-037R",
+   "name": "“スイーツ男子”チョロ松",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "green",
+   "level": "3",
+   "cost": "2",
+   "power": "9000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたのストックが6枚以上なら、このカードのパワーを＋3000。\n【自】 このカードが手札から舞台に置かれた時、あなたは2枚まで引き、自分の手札を2枚選び、控え室に置き、自分の山札の上から1枚までを、ストック置場に置く。\n【自】［(2) 手札を1枚控え室に置く］ このカードのバトル相手が【リバース】した時、あなたはコストを払ってよい。そうしたら、あなたはそのキャラをクロック置場に置く。\n\"SECRET\"",
+   "traits": [
+    "６つ子",
+    "オタク"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/o/oms_s41/oms_s41_037r.png",
+   "variant": ""
+  },
+  {
+   "num": "OMS/S41-038",
+   "name": "“F６”チョロ松",
+   "type": "Character",
+   "rarity": "U",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが【リバース】した時、このカードのバトル相手のレベルが0以下なら、あなたは相手のクロックの上から1枚を、控え室に置いてよい。そうしたら、あなたはそのキャラをクロック置場に置く。\n\"え、救われましたよね？\"",
+   "traits": [
+    "６つ子",
+    "オタク"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/o/oms_s41/oms_s41_038.png",
+   "variant": ""
+  },
+  {
+   "num": "OMS/S41-038S",
+   "name": "“F６”チョロ松",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが【リバース】した時、このカードのバトル相手のレベルが0以下なら、あなたは相手のクロックの上から1枚を、控え室に置いてよい。そうしたら、あなたはそのキャラをクロック置場に置く。\n\"SECRET\"",
+   "traits": [
+    "６つ子",
+    "オタク"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/o/oms_s41/oms_s41_038s.png",
+   "variant": ""
+  },
+  {
+   "num": "OMS/S41-039",
+   "name": "“罵詈雑言”おそ松",
+   "type": "Character",
+   "rarity": "U",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは相手のキャラを1枚選び、そのターン中、パワーを－500。\n\"レンタル彼女？ただのバケモノ！鏡見ろバーカ！\"",
+   "traits": [
+    "６つ子",
+    "ギャンブル"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/o/oms_s41/oms_s41_039.png",
+   "variant": ""
+  },
+  {
+   "num": "OMS/S41-040",
+   "name": "“お祭り男”カラ松",
+   "type": "Character",
+   "rarity": "U",
+   "color": "green",
+   "level": "1",
+   "cost": "1",
+   "power": "5500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 他のあなたのカード名に「松」を含むキャラがアタックした時、そのターン中、このカードのパワーを＋1500。\n【自】 アンコール ［手札のキャラを1枚控え室に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"そしてサンシャイン…を浴びている俺！\"",
+   "traits": [
+    "６つ子",
+    "まゆげ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/o/oms_s41/oms_s41_040.png",
+   "variant": ""
+  },
+  {
+   "num": "OMS/S41-041",
+   "name": "“お祭り男”チョロ松",
+   "type": "Character",
+   "rarity": "U",
+   "color": "green",
+   "level": "1",
+   "cost": "1",
+   "power": "6000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたのカード名に「松」を含むキャラが2枚以上なら、このカードのパワーを＋2000。\n\"十四松まつりってこういうことなの！？\"",
+   "traits": [
+    "６つ子",
+    "オタク"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/o/oms_s41/oms_s41_041.png",
+   "variant": ""
+  },
+  {
+   "num": "OMS/S41-042",
+   "name": "“なごみ探偵”おそ松",
+   "type": "Character",
+   "rarity": "U",
+   "color": "green",
+   "level": "2",
+   "cost": "1",
+   "power": "8000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードがアタックした時、クライマックス置場に「なごみのおそ松」があるなら、あなたは自分の控え室のカード名に「松」を含むキャラを1枚まで選び、ストック置場に置き、そのターン中、このカードのパワーを＋3000。\n\"トド松刑事「探偵でもなんでもないただのバカじゃん！」\"",
+   "traits": [
+    "６つ子",
+    "ギャンブル"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/o/oms_s41/oms_s41_042.png",
+   "variant": ""
+  },
+  {
+   "num": "OMS/S41-043",
+   "name": "“罪な男”カラ松",
+   "type": "Character",
+   "rarity": "U",
+   "color": "green",
+   "level": "2",
+   "cost": "2",
+   "power": "6500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたのカード名に「松」を含むキャラが4枚以上なら、あなたの手札のこのカードのレベルを－1。\n【永】 あなたのキャラすべてがカード名に「松」を含むなら、このカードのパワーを＋3000。\n\"分かった。こうか\"",
+   "traits": [
+    "６つ子",
+    "まゆげ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/o/oms_s41/oms_s41_043.png",
+   "variant": ""
+  },
+  {
+   "num": "OMS/S41-044",
+   "name": "“アイドルオタク”チョロ松",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 前列の中央の枠にこのカードがいるなら、このカードのパワーを＋3000。\n\"にゃーちゃん！超絶かわいいよ！にゃーちゃん！\"",
+   "traits": [
+    "６つ子",
+    "オタク"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/o/oms_s41/oms_s41_044.png",
+   "variant": ""
+  },
+  {
+   "num": "OMS/S41-045",
+   "name": "松野松代＆松野松造",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【起】［あなたのキャラを2枚【レスト】する］ そのターン中、このカードのパワーを＋2000。\n\"松代「ニート達、梨がむけたわよ！」\"",
+   "traits": [
+    "家族"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/o/oms_s41/oms_s41_045.png",
+   "variant": ""
+  },
+  {
+   "num": "OMS/S41-046",
+   "name": "“罵詈雑言”カラ松",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "",
+   "text": "-\n\"フッ、吐きそうだ\"",
+   "traits": [
+    "６つ子",
+    "まゆげ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/o/oms_s41/oms_s41_046.png",
+   "variant": ""
+  },
+  {
+   "num": "OMS/S41-047",
+   "name": "“お祭り男”おそ松",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から1枚を、控え室に置く。そのカードがカード名に「松」を含むキャラでないなら、あなたは自分の手札を1枚選び、控え室に置く。\n\"らっせーらーらっせーらー\"",
+   "traits": [
+    "６つ子",
+    "ギャンブル"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/o/oms_s41/oms_s41_047.png",
+   "variant": ""
+  },
+  {
+   "num": "OMS/S41-048",
+   "name": "“じょし松さん”カラ子",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【起】【カウンター】 助太刀1500 レベル1 ［手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋1500）\n\"ほんとあんたド工口しか考えてないよね\"",
+   "traits": [
+    "スポーツ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/o/oms_s41/oms_s41_048.png",
+   "variant": ""
+  },
+  {
+   "num": "OMS/S41-049",
+   "name": "“長男の悩み”おそ松",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの「“長男の悩み”おそ松」がいるなら、このカードのパワーを＋2000。\n\"なんで俺が\"",
+   "traits": [
+    "６つ子",
+    "ギャンブル"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/o/oms_s41/oms_s41_049.png",
+   "variant": ""
+  },
+  {
+   "num": "OMS/S41-050",
+   "name": "“バスローブ姿”カラ松",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの「“バスローブ姿”カラ松」がいるなら、このカードのパワーを＋2000。\n\"-\"",
+   "traits": [
+    "６つ子",
+    "まゆげ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/o/oms_s41/oms_s41_050.png",
+   "variant": ""
+  },
+  {
+   "num": "OMS/S41-051",
+   "name": "“忍者シコ松”チョロ松",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの「“忍者シコ松”チョロ松」がいるなら、このカードのパワーを＋2000。\n\"トト子「お前はいつもこんなことばかりに忍術を使って！」\"",
+   "traits": [
+    "６つ子",
+    "オタク"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/o/oms_s41/oms_s41_051.png",
+   "variant": ""
+  },
+  {
+   "num": "OMS/S41-052",
+   "name": "“じょし松さん”おそ子",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "1",
+   "cost": "1",
+   "power": "7000",
+   "soul": 1,
+   "trigger": "",
+   "text": "-\n\"会社の後輩。いい子達だよ。あたしのこと姐さん姐さんって慕ってくれて\"",
+   "traits": [
+    "特徴なし"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/o/oms_s41/oms_s41_052.png",
+   "variant": ""
+  },
+  {
+   "num": "OMS/S41-053",
+   "name": "“ずっと一緒に”松野兄弟",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "2",
+   "cost": "1",
+   "power": "6500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたのカード名に「松」を含むキャラすべてに、パワーを＋Ｘ。Ｘはそのキャラのレベル×500に等しい。\n【自】［(1)］ あなたのクライマックス置場に「伝説の６つ子」が置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見てカード名に「松」を含むキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"-\"",
+   "traits": [
+    "６つ子"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/o/oms_s41/oms_s41_053.png",
+   "variant": ""
+  },
+  {
+   "num": "OMS/S41-054",
+   "name": "“一松事変”カラ松",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "2",
+   "cost": "1",
+   "power": "7500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたのカード名に「松」を含むキャラが2枚以上なら、このカードのパワーを＋1500し、このカードは次の能力を得る\n【永】 このカードのバトル中、相手は『助太刀』を手札からプレイできない。』\n\"実は一松…じゃなかったカラ松に真面目な話があるから席外してくんにゃい？\"",
+   "traits": [
+    "６つ子",
+    "まゆげ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/o/oms_s41/oms_s41_054.png",
+   "variant": ""
+  },
+  {
+   "num": "OMS/S41-055",
+   "name": "“じょし松さん”チョロ子",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "2",
+   "cost": "1",
+   "power": "8500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "-\n\"痛～！\"",
+   "traits": [
+    "オタク"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/o/oms_s41/oms_s41_055.png",
+   "variant": ""
+  },
+  {
+   "num": "OMS/S41-056",
+   "name": "“弟思いのお兄ちゃん”おそ松",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "2",
+   "cost": "2",
+   "power": "7500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたのカード名に「松」を含むキャラが2枚以上なら、このカードのパワーを＋2000し、このカードは『【自】 アンコール ［手札のキャラを1枚控え室に置く］』を得る。\n\"カラ松これ食べる？\"",
+   "traits": [
+    "６つ子",
+    "ギャンブル"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/o/oms_s41/oms_s41_056.png",
+   "variant": ""
+  },
+  {
+   "num": "OMS/S41-057",
+   "name": "“罵詈雑言”チョロ松",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "2",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】［手札のキャラを1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしないなら、このカードを控え室に置く。\n\"ケツ毛燃えるわブス！\"",
+   "traits": [
+    "６つ子",
+    "オタク"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/o/oms_s41/oms_s41_057.png",
+   "variant": ""
+  },
+  {
+   "num": "OMS/S41-058",
+   "name": "なごみ",
+   "type": "Event",
+   "rarity": "U",
+   "color": "green",
+   "level": "1",
+   "cost": "1",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "【カウンター】 あなたは自分のカード名に「松」を含むキャラを1枚選び、そのターン中、パワーを＋3500。\n\"チョロ松警部「彼の役目はただ一つ。殺人現場において謎やトリックが解けずついピリピリしてしまいがちな我々刑事の空気をなごませることだ！」\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/o/oms_s41/oms_s41_058.png",
+   "variant": ""
+  },
+  {
+   "num": "OMS/S41-059",
+   "name": "自意識",
+   "type": "Event",
+   "rarity": "U",
+   "color": "green",
+   "level": "1",
+   "cost": "1",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "あなたは自分の山札を見てカード名に「松」を含むキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。あなたは自分のカード名に「松」を含むキャラを1枚選び、そのターン中、パワーを＋3000。\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/o/oms_s41/oms_s41_059.png",
+   "variant": ""
+  },
+  {
+   "num": "OMS/S41-060",
+   "name": "握手券",
+   "type": "Event",
+   "rarity": "U",
+   "color": "green",
+   "level": "2",
+   "cost": "0",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "このカードは、あなたのカード名に「松」を含むキャラがいないなら、手札からプレイできない。あなたは自分の控え室のカード名に「松」を含むキャラを1枚まで選び、ストック置場に置く。あなたは自分のキャラを1枚選び、そのターン中、パワーを＋2000。このカードをストック置場に置く。\n\"なけなしの金をはたいて手に入れた命の時間！\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/o/oms_s41/oms_s41_060.png",
+   "variant": ""
+  },
+  {
+   "num": "OMS/S41-061",
+   "name": "伝説の６つ子",
+   "type": "Climax",
+   "rarity": "CR",
+   "color": "green",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【自】 このカードが手札からクライマックス置場に置かれた時、あなたは自分の控え室の緑のカードを1枚まで選び、ストック置場に置き、自分のキャラすべてに、そのターン中、ソウルを＋1。\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/o/oms_s41/oms_s41_061.png",
+   "variant": ""
+  },
+  {
+   "num": "OMS/S41-062",
+   "name": "なごみのおそ松",
+   "type": "Climax",
+   "rarity": "CC",
+   "color": "green",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[treasure.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。（[[treasure.gif]]：このカードがトリガーした時、あなたはこのカードを手札に戻す。あなたは自分の山札の上から1枚を、ストック置場に置いてよい）\n\"チョロ松警部「あぁ。真面目にやってもバカを見るだけだ」\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/o/oms_s41/oms_s41_062.png",
+   "variant": ""
+  },
+  {
+   "num": "OMS/S41-062MR",
+   "name": "なごみのおそ松",
+   "type": "Climax",
+   "rarity": "MR",
+   "color": "green",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[treasure.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。（[[treasure.gif]]：このカードがトリガーした時、あなたはこのカードを手札に戻す。あなたは自分の山札の上から1枚を、ストック置場に置いてよい）\n\"SECRET\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/o/oms_s41/oms_s41_062mr.png",
+   "variant": ""
+  },
+  {
+   "num": "OMS/S41-063",
+   "name": "ハリネズミのジレンマ",
+   "type": "Climax",
+   "rarity": "CC",
+   "color": "green",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[treasure.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。（[[treasure.gif]]：このカードがトリガーした時、あなたはこのカードを手札に戻す。あなたは自分の山札の上から1枚を、ストック置場に置いてよい）\n\"俺はこんなに皆のことを愛しているのに傷付けてしまう\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/o/oms_s41/oms_s41_063.png",
+   "variant": ""
+  },
+  {
+   "num": "OMS/S41-063MR",
+   "name": "ハリネズミのジレンマ",
+   "type": "Climax",
+   "rarity": "MR",
+   "color": "green",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[treasure.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。（[[treasure.gif]]：このカードがトリガーした時、あなたはこのカードを手札に戻す。あなたは自分の山札の上から1枚を、ストック置場に置いてよい）\n\"SECRET\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/o/oms_s41/oms_s41_063mr.png",
+   "variant": ""
+  },
+  {
+   "num": "OMS/S41-064",
+   "name": "チョロ松ライジング",
+   "type": "Climax",
+   "rarity": "CC",
+   "color": "green",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[stock.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。（[[stock.gif]]：このカードがトリガーした時、あなたは自分の山札の上から1枚を、ストック置場に置いてよい）\n\"いきなり就職っていっても無理があるからまず街に出てフリーハグから始めようかと\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/o/oms_s41/oms_s41_064.png",
+   "variant": ""
+  },
+  {
+   "num": "OMS/S41-064MR",
+   "name": "チョロ松ライジング",
+   "type": "Climax",
+   "rarity": "MR",
+   "color": "green",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[stock.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。（[[stock.gif]]：このカードがトリガーした時、あなたは自分の山札の上から1枚を、ストック置場に置いてよい）\n\"SECRET\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/o/oms_s41/oms_s41_064mr.png",
+   "variant": ""
+  },
+  {
+   "num": "OMS/S41-065",
+   "name": "“お気に入りの一枚”十四松",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 記憶 あなたの思い出置場に「十四松の好きな人」があるなら、このカードのパワーを＋1000。\n【自】 記憶 このカードがアタックした時、クライマックス置場に「恋する十四松」があり、あなたの思い出置場に「十四松の好きな人」があるなら、あなたは自分の控え室のカード名に「松」を含むキャラを1枚まで選び、手札に戻し、そのターン中、このカードのパワーを＋1000。\n\"個性？ロジック？何それ？テンションテンション！\"",
+   "traits": [
+    "６つ子",
+    "スポーツ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/o/oms_s41/oms_s41_065.png",
+   "variant": ""
+  },
+  {
+   "num": "OMS/S41-065SP",
+   "name": "“お気に入りの一枚”十四松",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 記憶 あなたの思い出置場に「十四松の好きな人」があるなら、このカードのパワーを＋1000。\n【自】 記憶 このカードがアタックした時、クライマックス置場に「恋する十四松」があり、あなたの思い出置場に「十四松の好きな人」があるなら、あなたは自分の控え室のカード名に「松」を含むキャラを1枚まで選び、手札に戻し、そのターン中、このカードのパワーを＋1000。\n\"SECRET\"",
+   "traits": [
+    "６つ子",
+    "スポーツ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/o/oms_s41/oms_s41_065sp.png",
+   "variant": ""
+  },
+  {
+   "num": "OMS/S41-066",
+   "name": "“お気に入りの一枚”一松",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "9000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたのカード名に「松」を含むキャラが2枚以上なら、このカードのパワーを＋2000。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札を上から6枚まで見て、カードを3枚選び、控え室に置く。残りのカードを山札の上に好きな順番で置く。\n【自】［(2)］ このカードのバトル相手が【リバース】した時、あなたはコストを払ってよい。そうしたら、相手に1ダメージを与える。（ダメージキャンセルは発生する）\n\"興味ない\"",
+   "traits": [
+    "６つ子",
+    "動物"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/o/oms_s41/oms_s41_066.png",
+   "variant": ""
+  },
+  {
+   "num": "OMS/S41-066SP",
+   "name": "“お気に入りの一枚”一松",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "9000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたのカード名に「松」を含むキャラが2枚以上なら、このカードのパワーを＋2000。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札を上から6枚まで見て、カードを3枚選び、控え室に置く。残りのカードを山札の上に好きな順番で置く。\n【自】［(2)］ このカードのバトル相手が【リバース】した時、あなたはコストを払ってよい。そうしたら、相手に1ダメージを与える。（ダメージキャンセルは発生する）\n\"SECRET\"",
+   "traits": [
+    "６つ子",
+    "動物"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/o/oms_s41/oms_s41_066sp.png",
+   "variant": ""
+  },
+  {
+   "num": "OMS/S41-067",
+   "name": "“お気に入りの一枚”トド松",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "9000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたのカード名に「松」を含むキャラが2枚以上なら、このカードのパワーを＋2000。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n【自】［(2)］ このカードがアタックした時、クライマックス置場に「トド松と５人の悪魔」があるなら、あなたはコストを払ってよい。そうしたら、あなたは自分の山札の上から6枚を、控え室に置き、相手にＸダメージを与える。Ｘはそれらのカードのトリガーアイコンの[[soul.gif]]の合計に等しい。（ダメージキャンセルは発生する）\n\"誰が可愛い王子様だぁ\"",
+   "traits": [
+    "６つ子",
+    "スマホ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/o/oms_s41/oms_s41_067.png",
+   "variant": ""
+  },
+  {
+   "num": "OMS/S41-067SP",
+   "name": "“お気に入りの一枚”トド松",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "9000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたのカード名に「松」を含むキャラが2枚以上なら、このカードのパワーを＋2000。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n【自】［(2)］ このカードがアタックした時、あなたのクライマックス置場に「トド松と５人の悪魔」があるなら、あなたはコストを払ってよい。そうしたら、あなたは自分の山札の上から6枚を、控え室に置き、相手にＸダメージを与える。Ｘはそれらのカードのトリガーアイコンの[[soul.gif]]の合計に等しい。（ダメージキャンセルは発生する）\n\"SECRET\"",
+   "traits": [
+    "６つ子",
+    "スマホ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/o/oms_s41/oms_s41_067sp.png",
+   "variant": ""
+  },
+  {
+   "num": "OMS/S41-068",
+   "name": "“スイーツ男子”トド松",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1) あなたの山札の上から1枚をクロック置場に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室のカード名に「松」を含むキャラを1枚選び、手札に戻す。\n\"なにこれうんまー！\"",
+   "traits": [
+    "６つ子",
+    "スマホ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/o/oms_s41/oms_s41_068.png",
+   "variant": ""
+  },
+  {
+   "num": "OMS/S41-068R",
+   "name": "“スイーツ男子”トド松",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1) あなたの山札の上から1枚をクロック置場に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室のカード名に「松」を含むキャラを1枚選び、手札に戻す。\n\"SECRET\"",
+   "traits": [
+    "６つ子",
+    "スマホ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/o/oms_s41/oms_s41_068r.png",
+   "variant": ""
+  },
+  {
+   "num": "OMS/S41-069",
+   "name": "“スイーツ男子”一松",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から2枚を、控え室に置く。それらのカードにクライマックスがあるなら、このカードを【レスト】する。\n\"なにこれうま！\"",
+   "traits": [
+    "６つ子",
+    "動物"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/o/oms_s41/oms_s41_069.png",
+   "variant": ""
+  },
+  {
+   "num": "OMS/S41-069R",
+   "name": "“スイーツ男子”一松",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から2枚を、控え室に置く。それらのカードにクライマックスがあるなら、このカードを【レスト】する。\n\"SECRET\"",
+   "traits": [
+    "６つ子",
+    "動物"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/o/oms_s41/oms_s41_069r.png",
+   "variant": ""
+  },
+  {
+   "num": "OMS/S41-070",
+   "name": "“F６”一松",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "1",
+   "cost": "1",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 応援 このカードの前のあなたのカード名に「松」を含むキャラすべてに、パワーを＋Ｘ。Ｘはそのキャラのレベル×500に等しい。\n【起】［このカードを【レスト】する］ あなたは自分のカード名に「松」を含むキャラを1枚選び、そのターン中、パワーを＋1000。\n\"俺達は期待にこたえ続けるのみ\"",
+   "traits": [
+    "６つ子",
+    "動物"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/o/oms_s41/oms_s41_070.png",
+   "variant": ""
+  },
+  {
+   "num": "OMS/S41-070S",
+   "name": "“F６”一松",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "1",
+   "cost": "1",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 応援 このカードの前のあなたのカード名に「松」を含むキャラすべてに、パワーを＋Ｘ。Ｘはそのキャラのレベル×500に等しい。\n【起】［このカードを【レスト】する］ あなたは自分のカード名に「松」を含むキャラを1枚選び、そのターン中、パワーを＋1000。\n\"SECRET\"",
+   "traits": [
+    "６つ子",
+    "動物"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/o/oms_s41/oms_s41_070s.png",
+   "variant": ""
+  },
+  {
+   "num": "OMS/S41-071",
+   "name": "“F６”十四松",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "1",
+   "cost": "1",
+   "power": "5500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 このカードの正面のキャラのコストが0以下なら、このカードは【リバース】しない。\n\"やふーい！\"",
+   "traits": [
+    "６つ子",
+    "スポーツ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/o/oms_s41/oms_s41_071.png",
+   "variant": ""
+  },
+  {
+   "num": "OMS/S41-071S",
+   "name": "“F６”十四松",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "1",
+   "cost": "1",
+   "power": "5500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 このカードの正面のキャラのコストが0以下なら、このカードは【リバース】しない。\n\"SECRET\"",
+   "traits": [
+    "６つ子",
+    "スポーツ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/o/oms_s41/oms_s41_071s.png",
+   "variant": ""
+  },
+  {
+   "num": "OMS/S41-072",
+   "name": "“F６”トド松",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 あなたがこのカードの『助太刀』を使った時、あなたは自分のバトル中のカード名に「松」を含むキャラを1枚選び、そのターン中、パワーを＋1000。\n【起】【カウンター】 助太刀2500 レベル2 ［(1) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋2500）\n\"それでみんな幸せなの？\"",
+   "traits": [
+    "６つ子",
+    "スマホ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/o/oms_s41/oms_s41_072.png",
+   "variant": ""
+  },
+  {
+   "num": "OMS/S41-072S",
+   "name": "“F６”トド松",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 あなたがこのカードの『助太刀』を使った時、あなたは自分のバトル中のカード名に「松」を含むキャラを1枚選び、そのターン中、パワーを＋1000。\n【起】【カウンター】 助太刀2500 レベル2 ［(1) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋2500）\n\"SECRET\"",
+   "traits": [
+    "６つ子",
+    "スマホ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/o/oms_s41/oms_s41_072s.png",
+   "variant": ""
+  },
+  {
+   "num": "OMS/S41-073",
+   "name": "“スイーツ男子”十四松",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "9000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 相手のレベル3以上のキャラがいるなら、あなたの手札のこのカードのレベルを－1。\n【永】 他のあなたのカード名に「松」を含むキャラが2枚以上なら、このカードのパワーを＋2000し、あなたのキャラすべてのカード名は「十四松」としても扱う。\n【自】 相手のアンコールステップの始めに、あなたのクロックが6枚なら、あなたはこのカードを【レスト】し、自分のクロックすべてを、山札に戻し、その山札をシャッフルする。\n\"あんまー！食べてみ兄さん！\"",
+   "traits": [
+    "６つ子",
+    "スポーツ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/o/oms_s41/oms_s41_073.png",
+   "variant": ""
+  },
+  {
+   "num": "OMS/S41-073R",
+   "name": "“スイーツ男子”十四松",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "9000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 相手のレベル3以上のキャラがいるなら、あなたの手札のこのカードのレベルを－1。\n【永】 他のあなたのカード名に「松」を含むキャラが2枚以上なら、このカードのパワーを＋2000し、あなたのキャラすべてのカード名は「十四松」としても扱う。\n【自】 相手のアンコールステップの始めに、あなたのクロックが6枚なら、あなたはこのカードを【レスト】し、自分のクロックすべてを、山札に戻し、その山札をシャッフルする。\n\"SECRET\"",
+   "traits": [
+    "６つ子",
+    "スポーツ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/o/oms_s41/oms_s41_073r.png",
+   "variant": ""
+  },
+  {
+   "num": "OMS/S41-074",
+   "name": "“隠れた優しさ”一松",
+   "type": "Character",
+   "rarity": "U",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの「“F６”十四松」すべてに、パワーを＋1000。\n【自】 絆／「“F６”十四松」 ［あなたの山札の上から1枚をクロック置場に置く］ （このカードがプレイされて舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「“F６”十四松」を1枚選び、手札に戻す）\n\"十四松、今日はやらないの？\"",
+   "traits": [
+    "６つ子",
+    "動物"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/o/oms_s41/oms_s41_074.png",
+   "variant": ""
+  },
+  {
+   "num": "OMS/S41-075",
+   "name": "“お祭り男”十四松",
+   "type": "Character",
+   "rarity": "U",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 相手のアタックフェイズの始めに、あなたはこのカードを前列のキャラのいない枠に動かしてよい。\n\"マッスルマッスル！ハッスルハッスル！\"",
+   "traits": [
+    "６つ子",
+    "スポーツ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/o/oms_s41/oms_s41_075.png",
+   "variant": ""
+  },
+  {
+   "num": "OMS/S41-076",
+   "name": "“悲劇のヒロイン!?”トド松",
+   "type": "Character",
+   "rarity": "U",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが【リバース】した時、このカードのバトル相手のレベルが1以下なら、あなたはそのキャラを【リバース】してよい。\n\"怖いんだもん嫌なんだもん\"",
+   "traits": [
+    "６つ子",
+    "スマホ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/o/oms_s41/oms_s41_076.png",
+   "variant": ""
+  },
+  {
+   "num": "OMS/S41-077",
+   "name": "“お祭り男”トド松",
+   "type": "Character",
+   "rarity": "U",
+   "color": "red",
+   "level": "1",
+   "cost": "1",
+   "power": "5500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたのカード名に「松」を含むキャラがいるなら、このカードのパワーを＋1500。\n【自】 アンコール ［手札のキャラを1枚控え室に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"ちゃんと運動するのって富士山登った以来だよ\"",
+   "traits": [
+    "６つ子",
+    "スマホ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/o/oms_s41/oms_s41_077.png",
+   "variant": ""
+  },
+  {
+   "num": "OMS/S41-078",
+   "name": "“あたたかな家族”十四松",
+   "type": "Character",
+   "rarity": "U",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "6500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたのカード名に「一松」か「十四松」を含むキャラがいるなら、このカードのパワーを＋3000。\n\"-\"",
+   "traits": [
+    "６つ子",
+    "スポーツ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/o/oms_s41/oms_s41_078.png",
+   "variant": ""
+  },
+  {
+   "num": "OMS/S41-079",
+   "name": "“お祭り男”一松",
+   "type": "Character",
+   "rarity": "U",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "7500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが【リバース】した時、このカードのバトル相手のレベルが相手のレベルより高いなら、あなたはそのキャラを【リバース】してよい。\n\"あーきつい\"",
+   "traits": [
+    "６つ子",
+    "動物"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/o/oms_s41/oms_s41_079.png",
+   "variant": ""
+  },
+  {
+   "num": "OMS/S41-080",
+   "name": "“隠れた一面”十四松",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【起】［このカードを【レスト】する］ あなたは自分のカード名に「松」を含むキャラを1枚選び、そのターン中、パワーを＋1000。\n【起】 集中 ［(1)］ あなたは自分の山札の上から4枚をめくり、控え室に置く。それらのカードのクライマックス1枚につき、次の行動を行う。『あなたは自分の控え室のキャラを1枚選び、手札に戻し、自分の手札を1枚選び、控え室に置く。』\n\"-\"",
+   "traits": [
+    "６つ子",
+    "スポーツ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/o/oms_s41/oms_s41_080.png",
+   "variant": ""
+  },
+  {
+   "num": "OMS/S41-081",
+   "name": "“罵詈雑言”一松",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが【リバース】した時、このカードのバトル相手のレベルが0以下なら、あなたはそのキャラを【リバース】してよい。\n\"消えろ、飯食えなくなる\"",
+   "traits": [
+    "６つ子",
+    "動物"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/o/oms_s41/oms_s41_081.png",
+   "variant": ""
+  },
+  {
+   "num": "OMS/S41-082",
+   "name": "エスパーニャンコ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［手札のクライマックスを1枚控え室に置く］ このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室のカード名に「一松」を含むキャラを1枚選び、手札に戻す。\n\"「「「人間のホントの気持ちが分かるネコ！？」」」\"",
+   "traits": [
+    "動物",
+    "超能力"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/o/oms_s41/oms_s41_082.png",
+   "variant": ""
+  },
+  {
+   "num": "OMS/S41-082a",
+   "name": "エスパーニャンコ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［手札のクライマックスを1枚控え室に置く］ このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室のカード名に「一松」を含むキャラを1枚選び、手札に戻す。\n\"SECRET\"",
+   "traits": [
+    "動物",
+    "超能力"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/o/oms_s41/oms_s41_082a.png",
+   "variant": ""
+  },
+  {
+   "num": "OMS/S41-083",
+   "name": "“カフェの店員”トド松",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたのキャラがいないなら、このカードのパワーを＋2000し、このカードは《合コン》を得て、このカードのカード名は「トッティ」としても扱う。\n\"お待たせしました。ご注文を承ります\"",
+   "traits": [
+    "６つ子",
+    "スマホ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/o/oms_s41/oms_s41_083.png",
+   "variant": ""
+  },
+  {
+   "num": "OMS/S41-084",
+   "name": "“じょし松さん”トド子",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "",
+   "text": "-\n\"ないないありえない\"",
+   "traits": [
+    "特徴なし"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/o/oms_s41/oms_s41_084.png",
+   "variant": ""
+  },
+  {
+   "num": "OMS/S41-085",
+   "name": "“罵詈雑言”十四松",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から1枚を公開する。そのカードがレベル0以下のキャラなら、このカードをストック置場に置く。（公開したカードは元に戻す）\n\"ワンナウト！ツーアウト！スリーアウト！チェーンジ！\"",
+   "traits": [
+    "６つ子",
+    "スポーツ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/o/oms_s41/oms_s41_085.png",
+   "variant": ""
+  },
+  {
+   "num": "OMS/S41-086",
+   "name": "“カラ松のパーフェクトファッション”一松",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの「“カラ松のパーフェクトファッション”一松」がいるなら、このカードのパワーを＋2000。\n\"-\"",
+   "traits": [
+    "６つ子",
+    "動物"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/o/oms_s41/oms_s41_086.png",
+   "variant": ""
+  },
+  {
+   "num": "OMS/S41-087",
+   "name": "“ドライモンスター”トド松",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの「“ドライモンスター”トド松」がいるなら、このカードのパワーを＋2000。\n\"一人で登ったんだ\"",
+   "traits": [
+    "６つ子",
+    "スマホ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/o/oms_s41/oms_s41_087.png",
+   "variant": ""
+  },
+  {
+   "num": "OMS/S41-088",
+   "name": "“こぼれる涙”十四松",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの「“こぼれる涙”十四松」がいるなら、このカードのパワーを＋2000。\n\"-\"",
+   "traits": [
+    "６つ子",
+    "スポーツ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/o/oms_s41/oms_s41_088.png",
+   "variant": ""
+  },
+  {
+   "num": "OMS/S41-089",
+   "name": "“ドライブデート”松野兄弟",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたのカード名に「松」を含むキャラが2枚以上なら、このカードのパワーを＋1000。\n【自】 このカードのバトル相手が【リバース】した時、あなたのクライマックス置場に「フラッグ・コーポレーション」があるなら、あなたは自分の控え室のキャラを1枚選び、手札に戻してよい。\n\"-\"",
+   "traits": [
+    "６つ子"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/o/oms_s41/oms_s41_089.png",
+   "variant": ""
+  },
+  {
+   "num": "OMS/S41-090",
+   "name": "“じょし松さん”一子",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "5500",
+   "soul": 1,
+   "trigger": "",
+   "text": "-\n\"ほんとに残業なのかしらね\"",
+   "traits": [
+    "特徴なし"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/o/oms_s41/oms_s41_090.png",
+   "variant": ""
+  },
+  {
+   "num": "OMS/S41-091",
+   "name": "“素直になれない”一松",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "2",
+   "cost": "2",
+   "power": "6500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたのカード名に「松」か「エスパーニャンコ」を含むキャラがいるなら、このカードのパワーを＋3000。\n【自】 このカードのバトル相手が【リバース】した時、あなたのクライマックス置場に「ホントの気持ち」があるなら、相手に1ダメージを与えてよい。（ダメージキャンセルは発生する）\n\"-\"",
+   "traits": [
+    "６つ子",
+    "動物"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/o/oms_s41/oms_s41_091.png",
+   "variant": ""
+  },
+  {
+   "num": "OMS/S41-092",
+   "name": "“罵詈雑言”トド松",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "2",
+   "cost": "2",
+   "power": "6500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたのカード名に「松」を含むキャラが2枚以上なら、このカードのパワーを＋3000。\n【自】 アンコール ［手札のキャラを1枚控え室に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"-\"",
+   "traits": [
+    "６つ子",
+    "スマホ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/o/oms_s41/oms_s41_092.png",
+   "variant": ""
+  },
+  {
+   "num": "OMS/S41-093",
+   "name": "“じょし松さん”十四子",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "2",
+   "cost": "2",
+   "power": "9000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "-\n\"なになに！？どういうこと？一子\"",
+   "traits": [
+    "ギャル"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/o/oms_s41/oms_s41_093.png",
+   "variant": ""
+  },
+  {
+   "num": "OMS/S41-094",
+   "name": "トッティ",
+   "type": "Event",
+   "rarity": "U",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "あなたは自分の控え室のカード名に「松」を含むキャラを1枚選び、手札に戻し、自分の手札を1枚選び、控え室に置き、自分のキャラを1枚選び、そのターン中、パワーを＋3000。\n\"チョロ松「二人いる！奴の中に人格が二人！」\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/o/oms_s41/oms_s41_094.png",
+   "variant": ""
+  },
+  {
+   "num": "OMS/S41-095",
+   "name": "我々のような雄豚共の火照った体をお冷ましください一松様",
+   "type": "Event",
+   "rarity": "U",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "あなたは自分の控え室のキャラを2枚まで選び、手札に戻し、自分の手札を1枚選び、控え室に置く。\n\"欲しいのかお前達、えぇ？\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/o/oms_s41/oms_s41_095.png",
+   "variant": ""
+  },
+  {
+   "num": "OMS/S41-096",
+   "name": "新ギャグ",
+   "type": "Event",
+   "rarity": "U",
+   "color": "red",
+   "level": "2",
+   "cost": "3",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "【カウンター】 あなたのカード名に「松」を含むキャラが5枚以上なら、あなたは相手のキャラを1枚選び、【レスト】する。\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/o/oms_s41/oms_s41_096.png",
+   "variant": ""
+  },
+  {
+   "num": "OMS/S41-097",
+   "name": "フラッグ・コーポレーション",
+   "type": "Climax",
+   "rarity": "CR",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【自】 このカードが手札からクライマックス置場に置かれた時、あなたは自分の控え室の赤のカードを1枚まで選び、ストック置場に置き、自分のキャラすべてに、そのターン中、ソウルを＋1。\n\"松野兄弟「「「「「「お世話になります。ミスターフラッグ！」」」」」」\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/o/oms_s41/oms_s41_097.png",
+   "variant": ""
+  },
+  {
+   "num": "OMS/S41-097a",
+   "name": "フラッグ・コーポレーション",
+   "type": "Climax",
+   "rarity": "CR",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【自】 このカードが手札からクライマックス置場に置かれた時、あなたは自分の控え室の赤のカードを1枚まで選び、ストック置場に置き、自分のキャラすべてに、そのターン中、ソウルを＋1。\n\"SECRET\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/o/oms_s41/oms_s41_097a.png",
+   "variant": ""
+  },
+  {
+   "num": "OMS/S41-098",
+   "name": "トド松と５人の悪魔",
+   "type": "Climax",
+   "rarity": "CR",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【自】 このカードが手札からクライマックス置場に置かれた時、あなたは自分の控え室の赤のカードを1枚まで選び、ストック置場に置き、自分のキャラすべてに、そのターン中、ソウルを＋1。\n\"ただいま\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/o/oms_s41/oms_s41_098.png",
+   "variant": ""
+  },
+  {
+   "num": "OMS/S41-098MR",
+   "name": "トド松と５人の悪魔",
+   "type": "Climax",
+   "rarity": "MR",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【自】 このカードが手札からクライマックス置場に置かれた時、あなたは自分の控え室の赤のカードを1枚まで選び、ストック置場に置き、自分のキャラすべてに、そのターン中、ソウルを＋1。\n\"SECRET\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/o/oms_s41/oms_s41_098mr.png",
+   "variant": ""
+  },
+  {
+   "num": "OMS/S41-099",
+   "name": "ホントの気持ち",
+   "type": "Climax",
+   "rarity": "CC",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[salvage.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。（[[salvage.gif]]：このカードがトリガーした時、あなたは自分の控え室のキャラを1枚選び、手札に戻してよい）\n\"一松「俺もゴメン」エスパーニャンコ「おれもごめん」\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/o/oms_s41/oms_s41_099.png",
+   "variant": ""
+  },
+  {
+   "num": "OMS/S41-099MR",
+   "name": "ホントの気持ち",
+   "type": "Climax",
+   "rarity": "MR",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[salvage.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。（[[salvage.gif]]：このカードがトリガーした時、あなたは自分の控え室のキャラを1枚選び、手札に戻してよい）\n\"SECRET\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/o/oms_s41/oms_s41_099mr.png",
+   "variant": ""
+  },
+  {
+   "num": "OMS/S41-100",
+   "name": "恋する十四松",
+   "type": "Climax",
+   "rarity": "CC",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[salvage.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。（[[salvage.gif]]：このカードがトリガーした時、あなたは自分の控え室のキャラを1枚選び、手札に戻してよい）\n\"十四松「また会えマッスルマッスル！ハッスルハッスル！」\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/o/oms_s41/oms_s41_100.png",
+   "variant": ""
+  },
+  {
+   "num": "OMS/S41-100MR",
+   "name": "恋する十四松",
+   "type": "Climax",
+   "rarity": "MR",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[salvage.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。（[[salvage.gif]]：このカードがトリガーした時、あなたは自分の控え室のキャラを1枚選び、手札に戻してよい）\n\"SECRET\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/o/oms_s41/oms_s41_100mr.png",
+   "variant": ""
+  },
+  {
+   "num": "OMS/S41-101",
+   "name": "SDおそ松",
+   "type": "Character",
+   "rarity": "PR",
+   "color": "green",
+   "level": "1",
+   "cost": "1",
+   "power": "6000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたのカード名に「松」を含むキャラがいるなら、このカードのパワーを＋1500。\n\"長男なめんじゃねぇ\"",
+   "traits": [
+    "６つ子",
+    "ギャンブル"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/o/oms_s41/oms_s41_101.png",
+   "variant": ""
+  },
+  {
+   "num": "OMS/S41-102",
+   "name": "SDカラ松",
+   "type": "Character",
+   "rarity": "PR",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、他のあなたのカード名に「松」を含むキャラがいるなら、そのターン中、このカードのパワーを＋2000。\n\"仕事のことは…ノープランだ！\"",
+   "traits": [
+    "６つ子",
+    "まゆげ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/o/oms_s41/oms_s41_102.png",
+   "variant": ""
+  },
+  {
+   "num": "OMS/S41-103",
+   "name": "SDチョロ松",
+   "type": "Character",
+   "rarity": "PR",
+   "color": "green",
+   "level": "2",
+   "cost": "1",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【起】【カウンター】 助太刀3000 レベル2 ［(1) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋3000）\n\"ツッコミには定評あり。あとＭＣと裏回しもいけまーす\"",
+   "traits": [
+    "６つ子",
+    "オタク"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/o/oms_s41/oms_s41_103.png",
+   "variant": ""
+  },
+  {
+   "num": "OMS/S41-104",
+   "name": "SD一松",
+   "type": "Character",
+   "rarity": "PR",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【起】【カウンター】 助太刀1500 レベル1 ［手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋1500）\n\"イカサマじゃねぇ？\"",
+   "traits": [
+    "６つ子",
+    "動物"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/o/oms_s41/oms_s41_104.png",
+   "variant": ""
+  },
+  {
+   "num": "OMS/S41-105",
+   "name": "SD十四松",
+   "type": "Character",
+   "rarity": "PR",
+   "color": "red",
+   "level": "2",
+   "cost": "2",
+   "power": "8000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたのキャラすべてがカード名に「松」を含むなら、このカードのパワーを＋2000。\n\"わっせ、わっせ、わっせ\"",
+   "traits": [
+    "６つ子",
+    "スポーツ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/o/oms_s41/oms_s41_105.png",
+   "variant": ""
+  },
+  {
+   "num": "OMS/S41-106",
+   "name": "SDトド松",
+   "type": "Character",
+   "rarity": "PR",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたのキャラが1枚以下なら、このカードのパワーを＋1000し、このカードは『【自】 アンコール ［手札のキャラを1枚控え室に置く］』を得る。\n\"今僕誰かと会った？\"",
+   "traits": [
+    "６つ子",
+    "スマホ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/o/oms_s41/oms_s41_106.png",
+   "variant": ""
+  },
+  {
+   "num": "OMS/S41-107",
+   "name": "SDイヤミ",
+   "type": "Character",
+   "rarity": "PR",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 相手がレベルアップした時、このカードを控え室に置く。\n\"まさかミーを知らないザンスか？\"",
+   "traits": [
+    "出っ歯"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/o/oms_s41/oms_s41_107.png",
+   "variant": ""
+  },
+  {
+   "num": "OMS/S41-108",
+   "name": "おそ松落とし",
+   "type": "Event",
+   "rarity": "PR",
+   "color": "green",
+   "level": "3",
+   "cost": "6",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "【永】 このカードと同じカード名のカードは、デッキに1枚までしか入れることができない。あなたは自分の手札を公開する。それらのカードに「“スイーツ男子”おそ松」と「“スイーツ男子”カラ松」と「“スイーツ男子”チョロ松」と「“スイーツ男子”一松」と「“スイーツ男子”十四松」と「“スイーツ男子”トド松」があるなら、あなたはこのゲームに勝利する。\n※このカードは公式・公認大会では使用できません。\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/o/oms_s41/oms_s41_108.png",
+   "variant": ""
+  }
+ ]
+}

@@ -1,0 +1,530 @@
+{
+ "id": "jp-fab",
+ "name": "[TD+]富士見ファンタジア文庫",
+ "expansion": 263,
+ "lang": "jp",
+ "release": null,
+ "shopItem": null,
+ "box": null,
+ "cards": [
+  {
+   "num": "Fab/W65-T07",
+   "name": "二人の使命 いすず&西也",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 あなたのキャラのトリガーチェックでクライマックスがでた時、あなたは自分のキャラを1枚選び、そのターン中、ソウルを＋1。\n【起】 集中 ［(1) このカードを【レスト】する］ あなたは自分の山札の上から4枚をめくり、控え室に置く。それらのカードのクライマックス1枚につき、あなたは1枚まで引く。\n\"いすず「あなたを逃がさないため」\"",
+   "traits": [
+    "ファンタジア文庫",
+    "甘ブリ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/f/fab_w65/fab_w65_t07.png",
+   "variant": ""
+  },
+  {
+   "num": "Fab/W65-T08",
+   "name": "メープルキッチン ラティファ",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたはイベントと『助太刀』を手札からプレイできない。\n\"あらあら、楽しそうですね～♪\"",
+   "traits": [
+    "ファンタジア文庫",
+    "甘ブリ",
+    "姫"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/f/fab_w65/fab_w65_t08.png",
+   "variant": ""
+  },
+  {
+   "num": "Fdd/W65-T09",
+   "name": "高貴なる魅力 リアス",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの、《ファンタジア文庫》か《悪魔》のキャラ1枚につき、このカードのパワーを＋500。\n\"ふふふ、大丈夫よ。声にしなくてもいいの\"",
+   "traits": [
+    "ファンタジア文庫",
+    "悪魔",
+    "王"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/f/fdd_w65/fdd_w65_t09.png",
+   "variant": ""
+  },
+  {
+   "num": "Fdd/W65-T09R",
+   "name": "高貴なる魅力 リアス",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの、《ファンタジア文庫》か《悪魔》のキャラ1枚につき、このカードのパワーを＋500。\n\"うふふ、うれしいことを言ってくれるわね\"",
+   "traits": [
+    "ファンタジア文庫",
+    "悪魔",
+    "王"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/f/fdd_w65/fdd_w65_t09r.png",
+   "variant": ""
+  },
+  {
+   "num": "Fdd/W65-T10",
+   "name": "オカルト研究部部長 リアス",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】【CXコンボ】［(1)］ このカードがアタックした時、クライマックス置場に「聞こえた声」があるなら、あなたはコストを払ってよい。そうしたら、あなたは他の自分のキャラを1枚と、このカードを選び、そのターン中、次の能力を与える。『【自】 このカードのバトル相手が【リバース】した時、あなたは自分の控え室のキャラを1枚選び、手札に戻してよい。』\n\"私たち、オカルト研究部はあなたを歓迎するわ\"",
+   "traits": [
+    "ファンタジア文庫",
+    "悪魔",
+    "王"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/f/fdd_w65/fdd_w65_t10.png",
+   "variant": ""
+  },
+  {
+   "num": "Fdd/W65-T10S",
+   "name": "オカルト研究部部長 リアス",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】【CXコンボ】［(1)］ このカードがアタックした時、クライマックス置場に「聞こえた声」があるなら、あなたはコストを払ってよい。そうしたら、あなたは他の自分のキャラを1枚と、このカードを選び、そのターン中、次の能力を与える。『【自】 このカードのバトル相手が【リバース】した時、あなたは自分の控え室のキャラを1枚選び、手札に戻してよい。』\n\"私はリアス・グレモリー。悪魔よ\"",
+   "traits": [
+    "ファンタジア文庫",
+    "悪魔",
+    "王"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/f/fdd_w65/fdd_w65_t10s.png",
+   "variant": ""
+  },
+  {
+   "num": "Fdd/W65-T13",
+   "name": "聞こえた声",
+   "type": "Climax",
+   "rarity": "TD",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[salvage.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[salvage.gif]]：このカードがトリガーした時、あなたは自分の控え室のキャラを1枚選び、手札に戻してよい）\n\"さあ、私のかわいい下僕悪魔たち！グレモリー眷属として、目の前の敵を消し飛ばしてあげましょうッ！\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/f/fdd_w65/fdd_w65_t13.png",
+   "variant": ""
+  },
+  {
+   "num": "Fdl/W65-T16",
+   "name": "謎の少女 十香",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋500。\n【自】 あなたのクライマックスがクライマックス置場に置かれた時、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋1000。\n\"……本当に、私は生きていてもいいのか？\"",
+   "traits": [
+    "ファンタジア文庫",
+    "精霊",
+    "剣術"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/f/fdl_w65/fdl_w65_t16.png",
+   "variant": ""
+  },
+  {
+   "num": "Fdl/W65-T16SP",
+   "name": "謎の少女 十香",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋500。\n【自】 あなたのクライマックスがクライマックス置場に置かれた時、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋1000。\n\"-\"",
+   "traits": [
+    "ファンタジア文庫",
+    "精霊",
+    "剣術"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/f/fdl_w65/fdl_w65_t16sp.png",
+   "variant": ""
+  },
+  {
+   "num": "Fdl/W65-T17",
+   "name": "可愛い一面 狂三",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "1",
+   "cost": "1",
+   "power": "5500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 他のあなたの、《ファンタジア文庫》か《精霊》のキャラがアタックした時、そのターン中、このカードのパワーを＋1500。\n【自】 アンコール ［手札のキャラを1枚控え室に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"うふふ、では士道さんのハートはわたくしが独り占めですわね\"",
+   "traits": [
+    "ファンタジア文庫",
+    "精霊",
+    "時間"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/f/fdl_w65/fdl_w65_t17.png",
+   "variant": ""
+  },
+  {
+   "num": "Ffp/W65-T02",
+   "name": "ずっと、スタンド・バイ・ミー 宗介＆かなめ",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 他のあなたの、《ファンタジア文庫》か《ウィスパード》のキャラがアタックした時、そのターン中、このカードのパワーを＋1000。\n\"宗介「君さえいれば、武器などいらない」\"",
+   "traits": [
+    "ファンタジア文庫",
+    "ミスリル",
+    "ウィスパード"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/f/ffp_w65/ffp_w65_t02.png",
+   "variant": ""
+  },
+  {
+   "num": "Fii/W65-T15",
+   "name": "制服の舞＆アへ顔Wピース先生",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの「危ない妹 涼花」すべてに、ソウルを＋1。\n【自】 絆／「危ない妹 涼花」 ［(1)］ （このカードがプレイされて舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「危ない妹 涼花」を1枚選び、手札に戻す）\n\"舞「私たちも参加させなさいよ！」<br>アへ顔Wピース先生「どうデス？この制服姿もなかなかイケてる<br>デショう？」\"",
+   "traits": [
+    "ファンタジア文庫",
+    "小説",
+    "ライバル"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/f/fii_w65/fii_w65_t15.png",
+   "variant": ""
+  },
+  {
+   "num": "Fii/W65-T19",
+   "name": "危ない妹 涼花",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "8500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "-\n\"お兄ちゃんはもっとしっかりしてください\"",
+   "traits": [
+    "ファンタジア文庫",
+    "小説",
+    "ブラコン"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/f/fii_w65/fii_w65_t19.png",
+   "variant": ""
+  },
+  {
+   "num": "Fkz/W65-T01",
+   "name": "困り顔  ユー",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から1枚を公開する。そのカードが《ファンタジア文庫》か《武器》のキャラかイベントなら手札に加え、あなたは自分の手札を1枚選び、控え室に置く。（そうでないなら元に戻す）\n【自】 このカードがアタックした時、あなたは他の自分のキャラを1枚選び、そのターン中、パワーを＋Ｘ。Ｘはそのキャラのソウル×1000に等しい。\n\"歩　困らせないで\"",
+   "traits": [
+    "ファンタジア文庫",
+    "武器",
+    "死"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/f/fkz_w65/fkz_w65_t01.png",
+   "variant": ""
+  },
+  {
+   "num": "Fkz/W65-T05",
+   "name": "リフレイン年ライジング組 ハルナ",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "yellow",
+   "level": "1",
+   "cost": "1",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【起】【カウンター】 助太刀2500 レベル1 ［(1) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋2500）\n\"リフレイン年ライジング組のハルナです\"",
+   "traits": [
+    "ファンタジア文庫",
+    "武器",
+    "魔装少女"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/f/fkz_w65/fkz_w65_t05.png",
+   "variant": ""
+  },
+  {
+   "num": "Fkz/W65-T05R",
+   "name": "リフレイン年ライジング組 ハルナ",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "yellow",
+   "level": "1",
+   "cost": "1",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【起】【カウンター】 助太刀2500 レベル1 ［(1) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋2500）\n\"こっち見んなっ！こんの変態っ！エロスペシャルがっ！\"",
+   "traits": [
+    "ファンタジア文庫",
+    "武器",
+    "魔装少女"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/f/fkz_w65/fkz_w65_t05r.png",
+   "variant": ""
+  },
+  {
+   "num": "Fmr/W65-T04",
+   "name": "ハートの魔法 夕菜",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1) 手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見て《ファンタジア文庫》か《魔法》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"これでハートも掴めます\"",
+   "traits": [
+    "ファンタジア文庫",
+    "魔法",
+    "ヒロイン"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/f/fmr_w65/fmr_w65_t04.png",
+   "variant": ""
+  },
+  {
+   "num": "Foy/W65-T03",
+   "name": "背負う者 信奈",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 前列の中央の枠にこのカードがいるなら、このカードのソウルを＋1。\n\"わたしは、最後まで諦めない！\"",
+   "traits": [
+    "ファンタジア文庫",
+    "戦国",
+    "姫大名"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/f/foy_w65/foy_w65_t03.png",
+   "variant": ""
+  },
+  {
+   "num": "Foy/W65-T06",
+   "name": "織田家当主 信奈",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "yellow",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札を見て《ファンタジア文庫》か《戦国》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n【自】［(1) 手札を1枚控え室に置く］ このカードがアタックした時、あなたはコストを払ってよい。そうしたら、あなたの、《ファンタジア文庫》か《戦国》のキャラすべてに、そのターン中、パワーを＋500し、ソウルを＋1。\n\"予言だの運命だの、わたしはいっさい信じないわ\"",
+   "traits": [
+    "ファンタジア文庫",
+    "戦国",
+    "姫大名"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/f/foy_w65/foy_w65_t06.png",
+   "variant": ""
+  },
+  {
+   "num": "Foy/W65-T06R",
+   "name": "織田家当主 信奈",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "yellow",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札を見て《ファンタジア文庫》か《戦国》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n【自】［(1) 手札を1枚控え室に置く］ このカードがアタックした時、あなたはコストを払ってよい。そうしたら、あなたの、《ファンタジア文庫》か《戦国》のキャラすべてに、そのターン中、パワーを＋500し、ソウルを＋1。\n\"わたしが信じるものは、限られた『今』を生きている命だけ\"",
+   "traits": [
+    "ファンタジア文庫",
+    "戦国",
+    "姫大名"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/f/foy_w65/foy_w65_t06r.png",
+   "variant": ""
+  },
+  {
+   "num": "Fra/W65-T18",
+   "name": "覚悟を決めた システィーナ",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋Ｘ。Ｘはそのキャラのレベル×500に等しい。\n【自】 あなたのクライマックスがクライマックス置場に置かれた時、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋1000。\n\"なら、もうこの手しかないじゃない！\"",
+   "traits": [
+    "ファンタジア文庫",
+    "魔法",
+    "優等生"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/f/fra_w65/fra_w65_t18.png",
+   "variant": ""
+  },
+  {
+   "num": "Fra/W65-T18S",
+   "name": "覚悟を決めた システィーナ",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋Ｘ。Ｘはそのキャラのレベル×500に等しい。\n【自】 あなたのクライマックスがクライマックス置場に置かれた時、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋1000。\n\"《颪の風狼よ・我をその背に・<br>疾く烈しく駆けよ》――ッ！\"",
+   "traits": [
+    "ファンタジア文庫",
+    "魔法",
+    "優等生"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/f/fra_w65/fra_w65_t18s.png",
+   "variant": ""
+  },
+  {
+   "num": "Fra/W65-T20",
+   "name": "銀の鍵",
+   "type": "Climax",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【永】 あなたのキャラすべてに、ソウルを＋2。\n\"皆が救われるなら……私はこの身を捧げます……それが……私の真の願いです\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/f/fra_w65/fra_w65_t20.png",
+   "variant": ""
+  },
+  {
+   "num": "Fsi/W65-T11",
+   "name": "高らかな宣言 くりむ",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n【自】【CXコンボ】 このカードのバトル相手が【リバース】した時、あなたのクライマックス置場に「生徒会の一存」があるなら、あなたは自分の控え室の、《ファンタジア文庫》か《生徒会》のキャラを1枚まで選び、ストック置場に置き、相手に1ダメージを与える。（ダメージキャンセルは発生する）\n\"立つ鳥はっ、後を濁さないのよ！\"",
+   "traits": [
+    "ファンタジア文庫",
+    "生徒会",
+    "お菓子"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/f/fsi_w65/fsi_w65_t11.png",
+   "variant": ""
+  },
+  {
+   "num": "Fsi/W65-T11SP",
+   "name": "高らかな宣言 くりむ",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n【自】【CXコンボ】 このカードのバトル相手が【リバース】した時、あなたのクライマックス置場に「生徒会の一存」があるなら、あなたは自分の控え室の、《ファンタジア文庫》か《生徒会》のキャラを1枚まで選び、ストック置場に置き、相手に1ダメージを与える。（ダメージキャンセルは発生する）\n\"-\"",
+   "traits": [
+    "ファンタジア文庫",
+    "生徒会",
+    "お菓子"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/f/fsi_w65/fsi_w65_t11sp.png",
+   "variant": ""
+  },
+  {
+   "num": "Fsi/W65-T12",
+   "name": "我は、『残響死滅』",
+   "type": "Event",
+   "rarity": "TD",
+   "color": "red",
+   "level": "1",
+   "cost": "1",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "集中 あなたは自分の山札の上から3枚をめくり、控え室に置く。あなたは自分の控え室のレベルＸ以下の、《ファンタジア文庫》か《生徒会》のキャラを1枚選び、手札に戻す。Ｘはそれらのカードの、《ファンタジア文庫》か《生徒会》のキャラの枚数に等しい。\nあなたは自分のキャラを1枚選び、そのターン中、パワーを＋2000。このカードを思い出にする。\n\"お前の……兄だ\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/f/fsi_w65/fsi_w65_t12.png",
+   "variant": ""
+  },
+  {
+   "num": "Fsi/W65-T14",
+   "name": "生徒会の一存",
+   "type": "Climax",
+   "rarity": "TD",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[salvage.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[salvage.gif]]：このカードがトリガーした時、あなたは自分の控え室のキャラを1枚選び、手札に戻してよい）\n\"大事なのは勝ち負けじゃないの！努力したか否かなのよっ！\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/f/fsi_w65/fsi_w65_t14.png",
+   "variant": ""
+  }
+ ]
+}

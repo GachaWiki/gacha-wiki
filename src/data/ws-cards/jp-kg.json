@@ -1,0 +1,828 @@
+{
+ "id": "jp-kg",
+ "name": "刀語",
+ "expansion": 56,
+ "lang": "jp",
+ "release": null,
+ "shopItem": null,
+ "box": null,
+ "cards": [
+  {
+   "num": "KG/SE07-01",
+   "name": "家鳴将軍家直轄内部監察所総監督 否定姫",
+   "type": "Character",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋500。\n【自】［(1) あなたの山札の上から1枚をクロック置場に置く］ このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見て「とがめの宿敵 否定姫」を1枚まで選んで相手に見せ、手札に加える。その山札をシャッフルする。\n\"………\"",
+   "traits": [
+    "扇子",
+    "和服"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kg_se07/kg_se07_01.png",
+   "variant": ""
+  },
+  {
+   "num": "KG/SE07-02",
+   "name": "下酷城城主 宇練 銀閣",
+   "type": "Character",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［あなたの山札の上から1枚をクロック置場に置く］ あなたがこのカードの『助太刀』を使った時、あなたはコストを払ってよい。そうしたら、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋1500。\n【起】【カウンター】 助太刀1000 レベル1 ［手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋1000）\n\"この斬刀を手にして以来、おれの零閃をかわした奴はあんたが初めてだぜ……\"",
+   "traits": [
+    "武器",
+    "和服"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kg_se07/kg_se07_02.png",
+   "variant": ""
+  },
+  {
+   "num": "KG/SE07-03",
+   "name": "“日本最強の剣士”錆 白兵",
+   "type": "Character",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "1",
+   "cost": "1",
+   "power": "6500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【起】 集中 ［(1)］ あなたは自分の山札の上から4枚をめくり、控え室に置く。それらのカードのクライマックス1枚につき、そのターン中、このカードのパワーを＋1000し、ソウルを＋1。\n\"拙者にときめいてもらうでござる\"",
+   "traits": [
+    "武器",
+    "和服"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kg_se07/kg_se07_03.png",
+   "variant": ""
+  },
+  {
+   "num": "KG/SE07-04",
+   "name": "仮面の男 右衛門左衛門",
+   "type": "Character",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "8000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】［手札を1枚控え室に置く］ このカードがアタックした時、あなたはコストを払ってよい。そうしたら、そのターン中、このカードのパワーを＋3500。\n\"-\"",
+   "traits": [
+    "忍",
+    "仮面"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kg_se07/kg_se07_04.png",
+   "variant": ""
+  },
+  {
+   "num": "KG/SE07-05",
+   "name": "鎧海賊団船長 校倉 必",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたのキャラがいないなら、このカードのパワーを＋2000。\n\"開始後すぐに降参すれば……、虚刀流、おまえは無傷でこの闘技場から出ることができるぜ\"",
+   "traits": [
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kg_se07/kg_se07_05.png",
+   "variant": ""
+  },
+  {
+   "num": "KG/SE07-06",
+   "name": "“否定姫の懐刀”左右田 右衛門左衛門",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのターン中、このカードのパワーを＋1000。\n\"『不肯』あなたに言われたくはない\"",
+   "traits": [
+    "忍",
+    "仮面"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kg_se07/kg_se07_06.png",
+   "variant": ""
+  },
+  {
+   "num": "KG/SE07-07",
+   "name": "“心王一鞘流”汽口 慚愧",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 このカードはサイドアタックできない。\n【起】［このカードを【レスト】する］ あなたは自分の《武器》のキャラを1枚選び、そのターン中、パワーを＋1000。\n\"棋士の聖地・出羽の将棋村に道場を構える心王一鞘流の十二代目当主\"",
+   "traits": [
+    "武器",
+    "将棋"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kg_se07/kg_se07_07.png",
+   "variant": ""
+  },
+  {
+   "num": "KG/SE07-08",
+   "name": "“仙人”彼我木 輪廻",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 相手がレベルアップした時、このカードを控え室に置く。\n\"-\"",
+   "traits": [
+    "仙人"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kg_se07/kg_se07_08.png",
+   "variant": ""
+  },
+  {
+   "num": "KG/SE07-09",
+   "name": "とがめの宿敵 否定姫",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［手札の「否定姫の悪巧み」を1枚控え室に置く］ このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「“否定する強さ”否定姫」を1枚選び、舞台の好きな枠に【レスト】して置く。\n\"ほめてくれてありがとー\"",
+   "traits": [
+    "扇子",
+    "和服"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kg_se07/kg_se07_09.png",
+   "variant": ""
+  },
+  {
+   "num": "KG/SE07-10",
+   "name": "千刀流 敦賀 迷彩",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのターン中、他のあなたの「千刀流 敦賀 迷彩」1枚につき、このカードのパワーを＋2000。\n\"では、虚刀流――見せてもらおうか\"",
+   "traits": [
+    "武器",
+    "巫女"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kg_se07/kg_se07_10.png",
+   "variant": ""
+  },
+  {
+   "num": "KG/SE07-11",
+   "name": "からくり人形 日和号",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 このカードの下にマーカーがあるなら、このカードのパワーを＋1000。\n【永】 このカードの下のマーカーが2枚以上なら、このカードはあなたのスタンドフェイズに【スタンド】しない。\n【自】 あなたのターンの終わりに、このカードの下のマーカーが1枚以下なら、あなたは自分の山札の上から1枚を、このカードの下にマーカーとして置く。\n\"人間・認識、即刻・斬殺\"",
+   "traits": [
+    "人形",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kg_se07/kg_se07_11.png",
+   "variant": ""
+  },
+  {
+   "num": "KG/SE07-12",
+   "name": "“否定する強さ”否定姫",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "2",
+   "cost": "2",
+   "power": "8500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 このカードの下のマーカー1枚につき、このカードのパワーを＋1000。\n【自】［(3)］ バトル中のこのカードが【リバース】した時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札の上から1枚を、このカードの下にマーカーとして置き、このカードを【レスト】する。\n\"似合い過ぎる、そのおかっぱ、ざんぎり、お菊人形！\"",
+   "traits": [
+    "扇子",
+    "和服"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kg_se07/kg_se07_12.png",
+   "variant": ""
+  },
+  {
+   "num": "KG/SE07-13",
+   "name": "“鞘となる一族”凍空 こなゆき",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "2",
+   "cost": "2",
+   "power": "9500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から1枚を公開する。そのカードが《武器》のキャラでないなら、そのターン中、このカードは次の能力を得る。『【永】 このカードはフロントアタックできない。』（公開したカードは元に戻す）\n\"七花おにーちゃん、今度はうちっちの番ですよ！\"",
+   "traits": [
+    "雪",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kg_se07/kg_se07_13.png",
+   "variant": ""
+  },
+  {
+   "num": "KG/SE07-14",
+   "name": "否定姫の悪巧み",
+   "type": "Climax",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[bounce.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[bounce.gif]]：このカードがトリガーした時、あなたは相手のキャラを1枚選び、手札に戻してよい）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kg_se07/kg_se07_14.png",
+   "variant": ""
+  },
+  {
+   "num": "KG/SE07-15",
+   "name": "冥土の蝙蝠",
+   "type": "Character",
+   "rarity": "R",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【起】［(2) このカードをクロック置場に置く］ あなたは自分のクロック置場のコスト0以下のキャラを1枚選び、このカードがいた枠に置く。\n\"真庭忍軍・頭領の一人。 「冥土の蝙蝠」・獣組<br />体内にどんなものでも収納できるという忍法を使う\"",
+   "traits": [
+    "忍",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kg_se07/kg_se07_15.png",
+   "variant": ""
+  },
+  {
+   "num": "KG/SE07-16",
+   "name": "鎖縛の喰鮫",
+   "type": "Character",
+   "rarity": "R",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの《忍》のキャラが2枚以上なら、このカードのパワーを＋1000。\n\"気になりますね、気になりますね、気になりますね、そう思いませんか？\"",
+   "traits": [
+    "忍",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kg_se07/kg_se07_16.png",
+   "variant": ""
+  },
+  {
+   "num": "KG/SE07-17",
+   "name": "逆さ喋りの白鷺",
+   "type": "Character",
+   "rarity": "R",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(2)］ 相手のアタックフェイズの始めに、相手のクライマックス置場にクライマックスがないなら、あなたはコストを払ってよい。そうしたら、あなたは相手の手札を見てクライマックスを1枚まで選び、相手のクライマックス置場に置く。\n\"などけだんーつっ『鷺白のり喋さ逆』称通\"",
+   "traits": [
+    "忍"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kg_se07/kg_se07_17.png",
+   "variant": ""
+  },
+  {
+   "num": "KG/SE07-18",
+   "name": "真庭 鳳凰",
+   "type": "Character",
+   "rarity": "R",
+   "color": "green",
+   "level": "2",
+   "cost": "2",
+   "power": "7000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの《武器》のキャラ1枚につき、このカードのパワーを＋500。\n【自】 アンコール ［手札のキャラを1枚控え室に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"-\"",
+   "traits": [
+    "武器",
+    "占い"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kg_se07/kg_se07_18.png",
+   "variant": ""
+  },
+  {
+   "num": "KG/SE07-19",
+   "name": "読み調べの川獺",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から1枚を公開する。そのカードが《忍》のキャラなら、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋1000。（公開したカードは元に戻す）\n\"同じく等しく、真庭忍軍十二頭領がひとり、真庭川獺だよん\"",
+   "traits": [
+    "忍"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kg_se07/kg_se07_19.png",
+   "variant": ""
+  },
+  {
+   "num": "KG/SE07-20",
+   "name": "長寿の海亀",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 あなたがレベルアップした時、このカードを控え室に置く。\n【起】［(1)］ そのターン中、このカードのパワーを＋2000。\n\"-\"",
+   "traits": [
+    "忍",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kg_se07/kg_se07_20.png",
+   "variant": ""
+  },
+  {
+   "num": "KG/SE07-21",
+   "name": "真庭忍軍 真庭虫組",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 アラーム このカードがクロックの1番上にあり、あなたの《忍》のキャラが4枚以上なら、あなたのクライマックスフェイズの始めに、あなたは自分の山札の上から1枚を、ストック置場に置いてよい。\n\"-\"",
+   "traits": [
+    "忍",
+    "虫"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kg_se07/kg_se07_21.png",
+   "variant": ""
+  },
+  {
+   "num": "KG/SE07-22",
+   "name": "増殖の人鳥",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "1",
+   "cost": "1",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】［(4)］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室のカードを1枚選び、山札に戻す。その山札をシャッフルする。\n【起】［このカードを【レスト】する］ あなたは自分の《忍》のキャラを1枚選び、そのターン中、パワーを＋2000。\n\"す、すすすみません！\"",
+   "traits": [
+    "忍"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kg_se07/kg_se07_22.png",
+   "variant": ""
+  },
+  {
+   "num": "KG/SE07-23",
+   "name": "伝染の狂犬",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "1",
+   "cost": "1",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】［(4) あなたの山札の上から1枚をクロック置場に置き、このカードを思い出にする］ バトル中のこのカードが【リバース】した時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室のレベル2以下の《武器》のキャラを1枚選び、このカードがいた枠に【レスト】して置く。\n\"許さないわ、仲間の仇はあたしが討つ\"",
+   "traits": [
+    "忍",
+    "霊"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kg_se07/kg_se07_23.png",
+   "variant": ""
+  },
+  {
+   "num": "KG/SE07-24",
+   "name": "神の鳳凰",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "2",
+   "cost": "1",
+   "power": "8000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードがアタックした時、クライマックス置場に「忍法断罪円」があるなら、あなたは自分の控え室の《忍》のキャラを1枚まで選び、ストック置場に置き、そのターン中、このカードのパワーを＋3000。\n\"お主の情報はいつも正確だ\"",
+   "traits": [
+    "忍",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kg_se07/kg_se07_24.png",
+   "variant": ""
+  },
+  {
+   "num": "KG/SE07-25",
+   "name": "巻き戻しの鴛鴦",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "2",
+   "cost": "2",
+   "power": "8500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 経験 あなたのレベル置場に「真庭忍軍 真庭虫組」があるなら、このカードのパワーを＋1000し、このカードは次の能力を得る。『【起】［(1)］ そのターン中、このカードのパワーを＋1000。』\n\"-\"",
+   "traits": [
+    "忍",
+    "愛"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kg_se07/kg_se07_25.png",
+   "variant": ""
+  },
+  {
+   "num": "KG/SE07-26",
+   "name": "忍法断罪円",
+   "type": "Climax",
+   "rarity": "C",
+   "color": "green",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【自】 このカードが手札からクライマックス置場に置かれた時、あなたは自分の山札の上から1枚を、ストック置場に置き、自分のキャラすべてに、そのターン中、ソウルを＋1。\n\"右衛門左衛門「鳳凰よ―お前は『あの技』を断罪円などと呼んでいるのか」\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kg_se07/kg_se07_26.png",
+   "variant": ""
+  },
+  {
+   "num": "KG/SE07-27",
+   "name": "七花との出会い とがめ",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの《武器》のキャラすべてに、パワーを＋500。\n【自】 このカードが手札から舞台に置かれた時、あなたは他の自分のカード名に「七花」を含むキャラを1枚選び、そのターン中、パワーを＋1000。\n\"-\"",
+   "traits": [
+    "和服"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kg_se07/kg_se07_27.png",
+   "variant": ""
+  },
+  {
+   "num": "KG/SE07-28",
+   "name": "容赦姫",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "1",
+   "cost": "1",
+   "power": "6500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 アンコール ［手札のキャラを1枚控え室に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"-\"",
+   "traits": [
+    "和服"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kg_se07/kg_se07_28.png",
+   "variant": ""
+  },
+  {
+   "num": "KG/SE07-29",
+   "name": "最後の命令 とがめ",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋Ｘ。Ｘはそのキャラのレベル×500に等しい。\n【自】［このカードを思い出にする］ あなたのクライマックス置場に「旅の終わり」が置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の手札の「虚刀『鑢』」を1枚選び、このカードがいた枠に置く。\n\"-\"",
+   "traits": [
+    "和服"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kg_se07/kg_se07_29.png",
+   "variant": ""
+  },
+  {
+   "num": "KG/SE07-30",
+   "name": "“一の構え『鈴蘭』”鑢 七花",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "8000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】［(1)］ このカードがアタックした時、クライマックス置場に「七花八裂（改）」があるなら、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の《武器》のキャラを1枚選び、手札に戻し、そのターン中、このカードのパワーを＋4000。\n\"-\"",
+   "traits": [
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kg_se07/kg_se07_30.png",
+   "variant": ""
+  },
+  {
+   "num": "KG/SE07-31",
+   "name": "試練の旅 とがめ＆七花",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "2",
+   "cost": "2",
+   "power": "9000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の【スタンド】している《和服》のキャラを1枚選び、【レスト】する。\n【自】［(2)］ このカードのバトル相手が【リバース】した時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の《武器》のキャラを1枚選び、手札に戻す。\n\"-\"",
+   "traits": [
+    "和服",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kg_se07/kg_se07_31.png",
+   "variant": ""
+  },
+  {
+   "num": "KG/SE07-32",
+   "name": "虚刀『鑢』",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n【自】［(5)］ このカードのバトル相手が【リバース】した時、あなたはコストを払ってよい。そうしたら、相手に5ダメージを与える。（ダメージキャンセルは発生する）\n\"-\"",
+   "traits": [
+    "武器",
+    "和服"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kg_se07/kg_se07_32.png",
+   "variant": ""
+  },
+  {
+   "num": "KG/SE07-33",
+   "name": "鑢 七実",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の控え室の《武器》のキャラを1枚選び、手札に戻してよい。\n【自】［(4)］ このカードがアタックした時、クライマックス置場に「対決 七実対七花」があるなら、あなたはコストを払ってよい。そうしたら、あなたは相手の前列のレベル2以下のキャラすべてを、控え室に置く。\n【自】 あなたのドローフェイズの始めに、あなたは自分のストックの上から1枚を、控え室に置く。そうしたら、そのターン中、このカードのパワーを＋2500。\n\"-\"",
+   "traits": [
+    "武器",
+    "和服"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kg_se07/kg_se07_33.png",
+   "variant": ""
+  },
+  {
+   "num": "KG/SE07-34",
+   "name": "頭脳労働専門 とがめ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは他の自分の《武器》のキャラを1枚選び、そのターン中、パワーを＋500。\n【自】 絆／「“一の構え『鈴蘭』”鑢 七花」 ［(1)］ （このカードがプレイされて舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「“一の構え『鈴蘭』”鑢 七花」を1枚選び、手札に戻す）\n\"七花に「刀集め」を提案した張本人。尾張幕府家鳴将軍家直轄預奉所軍所総監督という肩書きを持つ\"",
+   "traits": [
+    "和服"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kg_se07/kg_se07_34.png",
+   "variant": ""
+  },
+  {
+   "num": "KG/SE07-35",
+   "name": "“鑢家家長”鑢 七実",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたのキャラがいないなら、このカードのパワーを＋2000。\n【起】［(2) このカードを【レスト】する］ あなたは自分の控え室の《武器》のキャラを1枚選び、手札に戻す。\n\"七花の姉。綺麗で清楚な女性で、弟の七花とは何もかも真逆の性格。病弱な身体でありながら、働きたがりで、しっかり者\"",
+   "traits": [
+    "武器",
+    "和服"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kg_se07/kg_se07_35.png",
+   "variant": ""
+  },
+  {
+   "num": "KG/SE07-36",
+   "name": "奇策士 とがめ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "",
+   "text": "-\n\"-\"",
+   "traits": [
+    "和服"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kg_se07/kg_se07_36.png",
+   "variant": ""
+  },
+  {
+   "num": "KG/SE07-37",
+   "name": "“虚刀流七代目当主”鑢 七花",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、他のあなたの「七花との出会い とがめ」がいないなら、このカードを【レスト】する。\n\"虚刀流七代目当主。刀を使わない剣術「虚刀流」を父親から受け継いだ本作の主人公\"",
+   "traits": [
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kg_se07/kg_se07_37.png",
+   "variant": ""
+  },
+  {
+   "num": "KG/SE07-38",
+   "name": "病弱にして天才 鑢 七実",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 このカードの下のマーカー1枚につき、このカードのレベルを＋1し、パワーを＋2000。\n【自】［(1)］ このカードがフロントアタックされた時、このカードのバトル相手のレベルがこのカードのレベル以上なら、あなたはコストを払ってよい。そうしたら、あなたは自分の山札の上から1枚を、このカードの下にマーカーとして置く。\n\"-\"",
+   "traits": [
+    "武器",
+    "和服"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kg_se07/kg_se07_38.png",
+   "variant": ""
+  },
+  {
+   "num": "KG/SE07-39",
+   "name": "“とがめの刀”鑢 七花",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【起】［(1) あなたのカード名に「とがめ」を含むキャラを1枚【レスト】する］ そのターン中、このカードのパワーを＋2000し、このカードは次の能力を得る。『【永】 このカードのバトル中、相手は『助太刀』を手札からプレイできない。』\n\"虚刀流―『薔薇』！\"",
+   "traits": [
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kg_se07/kg_se07_39.png",
+   "variant": ""
+  },
+  {
+   "num": "KG/SE07-40",
+   "name": "気合を入れるとがめ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［あなたの山札の上から1枚をクロック置場に置く］ このカードがアタックした時、クライマックス置場に「ちぇりおー！」があるなら、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の《武器》キャラを1枚選び、手札に戻し、そのターン中、このカードのパワーを＋2000。\n\"-\"",
+   "traits": [
+    "和服"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kg_se07/kg_se07_40.png",
+   "variant": ""
+  },
+  {
+   "num": "KG/SE07-41",
+   "name": "智謀知略と手練手管 とがめ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【起】【カウンター】 助太刀3000 レベル2 ［(1) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋3000）\n\"-\"",
+   "traits": [
+    "和服",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kg_se07/kg_se07_41.png",
+   "variant": ""
+  },
+  {
+   "num": "KG/SE07-42",
+   "name": "ちぇりおー！",
+   "type": "Climax",
+   "rarity": "C",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【自】 このカードが手札からクライマックス置場に置かれた時、あなたは1枚引き、自分のキャラを1枚選び、そのターン中、パワーを＋2000し、ソウルを＋1。\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kg_se07/kg_se07_42.png",
+   "variant": ""
+  },
+  {
+   "num": "KG/SE07-43",
+   "name": "七花八裂（改）",
+   "type": "Climax",
+   "rarity": "C",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【永】 あなたのキャラすべてに、ソウルを＋2。\n\"虚刀流最終奥技―『七花八裂（改）』！\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kg_se07/kg_se07_43.png",
+   "variant": ""
+  },
+  {
+   "num": "KG/SE07-44",
+   "name": "対決 七実対七花",
+   "type": "Climax",
+   "rarity": "C",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【自】 このカードが手札からクライマックス置場に置かれた時、あなたは自分の山札の上から1枚を、ストック置場に置き、自分のキャラすべてに、そのターン中、ソウルを＋1。\n\"よくも私を殺したわね\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kg_se07/kg_se07_44.png",
+   "variant": ""
+  },
+  {
+   "num": "KG/SE07-45",
+   "name": "旅の終わり",
+   "type": "Climax",
+   "rarity": "C",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[salvage.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[salvage.gif]]：このカードがトリガーした時、あなたは自分の控え室のキャラを1枚選び、手札に戻してよい）\n\"わたしはそなたに、惚れてもいいか？\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kg_se07/kg_se07_45.png",
+   "variant": ""
+  }
+ ]
+}

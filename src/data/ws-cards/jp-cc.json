@@ -1,0 +1,413 @@
+{
+ "id": "jp-cc",
+ "name": "[TD+]チェインクロニクル ～ヘクセイタスの閃～",
+ "expansion": 188,
+ "lang": "jp",
+ "release": null,
+ "shopItem": null,
+ "box": null,
+ "cards": [
+  {
+   "num": "CC/S48-T01",
+   "name": "英雄とともに フィーナ",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのターン中、他のあなたの「チェイン攻撃 ユーリ」すべてに、パワーを＋2000。\n【自】 絆／「チェイン攻撃 ユーリ」 ［(1)］ （このカードがプレイされて舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「チェイン攻撃 ユーリ」を1枚選び、手札に戻す）\n\"-\"",
+   "traits": [
+    "マナ",
+    "年代記"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/c/cc_s48/cc_s48_t01.png",
+   "variant": ""
+  },
+  {
+   "num": "CC/S48-T02",
+   "name": "心優しき癒し手 マリナ",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋500。\n【自】［このカードを控え室に置く］ 他のあなたの《マナ》のキャラが舞台から控え室に置かれた時、後列にこのカードがいるなら、あなたはコストを払ってよい。そうしたら、そのキャラをそのキャラがいた枠に【レスト】して置く。\n\"-\"",
+   "traits": [
+    "マナ",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/c/cc_s48/cc_s48_t02.png",
+   "variant": ""
+  },
+  {
+   "num": "CC/S48-T03",
+   "name": "義勇軍の新顔 アラム",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードがアタックした時、あなたは自分の山札の上から1枚を公開する。そのカードが《マナ》のキャラなら手札に加え、あなたは自分の手札を1枚選び、控え室に置く。（そうでないなら元に戻す）\n\"この刀身すげぇキレイだよなぁ\"",
+   "traits": [
+    "マナ",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/c/cc_s48/cc_s48_t03.png",
+   "variant": ""
+  },
+  {
+   "num": "CC/S48-T04",
+   "name": "新しい希望 アラム",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 相手のアタックフェイズの始めに、あなたはこのカードを前列のキャラのいない枠に動かしてよい。\n\"小僧じゃねぇ！\"",
+   "traits": [
+    "マナ",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/c/cc_s48/cc_s48_t04.png",
+   "variant": ""
+  },
+  {
+   "num": "CC/S48-T05",
+   "name": "年代記の使い手　フィーナ",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札を上から2枚まで見て、山札の上に元の順番で置く。\n【起】 集中 ［(1) このカードを【レスト】する］ あなたは自分の山札の上から4枚をめくり、控え室に置く。それらのカードのクライマックス1枚につき、あなたは1枚まで引く。\n\"嫌です、お父様！\"",
+   "traits": [
+    "マナ",
+    "年代記"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/c/cc_s48/cc_s48_t05.png",
+   "variant": ""
+  },
+  {
+   "num": "CC/S48-T06",
+   "name": "世界の意思 ピリカ",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【起】【カウンター】 助太刀1500 レベル1 ［手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋1500）\n\"お前なんかにィ……！\"",
+   "traits": [
+    "マナ",
+    "妖精"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/c/cc_s48/cc_s48_t06.png",
+   "variant": ""
+  },
+  {
+   "num": "CC/S48-T07",
+   "name": "姐御肌の弓兵 ミシディア",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 他のあなたの《マナ》のキャラがアタックした時、そのターン中、このカードのパワーを＋1000。\n\"はァッ！！\"",
+   "traits": [
+    "マナ",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/c/cc_s48/cc_s48_t07.png",
+   "variant": ""
+  },
+  {
+   "num": "CC/S48-T08",
+   "name": "チェイン攻撃 ユーリ",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "5500",
+   "soul": 1,
+   "trigger": "",
+   "text": "-\n\"-\"",
+   "traits": [
+    "マナ",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/c/cc_s48/cc_s48_t08.png",
+   "variant": ""
+  },
+  {
+   "num": "CC/S48-T09",
+   "name": "若き騎士 カイン",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "red",
+   "level": "1",
+   "cost": "1",
+   "power": "6000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの《マナ》のキャラ1枚につき、このカードのパワーを＋500。\n\"う、嘘だろ……\"",
+   "traits": [
+    "マナ",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/c/cc_s48/cc_s48_t09.png",
+   "variant": ""
+  },
+  {
+   "num": "CC/S48-T10",
+   "name": "年代記を持つ少女 フィーナ",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの前列の中央の枠のキャラに、『【自】 アンコール ［手札のキャラを1枚控え室に置く］』を与える。\n【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋Ｘ。Ｘはそのキャラのレベル×500に等しい。\n\"世界は未来を望んでいます\"",
+   "traits": [
+    "マナ",
+    "年代記"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/c/cc_s48/cc_s48_t10.png",
+   "variant": ""
+  },
+  {
+   "num": "CC/S48-T10SP",
+   "name": "年代記を持つ少女 フィーナ",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの前列の中央の枠のキャラに、『【自】 アンコール ［手札のキャラを1枚控え室に置く］』を与える。\n【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋Ｘ。Ｘはそのキャラのレベル×500に等しい。\n\"-\"",
+   "traits": [
+    "マナ",
+    "年代記"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/c/cc_s48/cc_s48_t10sp.png",
+   "variant": ""
+  },
+  {
+   "num": "CC/S48-T11",
+   "name": "未来へ託す ユーリ",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "6500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたのターン中、他のあなたの「マナの才能 アラム」がいるなら、このカードのパワーを＋4000。\n【自】［手札の《マナ》のキャラを1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「マナの才能 アラム」を1枚選び、舞台の好きな枠に置く。\n\"まだ微かに希望があると、そう思えたので\"",
+   "traits": [
+    "マナ",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/c/cc_s48/cc_s48_t11.png",
+   "variant": ""
+  },
+  {
+   "num": "CC/S48-T12",
+   "name": "マナの才能 アラム",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "6500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたのターン中、他のあなたの「未来へ託す ユーリ」がいるなら、このカードのパワーを＋4000。\n【永】 他のあなたの《マナ》のキャラ1枚につき、このカードのパワーを＋500。\n\"アルドラ！\"",
+   "traits": [
+    "マナ",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/c/cc_s48/cc_s48_t12.png",
+   "variant": ""
+  },
+  {
+   "num": "CC/S48-T13",
+   "name": "義勇軍のユーリ",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 前列にこのカードがいるなら、あなたの《マナ》のキャラすべてに、パワーを＋1500。\n【自】【CXコンボ】 ［(1)］ このカードがアタックした時、クライマックス置場に「絆が見せる光」があるなら、あなたはコストを払ってよい。そうしたら、そのターン中、このカードのパワーを＋1000し、あなたは自分の山札の上から1枚を公開する。そのカードのレベルが1以下なら、相手に1ダメージを与える。そうでないなら、相手に2ダメージを与える。（クライマックスのレベルは0として扱う。ダメージキャンセルは発生する。公開したカードは元に戻す）\n\"諦めてたまるかァ！！\"",
+   "traits": [
+    "マナ",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/c/cc_s48/cc_s48_t13.png",
+   "variant": ""
+  },
+  {
+   "num": "CC/S48-T14",
+   "name": "絆が見せる光",
+   "type": "Climax",
+   "rarity": "TD",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【自】 このカードが手札からクライマックス置場に置かれた時、あなたは自分の控え室の赤のカードを1枚まで選び、ストック置場に置き、自分のキャラすべてに、そのターン中、ソウルを＋1。\n\"光を掴む！\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/c/cc_s48/cc_s48_t14.png",
+   "variant": ""
+  },
+  {
+   "num": "CC/S48-T15",
+   "name": "白き閃光",
+   "type": "Climax",
+   "rarity": "TD",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[salvage.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[salvage.gif]]：このカードがトリガーした時、あなたは自分の控え室のキャラを1枚選び、手札に戻してよい）\n\"諦めるかよォ！！\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/c/cc_s48/cc_s48_t15.png",
+   "variant": ""
+  },
+  {
+   "num": "CC/S48-T16",
+   "name": "聖王女の楯 ブルクハルト",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 このカードの正面のキャラは他の枠に動かせない。\n【自】 このカードが手札から舞台に置かれた時、そのターン中、このカードのパワーを＋1500。\n\"貴様、また私のマナを！\"",
+   "traits": [
+    "マナ",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/c/cc_s48/cc_s48_t16.png",
+   "variant": ""
+  },
+  {
+   "num": "CC/S48-T17",
+   "name": "聖王女 ユリアナ",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 相手のターン中、あなたのキャラすべてが《マナ》なら、このカードのレベルを＋1し、パワーを＋1500。\n\"あなたが彼を導いてあげて\"",
+   "traits": [
+    "マナ",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/c/cc_s48/cc_s48_t17.png",
+   "variant": ""
+  },
+  {
+   "num": "CC/S48-T18",
+   "name": "聖騎士団総帥 アインスロット",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "2",
+   "cost": "2",
+   "power": "8000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 相手のターン中、あなたのキャラすべてが《マナ》なら、このカードのパワーを＋2000。\n【自】 アンコール ［手札の《マナ》のキャラを1枚控え室に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"ユリアナ様のことを、頼んだぞ\"",
+   "traits": [
+    "マナ",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/c/cc_s48/cc_s48_t18.png",
+   "variant": ""
+  },
+  {
+   "num": "CC/S48-T19",
+   "name": "女騎士 ユリアナ",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 相手のターン中、あなたのキャラすべてが《マナ》なら、このカードのパワーを＋2000。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n\"あたしだってやれるわ！\"",
+   "traits": [
+    "マナ",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/c/cc_s48/cc_s48_t19.png",
+   "variant": ""
+  },
+  {
+   "num": "CC/S48-T20",
+   "name": "運命は廻りはじめる…",
+   "type": "Event",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "2",
+   "cost": "0",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "あなたは自分の山札の上から1枚を公開する。そのカードが《マナ》のキャラなら舞台の好きな枠に置く。（そうでないなら元に戻す）\n\"――はっ！！\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/c/cc_s48/cc_s48_t20.png",
+   "variant": ""
+  },
+  {
+   "num": "CC/S48-T21",
+   "name": "この城を奪還する！",
+   "type": "Climax",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【永】 あなたのキャラすべてに、ソウルを＋2。\n\"突入！\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/c/cc_s48/cc_s48_t21.png",
+   "variant": ""
+  }
+ ]
+}

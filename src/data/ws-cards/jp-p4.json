@@ -1,0 +1,336 @@
+{
+ "id": "jp-p4",
+ "name": "ペルソナ4",
+ "expansion": 22,
+ "lang": "jp",
+ "release": null,
+ "shopItem": null,
+ "box": null,
+ "cards": [
+  {
+   "num": "P4/SE01-01",
+   "name": "主人公（Ｐ４）",
+   "type": "Character",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "3",
+   "cost": "2",
+   "power": "9000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】［(1)］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見て《メガネ》のキャラを1枚までとカード名に「＆」を含むキャラを1枚まで選んで相手に見せ、手札に加える。その山札をシャッフルする。\n【自】 このカードがアタックした時、あなたは特徴を1つ選んでよい。そうしたら、次にこの能力で特徴を選ぶまで、このカードは選んだ特徴を得る。\n【自】 このカードがアタックした時、クライマックス置場に「イザナギ覚醒」があるなら、あなたの《魔法》のキャラすべてに、そのターン中、パワーを＋2000し、ソウルを＋1。\n\"イザナギ！！\"",
+   "traits": [
+    "魔法",
+    "メガネ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/p4_se01/p4_se01_01.png",
+   "variant": ""
+  },
+  {
+   "num": "P4/SE01-02",
+   "name": "陽介＆ジライヤ",
+   "type": "Character",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "2",
+   "cost": "2",
+   "power": "7500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 手札のこのカードをプレイするにあたり、あなたは自分の「花村 陽介」を1枚選び、控え室に置いてよい。そうしたら、このカードをコスト0でプレイできる。\n【自】 このカードが手札から舞台に置かれた時、そのターン中、このカードのソウルを＋1。\n\"お前は、俺で…俺は、お前か。<br />全部ひっくるめて、俺だって事だな\"",
+   "traits": [
+    "ジュネス",
+    "魔法"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/p4_se01/p4_se01_02.png",
+   "variant": ""
+  },
+  {
+   "num": "P4/SE01-03",
+   "name": "堂島 遼太郎",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "1",
+   "cost": "1",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の、《勇者》かカード名に「主人公」を含むキャラを1枚選び、そのターン中、パワーを＋3000し、ソウルを＋1。\n【自】 あなたのターンの終わりに、あなたの思い出置き場にキャラがあるなら、このカードを手札に戻す。\n\"これからしばらくは家族同士だ。<br />自分んちと思って気楽にやってくれ\"",
+   "traits": [
+    "警察"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/p4_se01/p4_se01_03.png",
+   "variant": ""
+  },
+  {
+   "num": "P4/SE01-04",
+   "name": "花村 陽介",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのターン中、このカードのパワーを＋1000。\n\"行くぜ、相棒！\"",
+   "traits": [
+    "ジュネス",
+    "メガネ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/p4_se01/p4_se01_04.png",
+   "variant": ""
+  },
+  {
+   "num": "P4/SE01-05",
+   "name": "堂島 菜々子",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 絆／「主人公（Ｐ４）」 ［(1)］ （このカードがプレイされて舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「主人公（Ｐ４）」を1枚選び、手札に戻す）\n【起】［(1) このカードを【レスト】する］ あなたは自分の、《勇者》かカード名に「主人公」を含むキャラを1枚選び、そのターン中、ソウルを＋1。\n\"とちゅうまで、おんなじ道だから<br />…いっしょに行こ\"",
+   "traits": [
+    "テレビ",
+    "ジュネス"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/p4_se01/p4_se01_05.png",
+   "variant": ""
+  },
+  {
+   "num": "P4/SE01-06",
+   "name": "イザナギ覚醒",
+   "type": "Climax",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【永】 あなたのキャラすべてに、ソウルを＋2。\n\"我は汝、汝は我、<br />双眸を見開きて汝、今こそ発せよ\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/p4_se01/p4_se01_06.png",
+   "variant": ""
+  },
+  {
+   "num": "P4/SE01-07",
+   "name": "千枝＆トモエ",
+   "type": "Character",
+   "rarity": "R",
+   "color": "green",
+   "level": "2",
+   "cost": "2",
+   "power": "8500",
+   "soul": 2,
+   "trigger": "",
+   "text": "【永】 手札のこのカードをプレイするにあたり、あなたは自分の「里中 千枝」を1枚選び、控え室に置いてよい。そうしたら、このカードをコスト0でプレイできる。\n【自】［(2)］ あなたのターン中、相手の【スタンド】しているキャラが【レスト】した時、あなたはコストを払ってよい。そうしたら、あなたは相手の【スタンド】しているキャラを1枚選び、思い出にする。\n\"吹き飛べー！\"",
+   "traits": [
+    "スポーツ",
+    "魔法"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/p4_se01/p4_se01_07.png",
+   "variant": ""
+  },
+  {
+   "num": "P4/SE01-08",
+   "name": "久慈川 りせ",
+   "type": "Character",
+   "rarity": "R",
+   "color": "green",
+   "level": "1",
+   "cost": "1",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 応援 このカードの前のあなたのレベル2以上のキャラすべてに、パワーを＋1000。\n【自】［(1)］ あなたのクライマックス置場に「現役美少女アイドル」が置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の、《魔法》か《メガネ》のキャラを1枚選び、そのターン中、レベルを＋1し、パワーを＋4000。\n\"お豆腐は、みんなにおまけ。<br />なんか、心配してもらったみたいだし\"",
+   "traits": [
+    "音楽",
+    "テレビ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/p4_se01/p4_se01_08.png",
+   "variant": ""
+  },
+  {
+   "num": "P4/SE01-09",
+   "name": "里中 千枝",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "",
+   "text": "-\n\"これで、終わりだーっ！\"",
+   "traits": [
+    "スポーツ",
+    "メガネ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/p4_se01/p4_se01_09.png",
+   "variant": ""
+  },
+  {
+   "num": "P4/SE01-10",
+   "name": "現役美少女アイドル",
+   "type": "Climax",
+   "rarity": "C",
+   "color": "green",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【自】 このカードが手札からクライマックス置場に置かれた時、あなたは1枚引き、自分のキャラを1枚選び、そのターン中、ソウルを＋3。\n\"こんなトコまで来るなんて<br />りせちー、超うれしー！\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/p4_se01/p4_se01_10.png",
+   "variant": ""
+  },
+  {
+   "num": "P4/SE01-11",
+   "name": "雪子＆コノハナサクヤ",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "2",
+   "cost": "2",
+   "power": "7000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 手札のこのカードをプレイするにあたり、あなたは自分の「天城 雪子」を1枚選び、控え室に置いてよい。そうしたら、このカードをコスト0でプレイできる。\n【永】 相手の【レスト】しているキャラ1枚につき、このカードのパワーを＋500。\n【自】 このカードが手札から舞台に置かれた時、あなたは【スタンド】している相手のキャラを1枚選び、【レスト】する。\n\"逃げたい…誰かに救って欲しい…<br />そうね…確かに、私の気持ち\"",
+   "traits": [
+    "扇子",
+    "魔法"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/p4_se01/p4_se01_11.png",
+   "variant": ""
+  },
+  {
+   "num": "P4/SE01-12",
+   "name": "完二＆タケミカヅチ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】この能力は1ターンにつき1回しか発動しない。 あなたが『助太刀』を使った時、あなたは自分のバトルしているキャラを1枚選び、そのターン中、パワーを＋1000。\n【自】 アンコール ［手札のキャラを1枚控え室に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"男だ女だってんじゃねえ…<br />拒絶されんのが怖くて。ビビってよ…\"",
+   "traits": [
+    "不良",
+    "魔法"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/p4_se01/p4_se01_12.png",
+   "variant": ""
+  },
+  {
+   "num": "P4/SE01-13",
+   "name": "天城 雪子",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1)］ あなたのクライマックス置場に「突撃逆ナン大作戦」が置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「雪子＆コノハナサクヤ」を1枚選び、手札に戻す。\n【起】［このカードを【レスト】する］ あなたは自分のカード名に「千枝」を含むキャラを1枚選び、そのターン中、パワーを＋1500。\n\"よし、怯んだ！<br />仕掛けるよ！\"",
+   "traits": [
+    "扇子",
+    "メガネ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/p4_se01/p4_se01_13.png",
+   "variant": ""
+  },
+  {
+   "num": "P4/SE01-14",
+   "name": "巽 完二",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが【リバース】した時、このカードとバトルしているキャラのレベルが0以下なら、あなたはそのキャラを【リバース】してよい。\n\"どいつもこいつも、10年早ぇ\"",
+   "traits": [
+    "不良",
+    "メガネ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/p4_se01/p4_se01_14.png",
+   "variant": ""
+  },
+  {
+   "num": "P4/SE01-15",
+   "name": "オレの出番ッス！",
+   "type": "Event",
+   "rarity": "C",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "あなたは自分の【スタンド】しているキャラを1枚選び【レスト】する。そうしたら、あなたは相手の【スタンド】しているキャラを1枚選び、【レスト】し、相手の前列のレベル2以下のキャラを1枚選び、控え室に置く。\n\"行くぜぇ、ペルソナァ！\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/p4_se01/p4_se01_15.png",
+   "variant": ""
+  },
+  {
+   "num": "P4/SE01-16",
+   "name": "突撃逆ナン大作戦",
+   "type": "Climax",
+   "rarity": "C",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[salvage.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[salvage.gif]]：このカードがトリガーした時、あなたは自分の控え室のキャラを1枚選び、手札に戻してよい）\n\"今日は私、天城雪子がナンパ、<br />逆ナンに挑戦してみたいと思います\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/p4_se01/p4_se01_16.png",
+   "variant": ""
+  },
+  {
+   "num": "P4/SE01-17",
+   "name": "白鐘 直斗",
+   "type": "Character",
+   "rarity": "R",
+   "color": "blue",
+   "level": "1",
+   "cost": "1",
+   "power": "500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 あなたがこのカードの『助太刀』を使った時、あなたは自分の、《警察》かカード名に「主人公」を含むキャラを1枚選び、そのターン中、パワーを＋1000。\n【起】【カウンター】 助太刀2000 レベル1 ［(1) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋2000）\n\"皆さんの“遊び”も、<br />間もなく終りになるかも知れない…\"",
+   "traits": [
+    "探偵",
+    "警察"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/p4_se01/p4_se01_17.png",
+   "variant": ""
+  },
+  {
+   "num": "P4/SE01-18",
+   "name": "クマ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの《メガネ》のキャラすべてに、パワーを＋500。\n【起】［このカードを【レスト】する］ あなたは自分のキャラを1枚選び、そのターン中、《メガネ》を与える。\n\"当然みんなの分のメガネも用意しておいたクマよ\"",
+   "traits": [
+    "動物",
+    "影"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/p4_se01/p4_se01_18.png",
+   "variant": ""
+  }
+ ]
+}

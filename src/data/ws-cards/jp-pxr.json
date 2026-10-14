@@ -1,0 +1,623 @@
+{
+ "id": "jp-pxr",
+ "name": "[TD+]Toy Story",
+ "expansion": 393,
+ "lang": "jp",
+ "release": null,
+ "shopItem": null,
+ "box": null,
+ "cards": [
+  {
+   "num": "PXR/S94-T01",
+   "name": "カウガール人形 ジェシー",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのターン中、他のあなたの《PIXAR》のキャラすべてに、パワーを＋500。\n【起】 集中 ［(1) このカードを【レスト】する］ あなたは自分の山札の上から5枚をめくり、控え室に置く。それらのカードのクライマックス1枚につき、あなたは1枚まで引く。\n\"-\"",
+   "traits": [
+    "PIXAR"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/pxr_s94/pxr_s94_t01.png",
+   "variant": ""
+  },
+  {
+   "num": "PXR/S94-T01R",
+   "name": "カウガール人形 ジェシー",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのターン中、他のあなたの《PIXAR》のキャラすべてに、パワーを＋500。\n【起】 集中 ［(1) このカードを【レスト】する］ あなたは自分の山札の上から5枚をめくり、控え室に置く。それらのカードのクライマックス1枚につき、あなたは1枚まで引く。\n\"-\"",
+   "traits": [
+    "PIXAR"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/pxr_s94/pxr_s94_t01r.png",
+   "variant": ""
+  },
+  {
+   "num": "PXR/S94-T02",
+   "name": "カウボーイ人形 ウッディ・プライド",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札を上から2枚まで見て、山札の上に好きな順番で置く。\n【自】［(1) 手札のクライマックスを1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室のクライマックスを1枚選び、手札に戻す。\n\"-\"",
+   "traits": [
+    "PIXAR"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/pxr_s94/pxr_s94_t02.png",
+   "variant": ""
+  },
+  {
+   "num": "PXR/S94-T02SP",
+   "name": "カウボーイ人形 ウッディ・プライド",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札を上から2枚まで見て、山札の上に好きな順番で置く。\n【自】［(1) 手札のクライマックスを1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室のクライマックスを1枚選び、手札に戻す。\n\"-\"",
+   "traits": [
+    "PIXAR"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/pxr_s94/pxr_s94_t02sp.png",
+   "variant": ""
+  },
+  {
+   "num": "PXR/S94-T03",
+   "name": "バターカップ",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 相手のアタックフェイズの始めに、あなたはこのカードを前列のキャラのいない枠に動かしてよい。\n\"-\"",
+   "traits": [
+    "PIXAR"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/pxr_s94/pxr_s94_t03.png",
+   "variant": ""
+  },
+  {
+   "num": "PXR/S94-T04",
+   "name": "友情の絆 ウッディ＆バズ",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたのターン中、他のあなたの《PIXAR》のキャラがいるなら、このカードのパワーを＋3000。\n【自】【CXコンボ】 このカードがアタックした時、クライマックス置場に「手作りおもちゃ」があり、他のあなたの《PIXAR》のキャラがいるなら、あなたは自分の山札を上から4枚まで見て、《PIXAR》のキャラを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。\n\"-\"",
+   "traits": [
+    "PIXAR"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/pxr_s94/pxr_s94_t04.png",
+   "variant": ""
+  },
+  {
+   "num": "PXR/S94-T04S",
+   "name": "友情の絆 ウッディ＆バズ",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたのターン中、他のあなたの《PIXAR》のキャラがいるなら、このカードのパワーを＋3000。\n【自】【CXコンボ】 このカードがアタックした時、クライマックス置場に「手作りおもちゃ」があり、他のあなたの《PIXAR》のキャラがいるなら、あなたは自分の山札を上から4枚まで見て、《PIXAR》のキャラを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。\n\"-\"",
+   "traits": [
+    "PIXAR"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/pxr_s94/pxr_s94_t04s.png",
+   "variant": ""
+  },
+  {
+   "num": "PXR/S94-T04SP",
+   "name": "友情の絆 ウッディ＆バズ",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたのターン中、他のあなたの《PIXAR》のキャラがいるなら、このカードのパワーを＋3000。\n【自】【CXコンボ】 このカードがアタックした時、クライマックス置場に「手作りおもちゃ」があり、他のあなたの《PIXAR》のキャラがいるなら、あなたは自分の山札を上から4枚まで見て、《PIXAR》のキャラを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。\n\"-\"",
+   "traits": [
+    "PIXAR"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/pxr_s94/pxr_s94_t04sp.png",
+   "variant": ""
+  },
+  {
+   "num": "PXR/S94-T05",
+   "name": "シー男爵 ミスター・プリックルパンツ",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 前列の中央の枠にこのカードがいるなら、このカードのソウルを＋1。\n【自】 このカードがアタックした時、他のあなたの《PIXAR》のキャラが2枚以上なら、そのターン中、このカードのパワーを＋2000。\n\"-\"",
+   "traits": [
+    "PIXAR"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/pxr_s94/pxr_s94_t05.png",
+   "variant": ""
+  },
+  {
+   "num": "PXR/S94-T06",
+   "name": "伸縮自在 スリンキー・ドッグ",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "yellow",
+   "level": "1",
+   "cost": "1",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのターン中、このカードのパワーを＋6000。\n【自】 アンコール ［手札のキャラを1枚控え室に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"-\"",
+   "traits": [
+    "PIXAR"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/pxr_s94/pxr_s94_t06.png",
+   "variant": ""
+  },
+  {
+   "num": "PXR/S94-T06R",
+   "name": "伸縮自在 スリンキー・ドッグ",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "yellow",
+   "level": "1",
+   "cost": "1",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのターン中、このカードのパワーを＋6000。\n【自】 アンコール ［手札のキャラを1枚控え室に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"-\"",
+   "traits": [
+    "PIXAR"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/pxr_s94/pxr_s94_t06r.png",
+   "variant": ""
+  },
+  {
+   "num": "PXR/S94-T07",
+   "name": "ラグドール ドリー",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋Ｘ。Ｘはそのキャラのレベル×500に等しい。\n【起】［このカードを【レスト】する］ あなたは自分のキャラを1枚選び、そのターン中、パワーを＋1000。\n\"-\"",
+   "traits": [
+    "PIXAR"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/pxr_s94/pxr_s94_t07.png",
+   "variant": ""
+  },
+  {
+   "num": "PXR/S94-T08",
+   "name": "ブタの貯金箱 ハム",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "7500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたのターン中、他のあなたの《PIXAR》のキャラ1枚につき、このカードのパワーを＋1000。\n【自】 このカードかこのカードのバトル相手が【リバース】した時、そのターン中、そのキャラは『【自】 アンコール』を使えない。（ルールによる『【自】 アンコール ［(3)］』も使えない）\n\"-\"",
+   "traits": [
+    "PIXAR"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/pxr_s94/pxr_s94_t08.png",
+   "variant": ""
+  },
+  {
+   "num": "PXR/S94-T08R",
+   "name": "ブタの貯金箱 ハム",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "7500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたのターン中、他のあなたの《PIXAR》のキャラ1枚につき、このカードのパワーを＋1000。\n【自】 このカードかこのカードのバトル相手が【リバース】した時、そのターン中、そのキャラは『【自】 アンコール』を使えない。（ルールによる『【自】 アンコール ［(3)］』も使えない）\n\"-\"",
+   "traits": [
+    "PIXAR"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/pxr_s94/pxr_s94_t08r.png",
+   "variant": ""
+  },
+  {
+   "num": "PXR/S94-T09",
+   "name": "走れ、風のように、ブルズアイ！",
+   "type": "Event",
+   "rarity": "TD",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "集中 あなたは自分の山札の上から3枚をめくり、控え室に置く。あなたは自分の控え室のレベルＸ以下の《PIXAR》のキャラを1枚選び、手札に戻す。Ｘはそれらのカードの《PIXAR》のキャラの枚数に等しい。\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/pxr_s94/pxr_s94_t09.png",
+   "variant": ""
+  },
+  {
+   "num": "PXR/S94-T09R",
+   "name": "走れ、風のように、ブルズアイ！",
+   "type": "Event",
+   "rarity": "RRR",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "集中 あなたは自分の山札の上から3枚をめくり、控え室に置く。あなたは自分の控え室のレベルＸ以下の《PIXAR》のキャラを1枚選び、手札に戻す。Ｘはそれらのカードの《PIXAR》のキャラの枚数に等しい。\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/pxr_s94/pxr_s94_t09r.png",
+   "variant": ""
+  },
+  {
+   "num": "PXR/S94-T10",
+   "name": "手作りおもちゃ",
+   "type": "Climax",
+   "rarity": "TD",
+   "color": "yellow",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[choice.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[choice.gif]]：このカードがトリガーした時、あなたは自分の控え室のトリガーアイコンに[[soul.gif]]があるキャラを1枚選び、手札に戻すかストック置場に置いてよい）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/pxr_s94/pxr_s94_t10.png",
+   "variant": ""
+  },
+  {
+   "num": "PXR/S94-T10R",
+   "name": "手作りおもちゃ",
+   "type": "Climax",
+   "rarity": "RRR",
+   "color": "yellow",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[choice.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[choice.gif]]：このカードがトリガーした時、あなたは自分の控え室のトリガーアイコンに[[soul.gif]]があるキャラを1枚選び、手札に戻すかストック置場に置いてよい）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/pxr_s94/pxr_s94_t10r.png",
+   "variant": ""
+  },
+  {
+   "num": "PXR/S94-T11",
+   "name": "アンディの一番のお気に入り",
+   "type": "Climax",
+   "rarity": "TD",
+   "color": "yellow",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[shot.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[shot.gif]]：このターン中、このカードをトリガーした攻撃キャラが次に与えるダメージがキャンセルされた時、相手に1ダメージを与える）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/pxr_s94/pxr_s94_t11.png",
+   "variant": ""
+  },
+  {
+   "num": "PXR/S94-T12",
+   "name": "おもちゃのルール",
+   "type": "Climax",
+   "rarity": "TD",
+   "color": "yellow",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【永】 あなたのキャラすべてに、ソウルを＋2。\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/pxr_s94/pxr_s94_t12.png",
+   "variant": ""
+  },
+  {
+   "num": "PXR/S94-T13",
+   "name": "歌を熱唱 ウィージー",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋500。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から1枚を公開する。そのカードが《PIXAR》のキャラなら手札に加え、あなたは自分の手札を1枚選び、控え室に置く。（そうでないなら元に戻す）\n\"-\"",
+   "traits": [
+    "PIXAR"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/pxr_s94/pxr_s94_t13.png",
+   "variant": ""
+  },
+  {
+   "num": "PXR/S94-T14",
+   "name": "草食恐竜 トリクシー",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 絆／「ティラノザウルス レックス」 ［(1)］ （このカードがプレイされて舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「ティラノザウルス レックス」を1枚選び、手札に戻す）\n【起】［このカードを【レスト】する］ あなたは自分の「ティラノザウルス レックス」を1枚選び、そのターン中、パワーを＋500し、次の能力を与える。『【自】 このカードのバトル相手が【リバース】した時、あなたは自分の山札の上から1枚を、ストック置場に置いてよい。』\n\"-\"",
+   "traits": [
+    "PIXAR"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/pxr_s94/pxr_s94_t14.png",
+   "variant": ""
+  },
+  {
+   "num": "PXR/S94-T15",
+   "name": "お豆3兄妹",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から2枚を、控え室に置き、そのターン中、このカードのパワーを＋Ｘ。Ｘはそれらのカードの《PIXAR》のキャラの枚数×1000に等しい。\n\"-\"",
+   "traits": [
+    "PIXAR"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/pxr_s94/pxr_s94_t15.png",
+   "variant": ""
+  },
+  {
+   "num": "PXR/S94-T16",
+   "name": "宿敵 バズ&ザーグ",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 相手のキャラすべてに、『【自】 アンコール ［(2)］』を与える。\n【自】 この能力は1ターンにつき1回まで発動する。バトル中のこのカードが【リバース】した時、あなたは自分の山札の上から1枚を公開する。そのカードのレベルが2以上なら、あなたはこのカードを【レスト】してよい。（クライマックスのレベルは0として扱う。公開したカードは元に戻す）\n\"-\"",
+   "traits": [
+    "PIXAR"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/pxr_s94/pxr_s94_t16.png",
+   "variant": ""
+  },
+  {
+   "num": "PXR/S94-T16R",
+   "name": "宿敵 バズ&ザーグ",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 相手のキャラすべてに、『【自】 アンコール ［(2)］』を与える。\n【自】 この能力は1ターンにつき1回まで発動する。バトル中のこのカードが【リバース】した時、あなたは自分の山札の上から1枚を公開する。そのカードのレベルが2以上なら、あなたはこのカードを【レスト】してよい。（クライマックスのレベルは0として扱う。公開したカードは元に戻す）\n\"-\"",
+   "traits": [
+    "PIXAR"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/pxr_s94/pxr_s94_t16r.png",
+   "variant": ""
+  },
+  {
+   "num": "PXR/S94-T17",
+   "name": "グリーンアーミーメン",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札を上から1枚見て、山札の上か控え室に置く。\n【自】 このカードがアタックした時、あなたは自分の《PIXAR》のキャラを1枚選び、そのターン中、パワーを＋1500。\n\"-\"",
+   "traits": [
+    "PIXAR"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/pxr_s94/pxr_s94_t17.png",
+   "variant": ""
+  },
+  {
+   "num": "PXR/S94-T18",
+   "name": "ティラノザウルス レックス",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "5500",
+   "soul": 1,
+   "trigger": "",
+   "text": "-\n\"-\"",
+   "traits": [
+    "PIXAR"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/pxr_s94/pxr_s94_t18.png",
+   "variant": ""
+  },
+  {
+   "num": "PXR/S94-T18R",
+   "name": "ティラノザウルス レックス",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "5500",
+   "soul": 1,
+   "trigger": "",
+   "text": "-\n\"-\"",
+   "traits": [
+    "PIXAR"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/pxr_s94/pxr_s94_t18r.png",
+   "variant": ""
+  },
+  {
+   "num": "PXR/S94-T19",
+   "name": "受けた恩は忘れない エイリアン",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "green",
+   "level": "2",
+   "cost": "1",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】［(2)］ あなたがこのカードの『助太刀』を使った時、あなたはコストを払ってよい。そうしたら、あなたは自分のキャラを1枚選び、手札に戻す。\n【起】【カウンター】 助太刀2500 レベル2 ［(1) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋2500）\n\"-\"",
+   "traits": [
+    "PIXAR"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/pxr_s94/pxr_s94_t19.png",
+   "variant": ""
+  },
+  {
+   "num": "PXR/S94-T20",
+   "name": "ロッツォ",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "green",
+   "level": "2",
+   "cost": "2",
+   "power": "7000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたのキャラすべてが《PIXAR》なら、このカードのパワーを＋3000。\n【自】 アンコール ［(1) あなたの舞台のキャラを1枚控え室に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"-\"",
+   "traits": [
+    "PIXAR"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/pxr_s94/pxr_s94_t20.png",
+   "variant": ""
+  },
+  {
+   "num": "PXR/S94-T21",
+   "name": "運命の再会 ボー・ピープ",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "green",
+   "level": "3",
+   "cost": "2",
+   "power": "9500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n【自】 このカードがアタックした時、あなたは自分の《PIXAR》のキャラを1枚選び、そのターン中、パワーを＋Ｘ。Ｘはあなたの《PIXAR》のキャラの枚数×500に等しい。\n\"-\"",
+   "traits": [
+    "PIXAR"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/pxr_s94/pxr_s94_t21.png",
+   "variant": ""
+  },
+  {
+   "num": "PXR/S94-T21R",
+   "name": "運命の再会 ボー・ピープ",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "green",
+   "level": "3",
+   "cost": "2",
+   "power": "9500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n【自】 このカードがアタックした時、あなたは自分の《PIXAR》のキャラを1枚選び、そのターン中、パワーを＋Ｘ。Ｘはあなたの《PIXAR》のキャラの枚数×500に等しい。\n\"-\"",
+   "traits": [
+    "PIXAR"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/pxr_s94/pxr_s94_t21r.png",
+   "variant": ""
+  },
+  {
+   "num": "PXR/S94-T21S",
+   "name": "運命の再会 ボー・ピープ",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "3",
+   "cost": "2",
+   "power": "9500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n【自】 このカードがアタックした時、あなたは自分の《PIXAR》のキャラを1枚選び、そのターン中、パワーを＋Ｘ。Ｘはあなたの《PIXAR》のキャラの枚数×500に等しい。\n\"-\"",
+   "traits": [
+    "PIXAR"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/pxr_s94/pxr_s94_t21s.png",
+   "variant": ""
+  },
+  {
+   "num": "PXR/S94-T22",
+   "name": "スペース・レンジャー バズ・ライトイヤー",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "green",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、次の相手のターンの終わりまで、このカードのパワーを＋4500し、このカードは次の能力を得る。『【永】 このカードのバトル中、すべてのプレイヤーは『助太刀』を手札からプレイできない。』\n【自】［手札のキャラを2枚控え室に置く］ このカードのバトル相手が【リバース】した時、あなたはコストを払ってよい。そうしたら、あなたはそのバトル相手をクロック置場に置く。\n\"-\"",
+   "traits": [
+    "PIXAR"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/pxr_s94/pxr_s94_t22.png",
+   "variant": ""
+  },
+  {
+   "num": "PXR/S94-T22SP",
+   "name": "スペース・レンジャー バズ・ライトイヤー",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "green",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、次の相手のターンの終わりまで、このカードのパワーを＋4500し、このカードは次の能力を得る。『【永】 このカードのバトル中、すべてのプレイヤーは『助太刀』を手札からプレイできない。』\n【自】［手札のキャラを2枚控え室に置く］ このカードのバトル相手が【リバース】した時、あなたはコストを払ってよい。そうしたら、あなたはそのバトル相手をクロック置場に置く。\n\"-\"",
+   "traits": [
+    "PIXAR"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/pxr_s94/pxr_s94_t22sp.png",
+   "variant": ""
+  }
+ ]
+}

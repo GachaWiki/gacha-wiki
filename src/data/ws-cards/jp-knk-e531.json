@@ -1,0 +1,4184 @@
+{
+ "id": "jp-knk-e531",
+ "name": "彼女、お借りします Vol.2",
+ "expansion": 531,
+ "lang": "jp",
+ "release": null,
+ "shopItem": null,
+ "box": null,
+ "cards": [
+  {
+   "num": "KNK/W132-001",
+   "name": "ゆるふわ小悪魔系な元彼女 麻美",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたのCX置場にCXがあるなら、すべての領域にあるこのカードはトリガーアイコンに[[bounce.gif]]を得る。\n【永】 あなたはイベントと『助太刀』を手札からプレイできない。\n\"-\"",
+   "traits": [
+    "かのかり"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_001.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-001S",
+   "name": "ゆるふわ小悪魔系な元彼女 麻美",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたのCX置場にCXがあるなら、すべての領域にあるこのカードはトリガーアイコンに[[bounce.gif]]を得る。\n【永】 あなたはイベントと『助太刀』を手札からプレイできない。\n\"-\"",
+   "traits": [
+    "かのかり"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_001s.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-001SSP",
+   "name": "ゆるふわ小悪魔系な元彼女 麻美",
+   "type": "Character",
+   "rarity": "SSP",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたのCX置場にCXがあるなら、すべての領域にあるこのカードはトリガーアイコンに[[bounce.gif]]を得る。\n【永】 あなたはイベントと『助太刀』を手札からプレイできない。\n\"-\"",
+   "traits": [
+    "かのかり"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_001ssp.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-002",
+   "name": "“本当”の関係 麻美",
+   "type": "Character",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、他のあなたの《かのかり》のキャラが2枚以上なら、あなたは1枚引いてよい。そうしたら、あなたは自分の手札を1枚選び、控え室に置く。\n【自】［(1) 手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見て《かのかり》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"-\"",
+   "traits": [
+    "かのかり"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_002.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-002EX",
+   "name": "“本当”の関係 麻美",
+   "type": "Character",
+   "rarity": "SEC",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、他のあなたの《かのかり》のキャラが2枚以上なら、あなたは1枚引いてよい。そうしたら、あなたは自分の手札を1枚選び、控え室に置く。\n【自】［(1) 手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見て《かのかり》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"-\"",
+   "traits": [
+    "かのかり"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_002ex.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-002S",
+   "name": "“本当”の関係 麻美",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、他のあなたの《かのかり》のキャラが2枚以上なら、あなたは1枚引いてよい。そうしたら、あなたは自分の手札を1枚選び、控え室に置く。\n【自】［(1) 手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見て《かのかり》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"-\"",
+   "traits": [
+    "かのかり"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_002s.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-003",
+   "name": "気になる関係 麻美",
+   "type": "Character",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】【CXコンボ】［手札を1枚ストック置場に置く］ このカードがアタックした時、CX置場に「本気になってないよね」があり、他のあなたの《かのかり》のキャラが2枚以上なら、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を上から2枚まで見て、《かのかり》のキャラか「突然の訪問」を2枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。\n\"あ ハロー 和くん\"",
+   "traits": [
+    "かのかり"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_003.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-003S",
+   "name": "気になる関係 麻美",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】【CXコンボ】［手札を1枚ストック置場に置く］ このカードがアタックした時、CX置場に「本気になってないよね」があり、他のあなたの《かのかり》のキャラが2枚以上なら、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を上から2枚まで見て、《かのかり》のキャラか「突然の訪問」を2枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。\n\"-\"",
+   "traits": [
+    "かのかり"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_003s.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-003SP",
+   "name": "気になる関係 麻美",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】【CXコンボ】［手札を1枚ストック置場に置く］ このカードがアタックした時、CX置場に「本気になってないよね」があり、他のあなたの《かのかり》のキャラが2枚以上なら、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を上から2枚まで見て、《かのかり》のキャラか「突然の訪問」を2枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。\n\"-\"",
+   "traits": [
+    "かのかり"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_003sp.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-004",
+   "name": "優し気な笑顔 麻美",
+   "type": "Character",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "3",
+   "cost": "2",
+   "power": "8500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたの控え室のトリガーアイコンが[[bounce.gif]]のCXが4枚以上なら、あなたの手札のこのカードのレベルを－1。\n【永】 他のあなたの《かのかり》のキャラが2枚以上なら、このカードのパワーを＋3000。\n【自】【ターン1】 このカードが手札から舞台に置かれたターン中、このカードの与えたダメージがキャンセルされた時、あなたは自分の山札の上から1枚を、控え室に置き、相手にＸダメージを与える。Ｘはそのカードのレベル＋1に等しい。（CXのレベルは0として扱う。ダメージキャンセルは発生する）\n\"-\"",
+   "traits": [
+    "かのかり"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_004.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-004S",
+   "name": "優し気な笑顔 麻美",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "yellow",
+   "level": "3",
+   "cost": "2",
+   "power": "8500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたの控え室のトリガーアイコンが[[bounce.gif]]のCXが4枚以上なら、あなたの手札のこのカードのレベルを－1。\n【永】 他のあなたの《かのかり》のキャラが2枚以上なら、このカードのパワーを＋3000。\n【自】【ターン1】 このカードが手札から舞台に置かれたターン中、このカードの与えたダメージがキャンセルされた時、あなたは自分の山札の上から1枚を、控え室に置き、相手にＸダメージを与える。Ｘはそのカードのレベル＋1に等しい。（CXのレベルは0として扱う。ダメージキャンセルは発生する）\n\"-\"",
+   "traits": [
+    "かのかり"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_004s.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-005",
+   "name": "意味ないこと 麻美",
+   "type": "Character",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "3",
+   "cost": "2",
+   "power": "9500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】［手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分のクロックの下から1枚までを、控え室に置き、自分の控え室の《かのかり》のキャラを1枚まで選び、手札に戻す。\n【自】【CXコンボ】［手札を1枚控え室に置く］ このカードがアタックした時、CX置場に「ちょっと可笑しい」があり、他のあなたの《かのかり》のキャラがいるなら、あなたはコストを払ってよい。そうしたら、あなたは自分の山札の上から8枚を公開し、その山札をシャッフルし、相手にＸダメージを与える。Ｘはこの効果で公開されたカードのトリガーアイコンの[[bounce.gif]]の合計に等しい。（公開したカードは元に戻す。ダメージキャンセルは発生する）\n\"何なのあのガキ ヤベーやつじゃん…\"",
+   "traits": [
+    "かのかり"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_005.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-005S",
+   "name": "意味ないこと 麻美",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "yellow",
+   "level": "3",
+   "cost": "2",
+   "power": "9500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】［手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分のクロックの下から1枚までを、控え室に置き、自分の控え室の《かのかり》のキャラを1枚まで選び、手札に戻す。\n【自】【CXコンボ】［手札を1枚控え室に置く］ このカードがアタックした時、CX置場に「ちょっと可笑しい」があり、他のあなたの《かのかり》のキャラがいるなら、あなたはコストを払ってよい。そうしたら、あなたは自分の山札の上から8枚を公開し、その山札をシャッフルし、相手にＸダメージを与える。Ｘはこの効果で公開されたカードのトリガーアイコンの[[bounce.gif]]の合計に等しい。（公開したカードは元に戻す。ダメージキャンセルは発生する）\n\"-\"",
+   "traits": [
+    "かのかり"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_005s.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-005SP",
+   "name": "意味ないこと 麻美",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "yellow",
+   "level": "3",
+   "cost": "2",
+   "power": "9500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】［手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分のクロックの下から1枚までを、控え室に置き、自分の控え室の《かのかり》のキャラを1枚まで選び、手札に戻す。\n【自】【CXコンボ】［手札を1枚控え室に置く］ このカードがアタックした時、CX置場に「ちょっと可笑しい」があり、他のあなたの《かのかり》のキャラがいるなら、あなたはコストを払ってよい。そうしたら、あなたは自分の山札の上から8枚を公開し、その山札をシャッフルし、相手にＸダメージを与える。Ｘはこの効果で公開されたカードのトリガーアイコンの[[bounce.gif]]の合計に等しい。（公開したカードは元に戻す。ダメージキャンセルは発生する）\n\"-\"",
+   "traits": [
+    "かのかり"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_005sp.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-006",
+   "name": "次の一手 麻美",
+   "type": "Character",
+   "rarity": "U",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは相手のキャラを1枚とそのキャラの特徴を1つ選び、そのターン中、そのキャラはその特徴をすべて失う。\n【自】 このカードが【リバース】した時、このカードのバトル相手のレベルが0以下なら、あなたはそのキャラをストック置場に置いてよい。そうしたら、あなたは相手のストックの下から1枚を、控え室に置く。\n\"-\"",
+   "traits": [
+    "かのかり"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_006.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-006S",
+   "name": "次の一手 麻美",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは相手のキャラを1枚とそのキャラの特徴を1つ選び、そのターン中、そのキャラはその特徴をすべて失う。\n【自】 このカードが【リバース】した時、このカードのバトル相手のレベルが0以下なら、あなたはそのキャラをストック置場に置いてよい。そうしたら、あなたは相手のストックの下から1枚を、控え室に置く。\n\"ふふっ\"",
+   "traits": [
+    "かのかり"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_006s.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-007",
+   "name": "星空の下 麻美",
+   "type": "Character",
+   "rarity": "U",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【起】 集中 ［(1) このカードを【レスト】する］ あなたは自分の山札の上から5枚をめくり、控え室に置く。それらのカードのトリガーアイコンが[[bounce.gif]]のCX1枚につき、次の行動を行う。『あなたは自分の山札を上から3枚まで見て、カードを1枚まで選び、手札に加え、残りのカードを控え室に置く。』\n\"-\"",
+   "traits": [
+    "かのかり"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_007.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-007S",
+   "name": "星空の下 麻美",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【起】 集中 ［(1) このカードを【レスト】する］ あなたは自分の山札の上から5枚をめくり、控え室に置く。それらのカードのトリガーアイコンが[[bounce.gif]]のCX1枚につき、次の行動を行う。『あなたは自分の山札を上から3枚まで見て、カードを1枚まで選び、手札に加え、残りのカードを控え室に置く。』\n\"-\"",
+   "traits": [
+    "かのかり"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_007s.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-008",
+   "name": "急接近 麻美",
+   "type": "Character",
+   "rarity": "U",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(2)］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見てトリガーアイコンが[[bounce.gif]]のCXを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"-\"",
+   "traits": [
+    "かのかり"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_008.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-008S",
+   "name": "急接近 麻美",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(2)］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見てトリガーアイコンが[[bounce.gif]]のCXを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"-\"",
+   "traits": [
+    "かのかり"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_008s.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-009",
+   "name": "読めない元カノ 麻美",
+   "type": "Character",
+   "rarity": "U",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から1枚を公開する。そのカードが《かのかり》のキャラか「突然の訪問」なら、あなたは相手の前列のキャラを1枚選び、そのターン中、パワーを－6000。（公開したカードは元に戻す）\n【自】［手札の《かのかり》のキャラを1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは1枚引く。\n\"-\"",
+   "traits": [
+    "かのかり"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_009.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-009S",
+   "name": "読めない元カノ 麻美",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から1枚を公開する。そのカードが《かのかり》のキャラか「突然の訪問」なら、あなたは相手の前列のキャラを1枚選び、そのターン中、パワーを－6000。（公開したカードは元に戻す）\n【自】［手札の《かのかり》のキャラを1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは1枚引く。\n\"-\"",
+   "traits": [
+    "かのかり"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_009s.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-010",
+   "name": "ヒミツ恋ゴコロ 麻美",
+   "type": "Character",
+   "rarity": "U",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたは[[bounce.gif]]の効果で自分のキャラを選んでよい。\n【永】 他のあなたの「言えない 麻美」すべてに、次の能力を与える。『【自】 このカードのバトル相手が【リバース】した時、あなたはそのキャラを山札の下に置いてよい。』\n【永】 あなたのターン中、他のあなたの《かのかり》のキャラすべてに、パワーを＋1000。\n\"-\"",
+   "traits": [
+    "かのかり"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_010.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-010S",
+   "name": "ヒミツ恋ゴコロ 麻美",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたは[[bounce.gif]]の効果で自分のキャラを選んでよい。\n【永】 他のあなたの「言えない 麻美」すべてに、次の能力を与える。『【自】 このカードのバトル相手が【リバース】した時、あなたはそのキャラを山札の下に置いてよい。』\n【永】 あなたのターン中、他のあなたの《かのかり》のキャラすべてに、パワーを＋1000。\n\"-\"",
+   "traits": [
+    "かのかり"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_010s.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-011",
+   "name": "言えない 麻美",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "2",
+   "cost": "0",
+   "power": "8000",
+   "soul": 1,
+   "trigger": "",
+   "text": "-\n\"-\"",
+   "traits": [
+    "かのかり"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_011.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-011S",
+   "name": "言えない 麻美",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "yellow",
+   "level": "2",
+   "cost": "0",
+   "power": "8000",
+   "soul": 1,
+   "trigger": "",
+   "text": "-\n\"-\"",
+   "traits": [
+    "かのかり"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_011s.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-012",
+   "name": "二人きりで話 麻美",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋Ｘ。Ｘはそのキャラのレベル×500に等しい。\n【自】［(1)］ 相手のキャラが、舞台から手札に戻った時、あなたはコストを払ってよい。そうしたら、あなたは1枚引き、自分の手札を1枚選び、ストック置場に置く。\n\"和くんピュアだけどバカじゃないもんねっ\"",
+   "traits": [
+    "かのかり"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_012.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-012S",
+   "name": "二人きりで話 麻美",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋Ｘ。Ｘはそのキャラのレベル×500に等しい。\n【自】［(1)］ 相手のキャラが、舞台から手札に戻った時、あなたはコストを払ってよい。そうしたら、あなたは1枚引き、自分の手札を1枚選び、ストック置場に置く。\n\"かーず君っ\"",
+   "traits": [
+    "かのかり"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_012s.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-013",
+   "name": "突然の訪問",
+   "type": "Event",
+   "rarity": "U",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "［あなたの【スタンド】している《かのかり》のキャラを1枚【レスト】する］ あなたはコストを払ってよい。そうしたら、あなたは相手の後列のレベル1以下のキャラを1枚選び、控え室に置く。\n\"千鶴「ねぇ…出ないの？」\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_013.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-013S",
+   "name": "突然の訪問",
+   "type": "Event",
+   "rarity": "SR",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "［あなたの【スタンド】している《かのかり》のキャラを1枚【レスト】する］ あなたはコストを払ってよい。そうしたら、あなたは相手の後列のレベル1以下のキャラを1枚選び、控え室に置く。\n\"たまたま近く寄っただけだし 電話するほどでも…\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_013s.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-014",
+   "name": "本気になってないよね",
+   "type": "Climax",
+   "rarity": "CR",
+   "color": "yellow",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[bounce.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[bounce.gif]]：このカードがトリガーした時、あなたは相手のキャラを1枚選び、手札に戻してよい）\n\"まさか和くん 本気になってないよねっ!?\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_014.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-014R",
+   "name": "本気になってないよね",
+   "type": "Climax",
+   "rarity": "RRR",
+   "color": "yellow",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[bounce.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[bounce.gif]]：このカードがトリガーした時、あなたは相手のキャラを1枚選び、手札に戻してよい）\n\"私のせい…？\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_014r.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-015",
+   "name": "ちょっと可笑しい",
+   "type": "Climax",
+   "rarity": "CR",
+   "color": "yellow",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[bounce.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[bounce.gif]]：このカードがトリガーした時、あなたは相手のキャラを1枚選び、手札に戻してよい）\n\"ふふっ ごめんっ\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_015.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-015R",
+   "name": "ちょっと可笑しい",
+   "type": "Climax",
+   "rarity": "RRR",
+   "color": "yellow",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[bounce.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[bounce.gif]]：このカードがトリガーした時、あなたは相手のキャラを1枚選び、手札に戻してよい）\n\"もう和くんとは会ってない？\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_015r.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-016",
+   "name": "清楚可憐な彼女 千鶴",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札の上から1枚を公開し、自分の控え室のレベルＸ以下のキャラを1枚選び、手札に戻す。Ｘは公開されたカードのレベルに等しい。（CXのレベルは0として扱う。公開したカードは元に戻す）\n【自】 このカードがアタックした時、あなたは他の自分の《かのかり》のキャラを1枚選び、そのターン中、パワーを＋Ｘ。Ｘは他のあなたの《かのかり》のキャラの枚数×500に等しい。\n\"-\"",
+   "traits": [
+    "かのかり",
+    "ダイアモンド"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_016.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-016S",
+   "name": "清楚可憐な彼女 千鶴",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札の上から1枚を公開し、自分の控え室のレベルＸ以下のキャラを1枚選び、手札に戻す。Ｘは公開されたカードのレベルに等しい。（CXのレベルは0として扱う。公開したカードは元に戻す）\n【自】 このカードがアタックした時、あなたは他の自分の《かのかり》のキャラを1枚選び、そのターン中、パワーを＋Ｘ。Ｘは他のあなたの《かのかり》のキャラの枚数×500に等しい。\n\"-\"",
+   "traits": [
+    "かのかり",
+    "ダイアモンド"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_016s.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-016SSP",
+   "name": "清楚可憐な彼女 千鶴",
+   "type": "Character",
+   "rarity": "SSP",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札の上から1枚を公開し、自分の控え室のレベルＸ以下のキャラを1枚選び、手札に戻す。Ｘは公開されたカードのレベルに等しい。（CXのレベルは0として扱う。公開したカードは元に戻す）\n【自】 このカードがアタックした時、あなたは他の自分の《かのかり》のキャラを1枚選び、そのターン中、パワーを＋Ｘ。Ｘは他のあなたの《かのかり》のキャラの枚数×500に等しい。\n\"-\"",
+   "traits": [
+    "かのかり",
+    "ダイアモンド"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_016ssp.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-017",
+   "name": "思いやりの気持ち 墨",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのターン中、このカードのパワーを＋2000。\n【自】【CXコンボ】 あなたのCX置場に「最高の『お饗し』」が置かれた時、前列にこのカードがいて、他のあなたのキャラが3枚以上なら、あなたは自分の山札を上から4枚まで見て、《かのかり》のキャラを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置き、そのターン中、このカードは次の能力を得る。『【自】 このカードがアタックした時、あなたは自分の山札を上から2枚まで見て、カードを1枚選び、山札の上に置き、残りのカードを控え室に置く。』\n\"-\"",
+   "traits": [
+    "かのかり",
+    "ダイアモンド"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_017.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-017S",
+   "name": "思いやりの気持ち 墨",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのターン中、このカードのパワーを＋2000。\n【自】【CXコンボ】 あなたのCX置場に「最高の『お饗し』」が置かれた時、前列にこのカードがいて、他のあなたのキャラが3枚以上なら、あなたは自分の山札を上から4枚まで見て、《かのかり》のキャラを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置き、そのターン中、このカードは次の能力を得る。『【自】 このカードがアタックした時、あなたは自分の山札を上から2枚まで見て、カードを1枚選び、山札の上に置き、残りのカードを控え室に置く。』\n\"-\"",
+   "traits": [
+    "かのかり",
+    "ダイアモンド"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_017s.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-017SP",
+   "name": "思いやりの気持ち 墨",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのターン中、このカードのパワーを＋2000。\n【自】【CXコンボ】 あなたのCX置場に「最高の『お饗し』」が置かれた時、前列にこのカードがいて、他のあなたのキャラが3枚以上なら、あなたは自分の山札を上から4枚まで見て、《かのかり》のキャラを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置き、そのターン中、このカードは次の能力を得る。『【自】 このカードがアタックした時、あなたは自分の山札を上から2枚まで見て、カードを1枚選び、山札の上に置き、残りのカードを控え室に置く。』\n\"-\"",
+   "traits": [
+    "かのかり",
+    "ダイアモンド"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_017sp.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-018",
+   "name": "あなたの力に 墨",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "green",
+   "level": "3",
+   "cost": "2",
+   "power": "10500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】【CXコンボ】 このカードがアタックした時、CX置場に「前向きは笑顔から」があり、他のあなたの《かのかり》のキャラが2枚以上なら、次の相手のターンの終わりまで、このカードのパワーを＋2000し、このカードは次の2つの能力を得る。『【永】 このカードは相手の効果に選ばれない。』『【自】 このカードの正面のキャラがアタックした時、あなたは自分の山札を上から2枚まで見て、カードを2枚まで選び、山札の上に好きな順番で置き、残りのカードを控え室に置く。』\n【自】 このカードが舞台から控え室に置かれた時、あなたはこのカードを手札に戻してよい。そうしたら、あなたは自分の控え室の《かのかり》のキャラを1枚まで選び、ストック置場に置く。\n\"-\"",
+   "traits": [
+    "かのかり",
+    "ダイアモンド"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_018.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-018S",
+   "name": "あなたの力に 墨",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "3",
+   "cost": "2",
+   "power": "10500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】【CXコンボ】 このカードがアタックした時、CX置場に「前向きは笑顔から」があり、他のあなたの《かのかり》のキャラが2枚以上なら、次の相手のターンの終わりまで、このカードのパワーを＋2000し、このカードは次の2つの能力を得る。『【永】 このカードは相手の効果に選ばれない。』『【自】 このカードの正面のキャラがアタックした時、あなたは自分の山札を上から2枚まで見て、カードを2枚まで選び、山札の上に好きな順番で置き、残りのカードを控え室に置く。』\n【自】 このカードが舞台から控え室に置かれた時、あなたはこのカードを手札に戻してよい。そうしたら、あなたは自分の控え室の《かのかり》のキャラを1枚まで選び、ストック置場に置く。\n\"-\"",
+   "traits": [
+    "かのかり",
+    "ダイアモンド"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_018s.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-018SP",
+   "name": "あなたの力に 墨",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "green",
+   "level": "3",
+   "cost": "2",
+   "power": "10500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】【CXコンボ】 このカードがアタックした時、CX置場に「前向きは笑顔から」があり、他のあなたの《かのかり》のキャラが2枚以上なら、次の相手のターンの終わりまで、このカードのパワーを＋2000し、このカードは次の2つの能力を得る。『【永】 このカードは相手の効果に選ばれない。』『【自】 このカードの正面のキャラがアタックした時、あなたは自分の山札を上から2枚まで見て、カードを2枚まで選び、山札の上に好きな順番で置き、残りのカードを控え室に置く。』\n【自】 このカードが舞台から控え室に置かれた時、あなたはこのカードを手札に戻してよい。そうしたら、あなたは自分の控え室の《かのかり》のキャラを1枚まで選び、ストック置場に置く。\n\"-\"",
+   "traits": [
+    "かのかり",
+    "ダイアモンド"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_018sp.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-019",
+   "name": "星空の下 墨",
+   "type": "Character",
+   "rarity": "R",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】【CXコンボ】［(1) このカードを控え室に置く］ あなたのCXフェイズ中、CX置場に「前向きは笑顔から」が置かれた時、あなたのレベルが2以上なら、あなたはコストを払ってよい。そうしたら、あなたは自分の手札の「あなたの力に 墨」を1枚まで選び、このカードがいた枠に置く。\n【起】 集中 ［(1) このカードを【レスト】する］ あなたは自分の山札の上から4枚をめくり、控え室に置く。それらのカードのCX1枚につき、あなたは自分の控え室のキャラを1枚まで選び、手札に戻す。\n\"-\"",
+   "traits": [
+    "かのかり",
+    "ダイアモンド"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_019.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-019S",
+   "name": "星空の下 墨",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】【CXコンボ】［(1) このカードを控え室に置く］ あなたのCXフェイズ中、CX置場に「前向きは笑顔から」が置かれた時、あなたのレベルが2以上なら、あなたはコストを払ってよい。そうしたら、あなたは自分の手札の「あなたの力に 墨」を1枚まで選び、このカードがいた枠に置く。\n【起】 集中 ［(1) このカードを【レスト】する］ あなたは自分の山札の上から4枚をめくり、控え室に置く。それらのカードのCX1枚につき、あなたは自分の控え室のキャラを1枚まで選び、手札に戻す。\n\"-\"",
+   "traits": [
+    "かのかり",
+    "ダイアモンド"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_019s.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-020",
+   "name": "自分を変えたい 墨",
+   "type": "Character",
+   "rarity": "R",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードがアタックした時、あなたは自分の《かのかり》のキャラを1枚選び、そのターン中、パワーを＋1500。\n【自】 このカードのバトル相手が【リバース】した時、あなたは他の自分の《かのかり》のキャラを1枚選び、【レスト】し、後列のキャラのいない枠に動かす。\n\"-\"",
+   "traits": [
+    "かのかり",
+    "ダイアモンド"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_020.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-020EX",
+   "name": "自分を変えたい 墨",
+   "type": "Character",
+   "rarity": "SEC",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードがアタックした時、あなたは自分の《かのかり》のキャラを1枚選び、そのターン中、パワーを＋1500。\n【自】 このカードのバトル相手が【リバース】した時、あなたは他の自分の《かのかり》のキャラを1枚選び、【レスト】し、後列のキャラのいない枠に動かす。\n\"-\"",
+   "traits": [
+    "かのかり",
+    "ダイアモンド"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_020ex.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-020S",
+   "name": "自分を変えたい 墨",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードがアタックした時、あなたは自分の《かのかり》のキャラを1枚選び、そのターン中、パワーを＋1500。\n【自】 このカードのバトル相手が【リバース】した時、あなたは他の自分の《かのかり》のキャラを1枚選び、【レスト】し、後列のキャラのいない枠に動かす。\n\"-\"",
+   "traits": [
+    "かのかり",
+    "ダイアモンド"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_020s.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-021",
+   "name": "海辺の彼女 墨",
+   "type": "Character",
+   "rarity": "R",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［あなたの控え室の《かのかり》のキャラを1枚クロック置場の下に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札の上から1枚を公開する。そのカードが《かのかり》のキャラか「おもてなし暴走列車」なら手札に加える。（そうでないなら元に戻す）\n\"-\"",
+   "traits": [
+    "かのかり",
+    "ダイアモンド"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_021.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-021S",
+   "name": "海辺の彼女 墨",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［あなたの控え室の《かのかり》のキャラを1枚クロック置場の下に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札の上から1枚を公開する。そのカードが《かのかり》のキャラか「おもてなし暴走列車」なら手札に加える。（そうでないなら元に戻す）\n\"-\"",
+   "traits": [
+    "かのかり",
+    "ダイアモンド"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_021s.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-022",
+   "name": "星空の下 みに",
+   "type": "Character",
+   "rarity": "R",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが舞台から控え室に置かれた時、あなたは自分の山札を上から3枚まで見て、CXを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。手札に加えたなら、あなたは自分の手札を1枚選び、控え室に置く。\n\"-\"",
+   "traits": [
+    "かのかり",
+    "コスプレ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_022.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-022S",
+   "name": "星空の下 みに",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが舞台から控え室に置かれた時、あなたは自分の山札を上から3枚まで見て、CXを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。手札に加えたなら、あなたは自分の手札を1枚選び、控え室に置く。\n\"-\"",
+   "traits": [
+    "かのかり",
+    "コスプレ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_022s.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-022SP",
+   "name": "星空の下 みに",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが舞台から控え室に置かれた時、あなたは自分の山札を上から3枚まで見て、CXを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。手札に加えたなら、あなたは自分の手札を1枚選び、控え室に置く。\n\"-\"",
+   "traits": [
+    "かのかり",
+    "コスプレ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_022sp.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-023",
+   "name": "恋の目撃者 みに",
+   "type": "Character",
+   "rarity": "R",
+   "color": "green",
+   "level": "3",
+   "cost": "2",
+   "power": "10500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から2枚を、控え室に置き、相手にＸダメージを与える。Ｘはそれらのカードのトリガーアイコンの[[soul.gif]]の合計に等しい。（ダメージキャンセルは発生する）\n【自】【CXコンボ】 このカードがアタックした時、CX置場に「感情に任せて」があるなら、あなたは自分のクロックの下から1枚を、控え室に置いてよい。\n\"そんなにイチャイチャしてるなら付き合っちゃえばいいのに\"",
+   "traits": [
+    "かのかり",
+    "コスプレ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_023.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-023S",
+   "name": "恋の目撃者 みに",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "3",
+   "cost": "2",
+   "power": "10500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から2枚を、控え室に置き、相手にＸダメージを与える。Ｘはそれらのカードのトリガーアイコンの[[soul.gif]]の合計に等しい。（ダメージキャンセルは発生する）\n【自】【CXコンボ】 このカードがアタックした時、CX置場に「感情に任せて」があるなら、あなたは自分のクロックの下から1枚を、控え室に置いてよい。\n\"-\"",
+   "traits": [
+    "かのかり",
+    "コスプレ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_023s.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-023SP",
+   "name": "恋の目撃者 みに",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "green",
+   "level": "3",
+   "cost": "2",
+   "power": "10500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から2枚を、控え室に置き、相手にＸダメージを与える。Ｘはそれらのカードのトリガーアイコンの[[soul.gif]]の合計に等しい。（ダメージキャンセルは発生する）\n【自】【CXコンボ】 このカードがアタックした時、CX置場に「感情に任せて」があるなら、あなたは自分のクロックの下から1枚を、控え室に置いてよい。\n\"-\"",
+   "traits": [
+    "かのかり",
+    "コスプレ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_023sp.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-024",
+   "name": "誕生日プレゼント ちづる",
+   "type": "Character",
+   "rarity": "U",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［手札を1枚控え室に置く］ あなたのトリガーアイコンが[[treasure.gif]]のCXがトリガーした時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室のキャラを1枚選び、手札に戻す。\n【起】［このカードを【レスト】する］ あなたは自分の《かのかり》のキャラを1枚選び、そのターン中、パワーを＋1500。\n\"梅干し…？なんで…？\"",
+   "traits": [
+    "かのかり",
+    "ダイアモンド"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_024.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-024S",
+   "name": "誕生日プレゼント ちづる",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［手札を1枚控え室に置く］ あなたのトリガーアイコンが[[treasure.gif]]のCXがトリガーした時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室のキャラを1枚選び、手札に戻す。\n【起】［このカードを【レスト】する］ あなたは自分の《かのかり》のキャラを1枚選び、そのターン中、パワーを＋1500。\n\"すっぱ！\"",
+   "traits": [
+    "かのかり",
+    "ダイアモンド"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_024s.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-025",
+   "name": "聞いちゃった みに",
+   "type": "Character",
+   "rarity": "U",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 あなたのCXフェイズの始めに、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋1000。\n【起】 集中 ［(1) あなたのキャラを2枚【レスト】する］ あなたは自分の山札の上から4枚をめくり、控え室に置く。それらのカードのCX1枚につき、あなたは自分の控え室のキャラを1枚まで選び、手札に戻す。\n\"“レンタル彼女”…！\"",
+   "traits": [
+    "かのかり",
+    "コスプレ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_025.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-025S",
+   "name": "聞いちゃった みに",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 あなたのCXフェイズの始めに、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋1000。\n【起】 集中 ［(1) あなたのキャラを2枚【レスト】する］ あなたは自分の山札の上から4枚をめくり、控え室に置く。それらのカードのCX1枚につき、あなたは自分の控え室のキャラを1枚まで選び、手札に戻す。\n\"これは事件っス～っ\"",
+   "traits": [
+    "かのかり",
+    "コスプレ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_025s.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-026",
+   "name": "日々成長中 墨",
+   "type": "Character",
+   "rarity": "U",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの《かのかり》のキャラすべてに、パワーを＋500。\n【起】［このカードを控え室に置く］ あなたは自分の控え室の「思いやりの気持ち 墨」を1枚選び、このカードがいた枠に置く。\n\"-\"",
+   "traits": [
+    "かのかり",
+    "ダイアモンド"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_026.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-026S",
+   "name": "日々成長中 墨",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの《かのかり》のキャラすべてに、パワーを＋500。\n【起】［このカードを控え室に置く］ あなたは自分の控え室の「思いやりの気持ち 墨」を1枚選び、このカードがいた枠に置く。\n\"-\"",
+   "traits": [
+    "かのかり",
+    "ダイアモンド"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_026s.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-027",
+   "name": "言っちゃった みに",
+   "type": "Character",
+   "rarity": "U",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 この能力は1ターンにつき1回まで発動する。あなたが【起】を使った時、そのターン中、このカードのパワーを＋1500し、このカードは次の能力を得る。『【自】 このカードがアタックした時、あなたは自分の山札の上から1枚を公開する。そのカードのレベルが1以上ならストック置場に置く。』（CXのレベルは0として扱う。そうでないなら元に戻す）\n\"おはようございますっス――！\"",
+   "traits": [
+    "かのかり",
+    "コスプレ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_027.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-027S",
+   "name": "言っちゃった みに",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 この能力は1ターンにつき1回まで発動する。あなたが【起】を使った時、そのターン中、このカードのパワーを＋1500し、このカードは次の能力を得る。『【自】 このカードがアタックした時、あなたは自分の山札の上から1枚を公開する。そのカードのレベルが1以上ならストック置場に置く。』（CXのレベルは0として扱う。そうでないなら元に戻す）\n\"言っちゃったっス…<br>師匠が水原さんのこと好きって…\"",
+   "traits": [
+    "かのかり",
+    "コスプレ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_027s.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-028",
+   "name": "駆け出しの女優 千鶴",
+   "type": "Character",
+   "rarity": "U",
+   "color": "green",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】［手札の《かのかり》のキャラを1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の《かのかり》のキャラを1枚選び、手札に戻す。\n【自】［(1)］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室のCXを1枚選び、手札に戻す。\n\"-\"",
+   "traits": [
+    "かのかり",
+    "ダイアモンド"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_028.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-028S",
+   "name": "駆け出しの女優 千鶴",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】［手札の《かのかり》のキャラを1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の《かのかり》のキャラを1枚選び、手札に戻す。\n【自】［(1)］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室のCXを1枚選び、手札に戻す。\n\"-\"",
+   "traits": [
+    "かのかり",
+    "ダイアモンド"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_028s.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-029",
+   "name": "練習デート 墨",
+   "type": "Character",
+   "rarity": "U",
+   "color": "green",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 前列にこのカードがいるなら、あなたの《かのかり》のキャラすべてに、パワーを＋1500。\n【自】［(1)］ このカードがアタックした時、あなたはコストを払ってよい。そうしたら、そのターン中、このカードのパワーを＋1000し、このカードは次の能力を得る。『【自】 このカードのバトル相手が【リバース】した時、あなたはそのキャラを山札の上に置いてよい。』\n\"-\"",
+   "traits": [
+    "かのかり",
+    "ダイアモンド"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_029.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-029S",
+   "name": "練習デート 墨",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 前列にこのカードがいるなら、あなたの《かのかり》のキャラすべてに、パワーを＋1500。\n【自】［(1)］ このカードがアタックした時、あなたはコストを払ってよい。そうしたら、そのターン中、このカードのパワーを＋1000し、このカードは次の能力を得る。『【自】 このカードのバトル相手が【リバース】した時、あなたはそのキャラを山札の上に置いてよい。』\n\"-\"",
+   "traits": [
+    "かのかり",
+    "ダイアモンド"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_029s.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-030",
+   "name": "舞台を終えて ちづる",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、そのターン中、このカードのパワーを＋1500。\n【自】［(1)］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見てCXを1枚まで選んで公開し、自分の手札のCXを1枚まで選んで公開し、それらのCXを入れ替え、その山札をシャッフルする。\n\"ごめんっ また連絡するっ\"",
+   "traits": [
+    "かのかり",
+    "ダイアモンド"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_030.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-030S",
+   "name": "舞台を終えて ちづる",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、そのターン中、このカードのパワーを＋1500。\n【自】［(1)］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見てCXを1枚まで選んで公開し、自分の手札のCXを1枚まで選んで公開し、それらのCXを入れ替え、その山札をシャッフルする。\n\"あっ ごめんなさ…え？\"",
+   "traits": [
+    "かのかり",
+    "ダイアモンド"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_030s.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-031",
+   "name": "自然体で 千鶴",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の控え室の「オフタイム ちづる」を1枚選び、このカードの下にマーカーとして表向きに置いてよい。\n【起】［(1)］ あなたはこのカードのマーカーの「オフタイム ちづる」を1枚とこのカードを選び、入れ替える。そうしたら、次の相手のターンの終わりに、それらのキャラを入れ替える。\n\"-\"",
+   "traits": [
+    "かのかり",
+    "ダイアモンド"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_031.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-031S",
+   "name": "自然体で 千鶴",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の控え室の「オフタイム ちづる」を1枚選び、このカードの下にマーカーとして表向きに置いてよい。\n【起】［(1)］ あなたはこのカードのマーカーの「オフタイム ちづる」を1枚とこのカードを選び、入れ替える。そうしたら、次の相手のターンの終わりに、それらのキャラを入れ替える。\n\"じゃっ 次どこ行く!?\"",
+   "traits": [
+    "かのかり",
+    "ダイアモンド"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_031s.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-032",
+   "name": "立派な女優に ちづる",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から2枚を、控え室に置き、そのターン中、このカードのパワーを＋Ｘ。Ｘはそれらのカードの《かのかり》のキャラの枚数×2000に等しい。\n【自】 このカードがアタックした時、このカードの正面のキャラのレベルが2なら、そのターン中、このカードのパワーを＋4000し、ソウルを＋1。\n\"-\"",
+   "traits": [
+    "かのかり",
+    "ダイアモンド"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_032.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-032S",
+   "name": "立派な女優に ちづる",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から2枚を、控え室に置き、そのターン中、このカードのパワーを＋Ｘ。Ｘはそれらのカードの《かのかり》のキャラの枚数×2000に等しい。\n【自】 このカードがアタックした時、このカードの正面のキャラのレベルが2なら、そのターン中、このカードのパワーを＋4000し、ソウルを＋1。\n\"今回の映画制作も超楽しかったし！\"",
+   "traits": [
+    "かのかり",
+    "ダイアモンド"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_032s.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-033",
+   "name": "クラファン経験者 みに",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "2",
+   "cost": "1",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】［手札を2枚控え室に置く］ あなたがこのカードの『助太刀』を使った時、あなたはコストを払ってよい。そうしたら、あなたは相手の、レベルが相手のレベルより高いキャラを1枚選び、思い出にする。\n【起】【カウンター】 助太刀2500 レベル2 ［(1) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋2500）\n\"おはようございますっス 師匠！\"",
+   "traits": [
+    "かのかり",
+    "コスプレ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_033.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-033S",
+   "name": "クラファン経験者 みに",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "2",
+   "cost": "1",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】［手札を2枚控え室に置く］ あなたがこのカードの『助太刀』を使った時、あなたはコストを払ってよい。そうしたら、あなたは相手の、レベルが相手のレベルより高いキャラを1枚選び、思い出にする。\n【起】【カウンター】 助太刀2500 レベル2 ［(1) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋2500）\n\"自分 クラファン経験者っス！\"",
+   "traits": [
+    "かのかり",
+    "コスプレ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_033s.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-034",
+   "name": "突発旅行 墨",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "2",
+   "cost": "1",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 あなたのCXがCX置場に置かれた時、あなたは自分のキャラを1枚選び、次の相手のターンの終わりまで、パワーを＋3500し、次の能力を与える。『【永】 このカードは相手の効果に選ばれない。』\n【起】［(2) 手札を1枚控え室に置き、このカードを【レスト】する］ あなたは自分のクロックを1枚選び、手札に戻す。\n\"ん\"",
+   "traits": [
+    "かのかり",
+    "ダイアモンド"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_034.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-034S",
+   "name": "突発旅行 墨",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "2",
+   "cost": "1",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 あなたのCXがCX置場に置かれた時、あなたは自分のキャラを1枚選び、次の相手のターンの終わりまで、パワーを＋3500し、次の能力を与える。『【永】 このカードは相手の効果に選ばれない。』\n【起】［(2) 手札を1枚控え室に置き、このカードを【レスト】する］ あなたは自分のクロックを1枚選び、手札に戻す。\n\"ここからは “お友達”……\"",
+   "traits": [
+    "かのかり",
+    "ダイアモンド"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_034s.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-035",
+   "name": "オフタイム ちづる",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "2",
+   "cost": "1",
+   "power": "5500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの《かのかり》のキャラ1枚につき、このカードのパワーを＋1500。\n\"-\"",
+   "traits": [
+    "かのかり",
+    "ダイアモンド"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_035.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-035S",
+   "name": "オフタイム ちづる",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "2",
+   "cost": "1",
+   "power": "5500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの《かのかり》のキャラ1枚につき、このカードのパワーを＋1500。\n\"-\"",
+   "traits": [
+    "かのかり",
+    "ダイアモンド"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_035s.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-036",
+   "name": "誕生日の二人 墨",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "2",
+   "cost": "1",
+   "power": "7000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】【ターン1】 あなたが【起】を使った時、そのターン中、このカードのパワーを＋Ｘ。Ｘは他のあなたの《かのかり》のキャラの枚数×500に等しい。\n【自】 このカードがアタックした時、このカードの正面のキャラのレベルが3以上なら、そのターン中、このカードのパワーを＋6000。\n\"-\"",
+   "traits": [
+    "かのかり",
+    "ダイアモンド"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_036.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-036S",
+   "name": "誕生日の二人 墨",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "2",
+   "cost": "1",
+   "power": "7000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】【ターン1】 あなたが【起】を使った時、そのターン中、このカードのパワーを＋Ｘ。Ｘは他のあなたの《かのかり》のキャラの枚数×500に等しい。\n【自】 このカードがアタックした時、このカードの正面のキャラのレベルが3以上なら、そのターン中、このカードのパワーを＋6000。\n\"-\"",
+   "traits": [
+    "かのかり",
+    "ダイアモンド"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_036s.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-037",
+   "name": "おもてなし暴走列車",
+   "type": "Event",
+   "rarity": "U",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "このカードは、あなたの《かのかり》のキャラが1枚以下なら、手札からプレイできない。\nあなたは自分の山札の上から2枚までを、控え室に置く。それらのカードにレベル1以上のカードがあるなら、あなたは自分の山札の上から2枚までを、控え室に置く。あなたは自分の控え室のレベルＸ以下の《かのかり》のキャラを1枚選び、手札に戻す。Ｘはこの効果で控え室に置かれたレベル1以上のカードの枚数に等しい。（CXのレベルは0として扱う）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_037.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-037S",
+   "name": "おもてなし暴走列車",
+   "type": "Event",
+   "rarity": "SR",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "このカードは、あなたの《かのかり》のキャラが1枚以下なら、手札からプレイできない。\nあなたは自分の山札の上から2枚までを、控え室に置く。それらのカードにレベル1以上のカードがあるなら、あなたは自分の山札の上から2枚までを、控え室に置く。あなたは自分の控え室のレベルＸ以下の《かのかり》のキャラを1枚選び、手札に戻す。Ｘはこの効果で控え室に置かれたレベル1以上のカードの枚数に等しい。（CXのレベルは0として扱う）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_037s.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-038",
+   "name": "最高の『お饗し』",
+   "type": "Climax",
+   "rarity": "CR",
+   "color": "green",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[treasure.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[treasure.gif]]：このカードがトリガーした時、あなたはこのカードを手札に戻す。あなたは自分の山札の上から1枚を、ストック置場に置いてよい）\n\"お誕生日 おめでとう\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_038.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-038R",
+   "name": "最高の『お饗し』",
+   "type": "Climax",
+   "rarity": "RRR",
+   "color": "green",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[treasure.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[treasure.gif]]：このカードがトリガーした時、あなたはこのカードを手札に戻す。あなたは自分の山札の上から1枚を、ストック置場に置いてよい）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_038r.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-039",
+   "name": "前向きは笑顔から",
+   "type": "Climax",
+   "rarity": "CR",
+   "color": "green",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[treasure.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[treasure.gif]]：このカードがトリガーした時、あなたはこのカードを手札に戻す。あなたは自分の山札の上から1枚を、ストック置場に置いてよい）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_039.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-039R",
+   "name": "前向きは笑顔から",
+   "type": "Climax",
+   "rarity": "RRR",
+   "color": "green",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[treasure.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[treasure.gif]]：このカードがトリガーした時、あなたはこのカードを手札に戻す。あなたは自分の山札の上から1枚を、ストック置場に置いてよい）\n\"うん…\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_039r.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-040",
+   "name": "感情に任せて",
+   "type": "Climax",
+   "rarity": "CR",
+   "color": "green",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【自】 このカードが手札からCX置場に置かれた時、あなたは自分の控え室のトリガーアイコンに[[soul.gif]]があるキャラを1枚まで選び、手札に戻し、自分のキャラを2枚まで選び、そのターン中、ソウルを＋1。\n\"まっ 待ってください…っ！\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_040.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-040R",
+   "name": "感情に任せて",
+   "type": "Climax",
+   "rarity": "RRR",
+   "color": "green",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【自】 このカードが手札からCX置場に置かれた時、あなたは自分の控え室のトリガーアイコンに[[soul.gif]]があるキャラを1枚まで選び、手札に戻し、自分のキャラを2枚まで選び、そのターン中、ソウルを＋1。\n\"もうガマン できなくて……!!\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_040r.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-041",
+   "name": "気持ちの正体 千鶴",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1) あなたの山札の上から1枚をクロック置場に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見てレベル1以下のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n【自】 相手のアタックフェイズの始めに、このカードの正面に相手のキャラがいるなら、あなたはこのカードを前列のキャラのいない枠に動かしてよい。\n\"-\"",
+   "traits": [
+    "かのかり",
+    "ダイアモンド"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_041.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-041EX",
+   "name": "気持ちの正体 千鶴",
+   "type": "Character",
+   "rarity": "SEC",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1) あなたの山札の上から1枚をクロック置場に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見てレベル1以下のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n【自】 相手のアタックフェイズの始めに、このカードの正面に相手のキャラがいるなら、あなたはこのカードを前列のキャラのいない枠に動かしてよい。\n\"-\"",
+   "traits": [
+    "かのかり",
+    "ダイアモンド"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_041ex.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-041S",
+   "name": "気持ちの正体 千鶴",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1) あなたの山札の上から1枚をクロック置場に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見てレベル1以下のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n【自】 相手のアタックフェイズの始めに、このカードの正面に相手のキャラがいるなら、あなたはこのカードを前列のキャラのいない枠に動かしてよい。\n\"-\"",
+   "traits": [
+    "かのかり",
+    "ダイアモンド"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_041s.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-042",
+   "name": "夢の出発点 千鶴",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの《かのかり》のキャラ1枚につき、このカードのパワーを＋500。\n【自】【CXコンボ】 あなたのCX置場に「想いは届く」が置かれた時、前列にこのカードがいて、あなたのキャラすべてが《かのかり》なら、あなたは自分の山札を見て《かのかり》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルし、次の相手のターンの終わりまで、このカードのパワーを＋1000。\n\"-\"",
+   "traits": [
+    "かのかり",
+    "ダイアモンド"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_042.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-042S",
+   "name": "夢の出発点 千鶴",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの《かのかり》のキャラ1枚につき、このカードのパワーを＋500。\n【自】【CXコンボ】 あなたのCX置場に「想いは届く」が置かれた時、前列にこのカードがいて、あなたのキャラすべてが《かのかり》なら、あなたは自分の山札を見て《かのかり》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルし、次の相手のターンの終わりまで、このカードのパワーを＋1000。\n\"-\"",
+   "traits": [
+    "かのかり",
+    "ダイアモンド"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_042s.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-042SP",
+   "name": "夢の出発点 千鶴",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの《かのかり》のキャラ1枚につき、このカードのパワーを＋500。\n【自】【CXコンボ】 あなたのCX置場に「想いは届く」が置かれた時、前列にこのカードがいて、あなたのキャラすべてが《かのかり》なら、あなたは自分の山札を見て《かのかり》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルし、次の相手のターンの終わりまで、このカードのパワーを＋1000。\n\"-\"",
+   "traits": [
+    "かのかり",
+    "ダイアモンド"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_042sp.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-043",
+   "name": "『理想の彼女』 千鶴",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】［他のあなたの舞台の《かのかり》のキャラを1枚控え室に置く］ このカードが手札から舞台に置かれた時か「気丈な彼女 千鶴」の【起】の効果で舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分のクロックの下から1枚を、ストック置場に置く。\n【自】【CXコンボ】［(2)］ このカードがアタックした時、CX置場に「彼女と涙」があり、他のあなたの《かのかり》のキャラが2枚以上なら、あなたはコストを払ってよい。そうしたら、そのターン中、このカードは次の能力を得る。『【自】【ターン3】 このカードの与えたダメージがキャンセルされた時、あなたは相手に2ダメージを与えてよい。』（ダメージキャンセルは発生する）\n\"-\"",
+   "traits": [
+    "かのかり",
+    "ダイアモンド"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_043.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-043S",
+   "name": "『理想の彼女』 千鶴",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】［他のあなたの舞台の《かのかり》のキャラを1枚控え室に置く］ このカードが手札から舞台に置かれた時か「気丈な彼女 千鶴」の【起】の効果で舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分のクロックの下から1枚を、ストック置場に置く。\n【自】【CXコンボ】［(2)］ このカードがアタックした時、CX置場に「彼女と涙」があり、他のあなたの《かのかり》のキャラが2枚以上なら、あなたはコストを払ってよい。そうしたら、そのターン中、このカードは次の能力を得る。『【自】【ターン3】 このカードの与えたダメージがキャンセルされた時、あなたは相手に2ダメージを与えてよい。』（ダメージキャンセルは発生する）\n\"-\"",
+   "traits": [
+    "かのかり",
+    "ダイアモンド"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_043s.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-043SP",
+   "name": "『理想の彼女』 千鶴",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】［他のあなたの舞台の《かのかり》のキャラを1枚控え室に置く］ このカードが手札から舞台に置かれた時か「気丈な彼女 千鶴」の【起】の効果で舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分のクロックの下から1枚を、ストック置場に置く。\n【自】【CXコンボ】［(2)］ このカードがアタックした時、CX置場に「彼女と涙」があり、他のあなたの《かのかり》のキャラが2枚以上なら、あなたはコストを払ってよい。そうしたら、そのターン中、このカードは次の能力を得る。『【自】【ターン3】 このカードの与えたダメージがキャンセルされた時、あなたは相手に2ダメージを与えてよい。』（ダメージキャンセルは発生する）\n\"-\"",
+   "traits": [
+    "かのかり",
+    "ダイアモンド"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_043sp.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-044",
+   "name": "チャイナスタイル 千鶴",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは次の行動を行ってよい。『あなたは自分の山札を見てトリガーアイコンが[[salvage.gif]]のCXを1枚まで選んで公開し、自分の手札のトリガーアイコンが[[salvage.gif]]のCXを1枚まで選んで公開し、それらのCXを入れ替え、その山札をシャッフルする。』\n\"-\"",
+   "traits": [
+    "かのかり",
+    "ダイアモンド"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_044.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-044S",
+   "name": "チャイナスタイル 千鶴",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは次の行動を行ってよい。『あなたは自分の山札を見てトリガーアイコンが[[salvage.gif]]のCXを1枚まで選んで公開し、自分の手札のトリガーアイコンが[[salvage.gif]]のCXを1枚まで選んで公開し、それらのCXを入れ替え、その山札をシャッフルする。』\n\"-\"",
+   "traits": [
+    "かのかり",
+    "ダイアモンド"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_044s.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-045",
+   "name": "スポーツと彼女 千鶴",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 あなたのCXがCX置場に置かれた時、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋1000。\n【起】 集中 ［(1) あなたのキャラを2枚【レスト】する］ あなたは自分の山札の上から4枚をめくり、控え室に置く。それらのカードのCX1枚につき、次の行動を行う。『あなたは自分の山札を上から3枚まで見て、カードを1枚まで選び、手札に加え、残りのカードを控え室に置く。』\n\"わ――久々ねー\"",
+   "traits": [
+    "かのかり",
+    "ダイアモンド"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_045.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-045S",
+   "name": "スポーツと彼女 千鶴",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 あなたのCXがCX置場に置かれた時、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋1000。\n【起】 集中 ［(1) あなたのキャラを2枚【レスト】する］ あなたは自分の山札の上から4枚をめくり、控え室に置く。それらのカードのCX1枚につき、次の行動を行う。『あなたは自分の山札を上から3枚まで見て、カードを1枚まで選び、手札に加え、残りのカードを控え室に置く。』\n\"-\"",
+   "traits": [
+    "かのかり",
+    "ダイアモンド"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_045s.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-046",
+   "name": "花束とお見舞い 墨",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "2",
+   "cost": "2",
+   "power": "5500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの《かのかり》のキャラ1枚につき、このカードのパワーを＋1000。\n【自】［(1)］ このカードがアタックした時、あなたはコストを払ってよい。そうしたら、そのアタック中、あなたはトリガーステップにトリガーチェックを2回行う。\n【自】 アンコール ［手札の《かのかり》のキャラを1枚控え室に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"千鶴「すっ 墨ちゃん…っ！」\"",
+   "traits": [
+    "かのかり",
+    "ダイアモンド"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_046.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-046S",
+   "name": "花束とお見舞い 墨",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "2",
+   "cost": "2",
+   "power": "5500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの《かのかり》のキャラ1枚につき、このカードのパワーを＋1000。\n【自】［(1)］ このカードがアタックした時、あなたはコストを払ってよい。そうしたら、そのアタック中、あなたはトリガーステップにトリガーチェックを2回行う。\n【自】 アンコール ［手札の《かのかり》のキャラを1枚控え室に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"-\"",
+   "traits": [
+    "かのかり",
+    "ダイアモンド"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_046s.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-047",
+   "name": "夏の装い 千鶴",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "8500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたの《かのかり》のキャラが4枚以上なら、あなたの手札のこのカードのレベルを－1。\n【永】 あなたのターン中、他のあなたの《かのかり》のキャラ1枚につき、このカードのパワーを＋1000。\n【自】［手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分のクロックの下から1枚を、ストック置場に置く。\n\"-\"",
+   "traits": [
+    "かのかり",
+    "ダイアモンド"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_047.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-047S",
+   "name": "夏の装い 千鶴",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "8500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたの《かのかり》のキャラが4枚以上なら、あなたの手札のこのカードのレベルを－1。\n【永】 あなたのターン中、他のあなたの《かのかり》のキャラ1枚につき、このカードのパワーを＋1000。\n【自】［手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分のクロックの下から1枚を、ストック置場に置く。\n\"-\"",
+   "traits": [
+    "かのかり",
+    "ダイアモンド"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_047s.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-048",
+   "name": "健気で頑張り屋な彼女 墨",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "9500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札を上から2枚まで見て、山札の上に好きな順番で置く。\n【自】 このカードが手札から舞台に置かれた時、あなたは次の効果を行ってよい。『相手は自分の控え室のCXを1枚選び、そのカード以外の控え室のカードすべてを、山札に戻し、その山札をシャッフルする。』\n\"-\"",
+   "traits": [
+    "かのかり",
+    "ダイアモンド"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_048.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-048S",
+   "name": "健気で頑張り屋な彼女 墨",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "9500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札を上から2枚まで見て、山札の上に好きな順番で置く。\n【自】 このカードが手札から舞台に置かれた時、あなたは次の効果を行ってよい。『相手は自分の控え室のCXを1枚選び、そのカード以外の控え室のカードすべてを、山札に戻し、その山札をシャッフルする。』\n\"-\"",
+   "traits": [
+    "かのかり",
+    "ダイアモンド"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_048s.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-048SSP",
+   "name": "健気で頑張り屋な彼女 墨",
+   "type": "Character",
+   "rarity": "SSP",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "9500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札を上から2枚まで見て、山札の上に好きな順番で置く。\n【自】 このカードが手札から舞台に置かれた時、あなたは次の効果を行ってよい。『相手は自分の控え室のCXを1枚選び、そのカード以外の控え室のカードすべてを、山札に戻し、その山札をシャッフルする。』\n\"-\"",
+   "traits": [
+    "かのかり",
+    "ダイアモンド"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_048ssp.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-049",
+   "name": "星空の下 千鶴",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが[[standby.gif]]の効果で舞台に置かれた時、あなたは自分の山札を上から3枚まで見て、カードを1枚まで選び、手札に加え、残りのカードを控え室に置く。\n【自】【CXコンボ】［手札を2枚控え室に置く］ このカードがアタックした時、CX置場に「二人きりの撮影旅行」があるなら、あなたはコストを払ってよい。そうしたら、相手に3ダメージを与える。（ダメージキャンセルは発生する）\n\"-\"",
+   "traits": [
+    "かのかり",
+    "ダイアモンド"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_049.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-049S",
+   "name": "星空の下 千鶴",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが[[standby.gif]]の効果で舞台に置かれた時、あなたは自分の山札を上から3枚まで見て、カードを1枚まで選び、手札に加え、残りのカードを控え室に置く。\n【自】【CXコンボ】［手札を2枚控え室に置く］ このカードがアタックした時、CX置場に「二人きりの撮影旅行」があるなら、あなたはコストを払ってよい。そうしたら、相手に3ダメージを与える。（ダメージキャンセルは発生する）\n\"-\"",
+   "traits": [
+    "かのかり",
+    "ダイアモンド"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_049s.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-050",
+   "name": "夢の原点 ちづる",
+   "type": "Character",
+   "rarity": "U",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋500。\n【起】［このカードを控え室に置く］ あなたのレベルが1以上なら、あなたは自分の控え室の「夢の出発点 千鶴」を1枚選び、このカードがいた枠に置く。\n\"……うん！約束!!\"",
+   "traits": [
+    "かのかり",
+    "ダイアモンド"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_050.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-050S",
+   "name": "夢の原点 ちづる",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋500。\n【起】［このカードを控え室に置く］ あなたのレベルが1以上なら、あなたは自分の控え室の「夢の出発点 千鶴」を1枚選び、このカードがいた枠に置く。\n\"あ おはよー\"",
+   "traits": [
+    "かのかり",
+    "ダイアモンド"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_050s.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-051",
+   "name": "青春と彼女 千鶴",
+   "type": "Character",
+   "rarity": "U",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札を上から3枚まで見て、イベントを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。手札に加えたなら、あなたは自分の手札を1枚選び、控え室に置く。\n【自】 このカードが【リバース】した時、このカードのバトル相手のレベルが0以下なら、あなたはそのキャラを【リバース】してよい。\n\"はい\"",
+   "traits": [
+    "かのかり",
+    "ダイアモンド"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_051.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-051S",
+   "name": "青春と彼女 千鶴",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札を上から3枚まで見て、イベントを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。手札に加えたなら、あなたは自分の手札を1枚選び、控え室に置く。\n【自】 このカードが【リバース】した時、このカードのバトル相手のレベルが0以下なら、あなたはそのキャラを【リバース】してよい。\n\"はい\"",
+   "traits": [
+    "かのかり",
+    "ダイアモンド"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_051s.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-052a",
+   "name": "恋愛ミリフィルム",
+   "type": "Character",
+   "rarity": "U",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 このカードは、色条件を満たさずに手札からプレイできる。\n【自】［(2)］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、相手は自分のストックすべてを、山札に戻し、その山札をシャッフルし、自分の山札の上から同じ枚数をストック置場に置く。\n\"-\"",
+   "traits": [
+    "かのかり"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_052a.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-052b",
+   "name": "恋愛ミリフィルム",
+   "type": "Character",
+   "rarity": "U",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 このカードは、色条件を満たさずに手札からプレイできる。\n【自】［(2)］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、相手は自分のストックすべてを、山札に戻し、その山札をシャッフルし、自分の山札の上から同じ枚数をストック置場に置く。\n\"-\"",
+   "traits": [
+    "かのかり"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_052b.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-052c",
+   "name": "恋愛ミリフィルム",
+   "type": "Character",
+   "rarity": "U",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 このカードは、色条件を満たさずに手札からプレイできる。\n【自】［(2)］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、相手は自分のストックすべてを、山札に戻し、その山札をシャッフルし、自分の山札の上から同じ枚数をストック置場に置く。\n\"-\"",
+   "traits": [
+    "かのかり"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_052c.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-052d",
+   "name": "恋愛ミリフィルム",
+   "type": "Character",
+   "rarity": "U",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 このカードは、色条件を満たさずに手札からプレイできる。\n【自】［(2)］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、相手は自分のストックすべてを、山札に戻し、その山札をシャッフルし、自分の山札の上から同じ枚数をストック置場に置く。\n\"-\"",
+   "traits": [
+    "かのかり"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_052d.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-052e",
+   "name": "恋愛ミリフィルム",
+   "type": "Character",
+   "rarity": "U",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 このカードは、色条件を満たさずに手札からプレイできる。\n【自】［(2)］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、相手は自分のストックすべてを、山札に戻し、その山札をシャッフルし、自分の山札の上から同じ枚数をストック置場に置く。\n\"-\"",
+   "traits": [
+    "かのかり"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_052e.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-052Sa",
+   "name": "恋愛ミリフィルム",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 このカードは、色条件を満たさずに手札からプレイできる。\n【自】［(2)］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、相手は自分のストックすべてを、山札に戻し、その山札をシャッフルし、自分の山札の上から同じ枚数をストック置場に置く。\n\"-\"",
+   "traits": [
+    "かのかり"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_052sa.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-052Sb",
+   "name": "恋愛ミリフィルム",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 このカードは、色条件を満たさずに手札からプレイできる。\n【自】［(2)］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、相手は自分のストックすべてを、山札に戻し、その山札をシャッフルし、自分の山札の上から同じ枚数をストック置場に置く。\n\"-\"",
+   "traits": [
+    "かのかり"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_052sb.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-052Sc",
+   "name": "恋愛ミリフィルム",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 このカードは、色条件を満たさずに手札からプレイできる。\n【自】［(2)］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、相手は自分のストックすべてを、山札に戻し、その山札をシャッフルし、自分の山札の上から同じ枚数をストック置場に置く。\n\"-\"",
+   "traits": [
+    "かのかり"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_052sc.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-052Sd",
+   "name": "恋愛ミリフィルム",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 このカードは、色条件を満たさずに手札からプレイできる。\n【自】［(2)］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、相手は自分のストックすべてを、山札に戻し、その山札をシャッフルし、自分の山札の上から同じ枚数をストック置場に置く。\n\"-\"",
+   "traits": [
+    "かのかり"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_052sd.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-052Se",
+   "name": "恋愛ミリフィルム",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 このカードは、色条件を満たさずに手札からプレイできる。\n【自】［(2)］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、相手は自分のストックすべてを、山札に戻し、その山札をシャッフルし、自分の山札の上から同じ枚数をストック置場に置く。\n\"-\"",
+   "traits": [
+    "かのかり"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_052se.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-053",
+   "name": "妄想の中 千鶴",
+   "type": "Character",
+   "rarity": "U",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたの《かのかり》のキャラが4枚以上なら、あなたの手札のこのカードのレベルを－1。\n【永】 他のあなたの《かのかり》のキャラすべてに、パワーを＋1000。\n【自】 あなたのトリガーアイコンが[[salvage.gif]]のCXがCX置場に置かれた時、他のあなたの《かのかり》のキャラがいるなら、あなたは自分の山札を上から3枚まで見て、カードを1枚選び、山札の上に置き、残りのカードを控え室に置く。\n\"-\"",
+   "traits": [
+    "かのかり",
+    "ダイアモンド"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_053.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-053S",
+   "name": "妄想の中 千鶴",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたの《かのかり》のキャラが4枚以上なら、あなたの手札のこのカードのレベルを－1。\n【永】 他のあなたの《かのかり》のキャラすべてに、パワーを＋1000。\n【自】 あなたのトリガーアイコンが[[salvage.gif]]のCXがCX置場に置かれた時、他のあなたの《かのかり》のキャラがいるなら、あなたは自分の山札を上から3枚まで見て、カードを1枚選び、山札の上に置き、残りのカードを控え室に置く。\n\"-\"",
+   "traits": [
+    "かのかり",
+    "ダイアモンド"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_053s.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-054",
+   "name": "気丈な彼女 千鶴",
+   "type": "Character",
+   "rarity": "U",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "8500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードのバトル相手が【リバース】した時、あなたはこのカードを思い出にしてよい。そうしたら、次のあなたのドローフェイズの始めに、あなたは自分の思い出置場の「気丈な彼女 千鶴」を1枚選び、舞台の好きな枠に置く。\n【起】［手札を1枚控え室に置き、このカードを控え室に置く］ あなたのレベルが3以上なら、あなたは自分の控え室の「『理想の彼女』 千鶴」を1枚選び、このカードがいた枠に置く。\n\"今日はこの格好で デートしよ？\"",
+   "traits": [
+    "かのかり",
+    "ダイアモンド"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_054.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-054S",
+   "name": "気丈な彼女 千鶴",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "8500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードのバトル相手が【リバース】した時、あなたはこのカードを思い出にしてよい。そうしたら、次のあなたのドローフェイズの始めに、あなたは自分の思い出置場の「気丈な彼女 千鶴」を1枚選び、舞台の好きな枠に置く。\n【起】［手札を1枚控え室に置き、このカードを控え室に置く］ あなたのレベルが3以上なら、あなたは自分の控え室の「『理想の彼女』 千鶴」を1枚選び、このカードがいた枠に置く。\n\"-\"",
+   "traits": [
+    "かのかり",
+    "ダイアモンド"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_054s.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-055",
+   "name": "勇気を出して 墨",
+   "type": "Character",
+   "rarity": "U",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "9000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの《かのかり》のキャラ1枚につき、このカードのパワーを＋500。\n【自】［このカードを山札の下に置く］ 控え室にこのカードがあるなら、あなたの第1ターンの始めに、あなたはコストを払ってよい。そうしたら、あなたは2枚まで引き、自分の手札を2枚選び、控え室に置く。\n【自】［(3) 手札の《かのかり》のキャラを1枚控え室に置く］ このカードがアタックした時、あなたはコストを払ってよい。そうしたら、相手は自分の山札の上から5枚を公開し、その山札をシャッフルし、自分の山札の上からＸ枚を、クロック置場に置く。ＸはそれらのカードのCXの枚数に等しい。\n\"-\"",
+   "traits": [
+    "かのかり",
+    "ダイアモンド"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_055.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-055S",
+   "name": "勇気を出して 墨",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "9000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの《かのかり》のキャラ1枚につき、このカードのパワーを＋500。\n【自】［このカードを山札の下に置く］ 控え室にこのカードがあるなら、あなたの第1ターンの始めに、あなたはコストを払ってよい。そうしたら、あなたは2枚まで引き、自分の手札を2枚選び、控え室に置く。\n【自】［(3) 手札の《かのかり》のキャラを1枚控え室に置く］ このカードがアタックした時、あなたはコストを払ってよい。そうしたら、相手は自分の山札の上から5枚を公開し、その山札をシャッフルし、自分の山札の上からＸ枚を、クロック置場に置く。ＸはそれらのカードのCXの枚数に等しい。\n\"よろしく…お願いします……っ！\"",
+   "traits": [
+    "かのかり",
+    "ダイアモンド"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_055s.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-056",
+   "name": "ただの観劇 ちづる",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 このカードの下にマーカーがあるなら、このカードのパワーを＋3000。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から1枚を公開する。そのカードが《かのかり》のキャラかイベントならこのカードの下にマーカーとして裏向きに置いてよい。（そうしないなら元に戻す）\n\"あーもー！最っ高――!!\"",
+   "traits": [
+    "かのかり",
+    "ダイアモンド"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_056.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-056S",
+   "name": "ただの観劇 ちづる",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 このカードの下にマーカーがあるなら、このカードのパワーを＋3000。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から1枚を公開する。そのカードが《かのかり》のキャラかイベントならこのカードの下にマーカーとして裏向きに置いてよい。（そうしないなら元に戻す）\n\"でも…好きじゃなくもない\"",
+   "traits": [
+    "かのかり",
+    "ダイアモンド"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_056s.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-057",
+   "name": "言えない 墨",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分のレベル置場のカードと控え室のカードを1枚ずつ選び、入れ替えてよい。\n【起】［(1) このカードを控え室に置く］ あなたは自分の山札を上から4枚まで見て、《かのかり》のキャラを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。\n\"-\"",
+   "traits": [
+    "かのかり",
+    "ダイアモンド"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_057.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-057S",
+   "name": "言えない 墨",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分のレベル置場のカードと控え室のカードを1枚ずつ選び、入れ替えてよい。\n【起】［(1) このカードを控え室に置く］ あなたは自分の山札を上から4枚まで見て、《かのかり》のキャラを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。\n\"-\"",
+   "traits": [
+    "かのかり",
+    "ダイアモンド"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_057s.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-058",
+   "name": "プレゼント探し 墨",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードがアタックした時、あなたは自分の《かのかり》のキャラを1枚選び、そのターン中、パワーを＋1500。\n【自】［(1)］ 相手のアタックフェイズの始めに、あなたはコストを払ってよい。そうしたら、あなたはこのカードを後列のキャラのいない枠に動かす。\n\"-\"",
+   "traits": [
+    "かのかり",
+    "ダイアモンド"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_058.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-058S",
+   "name": "プレゼント探し 墨",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードがアタックした時、あなたは自分の《かのかり》のキャラを1枚選び、そのターン中、パワーを＋1500。\n【自】［(1)］ 相手のアタックフェイズの始めに、あなたはコストを払ってよい。そうしたら、あなたはこのカードを後列のキャラのいない枠に動かす。\n\"かっこ…いい…\"",
+   "traits": [
+    "かのかり",
+    "ダイアモンド"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_058s.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-059",
+   "name": "『群青の星座』 ちづる",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から2枚を、控え室に置く。それらのカードにトリガーアイコンが[[salvage.gif]]のCXがあるなら、あなたは自分の控え室の《かのかり》のキャラを1枚選び、ストック置場に置いてよい。\n【自】 このカードが手札から舞台に置かれた時、そのターン中、このカードのパワーを＋1500。\n\"おはようございます！本日もよろしくお願いします！\"",
+   "traits": [
+    "かのかり",
+    "ダイアモンド"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_059.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-059S",
+   "name": "『群青の星座』 ちづる",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から2枚を、控え室に置く。それらのカードにトリガーアイコンが[[salvage.gif]]のCXがあるなら、あなたは自分の控え室の《かのかり》のキャラを1枚選び、ストック置場に置いてよい。\n【自】 このカードが手札から舞台に置かれた時、そのターン中、このカードのパワーを＋1500。\n\"あなたと出会ったことに後悔したことなんて一度も無い\"",
+   "traits": [
+    "かのかり",
+    "ダイアモンド"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_059s.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-060",
+   "name": "言えない 千鶴",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのすべての領域のトリガーアイコンが[[salvage.gif]]のCXのトリガーアイコンに[[soul.gif]]を与える。\n【自】 あなたのトリガーアイコンに[[soul.gif]]があるカードがトリガーした時、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋1500。\n\"-\"",
+   "traits": [
+    "かのかり",
+    "ダイアモンド"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_060.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-060S",
+   "name": "言えない 千鶴",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのすべての領域のトリガーアイコンが[[salvage.gif]]のCXのトリガーアイコンに[[soul.gif]]を与える。\n【自】 あなたのトリガーアイコンに[[soul.gif]]があるカードがトリガーした時、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋1500。\n\"-\"",
+   "traits": [
+    "かのかり",
+    "ダイアモンド"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_060s.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-061",
+   "name": "あなたのための制服 墨",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1)］ このカードがアタックした時、あなたはコストを払ってよい。そうしたら、そのアタック中、あなたはトリガーステップにトリガーチェックを2回行う。\n【自】 このカードが【リバース】した時、このカードのバトル相手のレベルが1以下なら、あなたはそのキャラを【リバース】してよい。\n\"-\"",
+   "traits": [
+    "かのかり",
+    "ダイアモンド"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_061.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-061S",
+   "name": "あなたのための制服 墨",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1)］ このカードがアタックした時、あなたはコストを払ってよい。そうしたら、そのアタック中、あなたはトリガーステップにトリガーチェックを2回行う。\n【自】 このカードが【リバース】した時、このカードのバトル相手のレベルが1以下なら、あなたはそのキャラを【リバース】してよい。\n\"-\"",
+   "traits": [
+    "かのかり",
+    "ダイアモンド"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_061s.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-062",
+   "name": "水族館でお饗し 墨",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードがアタックした時、あなたは他の自分の《かのかり》のキャラを1枚選び、次の相手のターンの終わりまで、パワーを＋2000し、『【自】 アンコール ［手札のキャラを1枚控え室に置く］』を与える。\n\"-\"",
+   "traits": [
+    "かのかり",
+    "ダイアモンド"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_062.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-062S",
+   "name": "水族館でお饗し 墨",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードがアタックした時、あなたは他の自分の《かのかり》のキャラを1枚選び、次の相手のターンの終わりまで、パワーを＋2000し、『【自】 アンコール ［手札のキャラを1枚控え室に置く］』を与える。\n\"-\"",
+   "traits": [
+    "かのかり",
+    "ダイアモンド"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_062s.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-063",
+   "name": "ねぎらいの手料理 ちづる",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "1",
+   "cost": "1",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 あなたがこのカードの『助太刀』を使った時、あなたの《かのかり》のキャラがいるなら、あなたは自分か相手の、山札の上から3枚を、控え室に置く。\n【起】【カウンター】 助太刀2000 レベル1 ［(1) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋2000）\n\"期待してるわ プロデューサーっ\"",
+   "traits": [
+    "かのかり",
+    "ダイアモンド"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_063.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-063S",
+   "name": "ねぎらいの手料理 ちづる",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "1",
+   "cost": "1",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 あなたがこのカードの『助太刀』を使った時、あなたの《かのかり》のキャラがいるなら、あなたは自分か相手の、山札の上から3枚を、控え室に置く。\n【起】【カウンター】 助太刀2000 レベル1 ［(1) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋2000）\n\"何か作ってあげる 食べれる物\"",
+   "traits": [
+    "かのかり",
+    "ダイアモンド"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_063s.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-064",
+   "name": "ヒミツ恋ゴコロ 千鶴",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "1",
+   "cost": "1",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】［手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見て《かのかり》のキャラを1枚まで選び、思い出にし、その山札をシャッフルする。次のあなたのターンの始めに、あなたは自分の思い出置場のそのキャラを、手札に戻す。\n【自】 このカードが【リバース】した時、このカードのバトル相手のレベルが相手のレベルより高いなら、あなたはそのキャラを思い出にしてよい。\n\"-\"",
+   "traits": [
+    "かのかり",
+    "ダイアモンド"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_064.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-064S",
+   "name": "ヒミツ恋ゴコロ 千鶴",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "1",
+   "cost": "1",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】［手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見て《かのかり》のキャラを1枚まで選び、思い出にし、その山札をシャッフルする。次のあなたのターンの始めに、あなたは自分の思い出置場のそのキャラを、手札に戻す。\n【自】 このカードが【リバース】した時、このカードのバトル相手のレベルが相手のレベルより高いなら、あなたはそのキャラを思い出にしてよい。\n\"-\"",
+   "traits": [
+    "かのかり",
+    "ダイアモンド"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_064s.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-065",
+   "name": "介抱 ちづる",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "6500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から1枚を公開する。そのカードのレベルが1以下ならストック置場に置く。（CXのレベルは0として扱う。そうでないなら元に戻す）\n【起】［(1) 手札を1枚控え室に置き、このカードを思い出にする］ あなたは自分の手札の「夏の装い 千鶴」を1枚まで選び、このカードがいた枠に置き、アンコールステップの始めに、そのキャラを手札に戻し、自分の思い出置場の「介抱 ちづる」を1枚選び、そのキャラがいた枠に置く。\n\"鍵 出して\"",
+   "traits": [
+    "かのかり",
+    "ダイアモンド"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_065.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-065S",
+   "name": "介抱 ちづる",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "6500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から1枚を公開する。そのカードのレベルが1以下ならストック置場に置く。（CXのレベルは0として扱う。そうでないなら元に戻す）\n【起】［(1) 手札を1枚控え室に置き、このカードを思い出にする］ あなたは自分の手札の「夏の装い 千鶴」を1枚まで選び、このカードがいた枠に置き、アンコールステップの始めに、そのキャラを手札に戻し、自分の思い出置場の「介抱 ちづる」を1枚選び、そのキャラがいた枠に置く。\n\"もうっ<br>しばらく……禁酒ね\"",
+   "traits": [
+    "かのかり",
+    "ダイアモンド"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_065s.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-066",
+   "name": "ヒミツ恋ゴコロ 墨",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "2",
+   "cost": "2",
+   "power": "7000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの《かのかり》のキャラ1枚につき、このカードのパワーを＋500。\n【自】［(1)］ アンコールステップの始めに、他のあなたの前列の【レスト】しているキャラがいないなら、あなたはコストを払ってよい。そうしたら、このカードを【レスト】する。\n【起】［このカードをストック置場に置く］ あなたは自分の控え室の《かのかり》のキャラを1枚選び、手札に戻す。\n\"-\"",
+   "traits": [
+    "かのかり",
+    "ダイアモンド"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_066.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-066S",
+   "name": "ヒミツ恋ゴコロ 墨",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "2",
+   "cost": "2",
+   "power": "7000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの《かのかり》のキャラ1枚につき、このカードのパワーを＋500。\n【自】［(1)］ アンコールステップの始めに、他のあなたの前列の【レスト】しているキャラがいないなら、あなたはコストを払ってよい。そうしたら、このカードを【レスト】する。\n【起】［このカードをストック置場に置く］ あなたは自分の控え室の《かのかり》のキャラを1枚選び、手札に戻す。\n\"-\"",
+   "traits": [
+    "かのかり",
+    "ダイアモンド"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_066s.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-067",
+   "name": "クラウドファンディング",
+   "type": "Event",
+   "rarity": "U",
+   "color": "red",
+   "level": "2",
+   "cost": "0",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "あなたは自分の山札を上から4枚まで見て、《かのかり》のキャラを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。\nあなたは自分のレベル置場のカードと控え室のカードを1枚ずつ選び、入れ替えてよい。\n【自】 経験 ［(2) 表向きのこのカードを思い出にし、あなたの控え室の《かのかり》のキャラを1枚レベル置場に置く］ レベル置場にこのカードがあるなら、あなたのメインフェイズの始めに、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の《かのかり》のキャラを1枚選び、手札に戻す。\n\"千鶴「お願いします！」\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_067.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-067S",
+   "name": "クラウドファンディング",
+   "type": "Event",
+   "rarity": "SR",
+   "color": "red",
+   "level": "2",
+   "cost": "0",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "あなたは自分の山札を上から4枚まで見て、《かのかり》のキャラを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。\nあなたは自分のレベル置場のカードと控え室のカードを1枚ずつ選び、入れ替えてよい。\n【自】 経験 ［(2) 表向きのこのカードを思い出にし、あなたの控え室の《かのかり》のキャラを1枚レベル置場に置く］ レベル置場にこのカードがあるなら、あなたのメインフェイズの始めに、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の《かのかり》のキャラを1枚選び、手札に戻す。\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_067s.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-068",
+   "name": "想いは届く",
+   "type": "Climax",
+   "rarity": "CR",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[salvage.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[salvage.gif]]：このカードがトリガーした時、あなたは自分の控え室のキャラを1枚選び、手札に戻してよい）\n\"お願い…作って…私の映画……\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_068.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-068R",
+   "name": "想いは届く",
+   "type": "Climax",
+   "rarity": "RRR",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[salvage.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[salvage.gif]]：このカードがトリガーした時、あなたは自分の控え室のキャラを1枚選び、手札に戻してよい）\n\"私…どんなカオしてたかな……\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_068r.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-069",
+   "name": "彼女と涙",
+   "type": "Climax",
+   "rarity": "CR",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[salvage.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[salvage.gif]]：このカードがトリガーした時、あなたは自分の控え室のキャラを1枚選び、手札に戻してよい）\n\"うう…っ\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_069.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-069A",
+   "name": "彼女と涙",
+   "type": "Climax",
+   "rarity": "AGR",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[salvage.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[salvage.gif]]：このカードがトリガーした時、あなたは自分の控え室のキャラを1枚選び、手札に戻してよい）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_069a.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-069R",
+   "name": "彼女と涙",
+   "type": "Climax",
+   "rarity": "RRR",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[salvage.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[salvage.gif]]：このカードがトリガーした時、あなたは自分の控え室のキャラを1枚選び、手札に戻してよい）\n\"おばあちゃん…っ!……おじいちゃん…っ！\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_069r.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-070",
+   "name": "二人きりの撮影旅行",
+   "type": "Climax",
+   "rarity": "CR",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[standby.gif]]",
+   "text": "【自】 このカードが手札からCX置場に置かれた時、[[standby.gif]]の効果を行う。\n（[[standby.gif]]：このカードがトリガーした時、あなたは自分の控え室の自分のレベル＋1以下のレベルのキャラを1枚選び、舞台の好きな枠に【レスト】して置いてよい）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_070.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-070R",
+   "name": "二人きりの撮影旅行",
+   "type": "Climax",
+   "rarity": "RRR",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[standby.gif]]",
+   "text": "【自】 このカードが手札からCX置場に置かれた時、[[standby.gif]]の効果を行う。\n（[[standby.gif]]：このカードがトリガーした時、あなたは自分の控え室の自分のレベル＋1以下のレベルのキャラを1枚選び、舞台の好きな枠に【レスト】して置いてよい）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_070r.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-071",
+   "name": "気ままな現代っ子 みに",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードがアタックした時、あなたは自分の山札の上から3枚までを、公開してよい。1枚以上公開したなら、あなたはそれらのカードの《かのかり》のキャラか「返礼品探し」を1枚まで選び、手札に加え、残りのカードを控え室に置き、自分の手札を1枚選び、控え室に置く。\n【自】 このカードが【リバース】した時、このカードのバトル相手のレベルが0以下なら、あなたはそのキャラを山札の下に置いてよい。\n\"-\"",
+   "traits": [
+    "かのかり",
+    "コスプレ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_071.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-071EX",
+   "name": "気ままな現代っ子 みに",
+   "type": "Character",
+   "rarity": "SEC",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードがアタックした時、あなたは自分の山札の上から3枚までを、公開してよい。1枚以上公開したなら、あなたはそれらのカードの《かのかり》のキャラか「返礼品探し」を1枚まで選び、手札に加え、残りのカードを控え室に置き、自分の手札を1枚選び、控え室に置く。\n【自】 このカードが【リバース】した時、このカードのバトル相手のレベルが0以下なら、あなたはそのキャラを山札の下に置いてよい。\n\"-\"",
+   "traits": [
+    "かのかり",
+    "コスプレ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_071ex.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-071S",
+   "name": "気ままな現代っ子 みに",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードがアタックした時、あなたは自分の山札の上から3枚までを、公開してよい。1枚以上公開したなら、あなたはそれらのカードの《かのかり》のキャラか「返礼品探し」を1枚まで選び、手札に加え、残りのカードを控え室に置き、自分の手札を1枚選び、控え室に置く。\n【自】 このカードが【リバース】した時、このカードのバトル相手のレベルが0以下なら、あなたはそのキャラを山札の下に置いてよい。\n\"-\"",
+   "traits": [
+    "かのかり",
+    "コスプレ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_071s.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-072",
+   "name": "一途な想い 瑠夏",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのターン中、相手のキャラ1枚につき、このカードのパワーを＋1000。\n【自】［手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室のレベル0以下の《かのかり》のキャラを1枚選び、舞台の好きな枠に置く。\n【自】［他のあなたの舞台の《かのかり》のキャラを1枚控え室に置く］ このカードがアタックした時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札の上から1枚を公開する。そのカードが《かのかり》のキャラか「カレーの材料」なら手札に加える。（そうでないなら元に戻す）\n\"-\"",
+   "traits": [
+    "かのかり",
+    "リボン"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_072.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-072EX",
+   "name": "一途な想い 瑠夏",
+   "type": "Character",
+   "rarity": "SEC",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのターン中、相手のキャラ1枚につき、このカードのパワーを＋1000。\n【自】［手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室のレベル0以下の《かのかり》のキャラを1枚選び、舞台の好きな枠に置く。\n【自】［他のあなたの舞台の《かのかり》のキャラを1枚控え室に置く］ このカードがアタックした時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札の上から1枚を公開する。そのカードが《かのかり》のキャラか「カレーの材料」なら手札に加える。（そうでないなら元に戻す）\n\"-\"",
+   "traits": [
+    "かのかり",
+    "リボン"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_072ex.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-072S",
+   "name": "一途な想い 瑠夏",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのターン中、相手のキャラ1枚につき、このカードのパワーを＋1000。\n【自】［手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室のレベル0以下の《かのかり》のキャラを1枚選び、舞台の好きな枠に置く。\n【自】［他のあなたの舞台の《かのかり》のキャラを1枚控え室に置く］ このカードがアタックした時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札の上から1枚を公開する。そのカードが《かのかり》のキャラか「カレーの材料」なら手札に加える。（そうでないなら元に戻す）\n\"-\"",
+   "traits": [
+    "かのかり",
+    "リボン"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_072s.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-073",
+   "name": "素敵な回り道 瑠夏",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "blue",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】【CXコンボ】［(1)］ 控え室にこのカードがあり、あなたのレベルが3以上なら、あなたのCXフェイズ中、CX置場に「『恋人』としては普通のこと」が置かれた時、あなたはコストを払ってよい。そうしたら、あなたはこのカードを舞台の好きな枠に置く。\n【自】 このカードがアタックした時、あなたは相手の控え室のカードを1枚まで選び、山札の上か下に置く。\n【自】［(2) 手札の《かのかり》のキャラを1枚控え室に置く］ このカードがアタックした時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札の上から1枚を、控え室に置き、相手にＸダメージを与える。Ｘはそのカードのコスト＋1に等しい。（CXのコストは0として扱う。ダメージキャンセルは発生する）\n\"更科瑠夏は 楽しかったんだからっ\"",
+   "traits": [
+    "かのかり",
+    "リボン"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_073.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-073S",
+   "name": "素敵な回り道 瑠夏",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】【CXコンボ】［(1)］ 控え室にこのカードがあり、あなたのレベルが3以上なら、あなたのCXフェイズ中、CX置場に「『恋人』としては普通のこと」が置かれた時、あなたはコストを払ってよい。そうしたら、あなたはこのカードを舞台の好きな枠に置く。\n【自】 このカードがアタックした時、あなたは相手の控え室のカードを1枚まで選び、山札の上か下に置く。\n【自】［(2) 手札の《かのかり》のキャラを1枚控え室に置く］ このカードがアタックした時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札の上から1枚を、控え室に置き、相手にＸダメージを与える。Ｘはそのカードのコスト＋1に等しい。（CXのコストは0として扱う。ダメージキャンセルは発生する）\n\"-\"",
+   "traits": [
+    "かのかり",
+    "リボン"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_073s.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-073SP",
+   "name": "素敵な回り道 瑠夏",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "blue",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】【CXコンボ】［(1)］ 控え室にこのカードがあり、あなたのレベルが3以上なら、あなたのCXフェイズ中、CX置場に「『恋人』としては普通のこと」が置かれた時、あなたはコストを払ってよい。そうしたら、あなたはこのカードを舞台の好きな枠に置く。\n【自】 このカードがアタックした時、あなたは相手の控え室のカードを1枚まで選び、山札の上か下に置く。\n【自】［(2) 手札の《かのかり》のキャラを1枚控え室に置く］ このカードがアタックした時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札の上から1枚を、控え室に置き、相手にＸダメージを与える。Ｘはそのカードのコスト＋1に等しい。（CXのコストは0として扱う。ダメージキャンセルは発生する）\n\"-\"",
+   "traits": [
+    "かのかり",
+    "リボン"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_073sp.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-074",
+   "name": "積極的なアプローチ 瑠夏",
+   "type": "Character",
+   "rarity": "R",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】【CXコンボ】 あなたのCX置場に「お泊りデート」が置かれた時、他のあなたの《かのかり》のキャラがいるなら、あなたは自分の山札の上から1枚を公開し、自分の控え室のレベルＸ以下の《かのかり》のキャラを1枚まで選び、手札に戻す。Ｘは公開されたカードのレベルに等しい。（CXのレベルは0として扱う。公開したカードは元に戻す）\n【起】［(1) 他のあなたの舞台のキャラを1枚控え室に置き、このカードを【レスト】する］ あなたは自分の山札を上から2枚まで見て、カードを1枚まで選び、手札に加え、残りのカードを控え室に置く。\n\"-\"",
+   "traits": [
+    "かのかり",
+    "リボン"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_074.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-074S",
+   "name": "積極的なアプローチ 瑠夏",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】【CXコンボ】 あなたのCX置場に「お泊りデート」が置かれた時、他のあなたの《かのかり》のキャラがいるなら、あなたは自分の山札の上から1枚を公開し、自分の控え室のレベルＸ以下の《かのかり》のキャラを1枚まで選び、手札に戻す。Ｘは公開されたカードのレベルに等しい。（CXのレベルは0として扱う。公開したカードは元に戻す）\n【起】［(1) 他のあなたの舞台のキャラを1枚控え室に置き、このカードを【レスト】する］ あなたは自分の山札を上から2枚まで見て、カードを1枚まで選び、手札に加え、残りのカードを控え室に置く。\n\"-\"",
+   "traits": [
+    "かのかり",
+    "リボン"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_074s.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-075",
+   "name": "鼓動を感じて 瑠夏",
+   "type": "Character",
+   "rarity": "R",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたは[[gate.gif]]の効果で自分の控え室の、「積極的なアプローチ 瑠夏」か「『彼女』になりたい 瑠夏」を選んでよい。\n【起】 集中 ［(1) このカードを【レスト】する］ あなたは自分の山札の上から4枚をめくり、控え室に置く。それらのカードのCX1枚につき、あなたは自分の控え室のキャラを1枚まで選び、手札に戻す。\n\"-\"",
+   "traits": [
+    "かのかり",
+    "リボン"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_075.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-075S",
+   "name": "鼓動を感じて 瑠夏",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたは[[gate.gif]]の効果で自分の控え室の、「積極的なアプローチ 瑠夏」か「『彼女』になりたい 瑠夏」を選んでよい。\n【起】 集中 ［(1) このカードを【レスト】する］ あなたは自分の山札の上から4枚をめくり、控え室に置く。それらのカードのCX1枚につき、あなたは自分の控え室のキャラを1枚まで選び、手札に戻す。\n\"-\"",
+   "traits": [
+    "かのかり",
+    "リボン"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_075s.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-076",
+   "name": "コスプレイヤー みに",
+   "type": "Character",
+   "rarity": "R",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのクロック置場の《かのかり》のキャラすべてに、『【自】【クロック】 シフト レベル0 （あなたのメインフェイズの始めに手札の同じ色のカードと入れ替えてよい）』を与える。\n【起】［(2) このカードを【レスト】する］ あなたは自分の控え室のキャラを1枚選び、手札に戻す。\n\"了解っス 自分で良ければ手伝うっスー\"",
+   "traits": [
+    "かのかり",
+    "コスプレ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_076.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-076S",
+   "name": "コスプレイヤー みに",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのクロック置場の《かのかり》のキャラすべてに、『【自】【クロック】 シフト レベル0 （あなたのメインフェイズの始めに手札の同じ色のカードと入れ替えてよい）』を与える。\n【起】［(2) このカードを【レスト】する］ あなたは自分の控え室のキャラを1枚選び、手札に戻す。\n\"-\"",
+   "traits": [
+    "かのかり",
+    "コスプレ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_076s.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-077",
+   "name": "“コロネ丸”みに",
+   "type": "Character",
+   "rarity": "R",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】【クロック】 アラーム このカードがクロックの1番上にあるなら、あなたの《かのかり》のキャラすべてに、次の能力を与える。『【自】 このカードがアタックした時、あなたは自分の山札を上から2枚まで見て、カードを1枚選び、山札の上に置き、残りのカードを控え室に置く。』\n\"-\"",
+   "traits": [
+    "かのかり",
+    "コスプレ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_077.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-077S",
+   "name": "“コロネ丸”みに",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】【クロック】 アラーム このカードがクロックの1番上にあるなら、あなたの《かのかり》のキャラすべてに、次の能力を与える。『【自】 このカードがアタックした時、あなたは自分の山札を上から2枚まで見て、カードを1枚選び、山札の上に置き、残りのカードを控え室に置く。』\n\"-\"",
+   "traits": [
+    "かのかり",
+    "コスプレ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_077s.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-077SSP",
+   "name": "“コロネ丸”みに",
+   "type": "Character",
+   "rarity": "SSP",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】【クロック】 アラーム このカードがクロックの1番上にあるなら、あなたの《かのかり》のキャラすべてに、次の能力を与える。『【自】 このカードがアタックした時、あなたは自分の山札を上から2枚まで見て、カードを1枚選び、山札の上に置き、残りのカードを控え室に置く。』\n\"-\"",
+   "traits": [
+    "かのかり",
+    "コスプレ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_077ssp.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-078",
+   "name": "妹系アイドル彼女 瑠夏",
+   "type": "Character",
+   "rarity": "R",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1) あなたの山札の上から1枚をクロック置場に置く］ このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を上から2枚まで見て、《かのかり》のキャラか「カレーの材料」を2枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。\n\"-\"",
+   "traits": [
+    "かのかり",
+    "リボン"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_078.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-078S",
+   "name": "妹系アイドル彼女 瑠夏",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1) あなたの山札の上から1枚をクロック置場に置く］ このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を上から2枚まで見て、《かのかり》のキャラか「カレーの材料」を2枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。\n\"-\"",
+   "traits": [
+    "かのかり",
+    "リボン"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_078s.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-078SSP",
+   "name": "妹系アイドル彼女 瑠夏",
+   "type": "Character",
+   "rarity": "SSP",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1) あなたの山札の上から1枚をクロック置場に置く］ このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を上から2枚まで見て、《かのかり》のキャラか「カレーの材料」を2枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。\n\"-\"",
+   "traits": [
+    "かのかり",
+    "リボン"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_078ssp.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-079",
+   "name": "『彼女』になりたい 瑠夏",
+   "type": "Character",
+   "rarity": "R",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "7000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたの控え室のCXが2枚以下なら、あなたの手札のこのカードのレベルを－1。\n【永】 他のあなたの《かのかり》のキャラが2枚以上なら、このカードのパワーを＋1000。\n【自】【CXコンボ】 このカードがアタックした時、CX置場に「キスの味」があり、他のあなたの《かのかり》のキャラが2枚以上なら、あなたは自分の山札を上から4枚まで見て、《かのかり》のキャラか「カレーの材料」を1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置き、そのアタック中、あなたはトリガーステップにトリガーチェックを2回行う。\n\"さぁ ご実家へ参りましょうかっ\"",
+   "traits": [
+    "かのかり",
+    "リボン"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_079.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-079S",
+   "name": "『彼女』になりたい 瑠夏",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "7000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたの控え室のCXが2枚以下なら、あなたの手札のこのカードのレベルを－1。\n【永】 他のあなたの《かのかり》のキャラが2枚以上なら、このカードのパワーを＋1000。\n【自】【CXコンボ】 このカードがアタックした時、CX置場に「キスの味」があり、他のあなたの《かのかり》のキャラが2枚以上なら、あなたは自分の山札を上から4枚まで見て、《かのかり》のキャラか「カレーの材料」を1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置き、そのアタック中、あなたはトリガーステップにトリガーチェックを2回行う。\n\"-\"",
+   "traits": [
+    "かのかり",
+    "リボン"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_079s.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-079SP",
+   "name": "『彼女』になりたい 瑠夏",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "7000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたの控え室のCXが2枚以下なら、あなたの手札のこのカードのレベルを－1。\n【永】 他のあなたの《かのかり》のキャラが2枚以上なら、このカードのパワーを＋1000。\n【自】【CXコンボ】 このカードがアタックした時、CX置場に「キスの味」があり、他のあなたの《かのかり》のキャラが2枚以上なら、あなたは自分の山札を上から4枚まで見て、《かのかり》のキャラか「カレーの材料」を1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置き、そのアタック中、あなたはトリガーステップにトリガーチェックを2回行う。\n\"-\"",
+   "traits": [
+    "かのかり",
+    "リボン"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_079sp.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-080",
+   "name": "水着デート 瑠夏",
+   "type": "Character",
+   "rarity": "R",
+   "color": "blue",
+   "level": "3",
+   "cost": "2",
+   "power": "9000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたの控え室のCXが3枚以下なら、あなたの手札のこのカードのレベルを－1。\n【永】 他のあなたの《かのかり》のキャラが2枚以上なら、このカードのパワーを＋1000。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分のクロックの下から1枚を、控え室に置いてよい。\n\"どう……かな？\"",
+   "traits": [
+    "かのかり",
+    "リボン"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_080.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-080S",
+   "name": "水着デート 瑠夏",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "3",
+   "cost": "2",
+   "power": "9000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたの控え室のCXが3枚以下なら、あなたの手札のこのカードのレベルを－1。\n【永】 他のあなたの《かのかり》のキャラが2枚以上なら、このカードのパワーを＋1000。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分のクロックの下から1枚を、控え室に置いてよい。\n\"-\"",
+   "traits": [
+    "かのかり",
+    "リボン"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_080s.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-081",
+   "name": "彼女の余裕 瑠夏",
+   "type": "Character",
+   "rarity": "U",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 このカードはサイドアタックできない。\n【自】［(1) 手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時かアタックした時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室のキャラを1枚選び、手札に戻す。\n\"じゃ 行こっか<br>和也\"",
+   "traits": [
+    "かのかり",
+    "リボン"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_081.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-081S",
+   "name": "彼女の余裕 瑠夏",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 このカードはサイドアタックできない。\n【自】［(1) 手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時かアタックした時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室のキャラを1枚選び、手札に戻す。\n\"まあ「和也」の彼女は私ですし\"",
+   "traits": [
+    "かのかり",
+    "リボン"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_081s.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-082",
+   "name": "星空の下 瑠夏",
+   "type": "Character",
+   "rarity": "U",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［手札のトリガーアイコンが[[gate.gif]]のCXを1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室のトリガーアイコンが[[gate.gif]]のCXを1枚選び、手札に戻す。\n【自】 このカードが【リバース】した時、このカードのバトル相手のコストが0以下なら、あなたはそのキャラを山札の下に置いてよい。\n\"-\"",
+   "traits": [
+    "かのかり",
+    "リボン"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_082.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-082S",
+   "name": "星空の下 瑠夏",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［手札のトリガーアイコンが[[gate.gif]]のCXを1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室のトリガーアイコンが[[gate.gif]]のCXを1枚選び、手札に戻す。\n【自】 このカードが【リバース】した時、このカードのバトル相手のコストが0以下なら、あなたはそのキャラを山札の下に置いてよい。\n\"-\"",
+   "traits": [
+    "かのかり",
+    "リボン"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_082s.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-083",
+   "name": "隣室の彼女 みに",
+   "type": "Character",
+   "rarity": "U",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたのターン中、他のあなたの《かのかり》のキャラ1枚につき、このカードのパワーを＋1000。\n【自】【CXコンボ】 共鳴 ［手札の「隣室の彼女 みに」を1枚公開し、あなたのCX置場の「コスプレ配信」を1枚控え室に置く］ このカードがアタックした時、他のあなたの《かのかり》のキャラがいるなら、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の《かのかり》のキャラを1枚まで選び、手札に戻し、自分の控え室の《かのかり》のキャラを1枚まで選び、ストック置場に置き、そのターン中、このカードのパワーを＋1000。\n\"-\"",
+   "traits": [
+    "かのかり",
+    "コスプレ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_083.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-083S",
+   "name": "隣室の彼女 みに",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたのターン中、他のあなたの《かのかり》のキャラ1枚につき、このカードのパワーを＋1000。\n【自】【CXコンボ】 共鳴 ［手札の「隣室の彼女 みに」を1枚公開し、あなたのCX置場の「コスプレ配信」を1枚控え室に置く］ このカードがアタックした時、他のあなたの《かのかり》のキャラがいるなら、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の《かのかり》のキャラを1枚まで選び、手札に戻し、自分の控え室の《かのかり》のキャラを1枚まで選び、ストック置場に置き、そのターン中、このカードのパワーを＋1000。\n\"-\"",
+   "traits": [
+    "かのかり",
+    "コスプレ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_083s.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-084",
+   "name": "一歩前進 瑠夏",
+   "type": "Character",
+   "rarity": "U",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのターン中、このカードのパワーを＋1000。\n【自】［手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を上から4枚まで見て、レベル1以上のカードを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。（CXのレベルは0として扱う）\n\"キス 解禁でしょ？\"",
+   "traits": [
+    "かのかり",
+    "リボン"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_084.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-084S",
+   "name": "一歩前進 瑠夏",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのターン中、このカードのパワーを＋1000。\n【自】［手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を上から4枚まで見て、レベル1以上のカードを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。（CXのレベルは0として扱う）\n\"私は好きな人とキスできて ２人の関係も一歩進んだんだから これは前進でしかありません！\"",
+   "traits": [
+    "かのかり",
+    "リボン"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_084s.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-085",
+   "name": "ネクストバッター 瑠夏",
+   "type": "Character",
+   "rarity": "U",
+   "color": "blue",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の手札の自分のレベル以下のレベルのキャラを1枚まで選び、舞台の好きな枠に置き、そのターン中、このカードのソウルを＋1。\n【自】［(2) 手札を1枚控え室に置く］ このカードがアタックした時、あなたはコストを払ってよい。そうしたら、あなたは自分のキャラを1枚選び、そのターン中、次の能力を与える。『【自】【ターン1】 このカードの与えたダメージがキャンセルされた時、あなたは相手に2ダメージを与えてよい。』（ダメージキャンセルは発生する）\n\"-\"",
+   "traits": [
+    "かのかり",
+    "リボン"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_085.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-085S",
+   "name": "ネクストバッター 瑠夏",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の手札の自分のレベル以下のレベルのキャラを1枚まで選び、舞台の好きな枠に置き、そのターン中、このカードのソウルを＋1。\n【自】［(2) 手札を1枚控え室に置く］ このカードがアタックした時、あなたはコストを払ってよい。そうしたら、あなたは自分のキャラを1枚選び、そのターン中、次の能力を与える。『【自】【ターン1】 このカードの与えたダメージがキャンセルされた時、あなたは相手に2ダメージを与えてよい。』（ダメージキャンセルは発生する）\n\"-\"",
+   "traits": [
+    "かのかり",
+    "リボン"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_085s.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-086",
+   "name": "“めい命”みに",
+   "type": "Character",
+   "rarity": "U",
+   "color": "blue",
+   "level": "3",
+   "cost": "2",
+   "power": "10500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】［(1) 手札の《かのかり》のキャラを1枚控え室に置く］ あなたのキャラすべてが《かのかり》なら、このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、次の2つの効果を好きな順番で1回ずつ行う。コストを払わないなら、次の2つの効果のうちあなたが選んだ1つを行う。『あなたは自分のクロックの下から1枚を、控え室に置いてよい。』『相手は自分の山札の上から16枚を、控え室に置く。』\n\"岩手が生んだ偏東風DIVA<br>ビリシタの“新風めい”っス<br>※「偏東風」にルビ【やませ】\"",
+   "traits": [
+    "かのかり",
+    "コスプレ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_086.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-086S",
+   "name": "“めい命”みに",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "3",
+   "cost": "2",
+   "power": "10500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】［(1) 手札の《かのかり》のキャラを1枚控え室に置く］ あなたのキャラすべてが《かのかり》なら、このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、次の2つの効果を好きな順番で1回ずつ行う。コストを払わないなら、次の2つの効果のうちあなたが選んだ1つを行う。『あなたは自分のクロックの下から1枚を、控え室に置いてよい。』『相手は自分の山札の上から16枚を、控え室に置く。』\n\"自分 口堅いッスから！\"",
+   "traits": [
+    "かのかり",
+    "コスプレ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_086s.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-087",
+   "name": "彼シャツ 瑠夏",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分のストックの下から2枚までを、手札に戻し、自分の手札を同じ枚数選び、ストック置場の下に好きな順番で置く。\n\"ばーんっ<br>どうです？似合う？\"",
+   "traits": [
+    "かのかり",
+    "リボン"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_087.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-087S",
+   "name": "彼シャツ 瑠夏",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分のストックの下から2枚までを、手札に戻し、自分の手札を同じ枚数選び、ストック置場の下に好きな順番で置く。\n\"ホットミルク飲みます？\"",
+   "traits": [
+    "かのかり",
+    "リボン"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_087s.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-088",
+   "name": "条件付きの彼女（仮） 瑠夏",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【起】［手札を1枚控え室に置き、このカードを山札の下に置く］ あなたは自分の山札を見て《かのかり》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"-\"",
+   "traits": [
+    "かのかり",
+    "リボン"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_088.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-088S",
+   "name": "条件付きの彼女（仮） 瑠夏",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【起】［手札を1枚控え室に置き、このカードを山札の下に置く］ あなたは自分の山札を見て《かのかり》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"-\"",
+   "traits": [
+    "かのかり",
+    "リボン"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_088s.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-089",
+   "name": "呼び捨てあい 瑠夏",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのターン中、他のあなたの《かのかり》のキャラ1枚につき、このカードのパワーを＋1000。\n【自】 このカードのバトル相手が【リバース】した時、あなたのCX置場にトリガーアイコンが[[gate.gif]]のCXがあるなら、あなたは2枚まで引き、自分の手札を同じ枚数選び、控え室に置く。\n\"和也っ\"",
+   "traits": [
+    "かのかり",
+    "リボン"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_089.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-089S",
+   "name": "呼び捨てあい 瑠夏",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのターン中、他のあなたの《かのかり》のキャラ1枚につき、このカードのパワーを＋1000。\n【自】 このカードのバトル相手が【リバース】した時、あなたのCX置場にトリガーアイコンが[[gate.gif]]のCXがあるなら、あなたは2枚まで引き、自分の手札を同じ枚数選び、控え室に置く。\n\"和也！<br>※「和也」にルビ【かーずや】\"",
+   "traits": [
+    "かのかり",
+    "リボン"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_089s.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-090",
+   "name": "“今こそチャンス”みに",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 この能力は1ターンにつき2回まで発動する。あなたのキャラが手札からクロック置場に置かれた時、そのターン中、このカードのパワーを＋3000。\n【自】 アンコール ［手札のキャラを1枚控え室に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"水原さんは元気出たっスか!?\"",
+   "traits": [
+    "かのかり",
+    "コスプレ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_090.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-090S",
+   "name": "“今こそチャンス”みに",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 この能力は1ターンにつき2回まで発動する。あなたのキャラが手札からクロック置場に置かれた時、そのターン中、このカードのパワーを＋3000。\n【自】 アンコール ［手札のキャラを1枚控え室に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"大進展じゃないっスか！\"",
+   "traits": [
+    "かのかり",
+    "コスプレ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_090s.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-091",
+   "name": "ヒミツ恋ゴコロ 瑠夏",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "1",
+   "cost": "1",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 応援 このカードの前のあなたの《かのかり》のキャラすべてに、パワーを＋Ｘ。Ｘはそのキャラのレベル×500に等しい。\n【自】［手札のCXを1枚控え室に置く］ あなたのCXがトリガーした時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室のキャラを1枚選び、手札に戻す。\n\"-\"",
+   "traits": [
+    "かのかり",
+    "リボン"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_091.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-091S",
+   "name": "ヒミツ恋ゴコロ 瑠夏",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "1",
+   "cost": "1",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 応援 このカードの前のあなたの《かのかり》のキャラすべてに、パワーを＋Ｘ。Ｘはそのキャラのレベル×500に等しい。\n【自】［手札のCXを1枚控え室に置く］ あなたのCXがトリガーした時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室のキャラを1枚選び、手札に戻す。\n\"-\"",
+   "traits": [
+    "かのかり",
+    "リボン"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_091s.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-092",
+   "name": "ちょっと強引 瑠夏",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】［(1) 手札を1枚控え室に置き、あなたの舞台のキャラを1枚控え室に置く］ あなたがこのカードの『助太刀』を使った時、あなたはコストを払ってよい。そうしたら、あなたはバトル中のキャラを1枚選び、そのターン中、ソウルを＋5。\n【起】【カウンター】 助太刀2500 レベル2 ［(1) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋2500）\n\"-\"",
+   "traits": [
+    "かのかり",
+    "リボン"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_092.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-092S",
+   "name": "ちょっと強引 瑠夏",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】［(1) 手札を1枚控え室に置き、あなたの舞台のキャラを1枚控え室に置く］ あなたがこのカードの『助太刀』を使った時、あなたはコストを払ってよい。そうしたら、あなたはバトル中のキャラを1枚選び、そのターン中、ソウルを＋5。\n【起】【カウンター】 助太刀2500 レベル2 ［(1) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋2500）\n\"-\"",
+   "traits": [
+    "かのかり",
+    "リボン"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_092s.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-093",
+   "name": "言えない 瑠夏",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "3000",
+   "soul": 2,
+   "trigger": "",
+   "text": "【永】 あなたのターン中、このカードのパワーを＋10000。\n【自】 このカードが手札から舞台に置かれた時、他のあなたの《かのかり》のキャラが4枚以上なら、あなたは自分の控え室の《かのかり》のキャラを1枚選び、ストック置場に置いてよい。\n\"-\"",
+   "traits": [
+    "かのかり",
+    "リボン"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_093.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-093S",
+   "name": "言えない 瑠夏",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "3000",
+   "soul": 2,
+   "trigger": "",
+   "text": "【永】 あなたのターン中、このカードのパワーを＋10000。\n【自】 このカードが手札から舞台に置かれた時、他のあなたの《かのかり》のキャラが4枚以上なら、あなたは自分の控え室の《かのかり》のキャラを1枚選び、ストック置場に置いてよい。\n\"-\"",
+   "traits": [
+    "かのかり",
+    "リボン"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_093s.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-094",
+   "name": "尊敬のまなざし みに",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 応援 このカードの前のあなたのレベル3以上のキャラすべてに、パワーを＋2000。\n【自】 このカードが【リバース】した時、このカードのバトル相手のレベルが相手のレベルより高いなら、あなたはそのキャラを山札の下に置いてよい。\n\"いるんスねー<br>こんな楽しい人生送ってる人が――…\"",
+   "traits": [
+    "かのかり",
+    "コスプレ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_094.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-094S",
+   "name": "尊敬のまなざし みに",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 応援 このカードの前のあなたのレベル3以上のキャラすべてに、パワーを＋2000。\n【自】 このカードが【リバース】した時、このカードのバトル相手のレベルが相手のレベルより高いなら、あなたはそのキャラを山札の下に置いてよい。\n\"一年!?一年もこの状況を!?\"",
+   "traits": [
+    "かのかり",
+    "コスプレ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_094s.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-095",
+   "name": "カレーの材料",
+   "type": "Event",
+   "rarity": "U",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "あなたは自分の山札の上から4枚を、控え室に置き、自分の控え室のレベルＸ以下の《かのかり》のキャラを1枚まで選び、手札に戻す。Ｘはそれらのカードのトリガーアイコンの[[soul.gif]]の合計に等しい。\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_095.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-095S",
+   "name": "カレーの材料",
+   "type": "Event",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "あなたは自分の山札の上から4枚を、控え室に置き、自分の控え室のレベルＸ以下の《かのかり》のキャラを1枚まで選び、手札に戻す。Ｘはそれらのカードのトリガーアイコンの[[soul.gif]]の合計に等しい。\n\"よしっ 頑張るぞ\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_095s.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-096",
+   "name": "返礼品探し",
+   "type": "Event",
+   "rarity": "U",
+   "color": "blue",
+   "level": "3",
+   "cost": "3",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "【カウンター】 あなたの山札が5枚以上なら、あなたは自分の控え室のカードを2枚まで選び、山札に戻し、その山札をシャッフルする。このカードを思い出にする。\n\"水原さんの肌に触れてたってだけで もはやプライスレスっス\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_096.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-096S",
+   "name": "返礼品探し",
+   "type": "Event",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "3",
+   "cost": "3",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "【カウンター】 あなたの山札が5枚以上なら、あなたは自分の控え室のカードを2枚まで選び、山札に戻し、その山札をシャッフルする。このカードを思い出にする。\n\"チャイナドレスっスー！\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_096s.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-097",
+   "name": "『恋人』としては普通のこと",
+   "type": "Climax",
+   "rarity": "CR",
+   "color": "blue",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[gate.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[gate.gif]]：このカードがトリガーした時、あなたは自分の控え室のCXを1枚選び、手札に戻してよい）\n\"あ……っ\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_097.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-097R",
+   "name": "『恋人』としては普通のこと",
+   "type": "Climax",
+   "rarity": "RRR",
+   "color": "blue",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[gate.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[gate.gif]]：このカードがトリガーした時、あなたは自分の控え室のCXを1枚選び、手札に戻してよい）\n\"ちょっと無理しすぎちゃったかも……\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_097r.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-098",
+   "name": "お泊りデート",
+   "type": "Climax",
+   "rarity": "CR",
+   "color": "blue",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[gate.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[gate.gif]]：このカードがトリガーした時、あなたは自分の控え室のCXを1枚選び、手札に戻してよい）\n\"えっえ～っ<br>どうかなーっ\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_098.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-098R",
+   "name": "お泊りデート",
+   "type": "Climax",
+   "rarity": "RRR",
+   "color": "blue",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[gate.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[gate.gif]]：このカードがトリガーした時、あなたは自分の控え室のCXを1枚選び、手札に戻してよい）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_098r.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-099",
+   "name": "キスの味",
+   "type": "Climax",
+   "rarity": "CR",
+   "color": "blue",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[gate.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[gate.gif]]：このカードがトリガーした時、あなたは自分の控え室のCXを1枚選び、手札に戻してよい）\n\"……私 後悔してませんから\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_099.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-099R",
+   "name": "キスの味",
+   "type": "Climax",
+   "rarity": "RRR",
+   "color": "blue",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[gate.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[gate.gif]]：このカードがトリガーした時、あなたは自分の控え室のCXを1枚選び、手札に戻してよい）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_099r.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-100",
+   "name": "コスプレ配信",
+   "type": "Climax",
+   "rarity": "CR",
+   "color": "blue",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【自】 このカードが手札からCX置場に置かれた時、あなたは自分の控え室のトリガーアイコンに[[soul.gif]]があるキャラを1枚まで選び、手札に戻し、自分のキャラを2枚まで選び、そのターン中、ソウルを＋1。\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_100.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W132-100R",
+   "name": "コスプレ配信",
+   "type": "Climax",
+   "rarity": "RRR",
+   "color": "blue",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【自】 このカードが手札からCX置場に置かれた時、あなたは自分の控え室のトリガーアイコンに[[soul.gif]]があるキャラを1枚まで選び、手札に戻し、自分のキャラを2枚まで選び、そのターン中、ソウルを＋1。\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_100r.png",
+   "variant": ""
+  }
+ ]
+}

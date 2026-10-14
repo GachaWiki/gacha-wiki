@@ -1,0 +1,2619 @@
+{
+ "id": "jp-skr-e293",
+ "name": "新サクラ大戦",
+ "expansion": 293,
+ "lang": "jp",
+ "release": null,
+ "shopItem": null,
+ "box": null,
+ "cards": [
+  {
+   "num": "SKR/S73-001",
+   "name": "出撃命令 神山",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 あなたのアタックフェイズの始めに、前列にこのカードがいるなら、あなたは自分の山札の上から1枚を、控え室に置いてよい。そのカードが《華撃団》のキャラなら、そのターン中、このカードのパワーを＋2000。\n【自】［(1)］ アンコールステップの始めに、他のあなたの前列の【レスト】しているキャラがいないなら、あなたはコストを払ってよい。そうしたら、このカードを【レスト】する。\n\"帝国華撃団・花組、出撃せよ！\"",
+   "traits": [
+    "華撃団",
+    "剣術"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/skr_s73/skr_s73_001.png",
+   "variant": ""
+  },
+  {
+   "num": "SKR/S73-001S",
+   "name": "出撃命令 神山",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 あなたのアタックフェイズの始めに、前列にこのカードがいるなら、あなたは自分の山札の上から1枚を、控え室に置いてよい。そのカードが《華撃団》のキャラなら、そのターン中、このカードのパワーを＋2000。\n【自】［(1)］ アンコールステップの始めに、他のあなたの前列の【レスト】しているキャラがいないなら、あなたはコストを払ってよい。そうしたら、このカードを【レスト】する。\n\"俺はもう絶対にあきらめたりしない！\"",
+   "traits": [
+    "華撃団",
+    "剣術"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/skr_s73/skr_s73_001s.png",
+   "variant": ""
+  },
+  {
+   "num": "SKR/S73-002",
+   "name": "100人分身 あざみ",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "yellow",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 前列にこのカードがいるなら、あなたの《華撃団》のキャラすべてに、パワーを＋1500。\n【自】【CXコンボ】［(1) 手札の《華撃団》のキャラを1枚控え室に置く］ あなたのクライマックス置場に「これが二人の……望月流奥義!!」が置かれた時、前列にこのカードがいて、他のあなたの「“帝国華撃団・花組隊長” 神山」がいるなら、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「100人分身 あざみ」を1枚まで選び、舞台の好きな枠に置き、自分の山札を見て「100人分身 あざみ」を1枚まで選び、舞台の好きな枠に置き、その山札をシャッフルする。\n\"ふふふ……本物、どれかわかる？\"",
+   "traits": [
+    "華撃団",
+    "忍"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/skr_s73/skr_s73_002.png",
+   "variant": ""
+  },
+  {
+   "num": "SKR/S73-002SP",
+   "name": "100人分身 あざみ",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "yellow",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 前列にこのカードがいるなら、あなたの《華撃団》のキャラすべてに、パワーを＋1500。\n【自】【CXコンボ】［(1) 手札の《華撃団》のキャラを1枚控え室に置く］ あなたのクライマックス置場に「これが二人の……望月流奥義!!」が置かれた時、前列にこのカードがいて、他のあなたの「“帝国華撃団・花組隊長” 神山」がいるなら、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「100人分身 あざみ」を1枚まで選び、舞台の好きな枠に置き、自分の山札を見て「100人分身 あざみ」を1枚まで選び、舞台の好きな枠に置き、その山札をシャッフルする。\n\"-\"",
+   "traits": [
+    "華撃団",
+    "忍"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/skr_s73/skr_s73_002sp.png",
+   "variant": ""
+  },
+  {
+   "num": "SKR/S73-003",
+   "name": "望月流忍者 あざみ",
+   "type": "Character",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの《華撃団》のキャラすべてに、パワーを＋500し、『【自】 アンコール ［(2)］』を与える。\n\"まかせて。あざみの忍術で、敵を突破する！\"",
+   "traits": [
+    "華撃団",
+    "忍"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/skr_s73/skr_s73_003.png",
+   "variant": ""
+  },
+  {
+   "num": "SKR/S73-003S",
+   "name": "望月流忍者 あざみ",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの《華撃団》のキャラすべてに、パワーを＋500し、『【自】 アンコール ［(2)］』を与える。\n\"なんだか体が軽い！\"",
+   "traits": [
+    "華撃団",
+    "忍"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/skr_s73/skr_s73_003s.png",
+   "variant": ""
+  },
+  {
+   "num": "SKR/S73-004",
+   "name": "任務を遂行 あざみ",
+   "type": "Character",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのターン中、他のあなたの「“帝国華撃団・花組隊長” 神山」がいるなら、他のあなたの「100人分身 あざみ」すべてに、次の能力を与える。『【自】［(3)］ このカードのバトル相手が【リバース】した時、あなたはコストを払ってよい。そうしたら、相手にＸダメージを与える。Ｘはあなたの「100人分身 あざみ」の枚数に等しい。』（ダメージキャンセルは発生する）\n【起】 集中 ［(1) このカードを【レスト】する］ あなたは自分の山札の上から4枚をめくり、控え室に置く。それらのカードのクライマックス1枚につき、あなたは自分の控え室のキャラを1枚まで選び、手札に戻す。\n\"……任務完了。<br>これにてごめん\"",
+   "traits": [
+    "華撃団",
+    "忍"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/skr_s73/skr_s73_004.png",
+   "variant": ""
+  },
+  {
+   "num": "SKR/S73-005",
+   "name": "出撃準備完了！ あざみ",
+   "type": "Character",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、そのターン中、このカードのパワーを＋Ｘ。Ｘはあなたの《華撃団》のキャラの枚数×500に等しい。\n【自】［あなたの控え室のキャラを2枚山札に戻し、その山札をシャッフルする］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、そのターン中、このカードのソウルを＋1。\n\"――里の掟　３９条。<br>挑戦なくして、勝利なし\"",
+   "traits": [
+    "華撃団",
+    "忍"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/skr_s73/skr_s73_005.png",
+   "variant": ""
+  },
+  {
+   "num": "SKR/S73-005S",
+   "name": "出撃準備完了！ あざみ",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、そのターン中、このカードのパワーを＋Ｘ。Ｘはあなたの《華撃団》のキャラの枚数×500に等しい。\n【自】［あなたの控え室のキャラを2枚山札に戻し、その山札をシャッフルする］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、そのターン中、このカードのソウルを＋1。\n\"いざ尋常に、勝負！\"",
+   "traits": [
+    "華撃団",
+    "忍"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/skr_s73/skr_s73_005s.png",
+   "variant": ""
+  },
+  {
+   "num": "SKR/S73-006",
+   "name": "“霊子戦闘機・無限”あざみ機",
+   "type": "Character",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "3",
+   "cost": "2",
+   "power": "11000",
+   "soul": 3,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 相手のキャラすべてに、『【自】 アンコール ［(2)］』を与える。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分の控え室の「望月流忍者 あざみ」を1枚選び、このカードの下にマーカーとして表向きに置いてよい。\n【自】 この能力は1ターンにつき1回まで発動する。このカードが手札から舞台に置かれたターン中、このカードの与えたダメージがキャンセルされた時、このカードの下にマーカーがあるなら、あなたは自分の山札の上から1枚を、控え室に置き、相手にＸダメージを与える。Ｘはそのカードのレベル＋1に等しい。（クライマックスのレベルは0として扱う。ダメージキャンセルは発生する）\n\"あざみが一番手！先手必勝、いざ参る!!\"",
+   "traits": [
+    "華撃団",
+    "忍"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/skr_s73/skr_s73_006.png",
+   "variant": ""
+  },
+  {
+   "num": "SKR/S73-006TGR",
+   "name": "“霊子戦闘機・無限”あざみ機",
+   "type": "Character",
+   "rarity": "TGR",
+   "color": "yellow",
+   "level": "3",
+   "cost": "2",
+   "power": "11000",
+   "soul": 3,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 相手のキャラすべてに、『【自】 アンコール ［(2)］』を与える。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分の控え室の「望月流忍者 あざみ」を1枚選び、このカードの下にマーカーとして表向きに置いてよい。\n【自】 この能力は1ターンにつき1回まで発動する。このカードが手札から舞台に置かれたターン中、このカードの与えたダメージがキャンセルされた時、このカードの下にマーカーがあるなら、あなたは自分の山札の上から1枚を、控え室に置き、相手にＸダメージを与える。Ｘはそのカードのレベル＋1に等しい。（クライマックスのレベルは0として扱う。ダメージキャンセルは発生する）\n\"-\"",
+   "traits": [
+    "華撃団",
+    "忍"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/skr_s73/skr_s73_006tgr.png",
+   "variant": ""
+  },
+  {
+   "num": "SKR/S73-007",
+   "name": "倫敦の黒騎士 ランスロット",
+   "type": "Character",
+   "rarity": "U",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 他のあなたのバトル中のキャラが【リバース】した時、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋1000。\n【起】 集中 ［(1) あなたのキャラを2枚【レスト】する］ あなたは自分の山札の上から4枚をめくり、控え室に置く。それらのカードのクライマックス1枚につき、あなたは自分の控え室のキャラを1枚まで選び、手札に戻す。\n\"ねぇ……あたしと勝負しようよ！\"",
+   "traits": [
+    "華撃団",
+    "倫敦"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/skr_s73/skr_s73_007.png",
+   "variant": ""
+  },
+  {
+   "num": "SKR/S73-008",
+   "name": "帝劇の御庭番 あざみ",
+   "type": "Character",
+   "rarity": "U",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、他のあなたの《華撃団》のキャラが2枚以上なら、あなたは1枚引いてよい。そうしたら、あなたは自分の手札を1枚選び、控え室に置く。\n【自】【CXコンボ】 このカードがアタックした時、クライマックス置場に「望月流忍法・無双手裏剣」があり、他のあなたの《華撃団》のキャラが2枚以上なら、そのターン中、このカードのパワーを＋2500し、このカードは次の能力を得る。『【自】 このカードのアタックの終わりに、あなたはこのカードをストック置場に置いてよい。』\n\"不審な声……、もしかして侵入者？\"",
+   "traits": [
+    "華撃団",
+    "忍"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/skr_s73/skr_s73_008.png",
+   "variant": ""
+  },
+  {
+   "num": "SKR/S73-009",
+   "name": "騎士道精神 アーサー",
+   "type": "Character",
+   "rarity": "U",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたはイベントと『助太刀』を手札からプレイできない。\n\"騎士の戦い、その身に刻みつけてあげるよ\"",
+   "traits": [
+    "華撃団",
+    "倫敦"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/skr_s73/skr_s73_009.png",
+   "variant": ""
+  },
+  {
+   "num": "SKR/S73-010",
+   "name": "特別な一日 あざみ",
+   "type": "Character",
+   "rarity": "U",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの《華撃団》のキャラ1枚につき、このカードのパワーを＋500。\n\"修行あるのみ……ニンニン！\"",
+   "traits": [
+    "華撃団",
+    "忍"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/skr_s73/skr_s73_010.png",
+   "variant": ""
+  },
+  {
+   "num": "SKR/S73-011",
+   "name": "おまんじゅう一直線！ あざみ",
+   "type": "Character",
+   "rarity": "U",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 あなたがこのカードの『助太刀』を使った時、あなたの《華撃団》のキャラがいるなら、あなたは自分のバトル中のキャラを1枚選び、そのターン中、パワーを＋1000。\n【起】【カウンター】 助太刀2500 レベル2 ［(1) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋2500）\n\"むっ、怪しい気配。……でも、おまんじゅうが……\"",
+   "traits": [
+    "華撃団",
+    "忍"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/skr_s73/skr_s73_011.png",
+   "variant": ""
+  },
+  {
+   "num": "SKR/S73-011S",
+   "name": "おまんじゅう一直線！ あざみ",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 あなたがこのカードの『助太刀』を使った時、あなたの《華撃団》のキャラがいるなら、あなたは自分のバトル中のキャラを1枚選び、そのターン中、パワーを＋1000。\n【起】【カウンター】 助太刀2500 レベル2 ［(1) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋2500）\n\"――里の掟７９条。<br>おやつで買収されるな\"",
+   "traits": [
+    "華撃団",
+    "忍"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/skr_s73/skr_s73_011s.png",
+   "variant": ""
+  },
+  {
+   "num": "SKR/S73-012",
+   "name": "倫敦華撃団“霊子戦闘機・ブリドヴェン”",
+   "type": "Character",
+   "rarity": "U",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "6000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの、《伯林》か《上海》か《倫敦》のキャラが2枚以上なら、このカードのパワーを＋4000。\n【自】【CXコンボ】［手札を1枚控え室に置く］ このカードがアタックした時、クライマックス置場に「世界華撃団大戦」があり、他のあなたの、《伯林》か《上海》か《倫敦》のキャラが2枚以上なら、あなたはコストを払ってよい。そうしたら、相手に1ダメージを与え、そのターン中、このカードは次の能力を得る。『【自】 このカードのバトル相手が【リバース】した時、あなたは自分の山札の上から2枚までを、ストック置場に置く。』（ダメージキャンセルは発生する）\n\"やれやれ……<br>ランスロットにも、困ったものだね\"",
+   "traits": [
+    "華撃団",
+    "倫敦"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/skr_s73/skr_s73_012.png",
+   "variant": ""
+  },
+  {
+   "num": "SKR/S73-012S",
+   "name": "倫敦華撃団“霊子戦闘機・ブリドヴェン”",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "6000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの、《伯林》か《上海》か《倫敦》のキャラが2枚以上なら、このカードのパワーを＋4000。\n【自】【CXコンボ】［手札を1枚控え室に置く］ このカードがアタックした時、クライマックス置場に「世界華撃団大戦」があり、他のあなたの、《伯林》か《上海》か《倫敦》のキャラが2枚以上なら、あなたはコストを払ってよい。そうしたら、相手に1ダメージを与え、そのターン中、このカードは次の能力を得る。『【自】 このカードのバトル相手が【リバース】した時、あなたは自分の山札の上から2枚までを、ストック置場に置く。』（ダメージキャンセルは発生する）\n\"思いっきり、戦おうよ!!\"",
+   "traits": [
+    "華撃団",
+    "倫敦"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/skr_s73/skr_s73_012s.png",
+   "variant": ""
+  },
+  {
+   "num": "SKR/S73-013",
+   "name": "“口寄せの術”八丹斎&あざみ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 この能力は1ターンにつき1回まで発動する。他のあなたの「本物の忍者 あざみ」が手札から舞台に置かれた時、あなたは自分の山札の上から1枚を、ストック置場に置いてよい。\n【自】 絆／「本物の忍者 あざみ」 ［手札を1枚控え室に置く］ （このカードがプレイされて舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「本物の忍者 あざみ」を1枚選び、手札に戻す）\n\"八丹斎「臨！　兵！　闘！　者！」<br>あざみ「皆！　陣！　列！　在！　前！」\"",
+   "traits": [
+    "華撃団",
+    "忍"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/skr_s73/skr_s73_013.png",
+   "variant": ""
+  },
+  {
+   "num": "SKR/S73-014",
+   "name": "大興奮！ あざみ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札を上から1枚見て、山札の上か控え室に置く。\n【自】 他のあなたの《華撃団》のキャラがアタックした時、そのターン中、このカードのパワーを＋1500。\n\"すごい大きさ！ あざみも乗りたい！\"",
+   "traits": [
+    "華撃団",
+    "忍"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/skr_s73/skr_s73_014.png",
+   "variant": ""
+  },
+  {
+   "num": "SKR/S73-015",
+   "name": "“倫敦華撃団・円卓の騎士”団長 アーサー",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、他のあなたの《華撃団》のキャラがいるなら、そのターン中、このカードのパワーを＋2000。\n\"そろそろ、決着をつける時だ\"",
+   "traits": [
+    "華撃団",
+    "倫敦"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/skr_s73/skr_s73_015.png",
+   "variant": ""
+  },
+  {
+   "num": "SKR/S73-016",
+   "name": "甘えるあざみ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "1",
+   "cost": "1",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 応援 このカードの前のあなたの《華撃団》のキャラすべてに、パワーを＋Ｘ。Ｘはそのキャラのレベル×500に等しい。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から1枚を公開する。そのカードのレベルが2以上ならストック置場に置く。（クライマックスのレベルは0として扱う。そうでないなら元に戻す）\n\"……え？<br>な、なに、誠十郎……？\"",
+   "traits": [
+    "華撃団",
+    "忍"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/skr_s73/skr_s73_016.png",
+   "variant": ""
+  },
+  {
+   "num": "SKR/S73-017",
+   "name": "“倫敦華撃団・円卓の騎士”団員 ランスロット",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "6500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードがアタックした時、このカードの正面のキャラのレベルが3以上なら、そのターン中、このカードのパワーを＋6000。\n【自】［(1)］ このカードがアタックした時、あなたはコストを払ってよい。そうしたら、そのアタック中、あなたはトリガーステップにトリガーチェックを2回行う。\n\"あの時の決着、つけようよ！\"",
+   "traits": [
+    "華撃団",
+    "倫敦"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/skr_s73/skr_s73_017.png",
+   "variant": ""
+  },
+  {
+   "num": "SKR/S73-018",
+   "name": "本物の忍者 あざみ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "8500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "-\n\"そんな掟なんて、絶対に守らない！\"",
+   "traits": [
+    "華撃団",
+    "忍"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/skr_s73/skr_s73_018.png",
+   "variant": ""
+  },
+  {
+   "num": "SKR/S73-019",
+   "name": "Live & Interactive Picture System",
+   "type": "Event",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "次の効果のうちあなたが選んだ1つを行う。\n『あなたの《華撃団》のキャラがいるなら、あなたは自分の山札を上から2枚まで見て、カードを1枚まで選び、手札に加え、残りのカードを控え室に置く。』\n『あなたは自分のクロック置場の《華撃団》のキャラを1枚選び、手札に戻し、自分の山札の上から1枚を、クロック置場に置く。』\n『あなたのキャラすべてに、そのターン中、パワーを＋2000。』\n『あなたのキャラすべてに、そのターン中、ソウルを＋1。』\n\"神山「久しぶりに会えて、俺も嬉しいよ。<br>えっと……」\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/skr_s73/skr_s73_019.png",
+   "variant": ""
+  },
+  {
+   "num": "SKR/S73-020",
+   "name": "これが二人の……望月流奥義!!",
+   "type": "Climax",
+   "rarity": "CR",
+   "color": "yellow",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[choice.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[choice.gif]]：このカードがトリガーした時、あなたは自分の控え室のトリガーアイコンに[[soul.gif]]があるキャラを1枚選び、手札に戻すかストック置場に置いてよい）\n\"いっけえええええええ!!!!\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/skr_s73/skr_s73_020.png",
+   "variant": ""
+  },
+  {
+   "num": "SKR/S73-020R",
+   "name": "これが二人の……望月流奥義!!",
+   "type": "Climax",
+   "rarity": "RRR",
+   "color": "yellow",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[choice.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[choice.gif]]：このカードがトリガーした時、あなたは自分の控え室のトリガーアイコンに[[soul.gif]]があるキャラを1枚選び、手札に戻すかストック置場に置いてよい）\n\"これが二人の……望月流奥義!!\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/skr_s73/skr_s73_020r.png",
+   "variant": ""
+  },
+  {
+   "num": "SKR/S73-021",
+   "name": "望月流忍法・無双手裏剣",
+   "type": "Climax",
+   "rarity": "CC",
+   "color": "yellow",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[bounce.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[bounce.gif]]：このカードがトリガーした時、あなたは相手のキャラを1枚選び、手札に戻してよい）\n\"望月流忍法……奥義！\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/skr_s73/skr_s73_021.png",
+   "variant": ""
+  },
+  {
+   "num": "SKR/S73-022",
+   "name": "重魔導起動！ クラリス",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 あなたのキャラのトリガーチェックでクライマックスがでた時、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋1000。\n【起】 集中 ［(1) このカードを【レスト】する］ あなたは自分の山札の上から4枚をめくり、控え室に置く。それらのカードのクライマックス1枚につき、あなたは自分の山札を見て《華撃団》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"これが……私たちの戦いの物語です！\"",
+   "traits": [
+    "華撃団",
+    "本"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/skr_s73/skr_s73_022.png",
+   "variant": ""
+  },
+  {
+   "num": "SKR/S73-022SP",
+   "name": "重魔導起動！ クラリス",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 あなたのキャラのトリガーチェックでクライマックスがでた時、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋1000。\n【起】 集中 ［(1) このカードを【レスト】する］ あなたは自分の山札の上から4枚をめくり、控え室に置く。それらのカードのクライマックス1枚につき、あなたは自分の山札を見て《華撃団》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"-\"",
+   "traits": [
+    "華撃団",
+    "本"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/skr_s73/skr_s73_022sp.png",
+   "variant": ""
+  },
+  {
+   "num": "SKR/S73-023",
+   "name": "出撃準備 クラリス",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から1枚を公開する。そのカードが《華撃団》のキャラなら、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋2000。（公開したカードは元に戻す）\n【自】 このカードが【リバース】した時、このカードのバトル相手のコストが0以下なら、あなたは相手のクロックの上から1枚を、控え室に置いてよい。そうしたら、あなたはそのキャラをクロック置場に置く。\n\"私の重魔導で、道を切り開きます！\"",
+   "traits": [
+    "華撃団",
+    "本"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/skr_s73/skr_s73_023.png",
+   "variant": ""
+  },
+  {
+   "num": "SKR/S73-023S",
+   "name": "出撃準備 クラリス",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から1枚を公開する。そのカードが《華撃団》のキャラなら、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋2000。（公開したカードは元に戻す）\n【自】 このカードが【リバース】した時、このカードのバトル相手のコストが0以下なら、あなたは相手のクロックの上から1枚を、控え室に置いてよい。そうしたら、あなたはそのキャラをクロック置場に置く。\n\"この力を……正しいことのために使う！\"",
+   "traits": [
+    "華撃団",
+    "本"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/skr_s73/skr_s73_023s.png",
+   "variant": ""
+  },
+  {
+   "num": "SKR/S73-024",
+   "name": "お散歩クラリス",
+   "type": "Character",
+   "rarity": "R",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの《華撃団》のキャラすべてに、パワーを＋500。\n【起】［(2) このカードを【レスト】する］ あなたは自分の山札を見て《華撃団》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"今日もいいお天気、ウキウキしちゃいますね\"",
+   "traits": [
+    "華撃団",
+    "本"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/skr_s73/skr_s73_024.png",
+   "variant": ""
+  },
+  {
+   "num": "SKR/S73-025",
+   "name": "大胆な押し倒し クラリス",
+   "type": "Character",
+   "rarity": "R",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのターン中、このカードのパワーを＋1000。\n【自】【CXコンボ】 このカードのバトル相手が【リバース】した時、あなたのクライマックス置場に「Arbitre d'enfer」があるなら、あなたは自分の山札を見てキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルし、次の相手のターンの終わりまで、このカードのパワーを＋2000。\n\"あなたを……あ、あい……\"",
+   "traits": [
+    "華撃団",
+    "本"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/skr_s73/skr_s73_025.png",
+   "variant": ""
+  },
+  {
+   "num": "SKR/S73-025S",
+   "name": "大胆な押し倒し クラリス",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのターン中、このカードのパワーを＋1000。\n【自】【CXコンボ】 このカードのバトル相手が【リバース】した時、あなたのクライマックス置場に「Arbitre d'enfer」があるなら、あなたは自分の山札を見てキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルし、次の相手のターンの終わりまで、このカードのパワーを＋2000。\n\"あなたを……愛しています……\"",
+   "traits": [
+    "華撃団",
+    "本"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/skr_s73/skr_s73_025s.png",
+   "variant": ""
+  },
+  {
+   "num": "SKR/S73-026",
+   "name": "上海華撃団 “霊子戦闘機・王龍”",
+   "type": "Character",
+   "rarity": "R",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの《華撃団》のキャラが2枚以上なら、このカードのパワーを＋1000。\n【自】【CXコンボ】［(1)］ このカードのバトル相手が【リバース】した時、あなたのクライマックス置場に「世界華撃団大戦」があるなら、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室のキャラを1枚まで選び、手札に戻し、このカードを思い出にし、次のあなたのドローフェイズの始めに、あなたは自分の思い出置場の「上海華撃団 “霊子戦闘機・王龍”」を1枚選び、舞台の好きな枠に置く。\n\"シャオロン「上海華撃団、参上!!」\"",
+   "traits": [
+    "華撃団",
+    "上海"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/skr_s73/skr_s73_026.png",
+   "variant": ""
+  },
+  {
+   "num": "SKR/S73-026S",
+   "name": "上海華撃団 “霊子戦闘機・王龍”",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの《華撃団》のキャラが2枚以上なら、このカードのパワーを＋1000。\n【自】【CXコンボ】［(1)］ このカードのバトル相手が【リバース】した時、あなたのクライマックス置場に「世界華撃団大戦」があるなら、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室のキャラを1枚まで選び、手札に戻し、このカードを思い出にし、次のあなたのドローフェイズの始めに、あなたは自分の思い出置場の「上海華撃団 “霊子戦闘機・王龍”」を1枚選び、舞台の好きな枠に置く。\n\"ユイ「上海華撃団、参上!!」\"",
+   "traits": [
+    "華撃団",
+    "上海"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/skr_s73/skr_s73_026s.png",
+   "variant": ""
+  },
+  {
+   "num": "SKR/S73-027",
+   "name": "“霊子戦闘機・無限”クラリス機",
+   "type": "Character",
+   "rarity": "R",
+   "color": "green",
+   "level": "2",
+   "cost": "1",
+   "power": "5500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 このカードの下にマーカーがあるなら、このカードは『【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋1000。』を得る。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分の控え室の「重魔導起動！ クラリス」を1枚選び、このカードの下にマーカーとして表向きに置いてよい。\n【起】 集中 ［(1) このカードを【レスト】する］ あなたは自分の山札の上から4枚をめくり、控え室に置く。それらのカードのクライマックス1枚につき、あなたは自分の山札を見て《華撃団》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"私の力はみんなを守るために！\"",
+   "traits": [
+    "華撃団",
+    "本"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/skr_s73/skr_s73_027.png",
+   "variant": ""
+  },
+  {
+   "num": "SKR/S73-027TGR",
+   "name": "“霊子戦闘機・無限”クラリス機",
+   "type": "Character",
+   "rarity": "TGR",
+   "color": "green",
+   "level": "2",
+   "cost": "1",
+   "power": "5500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 このカードの下にマーカーがあるなら、このカードは『【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋1000。』を得る。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分の控え室の「重魔導起動！ クラリス」を1枚選び、このカードの下にマーカーとして表向きに置いてよい。\n【起】 集中 ［(1) このカードを【レスト】する］ あなたは自分の山札の上から4枚をめくり、控え室に置く。それらのカードのクライマックス1枚につき、あなたは自分の山札を見て《華撃団》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"-\"",
+   "traits": [
+    "華撃団",
+    "本"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/skr_s73/skr_s73_027tgr.png",
+   "variant": ""
+  },
+  {
+   "num": "SKR/S73-028",
+   "name": "伯林華撃団 “霊子戦闘機・アイゼンイェーガー”",
+   "type": "Character",
+   "rarity": "R",
+   "color": "green",
+   "level": "3",
+   "cost": "2",
+   "power": "9000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの《華撃団》のキャラが2枚以上なら、このカードのパワーを＋2000。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札を上からＸ枚まで見て、カードを1枚まで選び、手札に加え、残りのカードを控え室に置く。Ｘはあなたの《華撃団》のキャラの枚数に等しい。\n【自】【CXコンボ】［(3) 手札を1枚控え室に置く］ この能力は1ターンにつき1回まで発動する。このカードのバトル相手が【リバース】した時、あなたのクライマックス置場に「世界華撃団大戦」があるなら、あなたはコストを払ってよい。そうしたら、このカードを【スタンド】する。\n\"Ｊａｗｏｈｌ！<br>(ルビ：ヤーヴォール)\"",
+   "traits": [
+    "華撃団",
+    "伯林"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/skr_s73/skr_s73_028.png",
+   "variant": ""
+  },
+  {
+   "num": "SKR/S73-028S",
+   "name": "伯林華撃団 “霊子戦闘機・アイゼンイェーガー”",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "3",
+   "cost": "2",
+   "power": "9000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの《華撃団》のキャラが2枚以上なら、このカードのパワーを＋2000。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札を上からＸ枚まで見て、カードを1枚まで選び、手札に加え、残りのカードを控え室に置く。Ｘはあなたの《華撃団》のキャラの枚数に等しい。\n【自】【CXコンボ】［(3) 手札を1枚控え室に置く］ この能力は1ターンにつき1回まで発動する。このカードのバトル相手が【リバース】した時、あなたのクライマックス置場に「世界華撃団大戦」があるなら、あなたはコストを払ってよい。そうしたら、このカードを【スタンド】する。\n\"……帰投する。<br>行くぞ、マルガレーテ\"",
+   "traits": [
+    "華撃団",
+    "伯林"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/skr_s73/skr_s73_028s.png",
+   "variant": ""
+  },
+  {
+   "num": "SKR/S73-029",
+   "name": "図書館でのひととき クラリス",
+   "type": "Character",
+   "rarity": "R",
+   "color": "green",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】［(1)］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「文学少女 クラリス」を1枚選び、舞台の好きな枠に置く。\n【自】【CXコンボ】［(1) 手札を1枚控え室に置く］ このカードのバトル相手が【リバース】した時、あなたのクライマックス置場に「今日は……月が綺麗だね」があり、他のあなたの「“帝国華撃団・花組隊長” 神山」がいるなら、あなたはコストを払ってよい。そうしたら、あなたはそのバトル相手をクロック置場に置き、相手に1ダメージを与える。（ダメージキャンセルは発生する）\n\"-\"",
+   "traits": [
+    "華撃団",
+    "本"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/skr_s73/skr_s73_029.png",
+   "variant": ""
+  },
+  {
+   "num": "SKR/S73-029S",
+   "name": "図書館でのひととき クラリス",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】［(1)］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「文学少女 クラリス」を1枚選び、舞台の好きな枠に置く。\n【自】【CXコンボ】［(1) 手札を1枚控え室に置く］ このカードのバトル相手が【リバース】した時、あなたのクライマックス置場に「今日は……月が綺麗だね」があり、他のあなたの「“帝国華撃団・花組隊長” 神山」がいるなら、あなたはコストを払ってよい。そうしたら、あなたはそのバトル相手をクロック置場に置き、相手に1ダメージを与える。（ダメージキャンセルは発生する）\n\"今日は……月が綺麗だね\"",
+   "traits": [
+    "華撃団",
+    "本"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/skr_s73/skr_s73_029s.png",
+   "variant": ""
+  },
+  {
+   "num": "SKR/S73-030",
+   "name": "ケーキに夢中 マルガレーテ",
+   "type": "Character",
+   "rarity": "U",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、相手の前列のキャラが1枚以下なら、あなたは相手の前列のコスト0以下のキャラを1枚選び、山札の下に置く。\n【自】 このカードが手札から舞台に置かれた時、あなたは他の自分の《華撃団》のキャラを1枚選び、そのターン中、パワーを＋2000。\n\"ふふふ、この国のスイーツセンス……悪くないわ\"",
+   "traits": [
+    "華撃団",
+    "伯林"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/skr_s73/skr_s73_030.png",
+   "variant": ""
+  },
+  {
+   "num": "SKR/S73-031",
+   "name": "炎の飯使い シャオロン",
+   "type": "Character",
+   "rarity": "U",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、他のあなたの、《伯林》か《上海》か《倫敦》のキャラがいるなら、そのターン中、このカードのパワーを＋2000。\n【自】［(1) 手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の《華撃団》のキャラを1枚選び、手札に戻し、他の自分の《華撃団》のキャラを1枚選び、そのターン中、パワーを＋1000。\n\"アツアツの上海神龍炒飯だぜ！<br>さあ、食えよ!!\"",
+   "traits": [
+    "華撃団",
+    "上海"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/skr_s73/skr_s73_031.png",
+   "variant": ""
+  },
+  {
+   "num": "SKR/S73-032",
+   "name": "“伯林華撃団・シュヴァルツシュテルン”隊員 マルガレーテ",
+   "type": "Character",
+   "rarity": "U",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードがアタックした時、あなたは他の自分の《華撃団》のキャラを1枚選び、そのターン中、パワーを＋Ｘ。Ｘは他のあなたの《華撃団》のキャラの枚数×500に等しい。\n\"あなたたちが勝てる確率は……「０％」<br>(0%ルビ：ヌル・プロッツェント)\"",
+   "traits": [
+    "華撃団",
+    "伯林"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/skr_s73/skr_s73_032.png",
+   "variant": ""
+  },
+  {
+   "num": "SKR/S73-033",
+   "name": "“上海華撃団・五神龍”隊員 ユイ",
+   "type": "Character",
+   "rarity": "U",
+   "color": "green",
+   "level": "1",
+   "cost": "1",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのターン中、このカードのパワーを＋2000。\n【永】 このカードの正面のキャラのコストが0以下なら、このカードは【リバース】しない。\n\"華撃団大戦……私たちとあたるまで、<br>負けちゃダメだからね！\"",
+   "traits": [
+    "華撃団",
+    "上海"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/skr_s73/skr_s73_033.png",
+   "variant": ""
+  },
+  {
+   "num": "SKR/S73-034",
+   "name": "文学少女 クラリス",
+   "type": "Character",
+   "rarity": "U",
+   "color": "green",
+   "level": "3",
+   "cost": "2",
+   "power": "9000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 このカードの下にマーカーがないなら、このカードのパワーを＋3000。\n【自】 このカードが手札から舞台に置かれた時か「図書館でのひととき クラリス」の【自】の効果で舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から1枚を公開する。そのカードが《華撃団》のキャラでないならこのカードの下にマーカーとして裏向きに置く。（そうなら元に戻す）\n\"本を探す時間も大切なんですよ\"",
+   "traits": [
+    "華撃団",
+    "本"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/skr_s73/skr_s73_034.png",
+   "variant": ""
+  },
+  {
+   "num": "SKR/S73-035",
+   "name": "“上海華撃団・五神龍”隊長 シャオロン",
+   "type": "Character",
+   "rarity": "U",
+   "color": "green",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたのクロック置場に「神龍軒の看板娘 ユイ」があるなら、あなたの手札のこのカードのレベルを－1。\n【自】［手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分のクロックの下から1枚を、ストック置場に置く。\n\"全身全霊でこい！<br>瞬きする間にほふってやるっ！\"",
+   "traits": [
+    "華撃団",
+    "上海"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/skr_s73/skr_s73_035.png",
+   "variant": ""
+  },
+  {
+   "num": "SKR/S73-036",
+   "name": "特別な一日 クラリス",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から1枚を公開する。そのカードが《華撃団》のキャラかイベントなら手札に加え、あなたは自分の手札を1枚選び、控え室に置く。（そうでないなら元に戻す）\n【自】 このカードがアタックした時、あなたは他の自分のキャラを1枚選び、そのターン中、パワーを＋Ｘ。Ｘはそのキャラのソウル×1000に等しい。\n\"う～ん、どの本を読むか迷っちゃいます\"",
+   "traits": [
+    "華撃団",
+    "本"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/skr_s73/skr_s73_036.png",
+   "variant": ""
+  },
+  {
+   "num": "SKR/S73-037",
+   "name": "神龍軒の看板娘 ユイ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの前列の中央の枠のキャラに、パワーを＋500。\n【自】［(1)］ あなたのクライマックスがクライマックス置場に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を上から4枚まで見て、《伯林》か《上海》か《倫敦》のキャラを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。\n\"ニイーハァオ♪ さっそくお店にごあんなーい！\"",
+   "traits": [
+    "華撃団",
+    "上海"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/skr_s73/skr_s73_037.png",
+   "variant": ""
+  },
+  {
+   "num": "SKR/S73-038",
+   "name": "舞台女優 初穂&クラリス",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのターン中、このカードのパワーを＋1000。\n【自】 このカードがアタックした時、あなたは自分の《華撃団》のキャラを1枚選び、そのターン中、レベルを＋1し、パワーを＋1000。\n\"-\"",
+   "traits": [
+    "華撃団"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/skr_s73/skr_s73_038.png",
+   "variant": ""
+  },
+  {
+   "num": "SKR/S73-039",
+   "name": "お姫様抱っこ 神山",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの「お姫様抱っこ クラリス」すべてに、パワーを＋500し、『【自】 アンコール ［手札のキャラを1枚控え室に置く］』を与える。\n【自】 絆／「お姫様抱っこ クラリス」 ［手札を1枚控え室に置く］ （このカードがプレイされて舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「お姫様抱っこ クラリス」を1枚選び、手札に戻す）\n\"なんだか……ちょっと照れるな……\"",
+   "traits": [
+    "華撃団",
+    "剣術"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/skr_s73/skr_s73_039.png",
+   "variant": ""
+  },
+  {
+   "num": "SKR/S73-040",
+   "name": "興味深々 エリス",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "1",
+   "cost": "1",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 あなたがこのカードの『助太刀』を使った時、あなたは自分の山札の上から3枚を、控え室に置く。\n【起】【カウンター】 助太刀2000 レベル1 ［(1) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋2000）\n\"歌舞伎はいいものだ……奥が深い。堪能したぞ\"",
+   "traits": [
+    "華撃団",
+    "伯林"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/skr_s73/skr_s73_040.png",
+   "variant": ""
+  },
+  {
+   "num": "SKR/S73-041",
+   "name": "お姫様抱っこ クラリス",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "1",
+   "cost": "1",
+   "power": "7000",
+   "soul": 1,
+   "trigger": "",
+   "text": "-\n\"ふふっ、恥ずかしかったですね！\"",
+   "traits": [
+    "華撃団",
+    "本"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/skr_s73/skr_s73_041.png",
+   "variant": ""
+  },
+  {
+   "num": "SKR/S73-042",
+   "name": "“伯林華撃団・シュヴァルツシュテルン”隊長 エリス",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "2",
+   "cost": "1",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋Ｘ。Ｘはそのキャラのレベル×500に等しい。\n【自】 このカードが手札から舞台に置かれた時、あなたは1枚引いてよい。そうしたら、あなたは自分の手札を1枚選び、控え室に置く。\n\"無用だ。３秒で片付ける\"",
+   "traits": [
+    "華撃団",
+    "伯林"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/skr_s73/skr_s73_042.png",
+   "variant": ""
+  },
+  {
+   "num": "SKR/S73-043",
+   "name": "見つめてクラリス",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "2",
+   "cost": "1",
+   "power": "7000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが【リバース】した時、このカードのバトル相手のレベルが相手のレベルより高いなら、あなたは相手のクロックの上から1枚を、控え室に置いてよい。そうしたら、あなたはそのキャラをクロック置場に置く。\n\"ふふっ、今日はどんな本を読もうかな\"",
+   "traits": [
+    "華撃団",
+    "本"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/skr_s73/skr_s73_043.png",
+   "variant": ""
+  },
+  {
+   "num": "SKR/S73-044",
+   "name": "こいこい！",
+   "type": "Event",
+   "rarity": "U",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "あなたは自分の山札をシャッフルし、自分の山札の上から1枚を公開する。そのカードがあなたの舞台にいるキャラと同じカード名のキャラなら、あなたは自分の山札を見て《華撃団》のキャラを2枚まで選んで相手に見せ、手札に加え、その山札をシャッフルし、自分のキャラを1枚選び、そのターン中、パワーを＋3000。（公開したカードは元に戻す）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/skr_s73/skr_s73_044.png",
+   "variant": ""
+  },
+  {
+   "num": "SKR/S73-045",
+   "name": "今日は……月が綺麗だね",
+   "type": "Climax",
+   "rarity": "CR",
+   "color": "green",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[treasure.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[treasure.gif]]：このカードがトリガーした時、あなたはこのカードを手札に戻す。あなたは自分の山札の上から1枚を、ストック置場に置いてよい）\n\"いっけえええええええ!!!!\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/skr_s73/skr_s73_045.png",
+   "variant": ""
+  },
+  {
+   "num": "SKR/S73-045R",
+   "name": "今日は……月が綺麗だね",
+   "type": "Climax",
+   "rarity": "RRR",
+   "color": "green",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[treasure.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[treasure.gif]]：このカードがトリガーした時、あなたはこのカードを手札に戻す。あなたは自分の山札の上から1枚を、ストック置場に置いてよい）\n\"い、いえ……そちらこそお先に……\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/skr_s73/skr_s73_045r.png",
+   "variant": ""
+  },
+  {
+   "num": "SKR/S73-046",
+   "name": "Arbitre d'enfer",
+   "type": "Climax",
+   "rarity": "CC",
+   "color": "green",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[stock.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[stock.gif]]：このカードがトリガーした時、あなたは自分の山札の上から1枚を、ストック置場に置いてよい）\n\"Arbitre d'enfer！<br>(ルビ：アルビトル・ダンフェール)\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/skr_s73/skr_s73_046.png",
+   "variant": ""
+  },
+  {
+   "num": "SKR/S73-047",
+   "name": "世界華撃団大戦",
+   "type": "Climax",
+   "rarity": "CC",
+   "color": "green",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[treasure.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[treasure.gif]]：このカードがトリガーした時、あなたはこのカードを手札に戻す。あなたは自分の山札の上から1枚を、ストック置場に置いてよい）\n\"アナウンサー「会場で、そして中継でご覧のみなさま、お待たせしました！<br>２年に一度の平和の祭典……」\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/skr_s73/skr_s73_047.png",
+   "variant": ""
+  },
+  {
+   "num": "SKR/S73-047R",
+   "name": "世界華撃団大戦",
+   "type": "Climax",
+   "rarity": "RRR",
+   "color": "green",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[treasure.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[treasure.gif]]：このカードがトリガーした時、あなたはこのカードを手札に戻す。あなたは自分の山札の上から1枚を、ストック置場に置いてよい）\n\"アナウンサー「華撃団競技会。通称「世界華撃団大戦」がいよいよここ、帝都で幕を上げます!!」\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/skr_s73/skr_s73_047r.png",
+   "variant": ""
+  },
+  {
+   "num": "SKR/S73-048",
+   "name": "勇気をもらうさくら",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 バトル中のこのカードが【リバース】した時、あなたは自分の山札の上から3枚までを、公開してよい。1枚以上公開したなら、あなたはそれらのカードの《華撃団》のキャラを1枚まで選び、手札に加え、残りのカードを控え室に置き、自分の手札を1枚選び、控え室に置く。\n\"不思議です。<br>こうしていると……不安が消えていくみたい\"",
+   "traits": [
+    "華撃団",
+    "剣術"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/skr_s73/skr_s73_048.png",
+   "variant": ""
+  },
+  {
+   "num": "SKR/S73-048S",
+   "name": "勇気をもらうさくら",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 バトル中のこのカードが【リバース】した時、あなたは自分の山札の上から3枚までを、公開してよい。1枚以上公開したなら、あなたはそれらのカードの《華撃団》のキャラを1枚まで選び、手札に加え、残りのカードを控え室に置き、自分の手札を1枚選び、控え室に置く。\n\"誠十郎さんのおかげで、勇気が湧いてきました\"",
+   "traits": [
+    "華撃団",
+    "剣術"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/skr_s73/skr_s73_048s.png",
+   "variant": ""
+  },
+  {
+   "num": "SKR/S73-049",
+   "name": "帝劇の元気印 初穂",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】【CXコンボ】 あなたのアンコールステップの始めに、クライマックス置場に「東雲神社の御神楽ハンマー！」があり、前列にこのカードがいて、あなたのストックが5枚以下で、このカードの正面のキャラがいないか【リバース】しているなら、あなたは自分の控え室の《華撃団》のキャラを1枚選び、手札に戻してよい。\n\"は～、さっぱりだぜ！気持ちい～！\"",
+   "traits": [
+    "華撃団",
+    "巫女"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/skr_s73/skr_s73_049.png",
+   "variant": ""
+  },
+  {
+   "num": "SKR/S73-049S",
+   "name": "帝劇の元気印 初穂",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】【CXコンボ】 あなたのアンコールステップの始めに、クライマックス置場に「東雲神社の御神楽ハンマー！」があり、前列にこのカードがいて、あなたのストックが5枚以下で、このカードの正面のキャラがいないか【リバース】しているなら、あなたは自分の控え室の《華撃団》のキャラを1枚選び、手札に戻してよい。\n\"へへっどんなもんでぃ！\"",
+   "traits": [
+    "華撃団",
+    "巫女"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/skr_s73/skr_s73_049s.png",
+   "variant": ""
+  },
+  {
+   "num": "SKR/S73-050",
+   "name": "正義の為に さくら",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n【自】【CXコンボ】 経験 ［(2) 手札を2枚控え室に置く］ あなたのクライマックス置場に「天剣・千本桜」が置かれた時、前列にこのカードがいて、他のあなたの《華撃団》のキャラがいるなら、あなたはコストを払ってよい。そうしたら、次の効果を好きな順番で1回ずつ行う。『相手に1ダメージを与える。』『相手にＸダメージを与える。Ｘはあなたのレベル置場のレベル3以上のカードの枚数に等しい。』（クライマックスのレベルは0として扱う。ダメージキャンセルは発生する）\n\"わたしは今、あなたを……自分の弱い心を斬る!!\"",
+   "traits": [
+    "華撃団",
+    "剣術"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/skr_s73/skr_s73_050.png",
+   "variant": ""
+  },
+  {
+   "num": "SKR/S73-050SP",
+   "name": "正義の為に さくら",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n【自】【CXコンボ】 経験 ［(2) 手札を2枚控え室に置く］ あなたのクライマックス置場に「天剣・千本桜」が置かれた時、前列にこのカードがいて、他のあなたの《華撃団》のキャラがいるなら、あなたはコストを払ってよい。そうしたら、次の効果を好きな順番で1回ずつ行う。『相手に1ダメージを与える。』『相手にＸダメージを与える。Ｘはあなたのレベル置場のレベル3以上のカードの枚数に等しい。』（クライマックスのレベルは0として扱う。ダメージキャンセルは発生する）\n\"-\"",
+   "traits": [
+    "華撃団",
+    "剣術"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/skr_s73/skr_s73_050sp.png",
+   "variant": ""
+  },
+  {
+   "num": "SKR/S73-051",
+   "name": "嵐を呼ぶ乙女 初穂",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたの控え室のクライマックスが2枚以下なら、あなたの手札のこのカードのレベルを－1。\n【永】 あなたのターン中、あなたのキャラすべてが《華撃団》なら、このカードのパワーを＋2000。\n【自】 このカードが手札から舞台に置かれた時、あなたは2枚まで引き、自分の手札を2枚選び、控え室に置き、自分の山札の上から1枚までを、ストック置場に置く。\n\"へへん、ケンカと祭りならアタシの出番だぜ？\"",
+   "traits": [
+    "華撃団",
+    "巫女"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/skr_s73/skr_s73_051.png",
+   "variant": ""
+  },
+  {
+   "num": "SKR/S73-051SP",
+   "name": "嵐を呼ぶ乙女 初穂",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたの控え室のクライマックスが2枚以下なら、あなたの手札のこのカードのレベルを－1。\n【永】 あなたのターン中、あなたのキャラすべてが《華撃団》なら、このカードのパワーを＋2000。\n【自】 このカードが手札から舞台に置かれた時、あなたは2枚まで引き、自分の手札を2枚選び、控え室に置き、自分の山札の上から1枚までを、ストック置場に置く。\n\"-\"",
+   "traits": [
+    "華撃団",
+    "巫女"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/skr_s73/skr_s73_051sp.png",
+   "variant": ""
+  },
+  {
+   "num": "SKR/S73-052",
+   "name": "蒼天に咲く剣 さくら",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの《華撃団》のキャラすべてに、パワーを＋500。\n【起】［(1) このカードを【レスト】する］ あなたは自分の山札を上から2枚まで見て、レベル1以上のカードを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。（クライマックスのレベルは0として扱う）\n\"天剣、ここにあり！\"",
+   "traits": [
+    "華撃団",
+    "剣術"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/skr_s73/skr_s73_052.png",
+   "variant": ""
+  },
+  {
+   "num": "SKR/S73-052S",
+   "name": "蒼天に咲く剣 さくら",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの《華撃団》のキャラすべてに、パワーを＋500。\n【起】［(1) このカードを【レスト】する］ あなたは自分の山札を上から2枚まで見て、レベル1以上のカードを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。（クライマックスのレベルは0として扱う）\n\"蒼天に咲く花よ……敵を討て！\"",
+   "traits": [
+    "華撃団",
+    "剣術"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/skr_s73/skr_s73_052s.png",
+   "variant": ""
+  },
+  {
+   "num": "SKR/S73-053",
+   "name": "魂の一撃 初穂",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの《華撃団》のキャラすべてに、パワーを＋500。\n【起】［このカードを【レスト】する］ あなたは自分の《華撃団》のキャラを1枚選び、次の相手のターンの終わりまで、パワーを＋500。\n\"一気に行くぜぇ！\"",
+   "traits": [
+    "華撃団",
+    "巫女"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/skr_s73/skr_s73_053.png",
+   "variant": ""
+  },
+  {
+   "num": "SKR/S73-053S",
+   "name": "魂の一撃 初穂",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの《華撃団》のキャラすべてに、パワーを＋500。\n【起】［このカードを【レスト】する］ あなたは自分の《華撃団》のキャラを1枚選び、次の相手のターンの終わりまで、パワーを＋500。\n\"おとといきやがれってんだ！\"",
+   "traits": [
+    "華撃団",
+    "巫女"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/skr_s73/skr_s73_053s.png",
+   "variant": ""
+  },
+  {
+   "num": "SKR/S73-054",
+   "name": "さくらの相棒“霊子甲冑・三式光武”",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の控え室の「蒼天に咲く剣 さくら」を1枚選び、このカードの下にマーカーとして表向きに置いてよい。\n【自】 このカードがアタックした時、このカードの下にマーカーがあるなら、そのターン中、このカードのパワーを＋Ｘ。Ｘは相手のキャラの枚数×500に等しい。\n【自】［(1) このカードを思い出にする］ バトル中のこのカードが【リバース】した時、このカードの下にマーカーがあるなら、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の、「正義の為に さくら」か「“霊子戦闘機・試製桜武”」を1枚選び、手札に戻す。\n\"さくら「この剣で、平和を切り開く！」\"",
+   "traits": [
+    "華撃団",
+    "剣術"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/skr_s73/skr_s73_054.png",
+   "variant": ""
+  },
+  {
+   "num": "SKR/S73-054S",
+   "name": "さくらの相棒“霊子甲冑・三式光武”",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の控え室の「蒼天に咲く剣 さくら」を1枚選び、このカードの下にマーカーとして表向きに置いてよい。\n【自】 このカードがアタックした時、このカードの下にマーカーがあるなら、そのターン中、このカードのパワーを＋Ｘ。Ｘは相手のキャラの枚数×500に等しい。\n【自】［(1) このカードを思い出にする］ バトル中のこのカードが【リバース】した時、このカードの下にマーカーがあるなら、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の、「正義の為に さくら」か「“霊子戦闘機・試製桜武”」を1枚選び、手札に戻す。\n\"天宮さくら、参ります!!\"",
+   "traits": [
+    "華撃団",
+    "剣術"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/skr_s73/skr_s73_054s.png",
+   "variant": ""
+  },
+  {
+   "num": "SKR/S73-055",
+   "name": "“霊子戦闘機・無限”初穂機",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】［(1) あなたの控え室の「魂の一撃 初穂」を1枚このカードの下にマーカーとして表向きに置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見てクライマックスを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n【自】 このカードが【リバース】した時、このカードのバトル相手のレベルが相手のレベルより高いなら、あなたはそのキャラを【リバース】してよい。\n\"見せてやるぜ、初穂ちゃんの本気をよお！\"",
+   "traits": [
+    "華撃団",
+    "巫女"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/skr_s73/skr_s73_055.png",
+   "variant": ""
+  },
+  {
+   "num": "SKR/S73-055TGR",
+   "name": "“霊子戦闘機・無限”初穂機",
+   "type": "Character",
+   "rarity": "TGR",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】［(1) あなたの控え室の「魂の一撃 初穂」を1枚このカードの下にマーカーとして表向きに置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見てクライマックスを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n【自】 このカードが【リバース】した時、このカードのバトル相手のレベルが相手のレベルより高いなら、あなたはそのキャラを【リバース】してよい。\n\"-\"",
+   "traits": [
+    "華撃団",
+    "巫女"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/skr_s73/skr_s73_055tgr.png",
+   "variant": ""
+  },
+  {
+   "num": "SKR/S73-056",
+   "name": "“帝国華撃団・花組隊長” 神山",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 このカードは、色条件を満たさずに手札からプレイできる。\n【永】 あなたの《華撃団》のキャラが4枚以上なら、あなたの手札のこのカードのレベルを－1。\n【永】 他のあなたの《華撃団》のキャラすべてに、パワーを＋1000。\n【自】 あなたのクライマックスがクライマックス置場に置かれた時、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋1000。\n\"了解しました!!<br>若輩の身ではありますが、精一杯務めます！\"",
+   "traits": [
+    "華撃団",
+    "剣術"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/skr_s73/skr_s73_056.png",
+   "variant": ""
+  },
+  {
+   "num": "SKR/S73-057",
+   "name": "“霊子戦闘機・試製桜武”",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "9000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 経験 あなたのレベル置場に「“霊子戦闘機・試製桜武”」があるなら、あなたの手札のこのカードのレベルを－1。\n【自】［あなたの控え室の「蒼天に咲く剣 さくら」を1枚このカードの下にマーカーとして表向きに置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、相手に1ダメージを与える。（ダメージキャンセルは発生する）\n\"一緒に行こう……桜武！<br>限界の、その先まで!!\"",
+   "traits": [
+    "華撃団",
+    "剣術"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/skr_s73/skr_s73_057.png",
+   "variant": ""
+  },
+  {
+   "num": "SKR/S73-057TGR",
+   "name": "“霊子戦闘機・試製桜武”",
+   "type": "Character",
+   "rarity": "TGR",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "9000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 経験 あなたのレベル置場に「“霊子戦闘機・試製桜武”」があるなら、あなたの手札のこのカードのレベルを－1。\n【自】［あなたの控え室の「蒼天に咲く剣 さくら」を1枚このカードの下にマーカーとして表向きに置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、相手に1ダメージを与える。（ダメージキャンセルは発生する）\n\"-\"",
+   "traits": [
+    "華撃団",
+    "剣術"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/skr_s73/skr_s73_057tgr.png",
+   "variant": ""
+  },
+  {
+   "num": "SKR/S73-058",
+   "name": "祭りだオイサー！ 初穂",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは2枚まで引き、自分の手札を1枚選び、控え室に置く。\n【自】【CXコンボ】［(2)］ このカードがアタックした時、クライマックス置場に「乱れ太鼓!!祭りだオイサー!!」があり、他のあなたの「“帝国華撃団・花組隊長” 神山」がいるなら、あなたはコストを払ってよい。そうしたら、そのターン中、このカードのパワーを＋2000し、あなたのキャラすべてに、そのターン中、次の能力を与える。『【自】 このカードのバトル相手が【リバース】した時、あなたは自分の山札の上から1枚を公開する。そのカードがレベル1以上のキャラなら手札に加え、相手に1ダメージを与える。』（そうでないなら元に戻す。ダメージキャンセルは発生する）\n\"乱れ太鼓!!祭りだオイサー!!\"",
+   "traits": [
+    "華撃団",
+    "巫女"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/skr_s73/skr_s73_058.png",
+   "variant": ""
+  },
+  {
+   "num": "SKR/S73-059",
+   "name": "腹ペコ初穂",
+   "type": "Character",
+   "rarity": "U",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から2枚を、控え室に置く。それらのカードにクライマックスがあるなら、そのターン中、このカードのパワーを＋3000。\n【自】 このカードが【リバース】した時、このカードのバトル相手のレベルが0以下なら、あなたはそのキャラを【リバース】してよい。\n\"おはぎか……桜もち、……う～～ん\"",
+   "traits": [
+    "華撃団",
+    "巫女"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/skr_s73/skr_s73_059.png",
+   "variant": ""
+  },
+  {
+   "num": "SKR/S73-060",
+   "name": "帝劇にようこそ！ さくら",
+   "type": "Character",
+   "rarity": "U",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは他の自分のカード名に「さくら」を含むキャラを1枚選び、そのターン中、パワーを＋2000。\n【起】［(1) このカードを控え室に置く］ あなたは自分の山札を上から4枚まで見て、《華撃団》のキャラを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。\n\"……ようこそ、大帝国劇場へ！\"",
+   "traits": [
+    "華撃団",
+    "剣術"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/skr_s73/skr_s73_060.png",
+   "variant": ""
+  },
+  {
+   "num": "SKR/S73-061",
+   "name": "特別な一日 さくら",
+   "type": "Character",
+   "rarity": "U",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1) 手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見て《華撃団》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n【自】 このカードがアタックした時、あなたは自分の山札を上から1枚見て、山札の上か控え室に置く。\n\"ふわぁ～……\"",
+   "traits": [
+    "華撃団",
+    "剣術"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/skr_s73/skr_s73_061.png",
+   "variant": ""
+  },
+  {
+   "num": "SKR/S73-062",
+   "name": "笑顔の為に 初穂",
+   "type": "Character",
+   "rarity": "U",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 あなたがこのカードの『助太刀』を使った時、あなたの《華撃団》のキャラがいるなら、あなたは自分のバトル中のキャラを1枚選び、そのターン中、パワーを＋1000。\n【起】【カウンター】 助太刀1000 レベル1 ［手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋1000）\n\"アタシは、みんなの笑顔が大好きだから……！\"",
+   "traits": [
+    "華撃団",
+    "巫女"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/skr_s73/skr_s73_062.png",
+   "variant": ""
+  },
+  {
+   "num": "SKR/S73-062S",
+   "name": "笑顔の為に 初穂",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 あなたがこのカードの『助太刀』を使った時、あなたの《華撃団》のキャラがいるなら、あなたは自分のバトル中のキャラを1枚選び、そのターン中、パワーを＋1000。\n【起】【カウンター】 助太刀1000 レベル1 ［手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋1000）\n\"おう！<br>初穂ちゃんにまかせとけ!!\"",
+   "traits": [
+    "華撃団",
+    "巫女"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/skr_s73/skr_s73_062s.png",
+   "variant": ""
+  },
+  {
+   "num": "SKR/S73-063",
+   "name": "日々鍛錬！ さくら",
+   "type": "Character",
+   "rarity": "U",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】［手札を2枚控え室に置く］ あなたがこのカードの『助太刀』を使った時、あなたはコストを払ってよい。そうしたら、あなたは相手の、レベルが相手のレベルより高いキャラを1枚選び、控え室に置く。\n【起】【カウンター】 助太刀2500 レベル2 ［(1) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋2500）\n\"はっ！ やっ！ てやっ！ はぁ！ ……ふうっ\"",
+   "traits": [
+    "華撃団",
+    "剣術"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/skr_s73/skr_s73_063.png",
+   "variant": ""
+  },
+  {
+   "num": "SKR/S73-064",
+   "name": "臨戦態勢 さくら",
+   "type": "Character",
+   "rarity": "U",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "7500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたのターン中、他のあなたの《華撃団》のキャラ1枚につき、このカードのパワーを＋500。\n【自】【CXコンボ】 このカードのバトル相手が【リバース】した時、あなたのクライマックス置場に「運命の……出会い」があり、他のあなたの「“帝国華撃団・花組隊長” 神山」がいるなら、あなたは自分の控え室の《華撃団》のキャラを1枚まで選び、ストック置場に置き、自分の山札を見て《華撃団》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルし、自分のキャラを1枚選び、そのターン中、パワーを＋2000。\n\"信じてます。一緒に……戦いましょう！\"",
+   "traits": [
+    "華撃団",
+    "剣術"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/skr_s73/skr_s73_064.png",
+   "variant": ""
+  },
+  {
+   "num": "SKR/S73-065",
+   "name": "歌劇“ももたろう”初穂",
+   "type": "Character",
+   "rarity": "U",
+   "color": "red",
+   "level": "2",
+   "cost": "2",
+   "power": "7000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの《華撃団》のキャラ1枚につき、このカードのパワーを＋1000。\n\"お前ごときの力で、何ができる！\"",
+   "traits": [
+    "華撃団",
+    "巫女"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/skr_s73/skr_s73_065.png",
+   "variant": ""
+  },
+  {
+   "num": "SKR/S73-066",
+   "name": "想いをぶつけるさくら",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの「親友への想い 初穂」すべてに、パワーを＋1000。\n【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋500。\n\"なによ！<br>わたしの家でなにやってたって、勝手でしょ!!\"",
+   "traits": [
+    "華撃団",
+    "剣術"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/skr_s73/skr_s73_066.png",
+   "variant": ""
+  },
+  {
+   "num": "SKR/S73-067",
+   "name": "親友への想い 初穂",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードのバトル相手が【リバース】した時、あなたは他の自分の赤のキャラを1枚選び、【レスト】し、後列のキャラのいない枠に動かす。\n\"この、わからずやがあぁぁぁっ！\"",
+   "traits": [
+    "華撃団",
+    "巫女"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/skr_s73/skr_s73_067.png",
+   "variant": ""
+  },
+  {
+   "num": "SKR/S73-068",
+   "name": "桜舞う街角 さくら",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、他のあなたの《華撃団》のキャラが2枚以上なら、あなたは1枚引いてよい。そうしたら、あなたは自分の手札を1枚選び、控え室に置く。\n【自】［(2)］ このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見て《華撃団》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"ふふっ、さくらがキレイですね！\"",
+   "traits": [
+    "華撃団",
+    "剣術"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/skr_s73/skr_s73_068.png",
+   "variant": ""
+  },
+  {
+   "num": "SKR/S73-069",
+   "name": "舞台稽古 さくら",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "6500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは相手の前列のキャラを1枚選び、次の相手のターンの終わりまで、パワーを＋1000。\n\"やっほー！ 聞こえますかー⁉\"",
+   "traits": [
+    "華撃団",
+    "剣術"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/skr_s73/skr_s73_069.png",
+   "variant": ""
+  },
+  {
+   "num": "SKR/S73-070",
+   "name": "特別な一日 初穂",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "1",
+   "cost": "1",
+   "power": "6000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードがアタックした時、他のあなたの《華撃団》のキャラが2枚以上なら、そのターン中、このカードのパワーを＋2000。\n【自】 アンコール ［手札のキャラを1枚控え室に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"もっと良いとこ撮ってくれよな～\"",
+   "traits": [
+    "華撃団",
+    "巫女"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/skr_s73/skr_s73_070.png",
+   "variant": ""
+  },
+  {
+   "num": "SKR/S73-071",
+   "name": "帝都に現れた災禍 夜叉",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、相手の前列のキャラすべてに、そのターン中、パワーを－1500。\n【自】［(1)］ このカードがアタックした時、あなたはコストを払ってよい。そうしたら、そのアタック中、あなたはトリガーステップにトリガーチェックを2回行う。\n\"我が名は夜叉。封印の鍵である、「帝鍵」を差し出しなさい\"",
+   "traits": [
+    "謎"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/skr_s73/skr_s73_071.png",
+   "variant": ""
+  },
+  {
+   "num": "SKR/S73-072",
+   "name": "体が勝手に",
+   "type": "Event",
+   "rarity": "U",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "あなたは相手の山札を上から2枚まで見てカードを2枚まで選び、山札の上に好きな順番で置き、残りのカードを控え室に置き、自分の山札を上から2枚まで見てカードを2枚まで選び、山札の上に好きな順番で置き、残りのカードを控え室に置く。\n\"……手、手が勝手に!?<br>いけないことだって、わかっているのに……！\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/skr_s73/skr_s73_072.png",
+   "variant": ""
+  },
+  {
+   "num": "SKR/S73-073",
+   "name": "天剣・千本桜",
+   "type": "Climax",
+   "rarity": "CR",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[salvage.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[salvage.gif]]：このカードがトリガーした時、あなたは自分の控え室のキャラを1枚選び、手札に戻してよい）\n\"天剣・千本桜！\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/skr_s73/skr_s73_073.png",
+   "variant": ""
+  },
+  {
+   "num": "SKR/S73-073R",
+   "name": "天剣・千本桜",
+   "type": "Climax",
+   "rarity": "RRR",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[salvage.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[salvage.gif]]：このカードがトリガーした時、あなたは自分の控え室のキャラを1枚選び、手札に戻してよい）\n\"蒼き空を駆ける……千の衝撃！\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/skr_s73/skr_s73_073r.png",
+   "variant": ""
+  },
+  {
+   "num": "SKR/S73-074",
+   "name": "東雲神社の御神楽ハンマー！",
+   "type": "Climax",
+   "rarity": "CC",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[standby.gif]]",
+   "text": "【自】 このカードが手札からクライマックス置場に置かれた時、[[standby.gif]]の効果を行う。\n（[[standby.gif]]：このカードがトリガーした時、あなたは自分の控え室の自分のレベル＋1以下のレベルのキャラを1枚選び、舞台の好きな枠に【レスト】して置いてよい）\n\"東雲神社の御神楽ハンマー！\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/skr_s73/skr_s73_074.png",
+   "variant": ""
+  },
+  {
+   "num": "SKR/S73-074R",
+   "name": "東雲神社の御神楽ハンマー！",
+   "type": "Climax",
+   "rarity": "RRR",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[standby.gif]]",
+   "text": "【自】 このカードが手札からクライマックス置場に置かれた時、[[standby.gif]]の効果を行う。\n（[[standby.gif]]：このカードがトリガーした時、あなたは自分の控え室の自分のレベル＋1以下のレベルのキャラを1枚選び、舞台の好きな枠に【レスト】して置いてよい）\n\"悪いヤツには……神罰てきめん！\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/skr_s73/skr_s73_074r.png",
+   "variant": ""
+  },
+  {
+   "num": "SKR/S73-075",
+   "name": "乱れ太鼓!!祭りだオイサー!!",
+   "type": "Climax",
+   "rarity": "CC",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[standby.gif]]",
+   "text": "【自】 このカードが手札からクライマックス置場に置かれた時、[[standby.gif]]の効果を行う。\n（[[standby.gif]]：このカードがトリガーした時、あなたは自分の控え室の自分のレベル＋1以下のレベルのキャラを1枚選び、舞台の好きな枠に【レスト】して置いてよい）\n\"いっけえええええええ!!!!\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/skr_s73/skr_s73_075.png",
+   "variant": ""
+  },
+  {
+   "num": "SKR/S73-076",
+   "name": "運命の……出会い",
+   "type": "Climax",
+   "rarity": "CC",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[salvage.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[salvage.gif]]：このカードがトリガーした時、あなたは自分の控え室のキャラを1枚選び、手札に戻してよい）\n\"いっけえええええええ!!!!\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/skr_s73/skr_s73_076.png",
+   "variant": ""
+  },
+  {
+   "num": "SKR/S73-077",
+   "name": "帝国華撃団総司令 すみれ",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から2枚を、控え室に置く。それらのカードにクライマックスがあるなら、あなたは自分の控え室の《華撃団》のキャラを1枚まで選び、ストック置場に置く。\n【自】［(1) あなたの山札の上から1枚をクロック置場に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室のレベル1以下のキャラを1枚選び、手札に戻す。\n\"あなたに……帝国華撃団・花組の隊長になってもらいたいの\"",
+   "traits": [
+    "華撃団",
+    "扇子"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/skr_s73/skr_s73_077.png",
+   "variant": ""
+  },
+  {
+   "num": "SKR/S73-077SP",
+   "name": "帝国華撃団総司令 すみれ",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から2枚を、控え室に置く。それらのカードにクライマックスがあるなら、あなたは自分の控え室の《華撃団》のキャラを1枚まで選び、ストック置場に置く。\n【自】［(1) あなたの山札の上から1枚をクロック置場に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室のレベル1以下のキャラを1枚選び、手札に戻す。\n\"-\"",
+   "traits": [
+    "華撃団",
+    "扇子"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/skr_s73/skr_s73_077sp.png",
+   "variant": ""
+  },
+  {
+   "num": "SKR/S73-078",
+   "name": "トップスタァの生き様 アナスタシア",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、他のあなたの《華撃団》のキャラがいるなら、次の相手のターンの終わりまで、このカードのパワーを＋1000。\n【自】【CXコンボ】 このカードがアタックした時、クライマックス置場に「απόλυτο μηδέν」があり、あなたの手札が6枚以下なら、あなたは自分の山札を上から3枚まで見て、《華撃団》のキャラを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。\n\"人の運命は……<br>星の輝きのように儚い\"",
+   "traits": [
+    "華撃団",
+    "星"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/skr_s73/skr_s73_078.png",
+   "variant": ""
+  },
+  {
+   "num": "SKR/S73-078SP",
+   "name": "トップスタァの生き様 アナスタシア",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、他のあなたの《華撃団》のキャラがいるなら、次の相手のターンの終わりまで、このカードのパワーを＋1000。\n【自】【CXコンボ】 このカードがアタックした時、クライマックス置場に「απόλυτο μηδέν」があり、あなたの手札が6枚以下なら、あなたは自分の山札を上から3枚まで見て、《華撃団》のキャラを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。\n\"-\"",
+   "traits": [
+    "華撃団",
+    "星"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/skr_s73/skr_s73_078sp.png",
+   "variant": ""
+  },
+  {
+   "num": "SKR/S73-079",
+   "name": "秘密の約束 アナスタシア",
+   "type": "Character",
+   "rarity": "R",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの前列の中央の枠のカード名に「さくら」を含むキャラに、レベルを＋1し、パワーを＋500。\n【起】 集中 ［(1) このカードを【レスト】する］ あなたは自分の山札の上から4枚をめくり、控え室に置く。それらのカードのクライマックス1枚につき、あなたは自分の山札を見て《華撃団》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"ダーメ♪ ナイショよ……フフッ\"",
+   "traits": [
+    "華撃団",
+    "星"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/skr_s73/skr_s73_079.png",
+   "variant": ""
+  },
+  {
+   "num": "SKR/S73-080",
+   "name": "“霊子戦闘機・無限”神山機",
+   "type": "Character",
+   "rarity": "R",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードがアタックした時、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋1000。\n【自】［(1)］ このカードがアタックした時、あなたはコストを払ってよい。そうしたら、そのアタック中、あなたはトリガーステップにトリガーチェックを2回行う。\n\"神山誠十郎、霊子戦闘機「無限」で出撃します！\"",
+   "traits": [
+    "華撃団",
+    "剣術"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/skr_s73/skr_s73_080.png",
+   "variant": ""
+  },
+  {
+   "num": "SKR/S73-080TGR",
+   "name": "“霊子戦闘機・無限”神山機",
+   "type": "Character",
+   "rarity": "TGR",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードがアタックした時、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋1000。\n【自】［(1)］ このカードがアタックした時、あなたはコストを払ってよい。そうしたら、そのアタック中、あなたはトリガーステップにトリガーチェックを2回行う。\n\"-\"",
+   "traits": [
+    "華撃団",
+    "剣術"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/skr_s73/skr_s73_080tgr.png",
+   "variant": ""
+  },
+  {
+   "num": "SKR/S73-081",
+   "name": "“霊子戦闘機・無限”アナスタシア機",
+   "type": "Character",
+   "rarity": "R",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 このカードはサイドアタックできない。\n【永】 このカードの下にマーカーがあるなら、このカードのレベルを＋1し、パワーを＋2500。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分の控え室の「撃ち抜く流星 アナスタシア」を1枚選び、このカードの下にマーカーとして表向きに置いてよい。\n\"戦場の主役は……私よ！\"",
+   "traits": [
+    "華撃団",
+    "星"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/skr_s73/skr_s73_081.png",
+   "variant": ""
+  },
+  {
+   "num": "SKR/S73-081TGR",
+   "name": "“霊子戦闘機・無限”アナスタシア機",
+   "type": "Character",
+   "rarity": "TGR",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 このカードはサイドアタックできない。\n【永】 このカードの下にマーカーがあるなら、このカードのレベルを＋1し、パワーを＋2500。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分の控え室の「撃ち抜く流星 アナスタシア」を1枚選び、このカードの下にマーカーとして表向きに置いてよい。\n\"-\"",
+   "traits": [
+    "華撃団",
+    "星"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/skr_s73/skr_s73_081tgr.png",
+   "variant": ""
+  },
+  {
+   "num": "SKR/S73-082",
+   "name": "特別な一日 アナスタシア",
+   "type": "Character",
+   "rarity": "R",
+   "color": "blue",
+   "level": "3",
+   "cost": "2",
+   "power": "7500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 応援 このカードの前のあなたの《華撃団》のキャラすべてに、パワーを＋2000。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札を上から3枚まで見て、カードを1枚まで選び、手札に加え、残りのカードを控え室に置く。\n【起】［あなたの《華撃団》のキャラを2枚【レスト】する］ あなたは自分のレベル置場のカードと控え室のカードを1枚ずつ選び、入れ替え、自分のキャラを1枚まで選び、そのターン中、レベルを＋1。\n\"星の導きは……私にどんな運命を運んでくるのかしら……\"",
+   "traits": [
+    "華撃団",
+    "星"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/skr_s73/skr_s73_082.png",
+   "variant": ""
+  },
+  {
+   "num": "SKR/S73-082S",
+   "name": "特別な一日 アナスタシア",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "3",
+   "cost": "2",
+   "power": "7500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 応援 このカードの前のあなたの《華撃団》のキャラすべてに、パワーを＋2000。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札を上から3枚まで見て、カードを1枚まで選び、手札に加え、残りのカードを控え室に置く。\n【起】［あなたの《華撃団》のキャラを2枚【レスト】する］ あなたは自分のレベル置場のカードと控え室のカードを1枚ずつ選び、入れ替え、自分のキャラを1枚まで選び、そのターン中、レベルを＋1。\n\"フフッ。<br>それじゃ、行きましょうか\"",
+   "traits": [
+    "華撃団",
+    "星"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/skr_s73/skr_s73_082s.png",
+   "variant": ""
+  },
+  {
+   "num": "SKR/S73-083",
+   "name": "出撃準備 アナスタシア",
+   "type": "Character",
+   "rarity": "R",
+   "color": "blue",
+   "level": "3",
+   "cost": "2",
+   "power": "8500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたの《華撃団》のキャラが4枚以上なら、あなたの手札のこのカードのレベルを－1。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n【自】［(2) あなたの【スタンド】している《華撃団》のキャラを1枚【レスト】する］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、相手は自分の控え室のクライマックスを1枚選び、そのカード以外の控え室のカードすべてを、山札に戻し、その山札をシャッフルする。\n\"こちらの腕も期待してもらって結構よ？\"",
+   "traits": [
+    "華撃団",
+    "星"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/skr_s73/skr_s73_083.png",
+   "variant": ""
+  },
+  {
+   "num": "SKR/S73-083S",
+   "name": "出撃準備 アナスタシア",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "3",
+   "cost": "2",
+   "power": "8500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたの《華撃団》のキャラが4枚以上なら、あなたの手札のこのカードのレベルを－1。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n【自】［(2) あなたの【スタンド】している《華撃団》のキャラを1枚【レスト】する］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、相手は自分の控え室のクライマックスを1枚選び、そのカード以外の控え室のカードすべてを、山札に戻し、その山札をシャッフルする。\n\"フフッ、最高の舞台だったわ。\"",
+   "traits": [
+    "華撃団",
+    "星"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/skr_s73/skr_s73_083s.png",
+   "variant": ""
+  },
+  {
+   "num": "SKR/S73-084",
+   "name": "伝説のトップスタァ すみれ",
+   "type": "Character",
+   "rarity": "U",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から2枚を、控え室に置く。それらのカードにクライマックスがあるなら、あなたは相手の前列のキャラを1枚選び、そのターン中、パワーを－1000。\n【自】 バトル中のこのカードが【リバース】した時、このカードのバトル相手のレベルが0以下なら、あなたはそのキャラを山札の下に置いてよい。\n\"ごきげんよう。<br>ファンの方々でいらっしゃるのね？\"",
+   "traits": [
+    "華撃団",
+    "扇子"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/skr_s73/skr_s73_084.png",
+   "variant": ""
+  },
+  {
+   "num": "SKR/S73-085",
+   "name": "演技指導 アナスタシア",
+   "type": "Character",
+   "rarity": "U",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの《華撃団》のキャラすべてに、パワーを＋500。\n【起】［あなたの《華撃団》のキャラを2枚【レスト】する］ あなたは自分のレベル置場のカードと控え室のカードを1枚ずつ選び、入れ替え、自分のキャラを1枚まで選び、そのターン中、レベルを＋1。\n\"それ本当？<br>課題を出してから、まだそんなに経ってないわよ？\"",
+   "traits": [
+    "華撃団",
+    "星"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/skr_s73/skr_s73_085.png",
+   "variant": ""
+  },
+  {
+   "num": "SKR/S73-086",
+   "name": "撃ち抜く流星 アナスタシア",
+   "type": "Character",
+   "rarity": "U",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札を上から1枚見て、山札の上か下に置く。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分の《華撃団》のキャラを1枚選び、そのターン中、パワーを＋1500。\n\"狙いは外さないわ……！\"",
+   "traits": [
+    "華撃団",
+    "星"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/skr_s73/skr_s73_086.png",
+   "variant": ""
+  },
+  {
+   "num": "SKR/S73-086S",
+   "name": "撃ち抜く流星 アナスタシア",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札を上から1枚見て、山札の上か下に置く。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分の《華撃団》のキャラを1枚選び、そのターン中、パワーを＋1500。\n\"星の導くままに！\"",
+   "traits": [
+    "華撃団",
+    "星"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/skr_s73/skr_s73_086s.png",
+   "variant": ""
+  },
+  {
+   "num": "SKR/S73-087",
+   "name": "希望に向かって伸びる花 アナスタシア",
+   "type": "Character",
+   "rarity": "U",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの《華撃団》のキャラが2枚以上なら、このカードのパワーを＋1000。\n【自】 相手のドローフェイズの始めに、あなたは自分の山札の上から1枚を公開する。そのカードのレベルが1以上なら、あなたはこのカードを手札に戻してよい。（クライマックスのレベルは0として扱う。公開したカードは元に戻す）\n\"フフッ、花組１３か条を見てたのね\"",
+   "traits": [
+    "華撃団",
+    "星"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/skr_s73/skr_s73_087.png",
+   "variant": ""
+  },
+  {
+   "num": "SKR/S73-088",
+   "name": "心配するアナスタシア",
+   "type": "Character",
+   "rarity": "U",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、次の効果を好きな順番で1回ずつ行う。『あなたは自分の手札の「“霊子戦闘機・試製桜武”」とレベル置場のカードを1枚ずつ選び、入れ替えてよい。』『あなたは自分のレベル置場のカードと控え室の「“霊子戦闘機・試製桜武”」を1枚ずつ選び、入れ替えてよい。』\n【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から2枚を、控え室に置く。それらのカードにクライマックスがあるなら、そのターン中、このカードのパワーを＋3000。\n\"キャプテン……<br>さくらの様子はどうだったの？\"",
+   "traits": [
+    "華撃団",
+    "星"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/skr_s73/skr_s73_088.png",
+   "variant": ""
+  },
+  {
+   "num": "SKR/S73-089",
+   "name": "二人だけの星空 アナスタシア",
+   "type": "Character",
+   "rarity": "U",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "8000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】【CXコンボ】［(1) 手札を1枚控え室に置く］ このカードのアタックの終わりに、クライマックス置場に「伝説の……星座たち……」があるなら、あなたはコストを払ってよい。そうしたら、あなたは自分の「“帝国華撃団・花組隊長” 神山」を1枚とこのカードを選び、それぞれを【レスト】して入れ替え、次の相手のターンの終わりまで、その「“帝国華撃団・花組隊長” 神山」のパワーを＋8000し、次の3つの能力を与える。『【永】 このカードは相手の効果に選ばれず、相手のキャラの【自】の効果によって【リバース】されない。』『【永】 大活躍』『【自】 このカードのバトル相手が【リバース】した時、あなたはそのキャラを思い出にしてよい。』\n\"アナスタシア「私を……守ってくれているみたい……」\"",
+   "traits": [
+    "華撃団",
+    "星"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/skr_s73/skr_s73_089.png",
+   "variant": ""
+  },
+  {
+   "num": "SKR/S73-090",
+   "name": "出撃！ 神山",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から3枚を、控え室に置く。それらのカードにクライマックスがあるなら、そのターン中、相手は『【自】 アンコール』を使えない。（ルールによる『【自】 アンコール ［(3)］』も使えない）\n【起】［このカードを【レスト】する］ あなたは自分の《華撃団》のキャラを1枚選び、そのターン中、パワーを＋1500。\n\"よし、みんな！俺に続け!!\"",
+   "traits": [
+    "華撃団",
+    "剣術"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/skr_s73/skr_s73_090.png",
+   "variant": ""
+  },
+  {
+   "num": "SKR/S73-091",
+   "name": "浪花の商売人 こまち",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの「すみれの右腕 カオル」すべてに、パワーを＋1000。\n【自】 この能力は1ターンにつき1回まで発動する。他のあなたの「すみれの右腕 カオル」が手札から舞台に置かれた時、あなたは自分の山札の上から1枚を公開する。そのカードのレベルが1以上なら手札に加える。（クライマックスのレベルは0として扱う。そうでないなら元に戻す）\n\"ちり紙から空中戦艦まで、何でも仕入れたるで！\"",
+   "traits": [
+    "華撃団",
+    "商人"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/skr_s73/skr_s73_091.png",
+   "variant": ""
+  },
+  {
+   "num": "SKR/S73-092",
+   "name": "劇場にいざなうアナスタシア",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 このカードはサイドアタックできない。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から2枚を、控え室に置き、そのターン中、このカードのパワーを＋Ｘ。Ｘはそれらのカードの《華撃団》のキャラの枚数×1000に等しい。\n\"最高の舞台を見せてあげるわ\"",
+   "traits": [
+    "華撃団",
+    "星"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/skr_s73/skr_s73_092.png",
+   "variant": ""
+  },
+  {
+   "num": "SKR/S73-093",
+   "name": "すみれの右腕 カオル",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "",
+   "text": "-\n\"それはそれ、これはこれです。予算は出せません\"",
+   "traits": [
+    "華撃団",
+    "秘書"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/skr_s73/skr_s73_093.png",
+   "variant": ""
+  },
+  {
+   "num": "SKR/S73-094",
+   "name": "敏腕メカニック 司馬",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(2) 手札を2枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見てカード名に「光武」か「桜武」か「無限」を含むキャラを2枚まで選んで相手に見せ、手札に加え、その山札をシャッフルし、そのターン中、このカードのパワーを＋3000。\n\"無限の整備は俺に任せておけ！\"",
+   "traits": [
+    "華撃団",
+    "科学"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/skr_s73/skr_s73_094.png",
+   "variant": ""
+  },
+  {
+   "num": "SKR/S73-095",
+   "name": "感激の観劇 アナスタシア",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 あなたがこのカードの『助太刀』を使った時、あなたは自分のバトル中のキャラを1枚選び、そのターン中、次の能力を与える。『【自】 このカードのバトル相手が【リバース】した時、あなたはそのキャラを思い出にする。』\n【起】【カウンター】 助太刀3000 レベル2 ［(1) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋3000）\n\"いい演技をするためには、いい芝居を見ることも大事よ\"",
+   "traits": [
+    "華撃団",
+    "星"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/skr_s73/skr_s73_095.png",
+   "variant": ""
+  },
+  {
+   "num": "SKR/S73-096",
+   "name": "反撃の時 すみれ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "7000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】【CXコンボ】［(1) 他のあなたの舞台の前列のキャラを2枚このカードの下にマーカーとして裏向きに置く］ あなたのクライマックス置場に「空中戦艦ミカサ発進！」が置かれた時、前列にこのカードがいるなら、あなたはコストを払ってよい。そうしたら、そのターン中、このカードのパワーを＋6000し、このカードは次の2つの能力を得る。『【永】 このカードがアタックする時、あなたはかわりに相手の前列のキャラを1枚選び、このカードはそのキャラを防御キャラとしてフロントアタックしてよい。』『【自】 この能力は1ターンにつき2回まで発動する。このカードのアタックの終わりに、他のあなたの前列のキャラがいないなら、このカードを【スタンド】する。』\n\"主砲……撃て！\"",
+   "traits": [
+    "華撃団",
+    "扇子"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/skr_s73/skr_s73_096.png",
+   "variant": ""
+  },
+  {
+   "num": "SKR/S73-097",
+   "name": "奇跡の鐘",
+   "type": "Event",
+   "rarity": "U",
+   "color": "blue",
+   "level": "3",
+   "cost": "1",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "集中 あなたは自分の山札の上から3枚をめくり、控え室に置く。それらのカードにクライマックスがあるなら、相手に1ダメージを与える。（ダメージキャンセルは発生する）\n共鳴 あなたは自分の手札の「帝国華撃団総司令 すみれ」を1枚公開してよい。そうしたら、あなたは自分の控え室のキャラを1枚選び、手札に戻す。\n今日が現地時間の12月24日なら、次の行動を行う。『すべてのプレイヤーが認めたなら、すべてのプレイヤーは自分の手札すべてを、控え室に置き、7枚引く。』\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/skr_s73/skr_s73_097.png",
+   "variant": ""
+  },
+  {
+   "num": "SKR/S73-098",
+   "name": "απόλυτο μηδέν",
+   "type": "Climax",
+   "rarity": "CR",
+   "color": "blue",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[gate.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[gate.gif]]：このカードがトリガーした時、あなたは自分の控え室のクライマックスを1枚選び、手札に戻してよい）\n\"απόλυτο μηδέν！<br>(ルビ：アポリト・ミデン)\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/skr_s73/skr_s73_098.png",
+   "variant": ""
+  },
+  {
+   "num": "SKR/S73-098R",
+   "name": "απόλυτο μηδέν",
+   "type": "Climax",
+   "rarity": "RRR",
+   "color": "blue",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[gate.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[gate.gif]]：このカードがトリガーした時、あなたは自分の控え室のクライマックスを1枚選び、手札に戻してよい）\n\"運命を閉ざす……青き流星！\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/skr_s73/skr_s73_098r.png",
+   "variant": ""
+  },
+  {
+   "num": "SKR/S73-099",
+   "name": "伝説の……星座たち……",
+   "type": "Climax",
+   "rarity": "CC",
+   "color": "blue",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[draw.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[draw.gif]]：このカードがトリガーした時、あなたは1枚引いてよい）\n\"いっけえええええええ!!!!\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/skr_s73/skr_s73_099.png",
+   "variant": ""
+  },
+  {
+   "num": "SKR/S73-100",
+   "name": "空中戦艦ミカサ発進！",
+   "type": "Climax",
+   "rarity": "CC",
+   "color": "blue",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[gate.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[gate.gif]]：このカードがトリガーした時、あなたは自分の控え室のクライマックスを1枚選び、手札に戻してよい）\n\"すみれ「ここからが勝負……反撃開始ですわ！」\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/skr_s73/skr_s73_100.png",
+   "variant": ""
+  },
+  {
+   "num": "SKR/S73-101",
+   "name": "ちびあざみ",
+   "type": "Character",
+   "rarity": "PR",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、そのターン中、このカードのパワーを＋1500。\n【自】 相手のドローフェイズの始めに、あなたは自分の山札の上から1枚を公開する。そのカードのレベルが2以上なら、あなたはこのカードを手札に戻してよい。（クライマックスのレベルは0として扱う。公開したカードは元に戻す）\n\"誠十郎！\"",
+   "traits": [
+    "華撃団",
+    "忍"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/skr_s73/skr_s73_101.png",
+   "variant": ""
+  },
+  {
+   "num": "SKR/S73-102",
+   "name": "ちびクラリス",
+   "type": "Character",
+   "rarity": "PR",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［手札のクライマックスを1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは相手のキャラを1枚選び、思い出にし、アンコールステップの始めに、相手は自分の思い出置場のそのキャラを、舞台の好きな枠に置く。\n\"神山さーん！\"",
+   "traits": [
+    "華撃団",
+    "本"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/skr_s73/skr_s73_102.png",
+   "variant": ""
+  },
+  {
+   "num": "SKR/S73-103",
+   "name": "ちびさくら",
+   "type": "Character",
+   "rarity": "PR",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から3枚を、控え室に置いてよい。\n【自】 絆／「“帝国華撃団・花組隊長” 神山」 ［(1)］ （このカードがプレイされて舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「“帝国華撃団・花組隊長” 神山」を1枚選び、手札に戻す）\n\"誠十郎さーんっ！\"",
+   "traits": [
+    "華撃団",
+    "剣術"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/skr_s73/skr_s73_103.png",
+   "variant": ""
+  },
+  {
+   "num": "SKR/S73-104",
+   "name": "ちび初穂",
+   "type": "Character",
+   "rarity": "PR",
+   "color": "red",
+   "level": "1",
+   "cost": "1",
+   "power": "6500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、他のあなたの《華撃団》のキャラが4枚以上なら、あなたは自分の控え室の《華撃団》のキャラを1枚選び、ストック置場に置いてよい。\n\"神山っ！\"",
+   "traits": [
+    "華撃団",
+    "巫女"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/skr_s73/skr_s73_104.png",
+   "variant": ""
+  },
+  {
+   "num": "SKR/S73-105",
+   "name": "ちびアナスタシア",
+   "type": "Character",
+   "rarity": "PR",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "7500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードがアタックした時、そのターン中、このカードのパワーを＋Ｘ。Ｘは他のあなたの《華撃団》のキャラの枚数×1000に等しい。\n\"カミヤマ！\"",
+   "traits": [
+    "華撃団",
+    "星"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/skr_s73/skr_s73_105.png",
+   "variant": ""
+  }
+ ]
+}

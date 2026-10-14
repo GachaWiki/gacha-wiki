@@ -1,0 +1,3959 @@
+{
+ "id": "jp-anm-e565",
+ "name": "anemoi",
+ "expansion": 565,
+ "lang": "jp",
+ "release": null,
+ "shopItem": null,
+ "box": null,
+ "cards": [
+  {
+   "num": "ANM/W138-001",
+   "name": "“守る決意”朱比華",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "－",
+   "text": "【起】 集中 ［(1) このカードを【レスト】する］ あなたは自分の山札の上から4枚をめくり、控え室に置く。それらのカードのCX1枚につき、あなたは自分の控え室のキャラを1枚まで選び、手札に戻す。この効果で控え室に置かれたカードにCXがないなら、あなたは次の行動を行う。『［手札を1枚控え室に置く］ あなたはコストを払ってよい。そうしたら、あなたは自分の控え室のレベル1以上のキャラを1枚選び、手札に戻す。』\n\"町を守るわ\"",
+   "traits": [
+    "風",
+    "ピザ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_001.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-001S",
+   "name": "“守る決意”朱比華",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "－",
+   "text": "【起】 集中 ［(1) このカードを【レスト】する］ あなたは自分の山札の上から4枚をめくり、控え室に置く。それらのカードのCX1枚につき、あなたは自分の控え室のキャラを1枚まで選び、手札に戻す。この効果で控え室に置かれたカードにCXがないなら、あなたは次の行動を行う。『［手札を1枚控え室に置く］ あなたはコストを払ってよい。そうしたら、あなたは自分の控え室のレベル1以上のキャラを1枚選び、手札に戻す。』\n\"皆が避難できたとしても。<br>この町そのものも、私は守りたい\"",
+   "traits": [
+    "風",
+    "ピザ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_001s.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-001SSP",
+   "name": "“守る決意”朱比華",
+   "type": "Character",
+   "rarity": "SSP",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "－",
+   "text": "【起】 集中 ［(1) このカードを【レスト】する］ あなたは自分の山札の上から4枚をめくり、控え室に置く。それらのカードのCX1枚につき、あなたは自分の控え室のキャラを1枚まで選び、手札に戻す。この効果で控え室に置かれたカードにCXがないなら、あなたは次の行動を行う。『［手札を1枚控え室に置く］ あなたはコストを払ってよい。そうしたら、あなたは自分の控え室のレベル1以上のキャラを1枚選び、手札に戻す。』\n\"-\"",
+   "traits": [
+    "風",
+    "ピザ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_001ssp.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-002",
+   "name": "“風の還り路”朱比華",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "yellow",
+   "level": "3",
+   "cost": "2",
+   "power": "9000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚までを、控え室に置き、そのターン中、このカードのパワーを＋3000。\n【自】【CXコンボ】 このカードのアタックの終わりに、CX置場に「見つけた、大切な人」があり、他のあなたの《風》のキャラが2枚以上なら、次の2つの効果のうちあなたが選んだ1つを行う。『［(8) 手札を6枚控え室に置く］ あなたはコストを払ってよい。そうしたら、あなたは追加の1ターンを得る。』『あなたは自分の山札の上から1枚までを、ストック置場に置き、次の行動を2回行う。『あなたは自分の山札を上から3枚まで見て、《風》のキャラを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。』』\n\"-\"",
+   "traits": [
+    "風",
+    "ピザ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_002.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-002S",
+   "name": "“風の還り路”朱比華",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "yellow",
+   "level": "3",
+   "cost": "2",
+   "power": "9000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚までを、控え室に置き、そのターン中、このカードのパワーを＋3000。\n【自】【CXコンボ】 このカードのアタックの終わりに、CX置場に「見つけた、大切な人」があり、他のあなたの《風》のキャラが2枚以上なら、次の2つの効果のうちあなたが選んだ1つを行う。『［(8) 手札を6枚控え室に置く］ あなたはコストを払ってよい。そうしたら、あなたは追加の1ターンを得る。』『あなたは自分の山札の上から1枚までを、ストック置場に置き、次の行動を2回行う。『あなたは自分の山札を上から3枚まで見て、《風》のキャラを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。』』\n\"-\"",
+   "traits": [
+    "風",
+    "ピザ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_002s.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-002SP",
+   "name": "“風の還り路”朱比華",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "yellow",
+   "level": "3",
+   "cost": "2",
+   "power": "9000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚までを、控え室に置き、そのターン中、このカードのパワーを＋3000。\n【自】【CXコンボ】 このカードのアタックの終わりに、CX置場に「見つけた、大切な人」があり、他のあなたの《風》のキャラが2枚以上なら、次の2つの効果のうちあなたが選んだ1つを行う。『［(8) 手札を6枚控え室に置く］ あなたはコストを払ってよい。そうしたら、あなたは追加の1ターンを得る。』『あなたは自分の山札の上から1枚までを、ストック置場に置き、次の行動を2回行う。『あなたは自分の山札を上から3枚まで見て、《風》のキャラを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。』』\n\"-\"",
+   "traits": [
+    "風",
+    "ピザ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_002sp.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-003",
+   "name": "“選手宣誓”六花",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "yellow",
+   "level": "3",
+   "cost": "2",
+   "power": "9000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたの控え室のCXが3枚以下なら、あなたの手札のこのカードのレベルを－1。\n【永】 他のあなたの《風》のキャラが2枚以上なら、このカードのパワーを＋1000。\n【自】［手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時、他のあなたのキャラが2枚以上なら、あなたはコストを払ってよい。そうしたら、あなたは自分のクロックの上から1枚までを、控え室に置き、自分の控え室の《風》のキャラを1枚まで選び、手札に戻す。\n\"せ、宣誓！\"",
+   "traits": [
+    "風",
+    "妹"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_003.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-003S",
+   "name": "“選手宣誓”六花",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "yellow",
+   "level": "3",
+   "cost": "2",
+   "power": "9000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたの控え室のCXが3枚以下なら、あなたの手札のこのカードのレベルを－1。\n【永】 他のあなたの《風》のキャラが2枚以上なら、このカードのパワーを＋1000。\n【自】［手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時、他のあなたのキャラが2枚以上なら、あなたはコストを払ってよい。そうしたら、あなたは自分のクロックの上から1枚までを、控え室に置き、自分の控え室の《風》のキャラを1枚まで選び、手札に戻す。\n\"た、互いに励まし合いながら、最後までマスミンズ魂を尽くして競技に<br>挑むことを誓います！\"",
+   "traits": [
+    "風",
+    "妹"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_003s.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-003SSP",
+   "name": "“選手宣誓”六花",
+   "type": "Character",
+   "rarity": "SSP",
+   "color": "yellow",
+   "level": "3",
+   "cost": "2",
+   "power": "9000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたの控え室のCXが3枚以下なら、あなたの手札のこのカードのレベルを－1。\n【永】 他のあなたの《風》のキャラが2枚以上なら、このカードのパワーを＋1000。\n【自】［手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時、他のあなたのキャラが2枚以上なら、あなたはコストを払ってよい。そうしたら、あなたは自分のクロックの上から1枚までを、控え室に置き、自分の控え室の《風》のキャラを1枚まで選び、手札に戻す。\n\"-\"",
+   "traits": [
+    "風",
+    "妹"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_003ssp.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-004",
+   "name": "“ピザを焼く少女”朱比華",
+   "type": "Character",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】［(1) あなたの山札の上から1枚をクロック置場に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見てレベル1以下のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"私たちの分はこれから焼くわ\"",
+   "traits": [
+    "風",
+    "ピザ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_004.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-004S",
+   "name": "“ピザを焼く少女”朱比華",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】［(1) あなたの山札の上から1枚をクロック置場に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見てレベル1以下のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"麦「ちょっとピザって10回言ってみてくれるか」\"",
+   "traits": [
+    "風",
+    "ピザ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_004s.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-005",
+   "name": "“温泉を堪能”六花",
+   "type": "Character",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "－",
+   "text": "【永】【リンク】 ７つのかくご\n【自】［(1) このカードを思い出にする］ 他のあなたの《風》のキャラがフロントアタックされた時、あなたはコストを払ってよい。そうしたら、そのキャラを手札に戻す。\n\"っはあぁ〜〜〜〜〜〜……<br>体の疲れが染み出ていきます〜……\"",
+   "traits": [
+    "風",
+    "妹"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_005.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-005S",
+   "name": "“温泉を堪能”六花",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "－",
+   "text": "【永】【リンク】 ７つのかくご\n【自】［(1) このカードを思い出にする］ 他のあなたの《風》のキャラがフロントアタックされた時、あなたはコストを払ってよい。そうしたら、そのキャラを手札に戻す。\n\"この町は、居心地がいいです\"",
+   "traits": [
+    "風",
+    "妹"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_005s.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-005SP",
+   "name": "“温泉を堪能”六花",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "－",
+   "text": "【永】【リンク】 ７つのかくご\n【自】［(1) このカードを思い出にする］ 他のあなたの《風》のキャラがフロントアタックされた時、あなたはコストを払ってよい。そうしたら、そのキャラを手札に戻す。\n\"-\"",
+   "traits": [
+    "風",
+    "妹"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_005sp.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-006",
+   "name": "“あなたの目に映る風は”朱比華",
+   "type": "Character",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】［このカードを控え室に置く］ 他のあなたの《風》のキャラが舞台から控え室に置かれた時、後列にこのカードがいるなら、あなたはコストを払ってよい。そうしたら、そのキャラをそのキャラがいた枠に【レスト】して置く。\n【起】［このカードを【レスト】する］ あなたは1枚引き、自分の手札を1枚選び、控え室に置く。\n\"この風が……どういう風に見えてる？\"",
+   "traits": [
+    "風",
+    "ピザ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_006.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-006S",
+   "name": "“あなたの目に映る風は”朱比華",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】［このカードを控え室に置く］ 他のあなたの《風》のキャラが舞台から控え室に置かれた時、後列にこのカードがいるなら、あなたはコストを払ってよい。そうしたら、そのキャラをそのキャラがいた枠に【レスト】して置く。\n【起】［このカードを【レスト】する］ あなたは1枚引き、自分の手札を1枚選び、控え室に置く。\n\"ちょっと、困ってたかも\"",
+   "traits": [
+    "風",
+    "ピザ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_006s.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-006SP",
+   "name": "“あなたの目に映る風は”朱比華",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】［このカードを控え室に置く］ 他のあなたの《風》のキャラが舞台から控え室に置かれた時、後列にこのカードがいるなら、あなたはコストを払ってよい。そうしたら、そのキャラをそのキャラがいた枠に【レスト】して置く。\n【起】［このカードを【レスト】する］ あなたは1枚引き、自分の手札を1枚選び、控え室に置く。\n\"-\"",
+   "traits": [
+    "風",
+    "ピザ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_006sp.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-007",
+   "name": "“風の回廊へ”朱比華",
+   "type": "Character",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたのターン中、このカードのパワーを＋5000。\n【自】【CXコンボ】［このカードを控え室に置く］ あなたのアタックフェイズの始めに、CX置場に「わけ与える命」があり、前列にこのカードがいて、他のあなたの前列のキャラがいないなら、あなたはコストを払ってよい。そうしたら、あなたは2枚まで引き、自分の控え室の《風》のキャラを1枚まで選び、ストック置場に置き、自分の手札の「“風の回廊へ”朱比華」を1枚まで選び、このカードがいた枠に置き、そのターン中、そのキャラに次の能力を与える。『【自】【ターン2】 このカードのアタックの終わりに、あなたはこのカードを【スタンド】し、舞台のキャラのいない他の枠に動かす。』\n\"-\"",
+   "traits": [
+    "風",
+    "ピザ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_007.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-007S",
+   "name": "“風の回廊へ”朱比華",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたのターン中、このカードのパワーを＋5000。\n【自】【CXコンボ】［このカードを控え室に置く］ あなたのアタックフェイズの始めに、CX置場に「わけ与える命」があり、前列にこのカードがいて、他のあなたの前列のキャラがいないなら、あなたはコストを払ってよい。そうしたら、あなたは2枚まで引き、自分の控え室の《風》のキャラを1枚まで選び、ストック置場に置き、自分の手札の「“風の回廊へ”朱比華」を1枚まで選び、このカードがいた枠に置き、そのターン中、そのキャラに次の能力を与える。『【自】【ターン2】 このカードのアタックの終わりに、あなたはこのカードを【スタンド】し、舞台のキャラのいない他の枠に動かす。』\n\"-\"",
+   "traits": [
+    "風",
+    "ピザ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_007s.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-008",
+   "name": "“太ったのは？”朱比華",
+   "type": "Character",
+   "rarity": "U",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "－",
+   "text": "【自】 このカードがアタックした時、あなたは自分の山札を上から2枚まで見て、山札の上に好きな順番で置く。\n【自】 このカードがアタックした時、他のあなたの後列のキャラがいないなら、あなたは自分の山札の上から1枚を、控え室に置いてよい。そのカードがレベル0以下のキャラなら、あなたはそのキャラを後列の好きな枠に置く。\n\"ちょっと太ってきた……ど、どの辺が？\"",
+   "traits": [
+    "風",
+    "ピザ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_008.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-008S",
+   "name": "“太ったのは？”朱比華",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "－",
+   "text": "【自】 このカードがアタックした時、あなたは自分の山札を上から2枚まで見て、山札の上に好きな順番で置く。\n【自】 このカードがアタックした時、他のあなたの後列のキャラがいないなら、あなたは自分の山札の上から1枚を、控え室に置いてよい。そのカードがレベル0以下のキャラなら、あなたはそのキャラを後列の好きな枠に置く。\n\"ちなみに上半身のどの辺？　上？　下？\"",
+   "traits": [
+    "風",
+    "ピザ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_008s.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-009",
+   "name": "“まどろみのひととき”朱比華",
+   "type": "Character",
+   "rarity": "U",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "－",
+   "text": "【自】［手札の《風》のキャラを1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは1枚引く。\n【自】［手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の《風》のキャラを1枚選び、思い出にする。次のあなたのターンの始めに、あなたは自分の思い出置場のそのキャラを、手札に戻す。\n\"すー……すー……\"",
+   "traits": [
+    "風",
+    "ピザ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_009.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-009S",
+   "name": "“まどろみのひととき”朱比華",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "－",
+   "text": "【自】［手札の《風》のキャラを1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは1枚引く。\n【自】［手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の《風》のキャラを1枚選び、思い出にする。次のあなたのターンの始めに、あなたは自分の思い出置場のそのキャラを、手札に戻す。\n\"なんで私に襲いかかろうとしてるの\"",
+   "traits": [
+    "風",
+    "ピザ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_009s.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-010",
+   "name": "“ふたりの新しい関係”朱比華＆麦",
+   "type": "Character",
+   "rarity": "U",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "－",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から3枚までを、公開してよい。1枚以上公開したなら、あなたはそれらのカードの《風》のキャラか「goldenfield」を1枚まで選び、手札に加え、残りのカードを控え室に置き、自分の手札を1枚選び、控え室に置く。\n\"スピカ「麦……<br>さん<br>わた……わたし、その……」\"",
+   "traits": [
+    "風",
+    "ピザ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_010.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-010S",
+   "name": "“ふたりの新しい関係”朱比華＆麦",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "－",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から3枚までを、公開してよい。1枚以上公開したなら、あなたはそれらのカードの《風》のキャラか「goldenfield」を1枚まで選び、手札に加え、残りのカードを控え室に置き、自分の手札を1枚選び、控え室に置く。\n\"スピカ「私を、あなたの好きにしてかまわない――」\"",
+   "traits": [
+    "風",
+    "ピザ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_010s.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-011",
+   "name": "“子供合奏団の指揮者”塁",
+   "type": "Character",
+   "rarity": "U",
+   "color": "yellow",
+   "level": "1",
+   "cost": "1",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたのターン中、他のあなたの《風》のキャラすべてに、パワーを＋1500。\n【起】［(2) 手札の《風》のキャラを1枚控え室に置き、このカードを【レスト】する］ あなたは自分の控え室のキャラを1枚選び、手札に戻し、自分の控え室のその手札に戻したキャラと同じカード名のキャラを1枚選び、手札に戻す。\n\"こらぁ、麦、遅刻だぞ！\"",
+   "traits": [
+    "風",
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_011.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-011S",
+   "name": "“子供合奏団の指揮者”塁",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "yellow",
+   "level": "1",
+   "cost": "1",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたのターン中、他のあなたの《風》のキャラすべてに、パワーを＋1500。\n【起】［(2) 手札の《風》のキャラを1枚控え室に置き、このカードを【レスト】する］ あなたは自分の控え室のキャラを1枚選び、手札に戻し、自分の控え室のその手札に戻したキャラと同じカード名のキャラを1枚選び、手札に戻す。\n\"皆、待っているからな<br>きっと帰ってこいっ\"",
+   "traits": [
+    "風",
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_011s.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-012",
+   "name": "“全幅の信頼”麦",
+   "type": "Character",
+   "rarity": "U",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたのCX置場にトリガーアイコンが[[choice.gif]]のCXがあるなら、すべての領域にあるこのカードはトリガーアイコンに[[gate.gif]]を得る。\n【永】 あなたのターン中、このカードのパワーを＋10000。\n\"スピカ「内容は聞かなくて良いの？」<br>麦「スピカを信じる」\"",
+   "traits": [
+    "風",
+    "旅人"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_012.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-012S",
+   "name": "“全幅の信頼”麦",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたのCX置場にトリガーアイコンが[[choice.gif]]のCXがあるなら、すべての領域にあるこのカードはトリガーアイコンに[[gate.gif]]を得る。\n【永】 あなたのターン中、このカードのパワーを＋10000。\n\"というより、俺じゃ何も打開策が思いつかない<br>だから、スピカがやろうとしてることを全力でサポートする！\"",
+   "traits": [
+    "風",
+    "旅人"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_012s.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-013",
+   "name": "“風の一族の使命”朱比華",
+   "type": "Character",
+   "rarity": "U",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "5500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたのCX置場にトリガーアイコンが[[choice.gif]]のCXがあるなら、すべての領域にあるこのカードはトリガーアイコンに[[bounce.gif]]を得る。\n【起】［このカードを控え室に置く］ あなたは相手のキャラを1枚選び、手札に戻す。\n\"さぁ、来なさい<br>あなたがいるべき場所へ――\"",
+   "traits": [
+    "風",
+    "ピザ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_013.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-013S",
+   "name": "“風の一族の使命”朱比華",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "5500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたのCX置場にトリガーアイコンが[[choice.gif]]のCXがあるなら、すべての領域にあるこのカードはトリガーアイコンに[[bounce.gif]]を得る。\n【起】［このカードを控え室に置く］ あなたは相手のキャラを1枚選び、手札に戻す。\n\"麦……すごいわ<br>風がひとつになっている\"",
+   "traits": [
+    "風",
+    "ピザ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_013s.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-014",
+   "name": "“共同生活のルール作り”朱比華",
+   "type": "Character",
+   "rarity": "U",
+   "color": "yellow",
+   "level": "3",
+   "cost": "2",
+   "power": "10500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の手札の自分のレベル以下のレベルのキャラを1枚まで選び、舞台の好きな枠に置き、そのターン中、このカードのパワーを＋2000。\n【自】［(1)］ このカードがアタックした時、あなたはコストを払ってよい。そうしたら、あなたは相手の控え室のカードを1枚選び、山札の上に置く。\n\"あなたのことをなんて呼べば良い？\"",
+   "traits": [
+    "風",
+    "ピザ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_014.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-014S",
+   "name": "“共同生活のルール作り”朱比華",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "yellow",
+   "level": "3",
+   "cost": "2",
+   "power": "10500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の手札の自分のレベル以下のレベルのキャラを1枚まで選び、舞台の好きな枠に置き、そのターン中、このカードのパワーを＋2000。\n【自】［(1)］ このカードがアタックした時、あなたはコストを払ってよい。そうしたら、あなたは相手の控え室のカードを1枚選び、山札の上に置く。\n\"あなたの希望に添うわ\"",
+   "traits": [
+    "風",
+    "ピザ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_014s.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-015",
+   "name": "“名前を与えられた日”六花",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "－",
+   "text": "【永】【リンク】 ７つのかくご\n【自】 この能力は1ターンにつき2回まで発動する。他のあなたの《風》のキャラが手札から舞台に置かれた時、そのターン中、このカードのパワーを＋1000。\n【自】［あなたの山札の上から1枚をクロック置場に置く］ 相手のターン中、このカードが【リバース】した時、あなたはコストを払ってよい。そうしたら、このカードを【レスト】し、次のあなたのアンコールステップの始めに、このカードを思い出にする。\n\"麦「六花！」\"",
+   "traits": [
+    "風",
+    "妹"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_015.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-015S",
+   "name": "“名前を与えられた日”六花",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "－",
+   "text": "【永】【リンク】 ７つのかくご\n【自】 この能力は1ターンにつき2回まで発動する。他のあなたの《風》のキャラが手札から舞台に置かれた時、そのターン中、このカードのパワーを＋1000。\n【自】［あなたの山札の上から1枚をクロック置場に置く］ 相手のターン中、このカードが【リバース】した時、あなたはコストを払ってよい。そうしたら、このカードを【レスト】し、次のあなたのアンコールステップの始めに、このカードを思い出にする。\n\"お……にぃ……？\"",
+   "traits": [
+    "風",
+    "妹"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_015s.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-016",
+   "name": "“ずっとひとりで平気だったのに”朱比華",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "－",
+   "text": "【永】 他のあなたのキャラがいないなら、このカードのレベルを＋1し、パワーを＋3500。\n【起】［手札を1枚控え室に置き、このカードを山札の下に置く］ あなたは自分の山札を見て《風》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"スピカ「ひとりで麦畑の手入れをしていたのに……<br>ひとりでピザを作っていたのに……<br>ひとりで……大丈夫だったのに……」\"",
+   "traits": [
+    "風",
+    "ピザ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_016.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-016S",
+   "name": "“ずっとひとりで平気だったのに”朱比華",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "－",
+   "text": "【永】 他のあなたのキャラがいないなら、このカードのレベルを＋1し、パワーを＋3500。\n【起】［手札を1枚控え室に置き、このカードを山札の下に置く］ あなたは自分の山札を見て《風》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"スピカ「あなたの……せいだわ……」\"",
+   "traits": [
+    "風",
+    "ピザ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_016s.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-017",
+   "name": "“ラジオ、はじめました”塁",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "－",
+   "text": "【永】 前列の中央の枠にこのカードがいるなら、他のあなたのレベル0以下のキャラすべてに、パワーを＋2000。\n【永】 他のキャラすべてに、《ネオ・真澄町ラジオ》を与える。\n\"きょ……今日からはじまりました。ネオ新生真澄町ラジオ\"",
+   "traits": [
+    "風",
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_017.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-017S",
+   "name": "“ラジオ、はじめました”塁",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "－",
+   "text": "【永】 前列の中央の枠にこのカードがいるなら、他のあなたのレベル0以下のキャラすべてに、パワーを＋2000。\n【永】 他のキャラすべてに、《ネオ・真澄町ラジオ》を与える。\n\"ネオトゥモロー\"",
+   "traits": [
+    "風",
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_017s.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-018",
+   "name": "“真澄町のバーテンダー兼探偵”健",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "－",
+   "text": "【永】 このカードの下のマーカー1枚につき、このカードのパワーを＋3000。\n【永】 このカードの下にマーカーがないなら、このカードはカード名の「“真澄町のバーテンダー兼探偵”健」をすべて失い、このカードのカード名は「亮」として扱う。\n【自】 このカードがアタックした時、あなたは他の自分の「亮」を1枚選び、このカードの下にマーカーとして表向きに置いてよい。\n【自】［手札の《風》のキャラを1枚控え室に置く］ このカードが【リバース】した時、あなたはコストを払ってよい。そうしたら、このカードを【レスト】する。\n\"-\"",
+   "traits": [
+    "風",
+    "探偵"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_018.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-018S",
+   "name": "“真澄町のバーテンダー兼探偵”健",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "－",
+   "text": "【永】 このカードの下のマーカー1枚につき、このカードのパワーを＋3000。\n【永】 このカードの下にマーカーがないなら、このカードはカード名の「“真澄町のバーテンダー兼探偵”健」をすべて失い、このカードのカード名は「亮」として扱う。\n【自】 このカードがアタックした時、あなたは他の自分の「亮」を1枚選び、このカードの下にマーカーとして表向きに置いてよい。\n【自】［手札の《風》のキャラを1枚控え室に置く］ このカードが【リバース】した時、あなたはコストを払ってよい。そうしたら、このカードを【レスト】する。\n\"-\"",
+   "traits": [
+    "風",
+    "探偵"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_018s.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-019",
+   "name": "“スピードに魅せられた少年”千春",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "5500",
+   "soul": 1,
+   "trigger": "－",
+   "text": "【永】 このカードはサイドアタックできない。\n【自】 加速 ［あなたの控え室の《風》のキャラを1枚クロック置場の下に置く］ あなたのCXフェイズの始めに、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を上から3枚まで見て、《風》のキャラを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。\n\"いぃぃぃぃぃやああああほおおおおおおおおお！\"",
+   "traits": [
+    "風",
+    "バイク"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_019.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-019S",
+   "name": "“スピードに魅せられた少年”千春",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "5500",
+   "soul": 1,
+   "trigger": "－",
+   "text": "【永】 このカードはサイドアタックできない。\n【自】 加速 ［あなたの控え室の《風》のキャラを1枚クロック置場の下に置く］ あなたのCXフェイズの始めに、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を上から3枚まで見て、《風》のキャラを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。\n\"はは、スピードが足りないって？\"",
+   "traits": [
+    "風",
+    "バイク"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_019s.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-020",
+   "name": "“誇り高いブラコン”六花",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "1",
+   "cost": "1",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 あなたがこのカードの『助太刀』を使った時、あなたのキャラすべてが《風》なら、あなたは自分の控え室のレベル1以下のキャラを1枚選び、ストック置場の下に置いてよい。\n【起】【カウンター】 助太刀2000 レベル1 ［(1) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋2000）\n\"つまりわたしという存在は、兄さんあってこそ\"",
+   "traits": [
+    "風",
+    "妹"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_020.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-020S",
+   "name": "“誇り高いブラコン”六花",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "yellow",
+   "level": "1",
+   "cost": "1",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 あなたがこのカードの『助太刀』を使った時、あなたのキャラすべてが《風》なら、あなたは自分の控え室のレベル1以下のキャラを1枚選び、ストック置場の下に置いてよい。\n【起】【カウンター】 助太刀2000 レベル1 ［(1) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋2000）\n\"ブラコン……なんて誇らしい言葉でしょうか\"",
+   "traits": [
+    "風",
+    "妹"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_020s.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-021",
+   "name": "“自転車の少女”文弥",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの後列のキャラすべてに、『【永】 応援 このカードの前のあなたの《風》のキャラすべてに、パワーを＋1500。』を与える。\n【自】 アンコール ［手札の《風》のキャラを1枚控え室に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"おいこら<br>なんで勝手に帰ってるのよ\"",
+   "traits": [
+    "風",
+    "縁"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_021.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-021S",
+   "name": "“自転車の少女”文弥",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの後列のキャラすべてに、『【永】 応援 このカードの前のあなたの《風》のキャラすべてに、パワーを＋1500。』を与える。\n【自】 アンコール ［手札の《風》のキャラを1枚控え室に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"大きな町じゃ絶対セットにならなかった正反対のタイプとも、小さな町だからこそ一緒になったりする<br>それはそれで、面白いじゃない\"",
+   "traits": [
+    "風",
+    "縁"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_021s.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-022",
+   "name": "“命がけの鬼ごっこ”朱比華",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "6000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの《風》のキャラ1枚につき、このカードのパワーを＋1000。\n【自】【CXコンボ】 このカードがアタックした時、CX置場に「帰ろう、あの町へ」があり、他のあなたの《風》のキャラが2枚以上なら、あなたは自分の控え室の《風》のキャラを1枚まで選び、手札に戻し、相手の控え室のカードを1枚まで選び、山札の上に置く。\n\"スピカ「わ……私の命令に従いなさいクソ虫！」<br>麦「はいっ！」\"",
+   "traits": [
+    "風",
+    "ピザ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_022.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-022S",
+   "name": "“命がけの鬼ごっこ”朱比華",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "6000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの《風》のキャラ1枚につき、このカードのパワーを＋1000。\n【自】【CXコンボ】 このカードがアタックした時、CX置場に「帰ろう、あの町へ」があり、他のあなたの《風》のキャラが2枚以上なら、あなたは自分の控え室の《風》のキャラを1枚まで選び、手札に戻し、相手の控え室のカードを1枚まで選び、山札の上に置く。\n\"スピカ「こ、このドMっ！」<br>麦「はいっ！！」\"",
+   "traits": [
+    "風",
+    "ピザ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_022s.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-023",
+   "name": "goldenfield",
+   "type": "Event",
+   "rarity": "U",
+   "color": "yellow",
+   "level": "1",
+   "cost": "1",
+   "power": "",
+   "soul": 0,
+   "trigger": "－",
+   "text": "あなたは自分の山札を見てトリガーアイコンが[[choice.gif]]のCXを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\nあなたは自分の山札を上から2枚まで見て、カードを1枚選び、山札の上に置き、残りのカードを控え室に置く。\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_023.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-023S",
+   "name": "goldenfield",
+   "type": "Event",
+   "rarity": "SR",
+   "color": "yellow",
+   "level": "1",
+   "cost": "1",
+   "power": "",
+   "soul": 0,
+   "trigger": "－",
+   "text": "あなたは自分の山札を見てトリガーアイコンが[[choice.gif]]のCXを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\nあなたは自分の山札を上から2枚まで見て、カードを1枚選び、山札の上に置き、残りのカードを控え室に置く。\n\"麦「俺と一緒に、ここで暮らそう<br>ふたりで」\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_023s.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-024",
+   "name": "見つけた、大切な人",
+   "type": "Climax",
+   "rarity": "CR",
+   "color": "yellow",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[choice.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[choice.gif]]：このカードがトリガーした時、あなたは自分の控え室のトリガーアイコンに[[soul.gif]]があるキャラを1枚選び、手札に戻すかストック置場に置いてよい）\n\"スピカ「ぁ……おとー……さん<br>おかーさん……」\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_024.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-024A",
+   "name": "見つけた、大切な人",
+   "type": "Climax",
+   "rarity": "AGR",
+   "color": "yellow",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[choice.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[choice.gif]]：このカードがトリガーした時、あなたは自分の控え室のトリガーアイコンに[[soul.gif]]があるキャラを1枚選び、手札に戻すかストック置場に置いてよい）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_024a.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-024R",
+   "name": "見つけた、大切な人",
+   "type": "Climax",
+   "rarity": "RRR",
+   "color": "yellow",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[choice.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[choice.gif]]：このカードがトリガーした時、あなたは自分の控え室のトリガーアイコンに[[soul.gif]]があるキャラを1枚選び、手札に戻すかストック置場に置いてよい）\n\"スピカ「（だから、もう心配しないで）<br>（私、この人と……生きていくから）」\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_024r.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-025",
+   "name": "わけ与える命",
+   "type": "Climax",
+   "rarity": "CR",
+   "color": "yellow",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[choice.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[choice.gif]]：このカードがトリガーした時、あなたは自分の控え室のトリガーアイコンに[[soul.gif]]があるキャラを1枚選び、手札に戻すかストック置場に置いてよい）\n\"スピカ「バカ……」\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_025.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-025R",
+   "name": "わけ与える命",
+   "type": "Climax",
+   "rarity": "RRR",
+   "color": "yellow",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[choice.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[choice.gif]]：このカードがトリガーした時、あなたは自分の控え室のトリガーアイコンに[[soul.gif]]があるキャラを1枚選び、手札に戻すかストック置場に置いてよい）\n\"スピカ「ん」\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_025r.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-026",
+   "name": "帰ろう、あの町へ",
+   "type": "Climax",
+   "rarity": "CR",
+   "color": "yellow",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【自】 このカードが手札からCX置場に置かれた時、あなたは自分の控え室のトリガーアイコンに[[soul.gif]]があるキャラを1枚まで選び、手札に戻し、自分のキャラを2枚まで選び、そのターン中、ソウルを＋1。\n\"麦「一緒に暮らそう<br>大好きなあの町に、家を建てよう」\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_026.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-026R",
+   "name": "帰ろう、あの町へ",
+   "type": "Climax",
+   "rarity": "RRR",
+   "color": "yellow",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【自】 このカードが手札からCX置場に置かれた時、あなたは自分の控え室のトリガーアイコンに[[soul.gif]]があるキャラを1枚まで選び、手札に戻し、自分のキャラを2枚まで選び、そのターン中、ソウルを＋1。\n\"麦「それで……出来たら、一緒に、歳を取って……<br>一緒に人生を生きよう」\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_026r.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-027",
+   "name": "“風の向こう側で”六花",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "－",
+   "text": "【自】［手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札の上から1枚を公開し、自分の控え室のレベルＸ以下のキャラを1枚選び、手札に戻す。Ｘが3以上なら、あなたは自分の山札の上から1枚までを、ストック置場に置く。Ｘは公開されたカードのレベルに等しい。（CXのレベルは0として扱う。ストック置場に置かないなら元に戻す）\n\"-\"",
+   "traits": [
+    "風",
+    "妹"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_027.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-027S",
+   "name": "“風の向こう側で”六花",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "－",
+   "text": "【自】［手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札の上から1枚を公開し、自分の控え室のレベルＸ以下のキャラを1枚選び、手札に戻す。Ｘが3以上なら、あなたは自分の山札の上から1枚までを、ストック置場に置く。Ｘは公開されたカードのレベルに等しい。（CXのレベルは0として扱う。ストック置場に置かないなら元に戻す）\n\"-\"",
+   "traits": [
+    "風",
+    "妹"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_027s.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-027SP",
+   "name": "“風の向こう側で”六花",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "－",
+   "text": "【自】［手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札の上から1枚を公開し、自分の控え室のレベルＸ以下のキャラを1枚選び、手札に戻す。Ｘが3以上なら、あなたは自分の山札の上から1枚までを、ストック置場に置く。Ｘは公開されたカードのレベルに等しい。（CXのレベルは0として扱う。ストック置場に置かないなら元に戻す）\n\"-\"",
+   "traits": [
+    "風",
+    "妹"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_027sp.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-028",
+   "name": "“相性抜群で最強な”小詠",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "－",
+   "text": "【永】 あなたのキャラすべてが《風》なら、このカードのパワーを＋1000。\n【自】［手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を上から4枚まで見て、「“相性抜群で最強な”小詠」かレベル1以上のカードを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。（CXのレベルは0として扱う）\n\"発明ですっ！　勝利ですっ！\"",
+   "traits": [
+    "風",
+    "手紙"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_028.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-028S",
+   "name": "“相性抜群で最強な”小詠",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "－",
+   "text": "【永】 あなたのキャラすべてが《風》なら、このカードのパワーを＋1000。\n【自】［手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を上から4枚まで見て、「“相性抜群で最強な”小詠」かレベル1以上のカードを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。（CXのレベルは0として扱う）\n\"メープルは英知の結晶ですっ！！！<br>液体ですけどっ！！！\"",
+   "traits": [
+    "風",
+    "手紙"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_028s.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-028SSP",
+   "name": "“相性抜群で最強な”小詠",
+   "type": "Character",
+   "rarity": "SSP",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "－",
+   "text": "【永】 あなたのキャラすべてが《風》なら、このカードのパワーを＋1000。\n【自】［手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を上から4枚まで見て、「“相性抜群で最強な”小詠」かレベル1以上のカードを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。（CXのレベルは0として扱う）\n\"-\"",
+   "traits": [
+    "風",
+    "手紙"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_028ssp.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-029",
+   "name": "“風の便りを届けに”小詠",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "－",
+   "text": "【永】 記憶 あなたの思い出置場の「一人前の郵便屋になるために」1枚につき、このカードのパワーを＋1500。\n【自】【CXコンボ】 このカードがアタックした時、CX置場に「嘘つきなさよなら」があり、他のあなたの《風》のキャラが3枚以上なら、あなたは自分の控え室の《風》のキャラを1枚まで選び、手札に戻す。選んだキャラのレベルが3以上なら、あなたは自分の手札を1枚選び、ストック置場に置いてよい。\n\"-\"",
+   "traits": [
+    "風",
+    "手紙"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_029.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-029S",
+   "name": "“風の便りを届けに”小詠",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "－",
+   "text": "【永】 記憶 あなたの思い出置場の「一人前の郵便屋になるために」1枚につき、このカードのパワーを＋1500。\n【自】【CXコンボ】 このカードがアタックした時、CX置場に「嘘つきなさよなら」があり、他のあなたの《風》のキャラが3枚以上なら、あなたは自分の控え室の《風》のキャラを1枚まで選び、手札に戻す。選んだキャラのレベルが3以上なら、あなたは自分の手札を1枚選び、ストック置場に置いてよい。\n\"-\"",
+   "traits": [
+    "風",
+    "手紙"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_029s.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-029SP",
+   "name": "“風の便りを届けに”小詠",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "－",
+   "text": "【永】 記憶 あなたの思い出置場の「一人前の郵便屋になるために」1枚につき、このカードのパワーを＋1500。\n【自】【CXコンボ】 このカードがアタックした時、CX置場に「嘘つきなさよなら」があり、他のあなたの《風》のキャラが3枚以上なら、あなたは自分の控え室の《風》のキャラを1枚まで選び、手札に戻す。選んだキャラのレベルが3以上なら、あなたは自分の手札を1枚選び、ストック置場に置いてよい。\n\"-\"",
+   "traits": [
+    "風",
+    "手紙"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_029sp.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-030",
+   "name": "“さすらいの恐竜ハンター”玖琉未",
+   "type": "Character",
+   "rarity": "R",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "－",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札を上から4枚まで見て、「“風の便りを届けに”小詠」を1枚まで選び、舞台の好きな枠に置き、残りのカードを控え室に置く。\n【自】［(1)］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見てCXを1枚まで選んで公開し、自分の手札のCXを1枚まで選んで公開し、それらのCXを入れ替え、その山札をシャッフルする。\n\"小詠ちゃん、そこのもち米さんなんかより私を頼ってください\"",
+   "traits": [
+    "風",
+    "考古学者"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_030.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-030S",
+   "name": "“さすらいの恐竜ハンター”玖琉未",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "－",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札を上から4枚まで見て、「“風の便りを届けに”小詠」を1枚まで選び、舞台の好きな枠に置き、残りのカードを控え室に置く。\n【自】［(1)］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見てCXを1枚まで選んで公開し、自分の手札のCXを1枚まで選んで公開し、それらのCXを入れ替え、その山札をシャッフルする。\n\"私たちは、深い絆で繋がれたソウルメイトですよ？\"",
+   "traits": [
+    "風",
+    "考古学者"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_030s.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-031",
+   "name": "“妹でいるために”六花",
+   "type": "Character",
+   "rarity": "R",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "－",
+   "text": "【永】【リンク】 ７つのかくご\n【自】 記憶 思い出置場にこのカードがあるなら、あなたのCXフェイズの始めに、あなたは自分の控え室の《風》のキャラを1枚とこのカードを選び、入れ替えてよい。\n【起】［(1) このカードを思い出にする］ あなたは自分の山札を上から4枚まで見て、《風》のキャラか「世界が壊れた日」を1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。\n\"六花「ツミレ<br>あなたのお肉は兄さんの為にあるんですから、わたしに使ってはいけませんよ」<br>ツミレ「オロロォ〜……」\"",
+   "traits": [
+    "風",
+    "妹"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_031.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-031S",
+   "name": "“妹でいるために”六花",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "－",
+   "text": "【永】【リンク】 ７つのかくご\n【自】 記憶 思い出置場にこのカードがあるなら、あなたのCXフェイズの始めに、あなたは自分の控え室の《風》のキャラを1枚とこのカードを選び、入れ替えてよい。\n【起】［(1) このカードを思い出にする］ あなたは自分の山札を上から4枚まで見て、《風》のキャラか「世界が壊れた日」を1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。\n\"六花「兄さん、おはようございます」\"",
+   "traits": [
+    "風",
+    "妹"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_031s.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-032",
+   "name": "“私の罪滅ぼし”小詠",
+   "type": "Character",
+   "rarity": "R",
+   "color": "green",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】［手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時、他のあなたの《風》のキャラが2枚以上なら、あなたはコストを払ってよい。そうしたら、あなたは自分のクロックを1枚選び、手札に戻す。\n【自】【CXコンボ】 記憶 ［このカードを思い出にする］ このカードのアタックの終わりに、CX置場に「おじいさんからの手紙」があるなら、あなたはコストを払ってよい。そうしたら、あなたは相手の山札の下からＸ枚を、控え室に置く。それらのカードにCXがあるなら、相手に3ダメージを与える。Ｘはあなたの思い出置場の、「一人前の郵便屋になるために」と「“私の罪滅ぼし”小詠」の枚数に等しい。（ダメージキャンセルは発生する）\n\"そんなはずないじゃないですかっ！！！\"",
+   "traits": [
+    "風",
+    "手紙"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_032.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-032S",
+   "name": "“私の罪滅ぼし”小詠",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】［手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時、他のあなたの《風》のキャラが2枚以上なら、あなたはコストを払ってよい。そうしたら、あなたは自分のクロックを1枚選び、手札に戻す。\n【自】【CXコンボ】 記憶 ［このカードを思い出にする］ このカードのアタックの終わりに、CX置場に「おじいさんからの手紙」があるなら、あなたはコストを払ってよい。そうしたら、あなたは相手の山札の下からＸ枚を、控え室に置く。それらのカードにCXがあるなら、相手に3ダメージを与える。Ｘはあなたの思い出置場の、「一人前の郵便屋になるために」と「“私の罪滅ぼし”小詠」の枚数に等しい。（ダメージキャンセルは発生する）\n\"そんなの嘘です<br>麦さんは嘘をつくから……\"",
+   "traits": [
+    "風",
+    "手紙"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_032s.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-033",
+   "name": "“フォークダンスを妹と”六花",
+   "type": "Character",
+   "rarity": "R",
+   "color": "green",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】【CXコンボ】 このカードが手札から舞台に置かれた時か「“チャイナを着てみチャイナ”六花」の【自】の効果で舞台に置かれた時、あなたは自分の控え室の「真澄小学校の卒業式」を1枚選び、手札に戻すかストック置場に置いてよい。\n【自】【CXコンボ】 記憶 ［手札を1枚控え室に置く］ このカードがアタックした時、CX置場に「真澄小学校の卒業式」があり、他のあなたの《風》のキャラが3枚以上なら、あなたはコストを払ってよい。そうしたら、相手は自分の山札の上からＸ枚を公開し、その山札をシャッフルし、自分の山札の上からそれらのカードのCXの枚数を、クロック置場に置く。Ｘはあなたの思い出置場の『【リンク】 ７つのかくご』を持つ異なるカード名のキャラの枚数に等しい。\n\"わ……こ、これで合ってますか？\"",
+   "traits": [
+    "風",
+    "妹"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_033.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-033S",
+   "name": "“フォークダンスを妹と”六花",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】【CXコンボ】 このカードが手札から舞台に置かれた時か「“チャイナを着てみチャイナ”六花」の【自】の効果で舞台に置かれた時、あなたは自分の控え室の「真澄小学校の卒業式」を1枚選び、手札に戻すかストック置場に置いてよい。\n【自】【CXコンボ】 記憶 ［手札を1枚控え室に置く］ このカードがアタックした時、CX置場に「真澄小学校の卒業式」があり、他のあなたの《風》のキャラが3枚以上なら、あなたはコストを払ってよい。そうしたら、相手は自分の山札の上からＸ枚を公開し、その山札をシャッフルし、自分の山札の上からそれらのカードのCXの枚数を、クロック置場に置く。Ｘはあなたの思い出置場の『【リンク】 ７つのかくご』を持つ異なるカード名のキャラの枚数に等しい。\n\"とても、楽しいです\"",
+   "traits": [
+    "風",
+    "妹"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_033s.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-034",
+   "name": "“夕暮れ、ふたりで”小詠＆麦",
+   "type": "Character",
+   "rarity": "U",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "－",
+   "text": "【自】［(1)］ あなたのCXがCX置場に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を上から4枚まで見て、レベル1以上のカードを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。（CXのレベルは0として扱う）\n【自】［手札のCXを1枚控え室に置く］ あなたのCXがトリガーした時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室のキャラを1枚選び、手札に戻す。\n\"小詠「すみません、麦さん<br>私、人が泣いているとき、どうすればいいかわからないのです」\"",
+   "traits": [
+    "風",
+    "手紙"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_034.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-034S",
+   "name": "“夕暮れ、ふたりで”小詠＆麦",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "－",
+   "text": "【自】［(1)］ あなたのCXがCX置場に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を上から4枚まで見て、レベル1以上のカードを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。（CXのレベルは0として扱う）\n【自】［手札のCXを1枚控え室に置く］ あなたのCXがトリガーした時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室のキャラを1枚選び、手札に戻す。\n\"小詠「なぜだかはわからないのですが、そうしたくなってしまって」\"",
+   "traits": [
+    "風",
+    "手紙"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_034s.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-035",
+   "name": "“「がっこう」の話”六花",
+   "type": "Character",
+   "rarity": "U",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "－",
+   "text": "【永】【リンク】 ７つのかくご\n【自】 このカードのトリガーチェックでトリガーアイコンが[[soul.gif]][[soul.gif]]のCXがでた時、あなたは自分の控え室のキャラを1枚選び、手札に戻してよい。\n【自】［(1) 手札を1枚控え室に置き、このカードを思い出にする］ このカードが【リバース】した時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見て《風》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"おにい、がっこうってどんなところ？\"",
+   "traits": [
+    "風",
+    "妹"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_035.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-035S",
+   "name": "“「がっこう」の話”六花",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "－",
+   "text": "【永】【リンク】 ７つのかくご\n【自】 このカードのトリガーチェックでトリガーアイコンが[[soul.gif]][[soul.gif]]のCXがでた時、あなたは自分の控え室のキャラを1枚選び、手札に戻してよい。\n【自】［(1) 手札を1枚控え室に置き、このカードを思い出にする］ このカードが【リバース】した時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見て《風》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"うん。りっかもがっこういけるのたのしみ\"",
+   "traits": [
+    "風",
+    "妹"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_035s.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-036",
+   "name": "“線香花火大会”小詠",
+   "type": "Character",
+   "rarity": "U",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "－",
+   "text": "【自】【ターン1】 あなたが【起】を使った時、あなたは自分の《風》のキャラを1枚選び、そのターン中、パワーを＋1000。\n【起】［あなたのキャラを2枚【レスト】する］ あなたは自分の山札を上から2枚まで見て、山札の上に好きな順番で置く。\n\"綺麗、ですね<br>焚き火の炎とはまた違って、すごく静かで、穏やかです\"",
+   "traits": [
+    "風",
+    "手紙"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_036.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-036S",
+   "name": "“線香花火大会”小詠",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "－",
+   "text": "【自】【ターン1】 あなたが【起】を使った時、あなたは自分の《風》のキャラを1枚選び、そのターン中、パワーを＋1000。\n【起】［あなたのキャラを2枚【レスト】する］ あなたは自分の山札を上から2枚まで見て、山札の上に好きな順番で置く。\n\"麦さんは、どうしてそこまで私に気をかけてくださるのですか？\"",
+   "traits": [
+    "風",
+    "手紙"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_036s.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-037",
+   "name": "“寝言”六花",
+   "type": "Character",
+   "rarity": "U",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "－",
+   "text": "【永】【リンク】 ７つのかくご\n【永】 他のあなたの《風》のキャラがいるなら、このカードのレベルを＋1し、パワーを＋1000。\n【自】［手札を1枚クロック置場に置き、このカードを思い出にする］ このカードが【リバース】した時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の《風》のキャラを1枚選び、手札に戻す。\n\"すぅ……すぅ……\"",
+   "traits": [
+    "風",
+    "妹"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_037.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-037S",
+   "name": "“寝言”六花",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "－",
+   "text": "【永】【リンク】 ７つのかくご\n【永】 他のあなたの《風》のキャラがいるなら、このカードのレベルを＋1し、パワーを＋1000。\n【自】［手札を1枚クロック置場に置き、このカードを思い出にする］ このカードが【リバース】した時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の《風》のキャラを1枚選び、手札に戻す。\n\"兄さん……ご立派です……むにゃ……\"",
+   "traits": [
+    "風",
+    "妹"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_037s.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-038",
+   "name": "“わたしのやるべきこと”六花",
+   "type": "Character",
+   "rarity": "U",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】【リンク】 ７つのかくご\n【自】［(1) このカードを思い出にする］ あなたのCXフェイズの始めに、あなたのレベルが2以上なら、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「“チャイナを着てみチャイナ”六花」を1枚選び、このカードがいた枠に置く。\n【起】 集中 ［(1) このカードを【レスト】する］ あなたは自分の山札の上から5枚をめくり、控え室に置く。それらのカードのトリガーアイコンが[[soul.gif]][[soul.gif]]のCX1枚につき、あなたは自分の控え室のキャラを1枚まで選び、手札に戻す。\n\"-\"",
+   "traits": [
+    "風",
+    "妹"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_038.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-038S",
+   "name": "“わたしのやるべきこと”六花",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】【リンク】 ７つのかくご\n【自】［(1) このカードを思い出にする］ あなたのCXフェイズの始めに、あなたのレベルが2以上なら、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「“チャイナを着てみチャイナ”六花」を1枚選び、このカードがいた枠に置く。\n【起】 集中 ［(1) このカードを【レスト】する］ あなたは自分の山札の上から5枚をめくり、控え室に置く。それらのカードのトリガーアイコンが[[soul.gif]][[soul.gif]]のCX1枚につき、あなたは自分の控え室のキャラを1枚まで選び、手札に戻す。\n\"-\"",
+   "traits": [
+    "風",
+    "妹"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_038s.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-039",
+   "name": "“静寂な世界で”麦＆六花",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "－",
+   "text": "【自】 あなたのトリガーアイコンが[[soul.gif]][[soul.gif]]のCXがCX置場に置かれた時、あなたは自分の《風》のキャラを1枚選び、そのターン中、パワーを＋2000。\n【自】【CXコンボ】［あなたのCX置場の「この町で叶った夢」を1枚控え室に置く］ あなたのアンコールステップの始めに、他のあなたの《風》のキャラがいるなら、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を上から2枚まで見て、《風》のキャラか「世界が壊れた日」を2枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。\n\"六花「兄さんは旅を……続けてくれますよね」<br>麦「六花……<br>大丈夫だ……<br>俺は……旅を続ける。生き続ける……よ」\"",
+   "traits": [
+    "風",
+    "妹"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_039.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-039S",
+   "name": "“静寂な世界で”麦＆六花",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "－",
+   "text": "【自】 あなたのトリガーアイコンが[[soul.gif]][[soul.gif]]のCXがCX置場に置かれた時、あなたは自分の《風》のキャラを1枚選び、そのターン中、パワーを＋2000。\n【自】【CXコンボ】［あなたのCX置場の「この町で叶った夢」を1枚控え室に置く］ あなたのアンコールステップの始めに、他のあなたの《風》のキャラがいるなら、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を上から2枚まで見て、《風》のキャラか「世界が壊れた日」を2枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。\n\"六花「兄さん、歩き続けてください<br>たくさん歩いて色んな物を見て<br>そして……<br>よき人生（たび）を――……」\"",
+   "traits": [
+    "風",
+    "妹"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_039s.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-040",
+   "name": "“特別頑固さん”小詠",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "1",
+   "cost": "1",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 あなたがこのカードの『助太刀』を使った時、相手のCX置場にCXがあるなら、あなたは自分のバトル中の《風》のキャラを1枚選び、そのターン中、パワーを＋2000。\n【起】【カウンター】 助太刀2000 レベル1 ［(1) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋2000）\n\"おお。では、私は頑固です。特別頑固さんです\"",
+   "traits": [
+    "風",
+    "手紙"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_040.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-040S",
+   "name": "“特別頑固さん”小詠",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "1",
+   "cost": "1",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 あなたがこのカードの『助太刀』を使った時、相手のCX置場にCXがあるなら、あなたは自分のバトル中の《風》のキャラを1枚選び、そのターン中、パワーを＋2000。\n【起】【カウンター】 助太刀2000 レベル1 ［(1) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋2000）\n\"わ、私、何か悪いことをしてしまったでしょうか\"",
+   "traits": [
+    "風",
+    "手紙"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_040s.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-041",
+   "name": "“ぴ、よ、ぴ、よ、とーどけるよっ”小詠",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "1",
+   "cost": "1",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、他のあなたの《風》のキャラが4枚以上なら、あなたは自分の控え室の《風》のキャラを1枚選び、ストック置場に置いてよい。\n【自】 このカードが【リバース】した時、このカードのバトル相手のレベルが相手のレベルより高いなら、あなたは相手のクロックの上から1枚を、控え室に置いてよい。そうしたら、あなたはそのキャラをクロック置場に置く。\n\"-\"",
+   "traits": [
+    "風",
+    "手紙"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_041.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-041S",
+   "name": "“ぴ、よ、ぴ、よ、とーどけるよっ”小詠",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "1",
+   "cost": "1",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、他のあなたの《風》のキャラが4枚以上なら、あなたは自分の控え室の《風》のキャラを1枚選び、ストック置場に置いてよい。\n【自】 このカードが【リバース】した時、このカードのバトル相手のレベルが相手のレベルより高いなら、あなたは相手のクロックの上から1枚を、控え室に置いてよい。そうしたら、あなたはそのキャラをクロック置場に置く。\n\"-\"",
+   "traits": [
+    "風",
+    "手紙"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_041s.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-042",
+   "name": "ツミレ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "2",
+   "cost": "0",
+   "power": "6000",
+   "soul": 1,
+   "trigger": "－",
+   "text": "【永】 あなたのターン中、他のあなたのカード名に「六花」を含むキャラがいるなら、このカードのパワーを＋6000。\n\"オロロォ〜\"",
+   "traits": [
+    "風",
+    "動物"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_042.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-042S",
+   "name": "ツミレ",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "2",
+   "cost": "0",
+   "power": "6000",
+   "soul": 1,
+   "trigger": "－",
+   "text": "【永】 あなたのターン中、他のあなたのカード名に「六花」を含むキャラがいるなら、このカードのパワーを＋6000。\n\"オロロロォーー！\"",
+   "traits": [
+    "風",
+    "動物"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_042s.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-043",
+   "name": "“チャイナを着てみチャイナ”六花",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "2",
+   "cost": "1",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】【リンク】 ７つのかくご\n【永】 あなたのターン中、他のあなたの、カード名に「千春」を含まない《風》のキャラすべてに、パワーを＋2000。 \n【自】［(1) このカードを思い出にする］ あなたのCXフェイズの始めに、あなたのレベルが3以上なら、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「“フォークダンスを妹と”六花」を1枚選び、このカードがいた枠に置く。\n\"点心召しませ\"",
+   "traits": [
+    "風",
+    "妹"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_043.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-043S",
+   "name": "“チャイナを着てみチャイナ”六花",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "2",
+   "cost": "1",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】【リンク】 ７つのかくご\n【永】 あなたのターン中、他のあなたの、カード名に「千春」を含まない《風》のキャラすべてに、パワーを＋2000。 \n【自】［(1) このカードを思い出にする］ あなたのCXフェイズの始めに、あなたのレベルが3以上なら、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「“フォークダンスを妹と”六花」を1枚選び、このカードがいた枠に置く。\n\"この衣装を着れば、食いつきが抜群だと渡されたんです\"",
+   "traits": [
+    "風",
+    "妹"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_043s.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-044",
+   "name": "“ふたり並んで帰り道”麦＆小詠",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "2",
+   "cost": "1",
+   "power": "7000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、そのターン中、このカードのパワーを＋Ｘ。Ｘはあなたの《風》のキャラの枚数×1000に等しい。\n【自】［(2) 手札を2枚控え室に置く］ このカードがアタックした時、あなたはコストを払ってよい。そうしたら、相手に2ダメージを与える。（ダメージキャンセルは発生する）\n\"小詠「ぴぃ……<br>暗くて何も見えないです……」\"",
+   "traits": [
+    "風",
+    "手紙"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_044.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-044S",
+   "name": "“ふたり並んで帰り道”麦＆小詠",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "2",
+   "cost": "1",
+   "power": "7000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、そのターン中、このカードのパワーを＋Ｘ。Ｘはあなたの《風》のキャラの枚数×1000に等しい。\n【自】［(2) 手札を2枚控え室に置く］ このカードがアタックした時、あなたはコストを払ってよい。そうしたら、相手に2ダメージを与える。（ダメージキャンセルは発生する）\n\"小詠「麦さんっ<br>あれを見てくださいっ」\"",
+   "traits": [
+    "風",
+    "手紙"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_044s.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-045",
+   "name": "一人前の郵便屋になるために",
+   "type": "Event",
+   "rarity": "R",
+   "color": "green",
+   "level": "1",
+   "cost": "1",
+   "power": "",
+   "soul": 0,
+   "trigger": "－",
+   "text": "あなたの《風》のキャラがいるなら、あなたは自分の控え室の《風》のキャラを1枚選び、手札に戻す。\nこのカードを思い出にする。\nあなたは自分の山札の上から1枚を公開する。そのカードがレベル0以下のキャラならストック置場に置く。（そうでないなら元に戻す）\n【永】 このカードと同じカード名のカードは、デッキに好きな枚数入れることができる。\n\"むん、むん、むん、むん\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_045.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-045S",
+   "name": "一人前の郵便屋になるために",
+   "type": "Event",
+   "rarity": "SR",
+   "color": "green",
+   "level": "1",
+   "cost": "1",
+   "power": "",
+   "soul": 0,
+   "trigger": "－",
+   "text": "あなたの《風》のキャラがいるなら、あなたは自分の控え室の《風》のキャラを1枚選び、手札に戻す。\nこのカードを思い出にする。\nあなたは自分の山札の上から1枚を公開する。そのカードがレベル0以下のキャラならストック置場に置く。（そうでないなら元に戻す）\n【永】 このカードと同じカード名のカードは、デッキに好きな枚数入れることができる。\n\"ぴ、よ、ぴ、よ、とーどけるよっ<br>お、て、が、み、<br>いーますぐにっ<br>ぴ、よ、ぴ、よ、まーっててねっ\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_045s.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-046",
+   "name": "世界が壊れた日",
+   "type": "Event",
+   "rarity": "U",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "",
+   "soul": 0,
+   "trigger": "－",
+   "text": "あなたは自分の山札の上から4枚を、控え室に置き、自分の控え室のレベルＸ以下の《風》のキャラを1枚まで選び、手札に戻す。Ｘはそれらのカードのトリガーアイコンの[[soul.gif]]の合計に等しい。\n\"麦「……行こう。ずっと一緒だ」\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_046.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-046S",
+   "name": "世界が壊れた日",
+   "type": "Event",
+   "rarity": "SR",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "",
+   "soul": 0,
+   "trigger": "－",
+   "text": "あなたは自分の山札の上から4枚を、控え室に置き、自分の控え室のレベルＸ以下の《風》のキャラを1枚まで選び、手札に戻す。Ｘはそれらのカードのトリガーアイコンの[[soul.gif]]の合計に等しい。\n\"麦「……ずっと一緒だ……六花」<br>六花「……はい」\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_046s.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-047",
+   "name": "雨上がりと涙とキスの味",
+   "type": "Event",
+   "rarity": "U",
+   "color": "green",
+   "level": "3",
+   "cost": "1",
+   "power": "",
+   "soul": 0,
+   "trigger": "－",
+   "text": "［手札の《風》のキャラを1枚控え室に置く］ あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の《風》のキャラを3枚まで選び、手札に戻す。\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_047.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-047S",
+   "name": "雨上がりと涙とキスの味",
+   "type": "Event",
+   "rarity": "SR",
+   "color": "green",
+   "level": "3",
+   "cost": "1",
+   "power": "",
+   "soul": 0,
+   "trigger": "－",
+   "text": "［手札の《風》のキャラを1枚控え室に置く］ あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の《風》のキャラを3枚まで選び、手札に戻す。\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_047s.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-048",
+   "name": "嘘つきなさよなら",
+   "type": "Climax",
+   "rarity": "CR",
+   "color": "green",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[treasure.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[treasure.gif]]：このカードがトリガーした時、あなたはこのカードを手札に戻す。あなたは自分の山札の上から1枚を、ストック置場に置いてよい）\n\"小詠「私はもう、いっぱいになりました<br>こんな私でも、いっぱいになれました」\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_048.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-048R",
+   "name": "嘘つきなさよなら",
+   "type": "Climax",
+   "rarity": "RRR",
+   "color": "green",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[treasure.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[treasure.gif]]：このカードがトリガーした時、あなたはこのカードを手札に戻す。あなたは自分の山札の上から1枚を、ストック置場に置いてよい）\n\"小詠「みなさんの笑顔でいっぱいです。<br>笑い声でいっぱいです。<br>涙でいっぱいです。<br>麦さんでいっぱいです<br>幸せで、いっぱいです」\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_048r.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-049",
+   "name": "おじいさんからの手紙",
+   "type": "Climax",
+   "rarity": "CR",
+   "color": "green",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[treasure.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[treasure.gif]]：このカードがトリガーした時、あなたはこのカードを手札に戻す。あなたは自分の山札の上から1枚を、ストック置場に置いてよい）\n\"これは……\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_049.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-049R",
+   "name": "おじいさんからの手紙",
+   "type": "Climax",
+   "rarity": "RRR",
+   "color": "green",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[treasure.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[treasure.gif]]：このカードがトリガーした時、あなたはこのカードを手札に戻す。あなたは自分の山札の上から1枚を、ストック置場に置いてよい）\n\"『私たちが、天国にポストを作ろう。<br>きっと、楽しい。<br>また会おう。<br>白渡勇美より』\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_049r.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-050",
+   "name": "真澄小学校の卒業式",
+   "type": "Climax",
+   "rarity": "CR",
+   "color": "green",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【自】 このカードが手札からCX置場に置かれた時、あなたは自分の控え室のトリガーアイコンに[[soul.gif]]があるキャラを1枚まで選び、手札に戻し、自分のキャラを2枚まで選び、そのターン中、ソウルを＋1。\n\"麦「卒業生……速川六花さん」\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_050.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-050R",
+   "name": "真澄小学校の卒業式",
+   "type": "Climax",
+   "rarity": "RRR",
+   "color": "green",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【自】 このカードが手札からCX置場に置かれた時、あなたは自分の控え室のトリガーアイコンに[[soul.gif]]があるキャラを1枚まで選び、手札に戻し、自分のキャラを2枚まで選び、そのターン中、ソウルを＋1。\n\"はい\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_050r.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-051",
+   "name": "この町で叶った夢",
+   "type": "Climax",
+   "rarity": "CR",
+   "color": "green",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【自】 このカードが手札からCX置場に置かれた時、あなたは自分の控え室のレベル1以下のキャラを1枚まで選び、ストック置場に置き、自分のキャラすべてに、そのターン中、ソウルを＋1。\n\"わたしが本当にしたかったのは、兄さんと並んで登校することだったので<br>もう、叶いました\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_051.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-051R",
+   "name": "この町で叶った夢",
+   "type": "Climax",
+   "rarity": "RRR",
+   "color": "green",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【自】 このカードが手札からCX置場に置かれた時、あなたは自分の控え室のレベル1以下のキャラを1枚まで選び、ストック置場に置き、自分のキャラすべてに、そのターン中、ソウルを＋1。\n\"そうですか……わたしは立派な妹でいられましたか……<br>ふふ、よかった\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_051r.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-052",
+   "name": "“クレオメが咲き誇るこの場所で”陽彩",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "－",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から3枚を、控え室に置き、そのターン中、このカードのパワーを＋Ｘ。Ｘはそれらのカードのレベルの合計×1000に等しい。（CXのレベルは0として扱う）\n【自】［(1) 手札を1枚クロック置場に置く］ このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の《風》のキャラを2枚まで選び、手札に戻す。\n\"-\"",
+   "traits": [
+    "風",
+    "美"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_052.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-052S",
+   "name": "“クレオメが咲き誇るこの場所で”陽彩",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "－",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から3枚を、控え室に置き、そのターン中、このカードのパワーを＋Ｘ。Ｘはそれらのカードのレベルの合計×1000に等しい。（CXのレベルは0として扱う）\n【自】［(1) 手札を1枚クロック置場に置く］ このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の《風》のキャラを2枚まで選び、手札に戻す。\n\"-\"",
+   "traits": [
+    "風",
+    "美"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_052s.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-052SSP",
+   "name": "“クレオメが咲き誇るこの場所で”陽彩",
+   "type": "Character",
+   "rarity": "SSP",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "－",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から3枚を、控え室に置き、そのターン中、このカードのパワーを＋Ｘ。Ｘはそれらのカードのレベルの合計×1000に等しい。（CXのレベルは0として扱う）\n【自】［(1) 手札を1枚クロック置場に置く］ このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の《風》のキャラを2枚まで選び、手札に戻す。\n\"-\"",
+   "traits": [
+    "風",
+    "美"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_052ssp.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-053",
+   "name": "“泡沫の星々を巡る風”陽彩",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "－",
+   "text": "【自】 このカードが手札から舞台に置かれた時、他のあなたの《風》のキャラがいるなら、そのターン中、このカードのパワーを＋2000。\n【自】【CXコンボ】［手札のキャラを1枚控え室に置く］ このカードがアタックした時、CX置場に「好きの数だけ金平糖」があるなら、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を上から3枚まで見て、《風》のキャラか「三人の旅」を3枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置き、自分の山札を上から1枚見て、山札の上か下か控え室に置く。\n\"-\"",
+   "traits": [
+    "風",
+    "美"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_053.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-053S",
+   "name": "“泡沫の星々を巡る風”陽彩",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "－",
+   "text": "【自】 このカードが手札から舞台に置かれた時、他のあなたの《風》のキャラがいるなら、そのターン中、このカードのパワーを＋2000。\n【自】【CXコンボ】［手札のキャラを1枚控え室に置く］ このカードがアタックした時、CX置場に「好きの数だけ金平糖」があるなら、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を上から3枚まで見て、《風》のキャラか「三人の旅」を3枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置き、自分の山札を上から1枚見て、山札の上か下か控え室に置く。\n\"-\"",
+   "traits": [
+    "風",
+    "美"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_053s.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-053SP",
+   "name": "“泡沫の星々を巡る風”陽彩",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "－",
+   "text": "【自】 このカードが手札から舞台に置かれた時、他のあなたの《風》のキャラがいるなら、そのターン中、このカードのパワーを＋2000。\n【自】【CXコンボ】［手札のキャラを1枚控え室に置く］ このカードがアタックした時、CX置場に「好きの数だけ金平糖」があるなら、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を上から3枚まで見て、《風》のキャラか「三人の旅」を3枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置き、自分の山札を上から1枚見て、山札の上か下か控え室に置く。\n\"-\"",
+   "traits": [
+    "風",
+    "美"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_053sp.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-054",
+   "name": "“イエス・オア・ゴー？”朱比華",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "－",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の控え室の《風》のキャラと思い出置場の《風》のキャラを1枚ずつ選び、入れ替えてよい。\n【自】［他のあなたの舞台のキャラを1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見てCXを1枚まで選んで公開し、自分の手札のCXを1枚まで選んで公開し、それらのCXを入れ替え、その山札をシャッフルする。\n\"どっち……\"",
+   "traits": [
+    "風",
+    "ピザ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_054.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-054S",
+   "name": "“イエス・オア・ゴー？”朱比華",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "－",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の控え室の《風》のキャラと思い出置場の《風》のキャラを1枚ずつ選び、入れ替えてよい。\n【自】［他のあなたの舞台のキャラを1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見てCXを1枚まで選んで公開し、自分の手札のCXを1枚まで選んで公開し、それらのCXを入れ替え、その山札をシャッフルする。\n\"うん……\"",
+   "traits": [
+    "風",
+    "ピザ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_054s.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-055",
+   "name": "“愛に生きた人生”陽彩",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "－",
+   "text": "【永】 あなたの手札の枚数上限を＋1。\n【起】［このカードを【レスト】する］ このカードの下にマーカーがないなら、あなたは自分の控え室の、《風》のキャラか「三人の旅」を1枚選び、このカードの下にマーカーとして表向きに置く。\n【起】［(1) このカードを【レスト】する］ あなたはこのカードの下のマーカーを1枚手札に戻す。\n\"-\"",
+   "traits": [
+    "風",
+    "美"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_055.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-055S",
+   "name": "“愛に生きた人生”陽彩",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "－",
+   "text": "【永】 あなたの手札の枚数上限を＋1。\n【起】［このカードを【レスト】する］ このカードの下にマーカーがないなら、あなたは自分の控え室の、《風》のキャラか「三人の旅」を1枚選び、このカードの下にマーカーとして表向きに置く。\n【起】［(1) このカードを【レスト】する］ あなたはこのカードの下のマーカーを1枚手札に戻す。\n\"-\"",
+   "traits": [
+    "風",
+    "美"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_055s.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-056",
+   "name": "“かわいい子には旅をさせよ”穂乃夏",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "－",
+   "text": "【永】 このカードはサイドアタックできない。\n【自】 このカードのバトル相手が【リバース】した時、あなたは他の自分の《風》のキャラを1枚選び、【レスト】し、後列のキャラのいない枠に動かす。\n\"穂乃夏「いってきまーす！」\"",
+   "traits": [
+    "風",
+    "ピザ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_056.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-056S",
+   "name": "“かわいい子には旅をさせよ”穂乃夏",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "－",
+   "text": "【永】 このカードはサイドアタックできない。\n【自】 このカードのバトル相手が【リバース】した時、あなたは他の自分の《風》のキャラを1枚選び、【レスト】し、後列のキャラのいない枠に動かす。\n\"-\"",
+   "traits": [
+    "風",
+    "ピザ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_056s.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-057",
+   "name": "“その視線の先に”陽彩",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "－",
+   "text": "【自】［(2)］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見てトリガーアイコンが[[salvage.gif]]のCXを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"じゃ、イチャイチャしましょうか？\"",
+   "traits": [
+    "風",
+    "美"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_057.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-057S",
+   "name": "“その視線の先に”陽彩",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "－",
+   "text": "【自】［(2)］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見てトリガーアイコンが[[salvage.gif]]のCXを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"……知ってる\"",
+   "traits": [
+    "風",
+    "美"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_057s.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-058",
+   "name": "“心が動く理由”陽彩",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 このカードは、色条件を満たさずに手札からプレイできる。\n【自】 このカードが手札から舞台に置かれた時、次の3つの効果のうちあなたが選んだ1つを行う。『あなたは1枚引いてよい。』『相手は自分の山札の上から12枚を、控え室に置く。』『相手は自分のストックすべてを、山札に戻し、その山札をシャッフルし、自分の山札の上から同じ枚数をストック置場に置く。』\n\"むーぎ。もうちょっと、水に入りましょうよ\"",
+   "traits": [
+    "風",
+    "美"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_058.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-058S",
+   "name": "“心が動く理由”陽彩",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 このカードは、色条件を満たさずに手札からプレイできる。\n【自】 このカードが手札から舞台に置かれた時、次の3つの効果のうちあなたが選んだ1つを行う。『あなたは1枚引いてよい。』『相手は自分の山札の上から12枚を、控え室に置く。』『相手は自分のストックすべてを、山札に戻し、その山札をシャッフルし、自分の山札の上から同じ枚数をストック置場に置く。』\n\"じゃあ、そのまま行きましょう♪\"",
+   "traits": [
+    "風",
+    "美"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_058s.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-058SP",
+   "name": "“心が動く理由”陽彩",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 このカードは、色条件を満たさずに手札からプレイできる。\n【自】 このカードが手札から舞台に置かれた時、次の3つの効果のうちあなたが選んだ1つを行う。『あなたは1枚引いてよい。』『相手は自分の山札の上から12枚を、控え室に置く。』『相手は自分のストックすべてを、山札に戻し、その山札をシャッフルし、自分の山札の上から同じ枚数をストック置場に置く。』\n\"-\"",
+   "traits": [
+    "風",
+    "美"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_058sp.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-059",
+   "name": "“母との再会”穂乃夏",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "10500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分のクロック置場の《風》のキャラを1枚選び、山札の下に置いてよい。\n【自】【CXコンボ】［(2) 手札を2枚控え室に置く］ このカードがアタックした時、CX置場に「母の愛は風に乗って」があり、このカードの下にマーカーがあり、他のあなたの《風》のキャラが2枚以上なら、あなたはコストを払ってよい。そうしたら、相手に2ダメージを2回与える。（ダメージキャンセルは発生する）\n\"穂乃夏「あ……あぁ……<br>おかーさん……！」\"",
+   "traits": [
+    "風",
+    "ピザ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_059.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-059S",
+   "name": "“母との再会”穂乃夏",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "10500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分のクロック置場の《風》のキャラを1枚選び、山札の下に置いてよい。\n【自】【CXコンボ】［(2) 手札を2枚控え室に置く］ このカードがアタックした時、CX置場に「母の愛は風に乗って」があり、このカードの下にマーカーがあり、他のあなたの《風》のキャラが2枚以上なら、あなたはコストを払ってよい。そうしたら、相手に2ダメージを2回与える。（ダメージキャンセルは発生する）\n\"穂乃夏「ほのかも……！<br>ほのかも、おかーさんに……ずっと、ずっと、会いたかったっ！」\"",
+   "traits": [
+    "風",
+    "ピザ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_059s.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-060",
+   "name": "“キミの選択は……”陽彩",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "13000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたの控え室のトリガーアイコンが[[salvage.gif]]のCXが3枚以上なら、あなたの手札のこのカードのレベルを－1。\n【自】【CXコンボ】 このカードがアタックした時、CX置場に「数多なる選択の果てに」があり、他のあなたの《風》のキャラが2枚以上なら、次の3つの効果のうちあなたが選んだ1つを行う。『あなたは自分のクロックの上から1枚を、控え室に置いてよい。』『あなたは自分の控え室の《風》のキャラを1枚まで選び、手札に戻し、そのアタック中、あなたはトリガーステップにトリガーチェックを2回行う。』『相手に1ダメージを与える。』（ダメージキャンセルは発生する）\n\"-\"",
+   "traits": [
+    "風",
+    "美"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_060.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-060S",
+   "name": "“キミの選択は……”陽彩",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "13000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたの控え室のトリガーアイコンが[[salvage.gif]]のCXが3枚以上なら、あなたの手札のこのカードのレベルを－1。\n【自】【CXコンボ】 このカードがアタックした時、CX置場に「数多なる選択の果てに」があり、他のあなたの《風》のキャラが2枚以上なら、次の3つの効果のうちあなたが選んだ1つを行う。『あなたは自分のクロックの上から1枚を、控え室に置いてよい。』『あなたは自分の控え室の《風》のキャラを1枚まで選び、手札に戻し、そのアタック中、あなたはトリガーステップにトリガーチェックを2回行う。』『相手に1ダメージを与える。』（ダメージキャンセルは発生する）\n\"-\"",
+   "traits": [
+    "風",
+    "美"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_060s.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-061",
+   "name": "“生まれ来るあなたに”朱比華",
+   "type": "Character",
+   "rarity": "U",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "－",
+   "text": "【自】 継承 他のあなたのカード名に「穂乃夏」を含むキャラが手札から舞台に置かれた時、そのキャラの下にマーカーがないなら、あなたはこのカードの下のマーカー1枚までとこのカードを選び、その舞台に置かれたキャラの下にマーカーとして好きな順番で表向きに置いてよい。そうしたら、残りのマーカーを控え室に置き、あなたは自分の山札を上から1枚見て、山札の上か控え室に置く。\n【起】 集中 ［(1) このカードを【レスト】する］ あなたは自分の山札の上から4枚をめくり、控え室に置く。それらのカードのCX1枚につき、次の行動を行う。『あなたは自分の山札を上から3枚まで見て、カードを1枚まで選び、手札に加え、残りのカードを控え室に置く。』\n\"名前だけど、広美につけてもらえないかなって……今思ったの\"",
+   "traits": [
+    "風",
+    "ピザ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_061.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-061S",
+   "name": "“生まれ来るあなたに”朱比華",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "－",
+   "text": "【自】 継承 他のあなたのカード名に「穂乃夏」を含むキャラが手札から舞台に置かれた時、そのキャラの下にマーカーがないなら、あなたはこのカードの下のマーカー1枚までとこのカードを選び、その舞台に置かれたキャラの下にマーカーとして好きな順番で表向きに置いてよい。そうしたら、残りのマーカーを控え室に置き、あなたは自分の山札を上から1枚見て、山札の上か控え室に置く。\n【起】 集中 ［(1) このカードを【レスト】する］ あなたは自分の山札の上から4枚をめくり、控え室に置く。それらのカードのCX1枚につき、次の行動を行う。『あなたは自分の山札を上から3枚まで見て、カードを1枚まで選び、手札に加え、残りのカードを控え室に置く。』\n\"美味しいものが分かる子にはなってほしいわ\"",
+   "traits": [
+    "風",
+    "ピザ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_061s.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-062",
+   "name": "“生まれなかった宇宙で”陽彩＆麦",
+   "type": "Character",
+   "rarity": "U",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "－",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から1枚を公開する。そのカードが《風》のキャラかイベントなら手札に加え、あなたは自分の手札を1枚選び、控え室に置く。（そうでないなら元に戻す）\n【自】 このカードが手札から舞台に置かれた時、他のあなたの《風》のキャラが2枚以上なら、あなたは1枚引いてよい。そうしたら、あなたは自分の手札を1枚選び、控え室に置く。\n\"陽彩「どうしたの麦……ずいぶん見てたけど？」<br>麦「ん……そうだな……<br>これはこれで、幸せ――」\"",
+   "traits": [
+    "風",
+    "美"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_062.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-062S",
+   "name": "“生まれなかった宇宙で”陽彩＆麦",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "－",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から1枚を公開する。そのカードが《風》のキャラかイベントなら手札に加え、あなたは自分の手札を1枚選び、控え室に置く。（そうでないなら元に戻す）\n【自】 このカードが手札から舞台に置かれた時、他のあなたの《風》のキャラが2枚以上なら、あなたは1枚引いてよい。そうしたら、あなたは自分の手札を1枚選び、控え室に置く。\n\"陽彩「あの子……何してるのかしら？」\"",
+   "traits": [
+    "風",
+    "美"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_062s.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-063",
+   "name": "“優しく心を蝕む呪い”玖琉未",
+   "type": "Character",
+   "rarity": "U",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "－",
+   "text": "【永】 相手のキャラすべてに、『【自】 アンコール ［(2)］』を与える。\n【自】 このカードのバトル相手が【リバース】した時、あなたのCX置場にトリガーアイコンが[[soul.gif]][[soul.gif]]のCXがあるなら、あなたは自分の控え室のレベル0以下のキャラを1枚選び、舞台の好きな枠に【レスト】して置く。\n\"スピカさんにとって、あなたの『明日』は、どれだけの時間になると思いますか？\"",
+   "traits": [
+    "風",
+    "考古学者"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_063.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-063S",
+   "name": "“優しく心を蝕む呪い”玖琉未",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "－",
+   "text": "【永】 相手のキャラすべてに、『【自】 アンコール ［(2)］』を与える。\n【自】 このカードのバトル相手が【リバース】した時、あなたのCX置場にトリガーアイコンが[[soul.gif]][[soul.gif]]のCXがあるなら、あなたは自分の控え室のレベル0以下のキャラを1枚選び、舞台の好きな枠に【レスト】して置く。\n\"今、あなたの手の届く場所に誰がいるのか<br>一番大切にしなきゃいけないものはなんなのか<br>しっかりと考えた方がいいですよ\"",
+   "traits": [
+    "風",
+    "考古学者"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_063s.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-064",
+   "name": "“鎮めの調べ”朱比華",
+   "type": "Character",
+   "rarity": "U",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】［(2) 手札の《風》のキャラを1枚控え室に置く］ あなたがこのカードの『助太刀』を使った時、あなたはコストを払ってよい。そうしたら、あなたは相手のキャラを1枚選び、そのターン中、ソウルを－2。\n【起】【カウンター】 助太刀2500 レベル2 ［(1) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋2500）\n\"鎮まりなさい<br>還りなさい\"",
+   "traits": [
+    "風",
+    "ピザ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_064.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-064S",
+   "name": "“鎮めの調べ”朱比華",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】［(2) 手札の《風》のキャラを1枚控え室に置く］ あなたがこのカードの『助太刀』を使った時、あなたはコストを払ってよい。そうしたら、あなたは相手のキャラを1枚選び、そのターン中、ソウルを－2。\n【起】【カウンター】 助太刀2500 レベル2 ［(1) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋2500）\n\"そして静かに眠りなさい\"",
+   "traits": [
+    "風",
+    "ピザ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_064s.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-065",
+   "name": "“最後の一回の奇跡”陽彩",
+   "type": "Character",
+   "rarity": "U",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "6000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分のキャラを2枚まで選び、そのターン中、次の能力を与える。『【自】 このカードが【リバース】した時、このカードのバトル相手のレベルが相手のレベルより高いなら、あなたはそのキャラを【リバース】してよい。』\n【自】 このカードのバトル相手でレベル2以上のキャラが【リバース】した時、あなたは自分の控え室の《風》のキャラを1枚選び、ストック置場に置いてよい。\n\"ど、どうかしら？\"",
+   "traits": [
+    "風",
+    "美"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_065.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-065S",
+   "name": "“最後の一回の奇跡”陽彩",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "6000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分のキャラを2枚まで選び、そのターン中、次の能力を与える。『【自】 このカードが【リバース】した時、このカードのバトル相手のレベルが相手のレベルより高いなら、あなたはそのキャラを【リバース】してよい。』\n【自】 このカードのバトル相手でレベル2以上のキャラが【リバース】した時、あなたは自分の控え室の《風》のキャラを1枚選び、ストック置場に置いてよい。\n\"そうね。そうよね麦……心配かけちゃったわね\"",
+   "traits": [
+    "風",
+    "美"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_065s.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-066",
+   "name": "“那由多を超える輝き”陽彩",
+   "type": "Character",
+   "rarity": "U",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "6500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 応援 このカードの前のあなたのレベル3以上のキャラすべてに、パワーを＋2000。\n【永】 あなたのターン中、他のあなたの「“キミの選択は……”陽彩」すべてに、パワーを＋1000し、次の能力を与える。『【自】［(3) 手札を2枚控え室に置く］ このカードがアタックした時、あなたはコストを払ってよい。そうしたら、相手に3ダメージを与える。』（ダメージキャンセルは発生する）\n\"あのふたりといた時間には、敵わないわね\"",
+   "traits": [
+    "風",
+    "美"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_066.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-066S",
+   "name": "“那由多を超える輝き”陽彩",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "6500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 応援 このカードの前のあなたのレベル3以上のキャラすべてに、パワーを＋2000。\n【永】 あなたのターン中、他のあなたの「“キミの選択は……”陽彩」すべてに、パワーを＋1000し、次の能力を与える。『【自】［(3) 手札を2枚控え室に置く］ このカードがアタックした時、あなたはコストを払ってよい。そうしたら、相手に3ダメージを与える。』（ダメージキャンセルは発生する）\n\"好きよ……麦\"",
+   "traits": [
+    "風",
+    "美"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_066s.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-067",
+   "name": "“この町で生きていく”文弥",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "－",
+   "text": "【起】［このカードを【レスト】する］ あなたは自分の《風》のキャラを2枚まで選び、そのターン中、パワーを＋1500し、《出会い》を与える。\n\"自分はずっと町にいるのかなって<br>この小さな町で、ささやかに生きながら終わるのかなって\"",
+   "traits": [
+    "風",
+    "縁"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_067.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-067S",
+   "name": "“この町で生きていく”文弥",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "－",
+   "text": "【起】［このカードを【レスト】する］ あなたは自分の《風》のキャラを2枚まで選び、そのターン中、パワーを＋1500し、《出会い》を与える。\n\"……遠く、か<br>いいね\"",
+   "traits": [
+    "風",
+    "縁"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_067s.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-068",
+   "name": "“バロンとのお別れ”朱比華",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "－",
+   "text": "【自】 このカードが手札から舞台に置かれた時かアタックした時、あなたは自分の《風》のキャラを1枚選び、そのターン中、パワーを＋3000。\n\"スピカ「バロン。なんで……<br>どうしてそんな無茶なことを……」\"",
+   "traits": [
+    "風",
+    "ピザ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_068.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-068S",
+   "name": "“バロンとのお別れ”朱比華",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "－",
+   "text": "【自】 このカードが手札から舞台に置かれた時かアタックした時、あなたは自分の《風》のキャラを1枚選び、そのターン中、パワーを＋3000。\n\"スピカ「バロン……ありがっ……とう……<br>ひっく……ありが、とう……」\"",
+   "traits": [
+    "風",
+    "ピザ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_068s.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-069",
+   "name": "“T-REXスーツ”玖琉未",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "－",
+   "text": "【自】 このカードがアタックした時、そのターン中、このカードのパワーを＋Ｘし、このカードは《恐竜》を得る。Ｘは相手のキャラの枚数×1000に等しい。\n【起】 集中 ［(1)］ あなたは自分の山札の上から4枚をめくり、控え室に置く。それらのカードのCX1枚につき、次の行動を行う。『あなたは自分の控え室の《風》のキャラを1枚選び、手札に戻し、自分の手札を1枚選び、控え室に置く。』\n\"河瀬「あっちだ！<br>ＵＭＡが走ってるぞ！」\"",
+   "traits": [
+    "風",
+    "考古学者"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_069.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-069S",
+   "name": "“T-REXスーツ”玖琉未",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "－",
+   "text": "【自】 このカードがアタックした時、そのターン中、このカードのパワーを＋Ｘし、このカードは《恐竜》を得る。Ｘは相手のキャラの枚数×1000に等しい。\n【起】 集中 ［(1)］ あなたは自分の山札の上から4枚をめくり、控え室に置く。それらのカードのCX1枚につき、次の行動を行う。『あなたは自分の控え室の《風》のキャラを1枚選び、手札に戻し、自分の手札を1枚選び、控え室に置く。』\n\"太古のロマンを！　この身で！　感じて！　ましゅぅー！\"",
+   "traits": [
+    "風",
+    "考古学者"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_069s.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-070",
+   "name": "“たかいたかーい”麦＆穂乃夏",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "－",
+   "text": "【永】 あなたのターン中、このカードのパワーを＋2000。\n【自】 このカードのバトル相手が【リバース】した時、あなたはこのカードを思い出にしてよい。そうしたら、次のあなたのドローフェイズの始めに、あなたは自分の思い出置場の「“たかいたかーい”麦＆穂乃夏」を1枚選び、舞台の好きな枠に置く。\n\"穂乃夏「わっ、わっ！　高い！　すごく高い！」\"",
+   "traits": [
+    "風",
+    "ピザ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_070.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-070S",
+   "name": "“たかいたかーい”麦＆穂乃夏",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "－",
+   "text": "【永】 あなたのターン中、このカードのパワーを＋2000。\n【自】 このカードのバトル相手が【リバース】した時、あなたはこのカードを思い出にしてよい。そうしたら、次のあなたのドローフェイズの始めに、あなたは自分の思い出置場の「“たかいたかーい”麦＆穂乃夏」を1枚選び、舞台の好きな枠に置く。\n\"穂乃夏「あはは、あはははは、飛んでるーほのか飛んでるー<br>ほのかも、いつか父にしてあげるー！」\"",
+   "traits": [
+    "風",
+    "ピザ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_070s.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-071",
+   "name": "“文化祭デート”陽彩",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "－",
+   "text": "【自】［(2)］ あなたのアンコールステップの始めに、あなたはコストを払ってよい。そうしたら、あなたは他の自分のキャラを1枚と、このカードを選び、思い出にする。次のあなたのドローフェイズの始めに、あなたは自分の思い出置場のそれらのキャラを、舞台の別々の枠に置く。\n\"そのお団子、一口ちょうだい♪\"",
+   "traits": [
+    "風",
+    "美"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_071.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-071S",
+   "name": "“文化祭デート”陽彩",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "－",
+   "text": "【自】［(2)］ あなたのアンコールステップの始めに、あなたはコストを払ってよい。そうしたら、あなたは他の自分のキャラを1枚と、このカードを選び、思い出にする。次のあなたのドローフェイズの始めに、あなたは自分の思い出置場のそれらのキャラを、舞台の別々の枠に置く。\n\"麦、あっちに面白そうなものがあるわ！\"",
+   "traits": [
+    "風",
+    "美"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_071s.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-072",
+   "name": "“６０年の時をこえた友達”広美",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "2",
+   "cost": "0",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたのターン中、他のあなたのカード名に「朱比華」か「穂乃夏」を含むキャラすべてに、パワーを＋1000。\n【起】［このカードを【レスト】する］ このカードの下にマーカーがないなら、あなたは自分の控え室の《風》のキャラを1枚選び、このカードの下にマーカーとして裏向きに置く。\n【起】［このカードを【レスト】する］ あなたはこのカードの下のマーカーを1枚ストック置場に置く。\n\"よく草笛を吹いていたよ。スピカに教えて貰った草笛を<br>この音色を忘れなければ、彼女もいつか帰ってくるような気がしたから\"",
+   "traits": [
+    "風",
+    "医者"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_072.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-072S",
+   "name": "“６０年の時をこえた友達”広美",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "2",
+   "cost": "0",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたのターン中、他のあなたのカード名に「朱比華」か「穂乃夏」を含むキャラすべてに、パワーを＋1000。\n【起】［このカードを【レスト】する］ このカードの下にマーカーがないなら、あなたは自分の控え室の《風》のキャラを1枚選び、このカードの下にマーカーとして裏向きに置く。\n【起】［このカードを【レスト】する］ あなたはこのカードの下のマーカーを1枚ストック置場に置く。\n\"麦……どうか、スピカの居場所になってやってくれ\"",
+   "traits": [
+    "風",
+    "医者"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_072s.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-073",
+   "name": "三人の旅",
+   "type": "Event",
+   "rarity": "U",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "",
+   "soul": 0,
+   "trigger": "－",
+   "text": "［手札を1枚控え室に置く］ あなたはコストを払ってよい。そうしたら、次の行動を2回行う。『あなたは自分の山札を上から4枚まで見て、《風》のキャラを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。』\n\"麦「まずは北の地を一周か？」<br>陽彩「そうね、そうしましょう」<br>つづら「大きすぎるし、中央の方はどうするの？」\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_073.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-073S",
+   "name": "三人の旅",
+   "type": "Event",
+   "rarity": "SR",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "",
+   "soul": 0,
+   "trigger": "－",
+   "text": "［手札を1枚控え室に置く］ あなたはコストを払ってよい。そうしたら、次の行動を2回行う。『あなたは自分の山札を上から4枚まで見て、《風》のキャラを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。』\n\"つづら「でも、時速７０キロで歩けば一時間で着く距離だし、余裕じゃない？」<br>麦「歩く速度じゃない」<br>陽彩「計算は合ってるのに、言ってることが壊れてるわ」\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_073s.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-074",
+   "name": "『おねーさん』の記憶",
+   "type": "Event",
+   "rarity": "U",
+   "color": "red",
+   "level": "3",
+   "cost": "3",
+   "power": "",
+   "soul": 0,
+   "trigger": "－",
+   "text": "相手に3ダメージを与える。（ダメージキャンセルは発生する）\n\"麦……<br>仮初めの幸せはいずれあなたを深く傷つけるわ<br>それでも、あなたを支えて成長させてくれる時間をくれる\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_074.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-074S",
+   "name": "『おねーさん』の記憶",
+   "type": "Event",
+   "rarity": "SR",
+   "color": "red",
+   "level": "3",
+   "cost": "3",
+   "power": "",
+   "soul": 0,
+   "trigger": "－",
+   "text": "相手に3ダメージを与える。（ダメージキャンセルは発生する）\n\"だから……<br>生きなさい<br>走りなさい<br>そして守りなさい<br>あなたの望む未来を\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_074s.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-075",
+   "name": "好きの数だけ金平糖",
+   "type": "Climax",
+   "rarity": "CR",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[salvage.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[salvage.gif]]：このカードがトリガーした時、あなたは自分の控え室のキャラを1枚選び、手札に戻してよい）\n\"陽彩「す、好きぃ！」<br>麦「ああ、俺も好きだ」<br>陽彩「すっごい好き！」<br>麦「めっちゃ好きだな」\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_075.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-075R",
+   "name": "好きの数だけ金平糖",
+   "type": "Climax",
+   "rarity": "RRR",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[salvage.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[salvage.gif]]：このカードがトリガーした時、あなたは自分の控え室のキャラを1枚選び、手札に戻してよい）\n\"麦「俺はお前と……」<br>陽彩「……うん」<br>麦「お前と……」<br>陽彩「ええ……」<br>麦「……家族になりたい」\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_075r.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-076",
+   "name": "母の愛は風に乗って",
+   "type": "Climax",
+   "rarity": "CR",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【自】 このカードが手札からCX置場に置かれた時、あなたは自分の控え室のトリガーアイコンに[[soul.gif]]があるキャラを1枚まで選び、手札に戻し、自分のキャラを2枚まで選び、そのターン中、ソウルを＋1。\n\"麦「俺の何をわたしてもいい！命でも、何でも……！<br>だから穂乃夏を！」\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_076.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-076R",
+   "name": "母の愛は風に乗って",
+   "type": "Climax",
+   "rarity": "RRR",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【自】 このカードが手札からCX置場に置かれた時、あなたは自分の控え室のトリガーアイコンに[[soul.gif]]があるキャラを1枚まで選び、手札に戻し、自分のキャラを2枚まで選び、そのターン中、ソウルを＋1。\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_076r.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-077",
+   "name": "数多なる選択の果てに",
+   "type": "Climax",
+   "rarity": "CR",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[salvage.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[salvage.gif]]：このカードがトリガーした時、あなたは自分の控え室のキャラを1枚選び、手札に戻してよい）\n\"もちろんよ……\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_077.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-077R",
+   "name": "数多なる選択の果てに",
+   "type": "Climax",
+   "rarity": "RRR",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[salvage.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[salvage.gif]]：このカードがトリガーした時、あなたは自分の控え室のキャラを1枚選び、手札に戻してよい）\n\"……家族になりましょう\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_077r.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-078",
+   "name": "“奇跡の投げキッス”愛乃",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "－",
+   "text": "【永】 あなたのターン中、あなたのキャラすべてが《風》なら、このカードのパワーを＋2000し、このカードは次の能力を得る。『【自】［(1)］ このカードがアタックした時、あなたはコストを払ってよい。そうしたら、そのアタック中、あなたはトリガーステップにトリガーチェックを2回行う。』\n【自】 このカードのバトル相手が【リバース】した時、あなたはこのカードを思い出にしてよい。そうしたら、次のあなたのドローフェイズの始めに、あなたは自分の思い出置場の「“奇跡の投げキッス”愛乃」を1枚選び、舞台の好きな枠に置く。\n\"-\"",
+   "traits": [
+    "風",
+    "空"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_078.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-078S",
+   "name": "“奇跡の投げキッス”愛乃",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "－",
+   "text": "【永】 あなたのターン中、あなたのキャラすべてが《風》なら、このカードのパワーを＋2000し、このカードは次の能力を得る。『【自】［(1)］ このカードがアタックした時、あなたはコストを払ってよい。そうしたら、そのアタック中、あなたはトリガーステップにトリガーチェックを2回行う。』\n【自】 このカードのバトル相手が【リバース】した時、あなたはこのカードを思い出にしてよい。そうしたら、次のあなたのドローフェイズの始めに、あなたは自分の思い出置場の「“奇跡の投げキッス”愛乃」を1枚選び、舞台の好きな枠に置く。\n\"-\"",
+   "traits": [
+    "風",
+    "空"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_078s.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-078SSP",
+   "name": "“奇跡の投げキッス”愛乃",
+   "type": "Character",
+   "rarity": "SSP",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "－",
+   "text": "【永】 あなたのターン中、あなたのキャラすべてが《風》なら、このカードのパワーを＋2000し、このカードは次の能力を得る。『【自】［(1)］ このカードがアタックした時、あなたはコストを払ってよい。そうしたら、そのアタック中、あなたはトリガーステップにトリガーチェックを2回行う。』\n【自】 このカードのバトル相手が【リバース】した時、あなたはこのカードを思い出にしてよい。そうしたら、次のあなたのドローフェイズの始めに、あなたは自分の思い出置場の「“奇跡の投げキッス”愛乃」を1枚選び、舞台の好きな枠に置く。\n\"-\"",
+   "traits": [
+    "風",
+    "空"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_078ssp.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-079",
+   "name": "“風が見る夢”愛乃",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "blue",
+   "level": "3",
+   "cost": "2",
+   "power": "9500",
+   "soul": 2,
+   "trigger": "－",
+   "text": "【自】 このカードが手札か思い出置場から舞台に置かれた時、あなたは自分の控え室の《風》のキャラを1枚選び、手札に戻してよい。\n【自】【CXコンボ】 このカードがアタックした時、CX置場に「長い冒険と夢の終わり」があり、他のあなたの《風》のキャラが4枚以上なら、あなたは相手の山札を上から4枚まで見て、カードを1枚まで選び、山札の下に置き、残りのカードを山札の上に好きな順番で置く。\n【自】 記憶 ［手札の《風》のキャラを1枚控え室に置く］ 思い出置場にこのカードがあり、あなたのレベルが3以上なら、あなたのCXフェイズの始めに、あなたはコストを払ってよい。そうしたら、あなたは自分のカード名に「愛乃」を含むキャラを1枚とこのカードを選び、入れ替える。\n\"-\"",
+   "traits": [
+    "風",
+    "空"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_079.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-079S",
+   "name": "“風が見る夢”愛乃",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "3",
+   "cost": "2",
+   "power": "9500",
+   "soul": 2,
+   "trigger": "－",
+   "text": "【自】 このカードが手札か思い出置場から舞台に置かれた時、あなたは自分の控え室の《風》のキャラを1枚選び、手札に戻してよい。\n【自】【CXコンボ】 このカードがアタックした時、CX置場に「長い冒険と夢の終わり」があり、他のあなたの《風》のキャラが4枚以上なら、あなたは相手の山札を上から4枚まで見て、カードを1枚まで選び、山札の下に置き、残りのカードを山札の上に好きな順番で置く。\n【自】 記憶 ［手札の《風》のキャラを1枚控え室に置く］ 思い出置場にこのカードがあり、あなたのレベルが3以上なら、あなたのCXフェイズの始めに、あなたはコストを払ってよい。そうしたら、あなたは自分のカード名に「愛乃」を含むキャラを1枚とこのカードを選び、入れ替える。\n\"-\"",
+   "traits": [
+    "風",
+    "空"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_079s.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-079SP",
+   "name": "“風が見る夢”愛乃",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "blue",
+   "level": "3",
+   "cost": "2",
+   "power": "9500",
+   "soul": 2,
+   "trigger": "－",
+   "text": "【自】 このカードが手札か思い出置場から舞台に置かれた時、あなたは自分の控え室の《風》のキャラを1枚選び、手札に戻してよい。\n【自】【CXコンボ】 このカードがアタックした時、CX置場に「長い冒険と夢の終わり」があり、他のあなたの《風》のキャラが4枚以上なら、あなたは相手の山札を上から4枚まで見て、カードを1枚まで選び、山札の下に置き、残りのカードを山札の上に好きな順番で置く。\n【自】 記憶 ［手札の《風》のキャラを1枚控え室に置く］ 思い出置場にこのカードがあり、あなたのレベルが3以上なら、あなたのCXフェイズの始めに、あなたはコストを払ってよい。そうしたら、あなたは自分のカード名に「愛乃」を含むキャラを1枚とこのカードを選び、入れ替える。\n\"-\"",
+   "traits": [
+    "風",
+    "空"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_079sp.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-080",
+   "name": "“夢の終わりを願うために”愛乃",
+   "type": "Character",
+   "rarity": "R",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "－",
+   "text": "【永】 応援 このカードの前のあなたのレベル0以下のキャラすべてに、パワーを＋1000。\n【起】［(1) このカードを控え室に置く］ あなたは自分のキャラを1枚選び、そのターン中、パワーを＋2000し、あなたの思い出が4枚以下なら、あなたは自分の控え室の「“風が見る夢”愛乃」を2枚まで選び、思い出にする。\n\"夢が、かないました<br>私は次の夢をさがしにいくんです\"",
+   "traits": [
+    "風",
+    "空"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_080.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-080S",
+   "name": "“夢の終わりを願うために”愛乃",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "－",
+   "text": "【永】 応援 このカードの前のあなたのレベル0以下のキャラすべてに、パワーを＋1000。\n【起】［(1) このカードを控え室に置く］ あなたは自分のキャラを1枚選び、そのターン中、パワーを＋2000し、あなたの思い出が4枚以下なら、あなたは自分の控え室の「“風が見る夢”愛乃」を2枚まで選び、思い出にする。\n\"――\"",
+   "traits": [
+    "風",
+    "空"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_080s.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-081",
+   "name": "“長い夢からの目覚め”愛乃",
+   "type": "Character",
+   "rarity": "R",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "－",
+   "text": "【自】【CXコンボ】［(1) 手札を1枚控え室に置き、このカードを思い出にする］ あなたのCXフェイズ中、CX置場に「長い冒険と夢の終わり」が置かれた時、あなたのレベルが2以上なら、あなたはコストを払ってよい。そうしたら、あなたは自分の思い出置場の「“風が見る夢”愛乃」を1枚選び、このカードがいた枠に置く。\n【起】［(1) このカードを【レスト】する］ あなたは自分の山札を上から3枚まで見て、レベル1以上のカードを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。（CXのレベルは0として扱う）\n\"ん……\"",
+   "traits": [
+    "風",
+    "空"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_081.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-081S",
+   "name": "“長い夢からの目覚め”愛乃",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "－",
+   "text": "【自】【CXコンボ】［(1) 手札を1枚控え室に置き、このカードを思い出にする］ あなたのCXフェイズ中、CX置場に「長い冒険と夢の終わり」が置かれた時、あなたのレベルが2以上なら、あなたはコストを払ってよい。そうしたら、あなたは自分の思い出置場の「“風が見る夢”愛乃」を1枚選び、このカードがいた枠に置く。\n【起】［(1) このカードを【レスト】する］ あなたは自分の山札を上から3枚まで見て、レベル1以上のカードを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。（CXのレベルは0として扱う）\n\"あの子が、おとーさんに、ありがとうって<br>真澄町で、楽しかったねって\"",
+   "traits": [
+    "風",
+    "空"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_081s.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-082",
+   "name": "“はじめてのスイカ”小詠",
+   "type": "Character",
+   "rarity": "R",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "－",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札を上から3枚まで見て、イベントを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。手札に加えたなら、あなたは自分の手札を1枚選び、控え室に置く。\n【自】 このカードが手札から舞台に置かれた時、そのターン中、このカードのパワーを＋Ｘ。Ｘは相手のキャラの枚数×1000に等しい。\n\"緑色の皮に、赤い実と黒い種……<br>とても奇抜な組み合わせで素敵ですね\"",
+   "traits": [
+    "風",
+    "手紙"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_082.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-082S",
+   "name": "“はじめてのスイカ”小詠",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "－",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札を上から3枚まで見て、イベントを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。手札に加えたなら、あなたは自分の手札を1枚選び、控え室に置く。\n【自】 このカードが手札から舞台に置かれた時、そのターン中、このカードのパワーを＋Ｘ。Ｘは相手のキャラの枚数×1000に等しい。\n\"いくらでも食べられてしまいますね\"",
+   "traits": [
+    "風",
+    "手紙"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_082s.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-082SP",
+   "name": "“はじめてのスイカ”小詠",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "－",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札を上から3枚まで見て、イベントを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。手札に加えたなら、あなたは自分の手札を1枚選び、控え室に置く。\n【自】 このカードが手札から舞台に置かれた時、そのターン中、このカードのパワーを＋Ｘ。Ｘは相手のキャラの枚数×1000に等しい。\n\"-\"",
+   "traits": [
+    "風",
+    "手紙"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_082sp.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-083",
+   "name": "“もしもの話”麦＆愛乃",
+   "type": "Character",
+   "rarity": "R",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "－",
+   "text": "【自】 あなたのCXフェイズの始めに、前列にこのカードがいるなら、あなたは相手の前列のキャラを1枚選び、そのターン中、パワーを－Ｘ。Ｘは他のあなたの《風》のキャラの枚数×1000に等しい。\n【自】【CXコンボ】［手札を1枚控え室に置く］ このカードがアタックした時、CX置場に「さよならのキスは夢の中」があり、他のあなたの《風》のキャラが2枚以上なら、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の《風》のキャラを1枚まで選び、手札に戻し、そのアタック中、あなたはトリガーステップにトリガーチェックを2回行う。\n\"愛乃「……麦さん。もしも、すべて夢だとしたら、どうしますか」\"",
+   "traits": [
+    "風",
+    "空"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_083.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-083S",
+   "name": "“もしもの話”麦＆愛乃",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "－",
+   "text": "【自】 あなたのCXフェイズの始めに、前列にこのカードがいるなら、あなたは相手の前列のキャラを1枚選び、そのターン中、パワーを－Ｘ。Ｘは他のあなたの《風》のキャラの枚数×1000に等しい。\n【自】【CXコンボ】［手札を1枚控え室に置く］ このカードがアタックした時、CX置場に「さよならのキスは夢の中」があり、他のあなたの《風》のキャラが2枚以上なら、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の《風》のキャラを1枚まで選び、手札に戻し、そのアタック中、あなたはトリガーステップにトリガーチェックを2回行う。\n\"愛乃「でもその夢が終わらないと、次の夢がかなわないんです」\"",
+   "traits": [
+    "風",
+    "空"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_083s.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-084",
+   "name": "“カレイドワールド”愛乃",
+   "type": "Character",
+   "rarity": "R",
+   "color": "blue",
+   "level": "1",
+   "cost": "1",
+   "power": "6000",
+   "soul": 1,
+   "trigger": "－",
+   "text": "【永】 記憶 あなたの思い出置場に「“目指した場所”愛乃」があるなら、このカードは次の能力を得る。『【自】 このカードがアタックした時、このカードの正面のキャラのレベルが2なら、そのターン中、このカードのパワーを＋6000。』\n【自】 このカードのバトル相手が【リバース】した時、あなたのCX置場にCXがあるなら、あなたは自分の山札の上から1枚を、ストック置場に置いてよい。\n\"……だからあなたに私の夢を託したいの<br>夢でもいいから<br>私を空に連れていってほしいの\"",
+   "traits": [
+    "風",
+    "空"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_084.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-084S",
+   "name": "“カレイドワールド”愛乃",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "1",
+   "cost": "1",
+   "power": "6000",
+   "soul": 1,
+   "trigger": "－",
+   "text": "【永】 記憶 あなたの思い出置場に「“目指した場所”愛乃」があるなら、このカードは次の能力を得る。『【自】 このカードがアタックした時、このカードの正面のキャラのレベルが2なら、そのターン中、このカードのパワーを＋6000。』\n【自】 このカードのバトル相手が【リバース】した時、あなたのCX置場にCXがあるなら、あなたは自分の山札の上から1枚を、ストック置場に置いてよい。\n\"「「「――どうか――」」」<br>「「もし夢が終わって、全てが消えても」」<br>「「あの大事な景色が……消えてしまわないように」」<br>「「本当になりますように」」\"",
+   "traits": [
+    "風",
+    "空"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_084s.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-085",
+   "name": "“無人島の銛ガール”愛乃",
+   "type": "Character",
+   "rarity": "R",
+   "color": "blue",
+   "level": "3",
+   "cost": "2",
+   "power": "10500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】［(1)］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは相手に1ダメージを与えるか、自分の控え室のCXを1枚選び、手札に戻す。（ダメージキャンセルは発生する）\n\"じゃーん！　着替えてきました<br>これで浜辺の視線は独り占めってやつですね\"",
+   "traits": [
+    "風",
+    "空"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_085.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-085S",
+   "name": "“無人島の銛ガール”愛乃",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "3",
+   "cost": "2",
+   "power": "10500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】［(1)］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは相手に1ダメージを与えるか、自分の控え室のCXを1枚選び、手札に戻す。（ダメージキャンセルは発生する）\n\"！？\"",
+   "traits": [
+    "風",
+    "空"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_085s.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-085SP",
+   "name": "“無人島の銛ガール”愛乃",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "blue",
+   "level": "3",
+   "cost": "2",
+   "power": "10500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】［(1)］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは相手に1ダメージを与えるか、自分の控え室のCXを1枚選び、手札に戻す。（ダメージキャンセルは発生する）\n\"-\"",
+   "traits": [
+    "風",
+    "空"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_085sp.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-086",
+   "name": "“地図広げてアドベンチャー”愛乃",
+   "type": "Character",
+   "rarity": "U",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "－",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたの思い出が2枚以下なら、あなたは自分の控え室の「“風が見る夢”愛乃」を1枚選び、思い出にしてよい。\n【起】［(1) このカードを山札の下に置く］ あなたは自分の控え室のキャラを1枚選び、手札に戻す。\n\"で。私の故郷はここです\"",
+   "traits": [
+    "風",
+    "空"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_086.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-086S",
+   "name": "“地図広げてアドベンチャー”愛乃",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "－",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたの思い出が2枚以下なら、あなたは自分の控え室の「“風が見る夢”愛乃」を1枚選び、思い出にしてよい。\n【起】［(1) このカードを山札の下に置く］ あなたは自分の控え室のキャラを1枚選び、手札に戻す。\n\"ええ。いざとなったら首に縄つけて連れて帰りますから\"",
+   "traits": [
+    "風",
+    "空"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_086s.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-087",
+   "name": "“目指した場所”愛乃",
+   "type": "Character",
+   "rarity": "U",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "－",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたの思い出が2枚以下なら、あなたは自分の控え室の「“カレイドワールド”愛乃」を1枚選び、思い出にしてよい。\n【自】 記憶 ［このカードを【レスト】する］ あなたのアタックフェイズの始めに、あなたのCX置場にCXがあり、前列にこのカードがいるなら、あなたはコストを払ってよい。そうしたら、あなたは自分の思い出置場の「“カレイドワールド”愛乃」を1枚とこのカードを選び、入れ替え、アンコールステップの始めに、それらのキャラを入れ替える。\n\"あんなに素敵な夢を……私だけのものにはできないから<br>だからお返しするんです<br>夢を、お返しします\"",
+   "traits": [
+    "風",
+    "空"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_087.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-087S",
+   "name": "“目指した場所”愛乃",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "－",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたの思い出が2枚以下なら、あなたは自分の控え室の「“カレイドワールド”愛乃」を1枚選び、思い出にしてよい。\n【自】 記憶 ［このカードを【レスト】する］ あなたのアタックフェイズの始めに、あなたのCX置場にCXがあり、前列にこのカードがいるなら、あなたはコストを払ってよい。そうしたら、あなたは自分の思い出置場の「“カレイドワールド”愛乃」を1枚とこのカードを選び、入れ替え、アンコールステップの始めに、それらのキャラを入れ替える。\n\"「「「――どうか――」」」<br>「「もし夢が終わって、全てが消えても」」<br>「「あの大事な景色が……消えてしまわないように」」<br>「「本当になりますように」」\"",
+   "traits": [
+    "風",
+    "空"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_087s.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-088",
+   "name": "“クマユキよ”陽彩",
+   "type": "Character",
+   "rarity": "U",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "－",
+   "text": "【永】 このカードは、色条件を満たさずに手札からプレイできる。\n【自】［(2)］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室のカードすべてを、山札に戻し、その山札をシャッフルする。\n\"クマユキよ\"",
+   "traits": [
+    "風",
+    "美"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_088.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-088S",
+   "name": "“クマユキよ”陽彩",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "－",
+   "text": "【永】 このカードは、色条件を満たさずに手札からプレイできる。\n【自】［(2)］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室のカードすべてを、山札に戻し、その山札をシャッフルする。\n\"クマユキよ\"",
+   "traits": [
+    "風",
+    "美"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_088s.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-089",
+   "name": "“いざ飛び立とう”愛乃",
+   "type": "Character",
+   "rarity": "U",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "6500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 応援 このカードの前のあなたの《風》のキャラすべてに、パワーを＋1500。\n【起】［(3) 手札を1枚控え室に置く］ あなたは自分の山札の上から1枚を公開する。そのカードが《風》のキャラか「幼い頃の夢」なら、そのターン中、このカードは次の能力を得る。『【永】 後列に【スタンド】しているこのカードがいるなら、このカードはアタックを行うキャラとして選択してよい。そうしたら、このカードはダイレクトアタックする。』（公開したカードは元に戻す）\n\"愛乃「旋回して戻りますよって！！」<br>麦「おっけー！<br>戻ったら宴会だな！」\"",
+   "traits": [
+    "風",
+    "空"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_089.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-089S",
+   "name": "“いざ飛び立とう”愛乃",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "6500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 応援 このカードの前のあなたの《風》のキャラすべてに、パワーを＋1500。\n【起】［(3) 手札を1枚控え室に置く］ あなたは自分の山札の上から1枚を公開する。そのカードが《風》のキャラか「幼い頃の夢」なら、そのターン中、このカードは次の能力を得る。『【永】 後列に【スタンド】しているこのカードがいるなら、このカードはアタックを行うキャラとして選択してよい。そうしたら、このカードはダイレクトアタックする。』（公開したカードは元に戻す）\n\"私はちゃんと飛行機で無事向こうについて……。母と出会います\"",
+   "traits": [
+    "風",
+    "空"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_089s.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-090",
+   "name": "“でも誰に？”愛乃",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "－",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の控え室の《風》のキャラと思い出置場の《風》のキャラを1枚ずつ選び、入れ替えてよい。\n【起】［手札を1枚控え室に置き、このカードを控え室に置く］ あなたは自分の控え室のカード名に「朱比華」か「六花」か「陽彩」か「愛乃」を含むキャラを1枚選び、手札に戻す。\n\"では、手伝いはあとひとり見付かれば大丈夫ですね\"",
+   "traits": [
+    "風",
+    "空"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_090.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-090S",
+   "name": "“でも誰に？”愛乃",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "－",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の控え室の《風》のキャラと思い出置場の《風》のキャラを1枚ずつ選び、入れ替えてよい。\n【起】［手札を1枚控え室に置き、このカードを控え室に置く］ あなたは自分の控え室のカード名に「朱比華」か「六花」か「陽彩」か「愛乃」を含むキャラを1枚選び、手札に戻す。\n\"尾翼を持つ人も必要なんですよ\"",
+   "traits": [
+    "風",
+    "空"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_090s.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-091",
+   "name": "“駅舎カフェでの仕事”陽彩",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "－",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から2枚を、控え室に置く。それらのカードにトリガーアイコンが[[salvage.gif]]のCXがあるなら、あなたは自分の控え室の《風》のキャラを1枚選び、手札に戻してよい。\n\"あら、麦じゃない\"",
+   "traits": [
+    "風",
+    "美"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_091.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-091S",
+   "name": "“駅舎カフェでの仕事”陽彩",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "－",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から2枚を、控え室に置く。それらのカードにトリガーアイコンが[[salvage.gif]]のCXがあるなら、あなたは自分の控え室の《風》のキャラを1枚選び、手札に戻してよい。\n\"依頼を見たってことは、資料探しの手伝いをしに来てくれたのね\"",
+   "traits": [
+    "風",
+    "美"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_091s.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-092",
+   "name": "“駅舎カフェでの仕事”つづら",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "－",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から2枚を、控え室に置く。それらのカードにトリガーアイコンが[[salvage.gif]]のCXがあるなら、あなたは自分の控え室の《風》のキャラを1枚選び、ストック置場に置いてよい。\n\"ああ、麦くんだったんだ\"",
+   "traits": [
+    "風",
+    "本"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_092.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-092S",
+   "name": "“駅舎カフェでの仕事”つづら",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "－",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から2枚を、控え室に置く。それらのカードにトリガーアイコンが[[salvage.gif]]のCXがあるなら、あなたは自分の控え室の《風》のキャラを1枚選び、ストック置場に置いてよい。\n\"ここに来たなら、本の整理に来てくれたんだ\"",
+   "traits": [
+    "風",
+    "本"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_092s.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-093",
+   "name": "“大切な手紙を届けるため”小詠",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "－",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは相手のキャラを2枚まで選び、次の相手のターンの終わりまで、次の能力を与える。『【永】 このカードは他の枠に動かせない。』\n\"小詠「怖かった……。雷、怖かったです……」\"",
+   "traits": [
+    "風",
+    "手紙"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_093.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-093S",
+   "name": "“大切な手紙を届けるため”小詠",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "－",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは相手のキャラを2枚まで選び、次の相手のターンの終わりまで、次の能力を与える。『【永】 このカードは他の枠に動かせない。』\n\"麦「お疲れ、小詠」\"",
+   "traits": [
+    "風",
+    "手紙"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_093s.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-094",
+   "name": "“コーヒー豆に閉じ込めた感情”つづら",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "2",
+   "cost": "0",
+   "power": "6500",
+   "soul": 1,
+   "trigger": "－",
+   "text": "【自】［手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を上から5枚まで見て、《風》のキャラを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。\n\"ふぐっ……うぅぅぅぅ……私……は、ひきょうだ……\"",
+   "traits": [
+    "風",
+    "本"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_094.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-094S",
+   "name": "“コーヒー豆に閉じ込めた感情”つづら",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "2",
+   "cost": "0",
+   "power": "6500",
+   "soul": 1,
+   "trigger": "－",
+   "text": "【自】［手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を上から5枚まで見て、《風》のキャラを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。\n\"これが……最後……<br>お姉ちゃんを……諦めた日の……<br>…………\"",
+   "traits": [
+    "風",
+    "本"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_094s.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-095",
+   "name": "“最後の温もりを”小詠",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "2",
+   "cost": "0",
+   "power": "7000",
+   "soul": 1,
+   "trigger": "－",
+   "text": "【自】 このカードがアタックした時、このカードの正面のキャラのレベルが3以上なら、そのターン中、このカードのパワーを＋6000。\n\"私、ちょっと、寒いかもしれません<br>温めてくださいませんか？\"",
+   "traits": [
+    "風",
+    "手紙"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_095.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-095S",
+   "name": "“最後の温もりを”小詠",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "2",
+   "cost": "0",
+   "power": "7000",
+   "soul": 1,
+   "trigger": "－",
+   "text": "【自】 このカードがアタックした時、このカードの正面のキャラのレベルが3以上なら、そのターン中、このカードのパワーを＋6000。\n\"ぴ、ぴひひ\"",
+   "traits": [
+    "風",
+    "手紙"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_095s.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-096",
+   "name": "“夢から覚める時間”愛乃",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】［(1) 手札の《風》のキャラを1枚控え室に置き、あなたの舞台のキャラを1枚控え室に置く］ あなたがこのカードの『助太刀』を使った時、あなたはコストを払ってよい。そうしたら、あなたは相手の、レベルが相手のレベルより高いキャラを1枚選び、山札の下に置く。\n【起】【カウンター】 助太刀2500 レベル2 ［(1) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋2500）\n\"麦さんには、素敵な夢を見させていただきました\"",
+   "traits": [
+    "風",
+    "空"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_096.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-096S",
+   "name": "“夢から覚める時間”愛乃",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】［(1) 手札の《風》のキャラを1枚控え室に置き、あなたの舞台のキャラを1枚控え室に置く］ あなたがこのカードの『助太刀』を使った時、あなたはコストを払ってよい。そうしたら、あなたは相手の、レベルが相手のレベルより高いキャラを1枚選び、山札の下に置く。\n【起】【カウンター】 助太刀2500 レベル2 ［(1) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋2500）\n\"でも、夢はいつか終わります<br>だから、さよならです\"",
+   "traits": [
+    "風",
+    "空"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_096s.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-097",
+   "name": "“小鳥郵便屋の先輩と後輩”麦＆小詠",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "3",
+   "cost": "2",
+   "power": "10500",
+   "soul": 2,
+   "trigger": "－",
+   "text": "【永】 あなたの《風》のキャラが4枚以上なら、あなたの手札のこのカードのレベルを－1。\n【自】 相手のターン中、あなたの受けたダメージがキャンセルされなかった時、前列にこのカードがいるなら、あなたは自分の山札を上から1枚見て、山札の上か控え室に置く。\n【自】 アンコール ［手札の《風》のキャラを1枚控え室に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"小詠「小鳥郵便屋は安泰ですね」<br>麦「まだまだ親方にはご指導ご鞭撻をいただきたいですよ」\"",
+   "traits": [
+    "風",
+    "手紙"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_097.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-097S",
+   "name": "“小鳥郵便屋の先輩と後輩”麦＆小詠",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "3",
+   "cost": "2",
+   "power": "10500",
+   "soul": 2,
+   "trigger": "－",
+   "text": "【永】 あなたの《風》のキャラが4枚以上なら、あなたの手札のこのカードのレベルを－1。\n【自】 相手のターン中、あなたの受けたダメージがキャンセルされなかった時、前列にこのカードがいるなら、あなたは自分の山札を上から1枚見て、山札の上か控え室に置く。\n【自】 アンコール ［手札の《風》のキャラを1枚控え室に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"小詠「仕方ありませんね<br>一人前の郵便道を叩き込みましょう」\"",
+   "traits": [
+    "風",
+    "手紙"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_097s.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-098",
+   "name": "幼い頃の夢",
+   "type": "Event",
+   "rarity": "U",
+   "color": "blue",
+   "level": "1",
+   "cost": "1",
+   "power": "",
+   "soul": 0,
+   "trigger": "－",
+   "text": "次の行動を2回行う。『あなたは自分の山札を上から3枚まで見て、《風》のキャラを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。』\n\"おとーさん、おとーさん<br>明日のフライト、私も乗せてよ\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_098.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-098S",
+   "name": "幼い頃の夢",
+   "type": "Event",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "1",
+   "cost": "1",
+   "power": "",
+   "soul": 0,
+   "trigger": "－",
+   "text": "次の行動を2回行う。『あなたは自分の山札を上から3枚まで見て、《風》のキャラを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。』\n\"うん！ 分かった<br>私、いっぱい勉強するね<br>それで、すっごい飛行機乗りになって世界を旅するんだ\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_098s.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-099",
+   "name": "長い冒険と夢の終わり",
+   "type": "Climax",
+   "rarity": "CR",
+   "color": "blue",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[gate.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[gate.gif]]：このカードがトリガーした時、あなたは自分の控え室のCXを1枚選び、手札に戻してよい）\n\"愛乃「真澄町の皆……<br>……皆……大好き……」\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_099.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-099R",
+   "name": "長い冒険と夢の終わり",
+   "type": "Climax",
+   "rarity": "RRR",
+   "color": "blue",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[gate.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[gate.gif]]：このカードがトリガーした時、あなたは自分の控え室のCXを1枚選び、手札に戻してよい）\n\"愛乃「……麦さん<br>大好き……」\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_099r.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-100",
+   "name": "さよならのキスは夢の中",
+   "type": "Climax",
+   "rarity": "CR",
+   "color": "blue",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[gate.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[gate.gif]]：このカードがトリガーした時、あなたは自分の控え室のCXを1枚選び、手札に戻してよい）\n\"麦「……大丈夫<br>お前なら大丈夫だよ」\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_100.png",
+   "variant": ""
+  },
+  {
+   "num": "ANM/W138-100R",
+   "name": "さよならのキスは夢の中",
+   "type": "Climax",
+   "rarity": "RRR",
+   "color": "blue",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[gate.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[gate.gif]]：このカードがトリガーした時、あなたは自分の控え室のCXを1枚選び、手札に戻してよい）\n\"愛乃「麦さん……<br>ありがとう<br>ごめんなさい」\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/anm_w138/anm_w138_100r.png",
+   "variant": ""
+  }
+ ]
+}

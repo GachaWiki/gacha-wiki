@@ -1,0 +1,507 @@
+{
+ "id": "jp-n1",
+ "name": "魔法少女リリカルなのは The MOVIE 1st",
+ "expansion": 37,
+ "lang": "jp",
+ "release": null,
+ "shopItem": null,
+ "box": null,
+ "cards": [
+  {
+   "num": "N1/WE06-01",
+   "name": "代わりの人形フェイト",
+   "type": "Character",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 バトル中のこのカードが【リバース】した時、あなたは自分の山札の上から1枚を、クロック置場に置く。\n\"母さんの捜し物……ジュエルシードは、ここにある……\"",
+   "traits": [
+    "魔法",
+    "クローン"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/n1_we06/n1_we06_01.png",
+   "variant": ""
+  },
+  {
+   "num": "N1/WE06-02",
+   "name": "対等のパートナー アルフ",
+   "type": "Character",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 絆／「母を想うフェイト」 ［あなたの山札の上から1枚をクロック置場に置く］ （このカードがプレイされて舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「母を想うフェイト」を1枚選び、手札に戻す）\n【自】 チェンジ ［(2) 手札を1枚控え室に置き、このカードを控え室に置く］ あなたのクライマックスフェイズの始めに、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「狼形態アルフ」を1枚選び、このカードがいた枠に置く。\n\"ま、いざとなったら、あたしがそいつらブチのめしちゃる……！\"",
+   "traits": [
+    "使い魔",
+    "動物"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/n1_we06/n1_we06_02.png",
+   "variant": ""
+  },
+  {
+   "num": "N1/WE06-03",
+   "name": "もうひとりの魔法少女フェイト",
+   "type": "Character",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "1",
+   "cost": "1",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 チェンジ ［(2) 手札を1枚控え室に置き、このカードを控え室に置く］ あなたのクライマックスフェイズの始めに、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「母を想うフェイト」を1枚選び、このカードがいた枠に置く。\n【自】 アンコール ［手札のキャラを1枚控え室に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"今度は、手加減できないかもしれない\"",
+   "traits": [
+    "魔法",
+    "クローン"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/n1_we06/n1_we06_03.png",
+   "variant": ""
+  },
+  {
+   "num": "N1/WE06-04",
+   "name": "失われた過去プレシア",
+   "type": "Character",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの《魔法》のキャラすべてに、パワーを＋1500。\n【自】 あなたのドローフェイズの始めに、あなたは自分の山札の上から1枚を、クロック置場に置いてよい。そうしないなら、このカードを思い出にする。\n\"取り戻すの………こんなはずじゃなかった、世界のすべてを…！\"",
+   "traits": [
+    "魔法",
+    "病気"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/n1_we06/n1_we06_04.png",
+   "variant": ""
+  },
+  {
+   "num": "N1/WE06-05",
+   "name": "プレシア・テスタロッサ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 このカードの下のマーカー1枚につき、このカードのパワーを＋1000。\n【自】 他のあなたのカード名に「フェイト」を含むキャラとバトル中のキャラが【リバース】した時、あなたは自分の山札の上から1枚を、このカードの下にマーカーとして置いてよい。\n【自】［(3)］ バトル中のこのカードが【リバース】した時、あなたはコストを払ってよい。そうしたら、このカードを【レスト】する。\n\"手に入れてきて…母さんのために\"",
+   "traits": [
+    "魔法",
+    "病気"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/n1_we06/n1_we06_05.png",
+   "variant": ""
+  },
+  {
+   "num": "N1/WE06-06",
+   "name": "教育係リニス",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［あなたの舞台のカード名に「フェイト」を含むキャラを1枚クロック置場に置き、このカードを思い出にする］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見て「もうひとりの魔法少女フェイト」を1枚まで選び、後列の好きな枠に置く。その山札をシャッフルする。\n\"お嬢様……お名前は？\"",
+   "traits": [
+    "使い魔",
+    "動物"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/n1_we06/n1_we06_06.png",
+   "variant": ""
+  },
+  {
+   "num": "N1/WE06-07",
+   "name": "ひたすらに一途フェイト",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "5500",
+   "soul": 1,
+   "trigger": "",
+   "text": "-\n\"だから…ほんとの自分をはじめるために……いままでの自分を…終わらせよう！\"",
+   "traits": [
+    "魔法",
+    "クローン"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/n1_we06/n1_we06_07.png",
+   "variant": ""
+  },
+  {
+   "num": "N1/WE06-08",
+   "name": "狼形態アルフ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "6000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたのカード名に「フェイト」を含むキャラすべてに、パワーを＋1000。\n【起】［(1)］ そのターン中、このカードのソウルを＋1。\n\"フェイトのジャマを……するなぁあああ！！\"",
+   "traits": [
+    "使い魔",
+    "動物"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/n1_we06/n1_we06_08.png",
+   "variant": ""
+  },
+  {
+   "num": "N1/WE06-09",
+   "name": "母を想うフェイト",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "2",
+   "cost": "2",
+   "power": "7000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの《使い魔》のキャラがいるなら、このカードのパワーを＋2000。\n【自】［(6)］ このカードがアタックした時、クライマックス置場に「ファランクスシフト」があるなら、あなたはコストを払ってよい。そうしたら、あなたの「母を想うフェイト」1枚につき、次の行動を行う。『相手に1ダメージを与える。』（ダメージキャンセルは発生する）\n\"勝つんだ……。 勝って、母さんのところに帰るんだ……！\"",
+   "traits": [
+    "魔法",
+    "クローン"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/n1_we06/n1_we06_09.png",
+   "variant": ""
+  },
+  {
+   "num": "N1/WE06-10",
+   "name": "ファランクスシフト",
+   "type": "Climax",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【自】 このカードが手札からクライマックス置場に置かれた時、あなたは自分の山札の上から1枚を、ストック置場に置き、自分のキャラすべてに、そのターン中、ソウルを＋1。\n\"打ち……砕けェェッッ！！\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/n1_we06/n1_we06_10.png",
+   "variant": ""
+  },
+  {
+   "num": "N1/WE06-11",
+   "name": "意地っ張りアリサ",
+   "type": "Character",
+   "rarity": "R",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたのカード名に「なのは」を含むキャラすべてに、『【自】 アンコール ［手札のキャラを1枚控え室に置く］』を与える。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋1000。\n\"別にいいわよ……大事な用事なんでしょ？\"",
+   "traits": [
+    "動物"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/n1_we06/n1_we06_11.png",
+   "variant": ""
+  },
+  {
+   "num": "N1/WE06-12",
+   "name": "自分の意思なのは",
+   "type": "Character",
+   "rarity": "R",
+   "color": "green",
+   "level": "2",
+   "cost": "2",
+   "power": "8500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたのストックが5枚以上なら、このカードのパワーを＋1000。\n\"レイジングハート、セット・アップ！\"",
+   "traits": [
+    "魔法",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/n1_we06/n1_we06_12.png",
+   "variant": ""
+  },
+  {
+   "num": "N1/WE06-13",
+   "name": "月村 すずか",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋500。\n【起】［このカードを【レスト】する］ あなたは自分のカード名に「なのは」を含むキャラを1枚選び、そのターン中、レベルを＋1。\n\"……なのはちゃん、今日もだめなんだよね？\"",
+   "traits": [
+    "動物"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/n1_we06/n1_we06_13.png",
+   "variant": ""
+  },
+  {
+   "num": "N1/WE06-14",
+   "name": "敏腕オペレータ エイミィ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 アラーム このカードがクロックの1番上にあるなら、あなたの《魔法》のキャラすべてに、次の能力を与える。『【起】［(1)］ そのターン中、このカードのパワーを＋2000。』\n\"戦闘開始…かな\"",
+   "traits": [
+    "特徴なし"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/n1_we06/n1_we06_14.png",
+   "variant": ""
+  },
+  {
+   "num": "N1/WE06-15",
+   "name": "優しい少女すずか",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見て《動物》のキャラを1枚まで選んで相手に見せ、手札に加える。その山札をシャッフルする。\n\"傷が痛むのかも…。 そっとしといてあげようか…？\"",
+   "traits": [
+    "動物"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/n1_we06/n1_we06_15.png",
+   "variant": ""
+  },
+  {
+   "num": "N1/WE06-16",
+   "name": "アリサ・バニングス",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたのカード名に「なのは」を含むキャラがいるなら、このカードは次の能力を得る。『【自】 このカードとバトル中のキャラが【リバース】した時、あなたは自分の山札の上から1枚を、ストック置場に置いてよい。』\n\"遅いよ、なのは…！\"",
+   "traits": [
+    "動物"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/n1_we06/n1_we06_16.png",
+   "variant": ""
+  },
+  {
+   "num": "N1/WE06-17",
+   "name": "時空管理局提督リンディ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(2)］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、次の相手のターンの終わりまで、相手は舞台にいるキャラの【起】を使えない。\n\"終わりですよ……次元震はわたしが押さえてます\"",
+   "traits": [
+    "魔法",
+    "お茶"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/n1_we06/n1_we06_17.png",
+   "variant": ""
+  },
+  {
+   "num": "N1/WE06-18",
+   "name": "アースラの切り札クロノ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "2",
+   "cost": "1",
+   "power": "8000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードとバトル中のレベル2以上のキャラが【リバース】した時、あなたは自分の山札の上から1枚を、ストック置場に置いてよい。\n\"どんな魔法を使っても……過去を取り戻すことなんか、できやしない…！\"",
+   "traits": [
+    "魔法",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/n1_we06/n1_we06_18.png",
+   "variant": ""
+  },
+  {
+   "num": "N1/WE06-19",
+   "name": "信じた思い なのは",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "1",
+   "cost": "1",
+   "power": "5500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードがアタックした時、クライマックス置場に「ディバインバスター」があるなら、あなたは自分のカード名に「フェイト」を含むキャラを1枚選び、そのターン中、パワーを＋2000し、このカードのパワーを＋2000。\n\"二人でせーの、で、一気に封印！\"",
+   "traits": [
+    "魔法",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/n1_we06/n1_we06_19.png",
+   "variant": ""
+  },
+  {
+   "num": "N1/WE06-20",
+   "name": "全力全開なのは",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "2",
+   "cost": "2",
+   "power": "8000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードがアタックした時、クライマックス置場に「スターライトブレイカー」があるなら、そのターン中、このカードのパワーを＋Ｘし、バトル中のキャラすべてに、次の能力を与える。『【自】 このカードとバトル中のキャラが【リバース】した時、あなたは自分の控え室のキャラを1枚選び、手札に戻してよい。』Ｘはあなたの控え室のクライマックスの枚数×1000に等しい。\n\"はじめよう……最初で最後の、本気の勝負！！\"",
+   "traits": [
+    "魔法",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/n1_we06/n1_we06_20.png",
+   "variant": ""
+  },
+  {
+   "num": "N1/WE06-21",
+   "name": "分け合う気持ち なのは＆フェイト",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの「分け合う気持ち なのは＆フェイト」すべてに、パワーを＋1000。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分の控え室の《魔法》のキャラを1枚選び、手札に戻してよい。\n\"フェイト・なのは「せーーーのっ！」\"",
+   "traits": [
+    "魔法",
+    "クローン"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/n1_we06/n1_we06_21.png",
+   "variant": ""
+  },
+  {
+   "num": "N1/WE06-22",
+   "name": "制服のなのは",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの、《魔法》か《動物》のキャラが2枚以上なら、このカードのパワーを＋1500。\n\"いってきます！\"",
+   "traits": [
+    "魔法",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/n1_we06/n1_we06_22.png",
+   "variant": ""
+  },
+  {
+   "num": "N1/WE06-23",
+   "name": "フェレット形態ユーノ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【起】［(1) このカードを【レスト】する］ あなたは自分のカード名に「なのは」を含むキャラを1枚選び、そのターン中、次の能力を与える。『【自】 このカードとバトル中のキャラが【リバース】した時、あなたは自分の控え室のキャラを1枚選び、手札に戻してよい。』\n\"それを手に……目を閉じて、心を澄ませて…\"",
+   "traits": [
+    "魔法",
+    "動物"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/n1_we06/n1_we06_23.png",
+   "variant": ""
+  },
+  {
+   "num": "N1/WE06-24",
+   "name": "魔法の資質なのは",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 チェンジ ［手札を1枚控え室に置き、このカードをクロック置場に置く］ あなたのクライマックスフェイズの始めに、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「信じた思い なのは」を1枚選び、このカードがいた枠に置く。\n\"私に教えて……魔法の、上手な使い方！\"",
+   "traits": [
+    "魔法",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/n1_we06/n1_we06_24.png",
+   "variant": ""
+  },
+  {
+   "num": "N1/WE06-25",
+   "name": "結界魔導師ユーノ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【起】【カウンター】 助太刀1500 レベル1 ［手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋1500）\n\"なんで君たちはジュエルシードを集める！？ あれは危険なものなんだ！\"",
+   "traits": [
+    "魔法",
+    "動物"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/n1_we06/n1_we06_25.png",
+   "variant": ""
+  },
+  {
+   "num": "N1/WE06-26",
+   "name": "ディバインバスター",
+   "type": "Climax",
+   "rarity": "C",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【自】 このカードが手札からクライマックス置場に置かれた時、あなたは1枚引き、自分のキャラを1枚選び、そのターン中、パワーを＋2000し、ソウルを＋1。\n\"レイジングハート「Divine Buster」\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/n1_we06/n1_we06_26.png",
+   "variant": ""
+  },
+  {
+   "num": "N1/WE06-27",
+   "name": "スターライトブレイカー",
+   "type": "Climax",
+   "rarity": "C",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[salvage.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[salvage.gif]]：このカードがトリガーした時、あなたは自分の控え室のキャラを1枚選び、手札に戻してよい）\n\"受けてみて…これが私の、全力全開ッッッ！！\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/n1_we06/n1_we06_27.png",
+   "variant": ""
+  }
+ ]
+}

@@ -1,0 +1,594 @@
+{
+ "id": "jp-lss-e208",
+ "name": "[TD+]ラブライブ！サンシャイン!!",
+ "expansion": 208,
+ "lang": "jp",
+ "release": null,
+ "shopItem": null,
+ "box": null,
+ "cards": [
+  {
+   "num": "LSS/W53-T01",
+   "name": "“さあどこへ行こうかな”黒澤 ルビィ",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのターン中、他のあなたの「“さあどこへ行こうかな”黒澤 ダイヤ」すべてに、パワーを＋2000。\n【自】 絆／「“さあどこへ行こうかな”黒澤 ダイヤ」 ［(1)］ （このカードがプレイされて舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「“さあどこへ行こうかな”黒澤 ダイヤ」を1枚選び、手札に戻す）\n\"練習もバッチリです！\"",
+   "traits": [
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lss_w53/lss_w53_t01.png",
+   "variant": ""
+  },
+  {
+   "num": "LSS/W53-T02",
+   "name": "“さあどこへ行こうかな”津島 善子",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "yellow",
+   "level": "1",
+   "cost": "1",
+   "power": "6000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードがアタックした時、他のあなたの《音楽》のキャラが2枚以上なら、そのターン中、このカードのパワーを＋2000。\n【自】 アンコール ［あなたの山札の上から1枚をクロック置場に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"-\"",
+   "traits": [
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lss_w53/lss_w53_t02.png",
+   "variant": ""
+  },
+  {
+   "num": "LSS/W53-T03",
+   "name": "“HAPPY PARTY TRAIN”国木田 花丸",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋Ｘ。Ｘはそのキャラのレベル×500に等しい。\n【自】 このカードが手札から舞台に置かれた時、あなたは1枚引き、自分の手札を1枚選び、控え室に置く。\n\"「ステキな旅に出よう」\"",
+   "traits": [
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lss_w53/lss_w53_t03.png",
+   "variant": ""
+  },
+  {
+   "num": "LSS/W53-T03R",
+   "name": "“HAPPY PARTY TRAIN”国木田 花丸",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋Ｘ。Ｘはそのキャラのレベル×500に等しい。\n【自】 このカードが手札から舞台に置かれた時、あなたは1枚引き、自分の手札を1枚選び、控え室に置く。\n\"-\"",
+   "traits": [
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lss_w53/lss_w53_t03r.png",
+   "variant": ""
+  },
+  {
+   "num": "LSS/W53-T04",
+   "name": "“HAPPY PARTY TRAIN”津島 善子",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "7500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたのターン中、あなたのキャラすべてが《音楽》なら、このカードのパワーを＋2000。\n【自】 この能力は1ターンにつき2回まで発動する。他のあなたの《音楽》のキャラが手札から舞台に置かれた時、そのターン中、このカードのパワーを＋1000。\n\"「会いたいのは新しいときめき」\"",
+   "traits": [
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lss_w53/lss_w53_t04.png",
+   "variant": ""
+  },
+  {
+   "num": "LSS/W53-T04R",
+   "name": "“HAPPY PARTY TRAIN”津島 善子",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "7500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたのターン中、あなたのキャラすべてが《音楽》なら、このカードのパワーを＋2000。\n【自】 この能力は1ターンにつき2回まで発動する。他のあなたの《音楽》のキャラが手札から舞台に置かれた時、そのターン中、このカードのパワーを＋1000。\n\"-\"",
+   "traits": [
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lss_w53/lss_w53_t04r.png",
+   "variant": ""
+  },
+  {
+   "num": "LSS/W53-T05",
+   "name": "“HAPPY PARTY TRAIN”黒澤 ルビィ",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "yellow",
+   "level": "2",
+   "cost": "2",
+   "power": "7500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードがアタックした時、そのターン中、このカードのパワーを＋Ｘ。Ｘは他のあなたの《音楽》のキャラの枚数×1000に等しい。\n【自】 アンコール ［手札の《音楽》のキャラを1枚控え室に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"「ためいきもたまに出ちゃうよ」\"",
+   "traits": [
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lss_w53/lss_w53_t05.png",
+   "variant": ""
+  },
+  {
+   "num": "LSS/W53-T05R",
+   "name": "“HAPPY PARTY TRAIN”黒澤 ルビィ",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "yellow",
+   "level": "2",
+   "cost": "2",
+   "power": "7500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードがアタックした時、そのターン中、このカードのパワーを＋Ｘ。Ｘは他のあなたの《音楽》のキャラの枚数×1000に等しい。\n【自】 アンコール ［手札の《音楽》のキャラを1枚控え室に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"-\"",
+   "traits": [
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lss_w53/lss_w53_t05r.png",
+   "variant": ""
+  },
+  {
+   "num": "LSS/W53-T06",
+   "name": "“さあどこへ行こうかな”国木田 花丸",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "yellow",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたのターン中、他のあなたの《音楽》のキャラ1枚につき、このカードのパワーを＋500。\n【自】 このカードがアタックした時、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋2000し、ソウルを＋1。\n\"-\"",
+   "traits": [
+    "音楽",
+    "芋"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lss_w53/lss_w53_t06.png",
+   "variant": ""
+  },
+  {
+   "num": "LSS/W53-T07",
+   "name": "Aqours's dollhouse",
+   "type": "Climax",
+   "rarity": "TD",
+   "color": "yellow",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【永】 あなたのキャラすべてに、ソウルを＋2。\n\"「生まれたて願いの熱さ」\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lss_w53/lss_w53_t07.png",
+   "variant": ""
+  },
+  {
+   "num": "LSS/W53-T08",
+   "name": "“HAPPY PARTY TRAIN”高海 千歌",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から1枚を公開する。そのカードが《音楽》のキャラなら手札に加え、あなたは自分の手札を1枚選び、控え室に置く。（そうでないなら元に戻す）\n【起】 集中 ［(1) このカードを【レスト】する］ あなたは自分の山札の上から4枚をめくり、控え室に置く。それらのカードのクライマックス1枚につき、あなたは1枚まで引く。\n\"「気にしない　ちいさなことは」\"",
+   "traits": [
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lss_w53/lss_w53_t08.png",
+   "variant": ""
+  },
+  {
+   "num": "LSS/W53-T08R",
+   "name": "“HAPPY PARTY TRAIN”高海 千歌",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から1枚を公開する。そのカードが《音楽》のキャラなら手札に加え、あなたは自分の手札を1枚選び、控え室に置く。（そうでないなら元に戻す）\n【起】 集中 ［(1) このカードを【レスト】する］ あなたは自分の山札の上から4枚をめくり、控え室に置く。それらのカードのクライマックス1枚につき、あなたは1枚まで引く。\n\"-\"",
+   "traits": [
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lss_w53/lss_w53_t08r.png",
+   "variant": ""
+  },
+  {
+   "num": "LSS/W53-T09",
+   "name": "“HAPPY PARTY TRAIN”渡辺 曜",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのターン中、このカードのパワーを＋1000し、このカードは《コスプレ》を得る。\n【自】 このカードがアタックした時、あなたは自分の《音楽》のキャラを1枚選び、そのターン中、レベルを＋1し、パワーを＋1000。\n\"「だからもう行かなくちゃ」\"",
+   "traits": [
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lss_w53/lss_w53_t09.png",
+   "variant": ""
+  },
+  {
+   "num": "LSS/W53-T09R",
+   "name": "“HAPPY PARTY TRAIN”渡辺 曜",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのターン中、このカードのパワーを＋1000し、このカードは《コスプレ》を得る。\n【自】 このカードがアタックした時、あなたは自分の《音楽》のキャラを1枚選び、そのターン中、レベルを＋1し、パワーを＋1000。\n\"-\"",
+   "traits": [
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lss_w53/lss_w53_t09r.png",
+   "variant": ""
+  },
+  {
+   "num": "LSS/W53-T10",
+   "name": "“さあどこへ行こうかな”高海 千歌",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1) 手札を1枚控え室に置く］ このカードがアタックした時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見て《音楽》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"-\"",
+   "traits": [
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lss_w53/lss_w53_t10.png",
+   "variant": ""
+  },
+  {
+   "num": "LSS/W53-T11",
+   "name": "“さあどこへ行こうかな”渡辺 曜",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 他のあなたの《音楽》のキャラがアタックした時、そのターン中、このカードのパワーを＋1000。\n\"-\"",
+   "traits": [
+    "音楽",
+    "水着"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lss_w53/lss_w53_t11.png",
+   "variant": ""
+  },
+  {
+   "num": "LSS/W53-T12",
+   "name": "“さあどこへ行こうかな”桜内 梨子",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【起】【カウンター】 助太刀3000 レベル2 ［(1) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋3000）\n\"-\"",
+   "traits": [
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lss_w53/lss_w53_t12.png",
+   "variant": ""
+  },
+  {
+   "num": "LSS/W53-T13",
+   "name": "“HAPPY PARTY TRAIN”桜内 梨子",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの《音楽》のキャラが2枚以上なら、このカードのパワーを＋1000。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n\"「知りたいのは素晴らしい夜明けと」\"",
+   "traits": [
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lss_w53/lss_w53_t13.png",
+   "variant": ""
+  },
+  {
+   "num": "LSS/W53-T13R",
+   "name": "“HAPPY PARTY TRAIN”桜内 梨子",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの《音楽》のキャラが2枚以上なら、このカードのパワーを＋1000。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n\"-\"",
+   "traits": [
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lss_w53/lss_w53_t13r.png",
+   "variant": ""
+  },
+  {
+   "num": "LSS/W53-T14",
+   "name": "旅の終わりに",
+   "type": "Climax",
+   "rarity": "TD",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[salvage.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[salvage.gif]]：このカードがトリガーした時、あなたは自分の控え室のキャラを1枚選び、手札に戻してよい）\n\"果南「よくわかったね」\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lss_w53/lss_w53_t14.png",
+   "variant": ""
+  },
+  {
+   "num": "LSS/W53-T15",
+   "name": "“HAPPY PARTY TRAIN”黒澤 ダイヤ",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 バトル中のこのカードが【リバース】した時、このカードのバトル相手のレベルが0以下なら、あなたはそのキャラを山札の下に置いてよい。\n\"「いつでも笑顔でいたいから」\"",
+   "traits": [
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lss_w53/lss_w53_t15.png",
+   "variant": ""
+  },
+  {
+   "num": "LSS/W53-T15R",
+   "name": "“HAPPY PARTY TRAIN”黒澤 ダイヤ",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 バトル中のこのカードが【リバース】した時、このカードのバトル相手のレベルが0以下なら、あなたはそのキャラを山札の下に置いてよい。\n\"-\"",
+   "traits": [
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lss_w53/lss_w53_t15r.png",
+   "variant": ""
+  },
+  {
+   "num": "LSS/W53-T16",
+   "name": "“HAPPY PARTY TRAIN”小原 鞠莉",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋500。\n【自】 あなたのクライマックスがクライマックス置場に置かれた時、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋1000。\n\"「終わらない旅をしよう」\"",
+   "traits": [
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lss_w53/lss_w53_t16.png",
+   "variant": ""
+  },
+  {
+   "num": "LSS/W53-T16R",
+   "name": "“HAPPY PARTY TRAIN”小原 鞠莉",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋500。\n【自】 あなたのクライマックスがクライマックス置場に置かれた時、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋1000。\n\"-\"",
+   "traits": [
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lss_w53/lss_w53_t16r.png",
+   "variant": ""
+  },
+  {
+   "num": "LSS/W53-T17",
+   "name": "“HAPPY PARTY TRAIN”松浦 果南",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】【CXコンボ】 このカードのバトル相手が【リバース】した時、あなたのクライマックス置場に「HAPPY PARTY TRAIN」があるなら、あなたは自分の山札を見て《音楽》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"「想いを乗せて HAPPY HAPPY TRAIN to go！」\"",
+   "traits": [
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lss_w53/lss_w53_t17.png",
+   "variant": ""
+  },
+  {
+   "num": "LSS/W53-T17S",
+   "name": "“HAPPY PARTY TRAIN”松浦 果南",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】【CXコンボ】 このカードのバトル相手が【リバース】した時、あなたのクライマックス置場に「HAPPY PARTY TRAIN」があるなら、あなたは自分の山札を見て《音楽》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"「ah! どこまでもね…HAPPY TRAIN」\"",
+   "traits": [
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lss_w53/lss_w53_t17s.png",
+   "variant": ""
+  },
+  {
+   "num": "LSS/W53-T17SP",
+   "name": "“HAPPY PARTY TRAIN”松浦 果南",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】【CXコンボ】 このカードのバトル相手が【リバース】した時、あなたのクライマックス置場に「HAPPY PARTY TRAIN」があるなら、あなたは自分の山札を見て《音楽》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"-\"",
+   "traits": [
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lss_w53/lss_w53_t17sp.png",
+   "variant": ""
+  },
+  {
+   "num": "LSS/W53-T18",
+   "name": "“さあどこへ行こうかな”小原 鞠莉",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、そのターン中、このカードのパワーを＋Ｘ。Ｘはあなたの《音楽》のキャラの枚数×500に等しい。\n\"-\"",
+   "traits": [
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lss_w53/lss_w53_t18.png",
+   "variant": ""
+  },
+  {
+   "num": "LSS/W53-T19",
+   "name": "“さあどこへ行こうかな”黒澤 ダイヤ",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "5500",
+   "soul": 1,
+   "trigger": "",
+   "text": "-\n\"-\"",
+   "traits": [
+    "音楽",
+    "生徒会"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lss_w53/lss_w53_t19.png",
+   "variant": ""
+  },
+  {
+   "num": "LSS/W53-T20",
+   "name": "“さあどこへ行こうかな”松浦 果南",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたのキャラすべてが《音楽》なら、このカードのパワーを＋1000。\n【自】［(3) 手札を1枚控え室に置く］ この能力は1ターンにつき1回まで発動する。このカードが手札から舞台に置かれたターン中、このカードのバトル相手が【リバース】した時、あなたはコストを払ってよい。そうしたら、このカードを【スタンド】する。\n\"「跳ねるように行こうかな」\"",
+   "traits": [
+    "音楽",
+    "傘"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lss_w53/lss_w53_t20.png",
+   "variant": ""
+  },
+  {
+   "num": "LSS/W53-T21",
+   "name": "TRAIN to go!",
+   "type": "Event",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "このカードは、あなたの《音楽》のキャラがいないなら、手札からプレイできない。\nあなたは自分の山札の上から2枚を、控え室に置く。それらのカードにレベル1以上のカードがあるなら、あなたは自分の山札の上から2枚を、控え室に置く。あなたは自分の控え室のレベルＸ以下の《音楽》のキャラを1枚選び、手札に戻す。Ｘはこの効果で控え室に置かれたレベル1以上のカードの枚数に等しい。（クライマックスのレベルは0として扱う）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lss_w53/lss_w53_t21.png",
+   "variant": ""
+  },
+  {
+   "num": "LSS/W53-T22",
+   "name": "HAPPY PARTY TRAIN",
+   "type": "Climax",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[gate.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[gate.gif]]：このカードがトリガーした時、あなたは自分の控え室のクライマックスを1枚選び、手札に戻してよい）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lss_w53/lss_w53_t22.png",
+   "variant": ""
+  },
+  {
+   "num": "LSS/W53-T22S",
+   "name": "HAPPY PARTY TRAIN",
+   "type": "Climax",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[gate.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[gate.gif]]：このカードがトリガーした時、あなたは自分の控え室のクライマックスを1枚選び、手札に戻してよい）\n\"「期待にかがやく瞳なら見えるよ」\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lss_w53/lss_w53_t22s.png",
+   "variant": ""
+  }
+ ]
+}

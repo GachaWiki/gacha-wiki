@@ -1,0 +1,2109 @@
+{
+ "id": "jp-sy",
+ "name": "涼宮ハルヒの憂鬱",
+ "expansion": 35,
+ "lang": "jp",
+ "release": null,
+ "shopItem": null,
+ "box": null,
+ "cards": [
+  {
+   "num": "SY/W08-001",
+   "name": "キョン",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1) あなたの舞台の《団長》のキャラを1枚クロック置場に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見て「“いつも”のハルヒ」を1枚まで選び、舞台の好きな枠に置く。その山札をシャッフルする。\n\"…まぁいいか\"",
+   "traits": [
+    "SOS団"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sy_w08/sy_w08_001.png",
+   "variant": ""
+  },
+  {
+   "num": "SY/W08-001R",
+   "name": "キョン",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1) あなたの舞台の《団長》のキャラを1枚クロック置場に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見て「“いつも”のハルヒ」を1枚まで選び、舞台の好きな枠に置く。その山札をシャッフルする。\n\"SECRET\"",
+   "traits": [
+    "SOS団"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sy_w08/sy_w08_001r.png",
+   "variant": ""
+  },
+  {
+   "num": "SY/W08-002",
+   "name": "サンタっ娘ハルヒ＆キョン",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "yellow",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】［(5)］ この能力は1ターンにつき1回まで発動する。このカードとバトル中のキャラが【リバース】した時、他のあなたの《SOS団》のキャラが4枚以上なら、あなたはコストを払ってよい。そうしたら、このカードを【スタンド】する。\n【自】 このカードがフロントアタックされた時、あなたは自分の山札を上から1枚見て、山札の上か控え室に置く。\n\"キョン「もういいだろ。これ以上はいろんな法律に引っかかる」\"",
+   "traits": [
+    "団長",
+    "SOS団"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sy_w08/sy_w08_002.png",
+   "variant": ""
+  },
+  {
+   "num": "SY/W08-003",
+   "name": "Xmasパーティ キョンの妹",
+   "type": "Character",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 絆／「“いつも”のキョン」 ［あなたの山札の上から1枚をクロック置場に置く］ （このカードがプレイされて舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「“いつも”のキョン」を1枚選び、手札に戻す）\n【起】 集中 ［(1)］ あなたは自分の山札の上から4枚をめくり、控え室に置く。それらのカードのクライマックス1枚につき、あなたは自分のカード名に「キョン」を含むキャラを1枚選び、そのターン中、ソウルを＋1。\n\"わたしコーラ！\"",
+   "traits": [
+    "動物"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sy_w08/sy_w08_003.png",
+   "variant": ""
+  },
+  {
+   "num": "SY/W08-003S",
+   "name": "Xmasパーティ キョンの妹",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 絆／「“いつも”のキョン」 ［あなたの山札の上から1枚をクロック置場に置く］ （このカードがプレイされて舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「“いつも”のキョン」を1枚選び、手札に戻す）\n【起】 集中 ［(1)］ あなたは自分の山札の上から4枚をめくり、控え室に置く。それらのカードのクライマックス1枚につき、あなたは自分のカード名に「キョン」を含むキャラを1枚選び、そのターン中、ソウルを＋1。\n\"SECRET\"",
+   "traits": [
+    "動物"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sy_w08/sy_w08_003s.png",
+   "variant": ""
+  },
+  {
+   "num": "SY/W08-004",
+   "name": "謎の転校生 古泉",
+   "type": "Character",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 応援 あなたのターン中、このカードの前のあなたのキャラすべてに、パワーを＋1000。\n【自】［手札を1枚控え室に置く］ あなたのキャラのトリガーチェックでクライマックスがでた時、そのカードのトリガーアイコンが[[bounce.gif]]なら、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見て《SOS団》のキャラを1枚まで選んで相手に見せ、手札に加える。その山札をシャッフルする。\n\"転校してきたばかりで至らぬ点もありましょうが、よろしくご教示願います\"",
+   "traits": [
+    "超能力",
+    "SOS団"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sy_w08/sy_w08_004.png",
+   "variant": ""
+  },
+  {
+   "num": "SY/W08-004R",
+   "name": "謎の転校生 古泉",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 応援 あなたのターン中、このカードの前のあなたのキャラすべてに、パワーを＋1000。\n【自】［手札を1枚控え室に置く］ あなたのキャラのトリガーチェックでクライマックスがでた時、そのカードのトリガーアイコンが[[bounce.gif]]なら、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見て《SOS団》のキャラを1枚まで選んで相手に見せ、手札に加える。その山札をシャッフルする。\n\"SECRET\"",
+   "traits": [
+    "超能力",
+    "SOS団"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sy_w08/sy_w08_004r.png",
+   "variant": ""
+  },
+  {
+   "num": "SY/W08-005",
+   "name": "見えざる信頼関係 ハルヒ＆キョン",
+   "type": "Character",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "1",
+   "cost": "1",
+   "power": "5500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 あなたのアンコールステップの始めに、クライマックス置場に「涼宮ハルヒの朗報」があるなら、あなたはこのカードを思い出にしてよい。そうしたら、次のあなたのドローフェイズの始めに、あなたは自分の思い出置場の「見えざる信頼関係 ハルヒ＆キョン」を1枚選び、舞台の好きな枠に置き、そのターン中、そのキャラのパワーを＋3000。\n\"ハルヒ「キョン、勝負事なんていうのはね、言い出したその時から勝負なの。」\"",
+   "traits": [
+    "団長",
+    "SOS団"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sy_w08/sy_w08_005.png",
+   "variant": ""
+  },
+  {
+   "num": "SY/W08-006",
+   "name": "“いつも”のキョン",
+   "type": "Character",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "8000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードがアタックした時、クライマックス置場に「sleeping beauty_」があるなら、あなたは自分の山札を見て《SOS団》のキャラを1枚まで選んで相手に見せ、手札に加える。その山札をシャッフルする。\n\"ハルヒ　似合ってるぞ\"",
+   "traits": [
+    "SOS団"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sy_w08/sy_w08_006.png",
+   "variant": ""
+  },
+  {
+   "num": "SY/W08-007",
+   "name": "浴衣のキョン",
+   "type": "Character",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "2",
+   "cost": "2",
+   "power": "7500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの、《SOS団》か《和服》のキャラが3枚以上なら、このカードのパワーを＋1000。\n【自】 アンコール ［手札のキャラを1枚控え室に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"…解かった。まぁ、今は落ち着け\"",
+   "traits": [
+    "和服",
+    "SOS団"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sy_w08/sy_w08_007.png",
+   "variant": ""
+  },
+  {
+   "num": "SY/W08-007S",
+   "name": "浴衣のキョン",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "yellow",
+   "level": "2",
+   "cost": "2",
+   "power": "7500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの、《SOS団》か《和服》のキャラが3枚以上なら、このカードのパワーを＋1000。\n【自】 アンコール ［手札のキャラを1枚控え室に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"SECRET\"",
+   "traits": [
+    "和服",
+    "SOS団"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sy_w08/sy_w08_007s.png",
+   "variant": ""
+  },
+  {
+   "num": "SY/W08-008",
+   "name": "森 園生",
+   "type": "Character",
+   "rarity": "U",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの《メイド》のキャラすべてに、パワーを＋500。\n【起】［このカードを【レスト】する］ あなたは自分の《メイド》のキャラを1枚選び、そのターン中、パワーを＋1000。\n\"船は無いと思われますが\"",
+   "traits": [
+    "メイド"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sy_w08/sy_w08_008.png",
+   "variant": ""
+  },
+  {
+   "num": "SY/W08-009",
+   "name": "水着のキョンの妹",
+   "type": "Character",
+   "rarity": "U",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、そのターン中、このカードのパワーを＋1500。\n【自】 アンコール ［手札のキャラを1枚控え室に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"こっちこっちー！\"",
+   "traits": [
+    "動物",
+    "水着"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sy_w08/sy_w08_009.png",
+   "variant": ""
+  },
+  {
+   "num": "SY/W08-010",
+   "name": "部室のキョン",
+   "type": "Character",
+   "rarity": "U",
+   "color": "yellow",
+   "level": "1",
+   "cost": "1",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 チェンジ ［このカードをクロック置場に置く］ あなたのアンコールステップの始めに、このカードが【レスト】しているなら、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「“いつも”のキョン」を1枚選び、このカードがいた枠に置く。\n\"最近この理不尽空間に普通に馴染んでる自分に感心してな\"",
+   "traits": [
+    "メカ",
+    "SOS団"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sy_w08/sy_w08_010.png",
+   "variant": ""
+  },
+  {
+   "num": "SY/W08-011",
+   "name": "古泉 一樹",
+   "type": "Character",
+   "rarity": "U",
+   "color": "yellow",
+   "level": "2",
+   "cost": "2",
+   "power": "8000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたのターン中、他のあなたの《SOS団》のキャラ1枚につき、このカードのパワーを＋500。\n【自】 このカードがアタックした時、クライマックス置場に「閉鎖空間」があるなら、あなたは相手のキャラを1枚選び、手札に戻してよい。\n\"お待たせしました。最後にもう一つ面白いものが見れますよ\"",
+   "traits": [
+    "超能力",
+    "SOS団"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sy_w08/sy_w08_011.png",
+   "variant": ""
+  },
+  {
+   "num": "SY/W08-012",
+   "name": "部室の長門＆古泉",
+   "type": "Character",
+   "rarity": "U",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】［手札を1枚控え室に置く］ あなたがこのカードの『助太刀』を使った時、あなたはコストを払ってよい。そうしたら、あなたは相手の控え室のカードを2枚まで選び、山札に戻す。その山札をシャッフルする。\n【起】【カウンター】 助太刀2500 レベル2 ［(1) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋2500）\n\"古泉「どうもすみません、我々、少しばかり非常識な存在なんですよ」\"",
+   "traits": [
+    "宇宙人",
+    "超能力"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sy_w08/sy_w08_012.png",
+   "variant": ""
+  },
+  {
+   "num": "SY/W08-013",
+   "name": "クラスメイト国木田",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 アラーム このカードがクロックの1番上にあるなら、あなたの特徴を持たないキャラすべてに、次の能力を与える。『【自】［(1)］ このカードとバトル中のキャラが【リバース】した時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見て特徴を持たないキャラを1枚まで選んで相手に見せ、手札に加える。その山札をシャッフルする。』\n\"昔からキョンは変な女が好きだからね～\"",
+   "traits": [
+    "特徴なし"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sy_w08/sy_w08_013.png",
+   "variant": ""
+  },
+  {
+   "num": "SY/W08-014",
+   "name": "エプロン姿のキョン",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのターン中、他のあなたのキャラすべてに、パワーを＋500。\n【自】 相手が『集中』を使った時、その効果でクライマックスが控え室に置かれたなら、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋2000。\n\"しかし現実ってのは意外と厳しい\"",
+   "traits": [
+    "本",
+    "SOS団"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sy_w08/sy_w08_014.png",
+   "variant": ""
+  },
+  {
+   "num": "SY/W08-015",
+   "name": "エプロン姿の古泉",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの《団長》のキャラがいるなら、このカードのパワーを＋2000。\n\"古泉一樹です、…よろしく\"",
+   "traits": [
+    "超能力",
+    "本"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sy_w08/sy_w08_015.png",
+   "variant": ""
+  },
+  {
+   "num": "SY/W08-016",
+   "name": "クラスメイト谷口",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのターン中、このカードのパワーを＋1000。\n\"もしあいつに気があるんだったら、悪いことは言わん、やめとけ\"",
+   "traits": [
+    "特徴なし"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sy_w08/sy_w08_016.png",
+   "variant": ""
+  },
+  {
+   "num": "SY/W08-017",
+   "name": "がんばりすぎのみくる＆キョン",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "",
+   "text": "-\n\"キョン｢あのうかつで愛らしい方は、なかなかドアに施錠することを覚えないからなぁ」\"",
+   "traits": [
+    "時間",
+    "SOS団"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sy_w08/sy_w08_017.png",
+   "variant": ""
+  },
+  {
+   "num": "SY/W08-018",
+   "name": "ダンディな執事 新川",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 あなたのキャラのトリガーチェックでクライマックスがでた時、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋2000。\n\"こちらに船をお用意してございます\"",
+   "traits": [
+    "執事"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sy_w08/sy_w08_018.png",
+   "variant": ""
+  },
+  {
+   "num": "SY/W08-019",
+   "name": "キョンの妹＆朝倉",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "8500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "-\n\"キョンの妹「どしたの？」\"",
+   "traits": [
+    "動物",
+    "宇宙人"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sy_w08/sy_w08_019.png",
+   "variant": ""
+  },
+  {
+   "num": "SY/W08-020",
+   "name": "合宿の夜",
+   "type": "Event",
+   "rarity": "U",
+   "color": "yellow",
+   "level": "1",
+   "cost": "1",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "あなたは自分の山札の上から1枚を公開する。そのカードが《SOS団》のキャラなら、あなたは1枚引いてよい。（そうでないなら元に戻す）\nあなたの《SOS団》のキャラすべてに、そのターン中、ソウルを＋1。\n\"変ったことも無く、無事一日目を終了した\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sy_w08/sy_w08_020.png",
+   "variant": ""
+  },
+  {
+   "num": "SY/W08-021",
+   "name": "雨の日の帰り道",
+   "type": "Event",
+   "rarity": "U",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "【カウンター】 このカードは、あなたの前列のキャラが3枚以上なら、手札からプレイできない。\nあなたのキャラすべてに、そのターン中、パワーを＋2500。\n\"ハルヒ「もっとこっちに寄せなさいよ、あたしが濡れるでしょ」\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sy_w08/sy_w08_021.png",
+   "variant": ""
+  },
+  {
+   "num": "SY/W08-022",
+   "name": "ふもっふ！",
+   "type": "Event",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "2",
+   "cost": "2",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "あなたは相手の前列のレベル3以下のキャラを1枚選び、ストック置場に置く。\n\"すぐすみますよ\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sy_w08/sy_w08_022.png",
+   "variant": ""
+  },
+  {
+   "num": "SY/W08-023",
+   "name": "涼宮ハルヒの朗報",
+   "type": "Climax",
+   "rarity": "CR",
+   "color": "yellow",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【永】 あなたのキャラすべてに、ソウルを＋2。\n\"みんな聞いて！朗報よ！\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sy_w08/sy_w08_023.png",
+   "variant": ""
+  },
+  {
+   "num": "SY/W08-024",
+   "name": "sleeping beauty_",
+   "type": "Climax",
+   "rarity": "CC",
+   "color": "yellow",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[bounce.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[bounce.gif]]：このカードがトリガーした時、あなたは相手のキャラを1枚選び、手札に戻してよい）\n\"いつだったかのお前のポニーテールは反則的なまでに似合ってたぞ\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sy_w08/sy_w08_024.png",
+   "variant": ""
+  },
+  {
+   "num": "SY/W08-025",
+   "name": "閉鎖空間",
+   "type": "Climax",
+   "rarity": "CC",
+   "color": "yellow",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[shot.gif]]",
+   "text": "【永】あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[shot.gif]]：このターン中、今回の攻撃キャラが次に与えるダメージがキャンセルされた時、相手に１ダメージを与える。）\n\"さて、僕も参加しなければ\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sy_w08/sy_w08_025.png",
+   "variant": ""
+  },
+  {
+   "num": "SY/W08-026",
+   "name": "異時間同位体 みくる＆みくる（大）",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "green",
+   "level": "2",
+   "cost": "1",
+   "power": "8000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードがアタックした時、クライマックス置場に「禁則事項です」があるなら、次の相手のターンの終わりまで、相手はイベントを手札からプレイできない。\n【自】 このカードがアタックした時、クライマックス置場に「禁則事項です」があるなら、あなたのキャラすべてに、そのターン中、パワーを＋1500。\n\"あなたの知ってる私よりもっと未来から来ました\"",
+   "traits": [
+    "時間",
+    "SOS団"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sy_w08/sy_w08_026.png",
+   "variant": ""
+  },
+  {
+   "num": "SY/W08-026R",
+   "name": "異時間同位体 みくる＆みくる（大）",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "green",
+   "level": "2",
+   "cost": "1",
+   "power": "8000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードがアタックした時、クライマックス置場に「禁則事項です」があるなら、次の相手のターンの終わりまで、相手はイベントを手札からプレイできない。\n【自】 このカードがアタックした時、クライマックス置場に「禁則事項です」があるなら、あなたのキャラすべてに、そのターン中、パワーを＋1500。\n\"SECRET\"",
+   "traits": [
+    "時間",
+    "SOS団"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sy_w08/sy_w08_026r.png",
+   "variant": ""
+  },
+  {
+   "num": "SY/W08-027",
+   "name": "ドジっ娘みくる",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "green",
+   "level": "2",
+   "cost": "2",
+   "power": "2500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋1500。\n【自】 このカードが手札から舞台に置かれた時、他のあなたの《時間》のキャラが2枚以上なら、あなたは自分の山札の上から1枚を、ストック置場に置いてよい\n\"あわわ…わわっ\"",
+   "traits": [
+    "時間",
+    "SOS団"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sy_w08/sy_w08_027.png",
+   "variant": ""
+  },
+  {
+   "num": "SY/W08-028",
+   "name": "おめかし鶴屋さん",
+   "type": "Character",
+   "rarity": "R",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたのキャラが2枚以下なら、このカードのパワーを＋1500。\n【自】 アンコール ［手札のキャラを1枚控え室に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"やっほー！、みくるいる？\"",
+   "traits": [
+    "オデコ",
+    "八重歯"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sy_w08/sy_w08_028.png",
+   "variant": ""
+  },
+  {
+   "num": "SY/W08-028S",
+   "name": "おめかし鶴屋さん",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたのキャラが2枚以下なら、このカードのパワーを＋1500。\n【自】 アンコール ［手札のキャラを1枚控え室に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"SECRET\"",
+   "traits": [
+    "オデコ",
+    "八重歯"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sy_w08/sy_w08_028s.png",
+   "variant": ""
+  },
+  {
+   "num": "SY/W08-029",
+   "name": "朝比奈 みくる",
+   "type": "Character",
+   "rarity": "R",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(2)］ あなたのアンコールステップの始めに、あなたはコストを払ってよい。そうしたら、あなたは自分のキャラを1枚と、このカードを選び、思い出にする。次のあなたのドローフェイズの始めに、あなたは自分の思い出置場のそれらのキャラを、舞台の別々の枠に置き、そのターン中、それらのキャラのパワーを＋1000。\n\"それからわたしのことでしたら、どうぞみくるちゃんとお呼び下さい\"",
+   "traits": [
+    "時間",
+    "SOS団"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sy_w08/sy_w08_029.png",
+   "variant": ""
+  },
+  {
+   "num": "SY/W08-030",
+   "name": "温泉の鶴屋さん",
+   "type": "Character",
+   "rarity": "R",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【起】 集中 ［(2)］ あなたは自分の山札の上から4枚をめくり、控え室に置く。それらのカードのクライマックス1枚につき、あなたは相手のキャラを1枚選び、そのターン中、パワーを－2000。\n\"笑いが止まんないねっ\"",
+   "traits": [
+    "オデコ",
+    "八重歯"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sy_w08/sy_w08_030.png",
+   "variant": ""
+  },
+  {
+   "num": "SY/W08-031",
+   "name": "時をかける少女みくる",
+   "type": "Character",
+   "rarity": "R",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 チェンジ ［(1) このカードをクロック置場に置く］ あなたのアンコールステップの始めに、このカードが【レスト】しているなら、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「異時間同位体 みくる＆みくる（大）」を1枚選び、このカードがいた枠に置く。\n【起】【カウンター】 助太刀1500 レベル1 ［手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋1500）\n\"信じてもらえないかもしれないけど、あたしはこの時代の人間ではありません\"",
+   "traits": [
+    "時間",
+    "本"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sy_w08/sy_w08_031.png",
+   "variant": ""
+  },
+  {
+   "num": "SY/W08-031R",
+   "name": "時をかける少女みくる",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 チェンジ ［(1) このカードをクロック置場に置く］ あなたのアンコールステップの始めに、このカードが【レスト】しているなら、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「異時間同位体 みくる＆みくる（大）」を1枚選び、このカードがいた枠に置く。\n【起】【カウンター】 助太刀1500 レベル1 ［手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋1500）\n\"SECRET\"",
+   "traits": [
+    "時間",
+    "本"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sy_w08/sy_w08_031r.png",
+   "variant": ""
+  },
+  {
+   "num": "SY/W08-032",
+   "name": "水着のハルヒ＆みくる",
+   "type": "Character",
+   "rarity": "R",
+   "color": "green",
+   "level": "1",
+   "cost": "1",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】［あなたの舞台の《時間》のキャラを1枚控え室に置く］ このカードがアタックした時、クライマックス置場に「涼宮ハルヒの日常」があるなら、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見て《時間》のキャラを1枚まで選んで相手に見せ、手札に加える。その山札をシャッフルする。\n【自】 アンコール ［手札のキャラを1枚控え室に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"ハルヒ「あー本当におっきいなー」\"",
+   "traits": [
+    "団長",
+    "時間"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sy_w08/sy_w08_032.png",
+   "variant": ""
+  },
+  {
+   "num": "SY/W08-032S",
+   "name": "水着のハルヒ＆みくる",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "1",
+   "cost": "1",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】［あなたの舞台の《時間》のキャラを1枚控え室に置く］ このカードがアタックした時、クライマックス置場に「涼宮ハルヒの日常」があるなら、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見て《時間》のキャラを1枚まで選んで相手に見せ、手札に加える。その山札をシャッフルする。\n【自】 アンコール ［手札のキャラを1枚控え室に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"SECRET\"",
+   "traits": [
+    "団長",
+    "時間"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sy_w08/sy_w08_032s.png",
+   "variant": ""
+  },
+  {
+   "num": "SY/W08-033",
+   "name": "おめかしみくる",
+   "type": "Character",
+   "rarity": "U",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの《SOS団》のキャラすべてに、レベルを＋1し、パワーを＋500。\n【自】［手札を1枚控え室に置く］ 相手が『集中』を使った時、その効果でクライマックスが控え室に置かれたなら、あなたはコストを払ってよい。そうしたら、あなたは相手のキャラを1枚選び、そのターン中、パワーを－2000。\n\"わたしがお嫁にいけなくなったら、もらってくれますか？\"",
+   "traits": [
+    "時間",
+    "SOS団"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sy_w08/sy_w08_033.png",
+   "variant": ""
+  },
+  {
+   "num": "SY/W08-034",
+   "name": "ネコミミ 鶴屋さん",
+   "type": "Character",
+   "rarity": "U",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1)］ あなたのキャラのトリガーチェックでクライマックスがでた時、そのカードのトリガーアイコンが[[stock.gif]]なら、あなたはコストを払ってよい。そうしたら、あなたは相手のキャラを1枚選び、そのターン中、パワーを－1000。\n【自】 絆／「ネコミミ みくる」 ［(1)］ （このカードがプレイされて舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「ネコミミ みくる」を1枚選び、手札に戻す）\n\"どうにょろ？\"",
+   "traits": [
+    "オデコ",
+    "動物"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sy_w08/sy_w08_034.png",
+   "variant": ""
+  },
+  {
+   "num": "SY/W08-035",
+   "name": "ビーチバレー みくる＆鶴屋さん",
+   "type": "Character",
+   "rarity": "U",
+   "color": "green",
+   "level": "1",
+   "cost": "1",
+   "power": "7000",
+   "soul": 1,
+   "trigger": "",
+   "text": "-\n\"鶴屋さん「そいつはすごいねっ。任せたよミクル！」\"",
+   "traits": [
+    "水着",
+    "スポーツ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sy_w08/sy_w08_035.png",
+   "variant": ""
+  },
+  {
+   "num": "SY/W08-036",
+   "name": "ウェイトレス鶴屋さん",
+   "type": "Character",
+   "rarity": "U",
+   "color": "green",
+   "level": "2",
+   "cost": "2",
+   "power": "7500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの《時間》のキャラ1枚につき、このカードのパワーを＋500。\n【自】 このカードがアタックした時、クライマックス置場に「もうボロ儲けだよっ！」があるなら、あなたは相手のキャラを1枚選び、そのターン中、パワーを－Ｘ。Ｘはあなたの《時間》のキャラの枚数×1000に等しい。\n\"どうだいっ。この衣装めがっさ似合ってると思わないかなっ？\"",
+   "traits": [
+    "オデコ",
+    "ウェイトレス"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sy_w08/sy_w08_036.png",
+   "variant": ""
+  },
+  {
+   "num": "SY/W08-037",
+   "name": "ネコミミ みくる",
+   "type": "Character",
+   "rarity": "U",
+   "color": "green",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 このカードの正面のキャラのソウルを－1。\n【自】［(1)］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、次の相手のターンの終わりまで、相手はクライマックスを手札からプレイできない。\n\"さぶいです…。それに恥ずかしいですよぅ…\"",
+   "traits": [
+    "時間",
+    "動物"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sy_w08/sy_w08_037.png",
+   "variant": ""
+  },
+  {
+   "num": "SY/W08-038",
+   "name": "サイン会みくる",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋500。\n【起】［手札のクライマックスを1枚控え室に置き、あなたのキャラを2枚【レスト】する］ あなたは自分の山札を見て《時間》のキャラを1枚まで選んで相手に見せ、手札に加える。その山札をシャッフルする。\n\"おまたせしちゃってごめんなさい\"",
+   "traits": [
+    "時間",
+    "本"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sy_w08/sy_w08_038.png",
+   "variant": ""
+  },
+  {
+   "num": "SY/W08-039",
+   "name": "SOS団のマスコットみくる",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 他のあなたの《SOS団》のキャラが手札か思い出置場から舞台に置かれた時、そのターン中、そのキャラのパワーを＋1000し、《お茶》を与える。\n\"お茶です、どーぞ♪\"",
+   "traits": [
+    "時間",
+    "メイド"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sy_w08/sy_w08_039.png",
+   "variant": ""
+  },
+  {
+   "num": "SY/W08-040",
+   "name": "ウェイトレスみくる",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 チェンジ ［このカードをクロック置場に置く］ あなたのアンコールステップの始めに、このカードが【レスト】しているなら、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「未来から来たみくる」を1枚選び、このカードがいた枠に置く。\n\"あ、いらっしゃいませぇ\"",
+   "traits": [
+    "時間",
+    "ウェイトレス"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sy_w08/sy_w08_040.png",
+   "variant": ""
+  },
+  {
+   "num": "SY/W08-041",
+   "name": "バニーガール ハルヒ＆長門＆みくる",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "",
+   "text": "-\n\"ハルヒ「萌えよ萌え、いわゆる一つの萌え要素」\"",
+   "traits": [
+    "動物",
+    "SOS団"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sy_w08/sy_w08_041.png",
+   "variant": ""
+  },
+  {
+   "num": "SY/W08-042",
+   "name": "未来から来たみくる",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのストックが5枚以上なら、このカードのパワーを＋1000。\n【自】［(1)］ このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「ウェイトレスみくる」を1枚選び、このカードがいた枠に【レスト】して置く。\n\"禁則事項です\"",
+   "traits": [
+    "時間"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sy_w08/sy_w08_042.png",
+   "variant": ""
+  },
+  {
+   "num": "SY/W08-043",
+   "name": "Xmasパーティ 鶴屋さん＆みくる",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "2",
+   "cost": "1",
+   "power": "8000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 相手のキャラが4枚以上なら、このカードのパワーを＋1000。\n\"鶴屋さん「ちょろんと待ってて！」\"",
+   "traits": [
+    "時間",
+    "オデコ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sy_w08/sy_w08_043.png",
+   "variant": ""
+  },
+  {
+   "num": "SY/W08-044",
+   "name": "ミラクルガール みくる",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "2",
+   "cost": "2",
+   "power": "9000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "-\n\"ハルヒ「やっぱり萌えといったらメイドでしょ？」\"",
+   "traits": [
+    "時間",
+    "メイド"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sy_w08/sy_w08_044.png",
+   "variant": ""
+  },
+  {
+   "num": "SY/W08-045",
+   "name": "みくるビーム",
+   "type": "Event",
+   "rarity": "U",
+   "color": "green",
+   "level": "1",
+   "cost": "1",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "このカードは、あなたの《時間》のキャラがいないなら、手札からプレイできない。\nあなたは自分のクロック置場のキャラを1枚選び、手札に戻す。\nあなたは相手のキャラを1枚選び、そのターン中、パワーを－1000。\nこのカードをクロック置場に置く。\n\"みっみっ、みくるビィーム！\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sy_w08/sy_w08_045.png",
+   "variant": ""
+  },
+  {
+   "num": "SY/W08-046",
+   "name": "任意同行？",
+   "type": "Event",
+   "rarity": "U",
+   "color": "green",
+   "level": "1",
+   "cost": "4",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "あなたは自分のクロック置場のレベル2以下の《SOS団》のキャラを1枚選び、舞台の好きな枠に置く。このカードをクロック置場に置く。\n\"なんなんですかー？　ここどこですか。何であたし連れてこられたんですか\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sy_w08/sy_w08_046.png",
+   "variant": ""
+  },
+  {
+   "num": "SY/W08-047",
+   "name": "野球大会",
+   "type": "Event",
+   "rarity": "C",
+   "color": "green",
+   "level": "2",
+   "cost": "0",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "【カウンター】 あなたは自分のキャラを1枚選び、そのターン中、パワーを＋Ｘ。Ｘはあなたのストックの枚数×500に等しい。\n\"「おぉー」\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sy_w08/sy_w08_047.png",
+   "variant": ""
+  },
+  {
+   "num": "SY/W08-048",
+   "name": "涼宮ハルヒの日常",
+   "type": "Climax",
+   "rarity": "CR",
+   "color": "green",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[treasure.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[treasure.gif]]：このカードがトリガーした時、あなたはこのカードを手札に戻す。あなたは自分の山札の上から1枚を、ストック置場に置いてよい）\n\"ハルヒ「行くわよ、みくるちゃん！」\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sy_w08/sy_w08_048.png",
+   "variant": ""
+  },
+  {
+   "num": "SY/W08-049",
+   "name": "禁則事項です",
+   "type": "Climax",
+   "rarity": "CC",
+   "color": "green",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[stock.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[stock.gif]]：このカードがトリガーした時、あなたは自分の山札の上から1枚を、ストック置場に置いてよい）\n\"禁則事項です♪\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sy_w08/sy_w08_049.png",
+   "variant": ""
+  },
+  {
+   "num": "SY/W08-050",
+   "name": "もうボロ儲けだよっ！",
+   "type": "Climax",
+   "rarity": "CC",
+   "color": "green",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【自】 このカードが手札からクライマックス置場に置かれた時、あなたは1枚引き、自分のキャラを1枚選び、そのターン中、パワーを＋2000し、ソウルを＋1。\n\"鶴屋さん「わはははっ、入れ食いさ！」\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sy_w08/sy_w08_050.png",
+   "variant": ""
+  },
+  {
+   "num": "SY/W08-051",
+   "name": "Xmasパーティ ハルヒ＆キョン",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "red",
+   "level": "1",
+   "cost": "2",
+   "power": "5500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの《団長》のキャラすべてに、パワーを＋1000。\n\"キョン！　なんか出た！\"",
+   "traits": [
+    "団長",
+    "SOS団"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sy_w08/sy_w08_051.png",
+   "variant": ""
+  },
+  {
+   "num": "SY/W08-052",
+   "name": "SOS団団長ハルヒ",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "red",
+   "level": "2",
+   "cost": "2",
+   "power": "8500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】［(2)］ あなたのクライマックス置場に「SOS団誕生！」が置かれた時、前列にこのカードがいるなら、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見てレベル2以下の《SOS団》のキャラを1枚まで選び、舞台の好きな枠に置く。その山札をシャッフルする。\n\"SOS団の活動内容、それは！宇宙人や未来人や超能力者を探し出して、一緒に遊ぶことよ！\"",
+   "traits": [
+    "団長",
+    "SOS団"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sy_w08/sy_w08_052.png",
+   "variant": ""
+  },
+  {
+   "num": "SY/W08-052SP",
+   "name": "SOS団団長ハルヒ",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "red",
+   "level": "2",
+   "cost": "2",
+   "power": "8500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】［(2)］ あなたのクライマックス置場に「SOS団誕生！」が置かれた時、前列にこのカードがいるなら、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見てレベル2以下の《SOS団》のキャラを1枚まで選び、舞台の好きな枠に置く。その山札をシャッフルする。\n\"SECRET\"",
+   "traits": [
+    "団長",
+    "SOS団"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sy_w08/sy_w08_052sp.png",
+   "variant": ""
+  },
+  {
+   "num": "SY/W08-053",
+   "name": "浴衣のハルヒ",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 絆／「浴衣のキョン」 ［あなたの山札の上から1枚をクロック置場に置く］ （このカードがプレイされて舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「浴衣のキョン」を1枚選び、手札に戻す）\n【起】［(1)］ あなたは自分の《和服》のキャラを1枚選び、そのターン中、パワーを＋1000。\n\"もうちょっとあんたも喜びなさいよ、この発見を\"",
+   "traits": [
+    "団長",
+    "和服"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sy_w08/sy_w08_053.png",
+   "variant": ""
+  },
+  {
+   "num": "SY/W08-053S",
+   "name": "浴衣のハルヒ",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 絆／「浴衣のキョン」 ［あなたの山札の上から1枚をクロック置場に置く］ （このカードがプレイされて舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「浴衣のキョン」を1枚選び、手札に戻す）\n【起】［(1)］ あなたは自分の《和服》のキャラを1枚選び、そのターン中、パワーを＋1000。\n\"SECRET\"",
+   "traits": [
+    "団長",
+    "和服"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sy_w08/sy_w08_053s.png",
+   "variant": ""
+  },
+  {
+   "num": "SY/W08-054",
+   "name": "温泉のハルヒ",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが【リバース】した時、このカードとバトル中のキャラのレベルが0以下なら、あなたはそのキャラを【リバース】してよい。\n【自】 バトル中のこのカードが【リバース】した時、あなたは自分の《SOS団》のキャラを1枚選び、そのターン中、パワーを＋1500。\n\"アンタがそれでいいなら、まあいいわ♡\"",
+   "traits": [
+    "団長",
+    "SOS団"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sy_w08/sy_w08_054.png",
+   "variant": ""
+  },
+  {
+   "num": "SY/W08-055",
+   "name": "世界の中心ハルヒ＆ちっぽけなハルヒ",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 前列の中央の枠にこのカードがいるなら、このカードのパワーを＋1000。\n\"やあごめんごめん！　遅れちゃった！捕まえるのに手間取っちゃって！\"",
+   "traits": [
+    "団長",
+    "SOS団"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sy_w08/sy_w08_055.png",
+   "variant": ""
+  },
+  {
+   "num": "SY/W08-055S",
+   "name": "世界の中心ハルヒ＆ちっぽけなハルヒ",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 前列の中央の枠にこのカードがいるなら、このカードのパワーを＋1000。\n\"SECRET\"",
+   "traits": [
+    "団長",
+    "SOS団"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sy_w08/sy_w08_055s.png",
+   "variant": ""
+  },
+  {
+   "num": "SY/W08-056",
+   "name": "“いつも”のハルヒ",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードとバトル中のキャラが【リバース】した時、あなたはこのカードを思い出にしてよい。そうしたら、次のあなたのドローフェイズの始めに、あなたは自分の思い出置場の「“いつも”のハルヒ」を1枚選び、舞台の好きな枠に置く。\n\"なに？\"",
+   "traits": [
+    "団長",
+    "SOS団"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sy_w08/sy_w08_056.png",
+   "variant": ""
+  },
+  {
+   "num": "SY/W08-056SP",
+   "name": "“いつも”のハルヒ",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードとバトル中のキャラが【リバース】した時、あなたはこのカードを思い出にしてよい。そうしたら、次のあなたのドローフェイズの始めに、あなたは自分の思い出置場の「“いつも”のハルヒ」を1枚選び、舞台の好きな枠に置く。\n\"SECRET\"",
+   "traits": [
+    "団長",
+    "SOS団"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sy_w08/sy_w08_056sp.png",
+   "variant": ""
+  },
+  {
+   "num": "SY/W08-057",
+   "name": "ビーチバレー ハルヒ",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "2",
+   "cost": "2",
+   "power": "5000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたのキャラすべての持つ異なる特徴１つにつき、このカードのパワーを＋500。\n\"しまっていこー！\"",
+   "traits": [
+    "団長",
+    "スポーツ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sy_w08/sy_w08_057.png",
+   "variant": ""
+  },
+  {
+   "num": "SY/W08-058",
+   "name": "超編集長ハルヒ",
+   "type": "Character",
+   "rarity": "U",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 他のあなたのバトル中の《本》のキャラが【リバース】した時、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋1000。\n【自】［(1)］ 相手が『集中』を使った時、その効果でクライマックスが控え室に置かれたなら、あなたはコストを払ってよい。そうしたら、相手に1ダメージを与える。（ダメージキャンセルは発生する）\n\"じゃあ、調達にいくわよ\"",
+   "traits": [
+    "メガネ",
+    "本"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sy_w08/sy_w08_058.png",
+   "variant": ""
+  },
+  {
+   "num": "SY/W08-059",
+   "name": "おめかしハルヒ",
+   "type": "Character",
+   "rarity": "U",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードとバトル中のキャラが【リバース】した時、あなたは他の自分のキャラを1枚選び、【レスト】し、後列のキャラのいない枠に動かす。\n\"なんかよく分かんないけど、でかしたわ！\"",
+   "traits": [
+    "団長",
+    "SOS団"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sy_w08/sy_w08_059.png",
+   "variant": ""
+  },
+  {
+   "num": "SY/W08-060",
+   "name": "退屈を嫌うハルヒ",
+   "type": "Character",
+   "rarity": "U",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(6)］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の、《宇宙人》のキャラと《時間》のキャラと《超能力》のキャラを1枚ずつ選び、手札に戻す。\n【自】 アンコール ［手札のキャラを1枚控え室に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"あぁぁ、パアッと事件の１つでも発生しないかなぁ…\"",
+   "traits": [
+    "団長",
+    "SOS団"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sy_w08/sy_w08_060.png",
+   "variant": ""
+  },
+  {
+   "num": "SY/W08-061",
+   "name": "浴衣のハルヒ＆みくる",
+   "type": "Character",
+   "rarity": "U",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "5500",
+   "soul": 1,
+   "trigger": "",
+   "text": "-\n\"みくる「…どどこ触ってるんですかぁ!?」\"",
+   "traits": [
+    "和服",
+    "SOS団"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sy_w08/sy_w08_061.png",
+   "variant": ""
+  },
+  {
+   "num": "SY/W08-062",
+   "name": "Happy Valentineハルヒ",
+   "type": "Character",
+   "rarity": "U",
+   "color": "red",
+   "level": "1",
+   "cost": "1",
+   "power": "5500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードがアタックした時、クライマックス置場に「Happy Valentine」があるなら、あなたは他の自分のキャラを1枚選び、そのターン中、次の能力を与える。『【自】 このカードとバトル中のキャラが【リバース】した時、あなたは自分の控え室のキャラを1枚選び、手札に戻してよい。』\n\"うん、完璧！\"",
+   "traits": [
+    "団長",
+    "お菓子"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sy_w08/sy_w08_062.png",
+   "variant": ""
+  },
+  {
+   "num": "SY/W08-063",
+   "name": "両手いっぱいの花束ハルヒ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋500。\n【自】［(1)］ あなたのキャラのトリガーチェックでクライマックスがでた時、そのカードのトリガーアイコンが[[salvage.gif]]なら、あなたはコストを払ってよい。そうしたら、あなたは相手の前列のレベル1以下のキャラを1枚選び、控え室に置く。\n\"え、いいの？\"",
+   "traits": [
+    "団長",
+    "SOS団"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sy_w08/sy_w08_063.png",
+   "variant": ""
+  },
+  {
+   "num": "SY/W08-064",
+   "name": "涼宮 ハルヒ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "",
+   "text": "-\n\"こないと、死刑だから！\"",
+   "traits": [
+    "団長",
+    "SOS団"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sy_w08/sy_w08_064.png",
+   "variant": ""
+  },
+  {
+   "num": "SY/W08-065",
+   "name": "ボーカリスト ハルヒ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "1",
+   "cost": "1",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【起】【カウンター】 助太刀2000 レベル1 ［(1) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋2000）\n\"じゃあ行きます。『Lost my music』\"",
+   "traits": [
+    "団長",
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sy_w08/sy_w08_065.png",
+   "variant": ""
+  },
+  {
+   "num": "SY/W08-066",
+   "name": "勝利宣言ハルヒ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "6500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 チェンジ ［(1) このカードをクロック置場に置く］ あなたのアンコールステップの始めに、このカードが【レスト】しているなら、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「トラブルガール ハルヒ」を1枚選び、このカードがいた枠に置く。\n【起】 集中 ［(3)］ あなたは自分の山札の上から3枚をめくり、控え室に置く。あなたは自分の控え室のレベルＸ以下の《団長》のキャラを1枚選び、舞台の好きな枠に置く。Ｘはそれらのカードの《団長》のキャラの枚数に等しい。\n\"やっぱ目標数値は常に昨年対比を上回らないといけないのよ！\"",
+   "traits": [
+    "団長",
+    "和服"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sy_w08/sy_w08_066.png",
+   "variant": ""
+  },
+  {
+   "num": "SY/W08-067",
+   "name": "ネコミミ ハルヒ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "8000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 前列の中央の枠にこのカードがいるなら、このカードのパワーを＋1000。\n\"どう？　これで注目度バッチリでしょ\"",
+   "traits": [
+    "団長",
+    "動物"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sy_w08/sy_w08_067.png",
+   "variant": ""
+  },
+  {
+   "num": "SY/W08-068",
+   "name": "クラッカー ハルヒ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "2",
+   "cost": "2",
+   "power": "9000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "-\n\"いいからいいから\"",
+   "traits": [
+    "団長",
+    "SOS団"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sy_w08/sy_w08_068.png",
+   "variant": ""
+  },
+  {
+   "num": "SY/W08-069",
+   "name": "トラブルガール ハルヒ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時か『チェンジ』で舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n【自】 このカードがアタックした時、クライマックス置場に「サムデイ イン ザ レイン」があるなら、あなたは相手に1ダメージを与えてよい。（ダメージキャンセルは発生する）\n\"ねぇ、キョン！あと必要なのはなんだと思う？\"",
+   "traits": [
+    "団長",
+    "本"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sy_w08/sy_w08_069.png",
+   "variant": ""
+  },
+  {
+   "num": "SY/W08-070",
+   "name": "市内探索ツアー",
+   "type": "Event",
+   "rarity": "U",
+   "color": "red",
+   "level": "1",
+   "cost": "3",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "あなたは自分の山札の上から5枚を裏向きのまま思い出にする。相手はそれらのカードを見て2枚と3枚に分ける。あなたは裏向きのまま一方を選び、手札に加える。残りのカードを山札に戻す。その山札をシャッフルする。\n\"ふむ、この組み合わせね\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sy_w08/sy_w08_070.png",
+   "variant": ""
+  },
+  {
+   "num": "SY/W08-071",
+   "name": "色褪せた世界",
+   "type": "Event",
+   "rarity": "U",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "あなたは自分のレベル1以上のキャラを1枚選び、控え室に置いてよい。そうしたら、あなたは自分の控え室のレベル0以下の《団長》のキャラを1枚まで選び、舞台の好きな枠に置き、あなたは自分の控え室のキャラを2枚まで選び、手札に戻す。\n\"みんながみんなやってる普通の日常なんだと思うと、途端になにもかもがつまらなくなった\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sy_w08/sy_w08_071.png",
+   "variant": ""
+  },
+  {
+   "num": "SY/W08-072",
+   "name": "ただの人間には興味ありません",
+   "type": "Event",
+   "rarity": "C",
+   "color": "red",
+   "level": "1",
+   "cost": "1",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "このカードは、あなたの《団長》のキャラがいないなら、手札からプレイできない。\nあなたは自分の山札を見て《SOS団》のキャラを2枚まで選んで相手に見せ、手札に加える。その山札をシャッフルする。あなたは自分の手札を1枚選び、控え室に置く。\n\"この中に宇宙人、未来人、異世界人、超能力者がいたらあたしのところに来なさい。以上！\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sy_w08/sy_w08_072.png",
+   "variant": ""
+  },
+  {
+   "num": "SY/W08-073",
+   "name": "Happy Valentine",
+   "type": "Climax",
+   "rarity": "CR",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【永】 あなたのキャラすべてに、ソウルを＋2。\n\"ハルヒ「何よ。悪い？」\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sy_w08/sy_w08_073.png",
+   "variant": ""
+  },
+  {
+   "num": "SY/W08-074",
+   "name": "SOS団誕生！",
+   "type": "Climax",
+   "rarity": "CC",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【自】 このカードが手札からクライマックス置場に置かれた時、あなたは1枚引き、自分のキャラを1枚選び、そのターン中、パワーを＋2000し、ソウルを＋1。\n\"あたしの新クラブ作りよ\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sy_w08/sy_w08_074.png",
+   "variant": ""
+  },
+  {
+   "num": "SY/W08-075",
+   "name": "サムデイ イン ザ レイン",
+   "type": "Climax",
+   "rarity": "CC",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[salvage.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[salvage.gif]]：このカードがトリガーした時、あなたは自分の控え室のキャラを1枚選び、手札に戻してよい）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sy_w08/sy_w08_075.png",
+   "variant": ""
+  },
+  {
+   "num": "SY/W08-076",
+   "name": "宇宙人 長門＆朝倉＆喜緑",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの《宇宙人》のキャラすべてに、パワーを＋500。\n【起】［(2) このカードを【レスト】する］ あなたは自分の山札を見て《宇宙人》のキャラを1枚まで選んで相手に見せ、手札に加える。その山札をシャッフルする。\n\"通俗的な用語を使用すると、宇宙人に該当する存在\"",
+   "traits": [
+    "宇宙人",
+    "本"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sy_w08/sy_w08_076.png",
+   "variant": ""
+  },
+  {
+   "num": "SY/W08-076R",
+   "name": "宇宙人 長門＆朝倉＆喜緑",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの《宇宙人》のキャラすべてに、パワーを＋500。\n【起】［(2) このカードを【レスト】する］ あなたは自分の山札を見て《宇宙人》のキャラを1枚まで選んで相手に見せ、手札に加える。その山札をシャッフルする。\n\"SECRET\"",
+   "traits": [
+    "宇宙人",
+    "本"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sy_w08/sy_w08_076r.png",
+   "variant": ""
+  },
+  {
+   "num": "SY/W08-077",
+   "name": "おめかし長門",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "blue",
+   "level": "3",
+   "cost": "2",
+   "power": "9500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】［(1)］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、そのターン中、このカードは次の能力を得る。『【自】 このカードとバトル中のキャラが【リバース】した時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。』\n【自】 このカードが手札から舞台に置かれた時、あなたは相手のキャラすべてを、思い出にしてよい。あなたはそれらのキャラを舞台の別々の枠に置く。\n\"ダイスキ\"",
+   "traits": [
+    "宇宙人",
+    "本"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sy_w08/sy_w08_077.png",
+   "variant": ""
+  },
+  {
+   "num": "SY/W08-077R",
+   "name": "おめかし長門",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "blue",
+   "level": "3",
+   "cost": "2",
+   "power": "9500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】［(1)］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、そのターン中、このカードは次の能力を得る。『【自】 このカードとバトル中のキャラが【リバース】した時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。』\n【自】 このカードが手札から舞台に置かれた時、あなたは相手のキャラすべてを、思い出にしてよい。あなたはそれらのキャラを舞台の別々の枠に置く。\n\"SECRET\"",
+   "traits": [
+    "宇宙人",
+    "本"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sy_w08/sy_w08_077r.png",
+   "variant": ""
+  },
+  {
+   "num": "SY/W08-078",
+   "name": "長門 有希",
+   "type": "Character",
+   "rarity": "R",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 相手のターン中、このカードのパワーを＋2000。\n【自】 アンコール ［手札のキャラを1枚控え室に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"ユニーク\"",
+   "traits": [
+    "宇宙人",
+    "SOS団"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sy_w08/sy_w08_078.png",
+   "variant": ""
+  },
+  {
+   "num": "SY/W08-079",
+   "name": "眼鏡っ娘 長門",
+   "type": "Character",
+   "rarity": "R",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードがアタックした時、クライマックス置場に「情報制御空間の死闘」があるなら、あなたの《宇宙人》のキャラすべてに、そのターン中、次の能力を与える。『【自】［(1)］ このカードとバトル中のキャラが【リバース】した時、あなたはコストを払ってよい。そうしたら、あなたは1枚引く。』\n\"眼鏡属性ってなに？\"",
+   "traits": [
+    "宇宙人",
+    "メガネ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sy_w08/sy_w08_079.png",
+   "variant": ""
+  },
+  {
+   "num": "SY/W08-079S",
+   "name": "眼鏡っ娘 長門",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードがアタックした時、クライマックス置場に「情報制御空間の死闘」があるなら、あなたの《宇宙人》のキャラすべてに、そのターン中、次の能力を与える。『【自】［(1)］ このカードとバトル中のキャラが【リバース】した時、あなたはコストを払ってよい。そうしたら、あなたは1枚引く。』\n\"SECRET\"",
+   "traits": [
+    "宇宙人",
+    "メガネ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sy_w08/sy_w08_079s.png",
+   "variant": ""
+  },
+  {
+   "num": "SY/W08-080",
+   "name": "朝倉 涼子",
+   "type": "Character",
+   "rarity": "R",
+   "color": "blue",
+   "level": "1",
+   "cost": "1",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードがアタックした時、クライマックス置場に「うん、それ無理」があるなら、そのターン中、このカードのパワーを＋1500し、このカードは次の能力を得る。『【自】 このカードとバトル中のキャラが【リバース】した時、あなたはそのキャラを山札の下に置いてよい。』\n【自】 アンコール ［手札のキャラを1枚控え室に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"だから、あなたを殺して、涼宮ハルヒの出方を見る\"",
+   "traits": [
+    "宇宙人",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sy_w08/sy_w08_080.png",
+   "variant": ""
+  },
+  {
+   "num": "SY/W08-081",
+   "name": "無口キャラ長門",
+   "type": "Character",
+   "rarity": "R",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "7500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 チェンジ ［このカードを控え室に置く］ あなたのアンコールステップの始めに、このカードが【レスト】しているなら、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「チャイナドレスの長門」を1枚選び、このカードがいた枠に置く。\n【起】 集中 ［(4)］ あなたは自分の山札の上から4枚をめくり、控え室に置く。それらのカードの《宇宙人》のキャラ1枚につき、あなたは自分の控え室のレベル0以下のキャラを1枚まで選び、舞台の別々の枠に置く。\n\"条件を対等にするだけ\"",
+   "traits": [
+    "宇宙人",
+    "SOS団"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sy_w08/sy_w08_081.png",
+   "variant": ""
+  },
+  {
+   "num": "SY/W08-082",
+   "name": "チャイナドレスの長門",
+   "type": "Character",
+   "rarity": "R",
+   "color": "blue",
+   "level": "2",
+   "cost": "2",
+   "power": "7500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 相手のターン中、他のあなたの《宇宙人》のキャラ1枚につき、このカードのパワーを＋500。\n【自】 アンコール ［手札のキャラを1枚控え室に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"…許可を\"",
+   "traits": [
+    "宇宙人",
+    "ドレス"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sy_w08/sy_w08_082.png",
+   "variant": ""
+  },
+  {
+   "num": "SY/W08-082S",
+   "name": "チャイナドレスの長門",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "2",
+   "cost": "2",
+   "power": "7500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 相手のターン中、他のあなたの《宇宙人》のキャラ1枚につき、このカードのパワーを＋500。\n【自】 アンコール ［手札のキャラを1枚控え室に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"SECRET\"",
+   "traits": [
+    "宇宙人",
+    "ドレス"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sy_w08/sy_w08_082s.png",
+   "variant": ""
+  },
+  {
+   "num": "SY/W08-083",
+   "name": "水着のハルヒ＆長門",
+   "type": "Character",
+   "rarity": "U",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時か『チェンジ』で舞台に置かれた時、あなたは他の自分のキャラを1枚選び、そのターン中、次の能力を与える。『【自】 このカードが舞台から控え室に置かれた時、あなたはこのカードをこのカードがいた枠に【レスト】して置いてよい。』\n\"ハルヒ「…そうね。まずは泳ぎね」\"",
+   "traits": [
+    "団長",
+    "宇宙人"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sy_w08/sy_w08_083.png",
+   "variant": ""
+  },
+  {
+   "num": "SY/W08-084",
+   "name": "温泉の長門＆みくる",
+   "type": "Character",
+   "rarity": "U",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "5500",
+   "soul": 1,
+   "trigger": "",
+   "text": "-\n\"みくる「それに長門さんがいるのも気になるし…」\"",
+   "traits": [
+    "宇宙人",
+    "時間"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sy_w08/sy_w08_084.png",
+   "variant": ""
+  },
+  {
+   "num": "SY/W08-085",
+   "name": "ビーチバレー 長門",
+   "type": "Character",
+   "rarity": "U",
+   "color": "blue",
+   "level": "1",
+   "cost": "1",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】［(1)］ あなたがこのカードの『助太刀』を使った時、あなたの《団長》のキャラがいるなら、あなたはコストを払ってよい。そうしたら、あなたは1枚引く。\n【起】【カウンター】 助太刀1500 レベル1 ［(1) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋1500）\n\"問題ない。そちらに追い込む\"",
+   "traits": [
+    "宇宙人",
+    "スポーツ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sy_w08/sy_w08_085.png",
+   "variant": ""
+  },
+  {
+   "num": "SY/W08-086",
+   "name": "ギタリスト 長門",
+   "type": "Character",
+   "rarity": "U",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "5500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 相手のターン中、他のあなたのキャラすべてに、パワーを＋Ｘ。Ｘはそのキャラのレベル×500に等しい。\n【自】 あなたのキャラのトリガーチェックでクライマックスがでた時、そのカードのトリガーアイコンが[[draw.gif]]なら、あなたは1枚引いてよい。そうしたら、あなたは自分の手札を1枚選び、控え室に置く。\n\"…\"",
+   "traits": [
+    "宇宙人",
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sy_w08/sy_w08_086.png",
+   "variant": ""
+  },
+  {
+   "num": "SY/W08-087",
+   "name": "情報統合思念体の端末 長門",
+   "type": "Character",
+   "rarity": "U",
+   "color": "blue",
+   "level": "2",
+   "cost": "2",
+   "power": "8500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードがアタックした時、クライマックス置場に「私のこと、あなたに教えておく」があるなら、あなたは他の自分のキャラを2枚まで選び、思い出にする。次のあなたのドローフェイズの始めに、あなたは自分の思い出置場のそれらのキャラを、舞台の別々の枠に置き、そのターン中、それらのキャラのパワーを＋1500。\n\"わたしという個体もあなたには戻ってきて欲しいと感じている\"",
+   "traits": [
+    "宇宙人",
+    "本"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sy_w08/sy_w08_087.png",
+   "variant": ""
+  },
+  {
+   "num": "SY/W08-088",
+   "name": "Xmasパーティ 長門",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋500。\n\"シャミセン「にゃーん」\"",
+   "traits": [
+    "宇宙人",
+    "SOS団"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sy_w08/sy_w08_088.png",
+   "variant": ""
+  },
+  {
+   "num": "SY/W08-089",
+   "name": "浴衣の長門＆キョンの妹",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 絆／「浴衣のキョン」 ［(1)］ （このカードがプレイされて舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「浴衣のキョン」を1枚選び、手札に戻す）\n\"妹「ユキちゃんありがと～～」\"",
+   "traits": [
+    "宇宙人",
+    "和服"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sy_w08/sy_w08_089.png",
+   "variant": ""
+  },
+  {
+   "num": "SY/W08-090",
+   "name": "エプロン姿の長門",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの《本》のキャラすべてに、パワーを＋500。\n【起】［(1) あなたのキャラを2枚【レスト】する］ 他のあなたの《本》のキャラが3枚以上なら、あなたは1枚引く。\n\"これ、貸すから\"",
+   "traits": [
+    "宇宙人",
+    "本"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sy_w08/sy_w08_090.png",
+   "variant": ""
+  },
+  {
+   "num": "SY/W08-091",
+   "name": "スイカを食べる長門",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 チェンジ ［(1) このカードを控え室に置く］ あなたのアンコールステップの始めに、このカードが【レスト】しているなら、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「水着のハルヒ＆長門」を1枚選び、このカードがいた枠に置く。\n\"なに？\"",
+   "traits": [
+    "宇宙人",
+    "スイカ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sy_w08/sy_w08_091.png",
+   "variant": ""
+  },
+  {
+   "num": "SY/W08-092",
+   "name": "ネコミミ 長門",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "",
+   "text": "-\n\"今のは腹話術\"",
+   "traits": [
+    "宇宙人",
+    "動物"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sy_w08/sy_w08_092.png",
+   "variant": ""
+  },
+  {
+   "num": "SY/W08-093",
+   "name": "依頼人第一号 喜緑",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 アラーム このカードがクロックの1番上にあるなら、あなたの、《宇宙人》か《生徒会》のキャラすべてに、パワーを＋1000。\n【自】［(1)］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分のキャラを1枚選び、そのターン中、次の能力を与える。『【自】 このカードとバトル中のキャラが【リバース】した時、あなたは1枚引いてよい。』\n\"彼がもう何日も学校に来てないんです・・・\"",
+   "traits": [
+    "宇宙人",
+    "生徒会"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sy_w08/sy_w08_093.png",
+   "variant": ""
+  },
+  {
+   "num": "SY/W08-094",
+   "name": "クールガール 長門",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "8500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "-\n\"だいじょうぶ。あたしがさせない\"",
+   "traits": [
+    "宇宙人",
+    "本"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sy_w08/sy_w08_094.png",
+   "variant": ""
+  },
+  {
+   "num": "SY/W08-095",
+   "name": "しおりの伝言",
+   "type": "Event",
+   "rarity": "U",
+   "color": "blue",
+   "level": "1",
+   "cost": "1",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "このカードは、あなたの《宇宙人》のキャラがいないなら、手札からプレイできない。\nあなたは1枚引いてよい。そうしたら、あなたは自分の手札を1枚選び、控え室に置く。\nあなたは自分のクロックの上から1枚を、控え室に置いてよい。\nこのカードを思い出にする。\n\"※なし\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sy_w08/sy_w08_095.png",
+   "variant": ""
+  },
+  {
+   "num": "SY/W08-096",
+   "name": "離れないで",
+   "type": "Event",
+   "rarity": "U",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "【カウンター】 あなたは自分のキャラを1枚選び、そのターン中、パワーを＋2000し、次の能力を与える。『【自】 このカードとバトル中のキャラが【リバース】した時、あなたはそのキャラを山札の下に置いてよい。』\n\"あなたは動かなくていい\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sy_w08/sy_w08_096.png",
+   "variant": ""
+  },
+  {
+   "num": "SY/W08-097",
+   "name": "情報連結解除",
+   "type": "Event",
+   "rarity": "C",
+   "color": "blue",
+   "level": "2",
+   "cost": "0",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "【カウンター】 あなたは相手のクライマックス置場のクライマックスを1枚選び、控え室に置く。\n\"あーあ、残念。所詮私はバックアップだったかぁ\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sy_w08/sy_w08_097.png",
+   "variant": ""
+  },
+  {
+   "num": "SY/W08-098",
+   "name": "私のこと、あなたに教えておく",
+   "type": "Climax",
+   "rarity": "CR",
+   "color": "blue",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【永】 あなたのキャラすべてに、ソウルを＋2。\n\"それが、私がここにいる理由、あなたがここにいる理由\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sy_w08/sy_w08_098.png",
+   "variant": ""
+  },
+  {
+   "num": "SY/W08-099",
+   "name": "情報制御空間の死闘",
+   "type": "Climax",
+   "rarity": "CC",
+   "color": "blue",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[draw.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[draw.gif]]：このカードがトリガーした時、あなたは1枚引いてよい）\n\"長門「だから私に気付かれる。侵入を許す」\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sy_w08/sy_w08_099.png",
+   "variant": ""
+  },
+  {
+   "num": "SY/W08-100",
+   "name": "うん、それ無理",
+   "type": "Climax",
+   "rarity": "CC",
+   "color": "blue",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【自】 このカードが手札からクライマックス置場に置かれた時、あなたは1枚引き、自分のキャラを1枚選び、そのターン中、パワーを＋2000し、ソウルを＋1。\n\"だって私は、本当にあなたに死んで欲しいんだもの\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sy_w08/sy_w08_100.png",
+   "variant": ""
+  }
+ ]
+}

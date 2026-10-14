@@ -1,0 +1,2490 @@
+{
+ "id": "jp-p5",
+ "name": "ペルソナ５",
+ "expansion": 180,
+ "lang": "jp",
+ "release": null,
+ "shopItem": null,
+ "box": null,
+ "cards": [
+  {
+   "num": "P5/S45-001",
+   "name": "主人公＆アルセーヌ / JOKER",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "yellow",
+   "level": "3",
+   "cost": "2",
+   "power": "9000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの《怪盗》のキャラ1枚につき、このカードのパワーを＋500。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n【自】［(3) 手札の《怪盗》のキャラを1枚控え室に置く］ あなたのアンコールステップの始めに、相手の前列のキャラがいないか、相手の前列のキャラすべてが【リバース】しているなら、あなたはコストを払ってよい。そうしたら、あなたの前列の《怪盗》のキャラ1枚につき、次の行動を行う。『あなたは自分の山札の上から1枚を公開し、山札の下に置き、相手にＸダメージを与える。Ｘはそのカードのレベルに等しい。』その後、その山札をシャッフルする。（クライマックスのレベルは0として扱う。ダメージキャンセルは発生する）\n\"イゴール「…世界の歪みに、挑む覚悟はあるかね？」\"",
+   "traits": [
+    "怪盗"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/p5_s45/p5_s45_001.png",
+   "variant": ""
+  },
+  {
+   "num": "P5/S45-001SP",
+   "name": "主人公＆アルセーヌ / JOKER",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "yellow",
+   "level": "3",
+   "cost": "2",
+   "power": "9000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの《怪盗》のキャラ1枚につき、このカードのパワーを＋500。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n【自】［(3) 手札の《怪盗》のキャラを1枚控え室に置く］ あなたのアンコールステップの始めに、相手の前列のキャラがいないか、相手の前列のキャラすべてが【リバース】しているなら、あなたはコストを払ってよい。そうしたら、あなたの前列の《怪盗》のキャラ1枚につき、次の行動を行う。『あなたは自分の山札の上から1枚を公開し、山札の下に置き、相手にＸダメージを与える。Ｘはそのカードのレベルに等しい。』その後、その山札をシャッフルする。（クライマックスのレベルは0として扱う。ダメージキャンセルは発生する）\n\"-\"",
+   "traits": [
+    "怪盗"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/p5_s45/p5_s45_001sp.png",
+   "variant": ""
+  },
+  {
+   "num": "P5/S45-002",
+   "name": "“総攻撃”竜司 / SKULL",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "yellow",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札を上から3枚まで見て、カードを1枚まで選び、手札に加える。残りのカードを控え室に置く。\n【自】［手札を1枚控え室に置く］ あなたのクライマックス置場に「FREAKiN' BoRiNG」が置かれた時、前列にこのカードがいるなら、あなたはコストを払ってよい。そうしたら、あなたは相手のキャラを1枚まで選び、手札に戻し、自分の、《怪盗》か《スポーツ》のキャラを1枚選び、そのターン中、パワーを＋1000し、次の能力を与える。『【自】 この能力は1ターンにつき1回まで発動する。このカードの与えたダメージがキャンセルされた時、あなたは相手に1ダメージを与えてよい。』（ダメージキャンセルは発生する）\n\"これで仕舞だ！\"",
+   "traits": [
+    "怪盗",
+    "スポーツ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/p5_s45/p5_s45_002.png",
+   "variant": ""
+  },
+  {
+   "num": "P5/S45-002SP",
+   "name": "“総攻撃”竜司 / SKULL",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "yellow",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札を上から3枚まで見て、カードを1枚まで選び、手札に加える。残りのカードを控え室に置く。\n【自】［手札を1枚控え室に置く］ あなたのクライマックス置場に「FREAKiN' BoRiNG」が置かれた時、前列にこのカードがいるなら、あなたはコストを払ってよい。そうしたら、あなたは相手のキャラを1枚まで選び、手札に戻し、自分の、《怪盗》か《スポーツ》のキャラを1枚選び、そのターン中、パワーを＋1000し、次の能力を与える。『【自】 この能力は1ターンにつき1回まで発動する。このカードの与えたダメージがキャンセルされた時、あなたは相手に1ダメージを与えてよい。』（ダメージキャンセルは発生する）\n\"-\"",
+   "traits": [
+    "怪盗",
+    "スポーツ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/p5_s45/p5_s45_002sp.png",
+   "variant": ""
+  },
+  {
+   "num": "P5/S45-003",
+   "name": "反逆者の魂 主人公",
+   "type": "Character",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 この能力は1ターンにつき1回まで発動する。あなたが【起】を使った時、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋500。\n【起】 集中 ［(1) あなたのキャラを2枚【レスト】する］ あなたは自分の山札の上から4枚をめくり、控え室に置く。それらのカードのクライマックス1枚につき、あなたは自分の山札を見て《怪盗》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"我は汝、汝は我…<br>己が信じた正義の為に、あまねく冒涜を省みぬ者よ！<br>その怒り、我が名と共に解き放て！\"",
+   "traits": [
+    "怪盗"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/p5_s45/p5_s45_003.png",
+   "variant": ""
+  },
+  {
+   "num": "P5/S45-003S",
+   "name": "反逆者の魂 主人公",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 この能力は1ターンにつき1回まで発動する。あなたが【起】を使った時、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋500。\n【起】 集中 ［(1) あなたのキャラを2枚【レスト】する］ あなたは自分の山札の上から4枚をめくり、控え室に置く。それらのカードのクライマックス1枚につき、あなたは自分の山札を見て《怪盗》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"我は汝、汝は我…<br>己が信じた正義の為に、あまねく冒涜を省みぬ者よ！<br>その怒り、我が名と共に解き放て！\"",
+   "traits": [
+    "怪盗"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/p5_s45/p5_s45_003s.png",
+   "variant": ""
+  },
+  {
+   "num": "P5/S45-004",
+   "name": "怪盗団の切り込み隊長 竜司 / SKULL",
+   "type": "Character",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの、《怪盗》か《スポーツ》のキャラすべてに、パワーを＋500。\n【自】 あなたのダイレクトアタックしているキャラの与えたダメージがキャンセルされなかった時、あなたは相手の思い出置場の裏向きのカードを1枚選び、控え室に置く。そうしたら、あなたは自分の山札を見て《怪盗》か《スポーツ》のキャラを1枚まで選んで相手に見せ、手札に加え、自分の手札を1枚選び、控え室に置き、その山札をシャッフルする。\n\"こいつはいい…<br>この力がありゃ、借りが返せる…\"",
+   "traits": [
+    "怪盗",
+    "スポーツ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/p5_s45/p5_s45_004.png",
+   "variant": ""
+  },
+  {
+   "num": "P5/S45-004S",
+   "name": "怪盗団の切り込み隊長 竜司 / SKULL",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの、《怪盗》か《スポーツ》のキャラすべてに、パワーを＋500。\n【自】 あなたのダイレクトアタックしているキャラの与えたダメージがキャンセルされなかった時、あなたは相手の思い出置場の裏向きのカードを1枚選び、控え室に置く。そうしたら、あなたは自分の山札を見て《怪盗》か《スポーツ》のキャラを1枚まで選んで相手に見せ、手札に加え、自分の手札を1枚選び、控え室に置き、その山札をシャッフルする。\n\"こいつはいい…<br>この力がありゃ、借りが返せる…\"",
+   "traits": [
+    "怪盗",
+    "スポーツ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/p5_s45/p5_s45_004s.png",
+   "variant": ""
+  },
+  {
+   "num": "P5/S45-005",
+   "name": "坂本 竜司",
+   "type": "Character",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの、《怪盗》か《スポーツ》のキャラ1枚につき、このカードのパワーを＋500。\n\"俺、坂本竜司な。<br>見かけたら声かけっから。シカトすんなよ？\"",
+   "traits": [
+    "怪盗",
+    "スポーツ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/p5_s45/p5_s45_005.png",
+   "variant": ""
+  },
+  {
+   "num": "P5/S45-005S",
+   "name": "坂本 竜司",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの、《怪盗》か《スポーツ》のキャラ1枚につき、このカードのパワーを＋500。\n\"俺、坂本竜司な。<br>見かけたら声かけっから。シカトすんなよ？\"",
+   "traits": [
+    "怪盗",
+    "スポーツ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/p5_s45/p5_s45_005s.png",
+   "variant": ""
+  },
+  {
+   "num": "P5/S45-006",
+   "name": "“総攻撃”主人公 / JOKER",
+   "type": "Character",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "7000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたの《怪盗》のキャラが4枚以上なら、あなたの手札のこのカードのレベルを－1。\n【自】 このカードのバトル相手が【リバース】した時、あなたのクライマックス置場に「THE SHOW'S OVER」があり、他のあなたの《怪盗》のキャラが4枚以上なら、あなたは1枚引き、自分の山札を見てレベル1以下のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"-\"",
+   "traits": [
+    "怪盗"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/p5_s45/p5_s45_006.png",
+   "variant": ""
+  },
+  {
+   "num": "P5/S45-006S",
+   "name": "“総攻撃”主人公 / JOKER",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "7000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたの《怪盗》のキャラが4枚以上なら、あなたの手札のこのカードのレベルを－1。\n【自】 このカードのバトル相手が【リバース】した時、あなたのクライマックス置場に「THE SHOW'S OVER」があり、他のあなたの《怪盗》のキャラが4枚以上なら、あなたは1枚引き、自分の山札を見てレベル1以下のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"-\"",
+   "traits": [
+    "怪盗"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/p5_s45/p5_s45_006s.png",
+   "variant": ""
+  },
+  {
+   "num": "P5/S45-007",
+   "name": "竜司＆キャプテン・キッド / SKULL",
+   "type": "Character",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "7000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードがアタックした時、このカードの正面のキャラのレベルが3以上なら、そのターン中、このカードのパワーを＋6000。\n【自】 このカードのバトル相手が【リバース】した時、あなたのクライマックス置場に「ほんと、待たせちまったな」があるなら、あなたは他の自分のキャラを1枚までと相手のキャラを1枚まで選び、手札に戻す。\n\"我は汝、汝は我…覚悟して背負え…<br>これよりは、反逆のドクロが貴様の旗だ！\"",
+   "traits": [
+    "怪盗",
+    "スポーツ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/p5_s45/p5_s45_007.png",
+   "variant": ""
+  },
+  {
+   "num": "P5/S45-008",
+   "name": "満面の笑顔 竜司 / SKULL",
+   "type": "Character",
+   "rarity": "U",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの前列の中央の枠のキャラに、パワーを＋1000。\n【自】 あなたのメインフェイズの始めに、あなたは自分の山札の上から1枚を、控え室に置いてよい。そのカードがレベル2以上のキャラなら、そのターン中、このカードは次の能力を得る。『【永】 他のあなたの前列の中央の枠のキャラに、ソウルを＋1。』\n\"-\"",
+   "traits": [
+    "怪盗",
+    "スポーツ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/p5_s45/p5_s45_008.png",
+   "variant": ""
+  },
+  {
+   "num": "P5/S45-009",
+   "name": "ルブランの居候 主人公",
+   "type": "Character",
+   "rarity": "U",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から2枚を、控え室に置き、そのターン中、このカードのパワーを＋Ｘ。Ｘはそれらのカードの《怪盗》のキャラの枚数×1000に等しい。\n【自】［あなたの控え室のキャラを2枚山札に戻し、その山札をシャッフルする］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、そのターン中、このカードのソウルを＋1。\n\"-\"",
+   "traits": [
+    "怪盗",
+    "メガネ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/p5_s45/p5_s45_009.png",
+   "variant": ""
+  },
+  {
+   "num": "P5/S45-010",
+   "name": "“探偵王子の再来”明智",
+   "type": "Character",
+   "rarity": "U",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1) このカードを控え室に置く］ 他のあなたのキャラがフロントアタックされた時、あなたはコストを払ってよい。そうしたら、そのキャラを手札に戻す。\n\"君とは、いい議論ができると思うんだ。<br>またどこかで話せないかな？\"",
+   "traits": [
+    "探偵"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/p5_s45/p5_s45_010.png",
+   "variant": ""
+  },
+  {
+   "num": "P5/S45-011",
+   "name": "取引成立 竜司",
+   "type": "Character",
+   "rarity": "U",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「予告状」を1枚選び、手札に戻す。\n\"頼んだぜ、俺も気合い入れっからよ！\"",
+   "traits": [
+    "怪盗",
+    "スポーツ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/p5_s45/p5_s45_011.png",
+   "variant": ""
+  },
+  {
+   "num": "P5/S45-012",
+   "name": "運命の『囚われ』 主人公",
+   "type": "Character",
+   "rarity": "U",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの「主人公＆アルセーヌ / JOKER」すべてに、パワーを＋500し、次の能力を与える。『【自】 あなたのターン中、このカードのバトル相手が【リバース】した時、あなたは自分の山札を上から1枚見て、山札の上か控え室に置く。』\n【永】 応援 あなたのターン中、このカードの前のあなたのキャラすべてに、パワーを＋Ｘ。Ｘはそのキャラのレベル×1000に等しい。\n\"フッ\"",
+   "traits": [
+    "怪盗"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/p5_s45/p5_s45_012.png",
+   "variant": ""
+  },
+  {
+   "num": "P5/S45-013",
+   "name": "水着の竜司",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1)］ 相手のターン中、バトル中のこのカードが【リバース】した時、あなたはコストを払ってよい。そうしたら、このカードを【レスト】し、次のあなたのアンコールステップの始めに、このカードを控え室に置く。\n\"混んでんな…\"",
+   "traits": [
+    "怪盗",
+    "スポーツ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/p5_s45/p5_s45_013.png",
+   "variant": ""
+  },
+  {
+   "num": "P5/S45-014",
+   "name": "明智 吾郎",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札を上から2枚まで見て、山札の上に元の順番で置く。\n【自】 このカードが手札から舞台に置かれた時、あなたは相手の山札を上から2枚まで見て、山札の上に元の順番で置く。\n\"本当に正義のヒーローなら、<br>居て欲しいですよ、夢があるし\"",
+   "traits": [
+    "探偵"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/p5_s45/p5_s45_014.png",
+   "variant": ""
+  },
+  {
+   "num": "P5/S45-015",
+   "name": "水着の主人公",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1) 手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見て《怪盗》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"-\"",
+   "traits": [
+    "怪盗"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/p5_s45/p5_s45_015.png",
+   "variant": ""
+  },
+  {
+   "num": "P5/S45-016",
+   "name": "黒衣の怪盗 主人公 / JOKER",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 このカードの下にマーカーがあるなら、このカードは次の能力を得る。『【永】 このカードの正面のキャラが緑か赤なら、このカードのパワーを＋3000。』\n【自】 このカードが手札か控え室から、舞台に置かれた時、あなたは自分の控え室の「闇に潜む姿 主人公 / JOKER」を1枚選び、このカードの下にマーカーとして裏向きに置いてよい。\n【自】 チェンジ ［このカードを控え室に置く］ あなたのクライマックスフェイズの始めに、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「闇に潜む姿 主人公 / JOKER」を1枚選び、このカードがいた枠に置く。（クライマックスフェイズの始めにこのカードがいないなら発動しない）\n\"やるぞ！\"",
+   "traits": [
+    "怪盗"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/p5_s45/p5_s45_016.png",
+   "variant": ""
+  },
+  {
+   "num": "P5/S45-017",
+   "name": "闇に潜む姿 主人公 / JOKER",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 このカードの下にマーカーがあるなら、このカードは次の能力を得る。『【永】 このカードの正面のキャラが黄か青なら、このカードのパワーを＋3000。』\n【自】 このカードが手札か控え室から、舞台に置かれた時、あなたは自分の控え室の「黒衣の怪盗 主人公 / JOKER」を1枚選び、このカードの下にマーカーとして裏向きに置いてよい。\n【自】 チェンジ ［このカードを控え室に置く］ あなたのクライマックスフェイズの始めに、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「黒衣の怪盗 主人公 / JOKER」を1枚選び、このカードがいた枠に置く。（クライマックスフェイズの始めにこのカードがいないなら発動しない）\n\"-\"",
+   "traits": [
+    "怪盗"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/p5_s45/p5_s45_017.png",
+   "variant": ""
+  },
+  {
+   "num": "P5/S45-018",
+   "name": "宣戦布告 竜司 / SKULL",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのターン中、前列の中央の枠にこのカードがいるなら、このカードのパワーを＋4000。\n【自】［あなたの前列の【スタンド】しているキャラを1枚とこのカードを入れ替える］ あなたのターン中、このカードのバトル相手が【リバース】した時、あなたはコストを払ってよい。そうしたら、あなたは自分のキャラを1枚選び、そのターン中、ソウルを＋1。\n\"テメェの化けの皮、ゼッテーひっぺがしてやる！<br>…首洗って待ってろ！\"",
+   "traits": [
+    "怪盗",
+    "スポーツ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/p5_s45/p5_s45_018.png",
+   "variant": ""
+  },
+  {
+   "num": "P5/S45-019",
+   "name": "三島 由輝",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "1",
+   "cost": "1",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【起】【カウンター】 助太刀2000 レベル1 ［(1) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋2000）\n\"怪盗団の正義の行いの役に立ちたいんだ！<br>…いいだろ？\"",
+   "traits": [
+    "スポーツ",
+    "ネット"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/p5_s45/p5_s45_019.png",
+   "variant": ""
+  },
+  {
+   "num": "P5/S45-020",
+   "name": "現役高校生探偵 明智",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "2",
+   "cost": "2",
+   "power": "8000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの《怪盗》のキャラが2枚以上なら、このカードのパワーを＋2000。\n【自】 このカードが舞台から控え室に置かれた時、あなたは自分の《怪盗》のキャラを1枚選び、控え室に置く。\n\"本当にそんな怪盗が居るんだとしたら…<br>僕は、法で裁かれるべきだと思います\"",
+   "traits": [
+    "探偵"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/p5_s45/p5_s45_020.png",
+   "variant": ""
+  },
+  {
+   "num": "P5/S45-021",
+   "name": "予告状",
+   "type": "Event",
+   "rarity": "U",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "相手の思い出置場に裏向きのカードがないなら、相手は自分の手札を1枚選び、裏向きで思い出にし、1枚まで引く。\nあなたは自分の山札を上から4枚まで見て、《怪盗》のキャラを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。\nあなたは相手の前列のコスト0以下のキャラを1枚選び、手札に戻してよい。\n\"モルガナ「本人に予告してやるのさ。<br> 『オマエの心を盗むぞ』ってな」\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/p5_s45/p5_s45_021.png",
+   "variant": ""
+  },
+  {
+   "num": "P5/S45-022",
+   "name": "ワイルドトーク",
+   "type": "Event",
+   "rarity": "U",
+   "color": "yellow",
+   "level": "1",
+   "cost": "1",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "このカードは、あなたの《怪盗》のキャラがいないなら、手札からプレイできない。\n以下の効果のうちあなたが選んだ1つを行う。\n『あなたは自分の山札を見て《怪盗》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。』\n『このカードをストック置場に置き、あなたは自分の山札の上から1枚を、ストック置場に置く。』\n『あなたのキャラすべてに、そのターン中、ソウルを＋1。』\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/p5_s45/p5_s45_022.png",
+   "variant": ""
+  },
+  {
+   "num": "P5/S45-023",
+   "name": "THE SHOW'S OVER",
+   "type": "Climax",
+   "rarity": "CR",
+   "color": "yellow",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[bounce.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[bounce.gif]]：このカードがトリガーした時、あなたは相手のキャラを1枚選び、手札に戻してよい）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/p5_s45/p5_s45_023.png",
+   "variant": ""
+  },
+  {
+   "num": "P5/S45-023R",
+   "name": "THE SHOW'S OVER",
+   "type": "Climax",
+   "rarity": "RRR",
+   "color": "yellow",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[bounce.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[bounce.gif]]：このカードがトリガーした時、あなたは相手のキャラを1枚選び、手札に戻してよい）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/p5_s45/p5_s45_023r.png",
+   "variant": ""
+  },
+  {
+   "num": "P5/S45-024",
+   "name": "FREAKiN' BoRiNG",
+   "type": "Climax",
+   "rarity": "CC",
+   "color": "yellow",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【自】 このカードが手札からクライマックス置場に置かれた時、あなたは自分の控え室の黄のカードを1枚まで選び、ストック置場に置き、自分のキャラすべてに、そのターン中、ソウルを＋1。\n\"そのまま寝てな！\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/p5_s45/p5_s45_024.png",
+   "variant": ""
+  },
+  {
+   "num": "P5/S45-024R",
+   "name": "FREAKiN' BoRiNG",
+   "type": "Climax",
+   "rarity": "RRR",
+   "color": "yellow",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【自】 このカードが手札からクライマックス置場に置かれた時、あなたは自分の控え室の黄のカードを1枚まで選び、ストック置場に置き、自分のキャラすべてに、そのターン中、ソウルを＋1。\n\"そのまま寝てな！\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/p5_s45/p5_s45_024r.png",
+   "variant": ""
+  },
+  {
+   "num": "P5/S45-025",
+   "name": "ほんと、待たせちまったな",
+   "type": "Climax",
+   "rarity": "CC",
+   "color": "yellow",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[shot.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[shot.gif]]：このターン中、このカードをトリガーした攻撃キャラが次に与えるダメージがキャンセルされた時、相手に1ダメージを与える）\n\"ぶっ放せよ…『キャプテン・キッド』！！\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/p5_s45/p5_s45_025.png",
+   "variant": ""
+  },
+  {
+   "num": "P5/S45-026",
+   "name": "真＆ヨハンナ / QUEEN",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "green",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】［手札を1枚控え室に置く］ このカードが手札から舞台に置かれたターン中、このカードのバトル相手が【リバース】した時、あなたはコストを払ってよい。そうしたら、あなたはそのキャラをクロック置場に置く。\n【自】［(1)］ バトル中のこのカードが【リバース】した時、あなたは自分の山札の上から1枚を公開する。そのカードが《怪盗》か《生徒会》か《検察》のキャラなら、あなたはコストを払ってよい。そうしたら、このカードを手札に戻す。（公開したカードは元に戻す）\n\"我は汝、汝は我…せっかく見つけたあなたの正義…<br>どうかもう、見失わないで\"",
+   "traits": [
+    "怪盗",
+    "生徒会"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/p5_s45/p5_s45_026.png",
+   "variant": ""
+  },
+  {
+   "num": "P5/S45-026SP",
+   "name": "真＆ヨハンナ / QUEEN",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "green",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】［手札を1枚控え室に置く］ このカードが手札から舞台に置かれたターン中、このカードのバトル相手が【リバース】した時、あなたはコストを払ってよい。そうしたら、あなたはそのキャラをクロック置場に置く。\n【自】［(1)］ バトル中のこのカードが【リバース】した時、あなたは自分の山札の上から1枚を公開する。そのカードが《怪盗》か《生徒会》か《検察》のキャラなら、あなたはコストを払ってよい。そうしたら、このカードを手札に戻す。（公開したカードは元に戻す）\n\"-\"",
+   "traits": [
+    "怪盗",
+    "生徒会"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/p5_s45/p5_s45_026sp.png",
+   "variant": ""
+  },
+  {
+   "num": "P5/S45-027",
+   "name": "春＆ミラディ / NOIR",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "green",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n【自】［(2) 手札を1枚控え室に置く］ このカードがフロントアタックされた時、あなたはコストを払ってよい。そうしたら、そのターン中、このカードは次の能力を得る。『【永】 このカードの正面のキャラのソウルを－2。』\n\"我は汝、汝は我…<br>美しい裏切りで、自由の門出を飾りましょう\"",
+   "traits": [
+    "怪盗",
+    "令嬢"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/p5_s45/p5_s45_027.png",
+   "variant": ""
+  },
+  {
+   "num": "P5/S45-027SP",
+   "name": "春＆ミラディ / NOIR",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "green",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n【自】［(2) 手札を1枚控え室に置く］ このカードがフロントアタックされた時、あなたはコストを払ってよい。そうしたら、そのターン中、このカードは次の能力を得る。『【永】 このカードの正面のキャラのソウルを－2。』\n\"-\"",
+   "traits": [
+    "怪盗",
+    "令嬢"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/p5_s45/p5_s45_027sp.png",
+   "variant": ""
+  },
+  {
+   "num": "P5/S45-028",
+   "name": "怪盗団の作戦参謀 真 / QUEEN",
+   "type": "Character",
+   "rarity": "R",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の、《怪盗》か《生徒会》か《検察》のキャラを1枚選び、そのターン中、レベルを＋1し、パワーを＋1000。\n【自】［手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分のクロック置場の、《怪盗》か《生徒会》か《検察》のキャラを1枚選び、手札に戻し、自分の山札の上から1枚を、クロック置場に置く。\n\"もう、絶対に弱音なんて吐かない。<br>飛ばすだけ、飛ばすから！\"",
+   "traits": [
+    "怪盗",
+    "生徒会"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/p5_s45/p5_s45_028.png",
+   "variant": ""
+  },
+  {
+   "num": "P5/S45-028S",
+   "name": "怪盗団の作戦参謀 真 / QUEEN",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の、《怪盗》か《生徒会》か《検察》のキャラを1枚選び、そのターン中、レベルを＋1し、パワーを＋1000。\n【自】［手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分のクロック置場の、《怪盗》か《生徒会》か《検察》のキャラを1枚選び、手札に戻し、自分の山札の上から1枚を、クロック置場に置く。\n\"もう、絶対に弱音なんて吐かない。<br>飛ばすだけ、飛ばすから！\"",
+   "traits": [
+    "怪盗",
+    "生徒会"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/p5_s45/p5_s45_028s.png",
+   "variant": ""
+  },
+  {
+   "num": "P5/S45-029",
+   "name": "奥村 春",
+   "type": "Character",
+   "rarity": "R",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 あなたのクライマックスがクライマックス置場に置かれた時、あなたは自分の山札の上から1枚を公開する。そのカードが《怪盗》のキャラなら、あなたは自分のキャラを1枚選び、次の相手のターンの終わりまで、パワーを＋1000。（公開したカードは元に戻す）\n【起】 集中 ［(1) このカードを【レスト】する］ あなたは自分の山札の上から4枚をめくり、控え室に置く。それらのカードのクライマックス1枚につき、次の行動を行う。『あなたは自分のクロックを1枚選び、手札に戻し、自分の山札の上から1枚を、クロック置場に置く。』\n\"私はただ、お父様に罪を償って欲しい\"",
+   "traits": [
+    "怪盗",
+    "令嬢"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/p5_s45/p5_s45_029.png",
+   "variant": ""
+  },
+  {
+   "num": "P5/S45-029S",
+   "name": "奥村 春",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 あなたのクライマックスがクライマックス置場に置かれた時、あなたは自分の山札の上から1枚を公開する。そのカードが《怪盗》のキャラなら、あなたは自分のキャラを1枚選び、次の相手のターンの終わりまで、パワーを＋1000。（公開したカードは元に戻す）\n【起】 集中 ［(1) このカードを【レスト】する］ あなたは自分の山札の上から4枚をめくり、控え室に置く。それらのカードのクライマックス1枚につき、次の行動を行う。『あなたは自分のクロックを1枚選び、手札に戻し、自分の山札の上から1枚を、クロック置場に置く。』\n\"私はただ、お父様に罪を償って欲しい\"",
+   "traits": [
+    "怪盗",
+    "令嬢"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/p5_s45/p5_s45_029s.png",
+   "variant": ""
+  },
+  {
+   "num": "P5/S45-030",
+   "name": "水着の真",
+   "type": "Character",
+   "rarity": "R",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から2枚を、控え室に置く。それらのカードにクライマックスがあるなら、このカードを【レスト】する。\n\"-\"",
+   "traits": [
+    "怪盗",
+    "生徒会"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/p5_s45/p5_s45_030.png",
+   "variant": ""
+  },
+  {
+   "num": "P5/S45-031",
+   "name": "新島 真",
+   "type": "Character",
+   "rarity": "R",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "6500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 このカードの正面のキャラのレベルがこのカードのレベルより高いなら、このカードはフロントアタックできない。\n\"私は…お姉ちゃんみたいにはなれない。<br>いつか、分かりあえない時がくる…そんな気がしてた\"",
+   "traits": [
+    "怪盗",
+    "生徒会"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/p5_s45/p5_s45_031.png",
+   "variant": ""
+  },
+  {
+   "num": "P5/S45-031S",
+   "name": "新島 真",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "6500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 このカードの正面のキャラのレベルがこのカードのレベルより高いなら、このカードはフロントアタックできない。\n\"私は…お姉ちゃんみたいにはなれない。<br>いつか、分かりあえない時がくる…そんな気がしてた\"",
+   "traits": [
+    "怪盗",
+    "生徒会"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/p5_s45/p5_s45_031s.png",
+   "variant": ""
+  },
+  {
+   "num": "P5/S45-032",
+   "name": "“総攻撃”春 / NOIR",
+   "type": "Character",
+   "rarity": "R",
+   "color": "green",
+   "level": "2",
+   "cost": "1",
+   "power": "7500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたのクロック置場に「春＆ミラディ / NOIR」があるなら、あなたの手札のこのカードのレベルを－1。\n【自】 あなたのクライマックス置場に「Adieu.」が置かれた時、前列にこのカードがいるなら、あなたは自分の山札の上から1枚を、ストック置場に置き、次の相手のターンの終わりまで、このカードのパワーを＋1500。\n\"お仕置きタイムね\"",
+   "traits": [
+    "怪盗",
+    "令嬢"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/p5_s45/p5_s45_032.png",
+   "variant": ""
+  },
+  {
+   "num": "P5/S45-032S",
+   "name": "“総攻撃”春 / NOIR",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "2",
+   "cost": "1",
+   "power": "7500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたのクロック置場に「春＆ミラディ / NOIR」があるなら、あなたの手札のこのカードのレベルを－1。\n【自】 あなたのクライマックス置場に「Adieu.」が置かれた時、前列にこのカードがいるなら、あなたは自分の山札の上から1枚を、ストック置場に置き、次の相手のターンの終わりまで、このカードのパワーを＋1500。\n\"お仕置きタイムね\"",
+   "traits": [
+    "怪盗",
+    "令嬢"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/p5_s45/p5_s45_032s.png",
+   "variant": ""
+  },
+  {
+   "num": "P5/S45-033",
+   "name": "川上 貞代",
+   "type": "Character",
+   "rarity": "U",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのレベルが3以上なら、このカードは次の能力を得る。『【起】［このカードを控え室に置く］ あなたは自分の手札の「主人公＆アルセーヌ / JOKER」を1枚まで選び、このカードがいた枠に置く。』\n\"…えっと、転入生を紹介します。<br>今日はその…<br>『体調不良』ということで午後から出席してもらいました\"",
+   "traits": [
+    "先生",
+    "メイド"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/p5_s45/p5_s45_033.png",
+   "variant": ""
+  },
+  {
+   "num": "P5/S45-034",
+   "name": "吉田 寅之助",
+   "type": "Character",
+   "rarity": "U",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［あなたの【スタンド】しているキャラを2枚【レスト】する］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分のキャラを1枚選び、そのターン中、次の能力を与える。『【自】 このカードのバトル相手が【リバース】した時、あなたは自分の山札の上から1枚を、ストック置場に置いてよい。』\n【起】［(1) このカードを控え室に置く］ あなたは自分の山札を上から4枚まで見て、カード名に「主人公」を含むキャラを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。\n\"みなさん、気づいてください！<br>この国はゆがんでいます！\"",
+   "traits": [
+    "演説"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/p5_s45/p5_s45_034.png",
+   "variant": ""
+  },
+  {
+   "num": "P5/S45-035",
+   "name": "謎の美少女怪盗 春 / NOIR",
+   "type": "Character",
+   "rarity": "U",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのターン中、他のあなたの「モルガナカー」すべてに、パワーを＋2000。\n【自】［(1)］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見て「モルガナカー」を1枚まで選び、舞台の好きな枠に置き、その山札をシャッフルする。\n\"美少女怪盗と申します！\"",
+   "traits": [
+    "怪盗",
+    "令嬢"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/p5_s45/p5_s45_035.png",
+   "variant": ""
+  },
+  {
+   "num": "P5/S45-036",
+   "name": "“総攻撃”真 / QUEEN",
+   "type": "Character",
+   "rarity": "U",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 この能力は1ターンにつき1回まで発動する。あなたが【起】を使った時、そのターン中、このカードのパワーを＋Ｘ。Ｘはあなたの、《怪盗》か《生徒会》か《検察》のキャラの枚数×500に等しい。\n【自】 このカードのバトル相手が【リバース】した時、あなたのクライマックス置場に「JUSTICE HAS PREVAILED.」があるなら、あなたは他の自分のキャラを1枚選び、次の相手のターンの終わりまで、レベルを＋1し、パワーを＋2500。\n\"これで総崩れよ！\"",
+   "traits": [
+    "怪盗",
+    "生徒会"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/p5_s45/p5_s45_036.png",
+   "variant": ""
+  },
+  {
+   "num": "P5/S45-037",
+   "name": "怪盗団の御令嬢 春 / NOIR",
+   "type": "Character",
+   "rarity": "U",
+   "color": "green",
+   "level": "1",
+   "cost": "1",
+   "power": "5500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの《怪盗》のキャラが2枚以上なら、このカードのパワーを＋2000。\n【自】［あなたの前列の【スタンド】しているキャラを1枚とこのカードを入れ替える］ あなたのターン中、このカードのバトル相手が【リバース】した時、あなたはコストを払ってよい。そうしたら、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋2000。\n\"さようなら、お父様。<br>私はもう、あなたには従わない\"",
+   "traits": [
+    "怪盗",
+    "令嬢"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/p5_s45/p5_s45_037.png",
+   "variant": ""
+  },
+  {
+   "num": "P5/S45-038",
+   "name": "世紀末覇者先輩 真 / QUEEN",
+   "type": "Character",
+   "rarity": "U",
+   "color": "green",
+   "level": "2",
+   "cost": "1",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋Ｘ。Ｘはそのキャラのレベル×500に等しい。\n【自】［(1) 手札の、《怪盗》か《生徒会》か《検察》のキャラを1枚控え室に置く］ あなたのダイレクトアタックしているキャラの与えたダメージがキャンセルされなかった時、他のあなたの、《怪盗》か《生徒会》か《検察》のキャラが3枚以上なら、あなたはコストを払ってよい。そうしたら、あなたは相手の思い出置場の裏向きのカードを1枚選び、クロック置場に置く。\n\"竜司「あ、世紀末覇者先輩ちーっす」<br>真「叩かれたいの？」\"",
+   "traits": [
+    "怪盗",
+    "生徒会"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/p5_s45/p5_s45_038.png",
+   "variant": ""
+  },
+  {
+   "num": "P5/S45-039",
+   "name": "新島 冴",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 絆／「“総攻撃”真 / QUEEN」 ［(1)］ （このカードがプレイされて舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「“総攻撃”真 / QUEEN」を1枚選び、手札に戻す）\n【起】［このカードを【レスト】する］ あなたは自分の《怪盗》のキャラを1枚選び、そのターン中、パワーを＋1000。\n\"あなたも将来の為に、<br>今やるべきことだけに目を向けなさい\"",
+   "traits": [
+    "検察"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/p5_s45/p5_s45_039.png",
+   "variant": ""
+  },
+  {
+   "num": "P5/S45-040",
+   "name": "検察官 冴",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋500。\n【自】［このカードを控え室に置く］ 他のあなたのカード名に「主人公」を含むキャラが舞台から控え室に置かれた時、後列にこのカードがいるなら、あなたはコストを払ってよい。そうしたら、そのキャラをそのキャラがいた枠に【レスト】して置く。\n\"-\"",
+   "traits": [
+    "検察"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/p5_s45/p5_s45_040.png",
+   "variant": ""
+  },
+  {
+   "num": "P5/S45-041",
+   "name": "取引成立 春",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの前列のキャラが1枚以下なら、このカードのパワーを＋2000。\n【自】 このカードがアタックした時、他のあなたのキャラが1枚以下なら、あなたは自分の山札の上から1枚を、控え室に置いてよい。そのカードがレベル0以下のキャラなら、そのキャラを後列の好きな枠に置き、そのターン中、そのキャラに《コーヒー》を与える。\n\"ふふ、『取り引き成立』ね。<br>なんだか怪盗っぽい！\"",
+   "traits": [
+    "怪盗",
+    "令嬢"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/p5_s45/p5_s45_041.png",
+   "variant": ""
+  },
+  {
+   "num": "P5/S45-042",
+   "name": "取引成立 真",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの《怪盗》のキャラすべてに、パワーを＋500。\n【起】［このカードを【レスト】する］ あなたは自分のキャラを1枚選び、そのターン中、次の能力を与える。『【自】 このカードのバトル相手が【リバース】した時、あなたは相手のクロックの上から1枚を、控え室に置いてよい。そうしたら、あなたはそのキャラをクロック置場に置く。』\n\"今すぐ何か出来るとかじゃないけど…<br>きっと役に立てると思うの\"",
+   "traits": [
+    "怪盗",
+    "生徒会"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/p5_s45/p5_s45_042.png",
+   "variant": ""
+  },
+  {
+   "num": "P5/S45-043",
+   "name": "決められた人生 春",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードの与えたダメージがキャンセルされた時、あなたはこのカードをストック置場に置いてよい。\n\"-\"",
+   "traits": [
+    "怪盗",
+    "令嬢"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/p5_s45/p5_s45_043.png",
+   "variant": ""
+  },
+  {
+   "num": "P5/S45-044",
+   "name": "御船 千早",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 あなたが『チェンジ』を使った時、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋1000。\n【自】 この能力は1ターンにつき1回まで発動する。あなたが『助太刀』を使った時、あなたは自分のバトル中のキャラを1枚選び、そのターン中、パワーを＋1000。\n\"あ、あのっ！<br>金髪の方に、女難の相が出てます\"",
+   "traits": [
+    "占い",
+    "タロット"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/p5_s45/p5_s45_044.png",
+   "variant": ""
+  },
+  {
+   "num": "P5/S45-045",
+   "name": "大宅 一子",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "1",
+   "cost": "1",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】【クロック】  アラーム このカードがクロックの1番上にあるなら、あなたのカード名に「主人公」を含むキャラすべてに、次の能力を与える。『【自】 このカードのバトル相手が【リバース】した時、あなたは相手の山札を上から1枚見て、山札の上か下に置く。』\n\"アタシ、記者やってんの。<br>何かネタあったら、ここに連絡くれる？\"",
+   "traits": [
+    "カメラ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/p5_s45/p5_s45_045.png",
+   "variant": ""
+  },
+  {
+   "num": "P5/S45-046",
+   "name": "予告状",
+   "type": "Event",
+   "rarity": "U",
+   "color": "green",
+   "level": "2",
+   "cost": "1",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "相手の思い出置場に裏向きのカードがないなら、相手は自分の手札を1枚選び、裏向きで思い出にし、1枚まで引く。\nあなたは自分のキャラを1枚選び、そのターン中、次の能力を与える。『【自】 このカードのバトル相手が【リバース】した時、あなたはそのキャラをクロック置場に置いてよい。』このカードを思い出にする。\n\"金城「怪盗だ…笑わせんじゃねえ」\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/p5_s45/p5_s45_046.png",
+   "variant": ""
+  },
+  {
+   "num": "P5/S45-047",
+   "name": "イセカイナビ",
+   "type": "Event",
+   "rarity": "C",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "あなたは自分のクロック置場のレベル1以下のキャラを1枚選び、舞台の好きな枠に置き、自分の山札の上から1枚を、クロック置場に置き、そのターン中、そのキャラに《怪盗》を与える。\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/p5_s45/p5_s45_047.png",
+   "variant": ""
+  },
+  {
+   "num": "P5/S45-048",
+   "name": "闇ネットたなか",
+   "type": "Event",
+   "rarity": "C",
+   "color": "green",
+   "level": "2",
+   "cost": "1",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "このカードは、あなたの《怪盗》のキャラがいないなら、手札からプレイできない。\nこのカードを思い出にする。あなたは1枚引く。\nあなたの思い出置場の「闇ネットたなか」が2枚以上なら、あなたは自分の控え室の《怪盗》のキャラを1枚選び、手札に戻す。\nあなたの思い出置場の「闇ネットたなか」が3枚以上なら、あなたは自分の山札を見て《怪盗》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\nあなたの思い出置場の「闇ネットたなか」が4枚以上なら、あなたは自分のクロック置場の《怪盗》のキャラを1枚選び、控え室に置いてよい。\n\"ふっふっふ…ようこそ！<br>魅惑の世界、闇ネットたなかへ！\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/p5_s45/p5_s45_048.png",
+   "variant": ""
+  },
+  {
+   "num": "P5/S45-049",
+   "name": "Adieu.",
+   "type": "Climax",
+   "rarity": "CR",
+   "color": "green",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【自】 このカードが手札からクライマックス置場に置かれた時、あなたは自分の控え室の緑のカードを1枚まで選び、ストック置場に置き、自分のキャラすべてに、そのターン中、ソウルを＋1。\n\"これでフィニッシュ！\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/p5_s45/p5_s45_049.png",
+   "variant": ""
+  },
+  {
+   "num": "P5/S45-049R",
+   "name": "Adieu.",
+   "type": "Climax",
+   "rarity": "RRR",
+   "color": "green",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【自】 このカードが手札からクライマックス置場に置かれた時、あなたは自分の控え室の緑のカードを1枚まで選び、ストック置場に置き、自分のキャラすべてに、そのターン中、ソウルを＋1。\n\"これでフィニッシュ！\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/p5_s45/p5_s45_049r.png",
+   "variant": ""
+  },
+  {
+   "num": "P5/S45-050",
+   "name": "JUSTICE HAS PREVAILED.",
+   "type": "Climax",
+   "rarity": "CC",
+   "color": "green",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[treasure.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[treasure.gif]]：このカードがトリガーした時、あなたはこのカードを手札に戻す。あなたは自分の山札の上から1枚を、ストック置場に置いてよい）\n\"鉄拳制裁！\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/p5_s45/p5_s45_050.png",
+   "variant": ""
+  },
+  {
+   "num": "P5/S45-050R",
+   "name": "JUSTICE HAS PREVAILED.",
+   "type": "Climax",
+   "rarity": "RRR",
+   "color": "green",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[treasure.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[treasure.gif]]：このカードがトリガーした時、あなたはこのカードを手札に戻す。あなたは自分の山札の上から1枚を、ストック置場に置いてよい）\n\"鉄拳制裁！\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/p5_s45/p5_s45_050r.png",
+   "variant": ""
+  },
+  {
+   "num": "P5/S45-051",
+   "name": "モルガナ＆ゾロ / MONA",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "9500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたの控え室のクライマックスが2枚以下なら、あなたの手札のこのカードのレベルを－1。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n【自】 このカードがアタックした時、他のあなたの《怪盗》のキャラが2枚以上なら、そのターン中、このカードのパワーを＋2000。\n\"生きて出たいんだろう？<br>大人しくついて来い！\"",
+   "traits": [
+    "怪盗"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/p5_s45/p5_s45_051.png",
+   "variant": ""
+  },
+  {
+   "num": "P5/S45-051SP",
+   "name": "モルガナ＆ゾロ / MONA",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "9500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたの控え室のクライマックスが2枚以下なら、あなたの手札のこのカードのレベルを－1。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n【自】 このカードがアタックした時、他のあなたの《怪盗》のキャラが2枚以上なら、そのターン中、このカードのパワーを＋2000。\n\"-\"",
+   "traits": [
+    "怪盗"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/p5_s45/p5_s45_051sp.png",
+   "variant": ""
+  },
+  {
+   "num": "P5/S45-052",
+   "name": "“総攻撃”杏 / PANTHER",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは1枚まで引き、そのターン中、このカードのパワーを＋2000。\n【自】 このカードのバトル相手が【リバース】した時、あなたのクライマックス置場に「omg!! We are SO awesome」があるなら、あなたは自分の控え室の《怪盗》のキャラを1枚まで選び、ストック置場に置き、相手に1ダメージを与える。（ダメージキャンセルは発生する）\n\"華麗にやっちゃう！\"",
+   "traits": [
+    "怪盗"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/p5_s45/p5_s45_052.png",
+   "variant": ""
+  },
+  {
+   "num": "P5/S45-052SP",
+   "name": "“総攻撃”杏 / PANTHER",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは1枚まで引き、そのターン中、このカードのパワーを＋2000。\n【自】 このカードのバトル相手が【リバース】した時、あなたのクライマックス置場に「omg!! We are SO awesome」があるなら、あなたは自分の控え室の《怪盗》のキャラを1枚まで選び、ストック置場に置き、相手に1ダメージを与える。（ダメージキャンセルは発生する）\n\"-\"",
+   "traits": [
+    "怪盗"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/p5_s45/p5_s45_052sp.png",
+   "variant": ""
+  },
+  {
+   "num": "P5/S45-053",
+   "name": "怪盗団の演技派（？）女優 杏 / PANTHER",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から2枚を、控え室に置く。それらのカードにクライマックスがあるなら、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋1500。\n【自】 このカードが【リバース】した時、このカードのバトル相手のレベルが0以下なら、あなたはそのキャラを【リバース】してよい。\n\"怖い？<br>今アンタは、志帆と同じ景色を見てるんだよ\"",
+   "traits": [
+    "怪盗"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/p5_s45/p5_s45_053.png",
+   "variant": ""
+  },
+  {
+   "num": "P5/S45-053S",
+   "name": "怪盗団の演技派（？）女優 杏 / PANTHER",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から2枚を、控え室に置く。それらのカードにクライマックスがあるなら、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋1500。\n【自】 このカードが【リバース】した時、このカードのバトル相手のレベルが0以下なら、あなたはそのキャラを【リバース】してよい。\n\"怖い？<br>今アンタは、志帆と同じ景色を見てるんだよ\"",
+   "traits": [
+    "怪盗"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/p5_s45/p5_s45_053s.png",
+   "variant": ""
+  },
+  {
+   "num": "P5/S45-054",
+   "name": "怪盗団の先導役 モルガナ / MONA",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 相手のアタックフェイズの始めに、あなたはこのカードを前列のキャラのいない枠に動かしてよい。\n\"これからは出し惜しみなく協力してやるぜ。<br>オマエも気張れよ！　ワガハイに損させんじゃねえぞ！\"",
+   "traits": [
+    "怪盗"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/p5_s45/p5_s45_054.png",
+   "variant": ""
+  },
+  {
+   "num": "P5/S45-054S",
+   "name": "怪盗団の先導役 モルガナ / MONA",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 相手のアタックフェイズの始めに、あなたはこのカードを前列のキャラのいない枠に動かしてよい。\n\"これからは出し惜しみなく協力してやるぜ。<br>オマエも気張れよ！　ワガハイに損させんじゃねえぞ！\"",
+   "traits": [
+    "怪盗"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/p5_s45/p5_s45_054s.png",
+   "variant": ""
+  },
+  {
+   "num": "P5/S45-055",
+   "name": "杏＆カルメン / PANTHER",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［あなたの前列の【スタンド】しているキャラを1枚とこのカードを入れ替える］ あなたのターン中、このカードのバトル相手が【リバース】した時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室のキャラを1枚選び、手札に戻し、自分の手札を1枚選び、控え室に置く。\n【自】 このカードが【リバース】した時、このカードのバトル相手のレベルが1以下なら、あなたはそのキャラを【リバース】してよい。\n\"我は汝、汝は我…<br>やっと契約、結べるね…\"",
+   "traits": [
+    "怪盗"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/p5_s45/p5_s45_055.png",
+   "variant": ""
+  },
+  {
+   "num": "P5/S45-055S",
+   "name": "杏＆カルメン / PANTHER",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［あなたの前列の【スタンド】しているキャラを1枚とこのカードを入れ替える］ あなたのターン中、このカードのバトル相手が【リバース】した時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室のキャラを1枚選び、手札に戻し、自分の手札を1枚選び、控え室に置く。\n【自】 このカードが【リバース】した時、このカードのバトル相手のレベルが1以下なら、あなたはそのキャラを【リバース】してよい。\n\"我は汝、汝は我…<br>やっと契約、結べるね…\"",
+   "traits": [
+    "怪盗"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/p5_s45/p5_s45_055s.png",
+   "variant": ""
+  },
+  {
+   "num": "P5/S45-056",
+   "name": "“総攻撃”モルガナ / MONA",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 あなたのクライマックスがクライマックス置場に置かれた時、そのターン中、このカードのパワーを＋1500。\n【自】 このカードがアタックした時、クライマックス置場に「MISSION ACCOMPLISHED」があり、他のあなたの《怪盗》のキャラがいるなら、あなたは自分の山札の上から1枚を公開し、そのカードを手札に加える。そのカードが《怪盗》のキャラでないなら、あなたは自分の手札を1枚選び、控え室に置く。\n\"われらの恐ろしさを味わえ！\"",
+   "traits": [
+    "怪盗"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/p5_s45/p5_s45_056.png",
+   "variant": ""
+  },
+  {
+   "num": "P5/S45-056S",
+   "name": "“総攻撃”モルガナ / MONA",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 あなたのクライマックスがクライマックス置場に置かれた時、そのターン中、このカードのパワーを＋1500。\n【自】 このカードがアタックした時、クライマックス置場に「MISSION ACCOMPLISHED」があり、他のあなたの《怪盗》のキャラがいるなら、あなたは自分の山札の上から1枚を公開し、そのカードを手札に加える。そのカードが《怪盗》のキャラでないなら、あなたは自分の手札を1枚選び、控え室に置く。\n\"われらの恐ろしさを味わえ！\"",
+   "traits": [
+    "怪盗"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/p5_s45/p5_s45_056s.png",
+   "variant": ""
+  },
+  {
+   "num": "P5/S45-057",
+   "name": "高巻 杏",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋Ｘ。Ｘはそのキャラのレベル×500に等しい。\n【自】［手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の《怪盗》のキャラを1枚選び、手札に戻す。\n\"鴨志田やるなら…私も混ぜてよ\"",
+   "traits": [
+    "怪盗"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/p5_s45/p5_s45_057.png",
+   "variant": ""
+  },
+  {
+   "num": "P5/S45-058",
+   "name": "織田 信也",
+   "type": "Character",
+   "rarity": "U",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】【クロック】 アラーム このカードがクロックの1番上にあり、あなたのレベルが2以上なら、あなたのカード名に「主人公」を含むキャラすべてに、次の能力を与える。『【自】 このカードが【リバース】した時、このカードのバトル相手のレベルがこのカードのレベル以下なら、あなたはそのキャラを【リバース】してよい。』\n\"足を止めた後、すかさず急所。<br>これでズル男にもダメージが与えられるようになる\"",
+   "traits": [
+    "ネトゲ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/p5_s45/p5_s45_058.png",
+   "variant": ""
+  },
+  {
+   "num": "P5/S45-059",
+   "name": "静かな怒り 杏 / PANTHER",
+   "type": "Character",
+   "rarity": "U",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの《怪盗》のキャラすべてに、パワーを＋500。\n【自】［(1)］ あなたのダイレクトアタックしているキャラの与えたダメージがキャンセルされなかった時、あなたは相手の思い出置場の裏向きのカードを1枚選び、控え室に置く。そうしたら、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の《怪盗》のキャラを1枚選び、手札に戻す。\n\"志帆から全部、奪って…踏みにじった…<br>あんたは許さない！\"",
+   "traits": [
+    "怪盗"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/p5_s45/p5_s45_059.png",
+   "variant": ""
+  },
+  {
+   "num": "P5/S45-060",
+   "name": "取引成立 杏",
+   "type": "Character",
+   "rarity": "U",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［手札のクライマックスを1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の《怪盗》のキャラを1枚選び、手札に戻す。\n\"私に出来る事なら何だってする！\"",
+   "traits": [
+    "怪盗"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/p5_s45/p5_s45_060.png",
+   "variant": ""
+  },
+  {
+   "num": "P5/S45-061",
+   "name": "取引成立 モルガナ / MONA",
+   "type": "Character",
+   "rarity": "U",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 あなたがこのカードの『助太刀』を使った時、あなたの《怪盗》のキャラがいるなら、あなたは自分のバトル中のキャラを1枚選び、そのターン中、パワーを＋1000。\n【起】【カウンター】 助太刀1000 レベル1 ［手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋1000）\n\"…ふっふっふ、取引成立だぜ\"",
+   "traits": [
+    "怪盗"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/p5_s45/p5_s45_061.png",
+   "variant": ""
+  },
+  {
+   "num": "P5/S45-062",
+   "name": "決意の表情 杏 / PANTHER",
+   "type": "Character",
+   "rarity": "U",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの《怪盗》のキャラが2枚以上なら、このカードのパワーを＋2000。\n【自】［(1)］ あなたのクライマックス置場に「親友のために」が置かれた時、前列にこのカードがいるなら、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室のコスト0以下の《怪盗》のキャラを1枚選び、舞台の好きな枠に置き、そのターン中、このカードは次の能力を得る。『【自】 このカードのバトル相手が【リバース】した時、あなたはそのキャラを山札の上に置いてよい。』\n\"みんなッ…アンタにそう言ったんじゃないの！？<br>けどアンタは平気で奪ってったんだっ！\"",
+   "traits": [
+    "怪盗"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/p5_s45/p5_s45_062.png",
+   "variant": ""
+  },
+  {
+   "num": "P5/S45-063",
+   "name": "モルガナカー",
+   "type": "Character",
+   "rarity": "U",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(2) 手札を2枚控え室に置く］ 相手のメインフェイズの始めに、あなたはコストを払ってよい。そうしたら、あなたは他の自分のキャラすべてを、このカードの下にマーカーとして好きな順番で裏向きに置く。\n【自】 相手のアタックフェイズの始めに、このカードの下にマーカーがあるなら、あなたはこのカードをキャラのいない枠に動かしてよい。\n【自】 あなたのメインフェイズの始めに、あなたはこのカードの下のマーカーすべてを、舞台の別々の枠に置く。\n\"エンジン全開！　かっとぶぜ！\"",
+   "traits": [
+    "怪盗"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/p5_s45/p5_s45_063.png",
+   "variant": ""
+  },
+  {
+   "num": "P5/S45-064",
+   "name": "東郷 一二三",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋500。\n【自】［(1) 手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の《怪盗》のキャラを1枚選び、手札に戻し、あなたは他の自分の《怪盗》のキャラを1枚選び、そのターン中、パワーを＋1000。\n\"良かったら、<br>また御手合わせ願えますか？\"",
+   "traits": [
+    "将棋"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/p5_s45/p5_s45_064.png",
+   "variant": ""
+  },
+  {
+   "num": "P5/S45-065",
+   "name": "一途な恋心 モルガナ / MONA",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのターン中、他のあなたの「杏＆カルメン / PANTHER」すべてに、パワーを＋2000。\n【自】 他のあなたの前列の中央の枠のキャラがアタックした時、あなたは自分の山札の上から1枚を、控え室に置いてよい。そのカードがクライマックスなら、あなたは相手の控え室のカードを1枚選び、山札の上に置く。\n\"ワガハイの活躍であの子が幸せになるなら、<br>それで十分なのさ…\"",
+   "traits": [
+    "怪盗"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/p5_s45/p5_s45_065.png",
+   "variant": ""
+  },
+  {
+   "num": "P5/S45-066",
+   "name": "岩井 宗久",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(2)］ このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の《武器》のキャラを1枚選び、手札に戻す。\n\"ホンモノは重厚感が違ぇ。<br>そのうち、イイモン拝ませてやるよ\"",
+   "traits": [
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/p5_s45/p5_s45_066.png",
+   "variant": ""
+  },
+  {
+   "num": "P5/S45-067",
+   "name": "水着の杏",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードがアタックした時、他のあなたの《怪盗》のキャラが2枚以上なら、そのターン中、このカードのパワーを＋2000。\n\"-\"",
+   "traits": [
+    "怪盗"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/p5_s45/p5_s45_067.png",
+   "variant": ""
+  },
+  {
+   "num": "P5/S45-068",
+   "name": "正体不明 モルガナ / MONA",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【起】【カウンター】 助太刀3000 レベル2 ［(1) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋3000）\n\"-\"",
+   "traits": [
+    "怪盗"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/p5_s45/p5_s45_068.png",
+   "variant": ""
+  },
+  {
+   "num": "P5/S45-069",
+   "name": "仲間のために モルガナ / MONA",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "7000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、そのターン中、このカードのパワーを＋Ｘ。Ｘはあなたの《怪盗》のキャラの枚数×1000に等しい。\n【自】 あなたのクライマックス置場に「唯一の居場所」が置かれた時、前列にこのカードがいて、あなたの控え室のキャラが3枚以上なら、あなたは自分の控え室のキャラを3枚選び、手札に戻してよい。そうしたら、あなたは自分の手札を3枚選び、控え室に置く。\n\"この世にはカネや名誉に代えられないモンが山ほどある！\"",
+   "traits": [
+    "怪盗"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/p5_s45/p5_s45_069.png",
+   "variant": ""
+  },
+  {
+   "num": "P5/S45-070",
+   "name": "予告状",
+   "type": "Event",
+   "rarity": "U",
+   "color": "red",
+   "level": "1",
+   "cost": "1",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "相手の思い出置場に裏向きのカードがないなら、相手は自分の手札を1枚選び、裏向きで思い出にし、1枚まで引く。\nあなたは相手の前列のレベル1以下のキャラを1枚まで選び、控え室に置き、自分のキャラを1枚選び、そのターン中、次の能力を与える。『【自】 このカードのバトル相手が【リバース】した時、あなたは自分の控え室のキャラを1枚選び、手札に戻してよい。』\n\"鴨志田「来いよ…盗れるもんなら盗ってみろ！」\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/p5_s45/p5_s45_070.png",
+   "variant": ""
+  },
+  {
+   "num": "P5/S45-071",
+   "name": "メメントス",
+   "type": "Event",
+   "rarity": "C",
+   "color": "red",
+   "level": "1",
+   "cost": "1",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "このカードを思い出にする。\n【自】 記憶 ［このカードを控え室に置く］ あなたの受けたダメージがキャンセルされなかった時、思い出置場にこのカードがあり、そのダメージが3以上なら、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室のキャラを2枚まで選び、手札に戻し、自分の手札を1枚選び、ストック置場に置く。\n\"他の『ふつうの大衆』は、別々じゃなくて<br>１つに融合した巨大なパレスを共有している。<br>それがココ…『メメントス』だ\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/p5_s45/p5_s45_071.png",
+   "variant": ""
+  },
+  {
+   "num": "P5/S45-072",
+   "name": "omg!! We are SO awesome",
+   "type": "Climax",
+   "rarity": "CR",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[salvage.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[salvage.gif]]：このカードがトリガーした時、あなたは自分の控え室のキャラを1枚選び、手札に戻してよい）\n\"どんなもんよ！　ふふっ\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/p5_s45/p5_s45_072.png",
+   "variant": ""
+  },
+  {
+   "num": "P5/S45-072R",
+   "name": "omg!! We are SO awesome",
+   "type": "Climax",
+   "rarity": "RRR",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[salvage.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[salvage.gif]]：このカードがトリガーした時、あなたは自分の控え室のキャラを1枚選び、手札に戻してよい）\n\"どんなもんよ！　ふふっ\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/p5_s45/p5_s45_072r.png",
+   "variant": ""
+  },
+  {
+   "num": "P5/S45-073",
+   "name": "親友のために",
+   "type": "Climax",
+   "rarity": "CC",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【自】 このカードが手札からクライマックス置場に置かれた時、あなたは自分の控え室の赤のカードを1枚まで選び、ストック置場に置き、自分のキャラすべてに、そのターン中、ソウルを＋1。\n\"いくよ…カルメンっ！\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/p5_s45/p5_s45_073.png",
+   "variant": ""
+  },
+  {
+   "num": "P5/S45-074",
+   "name": "MISSION ACCOMPLISHED",
+   "type": "Climax",
+   "rarity": "CC",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[salvage.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[salvage.gif]]：このカードがトリガーした時、あなたは自分の控え室のキャラを1枚選び、手札に戻してよい）\n\"一丁あがりだ！\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/p5_s45/p5_s45_074.png",
+   "variant": ""
+  },
+  {
+   "num": "P5/S45-074R",
+   "name": "MISSION ACCOMPLISHED",
+   "type": "Climax",
+   "rarity": "RRR",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[salvage.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[salvage.gif]]：このカードがトリガーした時、あなたは自分の控え室のキャラを1枚選び、手札に戻してよい）\n\"一丁あがりだ！\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/p5_s45/p5_s45_074r.png",
+   "variant": ""
+  },
+  {
+   "num": "P5/S45-075",
+   "name": "唯一の居場所",
+   "type": "Climax",
+   "rarity": "CC",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【自】 このカードが手札からクライマックス置場に置かれた時、あなたは自分の控え室の赤のカードを1枚まで選び、ストック置場に置き、自分のキャラすべてに、そのターン中、ソウルを＋1。\n\"こいつらの代わりなんて何処にもいない！<br>オマエの提案は、ハナから取引になっちゃいねえのさ！\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/p5_s45/p5_s45_075.png",
+   "variant": ""
+  },
+  {
+   "num": "P5/S45-076",
+   "name": "ナビゲーション役 双葉 / NAVI",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "blue",
+   "level": "3",
+   "cost": "2",
+   "power": "5500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの、《怪盗》か《コーヒー》のキャラすべてに、パワーを＋1500。\n【自】［(1) 手札の「許す、もんかっ！」を1枚控え室に置く］ 他のあなたのキャラがアタックされた時、他のあなたの、《怪盗》か《コーヒー》のキャラが3枚以上なら、あなたはコストを払ってよい。そうしたら、あなたは相手のバトル中のキャラを1枚選び、そのターン中、次の能力を与える。『【永】 このカードはプレイヤーにダメージを与えることができない。』\n【自】 相手のターン中、あなたの受けたダメージがキャンセルされなかった時、あなたは自分の山札を上から1枚見て、山札の上か控え室に置く。\n\"サポート！とどけ！\"",
+   "traits": [
+    "怪盗",
+    "ネット"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/p5_s45/p5_s45_076.png",
+   "variant": ""
+  },
+  {
+   "num": "P5/S45-076SP",
+   "name": "ナビゲーション役 双葉 / NAVI",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "blue",
+   "level": "3",
+   "cost": "2",
+   "power": "5500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの、《怪盗》か《コーヒー》のキャラすべてに、パワーを＋1500。\n【自】［(1) 手札の「許す、もんかっ！」を1枚控え室に置く］ 他のあなたのキャラがアタックされた時、他のあなたの、《怪盗》か《コーヒー》のキャラが3枚以上なら、あなたはコストを払ってよい。そうしたら、あなたは相手のバトル中のキャラを1枚選び、そのターン中、次の能力を与える。『【永】 このカードはプレイヤーにダメージを与えることができない。』\n【自】 相手のターン中、あなたの受けたダメージがキャンセルされなかった時、あなたは自分の山札を上から1枚見て、山札の上か控え室に置く。\n\"-\"",
+   "traits": [
+    "怪盗",
+    "ネット"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/p5_s45/p5_s45_076sp.png",
+   "variant": ""
+  },
+  {
+   "num": "P5/S45-077",
+   "name": "祐介＆ゴエモン / FOX",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "blue",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】［(1) 手札の《怪盗》のキャラを1枚控え室に置く］ このカードがアタックした時、他のあなたの《怪盗》のキャラがいるなら、あなたはコストを払ってよい。そうしたら、あなたは自分のクロックの上から1枚を、控え室に置く。\n【自】 相手のドローフェイズの始めに、前列にこのカードがいるなら、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋4000。\n\"我は汝、汝は我…人世の美醜の誠のいろは…<br>今度はキサマが教えてやるがいい！\"",
+   "traits": [
+    "怪盗"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/p5_s45/p5_s45_077.png",
+   "variant": ""
+  },
+  {
+   "num": "P5/S45-077SP",
+   "name": "祐介＆ゴエモン / FOX",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "blue",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】［(1) 手札の《怪盗》のキャラを1枚控え室に置く］ このカードがアタックした時、他のあなたの《怪盗》のキャラがいるなら、あなたはコストを払ってよい。そうしたら、あなたは自分のクロックの上から1枚を、控え室に置く。\n【自】 相手のドローフェイズの始めに、前列にこのカードがいるなら、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋4000。\n\"-\"",
+   "traits": [
+    "怪盗"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/p5_s45/p5_s45_077sp.png",
+   "variant": ""
+  },
+  {
+   "num": "P5/S45-078",
+   "name": "カロリーヌ",
+   "type": "Character",
+   "rarity": "R",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたが自分の手札のイベントのコストを払う時、このカードの下のマーカー1枚を、ストック1枚のかわりに控え室に置いてよい。\n【自】［このカードを【レスト】する］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札の上から1枚を、このカードの下にマーカーとして置く。\n【自】［(1)］ あなたのクライマックスがクライマックス置場に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を上から4枚まで見て、《怪盗》か《双子》かカード名に「イゴール」を含むキャラを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。\n\"ふん、せいぜい無駄に足掻くがいい\"",
+   "traits": [
+    "双子",
+    "眼帯"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/p5_s45/p5_s45_078.png",
+   "variant": ""
+  },
+  {
+   "num": "P5/S45-079",
+   "name": "佐倉 双葉",
+   "type": "Character",
+   "rarity": "R",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 このカードの下にマーカーがあるなら、このカードのレベルを＋1し、パワーを＋1500。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から1枚を公開する。そのカードが《怪盗》か《コーヒー》のキャラならこのカードの下にマーカーとして裏向きに置いてよい。（そうしないなら元に戻す）\n\"メジエドの創始者はわたしだもん\"",
+   "traits": [
+    "怪盗",
+    "ネット"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/p5_s45/p5_s45_079.png",
+   "variant": ""
+  },
+  {
+   "num": "P5/S45-079S",
+   "name": "佐倉 双葉",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 このカードの下にマーカーがあるなら、このカードのレベルを＋1し、パワーを＋1500。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から1枚を公開する。そのカードが《怪盗》か《コーヒー》のキャラならこのカードの下にマーカーとして裏向きに置いてよい。（そうしないなら元に戻す）\n\"メジエドの創始者はわたしだもん\"",
+   "traits": [
+    "怪盗",
+    "ネット"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/p5_s45/p5_s45_079s.png",
+   "variant": ""
+  },
+  {
+   "num": "P5/S45-080",
+   "name": "怪盗団の芸術家 祐介 / FOX",
+   "type": "Character",
+   "rarity": "R",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「予告状」を1枚選び、手札に戻す。\n【自】 この能力は1ターンにつき1回まで発動する。あなたがイベントをプレイした時、そのターン中、このカードのパワーを＋2000。\n\"礼を言うぞ、斑目…！<br>お前を許してやる理由が、たった今、全て露と消えた！\"",
+   "traits": [
+    "怪盗"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/p5_s45/p5_s45_080.png",
+   "variant": ""
+  },
+  {
+   "num": "P5/S45-080S",
+   "name": "怪盗団の芸術家 祐介 / FOX",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「予告状」を1枚選び、手札に戻す。\n【自】 この能力は1ターンにつき1回まで発動する。あなたがイベントをプレイした時、そのターン中、このカードのパワーを＋2000。\n\"礼を言うぞ、斑目…！<br>お前を許してやる理由が、たった今、全て露と消えた！\"",
+   "traits": [
+    "怪盗"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/p5_s45/p5_s45_080s.png",
+   "variant": ""
+  },
+  {
+   "num": "P5/S45-081",
+   "name": "双葉＆ネクロノミコン / NAVI",
+   "type": "Character",
+   "rarity": "R",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、そのターン中、このカードのパワーを＋Ｘ。Ｘはあなたの、《怪盗》か《コーヒー》のキャラの枚数×500に等しい。\n\"…我は汝、汝は我。禁断の叡智は開かれた。<br>いかなる謎も幻も、もはやお前を惑わせない\"",
+   "traits": [
+    "怪盗",
+    "ネット"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/p5_s45/p5_s45_081.png",
+   "variant": ""
+  },
+  {
+   "num": "P5/S45-081S",
+   "name": "双葉＆ネクロノミコン / NAVI",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、そのターン中、このカードのパワーを＋Ｘ。Ｘはあなたの、《怪盗》か《コーヒー》のキャラの枚数×500に等しい。\n\"…我は汝、汝は我。禁断の叡智は開かれた。<br>いかなる謎も幻も、もはやお前を惑わせない\"",
+   "traits": [
+    "怪盗",
+    "ネット"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/p5_s45/p5_s45_081s.png",
+   "variant": ""
+  },
+  {
+   "num": "P5/S45-082",
+   "name": "喜多川 祐介",
+   "type": "Character",
+   "rarity": "R",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "5500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、他のあなたの《怪盗》のキャラがいるなら、あなたは1枚まで引き、自分の手札を1枚選び、控え室に置き、自分の山札の上から1枚までを、ストック置場に置く。\n【自】 チェンジ ［(1) 手札の《怪盗》のキャラを2枚控え室に置き、このカードを手札に戻す］ あなたのクライマックスフェイズの始めに、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「祐介＆ゴエモン / FOX」を1枚選び、このカードがいた枠に置く。\n\"画家と怪盗の、二足のわらじか…<br>一度きりの人生だ、それもいいだろう\"",
+   "traits": [
+    "怪盗"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/p5_s45/p5_s45_082.png",
+   "variant": ""
+  },
+  {
+   "num": "P5/S45-082S",
+   "name": "喜多川 祐介",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "5500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、他のあなたの《怪盗》のキャラがいるなら、あなたは1枚まで引き、自分の手札を1枚選び、控え室に置き、自分の山札の上から1枚までを、ストック置場に置く。\n【自】 チェンジ ［(1) 手札の《怪盗》のキャラを2枚控え室に置き、このカードを手札に戻す］ あなたのクライマックスフェイズの始めに、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「祐介＆ゴエモン / FOX」を1枚選び、このカードがいた枠に置く。\n\"画家と怪盗の、二足のわらじか…<br>一度きりの人生だ、それもいいだろう\"",
+   "traits": [
+    "怪盗"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/p5_s45/p5_s45_082s.png",
+   "variant": ""
+  },
+  {
+   "num": "P5/S45-083",
+   "name": "ジュスティーヌ",
+   "type": "Character",
+   "rarity": "U",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの「カロリーヌ」がいるなら、このカードは『【永】 応援 このカードの前のあなたの《怪盗》のキャラすべてに、レベルを＋1し、パワーを＋500。』を得る。\n【自】 絆／「カロリーヌ」 ［手札を1枚控え室に置く］ （このカードがプレイされて舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「カロリーヌ」を1枚選び、手札に戻す）\n\"看守とは元来、囚人を守る職務。私たちもまた協力者です。<br>…但し、貴方が従順なら\"",
+   "traits": [
+    "双子",
+    "眼帯"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/p5_s45/p5_s45_083.png",
+   "variant": ""
+  },
+  {
+   "num": "P5/S45-084",
+   "name": "水着の双葉",
+   "type": "Character",
+   "rarity": "U",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの、《怪盗》か《コーヒー》のキャラすべてに、パワーを＋500。\n【自】［(1) 手札を1枚控え室に置く］ あなたのダイレクトアタックしているキャラの与えたダメージがキャンセルされなかった時、あなたは相手の思い出置場の裏向きのカードを1枚選び、控え室に置く。そうしたら、あなたはコストを払ってよい。そうしたら、あなたは自分のクロックの上から1枚を、控え室に置く。\n\"-\"",
+   "traits": [
+    "怪盗",
+    "ネット"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/p5_s45/p5_s45_084.png",
+   "variant": ""
+  },
+  {
+   "num": "P5/S45-085",
+   "name": "更生を課す者 イゴール",
+   "type": "Character",
+   "rarity": "U",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から3枚を、控え室に置いてよい。\n【自】［手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「処刑」を1枚選び、手札に戻す。\n\"いよいよだ…お前の更生が始まる\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/p5_s45/p5_s45_085.png",
+   "variant": ""
+  },
+  {
+   "num": "P5/S45-086",
+   "name": "怪盗団の天才ハッカー 双葉 / NAVI",
+   "type": "Character",
+   "rarity": "U",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】［(2)］ あなたがこのカードの『助太刀』を使った時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室のカードすべてを、山札に戻し、その山札をシャッフルする。\n【起】【カウンター】 助太刀2500 レベル2 ［(1) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋2500）\n\"うぉ！　なんじゃこりゃあ！<br>すげえ！　ピッチピチだな！\"",
+   "traits": [
+    "怪盗",
+    "ネット"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/p5_s45/p5_s45_086.png",
+   "variant": ""
+  },
+  {
+   "num": "P5/S45-087",
+   "name": "武見 妙",
+   "type": "Character",
+   "rarity": "U",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋1000。\n【起】［(2) このカードを【レスト】する］ あなたは自分のクロックの上から1枚を、控え室に置く。\n\"今どきの高校生も大変ってワケね。<br>いいよ。薬、処方してあげる\"",
+   "traits": [
+    "医者"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/p5_s45/p5_s45_087.png",
+   "variant": ""
+  },
+  {
+   "num": "P5/S45-088",
+   "name": "佐倉 惣治郎",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの「ハッキング中 双葉」すべてに、レベルを＋1し、パワーを＋\n500。\n【自】 絆／「ハッキング中 双葉」 ［(1)］ （このカードがプレイされて舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「ハッキング中 双葉」を1枚選び、手札に戻す）\n\"ありきたりだが、双葉には<br>人並みに幸せになって欲しいと思ってる\"",
+   "traits": [
+    "メガネ",
+    "コーヒー"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/p5_s45/p5_s45_088.png",
+   "variant": ""
+  },
+  {
+   "num": "P5/S45-089",
+   "name": "初めての出会い 祐介",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの《怪盗》のキャラすべてに、パワーを＋500。\n【自】［(1)］ 他のあなたの前列の中央の枠のキャラがアタックした時、あなたは自分の山札の上から1枚を、控え室に置いてよい。そのカードがクライマックスなら、あなたはコストを払ってよい。そうしたら、あなたは1枚引く。\n\"…？\"",
+   "traits": [
+    "怪盗"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/p5_s45/p5_s45_089.png",
+   "variant": ""
+  },
+  {
+   "num": "P5/S45-090",
+   "name": "取引成立 祐介",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 前列の中央の枠にこのカードがいるなら、このカードのレベルを＋1し、パワーを＋2500。\n\"お前のフォローがあればこそだ。礼を言う\"",
+   "traits": [
+    "怪盗"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/p5_s45/p5_s45_090.png",
+   "variant": ""
+  },
+  {
+   "num": "P5/S45-091",
+   "name": "取引成立 双葉",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1)］ このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分のストックを見て《怪盗》か《コーヒー》のキャラかイベントを1枚まで選んで相手に見せ、手札に戻し、そのストックをシャッフルする。\n\"頼む、わたしの外出必須アイテムになってくれ！<br>代わりにこれまで以上に、ナビがんばるから！\"",
+   "traits": [
+    "怪盗",
+    "ネット"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/p5_s45/p5_s45_091.png",
+   "variant": ""
+  },
+  {
+   "num": "P5/S45-092",
+   "name": "ハッキング中 双葉",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "6000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 このカードは、あなたの、《怪盗》か《コーヒー》のキャラが2枚以下なら、手札からプレイできない。\n\"-\"",
+   "traits": [
+    "怪盗",
+    "ネット"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/p5_s45/p5_s45_092.png",
+   "variant": ""
+  },
+  {
+   "num": "P5/S45-093",
+   "name": "“カード複製”祐介",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "1",
+   "cost": "1",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの前列の中央の枠の《怪盗》のキャラに、パワーを＋2000。\n【自】［(2)］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見て自分の控え室にあるクライマックスと同じカード名のクライマックスを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"母の想いを継いで…<br>これまで以上に、自分を磨かなければな\"",
+   "traits": [
+    "怪盗"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/p5_s45/p5_s45_093.png",
+   "variant": ""
+  },
+  {
+   "num": "P5/S45-094",
+   "name": "ベルベットルームの“主” イゴール",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "1",
+   "cost": "1",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】【クロック】 アラーム このカードがクロックの1番上にあるなら、あなたのメインフェイズの始めに、あなたは相手の手札を見る。\n\"私は、主を務めているイゴール。覚えてくれたまえ\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/p5_s45/p5_s45_094.png",
+   "variant": ""
+  },
+  {
+   "num": "P5/S45-095",
+   "name": "“総攻撃”祐介 / FOX",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "1",
+   "cost": "1",
+   "power": "5500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの《怪盗》のキャラが2枚以上なら、このカードのパワーを＋2000。\n【自】［(1)］ あなたのクライマックス置場に「IT WAS FUN WHILE IT LASTED,GOODBYE.」が置かれた時、前列にこのカードがいるなら、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見て「“総攻撃”祐介 / FOX」を1枚まで選び、舞台の好きな枠に置き、その山札をシャッフルする。\n\"さぁ、仕掛けるぞ！\"",
+   "traits": [
+    "怪盗"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/p5_s45/p5_s45_095.png",
+   "variant": ""
+  },
+  {
+   "num": "P5/S45-096",
+   "name": "予告状",
+   "type": "Event",
+   "rarity": "U",
+   "color": "blue",
+   "level": "1",
+   "cost": "1",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "【カウンター】 相手の思い出置場に裏向きのカードがないなら、相手は自分の手札を1枚選び、裏向きで思い出にし、1枚まで引く。\nあなたは自分の《怪盗》のキャラを1枚選び、そのターン中、パワーを＋2500し、次の能力を与える。『【自】 このカードのバトル相手が【リバース】した時、あなたはそのキャラを山札の下に置いてよい。』\n\"斑目「あのガキどもの悪戯か？　まあ、どうということはない…<br>どうせ、ヤツらもこの個展が終わるまでだ…」\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/p5_s45/p5_s45_096.png",
+   "variant": ""
+  },
+  {
+   "num": "P5/S45-097",
+   "name": "処刑",
+   "type": "Event",
+   "rarity": "U",
+   "color": "blue",
+   "level": "1",
+   "cost": "3",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "あなたは自分のキャラを4枚まで選び、控え室に置く。あなたは自分の山札を見てレベルとコストの合計がＸ以下の《怪盗》のキャラを1枚まで選び、舞台の好きな枠に置き、その山札をシャッフルする。Ｘはこの効果で控え室に置かれたキャラの舞台にいた時のレベルとコストの合計に等しい。\n\"イゴール「ペルソナ同士の『合体』と思ってもらってもいい」\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/p5_s45/p5_s45_097.png",
+   "variant": ""
+  },
+  {
+   "num": "P5/S45-098",
+   "name": "ベルベットルーム",
+   "type": "Event",
+   "rarity": "C",
+   "color": "blue",
+   "level": "1",
+   "cost": "1",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "あなたは自分のキャラを1枚選び、控え室に置く。そうしたら、あなたは自分の山札を見てイベントを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"イゴール「ここは、夢と現実、精神と物質の狭間にある場所。<br>何かの形で契約を結んだ者のみが訪れる部屋」\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/p5_s45/p5_s45_098.png",
+   "variant": ""
+  },
+  {
+   "num": "P5/S45-099",
+   "name": "IT WAS FUN WHILE IT LASTED,GOODBYE.",
+   "type": "Climax",
+   "rarity": "CR",
+   "color": "blue",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【自】 このカードが手札からクライマックス置場に置かれた時、あなたは自分の控え室の青のカードを1枚まで選び、ストック置場に置き、自分のキャラすべてに、そのターン中、ソウルを＋1。\n\"決まったな\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/p5_s45/p5_s45_099.png",
+   "variant": ""
+  },
+  {
+   "num": "P5/S45-099R",
+   "name": "IT WAS FUN WHILE IT LASTED,GOODBYE.",
+   "type": "Climax",
+   "rarity": "RRR",
+   "color": "blue",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【自】 このカードが手札からクライマックス置場に置かれた時、あなたは自分の控え室の青のカードを1枚まで選び、ストック置場に置き、自分のキャラすべてに、そのターン中、ソウルを＋1。\n\"決まったな\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/p5_s45/p5_s45_099r.png",
+   "variant": ""
+  },
+  {
+   "num": "P5/S45-100",
+   "name": "許す、もんかっ！",
+   "type": "Climax",
+   "rarity": "CC",
+   "color": "blue",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[gate.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[gate.gif]]：このカードがトリガーした時、あなたは自分の控え室のクライマックスを1枚選び、手札に戻してよい）\n\"お願い、手伝って！<br>あいつ、やっつける！\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/p5_s45/p5_s45_100.png",
+   "variant": ""
+  },
+  {
+   "num": "P5/S45-100R",
+   "name": "許す、もんかっ！",
+   "type": "Climax",
+   "rarity": "RRR",
+   "color": "blue",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[gate.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[gate.gif]]：このカードがトリガーした時、あなたは自分の控え室のクライマックスを1枚選び、手札に戻してよい）\n\"お願い、手伝って！<br>あいつ、やっつける！\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/p5_s45/p5_s45_100r.png",
+   "variant": ""
+  },
+  {
+   "num": "P5/S45-101",
+   "name": "心の怪盗団 主人公 / JOKER",
+   "type": "Character",
+   "rarity": "PR",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 あなたがこのカードの『助太刀』を使った時、あなたは自分のバトル中のキャラを1枚選び、そのターン中、次の能力を与える。『【自】 このカードのバトル相手が【リバース】した時、あなたはそのキャラを思い出にする。』\n【起】【カウンター】 助太刀3000 レベル2 ［(1) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋3000）\n\"あなたの心を頂こう！\"",
+   "traits": [
+    "怪盗"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/p5_s45/p5_s45_101.png",
+   "variant": ""
+  },
+  {
+   "num": "P5/S45-102",
+   "name": "心の怪盗団 竜司",
+   "type": "Character",
+   "rarity": "PR",
+   "color": "yellow",
+   "level": "1",
+   "cost": "1",
+   "power": "6000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、そのターン中、このカードのパワーを＋1500。\n【自】 アンコール ［手札のキャラを1枚控え室に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"お前の心いただくぜ！\"",
+   "traits": [
+    "怪盗",
+    "スポーツ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/p5_s45/p5_s45_102.png",
+   "variant": ""
+  },
+  {
+   "num": "P5/S45-103",
+   "name": "心の怪盗団 杏",
+   "type": "Character",
+   "rarity": "PR",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードがアタックした時、あなたは自分の山札の上から1枚を公開する。そのカードが《怪盗》のキャラなら手札に加え、あなたは自分の手札を1枚選び、控え室に置く。（そうでないなら元に戻す）\n\"あんたの心、頂くね！\"",
+   "traits": [
+    "怪盗"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/p5_s45/p5_s45_103.png",
+   "variant": ""
+  },
+  {
+   "num": "P5/S45-104",
+   "name": "心の怪盗団 モルガナ / MONA",
+   "type": "Character",
+   "rarity": "PR",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【起】［あなたの《怪盗》のキャラを2枚【レスト】する］ あなたは自分のキャラを1枚選び、そのターン中、パワーを＋2000。\n\"あなたの心を頂戴する！\"",
+   "traits": [
+    "怪盗"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/p5_s45/p5_s45_104.png",
+   "variant": ""
+  },
+  {
+   "num": "P5/S45-105",
+   "name": "心の怪盗団 祐介",
+   "type": "Character",
+   "rarity": "PR",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 相手のターン中、他のあなたの《怪盗》のキャラ1枚につき、このカードのパワーを＋500。\n【自】［あなたの前列の【スタンド】しているキャラを1枚とこのカードを入れ替える］ あなたのターン中、このカードのバトル相手が【リバース】した時、あなたはコストを払ってよい。そうしたら、あなたは1枚引き、自分の手札を1枚選び、控え室に置く。\n\"あなたの心を頂く！\"",
+   "traits": [
+    "怪盗"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/p5_s45/p5_s45_105.png",
+   "variant": ""
+  },
+  {
+   "num": "P5/S45-106",
+   "name": "心の怪盗団 真",
+   "type": "Character",
+   "rarity": "PR",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 相手のクライマックスがクライマックス置場に置かれた時、このカードを控え室に置く。\n\"あなたの心を頂くわ！\"",
+   "traits": [
+    "怪盗",
+    "生徒会"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/p5_s45/p5_s45_106.png",
+   "variant": ""
+  },
+  {
+   "num": "P5/S45-107",
+   "name": "心の怪盗団 双葉",
+   "type": "Character",
+   "rarity": "PR",
+   "color": "blue",
+   "level": "1",
+   "cost": "1",
+   "power": "6000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの《怪盗》のキャラが2枚以上なら、このカードのパワーを＋1000。\n【自】 アンコール ［あなたの山札の上から1枚をクロック置場に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"お前の心を頂くぞ！\"",
+   "traits": [
+    "怪盗",
+    "ネット"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/p5_s45/p5_s45_107.png",
+   "variant": ""
+  },
+  {
+   "num": "P5/S45-108",
+   "name": "心の怪盗団 春",
+   "type": "Character",
+   "rarity": "PR",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【起】【カウンター】 助太刀1500 レベル1 ［手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋1500）\n\"あなたの心を、頂きます！\"",
+   "traits": [
+    "怪盗",
+    "令嬢"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/p5_s45/p5_s45_108.png",
+   "variant": ""
+  }
+ ]
+}

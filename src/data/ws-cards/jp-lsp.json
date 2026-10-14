@@ -1,0 +1,497 @@
+{
+ "id": "jp-lsp",
+ "name": "[TD+]ラブライブ！スーパースター!!",
+ "expansion": 349,
+ "lang": "jp",
+ "release": null,
+ "shopItem": null,
+ "box": null,
+ "cards": [
+  {
+   "num": "LSP/W92-T01",
+   "name": "スクールアイドル 嵐 千砂都",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの「スクールアイドル 澁谷 かのん」すべてに、パワーを＋1000。\n【自】 絆／「スクールアイドル 澁谷 かのん」 ［(1)］ （このカードがプレイされて舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「スクールアイドル 澁谷 かのん」を1枚選び、手札に戻す）\n\"-\"",
+   "traits": [
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lsp_w92/lsp_w92_t01.png",
+   "variant": ""
+  },
+  {
+   "num": "LSP/W92-T02",
+   "name": "澁谷 かのん",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードがアタックした時、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋1000。\n【自】［手札を1枚控え室に置く］ このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を上から4枚まで見て、レベル1以上のカードを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。（クライマックスのレベルは0として扱う）\n\"普通な私だからこそ出来ることがあるんじゃないかと思って\"",
+   "traits": [
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lsp_w92/lsp_w92_t02.png",
+   "variant": ""
+  },
+  {
+   "num": "LSP/W92-T02S",
+   "name": "澁谷 かのん",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードがアタックした時、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋1000。\n【自】［手札を1枚控え室に置く］ このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を上から4枚まで見て、レベル1以上のカードを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。（クライマックスのレベルは0として扱う）\n\"-\"",
+   "traits": [
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lsp_w92/lsp_w92_t02s.png",
+   "variant": ""
+  },
+  {
+   "num": "LSP/W92-T02SP",
+   "name": "澁谷 かのん",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードがアタックした時、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋1000。\n【自】［手札を1枚控え室に置く］ このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を上から4枚まで見て、レベル1以上のカードを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。（クライマックスのレベルは0として扱う）\n\"-\"",
+   "traits": [
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lsp_w92/lsp_w92_t02sp.png",
+   "variant": ""
+  },
+  {
+   "num": "LSP/W92-T03",
+   "name": "嵐 千砂都",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 他のあなたの《音楽》のキャラかこのカードが手札から舞台に置かれた時、あなたは自分の山札を上から1枚見てよい。（見たカードは元に戻す）\n【起】［このカードを【レスト】する］ あなたは自分の《音楽》のキャラを1枚選び、そのターン中、パワーを＋1500。\n\"ういっすういっすういっすー！\"",
+   "traits": [
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lsp_w92/lsp_w92_t03.png",
+   "variant": ""
+  },
+  {
+   "num": "LSP/W92-T03R",
+   "name": "嵐 千砂都",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 他のあなたの《音楽》のキャラかこのカードが手札から舞台に置かれた時、あなたは自分の山札を上から1枚見てよい。（見たカードは元に戻す）\n【起】［このカードを【レスト】する］ あなたは自分の《音楽》のキャラを1枚選び、そのターン中、パワーを＋1500。\n\"-\"",
+   "traits": [
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lsp_w92/lsp_w92_t03r.png",
+   "variant": ""
+  },
+  {
+   "num": "LSP/W92-T04",
+   "name": "スクールアイドル 平安名 すみれ",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 相手のキャラすべてに、『【自】 アンコール ［(2)］』を与える。\n\"-\"",
+   "traits": [
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lsp_w92/lsp_w92_t04.png",
+   "variant": ""
+  },
+  {
+   "num": "LSP/W92-T05",
+   "name": "平安名 すみれ",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、そのターン中、このカードのパワーを＋1500。\n【自】 このカードのバトル相手が【リバース】した時、あなたのストックが3枚以下なら、あなたはそのキャラを山札の上に置いてよい。\n\"カリスマギャラクシースクールアイドル\"",
+   "traits": [
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lsp_w92/lsp_w92_t05.png",
+   "variant": ""
+  },
+  {
+   "num": "LSP/W92-T05R",
+   "name": "平安名 すみれ",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、そのターン中、このカードのパワーを＋1500。\n【自】 このカードのバトル相手が【リバース】した時、あなたのストックが3枚以下なら、あなたはそのキャラを山札の上に置いてよい。\n\"-\"",
+   "traits": [
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lsp_w92/lsp_w92_t05r.png",
+   "variant": ""
+  },
+  {
+   "num": "LSP/W92-T06",
+   "name": "1年生 嵐 千砂都",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは他の自分の《音楽》のキャラを1枚選び、そのターン中、パワーを＋2000。\n\"-\"",
+   "traits": [
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lsp_w92/lsp_w92_t06.png",
+   "variant": ""
+  },
+  {
+   "num": "LSP/W92-T07",
+   "name": "スクールアイドル 澁谷 かのん",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "5500",
+   "soul": 1,
+   "trigger": "",
+   "text": "-\n\"-\"",
+   "traits": [
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lsp_w92/lsp_w92_t07.png",
+   "variant": ""
+  },
+  {
+   "num": "LSP/W92-T08",
+   "name": "1年生 平安名 すみれ",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたのターン中、このカードのパワーを＋10000。\n\"-\"",
+   "traits": [
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lsp_w92/lsp_w92_t08.png",
+   "variant": ""
+  },
+  {
+   "num": "LSP/W92-T09",
+   "name": "1年生 澁谷 かのん",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "red",
+   "level": "2",
+   "cost": "2",
+   "power": "7000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 他のあなたの《音楽》のキャラがアタックした時、そのターン中、このカードのパワーを＋2000。\n【自】 アンコール ［手札の《音楽》のキャラを1枚控え室に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"-\"",
+   "traits": [
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lsp_w92/lsp_w92_t09.png",
+   "variant": ""
+  },
+  {
+   "num": "LSP/W92-T10",
+   "name": "Liella!",
+   "type": "Event",
+   "rarity": "TD",
+   "color": "red",
+   "level": "2",
+   "cost": "2",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "あなたは自分の控え室のキャラを2枚まで選び、手札に戻す。\n\"-\"",
+   "traits": [
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lsp_w92/lsp_w92_t10.png",
+   "variant": ""
+  },
+  {
+   "num": "LSP/W92-T11",
+   "name": "はばたけ！私たちのラブライブ！",
+   "type": "Climax",
+   "rarity": "TD",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[salvage.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[salvage.gif]]：このカードがトリガーした時、あなたは自分の控え室のキャラを1枚選び、手札に戻してよい）\n\"-\"",
+   "traits": [
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lsp_w92/lsp_w92_t11.png",
+   "variant": ""
+  },
+  {
+   "num": "LSP/W92-T12",
+   "name": "無限の可能性を持つ彼女たち",
+   "type": "Climax",
+   "rarity": "TD",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【永】 あなたのキャラすべてに、ソウルを＋2。\n\"-\"",
+   "traits": [
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lsp_w92/lsp_w92_t12.png",
+   "variant": ""
+  },
+  {
+   "num": "LSP/W92-T13",
+   "name": "スクールアイドル 葉月 恋",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(2)］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見て《音楽》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n【起】 集中 ［(1) このカードを【レスト】する］ あなたは自分の山札の上から4枚をめくり、控え室に置く。それらのカードのクライマックス1枚につき、あなたは1枚まで引く。\n\"-\"",
+   "traits": [
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lsp_w92/lsp_w92_t13.png",
+   "variant": ""
+  },
+  {
+   "num": "LSP/W92-T14",
+   "name": "スクールアイドル 唐 可可",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 このカードはサイドアタックできない。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から2枚を、控え室に置き、そのターン中、このカードのパワーを＋Ｘ。Ｘはそれらのカードの《音楽》のキャラの枚数×1000に等しい。\n\"-\"",
+   "traits": [
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lsp_w92/lsp_w92_t14.png",
+   "variant": ""
+  },
+  {
+   "num": "LSP/W92-T15",
+   "name": "スクールアイドル",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "1",
+   "cost": "1",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【起】【カウンター】 助太刀2500 レベル1 ［(1) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋2500）\n\"-\"",
+   "traits": [
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lsp_w92/lsp_w92_t15.png",
+   "variant": ""
+  },
+  {
+   "num": "LSP/W92-T16",
+   "name": "1年生 葉月 恋",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "1",
+   "cost": "1",
+   "power": "5500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのキャラすべてが《音楽》なら、このカードのパワーを＋2000。\n【自】 アンコール ［あなたの山札の上から1枚をクロック置場に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"-\"",
+   "traits": [
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lsp_w92/lsp_w92_t16.png",
+   "variant": ""
+  },
+  {
+   "num": "LSP/W92-T17",
+   "name": "1年生 唐 可可",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋Ｘ。Ｘはそのキャラのレベル×500に等しい。\n【起】［このカードを【レスト】する］ あなたは1枚引き、自分の手札を1枚選び、控え室に置く。\n\"-\"",
+   "traits": [
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lsp_w92/lsp_w92_t17.png",
+   "variant": ""
+  },
+  {
+   "num": "LSP/W92-T18",
+   "name": "葉月 恋",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "3",
+   "cost": "2",
+   "power": "9500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札を上から3枚まで見て、山札の上に好きな順番で置き、相手のキャラを1枚まで選び、手札に戻す。\n【起】［(1)］ あなたは自分の《音楽》のキャラを1枚選び、そのターン中、ソウルを＋1。\n\"これは希望ではありません、必ずなしとげる義務です\"",
+   "traits": [
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lsp_w92/lsp_w92_t18.png",
+   "variant": ""
+  },
+  {
+   "num": "LSP/W92-T18R",
+   "name": "葉月 恋",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "blue",
+   "level": "3",
+   "cost": "2",
+   "power": "9500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札を上から3枚まで見て、山札の上に好きな順番で置き、相手のキャラを1枚まで選び、手札に戻す。\n【起】［(1)］ あなたは自分の《音楽》のキャラを1枚選び、そのターン中、ソウルを＋1。\n\"-\"",
+   "traits": [
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lsp_w92/lsp_w92_t18r.png",
+   "variant": ""
+  },
+  {
+   "num": "LSP/W92-T19",
+   "name": "唐 可可",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n【自】【CXコンボ】 このカードがアタックした時、クライマックス置場に「私立結ヶ丘女子高等学校1年生」があるなら、あなたは相手の山札の下から4枚を、控え室に置き、相手にＸダメージを与える。Ｘはそれらのカードのクライマックスの枚数に等しい。（ダメージキャンセルは発生する）\n\"クゥクゥと寝ている場合じゃないのデス！\"",
+   "traits": [
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lsp_w92/lsp_w92_t19.png",
+   "variant": ""
+  },
+  {
+   "num": "LSP/W92-T19R",
+   "name": "唐 可可",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "blue",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n【自】【CXコンボ】 このカードがアタックした時、クライマックス置場に「私立結ヶ丘女子高等学校1年生」があるなら、あなたは相手の山札の下から4枚を、控え室に置き、相手にＸダメージを与える。Ｘはそれらのカードのクライマックスの枚数に等しい。（ダメージキャンセルは発生する）\n\"-\"",
+   "traits": [
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lsp_w92/lsp_w92_t19r.png",
+   "variant": ""
+  },
+  {
+   "num": "LSP/W92-T20",
+   "name": "私立結ヶ丘女子高等学校1年生",
+   "type": "Climax",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[gate.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[gate.gif]]：このカードがトリガーした時、あなたは自分の控え室のクライマックスを1枚選び、手札に戻してよい）\n\"-\"",
+   "traits": [
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lsp_w92/lsp_w92_t20.png",
+   "variant": ""
+  },
+  {
+   "num": "LSP/W92-T20S",
+   "name": "私立結ヶ丘女子高等学校1年生",
+   "type": "Climax",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[gate.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[gate.gif]]：このカードがトリガーした時、あなたは自分の控え室のクライマックスを1枚選び、手札に戻してよい）\n\"-\"",
+   "traits": [
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lsp_w92/lsp_w92_t20s.png",
+   "variant": ""
+  }
+ ]
+}

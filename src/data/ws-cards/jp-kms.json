@@ -1,0 +1,849 @@
+{
+ "id": "jp-kms",
+ "name": "[TD]きんいろモザイク 15th Anniversary",
+ "expansion": 533,
+ "lang": "jp",
+ "release": null,
+ "shopItem": null,
+ "box": null,
+ "cards": [
+  {
+   "num": "KMS/W133-T01",
+   "name": "満面の笑み カレン",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1)］ あなたのアンコールステップの始めに、CX置場にCXがあるなら、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「宝物の毎日」を1枚選び、手札に戻す。\n【起】【CXコンボ】 集中 ［(1) このカードを【レスト】する］ あなたは自分の山札の上から5枚をめくり、控え室に置く。それらのカードの「大切な日」か「思い出の1ページ」か「そわそわダンス」1枚につき、あなたは1枚まで引く。\n\"久世橋先生「九条さん、いい笑顔！ 私も何か応えないと……っ」\"",
+   "traits": [
+    "きんいろ",
+    "金髪"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kms_w133/kms_w133_t01.png",
+   "variant": ""
+  },
+  {
+   "num": "KMS/W133-T01R",
+   "name": "満面の笑み カレン",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1)］ あなたのアンコールステップの始めに、CX置場にCXがあるなら、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「宝物の毎日」を1枚選び、手札に戻す。\n【起】【CXコンボ】 集中 ［(1) このカードを【レスト】する］ あなたは自分の山札の上から5枚をめくり、控え室に置く。それらのカードの「大切な日」か「思い出の1ページ」か「そわそわダンス」1枚につき、あなたは1枚まで引く。\n\"-\"",
+   "traits": [
+    "きんいろ",
+    "金髪"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kms_w133/kms_w133_t01r.png",
+   "variant": ""
+  },
+  {
+   "num": "KMS/W133-T02",
+   "name": "看板娘 穂乃花",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時かアタックした時、あなたは自分の《きんいろ》のキャラを1枚選び、そのターン中、パワーを＋1500。\n\"イ、イラッシャイマセ～\"",
+   "traits": [
+    "きんいろ",
+    "テニス部"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kms_w133/kms_w133_t02.png",
+   "variant": ""
+  },
+  {
+   "num": "KMS/W133-T02R",
+   "name": "看板娘 穂乃花",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時かアタックした時、あなたは自分の《きんいろ》のキャラを1枚選び、そのターン中、パワーを＋1500。\n\"-\"",
+   "traits": [
+    "きんいろ",
+    "テニス部"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kms_w133/kms_w133_t02r.png",
+   "variant": ""
+  },
+  {
+   "num": "KMS/W133-T03",
+   "name": "シノからの贈り物 アリス",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1) 手札のCXを1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室のCXを1枚選び、手札に戻す。\n【自】 記憶 思い出置場にこのカードがあるなら、あなたの、メインフェイズの始めかCXフェイズの始めに、あなたは自分の手札の《きんいろ》のキャラを1枚とこのカードを選び、入れ替えてよい。\n\"花嫁さんのベール！ シノが作ってくれたんだ～\"",
+   "traits": [
+    "きんいろ",
+    "金髪"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kms_w133/kms_w133_t03.png",
+   "variant": ""
+  },
+  {
+   "num": "KMS/W133-T03R",
+   "name": "シノからの贈り物 アリス",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1) 手札のCXを1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室のCXを1枚選び、手札に戻す。\n【自】 記憶 思い出置場にこのカードがあるなら、あなたの、メインフェイズの始めかCXフェイズの始めに、あなたは自分の手札の《きんいろ》のキャラを1枚とこのカードを選び、入れ替えてよい。\n\"-\"",
+   "traits": [
+    "きんいろ",
+    "金髪"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kms_w133/kms_w133_t03r.png",
+   "variant": ""
+  },
+  {
+   "num": "KMS/W133-T03SP",
+   "name": "シノからの贈り物 アリス",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1) 手札のCXを1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室のCXを1枚選び、手札に戻す。\n【自】 記憶 思い出置場にこのカードがあるなら、あなたの、メインフェイズの始めかCXフェイズの始めに、あなたは自分の手札の《きんいろ》のキャラを1枚とこのカードを選び、入れ替えてよい。\n\"-\"",
+   "traits": [
+    "きんいろ",
+    "金髪"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kms_w133/kms_w133_t03sp.png",
+   "variant": ""
+  },
+  {
+   "num": "KMS/W133-T04",
+   "name": "選んだ未来 アリス",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたのターン中、他のあなたの《きんいろ》のキャラ1枚につき、このカードのパワーを＋1000。\n【自】【CXコンボ】 あなたのCX置場に「大切な日」が置かれた時、前列にこのカードがいて、他のあなたの《きんいろ》のキャラがいるなら、あなたは自分の控え室の、「選んだ未来 アリス」か「宝物の毎日」を1枚選び、手札に戻してよい。\n\"-\"",
+   "traits": [
+    "きんいろ",
+    "金髪"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kms_w133/kms_w133_t04.png",
+   "variant": ""
+  },
+  {
+   "num": "KMS/W133-T04R",
+   "name": "選んだ未来 アリス",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたのターン中、他のあなたの《きんいろ》のキャラ1枚につき、このカードのパワーを＋1000。\n【自】【CXコンボ】 あなたのCX置場に「大切な日」が置かれた時、前列にこのカードがいて、他のあなたの《きんいろ》のキャラがいるなら、あなたは自分の控え室の、「選んだ未来 アリス」か「宝物の毎日」を1枚選び、手札に戻してよい。\n\"-\"",
+   "traits": [
+    "きんいろ",
+    "金髪"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kms_w133/kms_w133_t04r.png",
+   "variant": ""
+  },
+  {
+   "num": "KMS/W133-T05",
+   "name": "大荷物 アリス",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋Ｘ。Ｘはそのキャラのレベル×500に等しい。\n【起】［このカードを【レスト】する］ あなたは1枚引き、自分の手札を1枚選び、控え室に置く。\n\"うんっ\"",
+   "traits": [
+    "きんいろ",
+    "金髪"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kms_w133/kms_w133_t05.png",
+   "variant": ""
+  },
+  {
+   "num": "KMS/W133-T05R",
+   "name": "大荷物 アリス",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋Ｘ。Ｘはそのキャラのレベル×500に等しい。\n【起】［このカードを【レスト】する］ あなたは1枚引き、自分の手札を1枚選び、控え室に置く。\n\"わーんっ！ わたしのバイブルがー!!\"",
+   "traits": [
+    "きんいろ",
+    "金髪"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kms_w133/kms_w133_t05r.png",
+   "variant": ""
+  },
+  {
+   "num": "KMS/W133-T06",
+   "name": "高校最後のサマーバケーション カレン",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "yellow",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n【自】 記憶 ［(1) 手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたの思い出が2枚以上なら、あなたはコストを払ってよい。そうしたら、あなたは自分のクロックの上から1枚を、控え室に置き、そのターン中、このカードのパワーを＋1500。\n\"サマーバケーションもやってきマスし、高校最後の夏も思い切り楽しむデス！\"",
+   "traits": [
+    "きんいろ",
+    "金髪"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kms_w133/kms_w133_t06.png",
+   "variant": ""
+  },
+  {
+   "num": "KMS/W133-T06R",
+   "name": "高校最後のサマーバケーション カレン",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "yellow",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n【自】 記憶 ［(1) 手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたの思い出が2枚以上なら、あなたはコストを払ってよい。そうしたら、あなたは自分のクロックの上から1枚を、控え室に置き、そのターン中、このカードのパワーを＋1500。\n\"-\"",
+   "traits": [
+    "きんいろ",
+    "金髪"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kms_w133/kms_w133_t06r.png",
+   "variant": ""
+  },
+  {
+   "num": "KMS/W133-T06SP",
+   "name": "高校最後のサマーバケーション カレン",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "yellow",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n【自】 記憶 ［(1) 手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたの思い出が2枚以上なら、あなたはコストを払ってよい。そうしたら、あなたは自分のクロックの上から1枚を、控え室に置き、そのターン中、このカードのパワーを＋1500。\n\"-\"",
+   "traits": [
+    "きんいろ",
+    "金髪"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kms_w133/kms_w133_t06sp.png",
+   "variant": ""
+  },
+  {
+   "num": "KMS/W133-T07",
+   "name": "宝物の毎日",
+   "type": "Event",
+   "rarity": "TD",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "このカードは、あなたの《きんいろ》のキャラがいないなら、手札からプレイできない。あなたは自分の山札を上から3枚まで見て、《きんいろ》のキャラを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置き、あなたの思い出が2枚以下なら、あなたは自分の控え室の、「新たな目覚め 忍」か「シノからの贈り物 アリス」を1枚まで選び、思い出にする。\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kms_w133/kms_w133_t07.png",
+   "variant": ""
+  },
+  {
+   "num": "KMS/W133-T07R",
+   "name": "宝物の毎日",
+   "type": "Event",
+   "rarity": "RRR",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "このカードは、あなたの《きんいろ》のキャラがいないなら、手札からプレイできない。あなたは自分の山札を上から3枚まで見て、《きんいろ》のキャラを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置き、あなたの思い出が2枚以下なら、あなたは自分の控え室の、「新たな目覚め 忍」か「シノからの贈り物 アリス」を1枚まで選び、思い出にする。\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kms_w133/kms_w133_t07r.png",
+   "variant": ""
+  },
+  {
+   "num": "KMS/W133-T07S",
+   "name": "宝物の毎日",
+   "type": "Event",
+   "rarity": "SR",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "このカードは、あなたの《きんいろ》のキャラがいないなら、手札からプレイできない。あなたは自分の山札を上から3枚まで見て、《きんいろ》のキャラを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置き、あなたの思い出が2枚以下なら、あなたは自分の控え室の、「新たな目覚め 忍」か「シノからの贈り物 アリス」を1枚まで選び、思い出にする。\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kms_w133/kms_w133_t07s.png",
+   "variant": ""
+  },
+  {
+   "num": "KMS/W133-T08",
+   "name": "大切な日",
+   "type": "Climax",
+   "rarity": "TD",
+   "color": "yellow",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[bounce.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[bounce.gif]]：このカードがトリガーした時、あなたは相手のキャラを1枚選び、手札に戻してよい）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kms_w133/kms_w133_t08.png",
+   "variant": ""
+  },
+  {
+   "num": "KMS/W133-T08R",
+   "name": "大切な日",
+   "type": "Climax",
+   "rarity": "RRR",
+   "color": "yellow",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[bounce.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[bounce.gif]]：このカードがトリガーした時、あなたは相手のキャラを1枚選び、手札に戻してよい）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kms_w133/kms_w133_t08r.png",
+   "variant": ""
+  },
+  {
+   "num": "KMS/W133-T09",
+   "name": "不意打ちのワンショット 綾",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 絆／「不意打ちのワンショット 陽子」 ［手札を1枚控え室に置く］ （このカードが、手札から舞台またはプレイされて舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「不意打ちのワンショット 陽子」を1枚選び、手札に戻す）\n【起】［このカードを【レスト】する］ あなたは自分の「不意打ちのワンショット 陽子」を1枚選び、そのターン中、パワーを＋2500し、次の能力を与える。『【自】 このカードがアタックした時、あなたは自分の山札を上から1枚見て、山札の上か控え室に置く。この効果で控え室に置かれたカードが「不意打ちのワンショット 綾」か「不意打ちのワンショット 陽子」ならストック置場の下に置く。』\n\"-\"",
+   "traits": [
+    "きんいろ",
+    "ツンデレ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kms_w133/kms_w133_t09.png",
+   "variant": ""
+  },
+  {
+   "num": "KMS/W133-T09R",
+   "name": "不意打ちのワンショット 綾",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 絆／「不意打ちのワンショット 陽子」 ［手札を1枚控え室に置く］ （このカードが、手札から舞台またはプレイされて舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「不意打ちのワンショット 陽子」を1枚選び、手札に戻す）\n【起】［このカードを【レスト】する］ あなたは自分の「不意打ちのワンショット 陽子」を1枚選び、そのターン中、パワーを＋2500し、次の能力を与える。『【自】 このカードがアタックした時、あなたは自分の山札を上から1枚見て、山札の上か控え室に置く。この効果で控え室に置かれたカードが「不意打ちのワンショット 綾」か「不意打ちのワンショット 陽子」ならストック置場の下に置く。』\n\"-\"",
+   "traits": [
+    "きんいろ",
+    "ツンデレ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kms_w133/kms_w133_t09r.png",
+   "variant": ""
+  },
+  {
+   "num": "KMS/W133-T10",
+   "name": "2-A担任 久世橋先生",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋500。\n【自】［(1) このカードを思い出にする］ 他のあなたの《きんいろ》のキャラが舞台から控え室に置かれた時、後列にこのカードがいるなら、あなたはコストを払ってよい。そうしたら、そのキャラをそのキャラがいた枠に【レスト】して置き、そのターンの次のターンの終わりまで、パワーを＋2000。\n\"それでは、ホームルームを始めます\"",
+   "traits": [
+    "きんいろ",
+    "先生"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kms_w133/kms_w133_t10.png",
+   "variant": ""
+  },
+  {
+   "num": "KMS/W133-T10R",
+   "name": "2-A担任 久世橋先生",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋500。\n【自】［(1) このカードを思い出にする］ 他のあなたの《きんいろ》のキャラが舞台から控え室に置かれた時、後列にこのカードがいるなら、あなたはコストを払ってよい。そうしたら、そのキャラをそのキャラがいた枠に【レスト】して置き、そのターンの次のターンの終わりまで、パワーを＋2000。\n\"-\"",
+   "traits": [
+    "きんいろ",
+    "先生"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kms_w133/kms_w133_t10r.png",
+   "variant": ""
+  },
+  {
+   "num": "KMS/W133-T11",
+   "name": "好きなもの 忍",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 相手のキャラすべてに、『【自】 アンコール ［(2)］』を与える。\n\"きゃああっ！ カレン！ どうして欲しい物が分かったんですか!? エスパーみたいです！\"",
+   "traits": [
+    "きんいろ",
+    "純和風"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kms_w133/kms_w133_t11.png",
+   "variant": ""
+  },
+  {
+   "num": "KMS/W133-T11R",
+   "name": "好きなもの 忍",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 相手のキャラすべてに、『【自】 アンコール ［(2)］』を与える。\n\"アリスはアリス、カレンはカレンです。みんな違って、みんな良いんです\"",
+   "traits": [
+    "きんいろ",
+    "純和風"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kms_w133/kms_w133_t11r.png",
+   "variant": ""
+  },
+  {
+   "num": "KMS/W133-T12",
+   "name": "パーティのために 忍",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 他のあなたの《きんいろ》のキャラがアタックした時、そのターン中、このカードのパワーを＋Ｘ。Ｘは他のあなたの《きんいろ》のキャラの枚数×500に等しい。\n【自】【クロック】 アラーム このカードがクロックの1番上にあり、あなたのレベルが1以上なら、あなたのCXフェイズの始めに、あなたは自分のキャラを1枚とこのカードを選び、入れ替えてよい。\n\"欲望には忠実に！ 私このお茶会に人生賭けてるんです！\"",
+   "traits": [
+    "きんいろ",
+    "純和風"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kms_w133/kms_w133_t12.png",
+   "variant": ""
+  },
+  {
+   "num": "KMS/W133-T12R",
+   "name": "パーティのために 忍",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 他のあなたの《きんいろ》のキャラがアタックした時、そのターン中、このカードのパワーを＋Ｘ。Ｘは他のあなたの《きんいろ》のキャラの枚数×500に等しい。\n【自】【クロック】 アラーム このカードがクロックの1番上にあり、あなたのレベルが1以上なら、あなたのCXフェイズの始めに、あなたは自分のキャラを1枚とこのカードを選び、入れ替えてよい。\n\"-\"",
+   "traits": [
+    "きんいろ",
+    "純和風"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kms_w133/kms_w133_t12r.png",
+   "variant": ""
+  },
+  {
+   "num": "KMS/W133-T13",
+   "name": "不意打ちのワンショット 陽子",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "5500",
+   "soul": 1,
+   "trigger": "",
+   "text": "-\n\"-\"",
+   "traits": [
+    "きんいろ",
+    "大食い"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kms_w133/kms_w133_t13.png",
+   "variant": ""
+  },
+  {
+   "num": "KMS/W133-T13R",
+   "name": "不意打ちのワンショット 陽子",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "5500",
+   "soul": 1,
+   "trigger": "",
+   "text": "-\n\"-\"",
+   "traits": [
+    "きんいろ",
+    "大食い"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kms_w133/kms_w133_t13r.png",
+   "variant": ""
+  },
+  {
+   "num": "KMS/W133-T14",
+   "name": "2-C担任 烏丸先生",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "green",
+   "level": "1",
+   "cost": "1",
+   "power": "500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 あなたがこのカードの『助太刀』を使った時、あなたは自分の山札の上から1枚を公開する。そのカードが《きんいろ》のキャラか「宝物の毎日」なら手札に加え、あなたは自分の手札を1枚選び、控え室に置く。（そうでないなら元に戻す）\n【起】【カウンター】 助太刀2000 レベル1 ［(1) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋2000）\n\"-\"",
+   "traits": [
+    "きんいろ",
+    "先生"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kms_w133/kms_w133_t14.png",
+   "variant": ""
+  },
+  {
+   "num": "KMS/W133-T14R",
+   "name": "2-C担任 烏丸先生",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "green",
+   "level": "1",
+   "cost": "1",
+   "power": "500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 あなたがこのカードの『助太刀』を使った時、あなたは自分の山札の上から1枚を公開する。そのカードが《きんいろ》のキャラか「宝物の毎日」なら手札に加え、あなたは自分の手札を1枚選び、控え室に置く。（そうでないなら元に戻す）\n【起】【カウンター】 助太刀2000 レベル1 ［(1) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋2000）\n\"-\"",
+   "traits": [
+    "きんいろ",
+    "先生"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kms_w133/kms_w133_t14r.png",
+   "variant": ""
+  },
+  {
+   "num": "KMS/W133-T15",
+   "name": "太っ腹 勇",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "green",
+   "level": "1",
+   "cost": "1",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたのターン中、他のあなたの《きんいろ》のキャラが2枚以上なら、このカードのパワーを＋3500し、このカードは次の2つの能力を得る。『【自】 このカードがアタックした時、このカードの正面のキャラのコストが2以上なら、そのターン中、このカードのパワーを＋4000。』『【自】 このカードのバトル相手が【リバース】した時、あなたは相手のクロックの上から1枚を、控え室に置いてよい。そうしたら、あなたはそのキャラをクロック置場に置く。』\n\"あら、お出かけ？\"",
+   "traits": [
+    "きんいろ",
+    "モデル"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kms_w133/kms_w133_t15.png",
+   "variant": ""
+  },
+  {
+   "num": "KMS/W133-T15R",
+   "name": "太っ腹 勇",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "green",
+   "level": "1",
+   "cost": "1",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたのターン中、他のあなたの《きんいろ》のキャラが2枚以上なら、このカードのパワーを＋3500し、このカードは次の2つの能力を得る。『【自】 このカードがアタックした時、このカードの正面のキャラのコストが2以上なら、そのターン中、このカードのパワーを＋4000。』『【自】 このカードのバトル相手が【リバース】した時、あなたは相手のクロックの上から1枚を、控え室に置いてよい。そうしたら、あなたはそのキャラをクロック置場に置く。』\n\"じゃあ、帰りにアイス買ってきてくれない？ みんなも好きなの選んでいいわよ\"",
+   "traits": [
+    "きんいろ",
+    "モデル"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kms_w133/kms_w133_t15r.png",
+   "variant": ""
+  },
+  {
+   "num": "KMS/W133-T16",
+   "name": "感じ取る変化 陽子",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "green",
+   "level": "2",
+   "cost": "1",
+   "power": "5000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、そのターン中、このカードのパワーを＋6000。\n【自】［他のあなたの【スタンド】している《きんいろ》のキャラを1枚【レスト】する］ このカードが手札から舞台に置かれたターン中、このカードのバトル相手が【リバース】した時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の《きんいろ》のキャラを1枚選び、ストック置場の下に置く。\n\"綾「近いわ！」<br>忍「あれ？ あんまり変わってないかもです…… 」\"",
+   "traits": [
+    "きんいろ",
+    "大食い"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kms_w133/kms_w133_t16.png",
+   "variant": ""
+  },
+  {
+   "num": "KMS/W133-T16R",
+   "name": "感じ取る変化 陽子",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "green",
+   "level": "2",
+   "cost": "1",
+   "power": "5000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、そのターン中、このカードのパワーを＋6000。\n【自】［他のあなたの【スタンド】している《きんいろ》のキャラを1枚【レスト】する］ このカードが手札から舞台に置かれたターン中、このカードのバトル相手が【リバース】した時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の《きんいろ》のキャラを1枚選び、ストック置場の下に置く。\n\"-\"",
+   "traits": [
+    "きんいろ",
+    "大食い"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kms_w133/kms_w133_t16r.png",
+   "variant": ""
+  },
+  {
+   "num": "KMS/W133-T16SP",
+   "name": "感じ取る変化 陽子",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "green",
+   "level": "2",
+   "cost": "1",
+   "power": "5000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、そのターン中、このカードのパワーを＋6000。\n【自】［他のあなたの【スタンド】している《きんいろ》のキャラを1枚【レスト】する］ このカードが手札から舞台に置かれたターン中、このカードのバトル相手が【リバース】した時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の《きんいろ》のキャラを1枚選び、ストック置場の下に置く。\n\"-\"",
+   "traits": [
+    "きんいろ",
+    "大食い"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kms_w133/kms_w133_t16sp.png",
+   "variant": ""
+  },
+  {
+   "num": "KMS/W133-T17",
+   "name": "新たな目覚め 忍",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "green",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】【CXコンボ】［(2) 手札を2枚控え室に置く］ このカードがアタックした時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札の上から9枚を公開し、その山札をシャッフルし、相手にＸダメージを与える。Ｘはそれらのカードの、「大切な日」か「思い出の1ページ」か「そわそわダンス」の合計に等しい。（ダメージキャンセルは発生する。公開したカードは元に戻す）\n【自】【CXコンボ】 記憶 思い出置場にこのカードがあり、あなたのレベルが3以上なら、あなたのCX置場に「思い出の1ページ」が置かれた時、あなたはこのカードを舞台のキャラのいない枠に置いてよい。\n\"弱ってるカレンも美しい……何かに目覚めそうですね\"",
+   "traits": [
+    "きんいろ",
+    "純和風"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kms_w133/kms_w133_t17.png",
+   "variant": ""
+  },
+  {
+   "num": "KMS/W133-T17R",
+   "name": "新たな目覚め 忍",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "green",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】【CXコンボ】［(2) 手札を2枚控え室に置く］ このカードがアタックした時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札の上から9枚を公開し、その山札をシャッフルし、相手にＸダメージを与える。Ｘはそれらのカードの、「大切な日」か「思い出の1ページ」か「そわそわダンス」の合計に等しい。（ダメージキャンセルは発生する。公開したカードは元に戻す）\n【自】【CXコンボ】 記憶 思い出置場にこのカードがあり、あなたのレベルが3以上なら、あなたのCX置場に「思い出の1ページ」が置かれた時、あなたはこのカードを舞台のキャラのいない枠に置いてよい。\n\"-\"",
+   "traits": [
+    "きんいろ",
+    "純和風"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kms_w133/kms_w133_t17r.png",
+   "variant": ""
+  },
+  {
+   "num": "KMS/W133-T17SP",
+   "name": "新たな目覚め 忍",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "green",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】【CXコンボ】［(2) 手札を2枚控え室に置く］ このカードがアタックした時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札の上から9枚を公開し、その山札をシャッフルし、相手にＸダメージを与える。Ｘはそれらのカードの、「大切な日」か「思い出の1ページ」か「そわそわダンス」の合計に等しい。（ダメージキャンセルは発生する。公開したカードは元に戻す）\n【自】【CXコンボ】 記憶 思い出置場にこのカードがあり、あなたのレベルが3以上なら、あなたのCX置場に「思い出の1ページ」が置かれた時、あなたはこのカードを舞台のキャラのいない枠に置いてよい。\n\"-\"",
+   "traits": [
+    "きんいろ",
+    "純和風"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kms_w133/kms_w133_t17sp.png",
+   "variant": ""
+  },
+  {
+   "num": "KMS/W133-T18",
+   "name": "面接練習 綾",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "green",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは相手に1ダメージを与えてよい。（ダメージキャンセルは発生する）\n\"敬語陽子……か なるほど悪くない……\"",
+   "traits": [
+    "きんいろ",
+    "ツンデレ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kms_w133/kms_w133_t18.png",
+   "variant": ""
+  },
+  {
+   "num": "KMS/W133-T18R",
+   "name": "面接練習 綾",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "green",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは相手に1ダメージを与えてよい。（ダメージキャンセルは発生する）\n\"-\"",
+   "traits": [
+    "きんいろ",
+    "ツンデレ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kms_w133/kms_w133_t18r.png",
+   "variant": ""
+  },
+  {
+   "num": "KMS/W133-T18SP",
+   "name": "面接練習 綾",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "green",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは相手に1ダメージを与えてよい。（ダメージキャンセルは発生する）\n\"-\"",
+   "traits": [
+    "きんいろ",
+    "ツンデレ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kms_w133/kms_w133_t18sp.png",
+   "variant": ""
+  },
+  {
+   "num": "KMS/W133-T19",
+   "name": "思い出の1ページ",
+   "type": "Climax",
+   "rarity": "TD",
+   "color": "green",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[treasure.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[treasure.gif]]：このカードがトリガーした時、あなたはこのカードを手札に戻す。あなたは自分の山札の上から1枚を、ストック置場に置いてよい）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kms_w133/kms_w133_t19.png",
+   "variant": ""
+  },
+  {
+   "num": "KMS/W133-T19R",
+   "name": "思い出の1ページ",
+   "type": "Climax",
+   "rarity": "RRR",
+   "color": "green",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[treasure.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[treasure.gif]]：このカードがトリガーした時、あなたはこのカードを手札に戻す。あなたは自分の山札の上から1枚を、ストック置場に置いてよい）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kms_w133/kms_w133_t19r.png",
+   "variant": ""
+  },
+  {
+   "num": "KMS/W133-T20",
+   "name": "そわそわダンス",
+   "type": "Climax",
+   "rarity": "TD",
+   "color": "green",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【永】 あなたのキャラすべてに、ソウルを＋2。\n\"カレン「そわそわが隠しきれないデス！」\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kms_w133/kms_w133_t20.png",
+   "variant": ""
+  },
+  {
+   "num": "KMS/W133-T20R",
+   "name": "そわそわダンス",
+   "type": "Climax",
+   "rarity": "RRR",
+   "color": "green",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【永】 あなたのキャラすべてに、ソウルを＋2。\n\"カレン＆アリス「そわそわ～！」\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kms_w133/kms_w133_t20r.png",
+   "variant": ""
+  }
+ ]
+}

@@ -1,0 +1,485 @@
+{
+ "id": "jp-bd-e212",
+ "name": "[TD+]バンドリ！ ガールズバンドパーティ！ ［Roselia］",
+ "expansion": 212,
+ "lang": "jp",
+ "release": null,
+ "shopItem": null,
+ "box": null,
+ "cards": [
+  {
+   "num": "BD/W54-T01",
+   "name": "“孤高の歌姫”湊友希那",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの「“ステージ”氷川紗夜」すべてに、パワーを＋1000。\n【自】 絆／「“ステージ”氷川紗夜」 ［(1)］ （このカードがプレイされて舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「“ステージ”氷川紗夜」を1枚選び、手札に戻す）\n\"私達Roseliaは、自分の音楽を信じてる\"",
+   "traits": [
+    "音楽",
+    "Roselia"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/b/bd_w54/bd_w54_t01.png",
+   "variant": ""
+  },
+  {
+   "num": "BD/W54-T02",
+   "name": "“揺るぎない覚悟”氷川紗夜",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1)］ アンコールステップの始めに、他のあなたの前列の【レスト】しているキャラがいないなら、あなたはコストを払ってよい。そうしたら、このカードを【レスト】する。\n【自】 バトル中のこのカードが【リバース】した時、このカードのバトル相手のレベルが0以下なら、あなたはそのキャラを山札の下に置いてよい。\n\"さあ。私にもギターを弾かせて。......私達だけの音楽を極める為に\"",
+   "traits": [
+    "音楽",
+    "Roselia"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/b/bd_w54/bd_w54_t02.png",
+   "variant": ""
+  },
+  {
+   "num": "BD/W54-T02R",
+   "name": "“揺るぎない覚悟”氷川紗夜",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1)］ アンコールステップの始めに、他のあなたの前列の【レスト】しているキャラがいないなら、あなたはコストを払ってよい。そうしたら、このカードを【レスト】する。\n【自】 バトル中のこのカードが【リバース】した時、このカードのバトル相手のレベルが0以下なら、あなたはそのキャラを山札の下に置いてよい。\n\"私はいちギタリストとしての意見を言っただけよ\"",
+   "traits": [
+    "音楽",
+    "Roselia"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/b/bd_w54/bd_w54_t02r.png",
+   "variant": ""
+  },
+  {
+   "num": "BD/W54-T03",
+   "name": "“天使のほほえみ”宇田川あこ",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの前列の中央の枠の《音楽》のキャラに、パワーを＋500し、『【自】 アンコール ［手札の青のカードを1枚控え室に置く］』を与える。\n【起】 集中 ［(1) このカードを【レスト】する］ あなたは自分の山札の上から4枚をめくり、控え室に置く。それらのカードのクライマックス1枚につき、あなたは1枚まで引く。\n\"そりゃあ世界で一番カッコイイ、最高で最強なドラマーの妹ですからっ！！\"",
+   "traits": [
+    "音楽",
+    "Roselia"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/b/bd_w54/bd_w54_t03.png",
+   "variant": ""
+  },
+  {
+   "num": "BD/W54-T03R",
+   "name": "“天使のほほえみ”宇田川あこ",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの前列の中央の枠の《音楽》のキャラに、パワーを＋500し、『【自】 アンコール ［手札の青のカードを1枚控え室に置く］』を与える。\n【起】 集中 ［(1) このカードを【レスト】する］ あなたは自分の山札の上から4枚をめくり、控え室に置く。それらのカードのクライマックス1枚につき、あなたは1枚まで引く。\n\"火の魔導師りんりんの相方は闇の召喚士のあこしかいないんだよ！？\"",
+   "traits": [
+    "音楽",
+    "Roselia"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/b/bd_w54/bd_w54_t03r.png",
+   "variant": ""
+  },
+  {
+   "num": "BD/W54-T04",
+   "name": "“人混みはニガテ”白金燐子",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードがアタックした時、あなたは自分の《音楽》のキャラを1枚選び、そのターン中、レベルを＋1し、パワーを＋1000。\n\"......あの、あこちゃん、わたし...... 何を話したら......\"",
+   "traits": [
+    "音楽",
+    "Roselia"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/b/bd_w54/bd_w54_t04.png",
+   "variant": ""
+  },
+  {
+   "num": "BD/W54-T05",
+   "name": "“ステージ”白金燐子",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【起】［このカードを【レスト】する］ あなたは自分の《音楽》のキャラを1枚選び、そのターン中、パワーを＋1500。\n\"わたし......衣装をつくっている間......ずっとRoseliaのこと......友希那さんの歌のこと......考えて......ました......\"",
+   "traits": [
+    "音楽",
+    "Roselia"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/b/bd_w54/bd_w54_t05.png",
+   "variant": ""
+  },
+  {
+   "num": "BD/W54-T06",
+   "name": "“ムードメーカー☆”今井リサ",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 このカードはサイドアタックできない。\n\"Roseliaのベース、今井リサですっ☆みんな『リサ』って呼んでねー？\"",
+   "traits": [
+    "音楽",
+    "Roselia"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/b/bd_w54/bd_w54_t06.png",
+   "variant": ""
+  },
+  {
+   "num": "BD/W54-T07",
+   "name": "“ステージ”宇田川あこ",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードがアタックした時、あなたは自分の山札の上から1枚を、控え室に置いてよい。そのカードが《音楽》のキャラなら、そのターン中、このカードのパワーを＋2000。\n\"ばーん！ 衣装完成ーーーっ！超カッコイイ！まさに黒の騎士団、闇の破壊者......！！\"",
+   "traits": [
+    "音楽",
+    "Roselia"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/b/bd_w54/bd_w54_t07.png",
+   "variant": ""
+  },
+  {
+   "num": "BD/W54-T08",
+   "name": "“クリスタルソング”湊友希那",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】【CXコンボ】 このカードがアタックした時、クライマックス置場に「Zeit」があり、他のあなたの青のキャラがいるなら、あなたは自分の山札を上から4枚まで見て、《音楽》のキャラを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。\n\"誰も見たことがない高みでも、このメンバーとあなたがいれば、必ず目指せる......私はそう信じているわ\"",
+   "traits": [
+    "音楽",
+    "Roselia"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/b/bd_w54/bd_w54_t08.png",
+   "variant": ""
+  },
+  {
+   "num": "BD/W54-T08SP",
+   "name": "“クリスタルソング”湊友希那",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】【CXコンボ】 このカードがアタックした時、クライマックス置場に「Zeit」があり、他のあなたの青のキャラがいるなら、あなたは自分の山札を上から4枚まで見て、《音楽》のキャラを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。\n\"-\"",
+   "traits": [
+    "音楽",
+    "Roselia"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/b/bd_w54/bd_w54_t08sp.png",
+   "variant": ""
+  },
+  {
+   "num": "BD/W54-T09",
+   "name": "“ステージ”氷川紗夜",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "5500",
+   "soul": 1,
+   "trigger": "",
+   "text": "－\n\"いつか、私も......本当の自分を見せられる日が......\"",
+   "traits": [
+    "音楽",
+    "Roselia"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/b/bd_w54/bd_w54_t09.png",
+   "variant": ""
+  },
+  {
+   "num": "BD/W54-T10",
+   "name": "“ステージ”今井リサ",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "1",
+   "cost": "1",
+   "power": "6000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの《音楽》のキャラ1枚につき、このカードのパワーを＋500。\n\"その情熱が感動だよっ。『Roseliaにすべてを賭けてる』よ！\"",
+   "traits": [
+    "音楽",
+    "Roselia"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/b/bd_w54/bd_w54_t10.png",
+   "variant": ""
+  },
+  {
+   "num": "BD/W54-T11",
+   "name": "“カッコイイ！ドラマー”宇田川あこ",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【起】【カウンター】 助太刀3000 レベル2 ［(1) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋3000）\n\"今わらわの、この竜の右目に宿りし闇の力が、目覚めようとしている\"",
+   "traits": [
+    "音楽",
+    "Roselia"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/b/bd_w54/bd_w54_t11.png",
+   "variant": ""
+  },
+  {
+   "num": "BD/W54-T12",
+   "name": "“この音しか聞こえない”白金燐子",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋Ｘ。Ｘはそのキャラのレベル×500に等しい。\n【起】［このカードを【レスト】する］ あなたは1枚引き、自分の手札を1枚選び、控え室に置く。\n\"あ、あの時......あこちゃんに連れて来て......もらったから......今の......わたしが......い......いるん......です......\"",
+   "traits": [
+    "音楽",
+    "Roselia"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/b/bd_w54/bd_w54_t12.png",
+   "variant": ""
+  },
+  {
+   "num": "BD/W54-T12R",
+   "name": "“この音しか聞こえない”白金燐子",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋Ｘ。Ｘはそのキャラのレベル×500に等しい。\n【起】［このカードを【レスト】する］ あなたは1枚引き、自分の手札を1枚選び、控え室に置く。\n\"あこちゃんが......湊さんのバンドに入りたいって言って......そ......そして、それが......わたしの人生も......変えたんです・・・\"",
+   "traits": [
+    "音楽",
+    "Roselia"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/b/bd_w54/bd_w54_t12r.png",
+   "variant": ""
+  },
+  {
+   "num": "BD/W54-T13",
+   "name": "“生真面目な努力家”氷川紗夜",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "7000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 他のあなたの《音楽》のキャラがアタックした時、そのターン中、このカードのパワーを＋1500。\n【自】 アンコール ［手札の青のカードを1枚控え室に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"自分が一流の演奏をするためなら、何を犠牲にしても後悔しない\"",
+   "traits": [
+    "音楽",
+    "Roselia"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/b/bd_w54/bd_w54_t13.png",
+   "variant": ""
+  },
+  {
+   "num": "BD/W54-T14",
+   "name": "“ステージ”湊友希那",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 相手のターン中、あなたのキャラすべてが《音楽》なら、このカードのパワーを＋2000。\n【自】［(1)］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「“努力の跡”今井リサ」を1枚選び、舞台の好きな枠に置く。\n\"いつでも音楽に集中したいから\"",
+   "traits": [
+    "音楽",
+    "Roselia"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/b/bd_w54/bd_w54_t14.png",
+   "variant": ""
+  },
+  {
+   "num": "BD/W54-T14S",
+   "name": "“ステージ”湊友希那",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 相手のターン中、あなたのキャラすべてが《音楽》なら、このカードのパワーを＋2000。\n【自】［(1)］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「“努力の跡”今井リサ」を1枚選び、舞台の好きな枠に置く。\n\"今日のライブも全力でやり通すだけ......\"",
+   "traits": [
+    "音楽",
+    "Roselia"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/b/bd_w54/bd_w54_t14s.png",
+   "variant": ""
+  },
+  {
+   "num": "BD/W54-T15",
+   "name": "“努力の跡”今井リサ",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時か「“ステージ”湊友希那」の【自】の効果で舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n【自】 このカードがアタックした時、あなたは他の自分の《音楽》のキャラを1枚選び、そのターン中、パワーを＋Ｘ。Ｘは他のあなたの《音楽》のキャラの枚数×500に等しい。\n\"みんなとバンドを始めて、友希那の笑顔が増えていって、そうしたら、もっと友希那に喜んでもらいたい！って思いが大きくなっていって......\"",
+   "traits": [
+    "音楽",
+    "Roselia"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/b/bd_w54/bd_w54_t15.png",
+   "variant": ""
+  },
+  {
+   "num": "BD/W54-T15R",
+   "name": "“努力の跡”今井リサ",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "blue",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時か「“ステージ”湊友希那」の【自】の効果で舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n【自】 このカードがアタックした時、あなたは他の自分の《音楽》のキャラを1枚選び、そのターン中、パワーを＋Ｘ。Ｘは他のあなたの《音楽》のキャラの枚数×500に等しい。\n\"......思い返してみると、アタシ達、今まで何も考えずに走ってきたけど......ホント、色々なことがあったな～......\"",
+   "traits": [
+    "音楽",
+    "Roselia"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/b/bd_w54/bd_w54_t15r.png",
+   "variant": ""
+  },
+  {
+   "num": "BD/W54-T16",
+   "name": "慣れない電話",
+   "type": "Event",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "1",
+   "cost": "1",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "【カウンター】 このカードは、あなたの《音楽》のキャラが1枚以下なら、手札からプレイできない。\n以下の効果のうちあなたが選んだ1つを行う。あなたの、カード名に「友希那」を含むキャラと「リサ」を含むキャラと「紗夜」を含むキャラと「あこ」を含むキャラと「燐子」を含むキャラが別々に1枚ずついるなら、代わりに選んだ1つを2回行う。\n『あなたは相手のキャラを1枚選び、そのターン中、ソウルを－1。』\n『あなたは自分のバトル中のキャラを1枚選び、そのターン中、パワーを＋3000。』\n『あなたは自分の山札を見て《音楽》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。』\n\"あ、あこちゃん……わたし、電話するの……苦手だから……深呼吸して、落ち着こうと……思って……\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/b/bd_w54/bd_w54_t16.png",
+   "variant": ""
+  },
+  {
+   "num": "BD/W54-T17",
+   "name": "Zeit",
+   "type": "Climax",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[draw.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[draw.gif]]：このカードがトリガーした時、あなたは1枚引いてよい）\n\"友希那「やるからには全てを賭ける。妥協のない完璧なバンドをつくるには楽しさなんて要らないわ」\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/b/bd_w54/bd_w54_t17.png",
+   "variant": ""
+  },
+  {
+   "num": "BD/W54-T17S",
+   "name": "Zeit",
+   "type": "Climax",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[draw.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[draw.gif]]：このカードがトリガーした時、あなたは1枚引いてよい）\n\"友希那「薔薇のRoseと、椿のCamelliaからとったわ。特に、青い薔薇............そんな、イメージだから......」\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/b/bd_w54/bd_w54_t17s.png",
+   "variant": ""
+  },
+  {
+   "num": "BD/W54-T18",
+   "name": "1stライブがんばろう会",
+   "type": "Climax",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[gate.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[gate.gif]]：このカードがトリガーした時、あなたは自分の控え室のクライマックスを1枚選び、手札に戻してよい）\n\"友希那「私たちはやるべき事はやったわ。明日のライブは最善を尽くしましょう。……乾杯」\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/b/bd_w54/bd_w54_t18.png",
+   "variant": ""
+  },
+  {
+   "num": "BD/W54-T19",
+   "name": "この曲……すっごく楽しい！",
+   "type": "Climax",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【永】 あなたのキャラすべてに、ソウルを＋2。\n\"いつも以上に上手く叩けている気がする……！あこだけじゃない、みんなも……\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/b/bd_w54/bd_w54_t19.png",
+   "variant": ""
+  }
+ ]
+}

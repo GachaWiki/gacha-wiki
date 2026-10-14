@@ -1,0 +1,515 @@
+{
+ "id": "jp-mar",
+ "name": "[TD+]Marvel Avengers",
+ "expansion": 369,
+ "lang": "jp",
+ "release": null,
+ "shopItem": null,
+ "box": null,
+ "cards": [
+  {
+   "num": "MAR/S89-T01",
+   "name": "アツい男 ソー",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋500。\n【自】 あなたのクライマックスがクライマックス置場に置かれた時、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋1000。\n\"-\"",
+   "traits": [
+    "MARVEL"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mar_s89/mar_s89_t01.png",
+   "variant": ""
+  },
+  {
+   "num": "MAR/S89-T02",
+   "name": "驚異的な破壊力 ハルク",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのストックが2枚以下なら、このカードのパワーを＋1500。\n\"-\"",
+   "traits": [
+    "MARVEL"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mar_s89/mar_s89_t02.png",
+   "variant": ""
+  },
+  {
+   "num": "MAR/S89-T03",
+   "name": "神話最強のヒーロー ソー",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのターン中、他のあなたの《MARVEL》のキャラがいるなら、このカードのパワーを＋1500。\n【自】【CXコンボ】 このカードがアタックした時、クライマックス置場に「玉座を継ぐもの ソー」があり、他のあなたの《MARVEL》のキャラがいるなら、あなたは自分の山札を上から4枚まで見て、《MARVEL》のキャラか「ムジョルニア」を1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。\n\"-\"",
+   "traits": [
+    "MARVEL"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mar_s89/mar_s89_t03.png",
+   "variant": ""
+  },
+  {
+   "num": "MAR/S89-T03SP",
+   "name": "神話最強のヒーロー ソー",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのターン中、他のあなたの《MARVEL》のキャラがいるなら、このカードのパワーを＋1500。\n【自】【CXコンボ】 このカードがアタックした時、クライマックス置場に「玉座を継ぐもの ソー」があり、他のあなたの《MARVEL》のキャラがいるなら、あなたは自分の山札を上から4枚まで見て、《MARVEL》のキャラか「ムジョルニア」を1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。\n\"-\"",
+   "traits": [
+    "MARVEL"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mar_s89/mar_s89_t03sp.png",
+   "variant": ""
+  },
+  {
+   "num": "MAR/S89-T04",
+   "name": "ピュアなモンスター ハルク",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "yellow",
+   "level": "1",
+   "cost": "1",
+   "power": "6000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 他のあなたの《MARVEL》のキャラがアタックした時、そのターン中、このカードのパワーを＋Ｘ。Ｘは他のあなたの《MARVEL》のキャラの枚数×500に等しい。\n【自】 アンコール ［あなたの山札の上から1枚をクロック置場に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"-\"",
+   "traits": [
+    "MARVEL"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mar_s89/mar_s89_t04.png",
+   "variant": ""
+  },
+  {
+   "num": "MAR/S89-T05",
+   "name": "雷のパワー ソー",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "6500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの《MARVEL》のキャラが2枚以上なら、このカードのパワーを＋3000。\n【自】 アンコール ［手札の《MARVEL》のキャラを1枚控え室に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"-\"",
+   "traits": [
+    "MARVEL"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mar_s89/mar_s89_t05.png",
+   "variant": ""
+  },
+  {
+   "num": "MAR/S89-T06",
+   "name": "ハルクスマッシュ！",
+   "type": "Event",
+   "rarity": "TD",
+   "color": "yellow",
+   "level": "3",
+   "cost": "2",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "相手に2ダメージを与える。（ダメージキャンセルは発生する）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mar_s89/mar_s89_t06.png",
+   "variant": ""
+  },
+  {
+   "num": "MAR/S89-T06R",
+   "name": "ハルクスマッシュ！",
+   "type": "Event",
+   "rarity": "RRR",
+   "color": "yellow",
+   "level": "3",
+   "cost": "2",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "相手に2ダメージを与える。（ダメージキャンセルは発生する）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mar_s89/mar_s89_t06r.png",
+   "variant": ""
+  },
+  {
+   "num": "MAR/S89-T07",
+   "name": "玉座を継ぐもの ソー",
+   "type": "Climax",
+   "rarity": "TD",
+   "color": "yellow",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[choice.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[choice.gif]]：このカードがトリガーした時、あなたは自分の控え室のトリガーアイコンに[[soul.gif]]があるキャラを1枚選び、手札に戻すかストック置場に置いてよい）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mar_s89/mar_s89_t07.png",
+   "variant": ""
+  },
+  {
+   "num": "MAR/S89-T08",
+   "name": "最新鋭の技術 ブラック・ウィドウ",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの「弓の名手 ホークアイ」すべてに、パワーを＋1000。\n【自】 絆／「弓の名手 ホークアイ」 ［(1)］ （このカードがプレイされて舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「弓の名手 ホークアイ」を1枚選び、手札に戻す）\n\"-\"",
+   "traits": [
+    "MARVEL"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mar_s89/mar_s89_t08.png",
+   "variant": ""
+  },
+  {
+   "num": "MAR/S89-T09",
+   "name": "ハイテク・ウェポン アイアンマン",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の《MARVEL》のキャラを1枚選び、そのターン中、パワーを＋Ｘ。Ｘはあなたの《MARVEL》のキャラの枚数×500に等しい。\n\"-\"",
+   "traits": [
+    "MARVEL"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mar_s89/mar_s89_t09.png",
+   "variant": ""
+  },
+  {
+   "num": "MAR/S89-T10",
+   "name": "スーパー・スパイ ブラック・ウィドウ",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "red",
+   "level": "1",
+   "cost": "1",
+   "power": "500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 あなたがこのカードの『助太刀』を使った時、あなたは自分の山札の上から1枚を公開する。そのカードが《MARVEL》のキャラなら手札に加え、あなたは自分の手札を1枚選び、控え室に置く。（そうでないなら元に戻す）\n【起】【カウンター】 助太刀2000 レベル1 ［(1) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋2000）\n\"-\"",
+   "traits": [
+    "MARVEL"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mar_s89/mar_s89_t10.png",
+   "variant": ""
+  },
+  {
+   "num": "MAR/S89-T10R",
+   "name": "スーパー・スパイ ブラック・ウィドウ",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "red",
+   "level": "1",
+   "cost": "1",
+   "power": "500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 あなたがこのカードの『助太刀』を使った時、あなたは自分の山札の上から1枚を公開する。そのカードが《MARVEL》のキャラなら手札に加え、あなたは自分の手札を1枚選び、控え室に置く。（そうでないなら元に戻す）\n【起】【カウンター】 助太刀2000 レベル1 ［(1) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋2000）\n\"-\"",
+   "traits": [
+    "MARVEL"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mar_s89/mar_s89_t10r.png",
+   "variant": ""
+  },
+  {
+   "num": "MAR/S89-T11",
+   "name": "恐るべき才能 ブラック・ウィドウ",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋Ｘ。Ｘはそのキャラのレベル×500に等しい。\n【自】［(1) 手札のクライマックスを1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室のクライマックスを1枚選び、手札に戻す。\n\"-\"",
+   "traits": [
+    "MARVEL"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mar_s89/mar_s89_t11.png",
+   "variant": ""
+  },
+  {
+   "num": "MAR/S89-T12",
+   "name": "全身ヒーロー アイアンマン",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "7500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、そのターン中、このカードのパワーを＋Ｘ。Ｘはあなたの《MARVEL》のキャラの枚数×1000に等しい。\n\"-\"",
+   "traits": [
+    "MARVEL"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mar_s89/mar_s89_t12.png",
+   "variant": ""
+  },
+  {
+   "num": "MAR/S89-T13",
+   "name": "世界最高の戦闘兵器 アイアンマン",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札を上から3枚まで見て、カードを1枚まで選び、手札に加え、残りのカードを控え室に置く。\n【自】【CXコンボ】［(2)］ このカードがアタックした時、クライマックス置場に「無敵のアイアンマン」があるなら、あなたはコストを払ってよい。そうしたら、あなたは相手の山札の下から4枚を、控え室に置き、相手にＸダメージを与える。Ｘはそれらのカードのレベル0以下のカードの枚数に等しい。（クライマックスのレベルは0として扱う。ダメージキャンセルは発生する）\n\"-\"",
+   "traits": [
+    "MARVEL"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mar_s89/mar_s89_t13.png",
+   "variant": ""
+  },
+  {
+   "num": "MAR/S89-T13S",
+   "name": "世界最高の戦闘兵器 アイアンマン",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札を上から3枚まで見て、カードを1枚まで選び、手札に加え、残りのカードを控え室に置く。\n【自】【CXコンボ】［(2)］ このカードがアタックした時、クライマックス置場に「無敵のアイアンマン」があるなら、あなたはコストを払ってよい。そうしたら、あなたは相手の山札の下から4枚を、控え室に置き、相手にＸダメージを与える。Ｘはそれらのカードのレベル0以下のカードの枚数に等しい。（クライマックスのレベルは0として扱う。ダメージキャンセルは発生する）\n\"-\"",
+   "traits": [
+    "MARVEL"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mar_s89/mar_s89_t13s.png",
+   "variant": ""
+  },
+  {
+   "num": "MAR/S89-T13SP",
+   "name": "世界最高の戦闘兵器 アイアンマン",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札を上から3枚まで見て、カードを1枚まで選び、手札に加え、残りのカードを控え室に置く。\n【自】【CXコンボ】［(2)］ このカードがアタックした時、クライマックス置場に「無敵のアイアンマン」があるなら、あなたはコストを払ってよい。そうしたら、あなたは相手の山札の下から4枚を、控え室に置き、相手にＸダメージを与える。Ｘはそれらのカードのレベル0以下のカードの枚数に等しい。（クライマックスのレベルは0として扱う。ダメージキャンセルは発生する）\n\"-\"",
+   "traits": [
+    "MARVEL"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mar_s89/mar_s89_t13sp.png",
+   "variant": ""
+  },
+  {
+   "num": "MAR/S89-T14",
+   "name": "無敵のアイアンマン",
+   "type": "Climax",
+   "rarity": "TD",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[salvage.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[salvage.gif]]：このカードがトリガーした時、あなたは自分の控え室のキャラを1枚選び、手札に戻してよい）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mar_s89/mar_s89_t14.png",
+   "variant": ""
+  },
+  {
+   "num": "MAR/S89-T14S",
+   "name": "無敵のアイアンマン",
+   "type": "Climax",
+   "rarity": "SR",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[salvage.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[salvage.gif]]：このカードがトリガーした時、あなたは自分の控え室のキャラを1枚選び、手札に戻してよい）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mar_s89/mar_s89_t14s.png",
+   "variant": ""
+  },
+  {
+   "num": "MAR/S89-T15",
+   "name": "世界で最も偉大な射手 ホークアイ",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1)］ アンコールステップの始めに、他のあなたの前列の【レスト】しているキャラがいないなら、あなたはコストを払ってよい。そうしたら、このカードを【レスト】する。\n【自】 バトル中のこのカードが【リバース】した時、このカードのバトル相手のレベルが0以下なら、あなたはそのキャラを山札の下に置いてよい。\n\"-\"",
+   "traits": [
+    "MARVEL"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mar_s89/mar_s89_t15.png",
+   "variant": ""
+  },
+  {
+   "num": "MAR/S89-T15R",
+   "name": "世界で最も偉大な射手 ホークアイ",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1)］ アンコールステップの始めに、他のあなたの前列の【レスト】しているキャラがいないなら、あなたはコストを払ってよい。そうしたら、このカードを【レスト】する。\n【自】 バトル中のこのカードが【リバース】した時、このカードのバトル相手のレベルが0以下なら、あなたはそのキャラを山札の下に置いてよい。\n\"-\"",
+   "traits": [
+    "MARVEL"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mar_s89/mar_s89_t15r.png",
+   "variant": ""
+  },
+  {
+   "num": "MAR/S89-T16",
+   "name": "冷静沈着 ホークアイ",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの前列の中央の枠の《MARVEL》のキャラに、『【自】 アンコール ［手札のキャラを1枚控え室に置く］』を与える。\n【起】 集中 ［(1) このカードを【レスト】する］ あなたは自分の山札の上から5枚をめくり、控え室に置く。それらのカードのクライマックス1枚につき、あなたは1枚まで引く。\n\"-\"",
+   "traits": [
+    "MARVEL"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mar_s89/mar_s89_t16.png",
+   "variant": ""
+  },
+  {
+   "num": "MAR/S89-T17",
+   "name": "国家究極の武器 キャプテン・アメリカ",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、そのターン中、このカードのパワーを＋1500。\n【自】［手札を1枚控え室に置く］ このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を上から4枚まで見て、レベル1以上のカードを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。（クライマックスのレベルは0として扱う）\n\"-\"",
+   "traits": [
+    "MARVEL"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mar_s89/mar_s89_t17.png",
+   "variant": ""
+  },
+  {
+   "num": "MAR/S89-T17SP",
+   "name": "国家究極の武器 キャプテン・アメリカ",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、そのターン中、このカードのパワーを＋1500。\n【自】［手札を1枚控え室に置く］ このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を上から4枚まで見て、レベル1以上のカードを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。（クライマックスのレベルは0として扱う）\n\"-\"",
+   "traits": [
+    "MARVEL"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mar_s89/mar_s89_t17sp.png",
+   "variant": ""
+  },
+  {
+   "num": "MAR/S89-T18",
+   "name": "アベンジャーズ キャプテン・アメリカ",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードがアタックした時、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋2500。\n\"-\"",
+   "traits": [
+    "MARVEL"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mar_s89/mar_s89_t18.png",
+   "variant": ""
+  },
+  {
+   "num": "MAR/S89-T19",
+   "name": "弓の名手 ホークアイ",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "5500",
+   "soul": 1,
+   "trigger": "",
+   "text": "-\n\"-\"",
+   "traits": [
+    "MARVEL"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mar_s89/mar_s89_t19.png",
+   "variant": ""
+  },
+  {
+   "num": "MAR/S89-T20",
+   "name": "超人血清 キャプテン・アメリカ",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "3",
+   "cost": "2",
+   "power": "9500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの《MARVEL》のキャラ1枚につき、このカードのパワーを＋500。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n\"-\"",
+   "traits": [
+    "MARVEL"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mar_s89/mar_s89_t20.png",
+   "variant": ""
+  },
+  {
+   "num": "MAR/S89-T21",
+   "name": "正義に生きる キャプテン・アメリカ",
+   "type": "Climax",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【永】 あなたのキャラすべてに、ソウルを＋2。\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mar_s89/mar_s89_t21.png",
+   "variant": ""
+  }
+ ]
+}

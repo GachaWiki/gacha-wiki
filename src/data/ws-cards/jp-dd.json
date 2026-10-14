@@ -1,0 +1,670 @@
+{
+ "id": "jp-dd",
+ "name": "DOG DAYS",
+ "expansion": 71,
+ "lang": "jp",
+ "release": null,
+ "shopItem": null,
+ "box": null,
+ "cards": [
+  {
+   "num": "DD/WE12-01",
+   "name": "レオンミシェリ・ガレット・デ・ロワ",
+   "type": "Character",
+   "rarity": "R",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1)］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の《動物》のキャラを1枚選び、そのターン中、パワーを＋2000。\n【自】［(2)］ このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見て《動物》のキャラを1枚まで選んで相手に見せ、手札に加える。その山札をシャッフルする。\n\"フランボワーズ「すぐさま向かってたたき落とす、との事です」\"",
+   "traits": [
+    "動物",
+    "王族"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dd_we12/dd_we12_01.png",
+   "variant": ""
+  },
+  {
+   "num": "DD/WE12-02",
+   "name": "ガレット王子 ガウ",
+   "type": "Character",
+   "rarity": "R",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、次の相手のターンの終わりまで、このカードのパワーを＋1500。\n\"大変な思いをしていいのは、王族だけさ\"",
+   "traits": [
+    "動物",
+    "王族"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dd_we12/dd_we12_02.png",
+   "variant": ""
+  },
+  {
+   "num": "DD/WE12-03",
+   "name": "正々堂々 レオ",
+   "type": "Character",
+   "rarity": "R",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 相手のキャラが、控え室から手札に戻った時、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋2000。\n【起】［このカードを【レスト】する］ あなたは自分の《動物》のキャラを1枚選び、そのターン中、パワーを＋1500。\n\"フン…面白い\"",
+   "traits": [
+    "動物",
+    "王族"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dd_we12/dd_we12_03.png",
+   "variant": ""
+  },
+  {
+   "num": "DD/WE12-04",
+   "name": "戦無双 レオ",
+   "type": "Character",
+   "rarity": "R",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1)］ このカードがアタックした時、クライマックス置場に「獅子王炎陣大爆破」があるなら、あなたはコストを払ってよい。そうしたら、あなたは自分のクロックを1枚選び、手札に戻し、自分の山札の上から1枚を、クロック置場に置く。\n【自】 アンコール ［手札のキャラを1枚控え室に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"獅子王炎陣ッ！！\"",
+   "traits": [
+    "動物",
+    "王族"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dd_we12/dd_we12_04.png",
+   "variant": ""
+  },
+  {
+   "num": "DD/WE12-05",
+   "name": "“獅子王”レオ",
+   "type": "Character",
+   "rarity": "R",
+   "color": "green",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 大活躍 （相手がアタックする時、【リバース】していないこのカードが前列の中央の枠にいるなら、かわりに相手はこのカードにフロントアタックする）\n【自】［手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「魔戦斧グランヴェール」を1枚選び、手札に戻す。\n\"ワシを以前のワシと思うなよ\"",
+   "traits": [
+    "動物",
+    "王族"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dd_we12/dd_we12_05.png",
+   "variant": ""
+  },
+  {
+   "num": "DD/WE12-06",
+   "name": "単騎突入 レオ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたのキャラがいないなら、このカードのパワーを＋1500し、このカードは相手のキャラの【自】の効果によって【リバース】されない。\n\"ガウル「姉上ッ！？」\"",
+   "traits": [
+    "動物",
+    "王族"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dd_we12/dd_we12_06.png",
+   "variant": ""
+  },
+  {
+   "num": "DD/WE12-07",
+   "name": "“ジェノワーズ”ジョーヌ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "",
+   "text": "-\n\"ガウ様直属、秘密諜報部隊！\"",
+   "traits": [
+    "動物",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dd_we12/dd_we12_07.png",
+   "variant": ""
+  },
+  {
+   "num": "DD/WE12-08",
+   "name": "“ジェノワーズ”ベール",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの前列の中央の枠のキャラに、パワーを＋1000。\n\"我ら、ガレット獅子団領\"",
+   "traits": [
+    "動物",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dd_we12/dd_we12_08.png",
+   "variant": ""
+  },
+  {
+   "num": "DD/WE12-09",
+   "name": "ガウル・ガレット・デ・ロワ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの《動物》のキャラ1枚につき、このカードのパワーを＋500。\n\"強さと華麗さ、豪快さ！<br />そのへんが、騎士と戦士の必須事項！\"",
+   "traits": [
+    "動物",
+    "王族"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dd_we12/dd_we12_09.png",
+   "variant": ""
+  },
+  {
+   "num": "DD/WE12-10",
+   "name": "静かな決意 レオ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "2",
+   "cost": "1",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【起】【カウンター】 助太刀3000 レベル2 ［(1) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋3000）\n\"……\"",
+   "traits": [
+    "動物",
+    "王族"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dd_we12/dd_we12_10.png",
+   "variant": ""
+  },
+  {
+   "num": "DD/WE12-11",
+   "name": "お側役 ビオレ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "2",
+   "cost": "1",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの前列の中央の枠のキャラに、パワーを＋2000。\n【自】【クロック】 シフト レベル2 （あなたのメインフェイズの始めに、あなたは自分の手札の緑のカードを1枚とクロック置場のこのカードを選び、入れ替えてよい）\n\"フランボワーズ「レオンミシェリ姫のお側役、<br />ビオレさんに来ていただいております」\"",
+   "traits": [
+    "動物"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dd_we12/dd_we12_11.png",
+   "variant": ""
+  },
+  {
+   "num": "DD/WE12-12",
+   "name": "突然の宣戦布告 レオ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "2",
+   "cost": "2",
+   "power": "9500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、相手は自分の控え室のキャラを1枚選び、手札に戻してよい。\n【自】［(2) 手札を1枚控え室に置く］ あなたのクライマックス置場に「魔神旋光破」が置かれた時、前列にこのカードがいるなら、あなたはコストを払ってよい。そうしたら、あなたは自分のクロック置場の自分のレベル以下のレベルの《動物》のキャラを1枚選び、舞台の好きな枠に置く。\n\"ガレット・ビスコッティ両国民。<br />己の国のため、自らのため……！\"",
+   "traits": [
+    "動物",
+    "王族"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dd_we12/dd_we12_12.png",
+   "variant": ""
+  },
+  {
+   "num": "DD/WE12-13",
+   "name": "魔戦斧グランヴェール",
+   "type": "Event",
+   "rarity": "C",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "あなたは自分のキャラを1枚選び、次の相手のターンの終わりまで、パワーを＋2000。\n\"レオ「ガレットの宝剣、魔戦斧グランヴェールと、<br />神剣エクスマキナ」\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dd_we12/dd_we12_13.png",
+   "variant": ""
+  },
+  {
+   "num": "DD/WE12-14",
+   "name": "獅子王炎陣大爆破",
+   "type": "Climax",
+   "rarity": "C",
+   "color": "green",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【自】 このカードが手札からクライマックス置場に置かれた時、あなたは1枚引き、自分のキャラを1枚選び、そのターン中、パワーを＋2000し、ソウルを＋1。\n\"どおりゃあーーーー！！\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dd_we12/dd_we12_14.png",
+   "variant": ""
+  },
+  {
+   "num": "DD/WE12-15",
+   "name": "魔神旋光破",
+   "type": "Climax",
+   "rarity": "C",
+   "color": "green",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[treasure.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[treasure.gif]]：このカードがトリガーした時、あなたはこのカードを手札に戻す。あなたは自分の山札の上から1枚を、ストック置場に置いてよい）\n\"魔神ッッ！！　旋光破ァァッ！！\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dd_we12/dd_we12_15.png",
+   "variant": ""
+  },
+  {
+   "num": "DD/WE12-16",
+   "name": "“勇者超特急”シンク",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(2) あなたの山札の上から1枚をクロック置場に置く］ このカードがフロントアタックされた時、あなたはコストを払ってよい。そうしたら、あなたは他の自分の《動物》のキャラを1枚と、このカードを選び、手札に戻す。\n\"ひよこだって頑張れば飛べる･･･！\"",
+   "traits": [
+    "勇者",
+    "スポーツ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dd_we12/dd_we12_16.png",
+   "variant": ""
+  },
+  {
+   "num": "DD/WE12-17",
+   "name": "召喚主 ミルヒ",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの、《動物》か《勇者》のキャラすべてに、パワーを＋500。\n【自】［(1)］ 他のあなたのバトル中の「シンク・イズミ」が【リバース】した時、あなたはコストを払ってよい。そうしたら、あなたはそのキャラを思い出にする。\n【起】［(3)  手札の「勇者降臨！」を1枚控え室に置き、このカードを【レスト】する］ あなたは自分の控え室の「シンク・イズミ」を1枚選び、舞台の好きな枠に置く。\n\"こんな方がわたしの…この国の勇者様だったらいいなって<br />そう思ったんです…\"",
+   "traits": [
+    "動物",
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dd_we12/dd_we12_17.png",
+   "variant": ""
+  },
+  {
+   "num": "DD/WE12-18",
+   "name": "自由騎士 ダルキアン",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "1",
+   "cost": "1",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 あなたがこのカードの『助太刀』を使った時、あなたの、《動物》か《勇者》のキャラが3枚以上なら、あなたは自分のバトル中のキャラを1枚選び、そのターン中、パワーを＋Ｘ。Ｘはあなたのレベル×500に等しい。\n【起】【カウンター】 助太刀1500 レベル1 ［(1) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋1500）\n\"勇者殿もなかなかどうして、大胆にござるな\"",
+   "traits": [
+    "動物",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dd_we12/dd_we12_18.png",
+   "variant": ""
+  },
+  {
+   "num": "DD/WE12-19",
+   "name": "領主の覚悟 ミルヒ",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの《動物》のキャラが3枚以上なら、このカードは次の能力を得る。『【起】［(2) このカードを【レスト】する］ あなたは自分の思い出置場の「シンク・イズミ」を1枚選び、舞台の好きな枠に置く。』\n【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋1000。\n\"この戦に勝利しましょう！\"",
+   "traits": [
+    "動物",
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dd_we12/dd_we12_19.png",
+   "variant": ""
+  },
+  {
+   "num": "DD/WE12-20",
+   "name": "リコッタ・エルマール",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "7500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】［(1)］ あなたのクライマックス置場に「リコのサポート」が置かれた時、前列にこのカードがいるなら、あなたはコストを払ってよい。そうしたら、あなたは相手のレベル1以下のキャラを1枚選び、控え室に置く。\n【起】［あなたの《動物》のキャラを2枚【レスト】する］ あなたは自分のキャラを1枚選び、そのターン中、パワーを＋1500。\n\"ビスコッティ学術研究院主席、リコッタ・エルマール！\"",
+   "traits": [
+    "動物",
+    "科学"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dd_we12/dd_we12_20.png",
+   "variant": ""
+  },
+  {
+   "num": "DD/WE12-21",
+   "name": "エクレール・マルティノッジ",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "2",
+   "cost": "2",
+   "power": "8000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの《動物》のキャラが3枚以上なら、このカードは『【自】 アンコール ［手札のキャラを1枚控え室に置く］』を得る。\n【自】 このカードが手札から舞台に置かれた時、そのターン中、このカードのパワーを＋Ｘ。Ｘはあなたの《動物》のキャラの枚数×500に等しい。\n\"正面突破ぁーッッ！うおおーッッ！！\"",
+   "traits": [
+    "動物",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dd_we12/dd_we12_21.png",
+   "variant": ""
+  },
+  {
+   "num": "DD/WE12-22",
+   "name": "ミルヒオーレ・フィリアンノ・ビスコッティ",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n【自】［(2)］ このカードのバトル相手が【リバース】した時、あなたはコストを払ってよい。そうしたら、相手に1ダメージを与える。（ダメージキャンセルは発生する）\n\"ビスコッティが領主、<br />ミルヒオーレ・フィリアンノ・ビスコッティが、<br />絶対絶対、許しませんッッ！\"",
+   "traits": [
+    "動物",
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dd_we12/dd_we12_22.png",
+   "variant": ""
+  },
+  {
+   "num": "DD/WE12-23",
+   "name": "ビスコッティ領主 ミルヒ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋500。\n【自】［(2)］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の《勇者》のキャラを1枚選び、手札に戻す。\n\"遅くなりました！ミルヒオーレ、参りましたッ！！\"",
+   "traits": [
+    "動物",
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dd_we12/dd_we12_23.png",
+   "variant": ""
+  },
+  {
+   "num": "DD/WE12-24",
+   "name": "オンミツ部隊筆頭 ユキカゼ",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが【リバース】した時、このカードのバトル相手のレベルが0以下なら、あなたはそのキャラを【リバース】してよい。\n【自】［(1)］ 相手のアタックフェイズの始めに、あなたはコストを払ってよい。そうしたら、あなたは他の自分の《勇者》のキャラを1枚選び、そのターン中、パワーを＋1500。\n\"今回はちと様子が違いそうでござる\"",
+   "traits": [
+    "動物",
+    "神"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dd_we12/dd_we12_24.png",
+   "variant": ""
+  },
+  {
+   "num": "DD/WE12-25",
+   "name": "タレミミ隊長 エクレ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードがアタックした時、あなたは他の自分の《勇者》のキャラを1枚選び、そのターン中、パワーを＋1000。\n【起】［このカードを控え室に置く］ あなたは自分の《勇者》のキャラを1枚選び、そのターン中、パワーを＋2000。\n\"はぁああっっ！！\"",
+   "traits": [
+    "動物",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dd_we12/dd_we12_25.png",
+   "variant": ""
+  },
+  {
+   "num": "DD/WE12-26",
+   "name": "機械大好き！ リコ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】【クロック】 シフト レベル0 （あなたのメインフェイズの始めに、あなたは自分の手札の赤のカードを1枚とクロック置場のこのカードを選び、入れ替えてよい）\n【起】［(1)］ あなたは相手の前列のレベル0以下のキャラを1枚選び、控え室に置く。\n\"見知らぬ機械をみつけると、<br />自分はしっぽのつけねと研究心が<br />キュンキュンきちゃうのであります！\"",
+   "traits": [
+    "動物",
+    "科学"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dd_we12/dd_we12_26.png",
+   "variant": ""
+  },
+  {
+   "num": "DD/WE12-27",
+   "name": "替え玉作戦 ミルヒ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのクロック置場に「リコッタ・エルマール」があるなら、このカードのパワーを＋2000。\n\"騎士「わかりました。お通ししてください」\"",
+   "traits": [
+    "動物",
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dd_we12/dd_we12_27.png",
+   "variant": ""
+  },
+  {
+   "num": "DD/WE12-28",
+   "name": "見つめるミルヒ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "",
+   "text": "-\n\"勇者シンク様ですね……存じ上げております\"",
+   "traits": [
+    "動物",
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dd_we12/dd_we12_28.png",
+   "variant": ""
+  },
+  {
+   "num": "DD/WE12-29",
+   "name": "主席研究士 リコ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 相手のアタックフェイズの始めに、あなたは自分のカード名に「ミルヒ」を含むキャラを1枚とこのカードを選び、それぞれを【スタンド】して入れ替えてよい。\n\"姫様の命を受けて誠心誠意、<br />勇者様がご帰還される方法を探していたでありますが！\"",
+   "traits": [
+    "動物",
+    "科学"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dd_we12/dd_we12_29.png",
+   "variant": ""
+  },
+  {
+   "num": "DD/WE12-30",
+   "name": "召喚勇者 シンク",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードがフロントアタックされた時、あなたは自分の山札の上から1枚を、控え室に置いてよい。そのカードがクライマックスなら、あなたはこのカードの正面のキャラを1枚選び、そのターン中、ソウルを－1。\n\"姫様からのお呼びに預かり……<br />勇者シンク、ただいま見ッ参ッッ！！！\"",
+   "traits": [
+    "勇者",
+    "スポーツ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dd_we12/dd_we12_30.png",
+   "variant": ""
+  },
+  {
+   "num": "DD/WE12-31",
+   "name": "親衛隊長 エクレ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "5500",
+   "soul": 1,
+   "trigger": "",
+   "text": "-\n\"エクレール……騎士団の、親衛隊長だ\"",
+   "traits": [
+    "動物",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dd_we12/dd_we12_31.png",
+   "variant": ""
+  },
+  {
+   "num": "DD/WE12-32",
+   "name": "お風呂で遭遇！ ミルヒ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "1",
+   "cost": "1",
+   "power": "6500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのストックが3枚以下なら、このカードのパワーを＋1000。\n\"あのあの！わたし、もう上がりますので、<br />……勇者様はどうぞごゆっくり！！\"",
+   "traits": [
+    "動物",
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dd_we12/dd_we12_32.png",
+   "variant": ""
+  },
+  {
+   "num": "DD/WE12-33",
+   "name": "シンク・イズミ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "2",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが舞台から控え室に置かれた時、あなたは自分の山札の上から1枚を、クロック置場に置く。\n\"おす！勇者として呼んでもらいました、<br />シンク・イズミです！\"",
+   "traits": [
+    "勇者",
+    "スポーツ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dd_we12/dd_we12_33.png",
+   "variant": ""
+  },
+  {
+   "num": "DD/WE12-34",
+   "name": "ケモノダマ",
+   "type": "Event",
+   "rarity": "C",
+   "color": "red",
+   "level": "1",
+   "cost": "2",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "【カウンター】 あなたは自分の《動物》のキャラを2枚まで選び、そのターン中、次の能力を与える。『【自】 このカードが舞台から控え室に置かれた時、あなたはこのカードをこのカードがいた枠に【レスト】して置いてよい。』\n\"にゃー！\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dd_we12/dd_we12_34.png",
+   "variant": ""
+  },
+  {
+   "num": "DD/WE12-35",
+   "name": "勇者降臨！",
+   "type": "Climax",
+   "rarity": "C",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[salvage.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[salvage.gif]]：このカードがトリガーした時、あなたは自分の控え室のキャラを1枚選び、手札に戻してよい）\n\"はじめまして……召喚に応えて下さった、<br />勇者様でいらっしゃいますね？\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dd_we12/dd_we12_35.png",
+   "variant": ""
+  },
+  {
+   "num": "DD/WE12-36",
+   "name": "リコのサポート",
+   "type": "Climax",
+   "rarity": "C",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【自】 このカードが手札からクライマックス置場に置かれた時、あなたは1枚引き、自分のキャラを1枚選び、そのターン中、パワーを＋2000し、ソウルを＋1。\n\"戦場では、<br />砲術士をやらせていただいてるであります！\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dd_we12/dd_we12_36.png",
+   "variant": ""
+  }
+ ]
+}

@@ -1,0 +1,842 @@
+{
+ "id": "jp-dg-e59",
+ "name": "魔界戦記ディスガイア4",
+ "expansion": 59,
+ "lang": "jp",
+ "release": null,
+ "shopItem": null,
+ "box": null,
+ "cards": [
+  {
+   "num": "DG/SE08-01",
+   "name": "プリニー殲滅部隊のリーダー フーカ",
+   "type": "Character",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "1",
+   "cost": "1",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 あなたがこのカードの『助太刀』を使った時、あなたの《プリニー》のキャラがいるなら、あなたは自分のバトル中のキャラを1枚選び、そのターン中、パワーを＋1000。\n【起】【カウンター】 助太刀1500 レベル1 ［(1) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋1500）\n\"アタシはプリニーじゃない！！　風祭フーカよ！！\"",
+   "traits": [
+    "プリニー",
+    "死"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dg_se08/dg_se08_01.png",
+   "variant": ""
+  },
+  {
+   "num": "DG/SE08-02",
+   "name": "“乙女の思い込み”フーカ",
+   "type": "Character",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "7500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】［手札を1枚控え室に置く］ あなたのクライマックス置場に「プリニー・ウォーズ」が置かれた時、前列にこのカードがいるなら、あなたはコストを払ってよい。そうしたら、あなたはこのカードの正面のレベル2以下のキャラを1枚選び、山札に戻す。相手はその山札をシャッフルする。\n【自】 アンコール ［あなたの山札の上から1枚をクロック置場に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"ハッピーエンド以外の夢は、お断りよ！！\"",
+   "traits": [
+    "プリニー",
+    "死"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dg_se08/dg_se08_02.png",
+   "variant": ""
+  },
+  {
+   "num": "DG/SE08-03",
+   "name": "死神 エミーゼル",
+   "type": "Character",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "2",
+   "cost": "2",
+   "power": "8000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたの手札が4枚以下なら、このカードのパワーを＋1000。\n【自】 このカードのバトル相手が【リバース】した時、あなたはそのキャラをストック置場に置いてよい。\n\"死神として、お前の魂……刈り取らせてもらうぞ？\"",
+   "traits": [
+    "悪魔",
+    "死"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dg_se08/dg_se08_03.png",
+   "variant": ""
+  },
+  {
+   "num": "DG/SE08-04",
+   "name": "風祭 フーカ",
+   "type": "Character",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたの山札が5枚以下なら、あなたの手札のこのカードのレベルを－1。\n【自】 このカードが手札から舞台に置かれた時、そのターン中、このカードのパワーを＋3000し、ソウルを＋2。\n【自】［(1)］ このカードの与えたダメージがキャンセルされた時、あなたはコストを払ってよい。そうしたら、そのターン中、相手は『【自】 アンコール』を使えない。（ルールによる『【自】 アンコール ［(3)］』も使えない）\n\"さすがアタシの夢！　ハッピーエンドも近そうね！！\"",
+   "traits": [
+    "プリニー",
+    "死"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dg_se08/dg_se08_04.png",
+   "variant": ""
+  },
+  {
+   "num": "DG/SE08-05",
+   "name": "“おねえさま”フーカ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋500。\n【自】 このカードが手札から舞台に置かれた時、あなたは他の自分の《クローン》のキャラを1枚選び、そのターン中、レベルを＋1し、パワーを＋500。\n\"守ってくれるんでしょ？　ラスボスとして\"",
+   "traits": [
+    "プリニー",
+    "死"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dg_se08/dg_se08_05.png",
+   "variant": ""
+  },
+  {
+   "num": "DG/SE08-06",
+   "name": "生意気なお坊ちゃん エミーゼル",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 相手のクライマックス置場にクライマックスがあるなら、このカードの正面のキャラのソウルを－1。\n\"オレ様のことは、エミーゼル様と呼ぶんだ。<br />大統領の御曹司エミーゼル様とな！！\"",
+   "traits": [
+    "悪魔",
+    "死"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dg_se08/dg_se08_06.png",
+   "variant": ""
+  },
+  {
+   "num": "DG/SE08-07",
+   "name": "特殺任務部隊のリーダー エミーゼル",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【起】 集中 ［(1)］ あなたは自分の山札の上から4枚をめくり、控え室に置く。あなたは自分の山札を見て《死》のキャラをＸ枚まで選んで相手に見せ、手札に加える。その山札をシャッフルする。あなたは自分の手札をＸ枚選び、控え室に置く。Ｘはそれらのカードのクライマックスの枚数に等しい。\n\"うるさいっ！　オレ様は弱くない！！\"",
+   "traits": [
+    "悪魔",
+    "死"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dg_se08/dg_se08_07.png",
+   "variant": ""
+  },
+  {
+   "num": "DG/SE08-08",
+   "name": "プリニー帽子の少女 フーカ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【起】［あなたのキャラを2枚【レスト】する］ そのターン中、このカードのレベルを＋1し、パワーを＋1500。\n\"フフフ！　待っていたわよ！\"",
+   "traits": [
+    "プリニー",
+    "死"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dg_se08/dg_se08_08.png",
+   "variant": ""
+  },
+  {
+   "num": "DG/SE08-09",
+   "name": "地獄に堕ちてきた中学生 フーカ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは相手の控え室のクライマックスを1枚選び、山札に戻してよい。そうしたら、相手はその山札をシャッフルし、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋3000。\n\"これは戦争よ！！　悪夢を断ち切り、もっと乙女チックな夢を手に入れるための自由と青春の闘争なのよ！\"",
+   "traits": [
+    "プリニー",
+    "死"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dg_se08/dg_se08_09.png",
+   "variant": ""
+  },
+  {
+   "num": "DG/SE08-10",
+   "name": "魔界大統領Jr エミーゼル",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "1",
+   "cost": "1",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたのターン中、他のあなたのキャラすべてに、パワーを＋Ｘ。Ｘはそのキャラのレベル×500に等しい。\n【自】［(2) このカードを控え室に置く］ あなたのクライマックス置場に「不死鳥の誓い」が置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「死神 エミーゼル」を1枚選び、このカードがいた枠に置く。\n\"ボクは自分のチカラで、絶対に一人前の悪魔になってみせる！！\"",
+   "traits": [
+    "悪魔",
+    "死"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dg_se08/dg_se08_10.png",
+   "variant": ""
+  },
+  {
+   "num": "DG/SE08-11",
+   "name": "ラズベリル大統領閣下",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "2",
+   "cost": "2",
+   "power": "8000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 あなたが『集中』を使った時、その効果でクライマックスが控え室に置かれたなら、そのターン中、このカードのパワーを＋2000。\n【自】 このカードの与えたダメージがキャンセルされた時、そのターン中、このカードのパワーを＋3000。\n\"魔ニフェストは一日一善！<br />この魔界を不良の巣窟にしてみせるぜ！！\"",
+   "traits": [
+    "悪魔",
+    "不良"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dg_se08/dg_se08_11.png",
+   "variant": ""
+  },
+  {
+   "num": "DG/SE08-12",
+   "name": "プリニー・ウォーズ",
+   "type": "Climax",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【自】 このカードが手札からクライマックス置場に置かれた時、あなたは1枚引き、自分のキャラを1枚選び、そのターン中、パワーを＋2000し、ソウルを＋1。\n\"プリニーも、プリニー教育係のアンタたちも、みんなそろって殲滅よ、センメツ！！\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dg_se08/dg_se08_12.png",
+   "variant": ""
+  },
+  {
+   "num": "DG/SE08-13",
+   "name": "不死鳥の誓い",
+   "type": "Climax",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[shot.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[shot.gif]]：このターン中、このカードをトリガーした攻撃キャラが次に与えるダメージがキャンセルされた時、相手に1ダメージを与える）\n\"今度はボク自身のチカラで存在を認められるようになりたい\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dg_se08/dg_se08_13.png",
+   "variant": ""
+  },
+  {
+   "num": "DG/SE08-14",
+   "name": "怪盗天使 アルティナ",
+   "type": "Character",
+   "rarity": "R",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［あなたの【スタンド】しているキャラを2枚【レスト】する］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分のキャラを1枚選び、そのターン中、次の能力を与える。『【自】 このカードのバトル相手が【リバース】した時、あなたは自分の山札の上から1枚を、ストック置場に置いてよい。』\n\"もちろん、わたくしは最初から全力で祈ってますわよ？\"",
+   "traits": [
+    "天使",
+    "怪盗"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dg_se08/dg_se08_14.png",
+   "variant": ""
+  },
+  {
+   "num": "DG/SE08-15",
+   "name": "天使長 フロン",
+   "type": "Character",
+   "rarity": "R",
+   "color": "green",
+   "level": "1",
+   "cost": "1",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 応援 このカードの前のあなたのレベル2以上のキャラすべてに、パワーを＋1000。\n【起】［(2) あなたのキャラを2枚【レスト】する］ あなたは自分の山札を見て《悪魔》か《天使》か《愛》のキャラを1枚まで選んで相手に見せ、手札に加える。その山札をシャッフルする。\n\"『愛』ですッ！！！！<br />祈り……それは愛のチカラとなるのです！！\"",
+   "traits": [
+    "天使",
+    "愛"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dg_se08/dg_se08_15.png",
+   "variant": ""
+  },
+  {
+   "num": "DG/SE08-16",
+   "name": "神出鬼没 アルティナ",
+   "type": "Character",
+   "rarity": "R",
+   "color": "green",
+   "level": "2",
+   "cost": "1",
+   "power": "6000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの前列の中央の枠のキャラに、パワーを＋1000。\n【自】 あなたのアンコールステップの始めに、クライマックス置場に「悪魔と天使の絆」があるなら、あなたはこのカードを【レスト】し、舞台の好きな枠に動かす。（今いる枠を選んでもよい）\n\"フフフッ。それでは皆さん、ごきげんよう\"",
+   "traits": [
+    "天使",
+    "怪盗"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dg_se08/dg_se08_16.png",
+   "variant": ""
+  },
+  {
+   "num": "DG/SE08-17",
+   "name": "看護師 アルティナ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 絆／「暴君 ヴァルバトーゼ」 ［(1)］ （このカードがプレイされて舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「暴君 ヴァルバトーゼ」を1枚選び、手札に戻す）\n\"わたくしの血を吸うというのでしたら、どうぞ\"",
+   "traits": [
+    "ナース",
+    "愛"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dg_se08/dg_se08_17.png",
+   "variant": ""
+  },
+  {
+   "num": "DG/SE08-18",
+   "name": "断罪者 ネモ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 バトル中のこのカードが【リバース】した時、あなたは相手のクロックを1枚選び、控え室に置いてよい。そうしたら、相手は自分の山札の上から1枚を、クロック置場に置く。\n\"ボクは犯罪者じゃない。<br />人間どもの罪を処断するために生まれた断罪者だよ\"",
+   "traits": [
+    "霊",
+    "メガネ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dg_se08/dg_se08_18.png",
+   "variant": ""
+  },
+  {
+   "num": "DG/SE08-19",
+   "name": "“業欲の天使”ブルカノ（？）",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "",
+   "text": "-\n\"悪魔なのに世直しですか？　フフッ、変な吸血鬼さん\"",
+   "traits": [
+    "天使",
+    "怪盗"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dg_se08/dg_se08_19.png",
+   "variant": ""
+  },
+  {
+   "num": "DG/SE08-20",
+   "name": "ナイスバディ・エトナ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは相手の控え室のクライマックスを1枚選び、山札に戻す。相手はその山札をシャッフルする。\n\"ナイスバディだけは、譲れないのよォォォォーッッ！！！！\"",
+   "traits": [
+    "悪魔",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dg_se08/dg_se08_20.png",
+   "variant": ""
+  },
+  {
+   "num": "DG/SE08-21",
+   "name": "天界からの密入界者 アルティナ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "1",
+   "cost": "1",
+   "power": "6000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのストックが4枚以上なら、このカードのパワーを＋1000。\n【自】 アンコール ［手札のキャラを1枚控え室に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"お待ちください、天使長様。あと少しで、目標金額達成ですわ\"",
+   "traits": [
+    "天使",
+    "怪盗"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dg_se08/dg_se08_21.png",
+   "variant": ""
+  },
+  {
+   "num": "DG/SE08-22",
+   "name": "超合金ロボ グレートフロンガーＸ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "2",
+   "cost": "2",
+   "power": "8500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたの山札が5枚以下なら、あなたは自分の控え室のカードすべてを山札に戻す。そうしたら、その山札をシャッフルし、次の相手のターンの終わりまで、このカードのパワーを＋3000。\n\"天使長フロン「青い地球を守るため！<br />時空を超えてやってきた！　愛の祈りが呼ぶチカラ！！」\"",
+   "traits": [
+    "メカ",
+    "愛"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dg_se08/dg_se08_22.png",
+   "variant": ""
+  },
+  {
+   "num": "DG/SE08-23",
+   "name": "悪魔と天使の絆",
+   "type": "Climax",
+   "rarity": "C",
+   "color": "green",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[treasure.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[treasure.gif]]：このカードがトリガーした時、あなたはこのカードを手札に戻す。あなたは自分の山札の上から1枚を、ストック置場に置いてよい）\n\"ヴァルバトーゼ「おい……、なぜ俺をかばった？」\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dg_se08/dg_se08_23.png",
+   "variant": ""
+  },
+  {
+   "num": "DG/SE08-24",
+   "name": "プリニーの世話係 フェンリッヒ",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(2)］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の《プリニー》のキャラを1枚選び、手札に戻す。\n【自】［(2)］ このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の《血》のキャラを1枚選び、手札に戻す。\n\"……ここは先手を打っておきますか\"",
+   "traits": [
+    "悪魔",
+    "動物"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dg_se08/dg_se08_24.png",
+   "variant": ""
+  },
+  {
+   "num": "DG/SE08-25",
+   "name": "“イワシのチカラ”ヴァルバトーゼ",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたのキャラが1枚以下なら、このカードのパワーを＋1000し、このカードは次の能力を得る。『【永】 このカードは相手のキャラの【自】の効果によって【リバース】されない。』\n\"最高だ───この『イワシ』という小魚はッ！！！\"",
+   "traits": [
+    "悪魔",
+    "血"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dg_se08/dg_se08_25.png",
+   "variant": ""
+  },
+  {
+   "num": "DG/SE08-26",
+   "name": "悪の美学 ヴァルバトーゼ",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【起】 集中 ［(1)］ あなたは自分の山札の上から4枚をめくり、控え室に置く。それらのカードのクライマックス1枚につき、あなたは自分の《悪魔》のキャラを1枚選び、そのターン中、パワーを＋2000。\n\"何度言えば、わかるのだ！？　誇り高き悪魔であるこの俺が約束を破ることなど、ありえんと！！\"",
+   "traits": [
+    "悪魔",
+    "血"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dg_se08/dg_se08_26.png",
+   "variant": ""
+  },
+  {
+   "num": "DG/SE08-27",
+   "name": "暴君 ヴァルバトーゼ",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは他の自分の《悪魔》のキャラを1枚選び、そのターン中、パワーを＋1000。\n【自】 このカードが【リバース】した時、このカードのバトル相手のレベルが2以下なら、あなたはそのキャラを【リバース】してよい。\n\"悪魔を恐れぬ人間から血を吸うなど、俺のプライドが許さん\"",
+   "traits": [
+    "悪魔",
+    "血"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dg_se08/dg_se08_27.png",
+   "variant": ""
+  },
+  {
+   "num": "DG/SE08-28",
+   "name": "ヴァル様の参謀 フェンリッヒ",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "6500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 他のあなたのバトル中の《悪魔》のキャラが【リバース】した時、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋2000。\n\"その悪魔らしからぬ『仲間を信じる心』もまた我が主、ヴァルバトーゼ様の恐るべき特殊能力……\"",
+   "traits": [
+    "悪魔",
+    "動物"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dg_se08/dg_se08_28.png",
+   "variant": ""
+  },
+  {
+   "num": "DG/SE08-29",
+   "name": "プリニーの教育係 ヴァルバトーゼ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの《プリニー》のキャラすべてに、パワーを＋500。\n【自】 このカードが【リバース】した時、このカードのバトル相手のレベルが0以下なら、あなたはそのキャラを【リバース】してよい。\n\"よかろう！　見せてやるとも！　戦うプリニー教育係の姿をな！！\"",
+   "traits": [
+    "悪魔",
+    "血"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dg_se08/dg_se08_29.png",
+   "variant": ""
+  },
+  {
+   "num": "DG/SE08-30",
+   "name": "人狼族の執事 フェンリッヒ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたのキャラが1枚以下なら、他のあなたのキャラすべてに、パワーを＋1500。\n\"閣下……！　そんなにポンポンとくだらない約束をしてもらっては困ります！\"",
+   "traits": [
+    "悪魔",
+    "動物"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dg_se08/dg_se08_30.png",
+   "variant": ""
+  },
+  {
+   "num": "DG/SE08-31",
+   "name": "絶対の忠誠 フェンリッヒ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードの与えたダメージがキャンセルされた時、あなたのクライマックス置場に「月の誓い」があるなら、あなたは自分の控え室のキャラを1枚選び、手札に戻す。\n\"月は、わたくしにとって閣下に対する忠誠の証\"",
+   "traits": [
+    "悪魔",
+    "動物"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dg_se08/dg_se08_31.png",
+   "variant": ""
+  },
+  {
+   "num": "DG/SE08-32",
+   "name": "魔王ラハール大統領閣下",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "1",
+   "cost": "1",
+   "power": "7000",
+   "soul": 1,
+   "trigger": "",
+   "text": "-\n\"この世界に主役は、ただひとり！　それが、このオレさま！<br />魔王ラハール大統領閣下だ！！\"",
+   "traits": [
+    "悪魔",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dg_se08/dg_se08_32.png",
+   "variant": ""
+  },
+  {
+   "num": "DG/SE08-33",
+   "name": "誇り高き悪魔 ヴァルバトーゼ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【起】【カウンター】 助太刀3000 レベル2 ［(1) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋3000）\n\"心配には及ばぬ。俺に任せておけ\"",
+   "traits": [
+    "悪魔",
+    "血"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dg_se08/dg_se08_33.png",
+   "variant": ""
+  },
+  {
+   "num": "DG/SE08-34",
+   "name": "神への反逆者 ヴァルバトーゼ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの、《悪魔》か《天使》か《プリニー》のキャラが3枚以上なら、このカードのパワーを＋1000。\n【永】 このカードの正面のキャラのソウルを－1。\n【自】［(1)］ あなたのクライマックス置場に「『絆』のチカラ」が置かれた時、前列にこのカードがいるなら、あなたはコストを払ってよい。そうしたら、あなたは相手の前列のレベル3以下のキャラを1枚選び、控え室に置く。\n\"……では、ゆくとするか。神への反逆の道を！\"",
+   "traits": [
+    "悪魔",
+    "血"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dg_se08/dg_se08_34.png",
+   "variant": ""
+  },
+  {
+   "num": "DG/SE08-35",
+   "name": "『絆』のチカラ",
+   "type": "Climax",
+   "rarity": "C",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[salvage.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[salvage.gif]]：このカードがトリガーした時、あなたは自分の控え室のキャラを1枚選び、手札に戻してよい）\n\"───神よ！！　人間に罪を償わせるのは悪魔の役目！　キサマの出番は終了だ！！\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dg_se08/dg_se08_35.png",
+   "variant": ""
+  },
+  {
+   "num": "DG/SE08-36",
+   "name": "月の誓い",
+   "type": "Climax",
+   "rarity": "C",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【永】 あなたのキャラすべてに、ソウルを＋2。\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dg_se08/dg_se08_36.png",
+   "variant": ""
+  },
+  {
+   "num": "DG/SE08-37",
+   "name": "ラスボスを目指す乙女 デスコ",
+   "type": "Character",
+   "rarity": "R",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの、《クローン》か《死》のキャラすべてに、パワーを＋500。\n【起】 集中 ［(1) このカードを【レスト】する］ あなたは自分の山札の上から4枚をめくり、控え室に置く。それらのカードのクライマックス1枚につき、あなたは1枚まで引く。\n\"も、もちろんデス！　おねえさま！\"",
+   "traits": [
+    "悪魔",
+    "クローン"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dg_se08/dg_se08_37.png",
+   "variant": ""
+  },
+  {
+   "num": "DG/SE08-38",
+   "name": "夢見がちでファンシー デスコ",
+   "type": "Character",
+   "rarity": "R",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 あなたが『集中』を使った時、その効果でクライマックスが控え室に置かれたなら、そのターン中、このカードのパワーを＋2000。\n\"……じゃあ、三段変身とか、世界の半分をエサに勇者さんを誘惑したりもできるデスか？\"",
+   "traits": [
+    "悪魔",
+    "クローン"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dg_se08/dg_se08_38.png",
+   "variant": ""
+  },
+  {
+   "num": "DG/SE08-39",
+   "name": "“最終兵器ＤＥＳＣＯ”",
+   "type": "Character",
+   "rarity": "R",
+   "color": "blue",
+   "level": "3",
+   "cost": "2",
+   "power": "9500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 このカードのパワーを＋Ｘ。Ｘはこのカードの正面のキャラのレベル×500に等しい。\n【自】 このカードが手札から舞台に置かれた時か『チェンジ』で舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分の【スタンド】しているキャラを1枚選び、【レスト】する。\n\"我こそが……全世界を獄炎の海に沈めたもう混沌の根源、最終兵器ＤＥＳＣＯである！！！\"",
+   "traits": [
+    "悪魔",
+    "クローン"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dg_se08/dg_se08_39.png",
+   "variant": ""
+  },
+  {
+   "num": "DG/SE08-40",
+   "name": "特別房のヌシ デスコ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 相手のターン中、このカードのパワーを＋1000。\n\"ウソじゃないデス！！　デスコはラスボスなんデス！！\"",
+   "traits": [
+    "悪魔",
+    "クローン"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dg_se08/dg_se08_40.png",
+   "variant": ""
+  },
+  {
+   "num": "DG/SE08-41",
+   "name": "<s>第６２代魔界大統領</s> アクターレ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 バトル中のこのカードが【リバース】した時、このカードを山札の下に置く。\n【起】［あなたの《悪魔》のキャラを2枚【レスト】する］ あなたは自分のキャラを1枚選び、そのターン中、パワーを＋2000。\n\"聞き惚れるがいい！！<br />オレ様の美声を！　オレ様の歌を！！\"",
+   "traits": [
+    "悪魔",
+    "ダークヒーロー"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dg_se08/dg_se08_41.png",
+   "variant": ""
+  },
+  {
+   "num": "DG/SE08-42",
+   "name": "地獄の獄長 アクターレ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "5500",
+   "soul": 1,
+   "trigger": "",
+   "text": "-\n\"イッツ　ア　アクターレ　ワールド！！\"",
+   "traits": [
+    "悪魔",
+    "ダークヒーロー"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dg_se08/dg_se08_42.png",
+   "variant": ""
+  },
+  {
+   "num": "DG/SE08-43",
+   "name": "ラスボス修行 デスコ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "7000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】［(1)］ あなたのクライマックス置場に「最終兵器、現る」が置かれた時、前列にこのカードがいるなら、あなたはコストを払ってよい。そうしたら、あなたは相手のコスト0以下のキャラを1枚選び、山札の下に置く。\n【自】 チェンジ ［(2) このカードを控え室に置く］ あなたのアンコールステップの始めに、このカードが【レスト】しているなら、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「“最終兵器ＤＥＳＣＯ”」を1枚選び、このカードがいた枠に置く。\n\"デスコ、立派なラスボスになるまで、ついて行くって約束するデス！\"",
+   "traits": [
+    "悪魔",
+    "クローン"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dg_se08/dg_se08_43.png",
+   "variant": ""
+  },
+  {
+   "num": "DG/SE08-44",
+   "name": "“パーフェクトバージョン”デスゼット",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "2",
+   "cost": "2",
+   "power": "8500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 相手のレベルが3以上なら、このカードのパワーを＋500し、このカードは『【自】 アンコール ［手札のキャラを1枚控え室に置く］』を得る。\n\"アタシこそが史上最凶の真のラスボス、デスゼット様なんだからね！！\"",
+   "traits": [
+    "悪魔",
+    "クローン"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dg_se08/dg_se08_44.png",
+   "variant": ""
+  },
+  {
+   "num": "DG/SE08-45",
+   "name": "最終兵器、現る",
+   "type": "Climax",
+   "rarity": "C",
+   "color": "blue",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[draw.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[draw.gif]]：このカードがトリガーした時、あなたは1枚引いてよい）\n\"ククク……　せっかく閉じた地獄の釜を再び開く愚か者がいるとは……\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dg_se08/dg_se08_45.png",
+   "variant": ""
+  }
+ ]
+}

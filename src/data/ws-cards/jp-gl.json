@@ -1,0 +1,489 @@
+{
+ "id": "jp-gl",
+ "name": "[TD+]天元突破グレンラガン",
+ "expansion": 216,
+ "lang": "jp",
+ "release": null,
+ "shopItem": null,
+ "box": null,
+ "cards": [
+  {
+   "num": "GL/S52-T01",
+   "name": "サポート役 ヨーコ",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋500。\n【自】 あなたのクライマックスがクライマックス置場に置かれた時、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋1000。\n\"これでお互い連絡取りながら戦えるわ\"",
+   "traits": [
+    "大グレン団",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gl_s52/gl_s52_t01.png",
+   "variant": ""
+  },
+  {
+   "num": "GL/S52-T01R",
+   "name": "サポート役 ヨーコ",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋500。\n【自】 あなたのクライマックスがクライマックス置場に置かれた時、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋1000。\n\"これでお互い連絡取りながら戦えるわ\"",
+   "traits": [
+    "大グレン団",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gl_s52/gl_s52_t01r.png",
+   "variant": ""
+  },
+  {
+   "num": "GL/S52-T02",
+   "name": "地上から来た女 ヨーコ",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 相手のアタックフェイズの始めに、あなたはこのカードを前列のキャラのいない枠に動かしてよい。\n\"アナタ達、下がってなさい！\"",
+   "traits": [
+    "大グレン団",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gl_s52/gl_s52_t02.png",
+   "variant": ""
+  },
+  {
+   "num": "GL/S52-T02SP",
+   "name": "地上から来た女 ヨーコ",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 相手のアタックフェイズの始めに、あなたはこのカードを前列のキャラのいない枠に動かしてよい。\n\"-\"",
+   "traits": [
+    "大グレン団",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gl_s52/gl_s52_t02sp.png",
+   "variant": ""
+  },
+  {
+   "num": "GL/S52-T03",
+   "name": "“アニキ” カミナ",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 このカードはサイドアタックできない。\n\"カミナじゃねぇ、アニキって呼べ\"",
+   "traits": [
+    "大グレン団",
+    "サングラス"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gl_s52/gl_s52_t03.png",
+   "variant": ""
+  },
+  {
+   "num": "GL/S52-T04",
+   "name": "巨大なライフル ヨーコ",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【起】【カウンター】 助太刀1500 レベル1 ［手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋1500）\n\"-\"",
+   "traits": [
+    "大グレン団",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gl_s52/gl_s52_t04.png",
+   "variant": ""
+  },
+  {
+   "num": "GL/S52-T05",
+   "name": "不撓不屈の鬼リーダー カミナ",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "yellow",
+   "level": "1",
+   "cost": "1",
+   "power": "5500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの「穴掘りシモン」がいるなら、このカードのパワーを＋2000。\n【自】 アンコール ［あなたの山札の上から1枚をクロック置場に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"カミナ様たぁ！俺のことだ！！！\"",
+   "traits": [
+    "大グレン団",
+    "サングラス"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gl_s52/gl_s52_t05.png",
+   "variant": ""
+  },
+  {
+   "num": "GL/S52-T06",
+   "name": "過酷な地上で ヨーコ",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "5500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの《大グレン団》のキャラすべてに、パワーを＋1000。\n【自】［手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは相手の後列のコスト0以下のキャラを1枚選び、ストック置場に置く。\n\"-\"",
+   "traits": [
+    "大グレン団",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gl_s52/gl_s52_t06.png",
+   "variant": ""
+  },
+  {
+   "num": "GL/S52-T06S",
+   "name": "過酷な地上で ヨーコ",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "5500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの《大グレン団》のキャラすべてに、パワーを＋1000。\n【自】［手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは相手の後列のコスト0以下のキャラを1枚選び、ストック置場に置く。\n\"-\"",
+   "traits": [
+    "大グレン団",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gl_s52/gl_s52_t06s.png",
+   "variant": ""
+  },
+  {
+   "num": "GL/S52-T07",
+   "name": "グレン団リーダー カミナ",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "yellow",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたのターン中、他のあなたの《大グレン団》のキャラ1枚につき、このカードのパワーを＋500。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n\"あの背中に笑われねぇ男になる\"",
+   "traits": [
+    "大グレン団",
+    "サングラス"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gl_s52/gl_s52_t07.png",
+   "variant": ""
+  },
+  {
+   "num": "GL/S52-T07R",
+   "name": "グレン団リーダー カミナ",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "yellow",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたのターン中、他のあなたの《大グレン団》のキャラ1枚につき、このカードのパワーを＋500。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n\"あの背中に笑われねぇ男になる\"",
+   "traits": [
+    "大グレン団",
+    "サングラス"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gl_s52/gl_s52_t07r.png",
+   "variant": ""
+  },
+  {
+   "num": "GL/S52-T08",
+   "name": "俺を誰だと思っていやがる!!",
+   "type": "Climax",
+   "rarity": "TD",
+   "color": "yellow",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[bounce.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[bounce.gif]]：このカードがトリガーした時、あなたは相手のキャラを1枚選び、手札に戻してよい）\n\"合体ってのは！気合と気合のぶつかり合いなんだよ!!\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gl_s52/gl_s52_t08.png",
+   "variant": ""
+  },
+  {
+   "num": "GL/S52-T09",
+   "name": "チビブタモグラ ブータ",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの「ジーハ村の少年 シモン」すべてに、パワーを＋1000。\n【自】 絆／「ジーハ村の少年 シモン」 ［(1)］ （このカードがプレイされて舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「ジーハ村の少年 シモン」を1枚選び、手札に戻す）\n\"ブィ！\"",
+   "traits": [
+    "大グレン団",
+    "動物"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gl_s52/gl_s52_t09.png",
+   "variant": ""
+  },
+  {
+   "num": "GL/S52-T10",
+   "name": "穴掘りシモン",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 あなたのクライマックスフェイズの始めに、他のあなたのカード名に「カミナ」を含むキャラがいるなら、あなたは他の自分のキャラを1枚選び、そのターン中、パワーを＋1000。\n【起】 集中 ［(1) このカードを【レスト】する］ あなたは自分の山札の上から4枚をめくり、控え室に置く。それらのカードのクライマックス1枚につき、あなたは1枚まで引く。\n\"-\"",
+   "traits": [
+    "大グレン団",
+    "ドリル"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gl_s52/gl_s52_t10.png",
+   "variant": ""
+  },
+  {
+   "num": "GL/S52-T11",
+   "name": "ラガン",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【起】［このカードを【レスト】する］ あなたは自分の《大グレン団》のキャラを1枚選び、そのターン中、パワーを＋1500。\n\"-\"",
+   "traits": [
+    "大グレン団",
+    "ドリル"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gl_s52/gl_s52_t11.png",
+   "variant": ""
+  },
+  {
+   "num": "GL/S52-T11R",
+   "name": "ラガン",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【起】［このカードを【レスト】する］ あなたは自分の《大グレン団》のキャラを1枚選び、そのターン中、パワーを＋1500。\n\"-\"",
+   "traits": [
+    "大グレン団",
+    "ドリル"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gl_s52/gl_s52_t11r.png",
+   "variant": ""
+  },
+  {
+   "num": "GL/S52-T12",
+   "name": "天を突くドリル ラガン",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの《大グレン団》のキャラが2枚以上なら、このカードのパワーを＋1000。\n【自】【CXコンボ】 このカードのバトル相手が【リバース】した時、あなたのクライマックス置場に「お前のドリルで天を突け!!」があるなら、あなたは自分の控え室のキャラを1枚選び、手札に戻してよい。\n\"うぉぉおおーーー！！\"",
+   "traits": [
+    "大グレン団",
+    "ドリル"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gl_s52/gl_s52_t12.png",
+   "variant": ""
+  },
+  {
+   "num": "GL/S52-T13",
+   "name": "ジーハ村の少年 シモン",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "5500",
+   "soul": 1,
+   "trigger": "",
+   "text": "-\n\"-\"",
+   "traits": [
+    "大グレン団",
+    "ドリル"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gl_s52/gl_s52_t13.png",
+   "variant": ""
+  },
+  {
+   "num": "GL/S52-T14",
+   "name": "コイツの名前は グレン",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "6500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 このカードの下にマーカーがないなら、このカードのパワーを－4000。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分の控え室の、「“アニキ” カミナ」か「グレン団リーダー カミナ」を1枚選び、このカードの下にマーカーとして表向きに置いてよい。\n\"-\"",
+   "traits": [
+    "大グレン団",
+    "サングラス"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gl_s52/gl_s52_t14.png",
+   "variant": ""
+  },
+  {
+   "num": "GL/S52-T15",
+   "name": "グレン",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の控え室の「合体！グレンラガン」を2枚まで選び、山札の下に好きな順番で置く。\n【起】 合体 ［あなたの舞台の「ラガン」を1枚このカードの下にマーカーとして表向きに置く］ あなたは自分の山札を見て「合体！グレンラガン」を1枚まで選び、このカードがいる枠に置き、このカードの下のマーカーすべてとこのカードをその「合体！グレンラガン」の下にマーカーとして好きな順番で表向きに置き、その山札をシャッフルする。\n\"アレっつったら決まってんだろ！合体だ！！\"",
+   "traits": [
+    "大グレン団",
+    "サングラス"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gl_s52/gl_s52_t15.png",
+   "variant": ""
+  },
+  {
+   "num": "GL/S52-T16",
+   "name": "アニキを救え！ シモン",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "7500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 この能力は1ターンにつき2回まで発動する。他のあなたの《大グレン団》のキャラが手札から舞台に置かれた時、あなたは自分の山札の上から1枚を、控え室に置いてよい。そのカードが《大グレン団》のキャラなら、そのターン中、このカードのパワーを＋3000。\n\"アニキィィーーー！\"",
+   "traits": [
+    "大グレン団",
+    "ドリル"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gl_s52/gl_s52_t16.png",
+   "variant": ""
+  },
+  {
+   "num": "GL/S52-T17",
+   "name": "合体！グレンラガン",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時か『合体』で舞台に置かれた時、あなたは2枚まで引き、自分の手札を1枚選び、控え室に置く。\n【自】［(1) 手札を1枚控え室に置く］ このカードのバトル相手が【リバース】した時、あなたはコストを払ってよい。そうしたら、相手に1ダメージを与える。（ダメージキャンセルは発生する）\n\"男の魂燃え上がる！度胸合体！！グレンラガン！！！\"",
+   "traits": [
+    "大グレン団",
+    "ドリル"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gl_s52/gl_s52_t17.png",
+   "variant": ""
+  },
+  {
+   "num": "GL/S52-T17S",
+   "name": "合体！グレンラガン",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時か『合体』で舞台に置かれた時、あなたは2枚まで引き、自分の手札を1枚選び、控え室に置く。\n【自】［(1) 手札を1枚控え室に置く］ このカードのバトル相手が【リバース】した時、あなたはコストを払ってよい。そうしたら、相手に1ダメージを与える。（ダメージキャンセルは発生する）\n\"男の魂燃え上がる！度胸合体！！グレンラガン！！！\"",
+   "traits": [
+    "大グレン団",
+    "ドリル"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gl_s52/gl_s52_t17s.png",
+   "variant": ""
+  },
+  {
+   "num": "GL/S52-T18",
+   "name": "クロスカウンター",
+   "type": "Event",
+   "rarity": "TD",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "【カウンター】 あなたは自分のバトル中の「合体！グレンラガン」を1枚選び、そのターン中、パワーを＋3000し、次の能力を与える。『【自】 このカードのバトル相手が【リバース】した時、あなたは相手に4ダメージを与えてよい。』（ダメージキャンセルは発生する）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gl_s52/gl_s52_t18.png",
+   "variant": ""
+  },
+  {
+   "num": "GL/S52-T19",
+   "name": "お前のドリルで天を突け！！",
+   "type": "Climax",
+   "rarity": "TD",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【自】 このカードが手札からクライマックス置場に置かれた時、あなたは自分の控え室の赤のカードを1枚まで選び、ストック置場に置き、自分のキャラすべてに、そのターン中、ソウルを＋1。\n\"カミナ「あばよ、ジーハ村。俺たちは地上へ行く。<br>ガキの時見た地上へなぁ！！」\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gl_s52/gl_s52_t19.png",
+   "variant": ""
+  },
+  {
+   "num": "GL/S52-T20",
+   "name": "やっぱり地上はあったんじゃねぇか！",
+   "type": "Climax",
+   "rarity": "TD",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【永】 あなたのキャラすべてに、ソウルを＋2。\n\"このデカ顔は地上から！上から落ちてきた！\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gl_s52/gl_s52_t20.png",
+   "variant": ""
+  }
+ ]
+}

@@ -1,0 +1,511 @@
+{
+ "id": "jp-mh-e30",
+ "name": "宇宙をかける少女／舞-HiME＆舞-乙HiME Vol.02",
+ "expansion": 30,
+ "lang": "jp",
+ "release": null,
+ "shopItem": null,
+ "box": null,
+ "cards": [
+  {
+   "num": "MH/WE05-02",
+   "name": "真白＆二三",
+   "type": "Character",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "6000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの《エレメント》のキャラすべてに、パワーを＋1000。\n【起】［(2) このカードを【レスト】する］ あなたは自分の山札を見て《エレメント》のキャラを1枚まで選んで相手に見せ、手札に加える。その山札をシャッフルする。\n\"二三「お疲れになりましたか？」\"",
+   "traits": [
+    "エレメント",
+    "メイド"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mh_we05/mh_we05_02.png",
+   "variant": ""
+  },
+  {
+   "num": "MH/WE05-04",
+   "name": "“蒼天と海神”アリカ＆ニナ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたのキャラが1枚以下なら、このカードのパワーを＋1500。\n\"アリカ「ニナちゃん、いっくよ～っ！」\"",
+   "traits": [
+    "エレメント",
+    "宝石"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mh_we05/mh_we05_04.png",
+   "variant": ""
+  },
+  {
+   "num": "MH/WE05-06",
+   "name": "アリッサ＆深優",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "",
+   "text": "-\n\"アリッサも、深優が大好き\"",
+   "traits": [
+    "音楽",
+    "メカ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mh_we05/mh_we05_06.png",
+   "variant": ""
+  },
+  {
+   "num": "MH/WE05-08",
+   "name": "雪之＆遥",
+   "type": "Character",
+   "rarity": "R",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 この能力は1ターンにつき2回まで発動する。他のあなたの《生徒会》のキャラが、手札から舞台に置かれた時、そのターン中、このカードのパワーを＋1000。\n\"雪之「遥ちゃん…」\"",
+   "traits": [
+    "生徒会",
+    "メガネ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mh_we05/mh_we05_08.png",
+   "variant": ""
+  },
+  {
+   "num": "MH/WE05-09",
+   "name": "舞衣＆なつき＆命",
+   "type": "Character",
+   "rarity": "R",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードがアタックした時、クライマックス置場に「HiMEの力」があるなら、そのターン中、このカードのパワーを＋3000。\n\"あたしも、毎日楽しいよ\"",
+   "traits": [
+    "エレメント",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mh_we05/mh_we05_09.png",
+   "variant": ""
+  },
+  {
+   "num": "MH/WE05-12",
+   "name": "結城 奈緒",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "1",
+   "cost": "1",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 アンコール ［手札のキャラを1枚控え室に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n【起】［手札を1枚控え室に置く］ そのターン中、このカードのパワーを＋2500。\n\"ふふ、こっちこっち\"",
+   "traits": [
+    "エレメント",
+    "保健室"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mh_we05/mh_we05_12.png",
+   "variant": ""
+  },
+  {
+   "num": "MH/WE05-13",
+   "name": "ハルカ＆アリカ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "2",
+   "cost": "2",
+   "power": "8500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの《エレメント》のキャラが2枚以上なら、このカードは『【自】 アンコール ［手札のキャラを1枚控え室に置く］』を得る。\n\"ハルカ「アリカちゃん、オトメに必要なものは？」<br />アリカ「はい！力と技と、根性です！」\"",
+   "traits": [
+    "エレメント",
+    "宝石"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mh_we05/mh_we05_13.png",
+   "variant": ""
+  },
+  {
+   "num": "MH/WE05-14",
+   "name": "美袋 命",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n【自】 このカードが手札から舞台に置かれた時、相手は1か2か3を宣言する。あなたは自分の山札の上から1枚を公開し、そのカードが相手の宣言したレベルのキャラなら、あなたは自分の山札の上からＸ枚までを、ストック置場に置く。Ｘは相手の宣言した数×2に等しい。（そうでないなら元に戻す）\n\"これは命のだぞ\"",
+   "traits": [
+    "エレメント",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mh_we05/mh_we05_14.png",
+   "variant": ""
+  },
+  {
+   "num": "MH/WE05-15",
+   "name": "HiMEの力",
+   "type": "Climax",
+   "rarity": "C",
+   "color": "green",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【永】 あなたのキャラすべてに、ソウルを＋2。\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mh_we05/mh_we05_15.png",
+   "variant": ""
+  },
+  {
+   "num": "MH/WE05-17",
+   "name": "杉浦 碧",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが【リバース】した時、このカードとバトル中のキャラのレベルが0以下なら、あなたはそのキャラを【リバース】してよい。\n【自】［(2)］ このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の《メカ》のキャラを1枚選び、手札に戻す。\n\"ただいまお伺いいたしまー…ああっ！\"",
+   "traits": [
+    "エレメント",
+    "先生"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mh_we05/mh_we05_17.png",
+   "variant": ""
+  },
+  {
+   "num": "MH/WE05-19",
+   "name": "鴇羽 舞衣",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "1",
+   "cost": "1",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋500。\n【自】 他のあなたのバトル中のキャラが【リバース】した時、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋1000。\n\"いらっしゃいませー！\"",
+   "traits": [
+    "エレメント",
+    "ウェイトレス"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mh_we05/mh_we05_19.png",
+   "variant": ""
+  },
+  {
+   "num": "MH/WE05-20",
+   "name": "水着の舞衣＆命",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【起】【カウンター】 助太刀3000 レベル2 ［(1) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋3000）\n\"舞衣「もー、まだ食べるんじゃないわよ」\"",
+   "traits": [
+    "エレメント",
+    "水着"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mh_we05/mh_we05_20.png",
+   "variant": ""
+  },
+  {
+   "num": "MH/WE05-21",
+   "name": "玖我 なつき",
+   "type": "Character",
+   "rarity": "R",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "5500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの「藤乃 静留」がいないなら、このカードはアタックできない。\n【自】 このカードがアタックした時、あなたの《エレメント》のキャラすべてに、そのターン中、パワーを＋500。\n\"警察など、何も出来ないさ。<br />この学園の裏に蠢く力の前にはな……\"",
+   "traits": [
+    "エレメント",
+    "バイク"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mh_we05/mh_we05_21.png",
+   "variant": ""
+  },
+  {
+   "num": "MH/WE05-23",
+   "name": "藤乃 静留",
+   "type": "Character",
+   "rarity": "R",
+   "color": "blue",
+   "level": "1",
+   "cost": "1",
+   "power": "6000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの「玖我 なつき」がいないなら、このカードはアタックできない。\n【永】 相手のターン中、このカードのパワーを＋1500。\n\"ええのよ。他ならぬなつきの頼みやからね……\"",
+   "traits": [
+    "エレメント",
+    "生徒会"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mh_we05/mh_we05_23.png",
+   "variant": ""
+  },
+  {
+   "num": "MH/WE05-24",
+   "name": "水着のなつき",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札を上から1枚見て、山札の上か下に置く。\n\"余計なお世話だ\"",
+   "traits": [
+    "エレメント",
+    "水着"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mh_we05/mh_we05_24.png",
+   "variant": ""
+  },
+  {
+   "num": "SK/WE05-01",
+   "name": "最後の希望 秋葉",
+   "type": "Character",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードがアタックした時、クライマックス置場に「黄金銃」があるなら、あなたは自分の《コロニー》のキャラを1枚選び、そのターン中、パワーを＋2500。\n【自】 絆／「ブレインコロニー レオパルド」 ［(1)］ （このカードがプレイされて舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「ブレインコロニー レオパルド」を1枚選び、手札に戻す）\n\"秋葉「行かせて――レオパルドの所に！」\"",
+   "traits": [
+    "コロニー",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sk_we05/sk_we05_01_.png",
+   "variant": ""
+  },
+  {
+   "num": "SK/WE05-03",
+   "name": "ブレインコロニー レオパルド",
+   "type": "Character",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "2",
+   "cost": "2",
+   "power": "8000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたのレベル置場に「最後の希望 秋葉」があるなら、このカードのパワーを＋1500。\n\"おお、この芳醇なアールグレイの香り……\"",
+   "traits": [
+    "コロニー",
+    "メカ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sk_we05/sk_we05_03.png",
+   "variant": ""
+  },
+  {
+   "num": "SK/WE05-05",
+   "name": "願いを受け継ぐ者 秋葉",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのレベル置場の《コロニー》のキャラ1枚につき、このカードのパワーを＋2000。\n\"秋葉「探しに来てくれたんだ、レオパルド」\"",
+   "traits": [
+    "コロニー",
+    "メカ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sk_we05/sk_we05_05.png",
+   "variant": ""
+  },
+  {
+   "num": "SK/WE05-07",
+   "name": "黄金銃",
+   "type": "Climax",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[bounce.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[bounce.gif]]：このカードがトリガーした時、あなたは相手のキャラを1枚選び、手札に戻してよい）\n\"ナミ――！\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sk_we05/sk_we05_07_.png",
+   "variant": ""
+  },
+  {
+   "num": "SK/WE05-10",
+   "name": "ミンタオ＆ブーゲンビリア",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【起】［このカードを【レスト】する］ あなたは自分の「ミンタオ＆ブーゲンビリア」を1枚選び、そのターン中、パワーを＋2500。\n\"ミンタオ「いくわよ、ブー！」\"",
+   "traits": [
+    "コロニー",
+    "警察"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sk_we05/sk_we05_10.png",
+   "variant": ""
+  },
+  {
+   "num": "SK/WE05-11",
+   "name": "いつき＆ウル",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "5500",
+   "soul": 1,
+   "trigger": "",
+   "text": "-\n\"ウル「我々を舐めるなよ。スパイシー」\"",
+   "traits": [
+    "コロニー",
+    "メカ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sk_we05/sk_we05_11.png",
+   "variant": ""
+  },
+  {
+   "num": "SK/WE05-16",
+   "name": "不思議少女ほのか",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "7500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【起】［(1) あなたの《コロニー》のキャラを2枚【レスト】する］ あなたは自分の控え室の、《コロニー》か《メカ》のキャラを1枚選び、手札に戻す。\n\"…なして？\"",
+   "traits": [
+    "コロニー",
+    "超能力"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sk_we05/sk_we05_16.png",
+   "variant": ""
+  },
+  {
+   "num": "SK/WE05-18",
+   "name": "獅子堂 妹子",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの《コロニー》のキャラすべてに、パワーを＋500。\n【起】［手札を1枚控え室に置き、このカードを控え室に置く］ あなたは自分の控え室の《コロニー》のキャラを1枚選び、手札に戻す。\n\"秋葉お嬢様ー♪\"",
+   "traits": [
+    "コロニー",
+    "メカ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sk_we05/sk_we05_18.png",
+   "variant": ""
+  },
+  {
+   "num": "SK/WE05-22",
+   "name": "獅子堂財団総帥 風音",
+   "type": "Character",
+   "rarity": "R",
+   "color": "blue",
+   "level": "1",
+   "cost": "1",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 相手のターン中、他のあなたの、《コロニー》か《超能力》のキャラすべてに、パワーを＋500し、『【自】 アンコール ［(2)］』を与える。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札を上から2枚まで見て、山札の上に好きな順番で置く。\n\"……アブソリュート・ブレイクスルー・コントロールを発動します！\"",
+   "traits": [
+    "コロニー",
+    "メガネ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sk_we05/sk_we05_22.png",
+   "variant": ""
+  },
+  {
+   "num": "SK/WE05-25",
+   "name": "獅子堂 ナミ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたのキャラがいないなら、このカードのパワーを＋2000。\n\"なんなのよ……これ\"",
+   "traits": [
+    "コロニー"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sk_we05/sk_we05_25.png",
+   "variant": ""
+  },
+  {
+   "num": "SK/WE05-26",
+   "name": "獅子堂 神楽",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "7500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードがアタックした時、相手は0か1か2を宣言する。あなたは自分の山札の上から1枚を公開し、そのカードが相手の宣言したレベルのキャラなら、あなたはＸ枚まで引く。Ｘは相手の宣言した数＋1に等しい。（そうでないなら元に戻す）\n\"物わかりの悪い子には、体に教えるしかないか――\"",
+   "traits": [
+    "コロニー",
+    "超能力"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sk_we05/sk_we05_26.png",
+   "variant": ""
+  },
+  {
+   "num": "SK/WE05-27",
+   "name": "小川で遊ぼう！",
+   "type": "Event",
+   "rarity": "C",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "あなたは2枚まで引き、自分の手札を2枚選び、山札の上に置く。\n\"いつき「サイズが合いませんか？怪奇課の標準装備なんですけど」<br />秋葉「ううん、ピッタリ」\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sk_we05/sk_we05_27.png",
+   "variant": ""
+  }
+ ]
+}

@@ -1,0 +1,751 @@
+{
+ "id": "jp-nj",
+ "name": "日常",
+ "expansion": 70,
+ "lang": "jp",
+ "release": null,
+ "shopItem": null,
+ "box": null,
+ "cards": [
+  {
+   "num": "NJ/WE11-01",
+   "name": "“単純な馬鹿”ゆっこ",
+   "type": "Character",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのターン中、他のあなたのキャラすべてに、パワーを＋500。\n【起】［(2)  このカードを【レスト】する］ あなたは自分の山札を見て《漫画》か《仏像》のキャラを1枚まで選んで相手に見せ、手札に加える。その山札をシャッフルする。\n\"あ…あ、ああ…<br />あ、あ…くっ…くくくくく…くっ…\"",
+   "traits": [
+    "特徴なし"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/nj_we11/nj_we11_01.png",
+   "variant": ""
+  },
+  {
+   "num": "NJ/WE11-02",
+   "name": "水上 麻衣",
+   "type": "Character",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの「長野原 みお」がいるなら、このカードは次の能力を得る。『【起】［このカードを【レスト】する］ あなたは自分のキャラを1枚選び、そのターン中、レベルを＋1し、パワーを＋1500。』\n【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋500。\n\"……\"",
+   "traits": [
+    "メガネ",
+    "仏像"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/nj_we11/nj_we11_02.png",
+   "variant": ""
+  },
+  {
+   "num": "NJ/WE11-03",
+   "name": "長野原 みお",
+   "type": "Character",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの「相生 祐子」がいるなら、このカードのパワーを＋2000。\n\"ゆっこ！\"",
+   "traits": [
+    "漫画"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/nj_we11/nj_we11_03.png",
+   "variant": ""
+  },
+  {
+   "num": "NJ/WE11-04",
+   "name": "相生 祐子",
+   "type": "Character",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "1",
+   "cost": "1",
+   "power": "6000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードのバトル相手が【リバース】した時、他のあなたの「水上 麻衣」がいるなら、あなたは他の自分のキャラを1枚選び、そのターン中、ソウルを＋1。\n【自】 アンコール ［手札のキャラを1枚控え室に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"麻衣ちゃん!?\"",
+   "traits": [
+    "特徴なし"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/nj_we11/nj_we11_04.png",
+   "variant": ""
+  },
+  {
+   "num": "NJ/WE11-05",
+   "name": "ハートブレイク みお",
+   "type": "Character",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "8000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】［(1)］ このカードがアタックした時、クライマックス置場に「みおの暴走」があるなら、あなたはコストを払ってよい。そうしたら、そのターン中、このカードは以下の能力のうちあなたが選んだ1つを得る。『【永】 このカードのパワーを＋6000し、ソウルを＋1。』『【自】 このカードのバトル相手が【リバース】した時、あなたは相手のコスト1以下のキャラを1枚選び、ストック置場に置いてよい。』\n\"笹原先輩が…先輩が…<br />先輩…先輩…\"",
+   "traits": [
+    "漫画"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/nj_we11/nj_we11_05.png",
+   "variant": ""
+  },
+  {
+   "num": "NJ/WE11-06",
+   "name": "お調子者 ゆっこ",
+   "type": "Character",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n【自】［(1)］ あなたのクライマックス置場に「時定高校の日常」が置かれた時、前列にこのカードがいるなら、あなたはコストを払ってよい。そうしたら、あなたは相手のキャラを1枚選び、手札に戻し、自分のキャラすべてに、そのターン中、パワーを＋2000。\n\"じゃあ、写したらすぐ返すね\"",
+   "traits": [
+    "特徴なし"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/nj_we11/nj_we11_06.png",
+   "variant": ""
+  },
+  {
+   "num": "NJ/WE11-07",
+   "name": "桜井先生",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋500。\n\"あっ。はい。<br />いませんよ？\"",
+   "traits": [
+    "先生"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/nj_we11/nj_we11_07.png",
+   "variant": ""
+  },
+  {
+   "num": "NJ/WE11-08",
+   "name": "“ふっかつのじゅもん”麻衣",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【起】 集中 ［(1) このカードを【レスト】する］ あなたは自分の山札の上から4枚をめくり、控え室に置く。それらのカードのクライマックス1枚につき、あなたは自分の山札を見てレベル1以下のキャラを1枚まで選んで相手に見せ、手札に加える。その山札をシャッフルする。\n\"ち…よ…た…に・け・と・ら・は、と、ほ・ら・す・て、<br />の・は・て・き、ら・と・な・り・は・し・て…と…\"",
+   "traits": [
+    "メガネ",
+    "仏像"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/nj_we11/nj_we11_08.png",
+   "variant": ""
+  },
+  {
+   "num": "NJ/WE11-09",
+   "name": "中之条 剛",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【起】［あなたのキャラを2枚【レスト】する］ そのターン中、このカードのパワーを＋2000。\n\"なんだ…この、どうしようもない感覚は…！\"",
+   "traits": [
+    "モヒカン"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/nj_we11/nj_we11_09.png",
+   "variant": ""
+  },
+  {
+   "num": "NJ/WE11-10",
+   "name": "“囲碁サッカー部”大工＆関口",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのターン中、このカードのパワーを＋1000。\n\"なんか行っちゃったぞ。<br />これから勧誘しに行こうってのに\"",
+   "traits": [
+    "囲碁サッカー"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/nj_we11/nj_we11_10.png",
+   "variant": ""
+  },
+  {
+   "num": "NJ/WE11-11",
+   "name": "スターラ姫",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "",
+   "text": "-\n\"次\"",
+   "traits": [
+    "王族"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/nj_we11/nj_we11_11.png",
+   "variant": ""
+  },
+  {
+   "num": "NJ/WE11-12",
+   "name": "憤慨 みお",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 このカードの正面のキャラのソウルを＋1。\n\"ゆっこ「え？焼きサバでしょ？」<br />みお「焼きそばだよっ!!」\"",
+   "traits": [
+    "漫画"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/nj_we11/nj_we11_12.png",
+   "variant": ""
+  },
+  {
+   "num": "NJ/WE11-13",
+   "name": "笹原 幸治郎",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "1",
+   "cost": "1",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【起】【カウンター】  助太刀2000 レベル1 ［(1) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋2000）\n\"ぬかしおる\"",
+   "traits": [
+    "メガネ",
+    "演劇"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/nj_we11/nj_we11_13.png",
+   "variant": ""
+  },
+  {
+   "num": "NJ/WE11-14",
+   "name": "立花 みさと",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "1",
+   "cost": "1",
+   "power": "7000",
+   "soul": 1,
+   "trigger": "",
+   "text": "-\n\"別にあんたなんか、<br />何とも思ってないんだからっ!!\"",
+   "traits": [
+    "武器",
+    "スポーツ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/nj_we11/nj_we11_14.png",
+   "variant": ""
+  },
+  {
+   "num": "NJ/WE11-15",
+   "name": "安中 榛名",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋1000。\n\"まあ、なけなしのお金払っちゃったんだし、<br />やつは持って帰んなきゃね\"",
+   "traits": [
+    "特徴なし"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/nj_we11/nj_we11_15.png",
+   "variant": ""
+  },
+  {
+   "num": "NJ/WE11-16",
+   "name": "高崎先生",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "8000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの「桜井先生」1枚につき、このカードのパワーを＋1000。\n\"失神よりも不純異性交遊を取り締まることのほうが、<br />教育者としての…なんだ！その…教育者だ！\"",
+   "traits": [
+    "先生",
+    "囲碁サッカー"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/nj_we11/nj_we11_16.png",
+   "variant": ""
+  },
+  {
+   "num": "NJ/WE11-17",
+   "name": "仏像フェチ 麻衣",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "2",
+   "cost": "2",
+   "power": "8500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードがサイドアタックした時、そのターン中、このカードのソウルを＋1。\n\"弥勒菩薩…\"",
+   "traits": [
+    "メガネ",
+    "仏像"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/nj_we11/nj_we11_17.png",
+   "variant": ""
+  },
+  {
+   "num": "NJ/WE11-18a",
+   "name": "時定高校の日常",
+   "type": "Climax",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【自】 このカードが手札からクライマックス置場に置かれた時、あなたは1枚引き、自分のキャラを1枚選び、そのターン中、パワーを＋2000し、ソウルを＋1。\n\"だるまさんがころんだ\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/nj_we11/nj_we11_18a.png",
+   "variant": ""
+  },
+  {
+   "num": "NJ/WE11-18b",
+   "name": "時定高校の日常",
+   "type": "Climax",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【自】 このカードが手札からクライマックス置場に置かれた時、あなたは1枚引き、自分のキャラを1枚選び、そのターン中、パワーを＋2000し、ソウルを＋1。\n\"みお「は～い撮るよ」\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/nj_we11/nj_we11_18b.png",
+   "variant": ""
+  },
+  {
+   "num": "NJ/WE11-18c",
+   "name": "時定高校の日常",
+   "type": "Climax",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【自】 このカードが手札からクライマックス置場に置かれた時、あなたは1枚引き、自分のキャラを1枚選び、そのターン中、パワーを＋2000し、ソウルを＋1。\n\"ゆっこ「ナムサーン!!」\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/nj_we11/nj_we11_18c.png",
+   "variant": ""
+  },
+  {
+   "num": "NJ/WE11-18d",
+   "name": "時定高校の日常",
+   "type": "Climax",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【自】 このカードが手札からクライマックス置場に置かれた時、あなたは1枚引き、自分のキャラを1枚選び、そのターン中、パワーを＋2000し、ソウルを＋1。\n\"みお「カッコイイっていうのは…！<br />こういうことでしょうが!!!」\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/nj_we11/nj_we11_18d.png",
+   "variant": ""
+  },
+  {
+   "num": "NJ/WE11-19",
+   "name": "みおの暴走",
+   "type": "Climax",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[bounce.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[bounce.gif]]：このカードがトリガーした時、あなたは相手のキャラを1枚選び、手札に戻してよい）\n\"み、みおちゃん！\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/nj_we11/nj_we11_19.png",
+   "variant": ""
+  },
+  {
+   "num": "NJ/WE11-20",
+   "name": "ポニーテール はかせ",
+   "type": "Character",
+   "rarity": "R",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［手札を1枚クロック置場に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見てカード名に「なの」か「阪本」を含むキャラを1枚まで選んで相手に見せ、手札に加える。その山札をシャッフルする。\n\"ねーねー、はかせ、<br />どんくらいお姉さんっぽい？\"",
+   "traits": [
+    "科学",
+    "お菓子"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/nj_we11/nj_we11_20.png",
+   "variant": ""
+  },
+  {
+   "num": "NJ/WE11-21",
+   "name": "コスプレ はかせ",
+   "type": "Character",
+   "rarity": "R",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋500。\n【起】［(2)  あなたの山札の上から1枚をクロック置場に置く］ あなたは自分のカード名に「なの」を含むキャラを1枚選び、そのターン中、《武器》を与え、次の能力を与える。『【永】 このカードがアタックする時、あなたはかわりに相手の後列のキャラを1枚選び、このカードはそのキャラを防御キャラとしてフロントアタックしてよい。』\n\"ちょっと阪本と散歩してくる\"",
+   "traits": [
+    "科学",
+    "お菓子"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/nj_we11/nj_we11_21.png",
+   "variant": ""
+  },
+  {
+   "num": "NJ/WE11-22",
+   "name": "はかせの発明品 なの",
+   "type": "Character",
+   "rarity": "R",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 あなたのクライマックス置場に「なののギミック」が置かれた時、前列にこのカードがいるなら、あなたは自分の山札を見て「雨がっぱ はかせ」を1枚まで選び、舞台の好きな枠に置く。その山札をシャッフルする。\n\"も～。なんでこんなウエポンつけるんですか～\"",
+   "traits": [
+    "メカ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/nj_we11/nj_we11_22.png",
+   "variant": ""
+  },
+  {
+   "num": "NJ/WE11-23",
+   "name": "“おたんじょうび”なの",
+   "type": "Character",
+   "rarity": "R",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "9000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたのカード名に「はかせ」を含むキャラがいないなら、このカードは次の能力を得る。『【永】 このカードはフロントアタックできない。』\n\"どうしてみんな知ってたんだろう？<br />私の誕生日…\"",
+   "traits": [
+    "メカ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/nj_we11/nj_we11_23.png",
+   "variant": ""
+  },
+  {
+   "num": "NJ/WE11-24",
+   "name": "はかせ",
+   "type": "Character",
+   "rarity": "R",
+   "color": "blue",
+   "level": "2",
+   "cost": "2",
+   "power": "8500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】［(2)  手札を1枚控え室に置く］ あなたのクライマックス置場に「東雲研究所の日常」が置かれた時、前列にこのカードがいるなら、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見て「東雲 なの」を1枚まで選び、舞台の好きな枠に置く。その山札をシャッフルする。\n\"ねーねー。なにして遊ぶ？\"",
+   "traits": [
+    "科学",
+    "お菓子"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/nj_we11/nj_we11_24.png",
+   "variant": ""
+  },
+  {
+   "num": "NJ/WE11-25",
+   "name": "東雲 なの",
+   "type": "Character",
+   "rarity": "R",
+   "color": "blue",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが、手札か山札から舞台に置かれた時、他のあなたの、「はかせ」と「阪本さん」がいるなら、あなたは自分のクロックの上から1枚を、手札に戻してよい。\n【自】 あなたのキャラのトリガーチェックでクライマックスがでた時、次の相手のターンの終わりまで、このカードのパワーを＋1000。\n\"遅刻しちゃいますよ～\"",
+   "traits": [
+    "メカ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/nj_we11/nj_we11_25.png",
+   "variant": ""
+  },
+  {
+   "num": "NJ/WE11-26",
+   "name": "ねじまき なの",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札を上から1枚見て、山札の上か下に置く。\n【自】 絆／「はかせ」 ［(1)］ （このカードがプレイされて舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「はかせ」を1枚選び、手札に戻す）\n\"ちゃんとお布団で寝ないと風邪ひきますよ\"",
+   "traits": [
+    "メカ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/nj_we11/nj_we11_26.png",
+   "variant": ""
+  },
+  {
+   "num": "NJ/WE11-27",
+   "name": "阪本さん",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたのカード名に「なの」か「はかせ」を含むキャラすべてに、パワーを＋500。\n\"今度は俺が鬼だな！<br />次、はじめるぞっ！\"",
+   "traits": [
+    "動物",
+    "スカーフ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/nj_we11/nj_we11_27.png",
+   "variant": ""
+  },
+  {
+   "num": "NJ/WE11-28",
+   "name": "寝起きのはかせ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 相手のターン中、他のあなたの「学校デビュー なの」すべてに、パワーを＋2000。\n\"ふぁー。おはよ\"",
+   "traits": [
+    "科学",
+    "お菓子"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/nj_we11/nj_we11_28.png",
+   "variant": ""
+  },
+  {
+   "num": "NJ/WE11-29",
+   "name": "学校デビュー なの",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "",
+   "text": "-\n\"ふ…普通の…女の子っぽく…見えますかっ？\"",
+   "traits": [
+    "メカ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/nj_we11/nj_we11_29.png",
+   "variant": ""
+  },
+  {
+   "num": "NJ/WE11-30",
+   "name": "“だにゃん”はかせ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 あなたのクライマックスフェイズの始めに、あなたは自分の【スタンド】しているキャラを1枚選び、【レスト】する。\n\"はっかせだにゃん！\"",
+   "traits": [
+    "科学",
+    "お菓子"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/nj_we11/nj_we11_30.png",
+   "variant": ""
+  },
+  {
+   "num": "NJ/WE11-31",
+   "name": "雨がっぱ はかせ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "5500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、そのターン中、このカードのパワーを－1500。\n【自】 アンコール ［手札のキャラを1枚控え室に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"えーっ!?\"",
+   "traits": [
+    "科学",
+    "お菓子"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/nj_we11/nj_we11_31.png",
+   "variant": ""
+  },
+  {
+   "num": "NJ/WE11-32",
+   "name": "夏祭り なの",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "1",
+   "cost": "1",
+   "power": "6500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 相手のターン中、このカードのパワーを＋1000。\n\"屋台が出てますねー\"",
+   "traits": [
+    "メカ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/nj_we11/nj_we11_32.png",
+   "variant": ""
+  },
+  {
+   "num": "NJ/WE11-33",
+   "name": "夏祭り はかせ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【起】【カウンター】  助太刀3000 レベル2 ［(1) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋3000）\n\"あ、なの。サメカステラだ\"",
+   "traits": [
+    "科学",
+    "お菓子"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/nj_we11/nj_we11_33.png",
+   "variant": ""
+  },
+  {
+   "num": "NJ/WE11-34",
+   "name": "くろねこ なの",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "2",
+   "cost": "2",
+   "power": "9000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "-\n\"-\"",
+   "traits": [
+    "メカ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/nj_we11/nj_we11_34.png",
+   "variant": ""
+  },
+  {
+   "num": "NJ/WE11-35a",
+   "name": "東雲研究所の日常",
+   "type": "Climax",
+   "rarity": "C",
+   "color": "blue",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【自】 このカードが手札からクライマックス置場に置かれた時、あなたは1枚引き、自分のキャラを1枚選び、そのターン中、パワーを＋2000し、ソウルを＋1。\n\"なの「う～～ん」\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/nj_we11/nj_we11_35a.png",
+   "variant": ""
+  },
+  {
+   "num": "NJ/WE11-35b",
+   "name": "東雲研究所の日常",
+   "type": "Climax",
+   "rarity": "C",
+   "color": "blue",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【自】 このカードが手札からクライマックス置場に置かれた時、あなたは1枚引き、自分のキャラを1枚選び、そのターン中、パワーを＋2000し、ソウルを＋1。\n\"オムライス!!\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/nj_we11/nj_we11_35b.png",
+   "variant": ""
+  },
+  {
+   "num": "NJ/WE11-35c",
+   "name": "東雲研究所の日常",
+   "type": "Climax",
+   "rarity": "C",
+   "color": "blue",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【自】 このカードが手札からクライマックス置場に置かれた時、あなたは1枚引き、自分のキャラを1枚選び、そのターン中、パワーを＋2000し、ソウルを＋1。\n\"はかせ・なの「ジャンケンポン！」\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/nj_we11/nj_we11_35c.png",
+   "variant": ""
+  },
+  {
+   "num": "NJ/WE11-35d",
+   "name": "東雲研究所の日常",
+   "type": "Climax",
+   "rarity": "C",
+   "color": "blue",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【自】 このカードが手札からクライマックス置場に置かれた時、あなたは1枚引き、自分のキャラを1枚選び、そのターン中、パワーを＋2000し、ソウルを＋1。\n\"好きですー、阪本さん大好きーっ\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/nj_we11/nj_we11_35d.png",
+   "variant": ""
+  },
+  {
+   "num": "NJ/WE11-36",
+   "name": "なののギミック",
+   "type": "Climax",
+   "rarity": "C",
+   "color": "blue",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[draw.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[draw.gif]]：このカードがトリガーした時、あなたは1枚引いてよい）\n\"シビビーン、シビビーン、<br />シビビーン、シビビーン\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/nj_we11/nj_we11_36.png",
+   "variant": ""
+  }
+ ]
+}

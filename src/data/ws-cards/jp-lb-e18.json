@@ -1,0 +1,2052 @@
+{
+ "id": "jp-lb-e18",
+ "name": "リトルバスターズ! エクスタシー",
+ "expansion": 18,
+ "lang": "jp",
+ "release": null,
+ "shopItem": null,
+ "box": null,
+ "cards": [
+  {
+   "num": "LB/W06-001",
+   "name": "“エースで４番”佐々美",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "yellow",
+   "level": "1",
+   "cost": "1",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 アンコール ［手札のキャラを1枚控え室に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n【起】［手札のクライマックスを1枚控え室に置く］ そのターン中、このカードのパワーを＋4000。\n\"さあ、どこからでもかかってらっしゃい！\"",
+   "traits": [
+    "スポーツ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lb_w06/lb_w06_001.png",
+   "variant": ""
+  },
+  {
+   "num": "LB/W06-001R",
+   "name": "“エースで４番”佐々美",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "yellow",
+   "level": "1",
+   "cost": "1",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 アンコール ［手札のキャラを1枚控え室に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n【起】［手札のクライマックスを1枚控え室に置く］ そのターン中、このカードのパワーを＋4000。\n\"SECRET\"",
+   "traits": [
+    "スポーツ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lb_w06/lb_w06_001r.png",
+   "variant": ""
+  },
+  {
+   "num": "LB/W06-002",
+   "name": "頑張る鈴",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "yellow",
+   "level": "2",
+   "cost": "2",
+   "power": "7500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの前列のキャラがいないなら、このカードのパワーを＋3000。\n【自】 このカードがアタックした時、クライマックス置場に「兄からの試練」があるなら、あなたは自分の控え室のカードすべてを、山札に戻す。その山札をシャッフルする。\n\"『いってくる（∵）』\"",
+   "traits": [
+    "動物"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lb_w06/lb_w06_002.png",
+   "variant": ""
+  },
+  {
+   "num": "LB/W06-002S",
+   "name": "頑張る鈴",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "yellow",
+   "level": "2",
+   "cost": "2",
+   "power": "7500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの前列のキャラがいないなら、このカードのパワーを＋3000。\n【自】 このカードがアタックした時、クライマックス置場に「兄からの試練」があるなら、あなたは自分の控え室のカードすべてを、山札に戻す。その山札をシャッフルする。\n\"SECRET\"",
+   "traits": [
+    "動物"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lb_w06/lb_w06_002s.png",
+   "variant": ""
+  },
+  {
+   "num": "LB/W06-003",
+   "name": "“着ぐるみ”佐々美",
+   "type": "Character",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分のレベル2以上のキャラを1枚選び、そのターン中、パワーを＋3000。\n\"ふんふんふーん♪\"",
+   "traits": [
+    "スポーツ",
+    "動物"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lb_w06/lb_w06_003.png",
+   "variant": ""
+  },
+  {
+   "num": "LB/W06-004",
+   "name": "時風 瞬",
+   "type": "Character",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 あなたのクライマックスがクライマックス置場に置かれた時、そのターン中、このカードのパワーを＋1500。\n\"ジ・エンドだ\"",
+   "traits": [
+    "仮面",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lb_w06/lb_w06_004.png",
+   "variant": ""
+  },
+  {
+   "num": "LB/W06-005",
+   "name": "“おねーさん”唯湖",
+   "type": "Character",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "1",
+   "cost": "1",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、そのターン中、このカードのパワーを＋1500。\n【自】 このカードがアタックした時、クライマックス置場に「鳴り続けるピアノ」があるなら、あなたは相手の前列のレベル1以下のキャラを1枚選び、ストック置場に置いてよい。\n\"理樹君は、クッキーは好きか…？\"",
+   "traits": [
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lb_w06/lb_w06_005.png",
+   "variant": ""
+  },
+  {
+   "num": "LB/W06-005S",
+   "name": "“おねーさん”唯湖",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "yellow",
+   "level": "1",
+   "cost": "1",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、そのターン中、このカードのパワーを＋1500。\n【自】 このカードがアタックした時、クライマックス置場に「鳴り続けるピアノ」があるなら、あなたは相手の前列のレベル1以下のキャラを1枚選び、ストック置場に置いてよい。\n\"SECRET\"",
+   "traits": [
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lb_w06/lb_w06_005s.png",
+   "variant": ""
+  },
+  {
+   "num": "LB/W06-005SP",
+   "name": "“おねーさん”唯湖",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "yellow",
+   "level": "1",
+   "cost": "1",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、そのターン中、このカードのパワーを＋1500。\n【自】 このカードがアタックした時、クライマックス置場に「鳴り続けるピアノ」があるなら、あなたは相手の前列のレベル1以下のキャラを1枚選び、ストック置場に置いてよい。\n\"SECRET\"",
+   "traits": [
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lb_w06/lb_w06_005sp.png",
+   "variant": ""
+  },
+  {
+   "num": "LB/W06-006",
+   "name": "私服の小毬",
+   "type": "Character",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "2",
+   "cost": "2",
+   "power": "7500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 あなたのクライマックスがクライマックス置場に置かれた時、そのターン中、このカードのパワーを＋1500。\n【自】 アンコール ［手札のキャラを1枚控え室に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"今日は絶好のお散歩日和ですねー\"",
+   "traits": [
+    "お菓子",
+    "童話"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lb_w06/lb_w06_006.png",
+   "variant": ""
+  },
+  {
+   "num": "LB/W06-007",
+   "name": "井ノ原☆真人",
+   "type": "Character",
+   "rarity": "U",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 絆／「ルームメイト 理樹＆真人」 ［(1)］ （このカードがプレイされて舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「ルームメイト 理樹＆真人」を1枚選び、手札に戻す）\n【起】［(1)］ あなたは自分のカード名に「理樹」を含むキャラを1枚選び、そのターン中、パワーを＋1000し、《筋肉》を与える。\n\"うおおぉぉ――――っ！\"",
+   "traits": [
+    "筋肉"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lb_w06/lb_w06_007.png",
+   "variant": ""
+  },
+  {
+   "num": "LB/W06-008",
+   "name": "“猫まっしぐら！”鈴",
+   "type": "Character",
+   "rarity": "U",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【起】［手札のクライマックスを1枚控え室に置く］ あなたは自分のキャラを1枚選び、そのターン中、パワーを＋3000。\n【起】 集中 ［あなたの、カード名に「真人」を含むキャラとカード名に「謙吾」を含むキャラを1枚ずつ【レスト】する］ あなたは自分の山札の上から4枚をめくり、控え室に置く。それらのカードのクライマックス1枚につき、そのターン中、このカードのパワーを＋3500し、ソウルを＋1。\n\"恭介「鈴はふたりの力を借りて、３階まで一気にジャンプする」\"",
+   "traits": [
+    "動物"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lb_w06/lb_w06_008.png",
+   "variant": ""
+  },
+  {
+   "num": "LB/W06-009",
+   "name": "“一番のなかよしさん”鈴＆小毬",
+   "type": "Character",
+   "rarity": "U",
+   "color": "yellow",
+   "level": "1",
+   "cost": "1",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 バトルしているこのカードが【リバース】した時、あなたのクライマックス置場に「ベストプレイス」があるなら、あなたはこのカードを手札に戻してよい。\n【起】【カウンター】 助太刀2000 レベル1 ［(1) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋2000）\n\"小毬「ずっと友達だね」\"",
+   "traits": [
+    "動物",
+    "お菓子"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lb_w06/lb_w06_009.png",
+   "variant": ""
+  },
+  {
+   "num": "LB/W06-010",
+   "name": "“最強のライバル”鈴＆佐々美",
+   "type": "Character",
+   "rarity": "U",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "5500",
+   "soul": 1,
+   "trigger": "",
+   "text": "-\n\"ふ、ふん…敵に塩を送るという言葉もあるでしょう\"",
+   "traits": [
+    "動物",
+    "スポーツ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lb_w06/lb_w06_010.png",
+   "variant": ""
+  },
+  {
+   "num": "LB/W06-011",
+   "name": "メイド服の唯湖",
+   "type": "Character",
+   "rarity": "U",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "8500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "-\n\"ここでこうして出会ったのも何かの縁だ。<br />お茶でも飲んでいくがいい\"",
+   "traits": [
+    "音楽",
+    "メイド"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lb_w06/lb_w06_011.png",
+   "variant": ""
+  },
+  {
+   "num": "LB/W06-012",
+   "name": "“華麗な手さばき”唯湖",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋500。\n【起】［このカードを【レスト】する］ あなたは自分の《ビー玉》のキャラを1枚選び、そのターン中、パワーを＋500。\n\"見舞いに来たからに決まっているだろう\"",
+   "traits": [
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lb_w06/lb_w06_012.png",
+   "variant": ""
+  },
+  {
+   "num": "LB/W06-013",
+   "name": "“作戦会議”恭介",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたのカード名に「鈴」を含むキャラすべてに、パワーを＋500。\n【永】 他のあなたのカード名に「理樹」を含むキャラすべてに、パワーを＋500。\n\"新連載『超能力捜査官ジェシー』、<br />そのインパクトのある第一話のタイトルは？\"",
+   "traits": [
+    "スポーツ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lb_w06/lb_w06_013.png",
+   "variant": ""
+  },
+  {
+   "num": "LB/W06-014",
+   "name": "“ねがいぼし”小毬",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "",
+   "text": "-\n\"好きじゃないなら好きになればいいんだよ～\"",
+   "traits": [
+    "お菓子",
+    "童話"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lb_w06/lb_w06_014.png",
+   "variant": ""
+  },
+  {
+   "num": "LB/W06-015",
+   "name": "決意の鈴",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 アラーム このカードがクロックの1番上にあるなら、あなたの《動物》のキャラすべてに、次の能力を与える。『【起】［このカードを【レスト】する］ あなたは自分のキャラを1枚選び、そのターン中、パワーを＋1000。』\n【起】［(1)］ そのターン中、このカードのソウルを＋1。\n\"そのお願い事、叶えてみせる\"",
+   "traits": [
+    "動物"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lb_w06/lb_w06_015.png",
+   "variant": ""
+  },
+  {
+   "num": "LB/W06-016",
+   "name": "“ムードメーカー”小毬",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 応援 あなたのターン中、このカードの前のあなたのキャラすべてに、パワーを＋1000。\n【起】［手札のクライマックスを1枚控え室に置く］ あなたは相手の前列のコスト0以下のキャラを1枚選び、ストック置場に置く。\n\"ぱわーあっぷだよー\"",
+   "traits": [
+    "お菓子",
+    "童話"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lb_w06/lb_w06_016.png",
+   "variant": ""
+  },
+  {
+   "num": "LB/W06-017",
+   "name": "ルームメイト 理樹＆真人",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、他のあなたの《筋肉》のキャラが4枚以上なら、あなたのキャラすべてに、そのターン中、パワーを＋4000。\n\"勘違いでソースの濃い口をかけてしまったうどんを、おまえのうまそうなきつねうどんと交換してくれ！\"",
+   "traits": [
+    "筋肉"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lb_w06/lb_w06_017.png",
+   "variant": ""
+  },
+  {
+   "num": "LB/W06-018",
+   "name": "“唯我独尊”佐々美",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "3",
+   "cost": "3",
+   "power": "10000",
+   "soul": 3,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 このカードの正面のキャラのソウルを－1。\n【自】 このカードとバトルしているキャラが【リバース】した時、あなたはそのキャラをストック置場に置いてよい。\n\"宮沢様のほうがよっぽど素敵なんですからねっ\"",
+   "traits": [
+    "スポーツ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lb_w06/lb_w06_018.png",
+   "variant": ""
+  },
+  {
+   "num": "LB/W06-019",
+   "name": "守られた場所",
+   "type": "Event",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "2",
+   "cost": "0",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "【カウンター】 このカードは、あなたの《動物》のキャラがいないなら、手札からプレイできない。あなたは自分のキャラを1枚選び、そのターン中、パワーを＋2500。\n\"先生「棗さんは、大丈夫。今日も元気でいますよ」\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lb_w06/lb_w06_019.png",
+   "variant": ""
+  },
+  {
+   "num": "LB/W06-020",
+   "name": "待ち人いまだ来たらず",
+   "type": "Event",
+   "rarity": "U",
+   "color": "yellow",
+   "level": "1",
+   "cost": "1",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "あなたは自分の山札を見て特徴を持たないキャラを1枚まで選んで相手に見せ、手札に加える。その山札をシャッフルする。\n\"…早く、来ないかな\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lb_w06/lb_w06_020.png",
+   "variant": ""
+  },
+  {
+   "num": "LB/W06-021",
+   "name": "壊れゆく心",
+   "type": "Event",
+   "rarity": "U",
+   "color": "yellow",
+   "level": "2",
+   "cost": "0",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "あなたは自分のキャラを1枚選び、そのターン中、ソウルを＋2。\nそのターン中、相手は『【自】 アンコール』を使えない。（ルールによる『【自】 アンコール ［(3)］』も使えない）\n\"…いいよ、欲しかったらあげる\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lb_w06/lb_w06_021.png",
+   "variant": ""
+  },
+  {
+   "num": "LB/W06-022",
+   "name": "おさかな観察",
+   "type": "Event",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "あなたは2枚引き、自分の山札の上から2枚を、ストック置場に置く。あなたのメインフェイズを終了しエンドフェイズに進む。\n\"ぼ～…ほわっ\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lb_w06/lb_w06_022.png",
+   "variant": ""
+  },
+  {
+   "num": "LB/W06-023",
+   "name": "ベストプレイス",
+   "type": "Climax",
+   "rarity": "CR",
+   "color": "yellow",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[bounce.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[bounce.gif]]：このカードがトリガーした時、あなたは相手のキャラを1枚選び、手札に戻してよい）\n\"おいしいよ～\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lb_w06/lb_w06_023.png",
+   "variant": ""
+  },
+  {
+   "num": "LB/W06-023SP",
+   "name": "ベストプレイス",
+   "type": "Climax",
+   "rarity": "SP",
+   "color": "yellow",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[bounce.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[bounce.gif]]：このカードがトリガーした時、あなたは相手のキャラを1枚選び、手札に戻してよい）\n\"SECRET\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lb_w06/lb_w06_023sp.png",
+   "variant": ""
+  },
+  {
+   "num": "LB/W06-024",
+   "name": "兄からの試練",
+   "type": "Climax",
+   "rarity": "CC",
+   "color": "yellow",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【自】 このカードが手札からクライマックス置場に置かれた時、あなたは1枚引き、自分のキャラを1枚選び、そのターン中、ソウルを＋3。\n\"恭介「ひとりでも、頑張るんだぞ、鈴」\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lb_w06/lb_w06_024.png",
+   "variant": ""
+  },
+  {
+   "num": "LB/W06-025",
+   "name": "鳴り続けるピアノ",
+   "type": "Climax",
+   "rarity": "CC",
+   "color": "yellow",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【永】 あなたのキャラすべてに、ソウルを＋2。\n\"…さよなら、理樹君\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lb_w06/lb_w06_025.png",
+   "variant": ""
+  },
+  {
+   "num": "LB/W06-026",
+   "name": "威嚇する鈴",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋500。\n【起】［このカードを【レスト】する］ あなたは自分の《動物》のキャラを1枚選び、そのターン中、パワーを＋1000。\n\"ささかまさしみ…おまえにこまりちゃんは渡さん\"",
+   "traits": [
+    "動物"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lb_w06/lb_w06_026.png",
+   "variant": ""
+  },
+  {
+   "num": "LB/W06-026S",
+   "name": "威嚇する鈴",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋500。\n【起】［このカードを【レスト】する］ あなたは自分の《動物》のキャラを1枚選び、そのターン中、パワーを＋1000。\n\"SECRET\"",
+   "traits": [
+    "動物"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lb_w06/lb_w06_026s.png",
+   "variant": ""
+  },
+  {
+   "num": "LB/W06-027",
+   "name": "“心配性”葉留佳",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "green",
+   "level": "2",
+   "cost": "1",
+   "power": "7500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】［手札のクライマックスを1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは相手のキャラを1枚選び、そのターン中、パワーを－1500。\n\"子猫に人間の匂いがついたら親猫、嫌がるよね\"",
+   "traits": [
+    "ビー玉",
+    "双子"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lb_w06/lb_w06_027.png",
+   "variant": ""
+  },
+  {
+   "num": "LB/W06-028",
+   "name": "私服の葉留佳",
+   "type": "Character",
+   "rarity": "R",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの《委員長》のキャラすべてに、パワーを＋500。\n【起】［(1)］ あなたは自分の《ビー玉》のキャラを1枚選び、そのターン中、パワーを＋1000。\n\"自分のこと、見てくれるってやっぱりいいね\"",
+   "traits": [
+    "ビー玉",
+    "双子"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lb_w06/lb_w06_028.png",
+   "variant": ""
+  },
+  {
+   "num": "LB/W06-029",
+   "name": "“好き嫌い”佳奈多",
+   "type": "Character",
+   "rarity": "R",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［このカードを【レスト】する］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の後列の、《委員長》か《ビー玉》のキャラを１枚選び、【スタンド】する。\n【自】 アンコール ［手札のキャラを1枚控え室に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"取ってくれるなら、先に言ってよね…\"",
+   "traits": [
+    "委員長",
+    "双子"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lb_w06/lb_w06_029.png",
+   "variant": ""
+  },
+  {
+   "num": "LB/W06-029S",
+   "name": "“好き嫌い”佳奈多",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［このカードを【レスト】する］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の後列の、《委員長》か《ビー玉》のキャラを１枚選び、【スタンド】する。\n【自】 アンコール ［手札のキャラを1枚控え室に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"SECRET\"",
+   "traits": [
+    "委員長",
+    "双子"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lb_w06/lb_w06_029s.png",
+   "variant": ""
+  },
+  {
+   "num": "LB/W06-030",
+   "name": "“寂しがり屋”佐々美",
+   "type": "Character",
+   "rarity": "R",
+   "color": "green",
+   "level": "2",
+   "cost": "2",
+   "power": "8000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 このカードの下のマーカー1枚につき、このカードのパワーを＋1000。\n【自】 あなたのクライマックス置場に「お別れ」が置かれた時、あなたは自分の山札の上から1枚を、このカードの下にマーカーとして置いてよい。\n【自】［(3)］ バトルしているこのカードが【リバース】した時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札の上から1枚を、このカードの下にマーカーとして置き、このカードを【レスト】する。\n\"戻ってきてくれて、その…う、嬉しかったですわ…\"",
+   "traits": [
+    "スポーツ",
+    "動物"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lb_w06/lb_w06_030.png",
+   "variant": ""
+  },
+  {
+   "num": "LB/W06-030R",
+   "name": "“寂しがり屋”佐々美",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "green",
+   "level": "2",
+   "cost": "2",
+   "power": "8000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 このカードの下のマーカー1枚につき、このカードのパワーを＋1000。\n【自】 あなたのクライマックス置場に「お別れ」が置かれた時、あなたは自分の山札の上から1枚を、このカードの下にマーカーとして置いてよい。\n【自】［(3)］ バトルしているこのカードが【リバース】した時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札の上から1枚を、このカードの下にマーカーとして置き、このカードを【レスト】する。\n\"SECRET\"",
+   "traits": [
+    "スポーツ",
+    "動物"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lb_w06/lb_w06_030r.png",
+   "variant": ""
+  },
+  {
+   "num": "LB/W06-031",
+   "name": "鈴＆どるじ",
+   "type": "Character",
+   "rarity": "R",
+   "color": "green",
+   "level": "2",
+   "cost": "2",
+   "power": "8500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの《動物》のキャラが3枚以上なら、このカードのパワーを＋1000。\n\"ドルジ「ぬおっ」\"",
+   "traits": [
+    "動物"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lb_w06/lb_w06_031.png",
+   "variant": ""
+  },
+  {
+   "num": "LB/W06-032",
+   "name": "“女子制服”理樹",
+   "type": "Character",
+   "rarity": "U",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 絆／「頑張る鈴」 ［(1)］ （このカードがプレイされて舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「頑張る鈴」を1枚選び、手札に戻す）\n\"唯湖「理樹君萌えーと言いたいようだ」\"",
+   "traits": [
+    "特徴なし"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lb_w06/lb_w06_032.png",
+   "variant": ""
+  },
+  {
+   "num": "LB/W06-033",
+   "name": "“いんたーなしょなる”クド",
+   "type": "Character",
+   "rarity": "U",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【起】［(1) 手札のクライマックスを1枚控え室に置く］ あなたは自分の山札を見て《動物》のキャラを1枚まで選んで相手に見せ、手札に加える。その山札をシャッフルする。\n\"ぐっもーにんえぶりわんはぶあないすでーっ\"",
+   "traits": [
+    "動物"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lb_w06/lb_w06_033.png",
+   "variant": ""
+  },
+  {
+   "num": "LB/W06-034",
+   "name": "“犬好き”佐々美",
+   "type": "Character",
+   "rarity": "U",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードとバトルしているレベル1以上のキャラが【リバース】した時、あなたは自分の山札の上から1枚を、ストック置場に置いてよい。\n\"そんなに指を舐めても何も出ないですわよ、わんわん♪\"",
+   "traits": [
+    "スポーツ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lb_w06/lb_w06_034.png",
+   "variant": ""
+  },
+  {
+   "num": "LB/W06-035",
+   "name": "“陽気な騒がし屋”葉留佳",
+   "type": "Character",
+   "rarity": "U",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "5500",
+   "soul": 1,
+   "trigger": "",
+   "text": "-\n\"ニンゲンには意外性が必要でしょ？\"",
+   "traits": [
+    "ビー玉",
+    "双子"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lb_w06/lb_w06_035.png",
+   "variant": ""
+  },
+  {
+   "num": "LB/W06-036",
+   "name": "手を取る佳奈多",
+   "type": "Character",
+   "rarity": "U",
+   "color": "green",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 大活躍 (相手がアタックする時、【リバース】していないこのカードが前列の中央の枠にいるなら、かわりに相手はこのカードにフロントアタックする)\n【自】［(4)］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分のクロック置場の《ビー玉》のキャラを1枚選び、舞台の好きな枠に置く。\n\"…本当に、馬鹿ね…っ\"",
+   "traits": [
+    "委員長",
+    "双子"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lb_w06/lb_w06_036.png",
+   "variant": ""
+  },
+  {
+   "num": "LB/W06-037",
+   "name": "“大好物”鈴",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の後列のカード名に「真人」を含むキャラを1枚選び、ストック置場に置いてよい。\n【起】［あなたの《動物》のキャラを1枚【レスト】する］ あなたは自分のキャラを1枚選び、そのターン中、パワーを＋500。\n\"それは…のりたま！？\"",
+   "traits": [
+    "動物"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lb_w06/lb_w06_037.png",
+   "variant": ""
+  },
+  {
+   "num": "LB/W06-038",
+   "name": "浴衣の佳奈多",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【起】［あなたの《ビー玉》のキャラを1枚【レスト】する］ そのターン中、このカードのパワーを＋1000。\n\"はずかしいじゃない\"",
+   "traits": [
+    "委員長",
+    "和服"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lb_w06/lb_w06_038.png",
+   "variant": ""
+  },
+  {
+   "num": "LB/W06-039",
+   "name": "制服の謙吾",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 あなたのクライマックスがクライマックス置場に置かれた時、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋1000。\n\"自らの意思で、剣を振るっている。\"",
+   "traits": [
+    "スポーツ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lb_w06/lb_w06_039.png",
+   "variant": ""
+  },
+  {
+   "num": "LB/W06-040",
+   "name": "プライドの高い佐々美",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "",
+   "text": "-\n\"いきますわよっ\"",
+   "traits": [
+    "スポーツ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lb_w06/lb_w06_040.png",
+   "variant": ""
+  },
+  {
+   "num": "LB/W06-041",
+   "name": "“頑張り屋さん”クド",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "1",
+   "cost": "1",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 この能力は1ターンにつき2回まで発動できる。他のあなたの《動物》のキャラが、手札かクロック置場から舞台に置かれた時、そのターン中、このカードのパワーを＋1000。\n【自】 あなたのクライマックス置場に「ただいまです、リキ」が置かれた時、あなたは自分のクロック置場のレベル1以下の《動物》のキャラを1枚選び、舞台の好きな枠に置いてよい。そうしたら、あなたは自分の手札を1枚選び、クロック置場に置く。\n\"リキ……わた、私……いま……わらっていますか\"",
+   "traits": [
+    "動物"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lb_w06/lb_w06_041.png",
+   "variant": ""
+  },
+  {
+   "num": "LB/W06-042",
+   "name": "“比較される姉妹”葉留佳＆佳奈多",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 あなたのクライマックス置場に「Best Shot！」が置かれた時、あなたは自分の、《ビー玉》のキャラと《委員長》のキャラを1枚ずつ選び、そのターン中、次の能力を与える。『【自】 このカードとバトルしているレベル1以上のキャラが【リバース】した時、あなたは自分の山札の上から1枚を、ストック置場に置いてよい。』\n【起】［あなたの、《ビー玉》のキャラと《委員長》のキャラを1枚ずつ【レスト】する］ あなたは自分のキャラを1枚選び、そのターン中、パワーを＋2000。\n\"佳奈多「誰も誰かの代わりになんかなれない、か…」\"",
+   "traits": [
+    "ビー玉",
+    "委員長"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lb_w06/lb_w06_042.png",
+   "variant": ""
+  },
+  {
+   "num": "LB/W06-043",
+   "name": "“うずうず”クド",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "2",
+   "cost": "1",
+   "power": "8500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "-\n\"あぁぁ、でもやってみたいです、是非っ\"",
+   "traits": [
+    "動物"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lb_w06/lb_w06_043.png",
+   "variant": ""
+  },
+  {
+   "num": "LB/W06-044",
+   "name": "空虚なディナー",
+   "type": "Event",
+   "rarity": "R",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "あなたは自分のキャラを1枚選び、そのターン中、次の能力を与える。『【自】 このカードとバトルしているレベル1以上のキャラが【リバース】した時、あなたは自分の山札の上から1枚を、ストック置場に置いてよい。』\nこのカードをストック置場に置く。\n\"…先週もしたよ、この話は\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lb_w06/lb_w06_044.png",
+   "variant": ""
+  },
+  {
+   "num": "LB/W06-045",
+   "name": "涙とめどなく…",
+   "type": "Event",
+   "rarity": "U",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "あなたは自分のストックの上から1枚を見る。そのカードがコスト1以下の《スポーツ》のキャラなら、舞台の好きな枠に置いてよい。（そうでないなら元に戻す）\n\"もうちょっとだけ、泣かせてくれ…\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lb_w06/lb_w06_045.png",
+   "variant": ""
+  },
+  {
+   "num": "LB/W06-046",
+   "name": "クロの願い",
+   "type": "Event",
+   "rarity": "U",
+   "color": "green",
+   "level": "1",
+   "cost": "1",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "【カウンター】 このカードは、あなたの《スポーツ》のキャラがいないなら、手札からプレイできない。あなたは自分のキャラを1枚選び、そのターン中、パワーを＋3000。\n\"ええ、ママと一緒に。遊びましょう\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lb_w06/lb_w06_046.png",
+   "variant": ""
+  },
+  {
+   "num": "LB/W06-047",
+   "name": "お引越し",
+   "type": "Event",
+   "rarity": "C",
+   "color": "green",
+   "level": "2",
+   "cost": "0",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "あなたは自分のクロックを1枚選び、手札に戻す。このカードをクロック置場に置く。\n\"ふぅ…ふぅ…よし、が、がんばるぞっ\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lb_w06/lb_w06_047.png",
+   "variant": ""
+  },
+  {
+   "num": "LB/W06-048",
+   "name": "お別れ",
+   "type": "Climax",
+   "rarity": "CR",
+   "color": "green",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【永】 あなたのキャラすべてに、ソウルを＋2。\n\"わかっていないのはあなたのほうですわっ！！\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lb_w06/lb_w06_048.png",
+   "variant": ""
+  },
+  {
+   "num": "LB/W06-049",
+   "name": "ただいまです、リキ",
+   "type": "Climax",
+   "rarity": "CC",
+   "color": "green",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[stock.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[stock.gif]]：このカードがトリガーした時、あなたは自分の山札の上から1枚を、ストック置場に置いてよい）\n\"メール、届きましたか？\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lb_w06/lb_w06_049.png",
+   "variant": ""
+  },
+  {
+   "num": "LB/W06-050",
+   "name": "Best Shot！",
+   "type": "Climax",
+   "rarity": "CC",
+   "color": "green",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【自】 このカードが手札からクライマックス置場に置かれた時、あなたは自分の山札の上から1枚を、ストック置場に置き、自分のキャラすべてに、そのターン中、ソウルを＋1。\n\"撮って、撮ってー。理樹くんー\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lb_w06/lb_w06_050.png",
+   "variant": ""
+  },
+  {
+   "num": "LB/W06-051",
+   "name": "水鉄砲 葉留佳",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【起】 集中 ［(1)］ あなたは自分の山札の上から4枚をめくり、控え室に置く。それらのカードのクライマックス1枚につき、次の行動を行う。『あなたは自分の控え室のキャラを1枚選び、手札に戻し、自分の手札を1枚選び、控え室に置く。』\n\"くらえっ！\"",
+   "traits": [
+    "ビー玉",
+    "水着"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lb_w06/lb_w06_051.png",
+   "variant": ""
+  },
+  {
+   "num": "LB/W06-051S",
+   "name": "水鉄砲 葉留佳",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【起】 集中 ［(1)］ あなたは自分の山札の上から4枚をめくり、控え室に置く。それらのカードのクライマックス1枚につき、次の行動を行う。『あなたは自分の控え室のキャラを1枚選び、手札に戻し、自分の手札を1枚選び、控え室に置く。』\n\"SECRET\"",
+   "traits": [
+    "ビー玉",
+    "水着"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lb_w06/lb_w06_051s.png",
+   "variant": ""
+  },
+  {
+   "num": "LB/W06-052",
+   "name": "吹っ切れた佳奈多",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "red",
+   "level": "2",
+   "cost": "2",
+   "power": "8000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】［(4)］ このカードがアタックした時、クライマックス置場に「がんばる委員長」があるなら、あなたはコストを払ってよい。そうしたら、相手にＸダメージを与える。Ｘはあなたの《委員長》のキャラの枚数に等しい。（ダメージキャンセルは発生する）\n【起】［あなたの《ビー玉》のキャラを1枚【レスト】する］ そのターン中、このカードのパワーを＋1000。\n\"…よかった。風紀委員辞めることにしておいて\"",
+   "traits": [
+    "委員長",
+    "双子"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lb_w06/lb_w06_052.png",
+   "variant": ""
+  },
+  {
+   "num": "LB/W06-052R",
+   "name": "吹っ切れた佳奈多",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "red",
+   "level": "2",
+   "cost": "2",
+   "power": "8000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】［(4)］ このカードがアタックした時、クライマックス置場に「がんばる委員長」があるなら、あなたはコストを払ってよい。そうしたら、相手にＸダメージを与える。Ｘはあなたの《委員長》のキャラの枚数に等しい。（ダメージキャンセルは発生する）\n【起】［あなたの《ビー玉》のキャラを1枚【レスト】する］ そのターン中、このカードのパワーを＋1000。\n\"SECRET\"",
+   "traits": [
+    "委員長",
+    "双子"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lb_w06/lb_w06_052r.png",
+   "variant": ""
+  },
+  {
+   "num": "LB/W06-053",
+   "name": "“優秀なスパイ？”沙耶",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 このカードは相手のキャラの【自】の効果によって【リバース】されない。\n\"ようは空間の認識力ね。<br />なんのために訓練を受けてきたかっての\"",
+   "traits": [
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lb_w06/lb_w06_053.png",
+   "variant": ""
+  },
+  {
+   "num": "LB/W06-053SP",
+   "name": "“優秀なスパイ？”沙耶",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 このカードは相手のキャラの【自】の効果によって【リバース】されない。\n\"SECRET\"",
+   "traits": [
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lb_w06/lb_w06_053sp.png",
+   "variant": ""
+  },
+  {
+   "num": "LB/W06-054",
+   "name": "素直になれない佳奈多",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 あなたのクライマックスがクライマックス置場に置かれた時、そのターン中、このカードは次の能力を得る。『【自】 このカードが【リバース】した時、このカードとバトルしているキャラのレベルが1以下なら、あなたはそのキャラを【リバース】してよい。』\n【自】 絆／「“おしゃべり”葉留佳」 ［(1)］ （このカードがプレイされて舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「“おしゃべり”葉留佳」を1枚選び、手札に戻す）\n\"ちぎれるわけないでしょ、こっち来なさい\"",
+   "traits": [
+    "委員長",
+    "双子"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lb_w06/lb_w06_054.png",
+   "variant": ""
+  },
+  {
+   "num": "LB/W06-055",
+   "name": "木陰で休む美魚",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "1",
+   "cost": "1",
+   "power": "5500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】［(2)］ あなたのクライマックス置場に「はかない存在」が置かれた時、あなたはコストを払ってよい。そうしたら、あなたはこのカードを控え室に置き、自分の控え室の「日差しの中の美魚」を1枚選び、このカードがいた枠に置く。\n\"…今日はサンドイッチはありません\"",
+   "traits": [
+    "本",
+    "日傘"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lb_w06/lb_w06_055.png",
+   "variant": ""
+  },
+  {
+   "num": "LB/W06-055S",
+   "name": "木陰で休む美魚",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "1",
+   "cost": "1",
+   "power": "5500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】［(2)］ あなたのクライマックス置場に「はかない存在」が置かれた時、あなたはコストを払ってよい。そうしたら、あなたはこのカードを控え室に置き、自分の控え室の「日差しの中の美魚」を1枚選び、このカードがいた枠に置く。\n\"SECRET\"",
+   "traits": [
+    "本",
+    "日傘"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lb_w06/lb_w06_055s.png",
+   "variant": ""
+  },
+  {
+   "num": "LB/W06-056",
+   "name": "“エクスタシーモード”沙耶",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの前列のキャラが1枚以下なら、このカードのパワーを＋1000。\n【自】 相手のアンコールステップの始めに、あなたのクロックが6枚なら、あなたはこのカードを【レスト】し、自分のクロックすべてを、山札に戻す。その山札をシャッフルする。\n\"切り刻まれてもまだ意識がある、この一瞬が…\"",
+   "traits": [
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lb_w06/lb_w06_056.png",
+   "variant": ""
+  },
+  {
+   "num": "LB/W06-056SP",
+   "name": "“エクスタシーモード”沙耶",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの前列のキャラが1枚以下なら、このカードのパワーを＋1000。\n【自】 相手のアンコールステップの始めに、あなたのクロックが6枚なら、あなたはこのカードを【レスト】し、自分のクロックすべてを、山札に戻す。その山札をシャッフルする。\n\"SECRET\"",
+   "traits": [
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lb_w06/lb_w06_056sp.png",
+   "variant": ""
+  },
+  {
+   "num": "LB/W06-057",
+   "name": "“参謀役”理樹",
+   "type": "Character",
+   "rarity": "U",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの『大活躍』を持つキャラすべてに、パワーを＋1000。\n【起】［(1) 手札のクライマックスを1枚控え室に置く］ あなたは自分の控え室のキャラを1枚選び、手札に戻す。\n\"沙耶「へぇ…それがあなたの推理ってわけね」\"",
+   "traits": [
+    "特徴なし"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lb_w06/lb_w06_057.png",
+   "variant": ""
+  },
+  {
+   "num": "LB/W06-058",
+   "name": "サイバー？美魚",
+   "type": "Character",
+   "rarity": "U",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの《本》のキャラすべてに、パワーを＋500。\n【自】［(2)］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の《影》のキャラを1枚選び、手札に戻す。\n\"あまりお気になさらず、割と好きですから\"",
+   "traits": [
+    "本",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lb_w06/lb_w06_058.png",
+   "variant": ""
+  },
+  {
+   "num": "LB/W06-059",
+   "name": "“クールでお茶目”唯湖",
+   "type": "Character",
+   "rarity": "U",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが【リバース】した時、このカードとバトルしているキャラのレベルが1以下なら、あなたはそのキャラを【リバース】してよい。\n\"おねーさんが手を引いてやろうか？\"",
+   "traits": [
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lb_w06/lb_w06_059.png",
+   "variant": ""
+  },
+  {
+   "num": "LB/W06-060",
+   "name": "“おしゃべり”葉留佳",
+   "type": "Character",
+   "rarity": "U",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "8000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの《委員長》のキャラが2枚以上なら、このカードのパワーを＋1000。\n\"柚子にダイダイ、夏みかんにオレンジ♪\"",
+   "traits": [
+    "ビー玉",
+    "双子"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lb_w06/lb_w06_060.png",
+   "variant": ""
+  },
+  {
+   "num": "LB/W06-061",
+   "name": "“最強の女子”唯湖",
+   "type": "Character",
+   "rarity": "U",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "8000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】［手札のクライマックスを1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは相手のレベル0以下のキャラを1枚選び、控え室に置く。\n\"…楽しいこと、それが私のモラルの大前提だよ\"",
+   "traits": [
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lb_w06/lb_w06_061.png",
+   "variant": ""
+  },
+  {
+   "num": "LB/W06-062",
+   "name": "“おねえちゃん”佳奈多",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋500。\n\"だから、あげる\"",
+   "traits": [
+    "委員長",
+    "双子"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lb_w06/lb_w06_062.png",
+   "variant": ""
+  },
+  {
+   "num": "LB/W06-063",
+   "name": "“お色気担当”唯湖",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 他のあなたのバトルしているキャラが【リバース】した時、そのターン中、このカードのパワーを＋1000。\n\"フフフ…正直だな\"",
+   "traits": [
+    "音楽",
+    "和服"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lb_w06/lb_w06_063.png",
+   "variant": ""
+  },
+  {
+   "num": "LB/W06-064",
+   "name": "“仲の良い姉妹”葉留佳＆佳奈多",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "",
+   "text": "-\n\"葉留佳「もうひとりじゃないから」\"",
+   "traits": [
+    "ビー玉",
+    "委員長"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lb_w06/lb_w06_064.png",
+   "variant": ""
+  },
+  {
+   "num": "LB/W06-065",
+   "name": "“凄腕のスパイ”沙耶",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【起】【カウンター】 助太刀1500 レベル1 ［手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋1500）\n\"発砲！！\"",
+   "traits": [
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lb_w06/lb_w06_065.png",
+   "variant": ""
+  },
+  {
+   "num": "LB/W06-066",
+   "name": "“迷惑少女”葉留佳",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "1",
+   "cost": "1",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 アラーム このカードがクロックの1番上にあるなら、あなたのキャラすべてに、パワーを＋500。\n【自】 アラーム あなたのクライマックス置場に「えすけーぷっ！！」が置かれた時、このカードがクロックの1番上にあるなら、あなたのキャラすべてに、そのターン中、次の能力を与える。『【自】［(1)］ バトルしているこのカードが【リバース】した時、あなたはコストを払ってよい。そうしたら、このカードを手札に戻す。』\n\"勿論無許可ですヨ、やはははっ\"",
+   "traits": [
+    "ビー玉",
+    "双子"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lb_w06/lb_w06_066.png",
+   "variant": ""
+  },
+  {
+   "num": "LB/W06-067",
+   "name": "“熱血筋肉”真人",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "1",
+   "cost": "1",
+   "power": "6000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたに1ダメージを与える。（ダメージキャンセルは発生する）\n【自】 アンコール ［手札のキャラを1枚控え室に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"オレは、筋肉関係を当たってみる\"",
+   "traits": [
+    "筋肉"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lb_w06/lb_w06_067.png",
+   "variant": ""
+  },
+  {
+   "num": "LB/W06-068",
+   "name": "日差しの中の美魚",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "2",
+   "cost": "2",
+   "power": "9000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "-\n\"では、すみません。お言葉に甘えます\"",
+   "traits": [
+    "本"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lb_w06/lb_w06_068.png",
+   "variant": ""
+  },
+  {
+   "num": "LB/W06-069",
+   "name": "大切なもの",
+   "type": "Event",
+   "rarity": "R",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "あなたは自分の山札を上から3枚まで見て、《本》のキャラを1枚まで選んで相手に見せ、手札に加える。残りのカードを控え室に置く。\n\"これです。確かにこの本です<br />…本当にありがとうございました\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lb_w06/lb_w06_069.png",
+   "variant": ""
+  },
+  {
+   "num": "LB/W06-070",
+   "name": "捕まった沙耶",
+   "type": "Event",
+   "rarity": "U",
+   "color": "red",
+   "level": "1",
+   "cost": "1",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "あなたは相手の前列のコスト1以下のキャラを1枚選び、控え室に置く。\n\"いいわよ、とっとと煮るなり焼くなりしなさいよ…\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lb_w06/lb_w06_070.png",
+   "variant": ""
+  },
+  {
+   "num": "LB/W06-071",
+   "name": "忙しい佳奈多",
+   "type": "Event",
+   "rarity": "U",
+   "color": "red",
+   "level": "1",
+   "cost": "2",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "あなたの控え室のクライマックスが4枚以上なら、あなたは自分の控え室のキャラを2枚まで選び、手札に戻す。\n\"私が疲れようとどうしようとあなたには関係ないでしょう\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lb_w06/lb_w06_071.png",
+   "variant": ""
+  },
+  {
+   "num": "LB/W06-072",
+   "name": "すべては夢の中",
+   "type": "Event",
+   "rarity": "C",
+   "color": "red",
+   "level": "1",
+   "cost": "1",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "あなたは自分の手札のクライマックスを1枚選び、控え室に置く。そうしたら、あなたは相手の控え室のカードを1枚選び、思い出にする。このカードを思い出にする。\n\"多分、もうすぐこの夢は終わるんだ\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lb_w06/lb_w06_072.png",
+   "variant": ""
+  },
+  {
+   "num": "LB/W06-073",
+   "name": "がんばる委員長",
+   "type": "Climax",
+   "rarity": "CR",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[salvage.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[salvage.gif]]：このカードがトリガーした時、あなたは自分の控え室のキャラを1枚選び、手札に戻してよい）\n\"じっと見てるなんて、不躾じゃないの、あなた\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lb_w06/lb_w06_073.png",
+   "variant": ""
+  },
+  {
+   "num": "LB/W06-074",
+   "name": "えすけーぷっ！！",
+   "type": "Climax",
+   "rarity": "CC",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【自】 このカードが手札からクライマックス置場に置かれた時、あなたは自分の山札の上から1枚を、ストック置場に置き、自分のキャラすべてに、そのターン中、ソウルを＋1。\n\"とりあえず、逃げるっ！\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lb_w06/lb_w06_074.png",
+   "variant": ""
+  },
+  {
+   "num": "LB/W06-075",
+   "name": "はかない存在",
+   "type": "Climax",
+   "rarity": "CC",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【永】 あなたのキャラすべてに、ソウルを＋2。\n\"リトルバスターズ、悪くなかったです\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lb_w06/lb_w06_075.png",
+   "variant": ""
+  },
+  {
+   "num": "LB/W06-076",
+   "name": "想いを託す小毬",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "blue",
+   "level": "1",
+   "cost": "1",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 この能力は1ターンにつき1回まで発動できる。あなたが【起】を使った時、そのターン中、このカードのパワーを＋1500。\n【自】［(1)］ このカードがアタックした時、クライマックス置場に「きっと、だいじょうぶ」があるなら、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見て《お菓子》のキャラを1枚まで選んで相手に見せ、手札に加える。その山札をシャッフルする。\n\"りんちゃんも、ちゃんと笑っていられますように\"",
+   "traits": [
+    "お菓子",
+    "童話"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lb_w06/lb_w06_076.png",
+   "variant": ""
+  },
+  {
+   "num": "LB/W06-076S",
+   "name": "想いを託す小毬",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "1",
+   "cost": "1",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 この能力は1ターンにつき1回まで発動できる。あなたが【起】を使った時、そのターン中、このカードのパワーを＋1500。\n【自】［(1)］ このカードがアタックした時、クライマックス置場に「きっと、だいじょうぶ」があるなら、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見て《お菓子》のキャラを1枚まで選んで相手に見せ、手札に加える。その山札をシャッフルする。\n\"SECRET\"",
+   "traits": [
+    "お菓子",
+    "童話"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lb_w06/lb_w06_076s.png",
+   "variant": ""
+  },
+  {
+   "num": "LB/W06-077",
+   "name": "水着の美魚＆美鳥",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "6500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 相手のターン中、他のあなたの《本》のキャラすべてに、パワーを＋1000。\n【自】 アンコール ［手札のキャラを1枚控え室に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"…水着になるのは、ちょっと恥ずかしいですが\"",
+   "traits": [
+    "本",
+    "水着"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lb_w06/lb_w06_077.png",
+   "variant": ""
+  },
+  {
+   "num": "LB/W06-077R",
+   "name": "水着の美魚＆美鳥",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "6500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 相手のターン中、他のあなたの《本》のキャラすべてに、パワーを＋1000。\n【自】 アンコール ［手札のキャラを1枚控え室に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"SECRET\"",
+   "traits": [
+    "本",
+    "水着"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lb_w06/lb_w06_077r.png",
+   "variant": ""
+  },
+  {
+   "num": "LB/W06-078",
+   "name": "“帰国子女”クド",
+   "type": "Character",
+   "rarity": "R",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの《動物》のキャラすべてに、パワーを＋500。\n【起】［このカードを【レスト】する］ あなたは自分のキャラを1枚選び、そのターン中、レベルを＋1。\n\"マグカップとか持つとつい、こうしちゃうのです\"",
+   "traits": [
+    "動物"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lb_w06/lb_w06_078.png",
+   "variant": ""
+  },
+  {
+   "num": "LB/W06-078S",
+   "name": "“帰国子女”クド",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの《動物》のキャラすべてに、パワーを＋500。\n【起】［このカードを【レスト】する］ あなたは自分のキャラを1枚選び、そのターン中、レベルを＋1。\n\"SECRET\"",
+   "traits": [
+    "動物"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lb_w06/lb_w06_078s.png",
+   "variant": ""
+  },
+  {
+   "num": "LB/W06-079",
+   "name": "別れを惜しむ 理樹＆恭介",
+   "type": "Character",
+   "rarity": "R",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 あなたのクライマックス置場に「僕らはリトルバスターズ」が置かれた時、そのターン中、このカードは『【自】 アンコール ［(1)］』を得る。\n【自】［(1) このカードを控え室に置く］ 他のあなたのキャラが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、そのキャラを手札に戻す。\n\"俺だって、おまえたちと居てぇよ！！\"",
+   "traits": [
+    "特徴なし"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lb_w06/lb_w06_079.png",
+   "variant": ""
+  },
+  {
+   "num": "LB/W06-080",
+   "name": "身構える沙耶",
+   "type": "Character",
+   "rarity": "R",
+   "color": "blue",
+   "level": "2",
+   "cost": "2",
+   "power": "7500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの前列のキャラが1枚以下なら、このカードのパワーを＋2000。\n【自】 このカードがアタックした時、クライマックス置場に「屋上の罠」があるなら、あなたは1枚引く。\n\"パートナーが欲しかったのよ\"",
+   "traits": [
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lb_w06/lb_w06_080.png",
+   "variant": ""
+  },
+  {
+   "num": "LB/W06-081",
+   "name": "メイド服の美魚",
+   "type": "Character",
+   "rarity": "R",
+   "color": "blue",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n【起】［このカードを思い出にする］ あなたは自分の山札を見て《メイド》のキャラを2枚まで選んで相手に見せ、手札に加える。その山札をシャッフルする。\n\"…わたしの身体が目当てですか？\"",
+   "traits": [
+    "本",
+    "メイド"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lb_w06/lb_w06_081.png",
+   "variant": ""
+  },
+  {
+   "num": "LB/W06-082",
+   "name": "“影のない少女”美鳥",
+   "type": "Character",
+   "rarity": "U",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたのカード名に「美魚」を含むキャラすべてに、《メガネ》を与える。\n【自】 絆／「“浮世離れ”美魚」 ［(1)］ （このカードがプレイされて舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「“浮世離れ”美魚」を1枚選び、手札に戻す）\n\"お姉ちゃんを―――お願いね\"",
+   "traits": [
+    "影"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lb_w06/lb_w06_082.png",
+   "variant": ""
+  },
+  {
+   "num": "LB/W06-083",
+   "name": "手負いの大型ルーキー謙吾",
+   "type": "Character",
+   "rarity": "U",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 あなたのクライマックスがクライマックス置場に置かれた時、そのターン中、このカードのパワーを＋1000し、このカードは次の能力を得る。『【自】 このカードとバトルしているキャラが【リバース】した時、あなたはそのキャラを山札の下に置いてよい。』\n\"鈴、思い切りこい\"",
+   "traits": [
+    "スポーツ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lb_w06/lb_w06_083.png",
+   "variant": ""
+  },
+  {
+   "num": "LB/W06-084",
+   "name": "“完全無敵少女”沙耶",
+   "type": "Character",
+   "rarity": "U",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 アンコール ［手札のキャラを1枚控え室に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n【起】［手札のクライマックスを1枚控え室に置く］ そのターン中、このカードのパワーを＋1000し、このカードは次の能力を得る。『【自】 このカードとバトルしているキャラが【リバース】した時、あなたは1枚引いてよい。』\n\"はい、ゲームオーバー\"",
+   "traits": [
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lb_w06/lb_w06_084.png",
+   "variant": ""
+  },
+  {
+   "num": "LB/W06-085",
+   "name": "“クォーター少女”クド",
+   "type": "Character",
+   "rarity": "U",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのストックが5枚以上なら、このカードのパワーを＋1000。\n\"わ、わふー\"",
+   "traits": [
+    "動物"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lb_w06/lb_w06_085.png",
+   "variant": ""
+  },
+  {
+   "num": "LB/W06-086",
+   "name": "“幸せスパイラル”小毬",
+   "type": "Character",
+   "rarity": "U",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 あなたがこのカードの『助太刀』を使った時、あなたは自分の山札の上から3枚を、控え室に置く。\n【起】【カウンター】 助太刀3000 レベル2 ［(1) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋3000）\n\"誰かを幸せにするってことは、自分を幸せにするってことなんだよ\"",
+   "traits": [
+    "お菓子",
+    "童話"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lb_w06/lb_w06_086.png",
+   "variant": ""
+  },
+  {
+   "num": "LB/W06-087",
+   "name": "ドジなスパイ沙耶",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 アラーム このカードがクロックの1番上にあり、あなたの手札が相手の手札より多いなら、あなたのキャラすべてに、パワーを＋1000。\n\"周りのパンだけ食べて餡だけにしてやろうかしらっ\"",
+   "traits": [
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lb_w06/lb_w06_087.png",
+   "variant": ""
+  },
+  {
+   "num": "LB/W06-088",
+   "name": "“秘密指令”恭介",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋500。\n【起】［このカードを控え室に置く］ あなたは自分の山札を上から2枚まで見て、山札の上に好きな順番で置く。\n\"みんな、揃ってるな\"",
+   "traits": [
+    "特徴なし"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lb_w06/lb_w06_088.png",
+   "variant": ""
+  },
+  {
+   "num": "LB/W06-089",
+   "name": "“成長株”小毬",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 相手のターン中、他のあなたのキャラすべてに、パワーを＋500。\n【起】［手札のクライマックスを1枚控え室に置き、このカードを【レスト】する］ あなたは自分の手札のレベル1以下のカード名に「小毬」を含むキャラを1枚まで選び、舞台の好きな枠に置く。\n\"よおーし今日もいっしょーけんめーがんばるよー\"",
+   "traits": [
+    "お菓子",
+    "童話"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lb_w06/lb_w06_089.png",
+   "variant": ""
+  },
+  {
+   "num": "LB/W06-090",
+   "name": "あーちゃん先輩",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "",
+   "text": "-\n\"でも、男女同室ってのはダメよ？\"",
+   "traits": [
+    "動物"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lb_w06/lb_w06_090.png",
+   "variant": ""
+  },
+  {
+   "num": "LB/W06-091",
+   "name": "“浮世離れ”美魚",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 バトルしているこのカードが【リバース】した時、このカードが《メガネ》を持つなら、このカードを思い出にする。\n\"三角がおにぎりで、丸いとおむすびです<br />…逆だったかも知れません\"",
+   "traits": [
+    "本",
+    "日傘"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lb_w06/lb_w06_091.png",
+   "variant": ""
+  },
+  {
+   "num": "LB/W06-092",
+   "name": "弓道部のみゆき",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "1",
+   "cost": "1",
+   "power": "6000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "-\n\"…はい。絶対しません<br />宮沢さんが拾ってくれた命です\"",
+   "traits": [
+    "スポーツ",
+    "眼帯"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lb_w06/lb_w06_092.png",
+   "variant": ""
+  },
+  {
+   "num": "LB/W06-093",
+   "name": "“和洋折衷”クド",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "2",
+   "cost": "2",
+   "power": "8000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】［(1)］ このカードとバトルしているレベル2以上のキャラが【リバース】した時、あなたはコストを払ってよい。そうしたら、あなたは自分のクロックの上から1枚を、控え室に置く。\n\"こすも、なーふとに、なりたいですっ！\"",
+   "traits": [
+    "動物"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lb_w06/lb_w06_093.png",
+   "variant": ""
+  },
+  {
+   "num": "LB/W06-094",
+   "name": "うみのあをにも……",
+   "type": "Event",
+   "rarity": "R",
+   "color": "blue",
+   "level": "2",
+   "cost": "2",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "【カウンター】 あなたは自分のキャラを2枚まで選び、そのターン中、次の能力を与える。『【自】 このカードが舞台から控え室に置かれた時、あなたはこのカードをこのカードがいた枠に【レスト】して置いてよい。』\n\"今よ、永遠に　僕らはずっと、僕らのまま\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lb_w06/lb_w06_094.png",
+   "variant": ""
+  },
+  {
+   "num": "LB/W06-095",
+   "name": "不思議な既視感",
+   "type": "Event",
+   "rarity": "U",
+   "color": "blue",
+   "level": "1",
+   "cost": "1",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "あなたは自分の山札を上から2枚まで見て、カードを1枚まで選び、手札に加える。残りのカードを山札の上に好きな順番で置く。\n\"あたし、理樹くんのことが好き\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lb_w06/lb_w06_095.png",
+   "variant": ""
+  },
+  {
+   "num": "LB/W06-096",
+   "name": "休憩！",
+   "type": "Event",
+   "rarity": "U",
+   "color": "blue",
+   "level": "3",
+   "cost": "1",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "あなたは自分のクロックを2枚まで選び、控え室に置く。このカードを思い出にする。\n\"今のうちに食事もしといたほうがいいかなぁって\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lb_w06/lb_w06_096.png",
+   "variant": ""
+  },
+  {
+   "num": "LB/W06-097",
+   "name": "たどり着いた答え",
+   "type": "Event",
+   "rarity": "C",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "あなたの控え室のクライマックスが4枚以上なら、あなたは2枚まで引く。\n\"答えを知るにはまだ早いな\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lb_w06/lb_w06_097.png",
+   "variant": ""
+  },
+  {
+   "num": "LB/W06-098",
+   "name": "僕らはリトルバスターズ",
+   "type": "Climax",
+   "rarity": "CR",
+   "color": "blue",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【永】 あなたのキャラすべてに、ソウルを＋2。\n\"一緒に行こう、恭介\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lb_w06/lb_w06_098.png",
+   "variant": ""
+  },
+  {
+   "num": "LB/W06-099",
+   "name": "きっと、だいじょうぶ",
+   "type": "Climax",
+   "rarity": "CC",
+   "color": "blue",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[draw.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[draw.gif]]：このカードがトリガーした時、あなたは1枚引いてよい）\n\"…ステキなこと、いっぱい探そう\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lb_w06/lb_w06_099.png",
+   "variant": ""
+  },
+  {
+   "num": "LB/W06-100",
+   "name": "屋上の罠",
+   "type": "Climax",
+   "rarity": "CC",
+   "color": "blue",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【自】 このカードが手札からクライマックス置場に置かれた時、あなたは1枚引き、自分のキャラを1枚選び、そのターン中、ソウルを＋3。\n\"あなたは死ぬのよ\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lb_w06/lb_w06_100.png",
+   "variant": ""
+  }
+ ]
+}

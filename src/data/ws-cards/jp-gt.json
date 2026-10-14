@@ -1,0 +1,2169 @@
+{
+ "id": "jp-gt",
+ "name": "幻影ヲ駆ケル太陽",
+ "expansion": 106,
+ "lang": "jp",
+ "release": null,
+ "shopItem": null,
+ "box": null,
+ "cards": [
+  {
+   "num": "GT/W29-001",
+   "name": "宿命の少女 ぎんか",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1) 手札を1枚控え室に置き、このカードを思い出にする］ バトル中のこのカードが【リバース】した時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見て《タロット》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"-\"",
+   "traits": [
+    "タロット",
+    "コイン"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gt_w29/gt_w29_001.png",
+   "variant": ""
+  },
+  {
+   "num": "GT/W29-001R",
+   "name": "宿命の少女 ぎんか",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1) 手札を1枚控え室に置き、このカードを思い出にする］ バトル中のこのカードが【リバース】した時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見て《タロット》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"SECRET\"",
+   "traits": [
+    "タロット",
+    "コイン"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gt_w29/gt_w29_001r.png",
+   "variant": ""
+  },
+  {
+   "num": "GT/W29-002",
+   "name": "節制の力 ぎんか",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "yellow",
+   "level": "3",
+   "cost": "2",
+   "power": "9500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 記憶 あなたの思い出置場の《タロット》のキャラが3枚以上なら、このカードのパワーを＋1500。\n【自】 このカードが手札から舞台に置かれた時、あなたは2枚まで引き、自分の手札を1枚選び、控え室に置く。\n【自】 このカードがアタックした時、クライマックス置場に「血塗られた未来」があるなら、そのターン中、このカードのパワーを＋6000し、相手は『【自】 アンコール』を使えない。（ルールによる『【自】 アンコール ［(3)］』も使えない）\n\"何やっとんねん！！\"",
+   "traits": [
+    "タロット",
+    "コイン"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gt_w29/gt_w29_002.png",
+   "variant": ""
+  },
+  {
+   "num": "GT/W29-002SP",
+   "name": "節制の力 ぎんか",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "yellow",
+   "level": "3",
+   "cost": "2",
+   "power": "9500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 記憶 あなたの思い出置場の《タロット》のキャラが3枚以上なら、このカードのパワーを＋1500。\n【自】 このカードが手札から舞台に置かれた時、あなたは2枚まで引き、自分の手札を1枚選び、控え室に置く。\n【自】 このカードがアタックした時、クライマックス置場に「血塗られた未来」があるなら、そのターン中、このカードのパワーを＋6000し、相手は『【自】 アンコール』を使えない。（ルールによる『【自】 アンコール ［(3)］』も使えない）\n\"SECRET\"",
+   "traits": [
+    "タロット",
+    "コイン"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gt_w29/gt_w29_002sp.png",
+   "variant": ""
+  },
+  {
+   "num": "GT/W29-003",
+   "name": "たこ焼き大好き ぎんか",
+   "type": "Character",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのターン中、このカードのパワーを＋1000。\n【自】 バトル中のこのカードが【リバース】した時、あなたは自分の山札の上から1枚を公開する。そのカードが《タロット》のキャラなら、あなたはこのカードを思い出にしてよい。（公開したカードは元に戻す）\n\"ここは『実戦は実戦で学べ』がモットーやしな\"",
+   "traits": [
+    "タロット",
+    "商人"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gt_w29/gt_w29_003.png",
+   "variant": ""
+  },
+  {
+   "num": "GT/W29-003S",
+   "name": "たこ焼き大好き ぎんか",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのターン中、このカードのパワーを＋1000。\n【自】 バトル中のこのカードが【リバース】した時、あなたは自分の山札の上から1枚を公開する。そのカードが《タロット》のキャラなら、あなたはこのカードを思い出にしてよい。（公開したカードは元に戻す）\n\"SECRET\"",
+   "traits": [
+    "タロット",
+    "商人"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gt_w29/gt_w29_003s.png",
+   "variant": ""
+  },
+  {
+   "num": "GT/W29-004",
+   "name": "幸せな時間 ぎんか",
+   "type": "Character",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 チェンジ ［(2) あなたの山札の上から1枚をクロック置場に置き、このカードを思い出にする］ あなたのクライマックスフェイズの始めに、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「お父さんっ子 ぎんか」を1枚選び、このカードがいた枠に置く。\n【起】［このカードを【レスト】する］ このカードの下にマーカーがないなら、あなたは自分の山札の上から1枚を、このカードの下にマーカーとして置く。\n【起】［このカードを【レスト】する］ あなたはこのカードの下のマーカーを1枚ストック置場に置く。\n\"永瀧名物、チリンチリンアイスやで！\"",
+   "traits": [
+    "タロット",
+    "商人"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gt_w29/gt_w29_004.png",
+   "variant": ""
+  },
+  {
+   "num": "GT/W29-005",
+   "name": "打算的なぎんか",
+   "type": "Character",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "1",
+   "cost": "1",
+   "power": "5500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 記憶 あなたの思い出置場にカードがあるなら、このカードのパワーを＋1500。\n【自】 アンコール ［手札のキャラを1枚控え室に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"やりますっ！！\"",
+   "traits": [
+    "タロット",
+    "商人"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gt_w29/gt_w29_005.png",
+   "variant": ""
+  },
+  {
+   "num": "GT/W29-006",
+   "name": "新人隊員 ぎんか",
+   "type": "Character",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 記憶 あなたがこのカードの『助太刀』を使った時、あなたの思い出置場の《タロット》のキャラが2枚以上なら、あなたは自分のバトル中のキャラを1枚選び、そのターン中、パワーを＋1000。\n【起】【カウンター】 助太刀2500 レベル2 ［(1) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋2500）\n\"どないやっ！\"",
+   "traits": [
+    "タロット",
+    "コイン"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gt_w29/gt_w29_006.png",
+   "variant": ""
+  },
+  {
+   "num": "GT/W29-007",
+   "name": "黄金色の光 ぎんか",
+   "type": "Character",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "8000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードがアタックした時、クライマックス置場に「夏最大の恐怖」があるなら、そのターン中、このカードは次の能力を得る。『【自】 このカードが【リバース】した時、このカードのバトル相手のレベルが3以下なら、あなたはそのキャラとこのカードを、思い出にしてよい。』\n\"頼むで、節制っ！\"",
+   "traits": [
+    "タロット",
+    "コイン"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gt_w29/gt_w29_007.png",
+   "variant": ""
+  },
+  {
+   "num": "GT/W29-007S",
+   "name": "黄金色の光 ぎんか",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "8000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードがアタックした時、クライマックス置場に「夏最大の恐怖」があるなら、そのターン中、このカードは次の能力を得る。『【自】 このカードが【リバース】した時、このカードのバトル相手のレベルが3以下なら、あなたはそのキャラとこのカードを、思い出にしてよい。』\n\"SECRET\"",
+   "traits": [
+    "タロット",
+    "コイン"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gt_w29/gt_w29_007s.png",
+   "variant": ""
+  },
+  {
+   "num": "GT/W29-008",
+   "name": "気さくな関西人 ぎんか",
+   "type": "Character",
+   "rarity": "U",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの《タロット》のキャラすべてに、パワーを＋500。\n【起】［手札の「白金 弥太郎」を1枚控え室に置き、このカードを【レスト】する］ あなたのキャラすべてに、そのターン中、ソウルを＋1。\n\"おばちゃん、角煮まんじゅう４つ！！\"",
+   "traits": [
+    "タロット",
+    "商人"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gt_w29/gt_w29_008.png",
+   "variant": ""
+  },
+  {
+   "num": "GT/W29-009",
+   "name": "謎の存在 ラプラス",
+   "type": "Character",
+   "rarity": "U",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの、《タロット》か《使い魔》のキャラすべてに、レベルを＋1。\n\"そうだ…それで良い\"",
+   "traits": [
+    "動物",
+    "使い魔"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gt_w29/gt_w29_009.png",
+   "variant": ""
+  },
+  {
+   "num": "GT/W29-010",
+   "name": "戦闘中 ぎんか",
+   "type": "Character",
+   "rarity": "U",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1) 手札の「１００万ドル金貨」を1枚控え室に置く］ 相手のアタックフェイズの始めに、前列にこのカードがいるなら、あなたはコストを払ってよい。そうしたら、あなたのキャラすべてに、そのターン中、パワーを＋2000。\n\"今日は5万ユーロや！インフレやで～！\"",
+   "traits": [
+    "タロット",
+    "コイン"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gt_w29/gt_w29_010.png",
+   "variant": ""
+  },
+  {
+   "num": "GT/W29-011",
+   "name": "謎の存在 シュレディンガー",
+   "type": "Character",
+   "rarity": "U",
+   "color": "yellow",
+   "level": "1",
+   "cost": "1",
+   "power": "6500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたの手札が4枚以下なら、このカードのパワーを＋1000。\n\"合格だニャ\"",
+   "traits": [
+    "動物",
+    "使い魔"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gt_w29/gt_w29_011.png",
+   "variant": ""
+  },
+  {
+   "num": "GT/W29-012",
+   "name": "お父さんっ子 ぎんか",
+   "type": "Character",
+   "rarity": "U",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "7500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 記憶 あなたの思い出置場の《タロット》のキャラが2枚以上なら、このカードのパワーを＋2000。\n\"心配せんでええよ父ちゃん\"",
+   "traits": [
+    "タロット",
+    "商人"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gt_w29/gt_w29_012.png",
+   "variant": ""
+  },
+  {
+   "num": "GT/W29-013",
+   "name": "あたたかな心遣い ぎんか",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 絆／「星の力 せいら」 ［(1)］ （このカードがプレイされて舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「星の力 せいら」を1枚選び、手札に戻す）\n\"さっきのこと、気にしてんのかと思って、<br />なぐさめにきてやったっちゅーねん\"",
+   "traits": [
+    "タロット",
+    "商人"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gt_w29/gt_w29_013.png",
+   "variant": ""
+  },
+  {
+   "num": "GT/W29-014",
+   "name": "白金 弥太郎",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【起】［このカードを【レスト】する］ あなたは自分のカード名に「ぎんか」を含むキャラを1枚選び、そのターン中、パワーを＋1500。\n\"ナイスつっこみや、ぎんか！\"",
+   "traits": [
+    "商人",
+    "扇子"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gt_w29/gt_w29_014.png",
+   "variant": ""
+  },
+  {
+   "num": "GT/W29-015",
+   "name": "朝日に輝く ぎんか",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "",
+   "text": "-\n\"……確かに不思議な縁やな\"",
+   "traits": [
+    "タロット",
+    "商人"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gt_w29/gt_w29_015.png",
+   "variant": ""
+  },
+  {
+   "num": "GT/W29-016",
+   "name": "星のダエモニア",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の《タロット》のキャラを1枚選び、控え室に置く。\n\"％＆△◎×～！\"",
+   "traits": [
+    "タロット",
+    "悪魔"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gt_w29/gt_w29_016.png",
+   "variant": ""
+  },
+  {
+   "num": "GT/W29-017",
+   "name": "出撃命令 ぎんか",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 記憶 あなたの思い出置場の《タロット》のキャラが2枚以上なら、このカードのパワーを＋1500。\n\"任務や…！\"",
+   "traits": [
+    "タロット",
+    "商人"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gt_w29/gt_w29_017.png",
+   "variant": ""
+  },
+  {
+   "num": "GT/W29-018",
+   "name": "天道三姉妹 むつみ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［手札を2枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見てレベル1以下の《タロット》のキャラを1枚まで選び、後列の好きな枠に置き、その山札をシャッフルする。\n\"お姉たんたち、がんばってね！\"",
+   "traits": [
+    "ホムンクルス",
+    "タロット"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gt_w29/gt_w29_018.png",
+   "variant": ""
+  },
+  {
+   "num": "GT/W29-019",
+   "name": "深まる友情 あかり＆ぎんか",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "8500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "-\n\"ぎんか「こういうのもええな！」<br />あかり「うん！大事にしようっと！」\"",
+   "traits": [
+    "タロット"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gt_w29/gt_w29_019.png",
+   "variant": ""
+  },
+  {
+   "num": "GT/W29-020",
+   "name": "消沈 ぎんか",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "2",
+   "cost": "2",
+   "power": "8000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 他のあなたの《タロット》のキャラがアタックした時、そのターン中、このカードのパワーを＋1000。\n【自】 アンコール ［あなたの山札の上から1枚をクロック置場に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"えーっ！なんやて～！\"",
+   "traits": [
+    "タロット",
+    "商人"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gt_w29/gt_w29_020.png",
+   "variant": ""
+  },
+  {
+   "num": "GT/W29-021",
+   "name": "闘いからの帰還",
+   "type": "Event",
+   "rarity": "U",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "このカードは、あなたの《タロット》のキャラがいないなら、手札からプレイできない。\nあなたは相手のレベル0以下のキャラを1枚まで選び、手札に戻す。\nあなたは自分のキャラを1枚選び、そのターン中、パワーを＋3000。\n\"ウチは……あんたのおかげで戻って来れたんや！\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gt_w29/gt_w29_021.png",
+   "variant": ""
+  },
+  {
+   "num": "GT/W29-022",
+   "name": "ぎんかの部屋",
+   "type": "Event",
+   "rarity": "U",
+   "color": "yellow",
+   "level": "2",
+   "cost": "0",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "あなたは自分の山札を見て《タロット》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"マジか、おとん！！\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gt_w29/gt_w29_022.png",
+   "variant": ""
+  },
+  {
+   "num": "GT/W29-023",
+   "name": "血塗られた未来",
+   "type": "Climax",
+   "rarity": "CR",
+   "color": "yellow",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[shot.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[shot.gif]]：このターン中、このカードをトリガーした攻撃キャラが次に与えるダメージがキャンセルされた時、相手に1ダメージを与える）\n\"うちが……おっちゃんを楽にする！\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gt_w29/gt_w29_023.png",
+   "variant": ""
+  },
+  {
+   "num": "GT/W29-024",
+   "name": "夏最大の恐怖",
+   "type": "Climax",
+   "rarity": "CC",
+   "color": "yellow",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【自】 このカードが手札からクライマックス置場に置かれた時、あなたは1枚引き、自分のキャラを1枚選び、そのターン中、パワーを＋2000し、ソウルを＋1。\n\"「「「「ぎゃああああ～！！でた～！」」」」\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gt_w29/gt_w29_024.png",
+   "variant": ""
+  },
+  {
+   "num": "GT/W29-025",
+   "name": "１００万ドル金貨",
+   "type": "Climax",
+   "rarity": "CC",
+   "color": "yellow",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[bounce.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[bounce.gif]]：このカードがトリガーした時、あなたは相手のキャラを1枚選び、手札に戻してよい）\n\"ばっちこーいっ！１００万ドル金貨やぁぁぁ！\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gt_w29/gt_w29_025.png",
+   "variant": ""
+  },
+  {
+   "num": "GT/W29-026",
+   "name": "戦闘中 るな",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［あなたの山札の上から1枚をクロック置場に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは相手の前列のレベル0以下のキャラを1枚選ぶ。そのキャラは次の相手のスタンドフェイズに【スタンド】しない。\n【起】 集中 ［(1) このカードを【レスト】する］ あなたは自分の山札の上から4枚をめくり、控え室に置く。それらのカードのクライマックス1枚につき、次の行動を行う。『あなたは自分のクロックを1枚選び、手札に戻し、自分の山札の上から1枚を、クロック置場に置く。』\n\"はぁ～っ！\"",
+   "traits": [
+    "タロット",
+    "月"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gt_w29/gt_w29_026.png",
+   "variant": ""
+  },
+  {
+   "num": "GT/W29-027",
+   "name": "新人隊員 るな",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "green",
+   "level": "2",
+   "cost": "1",
+   "power": "5500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの《タロット》のキャラすべてに、パワーを＋1000。\n【自】［(2) このカードを思い出にする］ あなたのクライマックス置場に「華麗なる休暇」が置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「月の力 るな」を1枚選び、このカードがいた枠に置く。\n\"今……治すから……\"",
+   "traits": [
+    "タロット",
+    "月"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gt_w29/gt_w29_027.png",
+   "variant": ""
+  },
+  {
+   "num": "GT/W29-027SP",
+   "name": "新人隊員 るな",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "green",
+   "level": "2",
+   "cost": "1",
+   "power": "5500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの《タロット》のキャラすべてに、パワーを＋1000。\n【自】［(2) このカードを思い出にする］ あなたのクライマックス置場に「華麗なる休暇」が置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「月の力 るな」を1枚選び、このカードがいた枠に置く。\n\"SECRET\"",
+   "traits": [
+    "タロット",
+    "月"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gt_w29/gt_w29_027sp.png",
+   "variant": ""
+  },
+  {
+   "num": "GT/W29-028",
+   "name": "水着のるな",
+   "type": "Character",
+   "rarity": "R",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋500。\n【永】 他のあなたの「朝日に輝く せいら」がいるなら、このカードは次の能力を得る。『【起】［このカードを控え室に置く］ あなたは自分の控え室の「強い虚栄心 るな」を1枚選び、このカードがいた枠に置く。』\n\"あかりさん……\"",
+   "traits": [
+    "タロット",
+    "令嬢"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gt_w29/gt_w29_028.png",
+   "variant": ""
+  },
+  {
+   "num": "GT/W29-028S",
+   "name": "水着のるな",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋500。\n【永】 他のあなたの「朝日に輝く せいら」がいるなら、このカードは次の能力を得る。『【起】［このカードを控え室に置く］ あなたは自分の控え室の「強い虚栄心 るな」を1枚選び、このカードがいた枠に置く。』\n\"SECRET\"",
+   "traits": [
+    "タロット",
+    "令嬢"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gt_w29/gt_w29_028s.png",
+   "variant": ""
+  },
+  {
+   "num": "GT/W29-029",
+   "name": "『世界』の使い手 エティア",
+   "type": "Character",
+   "rarity": "R",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、そのターン中、このカードのパワーを＋1500。\n\"世界の光よ！\"",
+   "traits": [
+    "タロット",
+    "日傘"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gt_w29/gt_w29_029.png",
+   "variant": ""
+  },
+  {
+   "num": "GT/W29-029SP",
+   "name": "『世界』の使い手 エティア",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、そのターン中、このカードのパワーを＋1500。\n\"SECRET\"",
+   "traits": [
+    "タロット",
+    "日傘"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gt_w29/gt_w29_029sp.png",
+   "variant": ""
+  },
+  {
+   "num": "GT/W29-030",
+   "name": "『審判』の使い手 アリエル",
+   "type": "Character",
+   "rarity": "R",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 他のあなたの「『世界』の使い手 エティア」がアタックした時、そのターン中、このカードのパワーを＋2500。\n\"審判の鉄槌よ！\"",
+   "traits": [
+    "タロット",
+    "メガネ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gt_w29/gt_w29_030.png",
+   "variant": ""
+  },
+  {
+   "num": "GT/W29-030SP",
+   "name": "『審判』の使い手 アリエル",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 他のあなたの「『世界』の使い手 エティア」がアタックした時、そのターン中、このカードのパワーを＋2500。\n\"SECRET\"",
+   "traits": [
+    "タロット",
+    "メガネ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gt_w29/gt_w29_030sp.png",
+   "variant": ""
+  },
+  {
+   "num": "GT/W29-031",
+   "name": "宿命の少女 るな",
+   "type": "Character",
+   "rarity": "R",
+   "color": "green",
+   "level": "2",
+   "cost": "1",
+   "power": "8000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】［(2)］ このカードがアタックした時、クライマックス置場に「アマリリスの花咲く光」があるなら、あなたはコストを払ってよい。そうしたら、あなたは自分のクロックの上から1枚を、控え室に置き、そのターン中、このカードのパワーを＋3000。\n\"-\"",
+   "traits": [
+    "タロット",
+    "月"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gt_w29/gt_w29_031.png",
+   "variant": ""
+  },
+  {
+   "num": "GT/W29-031R",
+   "name": "宿命の少女 るな",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "green",
+   "level": "2",
+   "cost": "1",
+   "power": "8000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】［(2)］ このカードがアタックした時、クライマックス置場に「アマリリスの花咲く光」があるなら、あなたはコストを払ってよい。そうしたら、あなたは自分のクロックの上から1枚を、控え室に置き、そのターン中、このカードのパワーを＋3000。\n\"SECRET\"",
+   "traits": [
+    "タロット",
+    "月"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gt_w29/gt_w29_031r.png",
+   "variant": ""
+  },
+  {
+   "num": "GT/W29-032",
+   "name": "オオカミ少女 るな",
+   "type": "Character",
+   "rarity": "R",
+   "color": "green",
+   "level": "2",
+   "cost": "2",
+   "power": "9500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から1枚を公開する。そのカードが《タロット》のキャラでないなら、そのターン中、このカードは次の能力を得る。『【永】 このカードはフロントアタックできない。』（公開したカードは元に戻す）\n\"…アカリサンガ、一緒ニ来テ\"",
+   "traits": [
+    "タロット",
+    "動物"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gt_w29/gt_w29_032.png",
+   "variant": ""
+  },
+  {
+   "num": "GT/W29-032S",
+   "name": "オオカミ少女 るな",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "2",
+   "cost": "2",
+   "power": "9500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から1枚を公開する。そのカードが《タロット》のキャラでないなら、そのターン中、このカードは次の能力を得る。『【永】 このカードはフロントアタックできない。』（公開したカードは元に戻す）\n\"SECRET\"",
+   "traits": [
+    "タロット",
+    "動物"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gt_w29/gt_w29_032s.png",
+   "variant": ""
+  },
+  {
+   "num": "GT/W29-033",
+   "name": "焦がれる夜に るな",
+   "type": "Character",
+   "rarity": "U",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの「宿命の少女 あかり」すべてに、レベルを＋1し、パワーを＋500。\n【自】 絆／「宿命の少女 あかり」 ［(1)］ （このカードがプレイされて舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「宿命の少女 あかり」を1枚選び、手札に戻す）\n\"私…あかりさんの事……もっと知りたい……\"",
+   "traits": [
+    "タロット",
+    "令嬢"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gt_w29/gt_w29_033.png",
+   "variant": ""
+  },
+  {
+   "num": "GT/W29-034",
+   "name": "エティア・ヴィスコンティ",
+   "type": "Character",
+   "rarity": "U",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの前列の中央の枠のキャラに、パワーを＋1000。\n【起】［(1) このカードを【レスト】する］ あなたは他の自分の《タロット》のキャラを1枚選び、【スタンド】する。\n\"どうもありがとう\"",
+   "traits": [
+    "タロット",
+    "日傘"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gt_w29/gt_w29_034.png",
+   "variant": ""
+  },
+  {
+   "num": "GT/W29-035",
+   "name": "色づく頬 るな",
+   "type": "Character",
+   "rarity": "U",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、そのターン中、このカードのパワーを＋Ｘ。Ｘはあなたの《タロット》のキャラの枚数×500に等しい。\n\"-\"",
+   "traits": [
+    "タロット",
+    "令嬢"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gt_w29/gt_w29_035.png",
+   "variant": ""
+  },
+  {
+   "num": "GT/W29-036",
+   "name": "強い虚栄心 るな",
+   "type": "Character",
+   "rarity": "U",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［手札を1枚控え室に置き、このカードを思い出にする］ あなたのクライマックス置場に「月蝕」が置かれた時、他のあなたの前列のキャラが1枚以下なら、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「オオカミ少女 るな」を1枚選び、このカードがいた枠に置く。\n\"……\"",
+   "traits": [
+    "タロット",
+    "令嬢"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gt_w29/gt_w29_036.png",
+   "variant": ""
+  },
+  {
+   "num": "GT/W29-037",
+   "name": "月の力 るな",
+   "type": "Character",
+   "rarity": "U",
+   "color": "green",
+   "level": "3",
+   "cost": "2",
+   "power": "9500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの《タロット》のキャラすべてに、『【自】 アンコール ［手札のキャラを1枚控え室に置く］』を与える。\n【自】 このカードが手札から舞台に置かれた時か「新人隊員 るな」の【自】の効果で舞台に置かれた時、あなたは自分の山札を上からＸ枚まで見て、カードを1枚まで選び、手札に加える。残りのカードを控え室に置く。Ｘはあなたの《タロット》のキャラの枚数に等しい。\n\"聞こえる、私にも、あの人の声……\"",
+   "traits": [
+    "タロット",
+    "月"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gt_w29/gt_w29_037.png",
+   "variant": ""
+  },
+  {
+   "num": "GT/W29-038",
+   "name": "急接近!? あかり＆るな",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【起】［あなたの「急接近!? あかり＆るな」を2枚【レスト】する］ あなたは自分の山札の上から1枚を、ストック置場に置く。\n\"あかり「るなちゃんが自分の気持ちを整理するまで。<br />それまで……一緒にここに居る……」\"",
+   "traits": [
+    "タロット"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gt_w29/gt_w29_038.png",
+   "variant": ""
+  },
+  {
+   "num": "GT/W29-039",
+   "name": "アリエル・ヴァルティエル・ウェストコット",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【起】［あなたの《タロット》のキャラを2枚【レスト】する］ あなたは自分のキャラを1枚選び、そのターン中、パワーを＋1500。\n\"会議室に集合しろ、話がある\"",
+   "traits": [
+    "タロット",
+    "メガネ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gt_w29/gt_w29_039.png",
+   "variant": ""
+  },
+  {
+   "num": "GT/W29-040",
+   "name": "幸せな時間 るな",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "",
+   "text": "-\n\"おお～……\"",
+   "traits": [
+    "タロット",
+    "令嬢"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gt_w29/gt_w29_040.png",
+   "variant": ""
+  },
+  {
+   "num": "GT/W29-041",
+   "name": "優しい微笑み るな",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【起】【カウンター】 助太刀1500 レベル1 ［手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋1500）\n\"少しは食べないと……\"",
+   "traits": [
+    "タロット",
+    "令嬢"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gt_w29/gt_w29_041.png",
+   "variant": ""
+  },
+  {
+   "num": "GT/W29-042",
+   "name": "思わずうっとり るな",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの《タロット》のキャラ1枚につき、このカードのパワーを＋500。\n【自】 アンコール ［手札のキャラを1枚控え室に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"かわいい……\"",
+   "traits": [
+    "タロット",
+    "令嬢"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gt_w29/gt_w29_042.png",
+   "variant": ""
+  },
+  {
+   "num": "GT/W29-043",
+   "name": "朝日に輝く るな",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "1",
+   "cost": "1",
+   "power": "7000",
+   "soul": 1,
+   "trigger": "",
+   "text": "-\n\"普通に生活してたら……きっと出会っていなかった……\"",
+   "traits": [
+    "タロット",
+    "令嬢"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gt_w29/gt_w29_043.png",
+   "variant": ""
+  },
+  {
+   "num": "GT/W29-044",
+   "name": "天道三姉妹 ななせ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "2",
+   "cost": "1",
+   "power": "7500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】［手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を上から4枚まで見て、《タロット》のキャラを1枚まで選んで相手に見せ、手札に加える。残りのカードを控え室に置く。\n\"ですねー\"",
+   "traits": [
+    "ホムンクルス",
+    "タロット"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gt_w29/gt_w29_044.png",
+   "variant": ""
+  },
+  {
+   "num": "GT/W29-045",
+   "name": "半泣きのるな",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "2",
+   "cost": "1",
+   "power": "8500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "-\n\"ひっ！何か出てきた……！！\"",
+   "traits": [
+    "タロット",
+    "令嬢"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gt_w29/gt_w29_045.png",
+   "variant": ""
+  },
+  {
+   "num": "GT/W29-046",
+   "name": "運命の輪",
+   "type": "Event",
+   "rarity": "U",
+   "color": "green",
+   "level": "1",
+   "cost": "3",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "あなたは自分のクロック置場のレベル2以下の《タロット》のキャラを1枚選び、舞台の好きな枠に置く。このカードをクロック置場に置く。\n\"テネブライモード！運命の輪、発動！\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gt_w29/gt_w29_046.png",
+   "variant": ""
+  },
+  {
+   "num": "GT/W29-047",
+   "name": "癒やしの力",
+   "type": "Event",
+   "rarity": "U",
+   "color": "green",
+   "level": "2",
+   "cost": "0",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "【カウンター】 あなたは自分の《タロット》のキャラを1枚選び、そのターン中、パワーを＋1500。このカードをストック置場に置く。\n\"……\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gt_w29/gt_w29_047.png",
+   "variant": ""
+  },
+  {
+   "num": "GT/W29-048",
+   "name": "華麗なる休暇",
+   "type": "Climax",
+   "rarity": "CR",
+   "color": "green",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[treasure.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[treasure.gif]]：このカードがトリガーした時、あなたはこのカードを手札に戻す。あなたは自分の山札の上から1枚を、ストック置場に置いてよい）\n\"あかり「……この先、何かが起こっても……<br />４人一緒なら頑張れる」\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gt_w29/gt_w29_048.png",
+   "variant": ""
+  },
+  {
+   "num": "GT/W29-049",
+   "name": "アマリリスの花咲く光",
+   "type": "Climax",
+   "rarity": "CC",
+   "color": "green",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【自】 このカードが手札からクライマックス置場に置かれた時、あなたは自分の控え室の緑のカードを1枚まで選び、ストック置場に置き、自分のキャラすべてに、そのターン中、ソウルを＋1。\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gt_w29/gt_w29_049.png",
+   "variant": ""
+  },
+  {
+   "num": "GT/W29-050",
+   "name": "月蝕",
+   "type": "Climax",
+   "rarity": "CC",
+   "color": "green",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【自】 このカードが手札からクライマックス置場に置かれた時、あなたは1枚引き、自分のキャラを1枚選び、そのターン中、パワーを＋2000し、ソウルを＋1。\n\"アカリサンガ ダエモニアノ ナカマニ<br />ナッテクレレバ、一緒ニイラレル\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gt_w29/gt_w29_050.png",
+   "variant": ""
+  },
+  {
+   "num": "GT/W29-051",
+   "name": "新人隊員　あかり",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "8000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】［(1) 手札の「拓かれた運命」を1枚控え室に置き、このカードをクロック置場に置く］ バトル中のこのカードが【リバース】した時、他のあなたの《タロット》のキャラが3枚以上なら、あなたはコストを払ってよい。そうしたら、相手に1ダメージを与え、あなたは自分の控え室の「太陽の力 あかり」を1枚選び、このカードがいた枠に【レスト】して置く。（ダメージキャンセルは発生する）\n\"教えて、何があったのかを……！<br />どうしたらあなたの心を救えるのかを……！\"",
+   "traits": [
+    "タロット",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gt_w29/gt_w29_051.png",
+   "variant": ""
+  },
+  {
+   "num": "GT/W29-051SP",
+   "name": "新人隊員　あかり",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "8000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】［(1) 手札の「拓かれた運命」を1枚控え室に置き、このカードをクロック置場に置く］ バトル中のこのカードが【リバース】した時、他のあなたの《タロット》のキャラが3枚以上なら、あなたはコストを払ってよい。そうしたら、相手に1ダメージを与え、あなたは自分の控え室の「太陽の力 あかり」を1枚選び、このカードがいた枠に【レスト】して置く。（ダメージキャンセルは発生する）\n\"SECRET\"",
+   "traits": [
+    "タロット",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gt_w29/gt_w29_051sp.png",
+   "variant": ""
+  },
+  {
+   "num": "GT/W29-052",
+   "name": "太陽の力 あかり",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 このカードの下のマーカー1枚につき、このカードのパワーを＋4000。\n【自】 このカードが手札から舞台に置かれた時か「新人隊員　あかり」の【自】の効果で舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n【自】 このカードがアタックした時、クライマックス置場に「クレシドラ」があるなら、あなたは自分の控え室の「太陽 ひなた」を1枚選び、このカードの下にマーカーとして裏向きに置いてよい。\n\"これが…太陽の力…\"",
+   "traits": [
+    "タロット",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gt_w29/gt_w29_052.png",
+   "variant": ""
+  },
+  {
+   "num": "GT/W29-052S",
+   "name": "太陽の力 あかり",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 このカードの下のマーカー1枚につき、このカードのパワーを＋4000。\n【自】 このカードが手札から舞台に置かれた時か「新人隊員　あかり」の【自】の効果で舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n【自】 このカードがアタックした時、クライマックス置場に「クレシドラ」があるなら、あなたは自分の控え室の「太陽 ひなた」を1枚選び、このカードの下にマーカーとして裏向きに置いてよい。\n\"SECRET\"",
+   "traits": [
+    "タロット",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gt_w29/gt_w29_052s.png",
+   "variant": ""
+  },
+  {
+   "num": "GT/W29-053",
+   "name": "天道三姉妹 いつき",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードがアタックした時、あなたの舞台のキャラの持つ色の合計が3色以上なら、あなたのキャラすべてに、そのターン中、レベルを＋1し、パワーを＋1000。\n\"ムッ、バカにしてるでしゅ\"",
+   "traits": [
+    "ホムンクルス",
+    "タロット"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gt_w29/gt_w29_053.png",
+   "variant": ""
+  },
+  {
+   "num": "GT/W29-054",
+   "name": "朝日に輝く あかり",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【起】［(1) 手札のクライマックスを1枚控え室に置く］ あなたは自分の控え室の《タロット》のキャラを1枚選び、手札に戻す。\n\"だからこそ、お互いのことをもっと知りたいし<br />仲良くなりたい……\"",
+   "traits": [
+    "タロット",
+    "占い"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gt_w29/gt_w29_054.png",
+   "variant": ""
+  },
+  {
+   "num": "GT/W29-055",
+   "name": "太陽 ひなた",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたのカード名に「あかり」を含むキャラすべてに、パワーを＋500。\n【自】 このカードが【リバース】した時、このカードのバトル相手のレベルが1以下なら、あなたはそのキャラを【リバース】してよい。\n\"大丈夫よ…あかり…大丈夫…\"",
+   "traits": [
+    "タロット",
+    "占い"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gt_w29/gt_w29_055.png",
+   "variant": ""
+  },
+  {
+   "num": "GT/W29-056",
+   "name": "宿命の少女 あかり",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "1",
+   "cost": "1",
+   "power": "6500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 アンコール ［あなたの山札の上から1枚をクロック置場に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"-\"",
+   "traits": [
+    "タロット",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gt_w29/gt_w29_056.png",
+   "variant": ""
+  },
+  {
+   "num": "GT/W29-056R",
+   "name": "宿命の少女 あかり",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "red",
+   "level": "1",
+   "cost": "1",
+   "power": "6500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 アンコール ［あなたの山札の上から1枚をクロック置場に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"SECRET\"",
+   "traits": [
+    "タロット",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gt_w29/gt_w29_056r.png",
+   "variant": ""
+  },
+  {
+   "num": "GT/W29-057",
+   "name": "水着のあかり",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "7000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの『応援』を持つキャラ1枚につき、このカードのパワーを＋1000。\n【自】 他のあなたのバトル中のキャラが【リバース】した時、そのターン中、このカードは『【自】 アンコール ［手札のキャラを1枚控え室に置く］』を得る。\n\"-\"",
+   "traits": [
+    "タロット",
+    "占い"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gt_w29/gt_w29_057.png",
+   "variant": ""
+  },
+  {
+   "num": "GT/W29-057S",
+   "name": "水着のあかり",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "7000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの『応援』を持つキャラ1枚につき、このカードのパワーを＋1000。\n【自】 他のあなたのバトル中のキャラが【リバース】した時、そのターン中、このカードは『【自】 アンコール ［手札のキャラを1枚控え室に置く］』を得る。\n\"SECRET\"",
+   "traits": [
+    "タロット",
+    "占い"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gt_w29/gt_w29_057s.png",
+   "variant": ""
+  },
+  {
+   "num": "GT/W29-058",
+   "name": "心崎 冬菜",
+   "type": "Character",
+   "rarity": "U",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(2) このカードを思い出にする］ バトル中のこのカードが【リバース】した時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の、《占い》か《武器》のキャラを1枚選び、手札に戻す。\n\"どう？\"",
+   "traits": [
+    "メガネ",
+    "本"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gt_w29/gt_w29_058.png",
+   "variant": ""
+  },
+  {
+   "num": "GT/W29-059",
+   "name": "就寝中のあかり",
+   "type": "Character",
+   "rarity": "U",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが【リバース】した時、このカードのバトル相手のレベルが0以下なら、あなたはそのキャラを【リバース】してよい。\n【自】［(1)］ このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードを思い出にする。\n\"お母さん…どうして…？\"",
+   "traits": [
+    "タロット",
+    "占い"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gt_w29/gt_w29_059.png",
+   "variant": ""
+  },
+  {
+   "num": "GT/W29-060",
+   "name": "占い師 永瀧の母＆華夢＆リムロ",
+   "type": "Character",
+   "rarity": "U",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札を上から1枚見て、山札の上か控え室に置く。\n【自】 このカードが手札から舞台に置かれた時、あなたは他の自分の《タロット》のキャラを1枚選び、そのターン中、パワーを＋1000。\n\"リムロ「まったく商売あがったりだよ」<br />華夢「ホントホント。ま、実際良く当たるから<br />仕方ないんだけど」\"",
+   "traits": [
+    "占い"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gt_w29/gt_w29_060.png",
+   "variant": ""
+  },
+  {
+   "num": "GT/W29-061",
+   "name": "少年ケルブレム",
+   "type": "Character",
+   "rarity": "U",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［あなたの山札の上から1枚をクロック置場に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、すべてのプレイヤーは自分の控え室のカードすべてを、山札に戻し、それらの山札をシャッフルする。\n\"きみは自由だ\"",
+   "traits": [
+    "タロット",
+    "悪魔"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gt_w29/gt_w29_061.png",
+   "variant": ""
+  },
+  {
+   "num": "GT/W29-062",
+   "name": "少女ケルブレム",
+   "type": "Character",
+   "rarity": "U",
+   "color": "red",
+   "level": "2",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の《タロット》のキャラを1枚選び、控え室に置く。\n\"それでも来るかい？\"",
+   "traits": [
+    "タロット",
+    "悪魔"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gt_w29/gt_w29_062.png",
+   "variant": ""
+  },
+  {
+   "num": "GT/W29-063",
+   "name": "太陽の笑顔 あかり",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋500。\n\"えへへ、いいでしょう？\"",
+   "traits": [
+    "タロット",
+    "占い"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gt_w29/gt_w29_063.png",
+   "variant": ""
+  },
+  {
+   "num": "GT/W29-064",
+   "name": "ドジっ娘 あかり",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から1枚を公開する。そのカードが《タロット》のキャラなら手札に加え、あなたは自分の手札を1枚選び、控え室に置く。（そうでないなら元に戻す）\n【自】［このカードを控え室に置く］ あなたのクライマックス置場に「最後の使い手」が置かれた時、他のあなたのキャラがいないなら、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見て「宿命の少女 あかり」を1枚まで選び、このカードがいた枠に置き、その山札をシャッフルする。\n\"おいしく食べてね、アリさん達……\"",
+   "traits": [
+    "タロット",
+    "占い"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gt_w29/gt_w29_064.png",
+   "variant": ""
+  },
+  {
+   "num": "GT/W29-065",
+   "name": "活発な少女 あかり",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "",
+   "text": "-\n\"あたし、頑張って身体鍛えるよー！\"",
+   "traits": [
+    "タロット",
+    "占い"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gt_w29/gt_w29_065.png",
+   "variant": ""
+  },
+  {
+   "num": "GT/W29-066",
+   "name": "罪をはぎとる刃 あかり",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(2)］ あなたがこのカードの『助太刀』を使った時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の《タロット》のキャラを1枚選び、手札に戻す。\n【起】【カウンター】 助太刀1000 レベル1 ［手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋1000）\n\"・・・くっ！\"",
+   "traits": [
+    "タロット",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gt_w29/gt_w29_066.png",
+   "variant": ""
+  },
+  {
+   "num": "GT/W29-067",
+   "name": "天真爛漫 あかり",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "5500",
+   "soul": 1,
+   "trigger": "",
+   "text": "-\n\"いっぱいいっぱい楽しもう！<br />ねっ！ぎんか、せいら、るなちゃん\"",
+   "traits": [
+    "タロット",
+    "占い"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gt_w29/gt_w29_067.png",
+   "variant": ""
+  },
+  {
+   "num": "GT/W29-068",
+   "name": "目覚めた力 あかり",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "1",
+   "cost": "1",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋Ｘ。Ｘはあなたの『応援』を持つキャラの枚数×500に等しい。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札を上から1枚見て、山札の上か控え室に置く。\n\"話を聞く。それを望んでいるから……\"",
+   "traits": [
+    "タロット",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gt_w29/gt_w29_068.png",
+   "variant": ""
+  },
+  {
+   "num": "GT/W29-069",
+   "name": "はずむ気持ち あかり",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "8000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【起】［(1) あなたの山札の上から1枚をクロック置場に置き、手札の「少年ケルブレム」を1枚とこのカードを思い出にする］ あなたは自分の控え室の《タロット》のキャラを2枚まで選び、手札に戻し、自分の控え室のカードすべてを、山札に戻し、その山札をシャッフルする。\n\"こうやって４人みんなでお休みとれたの初めてだし、<br />今日はいっぱい遊ぼうよ！\"",
+   "traits": [
+    "タロット",
+    "占い"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gt_w29/gt_w29_069.png",
+   "variant": ""
+  },
+  {
+   "num": "GT/W29-070",
+   "name": "おめかし あかり",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "2",
+   "cost": "2",
+   "power": "9000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "-\n\"わあ……ホントにパーティーだ！\"",
+   "traits": [
+    "タロット",
+    "占い"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gt_w29/gt_w29_070.png",
+   "variant": ""
+  },
+  {
+   "num": "GT/W29-071",
+   "name": "追憶の彼方",
+   "type": "Event",
+   "rarity": "U",
+   "color": "red",
+   "level": "1",
+   "cost": "3",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "あなたは自分の控え室の「太陽 ひなた」を1枚選び、クロック置場に置く。そうしたら、あなたは自分の控え室のレベル2以下の《タロット》のキャラを1枚選び、舞台の好きな枠に置く。このカードを思い出にする。\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gt_w29/gt_w29_071.png",
+   "variant": ""
+  },
+  {
+   "num": "GT/W29-072",
+   "name": "遮られる光",
+   "type": "Event",
+   "rarity": "U",
+   "color": "red",
+   "level": "2",
+   "cost": "2",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "あなたは自分の控え室の《悪魔》のキャラを3枚まで選び、手札に戻す。このカードをクロック置場に置く。\n\"＃＃＃……ウラ＆％＆……ヤマ……シイ％％……\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gt_w29/gt_w29_072.png",
+   "variant": ""
+  },
+  {
+   "num": "GT/W29-073",
+   "name": "クレシドラ",
+   "type": "Climax",
+   "rarity": "CR",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[salvage.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[salvage.gif]]：このカードがトリガーした時、あなたは自分の控え室のキャラを1枚選び、手札に戻してよい）\n\"シュレディンガー「現実世界でも、<br />アストラルクスでもない、我々の知らない世界ニャ」\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gt_w29/gt_w29_073.png",
+   "variant": ""
+  },
+  {
+   "num": "GT/W29-074",
+   "name": "拓かれた運命",
+   "type": "Climax",
+   "rarity": "CC",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【自】 このカードが手札からクライマックス置場に置かれた時、あなたは自分の控え室の赤のカードを1枚まで選び、ストック置場に置き、自分のキャラすべてに、そのターン中、ソウルを＋1。\n\"私たちには、声を聞いた義務がある！\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gt_w29/gt_w29_074.png",
+   "variant": ""
+  },
+  {
+   "num": "GT/W29-075",
+   "name": "最後の使い手",
+   "type": "Climax",
+   "rarity": "CC",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【自】 このカードが手札からクライマックス置場に置かれた時、あなたは1枚引き、自分のキャラを1枚選び、そのターン中、パワーを＋2000し、ソウルを＋1。\n\"でも、あの日から決めた！何があっても、<br />どんなことになっても……声を聞くって！\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gt_w29/gt_w29_075.png",
+   "variant": ""
+  },
+  {
+   "num": "GT/W29-076",
+   "name": "宿命の少女 せいら",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードがアタックした時、クライマックス置場に「こぼれおちる水」があるなら、次の相手のターンの終わりまで、このカードのパワーを＋Ｘ。Ｘはあなたの《タロット》のキャラの枚数×500に等しい。\n【自】 アンコール ［あなたの山札の上から1枚をクロック置場に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"-\"",
+   "traits": [
+    "タロット",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gt_w29/gt_w29_076.png",
+   "variant": ""
+  },
+  {
+   "num": "GT/W29-076R",
+   "name": "宿命の少女 せいら",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードがアタックした時、クライマックス置場に「こぼれおちる水」があるなら、次の相手のターンの終わりまで、このカードのパワーを＋Ｘ。Ｘはあなたの《タロット》のキャラの枚数×500に等しい。\n【自】 アンコール ［あなたの山札の上から1枚をクロック置場に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"SECRET\"",
+   "traits": [
+    "タロット",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gt_w29/gt_w29_076r.png",
+   "variant": ""
+  },
+  {
+   "num": "GT/W29-077",
+   "name": "星の力 せいら",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "blue",
+   "level": "3",
+   "cost": "2",
+   "power": "9500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの《タロット》のキャラが2枚以上なら、このカードのパワーを＋1000。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n【起】［手札を1枚控え室に置く］ あなたは他の自分の《タロット》のキャラを1枚選び、そのターン中、パワーを＋1500し、このカードのパワーを＋1500。\n\"私は…私の仕事をするだけ…\"",
+   "traits": [
+    "タロット",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gt_w29/gt_w29_077.png",
+   "variant": ""
+  },
+  {
+   "num": "GT/W29-077SP",
+   "name": "星の力 せいら",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "blue",
+   "level": "3",
+   "cost": "2",
+   "power": "9500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの《タロット》のキャラが2枚以上なら、このカードのパワーを＋1000。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n【起】［手札を1枚控え室に置く］ あなたは他の自分の《タロット》のキャラを1枚選び、そのターン中、パワーを＋1500し、このカードのパワーを＋1500。\n\"SECRET\"",
+   "traits": [
+    "タロット",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gt_w29/gt_w29_077sp.png",
+   "variant": ""
+  },
+  {
+   "num": "GT/W29-078",
+   "name": "意外な一面 せいら",
+   "type": "Character",
+   "rarity": "R",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 相手のターン中、他のあなたの前列の中央の枠のキャラに、パワーを＋500。\n【自】［このカードを控え室に置く］ 他のあなたのキャラが舞台から控え室に置かれた時、後列にこのカードがいるなら、あなたはコストを払ってよい。そうしたら、そのキャラをそのキャラがいた枠に【レスト】して置く。\n\"悪魔と幽霊は違う！！\"",
+   "traits": [
+    "タロット",
+    "スポーツ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gt_w29/gt_w29_078.png",
+   "variant": ""
+  },
+  {
+   "num": "GT/W29-078S",
+   "name": "意外な一面 せいら",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 相手のターン中、他のあなたの前列の中央の枠のキャラに、パワーを＋500。\n【自】［このカードを控え室に置く］ 他のあなたのキャラが舞台から控え室に置かれた時、後列にこのカードがいるなら、あなたはコストを払ってよい。そうしたら、そのキャラをそのキャラがいた枠に【レスト】して置く。\n\"SECRET\"",
+   "traits": [
+    "タロット",
+    "スポーツ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gt_w29/gt_w29_078s.png",
+   "variant": ""
+  },
+  {
+   "num": "GT/W29-079",
+   "name": "部屋着のせいら",
+   "type": "Character",
+   "rarity": "R",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から1枚を公開する。そのカードがクライマックスなら、相手は自分の山札を上から1枚見て、山札の上に置くか手札に加える。（公開したカードは元に戻す）\n\"どうしたの？\"",
+   "traits": [
+    "タロット",
+    "スポーツ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gt_w29/gt_w29_079.png",
+   "variant": ""
+  },
+  {
+   "num": "GT/W29-079S",
+   "name": "部屋着のせいら",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から1枚を公開する。そのカードがクライマックスなら、相手は自分の山札を上から1枚見て、山札の上に置くか手札に加える。（公開したカードは元に戻す）\n\"SECRET\"",
+   "traits": [
+    "タロット",
+    "スポーツ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gt_w29/gt_w29_079s.png",
+   "variant": ""
+  },
+  {
+   "num": "GT/W29-080",
+   "name": "朝日に輝く せいら",
+   "type": "Character",
+   "rarity": "R",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、『【自】 アンコール ［手札のキャラを1枚控え室に置く］』を与える。\n【自】［(2)］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは1枚引く。\n\"……同じ力をもち、同じ秘密を共有する者同士……\"",
+   "traits": [
+    "タロット",
+    "スポーツ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gt_w29/gt_w29_080.png",
+   "variant": ""
+  },
+  {
+   "num": "GT/W29-081",
+   "name": "打ちとける心 せいら",
+   "type": "Character",
+   "rarity": "R",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードがアタックした時、クライマックス置場に「果てなき闘い」があるなら、あなたは自分の山札の上から1枚を公開する。そのカードが《タロット》のキャラなら手札に加える。（そうでないなら元に戻す）\n【自】 絆／「水着のあかり」 ［(1)］ （このカードがプレイされて舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「水着のあかり」を1枚選び、手札に戻す）\n\"せいら「あかりは強い……」\"",
+   "traits": [
+    "タロット",
+    "スポーツ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gt_w29/gt_w29_081.png",
+   "variant": ""
+  },
+  {
+   "num": "GT/W29-082",
+   "name": "淋しげな微笑み せいら",
+   "type": "Character",
+   "rarity": "R",
+   "color": "blue",
+   "level": "2",
+   "cost": "2",
+   "power": "9000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 このカードはサイドアタックできない。\n【永】 他のあなたの《タロット》のキャラが2枚以上なら、このカードは『【自】 アンコール ［手札のキャラを1枚控え室に置く］』を得る。\n\"持ってて欲しい……花苗のものだから……\"",
+   "traits": [
+    "タロット",
+    "スポーツ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gt_w29/gt_w29_082.png",
+   "variant": ""
+  },
+  {
+   "num": "GT/W29-083",
+   "name": "友への想い せいら",
+   "type": "Character",
+   "rarity": "U",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 絆／「お父さんっ子 ぎんか」 ［あなたの山札の上から1枚をクロック置場に置く］ （このカードがプレイされて舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「お父さんっ子 ぎんか」を1枚選び、手札に戻す）\n【起】［(1)］ あなたは1枚引き、自分の手札を1枚選び、控え室に置く。\n\"だからって……こんな！\"",
+   "traits": [
+    "タロット",
+    "スポーツ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gt_w29/gt_w29_083.png",
+   "variant": ""
+  },
+  {
+   "num": "GT/W29-084",
+   "name": "トレーニング中のせいら",
+   "type": "Character",
+   "rarity": "U",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたのキャラがいないなら、このカードのパワーを＋1500し、このカードは相手のキャラの【自】の効果によって【リバース】されない。\n\"考えても仕方ない\"",
+   "traits": [
+    "タロット",
+    "スポーツ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gt_w29/gt_w29_084.png",
+   "variant": ""
+  },
+  {
+   "num": "GT/W29-085",
+   "name": "プリシラ・トワイライト",
+   "type": "Character",
+   "rarity": "U",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの「メルティナ・メルヴィス」1枚につき、このカードのパワーを＋1000。\n\"オッケ～、メル～～～～！！\"",
+   "traits": [
+    "タロット",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gt_w29/gt_w29_085.png",
+   "variant": ""
+  },
+  {
+   "num": "GT/W29-086",
+   "name": "メルティナ・メルヴィス",
+   "type": "Character",
+   "rarity": "U",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 他のあなたの「プリシラ・トワイライト」がアタックした時、そのターン中、このカードのパワーを＋2500。\n\"プリシラ、あとはよろしく～\"",
+   "traits": [
+    "タロット",
+    "魔法"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gt_w29/gt_w29_086.png",
+   "variant": ""
+  },
+  {
+   "num": "GT/W29-087",
+   "name": "新人隊員 せいら",
+   "type": "Character",
+   "rarity": "U",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "8000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードがアタックした時、クライマックス置場に「星とともの果てに」があるなら、そのターン中、このカードのパワーを＋3500し、このカードは次の能力を得る。『【自】 このカードのバトル相手が【リバース】した時、あなたはそのキャラを山札の下に置いてよい。』\n\"は―――っ！\"",
+   "traits": [
+    "タロット",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gt_w29/gt_w29_087.png",
+   "variant": ""
+  },
+  {
+   "num": "GT/W29-088",
+   "name": "クールガール せいら",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【起】［(1)］ あなたは他の自分のキャラを1枚選び、そのターン中、パワーを＋1000し、このカードのパワーを＋1000。\n\"どっちでもいい\"",
+   "traits": [
+    "タロット",
+    "スポーツ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gt_w29/gt_w29_088.png",
+   "variant": ""
+  },
+  {
+   "num": "GT/W29-089",
+   "name": "ストイックなせいら",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "",
+   "text": "-\n\"えっ…？\"",
+   "traits": [
+    "タロット",
+    "スポーツ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gt_w29/gt_w29_089.png",
+   "variant": ""
+  },
+  {
+   "num": "GT/W29-090",
+   "name": "『愚者』の使い手 プリシラ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "6000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 あなたのメインフェイズの始めに、あなたは自分の山札の上から1枚を、控え室に置く。そのカードのレベルが1以上なら、このカードを【レスト】する。（クライマックスのレベルは0として扱う）\n\"愚者の……一撃！\"",
+   "traits": [
+    "タロット",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gt_w29/gt_w29_090.png",
+   "variant": ""
+  },
+  {
+   "num": "GT/W29-091",
+   "name": "幼い頃の記憶 せいら",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "1",
+   "cost": "1",
+   "power": "6000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 チェンジ ［(2) 手札を1枚控え室に置き、このカードを思い出にする］ あなたのクライマックスフェイズの始めに、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「淋しげな微笑み せいら」を1枚選び、このカードがいた枠に置く。\n\"もしかして、あれがママが言ってた…ダエモニア……！？\"",
+   "traits": [
+    "タロット",
+    "スポーツ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gt_w29/gt_w29_091.png",
+   "variant": ""
+  },
+  {
+   "num": "GT/W29-092",
+   "name": "『魔術師』の使い手 メルティナ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "1",
+   "cost": "1",
+   "power": "7500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 あなたのメインフェイズの始めに、あなたは自分の山札の上から1枚を、控え室に置く。そのカードのレベルが1以上なら、このカードを【レスト】する。（クライマックスのレベルは0として扱う）\n\"魔術師の力よ！\"",
+   "traits": [
+    "タロット",
+    "魔法"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gt_w29/gt_w29_092.png",
+   "variant": ""
+  },
+  {
+   "num": "GT/W29-093",
+   "name": "蒼光の射手 せいら",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【起】【カウンター】 助太刀3000 レベル2 ［(1) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋3000）\n\"どけっ！\"",
+   "traits": [
+    "タロット",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gt_w29/gt_w29_093.png",
+   "variant": ""
+  },
+  {
+   "num": "GT/W29-094",
+   "name": "深まる友情 せいら＆るな",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "8000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【起】［あなたの《タロット》のキャラを1枚【レスト】する］ そのターン中、このカードのパワーを＋1000。\n\"るな「かわいい」<br />せいら「おそろい……」\"",
+   "traits": [
+    "タロット"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gt_w29/gt_w29_094.png",
+   "variant": ""
+  },
+  {
+   "num": "GT/W29-095",
+   "name": "拭えない記憶 せいら",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "8500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "-\n\"ダエモニアになる人間に同情なんて出来ない…\"",
+   "traits": [
+    "タロット",
+    "スポーツ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gt_w29/gt_w29_095.png",
+   "variant": ""
+  },
+  {
+   "num": "GT/W29-096",
+   "name": "届かない贈り物",
+   "type": "Event",
+   "rarity": "U",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "あなたは自分の山札を上から4枚まで見て、《タロット》のキャラを1枚まで選んで相手に見せ、手札に加える。残りのカードを控え室に置く。\n\"はぁ――…\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gt_w29/gt_w29_096.png",
+   "variant": ""
+  },
+  {
+   "num": "GT/W29-097",
+   "name": "真夏の肝試し",
+   "type": "Event",
+   "rarity": "U",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "あなたは自分の山札を見てクライマックスを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。あなたは自分のキャラを1枚選び、そのターン中、パワーを＋2000。\n\"るな「ひっ！何か出てきた……！！」\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gt_w29/gt_w29_097.png",
+   "variant": ""
+  },
+  {
+   "num": "GT/W29-098",
+   "name": "こぼれおちる水",
+   "type": "Climax",
+   "rarity": "CR",
+   "color": "blue",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【自】 このカードが手札からクライマックス置場に置かれた時、あなたは1枚引き、自分のキャラを1枚選び、そのターン中、パワーを＋2000し、ソウルを＋1。\n\"それが、ぎんかの進む道なら……\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gt_w29/gt_w29_098.png",
+   "variant": ""
+  },
+  {
+   "num": "GT/W29-099",
+   "name": "果てなき闘い",
+   "type": "Climax",
+   "rarity": "CC",
+   "color": "blue",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【永】 あなたのキャラすべてに、ソウルを＋2。\n\"ダエモニアになる人間なんて……！\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gt_w29/gt_w29_099.png",
+   "variant": ""
+  },
+  {
+   "num": "GT/W29-100",
+   "name": "星とともの果てに",
+   "type": "Climax",
+   "rarity": "CC",
+   "color": "blue",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[draw.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[draw.gif]]：このカードがトリガーした時、あなたは1枚引いてよい）\n\"あかり「私たちは彼女の声を聞いた……だからこそ」\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gt_w29/gt_w29_100.png",
+   "variant": ""
+  }
+ ]
+}

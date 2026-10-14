@@ -1,0 +1,2506 @@
+{
+ "id": "jp-kmn-e205",
+ "name": "けものフレンズ",
+ "expansion": 205,
+ "lang": "jp",
+ "release": null,
+ "shopItem": null,
+ "box": null,
+ "cards": [
+  {
+   "num": "KMN/W51-001",
+   "name": "なんでも気になる サーバル",
+   "type": "Character",
+   "rarity": "FR",
+   "color": "yellow",
+   "level": "3",
+   "cost": "2",
+   "power": "8500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n【自】 このカードが手札から舞台に置かれた時、そのターン中、このカードのパワーを＋Ｘ。Ｘはあなたの《フレンズ》のキャラの枚数×1000に等しい。\n【自】【CXコンボ】 記憶 ［(2) 手札を1枚控え室に置く］ この能力は1ターンにつき1回まで発動する。あなたの前列の中央の枠のキャラがアタックした時、クライマックス置場に「元の姿へ……」があり、あなたの思い出置場の《フレンズ》のキャラが2枚以上なら、あなたはコストを払ってよい。そうしたら、このカードを【スタンド】する。\n\"うみゃー！みゃみゃみゃみゃみゃみゃ！\"",
+   "traits": [
+    "フレンズ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kmn_w51/kmn_w51_001.png",
+   "variant": ""
+  },
+  {
+   "num": "KMN/W51-001SP",
+   "name": "なんでも気になる サーバル",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "yellow",
+   "level": "3",
+   "cost": "2",
+   "power": "8500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n【自】 このカードが手札から舞台に置かれた時、そのターン中、このカードのパワーを＋Ｘ。Ｘはあなたの《フレンズ》のキャラの枚数×1000に等しい。\n【自】【CXコンボ】 記憶 ［(2) 手札を1枚控え室に置く］ この能力は1ターンにつき1回まで発動する。あなたの前列の中央の枠のキャラがアタックした時、クライマックス置場に「元の姿へ……」があり、あなたの思い出置場の《フレンズ》のキャラが2枚以上なら、あなたはコストを払ってよい。そうしたら、このカードを【スタンド】する。\n\"-\"",
+   "traits": [
+    "フレンズ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kmn_w51/kmn_w51_001sp.png",
+   "variant": ""
+  },
+  {
+   "num": "KMN/W51-002",
+   "name": "アイデアいっぱい かばんちゃん",
+   "type": "Character",
+   "rarity": "FR",
+   "color": "yellow",
+   "level": "3",
+   "cost": "2",
+   "power": "9500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたの控え室のクライマックスが2枚以下なら、あなたの手札のこのカードのレベルを－1。\n【永】 他のあなたの、《フレンズ》か《メカ》のキャラ1枚につき、このカードのパワーを＋500。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札を見てイベントを1枚まで選んで相手に見せ、このカードの下にマーカーとして裏向きに置き、その山札をシャッフルする。\n【起】［手札を1枚控え室に置く］ あなたはこのカードの下のマーカーを1枚手札に戻す。\n\"なんの動物かわからないんですが、かばんです\"",
+   "traits": [
+    "フレンズ",
+    "帽子"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kmn_w51/kmn_w51_002.png",
+   "variant": ""
+  },
+  {
+   "num": "KMN/W51-002SP",
+   "name": "アイデアいっぱい かばんちゃん",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "yellow",
+   "level": "3",
+   "cost": "2",
+   "power": "9500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたの控え室のクライマックスが2枚以下なら、あなたの手札のこのカードのレベルを－1。\n【永】 他のあなたの、《フレンズ》か《メカ》のキャラ1枚につき、このカードのパワーを＋500。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札を見てイベントを1枚まで選んで相手に見せ、このカードの下にマーカーとして裏向きに置き、その山札をシャッフルする。\n【起】［手札を1枚控え室に置く］ あなたはこのカードの下のマーカーを1枚手札に戻す。\n\"-\"",
+   "traits": [
+    "フレンズ",
+    "帽子"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kmn_w51/kmn_w51_002sp.png",
+   "variant": ""
+  },
+  {
+   "num": "KMN/W51-003",
+   "name": "“ガイド”ハ マカセテ ラッキービースト",
+   "type": "Character",
+   "rarity": "FR",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "5500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのクロックが1枚以下なら、このカードはアタックできない。\n【自】［手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、すべてのプレイヤーは自分の控え室のカードすべてを、山札に戻し、それらの山札をシャッフルする。\n\"ソレジャア「ガイド」ヲ開始スルヨ\"",
+   "traits": [
+    "メカ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kmn_w51/kmn_w51_003.png",
+   "variant": ""
+  },
+  {
+   "num": "KMN/W51-003SP",
+   "name": "“ガイド”ハ マカセテ ラッキービースト",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "5500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのクロックが1枚以下なら、このカードはアタックできない。\n【自】［手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、すべてのプレイヤーは自分の控え室のカードすべてを、山札に戻し、それらの山札をシャッフルする。\n\"-\"",
+   "traits": [
+    "メカ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kmn_w51/kmn_w51_003sp.png",
+   "variant": ""
+  },
+  {
+   "num": "KMN/W51-004",
+   "name": "セルリアンハンター キンシコウ",
+   "type": "Character",
+   "rarity": "FR",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのストックが2枚以下なら、このカードのパワーを＋1500。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から2枚を、控え室に置く。それらのカードにクライマックスがあるなら、そのターン中、このカードのソウルを＋2。\n\"セルリアンは、ハンターに任せてくださいね\"",
+   "traits": [
+    "フレンズ",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kmn_w51/kmn_w51_004.png",
+   "variant": ""
+  },
+  {
+   "num": "KMN/W51-004SP",
+   "name": "セルリアンハンター キンシコウ",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのストックが2枚以下なら、このカードのパワーを＋1500。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から2枚を、控え室に置く。それらのカードにクライマックスがあるなら、そのターン中、このカードのソウルを＋2。\n\"-\"",
+   "traits": [
+    "フレンズ",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kmn_w51/kmn_w51_004sp.png",
+   "variant": ""
+  },
+  {
+   "num": "KMN/W51-005",
+   "name": "おめでとうの会 かばんちゃん",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 記憶 思い出置場にこのカードがあるなら、すべてのプレイヤーはそれぞれの相手のキャラの【自】の効果による1以下のダメージを受けない。\n【自】［(1) あなたの山札の上から1枚をクロック置場に置く］ バトル中のこのカードが【リバース】した時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見て《フレンズ》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルし、あなたのレベルが2以下なら、このカードを思い出にする。\n\"ナワバリはまだ決まってないですが、これから探そうと思います\"",
+   "traits": [
+    "フレンズ",
+    "帽子"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kmn_w51/kmn_w51_005.png",
+   "variant": ""
+  },
+  {
+   "num": "KMN/W51-006",
+   "name": "うー！がおー！ サーバル",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、そのターン中、このカードのパワーを＋1500。\n【自】 バトル中のこのカードが【リバース】した時、あなたは自分の山札の上から1枚を公開する。そのカードが《フレンズ》のキャラか「紙ヒコーキ」なら、あなたはこのカードを思い出にしてよい。（公開したカードは元に戻す）\n\"うー！\"",
+   "traits": [
+    "フレンズ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kmn_w51/kmn_w51_006.png",
+   "variant": ""
+  },
+  {
+   "num": "KMN/W51-006R",
+   "name": "うー！がおー！ サーバル",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、そのターン中、このカードのパワーを＋1500。\n【自】 バトル中のこのカードが【リバース】した時、あなたは自分の山札の上から1枚を公開する。そのカードが《フレンズ》のキャラか「紙ヒコーキ」なら、あなたはこのカードを思い出にしてよい。（公開したカードは元に戻す）\n\"がおー！\"",
+   "traits": [
+    "フレンズ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kmn_w51/kmn_w51_006r.png",
+   "variant": ""
+  },
+  {
+   "num": "KMN/W51-007",
+   "name": "マイペース フェネック",
+   "type": "Character",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのターン中、他のあなたの「いつも全力 アライグマ」すべてに、パワーを＋2000。\n【自】 絆／「いつも全力 アライグマ」 ［(1)］ （このカードがプレイされて舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「いつも全力 アライグマ」を1枚選び、手札に戻す）\n\"まぁまぁ、気軽に行こーよー\"",
+   "traits": [
+    "フレンズ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kmn_w51/kmn_w51_007.png",
+   "variant": ""
+  },
+  {
+   "num": "KMN/W51-007X",
+   "name": "マイペース フェネック",
+   "type": "Character",
+   "rarity": "XR",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのターン中、他のあなたの「いつも全力 アライグマ」すべてに、パワーを＋2000。\n【自】 絆／「いつも全力 アライグマ」 ［(1)］ （このカードがプレイされて舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「いつも全力 アライグマ」を1枚選び、手札に戻す）\n\"-\"",
+   "traits": [
+    "フレンズ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kmn_w51/kmn_w51_007x.png",
+   "variant": ""
+  },
+  {
+   "num": "KMN/W51-008",
+   "name": "ドジっ娘健在 サーバル",
+   "type": "Character",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードがアタックした時、あなたは他の自分の《フレンズ》のキャラを1枚選び、そのターン中、パワーを＋1000。\n【自】 このカードが【リバース】した時、このカードのバトル相手のレベルが0以下なら、あなたはそのキャラをストック置場に置いてよい。そうしたら、あなたは相手のストックの下から1枚を、控え室に置く。\n\"かばんちゃん「サーバルちゃん!?」\"",
+   "traits": [
+    "フレンズ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kmn_w51/kmn_w51_008.png",
+   "variant": ""
+  },
+  {
+   "num": "KMN/W51-009",
+   "name": "フレンズとこんにちは サーバル",
+   "type": "Character",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 他のあなたのキャラのバトル相手が【リバース】した時、あなたは自分の《フレンズ》のキャラを1枚選び、そのターン中、パワーを＋1500。\n【自】［このカードを控え室に置く］ 他のあなたのカード名に「サーバル」か「かばん」を含むキャラが舞台から控え室に置かれた時、後列にこのカードがいるなら、あなたはコストを払ってよい。そうしたら、そのキャラをそのキャラがいた枠に【レスト】して置く。\n\"それに派手だったねぇ～\"",
+   "traits": [
+    "フレンズ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kmn_w51/kmn_w51_009.png",
+   "variant": ""
+  },
+  {
+   "num": "KMN/W51-010",
+   "name": "さばくツアー中 かばんちゃん",
+   "type": "Character",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの、《フレンズ》か《メカ》のキャラすべてに、パワーを＋500。\n【起】 集中 ［(1) このカードを【レスト】する］ あなたは自分の山札の上から4枚をめくり、控え室に置く。それらのカードのクライマックス1枚につき、あなたは自分の山札を見て《フレンズ》か《メカ》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"ラッキービースト「スナネコノ体ハ……」\"",
+   "traits": [
+    "フレンズ",
+    "帽子"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kmn_w51/kmn_w51_010.png",
+   "variant": ""
+  },
+  {
+   "num": "KMN/W51-011",
+   "name": "ガイドマップ発見！ かばんちゃん",
+   "type": "Character",
+   "rarity": "U",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1)］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「紙ヒコーキ」を1枚選び、手札に戻す。\n【自】 絆／「なんでも気になる サーバル」 ［手札を1枚控え室に置く］ （このカードがプレイされて舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「なんでも気になる サーバル」を1枚選び、手札に戻す）\n\"-\"",
+   "traits": [
+    "フレンズ",
+    "帽子"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kmn_w51/kmn_w51_011.png",
+   "variant": ""
+  },
+  {
+   "num": "KMN/W51-012",
+   "name": "お手伝い サーバル",
+   "type": "Character",
+   "rarity": "U",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 応援 このカードの前のあなたのレベル0以下のキャラすべてに、パワーを＋1000。\n【自】［(1)］ あなたのクライマックスがクライマックス置場に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を上から4枚まで見て、《フレンズ》のキャラを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。\n\"-\"",
+   "traits": [
+    "フレンズ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kmn_w51/kmn_w51_012.png",
+   "variant": ""
+  },
+  {
+   "num": "KMN/W51-013",
+   "name": "大口勝負 カバ",
+   "type": "Character",
+   "rarity": "U",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 あなたのクライマックスがクライマックス置場に置かれた時、あなたは自分の山札の上から1枚を、控え室に置く。そのカードが《フレンズ》のキャラなら、そのターン中、このカードのパワーを＋Ｘ。Ｘはあなたの《フレンズ》のキャラの枚数×1000に等しい。\n\"わたしに大口勝負を挑むなんて、良い度胸してますわね！\"",
+   "traits": [
+    "フレンズ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kmn_w51/kmn_w51_013.png",
+   "variant": ""
+  },
+  {
+   "num": "KMN/W51-014",
+   "name": "興味津々？ スナネコ",
+   "type": "Character",
+   "rarity": "U",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードのバトル相手が【リバース】した時、あなたはこのカードを思い出にしてよい。そうしたら、次のあなたのドローフェイズの始めに、あなたは自分の思い出置場の「興味津々？ スナネコ」を1枚選び、舞台の好きな枠に置く。\n\"ラッキービースト「熱シヤスク冷メヤスイト言ワレテイルヨ」\"",
+   "traits": [
+    "フレンズ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kmn_w51/kmn_w51_014.png",
+   "variant": ""
+  },
+  {
+   "num": "KMN/W51-015",
+   "name": "救出作戦 サーバル",
+   "type": "Character",
+   "rarity": "U",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(3) 手札の、「紙ヒコーキ」と「かまどの火」を1枚ずつ控え室に置く］ 相手のアタックフェイズの始めに、あなたはコストを払ってよい。そうしたら、あなたは相手のキャラを1枚まで選び、【レスト】し、自分の控え室のカード名に「かばん」を含むキャラを1枚まで選び、手札に戻す。\n【起】［このカードを【レスト】する］ あなたは自分の《フレンズ》のキャラを1枚選び、そのターン中、ソウルを＋1。\n\"-\"",
+   "traits": [
+    "フレンズ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kmn_w51/kmn_w51_015.png",
+   "variant": ""
+  },
+  {
+   "num": "KMN/W51-016",
+   "name": "やる気いっぱい サーバル",
+   "type": "Character",
+   "rarity": "U",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、そのターン中、このカードのパワーを＋Ｘ。Ｘはあなたの《フレンズ》のキャラの枚数×500に等しい。\n【自】 相手のドローフェイズの始めに、あなたは自分の山札の上から1枚を公開する。そのカードのレベルが2以上なら、あなたはこのカードを手札に戻してよい。（クライマックスのレベルは0として扱う。公開したカードは元に戻す）\n\"よーし！いっくよー!!\"",
+   "traits": [
+    "フレンズ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kmn_w51/kmn_w51_016.png",
+   "variant": ""
+  },
+  {
+   "num": "KMN/W51-017",
+   "name": "じゃぱり図書館へ かばんちゃん",
+   "type": "Character",
+   "rarity": "U",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "6000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 このカードの正面のキャラのレベルがこのカードのレベルより高いなら、このカードはフロントアタックできない。\n【自】【CXコンボ】 このカードのバトル相手が【リバース】した時、あなたのクライマックス置場に「まだ見ぬ先へ」があるなら、あなたは自分の山札を上から2枚まで見て、レベル1以上のカードを2枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。（クライマックスのレベルは0として扱う）\n\"ぐねぐねしてるね……\"",
+   "traits": [
+    "フレンズ",
+    "帽子"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kmn_w51/kmn_w51_017.png",
+   "variant": ""
+  },
+  {
+   "num": "KMN/W51-018",
+   "name": "セルリアンハンター ヒグマ",
+   "type": "Character",
+   "rarity": "U",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 このカードの下のマーカー1枚につき、このカードのパワーを＋3000。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分の控え室の「セルリアンハンター リカオン」を1枚までと「セルリアンハンター キンシコウ」を1枚まで選び、このカードの下にマーカーとして好きな順番で裏向きに置く。\n【自】【CXコンボ】 あなたのクライマックス置場に「ハンターの一撃」が置かれた時、前列にこのカードがいるなら、あなたは自分の山札を見て《フレンズ》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"もう一回りでかいのも倒したことあるぞ\"",
+   "traits": [
+    "フレンズ",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kmn_w51/kmn_w51_018.png",
+   "variant": ""
+  },
+  {
+   "num": "KMN/W51-019",
+   "name": "ヒジョウジタイ ラッキービースト",
+   "type": "Character",
+   "rarity": "U",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "7000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが【リバース】した時、このカードのバトル相手のレベルが相手のレベルより高いなら、あなたはそのキャラをストック置場に置いてよい。そうしたら、あなたは相手のストックの下から1枚を、控え室に置く。\n\"オ客様ノ安全ヲ守ルノガ、パークガイドロボットノ僕ノ務メデス\"",
+   "traits": [
+    "メカ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kmn_w51/kmn_w51_019.png",
+   "variant": ""
+  },
+  {
+   "num": "KMN/W51-020",
+   "name": "食べちゃうぞー！ サーバル",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの前列の中央の枠のキャラに、ソウルを＋1。\n【自】【CXコンボ】 相手がレベルアップした時、あなたのクライマックス置場に「旅立ちの日に」があるなら、あなたは自分の山札を上から4枚まで見て、《フレンズ》のキャラを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。\n\"うー、がおー！\"",
+   "traits": [
+    "フレンズ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kmn_w51/kmn_w51_020.png",
+   "variant": ""
+  },
+  {
+   "num": "KMN/W51-021",
+   "name": "運転中 サーバル",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 前列の中央の枠にこのカードがいるなら、このカードのソウルを＋1。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から1枚を公開する。そのカードが《フレンズ》のキャラかイベントなら手札に加え、あなたは自分の手札を1枚選び、控え室に置く。（そうでないなら元に戻す）\n\"かばん「大丈夫？サーバルちゃん……」\"",
+   "traits": [
+    "フレンズ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kmn_w51/kmn_w51_021.png",
+   "variant": ""
+  },
+  {
+   "num": "KMN/W51-022",
+   "name": "外の空気の匂いがわかる ツチノコ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは相手の山札を上から2枚まで見て、山札の上に元の順番で置く。\n【自】［このカードを手札に戻す］ あなたのクライマックスがクライマックス置場に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を上から2枚まで見て、カードを1枚まで選び、手札に加え、残りのカードを控え室に置き、自分の手札を1枚選び、控え室に置く。\n\"おまえの鼻は飾りかー！\"",
+   "traits": [
+    "フレンズ",
+    "謎"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kmn_w51/kmn_w51_022.png",
+   "variant": ""
+  },
+  {
+   "num": "KMN/W51-023",
+   "name": "フリーズ ラッキービースト",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から2枚を、控え室に置く。それらのカードにクライマックスがあるなら、このカードを【レスト】する。\n\"マ、ママママ、マカセ、マママ\"",
+   "traits": [
+    "メカ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kmn_w51/kmn_w51_023.png",
+   "variant": ""
+  },
+  {
+   "num": "KMN/W51-024",
+   "name": "突然の涙 サーバル",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "5500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 舞台のこのカードのレベルを－1。\n【永】 他のあなたのレベル0以下のキャラ1枚につき、このカードのパワーを＋500。\n\"早起きしたからかな？\"",
+   "traits": [
+    "フレンズ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kmn_w51/kmn_w51_024.png",
+   "variant": ""
+  },
+  {
+   "num": "KMN/W51-025",
+   "name": "セルリアンハンター リカオン",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "1",
+   "cost": "1",
+   "power": "6500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの《フレンズ》のキャラが2枚以上なら、このカードのパワーを＋500し、このカードは『【自】 アンコール ［手札のキャラを1枚控え室に置く］』を得る。\n\"終わらないですよ、これ\"",
+   "traits": [
+    "フレンズ",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kmn_w51/kmn_w51_025.png",
+   "variant": ""
+  },
+  {
+   "num": "KMN/W51-026",
+   "name": "うー！がおー！ フェネック",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "1",
+   "cost": "1",
+   "power": "7000",
+   "soul": 1,
+   "trigger": "",
+   "text": "-\n\"がおー\"",
+   "traits": [
+    "フレンズ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kmn_w51/kmn_w51_026.png",
+   "variant": ""
+  },
+  {
+   "num": "KMN/W51-027",
+   "name": "活躍？ サーバル",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 あなたがこのカードの『助太刀』を使った時、あなたの《フレンズ》のキャラがいるなら、あなたは自分のバトル中のキャラを1枚選び、そのターン中、パワーを＋1000。\n【起】【カウンター】 助太刀2500 レベル2 ［(1) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋2500）\n\"みゃみゃみゃみゃみゃみゃみゃみゃみゃ！\"",
+   "traits": [
+    "フレンズ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kmn_w51/kmn_w51_027.png",
+   "variant": ""
+  },
+  {
+   "num": "KMN/W51-028",
+   "name": "追跡開始！ フェネック",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "6000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの《フレンズ》のキャラすべてに、パワーを＋1000。\n【自】 この能力は1ターンにつき1回まで発動する。あなたがイベントをプレイした時、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋Ｘ。Ｘは他のあなたの《フレンズ》のキャラの枚数×500に等しい。\n\"はーいよー\"",
+   "traits": [
+    "フレンズ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kmn_w51/kmn_w51_028.png",
+   "variant": ""
+  },
+  {
+   "num": "KMN/W51-029",
+   "name": "今までのこと かばんちゃん",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "6500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 記憶 あなたの思い出置場の、《フレンズ》か《メカ》のキャラが2枚以上なら、このカードのパワーを＋3000し、ソウルを＋1。\n\"ありがとう……元気で\"",
+   "traits": [
+    "フレンズ",
+    "帽子"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kmn_w51/kmn_w51_029.png",
+   "variant": ""
+  },
+  {
+   "num": "KMN/W51-030",
+   "name": "未確認生物 ツチノコ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "7500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 このカードは相手の効果に選ばれない。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から1枚を公開し、そのターン中、このカードのソウルを＋Ｘ。Ｘは公開されたカードのレベルに等しい。（クライマックスのレベルは0として扱う。公開したカードは元に戻す）\n\"あいつ、絶滅していなかったのか\"",
+   "traits": [
+    "フレンズ",
+    "謎"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kmn_w51/kmn_w51_030.png",
+   "variant": ""
+  },
+  {
+   "num": "KMN/W51-031",
+   "name": "耳がいいよ サーバル",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "2",
+   "cost": "2",
+   "power": "6500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの《フレンズ》のキャラ1枚につき、このカードのパワーを＋1000。\n【自】 アンコール ［手札の《フレンズ》のキャラを1枚控え室に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"ぴくぴく…!?\"",
+   "traits": [
+    "フレンズ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kmn_w51/kmn_w51_031.png",
+   "variant": ""
+  },
+  {
+   "num": "KMN/W51-032",
+   "name": "じゃぱりまん",
+   "type": "Event",
+   "rarity": "U",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "あなたは自分の山札を上から4枚まで見て、《フレンズ》のキャラを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。\n\"ボス！二つもらうね！\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kmn_w51/kmn_w51_032.png",
+   "variant": ""
+  },
+  {
+   "num": "KMN/W51-033",
+   "name": "紙ヒコーキ",
+   "type": "Event",
+   "rarity": "U",
+   "color": "yellow",
+   "level": "3",
+   "cost": "3",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "【カウンター】 あなたは相手のキャラを1枚選び、【レスト】する。\n\"かばんちゃんはこんなにすっごい技を持ってるんだもん！\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kmn_w51/kmn_w51_033.png",
+   "variant": ""
+  },
+  {
+   "num": "KMN/W51-034",
+   "name": "元の姿へ……",
+   "type": "Climax",
+   "rarity": "CR",
+   "color": "yellow",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【自】 このカードが手札からクライマックス置場に置かれた時、あなたは自分の控え室の黄のカードを1枚まで選び、ストック置場に置き、自分のキャラすべてに、そのターン中、ソウルを＋1。\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kmn_w51/kmn_w51_034.png",
+   "variant": ""
+  },
+  {
+   "num": "KMN/W51-035",
+   "name": "まだ見ぬ先へ",
+   "type": "Climax",
+   "rarity": "CC",
+   "color": "yellow",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【自】 このカードが手札からクライマックス置場に置かれた時、あなたは自分のキャラを2枚まで選び、そのターン中、パワーを＋2000し、ソウルを＋1。\n\"ラッキーさん、島が見えてきたよ\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kmn_w51/kmn_w51_035.png",
+   "variant": ""
+  },
+  {
+   "num": "KMN/W51-036",
+   "name": "ハンターの一撃",
+   "type": "Climax",
+   "rarity": "CC",
+   "color": "yellow",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[bounce.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[bounce.gif]]：このカードがトリガーした時、あなたは相手のキャラを1枚選び、手札に戻してよい）\n\"うおおおおおおおおおおお！！\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kmn_w51/kmn_w51_036.png",
+   "variant": ""
+  },
+  {
+   "num": "KMN/W51-037",
+   "name": "旅立ちの日に",
+   "type": "Climax",
+   "rarity": "CC",
+   "color": "yellow",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【永】 あなたのキャラすべてに、ソウルを＋2。\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kmn_w51/kmn_w51_037.png",
+   "variant": ""
+  },
+  {
+   "num": "KMN/W51-038",
+   "name": "遊びの天才 コツメカワウソ",
+   "type": "Character",
+   "rarity": "FR",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードがアタックした時、あなたは自分の山札の上から1枚を公開する。そのカードが《フレンズ》のキャラなら、あなたは他の自分の《フレンズ》のキャラを1枚選び、そのターン中、パワーを＋Ｘ。Ｘは他のあなたの《フレンズ》のキャラの枚数×1000に等しい。（公開したカードは元に戻す）\n【自】 アンコール ［手札のキャラを1枚控え室に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"わーい！たーのしーぃ！\"",
+   "traits": [
+    "フレンズ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kmn_w51/kmn_w51_038.png",
+   "variant": ""
+  },
+  {
+   "num": "KMN/W51-038SP",
+   "name": "遊びの天才 コツメカワウソ",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードがアタックした時、あなたは自分の山札の上から1枚を公開する。そのカードが《フレンズ》のキャラなら、あなたは他の自分の《フレンズ》のキャラを1枚選び、そのターン中、パワーを＋Ｘ。Ｘは他のあなたの《フレンズ》のキャラの枚数×1000に等しい。（公開したカードは元に戻す）\n【自】 アンコール ［手札のキャラを1枚控え室に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"-\"",
+   "traits": [
+    "フレンズ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kmn_w51/kmn_w51_038sp.png",
+   "variant": ""
+  },
+  {
+   "num": "KMN/W51-039",
+   "name": "ジャングル人生 エリマキキツネザル",
+   "type": "Character",
+   "rarity": "FR",
+   "color": "green",
+   "level": "3",
+   "cost": "2",
+   "power": "9500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの後列の《フレンズ》のキャラ1枚につき、このカードのパワーを＋1000。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札を上から2枚まで見て、山札の上に元の順番で置く。\n【自】［(1)］ このカードが手札から舞台に置かれたターン中、このカードのバトル相手が【リバース】した時、あなたはコストを払ってよい。そうしたら、あなたはそのキャラをクロック置場に置く。\n\"ジャングルぐらしも楽じゃないよ！\"",
+   "traits": [
+    "フレンズ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kmn_w51/kmn_w51_039.png",
+   "variant": ""
+  },
+  {
+   "num": "KMN/W51-039SSP",
+   "name": "ジャングル人生 エリマキキツネザル",
+   "type": "Character",
+   "rarity": "SSP",
+   "color": "green",
+   "level": "3",
+   "cost": "2",
+   "power": "9500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの後列の《フレンズ》のキャラ1枚につき、このカードのパワーを＋1000。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札を上から2枚まで見て、山札の上に元の順番で置く。\n【自】［(1)］ このカードが手札から舞台に置かれたターン中、このカードのバトル相手が【リバース】した時、あなたはコストを払ってよい。そうしたら、あなたはそのキャラをクロック置場に置く。\n\"-\"",
+   "traits": [
+    "フレンズ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kmn_w51/kmn_w51_039ssp.png",
+   "variant": ""
+  },
+  {
+   "num": "KMN/W51-040",
+   "name": "いつも全力 アライグマ",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】【CXコンボ】 このカードがアタックした時、クライマックス置場に「捕獲完了？」があるなら、そのターン中、このカードのパワーを＋1000し、このカードは次の能力を得る。『【自】 このカードのバトル相手が【リバース】した時、あなたは自分の控え室の《フレンズ》のキャラを1枚選び、ストック置場に置いてよい。』\n【自】［手札を1枚控え室に置く］ あなたの「虫眼鏡 かばんちゃん」が舞台から控え室に置かれた時、控え室にこのカードがあるなら、あなたはコストを払ってよい。そうしたら、あなたはこのカードを舞台の好きな枠に【レスト】して置く。\n\"アライさんにお任せなのだ！\"",
+   "traits": [
+    "フレンズ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kmn_w51/kmn_w51_040.png",
+   "variant": ""
+  },
+  {
+   "num": "KMN/W51-040X",
+   "name": "いつも全力 アライグマ",
+   "type": "Character",
+   "rarity": "XR",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】【CXコンボ】 このカードがアタックした時、クライマックス置場に「捕獲完了？」があるなら、そのターン中、このカードのパワーを＋1000し、このカードは次の能力を得る。『【自】 このカードのバトル相手が【リバース】した時、あなたは自分の控え室の《フレンズ》のキャラを1枚選び、ストック置場に置いてよい。』\n【自】［手札を1枚控え室に置く］ あなたの「虫眼鏡 かばんちゃん」が舞台から控え室に置かれた時、控え室にこのカードがあるなら、あなたはコストを払ってよい。そうしたら、あなたはこのカードを舞台の好きな枠に【レスト】して置く。\n\"-\"",
+   "traits": [
+    "フレンズ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kmn_w51/kmn_w51_040x.png",
+   "variant": ""
+  },
+  {
+   "num": "KMN/W51-041",
+   "name": "この島の長 アフリカオオコノハズク＆ワシミミズク",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "green",
+   "level": "3",
+   "cost": "2",
+   "power": "9500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたのクロック置場に「虫眼鏡 かばんちゃん」があるなら、あなたの手札のこのカードのレベルを－1。\n【自】［手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の手札の自分のレベル以下のレベルの《フレンズ》のキャラを1枚まで選び、舞台の好きな枠に置く。\n【自】【CXコンボ】 あなたのクライマックス置場に「野生部分の解放」が置かれた時、前列にこのカードがいるなら、あなたは自分の山札を見て《フレンズ》のキャラを2枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"「驚かれなかったのです」<br>「ここで、大体、みんな感動するのです……」\"",
+   "traits": [
+    "フレンズ",
+    "本"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kmn_w51/kmn_w51_041.png",
+   "variant": ""
+  },
+  {
+   "num": "KMN/W51-041R",
+   "name": "この島の長 アフリカオオコノハズク＆ワシミミズク",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "green",
+   "level": "3",
+   "cost": "2",
+   "power": "9500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたのクロック置場に「虫眼鏡 かばんちゃん」があるなら、あなたの手札のこのカードのレベルを－1。\n【自】［手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の手札の自分のレベル以下のレベルの《フレンズ》のキャラを1枚まで選び、舞台の好きな枠に置く。\n【自】【CXコンボ】 あなたのクライマックス置場に「野生部分の解放」が置かれた時、前列にこのカードがいるなら、あなたは自分の山札を見て《フレンズ》のキャラを2枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"「驚かれなかったのです」<br>「ここで、大体、みんな感動するのです……」\"",
+   "traits": [
+    "フレンズ",
+    "本"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kmn_w51/kmn_w51_041r.png",
+   "variant": ""
+  },
+  {
+   "num": "KMN/W51-042",
+   "name": "虫眼鏡 かばんちゃん",
+   "type": "Character",
+   "rarity": "R",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1)］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「かまどの火」を1枚選び、手札に戻す。\n【自】 このカードがアタックした時、あなたは他の自分のキャラを1枚選び、そのターン中、パワーを＋1500。\n\"これで、やってみようかと\"",
+   "traits": [
+    "フレンズ",
+    "帽子"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kmn_w51/kmn_w51_042.png",
+   "variant": ""
+  },
+  {
+   "num": "KMN/W51-043",
+   "name": "枝をかじかじ アメリカビーバー",
+   "type": "Character",
+   "rarity": "R",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの《フレンズ》のキャラすべてに、パワーを＋500。\n【自】［(2)］ あなたがレベルアップした時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見て《フレンズ》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"そういえば前の木のお礼、まだだっけ……\"",
+   "traits": [
+    "フレンズ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kmn_w51/kmn_w51_043.png",
+   "variant": ""
+  },
+  {
+   "num": "KMN/W51-044",
+   "name": "うー！がおー！ アライグマ",
+   "type": "Character",
+   "rarity": "R",
+   "color": "green",
+   "level": "2",
+   "cost": "1",
+   "power": "7500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 この能力は1ターンにつき1回まで発動する。あなたがイベントをプレイした時、そのターン中、このカードのパワーを＋2000。\n【自】 あなたのクライマックスがクライマックス置場に置かれた時、そのターン中、このカードは次の能力を得る。『【自】 このカードのバトル相手が【リバース】した時、あなたは自分の控え室の《フレンズ》のキャラを1枚選び、ストック置場に置いてよい。』\n\"がおー！なのだ！\"",
+   "traits": [
+    "フレンズ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kmn_w51/kmn_w51_044.png",
+   "variant": ""
+  },
+  {
+   "num": "KMN/W51-045",
+   "name": "見守る ジャガー",
+   "type": "Character",
+   "rarity": "U",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1) 手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見て《フレンズ》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n【自】 この能力は1ターンにつき2回まで発動する。他のあなたの《フレンズ》のキャラが手札から舞台に置かれた時、そのターン中、このカードのパワーを＋1000。\n\"おお……\"",
+   "traits": [
+    "フレンズ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kmn_w51/kmn_w51_045.png",
+   "variant": ""
+  },
+  {
+   "num": "KMN/W51-046",
+   "name": "ロッジのオーナー アリツカゲラ",
+   "type": "Character",
+   "rarity": "U",
+   "color": "green",
+   "level": "1",
+   "cost": "1",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 応援 このカードの前のあなたの《フレンズ》のキャラすべてに、パワーを＋Ｘ。Ｘはそのキャラのレベル×500に等しい。\n【起】［(2) このカードを【レスト】する］ あなたは自分の控え室の緑のキャラを1枚選び、手札に戻す。\n\"ロッジの朝ごはんに追加したいです\"",
+   "traits": [
+    "フレンズ",
+    "メガネ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kmn_w51/kmn_w51_046.png",
+   "variant": ""
+  },
+  {
+   "num": "KMN/W51-047",
+   "name": "ホラー作家 タイリクオオカミ",
+   "type": "Character",
+   "rarity": "U",
+   "color": "green",
+   "level": "2",
+   "cost": "1",
+   "power": "7500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 あなたのクライマックスがクライマックス置場に置かれた時、そのターン中、このカードのパワーを＋Ｘ。Ｘはあなたの《フレンズ》のキャラの枚数×500に等しい。\n【自】【CXコンボ】 このカードのバトル相手が【リバース】した時、あなたのクライマックス置場に「フレンズ総攻撃」があるなら、あなたは自分の山札の上から1枚を公開する。そのカードが《フレンズ》のキャラなら、あなたは相手に5ダメージを与えてよい。（ダメージキャンセルは発生する。公開したカードは元に戻す）\n\"……\"",
+   "traits": [
+    "フレンズ",
+    "漫画"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kmn_w51/kmn_w51_047.png",
+   "variant": ""
+  },
+  {
+   "num": "KMN/W51-048",
+   "name": "ノンビリしてられない アライグマ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの「うー！がおー！ フェネック」すべてに、パワーを＋1000。\n【永】 他のあなたの、黄かカード名に「アライグマ」を含むキャラすべてに、パワーを＋500。\n\"じゃないのだ！\"",
+   "traits": [
+    "フレンズ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kmn_w51/kmn_w51_048.png",
+   "variant": ""
+  },
+  {
+   "num": "KMN/W51-049",
+   "name": "博士の助手 ワシミミズク",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札を上から2枚まで見て、山札の上に好きな順番で置く。\n\"我々、音を立てずに飛ぶなど朝飯前なのです\"",
+   "traits": [
+    "フレンズ",
+    "本"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kmn_w51/kmn_w51_049.png",
+   "variant": ""
+  },
+  {
+   "num": "KMN/W51-050",
+   "name": "迷探偵 アミメキリン",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの「嘘か真か タイリクオオカミ」すべてに、パワーを＋2000。\n\"ああっ……\"",
+   "traits": [
+    "フレンズ",
+    "探偵"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kmn_w51/kmn_w51_050.png",
+   "variant": ""
+  },
+  {
+   "num": "KMN/W51-051",
+   "name": "嘘か真か タイリクオオカミ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "",
+   "text": "-\n\"セルリアンの中には高速で移動するものがいるらしいよ\"",
+   "traits": [
+    "フレンズ",
+    "漫画"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kmn_w51/kmn_w51_051.png",
+   "variant": ""
+  },
+  {
+   "num": "KMN/W51-052",
+   "name": "博士 アフリカオオコノハズク",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、相手は0以下か1以上を選ぶ。あなたは自分の山札の上から1枚を、控え室に置き、そのカードが相手の選んだレベルのカードでないなら、あなたは相手のキャラを1枚選び、手札に戻してよい。（クライマックスのレベルは0として扱う）\n\"ここまでたどり着いた子は初めてです。これは期待できるです\"",
+   "traits": [
+    "フレンズ",
+    "本"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kmn_w51/kmn_w51_052.png",
+   "variant": ""
+  },
+  {
+   "num": "KMN/W51-053",
+   "name": "すぐ行動派 オグロプレーリードッグ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "6500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 このカードの正面のキャラに、『【自】 アンコール ［あなたの山札の上から1枚をクロック置場に置く］』を与える。\n【自】 バトル中のこのカードが【リバース】した時、このカードを山札の下に置く。\n\"二十個くらい作ったんだけど\"",
+   "traits": [
+    "フレンズ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kmn_w51/kmn_w51_053.png",
+   "variant": ""
+  },
+  {
+   "num": "KMN/W51-054",
+   "name": "お手伝い かばんちゃん",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "2",
+   "cost": "1",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】［手札を2枚控え室に置く］ あなたがこのカードの『助太刀』を使った時、あなたはコストを払ってよい。そうしたら、あなたは相手の、レベルが相手のレベルより高いキャラを1枚選び、控え室に置く。\n【起】【カウンター】 助太刀2500 レベル2 ［(1) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋2500）\n\"おー！\"",
+   "traits": [
+    "フレンズ",
+    "帽子"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kmn_w51/kmn_w51_054.png",
+   "variant": ""
+  },
+  {
+   "num": "KMN/W51-055",
+   "name": "かまどの火",
+   "type": "Event",
+   "rarity": "U",
+   "color": "green",
+   "level": "2",
+   "cost": "0",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "【カウンター】 あなたは自分のキャラを1枚選び、手札に戻す。\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kmn_w51/kmn_w51_055.png",
+   "variant": ""
+  },
+  {
+   "num": "KMN/W51-056",
+   "name": "力をあわせてどっこいしょ",
+   "type": "Event",
+   "rarity": "U",
+   "color": "green",
+   "level": "2",
+   "cost": "1",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "あなたの《フレンズ》のキャラが3枚以上なら、あなたは自分のクロック置場の《フレンズ》のキャラを1枚選び、手札に戻す。このカードを思い出にする。\n\"「「「んんっ、んんんん」」」\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kmn_w51/kmn_w51_056.png",
+   "variant": ""
+  },
+  {
+   "num": "KMN/W51-057",
+   "name": "捕獲完了？",
+   "type": "Climax",
+   "rarity": "CR",
+   "color": "green",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[treasure.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[treasure.gif]]：このカードがトリガーした時、あなたはこのカードを手札に戻す。あなたは自分の山札の上から1枚を、ストック置場に置いてよい）\n\"ぐぬぬ……\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kmn_w51/kmn_w51_057.png",
+   "variant": ""
+  },
+  {
+   "num": "KMN/W51-058",
+   "name": "野生部分の解放",
+   "type": "Climax",
+   "rarity": "CC",
+   "color": "green",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【自】 このカードが手札からクライマックス置場に置かれた時、あなたは自分のキャラを2枚まで選び、そのターン中、パワーを＋2000し、ソウルを＋1。\n\"我々、やることはやるですよ。この島の長なので\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kmn_w51/kmn_w51_058.png",
+   "variant": ""
+  },
+  {
+   "num": "KMN/W51-059",
+   "name": "フレンズ総攻撃",
+   "type": "Climax",
+   "rarity": "CC",
+   "color": "green",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【自】 このカードが手札からクライマックス置場に置かれた時、あなたは自分の控え室の緑のカードを1枚まで選び、ストック置場に置き、自分のキャラすべてに、そのターン中、ソウルを＋1。\n\"現実の方がホラー、だ、け、ど、も\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kmn_w51/kmn_w51_059.png",
+   "variant": ""
+  },
+  {
+   "num": "KMN/W51-060",
+   "name": "実は奥ゆかしい？ ハシビロコウ",
+   "type": "Character",
+   "rarity": "FR",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "11000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 このカードは他の枠に動かせない。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札を上から6枚まで見て、カードを3枚選び、控え室に置く。残りのカードを山札の上に好きな順番で置く。\n【自】［(1) 手札のクライマックスを1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室のクライマックスを1枚選び、手札に戻す。\n\"わたし、つい…じっと見ちゃうんだよね…\"",
+   "traits": [
+    "フレンズ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kmn_w51/kmn_w51_060.png",
+   "variant": ""
+  },
+  {
+   "num": "KMN/W51-060SP",
+   "name": "実は奥ゆかしい？ ハシビロコウ",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "11000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 このカードは他の枠に動かせない。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札を上から6枚まで見て、カードを3枚選び、控え室に置く。残りのカードを山札の上に好きな順番で置く。\n【自】［(1) 手札のクライマックスを1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室のクライマックスを1枚選び、手札に戻す。\n\"-\"",
+   "traits": [
+    "フレンズ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kmn_w51/kmn_w51_060sp.png",
+   "variant": ""
+  },
+  {
+   "num": "KMN/W51-061",
+   "name": "じゃぱりまんの歌 かばんちゃん",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 あなたがイベントをプレイした時、そのターン中、このカードは次の能力を得る。『【自】 このカードのバトル相手が【リバース】した時、あなたはそのキャラを山札の上に置いてよい。』\n【自】 このカードが【リバース】した時、このカードのバトル相手のレベルが1以下なら、あなたはそのキャラを【リバース】してよい。\n\"はしら～で食べる～じゃぱりまんが～♪\"",
+   "traits": [
+    "フレンズ",
+    "帽子"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kmn_w51/kmn_w51_061.png",
+   "variant": ""
+  },
+  {
+   "num": "KMN/W51-061R",
+   "name": "じゃぱりまんの歌 かばんちゃん",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 あなたがイベントをプレイした時、そのターン中、このカードは次の能力を得る。『【自】 このカードのバトル相手が【リバース】した時、あなたはそのキャラを山札の上に置いてよい。』\n【自】 このカードが【リバース】した時、このカードのバトル相手のレベルが1以下なら、あなたはそのキャラを【リバース】してよい。\n\"はしら～で食べる～じゃぱりまんが～♪\"",
+   "traits": [
+    "フレンズ",
+    "帽子"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kmn_w51/kmn_w51_061r.png",
+   "variant": ""
+  },
+  {
+   "num": "KMN/W51-062",
+   "name": "脅威の歌声？ トキ",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "9500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは1枚まで引き、そのターン中、このカードのパワーを＋2000。\n【自】【CXコンボ】［(1)］ このカードがアタックした時、クライマックス置場に「雲の上の山頂まで」があるなら、あなたはコストを払ってよい。そうしたら、相手に1ダメージを与え、あなたは相手の後列のレベル1以下のキャラを1枚選ぶ。そのキャラは次の相手のスタンドフェイズに【スタンド】しない。（ダメージキャンセルは発生する）\n【自】 アンコール ［手札の《フレンズ》のキャラを1枚控え室に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"～♪゛～♪゛\"",
+   "traits": [
+    "フレンズ",
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kmn_w51/kmn_w51_062.png",
+   "variant": ""
+  },
+  {
+   "num": "KMN/W51-062X",
+   "name": "脅威の歌声？ トキ",
+   "type": "Character",
+   "rarity": "XR",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "9500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは1枚まで引き、そのターン中、このカードのパワーを＋2000。\n【自】【CXコンボ】［(1)］ このカードがアタックした時、クライマックス置場に「雲の上の山頂まで」があるなら、あなたはコストを払ってよい。そうしたら、相手に1ダメージを与え、あなたは相手の後列のレベル1以下のキャラを1枚選ぶ。そのキャラは次の相手のスタンドフェイズに【スタンド】しない。（ダメージキャンセルは発生する）\n【自】 アンコール ［手札の《フレンズ》のキャラを1枚控え室に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"-\"",
+   "traits": [
+    "フレンズ",
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kmn_w51/kmn_w51_062x.png",
+   "variant": ""
+  },
+  {
+   "num": "KMN/W51-063",
+   "name": "カフェの店員 アルパカ・スリ",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 他のあなたの《フレンズ》のキャラが手札から舞台に置かれた時、そのターン中、そのキャラのパワーを＋1000し、《お茶》を与える。\n【起】［このカードを【レスト】する］ あなたは自分の控え室の《フレンズ》のキャラを1枚選び、ストック置場に置く。\n\"わぁぁぁぁあ！　いらっしゃーい！\"",
+   "traits": [
+    "フレンズ",
+    "お茶"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kmn_w51/kmn_w51_063.png",
+   "variant": ""
+  },
+  {
+   "num": "KMN/W51-064",
+   "name": "百獣の王 ライオン",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の控え室の《フレンズ》のキャラを1枚選び、手札に戻してよい。\n【自】【CXコンボ】［(2) 手札を2枚控え室に置く］ このカードが「本気の勝負」の効果で舞台に置かれた時、あなたはコストを払ってよい。そうしたら、このカードを【スタンド】する。（トリガーチェックででた「本気の勝負」の[[standby.gif]]の効果でこのカードが舞台に置かれた時も使える）\n\"ほう……\"",
+   "traits": [
+    "フレンズ",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kmn_w51/kmn_w51_064.png",
+   "variant": ""
+  },
+  {
+   "num": "KMN/W51-064R",
+   "name": "百獣の王 ライオン",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の控え室の《フレンズ》のキャラを1枚選び、手札に戻してよい。\n【自】【CXコンボ】［(2) 手札を2枚控え室に置く］ このカードが「本気の勝負」の効果で舞台に置かれた時、あなたはコストを払ってよい。そうしたら、このカードを【スタンド】する。（トリガーチェックででた「本気の勝負」の[[standby.gif]]の効果でこのカードが舞台に置かれた時も使える）\n\"ほう……\"",
+   "traits": [
+    "フレンズ",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kmn_w51/kmn_w51_064r.png",
+   "variant": ""
+  },
+  {
+   "num": "KMN/W51-065",
+   "name": "森の王 ヘラジカ",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたの《フレンズ》のキャラが4枚以上なら、あなたの手札のこのカードのレベルを－1。\n【永】 他のあなたのキャラすべてに、次の能力を与える。『【永】 このカードはサイドアタックできない。』\n【自】 このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n\"さて、そんな良いタイミングで我々に仲間が加わったぞ\"",
+   "traits": [
+    "フレンズ",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kmn_w51/kmn_w51_065.png",
+   "variant": ""
+  },
+  {
+   "num": "KMN/W51-066",
+   "name": "ポカーン アフリカタテガミヤマアラシ",
+   "type": "Character",
+   "rarity": "U",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1) あなたの山札の上から1枚をクロック置場に置く］ このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室のレベル1以下のキャラを1枚選び、手札に戻す。\n\"-\"",
+   "traits": [
+    "フレンズ",
+    "盾"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kmn_w51/kmn_w51_066.png",
+   "variant": ""
+  },
+  {
+   "num": "KMN/W51-067",
+   "name": "鉄壁の守り オオアルマジロ",
+   "type": "Character",
+   "rarity": "U",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 あなたがこのカードの『助太刀』を使った時、あなたの《フレンズ》のキャラがいるなら、あなたは自分のバトル中のキャラを1枚選び、そのターン中、パワーを＋1000。\n【起】【カウンター】 助太刀1000 レベル1 ［手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋1000）\n\"フッ！\"",
+   "traits": [
+    "フレンズ",
+    "盾"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kmn_w51/kmn_w51_067.png",
+   "variant": ""
+  },
+  {
+   "num": "KMN/W51-068",
+   "name": "大将戦 ヘラジカ",
+   "type": "Character",
+   "rarity": "U",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "5500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、すべてのプレイヤーは自分の山札の上から1枚を公開する。あなたのこの効果で公開したカードのレベルが相手のこの効果で公開したカードのレベルより高いなら、あなたは相手の前列のコスト0以下のキャラを1枚選び、控え室に置いてよい。相手の方が高いなら、このカードをストック置場に置く。（クライマックスのレベルは0として扱う。公開したカードは元に戻す）\n【自】【CXコンボ】 あなたのクライマックス置場に「いざ、勝負だ！」が置かれた時、前列にこのカードがいて、他のあなたの《フレンズ》のキャラがいるなら、あなたは自分の控え室のコスト0以下の《フレンズ》のキャラを1枚選び、舞台の好きな枠に置いてよい。\n\"始めて平原でお前を見た時から……\"",
+   "traits": [
+    "フレンズ",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kmn_w51/kmn_w51_068.png",
+   "variant": ""
+  },
+  {
+   "num": "KMN/W51-069",
+   "name": "見張り役 ツキノワグマ",
+   "type": "Character",
+   "rarity": "U",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋Ｘ。Ｘはそのキャラのレベル×500に等しい。\n【起】［このカードを【レスト】する］ あなたは自分の山札を上から2枚まで見て、山札の上に好きな順番で置く。\n\"-\"",
+   "traits": [
+    "フレンズ",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kmn_w51/kmn_w51_069.png",
+   "variant": ""
+  },
+  {
+   "num": "KMN/W51-070",
+   "name": "カフェでゆっくり かばんちゃん",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［あなたの山札の上から1枚をクロック置場に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「目印づくり」を1枚選び、手札に戻す。\n【自】 このカードが【リバース】した時、このカードのバトル相手のレベルが0以下なら、あなたはそのキャラを【リバース】してよい。\n\"ふぁぁぁ……\"",
+   "traits": [
+    "フレンズ",
+    "帽子"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kmn_w51/kmn_w51_070.png",
+   "variant": ""
+  },
+  {
+   "num": "KMN/W51-071",
+   "name": "お茶をどうぞ アルパカ・スリ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋500。\n【起】［このカードを【レスト】する］ あなたは自分の「仲間を探して トキ」を1枚選び、そのターン中、パワーを＋2500。\n\"はいっ、どーぞ～！はいっ、どーぞ～！\"",
+   "traits": [
+    "フレンズ",
+    "お茶"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kmn_w51/kmn_w51_071.png",
+   "variant": ""
+  },
+  {
+   "num": "KMN/W51-072",
+   "name": "合戦開始 アラビアオリックス",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札を上から1枚見て、山札の上か控え室に置く。\n【自】 バトル中のこのカードが【リバース】した時、あなたは自分の山札の上から1枚を公開する。そのカードのレベルが2以上なら、あなたはこのカードを手札に戻してよい。（クライマックスのレベルは0として扱う。公開したカードは元に戻す）\n\"おお！\"",
+   "traits": [
+    "フレンズ",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kmn_w51/kmn_w51_072.png",
+   "variant": ""
+  },
+  {
+   "num": "KMN/W51-073",
+   "name": "鉄壁の守り シロサイ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1)］ アンコールステップの始めに、他のあなたの前列の【レスト】しているキャラがいないなら、あなたはコストを払ってよい。そうしたら、このカードを【レスト】する。\n\"えい！\"",
+   "traits": [
+    "フレンズ",
+    "盾"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kmn_w51/kmn_w51_073.png",
+   "variant": ""
+  },
+  {
+   "num": "KMN/W51-074",
+   "name": "大将戦 ライオン",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、すべてのプレイヤーは自分の山札の上から1枚を公開する。あなたのこの効果で公開したカードのレベルが相手のこの効果で公開したカードのレベルより高いなら、あなたは相手の前列のコスト0以下のキャラを1枚選び、控え室に置いてよい。相手の方が高いなら、このカードを【レスト】する。（クライマックスのレベルは0として扱う。公開したカードは元に戻す）\n\"……\"",
+   "traits": [
+    "フレンズ",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kmn_w51/kmn_w51_074.png",
+   "variant": ""
+  },
+  {
+   "num": "KMN/W51-075",
+   "name": "合戦開始 オーロックス",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 他のあなたの《フレンズ》のキャラがアタックした時、そのターン中、このカードのパワーを＋1000。\n【自】 この能力は1ターンにつき1回まで発動する。バトル中のこのカードが【リバース】した時、あなたは自分の山札の上から1枚を公開する。そのカードのレベルが2以上なら、あなたはこのカードを【レスト】してよい。（クライマックスのレベルは0として扱う。公開したカードは元に戻す）\n\"行くぜェ！\"",
+   "traits": [
+    "フレンズ",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kmn_w51/kmn_w51_075.png",
+   "variant": ""
+  },
+  {
+   "num": "KMN/W51-076",
+   "name": "仲間を探して トキ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "5500",
+   "soul": 1,
+   "trigger": "",
+   "text": "-\n\"……\"",
+   "traits": [
+    "フレンズ",
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kmn_w51/kmn_w51_076.png",
+   "variant": ""
+  },
+  {
+   "num": "KMN/W51-077",
+   "name": "忍者でござる パンサーカメレオン",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "7000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 このカードは相手の効果に選ばれない。\n【自】 このカードが【リバース】した時、このカードのバトル相手のレベルが相手のレベルより高いなら、あなたはそのキャラを【リバース】してよい。\n\"見るでござる！\"",
+   "traits": [
+    "フレンズ",
+    "忍"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kmn_w51/kmn_w51_077.png",
+   "variant": ""
+  },
+  {
+   "num": "KMN/W51-078",
+   "name": "目印づくり",
+   "type": "Event",
+   "rarity": "U",
+   "color": "red",
+   "level": "1",
+   "cost": "1",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "【カウンター】 あなたは自分の控え室の、《フレンズ》か《メカ》のキャラを1枚選び、手札に戻す。\n\"今からいうところを一緒に抜いてもらってもいいですか？\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kmn_w51/kmn_w51_078.png",
+   "variant": ""
+  },
+  {
+   "num": "KMN/W51-079",
+   "name": "ジャパリバス",
+   "type": "Event",
+   "rarity": "U",
+   "color": "red",
+   "level": "1",
+   "cost": "1",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "あなたは自分の手札の「ジャパリバス」を1枚選び、控え室に置いてよい。そうしたら、このカードを思い出にする。\n【永】 記憶 思い出置場にこのカードがあるなら、あなたの、《フレンズ》か《メカ》のキャラすべてに、パワーを＋1000。\n\"「「はぁ…はぁ…」」\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kmn_w51/kmn_w51_079.png",
+   "variant": ""
+  },
+  {
+   "num": "KMN/W51-080",
+   "name": "本気の勝負",
+   "type": "Climax",
+   "rarity": "CR",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[standby.gif]]",
+   "text": "【自】 このカードが手札からクライマックス置場に置かれた時、[[standby.gif]]の効果を行う。\n（[[standby.gif]]：このカードがトリガーした時、あなたは自分の控え室の自分のレベル＋1以下のレベルのキャラを1枚選び、舞台の好きな枠に【レスト】して置いてよい）\n\"……！\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kmn_w51/kmn_w51_080.png",
+   "variant": ""
+  },
+  {
+   "num": "KMN/W51-081",
+   "name": "雲の上の山頂まで",
+   "type": "Climax",
+   "rarity": "CC",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[salvage.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[salvage.gif]]：このカードがトリガーした時、あなたは自分の控え室のキャラを1枚選び、手札に戻してよい）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kmn_w51/kmn_w51_081.png",
+   "variant": ""
+  },
+  {
+   "num": "KMN/W51-082",
+   "name": "いざ、勝負だ！",
+   "type": "Climax",
+   "rarity": "CC",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【自】 このカードが手札からクライマックス置場に置かれた時、あなたは自分の控え室の赤のカードを1枚まで選び、ストック置場に置き、自分のキャラすべてに、そのターン中、ソウルを＋1。\n\"――！\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kmn_w51/kmn_w51_082.png",
+   "variant": ""
+  },
+  {
+   "num": "KMN/W51-083",
+   "name": "あそぶの大好き！イロワケイルカ",
+   "type": "Character",
+   "rarity": "FR",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、そのターン中、このカードのパワーを＋Ｘ。Ｘはあなたの《フレンズ》のキャラの枚数×500に等しい。\n【自】 共鳴 ［手札の「あそぶの大好き！イロワケイルカ」を1枚公開する］ あなたのアンコールステップの始めに、あなたはコストを払ってよい。そうしたら、このカードを手札に戻す。\n\"あそんでくれるヒト、大ぼしゅう！\"",
+   "traits": [
+    "フレンズ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kmn_w51/kmn_w51_083.png",
+   "variant": ""
+  },
+  {
+   "num": "KMN/W51-083SSP",
+   "name": "あそぶの大好き！イロワケイルカ",
+   "type": "Character",
+   "rarity": "SSP",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、そのターン中、このカードのパワーを＋Ｘ。Ｘはあなたの《フレンズ》のキャラの枚数×500に等しい。\n【自】 共鳴 ［手札の「あそぶの大好き！イロワケイルカ」を1枚公開する］ あなたのアンコールステップの始めに、あなたはコストを払ってよい。そうしたら、このカードを手札に戻す。\n\"-\"",
+   "traits": [
+    "フレンズ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kmn_w51/kmn_w51_083ssp.png",
+   "variant": ""
+  },
+  {
+   "num": "KMN/W51-084",
+   "name": "ゲーム大好き キタキツネ",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの《フレンズ》のキャラすべてに、『【自】 アンコール ［手札のキャラを1枚控え室に置く］』を与える。\n【自】 あなたのキャラのトリガーチェックでクライマックスがでた時、そのカードのトリガーアイコンが[[draw.gif]]なら、あなたは1枚引いてよい。そうしたら、あなたは自分の手札を1枚選び、控え室に置く。\n【自】【CXコンボ】［手札の「雪そりで猛ダッシュ」を1枚控え室に置く］ 相手のアタックフェイズの始めに、あなたはコストを払ってよい。そうしたら、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋4000。\n\"動いてる……やった!!\"",
+   "traits": [
+    "フレンズ",
+    "雪"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kmn_w51/kmn_w51_084.png",
+   "variant": ""
+  },
+  {
+   "num": "KMN/W51-084X",
+   "name": "ゲーム大好き キタキツネ",
+   "type": "Character",
+   "rarity": "XR",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの《フレンズ》のキャラすべてに、『【自】 アンコール ［手札のキャラを1枚控え室に置く］』を与える。\n【自】 あなたのキャラのトリガーチェックでクライマックスがでた時、そのカードのトリガーアイコンが[[draw.gif]]なら、あなたは1枚引いてよい。そうしたら、あなたは自分の手札を1枚選び、控え室に置く。\n【自】【CXコンボ】［手札の「雪そりで猛ダッシュ」を1枚控え室に置く］ 相手のアタックフェイズの始めに、あなたはコストを払ってよい。そうしたら、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋4000。\n\"-\"",
+   "traits": [
+    "フレンズ",
+    "雪"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kmn_w51/kmn_w51_084x.png",
+   "variant": ""
+  },
+  {
+   "num": "KMN/W51-085",
+   "name": "“PPP”ロイヤルペンギン",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "blue",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の控え室の青のキャラを1枚選び、手札に戻してよい。\n【自】【CXコンボ】［(1) 手札を1枚控え室に置く］ この能力は1ターンにつき1回まで発動する。このカードがアタックした時、クライマックス置場に「アイドルオーラ」があり、他のあなたの、「“PPP”ジェンツーペンギン」と「“PPP”フンボルトペンギン」がいるなら、あなたはコストを払ってよい。そうしたら、あなたは自分の山札の上から1枚を公開する。そのカードが《フレンズ》のキャラか「“PPP”プラチナチケット」なら、あなたは自分の、「“PPP”コウテイペンギン」を1枚までと「“PPP”イワトビペンギン」を1枚まで選び、【スタンド】する。（公開したカードは元に戻す）\n\"キラキラ～\"",
+   "traits": [
+    "フレンズ",
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kmn_w51/kmn_w51_085.png",
+   "variant": ""
+  },
+  {
+   "num": "KMN/W51-085X",
+   "name": "“PPP”ロイヤルペンギン",
+   "type": "Character",
+   "rarity": "XR",
+   "color": "blue",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の控え室の青のキャラを1枚選び、手札に戻してよい。\n【自】【CXコンボ】［(1) 手札を1枚控え室に置く］ この能力は1ターンにつき1回まで発動する。このカードがアタックした時、クライマックス置場に「アイドルオーラ」があり、他のあなたの、「“PPP”ジェンツーペンギン」と「“PPP”フンボルトペンギン」がいるなら、あなたはコストを払ってよい。そうしたら、あなたは自分の山札の上から1枚を公開する。そのカードが《フレンズ》のキャラか「“PPP”プラチナチケット」なら、あなたは自分の、「“PPP”コウテイペンギン」を1枚までと「“PPP”イワトビペンギン」を1枚まで選び、【スタンド】する。（公開したカードは元に戻す）\n\"-\"",
+   "traits": [
+    "フレンズ",
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kmn_w51/kmn_w51_085x.png",
+   "variant": ""
+  },
+  {
+   "num": "KMN/W51-086",
+   "name": "“PPP”フンボルトペンギン",
+   "type": "Character",
+   "rarity": "R",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 相手のターン中、他のあなたの前列の中央の枠のキャラに、パワーを＋1000。\n【起】 集中 ［(1) あなたのキャラを2枚【レスト】する］ あなたは自分の山札の上から4枚をめくり、控え室に置く。それらのカードのクライマックス1枚につき、あなたは自分の山札を見て《フレンズ》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"ふるる～……え、もう出番ですか？\"",
+   "traits": [
+    "フレンズ",
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kmn_w51/kmn_w51_086.png",
+   "variant": ""
+  },
+  {
+   "num": "KMN/W51-086X",
+   "name": "“PPP”フンボルトペンギン",
+   "type": "Character",
+   "rarity": "XR",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 相手のターン中、他のあなたの前列の中央の枠のキャラに、パワーを＋1000。\n【起】 集中 ［(1) あなたのキャラを2枚【レスト】する］ あなたは自分の山札の上から4枚をめくり、控え室に置く。それらのカードのクライマックス1枚につき、あなたは自分の山札を見て《フレンズ》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"-\"",
+   "traits": [
+    "フレンズ",
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kmn_w51/kmn_w51_086x.png",
+   "variant": ""
+  },
+  {
+   "num": "KMN/W51-087",
+   "name": "“PPP”ジェンツーペンギン",
+   "type": "Character",
+   "rarity": "R",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "6000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの前列の中央の枠のキャラに、『【自】 アンコール ［手札のキャラを1枚控え室に置く］』を与える。\n【永】 応援 このカードの前のあなたのレベル3以上のキャラすべてに、パワーを＋2000。\n\"一生懸命頑張ります！\"",
+   "traits": [
+    "フレンズ",
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kmn_w51/kmn_w51_087.png",
+   "variant": ""
+  },
+  {
+   "num": "KMN/W51-087X",
+   "name": "“PPP”ジェンツーペンギン",
+   "type": "Character",
+   "rarity": "XR",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "6000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの前列の中央の枠のキャラに、『【自】 アンコール ［手札のキャラを1枚控え室に置く］』を与える。\n【永】 応援 このカードの前のあなたのレベル3以上のキャラすべてに、パワーを＋2000。\n\"-\"",
+   "traits": [
+    "フレンズ",
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kmn_w51/kmn_w51_087x.png",
+   "variant": ""
+  },
+  {
+   "num": "KMN/W51-088",
+   "name": "“PPP”イワトビペンギン",
+   "type": "Character",
+   "rarity": "R",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "7000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札を上から1枚見て、山札の上か下に置く。\n【自】 このカードがアタックした時、このカードの正面のキャラのレベルが3以上なら、そのターン中、このカードのパワーを＋6000。\n\"よぉーし、ロックに行くぜぇえ！\"",
+   "traits": [
+    "フレンズ",
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kmn_w51/kmn_w51_088.png",
+   "variant": ""
+  },
+  {
+   "num": "KMN/W51-088X",
+   "name": "“PPP”イワトビペンギン",
+   "type": "Character",
+   "rarity": "XR",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "7000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札を上から1枚見て、山札の上か下に置く。\n【自】 このカードがアタックした時、このカードの正面のキャラのレベルが3以上なら、そのターン中、このカードのパワーを＋6000。\n\"-\"",
+   "traits": [
+    "フレンズ",
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kmn_w51/kmn_w51_088x.png",
+   "variant": ""
+  },
+  {
+   "num": "KMN/W51-089",
+   "name": "“PPP”コウテイペンギン",
+   "type": "Character",
+   "rarity": "R",
+   "color": "blue",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたの、「“PPP”ジェンツーペンギン」と「“PPP”フンボルトペンギン」がいるなら、あなたの手札のこのカードのレベルを－1。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n\"みんな、落ち着いていこう\"",
+   "traits": [
+    "フレンズ",
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kmn_w51/kmn_w51_089.png",
+   "variant": ""
+  },
+  {
+   "num": "KMN/W51-089X",
+   "name": "“PPP”コウテイペンギン",
+   "type": "Character",
+   "rarity": "XR",
+   "color": "blue",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたの、「“PPP”ジェンツーペンギン」と「“PPP”フンボルトペンギン」がいるなら、あなたの手札のこのカードのレベルを－1。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n\"-\"",
+   "traits": [
+    "フレンズ",
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kmn_w51/kmn_w51_089x.png",
+   "variant": ""
+  },
+  {
+   "num": "KMN/W51-090",
+   "name": "アイドル大好き マーゲイ",
+   "type": "Character",
+   "rarity": "U",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 バトル中のこのカードが【リバース】した時、あなたは自分の山札の上から2枚を、控え室に置く。それらのカードにレベル2以上のカードがあるなら、あなたはこのカードをストック置場に置いてよい。（クライマックスのレベルは0として扱う）\n【自】 絆／「“PPP”ロイヤルペンギン」 ［手札を1枚控え室に置く］ （このカードがプレイされて舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「“PPP”ロイヤルペンギン」を1枚選び、手札に戻す）\n\"い、いい……\"",
+   "traits": [
+    "フレンズ",
+    "マネージャー"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kmn_w51/kmn_w51_090.png",
+   "variant": ""
+  },
+  {
+   "num": "KMN/W51-091",
+   "name": "温泉管理人 ギンギツネ",
+   "type": "Character",
+   "rarity": "U",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［このカードをクロック置場に置く］ バトル中のこのカードが【リバース】した時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札の上から1枚を公開する。そのカードが《フレンズ》のキャラなら手札に加える。（そうでないなら元に戻す）\n\"はぁ、なんとか……\"",
+   "traits": [
+    "フレンズ",
+    "雪"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kmn_w51/kmn_w51_091.png",
+   "variant": ""
+  },
+  {
+   "num": "KMN/W51-092",
+   "name": "木登り上手 かばんちゃん",
+   "type": "Character",
+   "rarity": "U",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「“PPP”プラチナチケット」を1枚選び、手札に戻す。\n【自】 相手のクライマックスがクライマックス置場に置かれた時、このカードを控え室に置く。\n\"ふぅー\"",
+   "traits": [
+    "フレンズ",
+    "帽子"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kmn_w51/kmn_w51_092.png",
+   "variant": ""
+  },
+  {
+   "num": "KMN/W51-093",
+   "name": "天性の勢い イワビー",
+   "type": "Character",
+   "rarity": "U",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの《フレンズ》のキャラ1枚につき、このカードのパワーを＋500。\n\"-\"",
+   "traits": [
+    "フレンズ",
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kmn_w51/kmn_w51_093.png",
+   "variant": ""
+  },
+  {
+   "num": "KMN/W51-094",
+   "name": "新たなリーダー観？ コウテイ",
+   "type": "Character",
+   "rarity": "U",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】【CXコンボ】 このカードがアタックした時、クライマックス置場に「大空ドリーマー」があり、他のあなたの青のキャラがいるなら、あなたは自分の山札を上から4枚まで見て、《フレンズ》のキャラを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。\n\"-\"",
+   "traits": [
+    "フレンズ",
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kmn_w51/kmn_w51_094.png",
+   "variant": ""
+  },
+  {
+   "num": "KMN/W51-095",
+   "name": "正統派アイドル ジェーン",
+   "type": "Character",
+   "rarity": "U",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが舞台から控え室に置かれた時、あなたは自分の山札の上から3枚までを、公開してよい。1枚以上公開したなら、あなたはそれらのカードの《フレンズ》のキャラを1枚まで選び、手札に加え、残りのカードを控え室に置き、自分の手札を1枚選び、控え室に置く。\n\"-\"",
+   "traits": [
+    "フレンズ",
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kmn_w51/kmn_w51_095.png",
+   "variant": ""
+  },
+  {
+   "num": "KMN/W51-096",
+   "name": "ちょっと休憩 ジェーン",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［手札のクライマックスを1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の青のキャラを1枚選び、手札に戻す。\n【自】 このカードの与えたダメージがキャンセルされた時、あなたはこのカードをストック置場に置いてよい。\n\"歌声もとっても素敵です\"",
+   "traits": [
+    "フレンズ",
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kmn_w51/kmn_w51_096.png",
+   "variant": ""
+  },
+  {
+   "num": "KMN/W51-097",
+   "name": "ちょっと休憩 イワビー",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋500。\n【自】 あなたのクライマックスがクライマックス置場に置かれた時、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋1000。\n\"もういっちょう練習するかー！\"",
+   "traits": [
+    "フレンズ",
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kmn_w51/kmn_w51_097.png",
+   "variant": ""
+  },
+  {
+   "num": "KMN/W51-098",
+   "name": "みんなを鼓舞する プリンセス",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは他の自分の《フレンズ》のキャラを1枚選び、そのターン中、パワーを＋Ｘ。Ｘは他のあなたの《フレンズ》のキャラの枚数×500に等しい。\n\"だめだめ、全然だめ！\"",
+   "traits": [
+    "フレンズ",
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kmn_w51/kmn_w51_098.png",
+   "variant": ""
+  },
+  {
+   "num": "KMN/W51-099",
+   "name": "引っ込み思案 キタキツネ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "",
+   "text": "-\n\"違うよぉ、磁場を感じるんだよぉ\"",
+   "traits": [
+    "フレンズ",
+    "雪"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kmn_w51/kmn_w51_099.png",
+   "variant": ""
+  },
+  {
+   "num": "KMN/W51-100",
+   "name": "ちょっと休憩 コウテイ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたはイベントと『助太刀』を手札からプレイできない。\n\"プリンセスはすごいな、振り付けも完璧だし\"",
+   "traits": [
+    "フレンズ",
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kmn_w51/kmn_w51_100.png",
+   "variant": ""
+  },
+  {
+   "num": "KMN/W51-101",
+   "name": "癒しの天然キャラ フルル",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの《フレンズ》のキャラが2枚以上なら、このカードのパワーを＋1500し、このカードは『【自】 アンコール ［手札のキャラを1枚控え室に置く］』を得る。\n【永】 経験 あなたのレベル置場の《フレンズ》のキャラ1枚につき、このカードのパワーを＋2000。\n\"-\"",
+   "traits": [
+    "フレンズ",
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kmn_w51/kmn_w51_101.png",
+   "variant": ""
+  },
+  {
+   "num": "KMN/W51-102",
+   "name": "“PPP”を引っ張る プリンセス",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "1",
+   "cost": "1",
+   "power": "5500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたの手札が4枚以上なら、このカードのパワーを＋1000し、このカードは『【自】 アンコール ［手札のキャラを1枚控え室に置く］』を得る。\n【自】 このカードが手札から舞台に置かれた時、他のあなたの《フレンズ》のキャラが4枚以上なら、あなたは自分の控え室の《フレンズ》のキャラを1枚選び、ストック置場に置いてよい。\n\"かばんちゃん「プリンセスさん」<br>サーバル「出番だよ！」\"",
+   "traits": [
+    "フレンズ",
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kmn_w51/kmn_w51_102.png",
+   "variant": ""
+  },
+  {
+   "num": "KMN/W51-103",
+   "name": "ちょっと休憩 フルル",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 あなたがこのカードの『助太刀』を使った時、あなたのキャラすべてが青なら、あなたは自分の山札の上から1枚を、ストック置場に置いてよい。\n【起】【カウンター】 助太刀2500 レベル2 ［(1) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋2500）\n\"……\"",
+   "traits": [
+    "フレンズ",
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kmn_w51/kmn_w51_103.png",
+   "variant": ""
+  },
+  {
+   "num": "KMN/W51-104",
+   "name": "影にびっくり かばんちゃん",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "8000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたの、《フレンズ》か《メカ》のキャラが4枚以上なら、あなたの手札のこのカードのレベルを－1。\n【自】 バトル中のこのカードが【リバース】した時、このカードを山札の下に置く。\n\"食べないでくださーい！\"",
+   "traits": [
+    "フレンズ",
+    "帽子"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kmn_w51/kmn_w51_104.png",
+   "variant": ""
+  },
+  {
+   "num": "KMN/W51-105",
+   "name": "しっかり者 ギンギツネ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "2",
+   "cost": "2",
+   "power": "5000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 このカードの下にマーカーがあるなら、このカードのパワーを＋6000。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分の控え室の「引っ込み思案 キタキツネ」を1枚選び、このカードの下にマーカーとして表向きに置いてよい。\n\"またわけのわからないことを……\"",
+   "traits": [
+    "フレンズ",
+    "雪"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kmn_w51/kmn_w51_105.png",
+   "variant": ""
+  },
+  {
+   "num": "KMN/W51-106",
+   "name": "“PPP”プラチナチケット",
+   "type": "Event",
+   "rarity": "U",
+   "color": "blue",
+   "level": "1",
+   "cost": "1",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "【カウンター】 あなたは自分の、《フレンズ》か《メカ》のキャラを1枚選び、そのターン中、パワーを＋3500。\n\"サーバル「ふっふーん、博士たちにもらったんだ」\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kmn_w51/kmn_w51_106.png",
+   "variant": ""
+  },
+  {
+   "num": "KMN/W51-107",
+   "name": "セルリアン（弱）",
+   "type": "Event",
+   "rarity": "U",
+   "color": "blue",
+   "level": "1",
+   "cost": "2",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "あなたは相手のコスト1以下の《フレンズ》のキャラを1枚選び、山札の下に置く。\n\"かばん「フレンズさん、ですか？」\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kmn_w51/kmn_w51_107.png",
+   "variant": ""
+  },
+  {
+   "num": "KMN/W51-108",
+   "name": "アイドルオーラ",
+   "type": "Climax",
+   "rarity": "CR",
+   "color": "blue",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[gate.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[gate.gif]]：このカードがトリガーした時、あなたは自分の控え室のクライマックスを1枚選び、手札に戻してよい）\n\"キラキラキラーン\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kmn_w51/kmn_w51_108.png",
+   "variant": ""
+  },
+  {
+   "num": "KMN/W51-109",
+   "name": "雪そりで猛ダッシュ",
+   "type": "Climax",
+   "rarity": "CC",
+   "color": "blue",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[draw.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[draw.gif]]：このカードがトリガーした時、あなたは1枚引いてよい）\n\"任せて……、ゲームで鍛えてるから……\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kmn_w51/kmn_w51_109.png",
+   "variant": ""
+  },
+  {
+   "num": "KMN/W51-110",
+   "name": "大空ドリーマー",
+   "type": "Climax",
+   "rarity": "CC",
+   "color": "blue",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[draw.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[draw.gif]]：このカードがトリガーした時、あなたは1枚引いてよい）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kmn_w51/kmn_w51_110.png",
+   "variant": ""
+  },
+  {
+   "num": "KMN/W51-111",
+   "name": "いい湯だね サーバル",
+   "type": "Character",
+   "rarity": "PR",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "7000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 応援 このカードの前のあなたの《フレンズ》のキャラすべてに、パワーを＋500し、ソウルを＋1。\n\"おんせんさいこ～\"",
+   "traits": [
+    "フレンズ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kmn_w51/kmn_w51_111.png",
+   "variant": ""
+  },
+  {
+   "num": "KMN/W51-112",
+   "name": "カフェでゆっくり フェネック",
+   "type": "Character",
+   "rarity": "PR",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 バトル中のこのカードが【リバース】した時、あなたは自分の山札の上から1枚を公開する。そのカードがレベル0以下のキャラなら手札に加える。（そうでないなら元に戻す）\n\"いいねー\"",
+   "traits": [
+    "フレンズ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kmn_w51/kmn_w51_112.png",
+   "variant": ""
+  },
+  {
+   "num": "KMN/W51-113",
+   "name": "カフェでゆっくり アライグマ",
+   "type": "Character",
+   "rarity": "PR",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1) 手札を1枚控え室に置く］ バトル中のこのカードが【リバース】した時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を上から3枚まで見て、カードを1枚まで選び、手札に加え、残りのカードを控え室に置く。\n\"カフェって……\"",
+   "traits": [
+    "フレンズ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kmn_w51/kmn_w51_113.png",
+   "variant": ""
+  },
+  {
+   "num": "KMN/W51-114",
+   "name": "お化けの正体？ タイリクオオカミ",
+   "type": "Character",
+   "rarity": "PR",
+   "color": "green",
+   "level": "1",
+   "cost": "1",
+   "power": "5500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 このカードの正面のキャラのコストが0以下なら、このカードは【リバース】しない。\n\"ああっ\"",
+   "traits": [
+    "フレンズ",
+    "漫画"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kmn_w51/kmn_w51_114.png",
+   "variant": ""
+  },
+  {
+   "num": "KMN/W51-115",
+   "name": "本気の一撃 ライオン",
+   "type": "Character",
+   "rarity": "PR",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から2枚を、控え室に置き、他の自分の《フレンズ》のキャラを1枚選び、そのターン中、パワーを＋Ｘ。Ｘはこの効果で控え室に置かれたカードのレベルの合計×1500に等しい。（クライマックスのレベルは0として扱う）\n\"タッ！\"",
+   "traits": [
+    "フレンズ",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kmn_w51/kmn_w51_115.png",
+   "variant": ""
+  },
+  {
+   "num": "KMN/W51-116",
+   "name": "おめでとうの会 ロイヤルペンギン",
+   "type": "Character",
+   "rarity": "PR",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1) 手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見て《フレンズ》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"かばん何の動物かわかっておめでとうの会をするわよ！\"",
+   "traits": [
+    "フレンズ",
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kmn_w51/kmn_w51_116.png",
+   "variant": ""
+  },
+  {
+   "num": "KMN/W51-P01",
+   "name": "ようこそ！ジャパリパークへ！",
+   "type": "Character",
+   "rarity": "PR",
+   "color": "yellow",
+   "level": "1",
+   "cost": "1",
+   "power": "7000",
+   "soul": 1,
+   "trigger": "",
+   "text": "-\n\"-\"",
+   "traits": [
+    "フレンズ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kmn_w51/kmn_w51_p01.png",
+   "variant": ""
+  }
+ ]
+}

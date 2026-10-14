@@ -1,0 +1,2892 @@
+{
+ "id": "jp-ll-e98",
+ "name": "ラブライブ！",
+ "expansion": 98,
+ "lang": "jp",
+ "release": null,
+ "shopItem": null,
+ "box": null,
+ "cards": [
+  {
+   "num": "LL/W24-001",
+   "name": "“僕らのLIVE 君とのLIFE”西木野 真姫",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［手札のクライマックスを1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見て『チェンジ』を持つキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"-\"",
+   "traits": [
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_w24/ll_w24_001.png",
+   "variant": ""
+  },
+  {
+   "num": "LL/W24-001SP",
+   "name": "“僕らのLIVE 君とのLIFE”西木野 真姫",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［手札のクライマックスを1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見て『チェンジ』を持つキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"SECRET\"",
+   "traits": [
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_w24/ll_w24_001sp.png",
+   "variant": ""
+  },
+  {
+   "num": "LL/W24-002",
+   "name": "“僕らのLIVE 君とのLIFE”高坂 穂乃果",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(2)］ あなたのクライマックス置場に「僕らのLIVE 君とのLIFE」が置かれた時、前列にこのカードがいるなら、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見てレベル0以下の《音楽》のキャラを1枚まで選び、舞台の好きな枠に置く。その後、その山札をシャッフルし、そのターン中、そのキャラのパワーを＋1000し、ソウルを＋1。\n\"-\"",
+   "traits": [
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_w24/ll_w24_002.png",
+   "variant": ""
+  },
+  {
+   "num": "LL/W24-002SP",
+   "name": "“僕らのLIVE 君とのLIFE”高坂 穂乃果",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(2)］ あなたのクライマックス置場に「僕らのLIVE 君とのLIFE」が置かれた時、前列にこのカードがいるなら、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見てレベル0以下の《音楽》のキャラを1枚まで選び、舞台の好きな枠に置く。その後、その山札をシャッフルし、そのターン中、そのキャラのパワーを＋1000し、ソウルを＋1。\n\"SECRET\"",
+   "traits": [
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_w24/ll_w24_002sp.png",
+   "variant": ""
+  },
+  {
+   "num": "LL/W24-003",
+   "name": "“僕らのLIVE 君とのLIFE”東條 希",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "8000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードのバトル相手が【リバース】した時、あなたは自分の山札の上から1枚を公開する。そのカードが《音楽》のキャラなら、あなたは他の自分の《音楽》のキャラを1枚選び、そのターン中、パワーを＋2000し、ソウルを＋1。（公開したカードは元に戻す）\n\"-\"",
+   "traits": [
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_w24/ll_w24_003.png",
+   "variant": ""
+  },
+  {
+   "num": "LL/W24-003SP",
+   "name": "“僕らのLIVE 君とのLIFE”東條 希",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "8000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードのバトル相手が【リバース】した時、あなたは自分の山札の上から1枚を公開する。そのカードが《音楽》のキャラなら、あなたは他の自分の《音楽》のキャラを1枚選び、そのターン中、パワーを＋2000し、ソウルを＋1。（公開したカードは元に戻す）\n\"SECRET\"",
+   "traits": [
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_w24/ll_w24_003sp.png",
+   "variant": ""
+  },
+  {
+   "num": "LL/W24-004",
+   "name": "“僕らのLIVE 君とのLIFE”園田 海未",
+   "type": "Character",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの《音楽》のキャラすべてに、パワーを＋500。\n【起】 集中 ［(1) あなたのキャラを2枚【レスト】する］ あなたは自分の山札の上から4枚をめくり、控え室に置く。それらのカードのクライマックス1枚につき、あなたは自分の山札を見て《音楽》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"-\"",
+   "traits": [
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_w24/ll_w24_004.png",
+   "variant": ""
+  },
+  {
+   "num": "LL/W24-004SP",
+   "name": "“僕らのLIVE 君とのLIFE”園田 海未",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの《音楽》のキャラすべてに、パワーを＋500。\n【起】 集中 ［(1) あなたのキャラを2枚【レスト】する］ あなたは自分の山札の上から4枚をめくり、控え室に置く。それらのカードのクライマックス1枚につき、あなたは自分の山札を見て《音楽》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"SECRET\"",
+   "traits": [
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_w24/ll_w24_004sp.png",
+   "variant": ""
+  },
+  {
+   "num": "LL/W24-005",
+   "name": "“僕らのLIVE 君とのLIFE”絢瀬 絵里",
+   "type": "Character",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの《音楽》のキャラ1枚につき、このカードのパワーを＋500。\n\"-\"",
+   "traits": [
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_w24/ll_w24_005.png",
+   "variant": ""
+  },
+  {
+   "num": "LL/W24-005SP",
+   "name": "“僕らのLIVE 君とのLIFE”絢瀬 絵里",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの《音楽》のキャラ1枚につき、このカードのパワーを＋500。\n\"SECRET\"",
+   "traits": [
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_w24/ll_w24_005sp.png",
+   "variant": ""
+  },
+  {
+   "num": "LL/W24-006a",
+   "name": "“夏色えがおで1,2,Jump！”μ's",
+   "type": "Character",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1)］ このカードがアタックした時、クライマックス置場に「Mermaid festa vol.1」があるなら、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見て《音楽》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"-\"",
+   "traits": [
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_w24/ll_w24_006a.png",
+   "variant": ""
+  },
+  {
+   "num": "LL/W24-006b",
+   "name": "“夏色えがおで1,2,Jump！”μ's",
+   "type": "Character",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1)］ このカードがアタックした時、クライマックス置場に「Mermaid festa vol.1」があるなら、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見て《音楽》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"-\"",
+   "traits": [
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_w24/ll_w24_006b.png",
+   "variant": ""
+  },
+  {
+   "num": "LL/W24-006c",
+   "name": "“夏色えがおで1,2,Jump！”μ's",
+   "type": "Character",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1)］ このカードがアタックした時、クライマックス置場に「Mermaid festa vol.1」があるなら、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見て《音楽》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"-\"",
+   "traits": [
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_w24/ll_w24_006c.png",
+   "variant": ""
+  },
+  {
+   "num": "LL/W24-006d",
+   "name": "“夏色えがおで1,2,Jump！”μ's",
+   "type": "Character",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1)］ このカードがアタックした時、クライマックス置場に「Mermaid festa vol.1」があるなら、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見て《音楽》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"-\"",
+   "traits": [
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_w24/ll_w24_006d.png",
+   "variant": ""
+  },
+  {
+   "num": "LL/W24-006e",
+   "name": "“夏色えがおで1,2,Jump！”μ's",
+   "type": "Character",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1)］ このカードがアタックした時、クライマックス置場に「Mermaid festa vol.1」があるなら、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見て《音楽》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"-\"",
+   "traits": [
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_w24/ll_w24_006e.png",
+   "variant": ""
+  },
+  {
+   "num": "LL/W24-006f",
+   "name": "“夏色えがおで1,2,Jump！”μ's",
+   "type": "Character",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1)］ このカードがアタックした時、クライマックス置場に「Mermaid festa vol.1」があるなら、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見て《音楽》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"-\"",
+   "traits": [
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_w24/ll_w24_006f.png",
+   "variant": ""
+  },
+  {
+   "num": "LL/W24-006g",
+   "name": "“夏色えがおで1,2,Jump！”μ's",
+   "type": "Character",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1)］ このカードがアタックした時、クライマックス置場に「Mermaid festa vol.1」があるなら、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見て《音楽》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"-\"",
+   "traits": [
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_w24/ll_w24_006g.png",
+   "variant": ""
+  },
+  {
+   "num": "LL/W24-006h",
+   "name": "“夏色えがおで1,2,Jump！”μ's",
+   "type": "Character",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1)］ このカードがアタックした時、クライマックス置場に「Mermaid festa vol.1」があるなら、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見て《音楽》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"-\"",
+   "traits": [
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_w24/ll_w24_006h.png",
+   "variant": ""
+  },
+  {
+   "num": "LL/W24-006i",
+   "name": "“夏色えがおで1,2,Jump！”μ's",
+   "type": "Character",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1)］ このカードがアタックした時、クライマックス置場に「Mermaid festa vol.1」があるなら、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見て《音楽》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"-\"",
+   "traits": [
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_w24/ll_w24_006i.png",
+   "variant": ""
+  },
+  {
+   "num": "LL/W24-007",
+   "name": "“僕らのLIVE 君とのLIFE”南 ことり",
+   "type": "Character",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "1",
+   "cost": "1",
+   "power": "7000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 このカードのバトル中、すべてのプレイヤーは『助太刀』を手札からプレイできない。\n\"-\"",
+   "traits": [
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_w24/ll_w24_007.png",
+   "variant": ""
+  },
+  {
+   "num": "LL/W24-007SP",
+   "name": "“僕らのLIVE 君とのLIFE”南 ことり",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "yellow",
+   "level": "1",
+   "cost": "1",
+   "power": "7000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 このカードのバトル中、すべてのプレイヤーは『助太刀』を手札からプレイできない。\n\"SECRET\"",
+   "traits": [
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_w24/ll_w24_007sp.png",
+   "variant": ""
+  },
+  {
+   "num": "LL/W24-008",
+   "name": "“僕らのLIVE 君とのLIFE”星空 凛",
+   "type": "Character",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "7500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】［(1)］ このカードのバトル相手でレベル2以上のキャラが【リバース】した時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見て《音楽》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n【起】［あなたのキャラを2枚【レスト】する］ そのターン中、このカードのパワーを＋2000。\n\"-\"",
+   "traits": [
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_w24/ll_w24_008.png",
+   "variant": ""
+  },
+  {
+   "num": "LL/W24-008SP",
+   "name": "“僕らのLIVE 君とのLIFE”星空 凛",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "7500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】［(1)］ このカードのバトル相手でレベル2以上のキャラが【リバース】した時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見て《音楽》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n【起】［あなたのキャラを2枚【レスト】する］ そのターン中、このカードのパワーを＋2000。\n\"SECRET\"",
+   "traits": [
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_w24/ll_w24_008sp.png",
+   "variant": ""
+  },
+  {
+   "num": "LL/W24-009",
+   "name": "“僕らのLIVE 君とのLIFE”矢澤 にこ",
+   "type": "Character",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "2",
+   "cost": "2",
+   "power": "8000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 他のあなたの《音楽》のキャラがアタックした時、そのターン中、このカードのパワーを＋1000。\n【自】 アンコール ［あなたの山札の上から1枚をクロック置場に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"-\"",
+   "traits": [
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_w24/ll_w24_009.png",
+   "variant": ""
+  },
+  {
+   "num": "LL/W24-009SP",
+   "name": "“僕らのLIVE 君とのLIFE”矢澤 にこ",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "yellow",
+   "level": "2",
+   "cost": "2",
+   "power": "8000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 他のあなたの《音楽》のキャラがアタックした時、そのターン中、このカードのパワーを＋1000。\n【自】 アンコール ［あなたの山札の上から1枚をクロック置場に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"SECRET\"",
+   "traits": [
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_w24/ll_w24_009sp.png",
+   "variant": ""
+  },
+  {
+   "num": "LL/W24-010",
+   "name": "“僕らのLIVE 君とのLIFE”小泉 花陽",
+   "type": "Character",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "2",
+   "cost": "2",
+   "power": "8500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】［あなたの【スタンド】している《音楽》のキャラを1枚【レスト】する］ このカードがアタックした時、あなたはコストを払ってよい。そうしたら、あなたは他の自分の《音楽》のキャラを1枚選び、そのターン中、ソウルを＋1。\n\"-\"",
+   "traits": [
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_w24/ll_w24_010.png",
+   "variant": ""
+  },
+  {
+   "num": "LL/W24-010SP",
+   "name": "“僕らのLIVE 君とのLIFE”小泉 花陽",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "yellow",
+   "level": "2",
+   "cost": "2",
+   "power": "8500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】［あなたの【スタンド】している《音楽》のキャラを1枚【レスト】する］ このカードがアタックした時、あなたはコストを払ってよい。そうしたら、あなたは他の自分の《音楽》のキャラを1枚選び、そのターン中、ソウルを＋1。\n\"SECRET\"",
+   "traits": [
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_w24/ll_w24_010sp.png",
+   "variant": ""
+  },
+  {
+   "num": "LL/W24-011",
+   "name": "南 ことり",
+   "type": "Character",
+   "rarity": "U",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1) 手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見て《音楽》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"-\"",
+   "traits": [
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_w24/ll_w24_011.png",
+   "variant": ""
+  },
+  {
+   "num": "LL/W24-012a",
+   "name": "“もぎゅっと“love”で接近中！”μ's",
+   "type": "Character",
+   "rarity": "U",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、そのターン中、このカードのパワーを＋1500。\n\"-\"",
+   "traits": [
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_w24/ll_w24_012a.png",
+   "variant": ""
+  },
+  {
+   "num": "LL/W24-012b",
+   "name": "“もぎゅっと“love”で接近中！”μ's",
+   "type": "Character",
+   "rarity": "U",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、そのターン中、このカードのパワーを＋1500。\n\"-\"",
+   "traits": [
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_w24/ll_w24_012b.png",
+   "variant": ""
+  },
+  {
+   "num": "LL/W24-012c",
+   "name": "“もぎゅっと“love”で接近中！”μ's",
+   "type": "Character",
+   "rarity": "U",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、そのターン中、このカードのパワーを＋1500。\n\"-\"",
+   "traits": [
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_w24/ll_w24_012c.png",
+   "variant": ""
+  },
+  {
+   "num": "LL/W24-012d",
+   "name": "“もぎゅっと“love”で接近中！”μ's",
+   "type": "Character",
+   "rarity": "U",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、そのターン中、このカードのパワーを＋1500。\n\"-\"",
+   "traits": [
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_w24/ll_w24_012d.png",
+   "variant": ""
+  },
+  {
+   "num": "LL/W24-012e",
+   "name": "“もぎゅっと“love”で接近中！”μ's",
+   "type": "Character",
+   "rarity": "U",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、そのターン中、このカードのパワーを＋1500。\n\"-\"",
+   "traits": [
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_w24/ll_w24_012e.png",
+   "variant": ""
+  },
+  {
+   "num": "LL/W24-012f",
+   "name": "“もぎゅっと“love”で接近中！”μ's",
+   "type": "Character",
+   "rarity": "U",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、そのターン中、このカードのパワーを＋1500。\n\"-\"",
+   "traits": [
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_w24/ll_w24_012f.png",
+   "variant": ""
+  },
+  {
+   "num": "LL/W24-012g",
+   "name": "“もぎゅっと“love”で接近中！”μ's",
+   "type": "Character",
+   "rarity": "U",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、そのターン中、このカードのパワーを＋1500。\n\"-\"",
+   "traits": [
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_w24/ll_w24_012g.png",
+   "variant": ""
+  },
+  {
+   "num": "LL/W24-012h",
+   "name": "“もぎゅっと“love”で接近中！”μ's",
+   "type": "Character",
+   "rarity": "U",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、そのターン中、このカードのパワーを＋1500。\n\"-\"",
+   "traits": [
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_w24/ll_w24_012h.png",
+   "variant": ""
+  },
+  {
+   "num": "LL/W24-012i",
+   "name": "“もぎゅっと“love”で接近中！”μ's",
+   "type": "Character",
+   "rarity": "U",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、そのターン中、このカードのパワーを＋1500。\n\"-\"",
+   "traits": [
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_w24/ll_w24_012i.png",
+   "variant": ""
+  },
+  {
+   "num": "LL/W24-013",
+   "name": "園田 海未",
+   "type": "Character",
+   "rarity": "U",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "8000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの【レスト】している《音楽》のキャラ1枚につき、このカードのパワーを＋500。\n\"-\"",
+   "traits": [
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_w24/ll_w24_013.png",
+   "variant": ""
+  },
+  {
+   "num": "LL/W24-014",
+   "name": "“僕らは今のなかで”μ's",
+   "type": "Character",
+   "rarity": "U",
+   "color": "yellow",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時か『チェンジ』で舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n【自】 このカードがアタックした時、クライマックス置場に「きっと青春が聞こえる」があるなら、あなたのキャラすべてに、そのターン中、パワーを＋3000。\n\"-\"",
+   "traits": [
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_w24/ll_w24_014.png",
+   "variant": ""
+  },
+  {
+   "num": "LL/W24-015a",
+   "name": "“新たなるスタート”μ's",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋500。\n\"皆さん、今日は本当にありがとうございました！\"",
+   "traits": [
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_w24/ll_w24_015a.png",
+   "variant": ""
+  },
+  {
+   "num": "LL/W24-015b",
+   "name": "“新たなるスタート”μ's",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋500。\n\"穂乃果「私たちのファーストライブは、<br />この講堂でした」\"",
+   "traits": [
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_w24/ll_w24_015b.png",
+   "variant": ""
+  },
+  {
+   "num": "LL/W24-015c",
+   "name": "“新たなるスタート”μ's",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋500。\n\"穂乃果「私たちのファーストライブは、<br />この講堂でした」\"",
+   "traits": [
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_w24/ll_w24_015c.png",
+   "variant": ""
+  },
+  {
+   "num": "LL/W24-015d",
+   "name": "“新たなるスタート”μ's",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋500。\n\"穂乃果「その時、私は思ったんです。<br />いつかここを満員にしてみせるって」\"",
+   "traits": [
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_w24/ll_w24_015d.png",
+   "variant": ""
+  },
+  {
+   "num": "LL/W24-015e",
+   "name": "“新たなるスタート”μ's",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋500。\n\"穂乃果「私たちのファーストライブは、<br />この講堂でした」\"",
+   "traits": [
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_w24/ll_w24_015e.png",
+   "variant": ""
+  },
+  {
+   "num": "LL/W24-015f",
+   "name": "“新たなるスタート”μ's",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋500。\n\"穂乃果「その時、私は思ったんです。<br />いつかここを満員にしてみせるって」\"",
+   "traits": [
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_w24/ll_w24_015f.png",
+   "variant": ""
+  },
+  {
+   "num": "LL/W24-015g",
+   "name": "“新たなるスタート”μ's",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋500。\n\"穂乃果「その時、私は思ったんです。<br />いつかここを満員にしてみせるって」\"",
+   "traits": [
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_w24/ll_w24_015g.png",
+   "variant": ""
+  },
+  {
+   "num": "LL/W24-015h",
+   "name": "“新たなるスタート”μ's",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋500。\n\"穂乃果「その時、私は思ったんです。<br />いつかここを満員にしてみせるって」\"",
+   "traits": [
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_w24/ll_w24_015h.png",
+   "variant": ""
+  },
+  {
+   "num": "LL/W24-015i",
+   "name": "“新たなるスタート”μ's",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋500。\n\"穂乃果「私たちのファーストライブは、<br />この講堂でした」\"",
+   "traits": [
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_w24/ll_w24_015i.png",
+   "variant": ""
+  },
+  {
+   "num": "LL/W24-016",
+   "name": "絢瀬 絵里",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのターン中、このカードのパワーを＋1000。\n\"-\"",
+   "traits": [
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_w24/ll_w24_016.png",
+   "variant": ""
+  },
+  {
+   "num": "LL/W24-017",
+   "name": "矢澤 にこ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたのキャラがいないなら、このカードのレベルを＋1し、パワーを＋1500。\n\"-\"",
+   "traits": [
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_w24/ll_w24_017.png",
+   "variant": ""
+  },
+  {
+   "num": "LL/W24-018",
+   "name": "小泉 花陽",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "",
+   "text": "-\n\"-\"",
+   "traits": [
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_w24/ll_w24_018.png",
+   "variant": ""
+  },
+  {
+   "num": "LL/W24-019",
+   "name": "星空 凛",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "1",
+   "cost": "1",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【起】【カウンター】 助太刀2000 レベル1 ［(1) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋2000）\n\"-\"",
+   "traits": [
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_w24/ll_w24_019.png",
+   "variant": ""
+  },
+  {
+   "num": "LL/W24-020",
+   "name": "東條 希",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "5500",
+   "soul": 1,
+   "trigger": "",
+   "text": "-\n\"-\"",
+   "traits": [
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_w24/ll_w24_020.png",
+   "variant": ""
+  },
+  {
+   "num": "LL/W24-021",
+   "name": "西木野 真姫",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋1000。\n【起】［(1) このカードを【レスト】する］ あなたは自分のキャラを1枚選び、そのターン中、パワーを＋2500。\n\"-\"",
+   "traits": [
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_w24/ll_w24_021.png",
+   "variant": ""
+  },
+  {
+   "num": "LL/W24-022",
+   "name": "高坂 穂乃果",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "2",
+   "cost": "2",
+   "power": "9500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の【スタンド】している《音楽》のキャラを1枚選び、【レスト】する。\n\"-\"",
+   "traits": [
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_w24/ll_w24_022.png",
+   "variant": ""
+  },
+  {
+   "num": "LL/W24-023",
+   "name": "きっと青春が聞こえる",
+   "type": "Climax",
+   "rarity": "CR",
+   "color": "yellow",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[bounce.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[bounce.gif]]：このカードがトリガーした時、あなたは相手のキャラを1枚選び、手札に戻してよい）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_w24/ll_w24_023.png",
+   "variant": ""
+  },
+  {
+   "num": "LL/W24-024",
+   "name": "僕らのLIVE 君とのLIFE",
+   "type": "Climax",
+   "rarity": "CC",
+   "color": "yellow",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【自】 このカードが手札からクライマックス置場に置かれた時、あなたは1枚引き、自分のキャラを1枚選び、そのターン中、パワーを＋2000し、ソウルを＋1。\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_w24/ll_w24_024.png",
+   "variant": ""
+  },
+  {
+   "num": "LL/W24-025",
+   "name": "Mermaid festa vol.1",
+   "type": "Climax",
+   "rarity": "CC",
+   "color": "yellow",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【永】 あなたのキャラすべてに、ソウルを＋2。\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_w24/ll_w24_025.png",
+   "variant": ""
+  },
+  {
+   "num": "LL/W24-026",
+   "name": "生徒会長 絵里",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "green",
+   "level": "1",
+   "cost": "1",
+   "power": "6000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1)］ このカードがアタックした時、クライマックス置場に「本当にやりたいこと」があるなら、あなたはコストを払ってよい。そうしたら、次の相手のターンの終わりまで、このカードのパワーを＋2500し、相手はイベントを手札からプレイできない。\n【自】 アンコール ［手札のキャラを1枚控え室に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"…私の…やりたいこと…そんなもの…\"",
+   "traits": [
+    "音楽",
+    "生徒会"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_w24/ll_w24_026.png",
+   "variant": ""
+  },
+  {
+   "num": "LL/W24-026R",
+   "name": "生徒会長 絵里",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "green",
+   "level": "1",
+   "cost": "1",
+   "power": "6000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1)］ このカードがアタックした時、クライマックス置場に「本当にやりたいこと」があるなら、あなたはコストを払ってよい。そうしたら、次の相手のターンの終わりまで、このカードのパワーを＋2500し、相手はイベントを手札からプレイできない。\n【自】 アンコール ［手札のキャラを1枚控え室に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"SECRET\"",
+   "traits": [
+    "音楽",
+    "生徒会"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_w24/ll_w24_026r.png",
+   "variant": ""
+  },
+  {
+   "num": "LL/W24-027",
+   "name": "アイドルオタク にこ",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "green",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 このカードの正面のキャラのソウルを－1。\n【自】［(2) 手札を1枚控え室に置く］ このカードのバトル相手が【リバース】した時、あなたはコストを払ってよい。そうしたら、あなたはそのキャラをクロック置場に置く。\n\"えっとぉ～好きな食べ物はぁ～\"",
+   "traits": [
+    "音楽",
+    "オタク"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_w24/ll_w24_027.png",
+   "variant": ""
+  },
+  {
+   "num": "LL/W24-027S",
+   "name": "アイドルオタク にこ",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 このカードの正面のキャラのソウルを－1。\n【自】［(2) 手札を1枚控え室に置く］ このカードのバトル相手が【リバース】した時、あなたはコストを払ってよい。そうしたら、あなたはそのキャラをクロック置場に置く。\n\"SECRET\"",
+   "traits": [
+    "音楽",
+    "オタク"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_w24/ll_w24_027s.png",
+   "variant": ""
+  },
+  {
+   "num": "LL/W24-028",
+   "name": "スピリチュアルパワー 希",
+   "type": "Character",
+   "rarity": "R",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から1枚を公開する。そのカードが《音楽》のキャラでないならクロック置場に置く。（そうでないなら元に戻す）\n\"カードがウチにそう告げるんや！！\"",
+   "traits": [
+    "音楽",
+    "占い"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_w24/ll_w24_028.png",
+   "variant": ""
+  },
+  {
+   "num": "LL/W24-028S",
+   "name": "スピリチュアルパワー 希",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から1枚を公開する。そのカードが《音楽》のキャラでないならクロック置場に置く。（そうでないなら元に戻す）\n\"SECRET\"",
+   "traits": [
+    "音楽",
+    "占い"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_w24/ll_w24_028s.png",
+   "variant": ""
+  },
+  {
+   "num": "LL/W24-029",
+   "name": "音ノ木坂学院３年生 にこ",
+   "type": "Character",
+   "rarity": "R",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたが自分のキャラの『チェンジ』のコストを払う時、このカードの下のマーカーを、ストック1枚のかわりに控え室に置いてよい。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から1枚を、このカードの下にマーカーとして置く。\n【自】 このカードがアタックした時、あなたは自分の《音楽》のキャラを2枚まで選び、そのターン中、パワーを＋500。\n\"許さないって言ってるでしょ！！\"",
+   "traits": [
+    "音楽",
+    "オタク"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_w24/ll_w24_029.png",
+   "variant": ""
+  },
+  {
+   "num": "LL/W24-029R",
+   "name": "音ノ木坂学院３年生 にこ",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたが自分のキャラの『チェンジ』のコストを払う時、このカードの下のマーカーを、ストック1枚のかわりに控え室に置いてよい。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から1枚を、このカードの下にマーカーとして置く。\n【自】 このカードがアタックした時、あなたは自分の《音楽》のキャラを2枚まで選び、そのターン中、パワーを＋500。\n\"SECRET\"",
+   "traits": [
+    "音楽",
+    "オタク"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_w24/ll_w24_029r.png",
+   "variant": ""
+  },
+  {
+   "num": "LL/W24-030",
+   "name": "音ノ木坂学院３年生 希",
+   "type": "Character",
+   "rarity": "R",
+   "color": "green",
+   "level": "2",
+   "cost": "1",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは他の自分の《音楽》のキャラを1枚選び、そのターン中、パワーを＋2000。\n【起】【カウンター】 助太刀3000 レベル2 ［(1) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋3000）\n\"あの３人、本気みたいやな\"",
+   "traits": [
+    "音楽",
+    "占い"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_w24/ll_w24_030.png",
+   "variant": ""
+  },
+  {
+   "num": "LL/W24-030R",
+   "name": "音ノ木坂学院３年生 希",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "green",
+   "level": "2",
+   "cost": "1",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは他の自分の《音楽》のキャラを1枚選び、そのターン中、パワーを＋2000。\n【起】【カウンター】 助太刀3000 レベル2 ［(1) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋3000）\n\"SECRET\"",
+   "traits": [
+    "音楽",
+    "占い"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_w24/ll_w24_030r.png",
+   "variant": ""
+  },
+  {
+   "num": "LL/W24-031",
+   "name": "音ノ木坂学院３年生 絵里",
+   "type": "Character",
+   "rarity": "R",
+   "color": "green",
+   "level": "2",
+   "cost": "1",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋Ｘ。Ｘはそのキャラのレベル×500に等しい。\n【自】 このカードが手札から舞台に置かれた時、他のあなたの《音楽》のキャラが4枚以上なら、あなたは自分の山札の上から1枚を、ストック置場に置いてよい。\n\"穂乃果「背も高いし、足も長いし、美人だし、<br />なにより大人っぽい…さすが３年生…！」\"",
+   "traits": [
+    "音楽",
+    "生徒会"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_w24/ll_w24_031.png",
+   "variant": ""
+  },
+  {
+   "num": "LL/W24-031S",
+   "name": "音ノ木坂学院３年生 絵里",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "2",
+   "cost": "1",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋Ｘ。Ｘはそのキャラのレベル×500に等しい。\n【自】 このカードが手札から舞台に置かれた時、他のあなたの《音楽》のキャラが4枚以上なら、あなたは自分の山札の上から1枚を、ストック置場に置いてよい。\n\"SECRET\"",
+   "traits": [
+    "音楽",
+    "生徒会"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_w24/ll_w24_031s.png",
+   "variant": ""
+  },
+  {
+   "num": "LL/W24-032",
+   "name": "部長 にこ",
+   "type": "Character",
+   "rarity": "U",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋500。\n【起】［このカードを【レスト】する］ あなたは他のキャラを1枚選び、そのターン中、レベルを＋1。\n\"-\"",
+   "traits": [
+    "音楽",
+    "オタク"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_w24/ll_w24_032.png",
+   "variant": ""
+  },
+  {
+   "num": "LL/W24-033",
+   "name": "水着の希",
+   "type": "Character",
+   "rarity": "U",
+   "color": "green",
+   "level": "1",
+   "cost": "1",
+   "power": "6000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 チェンジ ［(1) このカードをクロック置場に置く］ あなたのクライマックスフェイズの始めに、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「“僕らのLIVE 君とのLIFE”東條 希」を1枚選び、このカードがいた枠に置く。\n【起】［このカードを【レスト】する］ あなたは自分の《音楽》のキャラを1枚選び、そのターン中、パワーを＋1000。\n\"-\"",
+   "traits": [
+    "音楽",
+    "水着"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_w24/ll_w24_033.png",
+   "variant": ""
+  },
+  {
+   "num": "LL/W24-034",
+   "name": "メイド服のにこ",
+   "type": "Character",
+   "rarity": "U",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードがアタックした時、クライマックス置場に「笑顔にさせる仕事」があるなら、そのターン中、このカードのパワーを＋5500し、あなたのアンコールステップの始めに、このカードを控え室に置く。\n\"にっこにっこにー！　どう？　似合ってる？\"",
+   "traits": [
+    "音楽",
+    "メイド"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_w24/ll_w24_034.png",
+   "variant": ""
+  },
+  {
+   "num": "LL/W24-035",
+   "name": "イタズラ好きなにこ",
+   "type": "Character",
+   "rarity": "U",
+   "color": "green",
+   "level": "2",
+   "cost": "1",
+   "power": "8000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードがアタックした時、あなたは他の自分の《音楽》のキャラを1枚選び、そのターン中、パワーを＋1000。\n\"ふふん\"",
+   "traits": [
+    "音楽",
+    "水着"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_w24/ll_w24_035.png",
+   "variant": ""
+  },
+  {
+   "num": "LL/W24-036",
+   "name": "“ナイショ話”希",
+   "type": "Character",
+   "rarity": "U",
+   "color": "green",
+   "level": "2",
+   "cost": "2",
+   "power": "8500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードがアタックした時、クライマックス置場に「タロット占い」があるなら、あなたは他の自分のキャラを1枚まで選び、ストック置場に置き、自分のキャラを1枚選び、次の相手のターンの終わりまで、パワーを＋2000。\n\"ちょっと話しすぎちゃったかも。みんなには秘密ね\"",
+   "traits": [
+    "音楽",
+    "占い"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_w24/ll_w24_036.png",
+   "variant": ""
+  },
+  {
+   "num": "LL/W24-037",
+   "name": "友達思い 希",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 絆／「音ノ木坂学院３年生 絵里」 ［(1)］ （このカードがプレイされて舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「音ノ木坂学院３年生 絵里」を1枚選び、手札に戻す）\n\"学校を存続させようっていうのも、<br />生徒会長としての義務感やろ！？\"",
+   "traits": [
+    "音楽",
+    "占い"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_w24/ll_w24_037.png",
+   "variant": ""
+  },
+  {
+   "num": "LL/W24-038",
+   "name": "絢瀬 亜里沙",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【起】［(1)］ そのターン中、このカードのパワーを＋2000。\n\"本当に！？　嬉しいっ！\"",
+   "traits": [
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_w24/ll_w24_038.png",
+   "variant": ""
+  },
+  {
+   "num": "LL/W24-039",
+   "name": "“ハラショー”絵里",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 チェンジ ［このカードをクロック置場に置く］ あなたのクライマックスフェイズの始めに、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「“僕らのLIVE 君とのLIFE”絢瀬 絵里」を1枚選び、このカードがいた枠に置く。\n\"ハラショー…\"",
+   "traits": [
+    "音楽",
+    "生徒会"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_w24/ll_w24_039.png",
+   "variant": ""
+  },
+  {
+   "num": "LL/W24-040",
+   "name": "水着の絵里",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "",
+   "text": "-\n\"真姫はなかなか大変そうね\"",
+   "traits": [
+    "音楽",
+    "水着"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_w24/ll_w24_040.png",
+   "variant": ""
+  },
+  {
+   "num": "LL/W24-041",
+   "name": "密かな企み にこ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは他の自分の《音楽》のキャラを1枚選び、そのターン中、パワーを＋1000。\n【自】 チェンジ ［(3) このカードをクロック置場に置く］ あなたのクライマックスフェイズの始めに、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「“僕らのLIVE 君とのLIFE”矢澤 にこ」を1枚選び、このカードがいた枠に置く。\n\"ふふふ……こんなこともあろうかと高得点が出やすい<br />曲のピックアップはすでに完了している…\"",
+   "traits": [
+    "音楽",
+    "オタク"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_w24/ll_w24_041.png",
+   "variant": ""
+  },
+  {
+   "num": "LL/W24-042",
+   "name": "メイド服の絵里",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたのキャラすべてに、パワーを＋500。\n【起】［(1) このカードを【レスト】する］ あなたは自分のクロックを1枚選び、手札に戻す。あなたは自分の手札を1枚選び、クロック置場に置く。\n\"穂乃果「おおお～！！」\"",
+   "traits": [
+    "音楽",
+    "メイド"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_w24/ll_w24_042.png",
+   "variant": ""
+  },
+  {
+   "num": "LL/W24-043",
+   "name": "メイド服の希",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "5500",
+   "soul": 1,
+   "trigger": "",
+   "text": "-\n\"-\"",
+   "traits": [
+    "音楽",
+    "メイド"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_w24/ll_w24_043.png",
+   "variant": ""
+  },
+  {
+   "num": "LL/W24-044",
+   "name": "ロシア人とのクォーター 絵里",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "2",
+   "cost": "2",
+   "power": "9000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "-\n\"-\"",
+   "traits": [
+    "音楽",
+    "生徒会"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_w24/ll_w24_044.png",
+   "variant": ""
+  },
+  {
+   "num": "LL/W24-045",
+   "name": "昇天",
+   "type": "Event",
+   "rarity": "U",
+   "color": "green",
+   "level": "1",
+   "cost": "1",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "あなたは自分の山札を見て『チェンジ』を持つキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。このカードを思い出にする。\n\"凛「あれ～いない…」\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_w24/ll_w24_045.png",
+   "variant": ""
+  },
+  {
+   "num": "LL/W24-046",
+   "name": "みんなで海水浴",
+   "type": "Event",
+   "rarity": "U",
+   "color": "green",
+   "level": "2",
+   "cost": "0",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "【カウンター】 あなたは自分のキャラを1枚選び、そのターン中、パワーを＋Ｘ。Ｘはあなたのストックの枚数×500に等しい。\n\"海未「や、やめて下さい希先輩……希！！」\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_w24/ll_w24_046.png",
+   "variant": ""
+  },
+  {
+   "num": "LL/W24-047",
+   "name": "あの日の記憶",
+   "type": "Event",
+   "rarity": "U",
+   "color": "green",
+   "level": "2",
+   "cost": "0",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "あなたは相手の山札を上から1枚見て、山札の上か下に置く。このカードをストック置場に置く。\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_w24/ll_w24_047.png",
+   "variant": ""
+  },
+  {
+   "num": "LL/W24-048",
+   "name": "笑顔にさせる仕事",
+   "type": "Climax",
+   "rarity": "CR",
+   "color": "green",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[treasure.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[treasure.gif]]：このカードがトリガーした時、あなたはこのカードを手札に戻す。あなたは自分の山札の上から1枚を、ストック置場に置いてよい）\n\"いっくよ――！\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_w24/ll_w24_048.png",
+   "variant": ""
+  },
+  {
+   "num": "LL/W24-049",
+   "name": "本当にやりたいこと",
+   "type": "Climax",
+   "rarity": "CC",
+   "color": "green",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【自】 このカードが手札からクライマックス置場に置かれた時、あなたは自分の山札の上から1枚を、ストック置場に置き、自分のキャラすべてに、そのターン中、ソウルを＋1。\n\"一緒にμ'sで歌ってほしいです。<br />スクールアイドルとして！\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_w24/ll_w24_049.png",
+   "variant": ""
+  },
+  {
+   "num": "LL/W24-050",
+   "name": "タロット占い",
+   "type": "Climax",
+   "rarity": "CC",
+   "color": "green",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【自】 このカードが手札からクライマックス置場に置かれた時、あなたは1枚引き、自分のキャラを1枚選び、そのターン中、パワーを＋2000し、ソウルを＋1。\n\"どうするつもり？\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_w24/ll_w24_050.png",
+   "variant": ""
+  },
+  {
+   "num": "LL/W24-051",
+   "name": "音ノ木坂学院２年生 ことり",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1)］ このカードがアタックした時、クライマックス置場に「大好きな場所」があるなら、あなたはコストを払ってよい。そうしたら、あなたは他の自分のキャラを2枚まで選び、そのターン中、パワーを＋3000。\n【自】 このカードが【リバース】した時、このカードのバトル相手のレベルが1以下なら、あなたはそのキャラを【リバース】してよい。\n\"海未「いいですか？　スカートは最低でも<br />膝下でなければ履きませんよ。いいですね！」\"",
+   "traits": [
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_w24/ll_w24_051.png",
+   "variant": ""
+  },
+  {
+   "num": "LL/W24-051S",
+   "name": "音ノ木坂学院２年生 ことり",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1)］ このカードがアタックした時、クライマックス置場に「大好きな場所」があるなら、あなたはコストを払ってよい。そうしたら、あなたは他の自分のキャラを2枚まで選び、そのターン中、パワーを＋3000。\n【自】 このカードが【リバース】した時、このカードのバトル相手のレベルが1以下なら、あなたはそのキャラを【リバース】してよい。\n\"SECRET\"",
+   "traits": [
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_w24/ll_w24_051s.png",
+   "variant": ""
+  },
+  {
+   "num": "LL/W24-052",
+   "name": "音ノ木坂学院２年生 海未",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "9500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの《音楽》のキャラが3枚以上なら、このカードのパワーを＋1000。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n【自】 このカードがアタックした時、クライマックス置場に「あなたは最低です！」があるなら、あなたは自分の控え室のキャラを1枚選び、手札に戻し、あなたの《音楽》のキャラすべてに、そのターン中、パワーを＋1000。\n\"えっ？\"",
+   "traits": [
+    "音楽",
+    "スポーツ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_w24/ll_w24_052.png",
+   "variant": ""
+  },
+  {
+   "num": "LL/W24-052S",
+   "name": "音ノ木坂学院２年生 海未",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "9500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの《音楽》のキャラが3枚以上なら、このカードのパワーを＋1000。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n【自】 このカードがアタックした時、クライマックス置場に「あなたは最低です！」があるなら、あなたは自分の控え室のキャラを1枚選び、手札に戻し、あなたの《音楽》のキャラすべてに、そのターン中、パワーを＋1000。\n\"SECRET\"",
+   "traits": [
+    "音楽",
+    "スポーツ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_w24/ll_w24_052s.png",
+   "variant": ""
+  },
+  {
+   "num": "LL/W24-053",
+   "name": "副リーダータイプ ことり",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの《音楽》のキャラすべてに、パワーを＋500。\n【自】［(1) このカードを【レスト】する］ あなたが『チェンジ』を使った時、このカードが【スタンド】しているなら、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室のキャラを1枚選び、手札に戻す。\n\"-\"",
+   "traits": [
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_w24/ll_w24_053.png",
+   "variant": ""
+  },
+  {
+   "num": "LL/W24-053R",
+   "name": "副リーダータイプ ことり",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの《音楽》のキャラすべてに、パワーを＋500。\n【自】［(1) このカードを【レスト】する］ あなたが『チェンジ』を使った時、このカードが【スタンド】しているなら、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室のキャラを1枚選び、手札に戻す。\n\"SECRET\"",
+   "traits": [
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_w24/ll_w24_053r.png",
+   "variant": ""
+  },
+  {
+   "num": "LL/W24-054",
+   "name": "元気が取り柄 穂乃果",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "1",
+   "cost": "1",
+   "power": "6000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの《音楽》のキャラが3枚以上なら、このカードのパワーを＋500し、このカードは『【自】 アンコール ［手札のキャラを1枚控え室に置く］』を得る。\n【自】［(1)］ このカードがアタックした時、クライマックス置場に「はじまりの想い」があるなら、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室のキャラを1枚選び、手札に戻す。\n\"大丈夫！　私、燃えてるから！\"",
+   "traits": [
+    "音楽",
+    "お菓子"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_w24/ll_w24_054.png",
+   "variant": ""
+  },
+  {
+   "num": "LL/W24-054R",
+   "name": "元気が取り柄 穂乃果",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "red",
+   "level": "1",
+   "cost": "1",
+   "power": "6000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの《音楽》のキャラが3枚以上なら、このカードのパワーを＋500し、このカードは『【自】 アンコール ［手札のキャラを1枚控え室に置く］』を得る。\n【自】［(1)］ このカードがアタックした時、クライマックス置場に「はじまりの想い」があるなら、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室のキャラを1枚選び、手札に戻す。\n\"SECRET\"",
+   "traits": [
+    "音楽",
+    "お菓子"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_w24/ll_w24_054r.png",
+   "variant": ""
+  },
+  {
+   "num": "LL/W24-055",
+   "name": "μ'sの牽引役 穂乃果",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "7500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 チェンジ ［このカードをクロック置場に置く］ あなたのクライマックスフェイズの始めに、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「高坂 穂乃果」を1枚選び、このカードがいた枠に置く。\n【自】 チェンジ ［(2) このカードをクロック置場に置く］ あなたのクライマックスフェイズの始めに、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「“僕らは今のなかで”μ's」を1枚選び、このカードがいた枠に置く。\n\"ことりちゃん、ごめん！<br />私、スクールアイドルやりたいの！\"",
+   "traits": [
+    "音楽",
+    "お菓子"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_w24/ll_w24_055.png",
+   "variant": ""
+  },
+  {
+   "num": "LL/W24-055S",
+   "name": "μ'sの牽引役 穂乃果",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "7500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 チェンジ ［このカードをクロック置場に置く］ あなたのクライマックスフェイズの始めに、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「高坂 穂乃果」を1枚選び、このカードがいた枠に置く。\n【自】 チェンジ ［(2) このカードをクロック置場に置く］ あなたのクライマックスフェイズの始めに、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「“僕らは今のなかで”μ's」を1枚選び、このカードがいた枠に置く。\n\"SECRET\"",
+   "traits": [
+    "音楽",
+    "お菓子"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_w24/ll_w24_055s.png",
+   "variant": ""
+  },
+  {
+   "num": "LL/W24-056",
+   "name": "大和撫子 海未",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "2",
+   "cost": "2",
+   "power": "8000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの《音楽》のキャラが3枚以上なら、このカードは『【自】 アンコール ［手札のキャラを1枚控え室に置く］』を得る。\n【起】［あなたの《音楽》のキャラを2枚【レスト】する］ そのターン中、このカードのパワーを＋2500。\n\"遅らせれば遅らせるほど、辛いだけですよ\"",
+   "traits": [
+    "音楽",
+    "スポーツ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_w24/ll_w24_056.png",
+   "variant": ""
+  },
+  {
+   "num": "LL/W24-056R",
+   "name": "大和撫子 海未",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "red",
+   "level": "2",
+   "cost": "2",
+   "power": "8000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの《音楽》のキャラが3枚以上なら、このカードは『【自】 アンコール ［手札のキャラを1枚控え室に置く］』を得る。\n【起】［あなたの《音楽》のキャラを2枚【レスト】する］ そのターン中、このカードのパワーを＋2500。\n\"SECRET\"",
+   "traits": [
+    "音楽",
+    "スポーツ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_w24/ll_w24_056r.png",
+   "variant": ""
+  },
+  {
+   "num": "LL/W24-057",
+   "name": "メイド服の海未",
+   "type": "Character",
+   "rarity": "U",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの前列の中央の枠のカード名に「穂乃果」を含むキャラに、パワーを＋500。\n【自】 絆／「μ'sの牽引役 穂乃果」 ［(1)］ （このカードがプレイされて舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「μ'sの牽引役 穂乃果」を1枚選び、手札に戻す）\n\"おかえりなさいませ、ご主人様…\"",
+   "traits": [
+    "音楽",
+    "メイド"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_w24/ll_w24_057.png",
+   "variant": ""
+  },
+  {
+   "num": "LL/W24-058",
+   "name": "メイド服の穂乃果",
+   "type": "Character",
+   "rarity": "U",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［あなたの控え室のキャラを2枚山札に戻し、その山札をシャッフルする］ このカードがアタックした時、あなたはコストを払ってよい。そうしたら、そのターン中、このカードのパワーを＋2000。\n【自】 このカードが【リバース】した時、このカードのバトル相手のレベルが0以下なら、あなたはそのキャラを【リバース】してよい。\n\"海未ちゃん！\"",
+   "traits": [
+    "音楽",
+    "メイド"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_w24/ll_w24_058.png",
+   "variant": ""
+  },
+  {
+   "num": "LL/W24-059",
+   "name": "弓道部 海未",
+   "type": "Character",
+   "rarity": "U",
+   "color": "red",
+   "level": "1",
+   "cost": "1",
+   "power": "7000",
+   "soul": 1,
+   "trigger": "",
+   "text": "-\n\"……\"",
+   "traits": [
+    "音楽",
+    "スポーツ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_w24/ll_w24_059.png",
+   "variant": ""
+  },
+  {
+   "num": "LL/W24-060",
+   "name": "本当の気持ち ことり",
+   "type": "Character",
+   "rarity": "U",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【起】【カウンター】 助太刀3000 レベル2 ［(1) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋3000）\n\"…ううん、私の方こそごめん…\"",
+   "traits": [
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_w24/ll_w24_060.png",
+   "variant": ""
+  },
+  {
+   "num": "LL/W24-061",
+   "name": "“ずるい”ことり",
+   "type": "Character",
+   "rarity": "U",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "8000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの《音楽》のキャラが3枚以上なら、このカードのパワーを＋1000。\n\"海未「…もう、ずるいですよ、ことり…」\"",
+   "traits": [
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_w24/ll_w24_061.png",
+   "variant": ""
+  },
+  {
+   "num": "LL/W24-062",
+   "name": "妄想爆発中 海未",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋500。\n\"バーン！\"",
+   "traits": [
+    "音楽",
+    "煩悩"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_w24/ll_w24_062.png",
+   "variant": ""
+  },
+  {
+   "num": "LL/W24-063",
+   "name": "和菓子屋の娘 穂乃果",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(2)］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の《音楽》のキャラを1枚選び、手札に戻す。\n\"いらっしゃい！\"",
+   "traits": [
+    "音楽",
+    "お菓子"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_w24/ll_w24_063.png",
+   "variant": ""
+  },
+  {
+   "num": "LL/W24-064",
+   "name": "“ミナリンスキー”ことり",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 チェンジ ［(1) このカードをクロック置場に置く］ あなたのクライマックスフェイズの始めに、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「“僕らのLIVE 君とのLIFE”南 ことり」を1枚選び、このカードがいた枠に置く。\n\"おかえりなさいませ！　ご主人様♪\"",
+   "traits": [
+    "音楽",
+    "メイド"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_w24/ll_w24_064.png",
+   "variant": ""
+  },
+  {
+   "num": "LL/W24-065",
+   "name": "高坂 雪穂",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたのカード名に「穂乃果」を含むキャラがいるなら、このカードのパワーを＋1500。\n\"なし\"",
+   "traits": [
+    "お菓子"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_w24/ll_w24_065.png",
+   "variant": ""
+  },
+  {
+   "num": "LL/W24-066",
+   "name": "理事長の娘 ことり",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "",
+   "text": "-\n\"海未ちゃん…私…。あのね、実は…\"",
+   "traits": [
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_w24/ll_w24_066.png",
+   "variant": ""
+  },
+  {
+   "num": "LL/W24-067",
+   "name": "幼き日の海未",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 チェンジ ［(2) このカードをクロック置場に置く］ あなたのクライマックスフェイズの始めに、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「園田 海未」を1枚選び、このカードがいた枠に置く。\n\"あ…ああ…\"",
+   "traits": [
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_w24/ll_w24_067.png",
+   "variant": ""
+  },
+  {
+   "num": "LL/W24-068",
+   "name": "水着の穂乃果",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "5500",
+   "soul": 1,
+   "trigger": "",
+   "text": "-\n\"にこちゃんもやろうよ！！\"",
+   "traits": [
+    "音楽",
+    "水着"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_w24/ll_w24_068.png",
+   "variant": ""
+  },
+  {
+   "num": "LL/W24-069",
+   "name": "音ノ木坂学院２年生 穂乃果",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "2",
+   "cost": "2",
+   "power": "9000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "-\n\"うん！　ライブのお知らせを\"",
+   "traits": [
+    "音楽",
+    "お菓子"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_w24/ll_w24_069.png",
+   "variant": ""
+  },
+  {
+   "num": "LL/W24-070",
+   "name": "その場しのぎ",
+   "type": "Event",
+   "rarity": "U",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "【カウンター】 あなたは自分のバトル中のカード名に「ことり」を含むキャラを1枚選び、思い出にする。次のあなたのドローフェイズの始めに、あなたは自分の思い出置場のそのキャラを、舞台の好きな枠に置き、そのターン中、そのキャラのパワーを＋2000。\n\"ことり？　ホワット？　ドナタデェイスカ？\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_w24/ll_w24_070.png",
+   "variant": ""
+  },
+  {
+   "num": "LL/W24-071",
+   "name": "みんなで木登り",
+   "type": "Event",
+   "rarity": "U",
+   "color": "red",
+   "level": "1",
+   "cost": "1",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "あなたは自分の控え室の《音楽》のキャラを1枚選び、手札に戻す。あなたは自分のキャラを1枚選び、そのターン中、パワーを＋1000。\n\"うわーん！！　こわいよー！\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_w24/ll_w24_071.png",
+   "variant": ""
+  },
+  {
+   "num": "LL/W24-072",
+   "name": "格好悪いステップ",
+   "type": "Event",
+   "rarity": "U",
+   "color": "red",
+   "level": "3",
+   "cost": "3",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "相手に5ダメージを与える。（ダメージキャンセルは発生する）\n\"そうですか…。あのステップ…私が考えたのですが…\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_w24/ll_w24_072.png",
+   "variant": ""
+  },
+  {
+   "num": "LL/W24-073",
+   "name": "はじまりの想い",
+   "type": "Climax",
+   "rarity": "CR",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[salvage.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[salvage.gif]]：このカードがトリガーした時、あなたは自分の控え室のキャラを1枚選び、手札に戻してよい）\n\"私やっぱりやる。やるったらやる！\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_w24/ll_w24_073.png",
+   "variant": ""
+  },
+  {
+   "num": "LL/W24-074",
+   "name": "大好きな場所",
+   "type": "Climax",
+   "rarity": "CC",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【自】 このカードが手札からクライマックス置場に置かれた時、あなたは自分の山札の上から1枚を、ストック置場に置き、自分のキャラすべてに、そのターン中、ソウルを＋1。\n\"こちらのお席へどうぞ\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_w24/ll_w24_074.png",
+   "variant": ""
+  },
+  {
+   "num": "LL/W24-075",
+   "name": "あなたは最低です！",
+   "type": "Climax",
+   "rarity": "CC",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【自】 このカードが手札からクライマックス置場に置かれた時、あなたは1枚引き、自分のキャラを1枚選び、そのターン中、パワーを＋2000し、ソウルを＋1。\n\"あなたがそんな人だとは思いませんでした\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_w24/ll_w24_075.png",
+   "variant": ""
+  },
+  {
+   "num": "LL/W24-076",
+   "name": "音ノ木坂学院１年生 凛",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "blue",
+   "level": "1",
+   "cost": "1",
+   "power": "6000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［あなたの山札の上から1枚をクロック置場に置く］ このカードがアタックした時、クライマックス置場に「μ'sの仲間」があり、他のあなたの《音楽》のキャラが3枚以上なら、あなたはコストを払ってよい。そうしたら、あなたは2枚まで引き、自分の手札を1枚選び、控え室に置く。\n【自】 アンコール ［手札のキャラを1枚控え室に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"思いっきり賑やかのにして門出を祝うにゃ！\"",
+   "traits": [
+    "音楽",
+    "スポーツ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_w24/ll_w24_076.png",
+   "variant": ""
+  },
+  {
+   "num": "LL/W24-076R",
+   "name": "音ノ木坂学院１年生 凛",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "blue",
+   "level": "1",
+   "cost": "1",
+   "power": "6000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［あなたの山札の上から1枚をクロック置場に置く］ このカードがアタックした時、クライマックス置場に「μ'sの仲間」があり、他のあなたの《音楽》のキャラが3枚以上なら、あなたはコストを払ってよい。そうしたら、あなたは2枚まで引き、自分の手札を1枚選び、控え室に置く。\n【自】 アンコール ［手札のキャラを1枚控え室に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"SECRET\"",
+   "traits": [
+    "音楽",
+    "スポーツ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_w24/ll_w24_076r.png",
+   "variant": ""
+  },
+  {
+   "num": "LL/W24-077",
+   "name": "アイドル大好き 花陽",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "8000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】［(2)］ あなたのクライマックス置場に「入部宣言」が置かれた時、前列にこのカードがいるなら、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見てコスト0以下の《音楽》のキャラか、「アルパカ」を3枚まで選び、舞台の別々の枠に置き、その山札をシャッフルする。\n\"伝説のアイドル伝説DVD全巻ボックス！<br />持ってる人に初めて会いました！\"",
+   "traits": [
+    "音楽",
+    "動物"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_w24/ll_w24_077.png",
+   "variant": ""
+  },
+  {
+   "num": "LL/W24-077R",
+   "name": "アイドル大好き 花陽",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "8000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】［(2)］ あなたのクライマックス置場に「入部宣言」が置かれた時、前列にこのカードがいるなら、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見てコスト0以下の《音楽》のキャラか、「アルパカ」を3枚まで選び、舞台の別々の枠に置き、その山札をシャッフルする。\n\"SECRET\"",
+   "traits": [
+    "音楽",
+    "動物"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_w24/ll_w24_077r.png",
+   "variant": ""
+  },
+  {
+   "num": "LL/W24-078",
+   "name": "凛の幼馴染 花陽",
+   "type": "Character",
+   "rarity": "R",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋500。\n【自】 あなたのキャラのトリガーチェックでクライマックスがでた時、あなたは自分のキャラを1枚選び、次の相手のターンの終わりまで、パワーを＋500。\n\"え、あ…。何でもない…\"",
+   "traits": [
+    "音楽",
+    "動物"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_w24/ll_w24_078.png",
+   "variant": ""
+  },
+  {
+   "num": "LL/W24-078S",
+   "name": "凛の幼馴染 花陽",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋500。\n【自】 あなたのキャラのトリガーチェックでクライマックスがでた時、あなたは自分のキャラを1枚選び、次の相手のターンの終わりまで、パワーを＋500。\n\"SECRET\"",
+   "traits": [
+    "音楽",
+    "動物"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_w24/ll_w24_078s.png",
+   "variant": ""
+  },
+  {
+   "num": "LL/W24-079",
+   "name": "歌が上手 真姫",
+   "type": "Character",
+   "rarity": "R",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたのキャラが1枚以下なら、このカードのレベルを＋1し、パワーを＋1000。\n【永】 あなたが自分のキャラの『チェンジ』のコストを払う時、このカードの下のマーカーを、ストック1枚のかわりに控え室に置いてよい。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から1枚を、このカードの下にマーカーとして置く。\n\"穂乃果「新生スクールアイドル、<br />μ'sの練習を始めたいと思います」\"",
+   "traits": [
+    "音楽",
+    "令嬢"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_w24/ll_w24_079.png",
+   "variant": ""
+  },
+  {
+   "num": "LL/W24-079R",
+   "name": "歌が上手 真姫",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたのキャラが1枚以下なら、このカードのレベルを＋1し、パワーを＋1000。\n【永】 あなたが自分のキャラの『チェンジ』のコストを払う時、このカードの下のマーカーを、ストック1枚のかわりに控え室に置いてよい。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から1枚を、このカードの下にマーカーとして置く。\n\"SECRET\"",
+   "traits": [
+    "音楽",
+    "令嬢"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_w24/ll_w24_079r.png",
+   "variant": ""
+  },
+  {
+   "num": "LL/W24-080",
+   "name": "花陽の幼馴染 凛",
+   "type": "Character",
+   "rarity": "R",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは1枚引き、自分の手札を1枚選び、控え室に置く。\n【自】 チェンジ ［(2) このカードをクロック置場に置く］ あなたのクライマックスフェイズの始めに、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「“僕らのLIVE 君とのLIFE”星空 凛」を1枚選び、このカードがいた枠に置く。\n\"-\"",
+   "traits": [
+    "音楽",
+    "スポーツ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_w24/ll_w24_080.png",
+   "variant": ""
+  },
+  {
+   "num": "LL/W24-080S",
+   "name": "花陽の幼馴染 凛",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは1枚引き、自分の手札を1枚選び、控え室に置く。\n【自】 チェンジ ［(2) このカードをクロック置場に置く］ あなたのクライマックスフェイズの始めに、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「“僕らのLIVE 君とのLIFE”星空 凛」を1枚選び、このカードがいた枠に置く。\n\"SECRET\"",
+   "traits": [
+    "音楽",
+    "スポーツ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_w24/ll_w24_080s.png",
+   "variant": ""
+  },
+  {
+   "num": "LL/W24-081",
+   "name": "音ノ木坂学院１年生 真姫",
+   "type": "Character",
+   "rarity": "R",
+   "color": "blue",
+   "level": "3",
+   "cost": "2",
+   "power": "9000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたの控え室のクライマックスが6枚以上なら、あなたの手札のこのカードのレベルを－1。\n【永】 他のあなたの《音楽》のキャラ1枚につき、このカードのパワーを＋500。\n【自】 このカードが手札から舞台に置かれた時、あなたは2枚まで引き、自分の手札を1枚選び、控え室に置く。\n\"-\"",
+   "traits": [
+    "音楽",
+    "令嬢"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_w24/ll_w24_081.png",
+   "variant": ""
+  },
+  {
+   "num": "LL/W24-081S",
+   "name": "音ノ木坂学院１年生 真姫",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "3",
+   "cost": "2",
+   "power": "9000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたの控え室のクライマックスが6枚以上なら、あなたの手札のこのカードのレベルを－1。\n【永】 他のあなたの《音楽》のキャラ1枚につき、このカードのパワーを＋500。\n【自】 このカードが手札から舞台に置かれた時、あなたは2枚まで引き、自分の手札を1枚選び、控え室に置く。\n\"SECRET\"",
+   "traits": [
+    "音楽",
+    "令嬢"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_w24/ll_w24_081s.png",
+   "variant": ""
+  },
+  {
+   "num": "LL/W24-082",
+   "name": "プライドが高い 真姫",
+   "type": "Character",
+   "rarity": "U",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの前列の中央の枠のキャラに、パワーを＋500。\n【起】 集中 ［(1)］ あなたは自分の山札の上から4枚をめくり、控え室に置く。それらのカードのクライマックス1枚につき、あなたは自分の《音楽》のキャラを1枚選び、そのターン中、パワーを＋2000。\n\"-\"",
+   "traits": [
+    "音楽",
+    "令嬢"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_w24/ll_w24_082.png",
+   "variant": ""
+  },
+  {
+   "num": "LL/W24-083",
+   "name": "“ナイショ話”真姫",
+   "type": "Character",
+   "rarity": "U",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 チェンジ ［(2) このカードをクロック置場に置く］ あなたのクライマックスフェイズの始めに、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「西木野 真姫」を1枚選び、このカードがいた枠に置く。\n【起】【カウンター】 助太刀1500 レベル1 ［手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋1500）\n\"面倒くさい人ね。希\"",
+   "traits": [
+    "音楽",
+    "令嬢"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_w24/ll_w24_083.png",
+   "variant": ""
+  },
+  {
+   "num": "LL/W24-084",
+   "name": "水着の花陽",
+   "type": "Character",
+   "rarity": "U",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたのカード名に「凛」を含むキャラがいるなら、このカードのパワーを＋1000し、このカードは『【自】 アンコール ［手札のキャラを1枚控え室に置く］』を得る。\n\"あぁ…\"",
+   "traits": [
+    "音楽",
+    "動物"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_w24/ll_w24_084.png",
+   "variant": ""
+  },
+  {
+   "num": "LL/W24-085",
+   "name": "背中を押す 真姫",
+   "type": "Character",
+   "rarity": "U",
+   "color": "blue",
+   "level": "1",
+   "cost": "1",
+   "power": "7000",
+   "soul": 1,
+   "trigger": "",
+   "text": "-\n\"-\"",
+   "traits": [
+    "音楽",
+    "令嬢"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_w24/ll_w24_085.png",
+   "variant": ""
+  },
+  {
+   "num": "LL/W24-086",
+   "name": "メイド服の凛",
+   "type": "Character",
+   "rarity": "U",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "8000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 相手のターン中、他のあなたの《音楽》のキャラ1枚につき、このカードのパワーを＋500。\n\"-\"",
+   "traits": [
+    "音楽",
+    "スポーツ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_w24/ll_w24_086.png",
+   "variant": ""
+  },
+  {
+   "num": "LL/W24-087",
+   "name": "体育会系 凛",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 絆／「水着の花陽」 ［(1)］ （このカードがプレイされて舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「水着の花陽」を1枚選び、手札に戻す）\n\"-\"",
+   "traits": [
+    "音楽",
+    "スポーツ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_w24/ll_w24_087.png",
+   "variant": ""
+  },
+  {
+   "num": "LL/W24-088",
+   "name": "アルパカ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの「アイドル大好き 花陽」すべてに、パワーを＋1000。\n\"ムシャムシャ\"",
+   "traits": [
+    "動物"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_w24/ll_w24_088.png",
+   "variant": ""
+  },
+  {
+   "num": "LL/W24-089",
+   "name": "水着の凛",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "",
+   "text": "-\n\"がんばれー！\"",
+   "traits": [
+    "音楽",
+    "スポーツ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_w24/ll_w24_089.png",
+   "variant": ""
+  },
+  {
+   "num": "LL/W24-090",
+   "name": "メイド服の花陽",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 前列にこのカードがいるなら、このカードはあなたのスタンドフェイズに【スタンド】しない。\n\"この衣装で秋葉に！？\"",
+   "traits": [
+    "音楽",
+    "動物"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_w24/ll_w24_090.png",
+   "variant": ""
+  },
+  {
+   "num": "LL/W24-091",
+   "name": "音ノ木坂学院１年生 花陽",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "1",
+   "cost": "1",
+   "power": "5500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の《音楽》のキャラを1枚選び、そのターン中、パワーを＋1500。\n【自】 チェンジ ［(2) このカードをクロック置場に置く］ あなたのクライマックスフェイズの始めに、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「“僕らのLIVE 君とのLIFE”小泉 花陽」を1枚選び、このカードがいた枠に置く。\n\"-\"",
+   "traits": [
+    "音楽",
+    "動物"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_w24/ll_w24_091.png",
+   "variant": ""
+  },
+  {
+   "num": "LL/W24-092",
+   "name": "気が強い真姫",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "8000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】［(1)］ このカードがアタックした時、クライマックス置場に「音楽室の少女」があるなら、あなたはコストを払ってよい。そうしたら、あなたのキャラすべてに、次の相手のターンの終わりまで、パワーを＋1500。\n\"とにかく行くわよ！\"",
+   "traits": [
+    "音楽",
+    "令嬢"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_w24/ll_w24_092.png",
+   "variant": ""
+  },
+  {
+   "num": "LL/W24-093",
+   "name": "取材中 凛",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "2",
+   "cost": "2",
+   "power": "8000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの《音楽》のキャラが3枚以上なら、このカードのパワーを＋1000し、このカードは『【自】 アンコール ［手札のキャラを1枚控え室に置く］』を得る。\n\"ね、ね、面白そうでしょ！\"",
+   "traits": [
+    "音楽",
+    "スポーツ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_w24/ll_w24_093.png",
+   "variant": ""
+  },
+  {
+   "num": "LL/W24-094",
+   "name": "新しい自分 花陽",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "2",
+   "cost": "2",
+   "power": "9000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "-\n\"おはよっ！\"",
+   "traits": [
+    "音楽",
+    "動物"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_w24/ll_w24_094.png",
+   "variant": ""
+  },
+  {
+   "num": "LL/W24-095",
+   "name": "ニッコリ腕立て伏せ",
+   "type": "Event",
+   "rarity": "U",
+   "color": "blue",
+   "level": "1",
+   "cost": "1",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "【カウンター】 あなたは自分の《音楽》のキャラを1枚選び、そのターン中、パワーを＋3500。\n\"う、うう…\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_w24/ll_w24_095.png",
+   "variant": ""
+  },
+  {
+   "num": "LL/W24-096",
+   "name": "幼い頃からの夢",
+   "type": "Event",
+   "rarity": "U",
+   "color": "blue",
+   "level": "2",
+   "cost": "0",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "あなたは自分の【スタンド】している《音楽》のキャラを1枚選び【レスト】する。そうしたら、あなたは2枚まで引き、自分の手札を1枚選び、控え室に置く。\n\"やりたいって思ったらやってみる…<br />そうだよね…\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_w24/ll_w24_096.png",
+   "variant": ""
+  },
+  {
+   "num": "LL/W24-097",
+   "name": "練習日和？",
+   "type": "Event",
+   "rarity": "U",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "あなたは自分の山札を見て《音楽》のキャラを2枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。あなたは自分の手札を1枚選び、控え室に置く。\n\"ザーー！！\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_w24/ll_w24_097.png",
+   "variant": ""
+  },
+  {
+   "num": "LL/W24-098",
+   "name": "μ'sの仲間",
+   "type": "Climax",
+   "rarity": "CR",
+   "color": "blue",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[draw.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[draw.gif]]：このカードがトリガーした時、あなたは1枚引いてよい）\n\"ま～きちゃん！真姫ちゃん真姫ちゃん真姫ちゃん！\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_w24/ll_w24_098.png",
+   "variant": ""
+  },
+  {
+   "num": "LL/W24-099",
+   "name": "入部宣言",
+   "type": "Climax",
+   "rarity": "CC",
+   "color": "blue",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【永】 あなたのキャラすべてに、ソウルを＋2。\n\"アイドルへの思いは誰にも負けないつもりです！\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_w24/ll_w24_099.png",
+   "variant": ""
+  },
+  {
+   "num": "LL/W24-100",
+   "name": "音楽室の少女",
+   "type": "Climax",
+   "rarity": "CC",
+   "color": "blue",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【自】 このカードが手札からクライマックス置場に置かれた時、あなたは1枚引き、自分のキャラを1枚選び、そのターン中、パワーを＋2000し、ソウルを＋1。\n\"穂乃果「綺麗な声…」\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_w24/ll_w24_100.png",
+   "variant": ""
+  },
+  {
+   "num": "LL/W24-113",
+   "name": "ちび穂乃果",
+   "type": "Character",
+   "rarity": "PR",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "",
+   "text": "-\n\"-\"",
+   "traits": [
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_w24/ll_w24_113.png",
+   "variant": ""
+  },
+  {
+   "num": "LL/W24-114",
+   "name": "ちび絵里",
+   "type": "Character",
+   "rarity": "PR",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【起】【カウンター】 助太刀1500 レベル1 ［手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋1500）\n\"-\"",
+   "traits": [
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_w24/ll_w24_114.png",
+   "variant": ""
+  },
+  {
+   "num": "LL/W24-115",
+   "name": "ちびことり",
+   "type": "Character",
+   "rarity": "PR",
+   "color": "yellow",
+   "level": "2",
+   "cost": "2",
+   "power": "9000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "-\n\"-\"",
+   "traits": [
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_w24/ll_w24_115.png",
+   "variant": ""
+  },
+  {
+   "num": "LL/W24-116",
+   "name": "ちび海未",
+   "type": "Character",
+   "rarity": "PR",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【起】【カウンター】 助太刀3000 レベル2 ［(1) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋3000）\n\"-\"",
+   "traits": [
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_w24/ll_w24_116.png",
+   "variant": ""
+  },
+  {
+   "num": "LL/W24-117",
+   "name": "ちび凛",
+   "type": "Character",
+   "rarity": "PR",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "5500",
+   "soul": 1,
+   "trigger": "",
+   "text": "-\n\"-\"",
+   "traits": [
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_w24/ll_w24_117.png",
+   "variant": ""
+  },
+  {
+   "num": "LL/W24-118",
+   "name": "ちび真姫",
+   "type": "Character",
+   "rarity": "PR",
+   "color": "yellow",
+   "level": "2",
+   "cost": "2",
+   "power": "9000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "-\n\"-\"",
+   "traits": [
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_w24/ll_w24_118.png",
+   "variant": ""
+  },
+  {
+   "num": "LL/W24-119",
+   "name": "ちび希",
+   "type": "Character",
+   "rarity": "PR",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋500。\n\"-\"",
+   "traits": [
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_w24/ll_w24_119.png",
+   "variant": ""
+  },
+  {
+   "num": "LL/W24-120",
+   "name": "ちび花陽",
+   "type": "Character",
+   "rarity": "PR",
+   "color": "yellow",
+   "level": "1",
+   "cost": "1",
+   "power": "7000",
+   "soul": 1,
+   "trigger": "",
+   "text": "-\n\"-\"",
+   "traits": [
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_w24/ll_w24_120.png",
+   "variant": ""
+  },
+  {
+   "num": "LL/W24-121",
+   "name": "ちびにこ",
+   "type": "Character",
+   "rarity": "PR",
+   "color": "yellow",
+   "level": "1",
+   "cost": "2",
+   "power": "7500",
+   "soul": 2,
+   "trigger": "",
+   "text": "-\n\"-\"",
+   "traits": [
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/ll_w24/ll_w24_121.png",
+   "variant": ""
+  }
+ ]
+}

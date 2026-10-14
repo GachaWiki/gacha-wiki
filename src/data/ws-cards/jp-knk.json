@@ -1,0 +1,468 @@
+{
+ "id": "jp-knk",
+ "name": "[TD+]彼女、お借りします",
+ "expansion": 321,
+ "lang": "jp",
+ "release": null,
+ "shopItem": null,
+ "box": null,
+ "cards": [
+  {
+   "num": "KNK/W86-T01",
+   "name": "偶然の再会 麻美",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの前列の中央の枠のキャラに、パワーを＋500。\n【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋500。\n\"和くん……\"",
+   "traits": [
+    "かのかり"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w86/knk_w86_t01.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W86-T02",
+   "name": "冷ややかな眼差し 麻美",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのストックが2枚以下なら、このカードのパワーを＋1500。\n\"あっそう\"",
+   "traits": [
+    "かのかり"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w86/knk_w86_t02.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W86-T03",
+   "name": "本来の姿 瑠夏",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの《かのかり》のキャラが2枚以上なら、このカードのパワーを＋1000。\n【自】【CXコンボ】 このカードのバトル相手が【リバース】した時、あなたのクライマックス置場に「私と付き合ってくださいっ!!」があるなら、あなたは自分の控え室のキャラを1枚選び、手札に戻してよい。\n\"ご…ごめんなさい…\"",
+   "traits": [
+    "かのかり",
+    "リボン"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w86/knk_w86_t03.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W86-T03S",
+   "name": "本来の姿 瑠夏",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの《かのかり》のキャラが2枚以上なら、このカードのパワーを＋1000。\n【自】【CXコンボ】 このカードのバトル相手が【リバース】した時、あなたのクライマックス置場に「私と付き合ってくださいっ!!」があるなら、あなたは自分の控え室のキャラを1枚選び、手札に戻してよい。\n\"ご…ごめんなさい…\"",
+   "traits": [
+    "かのかり",
+    "リボン"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w86/knk_w86_t03s.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W86-T04",
+   "name": "待ち焦がれる 瑠夏",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードがアタックした時、他のあなたの《かのかり》のキャラが2枚以上なら、そのターン中、このカードのパワーを＋2000。\n\"－\"",
+   "traits": [
+    "かのかり",
+    "リボン"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w86/knk_w86_t04.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W86-T05",
+   "name": "疑惑の視線 瑠夏",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "green",
+   "level": "1",
+   "cost": "1",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【起】【カウンター】 助太刀2500 レベル1 ［(1) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋2500）\n\"やっぱりキスは無理ですか？\"",
+   "traits": [
+    "かのかり",
+    "リボン"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w86/knk_w86_t05.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W86-T06",
+   "name": "別れの挨拶 瑠夏",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "green",
+   "level": "2",
+   "cost": "1",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋Ｘ。Ｘはそのキャラのレベル×500に等しい。\n【自】 このカードが手札から舞台に置かれた時、あなたは1枚引き、自分の手札を1枚選び、控え室に置く。\n\"さようなら和也さん\"",
+   "traits": [
+    "かのかり",
+    "リボン"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w86/knk_w86_t06.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W86-T07",
+   "name": "謎多き美少女 瑠夏",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "green",
+   "level": "2",
+   "cost": "1",
+   "power": "7000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、他のあなたの《かのかり》のキャラが4枚以上なら、あなたは自分の控え室の《かのかり》のキャラを1枚選び、ストック置場に置いてよい。\n【自】 このカードがアタックした時、そのターン中、このカードのパワーを＋Ｘ。Ｘは他のあなたの《かのかり》のキャラの枚数×1000に等しい。\n\"ついて来ないで下さ…\"",
+   "traits": [
+    "かのかり",
+    "リボン"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w86/knk_w86_t07.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W86-T07R",
+   "name": "謎多き美少女 瑠夏",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "green",
+   "level": "2",
+   "cost": "1",
+   "power": "7000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、他のあなたの《かのかり》のキャラが4枚以上なら、あなたは自分の控え室の《かのかり》のキャラを1枚選び、ストック置場に置いてよい。\n【自】 このカードがアタックした時、そのターン中、このカードのパワーを＋Ｘ。Ｘは他のあなたの《かのかり》のキャラの枚数×1000に等しい。\n\"ちょっとイジワルしたくなっただけですっ‼\"",
+   "traits": [
+    "かのかり",
+    "リボン"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w86/knk_w86_t07r.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W86-T08",
+   "name": "想定外の一言 麻美",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "green",
+   "level": "2",
+   "cost": "2",
+   "power": "7000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの《かのかり》のキャラ1枚につき、このカードのパワーを＋1000。\n\"ごめんっ\"",
+   "traits": [
+    "かのかり"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w86/knk_w86_t08.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W86-T08R",
+   "name": "想定外の一言 麻美",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "green",
+   "level": "2",
+   "cost": "2",
+   "power": "7000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの《かのかり》のキャラ1枚につき、このカードのパワーを＋1000。\n\"他に好きな人できちゃった\"",
+   "traits": [
+    "かのかり"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w86/knk_w86_t08r.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W86-T09",
+   "name": "ファインダー越し 墨",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "green",
+   "level": "3",
+   "cost": "2",
+   "power": "8000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札を上から3枚まで見て、カードを1枚まで選び、手札に加え、残りのカードを控え室に置く。\n【自】 このカードが【リバース】した時、他のあなたの《かのかり》のキャラが2枚以上で、このカードのバトル相手のレベルが3以下なら、あなたは相手のクロックの上から1枚を、控え室に置いてよい。そうしたら、あなたはそのキャラをクロック置場に置く。\n\"－\"",
+   "traits": [
+    "かのかり",
+    "ダイアモンド"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w86/knk_w86_t09.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W86-T09R",
+   "name": "ファインダー越し 墨",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "green",
+   "level": "3",
+   "cost": "2",
+   "power": "8000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札を上から3枚まで見て、カードを1枚まで選び、手札に加え、残りのカードを控え室に置く。\n【自】 このカードが【リバース】した時、他のあなたの《かのかり》のキャラが2枚以上で、このカードのバトル相手のレベルが3以下なら、あなたは相手のクロックの上から1枚を、控え室に置いてよい。そうしたら、あなたはそのキャラをクロック置場に置く。\n\"－\"",
+   "traits": [
+    "かのかり",
+    "ダイアモンド"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w86/knk_w86_t09r.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W86-T10",
+   "name": "私と付き合ってくださいっ!!",
+   "type": "Climax",
+   "rarity": "TD",
+   "color": "green",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[stock.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[stock.gif]]：このカードがトリガーした時、あなたは自分の山札の上から1枚を、ストック置場に置いてよい）\n\"本当の彼女はもっともっと凄く凄く大切にできる人だって…!!\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w86/knk_w86_t10.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W86-T11",
+   "name": "微妙な距離 和也",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのターン中、他のあなたの「微妙な距離 千鶴」すべてに、パワーを＋2000。\n【自】 絆／「微妙な距離 千鶴」 ［(1)］ （このカードがプレイされて舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「微妙な距離 千鶴」を1枚選び、手札に戻す）\n\"－\"",
+   "traits": [
+    "かのかり"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w86/knk_w86_t11.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W86-T12",
+   "name": "波乱の幕開け ちづる",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 あなたのメインフェイズの始めに、あなたは自分の山札を上から1枚見て、山札の上か控え室に置く。\n【起】 集中 ［(1) このカードを【レスト】する］ あなたは自分の山札の上から4枚をめくり、控え室に置く。それらのカードのクライマックス1枚につき、あなたは1枚まで引く。\n\"は？\"",
+   "traits": [
+    "かのかり",
+    "ダイアモンド"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w86/knk_w86_t12.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W86-T13",
+   "name": "届かない掌 和也",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】【CXコンボ】［手札の、「彼女モード」か「私と付き合ってくださいっ!!」を1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の、「彼女モード」か「私と付き合ってくださいっ!!」を1枚選び、手札に戻す。\n\"－\"",
+   "traits": [
+    "かのかり"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w86/knk_w86_t13.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W86-T14",
+   "name": "レンタル彼女 千鶴",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から1枚を公開する。そのカードが《かのかり》のキャラなら手札に加え、あなたは自分の手札を1枚選び、控え室に置く。（そうでないなら元に戻す）\n【自】［手札の《かのかり》のキャラを1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは1枚引く。\n\"－\"",
+   "traits": [
+    "かのかり",
+    "ダイアモンド"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w86/knk_w86_t14.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W86-T14SP",
+   "name": "レンタル彼女 千鶴",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から1枚を公開する。そのカードが《かのかり》のキャラなら手札に加え、あなたは自分の手札を1枚選び、控え室に置く。（そうでないなら元に戻す）\n【自】［手札の《かのかり》のキャラを1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは1枚引く。\n\"－\"",
+   "traits": [
+    "かのかり",
+    "ダイアモンド"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w86/knk_w86_t14sp.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W86-T15",
+   "name": "理想の恋人 千鶴",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、そのターン中、このカードのパワーを＋Ｘ。Ｘはあなたの《かのかり》のキャラの枚数×500に等しい。\n【自】 このカードがアタックした時、あなたは自分の《かのかり》のキャラを1枚選び、そのターン中、パワーを＋1500。\n\"和也君、だよね？\"",
+   "traits": [
+    "かのかり",
+    "ダイアモンド"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w86/knk_w86_t15.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W86-T15S",
+   "name": "理想の恋人 千鶴",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、そのターン中、このカードのパワーを＋Ｘ。Ｘはあなたの《かのかり》のキャラの枚数×500に等しい。\n【自】 このカードがアタックした時、あなたは自分の《かのかり》のキャラを1枚選び、そのターン中、パワーを＋1500。\n\"和也君、だよね？\"",
+   "traits": [
+    "かのかり",
+    "ダイアモンド"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w86/knk_w86_t15s.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W86-T16",
+   "name": "微妙な距離 千鶴",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "5500",
+   "soul": 1,
+   "trigger": "",
+   "text": "-\n\"－\"",
+   "traits": [
+    "かのかり",
+    "ダイアモンド"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w86/knk_w86_t16.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W86-T17",
+   "name": "遅れて来た彼女 千鶴",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n【自】【CXコンボ】 このカードがアタックした時、クライマックス置場に「彼女モード」があるなら、あなたは相手に1ダメージを与えてよい。（ダメージキャンセルは発生する）\n\"お料理作ってたら遅くなっちゃって\"",
+   "traits": [
+    "かのかり",
+    "ダイアモンド"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w86/knk_w86_t17.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W86-T18",
+   "name": "他言無用",
+   "type": "Event",
+   "rarity": "TD",
+   "color": "red",
+   "level": "1",
+   "cost": "1",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "あなたは自分の山札を見て《かのかり》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。このカードを思い出にする。\n\"誰にも言わないでっ‼\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w86/knk_w86_t18.png",
+   "variant": ""
+  },
+  {
+   "num": "KNK/W86-T19",
+   "name": "彼女モード",
+   "type": "Climax",
+   "rarity": "TD",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[salvage.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[salvage.gif]]：このカードがトリガーした時、あなたは自分の控え室のキャラを1枚選び、手札に戻してよい）\n\"初めまして。水原千鶴と言います\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w86/knk_w86_t19.png",
+   "variant": ""
+  }
+ ]
+}

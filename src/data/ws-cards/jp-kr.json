@@ -1,0 +1,1269 @@
+{
+ "id": "jp-kr",
+ "name": "境界のRINNE",
+ "expansion": 172,
+ "lang": "jp",
+ "release": null,
+ "shopItem": null,
+ "box": null,
+ "cards": [
+  {
+   "num": "KR/SE30-01",
+   "name": "“穏やかな昼餐”桜",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの、緑か《契約黒猫》のキャラが3枚以上なら、このカードのパワーを＋1000。\n【自】 このカードのバトル相手が【リバース】した時、あなたのクライマックス置場に「2人の奇想天外な放課後」があるなら、あなたは自分の山札を上から4枚まで見て、緑か《契約黒猫》のキャラを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置き、自分のキャラを1枚選び、そのターン中、パワーを＋2000。\n\"六道君、これ…\"",
+   "traits": [
+    "特徴なし"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kr_se30/kr_se30_01.png",
+   "variant": ""
+  },
+  {
+   "num": "KR/SE30-01SP",
+   "name": "“穏やかな昼餐”桜",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの、緑か《契約黒猫》のキャラが3枚以上なら、このカードのパワーを＋1000。\n【自】 このカードのバトル相手が【リバース】した時、あなたのクライマックス置場に「2人の奇想天外な放課後」があるなら、あなたは自分の山札を上から4枚まで見て、緑か《契約黒猫》のキャラを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置き、自分のキャラを1枚選び、そのターン中、パワーを＋2000。\n\"SECRET\"",
+   "traits": [
+    "特徴なし"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kr_se30/kr_se30_01sp.png",
+   "variant": ""
+  },
+  {
+   "num": "KR/SE30-02",
+   "name": "“霊視体験”桜",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "green",
+   "level": "3",
+   "cost": "2",
+   "power": "8500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたの、緑か《契約黒猫》のキャラが4枚以上なら、あなたの手札のこのカードのレベルを－1。\n【永】 他のあなたの、緑か《契約黒猫》のキャラが3枚以上なら、このカードのパワーを＋1500し、このカードは次の能力を得る。『【自】 このカードがアタックした時、あなたは自分の山札を上から1枚見て、山札の上か下に置く。』\n【自】 このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n\"あなたいったい……何者なの？\"",
+   "traits": [
+    "特徴なし"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kr_se30/kr_se30_02.png",
+   "variant": ""
+  },
+  {
+   "num": "KR/SE30-03",
+   "name": "“輪廻への導き”りんね",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "green",
+   "level": "3",
+   "cost": "2",
+   "power": "9500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは1枚まで引き、そのターン中、このカードのパワーを＋2000。\n【自】 このカードのバトル相手が【リバース】した時、あなたのクライマックス置場に「ここから先は死神の仕事だ!!」があるなら、相手は自分の山札の上から5枚を公開し、このカードのバトル相手と同じカード名のキャラを1枚選び、クロック置場に置き、その山札をシャッフルし、あなたはそのバトル相手をクロック置場に置いてよい。\n\"すみやかに輪廻の輪に乗るように\"",
+   "traits": [
+    "死神"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kr_se30/kr_se30_03.png",
+   "variant": ""
+  },
+  {
+   "num": "KR/SE30-03SP",
+   "name": "“輪廻への導き”りんね",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "green",
+   "level": "3",
+   "cost": "2",
+   "power": "9500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは1枚まで引き、そのターン中、このカードのパワーを＋2000。\n【自】 このカードのバトル相手が【リバース】した時、あなたのクライマックス置場に「ここから先は死神の仕事だ!!」があるなら、相手は自分の山札の上から5枚を公開し、このカードのバトル相手と同じカード名のキャラを1枚選び、クロック置場に置き、その山札をシャッフルし、あなたはそのバトル相手をクロック置場に置いてよい。\n\"SECRET\"",
+   "traits": [
+    "死神"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kr_se30/kr_se30_03sp.png",
+   "variant": ""
+  },
+  {
+   "num": "KR/SE30-04",
+   "name": "“穏やかな昼餐”りんね",
+   "type": "Character",
+   "rarity": "R",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードがアタックした時、他のあなたのキャラが1枚以下なら、あなたは自分の山札の上から1枚を、控え室に置いてよい。そのカードがレベル0以下のキャラなら、そのキャラを後列の好きな枠に置く。\n【自】 このカードが【リバース】した時、このカードのバトル相手のレベルが0以下なら、あなたは相手のクロックの上から1枚を、控え室に置いてよい。そうしたら、あなたはそのキャラをクロック置場に置く。\n\"こんな高級メシ、一体どこから…\"",
+   "traits": [
+    "死神"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kr_se30/kr_se30_04.png",
+   "variant": ""
+  },
+  {
+   "num": "KR/SE30-05",
+   "name": "幼い頃の桜",
+   "type": "Character",
+   "rarity": "R",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 あなたが山札をリフレッシュした時、あなたは自分の山札の上から1枚を公開する。そのカードがレベル0以下のキャラなら、あなたはこのカードをストック置場に置いてよい。（公開したカードは元に戻す）\n【起】 集中 ［(1) このカードを【レスト】する］ あなたは自分の山札の上から4枚をめくり、控え室に置く。それらのカードのクライマックス1枚につき、あなたは自分の山札を見て緑か《契約黒猫》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"お空でまわってるあれ！観覧車？\"",
+   "traits": [
+    "特徴なし"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kr_se30/kr_se30_05.png",
+   "variant": ""
+  },
+  {
+   "num": "KR/SE30-06",
+   "name": "“千の風ストリーム”りんね",
+   "type": "Character",
+   "rarity": "R",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1) 手札のクライマックスを1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室のクライマックスを1枚選び、手札に戻す。\n【自】 他のあなたの、緑か《契約黒猫》のキャラがアタックした時、そのターン中、このカードのパワーを＋1500。\n\"武器は…これだ！\"",
+   "traits": [
+    "死神"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kr_se30/kr_se30_06.png",
+   "variant": ""
+  },
+  {
+   "num": "KR/SE30-07",
+   "name": "水着の桜",
+   "type": "Character",
+   "rarity": "R",
+   "color": "green",
+   "level": "2",
+   "cost": "1",
+   "power": "5500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 応援 このカードの前のあなたのレベル3以上のキャラすべてに、パワーを＋2000。\n【起】［あなたのキャラを2枚【レスト】する］ あなたは自分の山札を上から1枚見て、山札の上か下に置く。\n\"どうしたの？翼くん？\"",
+   "traits": [
+    "水着"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kr_se30/kr_se30_07.png",
+   "variant": ""
+  },
+  {
+   "num": "KR/SE30-08",
+   "name": "“お祓い屋の少年”翼",
+   "type": "Character",
+   "rarity": "R",
+   "color": "green",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 この能力は1ターンにつき1回まで発動する。あなたが【起】を使った時、そのターン中、このカードのパワーを＋Ｘ。Ｘは他のあなたの緑のキャラの枚数×500に等しい。\n【自】［(3) 手札の《本》のキャラを1枚控え室に置き、他のあなたの舞台のキャラを1枚控え室に置く］ この能力は1ターンにつき1回まで発動する。このカードが手札から舞台に置かれたターン中、このカードのバトル相手が【リバース】した時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「“お祓い屋の少年”翼」を1枚選び、舞台の好きな枠に置き、そのターン中、そのキャラのパワーを＋1000。\n\"家業だから…だから俺はいつだって悪霊から君を守れる…\"",
+   "traits": [
+    "本"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kr_se30/kr_se30_08.png",
+   "variant": ""
+  },
+  {
+   "num": "KR/SE30-09",
+   "name": "“死神の仕事”りんね",
+   "type": "Character",
+   "rarity": "U",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 応援 このカードの前のあなたの、緑か《契約黒猫》のキャラすべてに、パワーを＋500。\n【起】［(1) 手札のクライマックスを1枚控え室に置く］ あなたは自分のクロックを1枚選び、手札に戻し、自分の山札の上から1枚を、クロック置場に置き、自分のキャラを1枚選び、そのターン中、レベルを＋1。\n\"俺は人間…みたいな…\"",
+   "traits": [
+    "死神"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kr_se30/kr_se30_09.png",
+   "variant": ""
+  },
+  {
+   "num": "KR/SE30-10",
+   "name": "十文字 翼",
+   "type": "Character",
+   "rarity": "U",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 この能力は1ターンにつき1回まで発動する。あなたが【起】を使った時、そのターン中、このカードのパワーを＋Ｘ。Ｘはあなたの緑のキャラの枚数×500に等しい。\n【自】 このカードのバトル相手が【リバース】した時、あなたは相手のクロックの上から1枚を、控え室に置いてよい。そうしたら、あなたはそのキャラをクロック置場に置く。\n\"霊が妙な動きをすれば、即刻浄霊するぜ\"",
+   "traits": [
+    "本"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kr_se30/kr_se30_10.png",
+   "variant": ""
+  },
+  {
+   "num": "KR/SE30-11",
+   "name": "“開幕！放課後レクイエムコメディー”りんね",
+   "type": "Character",
+   "rarity": "U",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "6500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたのキャラすべてに、次の能力を与える。『【永】 このカードはサイドアタックできない。』\n【自】 このカードが手札から舞台に置かれた時、あなたのストックが1枚以下なら、このカードを控え室に置く。\n\"りんね「覚悟しておけ。俺の仕事はキツイぞ」\"",
+   "traits": [
+    "死神"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kr_se30/kr_se30_11.png",
+   "variant": ""
+  },
+  {
+   "num": "KR/SE30-12",
+   "name": "“強力な協力”桜",
+   "type": "Character",
+   "rarity": "U",
+   "color": "green",
+   "level": "1",
+   "cost": "1",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの、緑か《契約黒猫》のキャラすべてに、パワーを＋500。\n【起】［このカードを【レスト】する］ このカードの下にマーカーがないなら、あなたは自分の控え室の、緑か《契約黒猫》のキャラを1枚選び、このカードの下にマーカーとして裏向きに置く。\n【起】［このカードを【レスト】する］ あなたはこのカードの下のマーカーを1枚ストック置場に置く。\n\"魔狭人君、悪いけど、あなたの全財産おろしたよ\"",
+   "traits": [
+    "特徴なし"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kr_se30/kr_se30_12.png",
+   "variant": ""
+  },
+  {
+   "num": "KR/SE30-13",
+   "name": "“桜の友だち”リカ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 絆／「幼い頃の桜」 ［(1)］ （このカードがプレイされて舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「幼い頃の桜」を1枚選び、手札に戻す）\n【起】［このカードを【レスト】する］ あなたは自分の緑のキャラを1枚選び、そのターン中、パワーを＋500。\n\"桜「リカちゃん！」\"",
+   "traits": [
+    "特徴なし"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kr_se30/kr_se30_13.png",
+   "variant": ""
+  },
+  {
+   "num": "KR/SE30-14",
+   "name": "メイド服の桜",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1) 手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見て緑か《契約黒猫》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"え…\"",
+   "traits": [
+    "メイド"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kr_se30/kr_se30_14.png",
+   "variant": ""
+  },
+  {
+   "num": "KR/SE30-15",
+   "name": "“洗浄完了”翼",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から1枚を公開する。そのカードがレベル0以下のキャラなら、このカードを【レスト】する。（公開したカードは元に戻す）\n\"キラッ\"",
+   "traits": [
+    "本"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kr_se30/kr_se30_15.png",
+   "variant": ""
+  },
+  {
+   "num": "KR/SE30-16",
+   "name": "“桜の友だち”ミホ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの、「幼い頃の桜」と「“桜の友だち”リカ」がいるなら、このカードのパワーを＋2000。\n\"分かった…そういうことなら…\"",
+   "traits": [
+    "生徒会"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kr_se30/kr_se30_16.png",
+   "variant": ""
+  },
+  {
+   "num": "KR/SE30-17",
+   "name": "“バイブルコーナークラッシュ”翼",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "2",
+   "cost": "1",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 あなたがこのカードの『助太刀』を使った時、あなたは自分の山札の上から3枚を、控え室に置く。\n【起】【カウンター】 助太刀3000 レベル2 ［(1) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋3000）\n\"どうやら俺には花子を守る責任があるらしい！\"",
+   "traits": [
+    "本"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kr_se30/kr_se30_17.png",
+   "variant": ""
+  },
+  {
+   "num": "KR/SE30-18",
+   "name": "メイド服のりんね",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "2",
+   "cost": "1",
+   "power": "7500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 他のあなたの、緑か《契約黒猫》のキャラがアタックした時、そのターン中、このカードのパワーを＋1500。\n\"ん？\"",
+   "traits": [
+    "死神",
+    "メイド"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kr_se30/kr_se30_18.png",
+   "variant": ""
+  },
+  {
+   "num": "KR/SE30-19",
+   "name": "裁きの輪",
+   "type": "Event",
+   "rarity": "R",
+   "color": "green",
+   "level": "2",
+   "cost": "1",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "あなたは自分の山札を見て「“輪廻への導き”りんね」を1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。このカードを思い出にする。\n【永】 記憶 思い出置場にこのカードがあるなら、あなたの「“輪廻への導き”りんね」すべてに、次の2つの能力を与える。『【永】 このカードのバトル中、あなたは相手のキャラの【自】の効果によるダメージを受けない。』『【自】 あなたのクライマックスがクライマックス置場に置かれた時、そのターン中、このカードのパワーを＋1500。』\n\"美人秘書「あれは…伝説の死神道具『裁きの輪』の正義の盾機能！」\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kr_se30/kr_se30_19.png",
+   "variant": ""
+  },
+  {
+   "num": "KR/SE30-20a",
+   "name": "2人の奇想天外な放課後",
+   "type": "Climax",
+   "rarity": "C",
+   "color": "green",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[stock.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。（[[stock.gif]]：このカードがトリガーした時、あなたは自分の山札の上から1枚を、ストック置場に置いてよい）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kr_se30/kr_se30_20a.png",
+   "variant": ""
+  },
+  {
+   "num": "KR/SE30-20b",
+   "name": "2人の奇想天外な放課後",
+   "type": "Climax",
+   "rarity": "C",
+   "color": "green",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[stock.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。（[[stock.gif]]：このカードがトリガーした時、あなたは自分の山札の上から1枚を、ストック置場に置いてよい）\n\"SECRET\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kr_se30/kr_se30_20b.png",
+   "variant": ""
+  },
+  {
+   "num": "KR/SE30-21a",
+   "name": "ここから先は死神の仕事だ!!",
+   "type": "Climax",
+   "rarity": "C",
+   "color": "green",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[treasure.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。（[[treasure.gif]]：このカードがトリガーした時、あなたはこのカードを手札に戻す。あなたは自分の山札の上から1枚を、ストック置場に置いてよい）\n\"― これは霊体投網。姿を消している霊体を捕まえるという、便利なアイテムである。180円！ ―\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kr_se30/kr_se30_21a.png",
+   "variant": ""
+  },
+  {
+   "num": "KR/SE30-21b",
+   "name": "ここから先は死神の仕事だ!!",
+   "type": "Climax",
+   "rarity": "C",
+   "color": "green",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[treasure.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。（[[treasure.gif]]：このカードがトリガーした時、あなたはこのカードを手札に戻す。あなたは自分の山札の上から1枚を、ストック置場に置いてよい）\n\"SECRET\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kr_se30/kr_se30_21b.png",
+   "variant": ""
+  },
+  {
+   "num": "KR/SE30-22",
+   "name": "“お金持ちのお嬢様”鳳",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 あなたのクライマックスフェイズの始めに、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋500。\n【起】 集中 ［(1) あなたのキャラを2枚【レスト】する］ あなたは自分の山札の上から4枚をめくり、控え室に置く。それらのカードのクライマックス1枚につき、あなたは自分の控え室の、赤か《死神》のキャラを1枚まで選び、手札に戻す。\n\"これ以上、六道りんねに関わるな！\"",
+   "traits": [
+    "死神",
+    "令嬢"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kr_se30/kr_se30_22.png",
+   "variant": ""
+  },
+  {
+   "num": "KR/SE30-23",
+   "name": "“死神”鳳",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "9000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたの控え室のクライマックスが2枚以下なら、あなたの手札のこのカードのレベルを－1\n【永】 他のあなたの、赤か《死神》のキャラが3枚以上なら、このカードのパワーを＋1000し、このカードは次の能力を得る。『【自】 このカードがアタックした時、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋1000。』\n【自】 このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n\"ふっ、ここまでだな\"",
+   "traits": [
+    "死神",
+    "令嬢"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kr_se30/kr_se30_23.png",
+   "variant": ""
+  },
+  {
+   "num": "KR/SE30-24",
+   "name": "浴衣の鳳",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から1枚を公開する。そのカードが赤か《死神》のキャラなら手札に加え、あなたは自分の手札を1枚選び、控え室に置く。（そうでないなら元に戻す）\n【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から2枚を、控え室に置く。それらのカードにクライマックスがあるなら、そのターン中、このカードのパワーを＋3000。\n\"だから！カップルを装って潜入するしかないのよ！\"",
+   "traits": [
+    "死神",
+    "令嬢"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kr_se30/kr_se30_24.png",
+   "variant": ""
+  },
+  {
+   "num": "KR/SE30-25",
+   "name": "“悪魔の誘惑”魔狭人",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から2枚を、控え室に置く。それらのカードにクライマックスがあるなら、このカードを【レスト】する。\n\"君の望みどおりにね\"",
+   "traits": [
+    "悪魔"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kr_se30/kr_se30_25.png",
+   "variant": ""
+  },
+  {
+   "num": "KR/SE30-26",
+   "name": "サンタ服の鳳",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの、赤か《死神》のキャラ1枚につき、このカードのパワーを＋500。\n\"ダマされたんだ！くそ、あんなもの。ぶっ壊してやる！\"",
+   "traits": [
+    "死神",
+    "令嬢"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kr_se30/kr_se30_26.png",
+   "variant": ""
+  },
+  {
+   "num": "KR/SE30-27",
+   "name": "“りんねの祖母”魂子",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】［(2) あなたの舞台のキャラを1枚控え室に置く］ あなたがこのカードの『助太刀』を使った時、あなたはコストを払ってよい。そうしたら、あなたは相手の、レベルが相手のレベルより高いキャラを1枚選び、控え室に置く。\n【起】【カウンター】 助太刀2500 レベル2 ［(1) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋2500）\n\"その呼び方は…や・め・ろって言ってるでしょ～\"",
+   "traits": [
+    "死神"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kr_se30/kr_se30_27.png",
+   "variant": ""
+  },
+  {
+   "num": "KR/SE30-28",
+   "name": "“記死神”架印",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札を上からＸ枚まで見て、カードを1枚まで選び、手札に加える。残りのカードを控え室に置く。Ｘはあなたの、赤か《死神》のキャラの枚数に等しい。\n【自】［(1)］ このカードがアタックした時、クライマックス置場に「強制執行」があるなら、あなたはコストを払ってよい。そうしたら、相手にＸダメージを与える。Ｘはこのカードの正面のキャラのコストに等しい。（ダメージキャンセルは発生する）\n\"-\"",
+   "traits": [
+    "死神"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kr_se30/kr_se30_28.png",
+   "variant": ""
+  },
+  {
+   "num": "KR/SE30-29",
+   "name": "“契約黒猫”六文",
+   "type": "Character",
+   "rarity": "U",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(2)］ このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室のキャラを1枚選び、手札に戻す。\n\"そうゆうわけなんで、雇用契約をお願いします\"",
+   "traits": [
+    "契約黒猫"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kr_se30/kr_se30_29.png",
+   "variant": ""
+  },
+  {
+   "num": "KR/SE30-30",
+   "name": "“債権者”架印",
+   "type": "Character",
+   "rarity": "U",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 他のあなたの、赤か《死神》のキャラがアタックした時、そのターン中、このカードのパワーを＋1000。\n\"現世でちまちま稼いだところで、返しきれないといってるんだ\"",
+   "traits": [
+    "死神"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kr_se30/kr_se30_30.png",
+   "variant": ""
+  },
+  {
+   "num": "KR/SE30-31",
+   "name": "“心のトキメキ”鳳",
+   "type": "Character",
+   "rarity": "U",
+   "color": "red",
+   "level": "1",
+   "cost": "1",
+   "power": "6500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードのバトル相手が【リバース】した時、あなたのクライマックス置場に「T.B.K.」があるなら、あなたは自分の控え室のキャラを1枚選び、手札に戻してよい。\n\"寝ても覚めてもアイツの事を考えてしまう…\"",
+   "traits": [
+    "死神",
+    "令嬢"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kr_se30/kr_se30_31.png",
+   "variant": ""
+  },
+  {
+   "num": "KR/SE30-32",
+   "name": "“恋する死神”鳳",
+   "type": "Character",
+   "rarity": "U",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの「“輪廻への導き”りんね」すべてに、パワーを＋1000。\n【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋Ｘ。Ｘはそのキャラのレベル×500に等しい。\n\"あとは任せて一緒に講習会行こー\"",
+   "traits": [
+    "死神",
+    "令嬢"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kr_se30/kr_se30_32.png",
+   "variant": ""
+  },
+  {
+   "num": "KR/SE30-33",
+   "name": "“死神”魂子",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの、赤か《死神》のキャラすべてに、パワーを＋500\n\"桜「あれ？…この人…？」\"",
+   "traits": [
+    "死神"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kr_se30/kr_se30_33.png",
+   "variant": ""
+  },
+  {
+   "num": "KR/SE30-34",
+   "name": "架印の母",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの《死神》のキャラすべてに、パワーを＋500。\n【自】 他のあなたのカード名に「鯖人」を含むキャラが手札から舞台に置かれた時、あなたはこのカードをストック置場に置いてよい。\n\"なんて誠実な人なのっ\"",
+   "traits": [
+    "特徴なし"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kr_se30/kr_se30_34.png",
+   "variant": ""
+  },
+  {
+   "num": "KR/SE30-35",
+   "name": "“変形鏡面ガマ”架印",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1) あなたの山札の上から1枚をクロック置場に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは1枚引く。\n\"貴様ら…、ここでなにをしているっ！\"",
+   "traits": [
+    "死神"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kr_se30/kr_se30_35.png",
+   "variant": ""
+  },
+  {
+   "num": "KR/SE30-36a",
+   "name": "成仏できない者たち",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 あなたのクライマックスフェイズの始めに、あなたは自分の【スタンド】しているキャラを1枚選び、【レスト】する。\n\"ねーねー聞こえてるんでしょ？お話しようよ―\"",
+   "traits": [
+    "霊"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kr_se30/kr_se30_36a.png",
+   "variant": ""
+  },
+  {
+   "num": "KR/SE30-36b",
+   "name": "成仏できない者たち",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 あなたのクライマックスフェイズの始めに、あなたは自分の【スタンド】しているキャラを1枚選び、【レスト】する。\n\"SECRET\"",
+   "traits": [
+    "霊"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kr_se30/kr_se30_36b.png",
+   "variant": ""
+  },
+  {
+   "num": "KR/SE30-36c",
+   "name": "成仏できない者たち",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 あなたのクライマックスフェイズの始めに、あなたは自分の【スタンド】しているキャラを1枚選び、【レスト】する。\n\"SECRET\"",
+   "traits": [
+    "霊"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kr_se30/kr_se30_36c.png",
+   "variant": ""
+  },
+  {
+   "num": "KR/SE30-36d",
+   "name": "成仏できない者たち",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 あなたのクライマックスフェイズの始めに、あなたは自分の【スタンド】しているキャラを1枚選び、【レスト】する。\n\"SECRET\"",
+   "traits": [
+    "霊"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kr_se30/kr_se30_36d.png",
+   "variant": ""
+  },
+  {
+   "num": "KR/SE30-37",
+   "name": "“クラブ棟の怪”六文",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【起】【カウンター】 助太刀1500 レベル1 ［手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋1500）\n\"ふな～ご\"",
+   "traits": [
+    "契約黒猫"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kr_se30/kr_se30_37.png",
+   "variant": ""
+  },
+  {
+   "num": "KR/SE30-38",
+   "name": "“恐ろしく心が狭い悪魔”魔狭人",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "7500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】［手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは相手の後列のコスト0以下のキャラを1枚選び、控え室に置く。\n\"祟るよな？じゃ、約束な\"",
+   "traits": [
+    "悪魔"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kr_se30/kr_se30_38.png",
+   "variant": ""
+  },
+  {
+   "num": "KR/SE30-39",
+   "name": "輪廻の輪",
+   "type": "Event",
+   "rarity": "U",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "すべてのプレイヤーは自分の控え室のカードすべてを、山札に戻し、それらの山札をシャッフルする。\n\"桜「と、飛んでる！？」\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kr_se30/kr_se30_39.png",
+   "variant": ""
+  },
+  {
+   "num": "KR/SE30-40",
+   "name": "T.B.K.",
+   "type": "Climax",
+   "rarity": "C",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[salvage.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。（[[salvage.gif]]：このカードがトリガーした時、あなたは自分の控え室のキャラを1枚選び、手札に戻してよい）\n\"ありがとう。助けに戻ってくれて\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kr_se30/kr_se30_40.png",
+   "variant": ""
+  },
+  {
+   "num": "KR/SE30-41",
+   "name": "強制執行",
+   "type": "Climax",
+   "rarity": "C",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【自】 このカードが手札からクライマックス置場に置かれた時、あなたは自分の控え室の赤のカードを1枚まで選び、ストック置場に置き、自分のキャラすべてに、そのターン中、ソウルを＋1。\n\"輪廻の輪の吸引力に逆らえないようだな\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kr_se30/kr_se30_41.png",
+   "variant": ""
+  },
+  {
+   "num": "KR/SE30-42",
+   "name": "“堕魔死神カンパニー”鯖人",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "blue",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n【自】 あなたのクライマックス置場に「連帯保証人」が置かれた時、他のあなたの青のキャラが2枚以上で、前列にこのカードがいるなら、あなたは自分の山札を見て青のキャラを2枚まで選んで相手に見せ、手札に加え、自分の手札を2枚選び、控え室に置き、その山札をシャッフルし、相手の控え室のカードを2枚まで選び、山札に戻し、相手はその山札をシャッフルする。\n\"その死神というのはどんな？\"",
+   "traits": [
+    "死神"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kr_se30/kr_se30_42.png",
+   "variant": ""
+  },
+  {
+   "num": "KR/SE30-43",
+   "name": "美人秘書",
+   "type": "Character",
+   "rarity": "R",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 すべてのプレイヤーのアタックフェイズの始めに、あなたは他の自分の前列の中央の枠のキャラを1枚選び、自分のそのキャラと同じカード名のキャラすべてに、そのターン中、パワーを＋500。\n【起】 集中 ［(1) あなたのキャラを2枚【レスト】する］ あなたは自分の山札の上から4枚をめくり、控え室に置く。それらのカードに「“ぬいぐるみ部隊”だまし神」があるなら、あなたは自分の山札を見て青のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"ええ\"",
+   "traits": [
+    "死神",
+    "秘書"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kr_se30/kr_se30_43.png",
+   "variant": ""
+  },
+  {
+   "num": "KR/SE30-44",
+   "name": "“悪質死神”だまし神",
+   "type": "Character",
+   "rarity": "U",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1) このカードを控え室に置く］ あなたのクライマックス置場に「ノルマ水増し」が置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見て「“女性構成員”だまし神」を2枚まで選び、舞台の別々の枠に置く。その後、その山札をシャッフルし、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋3000。\n\"-\"",
+   "traits": [
+    "死神"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kr_se30/kr_se30_44.png",
+   "variant": ""
+  },
+  {
+   "num": "KR/SE30-45",
+   "name": "“複雑な事情”美人秘書",
+   "type": "Character",
+   "rarity": "U",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋Ｘ。Ｘはそのキャラのレベル×500に等しい。\n【起】［このカードを【レスト】する］ あなたは自分の青のキャラを1枚選び、そのターン中、パワーを＋1000し、あなたのクロック置場に「“ぬいぐるみ部隊”だまし神」があるなら、自分の青のキャラを1枚選び、そのターン中、パワーを＋1000。\n\"鯖人「実は最近、この生き別れた妹と再会してお金が必要になったんだ」\"",
+   "traits": [
+    "死神",
+    "秘書"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kr_se30/kr_se30_45.png",
+   "variant": ""
+  },
+  {
+   "num": "KR/SE30-46",
+   "name": "六道　鯖人",
+   "type": "Character",
+   "rarity": "U",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "9000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたはイベントと『助太刀』を手札からプレイできない。\n【永】 他のあなたの前列の「六道　鯖人」1枚につき、このカードのパワーを＋2000。\n\"いつまで逃げ切れるかな\"",
+   "traits": [
+    "死神"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kr_se30/kr_se30_46.png",
+   "variant": ""
+  },
+  {
+   "num": "KR/SE30-47a",
+   "name": "“ぬいぐるみ部隊”だまし神",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 このカードと同じカード名のカードは、デッキに好きな枚数入れることができる。\n【永】 他のあなたの前列の「“ぬいぐるみ部隊”だまし神」1枚につき、このカードのパワーを＋2000。\n\"― ちょっと目を離しているスキに…だまし神が誰かを連れ去ってしまうかもしれないのです ―\"",
+   "traits": [
+    "死神"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kr_se30/kr_se30_47a.png",
+   "variant": ""
+  },
+  {
+   "num": "KR/SE30-47b",
+   "name": "“ぬいぐるみ部隊”だまし神",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 このカードと同じカード名のカードは、デッキに好きな枚数入れることができる。\n【永】 他のあなたの前列の「“ぬいぐるみ部隊”だまし神」1枚につき、このカードのパワーを＋2000。\n\"SECRET\"",
+   "traits": [
+    "死神"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kr_se30/kr_se30_47b.png",
+   "variant": ""
+  },
+  {
+   "num": "KR/SE30-47c",
+   "name": "“ぬいぐるみ部隊”だまし神",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 このカードと同じカード名のカードは、デッキに好きな枚数入れることができる。\n【永】 他のあなたの前列の「“ぬいぐるみ部隊”だまし神」1枚につき、このカードのパワーを＋2000。\n\"SECRET\"",
+   "traits": [
+    "死神"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kr_se30/kr_se30_47c.png",
+   "variant": ""
+  },
+  {
+   "num": "KR/SE30-47d",
+   "name": "“ぬいぐるみ部隊”だまし神",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 このカードと同じカード名のカードは、デッキに好きな枚数入れることができる。\n【永】 他のあなたの前列の「“ぬいぐるみ部隊”だまし神」1枚につき、このカードのパワーを＋2000。\n\"SECRET\"",
+   "traits": [
+    "死神"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kr_se30/kr_se30_47d.png",
+   "variant": ""
+  },
+  {
+   "num": "KR/SE30-48a",
+   "name": "“女性構成員”だまし神",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 このカードと同じカード名のカードは、デッキに好きな枚数入れることができる。\n【自】 このカードが【リバース】した時、このカードのバトル相手のコストが0以下なら、あなたはそのキャラを山札の下に置いてよい。\n\"みなさ～ん、こっちよ～ん\"",
+   "traits": [
+    "死神"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kr_se30/kr_se30_48a.png",
+   "variant": ""
+  },
+  {
+   "num": "KR/SE30-48b",
+   "name": "“女性構成員”だまし神",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 このカードと同じカード名のカードは、デッキに好きな枚数入れることができる。\n【自】 このカードが【リバース】した時、このカードのバトル相手のコストが0以下なら、あなたはそのキャラを山札の下に置いてよい。\n\"SECRET\"",
+   "traits": [
+    "死神"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kr_se30/kr_se30_48b.png",
+   "variant": ""
+  },
+  {
+   "num": "KR/SE30-48c",
+   "name": "“女性構成員”だまし神",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 このカードと同じカード名のカードは、デッキに好きな枚数入れることができる。\n【自】 このカードが【リバース】した時、このカードのバトル相手のコストが0以下なら、あなたはそのキャラを山札の下に置いてよい。\n\"SECRET\"",
+   "traits": [
+    "死神"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kr_se30/kr_se30_48c.png",
+   "variant": ""
+  },
+  {
+   "num": "KR/SE30-48d",
+   "name": "“女性構成員”だまし神",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 このカードと同じカード名のカードは、デッキに好きな枚数入れることができる。\n【自】 このカードが【リバース】した時、このカードのバトル相手のコストが0以下なら、あなたはそのキャラを山札の下に置いてよい。\n\"SECRET\"",
+   "traits": [
+    "死神"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kr_se30/kr_se30_48d.png",
+   "variant": ""
+  },
+  {
+   "num": "KR/SE30-49",
+   "name": "連帯保証人",
+   "type": "Climax",
+   "rarity": "C",
+   "color": "blue",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[gate.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。（[[gate.gif]]：このカードがトリガーした時、あなたは自分の控え室のクライマックスを1枚選び、手札に戻してよい）\n\"鯖人「これで終わりだ」\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kr_se30/kr_se30_49.png",
+   "variant": ""
+  },
+  {
+   "num": "KR/SE30-50",
+   "name": "ノルマ水増し",
+   "type": "Climax",
+   "rarity": "C",
+   "color": "blue",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[draw.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。（[[draw.gif]]：このカードがトリガーした時、あなたは1枚引いてよい）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kr_se30/kr_se30_50.png",
+   "variant": ""
+  },
+  {
+   "num": "KR/SE30-51",
+   "name": "六道 りんね",
+   "type": "Character",
+   "rarity": "PR",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【起】【カウンター】 助太刀1500 レベル1 ［手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋1500）\n\"桜「死神！？」</ br>りんね「みたいな」\"",
+   "traits": [
+    "死神"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kr_se30/kr_se30_51.png",
+   "variant": ""
+  },
+  {
+   "num": "KR/SE30-52",
+   "name": "“遊園地デート”桜",
+   "type": "Character",
+   "rarity": "PR",
+   "color": "green",
+   "level": "1",
+   "cost": "1",
+   "power": "7000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 このカードはサイドアタックできない。\n【自】 アンコール ［あなたの山札の上から1枚をクロック置場に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"そうだね翼くん。せっかく来たんだもん、楽しも―よ、いろいろ忘れて\"",
+   "traits": [
+    "特徴なし"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kr_se30/kr_se30_52.png",
+   "variant": ""
+  },
+  {
+   "num": "KR/SE30-53",
+   "name": "“浄霊＜デート”翼",
+   "type": "Character",
+   "rarity": "PR",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 このカードはサイドアタックできない。\n\"せっかく真宮さんとデートできるんだ。パートナーには楽しんでもらわなくっちゃ\"",
+   "traits": [
+    "本"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kr_se30/kr_se30_53.png",
+   "variant": ""
+  },
+  {
+   "num": "KR/SE30-54",
+   "name": "“サポート役”六文",
+   "type": "Character",
+   "rarity": "PR",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［手札のクライマックスを1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の、赤か《死神》のキャラを1枚選び、手札に戻す。\n\"りんね様っ！\"",
+   "traits": [
+    "契約黒猫"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kr_se30/kr_se30_54.png",
+   "variant": ""
+  },
+  {
+   "num": "KR/SE30-55",
+   "name": "“だまされやすい性格”鳳",
+   "type": "Character",
+   "rarity": "PR",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【起】［あなたの、赤か《死神》のキャラを2枚【レスト】する］ あなたは自分のキャラを1枚選び、そのターン中、パワーを＋2000。\n\"ええっ！？味方！？\"",
+   "traits": [
+    "死神",
+    "令嬢"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kr_se30/kr_se30_55.png",
+   "variant": ""
+  },
+  {
+   "num": "KR/SE30-56",
+   "name": "怒りの架印",
+   "type": "Character",
+   "rarity": "PR",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "8000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、他のあなたの、赤か《死神》のキャラが4枚以上なら、あなたは自分の山札の上から1枚を、ストック置場に置いてよい。\n\"おのれ六道りんね！地獄の底まで追いつめて、向こう千年魂を差し押さえてくれる！\"",
+   "traits": [
+    "死神"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kr_se30/kr_se30_56.png",
+   "variant": ""
+  },
+  {
+   "num": "KR/SE30-57",
+   "name": "トイレの花子さん",
+   "type": "Character",
+   "rarity": "PR",
+   "color": "red",
+   "level": "2",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 バトル中のこのカードが【リバース】した時、あなたは自分の山札の上から1枚を、クロック置場に置き、このカードを【レスト】する。\n\"かつて私は…小学校のスターだった！\"",
+   "traits": [
+    "霊"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kr_se30/kr_se30_57.png",
+   "variant": ""
+  },
+  {
+   "num": "KR/SE30-58",
+   "name": "“霊体クラッカー”だまし神",
+   "type": "Character",
+   "rarity": "PR",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【起】【カウンター】 助太刀3000 レベル2 ［(1) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋3000）\n\"― これは霊体クラッカー。大きな音を立て、敵を撃退する死神道具だ。ちなみに、普通のクラッカーでも同じ効果が期待できるぞ ―\"",
+   "traits": [
+    "死神"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kr_se30/kr_se30_58.png",
+   "variant": ""
+  }
+ ]
+}

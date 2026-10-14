@@ -1,0 +1,4715 @@
+{
+ "id": "jp-thp",
+ "name": "東方Project ～ Black and White Lotus Land.",
+ "expansion": 552,
+ "lang": "jp",
+ "release": null,
+ "shopItem": null,
+ "box": null,
+ "cards": [
+  {
+   "num": "THP/S130-001",
+   "name": "メイガスナイト 魔理沙",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から1枚を公開する。そのカードが《幻想郷》のキャラなら、そのターン中、このカードのパワーを＋2000。（公開したカードは元に戻す）\n【自】［(1) あなたの山札の上から1枚をクロック置場に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見てレベル1以下のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。この能力のコストでクロック置場に置かれたカードがCXなら、あなたは自分の山札の上から1枚を、ストック置場に置いてよい。\n\"-\"",
+   "traits": [
+    "幻想郷",
+    "魔法の森"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_001.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-001LNR",
+   "name": "メイガスナイト 魔理沙",
+   "type": "Character",
+   "rarity": "LNR",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から1枚を公開する。そのカードが《幻想郷》のキャラなら、そのターン中、このカードのパワーを＋2000。（公開したカードは元に戻す）\n【自】［(1) あなたの山札の上から1枚をクロック置場に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見てレベル1以下のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。この能力のコストでクロック置場に置かれたカードがCXなら、あなたは自分の山札の上から1枚を、ストック置場に置いてよい。\n\"-\"",
+   "traits": [
+    "幻想郷",
+    "魔法の森"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_001lnr.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-001S",
+   "name": "メイガスナイト 魔理沙",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から1枚を公開する。そのカードが《幻想郷》のキャラなら、そのターン中、このカードのパワーを＋2000。（公開したカードは元に戻す）\n【自】［(1) あなたの山札の上から1枚をクロック置場に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見てレベル1以下のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。この能力のコストでクロック置場に置かれたカードがCXなら、あなたは自分の山札の上から1枚を、ストック置場に置いてよい。\n\"-\"",
+   "traits": [
+    "幻想郷",
+    "魔法の森"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_001s.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-002",
+   "name": "蓬莱の人の形 妹紅",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "yellow",
+   "level": "3",
+   "cost": "2",
+   "power": "8500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたの《幻想郷》のキャラが4枚以上なら、あなたの手札のこのカードのレベルを－1。\n【自】 このカードが手札から舞台に置かれた時、他のあなたの《幻想郷》のキャラがいるなら、あなたは自分のクロックの上から1枚までを、控え室に置き、そのターン中、このカードのパワーを＋2000。\n【自】 このカードが【リバース】した時、他のあなたの《幻想郷》のキャラが2枚以上なら、あなたは自分の山札の上から1枚を公開する。そのカードが《幻想郷》のキャラなら、あなたはこのカードを手札に戻してよい。（公開したカードは元に戻す）\n\"お望みどおり。貴方達の肝、試させて貰うわよ<br>（「東方永夜抄　～ Imperishable Night.」より）\"",
+   "traits": [
+    "幻想郷",
+    "迷いの竹林"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_002.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-002S",
+   "name": "蓬莱の人の形 妹紅",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "yellow",
+   "level": "3",
+   "cost": "2",
+   "power": "8500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたの《幻想郷》のキャラが4枚以上なら、あなたの手札のこのカードのレベルを－1。\n【自】 このカードが手札から舞台に置かれた時、他のあなたの《幻想郷》のキャラがいるなら、あなたは自分のクロックの上から1枚までを、控え室に置き、そのターン中、このカードのパワーを＋2000。\n【自】 このカードが【リバース】した時、他のあなたの《幻想郷》のキャラが2枚以上なら、あなたは自分の山札の上から1枚を公開する。そのカードが《幻想郷》のキャラなら、あなたはこのカードを手札に戻してよい。（公開したカードは元に戻す）\n\"-\"",
+   "traits": [
+    "幻想郷",
+    "迷いの竹林"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_002s.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-002SSP",
+   "name": "蓬莱の人の形 妹紅",
+   "type": "Character",
+   "rarity": "SSP",
+   "color": "yellow",
+   "level": "3",
+   "cost": "2",
+   "power": "8500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたの《幻想郷》のキャラが4枚以上なら、あなたの手札のこのカードのレベルを－1。\n【自】 このカードが手札から舞台に置かれた時、他のあなたの《幻想郷》のキャラがいるなら、あなたは自分のクロックの上から1枚までを、控え室に置き、そのターン中、このカードのパワーを＋2000。\n【自】 このカードが【リバース】した時、他のあなたの《幻想郷》のキャラが2枚以上なら、あなたは自分の山札の上から1枚を公開する。そのカードが《幻想郷》のキャラなら、あなたはこのカードを手札に戻してよい。（公開したカードは元に戻す）\n\"-\"",
+   "traits": [
+    "幻想郷",
+    "迷いの竹林"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_002ssp.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-003",
+   "name": "普通の魔法使い 魔理沙",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "yellow",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、次の行動を2回行う。『［手札の《幻想郷》のキャラを1枚控え室に置く］ あなたはコストを払ってよい。そうしたら、あなたは1枚引く。』\n【自】【CXコンボ】［(2) 手札を2枚控え室に置き、他のあなたの舞台の《幻想郷》のキャラを1枚控え室に置く］ このカードがアタックした時、CX置場に「「ブレイジングスター」」があり、他のあなたの《幻想郷》のキャラが2枚以上なら、あなたはコストを払ってよい。そうしたら、あなたは好きな数を宣言し、相手にＸダメージを2回与える。Ｘはあなたの宣言した数に等しい。（マイナスの数は宣言できない。ダメージキャンセルは発生する）\n\"動くと撃つ！<br>間違えた。撃つと動くだ。今すぐ動く<br>（「東方永夜抄　～ Imperishable Night.」より）\"",
+   "traits": [
+    "幻想郷",
+    "魔法の森"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_003.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-003EX",
+   "name": "普通の魔法使い 魔理沙",
+   "type": "Character",
+   "rarity": "SEC",
+   "color": "yellow",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、次の行動を2回行う。『［手札の《幻想郷》のキャラを1枚控え室に置く］ あなたはコストを払ってよい。そうしたら、あなたは1枚引く。』\n【自】【CXコンボ】［(2) 手札を2枚控え室に置き、他のあなたの舞台の《幻想郷》のキャラを1枚控え室に置く］ このカードがアタックした時、CX置場に「「ブレイジングスター」」があり、他のあなたの《幻想郷》のキャラが2枚以上なら、あなたはコストを払ってよい。そうしたら、あなたは好きな数を宣言し、相手にＸダメージを2回与える。Ｘはあなたの宣言した数に等しい。（マイナスの数は宣言できない。ダメージキャンセルは発生する）\n\"-\"",
+   "traits": [
+    "幻想郷",
+    "魔法の森"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_003ex.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-003S",
+   "name": "普通の魔法使い 魔理沙",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "yellow",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、次の行動を2回行う。『［手札の《幻想郷》のキャラを1枚控え室に置く］ あなたはコストを払ってよい。そうしたら、あなたは1枚引く。』\n【自】【CXコンボ】［(2) 手札を2枚控え室に置き、他のあなたの舞台の《幻想郷》のキャラを1枚控え室に置く］ このカードがアタックした時、CX置場に「「ブレイジングスター」」があり、他のあなたの《幻想郷》のキャラが2枚以上なら、あなたはコストを払ってよい。そうしたら、あなたは好きな数を宣言し、相手にＸダメージを2回与える。Ｘはあなたの宣言した数に等しい。（マイナスの数は宣言できない。ダメージキャンセルは発生する）\n\"-\"",
+   "traits": [
+    "幻想郷",
+    "魔法の森"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_003s.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-004",
+   "name": "リモートサクリファイス アリス",
+   "type": "Character",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［このカードを手札に戻す］ あなたのトリガーアイコンが[[choice.gif]]のCXがCX置場に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を上から2枚まで見て、カードを2枚まで選び、山札の上に好きな順番で置き、残りのカードを控え室に置き、自分のキャラを1枚選び、そのターン中、パワーを＋1000。\n【起】 集中 ［(1) このカードを【レスト】する］ あなたは自分の山札の上から4枚をめくり、控え室に置く。それらのカードのCX1枚につき、次の行動を行う。『あなたは自分の山札を上から3枚まで見て、カードを1枚まで選び、手札に加え、残りのカードを控え室に置く。』\n\"自分の身は自分で守る 魔法使いなら当然の事<br>（「東方地霊殿　～ Subterranean Animism.」より）\"",
+   "traits": [
+    "幻想郷",
+    "魔法の森"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_004.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-004S",
+   "name": "リモートサクリファイス アリス",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［このカードを手札に戻す］ あなたのトリガーアイコンが[[choice.gif]]のCXがCX置場に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を上から2枚まで見て、カードを2枚まで選び、山札の上に好きな順番で置き、残りのカードを控え室に置き、自分のキャラを1枚選び、そのターン中、パワーを＋1000。\n【起】 集中 ［(1) このカードを【レスト】する］ あなたは自分の山札の上から4枚をめくり、控え室に置く。それらのカードのCX1枚につき、次の行動を行う。『あなたは自分の山札を上から3枚まで見て、カードを1枚まで選び、手札に加え、残りのカードを控え室に置く。』\n\"-\"",
+   "traits": [
+    "幻想郷",
+    "魔法の森"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_004s.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-004SP",
+   "name": "リモートサクリファイス アリス",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［このカードを手札に戻す］ あなたのトリガーアイコンが[[choice.gif]]のCXがCX置場に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を上から2枚まで見て、カードを2枚まで選び、山札の上に好きな順番で置き、残りのカードを控え室に置き、自分のキャラを1枚選び、そのターン中、パワーを＋1000。\n【起】 集中 ［(1) このカードを【レスト】する］ あなたは自分の山札の上から4枚をめくり、控え室に置く。それらのカードのCX1枚につき、次の行動を行う。『あなたは自分の山札を上から3枚まで見て、カードを1枚まで選び、手札に加え、残りのカードを控え室に置く。』\n\"-\"",
+   "traits": [
+    "幻想郷",
+    "魔法の森"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_004sp.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-005",
+   "name": "知識と歴史の半獣 慧音",
+   "type": "Character",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは相手の後列の、レベルが相手のレベルより高いキャラを1枚選ぶ。そのキャラは次の相手のスタンドフェイズに【スタンド】しない。\n【起】［手札を1枚控え室に置き、このカードを控え室に置く］ あなたは自分の控え室の《幻想郷》のキャラを1枚選び、手札に戻す。\n\"お前達妖怪には、人間を渡しはしない。今夜を無かった事にしてやる！<br>（「東方永夜抄　～ Imperishable Night.」より）\"",
+   "traits": [
+    "幻想郷",
+    "人間の里"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_005.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-005S",
+   "name": "知識と歴史の半獣 慧音",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは相手の後列の、レベルが相手のレベルより高いキャラを1枚選ぶ。そのキャラは次の相手のスタンドフェイズに【スタンド】しない。\n【起】［手札を1枚控え室に置き、このカードを控え室に置く］ あなたは自分の控え室の《幻想郷》のキャラを1枚選び、手札に戻す。\n\"-\"",
+   "traits": [
+    "幻想郷",
+    "人間の里"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_005s.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-006",
+   "name": "聖徳道士 神子",
+   "type": "Character",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［手札を1枚クロック置場に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を上からＸ枚まで見て、カードを1枚まで選び、手札に加え、残りのカードを控え室に置く。Ｘは他のあなたの《幻想郷》のキャラの枚数に等しい。\n【自】［(1) 手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは相手のキャラを1枚選び、手札に戻す。\n\"さあ私を倒して見せよ そして私は生ける伝説となる！<br>（「東方神霊廟　～ Ten Desires.」より）\"",
+   "traits": [
+    "幻想郷",
+    "聖人"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_006.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-006S",
+   "name": "聖徳道士 神子",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［手札を1枚クロック置場に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を上からＸ枚まで見て、カードを1枚まで選び、手札に加え、残りのカードを控え室に置く。Ｘは他のあなたの《幻想郷》のキャラの枚数に等しい。\n【自】［(1) 手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは相手のキャラを1枚選び、手札に戻す。\n\"-\"",
+   "traits": [
+    "幻想郷",
+    "聖人"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_006s.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-007",
+   "name": "霧雨の魔法使い 魔理沙",
+   "type": "Character",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのターン中、あなたのキャラすべてが《幻想郷》なら、このカードのパワーを＋2000。\n【自】【CXコンボ】 あなたのアンコールステップの始めに、CX置場に「魔符「スターダストレヴァリエ」」があり、前列にこのカードがいて、あなたの手札が6枚以下で、他のあなたの《幻想郷》のキャラがいるなら、あなたは自分の山札の上から2枚を、控え室に置き、自分の控え室のレベルＸ以下の《幻想郷》のキャラを1枚まで選び、手札に戻す。Ｘはこの効果で控え室に置かれたカードのレベルの合計に等しい。（CXのレベルは0として扱う）\n\"何を言っているのかよく判らなかったよ でも地震は困る 家が耐震構造になっていないからな<br>（「東方緋想天　～ Scarlet Weather Rhapsody.」より）\"",
+   "traits": [
+    "幻想郷",
+    "魔法の森"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_007.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-007S",
+   "name": "霧雨の魔法使い 魔理沙",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのターン中、あなたのキャラすべてが《幻想郷》なら、このカードのパワーを＋2000。\n【自】【CXコンボ】 あなたのアンコールステップの始めに、CX置場に「魔符「スターダストレヴァリエ」」があり、前列にこのカードがいて、あなたの手札が6枚以下で、他のあなたの《幻想郷》のキャラがいるなら、あなたは自分の山札の上から2枚を、控え室に置き、自分の控え室のレベルＸ以下の《幻想郷》のキャラを1枚まで選び、手札に戻す。Ｘはこの効果で控え室に置かれたカードのレベルの合計に等しい。（CXのレベルは0として扱う）\n\"-\"",
+   "traits": [
+    "幻想郷",
+    "魔法の森"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_007s.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-007SP",
+   "name": "霧雨の魔法使い 魔理沙",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのターン中、あなたのキャラすべてが《幻想郷》なら、このカードのパワーを＋2000。\n【自】【CXコンボ】 あなたのアンコールステップの始めに、CX置場に「魔符「スターダストレヴァリエ」」があり、前列にこのカードがいて、あなたの手札が6枚以下で、他のあなたの《幻想郷》のキャラがいるなら、あなたは自分の山札の上から2枚を、控え室に置き、自分の控え室のレベルＸ以下の《幻想郷》のキャラを1枚まで選び、手札に戻す。Ｘはこの効果で控え室に置かれたカードのレベルの合計に等しい。（CXのレベルは0として扱う）\n\"-\"",
+   "traits": [
+    "幻想郷",
+    "魔法の森"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_007sp.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-008",
+   "name": "純狐",
+   "type": "Character",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、そのターン中、このカードのパワーを＋1500。\n【自】 あなたのトリガーアイコンが[[choice.gif]]のCXがCX置場に置かれた時、あなたは自分の山札を上から1枚見て、山札の上か控え室に置き、そのターン中、このカードは次の能力を得る。『【自】 このカードがアタックした時、あなたは自分の山札の上から1枚を公開する。そのカードのレベルが1以上ならストック置場に置く。』（CXのレベルは0として扱う。そうでないなら元に戻す）\n\"見せよ！命を賭した地上人の可能性を！そして見よ！生死を拒絶した純粋なる霊力を！<br>（「東方紺珠伝　～ Legacy of Lunatic Kingdom.」より）\"",
+   "traits": [
+    "幻想郷",
+    "神霊"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_008.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-008S",
+   "name": "純狐",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、そのターン中、このカードのパワーを＋1500。\n【自】 あなたのトリガーアイコンが[[choice.gif]]のCXがCX置場に置かれた時、あなたは自分の山札を上から1枚見て、山札の上か控え室に置き、そのターン中、このカードは次の能力を得る。『【自】 このカードがアタックした時、あなたは自分の山札の上から1枚を公開する。そのカードのレベルが1以上ならストック置場に置く。』（CXのレベルは0として扱う。そうでないなら元に戻す）\n\"-\"",
+   "traits": [
+    "幻想郷",
+    "神霊"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_008s.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-009",
+   "name": "月まで届け、不死の煙 妹紅",
+   "type": "Character",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの《幻想郷》のキャラすべてに、パワーを＋1000。\n【自】 このカードが手札から舞台に置かれた時、他のあなたの《幻想郷》のキャラが4枚以上なら、あなたは自分の控え室の《幻想郷》のキャラを1枚選び、ストック置場に置いてよい。\n【起】［このカードを【レスト】する］ あなたは自分の山札を上から2枚まで見て、山札の上に好きな順番で置く。\n\"今宵の弾は、お嬢ちゃんのトラウマになるよ<br>（「東方永夜抄　～ Imperishable Night.」より）\"",
+   "traits": [
+    "幻想郷",
+    "迷いの竹林"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_009.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-009LNR",
+   "name": "月まで届け、不死の煙 妹紅",
+   "type": "Character",
+   "rarity": "LNR",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの《幻想郷》のキャラすべてに、パワーを＋1000。\n【自】 このカードが手札から舞台に置かれた時、他のあなたの《幻想郷》のキャラが4枚以上なら、あなたは自分の控え室の《幻想郷》のキャラを1枚選び、ストック置場に置いてよい。\n【起】［このカードを【レスト】する］ あなたは自分の山札を上から2枚まで見て、山札の上に好きな順番で置く。\n\"-\"",
+   "traits": [
+    "幻想郷",
+    "迷いの竹林"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_009lnr.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-009S",
+   "name": "月まで届け、不死の煙 妹紅",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの《幻想郷》のキャラすべてに、パワーを＋1000。\n【自】 このカードが手札から舞台に置かれた時、他のあなたの《幻想郷》のキャラが4枚以上なら、あなたは自分の控え室の《幻想郷》のキャラを1枚選び、ストック置場に置いてよい。\n【起】［このカードを【レスト】する］ あなたは自分の山札を上から2枚まで見て、山札の上に好きな順番で置く。\n\"-\"",
+   "traits": [
+    "幻想郷",
+    "迷いの竹林"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_009s.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-010",
+   "name": "永遠と須臾の罪人 輝夜",
+   "type": "Character",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n【自】【CXコンボ】 このカードのアタックの終わりに、CX置場に「永夜符「蓬莱壺中の弾の枝」」があり、あなたの手札が6枚以下で、他のあなたの《幻想郷》のキャラがいるなら、次の相手のターンの終わりまで、このカードは次の2つの能力を得る。『【永】 このカードの正面のキャラのソウルを－2。』『【永】 このカードのバトル中、あなたは相手のキャラの【自】の効果によるダメージを受けない。』\n\"今まで、何人もの人間が敗れ去っていった五つの問題。貴方達に幾つ解けるかしら？<br>（「東方永夜抄　～ Imperishable Night.」より）\"",
+   "traits": [
+    "幻想郷",
+    "永遠亭"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_010.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-010S",
+   "name": "永遠と須臾の罪人 輝夜",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "yellow",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n【自】【CXコンボ】 このカードのアタックの終わりに、CX置場に「永夜符「蓬莱壺中の弾の枝」」があり、あなたの手札が6枚以下で、他のあなたの《幻想郷》のキャラがいるなら、次の相手のターンの終わりまで、このカードは次の2つの能力を得る。『【永】 このカードの正面のキャラのソウルを－2。』『【永】 このカードのバトル中、あなたは相手のキャラの【自】の効果によるダメージを受けない。』\n\"-\"",
+   "traits": [
+    "幻想郷",
+    "永遠亭"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_010s.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-011",
+   "name": "ファイブシーズン パチュリー",
+   "type": "Character",
+   "rarity": "U",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［手札のトリガーアイコンが[[choice.gif]]のCXを1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室のトリガーアイコンが[[choice.gif]]のCXを1枚選び、手札に戻す。\n\"あー暖かい家の中で暖かい紅茶を飲む午後は最高ね<br>（「東方地霊殿　～ Subterranean Animism.」より）\"",
+   "traits": [
+    "幻想郷",
+    "紅魔館"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_011.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-011S",
+   "name": "ファイブシーズン パチュリー",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［手札のトリガーアイコンが[[choice.gif]]のCXを1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室のトリガーアイコンが[[choice.gif]]のCXを1枚選び、手札に戻す。\n\"-\"",
+   "traits": [
+    "幻想郷",
+    "紅魔館"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_011s.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-012",
+   "name": "地上の兎 てゐ",
+   "type": "Character",
+   "rarity": "U",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのターン中、このカードのパワーを＋1000。\n【自】 このカードのバトル相手が【リバース】した時、あなたは他の自分の《幻想郷》のキャラを1枚選び、【レスト】し、後列のキャラのいない枠に動かす。\n\"私は何時だって人の言うことを良く聞く、幻想郷で最も賢くて可愛い兎、って呼ばれてるんです<br>（「東方花映塚　～ Phantasmagoria of Flower View.」より）\"",
+   "traits": [
+    "幻想郷",
+    "永遠亭"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_012.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-012S",
+   "name": "地上の兎 てゐ",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのターン中、このカードのパワーを＋1000。\n【自】 このカードのバトル相手が【リバース】した時、あなたは他の自分の《幻想郷》のキャラを1枚選び、【レスト】し、後列のキャラのいない枠に動かす。\n\"-\"",
+   "traits": [
+    "幻想郷",
+    "永遠亭"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_012s.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-013",
+   "name": "狂気の月の兎 鈴仙",
+   "type": "Character",
+   "rarity": "U",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのターン中、このカードのパワーを＋3000。\n【自】【CXコンボ】 このカードがアタックした時、CX置場に「波符「赤眼催眠（マインドシェイカー）」」があり、他のあなたの《幻想郷》のキャラが2枚以上なら、次の相手のターンの終わりまで、このカードは次の2つの能力を得る。『【自】【ターン1】 このカードの与えたダメージがキャンセルされた時、あなたは相手のキャラを1枚選び、そのターン中、パワーを－2000。』『【自】 このカードがフロントアタックされた時、あなたはこのカードを手札に戻してよい。』\n\"月の兎である私の目を見て狂わずに居られるかしら？<br>（「東方永夜抄　～ Imperishable Night.」より）\"",
+   "traits": [
+    "幻想郷",
+    "永遠亭"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_013.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-013S",
+   "name": "狂気の月の兎 鈴仙",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのターン中、このカードのパワーを＋3000。\n【自】【CXコンボ】 このカードがアタックした時、CX置場に「波符「赤眼催眠（マインドシェイカー）」」があり、他のあなたの《幻想郷》のキャラが2枚以上なら、次の相手のターンの終わりまで、このカードは次の2つの能力を得る。『【自】【ターン1】 このカードの与えたダメージがキャンセルされた時、あなたは相手のキャラを1枚選び、そのターン中、パワーを－2000。』『【自】 このカードがフロントアタックされた時、あなたはこのカードを手札に戻してよい。』\n\"-\"",
+   "traits": [
+    "幻想郷",
+    "永遠亭"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_013s.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-013SP",
+   "name": "狂気の月の兎 鈴仙",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのターン中、このカードのパワーを＋3000。\n【自】【CXコンボ】 このカードがアタックした時、CX置場に「波符「赤眼催眠（マインドシェイカー）」」があり、他のあなたの《幻想郷》のキャラが2枚以上なら、次の相手のターンの終わりまで、このカードは次の2つの能力を得る。『【自】【ターン1】 このカードの与えたダメージがキャンセルされた時、あなたは相手のキャラを1枚選び、そのターン中、パワーを－2000。』『【自】 このカードがフロントアタックされた時、あなたはこのカードを手札に戻してよい。』\n\"-\"",
+   "traits": [
+    "幻想郷",
+    "永遠亭"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_013sp.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-014",
+   "name": "霧雨魔法店 魔理沙",
+   "type": "Character",
+   "rarity": "U",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(2)］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見て自分の控え室にあるCXと同じカード名のCXを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n【自】 このカードがアタックした時、他のあなたの《幻想郷》のキャラがいるなら、そのターン中、このカードのパワーを＋1500。\n\"-\"",
+   "traits": [
+    "幻想郷",
+    "魔法の森"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_014.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-014S",
+   "name": "霧雨魔法店 魔理沙",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(2)］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見て自分の控え室にあるCXと同じカード名のCXを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n【自】 このカードがアタックした時、他のあなたの《幻想郷》のキャラがいるなら、そのターン中、このカードのパワーを＋1500。\n\"-\"",
+   "traits": [
+    "幻想郷",
+    "魔法の森"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_014s.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-015",
+   "name": "焼死しない人間 妹紅",
+   "type": "Character",
+   "rarity": "U",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 他のあなたの《幻想郷》のキャラがアタックした時、そのターン中、このカードのパワーを＋Ｘ。Ｘは他のあなたの《幻想郷》のキャラの枚数×500に等しい。\n【自】 アンコール ［あなたの山札の上から1枚をクロック置場に置くか手札のキャラを1枚控え室に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"-\"",
+   "traits": [
+    "幻想郷",
+    "迷いの竹林"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_015.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-015S",
+   "name": "焼死しない人間 妹紅",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 他のあなたの《幻想郷》のキャラがアタックした時、そのターン中、このカードのパワーを＋Ｘ。Ｘは他のあなたの《幻想郷》のキャラの枚数×500に等しい。\n【自】 アンコール ［あなたの山札の上から1枚をクロック置場に置くか手札のキャラを1枚控え室に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"-\"",
+   "traits": [
+    "幻想郷",
+    "迷いの竹林"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_015s.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-016",
+   "name": "究極の絶対秘神 隠岐奈",
+   "type": "Character",
+   "rarity": "U",
+   "color": "yellow",
+   "level": "1",
+   "cost": "1",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 応援 このカードの前のあなたの《幻想郷》のキャラすべてに、パワーを＋Ｘ。Ｘはそのキャラのレベル×500に等しい。\n【自】 あなたのトリガーアイコンが[[salvage.gif]]のCXがCX置場に置かれた時、他のあなたの「究極の絶対秘神 隠岐奈」がいないなら、あなたは自分のキャラを1枚選び、そのターン中、次の能力を与える。『【自】 このカードがアタックした時、あなたは自分の山札の上から1枚を公開する。そのカードが《幻想郷》のキャラならストック置場に置く。』（そうでないなら元に戻す）\n\"見よ！　聞け！　語れ！　秘神の真なる魔力がお前の障碍となろう！<br>（「東方天空璋　～ Hidden Star in Four Seasons.」より）\"",
+   "traits": [
+    "幻想郷",
+    "秘神"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_016.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-016S",
+   "name": "究極の絶対秘神 隠岐奈",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "yellow",
+   "level": "1",
+   "cost": "1",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 応援 このカードの前のあなたの《幻想郷》のキャラすべてに、パワーを＋Ｘ。Ｘはそのキャラのレベル×500に等しい。\n【自】 あなたのトリガーアイコンが[[salvage.gif]]のCXがCX置場に置かれた時、他のあなたの「究極の絶対秘神 隠岐奈」がいないなら、あなたは自分のキャラを1枚選び、そのターン中、次の能力を与える。『【自】 このカードがアタックした時、あなたは自分の山札の上から1枚を公開する。そのカードが《幻想郷》のキャラならストック置場に置く。』（そうでないなら元に戻す）\n\"-\"",
+   "traits": [
+    "幻想郷",
+    "秘神"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_016s.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-017",
+   "name": "超妖怪弾頭 にとり",
+   "type": "Character",
+   "rarity": "U",
+   "color": "yellow",
+   "level": "2",
+   "cost": "0",
+   "power": "6000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたのターン中、他のあなたの《幻想郷》のキャラが2枚以上なら、このカードのパワーを＋2000。\n【自】 このカードがアタックした時、CX置場にトリガーアイコンが[[choice.gif]]のCXがあり、他のあなたの《幻想郷》のキャラがいるなら、あなたは自分の山札の上から1枚を公開する。そのカードが《幻想郷》のキャラなら手札に加える。（そうでないなら元に戻す）\n\"じゃあねー人間 ちなみにこれ以上来ると危険だよー<br>（「東方風神録　～ Mountain of Faith.」より）\"",
+   "traits": [
+    "幻想郷",
+    "妖怪の山"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_017.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-017S",
+   "name": "超妖怪弾頭 にとり",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "yellow",
+   "level": "2",
+   "cost": "0",
+   "power": "6000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたのターン中、他のあなたの《幻想郷》のキャラが2枚以上なら、このカードのパワーを＋2000。\n【自】 このカードがアタックした時、CX置場にトリガーアイコンが[[choice.gif]]のCXがあり、他のあなたの《幻想郷》のキャラがいるなら、あなたは自分の山札の上から1枚を公開する。そのカードが《幻想郷》のキャラなら手札に加える。（そうでないなら元に戻す）\n\"-\"",
+   "traits": [
+    "幻想郷",
+    "妖怪の山"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_017s.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-018",
+   "name": "闇に蠢く光の蟲 リグル",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1) 手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見て《幻想郷》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n【自】 このカードが【リバース】した時、このカードのバトル相手のレベルが0以下なら、あなたはそのキャラをストック置場に置いてよい。そうしたら、あなたは相手のストックの下から1枚を、控え室に置く。\n\"蛍様が出て喜ばない奴なんて、久しぶりに見たよ！<br>（「東方永夜抄　～ Imperishable Night.」より）\"",
+   "traits": [
+    "幻想郷",
+    "蛍"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_018.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-018S",
+   "name": "闇に蠢く光の蟲 リグル",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1) 手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見て《幻想郷》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n【自】 このカードが【リバース】した時、このカードのバトル相手のレベルが0以下なら、あなたはそのキャラをストック置場に置いてよい。そうしたら、あなたは相手のストックの下から1枚を、控え室に置く。\n\"-\"",
+   "traits": [
+    "幻想郷",
+    "蛍"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_018s.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-019",
+   "name": "逆襲のあまのじゃく 正邪",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［手札の《幻想郷》のキャラを1枚控え室に置く］ このカードが手札から舞台に置かれた時、他のあなたの《幻想郷》のキャラがいるなら、あなたはコストを払ってよい。そうしたら、あなたは相手のキャラを2枚選び、それぞれを【スタンド】して入れ替える。\n【自】 このカードが【リバース】した時、このカードのバトル相手のレベルが0以下なら、あなたはそのキャラを【リバース】してよい。\n\"何もかもひっくり返る逆さ城で念願の挫折を味わうがいい！<br>（「東方輝針城　～ Double Dealing Character.」より）\"",
+   "traits": [
+    "幻想郷",
+    "天邪鬼"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_019.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-019S",
+   "name": "逆襲のあまのじゃく 正邪",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［手札の《幻想郷》のキャラを1枚控え室に置く］ このカードが手札から舞台に置かれた時、他のあなたの《幻想郷》のキャラがいるなら、あなたはコストを払ってよい。そうしたら、あなたは相手のキャラを2枚選び、それぞれを【スタンド】して入れ替える。\n【自】 このカードが【リバース】した時、このカードのバトル相手のレベルが0以下なら、あなたはそのキャラを【リバース】してよい。\n\"-\"",
+   "traits": [
+    "幻想郷",
+    "天邪鬼"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_019s.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-020",
+   "name": "月面思考で波長の合わない妖怪兎 鈴仙",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、他のあなたの《幻想郷》のキャラが2枚以上なら、あなたは相手のキャラを1枚選び、次の相手のターンの終わりまで、次の能力を与える。『【永】 このカードは手札に戻せず、他の枠に動かせず、思い出にできない。』\n【自】 あなたのトリガーアイコンが[[bounce.gif]]のCXがCX置場に置かれた時、そのターン中、このカードのパワーを＋2500し、このカードは次の能力を得る。『【自】 このカードのバトル相手が【リバース】した時、あなたは相手のレベル1以上のキャラを1枚選んでよい。そうしたら、相手は自分の控え室のレベルＸ以下のキャラを1枚選び、入れ替える。Ｘはあなたが選んだキャラのレベル－1に等しい。』\n\"冗談かどうか、勝負してみる？<br>（「東方憑依華　～ Antinomy of Common Flowers.」より）\"",
+   "traits": [
+    "幻想郷",
+    "永遠亭"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_020.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-020S",
+   "name": "月面思考で波長の合わない妖怪兎 鈴仙",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、他のあなたの《幻想郷》のキャラが2枚以上なら、あなたは相手のキャラを1枚選び、次の相手のターンの終わりまで、次の能力を与える。『【永】 このカードは手札に戻せず、他の枠に動かせず、思い出にできない。』\n【自】 あなたのトリガーアイコンが[[bounce.gif]]のCXがCX置場に置かれた時、そのターン中、このカードのパワーを＋2500し、このカードは次の能力を得る。『【自】 このカードのバトル相手が【リバース】した時、あなたは相手のレベル1以上のキャラを1枚選んでよい。そうしたら、相手は自分の控え室のレベルＸ以下のキャラを1枚選び、入れ替える。Ｘはあなたが選んだキャラのレベル－1に等しい。』\n\"-\"",
+   "traits": [
+    "幻想郷",
+    "永遠亭"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_020s.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-021",
+   "name": "ミスティア・ローレライ＆幽谷響子",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 このカードは、色条件を満たさずに手札からプレイできる。\n【永】 あなたのターン中、他のあなたの《幻想郷》のキャラが2枚以上なら、このカードのパワーを＋2000し、このカードは次の能力を得る。『【自】 このカードがアタックした時、このカードの正面のキャラのレベルが2なら、そのターン中、このカードのパワーを＋6000。』\n\"-\"",
+   "traits": [
+    "幻想郷",
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_021.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-021S",
+   "name": "ミスティア・ローレライ＆幽谷響子",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 このカードは、色条件を満たさずに手札からプレイできる。\n【永】 あなたのターン中、他のあなたの《幻想郷》のキャラが2枚以上なら、このカードのパワーを＋2000し、このカードは次の能力を得る。『【自】 このカードがアタックした時、このカードの正面のキャラのレベルが2なら、そのターン中、このカードのパワーを＋6000。』\n\"-\"",
+   "traits": [
+    "幻想郷",
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_021s.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-022",
+   "name": "愉快な忘れ傘 小傘",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "1",
+   "cost": "1",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 あなたがこのカードの『助太刀』を使った時、あなたの《幻想郷》のキャラがいるなら、あなたは自分か相手の、山札の上から3枚を、控え室に置く。\n【起】【カウンター】 助太刀2000 レベル1 ［(1) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋2000）\n\"無駄こそが美しさ 予定通りの人生は悪夢のような物よ<br>（「東方星蓮船　～ Undefined Fantastic Object.」より）\"",
+   "traits": [
+    "幻想郷",
+    "命蓮寺"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_022.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-022S",
+   "name": "愉快な忘れ傘 小傘",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "yellow",
+   "level": "1",
+   "cost": "1",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 あなたがこのカードの『助太刀』を使った時、あなたの《幻想郷》のキャラがいるなら、あなたは自分か相手の、山札の上から3枚を、控え室に置く。\n【起】【カウンター】 助太刀2000 レベル1 ［(1) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋2000）\n\"-\"",
+   "traits": [
+    "幻想郷",
+    "命蓮寺"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_022s.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-023",
+   "name": "月の頭脳 永琳",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "7000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたの《幻想郷》のキャラが4枚以上なら、あなたの手札のこのカードのレベルを－1。\n【永】 あなたのターン中、他のあなたの《幻想郷》のキャラ1枚につき、このカードのパワーを＋1000。\n【自】【CXコンボ】 あなたのCX置場に「永夜符「蓬莱壺中の弾の枝」」が置かれた時、前列にこのカードがいて、他のあなたの《幻想郷》のキャラがいるなら、あなたは相手のキャラを2枚選び、それぞれを【スタンド】して入れ替え、相手のキャラを1枚選び、次の相手のターンの終わりまで、次の能力を与える。『【永】 このカードは他の枠に動かせない。』\n\"さぁ、幻想郷の世明けはもう目の前にある！<br>（「東方永夜抄　～ Imperishable Night.」より）\"",
+   "traits": [
+    "幻想郷",
+    "永遠亭"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_023.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-023S",
+   "name": "月の頭脳 永琳",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "7000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたの《幻想郷》のキャラが4枚以上なら、あなたの手札のこのカードのレベルを－1。\n【永】 あなたのターン中、他のあなたの《幻想郷》のキャラ1枚につき、このカードのパワーを＋1000。\n【自】【CXコンボ】 あなたのCX置場に「永夜符「蓬莱壺中の弾の枝」」が置かれた時、前列にこのカードがいて、他のあなたの《幻想郷》のキャラがいるなら、あなたは相手のキャラを2枚選び、それぞれを【スタンド】して入れ替え、相手のキャラを1枚選び、次の相手のターンの終わりまで、次の能力を与える。『【永】 このカードは他の枠に動かせない。』\n\"-\"",
+   "traits": [
+    "幻想郷",
+    "永遠亭"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_023s.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-024",
+   "name": "蓮台野夜行",
+   "type": "Event",
+   "rarity": "U",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "このカードは、あなたの《幻想郷》のキャラが1枚以下なら、手札からプレイできない。\nすべてのプレイヤーのキャラすべてに、そのターン中、《幻想郷》を与える。\nあなたは相手の前列のキャラを2枚まで選び、手札に戻す。\n\"蓮子「2時30分ジャスト！」<br>（「蓮台野夜行　～ Ghostly Field Club」より）\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_024.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-024S",
+   "name": "蓮台野夜行",
+   "type": "Event",
+   "rarity": "SR",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "このカードは、あなたの《幻想郷》のキャラが1枚以下なら、手札からプレイできない。\nすべてのプレイヤーのキャラすべてに、そのターン中、《幻想郷》を与える。\nあなたは相手の前列のキャラを2枚まで選び、手札に戻す。\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_024s.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-025",
+   "name": "「ブレイジングスター」",
+   "type": "Climax",
+   "rarity": "CR",
+   "color": "yellow",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[choice.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[choice.gif]]：このカードがトリガーした時、あなたは自分の控え室のトリガーアイコンに[[soul.gif]]があるキャラを1枚選び、手札に戻すかストック置場に置いてよい）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_025.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-025R",
+   "name": "「ブレイジングスター」",
+   "type": "Climax",
+   "rarity": "RRR",
+   "color": "yellow",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[choice.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[choice.gif]]：このカードがトリガーした時、あなたは自分の控え室のトリガーアイコンに[[soul.gif]]があるキャラを1枚選び、手札に戻すかストック置場に置いてよい）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_025r.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-026",
+   "name": "魔符「スターダストレヴァリエ」",
+   "type": "Climax",
+   "rarity": "CR",
+   "color": "yellow",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[choice.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[choice.gif]]：このカードがトリガーした時、あなたは自分の控え室のトリガーアイコンに[[soul.gif]]があるキャラを1枚選び、手札に戻すかストック置場に置いてよい）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_026.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-026R",
+   "name": "魔符「スターダストレヴァリエ」",
+   "type": "Climax",
+   "rarity": "RRR",
+   "color": "yellow",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[choice.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[choice.gif]]：このカードがトリガーした時、あなたは自分の控え室のトリガーアイコンに[[soul.gif]]があるキャラを1枚選び、手札に戻すかストック置場に置いてよい）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_026r.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-027",
+   "name": "永夜符「蓬莱壺中の弾の枝」",
+   "type": "Climax",
+   "rarity": "CR",
+   "color": "yellow",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[bounce.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[bounce.gif]]：このカードがトリガーした時、あなたは相手のキャラを1枚選び、手札に戻してよい）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_027.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-027R",
+   "name": "永夜符「蓬莱壺中の弾の枝」",
+   "type": "Climax",
+   "rarity": "RRR",
+   "color": "yellow",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[bounce.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[bounce.gif]]：このカードがトリガーした時、あなたは相手のキャラを1枚選び、手札に戻してよい）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_027r.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-028",
+   "name": "波符「赤眼催眠（マインドシェイカー）」",
+   "type": "Climax",
+   "rarity": "CR",
+   "color": "yellow",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[bounce.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[bounce.gif]]：このカードがトリガーした時、あなたは相手のキャラを1枚選び、手札に戻してよい）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_028.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-028R",
+   "name": "波符「赤眼催眠（マインドシェイカー）」",
+   "type": "Climax",
+   "rarity": "RRR",
+   "color": "yellow",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[bounce.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[bounce.gif]]：このカードがトリガーした時、あなたは相手のキャラを1枚選び、手札に戻してよい）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_028r.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-029",
+   "name": "本怖！貴方の後ろにいるよ こいし",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 このカードは相手の効果に選ばれない。\n【自】 あなたのアタックフェイズの始めに、あなたは自分の山札の上から1枚を公開する。そのカードが《幻想郷》のキャラなら、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋1000。（公開したカードは元に戻す）\n【起】 集中 ［(1) このカードを【レスト】する］ あなたは自分の山札の上から4枚をめくり、控え室に置く。それらのカードのCX1枚につき、あなたは自分の控え室のキャラを1枚まで選び、手札に戻す。\n\"もしもーし 今、貴方の後ろにいまーす<br>（「東方深秘録　～ Urban Legend in Limbo.」より）\"",
+   "traits": [
+    "幻想郷",
+    "地霊殿"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_029.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-029EX",
+   "name": "本怖！貴方の後ろにいるよ こいし",
+   "type": "Character",
+   "rarity": "SEC",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 このカードは相手の効果に選ばれない。\n【自】 あなたのアタックフェイズの始めに、あなたは自分の山札の上から1枚を公開する。そのカードが《幻想郷》のキャラなら、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋1000。（公開したカードは元に戻す）\n【起】 集中 ［(1) このカードを【レスト】する］ あなたは自分の山札の上から4枚をめくり、控え室に置く。それらのカードのCX1枚につき、あなたは自分の控え室のキャラを1枚まで選び、手札に戻す。\n\"-\"",
+   "traits": [
+    "幻想郷",
+    "地霊殿"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_029ex.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-029S",
+   "name": "本怖！貴方の後ろにいるよ こいし",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 このカードは相手の効果に選ばれない。\n【自】 あなたのアタックフェイズの始めに、あなたは自分の山札の上から1枚を公開する。そのカードが《幻想郷》のキャラなら、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋1000。（公開したカードは元に戻す）\n【起】 集中 ［(1) このカードを【レスト】する］ あなたは自分の山札の上から4枚をめくり、控え室に置く。それらのカードのCX1枚につき、あなたは自分の控え室のキャラを1枚まで選び、手札に戻す。\n\"-\"",
+   "traits": [
+    "幻想郷",
+    "地霊殿"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_029s.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-030",
+   "name": "怨霊も恐れ怯む少女 さとり",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードがアタックした時、CX置場にトリガーアイコンが[[treasure.gif]]のCXがあり、他のあなたの《幻想郷》のキャラがいるなら、あなたは自分の山札を上から2枚まで見て、山札の上に好きな順番で置き、そのターン中、このカードのパワーを＋2000。\n【自】【CXコンボ】［手札を1枚控え室に置く］ このカードのアタックの終わりに、CX置場に「想起「テリブルスーヴニール」」があり、他のあなたの《幻想郷》のキャラがいるなら、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を上から4枚まで見て、《幻想郷》のキャラを2枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。\n\"私には一切隠し事は出来ません 私には貴方の心が丸見えなのです<br>（「東方地霊殿　～ Subterranean Animism.」より）\"",
+   "traits": [
+    "幻想郷",
+    "地霊殿"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_030.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-030S",
+   "name": "怨霊も恐れ怯む少女 さとり",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードがアタックした時、CX置場にトリガーアイコンが[[treasure.gif]]のCXがあり、他のあなたの《幻想郷》のキャラがいるなら、あなたは自分の山札を上から2枚まで見て、山札の上に好きな順番で置き、そのターン中、このカードのパワーを＋2000。\n【自】【CXコンボ】［手札を1枚控え室に置く］ このカードのアタックの終わりに、CX置場に「想起「テリブルスーヴニール」」があり、他のあなたの《幻想郷》のキャラがいるなら、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を上から4枚まで見て、《幻想郷》のキャラを2枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。\n\"-\"",
+   "traits": [
+    "幻想郷",
+    "地霊殿"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_030s.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-030SSP",
+   "name": "怨霊も恐れ怯む少女 さとり",
+   "type": "Character",
+   "rarity": "SSP",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードがアタックした時、CX置場にトリガーアイコンが[[treasure.gif]]のCXがあり、他のあなたの《幻想郷》のキャラがいるなら、あなたは自分の山札を上から2枚まで見て、山札の上に好きな順番で置き、そのターン中、このカードのパワーを＋2000。\n【自】【CXコンボ】［手札を1枚控え室に置く］ このカードのアタックの終わりに、CX置場に「想起「テリブルスーヴニール」」があり、他のあなたの《幻想郷》のキャラがいるなら、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を上から4枚まで見て、《幻想郷》のキャラを2枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。\n\"-\"",
+   "traits": [
+    "幻想郷",
+    "地霊殿"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_030ssp.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-031",
+   "name": "地獄の輪禍 燐",
+   "type": "Character",
+   "rarity": "R",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1) 手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時か舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室のキャラを1枚選び、手札に戻す。\n【自】 このカードが【リバース】した時、このカードのバトル相手のレベルが0以下なら、あなたは相手のクロックの上から1枚を、控え室に置いてよい。そうしたら、あなたはそのキャラをクロック置場に置く。\n\"人間の貴方を殺して、業火の車は重くなる～♪あー死体運びは楽しいなぁ！<br>（「東方地霊殿　～ Subterranean Animism.」より）\"",
+   "traits": [
+    "幻想郷",
+    "地霊殿"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_031.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-031S",
+   "name": "地獄の輪禍 燐",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1) 手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時か舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室のキャラを1枚選び、手札に戻す。\n【自】 このカードが【リバース】した時、このカードのバトル相手のレベルが0以下なら、あなたは相手のクロックの上から1枚を、控え室に置いてよい。そうしたら、あなたはそのキャラをクロック置場に置く。\n\"-\"",
+   "traits": [
+    "幻想郷",
+    "地霊殿"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_031s.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-032",
+   "name": "三途の水先案内人 小町",
+   "type": "Character",
+   "rarity": "R",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは他の自分のキャラを1枚選び、ストック置場に置いてよい。\n【起】［このカードを控え室に置く］ あなたは自分の《幻想郷》のキャラを1枚選び、そのターン中、ソウルを＋1。\n\"彼岸で、三途のタイタニックったあ、あたいの船の事さ<br>（「東方花映塚　～ Phantasmagoria of Flower View.」より）\"",
+   "traits": [
+    "幻想郷",
+    "三途の川"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_032.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-032S",
+   "name": "三途の水先案内人 小町",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは他の自分のキャラを1枚選び、ストック置場に置いてよい。\n【起】［このカードを控え室に置く］ あなたは自分の《幻想郷》のキャラを1枚選び、そのターン中、ソウルを＋1。\n\"-\"",
+   "traits": [
+    "幻想郷",
+    "三途の川"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_032s.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-033",
+   "name": "四季のフラワーマスター 幽香",
+   "type": "Character",
+   "rarity": "R",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1) あなたの山札の上から1枚をクロック置場に置く］ このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を上から2枚まで見て、《幻想郷》のキャラを2枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。\n\"自分は虐められないと高を括ってるのかしら？<br>幻想郷で誰が一番強いか白黒はっきりつけてやる！<br>（「東方花映塚　～ Phantasmagoria of Flower View.」より）\"",
+   "traits": [
+    "幻想郷",
+    "太陽の畑"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_033.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-033S",
+   "name": "四季のフラワーマスター 幽香",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1) あなたの山札の上から1枚をクロック置場に置く］ このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を上から2枚まで見て、《幻想郷》のキャラを2枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。\n\"-\"",
+   "traits": [
+    "幻想郷",
+    "太陽の畑"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_033s.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-034",
+   "name": "楽園の最高裁判長 四季映姫",
+   "type": "Character",
+   "rarity": "R",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［手札のCXを1枚控え室に置く］ このカードが手札から舞台に置かれた時か舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の《幻想郷》のキャラを1枚選び、手札に戻す。\n【自】 このカードが【リバース】した時、このカードのバトル相手のコストが0以下なら、あなたは相手のクロックの上から1枚を、控え室に置いてよい。そうしたら、あなたはそのキャラをクロック置場に置く。\n\"法律は人間が決めた約束。法で裁けない罪を私は裁くのです<br>（「東方花映塚　～ Phantasmagoria of Flower View.」より）\"",
+   "traits": [
+    "幻想郷",
+    "彼岸"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_034.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-034S",
+   "name": "楽園の最高裁判長 四季映姫",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［手札のCXを1枚控え室に置く］ このカードが手札から舞台に置かれた時か舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の《幻想郷》のキャラを1枚選び、手札に戻す。\n【自】 このカードが【リバース】した時、このカードのバトル相手のコストが0以下なら、あなたは相手のクロックの上から1枚を、控え室に置いてよい。そうしたら、あなたはそのキャラをクロック置場に置く。\n\"-\"",
+   "traits": [
+    "幻想郷",
+    "彼岸"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_034s.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-034SP",
+   "name": "楽園の最高裁判長 四季映姫",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［手札のCXを1枚控え室に置く］ このカードが手札から舞台に置かれた時か舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の《幻想郷》のキャラを1枚選び、手札に戻す。\n【自】 このカードが【リバース】した時、このカードのバトル相手のコストが0以下なら、あなたは相手のクロックの上から1枚を、控え室に置いてよい。そうしたら、あなたはそのキャラをクロック置場に置く。\n\"-\"",
+   "traits": [
+    "幻想郷",
+    "彼岸"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_034sp.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-035",
+   "name": "地殻の下の嫉妬心 パルスィ",
+   "type": "Character",
+   "rarity": "R",
+   "color": "green",
+   "level": "1",
+   "cost": "1",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが【リバース】した時、このカードのバトル相手のレベルが相手のレベルより高いなら、あなたは相手のクロックの上から1枚を、控え室に置いてよい。そうしたら、あなたはそのキャラをクロック置場に置く。\n【起】［このカードを山札の下に置く］ あなたは相手のキャラを1枚選び、手札に戻す。\n\"地上の光が妬ましい 巡る風が妬ましい 貴方には恨みはないけど 私が貴方を討つ理由など幾らでも作れるわ<br>（「東方地霊殿　～ Subterranean Animism.」より）\"",
+   "traits": [
+    "幻想郷",
+    "旧地獄"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_035.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-035S",
+   "name": "地殻の下の嫉妬心 パルスィ",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "1",
+   "cost": "1",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが【リバース】した時、このカードのバトル相手のレベルが相手のレベルより高いなら、あなたは相手のクロックの上から1枚を、控え室に置いてよい。そうしたら、あなたはそのキャラをクロック置場に置く。\n【起】［このカードを山札の下に置く］ あなたは相手のキャラを1枚選び、手札に戻す。\n\"-\"",
+   "traits": [
+    "幻想郷",
+    "旧地獄"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_035s.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-036",
+   "name": "祀られる風の人間 早苗",
+   "type": "Character",
+   "rarity": "R",
+   "color": "green",
+   "level": "2",
+   "cost": "1",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋1000。\n【自】［手札のCXを1枚控え室に置く］ 相手のアタックフェイズの始めに、あなたはコストを払ってよい。そうしたら、あなたは相手のキャラを1枚選び、そのターン中、ソウルを＋4。\n【起】［(1) このカードを控え室に置く］ あなたのレベルが3以上なら、あなたは自分の控え室の「信仰は儚き人間の為に 早苗」を1枚選び、このカードがいた枠に置く。\n\"私は風祝（かぜはふり）の早苗 外の世界では絶え果てた現人神の末裔<br>（「東方風神録　～ Mountain of Faith.」より）\"",
+   "traits": [
+    "幻想郷",
+    "守矢神社"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_036.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-036S",
+   "name": "祀られる風の人間 早苗",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "2",
+   "cost": "1",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋1000。\n【自】［手札のCXを1枚控え室に置く］ 相手のアタックフェイズの始めに、あなたはコストを払ってよい。そうしたら、あなたは相手のキャラを1枚選び、そのターン中、ソウルを＋4。\n【起】［(1) このカードを控え室に置く］ あなたのレベルが3以上なら、あなたは自分の控え室の「信仰は儚き人間の為に 早苗」を1枚選び、このカードがいた枠に置く。\n\"-\"",
+   "traits": [
+    "幻想郷",
+    "守矢神社"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_036s.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-036SP",
+   "name": "祀られる風の人間 早苗",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "green",
+   "level": "2",
+   "cost": "1",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋1000。\n【自】［手札のCXを1枚控え室に置く］ 相手のアタックフェイズの始めに、あなたはコストを払ってよい。そうしたら、あなたは相手のキャラを1枚選び、そのターン中、ソウルを＋4。\n【起】［(1) このカードを控え室に置く］ あなたのレベルが3以上なら、あなたは自分の控え室の「信仰は儚き人間の為に 早苗」を1枚選び、このカードがいた枠に置く。\n\"-\"",
+   "traits": [
+    "幻想郷",
+    "守矢神社"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_036sp.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-037",
+   "name": "里に最も近い天狗 文",
+   "type": "Character",
+   "rarity": "R",
+   "color": "green",
+   "level": "3",
+   "cost": "2",
+   "power": "9000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたか相手の、控え室のCXが2枚以下なら、あなたの手札のこのカードのレベルを－1。\n【自】 このカードが手札から舞台に置かれた時、そのターン中、このカードのパワーを＋1500し、あなたは1枚まで引くか相手のキャラを1枚まで選び、手札に戻す。\n【自】【クロック】 アラーム ［(1) 手札を1枚控え室に置く］ このカードがクロックの1番上にあるなら、あなたのCXフェイズの始めに、あなたはコストを払ってよい。そうしたら、あなたは相手のキャラを1枚選び、手札に戻す。\n\"さあ、手加減してあげるから本気で掛かってきなさい！<br>（「東方風神録　～ Mountain of Faith.」より）\"",
+   "traits": [
+    "幻想郷",
+    "妖怪の山"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_037.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-037S",
+   "name": "里に最も近い天狗 文",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "3",
+   "cost": "2",
+   "power": "9000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたか相手の、控え室のCXが2枚以下なら、あなたの手札のこのカードのレベルを－1。\n【自】 このカードが手札から舞台に置かれた時、そのターン中、このカードのパワーを＋1500し、あなたは1枚まで引くか相手のキャラを1枚まで選び、手札に戻す。\n【自】【クロック】 アラーム ［(1) 手札を1枚控え室に置く］ このカードがクロックの1番上にあるなら、あなたのCXフェイズの始めに、あなたはコストを払ってよい。そうしたら、あなたは相手のキャラを1枚選び、手札に戻す。\n\"-\"",
+   "traits": [
+    "幻想郷",
+    "妖怪の山"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_037s.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-037SSP",
+   "name": "里に最も近い天狗 文",
+   "type": "Character",
+   "rarity": "SSP",
+   "color": "green",
+   "level": "3",
+   "cost": "2",
+   "power": "9000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたか相手の、控え室のCXが2枚以下なら、あなたの手札のこのカードのレベルを－1。\n【自】 このカードが手札から舞台に置かれた時、そのターン中、このカードのパワーを＋1500し、あなたは1枚まで引くか相手のキャラを1枚まで選び、手札に戻す。\n【自】【クロック】 アラーム ［(1) 手札を1枚控え室に置く］ このカードがクロックの1番上にあるなら、あなたのCXフェイズの始めに、あなたはコストを払ってよい。そうしたら、あなたは相手のキャラを1枚選び、手札に戻す。\n\"-\"",
+   "traits": [
+    "幻想郷",
+    "妖怪の山"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_037ssp.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-038",
+   "name": "ハルトマンの妖怪少女 こいし",
+   "type": "Character",
+   "rarity": "R",
+   "color": "green",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n【自】【CXコンボ】［(1) 手札を1枚控え室に置く］ このカードがアタックした時、CX置場に「「サブタレイニアンローズ」」があり、他のあなたの《幻想郷》のキャラが4枚以上なら、あなたはコストを払ってよい。そうしたら、相手に4ダメージを与え、そのターン中、このカードは次の能力を得る。『【永】 このカードのバトル中、相手はイベントと『助太刀』を手札からプレイできない。』（ダメージキャンセルは発生する）\n\"貴方を倒して持ち帰れば、お姉ちゃん達との話の種になるに違いないわ！<br>（「東方地霊殿　～ Subterranean Animism.」より）\"",
+   "traits": [
+    "幻想郷",
+    "地霊殿"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_038.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-038LNR",
+   "name": "ハルトマンの妖怪少女 こいし",
+   "type": "Character",
+   "rarity": "LNR",
+   "color": "green",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n【自】【CXコンボ】［(1) 手札を1枚控え室に置く］ このカードがアタックした時、CX置場に「「サブタレイニアンローズ」」があり、他のあなたの《幻想郷》のキャラが4枚以上なら、あなたはコストを払ってよい。そうしたら、相手に4ダメージを与え、そのターン中、このカードは次の能力を得る。『【永】 このカードのバトル中、相手はイベントと『助太刀』を手札からプレイできない。』（ダメージキャンセルは発生する）\n\"-\"",
+   "traits": [
+    "幻想郷",
+    "地霊殿"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_038lnr.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-038S",
+   "name": "ハルトマンの妖怪少女 こいし",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n【自】【CXコンボ】［(1) 手札を1枚控え室に置く］ このカードがアタックした時、CX置場に「「サブタレイニアンローズ」」があり、他のあなたの《幻想郷》のキャラが4枚以上なら、あなたはコストを払ってよい。そうしたら、相手に4ダメージを与え、そのターン中、このカードは次の能力を得る。『【永】 このカードのバトル中、相手はイベントと『助太刀』を手札からプレイできない。』（ダメージキャンセルは発生する）\n\"-\"",
+   "traits": [
+    "幻想郷",
+    "地霊殿"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_038s.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-039",
+   "name": "少女さとり　～ 3rd eye さとり",
+   "type": "Character",
+   "rarity": "U",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは相手のキャラを1枚まで選び、思い出にし、相手は自分の思い出置場のそのキャラを、舞台の好きな枠に置く。\n【起】［(1) このカードを控え室に置く］ あなたは自分の山札を上から4枚まで見て、《幻想郷》のキャラを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。\n\"眠りを覚ます恐怖の記憶で眠るがいい！<br>（「東方地霊殿　～ Subterranean Animism.」より）\"",
+   "traits": [
+    "幻想郷",
+    "地霊殿"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_039.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-039LNR",
+   "name": "少女さとり　～ 3rd eye さとり",
+   "type": "Character",
+   "rarity": "LNR",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは相手のキャラを1枚まで選び、思い出にし、相手は自分の思い出置場のそのキャラを、舞台の好きな枠に置く。\n【起】［(1) このカードを控え室に置く］ あなたは自分の山札を上から4枚まで見て、《幻想郷》のキャラを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。\n\"-\"",
+   "traits": [
+    "幻想郷",
+    "地霊殿"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_039lnr.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-039S",
+   "name": "少女さとり　～ 3rd eye さとり",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは相手のキャラを1枚まで選び、思い出にし、相手は自分の思い出置場のそのキャラを、舞台の好きな枠に置く。\n【起】［(1) このカードを控え室に置く］ あなたは自分の山札を上から4枚まで見て、《幻想郷》のキャラを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。\n\"-\"",
+   "traits": [
+    "幻想郷",
+    "地霊殿"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_039s.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-040",
+   "name": "土着神の頂点 諏訪子",
+   "type": "Character",
+   "rarity": "U",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 あなたのCXフェイズの始めに、あなたは自分の《幻想郷》のキャラを1枚選び、そのターン中、パワーを＋1000。\n【起】［(1) このカードを控え室に置く］ あなたのレベルが2以上なら、あなたは自分の控え室の「祀られる風の人間 早苗」を1枚選び、このカードがいた枠に置く。\n【起】 集中 ［(1) このカードを【レスト】する］ あなたは自分の山札の上から4枚をめくり、控え室に置く。それらのカードのCX1枚につき、あなたは自分の山札を見て《幻想郷》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"今日は私の弾幕お祭りの番よ！<br>（「東方風神録　～ Mountain of Faith.」より）\"",
+   "traits": [
+    "幻想郷",
+    "守矢神社"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_040.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-040S",
+   "name": "土着神の頂点 諏訪子",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 あなたのCXフェイズの始めに、あなたは自分の《幻想郷》のキャラを1枚選び、そのターン中、パワーを＋1000。\n【起】［(1) このカードを控え室に置く］ あなたのレベルが2以上なら、あなたは自分の控え室の「祀られる風の人間 早苗」を1枚選び、このカードがいた枠に置く。\n【起】 集中 ［(1) このカードを【レスト】する］ あなたは自分の山札の上から4枚をめくり、控え室に置く。それらのカードのCX1枚につき、あなたは自分の山札を見て《幻想郷》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"-\"",
+   "traits": [
+    "幻想郷",
+    "守矢神社"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_040s.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-041",
+   "name": "信仰は儚き人間の為に 早苗",
+   "type": "Character",
+   "rarity": "U",
+   "color": "green",
+   "level": "3",
+   "cost": "2",
+   "power": "9000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時か「祀られる風の人間 早苗」の【起】の効果で舞台に置かれた時、あなたは自分のクロックの上から1枚までを、控え室に置き、そのターン中、このカードのパワーを＋1500。\n【自】［手札の《幻想郷》のキャラを1枚控え室に置く］ このカードの正面のキャラがアタックした時、他のあなたの《幻想郷》のキャラがいるなら、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を上から2枚まで見て、2枚まで選び、控え室に置き、残りのカードを山札の上に好きな順番で置く。\n\"では現人神の力を見て考えなさい 奇跡を起こす神の力を！<br>（「東方風神録　～ Mountain of Faith.」より）\"",
+   "traits": [
+    "幻想郷",
+    "守矢神社"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_041.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-041LNR",
+   "name": "信仰は儚き人間の為に 早苗",
+   "type": "Character",
+   "rarity": "LNR",
+   "color": "green",
+   "level": "3",
+   "cost": "2",
+   "power": "9000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時か「祀られる風の人間 早苗」の【起】の効果で舞台に置かれた時、あなたは自分のクロックの上から1枚までを、控え室に置き、そのターン中、このカードのパワーを＋1500。\n【自】［手札の《幻想郷》のキャラを1枚控え室に置く］ このカードの正面のキャラがアタックした時、他のあなたの《幻想郷》のキャラがいるなら、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を上から2枚まで見て、2枚まで選び、控え室に置き、残りのカードを山札の上に好きな順番で置く。\n\"-\"",
+   "traits": [
+    "幻想郷",
+    "守矢神社"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_041lnr.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-041S",
+   "name": "信仰は儚き人間の為に 早苗",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "3",
+   "cost": "2",
+   "power": "9000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時か「祀られる風の人間 早苗」の【起】の効果で舞台に置かれた時、あなたは自分のクロックの上から1枚までを、控え室に置き、そのターン中、このカードのパワーを＋1500。\n【自】［手札の《幻想郷》のキャラを1枚控え室に置く］ このカードの正面のキャラがアタックした時、他のあなたの《幻想郷》のキャラがいるなら、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を上から2枚まで見て、2枚まで選び、控え室に置き、残りのカードを山札の上に好きな順番で置く。\n\"-\"",
+   "traits": [
+    "幻想郷",
+    "守矢神社"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_041s.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-042",
+   "name": "山坂と湖の権化 神奈子",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの《幻想郷》のキャラすべてに、パワーを＋500。\n【起】［このカードを控え室に置く］ あなたのレベルが1以上なら、あなたは自分の控え室の「土着神の頂点 諏訪子」を1枚選び、このカードがいた枠に置く。\n\"そろそろ──神社の意味を真剣に考え直す時期よ！<br>（「東方風神録　～ Mountain of Faith.」より）\"",
+   "traits": [
+    "幻想郷",
+    "守矢神社"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_042.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-042S",
+   "name": "山坂と湖の権化 神奈子",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの《幻想郷》のキャラすべてに、パワーを＋500。\n【起】［このカードを控え室に置く］ あなたのレベルが1以上なら、あなたは自分の控え室の「土着神の頂点 諏訪子」を1枚選び、このカードがいた枠に置く。\n\"-\"",
+   "traits": [
+    "幻想郷",
+    "守矢神社"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_042s.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-043",
+   "name": "恐るべき井戸の怪 キスメ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 あなたのCXフェイズの始めに、あなたは自分の「暗い洞窟の明るい網 ヤマメ」を1枚選び、そのターン中、パワーを＋3000し、ソウルを＋1し、次の能力を与える。『【自】 このカードがアタックした時、あなたは自分の山札を上から2枚まで見て、カードを1枚選び、山札の上に置き、残りのカードを控え室に置く。』\n【起】［(1) このカードを【レスト】する］ あなたは自分の控え室の「暗い洞窟の明るい網 ヤマメ」を1枚選び、舞台の好きな枠に置く。\n\"-\"",
+   "traits": [
+    "幻想郷",
+    "釣瓶落とし"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_043.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-043S",
+   "name": "恐るべき井戸の怪 キスメ",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 あなたのCXフェイズの始めに、あなたは自分の「暗い洞窟の明るい網 ヤマメ」を1枚選び、そのターン中、パワーを＋3000し、ソウルを＋1し、次の能力を与える。『【自】 このカードがアタックした時、あなたは自分の山札を上から2枚まで見て、カードを1枚選び、山札の上に置き、残りのカードを控え室に置く。』\n【起】［(1) このカードを【レスト】する］ あなたは自分の控え室の「暗い洞窟の明るい網 ヤマメ」を1枚選び、舞台の好きな枠に置く。\n\"-\"",
+   "traits": [
+    "幻想郷",
+    "釣瓶落とし"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_043s.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-044",
+   "name": "下っ端哨戒天狗 椛",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードがアタックした時、あなたは自分の山札を下から1枚見て、相手の山札を下から1枚見る。（見たカードは元に戻す）\n【自】 このカードがアタックした時、そのターン中、このカードのパワーを＋Ｘ。Ｘは他のあなたの《幻想郷》のキャラの枚数×1000に等しい。\n\"-\"",
+   "traits": [
+    "幻想郷",
+    "妖怪の山"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_044.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-044S",
+   "name": "下っ端哨戒天狗 椛",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードがアタックした時、あなたは自分の山札を下から1枚見て、相手の山札を下から1枚見る。（見たカードは元に戻す）\n【自】 このカードがアタックした時、そのターン中、このカードのパワーを＋Ｘ。Ｘは他のあなたの《幻想郷》のキャラの枚数×1000に等しい。\n\"-\"",
+   "traits": [
+    "幻想郷",
+    "妖怪の山"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_044s.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-045",
+   "name": "暗い洞窟の明るい網 ヤマメ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "",
+   "text": "-\n\"あそこは今お祭り騒ぎよ 誰も拒みゃしないから楽しんでおいき<br>（「東方地霊殿　～ Subterranean Animism.」より）\"",
+   "traits": [
+    "幻想郷",
+    "暗闇の風穴"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_045.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-045S",
+   "name": "暗い洞窟の明るい網 ヤマメ",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "",
+   "text": "-\n\"-\"",
+   "traits": [
+    "幻想郷",
+    "暗闇の風穴"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_045s.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-046",
+   "name": "今どきの念写記者 はたて",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 相手のキャラすべてに、『【自】 アンコール ［(2)］』を与える。\n\"お互い対抗新聞同士になって最強を目指すよ！<br>（「ダブルスポイラー　～ 東方文花帖」より）\"",
+   "traits": [
+    "幻想郷",
+    "妖怪の山"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_046.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-046S",
+   "name": "今どきの念写記者 はたて",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 相手のキャラすべてに、『【自】 アンコール ［(2)］』を与える。\n\"-\"",
+   "traits": [
+    "幻想郷",
+    "妖怪の山"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_046s.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-047",
+   "name": "秘神流し雛 雛",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【起】【カウンター】 助太刀Ｘ レベル1 ［手札のこのカードを控え室に置く］ Ｘはあなたの《幻想郷》のキャラの枚数×500に等しい。（あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋Ｘ）\n\"私は人間の味方 人間の厄を受けて、神々に渡しているの<br>（「東方風神録　～ Mountain of Faith.」より）\"",
+   "traits": [
+    "幻想郷",
+    "流し雛"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_047.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-047S",
+   "name": "秘神流し雛 雛",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【起】【カウンター】 助太刀Ｘ レベル1 ［手札のこのカードを控え室に置く］ Ｘはあなたの《幻想郷》のキャラの枚数×500に等しい。（あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋Ｘ）\n\"-\"",
+   "traits": [
+    "幻想郷",
+    "流し雛"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_047s.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-048",
+   "name": "伝統の幻想ブン屋 文",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのターン中、他のあなたのレベル0以下のキャラすべてに、パワーを＋2000。\n【自】【CXコンボ】［(1)］ あなたのCX置場に「疾風「風神少女」」が置かれた時、他のあなたの《幻想郷》のキャラがいるなら、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室のレベル0以下の《幻想郷》のキャラを2枚まで選び、舞台の別々の枠に置く。\n\"えぇ～ 私は公明正大に、偽りなく記事にしています～<br>（「東方花映塚　～ Phantasmagoria of Flower View.」より）\"",
+   "traits": [
+    "幻想郷",
+    "妖怪の山"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_048.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-048S",
+   "name": "伝統の幻想ブン屋 文",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのターン中、他のあなたのレベル0以下のキャラすべてに、パワーを＋2000。\n【自】【CXコンボ】［(1)］ あなたのCX置場に「疾風「風神少女」」が置かれた時、他のあなたの《幻想郷》のキャラがいるなら、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室のレベル0以下の《幻想郷》のキャラを2枚まで選び、舞台の別々の枠に置く。\n\"-\"",
+   "traits": [
+    "幻想郷",
+    "妖怪の山"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_048s.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-049",
+   "name": "語られる怪力乱神 勇儀",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から3枚を、控え室に置いてよい。\n【起】［(1) このカードを控え室に置く］ あなたは自分の控え室の「伊吹萃香」を2枚まで選び、舞台の別々の枠に置く。\n\"さあ、思いっきりかかってきな！さもないと、べそかいても知らないよ！<br>（「東方地霊殿　～ Subterranean Animism.」より）\"",
+   "traits": [
+    "幻想郷",
+    "旧地獄"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_049.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-049S",
+   "name": "語られる怪力乱神 勇儀",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から3枚を、控え室に置いてよい。\n【起】［(1) このカードを控え室に置く］ あなたは自分の控え室の「伊吹萃香」を2枚まで選び、舞台の別々の枠に置く。\n\"-\"",
+   "traits": [
+    "幻想郷",
+    "旧地獄"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_049s.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-050",
+   "name": "閉じた恋の瞳 こいし",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "1",
+   "cost": "1",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたのターン中、あなたのキャラすべてが《幻想郷》なら、このカードのパワーを＋5000し、このカードは次の能力を得る。『【永】 このカードのバトル中、相手はイベントと『助太刀』を手札からプレイできない。』\n【自】 アンコール ［手札の緑のカードを1枚控え室に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"お姉ちゃんすら敵わなかった貴方の力 是非見せて欲しいわー！<br>（「東方地霊殿　～ Subterranean Animism.」より）\"",
+   "traits": [
+    "幻想郷",
+    "地霊殿"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_050.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-050S",
+   "name": "閉じた恋の瞳 こいし",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "1",
+   "cost": "1",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたのターン中、あなたのキャラすべてが《幻想郷》なら、このカードのパワーを＋5000し、このカードは次の能力を得る。『【永】 このカードのバトル中、相手はイベントと『助太刀』を手札からプレイできない。』\n【自】 アンコール ［手札の緑のカードを1枚控え室に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"-\"",
+   "traits": [
+    "幻想郷",
+    "地霊殿"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_050s.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-051",
+   "name": "小さなスイートポイズン メディスン",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "2",
+   "cost": "1",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのターン中、他のあなたの《幻想郷》のキャラが2枚以上なら、このカードのパワーを＋6000。\n【自】 このカードがアタックした時、あなたは自分の山札の上から1枚を公開する。そのカードが《幻想郷》のキャラなら、相手の前列のキャラすべてに、そのターン中、パワーを－2500。（公開したカードは元に戻す）\n\"今年のスーさんは、ちょっと気が早いわね？<br>（「東方花映塚　～ Phantasmagoria of Flower View.」より）\"",
+   "traits": [
+    "幻想郷",
+    "無名の丘"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_051.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-051S",
+   "name": "小さなスイートポイズン メディスン",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "2",
+   "cost": "1",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのターン中、他のあなたの《幻想郷》のキャラが2枚以上なら、このカードのパワーを＋6000。\n【自】 このカードがアタックした時、あなたは自分の山札の上から1枚を公開する。そのカードが《幻想郷》のキャラなら、相手の前列のキャラすべてに、そのターン中、パワーを－2500。（公開したカードは元に戻す）\n\"-\"",
+   "traits": [
+    "幻想郷",
+    "無名の丘"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_051s.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-052",
+   "name": "みんなの心の病み さとり",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "2",
+   "cost": "1",
+   "power": "5500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは相手の手札をランダムに1枚選んで公開し、思い出にし、次の相手のターンの終わりに、相手はそのカードを手札に戻す。\n\"-\"",
+   "traits": [
+    "幻想郷",
+    "地霊殿"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_052.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-052S",
+   "name": "みんなの心の病み さとり",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "2",
+   "cost": "1",
+   "power": "5500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは相手の手札をランダムに1枚選んで公開し、思い出にし、次の相手のターンの終わりに、相手はそのカードを手札に戻す。\n\"-\"",
+   "traits": [
+    "幻想郷",
+    "地霊殿"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_052s.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-053",
+   "name": "秋穣子＆秋静葉",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "2",
+   "cost": "1",
+   "power": "7500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分のキャラを2枚まで選び、そのターン中、次の能力を与える。『【自】 このカードがアタックした時、他のあなたの《幻想郷》のキャラがいて、このカードの正面のキャラのレベルが3以上なら、そのターン中、このカードのパワーを＋4500。』\n\"穣子「収穫したてのお芋は私の香水 巫女に喰べられてたまるもんですか！」<br>（「東方風神録　～ Mountain of Faith.」より）\"",
+   "traits": [
+    "幻想郷",
+    "秋"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_053.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-053S",
+   "name": "秋穣子＆秋静葉",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "2",
+   "cost": "1",
+   "power": "7500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分のキャラを2枚まで選び、そのターン中、次の能力を与える。『【自】 このカードがアタックした時、他のあなたの《幻想郷》のキャラがいて、このカードの正面のキャラのレベルが3以上なら、そのターン中、このカードのパワーを＋4500。』\n\"-\"",
+   "traits": [
+    "幻想郷",
+    "秋"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_053s.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-054",
+   "name": "熱かい悩む神の火 空",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "3",
+   "cost": "2",
+   "power": "8500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の《幻想郷》のキャラを2枚まで選び、そのターン中、パワーを＋1500。\n【自】［(2) 手札を1枚控え室に置く］ このカードが手札から舞台に置かれたターン中、このカードがアタックした時、あなたはコストを払ってよい。そうしたら、相手に4ダメージを与える。（ダメージキャンセルは発生する）\n\"究極の核融合で身も心も幽霊も妖精もフュージョンし尽くすがいい！<br>（「東方地霊殿　～ Subterranean Animism.」より）\"",
+   "traits": [
+    "幻想郷",
+    "地霊殿"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_054.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-054S",
+   "name": "熱かい悩む神の火 空",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "3",
+   "cost": "2",
+   "power": "8500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の《幻想郷》のキャラを2枚まで選び、そのターン中、パワーを＋1500。\n【自】［(2) 手札を1枚控え室に置く］ このカードが手札から舞台に置かれたターン中、このカードがアタックした時、あなたはコストを払ってよい。そうしたら、相手に4ダメージを与える。（ダメージキャンセルは発生する）\n\"-\"",
+   "traits": [
+    "幻想郷",
+    "地霊殿"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_054s.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-055",
+   "name": "空白のカード",
+   "type": "Event",
+   "rarity": "U",
+   "color": "green",
+   "level": "1",
+   "cost": "1",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "【カウンター】 このカードは、あなたの《幻想郷》のキャラが2枚以下なら、手札からプレイできない。このカードは、色条件を満たさずに手札からプレイできる。\n［あなたの【スタンド】しているキャラを1枚【レスト】する］ あなたはコストを払ってよい。そうしたら、あなたは自分の手札すべてを、控え室に置き、Ｘ枚引く。Ｘはこの効果で控え室に置かれたカードの枚数＋1に等しい。\nあなたは自分のキャラを1枚選び、そのターンの次のターンの終わりまで、次の能力を与える。『【永】 あなたの手札の枚数上限を＋1。』\n\"使えないって何よ 所有権を操作する唯一のカードなのに<br>（「東方虹龍洞　～ Unconnected Marketeers.」より）\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_055.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-055S",
+   "name": "空白のカード",
+   "type": "Event",
+   "rarity": "SR",
+   "color": "green",
+   "level": "1",
+   "cost": "1",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "【カウンター】 このカードは、あなたの《幻想郷》のキャラが2枚以下なら、手札からプレイできない。このカードは、色条件を満たさずに手札からプレイできる。\n［あなたの【スタンド】しているキャラを1枚【レスト】する］ あなたはコストを払ってよい。そうしたら、あなたは自分の手札すべてを、控え室に置き、Ｘ枚引く。Ｘはこの効果で控え室に置かれたカードの枚数＋1に等しい。\nあなたは自分のキャラを1枚選び、そのターンの次のターンの終わりまで、次の能力を与える。『【永】 あなたの手札の枚数上限を＋1。』\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_055s.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-056",
+   "name": "想起「テリブルスーヴニール」",
+   "type": "Climax",
+   "rarity": "CR",
+   "color": "green",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[treasure.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[treasure.gif]]：このカードがトリガーした時、あなたはこのカードを手札に戻す。あなたは自分の山札の上から1枚を、ストック置場に置いてよい）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_056.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-056R",
+   "name": "想起「テリブルスーヴニール」",
+   "type": "Climax",
+   "rarity": "RRR",
+   "color": "green",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[treasure.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[treasure.gif]]：このカードがトリガーした時、あなたはこのカードを手札に戻す。あなたは自分の山札の上から1枚を、ストック置場に置いてよい）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_056r.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-057",
+   "name": "「サブタレイニアンローズ」",
+   "type": "Climax",
+   "rarity": "CR",
+   "color": "green",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[treasure.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[treasure.gif]]：このカードがトリガーした時、あなたはこのカードを手札に戻す。あなたは自分の山札の上から1枚を、ストック置場に置いてよい）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_057.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-057R",
+   "name": "「サブタレイニアンローズ」",
+   "type": "Climax",
+   "rarity": "RRR",
+   "color": "green",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[treasure.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[treasure.gif]]：このカードがトリガーした時、あなたはこのカードを手札に戻す。あなたは自分の山札の上から1枚を、ストック置場に置いてよい）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_057r.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-058",
+   "name": "疾風「風神少女」",
+   "type": "Climax",
+   "rarity": "CR",
+   "color": "green",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【自】 このカードが手札からCX置場に置かれた時、あなたは自分の控え室のレベル1以下のキャラを1枚まで選び、ストック置場に置き、自分のキャラすべてに、そのターン中、ソウルを＋1。\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_058.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-058R",
+   "name": "疾風「風神少女」",
+   "type": "Climax",
+   "rarity": "RRR",
+   "color": "green",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【自】 このカードが手札からCX置場に置かれた時、あなたは自分の控え室のレベル1以下のキャラを1枚まで選び、ストック置場に置き、自分のキャラすべてに、そのターン中、ソウルを＋1。\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_058r.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-059",
+   "name": "紅魔館のメイド 咲夜",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋1000。\n【自】 このカードが舞台から控え室に置かれた時、あなたは自分の山札を上から3枚まで見て、CXを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。手札に加えたなら、あなたは自分の手札を1枚選び、控え室に置く。\n\"あー、お掃除が進まない！お嬢様に怒られるじゃない！！<br>（「東方紅魔郷　～ the Embodiment of Scarlet Devil.」より）\"",
+   "traits": [
+    "幻想郷",
+    "紅魔館"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_059.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-059S",
+   "name": "紅魔館のメイド 咲夜",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋1000。\n【自】 このカードが舞台から控え室に置かれた時、あなたは自分の山札を上から3枚まで見て、CXを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。手札に加えたなら、あなたは自分の手札を1枚選び、控え室に置く。\n\"-\"",
+   "traits": [
+    "幻想郷",
+    "紅魔館"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_059s.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-059SSP",
+   "name": "紅魔館のメイド 咲夜",
+   "type": "Character",
+   "rarity": "SSP",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋1000。\n【自】 このカードが舞台から控え室に置かれた時、あなたは自分の山札を上から3枚まで見て、CXを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。手札に加えたなら、あなたは自分の手札を1枚選び、控え室に置く。\n\"-\"",
+   "traits": [
+    "幻想郷",
+    "紅魔館"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_059ssp.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-060",
+   "name": "悪魔の妹 フランドール",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのキャラすべてが《幻想郷》なら、このカードのパワーを＋1500。\n【自】 あなたのCXフェイズの始めに、次の相手のターンの終わりまで、このカードは次の2つの能力のうちあなたが選んだ1つを得る。『【自】 相手のアタックフェイズの始めに、あなたはこのカードを、前列のキャラのいない枠で、正面に相手のキャラがいる枠に動かしてよい。』『【自】［(1) このカードを控え室に置く］ 他のあなたの《幻想郷》のキャラがフロントアタックされた時、あなたはコストを払ってよい。そうしたら、そのキャラを手札に戻す。』\n\"あなたが、コンティニュー出来ないのさ！<br>（「東方紅魔郷　～ the Embodiment of Scarlet Devil.」より）\"",
+   "traits": [
+    "幻想郷",
+    "紅魔館"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_060.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-060EX",
+   "name": "悪魔の妹 フランドール",
+   "type": "Character",
+   "rarity": "SEC",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのキャラすべてが《幻想郷》なら、このカードのパワーを＋1500。\n【自】 あなたのCXフェイズの始めに、次の相手のターンの終わりまで、このカードは次の2つの能力のうちあなたが選んだ1つを得る。『【自】 相手のアタックフェイズの始めに、あなたはこのカードを、前列のキャラのいない枠で、正面に相手のキャラがいる枠に動かしてよい。』『【自】［(1) このカードを控え室に置く］ 他のあなたの《幻想郷》のキャラがフロントアタックされた時、あなたはコストを払ってよい。そうしたら、そのキャラを手札に戻す。』\n\"-\"",
+   "traits": [
+    "幻想郷",
+    "紅魔館"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_060ex.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-060S",
+   "name": "悪魔の妹 フランドール",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのキャラすべてが《幻想郷》なら、このカードのパワーを＋1500。\n【自】 あなたのCXフェイズの始めに、次の相手のターンの終わりまで、このカードは次の2つの能力のうちあなたが選んだ1つを得る。『【自】 相手のアタックフェイズの始めに、あなたはこのカードを、前列のキャラのいない枠で、正面に相手のキャラがいる枠に動かしてよい。』『【自】［(1) このカードを控え室に置く］ 他のあなたの《幻想郷》のキャラがフロントアタックされた時、あなたはコストを払ってよい。そうしたら、そのキャラを手札に戻す。』\n\"-\"",
+   "traits": [
+    "幻想郷",
+    "紅魔館"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_060s.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-061",
+   "name": "快晴の巫女 霊夢",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのターン中、あなたのキャラすべてが《幻想郷》なら、このカードのパワーを＋4000。\n【自】【CXコンボ】 このカードのアタックの終わりに、CX置場に「夢符「封魔陣」」があるなら、あなたは自分の山札の上から1枚を公開し、自分の控え室のレベルＸ以下の《幻想郷》のキャラを1枚まで選び、手札に戻すかストック置場に置き、公開したカードが「少女綺想曲　～ Dream Battle 霊夢」かレベル1以上のカードなら、次の相手のターンの終わりまで、このカードは次の能力を得る。『【自】 このカードがフロントアタックされた時、あなたはこのカードを手札に戻してよい。』Ｘは公開されたカードのレベルに等しい。（CXのレベルは0として扱う。公開したカードは元に戻す）\n\"相手が天人だろうが変人だろうが私の仕事は一つ 異変を起こす奴を退治する事のみ！<br>（「東方緋想天　～ Scarlet Weather Rhapsody.」より）\"",
+   "traits": [
+    "幻想郷",
+    "博麗神社"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_061.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-061S",
+   "name": "快晴の巫女 霊夢",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのターン中、あなたのキャラすべてが《幻想郷》なら、このカードのパワーを＋4000。\n【自】【CXコンボ】 このカードのアタックの終わりに、CX置場に「夢符「封魔陣」」があるなら、あなたは自分の山札の上から1枚を公開し、自分の控え室のレベルＸ以下の《幻想郷》のキャラを1枚まで選び、手札に戻すかストック置場に置き、公開したカードが「少女綺想曲　～ Dream Battle 霊夢」かレベル1以上のカードなら、次の相手のターンの終わりまで、このカードは次の能力を得る。『【自】 このカードがフロントアタックされた時、あなたはこのカードを手札に戻してよい。』Ｘは公開されたカードのレベルに等しい。（CXのレベルは0として扱う。公開したカードは元に戻す）\n\"-\"",
+   "traits": [
+    "幻想郷",
+    "博麗神社"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_061s.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-061SP",
+   "name": "快晴の巫女 霊夢",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのターン中、あなたのキャラすべてが《幻想郷》なら、このカードのパワーを＋4000。\n【自】【CXコンボ】 このカードのアタックの終わりに、CX置場に「夢符「封魔陣」」があるなら、あなたは自分の山札の上から1枚を公開し、自分の控え室のレベルＸ以下の《幻想郷》のキャラを1枚まで選び、手札に戻すかストック置場に置き、公開したカードが「少女綺想曲　～ Dream Battle 霊夢」かレベル1以上のカードなら、次の相手のターンの終わりまで、このカードは次の能力を得る。『【自】 このカードがフロントアタックされた時、あなたはこのカードを手札に戻してよい。』Ｘは公開されたカードのレベルに等しい。（CXのレベルは0として扱う。公開したカードは元に戻す）\n\"-\"",
+   "traits": [
+    "幻想郷",
+    "博麗神社"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_061sp.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-062",
+   "name": "永遠に紅い幼き月 レミリア",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n【自】【CXコンボ】 このカードがアタックした時、CX置場に「「紅色の幻想郷」」があり、他のあなたの《幻想郷》のキャラが2枚以上なら、あなたは相手の山札を上から2枚まで見て、カードを2枚まで選び、山札の上に好きな順番で置き、残りのカードを控え室に置き、そのターン中、このカードは次の能力を得る。『【自】［(3) 手札を1枚控え室に置き、あなたのCX置場のCXを1枚控え室に置く］ このカードのアタックの終わりに、あなたはコストを払ってよい。そうしたら、相手に1ダメージを2回与える。』（ダメージキャンセルは発生する）\n\"こんなに月も紅いから本気で殺すわよ<br>（「東方紅魔郷　～ the Embodiment of Scarlet Devil.」より）\"",
+   "traits": [
+    "幻想郷",
+    "紅魔館"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_062.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-062S",
+   "name": "永遠に紅い幼き月 レミリア",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n【自】【CXコンボ】 このカードがアタックした時、CX置場に「「紅色の幻想郷」」があり、他のあなたの《幻想郷》のキャラが2枚以上なら、あなたは相手の山札を上から2枚まで見て、カードを2枚まで選び、山札の上に好きな順番で置き、残りのカードを控え室に置き、そのターン中、このカードは次の能力を得る。『【自】［(3) 手札を1枚控え室に置き、あなたのCX置場のCXを1枚控え室に置く］ このカードのアタックの終わりに、あなたはコストを払ってよい。そうしたら、相手に1ダメージを2回与える。』（ダメージキャンセルは発生する）\n\"-\"",
+   "traits": [
+    "幻想郷",
+    "紅魔館"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_062s.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-062SSP",
+   "name": "永遠に紅い幼き月 レミリア",
+   "type": "Character",
+   "rarity": "SSP",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n【自】【CXコンボ】 このカードがアタックした時、CX置場に「「紅色の幻想郷」」があり、他のあなたの《幻想郷》のキャラが2枚以上なら、あなたは相手の山札を上から2枚まで見て、カードを2枚まで選び、山札の上に好きな順番で置き、残りのカードを控え室に置き、そのターン中、このカードは次の能力を得る。『【自】［(3) 手札を1枚控え室に置き、あなたのCX置場のCXを1枚控え室に置く］ このカードのアタックの終わりに、あなたはコストを払ってよい。そうしたら、相手に1ダメージを2回与える。』（ダメージキャンセルは発生する）\n\"-\"",
+   "traits": [
+    "幻想郷",
+    "紅魔館"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_062ssp.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-063",
+   "name": "楽園の素敵な巫女 霊夢",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "11000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】【CXコンボ】 あなたのアタックフェイズの始めに、CX置場に「「夢想天生」」があり、他のあなたの「少女綺想曲　～ Dream Battle 霊夢」がいて、他のあなたの前列のキャラがいないなら、そのターン中、このカードは次の能力を得る。『【自】［(4) 手札の「楽園の素敵な巫女 霊夢」を1枚控え室に置き、手札を4枚控え室に置く］ このカードのアタックの終わりに、あなたはコストを払ってよい。そうしたら、相手に1ダメージを2回、2ダメージを2回、3ダメージを2回、4ダメージを順番に与える。』（ダメージキャンセルは発生する）\n\"鳥の目はごまかせても。私の目はごまかせないわ<br>（「東方永夜抄　～ Imperishable Night.」より）\"",
+   "traits": [
+    "幻想郷",
+    "博麗神社"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_063.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-063EX",
+   "name": "楽園の素敵な巫女 霊夢",
+   "type": "Character",
+   "rarity": "SEC",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "11000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】【CXコンボ】 あなたのアタックフェイズの始めに、CX置場に「「夢想天生」」があり、他のあなたの「少女綺想曲　～ Dream Battle 霊夢」がいて、他のあなたの前列のキャラがいないなら、そのターン中、このカードは次の能力を得る。『【自】［(4) 手札の「楽園の素敵な巫女 霊夢」を1枚控え室に置き、手札を4枚控え室に置く］ このカードのアタックの終わりに、あなたはコストを払ってよい。そうしたら、相手に1ダメージを2回、2ダメージを2回、3ダメージを2回、4ダメージを順番に与える。』（ダメージキャンセルは発生する）\n\"-\"",
+   "traits": [
+    "幻想郷",
+    "博麗神社"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_063ex.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-063S",
+   "name": "楽園の素敵な巫女 霊夢",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "11000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】【CXコンボ】 あなたのアタックフェイズの始めに、CX置場に「「夢想天生」」があり、他のあなたの「少女綺想曲　～ Dream Battle 霊夢」がいて、他のあなたの前列のキャラがいないなら、そのターン中、このカードは次の能力を得る。『【自】［(4) 手札の「楽園の素敵な巫女 霊夢」を1枚控え室に置き、手札を4枚控え室に置く］ このカードのアタックの終わりに、あなたはコストを払ってよい。そうしたら、相手に1ダメージを2回、2ダメージを2回、3ダメージを2回、4ダメージを順番に与える。』（ダメージキャンセルは発生する）\n\"-\"",
+   "traits": [
+    "幻想郷",
+    "博麗神社"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_063s.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-064",
+   "name": "少女綺想曲　～ Dream Battle 霊夢",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【起】【ターン1】［手札の「楽園の素敵な巫女 霊夢」を1枚控え室に置く］ あなたは自分の山札を上から4枚まで見て、《幻想郷》のキャラを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置き、自分のキャラを1枚選び、そのターン中、パワーを＋1000。\n【起】 集中 ［(1) このカードを【レスト】する］ あなたは自分の山札の上から4枚をめくり、控え室に置く。それらのカードのトリガーアイコンが[[salvage.gif]]のCX1枚につき、あなたは自分の山札を上から2枚まで見て、山札の上に好きな順番で置き、自分の控え室の《幻想郷》のキャラを1枚まで選び、手札に戻す。\n\"さぁ！終らない夜は、ここでお終いよ！<br>（「東方永夜抄　～ Imperishable Night.」より）\"",
+   "traits": [
+    "幻想郷",
+    "博麗神社"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_064.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-064LNR",
+   "name": "少女綺想曲　～ Dream Battle 霊夢",
+   "type": "Character",
+   "rarity": "LNR",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【起】【ターン1】［手札の「楽園の素敵な巫女 霊夢」を1枚控え室に置く］ あなたは自分の山札を上から4枚まで見て、《幻想郷》のキャラを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置き、自分のキャラを1枚選び、そのターン中、パワーを＋1000。\n【起】 集中 ［(1) このカードを【レスト】する］ あなたは自分の山札の上から4枚をめくり、控え室に置く。それらのカードのトリガーアイコンが[[salvage.gif]]のCX1枚につき、あなたは自分の山札を上から2枚まで見て、山札の上に好きな順番で置き、自分の控え室の《幻想郷》のキャラを1枚まで選び、手札に戻す。\n\"-\"",
+   "traits": [
+    "幻想郷",
+    "博麗神社"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_064lnr.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-064S",
+   "name": "少女綺想曲　～ Dream Battle 霊夢",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【起】【ターン1】［手札の「楽園の素敵な巫女 霊夢」を1枚控え室に置く］ あなたは自分の山札を上から4枚まで見て、《幻想郷》のキャラを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置き、自分のキャラを1枚選び、そのターン中、パワーを＋1000。\n【起】 集中 ［(1) このカードを【レスト】する］ あなたは自分の山札の上から4枚をめくり、控え室に置く。それらのカードのトリガーアイコンが[[salvage.gif]]のCX1枚につき、あなたは自分の山札を上から2枚まで見て、山札の上に好きな順番で置き、自分の控え室の《幻想郷》のキャラを1枚まで選び、手札に戻す。\n\"-\"",
+   "traits": [
+    "幻想郷",
+    "博麗神社"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_064s.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-065",
+   "name": "亡き王女の為のセプテット レミリア",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から2枚を、控え室に置き、そのターン中、このカードのパワーを＋Ｘ。Ｘはそれらのカードの《幻想郷》のキャラの枚数×1000に等しい。\n【自】［他のあなたの舞台のキャラを1枚控え室に置く］ あなたのCXがCX置場に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を上から4枚まで見て、《幻想郷》のキャラを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。\n\"霊夢「こんなに月も紅いのに」<br>レミリア「楽しい夜になりそうね」<br>（「東方紅魔郷　～ the Embodiment of Scarlet Devil.」より）\"",
+   "traits": [
+    "幻想郷",
+    "紅魔館"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_065.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-065LNR",
+   "name": "亡き王女の為のセプテット レミリア",
+   "type": "Character",
+   "rarity": "LNR",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から2枚を、控え室に置き、そのターン中、このカードのパワーを＋Ｘ。Ｘはそれらのカードの《幻想郷》のキャラの枚数×1000に等しい。\n【自】［他のあなたの舞台のキャラを1枚控え室に置く］ あなたのCXがCX置場に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を上から4枚まで見て、《幻想郷》のキャラを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。\n\"-\"",
+   "traits": [
+    "幻想郷",
+    "紅魔館"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_065lnr.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-065S",
+   "name": "亡き王女の為のセプテット レミリア",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から2枚を、控え室に置き、そのターン中、このカードのパワーを＋Ｘ。Ｘはそれらのカードの《幻想郷》のキャラの枚数×1000に等しい。\n【自】［他のあなたの舞台のキャラを1枚控え室に置く］ あなたのCXがCX置場に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を上から4枚まで見て、《幻想郷》のキャラを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。\n\"-\"",
+   "traits": [
+    "幻想郷",
+    "紅魔館"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_065s.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-066",
+   "name": "境界の妖怪 紫",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋Ｘ。Ｘはそのキャラのレベル×500に等しい。\n【起】［他のあなたの舞台の《幻想郷》のキャラを1枚控え室に置き、このカードを【レスト】する］ あなたは1枚引く。\n\"まだ、夜は始まったばっかよ。焦らないの<br>（「東方永夜抄　～ Imperishable Night.」より）\"",
+   "traits": [
+    "幻想郷",
+    "境界"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_066.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-066S",
+   "name": "境界の妖怪 紫",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋Ｘ。Ｘはそのキャラのレベル×500に等しい。\n【起】［他のあなたの舞台の《幻想郷》のキャラを1枚控え室に置き、このカードを【レスト】する］ あなたは1枚引く。\n\"-\"",
+   "traits": [
+    "幻想郷",
+    "境界"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_066s.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-066SP",
+   "name": "境界の妖怪 紫",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋Ｘ。Ｘはそのキャラのレベル×500に等しい。\n【起】［他のあなたの舞台の《幻想郷》のキャラを1枚控え室に置き、このカードを【レスト】する］ あなたは1枚引く。\n\"-\"",
+   "traits": [
+    "幻想郷",
+    "境界"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_066sp.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-067",
+   "name": "宵闇の妖怪 ルーミア",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 このカードは、色条件を満たさずに手札からプレイできる。\n【自】［(2)］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、次の2つの効果のうちあなたが選んだ1つを行う。『相手は自分のストックすべてを、山札に戻し、その山札をシャッフルし、自分の山札の上から同じ枚数をストック置場に置く。』『相手は自分の控え室のCXを1枚選び、そのカード以外の控え室のカードすべてを、山札に戻し、その山札をシャッフルする。』\n\"目の前が取って食べれる人類？<br>（「東方紅魔郷　～ the Embodiment of Scarlet Devil.」より）\"",
+   "traits": [
+    "幻想郷",
+    "闇"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_067.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-067S",
+   "name": "宵闇の妖怪 ルーミア",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 このカードは、色条件を満たさずに手札からプレイできる。\n【自】［(2)］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、次の2つの効果のうちあなたが選んだ1つを行う。『相手は自分のストックすべてを、山札に戻し、その山札をシャッフルし、自分の山札の上から同じ枚数をストック置場に置く。』『相手は自分の控え室のCXを1枚選び、そのカード以外の控え室のカードすべてを、山札に戻し、その山札をシャッフルする。』\n\"-\"",
+   "traits": [
+    "幻想郷",
+    "闇"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_067s.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-067SP",
+   "name": "宵闇の妖怪 ルーミア",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 このカードは、色条件を満たさずに手札からプレイできる。\n【自】［(2)］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、次の2つの効果のうちあなたが選んだ1つを行う。『相手は自分のストックすべてを、山札に戻し、その山札をシャッフルし、自分の山札の上から同じ枚数をストック置場に置く。』『相手は自分の控え室のCXを1枚選び、そのカード以外の控え室のカードすべてを、山札に戻し、その山札をシャッフルする。』\n\"-\"",
+   "traits": [
+    "幻想郷",
+    "闇"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_067sp.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-068",
+   "name": "月時計　～ ルナ・ダイアル 咲夜",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "3500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋2000。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n【起】［(2) 手札を2枚控え室に置き、このカードを【レスト】する］ 相手に2ダメージを与える。（ダメージキャンセルは発生する）\n\"あなたの時間も私のもの・・・古風な魔女に勝ち目は、ない<br>（「東方紅魔郷　～ the Embodiment of Scarlet Devil.」より）\"",
+   "traits": [
+    "幻想郷",
+    "紅魔館"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_068.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-068LNR",
+   "name": "月時計　～ ルナ・ダイアル 咲夜",
+   "type": "Character",
+   "rarity": "LNR",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "3500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋2000。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n【起】［(2) 手札を2枚控え室に置き、このカードを【レスト】する］ 相手に2ダメージを与える。（ダメージキャンセルは発生する）\n\"-\"",
+   "traits": [
+    "幻想郷",
+    "紅魔館"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_068lnr.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-068S",
+   "name": "月時計　～ ルナ・ダイアル 咲夜",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "3500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋2000。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n【起】［(2) 手札を2枚控え室に置き、このカードを【レスト】する］ 相手に2ダメージを与える。（ダメージキャンセルは発生する）\n\"-\"",
+   "traits": [
+    "幻想郷",
+    "紅魔館"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_068s.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-069",
+   "name": "U.N.オーエンは彼女なのか? フランドール",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "9000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの《幻想郷》のキャラが2枚以上なら、このカードのパワーを＋1000し、このカードは次の能力を得る。『【自】［(1)］ このカードがアタックした時、あなたはコストを払ってよい。そうしたら、そのアタック中、あなたはトリガーステップにトリガーチェックを2回行う。』\n【自】【CXコンボ】［(1) あなたのCX置場の「禁忌「レーヴァテイン」」を1枚控え室に置く］ あなたのアンコールステップの始めに、あなたの手札が5枚以下で、他のあなたの《幻想郷》のキャラが3枚以上なら、あなたはコストを払ってよい。そうしたら、相手の後列のキャラすべてを、控え室に置く。\n\"She died by the bullet and then there were none.<br>（一人が弾幕を避けきれず そして誰もいなくなった）<br>（「東方紅魔郷　～ the Embodiment of Scarlet Devil.」より）\"",
+   "traits": [
+    "幻想郷",
+    "紅魔館"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_069.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-069LNR",
+   "name": "U.N.オーエンは彼女なのか? フランドール",
+   "type": "Character",
+   "rarity": "LNR",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "9000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの《幻想郷》のキャラが2枚以上なら、このカードのパワーを＋1000し、このカードは次の能力を得る。『【自】［(1)］ このカードがアタックした時、あなたはコストを払ってよい。そうしたら、そのアタック中、あなたはトリガーステップにトリガーチェックを2回行う。』\n【自】【CXコンボ】［(1) あなたのCX置場の「禁忌「レーヴァテイン」」を1枚控え室に置く］ あなたのアンコールステップの始めに、あなたの手札が5枚以下で、他のあなたの《幻想郷》のキャラが3枚以上なら、あなたはコストを払ってよい。そうしたら、相手の後列のキャラすべてを、控え室に置く。\n\"-\"",
+   "traits": [
+    "幻想郷",
+    "紅魔館"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_069lnr.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-069S",
+   "name": "U.N.オーエンは彼女なのか? フランドール",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "9000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの《幻想郷》のキャラが2枚以上なら、このカードのパワーを＋1000し、このカードは次の能力を得る。『【自】［(1)］ このカードがアタックした時、あなたはコストを払ってよい。そうしたら、そのアタック中、あなたはトリガーステップにトリガーチェックを2回行う。』\n【自】【CXコンボ】［(1) あなたのCX置場の「禁忌「レーヴァテイン」」を1枚控え室に置く］ あなたのアンコールステップの始めに、あなたの手札が5枚以下で、他のあなたの《幻想郷》のキャラが3枚以上なら、あなたはコストを払ってよい。そうしたら、相手の後列のキャラすべてを、控え室に置く。\n\"-\"",
+   "traits": [
+    "幻想郷",
+    "紅魔館"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_069s.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-070",
+   "name": "小悪魔",
+   "type": "Character",
+   "rarity": "U",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から1枚を公開する。そのカードが《幻想郷》のキャラかイベントなら手札に加え、あなたは自分の手札を1枚選び、控え室に置く。（そうでないなら元に戻す）\n【自】［手札の《幻想郷》のキャラを1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは1枚引く。\n\"-\"",
+   "traits": [
+    "幻想郷",
+    "紅魔館"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_070.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-070S",
+   "name": "小悪魔",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から1枚を公開する。そのカードが《幻想郷》のキャラかイベントなら手札に加え、あなたは自分の手札を1枚選び、控え室に置く。（そうでないなら元に戻す）\n【自】［手札の《幻想郷》のキャラを1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは1枚引く。\n\"-\"",
+   "traits": [
+    "幻想郷",
+    "紅魔館"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_070s.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-071",
+   "name": "表情豊かなポーカーフェイス こころ",
+   "type": "Character",
+   "rarity": "U",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのターン中、このカードのパワーを＋3000。\n【自】 このカードがアタックした時、そのアタック中、あなたはトリガーステップにトリガーチェックを2回行う。2回行ったら、あなたは自分のストックの上から1枚を、控え室に置く。\n\"貴方に怨みは無いが 幻想郷の希望 全て私が頂こう！全ての人間の感情の為に！<br>（「東方心綺楼　～ Hopeless Masquerade.」より）\"",
+   "traits": [
+    "幻想郷",
+    "面霊気"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_071.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-071S",
+   "name": "表情豊かなポーカーフェイス こころ",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのターン中、このカードのパワーを＋3000。\n【自】 このカードがアタックした時、そのアタック中、あなたはトリガーステップにトリガーチェックを2回行う。2回行ったら、あなたは自分のストックの上から1枚を、控え室に置く。\n\"-\"",
+   "traits": [
+    "幻想郷",
+    "面霊気"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_071s.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-071SP",
+   "name": "表情豊かなポーカーフェイス こころ",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのターン中、このカードのパワーを＋3000。\n【自】 このカードがアタックした時、そのアタック中、あなたはトリガーステップにトリガーチェックを2回行う。2回行ったら、あなたは自分のストックの上から1枚を、控え室に置く。\n\"-\"",
+   "traits": [
+    "幻想郷",
+    "面霊気"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_071sp.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-072",
+   "name": "非想非非想天の娘 天子",
+   "type": "Character",
+   "rarity": "U",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたのターン中、他のあなたの《幻想郷》のキャラがいるなら、このカードのパワーを＋4500。\n【自】【CXコンボ】【ターン1】 このカードの与えたダメージがキャンセルされた時、あなたのCX置場に「「全人類の緋想天」」があり、あなたの手札が6枚以下で、他のあなたの《幻想郷》のキャラが2枚以上なら、あなたは自分の控え室の《幻想郷》のキャラを2枚まで選び、手札に戻す。\n\"空の天気も、地の安定も、人の気質も私の掌の上<br>数多の妖怪を退治してきた貴方の天気！見せて貰うわよ<br>（「東方緋想天　～ Scarlet Weather Rhapsody.」より）\"",
+   "traits": [
+    "幻想郷",
+    "天界"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_072.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-072S",
+   "name": "非想非非想天の娘 天子",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたのターン中、他のあなたの《幻想郷》のキャラがいるなら、このカードのパワーを＋4500。\n【自】【CXコンボ】【ターン1】 このカードの与えたダメージがキャンセルされた時、あなたのCX置場に「「全人類の緋想天」」があり、あなたの手札が6枚以下で、他のあなたの《幻想郷》のキャラが2枚以上なら、あなたは自分の控え室の《幻想郷》のキャラを2枚まで選び、手札に戻す。\n\"-\"",
+   "traits": [
+    "幻想郷",
+    "天界"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_072s.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-072SP",
+   "name": "非想非非想天の娘 天子",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたのターン中、他のあなたの《幻想郷》のキャラがいるなら、このカードのパワーを＋4500。\n【自】【CXコンボ】【ターン1】 このカードの与えたダメージがキャンセルされた時、あなたのCX置場に「「全人類の緋想天」」があり、あなたの手札が6枚以下で、他のあなたの《幻想郷》のキャラが2枚以上なら、あなたは自分の控え室の《幻想郷》のキャラを2枚まで選び、手札に戻す。\n\"-\"",
+   "traits": [
+    "幻想郷",
+    "天界"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_072sp.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-073",
+   "name": "不羈奔放の古豪 萃香",
+   "type": "Character",
+   "rarity": "U",
+   "color": "red",
+   "level": "1",
+   "cost": "1",
+   "power": "5500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのキャラすべてが《幻想郷》なら、このカードは次の2つの能力を得る。『【永】 あなたのターン中、このカードのパワーを＋3000。』『【自】 アンコール ［手札のキャラを1枚控え室に置く］』\n【自】 このカードのバトル相手が【リバース】した時、あなたのCX置場にトリガーアイコンが[[salvage.gif]]のCXがあり、他のあなたの《幻想郷》のキャラがいるなら、あなたは自分の山札を上から4枚まで見て、カードを1枚まで選び、手札に加え、残りのカードを控え室に置き、自分の手札を1枚選び、控え室に置く。\n\"-\"",
+   "traits": [
+    "幻想郷",
+    "妖怪の山"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_073.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-073S",
+   "name": "不羈奔放の古豪 萃香",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "1",
+   "cost": "1",
+   "power": "5500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのキャラすべてが《幻想郷》なら、このカードは次の2つの能力を得る。『【永】 あなたのターン中、このカードのパワーを＋3000。』『【自】 アンコール ［手札のキャラを1枚控え室に置く］』\n【自】 このカードのバトル相手が【リバース】した時、あなたのCX置場にトリガーアイコンが[[salvage.gif]]のCXがあり、他のあなたの《幻想郷》のキャラがいるなら、あなたは自分の山札を上から4枚まで見て、カードを1枚まで選び、手札に加え、残りのカードを控え室に置き、自分の手札を1枚選び、控え室に置く。\n\"-\"",
+   "traits": [
+    "幻想郷",
+    "妖怪の山"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_073s.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-074",
+   "name": "博麗神社の巫女さん 霊夢",
+   "type": "Character",
+   "rarity": "U",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 他のあなたの「楽園の素敵な巫女 霊夢」の【CXコンボ】の効果で得た【自】の効果で与えたダメージがキャンセルされなかった時、あなたは自分の控え室のカードを1枚選び、このカードの下にマーカーとして裏向きに置く。\n【自】 あなたのアンコールステップの始めに、あなたはこのカードのマーカーすべてを、控え室に置き、それらのカードの枚数が7枚以上なら、相手に1ダメージを12回与える。（ダメージキャンセルは発生する）\n【起】［他のあなたの舞台の《幻想郷》のキャラを2枚控え室に置き、このカードを【レスト】する］ あなたは2枚まで引く。\n\"-\"",
+   "traits": [
+    "幻想郷",
+    "博麗神社"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_074.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-074S",
+   "name": "博麗神社の巫女さん 霊夢",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 他のあなたの「楽園の素敵な巫女 霊夢」の【CXコンボ】の効果で得た【自】の効果で与えたダメージがキャンセルされなかった時、あなたは自分の控え室のカードを1枚選び、このカードの下にマーカーとして裏向きに置く。\n【自】 あなたのアンコールステップの始めに、あなたはこのカードのマーカーすべてを、控え室に置き、それらのカードの枚数が7枚以上なら、相手に1ダメージを12回与える。（ダメージキャンセルは発生する）\n【起】［他のあなたの舞台の《幻想郷》のキャラを2枚控え室に置き、このカードを【レスト】する］ あなたは2枚まで引く。\n\"-\"",
+   "traits": [
+    "幻想郷",
+    "博麗神社"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_074s.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-075",
+   "name": "華人小娘 美鈴",
+   "type": "Character",
+   "rarity": "U",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの《幻想郷》のキャラが4枚以上なら、このカードのパワーを＋6000。\n【自】 このカードが手札から舞台に置かれた時、他のあなたの《幻想郷》のキャラが2枚以上なら、あなたは2枚引いてよい。そうしたら、あなたは自分の手札を2枚選び、控え室に置く。\n【自】 このカードが手札から舞台に置かれた時、他のあなたの《幻想郷》のキャラが4枚以上なら、あなたは自分の控え室の《幻想郷》のキャラを1枚選び、ストック置場に置いてよい。\n\"くそ、背水の陣だ！<br>（「東方紅魔郷　～ the Embodiment of Scarlet Devil.」より）\"",
+   "traits": [
+    "幻想郷",
+    "紅魔館"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_075.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-075S",
+   "name": "華人小娘 美鈴",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの《幻想郷》のキャラが4枚以上なら、このカードのパワーを＋6000。\n【自】 このカードが手札から舞台に置かれた時、他のあなたの《幻想郷》のキャラが2枚以上なら、あなたは2枚引いてよい。そうしたら、あなたは自分の手札を2枚選び、控え室に置く。\n【自】 このカードが手札から舞台に置かれた時、他のあなたの《幻想郷》のキャラが4枚以上なら、あなたは自分の控え室の《幻想郷》のキャラを1枚選び、ストック置場に置いてよい。\n\"-\"",
+   "traits": [
+    "幻想郷",
+    "紅魔館"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_075s.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-076",
+   "name": "恐ろしい波動 フランドール",
+   "type": "Character",
+   "rarity": "U",
+   "color": "red",
+   "level": "2",
+   "cost": "2",
+   "power": "7500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたのターン中、他のあなたの《幻想郷》のキャラが2枚以上なら、このカードのパワーを＋3000し、このカードは次の能力を得る。『【自】 このカードがアタックした時、あなたは自分の山札を上から1枚見て、山札の上か控え室に置く。』\n【自】 アンコール ［手札の《幻想郷》のキャラを1枚控え室に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"-\"",
+   "traits": [
+    "幻想郷",
+    "紅魔館"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_076.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-076S",
+   "name": "恐ろしい波動 フランドール",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "2",
+   "cost": "2",
+   "power": "7500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたのターン中、他のあなたの《幻想郷》のキャラが2枚以上なら、このカードのパワーを＋3000し、このカードは次の能力を得る。『【自】 このカードがアタックした時、あなたは自分の山札を上から1枚見て、山札の上か控え室に置く。』\n【自】 アンコール ［手札の《幻想郷》のキャラを1枚控え室に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"-\"",
+   "traits": [
+    "幻想郷",
+    "紅魔館"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_076s.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-077",
+   "name": "美しき緋の衣 衣玖",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたのターン中、他のあなたの前列の「非想非非想天の娘 天子」がいるなら、このカードのパワーを＋6000し、ソウルを＋1。\n【起】［【スタンド】しているこのカードを控え室に置く］ あなたのレベルが1以上なら、あなたは自分の控え室の「非想非非想天の娘 天子」を1枚選び、このカードがいた枠に置く。\n\"私達は、ある異変を伝えるためだけに空を泳ぐ龍宮の使い<br>（「東方緋想天　～ Scarlet Weather Rhapsody.」より）\"",
+   "traits": [
+    "幻想郷",
+    "竜宮の使い"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_077.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-077S",
+   "name": "美しき緋の衣 衣玖",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたのターン中、他のあなたの前列の「非想非非想天の娘 天子」がいるなら、このカードのパワーを＋6000し、ソウルを＋1。\n【起】［【スタンド】しているこのカードを控え室に置く］ あなたのレベルが1以上なら、あなたは自分の控え室の「非想非非想天の娘 天子」を1枚選び、このカードがいた枠に置く。\n\"-\"",
+   "traits": [
+    "幻想郷",
+    "竜宮の使い"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_077s.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-078",
+   "name": "色鮮やかに虹色な門番 美鈴",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時かアタックした時、あなたは自分の山札の上から3枚を、控え室に置いてよい。\n\"-\"",
+   "traits": [
+    "幻想郷",
+    "紅魔館"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_078.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-078S",
+   "name": "色鮮やかに虹色な門番 美鈴",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時かアタックした時、あなたは自分の山札の上から3枚を、控え室に置いてよい。\n\"-\"",
+   "traits": [
+    "幻想郷",
+    "紅魔館"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_078s.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-079",
+   "name": "瀟洒なメイド 咲夜",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは他の自分の《幻想郷》のキャラを1枚選び、そのターン中、パワーを＋1000。\n【自】【CXコンボ】［このカードを手札に戻し、あなたのCX置場のCXを1枚控え室に置く］ あなたのCX置場に「幻象「ルナクロック」」が置かれた時、あなたはコストを払ってよい。そうしたら、あなたは1枚引く。\n\"私は十六夜咲夜<br>紅魔館でメイドをしています<br>（「東方虹龍洞　～ Unconnected Marketeers.」より）\"",
+   "traits": [
+    "幻想郷",
+    "紅魔館"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_079.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-079S",
+   "name": "瀟洒なメイド 咲夜",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは他の自分の《幻想郷》のキャラを1枚選び、そのターン中、パワーを＋1000。\n【自】【CXコンボ】［このカードを手札に戻し、あなたのCX置場のCXを1枚控え室に置く］ あなたのCX置場に「幻象「ルナクロック」」が置かれた時、あなたはコストを払ってよい。そうしたら、あなたは1枚引く。\n\"-\"",
+   "traits": [
+    "幻想郷",
+    "紅魔館"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_079s.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-080",
+   "name": "知識と日陰の少女 パチュリー",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1) 手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を上から7枚まで見て、《幻想郷》のキャラを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置き、そのターン中、このカードのパワーを＋1500。\n\"えぇーと、目の前の黒いのを消極的にやっつけるには・・・<br>（「東方紅魔郷　～ the Embodiment of Scarlet Devil.」より）\"",
+   "traits": [
+    "幻想郷",
+    "紅魔館"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_080.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-080S",
+   "name": "知識と日陰の少女 パチュリー",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1) 手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を上から7枚まで見て、《幻想郷》のキャラを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置き、そのターン中、このカードのパワーを＋1500。\n\"-\"",
+   "traits": [
+    "幻想郷",
+    "紅魔館"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_080s.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-081",
+   "name": "紅い悪魔 レミリア",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "1",
+   "cost": "1",
+   "power": "5500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの《幻想郷》のキャラが2枚以上なら、このカードのパワーを＋1500し、このカードは次の能力を得る。『【自】 このカードがアタックした時、あなたは自分の山札を上から1枚見て、山札の上か控え室に置く。』\n【自】 アンコール ［手札のキャラを1枚控え室に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"-\"",
+   "traits": [
+    "幻想郷",
+    "紅魔館"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_081.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-081S",
+   "name": "紅い悪魔 レミリア",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "1",
+   "cost": "1",
+   "power": "5500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの《幻想郷》のキャラが2枚以上なら、このカードのパワーを＋1500し、このカードは次の能力を得る。『【自】 このカードがアタックした時、あなたは自分の山札を上から1枚見て、山札の上か控え室に置く。』\n【自】 アンコール ［手札のキャラを1枚控え室に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"-\"",
+   "traits": [
+    "幻想郷",
+    "紅魔館"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_081s.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-082",
+   "name": "小鈴のコレクション",
+   "type": "Event",
+   "rarity": "U",
+   "color": "red",
+   "level": "3",
+   "cost": "5",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "［手札の「小鈴のコレクション」を1枚控え室に置く］ あなたはコストを払ってよい。そうしたら、相手に6ダメージを2回与える。（ダメージキャンセルは発生する）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_082.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-082S",
+   "name": "小鈴のコレクション",
+   "type": "Event",
+   "rarity": "SR",
+   "color": "red",
+   "level": "3",
+   "cost": "5",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "［手札の「小鈴のコレクション」を1枚控え室に置く］ あなたはコストを払ってよい。そうしたら、相手に6ダメージを2回与える。（ダメージキャンセルは発生する）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_082s.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-083",
+   "name": "夢符「封魔陣」",
+   "type": "Climax",
+   "rarity": "CR",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[salvage.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[salvage.gif]]：このカードがトリガーした時、あなたは自分の控え室のキャラを1枚選び、手札に戻してよい）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_083.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-083R",
+   "name": "夢符「封魔陣」",
+   "type": "Climax",
+   "rarity": "RRR",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[salvage.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[salvage.gif]]：このカードがトリガーした時、あなたは自分の控え室のキャラを1枚選び、手札に戻してよい）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_083r.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-084",
+   "name": "「紅色の幻想郷」",
+   "type": "Climax",
+   "rarity": "CR",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[standby.gif]]",
+   "text": "【自】 このカードが手札からCX置場に置かれた時、[[standby.gif]]の効果を行う。\n（[[standby.gif]]：このカードがトリガーした時、あなたは自分の控え室の自分のレベル＋1以下のレベルのキャラを1枚選び、舞台の好きな枠に【レスト】して置いてよい）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_084.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-084R",
+   "name": "「紅色の幻想郷」",
+   "type": "Climax",
+   "rarity": "RRR",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[standby.gif]]",
+   "text": "【自】 このカードが手札からCX置場に置かれた時、[[standby.gif]]の効果を行う。\n（[[standby.gif]]：このカードがトリガーした時、あなたは自分の控え室の自分のレベル＋1以下のレベルのキャラを1枚選び、舞台の好きな枠に【レスト】して置いてよい）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_084r.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-085",
+   "name": "「夢想天生」",
+   "type": "Climax",
+   "rarity": "CR",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[salvage.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[salvage.gif]]：このカードがトリガーした時、あなたは自分の控え室のキャラを1枚選び、手札に戻してよい）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_085.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-085R",
+   "name": "「夢想天生」",
+   "type": "Climax",
+   "rarity": "RRR",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[salvage.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[salvage.gif]]：このカードがトリガーした時、あなたは自分の控え室のキャラを1枚選び、手札に戻してよい）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_085r.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-086",
+   "name": "禁忌「レーヴァテイン」",
+   "type": "Climax",
+   "rarity": "CR",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[standby.gif]]",
+   "text": "【自】 このカードが手札からCX置場に置かれた時、[[standby.gif]]の効果を行う。\n（[[standby.gif]]：このカードがトリガーした時、あなたは自分の控え室の自分のレベル＋1以下のレベルのキャラを1枚選び、舞台の好きな枠に【レスト】して置いてよい）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_086.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-086R",
+   "name": "禁忌「レーヴァテイン」",
+   "type": "Climax",
+   "rarity": "RRR",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[standby.gif]]",
+   "text": "【自】 このカードが手札からCX置場に置かれた時、[[standby.gif]]の効果を行う。\n（[[standby.gif]]：このカードがトリガーした時、あなたは自分の控え室の自分のレベル＋1以下のレベルのキャラを1枚選び、舞台の好きな枠に【レスト】して置いてよい）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_086r.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-087",
+   "name": "「全人類の緋想天」",
+   "type": "Climax",
+   "rarity": "CR",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【永】 あなたのキャラすべてに、ソウルを＋2。\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_087.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-087R",
+   "name": "「全人類の緋想天」",
+   "type": "Climax",
+   "rarity": "RRR",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【永】 あなたのキャラすべてに、ソウルを＋2。\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_087r.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-088",
+   "name": "幻象「ルナクロック」",
+   "type": "Climax",
+   "rarity": "CR",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[standby.gif]]",
+   "text": "【自】 このカードが手札からCX置場に置かれた時、[[standby.gif]]の効果を行う。\n（[[standby.gif]]：このカードがトリガーした時、あなたは自分の控え室の自分のレベル＋1以下のレベルのキャラを1枚選び、舞台の好きな枠に【レスト】して置いてよい）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_088.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-088R",
+   "name": "幻象「ルナクロック」",
+   "type": "Climax",
+   "rarity": "RRR",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[standby.gif]]",
+   "text": "【自】 このカードが手札からCX置場に置かれた時、[[standby.gif]]の効果を行う。\n（[[standby.gif]]：このカードがトリガーした時、あなたは自分の控え室の自分のレベル＋1以下のレベルのキャラを1枚選び、舞台の好きな枠に【レスト】して置いてよい）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_088r.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-089",
+   "name": "幽人の庭師 妖夢",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札の上から1枚を公開し、自分の控え室のレベルＸ以下のキャラを1枚選び、手札に戻す。Ｘは公開されたカードのレベルに等しい。（CXのレベルは0として扱う。公開したカードは元に戻す）\n【自】 このカードがアタックした時、そのアタック中、あなたはトリガーステップにトリガーチェックを2回行う。2回行ったら、あなたは自分のストックの上から1枚を、控え室に置く。\n\"満開まであと一押し！<br>（「東方妖々夢　～ Perfect Cherry Blossom.」より）\"",
+   "traits": [
+    "幻想郷",
+    "白玉楼"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_089.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-089S",
+   "name": "幽人の庭師 妖夢",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札の上から1枚を公開し、自分の控え室のレベルＸ以下のキャラを1枚選び、手札に戻す。Ｘは公開されたカードのレベルに等しい。（CXのレベルは0として扱う。公開したカードは元に戻す）\n【自】 このカードがアタックした時、そのアタック中、あなたはトリガーステップにトリガーチェックを2回行う。2回行ったら、あなたは自分のストックの上から1枚を、控え室に置く。\n\"-\"",
+   "traits": [
+    "幻想郷",
+    "白玉楼"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_089s.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-089SP",
+   "name": "幽人の庭師 妖夢",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札の上から1枚を公開し、自分の控え室のレベルＸ以下のキャラを1枚選び、手札に戻す。Ｘは公開されたカードのレベルに等しい。（CXのレベルは0として扱う。公開したカードは元に戻す）\n【自】 このカードがアタックした時、そのアタック中、あなたはトリガーステップにトリガーチェックを2回行う。2回行ったら、あなたは自分のストックの上から1枚を、控え室に置く。\n\"-\"",
+   "traits": [
+    "幻想郷",
+    "白玉楼"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_089sp.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-090",
+   "name": "幽冥楼閣の亡霊少女 幽々子",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "blue",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n【自】【CXコンボ】 このカードがアタックした時、CX置場に「「反魂蝶　‐八分咲‐」」があり、他のあなたの《幻想郷》のキャラが2枚以上なら、次の2つの効果のうちあなたが選んだ1つを行う。『あなたは自分の控え室の「半人半霊 妖夢」を1枚まで選び、舞台の好きな枠に置き、そのターン中、あなたは4回目以降のアタックができない。』『［(1) 手札を1枚控え室に置く］ あなたはコストを払ってよい。そうしたら、相手に2ダメージを与え、次の相手のターンの終わりまで、このカードのパワーを＋1000。』（ダメージキャンセルは発生する）\n\"もう少しなのよ もう少しで、西行妖（さいぎょうあやかし）が満開になるの<br>（「東方妖々夢　～ Perfect Cherry Blossom.」より）\"",
+   "traits": [
+    "幻想郷",
+    "白玉楼"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_090.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-090S",
+   "name": "幽冥楼閣の亡霊少女 幽々子",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n【自】【CXコンボ】 このカードがアタックした時、CX置場に「「反魂蝶　‐八分咲‐」」があり、他のあなたの《幻想郷》のキャラが2枚以上なら、次の2つの効果のうちあなたが選んだ1つを行う。『あなたは自分の控え室の「半人半霊 妖夢」を1枚まで選び、舞台の好きな枠に置き、そのターン中、あなたは4回目以降のアタックができない。』『［(1) 手札を1枚控え室に置く］ あなたはコストを払ってよい。そうしたら、相手に2ダメージを与え、次の相手のターンの終わりまで、このカードのパワーを＋1000。』（ダメージキャンセルは発生する）\n\"-\"",
+   "traits": [
+    "幻想郷",
+    "白玉楼"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_090s.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-090SSP",
+   "name": "幽冥楼閣の亡霊少女 幽々子",
+   "type": "Character",
+   "rarity": "SSP",
+   "color": "blue",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n【自】【CXコンボ】 このカードがアタックした時、CX置場に「「反魂蝶　‐八分咲‐」」があり、他のあなたの《幻想郷》のキャラが2枚以上なら、次の2つの効果のうちあなたが選んだ1つを行う。『あなたは自分の控え室の「半人半霊 妖夢」を1枚まで選び、舞台の好きな枠に置き、そのターン中、あなたは4回目以降のアタックができない。』『［(1) 手札を1枚控え室に置く］ あなたはコストを払ってよい。そうしたら、相手に2ダメージを与え、次の相手のターンの終わりまで、このカードのパワーを＋1000。』（ダメージキャンセルは発生する）\n\"-\"",
+   "traits": [
+    "幻想郷",
+    "白玉楼"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_090ssp.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-091",
+   "name": "湖上の氷精 チルノ",
+   "type": "Character",
+   "rarity": "R",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 このカードと同じカード名のカードは、デッキに好きな枚数入れることができる。\n【永】 あなたはイベントと『助太刀』を手札からプレイできない。\n【永】 他のあなたの「湖上の氷精 チルノ」1枚につき、このカードのパワーを＋1000。\n\"あんたなんて、英吉利牛と一緒に冷凍保存してやるわ！！<br>（「東方紅魔郷　～ the Embodiment of Scarlet Devil.」より）\"",
+   "traits": [
+    "幻想郷",
+    "霧の湖"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_091.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-091S",
+   "name": "湖上の氷精 チルノ",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 このカードと同じカード名のカードは、デッキに好きな枚数入れることができる。\n【永】 あなたはイベントと『助太刀』を手札からプレイできない。\n【永】 他のあなたの「湖上の氷精 チルノ」1枚につき、このカードのパワーを＋1000。\n\"-\"",
+   "traits": [
+    "幻想郷",
+    "霧の湖"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_091s.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-091SP",
+   "name": "湖上の氷精 チルノ",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 このカードと同じカード名のカードは、デッキに好きな枚数入れることができる。\n【永】 あなたはイベントと『助太刀』を手札からプレイできない。\n【永】 他のあなたの「湖上の氷精 チルノ」1枚につき、このカードのパワーを＋1000。\n\"-\"",
+   "traits": [
+    "幻想郷",
+    "霧の湖"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_091sp.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-092",
+   "name": "人形裁判　～ 人の形弄びし少女 アリス",
+   "type": "Character",
+   "rarity": "R",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 このカードの正面のキャラに、『【自】 アンコール ［(2)］』を与える。\n【自】 相手のアタックフェイズの始めに、あなたのキャラすべてが《幻想郷》なら、あなたは自分の山札の上から1枚を、控え室に置いてよい。そのカードがレベル2以下のキャラなら、そのターン中、このカードは次の能力を得る。『【自】 このカードがフロントアタックされた時、あなたはこのカードを手札に戻してよい。』\n\"所詮、巫女は二色 その力は私の二割八分六厘にも満たない<br>（「東方妖々夢　～ Perfect Cherry Blossom.」より）\"",
+   "traits": [
+    "幻想郷",
+    "魔法の森"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_092.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-092LNR",
+   "name": "人形裁判　～ 人の形弄びし少女 アリス",
+   "type": "Character",
+   "rarity": "LNR",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 このカードの正面のキャラに、『【自】 アンコール ［(2)］』を与える。\n【自】 相手のアタックフェイズの始めに、あなたのキャラすべてが《幻想郷》なら、あなたは自分の山札の上から1枚を、控え室に置いてよい。そのカードがレベル2以下のキャラなら、そのターン中、このカードは次の能力を得る。『【自】 このカードがフロントアタックされた時、あなたはこのカードを手札に戻してよい。』\n\"-\"",
+   "traits": [
+    "幻想郷",
+    "魔法の森"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_092lnr.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-092S",
+   "name": "人形裁判　～ 人の形弄びし少女 アリス",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 このカードの正面のキャラに、『【自】 アンコール ［(2)］』を与える。\n【自】 相手のアタックフェイズの始めに、あなたのキャラすべてが《幻想郷》なら、あなたは自分の山札の上から1枚を、控え室に置いてよい。そのカードがレベル2以下のキャラなら、そのターン中、このカードは次の能力を得る。『【自】 このカードがフロントアタックされた時、あなたはこのカードを手札に戻してよい。』\n\"-\"",
+   "traits": [
+    "幻想郷",
+    "魔法の森"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_092s.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-093",
+   "name": "広有射怪鳥事　～ Till When? 妖夢",
+   "type": "Character",
+   "rarity": "R",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、そのターン中、このカードのパワーを＋1500。\n【自】【CXコンボ】 あなたのCX置場に「天上剣「天人の五衰」」が置かれた時、他のあなたの《幻想郷》のキャラが2枚以上なら、そのターン中、このカードは次の2つの能力を得る。『【自】［(1)］ このカードがアタックした時、あなたはコストを払ってよい。そうしたら、そのアタック中、あなたはトリガーステップにトリガーチェックを2回行う。』『【自】 このカードのアタックの終わりに、あなたは自分の山札の上から1枚を公開し、自分の控え室のレベルＸ以下のキャラを1枚選び、手札に戻す。Ｘは公開されたカードのレベルに等しい。』（CXのレベルは0として扱う。公開したカードは元に戻す）\n\"妖怪が鍛えたこの楼観剣に 斬れぬものなど、あんまり無い！<br>（「東方妖々夢　～ Perfect Cherry Blossom.」より）\"",
+   "traits": [
+    "幻想郷",
+    "白玉楼"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_093.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-093LNR",
+   "name": "広有射怪鳥事　～ Till When? 妖夢",
+   "type": "Character",
+   "rarity": "LNR",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、そのターン中、このカードのパワーを＋1500。\n【自】【CXコンボ】 あなたのCX置場に「天上剣「天人の五衰」」が置かれた時、他のあなたの《幻想郷》のキャラが2枚以上なら、そのターン中、このカードは次の2つの能力を得る。『【自】［(1)］ このカードがアタックした時、あなたはコストを払ってよい。そうしたら、そのアタック中、あなたはトリガーステップにトリガーチェックを2回行う。』『【自】 このカードのアタックの終わりに、あなたは自分の山札の上から1枚を公開し、自分の控え室のレベルＸ以下のキャラを1枚選び、手札に戻す。Ｘは公開されたカードのレベルに等しい。』（CXのレベルは0として扱う。公開したカードは元に戻す）\n\"-\"",
+   "traits": [
+    "幻想郷",
+    "白玉楼"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_093lnr.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-093S",
+   "name": "広有射怪鳥事　～ Till When? 妖夢",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、そのターン中、このカードのパワーを＋1500。\n【自】【CXコンボ】 あなたのCX置場に「天上剣「天人の五衰」」が置かれた時、他のあなたの《幻想郷》のキャラが2枚以上なら、そのターン中、このカードは次の2つの能力を得る。『【自】［(1)］ このカードがアタックした時、あなたはコストを払ってよい。そうしたら、そのアタック中、あなたはトリガーステップにトリガーチェックを2回行う。』『【自】 このカードのアタックの終わりに、あなたは自分の山札の上から1枚を公開し、自分の控え室のレベルＸ以下のキャラを1枚選び、手札に戻す。Ｘは公開されたカードのレベルに等しい。』（CXのレベルは0として扱う。公開したカードは元に戻す）\n\"-\"",
+   "traits": [
+    "幻想郷",
+    "白玉楼"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_093s.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-094",
+   "name": "幽雅に咲かせ、墨染の桜　～ Border of Life 幽々子",
+   "type": "Character",
+   "rarity": "R",
+   "color": "blue",
+   "level": "1",
+   "cost": "1",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 応援 このカードの前のあなたの《幻想郷》のキャラすべてに、パワーを＋Ｘ。Ｘはそのキャラのレベル×500に等しい。\n【自】【CXコンボ】［(1) 他のあなたの舞台のキャラを1枚控え室に置き、あなたの《幻想郷》のキャラを2枚【レスト】する］ あなたのCXフェイズ中、CX置場に「「反魂蝶　‐八分咲‐」」が置かれた時、あなたのレベルが2以上で、あなたのキャラすべてが《幻想郷》なら、あなたはコストを払ってよい。そうしたら、あなたは自分の手札の「幽冥楼閣の亡霊少女 幽々子」を1枚まで選び、舞台の好きな枠に置く。\n【自】［手札のCXを1枚控え室に置く］ あなたのCXがトリガーした時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室のキャラを1枚選び、手札に戻す。\n\"花の下で眠るがいいわ、紅白の蝶！<br>（「東方妖々夢　～ Perfect Cherry Blossom.」より）\"",
+   "traits": [
+    "幻想郷",
+    "白玉楼"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_094.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-094LNR",
+   "name": "幽雅に咲かせ、墨染の桜　～ Border of Life 幽々子",
+   "type": "Character",
+   "rarity": "LNR",
+   "color": "blue",
+   "level": "1",
+   "cost": "1",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 応援 このカードの前のあなたの《幻想郷》のキャラすべてに、パワーを＋Ｘ。Ｘはそのキャラのレベル×500に等しい。\n【自】【CXコンボ】［(1) 他のあなたの舞台のキャラを1枚控え室に置き、あなたの《幻想郷》のキャラを2枚【レスト】する］ あなたのCXフェイズ中、CX置場に「「反魂蝶　‐八分咲‐」」が置かれた時、あなたのレベルが2以上で、あなたのキャラすべてが《幻想郷》なら、あなたはコストを払ってよい。そうしたら、あなたは自分の手札の「幽冥楼閣の亡霊少女 幽々子」を1枚まで選び、舞台の好きな枠に置く。\n【自】［手札のCXを1枚控え室に置く］ あなたのCXがトリガーした時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室のキャラを1枚選び、手札に戻す。\n\"-\"",
+   "traits": [
+    "幻想郷",
+    "白玉楼"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_094lnr.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-094S",
+   "name": "幽雅に咲かせ、墨染の桜　～ Border of Life 幽々子",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "1",
+   "cost": "1",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 応援 このカードの前のあなたの《幻想郷》のキャラすべてに、パワーを＋Ｘ。Ｘはそのキャラのレベル×500に等しい。\n【自】【CXコンボ】［(1) 他のあなたの舞台のキャラを1枚控え室に置き、あなたの《幻想郷》のキャラを2枚【レスト】する］ あなたのCXフェイズ中、CX置場に「「反魂蝶　‐八分咲‐」」が置かれた時、あなたのレベルが2以上で、あなたのキャラすべてが《幻想郷》なら、あなたはコストを払ってよい。そうしたら、あなたは自分の手札の「幽冥楼閣の亡霊少女 幽々子」を1枚まで選び、舞台の好きな枠に置く。\n【自】［手札のCXを1枚控え室に置く］ あなたのCXがトリガーした時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室のキャラを1枚選び、手札に戻す。\n\"-\"",
+   "traits": [
+    "幻想郷",
+    "白玉楼"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_094s.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-095",
+   "name": "依神女苑＆依神紫苑",
+   "type": "Character",
+   "rarity": "U",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、そのターン中、このカードのパワーを＋Ｘ。Ｘはあなたの《幻想郷》のキャラの枚数×1000に等しい。\n【自】［(1)］ あなたのトリガーアイコンが[[gate.gif]]のCXがトリガーした時、他のあなたの《幻想郷》のキャラがいるなら、あなたはコストを払ってよい。そうしたら、あなたは自分の山札の上から1枚を、ストック置場に置き、1枚まで引く。1枚引いたなら、あなたは自分の手札を1枚選び、控え室に置く。\n\"女苑「今夜もライブ、楽しみねー！観客達から富を奪い放題よー」<br>紫苑「ねえ女苑 そろそろ私にもお金を分けてよー」<br>（「東方憑依華　～ Antinomy of Common Flowers.」より）\"",
+   "traits": [
+    "幻想郷",
+    "憑依"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_095.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-095S",
+   "name": "依神女苑＆依神紫苑",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、そのターン中、このカードのパワーを＋Ｘ。Ｘはあなたの《幻想郷》のキャラの枚数×1000に等しい。\n【自】［(1)］ あなたのトリガーアイコンが[[gate.gif]]のCXがトリガーした時、他のあなたの《幻想郷》のキャラがいるなら、あなたはコストを払ってよい。そうしたら、あなたは自分の山札の上から1枚を、ストック置場に置き、1枚まで引く。1枚引いたなら、あなたは自分の手札を1枚選び、控え室に置く。\n\"-\"",
+   "traits": [
+    "幻想郷",
+    "憑依"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_095s.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-096",
+   "name": "大妖精",
+   "type": "Character",
+   "rarity": "U",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【起】［(1) このカードを控え室に置く］ あなたは自分の山札を見て「湖上の氷精 チルノ」を2枚まで選び、舞台の別々の枠に置き、その山札をシャッフルする。\n【起】 集中 ［(1) あなたのキャラを2枚【レスト】する］ あなたは自分の山札の上から4枚をめくり、控え室に置く。それらのカードのCX1枚につき、あなたは自分の山札を見て《幻想郷》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"-\"",
+   "traits": [
+    "幻想郷",
+    "霧の湖"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_096.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-096S",
+   "name": "大妖精",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【起】［(1) このカードを控え室に置く］ あなたは自分の山札を見て「湖上の氷精 チルノ」を2枚まで選び、舞台の別々の枠に置き、その山札をシャッフルする。\n【起】 集中 ［(1) あなたのキャラを2枚【レスト】する］ あなたは自分の山札の上から4枚をめくり、控え室に置く。それらのカードのCX1枚につき、あなたは自分の山札を見て《幻想郷》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"-\"",
+   "traits": [
+    "幻想郷",
+    "霧の湖"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_096s.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-097",
+   "name": "神隠しの主犯 紫",
+   "type": "Character",
+   "rarity": "U",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［手札のCXを1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の《幻想郷》のキャラを1枚選び、手札に戻す。\n【自】［このカードを手札に戻す］ あなたのトリガーアイコンが[[gate.gif]]のCXがCX置場に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋2500。\n\"私の結界を見つける手段は無い！<br>（「東方妖々夢　～ Perfect Cherry Blossom.」より）\"",
+   "traits": [
+    "幻想郷",
+    "境界"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_097.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-097S",
+   "name": "神隠しの主犯 紫",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［手札のCXを1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の《幻想郷》のキャラを1枚選び、手札に戻す。\n【自】［このカードを手札に戻す］ あなたのトリガーアイコンが[[gate.gif]]のCXがCX置場に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋2500。\n\"-\"",
+   "traits": [
+    "幻想郷",
+    "境界"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_097s.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-098",
+   "name": "冬の忘れ物 レティ",
+   "type": "Character",
+   "rarity": "U",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】［(1) 手札の《幻想郷》のキャラを1枚控え室に置き、あなたの舞台のキャラを1枚控え室に置く］ あなたがこのカードの『助太刀』を使った時、あなたはコストを払ってよい。そうしたら、あなたは相手の、レベルが相手のレベルより高いキャラを1枚選び、山札の下に置く。\n【起】【カウンター】 助太刀2500 レベル2 ［(1) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋2500）\n\"春眠暁を覚えず、かい？<br>（「東方妖々夢　～ Perfect Cherry Blossom.」より）\"",
+   "traits": [
+    "幻想郷",
+    "冬"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_098.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-098S",
+   "name": "冬の忘れ物 レティ",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】［(1) 手札の《幻想郷》のキャラを1枚控え室に置き、あなたの舞台のキャラを1枚控え室に置く］ あなたがこのカードの『助太刀』を使った時、あなたはコストを払ってよい。そうしたら、あなたは相手の、レベルが相手のレベルより高いキャラを1枚選び、山札の下に置く。\n【起】【カウンター】 助太刀2500 レベル2 ［(1) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋2500）\n\"-\"",
+   "traits": [
+    "幻想郷",
+    "冬"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_098s.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-099",
+   "name": "すきま妖怪の式 藍",
+   "type": "Character",
+   "rarity": "U",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたのターン中、他のあなたの《幻想郷》のキャラすべてに、パワーを＋2000。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分の控え室の「凶兆の黒猫 橙」を1枚選び、このカードの下にマーカーとして表向きに置いてよい。\n【起】［手札の青のカードを1枚控え室に置く］ あなたはこのカードのマーカーの「凶兆の黒猫 橙」を1枚選び、舞台の好きな枠に置く。ターンの終わりに、あなたはそのキャラをこのカードの下にマーカーとして表向きに置いてよい。\n\"私は橙とは桁が違くてよ 色々と<br>（「東方妖々夢　～ Perfect Cherry Blossom.」より）\"",
+   "traits": [
+    "幻想郷",
+    "式神"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_099.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-099S",
+   "name": "すきま妖怪の式 藍",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたのターン中、他のあなたの《幻想郷》のキャラすべてに、パワーを＋2000。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分の控え室の「凶兆の黒猫 橙」を1枚選び、このカードの下にマーカーとして表向きに置いてよい。\n【起】［手札の青のカードを1枚控え室に置く］ あなたはこのカードのマーカーの「凶兆の黒猫 橙」を1枚選び、舞台の好きな枠に置く。ターンの終わりに、あなたはそのキャラをこのカードの下にマーカーとして表向きに置いてよい。\n\"-\"",
+   "traits": [
+    "幻想郷",
+    "式神"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_099s.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-100",
+   "name": "不自然な冷気 チルノ",
+   "type": "Character",
+   "rarity": "U",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "6500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードがアタックした時、そのターン中、このカードのパワーを＋Ｘ。Ｘは他のあなたの《幻想郷》のキャラの枚数×1500に等しい。\n【自】【CXコンボ】 このカードのアタックの終わりに、CX置場に「氷符「アイシクルフォール」」があり、他のあなたの《幻想郷》のキャラがいるなら、あなたは自分の山札の上から2枚を、控え室に置き、自分の控え室のレベルＸ以下の《幻想郷》のキャラを1枚まで選び、手札に戻し、自分の控え室の《幻想郷》のキャラを1枚まで選び、ストック置場に置く。Ｘはこの効果で控え室に置かれたカードのレベルの合計に等しい。（CXのレベルは0として扱う）\n\"-\"",
+   "traits": [
+    "幻想郷",
+    "霧の湖"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_100.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-100S",
+   "name": "不自然な冷気 チルノ",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "6500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードがアタックした時、そのターン中、このカードのパワーを＋Ｘ。Ｘは他のあなたの《幻想郷》のキャラの枚数×1500に等しい。\n【自】【CXコンボ】 このカードのアタックの終わりに、CX置場に「氷符「アイシクルフォール」」があり、他のあなたの《幻想郷》のキャラがいるなら、あなたは自分の山札の上から2枚を、控え室に置き、自分の控え室のレベルＸ以下の《幻想郷》のキャラを1枚まで選び、手札に戻し、自分の控え室の《幻想郷》のキャラを1枚まで選び、ストック置場に置く。Ｘはこの効果で控え室に置かれたカードのレベルの合計に等しい。（CXのレベルは0として扱う）\n\"-\"",
+   "traits": [
+    "幻想郷",
+    "霧の湖"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_100s.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-101",
+   "name": "見た目だけ賑やかな妖怪 アリス",
+   "type": "Character",
+   "rarity": "U",
+   "color": "blue",
+   "level": "3",
+   "cost": "2",
+   "power": "8500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたか相手の、レベル3以上のキャラがいて、他のあなたの《幻想郷》のキャラが2枚以上なら、あなたの手札のこのカードのレベルを－1。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n【自】［他のあなたの舞台の《幻想郷》のキャラを1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは相手のレベル1以上のキャラを1枚選び、相手は自分の控え室のレベルＸ以下のキャラを1枚選び、入れ替える。Ｘはあなたが選んだキャラのレベル－1に等しい。\n\"-\"",
+   "traits": [
+    "幻想郷",
+    "魔法の森"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_101.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-101S",
+   "name": "見た目だけ賑やかな妖怪 アリス",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "3",
+   "cost": "2",
+   "power": "8500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたか相手の、レベル3以上のキャラがいて、他のあなたの《幻想郷》のキャラが2枚以上なら、あなたの手札のこのカードのレベルを－1。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n【自】［他のあなたの舞台の《幻想郷》のキャラを1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは相手のレベル1以上のキャラを1枚選び、相手は自分の控え室のレベルＸ以下のキャラを1枚選び、入れ替える。Ｘはあなたが選んだキャラのレベル－1に等しい。\n\"-\"",
+   "traits": [
+    "幻想郷",
+    "魔法の森"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_101s.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-102",
+   "name": "半人半霊 妖夢",
+   "type": "Character",
+   "rarity": "U",
+   "color": "blue",
+   "level": "3",
+   "cost": "2",
+   "power": "10500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時か「幽冥楼閣の亡霊少女 幽々子」の【自】の効果で舞台に置かれた時、次の2つの効果のうちあなたが選んだ1つを行う。『あなたは自分のクロックの上から1枚を、控え室に置いてよい。』『あなたは自分の控え室の《幻想郷》のキャラを1枚選び、手札に戻してよい。』\n【自】［(3) 手札を2枚控え室に置く］ このカードがアタックした時、他のあなたの「幽冥楼閣の亡霊少女 幽々子」がいるなら、あなたはコストを払ってよい。そうしたら、相手に1ダメージを2回与え、そのターン中、このカードのパワーを＋2000。（ダメージキャンセルは発生する）\n\"-\"",
+   "traits": [
+    "幻想郷",
+    "白玉楼"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_102.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-102S",
+   "name": "半人半霊 妖夢",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "3",
+   "cost": "2",
+   "power": "10500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時か「幽冥楼閣の亡霊少女 幽々子」の【自】の効果で舞台に置かれた時、次の2つの効果のうちあなたが選んだ1つを行う。『あなたは自分のクロックの上から1枚を、控え室に置いてよい。』『あなたは自分の控え室の《幻想郷》のキャラを1枚選び、手札に戻してよい。』\n【自】［(3) 手札を2枚控え室に置く］ このカードがアタックした時、他のあなたの「幽冥楼閣の亡霊少女 幽々子」がいるなら、あなたはコストを払ってよい。そうしたら、相手に1ダメージを2回与え、そのターン中、このカードのパワーを＋2000。（ダメージキャンセルは発生する）\n\"-\"",
+   "traits": [
+    "幻想郷",
+    "白玉楼"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_102s.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-103",
+   "name": "恒久の姫 阿梨夜",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは相手のキャラを1枚選び、次の相手のターンの終わりまで、次の能力を与える。『【永】 このカードは他の枠に動かせない。』\n【自】 このカードが【リバース】した時、このカードのバトル相手のコストが0以下なら、あなたはそのキャラを山札の下に置いてよい。\n\"今度こそ人類に永遠の安寧あれ！<br>（「東方錦上京 〜 Fossilized Wonders.」より）\"",
+   "traits": [
+    "幻想郷",
+    "浅間浄穢山"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_103.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-103S",
+   "name": "恒久の姫 阿梨夜",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは相手のキャラを1枚選び、次の相手のターンの終わりまで、次の能力を与える。『【永】 このカードは他の枠に動かせない。』\n【自】 このカードが【リバース】した時、このカードのバトル相手のコストが0以下なら、あなたはそのキャラを山札の下に置いてよい。\n\"-\"",
+   "traits": [
+    "幻想郷",
+    "浅間浄穢山"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_103s.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-104",
+   "name": "無敗の剛欲同盟長 尤魔",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 このカードの下にマーカーがあるなら、このカードのパワーを＋2500し、このカードは次の能力を得る。『【自】 このカードのバトル相手が【リバース】した時、あなたは自分の控え室の《幻想郷》のキャラを1枚選び、手札に戻し、自分の手札を1枚選び、控え室に置く。』\n【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から1枚を公開する。そのカードが《幻想郷》のキャラかイベントならこのカードの下にマーカーとして表向きに置いてよい。（そうしないなら元に戻す）\n\"石油に纏わる喜悦も利便も呪詛も憎悪も欲望も全て・・一滴残らず私のもんだ！人間なんかにくれてやるもんか！<br>（「東方剛欲異聞　～ 水没した沈愁地獄」より）\"",
+   "traits": [
+    "幻想郷",
+    "剛欲同盟"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_104.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-104S",
+   "name": "無敗の剛欲同盟長 尤魔",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 このカードの下にマーカーがあるなら、このカードのパワーを＋2500し、このカードは次の能力を得る。『【自】 このカードのバトル相手が【リバース】した時、あなたは自分の控え室の《幻想郷》のキャラを1枚選び、手札に戻し、自分の手札を1枚選び、控え室に置く。』\n【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から1枚を公開する。そのカードが《幻想郷》のキャラかイベントならこのカードの下にマーカーとして表向きに置いてよい。（そうしないなら元に戻す）\n\"-\"",
+   "traits": [
+    "幻想郷",
+    "剛欲同盟"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_104s.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-105",
+   "name": "プリズムリバー三姉妹",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、そのターン中、このカードのパワーを＋3500し、このカードは次の能力を得る。『【自】 ターンの終わりに、このカードを控え室に置く。』\n【自】 このカードがアタックした時、あなたは他の自分の《幻想郷》のキャラを1枚選び、そのターン中、パワーを＋2000。\n\"リリカ「私達は騒霊演奏隊～ お呼ばれで来たの」<br>メルラン「これからお屋敷でお花見よ 私達は音楽で盛り上げるの」<br>ルナサ「でも、あなたは演奏できない」<br>（「東方妖々夢　～ Perfect Cherry Blossom.」より）\"",
+   "traits": [
+    "幻想郷",
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_105.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-105S",
+   "name": "プリズムリバー三姉妹",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、そのターン中、このカードのパワーを＋3500し、このカードは次の能力を得る。『【自】 ターンの終わりに、このカードを控え室に置く。』\n【自】 このカードがアタックした時、あなたは他の自分の《幻想郷》のキャラを1枚選び、そのターン中、パワーを＋2000。\n\"-\"",
+   "traits": [
+    "幻想郷",
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_105s.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-106",
+   "name": "春を運ぶ妖精 リリーホワイト",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "1",
+   "cost": "1",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのターン中、このカードの下のマーカー1枚につき、このカードのパワーを＋2000。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分の控え室の「湖上の氷精 チルノ」を3枚まで選び、このカードの下にマーカーとして好きな順番で表向きに置く。\n【自】［(1)］ アンコールステップの始めに、他のあなたの前列の【レスト】しているキャラがいないなら、あなたはコストを払ってよい。そうしたら、このカードを【レスト】する。\n\"-\"",
+   "traits": [
+    "幻想郷",
+    "春"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_106.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-106S",
+   "name": "春を運ぶ妖精 リリーホワイト",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "1",
+   "cost": "1",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのターン中、このカードの下のマーカー1枚につき、このカードのパワーを＋2000。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分の控え室の「湖上の氷精 チルノ」を3枚まで選び、このカードの下にマーカーとして好きな順番で表向きに置く。\n【自】［(1)］ アンコールステップの始めに、他のあなたの前列の【レスト】しているキャラがいないなら、あなたはコストを払ってよい。そうしたら、このカードを【レスト】する。\n\"-\"",
+   "traits": [
+    "幻想郷",
+    "春"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_106s.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-107",
+   "name": "凶兆の黒猫 橙",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "4500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたのターン中、他のあなたの「すきま妖怪の式 藍」がいるなら、このカードのパワーを＋4000し、このカードは次の能力を得る。『【自】［(1)］ このカードがアタックした時、あなたはコストを払ってよい。そうしたら、そのアタック中、あなたはトリガーステップにトリガーチェックを2回行う。』\n【自】 このカードのバトル相手が【リバース】した時、あなたはそのキャラを山札の下に置いてよい。\n\"迷い家にやってきたって事は、道に迷ったんでしょ～？<br>（「東方妖々夢　～ Perfect Cherry Blossom.」より）\"",
+   "traits": [
+    "幻想郷",
+    "式神"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_107.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-107S",
+   "name": "凶兆の黒猫 橙",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "4500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたのターン中、他のあなたの「すきま妖怪の式 藍」がいるなら、このカードのパワーを＋4000し、このカードは次の能力を得る。『【自】［(1)］ このカードがアタックした時、あなたはコストを払ってよい。そうしたら、そのアタック中、あなたはトリガーステップにトリガーチェックを2回行う。』\n【自】 このカードのバトル相手が【リバース】した時、あなたはそのキャラを山札の下に置いてよい。\n\"-\"",
+   "traits": [
+    "幻想郷",
+    "式神"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_107s.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-108",
+   "name": "人妖の境界",
+   "type": "Event",
+   "rarity": "R",
+   "color": "blue",
+   "level": "1",
+   "cost": "1",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "このカードは、あなたの《幻想郷》のキャラがいないなら、手札からプレイできない。このカードは、色条件を満たさずに手札からプレイできる。\nあなたは自分の控え室の《幻想郷》のキャラを1枚選び、手札に戻す。このカードを思い出にする。\n【自】 記憶 ［手札のCXを1枚公開する］ 思い出置場にこのカードがあるなら、あなたのCXフェイズの始めに、あなたはコストを払ってよい。そうしたら、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋1000。\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_108.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-108S",
+   "name": "人妖の境界",
+   "type": "Event",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "1",
+   "cost": "1",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "このカードは、あなたの《幻想郷》のキャラがいないなら、手札からプレイできない。このカードは、色条件を満たさずに手札からプレイできる。\nあなたは自分の控え室の《幻想郷》のキャラを1枚選び、手札に戻す。このカードを思い出にする。\n【自】 記憶 ［手札のCXを1枚公開する］ 思い出置場にこのカードがあるなら、あなたのCXフェイズの始めに、あなたはコストを払ってよい。そうしたら、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋1000。\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_108s.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-109",
+   "name": "「反魂蝶　‐八分咲‐」",
+   "type": "Climax",
+   "rarity": "CR",
+   "color": "blue",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[gate.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[gate.gif]]：このカードがトリガーした時、あなたは自分の控え室のCXを1枚選び、手札に戻してよい）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_109.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-109R",
+   "name": "「反魂蝶　‐八分咲‐」",
+   "type": "Climax",
+   "rarity": "RRR",
+   "color": "blue",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[gate.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[gate.gif]]：このカードがトリガーした時、あなたは自分の控え室のCXを1枚選び、手札に戻してよい）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_109r.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-110",
+   "name": "天上剣「天人の五衰」",
+   "type": "Climax",
+   "rarity": "CR",
+   "color": "blue",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[gate.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[gate.gif]]：このカードがトリガーした時、あなたは自分の控え室のCXを1枚選び、手札に戻してよい）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_110.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-110R",
+   "name": "天上剣「天人の五衰」",
+   "type": "Climax",
+   "rarity": "RRR",
+   "color": "blue",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[gate.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[gate.gif]]：このカードがトリガーした時、あなたは自分の控え室のCXを1枚選び、手札に戻してよい）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_110r.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-111",
+   "name": "氷符「アイシクルフォール」",
+   "type": "Climax",
+   "rarity": "CR",
+   "color": "blue",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[gate.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[gate.gif]]：このカードがトリガーした時、あなたは自分の控え室のCXを1枚選び、手札に戻してよい）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_111.png",
+   "variant": ""
+  },
+  {
+   "num": "THP/S130-111R",
+   "name": "氷符「アイシクルフォール」",
+   "type": "Climax",
+   "rarity": "RRR",
+   "color": "blue",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[gate.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[gate.gif]]：このカードがトリガーした時、あなたは自分の控え室のCXを1枚選び、手札に戻してよい）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_111r.png",
+   "variant": ""
+  }
+ ]
+}

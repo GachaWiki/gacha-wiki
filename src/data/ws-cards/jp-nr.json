@@ -1,0 +1,2452 @@
+{
+ "id": "jp-nr",
+ "name": "魔法少女リリカルなのは Reflection",
+ "expansion": 226,
+ "lang": "jp",
+ "release": null,
+ "shopItem": null,
+ "box": null,
+ "cards": [
+  {
+   "num": "NR/W58-001",
+   "name": "“ブレイズフォームⅡ”フェイト",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1) あなたの山札の上から1枚をクロック置場に置く］ このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室のレベル1以下のキャラを1枚選び、手札に戻す。\n【自】 このカードがアタックした時、あなたは自分の山札の上から1枚を、控え室に置いてよい。そのカードがクライマックスなら、あなたは1枚引き、自分の手札を1枚選び、控え室に置く。\n\"今は知らない人でも…<br>いつかレヴィと出会うかもしれない。<br>大切な人になったりするかもしれないよ\"",
+   "traits": [
+    "魔法",
+    "クローン"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/nr_w58/nr_w58_001.png",
+   "variant": ""
+  },
+  {
+   "num": "NR/W58-001S",
+   "name": "“ブレイズフォームⅡ”フェイト",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1) あなたの山札の上から1枚をクロック置場に置く］ このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室のレベル1以下のキャラを1枚選び、手札に戻す。\n【自】 このカードがアタックした時、あなたは自分の山札の上から1枚を、控え室に置いてよい。そのカードがクライマックスなら、あなたは1枚引き、自分の手札を1枚選び、控え室に置く。\n\"今は知らない人でも…<br>いつかレヴィと出会うかもしれない。<br>大切な人になったりするかもしれないよ\"",
+   "traits": [
+    "魔法",
+    "クローン"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/nr_w58/nr_w58_001s.png",
+   "variant": ""
+  },
+  {
+   "num": "NR/W58-002",
+   "name": "“ホーネットジャベリン”フェイト",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 あなたのクライマックスがクライマックス置場に置かれた時、そのターン中、このカードのパワーを＋1500。\n【自】【CXコンボ】 このカードのバトル相手が【リバース】した時、あなたのクライマックス置場に「ホーネットジャベリン」があるなら、あなたは自分の山札を上から4枚まで見て、《魔法》か《武器》のキャラを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置き、自分のキャラを1枚選び、そのターン中、レベルを＋1し、パワーを＋1500。\n\"受けてみて！<br>わたしとバルディッシュの全力全開！\"",
+   "traits": [
+    "魔法",
+    "クローン"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/nr_w58/nr_w58_002.png",
+   "variant": ""
+  },
+  {
+   "num": "NR/W58-002SP",
+   "name": "“ホーネットジャベリン”フェイト",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 あなたのクライマックスがクライマックス置場に置かれた時、そのターン中、このカードのパワーを＋1500。\n【自】【CXコンボ】 このカードのバトル相手が【リバース】した時、あなたのクライマックス置場に「ホーネットジャベリン」があるなら、あなたは自分の山札を上から4枚まで見て、《魔法》か《武器》のキャラを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置き、自分のキャラを1枚選び、そのターン中、レベルを＋1し、パワーを＋1500。\n\"-\"",
+   "traits": [
+    "魔法",
+    "クローン"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/nr_w58/nr_w58_002sp.png",
+   "variant": ""
+  },
+  {
+   "num": "NR/W58-002SSP",
+   "name": "“ホーネットジャベリン”フェイト",
+   "type": "Character",
+   "rarity": "SSP",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 あなたのクライマックスがクライマックス置場に置かれた時、そのターン中、このカードのパワーを＋1500。\n【自】【CXコンボ】 このカードのバトル相手が【リバース】した時、あなたのクライマックス置場に「ホーネットジャベリン」があるなら、あなたは自分の山札を上から4枚まで見て、《魔法》か《武器》のキャラを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置き、自分のキャラを1枚選び、そのターン中、レベルを＋1し、パワーを＋1500。\n\"-\"",
+   "traits": [
+    "魔法",
+    "クローン"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/nr_w58/nr_w58_002ssp.png",
+   "variant": ""
+  },
+  {
+   "num": "NR/W58-003",
+   "name": "真っ直ぐな瞳 フェイト",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "yellow",
+   "level": "3",
+   "cost": "2",
+   "power": "9500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 記憶 あなたの思い出置場の「母親として リンディ」が2枚以上なら、あなたの手札のこのカードのレベルを－1。\n【永】 他のあなたの、《魔法》か《武器》のキャラが2枚以上なら、このカードのパワーを＋1000。\n【自】 このカードが手札から舞台に置かれた時、あなたは1枚引き、自分の手札を1枚選び、控え室に置き、相手のキャラを1枚まで選び、手札に戻す。\n\"あの子を説得してくるから待ってて…<br>母さん\"",
+   "traits": [
+    "魔法",
+    "クローン"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/nr_w58/nr_w58_003.png",
+   "variant": ""
+  },
+  {
+   "num": "NR/W58-003S",
+   "name": "真っ直ぐな瞳 フェイト",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "yellow",
+   "level": "3",
+   "cost": "2",
+   "power": "9500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 記憶 あなたの思い出置場の「母親として リンディ」が2枚以上なら、あなたの手札のこのカードのレベルを－1。\n【永】 他のあなたの、《魔法》か《武器》のキャラが2枚以上なら、このカードのパワーを＋1000。\n【自】 このカードが手札から舞台に置かれた時、あなたは1枚引き、自分の手札を1枚選び、控え室に置き、相手のキャラを1枚まで選び、手札に戻す。\n\"あの子を説得してくるから待ってて…<br>母さん\"",
+   "traits": [
+    "魔法",
+    "クローン"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/nr_w58/nr_w58_003s.png",
+   "variant": ""
+  },
+  {
+   "num": "NR/W58-004",
+   "name": "月夜のお出かけ フェイト",
+   "type": "Character",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたのカード名に「フェイト」を含むキャラすべてに、パワーを＋500。\n【永】 あなたのターン中、他のあなたのキャラすべてに、パワーを＋500。\n\"うん…！すごいね！\"",
+   "traits": [
+    "魔法",
+    "クローン"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/nr_w58/nr_w58_004.png",
+   "variant": ""
+  },
+  {
+   "num": "NR/W58-004S",
+   "name": "月夜のお出かけ フェイト",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたのカード名に「フェイト」を含むキャラすべてに、パワーを＋500。\n【永】 あなたのターン中、他のあなたのキャラすべてに、パワーを＋500。\n\"うん…！すごいね！\"",
+   "traits": [
+    "魔法",
+    "クローン"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/nr_w58/nr_w58_004s.png",
+   "variant": ""
+  },
+  {
+   "num": "NR/W58-005",
+   "name": "新たなる物語 フェイト",
+   "type": "Character",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "1",
+   "cost": "1",
+   "power": "6000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードがアタックした時、他のあなたの、《魔法》か《武器》のキャラが2枚以上なら、そのターン中、このカードのパワーを＋2000。\n【自】 アンコール ［あなたの山札の上から1枚をクロック置場に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"フェイト「バルディッシュ！」<br>バルディッシュ「yes sir」\"",
+   "traits": [
+    "魔法",
+    "クローン"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/nr_w58/nr_w58_005.png",
+   "variant": ""
+  },
+  {
+   "num": "NR/W58-006",
+   "name": "時空管理局航空隊 シグナム",
+   "type": "Character",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "2",
+   "cost": "2",
+   "power": "7500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたのターン中、あなたのキャラすべてが青かカード名に「シグナム」か「ヴィータ」を含むなら、このカードのパワーを＋4000。\n【自】 アンコール ［手札の、青かカード名に「シグナム」か「ヴィータ」を含むキャラを1枚控え室に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"ふむ…とんだ試し斬りだ\"",
+   "traits": [
+    "魔法",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/nr_w58/nr_w58_006.png",
+   "variant": ""
+  },
+  {
+   "num": "NR/W58-007",
+   "name": "物語のゆくえ シグナム",
+   "type": "Character",
+   "rarity": "U",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの《魔法》のキャラすべてに、パワーを＋500。\n【自】【CXコンボ】［(1) あなたのクライマックス置場の「紫電一閃」を1枚控え室に置く］ あなたのクライマックス置場に「紫電一閃」が置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室のカードすべてを、山札に戻し、その山札をシャッフルする。\n\"-\"",
+   "traits": [
+    "魔法",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/nr_w58/nr_w58_007.png",
+   "variant": ""
+  },
+  {
+   "num": "NR/W58-008",
+   "name": "それぞれの意志 フェイト",
+   "type": "Character",
+   "rarity": "U",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［手札のクライマックスを1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の《魔法》のキャラを1枚選び、手札に戻す。\n\"力になれるように頑張りますから…<br>お話聞かせてください\"",
+   "traits": [
+    "魔法",
+    "クローン"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/nr_w58/nr_w58_008.png",
+   "variant": ""
+  },
+  {
+   "num": "NR/W58-009",
+   "name": "“戦闘の中で”フェイト",
+   "type": "Character",
+   "rarity": "U",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "7000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】［(1) 手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見て「“プラズマザンバーブレイカー”フェイト」を1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルし、そのターン中、このカードのパワーを＋1000。\n【自】【CXコンボ】［あなたのクライマックス置場の「親子の愛」を1枚控え室に置く］ このカードがアタックした時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の、《魔法》か《武器》のキャラを2枚まで選び、ストック置場に好きな順番で置き、次の相手のターンの終わりまで、このカードのパワーを＋2000し、ソウルを＋1。\n\"助けたいです…<br>取り返しのつかない事になる前に\"",
+   "traits": [
+    "魔法",
+    "クローン"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/nr_w58/nr_w58_009.png",
+   "variant": ""
+  },
+  {
+   "num": "NR/W58-010",
+   "name": "水辺の撃ち合い フェイト",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのターン中、他のあなたの「水辺の撃ち合い なのは」すべてに、パワーを＋2000。\n【自】 絆／「水辺の撃ち合い なのは」 ［手札を1枚控え室に置く］ （このカードがプレイされて舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「水辺の撃ち合い なのは」を1枚選び、手札に戻す）\n\"あ、ちょっと…！\"",
+   "traits": [
+    "魔法",
+    "クローン"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/nr_w58/nr_w58_010.png",
+   "variant": ""
+  },
+  {
+   "num": "NR/W58-011",
+   "name": "やわらかな光と風 フェイト＆なのは",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの前列の中央の枠の、《魔法》か《武器》のキャラに、パワーを＋1500。\n【自】 このカードがダイレクトアタックした時、あなたは他の自分の、《魔法》か《武器》のキャラを1枚選び、そのターン中、ソウルを＋1。\n\"今日もがんばろ！\"",
+   "traits": [
+    "魔法",
+    "クローン"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/nr_w58/nr_w58_011.png",
+   "variant": ""
+  },
+  {
+   "num": "NR/W58-012",
+   "name": "頼れるコンビ アルフ＆ザフィーラ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から1枚を公開する。そのカードが《クローン》か《使い魔》のキャラなら、そのターン中、このカードのソウルを＋1。（公開したカードは元に戻す）\n\"アルフ「おじゃましまーす」<br>ザフィーラ「お呼びですか？執務官」\"",
+   "traits": [
+    "使い魔",
+    "動物"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/nr_w58/nr_w58_012.png",
+   "variant": ""
+  },
+  {
+   "num": "NR/W58-013",
+   "name": "お花見ティータイム フェイト",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "5500",
+   "soul": 1,
+   "trigger": "",
+   "text": "-\n\"２人ともどうしたの？\"",
+   "traits": [
+    "魔法",
+    "クローン"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/nr_w58/nr_w58_013.png",
+   "variant": ""
+  },
+  {
+   "num": "NR/W58-014",
+   "name": "真夏のレジャー シグナム",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "8500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたの、青かカード名に「シグナム」か「ヴィータ」を含むキャラが4枚以上なら、あなたの手札のこのカードのレベルを－1。\n【永】 このカードの正面のキャラのレベルがこのカードのレベルより高いなら、このカードはフロントアタックできない。\n\"ああお前達も\"",
+   "traits": [
+    "魔法",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/nr_w58/nr_w58_014.png",
+   "variant": ""
+  },
+  {
+   "num": "NR/W58-015",
+   "name": "ワクワク空中散歩",
+   "type": "Event",
+   "rarity": "U",
+   "color": "yellow",
+   "level": "2",
+   "cost": "0",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "このカードは、あなたの、《魔法》か《武器》のキャラがいないなら、手札からプレイできない。\n以下の効果のうちあなたが選んだ1つを行う。\n『あなたは自分のストックの上から2枚を、控え室に置いてよい。そうしたら、あなたは自分の控え室のキャラを2枚まで選び、手札に戻す。』\n『あなたは自分の手札の「お花見ティータイム フェイト」を1枚選び、控え室に置いてよい。そうしたら、あなたは自分の控え室のキャラを2枚まで選び、手札に戻す。』\n\"フェイト「観客席にご案内ー」\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/nr_w58/nr_w58_015.png",
+   "variant": ""
+  },
+  {
+   "num": "NR/W58-016",
+   "name": "ホーネットジャベリン",
+   "type": "Climax",
+   "rarity": "CR",
+   "color": "yellow",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[shot.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[shot.gif]]：このターン中、このカードをトリガーした攻撃キャラが次に与えるダメージがキャンセルされた時、相手に1ダメージを与える）\n\"行くよレヴィ\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/nr_w58/nr_w58_016.png",
+   "variant": ""
+  },
+  {
+   "num": "NR/W58-016R",
+   "name": "ホーネットジャベリン",
+   "type": "Climax",
+   "rarity": "RRR",
+   "color": "yellow",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[shot.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[shot.gif]]：このターン中、このカードをトリガーした攻撃キャラが次に与えるダメージがキャンセルされた時、相手に1ダメージを与える）\n\"行くよレヴィ\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/nr_w58/nr_w58_016r.png",
+   "variant": ""
+  },
+  {
+   "num": "NR/W58-017",
+   "name": "紫電一閃",
+   "type": "Climax",
+   "rarity": "CC",
+   "color": "yellow",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【自】 このカードが手札からクライマックス置場に置かれた時、あなたは自分の控え室の黄のカードを1枚まで選び、ストック置場に置き、自分のキャラすべてに、そのターン中、ソウルを＋1。\n\"紫電！一閃！\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/nr_w58/nr_w58_017.png",
+   "variant": ""
+  },
+  {
+   "num": "NR/W58-018",
+   "name": "親子の愛",
+   "type": "Climax",
+   "rarity": "CC",
+   "color": "yellow",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【自】 このカードが手札からクライマックス置場に置かれた時、あなたは自分の控え室の黄のカードを1枚まで選び、ストック置場に置き、自分のキャラすべてに、そのターン中、ソウルを＋1。\n\"リンディ「よかった…無事ね…」<br>フェイト「…？リンディさんどうして…」\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/nr_w58/nr_w58_018.png",
+   "variant": ""
+  },
+  {
+   "num": "NR/W58-019",
+   "name": "母親として リンディ",
+   "type": "Character",
+   "rarity": "R",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［手札の、《魔法》か《使い魔》のキャラを1枚控え室に置き、このカードを思い出にする］ バトル中のこのカードが【リバース】した時、他のあなたの、《魔法》か《使い魔》のキャラが2枚以上で、あなたの思い出が2枚以下なら、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見てカード名に「フェイト」を含むキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"-\"",
+   "traits": [
+    "魔法",
+    "お茶"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/nr_w58/nr_w58_019.png",
+   "variant": ""
+  },
+  {
+   "num": "NR/W58-020",
+   "name": "時空管理局支局長 クロノ",
+   "type": "Character",
+   "rarity": "U",
+   "color": "green",
+   "level": "1",
+   "cost": "1",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 あなたがこのカードの『助太刀』を使った時、あなたの、《魔法》か《武器》のキャラがいるなら、あなたは自分のバトル中のキャラを1枚選び、そのターン中、パワーを＋1000。\n【起】【カウンター】 助太刀1500 レベル1 ［(1) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋1500）\n\"-\"",
+   "traits": [
+    "魔法",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/nr_w58/nr_w58_020.png",
+   "variant": ""
+  },
+  {
+   "num": "NR/W58-021",
+   "name": "平穏な日々 アリサ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】【クロック】 アラーム ［手札を1枚控え室に置く］ このカードがクロックの1番上にあるなら、あなたのクライマックスフェイズの始めに、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の《魔法》のキャラを1枚選び、手札に戻す。\n\"ふふっ、今日はどうせ１日一緒なんだし\"",
+   "traits": [
+    "動物"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/nr_w58/nr_w58_021.png",
+   "variant": ""
+  },
+  {
+   "num": "NR/W58-022",
+   "name": "平穏な日々 すずか",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 絆／「平穏な日々 アリサ」 ［手札を1枚控え室に置く］ （このカードがプレイされて舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「平穏な日々 アリサ」を1枚選び、手札に戻す）\n\"久しぶりに３人の練習を見学させてもらおうかなって\"",
+   "traits": [
+    "動物"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/nr_w58/nr_w58_022.png",
+   "variant": ""
+  },
+  {
+   "num": "NR/W58-023",
+   "name": "新たなる力 なのは",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札を上から2枚まで見て、山札の上に元の順番で置く。\n【起】 集中 ［(1) このカードを【レスト】する］ あなたは自分の山札の上から4枚をめくり、控え室に置く。それらのカードのクライマックス1枚につき、あなたは自分の控え室のキャラを1枚まで選び、手札に戻す。\n\"待っててください<br>今度は必ず助けます！\"",
+   "traits": [
+    "魔法",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/nr_w58/nr_w58_023.png",
+   "variant": ""
+  },
+  {
+   "num": "NR/W58-023S",
+   "name": "新たなる力 なのは",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札を上から2枚まで見て、山札の上に元の順番で置く。\n【起】 集中 ［(1) このカードを【レスト】する］ あなたは自分の山札の上から4枚をめくり、控え室に置く。それらのカードのクライマックス1枚につき、あなたは自分の控え室のキャラを1枚まで選び、手札に戻す。\n\"待っててください<br>今度は必ず助けます！\"",
+   "traits": [
+    "魔法",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/nr_w58/nr_w58_023s.png",
+   "variant": ""
+  },
+  {
+   "num": "NR/W58-024",
+   "name": "“フォートレスモード”なのは",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのキャラすべてが《魔法》か《武器》なら、このカードのパワーを＋1000。\n【自】【CXコンボ】 このカードのバトル相手が【リバース】した時、あなたのクライマックス置場に「ツインブレイカー」があるなら、あなたは自分の控え室のキャラを1枚選び、手札に戻してよい。\n\"無理でもなんでも…物わかり良く諦めちゃうと後悔するから\"",
+   "traits": [
+    "魔法",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/nr_w58/nr_w58_024.png",
+   "variant": ""
+  },
+  {
+   "num": "NR/W58-024S",
+   "name": "“フォートレスモード”なのは",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのキャラすべてが《魔法》か《武器》なら、このカードのパワーを＋1000。\n【自】【CXコンボ】 このカードのバトル相手が【リバース】した時、あなたのクライマックス置場に「ツインブレイカー」があるなら、あなたは自分の控え室のキャラを1枚選び、手札に戻してよい。\n\"無理でもなんでも…物わかり良く諦めちゃうと後悔するから\"",
+   "traits": [
+    "魔法",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/nr_w58/nr_w58_024s.png",
+   "variant": ""
+  },
+  {
+   "num": "NR/W58-025",
+   "name": "“フォーミュラモード”なのは",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n【自】【CXコンボ】［(2) 手札を2枚控え室に置く］ このカードがアタックした時、クライマックス置場に「希望に向かう力」があるなら、あなたはコストを払ってよい。そうしたら、相手に4ダメージを与え、そのターン中、このカードのパワーを＋6000。（ダメージキャンセルは発生する）\n\"フォーミュラカノン<br>フルバースト！\"",
+   "traits": [
+    "魔法",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/nr_w58/nr_w58_025.png",
+   "variant": ""
+  },
+  {
+   "num": "NR/W58-025SP",
+   "name": "“フォーミュラモード”なのは",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n【自】【CXコンボ】［(2) 手札を2枚控え室に置く］ このカードがアタックした時、クライマックス置場に「希望に向かう力」があるなら、あなたはコストを払ってよい。そうしたら、相手に4ダメージを与え、そのターン中、このカードのパワーを＋6000。（ダメージキャンセルは発生する）\n\"-\"",
+   "traits": [
+    "魔法",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/nr_w58/nr_w58_025sp.png",
+   "variant": ""
+  },
+  {
+   "num": "NR/W58-025SSP",
+   "name": "“フォーミュラモード”なのは",
+   "type": "Character",
+   "rarity": "SSP",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n【自】【CXコンボ】［(2) 手札を2枚控え室に置く］ このカードがアタックした時、クライマックス置場に「希望に向かう力」があるなら、あなたはコストを払ってよい。そうしたら、相手に4ダメージを与え、そのターン中、このカードのパワーを＋6000。（ダメージキャンセルは発生する）\n\"-\"",
+   "traits": [
+    "魔法",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/nr_w58/nr_w58_025ssp.png",
+   "variant": ""
+  },
+  {
+   "num": "NR/W58-026",
+   "name": "ヴァリアントザッパー アミタ",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n【自】【CXコンボ】［(1)］ このカードがアタックした時、クライマックス置場に「救済の魔法使い」があり、あなたのキャラすべてが《フォーミュラ》なら、あなたはコストを払ってよい。そうしたら、あなたは自分のクロックの上から1枚までを、控え室に置き、そのターン中、このカードのパワーを＋5000。\n\"あなたはそうやっていろんな事を諦めてきたんですね\"",
+   "traits": [
+    "武器",
+    "フォーミュラ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/nr_w58/nr_w58_026.png",
+   "variant": ""
+  },
+  {
+   "num": "NR/W58-026SP",
+   "name": "ヴァリアントザッパー アミタ",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n【自】【CXコンボ】［(1)］ このカードがアタックした時、クライマックス置場に「救済の魔法使い」があり、あなたのキャラすべてが《フォーミュラ》なら、あなたはコストを払ってよい。そうしたら、あなたは自分のクロックの上から1枚までを、控え室に置き、そのターン中、このカードのパワーを＋5000。\n\"-\"",
+   "traits": [
+    "武器",
+    "フォーミュラ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/nr_w58/nr_w58_026sp.png",
+   "variant": ""
+  },
+  {
+   "num": "NR/W58-026SSP",
+   "name": "ヴァリアントザッパー アミタ",
+   "type": "Character",
+   "rarity": "SSP",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n【自】【CXコンボ】［(1)］ このカードがアタックした時、クライマックス置場に「救済の魔法使い」があり、あなたのキャラすべてが《フォーミュラ》なら、あなたはコストを払ってよい。そうしたら、あなたは自分のクロックの上から1枚までを、控え室に置き、そのターン中、このカードのパワーを＋5000。\n\"-\"",
+   "traits": [
+    "武器",
+    "フォーミュラ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/nr_w58/nr_w58_026ssp.png",
+   "variant": ""
+  },
+  {
+   "num": "NR/W58-027",
+   "name": "新たなる物語 なのは",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［手札を1枚控え室に置き、このカードを思い出にする］ バトル中のこのカードが【リバース】した時、他のあなたの、《魔法》か《武器》のキャラが2枚以上で、あなたの思い出が2枚以下なら、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の、《魔法》か《武器》のキャラを1枚選び、手札に戻す。\n\"たくさんの人の努力と期待がこもってる場所だから<br>壊したくないの！\"",
+   "traits": [
+    "魔法",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/nr_w58/nr_w58_027.png",
+   "variant": ""
+  },
+  {
+   "num": "NR/W58-028",
+   "name": "すれ違う姉妹 アミタ",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 あなたが『加速』を使った時、あなたは自分のキャラを1枚選び、そのターン中、次の能力を与える。『【自】［(1)］ このカードのバトル相手が【リバース】した時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室のキャラを1枚選び、手札に戻す。』\n【自】 加速 ［あなたの山札の上から1枚をクロック置場に置く］ あなたのクライマックスフェイズの始めに、あなたはコストを払ってよい。そうしたら、そのターン中、このカードのパワーを＋2000し、ソウルを＋1。\n\"帰りましょう\"",
+   "traits": [
+    "武器",
+    "フォーミュラ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/nr_w58/nr_w58_028.png",
+   "variant": ""
+  },
+  {
+   "num": "NR/W58-029",
+   "name": "仲良くお風呂 ヴィータ",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の、青かカード名に「シグナム」か「ヴィータ」を含むキャラを1枚選び、そのターン中、パワーを＋1500。\n\"-\"",
+   "traits": [
+    "魔法",
+    "人形"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/nr_w58/nr_w58_029.png",
+   "variant": ""
+  },
+  {
+   "num": "NR/W58-030",
+   "name": "月夜のお出かけ なのは",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 このカードはサイドアタックできない。\n【自】 このカードのバトル相手が【リバース】した時、あなたは他の自分の、《魔法》か《武器》のキャラを1枚選び、【レスト】し、後列のキャラのいない枠に動かす。\n\"見えてきたよフェイトちゃん！\"",
+   "traits": [
+    "魔法",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/nr_w58/nr_w58_030.png",
+   "variant": ""
+  },
+  {
+   "num": "NR/W58-030S",
+   "name": "月夜のお出かけ なのは",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 このカードはサイドアタックできない。\n【自】 このカードのバトル相手が【リバース】した時、あなたは他の自分の、《魔法》か《武器》のキャラを1枚選び、【レスト】し、後列のキャラのいない枠に動かす。\n\"見えてきたよフェイトちゃん！\"",
+   "traits": [
+    "魔法",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/nr_w58/nr_w58_030s.png",
+   "variant": ""
+  },
+  {
+   "num": "NR/W58-031",
+   "name": "“フォーミュラスーツ Type-A”アミタ",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードがフロントアタックされた時、このカードを控え室に置く。（バトル相手がいなくなってもダイレクトアタックにはならない）\n\"はやてさん！動かないで、そのままで\"",
+   "traits": [
+    "武器",
+    "フォーミュラ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/nr_w58/nr_w58_031.png",
+   "variant": ""
+  },
+  {
+   "num": "NR/W58-031S",
+   "name": "“フォーミュラスーツ Type-A”アミタ",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードがフロントアタックされた時、このカードを控え室に置く。（バトル相手がいなくなってもダイレクトアタックにはならない）\n\"はやてさん！動かないで、そのままで\"",
+   "traits": [
+    "武器",
+    "フォーミュラ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/nr_w58/nr_w58_031s.png",
+   "variant": ""
+  },
+  {
+   "num": "NR/W58-032",
+   "name": "“ストライクカノン”なのは",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 あなたがこのカードの『助太刀』を使った時、あなたの《魔法》のキャラがいるなら、あなたは自分のバトル中のキャラを1枚選び、そのターン中、パワーを＋1000。\n【起】【カウンター】 助太刀1000 レベル1 ［手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋1000）\n\"わたしの魔法が届く距離にあるものは<br>全部守っていくんだって！\"",
+   "traits": [
+    "魔法",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/nr_w58/nr_w58_032.png",
+   "variant": ""
+  },
+  {
+   "num": "NR/W58-033",
+   "name": "家族のため アミタ",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが【リバース】した時、このカードのバトル相手のレベルが1以下なら、あなたはそのキャラを【リバース】してよい。\n【自】 バトル中のこのカードが【リバース】した時、あなたは他の自分の《フォーミュラ》のキャラを1枚選び、そのターン中、パワーを＋1000。\n\"故あって私はさっきのピンクの子…<br>私の妹を追いかけています\"",
+   "traits": [
+    "武器",
+    "フォーミュラ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/nr_w58/nr_w58_033.png",
+   "variant": ""
+  },
+  {
+   "num": "NR/W58-034",
+   "name": "時空管理局武装隊 ヴィータ",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】【CXコンボ】［(1)］ あなたのクライマックス置場に「都市の防衛」が置かれた時、前列にこのカードがいるなら、あなたはコストを払ってよい。そうしたら、あなたは他の自分の《魔法》のキャラを1枚選び、【スタンド】する。\n\"おめーら二人ともじっとしてろよ！<br>今、助けてやっから\"",
+   "traits": [
+    "魔法",
+    "人形"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/nr_w58/nr_w58_034.png",
+   "variant": ""
+  },
+  {
+   "num": "NR/W58-035",
+   "name": "授ける新たな力 アミタ",
+   "type": "Character",
+   "rarity": "U",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から2枚を、控え室に置く。それらのカードにクライマックスがあるなら、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋1500。\n【自】 他のあなたの《魔法》のキャラが手札から舞台に置かれた時、次の相手のターンの終わりまで、そのキャラのパワーを＋500し、《フォーミュラ》を与える。\n【起】［(2) このカードを【レスト】する］ あなたは1枚引く。\n\"彼女の指示に従って準備はしました\"",
+   "traits": [
+    "武器",
+    "フォーミュラ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/nr_w58/nr_w58_035.png",
+   "variant": ""
+  },
+  {
+   "num": "NR/W58-036",
+   "name": "物語のゆくえ ヴィータ",
+   "type": "Character",
+   "rarity": "U",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札を上から1枚見て、山札の上か控え室に置く。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から2枚を、控え室に置く。それらのカードにクライマックスがあるなら、そのターン中、このカードのパワーを＋3000。\n\"-\"",
+   "traits": [
+    "魔法",
+    "人形"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/nr_w58/nr_w58_036.png",
+   "variant": ""
+  },
+  {
+   "num": "NR/W58-037",
+   "name": "お花見ティータイム なのは",
+   "type": "Character",
+   "rarity": "U",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室のコスト0以下のカード名に「なのは」を含むキャラを1枚選び、手札に戻す。\n【自】 この能力は1ターンにつき1回まで発動する。他のあなたの「“スターライトブレイカー”なのは」が手札から舞台に置かれた時、あなたは自分の山札の上から1枚を、ストック置場に置いてよい。\n\"あ、ヴィータちゃんも一緒にやらない？\"",
+   "traits": [
+    "魔法",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/nr_w58/nr_w58_037.png",
+   "variant": ""
+  },
+  {
+   "num": "NR/W58-038",
+   "name": "仲良し姉妹 アミタ＆キリエ",
+   "type": "Character",
+   "rarity": "U",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードがアタックした時、そのターン中、このカードのパワーを＋Ｘ。Ｘは他のあなたの《フォーミュラ》のキャラの枚数×500に等しい。\n\"アミタ「ねえキリエ。<br>この世界の『魔導師』って魔法使いって意味だそうなんです」\"",
+   "traits": [
+    "武器",
+    "フォーミュラ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/nr_w58/nr_w58_038.png",
+   "variant": ""
+  },
+  {
+   "num": "NR/W58-039",
+   "name": "妹の救済 アミタ",
+   "type": "Character",
+   "rarity": "U",
+   "color": "red",
+   "level": "1",
+   "cost": "1",
+   "power": "5500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの《フォーミュラ》のキャラが2枚以上なら、このカードのパワーを＋2000。\n【自】 アンコール ［手札のキャラを1枚控え室に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"だとしたら…可哀想です<br>あなたはとても…\"",
+   "traits": [
+    "武器",
+    "フォーミュラ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/nr_w58/nr_w58_039.png",
+   "variant": ""
+  },
+  {
+   "num": "NR/W58-040",
+   "name": "エルトリアの少女 アミタ",
+   "type": "Character",
+   "rarity": "U",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋Ｘ。Ｘはそのキャラのレベル×500に等しい。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分の控え室の「幼き頃のアミタ」を1枚選び、ストック置場に置いてよい。\n【自】 この能力は1ターンにつき1回まで発動する。あなたが『加速』を使った時、あなたは1枚引き、自分の手札を1枚選び、控え室に置く。\n\"はやてさんや皆さんは<br>私がお守りします！\"",
+   "traits": [
+    "武器",
+    "フォーミュラ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/nr_w58/nr_w58_040.png",
+   "variant": ""
+  },
+  {
+   "num": "NR/W58-041",
+   "name": "真夏のレジャー ヴィータ",
+   "type": "Character",
+   "rarity": "U",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 このカードの下にマーカーがないなら、このカードのパワーを－7500。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分の控え室の「真夏のレジャー ヴィータ」を1枚選び、このカードの下にマーカーとして表向きに置いてよい。\n\"おう、恩に着ろよなのは！\"",
+   "traits": [
+    "魔法",
+    "人形"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/nr_w58/nr_w58_041.png",
+   "variant": ""
+  },
+  {
+   "num": "NR/W58-042",
+   "name": "サポート役 ユーノ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの前列の中央の枠のキャラに、パワーを＋500し、次の能力を与える。『【永】 このカードは相手の効果に選ばれない。』\n\"地上の施設はボクが守る\"",
+   "traits": [
+    "魔法",
+    "本"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/nr_w58/nr_w58_042.png",
+   "variant": ""
+  },
+  {
+   "num": "NR/W58-043",
+   "name": "幼き頃のアミタ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "",
+   "text": "-\n\"『…ええ』\"",
+   "traits": [
+    "武器",
+    "フォーミュラ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/nr_w58/nr_w58_043.png",
+   "variant": ""
+  },
+  {
+   "num": "NR/W58-044",
+   "name": "激戦の果てに なのは",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたのカード名に「なのは」か「フェイト」か「はやて」を含むキャラがいないなら、このカードはあなたのスタンドフェイズに【スタンド】しない。\n\"なのは「私の勝ちだね。目が覚めたらお話聞かせてね」\"",
+   "traits": [
+    "魔法",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/nr_w58/nr_w58_044.png",
+   "variant": ""
+  },
+  {
+   "num": "NR/W58-045",
+   "name": "水辺の撃ち合い なのは",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "5500",
+   "soul": 1,
+   "trigger": "",
+   "text": "-\n\"ふえっ!?\"",
+   "traits": [
+    "魔法",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/nr_w58/nr_w58_045.png",
+   "variant": ""
+  },
+  {
+   "num": "NR/W58-046",
+   "name": "疾走する救済者 アミタ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【起】【カウンター】 助太刀3000 レベル2 ［(1) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋3000）\n\"飛ばしますよはやてさん！\"",
+   "traits": [
+    "武器",
+    "フォーミュラ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/nr_w58/nr_w58_046.png",
+   "variant": ""
+  },
+  {
+   "num": "NR/W58-047",
+   "name": "仲良くポーズ フェイト＆なのは",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "7500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが【リバース】した時、このカードのバトル相手のレベルが相手のレベルより高いなら、あなたはそのキャラを【リバース】してよい。\n\"行ってきまーす\"",
+   "traits": [
+    "魔法",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/nr_w58/nr_w58_047.png",
+   "variant": ""
+  },
+  {
+   "num": "NR/W58-048",
+   "name": "ドキドキ空中散歩",
+   "type": "Event",
+   "rarity": "U",
+   "color": "red",
+   "level": "2",
+   "cost": "3",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "【カウンター】 あなたの、《魔法》か《武器》のキャラが5枚以上なら、あなたは相手のキャラを1枚選び、【レスト】する。\n\"なのは「それっ！」\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/nr_w58/nr_w58_048.png",
+   "variant": ""
+  },
+  {
+   "num": "NR/W58-049",
+   "name": "希望に向かう力",
+   "type": "Climax",
+   "rarity": "CR",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[salvage.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[salvage.gif]]：このカードがトリガーした時、あなたは自分の控え室のキャラを1枚選び、手札に戻してよい）\n\"レイジングハート「System drive, formula mode」\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/nr_w58/nr_w58_049.png",
+   "variant": ""
+  },
+  {
+   "num": "NR/W58-049R",
+   "name": "希望に向かう力",
+   "type": "Climax",
+   "rarity": "RRR",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[salvage.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[salvage.gif]]：このカードがトリガーした時、あなたは自分の控え室のキャラを1枚選び、手札に戻してよい）\n\"レイジングハート「System drive, formula mode」\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/nr_w58/nr_w58_049r.png",
+   "variant": ""
+  },
+  {
+   "num": "NR/W58-050",
+   "name": "救済の魔法使い",
+   "type": "Climax",
+   "rarity": "CR",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[salvage.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[salvage.gif]]：このカードがトリガーした時、あなたは自分の控え室のキャラを1枚選び、手札に戻してよい）\n\"不思議な力が嘘でも悲しい物語が進んでいても<br>泣いてる子を助けてくれる魔法使いはちゃんといました\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/nr_w58/nr_w58_050.png",
+   "variant": ""
+  },
+  {
+   "num": "NR/W58-050R",
+   "name": "救済の魔法使い",
+   "type": "Climax",
+   "rarity": "RRR",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[salvage.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[salvage.gif]]：このカードがトリガーした時、あなたは自分の控え室のキャラを1枚選び、手札に戻してよい）\n\"不思議な力が嘘でも悲しい物語が進んでいても<br>泣いてる子を助けてくれる魔法使いはちゃんといました\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/nr_w58/nr_w58_050r.png",
+   "variant": ""
+  },
+  {
+   "num": "NR/W58-051",
+   "name": "ツインブレイカー",
+   "type": "Climax",
+   "rarity": "CC",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【自】 このカードが手札からクライマックス置場に置かれた時、あなたは自分の控え室の赤のカードを1枚まで選び、ストック置場に置き、自分のキャラすべてに、そのターン中、ソウルを＋1。\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/nr_w58/nr_w58_051.png",
+   "variant": ""
+  },
+  {
+   "num": "NR/W58-052",
+   "name": "都市の防衛",
+   "type": "Climax",
+   "rarity": "CC",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[standby.gif]]",
+   "text": "【自】 このカードが手札からクライマックス置場に置かれた時、[[standby.gif]]の効果を行う。\n（[[standby.gif]]：このカードがトリガーした時、あなたは自分の控え室の自分のレベル＋1以下のレベルのキャラを1枚選び、舞台の好きな枠に【レスト】して置いてよい）\n\"そっちに行くんじゃ！<br>ねえーッ！\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/nr_w58/nr_w58_052.png",
+   "variant": ""
+  },
+  {
+   "num": "NR/W58-053",
+   "name": "“騎士甲冑・改”はやて",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から1枚を公開する。そのカードが青か《魔法》のキャラなら、そのターン中、このカードのパワーを＋2000。（公開したカードは元に戻す）\n【自】 このカードが舞台から控え室に置かれた時、あなたは自分の山札の上から3枚までを、公開してよい。1枚以上公開したなら、あなたはそれらのカードの青か《魔法》のキャラを1枚まで選び、手札に加え、残りのカードを控え室に置き、自分の手札を1枚選び、控え室に置く。\n\"八神はやてと夜天の守護騎士！<br>応援に駆けつけたよー\"",
+   "traits": [
+    "魔法",
+    "本"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/nr_w58/nr_w58_053.png",
+   "variant": ""
+  },
+  {
+   "num": "NR/W58-053S",
+   "name": "“騎士甲冑・改”はやて",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から1枚を公開する。そのカードが青か《魔法》のキャラなら、そのターン中、このカードのパワーを＋2000。（公開したカードは元に戻す）\n【自】 このカードが舞台から控え室に置かれた時、あなたは自分の山札の上から3枚までを、公開してよい。1枚以上公開したなら、あなたはそれらのカードの青か《魔法》のキャラを1枚まで選び、手札に加え、残りのカードを控え室に置き、自分の手札を1枚選び、控え室に置く。\n\"八神はやてと夜天の守護騎士！<br>応援に駆けつけたよー\"",
+   "traits": [
+    "魔法",
+    "本"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/nr_w58/nr_w58_053s.png",
+   "variant": ""
+  },
+  {
+   "num": "NR/W58-054",
+   "name": "貫く意志 キリエ",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "blue",
+   "level": "3",
+   "cost": "2",
+   "power": "9000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたのキャラすべてが《フォーミュラ》なら、このカードのパワーを＋1000。\n【自】［(1)］ このカードがアタックした時、あなたはコストを払ってよい。そうしたら、そのアタック中、あなたはトリガーステップにトリガーチェックを2回行う。\n【自】［(3) 手札の《フォーミュラ》のキャラを1枚控え室に置き、他のあなたの【スタンド】している《フォーミュラ》のキャラを1枚【レスト】する］ この能力は1ターンにつき1回まで発動する。このカードが手札から舞台に置かれたターン中、あなたの前列の中央の枠のキャラがアタックした時、あなたはコストを払ってよい。そうしたら、このカードを【スタンド】する。\n\"言ったでしょ？<br>パパもエルトリアも助けるんだって！\"",
+   "traits": [
+    "武器",
+    "フォーミュラ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/nr_w58/nr_w58_054.png",
+   "variant": ""
+  },
+  {
+   "num": "NR/W58-054SP",
+   "name": "貫く意志 キリエ",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "blue",
+   "level": "3",
+   "cost": "2",
+   "power": "9000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたのキャラすべてが《フォーミュラ》なら、このカードのパワーを＋1000。\n【自】［(1)］ このカードがアタックした時、あなたはコストを払ってよい。そうしたら、そのアタック中、あなたはトリガーステップにトリガーチェックを2回行う。\n【自】［(3) 手札の《フォーミュラ》のキャラを1枚控え室に置き、他のあなたの【スタンド】している《フォーミュラ》のキャラを1枚【レスト】する］ この能力は1ターンにつき1回まで発動する。このカードが手札から舞台に置かれたターン中、あなたの前列の中央の枠のキャラがアタックした時、あなたはコストを払ってよい。そうしたら、このカードを【スタンド】する。\n\"-\"",
+   "traits": [
+    "武器",
+    "フォーミュラ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/nr_w58/nr_w58_054sp.png",
+   "variant": ""
+  },
+  {
+   "num": "NR/W58-054SSP",
+   "name": "貫く意志 キリエ",
+   "type": "Character",
+   "rarity": "SSP",
+   "color": "blue",
+   "level": "3",
+   "cost": "2",
+   "power": "9000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたのキャラすべてが《フォーミュラ》なら、このカードのパワーを＋1000。\n【自】［(1)］ このカードがアタックした時、あなたはコストを払ってよい。そうしたら、そのアタック中、あなたはトリガーステップにトリガーチェックを2回行う。\n【自】［(3) 手札の《フォーミュラ》のキャラを1枚控え室に置き、他のあなたの【スタンド】している《フォーミュラ》のキャラを1枚【レスト】する］ この能力は1ターンにつき1回まで発動する。このカードが手札から舞台に置かれたターン中、あなたの前列の中央の枠のキャラがアタックした時、あなたはコストを払ってよい。そうしたら、このカードを【スタンド】する。\n\"-\"",
+   "traits": [
+    "武器",
+    "フォーミュラ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/nr_w58/nr_w58_054ssp.png",
+   "variant": ""
+  },
+  {
+   "num": "NR/W58-055",
+   "name": "ツインカノン はやて",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "blue",
+   "level": "3",
+   "cost": "2",
+   "power": "9500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの、青か《魔法》のキャラが2枚以上なら、このカードのパワーを＋500し、このカードは『【自】 アンコール ［手札の青のカードを1枚控え室に置く］』を得る。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n【自】【CXコンボ】 このカードがアタックした時、クライマックス置場に「見事な連携」があるなら、あなたは自分の山札の上から5枚を、控え室に置き、相手にＸダメージを与え、次の相手のターンの終わりまで、このカードのパワーを＋1000。Ｘはそれらのカードのクライマックスの枚数に等しい。（ダメージキャンセルは発生する）\n\"コントロールは任せたよ！\"",
+   "traits": [
+    "魔法",
+    "本"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/nr_w58/nr_w58_055.png",
+   "variant": ""
+  },
+  {
+   "num": "NR/W58-055SP",
+   "name": "ツインカノン はやて",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "blue",
+   "level": "3",
+   "cost": "2",
+   "power": "9500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの、青か《魔法》のキャラが2枚以上なら、このカードのパワーを＋500し、このカードは『【自】 アンコール ［手札の青のカードを1枚控え室に置く］』を得る。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n【自】【CXコンボ】 このカードがアタックした時、クライマックス置場に「見事な連携」があるなら、あなたは自分の山札の上から5枚を、控え室に置き、相手にＸダメージを与え、次の相手のターンの終わりまで、このカードのパワーを＋1000。Ｘはそれらのカードのクライマックスの枚数に等しい。（ダメージキャンセルは発生する）\n\"-\"",
+   "traits": [
+    "魔法",
+    "本"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/nr_w58/nr_w58_055sp.png",
+   "variant": ""
+  },
+  {
+   "num": "NR/W58-055SSP",
+   "name": "ツインカノン はやて",
+   "type": "Character",
+   "rarity": "SSP",
+   "color": "blue",
+   "level": "3",
+   "cost": "2",
+   "power": "9500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの、青か《魔法》のキャラが2枚以上なら、このカードのパワーを＋500し、このカードは『【自】 アンコール ［手札の青のカードを1枚控え室に置く］』を得る。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n【自】【CXコンボ】 このカードがアタックした時、クライマックス置場に「見事な連携」があるなら、あなたは自分の山札の上から5枚を、控え室に置き、相手にＸダメージを与え、次の相手のターンの終わりまで、このカードのパワーを＋1000。Ｘはそれらのカードのクライマックスの枚数に等しい。（ダメージキャンセルは発生する）\n\"-\"",
+   "traits": [
+    "魔法",
+    "本"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/nr_w58/nr_w58_055ssp.png",
+   "variant": ""
+  },
+  {
+   "num": "NR/W58-056",
+   "name": "運動着 リイン",
+   "type": "Character",
+   "rarity": "R",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの前列の中央の枠のキャラに、パワーを＋500。\n【起】 集中 ［(1) このカードを【レスト】する］ あなたは自分の山札の上から4枚をめくり、控え室に置く。それらのカードのクライマックス1枚につき、あなたは自分の山札を見て青かカード名に「シグナム」か「ヴィータ」を含むキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"えへへ…<br>おはようございます！\"",
+   "traits": [
+    "魔法",
+    "ユニゾン"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/nr_w58/nr_w58_056.png",
+   "variant": ""
+  },
+  {
+   "num": "NR/W58-056S",
+   "name": "運動着 リイン",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの前列の中央の枠のキャラに、パワーを＋500。\n【起】 集中 ［(1) このカードを【レスト】する］ あなたは自分の山札の上から4枚をめくり、控え室に置く。それらのカードのクライマックス1枚につき、あなたは自分の山札を見て青かカード名に「シグナム」か「ヴィータ」を含むキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"えへへ…<br>おはようございます！\"",
+   "traits": [
+    "魔法",
+    "ユニゾン"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/nr_w58/nr_w58_056s.png",
+   "variant": ""
+  },
+  {
+   "num": "NR/W58-057",
+   "name": "雷の魔力 レヴィ",
+   "type": "Character",
+   "rarity": "R",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【起】【CXコンボ】 集中 ［(1) このカードを【レスト】する］ あなたは自分の山札の上から4枚をめくり、控え室に置く。それらのカードの「王と臣下」か「星を殺す悪魔」1枚につき、あなたは自分の山札を見て《魔法》か《武器》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルし、自分のキャラを1枚選び、そのターン中、パワーを＋1000。\n\"ボクの名はレヴィ！<br> 『雷光のレヴィ』とはボクのことさ！\"",
+   "traits": [
+    "魔法",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/nr_w58/nr_w58_057.png",
+   "variant": ""
+  },
+  {
+   "num": "NR/W58-058",
+   "name": "“フォーミュラスーツ Type-K”キリエ",
+   "type": "Character",
+   "rarity": "R",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【起】 集中 ［(1) このカードを【レスト】する］ あなたは自分の山札の上から4枚をめくり、控え室に置く。それらのカードのクライマックス1枚につき、あなたは自分の控え室の《フォーミュラ》のキャラを1枚まで選び、手札に戻す。\n\"永遠結晶があれば<br>みんなを助けられるのに!!\"",
+   "traits": [
+    "武器",
+    "フォーミュラ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/nr_w58/nr_w58_058.png",
+   "variant": ""
+  },
+  {
+   "num": "NR/W58-058S",
+   "name": "“フォーミュラスーツ Type-K”キリエ",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【起】 集中 ［(1) このカードを【レスト】する］ あなたは自分の山札の上から4枚をめくり、控え室に置く。それらのカードのクライマックス1枚につき、あなたは自分の控え室の《フォーミュラ》のキャラを1枚まで選び、手札に戻す。\n\"永遠結晶があれば<br>みんなを助けられるのに!!\"",
+   "traits": [
+    "武器",
+    "フォーミュラ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/nr_w58/nr_w58_058s.png",
+   "variant": ""
+  },
+  {
+   "num": "NR/W58-059",
+   "name": "真っ直ぐな瞳 はやて",
+   "type": "Character",
+   "rarity": "R",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのストックが2枚以下なら、このカードのパワーを＋1500。\n\"さ、わたしたちも行こか\"",
+   "traits": [
+    "魔法",
+    "本"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/nr_w58/nr_w58_059.png",
+   "variant": ""
+  },
+  {
+   "num": "NR/W58-059S",
+   "name": "真っ直ぐな瞳 はやて",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのストックが2枚以下なら、このカードのパワーを＋1500。\n\"さ、わたしたちも行こか\"",
+   "traits": [
+    "魔法",
+    "本"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/nr_w58/nr_w58_059s.png",
+   "variant": ""
+  },
+  {
+   "num": "NR/W58-060",
+   "name": "故郷のため キリエ",
+   "type": "Character",
+   "rarity": "R",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 あなたがこのカードの『助太刀』を使った時、あなたの《フォーミュラ》のキャラがいるなら、あなたは自分のバトル中のキャラを1枚選び、そのターン中、パワーを＋1000。\n【起】【カウンター】 助太刀1000 レベル1 ［手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋1000）\n\"悲しんでる女の子を助けてくれる<br>魔法使いもいないから\"",
+   "traits": [
+    "武器",
+    "フォーミュラ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/nr_w58/nr_w58_060.png",
+   "variant": ""
+  },
+  {
+   "num": "NR/W58-061",
+   "name": "人工知能 イリス",
+   "type": "Character",
+   "rarity": "R",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】【CXコンボ】［(1)］ このカードがアタックした時、クライマックス置場に「残酷な言葉」があり、他のあなたの《フォーミュラ》のキャラが2枚以上なら、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見て《フォーミュラ》かカード名に「ユーリ」を含むキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルし、相手の【スタンド】しているキャラすべてを、【レスト】し、そのターン中、このカードのパワーを＋1000。\n【自】 相手の【スタンド】しているキャラが【レスト】した時、そのターン中、このカードのパワーを＋1500。\n\"キリエ、本当にいいの？<br>危険な旅なのよ\"",
+   "traits": [
+    "魔法",
+    "フォーミュラ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/nr_w58/nr_w58_061.png",
+   "variant": ""
+  },
+  {
+   "num": "NR/W58-062",
+   "name": "新たなる物語 はやて",
+   "type": "Character",
+   "rarity": "R",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、他のあなたの、青か《魔法》のキャラがいるなら、そのターン中、このカードのパワーを＋2000。\n【自】［(1) 他のあなたの【スタンド】している、青か《魔法》のキャラを1枚【レスト】する］ このカードが手札から舞台に置かれたターン中、このカードのバトル相手が【リバース】した時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見て青か《魔法》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"準備してたらおくれてもーた\"",
+   "traits": [
+    "魔法",
+    "本"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/nr_w58/nr_w58_062.png",
+   "variant": ""
+  },
+  {
+   "num": "NR/W58-063",
+   "name": "それぞれの意志 キリエ",
+   "type": "Character",
+   "rarity": "R",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、そのターン中、このカードのパワーを＋1500。\n【自】 加速 ［あなたの山札の上から1枚をクロック置場に置く］ あなたのクライマックスフェイズの始めに、あなたはコストを払ってよい。そうしたら、そのターン中、このカードのパワーを＋1000し、このカードは次の能力を得る。『【自】 このカードのバトル相手が【リバース】した時、あなたは自分の山札を上から4枚まで見て、《フォーミュラ》のキャラを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。』\n\"あたしはどうしても欲しいものがあるの！\"",
+   "traits": [
+    "武器",
+    "フォーミュラ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/nr_w58/nr_w58_063.png",
+   "variant": ""
+  },
+  {
+   "num": "NR/W58-063S",
+   "name": "それぞれの意志 キリエ",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、そのターン中、このカードのパワーを＋1500。\n【自】 加速 ［あなたの山札の上から1枚をクロック置場に置く］ あなたのクライマックスフェイズの始めに、あなたはコストを払ってよい。そうしたら、そのターン中、このカードのパワーを＋1000し、このカードは次の能力を得る。『【自】 このカードのバトル相手が【リバース】した時、あなたは自分の山札を上から4枚まで見て、《フォーミュラ》のキャラを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。』\n\"あたしはどうしても欲しいものがあるの！\"",
+   "traits": [
+    "武器",
+    "フォーミュラ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/nr_w58/nr_w58_063s.png",
+   "variant": ""
+  },
+  {
+   "num": "NR/W58-064",
+   "name": "すれ違う姉妹 キリエ",
+   "type": "Character",
+   "rarity": "R",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】【CXコンボ】 このカードのバトル相手が【リバース】した時、あなたのクライマックス置場に「世界を救う企み」があるなら、あなたは自分の山札を見て《フォーミュラ》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"永遠結晶を持って帰らなかったら<br>パパが死んじゃうのよ！\"",
+   "traits": [
+    "武器",
+    "フォーミュラ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/nr_w58/nr_w58_064.png",
+   "variant": ""
+  },
+  {
+   "num": "NR/W58-065",
+   "name": "闇の魔力 ディアーチェ",
+   "type": "Character",
+   "rarity": "R",
+   "color": "blue",
+   "level": "3",
+   "cost": "2",
+   "power": "9500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの、《魔法》か《武器》のキャラが2枚以上なら、このカードのパワーを＋1000。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札を上から3枚まで見て、カードを1枚まで選び、手札に加え、残りのカードを控え室に置く。\n【自】【CXコンボ】［手札を1枚控え室に置く］ このカードがアタックした時、クライマックス置場に「王と臣下」があるなら、あなたはコストを払ってよい。そうしたら、あなたは相手の山札を上から3枚まで見てカードを3枚まで選び、控え室に置き、残りのカードを山札に戻し、その山札をシャッフルし、そのターン中、このカードのパワーを＋1000。\n\"我が名はディアーチェ。<br>失われた力を取り戻すために蘇った王の魂\"",
+   "traits": [
+    "魔法",
+    "本"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/nr_w58/nr_w58_065.png",
+   "variant": ""
+  },
+  {
+   "num": "NR/W58-066",
+   "name": "月夜のお出かけ はやて",
+   "type": "Character",
+   "rarity": "U",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の、《魔法》か《本》のキャラを1枚選び、そのターン中、パワーを＋1500。\n【自】［(1) あなたの山札の上から1枚をクロック置場に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは1枚引く。\n\"練習場、うちで準備してもらってるからなー\"",
+   "traits": [
+    "魔法",
+    "本"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/nr_w58/nr_w58_066.png",
+   "variant": ""
+  },
+  {
+   "num": "NR/W58-067",
+   "name": "遺跡板で眠っていた少女 イリス",
+   "type": "Character",
+   "rarity": "U",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、他のあなたの《フォーミュラ》のキャラが2枚以上なら、あなたは1枚引いてよい。そうしたら、あなたは自分の手札を1枚選び、控え室に置く。\n【自】 このカードが手札から舞台に置かれた時、あなたは他の自分の《フォーミュラ》のキャラを1枚選び、そのターン中、パワーを＋1000。\n\"高密度生命エネルギー結晶体『永遠結晶』\"",
+   "traits": [
+    "魔法",
+    "フォーミュラ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/nr_w58/nr_w58_067.png",
+   "variant": ""
+  },
+  {
+   "num": "NR/W58-068",
+   "name": "時空管理局医務部 シャマル",
+   "type": "Character",
+   "rarity": "U",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から2枚を、控え室に置く。それらのカードにクライマックスがあるなら、あなたは相手の山札の上から1枚を、控え室に置いてよい。そうしたら、あなたは相手の控え室のカードを1枚選び、山札の上に置く。\n【自】 このカードがアタックした時、そのターン中、このカードのパワーを＋Ｘ。Ｘは他のあなたの、青かカード名に「シグナム」か「ヴィータ」を含むキャラの枚数×500に等しい。\n\"応援到着ー！<br>ザフィーラとアルフも無事よー\"",
+   "traits": [
+    "魔法"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/nr_w58/nr_w58_068.png",
+   "variant": ""
+  },
+  {
+   "num": "NR/W58-069",
+   "name": "旅立ちの日 キリエ",
+   "type": "Character",
+   "rarity": "U",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1) 手札のクライマックスを1枚控え室に置く］ このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室のクライマックスを1枚選び、手札に戻す。\n【自】［手札を1枚控え室に置く］ このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「人工知能 イリス」を1枚選び、舞台の好きな枠に【レスト】して置く。\n\"イリス「じゃあ行こう…この星と<br>キリエのパパを助ける旅」\"",
+   "traits": [
+    "武器",
+    "フォーミュラ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/nr_w58/nr_w58_069.png",
+   "variant": ""
+  },
+  {
+   "num": "NR/W58-070",
+   "name": "覚悟の問い シュテル",
+   "type": "Character",
+   "rarity": "U",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのターン中、他のあなたの「子供っぽいレヴィ」すべてに、レベルを＋1し、パワーを＋1500。\n【自】［(1) 手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見て《魔法》か《武器》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"それを守りながら<br>私の攻撃を受けきれるとでも？\"",
+   "traits": [
+    "魔法",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/nr_w58/nr_w58_070.png",
+   "variant": ""
+  },
+  {
+   "num": "NR/W58-071",
+   "name": "怒りと悲しみ キリエ",
+   "type": "Character",
+   "rarity": "U",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードがアタックした時、他のあなたの《フォーミュラ》のキャラが2枚以上なら、そのターン中、このカードのパワーを＋2000。\n\"イリス…あたしは…\"",
+   "traits": [
+    "武器",
+    "フォーミュラ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/nr_w58/nr_w58_071.png",
+   "variant": ""
+  },
+  {
+   "num": "NR/W58-072",
+   "name": "八神家の母親役 シャマル",
+   "type": "Character",
+   "rarity": "U",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋500。\n【自】 あなたのキャラのトリガーチェックでクライマックスがでた時、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋2000。\n\"おはようみんな。<br>練習場の準備できてるわよー\"",
+   "traits": [
+    "魔法"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/nr_w58/nr_w58_072.png",
+   "variant": ""
+  },
+  {
+   "num": "NR/W58-073",
+   "name": "炎の魔力 シュテル",
+   "type": "Character",
+   "rarity": "U",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの、《魔法》か《武器》のキャラが2枚以上なら、このカードのパワーを＋1000。\n【自】【CXコンボ】［(1)］ このカードのバトル相手が【リバース】した時、あなたのクライマックス置場に「王と臣下」があり、他のあなたのカード名に「ディアーチェ」か「シュテル」か「レヴィ」か「ユーリ」を含むキャラがいて、相手の【リバース】しているキャラが2枚以上なら、あなたはコストを払ってよい。そうしたら、あなたは2枚まで引く。\n\"名乗らせていただきましょう。<br>我が名はシュテル。 『殲滅のシュテル』\"",
+   "traits": [
+    "魔法",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/nr_w58/nr_w58_073.png",
+   "variant": ""
+  },
+  {
+   "num": "NR/W58-074",
+   "name": "本気の構え レヴィ",
+   "type": "Character",
+   "rarity": "U",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの、《魔法》か《武器》のキャラが2枚以上なら、このカードのパワーを＋1000。\n【自】【CXコンボ】 あなたのクライマックス置場に「王と臣下」が置かれた時、前列にこのカードがいるなら、あなたは他の自分のカード名に「ディアーチェ」か「シュテル」か「レヴィ」か「ユーリ」を含むキャラを1枚とこのカードを選び、そのターン中、パワーを＋2000。\n\"無理だね！<br>なぜならここでボクがキミをブチころがすからだ！\"",
+   "traits": [
+    "魔法",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/nr_w58/nr_w58_074.png",
+   "variant": ""
+  },
+  {
+   "num": "NR/W58-075",
+   "name": "不意の襲撃 はやて",
+   "type": "Character",
+   "rarity": "U",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】［(2) 手札の、青か《魔法》のキャラを1枚控え室に置く］ あなたがこのカードの『助太刀』を使った時、あなたはコストを払ってよい。そうしたら、あなたは相手の、レベルが相手のレベルより高いキャラを1枚選び、山札の下に置く。\n【起】【カウンター】 助太刀2500 レベル2 ［(1) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋2500）\n\"リインがおらんといろいろ不安やけど…<br>ま、なんとかしよ！\"",
+   "traits": [
+    "魔法",
+    "本"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/nr_w58/nr_w58_075.png",
+   "variant": ""
+  },
+  {
+   "num": "NR/W58-076",
+   "name": "“融合騎”リインフォースⅡ",
+   "type": "Character",
+   "rarity": "U",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 応援 このカードの前のあなたのレベル3以上のキャラすべてに、パワーを＋2000。\n【自】 この能力は1ターンにつき1回まで発動する。他のあなたの「“ラグナロクブレイカー”はやて」が手札から舞台に置かれた時、あなたは自分の山札を見てレベル2以下のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"はいです！\"",
+   "traits": [
+    "魔法",
+    "ユニゾン"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/nr_w58/nr_w58_076.png",
+   "variant": ""
+  },
+  {
+   "num": "NR/W58-077",
+   "name": "大いなる望み ディアーチェ",
+   "type": "Character",
+   "rarity": "U",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたのカード名に「ディアーチェ」か「シュテル」か「レヴィ」か「ユーリ」を含むキャラすべてに、パワーを＋1000。\n【自】 他のあなたのバトル中のキャラが【リバース】した時、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋1000。\n\"あらゆる望みは我が手の中に…<br>世界の全ては我が腕の中！\"",
+   "traits": [
+    "魔法",
+    "本"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/nr_w58/nr_w58_077.png",
+   "variant": ""
+  },
+  {
+   "num": "NR/W58-078",
+   "name": "ヴァリアントフェンサー キリエ",
+   "type": "Character",
+   "rarity": "U",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "7000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードがアタックした時、このカードの正面のキャラのレベルが3以上なら、そのターン中、このカードのパワーを＋6000。\n【自】 加速 ［あなたの山札の上から1枚をクロック置場に置く］ あなたのクライマックスフェイズの始めに、あなたはコストを払ってよい。そうしたら、そのターン中、このカードのパワーを＋1000し、このカードは次の能力を得る。『【自】 このカードのバトル相手が【リバース】した時、あなたは1枚引いてよい。』\n\"フォーミュラースーツセット！\"",
+   "traits": [
+    "武器",
+    "フォーミュラ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/nr_w58/nr_w58_078.png",
+   "variant": ""
+  },
+  {
+   "num": "NR/W58-079",
+   "name": "王の魂 ディアーチェ",
+   "type": "Character",
+   "rarity": "U",
+   "color": "blue",
+   "level": "3",
+   "cost": "2",
+   "power": "9500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n【自】 このカードがアタックした時、他のあなたのカード名に「ディアーチェ」か「シュテル」か「レヴィ」か「ユーリ」を含むキャラが4枚以上なら、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋3000。\n\"無限にして無敵の王に…<br>我はなる！\"",
+   "traits": [
+    "魔法",
+    "本"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/nr_w58/nr_w58_079.png",
+   "variant": ""
+  },
+  {
+   "num": "NR/W58-080",
+   "name": "震えるほどに暗黒 ディアーチェ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの、《魔法》か《武器》のキャラすべてに、パワーを＋500。\n【自】 あなたのキャラのトリガーチェックでクライマックスがでた時、そのカードのトリガーアイコンが[[draw.gif]]なら、あなたは1枚引いてよい。そうしたら、あなたは自分の手札を1枚選び、控え室に置く。\n\"絶望にあがけ！<br>アロンダイトォォォッ！\"",
+   "traits": [
+    "魔法",
+    "本"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/nr_w58/nr_w58_080.png",
+   "variant": ""
+  },
+  {
+   "num": "NR/W58-081",
+   "name": "幼き頃のキリエ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの《フォーミュラ》のキャラすべてに、パワーを＋500。\n【自】［【スタンド】しているこのカードを【レスト】する］ あなたが『加速』を使った時、あなたはコストを払ってよい。そうしたら、あなたは相手の山札の上から1枚を控え室に置き、相手の控え室のカードを1枚選び、山札の上に置く。\n\"『本当にあったらどんなお願いをするか２人でずっと話してたっけ』\"",
+   "traits": [
+    "武器",
+    "フォーミュラ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/nr_w58/nr_w58_081.png",
+   "variant": ""
+  },
+  {
+   "num": "NR/W58-082",
+   "name": "小さな守護者 リイン",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 相手のターン中、他のあなたの「漆黒の翼 はやて」すべてに、レベルを＋1し、パワーを＋1500。\n【自】 絆／「漆黒の翼 はやて」 ［手札を1枚控え室に置く］ （このカードがプレイされて舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「漆黒の翼 はやて」を1枚選び、手札に戻す）\n\"ダメです！<br>これは絶対ダメです\"",
+   "traits": [
+    "魔法",
+    "ユニゾン"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/nr_w58/nr_w58_082.png",
+   "variant": ""
+  },
+  {
+   "num": "NR/W58-083",
+   "name": "キリエの友達 イリス",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［手札を1枚控え室に置き、このカードを控え室に置く］ あなたのクライマックスフェイズの始めに、他のあなたのキャラがいないなら、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室のレベル1以下のカード名に「ディアーチェ」か「シュテル」か「レヴィ」か「ユーリ」を含むキャラを1枚選び、このカードがいた枠に置く。\n\"向こうは空気も違うから<br>適合調整もしっかりね\"",
+   "traits": [
+    "魔法",
+    "フォーミュラ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/nr_w58/nr_w58_083.png",
+   "variant": ""
+  },
+  {
+   "num": "NR/W58-084",
+   "name": "王への信頼 レヴィ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、そのターン中、このカードのパワーを＋1500。\n\"そんな王様を悪い人だとか言うやつは、<br>ボクがこの手で、ブチころがすっ！\"",
+   "traits": [
+    "魔法",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/nr_w58/nr_w58_084.png",
+   "variant": ""
+  },
+  {
+   "num": "NR/W58-085",
+   "name": "物語のゆくえ ザフィーラ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは他の自分の、青かカード名に「シグナム」か「ヴィータ」を含むキャラを1枚選び、そのターン中、パワーを＋Ｘ。Ｘは他のあなたの、青かカード名に「シグナム」か「ヴィータ」を含むキャラの枚数×500に等しい。\n\"-\"",
+   "traits": [
+    "使い魔",
+    "動物"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/nr_w58/nr_w58_085.png",
+   "variant": ""
+  },
+  {
+   "num": "NR/W58-086",
+   "name": "漆黒の翼 はやて",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "",
+   "text": "-\n\"王様も相当お疲れのようで…\"",
+   "traits": [
+    "魔法",
+    "本"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/nr_w58/nr_w58_086.png",
+   "variant": ""
+  },
+  {
+   "num": "NR/W58-087",
+   "name": "子供っぽいレヴィ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、相手の控え室のクライマックスが3枚以上なら、このカードを【レスト】する。\n【自】 相手のアタックフェイズの始めに、あなたはこのカードを、前列のキャラのいない枠で、正面に相手のキャラがいる枠に動かしてよい。\n\"さー！<br>遊んであげるよー！\"",
+   "traits": [
+    "魔法",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/nr_w58/nr_w58_087.png",
+   "variant": ""
+  },
+  {
+   "num": "NR/W58-088",
+   "name": "真面目で忠実 シュテル",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "6500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 このカードは、あなたの、《魔法》か《武器》のキャラが2枚以下なら、手札からプレイできない。\n【自】 バトル中のこのカードが【リバース】した時、このカードを山札の下に置く。\n\"あなたがたに恨みはありませんが…<br>ここで消えていただきます\"",
+   "traits": [
+    "魔法",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/nr_w58/nr_w58_088.png",
+   "variant": ""
+  },
+  {
+   "num": "NR/W58-089",
+   "name": "王の右腕 シュテル",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "1",
+   "cost": "1",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 このカードの正面のキャラのコストが0以下なら、このカードは【リバース】しない。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から1枚を公開する。そのカードが《魔法》か《武器》のキャラなら、そのターン中、このカードのパワーを＋2000。（公開したカードは元に戻す）\n\"わたしとあなたの心と魔導<br>どちらが強いか比べ合うとしましょう\"",
+   "traits": [
+    "魔法",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/nr_w58/nr_w58_089.png",
+   "variant": ""
+  },
+  {
+   "num": "NR/W58-090",
+   "name": "お花見ティータイム はやて",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "1",
+   "cost": "2",
+   "power": "8500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 このカードはサイドアタックできない。\n【自】 アンコール ［手札のキャラを1枚控え室に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"なのはちゃん、フェイトちゃん！<br>おはよー\"",
+   "traits": [
+    "魔法",
+    "本"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/nr_w58/nr_w58_090.png",
+   "variant": ""
+  },
+  {
+   "num": "NR/W58-091",
+   "name": "物語のゆくえ シャマル",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋Ｘ。Ｘはそのキャラのレベル×500に等しい。\n【自】 このカードが手札から舞台に置かれた時、あなたは1枚引き、自分の手札を1枚選び、控え室に置く。\n\"-\"",
+   "traits": [
+    "魔法"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/nr_w58/nr_w58_091.png",
+   "variant": ""
+  },
+  {
+   "num": "NR/W58-092",
+   "name": "謎の少女 ユーリ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "7000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの、《魔法》か《武器》のキャラ1枚につき、このカードのパワーを＋500。\n【自】【CXコンボ】 あなたのクライマックス置場に「星を殺す悪魔」が置かれた時、前列にこのカードがいて、他のあなたの、《魔法》か《武器》のキャラがいるなら、あなたは自分の山札を見て《魔法》か《武器》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルし、他のあなたのキャラすべてに、そのターン中、パワーを＋500。\n\"イリス…わたしは…\"",
+   "traits": [
+    "魔法"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/nr_w58/nr_w58_092.png",
+   "variant": ""
+  },
+  {
+   "num": "NR/W58-093",
+   "name": "エルトリアの少女 イリス",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "7000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードがアタックした時、そのターン中、このカードのパワーを＋Ｘ。Ｘは他のあなたの《フォーミュラ》のキャラの枚数×1000に等しい。\n【自】［あなたの舞台のカード名に「キリエ」を含むキャラを1枚控え室に置く］ このカードがアタックした時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札の上から1枚を公開する。そのカードが《魔法》か《フォーミュラ》のキャラなら手札に加える。（そうでないなら元に戻す）\n\"ＤＳＶＣ、コンバート…<br>ＧＭＳ起動…\"",
+   "traits": [
+    "魔法",
+    "フォーミュラ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/nr_w58/nr_w58_093.png",
+   "variant": ""
+  },
+  {
+   "num": "NR/W58-094",
+   "name": "エルトリアの少女 キリエ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "2",
+   "cost": "2",
+   "power": "7000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの《フォーミュラ》のキャラ1枚につき、このカードのパワーを＋1000。\n\"あたしはどうしても欲しいものがあるの！\"",
+   "traits": [
+    "武器",
+    "フォーミュラ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/nr_w58/nr_w58_094.png",
+   "variant": ""
+  },
+  {
+   "num": "NR/W58-095",
+   "name": "終わりの始まり",
+   "type": "Event",
+   "rarity": "U",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "あなたは自分の山札を見て《フォーミュラ》のキャラを2枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。あなたは自分の手札を1枚選び、控え室に置く。\n\"ちょうど良かった<br>体を作るための材料が必要だったから\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/nr_w58/nr_w58_095.png",
+   "variant": ""
+  },
+  {
+   "num": "NR/W58-096",
+   "name": "見事な連携",
+   "type": "Climax",
+   "rarity": "CR",
+   "color": "blue",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[gate.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[gate.gif]]：このカードがトリガーした時、あなたは自分の控え室のクライマックスを1枚選び、手札に戻してよい）\n\"リイン「はやてちゃん！コアの位置発見しました！」<br>はやて「了解！」\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/nr_w58/nr_w58_096.png",
+   "variant": ""
+  },
+  {
+   "num": "NR/W58-096R",
+   "name": "見事な連携",
+   "type": "Climax",
+   "rarity": "RRR",
+   "color": "blue",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[gate.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[gate.gif]]：このカードがトリガーした時、あなたは自分の控え室のクライマックスを1枚選び、手札に戻してよい）\n\"リイン「はやてちゃん！コアの位置発見しました！」<br>はやて「了解！」\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/nr_w58/nr_w58_096r.png",
+   "variant": ""
+  },
+  {
+   "num": "NR/W58-097",
+   "name": "世界を救う企み",
+   "type": "Climax",
+   "rarity": "CC",
+   "color": "blue",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[gate.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[gate.gif]]：このカードがトリガーした時、あなたは自分の控え室のクライマックスを1枚選び、手札に戻してよい）\n\"キリエ「なるべく迷惑をかけずにできるだけ急いで<br>パパとエルトリアを助ける『鍵』を手に入れる」\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/nr_w58/nr_w58_097.png",
+   "variant": ""
+  },
+  {
+   "num": "NR/W58-097R",
+   "name": "世界を救う企み",
+   "type": "Climax",
+   "rarity": "RRR",
+   "color": "blue",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[gate.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[gate.gif]]：このカードがトリガーした時、あなたは自分の控え室のクライマックスを1枚選び、手札に戻してよい）\n\"キリエ「なるべく迷惑をかけずにできるだけ急いで<br>パパとエルトリアを助ける『鍵』を手に入れる」\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/nr_w58/nr_w58_097r.png",
+   "variant": ""
+  },
+  {
+   "num": "NR/W58-098",
+   "name": "王と臣下",
+   "type": "Climax",
+   "rarity": "CC",
+   "color": "blue",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[draw.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[draw.gif]]：このカードがトリガーした時、あなたは1枚引いてよい）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/nr_w58/nr_w58_098.png",
+   "variant": ""
+  },
+  {
+   "num": "NR/W58-099",
+   "name": "残酷な言葉",
+   "type": "Climax",
+   "rarity": "CC",
+   "color": "blue",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【自】 このカードが手札からクライマックス置場に置かれた時、あなたは自分の控え室の青のカードを1枚まで選び、ストック置場に置き、自分のキャラすべてに、そのターン中、ソウルを＋1。\n\"そうね。嘘だったわ。あなたに話した事も<br>あなたに言った言葉も、出会ってからの全部が嘘\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/nr_w58/nr_w58_099.png",
+   "variant": ""
+  },
+  {
+   "num": "NR/W58-100",
+   "name": "星を殺す悪魔",
+   "type": "Climax",
+   "rarity": "CC",
+   "color": "blue",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[draw.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[draw.gif]]：このカードがトリガーした時、あなたは1枚引いてよい）\n\"イリス「やっと会えたわねユーリ」\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/nr_w58/nr_w58_100.png",
+   "variant": ""
+  },
+  {
+   "num": "NR/W58-101",
+   "name": "“優しく真面目”フェイト",
+   "type": "Character",
+   "rarity": "PR",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 あなたがこのカードの『助太刀』を使った時、あなたは自分の山札の上から1枚を公開する。そのカードが《魔法》か《動物》のキャラなら、あなたは自分のバトル中のキャラを1枚選び、そのターン中、パワーを＋1000。（公開したカードは元に戻す）\n【起】【カウンター】 助太刀2500 レベル2 ［(1) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋2500）\n\"調整が難しいみたいで…でも大丈夫<br>この子でなんとかします\"",
+   "traits": [
+    "魔法",
+    "クローン"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/nr_w58/nr_w58_101.png",
+   "variant": ""
+  },
+  {
+   "num": "NR/W58-102",
+   "name": "“自分にできること”なのは",
+   "type": "Character",
+   "rarity": "PR",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードがアタックした時、あなたは自分の山札の上から1枚を、控え室に置く。そのカードが《魔法》か《武器》のキャラなら、そのターン中、このカードのパワーを＋2000。\n\"うん…次はもう負けないし…。<br>絶対に助ける\"",
+   "traits": [
+    "魔法",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/nr_w58/nr_w58_102.png",
+   "variant": ""
+  },
+  {
+   "num": "NR/W58-103",
+   "name": "“人々のために”はやて",
+   "type": "Character",
+   "rarity": "PR",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から1枚を公開する。そのカードが青か《魔法》のキャラなら手札に加え、あなたは自分の手札を1枚選び、控え室に置く。（そうでないなら元に戻す）\n\"取り返すよ。失態のツケも、わたしの宝物も\"",
+   "traits": [
+    "魔法",
+    "本"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/nr_w58/nr_w58_103.png",
+   "variant": ""
+  },
+  {
+   "num": "NR/W58-104",
+   "name": "“自らの目的のため”ディアーチェ",
+   "type": "Character",
+   "rarity": "PR",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋500。\n【自】 他のあなたの、《魔法》か《武器》のキャラかこのカードが手札から舞台に置かれた時、あなたは自分の山札を上から1枚見てよい。（見たカードは元に戻す）\n\"我がしもべ『黒影のアメティスタ』が<br>貴様らを縊り殺してくれよう\"",
+   "traits": [
+    "魔法",
+    "本"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/nr_w58/nr_w58_104.png",
+   "variant": ""
+  },
+  {
+   "num": "NR/W58-105",
+   "name": "“王を仰ぐ”シュテル",
+   "type": "Character",
+   "rarity": "PR",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1)］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見て「“王を慕う”レヴィ」を1枚まで選び、舞台の好きな枠に置き、その山札をシャッフルする。\n\"王を守り<br>王の願いを叶える炎であるという覚悟です\"",
+   "traits": [
+    "魔法",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/nr_w58/nr_w58_105.png",
+   "variant": ""
+  },
+  {
+   "num": "NR/W58-106",
+   "name": "“王を慕う”レヴィ",
+   "type": "Character",
+   "rarity": "PR",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 前列の中央の枠にこのカードがいるなら、このカードのパワーを＋3000。\n\"遊んであげるから…<br>かかってこーいっ！\"",
+   "traits": [
+    "魔法",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/nr_w58/nr_w58_106.png",
+   "variant": ""
+  }
+ ]
+}

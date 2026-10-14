@@ -1,0 +1,671 @@
+{
+ "id": "jp-dc3-e99",
+ "name": "アニメ「D.C.III～ダ・カーポIII～」",
+ "expansion": 99,
+ "lang": "jp",
+ "release": null,
+ "shopItem": null,
+ "box": null,
+ "cards": [
+  {
+   "num": "DC3/WE16-01",
+   "name": "強気な告白　立夏",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1)］ バトル中のこのカードが【リバース】した時、あなたはコストを払ってよい。そうしたら、このカードを思い出にする。\n【起】［あなたの《生徒会》のキャラを1枚【レスト】する］ そのターン中、このカードのパワーを＋1000。\n\"で、百年前からずっと立夏さんのことが好きでしたって言わせてあげるの\"",
+   "traits": [
+    "新聞",
+    "生徒会"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dc3_we16/dc3_we16_01.png",
+   "variant": ""
+  },
+  {
+   "num": "DC3/WE16-02",
+   "name": "愛情たっぷり　シャルル",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1)］ このカードがアタックした時、あなたは自分の山札の上から1枚を公開する。そのカードがレベル0以下のキャラなら、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の《生徒会》のキャラを1枚選び、手札に戻す。（公開したカードは元に戻す）\n\"家族なんだから遠慮はダメだよ\"",
+   "traits": [
+    "新聞",
+    "生徒会"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dc3_we16/dc3_we16_02.png",
+   "variant": ""
+  },
+  {
+   "num": "DC3/WE16-03",
+   "name": "運命の赤い糸 立夏",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの《新聞》のキャラ1枚につき、このカードのパワーを＋500。\n\"好きじゃなかったら、こんなに運命の人、運命の人いうわけないじゃない\"",
+   "traits": [
+    "新聞",
+    "生徒会"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dc3_we16/dc3_we16_03.png",
+   "variant": ""
+  },
+  {
+   "num": "DC3/WE16-04",
+   "name": "これからもずっと 姫乃",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの『応援』を持つキャラ1枚につき、このカードのパワーを＋1000。\n\"なんか……懐かしい\"",
+   "traits": [
+    "新聞"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dc3_we16/dc3_we16_04.png",
+   "variant": ""
+  },
+  {
+   "num": "DC3/WE16-05",
+   "name": "急接近！ 立夏",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋Ｘ。Ｘはそのキャラのレベル×500に等しい。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札を上から1枚見て、山札の上か控え室に置く。\n\"清隆「……寝不足なのに、急に動いたらダメですよ。」\"",
+   "traits": [
+    "新聞",
+    "生徒会"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dc3_we16/dc3_we16_05.png",
+   "variant": ""
+  },
+  {
+   "num": "DC3/WE16-06",
+   "name": "変わらない時間 姫乃",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "8000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】［手札を1枚控え室に置く］ あなたのクライマックス置場に「いつまでもいたいところ」が置かれた時、他のあなたの前列のキャラが1枚以下なら、あなたはコストを払ってよい。そうしたら、相手に5ダメージを与え、あなたのキャラすべてに、そのターン中、パワーを＋1500。（ダメージキャンセルは発生する）\n\"兄さん、実はね…私…\"",
+   "traits": [
+    "新聞"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dc3_we16/dc3_we16_06.png",
+   "variant": ""
+  },
+  {
+   "num": "DC3/WE16-07",
+   "name": "一緒が幸せ シャルル",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n【自】［(3)］  あなたのクライマックス置場に「あたたかなところ」が置かれた時、あなたはコストを払ってよい。そうしたら、あなたは他の自分のキャラを1枚と、このカードを選び、そのターン中、次の能力を与える。『【自】 このカードがアタックした時、相手に1ダメージを与える。』（ダメージキャンセルは発生する）\n\"…本当は恥ずかしいけど、でも心が繋がってる気がする。ポカポカしてくる\"",
+   "traits": [
+    "新聞",
+    "生徒会"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dc3_we16/dc3_we16_07.png",
+   "variant": ""
+  },
+  {
+   "num": "DC3/WE16-08",
+   "name": "頭脳は大人？ 美夏",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのストックが4枚以下なら、他のあなたの前列の中央の枠のキャラに、パワーを＋500。\n【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋500。\n\"天枷探偵事務所へようこそ！\"",
+   "traits": [
+    "メカ",
+    "バナナ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dc3_we16/dc3_we16_08.png",
+   "variant": ""
+  },
+  {
+   "num": "DC3/WE16-09",
+   "name": "思いやりの気持ち 清隆",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの前列の中央の枠のキャラに、パワーを＋1000。\n【永】 他のあなたのキャラが1枚以下なら、他のあなたのキャラすべてに、パワーを＋1000し、『【自】 アンコール ［手札のキャラを1枚控え室に置く］』を与える。\n\"あの…今日の会議はここまでにしませんか？\"",
+   "traits": [
+    "新聞",
+    "スポーツ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dc3_we16/dc3_we16_09.png",
+   "variant": ""
+  },
+  {
+   "num": "DC3/WE16-10",
+   "name": "お料理上手 姫乃",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【起】［(1) 手札のクライマックスを1枚控え室に置く］ あなたは自分の控え室のキャラを1枚選び、手札に戻す。\n\"晩ごはんを作りすぎちゃったから、お母さんがお裾分けもって…\"",
+   "traits": [
+    "新聞"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dc3_we16/dc3_we16_10.png",
+   "variant": ""
+  },
+  {
+   "num": "DC3/WE16-11",
+   "name": "所長のアシスタント 夕陽",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの『応援』を持つキャラ1枚につき、このカードのパワーを＋1000。\n\"たとえるなら…\"",
+   "traits": [
+    "探偵",
+    "たとえ話"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dc3_we16/dc3_we16_11.png",
+   "variant": ""
+  },
+  {
+   "num": "DC3/WE16-12",
+   "name": "やる気満々！ 立夏",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 前列の中央の枠にこのカードがいるなら、このカードのパワーを＋1000。\n\"あら、受けてたてばいいじゃない\"",
+   "traits": [
+    "新聞",
+    "生徒会"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dc3_we16/dc3_we16_12.png",
+   "variant": ""
+  },
+  {
+   "num": "DC3/WE16-13",
+   "name": "風見学園の生徒会長 英理",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "",
+   "text": "-\n\"どうかされましたか？\"",
+   "traits": [
+    "生徒会"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dc3_we16/dc3_we16_13.png",
+   "variant": ""
+  },
+  {
+   "num": "DC3/WE16-14",
+   "name": "ふたりっきりの帰り道 姫乃",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【起】［他のあなたの《新聞》のキャラを1枚【レスト】し、このカードを控え室に置く］ あなたは自分の控え室の「変わらない時間 姫乃」を1枚選び、手札に戻す。\n【起】【カウンター】 助太刀1500 レベル1 ［手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋1500）\n\"兄さんは？\"",
+   "traits": [
+    "新聞"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dc3_we16/dc3_we16_14.png",
+   "variant": ""
+  },
+  {
+   "num": "DC3/WE16-15",
+   "name": "毒舌家 四季",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【起】 集中 ［(1)］ あなたは自分の山札の上から3枚をめくり、控え室に置く。そのターン中、このカードは次の能力を得る。『【自】 このカードが【リバース】した時、このカードのバトル相手のコストがＸ以下なら、あなたはそのキャラを【リバース】してよい。』Ｘはそれらのカードのクライマックスの枚数に等しい。\n\"まぁまぁ、めずらしい\"",
+   "traits": [
+    "生徒会",
+    "風紀委員"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dc3_we16/dc3_we16_15.png",
+   "variant": ""
+  },
+  {
+   "num": "DC3/WE16-16",
+   "name": "しっかりお仕事 シャルル",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "5500",
+   "soul": 1,
+   "trigger": "",
+   "text": "-\n\"じゃあまずは昨日の報告からかな\"",
+   "traits": [
+    "新聞",
+    "生徒会"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dc3_we16/dc3_we16_16.png",
+   "variant": ""
+  },
+  {
+   "num": "DC3/WE16-17",
+   "name": "愛にひたむき 美琴",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "5500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から1枚を公開する。そのカードがクライマックスなら、あなたは相手の前列のレベル1以下のキャラを1枚選び、控え室に置く。そうでないなら、そのターン中、このカードのパワーを－1500。（公開したカードは元に戻す）\n\"杉並さま！\"",
+   "traits": [
+    "新聞",
+    "愛"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dc3_we16/dc3_we16_17.png",
+   "variant": ""
+  },
+  {
+   "num": "DC3/WE16-18",
+   "name": "武闘派 巴",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "1",
+   "cost": "1",
+   "power": "6500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 アンコール ［あなたの山札の上から1枚をクロック置場に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"フフッ…もう逃げられんぞ芳乃清隆！\"",
+   "traits": [
+    "生徒会",
+    "スポーツ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dc3_we16/dc3_we16_18.png",
+   "variant": ""
+  },
+  {
+   "num": "DC3/WE16-19",
+   "name": "まっすぐお誘い シャルル",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋1000。\n【自】 他のあなたのバトル中のキャラが【リバース】した時、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋1000。\n\"だから、今日は一緒に寝ようって言ってるの\"",
+   "traits": [
+    "新聞",
+    "生徒会"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dc3_we16/dc3_we16_19.png",
+   "variant": ""
+  },
+  {
+   "num": "DC3/WE16-20",
+   "name": "所長のアシスタント ゆず",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "7500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが【リバース】した時、このカードのバトル相手のレベルが相手のレベルより高いなら、あなたはそのキャラを【リバース】してよい。\n\"小さい頃に、不思議な力をもった女の子に会ってるからなー\"",
+   "traits": [
+    "探偵"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dc3_we16/dc3_we16_20.png",
+   "variant": ""
+  },
+  {
+   "num": "DC3/WE16-21",
+   "name": "特別な存在 立夏",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "2",
+   "cost": "2",
+   "power": "8500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 あなたのアタックフェイズの始めに、他のあなたの前列のキャラが1枚以下なら、あなたは自分の控え室の《新聞》のキャラを1枚まで選び、ストック置場に置き、次の相手のターンの終わりまで、このカードのパワーを＋3000。\n\"でも私には特別優しくしてほしいの\"",
+   "traits": [
+    "新聞",
+    "生徒会"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dc3_we16/dc3_we16_21.png",
+   "variant": ""
+  },
+  {
+   "num": "DC3/WE16-22",
+   "name": "あたたかなところ",
+   "type": "Climax",
+   "rarity": "C",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【自】 このカードが手札からクライマックス置場に置かれた時、あなたは1枚引き、自分のキャラを1枚選び、そのターン中、パワーを＋2000し、ソウルを＋1。\n\"今夜、タカくんの手料理がたべたいな！\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dc3_we16/dc3_we16_22.png",
+   "variant": ""
+  },
+  {
+   "num": "DC3/WE16-23",
+   "name": "いつまでもいたいところ",
+   "type": "Climax",
+   "rarity": "C",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[salvage.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[salvage.gif]]：このカードがトリガーした時、あなたは自分の控え室のキャラを1枚選び、手札に戻してよい）\n\"兄さん…それ以上は……見ちゃだめ、恥ずかしいよぉ…\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dc3_we16/dc3_we16_23.png",
+   "variant": ""
+  },
+  {
+   "num": "DC3/WE16-24",
+   "name": "妹みたいに 葵",
+   "type": "Character",
+   "rarity": "R",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 あなたのクライマックスがクライマックス置場に置かれた時、あなたは自分の《新聞》のキャラを1枚選び、そのターン中、パワーを＋1500。\n【起】 集中 ［(1) このカードを【レスト】する］ あなたは自分の山札の上から4枚をめくり、控え室に置く。それらのカードのクライマックス1枚につき、あなたは1枚まで引く。\n\"私一人っ子なんで、ずっとお兄ちゃんが欲しかったんです！\"",
+   "traits": [
+    "新聞",
+    "ウェイトレス"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dc3_we16/dc3_we16_24.png",
+   "variant": ""
+  },
+  {
+   "num": "DC3/WE16-25",
+   "name": "居るべき場所へ さくら",
+   "type": "Character",
+   "rarity": "R",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1) 手札を1枚控え室に置き、このカードを思い出にする］ バトル中のこのカードが【リバース】した時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「約束のあの場所で さくら」を1枚選び、舞台の好きな枠に【レスト】して置く。\n\"清隆「…さくら？」\"",
+   "traits": [
+    "魔法"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dc3_we16/dc3_we16_25.png",
+   "variant": ""
+  },
+  {
+   "num": "DC3/WE16-26",
+   "name": "パワー充電！ 葵",
+   "type": "Character",
+   "rarity": "R",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 あなたがこのカードの『助太刀』を使った時、あなたは自分の山札の上から1枚を公開する。そのカードが《新聞》のキャラなら、あなたは自分のバトル中のキャラを1枚選び、そのターン中、パワーを＋1000。（公開したカードは元に戻す）\n【起】【カウンター】 助太刀2500 レベル2 ［(1) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋2500）\n\"陽之下葵、完全復活です！\"",
+   "traits": [
+    "新聞",
+    "ウェイトレス"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dc3_we16/dc3_we16_26.png",
+   "variant": ""
+  },
+  {
+   "num": "DC3/WE16-27",
+   "name": "不思議な夢で さら",
+   "type": "Character",
+   "rarity": "R",
+   "color": "blue",
+   "level": "2",
+   "cost": "2",
+   "power": "8000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの《新聞》のキャラが2枚以上なら、このカードのパワーを＋1000し、このカードは『【自】 アンコール ［手札のキャラを1枚控え室に置く］』を得る。\n\"運命的なものってあるのかなって…\"",
+   "traits": [
+    "新聞",
+    "スポーツ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dc3_we16/dc3_we16_27.png",
+   "variant": ""
+  },
+  {
+   "num": "DC3/WE16-28",
+   "name": "放課後の約束 さら",
+   "type": "Character",
+   "rarity": "R",
+   "color": "blue",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの《新聞》のキャラが2枚以上なら、このカードのパワーを＋1000。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札を見て《新聞》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"ちゃ、ちゃんと最後まで教えてください…！\"",
+   "traits": [
+    "新聞",
+    "スポーツ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dc3_we16/dc3_we16_28.png",
+   "variant": ""
+  },
+  {
+   "num": "DC3/WE16-29",
+   "name": "ドキドキ妄想中？ さら",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの前列の中央の枠の《新聞》のキャラに、パワーを＋1500。\n\"あああああ…\"",
+   "traits": [
+    "新聞",
+    "スポーツ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dc3_we16/dc3_we16_29.png",
+   "variant": ""
+  },
+  {
+   "num": "DC3/WE16-30",
+   "name": "好敵手 杉並",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードがアタックした時、あなたは他の自分の《新聞》のキャラを1枚選び、そのターン中、パワーを＋1000。\n\"無論、この謎の解明に乗り出すのだろう？\"",
+   "traits": [
+    "新聞",
+    "オカルト"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dc3_we16/dc3_we16_30.png",
+   "variant": ""
+  },
+  {
+   "num": "DC3/WE16-31",
+   "name": "一緒に練習 さら",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 あなたのアタックフェイズの始めに、他のあなたの前列のキャラが1枚以下なら、次の相手のターンの終わりまで、このカードのパワーを＋2000し、ソウルを＋1。\n\"え、えっと…こんな感じですか？\"",
+   "traits": [
+    "新聞",
+    "スポーツ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dc3_we16/dc3_we16_31.png",
+   "variant": ""
+  },
+  {
+   "num": "DC3/WE16-32",
+   "name": "戦闘準備？ 葵",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1) このカードを控え室に置く］ あなたのクライマックス置場に「あまえられるところ」が置かれた時、他のあなたの前列のキャラが1枚以下なら、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「戦闘服！？ 葵」を1枚選び、このカードがいた枠に置く。\n\"昨日はお見苦しいところをお見せしてしまいました\"",
+   "traits": [
+    "新聞",
+    "ウェイトレス"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dc3_we16/dc3_we16_32.png",
+   "variant": ""
+  },
+  {
+   "num": "DC3/WE16-33",
+   "name": "約束のあの場所で さくら",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "1",
+   "cost": "1",
+   "power": "7000",
+   "soul": 1,
+   "trigger": "",
+   "text": "-\n\"にゃはは、ボクが一番なついていたのは清隆だからね～\"",
+   "traits": [
+    "魔法"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dc3_we16/dc3_we16_33.png",
+   "variant": ""
+  },
+  {
+   "num": "DC3/WE16-34",
+   "name": "戦闘服！？ 葵",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "2",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 このカードの正面のキャラのソウルを＋1。\n\"文字通り一肌脱いでみました！\"",
+   "traits": [
+    "新聞",
+    "ウェイトレス"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dc3_we16/dc3_we16_34.png",
+   "variant": ""
+  },
+  {
+   "num": "DC3/WE16-35",
+   "name": "桜の木の下で",
+   "type": "Event",
+   "rarity": "C",
+   "color": "blue",
+   "level": "1",
+   "cost": "1",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "【カウンター】 あなたの前列のキャラが2枚以下なら、あなたの前列の《新聞》のキャラすべてに、そのターン中、パワーを＋2500。\n\"ん……っ…\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dc3_we16/dc3_we16_35.png",
+   "variant": ""
+  },
+  {
+   "num": "DC3/WE16-36",
+   "name": "あまえられるところ",
+   "type": "Climax",
+   "rarity": "C",
+   "color": "blue",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【自】 このカードが手札からクライマックス置場に置かれた時、あなたは自分の控え室の青のカードを1枚まで選び、ストック置場に置き、自分のキャラすべてに、そのターン中、ソウルを＋1。\n\"清隆さんは優しいですね。お兄ちゃんみたいです\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dc3_we16/dc3_we16_36.png",
+   "variant": ""
+  }
+ ]
+}

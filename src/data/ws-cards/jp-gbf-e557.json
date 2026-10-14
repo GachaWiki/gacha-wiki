@@ -1,0 +1,614 @@
+{
+ "id": "jp-gbf-e557",
+ "name": "[TD]グランブルーファンタジー",
+ "expansion": 557,
+ "lang": "jp",
+ "release": null,
+ "shopItem": null,
+ "box": null,
+ "cards": [
+  {
+   "num": "GBF/S134-T01",
+   "name": "赤き竜 ビィ",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの《グラブル》のキャラすべてに、パワーを＋500。\n【自】［(1) このカードを控え室に置く］ 他のあなたの《グラブル》のキャラがフロントアタックされた時、あなたはコストを払ってよい。そうしたら、あなたは自分のバトル中のキャラを1枚選び、そのターン中、パワーを＋3000。\n\"-\"",
+   "traits": [
+    "グラブル",
+    "グランサイファー"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gbf_s134/gbf_s134_t01.png",
+   "variant": ""
+  },
+  {
+   "num": "GBF/S134-T01S",
+   "name": "赤き竜 ビィ",
+   "type": "Character",
+   "rarity": "TDP",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの《グラブル》のキャラすべてに、パワーを＋500。\n【自】［(1) このカードを控え室に置く］ 他のあなたの《グラブル》のキャラがフロントアタックされた時、あなたはコストを払ってよい。そうしたら、あなたは自分のバトル中のキャラを1枚選び、そのターン中、パワーを＋3000。\n\"-\"",
+   "traits": [
+    "グラブル",
+    "グランサイファー"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gbf_s134/gbf_s134_t01s.png",
+   "variant": ""
+  },
+  {
+   "num": "GBF/S134-T02",
+   "name": "蒼き剣と誇りにかけて シャルロッテ",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのターン中、他のあなたの《グラブル》のキャラすべてに、パワーを＋500。\n【起】 集中 ［(1) このカードを【レスト】する］ あなたは自分の山札の上から5枚をめくり、控え室に置く。それらのカードのCX1枚につき、あなたは1枚まで引く。\n\"-\"",
+   "traits": [
+    "グラブル",
+    "グランサイファー"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gbf_s134/gbf_s134_t02.png",
+   "variant": ""
+  },
+  {
+   "num": "GBF/S134-T02S",
+   "name": "蒼き剣と誇りにかけて シャルロッテ",
+   "type": "Character",
+   "rarity": "TDP",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのターン中、他のあなたの《グラブル》のキャラすべてに、パワーを＋500。\n【起】 集中 ［(1) このカードを【レスト】する］ あなたは自分の山札の上から5枚をめくり、控え室に置く。それらのカードのCX1枚につき、あなたは1枚まで引く。\n\"-\"",
+   "traits": [
+    "グラブル",
+    "グランサイファー"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gbf_s134/gbf_s134_t02s.png",
+   "variant": ""
+  },
+  {
+   "num": "GBF/S134-T03",
+   "name": "荘厳の双刃 ヴィーラ",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札の上から1枚を公開し、自分の控え室のレベルＸ以下のキャラを1枚選び、手札に戻す。Ｘは公開されたカードのレベルに等しい。（CXのレベルは0として扱う。公開したカードは元に戻す）\n\"-\"",
+   "traits": [
+    "グラブル",
+    "グランサイファー"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gbf_s134/gbf_s134_t03.png",
+   "variant": ""
+  },
+  {
+   "num": "GBF/S134-T03S",
+   "name": "荘厳の双刃 ヴィーラ",
+   "type": "Character",
+   "rarity": "TDP",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札の上から1枚を公開し、自分の控え室のレベルＸ以下のキャラを1枚選び、手札に戻す。Ｘは公開されたカードのレベルに等しい。（CXのレベルは0として扱う。公開したカードは元に戻す）\n\"-\"",
+   "traits": [
+    "グラブル",
+    "グランサイファー"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gbf_s134/gbf_s134_t03s.png",
+   "variant": ""
+  },
+  {
+   "num": "GBF/S134-T04",
+   "name": "空艇の導き手 ノア",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 あなたのCXフェイズの始めに、あなたは自分の「蒼空の先導者 ラカム」を1枚選び、そのターン中、パワーを＋3000し、ソウルを＋1し、次の能力を与える。『【自】 このカードがアタックした時、あなたは自分の山札を上から2枚まで見て、山札の上に好きな順番で置く。』\n【自】 絆／「蒼空の先導者 ラカム」 ［手札を1枚控え室に置く］ （このカードが、手札から舞台またはプレイされて舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「蒼空の先導者 ラカム」を1枚選び、手札に戻す）\n\"-\"",
+   "traits": [
+    "グラブル",
+    "グランサイファー"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gbf_s134/gbf_s134_t04.png",
+   "variant": ""
+  },
+  {
+   "num": "GBF/S134-T04S",
+   "name": "空艇の導き手 ノア",
+   "type": "Character",
+   "rarity": "TDP",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 あなたのCXフェイズの始めに、あなたは自分の「蒼空の先導者 ラカム」を1枚選び、そのターン中、パワーを＋3000し、ソウルを＋1し、次の能力を与える。『【自】 このカードがアタックした時、あなたは自分の山札を上から2枚まで見て、山札の上に好きな順番で置く。』\n【自】 絆／「蒼空の先導者 ラカム」 ［手札を1枚控え室に置く］ （このカードが、手札から舞台またはプレイされて舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「蒼空の先導者 ラカム」を1枚選び、手札に戻す）\n\"-\"",
+   "traits": [
+    "グラブル",
+    "グランサイファー"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gbf_s134/gbf_s134_t04s.png",
+   "variant": ""
+  },
+  {
+   "num": "GBF/S134-T05",
+   "name": "蒼天の守護騎士 カタリナ",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの《グラブル》のキャラがいないなら、このカードはあなたのスタンドフェイズに【スタンド】しない。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分のキャラを1枚選び、そのターン中、次の能力を与える。『【自】 このカードのバトル相手が【リバース】した時、あなたは他の自分のキャラを1枚選び、【レスト】し、後列のキャラのいない枠に動かす。』\n\"-\"",
+   "traits": [
+    "グラブル",
+    "グランサイファー"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gbf_s134/gbf_s134_t05.png",
+   "variant": ""
+  },
+  {
+   "num": "GBF/S134-T05S",
+   "name": "蒼天の守護騎士 カタリナ",
+   "type": "Character",
+   "rarity": "TDP",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの《グラブル》のキャラがいないなら、このカードはあなたのスタンドフェイズに【スタンド】しない。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分のキャラを1枚選び、そのターン中、次の能力を与える。『【自】 このカードのバトル相手が【リバース】した時、あなたは他の自分のキャラを1枚選び、【レスト】し、後列のキャラのいない枠に動かす。』\n\"-\"",
+   "traits": [
+    "グラブル",
+    "グランサイファー"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gbf_s134/gbf_s134_t05s.png",
+   "variant": ""
+  },
+  {
+   "num": "GBF/S134-T06",
+   "name": "蒼醒の志士 オイゲン",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 あなたがこのカードの『助太刀』を使った時、あなたの《グラブル》のキャラがいるなら、あなたは自分のバトル中のキャラを1枚選び、そのターン中、パワーを＋1000。\n【起】【カウンター】 助太刀1000 レベル1 ［手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋1000）\n\"-\"",
+   "traits": [
+    "グラブル",
+    "グランサイファー"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gbf_s134/gbf_s134_t06.png",
+   "variant": ""
+  },
+  {
+   "num": "GBF/S134-T06S",
+   "name": "蒼醒の志士 オイゲン",
+   "type": "Character",
+   "rarity": "TDP",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 あなたがこのカードの『助太刀』を使った時、あなたの《グラブル》のキャラがいるなら、あなたは自分のバトル中のキャラを1枚選び、そのターン中、パワーを＋1000。\n【起】【カウンター】 助太刀1000 レベル1 ［手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋1000）\n\"-\"",
+   "traits": [
+    "グラブル",
+    "グランサイファー"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gbf_s134/gbf_s134_t06s.png",
+   "variant": ""
+  },
+  {
+   "num": "GBF/S134-T07",
+   "name": "十天衆を総べし者 主人公(男)",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの《グラブル》のキャラが2枚以上なら、このカードのパワーを＋2000。\n【自】【CXコンボ】 このカードがアタックした時、CX置場に「十天の極みに至りし者 主人公(男)」があり、他のあなたの《グラブル》のキャラが2枚以上なら、あなたは自分の山札を上から4枚まで見て、《グラブル》のキャラかイベントを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。\n\"-\"",
+   "traits": [
+    "グラブル",
+    "グランサイファー"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gbf_s134/gbf_s134_t07.png",
+   "variant": ""
+  },
+  {
+   "num": "GBF/S134-T07S",
+   "name": "十天衆を総べし者 主人公(男)",
+   "type": "Character",
+   "rarity": "TDP",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの《グラブル》のキャラが2枚以上なら、このカードのパワーを＋2000。\n【自】【CXコンボ】 このカードがアタックした時、CX置場に「十天の極みに至りし者 主人公(男)」があり、他のあなたの《グラブル》のキャラが2枚以上なら、あなたは自分の山札を上から4枚まで見て、《グラブル》のキャラかイベントを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。\n\"-\"",
+   "traits": [
+    "グラブル",
+    "グランサイファー"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gbf_s134/gbf_s134_t07s.png",
+   "variant": ""
+  },
+  {
+   "num": "GBF/S134-T07SP",
+   "name": "十天衆を総べし者 主人公(男)",
+   "type": "Character",
+   "rarity": "TDSP",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの《グラブル》のキャラが2枚以上なら、このカードのパワーを＋2000。\n【自】【CXコンボ】 このカードがアタックした時、CX置場に「十天の極みに至りし者 主人公(男)」があり、他のあなたの《グラブル》のキャラが2枚以上なら、あなたは自分の山札を上から4枚まで見て、《グラブル》のキャラかイベントを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。\n\"-\"",
+   "traits": [
+    "グラブル",
+    "グランサイファー"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gbf_s134/gbf_s134_t07sp.png",
+   "variant": ""
+  },
+  {
+   "num": "GBF/S134-T08",
+   "name": "蒼空の先導者 ラカム",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "5500",
+   "soul": 1,
+   "trigger": "",
+   "text": "-\n\"-\"",
+   "traits": [
+    "グラブル",
+    "グランサイファー"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gbf_s134/gbf_s134_t08.png",
+   "variant": ""
+  },
+  {
+   "num": "GBF/S134-T08S",
+   "name": "蒼空の先導者 ラカム",
+   "type": "Character",
+   "rarity": "TDP",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "5500",
+   "soul": 1,
+   "trigger": "",
+   "text": "-\n\"-\"",
+   "traits": [
+    "グラブル",
+    "グランサイファー"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gbf_s134/gbf_s134_t08s.png",
+   "variant": ""
+  },
+  {
+   "num": "GBF/S134-T09",
+   "name": "蒼麗の薔薇 ロゼッタ",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "5500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの《グラブル》のキャラすべてに、パワーを＋1000。\n【自】［手札の《グラブル》のキャラを1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「蒼翠の魔法少女 イオ」を1枚選び、舞台の好きな枠に置く。\n\"-\"",
+   "traits": [
+    "グラブル",
+    "グランサイファー"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gbf_s134/gbf_s134_t09.png",
+   "variant": ""
+  },
+  {
+   "num": "GBF/S134-T09S",
+   "name": "蒼麗の薔薇 ロゼッタ",
+   "type": "Character",
+   "rarity": "TDP",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "5500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの《グラブル》のキャラすべてに、パワーを＋1000。\n【自】［手札の《グラブル》のキャラを1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「蒼翠の魔法少女 イオ」を1枚選び、舞台の好きな枠に置く。\n\"-\"",
+   "traits": [
+    "グラブル",
+    "グランサイファー"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gbf_s134/gbf_s134_t09s.png",
+   "variant": ""
+  },
+  {
+   "num": "GBF/S134-T10",
+   "name": "蒼翠の魔法少女 イオ",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "6500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの後列の「蒼麗の薔薇 ロゼッタ」がいるなら、このカードのパワーを＋3000し、このカードは次の能力を得る。『【自】［(1)］ このカードがアタックした時、あなたはコストを払ってよい。そうしたら、そのアタック中、あなたはトリガーステップにトリガーチェックを2回行う。』\n【自】［手札の《グラブル》のキャラを1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「蒼麗の薔薇 ロゼッタ」を1枚選び、舞台の好きな枠に置く。\n\"-\"",
+   "traits": [
+    "グラブル",
+    "グランサイファー"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gbf_s134/gbf_s134_t10.png",
+   "variant": ""
+  },
+  {
+   "num": "GBF/S134-T10S",
+   "name": "蒼翠の魔法少女 イオ",
+   "type": "Character",
+   "rarity": "TDP",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "6500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの後列の「蒼麗の薔薇 ロゼッタ」がいるなら、このカードのパワーを＋3000し、このカードは次の能力を得る。『【自】［(1)］ このカードがアタックした時、あなたはコストを払ってよい。そうしたら、そのアタック中、あなたはトリガーステップにトリガーチェックを2回行う。』\n【自】［手札の《グラブル》のキャラを1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「蒼麗の薔薇 ロゼッタ」を1枚選び、舞台の好きな枠に置く。\n\"-\"",
+   "traits": [
+    "グラブル",
+    "グランサイファー"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gbf_s134/gbf_s134_t10s.png",
+   "variant": ""
+  },
+  {
+   "num": "GBF/S134-T11",
+   "name": "蒼の少女 ルリア",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "3",
+   "cost": "2",
+   "power": "9000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの《グラブル》のキャラすべてに、パワーを＋1500。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分の手札の自分のレベル以下のレベルのキャラを1枚まで選び、舞台の好きな枠に置き、そのターン中、そのキャラのパワーを＋2000。\n【自】 相手のアンコールステップの始めに、他のあなたのカード名に「主人公(男)」か「主人公(女)」を含むキャラがいないなら、このカードを控え室に置く。\n\"-\"",
+   "traits": [
+    "グラブル",
+    "グランサイファー"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gbf_s134/gbf_s134_t11.png",
+   "variant": ""
+  },
+  {
+   "num": "GBF/S134-T11S",
+   "name": "蒼の少女 ルリア",
+   "type": "Character",
+   "rarity": "TDP",
+   "color": "blue",
+   "level": "3",
+   "cost": "2",
+   "power": "9000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの《グラブル》のキャラすべてに、パワーを＋1500。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分の手札の自分のレベル以下のレベルのキャラを1枚まで選び、舞台の好きな枠に置き、そのターン中、そのキャラのパワーを＋2000。\n【自】 相手のアンコールステップの始めに、他のあなたのカード名に「主人公(男)」か「主人公(女)」を含むキャラがいないなら、このカードを控え室に置く。\n\"-\"",
+   "traits": [
+    "グラブル",
+    "グランサイファー"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gbf_s134/gbf_s134_t11s.png",
+   "variant": ""
+  },
+  {
+   "num": "GBF/S134-T11SP",
+   "name": "蒼の少女 ルリア",
+   "type": "Character",
+   "rarity": "TDSP",
+   "color": "blue",
+   "level": "3",
+   "cost": "2",
+   "power": "9000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの《グラブル》のキャラすべてに、パワーを＋1500。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分の手札の自分のレベル以下のレベルのキャラを1枚まで選び、舞台の好きな枠に置き、そのターン中、そのキャラのパワーを＋2000。\n【自】 相手のアンコールステップの始めに、他のあなたのカード名に「主人公(男)」か「主人公(女)」を含むキャラがいないなら、このカードを控え室に置く。\n\"-\"",
+   "traits": [
+    "グラブル",
+    "グランサイファー"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gbf_s134/gbf_s134_t11sp.png",
+   "variant": ""
+  },
+  {
+   "num": "GBF/S134-T12",
+   "name": "十天衆を総べし者 主人公(女)",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n【自】【CXコンボ】［(1) 手札を1枚控え室に置く］ このカードがアタックした時、CX置場に「十天の極みに至りし者 主人公(女)」があり、他のあなたの《グラブル》のキャラがいるなら、あなたはコストを払ってよい。そうしたら、相手に1ダメージを与え、あなたは相手の山札を上から2枚まで見て、カードを2枚まで選び、山札の上に好きな順番で置き、残りのカードを控え室に置く。（ダメージキャンセルは発生する）\n\"-\"",
+   "traits": [
+    "グラブル",
+    "グランサイファー"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gbf_s134/gbf_s134_t12.png",
+   "variant": ""
+  },
+  {
+   "num": "GBF/S134-T12S",
+   "name": "十天衆を総べし者 主人公(女)",
+   "type": "Character",
+   "rarity": "TDP",
+   "color": "blue",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n【自】【CXコンボ】［(1) 手札を1枚控え室に置く］ このカードがアタックした時、CX置場に「十天の極みに至りし者 主人公(女)」があり、他のあなたの《グラブル》のキャラがいるなら、あなたはコストを払ってよい。そうしたら、相手に1ダメージを与え、あなたは相手の山札を上から2枚まで見て、カードを2枚まで選び、山札の上に好きな順番で置き、残りのカードを控え室に置く。（ダメージキャンセルは発生する）\n\"-\"",
+   "traits": [
+    "グラブル",
+    "グランサイファー"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gbf_s134/gbf_s134_t12s.png",
+   "variant": ""
+  },
+  {
+   "num": "GBF/S134-T12SP",
+   "name": "十天衆を総べし者 主人公(女)",
+   "type": "Character",
+   "rarity": "TDSP",
+   "color": "blue",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n【自】【CXコンボ】［(1) 手札を1枚控え室に置く］ このカードがアタックした時、CX置場に「十天の極みに至りし者 主人公(女)」があり、他のあなたの《グラブル》のキャラがいるなら、あなたはコストを払ってよい。そうしたら、相手に1ダメージを与え、あなたは相手の山札を上から2枚まで見て、カードを2枚まで選び、山札の上に好きな順番で置き、残りのカードを控え室に置く。（ダメージキャンセルは発生する）\n\"-\"",
+   "traits": [
+    "グラブル",
+    "グランサイファー"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gbf_s134/gbf_s134_t12sp.png",
+   "variant": ""
+  },
+  {
+   "num": "GBF/S134-T13",
+   "name": "よろず屋 シェロカルテ",
+   "type": "Event",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "【カウンター】 あなたは自分の山札を上から4枚まで見て、《グラブル》のキャラを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。このカードを山札の下に置く。\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gbf_s134/gbf_s134_t13.png",
+   "variant": ""
+  },
+  {
+   "num": "GBF/S134-T13S",
+   "name": "よろず屋 シェロカルテ",
+   "type": "Event",
+   "rarity": "TDP",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "【カウンター】 あなたは自分の山札を上から4枚まで見て、《グラブル》のキャラを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。このカードを山札の下に置く。\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gbf_s134/gbf_s134_t13s.png",
+   "variant": ""
+  },
+  {
+   "num": "GBF/S134-T14",
+   "name": "十天の極みに至りし者 主人公(男)",
+   "type": "Climax",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[gate.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[gate.gif]]：このカードがトリガーした時、あなたは自分の控え室のCXを1枚選び、手札に戻してよい）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gbf_s134/gbf_s134_t14.png",
+   "variant": ""
+  },
+  {
+   "num": "GBF/S134-T14S",
+   "name": "十天の極みに至りし者 主人公(男)",
+   "type": "Climax",
+   "rarity": "TDP",
+   "color": "blue",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[gate.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[gate.gif]]：このカードがトリガーした時、あなたは自分の控え室のCXを1枚選び、手札に戻してよい）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gbf_s134/gbf_s134_t14s.png",
+   "variant": ""
+  },
+  {
+   "num": "GBF/S134-T15",
+   "name": "十天の極みに至りし者 主人公(女)",
+   "type": "Climax",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[gate.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[gate.gif]]：このカードがトリガーした時、あなたは自分の控え室のCXを1枚選び、手札に戻してよい）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gbf_s134/gbf_s134_t15.png",
+   "variant": ""
+  },
+  {
+   "num": "GBF/S134-T15S",
+   "name": "十天の極みに至りし者 主人公(女)",
+   "type": "Climax",
+   "rarity": "TDP",
+   "color": "blue",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[gate.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[gate.gif]]：このカードがトリガーした時、あなたは自分の控え室のCXを1枚選び、手札に戻してよい）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gbf_s134/gbf_s134_t15s.png",
+   "variant": ""
+  }
+ ]
+}

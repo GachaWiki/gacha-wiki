@@ -1,0 +1,2311 @@
+{
+ "id": "jp-ks-e192",
+ "name": "この素晴らしい世界に祝福を！",
+ "expansion": 192,
+ "lang": "jp",
+ "release": null,
+ "shopItem": null,
+ "box": null,
+ "cards": [
+  {
+   "num": "KS/W49-001",
+   "name": "ダクネス",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "yellow",
+   "level": "3",
+   "cost": "2",
+   "power": "8500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 相手のレベル3以上のキャラがいるなら、あなたの手札のこのカードのレベルを－1。\n【永】 他のあなたの《冒険者》のキャラが2枚以上なら、このカードのパワーを＋1500し、このカードは次の能力を得る。『【永】 このカードは相手の効果に選ばれない。』\n【自】 相手のドローフェイズの始めに、前列にこのカードがいるなら、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋4000。\n【自】［(2) 手札を1枚控え室に置く］ このカードのバトル中、あなたの受けたダメージがキャンセルされなかった時、あなたはコストを払ってよい。そうしたら、相手に同じダメージを与える。（ダメージキャンセルは発生する）\n\"そ、想像しただけで武者ぶるいが……っ!!\"",
+   "traits": [
+    "冒険者",
+    "煩悩"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/ks_w49/ks_w49_001.png",
+   "variant": ""
+  },
+  {
+   "num": "KS/W49-001SP",
+   "name": "ダクネス",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "yellow",
+   "level": "3",
+   "cost": "2",
+   "power": "8500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 相手のレベル3以上のキャラがいるなら、あなたの手札のこのカードのレベルを－1。\n【永】 他のあなたの《冒険者》のキャラが2枚以上なら、このカードのパワーを＋1500し、このカードは次の能力を得る。『【永】 このカードは相手の効果に選ばれない。』\n【自】 相手のドローフェイズの始めに、前列にこのカードがいるなら、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋4000。\n【自】［(2) 手札を1枚控え室に置く］ このカードのバトル中、あなたの受けたダメージがキャンセルされなかった時、あなたはコストを払ってよい。そうしたら、相手に同じダメージを与える。（ダメージキャンセルは発生する）\n\"-\"",
+   "traits": [
+    "冒険者",
+    "煩悩"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/ks_w49/ks_w49_001sp.png",
+   "variant": ""
+  },
+  {
+   "num": "KS/W49-002",
+   "name": "“スティール成功…？”クリス",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "yellow",
+   "level": "3",
+   "cost": "2",
+   "power": "9500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n【自】 このカードがアタックした時、あなたは他の自分の《冒険者》のキャラを1枚選び、そのターン中、パワーを＋Ｘ。Ｘは他のあなたの《冒険者》のキャラの枚数×500に等しい。\n【自】［(1) 手札のキャラを2枚控え室に置く］ このカードがアタックした時、あなたはコストを払ってよい。そうしたら、あなたは相手の山札を上から3枚まで見てカードを3枚まで選び、控え室に置き、残りのカードを山札に戻し、その山札をシャッフルする。\n\"っ!?……\"",
+   "traits": [
+    "冒険者",
+    "盗賊"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/ks_w49/ks_w49_002.png",
+   "variant": ""
+  },
+  {
+   "num": "KS/W49-002R",
+   "name": "“スティール成功…？”クリス",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "yellow",
+   "level": "3",
+   "cost": "2",
+   "power": "9500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n【自】 このカードがアタックした時、あなたは他の自分の《冒険者》のキャラを1枚選び、そのターン中、パワーを＋Ｘ。Ｘは他のあなたの《冒険者》のキャラの枚数×500に等しい。\n【自】［(1) 手札のキャラを2枚控え室に置く］ このカードがアタックした時、あなたはコストを払ってよい。そうしたら、あなたは相手の山札を上から3枚まで見てカードを3枚まで選び、控え室に置き、残りのカードを山札に戻し、その山札をシャッフルする。\n\"っ!?……\"",
+   "traits": [
+    "冒険者",
+    "盗賊"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/ks_w49/ks_w49_002r.png",
+   "variant": ""
+  },
+  {
+   "num": "KS/W49-003",
+   "name": "カズマ",
+   "type": "Character",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1) 手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を上から3枚まで見て、カードを1枚まで選び、手札に加え、残りのカードを控え室に置く。\n\"おーいお前ら\"",
+   "traits": [
+    "冒険者",
+    "魔法"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/ks_w49/ks_w49_003.png",
+   "variant": ""
+  },
+  {
+   "num": "KS/W49-003S",
+   "name": "カズマ",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1) 手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を上から3枚まで見て、カードを1枚まで選び、手札に加え、残りのカードを控え室に置く。\n\"おーいお前ら\"",
+   "traits": [
+    "冒険者",
+    "魔法"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/ks_w49/ks_w49_003s.png",
+   "variant": ""
+  },
+  {
+   "num": "KS/W49-004",
+   "name": "“羞恥責め”ダクネス",
+   "type": "Character",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1) 手札を2枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見て《煩悩》か《盗賊》のキャラを2枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n【自】 このカードがアタックした時、あなたは自分の山札の上から2枚を、控え室に置く。それらのカードにクライマックスがあるなら、そのターン中、このカードのソウルを＋2。\n\"こ、こういう責めは、私の望むタイプの羞恥責めとは違うかりゃっ……！\"",
+   "traits": [
+    "冒険者",
+    "煩悩"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/ks_w49/ks_w49_004.png",
+   "variant": ""
+  },
+  {
+   "num": "KS/W49-005",
+   "name": "“不安でいっぱい”カズマ",
+   "type": "Character",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】【CXコンボ】［手札の、《冒険者》か《女神》のキャラを1枚控え室に置く］ あなたのクライマックス置場に「魔力充電中」が置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見てクライマックスを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n【起】 集中 ［(1) あなたのキャラを2枚【レスト】する］ あなたは自分の山札の上から4枚をめくり、控え室に置く。それらのカードのクライマックス1枚につき、あなたは自分の山札を見て《冒険者》か《女神》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"おい、何だよ！破裂とかしないだろうな！\"",
+   "traits": [
+    "冒険者",
+    "魔法"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/ks_w49/ks_w49_005.png",
+   "variant": ""
+  },
+  {
+   "num": "KS/W49-006",
+   "name": "“筋金入りのド変態”ダクネス",
+   "type": "Character",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 相手のターン中、このカードのパワーを＋Ｘ。Ｘはこのカードの正面のキャラのレベル×4000に等しい。\n【自】 相手のアタックフェイズの始めに、あなたはこのカードを、前列のキャラのいない枠で、正面に相手のキャラがいる枠に動かしてよい。\n\"お、お前とこのデュラハンは一体二人がかりでこの私をどうするつもりだっ!!\"",
+   "traits": [
+    "冒険者",
+    "煩悩"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/ks_w49/ks_w49_006.png",
+   "variant": ""
+  },
+  {
+   "num": "KS/W49-006S",
+   "name": "“筋金入りのド変態”ダクネス",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 相手のターン中、このカードのパワーを＋Ｘ。Ｘはこのカードの正面のキャラのレベル×4000に等しい。\n【自】 相手のアタックフェイズの始めに、あなたはこのカードを、前列のキャラのいない枠で、正面に相手のキャラがいる枠に動かしてよい。\n\"お、お前とこのデュラハンは一体二人がかりでこの私をどうするつもりだっ!!\"",
+   "traits": [
+    "冒険者",
+    "煩悩"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/ks_w49/ks_w49_006s.png",
+   "variant": ""
+  },
+  {
+   "num": "KS/W49-007",
+   "name": "“特技は妄想”ダクネス",
+   "type": "Character",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 あなたのクライマックスがクライマックス置場に置かれた時、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋1000。\n【起】［(1) あなたの山札の上から1枚をクロック置場に置き、このカードを【レスト】する］ あなたは自分の山札を見て《冒険者》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"け、汚らわしい……たまらん!!\"",
+   "traits": [
+    "冒険者",
+    "煩悩"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/ks_w49/ks_w49_007.png",
+   "variant": ""
+  },
+  {
+   "num": "KS/W49-007R",
+   "name": "“特技は妄想”ダクネス",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 あなたのクライマックスがクライマックス置場に置かれた時、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋1000。\n【起】［(1) あなたの山札の上から1枚をクロック置場に置き、このカードを【レスト】する］ あなたは自分の山札を見て《冒険者》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"け、汚らわしい……たまらん!!\"",
+   "traits": [
+    "冒険者",
+    "煩悩"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/ks_w49/ks_w49_007r.png",
+   "variant": ""
+  },
+  {
+   "num": "KS/W49-008",
+   "name": "“スキル講義”クリス",
+   "type": "Character",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、そのターン中、このカードのパワーを＋1500。\n【自】【CXコンボ】 このカードがアタックした時、クライマックス置場に「窃盗スキル」があるなら、あなたは自分の山札の上から1枚を、控え室に置く。そのカードがレベル0以下のキャラなら、相手は自分の山札の上から1枚までを、ストック置場に置く。そうでないなら、あなたは自分の山札の上から2枚を、ストック置場に置く。\n\"盗賊系のスキルには“敵感知”や“潜伏”とかいろいろあるけど……特に私の一押しはこれ\"",
+   "traits": [
+    "冒険者",
+    "盗賊"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/ks_w49/ks_w49_008.png",
+   "variant": ""
+  },
+  {
+   "num": "KS/W49-009",
+   "name": "“ぱんつの値段は自分で決めろ”クリス",
+   "type": "Character",
+   "rarity": "U",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、相手は0か1か2を宣言する。あなたは自分の山札の上から1枚を、控え室に置き、そのカードが相手の宣言したレベルのカードなら、あなたはＸ枚まで引く。Ｘは相手の宣言した数＋1に等しい。（クライマックスのレベルは0として扱う）\n\"自分のぱんつの値段は自分で決めろって……\"",
+   "traits": [
+    "冒険者",
+    "盗賊"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/ks_w49/ks_w49_009.png",
+   "variant": ""
+  },
+  {
+   "num": "KS/W49-010",
+   "name": "“救助成功！”ダクネス",
+   "type": "Character",
+   "rarity": "U",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［手札を1枚控え室に置く］ このカードがアタックした時、あなたはコストを払ってよい。そうしたら、あなたは他の自分の黄のキャラを1枚選び、手札に戻す。\n\"カズマ!!\"",
+   "traits": [
+    "冒険者",
+    "煩悩"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/ks_w49/ks_w49_010.png",
+   "variant": ""
+  },
+  {
+   "num": "KS/W49-011",
+   "name": "“王国検察官”セナ",
+   "type": "Character",
+   "rarity": "U",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［あなたの舞台のカード名に「カズマ」を含むキャラを1枚控え室に置く］ このカードがアタックした時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札の上から1枚を公開する。そのカードが《冒険者》か《メガネ》のキャラなら手札に加える。（そうでないなら元に戻す）\n\"冒険者サトウカズマ！貴様には現在、国家転覆罪の容疑がかけられている！\"",
+   "traits": [
+    "メガネ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/ks_w49/ks_w49_011.png",
+   "variant": ""
+  },
+  {
+   "num": "KS/W49-012",
+   "name": "ルナ",
+   "type": "Character",
+   "rarity": "U",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［あなたの山札の上から1枚をクロック置場に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見て《冒険者》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"繰り返します。冒険者各員は至急正門に集まってください!!\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/ks_w49/ks_w49_012.png",
+   "variant": ""
+  },
+  {
+   "num": "KS/W49-013",
+   "name": "“両手を広げて仁王立ち”ダクネス",
+   "type": "Character",
+   "rarity": "U",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 あなたがこのカードの『助太刀』を使った時、あなたの《冒険者》のキャラがいるなら、あなたは自分のバトル中のキャラを1枚選び、そのターン中、パワーを＋1000。\n【起】【カウンター】 助太刀2500 レベル2 ［(1) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋2500）\n\"倒れた者を見捨てるなど　ぐっ……!!できる……ものかぁーー!!\"",
+   "traits": [
+    "冒険者",
+    "煩悩"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/ks_w49/ks_w49_013.png",
+   "variant": ""
+  },
+  {
+   "num": "KS/W49-014",
+   "name": "“守らなければならないもの”ダクネス",
+   "type": "Character",
+   "rarity": "U",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋Ｘ。Ｘはそのキャラのレベル×500に等しい。\n【自】【CXコンボ】［このカードを【レスト】する］ あなたのクライマックス置場に「ドMクルセイダー」が置かれた時、このカードが【スタンド】しているなら、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の《煩悩》のキャラを1枚選び、このカードの下にマーカーとして裏向きに置く。\n【自】［このカードの下のマーカーを1枚控え室に置く］ 他のあなたのキャラが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、そのキャラをそのキャラがいた枠に【レスト】して置く。\n\"私が自分の欲望にそこまで忠実な女だと思うか？\"",
+   "traits": [
+    "冒険者",
+    "煩悩"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/ks_w49/ks_w49_014.png",
+   "variant": ""
+  },
+  {
+   "num": "KS/W49-015",
+   "name": "“盾代わりにこき使って欲しいっ!!”ダクネス",
+   "type": "Character",
+   "rarity": "U",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "7000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたの手札が相手の手札より少ないなら、あなたは自分の山札の上から1枚を、ストック置場に置いてよい。\n【自】【CXコンボ】 このカードがアタックした時、クライマックス置場に「魔王軍の辱め…？」があり、他のあなたの《冒険者》のキャラが2枚以上なら、あなたは自分の山札を上から3枚まで見て、カードを1枚まで選び、手札に加え、残りのカードを控え室に置く。\n\"カズマ「ああ、わかった……こいつも、性能だけでなく中身までダメな系だ……」\"",
+   "traits": [
+    "冒険者",
+    "煩悩"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/ks_w49/ks_w49_015.png",
+   "variant": ""
+  },
+  {
+   "num": "KS/W49-016",
+   "name": "“クリエイトウォーター”カズマ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から1枚を公開する。そのカードが《冒険者》か《女神》のキャラなら手札に加え、あなたは自分の手札を1枚選び、控え室に置く。（そうでないなら元に戻す）\n【自】［あなたの山札の上から1枚をクロック置場に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「フリーズ」を1枚選び、手札に戻す。\n\"“クリエイトウォーター”ッ!!\"",
+   "traits": [
+    "冒険者",
+    "魔法"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/ks_w49/ks_w49_016.png",
+   "variant": ""
+  },
+  {
+   "num": "KS/W49-017",
+   "name": "“スキル習得の誘い”クリス",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのターン中、他のあなたの「“危険察知”ダクネス」すべてに、パワーを＋2000。\n【自】 絆／「“危険察知”ダクネス」 ［(1)］ （このカードがプレイされて舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「“危険察知”ダクネス」を1枚選び、手札に戻す）\n\"君、役に立つスキルが欲しいみたいだね。盗賊系のスキルなんてどうかな？\"",
+   "traits": [
+    "冒険者",
+    "盗賊"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/ks_w49/ks_w49_017.png",
+   "variant": ""
+  },
+  {
+   "num": "KS/W49-018",
+   "name": "“騎士のカガミ？”ダクネス",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの《冒険者》のキャラすべてに、パワーを＋500。\n【起】［このカードを【レスト】する］ あなたは他のキャラを1枚選び、次の相手のターンの終わりまで、レベルを＋1。\n\"や……やあ、その……騎士のカガミなどと……\"",
+   "traits": [
+    "冒険者",
+    "煩悩"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/ks_w49/ks_w49_018.png",
+   "variant": ""
+  },
+  {
+   "num": "KS/W49-019",
+   "name": "荒くれ者",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは相手の山札を上から2枚まで見て、山札の上に元の順番で置く。\n【自】［(2)］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室のカード名に「めぐみん」を含むキャラを1枚選び、手札に戻す。\n\"チャンスは一度きり。お前の輝きに賭けるぜ\"",
+   "traits": [
+    "冒険者",
+    "モヒカン"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/ks_w49/ks_w49_019.png",
+   "variant": ""
+  },
+  {
+   "num": "KS/W49-020",
+   "name": "ミツルギ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 このカードの下にマーカーがあるなら、このカードのパワーを＋3000。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分の控え室の「“クエストクリア”アクア」を1枚選び、このカードの下にマーカーとして裏向きに置いてよい。\n【自】 このカードのバトル相手が【リバース】した時、あなたは他の自分の、《冒険者》か《女神》のキャラを1枚選び、【レスト】し、後列のキャラのいない枠に動かす。\n\"うおおおおお～～～!!\"",
+   "traits": [
+    "冒険者",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/ks_w49/ks_w49_020.png",
+   "variant": ""
+  },
+  {
+   "num": "KS/W49-021",
+   "name": "“冒険者”カズマ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 あなたのクライマックスがクライマックス置場に置かれた時、そのターン中、このカードは次の能力を得る。『【自】 このカードのバトル相手が【リバース】した時、あなたは自分の山札の上から1枚を、ストック置場に置いてよい。』\n【自】 他のあなたのバトル中のキャラが【リバース】した時、そのターン中、このカードのパワーを＋1000。\n\"俺の望んでいた胸躍る冒険の世界とはほど遠い……\"",
+   "traits": [
+    "冒険者",
+    "魔法"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/ks_w49/ks_w49_021.png",
+   "variant": ""
+  },
+  {
+   "num": "KS/W49-022",
+   "name": "“スキル習得完了”カズマ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 経験 あなたのレベル置場のカードのレベルの合計が2以上なら、このカードは次の能力を得る。『【自】 このカードがアタックした時、あなたはこのカードの正面のキャラを1枚選び、そのターン中、パワーを－1000し、このカードのパワーを＋1000。』\n\"おお……！\"",
+   "traits": [
+    "冒険者",
+    "魔法"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/ks_w49/ks_w49_022.png",
+   "variant": ""
+  },
+  {
+   "num": "KS/W49-023",
+   "name": "“危険察知”ダクネス",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "5500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの、「“不安でいっぱい”カズマ」と「“紅魔族”めぐみん」と「“魔力提供”アクア」がいるなら、このカードのソウルを＋4。\n\"私の強敵を嗅ぎつける嗅覚が、まだ香ばしい危険の香りを嗅ぎとっている\"",
+   "traits": [
+    "冒険者",
+    "煩悩"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/ks_w49/ks_w49_023.png",
+   "variant": ""
+  },
+  {
+   "num": "KS/W49-024",
+   "name": "“特攻！”ダクネス",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "6000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードがアタックした時、あなたは自分の山札の上から2枚を、控え室に置く。それらのカードにクライマックスがあるなら、そのターン中、このカードのソウルを－2。\n【自】 このカードのバトル中、あなたの受けたダメージがキャンセルされなかった時、そのターン中、このカードのパワーを＋1500。\n\"うおおおおッ!!\"",
+   "traits": [
+    "冒険者",
+    "煩悩"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/ks_w49/ks_w49_024.png",
+   "variant": ""
+  },
+  {
+   "num": "KS/W49-025",
+   "name": "“なんか嬉しそう”ダクネス",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "1",
+   "cost": "1",
+   "power": "7500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの後列の《冒険者》のキャラ1枚につき、このカードのパワーを＋500。\n【自】 バトル中のこのカードが【リバース】した時、あなたは自分の山札の上から1枚を、クロック置場に置き、このカードを【レスト】する。\n\"それにこのデュラハンはやはりやり手だぞっ！\"",
+   "traits": [
+    "冒険者",
+    "煩悩"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/ks_w49/ks_w49_025.png",
+   "variant": ""
+  },
+  {
+   "num": "KS/W49-026",
+   "name": "“スティール”カズマ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "7000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 経験 あなたのレベル置場のカードのレベルの合計が5以上なら、このカードのレベルを＋1し、パワーを＋2000し、このカードは次の能力を得る。『【永】 このカードは相手の効果に選ばれない。』\n【自】 アンコール ［手札の、《冒険者》か《女神》のキャラを1枚控え室に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"今度こそお前の武器を奪ってやる！\"",
+   "traits": [
+    "冒険者",
+    "魔法"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/ks_w49/ks_w49_026.png",
+   "variant": ""
+  },
+  {
+   "num": "KS/W49-027",
+   "name": "“アイデアの聴取”クリス",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "7000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 経験 あなたのレベル置場に「“スティール成功…？”クリス」があるなら、あなたの手札のこのカードのレベルを－1。\n【自】 このカードが手札から舞台に置かれた時、他のあなたの《冒険者》のキャラが4枚以上なら、あなたは自分の控え室の《冒険者》のキャラを1枚選び、ストック置場に置いてよい。\n\"ねぇ、キミ、何か良い案はない？\"",
+   "traits": [
+    "冒険者",
+    "盗賊"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/ks_w49/ks_w49_027.png",
+   "variant": ""
+  },
+  {
+   "num": "KS/W49-028",
+   "name": "フリーズ",
+   "type": "Event",
+   "rarity": "U",
+   "color": "yellow",
+   "level": "1",
+   "cost": "1",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "あなたのレベルが2以下で相手のレベルが1以下なら、あなたは自分の手札を3枚選び、控え室に置いてよい。そうしたら、このカードをレベル置場に置き、あなたは追加の1ターンを得る。\n\"くっ!?ぬかった!!\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/ks_w49/ks_w49_028.png",
+   "variant": ""
+  },
+  {
+   "num": "KS/W49-029",
+   "name": "快感に震える",
+   "type": "Event",
+   "rarity": "U",
+   "color": "yellow",
+   "level": "1",
+   "cost": "1",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "このカードを思い出にする。\n【自】 記憶 ［このカードを控え室に置く］ あなたの受けたダメージがキャンセルされなかった時、思い出置場にこのカードがあり、そのダメージが3以上なら、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見て《煩悩》のキャラを2枚まで選んで相手に見せ、手札に加え、自分の手札を1枚選び、ストック置場に置き、その山札をシャッフルする。\n\"んんっ……！\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/ks_w49/ks_w49_029.png",
+   "variant": ""
+  },
+  {
+   "num": "KS/W49-030",
+   "name": "窃盗スキル",
+   "type": "Climax",
+   "rarity": "CR",
+   "color": "yellow",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[bounce.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[bounce.gif]]：このカードがトリガーした時、あなたは相手のキャラを1枚選び、手札に戻してよい）\n\"スティーールっ!!\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/ks_w49/ks_w49_030.png",
+   "variant": ""
+  },
+  {
+   "num": "KS/W49-031",
+   "name": "魔力充電中",
+   "type": "Climax",
+   "rarity": "CC",
+   "color": "yellow",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【自】 このカードが手札からクライマックス置場に置かれた時、あなたは自分のキャラを2枚まで選び、そのターン中、パワーを＋2000し、ソウルを＋1。\n\"妥協してここだ\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/ks_w49/ks_w49_031.png",
+   "variant": ""
+  },
+  {
+   "num": "KS/W49-032",
+   "name": "ドMクルセイダー",
+   "type": "Climax",
+   "rarity": "CC",
+   "color": "yellow",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[shot.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[shot.gif]]：このターン中、このカードをトリガーした攻撃キャラが次に与えるダメージがキャンセルされた時、相手に1ダメージを与える）\n\"やはり私の目に狂いはなかった！\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/ks_w49/ks_w49_032.png",
+   "variant": ""
+  },
+  {
+   "num": "KS/W49-033",
+   "name": "魔王軍の辱め…？",
+   "type": "Climax",
+   "rarity": "CC",
+   "color": "yellow",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[bounce.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[bounce.gif]]：このカードがトリガーした時、あなたは相手のキャラを1枚選び、手札に戻してよい）\n\"こやつ、先程から私のヨロイを少しずつ削りとるのだ……！\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/ks_w49/ks_w49_033.png",
+   "variant": ""
+  },
+  {
+   "num": "KS/W49-034",
+   "name": "“紅魔族”めぐみん",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "9500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から1枚を、控え室に置き、相手のレベルＸ以下のキャラを1枚まで選び、控え室に置く。Ｘはそのカードのレベルに等しい。（クライマックスのレベルは0として扱う）\n【自】【CXコンボ】［手札を1枚控え室に置く］ あなたのアンコールステップの始めに、クライマックス置場に「爆裂魔法」があり、他のあなたの「“不安でいっぱい”カズマ」がいて、前列にこのカードがいるなら、あなたはコストを払ってよい。そうしたら、相手に5ダメージを与える。（ダメージキャンセルは発生する）\n\"我と共に究極の深淵を覗く覚悟をせよ\"",
+   "traits": [
+    "冒険者",
+    "魔法"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/ks_w49/ks_w49_034.png",
+   "variant": ""
+  },
+  {
+   "num": "KS/W49-034R",
+   "name": "“紅魔族”めぐみん",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "9500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から1枚を、控え室に置き、相手のレベルＸ以下のキャラを1枚まで選び、控え室に置く。Ｘはそのカードのレベルに等しい。（クライマックスのレベルは0として扱う）\n【自】【CXコンボ】［手札を1枚控え室に置く］ あなたのアンコールステップの始めに、クライマックス置場に「爆裂魔法」があり、他のあなたの「“不安でいっぱい”カズマ」がいて、前列にこのカードがいるなら、あなたはコストを払ってよい。そうしたら、相手に5ダメージを与える。（ダメージキャンセルは発生する）\n\"人が深淵を覗く時、深淵もまた人を覗いているのだ！\"",
+   "traits": [
+    "冒険者",
+    "魔法"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/ks_w49/ks_w49_034r.png",
+   "variant": ""
+  },
+  {
+   "num": "KS/W49-035",
+   "name": "めぐみん",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札を上から3枚まで見て、カードを1枚まで選び、手札に加え、残りのカードを控え室に置く。\n【自】【CXコンボ】［(1)］ あなたのアタックフェイズの始めに、クライマックス置場に「本物の爆裂魔法」があり、このカードが前列にいて【スタンド】しているなら、あなたはコストを払ってよい。そうしたら、相手に4ダメージを与え、あなたはこのカードの正面のレベル3以下のキャラを1枚選び、クロック置場に置き、このカードを【レスト】する。（ダメージキャンセルは発生する）\n\"見せてあげますよ、本物の爆裂魔法を!!\"",
+   "traits": [
+    "冒険者",
+    "魔法"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/ks_w49/ks_w49_035.png",
+   "variant": ""
+  },
+  {
+   "num": "KS/W49-035SP",
+   "name": "めぐみん",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札を上から3枚まで見て、カードを1枚まで選び、手札に加え、残りのカードを控え室に置く。\n【自】【CXコンボ】［(1)］ あなたのアタックフェイズの始めに、クライマックス置場に「本物の爆裂魔法」があり、このカードが前列にいて【スタンド】しているなら、あなたはコストを払ってよい。そうしたら、相手に4ダメージを与え、あなたはこのカードの正面のレベル3以下のキャラを1枚選び、クロック置場に置き、このカードを【レスト】する。（ダメージキャンセルは発生する）\n\"-\"",
+   "traits": [
+    "冒険者",
+    "魔法"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/ks_w49/ks_w49_035sp.png",
+   "variant": ""
+  },
+  {
+   "num": "KS/W49-036",
+   "name": "“リッチー”ウィズ",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "11000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたの控え室のクライマックスが2枚以下なら、あなたの手札のこのカードのレベルを－1。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n【自】 このカードが手札から舞台に置かれた時、相手は自分の控え室のコスト0以下のキャラを1枚選び、舞台の好きな枠に置いてよい。\n\"私には、まだやるべき事があるんです……\"",
+   "traits": [
+    "死",
+    "魔法"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/ks_w49/ks_w49_036.png",
+   "variant": ""
+  },
+  {
+   "num": "KS/W49-036R",
+   "name": "“リッチー”ウィズ",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "11000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたの控え室のクライマックスが2枚以下なら、あなたの手札のこのカードのレベルを－1。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n【自】 このカードが手札から舞台に置かれた時、相手は自分の控え室のコスト0以下のキャラを1枚選び、舞台の好きな枠に置いてよい。\n\"私には、まだやるべき事があるんです……\"",
+   "traits": [
+    "死",
+    "魔法"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/ks_w49/ks_w49_036r.png",
+   "variant": ""
+  },
+  {
+   "num": "KS/W49-037",
+   "name": "“ボードゲーム”めぐみん",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［手札のクライマックスを1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の、《冒険者》か《魔法》のキャラを1枚選び、手札に戻す。\n【自】 相手のアタックフェイズの始めに、あなたはこのカードを前列のキャラのいない枠に動かしてよい。\n\"フフフッ\"",
+   "traits": [
+    "冒険者",
+    "魔法"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/ks_w49/ks_w49_037.png",
+   "variant": ""
+  },
+  {
+   "num": "KS/W49-037R",
+   "name": "“ボードゲーム”めぐみん",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［手札のクライマックスを1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の、《冒険者》か《魔法》のキャラを1枚選び、手札に戻す。\n【自】 相手のアタックフェイズの始めに、あなたはこのカードを前列のキャラのいない枠に動かしてよい。\n\"フフフッ\"",
+   "traits": [
+    "冒険者",
+    "魔法"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/ks_w49/ks_w49_037r.png",
+   "variant": ""
+  },
+  {
+   "num": "KS/W49-038",
+   "name": "“スキル習得の心得”めぐみん",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 応援 このカードの前のあなたのレベル0以下のキャラすべてに、パワーを＋1000。\n【起】 集中 ［(1) あなたのキャラを2枚【レスト】する］ あなたは自分の山札の上から4枚をめくり、控え室に置く。それらのカードのクライマックス1枚につき、あなたは自分の控え室のキャラを1枚まで選び、手札に戻す。\n\"ポイントを使ってそれを選べば習得完了なのです\"",
+   "traits": [
+    "冒険者",
+    "魔法"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/ks_w49/ks_w49_038.png",
+   "variant": ""
+  },
+  {
+   "num": "KS/W49-038S",
+   "name": "“スキル習得の心得”めぐみん",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 応援 このカードの前のあなたのレベル0以下のキャラすべてに、パワーを＋1000。\n【起】 集中 ［(1) あなたのキャラを2枚【レスト】する］ あなたは自分の山札の上から4枚をめくり、控え室に置く。それらのカードのクライマックス1枚につき、あなたは自分の控え室のキャラを1枚まで選び、手札に戻す。\n\"ポイントを使ってそれを選べば習得完了なのです\"",
+   "traits": [
+    "冒険者",
+    "魔法"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/ks_w49/ks_w49_038s.png",
+   "variant": ""
+  },
+  {
+   "num": "KS/W49-039",
+   "name": "“礼儀正しい”ゆんゆん",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたのキャラがいないなら、このカードのパワーを＋2000。\n【自】 絆／「めぐみん」 ［手札を1枚控え室に置く］ （このカードがプレイされて舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「めぐみん」を1枚選び、手札に戻す）\n\"ありがとうございます\"",
+   "traits": [
+    "冒険者",
+    "魔法"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/ks_w49/ks_w49_039.png",
+   "variant": ""
+  },
+  {
+   "num": "KS/W49-039S",
+   "name": "“礼儀正しい”ゆんゆん",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたのキャラがいないなら、このカードのパワーを＋2000。\n【自】 絆／「めぐみん」 ［手札を1枚控え室に置く］ （このカードがプレイされて舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「めぐみん」を1枚選び、手札に戻す）\n\"ありがとうございます\"",
+   "traits": [
+    "冒険者",
+    "魔法"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/ks_w49/ks_w49_039s.png",
+   "variant": ""
+  },
+  {
+   "num": "KS/W49-040",
+   "name": "“迷惑行為”めぐみん",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［手札を1枚控え室に置く］ このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を上から4枚まで見て、《魔法》のキャラを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。\n\"……\"",
+   "traits": [
+    "冒険者",
+    "魔法"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/ks_w49/ks_w49_040.png",
+   "variant": ""
+  },
+  {
+   "num": "KS/W49-040S",
+   "name": "“迷惑行為”めぐみん",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［手札を1枚控え室に置く］ このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を上から4枚まで見て、《魔法》のキャラを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。\n\"……\"",
+   "traits": [
+    "冒険者",
+    "魔法"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/ks_w49/ks_w49_040s.png",
+   "variant": ""
+  },
+  {
+   "num": "KS/W49-041",
+   "name": "“お茶汲み”ウィズ",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1) あなたの山札の上から1枚をクロック置場に置く］ このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室のレベル1以下のキャラを1枚選び、手札に戻す。\n\"カズマ「彼女の名前はウィズ。こう見えて普通の人間ではなく、リッチー。」\"",
+   "traits": [
+    "死",
+    "魔法"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/ks_w49/ks_w49_041.png",
+   "variant": ""
+  },
+  {
+   "num": "KS/W49-042",
+   "name": "“ナイス爆裂！”めぐみん",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが【リバース】した時、このカードのバトル相手のレベルが1以下なら、あなたはそのキャラを【リバース】してよい。\n【自】 アンコール ［手札のキャラを1枚控え室に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"カズマも爆裂道が分かってきましたね。……どうです？いっそ本当に爆裂魔法を覚えてみては\"",
+   "traits": [
+    "冒険者",
+    "魔法"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/ks_w49/ks_w49_042.png",
+   "variant": ""
+  },
+  {
+   "num": "KS/W49-042S",
+   "name": "“ナイス爆裂！”めぐみん",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが【リバース】した時、このカードのバトル相手のレベルが1以下なら、あなたはそのキャラを【リバース】してよい。\n【自】 アンコール ［手札のキャラを1枚控え室に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"カズマも爆裂道が分かってきましたね。……どうです？いっそ本当に爆裂魔法を覚えてみては\"",
+   "traits": [
+    "冒険者",
+    "魔法"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/ks_w49/ks_w49_042s.png",
+   "variant": ""
+  },
+  {
+   "num": "KS/W49-043",
+   "name": "“ハッキリ言い切れない”ゆんゆん",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】【CXコンボ】 このカードがアタックした時、クライマックス置場に「めぐみんのライバル」があり、他のあなたのカード名に「めぐみん」を含むキャラがいるなら、あなたは自分の山札を上から4枚まで見て、《魔法》のキャラを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。\n\"と、とも……だち……も、いるし……\"",
+   "traits": [
+    "冒険者",
+    "魔法"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/ks_w49/ks_w49_043.png",
+   "variant": ""
+  },
+  {
+   "num": "KS/W49-043R",
+   "name": "“ハッキリ言い切れない”ゆんゆん",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】【CXコンボ】 このカードがアタックした時、クライマックス置場に「めぐみんのライバル」があり、他のあなたのカード名に「めぐみん」を含むキャラがいるなら、あなたは自分の山札を上から4枚まで見て、《魔法》のキャラを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。\n\"と、とも……だち……も、いるし……\"",
+   "traits": [
+    "冒険者",
+    "魔法"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/ks_w49/ks_w49_043r.png",
+   "variant": ""
+  },
+  {
+   "num": "KS/W49-044",
+   "name": "“同時発射!!”ウィズ",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "6500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 応援 このカードの前のあなたのレベル3以上のキャラすべてに、パワーを＋2000。\n【自】【CXコンボ】［(1) 手札を2枚控え室に置く］ あなたのアタックフェイズの始めに、クライマックス置場に「本物の爆裂魔法」があり、他のあなたの「めぐみん」がいるなら、あなたはコストを払ってよい。そうしたら、相手に5ダメージを与える。（ダメージキャンセルは発生する）\n\"めぐみんさん、同時発射です!!……!?\"",
+   "traits": [
+    "死",
+    "魔法"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/ks_w49/ks_w49_044.png",
+   "variant": ""
+  },
+  {
+   "num": "KS/W49-044S",
+   "name": "“同時発射!!”ウィズ",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "6500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 応援 このカードの前のあなたのレベル3以上のキャラすべてに、パワーを＋2000。\n【自】【CXコンボ】［(1) 手札を2枚控え室に置く］ あなたのアタックフェイズの始めに、クライマックス置場に「本物の爆裂魔法」があり、他のあなたの「めぐみん」がいるなら、あなたはコストを払ってよい。そうしたら、相手に5ダメージを与える。（ダメージキャンセルは発生する）\n\"めぐみんさん、同時発射です!!……!?\"",
+   "traits": [
+    "死",
+    "魔法"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/ks_w49/ks_w49_044s.png",
+   "variant": ""
+  },
+  {
+   "num": "KS/W49-045",
+   "name": "“凄腕アークウィザード”ウィズ",
+   "type": "Character",
+   "rarity": "U",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】【クロック】 アラーム ［手札を1枚控え室に置く］ このカードがクロックの1番上にあるなら、あなたのクライマックスフェイズの始めに、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の《魔法》のキャラを1枚選び、手札に戻す。\n\"このままでは街が火の海になってしまいます！\"",
+   "traits": [
+    "死",
+    "魔法"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/ks_w49/ks_w49_045.png",
+   "variant": ""
+  },
+  {
+   "num": "KS/W49-046",
+   "name": "“めぐみんに絡む”ゆんゆん",
+   "type": "Character",
+   "rarity": "U",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの「“霜降り赤ガニ”めぐみん」すべてに、パワーを＋1000。\n【自】 他のあなたのバトル中のキャラが【リバース】した時、あなたは自分の《魔法》のキャラを1枚選び、そのターン中、パワーを＋1500。\n\"勝負なら受けて立つわよ。もうめぐみんには負けないんだから！\"",
+   "traits": [
+    "冒険者",
+    "魔法"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/ks_w49/ks_w49_046.png",
+   "variant": ""
+  },
+  {
+   "num": "KS/W49-047",
+   "name": "“動揺”めぐみん",
+   "type": "Character",
+   "rarity": "U",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［手札を2枚控え室に置く］ あなたがこのカードの『助太刀』を使った時、あなたはコストを払ってよい。そうしたら、あなたは相手の、レベルが相手のレベルより高いキャラを1枚選び、控え室に置く。\n【起】【カウンター】 助太刀1000 レベル1 ［手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋1000）\n\"!?\"",
+   "traits": [
+    "冒険者",
+    "魔法"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/ks_w49/ks_w49_047.png",
+   "variant": ""
+  },
+  {
+   "num": "KS/W49-048",
+   "name": "“今日はなんか大人しい”めぐみん",
+   "type": "Character",
+   "rarity": "U",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 経験 あなたのレベル置場に「毎日欠かさず爆裂魔法！」があるなら、このカードのパワーを＋2000し、ソウルを＋1。\n【自】［手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「毎日欠かさず爆裂魔法！」を1枚選び、手札に戻す。\n\"え？\"",
+   "traits": [
+    "冒険者",
+    "魔法"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/ks_w49/ks_w49_048.png",
+   "variant": ""
+  },
+  {
+   "num": "KS/W49-049",
+   "name": "“街の有名人”ウィズ",
+   "type": "Character",
+   "rarity": "U",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "6500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 舞台にこのカードがいるなら、このカードのレベルを－1し、このカードは《冒険者》を得る。\n【永】 このカードの正面のキャラに、『【自】 アンコール ［あなたの山札の上から1枚をクロック置場に置く］』を与える。\n\"一応冒険者の資格を持っているので、私もお手伝いに……\"",
+   "traits": [
+    "死",
+    "魔法"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/ks_w49/ks_w49_049.png",
+   "variant": ""
+  },
+  {
+   "num": "KS/W49-050",
+   "name": "“人形の恐怖”めぐみん",
+   "type": "Character",
+   "rarity": "U",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 他のあなたのバトル中のキャラが【リバース】した時、あなたは自分の《魔法》のキャラを1枚選び、そのターン中、パワーを＋3000。\n【起】 集中 ［(1) あなたのキャラを2枚【レスト】する］ あなたは自分の山札の上から4枚をめくり、控え室に置く。相手にＸダメージを与える。Ｘはそれらのカードのクライマックスの枚数に等しい。（ダメージキャンセルは発生する）\n\"その、アクアに身の安全を守ってもらうのと……一緒にトイレに……と思いまして……\"",
+   "traits": [
+    "冒険者",
+    "魔法"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/ks_w49/ks_w49_050.png",
+   "variant": ""
+  },
+  {
+   "num": "KS/W49-051",
+   "name": "“先生のお呼び出し”めぐみん",
+   "type": "Character",
+   "rarity": "U",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "7000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードがアタックした時、このカードの正面のキャラのレベルが3以上なら、そのターン中、このカードのパワーを＋6000。\n【自】［(1)］ このカードのバトル相手でレベル2以上のキャラが【リバース】した時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室のキャラを1枚選び、手札に戻す。\n\"先生ッ！お願いしますっ!!\"",
+   "traits": [
+    "冒険者",
+    "魔法"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/ks_w49/ks_w49_051.png",
+   "variant": ""
+  },
+  {
+   "num": "KS/W49-052",
+   "name": "“魔力不足”ウィズ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【起】［あなたのキャラを2枚【レスト】する］ このカードの下にマーカーがないなら、あなたは自分の山札を上から1枚見て、このカードの下にマーカーとして裏向きに置く。\n【起】［このカードを【レスト】する］ あなたはこのカードの下のマーカーを1枚ストック置場に置く。\n\"それには魔力が足りませんっ！\"",
+   "traits": [
+    "死",
+    "魔法"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/ks_w49/ks_w49_052.png",
+   "variant": ""
+  },
+  {
+   "num": "KS/W49-053",
+   "name": "博士",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたのキャラすべてに、次の能力を与える。『【永】 このカードはサイドアタックできない。』\n【起】［あなたのキャラを2枚【レスト】する］ このカードの下にマーカーがないなら、あなたは自分の控え室の「デストロイヤー警報！」を1枚選び、このカードの下にマーカーとして裏向きに置く。\n【起】［あなたのキャラを2枚【レスト】する］ あなたはこのカードの下のマーカーを1枚手札に戻す。\n\"おっと、これ作った責任者、俺でした！\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/ks_w49/ks_w49_053.png",
+   "variant": ""
+  },
+  {
+   "num": "KS/W49-054",
+   "name": "“霜降り赤ガニ”めぐみん",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "",
+   "text": "-\n\"あわ　あわわわわわわわわわわ…\"",
+   "traits": [
+    "冒険者",
+    "魔法"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/ks_w49/ks_w49_054.png",
+   "variant": ""
+  },
+  {
+   "num": "KS/W49-055",
+   "name": "“言い張る”めぐみん",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの、《冒険者》か《魔法》のキャラがいないなら、このカードはあなたのスタンドフェイズに【スタンド】しない。\n\"紅魔族は、トイレなんて行きませんよ？\"",
+   "traits": [
+    "冒険者",
+    "魔法"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/ks_w49/ks_w49_055.png",
+   "variant": ""
+  },
+  {
+   "num": "KS/W49-056",
+   "name": "ジャイアント・トード",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 このカードの下のマーカー1枚につき、このカードのパワーを－2000。\n【自】 このカードのバトル相手が【リバース】した時、あなたは自分の山札を上から1枚見て、このカードの下にマーカーとして裏向きに置く。\n\"カズマ「ジャイアント・トード。こいつらはたかがカエルと侮れない。」\"",
+   "traits": [
+    "カエル"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/ks_w49/ks_w49_056.png",
+   "variant": ""
+  },
+  {
+   "num": "KS/W49-057",
+   "name": "キャベツ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 このカードと同じカード名のカードは、デッキに好きな枚数入れることができる。\n【自】 あなたのクライマックスフェイズの始めに、そのターン中、このカードのパワーを＋Ｘ。Ｘは他のあなたの前列の「キャベツ」の枚数×2000に等しい。\n【自】 このカードの与えたダメージがキャンセルされた時、あなたはこのカードをストック置場に置いてよい。\n\"キャベキャベぷーーー！\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/ks_w49/ks_w49_057.png",
+   "variant": ""
+  },
+  {
+   "num": "KS/W49-058",
+   "name": "“黒紫の煙”ベルディア",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1) 手札を2枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室のレベル0以下のキャラを3枚まで選び、舞台の別々の枠に置く。\n【自】［手札の《死》のキャラを1枚控え室に置く］ 相手のドローフェイズの始めに、前列にこのカードがいるなら、あなたはコストを払ってよい。そうしたら、あなたは相手のコスト0以下のキャラを1枚選び、そのターン中、次の能力を与える。『【自】 あなたのアンコールステップの始めに、このカードを控え室に置く。』\n\"一週間後に死ぬだろう……!!\"",
+   "traits": [
+    "死",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/ks_w49/ks_w49_058.png",
+   "variant": ""
+  },
+  {
+   "num": "KS/W49-059",
+   "name": "“呪文詠唱”めぐみん",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "5500",
+   "soul": 2,
+   "trigger": "",
+   "text": "【自】 あなたのアンコールステップの始めに、前列にこのカードがいるなら、相手は自分の山札の上から1枚を公開する。そのカードがレベル3以上のキャラなら、相手はそのキャラを舞台の好きな枠に置いてよい。（そうしないなら元に戻す）\n\"紅き黒炎、万界の王、天地の法を敷衍すれど、我は万象照応の理、崩壊破壊の別名なり。永劫の鉄槌は我が元に下れ……\"",
+   "traits": [
+    "冒険者",
+    "魔法"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/ks_w49/ks_w49_059.png",
+   "variant": ""
+  },
+  {
+   "num": "KS/W49-060",
+   "name": "“優しいリッチー”ウィズ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "1",
+   "cost": "1",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】【CXコンボ】［手札の《魔法》のキャラを2枚控え室に置く］ あなたのクライマックス置場に「魂の還元」が置かれた時、あなたはコストを払ってよい。そうしたら、あなたは相手の控え室のカードを1枚選び、思い出にする。\n【自】 他のあなたのバトル中のキャラが【リバース】した時、あなたは自分の《魔法》のキャラを1枚選び、そのターン中、パワーを＋2000。\n\"このすば(記号：ハート)\"",
+   "traits": [
+    "死",
+    "魔法"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/ks_w49/ks_w49_060.png",
+   "variant": ""
+  },
+  {
+   "num": "KS/W49-061",
+   "name": "“我が名は”ゆんゆん",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【起】【カウンター】 助太刀3000 レベル2 ［(1) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋3000）\n\"アークウィザードにして、上級魔法を操る者。やがては紅魔族の長になる者……！\"",
+   "traits": [
+    "冒険者",
+    "魔法"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/ks_w49/ks_w49_061.png",
+   "variant": ""
+  },
+  {
+   "num": "KS/W49-062",
+   "name": "“長期契約の交渉”めぐみん",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "8000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたの《魔法》のキャラが4枚以上なら、あなたの手札のこのカードのレベルを－1。\n【永】 他のあなたの、《冒険者》か《魔法》のキャラがいないなら、このカードはあなたのスタンドフェイズに【スタンド】しない。\n\"そう、アークウィザードの強力な力が、今なら食費と雑費だけで！\"",
+   "traits": [
+    "冒険者",
+    "魔法"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/ks_w49/ks_w49_062.png",
+   "variant": ""
+  },
+  {
+   "num": "KS/W49-063",
+   "name": "新人サキュバス",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "8000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】［(1) 手札を2枚控え室に置く］ このカードがフロントアタックされた時、あなたはコストを払ってよい。そうしたら、あなたはこのカードの正面のキャラを1枚選び、そのターン中、ソウルを＋6。\n\"あ……\"",
+   "traits": [
+    "煩悩"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/ks_w49/ks_w49_063.png",
+   "variant": ""
+  },
+  {
+   "num": "KS/W49-064",
+   "name": "毎日欠かさず爆裂魔法！",
+   "type": "Event",
+   "rarity": "U",
+   "color": "red",
+   "level": "1",
+   "cost": "1",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "あなたのレベルが2以下で相手のレベルが1以下なら、あなたは自分の手札の《魔法》のキャラを1枚選び、控え室に置いてよい。そうしたら、このカードをレベル置場に置き、6回、次の行動を行う。『相手に1ダメージを与える。』（ダメージキャンセルは発生する）\n\"エクスプロージョン！\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/ks_w49/ks_w49_064.png",
+   "variant": ""
+  },
+  {
+   "num": "KS/W49-065",
+   "name": "ドレインタッチ",
+   "type": "Event",
+   "rarity": "U",
+   "color": "red",
+   "level": "2",
+   "cost": "0",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "このカードは、あなたのカード名に「ウィズ」か「カズマ」を含むキャラがいないなら、手札からプレイできない。\nあなたは相手のレベル1以下のキャラを1枚選び、控え室に置いてよい。そうしたら、相手は自分の控え室のレベル0以下のキャラを1枚まで選び、そのキャラがいた枠に置く。\nこのカードをストック置場に置く。\n\"すいません！ドレインタッチ―!!\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/ks_w49/ks_w49_065.png",
+   "variant": ""
+  },
+  {
+   "num": "KS/W49-066",
+   "name": "デストロイヤー警報！",
+   "type": "Event",
+   "rarity": "U",
+   "color": "red",
+   "level": "3",
+   "cost": "9",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "相手のレベル3以下のキャラすべてを、山札に戻し、相手はその山札をシャッフルする。このカードをクロック置場に置く。\n\"緊急クエスト<br>-デストロイヤー討伐-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/ks_w49/ks_w49_066.png",
+   "variant": ""
+  },
+  {
+   "num": "KS/W49-067",
+   "name": "本物の爆裂魔法",
+   "type": "Climax",
+   "rarity": "CR",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【自】 このカードが手札からクライマックス置場に置かれた時、あなたは自分の控え室の赤のカードを1枚まで選び、ストック置場に置き、自分のキャラすべてに、そのターン中、ソウルを＋1。\n\"エクスプロージョン！\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/ks_w49/ks_w49_067.png",
+   "variant": ""
+  },
+  {
+   "num": "KS/W49-068",
+   "name": "めぐみんのライバル",
+   "type": "Climax",
+   "rarity": "CR",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【自】 このカードが手札からクライマックス置場に置かれた時、あなたは自分のキャラを2枚まで選び、そのターン中、パワーを＋2000し、ソウルを＋1。\n\"さあ、めぐみん。この私と勝負なさい!!\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/ks_w49/ks_w49_068.png",
+   "variant": ""
+  },
+  {
+   "num": "KS/W49-069",
+   "name": "爆裂魔法",
+   "type": "Climax",
+   "rarity": "CC",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[salvage.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[salvage.gif]]：このカードがトリガーした時、あなたは自分の控え室のキャラを1枚選び、手札に戻してよい）\n\"エクスプロージョン！\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/ks_w49/ks_w49_069.png",
+   "variant": ""
+  },
+  {
+   "num": "KS/W49-070",
+   "name": "魂の還元",
+   "type": "Climax",
+   "rarity": "CC",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[salvage.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[salvage.gif]]：このカードがトリガーした時、あなたは自分の控え室のキャラを1枚選び、手札に戻してよい）\n\"カズマ「ウィズはリッチーなのに優しい子で、毎夜、墓地をさまよう魂を天に還してあげていた」\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/ks_w49/ks_w49_070.png",
+   "variant": ""
+  },
+  {
+   "num": "KS/W49-071",
+   "name": "“トラブルメーカー”アクア",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの前列の中央の枠のキャラに、『【自】 アンコール ［手札のキャラを1枚控え室に置く］』を与える。\n【起】 集中 ［(1) このカードを【レスト】する］ あなたは自分の山札の上から4枚をめくり、控え室に置く。それらのカードのクライマックス1枚につき、あなたは自分の控え室のコスト0以下のキャラを1枚まで選び、舞台の別々の枠に置く。\n\"ねぇいったい何の騒ぎなの？\"",
+   "traits": [
+    "冒険者",
+    "女神"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/ks_w49/ks_w49_071.png",
+   "variant": ""
+  },
+  {
+   "num": "KS/W49-071R",
+   "name": "“トラブルメーカー”アクア",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの前列の中央の枠のキャラに、『【自】 アンコール ［手札のキャラを1枚控え室に置く］』を与える。\n【起】 集中 ［(1) このカードを【レスト】する］ あなたは自分の山札の上から4枚をめくり、控え室に置く。それらのカードのクライマックス1枚につき、あなたは自分の控え室のコスト0以下のキャラを1枚まで選び、舞台の別々の枠に置く。\n\"何を遊んでいるの？馬鹿なの？\"",
+   "traits": [
+    "冒険者",
+    "女神"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/ks_w49/ks_w49_071r.png",
+   "variant": ""
+  },
+  {
+   "num": "KS/W49-072",
+   "name": "“良き出会いのあらんことを”エリス",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "blue",
+   "level": "3",
+   "cost": "2",
+   "power": "9500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたのクロック置場に「“雪精討伐の意味とは？”アクア」があるなら、あなたの手札のこのカードのレベルを－1。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分の控え室の、《冒険者》か《女神》のキャラを1枚選び、手札に戻してよい。\n【自】［(1) 手札を2枚控え室に置く］ この能力は1ターンにつき1回まで発動する。あなたの前列の中央の枠のキャラがアタックした時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札の上から1枚を公開する。そのカードが《冒険者》か《女神》のキャラなら、このカードを【スタンド】する。（公開したカードは元に戻す）\n\"……生まれ変わったあなたに、また良き出会いのあらんことを……\"",
+   "traits": [
+    "女神"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/ks_w49/ks_w49_072.png",
+   "variant": ""
+  },
+  {
+   "num": "KS/W49-072R",
+   "name": "“良き出会いのあらんことを”エリス",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "blue",
+   "level": "3",
+   "cost": "2",
+   "power": "9500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたのクロック置場に「“雪精討伐の意味とは？”アクア」があるなら、あなたの手札のこのカードのレベルを－1。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分の控え室の、《冒険者》か《女神》のキャラを1枚選び、手札に戻してよい。\n【自】［(1) 手札を2枚控え室に置く］ この能力は1ターンにつき1回まで発動する。あなたの前列の中央の枠のキャラがアタックした時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札の上から1枚を公開する。そのカードが《冒険者》か《女神》のキャラなら、このカードを【スタンド】する。（公開したカードは元に戻す）\n\"……生まれ変わったあなたに、また良き出会いのあらんことを……\"",
+   "traits": [
+    "女神"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/ks_w49/ks_w49_072r.png",
+   "variant": ""
+  },
+  {
+   "num": "KS/W49-073",
+   "name": "アクア",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "blue",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 このカードのバトル中、相手は『助太刀』を手札からプレイできない。\n【自】［(1)］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、相手は自分の控え室のクライマックスを2枚選び、それらのカード以外の控え室のカードすべてを、山札に戻し、その山札をシャッフルする。\n【自】【CXコンボ】［手札を1枚控え室に置く］ あなたのクライマックス置場に「リザレクション」が置かれた時、前列にこのカードがいるなら、あなたはコストを払ってよい。そうしたら、あなたは自分のクロック置場の、《冒険者》か《女神》のキャラを1枚選び、舞台の好きな枠に置く。\n\"女神の力、思い知れ！\"",
+   "traits": [
+    "冒険者",
+    "女神"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/ks_w49/ks_w49_073.png",
+   "variant": ""
+  },
+  {
+   "num": "KS/W49-073SP",
+   "name": "アクア",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "blue",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 このカードのバトル中、相手は『助太刀』を手札からプレイできない。\n【自】［(1)］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、相手は自分の控え室のクライマックスを2枚選び、それらのカード以外の控え室のカードすべてを、山札に戻し、その山札をシャッフルする。\n【自】【CXコンボ】［手札を1枚控え室に置く］ あなたのクライマックス置場に「リザレクション」が置かれた時、前列にこのカードがいるなら、あなたはコストを払ってよい。そうしたら、あなたは自分のクロック置場の、《冒険者》か《女神》のキャラを1枚選び、舞台の好きな枠に置く。\n\"-\"",
+   "traits": [
+    "冒険者",
+    "女神"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/ks_w49/ks_w49_073sp.png",
+   "variant": ""
+  },
+  {
+   "num": "KS/W49-074",
+   "name": "“優しい女神”エリス",
+   "type": "Character",
+   "rarity": "R",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは他の自分の、《冒険者》か《女神》のキャラを1枚選び、そのターン中、パワーを＋1000。\n【自】［このカードを手札に戻す］ あなたのクライマックスがクライマックス置場に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは1枚引き、自分の手札を1枚選び、控え室に置く。\n\"この世界でのあなたの人生は……終わったのです……\"",
+   "traits": [
+    "女神"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/ks_w49/ks_w49_074.png",
+   "variant": ""
+  },
+  {
+   "num": "KS/W49-075",
+   "name": "“雪精討伐の意味とは？”アクア",
+   "type": "Character",
+   "rarity": "R",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［手札を1枚クロック置場に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見て《女神》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"あなたも日本に住んでいたんだし、天気予報やニュースで名前くらいは聞いたことがあるでしょう？\"",
+   "traits": [
+    "冒険者",
+    "女神"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/ks_w49/ks_w49_075.png",
+   "variant": ""
+  },
+  {
+   "num": "KS/W49-075R",
+   "name": "“雪精討伐の意味とは？”アクア",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［手札を1枚クロック置場に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見て《女神》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"あなたも日本に住んでいたんだし、天気予報やニュースで名前くらいは聞いたことがあるでしょう？\"",
+   "traits": [
+    "冒険者",
+    "女神"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/ks_w49/ks_w49_075r.png",
+   "variant": ""
+  },
+  {
+   "num": "KS/W49-076",
+   "name": "“優しい微笑み”エリス",
+   "type": "Character",
+   "rarity": "R",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 あなたのクライマックスがクライマックス置場に置かれた時、そのターン中、このカードのパワーを＋1500。\n【自】【CXコンボ】 あなたのクライマックス置場に「蘇生」が置かれた時、前列にこのカードがいて、他のあなたの《女神》のキャラがいるなら、あなたは自分の控え室のコスト0以下の、《冒険者》か《女神》のキャラを1枚選び、舞台の好きな枠に置いてよい。\n\"-\"",
+   "traits": [
+    "女神"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/ks_w49/ks_w49_076.png",
+   "variant": ""
+  },
+  {
+   "num": "KS/W49-076S",
+   "name": "“優しい微笑み”エリス",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 あなたのクライマックスがクライマックス置場に置かれた時、そのターン中、このカードのパワーを＋1500。\n【自】【CXコンボ】 あなたのクライマックス置場に「蘇生」が置かれた時、前列にこのカードがいて、他のあなたの《女神》のキャラがいるなら、あなたは自分の控え室のコスト0以下の、《冒険者》か《女神》のキャラを1枚選び、舞台の好きな枠に置いてよい。\n\"-\"",
+   "traits": [
+    "女神"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/ks_w49/ks_w49_076s.png",
+   "variant": ""
+  },
+  {
+   "num": "KS/W49-077",
+   "name": "“セイクリッド・クリエイトウォーター”アクア",
+   "type": "Character",
+   "rarity": "R",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが舞台から控え室に置かれた時、あなたは自分の山札の上から3枚までを、公開してよい。1枚以上公開したなら、あなたはそれらのカードの《冒険者》か《女神》のキャラを1枚まで選び、手札に加え、残りのカードを控え室に置き、自分の手札を1枚選び、控え室に置く。\n\"“セイクリッド・クリエイトウォーター”\"",
+   "traits": [
+    "冒険者",
+    "女神"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/ks_w49/ks_w49_077.png",
+   "variant": ""
+  },
+  {
+   "num": "KS/W49-077S",
+   "name": "“セイクリッド・クリエイトウォーター”アクア",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが舞台から控え室に置かれた時、あなたは自分の山札の上から3枚までを、公開してよい。1枚以上公開したなら、あなたはそれらのカードの《冒険者》か《女神》のキャラを1枚まで選び、手札に加え、残りのカードを控え室に置き、自分の手札を1枚選び、控え室に置く。\n\"“セイクリッド・クリエイトウォーター”\"",
+   "traits": [
+    "冒険者",
+    "女神"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/ks_w49/ks_w49_077s.png",
+   "variant": ""
+  },
+  {
+   "num": "KS/W49-078",
+   "name": "“セイクリッド・ターンアンデッド”アクア",
+   "type": "Character",
+   "rarity": "R",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "7000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 このカードの正面のキャラのレベルがこのカードのレベルより高いなら、このカードはフロントアタックできない。\n【自】 このカードのバトル相手が【リバース】した時、あなたはそのキャラを思い出にする。\n\"“セイクリッド・ターンアンデッド”!!\"",
+   "traits": [
+    "冒険者",
+    "女神"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/ks_w49/ks_w49_078.png",
+   "variant": ""
+  },
+  {
+   "num": "KS/W49-078S",
+   "name": "“セイクリッド・ターンアンデッド”アクア",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "7000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 このカードの正面のキャラのレベルがこのカードのレベルより高いなら、このカードはフロントアタックできない。\n【自】 このカードのバトル相手が【リバース】した時、あなたはそのキャラを思い出にする。\n\"“セイクリッド・ターンアンデッド”!!\"",
+   "traits": [
+    "冒険者",
+    "女神"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/ks_w49/ks_w49_078s.png",
+   "variant": ""
+  },
+  {
+   "num": "KS/W49-079",
+   "name": "“恥ずかしがる”エリス",
+   "type": "Character",
+   "rarity": "R",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "5500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】［(1) 手札を2枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の自分のレベル以下のレベルのキャラを1枚選び、舞台の好きな枠に置く。\n【自】 このカードが【リバース】した時、このカードのバトル相手のレベルが相手のレベルより高いなら、あなたはそのキャラを山札の下に置いてよい。\n\"カズマ「パッドでもかまいませんよ」\"",
+   "traits": [
+    "女神"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/ks_w49/ks_w49_079.png",
+   "variant": ""
+  },
+  {
+   "num": "KS/W49-080",
+   "name": "“粘液まみれ”アクア",
+   "type": "Character",
+   "rarity": "U",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 バトル中のこのカードが【リバース】した時、あなたは自分の山札の上から2枚を、控え室に置く。それらのカードにレベル2以上のカードがあるなら、あなたはこのカードをストック置場に置いてよい。（クライマックスのレベルは0として扱う）\n\"ぐすっ！う、うぇぇ……あぐぅ……ありがど……ガズマ(記号：マに濁点)……\"",
+   "traits": [
+    "冒険者",
+    "女神"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/ks_w49/ks_w49_080.png",
+   "variant": ""
+  },
+  {
+   "num": "KS/W49-081",
+   "name": "“満面の笑み”アクア",
+   "type": "Character",
+   "rarity": "U",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の、《冒険者》か《女神》のキャラを1枚選び、そのターン中、パワーを＋1500。\n\"うん、任せて\"",
+   "traits": [
+    "冒険者",
+    "女神"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/ks_w49/ks_w49_081.png",
+   "variant": ""
+  },
+  {
+   "num": "KS/W49-082",
+   "name": "“媚び諂う”アクア",
+   "type": "Character",
+   "rarity": "U",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の【スタンド】しているキャラを1枚選び、【レスト】する。\n【自】［(1)］ アンコールステップの始めに、他のあなたの前列の【レスト】しているキャラがいないなら、あなたはコストを払ってよい。そうしたら、このカードを【レスト】する。\n\"カズマさあああん！\"",
+   "traits": [
+    "冒険者",
+    "女神"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/ks_w49/ks_w49_082.png",
+   "variant": ""
+  },
+  {
+   "num": "KS/W49-083",
+   "name": "“爆睡中”アクア",
+   "type": "Character",
+   "rarity": "U",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から2枚を、控え室に置く。それらのカードにクライマックスがあるなら、このカードを【レスト】する。\n\"ぐ―――――――\"",
+   "traits": [
+    "冒険者",
+    "女神"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/ks_w49/ks_w49_083.png",
+   "variant": ""
+  },
+  {
+   "num": "KS/W49-084",
+   "name": "“煽っていくスタイル”アクア",
+   "type": "Character",
+   "rarity": "U",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのストックが3枚以下なら、このカードは次の能力を得る。『【自】 このカードのバトル相手が【リバース】した時、あなたは自分の山札の上から1枚を、ストック置場に置いてよい。』\n\"ふーん。いいわよ？幾らでも吸って頂戴。さあどうぞ？\"",
+   "traits": [
+    "冒険者",
+    "女神"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/ks_w49/ks_w49_084.png",
+   "variant": ""
+  },
+  {
+   "num": "KS/W49-085",
+   "name": "“魔力提供”アクア",
+   "type": "Character",
+   "rarity": "U",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの「“紅魔族”めぐみん」すべてに、次の能力を与える。『【自】 あなたのアンコールステップの始めに、あなたは相手の山札の上から1枚を、控え室に置いてよい。そうしたら、あなたは相手の控え室のカードを1枚選び、山札の上に置く。』\n【永】 他のあなたの、《冒険者》か《女神》のキャラすべてに、パワーを＋500し、『【自】 アンコール ［手札のキャラを1枚控え室に置く］』を与える。\n\"ねえ、めぐみん、まだかしら？もう結構な量を吸われていると思うんですけど！\"",
+   "traits": [
+    "冒険者",
+    "女神"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/ks_w49/ks_w49_085.png",
+   "variant": ""
+  },
+  {
+   "num": "KS/W49-086",
+   "name": "“全力全開！”アクア",
+   "type": "Character",
+   "rarity": "U",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "6000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの、《冒険者》か《女神》のキャラ1枚につき、このカードのパワーを＋1000。\n【自】【CXコンボ】 このカードがアタックした時、クライマックス置場に「セイクリッド・ブレイクスペル」があるなら、あなたは相手の前列のキャラを1枚選び、そのターン中、パワーを－3000し、次の能力を与える。『【永】 このカードのバトル中、あなたはイベントと『助太刀』を、手札からプレイできない。』\n\"セイクリッドーッ!!ブレイクスペルッ!!\"",
+   "traits": [
+    "冒険者",
+    "女神"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/ks_w49/ks_w49_086.png",
+   "variant": ""
+  },
+  {
+   "num": "KS/W49-087",
+   "name": "“ここから冒険が始まる…？”アクア",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋500。\n【起】［このカードを【レスト】する］ あなたは自分の、《冒険者》か《女神》のキャラを1枚選び、そのターン中、パワーを＋1000。\n\"さあ今日から冒険者生活よカズマ！\"",
+   "traits": [
+    "冒険者",
+    "女神"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/ks_w49/ks_w49_087.png",
+   "variant": ""
+  },
+  {
+   "num": "KS/W49-088",
+   "name": "“辺境担当の女神？”エリス",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から2枚を、控え室に置き、そのターン中、このカードのパワーを＋Ｘ。Ｘはそれらのカードの、《冒険者》か《女神》のキャラの枚数×1000に等しい。\n\"カズマ「おいやめろ！その辺境担当の女神様が、すごく引きつった顔をしてるから！」\"",
+   "traits": [
+    "女神"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/ks_w49/ks_w49_088.png",
+   "variant": ""
+  },
+  {
+   "num": "KS/W49-089",
+   "name": "“クエストクリア”アクア",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "",
+   "text": "-\n\"出がらし女神が運ばれてくよー\"",
+   "traits": [
+    "冒険者",
+    "女神"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/ks_w49/ks_w49_089.png",
+   "variant": ""
+  },
+  {
+   "num": "KS/W49-090",
+   "name": "“本物の女神？”アクア",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【起】【カウンター】 助太刀1500 レベル1 ［手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋1500）\n\"そう、私こそがあの女神アクアなのよ！\"",
+   "traits": [
+    "冒険者",
+    "女神"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/ks_w49/ks_w49_090.png",
+   "variant": ""
+  },
+  {
+   "num": "KS/W49-091",
+   "name": "“花鳥風月”アクア",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの、《冒険者》か《女神》のキャラすべてに、パワーを＋500。\n【起】［(2) このカードを【レスト】する］ あなたは自分のクロックの上から1枚を、控え室に置く。\n\"花鳥風月！\"",
+   "traits": [
+    "冒険者",
+    "女神"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/ks_w49/ks_w49_091.png",
+   "variant": ""
+  },
+  {
+   "num": "KS/W49-092",
+   "name": "“アクシズ教団の元締め”アクア",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 他のあなたの、《冒険者》か《女神》のキャラがアタックした時、そのターン中、このカードのパワーを＋1000。\n\"控えなさいリッチー!!\"",
+   "traits": [
+    "冒険者",
+    "女神"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/ks_w49/ks_w49_092.png",
+   "variant": ""
+  },
+  {
+   "num": "KS/W49-093",
+   "name": "“謝罪の要求”アクア",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "1",
+   "cost": "1",
+   "power": "5500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの、《冒険者》か《女神》のキャラ1枚につき、このカードのパワーを＋500。\n【自】 アンコール ［手札のキャラを1枚控え室に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"謝って！水の女神様をなんちゃって女神って言った事、ちゃんと謝って!!\"",
+   "traits": [
+    "冒険者",
+    "女神"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/ks_w49/ks_w49_093.png",
+   "variant": ""
+  },
+  {
+   "num": "KS/W49-094",
+   "name": "“美味しい飲み方”アクア",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "7500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたのクロック置場に「“媚び諂う”アクア」があるなら、あなたの手札のこのカードのレベルを－1。\n【自】 あなたがレベルアップした時、そのターン中、このカードは『【自】 アンコール ［(1)］』を得る。\n\"私が今から、これの美味しい飲み方を教えてあげるわ\"",
+   "traits": [
+    "冒険者",
+    "女神"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/ks_w49/ks_w49_094.png",
+   "variant": ""
+  },
+  {
+   "num": "KS/W49-095",
+   "name": "“呆然とする”アクア",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "2",
+   "cost": "2",
+   "power": "8000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、他のあなたの、《冒険者》か《女神》のキャラが4枚以上なら、あなたは自分の控え室の、《冒険者》か《女神》のキャラを1枚選び、ストック置場に置いてよい。\n【自】 アンコール ［手札の、《冒険者》か《女神》のキャラを1枚控え室に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"……えっ\"",
+   "traits": [
+    "冒険者",
+    "女神"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/ks_w49/ks_w49_095.png",
+   "variant": ""
+  },
+  {
+   "num": "KS/W49-096",
+   "name": "ゴッドブロー",
+   "type": "Event",
+   "rarity": "U",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "あなたは自分の《女神》のキャラを1枚選び、そのターン中、ソウルを＋50し、次の3つの能力を与える。『【永】 このカードはサイドアタックできない。』『【永】 このカードの正面のキャラは【リバース】しない。』『【自】 この能力は1ターンにつき1回まで発動する。このカードの与えたダメージがキャンセルされた時、あなたは3枚まで引き、自分の手札を2枚選び、控え室に置く。』\n\"ゴッドブローとは、女神の怒りと悲しみを乗せた必殺の拳！相手は死ぬ！\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/ks_w49/ks_w49_096.png",
+   "variant": ""
+  },
+  {
+   "num": "KS/W49-097",
+   "name": "先輩登場",
+   "type": "Event",
+   "rarity": "U",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "【カウンター】 このカードは、あなたの《女神》のキャラがいないなら、手札からプレイできない。\nあなたは自分の、《冒険者》か《女神》のキャラを2枚まで選び、そのターン中、次の能力を与える。『【自】 このカードが舞台から控え室に置かれた時、あなたはこのカードをこのカードがいた枠に【レスト】して置いてよい。』\n\"こ、この声アクア先輩!?まさか本物!?\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/ks_w49/ks_w49_097.png",
+   "variant": ""
+  },
+  {
+   "num": "KS/W49-098",
+   "name": "リザレクション",
+   "type": "Climax",
+   "rarity": "CR",
+   "color": "blue",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[gate.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[gate.gif]]：このカードがトリガーした時、あなたは自分の控え室のクライマックスを1枚選び、手札に戻してよい）\n\"これで一緒にお酒が飲めるじゃない！\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/ks_w49/ks_w49_098.png",
+   "variant": ""
+  },
+  {
+   "num": "KS/W49-099",
+   "name": "蘇生",
+   "type": "Climax",
+   "rarity": "CC",
+   "color": "blue",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[draw.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[draw.gif]]：このカードがトリガーした時、あなたは1枚引いてよい）\n\"これで現世と繋がりました\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/ks_w49/ks_w49_099.png",
+   "variant": ""
+  },
+  {
+   "num": "KS/W49-100",
+   "name": "セイクリッド・ブレイクスペル",
+   "type": "Climax",
+   "rarity": "CC",
+   "color": "blue",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【自】 このカードが手札からクライマックス置場に置かれた時、あなたは自分のキャラを2枚まで選び、そのターン中、パワーを＋2000し、ソウルを＋1。\n\"うう……ああぁ……あぁぁーっ!!\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/ks_w49/ks_w49_100.png",
+   "variant": ""
+  },
+  {
+   "num": "KS/W49-101",
+   "name": "ぷちカズマ",
+   "type": "Character",
+   "rarity": "PR",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【起】【カウンター】 助太刀1500 レベル1 ［手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋1500）\n\"このすば――\"",
+   "traits": [
+    "冒険者",
+    "魔法"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/ks_w49/ks_w49_101.png",
+   "variant": ""
+  },
+  {
+   "num": "KS/W49-102",
+   "name": "ぷちダクネス",
+   "type": "Character",
+   "rarity": "PR",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "9000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたのクロックが1枚以下なら、このカードはアタックできない。\n【自】［あなたの山札の上から1枚をクロック置場に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、そのターン中、このカードのパワーを＋4500。\n\"このすば――\"",
+   "traits": [
+    "冒険者",
+    "煩悩"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/ks_w49/ks_w49_102.png",
+   "variant": ""
+  },
+  {
+   "num": "KS/W49-103",
+   "name": "ぷちめぐみん",
+   "type": "Character",
+   "rarity": "PR",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの《魔法》のキャラすべてに、パワーを＋500。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札を上から1枚見て、山札の上か控え室に置く。\n\"このすば――\"",
+   "traits": [
+    "冒険者",
+    "魔法"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/ks_w49/ks_w49_103.png",
+   "variant": ""
+  },
+  {
+   "num": "KS/W49-104",
+   "name": "ぷちアクア",
+   "type": "Character",
+   "rarity": "PR",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "6500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 バトル中のこのカードが【リバース】した時、相手は2枚引いてよい。そうしたら、相手は自分の手札を2枚選び、控え室に置く。\n\"このすば――\"",
+   "traits": [
+    "冒険者",
+    "女神"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/ks_w49/ks_w49_104.png",
+   "variant": ""
+  }
+ ]
+}

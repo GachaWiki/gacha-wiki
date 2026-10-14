@@ -1,0 +1,1158 @@
+{
+ "id": "jp-hll-e215",
+ "name": "「ひなろじ ～from Luck ＆ Logic～」Vol.2",
+ "expansion": 215,
+ "lang": "jp",
+ "release": null,
+ "shopItem": null,
+ "box": null,
+ "cards": [
+  {
+   "num": "HLL/WE29-01",
+   "name": "最後の対決 弥生",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたのカード名に「弥生」か「万博」か「華凛」か「華恋」を含むキャラが2枚以上なら、このカードのパワーを＋1000。\n【自】 相手のアタックフェイズの始めに、あなたは自分の山札の上から1枚を、控え室に置いてよい。そのカードが《定理者》か《使者》のキャラなら、あなたはこのカードを前列のキャラのいない枠に動かしてよい。\n\"夏の実技試験の結果には納得しておりませんの！\"",
+   "traits": [
+    "定理者",
+    "使者"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/h/hll_we29/hll_we29_01.png",
+   "variant": ""
+  },
+  {
+   "num": "HLL/WE29-01HR",
+   "name": "最後の対決 弥生",
+   "type": "Character",
+   "rarity": "HR",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたのカード名に「弥生」か「万博」か「華凛」か「華恋」を含むキャラが2枚以上なら、このカードのパワーを＋1000。\n【自】 相手のアタックフェイズの始めに、あなたは自分の山札の上から1枚を、控え室に置いてよい。そのカードが《定理者》か《使者》のキャラなら、あなたはこのカードを前列のキャラのいない枠に動かしてよい。\n\"-\"",
+   "traits": [
+    "定理者",
+    "使者"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/h/hll_we29/hll_we29_01hr.png",
+   "variant": ""
+  },
+  {
+   "num": "HLL/WE29-01SP",
+   "name": "最後の対決 弥生",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたのカード名に「弥生」か「万博」か「華凛」か「華恋」を含むキャラが2枚以上なら、このカードのパワーを＋1000。\n【自】 相手のアタックフェイズの始めに、あなたは自分の山札の上から1枚を、控え室に置いてよい。そのカードが《定理者》か《使者》のキャラなら、あなたはこのカードを前列のキャラのいない枠に動かしてよい。\n\"-\"",
+   "traits": [
+    "定理者",
+    "使者"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/h/hll_we29/hll_we29_01sp.png",
+   "variant": ""
+  },
+  {
+   "num": "HLL/WE29-02",
+   "name": "力の証明 ニーナ",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "9000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの、《定理者》か《使者》のキャラが2枚以上なら、このカードのパワーを＋2000。\n【自】【CXコンボ】［(1)］ このカードがアタックした時、クライマックス置場に「大事な友達」があるなら、あなたはコストを払ってよい。そうしたら、次の相手のターンの終わりまで、このカードのパワーを＋2500し、ソウルを＋1し、このカードは次の能力を得る。『【永】 このカードの正面のキャラのソウルを－1。』\n【自】 相手のドローフェイズの始めに、前列にこのカードがいるなら、あなたは自分の、《定理者》か《使者》のキャラを1枚選び、そのターン中、次の能力を与える。『【永】 このカードの正面のキャラのソウルを－1。』\n\"それでも、私に勝てると思わないで\"",
+   "traits": [
+    "定理者",
+    "使者"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/h/hll_we29/hll_we29_02.png",
+   "variant": ""
+  },
+  {
+   "num": "HLL/WE29-02HR",
+   "name": "力の証明 ニーナ",
+   "type": "Character",
+   "rarity": "HR",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "9000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの、《定理者》か《使者》のキャラが2枚以上なら、このカードのパワーを＋2000。\n【自】【CXコンボ】［(1)］ このカードがアタックした時、クライマックス置場に「大事な友達」があるなら、あなたはコストを払ってよい。そうしたら、次の相手のターンの終わりまで、このカードのパワーを＋2500し、ソウルを＋1し、このカードは次の能力を得る。『【永】 このカードの正面のキャラのソウルを－1。』\n【自】 相手のドローフェイズの始めに、前列にこのカードがいるなら、あなたは自分の、《定理者》か《使者》のキャラを1枚選び、そのターン中、次の能力を与える。『【永】 このカードの正面のキャラのソウルを－1。』\n\"-\"",
+   "traits": [
+    "定理者",
+    "使者"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/h/hll_we29/hll_we29_02hr.png",
+   "variant": ""
+  },
+  {
+   "num": "HLL/WE29-02SP",
+   "name": "力の証明 ニーナ",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "9000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの、《定理者》か《使者》のキャラが2枚以上なら、このカードのパワーを＋2000。\n【自】【CXコンボ】［(1)］ このカードがアタックした時、クライマックス置場に「大事な友達」があるなら、あなたはコストを払ってよい。そうしたら、次の相手のターンの終わりまで、このカードのパワーを＋2500し、ソウルを＋1し、このカードは次の能力を得る。『【永】 このカードの正面のキャラのソウルを－1。』\n【自】 相手のドローフェイズの始めに、前列にこのカードがいるなら、あなたは自分の、《定理者》か《使者》のキャラを1枚選び、そのターン中、次の能力を与える。『【永】 このカードの正面のキャラのソウルを－1。』\n\"-\"",
+   "traits": [
+    "定理者",
+    "使者"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/h/hll_we29/hll_we29_02sp.png",
+   "variant": ""
+  },
+  {
+   "num": "HLL/WE29-03",
+   "name": "学園祭へ向けて 華恋",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 この能力は1ターンにつき1回まで発動する。あなたが『助太刀』を使った時、あなたは自分のバトル中のキャラを1枚選び、そのターン中、パワーを＋1000。\n【自】 絆／「学園祭へ向けて 華凛」 ［手札を1枚控え室に置く］ （このカードがプレイされて舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「学園祭へ向けて 華凛」を1枚選び、手札に戻す）\n\"弥生「作業を進めてほしいですわ」\"",
+   "traits": [
+    "定理者",
+    "忍"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/h/hll_we29/hll_we29_03.png",
+   "variant": ""
+  },
+  {
+   "num": "HLL/WE29-04",
+   "name": "くつろぎの時間 ニーナ",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたのカード名に「リオン」か「ニーナ」を含むキャラすべてに、パワーを＋500。\n【自】 あなたのクライマックスフェイズの始めに、あなたは自分のカード名に「リオン」か「ニーナ」を含むキャラを1枚選び、そのターン中、パワーを＋500。\n\"あぁ、自由って……幸せ\"",
+   "traits": [
+    "定理者",
+    "本"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/h/hll_we29/hll_we29_04.png",
+   "variant": ""
+  },
+  {
+   "num": "HLL/WE29-05",
+   "name": "ニーナの新たな使者 ミカエル",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの、《定理者》か《使者》のキャラすべてに、パワーを＋500。\n【起】［このカードを【レスト】する］ あなたは自分のカード名に「ニーナ」を含むキャラを1枚選び、次の相手のターンの終わりまで、パワーを＋500。\n\"我の力、存分に使うがよい\"",
+   "traits": [
+    "使者"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/h/hll_we29/hll_we29_05.png",
+   "variant": ""
+  },
+  {
+   "num": "HLL/WE29-06",
+   "name": "緊急事態 弥生",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、そのターン中、このカードのパワーを＋Ｘ。Ｘはあなたの、《定理者》か《使者》のキャラの枚数×500に等しい。\n\"リオンさん！\"",
+   "traits": [
+    "定理者",
+    "令嬢"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/h/hll_we29/hll_we29_06.png",
+   "variant": ""
+  },
+  {
+   "num": "HLL/WE29-07",
+   "name": "乙女の恥じらい ニーナ",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の控え室の「力の証明 ニーナ」を2枚まで選び、山札の下に好きな順番で置く。\n【起】 合体 ［あなたの舞台の「ニーナの新たな使者 ミカエル」を1枚このカードの下にマーカーとして表向きに置く］ あなたは自分の山札を見て「力の証明 ニーナ」を1枚まで選び、このカードがいる枠に置き、このカードの下のマーカーすべてとこのカードをその「力の証明 ニーナ」の下にマーカーとして好きな順番で表向きに置き、その山札をシャッフルする。\n\"……うん、かわいい\"",
+   "traits": [
+    "定理者",
+    "本"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/h/hll_we29/hll_we29_07.png",
+   "variant": ""
+  },
+  {
+   "num": "HLL/WE29-08",
+   "name": "学園祭へ向けて 華凛",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】［(2) あなたの舞台のキャラを1枚控え室に置く］ あなたがこのカードの『助太刀』を使った時、あなたはコストを払ってよい。そうしたら、あなたは相手の、レベルが相手のレベルより高いキャラを1枚選び、控え室に置く。\n【起】【カウンター】 助太刀2500 レベル2 ［(1) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋2500）\n\"弥生「慌てず急いで確実に」\"",
+   "traits": [
+    "定理者",
+    "忍"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/h/hll_we29/hll_we29_08.png",
+   "variant": ""
+  },
+  {
+   "num": "HLL/WE29-09",
+   "name": "くつろぎの時間 弥生",
+   "type": "Character",
+   "rarity": "U",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの前列の中央の枠のキャラに、パワーを＋500。\n【自】【CXコンボ】［(1)］ あなたのクライマックス置場に「定理者のヒナたち」が置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の、《定理者》か《使者》のキャラを1枚選び、手札に戻す。\n【自】［(1)］ あなたのキャラのトリガーチェックでクライマックスがでた時、そのカードのトリガーアイコンが[[soul.gif]][[soul.gif]]なら、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室のキャラを1枚選び、手札に戻し、自分の手札を1枚選び、控え室に置く。\n\"万博さんはあーじゃないと\"",
+   "traits": [
+    "定理者",
+    "令嬢"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/h/hll_we29/hll_we29_09.png",
+   "variant": ""
+  },
+  {
+   "num": "HLL/WE29-10",
+   "name": "ALCA局長 ヴェロニカ",
+   "type": "Character",
+   "rarity": "U",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードがアタックした時、あなたは自分の、《定理者》か《使者》のキャラを1枚選び、そのターン中、レベルを＋1し、パワーを＋1000。\n【起】［このカードを【レスト】する］ あなたは自分の、《定理者》か《使者》のキャラを1枚選び、そのターン中、レベルを＋1し、パワーを＋1000。\n\"ずいぶん盛り上がっていますね\"",
+   "traits": [
+    "定理者"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/h/hll_we29/hll_we29_10.png",
+   "variant": ""
+  },
+  {
+   "num": "HLL/WE29-11",
+   "name": "見守る者 学園長",
+   "type": "Character",
+   "rarity": "U",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】【クロック】 アラーム このカードがクロックの1番上にあり、あなたのレベルが2以上なら、あなたが『合体』を使った時、あなたは自分の山札を見て《定理者》か《使者》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"また新しい花がヒナたちを迎えるさ\"",
+   "traits": [
+    "使者",
+    "先生"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/h/hll_we29/hll_we29_11.png",
+   "variant": ""
+  },
+  {
+   "num": "HLL/WE29-12",
+   "name": "大晦日の贅沢 梨乃",
+   "type": "Character",
+   "rarity": "U",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのターン中、他のあなたの、《定理者》か《使者》のキャラすべてに、パワーを＋1000。\n【自】 あなたが『合体』を使った時、あなたは1枚引いてよい。そうしたら、あなたは自分の手札を1枚選び、控え室に置く。\n\"最高級の茹でタラバを取り寄せておいたんです～\"",
+   "traits": [
+    "定理者",
+    "先生"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/h/hll_we29/hll_we29_12.png",
+   "variant": ""
+  },
+  {
+   "num": "HLL/WE29-13",
+   "name": "美味しいもの 華凛",
+   "type": "Character",
+   "rarity": "U",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "6500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの、《定理者》か《使者》のキャラすべてに、パワーを＋500。\n【自】［(1) このカードを【レスト】する］ 他のあなたのマーカーを持つバトル中のキャラが【リバース】した時、後列にこのカードがいるなら、あなたはコストを払ってよい。そうしたら、あなたはそのキャラを【レスト】する。\n\"合格です！もう二本ください\"",
+   "traits": [
+    "定理者",
+    "忍"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/h/hll_we29/hll_we29_13.png",
+   "variant": ""
+  },
+  {
+   "num": "HLL/WE29-14",
+   "name": "二人だけの時間 ニーナ",
+   "type": "Character",
+   "rarity": "U",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】［(1)］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「二人だけの時間 リオン」を1枚選び、舞台の好きな枠に置く。\n【自】【CXコンボ】 あなたのクライマックス置場に「花マルの笑顔」が置かれた時、前列にこのカードがいるなら、あなたのキャラすべてに、そのターン中、パワーを＋3000。\n\"きっとよ…\"",
+   "traits": [
+    "定理者",
+    "本"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/h/hll_we29/hll_we29_14.png",
+   "variant": ""
+  },
+  {
+   "num": "HLL/WE29-15",
+   "name": "同じ素質 静葉",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［手札のクライマックスを1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見て『合体』を持つキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"私はお前と同じ素質を持っている\"",
+   "traits": [
+    "定理者",
+    "先生"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/h/hll_we29/hll_we29_15.png",
+   "variant": ""
+  },
+  {
+   "num": "HLL/WE29-16",
+   "name": "弥生の新たな使者 凪",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋500。\n【自】［(1) このカードをバトル中のキャラの下にマーカーとして表向きに置く］ 他のあなたのバトル中のカード名に「弥生」を含むキャラが【リバース】した時、後列にこのカードがいるなら、あなたはコストを払ってよい。そうしたら、あなたはそのキャラを【レスト】する。\n\"俺の力、使いこなせるかな！？\"",
+   "traits": [
+    "使者"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/h/hll_we29/hll_we29_16.png",
+   "variant": ""
+  },
+  {
+   "num": "HLL/WE29-17",
+   "name": "学園祭へ向けて 弥生",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、そのターン中、このカードのパワーを＋1500。\n【自】 このカードがアタックした時、あなたは他の自分の、《定理者》か《使者》のキャラを1枚選び、そのターン中、パワーを＋1000。\n\"みなさん、アイデアはありませんか？\"",
+   "traits": [
+    "定理者",
+    "令嬢"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/h/hll_we29/hll_we29_17.png",
+   "variant": ""
+  },
+  {
+   "num": "HLL/WE29-18",
+   "name": "降参～ 華凛",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から1枚を公開する。そのカードが《定理者》か《使者》のキャラならこのカードの下にマーカーとして表向きに置いてよい。（そうしないなら元に戻す）\n【自】［このカードの下のマーカーを1枚控え室に置く］ あなたのクライマックスフェイズの始めに、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「降参～ 華凛」を1枚選び、舞台の好きな枠に置く。\n\"主様はともかく\"",
+   "traits": [
+    "定理者",
+    "使者"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/h/hll_we29/hll_we29_18.png",
+   "variant": ""
+  },
+  {
+   "num": "HLL/WE29-19",
+   "name": "予想外のバレンタイン 弥生",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの、《定理者》か《使者》のキャラが2枚以上なら、このカードは次の能力を得る。『【自】 このカードが【リバース】した時、このカードのバトル相手のレベルが1以下なら、あなたはそのキャラを【リバース】してよい。』\n【自】［(1)］ バトル中のこのカードが【リバース】した時、あなたは自分の山札の上から2枚を、控え室に置く。それらのカードにカード名に「弥生」か「万博」を含むキャラか「万博の発明品」があるなら、あなたはコストを払ってよい。そうしたら、このカードを手札に戻す。\n\"万博「やっちゃんを見てると、胸がドキドキしてくるの…」\"",
+   "traits": [
+    "定理者",
+    "令嬢"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/h/hll_we29/hll_we29_19.png",
+   "variant": ""
+  },
+  {
+   "num": "HLL/WE29-20",
+   "name": "支える者 副学園長",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見て「見守る者 学園長」を1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"入学式はどうなるのかしら\"",
+   "traits": [
+    "定理者",
+    "先生"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/h/hll_we29/hll_we29_20.png",
+   "variant": ""
+  },
+  {
+   "num": "HLL/WE29-21",
+   "name": "降参～ 華恋",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの前列の「降参～ 華凛」1枚につき、このカードのパワーを＋2000。\n【永】 このカードの下にマーカーがあるなら、他のあなたの「降参～ 華凛」すべてに、パワーを＋2000。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から1枚を公開する。そのカードが《定理者》か《使者》のキャラならこのカードの下にマーカーとして表向きに置いてよい。（そうしないなら元に戻す）\n\"まーちゃんにまで負けるなんてー\"",
+   "traits": [
+    "定理者",
+    "使者"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/h/hll_we29/hll_we29_21.png",
+   "variant": ""
+  },
+  {
+   "num": "HLL/WE29-22",
+   "name": "いつもの帰り道 ニーナ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのキャラすべてが《定理者》か《使者》なら、このカードのパワーを＋1000。\n\"失礼…リオン、さん\"",
+   "traits": [
+    "定理者",
+    "本"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/h/hll_we29/hll_we29_22.png",
+   "variant": ""
+  },
+  {
+   "num": "HLL/WE29-23",
+   "name": "美味しいもの 華恋",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "2",
+   "cost": "2",
+   "power": "6000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの、マーカーを持つキャラがいるなら、このカードのパワーを＋4000し、このカードは『【自】 アンコール ［手札の、《定理者》か《使者》のキャラを1枚控え室に置く］』を得る。\n\"おいしー！でも、何のお肉なんだろ\"",
+   "traits": [
+    "定理者",
+    "忍"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/h/hll_we29/hll_we29_23.png",
+   "variant": ""
+  },
+  {
+   "num": "HLL/WE29-24",
+   "name": "大事な友達",
+   "type": "Climax",
+   "rarity": "C",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[salvage.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[salvage.gif]]：このカードがトリガーした時、あなたは自分の控え室のキャラを1枚選び、手札に戻してよい）\n\"大事な友達がいるんだもの\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/h/hll_we29/hll_we29_24.png",
+   "variant": ""
+  },
+  {
+   "num": "HLL/WE29-25",
+   "name": "花マルの笑顔",
+   "type": "Climax",
+   "rarity": "C",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【自】 このカードが手札からクライマックス置場に置かれた時、あなたは自分の控え室の赤のカードを1枚まで選び、ストック置場に置き、自分のキャラすべてに、そのターン中、ソウルを＋1。\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/h/hll_we29/hll_we29_25.png",
+   "variant": ""
+  },
+  {
+   "num": "HLL/WE29-26",
+   "name": "模擬戦開始 リオン",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのターン中、他のあなたの、《定理者》か《使者》のキャラがいるなら、このカードのパワーを＋3000。\n【自】［(1)］ このカードがアタックした時、あなたはコストを払ってよい。そうしたら、そのアタック中、あなたはトリガーステップにトリガーチェックを2回行う。\n\"一生懸命戦うだお！\"",
+   "traits": [
+    "定理者",
+    "使者"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/h/hll_we29/hll_we29_26.png",
+   "variant": ""
+  },
+  {
+   "num": "HLL/WE29-26HR",
+   "name": "模擬戦開始 リオン",
+   "type": "Character",
+   "rarity": "HR",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのターン中、他のあなたの、《定理者》か《使者》のキャラがいるなら、このカードのパワーを＋3000。\n【自】［(1)］ このカードがアタックした時、あなたはコストを払ってよい。そうしたら、そのアタック中、あなたはトリガーステップにトリガーチェックを2回行う。\n\"-\"",
+   "traits": [
+    "定理者",
+    "使者"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/h/hll_we29/hll_we29_26hr.png",
+   "variant": ""
+  },
+  {
+   "num": "HLL/WE29-26SP",
+   "name": "模擬戦開始 リオン",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのターン中、他のあなたの、《定理者》か《使者》のキャラがいるなら、このカードのパワーを＋3000。\n【自】［(1)］ このカードがアタックした時、あなたはコストを払ってよい。そうしたら、そのアタック中、あなたはトリガーステップにトリガーチェックを2回行う。\n\"-\"",
+   "traits": [
+    "定理者",
+    "使者"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/h/hll_we29/hll_we29_26sp.png",
+   "variant": ""
+  },
+  {
+   "num": "HLL/WE29-27",
+   "name": "癒しの光 リオン",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "blue",
+   "level": "3",
+   "cost": "2",
+   "power": "8000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 応援 このカードの前のあなたの、《定理者》か《使者》のキャラすべてに、パワーを＋2000し、次の能力を与える。『【自】 このカードのバトル相手が【リバース】した時、あなたはそのキャラを思い出にしてよい。』\n【自】 このカードが手札から舞台に置かれた時か「誓いのとき リオン」の【起】の効果で舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n\"ニーナちゃん…痛くない？\"",
+   "traits": [
+    "定理者",
+    "使者"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/h/hll_we29/hll_we29_27.png",
+   "variant": ""
+  },
+  {
+   "num": "HLL/WE29-27HR",
+   "name": "癒しの光 リオン",
+   "type": "Character",
+   "rarity": "HR",
+   "color": "blue",
+   "level": "3",
+   "cost": "2",
+   "power": "8000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 応援 このカードの前のあなたの、《定理者》か《使者》のキャラすべてに、パワーを＋2000し、次の能力を与える。『【自】 このカードのバトル相手が【リバース】した時、あなたはそのキャラを思い出にしてよい。』\n【自】 このカードが手札から舞台に置かれた時か「誓いのとき リオン」の【起】の効果で舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n\"-\"",
+   "traits": [
+    "定理者",
+    "使者"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/h/hll_we29/hll_we29_27hr.png",
+   "variant": ""
+  },
+  {
+   "num": "HLL/WE29-27SP",
+   "name": "癒しの光 リオン",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "blue",
+   "level": "3",
+   "cost": "2",
+   "power": "8000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 応援 このカードの前のあなたの、《定理者》か《使者》のキャラすべてに、パワーを＋2000し、次の能力を与える。『【自】 このカードのバトル相手が【リバース】した時、あなたはそのキャラを思い出にしてよい。』\n【自】 このカードが手札から舞台に置かれた時か「誓いのとき リオン」の【起】の効果で舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n\"-\"",
+   "traits": [
+    "定理者",
+    "使者"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/h/hll_we29/hll_we29_27sp.png",
+   "variant": ""
+  },
+  {
+   "num": "HLL/WE29-28",
+   "name": "おもてなし 夕子",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "blue",
+   "level": "3",
+   "cost": "2",
+   "power": "9500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 このカードの下のマーカー1枚につき、このカードのパワーを＋1000。\n【自】 このカードがアタックした時、あなたは自分の控え室のキャラを1枚選び、このカードの下にマーカーとして表向きに置いてよい。\n【自】【CXコンボ】［手札を1枚控え室に置く］ このカードがアタックした時、クライマックス置場に「新たな生活へ」があるなら、あなたはコストを払ってよい。そうしたら、あなたは相手の山札を上からＸ枚まで見てカードをＸ枚まで選び、控え室に置き、残りのカードを山札に戻し、その山札をシャッフルする。Ｘはこのカードの下のマーカーの枚数が3枚以下なら3、4枚以上なら4に等しい。\n\"いらっしゃい\"",
+   "traits": [
+    "定理者",
+    "使者"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/h/hll_we29/hll_we29_28.png",
+   "variant": ""
+  },
+  {
+   "num": "HLL/WE29-28HR",
+   "name": "おもてなし 夕子",
+   "type": "Character",
+   "rarity": "HR",
+   "color": "blue",
+   "level": "3",
+   "cost": "2",
+   "power": "9500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 このカードの下のマーカー1枚につき、このカードのパワーを＋1000。\n【自】 このカードがアタックした時、あなたは自分の控え室のキャラを1枚選び、このカードの下にマーカーとして表向きに置いてよい。\n【自】【CXコンボ】［手札を1枚控え室に置く］ このカードがアタックした時、クライマックス置場に「新たな生活へ」があるなら、あなたはコストを払ってよい。そうしたら、あなたは相手の山札を上からＸ枚まで見てカードをＸ枚まで選び、控え室に置き、残りのカードを山札に戻し、その山札をシャッフルする。Ｘはこのカードの下のマーカーの枚数が3枚以下なら3、4枚以上なら4に等しい。\n\"-\"",
+   "traits": [
+    "定理者",
+    "使者"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/h/hll_we29/hll_we29_28hr.png",
+   "variant": ""
+  },
+  {
+   "num": "HLL/WE29-28SP",
+   "name": "おもてなし 夕子",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "blue",
+   "level": "3",
+   "cost": "2",
+   "power": "9500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 このカードの下のマーカー1枚につき、このカードのパワーを＋1000。\n【自】 このカードがアタックした時、あなたは自分の控え室のキャラを1枚選び、このカードの下にマーカーとして表向きに置いてよい。\n【自】【CXコンボ】［手札を1枚控え室に置く］ このカードがアタックした時、クライマックス置場に「新たな生活へ」があるなら、あなたはコストを払ってよい。そうしたら、あなたは相手の山札を上からＸ枚まで見てカードをＸ枚まで選び、控え室に置き、残りのカードを山札に戻し、その山札をシャッフルする。Ｘはこのカードの下のマーカーの枚数が3枚以下なら3、4枚以上なら4に等しい。\n\"-\"",
+   "traits": [
+    "定理者",
+    "使者"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/h/hll_we29/hll_we29_28sp.png",
+   "variant": ""
+  },
+  {
+   "num": "HLL/WE29-29",
+   "name": "全弾発射！ 万博",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "blue",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時か「お祭り 万博」の【起】の効果で舞台に置かれた時、あなたは自分の山札を上から3枚まで見て、カードを1枚まで選び、手札に加え、残りのカードを控え室に置く。\n【自】［(3) 手札の、《定理者》か《使者》のキャラか「万博の発明品」を1枚控え室に置く］ このカードがアタックした時、あなたはコストを払ってよい。そうしたら、相手にＸダメージを与える。Ｘはあなたの控え室の「万博の発明品」の枚数に等しい。（ダメージキャンセルは発生する）\n\"だって、一番強いのはニーナっすから！\"",
+   "traits": [
+    "定理者",
+    "使者"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/h/hll_we29/hll_we29_29.png",
+   "variant": ""
+  },
+  {
+   "num": "HLL/WE29-29HR",
+   "name": "全弾発射！ 万博",
+   "type": "Character",
+   "rarity": "HR",
+   "color": "blue",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時か「お祭り 万博」の【起】の効果で舞台に置かれた時、あなたは自分の山札を上から3枚まで見て、カードを1枚まで選び、手札に加え、残りのカードを控え室に置く。\n【自】［(3) 手札の、《定理者》か《使者》のキャラか「万博の発明品」を1枚控え室に置く］ このカードがアタックした時、あなたはコストを払ってよい。そうしたら、相手にＸダメージを与える。Ｘはあなたの控え室の「万博の発明品」の枚数に等しい。（ダメージキャンセルは発生する）\n\"-\"",
+   "traits": [
+    "定理者",
+    "使者"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/h/hll_we29/hll_we29_29hr.png",
+   "variant": ""
+  },
+  {
+   "num": "HLL/WE29-29SP",
+   "name": "全弾発射！ 万博",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "blue",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時か「お祭り 万博」の【起】の効果で舞台に置かれた時、あなたは自分の山札を上から3枚まで見て、カードを1枚まで選び、手札に加え、残りのカードを控え室に置く。\n【自】［(3) 手札の、《定理者》か《使者》のキャラか「万博の発明品」を1枚控え室に置く］ このカードがアタックした時、あなたはコストを払ってよい。そうしたら、相手にＸダメージを与える。Ｘはあなたの控え室の「万博の発明品」の枚数に等しい。（ダメージキャンセルは発生する）\n\"-\"",
+   "traits": [
+    "定理者",
+    "使者"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/h/hll_we29/hll_we29_29sp.png",
+   "variant": ""
+  },
+  {
+   "num": "HLL/WE29-30",
+   "name": "楽しい毎日 葵",
+   "type": "Character",
+   "rarity": "R",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのターン中、他のあなたの前列の中央の枠の、《定理者》か《使者》のキャラに、パワーを＋1000。\n【起】 集中 ［(1) このカードを【レスト】する］ あなたは自分の山札の上から4枚をめくり、控え室に置く。それらのカードのクライマックス1枚につき、次の行動を行う。『あなたは2枚まで引き、自分の手札を1枚選び、控え室に置く。』\n\"大革命って具体的に何なんですか？\"",
+   "traits": [
+    "定理者",
+    "生徒会"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/h/hll_we29/hll_we29_30.png",
+   "variant": ""
+  },
+  {
+   "num": "HLL/WE29-31",
+   "name": "くつろぎの時間 リオン",
+   "type": "Character",
+   "rarity": "R",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの前列の中央の枠のキャラに、パワーを＋500。\n【起】 集中 ［(1) このカードを【レスト】する］ あなたは自分の山札の上から4枚をめくり、控え室に置く。それらのカードのクライマックス1枚につき、あなたは自分の山札を見てカード名に「リオン」か「ニーナ」を含むキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"誰だったんだろ～あの人～\"",
+   "traits": [
+    "定理者",
+    "王族"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/h/hll_we29/hll_we29_31.png",
+   "variant": ""
+  },
+  {
+   "num": "HLL/WE29-32",
+   "name": "誓いのとき ベル",
+   "type": "Character",
+   "rarity": "R",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの、《定理者》か《使者》のキャラすべてに、パワーを＋500。\n【起】［(2) このカードを【レスト】する］ あなたは自分のクロックを1枚選び、手札に戻し、自分の山札の上から1枚を、クロック置場に置く。\n\"このロジックを捧げることを誓います\"",
+   "traits": [
+    "使者"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/h/hll_we29/hll_we29_32.png",
+   "variant": ""
+  },
+  {
+   "num": "HLL/WE29-33",
+   "name": "大物監督 万博",
+   "type": "Character",
+   "rarity": "R",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのストックが2枚以下なら、このカードのパワーを＋1500。\n\"カーットッ！\"",
+   "traits": [
+    "定理者",
+    "科学"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/h/hll_we29/hll_we29_33.png",
+   "variant": ""
+  },
+  {
+   "num": "HLL/WE29-34",
+   "name": "お祭り 万博",
+   "type": "Character",
+   "rarity": "R",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の控え室の「全弾発射！ 万博」を2枚まで選び、山札の下に好きな順番で置く。\n【起】 合体 ［あなたの舞台の「万博の新たな使者 ドレッド」を1枚このカードの下にマーカーとして表向きに置く］ あなたは自分の山札を見て「全弾発射！ 万博」を1枚まで選び、このカードがいる枠に置き、このカードの下のマーカーすべてとこのカードをその「全弾発射！ 万博」の下にマーカーとして好きな順番で表向きに置き、その山札をシャッフルする。\n\"今年はだれが優勝するっすかねー\"",
+   "traits": [
+    "定理者",
+    "科学"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/h/hll_we29/hll_we29_34.png",
+   "variant": ""
+  },
+  {
+   "num": "HLL/WE29-35",
+   "name": "卒業式 夕子",
+   "type": "Character",
+   "rarity": "R",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の控え室の「おもてなし 夕子」を2枚まで選び、山札の下に好きな順番で置く。\n【起】 合体 ［あなたの舞台の「夕子の新たな使者 ステュクス」を1枚このカードの下にマーカーとして表向きに置く］ あなたは自分の山札を見て「おもてなし 夕子」を1枚まで選び、このカードがいる枠に置き、このカードの下のマーカーすべてとこのカードをその「おもてなし 夕子」の下にマーカーとして好きな順番で表向きに置き、その山札をシャッフルする。\n\"みんな、ありがとう\"",
+   "traits": [
+    "定理者",
+    "生徒会"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/h/hll_we29/hll_we29_35.png",
+   "variant": ""
+  },
+  {
+   "num": "HLL/WE29-36",
+   "name": "楽しい毎日 アシュリー",
+   "type": "Character",
+   "rarity": "U",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの、《生徒会》かカード名に「夕子」を含むキャラがいないなら、このカードはあなたのスタンドフェイズに【スタンド】しない。\n【永】 このカードはサイドアタックできない。\n\"卒業おめでとうですわ\"",
+   "traits": [
+    "定理者",
+    "生徒会"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/h/hll_we29/hll_we29_36.png",
+   "variant": ""
+  },
+  {
+   "num": "HLL/WE29-37",
+   "name": "くつろぎの時間 夕子",
+   "type": "Character",
+   "rarity": "U",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの、《定理者》か《使者》のキャラが2枚以上なら、このカードのパワーを＋1000。\n【自】【CXコンボ】 このカードのバトル相手が【リバース】した時、あなたのクライマックス置場に「定理者のヒナたち」があるなら、あなたは自分の山札を見て《定理者》か《使者》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"とりさんが遊びに来てくれるなんて嬉しいわ～\"",
+   "traits": [
+    "定理者",
+    "生徒会"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/h/hll_we29/hll_we29_37.png",
+   "variant": ""
+  },
+  {
+   "num": "HLL/WE29-38",
+   "name": "誓いのとき リオン",
+   "type": "Character",
+   "rarity": "U",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の控え室の「癒しの光 リオン」を2枚まで選び、山札の下に好きな順番で置く。\n【起】 合体 ［あなたの舞台の「誓いのとき ベル」を1枚このカードの下にマーカーとして表向きに置く］ あなたは自分の山札を見て「癒しの光 リオン」を1枚まで選び、このカードがいる枠に置き、このカードの下のマーカーすべてとこのカードをその「癒しの光 リオン」の下にマーカーとして好きな順番で表向きに置き、その山札をシャッフルする。\n\"ベル「今のリオンならきっとできるわ」\"",
+   "traits": [
+    "定理者",
+    "使者"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/h/hll_we29/hll_we29_38.png",
+   "variant": ""
+  },
+  {
+   "num": "HLL/WE29-39",
+   "name": "二人だけの時間 リオン",
+   "type": "Character",
+   "rarity": "U",
+   "color": "blue",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時か「二人だけの時間 ニーナ」の【自】の効果で舞台に置かれた時、あなたは2枚まで引き、自分の手札を1枚選び、控え室に置く。\n【自】【CXコンボ】［(1)］ このカードのバトル相手が【リバース】した時、あなたのクライマックス置場に「花マルの笑顔」があるなら、あなたはコストを払ってよい。そうしたら、相手に2ダメージを与える。（ダメージキャンセルは発生する）\n\"ニーナちゃんと一緒に年が越せるなんて\"",
+   "traits": [
+    "定理者",
+    "王族"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/h/hll_we29/hll_we29_39.png",
+   "variant": ""
+  },
+  {
+   "num": "HLL/WE29-40",
+   "name": "夕子の新たな使者 ステュクス",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの、《定理者》か《使者》のキャラすべてに、パワーを＋500。\n【自】 他のあなたのカード名に「夕子」を含むキャラかこのカードが手札から舞台に置かれた時、あなたは自分の山札を上から1枚見てよい。（見たカードは元に戻す）\n【起】［このカードを【レスト】する］ あなたは自分のキャラを1枚選び、そのターン中、パワーを＋500。\n\"-\"",
+   "traits": [
+    "使者"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/h/hll_we29/hll_we29_40.png",
+   "variant": ""
+  },
+  {
+   "num": "HLL/WE29-41",
+   "name": "リオンの新たな使者 ワッフル",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［このカードをカード名に「リオン」を含むキャラの下にマーカーとして表向きに置く］ 他のあなたのカード名に「リオン」を含むキャラがフロントアタックされた時、あなたはコストを払ってよい。そうしたら、あなたは自分のバトル中のキャラを1枚選び、そのターン中、パワーを＋2000。\n\"がんばるよぉ、リオンちゃん！\"",
+   "traits": [
+    "使者"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/h/hll_we29/hll_we29_41.png",
+   "variant": ""
+  },
+  {
+   "num": "HLL/WE29-42",
+   "name": "万博の新たな使者 ドレッド",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの、《定理者》か《使者》のキャラすべてに、パワーを＋500。\n【起】［(2) このカードを【レスト】する］ あなたは自分の山札を見てカード名に「万博」を含むキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"いいだろう、存分にやれ！\"",
+   "traits": [
+    "使者"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/h/hll_we29/hll_we29_42.png",
+   "variant": ""
+  },
+  {
+   "num": "HLL/WE29-43",
+   "name": "“ミスピラリ学園”夕子",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［手札のクライマックスを1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の、《定理者》か《使者》のキャラを1枚選び、手札に戻す。\n\"瑞希「エントリーナンバー1。森ヶ谷夕子！」\"",
+   "traits": [
+    "定理者",
+    "生徒会"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/h/hll_we29/hll_we29_43.png",
+   "variant": ""
+  },
+  {
+   "num": "HLL/WE29-44",
+   "name": "矢の効果 万博",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1) 手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見てカード名に「弥生」か「万博」を含むキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"ね？ドキドキしてるでしょ？\"",
+   "traits": [
+    "定理者",
+    "科学"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/h/hll_we29/hll_we29_44.png",
+   "variant": ""
+  },
+  {
+   "num": "HLL/WE29-45",
+   "name": "くつろぎの時間 万博",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの、《定理者》か《使者》のキャラが2枚以上なら、このカードのパワーを＋1000。\n【自】【CXコンボ】［(1)］ あなたのクライマックス置場に「定理者のヒナたち」が置かれた時、前列にこのカードがいるなら、あなたはコストを払ってよい。そうしたら、あなたのキャラすべてに、そのターン中、パワーを＋2000。\n\"んー……好奇心？\"",
+   "traits": [
+    "定理者",
+    "科学"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/h/hll_we29/hll_we29_45.png",
+   "variant": ""
+  },
+  {
+   "num": "HLL/WE29-46",
+   "name": "適格なアドバイス 瑞希",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "1",
+   "cost": "1",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 応援 このカードの前のあなたの、《定理者》か《使者》のキャラすべてに、パワーを＋Ｘ。Ｘはそのキャラのレベル×500に等しい。\n【自】 あなたが『合体』を使った時、あなたは1枚引いてよい。そうしたら、あなたは自分の手札を1枚選び、控え室に置く。\n【起】［このカードを【レスト】する］ あなたは自分のカード名に「夕子」を含むキャラを1枚選び、そのキャラの下のマーカーが2枚以下なら、自分の山札を上から1枚見て、そのキャラの下にマーカーとして表向きに置く。\n\"やるべきこと？やりたいことだろ\"",
+   "traits": [
+    "定理者",
+    "生徒会"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/h/hll_we29/hll_we29_46.png",
+   "variant": ""
+  },
+  {
+   "num": "HLL/WE29-47",
+   "name": "手作りバレンタイン",
+   "type": "Event",
+   "rarity": "U",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "このカードは、あなたのカード名に「夕子」を含むキャラがいないなら、手札からプレイできない。\nあなたは自分の控え室の、《定理者》か《使者》のキャラを1枚まで選び、手札に戻し、自分のキャラすべてに、そのターン中、パワーを＋2000。\n\"リオン「わぁ～いっぱい！」\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/h/hll_we29/hll_we29_47.png",
+   "variant": ""
+  },
+  {
+   "num": "HLL/WE29-48",
+   "name": "成長の過程",
+   "type": "Event",
+   "rarity": "U",
+   "color": "blue",
+   "level": "1",
+   "cost": "1",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "あなたは自分の山札を見てカード名に「リオン」を含むキャラを1枚までとカード名に「ベル」を含むキャラを1枚まで選んで相手に見せ、手札に加え、自分の手札を1枚選び、控え室に置き、その山札をシャッフルする。\n\"リオンの父、母「!?」\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/h/hll_we29/hll_we29_48.png",
+   "variant": ""
+  },
+  {
+   "num": "HLL/WE29-49",
+   "name": "新たな生活へ",
+   "type": "Climax",
+   "rarity": "C",
+   "color": "blue",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[gate.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[gate.gif]]：このカードがトリガーした時、あなたは自分の控え室のクライマックスを1枚選び、手札に戻してよい）\n\"弥生「夕子先輩、ご卒業おめでとうですわ！」\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/h/hll_we29/hll_we29_49.png",
+   "variant": ""
+  },
+  {
+   "num": "HLL/WE29-50",
+   "name": "定理者のヒナたち",
+   "type": "Climax",
+   "rarity": "C",
+   "color": "blue",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【自】 このカードが手札からクライマックス置場に置かれた時、あなたは自分の控え室の青のカードを1枚まで選び、ストック置場に置き、自分のキャラすべてに、そのターン中、ソウルを＋1。\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/h/hll_we29/hll_we29_50.png",
+   "variant": ""
+  }
+ ]
+}

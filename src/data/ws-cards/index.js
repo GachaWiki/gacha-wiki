@@ -858,4 +858,3 @@ export const WS_CARD_SETS = [
 export function getCardSetCount() {
   return WS_CARD_SETS.reduce((n, s) => n + s.count, 0);
 }
-

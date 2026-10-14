@@ -1,0 +1,504 @@
+{
+ "id": "jp-mti",
+ "name": "[TD+]無職転生 ～異世界行ったら本気だす～",
+ "expansion": 345,
+ "lang": "jp",
+ "release": null,
+ "shopItem": null,
+ "box": null,
+ "cards": [
+  {
+   "num": "MTI/S83-T01",
+   "name": "“良妻賢母”ゼニス",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの、「“新たな生の始まり”ルーデウス」と「“剣の鍛錬”パウロ」すべてに、パワーを＋1000。\n【自】 絆／「“新たな生の始まり”ルーデウス」「“剣の鍛錬”パウロ」 ［手札を1枚控え室に置く］ （このカードがプレイされて舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「“新たな生の始まり”ルーデウス」か「“剣の鍛錬”パウロ」を1枚選び、手札に戻す）\n\"まずは私達の紹介もさせて。ね？\"",
+   "traits": [
+    "六面世界",
+    "魔術"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mti_s83/mti_s83_t01.png",
+   "variant": ""
+  },
+  {
+   "num": "MTI/S83-T02",
+   "name": "“卒業試験”ルーデウス",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［手札を1枚控え室に置く］ このカードがアタックした時、あなたはコストを払ってよい。そうしたら、あなたは他の自分の《六面世界》のキャラを1枚選び、手札に戻す。\n【自】 このカードが【リバース】した時、このカードのバトル相手のレベルが0以下なら、あなたはそのキャラをストック置場に置いてよい。そうしたら、あなたは相手のストックの下から1枚を、控え室に置く。\n\"-\"",
+   "traits": [
+    "六面世界",
+    "魔術"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mti_s83/mti_s83_t02.png",
+   "variant": ""
+  },
+  {
+   "num": "MTI/S83-T02R",
+   "name": "“卒業試験”ルーデウス",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［手札を1枚控え室に置く］ このカードがアタックした時、あなたはコストを払ってよい。そうしたら、あなたは他の自分の《六面世界》のキャラを1枚選び、手札に戻す。\n【自】 このカードが【リバース】した時、このカードのバトル相手のレベルが0以下なら、あなたはそのキャラをストック置場に置いてよい。そうしたら、あなたは相手のストックの下から1枚を、控え室に置く。\n\"…―っ……へへっ\"",
+   "traits": [
+    "六面世界",
+    "魔術"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mti_s83/mti_s83_t02r.png",
+   "variant": ""
+  },
+  {
+   "num": "MTI/S83-T03",
+   "name": "パウロ・グレイラット",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 あなたのキャラのトリガーチェックでクライマックスがでた時、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋2000。\n【起】 集中 ［(1) このカードを【レスト】する］ あなたは自分の山札の上から4枚をめくり、控え室に置く。それらのカードのクライマックス1枚につき、あなたは1枚まで引く。\n\"あー、お前にその剣はまだ早いかもしれないが、男なら心の中に一本の剣を持っておかねばならん\"",
+   "traits": [
+    "六面世界",
+    "剣士"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mti_s83/mti_s83_t03.png",
+   "variant": ""
+  },
+  {
+   "num": "MTI/S83-T04",
+   "name": "ゼニス・グレイラット",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの《六面世界》のキャラすべてに、パワーを＋500。\n【起】［このカードを【レスト】する］ あなたは自分のレベル置場のカードと控え室の《六面世界》のキャラを1枚ずつ選び、入れ替える。\n\"やっぱりウチの子は天才だったんだわ！\"",
+   "traits": [
+    "六面世界",
+    "魔術"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mti_s83/mti_s83_t04.png",
+   "variant": ""
+  },
+  {
+   "num": "MTI/S83-T05",
+   "name": "リーリャ・グレイラット",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの《六面世界》のキャラが2枚以上なら、このカードのパワーを＋2000。\n【自】 アンコール ［手札のキャラを1枚控え室に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"ゼニス様、少々申し上げ難いのですが…その…ルーデウス様には…何か悪いものが…\"",
+   "traits": [
+    "六面世界",
+    "メイド"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mti_s83/mti_s83_t05.png",
+   "variant": ""
+  },
+  {
+   "num": "MTI/S83-T06",
+   "name": "“無職転生”ルーデウス",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】【CXコンボ】 経験 このカードがアタックした時、クライマックス置場に「師匠から弟子へ」があり、あなたのレベル置場のカードのレベルの合計が2以上なら、あなたは自分の山札を上から3枚まで見て、《六面世界》のキャラを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置き、そのターン中、このカードのパワーを＋1500。\n\"すーっ…はーっ\"",
+   "traits": [
+    "六面世界",
+    "魔術"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mti_s83/mti_s83_t06.png",
+   "variant": ""
+  },
+  {
+   "num": "MTI/S83-T06SP",
+   "name": "“無職転生”ルーデウス",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】【CXコンボ】 経験 このカードがアタックした時、クライマックス置場に「師匠から弟子へ」があり、あなたのレベル置場のカードのレベルの合計が2以上なら、あなたは自分の山札を上から3枚まで見て、《六面世界》のキャラを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置き、そのターン中、このカードのパワーを＋1500。\n\"-\"",
+   "traits": [
+    "六面世界",
+    "魔術"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mti_s83/mti_s83_t06sp.png",
+   "variant": ""
+  },
+  {
+   "num": "MTI/S83-T07",
+   "name": "“新たな生の始まり”ルーデウス",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "5500",
+   "soul": 1,
+   "trigger": "",
+   "text": "-\n\"…え？\"",
+   "traits": [
+    "六面世界",
+    "魔術"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mti_s83/mti_s83_t07.png",
+   "variant": ""
+  },
+  {
+   "num": "MTI/S83-T08",
+   "name": "“魔術の習得”ルーデウス",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "yellow",
+   "level": "1",
+   "cost": "1",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【起】【カウンター】 助太刀2500 レベル1 ［(1) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋2500）\n\"っへへ！やったー！飛んだー！\"",
+   "traits": [
+    "六面世界",
+    "魔術"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mti_s83/mti_s83_t08.png",
+   "variant": ""
+  },
+  {
+   "num": "MTI/S83-T09",
+   "name": "“剣の鍛錬”パウロ",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "7000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードがアタックした時、そのターン中、このカードのパワーを＋Ｘ。Ｘは他のあなたの《六面世界》のキャラの枚数×1000に等しい。\n【自】 このカードのバトル中、あなたの受けたダメージがキャンセルされた時、あなたはこのカードを手札に戻してよい。\n\"-\"",
+   "traits": [
+    "六面世界",
+    "剣士"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mti_s83/mti_s83_t09.png",
+   "variant": ""
+  },
+  {
+   "num": "MTI/S83-T10",
+   "name": "“詠唱”ルーデウス",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "yellow",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 経験 あなたのレベル置場のカードのレベルの合計が6以上なら、このカードのパワーを＋1000し、このカードは相手の効果に選ばれない。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札を上からＸ枚まで見て、カードを1枚まで選び、手札に加え、残りのカードを控え室に置く。Ｘはあなたの《六面世界》のキャラの枚数に等しい。\n\"汝の求める所に大いなる水の加護あらん…はッ！\"",
+   "traits": [
+    "六面世界",
+    "魔術"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mti_s83/mti_s83_t10.png",
+   "variant": ""
+  },
+  {
+   "num": "MTI/S83-T10S",
+   "name": "“詠唱”ルーデウス",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "yellow",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 経験 あなたのレベル置場のカードのレベルの合計が6以上なら、このカードのパワーを＋1000し、このカードは相手の効果に選ばれない。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札を上からＸ枚まで見て、カードを1枚まで選び、手札に加え、残りのカードを控え室に置く。Ｘはあなたの《六面世界》のキャラの枚数に等しい。\n\"ようやく詠唱の仕組みが解明できた。この魔術は『生成→サイズ設定→射出速度設定→発動』のプロセスを辿っているのだ\"",
+   "traits": [
+    "六面世界",
+    "魔術"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mti_s83/mti_s83_t10s.png",
+   "variant": ""
+  },
+  {
+   "num": "MTI/S83-T11",
+   "name": "前世のトラウマ",
+   "type": "Event",
+   "rarity": "TD",
+   "color": "yellow",
+   "level": "2",
+   "cost": "0",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "このカードは、あなたの《六面世界》のキャラがいないなら、手札からプレイできない。\n次の2つの効果のうちあなたが選んだ1つを行う。\n『あなたは自分の山札を見て《六面世界》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。』\n『あなたは自分の《六面世界》のキャラを1枚選び、次の相手のターンの終わりまで、パワーを＋3500。そのキャラは次のあなたのスタンドフェイズに【スタンド】しない。』\n\"外を見ればすぐにでも蘇る。あの日の記憶\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mti_s83/mti_s83_t11.png",
+   "variant": ""
+  },
+  {
+   "num": "MTI/S83-T12",
+   "name": "師匠から弟子へ",
+   "type": "Climax",
+   "rarity": "TD",
+   "color": "yellow",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[choice.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[choice.gif]]：このカードがトリガーした時、あなたは自分の控え室のトリガーアイコンに[[soul.gif]]があるキャラを1枚選び、手札に戻すかストック置場に置いてよい）\n\"おぉ…！\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mti_s83/mti_s83_t12.png",
+   "variant": ""
+  },
+  {
+   "num": "MTI/S83-T12S",
+   "name": "師匠から弟子へ",
+   "type": "Climax",
+   "rarity": "SR",
+   "color": "yellow",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[choice.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[choice.gif]]：このカードがトリガーした時、あなたは自分の控え室のトリガーアイコンに[[soul.gif]]があるキャラを1枚選び、手札に戻すかストック置場に置いてよい）\n\"キレイですね\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mti_s83/mti_s83_t12s.png",
+   "variant": ""
+  },
+  {
+   "num": "MTI/S83-T13",
+   "name": "流れる日々の中で",
+   "type": "Climax",
+   "rarity": "TD",
+   "color": "yellow",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【永】 あなたのキャラすべてに、ソウルを＋2。\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mti_s83/mti_s83_t13.png",
+   "variant": ""
+  },
+  {
+   "num": "MTI/S83-T14",
+   "name": "“ロリ、ジト目、不愛想”ロキシー",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の《六面世界》のキャラを1枚選び、そのターン中、パワーを＋1500。\n【自】［(1) 手札のクライマックスを1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室のクライマックスを1枚選び、手札に戻す。\n\"ロリ、ジト目、不愛想と３つ揃えばパーフェクトだ。ぜひ嫁に欲しい\"",
+   "traits": [
+    "六面世界",
+    "魔術"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mti_s83/mti_s83_t14.png",
+   "variant": ""
+  },
+  {
+   "num": "MTI/S83-T14SP",
+   "name": "“ロリ、ジト目、不愛想”ロキシー",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の《六面世界》のキャラを1枚選び、そのターン中、パワーを＋1500。\n【自】［(1) 手札のクライマックスを1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室のクライマックスを1枚選び、手札に戻す。\n\"-\"",
+   "traits": [
+    "六面世界",
+    "魔術"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mti_s83/mti_s83_t14sp.png",
+   "variant": ""
+  },
+  {
+   "num": "MTI/S83-T15",
+   "name": "“魔族”ロキシー",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1) 手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見て《六面世界》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"私の髪は光の加減でその緑色に見えなくもないんです\"",
+   "traits": [
+    "六面世界",
+    "魔術"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mti_s83/mti_s83_t15.png",
+   "variant": ""
+  },
+  {
+   "num": "MTI/S83-T16",
+   "name": "“鬱屈した思い”ロキシー",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 あなたのクライマックスフェイズの始めに、相手は自分のストックの上から2枚を、控え室に置いてよい。そうしたら、そのターン中、このカードはフロントアタックできない。\n\"ルディにもそのうちわかるようになりますよ\"",
+   "traits": [
+    "六面世界",
+    "魔術"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mti_s83/mti_s83_t16.png",
+   "variant": ""
+  },
+  {
+   "num": "MTI/S83-T17",
+   "name": "“歓迎会”ロキシー",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 相手のターン中、他のあなたの後列の《六面世界》のキャラ1枚につき、このカードのパワーを＋1000。\n【自】 このカードがアタックした時、あなたは他の自分の《六面世界》のキャラを1枚選び、そのターン中、パワーを＋Ｘ。Ｘは他のあなたの《六面世界》のキャラの枚数×500に等しい。\n\"わぁ…！\"",
+   "traits": [
+    "六面世界",
+    "魔術"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mti_s83/mti_s83_t17.png",
+   "variant": ""
+  },
+  {
+   "num": "MTI/S83-T17R",
+   "name": "“歓迎会”ロキシー",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 相手のターン中、他のあなたの後列の《六面世界》のキャラ1枚につき、このカードのパワーを＋1000。\n【自】 このカードがアタックした時、あなたは他の自分の《六面世界》のキャラを1枚選び、そのターン中、パワーを＋Ｘ。Ｘは他のあなたの《六面世界》のキャラの枚数×500に等しい。\n\"-\"",
+   "traits": [
+    "六面世界",
+    "魔術"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mti_s83/mti_s83_t17r.png",
+   "variant": ""
+  },
+  {
+   "num": "MTI/S83-T18",
+   "name": "“思わぬ失敗”ロキシー",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋Ｘ。Ｘはそのキャラのレベル×500に等しい。\n【起】［このカードを【レスト】する］ あなたは自分のレベル置場のカードと控え室の《六面世界》のキャラを1枚ずつ選び、入れ替える。\n\"-\"",
+   "traits": [
+    "六面世界",
+    "魔術"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mti_s83/mti_s83_t18.png",
+   "variant": ""
+  },
+  {
+   "num": "MTI/S83-T19",
+   "name": "“詠唱”ロキシー",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n【自】［(2) 手札を2枚控え室に置く］ このカードがアタックした時、あなたはコストを払ってよい。そうしたら、相手に2ダメージを与える。（ダメージキャンセルは発生する）\n\"汝の求める所に大いなる水の加護あらん、清涼なるせせらぎの流れを今ここに。『ウォーターボール』\"",
+   "traits": [
+    "六面世界",
+    "魔術"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mti_s83/mti_s83_t19.png",
+   "variant": ""
+  },
+  {
+   "num": "MTI/S83-T19R",
+   "name": "“詠唱”ロキシー",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "blue",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n【自】［(2) 手札を2枚控え室に置く］ このカードがアタックした時、あなたはコストを払ってよい。そうしたら、相手に2ダメージを与える。（ダメージキャンセルは発生する）\n\"神なる力は芳醇なる糧、力を失いしかの者に、再び立ち上がる力を与えん。『ヒーリング』\"",
+   "traits": [
+    "六面世界",
+    "魔術"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mti_s83/mti_s83_t19r.png",
+   "variant": ""
+  },
+  {
+   "num": "MTI/S83-T20",
+   "name": "小さな師匠",
+   "type": "Climax",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[draw.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[draw.gif]]：このカードがトリガーした時、あなたは1枚引いてよい）\n\"ロキシーはいい教師だ。授業は面白く楽しい。おかげで中級までの攻撃魔術はあっさりと使えるようになった\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mti_s83/mti_s83_t20.png",
+   "variant": ""
+  }
+ ]
+}

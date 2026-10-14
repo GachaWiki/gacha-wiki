@@ -1,0 +1,4201 @@
+{
+ "id": "jp-yrc-e490",
+ "name": "『ゆるキャン△ SEASON３』",
+ "expansion": 490,
+ "lang": "jp",
+ "release": null,
+ "shopItem": null,
+ "box": null,
+ "cards": [
+  {
+   "num": "YRC/W116-001",
+   "name": "キャンプ場でおさんぽ 恵那＆はんぺん＆ちくわ",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札の上から1枚を公開し、自分の控え室のレベルＸ以下のキャラを1枚選び、手札に戻す。Ｘが1以上なら、あなたは自分のカード名に「テント」を含むキャラを1枚選び、自分の山札の上から1枚を、そのキャラの下にマーカーとして表向きに置いてよい。Ｘは公開されたカードのレベルに等しい。（CXのレベルは0として扱う。マーカー置場に置かないなら元に戻す）\n\"よかったねぇ ちくわ はんぺん\"",
+   "traits": [
+    "ゆるキャン△",
+    "マイペース"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_001.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-001S",
+   "name": "キャンプ場でおさんぽ 恵那＆はんぺん＆ちくわ",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札の上から1枚を公開し、自分の控え室のレベルＸ以下のキャラを1枚選び、手札に戻す。Ｘが1以上なら、あなたは自分のカード名に「テント」を含むキャラを1枚選び、自分の山札の上から1枚を、そのキャラの下にマーカーとして表向きに置いてよい。Ｘは公開されたカードのレベルに等しい。（CXのレベルは0として扱う。マーカー置場に置かないなら元に戻す）\n\"-\"",
+   "traits": [
+    "ゆるキャン△",
+    "マイペース"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_001s.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-001SSP",
+   "name": "キャンプ場でおさんぽ 恵那＆はんぺん＆ちくわ",
+   "type": "Character",
+   "rarity": "SSP",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札の上から1枚を公開し、自分の控え室のレベルＸ以下のキャラを1枚選び、手札に戻す。Ｘが1以上なら、あなたは自分のカード名に「テント」を含むキャラを1枚選び、自分の山札の上から1枚を、そのキャラの下にマーカーとして表向きに置いてよい。Ｘは公開されたカードのレベルに等しい。（CXのレベルは0として扱う。マーカー置場に置かないなら元に戻す）\n\"-\"",
+   "traits": [
+    "ゆるキャン△",
+    "マイペース"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_001ssp.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-002",
+   "name": "薪割りすんぞ！ 千明",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのターン中、他のあなたの《ゆるキャン△》のキャラがいるなら、このカードのパワーを＋3000。\n【自】【CXコンボ】 このカードのバトル相手が【リバース】した時、あなたのCX置場に「みずがき湖のほとりから」があるなら、あなたは自分の山札の上から1枚までを、ストック置場に置き、自分の山札の上から1枚を公開し、自分の控え室のレベルＸ以下の《ゆるキャン△》のキャラを1枚選び、手札に戻す。Ｘは公開されたカードのレベルに等しい。（CXのレベルは0として扱う。公開したカードは元に戻す）\n\"そんじゃ今日も元気に薪割りすんぞーっ!!\"",
+   "traits": [
+    "ゆるキャン△",
+    "メガネ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_002.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-002S",
+   "name": "薪割りすんぞ！ 千明",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのターン中、他のあなたの《ゆるキャン△》のキャラがいるなら、このカードのパワーを＋3000。\n【自】【CXコンボ】 このカードのバトル相手が【リバース】した時、あなたのCX置場に「みずがき湖のほとりから」があるなら、あなたは自分の山札の上から1枚までを、ストック置場に置き、自分の山札の上から1枚を公開し、自分の控え室のレベルＸ以下の《ゆるキャン△》のキャラを1枚選び、手札に戻す。Ｘは公開されたカードのレベルに等しい。（CXのレベルは0として扱う。公開したカードは元に戻す）\n\"-\"",
+   "traits": [
+    "ゆるキャン△",
+    "メガネ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_002s.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-002SSP",
+   "name": "薪割りすんぞ！ 千明",
+   "type": "Character",
+   "rarity": "SSP",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのターン中、他のあなたの《ゆるキャン△》のキャラがいるなら、このカードのパワーを＋3000。\n【自】【CXコンボ】 このカードのバトル相手が【リバース】した時、あなたのCX置場に「みずがき湖のほとりから」があるなら、あなたは自分の山札の上から1枚までを、ストック置場に置き、自分の山札の上から1枚を公開し、自分の控え室のレベルＸ以下の《ゆるキャン△》のキャラを1枚選び、手札に戻す。Ｘは公開されたカードのレベルに等しい。（CXのレベルは0として扱う。公開したカードは元に戻す）\n\"-\"",
+   "traits": [
+    "ゆるキャン△",
+    "メガネ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_002ssp.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-003",
+   "name": "みずがき湖を眺めて あおい",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "green",
+   "level": "3",
+   "cost": "2",
+   "power": "8500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたの《ゆるキャン△》のキャラが4枚以上なら、あなたの手札のこのカードのレベルを－1。\n【永】 他のあなたのキャラが3枚以上なら、このカードは次の2つの能力を得る。『【永】 あなたのターン中、このカードのパワーを＋2000。』『【自】［(1)］ このカードがフロントアタックされた時、あなたはコストを払ってよい。そうしたら、このカードを手札に戻す。』\n【自】［手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分のクロックの上から1枚を、ストック置場に置く。\n\"人工の湖も天然湖とまた違ってええもんやな\"",
+   "traits": [
+    "ゆるキャン△",
+    "関西弁"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_003.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-003S",
+   "name": "みずがき湖を眺めて あおい",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "3",
+   "cost": "2",
+   "power": "8500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたの《ゆるキャン△》のキャラが4枚以上なら、あなたの手札のこのカードのレベルを－1。\n【永】 他のあなたのキャラが3枚以上なら、このカードは次の2つの能力を得る。『【永】 あなたのターン中、このカードのパワーを＋2000。』『【自】［(1)］ このカードがフロントアタックされた時、あなたはコストを払ってよい。そうしたら、このカードを手札に戻す。』\n【自】［手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分のクロックの上から1枚を、ストック置場に置く。\n\"-\"",
+   "traits": [
+    "ゆるキャン△",
+    "関西弁"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_003s.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-003SSP",
+   "name": "みずがき湖を眺めて あおい",
+   "type": "Character",
+   "rarity": "SSP",
+   "color": "green",
+   "level": "3",
+   "cost": "2",
+   "power": "8500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたの《ゆるキャン△》のキャラが4枚以上なら、あなたの手札のこのカードのレベルを－1。\n【永】 他のあなたのキャラが3枚以上なら、このカードは次の2つの能力を得る。『【永】 あなたのターン中、このカードのパワーを＋2000。』『【自】［(1)］ このカードがフロントアタックされた時、あなたはコストを払ってよい。そうしたら、このカードを手札に戻す。』\n【自】［手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分のクロックの上から1枚を、ストック置場に置く。\n\"-\"",
+   "traits": [
+    "ゆるキャン△",
+    "関西弁"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_003ssp.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-004",
+   "name": "トマト大量！ あおい",
+   "type": "Character",
+   "rarity": "R",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［手札のCXを1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の《ゆるキャン△》のキャラを1枚選び、手札に戻す。\n【自】 このカードが【リバース】した時、このカードのバトル相手のレベルが0以下なら、あなたは相手のクロックの上から1枚を、控え室に置いてよい。そうしたら、あなたはそのキャラをクロック置場に置く。\n\"いよぉ――し\"",
+   "traits": [
+    "ゆるキャン△",
+    "関西弁"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_004.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-004S",
+   "name": "トマト大量！ あおい",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［手札のCXを1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の《ゆるキャン△》のキャラを1枚選び、手札に戻す。\n【自】 このカードが【リバース】した時、このカードのバトル相手のレベルが0以下なら、あなたは相手のクロックの上から1枚を、控え室に置いてよい。そうしたら、あなたはそのキャラをクロック置場に置く。\n\"-\"",
+   "traits": [
+    "ゆるキャン△",
+    "関西弁"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_004s.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-005",
+   "name": "火を吹くスタッファー 千明",
+   "type": "Character",
+   "rarity": "R",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、そのターン中、このカードのパワーを＋Ｘ。Ｘはあなたの《ゆるキャン△》のキャラの枚数×1000に等しい。\n【自】［(1) 手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは相手のキャラを1枚選び、手札に戻す。\n\"ドォーン!!\"",
+   "traits": [
+    "ゆるキャン△",
+    "メガネ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_005.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-005S",
+   "name": "火を吹くスタッファー 千明",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、そのターン中、このカードのパワーを＋Ｘ。Ｘはあなたの《ゆるキャン△》のキャラの枚数×1000に等しい。\n【自】［(1) 手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは相手のキャラを1枚選び、手札に戻す。\n\"-\"",
+   "traits": [
+    "ゆるキャン△",
+    "メガネ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_005s.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-005SP",
+   "name": "火を吹くスタッファー 千明",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、そのターン中、このカードのパワーを＋Ｘ。Ｘはあなたの《ゆるキャン△》のキャラの枚数×1000に等しい。\n【自】［(1) 手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは相手のキャラを1枚選び、手札に戻す。\n\"-\"",
+   "traits": [
+    "ゆるキャン△",
+    "メガネ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_005sp.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-006",
+   "name": "ダムシチュー実食！ なでしこ",
+   "type": "Character",
+   "rarity": "R",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［手札を1枚控え室に置く］ このカードがアタックした時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を上から4枚まで見て、《ゆるキャン△》のキャラを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。\n\"「「「はぁぁ……口がしあわせ……」」」\"",
+   "traits": [
+    "ゆるキャン△",
+    "料理"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_006.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-006S",
+   "name": "ダムシチュー実食！ なでしこ",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［手札を1枚控え室に置く］ このカードがアタックした時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を上から4枚まで見て、《ゆるキャン△》のキャラを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。\n\"-\"",
+   "traits": [
+    "ゆるキャン△",
+    "料理"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_006s.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-007",
+   "name": "孫☆ライダーズ リン",
+   "type": "Character",
+   "rarity": "R",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードがアタックした時、あなたは他の自分の《ゆるキャン△》のキャラを1枚選び、そのターン中、パワーを＋Ｘ。Ｘは他のあなたの《ゆるキャン△》のキャラの枚数×500に等しい。\n【自】 このカードがアタックした時、あなたのキャラすべてに、そのターン中、次の能力を与える。『【自】［手札のCXを1枚控え室に置く］ このカードのトリガーチェックでCXがでた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の《ゆるキャン△》のキャラを1枚選び、手札に戻す。』\n\"-\"",
+   "traits": [
+    "ゆるキャン△",
+    "バイク"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_007.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-007S",
+   "name": "孫☆ライダーズ リン",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードがアタックした時、あなたは他の自分の《ゆるキャン△》のキャラを1枚選び、そのターン中、パワーを＋Ｘ。Ｘは他のあなたの《ゆるキャン△》のキャラの枚数×500に等しい。\n【自】 このカードがアタックした時、あなたのキャラすべてに、そのターン中、次の能力を与える。『【自】［手札のCXを1枚控え室に置く］ このカードのトリガーチェックでCXがでた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の《ゆるキャン△》のキャラを1枚選び、手札に戻す。』\n\"-\"",
+   "traits": [
+    "ゆるキャン△",
+    "バイク"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_007s.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-008",
+   "name": "楽しいおしゃべり あおい",
+   "type": "Character",
+   "rarity": "R",
+   "color": "green",
+   "level": "1",
+   "cost": "1",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分のカード名に「テント」を含むキャラを1枚選び、自分の控え室の《ゆるキャン△》のキャラを1枚選び、そのキャラの下にマーカーとして表向きに置いてよい。\n【自】 このカードが【リバース】した時、このカードのバトル相手のレベルが相手のレベルより高いなら、あなたは相手のクロックの上から1枚を、控え室に置いてよい。そうしたら、あなたはそのキャラをクロック置場に置く。\n\"最近バイトばっかりやっとったしなぁ\"",
+   "traits": [
+    "ゆるキャン△",
+    "関西弁"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_008.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-008S",
+   "name": "楽しいおしゃべり あおい",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "1",
+   "cost": "1",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分のカード名に「テント」を含むキャラを1枚選び、自分の控え室の《ゆるキャン△》のキャラを1枚選び、そのキャラの下にマーカーとして表向きに置いてよい。\n【自】 このカードが【リバース】した時、このカードのバトル相手のレベルが相手のレベルより高いなら、あなたは相手のクロックの上から1枚を、控え室に置いてよい。そうしたら、あなたはそのキャラをクロック置場に置く。\n\"-\"",
+   "traits": [
+    "ゆるキャン△",
+    "関西弁"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_008s.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-008SP",
+   "name": "楽しいおしゃべり あおい",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "green",
+   "level": "1",
+   "cost": "1",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分のカード名に「テント」を含むキャラを1枚選び、自分の控え室の《ゆるキャン△》のキャラを1枚選び、そのキャラの下にマーカーとして表向きに置いてよい。\n【自】 このカードが【リバース】した時、このカードのバトル相手のレベルが相手のレベルより高いなら、あなたは相手のクロックの上から1枚を、控え室に置いてよい。そうしたら、あなたはそのキャラをクロック置場に置く。\n\"-\"",
+   "traits": [
+    "ゆるキャン△",
+    "関西弁"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_008sp.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-009",
+   "name": "春の陽気に当てられて 恵那＆ちくわ",
+   "type": "Character",
+   "rarity": "R",
+   "color": "green",
+   "level": "2",
+   "cost": "1",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの「火起こし リン」すべてに、パワーを＋1000し、次の能力を与える。『【自】［(4)］ このカードのバトル相手が【リバース】した時、あなたはコストを払ってよい。そうしたら、相手に2ダメージを与える。』（ダメージキャンセルは発生する）\n【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋Ｘ。Ｘはそのキャラのレベル×500に等しい。\n\"-\"",
+   "traits": [
+    "ゆるキャン△",
+    "マイペース"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_009.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-009S",
+   "name": "春の陽気に当てられて 恵那＆ちくわ",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "2",
+   "cost": "1",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの「火起こし リン」すべてに、パワーを＋1000し、次の能力を与える。『【自】［(4)］ このカードのバトル相手が【リバース】した時、あなたはコストを払ってよい。そうしたら、相手に2ダメージを与える。』（ダメージキャンセルは発生する）\n【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋Ｘ。Ｘはそのキャラのレベル×500に等しい。\n\"-\"",
+   "traits": [
+    "ゆるキャン△",
+    "マイペース"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_009s.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-010",
+   "name": "自家製ソーセージを作ろう 千明",
+   "type": "Character",
+   "rarity": "R",
+   "color": "green",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】［手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の手札の自分のレベル以下のレベルの《ゆるキャン△》のキャラを1枚まで選び、舞台の好きな枠に置く。\n【自】［(1)］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室のCXを1枚選び、手札に戻す。\n\"自家製ソーセージを作るんだよーーーーッ!!\"",
+   "traits": [
+    "ゆるキャン△",
+    "メガネ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_010.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-010S",
+   "name": "自家製ソーセージを作ろう 千明",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】［手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の手札の自分のレベル以下のレベルの《ゆるキャン△》のキャラを1枚まで選び、舞台の好きな枠に置く。\n【自】［(1)］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室のCXを1枚選び、手札に戻す。\n\"-\"",
+   "traits": [
+    "ゆるキャン△",
+    "メガネ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_010s.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-010SSP",
+   "name": "自家製ソーセージを作ろう 千明",
+   "type": "Character",
+   "rarity": "SSP",
+   "color": "green",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】［手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の手札の自分のレベル以下のレベルの《ゆるキャン△》のキャラを1枚まで選び、舞台の好きな枠に置く。\n【自】［(1)］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室のCXを1枚選び、手札に戻す。\n\"-\"",
+   "traits": [
+    "ゆるキャン△",
+    "メガネ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_010ssp.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-011",
+   "name": "ちくわといっしょ 恵那",
+   "type": "Character",
+   "rarity": "R",
+   "color": "green",
+   "level": "3",
+   "cost": "2",
+   "power": "10500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】【CXコンボ】 このカードのバトル相手が【リバース】した時、あなたのCX置場に「ちくわとお花見さんぽ」があり、他のあなたの《ゆるキャン△》のキャラが4枚以上なら、次の相手のターンの終わりまで、このカードは次の能力を得る。『【永】 このカードの正面のキャラのソウルを－3。』\n【自】 このカードがフロントアタックされた時、あなたは自分の山札を上から1枚見て、山札の上か控え室に置く。\n\"もうすぐ桜の季節だけど、みんなでお花見とか行く？\"",
+   "traits": [
+    "ゆるキャン△",
+    "マイペース"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_011.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-011S",
+   "name": "ちくわといっしょ 恵那",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "3",
+   "cost": "2",
+   "power": "10500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】【CXコンボ】 このカードのバトル相手が【リバース】した時、あなたのCX置場に「ちくわとお花見さんぽ」があり、他のあなたの《ゆるキャン△》のキャラが4枚以上なら、次の相手のターンの終わりまで、このカードは次の能力を得る。『【永】 このカードの正面のキャラのソウルを－3。』\n【自】 このカードがフロントアタックされた時、あなたは自分の山札を上から1枚見て、山札の上か控え室に置く。\n\"-\"",
+   "traits": [
+    "ゆるキャン△",
+    "マイペース"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_011s.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-011SP",
+   "name": "ちくわといっしょ 恵那",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "green",
+   "level": "3",
+   "cost": "2",
+   "power": "10500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】【CXコンボ】 このカードのバトル相手が【リバース】した時、あなたのCX置場に「ちくわとお花見さんぽ」があり、他のあなたの《ゆるキャン△》のキャラが4枚以上なら、次の相手のターンの終わりまで、このカードは次の能力を得る。『【永】 このカードの正面のキャラのソウルを－3。』\n【自】 このカードがフロントアタックされた時、あなたは自分の山札を上から1枚見て、山札の上か控え室に置く。\n\"-\"",
+   "traits": [
+    "ゆるキャン△",
+    "マイペース"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_011sp.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-012",
+   "name": "テントin瑞牆山",
+   "type": "Character",
+   "rarity": "U",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの《ゆるキャン△》のキャラすべてに、パワーを＋500。\n【永】 このカードの下のマーカーが1枚以上なら、このカードは相手の効果に選ばれない。2枚以上なら、このカードは次の能力を得る。『【自】［手札のCXを1枚控え室に置く］ あなたのCXがトリガーした時、あなたはコストを払ってよい。そうしたら、あなたは1枚引く。』3枚以上なら、あなたのターン中、他のあなたの《ゆるキャン△》のキャラすべてに、パワーを＋500。4枚以上なら、このカードは次の能力を得る。『【起】［このカードを【レスト】する］ あなたは自分の山札の上から1枚を、ストック置場に置く。』\n【自】 ターンの終わりに、あなたのマーカー置場のカードの合計が5枚以上なら、このカードを控え室に置く。\n\"-\"",
+   "traits": [
+    "ゆるキャン△"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_012.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-012S",
+   "name": "テントin瑞牆山",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの《ゆるキャン△》のキャラすべてに、パワーを＋500。\n【永】 このカードの下のマーカーが1枚以上なら、このカードは相手の効果に選ばれない。2枚以上なら、このカードは次の能力を得る。『【自】［手札のCXを1枚控え室に置く］ あなたのCXがトリガーした時、あなたはコストを払ってよい。そうしたら、あなたは1枚引く。』3枚以上なら、あなたのターン中、他のあなたの《ゆるキャン△》のキャラすべてに、パワーを＋500。4枚以上なら、このカードは次の能力を得る。『【起】［このカードを【レスト】する］ あなたは自分の山札の上から1枚を、ストック置場に置く。』\n【自】 ターンの終わりに、あなたのマーカー置場のカードの合計が5枚以上なら、このカードを控え室に置く。\n\"-\"",
+   "traits": [
+    "ゆるキャン△"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_012s.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-013",
+   "name": "つまみ作り 千明",
+   "type": "Character",
+   "rarity": "U",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの《ゆるキャン△》のキャラすべてに、パワーを＋500。\n【自】［手札の《ゆるキャン△》のキャラを1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見て「キャンプが楽しみ！ なでしこ」を1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"手抜きだけどこんなもんでいいんだよ。\"",
+   "traits": [
+    "ゆるキャン△",
+    "メガネ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_013.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-013S",
+   "name": "つまみ作り 千明",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの《ゆるキャン△》のキャラすべてに、パワーを＋500。\n【自】［手札の《ゆるキャン△》のキャラを1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見て「キャンプが楽しみ！ なでしこ」を1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"-\"",
+   "traits": [
+    "ゆるキャン△",
+    "メガネ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_013s.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-014",
+   "name": "グビ飲み 鳥羽先生",
+   "type": "Character",
+   "rarity": "U",
+   "color": "green",
+   "level": "1",
+   "cost": "1",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 応援 このカードの前のあなたの《ゆるキャン△》のキャラすべてに、パワーを＋Ｘ。Ｘはそのキャラのレベル×500に等しい。\n【自】［手札のCXを1枚控え室に置く］ あなたのCXがトリガーした時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室のキャラを1枚選び、手札に戻す。\n\"やきとりおいひーー、あヒィーーーーッ！\"",
+   "traits": [
+    "ゆるキャン△",
+    "酒"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_014.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-014S",
+   "name": "グビ飲み 鳥羽先生",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "1",
+   "cost": "1",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 応援 このカードの前のあなたの《ゆるキャン△》のキャラすべてに、パワーを＋Ｘ。Ｘはそのキャラのレベル×500に等しい。\n【自】［手札のCXを1枚控え室に置く］ あなたのCXがトリガーした時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室のキャラを1枚選び、手札に戻す。\n\"-\"",
+   "traits": [
+    "ゆるキャン△",
+    "酒"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_014s.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-015",
+   "name": "念願のピザ 千明",
+   "type": "Character",
+   "rarity": "U",
+   "color": "green",
+   "level": "2",
+   "cost": "1",
+   "power": "7000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードがアタックした時、このカードの正面のキャラのレベルが3以上なら、そのターン中、このカードのパワーを＋6000。\n【自】 このカードのバトル相手でレベル2以上のキャラが【リバース】した時、あなたは自分の山札の上から1枚を、ストック置場に置いてよい。\n\"これだよ、あたひが食べたかったのはっ!!\"",
+   "traits": [
+    "ゆるキャン△",
+    "メガネ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_015.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-015S",
+   "name": "念願のピザ 千明",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "2",
+   "cost": "1",
+   "power": "7000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードがアタックした時、このカードの正面のキャラのレベルが3以上なら、そのターン中、このカードのパワーを＋6000。\n【自】 このカードのバトル相手でレベル2以上のキャラが【リバース】した時、あなたは自分の山札の上から1枚を、ストック置場に置いてよい。\n\"-\"",
+   "traits": [
+    "ゆるキャン△",
+    "メガネ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_015s.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-016",
+   "name": "ピザクラストお好み焼き実食！ あおい",
+   "type": "Character",
+   "rarity": "U",
+   "color": "green",
+   "level": "2",
+   "cost": "1",
+   "power": "8000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたの《ゆるキャン△》のキャラが4枚以上なら、あなたの手札のこのカードのレベルを－1。\n【自】【CXコンボ】［あなたのCX置場の「ウマい店を目指して」を1枚控え室に置く］ あなたのアンコールステップの始めに、前列にこのカードがいて、他のあなたの《ゆるキャン△》のキャラが2枚以上なら、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の《ゆるキャン△》のキャラを2枚まで選び、手札に戻す。\n\"-\"",
+   "traits": [
+    "ゆるキャン△",
+    "関西弁"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_016.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-016S",
+   "name": "ピザクラストお好み焼き実食！ あおい",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "2",
+   "cost": "1",
+   "power": "8000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたの《ゆるキャン△》のキャラが4枚以上なら、あなたの手札のこのカードのレベルを－1。\n【自】【CXコンボ】［あなたのCX置場の「ウマい店を目指して」を1枚控え室に置く］ あなたのアンコールステップの始めに、前列にこのカードがいて、他のあなたの《ゆるキャン△》のキャラが2枚以上なら、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の《ゆるキャン△》のキャラを2枚まで選び、手札に戻す。\n\"-\"",
+   "traits": [
+    "ゆるキャン△",
+    "関西弁"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_016s.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-017",
+   "name": "ピザクラストお好み焼き実食！ 恵那",
+   "type": "Character",
+   "rarity": "U",
+   "color": "green",
+   "level": "2",
+   "cost": "1",
+   "power": "8000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】【CXコンボ】［このカードを控え室に置く］ あなたのCXフェイズ中、CX置場に「ちくわとお花見さんぽ」が置かれた時、他のあなたの《ゆるキャン△》のキャラがいるなら、あなたはコストを払ってよい。そうしたら、あなたは自分の手札の「ちくわといっしょ 恵那」を1枚まで選び、このカードがいた枠に置き、次の相手のターンの終わりまで、そのキャラに次の能力を与える。『【永】 このカードは相手の効果に選ばれない。』\n\"-\"",
+   "traits": [
+    "ゆるキャン△",
+    "マイペース"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_017.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-017S",
+   "name": "ピザクラストお好み焼き実食！ 恵那",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "2",
+   "cost": "1",
+   "power": "8000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】【CXコンボ】［このカードを控え室に置く］ あなたのCXフェイズ中、CX置場に「ちくわとお花見さんぽ」が置かれた時、他のあなたの《ゆるキャン△》のキャラがいるなら、あなたはコストを払ってよい。そうしたら、あなたは自分の手札の「ちくわといっしょ 恵那」を1枚まで選び、このカードがいた枠に置き、次の相手のターンの終わりまで、そのキャラに次の能力を与える。『【永】 このカードは相手の効果に選ばれない。』\n\"-\"",
+   "traits": [
+    "ゆるキャン△",
+    "マイペース"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_017s.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-018",
+   "name": "見守る視線 鳥羽先生",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋500。\n【自】 あなたのCXがCX置場に置かれた時かトリガーした時、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋1000。\n\"-\"",
+   "traits": [
+    "ゆるキャン△",
+    "酒"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_018.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-018S",
+   "name": "見守る視線 鳥羽先生",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋500。\n【自】 あなたのCXがCX置場に置かれた時かトリガーした時、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋1000。\n\"-\"",
+   "traits": [
+    "ゆるキャン△",
+    "酒"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_018s.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-019",
+   "name": "回想キャンプ 千明",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 前列の中央の枠にこのカードがいるなら、このカードのパワーを＋3000。\n【起】［このカードを控え室に置く］ あなたは自分のカード名に「テント」を含むキャラを1枚選び、自分の控え室の《ゆるキャン△》のキャラを1枚選び、そのキャラの下にマーカーとして表向きに置く。\n\"ていうか、あたしまだ今日の目的地知らねーんだけど\"",
+   "traits": [
+    "ゆるキャン△",
+    "メガネ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_019.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-019S",
+   "name": "回想キャンプ 千明",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 前列の中央の枠にこのカードがいるなら、このカードのパワーを＋3000。\n【起】［このカードを控え室に置く］ あなたは自分のカード名に「テント」を含むキャラを1枚選び、自分の控え室の《ゆるキャン△》のキャラを1枚選び、そのキャラの下にマーカーとして表向きに置く。\n\"-\"",
+   "traits": [
+    "ゆるキャン△",
+    "メガネ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_019s.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-020",
+   "name": "初めてのダム リン",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の手札を1枚選び、ストック置場に置いてよい。\n【自】［(2)］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の《ゆるキャン△》のキャラを1枚選び、手札に戻す。\n\"ちょっと怖い……けど……楽しい\"",
+   "traits": [
+    "ゆるキャン△"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_020.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-020S",
+   "name": "初めてのダム リン",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の手札を1枚選び、ストック置場に置いてよい。\n【自】［(2)］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の《ゆるキャン△》のキャラを1枚選び、手札に戻す。\n\"-\"",
+   "traits": [
+    "ゆるキャン△"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_020s.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-021",
+   "name": "回想キャンプ あおい",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたはイベントと『助太刀』を手札からプレイできない。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から3枚を、控え室に置いてよい。\n\"南アルプスと八ヶ岳がバッチリ見えるなぁ\"",
+   "traits": [
+    "ゆるキャン△",
+    "関西弁"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_021.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-021S",
+   "name": "回想キャンプ あおい",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたはイベントと『助太刀』を手札からプレイできない。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から3枚を、控え室に置いてよい。\n\"-\"",
+   "traits": [
+    "ゆるキャン△",
+    "関西弁"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_021s.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-022",
+   "name": "中津川メイ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分のクロックを1枚選び、手札に戻してよい。そうしたら、あなたは自分の手札を1枚選び、クロック置場に置く。\n【自】 このカードがアタックした時、他のあなたの《ゆるキャン△》のキャラがいるなら、そのターン中、このカードのパワーを＋3000。\n\"おーい絵真ー\"",
+   "traits": [
+    "ゆるキャン△"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_022.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-022S",
+   "name": "中津川メイ",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分のクロックを1枚選び、手札に戻してよい。そうしたら、あなたは自分の手札を1枚選び、クロック置場に置く。\n【自】 このカードがアタックした時、他のあなたの《ゆるキャン△》のキャラがいるなら、そのターン中、このカードのパワーを＋3000。\n\"-\"",
+   "traits": [
+    "ゆるキャン△"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_022s.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-023",
+   "name": "ごちそうさまでした なでしこ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの《ゆるキャン△》のキャラ1枚につき、このカードのパワーを＋500。\n【自】［(1) 手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見て《ゆるキャン△》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"ダムカレー、おいしゅうございました\"",
+   "traits": [
+    "ゆるキャン△",
+    "料理"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_023.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-023S",
+   "name": "ごちそうさまでした なでしこ",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの《ゆるキャン△》のキャラ1枚につき、このカードのパワーを＋500。\n【自】［(1) 手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見て《ゆるキャン△》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"-\"",
+   "traits": [
+    "ゆるキャン△",
+    "料理"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_023s.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-024",
+   "name": "語り部 あおい",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "1",
+   "cost": "1",
+   "power": "500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 あなたがこのカードの『助太刀』を使った時、あなたは自分の山札の上から1枚を公開する。そのカードが《ゆるキャン△》のキャラなら手札に加え、あなたは自分の手札を1枚選び、控え室に置く。（そうでないなら元に戻す）\n【起】【カウンター】 助太刀2000 レベル1 ［(1) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋2000）\n\"それがなぁ\"",
+   "traits": [
+    "ゆるキャン△",
+    "関西弁"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_024.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-024S",
+   "name": "語り部 あおい",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "1",
+   "cost": "1",
+   "power": "500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 あなたがこのカードの『助太刀』を使った時、あなたは自分の山札の上から1枚を公開する。そのカードが《ゆるキャン△》のキャラなら手札に加え、あなたは自分の手札を1枚選び、控え室に置く。（そうでないなら元に戻す）\n【起】【カウンター】 助太刀2000 レベル1 ［(1) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋2000）\n\"-\"",
+   "traits": [
+    "ゆるキャン△",
+    "関西弁"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_024s.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-025",
+   "name": "スヤスヤちくわ",
+   "type": "Event",
+   "rarity": "U",
+   "color": "green",
+   "level": "2",
+   "cost": "2",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "【カウンター】［あなたの舞台のキャラを1枚控え室に置く］ あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見て《ゆるキャン△》のキャラを3枚まで選んで相手に見せ、手札に加え、自分の手札を1枚選び、控え室に置き、その山札をシャッフルする。\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_025.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-025S",
+   "name": "スヤスヤちくわ",
+   "type": "Event",
+   "rarity": "SR",
+   "color": "green",
+   "level": "2",
+   "cost": "2",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "【カウンター】［あなたの舞台のキャラを1枚控え室に置く］ あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見て《ゆるキャン△》のキャラを3枚まで選んで相手に見せ、手札に加え、自分の手札を1枚選び、控え室に置き、その山札をシャッフルする。\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_025s.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-026",
+   "name": "みずがき湖のほとりから",
+   "type": "Climax",
+   "rarity": "CR",
+   "color": "green",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[treasure.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[treasure.gif]]：このカードがトリガーした時、あなたはこのカードを手札に戻す。あなたは自分の山札の上から1枚を、ストック置場に置いてよい）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_026.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-026EX",
+   "name": "みずがき湖のほとりから",
+   "type": "Climax",
+   "rarity": "RRR+",
+   "color": "green",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[treasure.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[treasure.gif]]：このカードがトリガーした時、あなたはこのカードを手札に戻す。あなたは自分の山札の上から1枚を、ストック置場に置いてよい）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_026ex.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-026R",
+   "name": "みずがき湖のほとりから",
+   "type": "Climax",
+   "rarity": "RRR",
+   "color": "green",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[treasure.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[treasure.gif]]：このカードがトリガーした時、あなたはこのカードを手札に戻す。あなたは自分の山札の上から1枚を、ストック置場に置いてよい）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_026r.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-027",
+   "name": "ちくわとお花見さんぽ",
+   "type": "Climax",
+   "rarity": "CR",
+   "color": "green",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[treasure.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[treasure.gif]]：このカードがトリガーした時、あなたはこのカードを手札に戻す。あなたは自分の山札の上から1枚を、ストック置場に置いてよい）\n\"それじゃこっちも行こっか、ちくわ\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_027.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-027R",
+   "name": "ちくわとお花見さんぽ",
+   "type": "Climax",
+   "rarity": "RRR",
+   "color": "green",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[treasure.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[treasure.gif]]：このカードがトリガーした時、あなたはこのカードを手札に戻す。あなたは自分の山札の上から1枚を、ストック置場に置いてよい）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_027r.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-028",
+   "name": "ウマい店を目指して",
+   "type": "Climax",
+   "rarity": "CR",
+   "color": "green",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[treasure.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[treasure.gif]]：このカードがトリガーした時、あなたはこのカードを手札に戻す。あなたは自分の山札の上から1枚を、ストック置場に置いてよい）\n\"この先にちょーっとウマいもん売っとるお店があんねん\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_028.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-028R",
+   "name": "ウマい店を目指して",
+   "type": "Climax",
+   "rarity": "RRR",
+   "color": "green",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[treasure.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[treasure.gif]]：このカードがトリガーした時、あなたはこのカードを手札に戻す。あなたは自分の山札の上から1枚を、ストック置場に置いてよい）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_028r.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-029",
+   "name": "プチソロキャン なでしこ",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 あなたの、CXか「プチソロキャン なでしこ」がトリガーした時、あなたは自分の山札を上から2枚まで見て、山札の上に好きな順番で置き、自分のキャラを1枚選び、そのターン中、パワーを＋1000。\n【起】 集中 ［(1) このカードを【レスト】する］ あなたは自分の山札の上から4枚をめくり、控え室に置く。それらのカードのCX1枚につき、あなたは自分の控え室のキャラを1枚まで選び、手札に戻す。\n\"じゃあ私はのんびり一人旅を満喫させてもらおうかのう!!\"",
+   "traits": [
+    "ゆるキャン△",
+    "料理"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_029.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-029EX",
+   "name": "プチソロキャン なでしこ",
+   "type": "Character",
+   "rarity": "SEC+",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 あなたの、CXか「プチソロキャン なでしこ」がトリガーした時、あなたは自分の山札を上から2枚まで見て、山札の上に好きな順番で置き、自分のキャラを1枚選び、そのターン中、パワーを＋1000。\n【起】 集中 ［(1) このカードを【レスト】する］ あなたは自分の山札の上から4枚をめくり、控え室に置く。それらのカードのCX1枚につき、あなたは自分の控え室のキャラを1枚まで選び、手札に戻す。\n\"-\"",
+   "traits": [
+    "ゆるキャン△",
+    "料理"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_029ex.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-029S",
+   "name": "プチソロキャン なでしこ",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 あなたの、CXか「プチソロキャン なでしこ」がトリガーした時、あなたは自分の山札を上から2枚まで見て、山札の上に好きな順番で置き、自分のキャラを1枚選び、そのターン中、パワーを＋1000。\n【起】 集中 ［(1) このカードを【レスト】する］ あなたは自分の山札の上から4枚をめくり、控え室に置く。それらのカードのCX1枚につき、あなたは自分の控え室のキャラを1枚まで選び、手札に戻す。\n\"-\"",
+   "traits": [
+    "ゆるキャン△",
+    "料理"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_029s.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-030",
+   "name": "ご機嫌な挨拶 なでしこ",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの後列の《ゆるキャン△》のキャラ1枚につき、このカードのパワーを＋1500。\n【自】【CXコンボ】 あなたのCX置場に「慈雲寺でスリーショット！」が置かれた時、他のあなたのキャラが2枚以上なら、そのターン中、このカードは次の2つの能力を得る。『【自】［(1)］ このカードがアタックした時、あなたはコストを払ってよい。そうしたら、そのアタック中、あなたはトリガーステップにトリガーチェックを2回行う。』『【自】 このカードがアタックした時、あなたは自分の山札の上から1枚を公開する。そのカードが《ゆるキャン△》のキャラなら手札に加える。』（そうでないなら元に戻す）\n\"これからもこうやって毎年行けたらいいよねぇ\"",
+   "traits": [
+    "ゆるキャン△",
+    "料理"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_030.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-030S",
+   "name": "ご機嫌な挨拶 なでしこ",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの後列の《ゆるキャン△》のキャラ1枚につき、このカードのパワーを＋1500。\n【自】【CXコンボ】 あなたのCX置場に「慈雲寺でスリーショット！」が置かれた時、他のあなたのキャラが2枚以上なら、そのターン中、このカードは次の2つの能力を得る。『【自】［(1)］ このカードがアタックした時、あなたはコストを払ってよい。そうしたら、そのアタック中、あなたはトリガーステップにトリガーチェックを2回行う。』『【自】 このカードがアタックした時、あなたは自分の山札の上から1枚を公開する。そのカードが《ゆるキャン△》のキャラなら手札に加える。』（そうでないなら元に戻す）\n\"-\"",
+   "traits": [
+    "ゆるキャン△",
+    "料理"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_030s.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-030SP",
+   "name": "ご機嫌な挨拶 なでしこ",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの後列の《ゆるキャン△》のキャラ1枚につき、このカードのパワーを＋1500。\n【自】【CXコンボ】 あなたのCX置場に「慈雲寺でスリーショット！」が置かれた時、他のあなたのキャラが2枚以上なら、そのターン中、このカードは次の2つの能力を得る。『【自】［(1)］ このカードがアタックした時、あなたはコストを払ってよい。そうしたら、そのアタック中、あなたはトリガーステップにトリガーチェックを2回行う。』『【自】 このカードがアタックした時、あなたは自分の山札の上から1枚を公開する。そのカードが《ゆるキャン△》のキャラなら手札に加える。』（そうでないなら元に戻す）\n\"-\"",
+   "traits": [
+    "ゆるキャン△",
+    "料理"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_030sp.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-031",
+   "name": "電車とツーショット なでしこ",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "9000",
+   "soul": 3,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 この能力は1ターンにつき1回まで発動する。このカードが手札から舞台に置かれたターン中、このカードの与えたダメージがキャンセルされた時、あなたは自分の山札の上から1枚を、控え室に置き、相手にＸダメージを与える。Ｘはそのカードのレベル＋1に等しい。（CXのレベルは0として扱う。ダメージキャンセルは発生する）\n【自】【CXコンボ】［(2) 手札を2枚控え室に置く］ この能力は1ターンにつき1回まで発動する。このカードのアタックの終わりに、CX置場に「はいチーズ！」があるなら、あなたはコストを払ってよい。そうしたら、このカードを【スタンド】する。\n\"ちっちゃくてかわいい電車だねぇ\"",
+   "traits": [
+    "ゆるキャン△",
+    "料理"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_031.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-031S",
+   "name": "電車とツーショット なでしこ",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "9000",
+   "soul": 3,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 この能力は1ターンにつき1回まで発動する。このカードが手札から舞台に置かれたターン中、このカードの与えたダメージがキャンセルされた時、あなたは自分の山札の上から1枚を、控え室に置き、相手にＸダメージを与える。Ｘはそのカードのレベル＋1に等しい。（CXのレベルは0として扱う。ダメージキャンセルは発生する）\n【自】【CXコンボ】［(2) 手札を2枚控え室に置く］ この能力は1ターンにつき1回まで発動する。このカードのアタックの終わりに、CX置場に「はいチーズ！」があるなら、あなたはコストを払ってよい。そうしたら、このカードを【スタンド】する。\n\"-\"",
+   "traits": [
+    "ゆるキャン△",
+    "料理"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_031s.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-031SSP",
+   "name": "電車とツーショット なでしこ",
+   "type": "Character",
+   "rarity": "SSP",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "9000",
+   "soul": 3,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 この能力は1ターンにつき1回まで発動する。このカードが手札から舞台に置かれたターン中、このカードの与えたダメージがキャンセルされた時、あなたは自分の山札の上から1枚を、控え室に置き、相手にＸダメージを与える。Ｘはそのカードのレベル＋1に等しい。（CXのレベルは0として扱う。ダメージキャンセルは発生する）\n【自】【CXコンボ】［(2) 手札を2枚控え室に置く］ この能力は1ターンにつき1回まで発動する。このカードのアタックの終わりに、CX置場に「はいチーズ！」があるなら、あなたはコストを払ってよい。そうしたら、このカードを【スタンド】する。\n\"-\"",
+   "traits": [
+    "ゆるキャン△",
+    "料理"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_031ssp.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-032",
+   "name": "プチソロキャン 千明",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［このカードを手札に戻す］ あなたのCXがCX置場に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を上から2枚まで見て、山札の上に好きな順番で置き、自分のキャラを1枚選び、そのターン中、パワーを＋1000。\n【自】【CXコンボ】［あなたのCX置場のCXを1枚控え室に置く］ あなたのCX置場に「ソロキャンの暇つぶし」が置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見て《ゆるキャン△》のキャラを2枚まで選んで相手に見せる。その後、相手はそれらのキャラを1枚選び、控え室に置き、残りのカードをあなたの手札に加え、その山札をシャッフルする。\n\"リンが読書、なでしこが実験料理なら<br>私の暇つぶしは……\"",
+   "traits": [
+    "ゆるキャン△",
+    "メガネ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_032.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-032S",
+   "name": "プチソロキャン 千明",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［このカードを手札に戻す］ あなたのCXがCX置場に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を上から2枚まで見て、山札の上に好きな順番で置き、自分のキャラを1枚選び、そのターン中、パワーを＋1000。\n【自】【CXコンボ】［あなたのCX置場のCXを1枚控え室に置く］ あなたのCX置場に「ソロキャンの暇つぶし」が置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見て《ゆるキャン△》のキャラを2枚まで選んで相手に見せる。その後、相手はそれらのキャラを1枚選び、控え室に置き、残りのカードをあなたの手札に加え、その山札をシャッフルする。\n\"-\"",
+   "traits": [
+    "ゆるキャン△",
+    "メガネ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_032s.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-033",
+   "name": "庭デイキャンの帰り道 あおい",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1) 手札のCXを1枚控え室に置く］ このカードが手札から舞台に置かれた時か舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室のCXを1枚選び、手札に戻す。\n\"もうすぐ春なんやなぁ\"",
+   "traits": [
+    "ゆるキャン△",
+    "関西弁"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_033.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-033S",
+   "name": "庭デイキャンの帰り道 あおい",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1) 手札のCXを1枚控え室に置く］ このカードが手札から舞台に置かれた時か舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室のCXを1枚選び、手札に戻す。\n\"-\"",
+   "traits": [
+    "ゆるキャン△",
+    "関西弁"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_033s.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-033SP",
+   "name": "庭デイキャンの帰り道 あおい",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1) 手札のCXを1枚控え室に置く］ このカードが手札から舞台に置かれた時か舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室のCXを1枚選び、手札に戻す。\n\"-\"",
+   "traits": [
+    "ゆるキャン△",
+    "関西弁"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_033sp.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-034",
+   "name": "ココアでプチキャンプ 綾乃",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1) 手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の《ゆるキャン△》のキャラを2枚まで選び、1枚選び、手札に戻し、1枚選び、自分のカード名に「テント」を含むキャラの下にマーカーとして表向きに置き、残りのカードを控え室に置く。\n\"やっぱりこれくらいじゃなきゃ……\"",
+   "traits": [
+    "ゆるキャン△",
+    "バイク"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_034.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-034S",
+   "name": "ココアでプチキャンプ 綾乃",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1) 手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の《ゆるキャン△》のキャラを2枚まで選び、1枚選び、手札に戻し、1枚選び、自分のカード名に「テント」を含むキャラの下にマーカーとして表向きに置き、残りのカードを控え室に置く。\n\"-\"",
+   "traits": [
+    "ゆるキャン△",
+    "バイク"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_034s.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-034SSP",
+   "name": "ココアでプチキャンプ 綾乃",
+   "type": "Character",
+   "rarity": "SSP",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1) 手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の《ゆるキャン△》のキャラを2枚まで選び、1枚選び、手札に戻し、1枚選び、自分のカード名に「テント」を含むキャラの下にマーカーとして表向きに置き、残りのカードを控え室に置く。\n\"-\"",
+   "traits": [
+    "ゆるキャン△",
+    "バイク"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_034ssp.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-035",
+   "name": "コンセプト力説 千明",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】［(2)］ あなたがこのカードの『助太刀』を使った時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室のカードすべてを、山札に戻し、その山札をシャッフルする。\n【起】【カウンター】 助太刀2500 レベル2 ［(1) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋2500）\n\"金はかけずとも、頭を使って試行錯誤してきたはずだろ!!\"",
+   "traits": [
+    "ゆるキャン△",
+    "メガネ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_035.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-035S",
+   "name": "コンセプト力説 千明",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】［(2)］ あなたがこのカードの『助太刀』を使った時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室のカードすべてを、山札に戻し、その山札をシャッフルする。\n【起】【カウンター】 助太刀2500 レベル2 ［(1) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋2500）\n\"-\"",
+   "traits": [
+    "ゆるキャン△",
+    "メガネ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_035s.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-035SP",
+   "name": "コンセプト力説 千明",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】［(2)］ あなたがこのカードの『助太刀』を使った時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室のカードすべてを、山札に戻し、その山札をシャッフルする。\n【起】【カウンター】 助太刀2500 レベル2 ［(1) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋2500）\n\"-\"",
+   "traits": [
+    "ゆるキャン△",
+    "メガネ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_035sp.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-036",
+   "name": "ソーセージを頬張って なでしこ",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "7000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】［(1) 手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、相手は自分のストックすべてを、山札に戻し、その山札をシャッフルし、自分の山札の上から同じ枚数をストック置場に置く。\n\"う～んまぁ～\"",
+   "traits": [
+    "ゆるキャン△",
+    "料理"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_036.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-036S",
+   "name": "ソーセージを頬張って なでしこ",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "7000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】［(1) 手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、相手は自分のストックすべてを、山札に戻し、その山札をシャッフルし、自分の山札の上から同じ枚数をストック置場に置く。\n\"-\"",
+   "traits": [
+    "ゆるキャン△",
+    "料理"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_036s.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-036SP",
+   "name": "ソーセージを頬張って なでしこ",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "7000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】［(1) 手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、相手は自分のストックすべてを、山札に戻し、その山札をシャッフルし、自分の山札の上から同じ枚数をストック置場に置く。\n\"-\"",
+   "traits": [
+    "ゆるキャン△",
+    "料理"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_036sp.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-037",
+   "name": "花よりまんじゅう あおい",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "2",
+   "cost": "2",
+   "power": "4000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋1500。\n【起】［このカードを【レスト】する］ あなたは自分の山札を上から2枚まで見て、山札の上に元の順番で置く。\n\"疲れたからまんじゅうがうまぁ…\"",
+   "traits": [
+    "ゆるキャン△",
+    "関西弁"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_037.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-037S",
+   "name": "花よりまんじゅう あおい",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "2",
+   "cost": "2",
+   "power": "4000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋1500。\n【起】［このカードを【レスト】する］ あなたは自分の山札を上から2枚まで見て、山札の上に元の順番で置く。\n\"-\"",
+   "traits": [
+    "ゆるキャン△",
+    "関西弁"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_037s.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-037SSP",
+   "name": "花よりまんじゅう あおい",
+   "type": "Character",
+   "rarity": "SSP",
+   "color": "red",
+   "level": "2",
+   "cost": "2",
+   "power": "4000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋1500。\n【起】［このカードを【レスト】する］ あなたは自分の山札を上から2枚まで見て、山札の上に元の順番で置く。\n\"-\"",
+   "traits": [
+    "ゆるキャン△",
+    "関西弁"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_037ssp.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-038",
+   "name": "薪割りの達人 なでしこ",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "11000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードがアタックした時、あなたは自分の山札の上から1枚を公開する。そのカードが《ゆるキャン△》のキャラなら、相手にＸダメージを与える。Ｘはそのキャラのレベルに等しい。（ダメージキャンセルは発生する。公開したカードは元に戻す）\n\"でへへ、こないだのキャンプで薪割りしたんだよ\"",
+   "traits": [
+    "ゆるキャン△",
+    "料理"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_038.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-038S",
+   "name": "薪割りの達人 なでしこ",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "11000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードがアタックした時、あなたは自分の山札の上から1枚を公開する。そのカードが《ゆるキャン△》のキャラなら、相手にＸダメージを与える。Ｘはそのキャラのレベルに等しい。（ダメージキャンセルは発生する。公開したカードは元に戻す）\n\"-\"",
+   "traits": [
+    "ゆるキャン△",
+    "料理"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_038s.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-039",
+   "name": "ダムシチュー実食！ 綾乃",
+   "type": "Character",
+   "rarity": "U",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの「写真の見せ合いっこ なでしこ」すべてに、ソウルを＋1し、次の能力を与える。『【自】 このカードの与えたダメージがキャンセルされた時、あなたはこのカードを手札に戻してよい。』\n【起】［(1) あなたのキャラを2枚【レスト】する］ あなたは自分の山札の上から2枚を、控え室に置き、自分の控え室のレベルＸ以下の《ゆるキャン△》のキャラを1枚選び、手札に戻す。Ｘはそれらのカードのレベルの合計に等しい。（CXのレベルは0として扱う）\n\"「「「はぁぁ……口がしあわせ……」」」\"",
+   "traits": [
+    "ゆるキャン△",
+    "バイク"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_039.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-039S",
+   "name": "ダムシチュー実食！ 綾乃",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの「写真の見せ合いっこ なでしこ」すべてに、ソウルを＋1し、次の能力を与える。『【自】 このカードの与えたダメージがキャンセルされた時、あなたはこのカードを手札に戻してよい。』\n【起】［(1) あなたのキャラを2枚【レスト】する］ あなたは自分の山札の上から2枚を、控え室に置き、自分の控え室のレベルＸ以下の《ゆるキャン△》のキャラを1枚選び、手札に戻す。Ｘはそれらのカードのレベルの合計に等しい。（CXのレベルは0として扱う）\n\"-\"",
+   "traits": [
+    "ゆるキャン△",
+    "バイク"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_039s.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-040",
+   "name": "残念なお知らせ あおい",
+   "type": "Character",
+   "rarity": "U",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［手札の《ゆるキャン△》のキャラを1枚控え室に置く］ このカードが手札から舞台に置かれた時かアタックした時、あなたはコストを払ってよい。そうしたら、あなたは1枚引く。\n【自】 このカードが【リバース】した時、このカードのバトル相手のレベルが0以下なら、あなたはそのキャラを【リバース】してよい。\n\"お二人に残念なお知らせがございます\"",
+   "traits": [
+    "ゆるキャン△",
+    "関西弁"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_040.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-040S",
+   "name": "残念なお知らせ あおい",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［手札の《ゆるキャン△》のキャラを1枚控え室に置く］ このカードが手札から舞台に置かれた時かアタックした時、あなたはコストを払ってよい。そうしたら、あなたは1枚引く。\n【自】 このカードが【リバース】した時、このカードのバトル相手のレベルが0以下なら、あなたはそのキャラを【リバース】してよい。\n\"-\"",
+   "traits": [
+    "ゆるキャン△",
+    "関西弁"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_040s.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-041",
+   "name": "メモメモ なでしこ",
+   "type": "Character",
+   "rarity": "U",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【起】［(1) このカードを控え室に置く］ あなたは自分の山札を上から4枚まで見て、《ゆるキャン△》のキャラを2枚まで選んで相手に見せ、1枚選び、手札に加え、1枚選び、自分のカード名に「テント」を含むキャラの下にマーカーとして表向きに置き、残りのカードを控え室に置く。\n\"遊び心、遊び心……っと\"",
+   "traits": [
+    "ゆるキャン△",
+    "料理"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_041.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-041S",
+   "name": "メモメモ なでしこ",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【起】［(1) このカードを控え室に置く］ あなたは自分の山札を上から4枚まで見て、《ゆるキャン△》のキャラを2枚まで選んで相手に見せ、1枚選び、手札に加え、1枚選び、自分のカード名に「テント」を含むキャラの下にマーカーとして表向きに置き、残りのカードを控え室に置く。\n\"-\"",
+   "traits": [
+    "ゆるキャン△",
+    "料理"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_041s.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-042",
+   "name": "感動の再会 なでしこ",
+   "type": "Character",
+   "rarity": "U",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたの手札が5枚以上なら、このカードのパワーを＋2000。\n【起】 集中 ［(1)］ あなたは自分の山札の上から4枚をめくり、控え室に置く。それらのカードのCX1枚につき、次の行動を行う。『あなたは自分の控え室の《ゆるキャン△》のキャラを1枚選び、手札に戻し、自分の手札を1枚選び、控え室に置く。』\n\"ちーーくーーわぁーー\"",
+   "traits": [
+    "ゆるキャン△",
+    "料理"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_042.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-042S",
+   "name": "感動の再会 なでしこ",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたの手札が5枚以上なら、このカードのパワーを＋2000。\n【起】 集中 ［(1)］ あなたは自分の山札の上から4枚をめくり、控え室に置く。それらのカードのCX1枚につき、次の行動を行う。『あなたは自分の控え室の《ゆるキャン△》のキャラを1枚選び、手札に戻し、自分の手札を1枚選び、控え室に置く。』\n\"-\"",
+   "traits": [
+    "ゆるキャン△",
+    "料理"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_042s.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-043",
+   "name": "体力の限界 千明",
+   "type": "Character",
+   "rarity": "U",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札を上から2枚まで見て、山札の上に好きな順番で置く。\n【自】［(1) 手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の《ゆるキャン△》のキャラを1枚選び、手札に戻し、他の自分の《ゆるキャン△》のキャラを1枚選び、そのターン中、パワーを＋1000。\n\"危うくさっき食った奴がやきとりカレーになって<br>コンニチワする所だったぜ……\"",
+   "traits": [
+    "ゆるキャン△",
+    "メガネ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_043.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-043S",
+   "name": "体力の限界 千明",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札を上から2枚まで見て、山札の上に好きな順番で置く。\n【自】［(1) 手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の《ゆるキャン△》のキャラを1枚選び、手札に戻し、他の自分の《ゆるキャン△》のキャラを1枚選び、そのターン中、パワーを＋1000。\n\"-\"",
+   "traits": [
+    "ゆるキャン△",
+    "メガネ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_043s.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-044",
+   "name": "テントin大井川",
+   "type": "Character",
+   "rarity": "U",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 このカードは相手の効果に選ばれない。\n【永】 このカードの下のマーカーが1枚以上なら、他のあなたの《ゆるキャン△》のキャラすべてに、パワーを＋500。2枚以上なら、このカードは次の能力を得る。『【自】 あなたのCXフェイズの始めに、あなたは自分の《ゆるキャン△》のキャラを1枚選び、そのターン中、パワーを＋1500。』3枚以上なら、このカードは『【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋1000。』を得る。4枚以上なら、このカードは次の能力を得る。『【自】 あなたのCXフェイズの始めに、あなたは自分の《ゆるキャン△》のキャラを1枚選び、そのターン中、ソウルを＋1。』\n【自】 ターンの終わりに、あなたのマーカー置場のカードの合計が5枚以上なら、このカードを控え室に置く。\n\"-\"",
+   "traits": [
+    "ゆるキャン△"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_044.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-044S",
+   "name": "テントin大井川",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 このカードは相手の効果に選ばれない。\n【永】 このカードの下のマーカーが1枚以上なら、他のあなたの《ゆるキャン△》のキャラすべてに、パワーを＋500。2枚以上なら、このカードは次の能力を得る。『【自】 あなたのCXフェイズの始めに、あなたは自分の《ゆるキャン△》のキャラを1枚選び、そのターン中、パワーを＋1500。』3枚以上なら、このカードは『【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋1000。』を得る。4枚以上なら、このカードは次の能力を得る。『【自】 あなたのCXフェイズの始めに、あなたは自分の《ゆるキャン△》のキャラを1枚選び、そのターン中、ソウルを＋1。』\n【自】 ターンの終わりに、あなたのマーカー置場のカードの合計が5枚以上なら、このカードを控え室に置く。\n\"-\"",
+   "traits": [
+    "ゆるキャン△"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_044s.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-045",
+   "name": "桜めぐり なでしこ",
+   "type": "Character",
+   "rarity": "U",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1) あなたの山札の上から1枚をクロック置場に置く］ このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を上から2枚まで見て、《ゆるキャン△》のキャラを2枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。\n\"-\"",
+   "traits": [
+    "ゆるキャン△",
+    "料理"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_045.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-045S",
+   "name": "桜めぐり なでしこ",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1) あなたの山札の上から1枚をクロック置場に置く］ このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を上から2枚まで見て、《ゆるキャン△》のキャラを2枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。\n\"-\"",
+   "traits": [
+    "ゆるキャン△",
+    "料理"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_045s.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-046",
+   "name": "バイトガール 千明",
+   "type": "Character",
+   "rarity": "U",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのターン中、他のあなたの《ゆるキャン△》のキャラが2枚以上なら、このカードのパワーを＋2000。\n【自】［(1) 他のあなたの【スタンド】している《ゆるキャン△》のキャラを1枚【レスト】する］ このカードが手札から舞台に置かれたターン中、このカードのバトル相手が【リバース】した時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見て《ゆるキャン△》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"-\"",
+   "traits": [
+    "ゆるキャン△",
+    "メガネ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_046.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-046S",
+   "name": "バイトガール 千明",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのターン中、他のあなたの《ゆるキャン△》のキャラが2枚以上なら、このカードのパワーを＋2000。\n【自】［(1) 他のあなたの【スタンド】している《ゆるキャン△》のキャラを1枚【レスト】する］ このカードが手札から舞台に置かれたターン中、このカードのバトル相手が【リバース】した時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見て《ゆるキャン△》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"-\"",
+   "traits": [
+    "ゆるキャン△",
+    "メガネ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_046s.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-047",
+   "name": "家でダラダラ 桜",
+   "type": "Character",
+   "rarity": "U",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、そのターン中、このカードのパワーを＋Ｘ。Ｘはあなたの《ゆるキャン△》のキャラの枚数×500に等しい。\n【自】［(1) 手札を1枚控え室に置く］ このカードがフロントアタックされた時、あなたはコストを払ってよい。そうしたら、あなたは他の自分のカード名に「なでしこ」を含むキャラを1枚と、このカードを選び、手札に戻す。\n\"ん、おかえり\"",
+   "traits": [
+    "ゆるキャン△",
+    "しっかり者"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_047.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-047S",
+   "name": "家でダラダラ 桜",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、そのターン中、このカードのパワーを＋Ｘ。Ｘはあなたの《ゆるキャン△》のキャラの枚数×500に等しい。\n【自】［(1) 手札を1枚控え室に置く］ このカードがフロントアタックされた時、あなたはコストを払ってよい。そうしたら、あなたは他の自分のカード名に「なでしこ」を含むキャラを1枚と、このカードを選び、手札に戻す。\n\"-\"",
+   "traits": [
+    "ゆるキャン△",
+    "しっかり者"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_047s.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-048",
+   "name": "お先にどうぞ あおい",
+   "type": "Character",
+   "rarity": "U",
+   "color": "red",
+   "level": "1",
+   "cost": "1",
+   "power": "5500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの《ゆるキャン△》のキャラが2枚以上なら、このカードのパワーを＋1500し、このカードは『【自】 アンコール ［手札のキャラを1枚控え室に置く］』を得る。\n【自】【CXコンボ】 このカードのバトル相手が【リバース】した時、あなたのCX置場に「春風の中で」があるなら、あなたは自分の控え室のキャラを1枚選び、手札に戻してよい。\n\"-\"",
+   "traits": [
+    "ゆるキャン△",
+    "関西弁"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_048.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-048S",
+   "name": "お先にどうぞ あおい",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "1",
+   "cost": "1",
+   "power": "5500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの《ゆるキャン△》のキャラが2枚以上なら、このカードのパワーを＋1500し、このカードは『【自】 アンコール ［手札のキャラを1枚控え室に置く］』を得る。\n【自】【CXコンボ】 このカードのバトル相手が【リバース】した時、あなたのCX置場に「春風の中で」があるなら、あなたは自分の控え室のキャラを1枚選び、手札に戻してよい。\n\"-\"",
+   "traits": [
+    "ゆるキャン△",
+    "関西弁"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_048s.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-049",
+   "name": "温泉を満喫 なでしこ",
+   "type": "Character",
+   "rarity": "U",
+   "color": "red",
+   "level": "2",
+   "cost": "2",
+   "power": "8000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】【クロック】 アラーム ［手札を1枚控え室に置く］ このカードがクロックの1番上にあるなら、あなたのCXフェイズの始めに、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を上から3枚まで見て、《ゆるキャン△》のキャラを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。\n【自】 アンコール ［手札の《ゆるキャン△》のキャラを1枚控え室に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"-\"",
+   "traits": [
+    "ゆるキャン△",
+    "料理"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_049.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-049S",
+   "name": "温泉を満喫 なでしこ",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "2",
+   "cost": "2",
+   "power": "8000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】【クロック】 アラーム ［手札を1枚控え室に置く］ このカードがクロックの1番上にあるなら、あなたのCXフェイズの始めに、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を上から3枚まで見て、《ゆるキャン△》のキャラを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。\n【自】 アンコール ［手札の《ゆるキャン△》のキャラを1枚控え室に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"-\"",
+   "traits": [
+    "ゆるキャン△",
+    "料理"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_049s.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-050",
+   "name": "食後の川根茶ソフト なでしこ",
+   "type": "Character",
+   "rarity": "U",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "9500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたの控え室のCXが2枚以下なら、あなたの手札のこのカードのレベルを－1。\n【永】 他のあなたの《ゆるキャン△》のキャラが2枚以上なら、このカードのパワーを＋1000。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札を見て《ゆるキャン△》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"んむ～お茶の香りと苦味が口いっぱいに広がるぅ～\"",
+   "traits": [
+    "ゆるキャン△",
+    "料理"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_050.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-050S",
+   "name": "食後の川根茶ソフト なでしこ",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "9500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたの控え室のCXが2枚以下なら、あなたの手札のこのカードのレベルを－1。\n【永】 他のあなたの《ゆるキャン△》のキャラが2枚以上なら、このカードのパワーを＋1000。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札を見て《ゆるキャン△》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"-\"",
+   "traits": [
+    "ゆるキャン△",
+    "料理"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_050s.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-051",
+   "name": "桜めぐり 桜",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】【クロック】 アラーム このカードがクロックの1番上にあるなら、あなたの《ゆるキャン△》のキャラすべてに、次の能力を与える。『【自】 このカードがアタックした時、あなたは自分の山札を上から2枚まで見て、山札の上に好きな順番で置く。』\n\"-\"",
+   "traits": [
+    "ゆるキャン△",
+    "しっかり者"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_051.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-051S",
+   "name": "桜めぐり 桜",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】【クロック】 アラーム このカードがクロックの1番上にあるなら、あなたの《ゆるキャン△》のキャラすべてに、次の能力を与える。『【自】 このカードがアタックした時、あなたは自分の山札を上から2枚まで見て、山札の上に好きな順番で置く。』\n\"-\"",
+   "traits": [
+    "ゆるキャン△",
+    "しっかり者"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_051s.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-052",
+   "name": "車窓から見える景色 なでしこ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのターン中、このカードのパワーを＋1000。\n【自】 このカードが【リバース】した時、あなたは自分の山札を上から3枚まで見て、CXを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。手札に加えたなら、あなたは自分の手札を1枚選び、控え室に置く。\n\"-\"",
+   "traits": [
+    "ゆるキャン△",
+    "料理"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_052.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-052S",
+   "name": "車窓から見える景色 なでしこ",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのターン中、このカードのパワーを＋1000。\n【自】 このカードが【リバース】した時、あなたは自分の山札を上から3枚まで見て、CXを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。手札に加えたなら、あなたは自分の手札を1枚選び、控え室に置く。\n\"-\"",
+   "traits": [
+    "ゆるキャン△",
+    "料理"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_052s.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-053",
+   "name": "一人旅満喫 なでしこ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 あなたがこのカードの『助太刀』を使った時、あなたの《ゆるキャン△》のキャラがいるなら、あなたは自分のバトル中のキャラを1枚選び、そのターン中、パワーを＋1000。\n【起】【カウンター】 助太刀1000 レベル1 ［手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋1000）\n\"-\"",
+   "traits": [
+    "ゆるキャン△",
+    "料理"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_053.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-053S",
+   "name": "一人旅満喫 なでしこ",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 あなたがこのカードの『助太刀』を使った時、あなたの《ゆるキャン△》のキャラがいるなら、あなたは自分のバトル中のキャラを1枚選び、そのターン中、パワーを＋1000。\n【起】【カウンター】 助太刀1000 レベル1 ［手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋1000）\n\"-\"",
+   "traits": [
+    "ゆるキャン△",
+    "料理"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_053s.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-054",
+   "name": "モグモグなでしこ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのキャラすべてが《ゆるキャン△》なら、このカードのパワーを＋2000。\n【自】 このカードのバトル相手が【リバース】した時、あなたは自分の山札を上から2枚まで見て、山札の上に好きな順番で置く。\n\"-\"",
+   "traits": [
+    "ゆるキャン△",
+    "料理"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_054.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-054S",
+   "name": "モグモグなでしこ",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのキャラすべてが《ゆるキャン△》なら、このカードのパワーを＋2000。\n【自】 このカードのバトル相手が【リバース】した時、あなたは自分の山札を上から2枚まで見て、山札の上に好きな順番で置く。\n\"-\"",
+   "traits": [
+    "ゆるキャン△",
+    "料理"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_054s.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-055",
+   "name": "ふてくされるなでしこ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードがアタックした時、あなたは自分の山札の上から1枚を公開する。そのカードのレベルが1以上ならあなたは自分のカード名に「テント」を含むキャラの下にマーカーとして表向きに置いてよい。（CXのレベルは0として扱う。そうしないなら元に戻す）\n\"やっぱりあきちゃんはオデコが……\"",
+   "traits": [
+    "ゆるキャン△",
+    "料理"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_055.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-055S",
+   "name": "ふてくされるなでしこ",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードがアタックした時、あなたは自分の山札の上から1枚を公開する。そのカードのレベルが1以上ならあなたは自分のカード名に「テント」を含むキャラの下にマーカーとして表向きに置いてよい。（CXのレベルは0として扱う。そうしないなら元に戻す）\n\"-\"",
+   "traits": [
+    "ゆるキャン△",
+    "料理"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_055s.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-056",
+   "name": "写真の見せ合いっこ なでしこ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "5500",
+   "soul": 1,
+   "trigger": "",
+   "text": "-\n\"あ、桜の写真！私も撮ったんだよ、ほら！<br>……リンちゃんのも見ーせて\"",
+   "traits": [
+    "ゆるキャン△",
+    "料理"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_056.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-056S",
+   "name": "写真の見せ合いっこ なでしこ",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "5500",
+   "soul": 1,
+   "trigger": "",
+   "text": "-\n\"-\"",
+   "traits": [
+    "ゆるキャン△",
+    "料理"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_056s.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-057",
+   "name": "聞き手 千明",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "1",
+   "cost": "1",
+   "power": "5500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの《ゆるキャン△》のキャラが2枚以上なら、このカードのパワーを＋2000。\n【自】 アンコール ［手札のキャラを1枚控え室に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"ある物？\"",
+   "traits": [
+    "ゆるキャン△",
+    "メガネ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_057.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-057S",
+   "name": "聞き手 千明",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "1",
+   "cost": "1",
+   "power": "5500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの《ゆるキャン△》のキャラが2枚以上なら、このカードのパワーを＋2000。\n【自】 アンコール ［手札のキャラを1枚控え室に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"-\"",
+   "traits": [
+    "ゆるキャン△",
+    "メガネ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_057s.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-058",
+   "name": "温泉を満喫 綾乃",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "6500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたのターン中、他のあなたの《ゆるキャン△》のキャラが2枚以上なら、このカードのパワーを＋6000。\n【自】【CXコンボ】 あなたのアンコールステップの始めに、CX置場に「吊り橋の上で」があり、前列にこのカードがいて、このカードの正面のキャラがいないか【リバース】しているなら、あなたは自分の山札の上から1枚までを、ストック置場に置き、次の相手のターンの終わりまで、このカードは次の能力を得る。『【永】 このカードは【リバース】しない。』\n\"-\"",
+   "traits": [
+    "ゆるキャン△",
+    "バイク"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_058.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-058S",
+   "name": "温泉を満喫 綾乃",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "6500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたのターン中、他のあなたの《ゆるキャン△》のキャラが2枚以上なら、このカードのパワーを＋6000。\n【自】【CXコンボ】 あなたのアンコールステップの始めに、CX置場に「吊り橋の上で」があり、前列にこのカードがいて、このカードの正面のキャラがいないか【リバース】しているなら、あなたは自分の山札の上から1枚までを、ストック置場に置き、次の相手のターンの終わりまで、このカードは次の能力を得る。『【永】 このカードは【リバース】しない。』\n\"-\"",
+   "traits": [
+    "ゆるキャン△",
+    "バイク"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_058s.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-059",
+   "name": "やきとりを頬張って あおい",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "2",
+   "cost": "2",
+   "power": "6000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの前列の《ゆるキャン△》のキャラ1枚につき、このカードのパワーを＋2000。\n【自】 アンコール ［手札のキャラを1枚控え室に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"塩味やと何ていうか肉食うてる！感が強いよね\"",
+   "traits": [
+    "ゆるキャン△",
+    "関西弁"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_059.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-059S",
+   "name": "やきとりを頬張って あおい",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "2",
+   "cost": "2",
+   "power": "6000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの前列の《ゆるキャン△》のキャラ1枚につき、このカードのパワーを＋2000。\n【自】 アンコール ［手札のキャラを1枚控え室に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"-\"",
+   "traits": [
+    "ゆるキャン△",
+    "関西弁"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_059s.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-060",
+   "name": "慈雲寺でスリーショット！",
+   "type": "Climax",
+   "rarity": "CR",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[salvage.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[salvage.gif]]：このカードがトリガーした時、あなたは自分の控え室のキャラを1枚選び、手札に戻してよい）\n\"なでしこ「『じうんじ』って<br>何かこう口に出して<br>言いたくならない？」\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_060.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-060R",
+   "name": "慈雲寺でスリーショット！",
+   "type": "Climax",
+   "rarity": "RRR",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[salvage.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[salvage.gif]]：このカードがトリガーした時、あなたは自分の控え室のキャラを1枚選び、手札に戻してよい）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_060r.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-061",
+   "name": "はいチーズ！",
+   "type": "Climax",
+   "rarity": "CR",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[salvage.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[salvage.gif]]：このカードがトリガーした時、あなたは自分の控え室のキャラを1枚選び、手札に戻してよい）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_061.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-061EX",
+   "name": "はいチーズ！",
+   "type": "Climax",
+   "rarity": "RRR+",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[salvage.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[salvage.gif]]：このカードがトリガーした時、あなたは自分の控え室のキャラを1枚選び、手札に戻してよい）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_061ex.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-061R",
+   "name": "はいチーズ！",
+   "type": "Climax",
+   "rarity": "RRR",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[salvage.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[salvage.gif]]：このカードがトリガーした時、あなたは自分の控え室のキャラを1枚選び、手札に戻してよい）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_061r.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-062",
+   "name": "ソロキャンの暇つぶし",
+   "type": "Climax",
+   "rarity": "CR",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[standby.gif]]",
+   "text": "【自】 このカードが手札からCX置場に置かれた時、[[standby.gif]]の効果を行う。\n（[[standby.gif]]：このカードがトリガーした時、あなたは自分の控え室の自分のレベル＋1以下のレベルのキャラを1枚選び、舞台の好きな枠に【レスト】して置いてよい）\n\"自作ノンアルカクテルだ\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_062.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-062R",
+   "name": "ソロキャンの暇つぶし",
+   "type": "Climax",
+   "rarity": "RRR",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[standby.gif]]",
+   "text": "【自】 このカードが手札からCX置場に置かれた時、[[standby.gif]]の効果を行う。\n（[[standby.gif]]：このカードがトリガーした時、あなたは自分の控え室の自分のレベル＋1以下のレベルのキャラを1枚選び、舞台の好きな枠に【レスト】して置いてよい）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_062r.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-063",
+   "name": "春風の中で",
+   "type": "Climax",
+   "rarity": "CR",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[standby.gif]]",
+   "text": "【自】 このカードが手札からCX置場に置かれた時、[[standby.gif]]の効果を行う。\n（[[standby.gif]]：このカードがトリガーした時、あなたは自分の控え室の自分のレベル＋1以下のレベルのキャラを1枚選び、舞台の好きな枠に【レスト】して置いてよい）\n\"あおい「静かでええキャンプ場やね」<br>千明「だよな～」\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_063.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-063R",
+   "name": "春風の中で",
+   "type": "Climax",
+   "rarity": "RRR",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[standby.gif]]",
+   "text": "【自】 このカードが手札からCX置場に置かれた時、[[standby.gif]]の効果を行う。\n（[[standby.gif]]：このカードがトリガーした時、あなたは自分の控え室の自分のレベル＋1以下のレベルのキャラを1枚選び、舞台の好きな枠に【レスト】して置いてよい）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_063r.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-064",
+   "name": "吊り橋の上で",
+   "type": "Climax",
+   "rarity": "CR",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[salvage.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[salvage.gif]]：このカードがトリガーした時、あなたは自分の控え室のキャラを1枚選び、手札に戻してよい）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_064.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-064EX",
+   "name": "吊り橋の上で",
+   "type": "Climax",
+   "rarity": "RRR+",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[salvage.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[salvage.gif]]：このカードがトリガーした時、あなたは自分の控え室のキャラを1枚選び、手札に戻してよい）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_064ex.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-064R",
+   "name": "吊り橋の上で",
+   "type": "Climax",
+   "rarity": "RRR",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[salvage.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[salvage.gif]]：このカードがトリガーした時、あなたは自分の控え室のキャラを1枚選び、手札に戻してよい）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_064r.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-065",
+   "name": "吊り橋の上から リン",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1) あなたの山札の上から1枚をクロック置場に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見てレベル1以下のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n【自】 あなたのCXフェイズの始めに、あなたは自分の《ゆるキャン△》のキャラを1枚選び、そのターン中、パワーを＋1000。\n\"いい景色だ\"",
+   "traits": [
+    "ゆるキャン△",
+    "バイク"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_065.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-065EX",
+   "name": "吊り橋の上から リン",
+   "type": "Character",
+   "rarity": "SEC+",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1) あなたの山札の上から1枚をクロック置場に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見てレベル1以下のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n【自】 あなたのCXフェイズの始めに、あなたは自分の《ゆるキャン△》のキャラを1枚選び、そのターン中、パワーを＋1000。\n\"-\"",
+   "traits": [
+    "ゆるキャン△",
+    "バイク"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_065ex.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-065S",
+   "name": "吊り橋の上から リン",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1) あなたの山札の上から1枚をクロック置場に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見てレベル1以下のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n【自】 あなたのCXフェイズの始めに、あなたは自分の《ゆるキャン△》のキャラを1枚選び、そのターン中、パワーを＋1000。\n\"-\"",
+   "traits": [
+    "ゆるキャン△",
+    "バイク"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_065s.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-066",
+   "name": "バイク乗り 綾乃",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのストックが2枚以下なら、このカードのパワーを＋1500。\n【自】 このカードのバトル相手が【リバース】した時、あなたは他の自分の《ゆるキャン△》のキャラを1枚選び、【レスト】し、後列のキャラのいない枠に動かす。\n\"今度は山梨（そっち）まで行くからさ\"",
+   "traits": [
+    "ゆるキャン△",
+    "バイク"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_066.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-066S",
+   "name": "バイク乗り 綾乃",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのストックが2枚以下なら、このカードのパワーを＋1500。\n【自】 このカードのバトル相手が【リバース】した時、あなたは他の自分の《ゆるキャン△》のキャラを1枚選び、【レスト】し、後列のキャラのいない枠に動かす。\n\"-\"",
+   "traits": [
+    "ゆるキャン△",
+    "バイク"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_066s.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-066SSP",
+   "name": "バイク乗り 綾乃",
+   "type": "Character",
+   "rarity": "SSP",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのストックが2枚以下なら、このカードのパワーを＋1500。\n【自】 このカードのバトル相手が【リバース】した時、あなたは他の自分の《ゆるキャン△》のキャラを1枚選び、【レスト】し、後列のキャラのいない枠に動かす。\n\"-\"",
+   "traits": [
+    "ゆるキャン△",
+    "バイク"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_066ssp.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-067",
+   "name": "険道を越えた先に リン",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのターン中、他のあなたの《ゆるキャン△》のキャラが2枚以上なら、このカードのパワーを＋2000。\n【自】【CXコンボ】［手札を1枚控え室に置く］ このカードがアタックした時、CX置場に「桜を見上げて」があるなら、あなたはコストを払ってよい。そうしたら、次の行動を2回行う。『あなたは自分の山札を上から3枚まで見て、《ゆるキャン△》のキャラを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。』\n\"疲れたし怖かったけど<br>吊り橋まで行ってよかったんじゃない？\"",
+   "traits": [
+    "ゆるキャン△",
+    "バイク"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_067.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-067S",
+   "name": "険道を越えた先に リン",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのターン中、他のあなたの《ゆるキャン△》のキャラが2枚以上なら、このカードのパワーを＋2000。\n【自】【CXコンボ】［手札を1枚控え室に置く］ このカードがアタックした時、CX置場に「桜を見上げて」があるなら、あなたはコストを払ってよい。そうしたら、次の行動を2回行う。『あなたは自分の山札を上から3枚まで見て、《ゆるキャン△》のキャラを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。』\n\"-\"",
+   "traits": [
+    "ゆるキャン△",
+    "バイク"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_067s.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-067SP",
+   "name": "険道を越えた先に リン",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのターン中、他のあなたの《ゆるキャン△》のキャラが2枚以上なら、このカードのパワーを＋2000。\n【自】【CXコンボ】［手札を1枚控え室に置く］ このカードがアタックした時、CX置場に「桜を見上げて」があるなら、あなたはコストを払ってよい。そうしたら、次の行動を2回行う。『あなたは自分の山札を上から3枚まで見て、《ゆるキャン△》のキャラを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。』\n\"-\"",
+   "traits": [
+    "ゆるキャン△",
+    "バイク"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_067sp.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-068",
+   "name": "次のキャンプ リン",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "blue",
+   "level": "3",
+   "cost": "2",
+   "power": "8500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたのカード名に「テント」を含むキャラの下のマーカーの枚数の合計が3枚以上なら、このカードのパワーを＋2500し、このカードは次の能力を得る。『【自】［(1) 手札を1枚控え室に置く］ このカードがアタックした時、あなたはコストを払ってよい。そうしたら、相手に1ダメージを与える。』（ダメージキャンセルは発生する）\n【自】 このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n【自】【CXコンボ】［(1) 手札を1枚控え室に置く］ このカードがアタックした時、CX置場に「あちあちパスタ」があり、他のあなたの《ゆるキャン△》のキャラが2枚以上なら、あなたはコストを払ってよい。そうしたら、相手に3ダメージを与える。（ダメージキャンセルは発生する）\n\"次、どこ行こうか\"",
+   "traits": [
+    "ゆるキャン△",
+    "バイク"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_068.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-068S",
+   "name": "次のキャンプ リン",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "3",
+   "cost": "2",
+   "power": "8500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたのカード名に「テント」を含むキャラの下のマーカーの枚数の合計が3枚以上なら、このカードのパワーを＋2500し、このカードは次の能力を得る。『【自】［(1) 手札を1枚控え室に置く］ このカードがアタックした時、あなたはコストを払ってよい。そうしたら、相手に1ダメージを与える。』（ダメージキャンセルは発生する）\n【自】 このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n【自】【CXコンボ】［(1) 手札を1枚控え室に置く］ このカードがアタックした時、CX置場に「あちあちパスタ」があり、他のあなたの《ゆるキャン△》のキャラが2枚以上なら、あなたはコストを払ってよい。そうしたら、相手に3ダメージを与える。（ダメージキャンセルは発生する）\n\"-\"",
+   "traits": [
+    "ゆるキャン△",
+    "バイク"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_068s.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-068SSP",
+   "name": "次のキャンプ リン",
+   "type": "Character",
+   "rarity": "SSP",
+   "color": "blue",
+   "level": "3",
+   "cost": "2",
+   "power": "8500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたのカード名に「テント」を含むキャラの下のマーカーの枚数の合計が3枚以上なら、このカードのパワーを＋2500し、このカードは次の能力を得る。『【自】［(1) 手札を1枚控え室に置く］ このカードがアタックした時、あなたはコストを払ってよい。そうしたら、相手に1ダメージを与える。』（ダメージキャンセルは発生する）\n【自】 このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n【自】【CXコンボ】［(1) 手札を1枚控え室に置く］ このカードがアタックした時、CX置場に「あちあちパスタ」があり、他のあなたの《ゆるキャン△》のキャラが2枚以上なら、あなたはコストを払ってよい。そうしたら、相手に3ダメージを与える。（ダメージキャンセルは発生する）\n\"-\"",
+   "traits": [
+    "ゆるキャン△",
+    "バイク"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_068ssp.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-069",
+   "name": "大きな伸び 恵那",
+   "type": "Character",
+   "rarity": "R",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［手札のCXを1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の《ゆるキャン△》のキャラを2枚まで選び、1枚選び、手札に戻し、1枚選び、自分のカード名に「テント」を含むキャラの下にマーカーとして表向きに置き、残りのカードを控え室に置く。\n\"おはよー\"",
+   "traits": [
+    "ゆるキャン△",
+    "マイペース"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_069.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-069S",
+   "name": "大きな伸び 恵那",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［手札のCXを1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の《ゆるキャン△》のキャラを2枚まで選び、1枚選び、手札に戻し、1枚選び、自分のカード名に「テント」を含むキャラの下にマーカーとして表向きに置き、残りのカードを控え室に置く。\n\"-\"",
+   "traits": [
+    "ゆるキャン△",
+    "マイペース"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_069s.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-069SP",
+   "name": "大きな伸び 恵那",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［手札のCXを1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の《ゆるキャン△》のキャラを2枚まで選び、1枚選び、手札に戻し、1枚選び、自分のカード名に「テント」を含むキャラの下にマーカーとして表向きに置き、残りのカードを控え室に置く。\n\"-\"",
+   "traits": [
+    "ゆるキャン△",
+    "マイペース"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_069sp.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-070",
+   "name": "ダムシチュー実食！ リン",
+   "type": "Character",
+   "rarity": "R",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【起】［(1)］ あなたは1枚引き、自分の手札を1枚選び、控え室に置く。\n【起】 集中 ［(1) このカードを【レスト】する］ あなたは自分の山札の上から4枚をめくり、控え室に置く。それらのカードのCX1枚につき、あなたは自分の山札を見て《ゆるキャン△》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"「「「はぁぁ……口がしあわせ……」」」\"",
+   "traits": [
+    "ゆるキャン△",
+    "バイク"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_070.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-070S",
+   "name": "ダムシチュー実食！ リン",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【起】［(1)］ あなたは1枚引き、自分の手札を1枚選び、控え室に置く。\n【起】 集中 ［(1) このカードを【レスト】する］ あなたは自分の山札の上から4枚をめくり、控え室に置く。それらのカードのCX1枚につき、あなたは自分の山札を見て《ゆるキャン△》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"-\"",
+   "traits": [
+    "ゆるキャン△",
+    "バイク"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_070s.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-071",
+   "name": "のんびりソロキャンパー リン",
+   "type": "Character",
+   "rarity": "R",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【起】［手札を1枚控え室に置き、このカードを控え室に置く］ あなたは自分のカード名に「テント」を含むキャラを1枚選び、自分の控え室の「のんびりソロキャンパー リン」を1枚まで選び、そのキャラの下にマーカーとして表向きに置き、自分の控え室の《ゆるキャン△》のキャラを1枚選び、手札に戻す。\n\"何か久々にソロでのんびり出来たな…\"",
+   "traits": [
+    "ゆるキャン△",
+    "バイク"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_071.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-071S",
+   "name": "のんびりソロキャンパー リン",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【起】［手札を1枚控え室に置き、このカードを控え室に置く］ あなたは自分のカード名に「テント」を含むキャラを1枚選び、自分の控え室の「のんびりソロキャンパー リン」を1枚まで選び、そのキャラの下にマーカーとして表向きに置き、自分の控え室の《ゆるキャン△》のキャラを1枚選び、手札に戻す。\n\"-\"",
+   "traits": [
+    "ゆるキャン△",
+    "バイク"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_071s.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-071SP",
+   "name": "のんびりソロキャンパー リン",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【起】［手札を1枚控え室に置き、このカードを控え室に置く］ あなたは自分のカード名に「テント」を含むキャラを1枚選び、自分の控え室の「のんびりソロキャンパー リン」を1枚まで選び、そのキャラの下にマーカーとして表向きに置き、自分の控え室の《ゆるキャン△》のキャラを1枚選び、手札に戻す。\n\"-\"",
+   "traits": [
+    "ゆるキャン△",
+    "バイク"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_071sp.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-072",
+   "name": "ちくわ用キャンプセット設営中！ 恵那",
+   "type": "Character",
+   "rarity": "R",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［手札を1枚控え室に置く］ このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を上から4枚まで見て、レベル1以上のカードを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。（CXのレベルは0として扱う）\n【起】［このカードを控え室に置く］ あなたは自分の《ゆるキャン△》のキャラを1枚選び、そのターン中、パワーを＋2000。\n\"おまたせおまたせ、こっちも設営しちゃうねー\"",
+   "traits": [
+    "ゆるキャン△",
+    "マイペース"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_072.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-072S",
+   "name": "ちくわ用キャンプセット設営中！ 恵那",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［手札を1枚控え室に置く］ このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を上から4枚まで見て、レベル1以上のカードを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。（CXのレベルは0として扱う）\n【起】［このカードを控え室に置く］ あなたは自分の《ゆるキャン△》のキャラを1枚選び、そのターン中、パワーを＋2000。\n\"-\"",
+   "traits": [
+    "ゆるキャン△",
+    "マイペース"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_072s.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-072SSP",
+   "name": "ちくわ用キャンプセット設営中！ 恵那",
+   "type": "Character",
+   "rarity": "SSP",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［手札を1枚控え室に置く］ このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を上から4枚まで見て、レベル1以上のカードを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。（CXのレベルは0として扱う）\n【起】［このカードを控え室に置く］ あなたは自分の《ゆるキャン△》のキャラを1枚選び、そのターン中、パワーを＋2000。\n\"-\"",
+   "traits": [
+    "ゆるキャン△",
+    "マイペース"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_072ssp.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-073",
+   "name": "険道を越えた先に 綾乃",
+   "type": "Character",
+   "rarity": "R",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見てレベル0以下のキャラを1枚まで選び、舞台の好きな枠に置き、その山札をシャッフルする。\n【自】 このカードが【リバース】した時、このカードのバトル相手のコストが0以下なら、あなたはそのキャラを山札の下に置いてよい。\n\"二人が呼んでくれたら どこだって走って行くから\"",
+   "traits": [
+    "ゆるキャン△",
+    "バイク"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_073.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-073S",
+   "name": "険道を越えた先に 綾乃",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見てレベル0以下のキャラを1枚まで選び、舞台の好きな枠に置き、その山札をシャッフルする。\n【自】 このカードが【リバース】した時、このカードのバトル相手のコストが0以下なら、あなたはそのキャラを山札の下に置いてよい。\n\"-\"",
+   "traits": [
+    "ゆるキャン△",
+    "バイク"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_073s.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-073SP",
+   "name": "険道を越えた先に 綾乃",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見てレベル0以下のキャラを1枚まで選び、舞台の好きな枠に置き、その山札をシャッフルする。\n【自】 このカードが【リバース】した時、このカードのバトル相手のコストが0以下なら、あなたはそのキャラを山札の下に置いてよい。\n\"-\"",
+   "traits": [
+    "ゆるキャン△",
+    "バイク"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_073sp.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-074",
+   "name": "孫☆ライダーズ 綾乃",
+   "type": "Character",
+   "rarity": "R",
+   "color": "blue",
+   "level": "1",
+   "cost": "1",
+   "power": "6500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【起】［このカードを山札の下に置く］ あなたは自分の山札を見て《ゆるキャン△》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"じゃあ私たち孫☆ライダーズだね!!\"",
+   "traits": [
+    "ゆるキャン△",
+    "バイク"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_074.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-074S",
+   "name": "孫☆ライダーズ 綾乃",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "1",
+   "cost": "1",
+   "power": "6500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【起】［このカードを山札の下に置く］ あなたは自分の山札を見て《ゆるキャン△》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"-\"",
+   "traits": [
+    "ゆるキャン△",
+    "バイク"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_074s.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-075",
+   "name": "満身創痍 綾乃",
+   "type": "Character",
+   "rarity": "R",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 あなたがこのカードの『助太刀』を使った時、あなたは自分のバトル中のキャラを1枚選び、そのターン中、次の能力を与える。『【自】 このカードのバトル相手が【リバース】した時、あなたはそのキャラを思い出にする。』\n【起】【カウンター】 助太刀3000 レベル2 ［(1) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋3000）\n\"あとは……まかせた…\"",
+   "traits": [
+    "ゆるキャン△",
+    "バイク"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_075.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-075S",
+   "name": "満身創痍 綾乃",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 あなたがこのカードの『助太刀』を使った時、あなたは自分のバトル中のキャラを1枚選び、そのターン中、次の能力を与える。『【自】 このカードのバトル相手が【リバース】した時、あなたはそのキャラを思い出にする。』\n【起】【カウンター】 助太刀3000 レベル2 ［(1) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋3000）\n\"-\"",
+   "traits": [
+    "ゆるキャン△",
+    "バイク"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_075s.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-075SP",
+   "name": "満身創痍 綾乃",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 あなたがこのカードの『助太刀』を使った時、あなたは自分のバトル中のキャラを1枚選び、そのターン中、次の能力を与える。『【自】 このカードのバトル相手が【リバース】した時、あなたはそのキャラを思い出にする。』\n【起】【カウンター】 助太刀3000 レベル2 ［(1) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋3000）\n\"-\"",
+   "traits": [
+    "ゆるキャン△",
+    "バイク"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_075sp.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-076",
+   "name": "テントin大井川",
+   "type": "Character",
+   "rarity": "U",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 このカードは相手の効果に選ばれない。\n【永】 このカードの下のマーカーが1枚以上なら、他のあなたの《ゆるキャン△》のキャラすべてに、パワーを＋500。2枚以上なら、このカードは次の能力を得る。『【自】［手札を1枚控え室に置く］ あなたのCXがトリガーした時、他のあなたの《ゆるキャン△》のキャラがいるなら、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室のキャラを1枚選び、手札に戻す。』3枚以上なら、このカードは『【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋1000。』を得る。\n【自】 ターンの終わりに、あなたのマーカー置場のカードの合計が5枚以上なら、このカードを控え室に置く。\n\"-\"",
+   "traits": [
+    "ゆるキャン△"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_076.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-076S",
+   "name": "テントin大井川",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 このカードは相手の効果に選ばれない。\n【永】 このカードの下のマーカーが1枚以上なら、他のあなたの《ゆるキャン△》のキャラすべてに、パワーを＋500。2枚以上なら、このカードは次の能力を得る。『【自】［手札を1枚控え室に置く］ あなたのCXがトリガーした時、他のあなたの《ゆるキャン△》のキャラがいるなら、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室のキャラを1枚選び、手札に戻す。』3枚以上なら、このカードは『【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋1000。』を得る。\n【自】 ターンの終わりに、あなたのマーカー置場のカードの合計が5枚以上なら、このカードを控え室に置く。\n\"-\"",
+   "traits": [
+    "ゆるキャン△"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_076s.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-077",
+   "name": "土岐綾乃",
+   "type": "Character",
+   "rarity": "U",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのターン中、あなたのキャラすべてが《ゆるキャン△》なら、このカードのパワーを＋2000。\n【自】【CXコンボ】 このカードがアタックした時、CX置場に「ツーリングキャンプ」があり、他のあなたの《ゆるキャン△》のキャラが3枚以上なら、あなたは自分の山札の上から2枚を公開し、相手はそれらのカードのキャラかイベントを1枚選び、あなたの手札に加え、残りのカードを控え室に置く。\n\"-\"",
+   "traits": [
+    "ゆるキャン△",
+    "バイク"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_077.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-077S",
+   "name": "土岐綾乃",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのターン中、あなたのキャラすべてが《ゆるキャン△》なら、このカードのパワーを＋2000。\n【自】【CXコンボ】 このカードがアタックした時、CX置場に「ツーリングキャンプ」があり、他のあなたの《ゆるキャン△》のキャラが3枚以上なら、あなたは自分の山札の上から2枚を公開し、相手はそれらのカードのキャラかイベントを1枚選び、あなたの手札に加え、残りのカードを控え室に置く。\n\"-\"",
+   "traits": [
+    "ゆるキャン△",
+    "バイク"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_077s.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-078",
+   "name": "お先にどうぞ 恵那",
+   "type": "Character",
+   "rarity": "U",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、次の行動を2回行う。『あなたは自分の山札を上から1枚見て、山札の上か下に置く。』\n【自】 このカードが【リバース】した時、このカードのバトル相手のレベルがＸ以下なら、あなたはそのキャラを【リバース】してよい。Ｘはあなたの控え室の「次のキャンプ リン」の枚数に等しい。\n\"-\"",
+   "traits": [
+    "ゆるキャン△",
+    "マイペース"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_078.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-078S",
+   "name": "お先にどうぞ 恵那",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、次の行動を2回行う。『あなたは自分の山札を上から1枚見て、山札の上か下に置く。』\n【自】 このカードが【リバース】した時、このカードのバトル相手のレベルがＸ以下なら、あなたはそのキャラを【リバース】してよい。Ｘはあなたの控え室の「次のキャンプ リン」の枚数に等しい。\n\"-\"",
+   "traits": [
+    "ゆるキャン△",
+    "マイペース"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_078s.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-079",
+   "name": "温泉を満喫 リン",
+   "type": "Character",
+   "rarity": "U",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのターン中、他のあなたの《ゆるキャン△》のキャラが2枚以上なら、このカードのパワーを＋2000。\n【自】 このカードがアタックした時、あなたのCX置場にCXがあるなら、あなたは自分の山札の上から1枚を公開する。そのカードのレベルが1以上ならストック置場に置く。（CXのレベルは0として扱う。そうでないなら元に戻す）\n\"……すごい場所にある温泉だ。<br>朝夕はもっといい景色なんだろうなぁ\"",
+   "traits": [
+    "ゆるキャン△",
+    "バイク"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_079.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-079S",
+   "name": "温泉を満喫 リン",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのターン中、他のあなたの《ゆるキャン△》のキャラが2枚以上なら、このカードのパワーを＋2000。\n【自】 このカードがアタックした時、あなたのCX置場にCXがあるなら、あなたは自分の山札の上から1枚を公開する。そのカードのレベルが1以上ならストック置場に置く。（CXのレベルは0として扱う。そうでないなら元に戻す）\n\"-\"",
+   "traits": [
+    "ゆるキャン△",
+    "バイク"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_079s.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-080",
+   "name": "控えめの挨拶 リン",
+   "type": "Character",
+   "rarity": "U",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1) 他のあなたの【スタンド】している《ゆるキャン△》のキャラを1枚【レスト】する］ このカードが手札から舞台に置かれたターン中、このカードのバトル相手が【リバース】した時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の《ゆるキャン△》のキャラを2枚まで選び、1枚選び、手札に戻し、1枚選び、自分のカード名に「テント」を含むキャラの下にマーカーとして表向きに置き、残りのカードを控え室に置く。\n\"お\"",
+   "traits": [
+    "ゆるキャン△",
+    "バイク"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_080.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-080S",
+   "name": "控えめの挨拶 リン",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1) 他のあなたの【スタンド】している《ゆるキャン△》のキャラを1枚【レスト】する］ このカードが手札から舞台に置かれたターン中、このカードのバトル相手が【リバース】した時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の《ゆるキャン△》のキャラを2枚まで選び、1枚選び、手札に戻し、1枚選び、自分のカード名に「テント」を含むキャラの下にマーカーとして表向きに置き、残りのカードを控え室に置く。\n\"-\"",
+   "traits": [
+    "ゆるキャン△",
+    "バイク"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_080s.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-081",
+   "name": "真剣な眼差し 恵那",
+   "type": "Character",
+   "rarity": "U",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】［(2)］ あなたがこのカードの『助太刀』を使った時、あなたの《ゆるキャン△》のキャラが4枚以上なら、あなたはコストを払ってよい。そうしたら、あなたは相手の、レベルが相手のレベルより高いキャラを1枚選び、控え室に置く。\n【起】【カウンター】 助太刀2500 レベル2 ［(1) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋2500）\n\"それってマズいの？\"",
+   "traits": [
+    "ゆるキャン△",
+    "マイペース"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_081.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-081S",
+   "name": "真剣な眼差し 恵那",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】［(2)］ あなたがこのカードの『助太刀』を使った時、あなたの《ゆるキャン△》のキャラが4枚以上なら、あなたはコストを払ってよい。そうしたら、あなたは相手の、レベルが相手のレベルより高いキャラを1枚選び、控え室に置く。\n【起】【カウンター】 助太刀2500 レベル2 ［(1) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋2500）\n\"-\"",
+   "traits": [
+    "ゆるキャン△",
+    "マイペース"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_081s.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-082",
+   "name": "写真の見せ合いっこ リン",
+   "type": "Character",
+   "rarity": "U",
+   "color": "blue",
+   "level": "3",
+   "cost": "2",
+   "power": "9500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたの控え室のCXが2枚以下なら、あなたの手札のこのカードのレベルを－1。\n【永】 他のあなたの後列の《ゆるキャン△》のキャラ1枚につき、このカードのパワーを＋500。\n【自】［手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分のクロック置場の《ゆるキャン△》のキャラを1枚選び、手札に戻す。\n\"あんまり変わらないと思うけど……\"",
+   "traits": [
+    "ゆるキャン△",
+    "バイク"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_082.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-082S",
+   "name": "写真の見せ合いっこ リン",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "3",
+   "cost": "2",
+   "power": "9500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたの控え室のCXが2枚以下なら、あなたの手札のこのカードのレベルを－1。\n【永】 他のあなたの後列の《ゆるキャン△》のキャラ1枚につき、このカードのパワーを＋500。\n【自】［手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分のクロック置場の《ゆるキャン△》のキャラを1枚選び、手札に戻す。\n\"-\"",
+   "traits": [
+    "ゆるキャン△",
+    "バイク"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_082s.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-083",
+   "name": "不覚の二度寝 リン",
+   "type": "Character",
+   "rarity": "U",
+   "color": "blue",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n【自】［(3) 手札を2枚控え室に置く］ このカードのアタックの終わりに、あなたはコストを払ってよい。そうしたら、相手に4ダメージを与える。（ダメージキャンセルは発生する）\n\"二度寝してた……\"",
+   "traits": [
+    "ゆるキャン△",
+    "バイク"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_083.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-083S",
+   "name": "不覚の二度寝 リン",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n【自】［(3) 手札を2枚控え室に置く］ このカードのアタックの終わりに、あなたはコストを払ってよい。そうしたら、相手に4ダメージを与える。（ダメージキャンセルは発生する）\n\"-\"",
+   "traits": [
+    "ゆるキャン△",
+    "バイク"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_083s.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-084",
+   "name": "久々のソロキャン リン",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのレベルが1以上なら、あなたの手札の「下調べ 恵那」のレベルを－1。\n【起】 集中 ［(1) このカードを【レスト】する］ あなたは自分の山札の上から4枚をめくり、控え室に置く。それらのカードのCX1枚につき、あなたは自分の控え室のコスト0以下のキャラを1枚まで選び、舞台の別々の枠に置く。\n\"穴場なのは聞いてたけど、マジで誰もいない……\"",
+   "traits": [
+    "ゆるキャン△",
+    "バイク"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_084.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-084S",
+   "name": "久々のソロキャン リン",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのレベルが1以上なら、あなたの手札の「下調べ 恵那」のレベルを－1。\n【起】 集中 ［(1) このカードを【レスト】する］ あなたは自分の山札の上から4枚をめくり、控え室に置く。それらのカードのCX1枚につき、あなたは自分の控え室のコスト0以下のキャラを1枚まで選び、舞台の別々の枠に置く。\n\"-\"",
+   "traits": [
+    "ゆるキャン△",
+    "バイク"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_084s.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-085",
+   "name": "キャンプに前向き リン",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時かアタックした時、あなたは自分の《ゆるキャン△》のキャラを1枚選び、そのターン中、パワーを＋1500。\n\"花見キャンプか……、分かった、考えとくよ\"",
+   "traits": [
+    "ゆるキャン△",
+    "バイク"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_085.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-085S",
+   "name": "キャンプに前向き リン",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時かアタックした時、あなたは自分の《ゆるキャン△》のキャラを1枚選び、そのターン中、パワーを＋1500。\n\"-\"",
+   "traits": [
+    "ゆるキャン△",
+    "バイク"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_085s.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-086",
+   "name": "新城肇",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードがアタックした時、あなたは他の自分のカード名に「リン」を含むキャラすべてに、そのターン中、パワーを＋2000。\n\"-\"",
+   "traits": [
+    "ゆるキャン△",
+    "バイク"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_086.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-086S",
+   "name": "新城肇",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードがアタックした時、あなたは他の自分のカード名に「リン」を含むキャラすべてに、そのターン中、パワーを＋2000。\n\"-\"",
+   "traits": [
+    "ゆるキャン△",
+    "バイク"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_086s.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-087",
+   "name": "車窓から見える景色 恵那",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは相手のキャラを1枚まで選び、思い出にし、相手は自分の思い出置場のそのキャラを、舞台の好きな枠に置く。\n【自】 相手のCXがCX置場に置かれた時、あなたはこのカードをストック置場に置いてよい。\n\"-\"",
+   "traits": [
+    "ゆるキャン△",
+    "マイペース"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_087.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-087S",
+   "name": "車窓から見える景色 恵那",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは相手のキャラを1枚まで選び、思い出にし、相手は自分の思い出置場のそのキャラを、舞台の好きな枠に置く。\n【自】 相手のCXがCX置場に置かれた時、あなたはこのカードをストック置場に置いてよい。\n\"-\"",
+   "traits": [
+    "ゆるキャン△",
+    "マイペース"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_087s.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-088",
+   "name": "思い出の風景 リン",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 あなたのCXがCX置場に置かれた時、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋3000。\n【自】 このカードがアタックした時、このカードの正面のキャラのレベルが2なら、そのターン中、このカードのパワーを＋6000。\n\"あの頃通った道、ここだったんだ……\"",
+   "traits": [
+    "ゆるキャン△",
+    "バイク"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_088.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-088S",
+   "name": "思い出の風景 リン",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 あなたのCXがCX置場に置かれた時、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋3000。\n【自】 このカードがアタックした時、このカードの正面のキャラのレベルが2なら、そのターン中、このカードのパワーを＋6000。\n\"-\"",
+   "traits": [
+    "ゆるキャン△",
+    "バイク"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_088s.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-089",
+   "name": "悩み中 リン",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのターン中、このカードのパワーを＋3000。\n【自】［(1)］ このカードがアタックした時、あなたはコストを払ってよい。そうしたら、そのアタック中、あなたはトリガーステップにトリガーチェックを2回行う。\n\"むぅぅぅ……<br>……<br>う～ん……\"",
+   "traits": [
+    "ゆるキャン△"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_089.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-089S",
+   "name": "悩み中 リン",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのターン中、このカードのパワーを＋3000。\n【自】［(1)］ このカードがアタックした時、あなたはコストを払ってよい。そうしたら、そのアタック中、あなたはトリガーステップにトリガーチェックを2回行う。\n\"-\"",
+   "traits": [
+    "ゆるキャン△"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_089s.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-090",
+   "name": "やきとりを頬張って 恵那",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から1枚を公開する。そのカードが《ゆるキャン△》のキャラなら、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋2000。（公開したカードは元に戻す）\n【自】 あなたのCXがCX置場に置かれた時、あなたは自分のキャラを2枚まで選び、そのターン中、パワーを＋1000。\n\"薄めの塩味でお肉の味がよく分かるね\"",
+   "traits": [
+    "ゆるキャン△",
+    "マイペース"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_090.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-090S",
+   "name": "やきとりを頬張って 恵那",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から1枚を公開する。そのカードが《ゆるキャン△》のキャラなら、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋2000。（公開したカードは元に戻す）\n【自】 あなたのCXがCX置場に置かれた時、あなたは自分のキャラを2枚まで選び、そのターン中、パワーを＋1000。\n\"-\"",
+   "traits": [
+    "ゆるキャン△",
+    "マイペース"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_090s.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-091",
+   "name": "瑞浪絵真",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "1",
+   "cost": "1",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 あなたのCXがCX置場に置かれた時、あなたは自分のキャラを2枚まで選び、そのターン中、パワーを＋1000。\n【起】［このカードを【レスト】する］ あなたは自分のキャラを2枚まで選び、そのターン中、パワーを＋1500。\n\"プッ……フクク……\"",
+   "traits": [
+    "ゆるキャン△"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_091.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-091S",
+   "name": "瑞浪絵真",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "1",
+   "cost": "1",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 あなたのCXがCX置場に置かれた時、あなたは自分のキャラを2枚まで選び、そのターン中、パワーを＋1000。\n【起】［このカードを【レスト】する］ あなたは自分のキャラを2枚まで選び、そのターン中、パワーを＋1500。\n\"-\"",
+   "traits": [
+    "ゆるキャン△"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_091s.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-092",
+   "name": "下調べ 恵那",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "2",
+   "cost": "0",
+   "power": "8000",
+   "soul": 1,
+   "trigger": "",
+   "text": "-\n\"二人とも、<br>この先にヨシャーの湯っていう所があるらしいよ\"",
+   "traits": [
+    "ゆるキャン△",
+    "マイペース"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_092.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-092S",
+   "name": "下調べ 恵那",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "2",
+   "cost": "0",
+   "power": "8000",
+   "soul": 1,
+   "trigger": "",
+   "text": "-\n\"-\"",
+   "traits": [
+    "ゆるキャン△",
+    "マイペース"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_092s.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-093",
+   "name": "閉口するリン",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札を上から1枚見て、山札の上か下に置く。\n【自】 このカードがアタックした時、そのターン中、このカードのパワーを＋Ｘ。Ｘは相手のキャラの枚数×2000に等しい。\n\"……\"",
+   "traits": [
+    "ゆるキャン△",
+    "バイク"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_093.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-093S",
+   "name": "閉口するリン",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札を上から1枚見て、山札の上か下に置く。\n【自】 このカードがアタックした時、そのターン中、このカードのパワーを＋Ｘ。Ｘは相手のキャラの枚数×2000に等しい。\n\"-\"",
+   "traits": [
+    "ゆるキャン△",
+    "バイク"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_093s.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-094",
+   "name": "意気揚々 リン",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたのターン中、他のあなたのキャラすべてに、パワーを＋Ｘ。Ｘはそのキャラのソウル×1000に等しい。\n\"けど、そのおかげで貸し切り状態\"",
+   "traits": [
+    "ゆるキャン△",
+    "バイク"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_094.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-094S",
+   "name": "意気揚々 リン",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたのターン中、他のあなたのキャラすべてに、パワーを＋Ｘ。Ｘはそのキャラのソウル×1000に等しい。\n\"-\"",
+   "traits": [
+    "ゆるキャン△",
+    "バイク"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_094s.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-095",
+   "name": "回想キャンプ 恵那",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "6500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 応援 このカードの前のあなたのレベル3以上のキャラすべてに、パワーを＋2000。\n【自】【CXコンボ】［手札の「温泉を目指して」を1枚控え室に置く］ 相手のアタックフェイズの始めに、他のあなたの《ゆるキャン△》のキャラがいるなら、あなたはコストを払ってよい。そうしたら、あなたは相手のキャラを1枚選び、そのターン中、ソウルを－2。\n\"恵那「ちくわ寒くない？大丈夫？」<br>ちくわ「回想だから寒くないワン！」\"",
+   "traits": [
+    "ゆるキャン△",
+    "マイペース"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_095.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-095S",
+   "name": "回想キャンプ 恵那",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "6500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 応援 このカードの前のあなたのレベル3以上のキャラすべてに、パワーを＋2000。\n【自】【CXコンボ】［手札の「温泉を目指して」を1枚控え室に置く］ 相手のアタックフェイズの始めに、他のあなたの《ゆるキャン△》のキャラがいるなら、あなたはコストを払ってよい。そうしたら、あなたは相手のキャラを1枚選び、そのターン中、ソウルを－2。\n\"-\"",
+   "traits": [
+    "ゆるキャン△",
+    "マイペース"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_095s.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-096",
+   "name": "リンのバイク",
+   "type": "Event",
+   "rarity": "U",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "集中 あなたは自分の山札の上から3枚をめくり、控え室に置く。あなたは自分の控え室のレベルＸ以下の《ゆるキャン△》のキャラを1枚選び、手札に戻す。Ｘはそれらのカードの《ゆるキャン△》のキャラの枚数に等しい。\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_096.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-096S",
+   "name": "リンのバイク",
+   "type": "Event",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "集中 あなたは自分の山札の上から3枚をめくり、控え室に置く。あなたは自分の控え室のレベルＸ以下の《ゆるキャン△》のキャラを1枚選び、手札に戻す。Ｘはそれらのカードの《ゆるキャン△》のキャラの枚数に等しい。\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_096s.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-097",
+   "name": "桜を見上げて",
+   "type": "Climax",
+   "rarity": "CR",
+   "color": "blue",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[gate.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[gate.gif]]：このカードがトリガーした時、あなたは自分の控え室のCXを1枚選び、手札に戻してよい）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_097.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-097R",
+   "name": "桜を見上げて",
+   "type": "Climax",
+   "rarity": "RRR",
+   "color": "blue",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[gate.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[gate.gif]]：このカードがトリガーした時、あなたは自分の控え室のCXを1枚選び、手札に戻してよい）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_097r.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-098",
+   "name": "あちあちパスタ",
+   "type": "Climax",
+   "rarity": "CR",
+   "color": "blue",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[gate.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[gate.gif]]：このカードがトリガーした時、あなたは自分の控え室のCXを1枚選び、手札に戻してよい）\n\"……はふっ……はーっ……\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_098.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-098R",
+   "name": "あちあちパスタ",
+   "type": "Climax",
+   "rarity": "RRR",
+   "color": "blue",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[gate.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[gate.gif]]：このカードがトリガーした時、あなたは自分の控え室のCXを1枚選び、手札に戻してよい）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_098r.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-099",
+   "name": "ツーリングキャンプ",
+   "type": "Climax",
+   "rarity": "CR",
+   "color": "blue",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[gate.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[gate.gif]]：このカードがトリガーした時、あなたは自分の控え室のCXを1枚選び、手札に戻してよい）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_099.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-099R",
+   "name": "ツーリングキャンプ",
+   "type": "Climax",
+   "rarity": "RRR",
+   "color": "blue",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[gate.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[gate.gif]]：このカードがトリガーした時、あなたは自分の控え室のCXを1枚選び、手札に戻してよい）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_099r.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-100",
+   "name": "温泉を目指して",
+   "type": "Climax",
+   "rarity": "CR",
+   "color": "blue",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[gate.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[gate.gif]]：このカードがトリガーした時、あなたは自分の控え室のCXを1枚選び、手札に戻してよい）\n\"恵那・千明<br>「キャンプの醍醐味を諦めてたまるか―――っ!!」\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_100.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-100R",
+   "name": "温泉を目指して",
+   "type": "Climax",
+   "rarity": "RRR",
+   "color": "blue",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[gate.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[gate.gif]]：このカードがトリガーした時、あなたは自分の控え室のCXを1枚選び、手札に戻してよい）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_100r.png",
+   "variant": ""
+  },
+  {
+   "num": "YRC/W116-101A",
+   "name": "たのしい、更新中。",
+   "type": "Climax",
+   "rarity": "AGR",
+   "color": "green",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[treasure.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_101a.png",
+   "variant": ""
+  }
+ ]
+}

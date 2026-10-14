@@ -1,0 +1,509 @@
+{
+ "id": "jp-cl",
+ "name": "CLANNAD Vol.01",
+ "expansion": 21,
+ "lang": "jp",
+ "release": null,
+ "shopItem": null,
+ "box": null,
+ "cards": [
+  {
+   "num": "CL/WE01-01",
+   "name": "演劇部部長 渚",
+   "type": "Character",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "2",
+   "cost": "2",
+   "power": "8000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの「岡崎 朋也」がいるなら、このカードのパワーを＋1000。\n【自】 このカードがアタックした時、クライマックス置場に「この学園は、好きですか……？」があるなら、あなたは自分の山札を見て《双子》か《本》のキャラを1枚まで選んで相手に見せ、手札に加える。その山札をシャッフルする。\n\"あなたをお連れしましょうか。<br />この町の願いが叶う場所に\"",
+   "traits": [
+    "演劇",
+    "だんご"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/c/cl_we01/cl_we01_01.png",
+   "variant": ""
+  },
+  {
+   "num": "CL/WE01-02",
+   "name": "岡崎 朋也",
+   "type": "Character",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "5500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 相手のアタックフェイズの始めに、あなたは自分のキャラを1枚とこのカードを選び、それぞれを【スタンド】して入れ替えてよい。\n\"だけど、そんな俺にだって<br />たどり着きたい場所ができたんだ\"",
+   "traits": [
+    "不良",
+    "スポーツ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/c/cl_we01/cl_we01_02.png",
+   "variant": ""
+  },
+  {
+   "num": "CL/WE01-03",
+   "name": "佇む少女 渚",
+   "type": "Character",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "1",
+   "cost": "1",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、他のあなたのカード名に「古河」を含むキャラが4枚以上なら、あなたのキャラすべてに、そのターン中、ソウルを＋2。\n\"おはようございます、岡崎さん\"",
+   "traits": [
+    "演劇",
+    "だんご"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/c/cl_we01/cl_we01_03.png",
+   "variant": ""
+  },
+  {
+   "num": "CL/WE01-04",
+   "name": "古河 渚",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの「岡崎 朋也」すべてに、パワーを＋1000。\n【自】 絆／「岡崎 朋也」 ［(1)］ （このカードがプレイされて舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「岡崎 朋也」を1枚選び、手札に戻す）\n\"岡崎さんっシュートです！\"",
+   "traits": [
+    "演劇",
+    "だんご"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/c/cl_we01/cl_we01_04.png",
+   "variant": ""
+  },
+  {
+   "num": "CL/WE01-05",
+   "name": "世話焼き渚",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのターン中、このカードのパワーを＋1000。\n\"岡崎さんっ、ちゃんとついてきてくださいね\"",
+   "traits": [
+    "演劇",
+    "だんご"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/c/cl_we01/cl_we01_05.png",
+   "variant": ""
+  },
+  {
+   "num": "CL/WE01-06",
+   "name": "春原 陽平",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【起】［このカードを【レスト】する］ あなたはキャラを2枚まで選び、そのターン中、《スポーツ》を与える。\n【起】［このカードを控え室に置く］ あなたは自分のカード名に「智代」を含むキャラを1枚選び、そのターン中、パワーを＋2500。\n\"僕の背中はお前にまかせるぜ！\"",
+   "traits": [
+    "不良",
+    "スポーツ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/c/cl_we01/cl_we01_06.png",
+   "variant": ""
+  },
+  {
+   "num": "CL/WE01-07",
+   "name": "この学園は、好きですか……？",
+   "type": "Climax",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【永】 あなたのキャラすべてに、ソウルを＋2。\n\"それでも、この場所が好きでいられますか？\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/c/cl_we01/cl_we01_07.png",
+   "variant": ""
+  },
+  {
+   "num": "CL/WE01-08",
+   "name": "伝説のヒトデ使い風子",
+   "type": "Character",
+   "rarity": "R",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 あなたがこのカードの『助太刀』を使った時、バトルしているキャラすべてに、そのターン中、次の能力を与える。『【自】 このカードが舞台から控え室に置かれた時、あなたはこのカードをこのカードがいた枠に【レスト】して置いてよい。』\n【起】【カウンター】 助太刀0 レベル1 ［手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋0）\n\"伝説のヒトデヒートをお見せする機会がついに訪れました！\"",
+   "traits": [
+    "ヒトデ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/c/cl_we01/cl_we01_08.png",
+   "variant": ""
+  },
+  {
+   "num": "CL/WE01-09",
+   "name": "家庭的な智代",
+   "type": "Character",
+   "rarity": "R",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の後列のレベル1以下のキャラを1枚選び、【スタンド】してよい。\n\"岡崎、朝だぞ！\"",
+   "traits": [
+    "生徒会",
+    "スポーツ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/c/cl_we01/cl_we01_09.png",
+   "variant": ""
+  },
+  {
+   "num": "CL/WE01-10",
+   "name": "スポーツ万能 智代",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】［(5)］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは相手の前列のレベル3以下の、《スポーツ》か《不良》のキャラを1枚選び、クロック置場に置く。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n\"爽快だ！\"",
+   "traits": [
+    "生徒会",
+    "スポーツ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/c/cl_we01/cl_we01_10.png",
+   "variant": ""
+  },
+  {
+   "num": "CL/WE01-11",
+   "name": "幽霊少女 風子",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "2",
+   "cost": "2",
+   "power": "7500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードがアタックした時、クライマックス置場に「夢の最後まで」があるなら、あなたは自分の山札の上から1枚を、ストック置場に置き、自分の《ヒトデ》のキャラすべてに、そのターン中、パワーを＋2000。\n【自】 アンコール ［(2)］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"あ、あの、よかったら、どうぞ！\"",
+   "traits": [
+    "ヒトデ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/c/cl_we01/cl_we01_11.png",
+   "variant": ""
+  },
+  {
+   "num": "CL/WE01-12",
+   "name": "伝説の少女 智代",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の後列のカード名に「陽平」を含むキャラを1枚選び、ストック置場に置いてよい。\n【起】［(1) このカードを【レスト】する］ あなたは自分のキャラを1枚選び、そのターン中、レベルを＋1し、パワーを＋3000。\n\"そうか、もしかしたらこれは<br />そういう気持ちなのかもしれないな\"",
+   "traits": [
+    "生徒会",
+    "スポーツ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/c/cl_we01/cl_we01_12.png",
+   "variant": ""
+  },
+  {
+   "num": "CL/WE01-13",
+   "name": "風子＆公子",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【起】［(1)］ あなたは自分のキャラを1枚選び、そのターン中、《ヒトデ》を与え、次の能力を与える。『【起】［このカードを【レスト】する］ あなたは自分の《先生》のキャラを1枚選び、そのターン中、パワーを＋2000。』\n\"おめでとう、お姉ちゃん\"",
+   "traits": [
+    "ヒトデ",
+    "先生"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/c/cl_we01/cl_we01_13.png",
+   "variant": ""
+  },
+  {
+   "num": "CL/WE01-14",
+   "name": "夢の最後まで",
+   "type": "Climax",
+   "rarity": "C",
+   "color": "green",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【自】 このカードが手札からクライマックス置場に置かれた時、あなたは自分の山札の上から1枚を、ストック置場に置き、自分のキャラすべてに、そのターン中、ソウルを＋1。\n\"いつまでも・・・いつまでも幸せに\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/c/cl_we01/cl_we01_14.png",
+   "variant": ""
+  },
+  {
+   "num": "CL/WE01-15",
+   "name": "世話好きな 杏",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの《スポーツ》のキャラすべてに、パワーを＋500。\n\"おっはよ、差し入れに来てやったわよ\"",
+   "traits": [
+    "双子",
+    "委員長"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/c/cl_we01/cl_we01_15.png",
+   "variant": ""
+  },
+  {
+   "num": "CL/WE01-16",
+   "name": "パン屋さん 渚＆杏",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの《不良》のキャラすべてに、レベルを＋1。  \n【永】 他のあなたの《委員長》のキャラすべてに、パワーを＋500。\n\"杏「そもそもあんたたち、どこまでいってるのよ？」\"",
+   "traits": [
+    "演劇",
+    "委員長"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/c/cl_we01/cl_we01_16.png",
+   "variant": ""
+  },
+  {
+   "num": "CL/WE01-17",
+   "name": "妹思い杏",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたのカード名に「椋」を含むキャラすべてに、パワーを＋500。\n【起】【カウンター】 助太刀3000 レベル2 ［(1) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋3000）\n\"チャンス作ってやったんだから、活用しなさいよ\"",
+   "traits": [
+    "双子",
+    "委員長"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/c/cl_we01/cl_we01_17.png",
+   "variant": ""
+  },
+  {
+   "num": "CL/WE01-18",
+   "name": "暴走娘 杏",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1) あなたの《本》のキャラを1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは相手の前列のレベル1以下のキャラを1枚選び、控え室に置く。\n\"こらっ、朋也！！\"",
+   "traits": [
+    "双子",
+    "委員長"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/c/cl_we01/cl_we01_18.png",
+   "variant": ""
+  },
+  {
+   "num": "CL/WE01-19",
+   "name": "古河 早苗",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "1",
+   "cost": "1",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの《演劇》のキャラがいるなら、このカードのパワーを＋2000。\n\"はぁい、授業始めますよ\"",
+   "traits": [
+    "パン",
+    "先生"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/c/cl_we01/cl_we01_19.png",
+   "variant": ""
+  },
+  {
+   "num": "CL/WE01-20",
+   "name": "古河 秋生",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの、《パン》か《だんご》のキャラすべてに、パワーを＋500。\n【起】［(1) このカードを控え室に置く］ あなたは自分の控え室の「古河 早苗」を1枚選び、手札に戻す。\n\"それが義理だろ、人情だろ？\"",
+   "traits": [
+    "パン",
+    "演劇"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/c/cl_we01/cl_we01_20.png",
+   "variant": ""
+  },
+  {
+   "num": "CL/WE01-21",
+   "name": "渚＆ことみ",
+   "type": "Character",
+   "rarity": "R",
+   "color": "blue",
+   "level": "2",
+   "cost": "2",
+   "power": "8000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 相手のターン中、他のあなたの黄と緑のキャラがいるなら、このカードのパワーを＋1500し、このカードは『【自】 アンコール ［手札のキャラを1枚控え室に置く］ 』を得る。\n\"渚｢最後の曲はとっても上手に弾けていたと思います！」<br />ことみ「よかった・・・。嬉しいの」\"",
+   "traits": [
+    "演劇",
+    "本"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/c/cl_we01/cl_we01_21.png",
+   "variant": ""
+  },
+  {
+   "num": "CL/WE01-22",
+   "name": "名誉図書委員ことみ",
+   "type": "Character",
+   "rarity": "R",
+   "color": "blue",
+   "level": "1",
+   "cost": "1",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 応援 このカードの前のあなたのレベル2以上のキャラすべてに、パワーを＋1000。\n【起】［(2) このカードを【レスト】する］ あなたは自分の山札を見て《本》のキャラを1枚まで選んで相手に見せ、手札に加える。その山札をシャッフルする。\n\"こんにちは、朋也君\"",
+   "traits": [
+    "本",
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/c/cl_we01/cl_we01_22.png",
+   "variant": ""
+  },
+  {
+   "num": "CL/WE01-23",
+   "name": "旋律の破壊神ことみ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "8000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】［(7)］ このカードがアタックした時、クライマックス置場に「娘への贈り物」があるなら、あなたはコストを払ってよい。そうしたら、あなたはこのカード以外のすべてのプレイヤーの前列のキャラすべてを、山札に戻す。それらの山札をシャッフルする。\n\"・・・うっとり\"",
+   "traits": [
+    "本",
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/c/cl_we01/cl_we01_23.png",
+   "variant": ""
+  },
+  {
+   "num": "CL/WE01-24",
+   "name": "幻想世界の少女",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "1",
+   "cost": "1",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 アラーム このカードがクロックの1番上にあり、あなたのキャラが1枚なら、あなたのキャラすべてに、次の能力を与える。『【自】 このカードがアタックした時、あなたは自分の山札を見てキャラを1枚まで選んで相手に見せ、手札に加える。その山札をシャッフルする。』\n\"そこは・・・どんな場所だった？<br />ここよりも、もっと素敵な場所だった？\"",
+   "traits": [
+    "人形"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/c/cl_we01/cl_we01_24.png",
+   "variant": ""
+  },
+  {
+   "num": "CL/WE01-25",
+   "name": "一ノ瀬 ことみ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは1枚引き、自分の手札を1枚選び、控え室に置く。\n\"呼ぶ時はことみちゃん\"",
+   "traits": [
+    "本",
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/c/cl_we01/cl_we01_25.png",
+   "variant": ""
+  },
+  {
+   "num": "CL/WE01-26",
+   "name": "杏＆椋",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "",
+   "text": "-\n\"杏「次は椋の番よ！」\"",
+   "traits": [
+    "双子",
+    "委員長"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/c/cl_we01/cl_we01_26.png",
+   "variant": ""
+  },
+  {
+   "num": "CL/WE01-27",
+   "name": "娘への贈り物",
+   "type": "Climax",
+   "rarity": "C",
+   "color": "blue",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[draw.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[draw.gif]]：このカードがトリガーした時、あなたは1枚引いてよい）\n\"お父さん…お母さん…お帰りなさい……\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/c/cl_we01/cl_we01_27.png",
+   "variant": ""
+  }
+ ]
+}

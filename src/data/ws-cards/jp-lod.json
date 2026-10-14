@@ -1,0 +1,508 @@
+{
+ "id": "jp-lod",
+ "name": "[TD+]ロストディケイド",
+ "expansion": 295,
+ "lang": "jp",
+ "release": null,
+ "shopItem": null,
+ "box": null,
+ "cards": [
+  {
+   "num": "LOD/S74-T01",
+   "name": "協会のメイド長 オフィーリア",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋500。\n【起】［(1) このカードを控え室に置く］ あなたは自分の山札を上から4枚まで見て、《冒険者》のキャラを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。\n\"ご用件はなんでしょうか、団長様\"",
+   "traits": [
+    "冒険者",
+    "メイド"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lod_s74/lod_s74_t01.png",
+   "variant": ""
+  },
+  {
+   "num": "LOD/S74-T02",
+   "name": "はじまりの仲間たち ユア",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［手札のクライマックスを1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の《冒険者》のキャラを1枚選び、手札に戻す。\n【起】［(1) このカードを控え室に置く］ あなたは自分の控え室の「アイテム“騎士の剣”」を1枚選び、手札に戻す。\n\"うおおぅ…ここが冒険者の聖地、メサイアかあ。<br>すっご、ほんとに大都会だ…！\"",
+   "traits": [
+    "冒険者",
+    "愛"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lod_s74/lod_s74_t02.png",
+   "variant": ""
+  },
+  {
+   "num": "LOD/S74-T02S",
+   "name": "はじまりの仲間たち ユア",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［手札のクライマックスを1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の《冒険者》のキャラを1枚選び、手札に戻す。\n【起】［(1) このカードを控え室に置く］ あなたは自分の控え室の「アイテム“騎士の剣”」を1枚選び、手札に戻す。\n\"うおおぅ…ここが冒険者の聖地、メサイアかあ。<br>すっご、ほんとに大都会だ…！\"",
+   "traits": [
+    "冒険者",
+    "愛"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lod_s74/lod_s74_t02s.png",
+   "variant": ""
+  },
+  {
+   "num": "LOD/S74-T02SP",
+   "name": "はじまりの仲間たち ユア",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［手札のクライマックスを1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の《冒険者》のキャラを1枚選び、手札に戻す。\n【起】［(1) このカードを控え室に置く］ あなたは自分の控え室の「アイテム“騎士の剣”」を1枚選び、手札に戻す。\n\"うおおぅ…ここが冒険者の聖地、メサイアかあ。<br>すっご、ほんとに大都会だ…！\"",
+   "traits": [
+    "冒険者",
+    "愛"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lod_s74/lod_s74_t02sp.png",
+   "variant": ""
+  },
+  {
+   "num": "LOD/S74-T03",
+   "name": "可憐な男の子 グラミン",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの《冒険者》のキャラが2枚以上なら、このカードのパワーを＋2000。\n\"みなさん！気を付けてください！\"",
+   "traits": [
+    "冒険者",
+    "銃"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lod_s74/lod_s74_t03.png",
+   "variant": ""
+  },
+  {
+   "num": "LOD/S74-T04",
+   "name": "若き狙撃手 グラミン",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、他のあなたの《冒険者》のキャラがいるなら、そのターン中、このカードのパワーを＋2000。\n【自】 このカードが【リバース】した時、このカードのバトル相手のレベルが1以下なら、あなたはそのキャラを【リバース】してよい。\n\"うう…頑張るんだ！\"",
+   "traits": [
+    "冒険者",
+    "銃"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lod_s74/lod_s74_t04.png",
+   "variant": ""
+  },
+  {
+   "num": "LOD/S74-T04R",
+   "name": "若き狙撃手 グラミン",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、他のあなたの《冒険者》のキャラがいるなら、そのターン中、このカードのパワーを＋2000。\n【自】 このカードが【リバース】した時、このカードのバトル相手のレベルが1以下なら、あなたはそのキャラを【リバース】してよい。\n\"弾幕を張ります！\"",
+   "traits": [
+    "冒険者",
+    "銃"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lod_s74/lod_s74_t04r.png",
+   "variant": ""
+  },
+  {
+   "num": "LOD/S74-T05",
+   "name": "ユア＆キャロライン",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのターン中、他のあなたの《冒険者》のキャラ1枚につき、このカードのパワーを＋500。\n【自】【CXコンボ】 このカードがアタックした時、クライマックス置場に「冒険のはじまり」があるなら、あなたは自分の山札の上から1枚を公開する。そのカードが《冒険者》のキャラか「アイテム“騎士の剣”」なら手札に加える。（そうでないなら元に戻す）\n\"ユア「キャロル先生質問です！今言った蒼穹歴ってな～に？」<br>キャロライン「し…知らないの!?」\"",
+   "traits": [
+    "冒険者"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lod_s74/lod_s74_t05.png",
+   "variant": ""
+  },
+  {
+   "num": "LOD/S74-T06",
+   "name": "双翼の祭司 サンドラ",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋1000。\n【起】［(2) このカードを【レスト】する］ あなたは自分の山札を見て《冒険者》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"私はサンドラ。双翼教の祭司です。今後ともよろしくお願いします\"",
+   "traits": [
+    "冒険者",
+    "ヒール"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lod_s74/lod_s74_t06.png",
+   "variant": ""
+  },
+  {
+   "num": "LOD/S74-T06R",
+   "name": "双翼の祭司 サンドラ",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋1000。\n【起】［(2) このカードを【レスト】する］ あなたは自分の山札を見て《冒険者》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"守護の力よ！\"",
+   "traits": [
+    "冒険者",
+    "ヒール"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lod_s74/lod_s74_t06r.png",
+   "variant": ""
+  },
+  {
+   "num": "LOD/S74-T07",
+   "name": "メサイアの守護者 ジークフリート",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "red",
+   "level": "2",
+   "cost": "2",
+   "power": "7500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードがアタックした時、そのターン中、このカードのパワーを＋Ｘ。Ｘは他のあなたの《冒険者》のキャラの枚数×1000に等しい。\n【自】 アンコール ［手札の《冒険者》のキャラを1枚控え室に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"戦いなら僕にお任せ下さい！\"",
+   "traits": [
+    "冒険者",
+    "竜"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lod_s74/lod_s74_t07.png",
+   "variant": ""
+  },
+  {
+   "num": "LOD/S74-T08",
+   "name": "はじまりの仲間たち キャロライン",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "9500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n【自】 このカードがアタックした時、あなたは自分の《冒険者》のキャラを1枚選び、そのターン中、パワーを＋Ｘ。Ｘはあなたの《冒険者》のキャラの枚数×500に等しい。\n\"わ、私はキャロライン…です。キャロルって、呼んで…ください\"",
+   "traits": [
+    "冒険者",
+    "科学"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lod_s74/lod_s74_t08.png",
+   "variant": ""
+  },
+  {
+   "num": "LOD/S74-T08SP",
+   "name": "はじまりの仲間たち キャロライン",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "9500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n【自】 このカードがアタックした時、あなたは自分の《冒険者》のキャラを1枚選び、そのターン中、パワーを＋Ｘ。Ｘはあなたの《冒険者》のキャラの枚数×500に等しい。\n\"-\"",
+   "traits": [
+    "冒険者",
+    "科学"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lod_s74/lod_s74_t08sp.png",
+   "variant": ""
+  },
+  {
+   "num": "LOD/S74-T09",
+   "name": "冒険のはじまり",
+   "type": "Climax",
+   "rarity": "TD",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[salvage.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[salvage.gif]]：このカードがトリガーした時、あなたは自分の控え室のキャラを1枚選び、手札に戻してよい）\n\"エレーナ「敵だ。私の後ろにさがっていてくれ」\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lod_s74/lod_s74_t09.png",
+   "variant": ""
+  },
+  {
+   "num": "LOD/S74-T09S",
+   "name": "冒険のはじまり",
+   "type": "Climax",
+   "rarity": "SR",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[salvage.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[salvage.gif]]：このカードがトリガーした時、あなたは自分の控え室のキャラを1枚選び、手札に戻してよい）\n\"ユア「ガンガンぶっ飛ばしちゃうぜ～！」<br>キャロライン「誰かに当たれ！」\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lod_s74/lod_s74_t09s.png",
+   "variant": ""
+  },
+  {
+   "num": "LOD/S74-T10",
+   "name": "サンドラの友人 フェル",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの「フェルの友人 サンドラ」すべてに、パワーを＋1000。\n【自】 絆／「フェルの友人 サンドラ」 ［あなたの山札の上から1枚をクロック置場に置く］ （このカードがプレイされて舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「フェルの友人 サンドラ」を1枚選び、手札に戻す）\n\"そうね<br>サンドラの言う通り\"",
+   "traits": [
+    "冒険者",
+    "天使"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lod_s74/lod_s74_t10.png",
+   "variant": ""
+  },
+  {
+   "num": "LOD/S74-T11",
+   "name": "新たなる冒険団 団長",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から1枚を公開する。そのカードが《冒険者》のキャラなら手札に加え、あなたは自分の手札を1枚選び、控え室に置く。（そうでないなら元に戻す）\n【起】 集中 ［(1) このカードを【レスト】する］ あなたは自分の山札の上から4枚をめくり、控え室に置く。それらのカードのクライマックス1枚につき、あなたは1枚まで引く。\n\"三人とも充分な資質を持っているということは俺の眼にかけて誓えます\"",
+   "traits": [
+    "冒険者"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lod_s74/lod_s74_t11.png",
+   "variant": ""
+  },
+  {
+   "num": "LOD/S74-T12",
+   "name": "はじまりの仲間たち エレーナ",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 このカードはサイドアタックできない。\n【自】 このカードがアタックした時、あなたは他の自分の《冒険者》のキャラを1枚選び、そのターン中、パワーを＋Ｘ。Ｘは他のあなたの《冒険者》のキャラの枚数×500に等しい。\n\"ん？なに？ああ、キャロルか。そこら辺に置いてきた。今頃困っているだろうな\"",
+   "traits": [
+    "冒険者",
+    "剣術"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lod_s74/lod_s74_t12.png",
+   "variant": ""
+  },
+  {
+   "num": "LOD/S74-T12SP",
+   "name": "はじまりの仲間たち エレーナ",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 このカードはサイドアタックできない。\n【自】 このカードがアタックした時、あなたは他の自分の《冒険者》のキャラを1枚選び、そのターン中、パワーを＋Ｘ。Ｘは他のあなたの《冒険者》のキャラの枚数×500に等しい。\n\"-\"",
+   "traits": [
+    "冒険者",
+    "剣術"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lod_s74/lod_s74_t12sp.png",
+   "variant": ""
+  },
+  {
+   "num": "LOD/S74-T13",
+   "name": "真面目で実直 ヴィヴィアン",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 このカードの下に表向きのマーカーがあるなら、このカードのパワーを＋2000。\n【自】［(1) 手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見て《冒険者》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"このまま精進を続け、いつの日か必ず聖剣を使いこなしてみせましょう\"",
+   "traits": [
+    "冒険者",
+    "騎士"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lod_s74/lod_s74_t13.png",
+   "variant": ""
+  },
+  {
+   "num": "LOD/S74-T14",
+   "name": "冒険者協会会長 テレサ",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "1",
+   "cost": "1",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【起】【カウンター】 助太刀2500 レベル1 ［(1) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋2500）\n\"少し見ない間にあの鼻たれ小僧が立派になったなぁ！\"",
+   "traits": [
+    "冒険者",
+    "探険"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lod_s74/lod_s74_t14.png",
+   "variant": ""
+  },
+  {
+   "num": "LOD/S74-T15",
+   "name": "フェルの友人 サンドラ",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "1",
+   "cost": "1",
+   "power": "7000",
+   "soul": 1,
+   "trigger": "",
+   "text": "-\n\"大丈夫です<br>一番大事なことを<br>あなたはもう<br>思い出しているんですから\"",
+   "traits": [
+    "冒険者",
+    "ヒール"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lod_s74/lod_s74_t15.png",
+   "variant": ""
+  },
+  {
+   "num": "LOD/S74-T16",
+   "name": "エレーナ＆ユア",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "7500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 このカードの下に青のマーカーがあるなら、このカードのパワーを＋1000。\n【自】【CXコンボ】 このカードのバトル相手が【リバース】した時、あなたのクライマックス置場に「冒険のはじまり」があるなら、あなたは1枚まで引き、自分の山札の上から1枚までを、ストック置場に置く。\n\"ユア「もう仲間なんだしエレーナもそんなにツンツンしないでさ」<br>エレーナ「仲間と認めるのが早すぎる」\"",
+   "traits": [
+    "冒険者"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lod_s74/lod_s74_t16.png",
+   "variant": ""
+  },
+  {
+   "num": "LOD/S74-T17",
+   "name": "聖剣の騎士 ヴィヴィアン",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "3",
+   "cost": "2",
+   "power": "9500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 このカードの下に青のマーカーがあるなら、このカードのパワーを＋2000。\n【自】［(3) 手札を1枚控え室に置く］ この能力は1ターンにつき1回まで発動する。このカードが手札から舞台に置かれたターン中、このカードのバトル相手が【リバース】した時、あなたはコストを払ってよい。そうしたら、このカードを【スタンド】する。\n\"私はエンピレアンの騎士、ヴィヴィアン。これよりあなたの部下となります、団長様\"",
+   "traits": [
+    "冒険者",
+    "騎士"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lod_s74/lod_s74_t17.png",
+   "variant": ""
+  },
+  {
+   "num": "LOD/S74-T17R",
+   "name": "聖剣の騎士 ヴィヴィアン",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "blue",
+   "level": "3",
+   "cost": "2",
+   "power": "9500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 このカードの下に青のマーカーがあるなら、このカードのパワーを＋2000。\n【自】［(3) 手札を1枚控え室に置く］ この能力は1ターンにつき1回まで発動する。このカードが手札から舞台に置かれたターン中、このカードのバトル相手が【リバース】した時、あなたはコストを払ってよい。そうしたら、このカードを【スタンド】する。\n\"私達の誇りを団長様にも見ていただきたいのです\"",
+   "traits": [
+    "冒険者",
+    "騎士"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lod_s74/lod_s74_t17r.png",
+   "variant": ""
+  },
+  {
+   "num": "LOD/S74-T18",
+   "name": "アイテム“騎士の剣”",
+   "type": "Event",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "あなたは自分のマーカーを持たないキャラを1枚選び、このカードをそのキャラの下にマーカーとして表向きに置き、そのターン中、そのキャラのパワーを＋1000。\n【自】 このカードがマーカー置場から控え室に置かれた時、あなたの《冒険者》のキャラが2枚以上なら、あなたはこのカードを思い出にする。\n【自】 記憶 あなたのメインフェイズの始めに、思い出置場にこのカードがあるなら、このカードを手札に戻す。\n\"一人前の騎士の証\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lod_s74/lod_s74_t18.png",
+   "variant": ""
+  },
+  {
+   "num": "LOD/S74-T19",
+   "name": "はじまりの地 冒険大陸メルキオール",
+   "type": "Climax",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[draw.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[draw.gif]]：このカードがトリガーした時、あなたは1枚引いてよい）\n\"オフィーリア「あなたの冒険をはじめましょう！」\"",
+   "traits": [
+    "特徴なし"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lod_s74/lod_s74_t19.png",
+   "variant": ""
+  }
+ ]
+}

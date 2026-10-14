@@ -1,0 +1,2396 @@
+{
+ "id": "jp-shs-e278",
+ "name": "冴えない彼女の育てかた♭",
+ "expansion": 278,
+ "lang": "jp",
+ "release": null,
+ "shopItem": null,
+ "box": null,
+ "cards": [
+  {
+   "num": "SHS/W71-001",
+   "name": "乗り越えた壁 英梨々",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのターン中、このカードのパワーを＋1000。\n【自】【CXコンボ】 このカードがアタックした時、クライマックス置場に「そして竜虎は神に挑まん」があり、他のあなたの《ゲーム》のキャラが2枚以上なら、あなたは自分の山札を上から4枚まで見て、《ゲーム》のキャラを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置き、そのターン中、このカードのパワーを＋1000。\n\"え？　どこへ？\"",
+   "traits": [
+    "ゲーム",
+    "漫画"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/shs_w71/shs_w71_001.png",
+   "variant": ""
+  },
+  {
+   "num": "SHS/W71-001S",
+   "name": "乗り越えた壁 英梨々",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのターン中、このカードのパワーを＋1000。\n【自】【CXコンボ】 このカードがアタックした時、クライマックス置場に「そして竜虎は神に挑まん」があり、他のあなたの《ゲーム》のキャラが2枚以上なら、あなたは自分の山札を上から4枚まで見て、《ゲーム》のキャラを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置き、そのターン中、このカードのパワーを＋1000。\n\"-\"",
+   "traits": [
+    "ゲーム",
+    "漫画"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/shs_w71/shs_w71_001s.png",
+   "variant": ""
+  },
+  {
+   "num": "SHS/W71-002",
+   "name": "新たなる日々 詩羽＆英梨々",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "yellow",
+   "level": "3",
+   "cost": "2",
+   "power": "9500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 経験 あなたのレベル置場に、「切り取られた風景 英梨々」と「新たなる選択肢 詩羽」があるなら、あなたの手札のこのカードのレベルを－1。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分の手札の自分のレベル以下のレベルのキャラを1枚まで選び、舞台の好きな枠に置き、そのターン中、このカードのパワーを＋2000。\n【自】［(1)］ 相手のアタックフェイズの始めに、あなたはコストを払ってよい。そうしたら、あなたは他の自分の前列の中央の枠の《ゲーム》のキャラを1枚とこのカードを選び、それぞれを【スタンド】して入れ替え、そのターン中、このカードのパワーを＋1500。\n\"英梨々「何しに来たのよ卒業生が」\"",
+   "traits": [
+    "ゲーム"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/shs_w71/shs_w71_002.png",
+   "variant": ""
+  },
+  {
+   "num": "SHS/W71-002S",
+   "name": "新たなる日々 詩羽＆英梨々",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "yellow",
+   "level": "3",
+   "cost": "2",
+   "power": "9500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 経験 あなたのレベル置場に、「切り取られた風景 英梨々」と「新たなる選択肢 詩羽」があるなら、あなたの手札のこのカードのレベルを－1。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分の手札の自分のレベル以下のレベルのキャラを1枚まで選び、舞台の好きな枠に置き、そのターン中、このカードのパワーを＋2000。\n【自】［(1)］ 相手のアタックフェイズの始めに、あなたはコストを払ってよい。そうしたら、あなたは他の自分の前列の中央の枠の《ゲーム》のキャラを1枚とこのカードを選び、それぞれを【スタンド】して入れ替え、そのターン中、このカードのパワーを＋1500。\n\"詩羽「り……倫也君」\"",
+   "traits": [
+    "ゲーム"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/shs_w71/shs_w71_002s.png",
+   "variant": ""
+  },
+  {
+   "num": "SHS/W71-003",
+   "name": "イラストレーターの戦い 出海",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "yellow",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n【自】【CXコンボ】［(1)］ このカードがアタックした時、クライマックス置場に「決意の対峙」があるなら、あなたはコストを払ってよい。そうしたら、そのターン中、このカードのパワーを＋1000し、このカードは次の能力を得る。『【自】 この能力は1ターンにつき1回まで発動する。このカードの与えたダメージがキャンセルされた時、あなたは自分の山札の上から1枚を、控え室に置き、相手にＸダメージを与える。Ｘはそのカードのレベル＋2に等しい。』（クライマックスのレベルは0として扱う。ダメージキャンセルは発生する）\n\"あ、はいっ！　その節は色々とお世話になりました恵さんっ！\"",
+   "traits": [
+    "ゲーム",
+    "漫画"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/shs_w71/shs_w71_003.png",
+   "variant": ""
+  },
+  {
+   "num": "SHS/W71-003SP",
+   "name": "イラストレーターの戦い 出海",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "yellow",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n【自】【CXコンボ】［(1)］ このカードがアタックした時、クライマックス置場に「決意の対峙」があるなら、あなたはコストを払ってよい。そうしたら、そのターン中、このカードのパワーを＋1000し、このカードは次の能力を得る。『【自】 この能力は1ターンにつき1回まで発動する。このカードの与えたダメージがキャンセルされた時、あなたは自分の山札の上から1枚を、控え室に置き、相手にＸダメージを与える。Ｘはそのカードのレベル＋2に等しい。』（クライマックスのレベルは0として扱う。ダメージキャンセルは発生する）\n\"-\"",
+   "traits": [
+    "ゲーム",
+    "漫画"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/shs_w71/shs_w71_003sp.png",
+   "variant": ""
+  },
+  {
+   "num": "SHS/W71-004",
+   "name": "不調の原因 英梨々",
+   "type": "Character",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのターン中、他のあなたの《ゲーム》のキャラすべてに、パワーを＋500。\n【起】 経験 ［このカードを【レスト】する］ あなたのレベル置場に「切り取られた風景 英梨々」があるなら、あなたは1枚引き、自分の手札を1枚選び、控え室に置く。\n\"朱音「あっはははははははははははははは」\"",
+   "traits": [
+    "ゲーム",
+    "漫画"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/shs_w71/shs_w71_004.png",
+   "variant": ""
+  },
+  {
+   "num": "SHS/W71-005",
+   "name": "水辺の挑発 出海",
+   "type": "Character",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードがアタックした時、他のあなたの《ゲーム》のキャラが2枚以上なら、そのターン中、このカードのパワーを＋2000。\n【自】【CXコンボ】 このカードのバトル相手が【リバース】した時、あなたのクライマックス置場に「魅惑の後輩ボディ」があるなら、あなたは自分の山札の上から3枚を、控え室に置き、自分の控え室の《ゲーム》のキャラをＸ枚まで選び、手札に戻す。Ｘはこの効果で控え室に置かれたレベル0以下のキャラの枚数に等しい。\n\"貴重な色紙ありがとうございました、柏木エリ先生\"",
+   "traits": [
+    "ゲーム",
+    "漫画"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/shs_w71/shs_w71_005.png",
+   "variant": ""
+  },
+  {
+   "num": "SHS/W71-005S",
+   "name": "水辺の挑発 出海",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードがアタックした時、他のあなたの《ゲーム》のキャラが2枚以上なら、そのターン中、このカードのパワーを＋2000。\n【自】【CXコンボ】 このカードのバトル相手が【リバース】した時、あなたのクライマックス置場に「魅惑の後輩ボディ」があるなら、あなたは自分の山札の上から3枚を、控え室に置き、自分の控え室の《ゲーム》のキャラをＸ枚まで選び、手札に戻す。Ｘはこの効果で控え室に置かれたレベル0以下のキャラの枚数に等しい。\n\"英梨々「どうしてお礼の内容がプールで水着姿を見せびらかすことになるのよ！？」\"",
+   "traits": [
+    "ゲーム",
+    "漫画"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/shs_w71/shs_w71_005s.png",
+   "variant": ""
+  },
+  {
+   "num": "SHS/W71-006",
+   "name": "色紙アンサー 出海",
+   "type": "Character",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 記憶 あなたの思い出置場に「リトル・ラブ・ラプソディ」があるなら、このカードは次の能力を得る。『【自】 このカードのバトル相手が【リバース】した時、あなたは自分の山札の上から1枚を、ストック置場に置いてよい。』\n\"そして……澤村先輩の、絵も\"",
+   "traits": [
+    "ゲーム",
+    "漫画"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/shs_w71/shs_w71_006.png",
+   "variant": ""
+  },
+  {
+   "num": "SHS/W71-007",
+   "name": "新たな門出 出海",
+   "type": "Character",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋Ｘ。Ｘはそのキャラのレベル×500に等しい。\n【自】 あなたのレベル3以上のキャラの与えたダメージがキャンセルされた時、あなたは自分の山札を上から1枚見て、山札の上か下に置く。\n\"波島出海、本日より豊ヶ崎学園に入学しましたっ！　今後とも、よろしくお願いしますっ！\"",
+   "traits": [
+    "ゲーム",
+    "漫画"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/shs_w71/shs_w71_007.png",
+   "variant": ""
+  },
+  {
+   "num": "SHS/W71-007S",
+   "name": "新たな門出 出海",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋Ｘ。Ｘはそのキャラのレベル×500に等しい。\n【自】 あなたのレベル3以上のキャラの与えたダメージがキャンセルされた時、あなたは自分の山札を上から1枚見て、山札の上か下に置く。\n\"倫也先輩\"",
+   "traits": [
+    "ゲーム",
+    "漫画"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/shs_w71/shs_w71_007s.png",
+   "variant": ""
+  },
+  {
+   "num": "SHS/W71-008",
+   "name": "切り取られた風景 英梨々",
+   "type": "Character",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "3",
+   "cost": "2",
+   "power": "9500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】［(1)］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「新たなる選択肢 詩羽」を1枚選び、舞台の好きな枠に置く。\n【自】 このカードがアタックした時、そのターン中、このカードのパワーを＋Ｘ。Ｘは他のあなたの《ゲーム》のキャラの枚数×1000に等しい。\n\"-\"",
+   "traits": [
+    "ゲーム",
+    "漫画"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/shs_w71/shs_w71_008.png",
+   "variant": ""
+  },
+  {
+   "num": "SHS/W71-008S",
+   "name": "切り取られた風景 英梨々",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "yellow",
+   "level": "3",
+   "cost": "2",
+   "power": "9500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】［(1)］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「新たなる選択肢 詩羽」を1枚選び、舞台の好きな枠に置く。\n【自】 このカードがアタックした時、そのターン中、このカードのパワーを＋Ｘ。Ｘは他のあなたの《ゲーム》のキャラの枚数×1000に等しい。\n\"-\"",
+   "traits": [
+    "ゲーム",
+    "漫画"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/shs_w71/shs_w71_008s.png",
+   "variant": ""
+  },
+  {
+   "num": "SHS/W71-009",
+   "name": "門出のはなむけ 英梨々",
+   "type": "Character",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】［(1)］ このカードが、手札か山札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見て「門出のはなむけ 英梨々」を1枚まで選び、舞台の好きな枠に置き、その山札をシャッフルする。\n【自】【CXコンボ】［(1) 手札を1枚控え室に置く］ このカードの与えたダメージがキャンセルされなかった時、あなたのクライマックス置場に「出し抜かれ、ポンコツ」があるなら、あなたはコストを払ってよい。そうしたら、相手に1ダメージを与える。（ダメージキャンセルは発生する）\n\"もらっても……いいよね？\"",
+   "traits": [
+    "ゲーム",
+    "漫画"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/shs_w71/shs_w71_009.png",
+   "variant": ""
+  },
+  {
+   "num": "SHS/W71-009S",
+   "name": "門出のはなむけ 英梨々",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "yellow",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】［(1)］ このカードが、手札か山札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見て「門出のはなむけ 英梨々」を1枚まで選び、舞台の好きな枠に置き、その山札をシャッフルする。\n【自】【CXコンボ】［(1) 手札を1枚控え室に置く］ このカードの与えたダメージがキャンセルされなかった時、あなたのクライマックス置場に「出し抜かれ、ポンコツ」があるなら、あなたはコストを払ってよい。そうしたら、相手に1ダメージを与える。（ダメージキャンセルは発生する）\n\"神イラストレーターになって、絶対あんたを泣かせてみせる……霞ヶ丘詩羽と一緒に！\"",
+   "traits": [
+    "ゲーム",
+    "漫画"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/shs_w71/shs_w71_009s.png",
+   "variant": ""
+  },
+  {
+   "num": "SHS/W71-010",
+   "name": "新しい色紙 英梨々",
+   "type": "Character",
+   "rarity": "U",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［あなたの山札の上から1枚をクロック置場に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「柏木エリのリトラブ色紙」を1枚選び、手札に戻す。\n【自】 このカードがアタックした時、あなたは他の自分のキャラを1枚選び、そのターン中、パワーを＋1500。\n\"ううん、いいよ恵\"",
+   "traits": [
+    "ゲーム",
+    "漫画"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/shs_w71/shs_w71_010.png",
+   "variant": ""
+  },
+  {
+   "num": "SHS/W71-011",
+   "name": "ツンとデレのギャップ 英梨々",
+   "type": "Character",
+   "rarity": "U",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［手札のクライマックスを1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは相手のキャラを1枚選び、思い出にし、アンコールステップの始めに、相手は自分の思い出置場のそのキャラを、舞台の好きな枠に置く。\n【自】 このカードが【リバース】した時、このカードのバトル相手のレベルが0以下なら、あなたはそのキャラをストック置場に置いてよい。そうしたら、あなたは相手のストックの下から1枚を、控え室に置く。\n\"詩羽「『待ってる……あたしずっと待ってるよ、倫也ぁ』」\"",
+   "traits": [
+    "ゲーム",
+    "漫画"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/shs_w71/shs_w71_011.png",
+   "variant": ""
+  },
+  {
+   "num": "SHS/W71-012",
+   "name": "悪役イメージ 伊織",
+   "type": "Character",
+   "rarity": "U",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【起】［(1) このカードを【レスト】する］ あなたは自分の山札を上から2枚まで見て、レベル1以上のカードを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。（クライマックスのレベルは0として扱う）\n【起】［手札の「突然の再会 出海」を1枚控え室に置く］ あなたは「突然の再会 出海」以外の自分の控え室のカード名に「出海」を含むキャラを1枚選び、手札に戻す。\n\"朱音さん……\"",
+   "traits": [
+    "ゲーム",
+    "オタク"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/shs_w71/shs_w71_012.png",
+   "variant": ""
+  },
+  {
+   "num": "SHS/W71-013",
+   "name": "選択の時 倫也",
+   "type": "Character",
+   "rarity": "U",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［手札のクライマックスを1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の《ゲーム》のキャラを1枚選び、手札に戻す。\n\"伊織「さ、行くよ倫也君……那須高原へ」\"",
+   "traits": [
+    "ゲーム",
+    "オタク"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/shs_w71/shs_w71_013.png",
+   "variant": ""
+  },
+  {
+   "num": "SHS/W71-014",
+   "name": "徹底的なこだわり 英梨々",
+   "type": "Character",
+   "rarity": "U",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から1枚を公開する。そのカードのレベルが1以上なら、そのターン中、このカードのパワーを＋2000。（クライマックスのレベルは0として扱う。公開したカードは元に戻す）\n【自】 このカードのバトル相手が【リバース】した時、あなたは他の自分の《ゲーム》のキャラを1枚選び、【レスト】し、後列のキャラのいない枠に動かす。\n\"あんたが全員水着にならなくちゃ嫌だって言うからこうして付き合ってるのよ？\"",
+   "traits": [
+    "ゲーム",
+    "漫画"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/shs_w71/shs_w71_014.png",
+   "variant": ""
+  },
+  {
+   "num": "SHS/W71-015",
+   "name": "いざカンヅメ 英梨々",
+   "type": "Character",
+   "rarity": "U",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 経験 あなたのレベル置場に「切り取られた風景 英梨々」があるなら、このカードのパワーを＋1000し、このカードは次の能力を得る。『【自】［(1) このカードを控え室に置く］ 他のあなたの《ゲーム》のキャラがフロントアタックされた時、あなたはコストを払ってよい。そうしたら、そのキャラを手札に戻す。』\n\"出かける前に一言だけ断っておこうと思って\"",
+   "traits": [
+    "ゲーム",
+    "漫画"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/shs_w71/shs_w71_015.png",
+   "variant": ""
+  },
+  {
+   "num": "SHS/W71-016",
+   "name": "強引な割り込み 英梨々",
+   "type": "Character",
+   "rarity": "U",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】［手札を2枚控え室に置く］ あなたがこのカードの『助太刀』を使った時、あなたはコストを払ってよい。そうしたら、あなたは相手の、レベルが相手のレベルより高いキャラを1枚選び、思い出にする。\n【起】【カウンター】 助太刀2500 レベル2 ［(1) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋2500）\n\"今までとは事情が違うでしょ事情が！\"",
+   "traits": [
+    "ゲーム",
+    "漫画"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/shs_w71/shs_w71_016.png",
+   "variant": ""
+  },
+  {
+   "num": "SHS/W71-017",
+   "name": "感動の幼なじみエンド 英梨々",
+   "type": "Character",
+   "rarity": "U",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "6000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが【リバース】した時、このカードのバトル相手のレベルが相手のレベルより高いなら、あなたはそのキャラをストック置場に置いてよい。そうしたら、あなたは相手のストックの下から1枚を、控え室に置く。\n【自】【クロック】 アラーム このカードがクロックの1番上にあるなら、あなたのメインフェイズの始めに、あなたは自分の控え室のキャラを1枚とこのカードを選び、入れ替えてよい。\n\"そんなことより今は『あの雪』よっ！\"",
+   "traits": [
+    "ゲーム",
+    "漫画"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/shs_w71/shs_w71_017.png",
+   "variant": ""
+  },
+  {
+   "num": "SHS/W71-018",
+   "name": "宴の後 朱音",
+   "type": "Character",
+   "rarity": "U",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "6500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 応援 このカードの前のあなたのレベル3以上のキャラすべてに、パワーを＋2000。\n【自】［手札を3枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見て《ゲーム》のキャラを2枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"そんなに都合よく矢面に立ってくれるパートナーがいればいいけどねぇ\"",
+   "traits": [
+    "ゲーム",
+    "漫画"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/shs_w71/shs_w71_018.png",
+   "variant": ""
+  },
+  {
+   "num": "SHS/W71-019",
+   "name": "剥き出しの敵意 出海",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 バトル中のこのカードが【リバース】した時、あなたは自分の山札の上から1枚を公開する。そのカードがレベル0以下のキャラなら手札に加える。（そうでないなら元に戻す）\n【自】【クロック】 アラーム このカードがクロックの1番上にあり、あなたの《ゲーム》のキャラが3枚以上なら、あなたのクライマックスフェイズの始めに、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋2000。\n\"っ、サークルの差とか関係ないです\"",
+   "traits": [
+    "ゲーム",
+    "漫画"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/shs_w71/shs_w71_019.png",
+   "variant": ""
+  },
+  {
+   "num": "SHS/W71-020",
+   "name": "一番力をだせる場所 出海",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 前列の中央の枠にこのカードがいるなら、このカードのレベルを＋1し、パワーを＋2500。\n\"-\"",
+   "traits": [
+    "ゲーム",
+    "漫画"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/shs_w71/shs_w71_020.png",
+   "variant": ""
+  },
+  {
+   "num": "SHS/W71-021",
+   "name": "憧れと決意 出海",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、他のあなたの《ゲーム》のキャラが2枚以上なら、あなたは1枚引いてよい。そうしたら、あなたは自分の手札を1枚選び、控え室に置く。\n【自】［あなたの控え室のキャラを2枚山札に戻し、その山札をシャッフルする］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、そのターン中、このカードのソウルを＋1。\n\"うわぁ、すっごぉい！\"",
+   "traits": [
+    "ゲーム",
+    "漫画"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/shs_w71/shs_w71_021.png",
+   "variant": ""
+  },
+  {
+   "num": "SHS/W71-022",
+   "name": "やっちゃった英梨々",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【起】［このカードを【レスト】する］ あなたは自分の《ゲーム》のキャラを1枚選び、そのターン中、パワーを＋1500。\n\"送ってないよね……あたし、倫也にメール、してないよね？\"",
+   "traits": [
+    "ゲーム",
+    "漫画"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/shs_w71/shs_w71_022.png",
+   "variant": ""
+  },
+  {
+   "num": "SHS/W71-023",
+   "name": "rouge en rouge代表 朱音",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1)］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の手札とレベル置場のカードを1枚ずつ選び、入れ替える。\n\"……今回はちょっと面白そうなものを見つけたんでね\"",
+   "traits": [
+    "ゲーム",
+    "漫画"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/shs_w71/shs_w71_023.png",
+   "variant": ""
+  },
+  {
+   "num": "SHS/W71-024",
+   "name": "クリエイティブな空気 出海",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 相手のキャラすべてに、『【自】 アンコール ［(2)］』を与える。\n\"ふわぁ……\"",
+   "traits": [
+    "ゲーム",
+    "漫画"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/shs_w71/shs_w71_024.png",
+   "variant": ""
+  },
+  {
+   "num": "SHS/W71-025",
+   "name": "突然の再会 出海",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "5500",
+   "soul": 1,
+   "trigger": "",
+   "text": "-\n\"来ちゃいました～\"",
+   "traits": [
+    "ゲーム",
+    "漫画"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/shs_w71/shs_w71_025.png",
+   "variant": ""
+  },
+  {
+   "num": "SHS/W71-026",
+   "name": "それっぽい登場 伊織",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "6500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 このカードの正面のキャラのレベルがこのカードのレベルより高いなら、このカードはフロントアタックできない。\n\"慌てる必要はないよ……\"",
+   "traits": [
+    "ゲーム",
+    "オタク"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/shs_w71/shs_w71_026.png",
+   "variant": ""
+  },
+  {
+   "num": "SHS/W71-027",
+   "name": "戦いの結果 出海",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "1",
+   "cost": "1",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【起】【カウンター】 助太刀2500 レベル1 ［(1) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋2500）\n\"え？　ちょ、ちょっと……\"",
+   "traits": [
+    "ゲーム",
+    "漫画"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/shs_w71/shs_w71_027.png",
+   "variant": ""
+  },
+  {
+   "num": "SHS/W71-028",
+   "name": "雪に埋もれたマスターアップ",
+   "type": "Event",
+   "rarity": "U",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "【カウンター】 あなたは自分のキャラを1枚選び、そのターン中、次の能力を与える。『【自】 このカードが舞台から控え室に置かれた時、あなたはこのカードを手札に戻してよい。』\n\"じゃあ、ゲームは完成した？\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/shs_w71/shs_w71_028.png",
+   "variant": ""
+  },
+  {
+   "num": "SHS/W71-029",
+   "name": "そして竜虎は神に挑まん",
+   "type": "Climax",
+   "rarity": "CR",
+   "color": "yellow",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[shot.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[shot.gif]]：このターン中、このカードをトリガーした攻撃キャラが次に与えるダメージがキャンセルされた時、相手に1ダメージを与える）\n\"うわああああああっ、ああああああああぁぁぁぁぁ～！\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/shs_w71/shs_w71_029.png",
+   "variant": ""
+  },
+  {
+   "num": "SHS/W71-029R",
+   "name": "そして竜虎は神に挑まん",
+   "type": "Climax",
+   "rarity": "RRR",
+   "color": "yellow",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[shot.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[shot.gif]]：このターン中、このカードをトリガーした攻撃キャラが次に与えるダメージがキャンセルされた時、相手に1ダメージを与える）\n\"倫也が求めてる、凄いイラストレーターに、なれないよぉぉぉ～！\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/shs_w71/shs_w71_029r.png",
+   "variant": ""
+  },
+  {
+   "num": "SHS/W71-030",
+   "name": "出し抜かれ、ポンコツ",
+   "type": "Climax",
+   "rarity": "CC",
+   "color": "yellow",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[bounce.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[bounce.gif]]：このカードがトリガーした時、あなたは相手のキャラを1枚選び、手札に戻してよい）\n\"うあああああああああああああああああああ～～～！！！\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/shs_w71/shs_w71_030.png",
+   "variant": ""
+  },
+  {
+   "num": "SHS/W71-031",
+   "name": "決意の対峙",
+   "type": "Climax",
+   "rarity": "CC",
+   "color": "yellow",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[shot.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[shot.gif]]：このターン中、このカードをトリガーした攻撃キャラが次に与えるダメージがキャンセルされた時、相手に1ダメージを与える）\n\"倫也先輩……わたし……わたしはっ\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/shs_w71/shs_w71_031.png",
+   "variant": ""
+  },
+  {
+   "num": "SHS/W71-031R",
+   "name": "決意の対峙",
+   "type": "Climax",
+   "rarity": "RRR",
+   "color": "yellow",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[shot.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[shot.gif]]：このターン中、このカードをトリガーした攻撃キャラが次に与えるダメージがキャンセルされた時、相手に1ダメージを与える）\n\"このっ！このっ！\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/shs_w71/shs_w71_031r.png",
+   "variant": ""
+  },
+  {
+   "num": "SHS/W71-032",
+   "name": "魅惑の後輩ボディ",
+   "type": "Climax",
+   "rarity": "CC",
+   "color": "yellow",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[bounce.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[bounce.gif]]：このカードがトリガーした時、あなたは相手のキャラを1枚選び、手札に戻してよい）\n\"英梨々「ブラからはみ出る胸」\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/shs_w71/shs_w71_032.png",
+   "variant": ""
+  },
+  {
+   "num": "SHS/W71-033",
+   "name": "裏切りと別れ 詩羽",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 他のあなたの《ゲーム》のキャラがアタックした時、そのターン中、このカードのパワーを＋1000。\n【自】［(1) このカードを思い出にする］ 他のあなたのキャラがフロントアタックされた時、あなたはコストを払ってよい。そうしたら、そのキャラを手札に戻す。\n\"私たちクリエイターはね……無理をしなくていいと許された瞬間に成長は止まってしまうの\"",
+   "traits": [
+    "ゲーム",
+    "小説"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/shs_w71/shs_w71_033.png",
+   "variant": ""
+  },
+  {
+   "num": "SHS/W71-033S",
+   "name": "裏切りと別れ 詩羽",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 他のあなたの《ゲーム》のキャラがアタックした時、そのターン中、このカードのパワーを＋1000。\n【自】［(1) このカードを思い出にする］ 他のあなたのキャラがフロントアタックされた時、あなたはコストを払ってよい。そうしたら、そのキャラを手札に戻す。\n\"それでも私は、もう一度、柏木エリと組んでみたかった……っ\"",
+   "traits": [
+    "ゲーム",
+    "小説"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/shs_w71/shs_w71_033s.png",
+   "variant": ""
+  },
+  {
+   "num": "SHS/W71-034",
+   "name": "成長と別離 英梨々",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのターン中、他のあなたの前列の中央の枠のキャラに、パワーを＋1000。\n【起】 集中 ［(1) このカードを【レスト】する］ あなたは自分の山札の上から4枚をめくり、控え室に置く。それらのカードのクライマックス1枚につき、あなたは自分の山札を見て《ゲーム》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"ほら……誰が、ヘタクソだって？\"",
+   "traits": [
+    "ゲーム",
+    "漫画"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/shs_w71/shs_w71_034.png",
+   "variant": ""
+  },
+  {
+   "num": "SHS/W71-034SP",
+   "name": "成長と別離 英梨々",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのターン中、他のあなたの前列の中央の枠のキャラに、パワーを＋1000。\n【起】 集中 ［(1) このカードを【レスト】する］ あなたは自分の山札の上から4枚をめくり、控え室に置く。それらのカードのクライマックス1枚につき、あなたは自分の山札を見て《ゲーム》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"-\"",
+   "traits": [
+    "ゲーム",
+    "漫画"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/shs_w71/shs_w71_034sp.png",
+   "variant": ""
+  },
+  {
+   "num": "SHS/W71-035",
+   "name": "揺れ動く心 恵",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの《ゲーム》のキャラが2枚以上なら、このカードのパワーを＋1000。\n【自】【CXコンボ】 あなたのクライマックス置場に「フラグを折らなかった彼女」が置かれた時、他のあなたの《ゲーム》のキャラがいるなら、次の相手のターンの終わりまで、このカードは次の2つの能力を得る。『【自】［(1)］ このカードがアタックした時、あなたはコストを払ってよい。そうしたら、そのアタック中、あなたはトリガーステップにトリガーチェックを2回行う。』『【自】 このカードがフロントアタックされた時、あなたはこのカードを手札に戻してよい。』\n\"あ～、まぁそんなとこだよね～\"",
+   "traits": [
+    "ゲーム"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/shs_w71/shs_w71_035.png",
+   "variant": ""
+  },
+  {
+   "num": "SHS/W71-035SP",
+   "name": "揺れ動く心 恵",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの《ゲーム》のキャラが2枚以上なら、このカードのパワーを＋1000。\n【自】【CXコンボ】 あなたのクライマックス置場に「フラグを折らなかった彼女」が置かれた時、他のあなたの《ゲーム》のキャラがいるなら、次の相手のターンの終わりまで、このカードは次の2つの能力を得る。『【自】［(1)］ このカードがアタックした時、あなたはコストを払ってよい。そうしたら、そのアタック中、あなたはトリガーステップにトリガーチェックを2回行う。』『【自】 このカードがフロントアタックされた時、あなたはこのカードを手札に戻してよい。』\n\"-\"",
+   "traits": [
+    "ゲーム"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/shs_w71/shs_w71_035sp.png",
+   "variant": ""
+  },
+  {
+   "num": "SHS/W71-036",
+   "name": "初めての感情 恵",
+   "type": "Character",
+   "rarity": "R",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【起】［このカードを控え室に置く］ あなたのレベルが1以上なら、あなたは自分の控え室の「感情の爆発 恵」を1枚選び、このカードがいた枠に置く。\n【起】 集中 ［(1) このカードを【レスト】する］ あなたは自分の山札の上から4枚をめくり、控え室に置く。それらのカードのクライマックス1枚につき、あなたは自分の山札を見て《ゲーム》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"わたし、今日は帰るよ\"",
+   "traits": [
+    "ゲーム"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/shs_w71/shs_w71_036.png",
+   "variant": ""
+  },
+  {
+   "num": "SHS/W71-036S",
+   "name": "初めての感情 恵",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【起】［このカードを控え室に置く］ あなたのレベルが1以上なら、あなたは自分の控え室の「感情の爆発 恵」を1枚選び、このカードがいた枠に置く。\n【起】 集中 ［(1) このカードを【レスト】する］ あなたは自分の山札の上から4枚をめくり、控え室に置く。それらのカードのクライマックス1枚につき、あなたは自分の山札を見て《ゲーム》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"たとえ那須高原でも駆けつけるから\"",
+   "traits": [
+    "ゲーム"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/shs_w71/shs_w71_036s.png",
+   "variant": ""
+  },
+  {
+   "num": "SHS/W71-037",
+   "name": "変わっていく二人 恵",
+   "type": "Character",
+   "rarity": "R",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 あなたがこのカードの『助太刀』を使った時、あなたの《ゲーム》のキャラがいるなら、あなたは自分のバトル中のキャラを1枚選び、そのターン中、パワーを＋1000。\n【起】【カウンター】 助太刀1000 レベル1 ［手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋1000）\n\"でもそれなら、もうこのゲームとかでやってることなんじゃない？\"",
+   "traits": [
+    "ゲーム"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/shs_w71/shs_w71_037.png",
+   "variant": ""
+  },
+  {
+   "num": "SHS/W71-037S",
+   "name": "変わっていく二人 恵",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 あなたがこのカードの『助太刀』を使った時、あなたの《ゲーム》のキャラがいるなら、あなたは自分のバトル中のキャラを1枚選び、そのターン中、パワーを＋1000。\n【起】【カウンター】 助太刀1000 レベル1 ［手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋1000）\n\"安芸くんの言う通りだよ、人との関係って、変わるんだよ\"",
+   "traits": [
+    "ゲーム"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/shs_w71/shs_w71_037s.png",
+   "variant": ""
+  },
+  {
+   "num": "SHS/W71-038",
+   "name": "敗北を糧に 英梨々",
+   "type": "Character",
+   "rarity": "R",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 記憶 あなたのターン中、あなたの思い出置場にカードがあるなら、このカードのパワーを＋2500し、このカードは次の能力を得る。『【自】 このカードがアタックした時、このカードの正面のキャラのレベルが2なら、そのターン中、このカードのパワーを＋6000。』\n\"でも……次は負けない\"",
+   "traits": [
+    "ゲーム",
+    "漫画"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/shs_w71/shs_w71_038.png",
+   "variant": ""
+  },
+  {
+   "num": "SHS/W71-039",
+   "name": "おやすみの前に 恵",
+   "type": "Character",
+   "rarity": "R",
+   "color": "green",
+   "level": "2",
+   "cost": "1",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋Ｘ。Ｘはそのキャラのレベル×500に等しい。\n【自】［(1) このカードを思い出にする］ あなたのクライマックスフェイズの始めに、あなたのレベルが3以上なら、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「新しい物語 恵」を1枚選び、このカードがいた枠に置く。\n\"はい安芸くん\"",
+   "traits": [
+    "ゲーム"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/shs_w71/shs_w71_039.png",
+   "variant": ""
+  },
+  {
+   "num": "SHS/W71-040",
+   "name": "思わぬ熱意 恵",
+   "type": "Character",
+   "rarity": "R",
+   "color": "green",
+   "level": "3",
+   "cost": "2",
+   "power": "8000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 応援 このカードの前のあなたの《ゲーム》のキャラすべてに、パワーを＋2000。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札を見て《ゲーム》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n【自】 あなたのキャラのトリガーチェックでクライマックスがでた時、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋1000。\n\"プレイしてみないとわからないのなら、プレイしてみればいいんだよ\"",
+   "traits": [
+    "ゲーム"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/shs_w71/shs_w71_040.png",
+   "variant": ""
+  },
+  {
+   "num": "SHS/W71-041",
+   "name": "ご褒美のシーン 恵",
+   "type": "Character",
+   "rarity": "R",
+   "color": "green",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの《ゲーム》のキャラが2枚以上なら、このカードのパワーを＋1000。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から1枚を公開する。そのカードが《ゲーム》のキャラなら、そのターン中、このカードは次の能力を得る。『【自】 このカードのバトル相手が【リバース】した時、あなたはそのキャラをクロック置場に置いてよい。』（公開したカードは元に戻す）\n【自】［手札を1枚控え室に置く］ バトル中のこのカードが【リバース】した時、あなたはコストを払ってよい。そうしたら、このカードを手札に戻す。\n\"え～と、そこはなんとかこの格好のままでお願いしたいというのがわたしの希望なんだけど……\"",
+   "traits": [
+    "ゲーム"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/shs_w71/shs_w71_041.png",
+   "variant": ""
+  },
+  {
+   "num": "SHS/W71-041S",
+   "name": "ご褒美のシーン 恵",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの《ゲーム》のキャラが2枚以上なら、このカードのパワーを＋1000。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から1枚を公開する。そのカードが《ゲーム》のキャラなら、そのターン中、このカードは次の能力を得る。『【自】 このカードのバトル相手が【リバース】した時、あなたはそのキャラをクロック置場に置いてよい。』（公開したカードは元に戻す）\n【自】［手札を1枚控え室に置く］ バトル中のこのカードが【リバース】した時、あなたはコストを払ってよい。そうしたら、このカードを手札に戻す。\n\"それで、どんなポーズすればいいの\"",
+   "traits": [
+    "ゲーム"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/shs_w71/shs_w71_041s.png",
+   "variant": ""
+  },
+  {
+   "num": "SHS/W71-042",
+   "name": "旅立ちの時 詩羽",
+   "type": "Character",
+   "rarity": "U",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 このカードの正面のキャラは他の枠に動かせない。\n【永】 あなたの手札が5枚以上なら、このカードのパワーを＋2000。\n\"覚悟はいい？\"",
+   "traits": [
+    "ゲーム",
+    "小説"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/shs_w71/shs_w71_042.png",
+   "variant": ""
+  },
+  {
+   "num": "SHS/W71-043",
+   "name": "新たな決意 倫也",
+   "type": "Character",
+   "rarity": "U",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札を上から1枚見て、山札の上か控え室に置く。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から2枚を、控え室に置く。それらのカードにクライマックスがあるなら、そのターン中、このカードのパワーを＋3000。\n\"俺は……もう一度、ゲームを作りたい！\"",
+   "traits": [
+    "ゲーム",
+    "オタク"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/shs_w71/shs_w71_043.png",
+   "variant": ""
+  },
+  {
+   "num": "SHS/W71-044",
+   "name": "宝物を見つけに 恵",
+   "type": "Character",
+   "rarity": "U",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードがアタックした時、あなたは他の自分の《ゲーム》のキャラを1枚選び、そのターン中、パワーを＋Ｘ。Ｘは他のあなたの《ゲーム》のキャラの枚数×500に等しい。\n【自】 このカードがアタックした時、あなたのキャラすべてに、そのターン中、次の能力を与える。『【自】 このカードのトリガーチェックでクライマックスがでた時、そのカードのトリガーアイコンが[[treasure.gif]]なら、あなたは1枚引いてよい。そうしたら、あなたは自分の手札を1枚選び、控え室に置く。』\n\"うん、了解しました。それじゃ、行ってきます\"",
+   "traits": [
+    "ゲーム"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/shs_w71/shs_w71_044.png",
+   "variant": ""
+  },
+  {
+   "num": "SHS/W71-045",
+   "name": "超えるべき壁 英梨々",
+   "type": "Character",
+   "rarity": "U",
+   "color": "green",
+   "level": "3",
+   "cost": "2",
+   "power": "9500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの《ゲーム》のキャラ1枚につき、このカードのパワーを＋500。\n【自】 このカードが手札から舞台に置かれた時、他のあなたの《ゲーム》のキャラが2枚以上なら、あなたは自分のクロック置場のキャラを1枚選び、思い出にしてよい。\n\"出海「そして……澤村先輩の、絵も」\"",
+   "traits": [
+    "ゲーム",
+    "漫画"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/shs_w71/shs_w71_045.png",
+   "variant": ""
+  },
+  {
+   "num": "SHS/W71-046",
+   "name": "コーディネーター 恵",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋1000。\n【自】［手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分のクロック置場の《ゲーム》のキャラを1枚選び、手札に戻し、自分の山札の上から1枚を、クロック置場に置く。\n\"英梨々の普段着選びでしょ？　さすがにいつまでもジャージってのも\"",
+   "traits": [
+    "ゲーム"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/shs_w71/shs_w71_046.png",
+   "variant": ""
+  },
+  {
+   "num": "SHS/W71-047",
+   "name": "六天馬モールの再戦 恵",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの《ゲーム》のキャラすべてに、パワーを＋500。\n【自】【CXコンボ】［(1)］ あなたのクライマックス置場に「同じじゃない贈り物」が置かれた時、あなたはコストを払ってよい。そうしたら、あなたは他の自分の《ゲーム》のキャラを1枚選び、そのターン中、パワーを＋2000し、次の能力を与える。『【自】 このカードのバトル相手が【リバース】した時、あなたは自分の山札を見て《ゲーム》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。』\n\"安芸くんが道を切り開いてくれれば大丈夫だよ\"",
+   "traits": [
+    "ゲーム"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/shs_w71/shs_w71_047.png",
+   "variant": ""
+  },
+  {
+   "num": "SHS/W71-048",
+   "name": "クリエイターとしての道 英梨々",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋500。\n【起】［(1) あなたの山札の上から1枚をクロック置場に置き、このカードを【レスト】する］ あなたは自分の山札を見て『記憶』を持つキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"その新作を、あたしとあんたで作るって！？\"",
+   "traits": [
+    "ゲーム",
+    "漫画"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/shs_w71/shs_w71_048.png",
+   "variant": ""
+  },
+  {
+   "num": "SHS/W71-049",
+   "name": "ゲスな妄想 詩羽",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、そのターン中、このカードのパワーを＋Ｘ。Ｘはあなたの《ゲーム》のキャラの枚数×500に等しい。\n\"どうせ別れるなら『思い出が欲しいんだ詩羽先輩！』とか迫ってヤリ逃げしちゃおうって魂胆かしら？\"",
+   "traits": [
+    "ゲーム",
+    "小説"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/shs_w71/shs_w71_049.png",
+   "variant": ""
+  },
+  {
+   "num": "SHS/W71-050",
+   "name": "一年前の思い出 詩羽",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "2",
+   "cost": "1",
+   "power": "7500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 記憶 このカードがアタックした時、あなたの思い出が2枚以上なら、そのターン中、このカードのパワーを＋Ｘ。Ｘは他のあなたの《ゲーム》のキャラの枚数×1500に等しい。\n\"あら？\"",
+   "traits": [
+    "ゲーム",
+    "小説"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/shs_w71/shs_w71_050.png",
+   "variant": ""
+  },
+  {
+   "num": "SHS/W71-051",
+   "name": "消えていくハイライト ふたたび",
+   "type": "Event",
+   "rarity": "U",
+   "color": "green",
+   "level": "1",
+   "cost": "0",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "あなたは相手のレベル1以上のキャラを1枚選び、相手は自分の控え室のレベルＸ以下のキャラを1枚選び、入れ替える。Ｘはあなたが選んだキャラのレベル－1に等しい。\n\"……何言ってるの安芸くん\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/shs_w71/shs_w71_051.png",
+   "variant": ""
+  },
+  {
+   "num": "SHS/W71-052",
+   "name": "選択の時",
+   "type": "Event",
+   "rarity": "C",
+   "color": "green",
+   "level": "1",
+   "cost": "1",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "【カウンター】 このカードは、あなたの《ゲーム》のキャラがいないなら、手札からプレイできない。あなたは自分のキャラを1枚選び、そのターン中、次の能力を与える。『【永】 このカードは【リバース】しない。』\n\"酷いじゃないですか……瑠璃を、放っておくなんて\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/shs_w71/shs_w71_052.png",
+   "variant": ""
+  },
+  {
+   "num": "SHS/W71-053",
+   "name": "フラグを折らなかった彼女",
+   "type": "Climax",
+   "rarity": "CR",
+   "color": "green",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[treasure.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[treasure.gif]]：このカードがトリガーした時、あなたはこのカードを手札に戻す。あなたは自分の山札の上から1枚を、ストック置場に置いてよい）\n\"あ～もううるさいなぁ、だいたい、誰のせいでこんなことに……\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/shs_w71/shs_w71_053.png",
+   "variant": ""
+  },
+  {
+   "num": "SHS/W71-053R",
+   "name": "フラグを折らなかった彼女",
+   "type": "Climax",
+   "rarity": "RRR",
+   "color": "green",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[treasure.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[treasure.gif]]：このカードがトリガーした時、あなたはこのカードを手札に戻す。あなたは自分の山札の上から1枚を、ストック置場に置いてよい）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/shs_w71/shs_w71_053r.png",
+   "variant": ""
+  },
+  {
+   "num": "SHS/W71-054",
+   "name": "同じじゃない贈り物",
+   "type": "Climax",
+   "rarity": "CC",
+   "color": "green",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【自】 このカードが手札からクライマックス置場に置かれた時、あなたは自分の控え室の緑のカードを1枚まで選び、ストック置場に置き、自分のキャラすべてに、そのターン中、ソウルを＋1。\n\"どう、いたしまして\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/shs_w71/shs_w71_054.png",
+   "variant": ""
+  },
+  {
+   "num": "SHS/W71-055",
+   "name": "フラットじゃない彼女 恵",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 バトル中のこのカードが【リバース】した時、あなたは自分の山札の上から3枚までを、公開してよい。1枚以上公開したなら、あなたはそれらのカードの《ゲーム》のキャラを1枚まで選び、手札に加え、残りのカードを控え室に置き、自分の手札を1枚選び、控え室に置く。\n【起】［(1) 【スタンド】しているこのカードを思い出にする］ あなたは自分の控え室の「新しい物語 恵」を1枚選び、手札に戻す。\n\"何を、何を、何を……何を、言ってるのか、なぁ……っ\"",
+   "traits": [
+    "ゲーム"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/shs_w71/shs_w71_055.png",
+   "variant": ""
+  },
+  {
+   "num": "SHS/W71-055S",
+   "name": "フラットじゃない彼女 恵",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 バトル中のこのカードが【リバース】した時、あなたは自分の山札の上から3枚までを、公開してよい。1枚以上公開したなら、あなたはそれらのカードの《ゲーム》のキャラを1枚まで選び、手札に加え、残りのカードを控え室に置き、自分の手札を1枚選び、控え室に置く。\n【起】［(1) 【スタンド】しているこのカードを思い出にする］ あなたは自分の控え室の「新しい物語 恵」を1枚選び、手札に戻す。\n\"今まで、我慢してたけど、さぁ……っ\"",
+   "traits": [
+    "ゲーム"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/shs_w71/shs_w71_055s.png",
+   "variant": ""
+  },
+  {
+   "num": "SHS/W71-056",
+   "name": "新しい物語 恵",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "9000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 記憶 あなたの思い出が2枚以上なら、あなたのターン中、このカードのパワーを＋2000。3枚以上なら、このカードのバトル中、相手は『助太刀』を手札からプレイできない。4枚以上なら、このカードは相手の効果に選ばれない。\n【自】 このカードが手札から舞台に置かれた時か「おやすみの前に 恵」の【自】の効果で舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n【自】【CXコンボ】［(1)］ このカードのバトル相手が【リバース】した時、あなたのクライマックス置場に「再起と新規のゲームスタート」があるなら、あなたはコストを払ってよい。そうしたら、相手に2ダメージを与える。（ダメージキャンセルは発生する）\n\"……ふふ\"",
+   "traits": [
+    "ゲーム"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/shs_w71/shs_w71_056.png",
+   "variant": ""
+  },
+  {
+   "num": "SHS/W71-056SP",
+   "name": "新しい物語 恵",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "9000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 記憶 あなたの思い出が2枚以上なら、あなたのターン中、このカードのパワーを＋2000。3枚以上なら、このカードのバトル中、相手は『助太刀』を手札からプレイできない。4枚以上なら、このカードは相手の効果に選ばれない。\n【自】 このカードが手札から舞台に置かれた時か「おやすみの前に 恵」の【自】の効果で舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n【自】【CXコンボ】［(1)］ このカードのバトル相手が【リバース】した時、あなたのクライマックス置場に「再起と新規のゲームスタート」があるなら、あなたはコストを払ってよい。そうしたら、相手に2ダメージを与える。（ダメージキャンセルは発生する）\n\"-\"",
+   "traits": [
+    "ゲーム"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/shs_w71/shs_w71_056sp.png",
+   "variant": ""
+  },
+  {
+   "num": "SHS/W71-057",
+   "name": "新たなる選択肢 詩羽",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時か「切り取られた風景 英梨々」の【自】の効果で舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n【自】【CXコンボ】 経験 ［(3)］ クライマックス置場に「二泊三日の新ルート」があり、あなたのレベル置場に「新たなる選択肢 詩羽」があるなら、このカードがアタックした時、あなたはコストを払ってよい。そうしたら、次の2つの効果をあなたは好きな順番に行う。コストを払わないなら、次の2つの効果のうちあなたが選んだ1つを行う。『あなたは相手の控え室のカードを3枚まで選び、山札に戻し、相手はその山札をシャッフルする。』『相手に1ダメージを与える。』（ダメージキャンセルは発生する）\n\"そんなふうに変わってしまった世界にいる、変わってしまったキャラクターなのに、あのコたち、全然死んでなかった\"",
+   "traits": [
+    "ゲーム",
+    "小説"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/shs_w71/shs_w71_057.png",
+   "variant": ""
+  },
+  {
+   "num": "SHS/W71-057SP",
+   "name": "新たなる選択肢 詩羽",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時か「切り取られた風景 英梨々」の【自】の効果で舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n【自】【CXコンボ】 経験 ［(3)］ クライマックス置場に「二泊三日の新ルート」があり、あなたのレベル置場に「新たなる選択肢 詩羽」があるなら、このカードがアタックした時、あなたはコストを払ってよい。そうしたら、次の2つの効果をあなたは好きな順番に行う。コストを払わないなら、次の2つの効果のうちあなたが選んだ1つを行う。『あなたは相手の控え室のカードを3枚まで選び、山札に戻し、相手はその山札をシャッフルする。』『相手に1ダメージを与える。』（ダメージキャンセルは発生する）\n\"-\"",
+   "traits": [
+    "ゲーム",
+    "小説"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/shs_w71/shs_w71_057sp.png",
+   "variant": ""
+  },
+  {
+   "num": "SHS/W71-058",
+   "name": "湯水のような投資 詩羽",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 バトル中のこのカードが【リバース】した時、あなたは自分の山札の上から2枚を、控え室に置く。それらのカードにレベル2以上のカードがあるなら、あなたはこのカードをストック置場に置いてよい。（クライマックスのレベルは0として扱う）\n【自】 このカードが【リバース】した時、このカードのバトル相手のレベルが0以下なら、あなたはそのキャラを【リバース】してよい。\n\"大丈夫よ、宿帳は姉と弟という設定にしておいたから\"",
+   "traits": [
+    "ゲーム",
+    "小説"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/shs_w71/shs_w71_058.png",
+   "variant": ""
+  },
+  {
+   "num": "SHS/W71-058S",
+   "name": "湯水のような投資 詩羽",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 バトル中のこのカードが【リバース】した時、あなたは自分の山札の上から2枚を、控え室に置く。それらのカードにレベル2以上のカードがあるなら、あなたはこのカードをストック置場に置いてよい。（クライマックスのレベルは0として扱う）\n【自】 このカードが【リバース】した時、このカードのバトル相手のレベルが0以下なら、あなたはそのキャラを【リバース】してよい。\n\"ちょうど重版の印税が入った私に感謝することね\"",
+   "traits": [
+    "ゲーム",
+    "小説"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/shs_w71/shs_w71_058s.png",
+   "variant": ""
+  },
+  {
+   "num": "SHS/W71-059",
+   "name": "決意の二人 詩羽",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】【CXコンボ】［手札の、「二泊三日の新ルート」か「そして竜虎は神に挑まん」を1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の、「二泊三日の新ルート」か「そして竜虎は神に挑まん」を1枚選び、手札に戻す。\n【起】 集中 ［(1) このカードを【レスト】する］ あなたは自分の山札の上から4枚をめくり、控え室に置く。それらのカードのクライマックス1枚につき、あなたは自分の控え室のキャラを1枚まで選び、手札に戻す。\n\"って、澤村さん、もしかして…<br>描けるように……なったの？\"",
+   "traits": [
+    "ゲーム",
+    "小説"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/shs_w71/shs_w71_059.png",
+   "variant": ""
+  },
+  {
+   "num": "SHS/W71-059S",
+   "name": "決意の二人 詩羽",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】【CXコンボ】［手札の、「二泊三日の新ルート」か「そして竜虎は神に挑まん」を1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の、「二泊三日の新ルート」か「そして竜虎は神に挑まん」を1枚選び、手札に戻す。\n【起】 集中 ［(1) このカードを【レスト】する］ あなたは自分の山札の上から4枚をめくり、控え室に置く。それらのカードのクライマックス1枚につき、あなたは自分の控え室のキャラを1枚まで選び、手札に戻す。\n\"……今、何時だと思っているのよ\"",
+   "traits": [
+    "ゲーム",
+    "小説"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/shs_w71/shs_w71_059s.png",
+   "variant": ""
+  },
+  {
+   "num": "SHS/W71-060",
+   "name": "男女の駆け引き 詩羽",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の手札を1枚選び、ストック置場に置いてよい。\n【自】［(1)］ このカードがアタックした時、あなたはコストを払ってよい。そうしたら、そのアタック中、あなたはトリガーステップにトリガーチェックを2回行う。\n\"どうしてそんなに慌ててる訳？\"",
+   "traits": [
+    "ゲーム",
+    "小説"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/shs_w71/shs_w71_060.png",
+   "variant": ""
+  },
+  {
+   "num": "SHS/W71-061",
+   "name": "感情の爆発 恵",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 応援 あなたのターン中、このカードの前のあなたのキャラすべてに、パワーを＋500。\n【自】［(1) このカードを思い出にする］ あなたのクライマックスフェイズの始めに、あなたのレベルが2以上なら、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「おやすみの前に 恵」を1枚選び、このカードがいた枠に置く。\n【起】 集中 ［(1) このカードを【レスト】する］ あなたは自分の山札の上から4枚をめくり、控え室に置く。それらのカードのクライマックス1枚につき、あなたは自分の山札を見て《ゲーム》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"仲間だよね？　友達だよね？　英梨々も、霞ヶ丘先輩も、氷堂さんも……\"",
+   "traits": [
+    "ゲーム"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/shs_w71/shs_w71_061.png",
+   "variant": ""
+  },
+  {
+   "num": "SHS/W71-062",
+   "name": "決意表明 詩羽",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "5500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 このカードは、あなたの《ゲーム》のキャラが2枚以下なら、手札からプレイできない。\n【永】 経験 あなたのレベル置場に「新たなる選択肢 詩羽」があるなら、このカードのパワーを＋1500。\n\"そうなったら、そもそも私は採用されないわ\"",
+   "traits": [
+    "ゲーム",
+    "小説"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/shs_w71/shs_w71_062.png",
+   "variant": ""
+  },
+  {
+   "num": "SHS/W71-063",
+   "name": "祭りの朝 恵",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "6500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】［手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を上から4枚まで見て、《ゲーム》のキャラを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。\n【自】 このカードがアタックした時、このカードの正面のキャラのレベルが3以上なら、そのターン中、このカードのパワーを＋6000。\n\"そのことに関してはもう終わり。それでいいよね二人とも？\"",
+   "traits": [
+    "ゲーム"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/shs_w71/shs_w71_063.png",
+   "variant": ""
+  },
+  {
+   "num": "SHS/W71-064",
+   "name": "リフレイン 恵",
+   "type": "Character",
+   "rarity": "U",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 相手のアタックフェイズの始めに、あなたはこのカードを前列のキャラのいない枠に動かしてよい。\n\"デート、してみよう？　わたしたち\"",
+   "traits": [
+    "ゲーム"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/shs_w71/shs_w71_064.png",
+   "variant": ""
+  },
+  {
+   "num": "SHS/W71-065",
+   "name": "邂逅の回想 詩羽",
+   "type": "Character",
+   "rarity": "U",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［あなたの山札の上から1枚をクロック置場に置く］ アンコールステップの始めに、他のあなたの前列の【レスト】しているキャラがいないなら、あなたはコストを払ってよい。そうしたら、このカードを【レスト】する。\n\"それは……どうして隠すの？\"",
+   "traits": [
+    "ゲーム",
+    "小説"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/shs_w71/shs_w71_065.png",
+   "variant": ""
+  },
+  {
+   "num": "SHS/W71-066",
+   "name": "変わっていく関係 恵",
+   "type": "Character",
+   "rarity": "U",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 記憶 このカードが手札から舞台に置かれた時、あなたの思い出置場にカードがあるなら、あなたは自分の山札の上から1枚を控え室に置く。そのカードがレベル1以下のキャラなら、そのターン中、このカードのパワーを＋3000。\n【自】 このカードが【リバース】した時、このカードのバトル相手のレベルが1以下なら、あなたはそのキャラを【リバース】してよい。\n\"うん、その方がいいんじゃないかな？\"",
+   "traits": [
+    "ゲーム"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/shs_w71/shs_w71_066.png",
+   "variant": ""
+  },
+  {
+   "num": "SHS/W71-067",
+   "name": "嫌悪の感情 詩羽",
+   "type": "Character",
+   "rarity": "U",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】［(2)］ あなたがこのカードの『助太刀』を使った時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室のカードすべてを、山札に戻し、その山札をシャッフルする。\n【起】【カウンター】 助太刀2500 レベル2 ［(1) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋2500）\n\"……ということは、あの人も私の大学の先輩になるわけですか？\"",
+   "traits": [
+    "ゲーム",
+    "小説"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/shs_w71/shs_w71_067.png",
+   "variant": ""
+  },
+  {
+   "num": "SHS/W71-068",
+   "name": "インモラル先輩 詩羽",
+   "type": "Character",
+   "rarity": "U",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "7000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 経験 あなたのレベル置場のカードのレベルの合計が4以上なら、このカードのパワーを＋2500。\n【自】【CXコンボ】 このカードがアタックした時、クライマックス置場に「初めての女」があるなら、あなたは自分の山札の上から1枚までを、ストック置場に置き、自分の山札の上から1枚を公開する。そのカードのレベルが1以上なら手札に加える。（クライマックスのレベルは0として扱う。そうでないなら元に戻す）\n\"倫理君、倫理君っ……いいえ、今からあなたは、不倫理君よ\"",
+   "traits": [
+    "ゲーム",
+    "小説"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/shs_w71/shs_w71_068.png",
+   "variant": ""
+  },
+  {
+   "num": "SHS/W71-069",
+   "name": "プロ中のゴロ 朱音",
+   "type": "Character",
+   "rarity": "U",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "9000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの《ゲーム》のキャラ1枚につき、このカードのパワーを＋500。\n【自】【CXコンボ】［(3) 手札を2枚控え室に置き、あなたのクライマックス置場の「創作の修羅」を1枚控え室に置く］ あなたのアタックフェイズの始めに、あなたはコストを払ってよい。そうしたら、あなたは相手のレベル3以下のキャラすべてを、控え室に置く。\n\"あ～、久しぶりだな柏木センセ。その後体の調子はどう？\"",
+   "traits": [
+    "ゲーム",
+    "漫画"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/shs_w71/shs_w71_069.png",
+   "variant": ""
+  },
+  {
+   "num": "SHS/W71-070",
+   "name": "同窓のよしみ 苑子",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札を見て《小説》のキャラを1枚まで選び、控え室に置き、その山札をシャッフルする。\n【自】［(2)］ このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の《小説》のキャラを1枚選び、手札に戻す。\n\"そう嫌ってやんなさんな。一応、業界人としても大先輩なんだし\"",
+   "traits": [
+    "小説"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/shs_w71/shs_w71_070.png",
+   "variant": ""
+  },
+  {
+   "num": "SHS/W71-071",
+   "name": "ディレクターの矜持 倫也",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの「看過された策 詩羽」すべてに、ソウルを＋1。\n【永】 他のあなたの《ゲーム》のキャラすべてに、パワーを＋500。\n\"詩羽先輩……\"",
+   "traits": [
+    "ゲーム",
+    "オタク"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/shs_w71/shs_w71_071.png",
+   "variant": ""
+  },
+  {
+   "num": "SHS/W71-072",
+   "name": "欲しかったもの 恵",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から2枚を、控え室に置く。それらのカードにレベル0以下のキャラがあるなら、そのターン中、このカードはサイドアタックしてもソウルが減少しない。\n【自】 このカードがアタックした時、あなたは自分の《ゲーム》のキャラを1枚選び、そのターン中、パワーを＋1500。\n\"あのさ英梨々、もしよかったら、もう一枚、わたしにも描いてくれないかな？\"",
+   "traits": [
+    "ゲーム"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/shs_w71/shs_w71_072.png",
+   "variant": ""
+  },
+  {
+   "num": "SHS/W71-073",
+   "name": "祭りの後 恵",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【起】 集中 ［(1)］ あなたは自分の山札の上から4枚をめくり、控え室に置く。それらのカードのクライマックス1枚につき、次の行動を行う。『あなたは自分の控え室の《ゲーム》のキャラを1枚選び、手札に戻し、自分の手札を1枚選び、控え室に置く。』\n\"なのに、安芸くんはわたしに何も話さなかった\"",
+   "traits": [
+    "ゲーム"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/shs_w71/shs_w71_073.png",
+   "variant": ""
+  },
+  {
+   "num": "SHS/W71-074",
+   "name": "黄昏の美術室 詩羽",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 経験 あなたがこのカードの『助太刀』を使った時、あなたのレベル置場に「新たなる選択肢 詩羽」があるなら、あなたは自分のバトル中のキャラを1枚選び、そのターン中、パワーを＋1500。\n【起】【カウンター】 助太刀1000 レベル1 ［手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋1000）\n\"だから、辛くても、孤独じゃない……そうでしょう？\"",
+   "traits": [
+    "ゲーム",
+    "小説"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/shs_w71/shs_w71_074.png",
+   "variant": ""
+  },
+  {
+   "num": "SHS/W71-075",
+   "name": "看過された策 詩羽",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "5500",
+   "soul": 1,
+   "trigger": "",
+   "text": "-\n\"よくも見破ってくれたわね加藤さん……\"",
+   "traits": [
+    "ゲーム",
+    "小説"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/shs_w71/shs_w71_075.png",
+   "variant": ""
+  },
+  {
+   "num": "SHS/W71-076",
+   "name": "静かな糾弾 詩羽",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "1",
+   "cost": "1",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが【リバース】した時、このカードのバトル相手のレベルが相手のレベルより高いなら、あなたはそのキャラを【リバース】してよい。\n\"今の澤村さん、クオリティにこだわり過ぎて、少し空回りしている気がするわ\"",
+   "traits": [
+    "ゲーム",
+    "小説"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/shs_w71/shs_w71_076.png",
+   "variant": ""
+  },
+  {
+   "num": "SHS/W71-077",
+   "name": "二人の共同作業",
+   "type": "Event",
+   "rarity": "U",
+   "color": "red",
+   "level": "2",
+   "cost": "0",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "【カウンター】 このカードは、あなたのカード名に「詩羽」を含むキャラがいないなら、手札からプレイできない。\nあなたは自分の《ゲーム》のキャラを1枚選び、そのターン中、パワーを＋2000し、相手のキャラを1枚選び、そのターン中、ソウルを－1。\n\"おやすみなさい\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/shs_w71/shs_w71_077.png",
+   "variant": ""
+  },
+  {
+   "num": "SHS/W71-078",
+   "name": "至極の一品",
+   "type": "Event",
+   "rarity": "C",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "このカードは、あなたの《ゲーム》のキャラがいないなら、手札からプレイできない。\nあなたは自分の控え室のレベル2以上のキャラを1枚選び、手札に戻す。\n\"特に最後の七枚は、柏木エリの輝かしい作品群の中でも史上最高の……っ\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/shs_w71/shs_w71_078.png",
+   "variant": ""
+  },
+  {
+   "num": "SHS/W71-079",
+   "name": "二泊三日の新ルート",
+   "type": "Climax",
+   "rarity": "CR",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[salvage.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[salvage.gif]]：このカードがトリガーした時、あなたは自分の控え室のキャラを1枚選び、手札に戻してよい）\n\"そういうことが聞きたいんじゃないのよそういうこと聞いてるんじゃないのよ！\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/shs_w71/shs_w71_079.png",
+   "variant": ""
+  },
+  {
+   "num": "SHS/W71-079R",
+   "name": "二泊三日の新ルート",
+   "type": "Climax",
+   "rarity": "RRR",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[salvage.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[salvage.gif]]：このカードがトリガーした時、あなたは自分の控え室のキャラを1枚選び、手札に戻してよい）\n\"生きてた。本気で泣いて、笑って、恋してた……読んでて、ううん、プレイしていて嬉しかった。楽しかった。ドキドキした\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/shs_w71/shs_w71_079r.png",
+   "variant": ""
+  },
+  {
+   "num": "SHS/W71-080",
+   "name": "再起と新規のゲームスタート",
+   "type": "Climax",
+   "rarity": "CC",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[salvage.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[salvage.gif]]：このカードがトリガーした時、あなたは自分の控え室のキャラを1枚選び、手札に戻してよい）\n\"それに、ほとんど同じだけど、全然同じじゃないし\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/shs_w71/shs_w71_080.png",
+   "variant": ""
+  },
+  {
+   "num": "SHS/W71-080R",
+   "name": "再起と新規のゲームスタート",
+   "type": "Climax",
+   "rarity": "RRR",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[salvage.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[salvage.gif]]：このカードがトリガーした時、あなたは自分の控え室のキャラを1枚選び、手札に戻してよい）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/shs_w71/shs_w71_080r.png",
+   "variant": ""
+  },
+  {
+   "num": "SHS/W71-081",
+   "name": "初めての女",
+   "type": "Climax",
+   "rarity": "CC",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【自】 このカードが手札からクライマックス置場に置かれた時、あなたは自分の控え室の赤のカードを1枚まで選び、ストック置場に置き、自分のキャラすべてに、そのターン中、ソウルを＋1。\n\"英梨々「うあああああああああああああああああああ～～～！！！」\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/shs_w71/shs_w71_081.png",
+   "variant": ""
+  },
+  {
+   "num": "SHS/W71-082",
+   "name": "創作の修羅",
+   "type": "Climax",
+   "rarity": "CC",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【自】 このカードが手札からクライマックス置場に置かれた時、あなたは自分の控え室の赤のカードを1枚まで選び、ストック置場に置き、自分のキャラすべてに、そのターン中、ソウルを＋1。\n\"そんなのスランプでもなんでもね～よ！　ヘタクソなんだよ！　　腕が追いついてないだけなんだよ！\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/shs_w71/shs_w71_082.png",
+   "variant": ""
+  },
+  {
+   "num": "SHS/W71-083",
+   "name": "ゲーム制作合宿 美智留",
+   "type": "Character",
+   "rarity": "RR",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札を上から2枚まで見て、山札の上に好きな順番で置く。\n【自】［(1) 手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見て《ゲーム》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"-\"",
+   "traits": [
+    "ゲーム",
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/shs_w71/shs_w71_083.png",
+   "variant": ""
+  },
+  {
+   "num": "SHS/W71-083SP",
+   "name": "ゲーム制作合宿 美智留",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札を上から2枚まで見て、山札の上に好きな順番で置く。\n【自】［(1) 手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見て《ゲーム》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"-\"",
+   "traits": [
+    "ゲーム",
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/shs_w71/shs_w71_083sp.png",
+   "variant": ""
+  },
+  {
+   "num": "SHS/W71-084",
+   "name": "夜のお誘い？ 美智留",
+   "type": "Character",
+   "rarity": "R",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から2枚を、控え室に置き、そのターン中、このカードのパワーを＋Ｘ。Ｘはそれらのカードの《ゲーム》のキャラの枚数×1000に等しい。\n【自】 バトル中のこのカードが【リバース】した時、このカードを山札の下に置く。\n\"トモもあたしたちの部屋に泊まってけばいいのに……\"",
+   "traits": [
+    "ゲーム",
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/shs_w71/shs_w71_084.png",
+   "variant": ""
+  },
+  {
+   "num": "SHS/W71-085",
+   "name": "バンド存続の危機 時乃＆叡智佳＆藍子",
+   "type": "Character",
+   "rarity": "R",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 この能力は1ターンにつき1回まで発動する。あなたが【起】を使った時、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋500。\n【起】 共鳴 ［(1) 手札の「icy tail 美智留」を1枚公開し、このカードを【レスト】する］ あなたは自分の山札を上から4枚まで見て、《ゲーム》のキャラを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。\n\"時乃「え、それってバンド関係なくない？」\"",
+   "traits": [
+    "ゲーム",
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/shs_w71/shs_w71_085.png",
+   "variant": ""
+  },
+  {
+   "num": "SHS/W71-086",
+   "name": "祭りの朝 美智留",
+   "type": "Character",
+   "rarity": "R",
+   "color": "blue",
+   "level": "3",
+   "cost": "2",
+   "power": "9500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたの控え室のクライマックスが2枚以下なら、あなたの手札のこのカードのレベルを－1。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札を上からＸ枚まで見て、カードを1枚まで選び、手札に加え、残りのカードを控え室に置く。Ｘはあなたの《ゲーム》のキャラの枚数に等しい。\n【自】 このカードのバトル相手でレベル2以上のキャラが【リバース】した時、あなたは自分の山札の上から1枚を、ストック置場に置いてよい。\n\"それよりウチって、他に比べると、ちょ～っと寂しいよね～\"",
+   "traits": [
+    "ゲーム",
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/shs_w71/shs_w71_086.png",
+   "variant": ""
+  },
+  {
+   "num": "SHS/W71-086S",
+   "name": "祭りの朝 美智留",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "3",
+   "cost": "2",
+   "power": "9500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたの控え室のクライマックスが2枚以下なら、あなたの手札のこのカードのレベルを－1。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札を上からＸ枚まで見て、カードを1枚まで選び、手札に加え、残りのカードを控え室に置く。Ｘはあなたの《ゲーム》のキャラの枚数に等しい。\n【自】 このカードのバトル相手でレベル2以上のキャラが【リバース】した時、あなたは自分の山札の上から1枚を、ストック置場に置いてよい。\n\"ホント、どうやって描いたんだか、これ\"",
+   "traits": [
+    "ゲーム",
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/shs_w71/shs_w71_086s.png",
+   "variant": ""
+  },
+  {
+   "num": "SHS/W71-087",
+   "name": "水辺の幼なじみ 美智留",
+   "type": "Character",
+   "rarity": "R",
+   "color": "blue",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札を上から3枚まで見て、山札の上に好きな順番で置き、相手のキャラを1枚まで選び、手札に戻す。\n【自】【CXコンボ】 このカードがアタックした時、クライマックス置場に「水辺の幼なじみ」があるなら、あなたは自分の山札の上から1枚を公開する。そのカードが《ゲーム》のキャラなら、あなたは相手に5ダメージを与えてよい。（ダメージキャンセルは発生する。公開したカードは元に戻す）\n\"お～、見事なフライングボディプレス\"",
+   "traits": [
+    "ゲーム",
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/shs_w71/shs_w71_087.png",
+   "variant": ""
+  },
+  {
+   "num": "SHS/W71-087S",
+   "name": "水辺の幼なじみ 美智留",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札を上から3枚まで見て、山札の上に好きな順番で置き、相手のキャラを1枚まで選び、手札に戻す。\n【自】【CXコンボ】 このカードがアタックした時、クライマックス置場に「水辺の幼なじみ」があるなら、あなたは自分の山札の上から1枚を公開する。そのカードが《ゲーム》のキャラなら、あなたは相手に5ダメージを与えてよい。（ダメージキャンセルは発生する。公開したカードは元に戻す）\n\"こっちは物心ついた時からトモの記憶が残ってるし～\"",
+   "traits": [
+    "ゲーム",
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/shs_w71/shs_w71_087s.png",
+   "variant": ""
+  },
+  {
+   "num": "SHS/W71-088",
+   "name": "意外な戦力？ 美智留",
+   "type": "Character",
+   "rarity": "U",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1)］ このカードが手札から舞台に置かれた時、他のあなたの《ゲーム》のキャラが2枚以上なら、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見て「icy tail 美智留」を1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n【自】 共鳴 ［手札の「icy tail 美智留」を1枚公開する］ あなたのクライマックスフェイズの始めに、あなたはコストを払ってよい。そうしたら、そのターン中、このカードはサイドアタックしてもソウルが減少しない。\n\"さすがにそのカタカタは手伝えないって～！\"",
+   "traits": [
+    "ゲーム",
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/shs_w71/shs_w71_088.png",
+   "variant": ""
+  },
+  {
+   "num": "SHS/W71-089",
+   "name": "徹夜でヘルプ作業 藍子",
+   "type": "Character",
+   "rarity": "U",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの《ゲーム》のキャラすべてに、パワーを＋500。\n【自】【CXコンボ】［このカードを【レスト】する］ あなたのクライマックス置場に「icy tail集結！」が置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札の上から1枚を、ストック置場に置く。\n\"-\"",
+   "traits": [
+    "ゲーム",
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/shs_w71/shs_w71_089.png",
+   "variant": ""
+  },
+  {
+   "num": "SHS/W71-090",
+   "name": "徹夜でヘルプ作業 叡智佳",
+   "type": "Character",
+   "rarity": "U",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】【CXコンボ】 あなたのクライマックス置場に「icy tail集結！」が置かれた時、前列にこのカードがいるなら、あなたは自分の山札を見て「徹夜でヘルプ作業 時乃」を1枚まで選び、舞台の好きな枠に置き、その山札をシャッフルする。\n【自】 このカードがアタックした時、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋1000。\n\"-\"",
+   "traits": [
+    "ゲーム",
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/shs_w71/shs_w71_090.png",
+   "variant": ""
+  },
+  {
+   "num": "SHS/W71-091",
+   "name": "徹夜でヘルプ作業 時乃",
+   "type": "Character",
+   "rarity": "U",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 他のあなたの《ゲーム》のキャラがアタックした時、そのターン中、このカードのパワーを＋1000。\n【自】【CXコンボ】 このカードのバトル相手が【リバース】した時、あなたのクライマックス置場に「icy tail集結！」があり、他のあなたの《ゲーム》のキャラがいるなら、あなたは自分の山札を上から2枚まで見て、カードを1枚まで選び、手札に加え、残りのカードを控え室に置く。\n\"-\"",
+   "traits": [
+    "ゲーム",
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/shs_w71/shs_w71_091.png",
+   "variant": ""
+  },
+  {
+   "num": "SHS/W71-092",
+   "name": "存在感のアピール 美智留",
+   "type": "Character",
+   "rarity": "U",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "7000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から1枚を公開する。そのカードがレベル0以下のキャラならストック置場に置く。（そうでないなら元に戻す）\n【自】 このカードがアタックした時、あなたは他の自分の《ゲーム》のキャラを1枚選び、そのターン中、パワーを＋Ｘ。Ｘは他のあなたの《ゲーム》のキャラの枚数×1000に等しい。\n\"いや～、今日の午後から久しぶりにサークル活動再開ってトモから聞いたからさ～\"",
+   "traits": [
+    "ゲーム",
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/shs_w71/shs_w71_092.png",
+   "variant": ""
+  },
+  {
+   "num": "SHS/W71-093",
+   "name": "スケープゴート 美智留",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードがアタックした時、あなたは他の自分の《ゲーム》のキャラを1枚選び、そのターン中、パワーを＋1000。\n【自】［(1)］ 相手のターン中、バトル中のこのカードが【リバース】した時、あなたはコストを払ってよい。そうしたら、このカードを【レスト】し、次のあなたのアンコールステップの始めに、このカードを思い出にする。\n\"いや～、どんな適当な理由でもいいからみんなを呼び出してくれって、トモに頼まれちゃってさ～\"",
+   "traits": [
+    "ゲーム",
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/shs_w71/shs_w71_093.png",
+   "variant": ""
+  },
+  {
+   "num": "SHS/W71-094",
+   "name": "逆転の一手 倫也",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "",
+   "text": "-\n\"大丈夫だ美智留……お前には、他の誰にもできない、重要な役割がある\"",
+   "traits": [
+    "ゲーム",
+    "オタク"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/shs_w71/shs_w71_094.png",
+   "variant": ""
+  },
+  {
+   "num": "SHS/W71-095",
+   "name": "制御できない人だかり 美智留",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 このカードの正面のキャラのレベルが相手のレベルより高いなら、このカードは【リバース】しない。\n\"あ、やっと戻ってきた～！　ちょっとトモ、どうすんのよこれ～！\"",
+   "traits": [
+    "ゲーム",
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/shs_w71/shs_w71_095.png",
+   "variant": ""
+  },
+  {
+   "num": "SHS/W71-096",
+   "name": "誤解と制裁 美智留",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "1",
+   "cost": "1",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 このカードの下にマーカーがあるなら、このカードのパワーを＋6000。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分の控え室の「逆転の一手 倫也」を1枚選び、このカードの下にマーカーとして表向きに置いてよい。\n\"って、加藤ちゃん！　なにこれ？　あんたたちいつからこんなコトになってたの！？\"",
+   "traits": [
+    "ゲーム",
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/shs_w71/shs_w71_096.png",
+   "variant": ""
+  },
+  {
+   "num": "SHS/W71-097",
+   "name": "抜け駆けの発覚 美智留",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "2",
+   "cost": "2",
+   "power": "6500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの後列の《ゲーム》のキャラ1枚につき、このカードのパワーを＋2000。\n【自】［(1)］ アンコールステップの始めに、他のあなたの前列の【レスト】しているキャラがいないなら、あなたはコストを払ってよい。そうしたら、このカードを【レスト】する。\n\"あれぇ？　確かあの人、こっちに泊まるって言ってた気がするけど……\"",
+   "traits": [
+    "ゲーム",
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/shs_w71/shs_w71_097.png",
+   "variant": ""
+  },
+  {
+   "num": "SHS/W71-098",
+   "name": "新曲披露",
+   "type": "Event",
+   "rarity": "U",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "あなたは自分のキャラを1枚選び、控え室に置く。そうしたら、あなたは自分の山札を見てクライマックスを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"だから言ったじゃん。あたしだって遊びに来てる訳じゃないって……\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/shs_w71/shs_w71_098.png",
+   "variant": ""
+  },
+  {
+   "num": "SHS/W71-099",
+   "name": "水辺の幼なじみ",
+   "type": "Climax",
+   "rarity": "CR",
+   "color": "blue",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[gate.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[gate.gif]]：このカードがトリガーした時、あなたは自分の控え室のクライマックスを1枚選び、手札に戻してよい）\n\"はいはい\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/shs_w71/shs_w71_099.png",
+   "variant": ""
+  },
+  {
+   "num": "SHS/W71-099R",
+   "name": "水辺の幼なじみ",
+   "type": "Climax",
+   "rarity": "RRR",
+   "color": "blue",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[gate.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[gate.gif]]：このカードがトリガーした時、あなたは自分の控え室のクライマックスを1枚選び、手札に戻してよい）\n\"ト～モ～\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/shs_w71/shs_w71_099r.png",
+   "variant": ""
+  },
+  {
+   "num": "SHS/W71-100",
+   "name": "icy tail集結！",
+   "type": "Climax",
+   "rarity": "CC",
+   "color": "blue",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[draw.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[draw.gif]]：このカードがトリガーした時、あなたは1枚引いてよい）\n\"倫也「頼むよみんな！　俺たちのサークルの一大事なんだよ！」\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/shs_w71/shs_w71_100.png",
+   "variant": ""
+  },
+  {
+   "num": "SHS/W71-101",
+   "name": "新たなスタート 出海",
+   "type": "Character",
+   "rarity": "PR",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋500。\n【自】 他のあなたの《ゲーム》のキャラかこのカードが手札から舞台に置かれた時、あなたは自分の山札を上から1枚見てよい。（見たカードは元に戻す）\n\"え？　申し込んだけど、先に豊ヶ崎に合格したから、受けてませんよ？\"",
+   "traits": [
+    "ゲーム",
+    "漫画"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/shs_w71/shs_w71_101.png",
+   "variant": ""
+  },
+  {
+   "num": "SHS/W71-102",
+   "name": "新たなスタート 英梨々",
+   "type": "Character",
+   "rarity": "PR",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのターン中、あなたのキャラすべてが《ゲーム》なら、このカードのパワーを＋2000。\n【自】 アンコール ［手札のキャラを1枚控え室に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"今さら存在感をアピールしようとしたって遅いわよ。もう最終回のＣパートなのに\"",
+   "traits": [
+    "ゲーム",
+    "漫画"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/shs_w71/shs_w71_102.png",
+   "variant": ""
+  },
+  {
+   "num": "SHS/W71-103",
+   "name": "新たなスタート 恵",
+   "type": "Character",
+   "rarity": "PR",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1) 手札を1枚控え室に置く］ このカードがアタックした時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見て《ゲーム》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n\"今までさんざんキャラが死んでるとか言われてたけど、まさかタイトルにまでされるとは思わなかったよ\"",
+   "traits": [
+    "ゲーム"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/shs_w71/shs_w71_103.png",
+   "variant": ""
+  },
+  {
+   "num": "SHS/W71-104",
+   "name": "新たなスタート 詩羽",
+   "type": "Character",
+   "rarity": "PR",
+   "color": "red",
+   "level": "1",
+   "cost": "1",
+   "power": "5500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの《ゲーム》のキャラが2枚以上なら、このカードのパワーを＋2000。\n【自】 アンコール ［あなたの山札の上から1枚をクロック置場に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"だいたいあなた、後半完全に空気だったじゃないの。今さら何ができるっていうの？\"",
+   "traits": [
+    "ゲーム",
+    "小説"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/shs_w71/shs_w71_104.png",
+   "variant": ""
+  },
+  {
+   "num": "SHS/W71-105",
+   "name": "新たなスタート 美智留",
+   "type": "Character",
+   "rarity": "PR",
+   "color": "blue",
+   "level": "1",
+   "cost": "1",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 あなたがこのカードの『助太刀』を使った時、あなたは自分の山札を上から1枚見て、山札の上か下に置く。\n【起】【カウンター】 助太刀1500 レベル1 ［(1) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋1500）\n\"は～な～せ～！　あたしはホントに仲間なんだってば～！\"",
+   "traits": [
+    "ゲーム",
+    "音楽"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/shs_w71/shs_w71_105.png",
+   "variant": ""
+  }
+ ]
+}

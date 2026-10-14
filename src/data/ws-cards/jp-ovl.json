@@ -1,0 +1,504 @@
+{
+ "id": "jp-ovl",
+ "name": "[TD+]オーバーロード",
+ "expansion": 253,
+ "lang": "jp",
+ "release": null,
+ "shopItem": null,
+ "box": null,
+ "cards": [
+  {
+   "num": "OVL/S62-T01",
+   "name": "第6階層の守護者 マーレ",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】応援 このカードの前のあなたのキャラすべてに、パワーを＋500。\n【自】［手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見て「第6階層の守護者 アウラ」を1枚まで選び、舞台の好きな枠に置き、その山札をシャッフルする。\n\"は、はい！\"",
+   "traits": [
+    "人間種",
+    "ナザリック"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/o/ovl_s62/ovl_s62_t01.png",
+   "variant": ""
+  },
+  {
+   "num": "OVL/S62-T02",
+   "name": "第6階層の守護者 アウラ",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】このカードが【リバース】した時、このカードのバトル相手のレベルが0以下なら、あなたは相手のクロックの上から1枚を、控え室に置いてよい。そうしたら、あなたはそのキャラをクロック置場に置く。\n\"はっ！\"",
+   "traits": [
+    "人間種",
+    "ナザリック"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/o/ovl_s62/ovl_s62_t02.png",
+   "variant": ""
+  },
+  {
+   "num": "OVL/S62-T03",
+   "name": "権謀の悪魔 デミウルゴス",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】あなたのキャラがダイレクトアタックした時、あなたは自分の、《異形種》か《ナザリック》のキャラを1枚選び、次の相手のターンの終わりまで、パワーを＋500。\n【起】集中 ［(1) このカードを【レスト】する］ あなたは自分の山札の上から4枚をめくり、控え室に置く。それらのカードのクライマックス1枚につき、あなたは1枚まで引く。\n\"・・・・素晴らしい!!\"",
+   "traits": [
+    "異形種",
+    "ナザリック"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/o/ovl_s62/ovl_s62_t03.png",
+   "variant": ""
+  },
+  {
+   "num": "OVL/S62-T04",
+   "name": "お昼ご飯の時間 アウラ",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】バトル中のこのカードが【リバース】した時、そのターン中、あなたは『【自】アンコール』を使えない。（ルールによる『【自】アンコール ［(3)］』も使えない）\n\"いただきまーす\"",
+   "traits": [
+    "人間種",
+    "ナザリック"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/o/ovl_s62/ovl_s62_t04.png",
+   "variant": ""
+  },
+  {
+   "num": "OVL/S62-T05",
+   "name": "無垢なる悪意 マーレ",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "green",
+   "level": "1",
+   "cost": "1",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【起】【カウンター】助太刀2500 レベル1 ［(1) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋2500）\n\"お、おばさんがこの館で一番偉い人ですか？\"",
+   "traits": [
+    "人間種",
+    "ナザリック"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/o/ovl_s62/ovl_s62_t05.png",
+   "variant": ""
+  },
+  {
+   "num": "OVL/S62-T06",
+   "name": "ナザリック地下大墳墓の執事 セバス",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "green",
+   "level": "1",
+   "cost": "1",
+   "power": "6000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】他のあなたの、《異形種》か《ナザリック》のキャラが2枚以上なら、このカードのパワーを＋1500し、このカードは『【自】アンコール ［あなたの山札の上から1枚をクロック置場に置く］』を得る。\n\"はっ！\"",
+   "traits": [
+    "異形種",
+    "ナザリック"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/o/ovl_s62/ovl_s62_t06.png",
+   "variant": ""
+  },
+  {
+   "num": "OVL/S62-T07",
+   "name": "第7階層の守護者 デミウルゴス",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "green",
+   "level": "2",
+   "cost": "1",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】応援 このカードの前のあなたのキャラすべてに、パワーを＋Ｘ。Ｘはそのキャラのレベル×500に等しい。\n【永】あなたのレベルが3以上なら、このカードは次の能力を得る。『【起】［(1) このカードを控え室に置く］ あなたは自分の控え室の「死の支配者 アインズ」を1枚選び、このカードがいた枠に置く。』\n\"第7階層守護者、デミウルゴス。御身の前に\"",
+   "traits": [
+    "異形種",
+    "ナザリック"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/o/ovl_s62/ovl_s62_t07.png",
+   "variant": ""
+  },
+  {
+   "num": "OVL/S62-T08",
+   "name": "第5階層の守護者 コキュートス",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "green",
+   "level": "2",
+   "cost": "2",
+   "power": "6500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】他のあなたの、《異形種》か《ナザリック》のキャラ1枚につき、このカードのパワーを＋1000。\n【自】このカードがダイレクトアタックした時、あなたは自分の控え室の、《異形種》か《ナザリック》のキャラを1枚選び、ストック置場に置いてよい。\n\"フレーバー無し\"",
+   "traits": [
+    "異形種",
+    "ナザリック"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/o/ovl_s62/ovl_s62_t08.png",
+   "variant": ""
+  },
+  {
+   "num": "OVL/S62-T09",
+   "name": "無窮の献身 アルベド",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "green",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n【自】［(1) 手札を1枚控え室に置く］ このカードがダイレクトアタックした時、あなたはコストを払ってよい。そうしたら、相手に1ダメージを与える。（ダメージキャンセルは発生する）\n\"我らの忠義全てを御身に捧げます\"",
+   "traits": [
+    "異形種",
+    "ナザリック"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/o/ovl_s62/ovl_s62_t09.png",
+   "variant": ""
+  },
+  {
+   "num": "OVL/S62-T09SP",
+   "name": "無窮の献身 アルベド",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "green",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n【自】［(1) 手札を1枚控え室に置く］ このカードがダイレクトアタックした時、あなたはコストを払ってよい。そうしたら、相手に1ダメージを与える。（ダメージキャンセルは発生する）\n\"-\"",
+   "traits": [
+    "異形種",
+    "ナザリック"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/o/ovl_s62/ovl_s62_t09sp.png",
+   "variant": ""
+  },
+  {
+   "num": "OVL/S62-T10",
+   "name": "忠誠の儀",
+   "type": "Climax",
+   "rarity": "TD",
+   "color": "green",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【自】このカードが手札からクライマックス置場に置かれた時、あなたは自分の控え室の緑のカードを1枚まで選び、ストック置場に置き、自分のキャラすべてに、そのターン中、ソウルを＋1。\n\"アルベド「守護者統括、アルベド。御身の前に」\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/o/ovl_s62/ovl_s62_t10.png",
+   "variant": ""
+  },
+  {
+   "num": "OVL/S62-T11",
+   "name": "終わりと始まり モモンガ",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】他のあなたの「終わりと始まり アルベド」すべてに、パワーを＋1000。\n【自】絆／「終わりと始まり アルベド」 ［あなたの山札の上から1枚をクロック置場に置く］ （このカードがプレイされて舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「終わりと始まり アルベド」を1枚選び、手札に戻す）\n\"コマンドは……『待機』だっけ\"",
+   "traits": [
+    "異形種",
+    "ナザリック"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/o/ovl_s62/ovl_s62_t11.png",
+   "variant": ""
+  },
+  {
+   "num": "OVL/S62-T12",
+   "name": "守護者統括 アルベド",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】このカードがアタックした時、あなたは他の自分の、《異形種》か《ナザリック》のキャラを1枚選び、そのターン中、パワーを＋Ｘ。Ｘは他のあなたの、《異形種》か《ナザリック》のキャラの枚数×500に等しい。\n\"フフフ\"",
+   "traits": [
+    "異形種",
+    "ナザリック"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/o/ovl_s62/ovl_s62_t12.png",
+   "variant": ""
+  },
+  {
+   "num": "OVL/S62-T12R",
+   "name": "守護者統括 アルベド",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】このカードがアタックした時、あなたは他の自分の、《異形種》か《ナザリック》のキャラを1枚選び、そのターン中、パワーを＋Ｘ。Ｘは他のあなたの、《異形種》か《ナザリック》のキャラの枚数×500に等しい。\n\"……どういう意味なのか分からないけど、分かったわ\"",
+   "traits": [
+    "異形種",
+    "ナザリック"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/o/ovl_s62/ovl_s62_t12r.png",
+   "variant": ""
+  },
+  {
+   "num": "OVL/S62-T13",
+   "name": "第1～3階層の守護者 シャルティア",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】このカードが手札から舞台に置かれた時、あなたは自分の山札の上から1枚を公開する。そのカードが《異形種》か《ナザリック》のキャラなら、そのターン中、このカードのパワーを＋2000。（公開したカードは元に戻す）\n【自】このカードが【リバース】した時、このカードのバトル相手のレベルが1以下なら、あなたはそのキャラを【リバース】してよい。\n\"フレーバー無し\"",
+   "traits": [
+    "異形種",
+    "ナザリック"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/o/ovl_s62/ovl_s62_t13.png",
+   "variant": ""
+  },
+  {
+   "num": "OVL/S62-T14",
+   "name": "慈悲深い統治者 アインズ",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】このカードがアタックした時、他のあなたの、《異形種》か《ナザリック》のキャラが2枚以上なら、そのターン中、このカードのパワーを＋2000。\n\"私はな、そんなお前達、皆を愛しているのだ\"",
+   "traits": [
+    "異形種",
+    "ナザリック"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/o/ovl_s62/ovl_s62_t14.png",
+   "variant": ""
+  },
+  {
+   "num": "OVL/S62-T14R",
+   "name": "慈悲深い統治者 アインズ",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】このカードがアタックした時、他のあなたの、《異形種》か《ナザリック》のキャラが2枚以上なら、そのターン中、このカードのパワーを＋2000。\n\"おい、アルベド。“皆”をな？ “皆”をだぞ？\"",
+   "traits": [
+    "異形種",
+    "ナザリック"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/o/ovl_s62/ovl_s62_t14r.png",
+   "variant": ""
+  },
+  {
+   "num": "OVL/S62-T15",
+   "name": "終わりと始まり アルベド",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "5500",
+   "soul": 1,
+   "trigger": "",
+   "text": "-\n\"この失態を払拭する機会をいただけるのであれば、これに勝る喜びはございません\"",
+   "traits": [
+    "異形種",
+    "ナザリック"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/o/ovl_s62/ovl_s62_t15.png",
+   "variant": ""
+  },
+  {
+   "num": "OVL/S62-T16",
+   "name": "深紅の蹂躙者 シャルティア",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "7000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】他のあなたの、《異形種》か《ナザリック》のキャラがアタックした時、そのターン中、このカードのパワーを＋1500。\n【自】アンコール ［手札の、《異形種》か《ナザリック》のキャラを1枚控え室に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"シャルティア・ブラッドフォールン。一方的に楽しませてくんなましな\"",
+   "traits": [
+    "異形種",
+    "ナザリック"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/o/ovl_s62/ovl_s62_t16.png",
+   "variant": ""
+  },
+  {
+   "num": "OVL/S62-T16R",
+   "name": "深紅の蹂躙者 シャルティア",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "7000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】他のあなたの、《異形種》か《ナザリック》のキャラがアタックした時、そのターン中、このカードのパワーを＋1500。\n【自】アンコール ［手札の、《異形種》か《ナザリック》のキャラを1枚控え室に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"では――蹂躙を開始しんす\"",
+   "traits": [
+    "異形種",
+    "ナザリック"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/o/ovl_s62/ovl_s62_t16r.png",
+   "variant": ""
+  },
+  {
+   "num": "OVL/S62-T17",
+   "name": "死の支配者 アインズ",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】このカードが手札から舞台に置かれた時か「第7階層の守護者 デミウルゴス」の【起】の効果で舞台に置かれた時、あなたは自分の山札を上から3枚まで見て、カードを1枚まで選び、手札に加え、残りのカードを控え室に置く。\n【自】【CXコンボ】［(2) あなたのクライマックス置場の「終幕の時」を1枚と手札を2枚控え室に置く］ このカードがアタックした時、あなたはコストを払ってよい。そうしたら、あなたは相手の前列のレベル3以下のキャラすべてを、控え室に置く。\n\"アインズ・ウール・ゴウンを不変の伝説にせよ!!\"",
+   "traits": [
+    "異形種",
+    "ナザリック"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/o/ovl_s62/ovl_s62_t17.png",
+   "variant": ""
+  },
+  {
+   "num": "OVL/S62-T17S",
+   "name": "死の支配者 アインズ",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】このカードが手札から舞台に置かれた時か「第7階層の守護者 デミウルゴス」の【起】の効果で舞台に置かれた時、あなたは自分の山札を上から3枚まで見て、カードを1枚まで選び、手札に加え、残りのカードを控え室に置く。\n【自】【CXコンボ】［(2) あなたのクライマックス置場の「終幕の時」を1枚と手札を2枚控え室に置く］ このカードがアタックした時、あなたはコストを払ってよい。そうしたら、あなたは相手の前列のレベル3以下のキャラすべてを、控え室に置く。\n\"そして、お前に勝算など元より皆無だったと理解しろ!!\"",
+   "traits": [
+    "異形種",
+    "ナザリック"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/o/ovl_s62/ovl_s62_t17s.png",
+   "variant": ""
+  },
+  {
+   "num": "OVL/S62-T17SP",
+   "name": "死の支配者 アインズ",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】このカードが手札から舞台に置かれた時か「第7階層の守護者 デミウルゴス」の【起】の効果で舞台に置かれた時、あなたは自分の山札を上から3枚まで見て、カードを1枚まで選び、手札に加え、残りのカードを控え室に置く。\n【自】【CXコンボ】［(2) あなたのクライマックス置場の「終幕の時」を1枚と手札を2枚控え室に置く］ このカードがアタックした時、あなたはコストを払ってよい。そうしたら、あなたは相手の前列のレベル3以下のキャラすべてを、控え室に置く。\n\"-\"",
+   "traits": [
+    "異形種",
+    "ナザリック"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/o/ovl_s62/ovl_s62_t17sp.png",
+   "variant": ""
+  },
+  {
+   "num": "OVL/S62-T18",
+   "name": "リング・オブ・アインズ・ウール・ゴウン",
+   "type": "Event",
+   "rarity": "TD",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "あなたは自分の控え室のキャラを2枚まで選び、手札に戻し、自分の手札を1枚選び、控え室に置く。\n\"さあ、これを受け取りナザリックのために貢献せよ！\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/o/ovl_s62/ovl_s62_t18.png",
+   "variant": ""
+  },
+  {
+   "num": "OVL/S62-T19",
+   "name": "終幕の時",
+   "type": "Climax",
+   "rarity": "TD",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[salvage.gif]]",
+   "text": "【永】あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[salvage.gif]]：このカードがトリガーした時、あなたは自分の控え室のキャラを1枚選び、手札に戻してよい）\n\"アインズ「ならば……行くぞ、シャルティア！」\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/o/ovl_s62/ovl_s62_t19.png",
+   "variant": ""
+  },
+  {
+   "num": "OVL/S62-T19S",
+   "name": "終幕の時",
+   "type": "Climax",
+   "rarity": "SR",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[salvage.gif]]",
+   "text": "【永】あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[salvage.gif]]：このカードがトリガーした時、あなたは自分の控え室のキャラを1枚選び、手札に戻してよい）\n\"アインズ「超位魔法!!」\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/o/ovl_s62/ovl_s62_t19s.png",
+   "variant": ""
+  },
+  {
+   "num": "OVL/S62-T20",
+   "name": "スタッフ・オブ・アインズ・ウール・ゴウン",
+   "type": "Climax",
+   "rarity": "TD",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【永】あなたのキャラすべてに、ソウルを＋2。\n\"行こうか。……我がギルドの証よ\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/o/ovl_s62/ovl_s62_t20.png",
+   "variant": ""
+  }
+ ]
+}

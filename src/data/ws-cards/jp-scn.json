@@ -1,0 +1,763 @@
+{
+ "id": "jp-scn",
+ "name": "[TD]角川スニーカー文庫 Vol.2",
+ "expansion": 509,
+ "lang": "jp",
+ "release": null,
+ "shopItem": null,
+ "box": null,
+ "cards": [
+  {
+   "num": "Scn/W123-T14",
+   "name": "35th Anniversary 海",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【起】【カウンター】 助太刀3500 レベル2 ［(1) 手札のこのカードを公開し、山札の下に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋3500）\n\"-\"",
+   "traits": [
+    "スニーカー文庫",
+    "青春"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sxx_w123/scn_w123_t14.png",
+   "variant": ""
+  },
+  {
+   "num": "Scn/W123-T14R",
+   "name": "35th Anniversary 海",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【起】【カウンター】 助太刀3500 レベル2 ［(1) 手札のこのカードを公開し、山札の下に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋3500）\n\"-\"",
+   "traits": [
+    "スニーカー文庫",
+    "青春"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sxx_w123/scn_w123_t14r.png",
+   "variant": ""
+  },
+  {
+   "num": "Sde/W123-T01",
+   "name": "35th Anniversary フィーネ",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 相手のCXがCX置場に置かれた時、あなたはこのカードをストック置場に置いてよい。\n【起】 集中 ［(1) このカードを【レスト】する］ あなたは自分の山札の上から5枚をめくり、控え室に置く。それらのカードのCX1枚につき、あなたは1枚まで引く。\n\"-\"",
+   "traits": [
+    "スニーカー文庫",
+    "蒼鷗姫"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sxx_w123/sde_w123_t01.png",
+   "variant": ""
+  },
+  {
+   "num": "Sde/W123-T01R",
+   "name": "35th Anniversary フィーネ",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 相手のCXがCX置場に置かれた時、あなたはこのカードをストック置場に置いてよい。\n【起】 集中 ［(1) このカードを【レスト】する］ あなたは自分の山札の上から5枚をめくり、控え室に置く。それらのカードのCX1枚につき、あなたは1枚まで引く。\n\"-\"",
+   "traits": [
+    "スニーカー文庫",
+    "蒼鷗姫"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sxx_w123/sde_w123_t01r.png",
+   "variant": ""
+  },
+  {
+   "num": "Sks/W123-T10",
+   "name": "35th Anniversary めぐみん",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのターン中、このカードのパワーを＋1000。\n【自】 このカードのバトル相手が【リバース】した時、あなたは他の自分の、《スニーカー文庫》か《冒険者》か《魔法》のキャラを1枚選び、【レスト】し、後列のキャラのいない枠に動かす。\n\"-\"",
+   "traits": [
+    "スニーカー文庫",
+    "冒険者",
+    "魔法"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sxx_w123/sks_w123_t10.png",
+   "variant": ""
+  },
+  {
+   "num": "Sks/W123-T10R",
+   "name": "35th Anniversary めぐみん",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのターン中、このカードのパワーを＋1000。\n【自】 このカードのバトル相手が【リバース】した時、あなたは他の自分の、《スニーカー文庫》か《冒険者》か《魔法》のキャラを1枚選び、【レスト】し、後列のキャラのいない枠に動かす。\n\"-\"",
+   "traits": [
+    "スニーカー文庫",
+    "冒険者",
+    "魔法"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sxx_w123/sks_w123_t10r.png",
+   "variant": ""
+  },
+  {
+   "num": "Sks/W123-T13",
+   "name": "Cheers！ アクア",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのキャラすべてが《スニーカー文庫》か《冒険者》か《女神》なら、このカードのパワーを＋1000。\n【自】［他のあなたの舞台の、《スニーカー文庫》か《冒険者》か《女神》のキャラを1枚控え室に置く］ このカードがアタックした時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札の上から1枚を公開する。そのカードが《スニーカー文庫》か《冒険者》か《女神》のキャラなら手札に加える。（そうでないなら元に戻す）\n\"-\"",
+   "traits": [
+    "スニーカー文庫",
+    "冒険者",
+    "女神"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sxx_w123/sks_w123_t13.png",
+   "variant": ""
+  },
+  {
+   "num": "Sks/W123-T13R",
+   "name": "Cheers！ アクア",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのキャラすべてが《スニーカー文庫》か《冒険者》か《女神》なら、このカードのパワーを＋1000。\n【自】［他のあなたの舞台の、《スニーカー文庫》か《冒険者》か《女神》のキャラを1枚控え室に置く］ このカードがアタックした時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札の上から1枚を公開する。そのカードが《スニーカー文庫》か《冒険者》か《女神》のキャラなら手札に加える。（そうでないなら元に戻す）\n\"-\"",
+   "traits": [
+    "スニーカー文庫",
+    "冒険者",
+    "女神"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sxx_w123/sks_w123_t13r.png",
+   "variant": ""
+  },
+  {
+   "num": "Sks/W123-T13SP",
+   "name": "Cheers！ アクア",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのキャラすべてが《スニーカー文庫》か《冒険者》か《女神》なら、このカードのパワーを＋1000。\n【自】［他のあなたの舞台の、《スニーカー文庫》か《冒険者》か《女神》のキャラを1枚控え室に置く］ このカードがアタックした時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札の上から1枚を公開する。そのカードが《スニーカー文庫》か《冒険者》か《女神》のキャラなら手札に加える。（そうでないなら元に戻す）\n\"-\"",
+   "traits": [
+    "スニーカー文庫",
+    "冒険者",
+    "女神"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sxx_w123/sks_w123_t13sp.png",
+   "variant": ""
+  },
+  {
+   "num": "Sks/W123-T15",
+   "name": "Cheers！ ダクネス",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "3",
+   "cost": "2",
+   "power": "9500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの、《スニーカー文庫》か《冒険者》か《煩悩》のキャラが2枚以上なら、このカードのパワーを＋2000。\n【自】［手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分のクロックの上から1枚を、ストック置場に置く。\n\"-\"",
+   "traits": [
+    "スニーカー文庫",
+    "冒険者",
+    "煩悩"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sxx_w123/sks_w123_t15.png",
+   "variant": ""
+  },
+  {
+   "num": "Sks/W123-T15R",
+   "name": "Cheers！ ダクネス",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "blue",
+   "level": "3",
+   "cost": "2",
+   "power": "9500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの、《スニーカー文庫》か《冒険者》か《煩悩》のキャラが2枚以上なら、このカードのパワーを＋2000。\n【自】［手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分のクロックの上から1枚を、ストック置場に置く。\n\"-\"",
+   "traits": [
+    "スニーカー文庫",
+    "冒険者",
+    "煩悩"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sxx_w123/sks_w123_t15r.png",
+   "variant": ""
+  },
+  {
+   "num": "Sks/W123-T15SP",
+   "name": "Cheers！ ダクネス",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "blue",
+   "level": "3",
+   "cost": "2",
+   "power": "9500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの、《スニーカー文庫》か《冒険者》か《煩悩》のキャラが2枚以上なら、このカードのパワーを＋2000。\n【自】［手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分のクロックの上から1枚を、ストック置場に置く。\n\"-\"",
+   "traits": [
+    "スニーカー文庫",
+    "冒険者",
+    "煩悩"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sxx_w123/sks_w123_t15sp.png",
+   "variant": ""
+  },
+  {
+   "num": "Sky/W123-T06",
+   "name": "35th Anniversary セツナ",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "7500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、そのターン中、このカードのパワーを＋Ｘ。Ｘはあなたの《スニーカー文庫》のキャラの枚数×1000に等しい。\n\"-\"",
+   "traits": [
+    "スニーカー文庫",
+    "氷狼族"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sxx_w123/sky_w123_t06.png",
+   "variant": ""
+  },
+  {
+   "num": "Sky/W123-T06R",
+   "name": "35th Anniversary セツナ",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "7500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、そのターン中、このカードのパワーを＋Ｘ。Ｘはあなたの《スニーカー文庫》のキャラの枚数×1000に等しい。\n\"-\"",
+   "traits": [
+    "スニーカー文庫",
+    "氷狼族"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sxx_w123/sky_w123_t06r.png",
+   "variant": ""
+  },
+  {
+   "num": "Sme/W123-T02",
+   "name": "35th Anniversary ななみ",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの《スニーカー文庫》のキャラすべてに、パワーを＋500。\n【自】 他のあなたの《スニーカー文庫》のキャラかこのカードが手札から舞台に置かれた時、あなたは自分の山札を上から1枚見てよい。（見たカードは元に戻す）\n\"-\"",
+   "traits": [
+    "スニーカー文庫",
+    "魔法"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sxx_w123/sme_w123_t02.png",
+   "variant": ""
+  },
+  {
+   "num": "Sme/W123-T02R",
+   "name": "35th Anniversary ななみ",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの《スニーカー文庫》のキャラすべてに、パワーを＋500。\n【自】 他のあなたの《スニーカー文庫》のキャラかこのカードが手札から舞台に置かれた時、あなたは自分の山札を上から1枚見てよい。（見たカードは元に戻す）\n\"-\"",
+   "traits": [
+    "スニーカー文庫",
+    "魔法"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sxx_w123/sme_w123_t02r.png",
+   "variant": ""
+  },
+  {
+   "num": "Soa/W123-T16",
+   "name": "35th Anniversary 愛理沙",
+   "type": "Event",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "3",
+   "cost": "2",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "【カウンター】 このカードは、あなたの《スニーカー文庫》のキャラがいないなら、手札からプレイできない。\nあなたは相手のキャラを2枚まで選び、そのターン中、ソウルを＋4し、次の能力を与える。『【永】 このカードはサイドアタックできない。』\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sxx_w123/soa_w123_t16.png",
+   "variant": ""
+  },
+  {
+   "num": "Soa/W123-T16R",
+   "name": "35th Anniversary 愛理沙",
+   "type": "Event",
+   "rarity": "RRR",
+   "color": "blue",
+   "level": "3",
+   "cost": "2",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "【カウンター】 このカードは、あなたの《スニーカー文庫》のキャラがいないなら、手札からプレイできない。\nあなたは相手のキャラを2枚まで選び、そのターン中、ソウルを＋4し、次の能力を与える。『【永】 このカードはサイドアタックできない。』\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sxx_w123/soa_w123_t16r.png",
+   "variant": ""
+  },
+  {
+   "num": "Srd/W123-T11",
+   "name": "思い出の場所 マーシャ",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【起】［手札を1枚控え室に置き、このカードを控え室に置く］ あなたは自分の控え室の、《スニーカー文庫》か《生徒会》のキャラを1枚選び、手札に戻す。\n\"……また来るね、さーくん\"",
+   "traits": [
+    "スニーカー文庫",
+    "生徒会"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sxx_w123/srd_w123_t11.png",
+   "variant": ""
+  },
+  {
+   "num": "Srd/W123-T11R",
+   "name": "思い出の場所 マーシャ",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【起】［手札を1枚控え室に置き、このカードを控え室に置く］ あなたは自分の控え室の、《スニーカー文庫》か《生徒会》のキャラを1枚選び、手札に戻す。\n\"……また来るね、さーくん\"",
+   "traits": [
+    "スニーカー文庫",
+    "生徒会"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sxx_w123/srd_w123_t11r.png",
+   "variant": ""
+  },
+  {
+   "num": "Srd/W123-T11SP",
+   "name": "思い出の場所 マーシャ",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【起】［手札を1枚控え室に置き、このカードを控え室に置く］ あなたは自分の控え室の、《スニーカー文庫》か《生徒会》のキャラを1枚選び、手札に戻す。\n\"-\"",
+   "traits": [
+    "スニーカー文庫",
+    "生徒会"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sxx_w123/srd_w123_t11sp.png",
+   "variant": ""
+  },
+  {
+   "num": "Srd/W123-T12",
+   "name": "35th Anniversary アーリャ",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのターン中、このカードのパワーを＋2000。\n【自】【CXコンボ】 あなたのCX置場に「コスプレ喫茶」が置かれた時、前列にこのカードがいて、他のあなたのキャラが3枚以上なら、次の2つの効果のうちあなたが選んだ1つを行う。『あなたは自分の山札を上から4枚まで見て、《スニーカー文庫》か《生徒会》のキャラを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。』『あなたの手札が5枚以下なら、あなたは自分の山札を見てレベル2以上の、《スニーカー文庫》か《生徒会》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。』\n\"-\"",
+   "traits": [
+    "スニーカー文庫",
+    "生徒会"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sxx_w123/srd_w123_t12.png",
+   "variant": ""
+  },
+  {
+   "num": "Srd/W123-T12R",
+   "name": "35th Anniversary アーリャ",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのターン中、このカードのパワーを＋2000。\n【自】【CXコンボ】 あなたのCX置場に「コスプレ喫茶」が置かれた時、前列にこのカードがいて、他のあなたのキャラが3枚以上なら、次の2つの効果のうちあなたが選んだ1つを行う。『あなたは自分の山札を上から4枚まで見て、《スニーカー文庫》か《生徒会》のキャラを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。』『あなたの手札が5枚以下なら、あなたは自分の山札を見てレベル2以上の、《スニーカー文庫》か《生徒会》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。』\n\"-\"",
+   "traits": [
+    "スニーカー文庫",
+    "生徒会"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sxx_w123/srd_w123_t12r.png",
+   "variant": ""
+  },
+  {
+   "num": "Srd/W123-T12SP",
+   "name": "35th Anniversary アーリャ",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのターン中、このカードのパワーを＋2000。\n【自】【CXコンボ】 あなたのCX置場に「コスプレ喫茶」が置かれた時、前列にこのカードがいて、他のあなたのキャラが3枚以上なら、次の2つの効果のうちあなたが選んだ1つを行う。『あなたは自分の山札を上から4枚まで見て、《スニーカー文庫》か《生徒会》のキャラを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。』『あなたの手札が5枚以下なら、あなたは自分の山札を見てレベル2以上の、《スニーカー文庫》か《生徒会》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。』\n\"-\"",
+   "traits": [
+    "スニーカー文庫",
+    "生徒会"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sxx_w123/srd_w123_t12sp.png",
+   "variant": ""
+  },
+  {
+   "num": "Srd/W123-T17",
+   "name": "コスプレ喫茶",
+   "type": "Climax",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[gate.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[gate.gif]]：このカードがトリガーした時、あなたは自分の控え室のCXを1枚選び、手札に戻してよい）\n\"どうしたの？\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sxx_w123/srd_w123_t17.png",
+   "variant": ""
+  },
+  {
+   "num": "Srd/W123-T17R",
+   "name": "コスプレ喫茶",
+   "type": "Climax",
+   "rarity": "RRR",
+   "color": "blue",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[gate.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[gate.gif]]：このカードがトリガーした時、あなたは自分の控え室のCXを1枚選び、手札に戻してよい）\n\"どうしたの？\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sxx_w123/srd_w123_t17r.png",
+   "variant": ""
+  },
+  {
+   "num": "Ssh/W123-T04",
+   "name": "35th Anniversary アリス",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 他のあなたの《スニーカー文庫》のキャラがアタックした時、そのターン中、このカードのパワーを＋2000。\n\"-\"",
+   "traits": [
+    "スニーカー文庫",
+    "秘密結社キサラギ",
+    "アンドロイド"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sxx_w123/ssh_w123_t04.png",
+   "variant": ""
+  },
+  {
+   "num": "Ssh/W123-T04R",
+   "name": "35th Anniversary アリス",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 他のあなたの《スニーカー文庫》のキャラがアタックした時、そのターン中、このカードのパワーを＋2000。\n\"-\"",
+   "traits": [
+    "スニーカー文庫",
+    "秘密結社キサラギ",
+    "アンドロイド"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sxx_w123/ssh_w123_t04r.png",
+   "variant": ""
+  },
+  {
+   "num": "Ssn/W123-T05",
+   "name": "35th Anniversary リット",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "yellow",
+   "level": "1",
+   "cost": "1",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 応援 このカードの前のあなたの《スニーカー文庫》のキャラすべてに、パワーを＋Ｘ。Ｘはそのキャラのレベル×500に等しい。\n【自】 あなたのトリガーアイコンに[[soul.gif]]があるカードがトリガーした時、あなたは自分の《スニーカー文庫》のキャラを1枚選び、そのターン中、パワーを＋1000。\n\"-\"",
+   "traits": [
+    "スニーカー文庫",
+    "加護"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sxx_w123/ssn_w123_t05.png",
+   "variant": ""
+  },
+  {
+   "num": "Ssn/W123-T05R",
+   "name": "35th Anniversary リット",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "yellow",
+   "level": "1",
+   "cost": "1",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 応援 このカードの前のあなたの《スニーカー文庫》のキャラすべてに、パワーを＋Ｘ。Ｘはそのキャラのレベル×500に等しい。\n【自】 あなたのトリガーアイコンに[[soul.gif]]があるカードがトリガーした時、あなたは自分の《スニーカー文庫》のキャラを1枚選び、そのターン中、パワーを＋1000。\n\"-\"",
+   "traits": [
+    "スニーカー文庫",
+    "加護"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sxx_w123/ssn_w123_t05r.png",
+   "variant": ""
+  },
+  {
+   "num": "Ssy/W123-T03",
+   "name": "メイドのコスプレ みくる",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［手札を1枚控え室に置く］ このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を上から4枚まで見て、《スニーカー文庫》か《SOS団》のキャラを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。\n\"-\"",
+   "traits": [
+    "スニーカー文庫",
+    "SOS団",
+    "時間"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sxx_w123/ssy_w123_t03.png",
+   "variant": ""
+  },
+  {
+   "num": "Ssy/W123-T03R",
+   "name": "メイドのコスプレ みくる",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［手札を1枚控え室に置く］ このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を上から4枚まで見て、《スニーカー文庫》か《SOS団》のキャラを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。\n\"-\"",
+   "traits": [
+    "スニーカー文庫",
+    "SOS団",
+    "時間"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sxx_w123/ssy_w123_t03r.png",
+   "variant": ""
+  },
+  {
+   "num": "Ssy/W123-T03SP",
+   "name": "メイドのコスプレ みくる",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［手札を1枚控え室に置く］ このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を上から4枚まで見て、《スニーカー文庫》か《SOS団》のキャラを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。\n\"-\"",
+   "traits": [
+    "スニーカー文庫",
+    "SOS団",
+    "時間"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sxx_w123/ssy_w123_t03sp.png",
+   "variant": ""
+  },
+  {
+   "num": "Ssy/W123-T07",
+   "name": "35th Anniversary ハルヒ",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "yellow",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは2枚まで引き、自分の手札を1枚選び、控え室に置く。\n【自】【CXコンボ】［(1) 手札を1枚控え室に置く］ あなたのCX置場に「SOS団入団試験！」が置かれた時、前列にこのカードがいるなら、あなたはコストを払ってよい。そうしたら、他のあなたのキャラすべてに、そのターン中、次の能力を与える。『【自】 このカードがアタックした時、あなたは相手の山札を上から2枚まで見て、カードを2枚まで選び、山札の上に好きな順番で置き、残りのカードを控え室に置く。』\n\"-\"",
+   "traits": [
+    "スニーカー文庫",
+    "SOS団",
+    "団長"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sxx_w123/ssy_w123_t07.png",
+   "variant": ""
+  },
+  {
+   "num": "Ssy/W123-T07S",
+   "name": "35th Anniversary ハルヒ",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "yellow",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは2枚まで引き、自分の手札を1枚選び、控え室に置く。\n【自】【CXコンボ】［(1) 手札を1枚控え室に置く］ あなたのCX置場に「SOS団入団試験！」が置かれた時、前列にこのカードがいるなら、あなたはコストを払ってよい。そうしたら、他のあなたのキャラすべてに、そのターン中、次の能力を与える。『【自】 このカードがアタックした時、あなたは相手の山札を上から2枚まで見て、カードを2枚まで選び、山札の上に好きな順番で置き、残りのカードを控え室に置く。』\n\"-\"",
+   "traits": [
+    "スニーカー文庫",
+    "SOS団",
+    "団長"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sxx_w123/ssy_w123_t07s.png",
+   "variant": ""
+  },
+  {
+   "num": "Ssy/W123-T07SP",
+   "name": "35th Anniversary ハルヒ",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "yellow",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは2枚まで引き、自分の手札を1枚選び、控え室に置く。\n【自】【CXコンボ】［(1) 手札を1枚控え室に置く］ あなたのCX置場に「SOS団入団試験！」が置かれた時、前列にこのカードがいるなら、あなたはコストを払ってよい。そうしたら、他のあなたのキャラすべてに、そのターン中、次の能力を与える。『【自】 このカードがアタックした時、あなたは相手の山札を上から2枚まで見て、カードを2枚まで選び、山札の上に好きな順番で置き、残りのカードを控え室に置く。』\n\"-\"",
+   "traits": [
+    "スニーカー文庫",
+    "SOS団",
+    "団長"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sxx_w123/ssy_w123_t07sp.png",
+   "variant": ""
+  },
+  {
+   "num": "Ssy/W123-T08",
+   "name": "SOS団入団試験！",
+   "type": "Climax",
+   "rarity": "TD",
+   "color": "yellow",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[choice.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[choice.gif]]：このカードがトリガーした時、あなたは自分の控え室のトリガーアイコンに[[soul.gif]]があるキャラを1枚選び、手札に戻すかストック置場に置いてよい）\n\"これよりSOS団入団試験、第二段階を開始します！\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sxx_w123/ssy_w123_t08.png",
+   "variant": ""
+  },
+  {
+   "num": "Ssy/W123-T08R",
+   "name": "SOS団入団試験！",
+   "type": "Climax",
+   "rarity": "RRR",
+   "color": "yellow",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[choice.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[choice.gif]]：このカードがトリガーした時、あなたは自分の控え室のトリガーアイコンに[[soul.gif]]があるキャラを1枚選び、手札に戻すかストック置場に置いてよい）\n\"これよりSOS団入団試験、第二段階を開始します！\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sxx_w123/ssy_w123_t08r.png",
+   "variant": ""
+  },
+  {
+   "num": "Stk/W123-T09",
+   "name": "35th Anniversary 結女",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札を上から1枚見て、山札の上か下に置く。\n【自】 このカードが【リバース】した時、このカードのバトル相手のレベルが0以下なら、あなたはそのキャラを山札の下に置いてよい。\n\"-\"",
+   "traits": [
+    "スニーカー文庫",
+    "本"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sxx_w123/stk_w123_t09.png",
+   "variant": ""
+  },
+  {
+   "num": "Stk/W123-T09R",
+   "name": "35th Anniversary 結女",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札を上から1枚見て、山札の上か下に置く。\n【自】 このカードが【リバース】した時、このカードのバトル相手のレベルが0以下なら、あなたはそのキャラを山札の下に置いてよい。\n\"-\"",
+   "traits": [
+    "スニーカー文庫",
+    "本"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sxx_w123/stk_w123_t09r.png",
+   "variant": ""
+  }
+ ]
+}

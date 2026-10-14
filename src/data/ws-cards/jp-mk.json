@@ -1,0 +1,504 @@
+{
+ "id": "jp-mk",
+ "name": "ミルキィホームズ 怪盗帝国の逆襲",
+ "expansion": 62,
+ "lang": "jp",
+ "release": null,
+ "shopItem": null,
+ "box": null,
+ "cards": [
+  {
+   "num": "MK/SE09-01",
+   "name": "“炎のトイズ”ラット",
+   "type": "Character",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋Ｘ。Ｘはそのキャラのレベル×500に等しい。\n【自】［(4)］  このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは相手の前列のレベル3以下のキャラを1枚選び、ストック置場に置く。\n\"これでも、くらえ――っ！！\"",
+   "traits": [
+    "怪盗",
+    "炎"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mk_se09/mk_se09_01.png",
+   "variant": ""
+  },
+  {
+   "num": "MK/SE09-02",
+   "name": "トイズで大活躍 ネロ",
+   "type": "Character",
+   "rarity": "R",
+   "color": "yellow",
+   "level": "2",
+   "cost": "2",
+   "power": "8000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 他のあなたの《探偵》のキャラが2枚以上なら、このカードは『【自】 アンコール ［手札のキャラを1枚控え室に置く］』を得る。\n【自】［(1)］ あなたのクライマックス置場に「空飛ぶネロ」が置かれた時、あなたはコストを払ってよい。そうしたら、そのターン中、このカードは次の能力を得る。『【永】 このカードがアタックする時、あなたはかわりに相手の後列のキャラを1枚選び、このカードはそのキャラを防御キャラとしてフロントアタックしてよい。』\n\"どいて、僕がやる！\"",
+   "traits": [
+    "探偵",
+    "お菓子"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mk_se09/mk_se09_02.png",
+   "variant": ""
+  },
+  {
+   "num": "MK/SE09-03",
+   "name": "メアリー＆ケイト",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは相手の山札を上から2枚まで見て、山札の上に好きな順番で置く。\n【自】［手札の《お菓子》のキャラを1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、そのターン中、このカードのパワーを＋4000。\n\"メアリー「心は１つ！」 　ケイト「体は２つ！」<br />『メアリー＆ケイト！』\"",
+   "traits": [
+    "怪盗",
+    "愛"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mk_se09/mk_se09_03.png",
+   "variant": ""
+  },
+  {
+   "num": "MK/SE09-04",
+   "name": "お宝強奪 ストーンリバー",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの《怪盗》のキャラ1枚につき、このカードのパワーを＋500。\n\"これが国宝のダイヤ、『サザンスター』・・・！美しい\"",
+   "traits": [
+    "怪盗",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mk_se09/mk_se09_04.png",
+   "variant": ""
+  },
+  {
+   "num": "MK/SE09-05",
+   "name": "反逆のラット",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1) 手札を1枚控え室に置く］ このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見て《怪盗》のキャラを1枚まで選んで相手に見せ、手札に加える。その山札をシャッフルする。\n\"２人だけでズルいなあ、俺も混ぜてよ\"",
+   "traits": [
+    "怪盗",
+    "炎"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mk_se09/mk_se09_05.png",
+   "variant": ""
+  },
+  {
+   "num": "MK/SE09-06",
+   "name": "トゥエンティ＆トゥエンティ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 絆／「“自分大好き”トゥエンティ」 ［(1)］ （このカードがプレイされて舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「“自分大好き”トゥエンティ」を1枚選び、手札に戻す）\n【自】 チェンジ ［(1) このカードを控え室に置く］ あなたのドローフェイズの始めに、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「悩殺の視線 アルセーヌ」を1枚選び、このカードがいた枠に置く。\n\"ああ・・！思い出したくないような、そうでもないような\"",
+   "traits": [
+    "怪盗",
+    "ナルシスト"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mk_se09/mk_se09_06.png",
+   "variant": ""
+  },
+  {
+   "num": "MK/SE09-07",
+   "name": "“いぶし銀”ストーンリバー",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "1",
+   "cost": "1",
+   "power": "6000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［手札を1枚クロック置場に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、そのターン中、このカードのパワーを＋2500し、相手は『助太刀』を手札からプレイできない。\n【自】 アンコール ［手札のキャラを1枚控え室に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"大したトイズだ、この怪力娘！\"",
+   "traits": [
+    "怪盗",
+    "武器"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mk_se09/mk_se09_07.png",
+   "variant": ""
+  },
+  {
+   "num": "MK/SE09-08",
+   "name": "小麦色の素肌 ネロ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "1",
+   "cost": "2",
+   "power": "6000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 アンコール ［あなたの山札の上から1枚をクロック置場に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"そうだ、探怪やろうよ！\"",
+   "traits": [
+    "探偵",
+    "お菓子"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mk_se09/mk_se09_08.png",
+   "variant": ""
+  },
+  {
+   "num": "MK/SE09-09",
+   "name": "“自分大好き”トゥエンティ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "2",
+   "cost": "2",
+   "power": "8000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 経験 あなたのレベル置場のカードのレベルの合計が3以上なら、このカードのパワーを＋1000。\n【自】 アンコール ［(1) あなたの舞台の「トゥエンティ＆トゥエンティ」を1枚山札の下に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"美しいこのボクが一肌脱がなくちゃならないね\"",
+   "traits": [
+    "怪盗",
+    "ナルシスト"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mk_se09/mk_se09_09.png",
+   "variant": ""
+  },
+  {
+   "num": "MK/SE09-10",
+   "name": "空飛ぶネロ",
+   "type": "Climax",
+   "rarity": "C",
+   "color": "yellow",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【自】 このカードが手札からクライマックス置場に置かれた時、あなたは1枚引き、自分のキャラを1枚選び、そのターン中、パワーを＋2000し、ソウルを＋1。\n\"バイバ～イ！\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mk_se09/mk_se09_10.png",
+   "variant": ""
+  },
+  {
+   "num": "MK/SE09-11",
+   "name": "おどおどエリー",
+   "type": "Character",
+   "rarity": "R",
+   "color": "green",
+   "level": "2",
+   "cost": "1",
+   "power": "8000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【起】［(1)］ あなたは自分の《探偵》のキャラを1枚選び、そのターン中、パワーを＋1500。\n\"ダ……、ダメ……！\"",
+   "traits": [
+    "探偵",
+    "本"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mk_se09/mk_se09_11.png",
+   "variant": ""
+  },
+  {
+   "num": "MK/SE09-12",
+   "name": "恥じらいの水着姿 エリー",
+   "type": "Character",
+   "rarity": "C",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 あなたのストックが5枚以上なら、他のあなたの《本》のキャラすべてに、パワーを＋500。\n\"冷たい、です…\"",
+   "traits": [
+    "探偵",
+    "本"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mk_se09/mk_se09_12.png",
+   "variant": ""
+  },
+  {
+   "num": "MK/SE09-13",
+   "name": "6月のシャロ",
+   "type": "Character",
+   "rarity": "R",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【起】［あなたの《探偵》のキャラを2枚【レスト】する］ あなたは自分のキャラを1枚選び、そのターン中、パワーを＋1500。\n\"湿度１００％ですぅー！\"",
+   "traits": [
+    "探偵",
+    "カメラ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mk_se09/mk_se09_13.png",
+   "variant": ""
+  },
+  {
+   "num": "MK/SE09-14",
+   "name": "幼児体型 シャロ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 他のあなたの《探偵》のキャラすべてに、『【自】 アンコール ［(2)］ 』を与える。\n【自】 このカードがアタックした時、他のあなたの【スタンド】しているキャラすべてを、【レスト】する。\n\"…ぃしょ、ぃしょ\"",
+   "traits": [
+    "探偵",
+    "水着"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mk_se09/mk_se09_14.png",
+   "variant": ""
+  },
+  {
+   "num": "MK/SE09-15",
+   "name": "和服のアンリエット",
+   "type": "Character",
+   "rarity": "R",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 舞台にこのカードがいるなら、このカードは《怪盗》を得る。\n【永】 他のあなたの《怪盗》のキャラすべてに、パワーを＋500。\n【起】［(1)］ あなたは自分の《探偵》のキャラを1枚選び、そのターン中、パワーを＋1000。\n\"お祭りが始まりますわ\"",
+   "traits": [
+    "探偵",
+    "和服"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mk_se09/mk_se09_15.png",
+   "variant": ""
+  },
+  {
+   "num": "MK/SE09-16",
+   "name": "うっかりお寝坊さん アンリエット",
+   "type": "Character",
+   "rarity": "R",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 舞台にこのカードがいるなら、このカードは《怪盗》を得る。\n【永】 経験 あなたのレベル置場のカードのレベルの合計が2以上なら、このカードのパワーを＋1000。\n【自】 アンコール ［手札のキャラを1枚控え室に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"あらあら、遅刻してしまいますわ\"",
+   "traits": [
+    "探偵",
+    "生徒会"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mk_se09/mk_se09_16.png",
+   "variant": ""
+  },
+  {
+   "num": "MK/SE09-17",
+   "name": "好敵手を求めるアルセーヌ",
+   "type": "Character",
+   "rarity": "R",
+   "color": "blue",
+   "level": "1",
+   "cost": "1",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 あなたがこのカードの『助太刀』を使った時、あなたは自分の《怪盗》のキャラを1枚選び、そのターン中、パワーを＋1000。\n【起】【カウンター】 助太刀1500 レベル1 ［(1) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋1500）\n\"強い者こそ、強い敵を持つ……！\"",
+   "traits": [
+    "怪盗",
+    "仮面"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mk_se09/mk_se09_17.png",
+   "variant": ""
+  },
+  {
+   "num": "MK/SE09-18",
+   "name": "悲劇のヒロイン？ コーデリア",
+   "type": "Character",
+   "rarity": "R",
+   "color": "blue",
+   "level": "1",
+   "cost": "1",
+   "power": "4000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】［(1) 手札の「私がやりました」を1枚クロック置場に置く］ 他のあなたのバトル中の、《探偵》か《動物》のキャラが【リバース】した時、あなたはコストを払ってよい。そうしたら、あなたはそのキャラを【レスト】し、2枚まで引き、このカードは次のあなたのスタンドフェイズに【スタンド】しない。\n【起】［このカードを【レスト】する］ あなたは自分の《探偵》のキャラを1枚選び、そのターン中、パワーを＋2000。\n\"私がパンを盗んだのです\"",
+   "traits": [
+    "探偵",
+    "スポーツ"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mk_se09/mk_se09_18.png",
+   "variant": ""
+  },
+  {
+   "num": "MK/SE09-19",
+   "name": "魅惑の怪盗 アルセーヌ",
+   "type": "Character",
+   "rarity": "R",
+   "color": "blue",
+   "level": "3",
+   "cost": "2",
+   "power": "9500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたの、《怪盗》かカード名に「アンリエット」を含むキャラが4枚以上なら、あなたの手札のこのカードのレベルを－1。\n【永】 相手のターン中、このカードのパワーを＋1000。\n【自】 このカードがアタックした時、クライマックス置場に「決戦！怪盗VS探偵」があるなら、あなたは自分のクロックの上から1枚までを、控え室に置き、次の相手のターンの終わりまで、このカードのパワーを＋1500。\n\"怪盗を名乗りたいのなら、力ではなく、美しさと知恵で勝負なさい\"",
+   "traits": [
+    "怪盗",
+    "仮面"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mk_se09/mk_se09_19.png",
+   "variant": ""
+  },
+  {
+   "num": "MK/SE09-20",
+   "name": "キュートな水着姿 コーデリア",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "2500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【起】［(1)］ あなたは1枚引き、自分の手札を1枚選び、控え室に置く。\n\"ちょっと泳ぎ疲れちゃったわね\"",
+   "traits": [
+    "探偵",
+    "水着"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mk_se09/mk_se09_20.png",
+   "variant": ""
+  },
+  {
+   "num": "MK/SE09-21",
+   "name": "挑発的な視線 アルセーヌ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "",
+   "text": "－\n\"倒せるものなら……、倒してご覧なさい！\"",
+   "traits": [
+    "怪盗",
+    "仮面"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mk_se09/mk_se09_21.png",
+   "variant": ""
+  },
+  {
+   "num": "MK/SE09-22",
+   "name": "ボヨヨンの女 アンリエット",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 舞台にこのカードがいるなら、このカードは《怪盗》を得る。\n【永】 このカードの正面のキャラのソウルを＋1。\n【自】 このカードのバトル中、あなたの受けたダメージがキャンセルされた時、そのターン中、このカードのパワーを＋3000。\n\"これは…シャーロックの…？\"",
+   "traits": [
+    "探偵",
+    "生徒会"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mk_se09/mk_se09_22.png",
+   "variant": ""
+  },
+  {
+   "num": "MK/SE09-23",
+   "name": "悩殺の視線 アルセーヌ",
+   "type": "Character",
+   "rarity": "C",
+   "color": "blue",
+   "level": "2",
+   "cost": "1",
+   "power": "8000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 あなたのクライマックス置場に「幻惑のトイズ」が置かれた時、前列にこのカードがいるなら、そのターン中、このカードのパワーを＋3000。\n【自】 あなたのクライマックス置場に「幻惑のトイズ」が置かれた時、前列にこのカードがいるなら、あなたは相手の控え室のカードすべてを、山札に戻してよい。そうしたら、相手はその山札をシャッフルする。\n\"いきますわよ、幻惑のトイズ！\"",
+   "traits": [
+    "怪盗",
+    "仮面"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mk_se09/mk_se09_23.png",
+   "variant": ""
+  },
+  {
+   "num": "MK/SE09-24",
+   "name": "ミステリアス・シャドウ",
+   "type": "Event",
+   "rarity": "C",
+   "color": "blue",
+   "level": "1",
+   "cost": "1",
+   "power": "",
+   "soul": 0,
+   "trigger": "",
+   "text": "【カウンター】 あなたは自分の山札を見て《怪盗》のキャラを1枚まで選んで相手に見せ、手札に加える。その山札をシャッフルする。\n\"アルセーヌ「今夜の獲物は大物ですわよ」\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mk_se09/mk_se09_24.png",
+   "variant": ""
+  },
+  {
+   "num": "MK/SE09-25",
+   "name": "私がやりました",
+   "type": "Climax",
+   "rarity": "C",
+   "color": "blue",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【永】 あなたのキャラすべてに、ソウルを＋2。\n\"その姿はまるで、そうね…ジャンヌダルク！\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mk_se09/mk_se09_25.png",
+   "variant": ""
+  },
+  {
+   "num": "MK/SE09-26",
+   "name": "決戦！怪盗VS探偵",
+   "type": "Climax",
+   "rarity": "C",
+   "color": "blue",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【自】 このカードが手札からクライマックス置場に置かれた時、あなたは1枚引き、自分のキャラを1枚選び、そのターン中、パワーを＋2000し、ソウルを＋1。\n\"もっとよ……、もっと……！ もっとわたくしを悦ばせて！！\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mk_se09/mk_se09_26.png",
+   "variant": ""
+  },
+  {
+   "num": "MK/SE09-27",
+   "name": "幻惑のトイズ",
+   "type": "Climax",
+   "rarity": "C",
+   "color": "blue",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[draw.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[draw.gif]]：このカードがトリガーした時、あなたは1枚引いてよい）\n\"ストーンリバー「ここはいったい…」\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mk_se09/mk_se09_27.png",
+   "variant": ""
+  }
+ ]
+}

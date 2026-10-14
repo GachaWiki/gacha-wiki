@@ -1,0 +1,777 @@
+{
+ "id": "jp-pad-e425",
+ "name": "[TD]パズル＆ドラゴンズ",
+ "expansion": 425,
+ "lang": "jp",
+ "release": null,
+ "shopItem": null,
+ "box": null,
+ "cards": [
+  {
+   "num": "PAD/S105-T01",
+   "name": "聖夜の贈り物・たまドラ",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "－",
+   "text": "【起】［このカードを【レスト】する］ あなたは自分のキャラを1枚選び、そのターン中、パワーを＋2500。\n\"-\"",
+   "traits": [
+    "ドラゴン"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/pad_s105/pad_s105_t01.png",
+   "variant": ""
+  },
+  {
+   "num": "PAD/S105-T01R",
+   "name": "聖夜の贈り物・たまドラ",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "－",
+   "text": "【起】［このカードを【レスト】する］ あなたは自分のキャラを1枚選び、そのターン中、パワーを＋2500。\n\"-\"",
+   "traits": [
+    "ドラゴン"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/pad_s105/pad_s105_t01r.png",
+   "variant": ""
+  },
+  {
+   "num": "PAD/S105-T02",
+   "name": "遊刻の時龍契士・ミル",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "－",
+   "text": "【自】 このカードがアタックした時、そのアタック中、あなたはトリガーステップにトリガーチェックを2回行う。2回行ったら、あなたは自分のストックの上から1枚を、控え室に置く。\n【自】 相手のアタックフェイズの始めに、あなたはこのカードを前列のキャラのいない枠に動かしてよい。\n\"-\"",
+   "traits": [
+    "ドラゴン",
+    "マシン",
+    "神"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/pad_s105/pad_s105_t02.png",
+   "variant": ""
+  },
+  {
+   "num": "PAD/S105-T02R",
+   "name": "遊刻の時龍契士・ミル",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "－",
+   "text": "【自】 このカードがアタックした時、そのアタック中、あなたはトリガーステップにトリガーチェックを2回行う。2回行ったら、あなたは自分のストックの上から1枚を、控え室に置く。\n【自】 相手のアタックフェイズの始めに、あなたはこのカードを前列のキャラのいない枠に動かしてよい。\n\"-\"",
+   "traits": [
+    "ドラゴン",
+    "マシン",
+    "神"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/pad_s105/pad_s105_t02r.png",
+   "variant": ""
+  },
+  {
+   "num": "PAD/S105-T03",
+   "name": "灼雲の月龍喚士サツキ",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "－",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から3枚を、控え室に置いてよい。\n【自】 このカードがアタックした時、あなたは他の自分のキャラを1枚選び、そのターン中、パワーを＋Ｘ。Ｘはそのキャラのソウル×1000に等しい。\n\"-\"",
+   "traits": [
+    "ドラゴン",
+    "攻撃"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/pad_s105/pad_s105_t03.png",
+   "variant": ""
+  },
+  {
+   "num": "PAD/S105-T03R",
+   "name": "灼雲の月龍喚士サツキ",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "yellow",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "－",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札の上から3枚を、控え室に置いてよい。\n【自】 このカードがアタックした時、あなたは他の自分のキャラを1枚選び、そのターン中、パワーを＋Ｘ。Ｘはそのキャラのソウル×1000に等しい。\n\"-\"",
+   "traits": [
+    "ドラゴン",
+    "攻撃"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/pad_s105/pad_s105_t03r.png",
+   "variant": ""
+  },
+  {
+   "num": "PAD/S105-T04",
+   "name": "戦乙女・プリンセスヴァルキリー",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "－",
+   "text": "【永】 あなたのターン中、このカードのパワーを＋4000。\n【自】 この能力は1ターンにつき1回まで発動する。バトル中のこのカードが【リバース】した時、あなたは自分の山札の上から1枚を公開する。そのカードのレベルが2以上なら、あなたはこのカードを【レスト】してよい。（クライマックスのレベルは0として扱う。公開したカードは元に戻す）\n\"-\"",
+   "traits": [
+    "回復"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/pad_s105/pad_s105_t04.png",
+   "variant": ""
+  },
+  {
+   "num": "PAD/S105-T04R",
+   "name": "戦乙女・プリンセスヴァルキリー",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "－",
+   "text": "【永】 あなたのターン中、このカードのパワーを＋4000。\n【自】 この能力は1ターンにつき1回まで発動する。バトル中のこのカードが【リバース】した時、あなたは自分の山札の上から1枚を公開する。そのカードのレベルが2以上なら、あなたはこのカードを【レスト】してよい。（クライマックスのレベルは0として扱う。公開したカードは元に戻す）\n\"-\"",
+   "traits": [
+    "回復"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/pad_s105/pad_s105_t04r.png",
+   "variant": ""
+  },
+  {
+   "num": "PAD/S105-T05",
+   "name": "星翔の大魔女・ファスカ",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "5500",
+   "soul": 1,
+   "trigger": "－",
+   "text": "【永】 このカードはサイドアタックできない。\n【自】【CXコンボ】 このカードのバトル相手が【リバース】した時、あなたのクライマックス置場に「零次元の創造主・ビッグバン」があるなら、あなたは自分の山札を上から4枚まで見て、レベル1以上のカードを2枚まで選んで相手に見せ、1枚選び、手札に加え、1枚選び、ストック置場に置き、残りのカードを控え室に置く。（クライマックスのレベルは0として扱う）\n\"-\"",
+   "traits": [
+    "悪魔",
+    "攻撃"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/pad_s105/pad_s105_t05.png",
+   "variant": ""
+  },
+  {
+   "num": "PAD/S105-T05R",
+   "name": "星翔の大魔女・ファスカ",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "5500",
+   "soul": 1,
+   "trigger": "－",
+   "text": "【永】 このカードはサイドアタックできない。\n【自】【CXコンボ】 このカードのバトル相手が【リバース】した時、あなたのクライマックス置場に「零次元の創造主・ビッグバン」があるなら、あなたは自分の山札を上から4枚まで見て、レベル1以上のカードを2枚まで選んで相手に見せ、1枚選び、手札に加え、1枚選び、ストック置場に置き、残りのカードを控え室に置く。（クライマックスのレベルは0として扱う）\n\"-\"",
+   "traits": [
+    "悪魔",
+    "攻撃"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/pad_s105/pad_s105_t05r.png",
+   "variant": ""
+  },
+  {
+   "num": "PAD/S105-T06",
+   "name": "古城の幻想・龍喚士ソニア＝グラン",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "yellow",
+   "level": "1",
+   "cost": "1",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 あなたがこのカードの『助太刀』を使った時、あなたのキャラが3枚以上なら、あなたは自分の山札の上から1枚を、ストック置場に置いてよい。\n【起】【カウンター】 助太刀2000 レベル1 ［(1) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋2000）\n\"-\"",
+   "traits": [
+    "ドラゴン",
+    "悪魔"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/pad_s105/pad_s105_t06.png",
+   "variant": ""
+  },
+  {
+   "num": "PAD/S105-T06R",
+   "name": "古城の幻想・龍喚士ソニア＝グラン",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "yellow",
+   "level": "1",
+   "cost": "1",
+   "power": "1000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 あなたがこのカードの『助太刀』を使った時、あなたのキャラが3枚以上なら、あなたは自分の山札の上から1枚を、ストック置場に置いてよい。\n【起】【カウンター】 助太刀2000 レベル1 ［(1) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋2000）\n\"-\"",
+   "traits": [
+    "ドラゴン",
+    "悪魔"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/pad_s105/pad_s105_t06r.png",
+   "variant": ""
+  },
+  {
+   "num": "PAD/S105-T07",
+   "name": "聖典の管理者・メタトロン",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "5500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 相手の後列のキャラ1枚につき、このカードのパワーを＋2500。\n【自】 このカードのバトル相手が【リバース】した時、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋1000。\n\"-\"",
+   "traits": [
+    "神",
+    "回復",
+    "体力"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/pad_s105/pad_s105_t07.png",
+   "variant": ""
+  },
+  {
+   "num": "PAD/S105-T07R",
+   "name": "聖典の管理者・メタトロン",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "yellow",
+   "level": "2",
+   "cost": "1",
+   "power": "5500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 相手の後列のキャラ1枚につき、このカードのパワーを＋2500。\n【自】 このカードのバトル相手が【リバース】した時、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋1000。\n\"-\"",
+   "traits": [
+    "神",
+    "回復",
+    "体力"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/pad_s105/pad_s105_t07r.png",
+   "variant": ""
+  },
+  {
+   "num": "PAD/S105-T08",
+   "name": "万天の全能神・ゼウス＝ヴァース",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "yellow",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n【自】［(1) 手札を2枚控え室に置く］ このカードがアタックした時、あなたはコストを払ってよい。そうしたら、あなたは相手の山札の下から3枚を、控え室に置き、相手にＸダメージを与える。Ｘはそれらのカードのレベル0以下のカードの枚数に等しい。（クライマックスのレベルは0として扱う。ダメージキャンセルは発生する）\n\"-\"",
+   "traits": [
+    "神",
+    "バランス"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/pad_s105/pad_s105_t08.png",
+   "variant": ""
+  },
+  {
+   "num": "PAD/S105-T08SP",
+   "name": "万天の全能神・ゼウス＝ヴァース",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "yellow",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n【自】［(1) 手札を2枚控え室に置く］ このカードがアタックした時、あなたはコストを払ってよい。そうしたら、あなたは相手の山札の下から3枚を、控え室に置き、相手にＸダメージを与える。Ｘはそれらのカードのレベル0以下のカードの枚数に等しい。（クライマックスのレベルは0として扱う。ダメージキャンセルは発生する）\n\"-\"",
+   "traits": [
+    "神",
+    "バランス"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/pad_s105/pad_s105_t08sp.png",
+   "variant": ""
+  },
+  {
+   "num": "PAD/S105-T09",
+   "name": "響想のボーカリスト・イデアル",
+   "type": "Event",
+   "rarity": "TD",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "",
+   "soul": 0,
+   "trigger": "－",
+   "text": "このカードは、あなたのキャラが1枚以下なら、手札からプレイできない。\nあなたの控え室のクライマックスが2枚以上なら、あなたは自分の控え室のレベルＸ以下のキャラを1枚選び、手札に戻す。Ｘはあなたの控え室の「星翔の大魔女・ファスカ」の枚数に等しい。\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/pad_s105/pad_s105_t09.png",
+   "variant": ""
+  },
+  {
+   "num": "PAD/S105-T09R",
+   "name": "響想のボーカリスト・イデアル",
+   "type": "Event",
+   "rarity": "RRR",
+   "color": "yellow",
+   "level": "1",
+   "cost": "0",
+   "power": "",
+   "soul": 0,
+   "trigger": "－",
+   "text": "このカードは、あなたのキャラが1枚以下なら、手札からプレイできない。\nあなたの控え室のクライマックスが2枚以上なら、あなたは自分の控え室のレベルＸ以下のキャラを1枚選び、手札に戻す。Ｘはあなたの控え室の「星翔の大魔女・ファスカ」の枚数に等しい。\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/pad_s105/pad_s105_t09r.png",
+   "variant": ""
+  },
+  {
+   "num": "PAD/S105-T10",
+   "name": "零次元の創造主・ビッグバン",
+   "type": "Climax",
+   "rarity": "TD",
+   "color": "yellow",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[choice.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[choice.gif]]：このカードがトリガーした時、あなたは自分の控え室のトリガーアイコンに[[soul.gif]]があるキャラを1枚選び、手札に戻すかストック置場に置いてよい）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/pad_s105/pad_s105_t10.png",
+   "variant": ""
+  },
+  {
+   "num": "PAD/S105-T10R",
+   "name": "零次元の創造主・ビッグバン",
+   "type": "Climax",
+   "rarity": "RRR",
+   "color": "yellow",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[choice.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[choice.gif]]：このカードがトリガーした時、あなたは自分の控え室のトリガーアイコンに[[soul.gif]]があるキャラを1枚選び、手札に戻すかストック置場に置いてよい）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/pad_s105/pad_s105_t10r.png",
+   "variant": ""
+  },
+  {
+   "num": "PAD/S105-T11",
+   "name": "烈空の紅龍喚士・ソニア",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "－",
+   "text": "【永】 他のあなたの「メテオボルケーノドラゴン」すべてに、パワーを＋2000し、次の能力を与える。『【自】 相手のターン中、このカードが【リバース】した時、このカードのバトル相手のレベルが1以下なら、あなたはそのキャラを【リバース】してよい。』\n【自】 絆／「メテオボルケーノドラゴン」 ［手札を1枚控え室に置く］ （このカードがプレイされて舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「メテオボルケーノドラゴン」を1枚選び、手札に戻す）\n\"-\"",
+   "traits": [
+    "ドラゴン",
+    "悪魔"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/pad_s105/pad_s105_t11.png",
+   "variant": ""
+  },
+  {
+   "num": "PAD/S105-T11S",
+   "name": "烈空の紅龍喚士・ソニア",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "－",
+   "text": "【永】 他のあなたの「メテオボルケーノドラゴン」すべてに、パワーを＋2000し、次の能力を与える。『【自】 相手のターン中、このカードが【リバース】した時、このカードのバトル相手のレベルが1以下なら、あなたはそのキャラを【リバース】してよい。』\n【自】 絆／「メテオボルケーノドラゴン」 ［手札を1枚控え室に置く］ （このカードがプレイされて舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「メテオボルケーノドラゴン」を1枚選び、手札に戻す）\n\"-\"",
+   "traits": [
+    "ドラゴン",
+    "悪魔"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/pad_s105/pad_s105_t11s.png",
+   "variant": ""
+  },
+  {
+   "num": "PAD/S105-T12",
+   "name": "淡雪の白虎・ハク",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "－",
+   "text": "【自】 あなたのキャラのトリガーチェックでクライマックスがでた時、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋1000。\n【起】 集中 ［(1) このカードを【レスト】する］ あなたは自分の山札の上から5枚をめくり、控え室に置く。それらのカードのクライマックス1枚につき、あなたは1枚まで引く。\n\"-\"",
+   "traits": [
+    "神",
+    "ドラゴン"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/pad_s105/pad_s105_t12.png",
+   "variant": ""
+  },
+  {
+   "num": "PAD/S105-T12R",
+   "name": "淡雪の白虎・ハク",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "500",
+   "soul": 1,
+   "trigger": "－",
+   "text": "【自】 あなたのキャラのトリガーチェックでクライマックスがでた時、あなたは自分のキャラを1枚選び、そのターン中、パワーを＋1000。\n【起】 集中 ［(1) このカードを【レスト】する］ あなたは自分の山札の上から5枚をめくり、控え室に置く。それらのカードのクライマックス1枚につき、あなたは1枚まで引く。\n\"-\"",
+   "traits": [
+    "神",
+    "ドラゴン"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/pad_s105/pad_s105_t12r.png",
+   "variant": ""
+  },
+  {
+   "num": "PAD/S105-T13",
+   "name": "親愛の癒し手・アリナ",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "－",
+   "text": "【永】 このカードの正面のキャラに、『【自】 アンコール ［(2)］』を与える。\n【自】［(1) あなたの山札の上から1枚をクロック置場に置く］ このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を上から4枚まで見て、レベル1以上のカードを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。（クライマックスのレベルは0として扱う）\n\"-\"",
+   "traits": [
+    "回復",
+    "ドラゴン"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/pad_s105/pad_s105_t13.png",
+   "variant": ""
+  },
+  {
+   "num": "PAD/S105-T13SP",
+   "name": "親愛の癒し手・アリナ",
+   "type": "Character",
+   "rarity": "SP",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "3000",
+   "soul": 1,
+   "trigger": "－",
+   "text": "【永】 このカードの正面のキャラに、『【自】 アンコール ［(2)］』を与える。\n【自】［(1) あなたの山札の上から1枚をクロック置場に置く］ このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を上から4枚まで見て、レベル1以上のカードを1枚まで選んで相手に見せ、手札に加え、残りのカードを控え室に置く。（クライマックスのレベルは0として扱う）\n\"-\"",
+   "traits": [
+    "回復",
+    "ドラゴン"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/pad_s105/pad_s105_t13sp.png",
+   "variant": ""
+  },
+  {
+   "num": "PAD/S105-T14",
+   "name": "親愛の武闘家・ディーナ",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "－",
+   "text": "【自】 このカードが手札から舞台に置かれた時、そのターン中、このカードのパワーを＋4500。\n\"-\"",
+   "traits": [
+    "攻撃",
+    "ドラゴン"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/pad_s105/pad_s105_t14.png",
+   "variant": ""
+  },
+  {
+   "num": "PAD/S105-T14R",
+   "name": "親愛の武闘家・ディーナ",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "－",
+   "text": "【自】 このカードが手札から舞台に置かれた時、そのターン中、このカードのパワーを＋4500。\n\"-\"",
+   "traits": [
+    "攻撃",
+    "ドラゴン"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/pad_s105/pad_s105_t14r.png",
+   "variant": ""
+  },
+  {
+   "num": "PAD/S105-T15",
+   "name": "メテオボルケーノドラゴン",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "5500",
+   "soul": 1,
+   "trigger": "－",
+   "text": "－\n\"-\"",
+   "traits": [
+    "ドラゴン"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/pad_s105/pad_s105_t15.png",
+   "variant": ""
+  },
+  {
+   "num": "PAD/S105-T15R",
+   "name": "メテオボルケーノドラゴン",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "5500",
+   "soul": 1,
+   "trigger": "－",
+   "text": "－\n\"-\"",
+   "traits": [
+    "ドラゴン"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/pad_s105/pad_s105_t15r.png",
+   "variant": ""
+  },
+  {
+   "num": "PAD/S105-T16",
+   "name": "灼魔鍵の勇者・グレオン",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "red",
+   "level": "1",
+   "cost": "1",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "－",
+   "text": "【永】 あなたのターン中、このカードのパワーを＋6000。\n【自】 アンコール ［手札のキャラを1枚控え室に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"-\"",
+   "traits": [
+    "攻撃",
+    "体力"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/pad_s105/pad_s105_t16.png",
+   "variant": ""
+  },
+  {
+   "num": "PAD/S105-T16R",
+   "name": "灼魔鍵の勇者・グレオン",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "red",
+   "level": "1",
+   "cost": "1",
+   "power": "3500",
+   "soul": 1,
+   "trigger": "－",
+   "text": "【永】 あなたのターン中、このカードのパワーを＋6000。\n【自】 アンコール ［手札のキャラを1枚控え室に置く］ （このカードが舞台から控え室に置かれた時、あなたはコストを払ってよい。そうしたら、このカードがいた枠に【レスト】して置く）\n\"-\"",
+   "traits": [
+    "攻撃",
+    "体力"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/pad_s105/pad_s105_t16r.png",
+   "variant": ""
+  },
+  {
+   "num": "PAD/S105-T17",
+   "name": "友愛の灰幻魔・イルミナ",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋Ｘ。Ｘはそのキャラのレベル×500に等しい。\n【起】［(2) このカードを【レスト】する］ あなたは自分の控え室のキャラを1枚選び、手札に戻す。\n\"-\"",
+   "traits": [
+    "悪魔",
+    "攻撃",
+    "体力"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/pad_s105/pad_s105_t17.png",
+   "variant": ""
+  },
+  {
+   "num": "PAD/S105-T17R",
+   "name": "友愛の灰幻魔・イルミナ",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋Ｘ。Ｘはそのキャラのレベル×500に等しい。\n【起】［(2) このカードを【レスト】する］ あなたは自分の控え室のキャラを1枚選び、手札に戻す。\n\"-\"",
+   "traits": [
+    "悪魔",
+    "攻撃",
+    "体力"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/pad_s105/pad_s105_t17r.png",
+   "variant": ""
+  },
+  {
+   "num": "PAD/S105-T18",
+   "name": "嬉戯の鬼龍契士・スオウ",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードがアタックした時、そのターン中、このカードのパワーを＋Ｘ。Ｘは相手のキャラの枚数×1500に等しい。\n【自】［(1)］ このカードのバトル相手でレベル2以上のキャラが【リバース】した時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室のキャラを1枚選び、手札に戻す。\n\"-\"",
+   "traits": [
+    "ドラゴン",
+    "悪魔"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/pad_s105/pad_s105_t18.png",
+   "variant": ""
+  },
+  {
+   "num": "PAD/S105-T18R",
+   "name": "嬉戯の鬼龍契士・スオウ",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "red",
+   "level": "2",
+   "cost": "1",
+   "power": "5000",
+   "soul": 1,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードがアタックした時、そのターン中、このカードのパワーを＋Ｘ。Ｘは相手のキャラの枚数×1500に等しい。\n【自】［(1)］ このカードのバトル相手でレベル2以上のキャラが【リバース】した時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室のキャラを1枚選び、手札に戻す。\n\"-\"",
+   "traits": [
+    "ドラゴン",
+    "悪魔"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/pad_s105/pad_s105_t18r.png",
+   "variant": ""
+  },
+  {
+   "num": "PAD/S105-T19",
+   "name": "聖門の大魔女・サレーネ",
+   "type": "Character",
+   "rarity": "TD",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "10500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の手札の自分のレベル以下のレベルのキャラを1枚まで選び、舞台の好きな枠に置き、そのターン中、このカードのパワーを＋2000。\n【自】【CXコンボ】［(2)］ このカードのバトル相手が【リバース】した時、あなたのクライマックス置場に「東雲の霊央神・カミムスビ」があるなら、あなたはコストを払ってよい。そうしたら、相手に2ダメージを与え、あなたはそのキャラを山札の上に置く。（ダメージキャンセルは発生する）\n\"-\"",
+   "traits": [
+    "悪魔",
+    "バランス"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/pad_s105/pad_s105_t19.png",
+   "variant": ""
+  },
+  {
+   "num": "PAD/S105-T19R",
+   "name": "聖門の大魔女・サレーネ",
+   "type": "Character",
+   "rarity": "RRR",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "10500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の手札の自分のレベル以下のレベルのキャラを1枚まで選び、舞台の好きな枠に置き、そのターン中、このカードのパワーを＋2000。\n【自】【CXコンボ】［(2)］ このカードのバトル相手が【リバース】した時、あなたのクライマックス置場に「東雲の霊央神・カミムスビ」があるなら、あなたはコストを払ってよい。そうしたら、相手に2ダメージを与え、あなたはそのキャラを山札の上に置く。（ダメージキャンセルは発生する）\n\"-\"",
+   "traits": [
+    "悪魔",
+    "バランス"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/pad_s105/pad_s105_t19r.png",
+   "variant": ""
+  },
+  {
+   "num": "PAD/S105-T20",
+   "name": "東雲の霊央神・カミムスビ",
+   "type": "Climax",
+   "rarity": "TD",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[salvage.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[salvage.gif]]：このカードがトリガーした時、あなたは自分の控え室のキャラを1枚選び、手札に戻してよい）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/pad_s105/pad_s105_t20.png",
+   "variant": ""
+  },
+  {
+   "num": "PAD/S105-T20R",
+   "name": "東雲の霊央神・カミムスビ",
+   "type": "Climax",
+   "rarity": "RRR",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[salvage.gif]]",
+   "text": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（[[salvage.gif]]：このカードがトリガーした時、あなたは自分の控え室のキャラを1枚選び、手札に戻してよい）\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/pad_s105/pad_s105_t20r.png",
+   "variant": ""
+  },
+  {
+   "num": "PAD/S105-T21",
+   "name": "溌溂なドラマー・ヴァレリア",
+   "type": "Climax",
+   "rarity": "TD",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【永】 あなたのキャラすべてに、ソウルを＋2。\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/pad_s105/pad_s105_t21.png",
+   "variant": ""
+  },
+  {
+   "num": "PAD/S105-T21R",
+   "name": "溌溂なドラマー・ヴァレリア",
+   "type": "Climax",
+   "rarity": "RRR",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【永】 あなたのキャラすべてに、ソウルを＋2。\n\"-\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/pad_s105/pad_s105_t21r.png",
+   "variant": ""
+  }
+ ]
+}

@@ -1,0 +1,326 @@
+{
+ "id": "jp-sy-e181",
+ "name": "パワーアップセット 涼宮ハルヒの憂鬱",
+ "expansion": 181,
+ "lang": "jp",
+ "release": null,
+ "shopItem": null,
+ "box": null,
+ "cards": [
+  {
+   "num": "SY/WP02-01",
+   "name": "ひと休み みくる",
+   "type": "Character",
+   "rarity": "PS",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札か思い出置場から舞台に置かれた時、あなたは自分の山札の上から2枚を、控え室に置いてよい。\n【自】 このカードのバトル相手が【リバース】した時、あなたはこのカードを思い出にしてよい。そうしたら、次のあなたのドローフェイズの始めに、あなたは自分の思い出置場の「ひと休み みくる」を1枚選び、舞台の好きな枠に置く。\n\"何かわかったんですか？\"",
+   "traits": [
+    "時間",
+    "SOS団"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sy_wp02/sy_wp02_01.png",
+   "variant": ""
+  },
+  {
+   "num": "SY/WP02-01S",
+   "name": "ひと休み みくる",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "0",
+   "cost": "0",
+   "power": "2000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札か思い出置場から舞台に置かれた時、あなたは自分の山札の上から2枚を、控え室に置いてよい。\n【自】 このカードのバトル相手が【リバース】した時、あなたはこのカードを思い出にしてよい。そうしたら、次のあなたのドローフェイズの始めに、あなたは自分の思い出置場の「ひと休み みくる」を1枚選び、舞台の好きな枠に置く。\n\"SECRET\"",
+   "traits": [
+    "時間",
+    "SOS団"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sy_wp02/sy_wp02_01s.png",
+   "variant": ""
+  },
+  {
+   "num": "SY/WP02-02",
+   "name": "トナカイ みくる",
+   "type": "Character",
+   "rarity": "PS",
+   "color": "green",
+   "level": "3",
+   "cost": "2",
+   "power": "9500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたの控え室のクライマックスが2枚以下なら、あなたの手札のこのカードのレベルを－1。\n【永】 このカードのバトル中、相手は『助太刀』を手札からプレイできない。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n\"いやあぁぁ！\"",
+   "traits": [
+    "時間",
+    "SOS団"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sy_wp02/sy_wp02_02.png",
+   "variant": ""
+  },
+  {
+   "num": "SY/WP02-02S",
+   "name": "トナカイ みくる",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "green",
+   "level": "3",
+   "cost": "2",
+   "power": "9500",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【永】 あなたの控え室のクライマックスが2枚以下なら、あなたの手札のこのカードのレベルを－1。\n【永】 このカードのバトル中、相手は『助太刀』を手札からプレイできない。\n【自】 このカードが手札から舞台に置かれた時、あなたは自分のクロックの上から1枚を、控え室に置いてよい。\n\"SECRET\"",
+   "traits": [
+    "時間",
+    "SOS団"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sy_wp02/sy_wp02_02s.png",
+   "variant": ""
+  },
+  {
+   "num": "SY/WP02-03",
+   "name": "ひと休み ハルヒ",
+   "type": "Character",
+   "rarity": "PS",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】他のあなたの前列の中央の枠のキャラに、パワーを＋500。\n【起】 集中 ［(1) このカードを【レスト】する］ あなたは自分の山札の上から4枚をめくり、控え室に置く。それらのカードのクライマックス1枚につき、あなたは自分の控え室の、《団長》か《SOS団》のキャラを1枚まで選び、手札に戻す。\n\"おなかすいたし昼ごはん食べに行きましょ\"",
+   "traits": [
+    "団長",
+    "SOS団"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sy_wp02/sy_wp02_03.png",
+   "variant": ""
+  },
+  {
+   "num": "SY/WP02-03S",
+   "name": "ひと休み ハルヒ",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】他のあなたの前列の中央の枠のキャラに、パワーを＋500。\n【起】 集中 ［(1) このカードを【レスト】する］ あなたは自分の山札の上から4枚をめくり、控え室に置く。それらのカードのクライマックス1枚につき、あなたは自分の控え室の、《団長》か《SOS団》のキャラを1枚まで選び、手札に戻す。\n\"SECRET\"",
+   "traits": [
+    "団長",
+    "SOS団"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sy_wp02/sy_wp02_03s.png",
+   "variant": ""
+  },
+  {
+   "num": "SY/WP02-04",
+   "name": "傍若無人 ハルヒ",
+   "type": "Character",
+   "rarity": "PS",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、そのターン中、このカードのパワーを＋1500。\n【自】 このカードのバトル相手が【リバース】した時、あなたのクライマックス置場に「ある日の部室」があるなら、あなたは相手の前列のレベル0以下のキャラを1枚まで選び、控え室に置き、自分の控え室の、《団長》か《SOS団》のキャラを1枚まで選び、手札に戻す。\n\"へい、おまち！\"",
+   "traits": [
+    "団長",
+    "SOS団"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sy_wp02/sy_wp02_04.png",
+   "variant": ""
+  },
+  {
+   "num": "SY/WP02-04S",
+   "name": "傍若無人 ハルヒ",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "1",
+   "cost": "0",
+   "power": "4500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】 このカードが手札から舞台に置かれた時、そのターン中、このカードのパワーを＋1500。\n【自】 このカードのバトル相手が【リバース】した時、あなたのクライマックス置場に「ある日の部室」があるなら、あなたは相手の前列のレベル0以下のキャラを1枚まで選び、控え室に置き、自分の控え室の、《団長》か《SOS団》のキャラを1枚まで選び、手札に戻す。\n\"SECRET\"",
+   "traits": [
+    "団長",
+    "SOS団"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sy_wp02/sy_wp02_04s.png",
+   "variant": ""
+  },
+  {
+   "num": "SY/WP02-05",
+   "name": "“10th Anniversary”ハルヒ",
+   "type": "Character",
+   "rarity": "PS",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の控え室の、《団長》か《SOS団》のキャラを1枚選び、手札に戻してよい。\n【自】 あなたのクライマックス置場に「サムデイ イン ザ レイン」が置かれた時、前列にこのカードがいるなら、そのターン中、このカードは次の能力を得る。『【自】［他のあなたの舞台のキャラを1枚控え室に置く］ この能力は1ターンにつき1回まで発動する。このカードがアタックした時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札の上から1枚を公開する。そのカードがレベル1以上の、《団長》か《SOS団》のキャラなら、あなたはそのキャラを舞台の好きな枠に置き、そのターン中、そのキャラのパワーを＋1000。』（そうしないなら元に戻す）\n\"‐\"",
+   "traits": [
+    "団長",
+    "SOS団"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sy_wp02/sy_wp02_05.png",
+   "variant": ""
+  },
+  {
+   "num": "SY/WP02-05S",
+   "name": "“10th Anniversary”ハルヒ",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の控え室の、《団長》か《SOS団》のキャラを1枚選び、手札に戻してよい。\n【自】 あなたのクライマックス置場に「サムデイ イン ザ レイン」が置かれた時、前列にこのカードがいるなら、そのターン中、このカードは次の能力を得る。『【自】［他のあなたの舞台のキャラを1枚控え室に置く］ この能力は1ターンにつき1回まで発動する。このカードがアタックした時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札の上から1枚を公開する。そのカードがレベル1以上の、《団長》か《SOS団》のキャラなら、あなたはそのキャラを舞台の好きな枠に置き、そのターン中、そのキャラのパワーを＋1000。』（そうしないなら元に戻す）\n\"SECRET\"",
+   "traits": [
+    "団長",
+    "SOS団"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sy_wp02/sy_wp02_05s.png",
+   "variant": ""
+  },
+  {
+   "num": "SY/WP02-06",
+   "name": "ある日の部室",
+   "type": "Climax",
+   "rarity": "PS",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【自】 このカードが手札からクライマックス置場に置かれた時、あなたは自分の控え室の赤のカードを1枚まで選び、ストック置場に置き、自分のキャラすべてに、そのターン中、ソウルを＋1。\n\"SOS団の活動内容、それは……宇宙人や未来人や超能力者を探し出して一緒に遊ぶことよ！\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sy_wp02/sy_wp02_06.png",
+   "variant": ""
+  },
+  {
+   "num": "SY/WP02-06S",
+   "name": "ある日の部室",
+   "type": "Climax",
+   "rarity": "SR",
+   "color": "red",
+   "level": "",
+   "cost": "",
+   "power": "",
+   "soul": 0,
+   "trigger": "[[soul.gif]][[soul.gif]]",
+   "text": "【自】 このカードが手札からクライマックス置場に置かれた時、あなたは自分の控え室の赤のカードを1枚まで選び、ストック置場に置き、自分のキャラすべてに、そのターン中、ソウルを＋1。\n\"SECRET\"",
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sy_wp02/sy_wp02_06s.png",
+   "variant": ""
+  },
+  {
+   "num": "SY/WP02-07",
+   "name": "ツリー色のドレス 長門",
+   "type": "Character",
+   "rarity": "PS",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1) あなたの山札の上から1枚をクロック置場に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見てレベル1以下のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n【自】 このカードがアタックした時、あなたは他の自分の、《宇宙人》か《SOS団》のキャラを1枚選び、そのターン中、パワーを＋1000。\n\"‐\"",
+   "traits": [
+    "宇宙人",
+    "SOS団"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sy_wp02/sy_wp02_07.png",
+   "variant": ""
+  },
+  {
+   "num": "SY/WP02-07S",
+   "name": "ツリー色のドレス 長門",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "0",
+   "cost": "0",
+   "power": "1500",
+   "soul": 1,
+   "trigger": "",
+   "text": "【自】［(1) あなたの山札の上から1枚をクロック置場に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の山札を見てレベル1以下のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。\n【自】 このカードがアタックした時、あなたは他の自分の、《宇宙人》か《SOS団》のキャラを1枚選び、そのターン中、パワーを＋1000。\n\"SECRET\"",
+   "traits": [
+    "宇宙人",
+    "SOS団"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sy_wp02/sy_wp02_07s.png",
+   "variant": ""
+  },
+  {
+   "num": "SY/WP02-08",
+   "name": "ひと休み 長門",
+   "type": "Character",
+   "rarity": "PS",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "6000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 このカードの正面のキャラのレベルがこのカードのレベルより高いなら、このカードはフロントアタックできない。\n【自】［手札を1枚控え室に置き、このカードを控え室に置く］ 他のあなたの、《宇宙人》か《SOS団》のキャラがフロントアタックされた時、あなたはコストを払ってよい。そうしたら、あなたは自分のバトル中のキャラを1枚選び、そのターン中、パワーを＋3000。\n\"できなくはない、ただし推奨はできない\"",
+   "traits": [
+    "宇宙人",
+    "SOS団"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sy_wp02/sy_wp02_08.png",
+   "variant": ""
+  },
+  {
+   "num": "SY/WP02-08S",
+   "name": "ひと休み 長門",
+   "type": "Character",
+   "rarity": "SR",
+   "color": "blue",
+   "level": "1",
+   "cost": "0",
+   "power": "6000",
+   "soul": 1,
+   "trigger": "",
+   "text": "【永】 このカードの正面のキャラのレベルがこのカードのレベルより高いなら、このカードはフロントアタックできない。\n【自】［手札を1枚控え室に置き、このカードを控え室に置く］ 他のあなたの、《宇宙人》か《SOS団》のキャラがフロントアタックされた時、あなたはコストを払ってよい。そうしたら、あなたは自分のバトル中のキャラを1枚選び、そのターン中、パワーを＋3000。\n\"SECRET\"",
+   "traits": [
+    "宇宙人",
+    "SOS団"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sy_wp02/sy_wp02_08s.png",
+   "variant": ""
+  },
+  {
+   "num": "SY/WP02-09",
+   "name": "夏の眼福 ハルヒ＆みくる",
+   "type": "Character",
+   "rarity": "PR",
+   "color": "red",
+   "level": "3",
+   "cost": "2",
+   "power": "10000",
+   "soul": 2,
+   "trigger": "[[soul.gif]]",
+   "text": "【自】［手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「エンドレスエイト」を2枚まで選び、手札に戻す。\n【起】［あなたの思い出置場の「エンドレスエイト」を8枚控え室に置く］ 8回、次の行動を行う。『相手に1ダメージを与える。』（ダメージキャンセルは発生する）\n\"ハルヒ「ほらほら！」\"",
+   "traits": [
+    "団長",
+    "SOS団"
+   ],
+   "img": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sy_wp02/sy_wp02_09.png",
+   "variant": ""
+  }
+ ]
+}
