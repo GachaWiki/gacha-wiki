@@ -8,11 +8,17 @@ import { SHOP_ITEMS } from '../../data/shop-items.js';
 import { shopLink } from '../../data/shop.js';
 import '../../styles/pages/ws-cards.css';
 
+// Full card data is lazy-loaded per set: the metadata registry keeps the
+// build small now that the catalog is ~100k cards across 800+ sets.
+const setModules = import.meta.glob('../../data/ws-cards/*.js');
+
 export function getStaticPaths() {
   return WS_CARD_SETS.map((set) => ({ params: { set: set.id } }));
 }
 
-const set = WS_CARD_SETS.find((s) => s.id === Astro.params.set)!;
+const setMeta = WS_CARD_SETS.find((s) => s.id === Astro.params.set)!;
+const setData = (await setModules[`../../data/ws-cards/${setMeta.id}.js`]()).default;
+const set = { ...setMeta, ...setData };
 
 // Buy links go straight to the set's Amazon product page (with the referral
 // tag) instead of routing through the shop page. Falls back to the shop
@@ -20,12 +26,13 @@ const set = WS_CARD_SETS.find((s) => s.id === Astro.params.set)!;
 const shopItem = SHOP_ITEMS.find((i) => i.id === set.shopItem);
 const amazonLink = shopItem?.links.find((l) => l.store.toLowerCase().includes('amazon'));
 // Every set gets an Amazon link: direct product link for shop catalog sets,
-// otherwise a tagged Amazon search for the set name (shopLink appends the
-// referral tag to both shapes).
+// otherwise a tagged Amazon search for the set name (Japanese sets search
+// Amazon.co.jp; shopLink appends the referral tag where configured).
+const searchBase = set.lang === 'jp' ? 'https://www.amazon.co.jp/s?k=' : 'https://www.amazon.com/s?k=';
 const buyUrl = shopLink(
-  amazonLink ?? { url: `https://www.amazon.com/s?k=${encodeURIComponent(`weiss schwarz ${set.name}`)}` }
+  amazonLink ?? { url: `${searchBase}${encodeURIComponent(`weiss schwarz ${set.name}`)}` }
 );
-const buyLabel = amazonLink ? 'Buy this set on Amazon' : 'Search on Amazon';
+const buyLabel = amazonLink ? 'Buy this set on Amazon' : set.lang === 'jp' ? 'Search on Amazon Japan' : 'Search on Amazon';
 const buyRel = 'noopener noreferrer nofollow sponsored';
 
 const title = `${SITE_TITLE} ${set.name} Card List`;
