@@ -113,6 +113,7 @@ export const GUILD_WAR_RAIDS = [
           {
             "slot": "Normal Attack",
             "name": "Normal Attack",
+            "icon": "skill001/skill0001",
             "description": "Deals physical damage to the 3 nearest enemies",
             "damage": "300% + 200",
             "castTime": 2.0,
@@ -122,6 +123,7 @@ export const GUILD_WAR_RAIDS = [
           {
             "slot": "Skill 1",
             "name": "Charged Attack",
+            "icon": "skill001/skill0003_1",
             "description": "Deals physical damage to the 3 nearest enemies and inflict Action Speed -14%DOWN for 8 seconds",
             "damage": "400% + 300",
             "castTime": 2.1,
@@ -131,6 +133,7 @@ export const GUILD_WAR_RAIDS = [
           {
             "slot": "Skill 2",
             "name": "Hardened Body",
+            "icon": "skill001/skill0025",
             "description": "Apply Hit-Based Shield(50%15 hit(s)) to self for 10 seconds",
             "damage": null,
             "castTime": 1.5,
@@ -140,6 +143,7 @@ export const GUILD_WAR_RAIDS = [
           {
             "slot": "Ultimate",
             "name": "Mudman’s Fury",
+            "icon": "skill001/skill0003_5",
             "description": "Deal physical damage to all enemies and inflict Stun for 2 seconds and Action Speed -25%DOWN for 10 seconds",
             "damage": "560% + 400",
             "castTime": null,
@@ -149,6 +153,7 @@ export const GUILD_WAR_RAIDS = [
           {
             "slot": "Passive 2",
             "name": "Elemental Harmony",
+            "icon": "skill001/skill1002",
             "description": "Increase damage dealt by 50% when taking damage from an advantaged attribute, and decrease damage dealt by 50% when taking damage from a non-advantaged attribute",
             "damage": null,
             "castTime": null,
@@ -243,6 +248,7 @@ export const GUILD_WAR_RAIDS = [
           {
             "slot": "Normal Attack",
             "name": "Normal Attack",
+            "icon": "skill001/skill0001",
             "description": "Deals physical damage to the 3 nearest enemies",
             "damage": "300% + 400",
             "castTime": 2.0,
@@ -252,6 +258,7 @@ export const GUILD_WAR_RAIDS = [
           {
             "slot": "Skill 1",
             "name": "Charged Attack",
+            "icon": "skill001/skill0003_1",
             "description": "Deals physical damage to the 3 nearest enemies and inflict Action Speed -14%DOWN for 8 seconds",
             "damage": "400% + 600",
             "castTime": 2.1,
@@ -261,6 +268,7 @@ export const GUILD_WAR_RAIDS = [
           {
             "slot": "Skill 2",
             "name": "Hardened Body",
+            "icon": "skill001/skill0025",
             "description": "Apply Hit-Based Shield(50%15 hit(s)) to self for 10 seconds",
             "damage": null,
             "castTime": 1.5,
@@ -270,6 +278,7 @@ export const GUILD_WAR_RAIDS = [
           {
             "slot": "Ultimate",
             "name": "Mudman’s Fury",
+            "icon": "skill001/skill0003_5",
             "description": "Deal physical damage to all enemies and inflict Stun for 2 seconds and Action Speed -25%DOWN for 10 seconds",
             "damage": "560% + 750",
             "castTime": null,
@@ -279,6 +288,7 @@ export const GUILD_WAR_RAIDS = [
           {
             "slot": "Passive 2",
             "name": "Elemental Harmony",
+            "icon": "skill001/skill1002",
             "description": "Increase damage dealt by 50% when taking damage from an advantaged attribute, and decrease damage dealt by 50% when taking damage from a non-advantaged attribute",
             "damage": null,
             "castTime": null,
@@ -373,6 +383,7 @@ export const GUILD_WAR_RAIDS = [
           {
             "slot": "Normal Attack",
             "name": "Normal Attack",
+            "icon": "skill001/skill0001",
             "description": "Deals physical damage to the 3 nearest enemies",
             "damage": "300% + 600",
             "castTime": 2.0,
@@ -382,6 +393,7 @@ export const GUILD_WAR_RAIDS = [
           {
             "slot": "Skill 1",
             "name": "Charged Attack",
+            "icon": "skill001/skill0003_1",
             "description": "Deals physical damage to the 3 nearest enemies and inflict Action Speed -14%DOWN for 8 seconds",
             "damage": "400% + 900",
             "castTime": 2.1,
@@ -391,6 +403,7 @@ export const GUILD_WAR_RAIDS = [
           {
             "slot": "Skill 2",
             "name": "Hardened Body",
+            "icon": "skill001/skill0025",
             "description": "Apply Hit-Based Shield(50%15 hit(s)) to self for 10 seconds",
             "damage": null,
             "castTime": 1.5,
@@ -400,6 +413,7 @@ export const GUILD_WAR_RAIDS = [
           {
             "slot": "Ultimate",
             "name": "Mudman’s Fury",
+            "icon": "skill001/skill0003_5",
             "description": "Deal physical damage to all enemies and inflict Stun for 2 seconds and Action Speed -25%DOWN for 10 seconds",
             "damage": "560% + 1200",
             "castTime": null,
@@ -409,6 +423,7 @@ export const GUILD_WAR_RAIDS = [
           {
             "slot": "Passive 2",
             "name": "Elemental Harmony",
+            "icon": "skill001/skill1002",
             "description": "Increase damage dealt by 50% when taking damage from an advantaged attribute, and decrease damage dealt by 50% when taking damage from a non-advantaged attribute",
             "damage": null,
             "castTime": null,
@@ -504,6 +519,7 @@ export const GUILD_WAR_RAIDS = [
           {
             "slot": "Normal Attack",
             "name": "Normal Attack",
+            "icon": "skill001/skill0001",
             "description": "Deals physical damage to the 3 nearest enemies",
             "damage": "300% + 800",
             "castTime": 2.0,
@@ -513,6 +529,7 @@ export const GUILD_WAR_RAIDS = [
           {
             "slot": "Skill 1",
             "name": "Charged Attack",
+            "icon": "skill001/skill0003_1",
             "description": "Deals physical damage to the 3 nearest enemies and inflict Action Speed -14%DOWN for 8 seconds",
             "damage": "400% + 1200",
             "castTime": 2.1,
@@ -522,6 +539,7 @@ export const GUILD_WAR_RAIDS = [
           {
             "slot": "Skill 2",
             "name": "Hardened Body",
+            "icon": "skill001/skill0025",
             "description": "Apply Hit-Based Shield(50%15 hit(s)) to self for 10 seconds",
             "damage": null,
             "castTime": 1.5,
@@ -531,6 +549,7 @@ export const GUILD_WAR_RAIDS = [
           {
             "slot": "Ultimate",
             "name": "Mudman’s Fury",
+            "icon": "skill001/skill0003_5",
             "description": "Deal physical damage to all enemies and inflict Stun for 2 seconds and Action Speed -25%DOWN for 10 seconds",
             "damage": "560% + 1500",
             "castTime": null,
@@ -540,6 +559,7 @@ export const GUILD_WAR_RAIDS = [
           {
             "slot": "Passive 2",
             "name": "Elemental Harmony",
+            "icon": "skill001/skill1002",
             "description": "Increase damage dealt by 50% when taking damage from an advantaged attribute, and decrease damage dealt by 50% when taking damage from a non-advantaged attribute",
             "damage": null,
             "castTime": null,
