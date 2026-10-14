@@ -1384,6 +1384,10 @@ export const guildBattleData = [
     status: 'ended',
     image: 'banner-competitive-battle-water',
   },
+];
+
+// Guild Battle (alliance battle) support summons - own page, not the banner timeline
+export const guildBattleEventData = [
   {
     id: 'guild-battle-wind-2026-09',
     title: 'Guild Battle・WIND Pick Up Summon',
@@ -1416,6 +1420,10 @@ export const guildBattleData = [
 ];
 
 guildBattleData.forEach(banner => {
+  banner.status = computeStatus(banner);
+});
+
+guildBattleEventData.forEach(banner => {
   banner.status = computeStatus(banner);
 });
 

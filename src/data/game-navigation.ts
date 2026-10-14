@@ -325,6 +325,7 @@ export const NAV_DATA: Record<GameKey, { sections: NavigationSection[] }> = {
         links: [
           { name: 'Banner Timeline', href: '/guides/busty-burst/banner-timeline/' },
           { name: 'JP Event Timeline', href: '/guides/busty-burst/banner-timeline-jp/' },
+          { name: 'Guild Battle Summons', href: '/guides/busty-burst/guild-battle/' },
           { name: 'Limited Time Challenges', href: '/guides/busty-burst/limited-time-challenges/' },
         ],
       },

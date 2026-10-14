@@ -1,0 +1,144 @@
+---
+// Guild Battle support summons page: alliance battle (同盟戦) pickup banners,
+// split out of the banner timeline per user request 2026-10-14
+import BannerTimelineLayout from '../../../layouts/busty-burst/BannerTimelineLayout.astro';
+import BBBannerImage from '../../../components/busty-burst/BBBannerImage.astro';
+import RarityImage from '../../../components/busty-burst/RarityImage.astro';
+import { guildBattleEventData } from '../../../data/busty-burst/banner-timeline.js';
+
+const pageTitle = 'Busty Burst Guild Battle Summons - Alliance Battle Pickups';
+const pageDescription =
+  'Guild Battle support summons in Busty Burst Fantasy. Attribute rate-up banners that run alongside each Guild Battle season, with featured paladins and periods.';
+const gameTitle = 'Guild Battle';
+
+const formatDate = (dateString: string) => {
+  const date = new Date(dateString);
+  const options: Intl.DateTimeFormatOptions = { month: 'short', day: '2-digit', year: 'numeric' };
+  return date.toLocaleDateString('en-US', options);
+};
+
+const getStatusLabel = (status: string) => {
+  switch (status) {
+    case 'current':
+      return 'Active';
+    case 'upcoming':
+      return 'Upcoming';
+    case 'ended':
+      return 'Ended';
+    default:
+      return status;
+  }
+};
+
+const computeStatus = (startDate: string, endDate: string, fallback: string) => {
+  const start = Date.parse(startDate);
+  const end = Date.parse(endDate);
+  if (Number.isNaN(start) || Number.isNaN(end)) return fallback;
+  const now = Date.now();
+  if (now < start) return 'upcoming';
+  if (now > end) return 'ended';
+  return 'current';
+};
+
+const banners = guildBattleEventData.map(b => ({
+  ...b,
+  live: computeStatus(b.startDate, b.endDate, b.status),
+}));
+---
+
+<BannerTimelineLayout title={pageTitle} description={pageDescription} gameTitle={gameTitle}>
+  <meta
+    slot="head"
+    content="Busty Burst, Busty Burst Fantasy, guild battle, alliance battle, pickup summon, attribute pickup, paladins, SSR, Ero Lab games"
+  />
+  <main class="banner-timeline-content" role="main">
+    <p class="intro-text">
+      Attribute rate-up summons that run alongside each Guild Battle season, boosting the featured
+      element of that battle. Guild Battle is the alliance co-op mode where guilds fight timed
+      element-themed battles; these banners sell the units that match the season.
+    </p>
+
+    {
+      banners.map(banner => (
+        <article class="banner-section">
+          <header class="banner-header">
+            <h2>{banner.title}</h2>
+            <span class={`banner-type-badge banner-type-badge--${banner.bannerType}`}>
+              Event Banner
+            </span>
+            <span
+              class={`status-badge status-badge--${banner.live}`}
+              data-start={banner.startDate}
+              data-end={banner.endDate}
+            >
+              {getStatusLabel(banner.live)}
+            </span>
+          </header>
+
+          <section class="banner-content">
+            <div class="banner-info">
+              <div class="summon-banner-card">
+                <BBBannerImage bannerId={banner.image} alt={banner.title} width={400} height={225} />
+                <div class="featured-details">
+                  <h3>Featured Paladins</h3>
+                  <div class="summon-featured-paladins">
+                    {banner.featuredPaladins.map(paladin => (
+                      <div class="summon-paladin">
+                        <span class="summon-paladin-name">{paladin.name}</span>
+                        <div class="summon-paladin-badges">
+                          <RarityImage rarity={paladin.rarity} width={36} height={18} />
+                          <span
+                            class="bb-badge"
+                            data-role={paladin.type === 'Attack' ? 'Attacker' : paladin.type}
+                          >
+                            {paladin.type}
+                          </span>
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+
+                  <div class="banner-details">
+                    <p>
+                      <strong>Period:</strong> {formatDate(banner.startDate)} -{' '}
+                      {formatDate(banner.endDate)} (UTC)
+                    </p>
+                    <p>
+                      <strong>Details:</strong> {banner.description}
+                    </p>
+                    {banner.note && (
+                      <p>
+                        <strong>Note:</strong> {banner.note}
+                      </p>
+                    )}
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </article>
+      ))
+    }
+  </main>
+</BannerTimelineLayout>
+
+<script>
+  // Refresh statuses from dates so the page stays correct between rebuilds
+  document.addEventListener('DOMContentLoaded', () => {
+    const statusLabels: Record<string, string> = {
+      current: 'Active',
+      upcoming: 'Upcoming',
+      ended: 'Ended',
+    };
+    document.querySelectorAll<HTMLElement>('.status-badge[data-start]').forEach(el => {
+      const start = Date.parse(el.dataset.start || '');
+      const end = Date.parse(el.dataset.end || '');
+      if (Number.isNaN(start) || Number.isNaN(end)) return;
+      const now = Date.now();
+      const status = now < start ? 'upcoming' : now > end ? 'ended' : 'current';
+      el.classList.remove('status-badge--current', 'status-badge--upcoming', 'status-badge--ended');
+      el.classList.add(`status-badge--${status}`);
+      el.textContent = statusLabels[status];
+    });
+  });
+</script>
