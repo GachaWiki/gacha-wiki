@@ -226,10 +226,20 @@ const fmt = (n: number) => n.toLocaleString('en-US');
     margin-top: 0.3rem;
   }
   .gw-el {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    line-height: 1;
     border-radius: 5px;
     padding: 0.25rem 0.6rem;
     font-size: 0.85rem;
     font-weight: 600;
+  }
+  .gw-el img {
+    display: block;
+    width: 20px;
+    height: 20px;
+    flex: none;
   }
   .gw-event-banner {
     width: 100%;
@@ -243,7 +253,22 @@ const fmt = (n: number) => n.toLocaleString('en-US');
   .gw-icon-chip {
     display: inline-flex;
     align-items: center;
-    gap: 0.4rem;
+    gap: 0.45rem;
+    line-height: 1;
+  }
+  .gw-icon-chip img {
+    display: block;
+  }
+  .gw-icon-chip img:first-child {
+    width: 26px;
+    height: 26px;
+    flex: none;
+  }
+  .gw-icon-chip img:last-child {
+    width: 46px;
+    height: 18px;
+    flex: none;
+    object-fit: contain;
   }
   .gw-buff-icon {
     width: 64px;
