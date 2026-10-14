@@ -19,9 +19,14 @@ const set = WS_CARD_SETS.find((s) => s.id === Astro.params.set)!;
 // anchor only if the catalog has no Amazon link for this set.
 const shopItem = SHOP_ITEMS.find((i) => i.id === set.shopItem);
 const amazonLink = shopItem?.links.find((l) => l.store.toLowerCase().includes('amazon'));
-// Sets outside the shop catalog get no buy links at all
-const buyUrl = amazonLink ? shopLink(amazonLink) : shopItem ? `/shop/#${set.shopItem}` : null;
-const buyExternal = Boolean(amazonLink);
+// Every set gets an Amazon link: direct product link for shop catalog sets,
+// otherwise a tagged Amazon search for the set name (shopLink appends the
+// referral tag to both shapes).
+const buyUrl = shopLink(
+  amazonLink ?? { url: `https://www.amazon.com/s?k=${encodeURIComponent(`weiss schwarz ${set.name}`)}` }
+);
+const buyLabel = amazonLink ? 'Buy this set on Amazon' : 'Search on Amazon';
+const buyRel = 'noopener noreferrer nofollow sponsored';
 
 const title = `${SITE_TITLE} ${set.name} Card List`;
 const description = `Every card in the Weiss Schwarz ${set.name} set: images, rarities, colors, levels, costs, power and full ability text, imported from the official cardlist.`;
@@ -51,18 +56,11 @@ const fmtDate = (iso: string) =>
       <h1 class="page-title">{`${set.name} Cards`}</h1>
     </header>
 
-    {buyUrl ? (
-      <p class="wsc-intro">
-        {`${set.cards.length} cards in the Weiss Schwarz ${set.name} set${set.release ? `, released ${fmtDate(set.release)}` : ''}. `}
-        <a href={buyUrl} target={buyExternal ? '_blank' : undefined} rel={buyExternal ? 'noopener noreferrer' : undefined}>Buy this set on Amazon</a> or
-        <a href="/cards/"> browse other sets</a>. Click any card for details.
-      </p>
-    ) : (
-      <p class="wsc-intro">
-        {`${set.cards.length} cards in the Weiss Schwarz ${set.name} set${set.release ? `, released ${fmtDate(set.release)}` : ''}. `}
-        <a href="/cards/">Browse other sets</a>. Click any card for details.
-      </p>
-    )}
+    <p class="wsc-intro">
+      {`${set.cards.length} cards in the Weiss Schwarz ${set.name} set${set.release ? `, released ${fmtDate(set.release)}` : ''}. `}
+      <a href={buyUrl} target="_blank" rel={buyRel}>{buyLabel}</a> or
+      <a href="/cards/"> browse other sets</a>. Click any card for details.
+    </p>
 
     <div class="wsc-toolbar">
       <select id="wsc-type" class="wsc-select" aria-label="Filter by card type">
@@ -125,8 +123,7 @@ const fmtDate = (iso: string) =>
 
     <p class="wsc-fineprint">
       Card data and images: official Weiss Schwarz English cardlist (en.ws-tcg.com), Bushiroad.
-      Imported for reference{buyUrl && '; buy the set on '}
-      {buyUrl && <a href={buyUrl} target={buyExternal ? '_blank' : undefined} rel={buyExternal ? 'noopener noreferrer' : undefined}>Amazon</a>}{buyUrl && '.'}
+      Imported for reference; get the set on <a href={buyUrl} target="_blank" rel={buyRel}>Amazon</a>.
     </p>
   </div>
 </AboutLayout>
@@ -150,7 +147,7 @@ const fmtDate = (iso: string) =>
           Official cardlist entry
         </a>
         {buyUrl && (
-          <a id="wsc-modal-shop" href={buyUrl} target={buyExternal ? '_blank' : undefined} rel={buyExternal ? 'noopener noreferrer' : undefined}>Buy this set on Amazon</a>
+          <a id="wsc-modal-shop" href={buyUrl} target="_blank" rel={buyRel}>{buyLabel}</a>
         )}
       </div>
     </div>

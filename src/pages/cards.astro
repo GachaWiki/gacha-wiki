@@ -34,8 +34,8 @@ const totalCards = WS_CARD_SETS.reduce((n, s) => n + s.cards.length, 0);
     <p class="wsc-intro">
       Every English Weiss Schwarz set: {totalCards} cards across {WS_CARD_SETS.length} sets, each
       with images, rarities, stats and full ability text, imported from the official cardlist.
-      Sets sold in our <a href="/shop/">TCG Shop</a> are shown with their box art. Pick a set to
-      browse its cards.
+      Sets sold in our <a href="/shop/">TCG Shop</a> show their box art, the rest show a card
+      from the set. Pick a set to browse its cards.
     </p>
 
     <div class="wsc-toolbar wsc-sets-toolbar">
@@ -60,7 +60,7 @@ const totalCards = WS_CARD_SETS.reduce((n, s) => n + s.cards.length, 0);
               aria-label={`${set.name} card database`}
               data-search={set.name.toLowerCase()}
             >
-              {shop && (
+              {shop ? (
                 <span class="wsc-setcard-media">
                   <img
                     src={shop.image}
@@ -71,7 +71,18 @@ const totalCards = WS_CARD_SETS.reduce((n, s) => n + s.cards.length, 0);
                     draggable="false"
                   />
                 </span>
-              )}
+              ) : set.cards[0]?.img ? (
+                <span class="wsc-setcard-media">
+                  <img
+                    src={set.cards[0].img}
+                    alt={`${set.name} sample card`}
+                    width="173"
+                    height="242"
+                    loading="lazy"
+                    draggable="false"
+                  />
+                </span>
+              ) : null}
               <span class="wsc-setcard-name">{set.name}</span>
               <span class="wsc-setcard-meta">
                 <span class="wsc-chip">{`${set.cards.length} cards`}</span>
@@ -115,3 +126,4 @@ const totalCards = WS_CARD_SETS.reduce((n, s) => n + s.cards.length, 0);
   search.addEventListener('input', apply);
   apply();
 </script>
+
