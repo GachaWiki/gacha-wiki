@@ -4,10 +4,14 @@
 // weaknesses, rewards, field mobs, battle maps and event buffs. No summon content.
 import BannerTimelineLayout from '../../../../layouts/busty-burst/BannerTimelineLayout.astro';
 import { R2 } from '../../../../components/busty-burst/bb-r2';
+import ElementImage from '../../../../components/busty-burst/ElementImage.astro';
+import RarityImage from '../../../../components/busty-burst/RarityImage.astro';
 import {
   GUILD_WAR_EVENTS,
   GUILD_WAR_RAIDS,
   GUILD_WAR_MAP_ART,
+  GUILD_WAR_EVENT_BANNERS,
+  GUILD_WAR_BUFF_ICONS,
 } from '../../../../data/busty-burst/guild-battle.js';
 
 export async function getStaticPaths() {
@@ -52,9 +56,11 @@ const fmt = (n: number) => n.toLocaleString('en-US');
         <section class="gw-panel">
           <h2 class="gw-heading">
             {raid.name}
-            <span class="gw-el gw-el-weak">{raid.element}</span>
-            <span class="gw-el gw-el-resist">{raid.rarity}</span>
+            <span class="gw-icon-chip"><ElementImage element={raid.element} width={26} height={26} /><RarityImage rarity={raid.rarity} width={46} height={23} /></span>
           </h2>
+          {GUILD_WAR_EVENT_BANNERS[raid.element || ''] && (
+            <img class="gw-event-banner" src={`${R2}/${GUILD_WAR_EVENT_BANNERS[raid.element || '']}`} alt={`${ev.name} banner`} width="436" height="120" loading="lazy" />
+          )}
 
           <div class="gw-map-row">
             {maps.map(m => (
@@ -67,7 +73,7 @@ const fmt = (n: number) => n.toLocaleString('en-US');
 
           <h3 class="gw-subheading">Weaknesses and Resistances</h3>
           <p class="gw-elements">
-            <span class="gw-el gw-el-weak">Weak: {first.elementProfile.weak.join(', ')}</span>
+            <span class="gw-el gw-el-weak"><ElementImage element={first.elementProfile.weak[0]} width={20} height={20} /> Weak: {first.elementProfile.weak.join(', ')}</span>
             <span class="gw-el gw-el-resist">Resists: {first.elementProfile.resist.join(', ')}</span>
           </p>
           <p class="gw-note">
@@ -147,14 +153,17 @@ const fmt = (n: number) => n.toLocaleString('en-US');
       <h2 class="gw-heading">Event Buffs</h2>
       <div class="gw-buffs">
         <div class="gw-buff">
+          <img class="gw-buff-icon" src={`${R2}/${GUILD_WAR_BUFF_ICONS.damage}`} alt="ATK UP" width="78" height="91" loading="lazy" />
           <span class="gw-buff-name">{ev.buffedUnits.damage}</span>
           <span class="gw-buff-label">bonus damage during the event</span>
         </div>
         <div class="gw-buff">
+          <img class="gw-buff-icon" src={`${R2}/${GUILD_WAR_BUFF_ICONS.damageTaken}`} alt="DEF UP" width="78" height="91" loading="lazy" />
           <span class="gw-buff-name">{ev.buffedUnits.damageTaken}</span>
           <span class="gw-buff-label">reduced damage taken</span>
         </div>
         <div class="gw-buff">
+          <img class="gw-buff-icon" src={`${R2}/${GUILD_WAR_BUFF_ICONS.guildCoins}`} alt="COIN UP" width="78" height="91" loading="lazy" />
           <span class="gw-buff-name">{ev.buffedUnits.guildCoins}</span>
           <span class="gw-buff-label">bonus guild coins</span>
         </div>
@@ -221,6 +230,25 @@ const fmt = (n: number) => n.toLocaleString('en-US');
     padding: 0.25rem 0.6rem;
     font-size: 0.85rem;
     font-weight: 600;
+  }
+  .gw-event-banner {
+    width: 100%;
+    max-width: 436px;
+    height: auto;
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.09);
+    margin-bottom: 0.75rem;
+    display: block;
+  }
+  .gw-icon-chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+  }
+  .gw-buff-icon {
+    width: 64px;
+    height: auto;
+    margin-bottom: 0.3rem;
   }
   .gw-el-weak {
     background: rgba(239, 68, 68, 0.18);

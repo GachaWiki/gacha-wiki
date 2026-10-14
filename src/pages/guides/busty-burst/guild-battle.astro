@@ -1,11 +1,12 @@
 ---
-// Busty Burst Guild Battle index: intro + event list with the game's own battle
-// map art on each event card. All boss data lives on the event pages.
+// Busty Burst Guild Battle index: one container with the intro and the event
+// list. Event cards use the game's own art: official event banner + battle map.
 import BannerTimelineLayout from '../../../layouts/busty-burst/BannerTimelineLayout.astro';
 import { R2 } from '../../../components/busty-burst/bb-r2';
 import {
   GUILD_WAR_EVENTS,
   GUILD_WAR_MAP_ART,
+  GUILD_WAR_EVENT_BANNERS,
 } from '../../../data/busty-burst/guild-battle.js';
 
 const pageTitle = 'Busty Burst Guild Battle - Guild Raid Boss Events';
@@ -43,12 +44,12 @@ const formatDate = (dateString: string) => {
 };
 
 const events = [...GUILD_WAR_EVENTS].sort((a, b) => b.startTime.localeCompare(a.startTime)).map(ev => {
-  // the event's own art: the season background the game ships (battle100101bg/100103)
   const bgMap = ev.background?.split('/')[1];
   return {
     ...ev,
     live: computeStatus(ev.startTime, ev.endTime),
     cardImage: (bgMap && GUILD_WAR_MAP_ART[bgMap]) || Object.values(GUILD_WAR_MAP_ART)[0],
+    banner: GUILD_WAR_EVENT_BANNERS[ev.element || ''],
   };
 });
 ---
@@ -59,15 +60,14 @@ const events = [...GUILD_WAR_EVENTS].sort((a, b) => b.startTime.localeCompare(a.
     content="Busty Burst, Busty Burst Fantasy, guild battle, guild raid boss, alliance war, boss stats, boss skills, Ero Lab games"
   />
   <main class="banner-timeline-content" role="main">
-    <p class="intro-text">
-      Guild Battle is the alliance raid boss mode. The whole guild fights the same boss over 40
-      cycles, everyone gets 3 runs a day, and the damage turns into Guild Points that decide the
-      global and guild rankings at the end. Each event brings its own element-themed boss: click an
-      event for its boss database.
-    </p>
-
     <section class="gw-panel">
-      <h2 class="gw-heading">Guild Battle Events</h2>
+      <p class="gw-intro">
+        Guild Battle is the alliance raid boss mode. The whole guild fights the same boss over 40
+        cycles, everyone gets 3 runs a day, and the damage turns into Guild Points that decide the
+        global and guild rankings at the end. Each event brings its own element-themed boss: click
+        an event for its boss database.
+      </p>
+
       <div class="gw-event-grid">
         {events.map(ev => (
           <a class="gw-event-card" href={`/guides/busty-burst/guild-battle/${ev.slug}/`}>
@@ -76,6 +76,9 @@ const events = [...GUILD_WAR_EVENTS].sort((a, b) => b.startTime.localeCompare(a.
               <span class={`gw-event-status status-badge status-badge--${ev.live}`}>{getStatusLabel(ev.live)}</span>
             </div>
             <div class="gw-event-body">
+              {ev.banner && (
+                <img class="gw-event-banner" src={`${R2}/${ev.banner}`} alt={ev.name} width="218" height="60" loading="lazy" />
+              )}
               <span class="gw-event-name">{ev.name}</span>
               <span class="gw-event-meta">{formatDate(ev.startTime)} - {formatDate(ev.endTime)}</span>
               <span class="gw-event-meta">{ev.raids[0]?.name} | 40 cycles</span>
@@ -83,10 +86,6 @@ const events = [...GUILD_WAR_EVENTS].sort((a, b) => b.startTime.localeCompare(a.
           </a>
         ))}
       </div>
-      <p class="gw-note">
-        New guild battles rotate by element: each event names its own boss lineup, weaknesses and
-        event buffs.
-      </p>
     </section>
   </main>
 </BannerTimelineLayout>
@@ -96,21 +95,16 @@ const events = [...GUILD_WAR_EVENTS].sort((a, b) => b.startTime.localeCompare(a.
     background: rgba(255, 255, 255, 0.04);
     border: 1px solid rgba(255, 255, 255, 0.09);
     border-radius: 10px;
-    padding: 1.25rem 1.4rem;
+    padding: 1.4rem 1.5rem;
     margin-bottom: 1.5rem;
   }
-  .gw-heading {
-    font-size: 1.35rem;
-    margin: 0 0 1rem;
-  }
-  .gw-note {
-    font-size: 0.85rem;
-    color: rgba(255, 255, 255, 0.65);
-    margin: 1rem 0 0;
+  .gw-intro {
+    margin: 0 0 1.25rem;
+    color: rgba(255, 255, 255, 0.85);
   }
   .gw-event-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
     gap: 1rem;
   }
   .gw-event-card {
@@ -141,7 +135,14 @@ const events = [...GUILD_WAR_EVENTS].sort((a, b) => b.startTime.localeCompare(a.
     padding: 0.85rem 1rem 1rem;
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
     gap: 0.3rem;
+  }
+  .gw-event-banner {
+    width: 218px;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 0.35rem;
   }
   .gw-event-name {
     font-weight: 700;

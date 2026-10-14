@@ -628,6 +628,18 @@ export function getGuildWarEvent(id) {
   return GUILD_WAR_EVENTS.find(s => s.id === id);
 }
 
+// official event banner art on R2 (icon-arrive-arrive-guild bundle, per element)
+export const GUILD_WAR_EVENT_BANNERS = {
+  Wind: 'guild-battle/event-wind-banner.webp',
+};
+
+// official season buff icons on R2 (atlas-guild bundle: ATK UP / DEF UP / COIN UP)
+export const GUILD_WAR_BUFF_ICONS = {
+  damage: 'guild-battle/buff-atk-up.webp',
+  damageTaken: 'guild-battle/buff-def-up.webp',
+  guildCoins: 'guild-battle/buff-coin-up.webp',
+};
+
 // battle map art on R2 (extracted from background-battle100101bg bundle)
 export const GUILD_WAR_MAP_ART = {
   '100101': 'guild-battle/map-100101.webp',
