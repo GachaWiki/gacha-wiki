@@ -6,6 +6,7 @@ export const AdventureTimeSet = {
   expansion: 147,
   release: null,
   shopItem: null,
+  box: "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/ws-cards/adventure-time/box.webp",
   cards: [
  {
   "num": "5HY/W83-PE01",

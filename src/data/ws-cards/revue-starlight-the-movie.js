@@ -6,6 +6,7 @@ export const RevueStarlightTheMovieSet = {
   expansion: 201,
   release: null,
   shopItem: null,
+  box: "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/ws-cards/revue-starlight-the-movie/box.webp",
   cards: [
  {
   "num": "RSL/BCS2526-04",

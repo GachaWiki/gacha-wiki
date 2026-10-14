@@ -6,6 +6,7 @@ export const DemoDeckBatmanNinjaSet = {
   expansion: 102,
   release: null,
   shopItem: null,
+  box: null,
   cards: [
  {
   "num": "BNJ/SX01-A01",

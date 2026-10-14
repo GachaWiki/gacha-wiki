@@ -6,6 +6,7 @@ export const PrCardSchwarzSideSet = {
   expansion: 4,
   release: null,
   shopItem: null,
+  box: null,
   cards: [
  {
   "num": "AOT/S35-E101",

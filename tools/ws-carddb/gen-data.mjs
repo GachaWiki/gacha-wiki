@@ -42,6 +42,7 @@ export const ${jsConst(setId)} = {
   expansion: ${meta.expansion},
   release: ${meta.release ? `'${meta.release}'` : 'null'},
   shopItem: ${meta.shopItem ? `'${meta.shopItem}'` : 'null'},
+  box: ${set.boxImage ? JSON.stringify(set.boxImage) : 'null'},
   cards: ${JSON.stringify(cards, null, 1)},
 };
 `;

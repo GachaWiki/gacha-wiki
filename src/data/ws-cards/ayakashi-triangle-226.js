@@ -6,6 +6,7 @@ export const AyakashiTriangle226Set = {
   expansion: 226,
   release: null,
   shopItem: null,
+  box: null,
   cards: [
  {
   "num": "AYT/W110-TE01",

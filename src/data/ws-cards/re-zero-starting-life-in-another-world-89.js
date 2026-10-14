@@ -6,6 +6,7 @@ export const ReZeroStartingLifeInAnotherWorld89Set = {
   expansion: 89,
   release: null,
   shopItem: null,
+  box: null,
   cards: [
  {
   "num": "RZ/S46-TE23",

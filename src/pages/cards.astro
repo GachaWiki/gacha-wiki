@@ -34,8 +34,8 @@ const totalCards = WS_CARD_SETS.reduce((n, s) => n + s.cards.length, 0);
     <p class="wsc-intro">
       Every English Weiss Schwarz set: {totalCards} cards across {WS_CARD_SETS.length} sets, each
       with images, rarities, stats and full ability text, imported from the official cardlist.
-      Sets sold in our <a href="/shop/">TCG Shop</a> show their box art, the rest show a card
-      from the set. Pick a set to browse its cards.
+      Every set shows its official product art where one exists, otherwise a card from the set.
+      Pick a set to browse its cards.
     </p>
 
     <div class="wsc-toolbar wsc-sets-toolbar">
@@ -67,6 +67,15 @@ const totalCards = WS_CARD_SETS.reduce((n, s) => n + s.cards.length, 0);
                     alt={shop.imageAlt}
                     width={shop.imageWidth}
                     height={shop.imageHeight}
+                    loading="lazy"
+                    draggable="false"
+                  />
+                </span>
+              ) : set.box ? (
+                <span class="wsc-setcard-media">
+                  <img
+                    src={set.box}
+                    alt={`${set.name} product image`}
                     loading="lazy"
                     draggable="false"
                   />

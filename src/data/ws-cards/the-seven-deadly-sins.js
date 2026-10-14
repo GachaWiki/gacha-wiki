@@ -6,6 +6,7 @@ export const TheSevenDeadlySinsSet = {
   expansion: 150,
   release: null,
   shopItem: null,
+  box: "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/ws-cards/the-seven-deadly-sins/box.webp",
   cards: [
  {
   "num": "RWBY/WX03-T01",

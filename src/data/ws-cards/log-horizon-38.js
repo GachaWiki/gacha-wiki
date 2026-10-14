@@ -6,6 +6,7 @@ export const LogHorizon38Set = {
   expansion: 38,
   release: null,
   shopItem: null,
+  box: "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/ws-cards/log-horizon-38/box.webp",
   cards: [
  {
   "num": "LH/SE20-TE01",

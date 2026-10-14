@@ -6,6 +6,7 @@ export const DengekiBunkoSet = {
   expansion: 237,
   release: null,
   shopItem: null,
+  box: "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/ws-cards/dengeki-bunko/box.webp",
   cards: [
  {
   "num": "G86/WS02-E080",

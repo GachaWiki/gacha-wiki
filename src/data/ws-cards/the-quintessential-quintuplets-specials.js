@@ -6,6 +6,7 @@ export const TheQuintessentialQuintupletsSpecialsSet = {
   expansion: 242,
   release: null,
   shopItem: null,
+  box: null,
   cards: [
  {
   "num": "5HY/WE43-E01",

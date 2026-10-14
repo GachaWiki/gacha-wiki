@@ -6,6 +6,7 @@ export const FrierenBeyondJourneySEnd239Set = {
   expansion: 239,
   release: null,
   shopItem: null,
+  box: null,
   cards: [
  {
   "num": "SFN/S108-TE01",

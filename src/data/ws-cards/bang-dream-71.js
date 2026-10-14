@@ -6,6 +6,7 @@ export const BangDream71Set = {
   expansion: 71,
   release: null,
   shopItem: null,
+  box: null,
   cards: [
  {
   "num": "BD/BSF2026-03",

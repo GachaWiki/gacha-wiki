@@ -6,6 +6,7 @@ export const MakeineTooManyLosingHeroines196Set = {
   expansion: 196,
   release: null,
   shopItem: null,
+  box: "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/ws-cards/makeine-too-many-losing-heroines-196/box.webp",
   cards: [
  {
   "num": "ATLA/BCS2023-01",

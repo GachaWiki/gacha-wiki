@@ -6,6 +6,7 @@ export const HatsuneMikuColorfulStageVividBadSquadSet = {
   expansion: 258,
   release: null,
   shopItem: null,
+  box: null,
   cards: [
  {
   "num": "PJS/S91-TE31",

@@ -6,6 +6,7 @@ export const MacrossDeltaSet = {
   expansion: 241,
   release: null,
   shopItem: null,
+  box: null,
   cards: [
  {
   "num": "MDE/SE45-E01",

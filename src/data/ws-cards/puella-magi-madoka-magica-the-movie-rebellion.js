@@ -6,6 +6,7 @@ export const PuellaMagiMadokaMagicaTheMovieRebellionSet = {
   expansion: 37,
   release: null,
   shopItem: null,
+  box: null,
   cards: [
  {
   "num": "MM/W35-E001",

@@ -6,6 +6,7 @@ export const HatsuneMikuProjectDiva10Set = {
   expansion: 10,
   release: null,
   shopItem: null,
+  box: "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/ws-cards/hatsune-miku-project-diva-10/box.webp",
   cards: [
  {
   "num": "PD/S22-E101",

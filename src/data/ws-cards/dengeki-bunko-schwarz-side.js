@@ -6,6 +6,7 @@ export const DengekiBunkoSchwarzSideSet = {
   expansion: 236,
   release: null,
   shopItem: null,
+  box: null,
   cards: [
  {
   "num": "G86/WS02-TE28",

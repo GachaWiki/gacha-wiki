@@ -6,6 +6,7 @@ export const HatsuneMikuColorfulStageSet = {
   expansion: 261,
   release: '2025-06-27',
   shopItem: 'hatsune-miku-colorful-stage',
+  box: null,
   cards: [
  {
   "num": "PJS/BCS2526-02",

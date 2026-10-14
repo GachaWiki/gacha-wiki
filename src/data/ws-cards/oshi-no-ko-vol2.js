@@ -6,6 +6,7 @@ export const OshiNoKoVol2Set = {
   expansion: 278,
   release: '2026-03-27',
   shopItem: 'oshi-no-ko-vol2',
+  box: null,
   cards: [
  {
   "num": "OSK/S107-PE02S",

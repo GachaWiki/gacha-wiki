@@ -6,6 +6,7 @@ export const HatsuneMikuColorfulStageNightcordAt2500Set = {
   expansion: 260,
   release: null,
   shopItem: null,
+  box: null,
   cards: [
  {
   "num": "PJS/S91-TE61",

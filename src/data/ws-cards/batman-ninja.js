@@ -6,6 +6,7 @@ export const BatmanNinjaSet = {
   expansion: 126,
   release: null,
   shopItem: null,
+  box: null,
   cards: [
  {
   "num": "AT/WX02-001",

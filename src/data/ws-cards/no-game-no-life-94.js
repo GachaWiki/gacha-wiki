@@ -6,6 +6,7 @@ export const NoGameNoLife94Set = {
   expansion: 94,
   release: null,
   shopItem: null,
+  box: null,
   cards: [
  {
   "num": "NGL/S58-E001",

@@ -6,6 +6,7 @@ export const SaoAlternativeGunGaleOnline95Set = {
   expansion: 95,
   release: null,
   shopItem: null,
+  box: null,
   cards: [
  {
   "num": "GGO/S59-TE01",

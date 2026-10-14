@@ -6,6 +6,7 @@ export const MissKobayashiSDragonMaidSet = {
   expansion: 181,
   release: null,
   shopItem: null,
+  box: "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/ws-cards/miss-kobayashi-s-dragon-maid/box.webp",
   cards: [
  {
   "num": "KMD/BCS2022-05",

@@ -6,6 +6,7 @@ export const ReZeroVol3Set = {
   expansion: 289,
   release: '2026-08-28',
   shopItem: 're-zero-vol3',
+  box: null,
   cards: [
  {
   "num": "RZ/S116-E001",

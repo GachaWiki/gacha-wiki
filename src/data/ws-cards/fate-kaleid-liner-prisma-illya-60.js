@@ -6,6 +6,7 @@ export const FateKaleidLinerPrismaIllya60Set = {
   expansion: 60,
   release: null,
   shopItem: null,
+  box: null,
   cards: [
  {
   "num": "PI/EN-S04-E001",

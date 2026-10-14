@@ -6,6 +6,7 @@ export const BakemonogatariSet = {
   expansion: 13,
   release: null,
   shopItem: null,
+  box: null,
   cards: [
  {
   "num": "BM/S15-E001",

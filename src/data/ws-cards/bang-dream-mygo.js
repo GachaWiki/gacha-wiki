@@ -6,6 +6,7 @@ export const BangDreamMygoSet = {
   expansion: 218,
   release: null,
   shopItem: null,
+  box: null,
   cards: [
  {
   "num": "BD/WE42-PE13",

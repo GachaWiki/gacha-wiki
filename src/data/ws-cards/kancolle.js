@@ -6,6 +6,7 @@ export const KancolleSet = {
   expansion: 114,
   release: null,
   shopItem: null,
+  box: "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/ws-cards/kancolle/box.webp",
   cards: [
  {
   "num": "Fab/W65-TE07",

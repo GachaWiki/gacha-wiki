@@ -6,6 +6,7 @@ export const BangDreamGirlsBandPartyCountdownCollectionSet = {
   expansion: 219,
   release: null,
   shopItem: null,
+  box: null,
   cards: [
  {
   "num": "BD/WE42-E001",

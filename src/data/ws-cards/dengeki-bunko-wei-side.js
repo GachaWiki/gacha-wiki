@@ -6,6 +6,7 @@ export const DengekiBunkoWeiSideSet = {
   expansion: 235,
   release: null,
   shopItem: null,
+  box: null,
   cards: [
  {
   "num": "Gby/WS02-TE18",

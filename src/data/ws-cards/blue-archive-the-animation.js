@@ -6,6 +6,7 @@ export const BlueArchiveTheAnimationSet = {
   expansion: 288,
   release: '2026-07-31',
   shopItem: 'blue-archive-the-animation',
+  box: null,
   cards: [
  {
   "num": "BAV/W129-E001",

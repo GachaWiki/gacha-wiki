@@ -6,6 +6,7 @@ export const SwordArtOnlineIi28Set = {
   expansion: 28,
   release: null,
   shopItem: null,
+  box: "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/ws-cards/sword-art-online-ii-28/box.webp",
   cards: [
  {
   "num": "SAO/SE23-TE01",

@@ -6,6 +6,7 @@ export const AzurLane165Set = {
   expansion: 165,
   release: null,
   shopItem: null,
+  box: "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/ws-cards/azur-lane-165/box.webp",
   cards: [
  {
   "num": "HOL/W91-TE093",

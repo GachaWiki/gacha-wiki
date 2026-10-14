@@ -6,6 +6,7 @@ export const NikkeVol2Set = {
   expansion: 290,
   release: '2026-09-25',
   shopItem: 'nikke-vol2',
+  box: null,
   cards: [
  {
   "num": "NIK/S135-E001",

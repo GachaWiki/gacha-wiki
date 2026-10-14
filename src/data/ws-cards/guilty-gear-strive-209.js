@@ -6,6 +6,7 @@ export const GuiltyGearStrive209Set = {
   expansion: 209,
   release: null,
   shopItem: null,
+  box: null,
   cards: [
  {
   "num": "GGST/SX06-T01",

@@ -6,6 +6,7 @@ export const KonosubaGodSBlessingOnThisWonderfulWorldSet = {
   expansion: 143,
   release: null,
   shopItem: null,
+  box: "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/ws-cards/konosuba-god-s-blessing-on-this-wonderful-world/box.webp",
   cards: [
  {
   "num": "SDS/SX03-001",

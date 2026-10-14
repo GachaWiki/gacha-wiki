@@ -6,6 +6,7 @@ export const HololiveProductionFeatWeiSchwarzAmbassadorsSet = {
   expansion: 225,
   release: null,
   shopItem: null,
+  box: null,
   cards: [
  {
   "num": "HOL/WE45-PE01",

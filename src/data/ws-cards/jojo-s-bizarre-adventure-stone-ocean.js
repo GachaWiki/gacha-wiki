@@ -6,6 +6,7 @@ export const JojoSBizarreAdventureStoneOceanSet = {
   expansion: 232,
   release: null,
   shopItem: null,
+  box: null,
   cards: [
  {
   "num": "JJ/SE42-E01",

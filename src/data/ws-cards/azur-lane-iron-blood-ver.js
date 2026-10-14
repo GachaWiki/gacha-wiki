@@ -6,6 +6,7 @@ export const AzurLaneIronBloodVerSet = {
   expansion: 205,
   release: null,
   shopItem: null,
+  box: null,
   cards: [
  {
   "num": "AZL/S102-TE61",

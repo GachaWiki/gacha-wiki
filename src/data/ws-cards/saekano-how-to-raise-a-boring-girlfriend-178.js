@@ -6,6 +6,7 @@ export const SaekanoHowToRaiseABoringGirlfriend178Set = {
   expansion: 178,
   release: null,
   shopItem: null,
+  box: "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/ws-cards/saekano-how-to-raise-a-boring-girlfriend-178/box.webp",
   cards: [
  {
   "num": "SHS/W56-TE01",

@@ -6,6 +6,7 @@ export const MonogatariSeriesBakemonogatariNisemonogatariSet = {
   expansion: 110,
   release: null,
   shopItem: null,
+  box: null,
   cards: [
  {
   "num": "SAO/S65-TE01",

@@ -6,6 +6,7 @@ export const FateSet = {
   expansion: 108,
   release: null,
   shopItem: null,
+  box: null,
   cards: [
  {
   "num": "GBS/S63-TE01",

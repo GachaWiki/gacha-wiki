@@ -6,6 +6,7 @@ export const ReZeroStartingLifeInAnotherWorldSet = {
   expansion: 122,
   release: null,
   shopItem: null,
+  box: null,
   cards: [
  {
   "num": "OVL/S62-E001",

@@ -6,6 +6,7 @@ export const FrierenBeyondJourneySEnd183Set = {
   expansion: 183,
   release: null,
   shopItem: null,
+  box: "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/ws-cards/frieren-beyond-journey-s-end-183/box.webp",
   cards: [
  {
   "num": "KGL/BSF2023-03",

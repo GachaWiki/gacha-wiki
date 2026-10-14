@@ -6,6 +6,7 @@ export const BangDream10thAnniversarySet = {
   expansion: 287,
   release: null,
   shopItem: null,
+  box: null,
   cards: [
  {
   "num": "BD/WE49-E01",

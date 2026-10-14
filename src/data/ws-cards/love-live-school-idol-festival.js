@@ -6,6 +6,7 @@ export const LoveLiveSchoolIdolFestivalSet = {
   expansion: 41,
   release: null,
   shopItem: null,
+  box: null,
   cards: [
  {
   "num": "LL/W36-TE01",

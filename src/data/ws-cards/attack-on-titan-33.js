@@ -6,6 +6,7 @@ export const AttackOnTitan33Set = {
   expansion: 33,
   release: null,
   shopItem: null,
+  box: null,
   cards: [
  {
   "num": "AOT/S35-E058R",

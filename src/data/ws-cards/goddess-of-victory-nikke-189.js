@@ -6,6 +6,7 @@ export const GoddessOfVictoryNikke189Set = {
   expansion: 189,
   release: null,
   shopItem: null,
+  box: "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/ws-cards/goddess-of-victory-nikke-189/box.webp",
   cards: [
  {
   "num": "BD/W95-E001",

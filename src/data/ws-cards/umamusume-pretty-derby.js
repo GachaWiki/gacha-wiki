@@ -6,6 +6,7 @@ export const UmamusumePrettyDerbySet = {
   expansion: 286,
   release: '2026-06-26',
   shopItem: 'umamusume-pretty-derby',
+  box: null,
   cards: [
  {
   "num": "UMA/W106-E001",

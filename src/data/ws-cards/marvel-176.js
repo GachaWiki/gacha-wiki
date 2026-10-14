@@ -6,6 +6,7 @@ export const Marvel176Set = {
   expansion: 176,
   release: null,
   shopItem: null,
+  box: null,
   cards: [
  {
   "num": "HOL/WE36-E01",

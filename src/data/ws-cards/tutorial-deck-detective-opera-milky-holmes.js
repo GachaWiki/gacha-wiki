@@ -6,6 +6,7 @@ export const TutorialDeckDetectiveOperaMilkyHolmesSet = {
   expansion: 43,
   release: null,
   shopItem: null,
+  box: null,
   cards: [
  {
   "num": "MK/S11-E101",

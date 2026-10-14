@@ -6,6 +6,7 @@ export const TheEminenceInShadow279Set = {
   expansion: 279,
   release: null,
   shopItem: null,
+  box: "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/ws-cards/the-eminence-in-shadow-279/box.webp",
   cards: [
  {
   "num": "EIS/SX07-T01",

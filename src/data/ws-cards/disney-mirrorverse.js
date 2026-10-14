@@ -6,6 +6,7 @@ export const DisneyMirrorverseSet = {
   expansion: 266,
   release: null,
   shopItem: null,
+  box: "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/ws-cards/disney-mirrorverse/box.webp",
   cards: [
  {
   "num": "MRd/S111-E001",

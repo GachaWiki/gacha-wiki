@@ -6,6 +6,7 @@ export const LoveLiveSunshine64Set = {
   expansion: 64,
   release: null,
   shopItem: null,
+  box: null,
   cards: [
  {
   "num": "LSS/W45-TE01",

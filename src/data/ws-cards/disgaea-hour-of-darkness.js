@@ -6,6 +6,7 @@ export const DisgaeaHourOfDarknessSet = {
   expansion: 6,
   release: null,
   shopItem: null,
+  box: null,
   cards: [
  {
   "num": "DG/S02-E103",

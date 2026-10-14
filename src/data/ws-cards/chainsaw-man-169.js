@@ -6,6 +6,7 @@ export const ChainsawMan169Set = {
   expansion: 169,
   release: null,
   shopItem: null,
+  box: "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/ws-cards/chainsaw-man-169/box.webp",
   cards: [
  {
   "num": "DDM/S88-TE01",

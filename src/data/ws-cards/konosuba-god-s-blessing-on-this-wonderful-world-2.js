@@ -6,6 +6,7 @@ export const KonosubaGodSBlessingOnThisWonderfulWorld2Set = {
   expansion: 88,
   release: null,
   shopItem: null,
+  box: null,
   cards: [
  {
   "num": "KS/W55-E001",

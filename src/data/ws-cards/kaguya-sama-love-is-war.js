@@ -6,6 +6,7 @@ export const KaguyaSamaLoveIsWarSet = {
   expansion: 149,
   release: null,
   shopItem: null,
+  box: "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/ws-cards/kaguya-sama-love-is-war/box.webp",
   cards: [
  {
   "num": "DAL/WE33-E001",

@@ -6,6 +6,7 @@ export const SpyXFamily211Set = {
   expansion: 211,
   release: null,
   shopItem: null,
+  box: null,
   cards: [
  {
   "num": "SPY/S106-TE01",

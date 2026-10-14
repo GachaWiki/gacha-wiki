@@ -6,6 +6,7 @@ export const ShakuganNoShanaSet = {
   expansion: 223,
   release: null,
   shopItem: null,
+  box: null,
   cards: [
  {
   "num": "SS/BCS2425-04",

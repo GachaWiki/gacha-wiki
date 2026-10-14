@@ -6,6 +6,7 @@ export const RurouniKenshinSet = {
   expansion: 254,
   release: null,
   shopItem: null,
+  box: "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/ws-cards/rurouni-kenshin/box.webp",
   cards: [
  {
   "num": "RKN/BCS2526-03",

@@ -6,6 +6,7 @@ export const RascalDoesNotDreamSeries145Set = {
   expansion: 145,
   release: null,
   shopItem: null,
+  box: "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/ws-cards/rascal-does-not-dream-series-145/box.webp",
   cards: [
  {
   "num": "TSK/S82-E001",

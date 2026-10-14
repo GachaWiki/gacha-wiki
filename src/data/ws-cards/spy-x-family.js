@@ -6,6 +6,7 @@ export const SpyXFamilySet = {
   expansion: 212,
   release: null,
   shopItem: null,
+  box: "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/ws-cards/spy-x-family/box.webp",
   cards: [
  {
   "num": "SPY/S106-E001",

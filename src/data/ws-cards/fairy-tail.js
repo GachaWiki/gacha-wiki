@@ -6,6 +6,7 @@ export const FairyTailSet = {
   expansion: 262,
   release: null,
   shopItem: null,
+  box: null,
   cards: [
  {
   "num": "FT/EN-S02-001+RE",

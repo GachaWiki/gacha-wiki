@@ -6,6 +6,7 @@ export const LoveLiveVol2Set = {
   expansion: 42,
   release: null,
   shopItem: null,
+  box: "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/ws-cards/love-live-vol-2/box.webp",
   cards: [
  {
   "num": "LL/W34-E001",

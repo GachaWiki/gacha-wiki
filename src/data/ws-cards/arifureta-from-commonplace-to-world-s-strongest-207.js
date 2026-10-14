@@ -6,6 +6,7 @@ export const ArifuretaFromCommonplaceToWorldSStrongest207Set = {
   expansion: 207,
   release: null,
   shopItem: null,
+  box: null,
   cards: [
  {
   "num": "ARI/S103-TE01",

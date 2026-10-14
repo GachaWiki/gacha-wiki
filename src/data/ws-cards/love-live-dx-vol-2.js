@@ -6,6 +6,7 @@ export const LoveLiveDxVol2Set = {
   expansion: 59,
   release: null,
   shopItem: null,
+  box: null,
   cards: [
  {
   "num": "LL/EN-W02-E001",

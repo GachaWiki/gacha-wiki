@@ -6,6 +6,7 @@ export const PrCardWeiSideSet = {
   expansion: 3,
   release: null,
   shopItem: null,
+  box: null,
   cards: [
  {
   "num": "5HY/W83-PE07",

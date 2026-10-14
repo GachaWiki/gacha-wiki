@@ -6,6 +6,7 @@ export const CardcaptorSakuraClearCard92Set = {
   expansion: 92,
   release: null,
   shopItem: null,
+  box: null,
   cards: [
  {
   "num": "CCS/BCS2018-WS02EN",

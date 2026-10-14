@@ -6,6 +6,7 @@ export const LycorisRecoil215Set = {
   expansion: 215,
   release: null,
   shopItem: null,
+  box: "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/ws-cards/lycoris-recoil-215/box.webp",
   cards: [
  {
   "num": "LRC/W105-TE01",

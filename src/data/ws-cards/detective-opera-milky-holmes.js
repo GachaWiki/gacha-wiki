@@ -6,6 +6,7 @@ export const DetectiveOperaMilkyHolmesSet = {
   expansion: 117,
   release: null,
   shopItem: null,
+  box: null,
   cards: [
  {
   "num": "BD/W73-E001",

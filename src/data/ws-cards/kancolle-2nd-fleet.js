@@ -6,6 +6,7 @@ export const Kancolle2ndFleetSet = {
   expansion: 40,
   release: null,
   shopItem: null,
+  box: null,
   cards: [
  {
   "num": "KC/S31-E001",

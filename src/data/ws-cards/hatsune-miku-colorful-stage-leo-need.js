@@ -6,6 +6,7 @@ export const HatsuneMikuColorfulStageLeoNeedSet = {
   expansion: 256,
   release: null,
   shopItem: null,
+  box: null,
   cards: [
  {
   "num": "PJS/S91-TE01",

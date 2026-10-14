@@ -6,6 +6,7 @@ export const PixarCharacters185Set = {
   expansion: 185,
   release: null,
   shopItem: null,
+  box: "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/ws-cards/pixar-characters-185/box.webp",
   cards: [
  {
   "num": "SY/W08-E071PR",

@@ -6,6 +6,7 @@ export const BangDreamMygoAveMujicaSet = {
   expansion: 264,
   release: '2025-07-18',
   shopItem: 'bang-dream-mygo-ave-mujica',
+  box: null,
   cards: [
  {
   "num": "BD/W125-E001",

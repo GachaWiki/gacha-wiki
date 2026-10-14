@@ -6,6 +6,7 @@ export const LoveLiveNijigasakiSet = {
   expansion: 173,
   release: null,
   shopItem: null,
+  box: null,
   cards: [
  {
   "num": "5HY/W90-E001",

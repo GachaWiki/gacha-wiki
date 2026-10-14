@@ -6,6 +6,7 @@ export const RascalDoesNotDreamOfBunnyGirlSenpaiSet = {
   expansion: 106,
   release: null,
   shopItem: null,
+  box: null,
   cards: [
  {
   "num": "SBY/W64-E001",

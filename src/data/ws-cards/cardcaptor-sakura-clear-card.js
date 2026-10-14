@@ -6,6 +6,7 @@ export const CardcaptorSakuraClearCardSet = {
   expansion: 144,
   release: null,
   shopItem: null,
+  box: null,
   cards: [
  {
   "num": "FS/S77-E001",

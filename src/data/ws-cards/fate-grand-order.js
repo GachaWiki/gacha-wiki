@@ -6,6 +6,7 @@ export const FateGrandOrderSet = {
   expansion: 132,
   release: null,
   shopItem: null,
+  box: null,
   cards: [
  {
   "num": "MR/W59-E001",

@@ -6,6 +6,7 @@ export const GurrenLagann82Set = {
   expansion: 82,
   release: null,
   shopItem: null,
+  box: "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/ws-cards/gurren-lagann-82/box.webp",
   cards: [
  {
   "num": "GL/S52-E001",

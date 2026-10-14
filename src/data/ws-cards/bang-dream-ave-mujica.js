@@ -6,6 +6,7 @@ export const BangDreamAveMujicaSet = {
   expansion: 263,
   release: null,
   shopItem: null,
+  box: null,
   cards: [
  {
   "num": "BD/W125-TE01",

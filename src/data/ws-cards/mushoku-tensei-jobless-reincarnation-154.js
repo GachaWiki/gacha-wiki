@@ -6,6 +6,7 @@ export const MushokuTenseiJoblessReincarnation154Set = {
   expansion: 154,
   release: null,
   shopItem: null,
+  box: "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/ws-cards/mushoku-tensei-jobless-reincarnation-154/box.webp",
   cards: [
  {
   "num": "BD/WE35-E01",

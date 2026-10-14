@@ -6,6 +6,7 @@ export const SaekanoTheMovieFinaleSet = {
   expansion: 217,
   release: null,
   shopItem: null,
+  box: "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/ws-cards/saekano-the-movie-finale/box.webp",
   cards: [
  {
   "num": "SHS/W98-E001",

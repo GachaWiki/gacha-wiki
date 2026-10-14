@@ -6,6 +6,7 @@ export const JojoSBizarreAdventureSet = {
   expansion: 128,
   release: null,
   shopItem: null,
+  box: null,
   cards: [
  {
   "num": "MOB/SX02-001",

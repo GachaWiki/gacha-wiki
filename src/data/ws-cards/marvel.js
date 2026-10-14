@@ -6,6 +6,7 @@ export const MarvelSet = {
   expansion: 268,
   release: null,
   shopItem: null,
+  box: null,
   cards: [
  {
   "num": "MAR/SE40-E001",

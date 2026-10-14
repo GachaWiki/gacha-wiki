@@ -6,6 +6,7 @@ export const Persona4VerESet = {
   expansion: 22,
   release: null,
   shopItem: null,
+  box: null,
   cards: [
  {
   "num": "P4/EN-S01-001",

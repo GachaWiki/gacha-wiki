@@ -6,6 +6,7 @@ export const LoveLiveSunshine80Set = {
   expansion: 80,
   release: null,
   shopItem: null,
+  box: "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/ws-cards/love-live-sunshine-80/box.webp",
   cards: [
  {
   "num": "LSS/WE27-E01",

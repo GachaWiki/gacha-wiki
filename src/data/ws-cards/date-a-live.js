@@ -6,6 +6,7 @@ export const DateALiveSet = {
   expansion: 148,
   release: null,
   shopItem: null,
+  box: "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/ws-cards/date-a-live/box.webp",
   cards: [
  {
   "num": "5HY/BCS2023-03",

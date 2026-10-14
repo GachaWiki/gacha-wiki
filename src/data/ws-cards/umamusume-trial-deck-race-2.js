@@ -6,6 +6,7 @@ export const UmamusumeTrialDeckRace2Set = {
   expansion: 285,
   release: '2026-06-26',
   shopItem: 'umamusume-trial-deck-race-2',
+  box: null,
   cards: [
  {
   "num": "UMA/W106-TE19R",

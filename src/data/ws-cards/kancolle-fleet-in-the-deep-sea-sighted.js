@@ -6,6 +6,7 @@ export const KancolleFleetInTheDeepSeaSightedSet = {
   expansion: 68,
   release: null,
   shopItem: null,
+  box: null,
   cards: [
  {
   "num": "KC/SE28-E01",

@@ -6,6 +6,7 @@ export const FateStayNightUnlimitedBladeWorks35Set = {
   expansion: 35,
   release: null,
   shopItem: null,
+  box: null,
   cards: [
  {
   "num": "FS/S34-TE01",

@@ -6,6 +6,7 @@ export const LoveLiveSunshine79Set = {
   expansion: 79,
   release: null,
   shopItem: null,
+  box: null,
   cards: [
  {
   "num": "LSS/W53-TE01",

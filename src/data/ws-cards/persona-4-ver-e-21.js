@@ -6,6 +6,7 @@ export const Persona4VerE21Set = {
   expansion: 21,
   release: null,
   shopItem: null,
+  box: "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/ws-cards/persona-4-ver-e-21/box.webp",
   cards: [
  {
   "num": "P4/EN-S01-T01",

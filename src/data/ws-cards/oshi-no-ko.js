@@ -6,6 +6,7 @@ export const OshiNoKoSet = {
   expansion: 229,
   release: null,
   shopItem: null,
+  box: "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/ws-cards/oshi-no-ko/box.webp",
   cards: [
  {
   "num": "OSK/S107-TE01",

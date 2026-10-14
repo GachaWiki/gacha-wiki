@@ -6,6 +6,7 @@ export const SaoGunGaleOnline2Set = {
   expansion: 267,
   release: '2025-09-05',
   shopItem: 'sao-gun-gale-online-2',
+  box: null,
   cards: [
  {
   "num": "GGO/SE50-E01",

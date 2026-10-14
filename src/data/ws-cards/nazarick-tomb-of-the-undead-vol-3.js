@@ -6,6 +6,7 @@ export const NazarickTombOfTheUndeadVol3Set = {
   expansion: 283,
   release: null,
   shopItem: null,
+  box: null,
   cards: [
  {
   "num": "OVL/SE51-E01",

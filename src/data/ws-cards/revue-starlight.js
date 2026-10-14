@@ -6,6 +6,7 @@ export const RevueStarlightSet = {
   expansion: 125,
   release: null,
   shopItem: null,
+  box: null,
   cards: [
  {
   "num": "AT/WX02-T01",

@@ -6,6 +6,7 @@ export const TheMelancholyOfHaruhiSuzumiya45Set = {
   expansion: 45,
   release: null,
   shopItem: null,
+  box: "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/ws-cards/the-melancholy-of-haruhi-suzumiya-45/box.webp",
   cards: [
  {
   "num": "SY/W08-E001",

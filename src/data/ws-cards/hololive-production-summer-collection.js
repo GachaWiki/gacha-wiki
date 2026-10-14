@@ -6,6 +6,7 @@ export const HololiveProductionSummerCollectionSet = {
   expansion: 228,
   release: null,
   shopItem: null,
+  box: null,
   cards: [
  {
   "num": "HOL/WE44-E01",

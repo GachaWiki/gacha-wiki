@@ -6,6 +6,7 @@ export const LoveLiveSif2MiracleLiveSet = {
   expansion: 238,
   release: '2024-11-08',
   shopItem: 'love-live-sif2-miracle-live',
+  box: null,
   cards: [
  {
   "num": "LSF/W109-E048",

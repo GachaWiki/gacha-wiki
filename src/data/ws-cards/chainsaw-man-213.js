@@ -6,6 +6,7 @@ export const ChainsawMan213Set = {
   expansion: 213,
   release: null,
   shopItem: null,
+  box: null,
   cards: [
  {
   "num": "CSM/S96-TE01",

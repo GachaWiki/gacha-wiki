@@ -6,6 +6,7 @@ export const PersonaSet = {
   expansion: 112,
   release: null,
   shopItem: null,
+  box: null,
   cards: [
  {
   "num": "JJ/S66-TE01",

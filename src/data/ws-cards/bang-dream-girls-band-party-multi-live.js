@@ -6,6 +6,7 @@ export const BangDreamGirlsBandPartyMultiLiveSet = {
   expansion: 97,
   release: null,
   shopItem: null,
+  box: null,
   cards: [
  {
   "num": "BD/EN-W03-001",

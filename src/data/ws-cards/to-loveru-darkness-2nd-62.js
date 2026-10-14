@@ -6,6 +6,7 @@ export const ToLoveruDarkness2nd62Set = {
   expansion: 62,
   release: null,
   shopItem: null,
+  box: "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/ws-cards/to-loveru-darkness-2nd-62/box.webp",
   cards: [
  {
   "num": "TL/W37-E001",

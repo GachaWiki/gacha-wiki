@@ -6,6 +6,7 @@ export const JojoSBizarreAdventureStardustCrusadersSet = {
   expansion: 231,
   release: null,
   shopItem: null,
+  box: null,
   cards: [
  {
   "num": "JJ/SE41-E01",
