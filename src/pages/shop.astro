@@ -29,6 +29,22 @@ const slug = (s: string) => s.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(
 const franchises = getShopFranchises();
 const cardDbIds = new Set(WS_CARD_SETS.map((s) => s.id));
 
+// Every set that is not a curated shop item still gets a compact tile with a
+// tagged Amazon search button, so the shop covers the full EN + JP catalog
+// (same structure as the card database).
+const shopItemIds = new Set(SHOP_ITEMS.map((i) => i.id));
+const moreSets = WS_CARD_SETS.filter((s) => !shopItemIds.has(s.id));
+
+function setBuy(s: (typeof WS_CARD_SETS)[number]) {
+  const jp = s.lang === 'jp';
+  const base = jp ? 'https://www.amazon.co.jp/s?k=' : 'https://www.amazon.com/s?k=';
+  return {
+    url: shopLink({ url: `${base}${encodeURIComponent(`weiss schwarz ${s.name}`)}` }),
+    store: jp ? 'Search on Amazon Japan' : 'Search on Amazon',
+    note: jp ? 'Amazon.co.jp search results' : 'Amazon.com search results',
+  };
+}
+
 // Release chips: featured-style entries carry a releases array; scanner/manual
 // entries carry a single English-edition release string.
 function releaseChips(item: (typeof SHOP_ITEMS)[number]) {
@@ -82,6 +98,15 @@ function releaseChips(item: (typeof SHOP_ITEMS)[number]) {
       </div>
     </section>
 
+    <div class="shop-lang-tabs" role="tablist" aria-label="Shop language">
+      <button class="shop-lang-tab is-active" role="tab" aria-selected="true" data-lang="en" type="button">
+        English
+      </button>
+      <button class="shop-lang-tab" role="tab" aria-selected="false" data-lang="jp" type="button">
+        Japanese
+      </button>
+    </div>
+
     <div class="shop-toolbar">
       <input
         id="shop-search"
@@ -109,6 +134,7 @@ function releaseChips(item: (typeof SHOP_ITEMS)[number]) {
             class="shop-set"
             id={item.id}
             aria-label={item.name}
+            data-lang="en"
             data-franchise={slug(item.franchise)}
             data-type={item.type}
             data-search={`${item.name} ${item.franchise}`.toLowerCase()}
@@ -193,6 +219,47 @@ function releaseChips(item: (typeof SHOP_ITEMS)[number]) {
           </section>
         ))
       }
+
+      <h2 class="shop-more-title">Every other Weiss Schwarz set</h2>
+      <p class="shop-more-note">
+        Not curated above yet, but each has a card database page and a tagged Amazon search button.
+      </p>
+      <div class="shop-more-grid">
+        {
+          moreSets.map((s) => {
+            const buy = setBuy(s);
+            return (
+              <div
+                class="shop-tile"
+                data-lang={s.lang ?? 'en'}
+                data-franchise=""
+                data-type=""
+                data-search={s.name.toLowerCase()}
+              >
+                <div class="shop-tile-media">
+                  {s.box || s.sample ? (
+                    <img src={s.box || s.sample} alt={s.name} loading="lazy" draggable="false" />
+                  ) : null}
+                </div>
+                <span class="shop-tile-name">{s.name}</span>
+                <span class="shop-tile-meta">
+                  <span class="shop-chip">{`${s.count} cards`}</span>
+                </span>
+                <a
+                  class="shop-btn shop-btn-primary shop-tile-btn"
+                  href={buy.url}
+                  target="_blank"
+                  rel="noopener noreferrer nofollow sponsored"
+                >
+                  <span class="shop-btn-store">{buy.store}</span>
+                  <span class="shop-btn-note">{buy.note}</span>
+                </a>
+                <a class="shop-set-official" href={`/cards/${s.id}/`}>Card database</a>
+              </div>
+            );
+          })
+        }
+      </div>
     </div>
 
     <p class="shop-no-results" id="shop-no-results" hidden>No sets match those filters.</p>
@@ -204,32 +271,57 @@ function releaseChips(item: (typeof SHOP_ITEMS)[number]) {
 <script>
   // Client-side filtering for the shop list (site convention: everything is
   // server-rendered, visibility toggles via data attributes, no pagination).
+  // Covers both curated rich cards and the full-catalog tiles, plus the
+  // English/Japanese tabs.
   const search = document.getElementById('shop-search') as HTMLInputElement;
   const franchise = document.getElementById('shop-franchise') as HTMLSelectElement;
   const type = document.getElementById('shop-type') as HTMLSelectElement;
   const clear = document.getElementById('shop-clear') as HTMLButtonElement;
   const count = document.getElementById('shop-count');
   const noResults = document.getElementById('shop-no-results');
-  const items = Array.from(document.querySelectorAll<HTMLElement>('#shop-list .shop-set'));
+  const items = Array.from(document.querySelectorAll<HTMLElement>('#shop-list .shop-set, #shop-list .shop-tile'));
+  const tabs = Array.from(document.querySelectorAll<HTMLButtonElement>('.shop-lang-tab'));
+  const moreTitle = document.querySelector<HTMLElement>('.shop-more-title');
+  const moreNote = document.querySelector<HTMLElement>('.shop-more-note');
+  let lang = 'en';
 
   function apply(): void {
     const q = search.value.trim().toLowerCase();
     const f = franchise.value;
     const t = type.value;
     let visible = 0;
+    let curatedVisible = 0;
     for (const el of items) {
+      const curated = el.classList.contains('shop-set');
       const show =
+        el.dataset.lang === lang &&
         (!q || el.dataset.search?.includes(q)) &&
         (!f || el.dataset.franchise === f) &&
         (!t || el.dataset.type === t);
       el.style.display = show ? '' : 'none';
       if (show) visible++;
+      if (show && curated) curatedVisible++;
     }
-    if (count) count.textContent = `${visible} of ${items.length} sets`;
+    if (count) count.textContent = `${visible} sets`;
     if (noResults) noResults.hidden = visible > 0;
+    // The "every other set" heading only makes sense when curated cards are
+    // visible above the grid
+    const showHeading = curatedVisible > 0 && lang === 'en';
+    if (moreTitle) moreTitle.style.display = showHeading ? '' : 'none';
+    if (moreNote) moreNote.style.display = showHeading ? '' : 'none';
   }
 
   [search, franchise, type].forEach((el) => el.addEventListener('input', apply));
+  for (const tab of tabs) {
+    tab.addEventListener('click', () => {
+      lang = tab.dataset.lang || 'en';
+      for (const t2 of tabs) {
+        t2.classList.toggle('is-active', t2 === tab);
+        t2.setAttribute('aria-selected', t2 === tab ? 'true' : 'false');
+      }
+      apply();
+    });
+  }
   clear.addEventListener('click', () => {
     search.value = '';
     franchise.value = '';
@@ -238,4 +330,5 @@ function releaseChips(item: (typeof SHOP_ITEMS)[number]) {
   });
   apply();
 </script>
+
 
