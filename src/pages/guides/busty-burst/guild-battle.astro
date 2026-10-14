@@ -1,15 +1,16 @@
 ---
-// Busty Burst Guild Battle index: mode rules + the list of guild battle events
-// (Guild Battle WIND, FIRE, WATER...). Each event page holds the full boss database.
+// Busty Burst Guild Battle index: intro + event list with the game's own battle
+// map art on each event card. All boss data lives on the event pages.
 import BannerTimelineLayout from '../../../layouts/busty-burst/BannerTimelineLayout.astro';
+import { R2 } from '../../../components/busty-burst/bb-r2';
 import {
-  GUILD_WAR_MECHANICS,
   GUILD_WAR_EVENTS,
+  GUILD_WAR_MAP_ART,
 } from '../../../data/busty-burst/guild-battle.js';
 
 const pageTitle = 'Busty Burst Guild Battle - Guild Raid Boss Events';
 const pageDescription =
-  'Guild Battle in Busty Burst Fantasy: how the guild raid boss mode works, plus every event (WIND, FIRE, WATER and more) with its boss, stats, skills and rewards.';
+  'Guild Battle in Busty Burst Fantasy: every guild raid boss event (WIND, FIRE, WATER and more) with its boss, stats, skills and rewards.';
 const gameTitle = 'Guild Battle';
 
 const getStatusLabel = (status: string) => {
@@ -41,10 +42,15 @@ const formatDate = (dateString: string) => {
   return date.toLocaleDateString('en-US', options);
 };
 
-const events = [...GUILD_WAR_EVENTS].sort((a, b) => b.startTime.localeCompare(a.startTime)).map(ev => ({
-  ...ev,
-  live: computeStatus(ev.startTime, ev.endTime),
-}));
+const events = [...GUILD_WAR_EVENTS].sort((a, b) => b.startTime.localeCompare(a.startTime)).map(ev => {
+  // the event's own art: the season background the game ships (battle100101bg/100103)
+  const bgMap = ev.background?.split('/')[1];
+  return {
+    ...ev,
+    live: computeStatus(ev.startTime, ev.endTime),
+    cardImage: (bgMap && GUILD_WAR_MAP_ART[bgMap]) || Object.values(GUILD_WAR_MAP_ART)[0],
+  };
+});
 ---
 
 <BannerTimelineLayout title={pageTitle} description={pageDescription} gameTitle={gameTitle}>
@@ -57,54 +63,23 @@ const events = [...GUILD_WAR_EVENTS].sort((a, b) => b.startTime.localeCompare(a.
       Guild Battle is the alliance raid boss mode. The whole guild fights the same boss over 40
       cycles, everyone gets 3 runs a day, and the damage turns into Guild Points that decide the
       global and guild rankings at the end. Each event brings its own element-themed boss: click an
-      event below for its boss database.
+      event for its boss database.
     </p>
 
-    <!-- How it works -->
-    <section class="gw-panel">
-      <h2 class="gw-heading">How It Works</h2>
-      <div class="gw-facts">
-        <div class="gw-fact">
-          <span class="gw-fact-value">3</span>
-          <span class="gw-fact-label">runs per day; used paladins sit out until the daily reset</span>
-        </div>
-        <div class="gw-fact">
-          <span class="gw-fact-value">2</span>
-          <span class="gw-fact-label">challenge types: Raid (scored) and Practice</span>
-        </div>
-        <div class="gw-fact">
-          <span class="gw-fact-value">120s</span>
-          <span class="gw-fact-label">per fight; damage still counts on timeout or withdraw</span>
-        </div>
-        <div class="gw-fact">
-          <span class="gw-fact-value">1/day</span>
-          <span class="gw-fact-label">per borrowed support paladin from a guild member</span>
-        </div>
-      </div>
-      <ul class="gw-notes">
-        {
-          GUILD_WAR_MECHANICS.notes.map(n => (
-            <li>{n}</li>
-          ))
-        }
-        <li>Guild Coins come from battles and rankings and go into the Guild Shop.</li>
-      </ul>
-    </section>
-
-    <!-- Events -->
     <section class="gw-panel">
       <h2 class="gw-heading">Guild Battle Events</h2>
       <div class="gw-event-grid">
         {events.map(ev => (
           <a class="gw-event-card" href={`/guides/busty-burst/guild-battle/${ev.slug}/`}>
-            <span class="gw-event-name">{ev.name}</span>
-            <span class="gw-event-meta">
-              {formatDate(ev.startTime)} - {formatDate(ev.endTime)}
-            </span>
-            <span class="gw-event-meta">
-              {ev.raids[0]?.name} | 40 cycles
-            </span>
-            <span class={`status-badge status-badge--${ev.live}`}>{getStatusLabel(ev.live)}</span>
+            <div class="gw-event-art">
+              <img src={`${R2}/${ev.cardImage}`} alt={`${ev.name} battle map`} width="492" height="300" loading="lazy" />
+              <span class={`gw-event-status status-badge status-badge--${ev.live}`}>{getStatusLabel(ev.live)}</span>
+            </div>
+            <div class="gw-event-body">
+              <span class="gw-event-name">{ev.name}</span>
+              <span class="gw-event-meta">{formatDate(ev.startTime)} - {formatDate(ev.endTime)}</span>
+              <span class="gw-event-meta">{ev.raids[0]?.name} | 40 cycles</span>
+            </div>
           </a>
         ))}
       </div>
@@ -126,75 +101,54 @@ const events = [...GUILD_WAR_EVENTS].sort((a, b) => b.startTime.localeCompare(a.
   }
   .gw-heading {
     font-size: 1.35rem;
-    margin: 0 0 0.5rem;
-    display: flex;
-    align-items: center;
-    gap: 0.75rem;
-    flex-wrap: wrap;
-  }
-  .gw-facts {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 0.75rem;
-    margin-bottom: 1rem;
-  }
-  .gw-fact {
-    background: rgba(255, 255, 255, 0.05);
-    border: 1px solid rgba(255, 255, 255, 0.09);
-    border-radius: 10px;
-    padding: 0.75rem;
-    display: flex;
-    flex-direction: column;
-    gap: 0.25rem;
-  }
-  .gw-fact-value {
-    font-size: 1.4rem;
-    font-weight: 700;
-  }
-  .gw-fact-label {
-    font-size: 0.85rem;
-    color: rgba(255, 255, 255, 0.7);
-  }
-  .gw-notes {
-    margin: 0;
-    padding-left: 1.2rem;
-    color: rgba(255, 255, 255, 0.8);
-    font-size: 0.9rem;
-    display: flex;
-    flex-direction: column;
-    gap: 0.35rem;
+    margin: 0 0 1rem;
   }
   .gw-note {
     font-size: 0.85rem;
     color: rgba(255, 255, 255, 0.65);
-    margin: 0.75rem 0 0;
+    margin: 1rem 0 0;
   }
   .gw-event-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
-    gap: 0.75rem;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 1rem;
   }
   .gw-event-card {
     background: rgba(255, 255, 255, 0.05);
     border: 1px solid rgba(255, 255, 255, 0.09);
     border-radius: 10px;
-    padding: 0.9rem 1rem;
+    overflow: hidden;
     display: flex;
     flex-direction: column;
-    gap: 0.35rem;
     color: inherit;
     text-decoration: none;
   }
+  .gw-event-art {
+    position: relative;
+  }
+  .gw-event-art img {
+    width: 100%;
+    aspect-ratio: 1640 / 1000;
+    object-fit: cover;
+    display: block;
+  }
+  .gw-event-status {
+    position: absolute;
+    top: 0.6rem;
+    right: 0.6rem;
+  }
+  .gw-event-body {
+    padding: 0.85rem 1rem 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+  }
   .gw-event-name {
     font-weight: 700;
-    font-size: 1.1rem;
+    font-size: 1.15rem;
   }
   .gw-event-meta {
     font-size: 0.82rem;
     color: rgba(255, 255, 255, 0.65);
-  }
-  .gw-event-card .status-badge {
-    align-self: flex-start;
-    margin-top: 0.25rem;
   }
 </style>
