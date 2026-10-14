@@ -272,6 +272,7 @@ const fmtDate = (iso: string) =>
         ['Power', card.power ?? ''],
         ['Soul', card.soul ? '● '.repeat(card.soul).trim() : ''],
         ['Trigger', card.trigger ?? ''],
+        ['Traits', Array.isArray(card.traits) ? card.traits.join(' / ') : ''],
         ['Side', card.num?.split('/')[1]?.startsWith('W') ? 'W' : 'S'],
       ];
       for (const [k, v] of rows) {
@@ -306,4 +307,5 @@ const fmtDate = (iso: string) =>
     if (e.key === 'Escape') closeModal();
   });
 </script>
+
 
