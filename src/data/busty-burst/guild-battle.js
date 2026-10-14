@@ -36,61 +36,14 @@ export const GUILD_WAR_SEASONS = [
       "damageTaken": "Artia",
       "guildCoins": "Nora"
     },
-    "bosses": [
+    "raids": [
       {
-        "slug": "giant-rock-soldier-1",
+        "slug": "giant-rock-soldier",
         "name": "Giant Rock Soldier",
-        "monsterId": 80301,
         "element": "Wind",
-        "cycleRange": [
+        "cycles": [
           1,
-          10
-        ],
-        "levelRange": [
-          3,
-          30
-        ]
-      },
-      {
-        "slug": "giant-rock-soldier-2",
-        "name": "Giant Rock Soldier",
-        "monsterId": 80302,
-        "element": "Wind",
-        "cycleRange": [
-          11,
-          20
-        ],
-        "levelRange": [
-          33,
-          60
-        ]
-      },
-      {
-        "slug": "giant-rock-soldier-3",
-        "name": "Giant Rock Soldier",
-        "monsterId": 80303,
-        "element": "Wind",
-        "cycleRange": [
-          21,
-          30
-        ],
-        "levelRange": [
-          63,
-          90
-        ]
-      },
-      {
-        "slug": "giant-rock-soldier-4",
-        "name": "Giant Rock Soldier",
-        "monsterId": 80304,
-        "element": "Wind",
-        "cycleRange": [
-          31,
           40
-        ],
-        "levelRange": [
-          93,
-          120
         ]
       }
     ],
@@ -130,544 +83,534 @@ export const GUILD_WAR_SEASONS = [
   }
 ];
 
-export const GUILD_WAR_BOSSES = [
+export const GUILD_WAR_RAIDS = [
   {
-    "slug": "giant-rock-soldier-1",
     "name": "Giant Rock Soldier",
-    "index": 1,
-    "monsterId": 80301,
     "element": "Wind",
     "rarity": "SSR",
-    "stats": {
-      "hp": 5000000,
-      "atk": 102,
-      "matk": 96,
-      "def": 16,
-      "mdef": 20,
-      "accuracy": 15,
-      "block": 50,
-      "physCrit": 52,
-      "magicCrit": 76,
-      "mpRegen": 19,
-      "healPwr": 9
-    },
-    "skills": [
+    "seasonId": "110",
+    "stages": [
       {
-        "slot": "Normal Attack",
-        "name": "Normal Attack",
-        "description": "Deals physical damage to the 3 nearest enemies",
-        "damage": "300% + 200",
-        "castTime": 2.0,
-        "target": "Nearest Enemies",
-        "skillId": 8030161
+        "index": 1,
+        "monsterId": 80301,
+        "stats": {
+          "hp": 5000000,
+          "atk": 102,
+          "matk": 96,
+          "def": 16,
+          "mdef": 20,
+          "accuracy": 15,
+          "block": 50,
+          "physCrit": 52,
+          "magicCrit": 76,
+          "mpRegen": 19,
+          "healPwr": 9
+        },
+        "skills": [
+          {
+            "slot": "Normal Attack",
+            "name": "Normal Attack",
+            "description": "Deals physical damage to the 3 nearest enemies",
+            "damage": "300% + 200",
+            "castTime": 2.0,
+            "target": "Nearest Enemies",
+            "skillId": 8030161
+          },
+          {
+            "slot": "Skill 1",
+            "name": "Charged Attack",
+            "description": "Deals physical damage to the 3 nearest enemies and inflict Action Speed -14%DOWN for 8 seconds",
+            "damage": "400% + 300",
+            "castTime": 2.1,
+            "target": "Nearest Enemies",
+            "skillId": 8030162
+          },
+          {
+            "slot": "Skill 2",
+            "name": "Hardened Body",
+            "description": "Apply Hit-Based Shield(50%15 hit(s)) to self for 10 seconds",
+            "damage": null,
+            "castTime": 1.5,
+            "target": "Self",
+            "skillId": 8030163
+          },
+          {
+            "slot": "Ultimate",
+            "name": "Mudman’s Fury",
+            "description": "Deal physical damage to all enemies and inflict Stun for 2 seconds and Action Speed -25%DOWN for 10 seconds",
+            "damage": "560% + 400",
+            "castTime": null,
+            "target": "All Enemies",
+            "skillId": 8030164
+          },
+          {
+            "slot": "Passive 2",
+            "name": "Elemental Harmony",
+            "description": "Increase damage dealt by 50% when taking damage from an advantaged attribute, and decrease damage dealt by 50% when taking damage from a non-advantaged attribute",
+            "damage": null,
+            "castTime": null,
+            "target": "Self",
+            "skillId": 8030182
+          }
+        ],
+        "skillRotation": {
+          "first": "2/1/0",
+          "loop": "0/0/1/0/2/0/0"
+        },
+        "timeLimitSec": 120,
+        "elementProfile": {
+          "weak": [
+            "Fire"
+          ],
+          "resist": [
+            "Wind",
+            "Water",
+            "Holy",
+            "Magic",
+            "Mind"
+          ],
+          "ailmentResist": [
+            "Poison",
+            "Burn",
+            "Fear",
+            "Freeze",
+            "Petrify",
+            "Stun",
+            "Sleep",
+            "Silence",
+            "Confusion",
+            "Charm",
+            "Paralysis",
+            "Blind"
+          ]
+        },
+        "ladder": {
+          "cycleRange": [
+            1,
+            10
+          ],
+          "levelRange": [
+            3,
+            30
+          ],
+          "maps": [
+            "100101"
+          ],
+          "scoreScale": [
+            0.0,
+            0.9
+          ],
+          "rewards": {
+            "gold": 100000,
+            "guildCoins": 100
+          },
+          "drops": [
+            {
+              "item": "Crystal Stone",
+              "amount": 100
+            },
+            {
+              "item": "Guild Battle event coin",
+              "amount": 1000
+            },
+            {
+              "item": "Regol Coin",
+              "amount": 1000000
+            }
+          ]
+        }
       },
       {
-        "slot": "Skill 1",
-        "name": "Charged Attack",
-        "description": "Deals physical damage to the 3 nearest enemies and inflict Action Speed -14%DOWN for 8 seconds",
-        "damage": "400% + 300",
-        "castTime": 2.1,
-        "target": "Nearest Enemies",
-        "skillId": 8030162
+        "index": 2,
+        "monsterId": 80302,
+        "stats": {
+          "hp": 5000000,
+          "atk": 168,
+          "matk": 129,
+          "def": 20,
+          "mdef": 26,
+          "accuracy": 15,
+          "block": 50,
+          "physCrit": 52,
+          "magicCrit": 76,
+          "mpRegen": 19,
+          "healPwr": 9
+        },
+        "skills": [
+          {
+            "slot": "Normal Attack",
+            "name": "Normal Attack",
+            "description": "Deals physical damage to the 3 nearest enemies",
+            "damage": "300% + 400",
+            "castTime": 2.0,
+            "target": "Nearest Enemies",
+            "skillId": 8030261
+          },
+          {
+            "slot": "Skill 1",
+            "name": "Charged Attack",
+            "description": "Deals physical damage to the 3 nearest enemies and inflict Action Speed -14%DOWN for 8 seconds",
+            "damage": "400% + 600",
+            "castTime": 2.1,
+            "target": "Nearest Enemies",
+            "skillId": 8030262
+          },
+          {
+            "slot": "Skill 2",
+            "name": "Hardened Body",
+            "description": "Apply Hit-Based Shield(50%15 hit(s)) to self for 10 seconds",
+            "damage": null,
+            "castTime": 1.5,
+            "target": "Self",
+            "skillId": 8030263
+          },
+          {
+            "slot": "Ultimate",
+            "name": "Mudman’s Fury",
+            "description": "Deal physical damage to all enemies and inflict Stun for 2 seconds and Action Speed -25%DOWN for 10 seconds",
+            "damage": "560% + 750",
+            "castTime": null,
+            "target": "All Enemies",
+            "skillId": 8030264
+          },
+          {
+            "slot": "Passive 2",
+            "name": "Elemental Harmony",
+            "description": "Increase damage dealt by 50% when taking damage from an advantaged attribute, and decrease damage dealt by 50% when taking damage from a non-advantaged attribute",
+            "damage": null,
+            "castTime": null,
+            "target": "Self",
+            "skillId": 8030282
+          }
+        ],
+        "skillRotation": {
+          "first": "2/1/0",
+          "loop": "0/0/1/0/2/0/0"
+        },
+        "timeLimitSec": 120,
+        "elementProfile": {
+          "weak": [
+            "Fire"
+          ],
+          "resist": [
+            "Wind",
+            "Water",
+            "Holy",
+            "Magic",
+            "Mind"
+          ],
+          "ailmentResist": [
+            "Poison",
+            "Burn",
+            "Fear",
+            "Freeze",
+            "Petrify",
+            "Stun",
+            "Sleep",
+            "Silence",
+            "Confusion",
+            "Charm",
+            "Paralysis",
+            "Blind"
+          ]
+        },
+        "ladder": {
+          "cycleRange": [
+            11,
+            20
+          ],
+          "levelRange": [
+            33,
+            60
+          ],
+          "maps": [
+            "100102"
+          ],
+          "scoreScale": [
+            1.0,
+            1.9
+          ],
+          "rewards": {
+            "gold": 100000,
+            "guildCoins": 100
+          },
+          "drops": [
+            {
+              "item": "Crystal Stone",
+              "amount": 100
+            },
+            {
+              "item": "Guild Battle event coin",
+              "amount": 1000
+            },
+            {
+              "item": "Regol Coin",
+              "amount": 1000000
+            }
+          ]
+        }
       },
       {
-        "slot": "Skill 2",
-        "name": "Hardened Body",
-        "description": "Apply Hit-Based Shield(50%15 hit(s)) to self for 10 seconds",
-        "damage": null,
-        "castTime": 1.5,
-        "target": "Self",
-        "skillId": 8030163
+        "index": 3,
+        "monsterId": 80303,
+        "stats": {
+          "hp": 5000000,
+          "atk": 234,
+          "matk": 162,
+          "def": 41,
+          "mdef": 52,
+          "accuracy": 15,
+          "block": 50,
+          "physCrit": 52,
+          "magicCrit": 76,
+          "mpRegen": 19,
+          "healPwr": 9
+        },
+        "skills": [
+          {
+            "slot": "Normal Attack",
+            "name": "Normal Attack",
+            "description": "Deals physical damage to the 3 nearest enemies",
+            "damage": "300% + 600",
+            "castTime": 2.0,
+            "target": "Nearest Enemies",
+            "skillId": 8030361
+          },
+          {
+            "slot": "Skill 1",
+            "name": "Charged Attack",
+            "description": "Deals physical damage to the 3 nearest enemies and inflict Action Speed -14%DOWN for 8 seconds",
+            "damage": "400% + 900",
+            "castTime": 2.1,
+            "target": "Nearest Enemies",
+            "skillId": 8030362
+          },
+          {
+            "slot": "Skill 2",
+            "name": "Hardened Body",
+            "description": "Apply Hit-Based Shield(50%15 hit(s)) to self for 10 seconds",
+            "damage": null,
+            "castTime": 1.5,
+            "target": "Self",
+            "skillId": 8030363
+          },
+          {
+            "slot": "Ultimate",
+            "name": "Mudman’s Fury",
+            "description": "Deal physical damage to all enemies and inflict Stun for 2 seconds and Action Speed -25%DOWN for 10 seconds",
+            "damage": "560% + 1200",
+            "castTime": null,
+            "target": "All Enemies",
+            "skillId": 8030364
+          },
+          {
+            "slot": "Passive 2",
+            "name": "Elemental Harmony",
+            "description": "Increase damage dealt by 50% when taking damage from an advantaged attribute, and decrease damage dealt by 50% when taking damage from a non-advantaged attribute",
+            "damage": null,
+            "castTime": null,
+            "target": "Self",
+            "skillId": 8030382
+          }
+        ],
+        "skillRotation": {
+          "first": "2/1/0",
+          "loop": "0/0/1/0/2/0/0"
+        },
+        "timeLimitSec": 120,
+        "elementProfile": {
+          "weak": [
+            "Fire"
+          ],
+          "resist": [
+            "Wind",
+            "Water",
+            "Holy",
+            "Magic",
+            "Mind"
+          ],
+          "ailmentResist": [
+            "Poison",
+            "Burn",
+            "Fear",
+            "Freeze",
+            "Petrify",
+            "Stun",
+            "Sleep",
+            "Silence",
+            "Confusion",
+            "Charm",
+            "Paralysis",
+            "Blind"
+          ]
+        },
+        "ladder": {
+          "cycleRange": [
+            21,
+            30
+          ],
+          "levelRange": [
+            63,
+            90
+          ],
+          "maps": [
+            "100102",
+            "100103"
+          ],
+          "scoreScale": [
+            2.0,
+            2.9
+          ],
+          "rewards": {
+            "gold": 100000,
+            "guildCoins": 100
+          },
+          "drops": [
+            {
+              "item": "Crystal Stone",
+              "amount": 100
+            },
+            {
+              "item": "Guild Battle event coin",
+              "amount": 1000
+            },
+            {
+              "item": "Regol Coin",
+              "amount": 1000000
+            }
+          ]
+        }
       },
       {
-        "slot": "Ultimate",
-        "name": "Mudman’s Fury",
-        "description": "Deal physical damage to all enemies and inflict Stun for 2 seconds and Action Speed -25%DOWN for 10 seconds",
-        "damage": "560% + 400",
-        "castTime": null,
-        "target": "All Enemies",
-        "skillId": 8030164
-      },
-      {
-        "slot": "Passive 2",
-        "name": "Elemental Harmony",
-        "description": "Increase damage dealt by 50% when taking damage from an advantaged attribute, and decrease damage dealt by 50% when taking damage from a non-advantaged attribute",
-        "damage": null,
-        "castTime": null,
-        "target": "Self",
-        "skillId": 8030182
+        "index": 4,
+        "monsterId": 80304,
+        "stats": {
+          "hp": 5000000,
+          "atk": 302,
+          "matk": 196,
+          "def": 58,
+          "mdef": 73,
+          "accuracy": 15,
+          "block": 50,
+          "physCrit": 52,
+          "magicCrit": 76,
+          "mpRegen": 19,
+          "healPwr": 9
+        },
+        "skills": [
+          {
+            "slot": "Normal Attack",
+            "name": "Normal Attack",
+            "description": "Deals physical damage to the 3 nearest enemies",
+            "damage": "300% + 800",
+            "castTime": 2.0,
+            "target": "Nearest Enemies",
+            "skillId": 8030461
+          },
+          {
+            "slot": "Skill 1",
+            "name": "Charged Attack",
+            "description": "Deals physical damage to the 3 nearest enemies and inflict Action Speed -14%DOWN for 8 seconds",
+            "damage": "400% + 1200",
+            "castTime": 2.1,
+            "target": "Nearest Enemies",
+            "skillId": 8030462
+          },
+          {
+            "slot": "Skill 2",
+            "name": "Hardened Body",
+            "description": "Apply Hit-Based Shield(50%15 hit(s)) to self for 10 seconds",
+            "damage": null,
+            "castTime": 1.5,
+            "target": "Self",
+            "skillId": 8030463
+          },
+          {
+            "slot": "Ultimate",
+            "name": "Mudman’s Fury",
+            "description": "Deal physical damage to all enemies and inflict Stun for 2 seconds and Action Speed -25%DOWN for 10 seconds",
+            "damage": "560% + 1500",
+            "castTime": null,
+            "target": "All Enemies",
+            "skillId": 8030464
+          },
+          {
+            "slot": "Passive 2",
+            "name": "Elemental Harmony",
+            "description": "Increase damage dealt by 50% when taking damage from an advantaged attribute, and decrease damage dealt by 50% when taking damage from a non-advantaged attribute",
+            "damage": null,
+            "castTime": null,
+            "target": "Self",
+            "skillId": 8030482
+          }
+        ],
+        "skillRotation": {
+          "first": "2/1/0",
+          "loop": "0/0/1/0/2/0/0"
+        },
+        "timeLimitSec": 120,
+        "elementProfile": {
+          "weak": [
+            "Fire"
+          ],
+          "resist": [
+            "Wind",
+            "Water",
+            "Holy",
+            "Magic",
+            "Mind"
+          ],
+          "ailmentResist": [
+            "Poison",
+            "Burn",
+            "Fear",
+            "Freeze",
+            "Petrify",
+            "Stun",
+            "Sleep",
+            "Silence",
+            "Confusion",
+            "Charm",
+            "Paralysis",
+            "Blind"
+          ]
+        },
+        "ladder": {
+          "cycleRange": [
+            31,
+            40
+          ],
+          "levelRange": [
+            93,
+            120
+          ],
+          "maps": [
+            "100102",
+            "100103"
+          ],
+          "scoreScale": [
+            3.0,
+            3.9
+          ],
+          "rewards": {
+            "gold": 100000,
+            "guildCoins": 100
+          },
+          "drops": [
+            {
+              "item": "Guild Battle event coin",
+              "amount": 50
+            },
+            {
+              "item": "Regol Coin",
+              "amount": 50000
+            }
+          ]
+        }
       }
     ],
-    "skillRotation": {
-      "first": "2/1/0",
-      "loop": "0/0/1/0/2/0/0"
-    },
-    "elementProfile": {
-      "weak": [
-        "Fire"
-      ],
-      "resist": [
-        "Wind",
-        "Water",
-        "Holy",
-        "Magic",
-        "Mind"
-      ],
-      "ailmentResist": [
-        "Poison",
-        "Burn",
-        "Fear",
-        "Freeze",
-        "Petrify",
-        "Stun",
-        "Sleep",
-        "Silence",
-        "Confusion",
-        "Charm",
-        "Paralysis",
-        "Blind"
-      ]
-    },
-    "timeLimitSec": 120,
-    "ladder": {
-      "cycleRange": [
-        1,
-        10
-      ],
-      "levelRange": [
-        3,
-        30
-      ],
-      "maps": [
-        "100101"
-      ],
-      "scoreScale": [
-        0.0,
-        0.9
-      ],
-      "rewards": {
-        "gold": 100000,
-        "guildCoins": 100
-      },
-      "drops": [
-        {
-          "item": "Crystal Stone",
-          "amount": 100
-        },
-        {
-          "item": "Guild Battle event coin",
-          "amount": 1000
-        },
-        {
-          "item": "Regol Coin",
-          "amount": 1000000
-        }
-      ]
-    },
-    "seasonId": "110"
-  },
-  {
-    "slug": "giant-rock-soldier-2",
-    "name": "Giant Rock Soldier",
-    "index": 2,
-    "monsterId": 80302,
-    "element": "Wind",
-    "rarity": "SSR",
-    "stats": {
-      "hp": 5000000,
-      "atk": 168,
-      "matk": 129,
-      "def": 20,
-      "mdef": 26,
-      "accuracy": 15,
-      "block": 50,
-      "physCrit": 52,
-      "magicCrit": 76,
-      "mpRegen": 19,
-      "healPwr": 9
-    },
-    "skills": [
-      {
-        "slot": "Normal Attack",
-        "name": "Normal Attack",
-        "description": "Deals physical damage to the 3 nearest enemies",
-        "damage": "300% + 400",
-        "castTime": 2.0,
-        "target": "Nearest Enemies",
-        "skillId": 8030261
-      },
-      {
-        "slot": "Skill 1",
-        "name": "Charged Attack",
-        "description": "Deals physical damage to the 3 nearest enemies and inflict Action Speed -14%DOWN for 8 seconds",
-        "damage": "400% + 600",
-        "castTime": 2.1,
-        "target": "Nearest Enemies",
-        "skillId": 8030262
-      },
-      {
-        "slot": "Skill 2",
-        "name": "Hardened Body",
-        "description": "Apply Hit-Based Shield(50%15 hit(s)) to self for 10 seconds",
-        "damage": null,
-        "castTime": 1.5,
-        "target": "Self",
-        "skillId": 8030263
-      },
-      {
-        "slot": "Ultimate",
-        "name": "Mudman’s Fury",
-        "description": "Deal physical damage to all enemies and inflict Stun for 2 seconds and Action Speed -25%DOWN for 10 seconds",
-        "damage": "560% + 750",
-        "castTime": null,
-        "target": "All Enemies",
-        "skillId": 8030264
-      },
-      {
-        "slot": "Passive 2",
-        "name": "Elemental Harmony",
-        "description": "Increase damage dealt by 50% when taking damage from an advantaged attribute, and decrease damage dealt by 50% when taking damage from a non-advantaged attribute",
-        "damage": null,
-        "castTime": null,
-        "target": "Self",
-        "skillId": 8030282
-      }
-    ],
-    "skillRotation": {
-      "first": "2/1/0",
-      "loop": "0/0/1/0/2/0/0"
-    },
-    "elementProfile": {
-      "weak": [
-        "Fire"
-      ],
-      "resist": [
-        "Wind",
-        "Water",
-        "Holy",
-        "Magic",
-        "Mind"
-      ],
-      "ailmentResist": [
-        "Poison",
-        "Burn",
-        "Fear",
-        "Freeze",
-        "Petrify",
-        "Stun",
-        "Sleep",
-        "Silence",
-        "Confusion",
-        "Charm",
-        "Paralysis",
-        "Blind"
-      ]
-    },
-    "timeLimitSec": 120,
-    "ladder": {
-      "cycleRange": [
-        11,
-        20
-      ],
-      "levelRange": [
-        33,
-        60
-      ],
-      "maps": [
-        "100102"
-      ],
-      "scoreScale": [
-        1.0,
-        1.9
-      ],
-      "rewards": {
-        "gold": 100000,
-        "guildCoins": 100
-      },
-      "drops": [
-        {
-          "item": "Crystal Stone",
-          "amount": 100
-        },
-        {
-          "item": "Guild Battle event coin",
-          "amount": 1000
-        },
-        {
-          "item": "Regol Coin",
-          "amount": 1000000
-        }
-      ]
-    },
-    "seasonId": "110"
-  },
-  {
-    "slug": "giant-rock-soldier-3",
-    "name": "Giant Rock Soldier",
-    "index": 3,
-    "monsterId": 80303,
-    "element": "Wind",
-    "rarity": "SSR",
-    "stats": {
-      "hp": 5000000,
-      "atk": 234,
-      "matk": 162,
-      "def": 41,
-      "mdef": 52,
-      "accuracy": 15,
-      "block": 50,
-      "physCrit": 52,
-      "magicCrit": 76,
-      "mpRegen": 19,
-      "healPwr": 9
-    },
-    "skills": [
-      {
-        "slot": "Normal Attack",
-        "name": "Normal Attack",
-        "description": "Deals physical damage to the 3 nearest enemies",
-        "damage": "300% + 600",
-        "castTime": 2.0,
-        "target": "Nearest Enemies",
-        "skillId": 8030361
-      },
-      {
-        "slot": "Skill 1",
-        "name": "Charged Attack",
-        "description": "Deals physical damage to the 3 nearest enemies and inflict Action Speed -14%DOWN for 8 seconds",
-        "damage": "400% + 900",
-        "castTime": 2.1,
-        "target": "Nearest Enemies",
-        "skillId": 8030362
-      },
-      {
-        "slot": "Skill 2",
-        "name": "Hardened Body",
-        "description": "Apply Hit-Based Shield(50%15 hit(s)) to self for 10 seconds",
-        "damage": null,
-        "castTime": 1.5,
-        "target": "Self",
-        "skillId": 8030363
-      },
-      {
-        "slot": "Ultimate",
-        "name": "Mudman’s Fury",
-        "description": "Deal physical damage to all enemies and inflict Stun for 2 seconds and Action Speed -25%DOWN for 10 seconds",
-        "damage": "560% + 1200",
-        "castTime": null,
-        "target": "All Enemies",
-        "skillId": 8030364
-      },
-      {
-        "slot": "Passive 2",
-        "name": "Elemental Harmony",
-        "description": "Increase damage dealt by 50% when taking damage from an advantaged attribute, and decrease damage dealt by 50% when taking damage from a non-advantaged attribute",
-        "damage": null,
-        "castTime": null,
-        "target": "Self",
-        "skillId": 8030382
-      }
-    ],
-    "skillRotation": {
-      "first": "2/1/0",
-      "loop": "0/0/1/0/2/0/0"
-    },
-    "elementProfile": {
-      "weak": [
-        "Fire"
-      ],
-      "resist": [
-        "Wind",
-        "Water",
-        "Holy",
-        "Magic",
-        "Mind"
-      ],
-      "ailmentResist": [
-        "Poison",
-        "Burn",
-        "Fear",
-        "Freeze",
-        "Petrify",
-        "Stun",
-        "Sleep",
-        "Silence",
-        "Confusion",
-        "Charm",
-        "Paralysis",
-        "Blind"
-      ]
-    },
-    "timeLimitSec": 120,
-    "ladder": {
-      "cycleRange": [
-        21,
-        30
-      ],
-      "levelRange": [
-        63,
-        90
-      ],
-      "maps": [
-        "100102",
-        "100103"
-      ],
-      "scoreScale": [
-        2.0,
-        2.9
-      ],
-      "rewards": {
-        "gold": 100000,
-        "guildCoins": 100
-      },
-      "drops": [
-        {
-          "item": "Crystal Stone",
-          "amount": 100
-        },
-        {
-          "item": "Guild Battle event coin",
-          "amount": 1000
-        },
-        {
-          "item": "Regol Coin",
-          "amount": 1000000
-        }
-      ]
-    },
-    "seasonId": "110"
-  },
-  {
-    "slug": "giant-rock-soldier-4",
-    "name": "Giant Rock Soldier",
-    "index": 4,
-    "monsterId": 80304,
-    "element": "Wind",
-    "rarity": "SSR",
-    "stats": {
-      "hp": 5000000,
-      "atk": 302,
-      "matk": 196,
-      "def": 58,
-      "mdef": 73,
-      "accuracy": 15,
-      "block": 50,
-      "physCrit": 52,
-      "magicCrit": 76,
-      "mpRegen": 19,
-      "healPwr": 9
-    },
-    "skills": [
-      {
-        "slot": "Normal Attack",
-        "name": "Normal Attack",
-        "description": "Deals physical damage to the 3 nearest enemies",
-        "damage": "300% + 800",
-        "castTime": 2.0,
-        "target": "Nearest Enemies",
-        "skillId": 8030461
-      },
-      {
-        "slot": "Skill 1",
-        "name": "Charged Attack",
-        "description": "Deals physical damage to the 3 nearest enemies and inflict Action Speed -14%DOWN for 8 seconds",
-        "damage": "400% + 1200",
-        "castTime": 2.1,
-        "target": "Nearest Enemies",
-        "skillId": 8030462
-      },
-      {
-        "slot": "Skill 2",
-        "name": "Hardened Body",
-        "description": "Apply Hit-Based Shield(50%15 hit(s)) to self for 10 seconds",
-        "damage": null,
-        "castTime": 1.5,
-        "target": "Self",
-        "skillId": 8030463
-      },
-      {
-        "slot": "Ultimate",
-        "name": "Mudman’s Fury",
-        "description": "Deal physical damage to all enemies and inflict Stun for 2 seconds and Action Speed -25%DOWN for 10 seconds",
-        "damage": "560% + 1500",
-        "castTime": null,
-        "target": "All Enemies",
-        "skillId": 8030464
-      },
-      {
-        "slot": "Passive 2",
-        "name": "Elemental Harmony",
-        "description": "Increase damage dealt by 50% when taking damage from an advantaged attribute, and decrease damage dealt by 50% when taking damage from a non-advantaged attribute",
-        "damage": null,
-        "castTime": null,
-        "target": "Self",
-        "skillId": 8030482
-      }
-    ],
-    "skillRotation": {
-      "first": "2/1/0",
-      "loop": "0/0/1/0/2/0/0"
-    },
-    "elementProfile": {
-      "weak": [
-        "Fire"
-      ],
-      "resist": [
-        "Wind",
-        "Water",
-        "Holy",
-        "Magic",
-        "Mind"
-      ],
-      "ailmentResist": [
-        "Poison",
-        "Burn",
-        "Fear",
-        "Freeze",
-        "Petrify",
-        "Stun",
-        "Sleep",
-        "Silence",
-        "Confusion",
-        "Charm",
-        "Paralysis",
-        "Blind"
-      ]
-    },
-    "timeLimitSec": 120,
-    "ladder": {
-      "cycleRange": [
-        31,
-        40
-      ],
-      "levelRange": [
-        93,
-        120
-      ],
-      "maps": [
-        "100102",
-        "100103"
-      ],
-      "scoreScale": [
-        3.0,
-        3.9
-      ],
-      "rewards": {
-        "gold": 100000,
-        "guildCoins": 100
-      },
-      "drops": [
-        {
-          "item": "Guild Battle event coin",
-          "amount": 50
-        },
-        {
-          "item": "Regol Coin",
-          "amount": 50000
-        }
-      ]
-    },
-    "seasonId": "110"
+    "slug": "giant-rock-soldier",
+    "stageCount": 4
   }
 ];
 

@@ -123,21 +123,17 @@ const seasons = GUILD_WAR_SEASONS.map(s => ({
           ))}
         </div>
 
-        <h3 class="gw-subheading">Bosses</h3>
+        <h3 class="gw-subheading">Raids</h3>
         <p class="gw-note">
-          All four bosses are {season.bosses[0].element} element, weak to
-          {''} Fire and resistant to every other element, with full ailment immunity. Stats and
-          complete skill kits are on each boss page.
+          Each raid has its own page with the full stage ladder, stats and complete skill kits.
         </p>
         <div class="gw-boss-grid">
-          {season.bosses.map(b => (
-            <a class="gw-boss-card" href={`/guides/busty-burst/guild-battle/${b.slug}/`}>
-              <span class="gw-boss-no">Boss {season.bosses.indexOf(b) + 1}</span>
-              <span class="gw-boss-name">{b.name}</span>
-              <span class="gw-boss-meta">
-                Cycles {b.cycleRange[0]}-{b.cycleRange[1]} | Lv {b.levelRange[0]}-{b.levelRange[1]}
-              </span>
-              <span class="gw-el gw-el-weak">{b.element}</span>
+          {season.raids.map(r => (
+            <a class="gw-boss-card" href={`/guides/busty-burst/guild-battle/${r.slug}/`}>
+              <span class="gw-boss-no">Raid</span>
+              <span class="gw-boss-name">{r.name}</span>
+              <span class="gw-boss-meta">Cycles {r.cycles[0]}-{r.cycles[1]}</span>
+              <span class="gw-el gw-el-weak">{r.element}</span>
             </a>
           ))}
         </div>
