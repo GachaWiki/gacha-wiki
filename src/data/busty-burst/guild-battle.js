@@ -25,6 +25,153 @@ export const GUILD_WAR_MECHANICS = {
 
 export const GUILD_WAR_EVENTS = [
   {
+    "rankingRewards": [
+      {
+        "rank": "1",
+        "reward": 3000,
+        "guildIcon": "100101"
+      },
+      {
+        "rank": "2",
+        "reward": 2700,
+        "guildIcon": "100102"
+      },
+      {
+        "rank": "3",
+        "reward": 2400,
+        "guildIcon": "100103"
+      },
+      {
+        "rank": "4",
+        "reward": 2100,
+        "guildIcon": "100104"
+      },
+      {
+        "rank": "5",
+        "reward": 1800,
+        "guildIcon": "100104"
+      },
+      {
+        "rank": "6",
+        "reward": 1500,
+        "guildIcon": "100104"
+      },
+      {
+        "rank": "10",
+        "reward": 1200,
+        "guildIcon": "100104"
+      },
+      {
+        "rank": "20",
+        "reward": 1050,
+        "guildIcon": "100105"
+      },
+      {
+        "rank": "50",
+        "reward": 900,
+        "guildIcon": "100105"
+      },
+      {
+        "rank": "100",
+        "reward": 750,
+        "guildIcon": "100105"
+      },
+      {
+        "rank": "200",
+        "reward": 600,
+        "guildIcon": null
+      },
+      {
+        "rank": "300",
+        "reward": 450,
+        "guildIcon": null
+      },
+      {
+        "rank": "400",
+        "reward": 300,
+        "guildIcon": null
+      },
+      {
+        "rank": "500",
+        "reward": 150,
+        "guildIcon": null
+      }
+    ],
+    "guildShop": [
+      {
+        "name": "Memory Crystal",
+        "cost": 50,
+        "limit": 100,
+        "icon": "item001/2000"
+      },
+      {
+        "name": "Memory Crystal",
+        "cost": 100,
+        "limit": 100,
+        "icon": "item001/2000"
+      },
+      {
+        "name": "Ancient Artifact Coin",
+        "cost": 50,
+        "limit": 100,
+        "icon": "item001/10065"
+      },
+      {
+        "name": "Summon Ticket",
+        "cost": 500,
+        "limit": 5,
+        "icon": "item001/0051"
+      },
+      {
+        "name": "AP×200",
+        "cost": 100,
+        "limit": 5,
+        "icon": "item001/0074"
+      },
+      {
+        "name": "Paladin Elixir L",
+        "cost": 10,
+        "limit": 100,
+        "icon": "item001/3404"
+      },
+      {
+        "name": "Equipment Refining Dust L",
+        "cost": 10,
+        "limit": 50,
+        "icon": "item001/3604"
+      },
+      {
+        "name": "Stage Material Selection Ticket",
+        "cost": 10,
+        "limit": 200,
+        "icon": "item001/0078"
+      },
+      {
+        "name": "Attribute Core Selection Ticket",
+        "cost": 10,
+        "limit": 200,
+        "icon": "item001/0080"
+      },
+      {
+        "name": "Cake Roll",
+        "cost": 10,
+        "limit": 200,
+        "icon": "item001/3003"
+      },
+      {
+        "name": "Sweep Ticket",
+        "cost": 10,
+        "limit": 100,
+        "icon": "item001/0005"
+      },
+      {
+        "name": "Guild Coin×1",
+        "cost": 1,
+        "limit": 3000,
+        "icon": "item001/0006"
+      }
+    ],
+    "guildShopClose": "2026-09-08 04:00:00",
     "id": "110",
     "name": "Guild Battle WIND",
     "slug": "guild-battle-wind",

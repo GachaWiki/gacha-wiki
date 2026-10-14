@@ -157,6 +157,58 @@ const fmt = (n: number) => n.toLocaleString('en-US');
       </>
     ))}
 
+    {ev.rankingRewards?.length > 0 && (
+      <section class="gw-panel">
+        <h2 class="gw-heading">Ranking Rewards</h2>
+        <p class="gw-note">
+          Final guild placement rewards, paid after the ranking settles. Values are the reward
+          amounts from the game data; top ranks also earn a ranked guild icon.
+        </p>
+        <div class="gw-table-wrap">
+          <table class="gw-table">
+            <thead>
+              <tr><th>Rank</th><th>Reward</th><th>Guild Icon</th></tr>
+            </thead>
+            <tbody>
+              {ev.rankingRewards.map(r => (
+                <tr>
+                  <td>{r.rank === '1' ? '1st' : r.rank === '2' ? '2nd' : r.rank === '3' ? '3rd' : r.rank}</td>
+                  <td>{r.reward.toLocaleString('en-US')}</td>
+                  <td>{r.guildIcon ? 'Ranked icon ' + r.guildIcon : '-'}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      </section>
+    )}
+
+    {ev.guildShop?.length > 0 && (
+      <section class="gw-panel">
+        <h2 class="gw-heading">Event Shop</h2>
+        <p class="gw-note">
+          Spent {ev.coinItem} from battles and rankings. Stock refreshes daily
+          {ev.guildShopClose ? `, shop closed ${formatDate(ev.guildShopClose)}` : ''}.
+        </p>
+        <div class="gw-table-wrap">
+          <table class="gw-table">
+            <thead>
+              <tr><th>Item</th><th>Cost</th><th>Daily Limit</th></tr>
+            </thead>
+            <tbody>
+              {ev.guildShop.map(i => (
+                <tr>
+                  <td>{i.name}</td>
+                  <td>{i.cost.toLocaleString('en-US')} coins</td>
+                  <td>x{i.limit}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      </section>
+    )}
+
     <section class="gw-panel">
       <h2 class="gw-heading">Event Buffs</h2>
       <div class="gw-buffs">
