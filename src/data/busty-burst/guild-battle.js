@@ -611,6 +611,7 @@ export const GUILD_WAR_RAIDS = [
         }
       }
     ],
+    "iconGroup": "5002",
     "slug": "giant-rock-soldier",
     "stageCount": 4
   }
@@ -626,6 +627,11 @@ export function getGuildWarBossSlugs() {
 
 export function getGuildWarEvent(id) {
   return GUILD_WAR_EVENTS.find(s => s.id === id);
+}
+
+// boss unit icon on R2 (merc-pic s-range sprite for the monster group, e.g. monster-5002.webp)
+export function guildWarBossIcon(iconGroup) {
+  return iconGroup ? 'guild-battle/monster-' + iconGroup + '.webp' : null;
 }
 
 // official event banner art on R2 (icon-arrive-arrive-guild bundle, per element)

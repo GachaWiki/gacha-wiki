@@ -12,6 +12,7 @@ import {
   GUILD_WAR_MAP_ART,
   GUILD_WAR_EVENT_BANNERS,
   GUILD_WAR_BUFF_ICONS,
+  guildWarBossIcon,
 } from '../../../../data/busty-burst/guild-battle.js';
 
 export async function getStaticPaths() {
@@ -55,6 +56,9 @@ const fmt = (n: number) => n.toLocaleString('en-US');
       <>
         <section class="gw-panel">
           <h2 class="gw-heading">
+            {guildWarBossIcon(raid.iconGroup) && (
+              <img class="gw-boss-icon" src={`${R2}/${guildWarBossIcon(raid.iconGroup)}`} alt={raid.name} width="106" height="104" loading="lazy" />
+            )}
             {raid.name}
             <span class="gw-icon-chip"><ElementImage element={raid.element} width={26} height={26} /><RarityImage rarity={raid.rarity} width={46} height={23} /></span>
           </h2>
@@ -191,13 +195,22 @@ const fmt = (n: number) => n.toLocaleString('en-US');
     align-items: center;
     gap: 0.75rem;
     flex-wrap: wrap;
+    color: var(--bb-primary-light);
   }
   .gw-subheading {
-    font-size: 1.05rem;
+    font-size: 1.02rem;
     margin: 1.25rem 0 0.5rem;
+    color: var(--bb-primary-light);
+  }
+  .gw-boss-icon {
+    width: 72px;
+    height: auto;
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.09);
+    background: rgba(255, 255, 255, 0.04);
   }
   .gw-cycle-chip {
-    background: rgba(255, 255, 255, 0.07);
+    background: var(--bb-primary-dark, rgba(255, 255, 255, 0.07));
     border-radius: 5px;
     padding: 0.2rem 0.55rem;
     font-size: 0.8rem;
@@ -285,7 +298,7 @@ const fmt = (n: number) => n.toLocaleString('en-US');
   }
   .gw-note {
     font-size: 0.85rem;
-    color: rgba(255, 255, 255, 0.65);
+    color: var(--bb-text-secondary, rgba(255, 255, 255, 0.65));
     margin: 0.4rem 0 0;
   }
   .gw-stage-cols {
@@ -309,7 +322,7 @@ const fmt = (n: number) => n.toLocaleString('en-US');
     border-bottom: 1px solid rgba(255, 255, 255, 0.09);
   }
   .gw-table th {
-    color: rgba(255, 255, 255, 0.65);
+    color: var(--bb-text-secondary, rgba(255, 255, 255, 0.65));
     font-weight: 600;
     font-size: 0.8rem;
     width: 38%;
@@ -330,7 +343,7 @@ const fmt = (n: number) => n.toLocaleString('en-US');
     font-size: 0.75rem;
     text-transform: uppercase;
     letter-spacing: 0.04em;
-    color: rgba(255, 255, 255, 0.55);
+    color: var(--bb-primary-light);
   }
   .gw-skill-name {
     font-weight: 700;
@@ -368,6 +381,6 @@ const fmt = (n: number) => n.toLocaleString('en-US');
     color: rgba(255, 255, 255, 0.7);
   }
   .gw-backlink a {
-    color: var(--bb-primary, #e8c07d);
+    color: var(--bb-primary-light);
   }
 </style>

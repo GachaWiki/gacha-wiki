@@ -100,7 +100,7 @@ const events = [...GUILD_WAR_EVENTS].sort((a, b) => b.startTime.localeCompare(a.
   }
   .gw-intro {
     margin: 0 0 1.25rem;
-    color: rgba(255, 255, 255, 0.85);
+    color: var(--bb-text-secondary, rgba(255, 255, 255, 0.8));
   }
   .gw-event-grid {
     display: grid;
@@ -147,9 +147,10 @@ const events = [...GUILD_WAR_EVENTS].sort((a, b) => b.startTime.localeCompare(a.
   .gw-event-name {
     font-weight: 700;
     font-size: 1.15rem;
+    color: var(--bb-primary-light);
   }
   .gw-event-meta {
     font-size: 0.82rem;
-    color: rgba(255, 255, 255, 0.65);
+    color: var(--bb-text-secondary, rgba(255, 255, 255, 0.65));
   }
 </style>
