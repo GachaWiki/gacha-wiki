@@ -14,6 +14,7 @@ export const BB_X_CARDS = {
     { src: "x/1912438338088497177-1.webp", lang: "jp", date: "2025-04-16", name: "【凄腕傭兵】シャティ" },
   ],
   "aiming-for-your-heart-shaty": [
+    { src: "x/2107036824107716919-1.webp", lang: "en", date: "2026-10-05", name: "【Aiming for Your Heart♪】Shaty" },
     { src: "x/1816742775326646462-1.webp", lang: "jp", date: "2024-07-26", name: "【キミのハートを狙い撃ち♪】シャティ" },
   ],
   "american-police-lapis": [
@@ -41,9 +42,6 @@ export const BB_X_CARDS = {
   ],
   "bewildered-bride-magdalena": [
     { src: "x/1932747137936187469-1.webp", lang: "jp", date: "2025-06-11", name: "【困惑の花嫁】マグダレーナ" },
-  ],
-  "riding-the-big-wave-of-love-priscilla": [
-    { src: "x/1816742556182675683-1.webp", lang: "jp", date: "2024-07-26", name: "【恋のビッグウェーブライド】プリシラ" },
   ],
   "bikini-beatdown-gil": [
     { src: "x/1945430713370563048-1.webp", lang: "jp", date: "2025-07-16", name: "【ビキニでタコ殴り】ギル" },
@@ -121,6 +119,9 @@ export const BB_X_CARDS = {
   ],
   "gluttonous-warrior-raoul-and-kurul": [
     { src: "x/1876924304463446022-1.webp", lang: "jp", date: "2025-01-08", name: "【双子巫女】クルール" },
+  ],
+  "gorgeous-noble-summer-gracie": [
+    { src: "x/2107034307415974296-1.webp", lang: "en", date: "2026-10-05", name: "【Gorgeous &amp; Noble Summer】Gracie" },
   ],
   "gothic-loli-breast-fiend-juju": [
     { src: "x/1904828171796754930-1.webp", lang: "jp", date: "2025-03-26", name: "【ゴスロリ乳魔】シュシュ" },
@@ -251,6 +252,10 @@ export const BB_X_CARDS = {
   ],
   "repressed-schoolgirl-raffine": [
     { src: "x/1869314222821372339-1.webp", lang: "jp", date: "2024-12-18", name: "【むっつり女学生】ラフィーネ" },
+  ],
+  "riding-the-big-wave-of-love-priscilla": [
+    { src: "x/2107035565191463274-1.webp", lang: "en", date: "2026-10-05", name: "【Riding the Big Wave of Love】Priscilla" },
+    { src: "x/1816742556182675683-1.webp", lang: "jp", date: "2024-07-26", name: "【恋のビッグウェーブライド】プリシラ" },
   ],
   "rosa": [
     { src: "x/2018249280272883978-1.webp", lang: "en", date: "2026-02-02", name: "Rosa" },
@@ -507,110 +512,118 @@ export const BB_X_JP_ONLY_CARDS = [
   { src: "x/1737404977503481897-1.webp", lang: "jp", date: "2023-12-20", name: "ルールー" },
 ];
 
-// Ultimate-reveal (video thumbnail) art per character slug
+// Ultimate-reveal (video thumbnail) art per character slug; video = playable clip on R2
 export const BB_X_VIDEO_ART = {
   "agile-mercenary-shaty": [
-    { src: "x/1912445864322428962-1.webp", lang: "jp", date: "2025-04-16" , video: "x/videos/1912445864322428962.mp4" },
+    { src: "x/1912445864322428962-1.webp", lang: "jp", date: "2025-04-16", video: "x/videos/1912445864322428962.mp4" },
   ],
   "aiming-for-your-heart-shaty": [
-    { src: "x/1816742990699975104-1.webp", lang: "jp", date: "2024-07-26" , video: "x/videos/1816742990699975104.mp4" },
+    { src: "x/1816742990699975104-1.webp", lang: "jp", date: "2024-07-26", video: "x/videos/1816742990699975104.mp4" },
   ],
   "artist-on-ice-ilugio": [
-    { src: "x/1897225583035334987-1.webp", lang: "jp", date: "2025-03-05" , video: "x/videos/1897225583035334987.mp4" },
+    { src: "x/1897225583035334987-1.webp", lang: "jp", date: "2025-03-05", video: "x/videos/1897225583035334987.mp4" },
   ],
   "assassin-beer-girl-rui": [
-    { src: "x/1856653248574464073-1.webp", lang: "jp", date: "2024-11-13" , video: "x/videos/1856653248574464073.mp4" },
+    { src: "x/1856653248574464073-1.webp", lang: "jp", date: "2024-11-13", video: "x/videos/1856653248574464073.mp4" },
   ],
   "bernadette": [
-    { src: "x/1821139223476314514-1.webp", lang: "jp", date: "2024-08-07" , video: "x/videos/1821139223476314514.mp4" },
+    { src: "x/1821139223476314514-1.webp", lang: "jp", date: "2024-08-07", video: "x/videos/1821139223476314514.mp4" },
   ],
   "bewildered-bride-magdalena": [
-    { src: "x/1932754690581705020-1.webp", lang: "jp", date: "2025-06-11" , video: "x/videos/1932754690581705020.mp4" },
+    { src: "x/1932754690581705020-1.webp", lang: "jp", date: "2025-06-11", video: "x/videos/1932754690581705020.mp4" },
   ],
   "bikini-beatdown-gil": [
-    { src: "x/1945438268327448886-1.webp", lang: "jp", date: "2025-07-16" , video: "x/videos/1945438268327448886.mp4" },
+    { src: "x/1945438268327448886-1.webp", lang: "jp", date: "2025-07-16", video: "x/videos/1945438268327448886.mp4" },
   ],
   "boob-shaking-cheerleader-ashley": [
-    { src: "x/1907387535719834005-1.webp", lang: "jp", date: "2025-04-02" , video: "x/videos/1907387535719834005.mp4" },
+    { src: "x/1907387535719834005-1.webp", lang: "jp", date: "2025-04-02", video: "x/videos/1907387535719834005.mp4" },
   ],
   "elaine": [
-    { src: "x/1968253600364106122-1.webp", lang: "jp", date: "2025-09-17" , video: "x/videos/1968253600364106122.mp4" },
-    { src: "x/1813513982545916218-1.webp", lang: "jp", date: "2024-07-17" },
+    { src: "x/1968253600364106122-1.webp", lang: "jp", date: "2025-09-17", video: "x/videos/1968253600364106122.mp4" },
+    { src: "x/1813513982545916218-1.webp", lang: "jp", date: "2024-07-17", video: "x/videos/1813513982545916218.mp4" },
   ],
   "elegant-bunny-girl-bernadette": [
-    { src: "x/1899769843118993890-1.webp", lang: "jp", date: "2025-03-12" , video: "x/videos/1899769843118993890.mp4" },
+    { src: "x/1899769843118993890-1.webp", lang: "jp", date: "2025-03-12", video: "x/videos/1899769843118993890.mp4" },
   ],
   "fireworks-master-of-the-sky-festival-viatrice": [
-    { src: "x/1826212660884521461-1.webp", lang: "jp", date: "2024-08-21" , video: "x/videos/1826212660884521461.mp4" },
+    { src: "x/1826212660884521461-1.webp", lang: "jp", date: "2024-08-21", video: "x/videos/1826212660884521461.mp4" },
   ],
   "gil": [
-    { src: "x/1973327034215547202-1.webp", lang: "jp", date: "2025-10-01" , video: "x/videos/1973327034215547202.mp4" },
-    { src: "x/1795772072498766087-1.webp", lang: "jp", date: "2024-05-29" , video: "x/videos/1795772072498766087.mp4" },
+    { src: "x/1973327034215547202-1.webp", lang: "jp", date: "2025-10-01", video: "x/videos/1973327034215547202.mp4" },
+    { src: "x/1795772072498766087-1.webp", lang: "jp", date: "2024-05-29", video: "x/videos/1795772072498766087.mp4" },
   ],
   "gothic-loli-breast-fiend-juju": [
-    { src: "x/1904835725910315517-1.webp", lang: "jp", date: "2025-03-26" , video: "x/videos/1904835725910315517.mp4" },
+    { src: "x/1904835725910315517-1.webp", lang: "jp", date: "2025-03-26", video: "x/videos/1904835725910315517.mp4" },
   ],
   "hanis": [
-    { src: "x/1981193869292425652-1.webp", lang: "jp", date: "2025-10-23" },
-    { src: "x/1940364838422581700-1.webp", lang: "jp", date: "2025-07-02" , video: "x/videos/1940364838422581700.mp4" },
+    { src: "x/1981193869292425652-1.webp", lang: "jp", date: "2025-10-23", video: "x/videos/1981193869292425652.mp4" },
+    { src: "x/1940364838422581700-1.webp", lang: "jp", date: "2025-07-02", video: "x/videos/1940364838422581700.mp4" },
   ],
   "ilugio": [
-    { src: "x/1808455660176285990-1.webp", lang: "jp", date: "2024-07-03" , video: "x/videos/1808455660176285990.mp4" },
+    { src: "x/1808455660176285990-1.webp", lang: "jp", date: "2024-07-03", video: "x/videos/1808455660176285990.mp4" },
   ],
   "inrine": [
-    { src: "x/1823660841964855717-1.webp", lang: "jp", date: "2024-08-14" },
+    { src: "x/1823660841964855717-1.webp", lang: "jp", date: "2024-08-14", video: "x/videos/1823660841964855717.mp4" },
   ],
   "legendary-hero-gemini": [
-    { src: "x/1942886457741287895-1.webp", lang: "jp", date: "2025-07-09" , video: "x/videos/1942886457741287895.mp4" },
+    { src: "x/1942886457741287895-1.webp", lang: "jp", date: "2025-07-09", video: "x/videos/1942886457741287895.mp4" },
   ],
   "louise": [
-    { src: "x/1991084040762327474-1.webp", lang: "jp", date: "2025-11-19" },
-    { src: "x/1879483676410445949-1.webp", lang: "jp", date: "2025-01-15" , video: "x/videos/1879483676410445949.mp4" },
+    { src: "x/1991084040762327474-1.webp", lang: "jp", date: "2025-11-19", video: "x/videos/1991084040762327474.mp4" },
+    { src: "x/1879483676410445949-1.webp", lang: "jp", date: "2025-01-15", video: "x/videos/1879483676410445949.mp4" },
   ],
   "my-little-sister-is-a-sailor-bonita": [
-    { src: "x/1854101429767540885-1.webp", lang: "jp", date: "2024-11-06" , video: "x/videos/1854101429767540885.mp4" },
+    { src: "x/1854101429767540885-1.webp", lang: "jp", date: "2024-11-06", video: "x/videos/1854101429767540885.mp4" },
   ],
   "peerless-inventor-pastel": [
-    { src: "x/1950496591443325369-1.webp", lang: "jp", date: "2025-07-30" , video: "x/videos/1950496591443325369.mp4" },
+    { src: "x/1950496591443325369-1.webp", lang: "jp", date: "2025-07-30", video: "x/videos/1950496591443325369.mp4" },
   ],
   "priscilla": [
-    { src: "x/1757706249603564008-1.webp", lang: "jp", date: "2024-02-14" , video: "x/videos/1757706249603564008.mp4" },
+    { src: "x/1757706249603564008-1.webp", lang: "jp", date: "2024-02-14", video: "x/videos/1757706249603564008.mp4" },
   ],
   "raffine": [
-    { src: "x/1810977268891562207-1.webp", lang: "jp", date: "2024-07-10" , video: "x/videos/1810977268891562207.mp4" },
+    { src: "x/1810977268891562207-1.webp", lang: "jp", date: "2024-07-10", video: "x/videos/1810977268891562207.mp4" },
   ],
   "roxanne": [
-    { src: "x/1965996221585342955-1.webp", lang: "jp", date: "2025-09-11" , video: "x/videos/1965996221585342955.mp4" },
+    { src: "x/1965996221585342955-1.webp", lang: "jp", date: "2025-09-11", video: "x/videos/1965996221585342955.mp4" },
   ],
   "shushu": [
-    { src: "x/1838881138854518839-1.webp", lang: "jp", date: "2024-09-25" , video: "x/videos/1838881138854518839.mp4" },
+    { src: "x/1838881138854518839-1.webp", lang: "jp", date: "2024-09-25", video: "x/videos/1838881138854518839.mp4" },
   ],
   "sirius": [
-    { src: "x/1800840678928457988-1.webp", lang: "jp", date: "2024-06-12" , video: "x/videos/1800840678928457988.mp4" },
+    { src: "x/1800840678928457988-1.webp", lang: "jp", date: "2024-06-12", video: "x/videos/1800840678928457988.mp4" },
   ],
   "sonia": [
-    { src: "x/1917791093497946371-1.webp", lang: "jp", date: "2025-05-01" },
-    { src: "x/1914997687910306019-1.webp", lang: "jp", date: "2025-04-23" , video: "x/videos/1914997687910306019.mp4" },
+    { src: "x/1917791093497946371-1.webp", lang: "jp", date: "2025-05-01", video: "x/videos/1917791093497946371.mp4" },
+    { src: "x/1914997687910306019-1.webp", lang: "jp", date: "2025-04-23", video: "x/videos/1914997687910306019.mp4" },
   ],
   "tempting-naked-apron-diana": [
-    { src: "x/1793220257470873906-1.webp", lang: "jp", date: "2024-05-22" },
+    { src: "x/1793220257470873906-1.webp", lang: "jp", date: "2024-05-22", video: "x/videos/1793220257470873906.mp4" },
   ],
   "the-bride-of-luck-theresia": [
-    { src: "x/1803382228417744934-1.webp", lang: "jp", date: "2024-06-19" , video: "x/videos/1803382228417744934.mp4" },
+    { src: "x/1803382228417744934-1.webp", lang: "jp", date: "2024-06-19", video: "x/videos/1803382228417744934.mp4" },
   ],
   "twin-shrine-maiden-raoul": [
-    { src: "x/1874395145619345638-1.webp", lang: "jp", date: "2025-01-01" , video: "x/videos/1874395145619345638.mp4" },
+    { src: "x/1874395145619345638-1.webp", lang: "jp", date: "2025-01-01", video: "x/videos/1874395145619345638.mp4" },
   ],
   "underboob-cheerleader-gemini": [
-    { src: "x/1783092270813581756-1.webp", lang: "jp", date: "2024-04-24" , video: "x/videos/1783092270813581756.mp4" },
+    { src: "x/1783092270813581756-1.webp", lang: "jp", date: "2024-04-24", video: "x/videos/1783092270813581756.mp4" },
   ],
   "wisdom-and-courage-athena": [
-    { src: "x/1902299015448031359-1.webp", lang: "jp", date: "2025-03-19" , video: "x/videos/1902299015448031359.mp4" },
+    { src: "x/1902299015448031359-1.webp", lang: "jp", date: "2025-03-19", video: "x/videos/1902299015448031359.mp4" },
   ],
 };
 
 // Game-level art: summon banners, events, campaigns, misc illustrations
 export const BB_X_GAME_ART = [
+  { src: "x/2106942453030777243-1.webp", kind: "event", date: "2026-10-05", caption: "【パス】 イベント「ネプテュアの嘆き」イベントパス開催！ ミッションをクリアして、様々なアイテムをGET！" },
+  { src: "x/2106580065370751173-1.webp", kind: "event", date: "2026-10-04", caption: "【ログインボーナス】 イベント「ネプテュアの嘆き」ログインボーナス開催！ 7日ログインして、晶石×1000や様々なアイテムをGET！" },
+  { src: "x/2106670665789304879-1.webp", kind: "event", date: "2026-10-04", caption: "【ログインボーナス】 復刻イベント「大淫鬼ハロウィン」ログインボーナス開催！ 7日ログインして、晶石×1000や様々なアイテムをGET！" },
+  { src: "x/2106217679615107229-1.webp", kind: "banner", date: "2026-10-03", caption: "【召喚】 復刻イベント「大淫鬼ハロウィン」イベント召喚開催！ SSR聖騎士「【むちむちサキュバス】カティーシャ」、「【闇夜の吸血鬼】鵺」の出現率UP！" },
+  { src: "x/2105553550105272534-1.webp", kind: "event", date: "2026-10-01", caption: "【イベント】 イベント「ネプテュアの嘆き」開催！ ミニゲームを進めて、様々なアイテムをGET！" },
+  { src: "x/2105553801713488326-1.webp", kind: "event", date: "2026-10-01", caption: "【イベント】 復刻イベント「大淫鬼ハロウィン」開催！ イベントを進めて、過去のストーリーをもう一度振り返ろう！" },
+  { src: "x/2100480119819092289-1.webp", kind: "campaign", date: "2026-09-17", caption: "【イベント】 試練の塔スペシャル「3周年記念特別イベント」開催！ イベントを進めて、様々なアイテムをGET！" },
+  { src: "x/2100480371607445844-1.webp", kind: "event", date: "2026-09-17", caption: "【期間挑戦】 特別期間挑戦「競撃戦・無」開催！ より大きいダメージを敵に与えて、ランキング上位を目指そう！" },
   { src: "x/2099332324974272754-1.webp", kind: "campaign", date: "2026-09-14", caption: "【パス】 「3周年記念特別イベント」イベントパス開催！ ミッションをクリアして、様々なアイテムをGET！" },
   { src: "x/2098969925071335600-1.webp", kind: "campaign", date: "2026-09-13", caption: "【ログインボーナス】 「3周年記念第二弾」ログインボーナス開催！ 7日ログインして、晶石×3000をGET！" },
   { src: "x/2098607535460933804-1.webp", kind: "campaign", date: "2026-09-12", caption: "【ログインボーナス】 「3周年記念特別イベント」ログインボーナス開催！ 14日ログインして、晶石×1500や様々なアイテムをGET！" },
