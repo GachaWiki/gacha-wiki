@@ -6,7 +6,7 @@ export const HatsuneMikuColorfulStageWonderlandsXShowtimeSet = {
   expansion: 259,
   release: null,
   shopItem: null,
-  box: null,
+  box: "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/ws-cards/hatsune-miku-colorful-stage-wonderlands-x-showtime/box.webp",
   cards: [
  {
   "num": "PJS/S91-TE46",

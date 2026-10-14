@@ -6,7 +6,7 @@ export const BangDreamGirlsBandPartyCountdownCollectionSet = {
   expansion: 219,
   release: null,
   shopItem: null,
-  box: null,
+  box: "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/ws-cards/bang-dream-girls-band-party-countdown-collection/box.webp",
   cards: [
  {
   "num": "BD/WE42-E001",

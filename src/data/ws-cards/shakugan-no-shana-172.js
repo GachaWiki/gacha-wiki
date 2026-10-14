@@ -6,7 +6,7 @@ export const ShakuganNoShana172Set = {
   expansion: 172,
   release: null,
   shopItem: null,
-  box: null,
+  box: "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/ws-cards/shakugan-no-shana-172/box.webp",
   cards: [
  {
   "num": "TRV/BCS2022-01",

@@ -6,7 +6,7 @@ export const LoveLiveSchoolIdolFestivalSeries10thAnniversarySet = {
   expansion: 224,
   release: null,
   shopItem: null,
-  box: null,
+  box: "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/ws-cards/love-live-school-idol-festival-series-10th-anniversary/box.webp",
   cards: [
  {
   "num": "LL/WE39-E013",

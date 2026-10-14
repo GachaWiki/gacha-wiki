@@ -6,7 +6,7 @@ export const FairyTailSet = {
   expansion: 262,
   release: null,
   shopItem: null,
-  box: null,
+  box: "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/ws-cards/fairy-tail/box.webp",
   cards: [
  {
   "num": "FT/EN-S02-001+RE",

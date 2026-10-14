@@ -6,7 +6,7 @@ export const MacrossDelta184Set = {
   expansion: 184,
   release: null,
   shopItem: null,
-  box: null,
+  box: "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/ws-cards/macross-delta-184/box.webp",
   cards: [
  {
   "num": "KLK/S27-PE03",

@@ -6,7 +6,7 @@ export const HatsuneMikuColorfulStageVividBadSquadSet = {
   expansion: 258,
   release: null,
   shopItem: null,
-  box: null,
+  box: "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/ws-cards/hatsune-miku-colorful-stage-vivid-bad-squad/box.webp",
   cards: [
  {
   "num": "PJS/S91-TE31",
