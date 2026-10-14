@@ -410,3 +410,36 @@
     width: 100%;
   }
 }
+
+/* === SET INDEX: LANGUAGE TABS + SEARCH === */
+/* Centered English/Japanese tabs (replaces the old language dropdown) */
+.wsc-lang-tabs {
+  display: flex;
+  justify-content: center;
+  width: max-content;
+  margin: 0 auto 1.1rem auto;
+  border: 1px solid var(--text-secondary);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.wsc-lang-tab {
+  padding: 0.55rem 1.8rem;
+  background: transparent;
+  border: none;
+  color: var(--text-inverse);
+  font-size: 0.95rem;
+  font-weight: var(--font-bold);
+  cursor: pointer;
+}
+
+.wsc-lang-tab.is-active {
+  background: var(--amber-glow);
+  color: #1a1a1a;
+}
+
+/* Name filter spans the whole toolbar row */
+.wsc-sets-toolbar .wsc-input {
+  flex: 1 1 auto;
+  width: 100%;
+}
