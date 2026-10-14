@@ -1386,44 +1386,8 @@ export const guildBattleData = [
   },
 ];
 
-// Guild Battle (alliance battle) support summons - own page, not the banner timeline
-export const guildBattleEventData = [
-  {
-    id: 'guild-battle-wind-2026-09',
-    title: 'Guild Battle・WIND Pick Up Summon',
-    bannerType: 'event',
-    featuredPaladins: [
-      {
-        name: 'Artia',
-        rarity: 'SSR',
-        type: 'Tank',
-      },
-      {
-        name: 'Hildis',
-        rarity: 'SSR',
-        type: 'Attacker',
-      },
-      {
-        name: 'Nora',
-        rarity: 'SSR',
-        type: 'Tank',
-      },
-    ],
-    startDate: '2026-08-25T04:00:00Z',
-    endDate: '2026-09-01T04:00:00Z',
-    description:
-      'Guild Battle・WIND support summon! Rate up for Wind-attribute paladins Artia, Hildis and Nora for the WIND Guild Battle.',
-    note: 'Attribute pickup summon running alongside the WIND Guild Battle. End time from game data; start derived from the standard 7-day EN rotation.',
-    status: 'ended',
-    image: 'banner-guild-battle-wind',
-  },
-];
 
 guildBattleData.forEach(banner => {
-  banner.status = computeStatus(banner);
-});
-
-guildBattleEventData.forEach(banner => {
   banner.status = computeStatus(banner);
 });
 

@@ -1,150 +1,169 @@
 ---
-// Guild Battle raid page: ONE page per raid with everything on it - stage ladder,
-// stats, full skill kits, weaknesses, rewards and battle maps.
+// Guild Battle event page: ONE page per event (Guild Battle WIND, later FIRE/WATER...)
+// with everything on it - dates, the boss with all stages, stats, full skill kits,
+// weaknesses, rewards, field mobs, battle maps and event buffs. No summon content.
 import BannerTimelineLayout from '../../../../layouts/busty-burst/BannerTimelineLayout.astro';
 import { R2 } from '../../../../components/busty-burst/bb-r2';
 import {
+  GUILD_WAR_EVENTS,
   GUILD_WAR_RAIDS,
   GUILD_WAR_MAP_ART,
-  getGuildWarSeason,
 } from '../../../../data/busty-burst/guild-battle.js';
 
 export async function getStaticPaths() {
-  return GUILD_WAR_RAIDS.map(raid => ({
-    params: { slug: raid.slug },
-    props: { raid },
+  return GUILD_WAR_EVENTS.map(ev => ({
+    params: { slug: ev.slug },
+    props: { ev },
   }));
 }
 
-const { raid } = Astro.props;
-const season = getGuildWarSeason(raid.seasonId);
-const first = raid.stages[0];
-const last = raid.stages[raid.stages.length - 1];
-const maps = [...new Set(raid.stages.flatMap(s => s.ladder.maps))];
+const { ev } = Astro.props;
+const raids = GUILD_WAR_RAIDS.filter(r => r.seasonId === ev.id);
+const first = raids[0]?.stages[0];
+const lastStage = raids[0]?.stages[raids[0].stages.length - 1];
+const maps = [...new Set(raids.flatMap(r => r.stages.flatMap(s => s.ladder.maps)))];
 
-const pageTitle = `${raid.name} - Busty Burst Guild Battle Raid`;
-const pageDescription = `Guild Battle raid ${raid.name}: ${raid.element} boss with ${raid.stages.length} stages over cycles ${first.ladder.cycleRange[0]}-${last.ladder.cycleRange[1]}. Stats, all skills, weaknesses and rewards.`;
+const pageTitle = `${ev.name} - Busty Burst Guild Battle`;
+const pageDescription = `${ev.name}: the guild raid boss event with ${first ? raids[0].name : 'the boss'} over ${first ? raids[0].stages.length : 0} stages. Boss stats, all skills, weaknesses, rewards and event buffs.`;
+
+const formatDate = (dateString: string) => {
+  const date = new Date(dateString.replace(' ', 'T').replace(/\//g, '-'));
+  const options: Intl.DateTimeFormatOptions = { month: 'short', day: '2-digit', year: 'numeric' };
+  return date.toLocaleDateString('en-US', options);
+};
 
 const fmt = (n: number) => n.toLocaleString('en-US');
 ---
 
-<BannerTimelineLayout title={pageTitle} description={pageDescription} gameTitle={raid.name}>
+<BannerTimelineLayout title={pageTitle} description={pageDescription} gameTitle={ev.name}>
   <meta
     slot="head"
-    content="Busty Burst, Busty Burst Fantasy, guild battle, raid boss, {raid.name}, boss stats, boss skills, weakness, Ero Lab games"
+    content="Busty Burst, Busty Burst Fantasy, guild battle, {ev.name}, raid boss, boss stats, boss skills, weakness, Ero Lab games"
   />
   <main class="banner-timeline-content" role="main">
     <p class="intro-text">
-      Guild Battle raid from Season {raid.seasonId === '110' ? '1' : raid.seasonId}:
-      {raid.stages.length} stages across cycles {first.ladder.cycleRange[0]} to
-      {last.ladder.cycleRange[1]}, boss levels {first.ladder.levelRange[0]} to
-      {last.ladder.levelRange[1]}. {raid.element} element, {raid.rarity} tier.
+      {ev.name} ran {formatDate(ev.startTime)} to {formatDate(ev.endTime)} (UTC). The whole guild
+      fights the same raid boss across {first ? raids[0].stages.length : 0} stages and 40 cycles,
+      with boss levels {first ? first.ladder.levelRange[0] : ''} to {lastStage ? lastStage.ladder.levelRange[1] : ''}.
     </p>
 
-    <section class="gw-panel">
-      <h2 class="gw-heading">
-        {raid.name}
-        <span class="gw-el gw-el-weak">{raid.element}</span>
-        <span class="gw-el gw-el-resist">{raid.rarity}</span>
-      </h2>
+    {raids.map(raid => (
+      <>
+        <section class="gw-panel">
+          <h2 class="gw-heading">
+            {raid.name}
+            <span class="gw-el gw-el-weak">{raid.element}</span>
+            <span class="gw-el gw-el-resist">{raid.rarity}</span>
+          </h2>
 
-      <div class="gw-map-row">
-        {maps.map(m => (
-          <figure class="gw-map">
-            <img src={`${R2}/${GUILD_WAR_MAP_ART[m]}`} alt={`Battle map ${m}`} width="492" height="300" loading="lazy" />
-            <figcaption>Battle map {m}</figcaption>
-          </figure>
-        ))}
-      </div>
-
-      <h3 class="gw-subheading">Weaknesses and Resistances</h3>
-      <p class="gw-elements">
-        <span class="gw-el gw-el-weak">Weak: {first.elementProfile.weak.join(', ')}</span>
-        <span class="gw-el gw-el-resist">Resists: {first.elementProfile.resist.join(', ')}</span>
-      </p>
-      <p class="gw-note">
-        Ailment immunity: {first.elementProfile.ailmentResist.join(', ')}. Every fight runs
-        {first.timeLimitSec} seconds and damage counts even if the timer runs out or the team
-        withdraws.
-      </p>
-    </section>
-
-    {raid.stages.map(stage => (
-      <section class="gw-panel">
-        <h2 class="gw-heading">
-          Stage {stage.index}
-          <span class="gw-cycle-chip">Cycles {stage.ladder.cycleRange[0]}-{stage.ladder.cycleRange[1]}</span>
-          <span class="gw-cycle-chip">Lv {stage.ladder.levelRange[0]}-{stage.ladder.levelRange[1]}</span>
-          <span class="gw-cycle-chip">Score x{stage.ladder.scoreScale[0].toFixed(1)}-x{stage.ladder.scoreScale[1].toFixed(1)}</span>
-        </h2>
-
-        <div class="gw-stage-cols">
-          <div>
-            <h3 class="gw-subheading">Stats</h3>
-            <div class="gw-table-wrap">
-              <table class="gw-table">
-                <tbody>
-                  <tr><th>HP</th><td>{fmt(stage.stats.hp)}</td></tr>
-                  <tr><th>ATK</th><td>{fmt(stage.stats.atk)}</td></tr>
-                  <tr><th>MATK</th><td>{fmt(stage.stats.matk)}</td></tr>
-                  <tr><th>DEF</th><td>{fmt(stage.stats.def)}</td></tr>
-                  <tr><th>MDEF</th><td>{fmt(stage.stats.mdef)}</td></tr>
-                  <tr><th>Accuracy / Block</th><td>{fmt(stage.stats.accuracy)} / {fmt(stage.stats.block)}</td></tr>
-                  <tr><th>Crit (Phys / Magic)</th><td>{fmt(stage.stats.physCrit)} / {fmt(stage.stats.magicCrit)}</td></tr>
-                </tbody>
-              </table>
-            </div>
-            <p class="gw-note">
-              Base values; the boss scales with the cycle level inside the stage.
-            </p>
+          <div class="gw-map-row">
+            {maps.map(m => (
+              <figure class="gw-map">
+                <img src={`${R2}/${GUILD_WAR_MAP_ART[m]}`} alt={`Battle map ${m}`} width="492" height="300" loading="lazy" />
+                <figcaption>Battle map {m}</figcaption>
+              </figure>
+            ))}
           </div>
 
-          <div>
-            <h3 class="gw-subheading">Rewards</h3>
-            <div class="gw-table-wrap">
-              <table class="gw-table">
-                <tbody>
-                  <tr><th>Per battle</th><td>{fmt(stage.ladder.rewards.gold)} gold + {stage.ladder.rewards.guildCoins} guild coins</td></tr>
-                  <tr><th>Kill drops</th><td>{stage.ladder.drops.map(d => `${d.item} x${fmt(d.amount)}`).join(', ')}</td></tr>
-                </tbody>
-              </table>
-            </div>
-            <p class="gw-note">
-              Skill order: opening {stage.skillRotation.first}, then looping {stage.skillRotation.loop}
-              (2 = Skill 1, 1 = Skill 2, 0 = Normal Attack).
-            </p>
-          </div>
-        </div>
+          <h3 class="gw-subheading">Weaknesses and Resistances</h3>
+          <p class="gw-elements">
+            <span class="gw-el gw-el-weak">Weak: {first.elementProfile.weak.join(', ')}</span>
+            <span class="gw-el gw-el-resist">Resists: {first.elementProfile.resist.join(', ')}</span>
+          </p>
+          <p class="gw-note">
+            Ailment immunity: {first.elementProfile.ailmentResist.join(', ')}. Every fight runs
+            {first.timeLimitSec} seconds and damage counts even if the timer runs out or the team
+            withdraws. Field mobs during the event: {ev.fieldMobs.length} Water R units
+            ({ev.fieldMobs.slice(0, 6).join(', ')} and more).
+          </p>
+        </section>
 
-        <h3 class="gw-subheading">Skills</h3>
-        {stage.skills.map(skill => (
-          <article class="gw-skill">
-            <header class="gw-skill-head">
-              <span class="gw-skill-slot">{skill.slot}</span>
-              <span class="gw-skill-name">{skill.name}</span>
-              {skill.damage && <span class="gw-el gw-el-weak">{skill.damage}</span>}
-            </header>
-            <p class="gw-skill-desc">{skill.description}</p>
-            <p class="gw-skill-meta">
-              {skill.castTime !== null && <span>Cast {skill.castTime}s</span>}
-              {skill.target && <span>Target: {skill.target}</span>}
-            </p>
-          </article>
+        {raid.stages.map(stage => (
+          <section class="gw-panel">
+            <h2 class="gw-heading">
+              Stage {stage.index}
+              <span class="gw-cycle-chip">Cycles {stage.ladder.cycleRange[0]}-{stage.ladder.cycleRange[1]}</span>
+              <span class="gw-cycle-chip">Lv {stage.ladder.levelRange[0]}-{stage.ladder.levelRange[1]}</span>
+              <span class="gw-cycle-chip">Score x{stage.ladder.scoreScale[0].toFixed(1)}-x{stage.ladder.scoreScale[1].toFixed(1)}</span>
+            </h2>
+
+            <div class="gw-stage-cols">
+              <div>
+                <h3 class="gw-subheading">Stats</h3>
+                <div class="gw-table-wrap">
+                  <table class="gw-table">
+                    <tbody>
+                      <tr><th>HP</th><td>{fmt(stage.stats.hp)}</td></tr>
+                      <tr><th>ATK</th><td>{fmt(stage.stats.atk)}</td></tr>
+                      <tr><th>MATK</th><td>{fmt(stage.stats.matk)}</td></tr>
+                      <tr><th>DEF</th><td>{fmt(stage.stats.def)}</td></tr>
+                      <tr><th>MDEF</th><td>{fmt(stage.stats.mdef)}</td></tr>
+                      <tr><th>Accuracy / Block</th><td>{fmt(stage.stats.accuracy)} / {fmt(stage.stats.block)}</td></tr>
+                      <tr><th>Crit (Phys / Magic)</th><td>{fmt(stage.stats.physCrit)} / {fmt(stage.stats.magicCrit)}</td></tr>
+                    </tbody>
+                  </table>
+                </div>
+                <p class="gw-note">Base values; the boss scales with the cycle level inside the stage.</p>
+              </div>
+
+              <div>
+                <h3 class="gw-subheading">Rewards</h3>
+                <div class="gw-table-wrap">
+                  <table class="gw-table">
+                    <tbody>
+                      <tr><th>Per battle</th><td>{fmt(stage.ladder.rewards.gold)} gold + {stage.ladder.rewards.guildCoins} guild coins</td></tr>
+                      <tr><th>Kill drops</th><td>{stage.ladder.drops.map(d => `${d.item} x${fmt(d.amount)}`).join(', ')}</td></tr>
+                    </tbody>
+                  </table>
+                </div>
+                <p class="gw-note">
+                  Skill order: opening {stage.skillRotation.first}, then looping {stage.skillRotation.loop}
+                  (2 = Skill 1, 1 = Skill 2, 0 = Normal Attack).
+                </p>
+              </div>
+            </div>
+
+            <h3 class="gw-subheading">Skills</h3>
+            {stage.skills.map(skill => (
+              <article class="gw-skill">
+                <header class="gw-skill-head">
+                  <span class="gw-skill-slot">{skill.slot}</span>
+                  <span class="gw-skill-name">{skill.name}</span>
+                  {skill.damage && <span class="gw-el gw-el-weak">{skill.damage}</span>}
+                </header>
+                <p class="gw-skill-desc">{skill.description}</p>
+                <p class="gw-skill-meta">
+                  {skill.castTime !== null && <span>Cast {skill.castTime}s</span>}
+                  {skill.target && <span>Target: {skill.target}</span>}
+                </p>
+              </article>
+            ))}
+          </section>
         ))}
-      </section>
+      </>
     ))}
 
-    {season && (
-      <section class="gw-panel">
-        <h2 class="gw-heading">Season Buffs</h2>
-        <p class="gw-note">
-          While this raid runs, {season.buffedUnits.damage} (and her variants) deals bonus damage,
-          {season.buffedUnits.damageTaken} takes reduced damage, and {season.buffedUnits.guildCoins}
-          earns extra guild coins. Those three are also the season's Pick Up Summon lineup.
-        </p>
-        <p class="gw-backlink"><a href="/guides/busty-burst/guild-battle/">Back to Guild Battle database</a></p>
-      </section>
-    )}
+    <section class="gw-panel">
+      <h2 class="gw-heading">Event Buffs</h2>
+      <div class="gw-buffs">
+        <div class="gw-buff">
+          <span class="gw-buff-name">{ev.buffedUnits.damage}</span>
+          <span class="gw-buff-label">bonus damage during the event</span>
+        </div>
+        <div class="gw-buff">
+          <span class="gw-buff-name">{ev.buffedUnits.damageTaken}</span>
+          <span class="gw-buff-label">reduced damage taken</span>
+        </div>
+        <div class="gw-buff">
+          <span class="gw-buff-name">{ev.buffedUnits.guildCoins}</span>
+          <span class="gw-buff-label">bonus guild coins</span>
+        </div>
+      </div>
+      <p class="gw-note">
+        The buffs cover each paladin's whole variant group. Event coin: {ev.coinItem}.
+      </p>
+      <p class="gw-backlink"><a href="/guides/busty-burst/guild-battle/">Back to Guild Battle</a></p>
+    </section>
   </main>
 </BannerTimelineLayout>
 
@@ -273,6 +292,27 @@ const fmt = (n: number) => n.toLocaleString('en-US');
     display: flex;
     gap: 1rem;
     flex-wrap: wrap;
+  }
+  .gw-buffs {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 0.75rem;
+  }
+  .gw-buff {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.09);
+    border-radius: 10px;
+    padding: 0.7rem 0.8rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+  }
+  .gw-buff-name {
+    font-weight: 700;
+  }
+  .gw-buff-label {
+    font-size: 0.82rem;
+    color: rgba(255, 255, 255, 0.7);
   }
   .gw-backlink a {
     color: var(--bb-primary, #e8c07d);

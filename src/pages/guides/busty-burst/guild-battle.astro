@@ -1,27 +1,16 @@
 ---
-// Busty Burst Guild Battle database: mode rules, season overview, boss pages
-// (stats + full kits live on each boss page) and support pickup summons.
+// Busty Burst Guild Battle index: mode rules + the list of guild battle events
+// (Guild Battle WIND, FIRE, WATER...). Each event page holds the full boss database.
 import BannerTimelineLayout from '../../../layouts/busty-burst/BannerTimelineLayout.astro';
-import BBBannerImage from '../../../components/busty-burst/BBBannerImage.astro';
-import RarityImage from '../../../components/busty-burst/RarityImage.astro';
-import { R2 } from '../../../components/busty-burst/bb-r2';
-import { guildBattleEventData } from '../../../data/busty-burst/banner-timeline.js';
 import {
   GUILD_WAR_MECHANICS,
-  GUILD_WAR_SEASONS,
-  GUILD_WAR_MAP_ART,
+  GUILD_WAR_EVENTS,
 } from '../../../data/busty-burst/guild-battle.js';
 
-const pageTitle = 'Busty Burst Guild Battle Database - Bosses, Seasons and Rewards';
+const pageTitle = 'Busty Burst Guild Battle - Guild Raid Boss Events';
 const pageDescription =
-  'Guild Battle database for Busty Burst Fantasy: mode rules, season boss list with stats and full skill kits, boss weaknesses, season unit buffs and support pickup summons.';
+  'Guild Battle in Busty Burst Fantasy: how the guild raid boss mode works, plus every event (WIND, FIRE, WATER and more) with its boss, stats, skills and rewards.';
 const gameTitle = 'Guild Battle';
-
-const formatDate = (dateString: string) => {
-  const date = new Date(dateString);
-  const options: Intl.DateTimeFormatOptions = { month: 'short', day: '2-digit', year: 'numeric' };
-  return date.toLocaleDateString('en-US', options);
-};
 
 const getStatusLabel = (status: string) => {
   switch (status) {
@@ -46,28 +35,29 @@ const computeStatus = (startDate: string, endDate: string) => {
   return 'current';
 };
 
-const banners = guildBattleEventData.map(b => ({
-  ...b,
-  live: computeStatus(b.startDate, b.endDate),
-}));
+const formatDate = (dateString: string) => {
+  const date = new Date(dateString.replace(' ', 'T').replace(/\//g, '-'));
+  const options: Intl.DateTimeFormatOptions = { month: 'short', day: '2-digit', year: 'numeric' };
+  return date.toLocaleDateString('en-US', options);
+};
 
-const seasons = GUILD_WAR_SEASONS.map(s => ({
-  ...s,
-  live: computeStatus(s.startTime, s.endTime),
+const events = [...GUILD_WAR_EVENTS].sort((a, b) => b.startTime.localeCompare(a.startTime)).map(ev => ({
+  ...ev,
+  live: computeStatus(ev.startTime, ev.endTime),
 }));
 ---
 
 <BannerTimelineLayout title={pageTitle} description={pageDescription} gameTitle={gameTitle}>
   <meta
     slot="head"
-    content="Busty Burst, Busty Burst Fantasy, guild battle, alliance war, guild boss, boss stats, boss skills, guild coins, Ero Lab games"
+    content="Busty Burst, Busty Burst Fantasy, guild battle, guild raid boss, alliance war, boss stats, boss skills, Ero Lab games"
   />
   <main class="banner-timeline-content" role="main">
     <p class="intro-text">
-      Guild Battle is the monthly alliance boss mode. The whole guild fights the same boss over 40
+      Guild Battle is the alliance raid boss mode. The whole guild fights the same boss over 40
       cycles, everyone gets 3 runs a day, and the damage turns into Guild Points that decide the
-      global and guild rankings at the end. Each season brings an element-themed boss lineup with
-      its own stats and skill kits: every boss has a dedicated page below.
+      global and guild rankings at the end. Each event brings its own element-themed boss: click an
+      event below for its boss database.
     </p>
 
     <!-- How it works -->
@@ -101,129 +91,27 @@ const seasons = GUILD_WAR_SEASONS.map(s => ({
       </ul>
     </section>
 
-    <!-- Seasons -->
-    {seasons.map(season => (
-      <section class="gw-panel">
-        <h2 class="gw-heading">
-          Season {season.id === '110' ? '1' : season.id}: {season.name} {season.startTime.slice(0, 4)}
-          <span class={`status-badge status-badge--${season.live}`}>{getStatusLabel(season.live)}</span>
-        </h2>
-        <p class="gw-period">
-          {formatDate(season.startTime.replace(/\//g, '-').replace(' ', 'T'))} -
-          {formatDate(season.endTime.replace(/\//g, '-').replace(' ', 'T'))} (UTC) | Coin item:
-          {season.coinItem} | Field mobs: {season.fieldMobs.length} Water R units
-        </p>
-
-        <div class="gw-map-row">
-          {Object.entries(GUILD_WAR_MAP_ART).map(([m, art]) => (
-            <figure class="gw-map">
-              <img src={`${R2}/${art}`} alt={`Guild Battle map ${m}`} width="492" height="300" loading="lazy" />
-              <figcaption>Battle map {m}</figcaption>
-            </figure>
-          ))}
-        </div>
-
-        <h3 class="gw-subheading">Raids</h3>
-        <p class="gw-note">
-          Each raid has its own page with the full stage ladder, stats and complete skill kits.
-        </p>
-        <div class="gw-boss-grid">
-          {season.raids.map(r => (
-            <a class="gw-boss-card" href={`/guides/busty-burst/guild-battle/${r.slug}/`}>
-              <span class="gw-boss-no">Raid</span>
-              <span class="gw-boss-name">{r.name}</span>
-              <span class="gw-boss-meta">Cycles {r.cycles[0]}-{r.cycles[1]}</span>
-              <span class="gw-el gw-el-weak">{r.element}</span>
-            </a>
-          ))}
-        </div>
-
-        <h3 class="gw-subheading">Season Unit Buffs</h3>
-        <div class="gw-buffs">
-          <div class="gw-buff">
-            <span class="gw-buff-name">{season.buffedUnits.damage}</span>
-            <span class="gw-buff-label">bonus damage in Guild Battle</span>
-          </div>
-          <div class="gw-buff">
-            <span class="gw-buff-name">{season.buffedUnits.damageTaken}</span>
-            <span class="gw-buff-label">reduced damage taken</span>
-          </div>
-          <div class="gw-buff">
-            <span class="gw-buff-name">{season.buffedUnits.guildCoins}</span>
-            <span class="gw-buff-label">bonus guild coins</span>
-          </div>
-        </div>
-        <p class="gw-note">
-          The buffs cover the whole hero group, and those three are exactly the lineup of the
-          season's Pick Up Summon below.
-        </p>
-      </section>
-    ))}
-
-    <!-- Support pickups -->
+    <!-- Events -->
     <section class="gw-panel">
-      <h2 class="gw-heading">Support Pick Up Summons</h2>
-      {
-        banners.map(banner => (
-          <article class="banner-section">
-            <header class="banner-header">
-              <h2>{banner.title}</h2>
-              <span class={`banner-type-badge banner-type-badge--${banner.bannerType}`}>
-                Event Banner
-              </span>
-              <span
-                class={`status-badge status-badge--${banner.live}`}
-                data-start={banner.startDate}
-                data-end={banner.endDate}
-              >
-                {getStatusLabel(banner.live)}
-              </span>
-            </header>
-
-            <section class="banner-content">
-              <div class="banner-info">
-                <div class="summon-banner-card">
-                  <BBBannerImage bannerId={banner.image} alt={banner.title} width={400} height={225} />
-                  <div class="featured-details">
-                    <h3>Featured Paladins</h3>
-                    <div class="summon-featured-paladins">
-                      {banner.featuredPaladins.map(paladin => (
-                        <div class="summon-paladin">
-                          <span class="summon-paladin-name">{paladin.name}</span>
-                          <div class="summon-paladin-badges">
-                            <RarityImage rarity={paladin.rarity} width={36} height={18} />
-                            <span
-                              class="bb-badge"
-                              data-role={paladin.type === 'Attack' ? 'Attacker' : paladin.type}
-                            >
-                              {paladin.type}
-                            </span>
-                          </div>
-                        </div>
-                      ))}
-                    </div>
-
-                    <div class="banner-details">
-                      <p>
-                        <strong>Period:</strong> {formatDate(banner.startDate)} -{' '}
-                        {formatDate(banner.endDate)} (UTC)
-                      </p>
-                      <p>
-                        <strong>Details:</strong> {banner.description}
-                      </p>
-                      {banner.note && (
-                        <p>
-                          <strong>Note:</strong> {banner.note}
-                        </p>
-                      )}
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </section>
-          </article>
-        ))
-      }
+      <h2 class="gw-heading">Guild Battle Events</h2>
+      <div class="gw-event-grid">
+        {events.map(ev => (
+          <a class="gw-event-card" href={`/guides/busty-burst/guild-battle/${ev.slug}/`}>
+            <span class="gw-event-name">{ev.name}</span>
+            <span class="gw-event-meta">
+              {formatDate(ev.startTime)} - {formatDate(ev.endTime)}
+            </span>
+            <span class="gw-event-meta">
+              {ev.raids[0]?.name} | 40 cycles
+            </span>
+            <span class={`status-badge status-badge--${ev.live}`}>{getStatusLabel(ev.live)}</span>
+          </a>
+        ))}
+      </div>
+      <p class="gw-note">
+        New guild battles rotate by element: each event names its own boss lineup, weaknesses and
+        event buffs.
+      </p>
     </section>
   </main>
 </BannerTimelineLayout>
@@ -243,14 +131,6 @@ const seasons = GUILD_WAR_SEASONS.map(s => ({
     align-items: center;
     gap: 0.75rem;
     flex-wrap: wrap;
-  }
-  .gw-subheading {
-    font-size: 1.05rem;
-    margin: 1.25rem 0 0.5rem;
-  }
-  .gw-period {
-    color: rgba(255, 255, 255, 0.75);
-    margin: 0 0 1rem;
   }
   .gw-facts {
     display: grid;
@@ -284,121 +164,37 @@ const seasons = GUILD_WAR_SEASONS.map(s => ({
     flex-direction: column;
     gap: 0.35rem;
   }
-  .gw-map-row {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-    gap: 0.75rem;
-    margin: 0.75rem 0 1rem;
-  }
-  .gw-map {
-    margin: 0;
-  }
-  .gw-map img {
-    width: 100%;
-    height: auto;
-    display: block;
-    border-radius: 10px;
-    border: 1px solid rgba(255, 255, 255, 0.09);
-  }
-  .gw-map figcaption {
-    font-size: 0.8rem;
-    color: rgba(255, 255, 255, 0.6);
-    margin-top: 0.3rem;
-  }
-  .gw-el {
-    border-radius: 5px;
-    padding: 0.25rem 0.6rem;
-    font-size: 0.85rem;
-    font-weight: 600;
-  }
-  .gw-el-weak {
-    background: rgba(239, 68, 68, 0.18);
-    color: #f87171;
-  }
-  .gw-el-resist {
-    background: rgba(96, 165, 250, 0.15);
-    color: #93c5fd;
-  }
   .gw-note {
     font-size: 0.85rem;
     color: rgba(255, 255, 255, 0.65);
-    margin: 0.4rem 0 0;
+    margin: 0.75rem 0 0;
   }
-  .gw-boss-grid {
+  .gw-event-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
     gap: 0.75rem;
-    margin: 0.75rem 0;
   }
-  .gw-boss-card {
+  .gw-event-card {
     background: rgba(255, 255, 255, 0.05);
     border: 1px solid rgba(255, 255, 255, 0.09);
     border-radius: 10px;
-    padding: 0.85rem 0.9rem;
+    padding: 0.9rem 1rem;
     display: flex;
     flex-direction: column;
-    gap: 0.3rem;
+    gap: 0.35rem;
     color: inherit;
     text-decoration: none;
   }
-  .gw-boss-no {
-    font-size: 0.75rem;
-    text-transform: uppercase;
-    letter-spacing: 0.04em;
-    color: rgba(255, 255, 255, 0.55);
-  }
-  .gw-boss-name {
+  .gw-event-name {
     font-weight: 700;
-    font-size: 1.05rem;
+    font-size: 1.1rem;
   }
-  .gw-boss-meta {
-    font-size: 0.8rem;
+  .gw-event-meta {
+    font-size: 0.82rem;
     color: rgba(255, 255, 255, 0.65);
   }
-  .gw-boss-card .gw-el {
+  .gw-event-card .status-badge {
     align-self: flex-start;
-    margin-top: 0.2rem;
-  }
-  .gw-buffs {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-    gap: 0.75rem;
-  }
-  .gw-buff {
-    background: rgba(255, 255, 255, 0.05);
-    border: 1px solid rgba(255, 255, 255, 0.09);
-    border-radius: 10px;
-    padding: 0.7rem 0.8rem;
-    display: flex;
-    flex-direction: column;
-    gap: 0.2rem;
-  }
-  .gw-buff-name {
-    font-weight: 700;
-  }
-  .gw-buff-label {
-    font-size: 0.82rem;
-    color: rgba(255, 255, 255, 0.7);
+    margin-top: 0.25rem;
   }
 </style>
-
-<script>
-  // Refresh statuses from dates so the page stays correct between rebuilds
-  document.addEventListener('DOMContentLoaded', () => {
-    const statusLabels: Record<string, string> = {
-      current: 'Active',
-      upcoming: 'Upcoming',
-      ended: 'Ended',
-    };
-    document.querySelectorAll<HTMLElement>('.status-badge[data-start]').forEach(el => {
-      const start = Date.parse(el.dataset.start || '');
-      const end = Date.parse(el.dataset.end || '');
-      if (Number.isNaN(start) || Number.isNaN(end)) return;
-      const now = Date.now();
-      const status = now < start ? 'upcoming' : now > end ? 'ended' : 'current';
-      el.classList.remove('status-badge--current', 'status-badge--upcoming', 'status-badge--ended');
-      el.classList.add(`status-badge--${status}`);
-      el.textContent = statusLabels[status];
-    });
-  });
-</script>

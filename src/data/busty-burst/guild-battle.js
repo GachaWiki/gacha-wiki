@@ -23,10 +23,12 @@ export const GUILD_WAR_MECHANICS = {
   ]
 };
 
-export const GUILD_WAR_SEASONS = [
+export const GUILD_WAR_EVENTS = [
   {
     "id": "110",
-    "name": "Aug",
+    "name": "Guild Battle WIND",
+    "slug": "guild-battle-wind",
+    "element": "Wind",
     "startTime": "2026/08/25 04:00:00",
     "endTime": "2026/09/01 04:00:00",
     "background": "battle100101bg/100103",
@@ -622,8 +624,8 @@ export function getGuildWarBossSlugs() {
   return GUILD_WAR_BOSSES.map(b => b.slug);
 }
 
-export function getGuildWarSeason(id) {
-  return GUILD_WAR_SEASONS.find(s => s.id === id);
+export function getGuildWarEvent(id) {
+  return GUILD_WAR_EVENTS.find(s => s.id === id);
 }
 
 // battle map art on R2 (extracted from background-battle100101bg bundle)
