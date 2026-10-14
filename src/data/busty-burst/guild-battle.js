@@ -29,72 +29,100 @@ export const GUILD_WAR_EVENTS = [
       {
         "rank": "1",
         "reward": 3000,
-        "guildIcon": "100101"
+        "guildIcon": "100101",
+        "titleName": "Guild Battle 1st",
+        "titleIcon": "rank-1st"
       },
       {
         "rank": "2",
         "reward": 2700,
-        "guildIcon": "100102"
+        "guildIcon": "100102",
+        "titleName": "Guild Battle 2nd",
+        "titleIcon": "rank-2nd"
       },
       {
         "rank": "3",
         "reward": 2400,
-        "guildIcon": "100103"
+        "guildIcon": "100103",
+        "titleName": "Guild Battle 3rd",
+        "titleIcon": "rank-3rd"
       },
       {
         "rank": "4",
         "reward": 2100,
-        "guildIcon": "100104"
+        "guildIcon": "100104",
+        "titleName": "Guild Battle TOP10",
+        "titleIcon": "rank-top10"
       },
       {
         "rank": "5",
         "reward": 1800,
-        "guildIcon": "100104"
+        "guildIcon": "100104",
+        "titleName": "Guild Battle TOP10",
+        "titleIcon": "rank-top10"
       },
       {
         "rank": "6",
         "reward": 1500,
-        "guildIcon": "100104"
+        "guildIcon": "100104",
+        "titleName": "Guild Battle TOP10",
+        "titleIcon": "rank-top10"
       },
       {
         "rank": "10",
         "reward": 1200,
-        "guildIcon": "100104"
+        "guildIcon": "100104",
+        "titleName": "Guild Battle TOP10",
+        "titleIcon": "rank-top10"
       },
       {
         "rank": "20",
         "reward": 1050,
-        "guildIcon": "100105"
+        "guildIcon": "100105",
+        "titleName": "Guild Battle TOP100",
+        "titleIcon": "rank-top100"
       },
       {
         "rank": "50",
         "reward": 900,
-        "guildIcon": "100105"
+        "guildIcon": "100105",
+        "titleName": "Guild Battle TOP100",
+        "titleIcon": "rank-top100"
       },
       {
         "rank": "100",
         "reward": 750,
-        "guildIcon": "100105"
+        "guildIcon": "100105",
+        "titleName": "Guild Battle TOP100",
+        "titleIcon": "rank-top100"
       },
       {
         "rank": "200",
         "reward": 600,
-        "guildIcon": null
+        "guildIcon": null,
+        "titleName": null,
+        "titleIcon": null
       },
       {
         "rank": "300",
         "reward": 450,
-        "guildIcon": null
+        "guildIcon": null,
+        "titleName": null,
+        "titleIcon": null
       },
       {
         "rank": "400",
         "reward": 300,
-        "guildIcon": null
+        "guildIcon": null,
+        "titleName": null,
+        "titleIcon": null
       },
       {
         "rank": "500",
         "reward": 150,
-        "guildIcon": null
+        "guildIcon": null,
+        "titleName": null,
+        "titleIcon": null
       }
     ],
     "guildShop": [
@@ -796,6 +824,21 @@ export function getGuildWarBossSlugs() {
 export function getGuildWarEvent(id) {
   return GUILD_WAR_EVENTS.find(s => s.id === id);
 }
+
+// shop item icons on R2 (busty-burst/guild-battle/icons/item-<iconid>.webp from icon-item001)
+export function guildWarShopIcon(iconRef) {
+  const id = (iconRef || '').split('/')[1];
+  return id ? 'guild-battle/icons/item-' + id + '.webp' : null;
+}
+
+// rank title badge icons on R2 (title_and_medal guild001 Ranking badges)
+export const GUILD_WAR_RANK_ICON = {
+  'rank-1st': 'guild-battle/icons/rank-1st.webp',
+  'rank-2nd': 'guild-battle/icons/rank-2nd.webp',
+  'rank-3rd': 'guild-battle/icons/rank-3rd.webp',
+  'rank-top10': 'guild-battle/icons/rank-top10.webp',
+  'rank-top100': 'guild-battle/icons/rank-top100.webp',
+};
 
 // boss unit icon on R2 (merc-pic s-range sprite for the monster group, e.g. monster-5002.webp)
 export function guildWarBossIcon(iconGroup) {

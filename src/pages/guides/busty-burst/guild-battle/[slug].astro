@@ -13,7 +13,9 @@ import {
   GUILD_WAR_MAP_ART,
   GUILD_WAR_EVENT_BANNERS,
   GUILD_WAR_BUFF_ICONS,
+  GUILD_WAR_RANK_ICON,
   guildWarBossIcon,
+  guildWarShopIcon,
 } from '../../../../data/busty-burst/guild-battle.js';
 
 export async function getStaticPaths() {
@@ -167,14 +169,19 @@ const fmt = (n: number) => n.toLocaleString('en-US');
         <div class="gw-table-wrap">
           <table class="gw-table">
             <thead>
-              <tr><th>Rank</th><th>Reward</th><th>Guild Icon</th></tr>
+              <tr><th>Rank</th><th>Reward</th><th>Title</th></tr>
             </thead>
             <tbody>
               {ev.rankingRewards.map(r => (
                 <tr>
                   <td>{r.rank === '1' ? '1st' : r.rank === '2' ? '2nd' : r.rank === '3' ? '3rd' : r.rank}</td>
                   <td>{r.reward.toLocaleString('en-US')}</td>
-                  <td>{r.guildIcon ? 'Ranked icon ' + r.guildIcon : '-'}</td>
+                  <td class="gw-td-icon">
+                    {r.titleIcon && GUILD_WAR_RANK_ICON[r.titleIcon] ? (
+                      <img class="gw-rank-icon" src={`${R2}/${GUILD_WAR_RANK_ICON[r.titleIcon]}`} alt={r.titleName || ''} width="40" height="41" loading="lazy" />
+                    ) : null}
+                    {r.titleName || '-'}
+                  </td>
                 </tr>
               ))}
             </tbody>
@@ -198,7 +205,12 @@ const fmt = (n: number) => n.toLocaleString('en-US');
             <tbody>
               {ev.guildShop.map(i => (
                 <tr>
-                  <td>{i.name}</td>
+                  <td class="gw-td-icon">
+                    {guildWarShopIcon(i.icon) && (
+                      <img class="gw-item-icon" src={`${R2}/${guildWarShopIcon(i.icon)}`} alt={i.name} width="30" height="30" loading="lazy" />
+                    )}
+                    {i.name}
+                  </td>
                   <td>{i.cost.toLocaleString('en-US')} coins</td>
                   <td>x{i.limit}</td>
                 </tr>
@@ -442,6 +454,22 @@ const fmt = (n: number) => n.toLocaleString('en-US');
   .gw-buff-label {
     font-size: 0.82rem;
     color: rgba(255, 255, 255, 0.7);
+  }
+  .gw-td-icon {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  .gw-rank-icon {
+    width: 38px;
+    height: auto;
+    flex: none;
+  }
+  .gw-item-icon {
+    width: 30px;
+    height: 30px;
+    flex: none;
+    border-radius: 6px;
   }
   .gw-backlink a {
     color: var(--bb-primary-light);
