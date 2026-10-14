@@ -434,7 +434,7 @@ export const DEMI_CHARACTERS = {
       "name": "Spearhead's Gleam",
       "gameKey": "VanguardCommandersRadiance",
       "icon": "UI_SkillIcon_VanguardCommandersRadiance",
-      "description": "When <b>[Sunder Strike]</b> successfully reduces an enemy's AP, restores AP to all allies equal to the amount reduced by <b>[Sunder Strike]</b>.\n(This AP restoration effect can trigger up to 10 times per round.)\n\nUpon successfully Blocking, immediately gains 1 Counterattack opportunity.\nBlock Chance increases by {40,50,60,70,80,90,100}% of Crit Rate.\nCrit DMG increases by {50,60,70,80,90,100,110}% of Crit Rate.\n\nThe <b>[Guard]</b> effect from <b>Sovereign's Protection</b> also applies to yourself.\n\nEnables the use of <b>[Resolve]</b>.\n\n<b>[#sepline]</b><b>Resolve</b>\n\nFor 2R, SPD increases by 300% and Melee ATK increases by 300%.\nWhile this effect is active, <b>Guardian Barrier</b> cannot be used.\n<b>Gap Stab</b> is replaced with <b>Spatial Rend</b>.\n\n<b>[#sepline]</b><b>Spatial Rend</b>\n\nConsumes 60 AP to attack enemies within a 5m, 160° fan-shaped area, dealing Slash DMG equal to 120% of Melee ATK."
+      "description": "When <b>[Sunder Strike]</b> successfully reduces an enemy's AP, restores AP to all allies equal to the amount reduced by <b>[Sunder Strike]</b>.\n(This AP restoration effect can trigger up to 10 times per round.)\n\nUpon successfully Blocking, immediately gains 1 Counterattack opportunity.\nBlock Chance increases by {40,50,60,70,80,90,100}% of Crit Rate.\nCrit DMG increases by {50,60,70,80,90,100,110}% of Crit Rate.\n\nThe <b>[Guard]</b> effect from <b>Sovereign's Protection</b> also applies to yourself.\n\nEnables the use of <b>[Resolve]</b>.\n\n<b>[#sepline]</b><b>Resolve</b>\n\nFor 2R, SPD increases by 300% and Melee ATK increases by 300%.\nWhile this effect is active, <b>Guardian Barrier</b> cannot be used.\n<b>Gap Stab</b> is replaced with <b>Spatial Rend</b>.\n\n<b>[#sepline]</b><b>Spatial Rend</b>\n\nConsumes 60 AP to attack enemies within a 5m, 160° fan-shaped area, dealing Slash DMG equal to 120% of Melee ATK.\n\nBlock Chance is capped at 75%."
     }
   },
   "56": {
@@ -448,6 +448,19 @@ export const DEMI_CHARACTERS = {
       "gameKey": "WarDominor",
       "icon": "UI_SkillIcon_DemiGod_WarDominor",
       "description": "When <b>[Blood Frenzy]</b> inflicted by Wave of Blood is applied to an enemy, the target additionally gains 200 AP. This bonus AP is removed at the end of the turn in which the target acts.\n\nWhile under the effect of <b>[Burning Desire]</b> inflicted by Blood Pact, attacking a target affected by <b>[Blood Frenzy]</b> deals additional Slash DMG equal to {300,330,360,390,420,450,480}% of Korabi's Magic ATK at the end of the turn.\n\nThe AP cost of Wave of Blood and Whirlwind of Bloodlust is reduced by 20.\nWhenever a skill (other than standby) is used, the cooldown of Wave of Blood and Whirlwind of Bloodlust is reduced by 1R.\n\nSupport Counterattacks triggered by Timid, Yet Explosive! are guaranteed to activate."
+    }
+  },
+  "59": {
+    "name": "Emilia",
+    "heroId": 59,
+    "slug": "emilia",
+    "faceIcon": "UI_Icon_Hero_Emilia_N01.png",
+    "deploymentCost": 12,
+    "authoritySkill": {
+      "name": "Radiance Born of Trial",
+      "gameKey": "DemiGodBrilliantFruitOfTrials",
+      "icon": "UI_SkillIcon_DemiGod_DemiGodBrilliantFruitOfTrials",
+      "description": "Increases Skill Range by 3m.\nWhen using a skill other than Standby on an ally, consumes 20% of their current HP and increases their Crush Boost by {8,15,22,29,36,43,50}% for 2R. Stacks up to 3 times.\nWhile the Crush Boost effect is active, recovers 30% of HP lost when attacking.\nWhen using a skill other than Standby, grants all allies except the target a Shield equal to {10,20,30,40,50,60,70,80}% of Magic ATK for 2R.\nIncreases Healing Received by all allies by 100%."
     }
   }
 };

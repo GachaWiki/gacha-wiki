@@ -95,14 +95,14 @@ const rawKimGaYoungData = {
  // Unique Traits
  uniqueTraits: {
   yeonChaeYoungFan: {
-   name: 'Yeon Chae-young Fan',
+   name: "Yeon Chae-young Fan Club",
    description:
-    'Formation Cost -1, Agility -2, Vitality -2, Strength -1, Technic -3, Intelligence -1',
+    "Formation Cost -1, Agility -2, Vitality -2, Strength -1, Technic -3, Intelligence -1",
   },
   droneScouting: {
    name: 'Drone Scouting',
    description:
-    'Activates the Level 3 passive skill [Drone View]. [Drone View]: Uses the drone to scout the surroundings. At the start of each round, has a 60% chance to detect and cancel stealth on all hidden enemies on the map. Also, from the start of each round until the end of own first turn, all attack ranges increase by 3m.',
+    "On a successful attack, inflicts [Drone Scouting]. [Drone Scouting]: When Kim Ga-young attacks a target with [Drone Scouting], increases Final DMG by 50%. Stacks up to 5 times. When an ally attacks a target with [Drone Scouting], Kim Ga-young performs a Support Attack. [Drone Scouting] can only be applied to one enemy at a time. When Kim Ga-young attacks an enemy without [Drone Scouting], she loses all stacks of increased Final DMG.",
   },
   human: {
    name: 'Human',
@@ -136,7 +136,7 @@ const rawKimGaYoungData = {
    signature: {
     name: "Kim Ga-young Signature: Upgrade!!!",
     type: 'Signature',
-    description: "During combat, Increases Ranged ATK by 20% and enhances the Drone Vision skill. Drone Vision Uses a drone to scout the surroundings. Increases this unit's attack range by 3 m during battle and increases all allies' Support ATK DMG by 15%. At the start of each round and at the start of this unit's turn, detects hidden enemies and has a 60% chance each time to apply [Drone Vision] effect. [Drone Vision] effect: When hit, reduces All DEF and Evasion by 100 until the end of that turn. When an ally attacks a target with [Drone Vision], this unit performs a Support ATK. Upon successfully hitting an enemy with [Drone Vision], deals Fixed DMG equal to 55% of this unit's Ranged ATK and enters Stealth for 3 rounds at the end of that turn. If the attack hits a Weak Point, the Fixed DMG is doubled. This Fixed DMG is affected by Support ATK DMG Boost bonuses. If the user possesses the following General Traits, additional stats are gained: Efficient: Gain 15 AP at the start of battle Competent: Increases Ranged ATK by 10% Methodical: Increases Support ATK DMG by 5%",
+    description: "At the start of battle, inflicts [Drone Scouting] on all enemies. When performing a Support Attack, reduces the cooldown of \"Wire Maneuver Shot\" by 1R. At the end of a turn in which she attacks, enters Stealth for 3R. If the following General Traits are possessed, additionally gains the corresponding stats: Efficient: Crit DMG +100% Competent: Ranged ATK +30% Methodical: Support Attack DMG +30%",
    },
   },
   levelStats: {
@@ -166,7 +166,7 @@ const rawKimGaYoungData = {
     value: '190%',
    },
    description:
-    'Snipes an enemy with a rifle. Deals Pierce DMG equal to 190% of Ranged ATK and makes the target Unable to Counterattack for 1 round. During this attack, own ACC temporarily decreases by 15%.',
+    "Snipes an enemy with a rifle. Deals Pierce DMG equal to N% of Ranged ATK and makes the target Unable to Counterattack for 1 round. During this attack, own ACC temporarily decreases by 15%.",
   },
   supportFire: {
    gameKey: 'ShootingSupport',
@@ -177,7 +177,7 @@ const rawKimGaYoungData = {
    apCost: 0,
    cooldown: 0,
    description:
-    'Once per round, gains the [Reactive Support: Snipe] effect. [Reactive Support: Snipe]: When an ally other than yourself is attacked, performs a support counterattack and gains 12 AP. This effect then immediately vanishes.',
+    "Gains 10 AP on each successful Support Counterattack or Support Attack.",
   },
   camouflage: {
    gameKey: 'Camouflage',
@@ -188,7 +188,7 @@ const rawKimGaYoungData = {
    apCost: 33,
    cooldown: 2,
    description:
-    "Uses the drone's optical function to camouflage self. Gains [Camouflage: Stealth] for 3 rounds. Cannot perform Support Counterattack while stealth. [Camouflage: Stealth]: Becomes hidden and cannot be targeted by enemy skills. For one attack, CRIT rate increases by 100%, and CRIT DMG increases by {3,6,9,12,15,18,21,24,27,30}%.",
+    "Uses the drone's optical functions to conceal herself. Gains [Camouflage: Stealth] for 3R. - [Camouflage: Stealth]: Enters Stealth and cannot be targeted by enemy skills. While in Stealth, the first attack made has 100% Crit Rate and {3,6,9,12,15,18,21,24,27,30}% increased Crit DMG.",
   },
   wireManeuverShot: {
    gameKey: 'WireShot',
@@ -203,7 +203,7 @@ const rawKimGaYoungData = {
     value: '285%',
    },
    description:
-    "Quickly fires at the enemy and uses all drones' ultra-lightweight wires to leap 12m away in a straight line from the enemy. Deals Pierce Dmg equal to N% of your Ranged ATK to enemies hit by the attack. Gain the [Camouflage: Stealth] effect for 3R after landing. This skill can only be used {1,1,1,1,1,1,1,1,1,2} times during battle. - [Camouflage: Stealth]: Becomes hidden and cannot be targeted by enemy skills. For one attack, CRIT rate increases by 100%, and CRIT DMG increases by {3,6,9,12,15,18,21,24,27,30}%.",
+    "Rapidly fires at the enemy, then uses the ultralight wires of all her drones to leap 5m behind the target. Deals Pierce DMG equal to N% of Ranged ATK to the enemy hit. After landing, gains [Camouflage: Stealth] for 3R. - [Camouflage: Stealth]: Enters Stealth and cannot be targeted by enemy skills. While in Stealth, the first attack made has 100% Crit Rate and {3,6,9,12,15,18,21,24,27,30}% increased Crit DMG.",
    note: 'Limited to 2 uses per battle',
   },
  },

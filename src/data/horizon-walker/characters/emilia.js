@@ -98,12 +98,12 @@ const rawEmiliaData = {
       unique: {
         name: "Clinical Insight",
         type: 'Unique',
-        description: "Reduces Aggro Adjustment by {16,18,20,22,24} during battle and increases AP recovery by {16,20,24,28,32}%. When using a Support skill with Crit Rate ≥ 48%, increases own Crit Rate by {32,40,48,56,64}% until the end of the turn.",
+        description: "Decreases Aggro Adjustment by {16,18,20,22,24} and increases AP Recovery by {16,20,24,28,32}% during battle. At the start of the unit's turn, if Crit Rate is 48% or higher, increases Crit Rate by {32,40,48,56,64}% until the end of that turn.",
       },
       signature: {
         name: "Emilia Signature: Precision Treatment Protocol",
         type: 'Signature',
-        description: "During battle, the Sacred Prescription Protocol skill is replaced with a same-level Prescription Selection skill. When used, it grants 1-time [Extra Action] and allows the user to choose one of the same-level IV/Potion/Pill Prescription skills to activate. The replaced Prescription Selection is treated as a Standby skill. When using any skill except Standby during own turn, if Crit Rate exceeds 100%, increases Elemental Boost for all allies except self based on the excess amount (0.4% per 1% Crit Rate over 100%). This effect refreshes each time it triggers and expires at the end of each ally's turn. If Emilia's Crit Rate reaches 140%, this effect reaches its cap of +16% Elemental Boost. This bonus is affected by the allies' triage queue number. At the start of battle, for one round, the AP cost of Miraculous Injection is reduced by 21.",
+        description: "At the start of battle, gains AP equal to 200% of INT. When using any skill other than Standby, increases allies' Elemental Boost by an amount equal to 200% of the caster's INT for 2R.",
         note: "This signature skill only activates when Emilia equips this weapon.",
       },
     },
@@ -112,11 +112,11 @@ const rawEmiliaData = {
       "Magic ATK (weapon)": [11.0, 70.0],
       "Max HP (%)": [7.7, 49.0],
     },
-    exLevels: {
+        exLevels: {
       effects: [
-        { name: "Reduces Aggro Adjustment", valuesByLevel: "16 / 18 / 20 / 22 / 24" },
-        { name: "During battle and increases AP recovery", valuesByLevel: "16% / 20% / 24% / 28% / 32%" },
-        { name: "When using a Support skill with Crit Rate ≥ 48%, increases own Crit Rate", valuesByLevel: "32% / 40% / 48% / 56% / 64%" },
+        { name: "During battle, decreases Aggro Adjustment", valuesByLevel: "16 / 18 / 20 / 22 / 24" },
+        { name: "During battle, increases AP Recovery", valuesByLevel: "16% / 20% / 24% / 28% / 32%" },
+        { name: "At the start of the unit's turn, if Crit Rate is 48% or higher, increases Crit Rate until the end of that turn", valuesByLevel: "32% / 40% / 48% / 56% / 64%" },
       ],
     },
   },
@@ -140,12 +140,12 @@ const rawEmiliaData = {
     emiliasDiagnosisMethod: {
       name: "Emilia's Diagnosis Method",
       description:
-        "Unique. Formation Cost +1, Strength -8, Vitality -6, Intelligence 3. Activates the Level 1 passive skill [This Might Sting A Little]. [This Might Sting A Little]: Allows Basic ATK to be used on allies during battle. When using Basic ATK on an ally, the Stimulus Response Test skill is activated instead. [Stimulus Response Test]: Performs a \"medical-grade\" physical contact test using a diagnostic tool on an ally. Deals a small amount of Fixed DMG and grants AP equal to 14% of base Melee ATK. Can grant up to 14 AP this way. After use, there's a chance equal to the user's Crit Rate to trigger [Was that too hard?]. If triggered, the target gains 1 additional AP for every 20% of the user's Crit Rate. This effect caps at 7 AP when Crit Rate reaches 140%.",
+        "Unique. Formation Cost +1, Strength -8, Vitality -6, Intelligence 3. Formation Cost +1 Activates the Level 1 passive skill [This Might Sting A Little]. [This Might Sting A Little]: Allows Basic ATK to be used on allies during battle. When using Basic ATK on an ally, \"Stimulus Response Test\" is used instead. Stimulus Response Test Performs a \"medical-grade\" \"physical contact test\" on an ally using a \"diagnostic tool.\" Deals a \"small amount\" of Fixed DMG to the target and grants them 14 AP.",
     },
     caseCollection: {
       name: 'Case Collection',
       description:
-        "Unique. Activates the Level 1 passive skill [Initial Consultation]. [Initial Consultation]: At the start of battle, grants all allies the [Examination Target] effect. When the user restores HP to an ally with [Examination Target] using an Active Skill, the ally's [Examination Target] is consumed, and the user gains 1 stack of [Diagnostic Record]. [Diagnostic Record]: Reduces the AP cost of the Miraculous Injection skill by 7. Stacks up to 3 times.",
+        "Unique. When Emilia uses a skill, its effects increase based on her Crit Rate. At 100% Crit Rate, it gains up to 100% additional effect.",
     },
     marlon: {
       name: 'Marlon',
@@ -160,6 +160,7 @@ const rawEmiliaData = {
   // Skills and Passive
   skills: {
     guardiansStrike: {
+      gameKey: 'ProtectiveStrikeEmiliaTrait',
       name: "Guardian's Strike",
       level: '10/10',
       type: 'Skill',
@@ -170,9 +171,10 @@ const rawEmiliaData = {
         value: '114%',
       },
       description:
-        "Swings a mace to attack the enemy. Deals Crush DMG equal to 114% of Melee ATK and reduces the target's AP by 5.",
+        "Swings a mace to attack the target. Deals Crush DMG equal to N% of Melee ATK and reduces the target's AP by 5. Can be used on allies. When used on an ally, the Stimulus Response Test skill is activated instead.",
     },
     graceOfHealing: {
+      gameKey: 'CuringGrace',
       name: 'Grace of Healing',
       level: '10/10',
       type: 'Skill',
@@ -183,9 +185,10 @@ const rawEmiliaData = {
         value: '190%',
       },
       description:
-        'Prays to the Goddess of the Split Twigs with a devout heart for the healing of an ally. Recovers the HP of a designated ally by 190% of magic ATK.',
+        "Prays to the Goddess of the Split Twigs with a devout heart for the healing of an ally. Recovers the HP of a designated ally by {100,110,120,130,140,150,160,170,180,190}% of magic ATK.",
     },
     sacredPrescriptionProtocol: {
+      gameKey: 'SacredPrescriptionProtocol',
       name: 'Sacred Prescription Protocol',
       level: '10/10',
       type: 'Skill',
@@ -193,37 +196,40 @@ const rawEmiliaData = {
       cooldown: 2,
       healing: {
         type: 'Magic ATK',
-        value: '20%',
+        value: '190%',
       },
       description:
-        "Performs a preventative checkup on allies. Only allies compatible with modern medicine can be targeted. Restores HP to all allies within a 2m radius around the designated point (excluding self), equal to 20% of Magic ATK, and grants one of the following random effects to allies compatible with Modern Medicine for 2 Rounds: [IV Prescription]: The recipient's AP Recovery and SPD increases. [Potion Prescription]: The recipient's Crit DMG increases during their own turn and during an ally's turn. [Pill Prescription]: The recipient's Elemental Boost increases during their own turn and during an ally's turn. Effect: IV Prescription - Increases AP Recovery and SPD by 21%. Effect: Potion Prescription - The recipient's Crit DMG increases by 42% during their own turn or an ally's turn. Effect: Pill Prescription - The recipient's Elemental Boost increases by 21% during their own turn or an ally's turn.",
+        "Performs a preventative checkup on allies. Only allies compatible with modern medicine can be targeted. Restores HP to all allies within a 2m radius around the designated point (excluding self), equal to {100,110,120,130,140,150,160,170,180,190}% of Magic ATK, and grants [Sacred Prescription] to allies compatible with modern medicine for 2 Rounds. - [Sacred Prescription]: Increases Crit DMG by {24,26,28,30,32,34,36,38,40,42}% and Elemental Boost by {12,13,14,15,16,17,18,19,20,21}%.",
     },
     fieldMedbay: {
+      gameKey: 'FieldMedicalBay',
       name: 'Field Medbay',
       level: '10/10',
       type: 'Passive',
       apCost: 0,
       cooldown: 0,
       description:
-        "At the start of battle, grants [Triage Queue Number] 1/2/3/4 to the nearest allies in order. Allies who are incompatible with modern medicine do not gain this effect. Allies with earlier [Triage Queue Numbers] receive higher stat-increase effects when this unit grants buffs to other allies, increasing the original values from 120% up to 180%. For every point by which this unit's Strength, Intelligence, and Vitality exceed 3/14/5 respectively, the upper limit of these stat-increase effects is further increased by 9% per point.",
+        "At the start of battle, increases Crit Rate by {4,8,12,16,20,24,28,32,36,40}%.",
     },
     miraculousInjection: {
+      gameKey: 'UtmostMiraclePrescription',
       name: 'Miraculous Injection',
       level: '10/10',
       type: 'Skill',
       apCost: 81,
       cooldown: 2,
       description:
-        "Only allies compatible with modern medicine can be targeted. If the designated ally (excluding the user) has any Triage Queue Number, they gain the [Priority Treatment] effect for 2 rounds and are treated the same as an ally with Triage Queue Number 1. Then grants the designated ally the [Miracle Prescription] effect for 2 rounds. The ally consumes a portion of their current HP, but their All ATK increases. Effect: Miracle Prescription - Consumes 20% of current HP when activated. Increases the target's All ATK by 100% of the caster's Base Magic ATK. At the end of the caster's skill use, for every 1% of the target's missing HP, the All ATK gained from this effect increases by an additional 0.625%. This increase reaches its maximum value of 25% when the target has lost 40% of their HP.",
+        "Only allies compatible with modern medicine can be targeted. When the effect activates, consumes 20% of the target's current HP and grants [Miracle Prescription] for 2R. [Miracle Prescription]: Increases the target's All ATK by {80,88,96,104,112,120,128,136,144,152}% of the caster's base Magic ATK. For each point of INT above 13, increases the cap of the All ATK increase by 10%.",
     },
     overflowingGrace: {
+      gameKey: 'OverflowingGrace',
       name: 'Overflowing Grace',
       level: '10/10',
       type: 'Passive',
       apCost: 0,
       cooldown: 0,
       description:
-        "When using the Miraculous Injection skill, the targeted ally also gains the [Sacred Overdose] effect for 2 rounds, based on the user's Crit Rate as the activation chance. The ally consumes a portion of their current HP, and their Combat Skill DMG is slightly reduced, but their Basic ATK DMG increases. Effect: Sacred Overdose - Consumes 25% of current HP when activated. Reduces Combat Skill DMG by 8%, but increases Basic ATK DMG by 16%.",
+        "When using a skill on an ally, also grants [Sacred Overdose] for 2R. [Sacred Overdose]: Increases Base DMG by {5,10,15,20,25,30,35,40,45,50}%. Stacks up to 2 times.",
     },
   },
   heroId: 59,

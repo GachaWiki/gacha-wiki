@@ -92,14 +92,14 @@ const rawArahaData = {
  // Unique Traits
  uniqueTraits: {
   bullsEye: {
-   name: 'Bulls-eye',
+   name: "Bullseye",
    description:
-    'Activates the Level 1 passive skill [Bulls-eye]. [Bulls-eye]: At the start of battle, ACC increases by 100% for 1 round.',
+    "Activates the Level 1 passive skill [Bullseye]. [Bullseye]: When an ally is attacked, performs a Support Counterattack.",
   },
   guaranteedHit: {
    name: 'Guaranteed Hit',
    description:
-    'Activates the Level 3 passive skill [Sharp Eyes]. [Sharp Eyes]: On successful attack against an enemy, ACC increases by 18%, and all attack skill ranges increase by 2.4m. Can stack up to 5 times. Lose all stacks when changing position.',
+    "On a successful attack, inflicts [Drone Target] on the enemy for 2R. [Drone Target]: At the end of a turn in which Araha uses Wire Maneuver Shot, sends a self-destruct drone to each target, dealing additional Pierce DMG equal to 300% of Ranged ATK.",
   },
   woodElf: {
    name: 'Wood Elf',
@@ -128,12 +128,12 @@ const rawArahaData = {
    unique: {
     name: "The Phantom Menace",
     type: 'Unique',
-    description: "During battle, Ranged ATK increases by {18%,21%,24%,27%,30%}, and Counterattack DMG and Support Counterattack DMG increase by {16%,20%,24%,28%,32%} respectively. At the start of own turn, gains a shield equal to {6%,7%,8%,9%,10%} of Max HP. When an ally, excluding self, is attacked, the [Support Ready] effect is granted. Enemies hit by a Support Counterattack will have the [Intimidated] effect applied in a 3m radius around the target for 1 turn. [Intimidated]: All ATK decreases by {15%,17.5%,20%,22.5%,25%}. [Support Ready]: Ranged ATK increases by {3%,3.5%,4%,4.5%,5%}, and the effect ends at the end of own turn. Can stack up to 5 times.",
+    description: "Increases Counterattack DMG and Support Counterattack DMG by {20,40,60,80,100}% during battle. On a successful Support Counterattack, increases Ranged ATK by {10,20,30,40,50}% for 2R. Stacks up to 10 times. On a successful additional Response, increases Pierce Boost by {10,20,30,40,50}% for 2R. Stacks up to 10 times.",
    },
    signature: {
     name: "Araha Signature: Ghost",
     type: 'Signature',
-    description: "The existing [Camouflage: Stealth] effect now allows support counterattacks even while in stealth. Upon defeating an enemy or successfully performing a support counterattack while in stealth, this skill will reactivate and grant the [Camouflage: Stealth] effect again for 3R. When using the 'Wire Maneuver Shot' skill, gain the [ARTEMIS: Scan Battlefield] effect for 2R. The active skill 'Rapid Covert Maneuver' becomes available for use during battle. [ARTEMIS: Scan Battlefield]: Enables support counterattacks. [Camouflage: Stealth]: Enters stealth, preventing enemy skills from targeting. The first attack made while in stealth has a 100% critical hit rate and increases critical damage by 30%. Rapid Covert Maneuver The AI ARTEMIS stably controls the mobility drone without causing overload. Leaps to a designated location. Upon using this skill, gain the [ARTEMIS: Scan Battlefield] effect for 2R, and reacquire the [Camouflage: Stealth] effect for 3R.",
+    description: "On a successful Support Counterattack or when an ally is hit, performs an additional Response against a random enemy and gains 20 AP. On a successful attack, reduces the cooldown of \"Wire Maneuver Shot\" by 1R. At the end of a turn in which she attacks, enters Stealth for 3R. Unlocks the active skill \"Rapid Covert Maneuver\" during battle. [ ]Rapid Covert Maneuver The AI ARTEMIS maintains stable control of the mobility drones without overloading them. Leaps to the designated location. When this skill is used, grants [ARTEMIS: Scan Battlefield] to allies within 3m of the landing point for 1R and enters Stealth for 3R. When this skill is used, increases Additional DMG Boost by 100% for 3R. [ARTEMIS: Scan Battlefield]: Grants a Shield equal to 100% of Ranged ATK until the end of the Round and restores HP equal to 100% of Ranged ATK.",
    },
   },
   levelStats: {
@@ -142,11 +142,9 @@ const rawArahaData = {
   },
   exLevels: {
    effects: [
-    { name: "During battle, Ranged ATK increases", valuesByLevel: "18% / 21% / 24% / 27% / 30%" },
-    { name: "And Counterattack DMG and Support Counterattack DMG increase", valuesByLevel: "16% / 20% / 24% / 28% / 32%" },
-    { name: "At the start of own turn, gains a shield equal", valuesByLevel: "6% / 7% / 8% / 9% / 10%" },
-    { name: "[Intimidated]: All ATK decreases", valuesByLevel: "15% / 17.5% / 20% / 22.5% / 25%" },
-    { name: "[Support Ready]: Ranged ATK increases", valuesByLevel: "3% / 3.5% / 4% / 4.5% / 5%" },
+    { name: "During battle, increases Counterattack DMG and Support Counterattack DMG", valuesByLevel: "20% / 40% / 60% / 80% / 100%" },
+    { name: "On a successful Support Counterattack, increases Ranged ATK (2R, stacks up to 10 times)", valuesByLevel: "10% / 20% / 30% / 40% / 50%" },
+    { name: "On a successful additional Response, increases Pierce Boost (2R, stacks up to 10 times)", valuesByLevel: "10% / 20% / 30% / 40% / 50%" },
    ],
   },
  },
@@ -166,7 +164,7 @@ const rawArahaData = {
     value: '190%',
    },
    description:
-    'Snipes an enemy with a rifle. Deals Pierce DMG equal to 190% of Ranged ATK and makes the target Unable to Counterattack for 1 round. During this attack, own ACC temporarily decreases by 15%.',
+    "Snipes an enemy with a rifle. Deals Pierce DMG equal to N% of Ranged ATK and makes the target Unable to Counterattack for 1 round. During this attack, own ACC temporarily decreases by 15%.",
   },
   supportFire: {
    gameKey: 'ShootingSupport',
@@ -177,7 +175,7 @@ const rawArahaData = {
    apCost: 0,
    cooldown: 0,
    description:
-    'Once per round, gains the [Reactive Support Snipe] effect. [Reactive Support: Snipe]: When an ally other than yourself is attacked, performs a support counterattack and gains 12 AP. This effect then immediately vanishes.',
+    "Gains 10 AP on each successful Support Counterattack or Support Attack.",
   },
   camouflage: {
    gameKey: 'Camouflage',
@@ -188,7 +186,7 @@ const rawArahaData = {
    apCost: 33,
    cooldown: 2,
    description:
-    "Uses the drone's optical function to camouflage self. Gains [Camouflage: Stealth] for 3 rounds. Cannot perform Support Counterattack while stealth. [Camouflage: Stealth]: Becomes hidden and cannot be targeted by enemy skills. For one attack, CRIT rate increases by 100%, and CRIT DMG increases by {3,6,9,12,15,18,21,24,27,30}%.",
+    "Uses the drone's optical functions to conceal herself. Gains [Camouflage: Stealth] for 3R. - [Camouflage: Stealth]: Enters Stealth and cannot be targeted by enemy skills. While in Stealth, the first attack made has 100% Crit Rate and {3,6,9,12,15,18,21,24,27,30}% increased Crit DMG.",
   },
   wireManeuverShot: {
    gameKey: 'WireShot',
@@ -203,7 +201,7 @@ const rawArahaData = {
     value: '285%',
    },
    description:
-    "Quickly fires at the enemy and uses all drones' ultra-lightweight wires to leap 12m away in a straight line from the enemy. Deals Pierce Dmg equal to N% of your Ranged ATK to enemies hit by the attack. Gain the [Camouflage: Stealth] effect for 3R after landing. This skill can only be used {1,1,1,1,1,1,1,1,1,2} times during battle. - [Camouflage: Stealth]: Becomes hidden and cannot be targeted by enemy skills. For one attack, CRIT rate increases by 100%, and CRIT DMG increases by {3,6,9,12,15,18,21,24,27,30}%.",
+    "Rapidly fires at the enemy, then uses the ultralight wires of all her drones to leap 5m behind the target. Deals Pierce DMG equal to N% of Ranged ATK to the enemy hit. After landing, gains [Camouflage: Stealth] for 3R. - [Camouflage: Stealth]: Enters Stealth and cannot be targeted by enemy skills. While in Stealth, the first attack made has 100% Crit Rate and {3,6,9,12,15,18,21,24,27,30}% increased Crit DMG.",
   },
  },
  rarityStages: {

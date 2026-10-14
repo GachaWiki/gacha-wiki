@@ -74,6 +74,16 @@ export const SKILL_LEVELS = {
     9: { min: '4.5', max: '5.45' },
     10: { min: '4.75', max: '5.75' },
   },
+  'AnnihilationTyphoon': {
+    1: { min: '2', max: '2.42' },
+    2: { min: '2.2', max: '2.66' },
+    3: { min: '2.4', max: '2.9' },
+    4: { min: '2.6', max: '3.15' },
+    5: { min: '2.8', max: '3.39' },
+    6: { min: '3', max: '3.63' },
+    7: { min: '3.2', max: '3.87' },
+    8: { min: '3.4', max: '4.11' },
+  },
   'ArcaneExplosion': {
     1: { min: '0.3', max: '0.36' },
     2: { min: '0.33', max: '0.4' },
@@ -741,6 +751,12 @@ export const SKILL_LEVELS = {
   'DreamLiar_KingNate_Attack': {
     1: { min: '1', max: '1.21' },
   },
+  'DreamLiar_KingNate_Encroachment': {
+    1: { min: '100', max: '121' },
+  },
+  'DreamLiar_KingNate_EndlessNightmare': {
+    1: { min: '0.1', max: '0.12' },
+  },
   'DreamLiar_KnightOfNate_Leap': {
     1: { min: '1', max: '1.21' },
   },
@@ -1102,6 +1118,9 @@ export const SKILL_LEVELS = {
     1: { min: '1.5', max: '1.82' },
   },
   'GOTD_FallenBeastApostleElite_HarvestScythe': {
+    1: { min: '1', max: '1.21' },
+  },
+  'GOTD_FallenBeastApostleElite_HarvestScythe2': {
     1: { min: '1', max: '1.21' },
   },
   'GOTD_FallenBeastApostleMizagne_DarkWave': {

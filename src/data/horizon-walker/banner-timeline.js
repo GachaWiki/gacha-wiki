@@ -5,6 +5,20 @@
 // later "Searches have ended" announcement (its own patch note is not on the wiki).
 export const bannerRuns = [
   {
+    type: "rerun",
+    start: "2026-10-08", end: "2026-10-22",
+    approximate: false, reconstructed: false,
+    entries: [
+      { name: "Emilia, the Last Fruit", kind: "vanguard", charSlug: "emilia", noteImage: "patch-notes/4b76cf674984.webp" },
+      { name: "Seryel: Medical Hammer", kind: "weapon", weaponImage: "Weapon_FullIMG_MaceAndShield_ForEmilia_MS" },
+      { name: "JK220 Artemis", kind: "weapon", weaponImage: "Weapon_FullIMG_JK220_Artemis" },
+      { name: "SS4-Modified", kind: "weapon", weaponImage: "Weapon_FullIMG_Rifle_ForKimGaYeong" },
+    ],
+    bannerImage: "patch-notes/130118f5ceae.webp",
+    sourceNote: "update-2026-10-07",
+    sourceUrl: "/guides/horizon-walker/updates/update-2026-10-07/",
+  },
+  {
     type: "debut",
     start: "2026-09-23", end: "2026-10-08",
     approximate: false, reconstructed: false,
@@ -1675,6 +1689,14 @@ export const characterReleases = [
 // Demi-God Ascension release dates. batch: true = released with the system
 // itself (the patch note introduces the system without naming characters).
 export const demiReleases = [
+  {
+    "name": "Emilia",
+    "slug": "emilia",
+    "date": "2026-10-08",
+    "batch": false,
+    "note": "update-2026-10-07",
+    "url": "/guides/horizon-walker/updates/update-2026-10-07/"
+  },
   {
     "name": "Korabi",
     "slug": "korabi",
