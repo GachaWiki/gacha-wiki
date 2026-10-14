@@ -4,9 +4,12 @@
 // themed with the game's own CSS: English wiki or the Traditional Chinese
 // wiki (the game's base language).
 import LanguageSelectTemplate from '../../../templates/LanguageSelectTemplate.astro';
+import { getGameLanguageInfo } from '../../../data/game-languages';
 import '../../../styles/games/gene-sys-adam/gsa-common.css';
 
 export const prerender = true;
+
+const langs = getGameLanguageInfo('gene-sys-adam');
 ---
 
 <LanguageSelectTemplate
@@ -22,13 +25,5 @@ export const prerender = true;
   heroClass="gsa-title-only-section"
   titleClass="gsa-title-only-heading"
   decorativeLines
-  languages={[
-    { lang: 'English', note: 'English wiki', href: '/guides/gene-sys-adam/' },
-    { lang: '繁體中文', htmlLang: 'zh-Hant', note: '遊戲官方文本 · 黑色基因', href: '/zh-tw/guides/gene-sys-adam/' },
-    { lang: '日本語', htmlLang: 'ja', note: '公式テキスト · 創生記：アダム', href: '/ja/guides/gene-sys-adam/' },
-    { lang: '한국어', htmlLang: 'ko', note: '공식 텍스트 · 던 오프 아담', href: '/ko/guides/gene-sys-adam/' },
-    { lang: 'Tiếng Việt', htmlLang: 'vi', note: 'Văn bản chính thức · Gene-Sys: Adam', href: '/vi/guides/gene-sys-adam/' },
-    { lang: 'ไทย', htmlLang: 'th', note: 'ข้อความอย่างเป็นทางการ · Gene-Sys: Adam', href: '/th/guides/gene-sys-adam/' },
-    { lang: '简体中文', htmlLang: 'zh-Hans', note: '游戏官方文本 · 黑色基因', href: '/zh-cn/guides/gene-sys-adam/' },
-  ]}
+  languages={langs?.languages ?? []}
 />

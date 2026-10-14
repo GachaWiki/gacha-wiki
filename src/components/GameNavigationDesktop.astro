@@ -1,5 +1,6 @@
 ---
 import { getGameData, isValidGameKey, type GameKey } from '../data/game-navigation';
+import { getGameLanguageSection } from '../data/game-languages';
 import { getGameById } from '../data/games';
 import { getMusicConfig } from '../data/game-music';
 import { Image } from 'astro:assets';
@@ -45,6 +46,12 @@ const bestMatch = navHrefs
 const isActive = (href: string) => href === bestMatch;
 
 const musicConfig = getMusicConfig(validatedGameKey);
+
+// Languages dropdown for games with localized wikis (registry-driven, so both
+// the English wiki and the localized wikis get the same switcher). Appended
+// after the game's own sections; not part of the active-link matching above.
+const langSection = getGameLanguageSection(validatedGameKey);
+const navSections = langSection && game ? [...game.sections, langSection] : (game?.sections ?? []);
 
 ---
 
@@ -97,7 +104,7 @@ const musicConfig = getMusicConfig(validatedGameKey);
       <!-- Desktop Section Navigation -->
       <div class="section-nav">
         {
-          game.sections.map(section => (
+          navSections.map(section => (
             <div class="section-item">
               <button
                 type="button"

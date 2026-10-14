@@ -6,6 +6,7 @@
 import MajoLangLayout from '../../../../layouts/majo/MajoLangLayout.astro';
 import DiscordPromo from '../../../../components/DiscordPromo.astro';
 import DiscordButton from '../../../../components/DiscordButton.astro';
+import GameLanguageLinks from '../../../../components/GameLanguageLinks.astro';
 import { majoCharacters } from '../../../../data/majo/characters.js';
 import { MJ_UI } from '../../../../data/majo/ja/ui.js';
 import '../../../../styles/games/majo/majo-landing.css';
@@ -20,13 +21,6 @@ function withStrong(para, strong) {
   return [a, strong, rest.join(strong)];
 }
 
-const langs = [
-  { label: 'English', href: '/guides/majo/' },
-  { label: '简体中文', href: '/zh/guides/majo/' },
-  { label: '繁體中文', href: '/zh-tw/guides/majo/' },
-  { label: '日本語', href: '/ja/guides/majo/' },
-  { label: '한국어', href: '/ko/guides/majo/' },
-].filter(l => l.href !== MJ_UI.baseUrl);
 ---
 
 <MajoLangLayout
@@ -105,40 +99,8 @@ const langs = [
       )) }
     </div>
 
-    <div class="majo-lang-row">
-      <p class="majo-lang-title">{ MJ_UI.otherLangsTitle }</p>
-      <div class="majo-lang-chips">
-        { langs.map(l => <a class="majo-lang-chip" href={ l.href }>{ l.label }</a>) }
-      </div>
-    </div>
+    <GameLanguageLinks gameKey="majo" currentHref={MJ_UI.baseUrl} title={MJ_UI.otherLangsTitle} />
   </section>
 
   <DiscordPromo accent="#8577a8" />
 </MajoLangLayout>
-
-<style>
-  .majo-lang-row {
-    margin-top: 2.5rem;
-    padding-top: 1.75rem;
-    border-top: 1px solid rgba(255, 255, 255, 0.1);
-  }
-  .majo-lang-title {
-    margin: 0 0 0.75rem 0;
-    color: rgba(255, 255, 255, 0.75);
-    font-size: 0.9rem;
-  }
-  .majo-lang-chips {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.6rem;
-  }
-  .majo-lang-chip {
-    padding: 0.45rem 1rem;
-    border: 1px solid rgba(255, 255, 255, 0.22);
-    border-radius: 999px;
-    background: rgba(255, 255, 255, 0.05);
-    color: rgba(255, 255, 255, 0.85);
-    text-decoration: none;
-    font-size: 0.875rem;
-  }
-</style>

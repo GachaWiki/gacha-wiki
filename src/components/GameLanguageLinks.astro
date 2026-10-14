@@ -1,0 +1,65 @@
+---
+// Bottom-of-landing "Other languages" block: flat chips linking to every
+// other language version of a game's wiki, driven by the game-languages
+// registry. The current language (matched by landing href) is excluded and
+// the title localizes to the current language automatically. Flat borders
+// only, no hover, no glow (site style rules).
+import { getGameLanguageInfo, OTHER_LANGS_TITLE } from '../data/game-languages';
+
+interface Props {
+  gameKey: string;
+  /** landing href of the CURRENT language version, e.g. '/ja/guides/majo/' */
+  currentHref: string;
+  /** explicit heading override (defaults to the current language's label) */
+  title?: string;
+}
+
+const { gameKey, currentHref, title } = Astro.props;
+
+const info = getGameLanguageInfo(gameKey);
+const current = info?.languages.find(l => l.href === currentHref);
+const others = (info?.languages ?? []).filter(l => l.href !== currentHref);
+const heading = title || OTHER_LANGS_TITLE[current?.htmlLang || 'en'] || 'Other languages';
+---
+
+{others.length > 0 && (
+  <section class="game-lang-links" aria-label="Wiki languages">
+    <p class="game-lang-title">{heading}</p>
+    <div class="game-lang-chips">
+      {
+        others.map(l => (
+          <a class="game-lang-chip" href={l.href} lang={l.htmlLang} aria-label={`${l.lang} wiki`}>
+            {l.lang}
+          </a>
+        ))
+      }
+    </div>
+  </section>
+)}
+
+<style>
+  .game-lang-links {
+    margin-top: 2.5rem;
+    padding-top: 1.75rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+  }
+  .game-lang-title {
+    margin: 0 0 0.75rem 0;
+    color: rgba(255, 255, 255, 0.75);
+    font-size: 0.9rem;
+  }
+  .game-lang-chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.6rem;
+  }
+  .game-lang-chip {
+    padding: 0.45rem 1rem;
+    border: 1px solid rgba(255, 255, 255, 0.22);
+    border-radius: 999px;
+    background: rgba(255, 255, 255, 0.05);
+    color: rgba(255, 255, 255, 0.85);
+    text-decoration: none;
+    font-size: 0.875rem;
+  }
+</style>

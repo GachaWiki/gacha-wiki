@@ -8,6 +8,7 @@
 import HwLangLayout from '../../../layouts/lang/HwLangLayout.astro';
 import FormattedDate from '../../../components/FormattedDate.astro';
 import DiscordPromo from '../../../components/DiscordPromo.astro';
+import GameLanguageLinks from '../../../components/GameLanguageLinks.astro';
 import HWGuideIcon from '../../../components/horizon-walker/HWGuideIcon.astro';
 import { horizonWalkerConfig } from '../../../data/horizon-walker/horizon-walker.js';
 import { HW_ZH } from '../../../data/horizon-walker/ko/ui.js';
@@ -196,21 +197,6 @@ const categoryGroups = horizonWalkerConfig.categoryGroups.map(g => ({
     </div>
   </section>
 
-  <!-- Language switch -->
-  <section class="hw-resources-section">
-    <h2 class="hw-resources-title">언어</h2>
-    <div class="hw-resources-grid">
-      <div class="hw-resource-category hw-category-medium">
-        <div class="hw-category-header">
-          <h3>Language</h3>
-          <p class="hw-category-description">영어 위키로 전환</p>
-        </div>
-        <div class="hw-buttons-grid">
-          <a href={HW_ZH.selectorUrl} class="hw-resource-button" aria-label="English version">
-            <span class="hw-guide-label">English</span>
-          </a>
-        </div>
-      </div>
-    </div>
-  </section>
+  <!-- Other language wikis -->
+  <GameLanguageLinks gameKey="horizon-walker" currentHref={HW_ZH.baseUrl} />
 </HwLangLayout>

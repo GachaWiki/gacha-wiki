@@ -1,5 +1,6 @@
 ---
 import { getGameData, isValidGameKey, type GameKey } from '../data/game-navigation';
+import { getGameLanguageSection } from '../data/game-languages';
 import { getMusicConfig } from '../data/game-music';
 import { Image } from 'astro:assets';
 import GameMusicPlayer from './GameMusicPlayer.astro';
@@ -36,6 +37,12 @@ const bestMatch = navHrefs
 const isActive = (href: string) => href === bestMatch;
 
 const musicConfig = getMusicConfig(validatedGameKey);
+
+// Languages section for games with localized wikis (registry-driven). The
+// toggle button label above intentionally stays on the game's own last
+// section, so appending here does not change it.
+const langSection = getGameLanguageSection(validatedGameKey);
+const navSections = langSection && game ? [...game.sections, langSection] : (game?.sections ?? []);
 
 ---
 
@@ -107,7 +114,7 @@ const musicConfig = getMusicConfig(validatedGameKey);
   <div class="mobile-sections-wrapper">
     <div class="mobile-sections-grid">
       {
-        game.sections.map(section => (
+        navSections.map(section => (
           <div class="mobile-section">
             <div class="mobile-section-header">
               <span class="mobile-section-title">{section.title}</span>

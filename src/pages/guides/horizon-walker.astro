@@ -3,6 +3,7 @@ import { r2Url } from '../../data/r2-config.js';
 import HorizonWalkerLayout from '../../layouts/horizon-walker/LandingLayout.astro';
 import FormattedDate from '../../components/FormattedDate.astro';
 import DiscordPromo from '../../components/DiscordPromo.astro';
+import GameLanguageLinks from '../../components/GameLanguageLinks.astro';
 import HWGuideIcon from '../../components/horizon-walker/HWGuideIcon.astro';
 import { horizonWalkerConfig } from '../../data/horizon-walker/horizon-walker.js';
 
@@ -182,9 +183,12 @@ const hasPlatforms = gameInfo.platforms && gameInfo.platforms.length > 0;
                 ))}
               </div>
             </div>
-          );
+          )
         })
       }
     </div>
   </section>
+
+  <!-- Other language wikis -->
+  <GameLanguageLinks gameKey="horizon-walker" currentHref="/guides/horizon-walker/" />
 </HorizonWalkerLayout>

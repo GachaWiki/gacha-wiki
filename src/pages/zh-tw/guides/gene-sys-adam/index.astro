@@ -3,6 +3,7 @@
 // 遊戲文字採官方繁體中文，簡介與說明為本維基撰寫。
 import GsaZhLayout from '../../../../layouts/gene-sys-adam/GsaZhLayout.astro';
 import DiscordPromo from '../../../../components/DiscordPromo.astro';
+import GameLanguageLinks from '../../../../components/GameLanguageLinks.astro';
 import { gsaCharactersZh } from '../../../../data/gene-sys-adam/zh-tw/characters.js';
 import { GSA_ZH } from '../../../../data/gene-sys-adam/zh-tw/ui.js';
 import '../../../../styles/games/gene-sys-adam/gsa-landing.css';
@@ -94,4 +95,6 @@ const base = GSA_ZH.baseUrl;
       </div>
     </div>
   </section>
+
+  <GameLanguageLinks gameKey="gene-sys-adam" currentHref={base} />
 </GsaZhLayout>

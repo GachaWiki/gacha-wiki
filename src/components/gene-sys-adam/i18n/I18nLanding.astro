@@ -3,6 +3,8 @@
 // (ja/ko/th/vi/zh-cn): story blurb, download buttons, the localized character
 // database card and pointers to the EN/zh-tw sections (tier list, banners,
 // updates). All copy comes from the per-language ui module; gsa-landing.css.
+import GameLanguageLinks from '../../GameLanguageLinks.astro';
+
 export interface Props {
   ui: any;
   charCount: number;
@@ -67,8 +69,9 @@ const L = ui.labels;
         <a href="/guides/gene-sys-adam/tier-list/" class="gsa-resource-button">Tier List (EN)</a>
         <a href="/guides/gene-sys-adam/banners/" class="gsa-resource-button">Banners (EN)</a>
         <a href="/guides/gene-sys-adam/updates/" class="gsa-resource-button">Updates (EN)</a>
-        <a href="/zh-tw/guides/gene-sys-adam/" class="gsa-resource-button">繁體中文</a>
       </div>
     </div>
   </div>
 </section>
+
+<GameLanguageLinks gameKey="gene-sys-adam" currentHref={base} />

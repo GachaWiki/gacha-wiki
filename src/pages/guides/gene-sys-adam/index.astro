@@ -4,6 +4,7 @@
 import GSALayout from '../../../layouts/gene-sys-adam/LandingLayout.astro';
 import FormattedDate from '../../../components/FormattedDate.astro';
 import DiscordPromo from '../../../components/DiscordPromo.astro';
+import GameLanguageLinks from '../../../components/GameLanguageLinks.astro';
 import { gsaCharacters } from '../../../data/gene-sys-adam/characters.js';
 import { SITE } from '../../../consts';
 import '../../../styles/games/gene-sys-adam/gsa-landing.css';
@@ -93,4 +94,7 @@ const roster = gsaCharacters.length;
       </div>
     </div>
   </section>
+
+  <!-- Other language wikis -->
+  <GameLanguageLinks gameKey="gene-sys-adam" currentHref="/guides/gene-sys-adam/" />
 </GSALayout>

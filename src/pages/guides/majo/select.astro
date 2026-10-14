@@ -7,6 +7,7 @@
 // game's own official localization (zh-Hans, zh-Hant, ja, ko).
 import LanguageSelectTemplate from '../../../templates/LanguageSelectTemplate.astro';
 import MajoBaseHead from '../../../components/majo/MajoBaseHead.astro';
+import { getGameLanguageInfo } from '../../../data/game-languages';
 import '../../../styles/games/majo/majo-colors.css';
 import '../../../styles/games/majo/majo-layout.css';
 import '../../../styles/games/majo/majo-common.css';
@@ -14,6 +15,7 @@ import '../../../styles/games/majo/majo-common.css';
 export const prerender = true;
 
 const title = 'Choose Language';
+const langs = getGameLanguageInfo('majo');
 ---
 
 <LanguageSelectTemplate
@@ -29,13 +31,7 @@ const title = 'Choose Language';
   heroClass="majo-title-only-section"
   titleClass="majo-title-only-heading"
   decorativeLines
-  languages={[
-    { lang: 'English', note: 'English wiki', href: '/guides/majo/' },
-    { lang: '简体中文', htmlLang: 'zh-Hans', note: '游戏官方文本 · 魔女之夜', href: '/zh/guides/majo/' },
-    { lang: '繁體中文', htmlLang: 'zh-Hant', note: '遊戲官方文本 · 魔女之夜', href: '/zh-tw/guides/majo/' },
-    { lang: '日本語', htmlLang: 'ja', note: 'ゲーム公式テキスト · ウィッチーズ・ナイト', href: '/ja/guides/majo/' },
-    { lang: '한국어', htmlLang: 'ko', note: '게임 공식 텍스트 · 마녀의 밤', href: '/ko/guides/majo/' },
-  ]}
+  languages={langs?.languages ?? []}
 >
   <MajoBaseHead slot="head" title={title} description="Choose the language for the MAJO: Witches Night wiki: English, Simplified Chinese, Traditional Chinese, Japanese or Korean." />
 </LanguageSelectTemplate>

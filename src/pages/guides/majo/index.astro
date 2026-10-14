@@ -5,6 +5,7 @@ import { majoCharacters } from '../../../data/majo/characters.js';
 import { SITE } from '../../../consts';
 import DiscordPromo from '../../../components/DiscordPromo.astro';
 import DiscordButton from '../../../components/DiscordButton.astro';
+import GameLanguageLinks from '../../../components/GameLanguageLinks.astro';
 import '../../../styles/games/majo/majo-landing.css';
 
 const R2 = 'https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/majo';
@@ -136,43 +137,12 @@ const witches = majoCharacters.length;
         </div>
       </div>
     </div>
-    <div class="majo-lang-row">
-      <p class="majo-lang-title">Other languages · 其他语言 · 他の言語 · 다른 언어</p>
-      <div class="majo-lang-chips">
-        <a class="majo-lang-chip" href="/zh/guides/majo/">简体中文</a>
-        <a class="majo-lang-chip" href="/zh-tw/guides/majo/">繁體中文</a>
-        <a class="majo-lang-chip" href="/ja/guides/majo/">日本語</a>
-        <a class="majo-lang-chip" href="/ko/guides/majo/">한국어</a>
-      </div>
-    </div>
+    <GameLanguageLinks
+      gameKey="majo"
+      currentHref="/guides/majo/"
+      title="Other languages · 其他语言 · 他の言語 · 다른 언어"
+    />
   </section>
 
   <DiscordPromo accent="#8577a8" />
 </MajoLayout>
-
-<style>
-  .majo-lang-row {
-    margin-top: 2.5rem;
-    padding-top: 1.75rem;
-    border-top: 1px solid rgba(255, 255, 255, 0.1);
-  }
-  .majo-lang-title {
-    margin: 0 0 0.75rem 0;
-    color: rgba(255, 255, 255, 0.75);
-    font-size: 0.9rem;
-  }
-  .majo-lang-chips {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.6rem;
-  }
-  .majo-lang-chip {
-    padding: 0.45rem 1rem;
-    border: 1px solid rgba(255, 255, 255, 0.22);
-    border-radius: 999px;
-    background: rgba(255, 255, 255, 0.05);
-    color: rgba(255, 255, 255, 0.85);
-    text-decoration: none;
-    font-size: 0.875rem;
-  }
-</style>
