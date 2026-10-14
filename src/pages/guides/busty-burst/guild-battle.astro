@@ -1,6 +1,6 @@
 ---
-// Busty Burst Guild Battle database: mode mechanics, season boss ladder,
-// element profile + season buffs from game data; support pickups at the bottom.
+// Busty Burst Guild Battle database: mode rules, season overview, boss pages
+// (stats + full kits live on each boss page) and support pickup summons.
 import BannerTimelineLayout from '../../../layouts/busty-burst/BannerTimelineLayout.astro';
 import BBBannerImage from '../../../components/busty-burst/BBBannerImage.astro';
 import RarityImage from '../../../components/busty-burst/RarityImage.astro';
@@ -14,7 +14,7 @@ import {
 
 const pageTitle = 'Busty Burst Guild Battle Database - Bosses, Seasons and Rewards';
 const pageDescription =
-  'Guild Battle database for Busty Burst Fantasy: how the alliance battle mode works, season boss ladder with cycles and levels, boss element weaknesses, season unit buffs and support pickup summons.';
+  'Guild Battle database for Busty Burst Fantasy: mode rules, season boss list with stats and full skill kits, boss weaknesses, season unit buffs and support pickup summons.';
 const gameTitle = 'Guild Battle';
 
 const formatDate = (dateString: string) => {
@@ -60,14 +60,14 @@ const seasons = GUILD_WAR_SEASONS.map(s => ({
 <BannerTimelineLayout title={pageTitle} description={pageDescription} gameTitle={gameTitle}>
   <meta
     slot="head"
-    content="Busty Burst, Busty Burst Fantasy, guild battle, alliance war, guild boss, boss ladder, guild coins, Ero Lab games"
+    content="Busty Burst, Busty Burst Fantasy, guild battle, alliance war, guild boss, boss stats, boss skills, guild coins, Ero Lab games"
   />
   <main class="banner-timeline-content" role="main">
     <p class="intro-text">
-      Guild Battle is the alliance mode where guilds fight a shared element-themed boss for Guild
-      Points and compete on global and guild-internal rankings. This database is built from the
-      game data: seasons, the 40-cycle boss ladder, boss weaknesses, season unit buffs and the
-      support pickup summons.
+      Guild Battle is the monthly alliance boss mode. The whole guild fights the same boss over 40
+      cycles, everyone gets 3 runs a day, and the damage turns into Guild Points that decide the
+      global and guild rankings at the end. Each season brings an element-themed boss lineup with
+      its own stats and skill kits: every boss has a dedicated page below.
     </p>
 
     <!-- How it works -->
@@ -76,7 +76,7 @@ const seasons = GUILD_WAR_SEASONS.map(s => ({
       <div class="gw-facts">
         <div class="gw-fact">
           <span class="gw-fact-value">3</span>
-          <span class="gw-fact-label">battles per day; paladins lock after use until the daily reset</span>
+          <span class="gw-fact-label">runs per day; used paladins sit out until the daily reset</span>
         </div>
         <div class="gw-fact">
           <span class="gw-fact-value">2</span>
@@ -84,11 +84,11 @@ const seasons = GUILD_WAR_SEASONS.map(s => ({
         </div>
         <div class="gw-fact">
           <span class="gw-fact-value">120s</span>
-          <span class="gw-fact-label">time limit per battle; damage still counts on timeout or withdraw</span>
+          <span class="gw-fact-label">per fight; damage still counts on timeout or withdraw</span>
         </div>
         <div class="gw-fact">
           <span class="gw-fact-value">1/day</span>
-          <span class="gw-fact-label">each support paladin from a guild member can join once per day</span>
+          <span class="gw-fact-label">per borrowed support paladin from a guild member</span>
         </div>
       </div>
       <ul class="gw-notes">
@@ -97,10 +97,7 @@ const seasons = GUILD_WAR_SEASONS.map(s => ({
             <li>{n}</li>
           ))
         }
-        <li>
-          Guild Coins (earned from battles and rankings) are spent in the Guild Shop; guild
-          membership is locked for the whole battle period.
-        </li>
+        <li>Guild Coins come from battles and rankings and go into the Guild Shop.</li>
       </ul>
     </section>
 
@@ -113,77 +110,37 @@ const seasons = GUILD_WAR_SEASONS.map(s => ({
         </h2>
         <p class="gw-period">
           {formatDate(season.startTime.replace(/\//g, '-').replace(' ', 'T'))} -
-          {formatDate(season.endTime.replace(/\//g, '-').replace(' ', 'T'))} (UTC), coin item:
-          {season.coinItem}
+          {formatDate(season.endTime.replace(/\//g, '-').replace(' ', 'T'))} (UTC) | Coin item:
+          {season.coinItem} | Field mobs: {season.fieldMobs.length} Water R units
         </p>
 
         <div class="gw-map-row">
-          {season.bosses[0].maps.concat(season.bosses[season.bosses.length - 1].maps.filter(m => !season.bosses[0].maps.includes(m))).map(m => (
+          {Object.entries(GUILD_WAR_MAP_ART).map(([m, art]) => (
             <figure class="gw-map">
-              <img
-                src={`${R2}/${GUILD_WAR_MAP_ART[m]}`}
-                alt={`Guild Battle map ${m}`}
-                width="492"
-                height="300"
-                loading="lazy"
-              />
+              <img src={`${R2}/${art}`} alt={`Guild Battle map ${m}`} width="492" height="300" loading="lazy" />
               <figcaption>Battle map {m}</figcaption>
             </figure>
           ))}
         </div>
 
-        <h3 class="gw-subheading">Boss Element Profile</h3>
-        <p class="gw-elements">
-          <span class="gw-el gw-el-weak">Weak: {season.elementProfile.weak.join(', ')}</span>
-          <span class="gw-el gw-el-resist">
-            Resists: {season.elementProfile.resist.join(', ')}
-          </span>
-          <span class="gw-el gw-el-ail">
-            Ailment immunity: {season.elementProfile.ailmentResist.join(', ')}
-          </span>
-        </p>
+        <h3 class="gw-subheading">Bosses</h3>
         <p class="gw-note">
-          All bosses this season take amplified Fire damage and reduced damage from every other
-          element, so Fire attackers are the play. The values come from the boss buff group in the
-          game data.
+          All four bosses are {season.bosses[0].element} element, weak to
+          {''} Fire and resistant to every other element, with full ailment immunity. Stats and
+          complete skill kits are on each boss page.
         </p>
-
-        <h3 class="gw-subheading">Boss Ladder</h3>
-        <div class="gw-table-wrap">
-          <table class="gw-table">
-            <thead>
-              <tr>
-                <th>Boss</th>
-                <th>Cycles</th>
-                <th>Boss Level</th>
-                <th>Maps</th>
-                <th>Score Multiplier</th>
-                <th>Rewards</th>
-              </tr>
-            </thead>
-            <tbody>
-              {season.bosses.map(b => (
-                <tr>
-                  <td>#{b.index}</td>
-                  <td>{b.cycleRange[0]} - {b.cycleRange[1]}</td>
-                  <td>Lv {b.levelRange[0]} - {b.levelRange[1]}</td>
-                  <td>{b.maps.join(', ')}</td>
-                  <td>x{b.scoreScale[0].toFixed(1)} - x{b.scoreScale[1].toFixed(1)}</td>
-                  <td>
-                    {b.rewards.gold.toLocaleString('en-US')} gold + {b.rewards.guildCoins} guild
-                    coins per battle
-                  </td>
-                </tr>
-              ))}
-            </tbody>
-          </table>
+        <div class="gw-boss-grid">
+          {season.bosses.map(b => (
+            <a class="gw-boss-card" href={`/guides/busty-burst/guild-battle/${b.slug}/`}>
+              <span class="gw-boss-no">Boss {season.bosses.indexOf(b) + 1}</span>
+              <span class="gw-boss-name">{b.name}</span>
+              <span class="gw-boss-meta">
+                Cycles {b.cycleRange[0]}-{b.cycleRange[1]} | Lv {b.levelRange[0]}-{b.levelRange[1]}
+              </span>
+              <span class="gw-el gw-el-weak">{b.element}</span>
+            </a>
+          ))}
         </div>
-        <p class="gw-note">
-          Kill drops per cycle (cycles {season.bosses[0].cycleRange[0]}-
-          {season.bosses[2].cycleRange[1]}): {season.bosses[0].drops.map(d => `${d.item} x${d.amount.toLocaleString('en-US')}`).join(', ')}.
-          Later cycles ({season.bosses[3].cycleRange[0]}-
-          {season.bosses[3].cycleRange[1]}): {season.bosses[3].drops.map(d => `${d.item} x${d.amount.toLocaleString('en-US')}`).join(', ')}.
-        </p>
 
         <h3 class="gw-subheading">Season Unit Buffs</h3>
         <div class="gw-buffs">
@@ -201,7 +158,7 @@ const seasons = GUILD_WAR_SEASONS.map(s => ({
           </div>
         </div>
         <p class="gw-note">
-          The buffs apply to the whole hero group and are exactly the units featured on the
+          The buffs cover the whole hero group, and those three are exactly the lineup of the
           season's Pick Up Summon below.
         </p>
       </section>
@@ -352,12 +309,6 @@ const seasons = GUILD_WAR_SEASONS.map(s => ({
     color: rgba(255, 255, 255, 0.6);
     margin-top: 0.3rem;
   }
-  .gw-elements {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.5rem;
-    margin: 0.25rem 0;
-  }
   .gw-el {
     border-radius: 5px;
     padding: 0.25rem 0.6rem;
@@ -372,34 +323,45 @@ const seasons = GUILD_WAR_SEASONS.map(s => ({
     background: rgba(96, 165, 250, 0.15);
     color: #93c5fd;
   }
-  .gw-el-ail {
-    background: rgba(148, 163, 184, 0.15);
-    color: #cbd5e1;
-  }
   .gw-note {
     font-size: 0.85rem;
     color: rgba(255, 255, 255, 0.65);
     margin: 0.4rem 0 0;
   }
-  .gw-table-wrap {
-    overflow-x: auto;
+  .gw-boss-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 0.75rem;
+    margin: 0.75rem 0;
   }
-  .gw-table {
-    width: 100%;
-    border-collapse: collapse;
-    font-size: 0.9rem;
-    min-width: 640px;
+  .gw-boss-card {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.09);
+    border-radius: 10px;
+    padding: 0.85rem 0.9rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+    color: inherit;
+    text-decoration: none;
   }
-  .gw-table th,
-  .gw-table td {
-    text-align: left;
-    padding: 0.55rem 0.7rem;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.09);
+  .gw-boss-no {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    color: rgba(255, 255, 255, 0.55);
   }
-  .gw-table th {
-    color: rgba(255, 255, 255, 0.65);
-    font-weight: 600;
+  .gw-boss-name {
+    font-weight: 700;
+    font-size: 1.05rem;
+  }
+  .gw-boss-meta {
     font-size: 0.8rem;
+    color: rgba(255, 255, 255, 0.65);
+  }
+  .gw-boss-card .gw-el {
+    align-self: flex-start;
+    margin-top: 0.2rem;
   }
   .gw-buffs {
     display: grid;

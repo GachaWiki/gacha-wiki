@@ -1,0 +1,263 @@
+---
+// Individual Guild Battle boss page: stats, full skill kit, element profile,
+// ladder placement and battle maps, all from the generated guild-battle.js data.
+import BannerTimelineLayout from '../../../../layouts/busty-burst/BannerTimelineLayout.astro';
+import { R2 } from '../../../../components/busty-burst/bb-r2';
+import {
+  GUILD_WAR_BOSSES,
+  GUILD_WAR_MAP_ART,
+  getGuildWarSeason,
+} from '../../../../data/busty-burst/guild-battle.js';
+
+export async function getStaticPaths() {
+  return GUILD_WAR_BOSSES.map(boss => ({
+    params: { slug: boss.slug },
+    props: { boss },
+  }));
+}
+
+const { boss } = Astro.props;
+const season = getGuildWarSeason(boss.seasonId);
+
+const pageTitle = `${boss.name} #${boss.index} - Busty Burst Guild Battle Boss`;
+const pageDescription = `Guild Battle boss ${boss.name} #${boss.index}: ${boss.element} element, stats, all skills with damage numbers, weaknesses, cycle placement and rewards.`;
+
+const seasonIndex = GUILD_WAR_BOSSES.filter(b => b.seasonId === boss.seasonId).findIndex(b => b.slug === boss.slug) + 1;
+
+const statRows: [string, number][] = [
+  ['HP', boss.stats.hp],
+  ['ATK', boss.stats.atk],
+  ['MATK', boss.stats.matk],
+  ['DEF', boss.stats.def],
+  ['MDEF', boss.stats.mdef],
+  ['Accuracy', boss.stats.accuracy],
+  ['Block', boss.stats.block],
+  ['Physical Crit', boss.stats.physCrit],
+  ['Magic Crit', boss.stats.magicCrit],
+  ['MP Regen', boss.stats.mpRegen],
+  ['Healing Power', boss.stats.healPwr],
+];
+
+const fmt = (n: number) => n.toLocaleString('en-US');
+---
+
+<BannerTimelineLayout title={pageTitle} description={pageDescription} gameTitle={`${boss.name} #${boss.index}`}>
+  <meta
+    slot="head"
+    content="Busty Burst, Busty Burst Fantasy, guild battle boss, boss stats, boss skills, weakness, {boss.name}, Ero Lab games"
+  />
+  <main class="banner-timeline-content" role="main">
+    <p class="intro-text">
+      Guild Battle boss {boss.index} of {GUILD_WAR_BOSSES.filter(b => b.seasonId === boss.seasonId).length} in
+      Season {boss.seasonId === '110' ? '1' : boss.seasonId}. {boss.element} element, {boss.rarity} tier.
+    </p>
+
+    <section class="gw-panel">
+      <h2 class="gw-heading">
+        {boss.name} #{boss.index}
+        <span class="gw-el gw-el-weak">{boss.element}</span>
+        <span class="gw-el gw-el-resist">{boss.rarity}</span>
+      </h2>
+
+      <div class="gw-map-row">
+        {boss.ladder.maps.map(m => (
+          <figure class="gw-map">
+            <img src={`${R2}/${GUILD_WAR_MAP_ART[m]}`} alt={`Battle map ${m}`} width="492" height="300" loading="lazy" />
+            <figcaption>Battle map {m}</figcaption>
+          </figure>
+        ))}
+      </div>
+
+      <h3 class="gw-subheading">Stats</h3>
+      <div class="gw-table-wrap">
+        <table class="gw-table">
+          <tbody>
+            {statRows.map(([label, value]) => (
+              <tr>
+                <th>{label}</th>
+                <td>{fmt(value)}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+      <p class="gw-note">
+        Base values from the game data. In battle the boss scales with the cycle level shown below.
+      </p>
+    </section>
+
+    <section class="gw-panel">
+      <h2 class="gw-heading">Skills</h2>
+      {boss.skills.map(skill => (
+        <article class="gw-skill">
+          <header class="gw-skill-head">
+            <span class="gw-skill-slot">{skill.slot}</span>
+            <span class="gw-skill-name">{skill.name}</span>
+            {skill.damage && <span class="gw-el gw-el-weak">{skill.damage}</span>}
+          </header>
+          <p class="gw-skill-desc">{skill.description}</p>
+          <p class="gw-skill-meta">
+            {skill.castTime !== null && <span>Cast {skill.castTime}s</span>}
+            {skill.target && <span>Target: {skill.target}</span>}
+          </p>
+        </article>
+      ))}
+      <p class="gw-note">
+        Skill order: opening {boss.skillRotation.first}, then looping {boss.skillRotation.loop} (2 = skill 1,
+        1 = skill 2, 0 = normal attack).
+      </p>
+    </section>
+
+    <section class="gw-panel">
+      <h2 class="gw-heading">Weaknesses and Resistances</h2>
+      <p class="gw-elements">
+        <span class="gw-el gw-el-weak">Weak: {boss.elementProfile.weak.join(', ')}</span>
+        <span class="gw-el gw-el-resist">Resists: {boss.elementProfile.resist.join(', ')}</span>
+      </p>
+      <p class="gw-note">
+        Ailment immunity: {boss.elementProfile.ailmentResist.join(', ')}. Fights run {boss.timeLimitSec} seconds;
+        damage counts even if the timer runs out.
+      </p>
+    </section>
+
+    <section class="gw-panel">
+      <h2 class="gw-heading">Cycle Placement</h2>
+      <div class="gw-table-wrap">
+        <table class="gw-table">
+          <tbody>
+            <tr><th>Cycles</th><td>{boss.ladder.cycleRange[0]} - {boss.ladder.cycleRange[1]}</td></tr>
+            <tr><th>Boss level</th><td>Lv {boss.ladder.levelRange[0]} - {boss.ladder.levelRange[1]}</td></tr>
+            <tr><th>Score multiplier</th><td>x{boss.ladder.scoreScale[0].toFixed(1)} - x{boss.ladder.scoreScale[1].toFixed(1)}</td></tr>
+            <tr><th>Per battle</th><td>{fmt(boss.ladder.rewards.gold)} gold + {boss.ladder.rewards.guildCoins} guild coins</td></tr>
+            <tr><th>Kill drops</th><td>{boss.ladder.drops.map(d => `${d.item} x${fmt(d.amount)}`).join(', ')}</td></tr>
+          </tbody>
+        </table>
+      </div>
+      {season && (
+        <p class="gw-note">
+          Season buffs: {season.buffedUnits.damage} deals bonus damage, {season.buffedUnits.damageTaken} takes
+          reduced damage, {season.buffedUnits.guildCoins} earns extra guild coins.
+        </p>
+      )}
+      <p class="gw-backlink"><a href="/guides/busty-burst/guild-battle/">Back to Guild Battle database</a></p>
+    </section>
+  </main>
+</BannerTimelineLayout>
+
+<style>
+  .gw-panel {
+    background: rgba(255, 255, 255, 0.04);
+    border: 1px solid rgba(255, 255, 255, 0.09);
+    border-radius: 10px;
+    padding: 1.25rem 1.4rem;
+    margin-bottom: 1.5rem;
+  }
+  .gw-heading {
+    font-size: 1.35rem;
+    margin: 0 0 0.5rem;
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    flex-wrap: wrap;
+  }
+  .gw-subheading {
+    font-size: 1.05rem;
+    margin: 1.25rem 0 0.5rem;
+  }
+  .gw-map-row {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 0.75rem;
+    margin: 0.75rem 0 1rem;
+  }
+  .gw-map {
+    margin: 0;
+  }
+  .gw-map img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.09);
+  }
+  .gw-map figcaption {
+    font-size: 0.8rem;
+    color: rgba(255, 255, 255, 0.6);
+    margin-top: 0.3rem;
+  }
+  .gw-el {
+    border-radius: 5px;
+    padding: 0.25rem 0.6rem;
+    font-size: 0.85rem;
+    font-weight: 600;
+  }
+  .gw-el-weak {
+    background: rgba(239, 68, 68, 0.18);
+    color: #f87171;
+  }
+  .gw-el-resist {
+    background: rgba(96, 165, 250, 0.15);
+    color: #93c5fd;
+  }
+  .gw-note {
+    font-size: 0.85rem;
+    color: rgba(255, 255, 255, 0.65);
+    margin: 0.4rem 0 0;
+  }
+  .gw-table-wrap {
+    overflow-x: auto;
+  }
+  .gw-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.9rem;
+    min-width: 380px;
+  }
+  .gw-table th,
+  .gw-table td {
+    text-align: left;
+    padding: 0.55rem 0.7rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.09);
+  }
+  .gw-table th {
+    color: rgba(255, 255, 255, 0.65);
+    font-weight: 600;
+    font-size: 0.8rem;
+    width: 35%;
+  }
+  .gw-skill {
+    border: 1px solid rgba(255, 255, 255, 0.09);
+    border-radius: 10px;
+    padding: 0.8rem 0.9rem;
+    margin-bottom: 0.75rem;
+  }
+  .gw-skill-head {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    flex-wrap: wrap;
+  }
+  .gw-skill-slot {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    color: rgba(255, 255, 255, 0.55);
+  }
+  .gw-skill-name {
+    font-weight: 700;
+  }
+  .gw-skill-desc {
+    margin: 0.4rem 0 0.2rem;
+  }
+  .gw-skill-meta {
+    margin: 0;
+    font-size: 0.8rem;
+    color: rgba(255, 255, 255, 0.6);
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+  .gw-backlink a {
+    color: var(--bb-primary, #e8c07d);
+  }
+</style>
