@@ -5,8 +5,8 @@ import BannerTimelineLayout from '../../../layouts/busty-burst/BannerTimelineLay
 import { R2 } from '../../../components/busty-burst/bb-r2';
 import {
   GUILD_WAR_EVENTS,
-  GUILD_WAR_MAP_ART,
   GUILD_WAR_EVENT_BANNERS,
+  guildWarBossIcon,
 } from '../../../data/busty-burst/guild-battle.js';
 
 const pageTitle = 'Busty Burst Guild Battle - Guild Raid Boss Events';
@@ -43,15 +43,11 @@ const formatDate = (dateString: string) => {
   return date.toLocaleDateString('en-US', options);
 };
 
-const events = [...GUILD_WAR_EVENTS].sort((a, b) => b.startTime.localeCompare(a.startTime)).map(ev => {
-  const bgMap = ev.background?.split('/')[1];
-  return {
-    ...ev,
-    live: computeStatus(ev.startTime, ev.endTime),
-    cardImage: (bgMap && GUILD_WAR_MAP_ART[bgMap]) || Object.values(GUILD_WAR_MAP_ART)[0],
-    banner: GUILD_WAR_EVENT_BANNERS[ev.element || ''],
-  };
-});
+const events = [...GUILD_WAR_EVENTS].sort((a, b) => b.startTime.localeCompare(a.startTime)).map(ev => ({
+  ...ev,
+  live: computeStatus(ev.startTime, ev.endTime),
+  banner: GUILD_WAR_EVENT_BANNERS[ev.element || ''],
+}));
 ---
 
 <BannerTimelineLayout title={pageTitle} description={pageDescription} gameTitle={gameTitle}>
@@ -72,15 +68,21 @@ const events = [...GUILD_WAR_EVENTS].sort((a, b) => b.startTime.localeCompare(a.
         {events.map(ev => (
           <a class="gw-event-card" href={`/guides/busty-burst/guild-battle/${ev.slug}/`}>
             <div class="gw-event-art">
-              <img src={`${R2}/${ev.cardImage}`} alt={`${ev.name} battle map`} width="492" height="300" loading="lazy" />
+              {ev.banner && (
+                <img src={`${R2}/${ev.banner}`} alt={ev.name} width="436" height="120" loading="lazy" />
+              )}
               <span class={`gw-event-status status-badge status-badge--${ev.live}`}>{getStatusLabel(ev.live)}</span>
             </div>
             <div class="gw-event-body">
-              {ev.banner && (
-                <img class="gw-event-banner" src={`${R2}/${ev.banner}`} alt={ev.name} width="218" height="60" loading="lazy" />
-              )}
-              <span class="gw-event-name">{ev.name}</span>
-              <span class="gw-event-meta">{formatDate(ev.startTime)} - {formatDate(ev.endTime)}</span>
+              <div class="gw-event-title-row">
+                {guildWarBossIcon(ev.raids[0]?.iconGroup) && (
+                  <img class="gw-event-boss-icon" src={`${R2}/${guildWarBossIcon(ev.raids[0].iconGroup)}`} alt={ev.raids[0].name} width="106" height="104" loading="lazy" />
+                )}
+                <div class="gw-event-title-text">
+                  <span class="gw-event-name">{ev.name}</span>
+                  <span class="gw-event-meta">{formatDate(ev.startTime)} - {formatDate(ev.endTime)}</span>
+                </div>
+              </div>
               <span class="gw-event-meta">{ev.raids[0]?.name} | 40 cycles</span>
             </div>
           </a>
@@ -122,7 +124,7 @@ const events = [...GUILD_WAR_EVENTS].sort((a, b) => b.startTime.localeCompare(a.
   }
   .gw-event-art img {
     width: 100%;
-    aspect-ratio: 1640 / 1000;
+    aspect-ratio: 436 / 120;
     object-fit: cover;
     display: block;
   }
@@ -138,11 +140,24 @@ const events = [...GUILD_WAR_EVENTS].sort((a, b) => b.startTime.localeCompare(a.
     align-items: flex-start;
     gap: 0.3rem;
   }
-  .gw-event-banner {
-    width: 218px;
-    max-width: 100%;
+  .gw-event-title-row {
+    display: flex;
+    align-items: center;
+    gap: 0.7rem;
+  }
+  .gw-event-boss-icon {
+    width: 58px;
     height: auto;
-    margin-bottom: 0.35rem;
+    flex: none;
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.09);
+    background: rgba(255, 255, 255, 0.04);
+  }
+  .gw-event-title-text {
+    display: flex;
+    flex-direction: column;
+    gap: 0.15rem;
+    min-width: 0;
   }
   .gw-event-name {
     font-weight: 700;

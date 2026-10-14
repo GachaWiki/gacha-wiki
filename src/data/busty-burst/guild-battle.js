@@ -43,6 +43,7 @@ export const GUILD_WAR_EVENTS = [
         "slug": "giant-rock-soldier",
         "name": "Giant Rock Soldier",
         "element": "Wind",
+        "iconGroup": "5002",
         "cycles": [
           1,
           40
