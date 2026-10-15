@@ -15,7 +15,7 @@
 }
 
 .bb-blog-title {
-  font-size: 1.75rem;
+  font-size: var(--text-3xl);
   font-weight: 700;
   color: var(--bb-text-primary);
   margin: 0 0 1rem 0;
@@ -32,7 +32,7 @@
 
 .bb-blog-meta-category {
   display: inline-block;
-  font-size: 0.75rem;
+  font-size: var(--text-xs);
   font-weight: 600;
   padding: 0.25rem 0.6rem;
   border-radius: 3px;
@@ -45,7 +45,7 @@
 
 .bb-blog-meta-date,
 .bb-blog-meta-author {
-  font-size: 0.85rem;
+  font-size: var(--text-md);
   color: var(--bb-text-muted, #888);
 }
 
@@ -56,7 +56,7 @@
 /* Article Content */
 .bb-blog-content {
   color: var(--bb-text-secondary);
-  font-size: 1rem;
+  font-size: var(--text-base);
   line-height: 1.75;
 }
 
@@ -65,7 +65,7 @@
 }
 
 .bb-blog-content h2 {
-  font-size: 1.35rem;
+  font-size: var(--text-xl);
   font-weight: 600;
   color: var(--bb-text-primary);
   margin: 2rem 0 1rem 0;
@@ -74,7 +74,7 @@
 }
 
 .bb-blog-content h3 {
-  font-size: 1.15rem;
+  font-size: var(--text-lg);
   font-weight: 600;
   color: var(--bb-text-primary);
   margin: 1.5rem 0 0.75rem 0;
@@ -146,7 +146,7 @@
   width: 100%;
   border-collapse: collapse;
   margin: 1.5rem 0;
-  font-size: 0.9rem;
+  font-size: var(--text-md);
 }
 
 .bb-blog-table thead {
@@ -179,7 +179,7 @@
 }
 
 .bb-blog-tags-label {
-  font-size: 0.85rem;
+  font-size: var(--text-md);
   font-weight: 600;
   color: var(--bb-text-primary);
   margin-bottom: 0.75rem;
@@ -195,7 +195,7 @@
 
 .bb-blog-tag {
   display: inline-block;
-  font-size: 0.75rem;
+  font-size: var(--text-xs);
   font-weight: 500;
   padding: 0.25rem 0.6rem;
   border-radius: 3px;
@@ -215,7 +215,7 @@
   display: inline-flex;
   align-items: center;
   gap: 0.5rem;
-  font-size: 0.9rem;
+  font-size: var(--text-md);
   color: var(--bb-text-secondary);
   text-decoration: none;
 }
@@ -228,19 +228,19 @@
   }
 
   .bb-blog-title {
-    font-size: 1.5rem;
+    font-size: var(--text-2xl);
   }
 
   .bb-blog-content {
-    font-size: 0.95rem;
+    font-size: var(--text-body);
   }
 
   .bb-blog-content h2 {
-    font-size: 1.25rem;
+    font-size: var(--text-xl);
   }
 
   .bb-blog-content h3 {
-    font-size: 1.1rem;
+    font-size: var(--text-lg);
   }
 
   .bb-blog-meta {
@@ -248,7 +248,7 @@
   }
 
   .bb-blog-table {
-    font-size: 0.85rem;
+    font-size: var(--text-md);
   }
 
   .bb-blog-table th,
@@ -263,7 +263,7 @@
   }
 
   .bb-blog-title {
-    font-size: 1.3rem;
+    font-size: var(--text-xl);
   }
 
   .bb-blog-header {
@@ -272,7 +272,7 @@
   }
 
   .bb-blog-content {
-    font-size: 0.9rem;
+    font-size: var(--text-md);
     line-height: 1.65;
   }
 
@@ -281,12 +281,12 @@
   }
 
   .bb-blog-content h2 {
-    font-size: 1.15rem;
+    font-size: var(--text-lg);
     margin: 1.5rem 0 0.75rem 0;
   }
 
   .bb-blog-content h3 {
-    font-size: 1rem;
+    font-size: var(--text-base);
   }
 
   .bb-blog-content ul,
@@ -299,13 +299,13 @@
   }
 
   .bb-blog-meta-category {
-    font-size: 0.7rem;
+    font-size: var(--text-2xs);
     padding: 0.2rem 0.5rem;
   }
 
   .bb-blog-meta-date,
   .bb-blog-meta-author {
-    font-size: 0.8rem;
+    font-size: var(--text-sm);
   }
 
   .bb-blog-tags {
@@ -314,12 +314,12 @@
   }
 
   .bb-blog-tag {
-    font-size: 0.7rem;
+    font-size: var(--text-2xs);
     padding: 0.2rem 0.5rem;
   }
 
   .bb-blog-table {
-    font-size: 0.8rem;
+    font-size: var(--text-sm);
   }
 
   .bb-blog-table th,

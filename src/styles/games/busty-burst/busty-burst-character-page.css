@@ -12,7 +12,7 @@
 }
 
 .bb-section-title {
-  font-size: 1.25rem;
+  font-size: var(--text-xl);
   font-weight: 600;
   color: var(--bb-text-primary);
   margin: 0 0 1.25rem 0;
@@ -74,7 +74,7 @@
 }
 
 .bb-character-name {
-  font-size: 1.5rem;
+  font-size: var(--text-2xl);
   font-weight: 700;
   color: var(--bb-text-primary);
   margin: 0 0 0.25rem 0;
@@ -82,7 +82,7 @@
 }
 
 .bb-character-title {
-  font-size: 0.9rem;
+  font-size: var(--text-md);
   color: var(--bb-text-tertiary);
   font-style: italic;
   margin: 0;
@@ -124,7 +124,7 @@
 }
 
 .bb-character-info-label {
-  font-size: 0.8rem;
+  font-size: var(--text-sm);
   color: var(--bb-text-tertiary);
   text-transform: uppercase;
   letter-spacing: 0.5px;
@@ -132,7 +132,7 @@
 }
 
 .bb-character-info-value {
-  font-size: 1rem;
+  font-size: var(--text-base);
   color: var(--bb-text-primary);
   font-weight: 500;
   display: flex;
@@ -165,14 +165,14 @@
 }
 
 .bb-combat-info-label {
-  font-size: 0.8rem;
+  font-size: var(--text-sm);
   color: var(--bb-text-tertiary);
   text-transform: uppercase;
   letter-spacing: 0.5px;
 }
 
 .bb-combat-info-value {
-  font-size: 1.1rem;
+  font-size: var(--text-lg);
   color: var(--bb-text-primary);
   font-weight: 600;
   display: flex;
@@ -188,18 +188,18 @@
 }
 
 .bb-position-roman {
-  font-size: 1.25rem;
+  font-size: var(--text-xl);
   font-weight: 700;
   color: var(--bb-primary-light);
 }
 
 .bb-position-number {
-  font-size: 0.9rem;
+  font-size: var(--text-md);
   color: var(--bb-text-secondary);
 }
 
 .bb-position-name {
-  font-size: 0.85rem;
+  font-size: var(--text-md);
   color: var(--bb-text-tertiary);
   padding-left: 0.5rem;
   border-left: 1px solid var(--bb-border-light);
@@ -218,7 +218,7 @@
 .bb-skill-type-badge {
   padding: 0.4rem 0.75rem;
   border-radius: 6px;
-  font-size: 0.85rem;
+  font-size: var(--text-md);
   font-weight: 500;
   display: inline-flex;
   align-items: center;
@@ -274,12 +274,12 @@
 }
 
 .bb-profile-icon {
-  font-size: 1.5rem;
+  font-size: var(--text-2xl);
   margin-bottom: 0.5rem;
 }
 
 .bb-profile-label {
-  font-size: 0.75rem;
+  font-size: var(--text-xs);
   color: var(--bb-text-tertiary);
   text-transform: uppercase;
   letter-spacing: 0.5px;
@@ -287,7 +287,7 @@
 }
 
 .bb-profile-value {
-  font-size: 1.1rem;
+  font-size: var(--text-lg);
   color: var(--bb-text-primary);
   font-weight: 600;
 }
@@ -309,7 +309,7 @@
 }
 
 .bb-credit-label {
-  font-size: 0.8rem;
+  font-size: var(--text-sm);
   color: var(--bb-text-tertiary);
   text-transform: uppercase;
   letter-spacing: 0.5px;
@@ -328,14 +328,14 @@
 }
 
 .bb-credit-japanese {
-  font-size: 1.1rem;
+  font-size: var(--text-lg);
   color: var(--bb-text-primary);
   font-weight: 500;
   margin-bottom: 0.25rem;
 }
 
 .bb-credit-romanized {
-  font-size: 0.9rem;
+  font-size: var(--text-md);
   color: var(--bb-text-secondary);
 }
 
@@ -345,7 +345,7 @@
 .bb-badge {
   padding: 0.35rem 0.75rem;
   border-radius: 6px;
-  font-size: 0.85rem;
+  font-size: var(--text-md);
   font-weight: 600;
   display: inline-flex;
   align-items: center;
@@ -461,7 +461,7 @@
   }
 
   .bb-character-name {
-    font-size: 1.25rem;
+    font-size: var(--text-xl);
   }
 
   .bb-profile-grid {
@@ -474,11 +474,11 @@
   }
 
   .bb-profile-value {
-    font-size: 1rem;
+    font-size: var(--text-base);
   }
 
   .bb-section-title {
-    font-size: 1.1rem;
+    font-size: var(--text-lg);
   }
 }
 
@@ -525,7 +525,7 @@
 }
 
 .bb-character-info-stats h2 {
-  font-size: 1.25rem;
+  font-size: var(--text-xl);
   color: var(--bb-text-primary);
   margin: 0 0 1rem 0;
 }
@@ -547,13 +547,13 @@
 }
 
 .bb-character-info-stat-number {
-  font-size: 1.75rem;
+  font-size: var(--text-3xl);
   font-weight: 700;
   color: var(--bb-primary-light);
 }
 
 .bb-character-info-stat-label {
-  font-size: 0.8rem;
+  font-size: var(--text-sm);
   color: var(--bb-text-tertiary);
 }
 
@@ -580,7 +580,7 @@
   border: 1px solid var(--bb-border);
   border-radius: 8px;
   color: var(--bb-text-primary);
-  font-size: 0.95rem;
+  font-size: var(--text-body);
 }
 
 .bb-character-info-search-input::placeholder {
@@ -598,7 +598,7 @@
   border: 1px solid var(--bb-border);
   border-radius: 8px;
   color: var(--bb-text-primary);
-  font-size: 0.95rem;
+  font-size: var(--text-body);
   cursor: pointer;
   min-width: 140px;
 }
@@ -614,7 +614,7 @@
   border: 1px solid var(--bb-border);
   border-radius: 8px;
   color: var(--bb-text-secondary);
-  font-size: 0.95rem;
+  font-size: var(--text-body);
   cursor: pointer;
   white-space: nowrap;
   transition: all 0.2s ease;
@@ -676,7 +676,7 @@
 }
 
 .bb-character-info-name {
-  font-size: 1rem;
+  font-size: var(--text-base);
   font-weight: 600;
   color: var(--bb-text-primary);
   margin: 0;
@@ -706,7 +706,7 @@
   display: inline-flex;
   align-items: center;
   gap: 0.35rem;
-  font-size: 0.85rem;
+  font-size: var(--text-md);
   color: var(--bb-text-secondary);
 }
 
@@ -761,14 +761,14 @@
 }
 
 .bb-character-info-combat-label {
-  font-size: 0.65rem;
+  font-size: var(--text-3xs);
   color: var(--bb-text-tertiary);
   text-transform: uppercase;
   letter-spacing: 0.3px;
 }
 
 .bb-character-info-combat-value {
-  font-size: 0.85rem;
+  font-size: var(--text-md);
   color: var(--bb-text-primary);
   font-weight: 500;
 }
@@ -781,7 +781,7 @@
 }
 
 .bb-character-info-profile-title {
-  font-size: 0.7rem;
+  font-size: var(--text-2xs);
   color: var(--bb-text-tertiary);
   text-transform: uppercase;
   letter-spacing: 0.5px;
@@ -802,12 +802,12 @@
 }
 
 .bb-character-info-profile-label {
-  font-size: 0.75rem;
+  font-size: var(--text-xs);
   color: var(--bb-text-tertiary);
 }
 
 .bb-character-info-profile-value {
-  font-size: 0.85rem;
+  font-size: var(--text-md);
   color: var(--bb-text-primary);
   font-weight: 500;
 }
@@ -827,20 +827,20 @@
 }
 
 .bb-character-info-credit-label {
-  font-size: 0.7rem;
+  font-size: var(--text-2xs);
   color: var(--bb-text-tertiary);
   text-transform: uppercase;
   letter-spacing: 0.3px;
 }
 
 .bb-character-info-credit-value {
-  font-size: 0.9rem;
+  font-size: var(--text-md);
   color: var(--bb-text-primary);
   font-weight: 500;
 }
 
 .bb-character-info-credit-romanized {
-  font-size: 0.8rem;
+  font-size: var(--text-sm);
   color: var(--bb-text-secondary);
   margin-left: 0.25rem;
 }
@@ -848,7 +848,7 @@
 /* Obtain Badge in Credits - smaller inline style */
 .bb-character-info-credit-value .bb-badge-obtain {
   padding: 0.15rem 0.4rem;
-  font-size: 0.65rem;
+  font-size: var(--text-3xs);
   font-weight: 600;
   border-radius: 3px;
   margin-right: 0.4rem;
@@ -917,7 +917,7 @@
   }
 
   .bb-character-info-stats h2 {
-    font-size: 1.1rem;
+    font-size: var(--text-lg);
     text-align: center;
   }
 
@@ -932,11 +932,11 @@
   }
 
   .bb-character-info-stat-number {
-    font-size: 1.4rem;
+    font-size: var(--text-2xl);
   }
 
   .bb-character-info-stat-label {
-    font-size: 0.7rem;
+    font-size: var(--text-2xs);
   }
 
   .bb-character-info-controls {
@@ -952,7 +952,7 @@
   }
 
   .bb-character-info-combat-value {
-    font-size: 0.8rem;
+    font-size: var(--text-sm);
     }
   }
 

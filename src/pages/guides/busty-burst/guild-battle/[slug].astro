@@ -257,7 +257,7 @@ const fmt = (n: number) => n.toLocaleString('en-US');
     margin-bottom: 1.5rem;
   }
   .gw-heading {
-    font-size: 1.35rem;
+    font-size: var(--text-xl);
     margin: 0 0 0.5rem;
     display: flex;
     align-items: center;
@@ -266,7 +266,7 @@ const fmt = (n: number) => n.toLocaleString('en-US');
     color: var(--bb-primary-light);
   }
   .gw-subheading {
-    font-size: 1.02rem;
+    font-size: var(--text-base);
     margin: 1.25rem 0 0.5rem;
     color: var(--bb-primary-light);
   }
@@ -281,7 +281,7 @@ const fmt = (n: number) => n.toLocaleString('en-US');
     background: var(--bb-primary-dark, rgba(255, 255, 255, 0.07));
     border-radius: 5px;
     padding: 0.2rem 0.55rem;
-    font-size: 0.8rem;
+    font-size: var(--text-sm);
     font-weight: 600;
     color: rgba(255, 255, 255, 0.8);
   }
@@ -302,7 +302,7 @@ const fmt = (n: number) => n.toLocaleString('en-US');
     border: 1px solid rgba(255, 255, 255, 0.09);
   }
   .gw-map figcaption {
-    font-size: 0.8rem;
+    font-size: var(--text-sm);
     color: rgba(255, 255, 255, 0.6);
     margin-top: 0.3rem;
   }
@@ -313,7 +313,7 @@ const fmt = (n: number) => n.toLocaleString('en-US');
     line-height: 1;
     border-radius: 5px;
     padding: 0.25rem 0.6rem;
-    font-size: 0.85rem;
+    font-size: var(--text-md);
     font-weight: 600;
   }
   .gw-el img {
@@ -365,7 +365,7 @@ const fmt = (n: number) => n.toLocaleString('en-US');
     color: #93c5fd;
   }
   .gw-note {
-    font-size: 0.85rem;
+    font-size: var(--text-md);
     color: var(--bb-text-secondary, rgba(255, 255, 255, 0.65));
     margin: 0.4rem 0 0;
   }
@@ -380,7 +380,7 @@ const fmt = (n: number) => n.toLocaleString('en-US');
   .gw-table {
     width: 100%;
     border-collapse: collapse;
-    font-size: 0.9rem;
+    font-size: var(--text-md);
     min-width: 320px;
   }
   .gw-table th,
@@ -392,7 +392,7 @@ const fmt = (n: number) => n.toLocaleString('en-US');
   .gw-table th {
     color: var(--bb-text-secondary, rgba(255, 255, 255, 0.65));
     font-weight: 600;
-    font-size: 0.8rem;
+    font-size: var(--text-sm);
     width: 38%;
   }
   .gw-skill {
@@ -415,7 +415,7 @@ const fmt = (n: number) => n.toLocaleString('en-US');
     margin-right: auto;
   }
   .gw-skill-slot {
-    font-size: 0.75rem;
+    font-size: var(--text-xs);
     text-transform: uppercase;
     letter-spacing: 0.04em;
     color: var(--bb-primary-light);
@@ -428,7 +428,7 @@ const fmt = (n: number) => n.toLocaleString('en-US');
   }
   .gw-skill-meta {
     margin: 0;
-    font-size: 0.8rem;
+    font-size: var(--text-sm);
     color: rgba(255, 255, 255, 0.6);
     display: flex;
     gap: 1rem;
@@ -452,7 +452,7 @@ const fmt = (n: number) => n.toLocaleString('en-US');
     font-weight: 700;
   }
   .gw-buff-label {
-    font-size: 0.82rem;
+    font-size: var(--text-sm);
     color: rgba(255, 255, 255, 0.7);
   }
   .gw-td-icon {

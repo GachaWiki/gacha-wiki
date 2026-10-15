@@ -21,7 +21,7 @@
 }
 
 .bb-bonus-info-title {
-  font-size: 0.875rem;
+  font-size: var(--text-md);
   font-weight: 600;
   color: var(--bb-text-primary);
   margin-bottom: 0.5rem;
@@ -37,7 +37,7 @@
 }
 
 .bb-bonus-info-list li {
-  font-size: 0.8125rem;
+  font-size: var(--text-sm);
   color: var(--bb-text-secondary);
   padding: 0.25rem 0;
   line-height: 1.4;
@@ -68,7 +68,7 @@
   border: 1px solid var(--bb-border);
   border-radius: 8px;
   color: var(--bb-text-primary);
-  font-size: 0.875rem;
+  font-size: var(--text-md);
 }
 
 .bb-bonus-search-input::placeholder {
@@ -86,7 +86,7 @@
   border: 1px solid var(--bb-border);
   border-radius: 8px;
   color: var(--bb-text-primary);
-  font-size: 0.875rem;
+  font-size: var(--text-md);
   cursor: pointer;
   min-width: 120px;
 }
@@ -102,7 +102,7 @@
   border: 1px solid var(--bb-border);
   border-radius: 8px;
   color: var(--bb-text-secondary);
-  font-size: 0.875rem;
+  font-size: var(--text-md);
   cursor: pointer;
   white-space: nowrap;
   transition: all 0.2s ease;
@@ -163,7 +163,7 @@
 }
 
 .bb-bonus-card-name {
-  font-size: 1rem;
+  font-size: var(--text-base);
   font-weight: 600;
   color: var(--bb-text-primary);
   margin: 0 0 0.375rem 0;
@@ -178,7 +178,7 @@
 
 .bb-bonus-card-badges .bb-badge {
   padding: 0.25rem 0.5rem;
-  font-size: 0.75rem;
+  font-size: var(--text-xs);
 }
 
 .bb-bonus-card-badges .bb-badge-rarity {
@@ -235,11 +235,11 @@
 .bb-bonus-name {
   font-weight: 600;
   color: var(--bb-text-primary);
-  font-size: 0.9375rem;
+  font-size: var(--text-body);
 }
 
 .bb-bonus-effect {
-  font-size: 0.8125rem;
+  font-size: var(--text-sm);
   color: var(--bb-text-secondary);
   margin-bottom: 0.75rem;
 }
@@ -263,7 +263,7 @@
 
 .tier-label {
   display: block;
-  font-size: 0.6875rem;
+  font-size: var(--text-2xs);
   color: var(--bb-text-tertiary);
   text-transform: uppercase;
   letter-spacing: 0.3px;
@@ -275,7 +275,7 @@
   display: block;
   font-weight: 700;
   color: var(--bb-primary-light);
-  font-size: 1rem;
+  font-size: var(--text-base);
   font-family: var(--font-mono);
 }
 
@@ -311,20 +311,20 @@
 .bb-bonus-no-results h3 {
   color: var(--bb-text-primary);
   margin: 0 0 0.5rem 0;
-  font-size: 1.125rem;
+  font-size: var(--text-lg);
 }
 
 .bb-bonus-no-results p {
   color: var(--bb-text-secondary);
   margin: 0;
-  font-size: 0.875rem;
+  font-size: var(--text-md);
 }
 
 /* ============================================
    Results Count
    ============================================ */
 .bb-bonus-results-count {
-  font-size: 0.875rem;
+  font-size: var(--text-md);
   color: var(--bb-text-secondary);
   margin-bottom: 1rem;
 }
@@ -368,7 +368,7 @@
   }
 
   .bb-bonus-card-name {
-    font-size: 0.9375rem;
+    font-size: var(--text-body);
   }
 
   .bb-bonus-card-avatar {
@@ -378,7 +378,7 @@
 
   .bb-bonus-card-badges .bb-badge {
     padding: 0.2rem 0.4rem;
-    font-size: 0.6875rem;
+    font-size: var(--text-2xs);
   }
 
   .bb-bonus-card-badges .bb-badge-rarity img {
@@ -395,11 +395,11 @@
   }
 
   .tier-label {
-    font-size: 0.625rem;
+    font-size: var(--text-3xs);
   }
 
   .tier-value {
-    font-size: 0.875rem;
+    font-size: var(--text-md);
   }
 
   .bb-bonus-icon {
@@ -408,14 +408,14 @@
   }
 
   .bb-bonus-name {
-    font-size: 0.875rem;
+    font-size: var(--text-md);
   }
 
   .bb-bonus-effect {
-    font-size: 0.75rem;
+    font-size: var(--text-xs);
   }
 
   .bb-bonus-info-list li {
-    font-size: 0.75rem;
+    font-size: var(--text-xs);
   }
 }

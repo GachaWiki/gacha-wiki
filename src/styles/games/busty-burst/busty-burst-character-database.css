@@ -30,14 +30,14 @@
 }
 
 .bb-char-stat-value {
-  font-size: 1.75rem;
+  font-size: var(--text-3xl);
   font-weight: 700;
   color: var(--bb-primary-light);
   line-height: 1;
 }
 
 .bb-char-stat-label {
-  font-size: 0.75rem;
+  font-size: var(--text-xs);
   color: var(--bb-text-secondary);
   margin-top: 0.25rem;
   text-transform: uppercase;
@@ -72,7 +72,7 @@
 }
 
 .bb-char-filter-label {
-  font-size: 0.75rem;
+  font-size: var(--text-xs);
   color: var(--bb-text-tertiary);
   text-transform: uppercase;
   letter-spacing: 0.05em;
@@ -85,7 +85,7 @@
   border-radius: 4px;
   padding: 0.5rem 0.75rem;
   color: var(--bb-text-primary);
-  font-size: 0.875rem;
+  font-size: var(--text-md);
   cursor: pointer;
 }
 
@@ -107,7 +107,7 @@
   border-radius: 4px;
   padding: 0.5rem 1rem;
   color: var(--bb-text-primary);
-  font-size: 0.875rem;
+  font-size: var(--text-md);
   cursor: pointer;
   transition: all 0.2s ease;
 }
@@ -134,7 +134,7 @@
 
 .bb-char-sort-label {
   color: var(--bb-text-secondary);
-  font-size: 0.75rem;
+  font-size: var(--text-xs);
   margin-right: 0.5rem;
 }
 
@@ -144,7 +144,7 @@
   border-radius: 4px;
   padding: 0.375rem 0.75rem;
   color: var(--bb-text-secondary);
-  font-size: 0.75rem;
+  font-size: var(--text-xs);
   cursor: pointer;
   transition: all 0.2s ease;
   display: flex;
@@ -160,7 +160,7 @@
 }
 
 .bb-char-sort-icon {
-  font-size: 0.625rem;
+  font-size: var(--text-3xs);
 }
 
 /* ============================================
@@ -230,7 +230,7 @@
 }
 
 .bb-char-card-name {
-  font-size: 1rem;
+  font-size: var(--text-base);
   font-weight: 600;
   color: var(--bb-text-primary);
   margin: 0 0 0.25rem 0;
@@ -240,7 +240,7 @@
 }
 
 .bb-char-card-title {
-  font-size: 0.75rem;
+  font-size: var(--text-xs);
   color: var(--bb-text-tertiary);
   margin: 0 0 0.5rem 0;
 }
@@ -254,7 +254,7 @@
 .bb-char-card-badge {
   padding: 0.125rem 0.5rem;
   border-radius: 3px;
-  font-size: 0.625rem;
+  font-size: var(--text-3xs);
   font-weight: 600;
   text-transform: uppercase;
 }
@@ -284,7 +284,7 @@
   gap: 0.25rem;
   padding: 0.125rem 0.5rem;
   border-radius: 3px;
-  font-size: 0.625rem;
+  font-size: var(--text-3xs);
   font-weight: 500;
   background: var(--bb-bg-tertiary);
   border: 1px solid var(--bb-border);
@@ -310,13 +310,13 @@
 }
 
 .bb-char-card-stat-value {
-  font-size: 0.8rem;
+  font-size: var(--text-sm);
   font-weight: 600;
   color: var(--bb-text-primary);
 }
 
 .bb-char-card-stat-label {
-  font-size: 0.625rem;
+  font-size: var(--text-3xs);
   color: var(--bb-text-tertiary);
   text-transform: uppercase;
 }
@@ -333,7 +333,7 @@
 .bb-char-table {
   width: 100%;
   border-collapse: collapse;
-  font-size: 0.875rem;
+  font-size: var(--text-md);
 }
 
 .bb-char-table th {
@@ -343,7 +343,7 @@
   color: var(--bb-primary-light);
   font-weight: 600;
   text-transform: uppercase;
-  font-size: 0.75rem;
+  font-size: var(--text-xs);
   letter-spacing: 0.03em;
   border-bottom: 2px solid var(--bb-border);
   cursor: pointer;
@@ -408,7 +408,7 @@
 .bb-char-table-portrait :global(.paladin-image-fallback) {
   width: 100%;
   height: 100%;
-  font-size: 0.5rem;
+  font-size: var(--text-3xs);
 }
 
 .bb-char-table-name {
@@ -416,7 +416,7 @@
 }
 
 .bb-char-table-title {
-  font-size: 0.75rem;
+  font-size: var(--text-xs);
   color: var(--bb-text-tertiary);
 }
 
@@ -435,7 +435,7 @@
 }
 
 .bb-char-table-weapon-text {
-  font-size: 0.8rem;
+  font-size: var(--text-sm);
   color: var(--bb-text-secondary);
 }
 
@@ -455,18 +455,18 @@
 }
 
 .bb-char-no-results-icon {
-  font-size: 3rem;
+  font-size: var(--text-6xl);
   margin-bottom: 1rem;
   opacity: 0.5;
 }
 
 .bb-char-no-results-text {
-  font-size: 1.125rem;
+  font-size: var(--text-lg);
   margin-bottom: 0.5rem;
 }
 
 .bb-char-no-results-hint {
-  font-size: 0.875rem;
+  font-size: var(--text-md);
   opacity: 0.7;
 }
 
@@ -501,11 +501,11 @@
   }
 
   .bb-char-stat-value {
-    font-size: 1.125rem;
+    font-size: var(--text-lg);
   }
 
   .bb-char-stat-label {
-    font-size: 0.6rem;
+    font-size: var(--text-3xs);
   }
 
   .bb-char-filter-section {
@@ -523,12 +523,12 @@
   }
 
   .bb-char-filter-label {
-    font-size: 0.625rem;
+    font-size: var(--text-3xs);
   }
 
   .bb-char-filter-select,
   .bb-char-filter-input {
-    font-size: 0.75rem;
+    font-size: var(--text-xs);
     padding: 0.5rem;
   }
 
@@ -539,7 +539,7 @@
 
   .bb-char-filter-btn {
     flex: 1;
-    font-size: 0.7rem;
+    font-size: var(--text-2xs);
     padding: 0.5rem;
   }
 
@@ -549,7 +549,7 @@
   }
 
   .bb-char-sort-btn {
-    font-size: 0.65rem;
+    font-size: var(--text-3xs);
     padding: 0.375rem 0.5rem;
   }
 
@@ -579,7 +579,7 @@
   }
 
   .bb-char-card-name {
-    font-size: 0.875rem;
+    font-size: var(--text-md);
   }
 
   .bb-char-card-badges {
@@ -588,12 +588,12 @@
   }
 
   .bb-char-card-badge {
-    font-size: 0.55rem;
+    font-size: var(--text-3xs);
     padding: 0.125rem 0.375rem;
   }
 
   .bb-char-card-badge-icon {
-    font-size: 0.55rem;
+    font-size: var(--text-3xs);
     padding: 0.125rem 0.375rem;
   }
 
@@ -609,19 +609,19 @@
   }
 
   .bb-char-card-stat-value {
-    font-size: 0.7rem;
+    font-size: var(--text-2xs);
   }
 
   .bb-char-card-stat-label {
-    font-size: 0.5rem;
+    font-size: var(--text-3xs);
   }
 
   /* No results mobile */
   .bb-char-no-results-title {
-    font-size: 1rem;
+    font-size: var(--text-base);
   }
 
   .bb-char-no-results-hint {
-    font-size: 0.75rem;
+    font-size: var(--text-xs);
     }
   }

@@ -10,13 +10,13 @@
 
 .bb-rec-disclaimer-content h3 {
   margin: 0 0 8px 0;
-  font-size: 16px;
+  font-size: var(--text-base);
   color: #f0c040;
 }
 
 .bb-rec-disclaimer-content p {
   margin: 0;
-  font-size: 14px;
+  font-size: var(--text-md);
   line-height: 1.6;
   color: #b0b0b0;
 }
@@ -107,12 +107,12 @@
 
 .bb-rec-char-name {
   margin: 0;
-  font-size: 22px;
+  font-size: var(--text-2xl);
   color: #e0e0e0;
 }
 
 .bb-rec-verdict {
-  font-size: 28px;
+  font-size: var(--text-3xl);
   font-weight: 800;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -131,7 +131,7 @@
 }
 
 .bb-rec-verdict-plain {
-  font-size: 14px;
+  font-size: var(--text-md);
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.5px;
@@ -148,7 +148,7 @@
 .bb-rec-meta {
   display: flex;
   gap: 16px;
-  font-size: 13px;
+  font-size: var(--text-sm);
   color: #888;
   margin-bottom: 8px;
 }
@@ -160,13 +160,13 @@
 }
 
 .bb-rec-char-link {
-  font-size: 13px;
+  font-size: var(--text-sm);
   color: #6fa8dc;
   text-decoration: none;
 }
 
 .bb-rec-summary {
-  font-size: 15px;
+  font-size: var(--text-body);
   color: #c0c0c0;
   margin: 0 24px 20px 24px;
   line-height: 1.5;
@@ -184,13 +184,13 @@
 
 .bb-rec-reason-title {
   margin: 0 0 4px 0;
-  font-size: 14px;
+  font-size: var(--text-md);
   color: #e0e0e0;
 }
 
 .bb-rec-reason-text {
   margin: 0;
-  font-size: 13px;
+  font-size: var(--text-sm);
   color: #999;
   line-height: 1.6;
 }

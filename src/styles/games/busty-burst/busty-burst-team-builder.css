@@ -67,7 +67,7 @@
   display: inline-flex;
   align-items: center;
   font-weight: var(--font-bold);
-  font-size: 10px;
+  font-size: var(--text-3xs);
   padding: 0.15rem 0.4rem;
   border-radius: 3px;
   line-height: 1.3;
@@ -158,7 +158,7 @@
 }
 
 .bb-tb-slot-filled .bb-tb-slot-name {
-  font-size: 10px;
+  font-size: var(--text-3xs);
   font-weight: var(--font-bold);
   color: var(--bb-text-primary);
   text-align: center;
@@ -184,7 +184,7 @@
   border-radius: 50%;
   width: 20px;
   height: 20px;
-  font-size: 11px;
+  font-size: var(--text-2xs);
   font-weight: var(--font-bold);
   cursor: pointer;
   line-height: 1;
@@ -253,7 +253,7 @@
 }
 
 .bb-tb-char-skill-header-name {
-  font-size: 13px;
+  font-size: var(--text-sm);
   font-weight: var(--font-bold);
   color: var(--bb-text-primary);
   overflow: hidden;
@@ -272,7 +272,7 @@
   padding: 0.4rem;
   border-radius: 4px;
   margin-bottom: 0.3rem;
-  font-size: 12px;
+  font-size: var(--text-xs);
   line-height: 1.4;
 }
 
@@ -303,18 +303,18 @@
 .bb-tb-skill-row-skill-name {
   font-weight: var(--font-bold);
   color: var(--bb-text-primary);
-  font-size: 12px;
+  font-size: var(--text-xs);
 }
 
 .bb-tb-skill-row-effects {
   color: var(--bb-text-secondary);
-  font-size: 11px;
+  font-size: var(--text-2xs);
   overflow: hidden;
   text-overflow: ellipsis;
 }
 
 .bb-tb-skill-row-conflict-info {
-  font-size: 10px;
+  font-size: var(--text-3xs);
   color: #e76e6e;
   font-weight: var(--font-bold);
   margin-top: 0.1rem;
@@ -322,7 +322,7 @@
 
 .bb-tb-no-skills {
   padding: 0.5rem;
-  font-size: 11px;
+  font-size: var(--text-2xs);
   color: var(--bb-text-muted);
   text-align: center;
 }
@@ -337,13 +337,13 @@
   border: 1px solid rgba(231, 110, 110, 0.3);
   border-radius: 6px;
   margin-bottom: 0.75rem;
-  font-size: 13px;
+  font-size: var(--text-sm);
   font-weight: var(--font-bold);
   color: #e76e6e;
 }
 
 .bb-tb-conflict-banner-icon {
-  font-size: 18px;
+  font-size: var(--text-lg);
   line-height: 1;
 }
 
@@ -356,7 +356,7 @@
   border: 1px solid rgba(110, 231, 160, 0.3);
   border-radius: 6px;
   margin-bottom: 0.75rem;
-  font-size: 13px;
+  font-size: var(--text-sm);
   font-weight: var(--font-bold);
   color: #6ee7a0;
 }
@@ -394,7 +394,7 @@
 }
 
 .bb-tb-conflict-stat {
-  font-size: 13px;
+  font-size: var(--text-sm);
   color: #e76e6e;
   font-weight: var(--font-bold);
 }
@@ -402,7 +402,7 @@
 .bb-tb-conflict-title {
   font-weight: var(--font-bold);
   color: var(--bb-text-primary);
-  font-size: 12px;
+  font-size: var(--text-xs);
 }
 
 .bb-tb-conflict-items {
@@ -416,7 +416,7 @@
   display: flex;
   flex-direction: column;
   gap: 0.2rem;
-  font-size: 12px;
+  font-size: var(--text-xs);
   padding: 0.5rem;
   background: var(--bb-bg-card);
   border-radius: 4px;
@@ -434,7 +434,7 @@
 
 .bb-tb-skill-type {
   color: var(--bb-text-muted);
-  font-size: 11px;
+  font-size: var(--text-2xs);
 }
 
 .bb-tb-conflict-item-effects {
@@ -447,7 +447,7 @@
   background: rgba(46, 82, 102, 0.3);
   padding: 0.15rem 0.4rem;
   border-radius: 3px;
-  font-size: 11px;
+  font-size: var(--text-2xs);
   color: var(--bb-text-primary);
 }
 
@@ -457,7 +457,7 @@
 }
 
 .bb-tb-conflict-warning {
-  font-size: 11px;
+  font-size: var(--text-2xs);
   color: var(--bb-text-secondary);
   padding: 0.4rem 0.5rem;
   background: rgba(77, 26, 26, 0.15);
@@ -595,7 +595,7 @@
   width: 16px;
   height: 16px;
   border-radius: 50%;
-  font-size: 10px;
+  font-size: var(--text-3xs);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -621,7 +621,7 @@
 }
 
 .bb-tb-char-name {
-  font-size: 10px;
+  font-size: var(--text-3xs);
   font-weight: var(--font-bold);
   color: var(--bb-text-primary);
   display: block;
@@ -639,7 +639,7 @@
 }
 
 .bb-tb-char-badges .bb-badge {
-  font-size: 9px;
+  font-size: var(--text-3xs);
   padding: 0.1rem 0.3rem;
 }
 
@@ -723,7 +723,7 @@
   }
 
   .bb-tb-char-name {
-    font-size: 9px;
+    font-size: var(--text-3xs);
   }
 
   .bb-tb-slot {

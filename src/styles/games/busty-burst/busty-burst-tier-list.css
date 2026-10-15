@@ -17,7 +17,7 @@
   border: 2px solid var(--bb-border);
   border-radius: 8px;
   color: var(--bb-text-secondary);
-  font-size: 1rem;
+  font-size: var(--text-base);
   font-weight: 600;
   cursor: pointer;
   /* NO TRANSITION - FLAT DESIGN */
@@ -76,14 +76,14 @@
 }
 
 .bb-tier-list-title {
-  font-size: 2.5rem;
+  font-size: var(--text-5xl);
   font-weight: 700;
   color: var(--bb-primary);
   margin-bottom: 0.5rem;
 }
 
 .bb-tier-list-description {
-  font-size: 1rem;
+  font-size: var(--text-base);
   color: var(--bb-text-secondary);
   max-width: 800px;
   margin: 0 auto;
@@ -91,7 +91,7 @@
 
 .bb-tier-list-last-updated {
   margin-top: 1rem;
-  font-size: 0.85rem;
+  font-size: var(--text-md);
   color: var(--bb-text-muted);
 }
 
@@ -109,7 +109,7 @@
 .bb-tier-list-info h3 {
   color: var(--bb-primary);
   margin-bottom: 1rem;
-  font-size: 1.3rem;
+  font-size: var(--text-xl);
 }
 
 .bb-tier-list-info p {
@@ -154,7 +154,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 2rem;
+  font-size: var(--text-4xl);
   font-weight: 900;
   border-radius: 8px;
   flex-shrink: 0;
@@ -174,7 +174,7 @@
 /* Not-yet-rated units — smaller, muted, dashed label so it reads as
    pending rather than a rating below B */
 .bb-tier-nyr {
-  font-size: 1.1rem;
+  font-size: var(--text-lg);
   letter-spacing: 0.08em;
   color: var(--bb-text-tertiary);
   border-style: dashed;
@@ -236,7 +236,7 @@
 
 /* Character Name - BB specific */
 .bb-character-name {
-  font-size: 0.85rem;
+  font-size: var(--text-md);
   font-weight: 600;
   line-height: 1.2;
   text-align: center;
@@ -278,7 +278,7 @@
   }
 
   .bb-tier-list-title {
-    font-size: 2rem;
+    font-size: var(--text-4xl);
   }
 
   .bb-tier-row {
@@ -289,7 +289,7 @@
   .bb-tier-label {
     width: 100%;
     height: 50px;
-    font-size: 1.5rem;
+    font-size: var(--text-2xl);
   }
 
   .bb-tier-characters {
@@ -309,7 +309,7 @@
   }
 
   .bb-character-name {
-    font-size: 0.8rem;
+    font-size: var(--text-sm);
   }
 
   .bb-tier-rarity img {
@@ -342,7 +342,7 @@
   border-radius: 0.5rem;
   background: var(--bb-bg-secondary, #1f2937);
   color: var(--bb-text-primary, #fff);
-  font-size: 0.9rem;
+  font-size: var(--text-md);
   outline: none;
   transition: border-color 0.2s, box-shadow 0.2s;
 }
@@ -362,7 +362,7 @@
   border-radius: 0.5rem;
   background: var(--bb-bg-secondary, #1f2937);
   color: var(--bb-text-primary, #fff);
-  font-size: 0.9rem;
+  font-size: var(--text-md);
   cursor: pointer;
   outline: none;
   min-width: 120px;
@@ -378,7 +378,7 @@
   border-radius: 0.5rem;
   background: var(--bb-bg-secondary, #1f2937);
   color: var(--bb-text-primary, #fff);
-  font-size: 0.9rem;
+  font-size: var(--text-md);
   cursor: pointer;
   transition: background 0.2s;
 }
@@ -436,7 +436,7 @@
 
 .bb-element-tier-section-name {
   margin: 0;
-  font-size: 0.875rem;
+  font-size: var(--text-md);
   font-weight: 700;
   color: var(--bb-element-color, var(--bb-text-primary));
   line-height: 1.3;
@@ -466,7 +466,7 @@
 
 .bb-element-tier-section-count {
   margin-left: auto;
-  font-size: 0.75rem;
+  font-size: var(--text-xs);
   color: var(--bb-text-muted, #9ca3af);
   background: var(--bb-bg-tertiary);
   padding: 0.2rem 0.5rem;
@@ -485,7 +485,7 @@
 }
 
 .bb-tier-char-count {
-  font-size: 0.8125rem;
+  font-size: var(--text-sm);
   color: var(--bb-text-muted, #9ca3af);
   white-space: nowrap;
 }
@@ -500,7 +500,7 @@
   .bb-element-tier-section .bb-tier-label {
     width: 100%;
     height: 50px;
-    font-size: 1.5rem;
+    font-size: var(--text-2xl);
   }
 }
 .bb-character-icons {
@@ -516,7 +516,7 @@
 }
 
 .bb-stats-preview {
-  font-size: 0.6rem;
+  font-size: var(--text-3xs);
   color: var(--bb-text-muted, #9ca3af);
   text-align: center;
   margin-top: 0.25rem;
@@ -567,7 +567,7 @@
   }
 
   .bb-stats-preview {
-    font-size: 0.55rem;
+    font-size: var(--text-3xs);
   }
 
   .bb-tier-list-info {
@@ -575,11 +575,11 @@
   }
 
   .bb-tier-list-info h3 {
-    font-size: 1.1rem;
+    font-size: var(--text-lg);
   }
 
   .bb-tier-list-info li {
-    font-size: 0.85rem;
+    font-size: var(--text-md);
   }
 }
 
@@ -599,7 +599,7 @@
   }
 
   .bb-stats-preview {
-    font-size: 0.5rem;
+    font-size: var(--text-3xs);
     max-height: 2em;
   }
 
@@ -732,7 +732,7 @@
 }
 
 .bb-pool-character-name {
-  font-size: 0.65rem;
+  font-size: var(--text-3xs);
   color: var(--bb-text-primary, #fff);
   text-align: center;
   margin-top: 0.25rem;
@@ -774,7 +774,7 @@
 #maker-tier-list .bb-tier-label {
   min-height: 80px;
   width: 80px;
-  font-size: 1.5rem;
+  font-size: var(--text-2xl);
   border-radius: 8px 0 0 8px;
 }
 
@@ -855,7 +855,7 @@
 }
 
 .bb-tier-character-card.in-tier .bb-character-name {
-  font-size: 0.65rem !important;
+  font-size: var(--text-3xs) !important;
   font-weight: 600 !important;
   line-height: 1.2 !important;
   text-align: center !important;
@@ -888,7 +888,7 @@
   border-radius: 6px 6px 0 0;
   color: rgba(255, 255, 255, 0.8);
   cursor: pointer;
-  font-size: 14px;
+  font-size: var(--text-md);
   font-weight: bold;
   display: flex;
   align-items: flex-start;
@@ -939,7 +939,7 @@
   }
 
   .bb-tier-character-card.in-tier .bb-character-name {
-    font-size: 0.6rem !important;
+    font-size: var(--text-3xs) !important;
     max-width: 60px !important;
   }
 
@@ -949,7 +949,7 @@
   }
 
   .bb-pool-character-name {
-    font-size: 0.6rem;
+    font-size: var(--text-3xs);
     max-width: 60px;
   }
 }

@@ -196,7 +196,7 @@
   }
 
   .bb-effect-pieces {
-    font-size: 0.65rem;
+    font-size: var(--text-3xs);
     padding: 0.2rem 0.4rem;
     min-width: 40px;
   }
@@ -231,6 +231,6 @@
   }
 
   .bb-effect-stat {
-    font-size: 0.65rem;
+    font-size: var(--text-3xs);
   }
 }

@@ -18,7 +18,7 @@
 }
 
 .bb-formulas-intro {
-  font-size: 1rem;
+  font-size: var(--text-base);
   color: var(--bb-text-secondary);
   line-height: 1.7;
   max-width: 800px;
@@ -33,7 +33,7 @@
 }
 
 .bb-formulas-section-title {
-  font-size: 1.35rem;
+  font-size: var(--text-xl);
   font-weight: 600;
   color: var(--bb-text-primary);
   margin: 0 0 1.5rem 0;
@@ -61,14 +61,14 @@
 }
 
 .bb-formula-card-title {
-  font-size: 1.1rem;
+  font-size: var(--text-lg);
   font-weight: 600;
   color: var(--bb-primary-light);
   margin: 0 0 0.5rem 0;
 }
 
 .bb-formula-card-desc {
-  font-size: 0.95rem;
+  font-size: var(--text-body);
   color: var(--bb-text-secondary);
   margin: 0;
   line-height: 1.5;
@@ -83,7 +83,7 @@
 }
 
 .bb-formula-label {
-  font-size: 0.75rem;
+  font-size: var(--text-xs);
   font-weight: 600;
   color: var(--bb-text-tertiary);
   text-transform: uppercase;
@@ -92,7 +92,7 @@
 }
 
 .bb-formula-text {
-  font-size: 0.95rem;
+  font-size: var(--text-body);
   color: var(--bb-text-primary);
   font-weight: 500;
   margin-bottom: 0.75rem;
@@ -101,7 +101,7 @@
 
 .bb-formula-code {
   font-family: var(--font-mono);
-  font-size: 0.9rem;
+  font-size: var(--text-md);
   color: var(--bb-primary-light);
   background: var(--bb-bg-primary);
   padding: 0.875rem 1rem;
@@ -121,7 +121,7 @@
 }
 
 .bb-formula-example-title {
-  font-size: 0.75rem;
+  font-size: var(--text-xs);
   font-weight: 600;
   color: var(--bb-text-tertiary);
   text-transform: uppercase;
@@ -130,7 +130,7 @@
 }
 
 .bb-formula-example-text {
-  font-size: 0.9rem;
+  font-size: var(--text-md);
   color: var(--bb-text-secondary);
   margin-bottom: 0.5rem;
   line-height: 1.5;
@@ -138,7 +138,7 @@
 
 .bb-formula-example-calc {
   font-family: var(--font-mono);
-  font-size: 0.9rem;
+  font-size: var(--text-md);
   color: var(--bb-text-primary);
   font-weight: 600;
   word-break: break-word;
@@ -155,7 +155,7 @@
   position: relative;
   padding-left: 1.25rem;
   margin-bottom: 0.5rem;
-  font-size: 0.9rem;
+  font-size: var(--text-md);
   color: var(--bb-text-secondary);
   line-height: 1.6;
 }
@@ -187,11 +187,11 @@
   padding: 0.75rem 1rem;
   text-align: left;
   border-bottom: 1px solid var(--bb-border);
-  font-size: 0.9rem;
+  font-size: var(--text-md);
 }
 
 .bb-buff-examples th {
-  font-size: 0.75rem;
+  font-size: var(--text-xs);
   font-weight: 600;
   color: var(--bb-text-tertiary);
   text-transform: uppercase;
@@ -233,7 +233,7 @@
 }
 
 .bb-stat-category-title {
-  font-size: 1rem;
+  font-size: var(--text-base);
   font-weight: 600;
   color: var(--bb-primary-light);
   margin: 0 0 1rem 0;
@@ -266,20 +266,20 @@
 .bb-stat-name-text {
   font-weight: 600;
   color: var(--bb-text-primary);
-  font-size: 0.9rem;
+  font-size: var(--text-md);
   margin-bottom: 0.2rem;
   word-wrap: break-word;
 }
 
 .bb-stat-name-note {
-  font-size: 0.8rem;
+  font-size: var(--text-sm);
   color: var(--bb-text-tertiary);
   font-style: italic;
 }
 
 .bb-stat-desc {
   flex: 1;
-  font-size: 0.9rem;
+  font-size: var(--text-md);
   color: var(--bb-text-secondary);
   line-height: 1.5;
   padding-top: 0;
@@ -294,7 +294,7 @@
   gap: 0.5rem;
   color: var(--bb-primary-light);
   text-decoration: none;
-  font-size: 0.9rem;
+  font-size: var(--text-md);
   margin-bottom: 1.5rem;
 }
 
@@ -315,7 +315,7 @@
   }
 
   .bb-formulas-intro {
-    font-size: 0.95rem;
+    font-size: var(--text-body);
   }
 
   .bb-formulas-section {
@@ -323,7 +323,7 @@
   }
 
   .bb-formulas-section-title {
-    font-size: 1.2rem;
+    font-size: var(--text-xl);
   }
 
   .bb-formula-card {
@@ -331,11 +331,11 @@
   }
 
   .bb-formula-card-title {
-    font-size: 1rem;
+    font-size: var(--text-base);
   }
 
   .bb-formula-card-desc {
-    font-size: 0.9rem;
+    font-size: var(--text-md);
   }
 
   .bb-formula-display {
@@ -343,11 +343,11 @@
   }
 
   .bb-formula-text {
-    font-size: 0.9rem;
+    font-size: var(--text-md);
   }
 
   .bb-formula-code {
-    font-size: 0.85rem;
+    font-size: var(--text-md);
     padding: 0.75rem;
   }
 
@@ -357,11 +357,11 @@
 
   .bb-formula-example-text,
   .bb-formula-example-calc {
-    font-size: 0.85rem;
+    font-size: var(--text-md);
   }
 
   .bb-formula-notes li {
-    font-size: 0.85rem;
+    font-size: var(--text-md);
   }
 
   .bb-stat-item {
@@ -376,11 +376,11 @@
   }
 
   .bb-stat-name-text {
-    font-size: 0.9rem;
+    font-size: var(--text-md);
   }
 
   .bb-stat-desc {
-    font-size: 0.85rem;
+    font-size: var(--text-md);
   }
 
   .bb-stat-category {
@@ -388,7 +388,7 @@
   }
 
   .bb-stat-category-title {
-    font-size: 0.95rem;
+    font-size: var(--text-body);
   }
 
   /* Table wrapper for horizontal scroll */
@@ -406,12 +406,12 @@
   .bb-buff-examples th,
   .bb-buff-examples td {
     padding: 0.625rem 0.75rem;
-    font-size: 0.85rem;
+    font-size: var(--text-md);
     white-space: nowrap;
   }
 
   .bb-buff-examples th {
-    font-size: 0.7rem;
+    font-size: var(--text-2xs);
   }
 }
 
@@ -425,7 +425,7 @@
   }
 
   .bb-formulas-intro {
-    font-size: 0.9rem;
+    font-size: var(--text-md);
   }
 
   .bb-formulas-section {
@@ -433,7 +433,7 @@
   }
 
   .bb-formulas-section-title {
-    font-size: 1.1rem;
+    font-size: var(--text-lg);
     margin-bottom: 1rem;
   }
 
@@ -446,11 +446,11 @@
   }
 
   .bb-formula-card-title {
-    font-size: 0.95rem;
+    font-size: var(--text-body);
   }
 
   .bb-formula-card-desc {
-    font-size: 0.85rem;
+    font-size: var(--text-md);
   }
 
   .bb-formula-display {
@@ -459,12 +459,12 @@
   }
 
   .bb-formula-text {
-    font-size: 0.85rem;
+    font-size: var(--text-md);
     margin-bottom: 0.5rem;
   }
 
   .bb-formula-code {
-    font-size: 0.8rem;
+    font-size: var(--text-sm);
     padding: 0.625rem 0.75rem;
   }
 
@@ -475,11 +475,11 @@
 
   .bb-formula-example-text,
   .bb-formula-example-calc {
-    font-size: 0.8rem;
+    font-size: var(--text-sm);
   }
 
   .bb-formula-notes li {
-    font-size: 0.8rem;
+    font-size: var(--text-sm);
     padding-left: 1rem;
   }
 
@@ -497,7 +497,7 @@
   }
 
   .bb-stat-category-title {
-    font-size: 0.9rem;
+    font-size: var(--text-md);
     margin-bottom: 0.75rem;
   }
 
@@ -510,19 +510,19 @@
   }
 
   .bb-stat-name-text {
-    font-size: 0.85rem;
+    font-size: var(--text-md);
   }
 
   .bb-stat-name-note {
-    font-size: 0.75rem;
+    font-size: var(--text-xs);
   }
 
   .bb-stat-desc {
-    font-size: 0.8rem;
+    font-size: var(--text-sm);
   }
 
   .bb-formulas-back {
-    font-size: 0.85rem;
+    font-size: var(--text-md);
     margin-bottom: 1rem;
   }
 }

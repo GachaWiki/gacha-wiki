@@ -34,7 +34,7 @@
 }
 
 .bb-build-detail-title {
-  font-size: 1.5rem;
+  font-size: var(--text-2xl);
   font-weight: 600;
   color: var(--bb-text-primary);
   margin: 0;
@@ -67,7 +67,7 @@
 }
 
 .bb-build-info-label {
-  font-size: 0.95rem;
+  font-size: var(--text-body);
   color: var(--bb-text-primary);
   font-weight: 500;
 }
@@ -103,14 +103,14 @@
 }
 
 .bb-build-item-name {
-  font-size: 1.1rem;
+  font-size: var(--text-lg);
   font-weight: 600;
   color: var(--bb-text-primary);
   margin: 0 0 0.5rem 0;
 }
 
 .bb-build-item-effect {
-  font-size: 0.9rem;
+  font-size: var(--text-md);
   color: var(--bb-text-secondary);
   line-height: 1.5;
   margin: 0;
@@ -118,7 +118,7 @@
 
 /* Weapon Ability */
 .bb-build-weapon-ability {
-  font-size: 0.9rem;
+  font-size: var(--text-md);
   color: #feca57;
   font-weight: 600;
   margin: 0 0 0.4rem 0;
@@ -132,7 +132,7 @@
 }
 
 .bb-build-stats-title {
-  font-size: 0.85rem;
+  font-size: var(--text-md);
   color: var(--bb-text-secondary);
   font-weight: 600;
   margin: 0 0 0.75rem 0;
@@ -157,13 +157,13 @@
 }
 
 .bb-build-stat-name {
-  font-size: 0.85rem;
+  font-size: var(--text-md);
   color: var(--bb-text-secondary);
   font-weight: 500;
 }
 
 .bb-build-stat-value {
-  font-size: 0.85rem;
+  font-size: var(--text-md);
   color: var(--bb-text-primary);
   font-weight: 600;
 }
@@ -174,7 +174,7 @@
 }
 
 .bb-build-alt-title {
-  font-size: 0.9rem;
+  font-size: var(--text-md);
   color: var(--bb-text-secondary);
   font-weight: 600;
   margin: 0 0 0.75rem 0;
@@ -230,14 +230,14 @@
 }
 
 .bb-build-set-pieces {
-  font-size: 0.85rem;
+  font-size: var(--text-md);
   font-weight: 600;
   color: var(--bb-text-secondary);
   text-transform: capitalize;
 }
 
 .bb-build-set-value {
-  font-size: 0.9rem;
+  font-size: var(--text-md);
   color: var(--bb-text-primary);
   font-weight: 500;
 }
@@ -266,19 +266,19 @@
 }
 
 .bb-build-main-stat-slot {
-  font-size: 0.8rem;
+  font-size: var(--text-sm);
   color: var(--bb-text-secondary);
   font-weight: 500;
 }
 
 .bb-build-main-stat-value {
-  font-size: 0.9rem;
+  font-size: var(--text-md);
   color: var(--bb-text-primary);
   font-weight: 600;
 }
 
 .bb-build-main-stat-substat {
-  font-size: 0.85rem;
+  font-size: var(--text-md);
   color: #feca57;
   font-weight: 500;
 }
@@ -298,14 +298,14 @@
 }
 
 .bb-build-substat-label {
-  font-size: 0.9rem;
+  font-size: var(--text-md);
   color: var(--bb-text-secondary);
   font-weight: 600;
   min-width: 80px;
 }
 
 .bb-build-substat-values {
-  font-size: 0.95rem;
+  font-size: var(--text-body);
   color: var(--bb-text-primary);
   font-weight: 500;
 }
@@ -318,7 +318,7 @@
 }
 
 .bb-build-tips-label {
-  font-size: 0.9rem;
+  font-size: var(--text-md);
   color: var(--bb-text-secondary);
   font-weight: 600;
   display: block;
@@ -334,7 +334,7 @@
 }
 
 .bb-build-tip-item {
-  font-size: 0.85rem;
+  font-size: var(--text-md);
   color: var(--bb-text-primary);
   line-height: 1.4;
 }
@@ -344,7 +344,7 @@
 }
 
 .bb-build-weapon-note p {
-  font-size: 0.9rem;
+  font-size: var(--text-md);
   color: var(--bb-text-primary);
   line-height: 1.5;
   margin: 0;
@@ -359,7 +359,7 @@
 }
 
 .bb-build-highlight p {
-  font-size: 0.95rem;
+  font-size: var(--text-body);
   color: var(--bb-text-primary);
   line-height: 1.6;
   margin: 0;
@@ -382,7 +382,7 @@
   }
 
   .bb-build-detail-title {
-    font-size: 1.35rem;
+    font-size: var(--text-xl);
   }
 
   .bb-build-accessory-item {
@@ -410,7 +410,7 @@
   }
 
   .bb-build-detail-title {
-    font-size: 1.2rem;
+    font-size: var(--text-xl);
   }
 
   .bb-build-item-row {
@@ -425,11 +425,11 @@
   }
 
   .bb-build-item-name {
-    font-size: 1rem;
+    font-size: var(--text-base);
   }
 
   .bb-build-item-effect {
-    font-size: 0.85rem;
+    font-size: var(--text-md);
   }
 
   .bb-build-detail-card {
@@ -453,11 +453,11 @@
   }
 
   .bb-build-set-pieces {
-    font-size: 0.8rem;
+    font-size: var(--text-sm);
   }
 
   .bb-build-set-value {
-    font-size: 0.85rem;
+    font-size: var(--text-md);
   }
 }
 
@@ -477,7 +477,7 @@
   }
 
   .bb-build-detail-title {
-    font-size: 1.1rem;
+    font-size: var(--text-lg);
   }
 
   .bb-build-item-image {

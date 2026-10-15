@@ -72,7 +72,7 @@
   color: var(--bb-text-secondary);
   border: 1px solid var(--bb-border);
   border-radius: 4px;
-  font-size: 0.8rem;
+  font-size: var(--text-sm);
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.5px;
@@ -302,7 +302,7 @@
 
   .bb-weapons-tab {
     padding: 0.5rem 1rem;
-    font-size: 0.75rem;
+    font-size: var(--text-xs);
   }
 
   .bb-weapons-grid {
@@ -341,7 +341,7 @@
 
   .bb-weapons-tab {
     padding: 0.4rem 0.75rem;
-    font-size: 0.65rem;
+    font-size: var(--text-3xs);
   }
 
   .bb-weapons-grid {
@@ -365,7 +365,7 @@
   }
 
   .bb-weapon-obtain {
-    font-size: 0.7rem;
+    font-size: var(--text-2xs);
     padding: 0.25rem 0.5rem;
   }
 

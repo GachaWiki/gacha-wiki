@@ -20,7 +20,7 @@
 
 .bb-blog-intro-text {
   color: var(--bb-text-secondary);
-  font-size: 0.95rem;
+  font-size: var(--text-body);
   line-height: 1.6;
   margin: 0;
 }
@@ -33,7 +33,7 @@
 }
 
 .bb-blog-section-title {
-  font-size: 1.25rem;
+  font-size: var(--text-xl);
   font-weight: 600;
   color: var(--bb-text-primary);
   margin-bottom: 1rem;
@@ -77,7 +77,7 @@
 
 .bb-blog-card-category {
   display: inline-block;
-  font-size: 0.7rem;
+  font-size: var(--text-2xs);
   font-weight: 600;
   padding: 0.2rem 0.5rem;
   border-radius: 3px;
@@ -89,13 +89,13 @@
 }
 
 .bb-blog-card-date {
-  font-size: 0.8rem;
+  font-size: var(--text-sm);
   color: var(--bb-text-muted, #888);
 }
 
 /* Card Title */
 .bb-blog-card-title {
-  font-size: 1.1rem;
+  font-size: var(--text-lg);
   font-weight: 600;
   color: var(--bb-text-primary);
   margin: 0;
@@ -104,7 +104,7 @@
 
 /* Card Excerpt */
 .bb-blog-card-excerpt {
-  font-size: 0.9rem;
+  font-size: var(--text-md);
   color: var(--bb-text-secondary);
   line-height: 1.5;
   margin: 0;
@@ -116,7 +116,7 @@
 
 /* Card Author */
 .bb-blog-card-author {
-  font-size: 0.8rem;
+  font-size: var(--text-sm);
   color: var(--bb-text-muted, #888);
   margin-top: auto;
   padding-top: 0.5rem;
@@ -131,14 +131,14 @@
 }
 
 .bb-blog-empty h3 {
-  font-size: 1.25rem;
+  font-size: var(--text-xl);
   font-weight: 600;
   color: var(--bb-text-primary);
   margin: 0 0 0.5rem 0;
 }
 
 .bb-blog-empty p {
-  font-size: 0.95rem;
+  font-size: var(--text-body);
   margin: 0;
 }
 
@@ -158,11 +158,11 @@
   }
 
   .bb-blog-card-title {
-    font-size: 1rem;
+    font-size: var(--text-base);
   }
 
   .bb-blog-section-title {
-    font-size: 1.1rem;
+    font-size: var(--text-lg);
   }
 }
 
@@ -181,22 +181,22 @@
   }
 
   .bb-blog-card-title {
-    font-size: 0.95rem;
+    font-size: var(--text-body);
   }
 
   .bb-blog-card-excerpt {
-    font-size: 0.85rem;
+    font-size: var(--text-md);
     -webkit-line-clamp: 2;
   }
 
   .bb-blog-card-category {
-    font-size: 0.65rem;
+    font-size: var(--text-3xs);
     padding: 0.15rem 0.4rem;
   }
 
   .bb-blog-card-date,
   .bb-blog-card-author {
-    font-size: 0.75rem;
+    font-size: var(--text-xs);
   }
 
   .bb-blog-intro {
@@ -204,6 +204,6 @@
   }
 
   .bb-blog-intro-text {
-    font-size: 0.85rem;
+    font-size: var(--text-md);
   }
 }

@@ -297,6 +297,6 @@
   }
 
   .bb-stat-breakdown {
-    font-size: 0.65rem;
+    font-size: var(--text-3xs);
   }
 }

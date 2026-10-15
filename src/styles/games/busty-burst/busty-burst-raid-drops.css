@@ -201,6 +201,6 @@
   }
 
   .bb-element-name {
-    font-size: 0.6rem;
+    font-size: var(--text-3xs);
   }
 }

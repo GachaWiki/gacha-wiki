@@ -245,7 +245,7 @@ const computeStatus = (startDate: string, endDate: string, fallback: string) => 
   .jp-timeline .jp-source {
     text-align: center;
     color: var(--bb-text-muted, #6b7280);
-    font-size: 0.85rem;
+    font-size: var(--text-md);
     margin-top: -2rem;
     margin-bottom: 2rem;
   }
@@ -273,7 +273,7 @@ const computeStatus = (startDate: string, endDate: string, fallback: string) => 
     border: 1px solid var(--bb-border);
     border-radius: 8px;
     color: var(--bb-text-primary);
-    font-size: 0.95rem;
+    font-size: var(--text-body);
   }
   .jp-search:focus {
     outline: 2px solid var(--bb-primary, #e879f9);
@@ -290,7 +290,7 @@ const computeStatus = (startDate: string, endDate: string, fallback: string) => 
     background: transparent;
     color: var(--bb-text-secondary);
     cursor: pointer;
-    font-size: 0.85rem;
+    font-size: var(--text-md);
     transition: all 0.15s;
   }
   .jp-chip:hover {
@@ -317,7 +317,7 @@ const computeStatus = (startDate: string, endDate: string, fallback: string) => 
     border: 1px solid var(--bb-border);
     color: var(--bb-text-primary);
     text-decoration: none;
-    font-size: 0.9rem;
+    font-size: var(--text-md);
     font-weight: 600;
   }
   .jp-year-link:hover {
@@ -330,14 +330,14 @@ const computeStatus = (startDate: string, endDate: string, fallback: string) => 
     margin-bottom: 2.5rem;
   }
   .jp-year-heading {
-    font-size: 1.5rem;
+    font-size: var(--text-2xl);
     color: var(--bb-text-primary);
     border-bottom: 2px solid var(--bb-primary);
     padding-bottom: 0.4rem;
     margin-bottom: 1rem;
   }
   .jp-year-count {
-    font-size: 1rem;
+    font-size: var(--text-base);
     color: var(--bb-text-muted);
     font-weight: 400;
   }
@@ -352,7 +352,7 @@ const computeStatus = (startDate: string, endDate: string, fallback: string) => 
   .jp-note {
     font-style: italic;
     color: var(--bb-text-muted);
-    font-size: 0.85rem;
+    font-size: var(--text-md);
   }
   .jp-wiki-link {
     color: var(--bb-primary-light);
@@ -373,19 +373,19 @@ const computeStatus = (startDate: string, endDate: string, fallback: string) => 
     box-sizing: border-box;
   }
   .jp-banner-placeholder-text {
-    font-size: 1rem;
+    font-size: var(--text-base);
     font-weight: 600;
     color: var(--bb-text-secondary);
     line-height: 1.3;
   }
   .jp-banner-placeholder-sub {
-    font-size: 0.75rem;
+    font-size: var(--text-xs);
     opacity: 0.6;
   }
 
   .jp-footnote {
     margin-top: 2rem;
-    font-size: 0.85rem;
+    font-size: var(--text-md);
     color: var(--bb-text-muted);
     font-style: italic;
     text-align: center;

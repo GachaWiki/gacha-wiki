@@ -16,7 +16,7 @@
   background: var(--bbc-accent-tint);
   border: 1px solid var(--bbc-accent-border);
   border-radius: 8px;
-  font-size: 0.75rem;
+  font-size: var(--text-xs);
   color: var(--bb-text-secondary);
 }
 
@@ -100,7 +100,7 @@
 }
 
 .bb-char-name {
-  font-size: 2.25rem;
+  font-size: var(--text-4xl);
   font-weight: 700;
   color: var(--bb-text-primary);
   margin: 0 0 0.25rem 0;
@@ -108,7 +108,7 @@
 }
 
 .bb-char-title-label {
-  font-size: 1rem;
+  font-size: var(--text-base);
   color: var(--bbc-accent);
   margin: 0 0 1rem 0;
   font-style: italic;
@@ -137,7 +137,7 @@
 }
 
 .bb-char-header-badge-text {
-  font-size: 0.8125rem;
+  font-size: var(--text-sm);
   font-weight: 500;
   color: var(--bb-text-primary);
 }
@@ -159,14 +159,14 @@
 }
 
 .bb-char-quick-stat-label {
-  font-size: 0.625rem;
+  font-size: var(--text-3xs);
   color: var(--bb-text-tertiary);
   text-transform: uppercase;
   letter-spacing: 0.05em;
 }
 
 .bb-char-quick-stat-value {
-  font-size: 0.875rem;
+  font-size: var(--text-md);
   font-weight: 600;
   color: var(--bb-text-primary);
 }
@@ -177,12 +177,12 @@
 }
 
 .bb-char-action-speed-value {
-  font-size: 1rem;
+  font-size: var(--text-base);
   font-weight: 700;
 }
 
 .bb-char-action-speed-time {
-  font-size: 0.875rem;
+  font-size: var(--text-md);
   font-weight: 600;
 }
 
@@ -221,7 +221,7 @@
 }
 
 .bb-char-section-title {
-  font-size: 1.3rem;
+  font-size: var(--text-xl);
   font-weight: 700;
   color: var(--bb-text-primary);
   margin: 0 0 1rem 0;
@@ -247,7 +247,7 @@
   background: rgba(255, 255, 255, 0.04);
   border: 1px solid rgba(255, 255, 255, 0.08);
   border-radius: 8px;
-  font-size: 0.8125rem;
+  font-size: var(--text-sm);
   color: var(--bb-text-secondary);
 }
 
@@ -280,7 +280,7 @@
 }
 
 .bb-char-info-card-title {
-  font-size: 0.7rem;
+  font-size: var(--text-2xs);
   color: var(--bbc-accent);
   text-transform: uppercase;
   letter-spacing: 0.09em;
@@ -290,7 +290,7 @@
 
 .bb-char-info-card-content {
   color: var(--bb-text-primary);
-  font-size: 0.875rem;
+  font-size: var(--text-md);
 }
 
 .bb-char-profile-row {
@@ -333,13 +333,13 @@
 }
 
 .bb-char-profile-size-value {
-  font-size: 0.95rem;
+  font-size: var(--text-body);
   font-weight: 700;
   color: var(--bbc-accent-strong);
 }
 
 .bb-char-profile-size-label {
-  font-size: 0.62rem;
+  font-size: var(--text-3xs);
   text-transform: uppercase;
   letter-spacing: 0.08em;
   color: var(--bb-text-tertiary);
@@ -365,7 +365,7 @@
 }
 
 .bb-char-stats-calc-title {
-  font-size: 0.875rem;
+  font-size: var(--text-md);
   font-weight: 600;
   color: var(--bb-primary-light);
 }
@@ -386,7 +386,7 @@
   border: 1px solid var(--bb-border);
   border-radius: 4px;
   color: var(--bb-text-primary);
-  font-size: 1rem;
+  font-size: var(--text-base);
   cursor: pointer;
   transition: all 0.2s ease;
 }
@@ -401,7 +401,7 @@
   padding: 0 0.5rem;
   color: var(--bb-text-primary);
   text-align: center;
-  font-size: 0.875rem;
+  font-size: var(--text-md);
   font-weight: 600;
 }
 
@@ -432,7 +432,7 @@
   border: 1px solid var(--bb-border);
   border-radius: 999px;
   color: var(--bb-text-secondary);
-  font-size: 0.75rem;
+  font-size: var(--text-xs);
   cursor: pointer;
   transition: all 0.2s ease;
 }
@@ -453,7 +453,7 @@
 }
 
 .bb-char-stats-section-title {
-  font-size: 0.875rem;
+  font-size: var(--text-md);
   font-weight: 600;
   color: var(--bb-primary-light);
   margin-bottom: 0.5rem;
@@ -485,12 +485,12 @@
 }
 
 .bb-char-stats-table-label {
-  font-size: 0.75rem;
+  font-size: var(--text-xs);
   color: var(--bb-text-tertiary);
 }
 
 .bb-char-stats-table-value {
-  font-size: 0.875rem;
+  font-size: var(--text-md);
   font-weight: 600;
   color: var(--bb-text-primary);
 }
@@ -502,7 +502,7 @@
 }
 
 .bb-char-stats-table-value .crit-rate {
-  font-size: 0.625rem;
+  font-size: var(--text-3xs);
   color: var(--bb-text-tertiary);
 }
 
@@ -523,12 +523,12 @@
 }
 
 .bb-char-flat-label {
-  font-size: 0.75rem;
+  font-size: var(--text-xs);
   color: var(--bb-text-tertiary);
 }
 
 .bb-char-flat-value {
-  font-size: 0.875rem;
+  font-size: var(--text-md);
   font-weight: 600;
   color: var(--bb-primary-light);
 }
@@ -568,7 +568,7 @@
 }
 
 .bb-char-bonus-title {
-  font-size: 0.75rem;
+  font-size: var(--text-xs);
   font-weight: 600;
   color: var(--bb-primary-light);
   flex: 1;
@@ -589,7 +589,7 @@
   padding: 0 0.25rem;
   color: var(--bb-text-primary);
   text-align: center;
-  font-size: 0.75rem;
+  font-size: var(--text-xs);
   font-weight: 600;
 }
 
@@ -610,7 +610,7 @@
 }
 
 .bb-char-bonus-max {
-  font-size: 0.625rem;
+  font-size: var(--text-3xs);
   color: var(--bb-text-tertiary);
 }
 
@@ -624,7 +624,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-size: 0.75rem;
+  font-size: var(--text-xs);
 }
 
 .bb-char-bonus-stat-name {
@@ -654,7 +654,7 @@
 }
 
 .bb-char-support-card-title {
-  font-size: 0.7rem;
+  font-size: var(--text-2xs);
   font-weight: 700;
   color: var(--bbc-accent);
   text-transform: uppercase;
@@ -666,7 +666,7 @@
   width: 100%;
   border-collapse: separate;
   border-spacing: 0;
-  font-size: 0.75rem;
+  font-size: var(--text-xs);
 }
 
 .bb-char-support-stats-table th,
@@ -719,13 +719,13 @@
 }
 
 .bb-char-support-bonus-name {
-  font-size: 0.875rem;
+  font-size: var(--text-md);
   font-weight: 600;
   color: var(--bbc-accent-strong);
 }
 
 .bb-char-support-bonus-effect {
-  font-size: 0.75rem;
+  font-size: var(--text-xs);
   color: var(--bb-text-tertiary);
   margin-bottom: 0.6rem;
 }
@@ -741,7 +741,7 @@
   background: var(--bbc-accent-tint);
   border: 1px solid var(--bbc-accent-border);
   border-radius: 999px;
-  font-size: 0.65rem;
+  font-size: var(--text-3xs);
   font-weight: 500;
   color: var(--bbc-accent-strong);
 }
@@ -764,7 +764,7 @@
 }
 
 .bb-char-credit-label {
-  font-size: 0.7rem;
+  font-size: var(--text-2xs);
   color: var(--bbc-accent);
   text-transform: uppercase;
   letter-spacing: 0.09em;
@@ -777,13 +777,13 @@
 }
 
 .bb-char-credit-value-jp {
-  font-size: 1rem;
+  font-size: var(--text-base);
   font-weight: 600;
   margin-bottom: 0.25rem;
 }
 
 .bb-char-credit-value-rom {
-  font-size: 0.875rem;
+  font-size: var(--text-md);
   color: var(--bb-text-tertiary);
 }
 
@@ -804,7 +804,7 @@
 .bb-char-obtain-type {
   padding: 0.4rem 0.9rem;
   border-radius: 999px;
-  font-size: 0.7rem;
+  font-size: var(--text-2xs);
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.05em;
@@ -829,7 +829,7 @@
 }
 
 .bb-char-obtain-source {
-  font-size: 0.875rem;
+  font-size: var(--text-md);
   color: var(--bb-text-primary);
 }
 
@@ -851,7 +851,7 @@
 }
 
 .bb-char-build-card-title {
-  font-size: 0.7rem;
+  font-size: var(--text-2xs);
   font-weight: 700;
   color: var(--bbc-accent);
   text-transform: uppercase;
@@ -889,14 +889,14 @@
 }
 
 .bb-char-build-item-name {
-  font-size: 0.9rem;
+  font-size: var(--text-md);
   font-weight: 600;
   color: var(--bb-primary-light);
   margin-bottom: 0.25rem;
 }
 
 .bb-char-build-item-effect {
-  font-size: 0.75rem;
+  font-size: var(--text-xs);
   color: var(--bb-text-secondary);
   line-height: 1.4;
 }
@@ -934,7 +934,7 @@
   display: flex;
   align-items: center;
   gap: 0.5rem;
-  font-size: 0.8rem;
+  font-size: var(--text-sm);
 }
 
 .bb-char-build-set-pieces {
@@ -942,7 +942,7 @@
   background: var(--bbc-accent-tint);
   border: 1px solid var(--bbc-accent-border);
   border-radius: 999px;
-  font-size: 0.7rem;
+  font-size: var(--text-2xs);
   font-weight: 600;
   color: var(--bbc-accent-strong);
   flex-shrink: 0;
@@ -975,13 +975,13 @@
 }
 
 .bb-char-build-stat-slot {
-  font-size: 0.8rem;
+  font-size: var(--text-sm);
   color: var(--bb-text-secondary);
   min-width: 70px;
 }
 
 .bb-char-build-stat-value {
-  font-size: 0.8rem;
+  font-size: var(--text-sm);
   font-weight: 600;
   color: var(--bbc-accent-strong);
 }
@@ -996,7 +996,7 @@
   display: flex;
   align-items: center;
   gap: 0.5rem;
-  font-size: 0.8rem;
+  font-size: var(--text-sm);
 }
 
 .bb-char-build-substat-label {
@@ -1017,7 +1017,7 @@
 }
 
 .bb-char-build-alternatives-title {
-  font-size: 0.85rem;
+  font-size: var(--text-md);
   font-weight: 700;
   color: var(--bbc-accent);
   text-transform: uppercase;
@@ -1052,7 +1052,7 @@
   }
 
   .bb-char-name {
-    font-size: 1.25rem;
+    font-size: var(--text-xl);
   }
 
   .bb-char-header-badges {
@@ -1062,7 +1062,7 @@
   }
 
   .bb-char-header-badge {
-    font-size: 0.625rem;
+    font-size: var(--text-3xs);
     padding: 0.25rem 0.5rem;
   }
 
@@ -1080,7 +1080,7 @@
   }
 
   .bb-char-section-title {
-    font-size: 1rem;
+    font-size: var(--text-base);
   }
 
   /* Stats table mobile */
@@ -1106,7 +1106,7 @@
   }
 
   .bb-char-support-stats-table {
-    font-size: 0.7rem;
+    font-size: var(--text-2xs);
   }
 
   .bb-char-support-stats-table th,
@@ -1120,7 +1120,7 @@
   }
 
   .bb-char-support-bonus-value {
-    font-size: 0.7rem;
+    font-size: var(--text-2xs);
   }
 
   /* Build section mobile */
@@ -1157,7 +1157,7 @@
 /* ===== Official Art (X introduction cards) ===== */
 .bb-char-xart-note {
   margin: -0.25rem 0 0.75rem;
-  font-size: 0.8rem;
+  font-size: var(--text-sm);
   color: var(--bb-text-secondary);
 }
 
@@ -1190,7 +1190,7 @@
 }
 
 .bb-char-xart-lang {
-  font-size: 0.65rem;
+  font-size: var(--text-3xs);
   font-weight: 700;
   line-height: 1;
   padding: 0.25rem 0.45rem;
@@ -1208,7 +1208,7 @@
 }
 
 .bb-char-xart-date {
-  font-size: 0.7rem;
+  font-size: var(--text-2xs);
   color: var(--bb-text-secondary);
 }
 

@@ -4,7 +4,7 @@
 .bb-badge {
   padding: 0.3rem 0.6rem;
   border-radius: 4px;
-  font-size: 0.7rem;
+  font-size: var(--text-2xs);
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.5px;
@@ -278,7 +278,7 @@
 @media (max-width: 768px) {
   .bb-badge {
     padding: 0.25rem 0.5rem;
-    font-size: 0.65rem;
+    font-size: var(--text-3xs);
     min-width: 35px;
   }
 }
@@ -286,7 +286,7 @@
 @media (max-width: 480px) {
   .bb-badge {
     padding: 0.2rem 0.4rem;
-    font-size: 0.6rem;
+    font-size: var(--text-3xs);
     min-width: 32px;
   }
 }

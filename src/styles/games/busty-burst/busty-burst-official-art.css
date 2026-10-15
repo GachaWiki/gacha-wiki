@@ -7,7 +7,7 @@
 
 .bb-xart-intro {
   margin: 0 0 1.5rem;
-  font-size: 0.9rem;
+  font-size: var(--text-md);
   color: var(--bb-text-secondary);
 }
 
@@ -21,7 +21,7 @@
 }
 
 .bb-xart-heading {
-  font-size: 1.25rem;
+  font-size: var(--text-xl);
   font-weight: 700;
   color: var(--bb-text-primary, #fff);
   margin: 0 0 1rem;
@@ -29,7 +29,7 @@
 
 .bb-xart-note {
   margin: -0.5rem 0 1rem;
-  font-size: 0.85rem;
+  font-size: var(--text-md);
   color: var(--bb-text-secondary);
 }
 
@@ -49,7 +49,7 @@
 .bb-xart-name {
   display: inline-block;
   margin-bottom: 0.6rem;
-  font-size: 0.95rem;
+  font-size: var(--text-body);
   font-weight: 700;
   color: var(--bbc-accent-strong, #8fd0ea);
   text-decoration: none;
@@ -90,7 +90,7 @@
 }
 
 .bb-xart-lang {
-  font-size: 0.65rem;
+  font-size: var(--text-3xs);
   font-weight: 700;
   line-height: 1;
   padding: 0.25rem 0.45rem;
@@ -108,7 +108,7 @@
 }
 
 .bb-xart-date {
-  font-size: 0.7rem;
+  font-size: var(--text-2xs);
   color: var(--bb-text-secondary);
 }
 
@@ -172,7 +172,7 @@
 }
 
 .bb-xart-kind {
-  font-size: 0.65rem;
+  font-size: var(--text-3xs);
   font-weight: 700;
   line-height: 1;
   padding: 0.25rem 0.45rem;
@@ -199,13 +199,13 @@
 }
 
 .bb-xart-kind-date {
-  font-size: 0.7rem;
+  font-size: var(--text-2xs);
   color: var(--bb-text-secondary);
 }
 
 .bb-xart-kind-text {
   flex-basis: 100%;
-  font-size: 0.78rem;
+  font-size: var(--text-xs);
   color: var(--bb-text-primary, #eee);
   overflow-wrap: anywhere;
 }

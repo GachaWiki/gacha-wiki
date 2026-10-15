@@ -20,7 +20,7 @@
 
 .bb-build-intro-text {
   color: var(--bb-text-secondary);
-  font-size: 0.95rem;
+  font-size: var(--text-body);
   line-height: 1.6;
   margin: 0;
 }
@@ -41,7 +41,7 @@
 }
 
 .bb-filter-label {
-  font-size: 0.85rem;
+  font-size: var(--text-md);
   font-weight: 600;
   color: var(--bb-text-primary);
   text-transform: uppercase;
@@ -56,7 +56,7 @@
 
 .bb-filter-btn {
   padding: 0.5rem 1rem;
-  font-size: 0.85rem;
+  font-size: var(--text-md);
   font-weight: 500;
   color: var(--bb-text-secondary);
   background: var(--bb-bg-primary);
@@ -81,7 +81,7 @@
 }
 
 .bb-build-section-title {
-  font-size: 1.25rem;
+  font-size: var(--text-xl);
   font-weight: 600;
   color: var(--bb-text-primary);
   margin-bottom: 1rem;
@@ -136,7 +136,7 @@
 }
 
 .bb-build-character-name {
-  font-size: 0.95rem;
+  font-size: var(--text-body);
   font-weight: 600;
   color: var(--bb-text-primary);
   margin: 0 0 0.5rem 0;
@@ -156,7 +156,7 @@
 /* Rarity Badge */
 .bb-build-rarity-badge {
   display: inline-block;
-  font-size: 0.7rem;
+  font-size: var(--text-2xs);
   font-weight: 600;
   padding: 0.2rem 0.5rem;
   border-radius: 3px;
@@ -179,7 +179,7 @@
 /* Element Badge */
 .bb-build-element-badge {
   display: inline-block;
-  font-size: 0.7rem;
+  font-size: var(--text-2xs);
   font-weight: 600;
   padding: 0.2rem 0.5rem;
   border-radius: 3px;
@@ -193,7 +193,7 @@
 /* Role Badge */
 .bb-build-role-badge {
   display: inline-block;
-  font-size: 0.7rem;
+  font-size: var(--text-2xs);
   font-weight: 600;
   padding: 0.2rem 0.5rem;
   border-radius: 3px;
@@ -222,14 +222,14 @@ a.bb-build-card {
 }
 
 .bb-notice-content h3 {
-  font-size: 1.1rem;
+  font-size: var(--text-lg);
   font-weight: 600;
   color: var(--bb-text-primary);
   margin: 0 0 0.5rem 0;
 }
 
 .bb-notice-content p {
-  font-size: 0.9rem;
+  font-size: var(--text-md);
   color: var(--bb-text-secondary);
   line-height: 1.5;
   margin: 0;
@@ -252,7 +252,7 @@ a.bb-build-card {
   border-radius: 0.5rem;
   background: var(--bb-bg-secondary, #1f2937);
   color: var(--bb-text-primary, #fff);
-  font-size: 0.9rem;
+  font-size: var(--text-md);
   outline: none;
   transition: border-color 0.2s, box-shadow 0.2s;
 }
@@ -272,7 +272,7 @@ a.bb-build-card {
   border-radius: 0.5rem;
   background: var(--bb-bg-secondary, #1f2937);
   color: var(--bb-text-primary, #fff);
-  font-size: 0.9rem;
+  font-size: var(--text-md);
   cursor: pointer;
   outline: none;
   min-width: 120px;
@@ -288,7 +288,7 @@ a.bb-build-card {
   border-radius: 0.5rem;
   background: var(--bb-bg-secondary, #1f2937);
   color: var(--bb-text-primary, #fff);
-  font-size: 0.9rem;
+  font-size: var(--text-md);
   cursor: pointer;
   transition: background 0.2s;
 }
@@ -340,7 +340,7 @@ a.bb-build-card {
 }
 
 .bb-build-card-name {
-  font-size: 1rem;
+  font-size: var(--text-base);
   font-weight: 600;
   color: var(--bb-text-primary);
   margin: 0 0 0.5rem 0;
@@ -403,7 +403,7 @@ a.bb-build-card {
   }
 
   .bb-build-character-name {
-    font-size: 0.9rem;
+    font-size: var(--text-md);
   }
 
   .bb-filter-buttons {
@@ -412,11 +412,11 @@ a.bb-build-card {
 
   .bb-filter-btn {
     padding: 0.4rem 0.75rem;
-    font-size: 0.8rem;
+    font-size: var(--text-sm);
   }
 
   .bb-build-section-title {
-    font-size: 1.1rem;
+    font-size: var(--text-lg);
   }
 }
 
@@ -432,7 +432,7 @@ a.bb-build-card {
   }
 
   .bb-build-card-name {
-    font-size: 0.95rem;
+    font-size: var(--text-body);
   }
 
   .bb-build-card-icons {
@@ -465,18 +465,18 @@ a.bb-build-card {
   }
 
   .bb-build-character-name {
-    font-size: 0.85rem;
+    font-size: var(--text-md);
   }
 
   .bb-build-rarity-badge,
   .bb-build-element-badge {
-    font-size: 0.65rem;
+    font-size: var(--text-3xs);
     padding: 0.15rem 0.4rem;
   }
 
   .bb-filter-btn {
     padding: 0.35rem 0.6rem;
-    font-size: 0.75rem;
+    font-size: var(--text-xs);
   }
 
   .bb-build-intro {
@@ -484,7 +484,7 @@ a.bb-build-card {
   }
 
   .bb-build-intro-text {
-    font-size: 0.85rem;
+    font-size: var(--text-md);
   }
 
   .bb-build-filters {
@@ -496,10 +496,10 @@ a.bb-build-card {
   }
 
   .bb-notice-content h3 {
-    font-size: 1rem;
+    font-size: var(--text-base);
   }
 
   .bb-notice-content p {
-    font-size: 0.85rem;
+    font-size: var(--text-md);
   }
 }

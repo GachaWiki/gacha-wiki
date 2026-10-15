@@ -382,7 +382,7 @@
   font-weight: var(--font-bold);
   padding: 0.1rem 0.4rem;
   border-radius: 3px;
-  font-size: 0.65rem;
+  font-size: var(--text-3xs);
 }
 
 .bb-buff-frame.frame-c {

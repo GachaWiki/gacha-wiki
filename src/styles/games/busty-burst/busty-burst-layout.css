@@ -126,7 +126,7 @@
 }
 
 .game-notes-title {
-  font-size: 2.5rem;
+  font-size: var(--text-5xl);
   margin-bottom: 1.5rem;
   font-weight: 700;
   text-align: center;
@@ -148,14 +148,14 @@
 
 .game-note-title {
   color: #f0f0f0;
-  font-size: 1.3rem;
+  font-size: var(--text-xl);
   font-weight: 700;
   margin: 0 0 0.5rem 0;
 }
 
 .game-note-content {
   color: #b0b0b0;
-  font-size: 0.9rem;
+  font-size: var(--text-md);
   line-height: 1.4;
   margin: 0;
 }
@@ -186,7 +186,7 @@
   }
 
   .game-notes-title {
-    font-size: 2rem;
+    font-size: var(--text-4xl);
   }
 
   .game-note-item {
@@ -194,7 +194,7 @@
   }
 
   .game-note-title {
-    font-size: 1.25rem;
+    font-size: var(--text-xl);
   }
 }
 
@@ -224,7 +224,7 @@
   }
 
   .game-notes-title {
-    font-size: 1.75rem;
+    font-size: var(--text-3xl);
   }
 
   .game-note-item {
@@ -232,6 +232,6 @@
   }
 
   .game-note-content {
-    font-size: 0.825rem;
+    font-size: var(--text-sm);
   }
 }

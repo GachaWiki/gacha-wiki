@@ -302,7 +302,7 @@
   }
 
   .bb-slot-best {
-    font-size: 0.65rem;
+    font-size: var(--text-3xs);
   }
 
   .bb-substats-row {
@@ -335,11 +335,11 @@
   }
 
   .bb-slot-name {
-    font-size: 0.6rem;
+    font-size: var(--text-3xs);
   }
 
   .bb-slot-best {
-    font-size: 0.6rem;
+    font-size: var(--text-3xs);
   }
 
   .bb-tier-sets {
