@@ -70,7 +70,7 @@ const items = [...tickerItems, ...getTickerUpdates()];
     align-items: center;
     gap: 0.7rem;
     color: var(--text-inverse, #ffffff);
-    font-size: 0.88rem;
+    font-size: var(--text-md);
   }
 
   /* Fixed chip on the left, ticker scrolls behind it */
@@ -83,7 +83,7 @@ const items = [...tickerItems, ...getTickerUpdates()];
     background: rgba(255, 183, 77, 0.1);
     border: 1px solid rgba(255, 183, 77, 0.3);
     color: var(--amber-glow, #ffb74d);
-    font-size: 0.66rem;
+    font-size: var(--text-2xs);
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 0.08em;
@@ -146,7 +146,7 @@ const items = [...tickerItems, ...getTickerUpdates()];
   .ticker-date {
     color: var(--text-inverse, #ffffff);
     opacity: 0.55;
-    font-size: 0.72rem;
+    font-size: var(--text-xs);
     font-variant-numeric: tabular-nums;
   }
 
@@ -182,12 +182,12 @@ const items = [...tickerItems, ...getTickerUpdates()];
     gap: 0.35rem;
     color: var(--amber-glow, #ffb74d);
     font-weight: 700;
-    font-size: 0.8rem;
+    font-size: var(--text-sm);
   }
 
   .ticker-price-stat {
     font-weight: 700;
-    font-size: 0.8rem;
+    font-size: var(--text-sm);
   }
 
   /* Color states, set by the script per-stat so each metric gets its accent */
@@ -204,14 +204,14 @@ const items = [...tickerItems, ...getTickerUpdates()];
 
   @media (max-width: 600px) {
     .ticker-inner {
-      font-size: 0.78rem;
+      font-size: var(--text-xs);
       gap: 0.5rem;
       padding: 0.4rem 0.75rem;
     }
 
     .ticker-chip {
       padding: 0.14rem 0.45rem 0.14rem 0.4rem;
-      font-size: 0.6rem;
+      font-size: var(--text-3xs);
       gap: 0.25rem;
     }
 
@@ -227,7 +227,7 @@ const items = [...tickerItems, ...getTickerUpdates()];
 
     .ticker-price-label,
     .ticker-price-stat {
-      font-size: 0.74rem;
+      font-size: var(--text-xs);
     }
 
     .ticker-price {

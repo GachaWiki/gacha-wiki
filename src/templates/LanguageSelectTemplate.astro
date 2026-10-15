@@ -181,14 +181,14 @@ const hasGameHead = Astro.slots.has('head');
   }
 
   .lang-select-card-title {
-    font-size: 1.875rem;
+    font-size: var(--text-3xl);
     font-weight: 700;
     color: #ffffff;
     margin: 0 0 0.5rem 0;
   }
 
   .lang-select-subtitle {
-    font-size: 1rem;
+    font-size: var(--text-base);
     color: #cccccc;
     margin: 0 0 2.25rem 0;
   }
@@ -213,13 +213,13 @@ const hasGameHead = Astro.slots.has('head');
   }
 
   .lang-select-lang {
-    font-size: 1.35rem;
+    font-size: var(--text-xl);
     font-weight: 700;
     color: var(--lang-select-accent, #ffffff);
   }
 
   .lang-select-note {
-    font-size: 0.8125rem;
+    font-size: var(--text-sm);
     color: #cccccc;
   }
 

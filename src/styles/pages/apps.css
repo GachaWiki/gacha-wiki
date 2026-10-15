@@ -59,7 +59,7 @@
   margin: 0;
   color: var(--text-inverse);
   opacity: 0.7;
-  font-size: 0.95rem;
+  font-size: var(--text-body);
   line-height: var(--leading-relaxed);
 }
 
@@ -75,7 +75,7 @@
   background: rgba(255, 183, 77, 0.1);
   color: var(--amber-glow);
   font-family: var(--font-display);
-  font-size: 0.72rem;
+  font-size: var(--text-xs);
   font-weight: 700;
   letter-spacing: 0.04em;
 }
@@ -93,7 +93,7 @@
   padding: 0.55rem 1rem;
   border-radius: 8px;
   font-family: var(--font-display);
-  font-size: 0.85rem;
+  font-size: var(--text-md);
   font-weight: 600;
   text-decoration: none;
   transition: opacity 0.15s;

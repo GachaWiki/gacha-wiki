@@ -98,7 +98,7 @@
 
 .mond-subtitle {
   font-family: var(--font-primary);
-  font-size: 0.875rem; /* Larger for readability - above minimum */
+  font-size: var(--text-md); /* Larger for readability - above minimum */
   font-weight: var(--font-normal);
   color: var(--text-inverse);
   opacity: 0.7; /* More subtle opacity */
@@ -116,7 +116,7 @@
     width: 100%; /* Full width on mobile */
     max-width: 320px; /* Reasonable maximum width */
     min-height: 52px; /* Larger on small screens */
-    font-size: 1.125rem; /* Slightly smaller for mobile */
+    font-size: var(--text-lg); /* Slightly smaller for mobile */
     padding: 1rem 2rem; /* Adjusted padding */
   }
 
@@ -131,6 +131,6 @@
   }
 
   .mond-subtitle {
-    font-size: 0.8rem; /* Improved readability on mobile */
+    font-size: var(--text-sm); /* Improved readability on mobile */
   }
 }

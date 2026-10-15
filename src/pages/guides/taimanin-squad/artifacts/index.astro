@@ -143,12 +143,12 @@ const dispositions = [...new Set(moduleArtifacts.map(m => m.disposition_name))].
 
     <!-- CORE TAB -->
     <div class="artifact-tab-content" id="tab-core">
-      <p style="color: var(--ts-text-secondary, #d3d3d3); margin-bottom: 1.5rem; font-size: 0.9rem;">
+      <p style="color: var(--ts-text-secondary, #d3d3d3); margin-bottom: 1.5rem; font-size: var(--text-md);">
         All core artifacts share the same main stat per slot regardless of which set they belong to.
         Section A and Section B slots have identical main stat types.
       </p>
 
-      <h3 style="color: var(--ts-text-primary, #f5f5f5); margin-bottom: 0.75rem; font-size: 1rem;">Main Stat by Slot</h3>
+      <h3 style="color: var(--ts-text-primary, #f5f5f5); margin-bottom: 0.75rem; font-size: var(--text-base);">Main Stat by Slot</h3>
       <div class="artifact-table-container">
         <table class="artifact-table">
           <thead>
@@ -213,8 +213,8 @@ const dispositions = [...new Set(moduleArtifacts.map(m => m.disposition_name))].
         </ul>
       </div>
 
-      <h3 style="color: var(--ts-text-primary, #f5f5f5); margin-top: 2rem; margin-bottom: 0.75rem; font-size: 1rem;">Sub-Option Pool</h3>
-      <p style="color: var(--ts-text-secondary, #d3d3d3); margin-bottom: 1rem; font-size: 0.9rem;">
+      <h3 style="color: var(--ts-text-primary, #f5f5f5); margin-top: 2rem; margin-bottom: 0.75rem; font-size: var(--text-base);">Sub-Option Pool</h3>
+      <p style="color: var(--ts-text-secondary, #d3d3d3); margin-bottom: 1rem; font-size: var(--text-md);">
         Up to 4 sub-options are randomly rolled at levels 3, 6, 9, and 12. Higher grade artifacts roll from wider ranges, so a Grade VI artifact can roll much stronger sub-options than Grade I. Values below are approximate base ranges (divided by 10 from raw data).
       </p>
       {(() => {
@@ -276,7 +276,7 @@ const dispositions = [...new Set(moduleArtifacts.map(m => m.disposition_name))].
         </ul>
       </div>
 
-      <h3 style="color: var(--ts-text-primary, #f5f5f5); margin-bottom: 0.75rem; font-size: 1rem;">Module Artifacts by Disposition</h3>
+      <h3 style="color: var(--ts-text-primary, #f5f5f5); margin-bottom: 0.75rem; font-size: var(--text-base);">Module Artifacts by Disposition</h3>
       <div class="disposition-grid" id="disp-grid">
         {dispositions.map(dispName => {
           const arts = moduleArtifacts.filter(m => m.disposition_name === dispName);
@@ -290,7 +290,7 @@ const dispositions = [...new Set(moduleArtifacts.map(m => m.disposition_name))].
                 {arts.map(a => (
                   <div style="display: flex; align-items: center; gap: 0.4rem;">
                     <TSArtifactImage icon={a.icon} alt={a.slot} width={24} height={24} />
-                    <span style="font-size: 0.8rem; color: var(--ts-text-secondary, #d3d3d3);">{a.slot === 'Ring' ? 'Module A' : 'Module B'}</span>
+                    <span style="font-size: var(--text-sm); color: var(--ts-text-secondary, #d3d3d3);">{a.slot === 'Ring' ? 'Module A' : 'Module B'}</span>
                   </div>
                 ))}
               </div>
@@ -299,8 +299,8 @@ const dispositions = [...new Set(moduleArtifacts.map(m => m.disposition_name))].
         })}
       </div>
 
-      <h3 style="color: var(--ts-text-primary, #f5f5f5); margin-top: 2rem; margin-bottom: 0.75rem; font-size: 1rem;">Main Stat Ranges (Module A & Module B)</h3>
-      <p style="color: var(--ts-text-secondary, #d3d3d3); margin-bottom: 1rem; font-size: 0.9rem;">
+      <h3 style="color: var(--ts-text-primary, #f5f5f5); margin-top: 2rem; margin-bottom: 0.75rem; font-size: var(--text-base);">Main Stat Ranges (Module A & Module B)</h3>
+      <p style="color: var(--ts-text-secondary, #d3d3d3); margin-bottom: 1rem; font-size: var(--text-md);">
         Both Module A and Module B share the same main stat ranges per grade. Each module artifact rolls one main stat (HP, ATK, or DEF).
       </p>
       <div class="artifact-table-container">
@@ -346,7 +346,7 @@ const dispositions = [...new Set(moduleArtifacts.map(m => m.disposition_name))].
 
       <div class="artifact-info-box" style="margin-top: 1.5rem;">
         <h3>Sub-Options</h3>
-        <p style="color: var(--ts-text-secondary, #d3d3d3); font-size: 0.9rem;">
+        <p style="color: var(--ts-text-secondary, #d3d3d3); font-size: var(--text-md);">
           Module artifacts draw sub-options from the <strong>same 9-stat pool</strong> as core artifacts.
           See the <strong>Core Artifacts</strong> tab for the full sub-option grade ranges.
         </p>
@@ -355,11 +355,11 @@ const dispositions = [...new Set(moduleArtifacts.map(m => m.disposition_name))].
 
     <!-- GRADES TAB -->
     <div class="artifact-tab-content" id="tab-grades">
-      <p style="color: var(--ts-text-secondary, #d3d3d3); margin-bottom: 1.5rem; font-size: 0.9rem;">
+      <p style="color: var(--ts-text-secondary, #d3d3d3); margin-bottom: 1.5rem; font-size: var(--text-md);">
         Main stat ranges per grade for each slot. Sub-options are drawn from a shared pool of 9 stats.
       </p>
 
-      <h3 style="color: var(--ts-text-primary, #f5f5f5); margin-bottom: 0.75rem; font-size: 1rem;">Main Stat Ranges by Slot</h3>
+      <h3 style="color: var(--ts-text-primary, #f5f5f5); margin-bottom: 0.75rem; font-size: var(--text-base);">Main Stat Ranges by Slot</h3>
       {[101, 102, 103, 104, 105, 106].map(group => {
         const ranges = statRanges[group];
         if (!ranges || !ranges.length) return null;
@@ -370,7 +370,7 @@ const dispositions = [...new Set(moduleArtifacts.map(m => m.disposition_name))].
         for (const r of ranges) { gradeMap[r.grade] = r; }
         return (
           <div style="margin-bottom: 1.5rem;">
-            <div style="font-weight: 600; color: var(--ts-accent, #9a8aaa); margin-bottom: 0.5rem; font-size: 0.9rem;">
+            <div style="font-weight: 600; color: var(--ts-accent, #9a8aaa); margin-bottom: 0.5rem; font-size: var(--text-md);">
               {slotName} - {statName}
             </div>
             <table class="grade-table">
@@ -401,14 +401,14 @@ const dispositions = [...new Set(moduleArtifacts.map(m => m.disposition_name))].
 
       <div class="artifact-info-box" style="margin-bottom: 1.5rem;">
         <h3>Module Stat Ranges</h3>
-        <p style="color: var(--ts-text-secondary, #d3d3d3); font-size: 0.9rem;">
+        <p style="color: var(--ts-text-secondary, #d3d3d3); font-size: var(--text-md);">
           See the <strong>Module Artifacts</strong> tab for Module A & Module B main stat ranges and upgrade path bonuses.
         </p>
       </div>
 
       <div class="artifact-info-box" style="margin-bottom: 1.5rem;">
         <h3>Sub-Option Pool (Group 200)</h3>
-        <p style="color: var(--ts-text-secondary, #d3d3d3); font-size: 0.9rem;">
+        <p style="color: var(--ts-text-secondary, #d3d3d3); font-size: var(--text-md);">
           See the <strong>Core Artifacts</strong> tab for the full sub-option pool table with per-grade ranges for all 9 stats.
         </p>
       </div>

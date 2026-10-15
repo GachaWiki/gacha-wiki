@@ -100,7 +100,7 @@
 }
 
 .server-reset-card .timer-main-label {
-  font-size: 2.5rem;
+  font-size: var(--text-5xl);
   margin-bottom: 1rem;
 }
 
@@ -132,7 +132,7 @@
   background: transparent;
   color: var(--sab-clock-muted);
   font-family: var(--font-primary);
-  font-size: 0.875rem;
+  font-size: var(--text-md);
   font-weight: 600;
   cursor: pointer;
   white-space: nowrap;
@@ -423,16 +423,16 @@
 
   .region-button {
     padding: 6px 12px;
-    font-size: 0.8rem;
+    font-size: var(--text-sm);
   }
 
   /* Timer cards mobile */
   .secondary-timers-card .timer-main-label {
-    font-size: 1.25rem;
+    font-size: var(--text-xl);
   }
 
   .server-reset-card .timer-main-label {
-    font-size: 2rem;
+    font-size: var(--text-4xl);
   }
 
   /* Launch counter mobile */
@@ -447,7 +447,7 @@
 
   /* Region badge mobile */
   .region-badge {
-    font-size: 0.65rem;
+    font-size: var(--text-3xs);
     padding: 3px 6px;
     border-radius: 3px;
   }
@@ -460,7 +460,7 @@
 
   .maintenance-time,
   .reset-time {
-    font-size: 1rem;
+    font-size: var(--text-base);
   }
 }
 
@@ -478,16 +478,16 @@
 
   .region-button {
     padding: 5px 10px;
-    font-size: 0.75rem;
+    font-size: var(--text-xs);
   }
 
   /* Timer labels smaller */
   .secondary-timers-card .timer-main-label {
-    font-size: 1.1rem;
+    font-size: var(--text-lg);
   }
 
   .server-reset-card .timer-main-label {
-    font-size: 1.75rem;
+    font-size: var(--text-3xl);
   }
 
   /* Launch counter extra small */
@@ -502,18 +502,18 @@
 
   /* Region badge extra small */
   .region-badge {
-    font-size: 0.6rem;
+    font-size: var(--text-3xs);
     padding: 2px 5px;
   }
 
   /* Smaller timer text */
   .maintenance-time,
   .reset-time {
-    font-size: 0.95rem;
+    font-size: var(--text-body);
   }
 
   .reset-subtitle {
-    font-size: 0.7rem;
+    font-size: var(--text-2xs);
   }
 
   /* Timer items compact */

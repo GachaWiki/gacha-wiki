@@ -94,7 +94,7 @@ import WalletButton from './WalletButton.astro';
     text-decoration: none;
     padding: 0.5rem 1rem;
     border-radius: 0.75rem;
-    font-size: 1.5rem;
+    font-size: var(--text-2xl);
     font-weight: 700;
     color: var(--amber-glow);
     /* Touch optimization */
@@ -120,7 +120,7 @@ import WalletButton from './WalletButton.astro';
 
     /* Adjust logo size */
     .logo-title {
-      font-size: 1.25rem !important;
+      font-size: var(--text-xl) !important;
     }
 
     /* Adjust right elements for mobile */
@@ -143,7 +143,7 @@ import WalletButton from './WalletButton.astro';
     }
 
     .logo-title {
-      font-size: 1.4rem !important; /* Larger title in landscape for better hierarchy */
+      font-size: var(--text-2xl) !important; /* Larger title in landscape for better hierarchy */
     }
   }
 
@@ -159,7 +159,7 @@ import WalletButton from './WalletButton.astro';
     }
 
     .logo-title {
-      font-size: 1.1rem !important;
+      font-size: var(--text-lg) !important;
       padding: 0.5rem 0.75rem !important;
     }
   }

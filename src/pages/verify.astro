@@ -217,7 +217,7 @@ import { SITE_TITLE } from '../consts';
     font-weight: 700;
     letter-spacing: 0.18em;
     text-transform: uppercase;
-    font-size: 0.8rem;
+    font-size: var(--text-sm);
     margin: 0 0 0.9rem;
   }
   h1 {
@@ -225,14 +225,14 @@ import { SITE_TITLE } from '../consts';
        also styles h1 globally — these scoped rules pin the verify page's
        size/leading deliberately). */
     font-family: var(--font-display, 'Space Grotesk', sans-serif);
-    font-size: clamp(2.2rem, 5.5vw, 3.4rem);
+    font-size: clamp(var(--text-4xl), 5.5vw, var(--text-6xl));
     font-weight: 700;
     line-height: 1.05;
     letter-spacing: -0.02em;
     margin: 0 0 1rem;
   }
   .sub {
-    font-size: 1.05rem;
+    font-size: var(--text-base);
     line-height: 1.7;
     color: var(--neutral-300, rgba(255, 255, 255, 0.75));
     margin: 0 0 1.2rem;
@@ -259,7 +259,7 @@ import { SITE_TITLE } from '../consts';
     border-radius: 0.7rem;
     font-family: var(--font-primary, 'DM Sans', sans-serif);
     font-weight: 700;
-    font-size: 1rem;
+    font-size: var(--text-base);
     cursor: pointer;
     background: transparent;
     color: #fff;
@@ -279,7 +279,7 @@ import { SITE_TITLE } from '../consts';
     font-variant-numeric: tabular-nums;
     color: var(--neutral-300, rgba(255, 255, 255, 0.8));
     margin: 0.6rem 0 0;
-    font-size: 0.95rem;
+    font-size: var(--text-body);
   }
   .bal.zero { color: #fca5a5; font-weight: 700; }
   .codeline { margin: 1.4rem 0 0.9rem; }
@@ -292,7 +292,7 @@ import { SITE_TITLE } from '../consts';
     background: rgba(0, 0, 0, 0.3);
     color: #fff;
     font-family: var(--font-mono, monospace);
-    font-size: 1.6rem;
+    font-size: var(--text-2xl);
     font-weight: 600;
     letter-spacing: 0.45em;
     text-align: center;
@@ -307,7 +307,7 @@ import { SITE_TITLE } from '../consts';
   .msg.err { color: #fca5a5; }
   .fine {
     margin: 1.6rem 0 0;
-    font-size: 0.8rem;
+    font-size: var(--text-sm);
     color: var(--neutral-400, rgba(255, 255, 255, 0.5));
   }
 </style>

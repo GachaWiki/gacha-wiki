@@ -851,7 +851,7 @@ if TotalReduction > DamageReduceTotalLimit:
             </div>
           </div>
           <div class="ss-chart-legend" style="margin-top: 0.75rem; flex-direction: row; justify-content: center; gap: 1rem;">
-            <span style="font-size: 0.75rem; color: var(--ss-text-muted);">Sweet spot: 2,500 - 3,000 DEF</span>
+            <span style="font-size: var(--text-xs); color: var(--ss-text-muted);">Sweet spot: 2,500 - 3,000 DEF</span>
           </div>
         </div>
 
@@ -1516,7 +1516,7 @@ B_PvP =  700 * (1 + 0.10 * 0.50) =  700 * 1.050 =   735
               <div class="ss-chart-bar-track"><div class="ss-chart-bar ss-chart-bar--blue" style="width: 87%;">7,350</div></div>
               <span class="ss-chart-bar-value">10% CR</span>
             </div>
-            <div class="ss-chart-bar-row" style="margin-top: 0.5rem; opacity: 0.6; font-size: 0.75rem;">
+            <div class="ss-chart-bar-row" style="margin-top: 0.5rem; opacity: 0.6; font-size: var(--text-xs);">
               <span class="ss-chart-bar-label"></span>
               <span class="ss-chart-bar-value" style="flex: 1; text-align: center;">-- PvP (x0.1 scaling) --</span>
             </div>
@@ -1565,7 +1565,7 @@ B_PvP =  700 * (1 + 0.10 * 0.50) =  700 * 1.050 =   735
           <div class="ss-chart-subtitle">Build A has higher average, but 55% of the time deals less</div>
           <div class="ss-chart-donut-wrap">
             <div>
-              <div style="font-size: 0.8rem; font-weight: 600; color: var(--ss-text-primary); margin-bottom: 0.5rem; text-align: center;">Build A (Crit)</div>
+              <div style="font-size: var(--text-sm); font-weight: 600; color: var(--ss-text-primary); margin-bottom: 0.5rem; text-align: center;">Build A (Crit)</div>
               <div class="ss-chart-donut" style="background: conic-gradient(
                 #bd3a3a 0deg 162deg,
                 #3a7cbd 162deg 360deg
@@ -1577,7 +1577,7 @@ B_PvP =  700 * (1 + 0.10 * 0.50) =  700 * 1.050 =   735
               </div>
             </div>
             <div>
-              <div style="font-size: 0.8rem; font-weight: 600; color: var(--ss-text-primary); margin-bottom: 0.5rem; text-align: center;">Build B (ATK)</div>
+              <div style="font-size: var(--text-sm); font-weight: 600; color: var(--ss-text-primary); margin-bottom: 0.5rem; text-align: center;">Build B (ATK)</div>
               <div class="ss-chart-donut" style="background: conic-gradient(
                 #3a7cbd 0deg 324deg,
                 #bd3a3a 324deg 360deg
@@ -1591,8 +1591,8 @@ B_PvP =  700 * (1 + 0.10 * 0.50) =  700 * 1.050 =   735
             <div class="ss-chart-legend">
               <div class="ss-chart-legend-item"><span class="ss-chart-legend-swatch ss-chart-legend-swatch--red"></span> Crit hit (Build A)</div>
               <div class="ss-chart-legend-item"><span class="ss-chart-legend-swatch ss-chart-legend-swatch--blue"></span> Non-crit hit</div>
-              <div class="ss-chart-legend-item" style="margin-top: 0.5rem; font-size: 0.75rem; color: var(--ss-text-muted);">Build A: 55% at 5k, 45% at 14.5k</div>
-              <div class="ss-chart-legend-item" style="font-size: 0.75rem; color: var(--ss-text-muted);">Build B: 90% at 7k, 10% at 10.5k</div>
+              <div class="ss-chart-legend-item" style="margin-top: 0.5rem; font-size: var(--text-xs); color: var(--ss-text-muted);">Build A: 55% at 5k, 45% at 14.5k</div>
+              <div class="ss-chart-legend-item" style="font-size: var(--text-xs); color: var(--ss-text-muted);">Build B: 90% at 7k, 10% at 10.5k</div>
             </div>
           </div>
         </div>

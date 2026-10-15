@@ -1,7 +1,7 @@
 /* Last Origin Global Clock Styles - Amber/Gold Theme */
 
 .lo-title-only-heading {
-  font-size: clamp(2rem, 5vw, 3.5rem);
+  font-size: clamp(var(--text-4xl), 5vw, var(--text-6xl)); // display numerals: token-based clamp
   font-weight: var(--lo-font-bold);
   text-align: center;
   color: #f4a261;
@@ -10,13 +10,13 @@
 
 .lo-game-name {
   color: #f4a261;
-  font-size: 1.5rem;
+  font-size: var(--text-2xl);
   font-weight: var(--lo-font-bold);
   margin: 0;
 }
 
 .lo-timer-main-label {
-  font-size: 1.25rem;
+  font-size: var(--text-xl);
   font-weight: var(--lo-font-semibold);
   color: #f4a261;
   text-align: center;
@@ -24,7 +24,7 @@
 }
 
 .lo-timer-card-title {
-  font-size: 1rem;
+  font-size: var(--text-base);
   font-weight: var(--lo-font-semibold);
   color: #f4a261;
 }
@@ -78,13 +78,13 @@
 
 .lo-prereg-label {
   color: rgba(255, 255, 255, 0.6);
-  font-size: 0.875rem;
+  font-size: var(--text-md);
   font-weight: 500;
 }
 
 .lo-prereg-value {
   color: #f4a261;
-  font-size: 0.9rem;
+  font-size: var(--text-md);
   font-weight: 600;
 }
 

@@ -2,7 +2,7 @@
 
 /* Title styling */
 .ts-title-only-heading {
-  font-size: clamp(2rem, 5vw, 3.5rem);
+  font-size: clamp(var(--text-4xl), 5vw, var(--text-6xl)); // display numerals: token-based clamp
   font-weight: var(--ts-font-bold);
   text-align: center;
   color: var(--ts-accent);
@@ -12,14 +12,14 @@
 /* Game name styling */
 .ts-game-name {
   color: var(--ts-accent);
-  font-size: 1.5rem;
+  font-size: var(--text-2xl);
   font-weight: var(--ts-font-bold);
   margin: 0;
 }
 
 /* Timer main label */
 .ts-timer-main-label {
-  font-size: 1.25rem;
+  font-size: var(--text-xl);
   font-weight: var(--ts-font-semibold);
   color: var(--ts-accent);
   text-align: center;
@@ -28,7 +28,7 @@
 
 /* Timer card title */
 .ts-timer-card-title {
-  font-size: 1rem;
+  font-size: var(--text-base);
   font-weight: var(--ts-font-semibold);
   color: var(--ts-accent);
 }
@@ -59,7 +59,7 @@
 /* Countdown value styling */
 .ts-countdown-value {
   color: var(--ts-accent-light);
-  font-size: 2.5rem;
+  font-size: var(--text-5xl);
   font-weight: var(--ts-font-bold);
 }
 
@@ -95,7 +95,7 @@
   color: var(--ts-text-secondary);
   padding: 0.25rem 0.75rem;
   border-radius: var(--ts-radius-sm);
-  font-size: 0.875rem;
+  font-size: var(--text-md);
 }
 
 /* Open Beta Period Card */
@@ -124,13 +124,13 @@
 
 .ts-beta-label {
   color: rgba(255, 255, 255, 0.6);
-  font-size: 0.875rem;
+  font-size: var(--text-md);
   font-weight: 500;
 }
 
 .ts-beta-value {
   color: var(--ts-accent);
-  font-size: 0.9rem;
+  font-size: var(--text-md);
   font-weight: 600;
 }
 
@@ -148,7 +148,7 @@
 }
 
 .ts-days-big-value {
-  font-size: 4.5rem;
+  font-size: var(--text-6xl);
   font-weight: 800;
   color: var(--ts-accent);
   line-height: 1;
@@ -156,7 +156,7 @@
 
 .ts-days-big-label {
   text-align: center;
-  font-size: 1rem;
+  font-size: var(--text-base);
   color: rgba(255, 255, 255, 0.8);
   font-weight: 600;
   text-transform: uppercase;
@@ -167,7 +167,7 @@
 .ts-time-elapsed {
   text-align: center;
   color: rgba(255, 255, 255, 0.5);
-  font-size: 0.85rem;
+  font-size: var(--text-md);
 }
 
 /* Responsive for Open Beta Cards */
@@ -179,10 +179,10 @@
   }
 
   .ts-days-big-value {
-    font-size: 3.5rem;
+    font-size: var(--text-6xl);
   }
 
   .ts-days-big-label {
-    font-size: 0.9rem;
+    font-size: var(--text-md);
   }
 }

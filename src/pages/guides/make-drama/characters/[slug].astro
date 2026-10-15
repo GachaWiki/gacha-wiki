@@ -27,7 +27,7 @@ const { character: char } = Astro.props;
       <MDCharacterImage filename={char.image} alt={char.name} class="md-detail-avatar" />
       <div class="md-detail-info">
         <h1>{char.name}</h1>
-        <p class="md-name-ko" style="color: var(--md-text-tertiary); margin: 0 0 0.5rem; font-size: 0.875rem;">{char.nameKo}</p>
+        <p class="md-name-ko" style="color: var(--md-text-tertiary); margin: 0 0 0.5rem; font-size: var(--text-md);">{char.nameKo}</p>
         <div class="md-meta">
           <span class="md-badge md-badge-faction">{char.factionName}</span>
           <span class="md-badge md-badge-element">{char.element}</span>
@@ -42,7 +42,7 @@ const { character: char } = Astro.props;
     <div class="md-detail-section">
       <h2>Ultimate Skill</h2>
       <p class="md-ultimate-name">{char.ultimateName}</p>
-      <p style="color: var(--md-text-tertiary); font-size: 0.8125rem; margin: 0.125rem 0 0.5rem;">{char.ultimateNameKo}</p>
+      <p style="color: var(--md-text-tertiary); font-size: var(--text-sm); margin: 0.125rem 0 0.5rem;">{char.ultimateNameKo}</p>
       <p class="md-ultimate-desc">{char.ultimateDescription}</p>
     </div>
   </section>

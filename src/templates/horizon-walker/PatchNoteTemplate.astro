@@ -160,17 +160,17 @@ const firstImage = note.blocks.find((b: any) => b.k === 'img');
   }
   .pn-meta-label {
     color: #999;
-    font-size: 0.8rem;
+    font-size: var(--text-sm);
     text-transform: uppercase;
     letter-spacing: 0.04em;
   }
   .pn-meta-value {
     color: #ddd;
-    font-size: 0.92rem;
+    font-size: var(--text-body);
   }
   .pn-meta-link {
     color: #e8a547;
-    font-size: 0.92rem;
+    font-size: var(--text-body);
     text-decoration: none;
   }
   .pn-meta-link:hover {
@@ -178,7 +178,7 @@ const firstImage = note.blocks.find((b: any) => b.k === 'img');
   }
   .pn-schedule-note {
     color: #9a9a9a;
-    font-size: 0.85rem;
+    font-size: var(--text-md);
     line-height: 1.5;
     margin: 0;
     padding: 0 0.2rem;
@@ -201,7 +201,7 @@ const firstImage = note.blocks.find((b: any) => b.k === 'img');
   }
   .pn-text {
     color: #ccc;
-    font-size: 0.93rem;
+    font-size: var(--text-body);
     line-height: 1.65;
     margin: 0;
     overflow-wrap: break-word;
@@ -211,7 +211,7 @@ const firstImage = note.blocks.find((b: any) => b.k === 'img');
   }
   .pn-sec {
     color: #e8a547;
-    font-size: 1.18rem;
+    font-size: var(--text-lg);
     font-weight: 700;
     margin-top: 1rem;
     padding-bottom: 0.35rem;
@@ -219,19 +219,19 @@ const firstImage = note.blocks.find((b: any) => b.k === 'img');
   }
   .pn-sub {
     color: #e8c887;
-    font-size: 1.05rem;
+    font-size: var(--text-base);
     font-weight: 700;
     margin-top: 0.7rem;
   }
   .pn-item {
     color: #e2b26a;
-    font-size: 0.98rem;
+    font-size: var(--text-base);
     font-weight: 700;
     margin-top: 0.5rem;
   }
   .pn-sub2 {
     color: #ddd0b3;
-    font-size: 0.95rem;
+    font-size: var(--text-body);
     font-weight: 600;
     margin-top: 0.35rem;
   }
@@ -258,7 +258,7 @@ const firstImage = note.blocks.find((b: any) => b.k === 'img');
   .pn-table {
     width: 100%;
     border-collapse: collapse;
-    font-size: 0.86rem;
+    font-size: var(--text-md);
     color: #ccc;
     min-width: 480px;
   }
@@ -293,7 +293,7 @@ const firstImage = note.blocks.find((b: any) => b.k === 'img');
     color: #e8c887;
     border-radius: 8px;
     padding: 0.55rem 1.1rem;
-    font-size: 0.9rem;
+    font-size: var(--text-md);
     font-weight: 600;
     text-decoration: none;
     transition: background 0.15s ease;

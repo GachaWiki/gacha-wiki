@@ -119,7 +119,7 @@
 
 .game-card-title {
   font-family: var(--font-display);
-  font-size: 1.15rem;
+  font-size: var(--text-lg);
   font-weight: 700;
   color: #fff;
   margin: 0;
@@ -238,7 +238,7 @@
   }
 
   .game-card-title {
-    font-size: 1rem;
+    font-size: var(--text-base);
   }
 
 }

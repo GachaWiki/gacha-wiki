@@ -121,7 +121,7 @@
 
 .time-value {
   font-family: var(--font-mono);
-  font-size: 3.5rem;
+  font-size: var(--text-6xl);
   font-weight: var(--font-bold);
   color: var(--ss-primary);
   line-height: 1;
@@ -137,7 +137,7 @@
 }
 
 .time-separator {
-  font-size: 3rem;
+  font-size: var(--text-6xl);
   font-weight: var(--font-bold);
   color: var(--ss-primary);
   margin: 0 0.5rem;
@@ -332,7 +332,7 @@
 
 .countdown-value {
   font-family: var(--font-mono);
-  font-size: 2.5rem;
+  font-size: var(--text-5xl);
   font-weight: var(--font-bold);
   color: var(--ss-primary);
   line-height: 1;
@@ -440,7 +440,7 @@
 
 .launch-days {
   font-family: var(--font-mono);
-  font-size: 2rem;
+  font-size: var(--text-4xl);
   font-weight: var(--font-bold);
   color: var(--ss-primary);
   line-height: 1;
@@ -471,7 +471,7 @@
 
 .event-duration-card .event-days {
   color: var(--ss-primary); /* Blue to match other timer colors */
-  font-size: 2rem; /* Consistent font size */
+  font-size: var(--text-4xl); /* Consistent font size */
 }
 
 .event-shop-card {
@@ -480,7 +480,7 @@
 
 .event-shop-card .event-days {
   color: var(--ss-primary);
-  font-size: 2rem; /* Smaller font size like other timers */
+  font-size: var(--text-4xl); /* Smaller font size like other timers */
 }
 
 .event-counter {
@@ -494,7 +494,7 @@
 
 .event-days {
   font-family: var(--font-mono);
-  font-size: 3rem;
+  font-size: var(--text-6xl);
   font-weight: var(--font-bold);
   color: var(--ss-primary);
   line-height: 1;
@@ -523,11 +523,11 @@
   }
 
   .time-value {
-    font-size: 2.5rem;
+    font-size: var(--text-5xl);
   }
 
   .time-separator {
-    font-size: 2rem;
+    font-size: var(--text-4xl);
   }
 
   .launch-countdown-display {
@@ -535,11 +535,11 @@
   }
 
   .countdown-value {
-    font-size: 2rem;
+    font-size: var(--text-4xl);
   }
 
   .launch-days {
-    font-size: 2.5rem;
+    font-size: var(--text-5xl);
   }
 
   .timer-card-header {
@@ -555,19 +555,19 @@
   }
 
   .time-value {
-    font-size: 2rem;
+    font-size: var(--text-4xl);
   }
 
   .time-separator {
-    font-size: 1.5rem;
+    font-size: var(--text-2xl);
   }
 
   .countdown-value {
-    font-size: 1.5rem;
+    font-size: var(--text-2xl);
   }
 
   .launch-days {
-    font-size: 2rem;
+    font-size: var(--text-4xl);
   }
 }
 
@@ -596,7 +596,7 @@
 }
 
 .banner-countdown .countdown-value {
-  font-size: 1.25rem;
+  font-size: var(--text-xl);
   font-weight: 600;
   color: var(--ss-primary);
   background: var(--ss-bg-card);
@@ -608,7 +608,7 @@
 }
 
 .banner-countdown .countdown-label {
-  font-size: 0.75rem;
+  font-size: var(--text-xs);
   color: var(--ss-text-secondary);
   text-transform: uppercase;
   margin-top: 0.25rem;
@@ -616,14 +616,14 @@
 }
 
 .banner-period {
-  font-size: 0.875rem;
+  font-size: var(--text-md);
   color: var(--ss-text-secondary);
   margin-bottom: 0.5rem;
   font-weight: 500;
 }
 
 .banner-featured {
-  font-size: 0.875rem;
+  font-size: var(--text-md);
   color: var(--ss-primary);
   font-weight: 600;
 }
@@ -639,13 +639,13 @@
   }
 
   .banner-countdown .countdown-value {
-    font-size: 1.125rem;
+    font-size: var(--text-lg);
     padding: 0.4rem;
     min-width: 40px;
   }
 
   .banner-countdown .countdown-label {
-    font-size: 0.6875rem;
+    font-size: var(--text-2xs);
   }
 }
 
@@ -659,17 +659,17 @@
   }
 
   .banner-countdown .countdown-value {
-    font-size: 1rem;
+    font-size: var(--text-base);
     padding: 0.3rem;
     min-width: 35px;
   }
 
   .banner-countdown .countdown-label {
-    font-size: 0.625rem;
+    font-size: var(--text-3xs);
   }
 
   .banner-period,
   .banner-featured {
-    font-size: 0.8125rem;
+    font-size: var(--text-sm);
   }
 }

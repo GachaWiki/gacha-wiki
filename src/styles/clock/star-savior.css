@@ -201,7 +201,7 @@
 
 .launch-days {
   font-family: var(--font-display);
-  font-size: 3.5rem;
+  font-size: var(--text-6xl);
   font-weight: var(--font-bold);
   color: var(--ss-primary);
   line-height: 1.2;

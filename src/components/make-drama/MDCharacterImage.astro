@@ -16,7 +16,7 @@ const imageSrc = filename ? `${R2}/${filename}` : null;
 {imageSrc ? (
   <img src={imageSrc} alt={alt} class={className} loading={loading} decoding="async" />
 ) : (
-  <div class={`md-image-fallback ${className}`} style="background: var(--md-bg-secondary); border-radius: 8px; display: flex; align-items: center; justify-content: center; color: var(--md-text-muted); font-size: 0.75rem; min-height: 100px;">
+  <div class={`md-image-fallback ${className}`} style="background: var(--md-bg-secondary); border-radius: 8px; display: flex; align-items: center; justify-content: center; color: var(--md-text-muted); font-size: var(--text-xs); min-height: 100px;">
     {alt}
   </div>
 )}

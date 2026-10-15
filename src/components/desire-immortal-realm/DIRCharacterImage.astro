@@ -26,7 +26,7 @@ const imageData = findImage(filename);
 {imageData ? (
   <Image src={imageData} alt={alt} class={className} loading={loading} format="webp" quality={95} />
 ) : (
-  <div class={`dir-image-fallback ${className}`} style="background: var(--dir-bg-secondary); border-radius: 8px; display: flex; align-items: center; justify-content: center; color: var(--dir-text-muted); font-size: 0.75rem; min-height: 100px;">
+  <div class={`dir-image-fallback ${className}`} style="background: var(--dir-bg-secondary); border-radius: 8px; display: flex; align-items: center; justify-content: center; color: var(--dir-text-muted); font-size: var(--text-xs); min-height: 100px;">
     {alt}
   </div>
 )}

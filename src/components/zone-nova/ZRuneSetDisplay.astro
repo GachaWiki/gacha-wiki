@@ -122,30 +122,30 @@ const config = getRuneConfiguration(runeSet);
                     style="width: 100%; height: 100%; object-fit: contain; display: block;"
                   />
                 </div>
-                <div style="font-size: 0.7rem; color: var(--zn-text-secondary); margin-top: 0.25rem;">
+                <div style="font-size: var(--text-2xs); color: var(--zn-text-secondary); margin-top: 0.25rem;">
                   {rune.pieces}
                 </div>
               </div>
               {index < config.runes.length - 1 && (
-                <div style="font-size: 1.2rem; color: var(--zn-text-secondary); font-weight: 600;">
+                <div style="font-size: var(--text-xl); color: var(--zn-text-secondary); font-weight: 600;">
                   +
                 </div>
               )}
             </>
           ))}
         </div>
-        <div style="color: var(--zn-text-primary); font-weight: 600; font-size: 1rem;">
+        <div style="color: var(--zn-text-primary); font-weight: 600; font-size: var(--text-base);">
           {config.name}
         </div>
         <div style="margin-top: 0.75rem; text-align: left;">
           {config.runes.map(rune => (
-            <div style="font-size: 0.9rem; color: var(--zn-text-secondary); margin-bottom: 0.5rem;">
+            <div style="font-size: var(--text-md); color: var(--zn-text-secondary); margin-bottom: 0.5rem;">
               <strong style="color: var(--zn-primary);">{lookupSet(rune.name)?.name || rune.name.replace('-', ' ')}:</strong>{' '}
               {lookupSet(rune.name)?.twoPiece || rune.effect.replace(/^2-piece:\s*/, '')}
             </div>
           ))}
           {runeSet.description && (
-            <div style="font-size: 0.85rem; color: var(--zn-text-muted); margin-top: 0.5rem; font-style: italic;">
+            <div style="font-size: var(--text-md); color: var(--zn-text-muted); margin-top: 0.5rem; font-style: italic;">
               {runeSet.description}
             </div>
           )}
@@ -165,11 +165,11 @@ const config = getRuneConfiguration(runeSet);
                 style="width: 100%; height: 100%; object-fit: contain; display: block;"
               />
             </div>
-            <div style="font-size: 0.75rem; color: var(--zn-text-secondary); margin-top: 0.5rem;">
+            <div style="font-size: var(--text-xs); color: var(--zn-text-secondary); margin-top: 0.5rem;">
               4-piece
             </div>
           </div>
-          <div style="font-size: 1.5rem; color: var(--zn-text-secondary); font-weight: 600;">+</div>
+          <div style="font-size: var(--text-2xl); color: var(--zn-text-secondary); font-weight: 600;">+</div>
           <div style="text-align: center;">
             <div style="width: 64px; height: 64px; border-radius: 4px; border: 1px solid var(--zn-border-light); background-color: var(--zn-bg-tertiary); display: flex; align-items: center; justify-content: center; overflow: hidden;">
               <ZNRunesImage
@@ -181,35 +181,35 @@ const config = getRuneConfiguration(runeSet);
                 style="width: 100%; height: 100%; object-fit: contain; display: block;"
               />
             </div>
-            <div style="font-size: 0.75rem; color: var(--zn-text-secondary); margin-top: 0.5rem;">
+            <div style="font-size: var(--text-xs); color: var(--zn-text-secondary); margin-top: 0.5rem;">
               2-piece
             </div>
           </div>
         </div>
-        <div style="color: var(--zn-text-primary); font-weight: 600; font-size: 1rem;">
+        <div style="color: var(--zn-text-primary); font-weight: 600; font-size: var(--text-base);">
           {config.name}
         </div>
         <div style="margin-top: 0.75rem; text-align: left;">
           {config.mainRune2Piece && (
-            <div style="font-size: 0.9rem; color: var(--zn-text-secondary); margin-bottom: 0.5rem;">
+            <div style="font-size: var(--text-md); color: var(--zn-text-secondary); margin-bottom: 0.5rem;">
               <strong style="color: var(--zn-primary);">2-piece ({config.mainRuneName}):</strong>{' '}
               {config.mainRune2Piece.replace(/^2-piece:\s*/, '')}
             </div>
           )}
           {config.mainRune4Piece && (
-            <div style="font-size: 0.9rem; color: var(--zn-text-secondary); margin-bottom: 0.5rem;">
+            <div style="font-size: var(--text-md); color: var(--zn-text-secondary); margin-bottom: 0.5rem;">
               <strong style="color: var(--zn-primary);">4-piece ({config.mainRuneName}):</strong>{' '}
               {config.mainRune4Piece.replace(/^4-piece:\s*/, '')}
             </div>
           )}
           {config.secondaryRuneEffect && (
-            <div style="font-size: 0.9rem; color: var(--zn-text-secondary);">
+            <div style="font-size: var(--text-md); color: var(--zn-text-secondary);">
               <strong style="color: var(--zn-primary);">2-piece ({config.secondaryRuneName}):</strong>{' '}
               {config.secondaryRuneEffect.replace(/^2-piece:\s*/, '')}
             </div>
           )}
           {runeSet.description && (
-            <div style="font-size: 0.85rem; color: var(--zn-text-muted); margin-top: 0.5rem; font-style: italic;">
+            <div style="font-size: var(--text-md); color: var(--zn-text-muted); margin-top: 0.5rem; font-style: italic;">
               {runeSet.description}
             </div>
           )}
@@ -217,7 +217,7 @@ const config = getRuneConfiguration(runeSet);
       </>
     ) : (
       <>
-        <div style="color: var(--zn-text-primary); font-weight: 600; font-size: 1rem;">
+        <div style="color: var(--zn-text-primary); font-weight: 600; font-size: var(--text-base);">
           {config.name}
         </div>
         <div style="margin-top: 0.75rem; text-align: left; color: var(--zn-text-secondary);">

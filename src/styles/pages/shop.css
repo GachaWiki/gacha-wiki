@@ -53,14 +53,14 @@
 
 .shop-set-title {
   font-family: var(--font-display);
-  font-size: 1.55rem;
+  font-size: var(--text-2xl);
   font-weight: var(--font-bold);
   color: var(--amber-glow);
   margin: 0;
 }
 
 .shop-set-game {
-  font-size: 0.8rem;
+  font-size: var(--text-sm);
   font-weight: var(--font-bold);
   color: #1a1a1a;
   background: var(--amber-glow);
@@ -71,7 +71,7 @@
 .shop-set-tagline {
   color: var(--text-inverse);
   opacity: 0.75;
-  font-size: 0.98rem;
+  font-size: var(--text-base);
   margin: 0 0 0.9rem 0;
 }
 
@@ -94,7 +94,7 @@
   display: inline-block;
   border-radius: 5px;
   padding: 0.3rem 0.75rem;
-  font-size: 0.85rem;
+  font-size: var(--text-md);
   font-weight: var(--font-bold);
   color: #ffffff;
   background: #22c55e;
@@ -112,7 +112,7 @@
   padding-left: 0;
   list-style-position: inside;
   color: var(--text-inverse);
-  font-size: 1rem;
+  font-size: var(--text-base);
   line-height: 1.75;
 }
 
@@ -141,13 +141,13 @@
 .shop-btn-store {
   color: var(--amber-glow);
   font-weight: var(--font-bold);
-  font-size: 1.05rem;
+  font-size: var(--text-base);
 }
 
 .shop-btn-note {
   color: var(--text-inverse);
   opacity: 0.7;
-  font-size: 0.85rem;
+  font-size: var(--text-md);
 }
 
 /* === ABOUT WEISS SCHWARZ INFO BOX === */
@@ -159,13 +159,13 @@
   border-radius: 12px;
   padding: 1.2rem 1.4rem;
   color: var(--text-inverse);
-  font-size: 0.9rem;
+  font-size: var(--text-md);
   line-height: var(--leading-relaxed);
 }
 
 .shop-info-title {
   font-family: var(--font-display);
-  font-size: 1.05rem;
+  font-size: var(--text-base);
   font-weight: var(--font-bold);
   color: var(--amber-glow);
   margin: 0 0 0.5rem 0;
@@ -193,14 +193,14 @@
   color: #1a1a1a;
   border-radius: 8px;
   padding: 0.55rem 0.95rem;
-  font-size: 0.85rem;
+  font-size: var(--text-md);
   font-weight: var(--font-bold);
   text-decoration: none;
 }
 
 /* Official product page / wiki guide links inside the reflinks row */
 .shop-set-official {
-  font-size: 0.95rem;
+  font-size: var(--text-body);
   font-weight: var(--font-bold);
   color: var(--amber-glow);
   text-decoration: none;
@@ -213,7 +213,7 @@
   text-align: center;
   color: var(--text-inverse);
   opacity: 0.5;
-  font-size: 0.75rem;
+  font-size: var(--text-xs);
 }
 
 /* === RESPONSIVE === */
@@ -253,7 +253,7 @@
 /* === CATALOG SECTION TITLE + FILTER TOOLBAR === */
 .shop-section-title {
   font-family: var(--font-display);
-  font-size: 1.5rem;
+  font-size: var(--text-2xl);
   font-weight: var(--font-bold);
   color: var(--amber-glow);
   max-width: 1100px;
@@ -284,7 +284,7 @@
   border: 1px solid var(--text-secondary);
   background: rgba(255, 255, 255, 0.03);
   color: var(--text-inverse);
-  font-size: 0.95rem;
+  font-size: var(--text-body);
   color-scheme: dark;
 }
 
@@ -308,7 +308,7 @@
   border: 1px solid var(--text-secondary);
   background: transparent;
   color: var(--text-inverse);
-  font-size: 0.95rem;
+  font-size: var(--text-body);
   cursor: pointer;
 }
 
@@ -316,7 +316,7 @@
   margin-left: auto;
   color: var(--text-inverse);
   opacity: 0.6;
-  font-size: 0.8rem;
+  font-size: var(--text-sm);
 }
 
 /* === RICH ITEM CARDS (full-width list) === */
@@ -324,7 +324,7 @@
   margin: 0 0 0.35rem 0;
   color: var(--amber-glow);
   opacity: 0.85;
-  font-size: 0.85rem;
+  font-size: var(--text-md);
   font-weight: var(--font-bold);
   letter-spacing: 0.03em;
 }
@@ -410,7 +410,7 @@
   background: transparent;
   border: none;
   color: var(--text-inverse);
-  font-size: 0.95rem;
+  font-size: var(--text-body);
   font-weight: var(--font-bold);
   cursor: pointer;
 }
@@ -423,7 +423,7 @@
 /* === FULL-CATALOG TILES === */
 .shop-more-title {
   font-family: var(--font-display);
-  font-size: 1.4rem;
+  font-size: var(--text-2xl);
   font-weight: var(--font-bold);
   color: var(--amber-glow);
   margin: 2.2rem 0 0.3rem 0;
@@ -432,7 +432,7 @@
 .shop-more-note {
   color: var(--text-inverse);
   opacity: 0.65;
-  font-size: 0.88rem;
+  font-size: var(--text-md);
   margin: 0 0 1rem 0;
 }
 
@@ -471,7 +471,7 @@
 
 .shop-tile-name {
   color: var(--text-inverse);
-  font-size: 0.95rem;
+  font-size: var(--text-body);
   font-weight: var(--font-bold);
   line-height: 1.35;
   min-height: 2.6em;
@@ -490,11 +490,11 @@
 }
 
 .shop-tile-btn .shop-btn-store {
-  font-size: 0.95rem;
+  font-size: var(--text-body);
 }
 
 .shop-tile-btn .shop-btn-note {
-  font-size: 0.78rem;
+  font-size: var(--text-xs);
 }
 
 @media (max-width: 640px) {

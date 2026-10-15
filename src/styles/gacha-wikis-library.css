@@ -170,7 +170,7 @@
 .game-sections {
   color: var(--neutral-400);
   font-family: var(--font-primary);
-  font-size: 12px;
+  font-size: var(--text-xs);
   font-style: italic;
   margin: 0;
   line-height: 1.4;
@@ -291,7 +291,7 @@
   }
 
   .game-sections {
-    font-size: 11px;
+    font-size: var(--text-2xs);
   }
 
   .game-arrow {

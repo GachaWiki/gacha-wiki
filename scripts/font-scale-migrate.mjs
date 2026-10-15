@@ -83,11 +83,17 @@ function transformCss(text, report, relPath) {
 }
 
 function transformAstro(text, report, relPath) {
-  // only <style> blocks carry CSS
-  return text.replace(/<style[^>]*>([\s\S]*?)<\/style>/g, (full, css) => {
+  // <style> blocks carry CSS...
+  let out = text.replace(/<style[^>]*>([\s\S]*?)<\/style>/g, (full, css) => {
     const next = transformCss(css, report, relPath);
     return next === css ? full : full.replace(css, next);
   });
+  // ...and inline style="..." attributes carry single declarations
+  out = out.replace(/(style=")([^"]*)(")/g, (full, pre, body, post) => {
+    const next = transformCss(body, report, relPath);
+    return next === body ? full : pre + next + post;
+  });
+  return out;
 }
 
 function collectFiles(target) {

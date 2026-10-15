@@ -680,7 +680,7 @@ const stats = [
   }
   .eyebrow {
     display: inline-block;
-    font-size: 0.8rem;
+    font-size: var(--text-sm);
     letter-spacing: 0.18em;
     text-transform: uppercase;
     color: var(--amber-glow);
@@ -689,21 +689,21 @@ const stats = [
   }
   .hero-title {
     font-family: 'Space Grotesk', sans-serif;
-    font-size: clamp(2.6rem, 7vw, 4.6rem);
+    font-size: clamp(var(--text-5xl), 7vw, var(--text-6xl));
     line-height: 1;
     margin: 0 0 1rem;
     letter-spacing: -0.02em;
   }
   .accent { color: var(--amber-glow); }
   .hero-sub {
-    font-size: clamp(1rem, 1.6vw, 1.18rem);
+    font-size: clamp(var(--text-base), 1.6vw, var(--text-lg));
     line-height: 1.65;
     color: var(--neutral-300);
     max-width: 46ch;
     margin: 0 0 1.8rem;
   }
   .cta-row { display: flex; flex-wrap: wrap; gap: 0.9rem; }
-  .contract-line { margin: 1.1rem 0 0; font-size: 0.82rem; color: var(--neutral-400); }
+  .contract-line { margin: 1.1rem 0 0; font-size: var(--text-sm); color: var(--neutral-400); }
   .contract-line a { color: var(--teal-crystal); text-decoration: none; }
   .contract-line a:hover { text-decoration: underline; }
   .btn {
@@ -713,7 +713,7 @@ const stats = [
     padding: 0.85rem 1.6rem;
     border-radius: 0.7rem;
     font-weight: 700;
-    font-size: 1rem;
+    font-size: var(--text-base);
     text-decoration: none;
     transition: transform 0.15s ease, background 0.15s ease;
     min-height: 48px;
@@ -742,7 +742,7 @@ const stats = [
     padding: 1.4rem 1.6rem;
     text-align: center;
   }
-  .mint-label { color: var(--amber-glow); font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; font-size: 0.85rem; margin: 0 0 1rem; }
+  .mint-label { color: var(--amber-glow); font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; font-size: var(--text-md); margin: 0 0 1rem; }
   /* two payment options — must read as clearly selectable alternatives */
   .pay-cards {
     display: grid;
@@ -770,21 +770,21 @@ const stats = [
     background: rgba(255, 183, 77, 0.1);
     box-shadow: 0 0 0 1px var(--amber-glow) inset;
   }
-  .pay-name { font-family: 'Space Grotesk', sans-serif; font-weight: 700; font-size: 1.1rem; }
+  .pay-name { font-family: 'Space Grotesk', sans-serif; font-weight: 700; font-size: var(--text-lg); }
   .pay-card.active .pay-name { color: var(--amber-glow); }
-  .pay-unit { font-size: 0.85rem; color: var(--neutral-400); font-variant-numeric: tabular-nums; }
+  .pay-unit { font-size: var(--text-md); color: var(--neutral-400); font-variant-numeric: tabular-nums; }
   .pay-card.active .pay-unit { color: var(--neutral-300); }
-  .pay-note { font-size: 0.65rem; text-transform: uppercase; letter-spacing: 0.09em; color: var(--neutral-400); }
+  .pay-note { font-size: var(--text-3xs); text-transform: uppercase; letter-spacing: 0.09em; color: var(--neutral-400); }
   .mint-total {
     margin: 1rem 0 0;
     font-family: 'Space Grotesk', sans-serif;
     font-weight: 700;
-    font-size: 1.05rem;
+    font-size: var(--text-base);
     color: var(--amber-glow);
     font-variant-numeric: tabular-nums;
   }
-  .mint-balance { margin: 0.3rem 0 0; color: var(--neutral-400); font-size: 0.82rem; font-variant-numeric: tabular-nums; }
-  .mint-left { margin: 0.2rem 0 0; color: var(--amber-glow); font-size: 0.82rem; font-weight: 600; font-variant-numeric: tabular-nums; }
+  .mint-balance { margin: 0.3rem 0 0; color: var(--neutral-400); font-size: var(--text-sm); font-variant-numeric: tabular-nums; }
+  .mint-left { margin: 0.2rem 0 0; color: var(--amber-glow); font-size: var(--text-sm); font-weight: 600; font-variant-numeric: tabular-nums; }
   .mint-row { display: flex; gap: 0.8rem; justify-content: center; align-items: stretch; flex-wrap: wrap; }
   .btn-mint { min-width: 260px; }
   .qty {
@@ -799,7 +799,7 @@ const stats = [
     background: rgba(255, 183, 77, 0.12);
     border: none;
     color: var(--amber-glow);
-    font-size: 1.2rem;
+    font-size: var(--text-xl);
     font-weight: 700;
     width: 48px;
     min-height: 48px;
@@ -811,11 +811,11 @@ const stats = [
     text-align: center;
     font-family: 'Space Grotesk', sans-serif;
     font-weight: 700;
-    font-size: 1.1rem;
+    font-size: var(--text-lg);
   }
-  .mint-status { margin: 0.35rem 0 0; color: var(--neutral-300); font-size: 0.92rem; }
+  .mint-status { margin: 0.35rem 0 0; color: var(--neutral-300); font-size: var(--text-body); }
   .mint-status a { color: var(--teal-crystal); }
-  .mint-marketplace { margin: 0.3rem 0 0; color: var(--neutral-400); font-size: 0.82rem; }
+  .mint-marketplace { margin: 0.3rem 0 0; color: var(--neutral-400); font-size: var(--text-sm); }
   .mint-marketplace a { color: var(--teal-crystal); text-decoration: none; font-weight: 600; }
   .mint-marketplace a:hover { text-decoration: underline; }
   .minted-count { margin: 0.35rem 0 0; color: var(--amber-glow); font-family: 'Space Grotesk', sans-serif; font-weight: 700; }
@@ -828,7 +828,7 @@ const stats = [
     background: rgba(255, 255, 255, 0.05);
     border: 1px solid rgba(255, 255, 255, 0.14);
     color: var(--neutral-300);
-    font-size: 0.88rem;
+    font-size: var(--text-md);
     line-height: 1.55;
     text-align: center;
     overflow-wrap: anywhere;
@@ -863,7 +863,7 @@ const stats = [
   .your-grid :global(.your-tile span) {
     display: block;
     padding: 0.35rem 0.5rem;
-    font-size: 0.72rem;
+    font-size: var(--text-xs);
     font-weight: 700;
     color: var(--neutral-300);
     font-family: 'Space Grotesk', sans-serif;
@@ -880,15 +880,15 @@ const stats = [
   }
   .perk-tag {
     display: block;
-    font-size: 0.65rem;
+    font-size: var(--text-3xs);
     letter-spacing: 0.1em;
     text-transform: uppercase;
     color: var(--amber-glow);
     font-weight: 700;
     margin-bottom: 0.45rem;
   }
-  .perk h3 { font-family: 'Space Grotesk', sans-serif; font-size: 1.05rem; font-weight: 700; margin: 0 0 0.5rem; }
-  .perk p { margin: 0; color: var(--neutral-400); font-size: 0.88rem; line-height: 1.55; }
+  .perk h3 { font-family: 'Space Grotesk', sans-serif; font-size: var(--text-base); font-weight: 700; margin: 0 0 0.5rem; }
+  .perk p { margin: 0; color: var(--neutral-400); font-size: var(--text-md); line-height: 1.55; }
   .perk p a { color: var(--teal-crystal, #4dd0c4); text-decoration: none; }
   .perk p a:hover { text-decoration: underline; }
 
@@ -906,13 +906,13 @@ const stats = [
     padding: 1.3rem 1rem;
     text-align: center;
   }
-  .stat-k { display: block; font-family: 'Space Grotesk', sans-serif; font-size: 1.6rem; font-weight: 700; color: var(--amber-glow); }
-  .stat-v { display: block; font-size: 0.85rem; color: var(--neutral-400); margin-top: 0.25rem; }
+  .stat-k { display: block; font-family: 'Space Grotesk', sans-serif; font-size: var(--text-2xl); font-weight: 700; color: var(--amber-glow); }
+  .stat-v { display: block; font-size: var(--text-md); color: var(--neutral-400); margin-top: 0.25rem; }
 
   /* SECTION TITLES */
   .sec-title {
     font-family: 'Space Grotesk', sans-serif;
-    font-size: clamp(1.6rem, 3.5vw, 2.2rem);
+    font-size: clamp(var(--text-2xl), 3.5vw, var(--text-4xl));
     margin: 0 0 0.4rem;
     letter-spacing: -0.01em;
   }
@@ -941,7 +941,7 @@ const stats = [
     background: rgba(255, 183, 77, 0.08);
     border: 1px solid rgba(255, 183, 77, 0.4);
   }
-  .disclaimer p { margin: 0; color: var(--neutral-300); font-size: 0.9rem; line-height: 1.6; }
+  .disclaimer p { margin: 0; color: var(--neutral-300); font-size: var(--text-md); line-height: 1.6; }
 
   /* RESPONSIVE */
   @media (max-width: 860px) {

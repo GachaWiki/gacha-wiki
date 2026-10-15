@@ -75,7 +75,7 @@
 
 .time-value {
   font-family: var(--font-mono);
-  font-size: 3.5rem;
+  font-size: var(--text-6xl);
   font-weight: var(--font-bold);
   color: var(--bb-primary-light);
   line-height: 1;
@@ -91,7 +91,7 @@
 }
 
 .time-separator {
-  font-size: 3rem;
+  font-size: var(--text-6xl);
   font-weight: var(--font-bold);
   color: var(--bb-primary-light);
   margin: 0 0.5rem;
@@ -236,7 +236,7 @@
 
 .launch-days {
   font-family: var(--font-mono);
-  font-size: 2rem;
+  font-size: var(--text-4xl);
   font-weight: var(--font-bold);
   color: var(--bb-primary-light);
   line-height: 1;
@@ -420,7 +420,7 @@
 
 .busty-day-countdown-value {
   font-family: var(--font-display);
-  font-size: 1.75rem;
+  font-size: var(--text-3xl);
   font-weight: var(--font-bold);
   color: var(--bb-primary-light);
   line-height: 1.2;
@@ -480,15 +480,15 @@
   }
 
   .time-value {
-    font-size: 2.5rem;
+    font-size: var(--text-5xl);
   }
 
   .time-separator {
-    font-size: 2rem;
+    font-size: var(--text-4xl);
   }
 
   .launch-days {
-    font-size: 2.5rem;
+    font-size: var(--text-5xl);
   }
 
   .timer-card-header {
@@ -504,14 +504,14 @@
   }
 
   .time-value {
-    font-size: 2rem;
+    font-size: var(--text-4xl);
   }
 
   .time-separator {
-    font-size: 1.5rem;
+    font-size: var(--text-2xl);
   }
 
   .launch-days {
-    font-size: 2rem;
+    font-size: var(--text-4xl);
   }
 }

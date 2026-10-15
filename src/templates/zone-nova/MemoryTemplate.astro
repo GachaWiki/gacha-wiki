@@ -351,7 +351,7 @@ function getCharacterUrl(characterName: string): string {
       margin-bottom: 1.25rem;
     }
     .awaken-picker .awaken-label {
-      font-size: 0.85rem;
+      font-size: var(--text-md);
       font-weight: 600;
       text-transform: uppercase;
       letter-spacing: 0.05em;
@@ -369,7 +369,7 @@ function getCharacterUrl(characterName: string): string {
       background: transparent;
       color: inherit;
       font-weight: 600;
-      font-size: 0.88rem;
+      font-size: var(--text-md);
       cursor: pointer;
     }
     .awaken-pill:hover {
@@ -474,7 +474,7 @@ function getCharacterUrl(characterName: string): string {
     }
 
     .memory-title {
-      font-size: 1.875rem;
+      font-size: var(--text-3xl);
       font-weight: 700;
       color: var(--zn-text-primary);
       line-height: 1.2;
@@ -500,7 +500,7 @@ function getCharacterUrl(characterName: string): string {
 
     .detail-label {
       color: var(--zn-text-primary);
-      font-size: 0.9375rem;
+      font-size: var(--text-body);
       font-weight: 600;
       font-family: system-ui, -apple-system, sans-serif;
     }
@@ -519,7 +519,7 @@ function getCharacterUrl(characterName: string): string {
     .element-badge {
       padding: 0.375rem 0.75rem;
       border-radius: 6px;
-      font-size: 0.875rem;
+      font-size: var(--text-md);
       font-weight: 500;
       text-transform: capitalize;
     }
@@ -532,20 +532,20 @@ function getCharacterUrl(characterName: string): string {
 
     .type-badge-text {
       color: var(--zn-text-primary);
-      font-size: 0.9375rem;
+      font-size: var(--text-body);
       font-weight: 600;
       font-family: system-ui, -apple-system, sans-serif;
     }
 
     .character-text {
       color: var(--zn-text-primary);
-      font-size: 0.9375rem;
+      font-size: var(--text-body);
       font-weight: 600;
       font-family: system-ui, -apple-system, sans-serif;
     }
 
     .section-title {
-      font-size: 1.25rem;
+      font-size: var(--text-xl);
       font-weight: 600;
       color: var(--zn-primary-amber);
       margin-bottom: 1rem;
@@ -571,14 +571,14 @@ function getCharacterUrl(characterName: string): string {
 
 
     .stat-value {
-      font-size: 1.25rem;
+      font-size: var(--text-xl);
       font-weight: 600;
       color: var(--zn-text-primary);
       margin-bottom: 0.25rem;
     }
 
     .stat-label {
-      font-size: 0.75rem;
+      font-size: var(--text-xs);
       color: var(--zn-text-muted);
       text-transform: uppercase;
       letter-spacing: 0.5px;
@@ -588,12 +588,12 @@ function getCharacterUrl(characterName: string): string {
       margin-top: 0.5rem;
       padding-top: 0.5rem;
       border-top: 1px dashed var(--zn-border-primary);
-      font-size: 0.8rem;
+      font-size: var(--text-sm);
       color: var(--zn-text-muted);
     }
 
     .stats-note {
-      font-size: 0.85rem;
+      font-size: var(--text-md);
       color: var(--zn-text-muted);
       line-height: 1.6;
       margin: -1rem 0 2rem;
@@ -608,7 +608,7 @@ function getCharacterUrl(characterName: string): string {
     }
 
     .buff-reference-title {
-      font-size: 0.8rem;
+      font-size: var(--text-sm);
       font-weight: 700;
       text-transform: uppercase;
       letter-spacing: 0.06em;
@@ -617,7 +617,7 @@ function getCharacterUrl(characterName: string): string {
     }
 
     .buff-note {
-      font-size: 0.9rem;
+      font-size: var(--text-md);
       color: var(--zn-text-secondary);
       line-height: 1.65;
       margin: 0 0 0.4rem;
@@ -664,14 +664,14 @@ function getCharacterUrl(characterName: string): string {
       color: var(--zn-bg-primary);
       border-radius: 50%;
       font-weight: 600;
-      font-size: 0.75rem;
+      font-size: var(--text-xs);
       flex-shrink: 0;
     }
 
     .effect-text {
       color: var(--zn-text-secondary);
       line-height: 1.5;
-      font-size: 0.9375rem;
+      font-size: var(--text-body);
     }
 
     .synergy-card {
@@ -707,7 +707,7 @@ function getCharacterUrl(characterName: string): string {
       }
 
       .memory-title {
-        font-size: 1.75rem;
+        font-size: var(--text-3xl);
       }
 
       .memory-card-image {
@@ -763,7 +763,7 @@ function getCharacterUrl(characterName: string): string {
       }
 
       .memory-title {
-        font-size: 1.625rem;
+        font-size: var(--text-3xl);
         text-align: center;
         line-height: 1.3;
         margin-bottom: 0.5rem;
@@ -786,7 +786,7 @@ function getCharacterUrl(characterName: string): string {
       }
 
       .detail-label {
-        font-size: 1rem;
+        font-size: var(--text-base);
         margin-bottom: 0.25rem;
       }
 
@@ -802,18 +802,18 @@ function getCharacterUrl(characterName: string): string {
 
       .type-badge-text,
       .character-text {
-        font-size: 1rem;
+        font-size: var(--text-base);
       }
 
       .element-badge {
         padding: 0.5rem 1rem;
-        font-size: 0.9rem;
+        font-size: var(--text-md);
         border-radius: 8px;
       }
 
       /* Section improvements */
       .section-title {
-        font-size: 1.125rem;
+        font-size: var(--text-lg);
         margin-bottom: 0.875rem;
         padding-bottom: 0.4rem;
         text-align: center;
@@ -831,12 +831,12 @@ function getCharacterUrl(characterName: string): string {
       }
 
       .stat-value {
-        font-size: 1.375rem;
+        font-size: var(--text-2xl);
         margin-bottom: 0.375rem;
       }
 
       .stat-label {
-        font-size: 0.8rem;
+        font-size: var(--text-sm);
         letter-spacing: 0.6px;
       }
 
@@ -856,13 +856,13 @@ function getCharacterUrl(characterName: string): string {
       .effect-number {
         width: 28px;
         height: 28px;
-        font-size: 0.8rem;
+        font-size: var(--text-sm);
         flex-shrink: 0;
         margin-top: 2px;
       }
 
       .effect-text {
-        font-size: 1rem;
+        font-size: var(--text-base);
         line-height: 1.6;
       }
 
@@ -872,7 +872,7 @@ function getCharacterUrl(characterName: string): string {
       }
 
       .synergy-content p {
-        font-size: 1rem;
+        font-size: var(--text-base);
         line-height: 1.6;
         margin-bottom: 1.125rem;
         text-align: center;
@@ -914,7 +914,7 @@ function getCharacterUrl(characterName: string): string {
       }
 
       .memory-title {
-        font-size: 1.5rem;
+        font-size: var(--text-2xl);
       }
 
       .memory-header {
@@ -935,17 +935,17 @@ function getCharacterUrl(characterName: string): string {
       }
 
       .detail-label {
-        font-size: 0.925rem;
+        font-size: var(--text-body);
       }
 
       .type-badge-text,
       .character-text {
-        font-size: 0.925rem;
+        font-size: var(--text-body);
       }
 
       .element-badge {
         padding: 0.4rem 0.875rem;
-        font-size: 0.85rem;
+        font-size: var(--text-md);
       }
 
       .class-icon-small {
@@ -954,7 +954,7 @@ function getCharacterUrl(characterName: string): string {
       }
 
       .section-title {
-        font-size: 1rem;
+        font-size: var(--text-base);
         margin-bottom: 0.75rem;
       }
 
@@ -963,11 +963,11 @@ function getCharacterUrl(characterName: string): string {
       }
 
       .stat-value {
-        font-size: 1.25rem;
+        font-size: var(--text-xl);
       }
 
       .stat-label {
-        font-size: 0.75rem;
+        font-size: var(--text-xs);
       }
 
       .effects-container {
@@ -983,11 +983,11 @@ function getCharacterUrl(characterName: string): string {
       .effect-number {
         width: 26px;
         height: 26px;
-        font-size: 0.75rem;
+        font-size: var(--text-xs);
       }
 
       .effect-text {
-        font-size: 0.95rem;
+        font-size: var(--text-body);
         line-height: 1.5;
       }
 
@@ -996,13 +996,13 @@ function getCharacterUrl(characterName: string): string {
       }
 
       .synergy-content p {
-        font-size: 0.95rem;
+        font-size: var(--text-body);
         margin-bottom: 1rem;
       }
 
       .symlink {
         padding: 0.625rem 1.25rem;
-        font-size: 0.9rem;
+        font-size: var(--text-md);
         width: 100%;
         max-width: 280px;
         justify-content: center;
@@ -1027,7 +1027,7 @@ function getCharacterUrl(characterName: string): string {
       }
 
       .memory-title {
-        font-size: 1.375rem;
+        font-size: var(--text-2xl);
       }
 
       .detail-item {
@@ -1039,7 +1039,7 @@ function getCharacterUrl(characterName: string): string {
       }
 
       .stat-value {
-        font-size: 1.125rem;
+        font-size: var(--text-lg);
       }
 
       .effects-container {
@@ -1047,7 +1047,7 @@ function getCharacterUrl(characterName: string): string {
       }
 
       .effect-text {
-        font-size: 0.9rem;
+        font-size: var(--text-md);
       }
 
       .synergy-card {
@@ -1055,7 +1055,7 @@ function getCharacterUrl(characterName: string): string {
       }
 
       .symlink {
-        font-size: 0.85rem;
+        font-size: var(--text-md);
         padding: 0.5rem 1rem;
         max-width: 260px;
       }
