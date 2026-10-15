@@ -7,7 +7,6 @@ import { gsaItems } from '../../../../data/gene-sys-adam/items.js';
 import { gsaPropertyTypes } from '../../../../data/gene-sys-adam/property-types.js';
 import { getGsaReworkArchive } from '../../../../data/gene-sys-adam/rework-archive.js';
 import { gsaPursuitRole, GSA_PURSUIT_ROLES } from '../../../../data/gene-sys-adam/pursuit-roles.js';
-import { GSA_TIER_PLACEMENTS, gsaRarityBadge, gsaFullDisplayName } from '../../../../data/gene-sys-adam/tier-list.js';
 import '../../../../styles/games/gene-sys-adam/gsa-common.css';
 import '../../../../styles/games/gene-sys-adam/gsa-characters.css';
 
@@ -36,7 +35,7 @@ const bySlug = Object.fromEntries(gsaCharacters.map(x => [x.slug, x]));
 const partners = new Set();
 if (pursuit.role !== 'none') {
   for (const [s2, r2] of Object.entries(GSA_PURSUIT_ROLES)) {
-    if (s2 === slug || !bySlug[s2]) continue;
+    if (s2 === slug) continue;
     const feedsMe =
       (pursuit.role === 'trigger' || pursuit.role === 'both') &&
       r2.applies.some(a => pursuit.triggers.some(t => t.element === a.element));
@@ -46,16 +45,6 @@ if (pursuit.role !== 'none') {
     if (feedsMe || iFeed) partners.add(s2);
   }
 }
-
-// Other playable versions of this character: same nameZh, separate unit with
-// its own rarity and kit (currently Belle cr040 and Clumsy Cowgirl cr107).
-const versions = gsaCharacters
-  .filter(x => x.slug !== slug && x.nameZh && x.nameZh === c.nameZh)
-  .map(x => ({ ...x, rarity: GSA_TIER_PLACEMENTS[x.slug]?.rarity }));
-
-// Page heading and browser tab use the full name when the roster has two
-// units with the same name (Belle / Clumsy Cowgirl Belle).
-const displayName = gsaFullDisplayName(c);
 
 const profile = c.profile || {};
 const stats = c.stats || {};
@@ -123,10 +112,10 @@ const growth = c.growth || { rate: 1, hp: [0, 0, 0, 0, 0, 0], atk: [0, 0, 0, 0, 
 ---
 
 <GSALayout
-  title={displayName}
-  description={`${displayName} (${c.nameZh}) guide for Gene-Sys: Adam: profile, base stats, skills.`}
-  gameTitle={displayName}
-  crumbName={displayName}
+  title={c.name}
+  description={`${c.name} (${c.nameZh}) guide for Gene-Sys: Adam: profile, base stats, skills${c.title ? `, ${c.title}` : ''}.`}
+  gameTitle={c.name}
+  crumbName={c.name}
 >
   <div class="gsa-content-section">
     <div class="gsa-detail-header">
@@ -136,7 +125,7 @@ const growth = c.growth || { rate: 1, hp: [0, 0, 0, 0, 0, 0], atk: [0, 0, 0, 0, 
         <div class="gsa-detail-art-monogram">{c.name?.[0]}</div>
       )}
       <div class="gsa-detail-info">
-        <h1>{displayName}</h1>
+        <h1>{c.name}</h1>
         <p class="gsa-detail-name-zh">{c.nameZh}</p>
         {c.title && <p class="gsa-detail-title">{c.title}</p>}
         {c.epithet && <p class="gsa-detail-epithet">{c.epithet}</p>}
@@ -208,42 +197,6 @@ const growth = c.growth || { rate: 1, hp: [0, 0, 0, 0, 0, 0], atk: [0, 0, 0, 0, 
         </div>
       )}
     </div>
-
-    {versions.length > 0 && (
-      <div class="gsa-detail-section gsa-versions">
-        <h2>Other Versions</h2>
-        <p class="gsa-section-note">
-          This character has more than one playable version. Each version is a
-          separate unit with its own rarity and kit.
-        </p>
-        <div class="gsa-version-cards">
-          {versions.map(v => (
-            <a class="gsa-version-card" href={`/guides/gene-sys-adam/characters/${v.slug}/`}>
-              {v.icon ? (
-                <img class="gsa-version-icon" src={v.icon} alt={gsaFullDisplayName(v)} width="72" height="72" loading="lazy" />
-              ) : (
-                <span class="gsa-version-icon gsa-version-monogram">{v.name?.[0]}</span>
-              )}
-              <span class="gsa-version-info">
-                <span class="gsa-version-name">{gsaFullDisplayName(v)}</span>
-                <span class="gsa-version-meta">
-                  {v.rarity && gsaRarityBadge(v.rarity) && (
-                    <img class="gsa-version-rarity" src={gsaRarityBadge(v.rarity)} alt={v.rarity} width="38" height="24" loading="lazy" />
-                  )}
-                  {v.element && (
-                    <span class="gsa-chip gsa-chip-elem">
-                      <img src={v.element.icon} alt={v.element.name} width="16" height="16" loading="lazy" />
-                      {v.element.name}
-                    </span>
-                  )}
-                  {v.job && <span class="gsa-chip gsa-chip-type">{v.job.name}</span>}
-                </span>
-              </span>
-            </a>
-          ))}
-        </div>
-      </div>
-    )}
 
     {
       (profile.birthday || profile.age || profile.height || profile.interest || resumeParas.length) ? (
@@ -491,7 +444,7 @@ const growth = c.growth || { rate: 1, hp: [0, 0, 0, 0, 0, 0], atk: [0, 0, 0, 0, 
                     {s.icon ? (
                       <img src={s.icon} alt="" class="gsa-skill-icon" width="52" height="52" loading="lazy" />
                     ) : (
-                      <span class="gsa-skill-icon gsa-skill-icon-ph" aria-hidden="true">{s.name?.[0]}</span>
+                      <span class="gsa-skill-icon gsa-skill-icon-ph" aria-hidden="true"></span>
                     )}
                     {s.slot === 'Ultimate' && <span class="gsa-skill-ex">EX</span>}
                   </div>

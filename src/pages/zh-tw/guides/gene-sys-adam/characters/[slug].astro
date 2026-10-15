@@ -7,7 +7,6 @@ import { gsaCharactersZh, getGsaCharacterZh } from '../../../../../data/gene-sys
 import { gsaPropertyTypes } from '../../../../../data/gene-sys-adam/property-types.js';
 import { GSA_ZH_REVERSE } from '../../../../../data/gene-sys-adam/zh-tw/game-text.js';
 import { gsaPursuitRole, GSA_PURSUIT_ROLES } from '../../../../../data/gene-sys-adam/pursuit-roles.js';
-import { GSA_TIER_PLACEMENTS, gsaRarityBadge } from '../../../../../data/gene-sys-adam/tier-list.js';
 import { GSA_ZH } from '../../../../../data/gene-sys-adam/zh-tw/ui.js';
 import '../../../../../styles/games/gene-sys-adam/gsa-common.css';
 import '../../../../../styles/games/gene-sys-adam/gsa-characters.css';
@@ -56,6 +55,146 @@ const CORE_EN = { '生命力': 'HP', '攻擊力': 'ATK' };
 // 新危機樣式）。「改版前」取自繁中維基上一次提交時的遊戲資料表（10 月 2
 // 日版本），「改版後」為目前資料表；技能名與敘述皆為官方繁中。
 const REWORK_ZH = {
+  elena: {
+    date: '2026年10月13日',
+    patchLabel: '10 月 13 日更新公告',
+    patchHref: `${base}updates/2026-10-13-black-gold-hunter-rerun/`,
+    intro:
+      '伊蓮娜的技能組於 2026 年 10 月 13 日的資料表改版，為其「戰爭與音樂」卡池鋪路：攻擊改為多段並直接附加燃燒，引爆追擊主題移出核心技能。上方顯示當前版本；改版前的文字保存於下方。',
+    unchangedNote:
+      '開場演出（自動技）與至上狂歡（被動 2）文字未變；開場演出的狀態標籤於同波改版中重新標注（現為暴擊閃避提升、技能傷害提升、攻擊速度提升）。',
+    items: [
+      {
+        title: '普攻：躁動音符',
+        before: '對目標造成100%物理傷害。',
+        after: '對目標造成兩段100%物理傷害。',
+      },
+      {
+        title: '天賦：引爆全場',
+        before:
+          '對前方範圍內至多三名目標造成100%能量傷害。\n最後一擊命中時，若目標處於燃燒狀態，則對其造成引爆M追擊。\n覺醒：對前方範圍內至多三名目標造成170%能量傷害。\n覺醒：最後一擊命中時，若目標處於燃燒狀態，則對其造成引爆M追擊。',
+        after:
+          '對前方範圍內至多三名目標造成五段100%能量傷害。\n命中時，使其陷入燃燒M狀態(0秒)。\n覺醒：對前方範圍內至多三名目標造成五段170%能量傷害。\n覺醒：命中時，使其陷入燃燒M狀態(0秒)。',
+      },
+      {
+        title: '被動 1：我要跟我媽媽講！',
+        before:
+          '引爆追擊成功時，對自身賦予火屬性攻擊提升6%(12秒)。\n引爆追擊成功時，對自身賦予暴擊提升9%(12秒)。\n覺醒：引爆追擊成功時，對自身賦予火屬性攻擊提升7%(12秒)。\n覺醒：引爆追擊成功時，對自身賦予暴擊提升10%(12秒)。\n覺醒：對全體隊員賦予暴擊傷害提升12%。',
+        after:
+          '命中時，若為燃燒狀態中目標，對自身賦予火屬性攻擊提升6%(12秒)。\n覺醒：命中時，若為燃燒狀態中目標，對自身賦予火屬性攻擊提升7%(12秒)。\n覺醒：對全體隊員賦予暴擊傷害提升12%。',
+      },
+      {
+        title: '奧義技：紅棘亂舞',
+        before:
+          '進入覺醒狀態，對自身賦予能量傷害提升10%(24秒)。\n對全體目標造成250%能量傷害。\n最後一擊命中時，對其施加火屬性抗性降低10%(12秒)。\n最後一擊命中時，對其施加治療暴擊加成降低18%(12秒)。',
+        after:
+          '進入覺醒狀態，對自身賦予能量傷害提升10%(24秒)。\n對全體目標造成十八段250%能量傷害。\n命中時，使其陷入燃燒L狀態(12秒)。\n最後一擊命中時，對其施加治療暴擊加成降低18%(12秒)。',
+      },
+    ],
+  },
+  victoria: {
+    date: '2026年10月13日',
+    patchLabel: '10 月 13 日更新公告',
+    patchHref: `${base}updates/2026-10-13-black-gold-hunter-rerun/`,
+    intro:
+      '維多莉亞於 10 月 2 日與 10 月 13 日兩度改版。繁中維基上線時已收錄 10 月 2 日版本，因此此處對照的「改版前」為 10 月 2 日版本、「改版後」為 10 月 13 日版本；更早的改版前文字見英文版頁面。',
+    items: [
+      {
+        title: '普攻：優雅刺殺',
+        before: '對目標造成83%物理傷害。',
+        after: '對目標造成兩段83%物理傷害。',
+      },
+      {
+        title: '奧義技：鬼魅影擊',
+        before:
+          '進入覺醒狀態，對自身賦予EN值獲取提升45%(24秒)。\n對前方範圍內至多三名目標造成53%能量傷害。\n最後一擊命中時，對其施加暴擊閃避降低15%(12秒)。',
+        after:
+          '進入覺醒狀態，對自身賦予EN值獲取提升45%(24秒)。\n對前方範圍內至多三名目標造成八段53%能量傷害。\n最後一擊命中時，對其施加暴擊閃避降低15%(12秒)。',
+        note: '10 月 2 日版本先將單段 425% 降為單段 53%，10 月 13 日再拆為八段 53%。',
+      },
+    ],
+  },
+  'leng-zhen': {
+    date: '2026年10月13日',
+    patchLabel: '10 月 13 日更新公告',
+    patchHref: `${base}updates/2026-10-13-black-gold-hunter-rerun/`,
+    intro:
+      '冷鴆的被動於 2026 年 10 月 13 日的資料表再次改版。新的被動文字指向尚未隨靜態資料表實裝的效果行，因此當前卡片僅顯示觸發間隔；完整數值待其「音行自鳴」波次上線時補齊。改版前的文字保存於下方。',
+    items: [
+      {
+        title: '被動 1：斷覺',
+        before:
+          '命中時，中機率對自身賦予水屬性攻擊提升7%(6秒)。\n覺醒：命中時，中機率對自身賦予水屬性攻擊提升8.5%(6秒)。',
+        after:
+          '此效果每次觸發需間隔至少6秒。\n覺醒：此效果每次觸發需間隔至少6秒。\n覺醒：對全體隊員賦予水屬性攻擊提升8.5%。',
+        note: '改版後的命中觸發條件為燃燒或冰凍狀態中目標；效果數值行尚未隨資料表實裝。',
+      },
+      {
+        title: '被動 2：蠱令',
+        before:
+          '對自身賦予技能傷害提升12.5%。\n覺醒：對全體隊員賦予技能傷害提升12.5%。',
+        after: '對自身賦予技能傷害提升12.5%。',
+        note: '覺醒版本現指向同樣未實裝的效果行，額外說明待波次實裝後補齊。',
+      },
+    ],
+  },
+  'belle-clumsy-cowgirl': {
+    date: '2026年10月13日',
+    patchLabel: '10 月 13 日更新公告',
+    patchHref: `${base}updates/2026-10-13-black-gold-hunter-rerun/`,
+    intro:
+      '迷糊乳牛-貝兒的技能組於 2026 年 10 月 13 日的資料表改版，與「黑金獵人」復刻同步：治療被動改為暴擊觸發的護盾，並替換了多條覺醒附加效果。上方顯示當前版本；改版前的文字保存於下方。',
+    items: [
+      {
+        title: '自動技：冰鎮牛奶配送',
+        before: '為生命值比例最低的隊員恢復180%生命值。冷卻時間：5秒。',
+        after: '為生命值比例最低的隊員恢復180%生命值。冷卻時間：6秒。',
+      },
+      {
+        title: '被動 1：睡前必備儀式',
+        before:
+          '碎石追擊成功時，為生命值比例最低的隊員恢復65%生命值。\n覺醒：碎石追擊成功時，為生命值比例最低的隊員恢復65%生命值。\n覺醒：對全體隊員賦予暴擊傷害提升15%。',
+        after:
+          '造成暴擊時，為生命值比例最低的隊員附加65%護盾(4秒)。\n此效果每次觸發需間隔至少6秒。\n覺醒：造成暴擊時，為生命值比例最低的隊員附加65%護盾(4秒)。\n覺醒：此效果每次觸發需間隔至少6秒。\n覺醒：對全體隊員賦予水屬性抗性提升5%。',
+      },
+      {
+        title: '奧義技：乳牛降臨・巨擠炮',
+        before:
+          '進入覺醒狀態，對自身賦予命中提升10%(24秒)。\n對全體目標造成五段143%物理分攤傷害。\n命中時，對目標額外造成20%物理傷害。\n最後一擊命中時，低機率使其陷入石化S狀態(2秒)。\n最後一擊命中時，對其施加攻擊速度降低15%(12秒)。',
+        after:
+          '進入覺醒狀態，對自身賦予命中提升10%(24秒)。\n對全體目標造成五段143%物理分攤傷害。\n命中時，對目標額外造成20%物理傷害。\n最後一擊命中時，低機率使其陷入石化S狀態(3秒)。\n最後一擊命中時，對其施加攻擊速度降低15%(12秒)。',
+        note: '石化S 持續時間由 2 秒延長為 3 秒。',
+      },
+      {
+        title: '被動 2：什麼都做得到',
+        before:
+          '對自身賦予土屬性攻擊提升9.5%。\n覺醒：對全體隊員賦予土屬性攻擊提升9.5%。\n覺醒：PVP系統中，對自身賦予EN值獲取提升28%。',
+        after:
+          '對自身賦予土屬性攻擊提升9.5%。\n覺醒：對全體隊員賦予土屬性攻擊提升9.5%。\n覺醒：PVP系統中，對自身賦予水屬性抗性提升7%。',
+      },
+    ],
+  },
+  danxin: {
+    date: '2026年10月13日',
+    patchLabel: '10 月 13 日更新公告',
+    patchHref: `${base}updates/2026-10-13-black-gold-hunter-rerun/`,
+    intro:
+      '丹芯於 2026 年 10 月 13 日的資料表中被重新分派：戰鬥位置代碼從突擊欄位移至防護欄位（遊戲內與本頁顯示的職業隨之變更），且「纏絲卸力」的覺醒版本新增 PVP 附加效果。',
+    items: [
+      {
+        title: '職業',
+        before: '突擊',
+        after: '防護',
+      },
+      {
+        title: '被動 2：纏絲卸力',
+        before:
+          '對自身賦予受到能量傷害降低10%。\n覺醒：對全體隊員賦予受到能量傷害降低10%。',
+        after:
+          '對自身賦予受到能量傷害降低10%。\n覺醒：對全體隊員賦予受到能量傷害降低10%。\n覺醒：PVP系統中，對自身賦予受治療效果提升13%。',
+      },
+    ],
+  },
 };
 const reworkZh = REWORK_ZH[slug] || null;
 
@@ -73,7 +212,7 @@ const bySlugZh = Object.fromEntries(gsaCharactersZh.map(x => [x.slug, x]));
 const partners = new Set();
 if (pursuit.role !== 'none') {
   for (const [s2, r2] of Object.entries(GSA_PURSUIT_ROLES)) {
-    if (s2 === slug || !bySlugZh[s2]) continue;
+    if (s2 === slug) continue;
     const feedsMe =
       (pursuit.role === 'trigger' || pursuit.role === 'both') &&
       r2.applies.some(a => pursuit.triggers.some(t => t.element === a.element));
@@ -83,17 +222,6 @@ if (pursuit.role !== 'none') {
     if (feedsMe || iFeed) partners.add(s2);
   }
 }
-// 同名角色的其他可玩版本：nameEn 相同、不同單位（稀有度與技能組合獨立）。
-const versionsZh = gsaCharactersZh
-  .filter(x => x.slug !== slug && x.nameEn && x.nameEn === c.nameEn)
-  .map(x => ({ ...x, rarity: GSA_TIER_PLACEMENTS[x.slug]?.rarity }));
-// 版本卡顯示全名（貝兒（迷糊乳牛）），避免兩個「貝兒」分不清。
-const zhNameCount = {};
-for (const x of gsaCharactersZh) zhNameCount[x.name] = (zhNameCount[x.name] || 0) + 1;
-const fullZhName = x => (x && x.title && (zhNameCount[x.name] || 0) > 1 ? `${x.name}（${x.title}）` : x.name);
-
-// 頁面標題與麵包屑使用全名（兩個貝兒分得清楚）。
-const displayName = fullZhName(c);
 // 官方 EN 數值說明 -> 官方繁中說明（反查），找不到就不顯示小字。
 const zhDesc = enLabel => {
   const en = gsaPropertyTypes[enLabel];
@@ -157,10 +285,10 @@ const growth = c.growth || { rate: 1, hp: [0, 0, 0, 0, 0, 0], atk: [0, 0, 0, 0, 
 ---
 
 <GsaZhLayout
-  title={displayName}
-  description={`${displayName}（${c.nameEn}）黑色基因角色頁：檔案、基礎素質、技能。`}
-  gameTitle={displayName}
-  breadcrumbItems={[{ name: GSA_ZH.gameName, href: base }, { name: '角色資料庫', href: `${base}characters/` }, { name: displayName }]}
+  title={c.name}
+  description={`${c.name}（${c.nameEn}）黑色基因角色頁：檔案、基礎素質、技能${c.title ? `、${c.title}` : ''}。`}
+  gameTitle={c.name}
+  breadcrumbItems={[{ name: GSA_ZH.gameName, href: base }, { name: '角色資料庫', href: `${base}characters/` }, { name: c.name }]}
   seoKeywords={[c.name, c.nameEn]}
 >
   <div class="gsa-content-section">
@@ -171,7 +299,7 @@ const growth = c.growth || { rate: 1, hp: [0, 0, 0, 0, 0, 0], atk: [0, 0, 0, 0, 
         <div class="gsa-detail-art-monogram">{c.name?.[0]}</div>
       )}
       <div class="gsa-detail-info">
-        <h1>{displayName}</h1>
+        <h1>{c.name}</h1>
         <p class="gsa-detail-name-zh">{c.nameEn}</p>
         {c.title && <p class="gsa-detail-title">{c.title}</p>}
         {c.epithet && <p class="gsa-detail-epithet">{c.epithet}</p>}
@@ -240,41 +368,6 @@ const growth = c.growth || { rate: 1, hp: [0, 0, 0, 0, 0, 0], atk: [0, 0, 0, 0, 
         </div>
       )}
     </div>
-
-    {versionsZh.length > 0 && (
-      <div class="gsa-detail-section gsa-versions">
-        <h2>其他版本</h2>
-        <p class="gsa-section-note">
-          此角色有不只一個可遊玩版本，各版本為獨立角色，稀有度與技能組合不同。
-        </p>
-        <div class="gsa-version-cards">
-          {versionsZh.map(v => (
-            <a class="gsa-version-card" href={`${base}characters/${v.slug}/`}>
-              {v.icon ? (
-                <img class="gsa-version-icon" src={v.icon} alt={fullZhName(v)} width="72" height="72" loading="lazy" />
-              ) : (
-                <span class="gsa-version-icon gsa-version-monogram">{v.name?.[0]}</span>
-              )}
-              <span class="gsa-version-info">
-                <span class="gsa-version-name">{fullZhName(v)}</span>
-                <span class="gsa-version-meta">
-                  {v.rarity && gsaRarityBadge(v.rarity) && (
-                    <img class="gsa-version-rarity" src={gsaRarityBadge(v.rarity)} alt={v.rarity} width="38" height="24" loading="lazy" />
-                  )}
-                  {v.element && (
-                    <span class="gsa-chip gsa-chip-elem">
-                      <img src={v.element.icon} alt={v.element.name} width="16" height="16" loading="lazy" />
-                      {v.element.name}
-                    </span>
-                  )}
-                  {v.job && <span class="gsa-chip gsa-chip-type">{v.job.name}</span>}
-                </span>
-              </span>
-            </a>
-          ))}
-        </div>
-      </div>
-    )}
 
     {
       (profile.birthday || profile.age || profile.height || profile.interest || resumeParas.length) ? (
@@ -510,7 +603,7 @@ const growth = c.growth || { rate: 1, hp: [0, 0, 0, 0, 0, 0], atk: [0, 0, 0, 0, 
                     {s.icon ? (
                       <img src={s.icon} alt="" class="gsa-skill-icon" width="52" height="52" loading="lazy" />
                     ) : (
-                      <span class="gsa-skill-icon gsa-skill-icon-ph" aria-hidden="true">{s.name?.[0]}</span>
+                      <span class="gsa-skill-icon gsa-skill-icon-ph" aria-hidden="true"></span>
                     )}
                     {s.slot === '奧義技' && <span class="gsa-skill-ex">EX</span>}
                   </div>
