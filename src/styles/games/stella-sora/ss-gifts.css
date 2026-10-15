@@ -17,7 +17,7 @@
 }
 
 .gift-points-info h2 {
-  font-size: 1.25rem;
+  font-size: var(--text-xl);
   font-weight: var(--ss-font-bold);
   color: var(--ss-text-primary);
   margin-bottom: var(--ss-spacing-md);
@@ -40,13 +40,13 @@
   background: var(--ss-bg-tertiary);
   color: var(--ss-text-primary);
   font-weight: var(--ss-font-semibold);
-  font-size: 0.875rem;
+  font-size: var(--text-md);
 }
 
 .points-table td {
   background: var(--ss-bg-secondary);
   color: var(--ss-text-secondary);
-  font-size: 0.875rem;
+  font-size: var(--text-md);
 }
 
 .points-table .rarity-col {
@@ -78,7 +78,7 @@
 }
 
 .gift-crafting-info h2 {
-  font-size: 1.25rem;
+  font-size: var(--text-xl);
   font-weight: var(--ss-font-bold);
   color: var(--ss-text-primary);
   margin-bottom: var(--ss-spacing-md);
@@ -133,13 +133,13 @@
 }
 
 .crafting-material-name {
-  font-size: 1.125rem;
+  font-size: var(--text-lg);
   font-weight: var(--ss-font-bold);
   color: var(--ss-text-primary);
 }
 
 .crafting-material-desc {
-  font-size: 0.875rem;
+  font-size: var(--text-md);
   color: var(--ss-text-muted);
 }
 
@@ -168,7 +168,7 @@
 }
 
 .recipe-quantity {
-  font-size: 1.125rem;
+  font-size: var(--text-lg);
   font-weight: var(--ss-font-bold);
   color: var(--ss-text-primary);
 }
@@ -199,14 +199,14 @@
 }
 
 .recipe-arrow {
-  font-size: 1.5rem;
+  font-size: var(--text-2xl);
   color: var(--ss-primary);
   font-weight: var(--ss-font-bold);
   padding: 0 var(--ss-spacing-sm);
 }
 
 .recipe-result {
-  font-size: 1rem;
+  font-size: var(--text-base);
   font-weight: var(--ss-font-semibold);
   padding: 6px 12px;
   border-radius: var(--ss-radius-sm);
@@ -229,7 +229,7 @@
 }
 
 .crafting-note {
-  font-size: 0.875rem;
+  font-size: var(--text-md);
   color: var(--ss-text-muted);
   font-style: italic;
   margin: 0;
@@ -255,7 +255,7 @@
 }
 
 .gift-category-header h2 {
-  font-size: 1.5rem;
+  font-size: var(--text-2xl);
   font-weight: var(--ss-font-bold);
   color: var(--ss-text-primary);
   margin: 0;
@@ -266,7 +266,7 @@
   color: var(--ss-primary);
   padding: 4px 12px;
   border-radius: var(--ss-radius-full);
-  font-size: 0.875rem;
+  font-size: var(--text-md);
   font-weight: var(--ss-font-medium);
 }
 
@@ -334,7 +334,7 @@
 }
 
 .gift-card-name {
-  font-size: 1.125rem;
+  font-size: var(--text-lg);
   font-weight: var(--ss-font-bold);
   color: var(--ss-text-primary);
   line-height: 1.3;
@@ -343,7 +343,7 @@
 }
 
 .gift-card-category {
-  font-size: 0.75rem;
+  font-size: var(--text-xs);
   color: var(--ss-text-muted);
   text-transform: uppercase;
   letter-spacing: 0.5px;
@@ -353,7 +353,7 @@
 /* Gift Rarity Text */
 .gift-rarity-text {
   display: block;
-  font-size: 0.75rem;
+  font-size: var(--text-xs);
   font-weight: var(--ss-font-semibold);
   margin-bottom: var(--ss-spacing-sm);
 }
@@ -379,7 +379,7 @@
 }
 
 .gift-points-title {
-  font-size: 0.75rem;
+  font-size: var(--text-xs);
   font-weight: var(--ss-font-semibold);
   color: var(--ss-text-muted);
   text-transform: uppercase;
@@ -402,7 +402,7 @@
 
 .gift-point-label {
   display: block;
-  font-size: 0.625rem;
+  font-size: var(--text-3xs);
   font-weight: var(--ss-font-medium);
   text-transform: uppercase;
   margin-bottom: 2px;
@@ -410,7 +410,7 @@
 
 .gift-point-value {
   display: block;
-  font-size: 1rem;
+  font-size: var(--text-base);
   font-weight: var(--ss-font-bold);
 }
 
@@ -440,7 +440,7 @@
 
 /* Bonus/Penalty indicators */
 .gift-point-bonus {
-  font-size: 0.625rem;
+  font-size: var(--text-3xs);
   font-weight: var(--ss-font-medium);
   margin-left: 2px;
 }
@@ -478,7 +478,7 @@
   .points-table th,
   .points-table td {
     padding: var(--ss-spacing-xs) var(--ss-spacing-sm);
-    font-size: 0.75rem;
+    font-size: var(--text-xs);
   }
 
   .gifts-grid {
@@ -491,7 +491,7 @@
   }
 
   .gift-category-header h2 {
-    font-size: 1.25rem;
+    font-size: var(--text-xl);
   }
 
   .gift-card-header {
@@ -509,7 +509,7 @@
   }
 
   .gift-card-name {
-    font-size: 1rem;
+    font-size: var(--text-base);
   }
 
   .gift-points-values {
@@ -517,7 +517,7 @@
   }
 
   .gift-point-value {
-    font-size: 0.875rem;
+    font-size: var(--text-md);
   }
 }
 
@@ -553,20 +553,20 @@
   }
 
   .recipe-quantity {
-    font-size: 1rem;
+    font-size: var(--text-base);
   }
 
   .recipe-arrow {
-    font-size: 1.25rem;
+    font-size: var(--text-xl);
   }
 
   .recipe-result {
-    font-size: 0.875rem;
+    font-size: var(--text-md);
     padding: 4px 8px;
   }
 
   .points-table {
-    font-size: 0.625rem;
+    font-size: var(--text-3xs);
   }
 
   .points-table th,
@@ -589,7 +589,7 @@
   }
 
   .gift-card-name {
-    font-size: 0.9rem;
+    font-size: var(--text-md);
   }
 
   .gift-point-item {
@@ -597,10 +597,10 @@
   }
 
   .gift-point-label {
-    font-size: 0.5rem;
+    font-size: var(--text-3xs);
   }
 
   .gift-point-value {
-    font-size: 0.75rem;
+    font-size: var(--text-xs);
   }
 }

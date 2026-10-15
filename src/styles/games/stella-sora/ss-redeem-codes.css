@@ -42,7 +42,7 @@
 
 /* Warning Content Styles - Clean and readable */
 .important-notice {
-  font-size: 1rem;
+  font-size: var(--text-base);
   color: var(--ss-text-primary);
   font-weight: 500;
   margin: 0 0 1rem 0;
@@ -56,7 +56,7 @@
 .header-section h3 {
   color: var(--ss-text-primary);
   margin-bottom: 0.75rem;
-  font-size: 1.1rem;
+  font-size: var(--text-lg);
   font-weight: 600;
 }
 
@@ -72,7 +72,7 @@
 
 .last-updated {
   color: var(--ss-text-tertiary);
-  font-size: 0.85rem;
+  font-size: var(--text-md);
   margin-top: 1.5rem;
   padding-top: 1rem;
   border-top: 1px solid var(--ss-border);
@@ -81,7 +81,7 @@
 }
 
 .redeem-codes-description {
-  font-size: 1.1rem;
+  font-size: var(--text-lg);
   color: var(--ss-text-secondary);
   line-height: 1.6;
   max-width: 60rem;
@@ -101,7 +101,7 @@
 .redeem-codes-warning h3 {
   color: var(--ss-text-primary);
   margin-bottom: 0.5rem;
-  font-size: 1.1rem;
+  font-size: var(--text-lg);
   font-weight: 600;
 }
 
@@ -109,19 +109,19 @@
   color: var(--ss-text-secondary);
   line-height: 1.5;
   margin: 0;
-  font-size: 1rem;
+  font-size: var(--text-base);
 }
 
 .last-updated {
   color: var(--ss-text-tertiary);
-  font-size: 0.9rem;
+  font-size: var(--text-md);
   margin-top: 1rem;
   font-style: italic;
 }
 
 /* Section Styling */
 .section-title {
-  font-size: 1.8rem;
+  font-size: var(--text-3xl);
   font-weight: 600;
   color: var(--ss-text-primary);
   margin: 0 0 1.5rem 0;
@@ -132,7 +132,7 @@
   text-align: center;
   color: var(--ss-text-secondary);
   margin-bottom: 2rem;
-  font-size: 1.1rem;
+  font-size: var(--text-lg);
   line-height: 1.6;
 }
 
@@ -178,7 +178,7 @@
 }
 
 .code-label {
-  font-size: 0.8rem;
+  font-size: var(--text-sm);
   color: var(--ss-text-tertiary);
   text-transform: uppercase;
   letter-spacing: 0.05em;
@@ -187,7 +187,7 @@
 
 .code-value-display {
   font-family: var(--font-mono);
-  font-size: 1.4rem;
+  font-size: var(--text-2xl);
   font-weight: 600;
   color: var(--ss-text-primary);
   letter-spacing: 0.05em;
@@ -204,7 +204,7 @@
 .code-status {
   padding: 0.25rem 0.75rem;
   border-radius: 20px;
-  font-size: 0.8rem;
+  font-size: var(--text-sm);
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.05em;
@@ -224,7 +224,7 @@
 
 .code-date {
   color: var(--ss-text-muted);
-  font-size: 0.8rem;
+  font-size: var(--text-sm);
 }
 
 .code-action {
@@ -240,7 +240,7 @@
   border-radius: 8px;
   font-weight: 600;
   cursor: pointer;
-  font-size: 0.9rem;
+  font-size: var(--text-md);
   display: flex;
   align-items: center;
   gap: 0.5rem;
@@ -271,7 +271,7 @@
 .instructions-section h3 {
   color: var(--ss-text-primary);
   margin-bottom: 1.5rem;
-  font-size: 1.4rem;
+  font-size: var(--text-2xl);
   font-weight: 600;
   text-align: center;
 }
@@ -307,7 +307,7 @@
 
 .instruction-step h4 {
   color: var(--ss-primary);
-  font-size: 1.2rem;
+  font-size: var(--text-xl);
   margin-bottom: 0.5rem;
   font-weight: 600;
 }
@@ -330,7 +330,7 @@
 
 .empty-message {
   color: var(--ss-text-secondary);
-  font-size: 1.1rem;
+  font-size: var(--text-lg);
   margin: 0;
   font-style: italic;
 }
@@ -355,7 +355,7 @@
 }
 
 .redeem-code-text {
-  font-size: 1.2rem;
+  font-size: var(--text-xl);
   font-weight: 600;
   color: var(--ss-text-muted);
   text-decoration: line-through;
@@ -368,13 +368,13 @@
   padding: 0.25rem 0.75rem;
   border-radius: 20px;
   font-weight: 600;
-  font-size: 0.8rem;
+  font-size: var(--text-sm);
   text-transform: uppercase;
 }
 
 .code-expiry {
   color: var(--ss-text-muted);
-  font-size: 0.9rem;
+  font-size: var(--text-md);
   margin: 0;
 }
 
@@ -454,7 +454,7 @@
   }
 
   .code-value-display {
-    font-size: 1.2rem;
+    font-size: var(--text-xl);
   }
 
   .copy-button {
@@ -473,7 +473,7 @@
   }
 
   .instruction-step h4 {
-    font-size: 1.1rem;
+    font-size: var(--text-lg);
   }
 
   .step-content {
@@ -501,11 +501,11 @@
 
 @media (max-width: 480px) {
   .section-title {
-    font-size: 1.4rem;
+    font-size: var(--text-2xl);
   }
 
   .code-value-display {
-    font-size: 1.1rem;
+    font-size: var(--text-lg);
   }
 
   .header-section {
@@ -526,15 +526,15 @@
   }
 
   .important-notice {
-    font-size: 1rem;
+    font-size: var(--text-base);
   }
 
   .header-section h3 {
-    font-size: 1rem;
+    font-size: var(--text-base);
   }
 
   .community-button {
     padding: 0.6rem 1rem;
-    font-size: 0.9rem;
+    font-size: var(--text-md);
   }
 }

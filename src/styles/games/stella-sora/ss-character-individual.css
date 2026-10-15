@@ -95,13 +95,13 @@
 .character-gallery-section .section-title,
 .character-skins-section .section-title {
   margin: 0 0 0.25rem 0;
-  font-size: 1.5rem;
+  font-size: var(--text-2xl);
   color: var(--ss-text-primary);
 }
 
 .gallery-explanation {
   margin: 0 0 1rem 0;
-  font-size: 0.875rem;
+  font-size: var(--text-md);
   color: var(--ss-text-secondary);
 }
 
@@ -132,7 +132,7 @@
 
 .gallery-caption {
   padding: 0.5rem 0.75rem;
-  font-size: 0.8rem;
+  font-size: var(--text-sm);
   color: var(--ss-text-secondary);
   border-top: 1px solid var(--ss-border);
 }
@@ -148,7 +148,7 @@
 
 .character-pv-section .section-title {
   margin: 0;
-  font-size: 1.5rem;
+  font-size: var(--text-2xl);
   color: var(--ss-text-primary);
 }
 
@@ -161,7 +161,7 @@
 
 .pv-badge {
   padding: 0.25rem 0.7rem;
-  font-size: 0.72rem;
+  font-size: var(--text-xs);
   font-weight: 700;
   border-radius: 5px;
   background: var(--ss-primary-dark);
@@ -195,7 +195,7 @@
 
 .pv-duration {
   padding: 0.18rem 0.6rem;
-  font-size: 0.78rem;
+  font-size: var(--text-xs);
   font-weight: 700;
   border-radius: 5px;
   background: var(--ss-primary-dark);
@@ -203,13 +203,13 @@
 }
 
 .pv-caption {
-  font-size: 0.85rem;
+  font-size: var(--text-md);
   color: var(--ss-text-secondary);
 }
 
 .pv-source {
   margin-left: auto;
-  font-size: 0.8rem;
+  font-size: var(--text-sm);
   color: var(--ss-primary);
   text-decoration: none;
 }
@@ -261,7 +261,7 @@
   top: 8px;
   left: 8px;
   padding: 0.2rem 0.5rem;
-  font-size: 0.7rem;
+  font-size: var(--text-2xs);
   font-weight: 700;
   border-radius: 5px;
   background: rgba(0, 0, 0, 0.7);
@@ -302,14 +302,14 @@
 
 .skin-name {
   margin: 0.5rem 0.75rem 0.25rem 0.75rem;
-  font-size: 0.9rem;
+  font-size: var(--text-md);
   font-weight: 600;
   color: var(--ss-text-primary);
 }
 
 .skin-desc {
   margin: 0 0.75rem 0.75rem 0.75rem;
-  font-size: 0.78rem;
+  font-size: var(--text-xs);
   line-height: 1.4;
   color: var(--ss-text-secondary);
 }
@@ -336,7 +336,7 @@
 
 .character-details h1 {
   margin: 0 0 1rem 0;
-  font-size: 2.5rem;
+  font-size: var(--text-5xl);
   color: var(--ss-text-primary);
   font-weight: 700;
   text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
@@ -382,7 +382,7 @@
 .character-personal-info h3 {
   margin: 0 0 1rem 0;
   color: var(--ss-text-primary);
-  font-size: 1rem;
+  font-size: var(--text-base);
 }
 
 .personal-info-grid {
@@ -398,20 +398,20 @@
 }
 
 .personal-info-grid .info-label {
-  font-size: 0.75rem;
+  font-size: var(--text-xs);
   color: var(--ss-text-muted);
   text-transform: uppercase;
   letter-spacing: 0.05em;
 }
 
 .personal-info-grid .info-value {
-  font-size: 0.9rem;
+  font-size: var(--text-md);
   color: var(--ss-text-primary);
 }
 
 .personal-info-grid .localized-name {
   color: var(--ss-text-secondary);
-  font-size: 0.85rem;
+  font-size: var(--text-md);
 }
 
 /* Character Stats Section - Clean Table Layout */
@@ -424,7 +424,7 @@
 
 .character-stats-container h2 {
   margin: 0 0 1.5rem 0;
-  font-size: 1.3rem;
+  font-size: var(--text-xl);
   color: var(--ss-primary);
   text-align: center;
   font-weight: 600;
@@ -435,7 +435,7 @@
 
 .character-stats-container .stats-section-title {
   margin: 0 0 1rem 0;
-  font-size: 1rem;
+  font-size: var(--text-base);
   color: var(--ss-primary);
   font-weight: 600;
   text-align: left;
@@ -485,13 +485,13 @@
 .stats-level-selector label,
 .stats-ascension-selector label {
   color: var(--ss-text-secondary);
-  font-size: 0.9rem;
+  font-size: var(--text-md);
 }
 
 .stats-selectors-row .level-input {
   width: 70px;
   padding: 0.5rem 0.75rem;
-  font-size: 0.95rem;
+  font-size: var(--text-body);
   font-family: inherit;
   background: var(--ss-bg-tertiary);
   border: 1px solid var(--ss-border);
@@ -518,7 +518,7 @@
 
 .stats-selectors-row .level-select {
   padding: 0.5rem 0.75rem;
-  font-size: 0.9rem;
+  font-size: var(--text-md);
   font-family: inherit;
   background: var(--ss-bg-tertiary);
   border: 1px solid var(--ss-border);
@@ -538,7 +538,7 @@
   display: flex;
   align-items: center;
   gap: 0.75rem;
-  font-size: 0.85rem;
+  font-size: var(--text-md);
   color: var(--ss-text-secondary);
 }
 
@@ -599,7 +599,7 @@
 .stat-item-label {
   font-weight: 500;
   color: var(--ss-text-secondary);
-  font-size: 0.9rem;
+  font-size: var(--text-md);
   flex-shrink: 0;
   min-width: 180px;
 }
@@ -608,20 +608,20 @@
   font-weight: 600;
   color: var(--ss-text-primary);
   font-family: var(--font-primary), -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
-  font-size: 0.9rem;
+  font-size: var(--text-md);
   text-align: right;
   flex-shrink: 0;
   min-width: 80px;
 }
 
 .stat-item-value.large {
-  font-size: 1rem;
+  font-size: var(--text-base);
   color: var(--ss-text-primary);
 }
 
 /* Stat Description */
 .stat-item-description {
-  font-size: 0.75rem;
+  font-size: var(--text-xs);
   color: var(--ss-text-tertiary);
   font-style: italic;
   margin-top: 0.25rem;
@@ -643,27 +643,27 @@
 }
 
 .stat-card .stat-name {
-  font-size: 0.9rem;
+  font-size: var(--text-md);
   color: var(--ss-text-secondary);
   font-weight: 600;
   margin-bottom: 0.5rem;
 }
 
 .stat-card .stat-value {
-  font-size: 1.2rem;
+  font-size: var(--text-xl);
   font-weight: 700;
   color: var(--ss-primary);
   line-height: 1.3;
 }
 
 .stat-card .stat-value.large {
-  font-size: 1.5rem;
+  font-size: var(--text-2xl);
   font-weight: 800;
   color: var(--ss-primary);
 }
 
 .stat-card .stat-desc {
-  font-size: 0.75rem;
+  font-size: var(--text-xs);
   color: var(--ss-text-secondary);
   line-height: 1.4;
   font-style: italic;
@@ -729,14 +729,14 @@
 
 .skill-level-selector label {
   color: var(--ss-text-secondary);
-  font-size: 0.9rem;
+  font-size: var(--text-md);
   font-weight: 500;
 }
 
 .skill-level-selector .level-select,
 .skill-level-selector .level-input {
   padding: 0.5rem 0.75rem;
-  font-size: 0.9rem;
+  font-size: var(--text-md);
   font-family: inherit;
   background: var(--ss-bg-dark);
   border: 1px solid var(--ss-border);
@@ -785,7 +785,7 @@
   background: var(--ss-bg-dark);
   border: 1px solid var(--ss-border);
   color: var(--ss-text-primary);
-  font-size: 1.1rem;
+  font-size: var(--text-lg);
   font-weight: 600;
   cursor: pointer;
   transition: all 0.15s ease;
@@ -918,7 +918,7 @@
   justify-content: center;
   background: var(--ss-bg-dark, rgba(0, 0, 0, 0.3));
   color: var(--ss-text-muted, #666);
-  font-size: 0.7rem;
+  font-size: var(--text-2xs);
 }
 
 /* Removed horizontal dividers between skills - they were causing visual issues */
@@ -1247,19 +1247,19 @@
 
 .shard-total-label {
   color: var(--ss-text-secondary);
-  font-size: 0.95rem;
+  font-size: var(--text-body);
   font-weight: 500;
 }
 
 .shard-total-value {
   color: var(--ss-text-primary);
-  font-size: 1.2rem;
+  font-size: var(--text-xl);
   font-weight: 700;
 }
 
 .shard-dupe-info {
   color: var(--ss-text-muted);
-  font-size: 0.9rem;
+  font-size: var(--text-md);
   font-weight: 500;
 }
 
@@ -1302,7 +1302,7 @@
 
 .talent-card .talent-number {
   display: block;
-  font-size: 0.7rem;
+  font-size: var(--text-2xs);
   color: var(--ss-text-muted);
   text-transform: uppercase;
   letter-spacing: 0.05em;
@@ -1316,7 +1316,7 @@
 
 .talent-card .talent-name {
   margin: 0;
-  font-size: 1.5rem;
+  font-size: var(--text-2xl);
   color: #fff;
   font-weight: 700;
   line-height: 1.1;
@@ -1334,13 +1334,13 @@
 
 .talent-shard .shard-cost {
   color: var(--ss-text-primary);
-  font-size: 1.1rem;
+  font-size: var(--text-lg);
   font-weight: 700;
 }
 
 .talent-shard .shard-dupe-cost {
   color: var(--ss-text-muted);
-  font-size: 0.75rem;
+  font-size: var(--text-xs);
   font-weight: 500;
 }
 
@@ -1353,7 +1353,7 @@
 }
 
 .talent-main-effect h4 {
-  font-size: 0.9rem;
+  font-size: var(--text-md);
   color: var(--ss-primary);
   margin: 0 0 0.5rem 0;
   text-transform: uppercase;
@@ -1365,13 +1365,13 @@
   margin: 0;
   color: var(--ss-text-primary);
   line-height: 1.6;
-  font-size: 0.95rem;
+  font-size: var(--text-body);
 }
 
 .talent-effect-text strong {
   color: var(--ss-text-primary);
   font-weight: 700;
-  font-size: 1rem;
+  font-size: var(--text-base);
 }
 
 .talent-stat-summary {
@@ -1382,7 +1382,7 @@
 }
 
 .talent-stat-summary h4 {
-  font-size: 0.9rem;
+  font-size: var(--text-md);
   color: var(--ss-primary);
   margin: 0 0 0.75rem 0;
   text-transform: uppercase;
@@ -1403,7 +1403,7 @@
   padding: 0.5rem 0.75rem;
   background: var(--ss-bg-tertiary);
   border-radius: 6px;
-  font-size: 0.9rem;
+  font-size: var(--text-md);
   border: 1px solid var(--ss-border);
 }
 
@@ -1420,13 +1420,13 @@
 .stat-summary-item .flat-value {
   color: var(--ss-primary);
   font-weight: 700;
-  font-size: 0.95rem;
+  font-size: var(--text-body);
 }
 
 .stat-summary-item .percent-value {
   color: var(--ss-text-primary);
   font-weight: 700;
-  font-size: 0.95rem;
+  font-size: var(--text-body);
 }
 
 /* Collapsible talent details */
@@ -1440,7 +1440,7 @@
   cursor: pointer;
   padding: 0.5rem 0.75rem;
   color: var(--ss-text-secondary);
-  font-size: 0.85rem;
+  font-size: var(--text-md);
   user-select: none;
   display: flex;
   align-items: center;
@@ -1476,13 +1476,13 @@
   padding: 0.5rem 0.75rem;
   background: var(--ss-bg-tertiary);
   border-radius: 6px;
-  font-size: 0.85rem;
+  font-size: var(--text-md);
   border: 1px solid var(--ss-border);
 }
 
 .stat-bonus-item .bonus-level {
   color: var(--ss-primary);
-  font-size: 0.8rem;
+  font-size: var(--text-sm);
   min-width: 40px;
   font-weight: 700;
 }
@@ -1496,7 +1496,7 @@
 .stat-bonus-item .bonus-value {
   color: var(--ss-text-primary);
   font-weight: 700;
-  font-size: 0.9rem;
+  font-size: var(--text-md);
 }
 
 /* Character Potentials Section */
@@ -2374,7 +2374,7 @@
   }
 
   .talent-card .talent-name {
-    font-size: 1.25rem;
+    font-size: var(--text-xl);
   }
 
   .talents-shard-summary {
@@ -2484,7 +2484,7 @@
   }
 
   .character-details h1 {
-    font-size: 2rem;
+    font-size: var(--text-4xl);
     text-align: center;
   }
 
@@ -2502,11 +2502,11 @@
   }
 
   .character-stats-container h2 {
-    font-size: 1.4rem;
+    font-size: var(--text-2xl);
   }
 
   .character-stats-container .stats-section-title {
-    font-size: 0.95rem;
+    font-size: var(--text-body);
     margin-bottom: 0.75rem;
   }
 
@@ -2558,11 +2558,11 @@
   }
 
   .stat-item-value.large {
-    font-size: 1rem;
+    font-size: var(--text-base);
   }
 
   .stat-item-value {
-    font-size: 0.9rem;
+    font-size: var(--text-md);
   }
 
   .character-skills {
@@ -2570,7 +2570,7 @@
   }
 
   .character-skills h2 {
-    font-size: 1.8rem;
+    font-size: var(--text-3xl);
     color: var(--ss-text-primary);
     text-align: left;
     font-weight: 300;
@@ -2598,7 +2598,7 @@
   }
 
   .skill-name {
-    font-size: 1.3rem;
+    font-size: var(--text-xl);
   }
 
   /* Skill type styles moved to ss-badge-colours.css */
@@ -2608,7 +2608,7 @@
   }
 
   .skill-description {
-    font-size: 0.95rem;
+    font-size: var(--text-body);
     line-height: 1.6;
   }
 
@@ -2692,7 +2692,7 @@
   }
 
   .character-details h1 {
-    font-size: 1.8rem;
+    font-size: var(--text-3xl);
   }
 
   /* Disc Section Small Mobile */
@@ -2795,7 +2795,7 @@
   }
 
   .talent-card .talent-name {
-    font-size: 1.1rem;
+    font-size: var(--text-lg);
   }
 
   .talent-shard {
@@ -2803,11 +2803,11 @@
   }
 
   .talent-shard .shard-cost {
-    font-size: 0.95rem;
+    font-size: var(--text-body);
   }
 
   .talent-shard .shard-dupe-cost {
-    font-size: 0.65rem;
+    font-size: var(--text-3xs);
   }
 
   .talents-shard-summary {
@@ -2816,30 +2816,30 @@
   }
 
   .shard-total-value {
-    font-size: 1rem;
+    font-size: var(--text-base);
   }
 
   .stat-summary-item {
     padding: 0.4rem 0.6rem;
-    font-size: 0.8rem;
+    font-size: var(--text-sm);
   }
 
   .stat-bonus-item {
     padding: 0.4rem 0.6rem;
-    font-size: 0.75rem;
+    font-size: var(--text-xs);
   }
 
   .talent-main-effect h4,
   .talent-stat-summary h4 {
-    font-size: 0.8rem;
+    font-size: var(--text-sm);
   }
 
   .talent-effect-text {
-    font-size: 0.85rem;
+    font-size: var(--text-md);
   }
 
   .talent-details summary {
-    font-size: 0.75rem;
+    font-size: var(--text-xs);
     padding: 0.4rem 0.6rem;
   }
 
@@ -2921,27 +2921,27 @@
   }
 
   .character-stats-container h2 {
-    font-size: 1.3rem;
+    font-size: var(--text-xl);
   }
 
   .character-stats-container .stats-section-title {
-    font-size: 0.9rem;
+    font-size: var(--text-md);
   }
 
   .stat-item-value.large {
-    font-size: 0.95rem;
+    font-size: var(--text-body);
   }
 
   .stat-item-value {
-    font-size: 0.85rem;
+    font-size: var(--text-md);
   }
 
   .stat-item-label {
-    font-size: 0.8rem;
+    font-size: var(--text-sm);
   }
 
   .stat-item-description {
-    font-size: 0.7rem;
+    font-size: var(--text-2xs);
   }
 
   .character-skills {
@@ -2949,7 +2949,7 @@
   }
 
   .character-skills h2 {
-    font-size: 1.4rem;
+    font-size: var(--text-2xl);
   }
 
   /* Skill Card Top - Stack vertically on small mobile */
@@ -2967,7 +2967,7 @@
   }
 
   .skill-name {
-    font-size: 1.1rem;
+    font-size: var(--text-lg);
   }
 
   .skill-meta {
@@ -2977,7 +2977,7 @@
   /* Skill type styles moved to ss-badge-colours.css */
 
   .skill-info {
-    font-size: 0.9rem;
+    font-size: var(--text-md);
     line-height: 1.5;
   }
 
@@ -2993,7 +2993,7 @@
 
   .damage-strikes strong {
     min-width: 60px;
-    font-size: 0.8rem;
+    font-size: var(--text-sm);
   }
 
   .damage-strikes ul {
@@ -3038,7 +3038,7 @@
   }
 
   .summary-section h3 {
-    font-size: 0.9rem;
+    font-size: var(--text-md);
     margin-bottom: 0.5rem;
     text-align: center;
   }
@@ -3063,13 +3063,13 @@
   }
 
   .stat-label {
-    font-size: 0.7rem;
+    font-size: var(--text-2xs);
     line-height: 1.2;
     text-align: left;
   }
 
   .stat-value {
-    font-size: 0.75rem;
+    font-size: var(--text-xs);
     line-height: 1.2;
     font-weight: var(--font-semibold);
     text-align: left;
@@ -3118,7 +3118,7 @@
   background: transparent;
   border: none;
   color: var(--ss-text-muted);
-  font-size: 1rem;
+  font-size: var(--text-base);
   font-weight: 600;
   cursor: pointer;
   transition: all 0.2s ease;
@@ -3177,14 +3177,14 @@
 }
 
 .character-potentials-section .build-header .build-title {
-  font-size: 1rem;
+  font-size: var(--text-base);
   font-weight: 700;
   color: var(--ss-text-primary);
   margin: 0;
 }
 
 .character-potentials-section .build-header .build-description {
-  font-size: 0.8125rem;
+  font-size: var(--text-sm);
   color: var(--ss-text-secondary);
   margin: 0;
 }
@@ -3245,7 +3245,7 @@
   left: 6px;
   background: rgba(0, 0, 0, 0.7);
   color: white;
-  font-size: 0.75rem;
+  font-size: var(--text-xs);
   font-weight: 700;
   padding: 3px 8px;
   border-radius: 4px;
@@ -3254,7 +3254,7 @@
 
 /* Card Name */
 .character-potentials-section .card-name {
-  font-size: 0.8rem;
+  font-size: var(--text-sm);
   color: var(--ss-text-primary);
   text-align: center;
   font-weight: 500;
@@ -3307,14 +3307,14 @@
 }
 
 .character-potentials-section .detail-name {
-  font-size: 1.25rem;
+  font-size: var(--text-xl);
   font-weight: 700;
   color: var(--ss-text-primary);
   margin: 0 0 0.5rem 0;
 }
 
 .character-potentials-section .detail-description {
-  font-size: 0.95rem;
+  font-size: var(--text-body);
   line-height: 1.6;
   color: var(--ss-text-secondary);
 }
@@ -3354,7 +3354,7 @@
 }
 
 .character-potentials-section .level-label {
-  font-size: 0.875rem;
+  font-size: var(--text-md);
   color: var(--ss-text-muted);
   margin-right: 0.5rem;
 }
@@ -3366,7 +3366,7 @@
   border-radius: 4px;
   background: var(--ss-bg-secondary);
   color: var(--ss-text-primary);
-  font-size: 1.25rem;
+  font-size: var(--text-xl);
   cursor: pointer;
   display: flex;
   align-items: center;
@@ -3382,7 +3382,7 @@
   border-radius: 4px;
   background: var(--ss-bg-secondary);
   color: var(--ss-text-primary);
-  font-size: 1rem;
+  font-size: var(--text-base);
   text-align: center;
   -moz-appearance: textfield;
 }
@@ -3399,7 +3399,7 @@
 }
 
 .character-potentials-section .level-max {
-  font-size: 0.75rem;
+  font-size: var(--text-xs);
   color: var(--ss-text-muted);
 }
 
@@ -3443,7 +3443,7 @@
   }
 
   .stat-item {
-    font-size: 0.875rem;
+    font-size: var(--text-md);
   }
 
   /* Build Section Mobile */
@@ -3455,11 +3455,11 @@
   }
 
   .character-potentials-section .build-title {
-    font-size: 0.9rem;
+    font-size: var(--text-md);
   }
 
   .character-potentials-section .build-description {
-    font-size: 0.75rem;
+    font-size: var(--text-xs);
   }
 
   .character-potentials-section .build-cards {
@@ -3497,13 +3497,13 @@
   .character-potentials-section .level-btn {
     width: 36px;
     height: 36px;
-    font-size: 1rem;
+    font-size: var(--text-base);
   }
 
   .character-potentials-section .level-input {
     width: 45px;
     height: 36px;
-    font-size: 0.9rem;
+    font-size: var(--text-md);
   }
 }
 
@@ -3514,7 +3514,7 @@
 
   .potentials-tab {
     padding: 0.75rem 1rem;
-    font-size: 0.875rem;
+    font-size: var(--text-md);
   }
 
   .character-potentials-section .potential-card-mini {
@@ -3524,11 +3524,11 @@
   }
 
   .character-potentials-section .card-name {
-    font-size: 0.7rem;
+    font-size: var(--text-2xs);
   }
 
   .character-potentials-section .card-level {
-    font-size: 0.625rem;
+    font-size: var(--text-3xs);
     padding: 2px 6px;
   }
 
@@ -3542,21 +3542,21 @@
   }
 
   .summary-section h3 {
-    font-size: 0.9rem;
+    font-size: var(--text-md);
     margin-bottom: 0.5rem;
   }
 
   .stat-item {
-    font-size: 0.8rem;
+    font-size: var(--text-sm);
     padding: 0.25rem 0;
   }
 
   .stat-label {
-    font-size: 0.75rem;
+    font-size: var(--text-xs);
   }
 
   .stat-value {
-    font-size: 0.8rem;
+    font-size: var(--text-sm);
   }
 
   /* Build Section Small Mobile */
@@ -3566,11 +3566,11 @@
   }
 
   .character-potentials-section .build-title {
-    font-size: 0.85rem;
+    font-size: var(--text-md);
   }
 
   .character-potentials-section .build-description {
-    font-size: 0.7rem;
+    font-size: var(--text-2xs);
   }
 
   .character-potentials-section .build-cards {
@@ -3583,11 +3583,11 @@
   }
 
   .character-potentials-section .detail-name {
-    font-size: 1rem;
+    font-size: var(--text-base);
   }
 
   .character-potentials-section .detail-description {
-    font-size: 0.8rem;
+    font-size: var(--text-sm);
   }
 
   /* Level Selector Small Mobile */
@@ -3600,13 +3600,13 @@
   .character-potentials-section .level-btn {
     width: 32px;
     height: 32px;
-    font-size: 0.9rem;
+    font-size: var(--text-md);
   }
 
   .character-potentials-section .level-input {
     width: 40px;
     height: 32px;
-    font-size: 0.85rem;
+    font-size: var(--text-md);
   }
 }
 
@@ -3620,7 +3620,7 @@
 }
 
 .character-gifts h2 {
-  font-size: 1.75rem;
+  font-size: var(--text-3xl);
   font-weight: 700;
   color: var(--ss-text-primary, #ffffff);
   margin-bottom: 1.25rem;
@@ -3643,7 +3643,7 @@
 }
 
 .gifts-category-title {
-  font-size: 1.1rem;
+  font-size: var(--text-lg);
   font-weight: 600;
   margin-bottom: 1rem;
   padding-bottom: 0.5rem;
@@ -3695,7 +3695,7 @@
 }
 
 .gift-name {
-  font-size: 0.8rem;
+  font-size: var(--text-sm);
   color: var(--ss-text-secondary, #a0a0a0);
   text-align: center;
   line-height: 1.2;
@@ -3703,7 +3703,7 @@
 }
 
 .gift-rarity {
-  font-size: 0.7rem;
+  font-size: var(--text-2xs);
   font-weight: 600;
   padding: 0.15rem 0.4rem;
   border-radius: 4px;
@@ -3726,7 +3726,7 @@
 }
 
 .gift-points {
-  font-size: 0.75rem;
+  font-size: var(--text-xs);
   font-weight: 600;
 }
 
@@ -3739,7 +3739,7 @@
 }
 
 .gift-needed {
-  font-size: 0.7rem;
+  font-size: var(--text-2xs);
   color: var(--ss-text-muted, #888);
   margin-top: 0.15rem;
 }
@@ -3751,7 +3751,7 @@
   }
 
   .character-gifts h2 {
-    font-size: 1.5rem;
+    font-size: var(--text-2xl);
   }
 
   .gifts-grid {
@@ -3769,7 +3769,7 @@
   }
 
   .gift-name {
-    font-size: 0.7rem;
+    font-size: var(--text-2xs);
   }
 }
 
@@ -3819,12 +3819,12 @@
 
 .point-label {
   font-weight: 600;
-  font-size: 0.9rem;
+  font-size: var(--text-md);
   color: var(--ss-text-primary, #ffffff);
 }
 
 .point-value {
-  font-size: 0.8rem;
+  font-size: var(--text-sm);
   color: var(--ss-text-secondary, #a0a0a0);
 }
 
@@ -3836,7 +3836,7 @@
 .point-table table {
   width: 100%;
   border-collapse: collapse;
-  font-size: 0.85rem;
+  font-size: var(--text-md);
 }
 
 .point-table th,
@@ -3871,14 +3871,14 @@
 }
 
 .gifts-recommendation h4 {
-  font-size: 1.1rem;
+  font-size: var(--text-lg);
   font-weight: 600;
   color: var(--ss-primary, #9d4edd);
   margin-bottom: 0.5rem;
 }
 
 .gifts-recommendation p {
-  font-size: 0.9rem;
+  font-size: var(--text-md);
   color: var(--ss-text-secondary, #a0a0a0);
   line-height: 1.5;
   margin-bottom: 0.75rem;
@@ -3895,7 +3895,7 @@
   padding: 0.3rem 0.75rem;
   background: var(--ss-bg-dark, rgba(0, 0, 0, 0.3));
   border-radius: 4px;
-  font-size: 0.85rem;
+  font-size: var(--text-md);
   font-weight: 600;
   color: var(--ss-text-primary, #ffffff);
 }
@@ -3906,7 +3906,7 @@
 }
 
 .lv30-cost {
-  font-size: 0.85rem;
+  font-size: var(--text-md);
   color: var(--ss-text-secondary, #a0a0a0);
 }
 
@@ -3926,7 +3926,7 @@
   background: var(--ss-primary, #9d4edd);
   color: #fff;
   font-weight: 600;
-  font-size: 0.95rem;
+  font-size: var(--text-body);
   border-radius: 8px;
   text-decoration: none;
 }

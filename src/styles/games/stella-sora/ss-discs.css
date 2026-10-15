@@ -28,7 +28,7 @@
 }
 
 .disc-hero-name {
-  font-size: 2.5rem;
+  font-size: var(--text-5xl);
   font-weight: var(--ss-font-bold);
   color: var(--ss-text-primary);
   margin-bottom: var(--ss-spacing-sm);
@@ -44,7 +44,7 @@
 .disc-hero-description {
   color: var(--ss-text-secondary);
   line-height: 1.6;
-  font-size: 1.125rem;
+  font-size: var(--text-lg);
 }
 
 /* Individual Disc Page Sections */
@@ -57,7 +57,7 @@
 }
 
 .disc-section-title {
-  font-size: 1.75rem;
+  font-size: var(--text-3xl);
   font-weight: var(--ss-font-bold);
   color: var(--ss-text-primary);
   margin-bottom: var(--ss-spacing-lg);
@@ -80,7 +80,7 @@
 }
 
 .disc-stat-label {
-  font-size: 0.875rem;
+  font-size: var(--text-md);
   color: var(--ss-text-secondary);
   margin-bottom: var(--ss-spacing-xs);
   text-transform: uppercase;
@@ -88,7 +88,7 @@
 }
 
 .disc-stat-value {
-  font-size: 1.125rem;
+  font-size: var(--text-lg);
   color: var(--ss-text-primary);
   font-weight: var(--ss-font-bold);
 }
@@ -114,7 +114,7 @@
 }
 
 .disc-skill-name {
-  font-size: 1.25rem;
+  font-size: var(--text-xl);
   font-weight: var(--ss-font-bold);
   color: var(--ss-text-primary);
 }
@@ -124,7 +124,7 @@
   color: var(--ss-primary);
   padding: 6px 12px;
   border-radius: var(--ss-radius-sm);
-  font-size: 0.75rem;
+  font-size: var(--text-xs);
   font-weight: var(--ss-font-medium);
   text-transform: uppercase;
 }
@@ -132,14 +132,14 @@
 .disc-skill-effect {
   color: var(--ss-text-secondary);
   line-height: 1.6;
-  font-size: 1rem;
+  font-size: var(--text-base);
 }
 
 .disc-skill-requirements {
   margin-top: var(--ss-spacing-md);
   padding-top: var(--ss-spacing-md);
   border-top: 1px solid var(--ss-border);
-  font-size: 0.875rem;
+  font-size: var(--text-md);
   color: var(--ss-text-muted);
 }
 
@@ -153,7 +153,7 @@
 }
 
 .disc-support-source {
-  font-size: 1.125rem;
+  font-size: var(--text-lg);
   color: var(--ss-text-primary);
   margin-bottom: var(--ss-spacing-lg);
   font-weight: var(--ss-font-medium);
@@ -173,7 +173,7 @@
 }
 
 .disc-melody-name {
-  font-size: 1rem;
+  font-size: var(--text-base);
   color: var(--ss-text-primary);
   margin-bottom: var(--ss-spacing-sm);
   font-weight: var(--ss-font-medium);
@@ -181,7 +181,7 @@
 }
 
 .disc-melody-effect {
-  font-size: 0.875rem;
+  font-size: var(--text-md);
   color: var(--ss-text-secondary);
   line-height: 1.4;
   margin-bottom: var(--ss-spacing-xs);
@@ -219,12 +219,12 @@
   }
 
   .disc-hero-name {
-    font-size: 2.25rem;
+    font-size: var(--text-4xl);
     line-height: 1.2;
   }
 
   .disc-hero-description {
-    font-size: 1rem;
+    font-size: var(--text-base);
     text-align: center;
   }
 
@@ -234,7 +234,7 @@
   }
 
   .disc-section-title {
-    font-size: 1.5rem;
+    font-size: var(--text-2xl);
   }
 
   .disc-stats-grid {
@@ -258,11 +258,11 @@
   }
 
   .disc-skill-name {
-    font-size: 1.125rem;
+    font-size: var(--text-lg);
   }
 
   .disc-skill-effect {
-    font-size: 0.9rem;
+    font-size: var(--text-md);
   }
 
   .disc-support-info {
@@ -281,7 +281,7 @@
 
 @media (max-width: 640px) {
   .disc-hero-name {
-    font-size: 2rem;
+    font-size: var(--text-4xl);
   }
 
   .disc-hero-meta {
@@ -318,11 +318,11 @@
   }
 
   .disc-hero-name {
-    font-size: 1.75rem;
+    font-size: var(--text-3xl);
   }
 
   .disc-hero-description {
-    font-size: 0.9rem;
+    font-size: var(--text-md);
   }
 
   .disc-section {
@@ -331,7 +331,7 @@
   }
 
   .disc-section-title {
-    font-size: 1.375rem;
+    font-size: var(--text-2xl);
     margin-bottom: var(--ss-spacing-md);
   }
 
@@ -340,11 +340,11 @@
   }
 
   .disc-stat-label {
-    font-size: 0.75rem;
+    font-size: var(--text-xs);
   }
 
   .disc-stat-value {
-    font-size: 1rem;
+    font-size: var(--text-base);
   }
 
   .disc-skill {
@@ -352,15 +352,15 @@
   }
 
   .disc-skill-name {
-    font-size: 1rem;
+    font-size: var(--text-base);
   }
 
   .disc-skill-effect {
-    font-size: 0.875rem;
+    font-size: var(--text-md);
   }
 
   .disc-skill-type {
-    font-size: 0.625rem;
+    font-size: var(--text-3xs);
     padding: 4px 8px;
   }
 
@@ -378,11 +378,11 @@
   }
 
   .disc-melody-name {
-    font-size: 0.875rem;
+    font-size: var(--text-md);
   }
 
   .disc-melody-effect {
-    font-size: 0.75rem;
+    font-size: var(--text-xs);
   }
 }
 
@@ -430,7 +430,7 @@
 }
 
 .disc-info-name {
-  font-size: 2.5rem;
+  font-size: var(--text-5xl);
   font-weight: var(--ss-font-bold);
   color: var(--ss-text-primary);
   margin-bottom: var(--ss-spacing-md);
@@ -460,7 +460,7 @@
 
 /* Section Styles */
 .section-title {
-  font-size: 1.5rem;
+  font-size: var(--text-2xl);
   font-weight: var(--ss-font-bold);
   color: var(--ss-text-primary);
   margin-bottom: var(--ss-spacing-lg);
@@ -474,7 +474,7 @@
 }
 
 .subsection-title {
-  font-size: 1.125rem;
+  font-size: var(--text-lg);
   font-weight: var(--ss-font-semibold);
   color: var(--ss-text-primary);
   margin-top: 0;
@@ -517,7 +517,7 @@
   border: 1px solid var(--ss-border);
   border-radius: var(--ss-radius-sm);
   color: var(--ss-text-secondary);
-  font-size: 0.75rem;
+  font-size: var(--text-xs);
   font-weight: var(--ss-font-medium);
   cursor: pointer;
   transition: all 0.2s ease;
@@ -542,7 +542,7 @@
   border: 1px solid var(--ss-border);
   border-radius: var(--ss-radius-md);
   color: var(--ss-text-primary);
-  font-size: 1rem;
+  font-size: var(--text-base);
   text-align: center;
   color-scheme: dark;
   -moz-appearance: textfield;
@@ -571,7 +571,7 @@
   border: 1px solid var(--ss-border);
   border-radius: var(--ss-radius-md);
   color: var(--ss-text-primary);
-  font-size: 1.25rem;
+  font-size: var(--text-xl);
   font-weight: bold;
   cursor: pointer;
   transition: all 0.2s ease;
@@ -605,14 +605,14 @@
 }
 
 .stat-label {
-  font-size: 0.75rem;
+  font-size: var(--text-xs);
   color: var(--ss-text-muted);
   text-transform: uppercase;
   margin-bottom: var(--ss-spacing-xs);
 }
 
 .stat-value {
-  font-size: 1.25rem;
+  font-size: var(--text-xl);
   font-weight: var(--ss-font-bold);
   color: var(--ss-primary);
 }
@@ -638,13 +638,13 @@
 }
 
 .dupe-label {
-  font-size: 0.75rem;
+  font-size: var(--text-xs);
   color: var(--ss-text-muted);
   margin-bottom: var(--ss-spacing-xs);
 }
 
 .dupe-stat {
-  font-size: 0.875rem;
+  font-size: var(--text-md);
   font-weight: var(--ss-font-semibold);
   color: var(--ss-primary);
 }
@@ -661,7 +661,7 @@
 
 /* Dupe Bonus Indicator in Stats */
 .dupe-bonus-indicator {
-  font-size: 0.75rem;
+  font-size: var(--text-xs);
   color: var(--ss-text-primary);
   margin-left: var(--ss-spacing-xs);
 }
@@ -688,7 +688,7 @@
 }
 
 .breakthrough-level {
-  font-size: 0.75rem;
+  font-size: var(--text-xs);
   color: var(--ss-text-muted);
   margin-bottom: var(--ss-spacing-xs);
   font-weight: var(--ss-font-medium);
@@ -701,13 +701,13 @@
 }
 
 .breakthrough-hp {
-  font-size: 0.8rem;
+  font-size: var(--text-sm);
   color: var(--ss-text-primary);
   font-weight: var(--ss-font-semibold);
 }
 
 .breakthrough-atk {
-  font-size: 0.8rem;
+  font-size: var(--text-sm);
   color: var(--ss-text-primary);
   font-weight: var(--ss-font-semibold);
 }
@@ -735,7 +735,7 @@
 }
 
 .max-stats-display .dupe-bonus {
-  font-size: 0.75rem;
+  font-size: var(--text-xs);
   color: var(--ss-text-primary);
   margin-left: var(--ss-spacing-xs);
 }
@@ -771,14 +771,14 @@
 }
 
 .skill-name {
-  font-size: 1.125rem;
+  font-size: var(--text-lg);
   font-weight: var(--ss-font-bold);
   color: var(--ss-text-primary);
   margin-bottom: var(--ss-spacing-xs);
 }
 
 .skill-type {
-  font-size: 0.75rem;
+  font-size: var(--text-xs);
   color: var(--ss-text-muted);
   text-transform: uppercase;
 }
@@ -796,7 +796,7 @@
   border: 1px solid var(--ss-border);
   border-radius: var(--ss-radius-sm);
   color: var(--ss-text-secondary);
-  font-size: 0.75rem;
+  font-size: var(--text-xs);
   cursor: pointer;
   transition: all 0.2s ease;
 }
@@ -821,7 +821,7 @@
 }
 
 .requirements-title {
-  font-size: 0.875rem;
+  font-size: var(--text-md);
   font-weight: var(--ss-font-semibold);
   color: var(--ss-text-secondary);
   margin-bottom: var(--ss-spacing-sm);
@@ -837,7 +837,7 @@
   display: flex;
   align-items: center;
   gap: var(--ss-spacing-xs);
-  font-size: 0.875rem;
+  font-size: var(--text-md);
   color: var(--ss-text-primary);
 }
 
@@ -862,7 +862,7 @@
   background: var(--ss-bg-tertiary);
   font-weight: var(--ss-font-semibold);
   color: var(--ss-text-secondary);
-  font-size: 0.875rem;
+  font-size: var(--text-md);
 }
 
 .level-cell {
@@ -881,7 +881,7 @@
   display: flex;
   align-items: center;
   gap: var(--ss-spacing-xs);
-  font-size: 0.875rem;
+  font-size: var(--text-md);
   color: var(--ss-text-primary);
 }
 
@@ -914,7 +914,7 @@
 }
 
 .upgrade-cost {
-  font-size: 0.875rem;
+  font-size: var(--text-md);
   color: var(--ss-primary);
   display: flex;
   align-items: center;
@@ -931,7 +931,7 @@
   display: flex;
   align-items: center;
   gap: var(--ss-spacing-sm);
-  font-size: 0.875rem;
+  font-size: var(--text-md);
 }
 
 .material-name {
@@ -949,7 +949,7 @@
   display: inline-block;
   padding: 4px 12px;
   border-radius: var(--ss-radius-sm);
-  font-size: 0.875rem;
+  font-size: var(--text-md);
   font-weight: var(--ss-font-medium);
 }
 
@@ -961,7 +961,7 @@
   display: inline-block;
   padding: 4px 12px;
   border-radius: var(--ss-radius-sm);
-  font-size: 0.875rem;
+  font-size: var(--text-md);
   font-weight: var(--ss-font-medium);
 }
 
@@ -979,7 +979,7 @@
   background: var(--ss-accent-20);
   border: 1px solid var(--ss-border);
   border-radius: var(--ss-radius-sm);
-  font-size: 0.75rem;
+  font-size: var(--text-xs);
   color: var(--ss-primary);
   text-transform: uppercase;
 }
@@ -991,7 +991,7 @@
   }
 
   .disc-info-name {
-    font-size: 2rem;
+    font-size: var(--text-4xl);
   }
 
   .upgrades-grid {
@@ -1024,7 +1024,7 @@
   }
 
   .disc-info-name {
-    font-size: 1.5rem;
+    font-size: var(--text-2xl);
   }
 
   .disc-info-meta {
@@ -1043,7 +1043,7 @@
   }
 
   .section-title {
-    font-size: 1.25rem;
+    font-size: var(--text-xl);
   }
 
   /* Stats controls mobile layout */
@@ -1077,7 +1077,7 @@
   }
 
   .level-input {
-    font-size: 16px; /* Prevent iOS zoom */
+    font-size: var(--text-base); /* Prevent iOS zoom */
   }
 
   .stats-display {
@@ -1110,13 +1110,13 @@
 
   .level-btn {
     padding: 6px 10px;
-    font-size: 0.7rem;
+    font-size: var(--text-2xs);
   }
 
   .level-btn-control {
     width: 40px;
     height: 40px;
-    font-size: 1.5rem;
+    font-size: var(--text-2xl);
   }
 }
 
@@ -1136,7 +1136,7 @@
   }
 
   .disc-info-name {
-    font-size: 1.25rem;
+    font-size: var(--text-xl);
     line-height: 1.3;
     margin-bottom: var(--ss-spacing-sm);
   }
@@ -1157,7 +1157,7 @@
   }
 
   .element-badge {
-    font-size: 0.8rem;
+    font-size: var(--text-sm);
     padding: 3px 10px;
   }
 
@@ -1167,12 +1167,12 @@
   }
 
   .tag-badge {
-    font-size: 0.7rem;
+    font-size: var(--text-2xs);
     padding: 4px 10px;
   }
 
   .section-title {
-    font-size: 1.125rem;
+    font-size: var(--text-lg);
     margin-bottom: var(--ss-spacing-md);
   }
 
@@ -1184,13 +1184,13 @@
   .level-input {
     width: 70px;
     padding: 6px;
-    font-size: 16px; /* Prevent iOS zoom */
+    font-size: var(--text-base); /* Prevent iOS zoom */
   }
 
   .level-btn-control {
     width: 44px;
     height: 44px;
-    font-size: 1.75rem;
+    font-size: var(--text-3xl);
   }
 
   .stats-display {
@@ -1203,11 +1203,11 @@
   }
 
   .stat-label {
-    font-size: 0.65rem;
+    font-size: var(--text-3xs);
   }
 
   .stat-value {
-    font-size: 1rem;
+    font-size: var(--text-base);
   }
 
   .dupe-grid {
@@ -1220,11 +1220,11 @@
   }
 
   .dupe-label {
-    font-size: 0.65rem;
+    font-size: var(--text-3xs);
   }
 
   .dupe-stat {
-    font-size: 0.75rem;
+    font-size: var(--text-xs);
   }
 
   .breakthrough-grid {
@@ -1237,12 +1237,12 @@
   }
 
   .breakthrough-level {
-    font-size: 0.65rem;
+    font-size: var(--text-3xs);
   }
 
   .breakthrough-hp,
   .breakthrough-atk {
-    font-size: 0.7rem;
+    font-size: var(--text-2xs);
   }
 
   .max-stats-display {
@@ -1251,7 +1251,7 @@
   }
 
   .subsection-title {
-    font-size: 1rem;
+    font-size: var(--text-base);
   }
 
   .skill-header {
@@ -1264,11 +1264,11 @@
   }
 
   .skill-name {
-    font-size: 1rem;
+    font-size: var(--text-base);
   }
 
   .skill-description {
-    font-size: 0.875rem;
+    font-size: var(--text-md);
   }
 
   .upgrade-card {
@@ -1276,16 +1276,16 @@
   }
 
   .material-item {
-    font-size: 0.8rem;
+    font-size: var(--text-sm);
   }
 
   .support-notes-table th,
   .support-notes-table td {
     padding: var(--ss-spacing-sm);
-    font-size: 0.8rem;
+    font-size: var(--text-sm);
   }
 
   .note-item {
-    font-size: 0.75rem;
+    font-size: var(--text-xs);
   }
 }

@@ -16,7 +16,7 @@
 
 .section-title {
   color: var(--ss-text-primary);
-  font-size: 2rem;
+  font-size: var(--text-4xl);
   margin-bottom: 2rem;
   font-weight: 600;
   text-align: center;
@@ -59,7 +59,7 @@
 
 .item-name {
   color: var(--ss-text-primary);
-  font-size: 1.5rem;
+  font-size: var(--text-2xl);
   font-weight: 700;
   margin: 0;
   text-shadow: none; /* Explicitly no text shadow */
@@ -67,21 +67,21 @@
 
 .item-event-title {
   color: var(--ss-primary);
-  font-size: 1.1rem;
+  font-size: var(--text-lg);
   font-weight: 600;
   margin: 0;
 }
 
 .item-event-date {
   color: var(--ss-text-secondary);
-  font-size: 0.95rem;
+  font-size: var(--text-body);
   margin: 0;
   opacity: 0.9;
 }
 
 .item-source {
   color: var(--ss-text-tertiary);
-  font-size: 0.9rem;
+  font-size: var(--text-md);
   margin: 0;
   font-style: italic;
   opacity: 0.8;
@@ -101,7 +101,7 @@
   input,
   select,
   textarea {
-    font-size: 16px;
+    font-size: var(--text-base);
   }
 }
 
@@ -125,7 +125,7 @@
   }
 
   .section-title {
-    font-size: 1.75rem;
+    font-size: var(--text-3xl);
     margin-bottom: 1.5rem;
   }
 
@@ -156,7 +156,7 @@
   }
 
   .section-title {
-    font-size: 1.5rem;
+    font-size: var(--text-2xl);
     margin-bottom: 1.25rem;
   }
 
@@ -178,19 +178,19 @@
   }
 
   .item-name {
-    font-size: 1.3rem;
+    font-size: var(--text-xl);
   }
 
   .item-event-title {
-    font-size: 1rem;
+    font-size: var(--text-base);
   }
 
   .item-event-date {
-    font-size: 0.9rem;
+    font-size: var(--text-md);
   }
 
   .item-source {
-    font-size: 0.85rem;
+    font-size: var(--text-md);
   }
 }
 
@@ -201,7 +201,7 @@
   }
 
   .section-title {
-    font-size: 1.4rem;
+    font-size: var(--text-2xl);
     margin-bottom: 1rem;
   }
 
@@ -222,18 +222,18 @@
   }
 
   .item-name {
-    font-size: 1.2rem;
+    font-size: var(--text-xl);
   }
 
   .item-event-title {
-    font-size: 0.95rem;
+    font-size: var(--text-body);
   }
 
   .item-event-date {
-    font-size: 0.85rem;
+    font-size: var(--text-md);
   }
 
   .item-source {
-    font-size: 0.8rem;
+    font-size: var(--text-sm);
   }
 }

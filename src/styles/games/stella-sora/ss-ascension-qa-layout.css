@@ -344,7 +344,7 @@
   }
 
   .correct-badge {
-    font-size: 10px;
+    font-size: var(--text-3xs);
   }
 
   .ascension-event-group {

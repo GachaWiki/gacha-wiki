@@ -10,14 +10,14 @@
   text-align: center;
   color: var(--ss-text-primary);
   margin-bottom: 1rem;
-  font-size: 2.5rem;
+  font-size: var(--text-5xl);
 }
 
 .intro-text {
   text-align: center;
   color: var(--ss-text-secondary);
   margin-bottom: 2rem;
-  font-size: 1.05rem;
+  font-size: var(--text-base);
   max-width: 760px;
   margin-left: auto;
   margin-right: auto;
@@ -38,7 +38,7 @@
 
 .ss-legend-text {
   color: var(--ss-text-secondary);
-  font-size: 0.875rem;
+  font-size: var(--text-md);
   line-height: 1.5;
   flex: 1 1 320px;
 }
@@ -50,7 +50,7 @@
 
 .ss-section-title {
   color: var(--ss-text-primary);
-  font-size: 1.4rem;
+  font-size: var(--text-2xl);
   margin-bottom: 1rem;
   padding-bottom: 0.5rem;
   border-bottom: 1px solid var(--ss-border);
@@ -61,7 +61,7 @@
   display: inline-block;
   padding: 0.15rem 0.55rem;
   border-radius: 5px;
-  font-size: 0.72rem;
+  font-size: var(--text-xs);
   font-weight: 700;
   letter-spacing: 0.03em;
   color: #fff;
@@ -139,7 +139,7 @@
 
 .ss-run-num {
   color: var(--ss-text-tertiary);
-  font-size: 0.8rem;
+  font-size: var(--text-sm);
   font-weight: 700;
 }
 
@@ -157,13 +157,13 @@
 
 .ss-run-title {
   color: var(--ss-text-primary);
-  font-size: 1.15rem;
+  font-size: var(--text-lg);
   margin: 0 0 0.35rem;
 }
 
 .ss-run-type {
   color: var(--ss-text-tertiary);
-  font-size: 0.8rem;
+  font-size: var(--text-sm);
   text-transform: uppercase;
   letter-spacing: 0.05em;
   margin: 0 0 0.5rem;
@@ -175,7 +175,7 @@
 .ss-run-guarantee,
 .ss-run-boosted {
   color: var(--ss-text-secondary);
-  font-size: 0.9rem;
+  font-size: var(--text-md);
   margin: 0 0 0.35rem;
   line-height: 1.5;
 }
@@ -210,14 +210,14 @@
 
 .ss-run-desc {
   color: var(--ss-text-secondary);
-  font-size: 0.875rem;
+  font-size: var(--text-md);
   line-height: 1.55;
   margin: 0.6rem 0 0;
 }
 
 .ss-run-note {
   color: var(--ss-text-tertiary);
-  font-size: 0.8rem;
+  font-size: var(--text-sm);
   line-height: 1.5;
   margin: 0.4rem 0 0;
   font-style: italic;
@@ -240,7 +240,7 @@
   }
 
   .banner-timeline-content h1 {
-    font-size: 1.8rem;
+    font-size: var(--text-3xl);
   }
 
   .ss-run-grid {
@@ -248,6 +248,6 @@
   }
 
   .ss-run-title {
-    font-size: 1.05rem;
+    font-size: var(--text-base);
   }
 }

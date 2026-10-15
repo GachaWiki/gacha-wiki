@@ -18,7 +18,7 @@
 }
 
 .upgrades-intro h2 {
-  font-size: 1.5rem;
+  font-size: var(--text-2xl);
   font-weight: var(--ss-font-bold);
   color: var(--ss-text-primary);
   margin-bottom: var(--ss-spacing-md);
@@ -56,7 +56,7 @@
 }
 
 .legend-label {
-  font-size: 0.875rem;
+  font-size: var(--text-md);
   font-weight: var(--ss-font-semibold);
   color: var(--ss-text-primary);
 }
@@ -70,7 +70,7 @@
 }
 
 .legend-text {
-  font-size: 0.75rem;
+  font-size: var(--text-xs);
   color: var(--ss-text-muted);
 }
 
@@ -94,7 +94,7 @@
 }
 
 .filter-group label {
-  font-size: 0.75rem;
+  font-size: var(--text-xs);
   color: var(--ss-text-muted);
   font-weight: var(--ss-font-medium);
 }
@@ -106,7 +106,7 @@
   border: 1px solid var(--ss-border);
   border-radius: var(--ss-radius-md);
   color: var(--ss-text-primary);
-  font-size: 0.875rem;
+  font-size: var(--text-md);
   min-width: 160px;
 }
 
@@ -179,7 +179,7 @@
 }
 
 .character-name {
-  font-size: 1.125rem;
+  font-size: var(--text-lg);
   font-weight: var(--ss-font-bold);
   color: var(--ss-text-primary);
   margin: 0;
@@ -203,7 +203,7 @@
 }
 
 .element-text {
-  font-size: 0.75rem;
+  font-size: var(--text-xs);
   font-weight: var(--ss-font-medium);
 }
 
@@ -238,7 +238,7 @@
 }
 
 .section-title {
-  font-size: 0.875rem;
+  font-size: var(--text-md);
   font-weight: var(--ss-font-semibold);
   color: var(--ss-text-primary);
 }
@@ -252,7 +252,7 @@
 }
 
 .toggle-icon {
-  font-size: 0.75rem;
+  font-size: var(--text-xs);
   color: var(--ss-text-muted);
 }
 
@@ -283,7 +283,7 @@
 }
 
 .level-number {
-  font-size: 0.75rem;
+  font-size: var(--text-xs);
   font-weight: var(--ss-font-bold);
   color: var(--ss-primary);
   background: var(--ss-bg-tertiary);
@@ -295,7 +295,7 @@
   display: flex;
   align-items: center;
   gap: 4px;
-  font-size: 0.75rem;
+  font-size: var(--text-xs);
   color: var(--ss-text-primary);
   font-weight: var(--ss-font-medium);
 }
@@ -341,7 +341,7 @@
 }
 
 .material-name {
-  font-size: 0.7rem;
+  font-size: var(--text-2xs);
   color: var(--ss-text-secondary);
   max-width: 100px;
   white-space: nowrap;
@@ -350,14 +350,14 @@
 }
 
 .material-quantity {
-  font-size: 0.75rem;
+  font-size: var(--text-xs);
   font-weight: var(--ss-font-bold);
   color: var(--ss-text-primary);
 }
 
 /* Empty State */
 .no-materials {
-  font-size: 0.75rem;
+  font-size: var(--text-xs);
   color: var(--ss-text-muted);
   font-style: italic;
 }
@@ -372,7 +372,7 @@
 }
 
 .total-materials-section h2 {
-  font-size: 1.25rem;
+  font-size: var(--text-xl);
   font-weight: var(--ss-font-bold);
   color: var(--ss-text-primary);
   margin-bottom: var(--ss-spacing-md);
@@ -413,14 +413,14 @@
 }
 
 .total-material-name {
-  font-size: 0.875rem;
+  font-size: var(--text-md);
   font-weight: var(--ss-font-medium);
   color: var(--ss-text-primary);
   margin-bottom: 4px;
 }
 
 .total-material-quantity {
-  font-size: 1rem;
+  font-size: var(--text-base);
   font-weight: var(--ss-font-bold);
   color: var(--ss-primary);
 }
@@ -435,7 +435,7 @@
 }
 
 .materials-database h2 {
-  font-size: 1.25rem;
+  font-size: var(--text-xl);
   font-weight: var(--ss-font-bold);
   color: var(--ss-text-primary);
   margin-bottom: var(--ss-spacing-md);
@@ -451,7 +451,7 @@
 }
 
 .category-title {
-  font-size: 1rem;
+  font-size: var(--text-base);
   font-weight: var(--ss-font-semibold);
   color: var(--ss-text-secondary);
   margin-bottom: var(--ss-spacing-sm);
@@ -493,7 +493,7 @@
 }
 
 .material-db-name {
-  font-size: 0.8rem;
+  font-size: var(--text-sm);
   font-weight: var(--ss-font-medium);
   color: var(--ss-text-primary);
   line-height: 1.2;
@@ -508,7 +508,7 @@
   background: var(--ss-bg-tertiary);
   color: var(--ss-primary);
   text-decoration: none;
-  font-size: 0.875rem;
+  font-size: var(--text-md);
   font-weight: var(--ss-font-medium);
   border-top: 1px solid var(--ss-border);
 }

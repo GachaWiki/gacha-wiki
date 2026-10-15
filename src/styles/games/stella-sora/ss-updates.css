@@ -10,14 +10,14 @@
   text-align: center;
   color: var(--ss-text-primary);
   margin-bottom: 1rem;
-  font-size: 2.2rem;
+  font-size: var(--text-4xl);
 }
 
 .intro-text {
   text-align: center;
   color: var(--ss-text-secondary);
   margin-bottom: 2rem;
-  font-size: 1rem;
+  font-size: var(--text-base);
   max-width: 760px;
   margin-left: auto;
   margin-right: auto;
@@ -49,7 +49,7 @@
   color: var(--ss-text-secondary);
   border-radius: 5px;
   padding: 0.35rem 0.8rem;
-  font-size: 0.85rem;
+  font-size: var(--text-md);
   font-weight: 700;
   cursor: pointer;
 }
@@ -71,7 +71,7 @@
   border-radius: 5px;
   color: var(--ss-text-primary);
   padding: 0.45rem 0.8rem;
-  font-size: 0.9rem;
+  font-size: var(--text-md);
 }
 
 .ss-updates-search:focus {
@@ -108,7 +108,7 @@
 
 .ss-date {
   color: var(--ss-text-tertiary);
-  font-size: 0.85rem;
+  font-size: var(--text-md);
   font-weight: 700;
 }
 
@@ -116,7 +116,7 @@
   display: inline-block;
   padding: 0.12rem 0.5rem;
   border-radius: 5px;
-  font-size: 0.7rem;
+  font-size: var(--text-2xs);
   font-weight: 700;
   letter-spacing: 0.03em;
   color: #fff;
@@ -137,20 +137,20 @@
 
 .ss-update-title {
   color: var(--ss-text-primary);
-  font-size: 1.05rem;
+  font-size: var(--text-base);
   margin: 0 0 0.35rem;
 }
 
 .ss-update-summary {
   color: var(--ss-text-secondary);
-  font-size: 0.875rem;
+  font-size: var(--text-md);
   line-height: 1.55;
   margin: 0 0 0.5rem;
 }
 
 .ss-update-more {
   color: var(--ss-primary-light, #7fb1ec);
-  font-size: 0.82rem;
+  font-size: var(--text-sm);
   font-weight: 700;
 }
 
@@ -166,13 +166,13 @@
 }
 
 .ss-update-detail-head .ss-update-title {
-  font-size: 1.7rem;
+  font-size: var(--text-3xl);
   margin: 0.4rem 0 0.6rem;
 }
 
 .ss-update-source {
   color: var(--ss-text-tertiary);
-  font-size: 0.85rem;
+  font-size: var(--text-md);
 }
 
 .ss-update-source a {
@@ -185,7 +185,7 @@
   border-radius: 10px;
   padding: 1.5rem;
   color: var(--ss-text-secondary);
-  font-size: 0.95rem;
+  font-size: var(--text-body);
   line-height: 1.7;
 }
 
@@ -244,7 +244,7 @@
   padding: 0.8rem 1rem;
   text-decoration: none;
   color: var(--ss-text-secondary);
-  font-size: 0.88rem;
+  font-size: var(--text-md);
 }
 
 .ss-update-navlink--right {
@@ -257,7 +257,7 @@
 
 .ss-update-navdir {
   color: var(--ss-text-tertiary);
-  font-size: 0.72rem;
+  font-size: var(--text-xs);
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.06em;
@@ -270,7 +270,7 @@
 
 .ss-update-back a {
   color: var(--ss-primary-light, #7fb1ec);
-  font-size: 0.9rem;
+  font-size: var(--text-md);
 }
 
 @media (max-width: 640px) {
@@ -279,7 +279,7 @@
   }
 
   .ss-updates-content h1 {
-    font-size: 1.7rem;
+    font-size: var(--text-3xl);
   }
 
   .ss-update-body {

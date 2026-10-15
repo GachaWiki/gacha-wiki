@@ -15,7 +15,7 @@
 
 .character-info-stats h2 {
   color: var(--ss-text-primary);
-  font-size: 1.5rem;
+  font-size: var(--text-2xl);
   font-weight: var(--ss-font-semibold);
   margin-bottom: var(--ss-spacing-md);
 }
@@ -35,7 +35,7 @@
 }
 
 .character-info-stat-number {
-  font-size: 2rem;
+  font-size: var(--text-4xl);
   font-weight: var(--ss-font-bold);
   color: var(--ss-primary);
   line-height: 1;
@@ -44,7 +44,7 @@
 
 .character-info-stat-label {
   color: var(--ss-text-secondary);
-  font-size: 0.875rem;
+  font-size: var(--text-md);
   text-transform: uppercase;
   letter-spacing: 0.05em;
 }
@@ -80,7 +80,7 @@
   border: 1px solid var(--ss-border);
   border-radius: var(--ss-radius-md);
   color: var(--ss-text-primary);
-  font-size: 0.875rem;
+  font-size: var(--text-md);
 }
 
 .character-info-search-input:focus {
@@ -98,7 +98,7 @@
   border: 1px solid var(--ss-border);
   border-radius: var(--ss-radius-md);
   color: var(--ss-text-primary);
-  font-size: 0.875rem;
+  font-size: var(--text-md);
   cursor: pointer;
   min-width: 140px;
 }
@@ -160,7 +160,7 @@
 }
 
 .character-info-name {
-  font-size: 1.25rem;
+  font-size: var(--text-xl);
   font-weight: var(--ss-font-bold);
   color: var(--ss-text-primary);
   margin: 0 0 var(--ss-spacing-xs) 0;
@@ -175,7 +175,7 @@
 .character-info-badge {
   padding: 0.2rem 0.5rem;
   border-radius: var(--ss-radius-sm);
-  font-size: 0.7rem;
+  font-size: var(--text-2xs);
   font-weight: var(--ss-font-medium);
   text-transform: uppercase;
   background: var(--ss-bg-tertiary);
@@ -189,7 +189,7 @@
   gap: 4px;
   padding: 0.2rem 0.5rem;
   border-radius: var(--ss-radius-sm);
-  font-size: 0.7rem;
+  font-size: var(--text-2xs);
   font-weight: var(--ss-font-medium);
   text-transform: uppercase;
   background: var(--ss-bg-tertiary);
@@ -209,7 +209,7 @@
 /* Description */
 .character-info-description {
   color: var(--ss-text-secondary);
-  font-size: 0.875rem;
+  font-size: var(--text-md);
   line-height: 1.6;
   margin-bottom: var(--ss-spacing-md);
   display: -webkit-box;
@@ -233,14 +233,14 @@
 }
 
 .character-info-detail-label {
-  font-size: 0.7rem;
+  font-size: var(--text-2xs);
   color: var(--ss-text-muted);
   text-transform: uppercase;
   letter-spacing: 0.05em;
 }
 
 .character-info-detail-value {
-  font-size: 0.875rem;
+  font-size: var(--text-md);
   color: var(--ss-text-primary);
   font-weight: var(--ss-font-medium);
 }
@@ -254,7 +254,7 @@
 }
 
 .character-info-va-title {
-  font-size: 0.75rem;
+  font-size: var(--text-xs);
   color: var(--ss-text-muted);
   text-transform: uppercase;
   margin-bottom: var(--ss-spacing-xs);
@@ -272,18 +272,18 @@
 }
 
 .character-info-va-lang {
-  font-size: 0.65rem;
+  font-size: var(--text-3xs);
   color: var(--ss-text-muted);
   text-transform: uppercase;
 }
 
 .character-info-va-name {
-  font-size: 0.8rem;
+  font-size: var(--text-sm);
   color: var(--ss-text-primary);
 }
 
 .character-info-va-localized {
-  font-size: 0.75rem;
+  font-size: var(--text-xs);
   color: var(--ss-text-secondary);
 }
 
@@ -300,7 +300,7 @@
   background: var(--ss-bg-tertiary);
   border: 1px solid var(--ss-border);
   border-radius: var(--ss-radius-sm);
-  font-size: 0.7rem;
+  font-size: var(--text-2xs);
   color: var(--ss-text-secondary);
 }
 
@@ -316,7 +316,7 @@
 
 .character-info-no-results h3 {
   color: var(--ss-text-primary);
-  font-size: 1.25rem;
+  font-size: var(--text-xl);
   margin-bottom: var(--ss-spacing-sm);
 }
 
@@ -357,11 +357,11 @@
   }
 
   .character-info-stat-number {
-    font-size: 1.5rem;
+    font-size: var(--text-2xl);
   }
 
   .character-info-stat-label {
-    font-size: 0.75rem;
+    font-size: var(--text-xs);
   }
 
   .character-info-card-header {
@@ -376,7 +376,7 @@
 
   .character-info-badge-with-icon,
   .character-info-badges .position-badge {
-    font-size: 0.65rem;
+    font-size: var(--text-3xs);
     padding: 0.15rem 0.4rem;
   }
 
@@ -385,11 +385,11 @@
   }
 
   .character-info-name {
-    font-size: 1.1rem;
+    font-size: var(--text-lg);
   }
 
   .character-info-description {
-    font-size: 0.8rem;
+    font-size: var(--text-sm);
   }
 
   .character-info-details {

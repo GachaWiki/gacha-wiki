@@ -15,7 +15,7 @@
 
 .dating-stats-overview h2 {
   color: var(--ss-text-primary);
-  font-size: 1.5rem;
+  font-size: var(--text-2xl);
   font-weight: var(--ss-font-semibold);
   margin-bottom: var(--ss-spacing-md);
 }
@@ -35,7 +35,7 @@
 }
 
 .dating-stat-number {
-  font-size: 2.5rem;
+  font-size: var(--text-5xl);
   font-weight: var(--ss-font-bold);
   color: var(--ss-primary);
   line-height: 1;
@@ -44,7 +44,7 @@
 
 .dating-stat-label {
   color: var(--ss-text-secondary);
-  font-size: 0.875rem;
+  font-size: var(--text-md);
   text-transform: uppercase;
   letter-spacing: 0.05em;
 }
@@ -70,7 +70,7 @@
 
 .dating-controls-title {
   color: var(--ss-text-primary);
-  font-size: 1.125rem;
+  font-size: var(--text-lg);
   font-weight: var(--ss-font-semibold);
 }
 
@@ -93,7 +93,7 @@
   border: 1px solid var(--ss-border);
   border-radius: var(--ss-radius-md);
   color: var(--ss-text-primary);
-  font-size: 0.875rem;
+  font-size: var(--text-md);
 }
 
 .dating-search-input:focus {
@@ -111,7 +111,7 @@
   border: 1px solid var(--ss-border);
   border-radius: var(--ss-radius-md);
   color: var(--ss-text-primary);
-  font-size: 0.875rem;
+  font-size: var(--text-md);
   cursor: pointer;
   min-width: 150px;
 }
@@ -127,7 +127,7 @@
   border: 1px solid var(--ss-border);
   border-radius: var(--ss-radius-md);
   color: var(--ss-text-secondary);
-  font-size: 0.875rem;
+  font-size: var(--text-md);
   cursor: pointer;
   display: flex;
   align-items: center;
@@ -148,14 +148,14 @@
 
 .dating-section-header h2 {
   color: var(--ss-text-primary);
-  font-size: 1.5rem;
+  font-size: var(--text-2xl);
   font-weight: var(--ss-font-semibold);
   margin-bottom: var(--ss-spacing-xs);
 }
 
 .dating-section-description {
   color: var(--ss-text-secondary);
-  font-size: 0.875rem;
+  font-size: var(--text-md);
 }
 
 .dating-characters-grid {
@@ -203,7 +203,7 @@
 
 .dating-character-name {
   color: var(--ss-text-primary);
-  font-size: 1.25rem;
+  font-size: var(--text-xl);
   font-weight: var(--ss-font-semibold);
 }
 
@@ -216,7 +216,7 @@
   flex-shrink: 0;
   background: var(--ss-primary);
   color: var(--ss-bg-primary);
-  font-size: 0.75rem;
+  font-size: var(--text-xs);
   font-weight: var(--ss-font-semibold);
   padding: 0.35rem 0.75rem;
   border-radius: var(--ss-radius-sm);
@@ -272,7 +272,7 @@
   align-items: center;
   gap: var(--ss-spacing-sm);
   color: var(--ss-text-primary);
-  font-size: 1.05rem;
+  font-size: var(--text-base);
   font-weight: var(--ss-font-semibold);
   line-height: 1.35;
 }
@@ -281,7 +281,7 @@
   flex-shrink: 0;
   background: var(--ss-primary);
   color: var(--ss-bg-primary);
-  font-size: 0.7rem;
+  font-size: var(--text-2xs);
   font-weight: var(--ss-font-semibold);
   text-transform: uppercase;
   letter-spacing: 0.04em;
@@ -303,7 +303,7 @@
   padding: var(--ss-spacing-sm) var(--ss-spacing-md);
   border: 1px solid var(--ss-border);
   border-radius: var(--ss-radius-sm);
-  font-size: 0.875rem;
+  font-size: var(--text-md);
 }
 
 .dating-detail-unlock {
@@ -327,7 +327,7 @@
   flex-shrink: 0;
   min-width: 52px;
   color: var(--ss-text-secondary);
-  font-size: 0.7rem;
+  font-size: var(--text-2xs);
   font-weight: var(--ss-font-semibold);
   text-transform: uppercase;
   letter-spacing: 0.06em;
@@ -355,7 +355,7 @@
   border: 1px solid var(--ss-border);
   border-radius: var(--ss-radius-md);
   color: var(--ss-text-secondary);
-  font-size: 0.875rem;
+  font-size: var(--text-md);
   cursor: pointer;
 }
 
@@ -378,7 +378,7 @@
 
   .dating-stats-overview h2,
   .dating-section-header h2 {
-    font-size: 1.25rem;
+    font-size: var(--text-xl);
   }
 
   .dating-stats-grid {
@@ -391,11 +391,11 @@
   }
 
   .dating-stat-number {
-    font-size: 1.75rem;
+    font-size: var(--text-3xl);
   }
 
   .dating-stat-label {
-    font-size: 0.75rem;
+    font-size: var(--text-xs);
   }
 
   .dating-controls {
@@ -428,7 +428,7 @@
   }
 
   .dating-character-name {
-    font-size: 1.1rem;
+    font-size: var(--text-lg);
   }
 
   /* Narrow viewports: stack the 2 events so the art keeps its size */
@@ -454,11 +454,11 @@
   .dating-location-tab {
     flex-shrink: 0;
     padding: 0.5rem 0.75rem;
-    font-size: 0.8rem;
+    font-size: var(--text-sm);
   }
 
   .dating-event-name {
-    font-size: 0.95rem;
+    font-size: var(--text-body);
   }
 }
 
@@ -478,7 +478,7 @@
   }
 
   .dating-stat-number {
-    font-size: 1.5rem;
+    font-size: var(--text-2xl);
   }
 
   .dating-controls-header {
@@ -497,11 +497,11 @@
   }
 
   .dating-character-name {
-    font-size: 1rem;
+    font-size: var(--text-base);
   }
 
   .dating-events-count {
-    font-size: 0.75rem;
+    font-size: var(--text-xs);
   }
 
   .dating-events-list {
@@ -523,7 +523,7 @@
   }
 
   .dating-section-description {
-    font-size: 0.8rem;
+    font-size: var(--text-sm);
   }
 }
 
@@ -534,12 +534,12 @@
   }
 
   .dating-stat-number {
-    font-size: 1.25rem;
+    font-size: var(--text-xl);
   }
 
   .dating-location-tab {
     padding: 0.4rem 0.6rem;
-    font-size: 0.75rem;
+    font-size: var(--text-xs);
   }
 }
 
@@ -554,18 +554,18 @@
 }
 
 .dating-no-results-icon {
-  font-size: 3rem;
+  font-size: var(--text-6xl);
   margin-bottom: var(--ss-spacing-md);
   opacity: 0.5;
 }
 
 .dating-no-results-text {
-  font-size: 1.125rem;
+  font-size: var(--text-lg);
   margin-bottom: var(--ss-spacing-sm);
 }
 
 .dating-no-results-hint {
-  font-size: 0.875rem;
+  font-size: var(--text-md);
   color: var(--ss-text-muted);
 }
 

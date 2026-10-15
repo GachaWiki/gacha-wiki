@@ -10,7 +10,7 @@
 
 .tbuilds-intro {
   margin: 0 0 1.25rem 0;
-  font-size: 0.9rem;
+  font-size: var(--text-md);
   color: var(--ss-text-secondary);
 }
 
@@ -30,7 +30,7 @@
   flex: 1;
   min-width: 220px;
   padding: 0.5rem 0.75rem;
-  font-size: 0.875rem;
+  font-size: var(--text-md);
   color: var(--ss-text-primary);
   background: var(--ss-bg-tertiary);
   border: 1px solid var(--ss-border);
@@ -39,7 +39,7 @@
 
 .tbuilds-select {
   padding: 0.5rem 0.75rem;
-  font-size: 0.875rem;
+  font-size: var(--text-md);
   color: var(--ss-text-primary);
   background: var(--ss-bg-tertiary);
   border: 1px solid var(--ss-border);
@@ -104,7 +104,7 @@
 
 .tbuild-system-tag {
   padding: 0.14rem 0.5rem;
-  font-size: 0.66rem;
+  font-size: var(--text-2xs);
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.06em;
@@ -115,13 +115,13 @@
 
 .tbuild-name {
   margin: 0;
-  font-size: 1.2rem;
+  font-size: var(--text-xl);
   font-weight: 700;
   color: var(--ss-text-primary);
 }
 
 .tbuild-grade {
-  font-size: 0.75rem;
+  font-size: var(--text-xs);
   font-weight: 600;
   color: var(--ss-text-secondary);
 }
@@ -138,7 +138,7 @@
   padding: 0.7rem 1rem;
   background: var(--ss-primary-dark);
   color: #fff;
-  font-size: 0.95rem;
+  font-size: var(--text-body);
   font-weight: 700;
   text-decoration: none;
   border-radius: var(--ss-radius-sm);
@@ -152,7 +152,7 @@
 }
 
 .tbuild-cta-arrow {
-  font-size: 1.05rem;
+  font-size: var(--text-base);
   line-height: 1;
 }
 
@@ -163,7 +163,7 @@
 }
 
 .tbuild-preset-label {
-  font-size: 0.78rem;
+  font-size: var(--text-xs);
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.05em;
@@ -205,14 +205,14 @@
 }
 
 .tbuild-member-name {
-  font-size: 0.72rem;
+  font-size: var(--text-xs);
   font-weight: 600;
   color: var(--ss-text-primary);
   text-align: center;
 }
 
 .tbuild-member-role {
-  font-size: 0.62rem;
+  font-size: var(--text-3xs);
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.05em;
@@ -244,7 +244,7 @@
 .tbuild-community-tag {
   margin-left: 0.5rem;
   padding: 0.12rem 0.45rem;
-  font-size: 0.66rem;
+  font-size: var(--text-2xs);
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.06em;
@@ -269,7 +269,7 @@
   border: none;
   cursor: pointer;
   padding: 0.6rem 1rem;
-  font-size: 0.95rem;
+  font-size: var(--text-body);
   font-weight: 700;
   color: var(--ss-text-secondary);
   border-bottom: 2px solid transparent;
@@ -284,7 +284,7 @@
 .tbuild-tab-count {
   margin-left: 0.35rem;
   padding: 0.05rem 0.45rem;
-  font-size: 0.68rem;
+  font-size: var(--text-2xs);
   border-radius: 999px;
   background: var(--ss-white-opacity-05);
   border: 1px solid var(--ss-border);
@@ -304,13 +304,13 @@
 
 .community-meta {
   margin: 0 0 0.4rem 0;
-  font-size: 0.9rem;
+  font-size: var(--text-md);
   color: var(--ss-text-primary);
 }
 
 .community-note-top {
   margin: 0 0 1rem 0;
-  font-size: 0.78rem;
+  font-size: var(--text-xs);
   color: var(--ss-text-secondary);
 }
 
@@ -345,7 +345,7 @@
 
 .community-char-name {
   margin: 0 0 0.3rem 0;
-  font-size: 1.25rem;
+  font-size: var(--text-xl);
   font-weight: 700;
 }
 
@@ -362,7 +362,7 @@
 
 .community-char-link {
   flex-shrink: 0;
-  font-size: 0.82rem;
+  font-size: var(--text-sm);
   font-weight: 600;
   color: var(--ss-primary);
   text-decoration: none;
@@ -374,7 +374,7 @@
 
 .community-char .community-meta {
   margin: 0 0 0.75rem 0;
-  font-size: 0.85rem;
+  font-size: var(--text-md);
 }
 
 .community-char-builds {
@@ -402,7 +402,7 @@
 .community-lang {
   padding: 0.12rem 0.5rem;
   border-radius: 4px;
-  font-size: 0.66rem;
+  font-size: var(--text-2xs);
   font-weight: 700;
   letter-spacing: 0.08em;
   color: #fff;
@@ -422,7 +422,7 @@
 
 .community-build-name {
   margin: 0;
-  font-size: 1rem;
+  font-size: var(--text-base);
   font-weight: 700;
 }
 
@@ -437,7 +437,7 @@
 
 .community-build-src {
   margin: 0 0 0.45rem 0;
-  font-size: 0.8rem;
+  font-size: var(--text-sm);
   color: var(--ss-text-secondary);
 }
 
@@ -450,7 +450,7 @@
   display: inline-block;
   margin: 0 0 0.55rem 0;
   padding: 0.14rem 0.5rem;
-  font-size: 0.72rem;
+  font-size: var(--text-xs);
   font-weight: 600;
   border-radius: 4px;
   background: var(--ss-white-opacity-05);
@@ -488,13 +488,13 @@
 }
 
 .community-member-name {
-  font-size: 0.8rem;
+  font-size: var(--text-sm);
   font-weight: 600;
   color: var(--ss-text-primary);
 }
 
 .community-member-role {
-  font-size: 0.6rem;
+  font-size: var(--text-3xs);
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.05em;
@@ -503,7 +503,7 @@
 
 .community-build-desc {
   margin: 0 0 0.6rem 0;
-  font-size: 0.85rem;
+  font-size: var(--text-md);
   color: var(--ss-text-primary);
   line-height: 1.55;
 }
@@ -521,7 +521,7 @@
 }
 
 .community-pot-owner {
-  font-size: 0.7rem;
+  font-size: var(--text-2xs);
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.06em;
@@ -537,7 +537,7 @@
 .community-pick-chip {
   display: inline-block;
   padding: 0.14rem 0.5rem;
-  font-size: 0.75rem;
+  font-size: var(--text-xs);
   border-radius: 4px;
   background: var(--ss-white-opacity-05);
   border: 1px solid var(--ss-border);
@@ -547,7 +547,7 @@
 @media (max-width: 768px) {
   .tbuild-tab {
     padding: 0.55rem 0.7rem;
-    font-size: 0.85rem;
+    font-size: var(--text-md);
   }
 }
 
@@ -573,7 +573,7 @@
 
 .preset-code-label {
   flex-shrink: 0;
-  font-size: 0.62rem;
+  font-size: var(--text-3xs);
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.06em;
@@ -582,7 +582,7 @@
 
 .preset-code-value {
   font-family: var(--ss-font-mono, ui-monospace, monospace);
-  font-size: 0.8rem;
+  font-size: var(--text-sm);
   color: var(--ss-text-primary);
   overflow-wrap: anywhere;
 }
@@ -595,7 +595,7 @@
   padding: 0.5rem 1.1rem;
   border-radius: var(--ss-radius-md);
   font-weight: 600;
-  font-size: 0.85rem;
+  font-size: var(--text-md);
   cursor: pointer;
   user-select: none;
   -webkit-user-select: none;
@@ -610,6 +610,6 @@
 
 .preset-code-hint {
   margin: 0 0 0.9rem 0;
-  font-size: 0.78rem;
+  font-size: var(--text-xs);
   color: var(--ss-text-secondary);
 }
