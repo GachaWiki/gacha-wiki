@@ -28,7 +28,7 @@
   margin: 0 0 2rem 0 !important;
   border-bottom: 3px solid var(--sab-calm-red) !important;
   padding-bottom: 0.8rem !important;
-  font-size: 2rem !important;
+  font-size: var(--text-4xl) !important;
   font-weight: 700 !important;
   text-align: center !important;
 }
@@ -121,7 +121,7 @@ h3 {
 .skill-badge {
   padding: 0.4rem 0.8rem;
   border-radius: 6px;
-  font-size: 0.8rem;
+  font-size: var(--text-sm);
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.5px;
@@ -164,14 +164,14 @@ h3 {
 .character-database-title {
   color: var(--sab-muted-gold);
   margin: 0;
-  font-size: 1rem;
+  font-size: var(--text-base);
   font-weight: 600;
 }
 
 .character-database-subtitle {
   color: var(--sab-text-muted);
   margin: 0.5rem 0 0 0;
-  font-size: 0.9rem;
+  font-size: var(--text-md);
   font-style: italic;
 }
 
@@ -190,7 +190,7 @@ h3 {
   text-decoration: none;
   border-radius: 10px;
   font-weight: 600;
-  font-size: 0.95rem;
+  font-size: var(--text-body);
   transition:
     transform 0.2s ease,
     box-shadow 0.2s ease;
@@ -217,15 +217,15 @@ h3 {
   }
 
   .character-database-title {
-    font-size: 0.9rem;
+    font-size: var(--text-md);
   }
 
   .character-database-subtitle {
-    font-size: 0.8rem;
+    font-size: var(--text-sm);
   }
 
   .character-nav-button {
-    font-size: 0.85rem;
+    font-size: var(--text-md);
     padding: 0.6rem 1.2rem;
   }
 
@@ -236,15 +236,15 @@ h3 {
 
 @media (max-width: 480px) {
   .character-database-title {
-    font-size: 0.85rem;
+    font-size: var(--text-md);
   }
 
   .character-database-subtitle {
-    font-size: 0.75rem;
+    font-size: var(--text-xs);
   }
 
   .character-nav-button {
-    font-size: 0.8rem;
+    font-size: var(--text-sm);
     padding: 0.5rem 1rem;
   }
 
@@ -265,7 +265,7 @@ h3 {
 .tag-badge {
   padding: 0.3rem 0.8rem;
   border-radius: 8px;
-  font-size: 0.8rem;
+  font-size: var(--text-sm);
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.5px;
@@ -286,7 +286,7 @@ h3 {
   }
 
   .section-title {
-    font-size: 1.6rem;
+    font-size: var(--text-2xl);
     margin-bottom: 1.5rem;
   }
 
@@ -330,7 +330,7 @@ h3 {
   }
 
   .section-title {
-    font-size: 1.4rem;
+    font-size: var(--text-2xl);
   }
 
   /* Extra small screen adjustments */
@@ -430,7 +430,7 @@ h3 {
   color: var(--sab-input-text);
   border-radius: 8px;
   border: 1px solid var(--sab-border-gray);
-  font-size: 0.8rem;
+  font-size: var(--text-sm);
   cursor: pointer;
   font-family: var(--font-display), sans-serif;
 }
@@ -442,7 +442,7 @@ h3 {
   color: var(--sab-input-text);
   border-radius: 8px;
   border: 1px solid var(--sab-border-gray);
-  font-size: 0.85rem;
+  font-size: var(--text-md);
   font-family: var(--font-display), sans-serif;
   min-width: 180px;
   transition: border-color 0.2s ease, box-shadow 0.2s ease;
@@ -472,7 +472,7 @@ h3 {
   color: var(--sab-text-dark);
   border-radius: 10px;
   border: 2px solid var(--sab-text-light);
-  font-size: 0.85rem;
+  font-size: var(--text-md);
   font-weight: 600;
   cursor: pointer;
   text-transform: uppercase;
@@ -509,7 +509,7 @@ table.character-table th {
   background: var(--sab-error-gradient);
   color: white;
   font-weight: 700;
-  font-size: 0.9rem;
+  font-size: var(--text-md);
   position: sticky;
   top: 0;
   z-index: 2;
@@ -575,7 +575,7 @@ table.character-table th {
 
 .mobile-character-card h3 {
   margin: 0 0 0.1rem 0;
-  font-size: 1.25rem;
+  font-size: var(--text-xl);
   color: var(--sab-text-light);
   font-weight: 700;
   letter-spacing: 0.5px;
@@ -657,13 +657,13 @@ table.character-table th {
   .sort-btn {
     padding: 0.8rem 1rem; /* Larger touch targets */
     min-height: 44px; /* Minimum touch target size */
-    font-size: 0.9rem; /* Larger text for readability */
+    font-size: var(--text-md); /* Larger text for readability */
   }
 
   .search-input {
     padding: 0.8rem 1rem;
     min-height: 44px;
-    font-size: 0.9rem;
+    font-size: var(--text-md);
     min-width: 150px;
     width: 100%;
     max-width: 300px;
@@ -686,7 +686,7 @@ table.character-table th {
   min-width: 85px;
   text-align: center;
   white-space: nowrap;
-  font-size: 0.75rem;
+  font-size: var(--text-xs);
   padding: 0.15rem 0.4rem;
 }
 
@@ -697,7 +697,7 @@ table.character-table th {
 .swipeable-indicator {
   display: none;
   color: var(--sab-calm-red);
-  font-size: 0.8rem;
+  font-size: var(--text-sm);
   font-weight: 600;
   text-align: center;
   margin-bottom: 1rem;

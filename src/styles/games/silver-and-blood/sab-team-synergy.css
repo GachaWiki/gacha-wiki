@@ -54,7 +54,7 @@
   color: var(--sab-input-text);
   border-radius: 8px;
   border: 1px solid var(--sab-border-gray);
-  font-size: 0.8rem;
+  font-size: var(--text-sm);
   cursor: pointer;
   font-family: var(--font-display), sans-serif;
 }
@@ -71,7 +71,7 @@
   color: var(--sab-text-dark);
   border-radius: 10px;
   border: 2px solid var(--sab-text-light);
-  font-size: 0.85rem;
+  font-size: var(--text-md);
   font-weight: 600;
   cursor: pointer;
   text-transform: uppercase;
@@ -95,7 +95,7 @@
   display: inline-block;
   padding: 0.4rem 0.8rem;
   border-radius: 4px;
-  font-size: 0.8rem;
+  font-size: var(--text-sm);
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.05em;
@@ -151,7 +151,7 @@
   display: inline-block;
   padding: 0.4rem 0.8rem;
   border-radius: 4px;
-  font-size: 0.8rem;
+  font-size: var(--text-sm);
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.05em;
@@ -192,7 +192,7 @@
   background: var(--sab-muted-brown);
   color: #fff;
   font-weight: 600;
-  font-size: 0.7rem;
+  font-size: var(--text-2xs);
 }
 
 /* ═══════════════════════════════════════════════════════════════════════ */
@@ -225,7 +225,7 @@
 }
 
 .team-card-title {
-  font-size: 1.25rem;
+  font-size: var(--text-xl);
   font-weight: 700;
   color: var(--sab-muted-gold);
   margin: 0;
@@ -281,7 +281,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 0.75rem;
+  font-size: var(--text-xs);
   font-weight: 700;
   z-index: 2;
   border: 2px solid var(--sab-input-bg);
@@ -314,7 +314,7 @@
 }
 
 .team-character-name {
-  font-size: 0.85rem;
+  font-size: var(--text-md);
   color: var(--sab-text-light);
   font-weight: 500;
   text-align: center;
@@ -339,7 +339,7 @@
 
 .team-card-notes {
   color: var(--sab-text-muted);
-  font-size: 0.9rem;
+  font-size: var(--text-md);
   line-height: 1.7;
   padding: 0.5rem 0;
   word-wrap: break-word;
@@ -397,7 +397,7 @@
   }
 
   .team-card-title {
-    font-size: 1.1rem;
+    font-size: var(--text-lg);
   }
 
   .team-card-characters {
@@ -425,16 +425,16 @@
   .character-position {
     width: 18px;
     height: 18px;
-    font-size: 0.65rem;
+    font-size: var(--text-3xs);
   }
 
   .team-character-name {
-    font-size: 0.75rem;
+    font-size: var(--text-xs);
     max-width: 75px;
   }
 
   .team-card-notes {
-    font-size: 0.85rem;
+    font-size: var(--text-md);
     line-height: 1.6;
   }
 
@@ -454,7 +454,7 @@
   .filter-select,
   .sort-btn {
     padding: 0.6rem 1rem;
-    font-size: 0.85rem;
+    font-size: var(--text-md);
     min-width: 80px;
     min-height: 40px;
     text-align: center;
@@ -462,7 +462,7 @@
 
   .reset-btn {
     padding: 0.6rem 1rem;
-    font-size: 0.85rem;
+    font-size: var(--text-md);
     min-height: 40px;
   }
 }
@@ -488,7 +488,7 @@
   }
 
   .team-card-title {
-    font-size: 1rem;
+    font-size: var(--text-base);
   }
 
   .team-card-characters {
@@ -507,30 +507,30 @@
   }
 
   .team-character-name {
-    font-size: 0.7rem;
+    font-size: var(--text-2xs);
     max-width: 65px;
   }
 
   .team-card-notes {
-    font-size: 0.8rem;
+    font-size: var(--text-sm);
     line-height: 1.5;
   }
 
   .filter-select,
   .sort-btn {
     padding: 0.5rem 0.8rem;
-    font-size: 0.8rem;
+    font-size: var(--text-sm);
     min-width: 70px;
   }
 
   .reset-btn {
     padding: 0.5rem 1rem;
-    font-size: 0.8rem;
+    font-size: var(--text-sm);
   }
 
   .team-type-badge,
   .team-tier-badge {
-    font-size: 0.7rem;
+    font-size: var(--text-2xs);
     padding: 0.3rem 0.6rem;
   }
 }
@@ -577,7 +577,7 @@
 
 .substitute-label {
   color: var(--sab-muted-gold);
-  font-size: 0.8rem;
+  font-size: var(--text-sm);
   font-weight: 600;
   text-transform: uppercase;
   background: var(--sab-bg-dark);
@@ -600,7 +600,7 @@
   }
 
   .substitute-label {
-    font-size: 0.7rem;
+    font-size: var(--text-2xs);
     padding: 0.15rem 0.4rem;
   }
 }

@@ -25,7 +25,7 @@
 }
 
 .section-title {
-  font-size: 1.5rem;
+  font-size: var(--text-2xl);
   font-weight: 700;
   color: var(--sab-calm-red, #c26b6b);
   margin: 0;
@@ -33,7 +33,7 @@
 
 .section-subtitle {
   color: var(--sab-text-muted);
-  font-size: 0.9rem;
+  font-size: var(--text-md);
   margin-top: 0.25rem;
 }
 
@@ -54,14 +54,14 @@
 }
 
 .summary-stat-value {
-  font-size: 1.75rem;
+  font-size: var(--text-3xl);
   font-weight: 700;
   color: var(--sab-text-light);
   display: block;
 }
 
 .summary-stat-label {
-  font-size: 0.75rem;
+  font-size: var(--text-xs);
   color: var(--sab-text-muted);
   text-transform: uppercase;
   letter-spacing: 0.05em;
@@ -116,7 +116,7 @@
 }
 
 .artifact-name {
-  font-size: 1.4rem;
+  font-size: var(--text-2xl);
   font-weight: 700;
   color: var(--sab-text-white);
   margin: 0 0 0.5rem 0;
@@ -131,11 +131,11 @@
 
 .artifact-star {
   color: #ffd700;
-  font-size: 1rem;
+  font-size: var(--text-base);
 }
 
 .artifact-description {
-  font-size: 0.9rem;
+  font-size: var(--text-md);
   color: var(--sab-text-muted);
   line-height: 1.6;
   white-space: pre-line;
@@ -155,7 +155,7 @@
 }
 
 .artifact-section-title {
-  font-size: 1rem;
+  font-size: var(--text-base);
   font-weight: 600;
   color: var(--sab-text-light);
   margin: 0 0 var(--sab-spacing-md) 0;
@@ -182,7 +182,7 @@
 }
 
 .level-label {
-  font-size: 0.85rem;
+  font-size: var(--text-md);
   font-weight: 600;
   color: var(--sab-text-light);
   text-transform: uppercase;
@@ -192,7 +192,7 @@
 .level-input {
   width: 70px;
   padding: 0.5rem 0.75rem;
-  font-size: 1.1rem;
+  font-size: var(--text-lg);
   font-weight: 700;
   color: var(--sab-text-white);
   background: var(--sab-bg-darker);
@@ -233,7 +233,7 @@
 
 .stat-label {
   display: block;
-  font-size: 0.7rem;
+  font-size: var(--text-2xs);
   font-weight: 600;
   color: var(--sab-text-muted);
   text-transform: uppercase;
@@ -243,7 +243,7 @@
 
 .stat-value {
   display: block;
-  font-size: 1.1rem;
+  font-size: var(--text-lg);
   font-weight: 700;
   color: var(--sab-text-white);
 }
@@ -256,7 +256,7 @@
 }
 
 .upgrade-cost-title {
-  font-size: 0.8rem;
+  font-size: var(--text-sm);
   font-weight: 600;
   color: var(--sab-text-muted);
   text-transform: uppercase;
@@ -288,12 +288,12 @@
 }
 
 .cost-name {
-  font-size: 0.85rem;
+  font-size: var(--text-md);
   color: var(--sab-text-muted);
 }
 
 .cost-amount {
-  font-size: 0.95rem;
+  font-size: var(--text-body);
   font-weight: 700;
   color: var(--sab-calm-red);
 }
@@ -336,14 +336,14 @@
 }
 
 .skill-name {
-  font-size: 1rem;
+  font-size: var(--text-base);
   font-weight: 600;
   color: var(--sab-text-white);
   margin: 0;
 }
 
 .skill-description {
-  font-size: 0.85rem;
+  font-size: var(--text-md);
   color: var(--sab-text-muted);
   line-height: 1.5;
 }
@@ -375,14 +375,14 @@
 }
 
 .exploration-skill-name {
-  font-size: 0.95rem;
+  font-size: var(--text-body);
   font-weight: 600;
   color: var(--sab-text-white);
   margin: 0;
 }
 
 .exploration-skill-uses {
-  font-size: 0.75rem;
+  font-size: var(--text-xs);
   color: var(--sab-text-muted);
   background: rgba(107, 114, 128, 0.3);
   padding: 2px 8px;
@@ -390,7 +390,7 @@
 }
 
 .exploration-skill-description {
-  font-size: 0.85rem;
+  font-size: var(--text-md);
   color: var(--sab-text-muted);
   line-height: 1.5;
 }
@@ -441,7 +441,7 @@
   }
 
   .artifact-name {
-    font-size: 1.2rem;
+    font-size: var(--text-xl);
   }
 
   /* Stats grid - 3 columns on small screens */
@@ -454,11 +454,11 @@
   }
 
   .stat-label {
-    font-size: 0.6rem;
+    font-size: var(--text-3xs);
   }
 
   .stat-value {
-    font-size: 0.95rem;
+    font-size: var(--text-body);
   }
 
   /* Upgrade cost - stack vertically */
@@ -493,7 +493,7 @@
   }
 
   .summary-stat-value {
-    font-size: 1.5rem;
+    font-size: var(--text-2xl);
   }
 
   .artifact-icon-wrapper {
@@ -512,16 +512,16 @@
 
   .level-input {
     width: 60px;
-    font-size: 1rem;
+    font-size: var(--text-base);
     padding: 0.4rem 0.5rem;
   }
 
   .cost-name {
-    font-size: 0.75rem;
+    font-size: var(--text-xs);
   }
 
   .cost-amount {
-    font-size: 0.85rem;
+    font-size: var(--text-md);
   }
 
   .skills-grid {
@@ -529,6 +529,6 @@
   }
 
   .skill-description {
-    font-size: 0.8rem;
+    font-size: var(--text-sm);
   }
 }

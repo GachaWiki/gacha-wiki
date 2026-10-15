@@ -13,7 +13,7 @@
 }
 
 .sab-blog-title {
-  font-size: 1.75rem;
+  font-size: var(--text-3xl);
   font-weight: 700;
   color: var(--sab-text-light);
   margin: 0 0 1rem 0;
@@ -29,7 +29,7 @@
 
 .sab-blog-meta-category {
   display: inline-block;
-  font-size: 0.75rem;
+  font-size: var(--text-xs);
   font-weight: 600;
   padding: 0.25rem 0.6rem;
   border-radius: 3px;
@@ -42,7 +42,7 @@
 
 .sab-blog-meta-date,
 .sab-blog-meta-author {
-  font-size: 0.85rem;
+  font-size: var(--text-md);
   color: var(--sab-text-muted);
 }
 
@@ -52,7 +52,7 @@
 
 .sab-blog-content {
   color: var(--sab-text-medium);
-  font-size: 1rem;
+  font-size: var(--text-base);
   line-height: 1.75;
 }
 
@@ -61,7 +61,7 @@
 }
 
 .sab-blog-content h2 {
-  font-size: 1.35rem;
+  font-size: var(--text-xl);
   font-weight: 600;
   color: var(--sab-text-light);
   margin: 2rem 0 1rem 0;
@@ -70,7 +70,7 @@
 }
 
 .sab-blog-content h3 {
-  font-size: 1.15rem;
+  font-size: var(--text-lg);
   font-weight: 600;
   color: var(--sab-text-light);
   margin: 1.5rem 0 0.75rem 0;
@@ -100,7 +100,7 @@
 }
 
 .sab-blog-content figcaption {
-  font-size: 0.85rem;
+  font-size: var(--text-md);
   color: var(--sab-text-muted);
   margin-top: 0.5rem;
 }
@@ -177,7 +177,7 @@
   width: 100%;
   border-collapse: collapse;
   margin: 1.5rem 0;
-  font-size: 0.9rem;
+  font-size: var(--text-md);
   display: block;
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
@@ -227,7 +227,7 @@
 }
 
 .sab-blog-tags-label {
-  font-size: 0.85rem;
+  font-size: var(--text-md);
   font-weight: 600;
   color: var(--sab-text-light);
   margin-bottom: 0.75rem;
@@ -243,7 +243,7 @@
 
 .sab-blog-tag {
   display: inline-block;
-  font-size: 0.75rem;
+  font-size: var(--text-xs);
   font-weight: 500;
   padding: 0.25rem 0.6rem;
   border-radius: 3px;
@@ -262,7 +262,7 @@
   display: inline-flex;
   align-items: center;
   gap: 0.5rem;
-  font-size: 0.9rem;
+  font-size: var(--text-md);
   color: var(--sab-text-medium);
   text-decoration: none;
 }
@@ -274,19 +274,19 @@
   }
 
   .sab-blog-title {
-    font-size: 1.5rem;
+    font-size: var(--text-2xl);
   }
 
   .sab-blog-content {
-    font-size: 0.95rem;
+    font-size: var(--text-body);
   }
 
   .sab-blog-content h2 {
-    font-size: 1.25rem;
+    font-size: var(--text-xl);
   }
 
   .sab-blog-content h3 {
-    font-size: 1.1rem;
+    font-size: var(--text-lg);
   }
 
   .sab-blog-meta {
@@ -300,7 +300,7 @@
 
   .sab-blog-content table,
   .sab-blog-table {
-    font-size: 0.85rem;
+    font-size: var(--text-md);
   }
 
   .sab-blog-content table th,
@@ -317,7 +317,7 @@
   }
 
   .sab-blog-title {
-    font-size: 1.3rem;
+    font-size: var(--text-xl);
   }
 
   .sab-blog-header {
@@ -326,7 +326,7 @@
   }
 
   .sab-blog-content {
-    font-size: 0.9rem;
+    font-size: var(--text-md);
     line-height: 1.65;
   }
 
@@ -335,12 +335,12 @@
   }
 
   .sab-blog-content h2 {
-    font-size: 1.15rem;
+    font-size: var(--text-lg);
     margin: 1.5rem 0 0.75rem 0;
   }
 
   .sab-blog-content h3 {
-    font-size: 1rem;
+    font-size: var(--text-base);
   }
 
   .sab-blog-content ul,
@@ -353,13 +353,13 @@
   }
 
   .sab-blog-meta-category {
-    font-size: 0.7rem;
+    font-size: var(--text-2xs);
     padding: 0.2rem 0.5rem;
   }
 
   .sab-blog-meta-date,
   .sab-blog-meta-author {
-    font-size: 0.8rem;
+    font-size: var(--text-sm);
   }
 
   .sab-blog-tags {
@@ -368,7 +368,7 @@
   }
 
   .sab-blog-tag {
-    font-size: 0.7rem;
+    font-size: var(--text-2xs);
     padding: 0.2rem 0.5rem;
     min-height: 32px;
     display: inline-flex;
@@ -377,7 +377,7 @@
 
   .sab-blog-content table,
   .sab-blog-table {
-    font-size: 0.8rem;
+    font-size: var(--text-sm);
   }
 
   .sab-blog-content table th,

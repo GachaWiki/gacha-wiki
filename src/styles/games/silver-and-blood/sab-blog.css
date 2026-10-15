@@ -18,7 +18,7 @@
 
 .sab-blog-intro-text {
   color: var(--sab-text-medium);
-  font-size: 0.95rem;
+  font-size: var(--text-body);
   line-height: 1.6;
   margin: 0;
 }
@@ -30,7 +30,7 @@
 }
 
 .sab-blog-section-title {
-  font-size: 1.25rem;
+  font-size: var(--text-xl);
   font-weight: 600;
   color: var(--sab-text-light);
   margin-bottom: 1rem;
@@ -78,7 +78,7 @@
 
 .sab-blog-card-category {
   display: inline-block;
-  font-size: 0.7rem;
+  font-size: var(--text-2xs);
   font-weight: 600;
   padding: 0.2rem 0.5rem;
   border-radius: 3px;
@@ -90,12 +90,12 @@
 }
 
 .sab-blog-card-date {
-  font-size: 0.8rem;
+  font-size: var(--text-sm);
   color: var(--sab-text-muted);
 }
 
 .sab-blog-card-title {
-  font-size: 1.1rem;
+  font-size: var(--text-lg);
   font-weight: 600;
   color: var(--sab-text-light);
   margin: 0;
@@ -103,7 +103,7 @@
 }
 
 .sab-blog-card-excerpt {
-  font-size: 0.9rem;
+  font-size: var(--text-md);
   color: var(--sab-text-medium);
   line-height: 1.5;
   margin: 0;
@@ -114,7 +114,7 @@
 }
 
 .sab-blog-card-author {
-  font-size: 0.8rem;
+  font-size: var(--text-sm);
   color: var(--sab-text-muted);
   margin-top: auto;
   padding-top: 0.5rem;
@@ -128,14 +128,14 @@
 }
 
 .sab-blog-empty h3 {
-  font-size: 1.25rem;
+  font-size: var(--text-xl);
   font-weight: 600;
   color: var(--sab-text-light);
   margin: 0 0 0.5rem 0;
 }
 
 .sab-blog-empty p {
-  font-size: 0.95rem;
+  font-size: var(--text-body);
   margin: 0;
 }
 
@@ -154,11 +154,11 @@
   }
 
   .sab-blog-card-title {
-    font-size: 1rem;
+    font-size: var(--text-base);
   }
 
   .sab-blog-section-title {
-    font-size: 1.1rem;
+    font-size: var(--text-lg);
   }
 }
 
@@ -177,22 +177,22 @@
   }
 
   .sab-blog-card-title {
-    font-size: 0.95rem;
+    font-size: var(--text-body);
   }
 
   .sab-blog-card-excerpt {
-    font-size: 0.85rem;
+    font-size: var(--text-md);
     -webkit-line-clamp: 2;
   }
 
   .sab-blog-card-category {
-    font-size: 0.65rem;
+    font-size: var(--text-3xs);
     padding: 0.15rem 0.4rem;
   }
 
   .sab-blog-card-date,
   .sab-blog-card-author {
-    font-size: 0.75rem;
+    font-size: var(--text-xs);
   }
 
   .sab-blog-intro {
@@ -200,6 +200,6 @@
   }
 
   .sab-blog-intro-text {
-    font-size: 0.85rem;
+    font-size: var(--text-md);
   }
 }

@@ -11,7 +11,7 @@
 
 .section-title {
   color: var(--sab-text-light, #e0e0e0);
-  font-size: 1.5rem;
+  font-size: var(--text-2xl);
   margin: 2rem 0 1rem;
   padding-bottom: 0.5rem;
   border-bottom: 2px solid var(--sab-calm-red, #8b0000);
@@ -52,7 +52,7 @@
 }
 
 .character-full-name {
-  font-size: 2rem;
+  font-size: var(--text-4xl);
   color: var(--sab-text-light, #e0e0e0);
   margin: 0 0 0.25rem;
 }
@@ -76,7 +76,7 @@
   align-items: center;
   gap: 0.5rem;
   color: var(--sab-text-light, #e0e0e0);
-  font-size: 0.85rem;
+  font-size: var(--text-md);
   padding: 0.4rem 0.75rem;
   background: rgba(0, 0, 0, 0.3);
   border-radius: 6px;
@@ -100,7 +100,7 @@
   color: var(--sab-text-light, #e0e0e0);
   padding: 0.25rem 0.75rem;
   border-radius: 4px;
-  font-size: 0.85rem;
+  font-size: var(--text-md);
 }
 
 /* Stats Section */
@@ -131,7 +131,7 @@
 .level-control label {
   color: var(--sab-text-light, #e0e0e0);
   font-weight: 600;
-  font-size: 0.9rem;
+  font-size: var(--text-md);
 }
 
 .level-input {
@@ -160,7 +160,7 @@
 .ss-control label {
   color: var(--sab-text-light, #e0e0e0);
   font-weight: 600;
-  font-size: 0.9rem;
+  font-size: var(--text-md);
   margin-bottom: 0;
 }
 
@@ -177,7 +177,7 @@
   border-radius: 4px;
   color: var(--sab-text-medium, #a0a0a0);
   cursor: pointer;
-  font-size: 0.8rem;
+  font-size: var(--text-sm);
 }
 
 .ss-btn.active {
@@ -203,7 +203,7 @@
   background: var(--sab-bg-dark, #1a1a1a);
   border: 1px solid var(--sab-border-light, #444);
   border-radius: 6px;
-  font-size: 0.85rem;
+  font-size: var(--text-md);
 }
 
 .bonus-toggle input[type="checkbox"] {
@@ -237,14 +237,14 @@
 
 .stat-label {
   color: var(--sab-text-medium, #a0a0a0);
-  font-size: 0.85rem;
+  font-size: var(--text-md);
   margin-bottom: 0.5rem;
 }
 
 .stat-value {
   color: var(--sab-calm-red, #8b0000);
   font-weight: 700;
-  font-size: 1.25rem;
+  font-size: var(--text-xl);
 }
 
 .stats-info {
@@ -258,7 +258,7 @@
 .stats-note {
   margin: 0 0 0.5rem 0;
   color: var(--sab-text-light, #e0e0e0);
-  font-size: 0.9rem;
+  font-size: var(--text-md);
 }
 
 .stats-note span {
@@ -269,7 +269,7 @@
 .gallery-note {
   margin: 0;
   color: var(--sab-text-medium, #a0a0a0);
-  font-size: 0.85rem;
+  font-size: var(--text-md);
   font-style: italic;
 }
 
@@ -297,7 +297,7 @@
   border-radius: 4px;
   color: var(--sab-text-light, #e0e0e0);
   cursor: pointer;
-  font-size: 1.2rem;
+  font-size: var(--text-xl);
 }
 
 .skill-level-control input {
@@ -351,7 +351,7 @@
 
 .skill-name {
   color: var(--sab-text-light, #e0e0e0);
-  font-size: 1.1rem;
+  font-size: var(--text-lg);
   margin: 0 0 0.5rem;
 }
 
@@ -359,7 +359,7 @@
   display: inline-block;
   padding: 0.2rem 0.5rem;
   border-radius: 4px;
-  font-size: 0.8rem;
+  font-size: var(--text-sm);
   margin-right: 0.5rem;
   background: var(--sab-calm-red, #8b0000);
   color: white;
@@ -367,7 +367,7 @@
 
 .skill-cost {
   color: #dc3545;
-  font-size: 0.9rem;
+  font-size: var(--text-md);
 }
 
 .skill-description {
@@ -395,7 +395,7 @@
 
 .effects-label {
   color: var(--sab-text-medium, #a0a0a0);
-  font-size: 0.9rem;
+  font-size: var(--text-md);
   margin-bottom: 0.5rem;
   display: block;
 }
@@ -432,7 +432,7 @@
   align-items: center;
   justify-content: center;
   color: var(--sab-text-medium, #a0a0a0);
-  font-size: 0.8rem;
+  font-size: var(--text-sm);
 }
 
 .effect-info {
@@ -442,12 +442,12 @@
 .effect-name {
   color: var(--sab-text-light, #e0e0e0);
   font-weight: 600;
-  font-size: 0.9rem;
+  font-size: var(--text-md);
 }
 
 .effect-desc {
   color: var(--sab-text-medium, #a0a0a0);
-  font-size: 0.85rem;
+  font-size: var(--text-md);
   margin: 0.25rem 0 0;
   line-height: 1.4;
 }
@@ -461,7 +461,7 @@
 
 .tips-label {
   color: var(--sab-text-medium, #a0a0a0);
-  font-size: 0.9rem;
+  font-size: var(--text-md);
   margin-bottom: 0.5rem;
   display: block;
 }
@@ -489,14 +489,14 @@
 .tip-name {
   color: var(--sab-calm-red, #c26b6b);
   font-weight: 600;
-  font-size: 0.9rem;
+  font-size: var(--text-md);
   display: block;
   margin-bottom: 0.25rem;
 }
 
 .tip-desc {
   color: var(--sab-text-medium, #a0a0a0);
-  font-size: 0.85rem;
+  font-size: var(--text-md);
   margin: 0;
   line-height: 1.4;
 }
@@ -524,7 +524,7 @@
 
 .voice-actor-language {
   color: var(--sab-text-medium, #a0a0a0);
-  font-size: 0.9rem;
+  font-size: var(--text-md);
   margin-bottom: 0.5rem;
 }
 
@@ -581,7 +581,7 @@
 
 .story-unlock {
   color: var(--sab-text-medium, #a0a0a0);
-  font-size: 0.85rem;
+  font-size: var(--text-md);
 }
 
 .story-content {
@@ -624,7 +624,7 @@
 
 .affinity-info-label {
   color: var(--sab-text-medium, #a0a0a0);
-  font-size: 0.8rem;
+  font-size: var(--text-sm);
   text-transform: uppercase;
   letter-spacing: 0.05em;
 }
@@ -632,7 +632,7 @@
 .affinity-info-value {
   color: var(--sab-text-light, #e0e0e0);
   font-weight: 600;
-  font-size: 1.1rem;
+  font-size: var(--text-lg);
 }
 
 .affinity-info-value.lv40 {
@@ -645,7 +645,7 @@
 
 .subsection-title {
   color: var(--sab-text-light, #e0e0e0);
-  font-size: 1.1rem;
+  font-size: var(--text-lg);
   font-weight: 600;
   margin: 0 0 1rem;
 }
@@ -688,7 +688,7 @@
 }
 
 .gift-item-name {
-  font-size: 0.9rem;
+  font-size: var(--text-md);
   font-weight: 500;
   color: var(--sab-text-light, #e0e0e0);
   margin: 0;
@@ -710,16 +710,16 @@
 
 .gift-item-star {
   color: #d4af37;
-  font-size: 0.7rem;
+  font-size: var(--text-2xs);
 }
 
 .gift-item-exp {
-  font-size: 0.75rem;
+  font-size: var(--text-xs);
   color: var(--sab-text-medium, #a0a0a0);
 }
 
 .gift-item-qty {
-  font-size: 1rem;
+  font-size: var(--text-base);
   font-weight: 700;
   color: var(--sab-calm-red, #c26b6b);
   white-space: nowrap;
@@ -729,7 +729,7 @@
 
 .gifts-note {
   margin: 0.75rem 0 0;
-  font-size: 0.8rem;
+  font-size: var(--text-sm);
   color: var(--sab-text-medium, #a0a0a0);
   font-style: italic;
 }
@@ -747,7 +747,7 @@
 
 .rank-input-label {
   display: block;
-  font-size: 0.8rem;
+  font-size: var(--text-sm);
   color: var(--sab-text-medium, #a0a0a0);
   margin-bottom: 0.5rem;
   text-transform: uppercase;
@@ -766,7 +766,7 @@
   border: 1px solid var(--sab-border-light, #444);
   background: var(--sab-bg-dark, #1a1a1a);
   color: var(--sab-text-light, #e0e0e0);
-  font-size: 1.2rem;
+  font-size: var(--text-xl);
   font-weight: 600;
   border-radius: 6px;
   cursor: pointer;
@@ -780,7 +780,7 @@
   width: 70px;
   height: 36px;
   text-align: center;
-  font-size: 1.1rem;
+  font-size: var(--text-lg);
   font-weight: 600;
   color: var(--sab-text-light, #e0e0e0);
   background: var(--sab-bg-dark, #1a1a1a);
@@ -824,7 +824,7 @@
 
 .rank-stat-label {
   display: block;
-  font-size: 0.65rem;
+  font-size: var(--text-3xs);
   color: var(--sab-text-medium, #a0a0a0);
   text-transform: uppercase;
   margin-bottom: 2px;
@@ -832,7 +832,7 @@
 
 .rank-stat-value {
   display: block;
-  font-size: 0.95rem;
+  font-size: var(--text-body);
   font-weight: 600;
   color: var(--sab-text-light, #e0e0e0);
 }
@@ -848,18 +848,18 @@
 }
 
 .rank-gifts-label {
-  font-size: 0.8rem;
+  font-size: var(--text-sm);
   color: var(--sab-text-medium, #a0a0a0);
 }
 
 .rank-gifts-value {
-  font-size: 1rem;
+  font-size: var(--text-base);
   font-weight: 700;
   color: var(--sab-calm-red, #c26b6b);
 }
 
 .rank-break-notice {
-  font-size: 0.75rem;
+  font-size: var(--text-xs);
   color: var(--sab-calm-red, #c26b6b);
   background: rgba(194, 107, 107, 0.15);
   border-radius: 6px;
@@ -877,7 +877,7 @@
 
 .heirloom-subtitle {
   color: var(--sab-text-light, #e0e0e0);
-  font-size: 1.1rem;
+  font-size: var(--text-lg);
   font-weight: 600;
   margin: 0 0 1rem;
 }
@@ -905,7 +905,7 @@
 
 .heirloom-stat-label {
   display: block;
-  font-size: 0.75rem;
+  font-size: var(--text-xs);
   color: var(--sab-text-medium, #a0a0a0);
   margin-bottom: 0.25rem;
   text-transform: uppercase;
@@ -913,7 +913,7 @@
 
 .heirloom-stat-value {
   display: block;
-  font-size: 1.1rem;
+  font-size: var(--text-lg);
   font-weight: 700;
   color: var(--sab-calm-red, #c26b6b);
 }
@@ -952,14 +952,14 @@
 
 .resonantia-skill-name {
   color: var(--sab-text-light, #e0e0e0);
-  font-size: 1rem;
+  font-size: var(--text-base);
   font-weight: 600;
   margin: 0 0 0.25rem;
 }
 
 .resonantia-skill-rank {
   color: var(--sab-text-medium, #a0a0a0);
-  font-size: 0.8rem;
+  font-size: var(--text-sm);
 }
 
 .resonantia-tabs {
@@ -975,7 +975,7 @@
   color: var(--sab-text-medium, #a0a0a0);
   border-radius: 4px;
   cursor: pointer;
-  font-size: 0.85rem;
+  font-size: var(--text-md);
   transition: all 0.2s ease;
 }
 
@@ -988,7 +988,7 @@
 
 .resonantia-skill-desc {
   color: var(--sab-text-medium, #a0a0a0);
-  font-size: 0.9rem;
+  font-size: var(--text-md);
   line-height: 1.6;
   margin-bottom: 0.75rem;
 }
@@ -1012,7 +1012,7 @@
   padding: 0.5rem 0.75rem;
   background: rgba(139, 0, 0, 0.15);
   border-radius: 6px;
-  font-size: 0.85rem;
+  font-size: var(--text-md);
 }
 
 .unlock-label {
@@ -1038,7 +1038,7 @@
 }
 
 .legend-item {
-  font-size: 0.8rem;
+  font-size: var(--text-sm);
   color: var(--sab-text-medium, #a0a0a0);
 }
 
@@ -1118,7 +1118,7 @@
   }
 
   .stat-value {
-    font-size: 1.1rem;
+    font-size: var(--text-lg);
   }
 
   /* Affinity section mobile */
@@ -1137,15 +1137,15 @@
   }
 
   .affinity-info-label {
-    font-size: 0.7rem;
+    font-size: var(--text-2xs);
   }
 
   .affinity-info-value {
-    font-size: 0.95rem;
+    font-size: var(--text-body);
   }
 
   .subsection-title {
-    font-size: 1rem;
+    font-size: var(--text-base);
   }
 
   .preferred-gifts-section,
@@ -1164,37 +1164,37 @@
   }
 
   .gift-item-name {
-    font-size: 0.8rem;
+    font-size: var(--text-sm);
   }
 
   .gift-item-star {
-    font-size: 0.6rem;
+    font-size: var(--text-3xs);
   }
 
   .gift-item-exp {
-    font-size: 0.7rem;
+    font-size: var(--text-2xs);
   }
 
   .gift-item-qty {
-    font-size: 0.9rem;
+    font-size: var(--text-md);
     min-width: 38px;
   }
 
   .gifts-note {
-    font-size: 0.75rem;
+    font-size: var(--text-xs);
   }
 
   /* Rank calculator mobile - ensure minimum touch target 44px */
   .rank-btn {
     width: 44px;
     height: 44px;
-    font-size: 1.4rem;
+    font-size: var(--text-2xl);
   }
 
   .rank-input {
     width: 60px;
     height: 44px;
-    font-size: 16px; /* Prevents iOS zoom on focus */
+    font-size: var(--text-base); /* Prevents iOS zoom on focus */
   }
 
   .rank-stat-item {
@@ -1202,11 +1202,11 @@
   }
 
   .rank-stat-label {
-    font-size: 0.6rem;
+    font-size: var(--text-3xs);
   }
 
   .rank-stat-value {
-    font-size: 0.85rem;
+    font-size: var(--text-md);
   }
 
   .rank-gifts-display {
@@ -1216,11 +1216,11 @@
   }
 
   .rank-gifts-label {
-    font-size: 0.75rem;
+    font-size: var(--text-xs);
   }
 
   .rank-gifts-value {
-    font-size: 1.1rem;
+    font-size: var(--text-lg);
   }
 
   /* Heirloom mobile */
@@ -1238,11 +1238,11 @@
   }
 
   .heirloom-stat-label {
-    font-size: 0.65rem;
+    font-size: var(--text-3xs);
   }
 
   .heirloom-stat-value {
-    font-size: 0.95rem;
+    font-size: var(--text-body);
   }
 
   .resonantia-skill-header {
@@ -1251,11 +1251,11 @@
 
   .res-tab {
     padding: 0.35rem 0.6rem;
-    font-size: 0.8rem;
+    font-size: var(--text-sm);
   }
 
   .resonantia-skill-desc {
-    font-size: 0.85rem;
+    font-size: var(--text-md);
   }
 
   .resonantia-unlock-req {

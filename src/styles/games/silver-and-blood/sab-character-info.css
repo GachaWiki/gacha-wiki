@@ -63,7 +63,7 @@
 }
 
 .character-full-name {
-  font-size: 2.2rem;
+  font-size: var(--text-4xl);
   font-weight: 700;
   color: var(--sab-text-white);
   margin: 0 0 0.25rem 0;
@@ -71,7 +71,7 @@
 }
 
 .character-title-epithet {
-  font-size: 1.1rem;
+  font-size: var(--text-lg);
   color: var(--sab-calm-red);
   font-style: italic;
   margin: 0;
@@ -93,7 +93,7 @@
 }
 
 .info-label {
-  font-size: 0.85rem;
+  font-size: var(--text-md);
   color: var(--sab-text-muted);
   min-width: 80px;
   text-transform: uppercase;
@@ -101,7 +101,7 @@
 }
 
 .info-value {
-  font-size: 1rem;
+  font-size: var(--text-base);
   color: var(--sab-text-light);
   font-weight: 500;
   font-style: italic;
@@ -116,7 +116,7 @@
   gap: 6px;
   padding: 4px 10px;
   border-radius: 4px;
-  font-size: 0.85rem;
+  font-size: var(--text-md);
   font-weight: 600;
 }
 
@@ -165,7 +165,7 @@
 }
 
 .combat-stat-value {
-  font-size: 0.9rem;
+  font-size: var(--text-md);
   color: var(--sab-text-light);
   font-weight: 500;
 }
@@ -184,7 +184,7 @@
   color: var(--sab-light-red);
   padding: 4px 10px;
   border-radius: 12px;
-  font-size: 0.8rem;
+  font-size: var(--text-sm);
   font-weight: 500;
 }
 
@@ -206,7 +206,7 @@
 
 .combat-desc-label {
   display: block;
-  font-size: 0.75rem;
+  font-size: var(--text-xs);
   color: var(--sab-calm-red);
   text-transform: uppercase;
   letter-spacing: 0.5px;
@@ -215,7 +215,7 @@
 }
 
 .combat-desc-text {
-  font-size: 0.85rem;
+  font-size: var(--text-md);
   color: var(--sab-text-light);
   line-height: 1.5;
   margin: 0;
@@ -230,7 +230,7 @@
 }
 
 .section-title {
-  font-size: 1.4rem;
+  font-size: var(--text-2xl);
   font-weight: 600;
   color: var(--sab-text-white);
   margin: 0 0 var(--sab-spacing-md) 0;
@@ -253,7 +253,7 @@
 }
 
 .voice-actor-language {
-  font-size: 0.8rem;
+  font-size: var(--text-sm);
   color: var(--sab-text-muted);
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -261,7 +261,7 @@
 }
 
 .voice-actor-name {
-  font-size: 1.1rem;
+  font-size: var(--text-lg);
   color: var(--sab-text-white);
   font-weight: 500;
   font-style: italic;
@@ -310,19 +310,19 @@
   background: var(--sab-calm-red);
   border-radius: 50%;
   font-weight: 700;
-  font-size: 0.9rem;
+  font-size: var(--text-md);
   color: #fff;
 }
 
 .story-title {
-  font-size: 1.1rem;
+  font-size: var(--text-lg);
   font-weight: 600;
   color: var(--sab-text-white);
   margin: 0;
 }
 
 .story-unlock {
-  font-size: 0.8rem;
+  font-size: var(--text-sm);
   color: var(--sab-text-muted);
   padding: 4px 10px;
   background: rgba(100, 100, 100, 0.2);
@@ -334,7 +334,7 @@
 }
 
 .story-text {
-  font-size: 1rem;
+  font-size: var(--text-base);
   line-height: 1.8;
   color: var(--sab-text-medium);
   white-space: pre-wrap;
@@ -369,14 +369,14 @@
 }
 
 .characters-index-title {
-  font-size: 2.5rem;
+  font-size: var(--text-5xl);
   font-weight: 700;
   color: var(--sab-text-white);
   margin: 0 0 0.5rem 0;
 }
 
 .characters-index-subtitle {
-  font-size: 1.1rem;
+  font-size: var(--text-lg);
   color: var(--sab-text-muted);
   margin: 0;
 }
@@ -400,7 +400,7 @@
 }
 
 .filter-label {
-  font-size: 0.85rem;
+  font-size: var(--text-md);
   color: var(--sab-text-muted);
   text-transform: uppercase;
   letter-spacing: 0.5px;
@@ -412,7 +412,7 @@
   border: 1px solid var(--sab-border-gray);
   border-radius: var(--sab-radius-sm);
   color: var(--sab-input-text);
-  font-size: 0.9rem;
+  font-size: var(--text-md);
   cursor: pointer;
 }
 
@@ -429,7 +429,7 @@
   border: 1px solid var(--sab-border-gray);
   border-radius: var(--sab-radius-sm);
   color: var(--sab-input-text);
-  font-size: 0.9rem;
+  font-size: var(--text-md);
 }
 
 .filter-search:focus {
@@ -490,7 +490,7 @@
   padding: 3px 10px;
   border-radius: 15px;
   font-weight: 700;
-  font-size: 0.75rem;
+  font-size: var(--text-xs);
   letter-spacing: 1px;
 }
 
@@ -505,7 +505,7 @@
 }
 
 .character-card-name {
-  font-size: 1rem;
+  font-size: var(--text-base);
   font-weight: 600;
   color: var(--sab-text-white);
   margin: 0 0 5px 0;
@@ -516,7 +516,7 @@
 }
 
 .character-card-title {
-  font-size: 0.8rem;
+  font-size: var(--text-sm);
   color: var(--sab-calm-red);
   font-style: italic;
   margin: 0;
@@ -574,11 +574,11 @@
   }
 
   .character-full-name {
-    font-size: 1.6rem;
+    font-size: var(--text-2xl);
   }
 
   .character-title-epithet {
-    font-size: 1rem;
+    font-size: var(--text-base);
   }
 
   /* Info items mobile - stack label and value */
@@ -590,11 +590,11 @@
 
   .info-label {
     min-width: unset;
-    font-size: 0.75rem;
+    font-size: var(--text-xs);
   }
 
   .info-value {
-    font-size: 0.95rem;
+    font-size: var(--text-body);
   }
 
   /* Combat stats mobile */
@@ -613,7 +613,7 @@
   }
 
   .combat-stat-value {
-    font-size: 0.8rem;
+    font-size: var(--text-sm);
   }
 
   .combat-tags {
@@ -621,7 +621,7 @@
   }
 
   .combat-tag {
-    font-size: 0.7rem;
+    font-size: var(--text-2xs);
     padding: 3px 8px;
   }
 
@@ -630,15 +630,15 @@
   }
 
   .combat-desc-label {
-    font-size: 0.7rem;
+    font-size: var(--text-2xs);
   }
 
   .combat-desc-text {
-    font-size: 0.8rem;
+    font-size: var(--text-sm);
   }
 
   .characters-index-title {
-    font-size: 1.8rem;
+    font-size: var(--text-3xl);
   }
 
   .characters-filters {
@@ -655,14 +655,14 @@
 
   .filter-label {
     min-width: unset;
-    font-size: 0.75rem;
+    font-size: var(--text-xs);
   }
 
   .filter-select,
   .filter-search {
     width: 100%;
     padding: 12px;
-    font-size: 16px; /* Prevents iOS zoom on focus */
+    font-size: var(--text-base); /* Prevents iOS zoom on focus */
   }
 
   .characters-grid {
@@ -681,13 +681,13 @@
   }
 
   .character-card-name {
-    font-size: 0.8rem;
+    font-size: var(--text-sm);
     margin-bottom: 3px;
     white-space: normal;
   }
 
   .character-card-title {
-    font-size: 0.65rem;
+    font-size: var(--text-3xs);
     -webkit-line-clamp: 2;
   }
 
@@ -716,17 +716,17 @@
   }
 
   .story-title {
-    font-size: 1rem;
+    font-size: var(--text-base);
   }
 
   .story-number {
     width: 28px;
     height: 28px;
-    font-size: 0.8rem;
+    font-size: var(--text-sm);
   }
 
   .story-unlock {
-    font-size: 0.7rem;
+    font-size: var(--text-2xs);
     padding: 3px 6px;
   }
 
@@ -736,7 +736,7 @@
   }
 
   .section-title {
-    font-size: 1.2rem;
+    font-size: var(--text-xl);
   }
 
   .story-content {
@@ -744,7 +744,7 @@
   }
 
   .story-text {
-    font-size: 0.95rem;
+    font-size: var(--text-body);
     line-height: 1.7;
   }
 }

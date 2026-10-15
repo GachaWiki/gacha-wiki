@@ -130,7 +130,7 @@
 .attack-badge {
   padding: 0.2rem 0.6rem;
   border-radius: 10px;
-  font-size: 0.85rem;
+  font-size: var(--text-md);
   font-weight: 600;
   display: inline-block;
   text-align: center;
@@ -379,7 +379,7 @@
 .tag-badge {
   padding: 0.2rem 0.6rem;
   border-radius: 10px;
-  font-size: 0.8rem;
+  font-size: var(--text-sm);
   font-weight: 600;
   display: inline-block;
   text-align: center;
@@ -549,7 +549,7 @@
 .skill-badge.small,
 .tag-badge.small {
   padding: 0.15rem 0.4rem;
-  font-size: 0.75rem;
+  font-size: var(--text-xs);
 }
 
 /* Large badge variant */
@@ -563,5 +563,5 @@
 .skill-badge.large,
 .tag-badge.large {
   padding: 0.3rem 0.8rem;
-  font-size: 1rem;
+  font-size: var(--text-base);
 }

@@ -25,7 +25,7 @@
 }
 
 .section-title {
-  font-size: 1.5rem;
+  font-size: var(--text-2xl);
   font-weight: 700;
   color: var(--sab-calm-red, #c26b6b);
   margin: 0;
@@ -33,7 +33,7 @@
 
 .section-subtitle {
   color: var(--sab-text-muted);
-  font-size: 0.9rem;
+  font-size: var(--text-md);
   margin-top: 0.25rem;
 }
 
@@ -54,14 +54,14 @@
 }
 
 .summary-stat-value {
-  font-size: 1.75rem;
+  font-size: var(--text-3xl);
   font-weight: 700;
   color: var(--sab-text-light);
   display: block;
 }
 
 .summary-stat-label {
-  font-size: 0.75rem;
+  font-size: var(--text-xs);
   color: var(--sab-text-muted);
   text-transform: uppercase;
   letter-spacing: 0.05em;
@@ -85,7 +85,7 @@
   border: 1px solid var(--sab-border-gray);
   background: var(--sab-bg-medium);
   color: var(--sab-text-medium);
-  font-size: 0.875rem;
+  font-size: var(--text-md);
   cursor: pointer;
 }
 
@@ -177,7 +177,7 @@
 }
 
 .gift-name {
-  font-size: 1.1rem;
+  font-size: var(--text-lg);
   font-weight: 600;
   color: var(--sab-text-white);
   margin: 0 0 0.25rem 0;
@@ -198,13 +198,13 @@
 
 .gift-star {
   color: #ffd700;
-  font-size: 0.875rem;
+  font-size: var(--text-md);
 }
 
 .gift-camp-badge {
   padding: 3px 10px;
   border-radius: 4px;
-  font-size: 0.7rem;
+  font-size: var(--text-2xs);
   font-weight: 600;
   text-transform: uppercase;
 }
@@ -251,7 +251,7 @@
 }
 
 .gift-description {
-  font-size: 0.85rem;
+  font-size: var(--text-md);
   color: var(--sab-text-muted);
   line-height: 1.5;
   margin-bottom: var(--sab-spacing-md);
@@ -272,14 +272,14 @@
 }
 
 .gift-exp-value {
-  font-size: 1.5rem;
+  font-size: var(--text-2xl);
   font-weight: 700;
   color: var(--sab-text-light);
   display: block;
 }
 
 .gift-exp-label {
-  font-size: 0.65rem;
+  font-size: var(--text-3xs);
   color: var(--sab-text-muted);
   text-transform: uppercase;
   letter-spacing: 0.03em;
@@ -337,7 +337,7 @@
   }
 
   .summary-stat-value {
-    font-size: 1.5rem;
+    font-size: var(--text-2xl);
   }
 
   .gift-icon-wrapper {
@@ -346,6 +346,6 @@
   }
 
   .gift-name {
-    font-size: 1rem;
+    font-size: var(--text-base);
   }
 }

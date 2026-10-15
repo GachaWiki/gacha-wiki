@@ -96,7 +96,7 @@
 .side-pool h3 {
   margin: 0 0 1rem 0;
   color: #ffffff;
-  font-size: 1.1rem;
+  font-size: var(--text-lg);
   text-align: center;
   padding-bottom: 0.5rem;
   border-bottom: 1px solid var(--sab-border-gray);
@@ -138,21 +138,21 @@
 }
 
 .tier-list-title {
-  font-size: 1.8rem;
+  font-size: var(--text-3xl);
   font-weight: bold;
   margin-bottom: 0.5rem;
   color: #ffffff;
 }
 
 .tier-list-description {
-  font-size: 1rem;
+  font-size: var(--text-base);
   color: var(--sab-text-white);
   margin-bottom: 0.5rem;
   line-height: 1.4;
 }
 
 .tier-list-updated {
-  font-size: 0.875rem;
+  font-size: var(--text-md);
   color: var(--sab-text-muted);
   font-style: italic;
 }
@@ -183,7 +183,7 @@
   justify-content: center;
   min-width: 100px;
   width: 100px;
-  font-size: 2rem;
+  font-size: var(--text-4xl);
   font-weight: 900;
   color: white;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
@@ -260,7 +260,7 @@
 
 .tier-situational {
   background: linear-gradient(135deg, #6b7280, #4b5563);
-  font-size: 1.1rem;
+  font-size: var(--text-lg);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -357,7 +357,7 @@
 
 .tier-character-card .character-name {
   font-family: var(--font-primary);
-  font-size: 1rem;
+  font-size: var(--text-base);
   font-weight: 700;
   color: #ffffff;
   margin-bottom: 0.25rem;
@@ -387,7 +387,7 @@
 }
 
 .mini-badge {
-  font-size: 0.6rem;
+  font-size: var(--text-3xs);
   font-weight: 800;
   padding: 0.2rem 0.4rem;
   border-radius: 4px;
@@ -409,7 +409,7 @@
   border-radius: 6px 6px 0 0;
   color: rgba(255, 255, 255, 0.8);
   cursor: pointer;
-  font-size: 14px;
+  font-size: var(--text-md);
   font-weight: bold;
   display: flex;
   align-items: flex-start;
@@ -504,7 +504,7 @@
 
 .pool-character-name {
   width: 100%;
-  font-size: 0.75rem;
+  font-size: var(--text-xs);
   font-weight: 700;
   color: #ffffff;
   line-height: 1.05;
@@ -532,7 +532,7 @@
 }
 
 .pool-mini-badge {
-  font-size: 0.45rem;
+  font-size: var(--text-3xs);
   font-weight: 800;
   padding: 0.1rem 0.2rem;
   border-radius: 3px;
@@ -590,7 +590,7 @@
   align-items: center;
   justify-content: center;
   font-weight: bold;
-  font-size: 1.1rem;
+  font-size: var(--text-lg);
   color: white;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
   border-radius: 6px;
@@ -598,7 +598,7 @@
 }
 
 .legend-tier.tier-situational {
-  font-size: 0.7rem;
+  font-size: var(--text-2xs);
 }
 
 .legend-description {
@@ -614,7 +614,7 @@
 
 .legend-text {
   color: var(--sab-text-white);
-  font-size: 0.9rem;
+  font-size: var(--text-md);
   line-height: 1.4;
 }
 
@@ -648,7 +648,7 @@
 
   .mode-btn {
     padding: 0.6rem 1.2rem;
-    font-size: 0.9rem;
+    font-size: var(--text-md);
   }
 
   .maker-controls {
@@ -659,7 +659,7 @@
 
   .control-btn {
     padding: 0.6rem 1rem;
-    font-size: 0.85rem;
+    font-size: var(--text-md);
     width: 100%;
   }
 
@@ -669,7 +669,7 @@
 
   .tier-type-btn {
     padding: 0.6rem 1rem;
-    font-size: 0.9rem;
+    font-size: var(--text-md);
   }
 
   .maker-layout {
@@ -724,7 +724,7 @@
   }
 
   .pool-character-name {
-    font-size: 0.65rem;
+    font-size: var(--text-3xs);
     font-weight: 700;
     line-height: 1;
     margin-bottom: 2px;
@@ -746,7 +746,7 @@
 
   .pool-character-card .pool-mini-badge {
     padding: 0.06rem 0.12rem;
-    font-size: 0.35rem;
+    font-size: var(--text-3xs);
     min-height: 7px;
     max-height: 7px;
     border-radius: 2px;
@@ -763,7 +763,7 @@
 
   .tier-type-btn {
     padding: 0.5rem 1rem;
-    font-size: 0.875rem;
+    font-size: var(--text-md);
   }
 
   .tier-row {
@@ -775,11 +775,11 @@
     width: 100%;
     min-width: 100%;
     height: 60px;
-    font-size: 1.5rem;
+    font-size: var(--text-2xl);
   }
 
   .tier-label.tier-situational {
-    font-size: 0.8rem;
+    font-size: var(--text-sm);
   }
 
   .tier-characters {
@@ -827,7 +827,7 @@
   }
 
   .tier-character-card .character-name {
-    font-size: 0.55rem;
+    font-size: var(--text-3xs);
     font-weight: 700;
     max-width: 65px;
     height: 20px;
@@ -850,7 +850,7 @@
 
   .tier-character-card .mini-badge {
     padding: 0.04rem 0.08rem;
-    font-size: 0.35rem;
+    font-size: var(--text-3xs);
     min-height: 8px;
     max-height: 8px;
     border-radius: 2px;
@@ -906,7 +906,7 @@
   }
 
   .tier-character-card .character-name {
-    font-size: 0.5rem;
+    font-size: var(--text-3xs);
     max-width: 55px;
     height: 16px;
     min-height: 1.2rem;
@@ -922,7 +922,7 @@
 
   .tier-character-card .mini-badge {
     padding: 0.03rem 0.06rem;
-    font-size: 0.3rem;
+    font-size: var(--text-3xs);
     min-height: 6px;
     max-height: 6px;
     border-radius: 2px;
@@ -965,7 +965,7 @@
   }
 
   .pool-character-name {
-    font-size: 0.55rem;
+    font-size: var(--text-3xs);
     height: 18px;
     color: #ffffff;
     line-height: 1;
@@ -977,7 +977,7 @@
   }
 
   .pool-character-card .pool-mini-badge {
-    font-size: 0.3rem;
+    font-size: var(--text-3xs);
     padding: 0.04rem 0.08rem;
     min-height: 6px;
     max-height: 6px;
