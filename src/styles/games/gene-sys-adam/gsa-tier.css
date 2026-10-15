@@ -446,3 +446,108 @@ a.gsa-tier-card:active {
 .gsa-tier-role-both {
   color: var(--gsa-accent-strong);
 }
+
+/* Combo Collective tab: pursuit-chain pairing cards */
+.gsa-combo-intro {
+  margin: 14px 0 18px;
+  max-width: 860px;
+  color: var(--gsa-text-dim);
+  font-size: 0.85rem;
+  line-height: 1.6;
+}
+.gsa-combo-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+  margin-bottom: 24px;
+}
+.gsa-combo-card {
+  border: 1px solid var(--gsa-border);
+  border-radius: 10px;
+  padding: 14px 16px;
+  background: rgba(255, 255, 255, 0.04);
+}
+.gsa-combo-card.gsa-combo-featured {
+  background: rgba(176, 42, 55, 0.10);
+}
+.gsa-combo-head {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 6px;
+}
+.gsa-combo-name {
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: var(--gsa-text);
+  margin: 0 0 10px;
+}
+.gsa-combo-groups {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  margin-bottom: 10px;
+}
+.gsa-combo-group {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  min-width: 0;
+  flex: 1;
+}
+.gsa-combo-group-label {
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--gsa-text-dim);
+}
+.gsa-combo-arrow {
+  align-self: center;
+  color: var(--gsa-accent-strong);
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+.gsa-combo-member {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  border: 1px solid var(--gsa-border);
+  border-radius: 8px;
+  padding: 5px 8px;
+  background: rgba(0, 0, 0, 0.25);
+  text-decoration: none;
+}
+.gsa-combo-member-icon {
+  width: 36px;
+  height: 36px;
+  border-radius: 8px;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+.gsa-combo-member-name {
+  color: var(--gsa-text);
+  font-size: 0.82rem;
+  font-weight: 700;
+  min-width: 0;
+}
+.gsa-combo-note {
+  margin: 0;
+  font-size: 0.8rem;
+  line-height: 1.6;
+  color: var(--gsa-text-dim);
+}
+@media (max-width: 860px) {
+  .gsa-combo-grid {
+    grid-template-columns: 1fr;
+  }
+  .gsa-combo-groups {
+    flex-direction: column;
+  }
+  .gsa-combo-arrow {
+    transform: rotate(90deg);
+    align-self: flex-start;
+    margin-left: 20px;
+  }
+}

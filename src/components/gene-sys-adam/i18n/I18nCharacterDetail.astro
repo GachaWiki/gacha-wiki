@@ -5,6 +5,7 @@
 // and skills. Mirrors the EN/zh pages (gsa-characters.css); pursuit facts
 // come from the shared pursuit-roles.js structural data.
 import { gsaPursuitRole, GSA_PURSUIT_ROLES } from '../../../data/gene-sys-adam/pursuit-roles.js';
+import { GSA_TIER_PLACEMENTS, gsaRarityBadge } from '../../../data/gene-sys-adam/tier-list.js';
 import { gsaPropertyTypes } from '../../../data/gene-sys-adam/property-types.js';
 
 export interface Props {
@@ -78,6 +79,14 @@ if (pursuit.role !== 'none') {
   }
 }
 const nameBySlug = Object.fromEntries(characters.map(x => [x.slug, x]));
+// other playable versions of this character (same nameEn, separate unit)
+const versions = characters
+  .filter(x => x.slug !== slug && x.nameEn && x.nameEn === c.nameEn)
+  .map(x => ({ ...x, rarity: GSA_TIER_PLACEMENTS[x.slug]?.rarity }));
+// full display name when two units share a name (title appended)
+const nameCount = {};
+for (const x of characters) nameCount[x.name] = (nameCount[x.name] || 0) + 1;
+const fullName = x => (x && x.title && (nameCount[x.name] || 0) > 1 ? `${x.name} (${x.title})` : x.name);
 ---
 
 <div class="gsa-content-section">
@@ -88,7 +97,7 @@ const nameBySlug = Object.fromEntries(characters.map(x => [x.slug, x]));
       <div class="gsa-detail-art-monogram">{c.name?.[0]}</div>
     )}
     <div class="gsa-detail-info">
-      <h1>{c.name}</h1>
+      <h1>{fullName(c)}</h1>
       <p class="gsa-detail-name-zh">{c.nameEn}</p>
       {c.title && <p class="gsa-detail-title">{c.title}</p>}
       {c.epithet && <p class="gsa-detail-epithet">{c.epithet}</p>}
@@ -153,6 +162,39 @@ const nameBySlug = Object.fromEntries(characters.map(x => [x.slug, x]));
       </div>
     )}
   </div>
+
+  {versions.length > 0 && (
+    <div class="gsa-detail-section gsa-versions">
+      <h2>{L.versionsTitle}</h2>
+      <p class="gsa-section-note">{L.versionsNote}</p>
+      <div class="gsa-version-cards">
+        {versions.map(v => (
+          <a class="gsa-version-card" href={`${base}characters/${v.slug}/`}>
+            {v.icon ? (
+              <img class="gsa-version-icon" src={v.icon} alt={fullName(v)} width="72" height="72" loading="lazy" />
+            ) : (
+              <span class="gsa-version-icon gsa-version-monogram">{v.name?.[0]}</span>
+            )}
+            <span class="gsa-version-info">
+              <span class="gsa-version-name">{fullName(v)}</span>
+              <span class="gsa-version-meta">
+                {v.rarity && gsaRarityBadge(v.rarity) && (
+                  <img class="gsa-version-rarity" src={gsaRarityBadge(v.rarity)} alt={v.rarity} width="38" height="24" loading="lazy" />
+                )}
+                {v.element && (
+                  <span class="gsa-chip gsa-chip-elem">
+                    <img src={v.element.icon} alt={v.element.name} width="16" height="16" loading="lazy" />
+                    {v.element.name}
+                  </span>
+                )}
+                {v.job && <span class="gsa-chip gsa-chip-type">{v.job.name}</span>}
+              </span>
+            </span>
+          </a>
+        ))}
+      </div>
+    </div>
+  )}
 
   {
     (profile.birthday || profile.age || profile.height || profile.interest || resumeParas.length) ? (
@@ -362,7 +404,7 @@ const nameBySlug = Object.fromEntries(characters.map(x => [x.slug, x]));
                   {s.icon ? (
                     <img src={s.icon} alt="" class="gsa-skill-icon" width="52" height="52" loading="lazy" />
                   ) : (
-                    <span class="gsa-skill-icon gsa-skill-icon-ph" aria-hidden="true"></span>
+                    <span class="gsa-skill-icon gsa-skill-icon-ph" aria-hidden="true">{s.name?.[0]}</span>
                   )}
                   {s.slotEn === 'Ultimate' && <span class="gsa-skill-ex">EX</span>}
                 </div>

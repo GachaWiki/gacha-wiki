@@ -4,12 +4,14 @@
 // explains the status-to-pursuit chains the element view is built around.
 // Reasons live in tier-list.js, not on the page.
 import GSALayout from '../../../layouts/gene-sys-adam/LandingLayout.astro';
-import { GSA_TIER_VIEWS, gsaTierSsrCount, GSA_TIER_UPDATED, GSA_BEGINNER_NOTE, GSA_PURSUIT_NOTE, GSA_TIER_PLACEMENTS, gsaRarityBadge, GSA_ELEMENT_SECTIONS } from '../../../data/gene-sys-adam/tier-list.js';
+import { GSA_TIER_VIEWS, gsaTierSsrCount, GSA_TIER_UPDATED, GSA_BEGINNER_NOTE, GSA_PURSUIT_NOTE, GSA_TIER_PLACEMENTS, gsaRarityBadge, GSA_ELEMENT_SECTIONS, GSA_COMBOS, gsaFullDisplayName } from '../../../data/gene-sys-adam/tier-list.js';
 import { gsaCharacters } from '../../../data/gene-sys-adam/characters.js';
 import { gsaPursuitRole } from '../../../data/gene-sys-adam/pursuit-roles.js';
 import GSAElementCard from '../../../components/gene-sys-adam/GSAElementCard.astro';
 import '../../../styles/games/gene-sys-adam/gsa-common.css';
 import '../../../styles/games/gene-sys-adam/gsa-tier.css';
+
+const bySlugFull = Object.fromEntries(gsaCharacters.map(c => [c.slug, c]));
 
 // Pursuit-system role chips for the tier cards (from pursuit-roles.js; the
 // same data drives the Pursuit System box on each character page).
@@ -97,6 +99,68 @@ const TIER_ROLE_LABEL = {
           {v.label}
         </button>
       ))}
+      <button class="gsa-tier-tab" data-view-tab="combos" role="tab" aria-selected="false">
+        Combo Collective
+      </button>
+    </div>
+
+    <div class="gsa-tier-tabpanel" data-view-panel="combos" style="display:none">
+      <p class="gsa-combo-intro">
+        The pursuit-chain pairings: Enablers apply the status, Triggers fire the
+        pursuit on final hits against statused targets, and the pursuit is a
+        separate damage channel with its own resistance stat. A trigger without
+        a feeder loses the whole loop, so judge these as pairs, not individuals.
+      </p>
+      <div class="gsa-combo-grid">
+        {GSA_COMBOS.map(cb => (
+          <div class={`gsa-combo-card${cb.featured ? ' gsa-combo-featured' : ''}`}>
+            <div class="gsa-combo-head">
+              <span class="gsa-tier-pursuit-chip">{cb.chain}</span>
+              {cb.featured && <span class="gsa-chip solid-accent">Featured pairing</span>}
+            </div>
+            <h3 class="gsa-combo-name">{cb.name}</h3>
+            <div class="gsa-combo-groups">
+              <div class="gsa-combo-group">
+                <span class="gsa-combo-group-label">Enablers</span>
+                {cb.enablers.map(slug => {
+                  const m = bySlugFull[slug];
+                  if (!m) return null;
+                  return (
+                    <a class="gsa-combo-member" href={`/guides/gene-sys-adam/characters/${slug}/`}>
+                      {m.icon
+                        ? <img class="gsa-combo-member-icon" src={m.icon} alt="" width="36" height="36" loading="lazy" />
+                        : <span class="gsa-combo-member-icon gsa-monogram">{m.name?.[0]}</span>}
+                      <span class="gsa-combo-member-name">{gsaFullDisplayName(m)}</span>
+                      <span class="gsa-tier-role gsa-tier-role-enabler">{TIER_ROLE_LABEL.enabler}</span>
+                    </a>
+                  );
+                })}
+              </div>
+              <span class="gsa-combo-arrow" aria-hidden="true">&rarr;</span>
+              <div class="gsa-combo-group">
+                <span class="gsa-combo-group-label">Triggers</span>
+                {cb.triggers.map(slug => {
+                  const m = bySlugFull[slug];
+                  if (!m) return null;
+                  const pr = gsaPursuitRole(slug);
+                  return (
+                    <a class="gsa-combo-member" href={`/guides/gene-sys-adam/characters/${slug}/`}>
+                      {m.icon
+                        ? <img class="gsa-combo-member-icon" src={m.icon} alt="" width="36" height="36" loading="lazy" />
+                        : <span class="gsa-combo-member-icon gsa-monogram">{m.name?.[0]}</span>}
+                      <span class="gsa-combo-member-name">{gsaFullDisplayName(m)}</span>
+                      <span class={`gsa-tier-role gsa-tier-role-${pr.role === 'both' ? 'both' : 'trigger'}`}>
+                        {TIER_ROLE_LABEL[pr.role === 'both' ? 'both' : 'trigger']}
+                      </span>
+                    </a>
+                  );
+                })}
+              </div>
+            </div>
+            <p class="gsa-combo-note">{cb.note}</p>
+          </div>
+        ))}
+      </div>
     </div>
 
     {GSA_TIER_VIEWS.map((v, i) => (
@@ -123,9 +187,9 @@ const TIER_ROLE_LABEL = {
                   </div>
                   <div class="gsa-tier-characters">
                     {row.characters.map(c => (
-                      <a class="gsa-tier-card" href={`/guides/gene-sys-adam/characters/${c.slug}/`}>
+                      <a class="gsa-tier-card" href={`/guides/gene-sys-adam/characters/${c.slug}/`} title={c.placement.reason}>
                         {c.icon ? (
-                          <img class="gsa-tier-thumb" src={c.icon} alt={c.name} loading="lazy" />
+                          <img class="gsa-tier-thumb" src={c.icon} alt={gsaFullDisplayName(c)} loading="lazy" />
                         ) : (
                           <span class="gsa-tier-thumb gsa-monogram">{c.name?.[0]}</span>
                         )}
@@ -134,7 +198,7 @@ const TIER_ROLE_LABEL = {
                         ) : (
                           <span class={`gsa-tier-rarity gsa-tier-rarity-${(c.placement.rarity || 'sr').toLowerCase()}`}>{c.placement.rarity}</span>
                         )}
-                        <span class="gsa-tier-name-label">{c.name}</span>
+                        <span class="gsa-tier-name-label">{gsaFullDisplayName(c)}</span>
                         {(() => { const pr = gsaPursuitRole(c.slug); return (
                           <span class={`gsa-tier-role gsa-tier-role-${pr.role}`}>{TIER_ROLE_LABEL[pr.role]}</span>
                         ); })()}

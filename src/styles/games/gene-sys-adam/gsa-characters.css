@@ -203,7 +203,12 @@
 }
 
 .gsa-skill-icon-ph {
-  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: var(--gsa-text-dim);
 }
 
 .gsa-skill-ex {
@@ -840,4 +845,65 @@
 }
 .gsa-pursuit-partners a {
   color: var(--gsa-accent-strong);
+}
+
+/* Other-versions cards: sibling playable units of the same character (same
+   name, different unit, e.g. Belle SR and Clumsy Cowgirl Belle SSR). */
+.gsa-version-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.gsa-version-card {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 16px 10px 10px;
+  border: 1px solid var(--gsa-border);
+  border-radius: 10px;
+  background: var(--gsa-bg-secondary);
+  text-decoration: none;
+  color: inherit;
+}
+
+.gsa-version-icon {
+  width: 72px;
+  height: 72px;
+  border: 1px solid var(--gsa-border);
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.gsa-version-monogram {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: var(--gsa-text-dim);
+}
+
+.gsa-version-info {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.gsa-version-name {
+  font-weight: 700;
+  color: var(--gsa-text);
+}
+
+.gsa-version-meta {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.gsa-version-rarity {
+  width: 38px;
+  height: 24px;
+  object-fit: contain;
 }

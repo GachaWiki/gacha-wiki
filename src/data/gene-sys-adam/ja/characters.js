@@ -15043,7 +15043,7 @@ export const gsaCharactersJa = [
     "epithet": "濃厚な香り、ミルク弾幕",
     "sex": "男性",
     "inGacha": true,
-    "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/cr107_Icon_Texture.webp",
+    "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/cr107_Icon_Texture_CB.webp",
     "sortOrder": 107,
     "element": {
       "id": 2,

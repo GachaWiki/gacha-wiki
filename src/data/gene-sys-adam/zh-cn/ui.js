@@ -61,6 +61,8 @@ export const GSA_ZHCN = {
     "roleEnabler": "状态赋予",
     "roleBoth": "追击＋赋予",
     "roleNone": "无追击参与",
+    "versionsTitle": "其他版本",
+    "versionsNote": "此角色有不止一个可游玩版本，各版本为独立角色，稀有度与技能组合不同。",
     "pursuitNoneNote": "此角色不参与追击体系：没有技能赋予追击状态，也没有技能带有追击触发。",
     "pTriggers": "触发",
     "pOnFinalHitsVs": "，对",

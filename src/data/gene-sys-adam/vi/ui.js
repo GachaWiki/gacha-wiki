@@ -61,6 +61,8 @@ export const GSA_VI = {
     "roleEnabler": "Gắn trạng thái",
     "roleBoth": "Kích hoạt＋Gắn",
     "roleNone": "Ngoài hệ thống",
+    "versionsTitle": "Phiên bản khác",
+    "versionsNote": "Nhân vật này có nhiều phiên bản chơi được. Mỗi phiên bản là một đơn vị riêng, với độ hiếm và bộ kỹ năng khác nhau.",
     "pursuitNoneNote": "Nhân vật này không tham gia hệ thống Truy Kích: không có kỹ năng gắn trạng thái truy kích, cũng không có kỹ năng kích hoạt truy kích.",
     "pTriggers": "Kích hoạt",
     "pOnFinalHitsVs": " khi hit cuối trúng mục tiêu đang",

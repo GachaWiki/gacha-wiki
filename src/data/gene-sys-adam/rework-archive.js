@@ -122,43 +122,6 @@ export const GSA_REWORK_ARCHIVE = {
     ],
   },
 
-  'belle-clumsy-cowgirl': {
-    date: 'October 13, 2026',
-    patchLabel: 'October 13 update entry',
-    patchHref: UPD_OCT13,
-    intro:
-      'Cowgirl Belle was reworked in the October 13, 2026 tables alongside the Black Gold Hunter re-run: her healing passive became a critical-hit ally shield and several awakened riders were swapped. The sections above show the current version; the pre-rework text is preserved below.',
-    items: [
-      {
-        title: 'Auto: Chilled Milky Delivery',
-        before: 'Restore 180% HP to lowest HP percentage party members. Cooldown Time: 5s.',
-        after: 'Restore 180% HP to lowest HP percentage party members. Cooldown Time: 6s.',
-      },
-      {
-        title: 'Passive 1: Essential Bedtime Ritual',
-        before:
-          'Upon a successful Shatter Pursuit, restore 65% HP to lowest HP percentage party members.\nAwakened: Upon a successful Shatter Pursuit, restore 65% HP to lowest HP percentage party members.\nAwakened: Grant all party members Crit DMG Up 15%.',
-        after:
-          'On a critical hit, apply a 65% Shield (4s) to lowest HP percentage party members.\nThis effect can only trigger once every 6 seconds.\nAwakened: On a critical hit, apply a 65% Shield (4s) to lowest HP percentage party members.\nAwakened: This effect can only trigger once every 6 seconds.\nAwakened: Grant all party members Water Res Up 5%.',
-      },
-      {
-        title: 'Ultimate: Bovine Advent: Mega Udder Cannon',
-        before:
-          'Enter the Awakening state, granting self ACC Up 10% (24s).\nDeal five hits of 143% Physical Spread DMG to all targets.\nOn hit, deal an additional 20% Physical DMG to the target.\nOn final hit, Low chance to inflict Petrify S (2s).\nOn final hit, inflict ATK SPD Down 15% (12s) on the target.',
-        after:
-          'Enter the Awakening state, granting self ACC Up 10% (24s).\nDeal five hits of 143% Physical Spread DMG to all targets.\nOn hit, deal an additional 20% Physical DMG to the target.\nOn final hit, Low chance to inflict Petrify S (3s).\nOn final hit, inflict ATK SPD Down 15% (12s) on the target.',
-        note: 'Petrify S duration 2s to 3s.',
-      },
-      {
-        title: 'Passive 2: I Can Do Anything',
-        before:
-          'Grant self Earth ATK Up 9.5%.\nAwakened: Grant all party members Earth ATK Up 9.5%.\nAwakened: In PVP mode, grant self EN Gain Up 28%.',
-        after:
-          'Grant self Earth ATK Up 9.5%.\nAwakened: Grant all party members Earth ATK Up 9.5%.\nAwakened: In PVP mode, grant self Water Res Up 7%.',
-      },
-    ],
-  },
-
   danxin: {
     date: 'October 13, 2026',
     patchLabel: 'October 13 update entry',

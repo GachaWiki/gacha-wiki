@@ -61,6 +61,8 @@ export const GSA_JA = {
     "roleEnabler": "状態付与",
     "roleBoth": "トリガー＋付与",
     "roleNone": "追撃非対応",
+    "versionsTitle": "別バージョン",
+    "versionsNote": "このキャラクターには複数のプレイアブルバージョンがあります。各バージョンは独立したユニットで、レア度とスキル構成が異なります。",
     "pursuitNoneNote": "このキャラクターは追撃体系に参加しません：追撃状態を付与するスキルも、追撃トリガーを持つスキルもありません。",
     "pTriggers": "発動",
     "pOnFinalHitsVs": "のターゲットへの最終ヒット時",

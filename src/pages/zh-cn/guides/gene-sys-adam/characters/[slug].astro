@@ -15,14 +15,17 @@ const ui = GSA_ZHCN;
 const characters = gsaCharactersZhCn;
 const { slug } = Astro.params;
 const current = characters.find(c => c.slug === slug);
+// full name when two units share a name (title appended)
+const dupCount = characters.reduce((n, x) => n + (x.name === current.name ? 1 : 0), 0);
+const displayName = current.title && dupCount > 1 ? `${current.name} (${current.title})` : current.name;
 ---
 
 {current && (
 <GsaI18nLayout
   ui={ui}
-  title={current.name}
-  gameTitle={current.name}
-  breadcrumbItems={[{ name: ui.gameName, href: ui.baseUrl }, { name: ui.labels.charactersDb, href: ui.baseUrl + 'characters/' }, { name: current.name }]}
+  title={displayName}
+  gameTitle={displayName}
+  breadcrumbItems={[{ name: ui.gameName, href: ui.baseUrl }, { name: ui.labels.charactersDb, href: ui.baseUrl + 'characters/' }, { name: displayName }]}
 >
   <I18nCharacterDetail ui={ui} characters={characters} slug={slug} statLabels={gsaStatLabelsZhCn} />
 </GsaI18nLayout>

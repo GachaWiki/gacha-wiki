@@ -61,6 +61,8 @@ export const GSA_KO = {
     "roleEnabler": "상태 부여",
     "roleBoth": "트리거＋부여",
     "roleNone": "추격 비참여",
+    "versionsTitle": "다른 버전",
+    "versionsNote": "이 캐릭터는 여러 플레이 가능한 버전이 있습니다. 각 버전은 별도의 유닛으로 등급과 스킬 구성이 다릅니다.",
     "pursuitNoneNote": "이 캐릭터는 추격 체계에 참여하지 않습니다: 추격 상태를 부여하는 스킬도, 추격 트리거를 가진 스킬도 없습니다.",
     "pTriggers": "발동",
     "pOnFinalHitsVs": " 대상에 대한 마지막 히트 시",
