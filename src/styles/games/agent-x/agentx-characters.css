@@ -20,7 +20,7 @@
   border: 1px solid var(--ax-border);
   border-radius: 8px;
   color: var(--ax-text-primary);
-  font-size: 0.875rem;
+  font-size: var(--text-md);
   outline: none;
   min-width: 180px;
 }
@@ -39,7 +39,7 @@
   border: 1px solid var(--ax-border);
   border-radius: 6px;
   color: var(--ax-text-secondary);
-  font-size: 0.8rem;
+  font-size: var(--text-sm);
   cursor: pointer;
   transition: all 0.15s ease;
 }
@@ -53,7 +53,7 @@
 
 .ax-count {
   margin-left: auto;
-  font-size: 0.8rem;
+  font-size: var(--text-sm);
   color: var(--ax-text-muted);
 }
 
@@ -90,7 +90,7 @@
 }
 
 .ax-char-name {
-  font-size: 1.05rem;
+  font-size: var(--text-base);
   font-weight: 700;
   color: var(--ax-text-primary);
   margin: 0;
@@ -98,7 +98,7 @@
 }
 
 .ax-char-title {
-  font-size: 0.8rem;
+  font-size: var(--text-sm);
   color: var(--ax-text-tertiary);
   margin: 0.1rem 0 0.5rem;
   font-weight: 500;
@@ -156,13 +156,13 @@
 }
 
 .ax-icon-caption {
-  font-size: 0.85rem;
+  font-size: var(--text-md);
   color: var(--ax-text-secondary);
   letter-spacing: 0.02em;
 }
 
 .ax-id-line {
-  font-size: 0.75rem;
+  font-size: var(--text-xs);
   color: var(--ax-text-muted);
   font-family: monospace;
   margin-bottom: 1rem;
@@ -197,7 +197,7 @@
 
 .ax-skill-art-figure figcaption {
   margin-top: 0.4rem;
-  font-size: 0.72rem;
+  font-size: var(--text-xs);
   color: var(--ax-text-tertiary);
 }
 
@@ -239,13 +239,13 @@
 
 .ax-detail-info h1 {
   margin: 0 0 0.25rem;
-  font-size: 1.8rem;
+  font-size: var(--text-3xl);
   color: var(--ax-text-primary);
 }
 
 .ax-detail-title {
   margin: 0 0 0.75rem;
-  font-size: 1.1rem;
+  font-size: var(--text-lg);
   color: var(--ax-primary);
   font-weight: 500;
 }
@@ -262,7 +262,7 @@
   gap: 1.5rem;
   flex-wrap: wrap;
   margin: 0 0 1rem;
-  font-size: 0.85rem;
+  font-size: var(--text-md);
   color: var(--ax-text-secondary);
 }
 
@@ -270,7 +270,7 @@
   color: var(--ax-text-tertiary);
   font-weight: 600;
   text-transform: uppercase;
-  font-size: 0.7rem;
+  font-size: var(--text-2xs);
   letter-spacing: 0.05em;
   margin-right: 0.35rem;
 }

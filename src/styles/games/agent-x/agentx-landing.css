@@ -53,7 +53,7 @@
   color: var(--ax-text-secondary);
   line-height: 1.8;
   margin-bottom: 1rem;
-  font-size: 0.95rem;
+  font-size: var(--text-body);
 }
 
 .ax-story strong {
@@ -77,7 +77,7 @@
   background: var(--ax-gradient-primary);
   color: #14110a;
   font-weight: 700;
-  font-size: 1rem;
+  font-size: var(--text-base);
   padding: 0.85rem 1.75rem;
   border-radius: 10px;
   text-decoration: none;
@@ -87,12 +87,12 @@
 
 
 .ax-download-arrow {
-  font-size: 1.1rem;
+  font-size: var(--text-lg);
 }
 
 .ax-last-updated {
   text-align: center;
-  font-size: 0.78rem;
+  font-size: var(--text-xs);
   color: var(--ax-text-tertiary);
   margin: 1.5rem 0 0;
 }
@@ -107,7 +107,7 @@
 }
 
 .ax-resources-title {
-  font-size: 2rem;
+  font-size: var(--text-4xl);
   margin-bottom: 1rem;
   font-weight: 700;
   text-align: center;
@@ -139,13 +139,13 @@
 .ax-category-header h3 {
   color: var(--ax-text-primary);
   margin: 0 0 0.5rem 0;
-  font-size: 1.3rem;
+  font-size: var(--text-xl);
   font-weight: 700;
 }
 
 .ax-category-description {
   color: var(--ax-text-tertiary);
-  font-size: 0.9rem;
+  font-size: var(--text-md);
   margin: 0;
   line-height: 1.4;
 }
@@ -166,7 +166,7 @@
   border-radius: 12px;
   background: var(--ax-bg-tertiary);
   border: 1px solid var(--ax-border);
-  font-size: 0.9rem;
+  font-size: var(--text-md);
   font-weight: 500;
   text-align: center;
   height: 100%;
@@ -186,7 +186,7 @@
   }
 
   .ax-resources-title {
-    font-size: 1.6rem;
+    font-size: var(--text-2xl);
   }
 
   .ax-resources-grid {

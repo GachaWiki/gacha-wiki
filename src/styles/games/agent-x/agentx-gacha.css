@@ -7,7 +7,7 @@
 
 .ax-gacha-pool h3 {
   margin: 0 0 0.5rem;
-  font-size: 1.05rem;
+  font-size: var(--text-base);
   color: var(--ax-text-primary);
 }
 
@@ -18,7 +18,7 @@
 .ax-gacha-rates {
   width: 100%;
   border-collapse: collapse;
-  font-size: 0.88rem;
+  font-size: var(--text-md);
 }
 
 .ax-gacha-rates th,
@@ -31,7 +31,7 @@
 .ax-gacha-rates th {
   color: var(--ax-text-tertiary);
   font-weight: 600;
-  font-size: 0.75rem;
+  font-size: var(--text-xs);
   text-transform: uppercase;
   letter-spacing: 0.05em;
 }
@@ -49,14 +49,14 @@
   background: var(--ax-bg-tertiary);
   border: 1px solid var(--ax-border);
   border-radius: 6px;
-  font-size: 0.85rem;
+  font-size: var(--text-md);
   color: var(--ax-text-secondary);
   line-height: 1.6;
   margin: 1rem 0 0;
 }
 
 .ax-gacha-intro {
-  font-size: 0.95rem;
+  font-size: var(--text-body);
   line-height: 1.8;
   color: var(--ax-text-secondary);
   max-width: 820px;
@@ -72,7 +72,7 @@
 .ax-formula {
   text-align: center;
   font-family: monospace;
-  font-size: 0.95rem;
+  font-size: var(--text-body);
   color: var(--ax-primary);
   background: var(--ax-bg-tertiary);
   border: 1px solid var(--ax-border);
@@ -92,14 +92,14 @@
   .ax-gacha-rates th,
   .ax-gacha-rates td {
     padding: 0.4rem 0.5rem;
-    font-size: 0.8rem;
+    font-size: var(--text-sm);
   }
 }
 
 /* Buff kind badges (stats page) */
 .ax-buff-kind {
   display: inline-block;
-  font-size: 0.65rem;
+  font-size: var(--text-3xs);
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.05em;
