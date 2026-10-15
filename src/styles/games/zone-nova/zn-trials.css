@@ -9,7 +9,7 @@
 }
 
 .section-title {
-  font-size: 1.5rem;
+  font-size: var(--text-2xl);
   font-weight: 600;
   color: var(--zn-primary-amber, #ffb74a);
   margin: 0 0 0.75rem 0;
@@ -19,7 +19,7 @@
 
 .section-description {
   color: var(--zn-text-muted, #666);
-  font-size: 0.95rem;
+  font-size: var(--text-body);
   line-height: 1.6;
   margin-bottom: 1.5rem;
 }
@@ -42,18 +42,18 @@
 
 .season-head h3 {
   margin: 0;
-  font-size: 1.15rem;
+  font-size: var(--text-lg);
   color: var(--zn-text-primary, #fff);
 }
 
 .season-dates {
   color: var(--amber-glow, #ffb74a);
-  font-size: 0.88rem;
+  font-size: var(--text-md);
   font-weight: 600;
 }
 
 .meta-label {
-  font-size: 0.72rem;
+  font-size: var(--text-xs);
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.05em;
@@ -73,13 +73,13 @@
 .season-rule p {
   margin: 0;
   color: var(--zn-text-secondary, #b3b3b3);
-  font-size: 0.92rem;
+  font-size: var(--text-body);
   line-height: 1.65;
 }
 
 .stages h4 {
   margin: 0 0 0.75rem;
-  font-size: 0.95rem;
+  font-size: var(--text-body);
   color: var(--zn-text-primary, #fff);
 }
 
@@ -87,7 +87,7 @@
 .seasons-table {
   width: 100%;
   border-collapse: collapse;
-  font-size: 0.9rem;
+  font-size: var(--text-md);
 }
 
 .stages-table th,
@@ -145,21 +145,21 @@
 
 .perm-card h3 {
   margin: 0 0 0.5rem;
-  font-size: 1rem;
+  font-size: var(--text-base);
   color: var(--zn-text-primary, #fff);
 }
 
 .perm-limit {
   margin: 0 0 0.25rem;
   color: var(--amber-glow, #ffb74a);
-  font-size: 0.85rem;
+  font-size: var(--text-md);
   font-weight: 600;
 }
 
 .perm-stages {
   margin: 0;
   color: var(--zn-text-muted, #666);
-  font-size: 0.82rem;
+  font-size: var(--text-sm);
 }
 
 @media (max-width: 640px) {
@@ -173,7 +173,7 @@
 
 /* Season status + links + detail page additions */
 .status-text {
-  font-size: 0.72rem;
+  font-size: var(--text-xs);
   font-weight: 700;
   letter-spacing: 0.05em;
 }
@@ -205,7 +205,7 @@
   margin-bottom: 0.75rem;
   color: var(--zn-text-muted, #666);
   text-decoration: none;
-  font-size: 0.82rem;
+  font-size: var(--text-sm);
 }
 
 .bravery-timer {
@@ -214,7 +214,7 @@
   color: var(--amber-glow, #ffb74a);
   padding: 0.3rem 0.85rem;
   border-radius: 999px;
-  font-size: 0.82rem;
+  font-size: var(--text-sm);
   font-weight: 600;
   white-space: nowrap;
 }
@@ -254,18 +254,18 @@
 .pick-name {
   color: var(--zn-text-primary, #fff);
   font-weight: 600;
-  font-size: 0.88rem;
+  font-size: var(--text-md);
 }
 
 .pick-meta {
   color: var(--zn-text-muted, #666);
-  font-size: 0.72rem;
+  font-size: var(--text-xs);
 }
 
 .season-factions .faction-line {
   margin: 0;
   color: var(--zn-text-primary, #fff);
-  font-size: 0.95rem;
+  font-size: var(--text-body);
   font-weight: 600;
   line-height: 1.4;
 }

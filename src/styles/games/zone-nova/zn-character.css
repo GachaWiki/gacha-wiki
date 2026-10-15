@@ -42,7 +42,7 @@
   border-radius: 8px;
   background: var(--zn-bg-secondary);
   color: var(--zn-text-primary);
-  font-size: 0.95rem;
+  font-size: var(--text-body);
   outline: none;
   box-sizing: border-box;
   transition: border-color 0.2s ease;
@@ -71,7 +71,7 @@
   color: var(--zn-text-secondary);
   border-radius: 8px;
   border: 1px solid var(--zn-border);
-  font-size: 0.8rem;
+  font-size: var(--text-sm);
   cursor: pointer;
   transition: all 0.2s ease;
 }
@@ -88,7 +88,7 @@
   color: white;
   border-radius: 10px;
   border: 2px solid var(--rose-quartz);
-  font-size: 0.85rem;
+  font-size: var(--text-md);
   font-weight: 600;
   cursor: pointer;
   transition: all 0.3s ease;
@@ -129,7 +129,7 @@ table.character-table th {
   background: var(--amber-glow);
   color: #222;
   font-weight: 700;
-  font-size: 0.9rem;
+  font-size: var(--text-md);
   position: sticky;
   top: 0;
   z-index: 2;
@@ -188,7 +188,7 @@ table.character-table tr {
 
 .mobile-character-card h3 {
   margin: 0;
-  font-size: 1.25rem;
+  font-size: var(--text-xl);
   color: var(--amber-glow);
   font-weight: 700;
   letter-spacing: 0.5px;
@@ -203,7 +203,7 @@ table.character-table tr {
 .character-table .class-badge,
 .character-table .faction-badge {
   padding: 0.4rem 0.7rem;
-  font-size: 0.85rem;
+  font-size: var(--text-md);
   font-weight: 600;
   border-radius: 12px;
   min-height: auto;
@@ -213,7 +213,7 @@ table.character-table tr {
 /* Specific adjustments for different badge types in table */
 .character-table .faction-badge {
   padding: 0.35rem 0.6rem;
-  font-size: 0.8rem;
+  font-size: var(--text-sm);
   max-width: 100px;
   white-space: nowrap;
   overflow: hidden;
@@ -222,7 +222,7 @@ table.character-table tr {
 
 .character-table .class-badge {
   padding: 0.4rem 0.65rem;
-  font-size: 0.85rem;
+  font-size: var(--text-md);
 }
 
 .mobile-card-stats {
@@ -311,11 +311,11 @@ table.character-table tr {
   }
 
   .stat-label {
-    font-size: 0.8rem;
+    font-size: var(--text-sm);
   }
 
   .stat-value {
-    font-size: 0.9rem;
+    font-size: var(--text-md);
   }
 
   .class-container {
@@ -331,11 +331,11 @@ table.character-table tr {
   }
 
   .class-title {
-    font-size: 1.5rem;
+    font-size: var(--text-2xl);
   }
 
   .class-role {
-    font-size: 0.9rem;
+    font-size: var(--text-md);
   }
 
   .class-info-container {
@@ -343,20 +343,20 @@ table.character-table tr {
   }
 
   .class-info-title {
-    font-size: 1.2rem;
+    font-size: var(--text-xl);
   }
 
   .class-info-subtitle {
-    font-size: 1rem;
+    font-size: var(--text-base);
   }
 
   .class-info-text {
-    font-size: 0.9rem;
+    font-size: var(--text-md);
   }
 
   .class-badge-large {
     padding: 0.6rem 1.2rem;
-    font-size: 1rem;
+    font-size: var(--text-base);
   }
 
   /* Character database mobile styles */
@@ -384,7 +384,7 @@ table.character-table tr {
   .sort-btn {
     padding: 0.8rem 1rem; /* Larger touch targets */
     min-height: 44px; /* Minimum touch target size */
-    font-size: 0.9rem; /* Slightly larger text */
+    font-size: var(--text-md); /* Slightly larger text */
   }
 
   .reset-btn {
@@ -400,7 +400,7 @@ table.character-table tr {
   .faction-badge,
   .class-badge {
     padding: 0.15rem 0.4rem;
-    font-size: 0.75rem;
+    font-size: var(--text-xs);
     max-width: 80px;
     white-space: nowrap;
     text-overflow: ellipsis;
@@ -410,7 +410,7 @@ table.character-table tr {
   .mobile-character-card .rarity-badge,
   .mobile-character-card .element-badge,
   .mobile-character-card .role-badge {
-    font-size: 0.6rem;
+    font-size: var(--text-3xs);
     padding: 0.1rem 0.3rem;
     font-weight: 600;
     border-radius: 6px;
@@ -420,7 +420,7 @@ table.character-table tr {
 
   .mobile-character-card .class-badge,
   .mobile-character-card .faction-badge {
-    font-size: 0.55rem;
+    font-size: var(--text-3xs);
     padding: 0.1rem 0.25rem;
     max-width: 60px;
     font-weight: 600;
@@ -478,11 +478,11 @@ table.character-table tr {
   }
 
   .class-title {
-    font-size: 1.3rem;
+    font-size: var(--text-xl);
   }
 
   .class-role {
-    font-size: 0.85rem;
+    font-size: var(--text-md);
   }
 
   .class-info-container {
@@ -490,20 +490,20 @@ table.character-table tr {
   }
 
   .class-info-title {
-    font-size: 1.1rem;
+    font-size: var(--text-lg);
   }
 
   .class-info-subtitle {
-    font-size: 0.95rem;
+    font-size: var(--text-body);
   }
 
   .class-info-text {
-    font-size: 0.85rem;
+    font-size: var(--text-md);
   }
 
   .class-badge-large {
     padding: 0.5rem 1rem;
-    font-size: 0.9rem;
+    font-size: var(--text-md);
   }
 
   /* Character database extra small styles */
@@ -526,7 +526,7 @@ table.character-table tr {
   }
 
   .mobile-character-card h3 {
-    font-size: 1.1rem;
+    font-size: var(--text-lg);
   }
 }
 
@@ -574,12 +574,12 @@ table.character-table tr {
   .class-badge,
   .faction-badge {
     padding: 0.5rem 1rem;
-    font-size: 0.8rem;
+    font-size: var(--text-sm);
   }
 
   .class-badge {
     padding: 0.6rem 1.2rem;
-    font-size: 0.9rem;
+    font-size: var(--text-md);
   }
 }
 

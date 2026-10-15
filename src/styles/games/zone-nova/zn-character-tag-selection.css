@@ -423,7 +423,7 @@
   border: 1px solid rgba(255, 183, 77, 0.5);
   padding: 0.3rem 0.6rem;
   border-radius: 12px;
-  font-size: 0.7rem;
+  font-size: var(--text-2xs);
   font-weight: 600;
 }
 

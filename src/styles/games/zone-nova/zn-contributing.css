@@ -22,7 +22,7 @@
 .contact-card h3 {
   color: var(--zn-text-primary);
   font-family: var(--font-display), sans-serif;
-  font-size: 1.5rem;
+  font-size: var(--text-2xl);
   font-weight: 600;
   margin: 0 0 1rem 0;
 }
@@ -40,7 +40,7 @@
   border: none;
   border-radius: 8px;
   font-family: var(--font-display), sans-serif;
-  font-size: 0.9rem;
+  font-size: var(--text-md);
   font-weight: 600;
   text-decoration: none;
   display: inline-block;
@@ -58,7 +58,7 @@
   }
 
   .contact-card h3 {
-    font-size: 1.3rem;
+    font-size: var(--text-xl);
   }
 }
 
@@ -68,11 +68,11 @@
   }
 
   .contact-card h3 {
-    font-size: 1.2rem;
+    font-size: var(--text-xl);
   }
 
   .contact-button {
-    font-size: 0.85rem;
+    font-size: var(--text-md);
     padding: 0.65rem 1.25rem;
   }
 }

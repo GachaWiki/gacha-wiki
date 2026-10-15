@@ -11,7 +11,7 @@
 }
 
 .exp-section-title {
-  font-size: 1.8rem;
+  font-size: var(--text-3xl);
   font-weight: 600;
   color: var(--zn-primary);
   margin: 0 0 1rem 0;
@@ -25,7 +25,7 @@
 
 .exp-section-description p {
   color: var(--zn-text-secondary);
-  font-size: 1rem;
+  font-size: var(--text-base);
   line-height: 1.5;
   margin: 0;
   max-width: 800px;
@@ -42,7 +42,7 @@
 }
 
 .exp-subsection-title {
-  font-size: 1.3rem;
+  font-size: var(--text-xl);
   font-weight: 600;
   color: var(--zn-text-primary);
   margin: 0 0 1rem 0;
@@ -57,7 +57,7 @@
 
 .exp-subsection-description p {
   color: var(--zn-text-secondary);
-  font-size: 0.9rem;
+  font-size: var(--text-md);
   line-height: 1.4;
   margin: 0;
 }
@@ -93,20 +93,20 @@
 }
 
 .exp-card-title {
-  font-size: 0.85rem;
+  font-size: var(--text-md);
   font-weight: 600;
   color: var(--zn-text-secondary);
   margin-bottom: 0.25rem;
 }
 
 .exp-card-value {
-  font-size: 1.5rem;
+  font-size: var(--text-2xl);
   font-weight: 700;
   margin-bottom: 0.25rem;
 }
 
 .exp-card-label {
-  font-size: 0.8rem;
+  font-size: var(--text-sm);
   color: var(--zn-text-muted);
   text-transform: uppercase;
   letter-spacing: 0.5px;
@@ -144,7 +144,7 @@
   background: var(--zn-primary);
   color: #222;
   font-weight: 700;
-  font-size: 0.9rem;
+  font-size: var(--text-md);
   padding: 0.75rem 0.5rem;
   text-align: center;
   border-bottom: 1px solid var(--zn-border);
@@ -198,7 +198,7 @@
   background: var(--zn-primary);
   color: #222;
   font-weight: 700;
-  font-size: 0.9rem;
+  font-size: var(--text-md);
   padding: 0.75rem 0.5rem;
   text-align: center;
   border-bottom: 1px solid var(--zn-border);
@@ -218,12 +218,12 @@
 .breakthrough-level-cell {
   color: var(--zn-primary);
   font-weight: 700;
-  font-size: 1rem;
+  font-size: var(--text-base);
 }
 
 .breakthrough-stone-cell {
   font-weight: 500;
-  font-size: 0.9rem;
+  font-size: var(--text-md);
 }
 
 .breakthrough-quantity-cell {
@@ -280,14 +280,14 @@
 
 .calc-label {
   color: var(--zn-text-secondary);
-  font-size: 0.85rem;
+  font-size: var(--text-md);
   font-weight: 500;
   margin-bottom: 0.5rem;
 }
 
 .calc-value {
   color: var(--zn-primary);
-  font-size: 1.5rem;
+  font-size: var(--text-2xl);
   font-weight: 700;
 }
 
@@ -304,12 +304,12 @@
 .total-label {
   color: var(--zn-text-primary);
   font-weight: 600;
-  font-size: 1rem;
+  font-size: var(--text-base);
 }
 
 .total-value {
   color: var(--zn-primary);
-  font-size: 1.3rem;
+  font-size: var(--text-xl);
   font-weight: 700;
 }
 
@@ -332,12 +332,12 @@
 .total-credits-label {
   color: var(--zn-text-primary);
   font-weight: 600;
-  font-size: 1rem;
+  font-size: var(--text-base);
 }
 
 .total-credits-value {
   color: var(--zn-primary);
-  font-size: 1.2rem;
+  font-size: var(--text-xl);
   font-weight: 700;
 }
 
@@ -358,7 +358,7 @@
 
 .rune-label {
   color: var(--zn-text-secondary);
-  font-size: 0.85rem;
+  font-size: var(--text-md);
   font-weight: 500;
   text-transform: uppercase;
   letter-spacing: 0.5px;
@@ -367,7 +367,7 @@
 
 .rune-value {
   color: var(--zn-primary);
-  font-size: 1.3rem;
+  font-size: var(--text-xl);
   font-weight: 700;
 }
 
@@ -395,7 +395,7 @@
   /* Mobile table improvements */
   .character-table,
   .breakthrough-table {
-    font-size: 0.9rem;
+    font-size: var(--text-md);
   }
 
   .character-table th,
@@ -416,15 +416,15 @@
   }
 
   .exp-card-title {
-    font-size: 0.8rem;
+    font-size: var(--text-sm);
   }
 
   .exp-card-value {
-    font-size: 1.2rem;
+    font-size: var(--text-xl);
   }
 
   .exp-card-label {
-    font-size: 0.75rem;
+    font-size: var(--text-xs);
   }
 
   /* Mobile calc improvements */
@@ -433,11 +433,11 @@
   }
 
   .calc-label {
-    font-size: 0.8rem;
+    font-size: var(--text-sm);
   }
 
   .calc-value {
-    font-size: 1.2rem;
+    font-size: var(--text-xl);
   }
 
   /* Mobile total improvements */
@@ -450,13 +450,13 @@
 
   .total-label,
   .total-credits-label {
-    font-size: 0.9rem;
+    font-size: var(--text-md);
     text-align: center;
   }
 
   .total-value,
   .total-credits-value {
-    font-size: 1.1rem;
+    font-size: var(--text-lg);
     text-align: center;
   }
 
@@ -466,11 +466,11 @@
   }
 
   .rune-label {
-    font-size: 0.8rem;
+    font-size: var(--text-sm);
   }
 
   .rune-value {
-    font-size: 1.1rem;
+    font-size: var(--text-lg);
   }
 }
 
@@ -495,20 +495,20 @@
   }
 
   .exp-card-title {
-    font-size: 0.75rem;
+    font-size: var(--text-xs);
   }
 
   .exp-card-value {
-    font-size: 1rem;
+    font-size: var(--text-base);
   }
 
   .exp-card-label {
-    font-size: 0.7rem;
+    font-size: var(--text-2xs);
   }
 
   .character-table,
   .breakthrough-table {
-    font-size: 0.8rem;
+    font-size: var(--text-sm);
   }
 
   .character-table th,
@@ -524,11 +524,11 @@
   }
 
   .calc-label {
-    font-size: 0.75rem;
+    font-size: var(--text-xs);
   }
 
   .calc-value {
-    font-size: 1rem;
+    font-size: var(--text-base);
   }
 
   /* Improved totals for small mobile */
@@ -539,12 +539,12 @@
 
   .total-label,
   .total-credits-label {
-    font-size: 0.8rem;
+    font-size: var(--text-sm);
   }
 
   .total-value,
   .total-credits-value {
-    font-size: 1rem;
+    font-size: var(--text-base);
   }
 
   /* Compact rune info */
@@ -553,12 +553,12 @@
   }
 
   .rune-label {
-    font-size: 0.75rem;
+    font-size: var(--text-xs);
     margin-bottom: 0.25rem;
   }
 
   .rune-value {
-    font-size: 1rem;
+    font-size: var(--text-base);
   }
 
   /* Touch-friendly spacing */
@@ -592,7 +592,7 @@
 
 .efficiency-alert {
   color: var(--zn-primary);
-  font-size: 1.1rem;
+  font-size: var(--text-lg);
   font-weight: 600;
   margin-bottom: 1rem;
   text-align: center;
@@ -600,7 +600,7 @@
 
 .efficiency-text {
   color: var(--zn-text-primary);
-  font-size: 1rem;
+  font-size: var(--text-base);
   line-height: 1.6;
   text-align: center;
   margin: 0;
@@ -621,7 +621,7 @@
 }
 
 .chart-title {
-  font-size: 1.2rem;
+  font-size: var(--text-xl);
   font-weight: 600;
   color: var(--zn-text-primary);
   margin: 0 0 1.5rem 0;
@@ -655,7 +655,7 @@
 }
 
 .y-label {
-  font-size: 0.75rem;
+  font-size: var(--text-xs);
   color: var(--zn-text-secondary);
   text-align: right;
 }
@@ -763,7 +763,7 @@
 }
 
 .x-label {
-  font-size: 0.75rem;
+  font-size: var(--text-xs);
   color: var(--zn-text-secondary);
   text-align: center;
 }
@@ -778,7 +778,7 @@
 }
 
 .y-label-right {
-  font-size: 0.75rem;
+  font-size: var(--text-xs);
   color: var(--zn-primary);
   text-align: left;
 }
@@ -821,7 +821,7 @@
 
 .legend-item span {
   color: var(--zn-text-secondary);
-  font-size: 0.9rem;
+  font-size: var(--text-md);
 }
 
 .highlight-label {
@@ -838,15 +838,15 @@
   }
 
   .efficiency-alert {
-    font-size: 1rem;
+    font-size: var(--text-base);
   }
 
   .efficiency-text {
-    font-size: 0.9rem;
+    font-size: var(--text-md);
   }
 
   .chart-title {
-    font-size: 1.1rem;
+    font-size: var(--text-lg);
   }
 
   .chart-grid {
@@ -854,15 +854,15 @@
   }
 
   .y-label {
-    font-size: 0.7rem;
+    font-size: var(--text-2xs);
   }
 
   .x-label {
-    font-size: 0.7rem;
+    font-size: var(--text-2xs);
   }
 
   .y-label-right {
-    font-size: 0.7rem;
+    font-size: var(--text-2xs);
   }
 
   .chart-legend {
@@ -874,7 +874,7 @@
   }
 
   .legend-item span {
-    font-size: 0.85rem;
+    font-size: var(--text-md);
   }
 }
 
@@ -886,15 +886,15 @@
   }
 
   .efficiency-alert {
-    font-size: 0.9rem;
+    font-size: var(--text-md);
   }
 
   .efficiency-text {
-    font-size: 0.85rem;
+    font-size: var(--text-md);
   }
 
   .chart-title {
-    font-size: 1rem;
+    font-size: var(--text-base);
   }
 
   .chart-grid {
@@ -902,19 +902,19 @@
   }
 
   .y-label {
-    font-size: 0.65rem;
+    font-size: var(--text-3xs);
   }
 
   .x-label {
-    font-size: 0.65rem;
+    font-size: var(--text-3xs);
   }
 
   .y-label-right {
-    font-size: 0.65rem;
+    font-size: var(--text-3xs);
   }
 
   .legend-item span {
-    font-size: 0.8rem;
+    font-size: var(--text-sm);
   }
 }
 
@@ -926,15 +926,15 @@
   }
 
   .efficiency-alert {
-    font-size: 0.85rem;
+    font-size: var(--text-md);
   }
 
   .efficiency-text {
-    font-size: 0.8rem;
+    font-size: var(--text-sm);
   }
 
   .chart-title {
-    font-size: 0.9rem;
+    font-size: var(--text-md);
   }
 
   .chart-grid {
@@ -942,15 +942,15 @@
   }
 
   .y-label {
-    font-size: 0.6rem;
+    font-size: var(--text-3xs);
   }
 
   .x-label {
-    font-size: 0.6rem;
+    font-size: var(--text-3xs);
   }
 
   .y-label-right {
-    font-size: 0.6rem;
+    font-size: var(--text-3xs);
   }
 
   .legend-line {
@@ -959,7 +959,7 @@
   }
 
   .legend-item span {
-    font-size: 0.75rem;
+    font-size: var(--text-xs);
   }
 }
 
@@ -984,20 +984,20 @@
   }
 
   .exp-card-title {
-    font-size: 0.7rem;
+    font-size: var(--text-2xs);
   }
 
   .exp-card-value {
-    font-size: 0.9rem;
+    font-size: var(--text-md);
   }
 
   .exp-card-label {
-    font-size: 0.65rem;
+    font-size: var(--text-3xs);
   }
 
   .character-table,
   .breakthrough-table {
-    font-size: 0.7rem;
+    font-size: var(--text-2xs);
   }
 
   .character-table th,
@@ -1012,11 +1012,11 @@
   }
 
   .calc-label {
-    font-size: 0.7rem;
+    font-size: var(--text-2xs);
   }
 
   .calc-value {
-    font-size: 0.9rem;
+    font-size: var(--text-md);
   }
 
   .rune-detail {
@@ -1024,10 +1024,10 @@
   }
 
   .rune-label {
-    font-size: 0.7rem;
+    font-size: var(--text-2xs);
   }
 
   .rune-value {
-    font-size: 0.9rem;
+    font-size: var(--text-md);
   }
 }

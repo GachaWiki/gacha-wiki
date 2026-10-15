@@ -302,7 +302,7 @@
 }
 
 .tag-emoji {
-  font-size: 0.875rem;
+  font-size: var(--text-md);
 }
 
 /* Tag Colors */
@@ -482,13 +482,13 @@
   }
 
   .update-tag {
-    font-size: 10px;
+    font-size: var(--text-3xs);
     padding: 0.25rem 0.5rem;
     gap: 0.25rem;
   }
 
   .tag-emoji {
-    font-size: 0.75rem;
+    font-size: var(--text-xs);
   }
 
   .patch-date {

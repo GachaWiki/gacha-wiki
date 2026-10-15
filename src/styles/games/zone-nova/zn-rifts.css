@@ -189,7 +189,7 @@
 }
 
 .rift-overview .rift-title {
-  font-size: 1.65rem;
+  font-size: var(--text-3xl);
   font-weight: 600;
   color: var(--zn-text-primary);
   margin: 0;
@@ -202,7 +202,7 @@
   color: var(--amber-glow);
   padding: 0.35rem 0.85rem;
   border-radius: 999px;
-  font-size: 0.85rem;
+  font-size: var(--text-md);
   font-weight: 600;
   white-space: nowrap;
 }
@@ -218,7 +218,7 @@
   -webkit-box-orient: initial;
   overflow: visible;
   color: var(--zn-text-secondary);
-  font-size: 0.95rem;
+  font-size: var(--text-body);
   line-height: 1.65;
   margin: 0 0 1.25rem;
 }
@@ -239,7 +239,7 @@
 }
 
 .rift-overview .meta-label {
-  font-size: 0.8rem;
+  font-size: var(--text-sm);
   font-weight: 600;
   color: var(--zn-text-muted);
   flex: 0 0 7.25rem;
@@ -247,7 +247,7 @@
 
 .rift-overview .meta-value {
   color: var(--zn-text-primary);
-  font-size: 0.92rem;
+  font-size: var(--text-body);
   text-align: left;
   min-width: 0;
 }
@@ -260,7 +260,7 @@
   border-radius: 0;
   background: none;
   border: none;
-  font-size: 0.92rem;
+  font-size: var(--text-body);
   font-weight: 600;
   letter-spacing: 0.02em;
 }
@@ -300,7 +300,7 @@
   align-items: center;
   justify-content: center;
   font-weight: 700;
-  font-size: 0.85rem;
+  font-size: var(--text-md);
   flex-shrink: 0;
   margin-top: 0.1rem;
 }
@@ -312,7 +312,7 @@
 .effect-content p {
   margin: 0;
   line-height: 1.65;
-  font-size: 0.95rem;
+  font-size: var(--text-body);
   color: var(--zn-text-primary);
 }
 

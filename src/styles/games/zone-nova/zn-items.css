@@ -6,7 +6,7 @@
 
 .zn-items-intro {
   color: var(--zn-text-secondary, #b8c4d0);
-  font-size: 0.95rem;
+  font-size: var(--text-body);
   line-height: 1.6;
   margin: 0 0 1.25rem 0;
 }
@@ -30,7 +30,7 @@
   border: 1px solid rgba(255, 255, 255, 0.12);
   border-radius: 8px;
   padding: 0.5rem 0.75rem;
-  font-size: 0.9rem;
+  font-size: var(--text-md);
   outline: none;
 }
 
@@ -46,7 +46,7 @@
 
 .zn-items-filter-count {
   color: var(--zn-text-secondary, #b8c4d0);
-  font-size: 0.85rem;
+  font-size: var(--text-md);
   margin-left: auto;
   white-space: nowrap;
 }
@@ -86,7 +86,7 @@
 .zn-item-name {
   font-weight: 600;
   color: #f2f6fa;
-  font-size: 0.95rem;
+  font-size: var(--text-body);
   line-height: 1.25;
 }
 
@@ -97,7 +97,7 @@
 }
 
 .zn-item-badge {
-  font-size: 0.7rem;
+  font-size: var(--text-2xs);
   padding: 0.1rem 0.5rem;
   border-radius: 999px;
   border: 1px solid rgba(255, 255, 255, 0.15);
@@ -111,7 +111,7 @@
 .zn-item-badge.rarity-R   { color: #8fc7ff; border-color: rgba(143, 199, 255, 0.4); }
 
 .zn-item-desc {
-  font-size: 0.78rem;
+  font-size: var(--text-xs);
   color: var(--zn-text-secondary, #9fb0c0);
   line-height: 1.4;
   display: -webkit-box;

@@ -12,7 +12,7 @@
 
 .section-title {
   color: var(--amber-glow);
-  font-size: 1.8rem;
+  font-size: var(--text-3xl);
   font-weight: 700;
   margin: 0 0 2rem 0;
   text-align: left;
@@ -80,14 +80,14 @@
   margin: 0;
   text-align: center;
   color: var(--amber-glow);
-  font-size: 2rem;
+  font-size: var(--text-4xl);
   font-weight: 700;
 }
 
 .character-class-info {
   color: var(--zn-text-primary);
   margin: 0.5rem 0 0 0;
-  font-size: 1rem;
+  font-size: var(--text-base);
   text-align: center;
 }
 
@@ -102,7 +102,7 @@
 .character-faction-description {
   color: var(--zn-text-muted);
   margin: 0.3rem auto 0;
-  font-size: 0.9rem;
+  font-size: var(--text-md);
   text-align: center;
   line-height: 1.3;
   max-width: 300px;
@@ -133,7 +133,7 @@
   color: var(--zn-text-muted);
   margin-bottom: 0.3rem;
   font-weight: 600;
-  font-size: 0.85rem;
+  font-size: var(--text-md);
 }
 
 .faction-section {
@@ -143,7 +143,7 @@
 
 .faction-chinese-name {
   color: var(--zn-text-muted);
-  font-size: 0.9rem;
+  font-size: var(--text-md);
   font-weight: 400;
 }
 
@@ -166,7 +166,7 @@
   color: var(--zn-text-primary);
   margin: 0 0 1rem 0;
   text-align: center;
-  font-size: 1.3rem;
+  font-size: var(--text-xl);
   border-bottom: 1px solid var(--zn-border);
   padding-bottom: 0.5rem;
 }
@@ -174,7 +174,7 @@
 .character-stats-subtitle {
   color: var(--zn-text-primary);
   margin: 0 0 1rem 0;
-  font-size: 1.1rem;
+  font-size: var(--text-lg);
 }
 
 .character-stats-grid {
@@ -200,26 +200,26 @@
   color: var(--zn-text-muted);
   margin-bottom: 0.3rem;
   font-weight: 600;
-  font-size: 0.85rem;
+  font-size: var(--text-md);
 }
 
 .stat-value {
   color: var(--zn-text-primary);
   font-weight: 700;
-  font-size: 1rem;
+  font-size: var(--text-base);
 }
 
 .stat-label.small {
-  font-size: 0.8rem;
+  font-size: var(--text-sm);
 }
 
 .stat-value.small {
-  font-size: 0.95rem;
+  font-size: var(--text-body);
 }
 
 /* Max (full talent tree) stat shown under the base value */
 .stat-value.stat-max {
-  font-size: 0.85rem;
+  font-size: var(--text-md);
   font-weight: 600;
   color: var(--zn-accent, #4fc3f7);
   margin-top: 0.15rem;
@@ -227,7 +227,7 @@
 
 .stat-max-note {
   color: var(--zn-text-muted);
-  font-size: 0.78rem;
+  font-size: var(--text-xs);
   text-align: center;
   margin: -0.9rem 0 1rem 0;
 }
@@ -245,7 +245,7 @@
 .talent-totals-title {
   color: var(--zn-text-primary);
   margin: 0 0 0.75rem 0;
-  font-size: 1.05rem;
+  font-size: var(--text-base);
 }
 
 .talent-totals-grid {
@@ -263,12 +263,12 @@
   border-radius: 999px;
   padding: 0.3rem 0.8rem;
   font-weight: 600;
-  font-size: 0.9rem;
+  font-size: var(--text-md);
 }
 
 .talent-totals-note {
   color: var(--zn-text-muted);
-  font-size: 0.82rem;
+  font-size: var(--text-sm);
   margin: 0;
 }
 
@@ -289,12 +289,12 @@
 }
 
 .talent-e-nodes .node-tier-title {
-  font-size: 0.98rem;
+  font-size: var(--text-base);
 }
 
 .node-tier-materials {
   color: var(--zn-text-muted);
-  font-size: 0.78rem;
+  font-size: var(--text-xs);
   margin-top: 0.25rem;
 }
 
@@ -310,7 +310,7 @@
   border: 1px solid var(--zn-border);
   border-radius: 10px;
   overflow: hidden;
-  font-size: 0.92rem;
+  font-size: var(--text-body);
 }
 
 .talent-table th {
@@ -318,7 +318,7 @@
   color: var(--zn-text-muted);
   text-align: left;
   padding: 0.6rem 0.75rem;
-  font-size: 0.8rem;
+  font-size: var(--text-sm);
   text-transform: uppercase;
   letter-spacing: 0.04em;
   border-bottom: 1px solid var(--zn-border);
@@ -346,7 +346,7 @@
 
 .talent-node-mats {
   color: var(--zn-text-muted);
-  font-size: 0.85rem;
+  font-size: var(--text-md);
 }
 
 /* material / currency chips with icons inside talent tables */
@@ -371,7 +371,7 @@
     display: block;
     background: transparent;
     border: none;
-    font-size: 0.9rem;
+    font-size: var(--text-md);
   }
 
   .talent-table thead {
@@ -435,7 +435,7 @@
     content: attr(data-label);
     display: block;
     color: var(--zn-text-muted);
-    font-size: 0.7rem;
+    font-size: var(--text-2xs);
     text-transform: uppercase;
     letter-spacing: 0.04em;
     margin-bottom: 0.15rem;
@@ -489,7 +489,7 @@
 
 .skill-level-picker .picker-label {
   color: var(--zn-text-muted);
-  font-size: 0.85rem;
+  font-size: var(--text-md);
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.05em;
@@ -509,7 +509,7 @@
   background: var(--zn-bg-primary);
   color: var(--zn-text-primary);
   font-weight: 600;
-  font-size: 0.88rem;
+  font-size: var(--text-md);
   cursor: pointer;
   transition: border-color 0.15s ease, background 0.15s ease;
   position: relative;
@@ -526,7 +526,7 @@
 }
 
 .pill-mark {
-  font-size: 0.55rem;
+  font-size: var(--text-3xs);
   font-weight: 700;
   margin-left: 1px;
   color: var(--zn-accent, #4fc3f7);
@@ -583,7 +583,7 @@
 .character-class-compatibility {
   color: var(--zn-text-primary);
   margin: 0;
-  font-size: 0.85rem;
+  font-size: var(--text-md);
   line-height: 1.4;
   font-weight: 600;
 }
@@ -620,7 +620,7 @@
 
 .skill-title {
   color: var(--zn-text-primary);
-  font-size: 1.2rem;
+  font-size: var(--text-xl);
   font-weight: 700;
   margin: 0;
 }
@@ -633,7 +633,7 @@
 
 .skill-cooldown {
   color: var(--zn-text-primary);
-  font-size: 0.85rem;
+  font-size: var(--text-md);
   font-weight: 600;
   background: rgba(0, 172, 193, 0.15);
   padding: 0.2rem 0.5rem;
@@ -642,7 +642,7 @@
 
 .skill-cost {
   color: var(--zn-text-primary);
-  font-size: 0.85rem;
+  font-size: var(--text-md);
   font-weight: 600;
   background: rgba(255, 183, 77, 0.15);
   padding: 0.2rem 0.5rem;
@@ -653,7 +653,7 @@
   color: var(--zn-text-secondary);
   line-height: 1.6;
   margin: 0;
-  font-size: 0.95rem;
+  font-size: var(--text-body);
 }
 
 .skill-state-section {
@@ -666,7 +666,7 @@
 
 .skill-state-title {
   color: var(--teal-crystal);
-  font-size: 1rem;
+  font-size: var(--text-base);
   font-weight: 700;
   margin: 0 0 0.5rem 0;
 }
@@ -675,7 +675,7 @@
   color: var(--zn-text-secondary);
   line-height: 1.6;
   margin: 0;
-  font-size: 0.9rem;
+  font-size: var(--text-md);
 }
 
 .skill-additional-rules {
@@ -688,7 +688,7 @@
 
 .skill-additional-rules-title {
   color: var(--cosmic-purple);
-  font-size: 1rem;
+  font-size: var(--text-base);
   font-weight: 700;
   margin: 0 0 0.5rem 0;
 }
@@ -704,7 +704,7 @@
   line-height: 1.6;
   margin-bottom: 0.4rem;
   padding-left: 0.5rem;
-  font-size: 0.9rem;
+  font-size: var(--text-md);
 }
 
 .skill-additional-rule-item:last-child {
@@ -747,7 +747,7 @@
 }
 .node-tree-intro {
   color: var(--zn-text-primary);
-  font-size: 1rem;
+  font-size: var(--text-base);
   line-height: 1.6;
   margin: 0 0 1rem 0;
 }
@@ -758,7 +758,7 @@
 
 .node-components {
   color: var(--zn-text-secondary);
-  font-size: 0.95rem;
+  font-size: var(--text-body);
   line-height: 1.6;
   margin: 0;
   padding-left: 1.5rem;
@@ -790,13 +790,13 @@
 .node-section-title {
   color: var(--zn-text-primary);
   margin: 1.5rem 0 0.75rem 0;
-  font-size: 1.3rem;
+  font-size: var(--text-xl);
 }
 
 .node-section-subtitle {
   color: var(--zn-text-secondary);
   margin-bottom: 1rem;
-  font-size: 0.95rem;
+  font-size: var(--text-body);
 }
 
 .skill-levelup-section {
@@ -829,7 +829,7 @@
 .skill-types-title {
   color: var(--zn-text-primary);
   margin: 0 0 0.75rem 0;
-  font-size: 1rem;
+  font-size: var(--text-base);
 }
 
 .skill-grid {
@@ -849,7 +849,7 @@
 .skill-type-name {
   color: var(--zn-text-primary);
   font-weight: 600;
-  font-size: 0.85rem;
+  font-size: var(--text-md);
 }
 .node-tier {
   background: var(--zn-bg-primary);
@@ -872,13 +872,13 @@
 
 .node-tier-title {
   font-weight: 700;
-  font-size: 0.95rem;
+  font-size: var(--text-body);
   color: var(--zn-text-primary);
 }
 
 .node-tier-requirement {
   color: var(--zn-text-secondary);
-  font-size: 0.85rem;
+  font-size: var(--text-md);
 }
 
 .stat-nodes-info {
@@ -892,7 +892,7 @@
 .stat-nodes-title {
   color: var(--zn-text-primary);
   margin: 0 0 0.75rem 0;
-  font-size: 1rem;
+  font-size: var(--text-base);
 }
 
 .stat-grid {
@@ -912,7 +912,7 @@
 .stat-grid-text {
   color: var(--zn-text-primary);
   font-weight: 600;
-  font-size: 0.8rem;
+  font-size: var(--text-sm);
 }
 
 .node-info-box {
@@ -951,7 +951,7 @@
 
 .awakening-title {
   color: var(--zn-text-primary);
-  font-size: 1.15rem;
+  font-size: var(--text-lg);
   font-weight: 700;
   margin: 0;
   display: flex;
@@ -967,7 +967,7 @@
   color: var(--zn-text-secondary);
   line-height: 1.6;
   margin: 0;
-  font-size: 0.95rem;
+  font-size: var(--text-body);
 }
 
 .awakening-description strong {
@@ -1035,7 +1035,7 @@
   color: var(--zn-text-primary);
   margin: 0 0 1rem 0;
   text-align: center;
-  font-size: 1.3rem;
+  font-size: var(--text-xl);
   border-bottom: 1px solid var(--zn-border);
   padding-bottom: 0.5rem;
 }
@@ -1043,7 +1043,7 @@
 .memory-effects-title {
   color: var(--zn-text-primary);
   margin: 1.25rem 0 0.75rem 0;
-  font-size: 1rem;
+  font-size: var(--text-base);
 }
 
 .memory-effect-item {
@@ -1057,7 +1057,7 @@
 .memory-effect-text {
   color: var(--zn-text-primary);
   margin: 0;
-  font-size: 0.95rem;
+  font-size: var(--text-body);
 }
 
 /* Memory awakening level picker (mirrors the skill level picker) */
@@ -1074,7 +1074,7 @@
 }
 
 .mem-awaken-label {
-  font-size: 0.8rem;
+  font-size: var(--text-sm);
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.05em;
@@ -1093,7 +1093,7 @@
   border: 1px solid rgba(255, 255, 255, 0.18);
   background: transparent;
   color: var(--zn-text-muted);
-  font-size: 0.85rem;
+  font-size: var(--text-md);
   font-weight: 600;
   cursor: pointer;
   transition: all 0.15s ease;
@@ -1129,7 +1129,7 @@
 
 .mem-buff-title {
   display: block;
-  font-size: 0.75rem;
+  font-size: var(--text-xs);
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.06em;
@@ -1139,7 +1139,7 @@
 
 .mem-buff-note {
   color: var(--zn-text-secondary);
-  font-size: 0.88rem;
+  font-size: var(--text-md);
   line-height: 1.6;
   margin: 0 0 0.3rem;
 }
@@ -1175,7 +1175,7 @@
   padding: 0.5rem 1rem;
   border-radius: 8px;
   font-weight: 700;
-  font-size: 0.95rem;
+  font-size: var(--text-body);
   text-transform: uppercase;
   letter-spacing: 0.05em;
   margin: 0;
@@ -1208,7 +1208,7 @@
 .equipment-limitation-class {
   margin: 0 0 0.5rem 0;
   color: var(--rose-quartz);
-  font-size: 1.2rem;
+  font-size: var(--text-xl);
   font-weight: 700;
   text-transform: uppercase;
   line-height: 1.2;
@@ -1218,7 +1218,7 @@
   margin: 0;
   color: var(--zn-text-secondary);
   font-weight: 500;
-  font-size: 0.95rem;
+  font-size: var(--text-body);
   line-height: 1.5;
 }
 
@@ -1243,7 +1243,7 @@
 .swipeable-indicator {
   display: none;
   color: var(--amber-glow);
-  font-size: 0.8rem;
+  font-size: var(--text-sm);
   font-weight: 600;
   text-align: center;
   margin-bottom: 1rem;
@@ -1261,7 +1261,7 @@
   }
 
   .section-title {
-    font-size: 1.5rem;
+    font-size: var(--text-2xl);
     margin-bottom: 1.5rem;
   }
 
@@ -1364,7 +1364,7 @@
   }
 
   .awakening-title {
-    font-size: 1.05rem;
+    font-size: var(--text-base);
   }
 
   .damage-breakdown-header,
@@ -1419,7 +1419,7 @@
   }
 
   .damage-total-value {
-    font-size: 1.6rem;
+    font-size: var(--text-2xl);
   }
 }
 
@@ -1430,7 +1430,7 @@
   }
 
   .section-title {
-    font-size: 1.3rem;
+    font-size: var(--text-xl);
   }
 
   .character-hero-container {
@@ -1443,7 +1443,7 @@
   }
 
   .character-name {
-    font-size: 1.6rem;
+    font-size: var(--text-2xl);
   }
 
   .character-stats-box {
@@ -1495,11 +1495,11 @@
   }
 
   .awakening-title {
-    font-size: 1rem;
+    font-size: var(--text-base);
   }
 
   .damage-analysis-description {
-    font-size: 0.9rem;
+    font-size: var(--text-md);
     padding: 0.6rem 0.75rem;
   }
 
@@ -1508,7 +1508,7 @@
   }
 
   .damage-total-value {
-    font-size: 1.4rem;
+    font-size: var(--text-2xl);
   }
 }
 
@@ -1537,7 +1537,7 @@
 
 .damage-analysis-description {
   color: var(--zn-text-secondary);
-  font-size: 1rem;
+  font-size: var(--text-base);
   line-height: 1.6;
   margin: 0 0 1.5rem 0;
   padding: 0.75rem 1rem;
@@ -1553,7 +1553,7 @@
 .damage-breakdown-title {
   color: var(--zn-text-primary);
   margin: 0 0 0.75rem 0;
-  font-size: 1.1rem;
+  font-size: var(--text-lg);
   font-weight: 700;
 }
 
@@ -1604,13 +1604,13 @@
 
 .breakdown-col.type {
   color: var(--zn-text-secondary);
-  font-size: 0.9rem;
+  font-size: var(--text-md);
 }
 
 .breakdown-col.duration {
   color: var(--zn-text-secondary);
   font-weight: 500;
-  font-size: 0.9rem;
+  font-size: var(--text-md);
 }
 
 .damage-totals-container {
@@ -1620,7 +1620,7 @@
 .damage-totals-title {
   color: var(--zn-text-primary);
   margin: 0 0 0.75rem 0;
-  font-size: 1.1rem;
+  font-size: var(--text-lg);
   font-weight: 700;
 }
 
@@ -1639,7 +1639,7 @@
 
 .damage-total-label {
   color: var(--zn-text-muted);
-  font-size: 0.85rem;
+  font-size: var(--text-md);
   font-weight: 600;
   margin: 0 0 0.4rem 0;
   text-transform: uppercase;
@@ -1648,14 +1648,14 @@
 
 .damage-total-value {
   color: var(--amber-glow);
-  font-size: 1.8rem;
+  font-size: var(--text-3xl);
   font-weight: 800;
   margin: 0 0 0.5rem 0;
 }
 
 .damage-total-calculation {
   color: var(--zn-text-muted);
-  font-size: 0.8rem;
+  font-size: var(--text-sm);
   margin: 0 0 0.4rem 0;
   font-family: var(--font-mono);
   background: rgba(0, 0, 0, 0.15);
@@ -1666,7 +1666,7 @@
 
 .damage-total-note {
   color: var(--zn-text-secondary);
-  font-size: 0.85rem;
+  font-size: var(--text-md);
   margin: 0;
   font-style: italic;
   line-height: 1.4;
@@ -1675,7 +1675,7 @@
 /* DB page max-stats note */
 .db-max-stats-note {
   color: var(--zn-text-muted);
-  font-size: 0.82rem;
+  font-size: var(--text-sm);
   margin: 0 0 0.6rem 0;
 }
 
@@ -1722,19 +1722,19 @@
 .character-gallery-label {
   color: var(--zn-primary);
   font-weight: 700;
-  font-size: 0.85rem;
+  font-size: var(--text-md);
   white-space: nowrap;
 }
 
 .character-gallery-event-title {
   color: var(--zn-text-secondary);
-  font-size: 0.85rem;
+  font-size: var(--text-md);
   line-height: 1.35;
 }
 
 .character-gallery-note {
   color: var(--zn-text-muted);
-  font-size: 0.82rem;
+  font-size: var(--text-sm);
   margin: 0.75rem 0 0 0;
 }
 

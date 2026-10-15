@@ -31,7 +31,7 @@
 /* Section titles - flat text */
 .builds-section-title {
   color: var(--zn-text-primary);
-  font-size: 1.8rem;
+  font-size: var(--text-3xl);
   font-weight: 700;
   margin: 0 0 1.5rem 0;
   text-align: left;
@@ -95,20 +95,20 @@
 
 .character-card-name {
   color: var(--zn-text-primary);
-  font-size: 1.2rem;
+  font-size: var(--text-xl);
   font-weight: 700;
   margin: 0 0 0.25rem 0;
 }
 
 .character-card-class {
   color: var(--zn-text-secondary);
-  font-size: 0.9rem;
+  font-size: var(--text-md);
   margin: 0 0 0.1rem 0;
 }
 
 .character-card-faction {
   color: var(--zn-text-tertiary);
-  font-size: 0.85rem;
+  font-size: var(--text-md);
   margin: 0;
 }
 
@@ -123,7 +123,7 @@
 .character-badge {
   padding: 0.25rem 0.5rem;
   border-radius: 3px;
-  font-size: 0.8rem;
+  font-size: var(--text-sm);
   font-weight: 600;
   border: 1px solid;
 }
@@ -178,7 +178,7 @@
 
 .character-card-preview {
   color: var(--zn-text-secondary);
-  font-size: 0.85rem;
+  font-size: var(--text-md);
   line-height: 1.4;
   flex: 1;
 }
@@ -196,7 +196,7 @@
   border-radius: 4px;
   color: var(--zn-primary);
   font-weight: 600;
-  font-size: 0.9rem;
+  font-size: var(--text-md);
   text-align: center;
 }
 
@@ -238,21 +238,21 @@
 
 .build-character-info h1 {
   color: var(--zn-text-primary);
-  font-size: 2rem;
+  font-size: var(--text-4xl);
   font-weight: 700;
   margin: 0 0 0.5rem 0;
 }
 
 .build-character-class {
   color: var(--zn-primary);
-  font-size: 1.1rem;
+  font-size: var(--text-lg);
   font-weight: 600;
   margin: 0 0 0.25rem 0;
 }
 
 .build-character-faction {
   color: var(--zn-text-secondary);
-  font-size: 1rem;
+  font-size: var(--text-base);
   margin: 0;
 }
 
@@ -267,7 +267,7 @@
 
 .build-section h2 {
   color: var(--zn-text-primary);
-  font-size: 1.4rem;
+  font-size: var(--text-2xl);
   font-weight: 700;
   margin: 0 0 1rem 0;
   padding-bottom: 0.5rem;
@@ -276,7 +276,7 @@
 
 .build-section h3 {
   color: var(--zn-text-primary);
-  font-size: 1.1rem;
+  font-size: var(--text-lg);
   font-weight: 600;
   margin: 1rem 0 0.5rem 0;
 }
@@ -340,14 +340,14 @@
 .memory-card-name {
   color: var(--zn-text-primary);
   font-weight: 600;
-  font-size: 1rem;
+  font-size: var(--text-base);
   margin: 0;
   line-height: 1.3;
 }
 
 .memory-card-exclusive {
   color: var(--zn-primary);
-  font-size: 0.75rem;
+  font-size: var(--text-xs);
   display: block;
   margin-top: 0.25rem;
 }
@@ -356,7 +356,7 @@
   flex-shrink: 0;
   padding: 0.25rem 0.5rem;
   border-radius: 3px;
-  font-size: 0.7rem;
+  font-size: var(--text-2xs);
   white-space: nowrap;
 }
 
@@ -390,14 +390,14 @@
 
 .memory-card-effect {
   color: var(--zn-text-secondary);
-  font-size: 0.85rem;
+  font-size: var(--text-md);
   line-height: 1.5;
   margin-bottom: 0.75rem;
   flex: 1;
 }
 
 .memory-card-stats {
-  font-size: 0.8rem;
+  font-size: var(--text-sm);
   color: var(--zn-text-secondary);
   margin-bottom: 0.5rem;
   padding-top: 0.5rem;
@@ -413,7 +413,7 @@
 .memory-card-link {
   color: var(--zn-primary);
   text-decoration: none;
-  font-size: 0.85rem;
+  font-size: var(--text-md);
   font-weight: 500;
 }
 
@@ -425,7 +425,7 @@
   border-radius: 4px;
   padding: 0.75rem;
   margin: 0.75rem 0;
-  font-size: 0.85rem;
+  font-size: var(--text-md);
   line-height: 1.4;
 }
 
@@ -483,7 +483,7 @@
 
 .skill-priority-level {
   font-weight: 500;
-  font-size: 0.9rem;
+  font-size: var(--text-md);
   color: var(--zn-primary);
 }
 
@@ -510,7 +510,7 @@
 
 .equipment-description {
   color: var(--zn-text-secondary);
-  font-size: 0.9rem;
+  font-size: var(--text-md);
   margin: 0;
 }
 
@@ -536,7 +536,7 @@
 
 .team-synergy-description {
   color: var(--zn-text-secondary);
-  font-size: 0.9rem;
+  font-size: var(--text-md);
   line-height: 1.4;
   margin: 0;
 }
@@ -553,7 +553,7 @@
   border: 1px solid var(--zn-border-light);
   border-radius: 3px;
   padding: 0.25rem 0.5rem;
-  font-size: 0.8rem;
+  font-size: var(--text-sm);
   color: var(--zn-text-secondary);
 }
 
@@ -607,7 +607,7 @@
   }
 
   .builds-section-title {
-    font-size: 1.5rem;
+    font-size: var(--text-2xl);
     margin-bottom: 1rem;
     padding-left: 0.5rem;
     border-left-width: 2px;
@@ -641,7 +641,7 @@
   }
 
   .build-character-info h1 {
-    font-size: 1.6rem;
+    font-size: var(--text-2xl);
   }
 
   .memory-cards-grid {
@@ -661,7 +661,7 @@
   }
 
   .build-section h2 {
-    font-size: 1.2rem;
+    font-size: var(--text-xl);
   }
 }
 
@@ -671,7 +671,7 @@
   }
 
   .builds-section-title {
-    font-size: 1.3rem;
+    font-size: var(--text-xl);
     margin-bottom: 0.75rem;
   }
 
@@ -690,7 +690,7 @@
   }
 
   .build-character-info h1 {
-    font-size: 1.4rem;
+    font-size: var(--text-2xl);
   }
 
   .skill-priority-item {
@@ -717,7 +717,7 @@
 .main-stat-card h3 {
   color: var(--zn-text-primary);
   margin-bottom: 1rem;
-  font-size: 1rem;
+  font-size: var(--text-base);
 }
 
 .main-stat-fixed {
@@ -749,7 +749,7 @@
 
 .main-stat-options-label {
   color: var(--zn-text-secondary);
-  font-size: 0.9rem;
+  font-size: var(--text-md);
   margin-bottom: 0.5rem;
 }
 
@@ -762,7 +762,7 @@
 .main-stat-option {
   padding: 0.25rem 0.5rem;
   border-radius: 4px;
-  font-size: 0.8rem;
+  font-size: var(--text-sm);
   border: 1px solid var(--zn-border-light);
 }
 
@@ -779,7 +779,7 @@
 .main-stat-description {
   color: var(--zn-text-secondary);
   font-style: italic;
-  font-size: 0.85rem;
+  font-size: var(--text-md);
   margin-top: 0.75rem;
   margin-bottom: 0;
 }
@@ -814,13 +814,13 @@
   font-weight: 700;
   padding: 0.25rem 0.75rem;
   border-radius: 4px;
-  font-size: 1rem;
+  font-size: var(--text-base);
 }
 
 .awakening-importance {
   padding: 0.25rem 0.5rem;
   border-radius: 3px;
-  font-size: 0.8rem;
+  font-size: var(--text-sm);
   font-weight: 600;
 }
 
@@ -852,7 +852,7 @@
 
 .awakening-effect {
   color: var(--zn-text-secondary);
-  font-size: 0.9rem;
+  font-size: var(--text-md);
   line-height: 1.5;
   margin: 0;
 }

@@ -54,7 +54,7 @@
   color: var(--zn-text-secondary);
   border-radius: 8px;
   border: 1px solid var(--mocha-mousse);
-  font-size: 0.8rem;
+  font-size: var(--text-sm);
   cursor: pointer;
   transition: all 0.2s ease;
 }
@@ -71,7 +71,7 @@
   color: white;
   border-radius: 10px;
   border: 2px solid var(--rose-quartz);
-  font-size: 0.85rem;
+  font-size: var(--text-md);
   font-weight: 600;
   cursor: pointer;
   transition: all 0.3s ease;
@@ -115,7 +115,7 @@ table.team-table th {
   background: var(--amber-glow);
   color: #222;
   font-weight: 700;
-  font-size: 0.9rem;
+  font-size: var(--text-md);
   position: sticky;
   top: 0;
   z-index: 2;
@@ -130,7 +130,7 @@ table.team-table th:nth-child(1), /* Team Name */
 table.team-table td:nth-child(1) {
   width: 12%;
   min-width: 110px;
-  font-size: 0.85rem;
+  font-size: var(--text-md);
   font-weight: 600;
   line-height: 1.3;
 }
@@ -180,7 +180,7 @@ table.team-table td:nth-child(8) {
   max-width: 300px;
   word-wrap: break-word;
   line-height: 1.4;
-  font-size: 0.85rem;
+  font-size: var(--text-md);
   padding: 1rem 0.8rem;
 }
 
@@ -196,7 +196,7 @@ table.team-table td:nth-child(8) {
   display: inline-block;
   padding: 0.4rem 0.8rem;
   border-radius: 4px;
-  font-size: 0.8rem;
+  font-size: var(--text-sm);
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.05em;
@@ -253,7 +253,7 @@ table.team-table td:nth-child(8) {
   display: inline-block;
   padding: 0.4rem 0.8rem;
   border-radius: 4px;
-  font-size: 0.8rem;
+  font-size: var(--text-sm);
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.05em;
@@ -294,7 +294,7 @@ table.team-table td:nth-child(8) {
   background: linear-gradient(135deg, var(--mocha-mousse), var(--zn-border-light));
   color: #000;
   font-weight: 600;
-  font-size: 0.7rem;
+  font-size: var(--text-2xs);
 }
 
 /* ═══════════════════════════════════════════════════════════════════════ */
@@ -323,7 +323,7 @@ table.team-table td:nth-child(8) {
 }
 
 .character-name {
-  font-size: 0.72rem;
+  font-size: var(--text-xs);
   padding: 0.15rem 0.35rem;
   background: rgba(255, 183, 77, 0.1);
   border-radius: 6px;
@@ -350,14 +350,14 @@ table.team-table td:nth-child(8) {
 }
 
 .character-cell .element-badge {
-  font-size: 0.6rem;
+  font-size: var(--text-3xs);
   padding: 0.1rem 0.3rem;
   margin-top: 0.2rem;
   letter-spacing: 0.3px;
 }
 
 .mobile-character-item .element-badge {
-  font-size: 0.6rem;
+  font-size: var(--text-3xs);
   padding: 0.15rem 0.3rem;
   margin-top: 0.3rem;
   letter-spacing: 0.2px;
@@ -425,7 +425,7 @@ table.team-table td:nth-child(8) {
 }
 
 .mobile-card-title {
-  font-size: 1rem;
+  font-size: var(--text-base);
   font-weight: 700;
   color: var(--amber-glow);
   margin: 0;
@@ -473,7 +473,7 @@ table.team-table td:nth-child(8) {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 0.7rem;
+  font-size: var(--text-2xs);
   font-weight: 700;
   z-index: 1;
   border: 2px solid var(--zn-bg-primary);
@@ -488,7 +488,7 @@ table.team-table td:nth-child(8) {
 }
 
 .mobile-character-name {
-  font-size: 0.7rem;
+  font-size: var(--text-2xs);
   padding: 0.2rem 0.4rem;
   background: rgba(255, 183, 77, 0.1);
   border-radius: 4px;
@@ -504,7 +504,7 @@ table.team-table td:nth-child(8) {
 
 .mobile-card-notes {
   color: var(--zn-text-secondary);
-  font-size: 0.85rem;
+  font-size: var(--text-md);
   line-height: 1.4;
   margin-top: 1rem;
   padding-top: 0.5rem;
@@ -563,7 +563,7 @@ table.team-table td:nth-child(8) {
   .filter-select,
   .sort-btn {
     padding: 0.8rem 1.2rem; /* Larger touch targets */
-    font-size: 0.9rem; /* Larger text for readability */
+    font-size: var(--text-md); /* Larger text for readability */
     min-width: 88px; /* Larger minimum width */
     min-height: 44px; /* Minimum touch target size */
     text-align: center;
@@ -571,7 +571,7 @@ table.team-table td:nth-child(8) {
 
   .reset-btn {
     padding: 0.8rem 1.2rem; /* Larger touch target */
-    font-size: 0.9rem; /* Larger text */
+    font-size: var(--text-md); /* Larger text */
     min-height: 44px; /* Minimum touch target size */
     text-align: center;
   }
@@ -592,7 +592,7 @@ table.team-table td:nth-child(8) {
   }
 
   .mobile-card-title {
-    font-size: 1.1rem;
+    font-size: var(--text-lg);
     font-weight: 700;
   }
 
@@ -609,7 +609,7 @@ table.team-table td:nth-child(8) {
   }
 
   .mobile-character-name {
-    font-size: 0.75rem;
+    font-size: var(--text-xs);
     max-width: 75px;
     padding: 0.2rem 0.5rem;
     margin-bottom: 0.3rem;
@@ -617,7 +617,7 @@ table.team-table td:nth-child(8) {
 
   .team-type-badge,
   .team-tier-badge {
-    font-size: 0.75rem;
+    font-size: var(--text-xs);
     padding: 0.4rem 0.7rem;
     line-height: 1.2;
     margin: 0.2rem 0.1rem;
@@ -658,7 +658,7 @@ table.team-table td:nth-child(8) {
   }
 
   .mobile-card-title {
-    font-size: 1rem;
+    font-size: var(--text-base);
     line-height: 1.3;
   }
 
@@ -675,14 +675,14 @@ table.team-table td:nth-child(8) {
   }
 
   .mobile-character-name {
-    font-size: 0.65rem;
+    font-size: var(--text-3xs);
     max-width: 65px;
     padding: 0.15rem 0.3rem;
     margin-bottom: 0.2rem;
   }
 
   .mobile-card-notes {
-    font-size: 0.8rem;
+    font-size: var(--text-sm);
     margin-top: 1rem;
     padding-top: 0.7rem;
   }
@@ -690,18 +690,18 @@ table.team-table td:nth-child(8) {
   .filter-select,
   .sort-btn {
     padding: 0.5rem 0.8rem;
-    font-size: 0.8rem;
+    font-size: var(--text-sm);
     min-width: 70px;
   }
 
   .reset-btn {
     padding: 0.5rem 1rem;
-    font-size: 0.8rem;
+    font-size: var(--text-sm);
   }
 
   .team-type-badge,
   .team-tier-badge {
-    font-size: 0.7rem;
+    font-size: var(--text-2xs);
     padding: 0.3rem 0.6rem;
   }
 }
@@ -709,12 +709,12 @@ table.team-table td:nth-child(8) {
 /* Tablet (769px to 1024px) */
 @media (max-width: 1024px) and (min-width: 769px) {
   .team-type-badge {
-    font-size: 0.75rem;
+    font-size: var(--text-xs);
     padding: 0.3rem 0.6rem;
   }
 
   .character-name {
-    font-size: 0.75rem;
+    font-size: var(--text-xs);
   }
 }
 

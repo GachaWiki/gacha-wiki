@@ -11,7 +11,7 @@
 
 /* Section Titles */
 .section-title {
-  font-size: 1.5rem;
+  font-size: var(--text-2xl);
   font-weight: 600;
   color: var(--zn-primary-amber);
   margin: 0 0 0.75rem 0;
@@ -21,7 +21,7 @@
 
 .section-description {
   color: var(--zn-text-muted);
-  font-size: 0.95rem;
+  font-size: var(--text-body);
   line-height: 1.6;
   margin-bottom: 2rem;
 }
@@ -76,7 +76,7 @@
 }
 
 .rune-name {
-  font-size: 1.1rem;
+  font-size: var(--text-lg);
   font-weight: 600;
   color: var(--zn-text-primary);
   margin: 0;
@@ -84,13 +84,13 @@
 }
 
 .rune-cn {
-  font-size: 0.8rem;
+  font-size: var(--text-sm);
   color: var(--zn-text-muted);
   line-height: 1;
 }
 
 .rune-tag {
-  font-size: 0.7rem;
+  font-size: var(--text-2xs);
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.05em;
@@ -103,7 +103,7 @@
 
 .rune-bonus {
   color: var(--zn-text-secondary);
-  font-size: 0.9rem;
+  font-size: var(--text-md);
   line-height: 1.6;
   margin: 0 0 0.6rem;
 }
@@ -113,7 +113,7 @@
 }
 
 .rune-note {
-  font-size: 0.8rem;
+  font-size: var(--text-sm);
   color: var(--zn-text-muted);
   line-height: 1.5;
   border-top: 1px dashed var(--zn-border-primary);
@@ -136,7 +136,7 @@
 }
 
 .position-name {
-  font-size: 1rem;
+  font-size: var(--text-base);
   font-weight: 600;
   color: var(--zn-text-primary);
   margin: 0 0 1rem;
@@ -155,14 +155,14 @@
 .position-hint {
   color: var(--zn-text-muted);
   font-style: italic;
-  font-size: 0.85rem;
+  font-size: var(--text-md);
   text-align: center;
   margin: 0.9rem 0 0;
 }
 
 .available-title {
   color: var(--zn-primary-amber);
-  font-size: 0.85rem;
+  font-size: var(--text-md);
   font-weight: 600;
   margin: 0 0 0.75rem;
 }
@@ -172,7 +172,7 @@
   padding: 0;
   margin: 0;
   color: var(--zn-text-secondary);
-  font-size: 0.9rem;
+  font-size: var(--text-md);
 }
 
 .stat-list li {
@@ -202,7 +202,7 @@
 .element-order {
   color: #4fc3f7;
   font-weight: 600;
-  font-size: 0.9rem;
+  font-size: var(--text-md);
   margin: 1rem 0 0.25rem;
 }
 
@@ -219,7 +219,7 @@
 .substats-table {
   width: 100%;
   border-collapse: collapse;
-  font-size: 0.92rem;
+  font-size: var(--text-body);
 }
 
 .substats-table th {

@@ -28,7 +28,7 @@
 }
 
 .category-title {
-  font-size: 2.5rem;
+  font-size: var(--text-5xl);
   font-weight: 800;
   color: var(--amber-glow);
   margin: 0 0 1rem 0;
@@ -36,7 +36,7 @@
 }
 
 .category-description {
-  font-size: 1.1rem;
+  font-size: var(--text-lg);
   color: rgba(255, 255, 255, 0.7);
   margin: 0;
   line-height: 1.7;
@@ -83,7 +83,7 @@
 }
 
 .guide-title {
-  font-size: 1.75rem;
+  font-size: var(--text-3xl);
   font-weight: 700;
   margin-bottom: 1.2rem;
   color: rgba(255, 255, 255, 0.95);
@@ -95,7 +95,7 @@
   color: rgba(255, 255, 255, 0.65);
   line-height: 1.7;
   margin: 0;
-  font-size: 1.05rem;
+  font-size: var(--text-base);
   font-weight: 300;
   letter-spacing: 0.02em;
 }
@@ -112,6 +112,6 @@
   }
 
   .category-title {
-    font-size: 1.5rem;
+    font-size: var(--text-2xl);
   }
 }
