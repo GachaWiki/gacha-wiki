@@ -166,7 +166,7 @@ export default defineConfig({
                 console.log(`⚠️ Source file not found: ${mapping.src}`);
               }
             } catch (error) {
-              console.error(`❌ Error copying ${mapping.src}:`, error.message);
+              console.error(`❌ Error copying ${mapping.src}:`, error instanceof Error ? error.message : error);
             }
           });
 
