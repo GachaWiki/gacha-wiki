@@ -74,6 +74,9 @@ const initial = (alt || '?')
   gap: 5cqh;
   width: 100%;
   height: 100%;
+  /* contexts with no definite wrapper height collapse height:100% to 0,
+     which zeroes the cqh monogram; aspect-ratio rescues those cases */
+  aspect-ratio: 1;
   background:
     repeating-linear-gradient(45deg, rgba(255, 255, 255, 0.035) 0 6px, transparent 6px 12px),
     var(--bb-bg-tertiary, #242b33);

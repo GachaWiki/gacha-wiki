@@ -320,6 +320,15 @@ strong {
   .subsection-title {
     font-size: var(--text-lg); /* 18px */
   }
+
+  /* iOS Safari zooms the whole page when a text control narrower than 16px
+     gets focus; every input/select/textarea is lifted to the 16px base on
+     mobile regardless of its (smaller) desktop size */
+  input,
+  select,
+  textarea {
+    font-size: var(--text-base) !important;
+  }
 }
 
 /* === ACCESSIBILITY FEATURES === */

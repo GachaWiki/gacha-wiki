@@ -618,6 +618,10 @@
 .bb-tb-char-info {
   text-align: center;
   width: 100%;
+  /* fit-content of the nowrap name would otherwise blow past the grid track
+     and push the card off-screen on mobile; the cap lets the
+     .bb-tb-char-name ellipsis actually engage */
+  max-width: 100%;
 }
 
 .bb-tb-char-name {
@@ -665,7 +669,7 @@
   }
 
   .bb-tb-slots-grid {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, minmax(0, 1fr)); /* minmax(0,1fr): long names must truncate inside the card, never widen the track */
   }
 
   .bb-tb-filters {
@@ -679,7 +683,7 @@
   }
 
   .bb-tb-char-grid {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, minmax(0, 1fr)); /* minmax(0,1fr): long names must truncate inside the card, never widen the track */
   }
 
   .bb-tb-char-card {
@@ -707,7 +711,7 @@
   }
 
   .bb-tb-char-grid {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, minmax(0, 1fr)); /* minmax(0,1fr): long names must truncate inside the card, never widen the track */
     gap: 0.4rem;
   }
 
