@@ -21,9 +21,19 @@ const SECTIONS = [
   { key: 'scheduled', title: 'Scheduled in the client data' },
 ];
 
+// Scheduled banners can feature units with no wiki page yet (unreleased).
+const UNRELEASED_NAMES = {
+  'qing-yin': 'Qing Yin',
+  'leng-zhen': 'Leng Zhen',
+  elena: 'Elena',
+  victoria: 'Victoria',
+  connie: 'Connie',
+};
+const slugToName = slug => UNRELEASED_NAMES[slug] || slug;
+
 function charCard(slug) {
   const c = gsaBannerChar(slug);
-  if (!c) return { name: slug, meta: '', icon: null, slug };
+  if (!c) return null;
   const bits = [c.title, c.element?.name, c.job?.name].filter(Boolean);
   return { name: c.name, meta: bits.join(', '), icon: c.icon, slug };
 }
@@ -63,7 +73,7 @@ function charCard(slug) {
                     )
                     : (
                       <div class="gsa-bn-art-none">
-                        {b.featured.length > 0 && b.featured.every(slug => charCard(slug).icon)
+                        {b.featured.length > 0 && b.featured.every(slug => charCard(slug)?.icon)
                           ? b.featured.map(slug => {
                               const c = charCard(slug);
                               return <img class="gsa-bn-art-icon" src={c.icon} alt={c.name} width="110" height="110" loading="lazy" />;
@@ -83,6 +93,19 @@ function charCard(slug) {
                   <div class="gsa-banner-featured">
                     {b.featured.map(slug => {
                       const c = charCard(slug);
+                      if (!c) {
+                        // scheduled banners can feature units whose pages do
+                        // not exist yet (unreleased): show a name chip, no link
+                        return (
+                          <span class="gsa-banner-char">
+                            <span class="gsa-banner-char-thumb gsa-monogram">?</span>
+                            <span>
+                              <span class="gsa-banner-char-name">{slugToName(slug)}</span>
+                              <span class="gsa-banner-char-meta">Unreleased</span>
+                            </span>
+                          </span>
+                        );
+                      }
                       return (
                         <a class="gsa-banner-char" href={`/guides/gene-sys-adam/characters/${slug}/`}>
                           {c.icon
