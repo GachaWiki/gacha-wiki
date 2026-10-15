@@ -160,11 +160,11 @@ export const prerender = true;
   .demi-db-intro-card h3 {
     color: #e8a547;
     margin: 0 0 0.5rem;
-    font-size: 1.05rem;
+    font-size: var(--text-base);
   }
   .demi-db-intro-card p {
     color: #ccc;
-    font-size: 0.925rem;
+    font-size: var(--text-body);
     line-height: 1.6;
     margin: 0;
   }
@@ -178,16 +178,16 @@ export const prerender = true;
     border: 1px solid rgba(255, 255, 255, 0.14);
     border-radius: 6px;
     padding: 0.2rem 0.55rem;
-    font-size: 0.8rem;
+    font-size: var(--text-sm);
     color: #eee;
   }
   .demi-db-prob-4, .demi-db-prob-5 { color: #e8a547; border-color: rgba(232, 165, 71, 0.5); }
   .demi-db-heading {
     color: #e8a547;
-    font-size: 1.35rem;
+    font-size: var(--text-xl);
     margin: 1rem 0 0;
   }
-  .demi-db-note { color: #999; font-size: 0.9rem; margin: 0.35rem 0 0; }
+  .demi-db-note { color: #999; font-size: var(--text-md); margin: 0.35rem 0 0; }
   .demi-db-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(420px, 1fr));
@@ -215,7 +215,7 @@ export const prerender = true;
   .demi-db-name {
     color: #fff;
     margin: 0;
-    font-size: 1.1rem;
+    font-size: var(--text-lg);
   }
   .demi-db-meta {
     display: flex;
@@ -229,7 +229,7 @@ export const prerender = true;
     border: 1px solid rgba(232, 165, 71, 0.4);
     color: #e8a547;
     border-radius: 6px;
-    font-size: 0.78rem;
+    font-size: var(--text-xs);
     font-weight: 600;
     padding: 0.15rem 0.5rem;
   }
@@ -238,21 +238,21 @@ export const prerender = true;
     border: 1px solid var(--hw-accent-mint-50);
     color: var(--hw-accent-mint);
     border-radius: 6px;
-    font-size: 0.78rem;
+    font-size: var(--text-xs);
     font-weight: 600;
     padding: 0.15rem 0.5rem;
     white-space: nowrap;
   }
   .demi-db-note {
     color: #9ecbff;
-    font-size: 0.78rem;
+    font-size: var(--text-xs);
     text-decoration: none;
     width: fit-content;
   }
   .demi-db-note:hover { text-decoration: underline; }
   .demi-db-link {
     color: #9ecbff;
-    font-size: 0.82rem;
+    font-size: var(--text-sm);
     text-decoration: none;
   }
   .demi-db-link:hover { text-decoration: underline; }
@@ -272,10 +272,10 @@ export const prerender = true;
   .demi-db-auth-name {
     color: #e8a547;
     margin: 0;
-    font-size: 1rem;
+    font-size: var(--text-base);
   }
   .demi-db-badge {
-    font-size: 0.68rem;
+    font-size: var(--text-2xs);
     text-transform: uppercase;
     letter-spacing: 0.04em;
     border: 1px solid rgba(232, 165, 71, 0.4);
@@ -297,7 +297,7 @@ export const prerender = true;
     border: 1px solid rgba(255, 255, 255, 0.14);
     border-radius: 6px;
     color: #eee;
-    font-size: 0.82rem;
+    font-size: var(--text-sm);
     font-weight: 600;
     padding: 0.18rem 0.55rem;
     cursor: pointer;
@@ -309,7 +309,7 @@ export const prerender = true;
     color: #e8a547;
   }
   .demi-db-view {
-    font-size: 0.8rem;
+    font-size: var(--text-sm);
     font-weight: 600;
     color: #e8a547;
     text-transform: uppercase;
@@ -317,7 +317,7 @@ export const prerender = true;
   }
   .demi-db-auth-body p {
     color: #ddd;
-    font-size: 0.9rem;
+    font-size: var(--text-md);
     line-height: 1.6;
     margin: 0 0 0.5rem;
   }
@@ -350,14 +350,14 @@ export const prerender = true;
   .demi-db-might-name {
     color: #fff;
     margin: 0;
-    font-size: 1rem;
+    font-size: var(--text-base);
   }
   .demi-db-tier-row {
     display: flex;
     gap: 0.6rem;
     padding: 0.35rem 0;
     border-bottom: 1px solid rgba(255, 255, 255, 0.06);
-    font-size: 0.86rem;
+    font-size: var(--text-md);
     line-height: 1.5;
   }
   .demi-db-tier-row:last-child { border-bottom: none; }

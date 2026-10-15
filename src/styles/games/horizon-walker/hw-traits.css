@@ -11,20 +11,20 @@
 }
 
 .hw-traits-title {
-  font-size: 2.5rem;
+  font-size: var(--text-5xl);
   font-weight: 600;
   color: var(--hw-text-light);
   margin-bottom: 1rem;
 }
 
 .hw-traits-subtitle {
-  font-size: 1.1rem;
+  font-size: var(--text-lg);
   color: var(--hw-text-muted);
   margin-bottom: 0.5rem;
 }
 
 .hw-traits-total {
-  font-size: 1rem;
+  font-size: var(--text-base);
   color: var(--hw-accent-blue);
   font-weight: 500;
 }
@@ -42,7 +42,7 @@
 }
 
 .hw-traits-category-title {
-  font-size: 1.8rem;
+  font-size: var(--text-3xl);
   font-weight: 700;
   color: var(--hw-primary-warm);
   border-bottom: 2px solid var(--hw-primary-warm);
@@ -51,7 +51,7 @@
 }
 
 .hw-traits-category-count {
-  font-size: 1rem;
+  font-size: var(--text-base);
   font-weight: 500;
   color: var(--hw-text-muted);
   background: var(--hw-surface-medium);
@@ -75,7 +75,7 @@
 }
 
 .hw-trait-name {
-  font-size: 1.2rem;
+  font-size: var(--text-xl);
   font-weight: 600;
   color: var(--hw-text-light);
   margin-bottom: 0.75rem;
@@ -88,7 +88,7 @@
 }
 
 .hw-trait-effect {
-  font-size: 0.95rem;
+  font-size: var(--text-body);
   color: var(--hw-text-muted);
   margin-bottom: 0.5rem;
   padding-left: 1rem;
@@ -116,7 +116,7 @@
 }
 
 .hw-traits-nav-title {
-  font-size: 1rem;
+  font-size: var(--text-base);
   font-weight: 600;
   color: var(--hw-text-light);
   margin-bottom: 0.75rem;
@@ -160,7 +160,7 @@
   color: var(--hw-text-muted);
   text-decoration: none;
   font-weight: 500;
-  font-size: 0.85rem;
+  font-size: var(--text-md);
   border-radius: 4px;
   white-space: nowrap;
   min-width: fit-content;
@@ -183,7 +183,7 @@
   }
 
   .hw-traits-title {
-    font-size: 2rem;
+    font-size: var(--text-4xl);
   }
 
   .hw-traits-category-header {
@@ -193,7 +193,7 @@
   }
 
   .hw-traits-category-title {
-    font-size: 1.5rem;
+    font-size: var(--text-2xl);
   }
 
   .hw-traits-grid {
@@ -207,7 +207,7 @@
   }
 
   .hw-traits-nav-link {
-    font-size: 0.8rem;
+    font-size: var(--text-sm);
     padding: 0.4rem 0.8rem;
   }
 }
@@ -218,7 +218,7 @@
   }
 
   .hw-traits-title {
-    font-size: 1.75rem;
+    font-size: var(--text-3xl);
   }
 
   .hw-traits-category-header {
@@ -228,11 +228,11 @@
   }
 
   .hw-traits-category-title {
-    font-size: 1.4rem;
+    font-size: var(--text-2xl);
   }
 
   .hw-traits-category-count {
-    font-size: 0.9rem;
+    font-size: var(--text-md);
     padding: 0.2rem 0.6rem;
   }
 
@@ -245,7 +245,7 @@
   }
 
   .hw-traits-nav-link {
-    font-size: 0.75rem;
+    font-size: var(--text-xs);
     padding: 0.3rem 0.6rem;
   }
 }

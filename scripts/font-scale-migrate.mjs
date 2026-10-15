@@ -47,7 +47,7 @@ function convertValue(rawValue, note) {
   const value = rawValue.trim();
   if (value === '0' || value === 'inherit') return { replacement: null, note: 'skip-zero-inherit' };
   if (value.startsWith('var(')) {
-    if (/var\(--text-(3xs|2xs|xs|sm|md|body|base|lg|xl|2xl|3xl|4xl|5xl|6xl)\)/.test(value)) {
+    if (/var\(--text-(3xs|2xs|xs|sm|md|body|base|lg|xl|2xl|3xl|4xl|5xl|6xl)\b/.test(value)) {
       return { replacement: value.replace(/,\s*[^)]*\)/, ''), note: 'strip-stale-fallback' };
     }
     return { replacement: null, note: 'skip-other-var' };

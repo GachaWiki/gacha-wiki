@@ -516,7 +516,7 @@
 }
 
 .weapon-effect-lv {
-  font-size: 0.68rem;
+  font-size: var(--text-2xs);
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--hw-text-muted);
@@ -647,7 +647,7 @@
 /* small stage label above panel text (where no tier icon applies) */
 .weapon-exskill-stage-label {
   display: inline-block;
-  font-size: 0.68rem;
+  font-size: var(--text-2xs);
   letter-spacing: 0.04em;
   text-transform: uppercase;
   color: var(--hw-primary-warm);

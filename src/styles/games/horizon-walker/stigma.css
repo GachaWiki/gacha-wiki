@@ -42,7 +42,7 @@
 }
 
 .stigma-description {
-  font-size: 1.1rem;
+  font-size: var(--text-lg);
   color: var(--hw-text-medium);
   line-height: 1.6;
   margin: var(--hw-spacing-md) 0 0 0;
@@ -50,7 +50,7 @@
 
 /* Rarity Section Titles */
 .rarity-title {
-  font-size: 2rem;
+  font-size: var(--text-4xl);
   font-weight: 600;
   color: var(--hw-text-light);
   margin: 0 0 var(--hw-spacing-2xl) 0;
@@ -180,7 +180,7 @@
 }
 
 .stigma-name {
-  font-size: 1.4rem;
+  font-size: var(--text-2xl);
   font-weight: 600;
   color: var(--hw-text-light);
   margin: 0;
@@ -207,7 +207,7 @@
 }
 
 .bonus-section h4 {
-  font-size: 1.1rem;
+  font-size: var(--text-lg);
   font-weight: 600;
   color: var(--hw-primary-warm);
   margin: 0 0 var(--hw-spacing-sm) 0;
@@ -248,7 +248,7 @@
 
 /* Stigma Pieces */
 .stigma-pieces h4 {
-  font-size: 1.1rem;
+  font-size: var(--text-lg);
   font-weight: 600;
   color: var(--hw-accent-mint);
   margin: 0 0 var(--hw-spacing-md) 0;
@@ -271,7 +271,7 @@
 }
 
 .piece-slot {
-  font-size: 0.875rem;
+  font-size: var(--text-md);
   font-weight: 600;
   color: var(--hw-tertiary-sky);
   text-transform: uppercase;
@@ -281,7 +281,7 @@
 }
 
 .piece-name {
-  font-size: 0.95rem;
+  font-size: var(--text-body);
   font-weight: 600;
   color: var(--hw-text-medium);
   margin-bottom: var(--hw-spacing-sm);
@@ -290,7 +290,7 @@
 }
 
 .piece-stat {
-  font-size: 1rem;
+  font-size: var(--text-base);
   font-weight: 600;
   color: var(--hw-primary-warm);
   margin-bottom: 0;
@@ -301,7 +301,7 @@
 /* Mobile Responsive Design */
 @media (max-width: 768px) {
   .stigma-page-title {
-    font-size: 2rem;
+    font-size: var(--text-4xl);
   }
 
   .stigma-grid {
@@ -327,7 +327,7 @@
   }
 
   .rarity-title {
-    font-size: 1.5rem;
+    font-size: var(--text-2xl);
     margin: 0 0 var(--hw-spacing-lg) 0;
   }
 
@@ -340,7 +340,7 @@
   }
 
   .piece-stat {
-    font-size: 0.95rem;
+    font-size: var(--text-body);
     padding: var(--hw-spacing-xs);
   }
 }
@@ -351,7 +351,7 @@
   }
 
   .stigma-page-title {
-    font-size: 1.75rem;
+    font-size: var(--text-3xl);
   }
 
   .stigma-card {
@@ -359,7 +359,7 @@
   }
 
   .rarity-title {
-    font-size: 1.3rem;
+    font-size: var(--text-xl);
     padding: var(--hw-spacing-xs) var(--hw-spacing-sm);
   }
 

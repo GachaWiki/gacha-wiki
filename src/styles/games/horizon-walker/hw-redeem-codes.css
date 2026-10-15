@@ -31,13 +31,13 @@
 
 .hw-redeem-header-section .last-updated {
   color: var(--hw-text-very-muted);
-  font-size: 0.85rem;
+  font-size: var(--text-md);
   margin-top: 0.5rem;
 }
 
 /* Section Titles */
 .hw-redeem-section-title {
-  font-size: 1.25rem;
+  font-size: var(--text-xl);
   color: var(--hw-text-light);
   margin-bottom: 0.5rem;
 }
@@ -71,14 +71,14 @@
 }
 
 .hw-code-label {
-  font-size: 0.75rem;
+  font-size: var(--text-xs);
   color: var(--hw-text-muted);
   text-transform: uppercase;
 }
 
 .hw-code-value {
   font-family: var(--font-mono);
-  font-size: 1.1rem;
+  font-size: var(--text-lg);
   font-weight: 600;
   color: var(--hw-primary-warm);
   background: var(--hw-bg-darker);
@@ -88,7 +88,7 @@
 }
 
 .hw-code-rewards {
-  font-size: 0.9rem;
+  font-size: var(--text-md);
   color: var(--hw-text-medium);
   margin: 0.5rem 0;
 }
@@ -97,14 +97,14 @@
   display: flex;
   flex-wrap: wrap;
   gap: 0.5rem;
-  font-size: 0.75rem;
+  font-size: var(--text-xs);
   color: var(--hw-text-muted);
 }
 
 .hw-code-status {
   padding: 2px 6px;
   border-radius: 4px;
-  font-size: 0.7rem;
+  font-size: var(--text-2xs);
 }
 
 .hw-code-status.working {
@@ -124,7 +124,7 @@
 
 .hw-code-date,
 .hw-code-expiry {
-  font-size: 0.75rem;
+  font-size: var(--text-xs);
   color: var(--hw-text-very-muted);
 }
 
@@ -188,20 +188,20 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 0.8rem;
+  font-size: var(--text-sm);
   font-weight: 600;
   color: var(--hw-text-dark);
 }
 
 .hw-instruction-step h4 {
   color: var(--hw-text-light);
-  font-size: 0.95rem;
+  font-size: var(--text-body);
   margin-bottom: 0.25rem;
 }
 
 .hw-instruction-step p {
   color: var(--hw-text-muted);
-  font-size: 0.9rem;
+  font-size: var(--text-md);
   margin: 0;
 }
 
@@ -252,7 +252,7 @@
   padding: 0.5rem 1rem;
   border-radius: 4px;
   text-decoration: none;
-  font-size: 0.9rem;
+  font-size: var(--text-md);
 }
 
 .hw-community-button.discord {
@@ -288,14 +288,14 @@
   }
 
   .hw-code-value {
-    font-size: 1rem;
+    font-size: var(--text-base);
     padding: 0.4rem;
     word-break: break-all;
   }
 
   .hw-copy-button {
     padding: 0.6rem;
-    font-size: 0.9rem;
+    font-size: var(--text-md);
     min-height: 44px; /* Touch-friendly size */
   }
 
@@ -307,20 +307,20 @@
   .hw-instruction-step::before {
     width: 22px;
     height: 22px;
-    font-size: 0.75rem;
+    font-size: var(--text-xs);
     left: 0.25rem;
   }
 
   .hw-instruction-step h4 {
-    font-size: 0.9rem;
+    font-size: var(--text-md);
   }
 
   .hw-instruction-step p {
-    font-size: 0.85rem;
+    font-size: var(--text-md);
   }
 
   .hw-redeem-section-title {
-    font-size: 1.1rem;
+    font-size: var(--text-lg);
   }
 
   .hw-community-buttons {

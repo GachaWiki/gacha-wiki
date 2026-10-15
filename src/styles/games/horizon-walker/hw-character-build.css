@@ -42,7 +42,7 @@
   }
 
   .character-build-name {
-    font-size: 2.5rem;
+    font-size: var(--text-5xl);
     font-weight: var(--font-bold);
     color: var(--hw-text-light);
     margin: 0;
@@ -62,7 +62,7 @@
   }
 
   .character-build-section-title {
-    font-size: 1.8rem;
+    font-size: var(--text-3xl);
     font-weight: var(--font-bold);
     color: var(--hw-text-light);
     margin-bottom: 1.5rem;
@@ -87,7 +87,7 @@
   }
 
   .core-stat-title {
-    font-size: 0.9rem;
+    font-size: var(--text-md);
     font-weight: var(--font-semibold);
     color: var(--hw-text-muted);
     margin-bottom: 0.5rem;
@@ -96,7 +96,7 @@
   }
 
   .core-stat-value {
-    font-size: 1.2rem;
+    font-size: var(--text-xl);
     font-weight: var(--font-bold);
     color: var(--hw-primary-warm);
   }
@@ -114,7 +114,7 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 0.75rem;
-    font-size: 0.9rem;
+    font-size: var(--text-md);
     line-height: 1.4;
   }
 
@@ -143,7 +143,7 @@
   }
 
   .strategy-title {
-    font-size: 1.2rem;
+    font-size: var(--text-xl);
     font-weight: var(--font-bold);
     color: var(--hw-primary-warm);
     margin: 0 0 1rem 0;
@@ -207,7 +207,7 @@
   }
 
   .stigma-plus-sign {
-    font-size: 1.5rem;
+    font-size: var(--text-2xl);
     font-weight: var(--font-bold);
     color: var(--hw-primary-warm);
     padding: 0 1rem;
@@ -224,7 +224,7 @@
     margin: 0;
     color: var(--hw-text-light);
     font-weight: var(--font-semibold);
-    font-size: 1rem;
+    font-size: var(--text-base);
   }
 
   .stigma-image-container {
@@ -244,7 +244,7 @@
   }
 
   .stigma-name {
-    font-size: 1.3rem;
+    font-size: var(--text-xl);
     font-weight: var(--font-bold);
     color: var(--hw-text-light);
     margin: 0;
@@ -268,14 +268,14 @@
     margin: 0 0 0.75rem 0;
     color: var(--hw-primary-warm);
     font-weight: var(--font-semibold);
-    font-size: 1rem;
+    font-size: var(--text-base);
   }
 
   .stigma-set-bonus p {
     margin: 0;
     color: var(--hw-text-medium);
     line-height: 1.5;
-    font-size: 0.9rem;
+    font-size: var(--text-md);
   }
 
   .stigma-set-bonus p.stigma-special-effect {
@@ -293,7 +293,7 @@
     margin: 0 0 1rem 0;
     color: var(--hw-text-light);
     font-weight: var(--font-semibold);
-    font-size: 1.1rem;
+    font-size: var(--text-lg);
   }
 
   .stigma-grid {
@@ -318,7 +318,7 @@
     font-weight: var(--font-bold);
     padding: 0.5rem 0.75rem;
     border-radius: 6px;
-    font-size: 0.8rem;
+    font-size: var(--text-sm);
     text-transform: uppercase;
     letter-spacing: 0.05em;
     min-width: 50px;
@@ -333,12 +333,12 @@
     font-weight: var(--font-semibold);
     color: var(--hw-text-light);
     margin-bottom: 0.25rem;
-    font-size: 0.95rem;
+    font-size: var(--text-body);
   }
 
   .piece-stat {
     color: var(--hw-text-secondary);
-    font-size: 0.85rem;
+    font-size: var(--text-md);
     text-transform: uppercase;
     letter-spacing: 0.05em;
   }
@@ -348,14 +348,14 @@
     font-weight: var(--font-semibold);
     color: var(--hw-text-light);
     margin-bottom: 0.25rem;
-    font-size: 0.95rem;
+    font-size: var(--text-body);
   }
 
   .piece-stat-value {
     margin-top: 4px;
     font-weight: 600;
     color: var(--hw-primary-warm);
-    font-size: 0.85rem;
+    font-size: var(--text-md);
     text-transform: uppercase;
     letter-spacing: 0.05em;
   }
@@ -383,7 +383,7 @@
   }
 
   .stigma-option-label {
-    font-size: 1rem;
+    font-size: var(--text-base);
     font-weight: var(--font-bold);
     color: var(--hw-primary-warm);
     margin-bottom: 1rem;
@@ -413,7 +413,7 @@
 
   .stigma-option-divider span {
     padding: 0.5rem 1.5rem;
-    font-size: 1rem;
+    font-size: var(--text-base);
     font-weight: var(--font-bold);
     color: var(--hw-text-muted);
     background: var(--hw-bg-dark);
@@ -434,7 +434,7 @@
     margin: 0 0 1rem 0;
     color: var(--hw-text-light);
     font-weight: var(--font-semibold);
-    font-size: 1.1rem;
+    font-size: var(--text-lg);
   }
 
   .substats-list {
@@ -459,13 +459,13 @@
   .substat-build-name {
     color: var(--hw-primary-warm);
     font-weight: var(--font-bold);
-    font-size: 1rem;
+    font-size: var(--text-base);
     margin-bottom: 0.25rem;
   }
 
   .substat-build-note {
     color: var(--hw-text-secondary, #aaa);
-    font-size: 0.85rem;
+    font-size: var(--text-md);
     line-height: 1.5;
     margin-bottom: 0.75rem;
   }
@@ -499,11 +499,11 @@
   .substat-name {
     font-weight: var(--font-semibold);
     color: var(--hw-text-light);
-    font-size: 0.95rem;
+    font-size: var(--text-body);
   }
 
   .substat-priority {
-    font-size: 0.8rem;
+    font-size: var(--text-sm);
     font-weight: var(--font-medium);
     padding: 0.2rem 0.5rem;
     border-radius: 4px;
@@ -533,7 +533,7 @@
   }
 
   .substat-scale {
-    font-size: 0.9rem;
+    font-size: var(--text-md);
     color: var(--hw-primary-warm);
     font-weight: var(--font-medium);
   }
@@ -544,7 +544,7 @@
     background: var(--hw-bg-dark);
     border: 1px solid var(--hw-border-light);
     border-radius: 6px;
-    font-size: 0.85rem;
+    font-size: var(--text-md);
     color: var(--hw-text-medium);
     line-height: 1.4;
   }
@@ -571,7 +571,7 @@
   }
 
   .weapon-name {
-    font-size: 1.3rem;
+    font-size: var(--text-xl);
     font-weight: var(--font-bold);
     color: var(--hw-text-light);
     margin: 0 0 0.75rem 0;
@@ -585,7 +585,7 @@
 
   .weapon-type {
     color: var(--hw-text-secondary);
-    font-size: 0.9rem;
+    font-size: var(--text-md);
     text-transform: uppercase;
     letter-spacing: 0.05em;
   }
@@ -602,7 +602,7 @@
     margin: 0 0 1rem 0;
     color: var(--hw-text-light);
     font-weight: var(--font-semibold);
-    font-size: 1rem;
+    font-size: var(--text-base);
   }
 
   .weapon-stat-item {
@@ -619,13 +619,13 @@
 
   .weapon-stat-item .stat-label {
     color: var(--hw-text-secondary);
-    font-size: 0.9rem;
+    font-size: var(--text-md);
   }
 
   .weapon-stat-item .stat-value {
     color: var(--hw-primary-warm);
     font-weight: var(--font-medium);
-    font-size: 0.95rem;
+    font-size: var(--text-body);
   }
 
   .weapon-image {
@@ -650,7 +650,7 @@
     margin: 0 0 1rem 0;
     color: var(--hw-text-light);
     font-weight: var(--font-semibold);
-    font-size: 1.1rem;
+    font-size: var(--text-lg);
   }
 
   .weapon-skill-card {
@@ -669,7 +669,7 @@
   }
 
   .weapon-skill-name {
-    font-size: 1rem;
+    font-size: var(--text-base);
     font-weight: var(--font-semibold);
     color: var(--hw-text-light);
     margin: 0;
@@ -686,7 +686,7 @@
     padding: 0.5rem;
     border-radius: 4px;
     border-left: 3px solid var(--hw-accent-cold);
-    font-size: 0.9rem;
+    font-size: var(--text-md);
     color: var(--hw-text-secondary);
   }
 
@@ -741,7 +741,7 @@
   .trait-name {
     font-weight: var(--font-semibold);
     color: var(--hw-text-light);
-    font-size: 0.95rem;
+    font-size: var(--text-body);
     line-height: 1.3;
   }
 
@@ -754,7 +754,7 @@
   }
 
   .trait-effect {
-    font-size: 0.85rem;
+    font-size: var(--text-md);
     color: var(--hw-text-secondary);
     background: var(--hw-bg-medium);
     padding: 0.25rem 0.5rem;
@@ -777,7 +777,7 @@
     padding: 1rem;
     background: var(--hw-bg-medium);
     border-radius: 8px;
-    font-size: 0.9rem;
+    font-size: var(--text-md);
     color: var(--hw-text-medium);
   }
 
@@ -804,7 +804,7 @@
     }
 
     .character-build-name {
-      font-size: 2rem;
+      font-size: var(--text-4xl);
     }
 
     .character-build-badges {
@@ -812,7 +812,7 @@
     }
 
     .character-build-section-title {
-      font-size: 1.5rem;
+      font-size: var(--text-2xl);
     }
 
     .core-stats-grid {
@@ -825,7 +825,7 @@
     }
 
     .core-stat-value {
-      font-size: 1.1rem;
+      font-size: var(--text-lg);
     }
 
     .core-stats-explanation {
@@ -836,7 +836,7 @@
     .stat-explanation-grid {
       grid-template-columns: 1fr;
       gap: 0.5rem;
-      font-size: 0.85rem;
+      font-size: var(--text-md);
     }
 
     .skills-section .skill-header {
@@ -972,11 +972,11 @@
     }
 
     .character-build-name {
-      font-size: 1.8rem;
+      font-size: var(--text-3xl);
     }
 
     .character-build-section-title {
-      font-size: 1.4rem;
+      font-size: var(--text-2xl);
     }
 
     .core-stats-grid {
@@ -989,11 +989,11 @@
     }
 
     .core-stat-title {
-      font-size: 0.8rem;
+      font-size: var(--text-sm);
     }
 
     .core-stat-value {
-      font-size: 1rem;
+      font-size: var(--text-base);
     }
   }
 
@@ -1016,7 +1016,7 @@
     font-weight: var(--font-semibold);
     color: var(--hw-text-muted);
     margin-bottom: 0.75rem;
-    font-size: 0.95rem;
+    font-size: var(--text-body);
     text-transform: uppercase;
     letter-spacing: 0.05em;
   }
@@ -1039,7 +1039,7 @@
     margin: 0 0 1rem 0;
     color: var(--hw-text-light);
     font-weight: var(--font-semibold);
-    font-size: 1rem;
+    font-size: var(--text-base);
     text-align: center;
     padding-bottom: 0.5rem;
     border-bottom: 1px solid var(--hw-border-light);
@@ -1052,7 +1052,7 @@
 
   .alternative-builds-intro {
     color: var(--hw-text-secondary);
-    font-size: 1rem;
+    font-size: var(--text-base);
     margin-bottom: 1.5rem;
     line-height: 1.6;
   }
@@ -1089,7 +1089,7 @@
   }
 
   .alternative-build-title {
-    font-size: 1.2rem;
+    font-size: var(--text-xl);
     font-weight: var(--font-bold);
     color: var(--hw-text-light);
     margin: 0;
@@ -1120,7 +1120,7 @@
   }
 
   .alternative-build-stigma .stigma-label {
-    font-size: 0.75rem;
+    font-size: var(--text-xs);
     color: var(--hw-text-secondary);
     text-transform: uppercase;
     letter-spacing: 0.05em;
@@ -1128,7 +1128,7 @@
   }
 
   .alternative-build-stigma .stigma-name {
-    font-size: 0.95rem;
+    font-size: var(--text-body);
     color: var(--hw-text-light);
     font-weight: var(--font-semibold);
   }
@@ -1153,13 +1153,13 @@
   }
 
   .alternative-build-stigma .stigma-label {
-    font-size: 0.9rem;
+    font-size: var(--text-md);
     color: var(--hw-text-muted);
     font-weight: var(--font-semibold);
   }
 
   .alternative-build-stigma .stigma-name {
-    font-size: 0.9rem;
+    font-size: var(--text-md);
     color: var(--hw-primary-warm);
     font-weight: var(--font-semibold);
   }
@@ -1188,7 +1188,7 @@
   .alternative-build-playstyle h5,
   .alternative-build-substats h5,
   .alternative-build-note h5 {
-    font-size: 0.95rem;
+    font-size: var(--text-body);
     font-weight: var(--font-semibold);
     color: var(--hw-text-light);
     margin: 0 0 0.5rem 0;
@@ -1199,7 +1199,7 @@
   .alternative-build-playstyle p,
   .alternative-build-substats p,
   .alternative-build-note p {
-    font-size: 0.9rem;
+    font-size: var(--text-md);
     color: var(--hw-text-secondary);
     margin: 0;
     line-height: 1.4;
@@ -1285,7 +1285,7 @@
 
   .trait-build-title {
     margin: 0 0 0.75rem;
-    font-size: 0.95rem;
+    font-size: var(--text-body);
     font-weight: 700;
     color: var(--hw-text-bright, inherit);
   }
@@ -1318,7 +1318,7 @@
 
   .stigma-build-label {
     display: inline-block;
-    font-size: 0.85rem;
+    font-size: var(--text-md);
     font-weight: 700;
     color: var(--hw-text-bright, inherit);
     background: var(--hw-bg-surface);

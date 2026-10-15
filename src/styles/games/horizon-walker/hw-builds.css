@@ -26,7 +26,7 @@
 
   .hw-builds-rarity-count {
     color: var(--hw-text-muted);
-    font-size: 1.1rem;
+    font-size: var(--text-lg);
     font-weight: var(--font-semibold);
   }
 
@@ -95,7 +95,7 @@
   }
 
   .hw-build-character-name {
-    font-size: 1.3rem;
+    font-size: var(--text-xl);
     font-weight: var(--font-bold);
     color: var(--hw-text-light);
     margin: 0;
@@ -115,7 +115,7 @@
     background: var(--hw-surface-medium);
     color: var(--hw-text-muted);
     font-weight: var(--font-semibold);
-    font-size: 0.95rem;
+    font-size: var(--text-body);
     border-radius: 6px;
     border: 1px solid var(--hw-border-primary);
     min-height: 40px;
@@ -130,7 +130,7 @@
   }
 
   .hw-builds-coming-soon-title {
-    font-size: 1.5rem;
+    font-size: var(--text-2xl);
     font-weight: var(--font-bold);
     color: var(--hw-text-muted);
     margin-bottom: 1.5rem;
@@ -173,7 +173,7 @@
     }
 
     .hw-build-character-name {
-      font-size: 1.2rem;
+      font-size: var(--text-xl);
     }
 
     .hw-build-card {
@@ -196,11 +196,11 @@
     }
 
     .hw-build-character-name {
-      font-size: 1.1rem;
+      font-size: var(--text-lg);
     }
 
     .hw-build-coming-soon {
-      font-size: 0.9rem;
+      font-size: var(--text-md);
       padding: 0.5rem 1rem;
       min-height: 36px;
     }
