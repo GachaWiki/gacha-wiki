@@ -27,6 +27,7 @@
     "sync": "astro sync",
     "lint": "oxlint",
     "lint:fix": "oxlint --fix --fix-suggestions",
+    "lint:fonts": "bun scripts/check-font-scales.mjs",
     "fmt": "oxfmt",
     "fmt:check": "oxfmt --check"
   },

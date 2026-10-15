@@ -17,6 +17,13 @@
 - Never run build tests unless explicitly asked by the user
 - The user will test changes themselves in the browser
 
+## Typography Rules (site-wide, 2026-10-15)
+
+- **Every `font-size` must use a `--text-*` token from `src/styles/typography.css`** (fixed 15-step scale: `--text-3xs` 10px up to `--text-6xl` 48px). No rem/px literals in game CSS, page CSS, scoped `<style>` blocks, or inline `style="..."` attributes.
+- Run `bun run lint:fonts` to check (it fails on any off-scale literal). Need a size between steps? Add or adjust a step in the scale, never a literal in a component.
+- Relative `em`/`%` sizes, container-query units (`cqh`), and token-composed `clamp(var(--text-*), Nvw, var(--text-*))` are allowed.
+- The only literal exceptions live in `scripts/check-font-scales.mjs`'s EXCEPTIONS list (iOS 16px input zoom guard, z-index debug overlay, decorative 404 numeral).
+
 ## Astro Config (CRITICAL)
 
 - **NEVER change `inlineStylesheets` from `'always'`** — setting it to `'auto'` or `'never'` breaks CSS on production (external CSS files fail to load, causing broken styling on all pages). This happened on 2026-04-03 and took down the entire site.
