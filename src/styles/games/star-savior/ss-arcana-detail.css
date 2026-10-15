@@ -1,7 +1,7 @@
 /* Star Savior Arcana Detail Page Styles */
 
 .ss-arcana-potential-intro {
-  font-size: 0.8125rem;
+  font-size: var(--text-sm);
   color: var(--ss-text-tertiary);
   margin: 0 0 1rem;
 }
@@ -41,7 +41,7 @@
 }
 
 .ss-arcana-potential-icon span {
-  font-size: 1.25rem;
+  font-size: var(--text-xl);
   color: var(--ss-text-muted);
 }
 
@@ -51,7 +51,7 @@
 }
 
 .ss-arcana-potential-name {
-  font-size: 1rem;
+  font-size: var(--text-base);
   font-weight: 700;
   color: var(--ss-primary);
   margin-bottom: 0.375rem;
@@ -62,7 +62,7 @@
 }
 
 .ss-arcana-potential-role {
-  font-size: 0.75rem;
+  font-size: var(--text-xs);
   font-weight: 600;
   color: var(--ss-text-secondary);
   background: var(--ss-bg-secondary);
@@ -73,7 +73,7 @@
 }
 
 .ss-arcana-potential-desc {
-  font-size: 0.9375rem;
+  font-size: var(--text-body);
   color: var(--ss-text-secondary);
   line-height: 1.6;
 }
@@ -84,7 +84,7 @@
   background: var(--ss-bg-card);
   border: 1px solid var(--ss-border);
   border-radius: 6px;
-  font-size: 0.875rem;
+  font-size: var(--text-md);
   line-height: 1.625;
   color: var(--ss-text-secondary);
 }
@@ -138,20 +138,20 @@
 }
 
 .ss-detail-tag-label {
-  font-size: 0.6875rem;
+  font-size: var(--text-2xs);
   color: var(--ss-text-tertiary);
   text-transform: uppercase;
   letter-spacing: 0.05em;
 }
 
 .ss-detail-tag-value {
-  font-size: 0.875rem;
+  font-size: var(--text-md);
   font-weight: 600;
   color: var(--ss-text-primary);
 }
 
 .ss-arcana-unique-intro {
-  font-size: 0.8125rem;
+  font-size: var(--text-sm);
   color: var(--ss-text-tertiary);
   margin: 0 0 1rem;
 }
@@ -195,18 +195,18 @@
 }
 
 .ss-arcana-unique-title {
-  font-size: 1rem;
+  font-size: var(--text-base);
   font-weight: 600;
   color: var(--ss-text-primary);
 }
 
 .ss-arcana-unique-meta {
-  font-size: 0.75rem;
+  font-size: var(--text-xs);
   color: var(--ss-text-tertiary);
 }
 
 .ss-arcana-unique-desc {
-  font-size: 0.9375rem;
+  font-size: var(--text-body);
   color: var(--ss-primary);
   margin-top: 0.375rem;
   line-height: 1.5;
@@ -239,7 +239,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 0.8125rem;
+  font-size: var(--text-sm);
   font-weight: 700;
   color: var(--ss-text-secondary);
   flex-shrink: 0;
@@ -251,7 +251,7 @@
 }
 
 .ss-arcana-event-title {
-  font-size: 0.9375rem;
+  font-size: var(--text-body);
   font-weight: 600;
   color: var(--ss-text-primary);
 }
@@ -264,7 +264,7 @@
 }
 
 .ss-arcana-event-reward-tag {
-  font-size: 0.75rem;
+  font-size: var(--text-xs);
   color: var(--ss-text-secondary);
   background: var(--ss-bg-secondary);
   border: 1px solid var(--ss-border);
@@ -286,7 +286,7 @@
 }
 
 .ss-arcana-promo-group-title {
-  font-size: 0.9375rem;
+  font-size: var(--text-body);
   font-weight: 600;
   color: var(--ss-text-primary);
   margin: 0 0 0.5rem;
@@ -304,11 +304,11 @@
   display: flex;
   align-items: center;
   gap: 0.75rem;
-  font-size: 0.875rem;
+  font-size: var(--text-md);
 }
 
 .ss-arcana-promo-level {
-  font-size: 0.75rem;
+  font-size: var(--text-xs);
   color: var(--ss-text-tertiary);
   min-width: 2.5rem;
   flex-shrink: 0;
@@ -319,7 +319,7 @@
 }
 
 .ss-arcana-episode {
-  font-size: 0.875rem;
+  font-size: var(--text-md);
   line-height: 1.75;
   color: var(--ss-text-secondary);
   font-style: italic;
@@ -350,16 +350,16 @@
   }
 
   .ss-arcana-potential-name {
-    font-size: 0.9375rem;
+    font-size: var(--text-body);
   }
 
   .ss-arcana-potential-desc {
-    font-size: 0.875rem;
+    font-size: var(--text-md);
   }
 
   .ss-arcana-overview {
     padding: 0.625rem 0.875rem;
-    font-size: 0.8125rem;
+    font-size: var(--text-sm);
   }
 
   .ss-arcana-unique-header {
@@ -373,12 +373,12 @@
 
   .ss-arcana-promo-item {
     gap: 0.5rem;
-    font-size: 0.8125rem;
+    font-size: var(--text-sm);
   }
 }
 
 .ss-journey-bg-desc {
-  font-size: 0.875rem;
+  font-size: var(--text-md);
   color: var(--ss-text-secondary);
   margin: 0 0 1rem;
 }

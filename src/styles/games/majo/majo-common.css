@@ -8,7 +8,7 @@
 
 /* Section heading (shared by landing / items / equipment pages) */
 .majo-section-title {
-  font-size: 1.6rem;
+  font-size: var(--text-2xl);
   margin-bottom: 1.25rem;
   font-weight: 700;
   text-align: center;
@@ -34,7 +34,7 @@
   border: 1px solid var(--majo-border);
   border-radius: 8px;
   color: var(--majo-text-primary);
-  font-size: 0.875rem;
+  font-size: var(--text-md);
   outline: none;
   min-width: 180px;
 }
@@ -53,7 +53,7 @@
   border: 1px solid var(--majo-border);
   border-radius: 6px;
   color: var(--majo-text-secondary);
-  font-size: 0.8rem;
+  font-size: var(--text-sm);
   cursor: pointer;
   transition: all 0.15s ease;
 }
@@ -67,7 +67,7 @@
 
 .majo-count {
   margin-left: auto;
-  font-size: 0.8rem;
+  font-size: var(--text-sm);
   color: var(--majo-text-muted);
 }
 
@@ -81,7 +81,7 @@
 
 .majo-detail-section h2 {
   margin: 0 0 1rem;
-  font-size: 1.2rem;
+  font-size: var(--text-xl);
   color: var(--majo-primary-light);
   font-weight: 600;
 }
@@ -112,7 +112,7 @@
 }
 
 .majo-skill-name {
-  font-size: 1rem;
+  font-size: var(--text-base);
   font-weight: 600;
   color: var(--majo-primary-light);
   margin: 0 0 0.5rem;
@@ -121,14 +121,14 @@
 .majo-skill-name-en {
   color: var(--majo-text-secondary);
   font-weight: 500;
-  font-size: 0.95rem;
+  font-size: var(--text-body);
 }
 
 .majo-skill-desc {
   color: var(--majo-text-secondary);
   line-height: 1.6;
   margin: 0 0 0.4rem;
-  font-size: 0.9rem;
+  font-size: var(--text-md);
 }
 
 /* English descriptions are the primary readable text on this wiki — keep them bright */
@@ -137,12 +137,12 @@
   opacity: 0.92;
   line-height: 1.6;
   margin: 0.2rem 0 0;
-  font-size: 0.9rem;
+  font-size: var(--text-md);
 }
 
 .majo-skill-tag {
   color: var(--majo-accent-light);
-  font-size: 0.8rem;
+  font-size: var(--text-sm);
   font-weight: 600;
   margin-right: 0.4rem;
 }
@@ -177,14 +177,14 @@
 }
 
 .majo-chip-icon-label {
-  font-size: 0.7rem;
+  font-size: var(--text-2xs);
   font-weight: 600;
   color: var(--majo-text-primary);
   white-space: nowrap;
 }
 
 .majo-chip {
-  font-size: 0.68rem;
+  font-size: var(--text-2xs);
   padding: 0.12rem 0.45rem;
   border-radius: 4px;
   font-weight: 600;
@@ -224,7 +224,7 @@
   opacity: 0.92;
   line-height: 1.6;
   margin: 0;
-  font-size: 0.85rem;
+  font-size: var(--text-md);
   white-space: pre-line;
 }
 
@@ -268,7 +268,7 @@
   display: inline-block;
   padding: 0.15rem 0.45rem;
   border-radius: 4px;
-  font-size: 0.7rem;
+  font-size: var(--text-2xs);
   font-weight: 600;
   background: var(--majo-bg-tertiary);
   color: var(--majo-text-secondary);
@@ -283,14 +283,14 @@
   align-items: center;
   justify-content: center;
   color: var(--majo-text-muted);
-  font-size: 0.75rem;
+  font-size: var(--text-xs);
 }
 
 /* Attack type and faction chips (character pages; teams page keeps its own copy) */
 .majo-type-chip {
   display: inline-block;
   align-self: center;
-  font-size: 0.68rem;
+  font-size: var(--text-2xs);
   font-weight: 700;
   letter-spacing: 0.04em;
   text-transform: uppercase;

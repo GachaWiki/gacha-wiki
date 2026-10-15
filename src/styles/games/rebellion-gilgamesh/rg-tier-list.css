@@ -30,7 +30,7 @@
   border-radius: 9px;
   color: var(--rg-text-secondary);
   font-weight: 600;
-  font-size: 0.92rem;
+  font-size: var(--text-body);
   cursor: pointer;
   transition: all 0.18s ease;
 }
@@ -57,7 +57,7 @@
   border-radius: 9px;
   color: #fff;
   font-weight: 600;
-  font-size: 0.85rem;
+  font-size: var(--text-md);
   cursor: pointer;
   transition: all 0.18s ease;
 }
@@ -85,7 +85,7 @@
   border-radius: 9px;
   color: var(--rg-text-secondary);
   font-weight: 700;
-  font-size: 0.95rem;
+  font-size: var(--text-body);
   cursor: pointer;
   transition: all 0.18s ease;
 }
@@ -101,9 +101,9 @@
   text-align: center;
   margin-bottom: 1.5rem;
 }
-.tier-list-title { font-size: 1.4rem; font-weight: 800; margin: 0 0 0.35rem; color: var(--rg-text-primary); }
-.tier-list-description { font-size: 0.9rem; color: var(--rg-text-light); margin: 0 auto 0.4rem; line-height: 1.5; max-width: 720px; }
-.tier-list-updated { font-size: 0.78rem; color: var(--rg-text-muted); font-style: italic; margin: 0; }
+.tier-list-title { font-size: var(--text-2xl); font-weight: 800; margin: 0 0 0.35rem; color: var(--rg-text-primary); }
+.tier-list-description { font-size: var(--text-md); color: var(--rg-text-light); margin: 0 auto 0.4rem; line-height: 1.5; max-width: 720px; }
+.tier-list-updated { font-size: var(--text-xs); color: var(--rg-text-muted); font-style: italic; margin: 0; }
 
 /* ==== TIER DISPLAY (stacked sections) ==== */
 .tier-list-display,
@@ -137,7 +137,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 1.4rem;
+  font-size: var(--text-2xl);
   font-weight: 900;
   color: #fff;
   background: var(--rg-bg-tertiary);
@@ -146,12 +146,12 @@
 }
 
 .tier-section-title { flex: 1; min-width: 0; }
-.tier-section-title h3 { margin: 0; font-size: 0.95rem; font-weight: 700; color: var(--rg-text-primary); }
-.tier-section-title p { margin: 1px 0 0; font-size: 0.74rem; color: var(--rg-text-secondary); line-height: 1.35; }
+.tier-section-title h3 { margin: 0; font-size: var(--text-body); font-weight: 700; color: var(--rg-text-primary); }
+.tier-section-title p { margin: 1px 0 0; font-size: var(--text-xs); color: var(--rg-text-secondary); line-height: 1.35; }
 
 .tier-count {
   margin-left: auto;
-  font-size: 0.72rem;
+  font-size: var(--text-xs);
   font-weight: 700;
   color: var(--rg-text-secondary);
   background: var(--rg-bg-tertiary);
@@ -246,20 +246,20 @@
   background: var(--rg-primary-10);
   color: var(--rg-primary-light);
   font-weight: 700;
-  font-size: 1.4rem;
+  font-size: var(--text-2xl);
   text-transform: uppercase;
   user-select: none;
 }
 
 .tier-stars {
   color: var(--rg-accent);
-  font-size: 0.72rem;
+  font-size: var(--text-xs);
   letter-spacing: -1px;
   line-height: 1;
 }
 
 .tier-character-card .character-name {
-  font-size: 0.76rem;
+  font-size: var(--text-xs);
   font-weight: 600;
   color: #fff;
   text-align: center;
@@ -286,7 +286,7 @@
   border-radius: 50%;
   color: #fff;
   cursor: pointer;
-  font-size: 13px;
+  font-size: var(--text-sm);
   line-height: 1;
   display: flex;
   align-items: center;
@@ -338,7 +338,7 @@
 
 .pool-character-name {
   width: 100%;
-  font-size: 0.66rem;
+  font-size: var(--text-2xs);
   font-weight: 600;
   color: #fff;
   line-height: 1.1;
@@ -355,9 +355,9 @@
   .tier-characters { grid-template-columns: repeat(auto-fill, minmax(74px, 1fr)); gap: 0.55rem; padding: 0.75rem; }
   .character-image-wrapper { width: 66px; height: 66px; }
   .tier-character-card { padding: 0.45rem 0.3rem 0.55rem; }
-  .tier-character-card .character-name { font-size: 0.66rem; }
-  .tier-badge { width: 36px; height: 36px; font-size: 1.15rem; }
-  .tier-section-title h3 { font-size: 0.85rem; }
+  .tier-character-card .character-name { font-size: var(--text-2xs); }
+  .tier-badge { width: 36px; height: 36px; font-size: var(--text-lg); }
+  .tier-section-title h3 { font-size: var(--text-md); }
   .tier-section-title p { display: none; }
   .maker-pool-grid { grid-template-columns: repeat(auto-fill, minmax(64px, 1fr)); }
   .pool-image-wrapper { width: 50px; height: 50px; }

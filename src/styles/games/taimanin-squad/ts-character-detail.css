@@ -38,13 +38,13 @@
 
 .ts-cd-name {
   margin: 0 0 0.25rem;
-  font-size: 1.6rem;
+  font-size: var(--text-2xl);
   color: var(--ts-text-primary, #fff);
 }
 
 .ts-cd-name-jp {
   display: block;
-  font-size: 0.9rem;
+  font-size: var(--text-md);
   color: var(--ts-text-muted, #888);
   margin-bottom: 0.5rem;
 }
@@ -62,7 +62,7 @@
   gap: 0.3rem;
   padding: 0.25rem 0.6rem;
   border-radius: 6px;
-  font-size: 0.8rem;
+  font-size: var(--text-sm);
   font-weight: 600;
 }
 
@@ -73,7 +73,7 @@
 }
 
 .ts-cd-bpower {
-  font-size: 0.85rem;
+  font-size: var(--text-md);
   color: var(--ts-text-muted, #888);
 }
 
@@ -83,7 +83,7 @@
 }
 
 .ts-cd-section-title {
-  font-size: 1.2rem;
+  font-size: var(--text-xl);
   color: var(--ts-text-primary, #fff);
   margin: 0 0 1rem;
   padding-bottom: 0.5rem;
@@ -91,7 +91,7 @@
 }
 
 .ts-cd-subtitle {
-  font-size: 1rem;
+  font-size: var(--text-base);
   color: var(--ts-text-primary, #fff);
   margin: 1.5rem 0 0.75rem;
 }
@@ -99,7 +99,7 @@
 /* Lore */
 .ts-cd-lore {
   color: var(--ts-text-secondary, #d3d3d3);
-  font-size: 0.9rem;
+  font-size: var(--text-md);
   line-height: 1.7;
   padding: 1rem;
   background: var(--ts-bg-secondary, #1a171f);
@@ -124,7 +124,7 @@
 }
 
 .ts-cd-stat-label {
-  font-size: 0.7rem;
+  font-size: var(--text-2xs);
   color: var(--ts-text-muted, #888);
   text-transform: uppercase;
   letter-spacing: 0.05em;
@@ -132,7 +132,7 @@
 }
 
 .ts-cd-stat-value {
-  font-size: 1.1rem;
+  font-size: var(--text-lg);
   font-weight: 700;
 }
 
@@ -144,14 +144,14 @@
 .ts-cd-stats-table {
   width: 100%;
   border-collapse: collapse;
-  font-size: 0.85rem;
+  font-size: var(--text-md);
 }
 
 .ts-cd-stats-table th {
   padding: 0.5rem;
   text-align: left;
   color: var(--ts-text-muted, #888);
-  font-size: 0.75rem;
+  font-size: var(--text-xs);
   text-transform: uppercase;
   border-bottom: 1px solid var(--ts-border, #2e2838);
 }
@@ -204,7 +204,7 @@
 
 .ts-cd-skill-name {
   margin: 0;
-  font-size: 1rem;
+  font-size: var(--text-base);
   color: var(--ts-text-primary, #fff);
 }
 
@@ -215,7 +215,7 @@
 }
 
 .ts-cd-skill-type {
-  font-size: 0.75rem;
+  font-size: var(--text-xs);
   color: #60A5FA;
   padding: 0.1rem 0.4rem;
   background: rgba(59, 130, 246, 0.15);
@@ -223,7 +223,7 @@
 }
 
 .ts-cd-skill-cd {
-  font-size: 0.75rem;
+  font-size: var(--text-xs);
   color: #F59E0B;
   padding: 0.1rem 0.4rem;
   background: rgba(245, 158, 11, 0.15);
@@ -231,7 +231,7 @@
 }
 
 .ts-cd-skill-hits {
-  font-size: 0.75rem;
+  font-size: var(--text-xs);
   color: #A78BFA;
   padding: 0.1rem 0.4rem;
   background: rgba(167, 139, 250, 0.15);
@@ -239,14 +239,14 @@
 }
 
 .ts-cd-skill-mult {
-  font-size: 0.9rem;
+  font-size: var(--text-md);
   font-weight: 700;
   color: #FFD700;
   white-space: nowrap;
 }
 
 .ts-cd-skill-desc {
-  font-size: 0.85rem;
+  font-size: var(--text-md);
   color: var(--ts-text-secondary, #d3d3d3);
   line-height: 1.6;
   margin-top: 0.5rem;
@@ -267,7 +267,7 @@
 }
 
 .ts-cd-glossary-link {
-  font-size: 0.8rem;
+  font-size: var(--text-sm);
   color: var(--ts-primary, #6b5b7a);
   text-decoration: none;
 }
@@ -295,7 +295,7 @@
 }
 
 .ts-cd-glossary-name {
-  font-size: 0.85rem;
+  font-size: var(--text-md);
   font-weight: 600;
 }
 
@@ -308,7 +308,7 @@
 }
 
 .ts-cd-glossary-desc {
-  font-size: 0.78rem;
+  font-size: var(--text-xs);
   color: var(--ts-text-muted, #888);
   line-height: 1.4;
 }
@@ -352,12 +352,12 @@
 
 .ts-cd-weapon-name {
   margin: 0 0 0.25rem;
-  font-size: 0.95rem;
+  font-size: var(--text-body);
   color: var(--ts-text-primary, #fff);
 }
 
 .ts-cd-weapon-stat {
-  font-size: 0.8rem;
+  font-size: var(--text-sm);
   color: #10B981;
   margin-bottom: 0.5rem;
 }
@@ -371,7 +371,7 @@
   display: flex;
   align-items: center;
   gap: 0.5rem;
-  font-size: 0.85rem;
+  font-size: var(--text-md);
   color: var(--ts-text-primary, #fff);
   margin-bottom: 0.25rem;
 }
@@ -424,7 +424,7 @@
 }
 
 .ts-cd-bond-name {
-  font-size: 0.9rem;
+  font-size: var(--text-md);
   font-weight: 700;
   color: var(--ts-text-primary, #fff);
 }
@@ -451,12 +451,12 @@
 }
 
 .ts-cd-bond-partner span {
-  font-size: 0.8rem;
+  font-size: var(--text-sm);
   color: #60A5FA;
 }
 
 .ts-cd-bond-skill {
-  font-size: 0.8rem;
+  font-size: var(--text-sm);
   color: var(--ts-text-secondary, #d3d3d3);
 }
 
@@ -465,13 +465,13 @@
 }
 
 .ts-cd-bond-charge {
-  font-size: 0.7rem;
+  font-size: var(--text-2xs);
   color: var(--ts-text-muted, #888);
   margin-left: 0.5rem;
 }
 
 .ts-cd-bond-bonus {
-  font-size: 0.75rem;
+  font-size: var(--text-xs);
   color: #FFD700;
 }
 
@@ -492,17 +492,17 @@
 }
 
 .ts-cd-synergy-skill {
-  font-size: 0.8rem;
+  font-size: var(--text-sm);
   font-weight: 600;
   color: var(--ts-text-primary, #fff);
 }
 
 .ts-cd-synergy-condition {
-  font-size: 0.75rem;
+  font-size: var(--text-xs);
   color: #F59E0B;
 }
 
 .ts-cd-synergy-bonus {
-  font-size: 0.75rem;
+  font-size: var(--text-xs);
   color: #34D399;
 }

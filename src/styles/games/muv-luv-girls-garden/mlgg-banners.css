@@ -3,7 +3,7 @@
 .mlgg-banners-intro {
   color: var(--mlgg-text-secondary);
   line-height: 1.75;
-  font-size: 0.98rem;
+  font-size: var(--text-base);
   margin-bottom: 1rem;
 }
 
@@ -34,7 +34,7 @@
 }
 
 .mlgg-banner-date {
-  font-size: 1.15rem;
+  font-size: var(--text-lg);
   font-weight: 700;
   color: var(--mlgg-text-primary);
 }
@@ -52,12 +52,12 @@
 .mlgg-banner-event-name {
   color: var(--mlgg-accent-light);
   font-weight: 600;
-  font-size: 0.95rem;
+  font-size: var(--text-body);
 }
 
 .mlgg-banner-event-period {
   color: var(--mlgg-text-tertiary);
-  font-size: 0.82rem;
+  font-size: var(--text-sm);
   margin-top: 0.15rem;
 }
 
@@ -112,7 +112,7 @@
 .mlgg-banner-card-title {
   color: var(--mlgg-text-primary);
   font-weight: 700;
-  font-size: 1rem;
+  font-size: var(--text-base);
   line-height: 1.4;
 }
 
@@ -120,7 +120,7 @@
   display: block;
   color: var(--mlgg-accent-light);
   font-weight: 600;
-  font-size: 0.92rem;
+  font-size: var(--text-body);
   margin: 0.25rem 0 0.6rem;
   text-decoration: none;
 }
@@ -128,7 +128,7 @@
 .mlgg-banner-card-romaji {
   color: var(--mlgg-text-tertiary);
   font-weight: 400;
-  font-size: 0.82rem;
+  font-size: var(--text-sm);
 }
 
 .mlgg-banner-card-badges {
@@ -147,7 +147,7 @@
 }
 
 .mlgg-banner-memories-label {
-  font-size: 0.72rem;
+  font-size: var(--text-xs);
   text-transform: uppercase;
   letter-spacing: 0.08em;
   color: var(--mlgg-text-tertiary);
@@ -180,7 +180,7 @@
 
 /* Official EN card title line under the Japanese title. */
 .mlgg-banner-card-title-en {
-  font-size: 0.85rem;
+  font-size: var(--text-md);
   color: var(--mlgg-accent-light);
   margin: 0.1rem 0 0;
 }

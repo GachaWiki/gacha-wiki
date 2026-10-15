@@ -4,7 +4,7 @@
 .majo-gal-note {
   text-align: center;
   color: var(--majo-text-tertiary);
-  font-size: 0.85rem;
+  font-size: var(--text-md);
   margin: 0 auto 2rem;
   max-width: 720px;
   line-height: 1.6;
@@ -12,14 +12,14 @@
 
 .majo-gal-section-title {
   margin: 2.5rem 0 0.35rem;
-  font-size: 1.45rem;
+  font-size: var(--text-2xl);
   font-weight: 700;
   color: var(--majo-text-primary);
 }
 
 .majo-gal-section-sub {
   margin: 0 0 1.25rem;
-  font-size: 0.85rem;
+  font-size: var(--text-md);
   color: var(--majo-text-tertiary);
   line-height: 1.6;
 }
@@ -42,20 +42,20 @@
 }
 
 .majo-gal-name {
-  font-size: 1.1rem;
+  font-size: var(--text-lg);
   font-weight: 700;
   color: var(--majo-text-primary);
   text-decoration: none;
 }
 
 .majo-gal-zh {
-  font-size: 0.85rem;
+  font-size: var(--text-md);
   font-weight: 500;
   color: var(--majo-primary-light);
 }
 
 .majo-gal-chapter {
-  font-size: 0.8rem;
+  font-size: var(--text-sm);
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.04em;
@@ -67,14 +67,14 @@
 }
 
 .majo-gal-chapter-title {
-  font-size: 1rem;
+  font-size: var(--text-base);
   font-weight: 600;
   color: var(--majo-text-primary);
 }
 
 .majo-gal-count {
   margin-left: auto;
-  font-size: 0.78rem;
+  font-size: var(--text-xs);
   color: var(--majo-text-tertiary);
 }
 
@@ -107,7 +107,7 @@
 .majo-gal-item-label {
   display: block;
   padding: 0.35rem 0.6rem;
-  font-size: 0.75rem;
+  font-size: var(--text-xs);
   font-weight: 600;
   color: var(--majo-text-secondary);
   border-top: 1px solid var(--majo-border);
@@ -156,7 +156,7 @@
   gap: 1rem;
   align-items: baseline;
   margin-top: 0.75rem;
-  font-size: 0.85rem;
+  font-size: var(--text-md);
   color: var(--majo-text-secondary);
 }
 
@@ -178,7 +178,7 @@
 .majo-lightbox-next {
   width: 46px;
   height: 46px;
-  font-size: 1.6rem;
+  font-size: var(--text-2xl);
   line-height: 1;
 }
 
@@ -188,7 +188,7 @@
   right: 1rem;
   width: 40px;
   height: 40px;
-  font-size: 1.3rem;
+  font-size: var(--text-xl);
   line-height: 1;
 }
 

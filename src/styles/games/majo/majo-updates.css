@@ -11,7 +11,7 @@
 
 .majo-updates-intro-label {
   margin: 0 0 0.4rem;
-  font-size: 0.72rem;
+  font-size: var(--text-xs);
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.05em;
@@ -20,7 +20,7 @@
 
 .majo-updates-intro-text {
   margin: 0;
-  font-size: 0.85rem;
+  font-size: var(--text-md);
   line-height: 1.65;
   color: var(--majo-text-secondary);
 }
@@ -83,13 +83,13 @@
 }
 
 .majo-update-card-date {
-  font-size: 0.75rem;
+  font-size: var(--text-xs);
   color: var(--majo-text-tertiary);
 }
 
 .majo-update-card-title {
   margin: 0;
-  font-size: 0.98rem;
+  font-size: var(--text-base);
   font-weight: 700;
   line-height: 1.4;
   color: var(--majo-text-primary);
@@ -97,14 +97,14 @@
 
 .majo-update-card-summary {
   margin: 0;
-  font-size: 0.8rem;
+  font-size: var(--text-sm);
   line-height: 1.55;
   color: var(--majo-text-tertiary);
   flex: 1;
 }
 
 .majo-update-card-more {
-  font-size: 0.72rem;
+  font-size: var(--text-xs);
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.05em;
@@ -143,7 +143,7 @@
 
 .majo-update-detail-title {
   margin: 0 0 0.8rem;
-  font-size: 1.5rem;
+  font-size: var(--text-2xl);
   font-weight: 700;
   line-height: 1.35;
   color: var(--majo-text-primary);
@@ -176,7 +176,7 @@
 }
 
 .majo-update-nav-dir {
-  font-size: 0.68rem;
+  font-size: var(--text-2xs);
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.05em;
@@ -184,7 +184,7 @@
 }
 
 .majo-update-nav-name {
-  font-size: 0.82rem;
+  font-size: var(--text-sm);
   font-weight: 600;
   color: var(--majo-text-secondary);
   line-height: 1.4;
@@ -193,7 +193,7 @@
 .majo-update-back {
   text-align: center;
   margin: 0 0 1rem;
-  font-size: 0.82rem;
+  font-size: var(--text-sm);
 }
 
 .majo-update-back a {
@@ -217,7 +217,7 @@
 }
 
 .majo-update-cat {
-  font-size: 0.68rem;
+  font-size: var(--text-2xs);
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.05em;
@@ -246,14 +246,14 @@
 }
 
 .majo-update-date {
-  font-size: 0.8rem;
+  font-size: var(--text-sm);
   font-weight: 600;
   color: var(--majo-text-tertiary);
 }
 
 .majo-update-title {
   margin: 0 0 0.55rem;
-  font-size: 1.08rem;
+  font-size: var(--text-lg);
   font-weight: 700;
   line-height: 1.4;
   color: var(--majo-text-primary);
@@ -261,7 +261,7 @@
 
 .majo-update-source {
   margin: 0.7rem 0 0;
-  font-size: 0.72rem;
+  font-size: var(--text-xs);
   color: var(--majo-text-tertiary);
 }
 
@@ -272,7 +272,7 @@
 .majo-update-points {
   margin: 0;
   padding-left: 1.2rem;
-  font-size: 0.86rem;
+  font-size: var(--text-md);
   line-height: 1.65;
   color: var(--majo-text-secondary);
 }

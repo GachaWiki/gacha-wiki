@@ -38,7 +38,7 @@
 }
 
 .majo-item-name-en {
-  font-size: 0.9rem;
+  font-size: var(--text-md);
   font-weight: 600;
   color: var(--majo-text-primary);
   margin: 0;
@@ -49,7 +49,7 @@
 }
 
 .majo-item-name-zh {
-  font-size: 0.75rem;
+  font-size: var(--text-xs);
   color: var(--majo-primary-light);
   margin: 0.1rem 0 0.3rem;
   overflow: hidden;
@@ -59,7 +59,7 @@
 
 .majo-item-cat {
   display: inline-block;
-  font-size: 0.65rem;
+  font-size: var(--text-3xs);
   font-weight: 600;
   color: var(--majo-text-tertiary);
   border: 1px solid var(--majo-border);

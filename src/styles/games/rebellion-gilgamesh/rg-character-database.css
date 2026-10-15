@@ -2,14 +2,14 @@
 /* Character list page with stats bar, filters, sort, table and grid views */
 
 .rg-role-text {
-  font-size: 0.75rem;
+  font-size: var(--text-xs);
   color: var(--rg-text-secondary);
   margin-left: 0.25rem;
   vertical-align: middle;
 }
 
 .rg-char-card-title {
-  font-size: 0.7rem;
+  font-size: var(--text-2xs);
   color: var(--rg-text-secondary);
   line-height: 1.2;
 }
@@ -38,14 +38,14 @@
 }
 
 .rg-char-stats-value {
-  font-size: 1.75rem;
+  font-size: var(--text-3xl);
   font-weight: 700;
   color: var(--rg-primary);
   line-height: 1;
 }
 
 .rg-char-stats-label {
-  font-size: 0.75rem;
+  font-size: var(--text-xs);
   color: var(--rg-text-secondary);
   margin-top: 0.25rem;
   text-transform: uppercase;
@@ -76,7 +76,7 @@
 }
 
 .rg-char-filter-label {
-  font-size: 0.75rem;
+  font-size: var(--text-xs);
   color: var(--rg-text-tertiary);
   text-transform: uppercase;
   letter-spacing: 0.05em;
@@ -88,7 +88,7 @@
   border-radius: var(--rg-radius-sm);
   padding: 0.5rem 0.75rem;
   color: var(--rg-text-primary);
-  font-size: 0.875rem;
+  font-size: var(--text-md);
   outline: none;
 }
 
@@ -102,7 +102,7 @@
   border-radius: var(--rg-radius-sm);
   padding: 0.5rem 0.75rem;
   color: var(--rg-text-primary);
-  font-size: 0.875rem;
+  font-size: var(--text-md);
   outline: none;
 }
 
@@ -122,7 +122,7 @@
   border-radius: var(--rg-radius-sm);
   padding: 0.375rem 0.625rem;
   color: var(--rg-text-secondary);
-  font-size: 0.875rem;
+  font-size: var(--text-md);
   cursor: pointer;
   display: flex;
   align-items: center;
@@ -145,7 +145,7 @@
 
 .rg-char-sort-label {
   color: var(--rg-text-secondary);
-  font-size: 0.75rem;
+  font-size: var(--text-xs);
   margin-right: 0.5rem;
 }
 
@@ -155,7 +155,7 @@
   border-radius: var(--rg-radius-sm);
   padding: 0.375rem 0.75rem;
   color: var(--rg-text-secondary);
-  font-size: 0.75rem;
+  font-size: var(--text-xs);
   cursor: pointer;
   display: flex;
   align-items: center;
@@ -169,7 +169,7 @@
 }
 
 .rg-char-sort-icon {
-  font-size: 0.625rem;
+  font-size: var(--text-3xs);
 }
 
 .rg-char-table-container {
@@ -180,7 +180,7 @@
 .rg-char-table {
   width: 100%;
   border-collapse: collapse;
-  font-size: 0.875rem;
+  font-size: var(--text-md);
 }
 
 .rg-char-table th {
@@ -190,7 +190,7 @@
   color: var(--rg-primary);
   font-weight: 600;
   text-transform: uppercase;
-  font-size: 0.75rem;
+  font-size: var(--text-xs);
   letter-spacing: 0.05em;
   border-bottom: 2px solid var(--rg-border);
   white-space: nowrap;
@@ -247,7 +247,7 @@
 .rg-char-table-avatar :global(.rg-char-image-fallback) {
   width: 100%;
   height: 100%;
-  font-size: 0.5rem;
+  font-size: var(--text-3xs);
   color: var(--rg-text-muted);
 }
 
@@ -257,7 +257,7 @@
 
 .rg-char-stat-col {
   text-align: right;
-  font-size: 0.6875rem;
+  font-size: var(--text-2xs);
   padding: 0.75rem 0.5rem;
 }
 
@@ -266,11 +266,11 @@
   font-variant-numeric: tabular-nums;
   white-space: nowrap;
   color: var(--rg-text-secondary);
-  font-size: 0.8125rem;
+  font-size: var(--text-sm);
 }
 
 .rg-char-table-title {
-  font-size: 0.75rem;
+  font-size: var(--text-xs);
   color: var(--rg-text-tertiary);
 }
 
@@ -278,7 +278,7 @@
   display: inline-block;
   padding: 0.125rem 0.5rem;
   border-radius: 3px;
-  font-size: 0.625rem;
+  font-size: var(--text-3xs);
   font-weight: 600;
   background: rgba(251, 191, 36, 0.15);
   color: var(--rg-legendary);
@@ -288,7 +288,7 @@
   display: inline-block;
   padding: 0.125rem 0.5rem;
   border-radius: 3px;
-  font-size: 0.625rem;
+  font-size: var(--text-3xs);
   font-weight: 600;
   background: rgba(194, 107, 107, 0.15);
   color: var(--rg-epic);
@@ -298,7 +298,7 @@
   display: inline-block;
   padding: 0.125rem 0.5rem;
   border-radius: 3px;
-  font-size: 0.625rem;
+  font-size: var(--text-3xs);
   font-weight: 600;
   background: rgba(139, 92, 246, 0.15);
   color: var(--rg-rare);
@@ -308,7 +308,7 @@
   display: inline-block;
   padding: 0.125rem 0.5rem;
   border-radius: 3px;
-  font-size: 0.625rem;
+  font-size: var(--text-3xs);
   font-weight: 600;
   background: rgba(156, 163, 175, 0.15);
   color: var(--rg-common);
@@ -366,7 +366,7 @@
 .rg-char-card-avatar :global(.rg-char-image-fallback) {
   width: 100%;
   height: 100%;
-  font-size: 1rem;
+  font-size: var(--text-base);
   color: var(--rg-text-muted);
 }
 
@@ -376,7 +376,7 @@
 }
 
 .rg-char-card-name {
-  font-size: 0.875rem;
+  font-size: var(--text-md);
   font-weight: 600;
   color: var(--rg-text-primary);
   margin: 0 0 0.125rem 0;
@@ -415,7 +415,7 @@
 }
 
 .rg-table-element-cell span {
-  font-size: 0.8125rem;
+  font-size: var(--text-sm);
   white-space: nowrap;
 }
 
@@ -426,7 +426,7 @@
 }
 
 .rg-table-weapon-cell span {
-  font-size: 0.8125rem;
+  font-size: var(--text-sm);
   white-space: nowrap;
 }
 
@@ -436,7 +436,7 @@
 }
 
 .rg-char-table-stat {
-  font-size: 0.8125rem;
+  font-size: var(--text-sm);
   font-weight: 600;
   color: var(--rg-text-primary);
   text-align: center;
@@ -444,12 +444,12 @@
 }
 
 .rg-char-table-text {
-  font-size: 0.8125rem;
+  font-size: var(--text-sm);
   color: var(--rg-text-secondary);
 }
 
 .rg-char-no-results-hint {
-  font-size: 0.875rem;
+  font-size: var(--text-md);
   opacity: 0.7;
   margin-top: 0.25rem;
 }
@@ -474,7 +474,7 @@
   }
 
   .rg-char-stats-value {
-    font-size: 1.125rem;
+    font-size: var(--text-lg);
   }
 
   .rg-char-filter-section {
@@ -506,11 +506,11 @@
   }
 
   .rg-char-stats-value {
-    font-size: 1rem;
+    font-size: var(--text-base);
   }
 
   .rg-char-stats-label {
-    font-size: 0.6875rem;
+    font-size: var(--text-2xs);
   }
 
   .rg-char-filter-section {
@@ -520,12 +520,12 @@
 
   .rg-char-filter-input {
     padding: 0.375rem 0.5rem;
-    font-size: 0.8125rem;
+    font-size: var(--text-sm);
   }
 
   .rg-char-filter-select {
     padding: 0.375rem 0.5rem;
-    font-size: 0.8125rem;
+    font-size: var(--text-sm);
   }
 
   .rg-char-sort-section {
@@ -534,7 +534,7 @@
 
   .rg-char-sort-btn {
     padding: 0.25rem 0.5rem;
-    font-size: 0.6875rem;
+    font-size: var(--text-2xs);
   }
 
   .rg-char-card {
@@ -552,6 +552,6 @@
   }
 
   .rg-char-card-name {
-    font-size: 0.8125rem;
+    font-size: var(--text-sm);
   }
 }

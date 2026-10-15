@@ -246,7 +246,7 @@
 
 .je-requirement {
   font-family: var(--font-display), sans-serif;
-  font-size: 0.6875rem;
+  font-size: var(--text-2xs);
   font-weight: 600;
   color: var(--ss-warning);
   background: rgba(255, 152, 0, 0.12);
@@ -283,7 +283,7 @@
 
 .je-outcome-label {
   font-family: var(--font-display), sans-serif;
-  font-size: 0.625rem;
+  font-size: var(--text-3xs);
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.06em;
@@ -385,7 +385,7 @@
   }
 
   .je-best-label {
-    font-size: 10px;
+    font-size: var(--text-3xs);
   }
 }
 
@@ -420,28 +420,28 @@
   }
 
   .je-choice-text {
-    font-size: 11px;
+    font-size: var(--text-2xs);
     line-height: 1.35;
   }
 
   .je-choice-num {
     min-width: 20px;
     height: 20px;
-    font-size: 10px;
+    font-size: var(--text-3xs);
   }
 
   .je-reward {
-    font-size: 10px;
+    font-size: var(--text-3xs);
     padding: 0.0625rem 0.25rem;
   }
 
   .je-requirement {
-    font-size: 10px;
+    font-size: var(--text-3xs);
     padding: 0.0625rem 0.375rem;
   }
 
   .je-outcome-label {
-    font-size: 10px;
+    font-size: var(--text-3xs);
   }
 
   .je-note {

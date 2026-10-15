@@ -46,7 +46,7 @@
 }
 
 .gsa-arm-icon .gsa-monogram {
-  font-size: 1.3rem;
+  font-size: var(--text-xl);
   color: #6e5c62;
 }
 
@@ -57,7 +57,7 @@
 .gsa-arm-char {
   margin: 0 0 4px;
   font-weight: 700;
-  font-size: 0.95rem;
+  font-size: var(--text-body);
   color: #f3d9dc;
 }
 
@@ -70,7 +70,7 @@
 .gsa-arm-name {
   margin: 0;
   font-weight: 600;
-  font-size: 0.9rem;
+  font-size: var(--text-md);
   color: #e8e2e3;
 }
 
@@ -81,7 +81,7 @@
   display: flex;
   flex-direction: column;
   gap: 4px;
-  font-size: 0.82rem;
+  font-size: var(--text-sm);
 }
 
 .gsa-arm-stats li {
@@ -104,7 +104,7 @@
 
 .gsa-arm-flavor {
   margin: 0;
-  font-size: 0.78rem;
+  font-size: var(--text-xs);
   line-height: 1.5;
   color: #9c8f94;
   font-style: italic;

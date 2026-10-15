@@ -9,7 +9,7 @@
 }
 
 .section-title {
-  font-size: 1.5rem;
+  font-size: var(--text-2xl);
   margin-bottom: 1.25rem;
   font-weight: 700;
   color: var(--ss-primary);
@@ -19,7 +19,7 @@
 
 .ss-res-source {
   margin-top: 0.375rem;
-  font-size: 0.75rem;
+  font-size: var(--text-xs);
   color: var(--ss-text-muted);
   font-style: italic;
 }
@@ -62,7 +62,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 1.5rem;
+  font-size: var(--text-2xl);
   color: var(--ss-text-muted);
 }
 
@@ -73,7 +73,7 @@
 
 .ss-detail-name {
   font-family: var(--font-display);
-  font-size: 2rem;
+  font-size: var(--text-4xl);
   font-weight: 700;
   color: var(--ss-text-primary);
   margin: 0 0 0.25rem;
@@ -96,7 +96,7 @@
   background: var(--ss-bg-secondary);
   border: 1px solid var(--ss-border);
   border-radius: 4px;
-  font-size: 0.875rem;
+  font-size: var(--text-md);
   color: var(--ss-text-primary);
 }
 
@@ -108,7 +108,7 @@
   background: var(--ss-bg-secondary);
   border: 1px solid var(--ss-border);
   border-radius: 4px;
-  font-size: 0.875rem;
+  font-size: var(--text-md);
   color: var(--ss-primary);
 }
 
@@ -120,7 +120,7 @@
   background: var(--ss-bg-secondary);
   border: 1px solid var(--ss-border);
   border-radius: 4px;
-  font-size: 0.875rem;
+  font-size: var(--text-md);
   color: var(--ss-text-primary);
   font-weight: 600;
 }
@@ -146,7 +146,7 @@
 }
 
 .ss-counter-title {
-  font-size: 0.8125rem;
+  font-size: var(--text-sm);
   font-weight: 600;
   display: flex;
   align-items: center;
@@ -156,7 +156,7 @@
 .ss-counter-stats {
   display: flex;
   gap: 0.5rem;
-  font-size: 0.6875rem;
+  font-size: var(--text-2xs);
   flex-wrap: wrap;
 }
 
@@ -195,12 +195,12 @@
 
 .ss-detail-title {
   color: var(--ss-text-tertiary);
-  font-size: 0.875rem;
+  font-size: var(--text-md);
   margin-bottom: 0.75rem;
 }
 
 .ss-detail-desc {
-  font-size: 0.875rem;
+  font-size: var(--text-md);
   color: var(--ss-text-secondary);
   line-height: 1.7;
   white-space: pre-wrap;
@@ -214,7 +214,7 @@
 }
 
 .ss-detail-profile-item {
-  font-size: 0.8125rem;
+  font-size: var(--text-sm);
   color: var(--ss-text-secondary);
 }
 
@@ -279,7 +279,7 @@
 
 .ss-skill-name {
   font-weight: 600;
-  font-size: 0.9375rem;
+  font-size: var(--text-body);
   color: var(--ss-text-primary);
   margin-bottom: 0.25rem;
 }
@@ -292,42 +292,42 @@
 }
 
 .ss-skill-type {
-  font-size: 0.75rem;
+  font-size: var(--text-xs);
   color: var(--ss-primary);
   font-weight: 500;
 }
 
 .ss-skill-target {
-  font-size: 0.75rem;
+  font-size: var(--text-xs);
   color: var(--ss-text-secondary);
 }
 
 .ss-skill-cd {
-  font-size: 0.75rem;
+  font-size: var(--text-xs);
   color: var(--ss-text-tertiary);
 }
 
 .ss-skill-dmg {
-  font-size: 0.75rem;
+  font-size: var(--text-xs);
   color: var(--ss-text-primary);
   font-weight: 500;
 }
 
 .ss-skill-dmg-hint {
-  font-size: 0.7rem;
+  font-size: var(--text-2xs);
   color: var(--ss-accent);
   font-weight: 500;
   margin-left: 0.25rem;
 }
 
 .ss-skill-nf {
-  font-size: 0.75rem;
+  font-size: var(--text-xs);
   color: var(--ss-accent);
   font-weight: 500;
 }
 
 .ss-skill-desc {
-  font-size: 0.8125rem;
+  font-size: var(--text-sm);
   color: var(--ss-text-secondary);
   line-height: 1.6;
   margin-top: 0.375rem;
@@ -346,7 +346,7 @@
 }
 
 .ss-skill-effect {
-  font-size: 0.75rem;
+  font-size: var(--text-xs);
   padding: 0.25rem 0.5rem;
   background: rgba(91, 141, 217, 0.06);
   border: 1px solid rgba(91, 141, 217, 0.15);
@@ -374,12 +374,12 @@
 
 .ss-effect-turns {
   color: var(--ss-text-secondary);
-  font-size: 0.6875rem;
+  font-size: var(--text-2xs);
 }
 
 .ss-effect-rate {
   color: var(--ss-text-tertiary);
-  font-size: 0.6875rem;
+  font-size: var(--text-2xs);
   padding: 0 0.25rem;
   background: var(--ss-bg-tertiary);
   border-radius: 3px;
@@ -407,7 +407,7 @@
 }
 
 .ss-skill-change-tag {
-  font-size: 0.6875rem;
+  font-size: var(--text-2xs);
   padding: 0.125rem 0.5rem;
   border-radius: 4px;
   font-weight: 500;
@@ -458,7 +458,7 @@
 
 .ss-skill-lv-btn {
   padding: 0.125rem 0.5rem;
-  font-size: 0.75rem;
+  font-size: var(--text-xs);
   font-family: inherit;
   color: var(--ss-text-secondary);
   background: var(--ss-bg-tertiary);
@@ -481,7 +481,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 0.75rem;
+  font-size: var(--text-xs);
   color: var(--ss-text-muted);
 }
 
@@ -501,7 +501,7 @@
 }
 
 .ss-nb-label {
-  font-size: 0.75rem;
+  font-size: var(--text-xs);
   font-weight: 600;
   color: var(--ss-primary);
   text-transform: uppercase;
@@ -509,7 +509,7 @@
 }
 
 .ss-nb-highlight {
-  font-size: 0.625rem;
+  font-size: var(--text-3xs);
   font-weight: 600;
   color: var(--ss-primary);
   background: rgba(201, 168, 76, 0.18);
@@ -521,12 +521,12 @@
 }
 
 .ss-nb-common {
-  font-size: 0.6875rem;
+  font-size: var(--text-2xs);
   color: var(--ss-text-tertiary);
 }
 
 .ss-nb-cost {
-  font-size: 0.625rem;
+  font-size: var(--text-3xs);
   font-weight: 600;
   color: var(--ss-accent);
   background: rgba(91, 141, 217, 0.15);
@@ -536,7 +536,7 @@
 
 .ss-nb-unique {
   margin-top: 0.25rem;
-  font-size: 0.75rem;
+  font-size: var(--text-xs);
   color: var(--ss-text-secondary);
   line-height: 1.5;
 }
@@ -548,7 +548,7 @@
 
 .ss-nb-common-desc {
   margin-top: 0.25rem;
-  font-size: 0.75rem;
+  font-size: var(--text-xs);
   color: var(--ss-text-tertiary);
   line-height: 1.5;
   font-style: italic;
@@ -575,7 +575,7 @@
 
 .ss-stat-desc-text {
   width: 100%;
-  font-size: 0.625rem;
+  font-size: var(--text-3xs);
   color: var(--ss-text-muted);
   line-height: 1.3;
   padding-left: 1.375rem;
@@ -590,17 +590,17 @@
 
 .ss-stats-table td:nth-child(3) {
   color: var(--ss-text-muted);
-  font-size: 0.8125rem;
+  font-size: var(--text-sm);
 }
 
 .ss-stat-total {
   color: var(--ss-accent) !important;
-  font-size: 0.9375rem !important;
+  font-size: var(--text-body) !important;
 }
 
 .ss-stat-bonus {
   color: var(--ss-primary);
-  font-size: 0.75rem;
+  font-size: var(--text-xs);
   white-space: nowrap;
 }
 
@@ -623,20 +623,20 @@
 }
 
 .ss-bp-label {
-  font-size: 0.875rem;
+  font-size: var(--text-md);
   font-weight: 600;
   color: var(--ss-text-secondary);
 }
 
 .ss-bp-value {
-  font-size: 1.5rem;
+  font-size: var(--text-2xl);
   font-weight: 700;
   color: var(--ss-primary);
   font-family: var(--font-display);
 }
 
 .ss-bp-note {
-  font-size: 0.6875rem;
+  font-size: var(--text-2xs);
   color: var(--ss-text-muted);
   margin-left: auto;
 }
@@ -648,7 +648,7 @@
 }
 
 .ss-stats-level label {
-  font-size: 0.875rem;
+  font-size: var(--text-md);
   font-weight: 600;
   color: var(--ss-text-secondary);
 }
@@ -657,7 +657,7 @@
   width: 5.5rem;
   height: 2.25rem;
   padding: 0 0.5rem;
-  font-size: 1rem;
+  font-size: var(--text-base);
   font-family: inherit;
   font-weight: 600;
   color: var(--ss-text-primary);
@@ -695,7 +695,7 @@
 .ss-max-btn {
   margin-left: 1.5rem;
   padding: 0.375rem 0.875rem;
-  font-size: 0.8125rem;
+  font-size: var(--text-sm);
   font-family: inherit;
   font-weight: 600;
   color: var(--ss-primary);
@@ -710,7 +710,7 @@
 }
 
 .ss-res-title {
-  font-size: 0.75rem;
+  font-size: var(--text-xs);
   font-weight: 600;
   color: var(--ss-text-secondary);
   text-transform: uppercase;
@@ -723,7 +723,7 @@
   align-items: baseline;
   gap: 0.75rem;
   padding: 0.25rem 0;
-  font-size: 0.75rem;
+  font-size: var(--text-xs);
   border-bottom: 1px solid var(--ss-border);
 }
 
@@ -747,7 +747,7 @@
 
 .ss-lb-note {
   margin-top: 0.5rem;
-  font-size: 0.75rem;
+  font-size: var(--text-xs);
   color: var(--ss-text-tertiary);
   font-style: italic;
 }
@@ -759,12 +759,12 @@
 }
 
 .ss-res-stats {
-  font-size: 0.75rem;
+  font-size: var(--text-xs);
   color: var(--ss-text-primary);
 }
 
 .ss-res-potential {
-  font-size: 0.6875rem;
+  font-size: var(--text-2xs);
   color: var(--ss-primary);
 }
 
@@ -785,13 +785,13 @@
 }
 
 .ss-stat-label {
-  font-size: 0.75rem;
+  font-size: var(--text-xs);
   color: var(--ss-text-secondary);
   display: block;
 }
 
 .ss-stat-value {
-  font-size: 0.9375rem;
+  font-size: var(--text-body);
   font-weight: 600;
   color: var(--ss-text-primary);
 }
@@ -807,7 +807,7 @@
   width: 100%;
   border-collapse: collapse;
   margin: 0;
-  font-size: 0.875rem;
+  font-size: var(--text-md);
 }
 
 .ss-damage-table th,
@@ -820,7 +820,7 @@
 .ss-damage-table th {
   font-weight: 600;
   color: var(--ss-primary);
-  font-size: 0.75rem;
+  font-size: var(--text-xs);
   text-transform: uppercase;
   letter-spacing: 0.05em;
 }
@@ -831,7 +831,7 @@
 
 .ss-damage-tag {
   margin-top: 0.75rem;
-  font-size: 0.8125rem;
+  font-size: var(--text-sm);
   color: var(--ss-primary);
   font-weight: 500;
   display: flex;
@@ -853,7 +853,7 @@
   align-items: center;
   gap: 0.5rem;
   padding: 0.5rem 0;
-  font-size: 0.875rem;
+  font-size: var(--text-md);
 }
 
 .ss-star-row .stars {
@@ -887,7 +887,7 @@
 }
 
 .ss-jsi-total {
-  font-size: 0.8125rem;
+  font-size: var(--text-sm);
   color: var(--ss-text-muted);
 }
 
@@ -905,12 +905,12 @@
 }
 
 .ss-jsi-stat-label {
-  font-size: 0.75rem;
+  font-size: var(--text-xs);
   color: var(--ss-text-muted);
 }
 
 .ss-jsi-stat-value {
-  font-size: 0.9375rem;
+  font-size: var(--text-body);
   font-weight: 600;
   color: var(--ss-text-primary);
   margin-left: auto;
@@ -922,7 +922,7 @@
 }
 
 .ss-jsi-bonuses-title {
-  font-size: 0.6875rem;
+  font-size: var(--text-2xs);
   font-weight: 600;
   color: var(--ss-text-muted);
   text-transform: uppercase;
@@ -940,7 +940,7 @@
   display: flex;
   align-items: center;
   gap: 0.25rem;
-  font-size: 0.6875rem;
+  font-size: var(--text-2xs);
 }
 
 .ss-jsi-bonus-grade {
@@ -962,7 +962,7 @@
 }
 
 .ss-jsi-skills-title {
-  font-size: 0.6875rem;
+  font-size: var(--text-2xs);
   font-weight: 600;
   color: var(--ss-text-muted);
   text-transform: uppercase;
@@ -992,24 +992,24 @@
 }
 
 .ss-jsi-skill-name {
-  font-size: 0.8125rem;
+  font-size: var(--text-sm);
   font-weight: 600;
   color: var(--ss-primary);
 }
 
 .ss-jsi-skill-grade {
-  font-size: 0.6875rem;
+  font-size: var(--text-2xs);
   color: var(--ss-text-muted);
 }
 
 .ss-jsi-skill-lv {
-  font-size: 0.625rem;
+  font-size: var(--text-3xs);
   color: var(--ss-text-muted);
   margin-left: auto;
 }
 
 .ss-jsi-skill-desc {
-  font-size: 0.75rem;
+  font-size: var(--text-xs);
   color: var(--ss-text-secondary);
   line-height: 1.4;
 }
@@ -1035,13 +1035,13 @@
 }
 
 .ss-potential-name {
-  font-size: 0.9375rem;
+  font-size: var(--text-body);
   font-weight: 600;
   color: var(--ss-primary);
 }
 
 .ss-potential-level {
-  font-size: 0.6875rem;
+  font-size: var(--text-2xs);
   color: var(--ss-text-muted);
   background: var(--ss-bg-tertiary);
   padding: 0.0625rem 0.375rem;
@@ -1049,7 +1049,7 @@
 }
 
 .ss-potential-desc {
-  font-size: 0.8125rem;
+  font-size: var(--text-sm);
   color: var(--ss-text-secondary);
   line-height: 1.6;
 }
@@ -1060,7 +1060,7 @@
 }
 
 .ss-desc {
-  font-size: 0.875rem;
+  font-size: var(--text-md);
   color: var(--ss-text-secondary);
   line-height: 1.7;
   white-space: pre-wrap;
@@ -1073,7 +1073,7 @@
 }
 
 .ss-profile-item {
-  font-size: 0.875rem;
+  font-size: var(--text-md);
   color: var(--ss-text-primary);
 }
 
@@ -1085,7 +1085,7 @@
   display: inline-block;
   padding: 0.125rem 0.5rem;
   border-radius: 4px;
-  font-size: 0.75rem;
+  font-size: var(--text-xs);
   font-weight: 600;
   line-height: 1.5;
 }
@@ -1114,7 +1114,7 @@
   }
 
   .section-title {
-    font-size: 1.25rem;
+    font-size: var(--text-xl);
   }
 
   .ss-detail-header {
@@ -1134,11 +1134,11 @@
   }
 
   .ss-detail-info h1 {
-    font-size: 1.5rem;
+    font-size: var(--text-2xl);
   }
 
   .ss-detail-name {
-    font-size: 1.5rem;
+    font-size: var(--text-2xl);
   }
 
   .ss-stats-grid {
@@ -1195,7 +1195,7 @@
   }
 
   .section-title {
-    font-size: 1.125rem;
+    font-size: var(--text-lg);
     margin-bottom: 1rem;
   }
 
@@ -1209,11 +1209,11 @@
   }
 
   .ss-detail-name {
-    font-size: 1.25rem;
+    font-size: var(--text-xl);
   }
 
   .ss-detail-title {
-    font-size: 0.8125rem;
+    font-size: var(--text-sm);
   }
 
   .ss-stats-grid {
@@ -1241,7 +1241,7 @@
   .ss-damage-table th,
   .ss-damage-table td {
     padding: 0.375rem 0.5rem;
-    font-size: 0.8125rem;
+    font-size: var(--text-sm);
   }
 
   .ss-level-num {
@@ -1249,7 +1249,7 @@
   }
 
   .ss-bp-value {
-    font-size: 1.25rem;
+    font-size: var(--text-xl);
   }
 }
 
@@ -1285,14 +1285,14 @@
 }
 
 .ss-char-arcana-name {
-  font-size: 0.8125rem;
+  font-size: var(--text-sm);
   font-weight: 600;
   color: var(--ss-text-primary);
   line-height: 1.3;
 }
 
 .ss-char-arcana-char {
-  font-size: 0.6875rem;
+  font-size: var(--text-2xs);
   color: var(--ss-text-secondary);
   line-height: 1.3;
 }
@@ -1323,7 +1323,7 @@
 .ss-char-arcana-link {
   display: block;
   text-align: center;
-  font-size: 0.75rem;
+  font-size: var(--text-xs);
   color: var(--ss-primary);
   font-weight: 600;
   padding: 0.375rem 0.5rem;

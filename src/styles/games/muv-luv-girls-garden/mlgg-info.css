@@ -19,7 +19,7 @@
 }
 
 .mlgg-info-h3 {
-  font-size: 1.02rem;
+  font-size: var(--text-base);
   font-weight: 700;
   color: var(--mlgg-text-primary);
   margin: 1.5rem 0 0.5rem;
@@ -28,7 +28,7 @@
 .mlgg-info-p {
   color: var(--mlgg-text-secondary);
   line-height: 1.75;
-  font-size: 0.95rem;
+  font-size: var(--text-body);
   margin-bottom: 0.9rem;
   max-width: 62rem;
 }
@@ -49,7 +49,7 @@
 }
 
 .mlgg-fact-label {
-  font-size: 0.75rem;
+  font-size: var(--text-xs);
   text-transform: uppercase;
   letter-spacing: 0.08em;
   color: var(--mlgg-text-tertiary);
@@ -60,13 +60,13 @@
   margin: 0;
   font-weight: 700;
   color: var(--mlgg-text-primary);
-  font-size: 0.98rem;
+  font-size: var(--text-base);
   line-height: 1.5;
 }
 
 .mlgg-fact-sub {
   display: block;
-  font-size: 0.82rem;
+  font-size: var(--text-sm);
   font-weight: 400;
   color: var(--mlgg-text-tertiary);
   margin-top: 0.15rem;
@@ -90,7 +90,7 @@
 .mlgg-team-member {
   color: var(--mlgg-accent-light);
   text-decoration: none;
-  font-size: 0.85rem;
+  font-size: var(--text-md);
   white-space: nowrap;
 }
 
@@ -106,13 +106,13 @@
   }
 
   .mlgg-team-member {
-    font-size: 0.8rem;
+    font-size: var(--text-sm);
   }
 }
 
 /* Official EN team descriptions from the Steam demo master data. */
 .mlgg-team-desc-en {
-  font-size: 0.82rem;
+  font-size: var(--text-sm);
   color: var(--mlgg-accent-light);
   margin: 0.3rem 0 0;
   white-space: normal;

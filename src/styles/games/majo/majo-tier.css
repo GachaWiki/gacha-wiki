@@ -12,7 +12,7 @@
 
 .majo-tier-intro-label {
   margin: 0 0 0.4rem;
-  font-size: 0.72rem;
+  font-size: var(--text-xs);
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.05em;
@@ -21,7 +21,7 @@
 
 .majo-tier-intro-text {
   margin: 0;
-  font-size: 0.85rem;
+  font-size: var(--text-md);
   line-height: 1.65;
   color: var(--majo-text-secondary);
 }
@@ -62,7 +62,7 @@
 
 .majo-tier-class-title {
   margin: 0;
-  font-size: 1.35rem;
+  font-size: var(--text-xl);
   font-weight: 700;
   color: var(--majo-text-primary);
   display: flex;
@@ -71,14 +71,14 @@
 }
 
 .majo-tier-class-zh {
-  font-size: 0.9rem;
+  font-size: var(--text-md);
   font-weight: 500;
   color: var(--majo-primary-light);
 }
 
 .majo-tier-class-count {
   margin-left: auto;
-  font-size: 0.8rem;
+  font-size: var(--text-sm);
   color: var(--majo-text-tertiary);
 }
 
@@ -110,7 +110,7 @@
 
 .majo-tier-name {
   font-weight: 700;
-  font-size: 1.7rem;
+  font-size: var(--text-3xl);
   text-transform: uppercase;
   color: var(--majo-primary-light);
 }
@@ -150,7 +150,7 @@
 }
 
 .majo-tier-name-label {
-  font-size: 0.9rem;
+  font-size: var(--text-md);
   font-weight: 600;
   color: var(--majo-text-primary);
   text-align: center;
@@ -163,7 +163,7 @@
 
 /* New-witch chip on tier cards */
 .majo-tier-new-chip {
-  font-size: 0.62rem;
+  font-size: var(--text-3xs);
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.04em;
@@ -180,7 +180,7 @@
   }
 
   .majo-tier-name {
-    font-size: 1.3rem;
+    font-size: var(--text-xl);
   }
 
   .majo-tier-card {
@@ -197,7 +197,7 @@
   }
 
   .majo-tier-name-label {
-    font-size: 0.8rem;
+    font-size: var(--text-sm);
     max-width: 100px;
   }
 }
@@ -211,7 +211,7 @@
 }
 
 .majo-tier-tab {
-  font-size: 0.9rem;
+  font-size: var(--text-md);
   font-weight: 600;
   color: var(--majo-text-primary);
   background: var(--majo-bg-secondary);
@@ -237,7 +237,7 @@
 }
 
 .majo-community-title {
-  font-size: 1.15rem;
+  font-size: var(--text-lg);
   font-weight: 700;
   color: var(--majo-text-primary);
   margin: 0 0 0.5rem 0;
@@ -248,13 +248,13 @@
 }
 
 .majo-community-updated {
-  font-size: 0.8rem;
+  font-size: var(--text-sm);
   font-weight: 500;
   color: var(--majo-text-secondary);
 }
 
 .majo-community-intro {
-  font-size: 0.95rem;
+  font-size: var(--text-body);
   line-height: 1.6;
   color: var(--majo-text-primary);
   margin: 0 0 0.6rem 0;
@@ -262,7 +262,7 @@
 
 .majo-community-link {
   display: inline-block;
-  font-size: 0.85rem;
+  font-size: var(--text-md);
   color: var(--majo-primary-light);
   margin-bottom: 0.6rem;
 }
@@ -276,20 +276,20 @@
 }
 
 .majo-community-notes li {
-  font-size: 0.85rem;
+  font-size: var(--text-md);
   line-height: 1.55;
   color: var(--majo-text-secondary);
 }
 
 .majo-community-legend {
-  font-size: 0.78rem;
+  font-size: var(--text-xs);
   color: var(--majo-text-secondary);
   margin: 0.35rem 0 0 0;
 }
 
 /* smaller tier labels for community rows (5-star etc.) */
 .majo-tier-name-sm {
-  font-size: 1.05rem;
+  font-size: var(--text-base);
   white-space: nowrap;
 }
 
@@ -304,7 +304,7 @@
 .majo-tier-notrated-label {
   width: 100%;
   margin: 0 0 0.15rem 0;
-  font-size: 0.85rem;
+  font-size: var(--text-md);
   font-weight: 700;
   color: var(--majo-text-primary);
 }
@@ -312,7 +312,7 @@
 .majo-tier-notrated-reason {
   width: 100%;
   margin: 0 0 0.6rem 0;
-  font-size: 0.8rem;
+  font-size: var(--text-sm);
   line-height: 1.5;
   color: var(--majo-text-secondary);
 }
@@ -325,7 +325,7 @@
 
 /* our wiki tier chip on community cards */
 .majo-tier-wiki-chip {
-  font-size: 0.62rem;
+  font-size: var(--text-3xs);
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.04em;
@@ -361,7 +361,7 @@
 
 .majo-tier-lawbox-head::before {
   content: '+';
-  font-size: 1rem;
+  font-size: var(--text-base);
   font-weight: 700;
   color: var(--majo-primary-light);
   width: 1rem;
@@ -373,13 +373,13 @@
 }
 
 .majo-tier-lawbox-title {
-  font-size: 0.85rem;
+  font-size: var(--text-md);
   font-weight: 700;
   color: var(--majo-text-primary);
 }
 
 .majo-tier-lawbox-hint {
-  font-size: 0.78rem;
+  font-size: var(--text-xs);
   color: var(--majo-text-tertiary);
 }
 
@@ -393,7 +393,7 @@
 
 .majo-tier-lawgroup-title {
   margin: 0 0 0.35rem 0;
-  font-size: 0.7rem;
+  font-size: var(--text-2xs);
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.05em;
@@ -409,33 +409,33 @@
 }
 
 .majo-tier-lawstat {
-  font-size: 0.8rem;
+  font-size: var(--text-sm);
   font-weight: 600;
   color: var(--majo-text-secondary);
 }
 
 .majo-tier-lawval {
-  font-size: 0.82rem;
+  font-size: var(--text-sm);
   color: var(--majo-text-primary);
 }
 
 .majo-tier-lawval em {
   font-style: normal;
-  font-size: 0.74rem;
+  font-size: var(--text-xs);
   color: var(--majo-text-tertiary);
   margin-left: 0.35rem;
 }
 
 .majo-tier-lawfactionline {
   margin: 0;
-  font-size: 0.8rem;
+  font-size: var(--text-sm);
   line-height: 1.55;
   color: var(--majo-text-secondary);
 }
 
 .majo-tier-lawmore {
   margin: 0;
-  font-size: 0.75rem;
+  font-size: var(--text-xs);
   line-height: 1.5;
   color: var(--majo-text-tertiary);
 }
@@ -477,7 +477,7 @@
 }
 
 .majo-tier-chip {
-  font-size: 0.6rem;
+  font-size: var(--text-3xs);
   font-weight: 700;
   letter-spacing: 0.04em;
   text-transform: uppercase;
@@ -534,7 +534,7 @@
 
 .majo-tier-starters-label {
   margin: 0 0 0.35rem;
-  font-size: 0.72rem;
+  font-size: var(--text-xs);
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.05em;
@@ -543,7 +543,7 @@
 
 .majo-tier-starters-note {
   margin: 0 0 0.9rem;
-  font-size: 0.82rem;
+  font-size: var(--text-sm);
   line-height: 1.55;
   color: var(--majo-text-secondary);
 }
@@ -571,7 +571,7 @@
 
 .majo-tier-starter-name {
   margin: 0;
-  font-size: 0.95rem;
+  font-size: var(--text-body);
   font-weight: 700;
   color: var(--majo-text-primary);
 }
@@ -610,7 +610,7 @@
 }
 
 .majo-tier-starter-member-name {
-  font-size: 0.78rem;
+  font-size: var(--text-xs);
   font-weight: 600;
   color: var(--majo-text-primary);
   text-align: center;
@@ -619,7 +619,7 @@
 
 .majo-tier-starter-desc {
   margin: 0;
-  font-size: 0.8rem;
+  font-size: var(--text-sm);
   line-height: 1.6;
   color: var(--majo-text-secondary);
 }

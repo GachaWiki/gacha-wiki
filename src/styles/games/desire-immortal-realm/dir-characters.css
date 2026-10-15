@@ -23,7 +23,7 @@
   border: 1px solid var(--dir-border);
   border-radius: 8px;
   color: var(--dir-text-primary);
-  font-size: 0.875rem;
+  font-size: var(--text-md);
   outline: none;
   min-width: 180px;
 }
@@ -42,7 +42,7 @@
   border: 1px solid var(--dir-border);
   border-radius: 6px;
   color: var(--dir-text-secondary);
-  font-size: 0.8rem;
+  font-size: var(--text-sm);
   cursor: pointer;
   transition: all 0.15s ease;
 }
@@ -56,7 +56,7 @@
 
 .dir-count {
   margin-left: auto;
-  font-size: 0.8rem;
+  font-size: var(--text-sm);
   color: var(--dir-text-muted);
 }
 
@@ -94,7 +94,7 @@
 }
 
 .dir-char-name-zh {
-  font-size: 1.05rem;
+  font-size: var(--text-base);
   font-weight: 700;
   color: var(--dir-text-primary);
   margin: 0;
@@ -102,7 +102,7 @@
 }
 
 .dir-char-name-en {
-  font-size: 0.85rem;
+  font-size: var(--text-md);
   color: var(--dir-primary);
   margin: 0.1rem 0 0.5rem;
   font-weight: 500;
@@ -120,7 +120,7 @@
   display: inline-block;
   padding: 0.15rem 0.45rem;
   border-radius: 4px;
-  font-size: 0.7rem;
+  font-size: var(--text-2xs);
   font-weight: 600;
   line-height: 1.4;
 }
@@ -164,13 +164,13 @@
 
 .dir-detail-info h1 {
   margin: 0 0 0.25rem;
-  font-size: 1.8rem;
+  font-size: var(--text-3xl);
   color: var(--dir-text-primary);
 }
 
 .dir-detail-name-en {
   margin: 0 0 0.75rem;
-  font-size: 1.1rem;
+  font-size: var(--text-lg);
   color: var(--dir-primary);
   font-weight: 500;
 }
@@ -192,7 +192,7 @@
 
 .dir-detail-section h2 {
   margin: 0 0 1rem;
-  font-size: 1.2rem;
+  font-size: var(--text-xl);
   color: var(--dir-primary);
   font-weight: 600;
 }
@@ -214,7 +214,7 @@
 
 .dir-stat-label {
   display: block;
-  font-size: 0.7rem;
+  font-size: var(--text-2xs);
   color: var(--dir-text-tertiary);
   text-transform: uppercase;
   letter-spacing: 0.05em;
@@ -223,14 +223,14 @@
 
 .dir-stat-value {
   display: block;
-  font-size: 1.3rem;
+  font-size: var(--text-xl);
   font-weight: 700;
   color: var(--dir-text-primary);
 }
 
 .dir-stat-growth {
   display: block;
-  font-size: 0.7rem;
+  font-size: var(--text-2xs);
   color: var(--dir-text-muted);
   margin-top: 0.15rem;
 }
@@ -239,7 +239,7 @@
 .dir-star-table {
   width: 100%;
   border-collapse: collapse;
-  font-size: 0.85rem;
+  font-size: var(--text-md);
 }
 
 .dir-star-table th,
@@ -252,7 +252,7 @@
 .dir-star-table th {
   color: var(--dir-text-tertiary);
   font-weight: 600;
-  font-size: 0.75rem;
+  font-size: var(--text-xs);
   text-transform: uppercase;
   letter-spacing: 0.05em;
 }
@@ -293,7 +293,7 @@
 }
 
 .dir-skill-name {
-  font-size: 1rem;
+  font-size: var(--text-base);
   font-weight: 600;
   color: var(--dir-primary);
   margin: 0 0 0.5rem;
@@ -303,12 +303,12 @@
   color: var(--dir-text-secondary);
   line-height: 1.6;
   margin: 0 0 0.4rem;
-  font-size: 0.9rem;
+  font-size: var(--text-md);
 }
 
 .dir-skill-tier {
   color: var(--dir-text-tertiary);
-  font-size: 0.8rem;
+  font-size: var(--text-sm);
   font-weight: 600;
   margin-right: 0.4rem;
 }
@@ -317,7 +317,7 @@
 .dir-skill-name-en {
   color: var(--dir-text-secondary);
   font-weight: 500;
-  font-size: 0.95rem;
+  font-size: var(--text-body);
 }
 
 /* Each tier is a block: ZH on top, EN beneath */
@@ -330,7 +330,7 @@
   color: var(--dir-text-secondary);
   line-height: 1.5;
   margin: 0.2rem 0 0;
-  font-size: 0.85rem;
+  font-size: var(--text-md);
   opacity: 0.85;
 }
 
@@ -338,7 +338,7 @@
 .dir-lore-en {
   color: var(--dir-text-primary);
   line-height: 1.8;
-  font-size: 0.95rem;
+  font-size: var(--text-body);
   margin: 0 0 1.25rem;
   white-space: pre-line;
 }
@@ -346,7 +346,7 @@
 .dir-lore {
   color: var(--dir-text-tertiary);
   line-height: 1.7;
-  font-size: 0.88rem;
+  font-size: var(--text-md);
   margin: 0;
   white-space: pre-line;
   border-top: 1px solid var(--dir-border);
@@ -358,7 +358,7 @@
   padding: 0.75rem 1rem;
   background: var(--dir-bg-tertiary);
   border-radius: 6px;
-  font-size: 0.78rem;
+  font-size: var(--text-xs);
   color: var(--dir-text-tertiary);
   line-height: 1.5;
 }
@@ -409,7 +409,7 @@
 
 .dir-gallery-figure figcaption {
   margin-top: 0.4rem;
-  font-size: 0.72rem;
+  font-size: var(--text-xs);
   color: var(--dir-text-tertiary);
   word-break: break-all;
   line-height: 1.3;

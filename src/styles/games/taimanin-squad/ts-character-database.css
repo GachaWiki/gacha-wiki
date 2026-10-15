@@ -26,13 +26,13 @@
 }
 
 .ts-cdb-stats-value {
-  font-size: 1.5rem;
+  font-size: var(--text-2xl);
   font-weight: 700;
   color: var(--ts-text-primary, #fff);
 }
 
 .ts-cdb-stats-label {
-  font-size: 0.75rem;
+  font-size: var(--text-xs);
   color: var(--ts-text-muted, #888);
   text-transform: uppercase;
   letter-spacing: 0.05em;
@@ -62,7 +62,7 @@
 
 .ts-cdb-filter-label {
   display: block;
-  font-size: 0.75rem;
+  font-size: var(--text-xs);
   color: var(--ts-text-muted, #888);
   margin-bottom: 0.25rem;
   text-transform: uppercase;
@@ -76,7 +76,7 @@
   border: 1px solid var(--ts-border, #2e2838);
   border-radius: 8px;
   color: var(--ts-text-primary, #fff);
-  font-size: 0.9rem;
+  font-size: var(--text-md);
   outline: none;
 }
 
@@ -94,7 +94,7 @@
 }
 
 .ts-cdb-sort-label {
-  font-size: 0.8rem;
+  font-size: var(--text-sm);
   color: var(--ts-text-muted, #888);
   margin-right: 0.25rem;
 }
@@ -105,7 +105,7 @@
   border: 1px solid var(--ts-border, #2e2838);
   border-radius: 6px;
   color: var(--ts-text-secondary, #d3d3d3);
-  font-size: 0.8rem;
+  font-size: var(--text-sm);
   cursor: pointer;
 }
 
@@ -128,7 +128,7 @@
   border: 1px solid var(--ts-border, #2e2838);
   border-radius: 6px;
   color: var(--ts-text-secondary, #d3d3d3);
-  font-size: 1rem;
+  font-size: var(--text-base);
   cursor: pointer;
   line-height: 1;
 }
@@ -147,14 +147,14 @@
 .ts-cdb-table {
   width: 100%;
   border-collapse: collapse;
-  font-size: 0.85rem;
+  font-size: var(--text-md);
 }
 
 .ts-cdb-table th {
   padding: 0.6rem 0.5rem;
   text-align: left;
   color: var(--ts-text-muted, #888);
-  font-size: 0.75rem;
+  font-size: var(--text-xs);
   text-transform: uppercase;
   letter-spacing: 0.05em;
   border-bottom: 1px solid var(--ts-border, #2e2838);
@@ -201,7 +201,7 @@
   display: inline-block;
   padding: 0.15rem 0.4rem;
   border-radius: 4px;
-  font-size: 0.7rem;
+  font-size: var(--text-2xs);
   font-weight: 700;
 }
 
@@ -215,7 +215,7 @@
   display: flex;
   align-items: center;
   gap: 0.3rem;
-  font-size: 0.8rem;
+  font-size: var(--text-sm);
   color: var(--ts-text-secondary, #d3d3d3);
 }
 
@@ -259,7 +259,7 @@
 
 .ts-cdb-grid-name {
   display: block;
-  font-size: 0.75rem;
+  font-size: var(--text-xs);
   color: var(--ts-text-primary, #fff);
   margin-bottom: 0.25rem;
   overflow: hidden;

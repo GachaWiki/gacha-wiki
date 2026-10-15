@@ -4,7 +4,7 @@
   text-align: center;
   color: var(--ts-text-secondary, #d3d3d3);
   margin-bottom: 2rem;
-  font-size: 1.1rem;
+  font-size: var(--text-lg);
 }
 
 .lore-filters {
@@ -30,7 +30,7 @@
   border: 1px solid var(--ts-border, #2e2838);
   background: var(--ts-bg-tertiary, #242028);
   color: var(--ts-text-primary, #fff);
-  font-size: 0.9rem;
+  font-size: var(--text-md);
   cursor: pointer;
   min-width: 140px;
 }
@@ -52,7 +52,7 @@
   border: 1px solid var(--ts-border, #2e2838);
   background: var(--ts-bg-tertiary, #242028);
   color: var(--ts-text-primary, #fff);
-  font-size: 1rem;
+  font-size: var(--text-base);
 }
 
 .lore-search-input::placeholder {
@@ -91,14 +91,14 @@
 }
 
 .lore-card-name {
-  font-size: 1.1rem;
+  font-size: var(--text-lg);
   font-weight: 600;
   color: var(--ts-text-primary, #fff);
   margin: 0 0 0.25rem 0;
 }
 
 .lore-card-jp {
-  font-size: 0.85rem;
+  font-size: var(--text-md);
   color: var(--ts-text-muted, #888);
   margin: 0 0 0.5rem 0;
 }
@@ -110,7 +110,7 @@
 }
 
 .lore-badge {
-  font-size: 0.75rem;
+  font-size: var(--text-xs);
   padding: 0.2rem 0.5rem;
   border-radius: 4px;
   display: inline-flex;
@@ -140,7 +140,7 @@
 .lore-text {
   color: var(--ts-text-secondary, #d3d3d3);
   line-height: 1.7;
-  font-size: 0.95rem;
+  font-size: var(--text-body);
   white-space: pre-line;
   margin: 0;
 }
@@ -149,7 +149,7 @@
   text-align: center;
   color: var(--ts-text-muted, #888);
   padding: 3rem;
-  font-size: 1.1rem;
+  font-size: var(--text-lg);
 }
 
 @media (max-width: 768px) {

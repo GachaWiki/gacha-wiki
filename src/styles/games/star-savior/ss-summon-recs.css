@@ -10,13 +10,13 @@
 
 .ss-rec-disclaimer-content h3 {
   margin: 0 0 8px 0;
-  font-size: 16px;
+  font-size: var(--text-base);
   color: #f0c040;
 }
 
 .ss-rec-disclaimer-content p {
   margin: 0;
-  font-size: 14px;
+  font-size: var(--text-md);
   line-height: 1.6;
   color: #b0b0b0;
 }
@@ -62,7 +62,7 @@
 
 .ss-rec-char-name {
   margin: 0;
-  font-size: 22px;
+  font-size: var(--text-2xl);
   color: #e0e0e0;
 }
 
@@ -70,7 +70,7 @@
   display: inline-block;
   padding: 4px 14px;
   border-radius: 20px;
-  font-size: 13px;
+  font-size: var(--text-sm);
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.5px;
@@ -92,7 +92,7 @@
 }
 
 .ss-rec-verdict-plain {
-  font-size: 14px;
+  font-size: var(--text-md);
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.5px;
@@ -109,7 +109,7 @@
 .ss-rec-meta {
   display: flex;
   gap: 16px;
-  font-size: 13px;
+  font-size: var(--text-sm);
   color: #888;
   margin-bottom: 8px;
 }
@@ -121,14 +121,14 @@
 }
 
 .ss-rec-char-link {
-  font-size: 13px;
+  font-size: var(--text-sm);
   color: #6fa8dc;
   text-decoration: none;
 }
 
 
 .ss-rec-summary {
-  font-size: 15px;
+  font-size: var(--text-body);
   color: #c0c0c0;
   margin: 0 0 20px 0;
   line-height: 1.5;
@@ -146,13 +146,13 @@
 
 .ss-rec-reason-title {
   margin: 0 0 4px 0;
-  font-size: 14px;
+  font-size: var(--text-md);
   color: #e0e0e0;
 }
 
 .ss-rec-reason-text {
   margin: 0;
-  font-size: 13px;
+  font-size: var(--text-sm);
   color: #999;
   line-height: 1.6;
 }
@@ -169,7 +169,7 @@
 }
 
 .ss-rec-arcana-title {
-  font-size: 18px !important;
+  font-size: var(--text-lg) !important;
 }
 
 .ss-rec-key-stats {
@@ -190,13 +190,13 @@
 }
 
 .ss-rec-key-stat-value {
-  font-size: 18px;
+  font-size: var(--text-lg);
   font-weight: 700;
   color: #f39c12;
 }
 
 .ss-rec-key-stat-label {
-  font-size: 11px;
+  font-size: var(--text-2xs);
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.5px;

@@ -27,13 +27,13 @@
 
 .majo-detail-info h1 {
   margin: 0 0 0.25rem;
-  font-size: 1.8rem;
+  font-size: var(--text-3xl);
   color: var(--majo-text-primary);
 }
 
 .majo-detail-name-zh {
   margin: 0 0 0.25rem;
-  font-size: 0.95rem;
+  font-size: var(--text-body);
   color: var(--majo-primary-light);
   font-weight: 500;
 }
@@ -76,7 +76,7 @@
 
 /* English name is the primary name on this wiki */
 .majo-char-name-en {
-  font-size: 1.05rem;
+  font-size: var(--text-base);
   font-weight: 700;
   color: var(--majo-text-primary);
   margin: 0;
@@ -84,14 +84,14 @@
 }
 
 .majo-char-name-zh {
-  font-size: 0.8rem;
+  font-size: var(--text-sm);
   color: var(--majo-primary-light);
   margin: 0.15rem 0 0.35rem;
   font-weight: 500;
 }
 
 .majo-char-title {
-  font-size: 0.72rem;
+  font-size: var(--text-xs);
   color: var(--majo-text-tertiary);
   margin: 0 0 0.6rem;
   white-space: nowrap;
@@ -110,7 +110,7 @@
 /* Lore */
 .majo-detail-title {
   margin: 0 0 0.75rem;
-  font-size: 0.95rem;
+  font-size: var(--text-body);
   color: var(--majo-accent-light);
   font-style: italic;
 }
@@ -118,7 +118,7 @@
 .majo-lore {
   color: var(--majo-text-primary);
   line-height: 1.8;
-  font-size: 0.95rem;
+  font-size: var(--text-body);
   margin: 0;
   white-space: pre-line;
 }
@@ -126,7 +126,7 @@
 .majo-lore-en {
   color: var(--majo-text-tertiary);
   line-height: 1.7;
-  font-size: 0.88rem;
+  font-size: var(--text-md);
   margin: 1.25rem 0 0;
   white-space: pre-line;
   border-top: 1px solid var(--majo-border);
@@ -156,7 +156,7 @@
 
 .majo-art-pair figcaption {
   margin-top: 0.4rem;
-  font-size: 0.72rem;
+  font-size: var(--text-xs);
   color: var(--majo-text-tertiary);
 }
 

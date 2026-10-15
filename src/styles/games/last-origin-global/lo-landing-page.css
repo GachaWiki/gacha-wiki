@@ -10,7 +10,7 @@
 }
 
 .section-title {
-  font-size: 2.5rem;
+  font-size: var(--text-5xl);
   margin-bottom: 1.5rem;
   font-weight: 700;
   text-align: center;
@@ -19,7 +19,7 @@
 
 .game-description {
   color: var(--lo-text-secondary);
-  font-size: 1.1rem;
+  font-size: var(--text-lg);
   line-height: 1.7;
   margin-bottom: 2rem;
   text-align: center;
@@ -108,13 +108,13 @@
   border-radius: 50px;
   text-decoration: none;
   font-weight: 600;
-  font-size: 1.1rem;
+  font-size: var(--text-lg);
   border: none;
   cursor: pointer;
 }
 
 .play-arrow {
-  font-size: 1.2rem;
+  font-size: var(--text-xl);
 }
 
 /* Social Links */
@@ -149,7 +149,7 @@
   padding: 0.8rem 1.5rem;
   border-radius: 25px;
   text-decoration: none;
-  font-size: 0.85rem;
+  font-size: var(--text-md);
   font-weight: 500;
   border: 1px solid rgba(255, 255, 255, 0.2);
 }
@@ -177,7 +177,7 @@
 /* Last Updated */
 .last-updated {
   margin-top: 1.5rem;
-  font-size: 0.9rem;
+  font-size: var(--text-md);
   color: #c0c0c0;
   text-align: center;
 }
@@ -215,7 +215,7 @@
 }
 
 .lo-resources-title {
-  font-size: 2.5rem;
+  font-size: var(--text-5xl);
   margin-bottom: 1.5rem;
   font-weight: 700;
   text-align: center;
@@ -265,13 +265,13 @@
 .lo-category-header h3 {
   color: #f0f0f0;
   margin: 0 0 0.5rem 0;
-  font-size: 1.3rem;
+  font-size: var(--text-xl);
   font-weight: 700;
 }
 
 .lo-category-description {
   color: #b0b0b0;
-  font-size: 0.9rem;
+  font-size: var(--text-md);
   margin: 0;
   line-height: 1.4;
 }
@@ -292,7 +292,7 @@
   border-radius: 12px;
   background: rgba(255, 255, 255, 0.08);
   border: 1px solid #3a3a3a;
-  font-size: 0.9rem;
+  font-size: var(--text-md);
   font-weight: 500;
   text-align: center;
   height: 100%;
@@ -327,7 +327,7 @@
 
   .lo-resource-button {
     padding: 0.75rem;
-    font-size: 0.85rem;
+    font-size: var(--text-md);
   }
 }
 
@@ -338,7 +338,7 @@
   }
 
   .section-title {
-    font-size: 2rem;
+    font-size: var(--text-4xl);
     margin-bottom: 1.5rem;
   }
 
@@ -356,7 +356,7 @@
   }
 
   .lo-resources-title {
-    font-size: 2rem;
+    font-size: var(--text-4xl);
     margin-bottom: 1.5rem;
   }
 
@@ -384,7 +384,7 @@
   .lo-resource-button {
     box-sizing: border-box;
     padding: 1rem 0.75rem;
-    font-size: 0.9rem;
+    font-size: var(--text-md);
     min-height: 56px;
     border-radius: 12px;
   }
@@ -397,7 +397,7 @@
   }
 
   .section-title {
-    font-size: 1.75rem;
+    font-size: var(--text-3xl);
   }
 
   .lo-resources-section {
@@ -424,7 +424,7 @@
   .lo-resource-button {
     box-sizing: border-box;
     padding: 0.875rem 0.625rem;
-    font-size: 0.875rem;
+    font-size: var(--text-md);
     min-height: 52px;
     border-radius: 10px;
   }
@@ -442,7 +442,7 @@
 
   .lo-resource-button {
     padding: 1rem;
-    font-size: 0.9rem;
+    font-size: var(--text-md);
     min-height: 48px;
     font-weight: 500;
   }

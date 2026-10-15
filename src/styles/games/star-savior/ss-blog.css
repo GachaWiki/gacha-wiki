@@ -9,7 +9,7 @@
 }
 
 .ss-blog-section-title {
-  font-size: 1.25rem;
+  font-size: var(--text-xl);
   font-weight: 600;
   color: var(--ss-text-primary);
   margin-bottom: 1rem;
@@ -48,7 +48,7 @@
 
 .ss-blog-card-category {
   display: inline-block;
-  font-size: 0.7rem;
+  font-size: var(--text-2xs);
   font-weight: 600;
   padding: 0.2rem 0.5rem;
   border-radius: 3px;
@@ -60,12 +60,12 @@
 }
 
 .ss-blog-card-date {
-  font-size: 0.8rem;
+  font-size: var(--text-sm);
   color: var(--ss-text-muted);
 }
 
 .ss-blog-card-title {
-  font-size: 1.1rem;
+  font-size: var(--text-lg);
   font-weight: 600;
   color: var(--ss-text-primary);
   margin: 0;
@@ -73,7 +73,7 @@
 }
 
 .ss-blog-card-excerpt {
-  font-size: 0.9rem;
+  font-size: var(--text-md);
   color: var(--ss-text-secondary);
   line-height: 1.5;
   margin: 0;
@@ -84,7 +84,7 @@
 }
 
 .ss-blog-card-author {
-  font-size: 0.8rem;
+  font-size: var(--text-sm);
   color: var(--ss-text-muted);
   margin-top: auto;
   padding-top: 0.5rem;
@@ -98,14 +98,14 @@
 }
 
 .ss-blog-empty h3 {
-  font-size: 1.25rem;
+  font-size: var(--text-xl);
   font-weight: 600;
   color: var(--ss-text-primary);
   margin: 0 0 0.5rem 0;
 }
 
 .ss-blog-empty p {
-  font-size: 0.95rem;
+  font-size: var(--text-body);
   margin: 0;
 }
 
@@ -121,15 +121,15 @@
   }
 
   .ss-blog-card-title {
-    font-size: 1rem;
+    font-size: var(--text-base);
   }
 
   .ss-blog-card-excerpt {
-    font-size: 0.85rem;
+    font-size: var(--text-md);
     -webkit-line-clamp: 2;
   }
 
   .ss-blog-section-title {
-    font-size: 1.1rem;
+    font-size: var(--text-lg);
   }
 }

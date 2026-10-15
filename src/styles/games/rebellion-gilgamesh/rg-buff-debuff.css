@@ -1,7 +1,7 @@
 /* Rebellion Gilgamesh Buff/Debuff Database Styles */
 
 .rg-bd-category-header {
-  font-size: 0.9375rem;
+  font-size: var(--text-body);
   font-weight: 700;
   color: var(--rg-primary);
   text-transform: uppercase;
@@ -29,7 +29,7 @@
 }
 
 .rg-bd-effect-name {
-  font-size: 0.9375rem;
+  font-size: var(--text-body);
   font-weight: 600;
   color: var(--rg-text-primary);
 }
@@ -38,7 +38,7 @@
   display: inline-block;
   padding: 0.125rem 0.5rem;
   border-radius: 3px;
-  font-size: 0.625rem;
+  font-size: var(--text-3xs);
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.04em;
@@ -55,7 +55,7 @@
 }
 
 .rg-bd-entry-count {
-  font-size: 0.6875rem;
+  font-size: var(--text-2xs);
   color: var(--rg-text-muted);
   margin-left: auto;
 }
@@ -67,7 +67,7 @@
 .rg-bd-table {
   width: 100%;
   border-collapse: collapse;
-  font-size: 0.8125rem;
+  font-size: var(--text-sm);
 }
 
 .rg-bd-table th {
@@ -77,7 +77,7 @@
   color: var(--rg-text-tertiary);
   font-weight: 600;
   text-transform: uppercase;
-  font-size: 0.6875rem;
+  font-size: var(--text-2xs);
   letter-spacing: 0.04em;
   border-bottom: 1px solid var(--rg-border);
   white-space: nowrap;
@@ -109,7 +109,7 @@
 
 .rg-bd-char-name {
   font-weight: 600;
-  font-size: 0.8125rem;
+  font-size: var(--text-sm);
   white-space: nowrap;
 }
 
@@ -121,7 +121,7 @@
 }
 
 .rg-bd-rarity {
-  font-size: 0.5625rem;
+  font-size: var(--text-3xs);
   font-weight: 700;
   padding: 0.0625rem 0.375rem;
   border-radius: 2px;
@@ -144,7 +144,7 @@
 }
 
 .rg-bd-element-text {
-  font-size: 0.625rem;
+  font-size: var(--text-3xs);
   color: var(--rg-text-tertiary);
 }
 
@@ -154,12 +154,12 @@
 }
 
 .rg-bd-skill-cat {
-  font-size: 0.625rem;
+  font-size: var(--text-3xs);
   color: var(--rg-text-muted);
 }
 
 .rg-bd-variant {
-  font-size: 0.6875rem;
+  font-size: var(--text-2xs);
   color: var(--rg-text-secondary);
   background: var(--rg-bg-tertiary);
   padding: 0.0625rem 0.375rem;
@@ -167,7 +167,7 @@
 }
 
 .rg-bd-target {
-  font-size: 0.75rem;
+  font-size: var(--text-xs);
   color: var(--rg-text-secondary);
   white-space: nowrap;
 }
@@ -195,7 +195,7 @@
   .rg-bd-table th,
   .rg-bd-table td {
     padding: 0.375rem 0.375rem;
-    font-size: 0.75rem;
+    font-size: var(--text-xs);
   }
 
   .rg-bd-char-img {
@@ -208,6 +208,6 @@
   }
 
   .rg-bd-effect-name {
-    font-size: 0.8125rem;
+    font-size: var(--text-sm);
   }
 }

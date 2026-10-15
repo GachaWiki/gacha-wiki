@@ -37,7 +37,7 @@
 
 .ss-gd-card-name {
   font-family: var(--font-display);
-  font-size: 1.5rem;
+  font-size: var(--text-2xl);
   font-weight: 700;
   color: var(--ss-text-primary);
   margin: 0 0 0.5rem 0;
@@ -60,7 +60,7 @@
   background: var(--ss-bg-secondary);
   border: 1px solid var(--ss-border);
   border-radius: 4px;
-  font-size: 0.75rem;
+  font-size: var(--text-xs);
   color: var(--ss-text-primary);
 }
 
@@ -82,12 +82,12 @@
 }
 
 .ss-gd-card-stat-label {
-  font-size: 0.875rem;
+  font-size: var(--text-md);
   color: var(--ss-text-secondary);
 }
 
 .ss-gd-card-stat-value {
-  font-size: 1rem;
+  font-size: var(--text-base);
   font-weight: 600;
   color: var(--ss-text-primary);
   font-variant-numeric: tabular-nums;
@@ -95,18 +95,18 @@
 
 .ss-gd-card-stat-arrow {
   color: var(--ss-text-muted);
-  font-size: 0.75rem;
+  font-size: var(--text-xs);
 }
 
 .ss-gd-card-stat-max {
-  font-size: 1.125rem;
+  font-size: var(--text-lg);
   font-weight: 700;
   color: var(--ss-primary);
   font-variant-numeric: tabular-nums;
 }
 
 .ss-gd-card-stat-note {
-  font-size: 0.6875rem;
+  font-size: var(--text-2xs);
   color: var(--ss-text-muted);
   margin-left: 0.125rem;
 }
@@ -115,7 +115,7 @@
   display: flex;
   align-items: center;
   gap: 0.375rem;
-  font-size: 0.75rem;
+  font-size: var(--text-xs);
   color: var(--ss-text-tertiary);
 }
 
@@ -125,7 +125,7 @@
 
 /* Description */
 .ss-gd-desc {
-  font-size: 0.875rem;
+  font-size: var(--text-md);
   color: var(--ss-text-secondary);
   line-height: 1.6;
   margin: 0 0 1.5rem 0;
@@ -137,7 +137,7 @@
 }
 
 .ss-gd-section-title {
-  font-size: 1rem;
+  font-size: var(--text-base);
   font-weight: 600;
   color: var(--ss-text-primary);
   margin: 0 0 0.75rem 0;
@@ -146,7 +146,7 @@
 }
 
 .ss-gd-section-desc {
-  font-size: 0.8125rem;
+  font-size: var(--text-sm);
   color: var(--ss-text-secondary);
   line-height: 1.5;
   margin: 0 0 0.75rem 0;
@@ -176,7 +176,7 @@
   grid-template-columns: 60px 1fr 1fr;
   gap: 0.5rem;
   padding: 0.5rem 0.75rem;
-  font-size: 0.6875rem;
+  font-size: var(--text-2xs);
   font-weight: 600;
   color: var(--ss-text-tertiary);
   text-transform: uppercase;
@@ -190,7 +190,7 @@
   grid-template-columns: 60px 1fr 1fr;
   gap: 0.5rem;
   padding: 0.375rem 0.75rem;
-  font-size: 0.8125rem;
+  font-size: var(--text-sm);
   color: var(--ss-text-secondary);
   font-variant-numeric: tabular-nums;
   border-bottom: 1px solid var(--ss-border);
@@ -225,7 +225,7 @@
 }
 
 .ss-gd-enhance-info-label {
-  font-size: 0.625rem;
+  font-size: var(--text-3xs);
   color: var(--ss-text-tertiary);
   text-transform: uppercase;
   letter-spacing: 0.05em;
@@ -233,7 +233,7 @@
 }
 
 .ss-gd-enhance-info-value {
-  font-size: 1rem;
+  font-size: var(--text-base);
   font-weight: 700;
   color: var(--ss-text-primary);
   font-variant-numeric: tabular-nums;
@@ -261,7 +261,7 @@
 }
 
 .ss-gd-substat-label {
-  font-size: 0.8125rem;
+  font-size: var(--text-sm);
   color: var(--ss-text-primary);
   font-weight: 500;
 }
@@ -293,17 +293,17 @@
 
 .ss-gd-bonus-name {
   font-weight: 600;
-  font-size: 0.8125rem;
+  font-size: var(--text-sm);
   color: var(--ss-text-primary);
 }
 
 .ss-gd-bonus-pieces {
-  font-size: 0.625rem;
+  font-size: var(--text-3xs);
   color: var(--ss-text-tertiary);
 }
 
 .ss-gd-bonus-stats {
-  font-size: 0.75rem;
+  font-size: var(--text-xs);
   color: var(--ss-text-secondary);
   font-weight: 500;
 }
@@ -323,7 +323,7 @@
   }
 
   .ss-gd-card-name {
-    font-size: 1.25rem;
+    font-size: var(--text-xl);
   }
 
   .ss-gd-card-badges {
@@ -361,38 +361,38 @@
   }
 
   .ss-gd-card-name {
-    font-size: 1.125rem;
+    font-size: var(--text-lg);
   }
 
   .ss-gd-card-stat {
     padding: 0.5rem 0.625rem;
-    font-size: 0.8125rem;
+    font-size: var(--text-sm);
   }
 
   .ss-gd-card-stat-value {
-    font-size: 0.9375rem;
+    font-size: var(--text-body);
   }
 
   .ss-gd-card-stat-max {
-    font-size: 1rem;
+    font-size: var(--text-base);
   }
 
   .ss-gd-section-title {
-    font-size: 0.9375rem;
+    font-size: var(--text-body);
   }
 
   .ss-gd-desc {
-    font-size: 0.8125rem;
+    font-size: var(--text-sm);
   }
 
   .ss-gd-substat-item {
-    font-size: 0.75rem;
+    font-size: var(--text-xs);
     padding: 0.5rem 0.75rem;
     border-radius: 6px;
   }
 
   .ss-gd-substat-label {
-    font-size: 0.75rem;
+    font-size: var(--text-xs);
   }
 
   .ss-gd-bonus-card {

@@ -20,7 +20,7 @@
   border-radius: 8px;
   color: var(--ts-text-secondary);
   text-decoration: none;
-  font-size: 0.875rem;
+  font-size: var(--text-md);
   font-weight: 500;
 }
 
@@ -37,7 +37,7 @@
 }
 
 .ts-mech-section-title {
-  font-size: 1.5rem;
+  font-size: var(--text-2xl);
   font-weight: 700;
   color: var(--ts-text-primary);
   margin: 0 0 1rem 0;
@@ -67,7 +67,7 @@
 }
 
 .ts-formula-title {
-  font-size: 1rem;
+  font-size: var(--text-base);
   font-weight: 600;
   color: var(--ts-accent);
   margin: 0 0 0.75rem 0;
@@ -79,14 +79,14 @@
   border-radius: 8px;
   padding: 1rem;
   font-family: var(--font-mono);
-  font-size: 0.875rem;
+  font-size: var(--text-md);
   color: var(--ts-text-primary);
   overflow-x: auto;
   margin-bottom: 0.75rem;
 }
 
 .ts-formula-desc {
-  font-size: 0.8125rem;
+  font-size: var(--text-sm);
   color: var(--ts-text-secondary);
   line-height: 1.5;
   margin: 0;
@@ -102,7 +102,7 @@
 }
 
 .ts-example-title {
-  font-size: 0.875rem;
+  font-size: var(--text-md);
   font-weight: 600;
   color: var(--ts-accent);
   margin: 0 0 0.5rem 0;
@@ -110,7 +110,7 @@
 
 .ts-example-calc {
   font-family: var(--font-mono);
-  font-size: 0.8125rem;
+  font-size: var(--text-sm);
   color: var(--ts-text-primary);
   line-height: 1.8;
   margin: 0;
@@ -140,7 +140,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 1.5rem;
+  font-size: var(--text-2xl);
   font-weight: 700;
   color: #fff;
 }
@@ -151,7 +151,7 @@
 .ts-element-dark { background: linear-gradient(135deg, #8b5cf6 0%, #6d28d9 100%); }
 
 .ts-element-name {
-  font-size: 1rem;
+  font-size: var(--text-base);
   font-weight: 600;
   color: var(--ts-text-primary);
   margin: 0;
@@ -191,7 +191,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 1.5rem;
+  font-size: var(--text-2xl);
   color: #fff;
 }
 
@@ -212,14 +212,14 @@
 .ts-type-balance { background: linear-gradient(135deg, #64748b 0%, #475569 100%); }
 
 .ts-class-name {
-  font-size: 1.125rem;
+  font-size: var(--text-lg);
   font-weight: 600;
   color: var(--ts-text-primary);
   margin: 0 0 0.5rem 0;
 }
 
 .ts-class-desc {
-  font-size: 0.8125rem;
+  font-size: var(--text-sm);
   color: var(--ts-text-secondary);
   margin: 0;
   line-height: 1.5;
@@ -242,7 +242,7 @@
 }
 
 .ts-trait-symbol {
-  font-size: 2rem;
+  font-size: var(--text-4xl);
   margin-bottom: 0.5rem;
   color: var(--ts-accent);
 }
@@ -254,14 +254,14 @@
 }
 
 .ts-trait-name {
-  font-size: 1rem;
+  font-size: var(--text-base);
   font-weight: 600;
   color: var(--ts-text-primary);
   margin: 0 0 0.25rem 0;
 }
 
 .ts-trait-desc {
-  font-size: 0.75rem;
+  font-size: var(--text-xs);
   color: var(--ts-text-muted);
   margin: 0;
   line-height: 1.4;
@@ -284,7 +284,7 @@
 }
 
 .ts-personality-name {
-  font-size: 0.9375rem;
+  font-size: var(--text-body);
   font-weight: 600;
   color: var(--ts-text-primary);
   margin: 0;
@@ -316,14 +316,14 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 0.8125rem;
+  font-size: var(--text-sm);
   font-weight: 700;
   color: var(--ts-text-primary);
   flex-shrink: 0;
 }
 
 .ts-stat-name {
-  font-size: 0.875rem;
+  font-size: var(--text-md);
   color: var(--ts-text-primary);
   margin: 0;
 }
@@ -357,7 +357,7 @@
 }
 
 .ts-tips-title {
-  font-size: 0.9375rem;
+  font-size: var(--text-body);
   font-weight: 600;
   color: var(--ts-accent);
   margin: 0 0 0.75rem 0;
@@ -367,7 +367,7 @@
   margin: 0;
   padding-left: 1.25rem;
   color: var(--ts-text-secondary);
-  font-size: 0.875rem;
+  font-size: var(--text-md);
   line-height: 1.7;
 }
 
@@ -396,12 +396,12 @@
   background: var(--ts-bg-tertiary);
   font-weight: 600;
   color: var(--ts-text-primary);
-  font-size: 0.875rem;
+  font-size: var(--text-md);
 }
 
 .ts-stats-table td {
   color: var(--ts-text-secondary);
-  font-size: 0.875rem;
+  font-size: var(--text-md);
 }
 
 .ts-stats-table tr:last-child td {
@@ -432,11 +432,11 @@
 
   .ts-section-nav a {
     padding: 0.375rem 0.75rem;
-    font-size: 0.8125rem;
+    font-size: var(--text-sm);
   }
 
   .ts-mech-section-title {
-    font-size: 1.25rem;
+    font-size: var(--text-xl);
   }
 }
 
@@ -454,7 +454,7 @@
   .ts-element-icon {
     width: 40px;
     height: 40px;
-    font-size: 1.25rem;
+    font-size: var(--text-xl);
   }
 
   .ts-personality-grid {
@@ -468,6 +468,6 @@
   .ts-stats-table th,
   .ts-stats-table td {
     padding: 0.5rem 0.75rem;
-    font-size: 0.8125rem;
+    font-size: var(--text-sm);
   }
 }

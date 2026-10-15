@@ -12,7 +12,7 @@
 
 .ts-upd-intro-label {
   color: var(--ts-accent, #9a8aaa);
-  font-size: 0.8rem;
+  font-size: var(--text-sm);
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.06em;
@@ -21,7 +21,7 @@
 
 .ts-upd-intro-text {
   color: #b3a8ab;
-  font-size: 0.92rem;
+  font-size: var(--text-body);
   line-height: 1.5;
 }
 
@@ -62,7 +62,7 @@
   font-weight: 800;
   letter-spacing: 0.14em;
   text-transform: uppercase;
-  font-size: 0.95rem;
+  font-size: var(--text-body);
   color: #8f8698;
   background: var(--ts-bg-tertiary, #242028);
 }
@@ -81,7 +81,7 @@
 }
 
 .ts-upd-cat {
-  font-size: 0.68rem;
+  font-size: var(--text-2xs);
   font-weight: 800;
   padding: 0.15rem 0.55rem;
   border-radius: 999px;
@@ -111,18 +111,18 @@
 
 .ts-upd-card-date {
   color: #8f8698;
-  font-size: 0.78rem;
+  font-size: var(--text-xs);
 }
 
 .ts-upd-card-title {
   color: #e8e2ee;
-  font-size: 0.98rem;
+  font-size: var(--text-base);
   line-height: 1.35;
 }
 
 .ts-upd-card-summary {
   color: #9a90a3;
-  font-size: 0.82rem;
+  font-size: var(--text-sm);
   line-height: 1.45;
   display: -webkit-box;
   -webkit-line-clamp: 3;
@@ -132,7 +132,7 @@
 
 .ts-upd-card-more {
   color: var(--ts-accent-light, #b8a9c8);
-  font-size: 0.8rem;
+  font-size: var(--text-sm);
   font-weight: 700;
   margin-top: 0.15rem;
 }
@@ -162,19 +162,19 @@
 
 .ts-upd-date {
   color: #8f8698;
-  font-size: 0.85rem;
+  font-size: var(--text-md);
 }
 
 .ts-upd-detail-title {
   color: #e8e2ee;
-  font-size: 1.45rem;
+  font-size: var(--text-2xl);
   line-height: 1.3;
   margin-bottom: 1.25rem;
 }
 
 .ts-upd-detail-body {
   color: #c5bdcf;
-  font-size: 0.92rem;
+  font-size: var(--text-body);
   line-height: 1.65;
 }
 
@@ -192,7 +192,7 @@
 .ts-upd-source {
   margin-top: 1.5rem;
   color: #8f8698;
-  font-size: 0.82rem;
+  font-size: var(--text-sm);
 }
 
 .ts-upd-source a {
@@ -211,7 +211,7 @@
 
 .ts-upd-nav-link {
   color: var(--ts-accent-light, #b8a9c8);
-  font-size: 0.85rem;
+  font-size: var(--text-md);
   font-weight: 600;
 }
 
@@ -230,14 +230,14 @@
 
 /* body structure: restored line breaks, section headings, contained images */
 .ts-upd-detail-body {
-  font-size: 0.93rem;
+  font-size: var(--text-body);
   line-height: 1.75;
 }
 
 .ts-upd-detail-body .ts-upd-h {
   display: block;
   color: #ded6e6;
-  font-size: 1.02rem;
+  font-size: var(--text-base);
   margin: 1.1rem 0 0.35rem;
 }
 

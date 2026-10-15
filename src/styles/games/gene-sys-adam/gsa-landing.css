@@ -21,7 +21,7 @@
   color: var(--gsa-text-dim);
   line-height: 1.8;
   margin-bottom: 1rem;
-  font-size: 0.95rem;
+  font-size: var(--text-body);
 }
 
 .gsa-story strong {
@@ -45,7 +45,7 @@
   background: var(--gsa-accent);
   color: #fff;
   font-weight: 600;
-  font-size: 1rem;
+  font-size: var(--text-base);
   padding: 0.85rem 1.75rem;
   border-radius: 10px;
   text-decoration: none;
@@ -53,7 +53,7 @@
 }
 
 .gsa-download-arrow {
-  font-size: 1.1rem;
+  font-size: var(--text-lg);
 }
 
 /* Discord variant of the download button (blurple, Discord logo mark) */
@@ -68,7 +68,7 @@
 
 .gsa-last-updated {
   margin-top: 1.5rem;
-  font-size: 0.9rem;
+  font-size: var(--text-md);
   color: var(--gsa-text-dim);
   text-align: center;
   font-weight: 500;
@@ -86,7 +86,7 @@
 }
 
 .gsa-resources-title {
-  font-size: 2rem;
+  font-size: var(--text-4xl);
   margin-bottom: 1rem;
   font-weight: 700;
   text-align: center;
@@ -118,13 +118,13 @@
 .gsa-category-header h3 {
   color: var(--gsa-text);
   margin: 0 0 0.5rem 0;
-  font-size: 1.3rem;
+  font-size: var(--text-xl);
   font-weight: 700;
 }
 
 .gsa-category-description {
   color: var(--gsa-text-dim);
-  font-size: 0.9rem;
+  font-size: var(--text-md);
   margin: 0;
   line-height: 1.4;
 }
@@ -145,7 +145,7 @@
   border-radius: 12px;
   background: var(--gsa-bg-secondary);
   border: 1px solid var(--gsa-border);
-  font-size: 0.9rem;
+  font-size: var(--text-md);
   font-weight: 500;
   text-align: center;
   height: 100%;
@@ -163,7 +163,7 @@
   }
 
   .gsa-resources-title {
-    font-size: 1.6rem;
+    font-size: var(--text-2xl);
   }
 
   .gsa-resources-grid {

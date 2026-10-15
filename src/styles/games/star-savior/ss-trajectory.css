@@ -24,7 +24,7 @@
 }
 
 .traj-section-title {
-  font-size: 1.4rem;
+  font-size: var(--text-2xl);
   font-weight: 700;
   margin-bottom: 1rem;
   padding-bottom: 0.5rem;
@@ -40,7 +40,7 @@
 
 .traj-prereq h3 {
   margin: 0 0 0.5rem;
-  font-size: 1.1rem;
+  font-size: var(--text-lg);
 }
 
 .traj-prereq ul {
@@ -54,7 +54,7 @@
 
 .traj-note {
   color: var(--ss-text-muted);
-  font-size: 0.9rem;
+  font-size: var(--text-md);
   margin: 0 0 0.75rem;
 }
 
@@ -66,7 +66,7 @@
 .traj-manual-table table {
   width: 100%;
   border-collapse: collapse;
-  font-size: 0.9rem;
+  font-size: var(--text-md);
 }
 
 .traj-manual-table th,
@@ -110,7 +110,7 @@
   background: var(--ss-bg-tertiary);
   padding: 0.15rem 0.5rem;
   border-radius: 4px;
-  font-size: 0.82rem;
+  font-size: var(--text-sm);
   font-weight: 600;
 }
 
@@ -128,7 +128,7 @@
 .traj-phase-table table {
   width: 100%;
   border-collapse: collapse;
-  font-size: 0.9rem;
+  font-size: var(--text-md);
 }
 
 .traj-phase-table th,
@@ -147,14 +147,14 @@
   background: var(--ss-bg-tertiary);
   padding: 0.15rem 0.4rem;
   border-radius: 3px;
-  font-size: 0.85rem;
+  font-size: var(--text-md);
 }
 
 .traj-selection-note {
   background: var(--ss-bg-secondary);
   padding: 1rem 1.25rem;
   border-radius: 8px;
-  font-size: 0.9rem;
+  font-size: var(--text-md);
   line-height: 1.5;
 }
 
@@ -171,7 +171,7 @@
 }
 
 .traj-passive-cell {
-  font-size: 0.85rem;
+  font-size: var(--text-md);
   line-height: 1.4;
 }
 
@@ -184,7 +184,7 @@
 .traj-full-table table {
   width: 100%;
   border-collapse: collapse;
-  font-size: 0.9rem;
+  font-size: var(--text-md);
 }
 
 .traj-overview-table th,
@@ -224,7 +224,7 @@
   background: var(--ss-bg-tertiary);
   padding: 0.2rem 0.5rem;
   border-radius: 4px;
-  font-size: 0.82rem;
+  font-size: var(--text-sm);
   white-space: nowrap;
 }
 
@@ -251,7 +251,7 @@
 .traj-flow-table table {
   width: 100%;
   border-collapse: collapse;
-  font-size: 0.9rem;
+  font-size: var(--text-md);
 }
 
 .traj-flow-table th,
@@ -282,7 +282,7 @@
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  font-size: 0.8rem;
+  font-size: var(--text-sm);
   font-weight: 700;
 }
 
@@ -294,7 +294,7 @@
 .traj-sets-compare table {
   width: 100%;
   border-collapse: collapse;
-  font-size: 0.9rem;
+  font-size: var(--text-md);
 }
 
 .traj-sets-compare th,
@@ -308,7 +308,7 @@
 .traj-sets-compare th {
   background: var(--ss-bg-tertiary);
   font-weight: 600;
-  font-size: 0.82rem;
+  font-size: var(--text-sm);
 }
 
 .traj-sets-compare td:first-child {
@@ -328,7 +328,7 @@
 .traj-parts-table table {
   width: 100%;
   border-collapse: collapse;
-  font-size: 0.9rem;
+  font-size: var(--text-md);
 }
 
 .traj-parts-table th,
@@ -362,7 +362,7 @@
   display: flex;
   align-items: center;
   gap: 0.4rem;
-  font-size: 0.85rem;
+  font-size: var(--text-md);
 }
 
 .traj-part-chip small {
@@ -401,7 +401,7 @@
   display: flex;
   align-items: center;
   gap: 0.4rem;
-  font-size: 0.85rem;
+  font-size: var(--text-md);
 }
 
 .traj-combo-variants {
@@ -414,7 +414,7 @@
   display: flex;
   align-items: center;
   gap: 0.5rem;
-  font-size: 0.82rem;
+  font-size: var(--text-sm);
   padding: 0.25rem 0;
 }
 
@@ -451,7 +451,7 @@
   border: 1px solid var(--ss-border);
   border-radius: 6px;
   padding: 0.4rem 0.75rem;
-  font-size: 0.85rem;
+  font-size: var(--text-md);
 }
 
 .traj-quest-chip span {
@@ -494,7 +494,7 @@
 .traj-equip3-table table {
   width: 100%;
   border-collapse: collapse;
-  font-size: 0.9rem;
+  font-size: var(--text-md);
 }
 
 .traj-equip3-table th,
@@ -515,16 +515,16 @@
   background: var(--ss-bg-tertiary);
   padding: 0.15rem 0.4rem;
   border-radius: 3px;
-  font-size: 0.85rem;
+  font-size: var(--text-md);
 }
 
 .traj-equip3-desc {
-  font-size: 0.85rem;
+  font-size: var(--text-md);
   line-height: 1.4;
 }
 
 .traj-equip3-tiers {
-  font-size: 0.82rem;
+  font-size: var(--text-sm);
   color: var(--ss-text-muted);
   white-space: nowrap;
 }
@@ -533,7 +533,7 @@
   background: var(--ss-bg-secondary);
   padding: 1rem 1.25rem;
   border-radius: 8px;
-  font-size: 0.85rem;
+  font-size: var(--text-md);
   line-height: 1.5;
 }
 

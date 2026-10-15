@@ -27,7 +27,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 1rem;
+  font-size: var(--text-base);
   font-weight: 700;
   color: var(--ss-text-muted);
 }
@@ -52,13 +52,13 @@
   border: 1px solid var(--ss-border);
   border-radius: 8px;
   padding: 0.5rem 1rem;
-  font-size: 0.875rem;
+  font-size: var(--text-md);
   color: var(--ss-text-secondary);
 }
 
 .ss-buff-stat-num {
   font-weight: 700;
-  font-size: 1.125rem;
+  font-size: var(--text-lg);
   color: var(--ss-primary);
 }
 
@@ -77,7 +77,7 @@
   border-radius: 6px;
   background: var(--ss-bg-card);
   color: var(--ss-text-secondary);
-  font-size: 0.8125rem;
+  font-size: var(--text-sm);
   font-weight: 500;
   cursor: pointer;
   transition: all 0.15s ease;
@@ -97,7 +97,7 @@
 }
 
 .ss-buff-category-title {
-  font-size: 1.25rem;
+  font-size: var(--text-xl);
   font-weight: 700;
   color: var(--ss-text-primary);
   margin: 0 0 0.75rem 0;
@@ -109,7 +109,7 @@
 }
 
 .ss-buff-category-count {
-  font-size: 0.875rem;
+  font-size: var(--text-md);
   font-weight: 500;
   color: var(--ss-text-tertiary);
   font-family: var(--font-primary);
@@ -159,7 +159,7 @@
 }
 
 .ss-buff-card-name {
-  font-size: 0.875rem;
+  font-size: var(--text-md);
   font-weight: 600;
   color: var(--ss-text-primary);
   white-space: nowrap;
@@ -172,7 +172,7 @@
   display: inline-block;
   padding: 0.0625rem 0.375rem;
   border-radius: 3px;
-  font-size: 0.625rem;
+  font-size: var(--text-3xs);
   font-weight: 600;
   white-space: nowrap;
   flex-shrink: 0;
@@ -189,7 +189,7 @@
 }
 
 .ss-buff-card-desc {
-  font-size: 0.75rem;
+  font-size: var(--text-xs);
   color: var(--ss-text-secondary);
   line-height: 1.5;
   margin: 0 0 0.375rem 0;
@@ -208,7 +208,7 @@
 }
 
 .ss-buff-card-stat {
-  font-size: 0.75rem;
+  font-size: var(--text-xs);
   font-weight: 500;
   white-space: nowrap;
 }
@@ -228,7 +228,7 @@
 }
 
 .ss-buff-card-effect {
-  font-size: 0.6875rem;
+  font-size: var(--text-2xs);
   color: var(--ss-text-tertiary);
   padding: 0.125rem 0.375rem;
   background: var(--ss-bg-secondary);
@@ -245,7 +245,7 @@
 }
 
 .ss-buff-card-tag {
-  font-size: 0.625rem;
+  font-size: var(--text-3xs);
   color: var(--ss-text-tertiary);
   padding: 0.0625rem 0.375rem;
   background: var(--ss-bg-secondary);
@@ -265,7 +265,7 @@
   border-radius: 8px;
   background: var(--ss-bg-card);
   color: var(--ss-text-primary);
-  font-size: 0.875rem;
+  font-size: var(--text-md);
   width: 100%;
   max-width: 400px;
   outline: none;
@@ -286,7 +286,7 @@
   text-align: center;
   padding: 2rem;
   color: var(--ss-text-tertiary);
-  font-size: 0.875rem;
+  font-size: var(--text-md);
 }
 
 @media (max-width: 768px) {
@@ -299,7 +299,7 @@
   }
 
   .ss-buff-filter-btn {
-    font-size: 0.75rem;
+    font-size: var(--text-xs);
     padding: 0.3125rem 0.625rem;
   }
 
@@ -316,11 +316,11 @@
 
   .ss-buff-stat-pill {
     padding: 0.375rem 0.75rem;
-    font-size: 0.8125rem;
+    font-size: var(--text-sm);
   }
 
   .ss-buff-stat-num {
-    font-size: 1rem;
+    font-size: var(--text-base);
   }
 
   .ss-buff-card {
@@ -334,16 +334,16 @@
   }
 
   .ss-buff-card-name {
-    font-size: 0.8125rem;
+    font-size: var(--text-sm);
   }
 
   .ss-buff-card-desc {
-    font-size: 0.6875rem;
+    font-size: var(--text-2xs);
     -webkit-line-clamp: 2;
   }
 
   .ss-buff-search {
-    font-size: 0.8125rem;
+    font-size: var(--text-sm);
     padding: 0.4375rem 0.75rem;
   }
 }

@@ -17,7 +17,7 @@
 
 .tier-list-description {
   color: var(--ts-text-secondary, #d3d3d3);
-  font-size: 0.95rem;
+  font-size: var(--text-body);
   margin: 0;
 }
 
@@ -39,13 +39,13 @@
 
 .ts-tl-section-title {
   margin: 0;
-  font-size: 1.15rem;
+  font-size: var(--text-lg);
   color: var(--ts-text-primary, #fff);
 }
 
 .ts-tl-section-count {
   margin-left: auto;
-  font-size: 0.85rem;
+  font-size: var(--text-md);
   color: var(--ts-text-muted, #888);
 }
 
@@ -73,7 +73,7 @@
   min-width: 70px;
   padding: 0.5rem;
   font-weight: 700;
-  font-size: 1.3rem;
+  font-size: var(--text-xl);
   background: var(--ts-bg-tertiary, #252030);
 }
 
@@ -113,7 +113,7 @@
 }
 
 .character-rarity {
-  font-size: 0.5rem;
+  font-size: var(--text-3xs);
   font-weight: 700;
   padding: 0.05rem 0.3rem;
   border-radius: 4px;
@@ -125,7 +125,7 @@
 .badge-sr { background: #3B82F6; color: #fff; }
 
 .character-name {
-  font-size: 0.6rem;
+  font-size: var(--text-3xs);
   color: var(--ts-text-secondary, #d3d3d3);
   text-align: center;
   max-width: 68px;
@@ -160,7 +160,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 0.85rem;
+  font-size: var(--text-md);
   font-weight: 700;
   color: #fff;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
@@ -174,12 +174,12 @@
 
 .legend-label {
   font-weight: 600;
-  font-size: 0.85rem;
+  font-size: var(--text-md);
   color: var(--ts-text-primary, #fff);
 }
 
 .legend-text {
-  font-size: 0.8rem;
+  font-size: var(--text-sm);
   color: var(--ts-text-muted, #888);
 }
 
@@ -188,7 +188,7 @@
   margin-top: 1.5rem;
   text-align: center;
   color: var(--ts-text-muted, #888);
-  font-size: 0.85rem;
+  font-size: var(--text-md);
 }
 
 /* Responsive - Tablet */
@@ -201,7 +201,7 @@
   .tier-label {
     min-width: 100%;
     min-height: 40px;
-    font-size: 1.1rem;
+    font-size: var(--text-lg);
   }
 
   .tier-characters {
@@ -234,7 +234,7 @@
   }
 
   .character-name {
-    font-size: 0.55rem;
+    font-size: var(--text-3xs);
     max-width: 58px;
   }
 

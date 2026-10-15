@@ -40,7 +40,7 @@
 
 .rg-boss-detail-name {
   font-family: var(--font-display);
-  font-size: 1.6rem;
+  font-size: var(--text-2xl);
   font-weight: 700;
   color: var(--rg-text-primary);
   margin: 0 0 0.25rem;
@@ -48,7 +48,7 @@
 }
 
 .rg-boss-detail-cn-name {
-  font-size: 0.8125rem;
+  font-size: var(--text-sm);
   color: var(--rg-text-tertiary);
   margin-bottom: 0.75rem;
 }
@@ -77,14 +77,14 @@
 }
 
 .rg-boss-detail-field-label {
-  font-size: 0.625rem;
+  font-size: var(--text-3xs);
   color: var(--rg-text-muted);
   text-transform: uppercase;
   letter-spacing: 0.05em;
 }
 
 .rg-boss-detail-field-value {
-  font-size: 0.8125rem;
+  font-size: var(--text-sm);
   color: var(--rg-text-primary);
   font-weight: 500;
 }
@@ -105,14 +105,14 @@
 }
 
 .rg-boss-stat-label {
-  font-size: 0.625rem;
+  font-size: var(--text-3xs);
   color: var(--rg-text-tertiary);
   text-transform: uppercase;
   letter-spacing: 0.05em;
 }
 
 .rg-boss-stat-value {
-  font-size: 1.35rem;
+  font-size: var(--text-xl);
   font-weight: 700;
   color: var(--rg-primary);
   line-height: 1.2;
@@ -120,13 +120,13 @@
 }
 
 .rg-boss-stat-growth {
-  font-size: 0.6875rem;
+  font-size: var(--text-2xs);
   color: var(--rg-text-secondary);
 }
 
 /* Lore */
 .rg-boss-lore-text {
-  font-size: 0.875rem;
+  font-size: var(--text-md);
   color: var(--rg-text-secondary);
   line-height: 1.6;
   margin: 0;
@@ -146,11 +146,11 @@
 }
 
 .rg-detail-skill-name {
-  font-size: 0.9375rem;
+  font-size: var(--text-body);
 }
 
 .rg-detail-skill-desc {
-  font-size: 0.8125rem;
+  font-size: var(--text-sm);
   line-height: 1.5;
   margin-bottom: 0.4rem;
 }
@@ -161,7 +161,7 @@
 }
 
 .rg-detail-skill-meta-tag {
-  font-size: 0.625rem;
+  font-size: var(--text-3xs);
   padding: 0.1rem 0.45rem;
   border-radius: 3px;
   background: var(--rg-bg-tertiary);
@@ -176,7 +176,7 @@
 }
 
 .rg-detail-skill-effect-line {
-  font-size: 0.75rem;
+  font-size: var(--text-xs);
   color: var(--rg-text-secondary);
   line-height: 1.5;
   padding: 0.1rem 0 0 0.75rem;
@@ -188,7 +188,7 @@
   position: absolute;
   left: 0;
   color: var(--rg-primary);
-  font-size: 0.625rem;
+  font-size: var(--text-3xs);
 }
 
 @media (max-width: 768px) {
@@ -204,6 +204,6 @@
   }
 
   .rg-boss-detail-name {
-    font-size: 1.35rem;
+    font-size: var(--text-xl);
   }
 }

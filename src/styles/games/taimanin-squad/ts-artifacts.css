@@ -15,7 +15,7 @@
   border: none;
   border-bottom: 2px solid transparent;
   color: var(--ts-text-muted, #696969);
-  font-size: 0.95rem;
+  font-size: var(--text-body);
   font-weight: 600;
   cursor: pointer;
   transition: color 0.2s, border-color 0.2s;
@@ -53,7 +53,7 @@
   background: var(--ts-bg-tertiary, #242028);
   border: 1px solid var(--ts-border, #2e2838);
   border-radius: 8px;
-  font-size: 0.9rem;
+  font-size: var(--text-md);
 }
 
 .artifact-stat-label {
@@ -84,7 +84,7 @@
   border: 1px solid var(--ts-border, #2e2838);
   background: var(--ts-bg-tertiary, #242028);
   color: var(--ts-text-primary, #fff);
-  font-size: 0.9rem;
+  font-size: var(--text-md);
   cursor: pointer;
   min-width: 140px;
 }
@@ -125,13 +125,13 @@
 }
 
 .set-card-name {
-  font-size: 1.1rem;
+  font-size: var(--text-lg);
   font-weight: 700;
   color: var(--ts-text-primary, #f5f5f5);
 }
 
 .set-card-req {
-  font-size: 0.75rem;
+  font-size: var(--text-xs);
   color: var(--ts-accent, #9a8aaa);
   background: var(--ts-bg-tertiary, #242028);
   padding: 0.2rem 0.6rem;
@@ -140,13 +140,13 @@
 }
 
 .set-card-group {
-  font-size: 0.7rem;
+  font-size: var(--text-2xs);
   color: var(--ts-text-muted, #696969);
   margin-bottom: 0.75rem;
 }
 
 .set-card-bonus {
-  font-size: 0.85rem;
+  font-size: var(--text-md);
   color: var(--ts-text-secondary, #d3d3d3);
   line-height: 1.5;
 }
@@ -184,7 +184,7 @@
 .artifact-table {
   width: 100%;
   border-collapse: collapse;
-  font-size: 0.9rem;
+  font-size: var(--text-md);
 }
 
 .artifact-table th {
@@ -193,7 +193,7 @@
   padding: 0.75rem 1rem;
   text-align: left;
   font-weight: 600;
-  font-size: 0.8rem;
+  font-size: var(--text-sm);
   text-transform: uppercase;
   letter-spacing: 0.5px;
   border-bottom: 1px solid var(--ts-border, #2e2838);
@@ -215,7 +215,7 @@
 
 .artifact-table .artifact-name {
   font-weight: 600;
-  font-size: 0.9rem;
+  font-size: var(--text-md);
 }
 
 .artifact-table .artifact-name-empty {
@@ -224,7 +224,7 @@
 }
 
 .artifact-table .set-badge {
-  font-size: 0.75rem;
+  font-size: var(--text-xs);
   padding: 0.15rem 0.5rem;
   border-radius: 4px;
   font-weight: 600;
@@ -263,7 +263,7 @@
 
 .artifact-table-num {
   color: var(--ts-text-muted, #696969);
-  font-size: 0.8rem;
+  font-size: var(--text-sm);
   min-width: 30px;
 }
 
@@ -271,7 +271,7 @@
   text-align: center;
   color: var(--ts-text-muted, #888);
   padding: 3rem;
-  font-size: 1.1rem;
+  font-size: var(--text-lg);
 }
 
 /* Module section */
@@ -280,7 +280,7 @@
 }
 
 .module-section h3 {
-  font-size: 1.2rem;
+  font-size: var(--text-xl);
   color: var(--ts-text-primary, #f5f5f5);
   margin-bottom: 1rem;
 }
@@ -307,13 +307,13 @@
 
 .disposition-card-name {
   font-weight: 700;
-  font-size: 1rem;
+  font-size: var(--text-base);
   color: var(--ts-text-primary, #f5f5f5);
 }
 
 .disposition-stat-table {
   width: 100%;
-  font-size: 0.8rem;
+  font-size: var(--text-sm);
   border-collapse: collapse;
 }
 
@@ -322,7 +322,7 @@
   font-weight: 600;
   text-align: left;
   padding: 0.3rem 0.5rem;
-  font-size: 0.7rem;
+  font-size: var(--text-2xs);
   text-transform: uppercase;
 }
 
@@ -334,14 +334,14 @@
 
 .disposition-stat-table .stat-lv {
   color: var(--ts-text-muted, #696969);
-  font-size: 0.75rem;
+  font-size: var(--text-xs);
 }
 
 /* Grade range table */
 .grade-table {
   width: 100%;
   border-collapse: collapse;
-  font-size: 0.85rem;
+  font-size: var(--text-md);
   margin-bottom: 2rem;
 }
 
@@ -351,7 +351,7 @@
   padding: 0.5rem 0.75rem;
   text-align: center;
   font-weight: 600;
-  font-size: 0.75rem;
+  font-size: var(--text-xs);
   border: 1px solid var(--ts-border, #2e2838);
 }
 
@@ -374,13 +374,13 @@
   border-radius: 12px;
   padding: 1.25rem;
   margin-bottom: 2rem;
-  font-size: 0.85rem;
+  font-size: var(--text-md);
   color: var(--ts-text-secondary, #d3d3d3);
   line-height: 1.7;
 }
 
 .artifact-info-box h3 {
-  font-size: 0.95rem;
+  font-size: var(--text-body);
   color: var(--ts-text-primary, #f5f5f5);
   margin-bottom: 0.5rem;
 }
@@ -418,7 +418,7 @@
   }
 
   .artifact-table {
-    font-size: 0.8rem;
+    font-size: var(--text-sm);
   }
 
   .artifact-table th,

@@ -136,7 +136,7 @@
 }
 
 .gsa-section-title {
-  font-size: 1.15rem;
+  font-size: var(--text-lg);
   font-weight: 700;
   margin: 0 0 10px;
   color: var(--gsa-text);
@@ -154,7 +154,7 @@
   color: var(--gsa-text);
   border-radius: 5px;
   padding: 2px 8px;
-  font-size: 0.78rem;
+  font-size: var(--text-xs);
   font-weight: 700;
   line-height: 1.5;
 }
@@ -211,14 +211,14 @@ a.gsa-card:active {
 }
 
 .gsa-card-title {
-  font-size: 0.95rem;
+  font-size: var(--text-body);
   font-weight: 700;
   color: var(--gsa-text);
   margin: 8px 0 2px;
 }
 
 .gsa-card-sub {
-  font-size: 0.78rem;
+  font-size: var(--text-xs);
   color: var(--gsa-text-dim);
   margin: 0;
 }
@@ -241,7 +241,7 @@ a.gsa-card:active {
 }
 
 .gsa-monogram {
-  font-size: 2rem;
+  font-size: var(--text-4xl);
   font-weight: 800;
   color: var(--gsa-text-dim);
 }
@@ -260,7 +260,7 @@ a.gsa-card:active {
   color: var(--gsa-text);
   border-radius: 8px;
   padding: 8px 12px;
-  font-size: 0.9rem;
+  font-size: var(--text-md);
   min-width: 220px;
 }
 
@@ -270,7 +270,7 @@ a.gsa-card:active {
   color: var(--gsa-text-dim);
   border-radius: 8px;
   padding: 7px 12px;
-  font-size: 0.82rem;
+  font-size: var(--text-sm);
   font-weight: 700;
   cursor: pointer;
 }
@@ -284,13 +284,13 @@ a.gsa-card:active {
 .gsa-table {
   width: 100%;
   border-collapse: collapse;
-  font-size: 0.88rem;
+  font-size: var(--text-md);
 }
 
 .gsa-table th {
   text-align: left;
   color: var(--gsa-text-dim);
-  font-size: 0.76rem;
+  font-size: var(--text-xs);
   text-transform: uppercase;
   letter-spacing: 0.04em;
   padding: 8px 10px;
@@ -330,7 +330,7 @@ a.gsa-card:active {
   color: var(--gsa-text-dim);
   border-radius: 6px;
   padding: 0.35rem 0.75rem;
-  font-size: 0.8rem;
+  font-size: var(--text-sm);
   cursor: pointer;
 }
 
@@ -348,7 +348,7 @@ a.gsa-card:active {
   display: flex;
   align-items: center;
   gap: 0.5rem;
-  font-size: 0.82rem;
+  font-size: var(--text-sm);
 }
 
 .gsa-breadcrumb-item:not(:last-child)::after {

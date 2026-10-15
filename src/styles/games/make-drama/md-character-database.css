@@ -22,7 +22,7 @@
   border: 1px solid var(--md-border);
   border-radius: 8px;
   color: var(--md-text-primary);
-  font-size: 0.875rem;
+  font-size: var(--text-md);
   outline: none;
   min-width: 180px;
 }
@@ -41,7 +41,7 @@
   border: 1px solid var(--md-border);
   border-radius: 6px;
   color: var(--md-text-secondary);
-  font-size: 0.8rem;
+  font-size: var(--text-sm);
   cursor: pointer;
   transition: all 0.15s ease;
 }
@@ -60,7 +60,7 @@
 
 .md-count {
   margin-left: auto;
-  font-size: 0.8rem;
+  font-size: var(--text-sm);
   color: var(--md-text-muted);
 }
 
@@ -105,7 +105,7 @@
 }
 
 .md-char-name {
-  font-size: 0.95rem;
+  font-size: var(--text-body);
   font-weight: 600;
   color: var(--md-text-primary);
   margin: 0 0 0.35rem;
@@ -123,7 +123,7 @@
   display: inline-block;
   padding: 0.15rem 0.45rem;
   border-radius: 4px;
-  font-size: 0.7rem;
+  font-size: var(--text-2xs);
   font-weight: 600;
   line-height: 1.4;
 }
@@ -151,7 +151,7 @@
   margin-bottom: 1rem;
   color: var(--md-primary);
   text-decoration: none;
-  font-size: 0.875rem;
+  font-size: var(--text-md);
 }
 
 .md-back:hover {
@@ -174,7 +174,7 @@
 
 .md-detail-info h1 {
   margin: 0 0 0.25rem;
-  font-size: 1.5rem;
+  font-size: var(--text-2xl);
   color: var(--md-text-primary);
 }
 
@@ -193,12 +193,12 @@
 
 .md-detail-section h2 {
   margin: 0 0 0.75rem;
-  font-size: 1.1rem;
+  font-size: var(--text-lg);
   color: var(--md-text-primary);
 }
 
 .md-ultimate-name {
-  font-size: 1rem;
+  font-size: var(--text-base);
   font-weight: 600;
   color: var(--md-primary);
   margin: 0 0 0.25rem;
@@ -217,7 +217,7 @@
   padding: 1rem;
   text-align: center;
   color: var(--md-text-secondary);
-  font-size: 0.875rem;
+  font-size: var(--text-md);
 }
 
 @media (max-width: 768px) {

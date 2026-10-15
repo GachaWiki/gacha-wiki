@@ -27,7 +27,7 @@
 
 .gsa-tier-job-title {
   margin: 0;
-  font-size: 1.35rem;
+  font-size: var(--text-xl);
   font-weight: 700;
   color: var(--gsa-text);
   display: flex;
@@ -36,14 +36,14 @@
 }
 
 .gsa-tier-job-zh {
-  font-size: 0.9rem;
+  font-size: var(--text-md);
   font-weight: 500;
   color: #e0596b;
 }
 
 .gsa-tier-job-count {
   margin-left: auto;
-  font-size: 0.8rem;
+  font-size: var(--text-sm);
   color: var(--gsa-text-dim);
 }
 
@@ -75,7 +75,7 @@
 
 .gsa-tier-name {
   font-weight: 700;
-  font-size: 1.7rem;
+  font-size: var(--text-3xl);
   text-transform: uppercase;
   color: #e0596b;
 }
@@ -118,7 +118,7 @@ a.gsa-tier-card:active {
 }
 
 .gsa-tier-rarity {
-  font-size: 0.6rem;
+  font-size: var(--text-3xs);
   font-weight: 800;
   letter-spacing: 0.05em;
   padding: 1px 7px;
@@ -136,7 +136,7 @@ a.gsa-tier-card:active {
 }
 
 .gsa-tier-name-label {
-  font-size: 0.78rem;
+  font-size: var(--text-xs);
   font-weight: 600;
   color: var(--gsa-text);
   text-align: center;
@@ -148,7 +148,7 @@ a.gsa-tier-card:active {
     width: 52px;
   }
   .gsa-tier-name {
-    font-size: 1.2rem;
+    font-size: var(--text-xl);
   }
   .gsa-tier-characters {
     gap: 0.7rem;
@@ -194,14 +194,14 @@ a.gsa-tier-card:active {
 
 .gsa-beginner-title {
   margin: 0 0 0.6rem;
-  font-size: 1.25rem;
+  font-size: var(--text-xl);
   font-weight: 700;
   color: var(--gsa-accent-strong);
 }
 
 .gsa-beginner-intro {
   color: var(--gsa-text);
-  font-size: 0.92rem;
+  font-size: var(--text-body);
   line-height: 1.6;
   margin: 0 0 0.75rem;
   max-width: 78ch;
@@ -238,17 +238,17 @@ a.gsa-tier-card:active {
   border-radius: 10px;
   object-fit: cover;
   display: block;
-  font-size: 1.6rem;
+  font-size: var(--text-2xl);
 }
 
 .gsa-beginner-name {
   font-weight: 700;
-  font-size: 0.95rem;
+  font-size: var(--text-body);
 }
 
 .gsa-beginner-note {
   color: var(--gsa-text-dim);
-  font-size: 0.78rem;
+  font-size: var(--text-xs);
   line-height: 1.45;
 }
 
@@ -275,7 +275,7 @@ a.gsa-tier-card:active {
 
 .gsa-pursuit-chains-intro {
   color: var(--gsa-text-dim);
-  font-size: 0.82rem;
+  font-size: var(--text-sm);
   font-weight: 600;
   margin: 0 0 0.6rem;
 }
@@ -316,7 +316,7 @@ a.gsa-tier-card:active {
 }
 
 .gsa-pursuit-elem b {
-  font-size: 0.92rem;
+  font-size: var(--text-body);
   display: flex;
   align-items: baseline;
   gap: 0.3rem;
@@ -324,14 +324,14 @@ a.gsa-tier-card:active {
 
 .gsa-pursuit-elem-zh {
   font-style: normal;
-  font-size: 0.78rem;
+  font-size: var(--text-xs);
   font-weight: 500;
   color: #e0596b;
 }
 
 .gsa-pursuit-status,
 .gsa-pursuit-name {
-  font-size: 0.76rem;
+  font-size: var(--text-xs);
   font-weight: 800;
   letter-spacing: 0.03em;
   padding: 3px 10px;
@@ -357,14 +357,14 @@ a.gsa-tier-card:active {
 .gsa-pursuit-effect {
   flex: 1;
   min-width: 120px;
-  font-size: 0.78rem;
+  font-size: var(--text-xs);
   color: var(--gsa-text-dim);
   line-height: 1.4;
 }
 
 .gsa-pursuit-footnote {
   color: var(--gsa-text-dim);
-  font-size: 0.84rem;
+  font-size: var(--text-sm);
   line-height: 1.55;
   margin: 0;
   max-width: 90ch;
@@ -375,7 +375,7 @@ a.gsa-tier-card:active {
   display: inline-flex;
   align-items: center;
   gap: 0.4rem;
-  font-size: 0.76rem;
+  font-size: var(--text-xs);
   font-weight: 700;
   color: var(--gsa-text-dim);
   background: var(--gsa-bg-tertiary);
@@ -414,7 +414,7 @@ a.gsa-tier-card:active {
   border-radius: 9px;
   color: var(--gsa-text);
   font-family: inherit;
-  font-size: 1rem;
+  font-size: var(--text-base);
   font-weight: 800;
   letter-spacing: 0.02em;
   padding: 9px 22px;
@@ -426,7 +426,7 @@ a.gsa-tier-card:active {
   color: #fff;
 }
 .gsa-tier-tab-count {
-  font-size: 0.72rem;
+  font-size: var(--text-xs);
   font-weight: 700;
   opacity: 0.75;
   font-variant-numeric: tabular-nums;
@@ -436,7 +436,7 @@ a.gsa-tier-card:active {
 .gsa-tier-role {
   display: block;
   margin-top: 2px;
-  font-size: 0.62rem;
+  font-size: var(--text-3xs);
   font-weight: 700;
   letter-spacing: 0.04em;
   text-transform: uppercase;
@@ -452,7 +452,7 @@ a.gsa-tier-card:active {
   margin: 14px 0 18px;
   max-width: 860px;
   color: var(--gsa-text-dim);
-  font-size: 0.85rem;
+  font-size: var(--text-md);
   line-height: 1.6;
 }
 .gsa-combo-grid {
@@ -478,7 +478,7 @@ a.gsa-tier-card:active {
   margin-bottom: 6px;
 }
 .gsa-combo-name {
-  font-size: 1.05rem;
+  font-size: var(--text-base);
   font-weight: 700;
   color: var(--gsa-text);
   margin: 0 0 10px;
@@ -497,7 +497,7 @@ a.gsa-tier-card:active {
   flex: 1;
 }
 .gsa-combo-group-label {
-  font-size: 0.68rem;
+  font-size: var(--text-2xs);
   font-weight: 700;
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -506,7 +506,7 @@ a.gsa-tier-card:active {
 .gsa-combo-arrow {
   align-self: center;
   color: var(--gsa-accent-strong);
-  font-size: 1.3rem;
+  font-size: var(--text-xl);
   font-weight: 700;
 }
 .gsa-combo-member {
@@ -528,13 +528,13 @@ a.gsa-tier-card:active {
 }
 .gsa-combo-member-name {
   color: var(--gsa-text);
-  font-size: 0.82rem;
+  font-size: var(--text-sm);
   font-weight: 700;
   min-width: 0;
 }
 .gsa-combo-note {
   margin: 0;
-  font-size: 0.8rem;
+  font-size: var(--text-sm);
   line-height: 1.6;
   color: var(--gsa-text-dim);
 }

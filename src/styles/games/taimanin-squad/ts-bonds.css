@@ -3,7 +3,7 @@
 .ts-bonds-intro {
   margin-bottom: 2rem;
   color: var(--ts-text-primary, #f5f5f5);
-  font-size: 0.95rem;
+  font-size: var(--text-body);
   line-height: 1.7;
 }
 
@@ -16,7 +16,7 @@
 }
 
 .ts-bonds-section-title {
-  font-size: 1.3rem;
+  font-size: var(--text-xl);
   color: var(--ts-text-primary, #fff);
   margin: 0 0 1rem;
   padding-bottom: 0.5rem;
@@ -25,7 +25,7 @@
 
 .ts-bonds-subtitle {
   color: var(--ts-text-secondary, #d3d3d3);
-  font-size: 0.9rem;
+  font-size: var(--text-md);
   margin: 0 0 1rem;
 }
 
@@ -53,14 +53,14 @@
 }
 
 .ts-bond-name {
-  font-size: 1.05rem;
+  font-size: var(--text-base);
   font-weight: 700;
   color: var(--ts-text-primary, #fff);
   margin: 0;
 }
 
 .ts-bond-bonus {
-  font-size: 0.75rem;
+  font-size: var(--text-xs);
   padding: 0.2rem 0.6rem;
   border-radius: 4px;
   background: rgba(255, 215, 0, 0.15);
@@ -90,7 +90,7 @@
 }
 
 .ts-bond-unit-name {
-  font-size: 0.85rem;
+  font-size: var(--text-md);
   font-weight: 500;
   color: var(--ts-text-primary, #f5f5f5);
 }
@@ -110,38 +110,38 @@
 }
 
 .ts-bond-skill-label {
-  font-size: 0.8rem;
+  font-size: var(--text-sm);
   color: var(--ts-text-secondary, #d3d3d3);
 }
 
 .ts-bond-skill-name {
-  font-size: 0.9rem;
+  font-size: var(--text-md);
   font-weight: 700;
   color: #60A5FA;
 }
 
 .ts-bond-skill-mult {
-  font-size: 0.8rem;
+  font-size: var(--text-sm);
   font-weight: 600;
   color: #FFD700;
   margin-left: 0.5rem;
 }
 
 .ts-bond-skill-desc {
-  font-size: 0.85rem;
+  font-size: var(--text-md);
   color: var(--ts-text-secondary, #d3d3d3);
   line-height: 1.6;
   margin: 0.2rem 0 0;
 }
 
 .ts-bond-skill-pending {
-  font-size: 0.85rem;
+  font-size: var(--text-md);
   color: var(--ts-text-muted, #696969);
   font-style: italic;
 }
 
 .ts-bond-charge {
-  font-size: 0.75rem;
+  font-size: var(--text-xs);
   color: var(--ts-text-secondary, #d3d3d3);
 }
 
@@ -184,18 +184,18 @@
 }
 
 .ts-synergy-char span {
-  font-size: 0.85rem;
+  font-size: var(--text-md);
   font-weight: 600;
   color: var(--ts-text-primary, #fff);
 }
 
 .ts-synergy-arrow {
-  font-size: 1.2rem;
+  font-size: var(--text-xl);
   color: var(--ts-primary, #6b5b7a);
 }
 
 .ts-synergy-type-badge {
-  font-size: 0.8rem;
+  font-size: var(--text-sm);
   padding: 0.25rem 0.6rem;
   border-radius: 6px;
   background: var(--ts-bg-tertiary, #242028);
@@ -211,17 +211,17 @@
 }
 
 .ts-synergy-skill {
-  font-size: 0.8rem;
+  font-size: var(--text-sm);
   color: var(--ts-text-secondary, #d3d3d3);
 }
 
 .ts-synergy-condition {
-  font-size: 0.78rem;
+  font-size: var(--text-xs);
   color: #F59E0B;
 }
 
 .ts-synergy-bonus {
-  font-size: 0.78rem;
+  font-size: var(--text-xs);
   color: #34D399;
 }
 

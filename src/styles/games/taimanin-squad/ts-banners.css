@@ -9,7 +9,7 @@
 
 .ts-bn-intro {
   color: #b3a8ab;
-  font-size: 0.92rem;
+  font-size: var(--text-body);
   line-height: 1.55;
   margin-bottom: 1.75rem;
   max-width: 60rem;
@@ -59,7 +59,7 @@
 
 .ts-bn-art-none {
   color: #8f8698;
-  font-size: 0.85rem;
+  font-size: var(--text-md);
 }
 
 .ts-bn-card-body {
@@ -78,7 +78,7 @@
 
 .ts-bn-type,
 .ts-bn-status {
-  font-size: 0.7rem;
+  font-size: var(--text-2xs);
   font-weight: 800;
   padding: 0.15rem 0.55rem;
   border-radius: 999px;
@@ -113,17 +113,17 @@
 
 .ts-bn-dates {
   color: #8f8698;
-  font-size: 0.8rem;
+  font-size: var(--text-sm);
 }
 
 .ts-bn-card-title {
   color: #e8e2ee;
-  font-size: 1.08rem;
+  font-size: var(--text-lg);
 }
 
 .ts-bn-card-sub {
   color: var(--ts-accent, #9a8aaa);
-  font-size: 0.83rem;
+  font-size: var(--text-sm);
 }
 
 .ts-bn-card-epic {
@@ -131,7 +131,7 @@
   align-items: center;
   gap: 0.55rem;
   color: #b3a8ab;
-  font-size: 0.85rem;
+  font-size: var(--text-md);
 }
 
 .ts-bn-card-epic .ts-char-icon {
@@ -144,7 +144,7 @@
 
 .ts-bn-card-notes {
   color: #9a90a3;
-  font-size: 0.82rem;
+  font-size: var(--text-sm);
   line-height: 1.5;
 }
 

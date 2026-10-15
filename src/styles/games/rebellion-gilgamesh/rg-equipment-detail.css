@@ -22,7 +22,7 @@
 
 .rg-equip-detail-name {
   font-family: var(--font-display);
-  font-size: 1.75rem;
+  font-size: var(--text-3xl);
   font-weight: 700;
   color: var(--rg-text-primary);
   margin: 0 0 0.75rem;
@@ -48,13 +48,13 @@
 }
 
 .rg-equip-detail-field-label {
-  font-size: 0.8125rem;
+  font-size: var(--text-sm);
   color: var(--rg-text-muted);
   min-width: 6rem;
 }
 
 .rg-equip-detail-field-value {
-  font-size: 0.875rem;
+  font-size: var(--text-md);
   color: var(--rg-text-primary);
 }
 
@@ -72,7 +72,7 @@
 }
 
 .rg-equip-stat-label {
-  font-size: 0.75rem;
+  font-size: var(--text-xs);
   color: var(--rg-text-muted);
   text-transform: uppercase;
   letter-spacing: 0.05em;
@@ -80,13 +80,13 @@
 }
 
 .rg-equip-stat-value {
-  font-size: 1.5rem;
+  font-size: var(--text-2xl);
   font-weight: 700;
   color: var(--rg-text-primary);
 }
 
 .rg-equip-stat-growth {
-  font-size: 0.75rem;
+  font-size: var(--text-xs);
   color: var(--rg-accent, #e8c170);
   margin-top: 0.25rem;
 }
@@ -99,7 +99,7 @@
 }
 
 .rg-equip-desc-text {
-  font-size: 0.8125rem;
+  font-size: var(--text-sm);
   color: var(--rg-text-secondary);
   line-height: 1.6;
   margin: 0;
@@ -109,7 +109,7 @@
 .rg-equip-scaling-table {
   width: 100%;
   border-collapse: collapse;
-  font-size: 0.8125rem;
+  font-size: var(--text-sm);
   margin-top: 0.5rem;
 }
 
@@ -119,7 +119,7 @@
   text-align: center;
   color: var(--rg-primary);
   font-weight: 600;
-  font-size: 0.75rem;
+  font-size: var(--text-xs);
   text-transform: uppercase;
   letter-spacing: 0.05em;
   border-bottom: 2px solid var(--rg-border);
@@ -138,7 +138,7 @@
 }
 
 .rg-enchant-note {
-  font-size: 0.8125rem;
+  font-size: var(--text-sm);
   color: var(--rg-text-muted);
   margin: 0 0 1rem;
 }
@@ -157,7 +157,7 @@
 }
 
 .rg-enchant-stat-name {
-  font-size: 0.8125rem;
+  font-size: var(--text-sm);
   font-weight: 600;
   color: var(--rg-primary);
   text-transform: uppercase;
@@ -166,7 +166,7 @@
 }
 
 .rg-enchant-range {
-  font-size: 1.125rem;
+  font-size: var(--text-lg);
   font-weight: 700;
   color: var(--rg-text-primary);
   font-variant-numeric: tabular-nums;

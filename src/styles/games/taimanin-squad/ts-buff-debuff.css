@@ -18,7 +18,7 @@
   background: transparent;
   border: none;
   color: var(--ts-text-secondary);
-  font-size: 1rem;
+  font-size: var(--text-base);
   font-weight: 600;
   cursor: pointer;
   border-radius: 10px;
@@ -73,7 +73,7 @@
 }
 
 .ts-effect-name {
-  font-size: 1.125rem;
+  font-size: var(--text-lg);
   font-weight: 700;
   color: var(--ts-text-primary);
   margin: 0 0 0.25rem 0;
@@ -81,7 +81,7 @@
 }
 
 .ts-effect-desc {
-  font-size: 0.875rem;
+  font-size: var(--text-md);
   color: var(--ts-text-secondary);
   margin: 0;
   line-height: 1.4;
@@ -96,7 +96,7 @@
 }
 
 .ts-detail-tag {
-  font-size: 0.75rem;
+  font-size: var(--text-xs);
   padding: 0.25rem 0.625rem;
   background: var(--ts-bg-tertiary);
   border: 1px solid var(--ts-border-light);
@@ -124,7 +124,7 @@
 }
 
 .ts-bd-summary-count {
-  font-size: 2rem;
+  font-size: var(--text-4xl);
   font-weight: 800;
   line-height: 1;
 }
@@ -138,7 +138,7 @@
 }
 
 .ts-bd-summary-label {
-  font-size: 0.875rem;
+  font-size: var(--text-md);
   font-weight: 600;
   color: var(--ts-text-secondary);
   text-transform: uppercase;
@@ -155,7 +155,7 @@
 }
 
 .ts-bd-category-title {
-  font-size: 1.25rem;
+  font-size: var(--text-xl);
   font-weight: 700;
   color: var(--ts-text-primary);
   margin: 0 0 1rem 0;
@@ -182,7 +182,7 @@
 .ts-section-intro p {
   margin: 0;
   color: var(--ts-text-secondary);
-  font-size: 0.9375rem;
+  font-size: var(--text-body);
   line-height: 1.5;
 }
 
@@ -210,11 +210,11 @@
   }
 
   .ts-effect-name {
-    font-size: 1rem;
+    font-size: var(--text-base);
   }
 
   .ts-effect-desc {
-    font-size: 0.8125rem;
+    font-size: var(--text-sm);
   }
 }
 
@@ -233,7 +233,7 @@
   }
 
   .ts-detail-tag {
-    font-size: 0.6875rem;
+    font-size: var(--text-2xs);
     padding: 0.1875rem 0.5rem;
   }
 }

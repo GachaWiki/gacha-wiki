@@ -102,9 +102,9 @@
   letter-spacing: 1px;
   background: var(--ts-bg-tertiary, #242028);
 }
-.ts-badge-stars.stars-5 { color: var(--ts-star-5); font-size: 0.95rem; }
-.ts-badge-stars.stars-4 { color: var(--ts-star-4); font-size: 0.9rem; }
-.ts-badge-stars.stars-3 { color: var(--ts-star-3); font-size: 0.85rem; }
-.ts-badge-stars.stars-2 { color: var(--ts-star-2); font-size: 0.8rem; }
-.ts-badge-stars.stars-1 { color: var(--ts-star-1); font-size: 0.75rem; }
+.ts-badge-stars.stars-5 { color: var(--ts-star-5); font-size: var(--text-body); }
+.ts-badge-stars.stars-4 { color: var(--ts-star-4); font-size: var(--text-md); }
+.ts-badge-stars.stars-3 { color: var(--ts-star-3); font-size: var(--text-md); }
+.ts-badge-stars.stars-2 { color: var(--ts-star-2); font-size: var(--text-sm); }
+.ts-badge-stars.stars-1 { color: var(--ts-star-1); font-size: var(--text-xs); }
 
