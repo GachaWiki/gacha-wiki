@@ -232,7 +232,7 @@ export const gsaCharacters = [
         "name": "Rapid Fire",
         "slot": "Basic Attack",
         "unlockStar": 0,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr032_1.webp",
         "type": "Instant",
         "mainStat": "ATK",
         "gcd": "10s",
@@ -264,7 +264,7 @@ export const gsaCharacters = [
         "name": "Threat Designation",
         "slot": "Auto",
         "unlockStar": 1,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr032_3.webp",
         "type": "Instant",
         "mainStat": "ATK",
         "gcd": null,
@@ -279,7 +279,7 @@ export const gsaCharacters = [
         "name": "Biological Weakness",
         "slot": "Passive 1",
         "unlockStar": 4,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr032_5.webp",
         "type": "Passive",
         "mainStat": null,
         "gcd": null,
@@ -298,7 +298,7 @@ export const gsaCharacters = [
         "name": "Energy Drink",
         "slot": "Passive 2",
         "unlockStar": 6,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr032_6.webp",
         "type": "Passive",
         "mainStat": null,
         "gcd": null,
@@ -317,7 +317,7 @@ export const gsaCharacters = [
         "name": "Piercing Blast",
         "slot": "Ultimate",
         "unlockStar": 2,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr032_4.webp",
         "type": "Instant",
         "mainStat": "ATK",
         "gcd": null,
@@ -408,7 +408,7 @@ export const gsaCharacters = [
         "name": "Collision Strike",
         "slot": "Basic Attack",
         "unlockStar": 0,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr033_1.webp",
         "type": "Instant",
         "mainStat": "ATK",
         "gcd": "18s",
@@ -440,7 +440,7 @@ export const gsaCharacters = [
         "name": "Defensive Tenacity",
         "slot": "Auto",
         "unlockStar": 1,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr033_3.webp",
         "type": "Instant",
         "mainStat": "Healing",
         "gcd": null,
@@ -458,7 +458,7 @@ export const gsaCharacters = [
         "name": "Indomitable Iron Will",
         "slot": "Passive 1",
         "unlockStar": 4,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr033_5.webp",
         "type": "Passive",
         "mainStat": "ATK",
         "gcd": null,
@@ -479,7 +479,7 @@ export const gsaCharacters = [
         "name": "Wall of Valor",
         "slot": "Passive 2",
         "unlockStar": 6,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr033_6.webp",
         "type": "Passive",
         "mainStat": null,
         "gcd": null,
@@ -498,7 +498,7 @@ export const gsaCharacters = [
         "name": "Fortified Bastion",
         "slot": "Ultimate",
         "unlockStar": 2,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr033_4.webp",
         "type": "Instant",
         "mainStat": null,
         "gcd": null,
@@ -819,7 +819,7 @@ export const gsaCharacters = [
         "name": "Decisive Triumph",
         "slot": "Passive 1",
         "unlockStar": 4,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr035_5.webp",
         "type": "Passive",
         "mainStat": null,
         "gcd": null,
@@ -838,7 +838,7 @@ export const gsaCharacters = [
         "name": "Spoils of Victory",
         "slot": "Passive 2",
         "unlockStar": 6,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr035_6.webp",
         "type": "Passive",
         "mainStat": null,
         "gcd": null,
@@ -2415,7 +2415,7 @@ export const gsaCharacters = [
         "name": "Cardistry",
         "slot": "Basic Attack",
         "unlockStar": 0,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr044_1.webp",
         "type": "Instant",
         "mainStat": "ATK",
         "gcd": "10s",
@@ -2430,7 +2430,7 @@ export const gsaCharacters = [
         "name": "Scarlet Purification",
         "slot": "Talent",
         "unlockStar": 0,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr044_2.webp",
         "type": "Instant",
         "mainStat": "Healing",
         "gcd": null,
@@ -2452,7 +2452,7 @@ export const gsaCharacters = [
         "name": "Card Array",
         "slot": "Auto",
         "unlockStar": 1,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr044_3.webp",
         "type": "Instant",
         "mainStat": null,
         "gcd": null,
@@ -2473,7 +2473,7 @@ export const gsaCharacters = [
         "name": "All-in",
         "slot": "Passive 1",
         "unlockStar": 4,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr044_5.webp",
         "type": "Passive",
         "mainStat": null,
         "gcd": null,
@@ -2492,7 +2492,7 @@ export const gsaCharacters = [
         "name": "Straight Flush",
         "slot": "Passive 2",
         "unlockStar": 6,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr044_6.webp",
         "type": "Passive",
         "mainStat": null,
         "gcd": null,
@@ -2511,7 +2511,7 @@ export const gsaCharacters = [
         "name": "Ace's Barrier",
         "slot": "Ultimate",
         "unlockStar": 2,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr044_4.webp",
         "type": "Instant",
         "mainStat": null,
         "gcd": null,
@@ -3742,7 +3742,7 @@ export const gsaCharacters = [
         "name": "Rain of Retribution",
         "slot": "Talent",
         "unlockStar": 0,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr051_2.webp",
         "type": "Instant",
         "mainStat": "ATK",
         "gcd": null,
@@ -3763,7 +3763,7 @@ export const gsaCharacters = [
         "name": "Divine Absolution",
         "slot": "Auto",
         "unlockStar": 1,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr051_3.webp",
         "type": "Instant",
         "mainStat": "ATK",
         "gcd": null,
@@ -4290,7 +4290,7 @@ export const gsaCharacters = [
         "name": "Auspicious Blessing",
         "slot": "Basic Attack",
         "unlockStar": 0,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr055_1.webp",
         "type": "Instant",
         "mainStat": "ATK",
         "gcd": "9s",
@@ -4305,7 +4305,7 @@ export const gsaCharacters = [
         "name": "Out of Luck",
         "slot": "Talent",
         "unlockStar": 0,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr055_2.webp",
         "type": "Instant",
         "mainStat": "ATK",
         "gcd": null,
@@ -4327,7 +4327,7 @@ export const gsaCharacters = [
         "name": "Unfinished Business",
         "slot": "Auto",
         "unlockStar": 1,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr055_3.webp",
         "type": "Instant",
         "mainStat": "ATK",
         "gcd": null,
@@ -4348,7 +4348,7 @@ export const gsaCharacters = [
         "name": "Twist of Fate",
         "slot": "Passive 1",
         "unlockStar": 4,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr055_5.webp",
         "type": "Passive",
         "mainStat": null,
         "gcd": null,
@@ -4367,7 +4367,7 @@ export const gsaCharacters = [
         "name": "Stroke of Luck",
         "slot": "Passive 2",
         "unlockStar": 6,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr055_6.webp",
         "type": "Passive",
         "mainStat": null,
         "gcd": null,
@@ -4386,7 +4386,7 @@ export const gsaCharacters = [
         "name": "Blazing Fate Formation",
         "slot": "Ultimate",
         "unlockStar": 2,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr055_4.webp",
         "type": "Instant",
         "mainStat": "ATK",
         "gcd": null,
@@ -4853,7 +4853,7 @@ export const gsaCharacters = [
         "name": "Phantom Staff",
         "slot": "Basic Attack",
         "unlockStar": 0,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr058_1.webp",
         "type": "Instant",
         "mainStat": "ATK",
         "gcd": "10s",
@@ -4868,7 +4868,7 @@ export const gsaCharacters = [
         "name": "Thunder Quintet Rod",
         "slot": "Talent",
         "unlockStar": 0,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr058_2.webp",
         "type": "Instant",
         "mainStat": "ATK",
         "gcd": null,
@@ -4889,7 +4889,7 @@ export const gsaCharacters = [
         "name": "Storm Dragon Assault",
         "slot": "Auto",
         "unlockStar": 1,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr058_3.webp",
         "type": "Instant",
         "mainStat": "ATK",
         "gcd": null,
@@ -4910,7 +4910,7 @@ export const gsaCharacters = [
         "name": "Meridian Lock",
         "slot": "Passive 1",
         "unlockStar": 4,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr058_5.webp",
         "type": "Passive",
         "mainStat": null,
         "gcd": null,
@@ -4929,7 +4929,7 @@ export const gsaCharacters = [
         "name": "Seamless Motion",
         "slot": "Passive 2",
         "unlockStar": 6,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr058_6.webp",
         "type": "Passive",
         "mainStat": null,
         "gcd": null,
@@ -4948,7 +4948,7 @@ export const gsaCharacters = [
         "name": "Dimensional Quake",
         "slot": "Ultimate",
         "unlockStar": 2,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr058_4.webp",
         "type": "Instant",
         "mainStat": "ATK",
         "gcd": null,
@@ -5178,194 +5178,7 @@ export const gsaCharacters = [
       "hpRcvPer": "1000"
     }
   },
-  {
-    "id": "133006000",
-    "tierStats": [
-      {"tier": 1, "hp": 8533, "atk": 156},
-      {"tier": 2, "hp": 12759, "atk": 230},
-      {"tier": 3, "hp": 25600, "atk": 468},
-      {"tier": 4, "hp": 38360, "atk": 699},
-      {"tier": 5, "hp": 51201, "atk": 937},
-      {"tier": 6, "hp": 68268, "atk": 1249},
-      {"tier": 7, "hp": 85336, "atk": 1562},
-      {"tier": 8, "hp": 102403, "atk": 1874},
-      {"tier": 9, "hp": 122883, "atk": 2246},
-      {"tier": 10, "hp": 147509, "atk": 2700}
-    ],
-    "growth": {"rate": 1.5, "hp": [115.91, 231.83, 579.57, 927.32, 1275.06, 1622.81], "atk": [1.48, 2.97, 7.44, 11.9, 16.36, 20.83]},
-    "affection": [{"label": "Wind RES %", "value": 50}, {"label": "Wind RES %", "value": 50}, {"label": "Wind RES %", "value": 50}, {"label": "Wind RES %", "value": 50}, {"label": "Wind RES %", "value": 50}, {"label": "Wind RES %", "value": 50}, {"label": "Wind RES %", "value": 100}, {"label": "Wind RES %", "value": 100}, {"label": "Wind RES %", "value": 100}, {"label": "Wind RES %", "value": 200}],
-    "gear": [{"slot": "Gloves", "name": "Silk-Bound Gloves EX", "stats": [{"label": "ATK", "base": 44, "pct": false}, {"label": "Fire ATK", "base": 1000, "pct": true}, {"label": "ATK Speed", "base": 182, "pct": false}, {"label": "ACC", "base": 58, "pct": false}]}, {"slot": "Weapon", "name": "Fire Esper Bracers EX", "stats": [{"label": "ATK", "base": 44, "pct": false}, {"label": "Fire ATK", "base": 1000, "pct": true}, {"label": "Block", "base": 107, "pct": false}, {"label": "DMG BLK", "base": 96, "pct": false}]}, {"slot": "Shoes", "name": "Silk-Bound Footwear EX", "stats": [{"label": "ATK", "base": 44, "pct": false}, {"label": "Fire ATK", "base": 1000, "pct": true}, {"label": "Healing Received Up", "base": 188, "pct": false}, {"label": "Crit Evasion", "base": 80, "pct": false}]}, {"slot": "Accessory", "name": "Serenity Mala", "stats": [{"label": "ATK", "base": 77, "pct": false}]}],
-    "model": "cr060",
-    "slug": "danxin",
-    "name": "Danxin",
-    "nameZh": "丹芯",
-    "title": "Second Generation Dragon",
-    "epithet": "Azure Flames, Subtle Deflection",
-    "sex": "Male",
-    "inGacha": false,
-    "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/cr060_Icon_Texture.webp",
-    "sortOrder": 60,
-    "element": {
-      "id": 1,
-      "name": "Fire",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/battleelement_1.webp"
-    },
-    "job": {
-      "id": 1,
-      "name": "Guardian",
-      "color": "#957C7A",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/guard_1.webp"
-    },
-    "attackType": {
-      "id": 1,
-      "name": "Physical",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Attributes_02.webp"
-    },
-    "skills": [
-      {
-        "id": "150006000",
-        "name": "Silk Whip Strike",
-        "slot": "Basic Attack",
-        "unlockStar": 0,
-        "icon": null,
-        "type": "Instant",
-        "mainStat": "ATK",
-        "gcd": "10s",
-        "desc": "Deal 83% Physical DMG to a target.",
-        "detail": null,
-        "cooldown": null,
-        "cost": null,
-        "statuses": []
-      },
-      {
-        "id": "150006010",
-        "name": "Dragon Flame Wall",
-        "slot": "Talent",
-        "unlockStar": 0,
-        "icon": null,
-        "type": "Instant",
-        "mainStat": null,
-        "gcd": null,
-        "desc": "Apply a 2145% Shield (10s) to self.",
-        "detail": null,
-        "cooldown": "10s",
-        "cost": 1,
-        "statuses": [
-          "Stun"
-        ],
-        "awakened": {
-          "desc": "Apply a 3000% Shield (10s) to self.",
-          "detail": null
-        }
-      },
-      {
-        "id": "150006020",
-        "name": "Triple Stance Breaker",
-        "slot": "Auto",
-        "unlockStar": 1,
-        "icon": null,
-        "type": "Instant",
-        "mainStat": "ATK",
-        "gcd": null,
-        "desc": "Deal three hits of 100% Physical DMG to a target.\nOn final hit, Medium chance to inflict Energy Damage Down 10% (8s) on the target.",
-        "detail": null,
-        "cooldown": "6s",
-        "cost": null,
-        "statuses": [
-          "Heal",
-          "Damage Taken Decreased"
-        ],
-        "awakened": {
-          "desc": "Deal three hits of 135% Physical DMG to a target.\nOn final hit, Medium chance to inflict Energy Damage Down 20% (8s) on the target.",
-          "detail": null
-        }
-      },
-      {
-        "id": "150006030",
-        "name": "Spicy Instinct",
-        "slot": "Passive 1",
-        "unlockStar": 4,
-        "icon": null,
-        "type": "Passive",
-        "mainStat": null,
-        "gcd": null,
-        "desc": "Upon gaining a Shield, grant self the Amplify effect: \"When taking damage, has a Low chance to inflict Burn S (6s) on Random targets\" (6s).\nThe Amplify effect can only trigger once every 6 seconds.",
-        "detail": null,
-        "cooldown": null,
-        "cost": null,
-        "statuses": [],
-        "awakened": {
-          "desc": "Upon gaining a Shield, grant self the Amplify effect: \"When taking damage, has a Low chance to inflict Burn S (6s) on Random targets\" (6s).\nThe Amplify effect can only trigger once every 6 seconds.\nGrant all party members Block Up 8%.",
-          "detail": null
-        }
-      },
-      {
-        "id": "150006050",
-        "name": "Silk Deflection",
-        "slot": "Passive 2",
-        "unlockStar": 6,
-        "icon": null,
-        "type": "Passive",
-        "mainStat": null,
-        "gcd": null,
-        "desc": "Grant self Energy Damage Taken Decreased 10%.",
-        "detail": null,
-        "cooldown": null,
-        "cost": null,
-        "statuses": [],
-        "awakened": {
-          "desc": "Grant all party members Energy Damage Taken Decreased 10%.\nIn PVP mode, grant self Healing Received Up 13%.",
-          "detail": null
-        }
-      },
-      {
-        "id": "150006041",
-        "name": "Azure Dragon Flame Quake",
-        "slot": "Ultimate",
-        "unlockStar": 2,
-        "icon": null,
-        "type": "Instant",
-        "mainStat": "ATK",
-        "gcd": null,
-        "desc": "Enter the Awakening state, granting self Basic Attack Damage Taken Decreased 40% (24s).\nDeal four hits of 93% Energy DMG to up to 2 targets within the forward area.\nGrant self Block Up 10% (12s).\nGrant self DMG Block Up 20% (12s).",
-        "detail": null,
-        "cooldown": "24s",
-        "cost": 3,
-        "statuses": []
-      }
-    ],
-    "profile": {
-      "title": "Kung Fu Beauty",
-      "birthday": "7 / 23",
-      "age": "22",
-      "height": "165",
-      "weight": "51",
-      "interest": "Exchanging martial arts techniques, spicy snacks",
-      "personality": "Lively and competitive; instantly accepts any challenge when provoked.",
-      "resumeParas": [
-        "From a young age, she traveled across various countries with her father, perfecting her family's inherited Silk-Reeling Martial Arts. Upon returning to Tobia at the age of 17, the young and impetuous Danxin frequently competed in underground martial arts matches in secret. Spotting her during an inspection of the fights, Long Yingtian was impressed by Danxin's martial prowess and recruited her to join the Azure Dragon Martial Arts Hall under his tutelage. After joining the Azure Dragon Gang, she combined her techniques with Long Yingtian's guidance, rechristening her style as Azure Dragon Silk-Reeling Fist. Thanks to her lively personality and mastery of martial arts, she was also appointed as the master of ceremonies for the martial arts tournament. Her father's current whereabouts are unknown, though he has presumably gone abroad once again for his martial training."
-      ]
-    },
-    "stats": {
-      "atkRange": "120",
-      "normalAttackGCD": "10000",
-      "critPer": "1000",
-      "critRstPer": "0",
-      "critAmpPer": "5000",
-      "critDmgRdcPer": "0",
-      "hitPer": "8500",
-      "ddgPer": "0",
-      "blkPer": "2500",
-      "blkPenPer": "1500",
-      "blkRdcPer": "2000",
-      "healCritPer": "1000",
-      "healCritAmpPer": "5000",
-      "atkHastePer": "0",
-      "cdHastePer": "0",
-      "manaAmpPer": "0",
-      "hpRcvPer": "1000"
-    }
-  },
+  
   {
     "id": "133006100",
     "tierStats": [
@@ -5972,7 +5785,7 @@ export const gsaCharacters = [
         "name": "Aquamoon",
         "slot": "Basic Attack",
         "unlockStar": 0,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr064_1.webp",
         "type": "Instant",
         "mainStat": "ATK",
         "gcd": "7.001s",
@@ -5987,7 +5800,7 @@ export const gsaCharacters = [
         "name": "Snowbind Duet",
         "slot": "Talent",
         "unlockStar": 0,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr064_2.webp",
         "type": "Instant",
         "mainStat": "ATK",
         "gcd": null,
@@ -6009,7 +5822,7 @@ export const gsaCharacters = [
         "name": "Arctic Sandblast",
         "slot": "Auto",
         "unlockStar": 1,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr064_3.webp",
         "type": "Instant",
         "mainStat": "ATK",
         "gcd": null,
@@ -6030,7 +5843,7 @@ export const gsaCharacters = [
         "name": "Frigid Core",
         "slot": "Passive 1",
         "unlockStar": 4,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr064_5.webp",
         "type": "Passive",
         "mainStat": "ATK",
         "gcd": null,
@@ -6049,7 +5862,7 @@ export const gsaCharacters = [
         "name": "Winter’s Twin Blades",
         "slot": "Passive 2",
         "unlockStar": 6,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr064_6.webp",
         "type": "Passive",
         "mainStat": null,
         "gcd": null,
@@ -6068,7 +5881,7 @@ export const gsaCharacters = [
         "name": "Frost Ring Moon Shatter",
         "slot": "Ultimate",
         "unlockStar": 2,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr064_4.webp",
         "type": "Instant",
         "mainStat": "ATK",
         "gcd": null,
@@ -6489,937 +6302,11 @@ export const gsaCharacters = [
       "hpRcvPer": "1000"
     }
   },
-  {
-    "id": "133006700",
-    "tierStats": [
-      {"tier": 1, "hp": 3367, "atk": 345},
-      {"tier": 2, "hp": 5034, "atk": 516},
-      {"tier": 3, "hp": 10104, "atk": 1038},
-      {"tier": 4, "hp": 15140, "atk": 1557},
-      {"tier": 5, "hp": 20209, "atk": 2079},
-      {"tier": 6, "hp": 26947, "atk": 2772},
-      {"tier": 7, "hp": 33684, "atk": 3465},
-      {"tier": 8, "hp": 40421, "atk": 4158},
-      {"tier": 9, "hp": 48505, "atk": 4989},
-      {"tier": 10, "hp": 58226, "atk": 5988}
-    ],
-    "growth": {"rate": 2, "hp": [45.75, 91.51, 228.78, 366.04, 503.31, 640.58], "atk": [3.3, 6.6, 16.5, 26.4, 36.3, 46.2]},
-    "affection": [{"label": "ATK", "value": 50}, {"label": "ATK", "value": 50}, {"label": "ATK", "value": 50}, {"label": "ATK", "value": 50}, {"label": "ATK", "value": 50}, {"label": "ATK", "value": 50}, {"label": "ATK", "value": 100}, {"label": "ATK", "value": 100}, {"label": "ATK", "value": 100}, {"label": "ATK", "value": 200}],
-    "gear": [{"slot": "Gloves", "name": "Verdant Rain Bracelet EX", "stats": [{"label": "ATK", "base": 118, "pct": false}, {"label": "Wind ATK", "base": 1000, "pct": true}, {"label": "Energy Boost", "base": 62, "pct": false}, {"label": "ATK Speed", "base": 163, "pct": false}]}, {"slot": "Weapon", "name": "Resonant Wind Flute EX", "stats": [{"label": "ATK", "base": 118, "pct": false}, {"label": "Wind ATK", "base": 1000, "pct": true}, {"label": "Crit", "base": 97, "pct": false}, {"label": "Crit DMG", "base": 217, "pct": false}]}, {"slot": "Shoes", "name": "Breezy Heels EX", "stats": [{"label": "ATK", "base": 118, "pct": false}, {"label": "Wind ATK", "base": 1000, "pct": true}, {"label": "ATK Speed", "base": 182, "pct": false}, {"label": "Evasion", "base": 58, "pct": false}]}, {"slot": "Accessory", "name": "Jade Dew Hairpin", "stats": [{"label": "ATK", "base": 77, "pct": false}]}],
-    "model": "cr067",
-    "slug": "qing-yin",
-    "name": "Qing Yin",
-    "nameZh": "清音",
-    "title": "Siren of a Fallen City",
-    "epithet": "Gentle Thunder, Lingering Soul",
-    "sex": "Female",
-    "inGacha": true,
-    "icon": null,
-    "sortOrder": 67,
-    "element": {
-      "id": 3,
-      "name": "Wind",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/battleelement_3.webp"
-    },
-    "job": {
-      "id": 5,
-      "name": "Breaker",
-      "color": "#9433EA",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/master_3.webp"
-    },
-    "attackType": {
-      "id": 2,
-      "name": "Energy",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Attributes_01.webp"
-    },
-    "skills": [
-      {
-        "id": "150006700",
-        "name": "Cloud-Piercing Note",
-        "slot": "Basic Attack",
-        "unlockStar": 0,
-        "icon": null,
-        "type": "Instant",
-        "mainStat": null,
-        "gcd": "10s",
-        "desc": "Prioritizes Electrocuted targets, dealing 75% Energy DMG.",
-        "detail": null,
-        "cooldown": null,
-        "cost": null,
-        "statuses": []
-      },
-      {
-        "id": "150006710",
-        "name": "Layered Rhythm Resonance",
-        "slot": "Talent",
-        "unlockStar": 0,
-        "icon": null,
-        "type": "Instant",
-        "mainStat": null,
-        "gcd": null,
-        "desc": "Prioritizes Electrocuted targets, dealing three hits of 90% Energy DMG.\nOn the first hit, inflict Wind Res Down 12% (6s) on the target.\nOn final hit, if the target has the Electrocute status, trigger an Overload M Pursuit.",
-        "detail": null,
-        "cooldown": "10s",
-        "cost": 1,
-        "statuses": [],
-        "awakened": {
-          "desc": "Prioritizes Electrocuted targets, dealing three hits of 152% Energy DMG.\nOn the first hit, inflict Wind Res Down 12% (10s) on the target.\nOn final hit, if the target has the Electrocute status, trigger an Overload M Pursuit.",
-          "detail": null
-        }
-      },
-      {
-        "id": "150006720",
-        "name": "Echobind Formation",
-        "slot": "Auto",
-        "unlockStar": 1,
-        "icon": null,
-        "type": "Instant",
-        "mainStat": null,
-        "gcd": null,
-        "desc": "Prioritizes Electrocuted targets, dealing 110% Energy DMG.\nOn hit, High chance to inflict Stun (3s).",
-        "detail": null,
-        "cooldown": "6s",
-        "cost": null,
-        "statuses": [],
-        "awakened": {
-          "desc": "Prioritizes Electrocuted targets, dealing 176% Energy DMG.\nOn hit, Extremely High chance to inflict Stun (3s).",
-          "detail": null
-        }
-      },
-      {
-        "id": "150006730",
-        "name": "Gentle Note, Hidden Blade",
-        "slot": "Passive 1",
-        "unlockStar": 4,
-        "icon": null,
-        "type": "Passive",
-        "mainStat": null,
-        "gcd": null,
-        "desc": "On hit, if the target is Electrocuted, grant self Wind ATK Up 8% (12s).\nThis effect can stack up to 2 times.",
-        "detail": "Qingyin appears gentle on the surface, but there is a blade hidden behind her smile.",
-        "cooldown": null,
-        "cost": null,
-        "statuses": [],
-        "awakened": {
-          "desc": "On hit, if the target is Electrocuted, grant self Wind ATK Up 9% (12s).\nThis effect can stack up to 2 times.\nGrant all party members Energy DMG Up 6%.",
-          "detail": null
-        }
-      },
-      {
-        "id": "150006750",
-        "name": "Refined Medley",
-        "slot": "Passive 2",
-        "unlockStar": 6,
-        "icon": null,
-        "type": "Passive",
-        "mainStat": null,
-        "gcd": null,
-        "desc": "Grant self Crit Chance Up 14%.",
-        "detail": "Qingyin quietly observes every change in the words and demeanor of others, gently guiding their rhythm with her music.",
-        "cooldown": null,
-        "cost": null,
-        "statuses": [],
-        "awakened": {
-          "desc": "Grant all party members Crit Chance Up 14%.\nIn PVP mode, grant self ATK SPD Up 15%.",
-          "detail": null
-        }
-      },
-      {
-        "id": "150006741",
-        "name": "Myriad Note Burst",
-        "slot": "Ultimate",
-        "unlockStar": 2,
-        "icon": null,
-        "type": "Instant",
-        "mainStat": null,
-        "gcd": null,
-        "desc": "Enter the Awakening state, granting self Attack Up 15% (24s).\nPrioritizes Electrocuted targets, dealing two hits of 413.5% Energy DMG.\nOn the first hit, grant Wind ATK Up 15% (12s) to self.\nOn the first hit, grant ATK SPD Up 30% (12s) to self.\nOn final hit, if the target has the Electrocute status, trigger an Overload L Pursuit.",
-        "detail": null,
-        "cooldown": "24s",
-        "cost": 3,
-        "statuses": []
-      }
-    ],
-    "profile": {
-      "title": "Siren of a Fallen City",
-      "birthday": "10 / 14",
-      "age": "23",
-      "height": "166",
-      "weight": "55",
-      "interest": "Observing subjects of interest, music",
-      "personality": "Gentle and graceful, cultured and refined. Skilled at steering conversations into a dominant position.",
-      "resumeParas": [
-        "A former musician of the Nine Nether Gang who later defected to the Azure Dragon Triad.. Qingyin served as a musician and sex slave for the Nine Nether Gang, using her bewitching flute music to assist the assassin Leng Zhen during hit operations. However, Leng Zhen was later transformed by the gang's hierarchy into a mindless \"Gu Slave.\" After Qingyin learned of the hopeless fate of Gu Slaves from Banxia, an undercover apothecary from the Azure Dragon Triad, she finally decided to strike back to change her destiny, despite having long submitted to the gang.. Relying on drugs concocted by Banxia and the sound of her own flute to assassinate members of the Nine Nether Gang, she brought Leng Zhen to the Azure Dragon Triad to seek sanctuary."
-      ]
-    },
-    "stats": {
-      "atkRange": "600",
-      "normalAttackGCD": "10000",
-      "critPer": "1000",
-      "critRstPer": "0",
-      "critAmpPer": "5000",
-      "critDmgRdcPer": "0",
-      "hitPer": "9300",
-      "ddgPer": "0",
-      "blkPer": "2500",
-      "blkPenPer": "0",
-      "blkRdcPer": "2000",
-      "healCritPer": "1000",
-      "healCritAmpPer": "5000",
-      "atkHastePer": "0",
-      "cdHastePer": "0",
-      "manaAmpPer": "0",
-      "hpRcvPer": "1000"
-    }
-  },
-  {
-    "id": "133006800",
-    "tierStats": [
-      {"tier": 1, "hp": 4176, "atk": 262},
-      {"tier": 2, "hp": 6242, "atk": 392},
-      {"tier": 3, "hp": 12529, "atk": 788},
-      {"tier": 4, "hp": 18774, "atk": 1183},
-      {"tier": 5, "hp": 25059, "atk": 1580},
-      {"tier": 6, "hp": 33415, "atk": 2106},
-      {"tier": 7, "hp": 41768, "atk": 2633},
-      {"tier": 8, "hp": 50122, "atk": 3160},
-      {"tier": 9, "hp": 60146, "atk": 3791},
-      {"tier": 10, "hp": 72201, "atk": 4550}
-    ],
-    "growth": {"rate": 1.5, "hp": [56.73, 113.47, 283.68, 453.89, 624.11, 794.32], "atk": [2.5, 5.01, 12.54, 20.06, 27.58, 35.11]},
-    "affection": [{"label": "ATK", "value": 50}, {"label": "ATK", "value": 50}, {"label": "ATK", "value": 50}, {"label": "ATK", "value": 50}, {"label": "ATK", "value": 50}, {"label": "ATK", "value": 50}, {"label": "ATK", "value": 50}, {"label": "ATK", "value": 50}, {"label": "ATK", "value": 50}, {"label": "ATK", "value": 50}],
-    "gear": [{"slot": "Gloves", "name": "Sanguine Silk EX", "stats": [{"label": "ATK", "base": 118, "pct": false}, {"label": "Water ATK", "base": 1000, "pct": true}, {"label": "ACC", "base": 58, "pct": false}, {"label": "Energy Boost", "base": 62, "pct": false}]}, {"slot": "Weapon", "name": "Lifebane Needle EX", "stats": [{"label": "ATK", "base": 118, "pct": false}, {"label": "Water ATK", "base": 1000, "pct": true}, {"label": "Skill Boost", "base": 1000, "pct": true}]}, {"slot": "Shoes", "name": "Rimefrost Treads EX", "stats": [{"label": "ATK", "base": 118, "pct": false}, {"label": "Water ATK", "base": 1000, "pct": true}, {"label": "ATK Speed", "base": 182, "pct": false}, {"label": "Evasion", "base": 58, "pct": false}]}, {"slot": "Accessory", "name": "Protection Knot", "stats": [{"label": "ATK", "base": 77, "pct": false}]}],
-    "model": "cr068",
-    "slug": "leng-zhen",
-    "name": "Leng Zhen",
-    "nameZh": "冷鴆",
-    "title": "Soulless Executioner",
-    "epithet": "Chilled Needles, Flowing Essence",
-    "sex": "Female",
-    "inGacha": true,
-    "icon": null,
-    "sortOrder": 68,
-    "element": {
-      "id": 4,
-      "name": "Water",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/battleelement_4.webp"
-    },
-    "job": {
-      "id": 5,
-      "name": "Breaker",
-      "color": "#9433EA",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/master_4.webp"
-    },
-    "attackType": {
-      "id": 2,
-      "name": "Energy",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Attributes_01.webp"
-    },
-    "skills": [
-      {
-        "id": "150006800",
-        "name": "Severed Breath",
-        "slot": "Basic Attack",
-        "unlockStar": 0,
-        "icon": null,
-        "type": "Instant",
-        "mainStat": "ATK",
-        "gcd": "10s",
-        "desc": "Deal 69% Energy DMG to a Random target.",
-        "detail": null,
-        "cooldown": null,
-        "cost": null,
-        "statuses": []
-      },
-      {
-        "id": "150006810",
-        "name": "Meridian Sever",
-        "slot": "Talent",
-        "unlockStar": 0,
-        "icon": null,
-        "type": "Instant",
-        "mainStat": "ATK",
-        "gcd": null,
-        "desc": "Deal three hits of 105% Energy DMG to a Random target.\nOn hit, increase the team's EN by 2.",
-        "detail": null,
-        "cooldown": "10s",
-        "cost": 1,
-        "statuses": [
-          "EN Gain Up"
-        ],
-        "awakened": {
-          "desc": "Deal three hits of 125% Energy DMG to a Random target.\nOn hit, increase the team's EN by 2.5.",
-          "detail": null
-        }
-      },
-      {
-        "id": "150006820",
-        "name": "Seal Acupoint",
-        "slot": "Auto",
-        "unlockStar": 1,
-        "icon": null,
-        "type": "Instant",
-        "mainStat": "ATK",
-        "gcd": null,
-        "desc": "Deal three hits of 105% Energy DMG to a Random target.\nOn hit, High chance to inflict Freeze M (3s).",
-        "detail": null,
-        "cooldown": "6s",
-        "cost": null,
-        "statuses": [
-          "Frozen"
-        ],
-        "awakened": {
-          "desc": "Deal three hits of 145% Energy DMG to a Random target.\nOn hit, inflict Freeze M (3s).",
-          "detail": null
-        }
-      },
-      {
-        "id": "150006830",
-        "name": "Severed Senses",
-        "slot": "Passive 1",
-        "unlockStar": 4,
-        "icon": null,
-        "type": "Passive",
-        "mainStat": null,
-        "gcd": null,
-        "desc": "This effect can only trigger once every 6 seconds.",
-        "detail": "Having been reduced to a vessel with no sense of self, she is completely cut off from the interference of emotions like fear and hesitation.",
-        "cooldown": null,
-        "cost": null,
-        "statuses": [],
-        "awakened": {
-          "desc": "This effect can only trigger once every 6 seconds.\nGrant all party members Water ATK Up 8.5%.",
-          "detail": null
-        }
-      },
-      {
-        "id": "150006850",
-        "name": "Venomous Edict",
-        "slot": "Passive 2",
-        "unlockStar": 6,
-        "icon": null,
-        "type": "Passive",
-        "mainStat": null,
-        "gcd": null,
-        "desc": "Grant self Skill Damage Up 12.5%.",
-        "detail": "A body whose sense of pain is devoured by venom can push itself to the limit, utterly ignoring the price of torn muscles.",
-        "cooldown": null,
-        "cost": null,
-        "statuses": []
-      },
-      {
-        "id": "150006841",
-        "name": "Burial Order",
-        "slot": "Ultimate",
-        "unlockStar": 2,
-        "icon": null,
-        "type": "Instant",
-        "mainStat": "ATK",
-        "gcd": null,
-        "desc": "Enter the Awakening state, granting self Freeze Hit Rate Up 35% (24s).\nDeal three hits of 300% Energy DMG to a Random target.\nOn hit, inflict Freeze M (3s).",
-        "detail": null,
-        "cooldown": "24s",
-        "cost": 3,
-        "statuses": []
-      }
-    ],
-    "profile": {
-      "title": "Soulless Executioner",
-      "birthday": "12 / 25",
-      "age": "26",
-      "height": "172",
-      "weight": "53",
-      "interest": "Candies, sweet drinks (due to childlike tendencies)",
-      "personality": "1. Extremely slow to respond to external stimuli. 2. Highly attached to and protective of Qingyin.",
-      "resumeParas": [
-        "Formerly an assassin of the Nine Nether Gang, she later defected to the Azure Dragon Triad alongside Qingyin.. Born in Tobia, she was sold to the Nine Nether Gang at a young age to settle her family's debts. After being trained and groomed by the gang, she became an assassin. Having long been partnered with the musician \"Qingyin,\" their shared chemistry and secret affection deepened with every mission they undertook. She secretly plotted to escape the Nine Nether Gang with Qingyin. However, before they could carry out their plan, the gang's higher-ups turned her into a Gu slave, utilizing her as both a sex slave and an assassin.. She was later brought to the Azure Dragon Triad by Qingyin to seek their aid."
-      ]
-    },
-    "stats": {
-      "atkRange": "480",
-      "normalAttackGCD": "10000",
-      "critPer": "1000",
-      "critRstPer": "0",
-      "critAmpPer": "5000",
-      "critDmgRdcPer": "0",
-      "hitPer": "9300",
-      "ddgPer": "0",
-      "blkPer": "2500",
-      "blkPenPer": "0",
-      "blkRdcPer": "2000",
-      "healCritPer": "1000",
-      "healCritAmpPer": "5000",
-      "atkHastePer": "0",
-      "cdHastePer": "0",
-      "manaAmpPer": "0",
-      "hpRcvPer": "1000"
-    }
-  },
-  {
-    "id": "133007000",
-    "tierStats": [
-      {"tier": 1, "hp": 3928, "atk": 252},
-      {"tier": 2, "hp": 5875, "atk": 375},
-      {"tier": 3, "hp": 11788, "atk": 756},
-      {"tier": 4, "hp": 17663, "atk": 1131},
-      {"tier": 5, "hp": 23578, "atk": 1512},
-      {"tier": 6, "hp": 31438, "atk": 2016},
-      {"tier": 7, "hp": 39299, "atk": 2520},
-      {"tier": 8, "hp": 47158, "atk": 3024},
-      {"tier": 9, "hp": 56589, "atk": 3627},
-      {"tier": 10, "hp": 67930, "atk": 4356}
-    ],
-    "growth": {"rate": 2, "hp": [53.38, 106.76, 266.91, 427.05, 587.2, 747.34], "atk": [2.4, 4.8, 12, 19.2, 26.4, 33.6]},
-    "affection": [{"label": "ATK", "value": 50}, {"label": "ATK", "value": 50}, {"label": "ATK", "value": 50}, {"label": "ATK", "value": 50}, {"label": "ATK", "value": 50}, {"label": "ATK", "value": 50}, {"label": "ATK", "value": 50}, {"label": "ATK", "value": 50}, {"label": "ATK", "value": 50}, {"label": "ATK", "value": 50}],
-    "gear": [{"slot": "Gloves", "name": "Tattoo Stickers EX", "stats": [{"label": "ATK", "base": 88, "pct": false}, {"label": "Fire ATK", "base": 1200, "pct": true}, {"label": "ACC", "base": 42, "pct": false}, {"label": "Judgment Hit Rate", "base": 1500, "pct": true}]}, {"slot": "Weapon", "name": "Father's Old Pistol EX", "stats": [{"label": "ATK", "base": 88, "pct": false}, {"label": "Fire ATK", "base": 1200, "pct": true}, {"label": "Crit", "base": 50, "pct": false}, {"label": "Block PEN", "base": 50, "pct": false}]}, {"slot": "Shoes", "name": "Premium Custom Women's Shoes EX", "stats": [{"label": "ATK", "base": 88, "pct": false}, {"label": "Fire ATK", "base": 1200, "pct": true}, {"label": "ATK Speed", "base": 50, "pct": false}, {"label": "Crit Evasion", "base": 50, "pct": false}]}, {"slot": "Accessory", "name": "Elena's Chosen Perfume", "stats": [{"label": "ATK", "base": 77, "pct": false}]}],
-    "model": "cr070",
-    "slug": "elena",
-    "name": "Elena",
-    "nameZh": "伊蓮娜",
-    "title": "Rebellious Red Thorn",
-    "epithet": "Alluring Beauty, Rose Onslaught",
-    "sex": "Female",
-    "inGacha": true,
-    "icon": null,
-    "sortOrder": 70,
-    "element": {
-      "id": 1,
-      "name": "Fire",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/battleelement_1.webp"
-    },
-    "job": {
-      "id": 4,
-      "name": "Support",
-      "color": "#33EA62",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/priest_1.webp"
-    },
-    "attackType": {
-      "id": 2,
-      "name": "Energy",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Attributes_01.webp"
-    },
-    "skills": [
-      {
-        "id": "150007000",
-        "name": "Agitated Notes",
-        "slot": "Basic Attack",
-        "unlockStar": 0,
-        "icon": null,
-        "type": "Instant",
-        "mainStat": "ATK",
-        "gcd": "10s",
-        "desc": "Deal two hits of 100% Physical DMG to a target.",
-        "detail": null,
-        "cooldown": null,
-        "cost": null,
-        "statuses": []
-      },
-      {
-        "id": "150007010",
-        "name": "Total Detonation",
-        "slot": "Talent",
-        "unlockStar": 0,
-        "icon": null,
-        "type": "Instant",
-        "mainStat": "ATK",
-        "gcd": null,
-        "desc": "Deal five hits of 100% Energy DMG to up to 3 targets within the forward area.\nOn hit, inflict Burn M (0s).",
-        "detail": null,
-        "cooldown": "10s",
-        "cost": 1,
-        "statuses": [
-          "Burn"
-        ],
-        "awakened": {
-          "desc": "Deal five hits of 170% Energy DMG to up to 3 targets within the forward area.\nOn hit, inflict Burn M (0s).",
-          "detail": null
-        }
-      },
-      {
-        "id": "150007020",
-        "name": "Opening Act",
-        "slot": "Auto",
-        "unlockStar": 1,
-        "icon": null,
-        "type": "Instant",
-        "mainStat": null,
-        "gcd": null,
-        "desc": "Grant self Block Penetration Up 20% (12s).\nGrant self Skill Damage Up 12% (12s).\nGrant self EN Gain Up 40% (12s).",
-        "detail": null,
-        "cooldown": "6s",
-        "cost": null,
-        "statuses": [
-          "Crit Evasion Up",
-          "Skill Damage Up",
-          "ATK SPD Up"
-        ],
-        "awakened": {
-          "desc": "Grant self Block Penetration Up 24% (12s).\nGrant self Skill Damage Up 18% (12s).\nGrant self EN Gain Up 60% (12s).",
-          "detail": null
-        }
-      },
-      {
-        "id": "150007030",
-        "name": "I'm Telling My Mom!",
-        "slot": "Passive 1",
-        "unlockStar": 4,
-        "icon": null,
-        "type": "Passive",
-        "mainStat": null,
-        "gcd": null,
-        "desc": "On hit, if the target is Burning, grant self Fire ATK Up 6% (12s).",
-        "detail": "With her mother backing her up, no matter what Elena does, she knows she'll be forgiven~",
-        "cooldown": null,
-        "cost": null,
-        "statuses": [],
-        "awakened": {
-          "desc": "On hit, if the target is Burning, grant self Fire ATK Up 7% (12s).\nGrant all party members Crit DMG Up 12%.",
-          "detail": null
-        }
-      },
-      {
-        "id": "150007050",
-        "name": "Supreme Revelry",
-        "slot": "Passive 2",
-        "unlockStar": 6,
-        "icon": null,
-        "type": "Passive",
-        "mainStat": null,
-        "gcd": null,
-        "desc": "Grant self Energy DMG Up 10%.",
-        "detail": null,
-        "cooldown": null,
-        "cost": null,
-        "statuses": [],
-        "awakened": {
-          "desc": "Grant all party members Energy DMG Up 10%.\nIn PVP mode, grant self Attack Up 8%.",
-          "detail": null
-        }
-      },
-      {
-        "id": "150007041",
-        "name": "Scarlet Thorn Frenzy",
-        "slot": "Ultimate",
-        "unlockStar": 2,
-        "icon": null,
-        "type": "Instant",
-        "mainStat": "ATK",
-        "gcd": null,
-        "desc": "Enter the Awakening state, granting self Energy DMG Up 10% (24s).\nDeal eighteen hits of 250% Energy DMG to all targets.\nOn hit, inflict Burn L (12s).\nOn final hit, inflict Healing Crit Bonus Down 18% (12s) on the target.",
-        "detail": null,
-        "cooldown": "24s",
-        "cost": 3,
-        "statuses": []
-      }
-    ],
-    "profile": {
-      "title": "Rebellious Red Thorn",
-      "birthday": "12 / 12",
-      "age": "20",
-      "height": "165",
-      "weight": "48",
-      "interest": "Attending music festivals, partying, attending the opera",
-      "personality": "Outgoing, lively, cocky, passionate, and rebellious.",
-      "resumeParas": [
-        "She grew up within the Rosian Brotherhood. Because of her parents' status and influence, no one dared to take advantage of her. Instead, people would go out of their way to curry favor with her in hopes of earning a promotion. She takes full advantage of this, ordering members of the organization around as long as it doesn't tarnish her mother's reputation. Because she grew up in an environment rife with deceit and treachery, her intuition about people is remarkably accurate. She also doesn't mind being used by others, as she seeks to extract benefits from them in return. Her mother intends for her to inherit her current position and has specifically arranged private tutors for her education. However, she frequently skips classes, causing constant worry for both her teachers and her mother. She shares her mother's love for opera but, out of sheer rebellion, pretends to hate it. Instead, she frequently attends music festivals that her mother deems unsophisticated."
-      ]
-    },
-    "stats": {
-      "atkRange": "600",
-      "normalAttackGCD": "10000",
-      "critPer": "1000",
-      "critRstPer": "0",
-      "critAmpPer": "5000",
-      "critDmgRdcPer": "0",
-      "hitPer": "8000",
-      "ddgPer": "0",
-      "blkPer": "2500",
-      "blkPenPer": "0",
-      "blkRdcPer": "2000",
-      "healCritPer": "1000",
-      "healCritAmpPer": "5000",
-      "atkHastePer": "0",
-      "cdHastePer": "2500",
-      "manaAmpPer": "0",
-      "hpRcvPer": "1000"
-    }
-  },
-  {
-    "id": "133007100",
-    "tierStats": [
-      {"tier": 1, "hp": 5613, "atk": 315},
-      {"tier": 2, "hp": 8393, "atk": 471},
-      {"tier": 3, "hp": 16841, "atk": 945},
-      {"tier": 4, "hp": 25236, "atk": 1416},
-      {"tier": 5, "hp": 33684, "atk": 1890},
-      {"tier": 6, "hp": 44912, "atk": 2520},
-      {"tier": 7, "hp": 56142, "atk": 3150},
-      {"tier": 8, "hp": 67370, "atk": 3780},
-      {"tier": 9, "hp": 80844, "atk": 4536},
-      {"tier": 10, "hp": 97044, "atk": 5445}
-    ],
-    "growth": {"rate": 1.5, "hp": [76.26, 152.52, 381.3, 610.08, 838.86, 1067.64], "atk": [3, 6, 15, 24, 33, 42]},
-    "affection": [{"label": "ATK", "value": 50}, {"label": "ATK", "value": 50}, {"label": "ATK", "value": 50}, {"label": "ATK", "value": 50}, {"label": "ATK", "value": 50}, {"label": "ATK", "value": 50}, {"label": "ATK", "value": 100}, {"label": "ATK", "value": 100}, {"label": "ATK", "value": 100}, {"label": "ATK", "value": 200}],
-    "gear": [{"slot": "Gloves", "name": "Neutral Nail Polish EX", "stats": [{"label": "ATK", "base": 100, "pct": false}, {"label": "Earth ATK", "base": 1200, "pct": true}, {"label": "ACC", "base": 42, "pct": false}, {"label": "Judgment Hit Rate", "base": 1500, "pct": true}]}, {"slot": "Weapon", "name": "Bloodbound Oath EX", "stats": [{"label": "ATK", "base": 100, "pct": false}, {"label": "Earth ATK", "base": 1200, "pct": true}, {"label": "Crit", "base": 50, "pct": false}, {"label": "Block PEN", "base": 50, "pct": false}]}, {"slot": "Shoes", "name": "Designer Custom Heels EX", "stats": [{"label": "ATK", "base": 100, "pct": false}, {"label": "Earth ATK", "base": 1200, "pct": true}, {"label": "ATK Speed", "base": 50, "pct": false}, {"label": "Crit Evasion", "base": 50, "pct": false}]}, {"slot": "Accessory", "name": "Black Hair Dye", "stats": [{"label": "ATK", "base": 77, "pct": false}]}],
-    "model": "cr071",
-    "slug": "victoria",
-    "name": "Victoria",
-    "nameZh": "維多莉亞",
-    "title": "Machiavellian Witch",
-    "epithet": "Nightmare Mirage, Stonebound Seal",
-    "sex": "Female",
-    "inGacha": true,
-    "icon": null,
-    "sortOrder": 71,
-    "element": {
-      "id": 2,
-      "name": "Earth",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/battleelement_2.webp"
-    },
-    "job": {
-      "id": 2,
-      "name": "Striker",
-      "color": "#EA3333",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/fighters_2.webp"
-    },
-    "attackType": {
-      "id": 2,
-      "name": "Energy",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Attributes_01.webp"
-    },
-    "skills": [
-      {
-        "id": "150007100",
-        "name": "Elegant Assassination",
-        "slot": "Basic Attack",
-        "unlockStar": 0,
-        "icon": null,
-        "type": "Instant",
-        "mainStat": "ATK",
-        "gcd": "10s",
-        "desc": "Deal two hits of 83% Physical DMG to a target.",
-        "detail": null,
-        "cooldown": null,
-        "cost": null,
-        "statuses": []
-      },
-      {
-        "id": "150007110",
-        "name": "Witch's Elegy",
-        "slot": "Talent",
-        "unlockStar": 0,
-        "icon": null,
-        "type": "Instant",
-        "mainStat": "ATK",
-        "gcd": null,
-        "desc": "Deal 300% Physical DMG to a target.\nOn final hit, inflict Petrify M (4s).",
-        "detail": null,
-        "cooldown": "10s",
-        "cost": 1,
-        "statuses": [
-          "Petrify"
-        ],
-        "awakened": {
-          "desc": "Deal 420% Physical DMG to a target.\nOn final hit, inflict Petrify M (4s).\nOn final hit, inflict Block Down 15% (8s) on the target.",
-          "detail": null
-        }
-      },
-      {
-        "id": "150007120",
-        "name": "Witch's Blessing",
-        "slot": "Auto",
-        "unlockStar": 1,
-        "icon": null,
-        "type": "Instant",
-        "mainStat": null,
-        "gcd": null,
-        "desc": "Grant 2 highest ATK party members Crit DMG Up 40% (8s).",
-        "detail": null,
-        "cooldown": "6s",
-        "cost": null,
-        "statuses": [
-          "Crit DMG Up"
-        ],
-        "awakened": {
-          "desc": "Grant 2 highest ATK party members Crit DMG Up 45% (10s).",
-          "detail": null
-        }
-      },
-      {
-        "id": "150007130",
-        "name": "Witch's Curse",
-        "slot": "Passive 1",
-        "unlockStar": 4,
-        "icon": null,
-        "type": "Passive",
-        "mainStat": null,
-        "gcd": null,
-        "desc": "On hit, if the target is Petrified or Block Down, inflict Healing Received Down 22% (6s).\nThis effect can only trigger once every 6 seconds.",
-        "detail": "A rumor circulates within the Rosian Brotherhood, anyone who sees the witch's true identity will die a violent death.",
-        "cooldown": null,
-        "cost": null,
-        "statuses": [],
-        "awakened": {
-          "desc": "On hit, if the target is Petrified or Block Down, inflict Healing Received Down 22% (6s).\nThis effect can only trigger once every 6 seconds.\nGrant all party members Block Penetration Up 6.5%.",
-          "detail": null
-        }
-      },
-      {
-        "id": "150007150",
-        "name": "Might is Supreme",
-        "slot": "Passive 2",
-        "unlockStar": 6,
-        "icon": null,
-        "type": "Passive",
-        "mainStat": null,
-        "gcd": null,
-        "desc": "Grant self Earth ATK Up 8.5%.",
-        "detail": "In Rosian, power and strength are everything.",
-        "cooldown": null,
-        "cost": null,
-        "statuses": [],
-        "awakened": {
-          "desc": "Grant all party members Earth ATK Up 8.5%.\nIn PVP mode, grant self ATK SPD Up 13%.",
-          "detail": null
-        }
-      },
-      {
-        "id": "150007141",
-        "name": "Phantom Assault",
-        "slot": "Ultimate",
-        "unlockStar": 2,
-        "icon": null,
-        "type": "Instant",
-        "mainStat": "ATK",
-        "gcd": null,
-        "desc": "Enter the Awakening state, granting self EN Gain Up 45% (24s).\nDeal eight hits of 53% Energy DMG to up to 3 targets within the forward area.\nOn final hit, inflict Crit Evasion Down 15% (12s) on the target.",
-        "detail": null,
-        "cooldown": "24s",
-        "cost": 3,
-        "statuses": []
-      }
-    ],
-    "profile": {
-      "title": "Machiavellian Witch",
-      "birthday": "11 / 11",
-      "age": "37",
-      "height": "168",
-      "weight": "64",
-      "interest": "Wine tasting, visiting art galleries, attending the opera",
-      "personality": "Calm, distant.",
-      "resumeParas": [
-        "At 18, she married a former executive of the Rosian Brotherhood and gave birth to Elena; shortly after, her husband perished in a power struggle. For her daughter's future, she decided to succeed her late husband's position within the organization. With Nikola's aid, she successfully inherited her late husband's authority and status, ultimately rising even higher than he ever did. Her brutal methods earned her the nickname \"The Witch\" among Brotherhood members."
-      ]
-    },
-    "stats": {
-      "atkRange": "180",
-      "normalAttackGCD": "10000",
-      "critPer": "1000",
-      "critRstPer": "0",
-      "critAmpPer": "5000",
-      "critDmgRdcPer": "0",
-      "hitPer": "8500",
-      "ddgPer": "0",
-      "blkPer": "2500",
-      "blkPenPer": "1500",
-      "blkRdcPer": "2000",
-      "healCritPer": "1000",
-      "healCritAmpPer": "5000",
-      "atkHastePer": "0",
-      "cdHastePer": "0",
-      "manaAmpPer": "0",
-      "hpRcvPer": "1000"
-    }
-  },
-  {
-    "id": "133007300",
-    "tierStats": [
-      {"tier": 1, "hp": 3367, "atk": 345},
-      {"tier": 2, "hp": 5034, "atk": 516},
-      {"tier": 3, "hp": 10104, "atk": 1038},
-      {"tier": 4, "hp": 15140, "atk": 1557},
-      {"tier": 5, "hp": 20209, "atk": 2079},
-      {"tier": 6, "hp": 26947, "atk": 2772},
-      {"tier": 7, "hp": 33684, "atk": 3465},
-      {"tier": 8, "hp": 40421, "atk": 4158},
-      {"tier": 9, "hp": 48505, "atk": 4989},
-      {"tier": 10, "hp": 58226, "atk": 5988}
-    ],
-    "growth": {"rate": 2.25, "hp": [45.75, 91.51, 228.78, 366.04, 503.31, 640.58], "atk": [3.3, 6.6, 16.5, 26.4, 36.3, 46.2]},
-    "affection": [{"label": "Crit DMG %", "value": 100}, {"label": "Crit DMG %", "value": 100}, {"label": "Crit DMG %", "value": 100}, {"label": "Crit DMG %", "value": 100}, {"label": "Crit DMG %", "value": 100}, {"label": "Crit DMG %", "value": 200}, {"label": "Crit DMG %", "value": 200}, {"label": "Crit DMG %", "value": 300}, {"label": "Crit DMG %", "value": 300}, {"label": "Crit DMG %", "value": 500}],
-    "gear": [{"slot": "Gloves", "name": "Nightshade Lace Gloves EX", "stats": [{"label": "ATK", "base": 118, "pct": false}, {"label": "Dark ATK", "base": 1000, "pct": true}, {"label": "Physical Boost", "base": 62, "pct": false}, {"label": "ATK Speed", "base": 163, "pct": false}]}, {"slot": "Weapon", "name": "MX9 Suppressed Submachine Gun EX", "stats": [{"label": "ATK", "base": 118, "pct": false}, {"label": "Dark ATK", "base": 1000, "pct": true}, {"label": "Crit", "base": 97, "pct": false}, {"label": "Crit DMG", "base": 217, "pct": false}]}, {"slot": "Shoes", "name": "Black Moon Boots EX", "stats": [{"label": "ATK", "base": 118, "pct": false}, {"label": "Dark ATK", "base": 1000, "pct": true}, {"label": "ATK Speed", "base": 182, "pct": false}, {"label": "Evasion", "base": 58, "pct": false}]}, {"slot": "Accessory", "name": "Obsidian Necklace", "stats": [{"label": "Block PEN", "base": 800, "pct": true}, {"label": "Judgment RES", "base": 1500, "pct": true}]}],
-    "model": "cr073",
-    "slug": "connie",
-    "name": "Connie",
-    "nameZh": "昆妮",
-    "title": "Flawless Goddess",
-    "epithet": "Splendid Execution, Feverish Applause",
-    "sex": "Female",
-    "inGacha": true,
-    "icon": null,
-    "sortOrder": 73,
-    "element": {
-      "id": 6,
-      "name": "Dark",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/battleelement_6.webp"
-    },
-    "job": {
-      "id": 5,
-      "name": "Breaker",
-      "color": "#9433EA",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/master_6.webp"
-    },
-    "attackType": {
-      "id": 1,
-      "name": "Physical",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Attributes_02.webp"
-    },
-    "skills": [
-      {
-        "id": "150007300",
-        "name": "Pinpoint Volley",
-        "slot": "Basic Attack",
-        "unlockStar": 0,
-        "icon": null,
-        "type": "Instant",
-        "mainStat": "ATK",
-        "gcd": "10s",
-        "desc": "Deal three hits of 26% Physical DMG to a lowest HP target.",
-        "detail": null,
-        "cooldown": null,
-        "cost": null,
-        "statuses": []
-      },
-      {
-        "id": "150007310",
-        "name": "Phantom Skyrend",
-        "slot": "Talent",
-        "unlockStar": 0,
-        "icon": null,
-        "type": "Instant",
-        "mainStat": "ATK",
-        "gcd": null,
-        "desc": "Deal five hits of 32% Physical DMG to two lowest HP targets.\nOn the first hit, inflict Light ATK Down 15% (10s) on the target.\nOn the first hit, inflict Evasion Down 10% (10s) on the target.",
-        "detail": null,
-        "cooldown": "10s",
-        "cost": 1,
-        "statuses": [
-          "Light ATK Down",
-          "Evasion Down"
-        ],
-        "awakened": {
-          "desc": "Deal five hits of 54% Physical DMG to two lowest HP targets.\nOn the first hit, inflict Light ATK Down 15% (10s) on the target.\nOn the first hit, inflict Evasion Down 10% (10s) on the target.",
-          "detail": null
-        }
-      },
-      {
-        "id": "150007320",
-        "name": "Serene Starfall",
-        "slot": "Auto",
-        "unlockStar": 1,
-        "icon": null,
-        "type": "Instant",
-        "mainStat": "ATK",
-        "gcd": null,
-        "desc": "Deal five hits of 18% Physical DMG to a lowest HP target.\nOn final hit, inflict Healing Down 20% (10s) on the target.\nOn final hit, inflict Healing Received Down 20% (10s) on the target.",
-        "detail": null,
-        "cooldown": "6s",
-        "cost": null,
-        "statuses": [
-          "Healing Down",
-          "Healing Received Down"
-        ],
-        "awakened": {
-          "desc": "Deal five hits of 30% Physical DMG to a lowest HP target.\nOn final hit, inflict Healing Down 25% (10s) on the target.\nOn final hit, inflict Healing Received Down 25% (10s) on the target.",
-          "detail": null
-        }
-      },
-      {
-        "id": "150007330",
-        "name": "Perfectionism",
-        "slot": "Passive 1",
-        "unlockStar": 4,
-        "icon": null,
-        "type": "Passive",
-        "mainStat": null,
-        "gcd": null,
-        "desc": "On kill, grant all Dark Type party members Physical DMG Up 15% (12s).\nThis effect can stack up to 2 times.",
-        "detail": "Queenie is strict with herself, demanding perfection in every detail of her performances.",
-        "cooldown": null,
-        "cost": null,
-        "statuses": [],
-        "awakened": {
-          "desc": "On kill, grant all Dark Type party members Physical DMG Up 15% (12s).\nThis effect can stack up to 2 times.\nGrant all party members Evasion UP 6.5%.",
-          "detail": null
-        }
-      },
-      {
-        "id": "150007350",
-        "name": "Absolute Enthrallment",
-        "slot": "Passive 2",
-        "unlockStar": 6,
-        "icon": null,
-        "type": "Passive",
-        "mainStat": null,
-        "gcd": null,
-        "desc": "Grant self ATK SPD Up 23%.",
-        "detail": "With just a glance and a smile, Connie can make anyone willingly become her most devoted fan.",
-        "cooldown": null,
-        "cost": null,
-        "statuses": [],
-        "awakened": {
-          "desc": "Grant all party members ATK SPD Up 23%.\nIn PVP mode, grant self Crit Chance Up 13%.",
-          "detail": null
-        }
-      },
-      {
-        "id": "150007341",
-        "name": "Phantom Stage",
-        "slot": "Ultimate",
-        "unlockStar": 2,
-        "icon": null,
-        "type": "Instant",
-        "mainStat": "ATK",
-        "gcd": null,
-        "desc": "Enter the Awakening state, granting self Attack Up 17% (24s).\nDeal six hits of 85% Physical DMG to two lowest HP targets.\nOn final hit, if the target has the Ebon status, trigger an Abyss L Pursuit.",
-        "detail": null,
-        "cooldown": "24s",
-        "cost": 3,
-        "statuses": []
-      }
-    ],
-    "profile": {
-      "title": "Flawless Goddess",
-      "birthday": "10 / 24",
-      "age": "28",
-      "height": "172",
-      "weight": "43",
-      "interest": "Observing humanity",
-      "personality": "A meticulous and shrewd woman. Outward: Elegant, beautiful, and perfect. Inner: Scheming, ruthless, cunning, highly resilient, dominant.",
-      "resumeParas": [
-        "Tobia's idol of the people, boasting a near-perfect public image. Long before HL Entertainment was established, she was already a renowned influencer. Her decision to join the agency as its founding pillar was what put HL Entertainment on the map as a leading talent agency. In the public eye, she is refined, worldly, warm, and approachable. In reality, she isn't above complaining about her workload, though she only reveals this willful side to her manager or those she deeply trusts."
-      ]
-    },
-    "stats": {
-      "atkRange": "480",
-      "normalAttackGCD": "10000",
-      "critPer": "1000",
-      "critRstPer": "0",
-      "critAmpPer": "5000",
-      "critDmgRdcPer": "0",
-      "hitPer": "9300",
-      "ddgPer": "0",
-      "blkPer": "2500",
-      "blkPenPer": "0",
-      "blkRdcPer": "2000",
-      "healCritPer": "1000",
-      "healCritAmpPer": "5000",
-      "atkHastePer": "0",
-      "cdHastePer": "0",
-      "manaAmpPer": "0",
-      "hpRcvPer": "1000"
-    }
-  },
+  
+  
+  
+  
+  
   {
     "id": "133007400",
     "tierStats": [

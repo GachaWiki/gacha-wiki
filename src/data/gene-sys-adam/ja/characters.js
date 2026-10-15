@@ -441,7 +441,7 @@ export const gsaCharactersJa = [
         "slot": "通常攻撃",
         "slotEn": "Basic Attack",
         "unlockStar": 0,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr032_1.webp",
         "type": "瞬発",
         "mainStat": null,
         "gcd": "10s",
@@ -475,7 +475,7 @@ export const gsaCharactersJa = [
         "slot": "自動",
         "slotEn": "Auto",
         "unlockStar": 1,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr032_3.webp",
         "type": "瞬発",
         "mainStat": null,
         "gcd": null,
@@ -491,7 +491,7 @@ export const gsaCharactersJa = [
         "slot": "常時 1",
         "slotEn": "Passive 1",
         "unlockStar": 4,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr032_5.webp",
         "type": "常時",
         "mainStat": null,
         "gcd": null,
@@ -511,7 +511,7 @@ export const gsaCharactersJa = [
         "slot": "常時 2",
         "slotEn": "Passive 2",
         "unlockStar": 6,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr032_6.webp",
         "type": "常時",
         "mainStat": null,
         "gcd": null,
@@ -531,7 +531,7 @@ export const gsaCharactersJa = [
         "slot": "奥義",
         "slotEn": "Ultimate",
         "unlockStar": 2,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr032_4.webp",
         "type": "瞬発",
         "mainStat": null,
         "gcd": null,
@@ -724,7 +724,7 @@ export const gsaCharactersJa = [
         "slot": "通常攻撃",
         "slotEn": "Basic Attack",
         "unlockStar": 0,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr033_1.webp",
         "type": "瞬発",
         "mainStat": null,
         "gcd": "18s",
@@ -758,7 +758,7 @@ export const gsaCharactersJa = [
         "slot": "自動",
         "slotEn": "Auto",
         "unlockStar": 1,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr033_3.webp",
         "type": "瞬発",
         "mainStat": null,
         "gcd": null,
@@ -777,7 +777,7 @@ export const gsaCharactersJa = [
         "slot": "常時 1",
         "slotEn": "Passive 1",
         "unlockStar": 4,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr033_5.webp",
         "type": "常時",
         "mainStat": null,
         "gcd": null,
@@ -799,7 +799,7 @@ export const gsaCharactersJa = [
         "slot": "常時 2",
         "slotEn": "Passive 2",
         "unlockStar": 6,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr033_6.webp",
         "type": "常時",
         "mainStat": null,
         "gcd": null,
@@ -819,7 +819,7 @@ export const gsaCharactersJa = [
         "slot": "奥義",
         "slotEn": "Ultimate",
         "unlockStar": 2,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr033_4.webp",
         "type": "瞬発",
         "mainStat": null,
         "gcd": null,
@@ -1353,7 +1353,7 @@ export const gsaCharactersJa = [
         "slot": "常時 1",
         "slotEn": "Passive 1",
         "unlockStar": 4,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr035_5.webp",
         "type": "常時",
         "mainStat": null,
         "gcd": null,
@@ -1373,7 +1373,7 @@ export const gsaCharactersJa = [
         "slot": "常時 2",
         "slotEn": "Passive 2",
         "unlockStar": 6,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr035_6.webp",
         "type": "常時",
         "mainStat": null,
         "gcd": null,
@@ -4355,7 +4355,7 @@ export const gsaCharactersJa = [
         "slot": "通常攻撃",
         "slotEn": "Basic Attack",
         "unlockStar": 0,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr044_1.webp",
         "type": "瞬発",
         "mainStat": null,
         "gcd": "10s",
@@ -4371,7 +4371,7 @@ export const gsaCharactersJa = [
         "slot": "天賦",
         "slotEn": "Talent",
         "unlockStar": 0,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr044_2.webp",
         "type": "瞬発",
         "mainStat": null,
         "gcd": null,
@@ -4394,7 +4394,7 @@ export const gsaCharactersJa = [
         "slot": "自動",
         "slotEn": "Auto",
         "unlockStar": 1,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr044_3.webp",
         "type": "瞬発",
         "mainStat": null,
         "gcd": null,
@@ -4416,7 +4416,7 @@ export const gsaCharactersJa = [
         "slot": "常時 1",
         "slotEn": "Passive 1",
         "unlockStar": 4,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr044_5.webp",
         "type": "常時",
         "mainStat": null,
         "gcd": null,
@@ -4436,7 +4436,7 @@ export const gsaCharactersJa = [
         "slot": "常時 2",
         "slotEn": "Passive 2",
         "unlockStar": 6,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr044_6.webp",
         "type": "常時",
         "mainStat": null,
         "gcd": null,
@@ -4456,7 +4456,7 @@ export const gsaCharactersJa = [
         "slot": "奥義",
         "slotEn": "Ultimate",
         "unlockStar": 2,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr044_4.webp",
         "type": "瞬発",
         "mainStat": null,
         "gcd": null,
@@ -7054,7 +7054,7 @@ export const gsaCharactersJa = [
         "slot": "天賦",
         "slotEn": "Talent",
         "unlockStar": 0,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr051_2.webp",
         "type": "瞬発",
         "mainStat": null,
         "gcd": null,
@@ -7076,7 +7076,7 @@ export const gsaCharactersJa = [
         "slot": "自動",
         "slotEn": "Auto",
         "unlockStar": 1,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr051_3.webp",
         "type": "瞬発",
         "mainStat": null,
         "gcd": null,
@@ -8193,7 +8193,7 @@ export const gsaCharactersJa = [
         "slot": "通常攻撃",
         "slotEn": "Basic Attack",
         "unlockStar": 0,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr055_1.webp",
         "type": "瞬発",
         "mainStat": null,
         "gcd": "9s",
@@ -8209,7 +8209,7 @@ export const gsaCharactersJa = [
         "slot": "天賦",
         "slotEn": "Talent",
         "unlockStar": 0,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr055_2.webp",
         "type": "瞬発",
         "mainStat": null,
         "gcd": null,
@@ -8232,7 +8232,7 @@ export const gsaCharactersJa = [
         "slot": "自動",
         "slotEn": "Auto",
         "unlockStar": 1,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr055_3.webp",
         "type": "瞬発",
         "mainStat": null,
         "gcd": null,
@@ -8254,7 +8254,7 @@ export const gsaCharactersJa = [
         "slot": "常時 1",
         "slotEn": "Passive 1",
         "unlockStar": 4,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr055_5.webp",
         "type": "常時",
         "mainStat": null,
         "gcd": null,
@@ -8274,7 +8274,7 @@ export const gsaCharactersJa = [
         "slot": "常時 2",
         "slotEn": "Passive 2",
         "unlockStar": 6,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr055_6.webp",
         "type": "常時",
         "mainStat": null,
         "gcd": null,
@@ -8294,7 +8294,7 @@ export const gsaCharactersJa = [
         "slot": "奥義",
         "slotEn": "Ultimate",
         "unlockStar": 2,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr055_4.webp",
         "type": "瞬発",
         "mainStat": null,
         "gcd": null,
@@ -9352,7 +9352,7 @@ export const gsaCharactersJa = [
         "slot": "通常攻撃",
         "slotEn": "Basic Attack",
         "unlockStar": 0,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr058_1.webp",
         "type": "瞬発",
         "mainStat": null,
         "gcd": "10s",
@@ -9368,7 +9368,7 @@ export const gsaCharactersJa = [
         "slot": "天賦",
         "slotEn": "Talent",
         "unlockStar": 0,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr058_2.webp",
         "type": "瞬発",
         "mainStat": null,
         "gcd": null,
@@ -9390,7 +9390,7 @@ export const gsaCharactersJa = [
         "slot": "自動",
         "slotEn": "Auto",
         "unlockStar": 1,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr058_3.webp",
         "type": "瞬発",
         "mainStat": null,
         "gcd": null,
@@ -9412,7 +9412,7 @@ export const gsaCharactersJa = [
         "slot": "常時 1",
         "slotEn": "Passive 1",
         "unlockStar": 4,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr058_5.webp",
         "type": "常時",
         "mainStat": null,
         "gcd": null,
@@ -9432,7 +9432,7 @@ export const gsaCharactersJa = [
         "slot": "常時 2",
         "slotEn": "Passive 2",
         "unlockStar": 6,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr058_6.webp",
         "type": "常時",
         "mainStat": null,
         "gcd": null,
@@ -9452,7 +9452,7 @@ export const gsaCharactersJa = [
         "slot": "奥義",
         "slotEn": "Ultimate",
         "unlockStar": 2,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr058_4.webp",
         "type": "瞬発",
         "mainStat": null,
         "gcd": null,
@@ -9841,393 +9841,7 @@ export const gsaCharactersJa = [
       "hpRcvPer": "1000"
     }
   },
-  {
-    "id": "133006000",
-    "tierStats": [
-      {
-        "tier": 1,
-        "hp": 8533,
-        "atk": 156
-      },
-      {
-        "tier": 2,
-        "hp": 12759,
-        "atk": 230
-      },
-      {
-        "tier": 3,
-        "hp": 25600,
-        "atk": 468
-      },
-      {
-        "tier": 4,
-        "hp": 38360,
-        "atk": 699
-      },
-      {
-        "tier": 5,
-        "hp": 51201,
-        "atk": 937
-      },
-      {
-        "tier": 6,
-        "hp": 68268,
-        "atk": 1249
-      },
-      {
-        "tier": 7,
-        "hp": 85336,
-        "atk": 1562
-      },
-      {
-        "tier": 8,
-        "hp": 102403,
-        "atk": 1874
-      },
-      {
-        "tier": 9,
-        "hp": 122883,
-        "atk": 2246
-      },
-      {
-        "tier": 10,
-        "hp": 147509,
-        "atk": 2700
-      }
-    ],
-    "growth": {
-      "rate": 1.5,
-      "hp": [
-        115.91,
-        231.83,
-        579.57,
-        927.32,
-        1275.06,
-        1622.81
-      ],
-      "atk": [
-        1.48,
-        2.97,
-        7.44,
-        11.9,
-        16.36,
-        20.83
-      ]
-    },
-    "affection": [
-      {
-        "label": "風属性耐性%",
-        "value": 50
-      },
-      {
-        "label": "風属性耐性%",
-        "value": 50
-      },
-      {
-        "label": "風属性耐性%",
-        "value": 50
-      },
-      {
-        "label": "風属性耐性%",
-        "value": 50
-      },
-      {
-        "label": "風属性耐性%",
-        "value": 50
-      },
-      {
-        "label": "風属性耐性%",
-        "value": 50
-      },
-      {
-        "label": "風属性耐性%",
-        "value": 100
-      },
-      {
-        "label": "風属性耐性%",
-        "value": 100
-      },
-      {
-        "label": "風属性耐性%",
-        "value": 100
-      },
-      {
-        "label": "風属性耐性%",
-        "value": 200
-      }
-    ],
-    "gear": [
-      {
-        "slot": "両手",
-        "name": "糸纏いの手袋 EX",
-        "stats": [
-          {
-            "label": "攻撃力",
-            "base": 44,
-            "pct": false
-          },
-          {
-            "label": "火屬性攻擊",
-            "base": 1000,
-            "pct": true
-          },
-          {
-            "label": "攻撃速度",
-            "base": 182,
-            "pct": false
-          },
-          {
-            "label": "命中",
-            "base": 58,
-            "pct": false
-          }
-        ]
-      },
-      {
-        "slot": "武器",
-        "name": "炎異能のアームカバー EX",
-        "stats": [
-          {
-            "label": "攻撃力",
-            "base": 44,
-            "pct": false
-          },
-          {
-            "label": "火屬性攻擊",
-            "base": 1000,
-            "pct": true
-          },
-          {
-            "label": "ブロック",
-            "base": 107,
-            "pct": false
-          },
-          {
-            "label": "ブロック軽減",
-            "base": 96,
-            "pct": false
-          }
-        ]
-      },
-      {
-        "slot": "足部",
-        "name": "糸纏いの靴 EX",
-        "stats": [
-          {
-            "label": "攻撃力",
-            "base": 44,
-            "pct": false
-          },
-          {
-            "label": "火屬性攻擊",
-            "base": 1000,
-            "pct": true
-          },
-          {
-            "label": "被治療効果アップ",
-            "base": 188,
-            "pct": false
-          },
-          {
-            "label": "会心回避",
-            "base": 80,
-            "pct": false
-          }
-        ]
-      },
-      {
-        "slot": "アクセサリー",
-        "name": "思念の数珠",
-        "stats": [
-          {
-            "label": "攻撃力",
-            "base": 77,
-            "pct": false
-          }
-        ]
-      }
-    ],
-    "model": "cr060",
-    "slug": "danxin",
-    "name": "タンシン",
-    "nameEn": "Danxin",
-    "title": "二代目青龍",
-    "epithet": "純粋なる炎、巧みな受け流し",
-    "sex": "男性",
-    "inGacha": false,
-    "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/cr060_Icon_Texture.webp",
-    "sortOrder": 60,
-    "element": {
-      "id": 1,
-      "name": "火",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/battleelement_1.webp"
-    },
-    "job": {
-      "id": 1,
-      "name": "プロテクト",
-      "color": "#957C7A",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/guard_1.webp"
-    },
-    "attackType": {
-      "id": 1,
-      "name": "物理",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Attributes_02.webp"
-    },
-    "skills": [
-      {
-        "id": "150006000",
-        "name": "糸の鞭",
-        "slot": "通常攻撃",
-        "slotEn": "Basic Attack",
-        "unlockStar": 0,
-        "icon": null,
-        "type": "瞬発",
-        "mainStat": null,
-        "gcd": "10s",
-        "desc": "ターゲットに83%の物理ダメージを与える。",
-        "detail": null,
-        "cooldown": "0s",
-        "cost": null,
-        "statuses": []
-      },
-      {
-        "id": "150006010",
-        "name": "磐龍炎壁",
-        "slot": "天賦",
-        "slotEn": "Talent",
-        "unlockStar": 0,
-        "icon": null,
-        "type": "瞬発",
-        "mainStat": null,
-        "gcd": null,
-        "desc": "自身に2145%のシールドを付与する。(10秒)",
-        "detail": null,
-        "cooldown": "10s",
-        "cost": 1,
-        "statuses": [
-          "めまい"
-        ],
-        "awakened": {
-          "desc": "自身に3000%のシールドを付与する。(10秒)",
-          "detail": null
-        }
-      },
-      {
-        "id": "150006020",
-        "name": "破勢三反手",
-        "slot": "自動",
-        "slotEn": "Auto",
-        "unlockStar": 1,
-        "icon": null,
-        "type": "瞬発",
-        "mainStat": null,
-        "gcd": null,
-        "desc": "ターゲットに3回連続で100%の物理ダメージを与える。\nラストヒットが命中した時、中の確率で10%のエネルギーダメージダウンを付与する。(8秒)",
-        "detail": null,
-        "cooldown": "6s",
-        "cost": null,
-        "statuses": [
-          "治癒",
-          "被ダメージダウン"
-        ],
-        "awakened": {
-          "desc": "ターゲットに3回連続で135%の物理ダメージを与える。\nラストヒットが命中した時、中の確率で20%のエネルギーダメージダウンを付与する。(8秒)",
-          "detail": null
-        }
-      },
-      {
-        "id": "150006030",
-        "name": "ホットな本能",
-        "slot": "常時 1",
-        "slotEn": "Passive 1",
-        "unlockStar": 4,
-        "icon": null,
-        "type": "常時",
-        "mainStat": null,
-        "gcd": null,
-        "desc": "自身がシールドを得た時、自身に以下のバフを付与する：「ダメージを受けた時、低の確率でランダムターゲットに炎上S状態を付与する(6秒)」(6秒)。\nバフ効果の発動には6秒間のクールタイムが必要。",
-        "detail": null,
-        "cooldown": "0s",
-        "cost": null,
-        "statuses": [],
-        "awakened": {
-          "desc": "自身がシールドを得た時、自身に以下のバフを付与する：「ダメージを受けた時、低の確率でランダムターゲットに炎上S状態を付与する(6秒)」(6秒)。\nバフ効果の発動には6秒間のクールタイムが必要。\n全隊員に8%のブロックアップを付与する。",
-          "detail": null
-        }
-      },
-      {
-        "id": "150006050",
-        "name": "糸纏い",
-        "slot": "常時 2",
-        "slotEn": "Passive 2",
-        "unlockStar": 6,
-        "icon": null,
-        "type": "常時",
-        "mainStat": null,
-        "gcd": null,
-        "desc": "自身に10%のエネルギー被ダメージダウンを付与する。",
-        "detail": null,
-        "cooldown": "0s",
-        "cost": null,
-        "statuses": [],
-        "awakened": {
-          "desc": "全隊員に10%のエネルギー被ダメージダウンを付与する。\nPVPの場合自身に13%の被治療効果アップを付与する。",
-          "detail": null
-        }
-      },
-      {
-        "id": "150006041",
-        "name": "青龍炎震破",
-        "slot": "奥義",
-        "slotEn": "Ultimate",
-        "unlockStar": 2,
-        "icon": null,
-        "type": "瞬発",
-        "mainStat": null,
-        "gcd": null,
-        "desc": "覚醒状態になり、自身に40%の通常攻撃被ダメージダウンを付与する。(24秒)\n前方範囲内のターゲット2体に4回連続で93%のエネルギーダメージを与える。\n自身に10%のブロックアップを付与する。(12秒)\n自身に20%のブロックダメ軽減アップを付与する。(12秒)",
-        "detail": null,
-        "cooldown": "24s",
-        "cost": 3,
-        "statuses": []
-      }
-    ],
-    "profile": {
-      "title": "功夫美少女",
-      "birthday": "7 / 23",
-      "age": "22",
-      "height": "165",
-      "weight": "51",
-      "interest": "武芸の鍛錬、辛いスナックを食べる",
-      "personality": "活発で負けず嫌い。挑発されるとすぐに乗る。",
-      "resumeParas": [
-        "自幼時隨父親在各國修行，並精進家傳的纏絲拳法。",
-        "17歲回到托比亞後，年少氣盛的丹芯便常私下去打地下拳賽。龍應天視察拳賽，見丹芯拳術了得，遂延攬其帶藝投師入青龍武術館。",
-        "進入青龍幫後，融合龍應天指導的拳術改稱為青龍纏絲拳。",
-        "由於個性活潑又精通武術，也被指派為武鬥會司儀。",
-        "父親目前下落不明，應該是又出國修行了。"
-      ]
-    },
-    "stats": {
-      "atkRange": "120",
-      "normalAttackGCD": "10000",
-      "critPer": "1000",
-      "critRstPer": "0",
-      "critAmpPer": "5000",
-      "critDmgRdcPer": "0",
-      "hitPer": "8500",
-      "ddgPer": "0",
-      "blkPer": "2500",
-      "blkPenPer": "1500",
-      "blkRdcPer": "2000",
-      "healCritPer": "1000",
-      "healCritAmpPer": "5000",
-      "atkHastePer": "0",
-      "cdHastePer": "0",
-      "manaAmpPer": "0",
-      "hpRcvPer": "1000"
-    }
-  },
+  
   {
     "id": "133006100",
     "tierStats": [
@@ -11603,7 +11217,7 @@ export const gsaCharactersJa = [
         "slot": "通常攻撃",
         "slotEn": "Basic Attack",
         "unlockStar": 0,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr064_1.webp",
         "type": "瞬発",
         "mainStat": null,
         "gcd": "7.001s",
@@ -11619,7 +11233,7 @@ export const gsaCharactersJa = [
         "slot": "天賦",
         "slotEn": "Talent",
         "unlockStar": 0,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr064_2.webp",
         "type": "瞬発",
         "mainStat": null,
         "gcd": null,
@@ -11642,7 +11256,7 @@ export const gsaCharactersJa = [
         "slot": "自動",
         "slotEn": "Auto",
         "unlockStar": 1,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr064_3.webp",
         "type": "瞬発",
         "mainStat": null,
         "gcd": null,
@@ -11664,7 +11278,7 @@ export const gsaCharactersJa = [
         "slot": "常時 1",
         "slotEn": "Passive 1",
         "unlockStar": 4,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr064_5.webp",
         "type": "常時",
         "mainStat": null,
         "gcd": null,
@@ -11684,7 +11298,7 @@ export const gsaCharactersJa = [
         "slot": "常時 2",
         "slotEn": "Passive 2",
         "unlockStar": 6,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr064_6.webp",
         "type": "常時",
         "mainStat": null,
         "gcd": null,
@@ -11704,7 +11318,7 @@ export const gsaCharactersJa = [
         "slot": "奥義",
         "slotEn": "Ultimate",
         "unlockStar": 2,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr064_4.webp",
         "type": "瞬発",
         "mainStat": null,
         "gcd": null,
@@ -12524,1925 +12138,11 @@ export const gsaCharactersJa = [
       "hpRcvPer": "1000"
     }
   },
-  {
-    "id": "133006700",
-    "tierStats": [
-      {
-        "tier": 1,
-        "hp": 3367,
-        "atk": 345
-      },
-      {
-        "tier": 2,
-        "hp": 5034,
-        "atk": 516
-      },
-      {
-        "tier": 3,
-        "hp": 10104,
-        "atk": 1038
-      },
-      {
-        "tier": 4,
-        "hp": 15140,
-        "atk": 1557
-      },
-      {
-        "tier": 5,
-        "hp": 20209,
-        "atk": 2079
-      },
-      {
-        "tier": 6,
-        "hp": 26947,
-        "atk": 2772
-      },
-      {
-        "tier": 7,
-        "hp": 33684,
-        "atk": 3465
-      },
-      {
-        "tier": 8,
-        "hp": 40421,
-        "atk": 4158
-      },
-      {
-        "tier": 9,
-        "hp": 48505,
-        "atk": 4989
-      },
-      {
-        "tier": 10,
-        "hp": 58226,
-        "atk": 5988
-      }
-    ],
-    "growth": {
-      "rate": 2,
-      "hp": [
-        45.75,
-        91.51,
-        228.78,
-        366.04,
-        503.31,
-        640.58
-      ],
-      "atk": [
-        3.3,
-        6.6,
-        16.5,
-        26.4,
-        36.3,
-        46.2
-      ]
-    },
-    "affection": [
-      {
-        "label": "攻撃力",
-        "value": 50
-      },
-      {
-        "label": "攻撃力",
-        "value": 50
-      },
-      {
-        "label": "攻撃力",
-        "value": 50
-      },
-      {
-        "label": "攻撃力",
-        "value": 50
-      },
-      {
-        "label": "攻撃力",
-        "value": 50
-      },
-      {
-        "label": "攻撃力",
-        "value": 50
-      },
-      {
-        "label": "攻撃力",
-        "value": 100
-      },
-      {
-        "label": "攻撃力",
-        "value": 100
-      },
-      {
-        "label": "攻撃力",
-        "value": 100
-      },
-      {
-        "label": "攻撃力",
-        "value": 200
-      }
-    ],
-    "gear": [
-      {
-        "slot": "両手",
-        "name": "翠玉のブレスレット EX",
-        "stats": [
-          {
-            "label": "攻撃力",
-            "base": 118,
-            "pct": false
-          },
-          {
-            "label": "風屬性攻擊",
-            "base": 1000,
-            "pct": true
-          },
-          {
-            "label": "エネルギー強化",
-            "base": 62,
-            "pct": false
-          },
-          {
-            "label": "攻撃速度",
-            "base": 163,
-            "pct": false
-          }
-        ]
-      },
-      {
-        "slot": "武器",
-        "name": "風鳴の笛 EX",
-        "stats": [
-          {
-            "label": "攻撃力",
-            "base": 118,
-            "pct": false
-          },
-          {
-            "label": "風屬性攻擊",
-            "base": 1000,
-            "pct": true
-          },
-          {
-            "label": "クリティカル",
-            "base": 97,
-            "pct": false
-          },
-          {
-            "label": "会心ダメージ",
-            "base": 217,
-            "pct": false
-          }
-        ]
-      },
-      {
-        "slot": "足部",
-        "name": "風のハイヒール EX",
-        "stats": [
-          {
-            "label": "攻撃力",
-            "base": 118,
-            "pct": false
-          },
-          {
-            "label": "風屬性攻擊",
-            "base": 1000,
-            "pct": true
-          },
-          {
-            "label": "攻撃速度",
-            "base": 182,
-            "pct": false
-          },
-          {
-            "label": "回避",
-            "base": 58,
-            "pct": false
-          }
-        ]
-      },
-      {
-        "slot": "アクセサリー",
-        "name": "碧露の簪",
-        "stats": [
-          {
-            "label": "攻撃力",
-            "base": 77,
-            "pct": false
-          }
-        ]
-      }
-    ],
-    "model": "cr067",
-    "slug": "qing-yin",
-    "name": "チェンイン",
-    "nameEn": "Qing Yin",
-    "title": "傾城の音楽姫",
-    "epithet": "柔らかな音色で、魂に取り憑く",
-    "sex": "女性",
-    "inGacha": true,
-    "icon": null,
-    "sortOrder": 67,
-    "element": {
-      "id": 3,
-      "name": "風",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/battleelement_3.webp"
-    },
-    "job": {
-      "id": 5,
-      "name": "デストロイ",
-      "color": "#9433EA",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/master_3.webp"
-    },
-    "attackType": {
-      "id": 2,
-      "name": "能量",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Attributes_01.webp"
-    },
-    "skills": [
-      {
-        "id": "150006700",
-        "name": "穿雲短音",
-        "slot": "通常攻撃",
-        "slotEn": "Basic Attack",
-        "unlockStar": 0,
-        "icon": null,
-        "type": "瞬発",
-        "mainStat": null,
-        "gcd": "10s",
-        "desc": "感電状態のターゲットに優先的に75%のエネルギーダメージを与える。",
-        "detail": null,
-        "cooldown": "0s",
-        "cost": null,
-        "statuses": []
-      },
-      {
-        "id": "150006710",
-        "name": "疊律震響",
-        "slot": "天賦",
-        "slotEn": "Talent",
-        "unlockStar": 0,
-        "icon": null,
-        "type": "瞬発",
-        "mainStat": null,
-        "gcd": null,
-        "desc": "感電状態のターゲットに優先的に3回連続で90%のエネルギーダメージを与える。\nファーストヒットが命中した時、12%の風属性耐性ダウンを付与する。(6秒)\nラストヒットが命中した時、ターゲットが感電状態だった場合、更に過負荷M追撃を与える。",
-        "detail": null,
-        "cooldown": "10s",
-        "cost": 1,
-        "statuses": [],
-        "awakened": {
-          "desc": "感電状態のターゲットに優先的に3回連続で152%のエネルギーダメージを与える。\nファーストヒットが命中した時、12%の風属性耐性ダウンを付与する。(10秒)\nラストヒットが命中した時、ターゲットが感電状態だった場合、更に過負荷M追撃を与える。",
-          "detail": null
-        }
-      },
-      {
-        "id": "150006720",
-        "name": "迴音縛陣",
-        "slot": "自動",
-        "slotEn": "Auto",
-        "unlockStar": 1,
-        "icon": null,
-        "type": "瞬発",
-        "mainStat": null,
-        "gcd": null,
-        "desc": "感電状態のターゲットに優先的に110%のエネルギーダメージを与える。\n命中した時、高の確率で目眩状態を付与する。(3秒)",
-        "detail": null,
-        "cooldown": "6s",
-        "cost": null,
-        "statuses": [],
-        "awakened": {
-          "desc": "感電状態のターゲットに優先的に176%のエネルギーダメージを与える。\n命中した時、最高値の確率で目眩状態を付与する。(3秒)",
-          "detail": null
-        }
-      },
-      {
-        "id": "150006730",
-        "name": "柔音暗刃",
-        "slot": "常時 1",
-        "slotEn": "Passive 1",
-        "unlockStar": 4,
-        "icon": null,
-        "type": "常時",
-        "mainStat": null,
-        "gcd": null,
-        "desc": "ヒット時、感電状態ののターゲットだった場合、自身に風属性攻撃アップ8%を付与する(12秒)。\nこの効果は最大2重までスタックできる。",
-        "detail": "清音は表面こそ穏やかだが、その微笑みには刃が隠されている。",
-        "cooldown": "0s",
-        "cost": null,
-        "statuses": [],
-        "awakened": {
-          "desc": "ヒット時、感電状態ののターゲットだった場合、自身に風属性攻撃アップ9%を付与する(12秒)。\nこの効果は最大2重までスタックできる。\n全隊員に6%のエネルギーダメージアップを付与する。",
-          "detail": null
-        }
-      },
-      {
-        "id": "150006750",
-        "name": "操盤雅音",
-        "slot": "常時 2",
-        "slotEn": "Passive 2",
-        "unlockStar": 6,
-        "icon": null,
-        "type": "常時",
-        "mainStat": null,
-        "gcd": null,
-        "desc": "自身に14%の会心アップを付与する。",
-        "detail": "清音は常に他者の言動の変化を静かに観察し、演奏で相手のリズムをゆっくりと導く。",
-        "cooldown": "0s",
-        "cost": null,
-        "statuses": [],
-        "awakened": {
-          "desc": "全隊員に14%の会心アップを付与する。\nPVPの場合自身に15%の攻撃速度アップを付与する。",
-          "detail": null
-        }
-      },
-      {
-        "id": "150006741",
-        "name": "萬音爆裂",
-        "slot": "奥義",
-        "slotEn": "Ultimate",
-        "unlockStar": 2,
-        "icon": null,
-        "type": "瞬発",
-        "mainStat": null,
-        "gcd": null,
-        "desc": "覚醒状態になり、自身に15%の攻撃力アップを付与する。(24秒)\n感電状態のターゲットに優先的に2回連続で413.5%のエネルギーダメージを与える。\nファーストヒットが命中した時、自身に15%の風属性攻撃アップを付与する。(12秒)\nファーストヒットが命中した時、自身に30%の攻撃速度アップを付与する。(12秒)\nラストヒットが命中した時、ターゲットが感電状態だった場合、更に過負荷L追撃を与える。",
-        "detail": null,
-        "cooldown": "24s",
-        "cost": 3,
-        "statuses": []
-      }
-    ],
-    "profile": {
-      "title": "絕色傾城之樂姬",
-      "birthday": "10 / 14",
-      "age": "23",
-      "height": "166",
-      "weight": "55",
-      "interest": "対象の観察、音楽",
-      "personality": "優しくおっとりしていて、礼儀正しい#会話の主導権を自然に握るのが得意",
-      "resumeParas": [
-        "前九幽幫樂師，後轉投青龍幫",
-        "清音是九幽幫的樂師兼性奴，以迷魂笛聲協助殺手冷鴆進行暗殺。",
-        "後冷鴆被幫派高層煉成沒有自我意識的「蠱奴」。清音從青龍幫臥底藥師半夏口中得知蠱奴的絕望下場後，長期順從幫派的她，終於決定為改變命運做出反撲。",
-        "靠半夏調製的藥物與自身的笛音暗殺九幽幫成員後，帶冷鴆前往青龍幫尋求協助。"
-      ]
-    },
-    "stats": {
-      "atkRange": "600",
-      "normalAttackGCD": "10000",
-      "critPer": "1000",
-      "critRstPer": "0",
-      "critAmpPer": "5000",
-      "critDmgRdcPer": "0",
-      "hitPer": "9300",
-      "ddgPer": "0",
-      "blkPer": "2500",
-      "blkPenPer": "0",
-      "blkRdcPer": "2000",
-      "healCritPer": "1000",
-      "healCritAmpPer": "5000",
-      "atkHastePer": "0",
-      "cdHastePer": "0",
-      "manaAmpPer": "0",
-      "hpRcvPer": "1000"
-    }
-  },
-  {
-    "id": "133006800",
-    "tierStats": [
-      {
-        "tier": 1,
-        "hp": 4176,
-        "atk": 262
-      },
-      {
-        "tier": 2,
-        "hp": 6242,
-        "atk": 392
-      },
-      {
-        "tier": 3,
-        "hp": 12529,
-        "atk": 788
-      },
-      {
-        "tier": 4,
-        "hp": 18774,
-        "atk": 1183
-      },
-      {
-        "tier": 5,
-        "hp": 25059,
-        "atk": 1580
-      },
-      {
-        "tier": 6,
-        "hp": 33415,
-        "atk": 2106
-      },
-      {
-        "tier": 7,
-        "hp": 41768,
-        "atk": 2633
-      },
-      {
-        "tier": 8,
-        "hp": 50122,
-        "atk": 3160
-      },
-      {
-        "tier": 9,
-        "hp": 60146,
-        "atk": 3791
-      },
-      {
-        "tier": 10,
-        "hp": 72201,
-        "atk": 4550
-      }
-    ],
-    "growth": {
-      "rate": 1.5,
-      "hp": [
-        56.73,
-        113.47,
-        283.68,
-        453.89,
-        624.11,
-        794.32
-      ],
-      "atk": [
-        2.5,
-        5.01,
-        12.54,
-        20.06,
-        27.58,
-        35.11
-      ]
-    },
-    "affection": [
-      {
-        "label": "攻撃力",
-        "value": 50
-      },
-      {
-        "label": "攻撃力",
-        "value": 50
-      },
-      {
-        "label": "攻撃力",
-        "value": 50
-      },
-      {
-        "label": "攻撃力",
-        "value": 50
-      },
-      {
-        "label": "攻撃力",
-        "value": 50
-      },
-      {
-        "label": "攻撃力",
-        "value": 50
-      },
-      {
-        "label": "攻撃力",
-        "value": 50
-      },
-      {
-        "label": "攻撃力",
-        "value": 50
-      },
-      {
-        "label": "攻撃力",
-        "value": 50
-      },
-      {
-        "label": "攻撃力",
-        "value": 50
-      }
-    ],
-    "gear": [
-      {
-        "slot": "両手",
-        "name": "血涙の袖 EX",
-        "stats": [
-          {
-            "label": "攻撃力",
-            "base": 118,
-            "pct": false
-          },
-          {
-            "label": "水屬性攻擊",
-            "base": 1000,
-            "pct": true
-          },
-          {
-            "label": "命中",
-            "base": 58,
-            "pct": false
-          },
-          {
-            "label": "エネルギー強化",
-            "base": 62,
-            "pct": false
-          }
-        ]
-      },
-      {
-        "slot": "武器",
-        "name": "束命の針 EX",
-        "stats": [
-          {
-            "label": "攻撃力",
-            "base": 118,
-            "pct": false
-          },
-          {
-            "label": "水屬性攻擊",
-            "base": 1000,
-            "pct": true
-          },
-          {
-            "label": "技能強化",
-            "base": 1000,
-            "pct": true
-          }
-        ]
-      },
-      {
-        "slot": "足部",
-        "name": "白霜の履物 EX",
-        "stats": [
-          {
-            "label": "攻撃力",
-            "base": 118,
-            "pct": false
-          },
-          {
-            "label": "水屬性攻擊",
-            "base": 1000,
-            "pct": true
-          },
-          {
-            "label": "攻撃速度",
-            "base": 182,
-            "pct": false
-          },
-          {
-            "label": "回避",
-            "base": 58,
-            "pct": false
-          }
-        ]
-      },
-      {
-        "slot": "アクセサリー",
-        "name": "平安結び",
-        "stats": [
-          {
-            "label": "攻撃力",
-            "base": 77,
-            "pct": false
-          }
-        ]
-      }
-    ],
-    "model": "cr068",
-    "slug": "leng-zhen",
-    "name": "レンジェン",
-    "nameEn": "Leng Zhen",
-    "title": "魂無き処刑者",
-    "epithet": "針で経絡を封じ、気を流転させる",
-    "sex": "女性",
-    "inGacha": true,
-    "icon": null,
-    "sortOrder": 68,
-    "element": {
-      "id": 4,
-      "name": "水",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/battleelement_4.webp"
-    },
-    "job": {
-      "id": 5,
-      "name": "デストロイ",
-      "color": "#9433EA",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/master_4.webp"
-    },
-    "attackType": {
-      "id": 2,
-      "name": "能量",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Attributes_01.webp"
-    },
-    "skills": [
-      {
-        "id": "150006800",
-        "name": "息絶え",
-        "slot": "通常攻撃",
-        "slotEn": "Basic Attack",
-        "unlockStar": 0,
-        "icon": null,
-        "type": "瞬発",
-        "mainStat": null,
-        "gcd": "10s",
-        "desc": "ランダムターゲットに69%のエネルギーダメージを与える。",
-        "detail": null,
-        "cooldown": "0s",
-        "cost": null,
-        "statuses": []
-      },
-      {
-        "id": "150006810",
-        "name": "切脈",
-        "slot": "天賦",
-        "slotEn": "Talent",
-        "unlockStar": 0,
-        "icon": null,
-        "type": "瞬発",
-        "mainStat": null,
-        "gcd": null,
-        "desc": "ランダムターゲットに3回連続で105%のエネルギーダメージを与える。\n命中した時、味方のEN値を2増やす。",
-        "detail": null,
-        "cooldown": "10s",
-        "cost": 1,
-        "statuses": [
-          "EN値獲得アップ"
-        ],
-        "awakened": {
-          "desc": "ランダムターゲットに3回連続で125%のエネルギーダメージを与える。\n命中した時、味方のEN値を2.5増やす。",
-          "detail": null
-        }
-      },
-      {
-        "id": "150006820",
-        "name": "封穴",
-        "slot": "自動",
-        "slotEn": "Auto",
-        "unlockStar": 1,
-        "icon": null,
-        "type": "瞬発",
-        "mainStat": null,
-        "gcd": null,
-        "desc": "ランダムターゲットに3回連続で105%のエネルギーダメージを与える。\n命中した時、高の確率で凍結M状態を付与する。(3秒)",
-        "detail": null,
-        "cooldown": "6s",
-        "cost": null,
-        "statuses": [
-          "冷凍"
-        ],
-        "awakened": {
-          "desc": "ランダムターゲットに3回連続で145%のエネルギーダメージを与える。\n命中した時、凍結M状態を付与する。(3秒)",
-          "detail": null
-        }
-      },
-      {
-        "id": "150006830",
-        "name": "感覚断絶",
-        "slot": "常時 1",
-        "slotEn": "Passive 1",
-        "unlockStar": 4,
-        "icon": null,
-        "type": "常時",
-        "mainStat": null,
-        "gcd": null,
-        "desc": "この効果の発動には6秒間のクールタイムが必要。",
-        "detail": "Having been reduced to a vessel with no sense of self, she is completely cut off from the interference of emotions like fear and hesitation.",
-        "cooldown": "0s",
-        "cost": null,
-        "statuses": [],
-        "awakened": {
-          "desc": "この効果の発動には6秒間のクールタイムが必要。\n全隊員に8.5%の水属性攻撃アップを付与する。",
-          "detail": null
-        }
-      },
-      {
-        "id": "150006850",
-        "name": "蠱毒令",
-        "slot": "常時 2",
-        "slotEn": "Passive 2",
-        "unlockStar": 6,
-        "icon": null,
-        "type": "常時",
-        "mainStat": null,
-        "gcd": null,
-        "desc": "自身に12.5%のスキルダメージアップを付与する。",
-        "detail": "A body whose sense of pain is devoured by venom can push itself to the limit, utterly ignoring the price of torn muscles.",
-        "cooldown": "0s",
-        "cost": null,
-        "statuses": []
-      },
-      {
-        "id": "150006841",
-        "name": "葬令",
-        "slot": "奥義",
-        "slotEn": "Ultimate",
-        "unlockStar": 2,
-        "icon": null,
-        "type": "瞬発",
-        "mainStat": null,
-        "gcd": null,
-        "desc": "覚醒状態になり、自身に35%の凍結命中アップを付与する。(24秒)\nランダムターゲットに3回連続で300%のエネルギーダメージを与える。\n命中した時、凍結M状態を付与する。(3秒)",
-        "detail": null,
-        "cooldown": "24s",
-        "cost": 3,
-        "statuses": []
-      }
-    ],
-    "profile": {
-      "title": "無魂的處刑者",
-      "birthday": "12 / 25",
-      "age": "26",
-      "height": "172",
-      "weight": "53",
-      "interest": "キャンディー、甘い飲み物（幼児化しているため）",
-      "personality": "1.外界からの刺激への反応が極めて遅い#2.チェンインに対して強い依存心と保護欲を持つ。",
-      "resumeParas": [
-        "前九幽幫殺手，後與清音轉投青龍幫。",
-        "出生於托比亞；年幼時因家庭債務被賣入九幽幫，訓練栽培後成為殺手。",
-        "與樂師 「清音」長期搭檔，兩人的默契與私情在一次次任務中昇華。",
-        "私下密謀帶清音逃離九幽幫；但事成前即被幫派高層煉為蠱奴。做為性奴與殺手用。",
-        "後被清音帶至青龍幫尋求協助。"
-      ]
-    },
-    "stats": {
-      "atkRange": "480",
-      "normalAttackGCD": "10000",
-      "critPer": "1000",
-      "critRstPer": "0",
-      "critAmpPer": "5000",
-      "critDmgRdcPer": "0",
-      "hitPer": "9300",
-      "ddgPer": "0",
-      "blkPer": "2500",
-      "blkPenPer": "0",
-      "blkRdcPer": "2000",
-      "healCritPer": "1000",
-      "healCritAmpPer": "5000",
-      "atkHastePer": "0",
-      "cdHastePer": "0",
-      "manaAmpPer": "0",
-      "hpRcvPer": "1000"
-    }
-  },
-  {
-    "id": "133007000",
-    "tierStats": [
-      {
-        "tier": 1,
-        "hp": 3928,
-        "atk": 252
-      },
-      {
-        "tier": 2,
-        "hp": 5875,
-        "atk": 375
-      },
-      {
-        "tier": 3,
-        "hp": 11788,
-        "atk": 756
-      },
-      {
-        "tier": 4,
-        "hp": 17663,
-        "atk": 1131
-      },
-      {
-        "tier": 5,
-        "hp": 23578,
-        "atk": 1512
-      },
-      {
-        "tier": 6,
-        "hp": 31438,
-        "atk": 2016
-      },
-      {
-        "tier": 7,
-        "hp": 39299,
-        "atk": 2520
-      },
-      {
-        "tier": 8,
-        "hp": 47158,
-        "atk": 3024
-      },
-      {
-        "tier": 9,
-        "hp": 56589,
-        "atk": 3627
-      },
-      {
-        "tier": 10,
-        "hp": 67930,
-        "atk": 4356
-      }
-    ],
-    "growth": {
-      "rate": 2,
-      "hp": [
-        53.38,
-        106.76,
-        266.91,
-        427.05,
-        587.2,
-        747.34
-      ],
-      "atk": [
-        2.4,
-        4.8,
-        12,
-        19.2,
-        26.4,
-        33.6
-      ]
-    },
-    "affection": [
-      {
-        "label": "攻撃力",
-        "value": 50
-      },
-      {
-        "label": "攻撃力",
-        "value": 50
-      },
-      {
-        "label": "攻撃力",
-        "value": 50
-      },
-      {
-        "label": "攻撃力",
-        "value": 50
-      },
-      {
-        "label": "攻撃力",
-        "value": 50
-      },
-      {
-        "label": "攻撃力",
-        "value": 50
-      },
-      {
-        "label": "攻撃力",
-        "value": 50
-      },
-      {
-        "label": "攻撃力",
-        "value": 50
-      },
-      {
-        "label": "攻撃力",
-        "value": 50
-      },
-      {
-        "label": "攻撃力",
-        "value": 50
-      }
-    ],
-    "gear": [
-      {
-        "slot": "両手",
-        "name": "タトゥーシール EX",
-        "stats": [
-          {
-            "label": "攻撃力",
-            "base": 88,
-            "pct": false
-          },
-          {
-            "label": "火屬性攻擊",
-            "base": 1200,
-            "pct": true
-          },
-          {
-            "label": "命中",
-            "base": 42,
-            "pct": false
-          },
-          {
-            "label": "審判命中",
-            "base": 1500,
-            "pct": true
-          }
-        ]
-      },
-      {
-        "slot": "武器",
-        "name": "父が残した古い拳銃 EX",
-        "stats": [
-          {
-            "label": "攻撃力",
-            "base": 88,
-            "pct": false
-          },
-          {
-            "label": "火屬性攻擊",
-            "base": 1200,
-            "pct": true
-          },
-          {
-            "label": "クリティカル",
-            "base": 50,
-            "pct": false
-          },
-          {
-            "label": "ブロック無視",
-            "base": 50,
-            "pct": false
-          }
-        ]
-      },
-      {
-        "slot": "足部",
-        "name": "特注のレディース EX",
-        "stats": [
-          {
-            "label": "攻撃力",
-            "base": 88,
-            "pct": false
-          },
-          {
-            "label": "火屬性攻擊",
-            "base": 1200,
-            "pct": true
-          },
-          {
-            "label": "攻撃速度",
-            "base": 50,
-            "pct": false
-          },
-          {
-            "label": "会心回避",
-            "base": 50,
-            "pct": false
-          }
-        ]
-      },
-      {
-        "slot": "アクセサリー",
-        "name": "エレーナの本命香水",
-        "stats": [
-          {
-            "label": "攻撃力",
-            "base": 77,
-            "pct": false
-          }
-        ]
-      }
-    ],
-    "model": "cr070",
-    "slug": "elena",
-    "name": "エレーナ",
-    "nameEn": "Elena",
-    "title": "反逆の紅茨",
-    "epithet": "妖艶可憐なる、紅薔薇の強襲",
-    "sex": "女性",
-    "inGacha": true,
-    "icon": null,
-    "sortOrder": 70,
-    "element": {
-      "id": 1,
-      "name": "火",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/battleelement_1.webp"
-    },
-    "job": {
-      "id": 4,
-      "name": "サポート",
-      "color": "#33EA62",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/priest_1.webp"
-    },
-    "attackType": {
-      "id": 2,
-      "name": "能量",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Attributes_01.webp"
-    },
-    "skills": [
-      {
-        "id": "150007000",
-        "name": "蠢く音符",
-        "slot": "通常攻撃",
-        "slotEn": "Basic Attack",
-        "unlockStar": 0,
-        "icon": null,
-        "type": "瞬発",
-        "mainStat": null,
-        "gcd": "10s",
-        "desc": "ターゲットに2回連続で100%の物理ダメージを与える。",
-        "detail": null,
-        "cooldown": "0s",
-        "cost": null,
-        "statuses": []
-      },
-      {
-        "id": "150007010",
-        "name": "フロアを沸かせて",
-        "slot": "天賦",
-        "slotEn": "Talent",
-        "unlockStar": 0,
-        "icon": null,
-        "type": "瞬発",
-        "mainStat": null,
-        "gcd": null,
-        "desc": "前方範囲内のターゲット3体に5回連続で100%のエネルギーダメージを与える。\n命中した時、炎上M状態を付与する。(0秒)",
-        "detail": null,
-        "cooldown": "10s",
-        "cost": 1,
-        "statuses": [
-          "燃焼"
-        ],
-        "awakened": {
-          "desc": "前方範囲内のターゲット3体に5回連続で170%のエネルギーダメージを与える。\n命中した時、炎上M状態を付与する。(0秒)",
-          "detail": null
-        }
-      },
-      {
-        "id": "150007020",
-        "name": "パーティー前の喧騒",
-        "slot": "自動",
-        "slotEn": "Auto",
-        "unlockStar": 1,
-        "icon": null,
-        "type": "瞬発",
-        "mainStat": null,
-        "gcd": null,
-        "desc": "自身に20%のブロック無視アップを付与する。(12秒)\n自身に12%のスキルダメージアップを付与する。(12秒)\n自身に40%のEN値獲得アップを付与する。(12秒)",
-        "detail": null,
-        "cooldown": "6s",
-        "cost": null,
-        "statuses": [
-          "会心回避アップ",
-          "スキルダメージアップ",
-          "攻撃速度アップ"
-        ],
-        "awakened": {
-          "desc": "自身に24%のブロック無視アップを付与する。(12秒)\n自身に18%のスキルダメージアップを付与する。(12秒)\n自身に60%のEN値獲得アップを付与する。(12秒)",
-          "detail": null
-        }
-      },
-      {
-        "id": "150007030",
-        "name": "お母さんに言いつけるから！",
-        "slot": "常時 1",
-        "slotEn": "Passive 1",
-        "unlockStar": 4,
-        "icon": null,
-        "type": "常時",
-        "mainStat": null,
-        "gcd": null,
-        "desc": "ヒット時、燃焼状態ののターゲットだった場合、自身に火属性攻撃アップ6%を付与する(12秒)。",
-        "detail": "With her mother backing her up, no matter what Elena does, she knows she'll be forgiven~",
-        "cooldown": "0s",
-        "cost": null,
-        "statuses": [],
-        "awakened": {
-          "desc": "ヒット時、燃焼状態ののターゲットだった場合、自身に火属性攻撃アップ7%を付与する(12秒)。\n全隊員に12%の会心ダメージアップを付与する。",
-          "detail": null
-        }
-      },
-      {
-        "id": "150007050",
-        "name": "享楽至上主義",
-        "slot": "常時 2",
-        "slotEn": "Passive 2",
-        "unlockStar": 6,
-        "icon": null,
-        "type": "常時",
-        "mainStat": null,
-        "gcd": null,
-        "desc": "自身に10%のエネルギーダメージアップを付与する。",
-        "detail": "一発一発の銃声がパーティーのビート！エレーナは戦闘中、攻撃のリズムに乗せて次第に熱狂状態へと高まっていく。",
-        "cooldown": "0s",
-        "cost": null,
-        "statuses": [],
-        "awakened": {
-          "desc": "全隊員に10%のエネルギーダメージアップを付与する。\nPVPの場合自身に8%の攻撃力アップを付与する。",
-          "detail": null
-        }
-      },
-      {
-        "id": "150007041",
-        "name": "紅棘乱舞",
-        "slot": "奥義",
-        "slotEn": "Ultimate",
-        "unlockStar": 2,
-        "icon": null,
-        "type": "瞬発",
-        "mainStat": null,
-        "gcd": null,
-        "desc": "覚醒状態になり、自身に10%のエネルギーダメージアップを付与する。(24秒)\n全ターゲットに18回連続で250%のエネルギーダメージを与える。\n命中した時、炎上L状態を付与する。(12秒)\nラストヒットが命中した時、18%の治療会心ボーナスダウンを付与する。(12秒)",
-        "detail": null,
-        "cooldown": "24s",
-        "cost": 3,
-        "statuses": []
-      }
-    ],
-    "profile": {
-      "title": "叛逆的紅棘",
-      "birthday": "12 / 12",
-      "age": "20",
-      "height": "165",
-      "weight": "48",
-      "interest": "音楽フェス、パーティー、オペラ鑑賞",
-      "personality": "外向的、活発、尊大、情熱的、反骨精神が強い",
-      "resumeParas": [
-        "從小在羅士昂兄弟會長大，因為父母的身分地位沒有人敢對她動歪腦筋，反倒會刻意討好她以求升職。她也會仗著這點，在不影響母親名聲的前提下刻意使喚組織中的人。",
-        "由於在爾虞我詐的環境中成長，因此看人的直覺相當準，也不避諱別人利用自己（因為她也會試圖從對方身上得到利益）。",
-        "母親有意讓她繼承現在的地位，因此刻意安排家教讓她上課，但她時常翹課，常讓老師和母親煩惱。",
-        "和母親一樣喜歡聽歌劇，但因為叛逆裝作不喜歡，轉而頻繁參加母親認為不入流的音樂祭。"
-      ]
-    },
-    "stats": {
-      "atkRange": "600",
-      "normalAttackGCD": "10000",
-      "critPer": "1000",
-      "critRstPer": "0",
-      "critAmpPer": "5000",
-      "critDmgRdcPer": "0",
-      "hitPer": "8000",
-      "ddgPer": "0",
-      "blkPer": "2500",
-      "blkPenPer": "0",
-      "blkRdcPer": "2000",
-      "healCritPer": "1000",
-      "healCritAmpPer": "5000",
-      "atkHastePer": "0",
-      "cdHastePer": "2500",
-      "manaAmpPer": "0",
-      "hpRcvPer": "1000"
-    }
-  },
-  {
-    "id": "133007100",
-    "tierStats": [
-      {
-        "tier": 1,
-        "hp": 5613,
-        "atk": 315
-      },
-      {
-        "tier": 2,
-        "hp": 8393,
-        "atk": 471
-      },
-      {
-        "tier": 3,
-        "hp": 16841,
-        "atk": 945
-      },
-      {
-        "tier": 4,
-        "hp": 25236,
-        "atk": 1416
-      },
-      {
-        "tier": 5,
-        "hp": 33684,
-        "atk": 1890
-      },
-      {
-        "tier": 6,
-        "hp": 44912,
-        "atk": 2520
-      },
-      {
-        "tier": 7,
-        "hp": 56142,
-        "atk": 3150
-      },
-      {
-        "tier": 8,
-        "hp": 67370,
-        "atk": 3780
-      },
-      {
-        "tier": 9,
-        "hp": 80844,
-        "atk": 4536
-      },
-      {
-        "tier": 10,
-        "hp": 97044,
-        "atk": 5445
-      }
-    ],
-    "growth": {
-      "rate": 1.5,
-      "hp": [
-        76.26,
-        152.52,
-        381.3,
-        610.08,
-        838.86,
-        1067.64
-      ],
-      "atk": [
-        3,
-        6,
-        15,
-        24,
-        33,
-        42
-      ]
-    },
-    "affection": [
-      {
-        "label": "攻撃力",
-        "value": 50
-      },
-      {
-        "label": "攻撃力",
-        "value": 50
-      },
-      {
-        "label": "攻撃力",
-        "value": 50
-      },
-      {
-        "label": "攻撃力",
-        "value": 50
-      },
-      {
-        "label": "攻撃力",
-        "value": 50
-      },
-      {
-        "label": "攻撃力",
-        "value": 50
-      },
-      {
-        "label": "攻撃力",
-        "value": 100
-      },
-      {
-        "label": "攻撃力",
-        "value": 100
-      },
-      {
-        "label": "攻撃力",
-        "value": 100
-      },
-      {
-        "label": "攻撃力",
-        "value": 200
-      }
-    ],
-    "gear": [
-      {
-        "slot": "両手",
-        "name": "素色のネイルオイル EX",
-        "stats": [
-          {
-            "label": "攻撃力",
-            "base": 100,
-            "pct": false
-          },
-          {
-            "label": "土屬性攻擊",
-            "base": 1200,
-            "pct": true
-          },
-          {
-            "label": "命中",
-            "base": 42,
-            "pct": false
-          },
-          {
-            "label": "審判命中",
-            "base": 1500,
-            "pct": true
-          }
-        ]
-      },
-      {
-        "slot": "武器",
-        "name": "血祭りの誓い EX",
-        "stats": [
-          {
-            "label": "攻撃力",
-            "base": 100,
-            "pct": false
-          },
-          {
-            "label": "土屬性攻擊",
-            "base": 1200,
-            "pct": true
-          },
-          {
-            "label": "クリティカル",
-            "base": 50,
-            "pct": false
-          },
-          {
-            "label": "ブロック無視",
-            "base": 50,
-            "pct": false
-          }
-        ]
-      },
-      {
-        "slot": "足部",
-        "name": "デザイナー特注ハイヒール EX",
-        "stats": [
-          {
-            "label": "攻撃力",
-            "base": 100,
-            "pct": false
-          },
-          {
-            "label": "土屬性攻擊",
-            "base": 1200,
-            "pct": true
-          },
-          {
-            "label": "攻撃速度",
-            "base": 50,
-            "pct": false
-          },
-          {
-            "label": "会心回避",
-            "base": 50,
-            "pct": false
-          }
-        ]
-      },
-      {
-        "slot": "アクセサリー",
-        "name": "黒い染髪剤",
-        "stats": [
-          {
-            "label": "攻撃力",
-            "base": 77,
-            "pct": false
-          }
-        ]
-      }
-    ],
-    "model": "cr071",
-    "slug": "victoria",
-    "name": "ヴィクトリア",
-    "nameEn": "Victoria",
-    "title": "権力欲の魔女",
-    "epithet": "夜の幻影、岩石の封印",
-    "sex": "女性",
-    "inGacha": true,
-    "icon": null,
-    "sortOrder": 71,
-    "element": {
-      "id": 2,
-      "name": "土",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/battleelement_2.webp"
-    },
-    "job": {
-      "id": 2,
-      "name": "アサルト",
-      "color": "#EA3333",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/fighters_2.webp"
-    },
-    "attackType": {
-      "id": 2,
-      "name": "能量",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Attributes_01.webp"
-    },
-    "skills": [
-      {
-        "id": "150007100",
-        "name": "優雅な刺殺",
-        "slot": "通常攻撃",
-        "slotEn": "Basic Attack",
-        "unlockStar": 0,
-        "icon": null,
-        "type": "瞬発",
-        "mainStat": null,
-        "gcd": "10s",
-        "desc": "ターゲットに2回連続で83%の物理ダメージを与える。",
-        "detail": null,
-        "cooldown": "0s",
-        "cost": null,
-        "statuses": []
-      },
-      {
-        "id": "150007110",
-        "name": "魔女の挽歌",
-        "slot": "天賦",
-        "slotEn": "Talent",
-        "unlockStar": 0,
-        "icon": null,
-        "type": "瞬発",
-        "mainStat": null,
-        "gcd": null,
-        "desc": "ターゲットに300%の物理ダメージを与える。\nラストヒットが命中した時、石化M状態を付与する。(4秒)",
-        "detail": null,
-        "cooldown": "10s",
-        "cost": 1,
-        "statuses": [
-          "石化"
-        ],
-        "awakened": {
-          "desc": "ターゲットに420%の物理ダメージを与える。\nラストヒットが命中した時、石化M状態を付与する。(4秒)\nラストヒットが命中した時、15%のブロックダウンを付与する。(8秒)",
-          "detail": null
-        }
-      },
-      {
-        "id": "150007120",
-        "name": "魔女の祝福",
-        "slot": "自動",
-        "slotEn": "Auto",
-        "unlockStar": 1,
-        "icon": null,
-        "type": "瞬発",
-        "mainStat": null,
-        "gcd": null,
-        "desc": "最も攻撃力が高い隊員2名に40%の会心ダメージアップを付与する。(8秒)",
-        "detail": null,
-        "cooldown": "6s",
-        "cost": null,
-        "statuses": [
-          "会心ダメージアップ"
-        ],
-        "awakened": {
-          "desc": "最も攻撃力が高い隊員2名に45%の会心ダメージアップを付与する。(10秒)",
-          "detail": null
-        }
-      },
-      {
-        "id": "150007130",
-        "name": "魔女の呪い",
-        "slot": "常時 1",
-        "slotEn": "Passive 1",
-        "unlockStar": 4,
-        "icon": null,
-        "type": "常時",
-        "mainStat": null,
-        "gcd": null,
-        "desc": "石化またはブロックダウンターゲットに命中した時、22%の被治療効果ダウンを付与する(6秒)。\nこの効果の発動には6秒間のクールタイムが必要。",
-        "detail": "A rumor circulates within the Rosian Brotherhood, anyone who sees the witch's true identity will die a violent death.",
-        "cooldown": "0s",
-        "cost": null,
-        "statuses": [],
-        "awakened": {
-          "desc": "石化またはブロックダウンターゲットに命中した時、22%の被治療効果ダウンを付与する(6秒)。\nこの効果の発動には6秒間のクールタイムが必要。\n全隊員に6.5%のブロック無視アップを付与する。",
-          "detail": null
-        }
-      },
-      {
-        "id": "150007150",
-        "name": "力至上主義",
-        "slot": "常時 2",
-        "slotEn": "Passive 2",
-        "unlockStar": 6,
-        "icon": null,
-        "type": "常時",
-        "mainStat": null,
-        "gcd": null,
-        "desc": "自身に8.5%の土属性攻撃アップを付与する。",
-        "detail": "In Rosian, power and strength are everything.",
-        "cooldown": "0s",
-        "cost": null,
-        "statuses": [],
-        "awakened": {
-          "desc": "全隊員に8.5%の土属性攻撃アップを付与する。\nPVPの場合自身に13%の攻撃速度アップを付与する。",
-          "detail": null
-        }
-      },
-      {
-        "id": "150007141",
-        "name": "ゴーストストライク",
-        "slot": "奥義",
-        "slotEn": "Ultimate",
-        "unlockStar": 2,
-        "icon": null,
-        "type": "瞬発",
-        "mainStat": null,
-        "gcd": null,
-        "desc": "覚醒状態になり、自身に45%のEN値獲得アップを付与する。(24秒)\n前方範囲内のターゲット3体に8回連続で53%のエネルギーダメージを与える。\nラストヒットが命中した時、15%の会心回避ダウンを付与する。(12秒)",
-        "detail": null,
-        "cooldown": "24s",
-        "cost": 3,
-        "statuses": []
-      }
-    ],
-    "profile": {
-      "title": "權欲魔女",
-      "birthday": "11 / 11",
-      "age": "37",
-      "height": "168",
-      "weight": "64",
-      "interest": "酒ソムリエ、画廊巡り、オペラ鑑賞",
-      "personality": "冷静で、他人と距離を置いている",
-      "resumeParas": [
-        "18歲時與羅士昂前幹部結婚並生下伊蓮娜，過沒多久丈夫就因權力鬥爭死去。",
-        "為了女兒的未來，她決定繼承亡夫在組織中的地位。在尼古拉的幫助下，她成功繼承亡夫的權勢、地位，甚至爬得比亡夫還要高。",
-        "由於手段兇殘，還被羅士昂的人戲稱是「魔女」。"
-      ]
-    },
-    "stats": {
-      "atkRange": "180",
-      "normalAttackGCD": "10000",
-      "critPer": "1000",
-      "critRstPer": "0",
-      "critAmpPer": "5000",
-      "critDmgRdcPer": "0",
-      "hitPer": "8500",
-      "ddgPer": "0",
-      "blkPer": "2500",
-      "blkPenPer": "1500",
-      "blkRdcPer": "2000",
-      "healCritPer": "1000",
-      "healCritAmpPer": "5000",
-      "atkHastePer": "0",
-      "cdHastePer": "0",
-      "manaAmpPer": "0",
-      "hpRcvPer": "1000"
-    }
-  },
-  {
-    "id": "133007300",
-    "tierStats": [
-      {
-        "tier": 1,
-        "hp": 3367,
-        "atk": 345
-      },
-      {
-        "tier": 2,
-        "hp": 5034,
-        "atk": 516
-      },
-      {
-        "tier": 3,
-        "hp": 10104,
-        "atk": 1038
-      },
-      {
-        "tier": 4,
-        "hp": 15140,
-        "atk": 1557
-      },
-      {
-        "tier": 5,
-        "hp": 20209,
-        "atk": 2079
-      },
-      {
-        "tier": 6,
-        "hp": 26947,
-        "atk": 2772
-      },
-      {
-        "tier": 7,
-        "hp": 33684,
-        "atk": 3465
-      },
-      {
-        "tier": 8,
-        "hp": 40421,
-        "atk": 4158
-      },
-      {
-        "tier": 9,
-        "hp": 48505,
-        "atk": 4989
-      },
-      {
-        "tier": 10,
-        "hp": 58226,
-        "atk": 5988
-      }
-    ],
-    "growth": {
-      "rate": 2.25,
-      "hp": [
-        45.75,
-        91.51,
-        228.78,
-        366.04,
-        503.31,
-        640.58
-      ],
-      "atk": [
-        3.3,
-        6.6,
-        16.5,
-        26.4,
-        36.3,
-        46.2
-      ]
-    },
-    "affection": [
-      {
-        "label": "会心ダメージ",
-        "value": 100
-      },
-      {
-        "label": "会心ダメージ",
-        "value": 100
-      },
-      {
-        "label": "会心ダメージ",
-        "value": 100
-      },
-      {
-        "label": "会心ダメージ",
-        "value": 100
-      },
-      {
-        "label": "会心ダメージ",
-        "value": 100
-      },
-      {
-        "label": "会心ダメージ",
-        "value": 200
-      },
-      {
-        "label": "会心ダメージ",
-        "value": 200
-      },
-      {
-        "label": "会心ダメージ",
-        "value": 300
-      },
-      {
-        "label": "会心ダメージ",
-        "value": 300
-      },
-      {
-        "label": "会心ダメージ",
-        "value": 500
-      }
-    ],
-    "gear": [
-      {
-        "slot": "両手",
-        "name": "ナイトレースグローブ EX",
-        "stats": [
-          {
-            "label": "攻撃力",
-            "base": 118,
-            "pct": false
-          },
-          {
-            "label": "闇屬性攻擊",
-            "base": 1000,
-            "pct": true
-          },
-          {
-            "label": "物理強化",
-            "base": 62,
-            "pct": false
-          },
-          {
-            "label": "攻撃速度",
-            "base": 163,
-            "pct": false
-          }
-        ]
-      },
-      {
-        "slot": "武器",
-        "name": "MX9サイレンサーSMG EX",
-        "stats": [
-          {
-            "label": "攻撃力",
-            "base": 118,
-            "pct": false
-          },
-          {
-            "label": "闇屬性攻擊",
-            "base": 1000,
-            "pct": true
-          },
-          {
-            "label": "クリティカル",
-            "base": 97,
-            "pct": false
-          },
-          {
-            "label": "会心ダメージ",
-            "base": 217,
-            "pct": false
-          }
-        ]
-      },
-      {
-        "slot": "足部",
-        "name": "黒月ロングブーツ EX",
-        "stats": [
-          {
-            "label": "攻撃力",
-            "base": 118,
-            "pct": false
-          },
-          {
-            "label": "闇屬性攻擊",
-            "base": 1000,
-            "pct": true
-          },
-          {
-            "label": "攻撃速度",
-            "base": 182,
-            "pct": false
-          },
-          {
-            "label": "回避",
-            "base": 58,
-            "pct": false
-          }
-        ]
-      },
-      {
-        "slot": "アクセサリー",
-        "name": "黒曜石のネックレス",
-        "stats": [
-          {
-            "label": "ブロック無視",
-            "base": 800,
-            "pct": true
-          },
-          {
-            "label": "審判抗性",
-            "base": 1500,
-            "pct": true
-          }
-        ]
-      }
-    ],
-    "model": "cr073",
-    "slug": "connie",
-    "name": "コニー",
-    "nameEn": "Connie",
-    "title": "完全無欠の女神",
-    "epithet": "Splendid Execution, Feverish Applause",
-    "sex": "女性",
-    "inGacha": true,
-    "icon": null,
-    "sortOrder": 73,
-    "element": {
-      "id": 6,
-      "name": "闇",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/battleelement_6.webp"
-    },
-    "job": {
-      "id": 5,
-      "name": "デストロイ",
-      "color": "#9433EA",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/master_6.webp"
-    },
-    "attackType": {
-      "id": 1,
-      "name": "物理",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Attributes_02.webp"
-    },
-    "skills": [
-      {
-        "id": "150007300",
-        "name": "點放射擊",
-        "slot": "通常攻撃",
-        "slotEn": "Basic Attack",
-        "unlockStar": 0,
-        "icon": null,
-        "type": "瞬発",
-        "mainStat": null,
-        "gcd": "10s",
-        "desc": "最もHPが低いターゲットに3回連続で26%の物理ダメージを与える。",
-        "detail": null,
-        "cooldown": "0s",
-        "cost": null,
-        "statuses": []
-      },
-      {
-        "id": "150007310",
-        "name": "魅影裂空",
-        "slot": "天賦",
-        "slotEn": "Talent",
-        "unlockStar": 0,
-        "icon": null,
-        "type": "瞬発",
-        "mainStat": null,
-        "gcd": null,
-        "desc": "最もHPが低いのターゲット2体に5回連続で32%の物理ダメージを与える。\nファーストヒットが命中した時、15%の光属性攻撃ダウンを付与する。(10秒)\nファーストヒットが命中した時、10%の回避ダウンを付与する。(10秒)",
-        "detail": null,
-        "cooldown": "10s",
-        "cost": 1,
-        "statuses": [
-          "光属性攻撃ダウン",
-          "回避ダウン"
-        ],
-        "awakened": {
-          "desc": "最もHPが低いのターゲット2体に5回連続で54%の物理ダメージを与える。\nファーストヒットが命中した時、15%の光属性攻撃ダウンを付与する。(10秒)\nファーストヒットが命中した時、10%の回避ダウンを付与する。(10秒)",
-          "detail": null
-        }
-      },
-      {
-        "id": "150007320",
-        "name": "靜謐落星",
-        "slot": "自動",
-        "slotEn": "Auto",
-        "unlockStar": 1,
-        "icon": null,
-        "type": "瞬発",
-        "mainStat": null,
-        "gcd": null,
-        "desc": "最もHPが低いターゲットに5回連続で18%の物理ダメージを与える。\nラストヒットが命中した時、20%の治療効果ダウンを付与する。(10秒)\nラストヒットが命中した時、20%の被治療効果ダウンを付与する。(10秒)",
-        "detail": null,
-        "cooldown": "6s",
-        "cost": null,
-        "statuses": [
-          "治療効果ダウン",
-          "被治療効果ダウン"
-        ],
-        "awakened": {
-          "desc": "最もHPが低いターゲットに5回連続で30%の物理ダメージを与える。\nラストヒットが命中した時、25%の治療効果ダウンを付与する。(10秒)\nラストヒットが命中した時、25%の被治療効果ダウンを付与する。(10秒)",
-          "detail": null
-        }
-      },
-      {
-        "id": "150007330",
-        "name": "完美主義",
-        "slot": "常時 1",
-        "slotEn": "Passive 1",
-        "unlockStar": 4,
-        "icon": null,
-        "type": "常時",
-        "mainStat": null,
-        "gcd": null,
-        "desc": "撃破時、闇属性の全隊員に物理ダメージアップ15%を付与する(12秒)。\nこの効果は最大2重までスタックできる。",
-        "detail": "Queenie is strict with herself, demanding perfection in every detail of her performances.",
-        "cooldown": "0s",
-        "cost": null,
-        "statuses": [],
-        "awakened": {
-          "desc": "撃破時、闇属性の全隊員に物理ダメージアップ15%を付与する(12秒)。\nこの効果は最大2重までスタックできる。\n全隊員に6.5%の回避アップを付与する。",
-          "detail": null
-        }
-      },
-      {
-        "id": "150007350",
-        "name": "絕對魅從",
-        "slot": "常時 2",
-        "slotEn": "Passive 2",
-        "unlockStar": 6,
-        "icon": null,
-        "type": "常時",
-        "mainStat": null,
-        "gcd": null,
-        "desc": "自身に23%の攻撃速度アップを付与する。",
-        "detail": "With just a glance and a smile, Connie can make anyone willingly become her most devoted fan.",
-        "cooldown": "0s",
-        "cost": null,
-        "statuses": [],
-        "awakened": {
-          "desc": "全隊員に23%の攻撃速度アップを付与する。\nPVPの場合自身に13%の会心アップを付与する。",
-          "detail": null
-        }
-      },
-      {
-        "id": "150007341",
-        "name": "魅影舞台",
-        "slot": "奥義",
-        "slotEn": "Ultimate",
-        "unlockStar": 2,
-        "icon": null,
-        "type": "瞬発",
-        "mainStat": null,
-        "gcd": null,
-        "desc": "覚醒状態になり、自身に17%の攻撃力アップを付与する。(24秒)\n最もHPが低いのターゲット2体に6回連続で85%の物理ダメージを与える。\nラストヒットが命中した時、ターゲットが暗闇状態だった場合、更に深淵L追撃を与える。",
-        "detail": null,
-        "cooldown": "24s",
-        "cost": 3,
-        "statuses": []
-      }
-    ],
-    "profile": {
-      "title": "完美女神",
-      "birthday": "10 / 24",
-      "age": "28",
-      "height": "172",
-      "weight": "43",
-      "interest": "人間観察",
-      "personality": "思慮深く、腹黒い。#表：気品があり、美しく、完璧 #裏：腹黒い、冷酷、計算高い、打たれ強い、ドS",
-      "resumeParas": [
-        "托比亞的全民女神，形象幾近完美。早在HL娛樂經紀公司成立前就已是高知名度網紅，後來主動加入經紀公司後成為創社台柱，才讓HL娛樂成為知名經紀公司。",
-        "在公眾形象中，她有氣質、懂人情世故、笑臉迎人又親民，但實際上也是會抱怨工作的人，不過她只會對經紀人或相當信任的人展現這任性的一面。"
-      ]
-    },
-    "stats": {
-      "atkRange": "480",
-      "normalAttackGCD": "10000",
-      "critPer": "1000",
-      "critRstPer": "0",
-      "critAmpPer": "5000",
-      "critDmgRdcPer": "0",
-      "hitPer": "9300",
-      "ddgPer": "0",
-      "blkPer": "2500",
-      "blkPenPer": "0",
-      "blkRdcPer": "2000",
-      "healCritPer": "1000",
-      "healCritAmpPer": "5000",
-      "atkHastePer": "0",
-      "cdHastePer": "0",
-      "manaAmpPer": "0",
-      "hpRcvPer": "1000"
-    }
-  },
+  
+  
+  
+  
+  
   {
     "id": "133007400",
     "tierStats": [

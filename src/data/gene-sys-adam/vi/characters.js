@@ -441,7 +441,7 @@ export const gsaCharactersVi = [
         "slot": "Tấn Công Thường",
         "slotEn": "Basic Attack",
         "unlockStar": 0,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr032_1.webp",
         "type": "Tức Thời",
         "mainStat": null,
         "gcd": "10s",
@@ -475,7 +475,7 @@ export const gsaCharactersVi = [
         "slot": "Auto",
         "slotEn": "Auto",
         "unlockStar": 1,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr032_3.webp",
         "type": "Tức Thời",
         "mainStat": null,
         "gcd": null,
@@ -491,7 +491,7 @@ export const gsaCharactersVi = [
         "slot": "Bị Động 1",
         "slotEn": "Passive 1",
         "unlockStar": 4,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr032_5.webp",
         "type": "Bị Động",
         "mainStat": null,
         "gcd": null,
@@ -511,7 +511,7 @@ export const gsaCharactersVi = [
         "slot": "Bị Động 2",
         "slotEn": "Passive 2",
         "unlockStar": 6,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr032_6.webp",
         "type": "Bị Động",
         "mainStat": null,
         "gcd": null,
@@ -531,7 +531,7 @@ export const gsaCharactersVi = [
         "slot": "Tuyệt Kỹ",
         "slotEn": "Ultimate",
         "unlockStar": 2,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr032_4.webp",
         "type": "Tức Thời",
         "mainStat": null,
         "gcd": null,
@@ -724,7 +724,7 @@ export const gsaCharactersVi = [
         "slot": "Tấn Công Thường",
         "slotEn": "Basic Attack",
         "unlockStar": 0,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr033_1.webp",
         "type": "Tức Thời",
         "mainStat": null,
         "gcd": "18s",
@@ -758,7 +758,7 @@ export const gsaCharactersVi = [
         "slot": "Auto",
         "slotEn": "Auto",
         "unlockStar": 1,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr033_3.webp",
         "type": "Tức Thời",
         "mainStat": null,
         "gcd": null,
@@ -777,7 +777,7 @@ export const gsaCharactersVi = [
         "slot": "Bị Động 1",
         "slotEn": "Passive 1",
         "unlockStar": 4,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr033_5.webp",
         "type": "Bị Động",
         "mainStat": null,
         "gcd": null,
@@ -799,7 +799,7 @@ export const gsaCharactersVi = [
         "slot": "Bị Động 2",
         "slotEn": "Passive 2",
         "unlockStar": 6,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr033_6.webp",
         "type": "Bị Động",
         "mainStat": null,
         "gcd": null,
@@ -819,7 +819,7 @@ export const gsaCharactersVi = [
         "slot": "Tuyệt Kỹ",
         "slotEn": "Ultimate",
         "unlockStar": 2,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr033_4.webp",
         "type": "Tức Thời",
         "mainStat": null,
         "gcd": null,
@@ -1353,7 +1353,7 @@ export const gsaCharactersVi = [
         "slot": "Bị Động 1",
         "slotEn": "Passive 1",
         "unlockStar": 4,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr035_5.webp",
         "type": "Bị Động",
         "mainStat": null,
         "gcd": null,
@@ -1373,7 +1373,7 @@ export const gsaCharactersVi = [
         "slot": "Bị Động 2",
         "slotEn": "Passive 2",
         "unlockStar": 6,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr035_6.webp",
         "type": "Bị Động",
         "mainStat": null,
         "gcd": null,
@@ -4355,7 +4355,7 @@ export const gsaCharactersVi = [
         "slot": "Tấn Công Thường",
         "slotEn": "Basic Attack",
         "unlockStar": 0,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr044_1.webp",
         "type": "Tức Thời",
         "mainStat": null,
         "gcd": "10s",
@@ -4371,7 +4371,7 @@ export const gsaCharactersVi = [
         "slot": "Thiên Phú",
         "slotEn": "Talent",
         "unlockStar": 0,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr044_2.webp",
         "type": "Tức Thời",
         "mainStat": null,
         "gcd": null,
@@ -4394,7 +4394,7 @@ export const gsaCharactersVi = [
         "slot": "Auto",
         "slotEn": "Auto",
         "unlockStar": 1,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr044_3.webp",
         "type": "Tức Thời",
         "mainStat": null,
         "gcd": null,
@@ -4416,7 +4416,7 @@ export const gsaCharactersVi = [
         "slot": "Bị Động 1",
         "slotEn": "Passive 1",
         "unlockStar": 4,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr044_5.webp",
         "type": "Bị Động",
         "mainStat": null,
         "gcd": null,
@@ -4436,7 +4436,7 @@ export const gsaCharactersVi = [
         "slot": "Bị Động 2",
         "slotEn": "Passive 2",
         "unlockStar": 6,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr044_6.webp",
         "type": "Bị Động",
         "mainStat": null,
         "gcd": null,
@@ -4456,7 +4456,7 @@ export const gsaCharactersVi = [
         "slot": "Tuyệt Kỹ",
         "slotEn": "Ultimate",
         "unlockStar": 2,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr044_4.webp",
         "type": "Tức Thời",
         "mainStat": null,
         "gcd": null,
@@ -7054,7 +7054,7 @@ export const gsaCharactersVi = [
         "slot": "Thiên Phú",
         "slotEn": "Talent",
         "unlockStar": 0,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr051_2.webp",
         "type": "Tức Thời",
         "mainStat": null,
         "gcd": null,
@@ -7076,7 +7076,7 @@ export const gsaCharactersVi = [
         "slot": "Auto",
         "slotEn": "Auto",
         "unlockStar": 1,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr051_3.webp",
         "type": "Tức Thời",
         "mainStat": null,
         "gcd": null,
@@ -8193,7 +8193,7 @@ export const gsaCharactersVi = [
         "slot": "Tấn Công Thường",
         "slotEn": "Basic Attack",
         "unlockStar": 0,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr055_1.webp",
         "type": "Tức Thời",
         "mainStat": null,
         "gcd": "9s",
@@ -8209,7 +8209,7 @@ export const gsaCharactersVi = [
         "slot": "Thiên Phú",
         "slotEn": "Talent",
         "unlockStar": 0,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr055_2.webp",
         "type": "Tức Thời",
         "mainStat": null,
         "gcd": null,
@@ -8232,7 +8232,7 @@ export const gsaCharactersVi = [
         "slot": "Auto",
         "slotEn": "Auto",
         "unlockStar": 1,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr055_3.webp",
         "type": "Tức Thời",
         "mainStat": null,
         "gcd": null,
@@ -8254,7 +8254,7 @@ export const gsaCharactersVi = [
         "slot": "Bị Động 1",
         "slotEn": "Passive 1",
         "unlockStar": 4,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr055_5.webp",
         "type": "Bị Động",
         "mainStat": null,
         "gcd": null,
@@ -8274,7 +8274,7 @@ export const gsaCharactersVi = [
         "slot": "Bị Động 2",
         "slotEn": "Passive 2",
         "unlockStar": 6,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr055_6.webp",
         "type": "Bị Động",
         "mainStat": null,
         "gcd": null,
@@ -8294,7 +8294,7 @@ export const gsaCharactersVi = [
         "slot": "Tuyệt Kỹ",
         "slotEn": "Ultimate",
         "unlockStar": 2,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr055_4.webp",
         "type": "Tức Thời",
         "mainStat": null,
         "gcd": null,
@@ -9352,7 +9352,7 @@ export const gsaCharactersVi = [
         "slot": "Tấn Công Thường",
         "slotEn": "Basic Attack",
         "unlockStar": 0,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr058_1.webp",
         "type": "Tức Thời",
         "mainStat": null,
         "gcd": "10s",
@@ -9368,7 +9368,7 @@ export const gsaCharactersVi = [
         "slot": "Thiên Phú",
         "slotEn": "Talent",
         "unlockStar": 0,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr058_2.webp",
         "type": "Tức Thời",
         "mainStat": null,
         "gcd": null,
@@ -9390,7 +9390,7 @@ export const gsaCharactersVi = [
         "slot": "Auto",
         "slotEn": "Auto",
         "unlockStar": 1,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr058_3.webp",
         "type": "Tức Thời",
         "mainStat": null,
         "gcd": null,
@@ -9412,7 +9412,7 @@ export const gsaCharactersVi = [
         "slot": "Bị Động 1",
         "slotEn": "Passive 1",
         "unlockStar": 4,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr058_5.webp",
         "type": "Bị Động",
         "mainStat": null,
         "gcd": null,
@@ -9432,7 +9432,7 @@ export const gsaCharactersVi = [
         "slot": "Bị Động 2",
         "slotEn": "Passive 2",
         "unlockStar": 6,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr058_6.webp",
         "type": "Bị Động",
         "mainStat": null,
         "gcd": null,
@@ -9452,7 +9452,7 @@ export const gsaCharactersVi = [
         "slot": "Tuyệt Kỹ",
         "slotEn": "Ultimate",
         "unlockStar": 2,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr058_4.webp",
         "type": "Tức Thời",
         "mainStat": null,
         "gcd": null,
@@ -9841,393 +9841,7 @@ export const gsaCharactersVi = [
       "hpRcvPer": "1000"
     }
   },
-  {
-    "id": "133006000",
-    "tierStats": [
-      {
-        "tier": 1,
-        "hp": 8533,
-        "atk": 156
-      },
-      {
-        "tier": 2,
-        "hp": 12759,
-        "atk": 230
-      },
-      {
-        "tier": 3,
-        "hp": 25600,
-        "atk": 468
-      },
-      {
-        "tier": 4,
-        "hp": 38360,
-        "atk": 699
-      },
-      {
-        "tier": 5,
-        "hp": 51201,
-        "atk": 937
-      },
-      {
-        "tier": 6,
-        "hp": 68268,
-        "atk": 1249
-      },
-      {
-        "tier": 7,
-        "hp": 85336,
-        "atk": 1562
-      },
-      {
-        "tier": 8,
-        "hp": 102403,
-        "atk": 1874
-      },
-      {
-        "tier": 9,
-        "hp": 122883,
-        "atk": 2246
-      },
-      {
-        "tier": 10,
-        "hp": 147509,
-        "atk": 2700
-      }
-    ],
-    "growth": {
-      "rate": 1.5,
-      "hp": [
-        115.91,
-        231.83,
-        579.57,
-        927.32,
-        1275.06,
-        1622.81
-      ],
-      "atk": [
-        1.48,
-        2.97,
-        7.44,
-        11.9,
-        16.36,
-        20.83
-      ]
-    },
-    "affection": [
-      {
-        "label": "Kháng hệ Phong (%)",
-        "value": 50
-      },
-      {
-        "label": "Kháng hệ Phong (%)",
-        "value": 50
-      },
-      {
-        "label": "Kháng hệ Phong (%)",
-        "value": 50
-      },
-      {
-        "label": "Kháng hệ Phong (%)",
-        "value": 50
-      },
-      {
-        "label": "Kháng hệ Phong (%)",
-        "value": 50
-      },
-      {
-        "label": "Kháng hệ Phong (%)",
-        "value": 50
-      },
-      {
-        "label": "Kháng hệ Phong (%)",
-        "value": 100
-      },
-      {
-        "label": "Kháng hệ Phong (%)",
-        "value": 100
-      },
-      {
-        "label": "Kháng hệ Phong (%)",
-        "value": 100
-      },
-      {
-        "label": "Kháng hệ Phong (%)",
-        "value": 200
-      }
-    ],
-    "gear": [
-      {
-        "slot": "Giáp Tay",
-        "name": "EX.Găng Tay Tơ Quấn",
-        "stats": [
-          {
-            "label": "Tấn Công",
-            "base": 44,
-            "pct": false
-          },
-          {
-            "label": "火屬性攻擊",
-            "base": 1000,
-            "pct": true
-          },
-          {
-            "label": "Tốc Độ Tấn Công",
-            "base": 182,
-            "pct": false
-          },
-          {
-            "label": "Đánh Trúng",
-            "base": 58,
-            "pct": false
-          }
-        ]
-      },
-      {
-        "slot": "Vũ Khí",
-        "name": "EX.Hộ Oản Dị Năng Hỏa",
-        "stats": [
-          {
-            "label": "Tấn Công",
-            "base": 44,
-            "pct": false
-          },
-          {
-            "label": "火屬性攻擊",
-            "base": 1000,
-            "pct": true
-          },
-          {
-            "label": "Đỡ Đòn",
-            "base": 107,
-            "pct": false
-          },
-          {
-            "label": "Damage Block",
-            "base": 96,
-            "pct": false
-          }
-        ]
-      },
-      {
-        "slot": "Giáp Chân",
-        "name": "EX.Giày Tơ Quấn",
-        "stats": [
-          {
-            "label": "Tấn Công",
-            "base": 44,
-            "pct": false
-          },
-          {
-            "label": "火屬性攻擊",
-            "base": 1000,
-            "pct": true
-          },
-          {
-            "label": "Tăng hiệu quả hồi phục nhận được",
-            "base": 188,
-            "pct": false
-          },
-          {
-            "label": "Né Chí Mạng",
-            "base": 80,
-            "pct": false
-          }
-        ]
-      },
-      {
-        "slot": "Phụ Kiện",
-        "name": "Chuỗi Phật Tĩnh Tâm",
-        "stats": [
-          {
-            "label": "Tấn Công",
-            "base": 77,
-            "pct": false
-          }
-        ]
-      }
-    ],
-    "model": "cr060",
-    "slug": "danxin",
-    "name": "Ngự Phong",
-    "nameEn": "Danxin",
-    "title": "Thanh Long Đệ Nhị",
-    "epithet": "Thanh Viêm Thuần Khiết, Khéo Chuyển Ngàn Cân",
-    "sex": "Nam",
-    "inGacha": false,
-    "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/cr060_Icon_Texture.webp",
-    "sortOrder": 60,
-    "element": {
-      "id": 1,
-      "name": "Hỏa",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/battleelement_1.webp"
-    },
-    "job": {
-      "id": 1,
-      "name": "Hộ Vệ",
-      "color": "#957C7A",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/guard_1.webp"
-    },
-    "attackType": {
-      "id": 1,
-      "name": "物理",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Attributes_02.webp"
-    },
-    "skills": [
-      {
-        "id": "150006000",
-        "name": "Tơ Quấn Tiên Kích",
-        "slot": "Tấn Công Thường",
-        "slotEn": "Basic Attack",
-        "unlockStar": 0,
-        "icon": null,
-        "type": "Tức Thời",
-        "mainStat": null,
-        "gcd": "10s",
-        "desc": "Gây 83% Dame Vật Lý lên mục tiêu",
-        "detail": null,
-        "cooldown": "0s",
-        "cost": null,
-        "statuses": []
-      },
-      {
-        "id": "150006010",
-        "name": "Viêm Bích Bàn Long",
-        "slot": "Thiên Phú",
-        "slotEn": "Talent",
-        "unlockStar": 0,
-        "icon": null,
-        "type": "Tức Thời",
-        "mainStat": null,
-        "gcd": null,
-        "desc": "Bản thân nhận Khiên Chắn 2145% (10 giây).",
-        "detail": null,
-        "cooldown": "10s",
-        "cost": 1,
-        "statuses": [
-          "Choáng"
-        ],
-        "awakened": {
-          "desc": "Bản thân nhận Khiên Chắn 3000% (10 giây).",
-          "detail": null
-        }
-      },
-      {
-        "id": "150006020",
-        "name": "Phá Thế Tam Phản Thủ",
-        "slot": "Auto",
-        "slotEn": "Auto",
-        "unlockStar": 1,
-        "icon": null,
-        "type": "Tức Thời",
-        "mainStat": null,
-        "gcd": null,
-        "desc": "Gây 3 Hit 100% Dame Vật Lý lên mục tiêu\nKhi Hit cuối trúng, có Trung xác suất khiến mục tiêu Giảm Dame Năng Lượng 10% (8 giây).",
-        "detail": null,
-        "cooldown": "6s",
-        "cost": null,
-        "statuses": [
-          "Trị Liệu",
-          "Giảm Dame nhận vào"
-        ],
-        "awakened": {
-          "desc": "Gây 3 Hit 135% Dame Vật Lý lên mục tiêu\nKhi Hit cuối trúng, có Trung xác suất khiến mục tiêu Giảm Dame Năng Lượng 20% (8 giây).",
-          "detail": null
-        }
-      },
-      {
-        "id": "150006030",
-        "name": "Bản Năng Nóng Bỏng",
-        "slot": "Bị Động 1",
-        "slotEn": "Passive 1",
-        "unlockStar": 4,
-        "icon": null,
-        "type": "Bị Động",
-        "mainStat": null,
-        "gcd": null,
-        "desc": "Khi bản thân nhận Khiên chắn, bản thân nhận Khuếch Đại trong 6 giây: \"Khi chịu sát thương, có Thấp xác suất khiến mục tiêu Ngẫu Nhiên rơi vào trạng thái Thiêu Đốt S (6 giây).\nMỗi lần kích hoạt hiệu ứng Khuếch Đại phải cách nhau ít nhất 6 giây.",
-        "detail": null,
-        "cooldown": "0s",
-        "cost": null,
-        "statuses": [],
-        "awakened": {
-          "desc": "Khi bản thân nhận Khiên chắn, bản thân nhận Khuếch Đại trong 6 giây: \"Khi chịu sát thương, có Thấp xác suất khiến mục tiêu Ngẫu Nhiên rơi vào trạng thái Thiêu Đốt S (6 giây).\nMỗi lần kích hoạt hiệu ứng Khuếch Đại phải cách nhau ít nhất 6 giây.\nToàn đội nhận Tăng Block 8%.",
-          "detail": null
-        }
-      },
-      {
-        "id": "150006050",
-        "name": "Tơ Quấn Giải Lực",
-        "slot": "Bị Động 2",
-        "slotEn": "Passive 2",
-        "unlockStar": 6,
-        "icon": null,
-        "type": "Bị Động",
-        "mainStat": null,
-        "gcd": null,
-        "desc": "Bản thân nhận Giảm Dame Năng Lượng phải chịu 10%",
-        "detail": null,
-        "cooldown": "0s",
-        "cost": null,
-        "statuses": [],
-        "awakened": {
-          "desc": "Toàn đội nhận Giảm Dame Năng Lượng phải chịu 10%.\nTrong chế độ PVP, bản thân nhận Tăng hiệu quả hồi phục nhận được 13%.",
-          "detail": null
-        }
-      },
-      {
-        "id": "150006041",
-        "name": "Thanh Long Viêm Chấn Phá",
-        "slot": "Tuyệt Kỹ",
-        "slotEn": "Ultimate",
-        "unlockStar": 2,
-        "icon": null,
-        "type": "Tức Thời",
-        "mainStat": null,
-        "gcd": null,
-        "desc": "Vào trạng thái Thức Tỉnh, giúp bản thân nhận Giảm Dame Đánh Thường phải chịu 40% (24 giây).\nGây 4 Hit 93% Dame Năng Lượng lên tối đa 2 mục tiêu trong phạm vi phía trước.\nBản thân nhận Tăng Block 10% (12 giây).\nBản thân nhận Tăng Damage Block 20% (12 giây).",
-        "detail": null,
-        "cooldown": "24s",
-        "cost": 3,
-        "statuses": []
-      }
-    ],
-    "profile": {
-      "title": "功夫美少女",
-      "birthday": "7 / 23",
-      "age": "22",
-      "height": "165",
-      "weight": "51",
-      "interest": "So Tài Võ Nghệ, Ăn Cay",
-      "personality": "Hoạt Bát Hiếu Thắng, Bị Khiêu Khích Là Lập Tức Nghênh Chiến",
-      "resumeParas": [
-        "自幼時隨父親在各國修行，並精進家傳的纏絲拳法。",
-        "17歲回到托比亞後，年少氣盛的丹芯便常私下去打地下拳賽。龍應天視察拳賽，見丹芯拳術了得，遂延攬其帶藝投師入青龍武術館。",
-        "進入青龍幫後，融合龍應天指導的拳術改稱為青龍纏絲拳。",
-        "由於個性活潑又精通武術，也被指派為武鬥會司儀。",
-        "父親目前下落不明，應該是又出國修行了。"
-      ]
-    },
-    "stats": {
-      "atkRange": "120",
-      "normalAttackGCD": "10000",
-      "critPer": "1000",
-      "critRstPer": "0",
-      "critAmpPer": "5000",
-      "critDmgRdcPer": "0",
-      "hitPer": "8500",
-      "ddgPer": "0",
-      "blkPer": "2500",
-      "blkPenPer": "1500",
-      "blkRdcPer": "2000",
-      "healCritPer": "1000",
-      "healCritAmpPer": "5000",
-      "atkHastePer": "0",
-      "cdHastePer": "0",
-      "manaAmpPer": "0",
-      "hpRcvPer": "1000"
-    }
-  },
+  
   {
     "id": "133006100",
     "tierStats": [
@@ -11603,7 +11217,7 @@ export const gsaCharactersVi = [
         "slot": "Tấn Công Thường",
         "slotEn": "Basic Attack",
         "unlockStar": 0,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr064_1.webp",
         "type": "Tức Thời",
         "mainStat": null,
         "gcd": "7.001s",
@@ -11619,7 +11233,7 @@ export const gsaCharactersVi = [
         "slot": "Thiên Phú",
         "slotEn": "Talent",
         "unlockStar": 0,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr064_2.webp",
         "type": "Tức Thời",
         "mainStat": null,
         "gcd": null,
@@ -11642,7 +11256,7 @@ export const gsaCharactersVi = [
         "slot": "Auto",
         "slotEn": "Auto",
         "unlockStar": 1,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr064_3.webp",
         "type": "Tức Thời",
         "mainStat": null,
         "gcd": null,
@@ -11664,7 +11278,7 @@ export const gsaCharactersVi = [
         "slot": "Bị Động 1",
         "slotEn": "Passive 1",
         "unlockStar": 4,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr064_5.webp",
         "type": "Bị Động",
         "mainStat": null,
         "gcd": null,
@@ -11684,7 +11298,7 @@ export const gsaCharactersVi = [
         "slot": "Bị Động 2",
         "slotEn": "Passive 2",
         "unlockStar": 6,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr064_6.webp",
         "type": "Bị Động",
         "mainStat": null,
         "gcd": null,
@@ -11704,7 +11318,7 @@ export const gsaCharactersVi = [
         "slot": "Tuyệt Kỹ",
         "slotEn": "Ultimate",
         "unlockStar": 2,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr064_4.webp",
         "type": "Tức Thời",
         "mainStat": null,
         "gcd": null,
@@ -12524,1939 +12138,11 @@ export const gsaCharactersVi = [
       "hpRcvPer": "1000"
     }
   },
-  {
-    "id": "133006700",
-    "tierStats": [
-      {
-        "tier": 1,
-        "hp": 3367,
-        "atk": 345
-      },
-      {
-        "tier": 2,
-        "hp": 5034,
-        "atk": 516
-      },
-      {
-        "tier": 3,
-        "hp": 10104,
-        "atk": 1038
-      },
-      {
-        "tier": 4,
-        "hp": 15140,
-        "atk": 1557
-      },
-      {
-        "tier": 5,
-        "hp": 20209,
-        "atk": 2079
-      },
-      {
-        "tier": 6,
-        "hp": 26947,
-        "atk": 2772
-      },
-      {
-        "tier": 7,
-        "hp": 33684,
-        "atk": 3465
-      },
-      {
-        "tier": 8,
-        "hp": 40421,
-        "atk": 4158
-      },
-      {
-        "tier": 9,
-        "hp": 48505,
-        "atk": 4989
-      },
-      {
-        "tier": 10,
-        "hp": 58226,
-        "atk": 5988
-      }
-    ],
-    "growth": {
-      "rate": 2,
-      "hp": [
-        45.75,
-        91.51,
-        228.78,
-        366.04,
-        503.31,
-        640.58
-      ],
-      "atk": [
-        3.3,
-        6.6,
-        16.5,
-        26.4,
-        36.3,
-        46.2
-      ]
-    },
-    "affection": [
-      {
-        "label": "Tấn Công",
-        "value": 50
-      },
-      {
-        "label": "Tấn Công",
-        "value": 50
-      },
-      {
-        "label": "Tấn Công",
-        "value": 50
-      },
-      {
-        "label": "Tấn Công",
-        "value": 50
-      },
-      {
-        "label": "Tấn Công",
-        "value": 50
-      },
-      {
-        "label": "Tấn Công",
-        "value": 50
-      },
-      {
-        "label": "Tấn Công",
-        "value": 100
-      },
-      {
-        "label": "Tấn Công",
-        "value": 100
-      },
-      {
-        "label": "Tấn Công",
-        "value": 100
-      },
-      {
-        "label": "Tấn Công",
-        "value": 200
-      }
-    ],
-    "gear": [
-      {
-        "slot": "Giáp Tay",
-        "name": "EX.Vòng Vàng Thúy Vũ",
-        "stats": [
-          {
-            "label": "Tấn Công",
-            "base": 118,
-            "pct": false
-          },
-          {
-            "label": "風屬性攻擊",
-            "base": 1000,
-            "pct": true
-          },
-          {
-            "label": "Cường Hóa Năng Lượng",
-            "base": 62,
-            "pct": false
-          },
-          {
-            "label": "Tốc Độ Tấn Công",
-            "base": 163,
-            "pct": false
-          }
-        ]
-      },
-      {
-        "slot": "Vũ Khí",
-        "name": "EX.Sáo Ngọc Minh Phong",
-        "stats": [
-          {
-            "label": "Tấn Công",
-            "base": 118,
-            "pct": false
-          },
-          {
-            "label": "風屬性攻擊",
-            "base": 1000,
-            "pct": true
-          },
-          {
-            "label": "CRIT",
-            "base": 97,
-            "pct": false
-          },
-          {
-            "label": "CRIT Dame",
-            "base": 217,
-            "pct": false
-          }
-        ]
-      },
-      {
-        "slot": "Giáp Chân",
-        "name": "EX.Cao Gót Thanh Phong",
-        "stats": [
-          {
-            "label": "Tấn Công",
-            "base": 118,
-            "pct": false
-          },
-          {
-            "label": "風屬性攻擊",
-            "base": 1000,
-            "pct": true
-          },
-          {
-            "label": "Tốc Độ Tấn Công",
-            "base": 182,
-            "pct": false
-          },
-          {
-            "label": "Dodge",
-            "base": 58,
-            "pct": false
-          }
-        ]
-      },
-      {
-        "slot": "Phụ Kiện",
-        "name": "Trâm Hoa Bích Lộ",
-        "stats": [
-          {
-            "label": "Tấn Công",
-            "base": 77,
-            "pct": false
-          }
-        ]
-      }
-    ],
-    "model": "cr067",
-    "slug": "qing-yin",
-    "name": "Thanh Âm",
-    "nameEn": "Qing Yin",
-    "title": "Nhạc Cơ Tuyệt Sắc Khuynh Thành",
-    "epithet": "Sấm Dịu Êm, Dư Âm Vương Vấn",
-    "sex": "Nữ",
-    "inGacha": true,
-    "icon": null,
-    "sortOrder": 67,
-    "element": {
-      "id": 3,
-      "name": "Phong",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/battleelement_3.webp"
-    },
-    "job": {
-      "id": 5,
-      "name": "Công Phá",
-      "color": "#9433EA",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/master_3.webp"
-    },
-    "attackType": {
-      "id": 2,
-      "name": "能量",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Attributes_01.webp"
-    },
-    "skills": [
-      {
-        "id": "150006700",
-        "name": "穿雲短音",
-        "slot": "Tấn Công Thường",
-        "slotEn": "Basic Attack",
-        "unlockStar": 0,
-        "icon": null,
-        "type": "Tức Thời",
-        "mainStat": null,
-        "gcd": "10s",
-        "desc": "Ưu tiên gây 75% Dame Năng Lượng cho mục tiêu đang bị Điện Giật",
-        "detail": null,
-        "cooldown": "0s",
-        "cost": null,
-        "statuses": []
-      },
-      {
-        "id": "150006710",
-        "name": "疊律震響",
-        "slot": "Thiên Phú",
-        "slotEn": "Talent",
-        "unlockStar": 0,
-        "icon": null,
-        "type": "Tức Thời",
-        "mainStat": null,
-        "gcd": null,
-        "desc": "Ưu tiên gây 3 Hit 90% Dame Năng Lượng cho mục tiêu đang bị Điện Giật\nKhi Hit đầu tiên trúng, khiến mục tiêu Giảm Kháng Hệ Phong 12% (6 giây).\nKhi Hit cuối trúng, nếu mục tiêu ở trạng thái Điện Giật, sẽ thêm Truy Kích Overload M lên mục tiêu.",
-        "detail": null,
-        "cooldown": "10s",
-        "cost": 1,
-        "statuses": [],
-        "awakened": {
-          "desc": "Ưu tiên gây 3 Hit 152% Dame Năng Lượng cho mục tiêu đang bị Điện Giật\nKhi Hit đầu tiên trúng, khiến mục tiêu Giảm Kháng Hệ Phong 12% (10 giây).\nKhi Hit cuối trúng, nếu mục tiêu ở trạng thái Điện Giật, sẽ thêm Truy Kích Overload M lên mục tiêu.",
-          "detail": null
-        }
-      },
-      {
-        "id": "150006720",
-        "name": "迴音縛陣",
-        "slot": "Auto",
-        "slotEn": "Auto",
-        "unlockStar": 1,
-        "icon": null,
-        "type": "Tức Thời",
-        "mainStat": null,
-        "gcd": null,
-        "desc": "Ưu tiên gây 110% Dame Năng Lượng cho mục tiêu đang bị Điện Giật\nKhi Đánh Trúng, có Cao xác suất khiến mục tiêu rơi vào trạng thái Choáng (3 giây).",
-        "detail": null,
-        "cooldown": "6s",
-        "cost": null,
-        "statuses": [],
-        "awakened": {
-          "desc": "Ưu tiên gây 176% Dame Năng Lượng cho mục tiêu đang bị Điện Giật\nKhi Đánh Trúng, có Cực Cao xác suất khiến mục tiêu rơi vào trạng thái Choáng (3 giây).",
-          "detail": null
-        }
-      },
-      {
-        "id": "150006730",
-        "name": "柔音暗刃",
-        "slot": "Bị Động 1",
-        "slotEn": "Passive 1",
-        "unlockStar": 4,
-        "icon": null,
-        "type": "Bị Động",
-        "mainStat": null,
-        "gcd": null,
-        "desc": "Khi trúng, nếu mục tiêu đang bị Điện Giật, ban cho bản thân Tăng ATK Hệ Phong8% (12 giây)\nHiệu ứng tối đa cộng dồn 2 lớp",
-        "detail": "Qing Yin ngoài mặt dịu dàng nhưng sau nụ cười là một lưỡi dao.",
-        "cooldown": "0s",
-        "cost": null,
-        "statuses": [],
-        "awakened": {
-          "desc": "Khi trúng, nếu mục tiêu đang bị Điện Giật, ban cho bản thân Tăng ATK Hệ Phong9% (12 giây)\nHiệu ứng tối đa cộng dồn 2 lớp\nToàn đội nhận Tăng Dame Năng Lượng 6%.",
-          "detail": null
-        }
-      },
-      {
-        "id": "150006750",
-        "name": "操盤雅音",
-        "slot": "Bị Động 2",
-        "slotEn": "Passive 2",
-        "unlockStar": 6,
-        "icon": null,
-        "type": "Bị Động",
-        "mainStat": null,
-        "gcd": null,
-        "desc": "Bản thân nhận Tăng CRIT 14%",
-        "detail": "Qing Yin luôn lặng lẽ quan sát sự thay đổi trong lời nói và hành động của người khác, dùng tiếng nhạc từ từ dẫn dắt nhịp độ của họ.",
-        "cooldown": "0s",
-        "cost": null,
-        "statuses": [],
-        "awakened": {
-          "desc": "Toàn đội nhận Tăng CRIT 14%.\nTrong chế độ PVP, bản thân nhận Tăng ATK SPD 15%.",
-          "detail": null
-        }
-      },
-      {
-        "id": "150006741",
-        "name": "萬音爆裂",
-        "slot": "Tuyệt Kỹ",
-        "slotEn": "Ultimate",
-        "unlockStar": 2,
-        "icon": null,
-        "type": "Tức Thời",
-        "mainStat": null,
-        "gcd": null,
-        "desc": "Vào trạng thái Thức Tỉnh, giúp bản thân nhận Tăng ATK 15% (24 giây).\nƯu tiên gây 2 Hit 413.5% Dame Năng Lượng cho mục tiêu đang bị Điện Giật\nKhi Hit đầu tiên trúng, giúp bản thân nhận Tăng ATK Hệ Phong 15% (12 giây).\nKhi Hit đầu tiên trúng, giúp bản thân nhận Tăng ATK SPD 30% (12 giây).\nKhi Hit cuối trúng, nếu mục tiêu ở trạng thái Điện Giật, sẽ thêm Truy Kích Overload L lên mục tiêu.",
-        "detail": null,
-        "cooldown": "24s",
-        "cost": 3,
-        "statuses": []
-      }
-    ],
-    "profile": {
-      "title": "絕色傾城之樂姬",
-      "birthday": "10 / 14",
-      "age": "23",
-      "height": "166",
-      "weight": "55",
-      "interest": "Quan Sát Đối Tượng, Âm Nhạc",
-      "personality": "Dịu Dàng Nhã Nhặn, Hiểu Lễ Nghĩa#Giỏi Dẫn Dắt Cuộc Trò Chuyện Để Nắm Thế Chủ Động",
-      "resumeParas": [
-        "前九幽幫樂師，後轉投青龍幫",
-        "清音是九幽幫的樂師兼性奴，以迷魂笛聲協助殺手冷鴆進行暗殺。",
-        "後冷鴆被幫派高層煉成沒有自我意識的「蠱奴」。清音從青龍幫臥底藥師半夏口中得知蠱奴的絕望下場後，長期順從幫派的她，終於決定為改變命運做出反撲。",
-        "靠半夏調製的藥物與自身的笛音暗殺九幽幫成員後，帶冷鴆前往青龍幫尋求協助。"
-      ]
-    },
-    "stats": {
-      "atkRange": "600",
-      "normalAttackGCD": "10000",
-      "critPer": "1000",
-      "critRstPer": "0",
-      "critAmpPer": "5000",
-      "critDmgRdcPer": "0",
-      "hitPer": "9300",
-      "ddgPer": "0",
-      "blkPer": "2500",
-      "blkPenPer": "0",
-      "blkRdcPer": "2000",
-      "healCritPer": "1000",
-      "healCritAmpPer": "5000",
-      "atkHastePer": "0",
-      "cdHastePer": "0",
-      "manaAmpPer": "0",
-      "hpRcvPer": "1000"
-    }
-  },
-  {
-    "id": "133006800",
-    "tierStats": [
-      {
-        "tier": 1,
-        "hp": 4176,
-        "atk": 262
-      },
-      {
-        "tier": 2,
-        "hp": 6242,
-        "atk": 392
-      },
-      {
-        "tier": 3,
-        "hp": 12529,
-        "atk": 788
-      },
-      {
-        "tier": 4,
-        "hp": 18774,
-        "atk": 1183
-      },
-      {
-        "tier": 5,
-        "hp": 25059,
-        "atk": 1580
-      },
-      {
-        "tier": 6,
-        "hp": 33415,
-        "atk": 2106
-      },
-      {
-        "tier": 7,
-        "hp": 41768,
-        "atk": 2633
-      },
-      {
-        "tier": 8,
-        "hp": 50122,
-        "atk": 3160
-      },
-      {
-        "tier": 9,
-        "hp": 60146,
-        "atk": 3791
-      },
-      {
-        "tier": 10,
-        "hp": 72201,
-        "atk": 4550
-      }
-    ],
-    "growth": {
-      "rate": 1.5,
-      "hp": [
-        56.73,
-        113.47,
-        283.68,
-        453.89,
-        624.11,
-        794.32
-      ],
-      "atk": [
-        2.5,
-        5.01,
-        12.54,
-        20.06,
-        27.58,
-        35.11
-      ]
-    },
-    "affection": [
-      {
-        "label": "Tấn Công",
-        "value": 50
-      },
-      {
-        "label": "Tấn Công",
-        "value": 50
-      },
-      {
-        "label": "Tấn Công",
-        "value": 50
-      },
-      {
-        "label": "Tấn Công",
-        "value": 50
-      },
-      {
-        "label": "Tấn Công",
-        "value": 50
-      },
-      {
-        "label": "Tấn Công",
-        "value": 50
-      },
-      {
-        "label": "Tấn Công",
-        "value": 50
-      },
-      {
-        "label": "Tấn Công",
-        "value": 50
-      },
-      {
-        "label": "Tấn Công",
-        "value": 50
-      },
-      {
-        "label": "Tấn Công",
-        "value": 50
-      }
-    ],
-    "gear": [
-      {
-        "slot": "Giáp Tay",
-        "name": "EX.Tay Áo Huyết Lệ",
-        "stats": [
-          {
-            "label": "Tấn Công",
-            "base": 118,
-            "pct": false
-          },
-          {
-            "label": "水屬性攻擊",
-            "base": 1000,
-            "pct": true
-          },
-          {
-            "label": "Đánh Trúng",
-            "base": 58,
-            "pct": false
-          },
-          {
-            "label": "Cường Hóa Năng Lượng",
-            "base": 62,
-            "pct": false
-          }
-        ]
-      },
-      {
-        "slot": "Vũ Khí",
-        "name": "EX.Kim Phược Mệnh",
-        "stats": [
-          {
-            "label": "Tấn Công",
-            "base": 118,
-            "pct": false
-          },
-          {
-            "label": "水屬性攻擊",
-            "base": 1000,
-            "pct": true
-          },
-          {
-            "label": "技能強化",
-            "base": 1000,
-            "pct": true
-          }
-        ]
-      },
-      {
-        "slot": "Giáp Chân",
-        "name": "EX.Giày Ngưng Sương",
-        "stats": [
-          {
-            "label": "Tấn Công",
-            "base": 118,
-            "pct": false
-          },
-          {
-            "label": "水屬性攻擊",
-            "base": 1000,
-            "pct": true
-          },
-          {
-            "label": "Tốc Độ Tấn Công",
-            "base": 182,
-            "pct": false
-          },
-          {
-            "label": "Dodge",
-            "base": 58,
-            "pct": false
-          }
-        ]
-      },
-      {
-        "slot": "Phụ Kiện",
-        "name": "Kết Bình An",
-        "stats": [
-          {
-            "label": "Tấn Công",
-            "base": 77,
-            "pct": false
-          }
-        ]
-      }
-    ],
-    "model": "cr068",
-    "slug": "leng-zhen",
-    "name": "Lãnh Trấm",
-    "nameEn": "Leng Zhen",
-    "title": "Đao Phủ Vô Hồn",
-    "epithet": "Hàn Châm Phong Huyệt, Khí Huyết Lưu Chuyển",
-    "sex": "Nữ",
-    "inGacha": true,
-    "icon": null,
-    "sortOrder": 68,
-    "element": {
-      "id": 4,
-      "name": "Thủy",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/battleelement_4.webp"
-    },
-    "job": {
-      "id": 5,
-      "name": "Công Phá",
-      "color": "#9433EA",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/master_4.webp"
-    },
-    "attackType": {
-      "id": 2,
-      "name": "能量",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Attributes_01.webp"
-    },
-    "skills": [
-      {
-        "id": "150006800",
-        "name": "Đoạn Tức",
-        "slot": "Tấn Công Thường",
-        "slotEn": "Basic Attack",
-        "unlockStar": 0,
-        "icon": null,
-        "type": "Tức Thời",
-        "mainStat": null,
-        "gcd": "10s",
-        "desc": "Gây 69% Dame Năng Lượng lên mục tiêu Ngẫu Nhiên",
-        "detail": null,
-        "cooldown": "0s",
-        "cost": null,
-        "statuses": []
-      },
-      {
-        "id": "150006810",
-        "name": "Đoạn Mạch",
-        "slot": "Thiên Phú",
-        "slotEn": "Talent",
-        "unlockStar": 0,
-        "icon": null,
-        "type": "Tức Thời",
-        "mainStat": null,
-        "gcd": null,
-        "desc": "Gây 3 Hit 105% Dame Năng Lượng lên mục tiêu Ngẫu Nhiên\nKhi Đánh Trúng, tăng 2 EN cho phe ta.",
-        "detail": null,
-        "cooldown": "10s",
-        "cost": 1,
-        "statuses": [
-          "Tăng lượng EN nhận được"
-        ],
-        "awakened": {
-          "desc": "Gây 3 Hit 125% Dame Năng Lượng lên mục tiêu Ngẫu Nhiên\nKhi Đánh Trúng, tăng 2.5 EN cho phe ta.",
-          "detail": null
-        }
-      },
-      {
-        "id": "150006820",
-        "name": "Phong Huyệt",
-        "slot": "Auto",
-        "slotEn": "Auto",
-        "unlockStar": 1,
-        "icon": null,
-        "type": "Tức Thời",
-        "mainStat": null,
-        "gcd": null,
-        "desc": "Gây 3 Hit 105% Dame Năng Lượng lên mục tiêu Ngẫu Nhiên\nKhi Đánh Trúng, có Cao xác suất khiến mục tiêu rơi vào trạng thái Đóng Băng M (3 giây).",
-        "detail": null,
-        "cooldown": "6s",
-        "cost": null,
-        "statuses": [
-          "Đóng Băng"
-        ],
-        "awakened": {
-          "desc": "Gây 3 Hit 145% Dame Năng Lượng lên mục tiêu Ngẫu Nhiên\nKhi Đánh Trúng, khiến mục tiêu rơi vào trạng thái Đóng Băng M (3 giây).",
-          "detail": null
-        }
-      },
-      {
-        "id": "150006830",
-        "name": "Đoạn Giác",
-        "slot": "Bị Động 1",
-        "slotEn": "Passive 1",
-        "unlockStar": 4,
-        "icon": null,
-        "type": "Bị Động",
-        "mainStat": null,
-        "gcd": null,
-        "desc": "Mỗi lần kích hoạt hiệu ứng phải cách nhau ít nhất 6 giây",
-        "detail": "Having been reduced to a vessel with no sense of self, she is completely cut off from the interference of emotions like fear and hesitation.",
-        "cooldown": "0s",
-        "cost": null,
-        "statuses": [],
-        "awakened": {
-          "desc": "Mỗi lần kích hoạt hiệu ứng phải cách nhau ít nhất 6 giây\nToàn đội nhận Tăng ATK Hệ Thủy 8.5%.",
-          "detail": null
-        }
-      },
-      {
-        "id": "150006850",
-        "name": "Lệnh Độc",
-        "slot": "Bị Động 2",
-        "slotEn": "Passive 2",
-        "unlockStar": 6,
-        "icon": null,
-        "type": "Bị Động",
-        "mainStat": null,
-        "gcd": null,
-        "desc": "Bản thân nhận Tăng Dame Kỹ Năng 12.5%",
-        "detail": "A body whose sense of pain is devoured by venom can push itself to the limit, utterly ignoring the price of torn muscles.",
-        "cooldown": "0s",
-        "cost": null,
-        "statuses": []
-      },
-      {
-        "id": "150006841",
-        "name": "Táng Lệnh",
-        "slot": "Tuyệt Kỹ",
-        "slotEn": "Ultimate",
-        "unlockStar": 2,
-        "icon": null,
-        "type": "Tức Thời",
-        "mainStat": null,
-        "gcd": null,
-        "desc": "Vào trạng thái Thức Tỉnh, giúp bản thân nhận Tăng Tỷ Lệ Đóng Băng 35% (24 giây).\nGây 3 Hit 300% Dame Năng Lượng lên mục tiêu Ngẫu Nhiên\nKhi Đánh Trúng, khiến mục tiêu rơi vào trạng thái Đóng Băng M (3 giây).",
-        "detail": null,
-        "cooldown": "24s",
-        "cost": 3,
-        "statuses": []
-      }
-    ],
-    "profile": {
-      "title": "無魂的處刑者",
-      "birthday": "12 / 25",
-      "age": "26",
-      "height": "172",
-      "weight": "53",
-      "interest": "Kẹo, Đồ Uống Ngọt (Do Trẻ Hóa)",
-      "personality": "1, Phản ứng rất chậm với kích thích bên ngoài#2. Rất phụ thuộc và muốn bảo vệ Thanh Âm",
-      "resumeParas": [
-        "前九幽幫殺手，後與清音轉投青龍幫。",
-        "出生於托比亞；年幼時因家庭債務被賣入九幽幫，訓練栽培後成為殺手。",
-        "與樂師 「清音」長期搭檔，兩人的默契與私情在一次次任務中昇華。",
-        "私下密謀帶清音逃離九幽幫；但事成前即被幫派高層煉為蠱奴。做為性奴與殺手用。",
-        "後被清音帶至青龍幫尋求協助。"
-      ]
-    },
-    "stats": {
-      "atkRange": "480",
-      "normalAttackGCD": "10000",
-      "critPer": "1000",
-      "critRstPer": "0",
-      "critAmpPer": "5000",
-      "critDmgRdcPer": "0",
-      "hitPer": "9300",
-      "ddgPer": "0",
-      "blkPer": "2500",
-      "blkPenPer": "0",
-      "blkRdcPer": "2000",
-      "healCritPer": "1000",
-      "healCritAmpPer": "5000",
-      "atkHastePer": "0",
-      "cdHastePer": "0",
-      "manaAmpPer": "0",
-      "hpRcvPer": "1000"
-    }
-  },
-  {
-    "id": "133007000",
-    "tierStats": [
-      {
-        "tier": 1,
-        "hp": 3928,
-        "atk": 252
-      },
-      {
-        "tier": 2,
-        "hp": 5875,
-        "atk": 375
-      },
-      {
-        "tier": 3,
-        "hp": 11788,
-        "atk": 756
-      },
-      {
-        "tier": 4,
-        "hp": 17663,
-        "atk": 1131
-      },
-      {
-        "tier": 5,
-        "hp": 23578,
-        "atk": 1512
-      },
-      {
-        "tier": 6,
-        "hp": 31438,
-        "atk": 2016
-      },
-      {
-        "tier": 7,
-        "hp": 39299,
-        "atk": 2520
-      },
-      {
-        "tier": 8,
-        "hp": 47158,
-        "atk": 3024
-      },
-      {
-        "tier": 9,
-        "hp": 56589,
-        "atk": 3627
-      },
-      {
-        "tier": 10,
-        "hp": 67930,
-        "atk": 4356
-      }
-    ],
-    "growth": {
-      "rate": 2,
-      "hp": [
-        53.38,
-        106.76,
-        266.91,
-        427.05,
-        587.2,
-        747.34
-      ],
-      "atk": [
-        2.4,
-        4.8,
-        12,
-        19.2,
-        26.4,
-        33.6
-      ]
-    },
-    "affection": [
-      {
-        "label": "Tấn Công",
-        "value": 50
-      },
-      {
-        "label": "Tấn Công",
-        "value": 50
-      },
-      {
-        "label": "Tấn Công",
-        "value": 50
-      },
-      {
-        "label": "Tấn Công",
-        "value": 50
-      },
-      {
-        "label": "Tấn Công",
-        "value": 50
-      },
-      {
-        "label": "Tấn Công",
-        "value": 50
-      },
-      {
-        "label": "Tấn Công",
-        "value": 50
-      },
-      {
-        "label": "Tấn Công",
-        "value": 50
-      },
-      {
-        "label": "Tấn Công",
-        "value": 50
-      },
-      {
-        "label": "Tấn Công",
-        "value": 50
-      }
-    ],
-    "gear": [
-      {
-        "slot": "Giáp Tay",
-        "name": "EX.Hình Xăm Dán",
-        "stats": [
-          {
-            "label": "Tấn Công",
-            "base": 88,
-            "pct": false
-          },
-          {
-            "label": "火屬性攻擊",
-            "base": 1200,
-            "pct": true
-          },
-          {
-            "label": "Đánh Trúng",
-            "base": 42,
-            "pct": false
-          },
-          {
-            "label": "審判命中",
-            "base": 1500,
-            "pct": true
-          }
-        ]
-      },
-      {
-        "slot": "Vũ Khí",
-        "name": "EX.Súng Lục Cũ Của Cha",
-        "stats": [
-          {
-            "label": "Tấn Công",
-            "base": 88,
-            "pct": false
-          },
-          {
-            "label": "火屬性攻擊",
-            "base": 1200,
-            "pct": true
-          },
-          {
-            "label": "CRIT",
-            "base": 50,
-            "pct": false
-          },
-          {
-            "label": "Bỏ qua Đỡ Đòn",
-            "base": 50,
-            "pct": false
-          }
-        ]
-      },
-      {
-        "slot": "Giáp Chân",
-        "name": "EX.Giày Nữ Cao Cấp Đặt Riêng",
-        "stats": [
-          {
-            "label": "Tấn Công",
-            "base": 88,
-            "pct": false
-          },
-          {
-            "label": "火屬性攻擊",
-            "base": 1200,
-            "pct": true
-          },
-          {
-            "label": "Tốc Độ Tấn Công",
-            "base": 50,
-            "pct": false
-          },
-          {
-            "label": "Né Chí Mạng",
-            "base": 50,
-            "pct": false
-          }
-        ]
-      },
-      {
-        "slot": "Phụ Kiện",
-        "name": "Nước Hoa Chân Ái Của Elena",
-        "stats": [
-          {
-            "label": "Tấn Công",
-            "base": 77,
-            "pct": false
-          }
-        ]
-      }
-    ],
-    "model": "cr070",
-    "slug": "elena",
-    "name": "Yelena",
-    "nameEn": "Elena",
-    "title": "Gai Đỏ Nổi Loạn",
-    "epithet": "Mỹ Nhân Kiều Diễm, Hoa Hồng Cuồng Kích",
-    "sex": "Nữ",
-    "inGacha": true,
-    "icon": null,
-    "sortOrder": 70,
-    "element": {
-      "id": 1,
-      "name": "Hỏa",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/battleelement_1.webp"
-    },
-    "job": {
-      "id": 4,
-      "name": "Hỗ Trợ",
-      "color": "#33EA62",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/priest_1.webp"
-    },
-    "attackType": {
-      "id": 2,
-      "name": "能量",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Attributes_01.webp"
-    },
-    "skills": [
-      {
-        "id": "150007000",
-        "name": "Nốt Nhạc Xao Động",
-        "slot": "Tấn Công Thường",
-        "slotEn": "Basic Attack",
-        "unlockStar": 0,
-        "icon": null,
-        "type": "Tức Thời",
-        "mainStat": null,
-        "gcd": "10s",
-        "desc": "Gây 2 Hit 100% Dame Vật Lý lên mục tiêu",
-        "detail": null,
-        "cooldown": "0s",
-        "cost": null,
-        "statuses": []
-      },
-      {
-        "id": "150007010",
-        "name": "Bùng Nổ Toàn Trường",
-        "slot": "Thiên Phú",
-        "slotEn": "Talent",
-        "unlockStar": 0,
-        "icon": null,
-        "type": "Tức Thời",
-        "mainStat": null,
-        "gcd": null,
-        "desc": "Gây 5 Hit 100% Dame Năng Lượng cho tối đa 3 mục tiêu trong phạm vi phía trước\nKhi Đánh Trúng, khiến mục tiêu rơi vào trạng thái Thiêu Đốt M (0 giây).",
-        "detail": null,
-        "cooldown": "10s",
-        "cost": 1,
-        "statuses": [
-          "Thiêu Đốt"
-        ],
-        "awakened": {
-          "desc": "Gây 5 Hit 170% Dame Năng Lượng cho tối đa 3 mục tiêu trong phạm vi phía trước\nKhi Đánh Trúng, khiến mục tiêu rơi vào trạng thái Thiêu Đốt M (0 giây).",
-          "detail": null
-        }
-      },
-      {
-        "id": "150007020",
-        "name": "Khởi Động Tiệc",
-        "slot": "Auto",
-        "slotEn": "Auto",
-        "unlockStar": 1,
-        "icon": null,
-        "type": "Tức Thời",
-        "mainStat": null,
-        "gcd": null,
-        "desc": "Bản thân nhận Tăng Bỏ Qua Block 20% (12 giây).\nBản thân nhận Tăng Dame Kỹ Năng 12% (12 giây).\nBản thân nhận Tăng lượng EN nhận được 40% (12 giây).",
-        "detail": null,
-        "cooldown": "6s",
-        "cost": null,
-        "statuses": [
-          "Tăng Né CRIT",
-          "Tăng Dame Kỹ Năng",
-          "Tăng ATK SPD"
-        ],
-        "awakened": {
-          "desc": "Bản thân nhận Tăng Bỏ Qua Block 24% (12 giây).\nBản thân nhận Tăng Dame Kỹ Năng 18% (12 giây).\nBản thân nhận Tăng lượng EN nhận được 60% (12 giây).",
-          "detail": null
-        }
-      },
-      {
-        "id": "150007030",
-        "name": "Tôi Sẽ Mách Mẹ!",
-        "slot": "Bị Động 1",
-        "slotEn": "Passive 1",
-        "unlockStar": 4,
-        "icon": null,
-        "type": "Bị Động",
-        "mainStat": null,
-        "gcd": null,
-        "desc": "Khi trúng, nếu mục tiêu đang bị Thiêu Đốt, ban cho bản thân Tăng ATK Hệ Hỏa6% (12 giây)",
-        "detail": "With her mother backing her up, no matter what Elena does, she knows she'll be forgiven~",
-        "cooldown": "0s",
-        "cost": null,
-        "statuses": [],
-        "awakened": {
-          "desc": "Khi trúng, nếu mục tiêu đang bị Thiêu Đốt, ban cho bản thân Tăng ATK Hệ Hỏa7% (12 giây)\nToàn đội nhận Tăng CRIT Dame 12%.",
-          "detail": null
-        }
-      },
-      {
-        "id": "150007050",
-        "name": "Hoan Lạc Tột Đỉnh",
-        "slot": "Bị Động 2",
-        "slotEn": "Passive 2",
-        "unlockStar": 6,
-        "icon": null,
-        "type": "Bị Động",
-        "mainStat": null,
-        "gcd": null,
-        "desc": "Bản thân nhận Tăng Dame Năng Lượng 10%",
-        "detail": "Mỗi tiếng súng là một nhịp của bữa tiệc! Trong chiến đấu, Yelena dần bước vào trạng thái cuồng nhiệt theo nhịp tấn công.",
-        "cooldown": "0s",
-        "cost": null,
-        "statuses": [],
-        "awakened": {
-          "desc": "Toàn đội nhận Tăng Dame Năng Lượng 10%.\nTrong chế độ PVP, bản thân nhận Tăng ATK 8%.",
-          "detail": null
-        }
-      },
-      {
-        "id": "150007041",
-        "name": "Hồng Gai Loạn Vũ",
-        "slot": "Tuyệt Kỹ",
-        "slotEn": "Ultimate",
-        "unlockStar": 2,
-        "icon": null,
-        "type": "Tức Thời",
-        "mainStat": null,
-        "gcd": null,
-        "desc": "Vào trạng thái Thức Tỉnh, giúp bản thân nhận Tăng Dame Năng Lượng 10% (24 giây).\nGây 18 Hit 250% Dame Năng Lượng lên toàn bộ mục tiêu.\nKhi Đánh Trúng, khiến mục tiêu rơi vào trạng thái Thiêu Đốt L (12 giây).\nKhi Hit cuối trúng, khiến mục tiêu Giảm Bonus CRIT Hồi Máu 18% (12 giây).",
-        "detail": null,
-        "cooldown": "24s",
-        "cost": 3,
-        "statuses": []
-      }
-    ],
-    "profile": {
-      "title": "叛逆的紅棘",
-      "birthday": "12 / 12",
-      "age": "20",
-      "height": "165",
-      "weight": "48",
-      "interest": "Tham Gia Lễ Hội Âm Nhạc, Dự Tiệc, Xem Opera",
-      "personality": "Hướng Ngoại, Hoạt Bát, Ngông Nghênh, Nhiệt Tình, Nổi Loạn",
-      "resumeParas": [
-        "從小在羅士昂兄弟會長大，因為父母的身分地位沒有人敢對她動歪腦筋，反倒會刻意討好她以求升職。她也會仗著這點，在不影響母親名聲的前提下刻意使喚組織中的人。",
-        "由於在爾虞我詐的環境中成長，因此看人的直覺相當準，也不避諱別人利用自己（因為她也會試圖從對方身上得到利益）。",
-        "母親有意讓她繼承現在的地位，因此刻意安排家教讓她上課，但她時常翹課，常讓老師和母親煩惱。",
-        "和母親一樣喜歡聽歌劇，但因為叛逆裝作不喜歡，轉而頻繁參加母親認為不入流的音樂祭。"
-      ]
-    },
-    "stats": {
-      "atkRange": "600",
-      "normalAttackGCD": "10000",
-      "critPer": "1000",
-      "critRstPer": "0",
-      "critAmpPer": "5000",
-      "critDmgRdcPer": "0",
-      "hitPer": "8000",
-      "ddgPer": "0",
-      "blkPer": "2500",
-      "blkPenPer": "0",
-      "blkRdcPer": "2000",
-      "healCritPer": "1000",
-      "healCritAmpPer": "5000",
-      "atkHastePer": "0",
-      "cdHastePer": "2500",
-      "manaAmpPer": "0",
-      "hpRcvPer": "1000"
-    }
-  },
-  {
-    "id": "133007100",
-    "tierStats": [
-      {
-        "tier": 1,
-        "hp": 5613,
-        "atk": 315
-      },
-      {
-        "tier": 2,
-        "hp": 8393,
-        "atk": 471
-      },
-      {
-        "tier": 3,
-        "hp": 16841,
-        "atk": 945
-      },
-      {
-        "tier": 4,
-        "hp": 25236,
-        "atk": 1416
-      },
-      {
-        "tier": 5,
-        "hp": 33684,
-        "atk": 1890
-      },
-      {
-        "tier": 6,
-        "hp": 44912,
-        "atk": 2520
-      },
-      {
-        "tier": 7,
-        "hp": 56142,
-        "atk": 3150
-      },
-      {
-        "tier": 8,
-        "hp": 67370,
-        "atk": 3780
-      },
-      {
-        "tier": 9,
-        "hp": 80844,
-        "atk": 4536
-      },
-      {
-        "tier": 10,
-        "hp": 97044,
-        "atk": 5445
-      }
-    ],
-    "growth": {
-      "rate": 1.5,
-      "hp": [
-        76.26,
-        152.52,
-        381.3,
-        610.08,
-        838.86,
-        1067.64
-      ],
-      "atk": [
-        3,
-        6,
-        15,
-        24,
-        33,
-        42
-      ]
-    },
-    "affection": [
-      {
-        "label": "Tấn Công",
-        "value": 50
-      },
-      {
-        "label": "Tấn Công",
-        "value": 50
-      },
-      {
-        "label": "Tấn Công",
-        "value": 50
-      },
-      {
-        "label": "Tấn Công",
-        "value": 50
-      },
-      {
-        "label": "Tấn Công",
-        "value": 50
-      },
-      {
-        "label": "Tấn Công",
-        "value": 50
-      },
-      {
-        "label": "Tấn Công",
-        "value": 100
-      },
-      {
-        "label": "Tấn Công",
-        "value": 100
-      },
-      {
-        "label": "Tấn Công",
-        "value": 100
-      },
-      {
-        "label": "Tấn Công",
-        "value": 200
-      }
-    ],
-    "gear": [
-      {
-        "slot": "Giáp Tay",
-        "name": "EX.Sơn Móng Tay Nude",
-        "stats": [
-          {
-            "label": "Tấn Công",
-            "base": 100,
-            "pct": false
-          },
-          {
-            "label": "土屬性攻擊",
-            "base": 1200,
-            "pct": true
-          },
-          {
-            "label": "Đánh Trúng",
-            "base": 42,
-            "pct": false
-          },
-          {
-            "label": "審判命中",
-            "base": 1500,
-            "pct": true
-          }
-        ]
-      },
-      {
-        "slot": "Vũ Khí",
-        "name": "EX.Lời Thề Tế Huyết",
-        "stats": [
-          {
-            "label": "Tấn Công",
-            "base": 100,
-            "pct": false
-          },
-          {
-            "label": "土屬性攻擊",
-            "base": 1200,
-            "pct": true
-          },
-          {
-            "label": "CRIT",
-            "base": 50,
-            "pct": false
-          },
-          {
-            "label": "Bỏ qua Đỡ Đòn",
-            "base": 50,
-            "pct": false
-          }
-        ]
-      },
-      {
-        "slot": "Giáp Chân",
-        "name": "EX.Giày Cao Gót Đặt Riêng",
-        "stats": [
-          {
-            "label": "Tấn Công",
-            "base": 100,
-            "pct": false
-          },
-          {
-            "label": "土屬性攻擊",
-            "base": 1200,
-            "pct": true
-          },
-          {
-            "label": "Tốc Độ Tấn Công",
-            "base": 50,
-            "pct": false
-          },
-          {
-            "label": "Né Chí Mạng",
-            "base": 50,
-            "pct": false
-          }
-        ]
-      },
-      {
-        "slot": "Phụ Kiện",
-        "name": "Thuốc Nhuộm Tóc Đen",
-        "stats": [
-          {
-            "label": "Tấn Công",
-            "base": 77,
-            "pct": false
-          }
-        ]
-      }
-    ],
-    "model": "cr071",
-    "slug": "victoria",
-    "name": "Victoria",
-    "nameEn": "Victoria",
-    "title": "Ma Nữ Khát Quyền",
-    "epithet": "Ảo Ảnh Ác Mộng, Phong Ấn Thạch Nham",
-    "sex": "Nữ",
-    "inGacha": true,
-    "icon": null,
-    "sortOrder": 71,
-    "element": {
-      "id": 2,
-      "name": "Thổ",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/battleelement_2.webp"
-    },
-    "job": {
-      "id": 2,
-      "name": "Xung Kích",
-      "color": "#EA3333",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/fighters_2.webp"
-    },
-    "attackType": {
-      "id": 2,
-      "name": "能量",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Attributes_01.webp"
-    },
-    "skills": [
-      {
-        "id": "150007100",
-        "name": "Ám Sát Thanh Nhã",
-        "slot": "Tấn Công Thường",
-        "slotEn": "Basic Attack",
-        "unlockStar": 0,
-        "icon": null,
-        "type": "Tức Thời",
-        "mainStat": null,
-        "gcd": "10s",
-        "desc": "Gây 2 Hit 83% Dame Vật Lý lên mục tiêu",
-        "detail": null,
-        "cooldown": "0s",
-        "cost": null,
-        "statuses": []
-      },
-      {
-        "id": "150007110",
-        "name": "Khúc Ai Ca Phù Thủy",
-        "slot": "Thiên Phú",
-        "slotEn": "Talent",
-        "unlockStar": 0,
-        "icon": null,
-        "type": "Tức Thời",
-        "mainStat": null,
-        "gcd": null,
-        "desc": "Gây 300% Dame Vật Lý lên mục tiêu\nKhi Hit cuối trúng, khiến mục tiêu rơi vào trạng thái Hóa Đá M (4 giây).",
-        "detail": null,
-        "cooldown": "10s",
-        "cost": 1,
-        "statuses": [
-          "Hóa Đá"
-        ],
-        "awakened": {
-          "desc": "Gây 420% Dame Vật Lý lên mục tiêu\nKhi Hit cuối trúng, khiến mục tiêu rơi vào trạng thái Hóa Đá M (4 giây).\nKhi Hit cuối trúng, khiến mục tiêu Giảm Block 15% (8 giây).",
-          "detail": null
-        }
-      },
-      {
-        "id": "150007120",
-        "name": "Phù Hộ Của Phù Thủy",
-        "slot": "Auto",
-        "slotEn": "Auto",
-        "unlockStar": 1,
-        "icon": null,
-        "type": "Tức Thời",
-        "mainStat": null,
-        "gcd": null,
-        "desc": "Giúp 2 đồng đội Lực tấn công cao nhất nhận Tăng CRIT Dame 40% (8 giây).",
-        "detail": null,
-        "cooldown": "6s",
-        "cost": null,
-        "statuses": [
-          "Tăng CRIT Dame"
-        ]
-      },
-      {
-        "id": "150007170",
-        "name": "Phù Hộ Của Phù Thủy+",
-        "slot": "Bị Động 3",
-        "slotEn": "Passive 3",
-        "unlockStar": null,
-        "icon": null,
-        "type": "Bị Động",
-        "mainStat": null,
-        "gcd": null,
-        "desc": "Giúp 2 đồng đội Lực tấn công cao nhất nhận Tăng CRIT Dame 45% (10 giây).",
-        "detail": null,
-        "cooldown": "6s",
-        "cost": null,
-        "statuses": [
-          "Tăng CRIT Dame"
-        ]
-      },
-      {
-        "id": "150007130",
-        "name": "Lời Nguyền Phù Thủy",
-        "slot": "Bị Động 1",
-        "slotEn": "Passive 1",
-        "unlockStar": 4,
-        "icon": null,
-        "type": "Bị Động",
-        "mainStat": null,
-        "gcd": null,
-        "desc": "Khi trúng mục tiêu, nếu là mục tiêu Hóa Đá hoặc Đỡ Đòn Giảm, sẽ gây hiệu ứng Giảm Hiệu Quả Hồi Máu 22% (6 giây).\nMỗi lần kích hoạt hiệu ứng phải cách nhau ít nhất 6 giây",
-        "detail": "A rumor circulates within the Rosian Brotherhood, anyone who sees the witch's true identity will die a violent death.",
-        "cooldown": "0s",
-        "cost": null,
-        "statuses": [],
-        "awakened": {
-          "desc": "Khi trúng mục tiêu, nếu là mục tiêu Hóa Đá hoặc Đỡ Đòn Giảm, sẽ gây hiệu ứng Giảm Hiệu Quả Hồi Máu 22% (6 giây).\nMỗi lần kích hoạt hiệu ứng phải cách nhau ít nhất 6 giây\nToàn đội nhận Tăng Bỏ Qua Block 6.5%.",
-          "detail": null
-        }
-      },
-      {
-        "id": "150007150",
-        "name": "Sức Mạnh Tối Thượng",
-        "slot": "Bị Động 2",
-        "slotEn": "Passive 2",
-        "unlockStar": 6,
-        "icon": null,
-        "type": "Bị Động",
-        "mainStat": null,
-        "gcd": null,
-        "desc": "Bản thân nhận Tăng ATK Hệ Thổ 8.5%",
-        "detail": "In Rosian, power and strength are everything.",
-        "cooldown": "0s",
-        "cost": null,
-        "statuses": [],
-        "awakened": {
-          "desc": "Toàn đội nhận Tăng ATK Hệ Thổ 8.5%.\nTrong chế độ PVP, bản thân nhận Tăng ATK SPD 13%.",
-          "detail": null
-        }
-      },
-      {
-        "id": "150007141",
-        "name": "Huyễn Ảnh Tập Kích",
-        "slot": "Tuyệt Kỹ",
-        "slotEn": "Ultimate",
-        "unlockStar": 2,
-        "icon": null,
-        "type": "Tức Thời",
-        "mainStat": null,
-        "gcd": null,
-        "desc": "Vào trạng thái Thức Tỉnh, giúp bản thân nhận Tăng lượng EN nhận được 45% (24 giây).\nGây 8 Hit 53% Dame Năng Lượng cho tối đa 3 mục tiêu trong phạm vi phía trước\nKhi Hit cuối trúng, khiến mục tiêu Giảm Né CRIT 15% (12 giây).",
-        "detail": null,
-        "cooldown": "24s",
-        "cost": 3,
-        "statuses": []
-      }
-    ],
-    "profile": {
-      "title": "權欲魔女",
-      "birthday": "11 / 11",
-      "age": "37",
-      "height": "168",
-      "weight": "64",
-      "interest": "Thưởng Rượu, Dạo Phòng Tranh, Xem Opera",
-      "personality": "Điềm Tĩnh, Xa Cách",
-      "resumeParas": [
-        "18歲時與羅士昂前幹部結婚並生下伊蓮娜，過沒多久丈夫就因權力鬥爭死去。",
-        "為了女兒的未來，她決定繼承亡夫在組織中的地位。在尼古拉的幫助下，她成功繼承亡夫的權勢、地位，甚至爬得比亡夫還要高。",
-        "由於手段兇殘，還被羅士昂的人戲稱是「魔女」。"
-      ]
-    },
-    "stats": {
-      "atkRange": "180",
-      "normalAttackGCD": "10000",
-      "critPer": "1000",
-      "critRstPer": "0",
-      "critAmpPer": "5000",
-      "critDmgRdcPer": "0",
-      "hitPer": "8500",
-      "ddgPer": "0",
-      "blkPer": "2500",
-      "blkPenPer": "1500",
-      "blkRdcPer": "2000",
-      "healCritPer": "1000",
-      "healCritAmpPer": "5000",
-      "atkHastePer": "0",
-      "cdHastePer": "0",
-      "manaAmpPer": "0",
-      "hpRcvPer": "1000"
-    }
-  },
-  {
-    "id": "133007300",
-    "tierStats": [
-      {
-        "tier": 1,
-        "hp": 3367,
-        "atk": 345
-      },
-      {
-        "tier": 2,
-        "hp": 5034,
-        "atk": 516
-      },
-      {
-        "tier": 3,
-        "hp": 10104,
-        "atk": 1038
-      },
-      {
-        "tier": 4,
-        "hp": 15140,
-        "atk": 1557
-      },
-      {
-        "tier": 5,
-        "hp": 20209,
-        "atk": 2079
-      },
-      {
-        "tier": 6,
-        "hp": 26947,
-        "atk": 2772
-      },
-      {
-        "tier": 7,
-        "hp": 33684,
-        "atk": 3465
-      },
-      {
-        "tier": 8,
-        "hp": 40421,
-        "atk": 4158
-      },
-      {
-        "tier": 9,
-        "hp": 48505,
-        "atk": 4989
-      },
-      {
-        "tier": 10,
-        "hp": 58226,
-        "atk": 5988
-      }
-    ],
-    "growth": {
-      "rate": 2.25,
-      "hp": [
-        45.75,
-        91.51,
-        228.78,
-        366.04,
-        503.31,
-        640.58
-      ],
-      "atk": [
-        3.3,
-        6.6,
-        16.5,
-        26.4,
-        36.3,
-        46.2
-      ]
-    },
-    "affection": [
-      {
-        "label": "% CRIT Dame",
-        "value": 100
-      },
-      {
-        "label": "% CRIT Dame",
-        "value": 100
-      },
-      {
-        "label": "% CRIT Dame",
-        "value": 100
-      },
-      {
-        "label": "% CRIT Dame",
-        "value": 100
-      },
-      {
-        "label": "% CRIT Dame",
-        "value": 100
-      },
-      {
-        "label": "% CRIT Dame",
-        "value": 200
-      },
-      {
-        "label": "% CRIT Dame",
-        "value": 200
-      },
-      {
-        "label": "% CRIT Dame",
-        "value": 300
-      },
-      {
-        "label": "% CRIT Dame",
-        "value": 300
-      },
-      {
-        "label": "% CRIT Dame",
-        "value": 500
-      }
-    ],
-    "gear": [
-      {
-        "slot": "Giáp Tay",
-        "name": "EX.Găng Tay Ren Dạ Mạn",
-        "stats": [
-          {
-            "label": "Tấn Công",
-            "base": 118,
-            "pct": false
-          },
-          {
-            "label": "闇屬性攻擊",
-            "base": 1000,
-            "pct": true
-          },
-          {
-            "label": "Cường Hóa Vật Lý",
-            "base": 62,
-            "pct": false
-          },
-          {
-            "label": "Tốc Độ Tấn Công",
-            "base": 163,
-            "pct": false
-          }
-        ]
-      },
-      {
-        "slot": "Vũ Khí",
-        "name": "EX.Súng Tiểu Liên Giảm Thanh MX9",
-        "stats": [
-          {
-            "label": "Tấn Công",
-            "base": 118,
-            "pct": false
-          },
-          {
-            "label": "闇屬性攻擊",
-            "base": 1000,
-            "pct": true
-          },
-          {
-            "label": "CRIT",
-            "base": 97,
-            "pct": false
-          },
-          {
-            "label": "CRIT Dame",
-            "base": 217,
-            "pct": false
-          }
-        ]
-      },
-      {
-        "slot": "Giáp Chân",
-        "name": "EX.Bốt Cao Cổ Hắc Nguyệt",
-        "stats": [
-          {
-            "label": "Tấn Công",
-            "base": 118,
-            "pct": false
-          },
-          {
-            "label": "闇屬性攻擊",
-            "base": 1000,
-            "pct": true
-          },
-          {
-            "label": "Tốc Độ Tấn Công",
-            "base": 182,
-            "pct": false
-          },
-          {
-            "label": "Dodge",
-            "base": 58,
-            "pct": false
-          }
-        ]
-      },
-      {
-        "slot": "Phụ Kiện",
-        "name": "Vòng Cổ Đá Hắc Diệu",
-        "stats": [
-          {
-            "label": "Bỏ qua Đỡ Đòn",
-            "base": 800,
-            "pct": true
-          },
-          {
-            "label": "審判抗性",
-            "base": 1500,
-            "pct": true
-          }
-        ]
-      }
-    ],
-    "model": "cr073",
-    "slug": "connie",
-    "name": "Connie",
-    "nameEn": "Connie",
-    "title": "Nữ Thần Hoàn Mỹ",
-    "epithet": "Splendid Execution, Feverish Applause",
-    "sex": "Nữ",
-    "inGacha": true,
-    "icon": null,
-    "sortOrder": 73,
-    "element": {
-      "id": 6,
-      "name": "Tối",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/battleelement_6.webp"
-    },
-    "job": {
-      "id": 5,
-      "name": "Công Phá",
-      "color": "#9433EA",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/master_6.webp"
-    },
-    "attackType": {
-      "id": 1,
-      "name": "物理",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Attributes_02.webp"
-    },
-    "skills": [
-      {
-        "id": "150007300",
-        "name": "點放射擊",
-        "slot": "Tấn Công Thường",
-        "slotEn": "Basic Attack",
-        "unlockStar": 0,
-        "icon": null,
-        "type": "Tức Thời",
-        "mainStat": null,
-        "gcd": "10s",
-        "desc": "Gây 3 Hit 26% Dame Vật Lý lên mục tiêu HP Thấp Nhất",
-        "detail": null,
-        "cooldown": "0s",
-        "cost": null,
-        "statuses": []
-      },
-      {
-        "id": "150007310",
-        "name": "魅影裂空",
-        "slot": "Thiên Phú",
-        "slotEn": "Talent",
-        "unlockStar": 0,
-        "icon": null,
-        "type": "Tức Thời",
-        "mainStat": null,
-        "gcd": null,
-        "desc": "Gây 5 Hit 32% Dame Vật Lý lên 2 mục tiêu HP Thấp Nhất.\nKhi Hit đầu tiên trúng, khiến mục tiêu Giảm ATK Hệ Quang 15% (10 giây).\nKhi Hit đầu tiên trúng, khiến mục tiêu Giảm Dodge 10% (10 giây).",
-        "detail": null,
-        "cooldown": "10s",
-        "cost": 1,
-        "statuses": [
-          "Giảm ATK Hệ Quang",
-          "Giảm Dodge"
-        ],
-        "awakened": {
-          "desc": "Gây 5 Hit 54% Dame Vật Lý lên 2 mục tiêu HP Thấp Nhất.\nKhi Hit đầu tiên trúng, khiến mục tiêu Giảm ATK Hệ Quang 15% (10 giây).\nKhi Hit đầu tiên trúng, khiến mục tiêu Giảm Dodge 10% (10 giây).",
-          "detail": null
-        }
-      },
-      {
-        "id": "150007320",
-        "name": "靜謐落星",
-        "slot": "Auto",
-        "slotEn": "Auto",
-        "unlockStar": 1,
-        "icon": null,
-        "type": "Tức Thời",
-        "mainStat": null,
-        "gcd": null,
-        "desc": "Gây 5 Hit 18% Dame Vật Lý lên mục tiêu HP Thấp Nhất\nKhi Hit cuối trúng, khiến mục tiêu Giảm Hiệu Quả Trị Liệu 20% (10 giây).\nKhi Hit cuối trúng, khiến mục tiêu Giảm Hiệu Quả Hồi Máu 20% (10 giây).",
-        "detail": null,
-        "cooldown": "6s",
-        "cost": null,
-        "statuses": [
-          "Giảm Hiệu Quả Trị Liệu",
-          "Giảm Hiệu Quả Trị Liệu Nhận Được"
-        ],
-        "awakened": {
-          "desc": "Gây 5 Hit 30% Dame Vật Lý lên mục tiêu HP Thấp Nhất\nKhi Hit cuối trúng, khiến mục tiêu Giảm Hiệu Quả Trị Liệu 25% (10 giây).\nKhi Hit cuối trúng, khiến mục tiêu Giảm Hiệu Quả Hồi Máu 25% (10 giây).",
-          "detail": null
-        }
-      },
-      {
-        "id": "150007330",
-        "name": "完美主義",
-        "slot": "Bị Động 1",
-        "slotEn": "Passive 1",
-        "unlockStar": 4,
-        "icon": null,
-        "type": "Bị Động",
-        "mainStat": null,
-        "gcd": null,
-        "desc": "Khi tiêu diệt, ban Tăng Dame Vật Lý15% cho toàn bộ đồng đội Hệ Tối (12 giây)\nHiệu ứng tối đa cộng dồn 2 lớp",
-        "detail": "Queenie is strict with herself, demanding perfection in every detail of her performances.",
-        "cooldown": "0s",
-        "cost": null,
-        "statuses": [],
-        "awakened": {
-          "desc": "Khi tiêu diệt, ban Tăng Dame Vật Lý15% cho toàn bộ đồng đội Hệ Tối (12 giây)\nHiệu ứng tối đa cộng dồn 2 lớp\nToàn đội nhận Dodge UP 6.5%.",
-          "detail": null
-        }
-      },
-      {
-        "id": "150007350",
-        "name": "絕對魅從",
-        "slot": "Bị Động 2",
-        "slotEn": "Passive 2",
-        "unlockStar": 6,
-        "icon": null,
-        "type": "Bị Động",
-        "mainStat": null,
-        "gcd": null,
-        "desc": "Bản thân nhận Tăng ATK SPD 23%",
-        "detail": "With just a glance and a smile, Connie can make anyone willingly become her most devoted fan.",
-        "cooldown": "0s",
-        "cost": null,
-        "statuses": [],
-        "awakened": {
-          "desc": "Toàn đội nhận Tăng ATK SPD 23%.\nTrong chế độ PVP, bản thân nhận Tăng CRIT 13%.",
-          "detail": null
-        }
-      },
-      {
-        "id": "150007341",
-        "name": "魅影舞台",
-        "slot": "Tuyệt Kỹ",
-        "slotEn": "Ultimate",
-        "unlockStar": 2,
-        "icon": null,
-        "type": "Tức Thời",
-        "mainStat": null,
-        "gcd": null,
-        "desc": "Vào trạng thái Thức Tỉnh, giúp bản thân nhận Tăng ATK 17% (24 giây).\nGây 6 Hit 85% Dame Vật Lý lên 2 mục tiêu HP Thấp Nhất.\nKhi Hit cuối trúng, nếu mục tiêu ở trạng thái Bóng Đêm, sẽ thêm Truy Kích Vực Thẳm L lên mục tiêu.",
-        "detail": null,
-        "cooldown": "24s",
-        "cost": 3,
-        "statuses": []
-      }
-    ],
-    "profile": {
-      "title": "完美女神",
-      "birthday": "10 / 24",
-      "age": "28",
-      "height": "172",
-      "weight": "43",
-      "interest": "Quan Sát Con Người",
-      "personality": "Tâm Tư Sâu Sắc, Thâm Trầm#Ngoài: Thanh Lịch, Xinh Đẹp, Hoàn Hảo#Trong: Thâm Hiểm, Độc Ác, Mưu Mô, Chịu Áp Lực Tốt, Bạo Dâm",
-      "resumeParas": [
-        "托比亞的全民女神，形象幾近完美。早在HL娛樂經紀公司成立前就已是高知名度網紅，後來主動加入經紀公司後成為創社台柱，才讓HL娛樂成為知名經紀公司。",
-        "在公眾形象中，她有氣質、懂人情世故、笑臉迎人又親民，但實際上也是會抱怨工作的人，不過她只會對經紀人或相當信任的人展現這任性的一面。"
-      ]
-    },
-    "stats": {
-      "atkRange": "480",
-      "normalAttackGCD": "10000",
-      "critPer": "1000",
-      "critRstPer": "0",
-      "critAmpPer": "5000",
-      "critDmgRdcPer": "0",
-      "hitPer": "9300",
-      "ddgPer": "0",
-      "blkPer": "2500",
-      "blkPenPer": "0",
-      "blkRdcPer": "2000",
-      "healCritPer": "1000",
-      "healCritAmpPer": "5000",
-      "atkHastePer": "0",
-      "cdHastePer": "0",
-      "manaAmpPer": "0",
-      "hpRcvPer": "1000"
-    }
-  },
+  
+  
+  
+  
+  
   {
     "id": "133007400",
     "tierStats": [

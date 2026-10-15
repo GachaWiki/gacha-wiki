@@ -3,7 +3,7 @@
 // 相同（gsa-tier.css）。角色卡與名稱改由官方繁中角色資料解析，前期培養
 // 說明與挑選理由為本維基繁中撰寫。
 import GsaZhLayout from '../../../../layouts/gene-sys-adam/GsaZhLayout.astro';
-import { GSA_TIERS, GSA_JOB_SECTIONS, GSA_TIER_PLACEMENTS, gsaRarityBadge, GSA_COMBOS } from '../../../../data/gene-sys-adam/tier-list.js';
+import { GSA_TIERS, GSA_JOB_SECTIONS, GSA_TIER_PLACEMENTS, gsaRarityBadge, GSA_COMBOS, GSA_TIER_NOTES } from '../../../../data/gene-sys-adam/tier-list.js';
 import { gsaCharactersZh } from '../../../../data/gene-sys-adam/zh-tw/characters.js';
 import { gsaPursuitRole } from '../../../../data/gene-sys-adam/pursuit-roles.js';
 import { GSA_ZH } from '../../../../data/gene-sys-adam/zh-tw/ui.js';
@@ -13,9 +13,9 @@ import '../../../../styles/games/gene-sys-adam/gsa-tier.css';
 
 // 追擊體系角色標籤（pursuit-roles.js；角色頁的追擊體系區塊使用同一份資料）
 const TIER_ROLE_ZH = {
-  trigger: '追擊觸發',
-  enabler: '狀態賦予',
-  both: '追擊＋賦予',
+  trigger: '終結技',
+  enabler: '啟動技',
+  both: '啟動＋終結',
   none: '無追擊參與',
 };
 
@@ -155,7 +155,7 @@ const total = tierTabs.reduce((n, t) => n + tabCount(t.rarity), 0);
                   </div>
                   <div class="gsa-tier-characters">
                     {row.characters.map(c => (
-                      <a class="gsa-tier-card" href={`${base}characters/${c.slug}/`} title={c.placement.reason}>
+                      <a class="gsa-tier-card" href={`${base}characters/${c.slug}/`} title={GSA_TIER_NOTES[c.slug] ? undefined : c.placement.reason}>
                         {c.icon ? (
                           <img class="gsa-tier-thumb" src={c.icon} alt={fullZhName(c)} loading="lazy" />
                         ) : (
@@ -170,6 +170,18 @@ const total = tierTabs.reduce((n, t) => n + tabCount(t.rarity), 0);
                         {(() => { const pr = gsaPursuitRole(c.slug); return (
                           <span class={`gsa-tier-role gsa-tier-role-${pr.role}`}>{TIER_ROLE_ZH[pr.role]}</span>
                         ); })()}
+                        {GSA_TIER_NOTES[c.slug] && (() => { const n = GSA_TIER_NOTES[c.slug]; return (
+                          <span class={`gsa-tier-note-badge gsa-tier-note-${n.type}${n.variant ? ` gsa-note-variant-${n.variant}` : ''}`} tabindex="0" aria-label={n.title}>
+                            <span class="gsa-tier-note-icon">{n.variant ? '★' : '!'}</span>
+                            <span class="gsa-tier-note-tooltip" role="tooltip">
+                              <span class="gsa-tier-note-tooltip-title">{n.title}</span>
+                              <span class="gsa-tier-note-tooltip-text">{n.text}</span>
+                            </span>
+                          </span>
+                        ); })()}
+                        {GSA_TIER_NOTES[c.slug]?.variant && (
+                          <span class={`gsa-tier-card-highlight gsa-note-variant-${GSA_TIER_NOTES[c.slug].variant}`}>{GSA_TIER_NOTES[c.slug].shortTitle}</span>
+                        )}
                       </a>
                     ))}
                   </div>
@@ -183,7 +195,7 @@ const total = tierTabs.reduce((n, t) => n + tabCount(t.rarity), 0);
 
     <div class="gsa-tier-tabpanel" data-rarity-panel="combos" style="display:none">
       <p class="gsa-combo-intro">
-        追擊鏈組合：賦予者施加狀態，觸發者對狀態目標的最後一擊發動追擊（獨立傷害通道，有專屬抗性）。沒有賦予者的觸發者會失去整個循環，請以組合而非單體來評價。
+        追擊鏈組合：啟動技角色施加狀態，終結技角色對狀態目標的最後一擊發動追擊（獨立傷害通道，有專屬的追擊抗性）。沒有啟動技角色的終結技角色會失去整個循環，請以組合而非單體來評價。
       </p>
       <div class="gsa-combo-grid">
         {GSA_COMBOS.map(cb => (
@@ -195,7 +207,7 @@ const total = tierTabs.reduce((n, t) => n + tabCount(t.rarity), 0);
             <h3 class="gsa-combo-name">{cb.nameZh}</h3>
             <div class="gsa-combo-groups">
               <div class="gsa-combo-group">
-                <span class="gsa-combo-group-label">狀態賦予</span>
+                <span class="gsa-combo-group-label">啟動技</span>
                 {cb.enablers.map(slug => {
                   const m = bySlugZhFull[slug];
                   if (!m) return null;
@@ -212,7 +224,7 @@ const total = tierTabs.reduce((n, t) => n + tabCount(t.rarity), 0);
               </div>
               <span class="gsa-combo-arrow" aria-hidden="true">&rarr;</span>
               <div class="gsa-combo-group">
-                <span class="gsa-combo-group-label">追擊觸發</span>
+                <span class="gsa-combo-group-label">終結技</span>
                 {cb.triggers.map(slug => {
                   const m = bySlugZhFull[slug];
                   if (!m) return null;

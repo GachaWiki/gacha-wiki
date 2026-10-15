@@ -5,6 +5,7 @@
 import GsaZhLayout from '../../../../../layouts/gene-sys-adam/GsaZhLayout.astro';
 import { gsaCharactersZh } from '../../../../../data/gene-sys-adam/zh-tw/characters.js';
 import { GSA_ZH } from '../../../../../data/gene-sys-adam/zh-tw/ui.js';
+import { GSA_TIER_PLACEMENTS, gsaRarityBadge } from '../../../../../data/gene-sys-adam/tier-list.js';
 import '../../../../../styles/games/gene-sys-adam/gsa-common.css';
 import '../../../../../styles/games/gene-sys-adam/gsa-characters.css';
 
@@ -22,7 +23,7 @@ const L = GSA_ZH.labels;
 
 <GsaZhLayout
   title="角色資料庫"
-  description={`黑色基因角色資料庫：瀏覽全部 ${characters.length} 名角色，包含屬性、職業戰鬥風格、召募資訊、檔案、素質與技能。`}
+  description={`黑色基因角色資料庫：瀏覽全部 ${characters.length} 名角色，包含稀有度、屬性、職業戰鬥風格、檔案、素質與技能。`}
   gameTitle="角色"
   breadcrumbItems={[{ name: GSA_ZH.gameName, href: base }, { name: '角色資料庫' }]}
 >
@@ -33,7 +34,6 @@ const L = GSA_ZH.labels;
     </div>
     <div class="gsa-toolbar gsa-toolbar-filters">
       <button class="gsa-filter-btn active" data-filter="all">全部</button>
-      <button class="gsa-filter-btn" data-filter="gacha">可召募</button>
       {ELEMENT_ORDER.map(n => elByName.get(n) && (
         <button class="gsa-filter-btn" data-filter={n}>
           <img src={elByName.get(n).icon} alt="" width="14" height="14" loading="lazy" /> {n}
@@ -47,13 +47,16 @@ const L = GSA_ZH.labels;
 
     <div class="gsa-grid-cards" id="gsa-grid">
       {characters.map(c => (
-        <a class="gsa-card" href={`${base}characters/${c.slug}/`} data-search={`${c.name} ${c.nameEn} ${c.title} ${c.epithet} ${c.attackType?.name || ''}`.toLowerCase()} data-tags={[c.inGacha ? 'gacha' : '', (c.element?.name || '').toLowerCase(), (c.job?.name || '').toLowerCase()].filter(Boolean).join(' ')}>
+        <a class="gsa-card" href={`${base}characters/${c.slug}/`} data-search={`${c.name} ${c.nameEn} ${c.title} ${c.epithet} ${c.attackType?.name || ''}`.toLowerCase()} data-tags={[(c.element?.name || '').toLowerCase(), (c.job?.name || '').toLowerCase()].filter(Boolean).join(' ')}>
           <div class="gsa-icon-frame">
             {c.icon ? <img src={c.icon} alt={c.name} loading="lazy" /> : <span class="gsa-monogram">{c.name?.[0]}</span>}
           </div>
           <p class="gsa-card-title">{c.name}</p>
           {c.title && <p class="gsa-card-sub">{c.title}</p>}
           <div class="gsa-card-types">
+            {(() => { const r = GSA_TIER_PLACEMENTS[c.slug]?.rarity; const b = r && gsaRarityBadge(r); return b ? (
+              <img class="gsa-card-rarity" src={b} alt={r} width="42" height="27" loading="lazy" />
+            ) : null; })()}
             {c.attackType && (
               <span class="gsa-type-tile" title={`${L.attackType}：${c.attackType.name}`}>
                 <img src={c.attackType.icon} alt={c.attackType.name} width="24" height="24" loading="lazy" />

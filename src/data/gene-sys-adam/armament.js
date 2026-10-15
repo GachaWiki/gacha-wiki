@@ -566,7 +566,7 @@ export const gsaSignatureGear = [
     "name": "Prestige Dealer Gloves",
     "nameEx": "Prestige Dealer Gloves EX",
     "flavor": "Elegant black silk gloves that not only highlight a professional look when dealing cards, but also provide Amber with precise tactile feedback, enabling her to shuffle seamlessly.",
-    "icon": null,
+    "icon": "Equip_cr044_glove",
     "quality": "Blue",
     "stats": [
       {
@@ -605,7 +605,7 @@ export const gsaSignatureGear = [
     "name": "Royal Prestige Poker Card",
     "nameEx": "Royal Prestige Poker Card EX",
     "flavor": "This deck of playing cards has been treated with a special process, causing the edges to shimmer with a faint light. By absorbing Amber's Esper powers, they can be imbued with the sharpness of a blade, making them not only a tool for entertainment at the table but also a lethal weapon.",
-    "icon": null,
+    "icon": "Equip_cr044_wp",
     "quality": "Blue",
     "stats": [
       {
@@ -644,7 +644,7 @@ export const gsaSignatureGear = [
     "name": "Brilliant Charm High Heels",
     "nameEx": "Brilliant Charm High Heels EX",
     "flavor": "Dazzling custom-made high heels that make every step confident and captivating, a key highlight of a dealer’s attire.",
-    "icon": null,
+    "icon": "Equip_cr044_shoe",
     "quality": "Blue",
     "stats": [
       {
@@ -974,7 +974,7 @@ export const gsaSignatureGear = [
     "name": "Fan Tribute Bracelet",
     "nameEx": "Fan Tribute Bracelet EX",
     "flavor": "A gift from a devoted fan. A golden bracelet engraved with Charlotte's name.",
-    "icon": null,
+    "icon": "Equip_cr047_glove",
     "quality": "Blue",
     "stats": [
       {
@@ -1013,7 +1013,7 @@ export const gsaSignatureGear = [
     "name": "Orion C2 Defense Pistol - Modified",
     "nameEx": "Orion C2 Defense Pistol - Modified EX",
     "flavor": "A defensive pistol produced by ORION ARMS, equipped with a laser sight and reduced recoil. Its range is not long, but it can quickly engage multiple targets.",
-    "icon": null,
+    "icon": "Equip_cr047_wp",
     "quality": "Blue",
     "stats": [
       {
@@ -1052,7 +1052,7 @@ export const gsaSignatureGear = [
     "name": "Thick-Soled Mary Janes",
     "nameEx": "Thick-Soled Mary Janes EX",
     "flavor": "Solid white Mary Janes with a full, rounded shape. Both comfortable and cute, they are Charlotte's favorite style.",
-    "icon": null,
+    "icon": "Equip_cr047_shoe",
     "quality": "Blue",
     "stats": [
       {
@@ -1112,7 +1112,7 @@ export const gsaSignatureGear = [
     "name": "Precision Shooting Gloves",
     "nameEx": "Precision Shooting Gloves EX",
     "flavor": "Provides multiple forms of protection from various environmental hazards. No matter the task, they stay firmly fitted to the hands, giving Rachel maximum flexibility and defense.",
-    "icon": null,
+    "icon": "Equip_cr048_glove",
     "quality": "Blue",
     "stats": [
       {
@@ -1382,7 +1382,7 @@ export const gsaSignatureGear = [
     "name": "Midnight Control",
     "nameEx": "Midnight Control EX",
     "flavor": "Like the supple touch of silk, she offers both an embrace and a binding grip. Graceful as it may be, it is a hold from which one can hardly escape.",
-    "icon": null,
+    "icon": "Equip_cr050_glove",
     "quality": "Blue",
     "stats": [
       {
@@ -1421,7 +1421,7 @@ export const gsaSignatureGear = [
     "name": "Midnight Gunshot",
     "nameEx": "Midnight Gunshot EX",
     "flavor": "The jet-black frame is calm and coldly beautiful, perfect for hiding behind seduction and kisses, and for dealing with those who have misunderstood the relationship.",
-    "icon": null,
+    "icon": "Equip_cr050_wp",
     "quality": "Blue",
     "stats": [
       {
@@ -1454,7 +1454,7 @@ export const gsaSignatureGear = [
     "name": "Midnight Silhouette",
     "nameEx": "Midnight Silhouette EX",
     "flavor": "Sleek black tall leather boots. Whether stepping on a luxury carpet or a man's chest, they are equally elegant.",
-    "icon": null,
+    "icon": "Equip_cr050_shoe",
     "quality": "Blue",
     "stats": [
       {
@@ -2066,7 +2066,7 @@ export const gsaSignatureGear = [
     "name": "Future-Tech Gloves",
     "nameEx": "Future-Tech Gloves EX",
     "flavor": "Fingerless gloves that are both stylish and practical. The tough black material provides an excellent grip, while her exposed, bright purple nails boldly showcase her dedication to fashion.",
-    "icon": null,
+    "icon": "Equip_cr056_glove",
     "quality": "Blue",
     "stats": [
       {
@@ -2105,7 +2105,7 @@ export const gsaSignatureGear = [
     "name": "Cloc43 Limited Edition",
     "nameEx": "Cloc43 Limited Edition EX",
     "flavor": "A limited-edition pistol from Cloc Arms that uses a special dyeing method, filling it with vibrant colors to match Ruby's style. It is Ruby's personal self-defense weapon.",
-    "icon": null,
+    "icon": "Equip_cr056_wp",
     "quality": "Blue",
     "stats": [
       {
@@ -2144,7 +2144,7 @@ export const gsaSignatureGear = [
     "name": "Future-Tech Heels",
     "nameEx": "Future-Tech Heels EX",
     "flavor": "High-heeled athletic shoes that are full of stylish design and athletic function.These shoes perfectly express her belief: be confident, independent, and never just a face in the crowd.",
-    "icon": null,
+    "icon": "Equip_cr056_shoe",
     "quality": "Blue",
     "stats": [
       {
@@ -2204,7 +2204,7 @@ export const gsaSignatureGear = [
     "name": "Breathable Leather Gloves",
     "nameEx": "Breathable Leather Gloves EX",
     "flavor": "Made from thin, breathable leather that fits the hand perfectly and is easy to put on and take off. Suitable for various occasions; can also be worn directly under combat gloves.",
-    "icon": null,
+    "icon": "Equip_cr057_glove",
     "quality": "Blue",
     "stats": [
       {
@@ -2243,7 +2243,7 @@ export const gsaSignatureGear = [
     "name": "Black Fighting Gloves",
     "nameEx": "Black Fighting Gloves EX",
     "flavor": "A full-finger design made of leather, with the knuckles protected by a high-hardness material. It's a great tool for Liz when calming down out-of-control customers.",
-    "icon": null,
+    "icon": "Equip_cr057_wp",
     "quality": "Blue",
     "stats": [
       {
@@ -2282,7 +2282,7 @@ export const gsaSignatureGear = [
     "name": "Abrasion-Resistant Ankle Boots",
     "nameEx": "Abrasion-Resistant Ankle Boots EX",
     "flavor": "Suitable for long walks and semi-formal occasions. Made with tough leather, anti-slip rubber soles, and lined with a steel toe. Capable of handling any situation.",
-    "icon": null,
+    "icon": "Equip_cr057_shoe",
     "quality": "Blue",
     "stats": [
       {
@@ -2597,144 +2597,6 @@ export const gsaSignatureGear = [
     "name": "Golden Gentleman's Timepiece",
     "nameEx": "Golden Gentleman's Timepiece EX",
     "flavor": "The gold watch on his wrist is a symbol of his ambition to control both wealth and opportunity.",
-    "icon": null,
-    "quality": "Gold",
-    "stats": [
-      {
-        "label": "ATK",
-        "pct": false,
-        "base": 77,
-        "max": 86
-      }
-    ]
-  },
-  {
-    "slug": "danxin",
-    "char": "Danxin",
-    "cr": 60,
-    "element": "Fire",
-    "weaponClass": "Physical",
-    "slot": "Gloves",
-    "name": "Silk-Bound Gloves",
-    "nameEx": "Silk-Bound Gloves EX",
-    "flavor": "Specially made bracers. The interior is reinforced with steel, and the outer layer is covered in tough leather. The dragon emblem at the wrist serves as proof of being an immediate disciple.",
-    "icon": "Equip_cr060_glove",
-    "quality": "Blue",
-    "stats": [
-      {
-        "label": "ATK",
-        "pct": false,
-        "base": 44,
-        "max": 56
-      },
-      {
-        "label": "Fire ATK",
-        "pct": true,
-        "base": 1000,
-        "max": 1000
-      },
-      {
-        "label": "ATK Speed",
-        "pct": false,
-        "base": 182,
-        "max": 210
-      },
-      {
-        "label": "ACC",
-        "pct": false,
-        "base": 58,
-        "max": 60
-      }
-    ]
-  },
-  {
-    "slug": "danxin",
-    "char": "Danxin",
-    "cr": 60,
-    "element": "Fire",
-    "weaponClass": "Physical",
-    "slot": "Weapon",
-    "name": "Fire Esper Bracers",
-    "nameEx": "Fire Esper Bracers EX",
-    "flavor": "An ancient fist style passed down through the Long Yingtian clan for generations. It merges martial arts with the principles of nature, its form like a dragon lurking in the abyss, its energy advancing in like endless waves. Only those with a steadfast will and unwavering self-discipline can grasp its essence.",
-    "icon": "Equip_cr060_wp",
-    "quality": "Blue",
-    "stats": [
-      {
-        "label": "ATK",
-        "pct": false,
-        "base": 44,
-        "max": 56
-      },
-      {
-        "label": "Fire ATK",
-        "pct": true,
-        "base": 1000,
-        "max": 1000
-      },
-      {
-        "label": "Block",
-        "pct": false,
-        "base": 107,
-        "max": 142
-      },
-      {
-        "label": "DMG BLK",
-        "pct": false,
-        "base": 96,
-        "max": 113
-      }
-    ]
-  },
-  {
-    "slug": "danxin",
-    "char": "Danxin",
-    "cr": 60,
-    "element": "Fire",
-    "weaponClass": "Physical",
-    "slot": "Shoes",
-    "name": "Silk-Bound Footwear",
-    "nameEx": "Silk-Bound Footwear EX",
-    "flavor": "Tall boots that combine modern design with the needs of martial artists. Multi-layered wide straps securely wrap around the ankles and calves, providing excellent stability; the sole material effectively eliminates the sound of footsteps.",
-    "icon": "Equip_cr060_shoe",
-    "quality": "Blue",
-    "stats": [
-      {
-        "label": "ATK",
-        "pct": false,
-        "base": 44,
-        "max": 56
-      },
-      {
-        "label": "Fire ATK",
-        "pct": true,
-        "base": 1000,
-        "max": 1000
-      },
-      {
-        "label": "Healing Received Up",
-        "pct": false,
-        "base": 188,
-        "max": 234
-      },
-      {
-        "label": "Crit Evasion",
-        "pct": false,
-        "base": 80,
-        "max": 95
-      }
-    ]
-  },
-  {
-    "slug": "danxin",
-    "char": "Danxin",
-    "cr": 60,
-    "element": null,
-    "weaponClass": "Physical",
-    "slot": "Accessory",
-    "name": "Serenity Mala",
-    "nameEx": "Serenity Mala EX",
-    "flavor": "Composed of 108 smooth ebony beads. When he needs to think clearly or dispel distracting thoughts, Danxin rolls the beads, restoring her mind to a state of perfect peace, \"like a clear mirror and still water.\"",
     "icon": null,
     "quality": "Gold",
     "stats": [
@@ -3553,696 +3415,6 @@ export const gsaSignatureGear = [
         "pct": false,
         "base": 77,
         "max": 86
-      }
-    ]
-  },
-  {
-    "slug": "qing-yin",
-    "char": "Qing Yin",
-    "cr": 67,
-    "element": "Wind",
-    "weaponClass": "Energy",
-    "slot": "Gloves",
-    "name": "Verdant Rain Bracelet",
-    "nameEx": "Verdant Rain Bracelet EX",
-    "flavor": "A thin gold band inlaid with a emerald-green jade pearl, resting cool upon the wrist like morning rain. A fleeting breath of composure in the middle of chaos.",
-    "icon": null,
-    "quality": "Blue",
-    "stats": [
-      {
-        "label": "ATK",
-        "pct": false,
-        "base": 118,
-        "max": 151
-      },
-      {
-        "label": "Wind ATK",
-        "pct": true,
-        "base": 1000,
-        "max": 1000
-      },
-      {
-        "label": "Energy Boost",
-        "pct": false,
-        "base": 62,
-        "max": 74
-      },
-      {
-        "label": "ATK Speed",
-        "pct": false,
-        "base": 163,
-        "max": 169
-      }
-    ]
-  },
-  {
-    "slug": "qing-yin",
-    "char": "Qing Yin",
-    "cr": 67,
-    "element": "Wind",
-    "weaponClass": "Energy",
-    "slot": "Weapon",
-    "name": "Resonant Wind Flute",
-    "nameEx": "Resonant Wind Flute EX",
-    "flavor": "A graceful flute carved from jade, decorated with an emerald tassel and a delicate bell. Its tunes wash over listener like a warm cup of tea offered to a tired traveler.",
-    "icon": null,
-    "quality": "Blue",
-    "stats": [
-      {
-        "label": "ATK",
-        "pct": false,
-        "base": 118,
-        "max": 151
-      },
-      {
-        "label": "Wind ATK",
-        "pct": true,
-        "base": 1000,
-        "max": 1000
-      },
-      {
-        "label": "Crit",
-        "pct": false,
-        "base": 97,
-        "max": 140
-      },
-      {
-        "label": "Crit DMG",
-        "pct": false,
-        "base": 217,
-        "max": 244
-      }
-    ]
-  },
-  {
-    "slug": "qing-yin",
-    "char": "Qing Yin",
-    "cr": 67,
-    "element": "Wind",
-    "weaponClass": "Energy",
-    "slot": "Shoes",
-    "name": "Breezy Heels",
-    "nameEx": "Breezy Heels EX",
-    "flavor": "Pointed ankle boots with high heels, accented with gold line details around the ankles. Her steps land as silently as wind skimming across water.",
-    "icon": null,
-    "quality": "Blue",
-    "stats": [
-      {
-        "label": "ATK",
-        "pct": false,
-        "base": 118,
-        "max": 151
-      },
-      {
-        "label": "Wind ATK",
-        "pct": true,
-        "base": 1000,
-        "max": 1000
-      },
-      {
-        "label": "ATK Speed",
-        "pct": false,
-        "base": 182,
-        "max": 210
-      },
-      {
-        "label": "Evasion",
-        "pct": false,
-        "base": 58,
-        "max": 60
-      }
-    ]
-  },
-  {
-    "slug": "qing-yin",
-    "char": "Qing Yin",
-    "cr": 67,
-    "element": null,
-    "weaponClass": "Energy",
-    "slot": "Accessory",
-    "name": "Jade Dew Hairpin",
-    "nameEx": "Jade Dew Hairpin EX",
-    "flavor": "A white floral hairpin tucked into a side bun, glowing soft green as if whispering to the wind. The subtle motion of its tassels lingers like an unfinished melody.",
-    "icon": null,
-    "quality": "Gold",
-    "stats": [
-      {
-        "label": "ATK",
-        "pct": false,
-        "base": 77,
-        "max": 86
-      }
-    ]
-  },
-  {
-    "slug": "leng-zhen",
-    "char": "Leng Zhen",
-    "cr": 68,
-    "element": "Water",
-    "weaponClass": "Energy",
-    "slot": "Gloves",
-    "name": "Sanguine Silk",
-    "nameEx": "Sanguine Silk EX",
-    "flavor": "Ultra-thin transparent wire that cuts deep into pale flesh. It serves to manually drag deadened wrist joints into motion, as if guiding the hands of a marionette.",
-    "icon": null,
-    "quality": "Blue",
-    "stats": [
-      {
-        "label": "ATK",
-        "pct": false,
-        "base": 118,
-        "max": 151
-      },
-      {
-        "label": "Water ATK",
-        "pct": true,
-        "base": 1000,
-        "max": 1000
-      },
-      {
-        "label": "ACC",
-        "pct": false,
-        "base": 58,
-        "max": 70
-      },
-      {
-        "label": "Energy Boost",
-        "pct": false,
-        "base": 62,
-        "max": 74
-      }
-    ]
-  },
-  {
-    "slug": "leng-zhen",
-    "char": "Leng Zhen",
-    "cr": 68,
-    "element": "Water",
-    "weaponClass": "Energy",
-    "slot": "Weapon",
-    "name": "Lifebane Needle",
-    "nameEx": "Lifebane Needle EX",
-    "flavor": "Specially crafted hollow steel needles. When driven into a target, they instantly inject deadly toxins, bringing a swift end to the victim.",
-    "icon": null,
-    "quality": "Blue",
-    "stats": [
-      {
-        "label": "ATK",
-        "pct": false,
-        "base": 118,
-        "max": 151
-      },
-      {
-        "label": "Water ATK",
-        "pct": true,
-        "base": 1000,
-        "max": 1000
-      },
-      {
-        "label": "Skill Boost",
-        "pct": true,
-        "base": 1000,
-        "max": 1000
-      }
-    ]
-  },
-  {
-    "slug": "leng-zhen",
-    "char": "Leng Zhen",
-    "cr": 68,
-    "element": "Water",
-    "weaponClass": "Energy",
-    "slot": "Shoes",
-    "name": "Rimefrost Treads",
-    "nameEx": "Rimefrost Treads EX",
-    "flavor": "When she draws near, the air seems to freeze into frost. Before her enemies can even react, the biting cold has already reached their throats.",
-    "icon": null,
-    "quality": "Blue",
-    "stats": [
-      {
-        "label": "ATK",
-        "pct": false,
-        "base": 118,
-        "max": 151
-      },
-      {
-        "label": "Water ATK",
-        "pct": true,
-        "base": 1000,
-        "max": 1000
-      },
-      {
-        "label": "ATK Speed",
-        "pct": false,
-        "base": 182,
-        "max": 210
-      },
-      {
-        "label": "Evasion",
-        "pct": false,
-        "base": 58,
-        "max": 60
-      }
-    ]
-  },
-  {
-    "slug": "leng-zhen",
-    "char": "Leng Zhen",
-    "cr": 68,
-    "element": null,
-    "weaponClass": "Energy",
-    "slot": "Accessory",
-    "name": "Protection Knot",
-    "nameEx": "Protection Knot EX",
-    "flavor": "Qingyin claims this is a protective charm. But to Leng Zhen, it is a thread leading back home, binding together the last remaining piece of her capacity to trust.",
-    "icon": null,
-    "quality": "Gold",
-    "stats": [
-      {
-        "label": "ATK",
-        "pct": false,
-        "base": 77,
-        "max": 86
-      }
-    ]
-  },
-  {
-    "slug": "elena",
-    "char": "Elena",
-    "cr": 70,
-    "element": "Fire",
-    "weaponClass": "Energy",
-    "slot": "Gloves",
-    "name": "Tattoo Stickers",
-    "nameEx": "Tattoo Stickers EX",
-    "flavor": "A lot of friends who go to music festivals with her have tattoos, so to fit in, Elena wears temporary tattoo stickers on her fingers during events.",
-    "icon": null,
-    "quality": "Blue",
-    "stats": [
-      {
-        "label": "ATK",
-        "pct": false,
-        "base": 88,
-        "max": 112
-      },
-      {
-        "label": "Fire ATK",
-        "pct": true,
-        "base": 1200,
-        "max": 1500
-      },
-      {
-        "label": "ACC",
-        "pct": false,
-        "base": 42,
-        "max": 70
-      },
-      {
-        "label": "Judgment Hit Rate",
-        "pct": true,
-        "base": 1500,
-        "max": 1500
-      }
-    ]
-  },
-  {
-    "slug": "elena",
-    "char": "Elena",
-    "cr": 70,
-    "element": "Fire",
-    "weaponClass": "Energy",
-    "slot": "Weapon",
-    "name": "Father's Old Pistol",
-    "nameEx": "Father's Old Pistol EX",
-    "flavor": "The weapon used by Elena’s father before his death. Even with his early passing, she wields his heirloom to fight in his stead, struggling alongside her mother to survive in the underworld.",
-    "icon": null,
-    "quality": "Blue",
-    "stats": [
-      {
-        "label": "ATK",
-        "pct": false,
-        "base": 88,
-        "max": 112
-      },
-      {
-        "label": "Fire ATK",
-        "pct": true,
-        "base": 1200,
-        "max": 1500
-      },
-      {
-        "label": "Crit",
-        "pct": false,
-        "base": 50,
-        "max": 120
-      },
-      {
-        "label": "Block PEN",
-        "pct": false,
-        "base": 50,
-        "max": 120
-      }
-    ]
-  },
-  {
-    "slug": "elena",
-    "char": "Elena",
-    "cr": 70,
-    "element": "Fire",
-    "weaponClass": "Energy",
-    "slot": "Shoes",
-    "name": "Premium Custom Women's Shoes",
-    "nameEx": "Premium Custom Women's Shoes EX",
-    "flavor": "Wanting to become an outstanding person like her mother, Elena secretly ordered this pair of shoes from her mother’s favorite designer.",
-    "icon": null,
-    "quality": "Blue",
-    "stats": [
-      {
-        "label": "ATK",
-        "pct": false,
-        "base": 88,
-        "max": 112
-      },
-      {
-        "label": "Fire ATK",
-        "pct": true,
-        "base": 1200,
-        "max": 1500
-      },
-      {
-        "label": "ATK Speed",
-        "pct": false,
-        "base": 50,
-        "max": 120
-      },
-      {
-        "label": "Crit Evasion",
-        "pct": false,
-        "base": 50,
-        "max": 120
-      }
-    ]
-  },
-  {
-    "slug": "elena",
-    "char": "Elena",
-    "cr": 70,
-    "element": null,
-    "weaponClass": "Energy",
-    "slot": "Accessory",
-    "name": "Elena's Chosen Perfume",
-    "nameEx": "Elena's Chosen Perfume EX",
-    "flavor": "Elena's favorite scent. Though it doesn't quite match her usual style, this floral perfume with notes of apple carries a sweet fragrance.",
-    "icon": null,
-    "quality": "Gold",
-    "stats": [
-      {
-        "label": "ATK",
-        "pct": false,
-        "base": 77,
-        "max": 86
-      }
-    ]
-  },
-  {
-    "slug": "victoria",
-    "char": "Victoria",
-    "cr": 71,
-    "element": "Earth",
-    "weaponClass": "Energy",
-    "slot": "Gloves",
-    "name": "Black Nail Polish",
-    "nameEx": "Neutral Nail Polish EX",
-    "flavor": "A birthday present she once received from her daughter. The color is suitable for all ages, showing how much thought was put into choosing it.",
-    "icon": null,
-    "quality": "Blue",
-    "stats": [
-      {
-        "label": "ATK",
-        "pct": false,
-        "base": 100,
-        "max": 136
-      },
-      {
-        "label": "Earth ATK",
-        "pct": true,
-        "base": 1200,
-        "max": 1500
-      },
-      {
-        "label": "ACC",
-        "pct": false,
-        "base": 42,
-        "max": 70
-      },
-      {
-        "label": "Judgment Hit Rate",
-        "pct": true,
-        "base": 1500,
-        "max": 1500
-      }
-    ]
-  },
-  {
-    "slug": "victoria",
-    "char": "Victoria",
-    "cr": 71,
-    "element": "Earth",
-    "weaponClass": "Energy",
-    "slot": "Weapon",
-    "name": "Bloodbound Oath",
-    "nameEx": "Bloodbound Oath EX",
-    "flavor": "For her precious child, even a mother can become a demon who kills without blinking an eye.",
-    "icon": null,
-    "quality": "Blue",
-    "stats": [
-      {
-        "label": "ATK",
-        "pct": false,
-        "base": 100,
-        "max": 136
-      },
-      {
-        "label": "Earth ATK",
-        "pct": true,
-        "base": 1200,
-        "max": 1500
-      },
-      {
-        "label": "Crit",
-        "pct": false,
-        "base": 50,
-        "max": 120
-      },
-      {
-        "label": "Block PEN",
-        "pct": false,
-        "base": 50,
-        "max": 120
-      }
-    ]
-  },
-  {
-    "slug": "victoria",
-    "char": "Victoria",
-    "cr": 71,
-    "element": "Earth",
-    "weaponClass": "Energy",
-    "slot": "Shoes",
-    "name": "Designer Custom Heels",
-    "nameEx": "Designer Custom Heels EX",
-    "flavor": "Only a fine pair of shoes can truly showcase a woman's commanding presence and unique taste.",
-    "icon": null,
-    "quality": "Blue",
-    "stats": [
-      {
-        "label": "ATK",
-        "pct": false,
-        "base": 100,
-        "max": 136
-      },
-      {
-        "label": "Earth ATK",
-        "pct": true,
-        "base": 1200,
-        "max": 1500
-      },
-      {
-        "label": "ATK Speed",
-        "pct": false,
-        "base": 50,
-        "max": 120
-      },
-      {
-        "label": "Crit Evasion",
-        "pct": false,
-        "base": 50,
-        "max": 120
-      }
-    ]
-  },
-  {
-    "slug": "victoria",
-    "char": "Victoria",
-    "cr": 71,
-    "element": null,
-    "weaponClass": "Energy",
-    "slot": "Accessory",
-    "name": "Black Hair Dye",
-    "nameEx": "Black Hair Dye EX",
-    "flavor": "A woman's age is her secret, but it’s about time to start using some \"chemistry\" to keep that youthful glow.",
-    "icon": null,
-    "quality": "Gold",
-    "stats": [
-      {
-        "label": "ATK",
-        "pct": false,
-        "base": 77,
-        "max": 86
-      }
-    ]
-  },
-  {
-    "slug": "connie",
-    "char": "Connie",
-    "cr": 73,
-    "element": "Dark",
-    "weaponClass": "Physical",
-    "slot": "Gloves",
-    "name": "Nightshade Lace Gloves",
-    "nameEx": "Nightshade Lace Gloves EX",
-    "flavor": "Custom-made gloves with a subtle yet luxurious appearance and exquisite embroidery; a top choice accessory for banquets or high-end occasions.",
-    "icon": null,
-    "quality": "Blue",
-    "stats": [
-      {
-        "label": "ATK",
-        "pct": false,
-        "base": 118,
-        "max": 151
-      },
-      {
-        "label": "Dark ATK",
-        "pct": true,
-        "base": 1000,
-        "max": 1000
-      },
-      {
-        "label": "Physical Boost",
-        "pct": false,
-        "base": 62,
-        "max": 74
-      },
-      {
-        "label": "ATK Speed",
-        "pct": false,
-        "base": 163,
-        "max": 169
-      }
-    ]
-  },
-  {
-    "slug": "connie",
-    "char": "Connie",
-    "cr": 73,
-    "element": "Dark",
-    "weaponClass": "Physical",
-    "slot": "Weapon",
-    "name": "MX9 Suppressed Submachine Gun",
-    "nameEx": "MX9 Suppressed Submachine Gun EX",
-    "flavor": "A suppressed submachine gun custom-made by the SG Company for special missions. Its modular structure makes it suitable for various tasks, including covert infiltration.",
-    "icon": null,
-    "quality": "Blue",
-    "stats": [
-      {
-        "label": "ATK",
-        "pct": false,
-        "base": 118,
-        "max": 151
-      },
-      {
-        "label": "Dark ATK",
-        "pct": true,
-        "base": 1000,
-        "max": 1000
-      },
-      {
-        "label": "Crit",
-        "pct": false,
-        "base": 97,
-        "max": 140
-      },
-      {
-        "label": "Crit DMG",
-        "pct": false,
-        "base": 217,
-        "max": 244
-      }
-    ]
-  },
-  {
-    "slug": "connie",
-    "char": "Connie",
-    "cr": 73,
-    "element": "Dark",
-    "weaponClass": "Physical",
-    "slot": "Shoes",
-    "name": "Black Moon Boots",
-    "nameEx": "Black Moon Boots EX",
-    "flavor": "Smooth leather surface with tall, slender shafts; delicate dark purple embroidery traces the satin on the outer side. They draw the eye and project an air of dignity wherever they are worn.",
-    "icon": null,
-    "quality": "Blue",
-    "stats": [
-      {
-        "label": "ATK",
-        "pct": false,
-        "base": 118,
-        "max": 151
-      },
-      {
-        "label": "Dark ATK",
-        "pct": true,
-        "base": 1000,
-        "max": 1000
-      },
-      {
-        "label": "ATK Speed",
-        "pct": false,
-        "base": 182,
-        "max": 210
-      },
-      {
-        "label": "Evasion",
-        "pct": false,
-        "base": 58,
-        "max": 60
-      }
-    ]
-  },
-  {
-    "slug": "connie",
-    "char": "Connie",
-    "cr": 73,
-    "element": null,
-    "weaponClass": "Physical",
-    "slot": "Accessory",
-    "name": "Obsidian Necklace",
-    "nameEx": "Obsidian Necklace EX",
-    "flavor": "A gem carved from fine obsidian and paired with a silver chain. Its understated yet luxurious design embodied both charisma and composure.",
-    "icon": null,
-    "quality": "Gold",
-    "stats": [
-      {
-        "label": "Block PEN",
-        "pct": true,
-        "base": 800,
-        "max": 1500
-      },
-      {
-        "label": "Judgment RES",
-        "pct": true,
-        "base": 1500,
-        "max": 2500
       }
     ]
   },

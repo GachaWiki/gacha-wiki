@@ -441,7 +441,7 @@ export const gsaCharactersKo = [
         "slot": "기본 공격",
         "slotEn": "Basic Attack",
         "unlockStar": 0,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr032_1.webp",
         "type": "순발",
         "mainStat": null,
         "gcd": "10s",
@@ -475,7 +475,7 @@ export const gsaCharactersKo = [
         "slot": "자동",
         "slotEn": "Auto",
         "unlockStar": 1,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr032_3.webp",
         "type": "순발",
         "mainStat": null,
         "gcd": null,
@@ -491,7 +491,7 @@ export const gsaCharactersKo = [
         "slot": "패시브 1",
         "slotEn": "Passive 1",
         "unlockStar": 4,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr032_5.webp",
         "type": "패시브",
         "mainStat": null,
         "gcd": null,
@@ -511,7 +511,7 @@ export const gsaCharactersKo = [
         "slot": "패시브 2",
         "slotEn": "Passive 2",
         "unlockStar": 6,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr032_6.webp",
         "type": "패시브",
         "mainStat": null,
         "gcd": null,
@@ -531,7 +531,7 @@ export const gsaCharactersKo = [
         "slot": "궁극기",
         "slotEn": "Ultimate",
         "unlockStar": 2,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr032_4.webp",
         "type": "순발",
         "mainStat": null,
         "gcd": null,
@@ -724,7 +724,7 @@ export const gsaCharactersKo = [
         "slot": "기본 공격",
         "slotEn": "Basic Attack",
         "unlockStar": 0,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr033_1.webp",
         "type": "순발",
         "mainStat": null,
         "gcd": "18s",
@@ -758,7 +758,7 @@ export const gsaCharactersKo = [
         "slot": "자동",
         "slotEn": "Auto",
         "unlockStar": 1,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr033_3.webp",
         "type": "순발",
         "mainStat": null,
         "gcd": null,
@@ -777,7 +777,7 @@ export const gsaCharactersKo = [
         "slot": "패시브 1",
         "slotEn": "Passive 1",
         "unlockStar": 4,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr033_5.webp",
         "type": "패시브",
         "mainStat": null,
         "gcd": null,
@@ -799,7 +799,7 @@ export const gsaCharactersKo = [
         "slot": "패시브 2",
         "slotEn": "Passive 2",
         "unlockStar": 6,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr033_6.webp",
         "type": "패시브",
         "mainStat": null,
         "gcd": null,
@@ -819,7 +819,7 @@ export const gsaCharactersKo = [
         "slot": "궁극기",
         "slotEn": "Ultimate",
         "unlockStar": 2,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr033_4.webp",
         "type": "순발",
         "mainStat": null,
         "gcd": null,
@@ -1353,7 +1353,7 @@ export const gsaCharactersKo = [
         "slot": "패시브 1",
         "slotEn": "Passive 1",
         "unlockStar": 4,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr035_5.webp",
         "type": "패시브",
         "mainStat": null,
         "gcd": null,
@@ -1373,7 +1373,7 @@ export const gsaCharactersKo = [
         "slot": "패시브 2",
         "slotEn": "Passive 2",
         "unlockStar": 6,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr035_6.webp",
         "type": "패시브",
         "mainStat": null,
         "gcd": null,
@@ -4355,7 +4355,7 @@ export const gsaCharactersKo = [
         "slot": "기본 공격",
         "slotEn": "Basic Attack",
         "unlockStar": 0,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr044_1.webp",
         "type": "순발",
         "mainStat": null,
         "gcd": "10s",
@@ -4371,7 +4371,7 @@ export const gsaCharactersKo = [
         "slot": "특성",
         "slotEn": "Talent",
         "unlockStar": 0,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr044_2.webp",
         "type": "순발",
         "mainStat": null,
         "gcd": null,
@@ -4394,7 +4394,7 @@ export const gsaCharactersKo = [
         "slot": "자동",
         "slotEn": "Auto",
         "unlockStar": 1,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr044_3.webp",
         "type": "순발",
         "mainStat": null,
         "gcd": null,
@@ -4416,7 +4416,7 @@ export const gsaCharactersKo = [
         "slot": "패시브 1",
         "slotEn": "Passive 1",
         "unlockStar": 4,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr044_5.webp",
         "type": "패시브",
         "mainStat": null,
         "gcd": null,
@@ -4436,7 +4436,7 @@ export const gsaCharactersKo = [
         "slot": "패시브 2",
         "slotEn": "Passive 2",
         "unlockStar": 6,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr044_6.webp",
         "type": "패시브",
         "mainStat": null,
         "gcd": null,
@@ -4456,7 +4456,7 @@ export const gsaCharactersKo = [
         "slot": "궁극기",
         "slotEn": "Ultimate",
         "unlockStar": 2,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr044_4.webp",
         "type": "순발",
         "mainStat": null,
         "gcd": null,
@@ -7054,7 +7054,7 @@ export const gsaCharactersKo = [
         "slot": "특성",
         "slotEn": "Talent",
         "unlockStar": 0,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr051_2.webp",
         "type": "순발",
         "mainStat": null,
         "gcd": null,
@@ -7076,7 +7076,7 @@ export const gsaCharactersKo = [
         "slot": "자동",
         "slotEn": "Auto",
         "unlockStar": 1,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr051_3.webp",
         "type": "순발",
         "mainStat": null,
         "gcd": null,
@@ -8193,7 +8193,7 @@ export const gsaCharactersKo = [
         "slot": "기본 공격",
         "slotEn": "Basic Attack",
         "unlockStar": 0,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr055_1.webp",
         "type": "순발",
         "mainStat": null,
         "gcd": "9s",
@@ -8209,7 +8209,7 @@ export const gsaCharactersKo = [
         "slot": "특성",
         "slotEn": "Talent",
         "unlockStar": 0,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr055_2.webp",
         "type": "순발",
         "mainStat": null,
         "gcd": null,
@@ -8232,7 +8232,7 @@ export const gsaCharactersKo = [
         "slot": "자동",
         "slotEn": "Auto",
         "unlockStar": 1,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr055_3.webp",
         "type": "순발",
         "mainStat": null,
         "gcd": null,
@@ -8254,7 +8254,7 @@ export const gsaCharactersKo = [
         "slot": "패시브 1",
         "slotEn": "Passive 1",
         "unlockStar": 4,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr055_5.webp",
         "type": "패시브",
         "mainStat": null,
         "gcd": null,
@@ -8274,7 +8274,7 @@ export const gsaCharactersKo = [
         "slot": "패시브 2",
         "slotEn": "Passive 2",
         "unlockStar": 6,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr055_6.webp",
         "type": "패시브",
         "mainStat": null,
         "gcd": null,
@@ -8294,7 +8294,7 @@ export const gsaCharactersKo = [
         "slot": "궁극기",
         "slotEn": "Ultimate",
         "unlockStar": 2,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr055_4.webp",
         "type": "순발",
         "mainStat": null,
         "gcd": null,
@@ -9352,7 +9352,7 @@ export const gsaCharactersKo = [
         "slot": "기본 공격",
         "slotEn": "Basic Attack",
         "unlockStar": 0,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr058_1.webp",
         "type": "순발",
         "mainStat": null,
         "gcd": "10s",
@@ -9368,7 +9368,7 @@ export const gsaCharactersKo = [
         "slot": "특성",
         "slotEn": "Talent",
         "unlockStar": 0,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr058_2.webp",
         "type": "순발",
         "mainStat": null,
         "gcd": null,
@@ -9390,7 +9390,7 @@ export const gsaCharactersKo = [
         "slot": "자동",
         "slotEn": "Auto",
         "unlockStar": 1,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr058_3.webp",
         "type": "순발",
         "mainStat": null,
         "gcd": null,
@@ -9412,7 +9412,7 @@ export const gsaCharactersKo = [
         "slot": "패시브 1",
         "slotEn": "Passive 1",
         "unlockStar": 4,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr058_5.webp",
         "type": "패시브",
         "mainStat": null,
         "gcd": null,
@@ -9432,7 +9432,7 @@ export const gsaCharactersKo = [
         "slot": "패시브 2",
         "slotEn": "Passive 2",
         "unlockStar": 6,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr058_6.webp",
         "type": "패시브",
         "mainStat": null,
         "gcd": null,
@@ -9452,7 +9452,7 @@ export const gsaCharactersKo = [
         "slot": "궁극기",
         "slotEn": "Ultimate",
         "unlockStar": 2,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr058_4.webp",
         "type": "순발",
         "mainStat": null,
         "gcd": null,
@@ -9841,393 +9841,7 @@ export const gsaCharactersKo = [
       "hpRcvPer": "1000"
     }
   },
-  {
-    "id": "133006000",
-    "tierStats": [
-      {
-        "tier": 1,
-        "hp": 8533,
-        "atk": 156
-      },
-      {
-        "tier": 2,
-        "hp": 12759,
-        "atk": 230
-      },
-      {
-        "tier": 3,
-        "hp": 25600,
-        "atk": 468
-      },
-      {
-        "tier": 4,
-        "hp": 38360,
-        "atk": 699
-      },
-      {
-        "tier": 5,
-        "hp": 51201,
-        "atk": 937
-      },
-      {
-        "tier": 6,
-        "hp": 68268,
-        "atk": 1249
-      },
-      {
-        "tier": 7,
-        "hp": 85336,
-        "atk": 1562
-      },
-      {
-        "tier": 8,
-        "hp": 102403,
-        "atk": 1874
-      },
-      {
-        "tier": 9,
-        "hp": 122883,
-        "atk": 2246
-      },
-      {
-        "tier": 10,
-        "hp": 147509,
-        "atk": 2700
-      }
-    ],
-    "growth": {
-      "rate": 1.5,
-      "hp": [
-        115.91,
-        231.83,
-        579.57,
-        927.32,
-        1275.06,
-        1622.81
-      ],
-      "atk": [
-        1.48,
-        2.97,
-        7.44,
-        11.9,
-        16.36,
-        20.83
-      ]
-    },
-    "affection": [
-      {
-        "label": "풍 속성 저항%",
-        "value": 50
-      },
-      {
-        "label": "풍 속성 저항%",
-        "value": 50
-      },
-      {
-        "label": "풍 속성 저항%",
-        "value": 50
-      },
-      {
-        "label": "풍 속성 저항%",
-        "value": 50
-      },
-      {
-        "label": "풍 속성 저항%",
-        "value": 50
-      },
-      {
-        "label": "풍 속성 저항%",
-        "value": 50
-      },
-      {
-        "label": "풍 속성 저항%",
-        "value": 100
-      },
-      {
-        "label": "풍 속성 저항%",
-        "value": 100
-      },
-      {
-        "label": "풍 속성 저항%",
-        "value": 100
-      },
-      {
-        "label": "풍 속성 저항%",
-        "value": 200
-      }
-    ],
-    "gear": [
-      {
-        "slot": "장갑",
-        "name": "전사 장갑 EX",
-        "stats": [
-          {
-            "label": "공격력",
-            "base": 44,
-            "pct": false
-          },
-          {
-            "label": "火屬性攻擊",
-            "base": 1000,
-            "pct": true
-          },
-          {
-            "label": "공격 속도",
-            "base": 182,
-            "pct": false
-          },
-          {
-            "label": "명중",
-            "base": 58,
-            "pct": false
-          }
-        ]
-      },
-      {
-        "slot": "무기",
-        "name": "화염 이능 완갑 EX",
-        "stats": [
-          {
-            "label": "공격력",
-            "base": 44,
-            "pct": false
-          },
-          {
-            "label": "火屬性攻擊",
-            "base": 1000,
-            "pct": true
-          },
-          {
-            "label": "차단",
-            "base": 107,
-            "pct": false
-          },
-          {
-            "label": "가드 피해 감소",
-            "base": 96,
-            "pct": false
-          }
-        ]
-      },
-      {
-        "slot": "신발",
-        "name": "전사 신발 EX",
-        "stats": [
-          {
-            "label": "공격력",
-            "base": 44,
-            "pct": false
-          },
-          {
-            "label": "火屬性攻擊",
-            "base": 1000,
-            "pct": true
-          },
-          {
-            "label": "받는 치유 효과 상승",
-            "base": 188,
-            "pct": false
-          },
-          {
-            "label": "치명타 회피",
-            "base": 80,
-            "pct": false
-          }
-        ]
-      },
-      {
-        "slot": "액세서리",
-        "name": "명상 염주",
-        "stats": [
-          {
-            "label": "공격력",
-            "base": 77,
-            "pct": false
-          }
-        ]
-      }
-    ],
-    "model": "cr060",
-    "slug": "danxin",
-    "name": "단심",
-    "nameEn": "Danxin",
-    "title": "2대 청룡",
-    "epithet": "순청의 불꽃, 교묘히 천금을 움직이다",
-    "sex": "남성",
-    "inGacha": false,
-    "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/cr060_Icon_Texture.webp",
-    "sortOrder": 60,
-    "element": {
-      "id": 1,
-      "name": "불",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/battleelement_1.webp"
-    },
-    "job": {
-      "id": 1,
-      "name": "방어",
-      "color": "#957C7A",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/guard_1.webp"
-    },
-    "attackType": {
-      "id": 1,
-      "name": "物理",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Attributes_02.webp"
-    },
-    "skills": [
-      {
-        "id": "150006000",
-        "name": "실채찍 손놀림",
-        "slot": "기본 공격",
-        "slotEn": "Basic Attack",
-        "unlockStar": 0,
-        "icon": null,
-        "type": "순발",
-        "mainStat": null,
-        "gcd": "10s",
-        "desc": "대상에게 83% 물리 피해를 입힌다.",
-        "detail": null,
-        "cooldown": "0s",
-        "cost": null,
-        "statuses": []
-      },
-      {
-        "id": "150006010",
-        "name": "반룡 염벽",
-        "slot": "특성",
-        "slotEn": "Talent",
-        "unlockStar": 0,
-        "icon": null,
-        "type": "순발",
-        "mainStat": null,
-        "gcd": null,
-        "desc": "자신에게 2145% 쉴드를 부여한다(10초 지속).",
-        "detail": null,
-        "cooldown": "10s",
-        "cost": 1,
-        "statuses": [
-          "스턴"
-        ],
-        "awakened": {
-          "desc": "자신에게 3000% 쉴드를 부여한다(10초 지속).",
-          "detail": null
-        }
-      },
-      {
-        "id": "150006020",
-        "name": "기세 파괴 삼단 반격",
-        "slot": "자동",
-        "slotEn": "Auto",
-        "unlockStar": 1,
-        "icon": null,
-        "type": "순발",
-        "mainStat": null,
-        "gcd": null,
-        "desc": "대상에게 100% 물리 피해를 3단 입힌다.\n최후의 일격 명중 시, 중간 확률로 대상에게 에너지 피해 하락 10%를 부여한다(8초 지속).",
-        "detail": null,
-        "cooldown": "6s",
-        "cost": null,
-        "statuses": [
-          "치유",
-          "받는 피해 하락"
-        ],
-        "awakened": {
-          "desc": "대상에게 135% 물리 피해를 3단 입힌다.\n최후의 일격 명중 시, 중간 확률로 대상에게 에너지 피해 하락 20%를 부여한다(8초 지속).",
-          "detail": null
-        }
-      },
-      {
-        "id": "150006030",
-        "name": "화끈한 본능",
-        "slot": "패시브 1",
-        "slotEn": "Passive 1",
-        "unlockStar": 4,
-        "icon": null,
-        "type": "패시브",
-        "mainStat": null,
-        "gcd": null,
-        "desc": "자신이 쉴드를 획득 시, 자신에게 증폭 효과 부여: 「피격 시 낮음 확률로 랜덤 대상에게 연소S 상태를 부여한다(6초 지속)」 (6초 지속).\n증폭 효과는 발동할 때마다 최소 6초의 간격이 필요하다.",
-        "detail": null,
-        "cooldown": "0s",
-        "cost": null,
-        "statuses": [],
-        "awakened": {
-          "desc": "자신이 쉴드를 획득 시, 자신에게 증폭 효과 부여: 「피격 시 낮음 확률로 랜덤 대상에게 연소S 상태를 부여한다(6초 지속)」 (6초 지속).\n증폭 효과는 발동할 때마다 최소 6초의 간격이 필요하다.\n아군 전체에게 가드 상승 8%를 부여한다.",
-          "detail": null
-        }
-      },
-      {
-        "id": "150006050",
-        "name": "힘을 감아 흘리기",
-        "slot": "패시브 2",
-        "slotEn": "Passive 2",
-        "unlockStar": 6,
-        "icon": null,
-        "type": "패시브",
-        "mainStat": null,
-        "gcd": null,
-        "desc": "자신에게 받는 에너지 피해 하락을(를) 10% 부여한다.",
-        "detail": null,
-        "cooldown": "0s",
-        "cost": null,
-        "statuses": [],
-        "awakened": {
-          "desc": "아군 전체에게 받는 에너지 피해 하락 10%를 부여한다.\nPVP 시스템 중, 자신에게 받는 치유 효과 상승 13%를 부여한다.",
-          "detail": null
-        }
-      },
-      {
-        "id": "150006041",
-        "name": "청룡 염진파",
-        "slot": "궁극기",
-        "slotEn": "Ultimate",
-        "unlockStar": 2,
-        "icon": null,
-        "type": "순발",
-        "mainStat": null,
-        "gcd": null,
-        "desc": "각성 상태에 진입하여 자신에게 받는 일반 공격 피해 하락 40%를 부여한다(24초 지속).\n전방 범위 내 최대 2명의 대상에게 93% 에너지 피해를 4단 입힌다.\n자신에게 가드 상승 10%를 부여한다(12초 지속).\n자신에게 가드 피해 감소 상승 20%를 부여한다(12초 지속).",
-        "detail": null,
-        "cooldown": "24s",
-        "cost": 3,
-        "statuses": []
-      }
-    ],
-    "profile": {
-      "title": "功夫美少女",
-      "birthday": "7 / 23",
-      "age": "22",
-      "height": "165",
-      "weight": "51",
-      "interest": "무예 겨루기, 매운 간식 먹기",
-      "personality": "활발하고 승부욕이 강함, 도발당하면 바로 맞붙는다",
-      "resumeParas": [
-        "自幼時隨父親在各國修行，並精進家傳的纏絲拳法。",
-        "17歲回到托比亞後，年少氣盛的丹芯便常私下去打地下拳賽。龍應天視察拳賽，見丹芯拳術了得，遂延攬其帶藝投師入青龍武術館。",
-        "進入青龍幫後，融合龍應天指導的拳術改稱為青龍纏絲拳。",
-        "由於個性活潑又精通武術，也被指派為武鬥會司儀。",
-        "父親目前下落不明，應該是又出國修行了。"
-      ]
-    },
-    "stats": {
-      "atkRange": "120",
-      "normalAttackGCD": "10000",
-      "critPer": "1000",
-      "critRstPer": "0",
-      "critAmpPer": "5000",
-      "critDmgRdcPer": "0",
-      "hitPer": "8500",
-      "ddgPer": "0",
-      "blkPer": "2500",
-      "blkPenPer": "1500",
-      "blkRdcPer": "2000",
-      "healCritPer": "1000",
-      "healCritAmpPer": "5000",
-      "atkHastePer": "0",
-      "cdHastePer": "0",
-      "manaAmpPer": "0",
-      "hpRcvPer": "1000"
-    }
-  },
+  
   {
     "id": "133006100",
     "tierStats": [
@@ -11603,7 +11217,7 @@ export const gsaCharactersKo = [
         "slot": "기본 공격",
         "slotEn": "Basic Attack",
         "unlockStar": 0,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr064_1.webp",
         "type": "순발",
         "mainStat": null,
         "gcd": "7.001s",
@@ -11619,7 +11233,7 @@ export const gsaCharactersKo = [
         "slot": "특성",
         "slotEn": "Talent",
         "unlockStar": 0,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr064_2.webp",
         "type": "순발",
         "mainStat": null,
         "gcd": null,
@@ -11642,7 +11256,7 @@ export const gsaCharactersKo = [
         "slot": "자동",
         "slotEn": "Auto",
         "unlockStar": 1,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr064_3.webp",
         "type": "순발",
         "mainStat": null,
         "gcd": null,
@@ -11664,7 +11278,7 @@ export const gsaCharactersKo = [
         "slot": "패시브 1",
         "slotEn": "Passive 1",
         "unlockStar": 4,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr064_5.webp",
         "type": "패시브",
         "mainStat": null,
         "gcd": null,
@@ -11684,7 +11298,7 @@ export const gsaCharactersKo = [
         "slot": "패시브 2",
         "slotEn": "Passive 2",
         "unlockStar": 6,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr064_6.webp",
         "type": "패시브",
         "mainStat": null,
         "gcd": null,
@@ -11704,7 +11318,7 @@ export const gsaCharactersKo = [
         "slot": "궁극기",
         "slotEn": "Ultimate",
         "unlockStar": 2,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr064_4.webp",
         "type": "순발",
         "mainStat": null,
         "gcd": null,
@@ -12524,1925 +12138,11 @@ export const gsaCharactersKo = [
       "hpRcvPer": "1000"
     }
   },
-  {
-    "id": "133006700",
-    "tierStats": [
-      {
-        "tier": 1,
-        "hp": 3367,
-        "atk": 345
-      },
-      {
-        "tier": 2,
-        "hp": 5034,
-        "atk": 516
-      },
-      {
-        "tier": 3,
-        "hp": 10104,
-        "atk": 1038
-      },
-      {
-        "tier": 4,
-        "hp": 15140,
-        "atk": 1557
-      },
-      {
-        "tier": 5,
-        "hp": 20209,
-        "atk": 2079
-      },
-      {
-        "tier": 6,
-        "hp": 26947,
-        "atk": 2772
-      },
-      {
-        "tier": 7,
-        "hp": 33684,
-        "atk": 3465
-      },
-      {
-        "tier": 8,
-        "hp": 40421,
-        "atk": 4158
-      },
-      {
-        "tier": 9,
-        "hp": 48505,
-        "atk": 4989
-      },
-      {
-        "tier": 10,
-        "hp": 58226,
-        "atk": 5988
-      }
-    ],
-    "growth": {
-      "rate": 2,
-      "hp": [
-        45.75,
-        91.51,
-        228.78,
-        366.04,
-        503.31,
-        640.58
-      ],
-      "atk": [
-        3.3,
-        6.6,
-        16.5,
-        26.4,
-        36.3,
-        46.2
-      ]
-    },
-    "affection": [
-      {
-        "label": "공격력",
-        "value": 50
-      },
-      {
-        "label": "공격력",
-        "value": 50
-      },
-      {
-        "label": "공격력",
-        "value": 50
-      },
-      {
-        "label": "공격력",
-        "value": 50
-      },
-      {
-        "label": "공격력",
-        "value": 50
-      },
-      {
-        "label": "공격력",
-        "value": 50
-      },
-      {
-        "label": "공격력",
-        "value": 100
-      },
-      {
-        "label": "공격력",
-        "value": 100
-      },
-      {
-        "label": "공격력",
-        "value": 100
-      },
-      {
-        "label": "공격력",
-        "value": 200
-      }
-    ],
-    "gear": [
-      {
-        "slot": "장갑",
-        "name": "취우 금팔찌 EX",
-        "stats": [
-          {
-            "label": "공격력",
-            "base": 118,
-            "pct": false
-          },
-          {
-            "label": "風屬性攻擊",
-            "base": 1000,
-            "pct": true
-          },
-          {
-            "label": "에너지 강화",
-            "base": 62,
-            "pct": false
-          },
-          {
-            "label": "공격 속도",
-            "base": 163,
-            "pct": false
-          }
-        ]
-      },
-      {
-        "slot": "무기",
-        "name": "명풍 옥피리 EX",
-        "stats": [
-          {
-            "label": "공격력",
-            "base": 118,
-            "pct": false
-          },
-          {
-            "label": "風屬性攻擊",
-            "base": 1000,
-            "pct": true
-          },
-          {
-            "label": "치명타",
-            "base": 97,
-            "pct": false
-          },
-          {
-            "label": "치명타 피해",
-            "base": 217,
-            "pct": false
-          }
-        ]
-      },
-      {
-        "slot": "신발",
-        "name": "청풍 하이힐 EX",
-        "stats": [
-          {
-            "label": "공격력",
-            "base": 118,
-            "pct": false
-          },
-          {
-            "label": "風屬性攻擊",
-            "base": 1000,
-            "pct": true
-          },
-          {
-            "label": "공격 속도",
-            "base": 182,
-            "pct": false
-          },
-          {
-            "label": "회피",
-            "base": 58,
-            "pct": false
-          }
-        ]
-      },
-      {
-        "slot": "액세서리",
-        "name": "벽로 꽃비녀",
-        "stats": [
-          {
-            "label": "공격력",
-            "base": 77,
-            "pct": false
-          }
-        ]
-      }
-    ],
-    "model": "cr067",
-    "slug": "qing-yin",
-    "name": "청음",
-    "nameEn": "Qing Yin",
-    "title": "경국지색의 악사",
-    "epithet": "부드러운 음률, 벼락같은 울림",
-    "sex": "여성",
-    "inGacha": true,
-    "icon": null,
-    "sortOrder": 67,
-    "element": {
-      "id": 3,
-      "name": "바람",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/battleelement_3.webp"
-    },
-    "job": {
-      "id": 5,
-      "name": "파괴",
-      "color": "#9433EA",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/master_3.webp"
-    },
-    "attackType": {
-      "id": 2,
-      "name": "能量",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Attributes_01.webp"
-    },
-    "skills": [
-      {
-        "id": "150006700",
-        "name": "穿雲短音",
-        "slot": "기본 공격",
-        "slotEn": "Basic Attack",
-        "unlockStar": 0,
-        "icon": null,
-        "type": "순발",
-        "mainStat": null,
-        "gcd": "10s",
-        "desc": "먼저 감전 상태 대상에게 75% 에너지 피해를 입힌다.",
-        "detail": null,
-        "cooldown": "0s",
-        "cost": null,
-        "statuses": []
-      },
-      {
-        "id": "150006710",
-        "name": "疊律震響",
-        "slot": "특성",
-        "slotEn": "Talent",
-        "unlockStar": 0,
-        "icon": null,
-        "type": "순발",
-        "mainStat": null,
-        "gcd": null,
-        "desc": "먼저 감전 상태 대상에게 90% 에너지 피해를 3단 입힌다.\n첫 번째 공격 명중 시, 대상에게 풍 속성 저항 하락 12%를 부여한다(6초 지속).\n최후의 일격 명중 시, 대상이 감전 상태일 경우 과부하M 추격을 가한다.",
-        "detail": null,
-        "cooldown": "10s",
-        "cost": 1,
-        "statuses": [],
-        "awakened": {
-          "desc": "먼저 감전 상태 대상에게 152% 에너지 피해를 3단 입힌다.\n첫 번째 공격 명중 시, 대상에게 풍 속성 저항 하락 12%를 부여한다(10초 지속).\n최후의 일격 명중 시, 대상이 감전 상태일 경우 과부하M 추격을 가한다.",
-          "detail": null
-        }
-      },
-      {
-        "id": "150006720",
-        "name": "迴音縛陣",
-        "slot": "자동",
-        "slotEn": "Auto",
-        "unlockStar": 1,
-        "icon": null,
-        "type": "순발",
-        "mainStat": null,
-        "gcd": null,
-        "desc": "먼저 감전 상태 대상에게 110% 에너지 피해를 입힌다.\n명중 시, 높음 확률로 대상에게 스턴 상태를 부여한다(3초 지속).",
-        "detail": null,
-        "cooldown": "6s",
-        "cost": null,
-        "statuses": [],
-        "awakened": {
-          "desc": "먼저 감전 상태 대상에게 176% 에너지 피해를 입힌다.\n명중 시, 매우 높은 확률로 대상에게 스턴 상태를 부여한다(3초 지속).",
-          "detail": null
-        }
-      },
-      {
-        "id": "150006730",
-        "name": "柔音暗刃",
-        "slot": "패시브 1",
-        "slotEn": "Passive 1",
-        "unlockStar": 4,
-        "icon": null,
-        "type": "패시브",
-        "mainStat": null,
-        "gcd": null,
-        "desc": "명중 시, 감전 상태 대상인 경우 자신에게 풍 속성 공격 상승8%를 부여한다. (12초)\n해당 효과는 최대 2회 중첩된다.",
-        "detail": "칭인은 겉으로는 온화하지만 미소 속에 칼날을 숨기고 있다.",
-        "cooldown": "0s",
-        "cost": null,
-        "statuses": [],
-        "awakened": {
-          "desc": "명중 시, 감전 상태 대상인 경우 자신에게 풍 속성 공격 상승9%를 부여한다. (12초)\n해당 효과는 최대 2회 중첩된다.\n아군 전체에게 에너지 피해 상승 6%를 부여한다.",
-          "detail": null
-        }
-      },
-      {
-        "id": "150006750",
-        "name": "操盤雅音",
-        "slot": "패시브 2",
-        "slotEn": "Passive 2",
-        "unlockStar": 6,
-        "icon": null,
-        "type": "패시브",
-        "mainStat": null,
-        "gcd": null,
-        "desc": "자신에게 치명 상승을(를) 14% 부여한다.",
-        "detail": "칭인은 늘 타인의 말과 행동의 변화를 조용히 관찰하며, 연주로 상대의 리듬을 천천히 이끈다.",
-        "cooldown": "0s",
-        "cost": null,
-        "statuses": [],
-        "awakened": {
-          "desc": "아군 전체에게 치명 상승 14%를 부여한다.\nPVP 시스템 중, 자신에게 공격속도 상승 15%를 부여한다.",
-          "detail": null
-        }
-      },
-      {
-        "id": "150006741",
-        "name": "萬音爆裂",
-        "slot": "궁극기",
-        "slotEn": "Ultimate",
-        "unlockStar": 2,
-        "icon": null,
-        "type": "순발",
-        "mainStat": null,
-        "gcd": null,
-        "desc": "각성 상태에 진입하여 자신에게 공격력 상승 15%를 부여한다(24초 지속).\n먼저 감전 상태 대상에게 413.5% 에너지 피해를 2단 입힌다.\n첫 번째 공격 명중 시, 자신에게 풍 속성 공격 상승 15%를 부여한다(12초 지속).\n첫 번째 공격 명중 시, 자신에게 공격속도 상승 30%를 부여한다(12초 지속).\n최후의 일격 명중 시, 대상이 감전 상태일 경우 과부하L 추격을 가한다.",
-        "detail": null,
-        "cooldown": "24s",
-        "cost": 3,
-        "statuses": []
-      }
-    ],
-    "profile": {
-      "title": "絕色傾城之樂姬",
-      "birthday": "10 / 14",
-      "age": "23",
-      "height": "166",
-      "weight": "55",
-      "interest": "관찰 대상, 음악",
-      "personality": "온화하고 단아함, 학식과 예의를 갖춤 #대화를 유도해 주도권을 잡는 데 능하다",
-      "resumeParas": [
-        "前九幽幫樂師，後轉投青龍幫",
-        "清音是九幽幫的樂師兼性奴，以迷魂笛聲協助殺手冷鴆進行暗殺。",
-        "後冷鴆被幫派高層煉成沒有自我意識的「蠱奴」。清音從青龍幫臥底藥師半夏口中得知蠱奴的絕望下場後，長期順從幫派的她，終於決定為改變命運做出反撲。",
-        "靠半夏調製的藥物與自身的笛音暗殺九幽幫成員後，帶冷鴆前往青龍幫尋求協助。"
-      ]
-    },
-    "stats": {
-      "atkRange": "600",
-      "normalAttackGCD": "10000",
-      "critPer": "1000",
-      "critRstPer": "0",
-      "critAmpPer": "5000",
-      "critDmgRdcPer": "0",
-      "hitPer": "9300",
-      "ddgPer": "0",
-      "blkPer": "2500",
-      "blkPenPer": "0",
-      "blkRdcPer": "2000",
-      "healCritPer": "1000",
-      "healCritAmpPer": "5000",
-      "atkHastePer": "0",
-      "cdHastePer": "0",
-      "manaAmpPer": "0",
-      "hpRcvPer": "1000"
-    }
-  },
-  {
-    "id": "133006800",
-    "tierStats": [
-      {
-        "tier": 1,
-        "hp": 4176,
-        "atk": 262
-      },
-      {
-        "tier": 2,
-        "hp": 6242,
-        "atk": 392
-      },
-      {
-        "tier": 3,
-        "hp": 12529,
-        "atk": 788
-      },
-      {
-        "tier": 4,
-        "hp": 18774,
-        "atk": 1183
-      },
-      {
-        "tier": 5,
-        "hp": 25059,
-        "atk": 1580
-      },
-      {
-        "tier": 6,
-        "hp": 33415,
-        "atk": 2106
-      },
-      {
-        "tier": 7,
-        "hp": 41768,
-        "atk": 2633
-      },
-      {
-        "tier": 8,
-        "hp": 50122,
-        "atk": 3160
-      },
-      {
-        "tier": 9,
-        "hp": 60146,
-        "atk": 3791
-      },
-      {
-        "tier": 10,
-        "hp": 72201,
-        "atk": 4550
-      }
-    ],
-    "growth": {
-      "rate": 1.5,
-      "hp": [
-        56.73,
-        113.47,
-        283.68,
-        453.89,
-        624.11,
-        794.32
-      ],
-      "atk": [
-        2.5,
-        5.01,
-        12.54,
-        20.06,
-        27.58,
-        35.11
-      ]
-    },
-    "affection": [
-      {
-        "label": "공격력",
-        "value": 50
-      },
-      {
-        "label": "공격력",
-        "value": 50
-      },
-      {
-        "label": "공격력",
-        "value": 50
-      },
-      {
-        "label": "공격력",
-        "value": 50
-      },
-      {
-        "label": "공격력",
-        "value": 50
-      },
-      {
-        "label": "공격력",
-        "value": 50
-      },
-      {
-        "label": "공격력",
-        "value": 50
-      },
-      {
-        "label": "공격력",
-        "value": 50
-      },
-      {
-        "label": "공격력",
-        "value": 50
-      },
-      {
-        "label": "공격력",
-        "value": 50
-      }
-    ],
-    "gear": [
-      {
-        "slot": "장갑",
-        "name": "피눈물 소매 EX",
-        "stats": [
-          {
-            "label": "공격력",
-            "base": 118,
-            "pct": false
-          },
-          {
-            "label": "水屬性攻擊",
-            "base": 1000,
-            "pct": true
-          },
-          {
-            "label": "명중",
-            "base": 58,
-            "pct": false
-          },
-          {
-            "label": "에너지 강화",
-            "base": 62,
-            "pct": false
-          }
-        ]
-      },
-      {
-        "slot": "무기",
-        "name": "목숨을 묶는 침 EX",
-        "stats": [
-          {
-            "label": "공격력",
-            "base": 118,
-            "pct": false
-          },
-          {
-            "label": "水屬性攻擊",
-            "base": 1000,
-            "pct": true
-          },
-          {
-            "label": "技能強化",
-            "base": 1000,
-            "pct": true
-          }
-        ]
-      },
-      {
-        "slot": "신발",
-        "name": "응서리 신발 EX",
-        "stats": [
-          {
-            "label": "공격력",
-            "base": 118,
-            "pct": false
-          },
-          {
-            "label": "水屬性攻擊",
-            "base": 1000,
-            "pct": true
-          },
-          {
-            "label": "공격 속도",
-            "base": 182,
-            "pct": false
-          },
-          {
-            "label": "회피",
-            "base": 58,
-            "pct": false
-          }
-        ]
-      },
-      {
-        "slot": "액세서리",
-        "name": "평안매듭",
-        "stats": [
-          {
-            "label": "공격력",
-            "base": 77,
-            "pct": false
-          }
-        ]
-      }
-    ],
-    "model": "cr068",
-    "slug": "leng-zhen",
-    "name": "랑잠",
-    "nameEn": "Leng Zhen",
-    "title": "영혼이 없는 처형자",
-    "epithet": "차가운 침으로 혈을 봉하고, 기운이 흘러 돈다",
-    "sex": "여성",
-    "inGacha": true,
-    "icon": null,
-    "sortOrder": 68,
-    "element": {
-      "id": 4,
-      "name": "물",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/battleelement_4.webp"
-    },
-    "job": {
-      "id": 5,
-      "name": "파괴",
-      "color": "#9433EA",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/master_4.webp"
-    },
-    "attackType": {
-      "id": 2,
-      "name": "能量",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Attributes_01.webp"
-    },
-    "skills": [
-      {
-        "id": "150006800",
-        "name": "숨통 끊기",
-        "slot": "기본 공격",
-        "slotEn": "Basic Attack",
-        "unlockStar": 0,
-        "icon": null,
-        "type": "순발",
-        "mainStat": null,
-        "gcd": "10s",
-        "desc": "랜덤 대상에게 69% 에너지 피해를 입힌다.",
-        "detail": null,
-        "cooldown": "0s",
-        "cost": null,
-        "statuses": []
-      },
-      {
-        "id": "150006810",
-        "name": "혈맥 끊기",
-        "slot": "특성",
-        "slotEn": "Talent",
-        "unlockStar": 0,
-        "icon": null,
-        "type": "순발",
-        "mainStat": null,
-        "gcd": null,
-        "desc": "랜덤 대상에게 105% 에너지 피해를 3단 입힌다.\n명중 시, 아군의 EN을 2 증가시킨다.",
-        "detail": null,
-        "cooldown": "10s",
-        "cost": 1,
-        "statuses": [
-          "EN 획득 상승"
-        ],
-        "awakened": {
-          "desc": "랜덤 대상에게 125% 에너지 피해를 3단 입힌다.\n명중 시, 아군의 EN을 2.5 증가시킨다.",
-          "detail": null
-        }
-      },
-      {
-        "id": "150006820",
-        "name": "혈도 봉쇄",
-        "slot": "자동",
-        "slotEn": "Auto",
-        "unlockStar": 1,
-        "icon": null,
-        "type": "순발",
-        "mainStat": null,
-        "gcd": null,
-        "desc": "랜덤 대상에게 105% 에너지 피해를 3단 입힌다.\n명중 시, 높음 확률로 대상에게 빙결M 상태를 부여한다(3초 지속).",
-        "detail": null,
-        "cooldown": "6s",
-        "cost": null,
-        "statuses": [
-          "빙결"
-        ],
-        "awakened": {
-          "desc": "랜덤 대상에게 145% 에너지 피해를 3단 입힌다.\n명중 시, 대상에게 빙결M 상태를 부여한다(3초 지속).",
-          "detail": null
-        }
-      },
-      {
-        "id": "150006830",
-        "name": "감각 차단",
-        "slot": "패시브 1",
-        "slotEn": "Passive 1",
-        "unlockStar": 4,
-        "icon": null,
-        "type": "패시브",
-        "mainStat": null,
-        "gcd": null,
-        "desc": "해당 효과의 재발동 대기 시간은 최소 6초이다.",
-        "detail": "Having been reduced to a vessel with no sense of self, she is completely cut off from the interference of emotions like fear and hesitation.",
-        "cooldown": "0s",
-        "cost": null,
-        "statuses": [],
-        "awakened": {
-          "desc": "해당 효과의 재발동 대기 시간은 최소 6초이다.\n아군 전체에게 물 속성 공격 상승 8.5%를 부여한다.",
-          "detail": null
-        }
-      },
-      {
-        "id": "150006850",
-        "name": "독충 저주령",
-        "slot": "패시브 2",
-        "slotEn": "Passive 2",
-        "unlockStar": 6,
-        "icon": null,
-        "type": "패시브",
-        "mainStat": null,
-        "gcd": null,
-        "desc": "자신에게 스킬 피해 상승을(를) 12.5% 부여한다.",
-        "detail": "A body whose sense of pain is devoured by venom can push itself to the limit, utterly ignoring the price of torn muscles.",
-        "cooldown": "0s",
-        "cost": null,
-        "statuses": []
-      },
-      {
-        "id": "150006841",
-        "name": "장례 선고",
-        "slot": "궁극기",
-        "slotEn": "Ultimate",
-        "unlockStar": 2,
-        "icon": null,
-        "type": "순발",
-        "mainStat": null,
-        "gcd": null,
-        "desc": "각성 상태에 진입하여 자신에게 빙결 명중 상승 35%를 부여한다(24초 지속).\n랜덤 대상에게 300% 에너지 피해를 3단 입힌다.\n명중 시, 대상에게 빙결M 상태를 부여한다(3초 지속).",
-        "detail": null,
-        "cooldown": "24s",
-        "cost": 3,
-        "statuses": []
-      }
-    ],
-    "profile": {
-      "title": "無魂的處刑者",
-      "birthday": "12 / 25",
-      "age": "26",
-      "height": "172",
-      "weight": "53",
-      "interest": "사탕, 단 음료(유아화 때문에)",
-      "personality": "1. 외부 자극에 반응이 매우 느림 #2. 청음에게 강한 의존 및 보호 성향이 있다",
-      "resumeParas": [
-        "前九幽幫殺手，後與清音轉投青龍幫。",
-        "出生於托比亞；年幼時因家庭債務被賣入九幽幫，訓練栽培後成為殺手。",
-        "與樂師 「清音」長期搭檔，兩人的默契與私情在一次次任務中昇華。",
-        "私下密謀帶清音逃離九幽幫；但事成前即被幫派高層煉為蠱奴。做為性奴與殺手用。",
-        "後被清音帶至青龍幫尋求協助。"
-      ]
-    },
-    "stats": {
-      "atkRange": "480",
-      "normalAttackGCD": "10000",
-      "critPer": "1000",
-      "critRstPer": "0",
-      "critAmpPer": "5000",
-      "critDmgRdcPer": "0",
-      "hitPer": "9300",
-      "ddgPer": "0",
-      "blkPer": "2500",
-      "blkPenPer": "0",
-      "blkRdcPer": "2000",
-      "healCritPer": "1000",
-      "healCritAmpPer": "5000",
-      "atkHastePer": "0",
-      "cdHastePer": "0",
-      "manaAmpPer": "0",
-      "hpRcvPer": "1000"
-    }
-  },
-  {
-    "id": "133007000",
-    "tierStats": [
-      {
-        "tier": 1,
-        "hp": 3928,
-        "atk": 252
-      },
-      {
-        "tier": 2,
-        "hp": 5875,
-        "atk": 375
-      },
-      {
-        "tier": 3,
-        "hp": 11788,
-        "atk": 756
-      },
-      {
-        "tier": 4,
-        "hp": 17663,
-        "atk": 1131
-      },
-      {
-        "tier": 5,
-        "hp": 23578,
-        "atk": 1512
-      },
-      {
-        "tier": 6,
-        "hp": 31438,
-        "atk": 2016
-      },
-      {
-        "tier": 7,
-        "hp": 39299,
-        "atk": 2520
-      },
-      {
-        "tier": 8,
-        "hp": 47158,
-        "atk": 3024
-      },
-      {
-        "tier": 9,
-        "hp": 56589,
-        "atk": 3627
-      },
-      {
-        "tier": 10,
-        "hp": 67930,
-        "atk": 4356
-      }
-    ],
-    "growth": {
-      "rate": 2,
-      "hp": [
-        53.38,
-        106.76,
-        266.91,
-        427.05,
-        587.2,
-        747.34
-      ],
-      "atk": [
-        2.4,
-        4.8,
-        12,
-        19.2,
-        26.4,
-        33.6
-      ]
-    },
-    "affection": [
-      {
-        "label": "공격력",
-        "value": 50
-      },
-      {
-        "label": "공격력",
-        "value": 50
-      },
-      {
-        "label": "공격력",
-        "value": 50
-      },
-      {
-        "label": "공격력",
-        "value": 50
-      },
-      {
-        "label": "공격력",
-        "value": 50
-      },
-      {
-        "label": "공격력",
-        "value": 50
-      },
-      {
-        "label": "공격력",
-        "value": 50
-      },
-      {
-        "label": "공격력",
-        "value": 50
-      },
-      {
-        "label": "공격력",
-        "value": 50
-      },
-      {
-        "label": "공격력",
-        "value": 50
-      }
-    ],
-    "gear": [
-      {
-        "slot": "장갑",
-        "name": "문신 스티커 EX",
-        "stats": [
-          {
-            "label": "공격력",
-            "base": 88,
-            "pct": false
-          },
-          {
-            "label": "火屬性攻擊",
-            "base": 1200,
-            "pct": true
-          },
-          {
-            "label": "명중",
-            "base": 42,
-            "pct": false
-          },
-          {
-            "label": "審判命中",
-            "base": 1500,
-            "pct": true
-          }
-        ]
-      },
-      {
-        "slot": "무기",
-        "name": "아버지의 낡은 권총 EX",
-        "stats": [
-          {
-            "label": "공격력",
-            "base": 88,
-            "pct": false
-          },
-          {
-            "label": "火屬性攻擊",
-            "base": 1200,
-            "pct": true
-          },
-          {
-            "label": "치명타",
-            "base": 50,
-            "pct": false
-          },
-          {
-            "label": "가드 무시",
-            "base": 50,
-            "pct": false
-          }
-        ]
-      },
-      {
-        "slot": "신발",
-        "name": "고급 맞춤 여성화 EX",
-        "stats": [
-          {
-            "label": "공격력",
-            "base": 88,
-            "pct": false
-          },
-          {
-            "label": "火屬性攻擊",
-            "base": 1200,
-            "pct": true
-          },
-          {
-            "label": "공격 속도",
-            "base": 50,
-            "pct": false
-          },
-          {
-            "label": "치명타 회피",
-            "base": 50,
-            "pct": false
-          }
-        ]
-      },
-      {
-        "slot": "액세서리",
-        "name": "엘레나의 시그니처 향수",
-        "stats": [
-          {
-            "label": "공격력",
-            "base": 77,
-            "pct": false
-          }
-        ]
-      }
-    ],
-    "model": "cr070",
-    "slug": "elena",
-    "name": "엘레나",
-    "nameEn": "Elena",
-    "title": "반항의 붉은 가시",
-    "epithet": "요염한 미인, 장미의 광습",
-    "sex": "여성",
-    "inGacha": true,
-    "icon": null,
-    "sortOrder": 70,
-    "element": {
-      "id": 1,
-      "name": "불",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/battleelement_1.webp"
-    },
-    "job": {
-      "id": 4,
-      "name": "지원",
-      "color": "#33EA62",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/priest_1.webp"
-    },
-    "attackType": {
-      "id": 2,
-      "name": "能量",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Attributes_01.webp"
-    },
-    "skills": [
-      {
-        "id": "150007000",
-        "name": "열광의 음표",
-        "slot": "기본 공격",
-        "slotEn": "Basic Attack",
-        "unlockStar": 0,
-        "icon": null,
-        "type": "순발",
-        "mainStat": null,
-        "gcd": "10s",
-        "desc": "대상에게 100% 물리 피해를 2단 입힌다.",
-        "detail": null,
-        "cooldown": "0s",
-        "cost": null,
-        "statuses": []
-      },
-      {
-        "id": "150007010",
-        "name": "폭발적 존재감",
-        "slot": "특성",
-        "slotEn": "Talent",
-        "unlockStar": 0,
-        "icon": null,
-        "type": "순발",
-        "mainStat": null,
-        "gcd": null,
-        "desc": "전방 범위 내의 대상 최대 3명에게 100% 에너지 피해를 5단 입힌다.\n명중 시, 대상에게 연소M 상태를 부여한다(0초 지속).",
-        "detail": null,
-        "cooldown": "10s",
-        "cost": 1,
-        "statuses": [
-          "연소"
-        ],
-        "awakened": {
-          "desc": "전방 범위 내의 대상 최대 3명에게 170% 에너지 피해를 5단 입힌다.\n명중 시, 대상에게 연소M 상태를 부여한다(0초 지속).",
-          "detail": null
-        }
-      },
-      {
-        "id": "150007020",
-        "name": "파티 워밍업",
-        "slot": "자동",
-        "slotEn": "Auto",
-        "unlockStar": 1,
-        "icon": null,
-        "type": "순발",
-        "mainStat": null,
-        "gcd": null,
-        "desc": "자신에게 가드 무시 상승 20%를 부여한다(12초 지속).\n자신에게 스킬 피해 상승 12%를 부여한다(12초 지속).\n자신에게 EN 획득 상승 40%를 부여한다(12초 지속).",
-        "detail": null,
-        "cooldown": "6s",
-        "cost": null,
-        "statuses": [
-          "치명타 회피 상승",
-          "스킬 피해 상승",
-          "공격속도 상승"
-        ],
-        "awakened": {
-          "desc": "자신에게 가드 무시 상승 24%를 부여한다(12초 지속).\n자신에게 스킬 피해 상승 18%를 부여한다(12초 지속).\n자신에게 EN 획득 상승 60%를 부여한다(12초 지속).",
-          "detail": null
-        }
-      },
-      {
-        "id": "150007030",
-        "name": "엄마한테 이를 거야!",
-        "slot": "패시브 1",
-        "slotEn": "Passive 1",
-        "unlockStar": 4,
-        "icon": null,
-        "type": "패시브",
-        "mainStat": null,
-        "gcd": null,
-        "desc": "명중 시, 연소 상태 대상인 경우 자신에게 불 속성 공격 상승6%를 부여한다. (12초)",
-        "detail": "With her mother backing her up, no matter what Elena does, she knows she'll be forgiven~",
-        "cooldown": "0s",
-        "cost": null,
-        "statuses": [],
-        "awakened": {
-          "desc": "명중 시, 연소 상태 대상인 경우 자신에게 불 속성 공격 상승7%를 부여한다. (12초)\n아군 전체에게 치명타 피해 상승 12%를 부여한다.",
-          "detail": null
-        }
-      },
-      {
-        "id": "150007050",
-        "name": "환락 지상주의",
-        "slot": "패시브 2",
-        "slotEn": "Passive 2",
-        "unlockStar": 6,
-        "icon": null,
-        "type": "패시브",
-        "mainStat": null,
-        "gcd": null,
-        "desc": "자신에게 에너지 피해 상승을(를) 10% 부여한다.",
-        "detail": "매번의 총성이 파티의 비트이다! 엘레나는 전투 중 공격 리듬에 맞춰 점차 열광 상태에 빠져든다.",
-        "cooldown": "0s",
-        "cost": null,
-        "statuses": [],
-        "awakened": {
-          "desc": "아군 전체에게 에너지 피해 상승 10%를 부여한다.\nPVP 시스템 중, 자신에게 공격력 상승 8%를 부여한다.",
-          "detail": null
-        }
-      },
-      {
-        "id": "150007041",
-        "name": "붉은 가시 난무",
-        "slot": "궁극기",
-        "slotEn": "Ultimate",
-        "unlockStar": 2,
-        "icon": null,
-        "type": "순발",
-        "mainStat": null,
-        "gcd": null,
-        "desc": "각성 상태에 진입하여 자신에게 에너지 피해 상승 10%를 부여한다(24초 지속).\n모든 대상에게 250% 에너지 피해를 18단 입힌다.\n명중 시, 대상에게 연소L 상태를 부여한다(12초 지속).\n최후의 일격 명중 시, 대상에게 치유 치명타 보너스 하락 18%를 부여한다(12초 지속).",
-        "detail": null,
-        "cooldown": "24s",
-        "cost": 3,
-        "statuses": []
-      }
-    ],
-    "profile": {
-      "title": "叛逆的紅棘",
-      "birthday": "12 / 12",
-      "age": "20",
-      "height": "165",
-      "weight": "48",
-      "interest": "음악 페스티벌 참가, 파티 참가, 오페라 감상",
-      "personality": "외향적, 활발함, 거만함, 열정적, 반골 기질",
-      "resumeParas": [
-        "從小在羅士昂兄弟會長大，因為父母的身分地位沒有人敢對她動歪腦筋，反倒會刻意討好她以求升職。她也會仗著這點，在不影響母親名聲的前提下刻意使喚組織中的人。",
-        "由於在爾虞我詐的環境中成長，因此看人的直覺相當準，也不避諱別人利用自己（因為她也會試圖從對方身上得到利益）。",
-        "母親有意讓她繼承現在的地位，因此刻意安排家教讓她上課，但她時常翹課，常讓老師和母親煩惱。",
-        "和母親一樣喜歡聽歌劇，但因為叛逆裝作不喜歡，轉而頻繁參加母親認為不入流的音樂祭。"
-      ]
-    },
-    "stats": {
-      "atkRange": "600",
-      "normalAttackGCD": "10000",
-      "critPer": "1000",
-      "critRstPer": "0",
-      "critAmpPer": "5000",
-      "critDmgRdcPer": "0",
-      "hitPer": "8000",
-      "ddgPer": "0",
-      "blkPer": "2500",
-      "blkPenPer": "0",
-      "blkRdcPer": "2000",
-      "healCritPer": "1000",
-      "healCritAmpPer": "5000",
-      "atkHastePer": "0",
-      "cdHastePer": "2500",
-      "manaAmpPer": "0",
-      "hpRcvPer": "1000"
-    }
-  },
-  {
-    "id": "133007100",
-    "tierStats": [
-      {
-        "tier": 1,
-        "hp": 5613,
-        "atk": 315
-      },
-      {
-        "tier": 2,
-        "hp": 8393,
-        "atk": 471
-      },
-      {
-        "tier": 3,
-        "hp": 16841,
-        "atk": 945
-      },
-      {
-        "tier": 4,
-        "hp": 25236,
-        "atk": 1416
-      },
-      {
-        "tier": 5,
-        "hp": 33684,
-        "atk": 1890
-      },
-      {
-        "tier": 6,
-        "hp": 44912,
-        "atk": 2520
-      },
-      {
-        "tier": 7,
-        "hp": 56142,
-        "atk": 3150
-      },
-      {
-        "tier": 8,
-        "hp": 67370,
-        "atk": 3780
-      },
-      {
-        "tier": 9,
-        "hp": 80844,
-        "atk": 4536
-      },
-      {
-        "tier": 10,
-        "hp": 97044,
-        "atk": 5445
-      }
-    ],
-    "growth": {
-      "rate": 1.5,
-      "hp": [
-        76.26,
-        152.52,
-        381.3,
-        610.08,
-        838.86,
-        1067.64
-      ],
-      "atk": [
-        3,
-        6,
-        15,
-        24,
-        33,
-        42
-      ]
-    },
-    "affection": [
-      {
-        "label": "공격력",
-        "value": 50
-      },
-      {
-        "label": "공격력",
-        "value": 50
-      },
-      {
-        "label": "공격력",
-        "value": 50
-      },
-      {
-        "label": "공격력",
-        "value": 50
-      },
-      {
-        "label": "공격력",
-        "value": 50
-      },
-      {
-        "label": "공격력",
-        "value": 50
-      },
-      {
-        "label": "공격력",
-        "value": 100
-      },
-      {
-        "label": "공격력",
-        "value": 100
-      },
-      {
-        "label": "공격력",
-        "value": 100
-      },
-      {
-        "label": "공격력",
-        "value": 200
-      }
-    ],
-    "gear": [
-      {
-        "slot": "장갑",
-        "name": "누드톤 매니큐어 EX",
-        "stats": [
-          {
-            "label": "공격력",
-            "base": 100,
-            "pct": false
-          },
-          {
-            "label": "土屬性攻擊",
-            "base": 1200,
-            "pct": true
-          },
-          {
-            "label": "명중",
-            "base": 42,
-            "pct": false
-          },
-          {
-            "label": "審判命中",
-            "base": 1500,
-            "pct": true
-          }
-        ]
-      },
-      {
-        "slot": "무기",
-        "name": "피의 제혈 맹세 EX",
-        "stats": [
-          {
-            "label": "공격력",
-            "base": 100,
-            "pct": false
-          },
-          {
-            "label": "土屬性攻擊",
-            "base": 1200,
-            "pct": true
-          },
-          {
-            "label": "치명타",
-            "base": 50,
-            "pct": false
-          },
-          {
-            "label": "가드 무시",
-            "base": 50,
-            "pct": false
-          }
-        ]
-      },
-      {
-        "slot": "신발",
-        "name": "디자이너 맞춤 하이힐 EX",
-        "stats": [
-          {
-            "label": "공격력",
-            "base": 100,
-            "pct": false
-          },
-          {
-            "label": "土屬性攻擊",
-            "base": 1200,
-            "pct": true
-          },
-          {
-            "label": "공격 속도",
-            "base": 50,
-            "pct": false
-          },
-          {
-            "label": "치명타 회피",
-            "base": 50,
-            "pct": false
-          }
-        ]
-      },
-      {
-        "slot": "액세서리",
-        "name": "검은색 염색약",
-        "stats": [
-          {
-            "label": "공격력",
-            "base": 77,
-            "pct": false
-          }
-        ]
-      }
-    ],
-    "model": "cr071",
-    "slug": "victoria",
-    "name": "빅토리아",
-    "nameEn": "Victoria",
-    "title": "권세욕의 마녀",
-    "epithet": "재액의 밤 환영, 바위의 속박",
-    "sex": "여성",
-    "inGacha": true,
-    "icon": null,
-    "sortOrder": 71,
-    "element": {
-      "id": 2,
-      "name": "대지",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/battleelement_2.webp"
-    },
-    "job": {
-      "id": 2,
-      "name": "돌격",
-      "color": "#EA3333",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/fighters_2.webp"
-    },
-    "attackType": {
-      "id": 2,
-      "name": "能量",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Attributes_01.webp"
-    },
-    "skills": [
-      {
-        "id": "150007100",
-        "name": "우아한 암살",
-        "slot": "기본 공격",
-        "slotEn": "Basic Attack",
-        "unlockStar": 0,
-        "icon": null,
-        "type": "순발",
-        "mainStat": null,
-        "gcd": "10s",
-        "desc": "대상에게 83% 물리 피해를 2단 입힌다.",
-        "detail": null,
-        "cooldown": "0s",
-        "cost": null,
-        "statuses": []
-      },
-      {
-        "id": "150007110",
-        "name": "마녀의 장송곡",
-        "slot": "특성",
-        "slotEn": "Talent",
-        "unlockStar": 0,
-        "icon": null,
-        "type": "순발",
-        "mainStat": null,
-        "gcd": null,
-        "desc": "대상에게 300% 물리 피해를 입힌다.\n최후의 일격 명중 시, 대상에게 석화M 상태를 부여한다(4초 지속).",
-        "detail": null,
-        "cooldown": "10s",
-        "cost": 1,
-        "statuses": [
-          "석화"
-        ],
-        "awakened": {
-          "desc": "대상에게 420% 물리 피해를 입힌다.\n최후의 일격 명중 시, 대상에게 석화M 상태를 부여한다(4초 지속).\n최후의 일격 명중 시, 대상에게 가드 하락 15%를 부여한다(8초 지속).",
-          "detail": null
-        }
-      },
-      {
-        "id": "150007120",
-        "name": "마녀의 축복",
-        "slot": "자동",
-        "slotEn": "Auto",
-        "unlockStar": 1,
-        "icon": null,
-        "type": "순발",
-        "mainStat": null,
-        "gcd": null,
-        "desc": "공격력이 가장 높은 팀원 2명에게 치명타 피해 상승 40%를 부여한다(8초 지속).",
-        "detail": null,
-        "cooldown": "6s",
-        "cost": null,
-        "statuses": [
-          "치명타 피해 상승"
-        ],
-        "awakened": {
-          "desc": "공격력이 가장 높은 팀원 2명에게 치명타 피해 상승 45%를 부여한다(10초 지속).",
-          "detail": null
-        }
-      },
-      {
-        "id": "150007130",
-        "name": "마녀 저주",
-        "slot": "패시브 1",
-        "slotEn": "Passive 1",
-        "unlockStar": 4,
-        "icon": null,
-        "type": "패시브",
-        "mainStat": null,
-        "gcd": null,
-        "desc": "명중 시, 대상이 석화 또는 차단 감소 조건이 목표라면 해당 대상에게 받는 치유 효과 감소22%를 부여한다. (6초 지속).\n해당 효과의 재발동 대기 시간은 최소 6초이다.",
-        "detail": "A rumor circulates within the Rosian Brotherhood, anyone who sees the witch's true identity will die a violent death.",
-        "cooldown": "0s",
-        "cost": null,
-        "statuses": [],
-        "awakened": {
-          "desc": "명중 시, 대상이 석화 또는 차단 감소 조건이 목표라면 해당 대상에게 받는 치유 효과 감소22%를 부여한다. (6초 지속).\n해당 효과의 재발동 대기 시간은 최소 6초이다.\n아군 전체에게 가드 무시 상승 6.5%를 부여한다.",
-          "detail": null
-        }
-      },
-      {
-        "id": "150007150",
-        "name": "힘의 절대법칙",
-        "slot": "패시브 2",
-        "slotEn": "Passive 2",
-        "unlockStar": 6,
-        "icon": null,
-        "type": "패시브",
-        "mainStat": null,
-        "gcd": null,
-        "desc": "자신에게 흙 속성 공격 상승을(를) 8.5% 부여한다.",
-        "detail": "In Rosian, power and strength are everything.",
-        "cooldown": "0s",
-        "cost": null,
-        "statuses": [],
-        "awakened": {
-          "desc": "아군 전체에게 흙 속성 공격 상승 8.5%를 부여한다.\nPVP 시스템 중, 자신에게 공격속도 상승 13%를 부여한다.",
-          "detail": null
-        }
-      },
-      {
-        "id": "150007141",
-        "name": "팬텀 스트라이크",
-        "slot": "궁극기",
-        "slotEn": "Ultimate",
-        "unlockStar": 2,
-        "icon": null,
-        "type": "순발",
-        "mainStat": null,
-        "gcd": null,
-        "desc": "각성 상태에 진입하여 자신에게 EN 획득 상승 45%를 부여한다(24초 지속).\n전방 범위 내의 대상 최대 3명에게 53% 에너지 피해를 8단 입힌다.\n최후의 일격 명중 시, 대상에게 치명타 회피 하락 15%를 부여한다(12초 지속).",
-        "detail": null,
-        "cooldown": "24s",
-        "cost": 3,
-        "statuses": []
-      }
-    ],
-    "profile": {
-      "title": "權欲魔女",
-      "birthday": "11 / 11",
-      "age": "37",
-      "height": "168",
-      "weight": "64",
-      "interest": "와인 시음, 갤러리 관람, 오페라 감상",
-      "personality": "냉정하고 거리감이 있다",
-      "resumeParas": [
-        "18歲時與羅士昂前幹部結婚並生下伊蓮娜，過沒多久丈夫就因權力鬥爭死去。",
-        "為了女兒的未來，她決定繼承亡夫在組織中的地位。在尼古拉的幫助下，她成功繼承亡夫的權勢、地位，甚至爬得比亡夫還要高。",
-        "由於手段兇殘，還被羅士昂的人戲稱是「魔女」。"
-      ]
-    },
-    "stats": {
-      "atkRange": "180",
-      "normalAttackGCD": "10000",
-      "critPer": "1000",
-      "critRstPer": "0",
-      "critAmpPer": "5000",
-      "critDmgRdcPer": "0",
-      "hitPer": "8500",
-      "ddgPer": "0",
-      "blkPer": "2500",
-      "blkPenPer": "1500",
-      "blkRdcPer": "2000",
-      "healCritPer": "1000",
-      "healCritAmpPer": "5000",
-      "atkHastePer": "0",
-      "cdHastePer": "0",
-      "manaAmpPer": "0",
-      "hpRcvPer": "1000"
-    }
-  },
-  {
-    "id": "133007300",
-    "tierStats": [
-      {
-        "tier": 1,
-        "hp": 3367,
-        "atk": 345
-      },
-      {
-        "tier": 2,
-        "hp": 5034,
-        "atk": 516
-      },
-      {
-        "tier": 3,
-        "hp": 10104,
-        "atk": 1038
-      },
-      {
-        "tier": 4,
-        "hp": 15140,
-        "atk": 1557
-      },
-      {
-        "tier": 5,
-        "hp": 20209,
-        "atk": 2079
-      },
-      {
-        "tier": 6,
-        "hp": 26947,
-        "atk": 2772
-      },
-      {
-        "tier": 7,
-        "hp": 33684,
-        "atk": 3465
-      },
-      {
-        "tier": 8,
-        "hp": 40421,
-        "atk": 4158
-      },
-      {
-        "tier": 9,
-        "hp": 48505,
-        "atk": 4989
-      },
-      {
-        "tier": 10,
-        "hp": 58226,
-        "atk": 5988
-      }
-    ],
-    "growth": {
-      "rate": 2.25,
-      "hp": [
-        45.75,
-        91.51,
-        228.78,
-        366.04,
-        503.31,
-        640.58
-      ],
-      "atk": [
-        3.3,
-        6.6,
-        16.5,
-        26.4,
-        36.3,
-        46.2
-      ]
-    },
-    "affection": [
-      {
-        "label": "치명타 피해%",
-        "value": 100
-      },
-      {
-        "label": "치명타 피해%",
-        "value": 100
-      },
-      {
-        "label": "치명타 피해%",
-        "value": 100
-      },
-      {
-        "label": "치명타 피해%",
-        "value": 100
-      },
-      {
-        "label": "치명타 피해%",
-        "value": 100
-      },
-      {
-        "label": "치명타 피해%",
-        "value": 200
-      },
-      {
-        "label": "치명타 피해%",
-        "value": 200
-      },
-      {
-        "label": "치명타 피해%",
-        "value": 300
-      },
-      {
-        "label": "치명타 피해%",
-        "value": 300
-      },
-      {
-        "label": "치명타 피해%",
-        "value": 500
-      }
-    ],
-    "gear": [
-      {
-        "slot": "장갑",
-        "name": "나이트바인 레이스 장갑 EX",
-        "stats": [
-          {
-            "label": "공격력",
-            "base": 118,
-            "pct": false
-          },
-          {
-            "label": "闇屬性攻擊",
-            "base": 1000,
-            "pct": true
-          },
-          {
-            "label": "물리 강화",
-            "base": 62,
-            "pct": false
-          },
-          {
-            "label": "공격 속도",
-            "base": 163,
-            "pct": false
-          }
-        ]
-      },
-      {
-        "slot": "무기",
-        "name": "MX9 소음기관단총 EX",
-        "stats": [
-          {
-            "label": "공격력",
-            "base": 118,
-            "pct": false
-          },
-          {
-            "label": "闇屬性攻擊",
-            "base": 1000,
-            "pct": true
-          },
-          {
-            "label": "치명타",
-            "base": 97,
-            "pct": false
-          },
-          {
-            "label": "치명타 피해",
-            "base": 217,
-            "pct": false
-          }
-        ]
-      },
-      {
-        "slot": "신발",
-        "name": "블랙문 롱부츠 EX",
-        "stats": [
-          {
-            "label": "공격력",
-            "base": 118,
-            "pct": false
-          },
-          {
-            "label": "闇屬性攻擊",
-            "base": 1000,
-            "pct": true
-          },
-          {
-            "label": "공격 속도",
-            "base": 182,
-            "pct": false
-          },
-          {
-            "label": "회피",
-            "base": 58,
-            "pct": false
-          }
-        ]
-      },
-      {
-        "slot": "액세서리",
-        "name": "흑요석 목걸이",
-        "stats": [
-          {
-            "label": "가드 무시",
-            "base": 800,
-            "pct": true
-          },
-          {
-            "label": "審判抗性",
-            "base": 1500,
-            "pct": true
-          }
-        ]
-      }
-    ],
-    "model": "cr073",
-    "slug": "connie",
-    "name": "코니",
-    "nameEn": "Connie",
-    "title": "완벽한 여신",
-    "epithet": "Splendid Execution, Feverish Applause",
-    "sex": "여성",
-    "inGacha": true,
-    "icon": null,
-    "sortOrder": 73,
-    "element": {
-      "id": 6,
-      "name": "어둠",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/battleelement_6.webp"
-    },
-    "job": {
-      "id": 5,
-      "name": "파괴",
-      "color": "#9433EA",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/master_6.webp"
-    },
-    "attackType": {
-      "id": 1,
-      "name": "物理",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Attributes_02.webp"
-    },
-    "skills": [
-      {
-        "id": "150007300",
-        "name": "點放射擊",
-        "slot": "기본 공격",
-        "slotEn": "Basic Attack",
-        "unlockStar": 0,
-        "icon": null,
-        "type": "순발",
-        "mainStat": null,
-        "gcd": "10s",
-        "desc": "HP가 가장 낮은 대상에게 26% 물리 피해를 3단 입힌다.",
-        "detail": null,
-        "cooldown": "0s",
-        "cost": null,
-        "statuses": []
-      },
-      {
-        "id": "150007310",
-        "name": "魅影裂空",
-        "slot": "특성",
-        "slotEn": "Talent",
-        "unlockStar": 0,
-        "icon": null,
-        "type": "순발",
-        "mainStat": null,
-        "gcd": null,
-        "desc": "HP가 가장 낮은 대상 2명에게 5단32% 물리 피해를 입힌다.\n첫 번째 공격 명중 시, 대상에게 빛 속성 공격 하락 15%를 부여한다(10초 지속).\n첫 번째 공격 명중 시, 대상에게 회피 하락 10%를 부여한다(10초 지속).",
-        "detail": null,
-        "cooldown": "10s",
-        "cost": 1,
-        "statuses": [
-          "빛 속성 공격 하락",
-          "회피 하락"
-        ],
-        "awakened": {
-          "desc": "HP가 가장 낮은 대상 2명에게 5단54% 물리 피해를 입힌다.\n첫 번째 공격 명중 시, 대상에게 빛 속성 공격 하락 15%를 부여한다(10초 지속).\n첫 번째 공격 명중 시, 대상에게 회피 하락 10%를 부여한다(10초 지속).",
-          "detail": null
-        }
-      },
-      {
-        "id": "150007320",
-        "name": "靜謐落星",
-        "slot": "자동",
-        "slotEn": "Auto",
-        "unlockStar": 1,
-        "icon": null,
-        "type": "순발",
-        "mainStat": null,
-        "gcd": null,
-        "desc": "HP가 가장 낮은 대상에게 18% 물리 피해를 5단 입힌다.\n최후의 일격 명중 시, 대상에게 치유 효과 하락 20%를 부여한다(10초 지속).\n최후의 일격 명중 시, 대상에게 받는 치유 효과 감소 20%를 부여한다(10초 지속).",
-        "detail": null,
-        "cooldown": "6s",
-        "cost": null,
-        "statuses": [
-          "치유 효과 하락",
-          "받는 치유 효과 하락"
-        ],
-        "awakened": {
-          "desc": "HP가 가장 낮은 대상에게 30% 물리 피해를 5단 입힌다.\n최후의 일격 명중 시, 대상에게 치유 효과 하락 25%를 부여한다(10초 지속).\n최후의 일격 명중 시, 대상에게 받는 치유 효과 감소 25%를 부여한다(10초 지속).",
-          "detail": null
-        }
-      },
-      {
-        "id": "150007330",
-        "name": "完美主義",
-        "slot": "패시브 1",
-        "slotEn": "Passive 1",
-        "unlockStar": 4,
-        "icon": null,
-        "type": "패시브",
-        "mainStat": null,
-        "gcd": null,
-        "desc": "처치 시, 암 속성 전체에게 물리 피해 상승15%를 부여한다. (12초)\n해당 효과는 최대 2회 중첩된다.",
-        "detail": "Queenie is strict with herself, demanding perfection in every detail of her performances.",
-        "cooldown": "0s",
-        "cost": null,
-        "statuses": [],
-        "awakened": {
-          "desc": "처치 시, 암 속성 전체에게 물리 피해 상승15%를 부여한다. (12초)\n해당 효과는 최대 2회 중첩된다.\n아군 전체에게 회피 상승 6.5%를 부여한다.",
-          "detail": null
-        }
-      },
-      {
-        "id": "150007350",
-        "name": "絕對魅從",
-        "slot": "패시브 2",
-        "slotEn": "Passive 2",
-        "unlockStar": 6,
-        "icon": null,
-        "type": "패시브",
-        "mainStat": null,
-        "gcd": null,
-        "desc": "자신에게 공격속도 상승을(를) 23% 부여한다.",
-        "detail": "With just a glance and a smile, Connie can make anyone willingly become her most devoted fan.",
-        "cooldown": "0s",
-        "cost": null,
-        "statuses": [],
-        "awakened": {
-          "desc": "아군 전체에게 공격속도 상승 23%를 부여한다.\nPVP 시스템 중, 자신에게 치명 상승 13%를 부여한다.",
-          "detail": null
-        }
-      },
-      {
-        "id": "150007341",
-        "name": "魅影舞台",
-        "slot": "궁극기",
-        "slotEn": "Ultimate",
-        "unlockStar": 2,
-        "icon": null,
-        "type": "순발",
-        "mainStat": null,
-        "gcd": null,
-        "desc": "각성 상태에 진입하여 자신에게 공격력 상승 17%를 부여한다(24초 지속).\nHP가 가장 낮은 대상 2명에게 6단85% 물리 피해를 입힌다.\n최후의 일격 명중 시, 대상이 칠흑 상태일 경우 심연L 추격을 가한다.",
-        "detail": null,
-        "cooldown": "24s",
-        "cost": 3,
-        "statuses": []
-      }
-    ],
-    "profile": {
-      "title": "完美女神",
-      "birthday": "10 / 24",
-      "age": "28",
-      "height": "172",
-      "weight": "43",
-      "interest": "인간 관찰",
-      "personality": "속이 치밀하고 속내가 깊은 여성이다. #겉: 우아함, 아름다움, 완벽함 #속: 교활함, 잔혹함, 책략가, 강한 스트레스 내성, 가학 성향(S)",
-      "resumeParas": [
-        "托比亞的全民女神，形象幾近完美。早在HL娛樂經紀公司成立前就已是高知名度網紅，後來主動加入經紀公司後成為創社台柱，才讓HL娛樂成為知名經紀公司。",
-        "在公眾形象中，她有氣質、懂人情世故、笑臉迎人又親民，但實際上也是會抱怨工作的人，不過她只會對經紀人或相當信任的人展現這任性的一面。"
-      ]
-    },
-    "stats": {
-      "atkRange": "480",
-      "normalAttackGCD": "10000",
-      "critPer": "1000",
-      "critRstPer": "0",
-      "critAmpPer": "5000",
-      "critDmgRdcPer": "0",
-      "hitPer": "9300",
-      "ddgPer": "0",
-      "blkPer": "2500",
-      "blkPenPer": "0",
-      "blkRdcPer": "2000",
-      "healCritPer": "1000",
-      "healCritAmpPer": "5000",
-      "atkHastePer": "0",
-      "cdHastePer": "0",
-      "manaAmpPer": "0",
-      "hpRcvPer": "1000"
-    }
-  },
+  
+  
+  
+  
+  
   {
     "id": "133007400",
     "tierStats": [

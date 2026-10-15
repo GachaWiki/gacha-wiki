@@ -232,6 +232,17 @@ a.gsa-card:active {
   display: flex;
   align-items: center;
   justify-content: center;
+  position: relative;
+}
+
+/* Rarity badge (Icon_SR / Icon_SSR) shown as a wide tile in the card footer
+   row, never overlaid on the portrait */
+.gsa-card-rarity {
+  display: block;
+  width: 42px;
+  height: 27px;
+  object-fit: contain;
+  align-self: center;
 }
 
 .gsa-icon-frame img {
@@ -261,7 +272,9 @@ a.gsa-card:active {
   border-radius: 8px;
   padding: 8px 12px;
   font-size: var(--text-md);
-  min-width: 220px;
+  flex: 1;
+  max-width: 560px;
+  min-width: 240px;
 }
 
 .gsa-filter-btn {

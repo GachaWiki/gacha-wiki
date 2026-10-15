@@ -36,7 +36,7 @@ const bySlug = Object.fromEntries(gsaCharacters.map(x => [x.slug, x]));
 const partners = new Set();
 if (pursuit.role !== 'none') {
   for (const [s2, r2] of Object.entries(GSA_PURSUIT_ROLES)) {
-    if (s2 === slug) continue;
+    if (s2 === slug || !bySlug[s2]) continue;
     const feedsMe =
       (pursuit.role === 'trigger' || pursuit.role === 'both') &&
       r2.applies.some(a => pursuit.triggers.some(t => t.element === a.element));

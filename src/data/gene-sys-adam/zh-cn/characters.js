@@ -441,7 +441,7 @@ export const gsaCharactersZhCn = [
         "slot": "普攻",
         "slotEn": "Basic Attack",
         "unlockStar": 0,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr032_1.webp",
         "type": "瞬發",
         "mainStat": null,
         "gcd": "10s",
@@ -475,7 +475,7 @@ export const gsaCharactersZhCn = [
         "slot": "自动",
         "slotEn": "Auto",
         "unlockStar": 1,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr032_3.webp",
         "type": "瞬發",
         "mainStat": null,
         "gcd": null,
@@ -491,7 +491,7 @@ export const gsaCharactersZhCn = [
         "slot": "被动 1",
         "slotEn": "Passive 1",
         "unlockStar": 4,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr032_5.webp",
         "type": "被动",
         "mainStat": null,
         "gcd": null,
@@ -511,7 +511,7 @@ export const gsaCharactersZhCn = [
         "slot": "被动 2",
         "slotEn": "Passive 2",
         "unlockStar": 6,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr032_6.webp",
         "type": "被动",
         "mainStat": null,
         "gcd": null,
@@ -531,7 +531,7 @@ export const gsaCharactersZhCn = [
         "slot": "奧義",
         "slotEn": "Ultimate",
         "unlockStar": 2,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr032_4.webp",
         "type": "瞬發",
         "mainStat": null,
         "gcd": null,
@@ -724,7 +724,7 @@ export const gsaCharactersZhCn = [
         "slot": "普攻",
         "slotEn": "Basic Attack",
         "unlockStar": 0,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr033_1.webp",
         "type": "瞬發",
         "mainStat": null,
         "gcd": "18s",
@@ -758,7 +758,7 @@ export const gsaCharactersZhCn = [
         "slot": "自动",
         "slotEn": "Auto",
         "unlockStar": 1,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr033_3.webp",
         "type": "瞬發",
         "mainStat": null,
         "gcd": null,
@@ -777,7 +777,7 @@ export const gsaCharactersZhCn = [
         "slot": "被动 1",
         "slotEn": "Passive 1",
         "unlockStar": 4,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr033_5.webp",
         "type": "被动",
         "mainStat": null,
         "gcd": null,
@@ -799,7 +799,7 @@ export const gsaCharactersZhCn = [
         "slot": "被动 2",
         "slotEn": "Passive 2",
         "unlockStar": 6,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr033_6.webp",
         "type": "被动",
         "mainStat": null,
         "gcd": null,
@@ -819,7 +819,7 @@ export const gsaCharactersZhCn = [
         "slot": "奧義",
         "slotEn": "Ultimate",
         "unlockStar": 2,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr033_4.webp",
         "type": "瞬發",
         "mainStat": null,
         "gcd": null,
@@ -1353,7 +1353,7 @@ export const gsaCharactersZhCn = [
         "slot": "被动 1",
         "slotEn": "Passive 1",
         "unlockStar": 4,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr035_5.webp",
         "type": "被动",
         "mainStat": null,
         "gcd": null,
@@ -1373,7 +1373,7 @@ export const gsaCharactersZhCn = [
         "slot": "被动 2",
         "slotEn": "Passive 2",
         "unlockStar": 6,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr035_6.webp",
         "type": "被动",
         "mainStat": null,
         "gcd": null,
@@ -4355,7 +4355,7 @@ export const gsaCharactersZhCn = [
         "slot": "普攻",
         "slotEn": "Basic Attack",
         "unlockStar": 0,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr044_1.webp",
         "type": "瞬發",
         "mainStat": null,
         "gcd": "10s",
@@ -4371,7 +4371,7 @@ export const gsaCharactersZhCn = [
         "slot": "天赋",
         "slotEn": "Talent",
         "unlockStar": 0,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr044_2.webp",
         "type": "瞬發",
         "mainStat": null,
         "gcd": null,
@@ -4394,7 +4394,7 @@ export const gsaCharactersZhCn = [
         "slot": "自动",
         "slotEn": "Auto",
         "unlockStar": 1,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr044_3.webp",
         "type": "瞬發",
         "mainStat": null,
         "gcd": null,
@@ -4416,7 +4416,7 @@ export const gsaCharactersZhCn = [
         "slot": "被动 1",
         "slotEn": "Passive 1",
         "unlockStar": 4,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr044_5.webp",
         "type": "被动",
         "mainStat": null,
         "gcd": null,
@@ -4436,7 +4436,7 @@ export const gsaCharactersZhCn = [
         "slot": "被动 2",
         "slotEn": "Passive 2",
         "unlockStar": 6,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr044_6.webp",
         "type": "被动",
         "mainStat": null,
         "gcd": null,
@@ -4456,7 +4456,7 @@ export const gsaCharactersZhCn = [
         "slot": "奧義",
         "slotEn": "Ultimate",
         "unlockStar": 2,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr044_4.webp",
         "type": "瞬發",
         "mainStat": null,
         "gcd": null,
@@ -7054,7 +7054,7 @@ export const gsaCharactersZhCn = [
         "slot": "天赋",
         "slotEn": "Talent",
         "unlockStar": 0,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr051_2.webp",
         "type": "瞬發",
         "mainStat": null,
         "gcd": null,
@@ -7076,7 +7076,7 @@ export const gsaCharactersZhCn = [
         "slot": "自动",
         "slotEn": "Auto",
         "unlockStar": 1,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr051_3.webp",
         "type": "瞬發",
         "mainStat": null,
         "gcd": null,
@@ -8193,7 +8193,7 @@ export const gsaCharactersZhCn = [
         "slot": "普攻",
         "slotEn": "Basic Attack",
         "unlockStar": 0,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr055_1.webp",
         "type": "瞬發",
         "mainStat": null,
         "gcd": "9s",
@@ -8209,7 +8209,7 @@ export const gsaCharactersZhCn = [
         "slot": "天赋",
         "slotEn": "Talent",
         "unlockStar": 0,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr055_2.webp",
         "type": "瞬發",
         "mainStat": null,
         "gcd": null,
@@ -8232,7 +8232,7 @@ export const gsaCharactersZhCn = [
         "slot": "自动",
         "slotEn": "Auto",
         "unlockStar": 1,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr055_3.webp",
         "type": "瞬發",
         "mainStat": null,
         "gcd": null,
@@ -8254,7 +8254,7 @@ export const gsaCharactersZhCn = [
         "slot": "被动 1",
         "slotEn": "Passive 1",
         "unlockStar": 4,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr055_5.webp",
         "type": "被动",
         "mainStat": null,
         "gcd": null,
@@ -8274,7 +8274,7 @@ export const gsaCharactersZhCn = [
         "slot": "被动 2",
         "slotEn": "Passive 2",
         "unlockStar": 6,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr055_6.webp",
         "type": "被动",
         "mainStat": null,
         "gcd": null,
@@ -8294,7 +8294,7 @@ export const gsaCharactersZhCn = [
         "slot": "奧義",
         "slotEn": "Ultimate",
         "unlockStar": 2,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr055_4.webp",
         "type": "瞬發",
         "mainStat": null,
         "gcd": null,
@@ -9352,7 +9352,7 @@ export const gsaCharactersZhCn = [
         "slot": "普攻",
         "slotEn": "Basic Attack",
         "unlockStar": 0,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr058_1.webp",
         "type": "瞬發",
         "mainStat": null,
         "gcd": "10s",
@@ -9368,7 +9368,7 @@ export const gsaCharactersZhCn = [
         "slot": "天赋",
         "slotEn": "Talent",
         "unlockStar": 0,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr058_2.webp",
         "type": "瞬發",
         "mainStat": null,
         "gcd": null,
@@ -9390,7 +9390,7 @@ export const gsaCharactersZhCn = [
         "slot": "自动",
         "slotEn": "Auto",
         "unlockStar": 1,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr058_3.webp",
         "type": "瞬發",
         "mainStat": null,
         "gcd": null,
@@ -9412,7 +9412,7 @@ export const gsaCharactersZhCn = [
         "slot": "被动 1",
         "slotEn": "Passive 1",
         "unlockStar": 4,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr058_5.webp",
         "type": "被动",
         "mainStat": null,
         "gcd": null,
@@ -9432,7 +9432,7 @@ export const gsaCharactersZhCn = [
         "slot": "被动 2",
         "slotEn": "Passive 2",
         "unlockStar": 6,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr058_6.webp",
         "type": "被动",
         "mainStat": null,
         "gcd": null,
@@ -9452,7 +9452,7 @@ export const gsaCharactersZhCn = [
         "slot": "奧義",
         "slotEn": "Ultimate",
         "unlockStar": 2,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr058_4.webp",
         "type": "瞬發",
         "mainStat": null,
         "gcd": null,
@@ -9841,393 +9841,7 @@ export const gsaCharactersZhCn = [
       "hpRcvPer": "1000"
     }
   },
-  {
-    "id": "133006000",
-    "tierStats": [
-      {
-        "tier": 1,
-        "hp": 8533,
-        "atk": 156
-      },
-      {
-        "tier": 2,
-        "hp": 12759,
-        "atk": 230
-      },
-      {
-        "tier": 3,
-        "hp": 25600,
-        "atk": 468
-      },
-      {
-        "tier": 4,
-        "hp": 38360,
-        "atk": 699
-      },
-      {
-        "tier": 5,
-        "hp": 51201,
-        "atk": 937
-      },
-      {
-        "tier": 6,
-        "hp": 68268,
-        "atk": 1249
-      },
-      {
-        "tier": 7,
-        "hp": 85336,
-        "atk": 1562
-      },
-      {
-        "tier": 8,
-        "hp": 102403,
-        "atk": 1874
-      },
-      {
-        "tier": 9,
-        "hp": 122883,
-        "atk": 2246
-      },
-      {
-        "tier": 10,
-        "hp": 147509,
-        "atk": 2700
-      }
-    ],
-    "growth": {
-      "rate": 1.5,
-      "hp": [
-        115.91,
-        231.83,
-        579.57,
-        927.32,
-        1275.06,
-        1622.81
-      ],
-      "atk": [
-        1.48,
-        2.97,
-        7.44,
-        11.9,
-        16.36,
-        20.83
-      ]
-    },
-    "affection": [
-      {
-        "label": "风属性抗性%",
-        "value": 50
-      },
-      {
-        "label": "风属性抗性%",
-        "value": 50
-      },
-      {
-        "label": "风属性抗性%",
-        "value": 50
-      },
-      {
-        "label": "风属性抗性%",
-        "value": 50
-      },
-      {
-        "label": "风属性抗性%",
-        "value": 50
-      },
-      {
-        "label": "风属性抗性%",
-        "value": 50
-      },
-      {
-        "label": "风属性抗性%",
-        "value": 100
-      },
-      {
-        "label": "风属性抗性%",
-        "value": 100
-      },
-      {
-        "label": "风属性抗性%",
-        "value": 100
-      },
-      {
-        "label": "风属性抗性%",
-        "value": 200
-      }
-    ],
-    "gear": [
-      {
-        "slot": "手套",
-        "name": "缠丝手套 EX",
-        "stats": [
-          {
-            "label": "攻击力",
-            "base": 44,
-            "pct": false
-          },
-          {
-            "label": "火屬性攻擊",
-            "base": 1000,
-            "pct": true
-          },
-          {
-            "label": "攻击速度",
-            "base": 182,
-            "pct": false
-          },
-          {
-            "label": "命中",
-            "base": 58,
-            "pct": false
-          }
-        ]
-      },
-      {
-        "slot": "武器",
-        "name": "火异能护腕 EX",
-        "stats": [
-          {
-            "label": "攻击力",
-            "base": 44,
-            "pct": false
-          },
-          {
-            "label": "火屬性攻擊",
-            "base": 1000,
-            "pct": true
-          },
-          {
-            "label": "格挡",
-            "base": 107,
-            "pct": false
-          },
-          {
-            "label": "格挡减伤",
-            "base": 96,
-            "pct": false
-          }
-        ]
-      },
-      {
-        "slot": "足部",
-        "name": "缠丝足履 EX",
-        "stats": [
-          {
-            "label": "攻击力",
-            "base": 44,
-            "pct": false
-          },
-          {
-            "label": "火屬性攻擊",
-            "base": 1000,
-            "pct": true
-          },
-          {
-            "label": "受治疗效果提升",
-            "base": 188,
-            "pct": false
-          },
-          {
-            "label": "暴击闪避",
-            "base": 80,
-            "pct": false
-          }
-        ]
-      },
-      {
-        "slot": "饰品",
-        "name": "静思佛珠",
-        "stats": [
-          {
-            "label": "攻击力",
-            "base": 77,
-            "pct": false
-          }
-        ]
-      }
-    ],
-    "model": "cr060",
-    "slug": "danxin",
-    "name": "丹芯",
-    "nameEn": "Danxin",
-    "title": "二代青龙",
-    "epithet": "纯青之炎，巧拨千金",
-    "sex": "男性",
-    "inGacha": false,
-    "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/cr060_Icon_Texture.webp",
-    "sortOrder": 60,
-    "element": {
-      "id": 1,
-      "name": "火",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/battleelement_1.webp"
-    },
-    "job": {
-      "id": 1,
-      "name": "防护",
-      "color": "#957C7A",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/guard_1.webp"
-    },
-    "attackType": {
-      "id": 1,
-      "name": "物理",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Attributes_02.webp"
-    },
-    "skills": [
-      {
-        "id": "150006000",
-        "name": "缠丝鞭手",
-        "slot": "普攻",
-        "slotEn": "Basic Attack",
-        "unlockStar": 0,
-        "icon": null,
-        "type": "瞬發",
-        "mainStat": null,
-        "gcd": "10s",
-        "desc": "对目标造成83%物理伤害。",
-        "detail": null,
-        "cooldown": "0s",
-        "cost": null,
-        "statuses": []
-      },
-      {
-        "id": "150006010",
-        "name": "磐龙炎壁",
-        "slot": "天赋",
-        "slotEn": "Talent",
-        "unlockStar": 0,
-        "icon": null,
-        "type": "瞬發",
-        "mainStat": null,
-        "gcd": null,
-        "desc": "为自身附加2145%护盾(10秒)。",
-        "detail": null,
-        "cooldown": "10s",
-        "cost": 1,
-        "statuses": [
-          "晕眩"
-        ],
-        "awakened": {
-          "desc": "为自身附加3000%护盾(10秒)。",
-          "detail": null
-        }
-      },
-      {
-        "id": "150006020",
-        "name": "破势三反手",
-        "slot": "自动",
-        "slotEn": "Auto",
-        "unlockStar": 1,
-        "icon": null,
-        "type": "瞬發",
-        "mainStat": null,
-        "gcd": null,
-        "desc": "对目标造成三段100%物理伤害。\n最后一击命中时，中概率对其施加能量伤害降低10%(8秒)。",
-        "detail": null,
-        "cooldown": "6s",
-        "cost": null,
-        "statuses": [
-          "治疗",
-          "受到伤害降低"
-        ],
-        "awakened": {
-          "desc": "对目标造成三段135%物理伤害。\n最后一击命中时，中概率对其施加能量伤害降低20%(8秒)。",
-          "detail": null
-        }
-      },
-      {
-        "id": "150006030",
-        "name": "火辣本能",
-        "slot": "被动 1",
-        "slotEn": "Passive 1",
-        "unlockStar": 4,
-        "icon": null,
-        "type": "被动",
-        "mainStat": null,
-        "gcd": null,
-        "desc": "自身获得护盾时，对自身赋予增幅效果：“受伤时，低概率使随机目标陷入燃烧S状态(6秒)”(6秒)。\n增幅效果每次触发需间隔至少6秒。",
-        "detail": null,
-        "cooldown": "0s",
-        "cost": null,
-        "statuses": [],
-        "awakened": {
-          "desc": "自身获得护盾时，对自身赋予增幅效果：“受伤时，低概率使随机目标陷入燃烧S状态(6秒)”(6秒)。\n增幅效果每次触发需间隔至少6秒。\n对全体队员赋予格挡提升8%。",
-          "detail": null
-        }
-      },
-      {
-        "id": "150006050",
-        "name": "缠丝卸力",
-        "slot": "被动 2",
-        "slotEn": "Passive 2",
-        "unlockStar": 6,
-        "icon": null,
-        "type": "被动",
-        "mainStat": null,
-        "gcd": null,
-        "desc": "对自身赋予受到能量伤害降低10%。",
-        "detail": null,
-        "cooldown": "0s",
-        "cost": null,
-        "statuses": [],
-        "awakened": {
-          "desc": "对全体队员赋予受到能量伤害降低10%。\nPVP系统中，对自身赋予受治疗效果提升13%。",
-          "detail": null
-        }
-      },
-      {
-        "id": "150006041",
-        "name": "青龙炎震破",
-        "slot": "奧義",
-        "slotEn": "Ultimate",
-        "unlockStar": 2,
-        "icon": null,
-        "type": "瞬發",
-        "mainStat": null,
-        "gcd": null,
-        "desc": "进入觉醒状态，对自身赋予受到普攻伤害降低40%(24秒)。\n对前方范围内至多两名目标造成四段93%能量伤害。\n对自身赋予格挡提升10%(12秒)。\n对自身赋予格挡减伤提升20%(12秒)。",
-        "detail": null,
-        "cooldown": "24s",
-        "cost": 3,
-        "statuses": []
-      }
-    ],
-    "profile": {
-      "title": "功夫美少女",
-      "birthday": "7 / 23",
-      "age": "22",
-      "height": "165",
-      "weight": "51",
-      "interest": "切磋武艺、辣味小吃",
-      "personality": "活泼好胜、被挑衅就立刻迎战",
-      "resumeParas": [
-        "自幼時隨父親在各國修行，並精進家傳的纏絲拳法。",
-        "17歲回到托比亞後，年少氣盛的丹芯便常私下去打地下拳賽。龍應天視察拳賽，見丹芯拳術了得，遂延攬其帶藝投師入青龍武術館。",
-        "進入青龍幫後，融合龍應天指導的拳術改稱為青龍纏絲拳。",
-        "由於個性活潑又精通武術，也被指派為武鬥會司儀。",
-        "父親目前下落不明，應該是又出國修行了。"
-      ]
-    },
-    "stats": {
-      "atkRange": "120",
-      "normalAttackGCD": "10000",
-      "critPer": "1000",
-      "critRstPer": "0",
-      "critAmpPer": "5000",
-      "critDmgRdcPer": "0",
-      "hitPer": "8500",
-      "ddgPer": "0",
-      "blkPer": "2500",
-      "blkPenPer": "1500",
-      "blkRdcPer": "2000",
-      "healCritPer": "1000",
-      "healCritAmpPer": "5000",
-      "atkHastePer": "0",
-      "cdHastePer": "0",
-      "manaAmpPer": "0",
-      "hpRcvPer": "1000"
-    }
-  },
+  
   {
     "id": "133006100",
     "tierStats": [
@@ -11603,7 +11217,7 @@ export const gsaCharactersZhCn = [
         "slot": "普攻",
         "slotEn": "Basic Attack",
         "unlockStar": 0,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr064_1.webp",
         "type": "瞬發",
         "mainStat": null,
         "gcd": "7.001s",
@@ -11619,7 +11233,7 @@ export const gsaCharactersZhCn = [
         "slot": "天赋",
         "slotEn": "Talent",
         "unlockStar": 0,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr064_2.webp",
         "type": "瞬發",
         "mainStat": null,
         "gcd": null,
@@ -11642,7 +11256,7 @@ export const gsaCharactersZhCn = [
         "slot": "自动",
         "slotEn": "Auto",
         "unlockStar": 1,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr064_3.webp",
         "type": "瞬發",
         "mainStat": null,
         "gcd": null,
@@ -11664,7 +11278,7 @@ export const gsaCharactersZhCn = [
         "slot": "被动 1",
         "slotEn": "Passive 1",
         "unlockStar": 4,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr064_5.webp",
         "type": "被动",
         "mainStat": null,
         "gcd": null,
@@ -11684,7 +11298,7 @@ export const gsaCharactersZhCn = [
         "slot": "被动 2",
         "slotEn": "Passive 2",
         "unlockStar": 6,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr064_6.webp",
         "type": "被动",
         "mainStat": null,
         "gcd": null,
@@ -11704,7 +11318,7 @@ export const gsaCharactersZhCn = [
         "slot": "奧義",
         "slotEn": "Ultimate",
         "unlockStar": 2,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr064_4.webp",
         "type": "瞬發",
         "mainStat": null,
         "gcd": null,
@@ -12524,1925 +12138,11 @@ export const gsaCharactersZhCn = [
       "hpRcvPer": "1000"
     }
   },
-  {
-    "id": "133006700",
-    "tierStats": [
-      {
-        "tier": 1,
-        "hp": 3367,
-        "atk": 345
-      },
-      {
-        "tier": 2,
-        "hp": 5034,
-        "atk": 516
-      },
-      {
-        "tier": 3,
-        "hp": 10104,
-        "atk": 1038
-      },
-      {
-        "tier": 4,
-        "hp": 15140,
-        "atk": 1557
-      },
-      {
-        "tier": 5,
-        "hp": 20209,
-        "atk": 2079
-      },
-      {
-        "tier": 6,
-        "hp": 26947,
-        "atk": 2772
-      },
-      {
-        "tier": 7,
-        "hp": 33684,
-        "atk": 3465
-      },
-      {
-        "tier": 8,
-        "hp": 40421,
-        "atk": 4158
-      },
-      {
-        "tier": 9,
-        "hp": 48505,
-        "atk": 4989
-      },
-      {
-        "tier": 10,
-        "hp": 58226,
-        "atk": 5988
-      }
-    ],
-    "growth": {
-      "rate": 2,
-      "hp": [
-        45.75,
-        91.51,
-        228.78,
-        366.04,
-        503.31,
-        640.58
-      ],
-      "atk": [
-        3.3,
-        6.6,
-        16.5,
-        26.4,
-        36.3,
-        46.2
-      ]
-    },
-    "affection": [
-      {
-        "label": "攻击力",
-        "value": 50
-      },
-      {
-        "label": "攻击力",
-        "value": 50
-      },
-      {
-        "label": "攻击力",
-        "value": 50
-      },
-      {
-        "label": "攻击力",
-        "value": 50
-      },
-      {
-        "label": "攻击力",
-        "value": 50
-      },
-      {
-        "label": "攻击力",
-        "value": 50
-      },
-      {
-        "label": "攻击力",
-        "value": 100
-      },
-      {
-        "label": "攻击力",
-        "value": 100
-      },
-      {
-        "label": "攻击力",
-        "value": 100
-      },
-      {
-        "label": "攻击力",
-        "value": 200
-      }
-    ],
-    "gear": [
-      {
-        "slot": "手套",
-        "name": "翠雨金镯 EX",
-        "stats": [
-          {
-            "label": "攻击力",
-            "base": 118,
-            "pct": false
-          },
-          {
-            "label": "風屬性攻擊",
-            "base": 1000,
-            "pct": true
-          },
-          {
-            "label": "能量强化",
-            "base": 62,
-            "pct": false
-          },
-          {
-            "label": "攻击速度",
-            "base": 163,
-            "pct": false
-          }
-        ]
-      },
-      {
-        "slot": "武器",
-        "name": "鸣风玉笛 EX",
-        "stats": [
-          {
-            "label": "攻击力",
-            "base": 118,
-            "pct": false
-          },
-          {
-            "label": "風屬性攻擊",
-            "base": 1000,
-            "pct": true
-          },
-          {
-            "label": "暴击",
-            "base": 97,
-            "pct": false
-          },
-          {
-            "label": "暴击伤害",
-            "base": 217,
-            "pct": false
-          }
-        ]
-      },
-      {
-        "slot": "足部",
-        "name": "清风高跟 EX",
-        "stats": [
-          {
-            "label": "攻击力",
-            "base": 118,
-            "pct": false
-          },
-          {
-            "label": "風屬性攻擊",
-            "base": 1000,
-            "pct": true
-          },
-          {
-            "label": "攻击速度",
-            "base": 182,
-            "pct": false
-          },
-          {
-            "label": "闪避",
-            "base": 58,
-            "pct": false
-          }
-        ]
-      },
-      {
-        "slot": "饰品",
-        "name": "碧露花簪",
-        "stats": [
-          {
-            "label": "攻击力",
-            "base": 77,
-            "pct": false
-          }
-        ]
-      }
-    ],
-    "model": "cr067",
-    "slug": "qing-yin",
-    "name": "清音",
-    "nameEn": "Qing Yin",
-    "title": "绝色倾城之乐姬",
-    "epithet": "柔音惊雷，曲终魂滞",
-    "sex": "女性",
-    "inGacha": true,
-    "icon": null,
-    "sortOrder": 67,
-    "element": {
-      "id": 3,
-      "name": "风",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/battleelement_3.webp"
-    },
-    "job": {
-      "id": 5,
-      "name": "破坏",
-      "color": "#9433EA",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/master_3.webp"
-    },
-    "attackType": {
-      "id": 2,
-      "name": "能量",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Attributes_01.webp"
-    },
-    "skills": [
-      {
-        "id": "150006700",
-        "name": "穿云短音",
-        "slot": "普攻",
-        "slotEn": "Basic Attack",
-        "unlockStar": 0,
-        "icon": null,
-        "type": "瞬發",
-        "mainStat": null,
-        "gcd": "10s",
-        "desc": "优先对触电状态中目标造成75%能量伤害。",
-        "detail": null,
-        "cooldown": "0s",
-        "cost": null,
-        "statuses": []
-      },
-      {
-        "id": "150006710",
-        "name": "叠律震响",
-        "slot": "天赋",
-        "slotEn": "Talent",
-        "unlockStar": 0,
-        "icon": null,
-        "type": "瞬發",
-        "mainStat": null,
-        "gcd": null,
-        "desc": "优先对触电状态中目标造成三段90%能量伤害。\n第一击命中时，对其施加风属性抗性降低12%(6秒)。\n最后一击命中时，若目标处于触电状态，则对其造成超载M追击。",
-        "detail": null,
-        "cooldown": "10s",
-        "cost": 1,
-        "statuses": [],
-        "awakened": {
-          "desc": "优先对触电状态中目标造成三段152%能量伤害。\n第一击命中时，对其施加风属性抗性降低12%(10秒)。\n最后一击命中时，若目标处于触电状态，则对其造成超载M追击。",
-          "detail": null
-        }
-      },
-      {
-        "id": "150006720",
-        "name": "回音缚阵",
-        "slot": "自动",
-        "slotEn": "Auto",
-        "unlockStar": 1,
-        "icon": null,
-        "type": "瞬發",
-        "mainStat": null,
-        "gcd": null,
-        "desc": "优先对触电状态中目标造成110%能量伤害。\n命中时，高概率使其陷入晕眩状态(3秒)。",
-        "detail": null,
-        "cooldown": "6s",
-        "cost": null,
-        "statuses": [],
-        "awakened": {
-          "desc": "优先对触电状态中目标造成176%能量伤害。\n命中时，极高概率使其陷入晕眩状态(3秒)。",
-          "detail": null
-        }
-      },
-      {
-        "id": "150006730",
-        "name": "柔音暗刃",
-        "slot": "被动 1",
-        "slotEn": "Passive 1",
-        "unlockStar": 4,
-        "icon": null,
-        "type": "被动",
-        "mainStat": null,
-        "gcd": null,
-        "desc": "命中时，若为触电状态中目标，对自身赋予风属性攻击提升8%(12秒)。\n此效果至多叠加2层。",
-        "detail": "清音表面温柔，但微笑里藏着刀。",
-        "cooldown": "0s",
-        "cost": null,
-        "statuses": [],
-        "awakened": {
-          "desc": "命中时，若为触电状态中目标，对自身赋予风属性攻击提升9%(12秒)。\n此效果至多叠加2层。\n对全体队员赋予能量伤害提升6%。",
-          "detail": null
-        }
-      },
-      {
-        "id": "150006750",
-        "name": "操盘雅音",
-        "slot": "被动 2",
-        "slotEn": "Passive 2",
-        "unlockStar": 6,
-        "icon": null,
-        "type": "被动",
-        "mainStat": null,
-        "gcd": null,
-        "desc": "对自身赋予暴击提升14%。",
-        "detail": "清音总是默默观察他人的言行变化，并以乐声缓缓引导对方节奏。",
-        "cooldown": "0s",
-        "cost": null,
-        "statuses": [],
-        "awakened": {
-          "desc": "对全体队员赋予暴击提升14%。\nPVP系统中，对自身赋予攻击速度提升15%。",
-          "detail": null
-        }
-      },
-      {
-        "id": "150006741",
-        "name": "万音爆裂",
-        "slot": "奧義",
-        "slotEn": "Ultimate",
-        "unlockStar": 2,
-        "icon": null,
-        "type": "瞬發",
-        "mainStat": null,
-        "gcd": null,
-        "desc": "进入觉醒状态，对自身赋予攻击力提升15%(24秒)。\n优先对触电状态中目标造成两段413.5%能量伤害。\n第一击命中时，对自身赋予风属性攻击提升15%(12秒)。\n第一击命中时，对自身赋予攻击速度提升30%(12秒)。\n最后一击命中时，若目标处于触电状态，则对其造成超载L追击。",
-        "detail": null,
-        "cooldown": "24s",
-        "cost": 3,
-        "statuses": []
-      }
-    ],
-    "profile": {
-      "title": "絕色傾城之樂姬",
-      "birthday": "10 / 14",
-      "age": "23",
-      "height": "166",
-      "weight": "55",
-      "interest": "观察对象、音乐",
-      "personality": "温柔婉约，知书达礼 #擅长引导对话至主导地位",
-      "resumeParas": [
-        "前九幽幫樂師，後轉投青龍幫",
-        "清音是九幽幫的樂師兼性奴，以迷魂笛聲協助殺手冷鴆進行暗殺。",
-        "後冷鴆被幫派高層煉成沒有自我意識的「蠱奴」。清音從青龍幫臥底藥師半夏口中得知蠱奴的絕望下場後，長期順從幫派的她，終於決定為改變命運做出反撲。",
-        "靠半夏調製的藥物與自身的笛音暗殺九幽幫成員後，帶冷鴆前往青龍幫尋求協助。"
-      ]
-    },
-    "stats": {
-      "atkRange": "600",
-      "normalAttackGCD": "10000",
-      "critPer": "1000",
-      "critRstPer": "0",
-      "critAmpPer": "5000",
-      "critDmgRdcPer": "0",
-      "hitPer": "9300",
-      "ddgPer": "0",
-      "blkPer": "2500",
-      "blkPenPer": "0",
-      "blkRdcPer": "2000",
-      "healCritPer": "1000",
-      "healCritAmpPer": "5000",
-      "atkHastePer": "0",
-      "cdHastePer": "0",
-      "manaAmpPer": "0",
-      "hpRcvPer": "1000"
-    }
-  },
-  {
-    "id": "133006800",
-    "tierStats": [
-      {
-        "tier": 1,
-        "hp": 4176,
-        "atk": 262
-      },
-      {
-        "tier": 2,
-        "hp": 6242,
-        "atk": 392
-      },
-      {
-        "tier": 3,
-        "hp": 12529,
-        "atk": 788
-      },
-      {
-        "tier": 4,
-        "hp": 18774,
-        "atk": 1183
-      },
-      {
-        "tier": 5,
-        "hp": 25059,
-        "atk": 1580
-      },
-      {
-        "tier": 6,
-        "hp": 33415,
-        "atk": 2106
-      },
-      {
-        "tier": 7,
-        "hp": 41768,
-        "atk": 2633
-      },
-      {
-        "tier": 8,
-        "hp": 50122,
-        "atk": 3160
-      },
-      {
-        "tier": 9,
-        "hp": 60146,
-        "atk": 3791
-      },
-      {
-        "tier": 10,
-        "hp": 72201,
-        "atk": 4550
-      }
-    ],
-    "growth": {
-      "rate": 1.5,
-      "hp": [
-        56.73,
-        113.47,
-        283.68,
-        453.89,
-        624.11,
-        794.32
-      ],
-      "atk": [
-        2.5,
-        5.01,
-        12.54,
-        20.06,
-        27.58,
-        35.11
-      ]
-    },
-    "affection": [
-      {
-        "label": "攻击力",
-        "value": 50
-      },
-      {
-        "label": "攻击力",
-        "value": 50
-      },
-      {
-        "label": "攻击力",
-        "value": 50
-      },
-      {
-        "label": "攻击力",
-        "value": 50
-      },
-      {
-        "label": "攻击力",
-        "value": 50
-      },
-      {
-        "label": "攻击力",
-        "value": 50
-      },
-      {
-        "label": "攻击力",
-        "value": 50
-      },
-      {
-        "label": "攻击力",
-        "value": 50
-      },
-      {
-        "label": "攻击力",
-        "value": 50
-      },
-      {
-        "label": "攻击力",
-        "value": 50
-      }
-    ],
-    "gear": [
-      {
-        "slot": "手套",
-        "name": "泣血袖 EX",
-        "stats": [
-          {
-            "label": "攻击力",
-            "base": 118,
-            "pct": false
-          },
-          {
-            "label": "水屬性攻擊",
-            "base": 1000,
-            "pct": true
-          },
-          {
-            "label": "命中",
-            "base": 58,
-            "pct": false
-          },
-          {
-            "label": "能量强化",
-            "base": 62,
-            "pct": false
-          }
-        ]
-      },
-      {
-        "slot": "武器",
-        "name": "缚命针 EX",
-        "stats": [
-          {
-            "label": "攻击力",
-            "base": 118,
-            "pct": false
-          },
-          {
-            "label": "水屬性攻擊",
-            "base": 1000,
-            "pct": true
-          },
-          {
-            "label": "技能強化",
-            "base": 1000,
-            "pct": true
-          }
-        ]
-      },
-      {
-        "slot": "足部",
-        "name": "凝霜履 EX",
-        "stats": [
-          {
-            "label": "攻击力",
-            "base": 118,
-            "pct": false
-          },
-          {
-            "label": "水屬性攻擊",
-            "base": 1000,
-            "pct": true
-          },
-          {
-            "label": "攻击速度",
-            "base": 182,
-            "pct": false
-          },
-          {
-            "label": "闪避",
-            "base": 58,
-            "pct": false
-          }
-        ]
-      },
-      {
-        "slot": "饰品",
-        "name": "平安结",
-        "stats": [
-          {
-            "label": "攻击力",
-            "base": 77,
-            "pct": false
-          }
-        ]
-      }
-    ],
-    "model": "cr068",
-    "slug": "leng-zhen",
-    "name": "冷鸩",
-    "nameEn": "Leng Zhen",
-    "title": "无魂的处刑者",
-    "epithet": "寒针封穴，运气流转",
-    "sex": "女性",
-    "inGacha": true,
-    "icon": null,
-    "sortOrder": 68,
-    "element": {
-      "id": 4,
-      "name": "水",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/battleelement_4.webp"
-    },
-    "job": {
-      "id": 5,
-      "name": "破坏",
-      "color": "#9433EA",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/master_4.webp"
-    },
-    "attackType": {
-      "id": 2,
-      "name": "能量",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Attributes_01.webp"
-    },
-    "skills": [
-      {
-        "id": "150006800",
-        "name": "绝息",
-        "slot": "普攻",
-        "slotEn": "Basic Attack",
-        "unlockStar": 0,
-        "icon": null,
-        "type": "瞬發",
-        "mainStat": null,
-        "gcd": "10s",
-        "desc": "对随机目标造成69%能量伤害。",
-        "detail": null,
-        "cooldown": "0s",
-        "cost": null,
-        "statuses": []
-      },
-      {
-        "id": "150006810",
-        "name": "截脉",
-        "slot": "天赋",
-        "slotEn": "Talent",
-        "unlockStar": 0,
-        "icon": null,
-        "type": "瞬發",
-        "mainStat": null,
-        "gcd": null,
-        "desc": "对随机目标造成三段105%能量伤害。\n命中时，使我方EN值增加2。",
-        "detail": null,
-        "cooldown": "10s",
-        "cost": 1,
-        "statuses": [
-          "EN值获取提升"
-        ],
-        "awakened": {
-          "desc": "对随机目标造成三段125%能量伤害。\n命中时，使我方EN值增加2.5。",
-          "detail": null
-        }
-      },
-      {
-        "id": "150006820",
-        "name": "封穴",
-        "slot": "自动",
-        "slotEn": "Auto",
-        "unlockStar": 1,
-        "icon": null,
-        "type": "瞬發",
-        "mainStat": null,
-        "gcd": null,
-        "desc": "对随机目标造成三段105%能量伤害。\n命中时，高概率使其陷入冰冻M状态(3秒)。",
-        "detail": null,
-        "cooldown": "6s",
-        "cost": null,
-        "statuses": [
-          "冰冻"
-        ],
-        "awakened": {
-          "desc": "对随机目标造成三段145%能量伤害。\n命中时，使其陷入冰冻M状态(3秒)。",
-          "detail": null
-        }
-      },
-      {
-        "id": "150006830",
-        "name": "断觉",
-        "slot": "被动 1",
-        "slotEn": "Passive 1",
-        "unlockStar": 4,
-        "icon": null,
-        "type": "被动",
-        "mainStat": null,
-        "gcd": null,
-        "desc": "此效果每次触发需间隔至少6秒。",
-        "detail": "Having been reduced to a vessel with no sense of self, she is completely cut off from the interference of emotions like fear and hesitation.",
-        "cooldown": "0s",
-        "cost": null,
-        "statuses": [],
-        "awakened": {
-          "desc": "此效果每次触发需间隔至少6秒。\n对全体队员赋予水属性攻击提升8.5%。",
-          "detail": null
-        }
-      },
-      {
-        "id": "150006850",
-        "name": "蛊令",
-        "slot": "被动 2",
-        "slotEn": "Passive 2",
-        "unlockStar": 6,
-        "icon": null,
-        "type": "被动",
-        "mainStat": null,
-        "gcd": null,
-        "desc": "对自身赋予技能伤害提升12.5%。",
-        "detail": "A body whose sense of pain is devoured by venom can push itself to the limit, utterly ignoring the price of torn muscles.",
-        "cooldown": "0s",
-        "cost": null,
-        "statuses": []
-      },
-      {
-        "id": "150006841",
-        "name": "葬令",
-        "slot": "奧義",
-        "slotEn": "Ultimate",
-        "unlockStar": 2,
-        "icon": null,
-        "type": "瞬發",
-        "mainStat": null,
-        "gcd": null,
-        "desc": "进入觉醒状态，对自身赋予冰冻命中提升35%(24秒)。\n对随机目标造成三段300%能量伤害。\n命中时，使其陷入冰冻M状态(3秒)。",
-        "detail": null,
-        "cooldown": "24s",
-        "cost": 3,
-        "statuses": []
-      }
-    ],
-    "profile": {
-      "title": "無魂的處刑者",
-      "birthday": "12 / 25",
-      "age": "26",
-      "height": "172",
-      "weight": "53",
-      "interest": "糖果、甜饮 （因为幼儿化）",
-      "personality": "1.对外界刺激极缓慢#2.对清音有高度依附与保护倾向。",
-      "resumeParas": [
-        "前九幽幫殺手，後與清音轉投青龍幫。",
-        "出生於托比亞；年幼時因家庭債務被賣入九幽幫，訓練栽培後成為殺手。",
-        "與樂師 「清音」長期搭檔，兩人的默契與私情在一次次任務中昇華。",
-        "私下密謀帶清音逃離九幽幫；但事成前即被幫派高層煉為蠱奴。做為性奴與殺手用。",
-        "後被清音帶至青龍幫尋求協助。"
-      ]
-    },
-    "stats": {
-      "atkRange": "480",
-      "normalAttackGCD": "10000",
-      "critPer": "1000",
-      "critRstPer": "0",
-      "critAmpPer": "5000",
-      "critDmgRdcPer": "0",
-      "hitPer": "9300",
-      "ddgPer": "0",
-      "blkPer": "2500",
-      "blkPenPer": "0",
-      "blkRdcPer": "2000",
-      "healCritPer": "1000",
-      "healCritAmpPer": "5000",
-      "atkHastePer": "0",
-      "cdHastePer": "0",
-      "manaAmpPer": "0",
-      "hpRcvPer": "1000"
-    }
-  },
-  {
-    "id": "133007000",
-    "tierStats": [
-      {
-        "tier": 1,
-        "hp": 3928,
-        "atk": 252
-      },
-      {
-        "tier": 2,
-        "hp": 5875,
-        "atk": 375
-      },
-      {
-        "tier": 3,
-        "hp": 11788,
-        "atk": 756
-      },
-      {
-        "tier": 4,
-        "hp": 17663,
-        "atk": 1131
-      },
-      {
-        "tier": 5,
-        "hp": 23578,
-        "atk": 1512
-      },
-      {
-        "tier": 6,
-        "hp": 31438,
-        "atk": 2016
-      },
-      {
-        "tier": 7,
-        "hp": 39299,
-        "atk": 2520
-      },
-      {
-        "tier": 8,
-        "hp": 47158,
-        "atk": 3024
-      },
-      {
-        "tier": 9,
-        "hp": 56589,
-        "atk": 3627
-      },
-      {
-        "tier": 10,
-        "hp": 67930,
-        "atk": 4356
-      }
-    ],
-    "growth": {
-      "rate": 2,
-      "hp": [
-        53.38,
-        106.76,
-        266.91,
-        427.05,
-        587.2,
-        747.34
-      ],
-      "atk": [
-        2.4,
-        4.8,
-        12,
-        19.2,
-        26.4,
-        33.6
-      ]
-    },
-    "affection": [
-      {
-        "label": "攻击力",
-        "value": 50
-      },
-      {
-        "label": "攻击力",
-        "value": 50
-      },
-      {
-        "label": "攻击力",
-        "value": 50
-      },
-      {
-        "label": "攻击力",
-        "value": 50
-      },
-      {
-        "label": "攻击力",
-        "value": 50
-      },
-      {
-        "label": "攻击力",
-        "value": 50
-      },
-      {
-        "label": "攻击力",
-        "value": 50
-      },
-      {
-        "label": "攻击力",
-        "value": 50
-      },
-      {
-        "label": "攻击力",
-        "value": 50
-      },
-      {
-        "label": "攻击力",
-        "value": 50
-      }
-    ],
-    "gear": [
-      {
-        "slot": "手套",
-        "name": "纹身贴纸 EX",
-        "stats": [
-          {
-            "label": "攻击力",
-            "base": 88,
-            "pct": false
-          },
-          {
-            "label": "火屬性攻擊",
-            "base": 1200,
-            "pct": true
-          },
-          {
-            "label": "命中",
-            "base": 42,
-            "pct": false
-          },
-          {
-            "label": "審判命中",
-            "base": 1500,
-            "pct": true
-          }
-        ]
-      },
-      {
-        "slot": "武器",
-        "name": "父亲的旧手枪 EX",
-        "stats": [
-          {
-            "label": "攻击力",
-            "base": 88,
-            "pct": false
-          },
-          {
-            "label": "火屬性攻擊",
-            "base": 1200,
-            "pct": true
-          },
-          {
-            "label": "暴击",
-            "base": 50,
-            "pct": false
-          },
-          {
-            "label": "格挡无视",
-            "base": 50,
-            "pct": false
-          }
-        ]
-      },
-      {
-        "slot": "足部",
-        "name": "高级订制女鞋 EX",
-        "stats": [
-          {
-            "label": "攻击力",
-            "base": 88,
-            "pct": false
-          },
-          {
-            "label": "火屬性攻擊",
-            "base": 1200,
-            "pct": true
-          },
-          {
-            "label": "攻击速度",
-            "base": 50,
-            "pct": false
-          },
-          {
-            "label": "暴击闪避",
-            "base": 50,
-            "pct": false
-          }
-        ]
-      },
-      {
-        "slot": "饰品",
-        "name": "伊莲娜的本命香水",
-        "stats": [
-          {
-            "label": "攻击力",
-            "base": 77,
-            "pct": false
-          }
-        ]
-      }
-    ],
-    "model": "cr070",
-    "slug": "elena",
-    "name": "伊莲娜",
-    "nameEn": "Elena",
-    "title": "叛逆的红棘",
-    "epithet": "娇艳丽人，蔷薇狂袭",
-    "sex": "女性",
-    "inGacha": true,
-    "icon": null,
-    "sortOrder": 70,
-    "element": {
-      "id": 1,
-      "name": "火",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/battleelement_1.webp"
-    },
-    "job": {
-      "id": 4,
-      "name": "支援",
-      "color": "#33EA62",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/priest_1.webp"
-    },
-    "attackType": {
-      "id": 2,
-      "name": "能量",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Attributes_01.webp"
-    },
-    "skills": [
-      {
-        "id": "150007000",
-        "name": "躁动音符",
-        "slot": "普攻",
-        "slotEn": "Basic Attack",
-        "unlockStar": 0,
-        "icon": null,
-        "type": "瞬發",
-        "mainStat": null,
-        "gcd": "10s",
-        "desc": "对目标造成两段100%物理伤害。",
-        "detail": null,
-        "cooldown": "0s",
-        "cost": null,
-        "statuses": []
-      },
-      {
-        "id": "150007010",
-        "name": "引爆全场",
-        "slot": "天赋",
-        "slotEn": "Talent",
-        "unlockStar": 0,
-        "icon": null,
-        "type": "瞬發",
-        "mainStat": null,
-        "gcd": null,
-        "desc": "对前方范围内至多三名目标造成五段100%能量伤害。\n命中时，使其陷入燃烧M状态(0秒)。",
-        "detail": null,
-        "cooldown": "10s",
-        "cost": 1,
-        "statuses": [
-          "燃烧"
-        ],
-        "awakened": {
-          "desc": "对前方范围内至多三名目标造成五段170%能量伤害。\n命中时，使其陷入燃烧M状态(0秒)。",
-          "detail": null
-        }
-      },
-      {
-        "id": "150007020",
-        "name": "派对预热",
-        "slot": "自动",
-        "slotEn": "Auto",
-        "unlockStar": 1,
-        "icon": null,
-        "type": "瞬發",
-        "mainStat": null,
-        "gcd": null,
-        "desc": "对自身赋予格挡无视提升20%(12秒)。\n对自身赋予技能伤害提升12%(12秒)。\n对自身赋予EN值获取提升40%(12秒)。",
-        "detail": null,
-        "cooldown": "6s",
-        "cost": null,
-        "statuses": [
-          "暴击闪避提升",
-          "技能伤害提升",
-          "攻击速度提升"
-        ],
-        "awakened": {
-          "desc": "对自身赋予格挡无视提升24%(12秒)。\n对自身赋予技能伤害提升18%(12秒)。\n对自身赋予EN值获取提升60%(12秒)。",
-          "detail": null
-        }
-      },
-      {
-        "id": "150007030",
-        "name": "我要跟我妈妈讲！",
-        "slot": "被动 1",
-        "slotEn": "Passive 1",
-        "unlockStar": 4,
-        "icon": null,
-        "type": "被动",
-        "mainStat": null,
-        "gcd": null,
-        "desc": "命中时，若为燃烧状态中目标，对自身赋予火属性攻击提升6%(12秒)。",
-        "detail": "With her mother backing her up, no matter what Elena does, she knows she'll be forgiven~",
-        "cooldown": "0s",
-        "cost": null,
-        "statuses": [],
-        "awakened": {
-          "desc": "命中时，若为燃烧状态中目标，对自身赋予火属性攻击提升7%(12秒)。\n对全体队员赋予暴击伤害提升12%。",
-          "detail": null
-        }
-      },
-      {
-        "id": "150007050",
-        "name": "狂欢至上",
-        "slot": "被动 2",
-        "slotEn": "Passive 2",
-        "unlockStar": 6,
-        "icon": null,
-        "type": "被动",
-        "mainStat": null,
-        "gcd": null,
-        "desc": "对自身赋予能量伤害提升10%。",
-        "detail": "每一声枪响都是派对的节拍！伊莲娜在战斗中会随着攻击节奏逐渐进入狂热状态。",
-        "cooldown": "0s",
-        "cost": null,
-        "statuses": [],
-        "awakened": {
-          "desc": "对全体队员赋予能量伤害提升10%。\nPVP系统中，对自身赋予攻击力提升8%。",
-          "detail": null
-        }
-      },
-      {
-        "id": "150007041",
-        "name": "红棘乱舞",
-        "slot": "奧義",
-        "slotEn": "Ultimate",
-        "unlockStar": 2,
-        "icon": null,
-        "type": "瞬發",
-        "mainStat": null,
-        "gcd": null,
-        "desc": "进入觉醒状态，对自身赋予能量伤害提升10%(24秒)。\n对全体目标造成十八段250%能量伤害。\n命中时，使其陷入燃烧L状态(12秒)。\n最后一击命中时，对其施加治疗暴击加成降低18%(12秒)。",
-        "detail": null,
-        "cooldown": "24s",
-        "cost": 3,
-        "statuses": []
-      }
-    ],
-    "profile": {
-      "title": "叛逆的紅棘",
-      "birthday": "12 / 12",
-      "age": "20",
-      "height": "165",
-      "weight": "48",
-      "interest": "参加音乐祭、参加派对、听歌剧",
-      "personality": "外向、活泼、嚣张、热情、反骨",
-      "resumeParas": [
-        "從小在羅士昂兄弟會長大，因為父母的身分地位沒有人敢對她動歪腦筋，反倒會刻意討好她以求升職。她也會仗著這點，在不影響母親名聲的前提下刻意使喚組織中的人。",
-        "由於在爾虞我詐的環境中成長，因此看人的直覺相當準，也不避諱別人利用自己（因為她也會試圖從對方身上得到利益）。",
-        "母親有意讓她繼承現在的地位，因此刻意安排家教讓她上課，但她時常翹課，常讓老師和母親煩惱。",
-        "和母親一樣喜歡聽歌劇，但因為叛逆裝作不喜歡，轉而頻繁參加母親認為不入流的音樂祭。"
-      ]
-    },
-    "stats": {
-      "atkRange": "600",
-      "normalAttackGCD": "10000",
-      "critPer": "1000",
-      "critRstPer": "0",
-      "critAmpPer": "5000",
-      "critDmgRdcPer": "0",
-      "hitPer": "8000",
-      "ddgPer": "0",
-      "blkPer": "2500",
-      "blkPenPer": "0",
-      "blkRdcPer": "2000",
-      "healCritPer": "1000",
-      "healCritAmpPer": "5000",
-      "atkHastePer": "0",
-      "cdHastePer": "2500",
-      "manaAmpPer": "0",
-      "hpRcvPer": "1000"
-    }
-  },
-  {
-    "id": "133007100",
-    "tierStats": [
-      {
-        "tier": 1,
-        "hp": 5613,
-        "atk": 315
-      },
-      {
-        "tier": 2,
-        "hp": 8393,
-        "atk": 471
-      },
-      {
-        "tier": 3,
-        "hp": 16841,
-        "atk": 945
-      },
-      {
-        "tier": 4,
-        "hp": 25236,
-        "atk": 1416
-      },
-      {
-        "tier": 5,
-        "hp": 33684,
-        "atk": 1890
-      },
-      {
-        "tier": 6,
-        "hp": 44912,
-        "atk": 2520
-      },
-      {
-        "tier": 7,
-        "hp": 56142,
-        "atk": 3150
-      },
-      {
-        "tier": 8,
-        "hp": 67370,
-        "atk": 3780
-      },
-      {
-        "tier": 9,
-        "hp": 80844,
-        "atk": 4536
-      },
-      {
-        "tier": 10,
-        "hp": 97044,
-        "atk": 5445
-      }
-    ],
-    "growth": {
-      "rate": 1.5,
-      "hp": [
-        76.26,
-        152.52,
-        381.3,
-        610.08,
-        838.86,
-        1067.64
-      ],
-      "atk": [
-        3,
-        6,
-        15,
-        24,
-        33,
-        42
-      ]
-    },
-    "affection": [
-      {
-        "label": "攻击力",
-        "value": 50
-      },
-      {
-        "label": "攻击力",
-        "value": 50
-      },
-      {
-        "label": "攻击力",
-        "value": 50
-      },
-      {
-        "label": "攻击力",
-        "value": 50
-      },
-      {
-        "label": "攻击力",
-        "value": 50
-      },
-      {
-        "label": "攻击力",
-        "value": 50
-      },
-      {
-        "label": "攻击力",
-        "value": 100
-      },
-      {
-        "label": "攻击力",
-        "value": 100
-      },
-      {
-        "label": "攻击力",
-        "value": 100
-      },
-      {
-        "label": "攻击力",
-        "value": 200
-      }
-    ],
-    "gear": [
-      {
-        "slot": "手套",
-        "name": "裸色指甲油 EX",
-        "stats": [
-          {
-            "label": "攻击力",
-            "base": 100,
-            "pct": false
-          },
-          {
-            "label": "土屬性攻擊",
-            "base": 1200,
-            "pct": true
-          },
-          {
-            "label": "命中",
-            "base": 42,
-            "pct": false
-          },
-          {
-            "label": "審判命中",
-            "base": 1500,
-            "pct": true
-          }
-        ]
-      },
-      {
-        "slot": "武器",
-        "name": "祭血之誓 EX",
-        "stats": [
-          {
-            "label": "攻击力",
-            "base": 100,
-            "pct": false
-          },
-          {
-            "label": "土屬性攻擊",
-            "base": 1200,
-            "pct": true
-          },
-          {
-            "label": "暴击",
-            "base": 50,
-            "pct": false
-          },
-          {
-            "label": "格挡无视",
-            "base": 50,
-            "pct": false
-          }
-        ]
-      },
-      {
-        "slot": "足部",
-        "name": "设计师订制款高跟鞋 EX",
-        "stats": [
-          {
-            "label": "攻击力",
-            "base": 100,
-            "pct": false
-          },
-          {
-            "label": "土屬性攻擊",
-            "base": 1200,
-            "pct": true
-          },
-          {
-            "label": "攻击速度",
-            "base": 50,
-            "pct": false
-          },
-          {
-            "label": "暴击闪避",
-            "base": 50,
-            "pct": false
-          }
-        ]
-      },
-      {
-        "slot": "饰品",
-        "name": "黑色染发剂",
-        "stats": [
-          {
-            "label": "攻击力",
-            "base": 77,
-            "pct": false
-          }
-        ]
-      }
-    ],
-    "model": "cr071",
-    "slug": "victoria",
-    "name": "维多莉亚",
-    "nameEn": "Victoria",
-    "title": "权欲魔女",
-    "epithet": "厄夜幻影，封岩困缚",
-    "sex": "女性",
-    "inGacha": true,
-    "icon": null,
-    "sortOrder": 71,
-    "element": {
-      "id": 2,
-      "name": "土",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/battleelement_2.webp"
-    },
-    "job": {
-      "id": 2,
-      "name": "突击",
-      "color": "#EA3333",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/fighters_2.webp"
-    },
-    "attackType": {
-      "id": 2,
-      "name": "能量",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Attributes_01.webp"
-    },
-    "skills": [
-      {
-        "id": "150007100",
-        "name": "优雅刺杀",
-        "slot": "普攻",
-        "slotEn": "Basic Attack",
-        "unlockStar": 0,
-        "icon": null,
-        "type": "瞬發",
-        "mainStat": null,
-        "gcd": "10s",
-        "desc": "对目标造成两段83%物理伤害。",
-        "detail": null,
-        "cooldown": "0s",
-        "cost": null,
-        "statuses": []
-      },
-      {
-        "id": "150007110",
-        "name": "魔女挽歌",
-        "slot": "天赋",
-        "slotEn": "Talent",
-        "unlockStar": 0,
-        "icon": null,
-        "type": "瞬發",
-        "mainStat": null,
-        "gcd": null,
-        "desc": "对目标造成300%物理伤害。\n最后一击命中时，使其陷入石化M状态(4秒)。",
-        "detail": null,
-        "cooldown": "10s",
-        "cost": 1,
-        "statuses": [
-          "石化"
-        ],
-        "awakened": {
-          "desc": "对目标造成420%物理伤害。\n最后一击命中时，使其陷入石化M状态(4秒)。\n最后一击命中时，对其施加格挡降低15%(8秒)。",
-          "detail": null
-        }
-      },
-      {
-        "id": "150007120",
-        "name": "魔女的祝福",
-        "slot": "自动",
-        "slotEn": "Auto",
-        "unlockStar": 1,
-        "icon": null,
-        "type": "瞬發",
-        "mainStat": null,
-        "gcd": null,
-        "desc": "对攻击力最高的两名队员赋予暴击伤害提升40%(8秒)。",
-        "detail": null,
-        "cooldown": "6s",
-        "cost": null,
-        "statuses": [
-          "暴击伤害提升"
-        ],
-        "awakened": {
-          "desc": "对攻击力最高的两名队员赋予暴击伤害提升45%(10秒)。",
-          "detail": null
-        }
-      },
-      {
-        "id": "150007130",
-        "name": "魔女诅咒",
-        "slot": "被动 1",
-        "slotEn": "Passive 1",
-        "unlockStar": 4,
-        "icon": null,
-        "type": "被动",
-        "mainStat": null,
-        "gcd": null,
-        "desc": "命中时，若为石化或格挡下降目标，对其施加被治疗效果降低22%(6秒)。\n此效果每次触发需间隔至少6秒。",
-        "detail": "A rumor circulates within the Rosian Brotherhood, anyone who sees the witch's true identity will die a violent death.",
-        "cooldown": "0s",
-        "cost": null,
-        "statuses": [],
-        "awakened": {
-          "desc": "命中时，若为石化或格挡下降目标，对其施加被治疗效果降低22%(6秒)。\n此效果每次触发需间隔至少6秒。\n对全体队员赋予格挡无视提升6.5%。",
-          "detail": null
-        }
-      },
-      {
-        "id": "150007150",
-        "name": "力量至上",
-        "slot": "被动 2",
-        "slotEn": "Passive 2",
-        "unlockStar": 6,
-        "icon": null,
-        "type": "被动",
-        "mainStat": null,
-        "gcd": null,
-        "desc": "对自身赋予土属性攻击提升8.5%。",
-        "detail": "In Rosian, power and strength are everything.",
-        "cooldown": "0s",
-        "cost": null,
-        "statuses": [],
-        "awakened": {
-          "desc": "对全体队员赋予土属性攻击提升8.5%。\nPVP系统中，对自身赋予攻击速度提升13%。",
-          "detail": null
-        }
-      },
-      {
-        "id": "150007141",
-        "name": "鬼魅影击",
-        "slot": "奧義",
-        "slotEn": "Ultimate",
-        "unlockStar": 2,
-        "icon": null,
-        "type": "瞬發",
-        "mainStat": null,
-        "gcd": null,
-        "desc": "进入觉醒状态，对自身赋予EN值获取提升45%(24秒)。\n对前方范围内至多三名目标造成八段53%能量伤害。\n最后一击命中时，对其施加暴击闪避降低15%(12秒)。",
-        "detail": null,
-        "cooldown": "24s",
-        "cost": 3,
-        "statuses": []
-      }
-    ],
-    "profile": {
-      "title": "權欲魔女",
-      "birthday": "11 / 11",
-      "age": "37",
-      "height": "168",
-      "weight": "64",
-      "interest": "品酒、逛艺廊、听歌剧",
-      "personality": "冷静、有距离感",
-      "resumeParas": [
-        "18歲時與羅士昂前幹部結婚並生下伊蓮娜，過沒多久丈夫就因權力鬥爭死去。",
-        "為了女兒的未來，她決定繼承亡夫在組織中的地位。在尼古拉的幫助下，她成功繼承亡夫的權勢、地位，甚至爬得比亡夫還要高。",
-        "由於手段兇殘，還被羅士昂的人戲稱是「魔女」。"
-      ]
-    },
-    "stats": {
-      "atkRange": "180",
-      "normalAttackGCD": "10000",
-      "critPer": "1000",
-      "critRstPer": "0",
-      "critAmpPer": "5000",
-      "critDmgRdcPer": "0",
-      "hitPer": "8500",
-      "ddgPer": "0",
-      "blkPer": "2500",
-      "blkPenPer": "1500",
-      "blkRdcPer": "2000",
-      "healCritPer": "1000",
-      "healCritAmpPer": "5000",
-      "atkHastePer": "0",
-      "cdHastePer": "0",
-      "manaAmpPer": "0",
-      "hpRcvPer": "1000"
-    }
-  },
-  {
-    "id": "133007300",
-    "tierStats": [
-      {
-        "tier": 1,
-        "hp": 3367,
-        "atk": 345
-      },
-      {
-        "tier": 2,
-        "hp": 5034,
-        "atk": 516
-      },
-      {
-        "tier": 3,
-        "hp": 10104,
-        "atk": 1038
-      },
-      {
-        "tier": 4,
-        "hp": 15140,
-        "atk": 1557
-      },
-      {
-        "tier": 5,
-        "hp": 20209,
-        "atk": 2079
-      },
-      {
-        "tier": 6,
-        "hp": 26947,
-        "atk": 2772
-      },
-      {
-        "tier": 7,
-        "hp": 33684,
-        "atk": 3465
-      },
-      {
-        "tier": 8,
-        "hp": 40421,
-        "atk": 4158
-      },
-      {
-        "tier": 9,
-        "hp": 48505,
-        "atk": 4989
-      },
-      {
-        "tier": 10,
-        "hp": 58226,
-        "atk": 5988
-      }
-    ],
-    "growth": {
-      "rate": 2.25,
-      "hp": [
-        45.75,
-        91.51,
-        228.78,
-        366.04,
-        503.31,
-        640.58
-      ],
-      "atk": [
-        3.3,
-        6.6,
-        16.5,
-        26.4,
-        36.3,
-        46.2
-      ]
-    },
-    "affection": [
-      {
-        "label": "暴击伤害%",
-        "value": 100
-      },
-      {
-        "label": "暴击伤害%",
-        "value": 100
-      },
-      {
-        "label": "暴击伤害%",
-        "value": 100
-      },
-      {
-        "label": "暴击伤害%",
-        "value": 100
-      },
-      {
-        "label": "暴击伤害%",
-        "value": 100
-      },
-      {
-        "label": "暴击伤害%",
-        "value": 200
-      },
-      {
-        "label": "暴击伤害%",
-        "value": 200
-      },
-      {
-        "label": "暴击伤害%",
-        "value": 300
-      },
-      {
-        "label": "暴击伤害%",
-        "value": 300
-      },
-      {
-        "label": "暴击伤害%",
-        "value": 500
-      }
-    ],
-    "gear": [
-      {
-        "slot": "手套",
-        "name": "夜蔓蕾丝手套 EX",
-        "stats": [
-          {
-            "label": "攻击力",
-            "base": 118,
-            "pct": false
-          },
-          {
-            "label": "闇屬性攻擊",
-            "base": 1000,
-            "pct": true
-          },
-          {
-            "label": "物理强化",
-            "base": 62,
-            "pct": false
-          },
-          {
-            "label": "攻击速度",
-            "base": 163,
-            "pct": false
-          }
-        ]
-      },
-      {
-        "slot": "武器",
-        "name": "MX9灭音冲锋枪 EX",
-        "stats": [
-          {
-            "label": "攻击力",
-            "base": 118,
-            "pct": false
-          },
-          {
-            "label": "闇屬性攻擊",
-            "base": 1000,
-            "pct": true
-          },
-          {
-            "label": "暴击",
-            "base": 97,
-            "pct": false
-          },
-          {
-            "label": "暴击伤害",
-            "base": 217,
-            "pct": false
-          }
-        ]
-      },
-      {
-        "slot": "足部",
-        "name": "黑月长靴 EX",
-        "stats": [
-          {
-            "label": "攻击力",
-            "base": 118,
-            "pct": false
-          },
-          {
-            "label": "闇屬性攻擊",
-            "base": 1000,
-            "pct": true
-          },
-          {
-            "label": "攻击速度",
-            "base": 182,
-            "pct": false
-          },
-          {
-            "label": "闪避",
-            "base": 58,
-            "pct": false
-          }
-        ]
-      },
-      {
-        "slot": "饰品",
-        "name": "黑曜石项链",
-        "stats": [
-          {
-            "label": "格挡无视",
-            "base": 800,
-            "pct": true
-          },
-          {
-            "label": "審判抗性",
-            "base": 1500,
-            "pct": true
-          }
-        ]
-      }
-    ],
-    "model": "cr073",
-    "slug": "connie",
-    "name": "昆妮",
-    "nameEn": "Connie",
-    "title": "完美女神",
-    "epithet": "Splendid Execution, Feverish Applause",
-    "sex": "女性",
-    "inGacha": true,
-    "icon": null,
-    "sortOrder": 73,
-    "element": {
-      "id": 6,
-      "name": "暗",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/battleelement_6.webp"
-    },
-    "job": {
-      "id": 5,
-      "name": "破坏",
-      "color": "#9433EA",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/master_6.webp"
-    },
-    "attackType": {
-      "id": 1,
-      "name": "物理",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Attributes_02.webp"
-    },
-    "skills": [
-      {
-        "id": "150007300",
-        "name": "點放射擊",
-        "slot": "普攻",
-        "slotEn": "Basic Attack",
-        "unlockStar": 0,
-        "icon": null,
-        "type": "瞬發",
-        "mainStat": null,
-        "gcd": "10s",
-        "desc": "对生命值最低的目标造成三段26%物理伤害。",
-        "detail": null,
-        "cooldown": "0s",
-        "cost": null,
-        "statuses": []
-      },
-      {
-        "id": "150007310",
-        "name": "魅影裂空",
-        "slot": "天赋",
-        "slotEn": "Talent",
-        "unlockStar": 0,
-        "icon": null,
-        "type": "瞬發",
-        "mainStat": null,
-        "gcd": null,
-        "desc": "对生命值最低的两名目标造成五段32%物理伤害。\n第一击命中时，对其施加光属性攻击降低15%(10秒)。\n第一击命中时，对其施加闪避降低10%(10秒)。",
-        "detail": null,
-        "cooldown": "10s",
-        "cost": 1,
-        "statuses": [
-          "光属性攻击降低",
-          "闪避降低"
-        ],
-        "awakened": {
-          "desc": "对生命值最低的两名目标造成五段54%物理伤害。\n第一击命中时，对其施加光属性攻击降低15%(10秒)。\n第一击命中时，对其施加闪避降低10%(10秒)。",
-          "detail": null
-        }
-      },
-      {
-        "id": "150007320",
-        "name": "靜謐落星",
-        "slot": "自动",
-        "slotEn": "Auto",
-        "unlockStar": 1,
-        "icon": null,
-        "type": "瞬發",
-        "mainStat": null,
-        "gcd": null,
-        "desc": "对生命值最低的目标造成五段18%物理伤害。\n最后一击命中时，对其施加治疗效果降低20%(10秒)。\n最后一击命中时，对其施加被治疗效果降低20%(10秒)。",
-        "detail": null,
-        "cooldown": "6s",
-        "cost": null,
-        "statuses": [
-          "治疗效果降低",
-          "受治疗效果降低"
-        ],
-        "awakened": {
-          "desc": "对生命值最低的目标造成五段30%物理伤害。\n最后一击命中时，对其施加治疗效果降低25%(10秒)。\n最后一击命中时，对其施加被治疗效果降低25%(10秒)。",
-          "detail": null
-        }
-      },
-      {
-        "id": "150007330",
-        "name": "完美主義",
-        "slot": "被动 1",
-        "slotEn": "Passive 1",
-        "unlockStar": 4,
-        "icon": null,
-        "type": "被动",
-        "mainStat": null,
-        "gcd": null,
-        "desc": "击杀时，对全体暗属性队员赋予物理伤害提升15%(12秒)。\n此效果至多叠加2层。",
-        "detail": "Queenie is strict with herself, demanding perfection in every detail of her performances.",
-        "cooldown": "0s",
-        "cost": null,
-        "statuses": [],
-        "awakened": {
-          "desc": "击杀时，对全体暗属性队员赋予物理伤害提升15%(12秒)。\n此效果至多叠加2层。\n对全体队员赋予闪避提升6.5%。",
-          "detail": null
-        }
-      },
-      {
-        "id": "150007350",
-        "name": "絕對魅從",
-        "slot": "被动 2",
-        "slotEn": "Passive 2",
-        "unlockStar": 6,
-        "icon": null,
-        "type": "被动",
-        "mainStat": null,
-        "gcd": null,
-        "desc": "对自身赋予攻击速度提升23%。",
-        "detail": "With just a glance and a smile, Connie can make anyone willingly become her most devoted fan.",
-        "cooldown": "0s",
-        "cost": null,
-        "statuses": [],
-        "awakened": {
-          "desc": "对全体队员赋予攻击速度提升23%。\nPVP系统中，对自身赋予暴击提升13%。",
-          "detail": null
-        }
-      },
-      {
-        "id": "150007341",
-        "name": "魅影舞台",
-        "slot": "奧義",
-        "slotEn": "Ultimate",
-        "unlockStar": 2,
-        "icon": null,
-        "type": "瞬發",
-        "mainStat": null,
-        "gcd": null,
-        "desc": "进入觉醒状态，对自身赋予攻击力提升17%(24秒)。\n对生命值最低的两名目标造成六段85%物理伤害。\n最后一击命中时，若目标处于漆黑状态，则对其造成深渊L追击。",
-        "detail": null,
-        "cooldown": "24s",
-        "cost": 3,
-        "statuses": []
-      }
-    ],
-    "profile": {
-      "title": "完美女神",
-      "birthday": "10 / 24",
-      "age": "28",
-      "height": "172",
-      "weight": "43",
-      "interest": "观察人类",
-      "personality": "心思缜密、城府深的女性。 #表：高雅、美丽、完美 #里：腹黑、狠毒、心机、抗压强、抖S",
-      "resumeParas": [
-        "托比亞的全民女神，形象幾近完美。早在HL娛樂經紀公司成立前就已是高知名度網紅，後來主動加入經紀公司後成為創社台柱，才讓HL娛樂成為知名經紀公司。",
-        "在公眾形象中，她有氣質、懂人情世故、笑臉迎人又親民，但實際上也是會抱怨工作的人，不過她只會對經紀人或相當信任的人展現這任性的一面。"
-      ]
-    },
-    "stats": {
-      "atkRange": "480",
-      "normalAttackGCD": "10000",
-      "critPer": "1000",
-      "critRstPer": "0",
-      "critAmpPer": "5000",
-      "critDmgRdcPer": "0",
-      "hitPer": "9300",
-      "ddgPer": "0",
-      "blkPer": "2500",
-      "blkPenPer": "0",
-      "blkRdcPer": "2000",
-      "healCritPer": "1000",
-      "healCritAmpPer": "5000",
-      "atkHastePer": "0",
-      "cdHastePer": "0",
-      "manaAmpPer": "0",
-      "hpRcvPer": "1000"
-    }
-  },
+  
+  
+  
+  
+  
   {
     "id": "133007400",
     "tierStats": [

@@ -4,6 +4,7 @@
 // game's own library order from RoleInfoData.battlePosition).
 import GSALayout from '../../../../layouts/gene-sys-adam/LandingLayout.astro';
 import { gsaCharacters } from '../../../../data/gene-sys-adam/characters.js';
+import { GSA_TIER_PLACEMENTS, gsaRarityBadge } from '../../../../data/gene-sys-adam/tier-list.js';
 import '../../../../styles/games/gene-sys-adam/gsa-common.css';
 import '../../../../styles/games/gene-sys-adam/gsa-characters.css';
 
@@ -19,7 +20,7 @@ const jobs = JOB_ORDER.filter(j => characters.some(c => c.job?.name === j));
 
 <GSALayout
   title="Character Database"
-  description={`Complete character database for Gene-Sys: Adam. Browse all ${characters.length} characters with elements, combat styles, Summon availability, profiles, stats and skills.`}
+  description={`Complete character database for Gene-Sys: Adam. Browse all ${characters.length} characters with rarity, elements, combat styles, profiles, stats and skills.`}
   gameTitle="Characters"
   crumbName="Characters"
 >
@@ -30,7 +31,6 @@ const jobs = JOB_ORDER.filter(j => characters.some(c => c.job?.name === j));
     </div>
     <div class="gsa-toolbar gsa-toolbar-filters">
       <button class="gsa-filter-btn active" data-filter="all">All</button>
-      <button class="gsa-filter-btn" data-filter="gacha">In Summons</button>
       {ELEMENT_ORDER.map(n => elByName.get(n) && (
         <button class="gsa-filter-btn" data-filter={n.toLowerCase()}>
           <img src={elByName.get(n).icon} alt="" width="14" height="14" loading="lazy" /> {n}
@@ -44,13 +44,16 @@ const jobs = JOB_ORDER.filter(j => characters.some(c => c.job?.name === j));
 
     <div class="gsa-grid-cards" id="gsa-grid">
       {characters.map(c => (
-        <a class="gsa-card" href={`/guides/gene-sys-adam/characters/${c.slug}/`} data-search={`${c.name} ${c.nameZh} ${c.title} ${c.epithet} ${c.attackType?.name || ''}`.toLowerCase()} data-tags={[c.inGacha ? 'gacha' : '', (c.element?.name || '').toLowerCase(), (c.job?.name || '').toLowerCase()].filter(Boolean).join(' ')}>
+        <a class="gsa-card" href={`/guides/gene-sys-adam/characters/${c.slug}/`} data-search={`${c.name} ${c.nameZh} ${c.title} ${c.epithet} ${c.attackType?.name || ''}`.toLowerCase()} data-tags={[(c.element?.name || '').toLowerCase(), (c.job?.name || '').toLowerCase()].filter(Boolean).join(' ')}>
           <div class="gsa-icon-frame">
             {c.icon ? <img src={c.icon} alt={c.name} loading="lazy" /> : <span class="gsa-monogram">{c.name?.[0]}</span>}
           </div>
           <p class="gsa-card-title">{c.name}</p>
           {c.title && <p class="gsa-card-sub">{c.title}</p>}
           <div class="gsa-card-types">
+            {(() => { const r = GSA_TIER_PLACEMENTS[c.slug]?.rarity; const b = r && gsaRarityBadge(r); return b ? (
+              <img class="gsa-card-rarity" src={b} alt={r} width="42" height="27" loading="lazy" />
+            ) : null; })()}
             {c.attackType && (
               <span class="gsa-type-tile" title={`Attack type: ${c.attackType.name}`}>
                 <img src={c.attackType.icon} alt={c.attackType.name} width="24" height="24" loading="lazy" />

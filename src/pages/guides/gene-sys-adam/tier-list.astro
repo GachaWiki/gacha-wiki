@@ -4,7 +4,7 @@
 // explains the status-to-pursuit chains the element view is built around.
 // Reasons live in tier-list.js, not on the page.
 import GSALayout from '../../../layouts/gene-sys-adam/LandingLayout.astro';
-import { GSA_TIER_VIEWS, gsaTierSsrCount, GSA_TIER_UPDATED, GSA_BEGINNER_NOTE, GSA_PURSUIT_NOTE, GSA_TIER_PLACEMENTS, gsaRarityBadge, GSA_ELEMENT_SECTIONS, GSA_COMBOS, gsaFullDisplayName } from '../../../data/gene-sys-adam/tier-list.js';
+import { GSA_TIER_VIEWS, gsaTierSsrCount, GSA_TIER_UPDATED, GSA_BEGINNER_NOTE, GSA_PURSUIT_NOTE, GSA_TIER_PLACEMENTS, gsaRarityBadge, GSA_ELEMENT_SECTIONS, GSA_COMBOS, gsaFullDisplayName, GSA_TIER_NOTES } from '../../../data/gene-sys-adam/tier-list.js';
 import { gsaCharacters } from '../../../data/gene-sys-adam/characters.js';
 import { gsaPursuitRole } from '../../../data/gene-sys-adam/pursuit-roles.js';
 import GSAElementCard from '../../../components/gene-sys-adam/GSAElementCard.astro';
@@ -16,16 +16,16 @@ const bySlugFull = Object.fromEntries(gsaCharacters.map(c => [c.slug, c]));
 // Pursuit-system role chips for the tier cards (from pursuit-roles.js; the
 // same data drives the Pursuit System box on each character page).
 const TIER_ROLE_LABEL = {
-  trigger: 'Pursuit Trigger',
-  enabler: 'Status Enabler',
-  both: 'Trigger + Enabler',
+  trigger: 'Pursuit Finisher',
+  enabler: 'Pursuit Initiator',
+  both: 'Initiator + Finisher',
   none: 'No Pursuit Role',
 };
 ---
 
 <GSALayout
   title="Tier List"
-  description={`Gene-Sys: Adam SSR tier list (${GSA_TIER_UPDATED}): all ${gsaTierSsrCount} SSR characters rated by job and by element, from the decrypted kit numbers.`}
+  description={`Gene-Sys: Adam SSR tier list (${GSA_TIER_UPDATED}): all ${gsaTierSsrCount} SSR characters rated by job and by element, from the decrypted skill numbers.`}
   gameTitle="Tier List"
   crumbName="Tier List"
 >
@@ -106,10 +106,10 @@ const TIER_ROLE_LABEL = {
 
     <div class="gsa-tier-tabpanel" data-view-panel="combos" style="display:none">
       <p class="gsa-combo-intro">
-        The pursuit-chain pairings: Enablers apply the status, Triggers fire the
-        pursuit on final hits against statused targets, and the pursuit is a
-        separate damage channel with its own resistance stat. A trigger without
-        a feeder loses the whole loop, so judge these as pairs, not individuals.
+        The pursuit-chain pairings: Initiators apply the status, Finishers trigger
+        the pursuit on final hits against statused targets, and the pursuit is a
+        separate damage channel with its own Pursuit Res. A Finisher without an
+        Initiator loses the whole loop, so judge these as pairs, not individuals.
       </p>
       <div class="gsa-combo-grid">
         {GSA_COMBOS.map(cb => (
@@ -121,7 +121,7 @@ const TIER_ROLE_LABEL = {
             <h3 class="gsa-combo-name">{cb.name}</h3>
             <div class="gsa-combo-groups">
               <div class="gsa-combo-group">
-                <span class="gsa-combo-group-label">Enablers</span>
+                <span class="gsa-combo-group-label">Initiators</span>
                 {cb.enablers.map(slug => {
                   const m = bySlugFull[slug];
                   if (!m) return null;
@@ -138,7 +138,7 @@ const TIER_ROLE_LABEL = {
               </div>
               <span class="gsa-combo-arrow" aria-hidden="true">&rarr;</span>
               <div class="gsa-combo-group">
-                <span class="gsa-combo-group-label">Triggers</span>
+                <span class="gsa-combo-group-label">Finishers</span>
                 {cb.triggers.map(slug => {
                   const m = bySlugFull[slug];
                   if (!m) return null;
@@ -187,7 +187,7 @@ const TIER_ROLE_LABEL = {
                   </div>
                   <div class="gsa-tier-characters">
                     {row.characters.map(c => (
-                      <a class="gsa-tier-card" href={`/guides/gene-sys-adam/characters/${c.slug}/`} title={c.placement.reason}>
+                      <a class="gsa-tier-card" href={`/guides/gene-sys-adam/characters/${c.slug}/`} title={GSA_TIER_NOTES[c.slug] ? undefined : c.placement.reason}>
                         {c.icon ? (
                           <img class="gsa-tier-thumb" src={c.icon} alt={gsaFullDisplayName(c)} loading="lazy" />
                         ) : (
@@ -202,6 +202,18 @@ const TIER_ROLE_LABEL = {
                         {(() => { const pr = gsaPursuitRole(c.slug); return (
                           <span class={`gsa-tier-role gsa-tier-role-${pr.role}`}>{TIER_ROLE_LABEL[pr.role]}</span>
                         ); })()}
+                        {GSA_TIER_NOTES[c.slug] && (() => { const n = GSA_TIER_NOTES[c.slug]; return (
+                          <span class={`gsa-tier-note-badge gsa-tier-note-${n.type}${n.variant ? ` gsa-note-variant-${n.variant}` : ''}`} tabindex="0" aria-label={n.title}>
+                            <span class="gsa-tier-note-icon">{n.variant ? '★' : '!'}</span>
+                            <span class="gsa-tier-note-tooltip" role="tooltip">
+                              <span class="gsa-tier-note-tooltip-title">{n.title}</span>
+                              <span class="gsa-tier-note-tooltip-text">{n.text}</span>
+                            </span>
+                          </span>
+                        ); })()}
+                        {GSA_TIER_NOTES[c.slug]?.variant && (
+                          <span class={`gsa-tier-card-highlight gsa-note-variant-${GSA_TIER_NOTES[c.slug].variant}`}>{GSA_TIER_NOTES[c.slug].shortTitle}</span>
+                        )}
                       </a>
                     ))}
                   </div>
