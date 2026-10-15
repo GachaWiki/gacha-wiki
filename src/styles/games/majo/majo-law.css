@@ -1,4 +1,15 @@
-/* MAJO Law system page: icon rows and material tiles inside the shared patch-note container (majo-updates.css). */
+/* MAJO Law system page: own head/subtitle/jump-nav classes (no borrowing from
+   majo-events.css), collapsible board panels and material tiles inside the
+   shared patch-note container (majo-updates.css). One type scale, no hover. */
+
+/* Page head: category chip + tagline */
+.majo-law-head {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  flex-wrap: wrap;
+  margin-bottom: 0.7rem;
+}
 
 .majo-law-title {
   display: flex;
@@ -18,10 +29,38 @@
 }
 
 .majo-law-intro {
-  margin: 0 0 0.8rem;
+  margin: 0 0 1rem;
   font-size: 0.88rem;
   line-height: 1.7;
   color: var(--majo-text-secondary);
+}
+
+/* Jump strip */
+.majo-law-jump {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 0 0 1.2rem;
+}
+
+.majo-law-jump a {
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--majo-text-secondary);
+  background: var(--majo-bg-tertiary);
+  border: 1px solid var(--majo-border);
+  border-radius: 999px;
+  padding: 0.35rem 0.8rem;
+  text-decoration: none;
+}
+
+/* Section subtitles: page title stays the loudest element after these */
+.majo-law-subtitle {
+  margin: 1.7rem 0 0.6rem;
+  font-size: 1.06rem;
+  font-weight: 700;
+  color: var(--majo-primary-light);
+  scroll-margin-top: 90px;
 }
 
 /* Material tiles */
@@ -60,7 +99,7 @@
 
 .majo-law-material-law {
   margin: 0;
-  font-size: 0.68rem;
+  font-size: 0.7rem;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.04em;
@@ -69,41 +108,73 @@
 
 .majo-law-material-note {
   margin: 0.25rem 0 0;
-  font-size: 0.75rem;
+  font-size: 0.78rem;
   line-height: 1.5;
   color: var(--majo-text-tertiary);
 }
 
-/* Node boards */
+/* Board panels: collapsed by default, title inside the panel border */
 .majo-law-board {
-  margin-top: 1.4rem;
+  background: var(--majo-bg-secondary);
+  border: 1px solid var(--majo-border);
+  border-radius: 10px;
+  margin: 0.75rem 0;
+}
+
+.majo-law-board-head {
+  display: flex;
+  align-items: baseline;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  padding: 0.7rem 1rem;
+  cursor: pointer;
+  list-style: none;
+}
+
+.majo-law-board-head::-webkit-details-marker {
+  display: none;
+}
+
+.majo-law-board-head::before {
+  content: '+';
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--majo-primary-light);
+  width: 1rem;
+  flex-shrink: 0;
+}
+
+.majo-law-board[open] .majo-law-board-head::before {
+  content: '-';
 }
 
 .majo-law-board-title {
-  margin: 0 0 0.5rem;
   font-size: 0.95rem;
   font-weight: 700;
   color: var(--majo-text-primary);
 }
 
-.majo-law-board-note {
-  margin: 0 0 0.5rem;
-  font-size: 0.78rem;
+.majo-law-board-count {
+  font-size: 0.75rem;
   color: var(--majo-text-tertiary);
 }
 
-.majo-law-rows {
-  border: 1px solid var(--majo-border);
-  border-radius: 10px;
-  padding: 0.3rem 1rem;
-  background: var(--majo-bg-tertiary);
+.majo-law-board-body {
+  padding: 0.2rem 1rem 0.8rem;
+  border-top: 1px solid var(--majo-border);
+}
+
+.majo-law-board-note {
+  margin: 0.6rem 0 0.2rem;
+  font-size: 0.78rem;
+  color: var(--majo-text-tertiary);
 }
 
 .majo-law-row {
   display: flex;
   align-items: flex-start;
   gap: 0.65rem;
-  padding: 0.42rem 0;
+  padding: 0.45rem 0;
 }
 
 .majo-law-row + .majo-law-row {
@@ -111,22 +182,33 @@
 }
 
 .majo-law-node-icon {
-  width: 26px;
-  height: 26px;
+  width: 30px;
+  height: 30px;
   flex-shrink: 0;
   margin-top: 0.05rem;
   object-fit: contain;
+  background: var(--majo-bg-tertiary);
+  border: 1px solid var(--majo-border);
+  border-radius: 8px;
+  padding: 2px;
+  box-sizing: border-box;
 }
 
 .majo-law-node-text {
   margin: 0;
-  font-size: 0.82rem;
+  font-size: 0.85rem;
   line-height: 1.55;
   color: var(--majo-text-secondary);
 }
 
 .majo-law-node-text strong {
   color: var(--majo-primary-light);
+}
+
+@media (max-width: 720px) {
+  .majo-update-detail {
+    padding: 1rem;
+  }
 }
 
 @media (max-width: 560px) {

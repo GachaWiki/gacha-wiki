@@ -136,3 +136,95 @@ export const LAW_MATERIALS = [
   { name: "Floating Law · Echo S1", icon: 'material-echo', law: 'Floating Law', note: 'Season 1 material for Floating Law nodes. Echo S2 continues the series.' },
 ];
 
+// Node-desc markers: Normal Law type lines say "Physical Attack Witches", but
+// the Mental Defense lines drop the word "Attack" ("Defense of Mental Witches").
+const TYPE_NODE_MARKERS = {
+  Physical: ['Physical Attack Witches'],
+  Magic: ['Magic Attack Witches'],
+  Mental: ['Mental Attack Witches', 'Mental Witches'],
+};
+
+const FACTION_NODE_MARKERS = {
+  Human: ['Human Witches'],
+  Beastfolk: ['Beastfolk Witches'],
+  Android: ['Android Witches'],
+};
+
+function collectNodes(markers) {
+  const rows = [];
+  for (const board of LAW_BOARDS) {
+    for (const node of board.nodes) {
+      if (!markers.some(m => node.desc.includes(m))) continue;
+      const values = (node.desc.match(/\d+(?:\/\d+)*/g) || []).pop() || '';
+      const stat = node.name.includes('(') ? node.name.slice(0, node.name.indexOf('(')).trim() : node.name;
+      rows.push({ law: board.law, name: node.name, stat, values, page: board.page, icon: node.icon, desc: node.desc });
+    }
+  }
+  return rows;
+}
+
+function groupNodes(rows) {
+  const groups = [];
+  for (const r of rows) {
+    const g = groups.find(x => x.law === r.law && x.name === r.name && x.values === r.values);
+    if (g) { g.pages.push(r.page); continue; }
+    groups.push({ law: r.law, name: r.name, stat: r.stat, values: r.values, pages: [r.page], icon: r.icon });
+  }
+  return groups;
+}
+
+// Every Law node that buffs one witch: Normal Law + Floating Law type lines
+// (matched by attack type) and Floating Law faction lines (matched by faction).
+// Used by the tier list so team builders see which nodes feed each pick.
+export function lawBuffsForWitch(attackType, faction) {
+  return {
+    type: groupNodes(collectNodes(TYPE_NODE_MARKERS[attackType] || [])),
+    faction: groupNodes(collectNodes(FACTION_NODE_MARKERS[faction] || [])),
+  };
+}
+
+// Short page label for condensed tier-list lines ("Season 1, Bonus Board" ->
+// "S1 Bonus", "Page 2" -> "P2").
+function shortPage(page) {
+  return page.replace('Season 1, ', 'S1 ').replace('Page ', 'P');
+}
+
+// Merge a page list into the shortest honest label: consecutive P1..Pn runs
+// become "P1-Pn", anything else stays comma-joined.
+function shortPages(pages) {
+  const nums = [];
+  for (const p of pages) {
+    const m = /^P(\d+)$/.exec(shortPage(p));
+    if (!m) return null;
+    nums.push(parseInt(m[1], 10));
+  }
+  nums.sort((a, b) => a - b);
+  const runs = [];
+  let start = nums[0], prev = nums[0];
+  for (const n of nums.slice(1).concat(NaN)) {
+    if (n !== prev + 1) { runs.push(start === prev ? `P${start}` : `P${start}-P${prev}`); start = n; }
+    prev = n;
+  }
+  return runs.join(', ');
+}
+
+function condensedRows(rows) {
+  return rows.map(r => ({ ...r, pages: shortPages(r.pages) || r.pages.map(shortPage).join(', ') }));
+}
+
+// Condensed tier-list view of everything that buffs one attack type: the
+// Normal Law and Floating Law type lines plus the shared faction line values.
+export function lawBuffsSummary(attackType) {
+  const { type } = lawBuffsForWitch(attackType, 'Human');
+  const { faction } = lawBuffsForWitch(attackType, 'Human');
+  const factionLines = faction.map(r => `${r.stat} +${r.values}`);
+  return {
+    normal: condensedRows(type.filter(r => r.law === 'Normal Law')),
+    floating: condensedRows(type.filter(r => r.law === 'Floating Law')),
+    factionSameForAll: ['Human', 'Beastfolk', 'Android'].every(f =>
+      lawBuffsForWitch(attackType, f).faction.map(r => `${r.stat} +${r.values}`).join('|') === factionLines.join('|')
+    ),
+    factionLines,
+  };
+}
+

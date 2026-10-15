@@ -1,4 +1,4 @@
-/* MAJO tier list — class sections with tier rows. Static: no hover/glow. */
+/* MAJO tier list — attack type sections (team pools) with Law line boxes and tier rows. Static: no hover/glow. */
 
 /* Single intro panel: date label + community meta takeaway + sources */
 .majo-tier-intro {
@@ -335,4 +335,313 @@
   border-radius: 5px;
   padding: 0.1rem 0.45rem;
   line-height: 1.4;
+}
+
+/* ---- Law buff box inside each attack type section (collapsed by default) ---- */
+.majo-tier-lawbox {
+  background: var(--majo-bg-secondary);
+  border: 1px solid var(--majo-border);
+  border-radius: 12px;
+  margin-bottom: 0.75rem;
+}
+
+.majo-tier-lawbox-head {
+  display: flex;
+  align-items: baseline;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  padding: 0.7rem 1.25rem;
+  cursor: pointer;
+  list-style: none;
+}
+
+.majo-tier-lawbox-head::-webkit-details-marker {
+  display: none;
+}
+
+.majo-tier-lawbox-head::before {
+  content: '+';
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--majo-primary-light);
+  width: 1rem;
+  flex-shrink: 0;
+}
+
+.majo-tier-lawbox[open] .majo-tier-lawbox-head::before {
+  content: '-';
+}
+
+.majo-tier-lawbox-title {
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--majo-text-primary);
+}
+
+.majo-tier-lawbox-hint {
+  font-size: 0.78rem;
+  color: var(--majo-text-tertiary);
+}
+
+.majo-tier-lawbox-body {
+  padding: 0.25rem 1.25rem 0.9rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  border-top: 1px solid var(--majo-border);
+}
+
+.majo-tier-lawgroup-title {
+  margin: 0 0 0.35rem 0;
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--majo-primary-light);
+}
+
+.majo-tier-lawlines {
+  display: grid;
+  grid-template-columns: 88px 1fr;
+  row-gap: 0.3rem;
+  column-gap: 0.75rem;
+  align-items: baseline;
+}
+
+.majo-tier-lawstat {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--majo-text-secondary);
+}
+
+.majo-tier-lawval {
+  font-size: 0.82rem;
+  color: var(--majo-text-primary);
+}
+
+.majo-tier-lawval em {
+  font-style: normal;
+  font-size: 0.74rem;
+  color: var(--majo-text-tertiary);
+  margin-left: 0.35rem;
+}
+
+.majo-tier-lawfactionline {
+  margin: 0;
+  font-size: 0.8rem;
+  line-height: 1.55;
+  color: var(--majo-text-secondary);
+}
+
+.majo-tier-lawmore {
+  margin: 0;
+  font-size: 0.75rem;
+  line-height: 1.5;
+  color: var(--majo-text-tertiary);
+}
+
+.majo-tier-lawmore a {
+  color: var(--majo-primary-light);
+  font-weight: 600;
+}
+
+@media (max-width: 768px) {
+  .majo-tier-lawbox-head,
+  .majo-tier-lawbox-body {
+    padding-left: 0.9rem;
+    padding-right: 0.9rem;
+  }
+
+  .majo-tier-lawlines {
+    grid-template-columns: 76px 1fr;
+  }
+}
+
+/* ---- Faction + class chips on tier cards (same palette as team builds) ---- */
+.majo-tier-type-icon {
+  height: 44px;
+  width: 44px;
+  object-fit: contain;
+  background: var(--majo-bg-tertiary);
+  border: 1px solid var(--majo-border);
+  border-radius: 10px;
+  padding: 3px;
+  box-sizing: border-box;
+}
+
+.majo-tier-card-chips {
+  display: flex;
+  gap: 0.25rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.majo-tier-chip {
+  font-size: 0.6rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  border-radius: 5px;
+  padding: 0.1rem 0.4rem;
+  line-height: 1.4;
+  white-space: nowrap;
+}
+
+.majo-tier-chip.faction-human {
+  background: #f2c14e;
+  color: #2a2118;
+}
+
+.majo-tier-chip.faction-android {
+  background: #6d93bd;
+  color: #16202b;
+}
+
+.majo-tier-chip.faction-beastfolk {
+  background: #74a86e;
+  color: #16220f;
+}
+
+.majo-tier-chip-cls {
+  background: var(--majo-bg-tertiary);
+  color: var(--majo-text-secondary);
+  border: 1px solid var(--majo-border);
+}
+
+.majo-tier-chip.type-physical {
+  background: #d98873;
+  color: #2b1712;
+}
+
+.majo-tier-chip.type-magic {
+  background: #a89bd1;
+  color: #221f2c;
+}
+
+.majo-tier-chip.type-mental {
+  background: #74a8a0;
+  color: #10231f;
+}
+
+/* ---- Beginner teams block at the top of the wiki panel ---- */
+.majo-tier-starters {
+  background: var(--majo-bg-secondary);
+  border: 1px solid var(--majo-border);
+  border-radius: 12px;
+  padding: 1rem 1.25rem 1.15rem;
+  margin-bottom: 2.25rem;
+}
+
+.majo-tier-starters-label {
+  margin: 0 0 0.35rem;
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--majo-primary-light);
+}
+
+.majo-tier-starters-note {
+  margin: 0 0 0.9rem;
+  font-size: 0.82rem;
+  line-height: 1.55;
+  color: var(--majo-text-secondary);
+}
+
+.majo-tier-starter-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.majo-tier-starter {
+  background: var(--majo-bg-tertiary);
+  border: 1px solid var(--majo-border);
+  border-radius: 10px;
+  padding: 0.9rem 1rem 1rem;
+}
+
+.majo-tier-starter-head {
+  display: flex;
+  align-items: baseline;
+  gap: 0.6rem;
+  flex-wrap: wrap;
+  margin-bottom: 0.8rem;
+}
+
+.majo-tier-starter-name {
+  margin: 0;
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--majo-text-primary);
+}
+
+.majo-tier-starter-tags {
+  display: flex;
+  gap: 0.3rem;
+  flex-wrap: wrap;
+}
+
+.majo-tier-starter-members {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.85rem;
+  margin-bottom: 0.8rem;
+}
+
+.majo-tier-starter-member {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.35rem;
+  width: 84px;
+  text-decoration: none;
+  color: inherit;
+}
+
+.majo-tier-starter-thumb {
+  width: 84px;
+  height: 102px;
+  border-radius: 8px;
+  object-fit: cover;
+  object-position: center top;
+  border: 2px solid var(--majo-border-light);
+  background: var(--majo-bg-secondary);
+}
+
+.majo-tier-starter-member-name {
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: var(--majo-text-primary);
+  text-align: center;
+  line-height: 1.25;
+}
+
+.majo-tier-starter-desc {
+  margin: 0;
+  font-size: 0.8rem;
+  line-height: 1.6;
+  color: var(--majo-text-secondary);
+}
+
+@media (max-width: 860px) {
+  .majo-tier-starter-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 768px) {
+  .majo-tier-lawrow-values {
+    margin-left: 0;
+    width: 100%;
+    padding-left: 2.9rem;
+  }
+
+  .majo-tier-lawbox {
+    padding: 0.75rem 0.9rem;
+  }
+
+  .majo-tier-starters {
+    padding: 0.85rem 0.9rem 0.95rem;
+  }
 }

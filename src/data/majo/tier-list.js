@@ -1,4 +1,6 @@
-// MAJO tier list: kit-based placements (updated 2026-10-12), grouped by class.
+// MAJO tier list: kit-based placements (updated 2026-10-12), grouped by attack
+// type (Physical / Magic / Mental) so each section doubles as a team-building
+// pool, with the Law node lines that buff that type shown per section.
 // Placements are editorial, grounded in each witch's full skill data in
 // characters.js and cross-checked with community lists (OSLink 2026-08-18,
 // GamingPile 2026-08-30, Bilibili + Gamerch 2026-09-16, and the October wave:
@@ -21,9 +23,17 @@ export const MAJO_TIERS = [
   { tier: 'C', color: '#736f85' },
 ];
 
-export const MAJO_CLASS_SECTIONS = ['Fighter', 'Mage', 'Tank', 'Healer'];
+export const MAJO_TYPE_SECTIONS = ['Physical', 'Magic', 'Mental'];
 
-const CLASS_ZH = { Fighter: '破阵', Mage: '飞袭', Tank: '守护', Healer: '支援' };
+const TYPE_ZH = { Physical: '物理', Magic: '魔法', Mental: '精神' };
+
+// In-game Law node icon per attack type (same art the Law page uses, on R2
+// under majo/law as icon-<name>.webp).
+export const MAJO_TYPE_LAW_ICONS = {
+  Physical: 'atk_physic',
+  Magic: 'atk_magic',
+  Mental: 'atk_spirit',
+};
 
 export const MAJO_TIER_UPDATED = 'October 12, 2026';
 
@@ -172,14 +182,15 @@ function placementOf(slug) {
   return { tier: 'C', reason: 'Not yet reviewed.' };
 }
 
-export const majoTierByClass = MAJO_CLASS_SECTIONS.map(cls => ({
-  cls,
-  clsZh: CLASS_ZH[cls],
+export const majoTierByType = MAJO_TYPE_SECTIONS.map(type => ({
+  type,
+  typeZh: TYPE_ZH[type],
+  lawIcon: MAJO_TYPE_LAW_ICONS[type],
   tiers: MAJO_TIERS.map(({ tier, color }) => ({
     tier,
     color,
     characters: majoCharacters
-      .filter(c => c.cls === cls && placementOf(c.slug).tier === tier)
+      .filter(c => c.attackType === type && placementOf(c.slug).tier === tier)
       .map(c => ({ ...c, placement: placementOf(c.slug) }))
       .sort((a, b) =>
         ((RARITY_RANK[a.rarity] ?? 9) - (RARITY_RANK[b.rarity] ?? 9)) ||

@@ -1,10 +1,12 @@
 ---
-// MAJO tier list, grouped by class: kit-based placements with per-witch
-// reasons, plus tabs showing the CN/JP/KR community ladders side by side.
+// MAJO tier list, grouped by attack type (Physical / Magic / Mental) so each
+// section doubles as a team-building pool, with the Law node lines that buff
+// that type, plus tabs showing the CN/JP/KR community ladders side by side.
 import MajoLayout from '../../../../layouts/majo/LandingLayout.astro';
 import MajoCharacterImage from '../../../../components/majo/MajoCharacterImage.astro';
 import MajoIcon from '../../../../components/majo/MajoIcon.astro';
-import { majoTierByClass, MAJO_TIER_UPDATED, MAJO_TIER_PLACEMENTS } from '../../../../data/majo/tier-list.js';
+import { majoTierByType, MAJO_TIER_UPDATED, MAJO_TIER_PLACEMENTS } from '../../../../data/majo/tier-list.js';
+import { lawBuffsSummary } from '../../../../data/majo/law.js';
 import { MAJO_COMMUNITY_TIERS, resolveCommunityTiers } from '../../../../data/majo/community-tiers.js';
 import '../../../../styles/games/majo/majo-tier.css';
 import { SITE } from '../../../../consts';
@@ -15,21 +17,50 @@ const charactersBySlug = Object.fromEntries(
 const communityLists = MAJO_COMMUNITY_TIERS.map(list =>
   resolveCommunityTiers(list, charactersBySlug, MAJO_TIER_PLACEMENTS)
 );
+
+const LAW_R2 = 'https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/majo/law';
+
+// Each type section carries its condensed Law lines (faction lines are the
+// same for every faction, rendered once per section).
+const typeSections = majoTierByType.map(sec => ({
+  ...sec,
+  law: lawBuffsSummary(sec.type),
+}));
+
+// Beginner teams (user-curated): the Mental starter core and its all-Human
+// variant, resolved against characters.js like every other card on the page.
+const bySlug = Object.fromEntries(charactersBySlug ? Object.entries(charactersBySlug) : []);
+const STARTER_TEAMS = [
+  {
+    name: 'The Mental Starter',
+    tags: ['4 Mental'],
+    members: ['carmen', 'jenny', 'xuanji', 'maro'],
+    desc: 'Four Mental witches with heavy synergy: Carmen holds the line and heals on her Normal attacks, Jenny and Xuanji punish downed targets, Maro heals while buffing the team. All four feed the same Attack (Mental) and Defense (Mental) Law lines, and every piece is standard pool: Xuanji farms from the Novice Contact, the rest come from the Origin Contact.',
+  },
+  {
+    name: 'The Human Core',
+    tags: ['4 Human', '3 Mental + 1 Physical'],
+    members: ['carmen', 'xinzi', 'xuanji', 'maro'],
+    desc: 'Swap Jenny for Xinzi and the squad turns fully Human, stacking the Floating Law Human lines on top of the Mental lines. Xinzi is the strongest free DPS in the game and the cheapest upgrade to this core. Low investment, easy to obtain, and it carries the mental start and other content.',
+  },
+].map(t => ({ ...t, members: t.members.map(s => bySlug[s]).filter(Boolean) }));
 ---
 
 <MajoLayout
   title="Tier List"
-  description={`MAJO: Witches Night tier list, grouped by class: best Fighters, Mages, Tanks and Healers, updated ${MAJO_TIER_UPDATED} with kit-based placements for all 31 witches.`}
+  description={`MAJO: Witches Night tier list, grouped by attack type: build Physical, Magic and Mental teams from each section, with the Law lines that buff every type and faction, updated ${MAJO_TIER_UPDATED} for all 31 witches.`}
   gameTitle="Tier List"
 >
   <section>
     <div class="majo-tier-intro">
       <p class="majo-tier-intro-label">Updated {MAJO_TIER_UPDATED} · Kit-based ratings, community-checked</p>
       <p class="majo-tier-intro-text">
-        <strong>Physical still rules, and post-fix PVP has opened up</strong> (CN standard: "4 physical,
-        or 3 physical plus 1 mental"; shield, healer and pure-DPS arena teams all work since the Oct 7
-        defense Law fix). New UR Fighter Bellakey lands at SS on three-region evidence, and a month of
-        play lifted Lucia to S. Sustained DPS ladder per CN and KR: Bazhuli, then Yuhong and Bellakey.
+        <strong>Build each team from one section.</strong> Law nodes buff Witches by attack type and by
+        faction, so a same-type or same-faction lineup feeds the same Law lines: cards carry faction and
+        class chips, and every section lists its Law lines. New or rebuilding accounts should start with
+        one of the two beginner teams just below. Current meta in one line: physical still leads (CN
+        standard is "4 physical, or 3 physical plus 1 mental"), and the sustained DPS ladder is Bazhuli,
+        then Yuhong and Bellakey.
         Sources:
         <a href="https://forum.gamer.com.tw/B.php?bsn=85761" target="_blank" rel="noopener noreferrer">Bahamut</a>,
         <a href="https://www.bilibili.com/video/BV1Z1HD6FE16" target="_blank" rel="noopener noreferrer">Bilibili (Oct 8 tier list)</a>,
@@ -52,15 +83,94 @@ const communityLists = MAJO_COMMUNITY_TIERS.map(list =>
 
     <div class="majo-tier-panel" id="majo-tier-panel-wiki" data-panel="wiki">
 
-    {majoTierByClass.map(group => (
+    <div class="majo-tier-starters">
+      <p class="majo-tier-starters-label">Beginner teams</p>
+      <p class="majo-tier-starters-note">
+        Two low-investment lineups for a mental start and general content. The second team is the first
+        with Jenny swapped for Xinzi.
+      </p>
+      <div class="majo-tier-starter-grid">
+        {STARTER_TEAMS.map(t => (
+          <div class="majo-tier-starter">
+            <div class="majo-tier-starter-head">
+              <p class="majo-tier-starter-name">{t.name}</p>
+              <span class="majo-tier-starter-tags">
+                {t.tags.map(tag => <span class={`majo-tier-chip ${tag.includes('Human') ? 'faction-human' : 'type-mental'}`}>{tag}</span>)}
+              </span>
+            </div>
+            <div class="majo-tier-starter-members">
+              {t.members.map(m => (
+                <a class="majo-tier-starter-member" href={`/guides/majo/characters/${m.slug}/`}>
+                  <MajoCharacterImage filename={m.icon} alt={m.nameEn} class="majo-tier-starter-thumb" />
+                  <span class="majo-tier-starter-member-name">{m.nameEn}</span>
+                  <span class="majo-tier-card-chips">
+                    <span class={`majo-tier-chip type-${m.attackType.toLowerCase()}`}>{m.attackType}</span>
+                    <span class={`majo-tier-chip faction-${m.faction.toLowerCase()}`}>{m.faction}</span>
+                  </span>
+                </a>
+              ))}
+            </div>
+            <p class="majo-tier-starter-desc">{t.desc}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+
+    {typeSections.map(group => (
       <div class="majo-tier-class-section">
         <div class="majo-tier-class-header">
-          <MajoIcon filename={`GachaPage_Icon_${group.cls}.png`} alt={group.cls} class="majo-icon-class" />
-          <h2 class="majo-tier-class-title">{group.cls}<span class="majo-tier-class-zh">{group.clsZh}</span></h2>
+          <img
+            class="majo-tier-type-icon"
+            src={`${LAW_R2}/icon-${group.lawIcon}.webp`}
+            alt=""
+            loading="lazy"
+            decoding="async"
+            width={72}
+            height={72}
+          />
+          <h2 class="majo-tier-class-title">{group.type}<span class="majo-tier-class-zh">{group.typeZh}</span></h2>
           <span class="majo-tier-class-count">
             {group.tiers.reduce((n, t) => n + t.characters.length, 0)} witches
           </span>
         </div>
+
+        <details class="majo-tier-lawbox">
+          <summary class="majo-tier-lawbox-head">
+            <span class="majo-tier-lawbox-title">Law buffs for {group.type} witches</span>
+            <span class="majo-tier-lawbox-hint">
+              {group.law.normal.length + group.law.floating.length} type lines + faction lines, open for values
+            </span>
+          </summary>
+          <div class="majo-tier-lawbox-body">
+            <div class="majo-tier-lawgroup">
+              <p class="majo-tier-lawgroup-title">Normal Law</p>
+              <div class="majo-tier-lawlines">
+                {group.law.normal.map(r => (
+                  <span class="majo-tier-lawstat">{r.stat}</span>
+                  <span class="majo-tier-lawval">+{r.values} <em>{r.pages}</em></span>
+                ))}
+              </div>
+            </div>
+            <div class="majo-tier-lawgroup">
+              <p class="majo-tier-lawgroup-title">Floating Law, Season 1</p>
+              <div class="majo-tier-lawlines">
+                {group.law.floating.map(r => (
+                  <span class="majo-tier-lawstat">{r.stat}</span>
+                  <span class="majo-tier-lawval">+{r.values} <em>{r.pages}</em></span>
+                ))}
+              </div>
+            </div>
+            <p class="majo-tier-lawfactionline">
+              Faction lines stack on top by each card's faction chip, and every faction gets the same
+              values: {group.law.factionLines.join(', ')}.
+            </p>
+            <p class="majo-tier-lawmore">
+              Node values are per verification level, e.g. 8/16/24/32/40 is the value at levels 1 to 5.
+              Full node reference and materials on the <a href="/guides/majo/law/">Law System</a> page.
+            </p>
+          </div>
+        </details>
+
         <div class="majo-tier-grid">
           {group.tiers.map(row => (
             <div class={`majo-tier-row tier-${row.tier.toLowerCase()}`}>
@@ -75,6 +185,10 @@ const communityLists = MAJO_COMMUNITY_TIERS.map(list =>
                       <MajoIcon filename={`CharacterDetails_Icon_${c.rarity}.png`} alt={c.rarity} class="majo-icon-rarity" />
                     </span>
                     <span class="majo-tier-name-label">{c.nameEn}</span>
+                    <span class="majo-tier-card-chips">
+                      <span class={`majo-tier-chip faction-${c.faction.toLowerCase()}`}>{c.faction}</span>
+                      <span class="majo-tier-chip majo-tier-chip-cls">{c.cls}</span>
+                    </span>
                     {c.placement.isNew && <span class="majo-tier-new-chip">New</span>}
                   </a>
                 ))}
