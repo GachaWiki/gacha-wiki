@@ -55,7 +55,7 @@
 /* Hero title styling */
 .hero-title {
   font-family: var(--font-display); /* Use display font from typography system */
-  font-size: clamp(var(--text-3xl), 5vw, var(--text-5xl)); /* Use sizes from typography system */
+  font-size: clamp(var(--text-3xl), 5vw, var(--text-6xl)); /* home hero - 6xl is the reserved display cap */
   font-weight: var(--font-bold); /* Use bold weight from typography system */
   line-height: var(--leading-tight); /* Use leading from typography system */
   color: var(--amber-glow);

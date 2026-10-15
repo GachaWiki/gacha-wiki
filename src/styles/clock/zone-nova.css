@@ -494,7 +494,7 @@
 
 .launch-days {
   font-family: var(--font-primary);
-  font-size: var(--text-5xl);
+  font-size: var(--text-6xl); /* display numeral - reserved 48px step */
   font-weight: var(--font-bold);
   color: var(--zn-clock-white);
   line-height: var(--leading-tight);

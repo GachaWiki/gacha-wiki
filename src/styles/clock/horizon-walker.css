@@ -359,7 +359,7 @@
 
 .launch-days {
   font-family: var(--font-primary);
-  font-size: var(--text-5xl);
+  font-size: var(--text-6xl); /* display numeral - reserved 48px step */
   font-weight: var(--font-bold);
   line-height: var(--leading-tight);
   text-align: center;
