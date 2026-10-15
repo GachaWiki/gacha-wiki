@@ -502,3 +502,10 @@
     grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
   }
 }
+
+/* Tile footer links (card database / wiki guide) */
+.shop-tile-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.7rem;
+}

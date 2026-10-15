@@ -1,10 +1,11 @@
 ---
-// TCG Shop page: Weiss Schwarz sets for gacha games, Amazon US links only.
-// Every item renders as a full-width rich card (image, blurb, specs, sample
-// cards) with a filter toolbar: buyers should understand what they are buying.
+// TCG Shop page: the full Weiss Schwarz catalog (English + Japanese) as one
+// uniform tile grid, with English/Japanese tabs like the card database.
+// Curated shop items keep their direct Amazon product buttons; every other
+// set gets a tagged Amazon search button.
 import AboutLayout from '../layouts/AboutLayout.astro';
 import { SITE_TITLE } from '../consts';
-import { SHOP_ITEMS, SHOP_TYPES, getShopFranchises } from '../data/shop-items.js';
+import { SHOP_ITEMS } from '../data/shop-items.js';
 import { shopLink } from '../data/shop.js';
 import { WS_CARD_SETS } from '../data/ws-cards/index.js';
 import '../styles/pages/shop.css';
@@ -21,19 +22,7 @@ const keywords = [
   'tcg shop',
 ];
 
-const fmtDate = (iso: string) =>
-  new Date(iso).toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' });
-
-const slug = (s: string) => s.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
-
-const franchises = getShopFranchises();
-const cardDbIds = new Set(WS_CARD_SETS.map((s) => s.id));
-
-// Every set that is not a curated shop item still gets a compact tile with a
-// tagged Amazon search button, so the shop covers the full EN + JP catalog
-// (same structure as the card database).
-const shopItemIds = new Set(SHOP_ITEMS.map((i) => i.id));
-const moreSets = WS_CARD_SETS.filter((s) => !shopItemIds.has(s.id));
+const metaByShopItem = new Map(WS_CARD_SETS.map((s) => [s.shopItem, s]));
 
 function setBuy(s: (typeof WS_CARD_SETS)[number]) {
   const jp = s.lang === 'jp';
@@ -45,17 +34,37 @@ function setBuy(s: (typeof WS_CARD_SETS)[number]) {
   };
 }
 
-// Release chips: featured-style entries carry a releases array; scanner/manual
-// entries carry a single English-edition release string.
-function releaseChips(item: (typeof SHOP_ITEMS)[number]) {
-  if (item.releases?.length) return item.releases;
-  if (item.release) {
-    const parsed = new Date(item.release);
-    const date = isNaN(parsed.getTime()) ? item.release : fmtDate(item.release);
-    return [{ region: 'English', dateLabel: date, status: 'out' }];
-  }
-  return [];
-}
+// One uniform tile list: curated shop items first (direct Amazon product
+// buttons, curated art), then every remaining set from the registry.
+const shopItemIds = new Set(SHOP_ITEMS.map((i) => i.id));
+const tiles = [
+  ...SHOP_ITEMS.map((item) => {
+    const meta = metaByShopItem.get(item.id);
+    const link = item.links.find((l) => l.store.toLowerCase().includes('amazon'));
+    return {
+      id: item.id,
+      name: item.name,
+      lang: 'en',
+      image: item.image,
+      count: meta?.count ?? 0,
+      search: `${item.name} ${item.franchise}`.toLowerCase(),
+      buy: link
+        ? { url: shopLink(link), store: 'View on Amazon', note: link.note || 'Amazon product page' }
+        : setBuy({ ...meta, name: item.name, lang: 'en' }),
+      extraLink: item.wikiGame ? { label: 'Wiki guide', href: `/guides/${item.wikiGame}/` } : null,
+    };
+  }),
+  ...WS_CARD_SETS.filter((s) => !shopItemIds.has(s.id)).map((s) => ({
+    id: s.id,
+    name: s.name,
+    lang: s.lang ?? 'en',
+    image: s.box || s.sample || '',
+    count: s.count,
+    search: s.name.toLowerCase(),
+    buy: setBuy(s),
+    extraLink: null,
+  })),
+];
 ---
 
 <AboutLayout title={title} description={description} keywords={keywords}>
@@ -115,151 +124,43 @@ function releaseChips(item: (typeof SHOP_ITEMS)[number]) {
         placeholder="Search sets..."
         aria-label="Search sets"
       />
-      <select id="shop-franchise" class="shop-select" aria-label="Filter by franchise">
-        <option value="">All franchises</option>
-        {franchises.map((f) => <option value={slug(f)}>{f}</option>)}
-      </select>
-      <select id="shop-type" class="shop-select" aria-label="Filter by product type">
-        <option value="">All types</option>
-        {Object.entries(SHOP_TYPES).map(([value, label]) => <option value={value}>{label}</option>)}
-      </select>
       <button id="shop-clear" class="shop-clear" type="button">Clear</button>
       <span id="shop-count" class="shop-count" aria-live="polite"></span>
     </div>
 
-    <div id="shop-list">
+    <div class="shop-more-grid" id="shop-list">
       {
-        SHOP_ITEMS.map(item => (
-          <section
-            class="shop-set"
-            id={item.id}
-            aria-label={item.name}
-            data-lang="en"
-            data-franchise={slug(item.franchise)}
-            data-type={item.type}
-            data-search={`${item.name} ${item.franchise}`.toLowerCase()}
-          >
-            <div class="shop-set-body">
-              <div class="shop-set-media">
-                <img
-                  src={item.image}
-                  alt={item.imageAlt}
-                  width={item.imageWidth}
-                  height={item.imageHeight}
-                  loading="lazy"
-                />
-              </div>
-              <div class="shop-set-info">
-                <div class="shop-set-head">
-                  <h2 class="shop-set-title">{item.name}</h2>
-                  <span class="shop-set-game">{SHOP_TYPES[item.type] ?? 'Weiss Schwarz'}</span>
-                </div>
-                <p class="shop-set-franchise">{item.franchise}</p>
-                {item.tagline && <p class="shop-set-tagline">{item.tagline}</p>}
-                <p class="shop-set-blurb">{item.blurb}</p>
-                <div class="shop-chips">
-                  {releaseChips(item).map(r => (
-                    <span class={`shop-chip shop-chip-${r.status}`}>
-                      {`${r.region}: ${r.dateLabel ?? fmtDate(r.date)}`}
-                    </span>
-                  ))}
-                </div>
-                {item.specs?.length > 0 && (
-                  <ul class="shop-specs">
-                    {item.specs.map(spec => (
-                      <li>{spec}</li>
-                    ))}
-                  </ul>
-                )}
-                {item.cardPreviews?.length > 0 && (
-                  <div class="shop-set-cards" aria-label="Sample cards">
-                    {item.cardPreviews.map((src, i) => (
-                      <img src={src} alt={`${item.name} sample card ${i + 1}`} loading="lazy" />
-                    ))}
-                  </div>
-                )}
-                <div class="shop-set-reflinks">
-                  {cardDbIds.has(item.id) && (
-                    <a class="shop-set-official" href={`/cards/${item.id}/`}>
-                      Card database
-                    </a>
-                  )}
-                  {item.wikiGame && (
-                    <a class="shop-set-official" href={`/guides/${item.wikiGame}/`}>
-                      Wiki guide
-                    </a>
-                  )}
-                </div>
-                <div class="shop-links">
-                  {item.links.map(link => (
-                    <a
-                      class="shop-btn shop-btn-primary"
-                      href={shopLink(link)}
-                      target="_blank"
-                      rel="noopener noreferrer nofollow sponsored"
-                    >
-                      <span class="shop-btn-store">{link.asin ? 'View on Amazon' : link.store}</span>
-                      {link.note && <span class="shop-btn-note">{link.note}</span>}
-                    </a>
-                  ))}
-                  {item.officialUrl && (
-                    <a
-                      class="shop-btn"
-                      href={item.officialUrl}
-                      target="_blank"
-                      rel="noopener noreferrer nofollow"
-                    >
-                      <span class="shop-btn-store">Official product page</span>
-                      <span class="shop-btn-note">Card list and rarities on en.ws-tcg.com</span>
-                    </a>
-                  )}
-                </div>
-              </div>
+        tiles.map((t) => (
+          <div class="shop-tile" id={t.id} aria-label={t.name} data-lang={t.lang} data-search={t.search}>
+            <div class="shop-tile-media">
+              {t.image && <img src={t.image} alt={t.name} loading="lazy" draggable="false" />}
             </div>
-          </section>
+            <span class="shop-tile-name">{t.name}</span>
+            <span class="shop-tile-meta">
+              {t.count > 0 && <span class="shop-chip">{`${t.count} cards`}</span>}
+            </span>
+            <a
+              class="shop-btn shop-btn-primary shop-tile-btn"
+              href={t.buy.url}
+              target="_blank"
+              rel="noopener noreferrer nofollow sponsored"
+            >
+              <span class="shop-btn-store">{t.buy.store}</span>
+              <span class="shop-btn-note">{t.buy.note}</span>
+            </a>
+            <div class="shop-tile-links">
+              <a class="shop-set-official" href={`/cards/${t.id}/`}>
+                Card database
+              </a>
+              {t.extraLink && (
+                <a class="shop-set-official" href={t.extraLink.href}>
+                  {t.extraLink.label}
+                </a>
+              )}
+            </div>
+          </div>
         ))
       }
-
-      <h2 class="shop-more-title">Every other Weiss Schwarz set</h2>
-      <p class="shop-more-note">
-        Not curated above yet, but each has a card database page and a tagged Amazon search button.
-      </p>
-      <div class="shop-more-grid">
-        {
-          moreSets.map((s) => {
-            const buy = setBuy(s);
-            return (
-              <div
-                class="shop-tile"
-                data-lang={s.lang ?? 'en'}
-                data-franchise=""
-                data-type=""
-                data-search={s.name.toLowerCase()}
-              >
-                <div class="shop-tile-media">
-                  {s.box || s.sample ? (
-                    <img src={s.box || s.sample} alt={s.name} loading="lazy" draggable="false" />
-                  ) : null}
-                </div>
-                <span class="shop-tile-name">{s.name}</span>
-                <span class="shop-tile-meta">
-                  <span class="shop-chip">{`${s.count} cards`}</span>
-                </span>
-                <a
-                  class="shop-btn shop-btn-primary shop-tile-btn"
-                  href={buy.url}
-                  target="_blank"
-                  rel="noopener noreferrer nofollow sponsored"
-                >
-                  <span class="shop-btn-store">{buy.store}</span>
-                  <span class="shop-btn-note">{buy.note}</span>
-                </a>
-                <a class="shop-set-official" href={`/cards/${s.id}/`}>Card database</a>
-              </div>
-            );
-          })
-        }
-      </div>
     </div>
 
     <p class="shop-no-results" id="shop-no-results" hidden>No sets match those filters.</p>
@@ -269,49 +170,30 @@ function releaseChips(item: (typeof SHOP_ITEMS)[number]) {
 </AboutLayout>
 
 <script>
-  // Client-side filtering for the shop list (site convention: everything is
-  // server-rendered, visibility toggles via data attributes, no pagination).
-  // Covers both curated rich cards and the full-catalog tiles, plus the
+  // Client-side filtering for the shop tile grid (site convention: everything
+  // is server-rendered, visibility toggles via data attributes) plus the
   // English/Japanese tabs.
   const search = document.getElementById('shop-search') as HTMLInputElement;
-  const franchise = document.getElementById('shop-franchise') as HTMLSelectElement;
-  const type = document.getElementById('shop-type') as HTMLSelectElement;
   const clear = document.getElementById('shop-clear') as HTMLButtonElement;
   const count = document.getElementById('shop-count');
   const noResults = document.getElementById('shop-no-results');
-  const items = Array.from(document.querySelectorAll<HTMLElement>('#shop-list .shop-set, #shop-list .shop-tile'));
+  const items = Array.from(document.querySelectorAll<HTMLElement>('#shop-list .shop-tile'));
   const tabs = Array.from(document.querySelectorAll<HTMLButtonElement>('.shop-lang-tab'));
-  const moreTitle = document.querySelector<HTMLElement>('.shop-more-title');
-  const moreNote = document.querySelector<HTMLElement>('.shop-more-note');
   let lang = 'en';
 
   function apply(): void {
     const q = search.value.trim().toLowerCase();
-    const f = franchise.value;
-    const t = type.value;
     let visible = 0;
-    let curatedVisible = 0;
     for (const el of items) {
-      const curated = el.classList.contains('shop-set');
-      const show =
-        el.dataset.lang === lang &&
-        (!q || el.dataset.search?.includes(q)) &&
-        (!f || el.dataset.franchise === f) &&
-        (!t || el.dataset.type === t);
+      const show = el.dataset.lang === lang && (!q || el.dataset.search?.includes(q));
       el.style.display = show ? '' : 'none';
       if (show) visible++;
-      if (show && curated) curatedVisible++;
     }
     if (count) count.textContent = `${visible} sets`;
     if (noResults) noResults.hidden = visible > 0;
-    // The "every other set" heading only makes sense when curated cards are
-    // visible above the grid
-    const showHeading = curatedVisible > 0 && lang === 'en';
-    if (moreTitle) moreTitle.style.display = showHeading ? '' : 'none';
-    if (moreNote) moreNote.style.display = showHeading ? '' : 'none';
   }
 
-  [search, franchise, type].forEach((el) => el.addEventListener('input', apply));
+  search.addEventListener('input', apply);
   for (const tab of tabs) {
     tab.addEventListener('click', () => {
       lang = tab.dataset.lang || 'en';
@@ -324,11 +206,10 @@ function releaseChips(item: (typeof SHOP_ITEMS)[number]) {
   }
   clear.addEventListener('click', () => {
     search.value = '';
-    franchise.value = '';
-    type.value = '';
     apply();
   });
   apply();
 </script>
+
 
 
