@@ -188,7 +188,7 @@ const TIER_ROLE_LABEL = {
                   </div>
                   <div class="gsa-tier-characters">
                     {row.characters.map(c => (
-                      <a class="gsa-tier-card" href={`/guides/gene-sys-adam/characters/${c.slug}/`} title={GSA_TIER_NOTES[c.slug] ? undefined : c.placement.reason}>
+                      <a class="gsa-tier-card" href={`/guides/gene-sys-adam/characters/${c.slug}/`}>
                         {c.icon ? (
                           <img class="gsa-tier-thumb" src={c.icon} alt={gsaFullDisplayName(c)} loading="lazy" />
                         ) : (

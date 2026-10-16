@@ -157,7 +157,7 @@ const total = tierTabs.reduce((n, t) => n + tabCount(t.rarity), 0);
                   </div>
                   <div class="gsa-tier-characters">
                     {row.characters.map(c => (
-                      <a class="gsa-tier-card" href={`${base}characters/${c.slug}/`} title={GSA_TIER_NOTES[c.slug] ? undefined : c.placement.reason}>
+                      <a class="gsa-tier-card" href={`${base}characters/${c.slug}/`}>
                         {c.icon ? (
                           <img class="gsa-tier-thumb" src={c.icon} alt={fullZhName(c)} loading="lazy" />
                         ) : (

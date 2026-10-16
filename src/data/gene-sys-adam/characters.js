@@ -2587,10 +2587,10 @@ export const gsaCharacters = [
       "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/battleelement_6.webp"
     },
     "job": {
-      "id": 3,
-      "name": "Sniper",
-      "color": "#FFC405",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/archer_6.webp"
+      "id": 4,
+      "name": "Support",
+      "color": "#33EA62",
+      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/priest_2.webp"
     },
     "attackType": {
       "id": 2,

@@ -75,6 +75,11 @@ export const GSA_TIER_NOTES = {
     title: 'The Best Tank',
     text: 'She is one of best tank in game right now, specially for Earth team. she can active the petrify earth status her passive is good too',
   },
+  'kurosawa-shion': {
+    type: 'info',
+    title: 'The battery of the game.',
+    text: 'She dont deal damage her self but she dont need to, with her your whole team cast ultimate non stop. her Energy restore and her stacking basic damage buff for the party is crazy, she make every team better.',
+  },
   'fujiwara-arisa': {
     type: 'info',
     title: 'F2P friendly, but take time to get fully max her out and she is a good single target damage dealer.',
@@ -107,6 +112,7 @@ export const GSA_TIER_NOTES = {
     title: 'Tank no status.',
     text: 'we can easily max her out she very good early account though she dont bring much like other tank character, she is just a tanky character.',
   },
+  
 };
 
 // element-neutral job icons (JobData.jobicon base with element 0)
