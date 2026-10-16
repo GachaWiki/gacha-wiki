@@ -8,6 +8,7 @@ import { gsaPropertyTypes } from '../../../../../data/gene-sys-adam/property-typ
 import { GSA_ZH_REVERSE } from '../../../../../data/gene-sys-adam/zh-tw/game-text.js';
 import { gsaPursuitRole, GSA_PURSUIT_ROLES } from '../../../../../data/gene-sys-adam/pursuit-roles.js';
 import { GSA_TIER_PLACEMENTS, gsaRarityBadge } from '../../../../../data/gene-sys-adam/tier-list.js';
+import { GSA_STATUSES, GSA_CHAR_STATUSES } from '../../../../../data/gene-sys-adam/statuses.js';
 import { GSA_ZH } from '../../../../../data/gene-sys-adam/zh-tw/ui.js';
 import '../../../../../styles/games/gene-sys-adam/gsa-common.css';
 import '../../../../../styles/games/gene-sys-adam/gsa-characters.css';
@@ -56,6 +57,27 @@ const CORE_EN = { '生命力': 'HP', '攻擊力': 'ATK' };
 // 新危機樣式）。「改版前」取自繁中維基上一次提交時的遊戲資料表（10 月 2
 // 日版本），「改版後」為目前資料表；技能名與敘述皆為官方繁中。
 const REWORK_ZH = {
+danxin: {
+    date: '2026年10月13日',
+    patchLabel: '10 月 13 日更新公告',
+    patchHref: `${base}updates/2026-10-13-black-gold-hunter-rerun/`,
+    intro:
+      '小幅資料表調整，並非完整改版：站位欄位移至防護前排，覺醒的絲綢偏轉新增PVP效果，奧義的追擊狀態連結由超載修正為暈眩。先前的冷卻與被動改版說法為維基端解析差異，並非遊戲變更。',
+    items: [
+      {
+        title: '奧義追擊狀態',
+        before: '超載（風屬性鏈）',
+        after: '暈眩',
+      },
+      {
+        title: '被動 2：絲綢偏轉',
+        before:
+          '對自身賦予受到能量傷害降低10%。\n覺醒：對全體隊員賦予受到能量傷害降低10%。',
+        after:
+          '對自身賦予受到能量傷害降低10%。\n覺醒：對全體隊員賦予受到能量傷害降低10%。\n覺醒：PVP系統中，對自身賦予受治療量提升13%。',
+      },
+    ],
+  }
 };
 const reworkZh = REWORK_ZH[slug] || null;
 
@@ -94,6 +116,12 @@ const fullZhName = x => (x && x.title && (zhNameCount[x.name] || 0) > 1 ? `${x.n
 
 // 頁面標題與麵包屑使用全名（兩個貝兒分得清楚）。
 const displayName = fullZhName(c);
+
+// 此技能組會用到或施加的狀態與效果（RoleTypeData 官方圖示）。
+const myStatusesZh = (GSA_CHAR_STATUSES[slug] || [])
+  .map(id => GSA_STATUSES[id])
+  .filter(Boolean)
+  .sort((a, b) => (a.kind === b.kind ? a.name.localeCompare(b.name) : a.kind === 'debuff' ? -1 : 1));
 // 官方 EN 數值說明 -> 官方繁中說明（反查），找不到就不顯示小字。
 const zhDesc = enLabel => {
   const en = gsaPropertyTypes[enLabel];
@@ -559,6 +587,31 @@ const growth = c.growth || { rate: 1, hp: [0, 0, 0, 0, 0, 0], atk: [0, 0, 0, 0, 
         </div>
       )
     }
+
+    {myStatusesZh.length > 0 && (
+      <div class="gsa-detail-section" id="gsa-statuses">
+        <h2>狀態與效果</h2>
+        <p class="gsa-section-note">
+          此技能組會用到或施加的增益與減益，圖示取自遊戲本身。
+        </p>
+        <div class="gsa-status-grid">
+          {myStatusesZh.map(st => (
+            <div class={`gsa-status-tile gsa-status-${st.kind}`}>
+              <span class="gsa-status-head">
+                {st.icon ? (
+                  <img class="gsa-status-icon" src={st.icon} alt={st.nameZh} width="28" height="28" loading="lazy" />
+                ) : (
+                  <span class="gsa-status-icon gsa-status-icon-ph">{st.nameZh?.[0]}</span>
+                )}
+                <b class="gsa-status-name">{st.nameZh}</b>
+                <span class={`gsa-chip ${st.kind === 'buff' ? 'solid-accent' : 'gsa-status-kind-debuff'}`}>{st.kind === 'buff' ? '增益' : '減益'}</span>
+              </span>
+              {st.descZh && <p class="gsa-status-desc">{st.descZh}</p>}
+            </div>
+          ))}
+        </div>
+      </div>
+    )}
 
     {reworkZh && (
       <div class="gsa-detail-section" id="gsa-rework-archive">

@@ -704,7 +704,7 @@ export const gsaSignatureGear = [
     "name": "Energy Control Gloves",
     "nameEx": "Energy Control Gloves EX",
     "flavor": "Allows for precise remote control of a dark energy sphere's position and trajectory in space, and for adjusting its internal energy parameters. Used to simulate the reactions of various virus samples under changing conditions.",
-    "icon": null,
+    "icon": "Equip_cr045_glove",
     "quality": "Blue",
     "stats": [
       {
@@ -776,7 +776,7 @@ export const gsaSignatureGear = [
     "name": "Stain-Resistant Non-Slip Women's Shoes",
     "nameEx": "Stain-Resistant Non-Slip Women's Shoes EX",
     "flavor": "Features anti-slip and stain-resistant properties, with antibacterial protection. Its glossy black finish also meets dress code standards for medical and research personnel.",
-    "icon": null,
+    "icon": "Equip_cr045_shoe",
     "quality": "Blue",
     "stats": [
       {
@@ -836,7 +836,7 @@ export const gsaSignatureGear = [
     "name": "Modest Hands",
     "nameEx": "Modest Hands EX",
     "flavor": "She has no desire for accessories, so her hands are always bare. On the first knuckle of her right middle finger is a thick callus from years of holding a pen.",
-    "icon": null,
+    "icon": "Equip_cr046_glove",
     "quality": "Blue",
     "stats": [
       {
@@ -914,7 +914,7 @@ export const gsaSignatureGear = [
     "name": "Worn High Heels",
     "nameEx": "Worn High Heels EX",
     "flavor": "Every adult woman should own a pair of high heels that is truly hers. However, Chloe seems to have worn this pair for a very long time, as the soles are already worn smooth.",
-    "icon": null,
+    "icon": "Equip_cr046_shoe",
     "quality": "Blue",
     "stats": [
       {
@@ -1244,7 +1244,7 @@ export const gsaSignatureGear = [
     "name": "Traceless Gloves",
     "nameEx": "Traceless Gloves EX",
     "flavor": "Black, skin-tight gloves suitable for long hours of handling needles and blades, ensuring every situation is managed with precision and fluidity.",
-    "icon": null,
+    "icon": "Equip_cr049_glove",
     "quality": "Blue",
     "stats": [
       {
@@ -1322,7 +1322,7 @@ export const gsaSignatureGear = [
     "name": "Strapped Steel-Toed Boots",
     "nameEx": "Strapped Steel-Toed Boots EX",
     "flavor": "A thick leather and steel-toed design. In addition to highlighting Milena's personal style, it provides an extra layer of safety when walking through industrial areas.",
-    "icon": null,
+    "icon": "Equip_cr049_shoe",
     "quality": "Blue",
     "stats": [
       {
@@ -2558,7 +2558,7 @@ export const gsaSignatureGear = [
     "name": "Premium Two-Tone Leather Shoes",
     "nameEx": "Premium Two-Tone Leather Shoes EX",
     "flavor": "The perfect shine on the surface of these shoes is an illusion for the world to see. Every step is taken to solidify her own position, treading on anything and anyone that can be used to climb higher.",
-    "icon": null,
+    "icon": "Equip_cr059_shoe",
     "quality": "Blue",
     "stats": [
       {
@@ -2690,7 +2690,7 @@ export const gsaSignatureGear = [
     "name": "Tsukuyomi Heels",
     "nameEx": "Tsukuyomi Heels EX",
     "flavor": "Shiny black patent leather high heels, part of the standard maid uniform at Moonveil Pavilion. Paired with black stockings, they effortlessly attract customers' attention.",
-    "icon": null,
+    "icon": "Equip_cr061_shoe",
     "quality": "Blue",
     "stats": [
       {
@@ -2882,7 +2882,7 @@ export const gsaSignatureGear = [
     "name": "Fashion Accessory",
     "nameEx": "Fashion Accessory EX",
     "flavor": "Wearing all of Kana's cutest bracelets and adding a hair tie for a touch of softness, these gloves are both adorable and practical, though they can be a bit heavy at times.",
-    "icon": null,
+    "icon": "Equip_cr063_glove",
     "quality": "Blue",
     "stats": [
       {
@@ -2921,7 +2921,7 @@ export const gsaSignatureGear = [
     "name": "SMG9-K Submachine Gun",
     "nameEx": "SMG9-K Submachine Gun EX",
     "flavor": "A submachine gun issued by the organization. Kana has adorned it with her favorite charms, adding a touch of cuteness, but it remains as flashy and deadly as ever.",
-    "icon": null,
+    "icon": "Equip_cr063_wp",
     "quality": "Blue",
     "stats": [
       {
@@ -2954,7 +2954,7 @@ export const gsaSignatureGear = [
     "name": "Slouch Socks & Leather Shoes",
     "nameEx": "Slouch Socks & Leather Shoes EX",
     "flavor": "Retro-style slouch socks paired with student shoes. It's the most popular light-retro style right now and also perfectly matches Kana's favorite school uniform set.",
-    "icon": null,
+    "icon": "Equip_cr063_shoe",
     "quality": "Blue",
     "stats": [
       {
@@ -3290,7 +3290,7 @@ export const gsaSignatureGear = [
     "name": "Sword Maiden's Finger",
     "nameEx": "Sword Maiden's Finger EX",
     "flavor": "Exquisite nail art that doesn’t interfere with sword dancing. Each line is carefully crafted, creating an elegance that doesn't sacrifice its deadly aura.",
-    "icon": null,
+    "icon": "Equip_cr066_glove",
     "quality": "Blue",
     "stats": [
       {
@@ -3329,7 +3329,7 @@ export const gsaSignatureGear = [
     "name": "Evermoon Blade",
     "nameEx": "Evermoon Blade EX",
     "flavor": "A katana that has accompanied Fujiwara throughout her growth. It has been meticulously maintained every day and is only ever drawn in the name of her sense of justice.",
-    "icon": null,
+    "icon": "Equip_cr066_wp",
     "quality": "Blue",
     "stats": [
       {
@@ -3368,7 +3368,7 @@ export const gsaSignatureGear = [
     "name": "Elegant Travel Shoes",
     "nameEx": "Elegant Travel Shoes EX",
     "flavor": "Lightweight with a strong grip. It prioritize functionality while remaining extremely beautiful, perfect for an elegant swordswoman.",
-    "icon": null,
+    "icon": "Equip_cr066_shoe",
     "quality": "Blue",
     "stats": [
       {
@@ -3566,7 +3566,7 @@ export const gsaSignatureGear = [
     "name": "Cow Print Arm Sleeves",
     "nameEx": "Cow Print Arm Sleeves EX",
     "flavor": "Black-and-white cow-pattern sleeves, allegedly made to \"prevent accidental exposure\", except they only cover your arms, leaving everything important out in the open.",
-    "icon": null,
+    "icon": "Equip_cr107_glove",
     "quality": "Blue",
     "stats": [
       {
@@ -3605,7 +3605,7 @@ export const gsaSignatureGear = [
     "name": "Whole Milk Machine Gun (?)",
     "nameEx": "Whole Milk Machine Gun (?) EX",
     "flavor": "A custom machine gun crafted specially for parties. It fires in relentless bursts, leaving striking milky-white trails that just won't stop.",
-    "icon": null,
+    "icon": "Equip_cr107_wp",
     "quality": "Blue",
     "stats": [
       {
@@ -3638,7 +3638,7 @@ export const gsaSignatureGear = [
     "name": "Cow Print High Heels",
     "nameEx": "Cow Print High Heels EX",
     "flavor": "High heels that elongate and accentuate the lines of the legs, but make it impossible to walk quickly. With every step, she grows more self-conscious.",
-    "icon": null,
+    "icon": "Equip_cr107_shoe",
     "quality": "Blue",
     "stats": [
       {
@@ -3677,7 +3677,7 @@ export const gsaSignatureGear = [
     "name": "Cow Bell",
     "nameEx": "Cow Bell EX",
     "flavor": "A golden bell collar, an essential accessory for the Farm Party's \"featured characters.\"",
-    "icon": null,
+    "icon": "Equip_cr107_acc",
     "quality": "Gold",
     "stats": [
       {
@@ -3691,6 +3691,144 @@ export const gsaSignatureGear = [
         "pct": true,
         "base": 1500,
         "max": 2500
+      }
+    ]
+  },
+  {
+    "slug": "danxin",
+    "char": "Danxin",
+    "cr": 60,
+    "element": "Fire",
+    "weaponClass": "Physical",
+    "slot": "Gloves",
+    "name": "Silk-Bound Gloves",
+    "nameEx": "Silk-Bound Gloves EX",
+    "flavor": "Specially made bracers. The interior is reinforced with steel, and the outer layer is covered in tough leather. The dragon emblem at the wrist serves as proof of being an immediate disciple.",
+    "icon": "Equip_cr060_glove",
+    "quality": "Blue",
+    "stats": [
+      {
+        "label": "ATK",
+        "pct": false,
+        "base": 44,
+        "max": 56
+      },
+      {
+        "label": "Fire ATK",
+        "pct": true,
+        "base": 1000,
+        "max": 1000
+      },
+      {
+        "label": "ATK Speed",
+        "pct": false,
+        "base": 182,
+        "max": 210
+      },
+      {
+        "label": "ACC",
+        "pct": false,
+        "base": 58,
+        "max": 60
+      }
+    ]
+  },
+  {
+    "slug": "danxin",
+    "char": "Danxin",
+    "cr": 60,
+    "element": "Fire",
+    "weaponClass": "Physical",
+    "slot": "Weapon",
+    "name": "Fire Esper Bracers",
+    "nameEx": "Fire Esper Bracers EX",
+    "flavor": "An ancient fist style passed down through the Long Yingtian clan for generations. It merges martial arts with the principles of nature, its form like a dragon lurking in the abyss, its energy advancing in like endless waves. Only those with a steadfast will and unwavering self-discipline can grasp its essence.",
+    "icon": "Equip_cr060_wp",
+    "quality": "Blue",
+    "stats": [
+      {
+        "label": "ATK",
+        "pct": false,
+        "base": 44,
+        "max": 56
+      },
+      {
+        "label": "Fire ATK",
+        "pct": true,
+        "base": 1000,
+        "max": 1000
+      },
+      {
+        "label": "Block",
+        "pct": false,
+        "base": 107,
+        "max": 142
+      },
+      {
+        "label": "DMG BLK",
+        "pct": false,
+        "base": 96,
+        "max": 113
+      }
+    ]
+  },
+  {
+    "slug": "danxin",
+    "char": "Danxin",
+    "cr": 60,
+    "element": "Fire",
+    "weaponClass": "Physical",
+    "slot": "Shoes",
+    "name": "Silk-Bound Footwear",
+    "nameEx": "Silk-Bound Footwear EX",
+    "flavor": "Tall boots that combine modern design with the needs of martial artists. Multi-layered wide straps securely wrap around the ankles and calves, providing excellent stability; the sole material effectively eliminates the sound of footsteps.",
+    "icon": "Equip_cr060_shoe",
+    "quality": "Blue",
+    "stats": [
+      {
+        "label": "ATK",
+        "pct": false,
+        "base": 44,
+        "max": 56
+      },
+      {
+        "label": "Fire ATK",
+        "pct": true,
+        "base": 1000,
+        "max": 1000
+      },
+      {
+        "label": "Healing Received Up",
+        "pct": false,
+        "base": 188,
+        "max": 234
+      },
+      {
+        "label": "Crit Evasion",
+        "pct": false,
+        "base": 80,
+        "max": 95
+      }
+    ]
+  },
+  {
+    "slug": "danxin",
+    "char": "Danxin",
+    "cr": 60,
+    "element": null,
+    "weaponClass": "Physical",
+    "slot": "Accessory",
+    "name": "Serenity Mala",
+    "nameEx": "Serenity Mala EX",
+    "flavor": "Composed of 108 smooth ebony beads. When he needs to think clearly or dispel distracting thoughts, Danxin rolls the beads, restoring her mind to a state of perfect peace, \"like a clear mirror and still water.\"",
+    "icon": null,
+    "quality": "Gold",
+    "stats": [
+      {
+        "label": "ATK",
+        "pct": false,
+        "base": 77,
+        "max": 86
       }
     ]
   }

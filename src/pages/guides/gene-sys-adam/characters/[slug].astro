@@ -8,6 +8,7 @@ import { gsaPropertyTypes } from '../../../../data/gene-sys-adam/property-types.
 import { getGsaReworkArchive } from '../../../../data/gene-sys-adam/rework-archive.js';
 import { gsaPursuitRole, GSA_PURSUIT_ROLES } from '../../../../data/gene-sys-adam/pursuit-roles.js';
 import { GSA_TIER_PLACEMENTS, gsaRarityBadge, gsaFullDisplayName } from '../../../../data/gene-sys-adam/tier-list.js';
+import { GSA_STATUSES, GSA_CHAR_STATUSES } from '../../../../data/gene-sys-adam/statuses.js';
 import '../../../../styles/games/gene-sys-adam/gsa-common.css';
 import '../../../../styles/games/gene-sys-adam/gsa-characters.css';
 
@@ -56,6 +57,13 @@ const versions = gsaCharacters
 // Page heading and browser tab use the full name when the roster has two
 // units with the same name (Belle / Clumsy Cowgirl Belle).
 const displayName = gsaFullDisplayName(c);
+
+// Statuses and buffs this kit touches, from the game's own RoleTypeData
+// catalog (icon + buff/debuff kind + explanation where official text exists).
+const myStatuses = (GSA_CHAR_STATUSES[slug] || [])
+  .map(id => GSA_STATUSES[id])
+  .filter(Boolean)
+  .sort((a, b) => (a.kind === b.kind ? a.name.localeCompare(b.name) : a.kind === 'debuff' ? -1 : 1));
 
 const profile = c.profile || {};
 const stats = c.stats || {};
@@ -546,6 +554,31 @@ const growth = c.growth || { rate: 1, hp: [0, 0, 0, 0, 0, 0], atk: [0, 0, 0, 0, 
         </div>
       )
     }
+
+    {myStatuses.length > 0 && (
+      <div class="gsa-detail-section" id="gsa-statuses">
+        <h2>Statuses & Buffs</h2>
+        <p class="gsa-section-note">
+          The buffs and debuffs this kit applies or interacts with, with the game's own icons.
+        </p>
+        <div class="gsa-status-grid">
+          {myStatuses.map(st => (
+            <div class={`gsa-status-tile gsa-status-${st.kind}`}>
+              <span class="gsa-status-head">
+                {st.icon ? (
+                  <img class="gsa-status-icon" src={st.icon} alt={st.name} width="28" height="28" loading="lazy" />
+                ) : (
+                  <span class="gsa-status-icon gsa-status-icon-ph">{st.name?.[0]}</span>
+                )}
+                <b class="gsa-status-name">{st.name}</b>
+                <span class={`gsa-chip ${st.kind === 'buff' ? 'solid-accent' : 'gsa-status-kind-debuff'}`}>{st.kind === 'buff' ? 'Buff' : 'Debuff'}</span>
+              </span>
+              {st.desc && <p class="gsa-status-desc">{st.desc}</p>}
+            </div>
+          ))}
+        </div>
+      </div>
+    )}
 
     {reworkArchive && (
       <div class="gsa-detail-section" id="gsa-rework-archive">

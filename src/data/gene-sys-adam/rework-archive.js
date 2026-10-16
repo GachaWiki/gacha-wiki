@@ -12,6 +12,27 @@ const UPD_OCT2 = '/guides/gene-sys-adam/updates/2026-10-02-skill-reworks-and-rui
 
 export const GSA_REWORK_ARCHIVE = {
 
+danxin: {
+    date: 'October 13, 2026',
+    patchLabel: 'October 13 update entry',
+    patchHref: UPD_OCT13,
+    intro:
+      'Small October 13 table tweaks, not a full rework: her deployment lane moved to the Guardian (front) column, her awakened Silk Deflection gained a PVP rider, and her Ultimate pursuit-status link was corrected from Overload to Stun. Earlier claims of a cooldown and passive rework were wiki-side rendering changes, not game changes; the pre-October text below preserves what this page showed at the time.',
+    items: [
+      {
+        title: 'Ultimate pursuit status',
+        before: 'Overload (Wind chain)',
+        after: 'Stun',
+      },
+      {
+        title: 'Passive 2: Silk Deflection',
+        before:
+          'Grant self Energy Damage Taken Decreased 10%.\nAwakened: Grant all party members Energy Damage Taken Decreased 10%.',
+        after:
+          'Grant self Energy Damage Taken Decreased 10%.\nAwakened: Grant all party members Energy Damage Taken Decreased 10%.\nAwakened: In PVP mode, grant self Healing Received Up 13%.',
+      },
+    ],
+  },
   rachel: {
     date: 'October 2, 2026',
     patchLabel: 'October 2 update entry',

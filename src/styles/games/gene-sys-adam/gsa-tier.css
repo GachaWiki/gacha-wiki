@@ -588,6 +588,11 @@ a.gsa-tier-card:active {
   color: #1c1610;
 }
 
+.gsa-note-variant-tank {
+  background: var(--gsa-gold);
+  color: #1c1610;
+}
+
 .gsa-tier-note-badge:focus {
   outline: 1px solid var(--gsa-border);
 }
@@ -628,12 +633,8 @@ a.gsa-tier-card:active {
 }
 
 .gsa-tier-card-highlight {
-  position: absolute;
-  bottom: 6px;
-  left: 50%;
-  transform: translateX(-50%);
-  z-index: 4;
   white-space: nowrap;
+  margin-top: 2px;
   padding: 2px 10px;
   background: var(--gsa-gold);
   color: #1c1610;
@@ -654,4 +655,27 @@ a.gsa-tier-card:active {
   .gsa-tier-note-tooltip {
     width: 220px;
   }
+}
+
+/* Rarity + element badge row under the portrait on tier cards */
+.gsa-tier-badges {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.gsa-tier-elem {
+  width: 18px;
+  height: 18px;
+  display: block;
+}
+
+/* Per-section editorial note under a job header (e.g. the Guardian caveat) */
+.gsa-tier-section-note {
+  margin: 0 0 10px;
+  font-size: 0.8rem;
+  line-height: 1.55;
+  color: var(--gsa-text-dim);
+  border-left: 2px solid var(--gsa-border);
+  padding-left: 10px;
 }

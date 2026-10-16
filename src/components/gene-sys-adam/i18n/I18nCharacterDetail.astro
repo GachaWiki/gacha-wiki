@@ -6,6 +6,7 @@
 // come from the shared pursuit-roles.js structural data.
 import { gsaPursuitRole, GSA_PURSUIT_ROLES } from '../../../data/gene-sys-adam/pursuit-roles.js';
 import { GSA_TIER_PLACEMENTS, gsaRarityBadge } from '../../../data/gene-sys-adam/tier-list.js';
+import { GSA_STATUSES, GSA_CHAR_STATUSES } from '../../../data/gene-sys-adam/statuses.js';
 import { gsaPropertyTypes } from '../../../data/gene-sys-adam/property-types.js';
 
 export interface Props {
@@ -87,6 +88,14 @@ const versions = characters
 const nameCount = {};
 for (const x of characters) nameCount[x.name] = (nameCount[x.name] || 0) + 1;
 const fullName = x => (x && x.title && (nameCount[x.name] || 0) > 1 ? `${x.name} (${x.title})` : x.name);
+
+// statuses/buffs this kit touches, names localized when the loc map has them
+const langKey = base.split('/')[1];
+const myStatuses = (GSA_CHAR_STATUSES[slug] || [])
+  .map(id => GSA_STATUSES[id])
+  .filter(Boolean)
+  .map(st => ({ ...st, dispName: st.names?.[langKey] || st.name }))
+  .sort((a, b) => (a.kind === b.kind ? a.dispName.localeCompare(b.dispName) : a.kind === 'debuff' ? -1 : 1));
 ---
 
 <div class="gsa-content-section">
@@ -443,4 +452,25 @@ const fullName = x => (x && x.title && (nameCount[x.name] || 0) > 1 ? `${x.name}
       </div>
     ) : null
   }
+
+  {myStatuses.length > 0 && (
+    <div class="gsa-detail-section" id="gsa-statuses">
+      <h2>{L.statusesTitle}</h2>
+      <div class="gsa-status-grid">
+        {myStatuses.map(st => (
+          <div class={`gsa-status-tile gsa-status-${st.kind}`}>
+            <span class="gsa-status-head">
+              {st.icon ? (
+                <img class="gsa-status-icon" src={st.icon} alt={st.dispName} width="28" height="28" loading="lazy" />
+              ) : (
+                <span class="gsa-status-icon gsa-status-icon-ph">{st.dispName?.[0]}</span>
+              )}
+              <b class="gsa-status-name">{st.dispName}</b>
+              <span class={`gsa-chip ${st.kind === 'buff' ? 'solid-accent' : 'gsa-status-kind-debuff'}`}>{st.kind === 'buff' ? L.buffLabel : L.debuffLabel}</span>
+            </span>
+          </div>
+        ))}
+      </div>
+    </div>
+  )}
 </div>

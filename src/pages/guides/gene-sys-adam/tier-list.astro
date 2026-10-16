@@ -179,6 +179,7 @@ const TIER_ROLE_LABEL = {
                 {section.tiers.reduce((n, t) => n + t.characters.length, 0)} characters
               </span>
             </div>
+            {section.note && <p class="gsa-tier-section-note">{section.note}</p>}
             <div class="gsa-tier-grid">
               {section.tiers.map(row => (
                 <div class="gsa-tier-row">
@@ -193,11 +194,16 @@ const TIER_ROLE_LABEL = {
                         ) : (
                           <span class="gsa-tier-thumb gsa-monogram">{c.name?.[0]}</span>
                         )}
-                        {gsaRarityBadge(c.placement.rarity) ? (
-                          <img class="gsa-rarity-badge gsa-tier-thumb-badge" src={gsaRarityBadge(c.placement.rarity)} alt={c.placement.rarity} width="50" height="32" loading="lazy" />
-                        ) : (
-                          <span class={`gsa-tier-rarity gsa-tier-rarity-${(c.placement.rarity || 'sr').toLowerCase()}`}>{c.placement.rarity}</span>
-                        )}
+                        <span class="gsa-tier-badges">
+                          {gsaRarityBadge(c.placement.rarity) ? (
+                            <img class="gsa-rarity-badge gsa-tier-thumb-badge" src={gsaRarityBadge(c.placement.rarity)} alt={c.placement.rarity} width="50" height="32" loading="lazy" />
+                          ) : (
+                            <span class={`gsa-tier-rarity gsa-tier-rarity-${(c.placement.rarity || 'sr').toLowerCase()}`}>{c.placement.rarity}</span>
+                          )}
+                          {c.element && (
+                            <img class="gsa-tier-elem" src={c.element.icon} alt={c.element.name} title={c.element.name} width="18" height="18" loading="lazy" />
+                          )}
+                        </span>
                         <span class="gsa-tier-name-label">{gsaFullDisplayName(c)}</span>
                         {(() => { const pr = gsaPursuitRole(c.slug); return (
                           <span class={`gsa-tier-role gsa-tier-role-${pr.role}`}>{TIER_ROLE_LABEL[pr.role]}</span>

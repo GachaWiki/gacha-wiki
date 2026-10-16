@@ -1585,7 +1585,7 @@ export const gsaCharactersTh = [
         "slot": "โจมตีปกติ",
         "slotEn": "Basic Attack",
         "unlockStar": 0,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr036_1.webp",
         "type": "ทันที",
         "mainStat": null,
         "gcd": "10s",
@@ -1619,7 +1619,7 @@ export const gsaCharactersTh = [
         "slot": "อัตโนมัติ",
         "slotEn": "Auto",
         "unlockStar": 1,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr036_3.webp",
         "type": "ทันที",
         "mainStat": null,
         "gcd": null,
@@ -1638,7 +1638,7 @@ export const gsaCharactersTh = [
         "slot": "พาสซีฟ 1",
         "slotEn": "Passive 1",
         "unlockStar": 4,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr036_5.webp",
         "type": "พาสซีฟ",
         "mainStat": null,
         "gcd": null,
@@ -1660,7 +1660,7 @@ export const gsaCharactersTh = [
         "slot": "พาสซีฟ 2",
         "slotEn": "Passive 2",
         "unlockStar": 6,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr036_6.webp",
         "type": "พาสซีฟ",
         "mainStat": null,
         "gcd": null,
@@ -1680,7 +1680,7 @@ export const gsaCharactersTh = [
         "slot": "อัลติเมท",
         "slotEn": "Ultimate",
         "unlockStar": 2,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr036_4.webp",
         "type": "ทันที",
         "mainStat": null,
         "gcd": null,
@@ -4717,10 +4717,10 @@ export const gsaCharactersTh = [
       "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/battleelement_6.webp"
     },
     "job": {
-      "id": 3,
-      "name": "สไนเปอร์",
-      "color": "#FFC405",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/archer_6.webp"
+      "id": 4,
+      "name": "สนับสนุน",
+      "color": "#33EA62",
+      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/priest_2.webp"
     },
     "attackType": {
       "id": 2,
@@ -4734,7 +4734,7 @@ export const gsaCharactersTh = [
         "slot": "โจมตีปกติ",
         "slotEn": "Basic Attack",
         "unlockStar": 0,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr045_1.webp",
         "type": "ทันที",
         "mainStat": null,
         "gcd": "10s",
@@ -4750,7 +4750,7 @@ export const gsaCharactersTh = [
         "slot": "พรสวรรค์",
         "slotEn": "Talent",
         "unlockStar": 0,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr045_2.webp",
         "type": "ทันที",
         "mainStat": null,
         "gcd": null,
@@ -4773,7 +4773,7 @@ export const gsaCharactersTh = [
         "slot": "อัตโนมัติ",
         "slotEn": "Auto",
         "unlockStar": 1,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr045_3.webp",
         "type": "ทันที",
         "mainStat": null,
         "gcd": null,
@@ -4795,7 +4795,7 @@ export const gsaCharactersTh = [
         "slot": "พาสซีฟ 1",
         "slotEn": "Passive 1",
         "unlockStar": 4,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr045_5.webp",
         "type": "พาสซีฟ",
         "mainStat": null,
         "gcd": null,
@@ -4817,7 +4817,7 @@ export const gsaCharactersTh = [
         "slot": "พาสซีฟ 2",
         "slotEn": "Passive 2",
         "unlockStar": 6,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr045_6.webp",
         "type": "พาสซีฟ",
         "mainStat": null,
         "gcd": null,
@@ -4837,7 +4837,7 @@ export const gsaCharactersTh = [
         "slot": "อัลติเมท",
         "slotEn": "Ultimate",
         "unlockStar": 2,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr045_4.webp",
         "type": "ทันที",
         "mainStat": null,
         "gcd": null,
@@ -5887,7 +5887,7 @@ export const gsaCharactersTh = [
         "slot": "โจมตีปกติ",
         "slotEn": "Basic Attack",
         "unlockStar": 0,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr048_1.webp",
         "type": "ทันที",
         "mainStat": null,
         "gcd": "10s",
@@ -5903,7 +5903,7 @@ export const gsaCharactersTh = [
         "slot": "พรสวรรค์",
         "slotEn": "Talent",
         "unlockStar": 0,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr048_2.webp",
         "type": "ทันที",
         "mainStat": null,
         "gcd": null,
@@ -5925,7 +5925,7 @@ export const gsaCharactersTh = [
         "slot": "อัตโนมัติ",
         "slotEn": "Auto",
         "unlockStar": 1,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr048_3.webp",
         "type": "ทันที",
         "mainStat": null,
         "gcd": null,
@@ -5947,7 +5947,7 @@ export const gsaCharactersTh = [
         "slot": "พาสซีฟ 1",
         "slotEn": "Passive 1",
         "unlockStar": 4,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr048_5.webp",
         "type": "พาสซีฟ",
         "mainStat": null,
         "gcd": null,
@@ -5967,7 +5967,7 @@ export const gsaCharactersTh = [
         "slot": "พาสซีฟ 2",
         "slotEn": "Passive 2",
         "unlockStar": 6,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr048_6.webp",
         "type": "พาสซีฟ",
         "mainStat": null,
         "gcd": null,
@@ -5987,7 +5987,7 @@ export const gsaCharactersTh = [
         "slot": "อัลติเมท",
         "slotEn": "Ultimate",
         "unlockStar": 2,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr048_4.webp",
         "type": "ทันที",
         "mainStat": null,
         "gcd": null,
@@ -6272,7 +6272,7 @@ export const gsaCharactersTh = [
         "slot": "โจมตีปกติ",
         "slotEn": "Basic Attack",
         "unlockStar": 0,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr049_1.webp",
         "type": "ทันที",
         "mainStat": null,
         "gcd": "10s",
@@ -6310,7 +6310,7 @@ export const gsaCharactersTh = [
         "slot": "อัตโนมัติ",
         "slotEn": "Auto",
         "unlockStar": 1,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr049_3.webp",
         "type": "ทันที",
         "mainStat": null,
         "gcd": null,
@@ -6330,7 +6330,7 @@ export const gsaCharactersTh = [
         "slot": "พาสซีฟ 1",
         "slotEn": "Passive 1",
         "unlockStar": 4,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr049_5.webp",
         "type": "พาสซีฟ",
         "mainStat": null,
         "gcd": null,
@@ -6350,7 +6350,7 @@ export const gsaCharactersTh = [
         "slot": "พาสซีฟ 2",
         "slotEn": "Passive 2",
         "unlockStar": 6,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr049_6.webp",
         "type": "พาสซีฟ",
         "mainStat": null,
         "gcd": null,
@@ -6370,7 +6370,7 @@ export const gsaCharactersTh = [
         "slot": "อัลติเมท",
         "slotEn": "Ultimate",
         "unlockStar": 2,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr049_4.webp",
         "type": "ทันที",
         "mainStat": null,
         "gcd": null,
@@ -7038,7 +7038,7 @@ export const gsaCharactersTh = [
         "slot": "โจมตีปกติ",
         "slotEn": "Basic Attack",
         "unlockStar": 0,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr051_1.webp",
         "type": "ทันที",
         "mainStat": null,
         "gcd": "10s",
@@ -7098,7 +7098,7 @@ export const gsaCharactersTh = [
         "slot": "พาสซีฟ 1",
         "slotEn": "Passive 1",
         "unlockStar": 4,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr051_5.webp",
         "type": "พาสซีฟ",
         "mainStat": null,
         "gcd": null,
@@ -7118,7 +7118,7 @@ export const gsaCharactersTh = [
         "slot": "พาสซีฟ 2",
         "slotEn": "Passive 2",
         "unlockStar": 6,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr051_6.webp",
         "type": "พาสซีฟ",
         "mainStat": null,
         "gcd": null,
@@ -7138,7 +7138,7 @@ export const gsaCharactersTh = [
         "slot": "อัลติเมท",
         "slotEn": "Ultimate",
         "unlockStar": 2,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr051_4.webp",
         "type": "ทันที",
         "mainStat": null,
         "gcd": null,
@@ -7422,7 +7422,7 @@ export const gsaCharactersTh = [
         "slot": "โจมตีปกติ",
         "slotEn": "Basic Attack",
         "unlockStar": 0,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr053_1.webp",
         "type": "ทันที",
         "mainStat": null,
         "gcd": "10s",
@@ -7460,7 +7460,7 @@ export const gsaCharactersTh = [
         "slot": "อัตโนมัติ",
         "slotEn": "Auto",
         "unlockStar": 1,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr053_3.webp",
         "type": "ทันที",
         "mainStat": null,
         "gcd": null,
@@ -7483,7 +7483,7 @@ export const gsaCharactersTh = [
         "slot": "พาสซีฟ 1",
         "slotEn": "Passive 1",
         "unlockStar": 4,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr053_5.webp",
         "type": "พาสซีฟ",
         "mainStat": null,
         "gcd": null,
@@ -7503,7 +7503,7 @@ export const gsaCharactersTh = [
         "slot": "พาสซีฟ 2",
         "slotEn": "Passive 2",
         "unlockStar": 6,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr053_6.webp",
         "type": "พาสซีฟ",
         "mainStat": null,
         "gcd": null,
@@ -7523,7 +7523,7 @@ export const gsaCharactersTh = [
         "slot": "อัลติเมท",
         "slotEn": "Ultimate",
         "unlockStar": 2,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr053_4.webp",
         "type": "ทันที",
         "mainStat": null,
         "gcd": null,
@@ -7808,7 +7808,7 @@ export const gsaCharactersTh = [
         "slot": "โจมตีปกติ",
         "slotEn": "Basic Attack",
         "unlockStar": 0,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr054_1.webp",
         "type": "ทันที",
         "mainStat": null,
         "gcd": "10s",
@@ -7824,7 +7824,7 @@ export const gsaCharactersTh = [
         "slot": "พรสวรรค์",
         "slotEn": "Talent",
         "unlockStar": 0,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr054_2.webp",
         "type": "ทันที",
         "mainStat": null,
         "gcd": null,
@@ -7846,7 +7846,7 @@ export const gsaCharactersTh = [
         "slot": "อัตโนมัติ",
         "slotEn": "Auto",
         "unlockStar": 1,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr054_3.webp",
         "type": "ทันที",
         "mainStat": null,
         "gcd": null,
@@ -7869,7 +7869,7 @@ export const gsaCharactersTh = [
         "slot": "พาสซีฟ 1",
         "slotEn": "Passive 1",
         "unlockStar": 4,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr054_5.webp",
         "type": "พาสซีฟ",
         "mainStat": null,
         "gcd": null,
@@ -7889,7 +7889,7 @@ export const gsaCharactersTh = [
         "slot": "พาสซีฟ 2",
         "slotEn": "Passive 2",
         "unlockStar": 6,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr054_6.webp",
         "type": "พาสซีฟ",
         "mainStat": null,
         "gcd": null,
@@ -7909,7 +7909,7 @@ export const gsaCharactersTh = [
         "slot": "อัลติเมท",
         "slotEn": "Ultimate",
         "unlockStar": 2,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr054_4.webp",
         "type": "ทันที",
         "mainStat": null,
         "gcd": null,
@@ -10076,7 +10076,7 @@ export const gsaCharactersTh = [
         "slot": "โจมตีปกติ",
         "slotEn": "Basic Attack",
         "unlockStar": 0,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr061_1.webp",
         "type": "ทันที",
         "mainStat": null,
         "gcd": "10s",
@@ -10092,7 +10092,7 @@ export const gsaCharactersTh = [
         "slot": "พรสวรรค์",
         "slotEn": "Talent",
         "unlockStar": 0,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr061_2.webp",
         "type": "ทันที",
         "mainStat": null,
         "gcd": null,
@@ -10114,7 +10114,7 @@ export const gsaCharactersTh = [
         "slot": "อัตโนมัติ",
         "slotEn": "Auto",
         "unlockStar": 1,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr061_3.webp",
         "type": "ทันที",
         "mainStat": null,
         "gcd": null,
@@ -10136,7 +10136,7 @@ export const gsaCharactersTh = [
         "slot": "พาสซีฟ 1",
         "slotEn": "Passive 1",
         "unlockStar": 4,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr061_5.webp",
         "type": "พาสซีฟ",
         "mainStat": null,
         "gcd": null,
@@ -10156,7 +10156,7 @@ export const gsaCharactersTh = [
         "slot": "พาสซีฟ 2",
         "slotEn": "Passive 2",
         "unlockStar": 6,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr061_6.webp",
         "type": "พาสซีฟ",
         "mainStat": null,
         "gcd": null,
@@ -10176,7 +10176,7 @@ export const gsaCharactersTh = [
         "slot": "อัลติเมท",
         "slotEn": "Ultimate",
         "unlockStar": 2,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr061_4.webp",
         "type": "ทันที",
         "mainStat": null,
         "gcd": null,
@@ -10834,7 +10834,7 @@ export const gsaCharactersTh = [
         "slot": "โจมตีปกติ",
         "slotEn": "Basic Attack",
         "unlockStar": 0,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr063_1.webp",
         "type": "ทันที",
         "mainStat": null,
         "gcd": "9s",
@@ -10872,7 +10872,7 @@ export const gsaCharactersTh = [
         "slot": "อัตโนมัติ",
         "slotEn": "Auto",
         "unlockStar": 1,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr063_3.webp",
         "type": "ทันที",
         "mainStat": null,
         "gcd": null,
@@ -10892,7 +10892,7 @@ export const gsaCharactersTh = [
         "slot": "พาสซีฟ 1",
         "slotEn": "Passive 1",
         "unlockStar": 4,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr063_5.webp",
         "type": "พาสซีฟ",
         "mainStat": null,
         "gcd": null,
@@ -10912,7 +10912,7 @@ export const gsaCharactersTh = [
         "slot": "พาสซีฟ 2",
         "slotEn": "Passive 2",
         "unlockStar": 6,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr063_6.webp",
         "type": "พาสซีฟ",
         "mainStat": null,
         "gcd": null,
@@ -10932,7 +10932,7 @@ export const gsaCharactersTh = [
         "slot": "อัลติเมท",
         "slotEn": "Ultimate",
         "unlockStar": 2,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr063_4.webp",
         "type": "ทันที",
         "mainStat": null,
         "gcd": null,
@@ -11603,7 +11603,7 @@ export const gsaCharactersTh = [
         "slot": "โจมตีปกติ",
         "slotEn": "Basic Attack",
         "unlockStar": 0,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr065_1.webp",
         "type": "ทันที",
         "mainStat": null,
         "gcd": "17s",
@@ -11619,7 +11619,7 @@ export const gsaCharactersTh = [
         "slot": "พรสวรรค์",
         "slotEn": "Talent",
         "unlockStar": 0,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr065_2.webp",
         "type": "ทันที",
         "mainStat": null,
         "gcd": null,
@@ -11643,7 +11643,7 @@ export const gsaCharactersTh = [
         "slot": "อัตโนมัติ",
         "slotEn": "Auto",
         "unlockStar": 1,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr065_3.webp",
         "type": "ทันที",
         "mainStat": null,
         "gcd": null,
@@ -11665,7 +11665,7 @@ export const gsaCharactersTh = [
         "slot": "พาสซีฟ 1",
         "slotEn": "Passive 1",
         "unlockStar": 4,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr065_5.webp",
         "type": "พาสซีฟ",
         "mainStat": null,
         "gcd": null,
@@ -11687,7 +11687,7 @@ export const gsaCharactersTh = [
         "slot": "พาสซีฟ 2",
         "slotEn": "Passive 2",
         "unlockStar": 6,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr065_6.webp",
         "type": "พาสซีฟ",
         "mainStat": null,
         "gcd": null,
@@ -11707,7 +11707,7 @@ export const gsaCharactersTh = [
         "slot": "อัลติเมท",
         "slotEn": "Ultimate",
         "unlockStar": 2,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr065_4.webp",
         "type": "ทันที",
         "mainStat": null,
         "gcd": null,
@@ -11991,7 +11991,7 @@ export const gsaCharactersTh = [
         "slot": "โจมตีปกติ",
         "slotEn": "Basic Attack",
         "unlockStar": 0,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr066_1.webp",
         "type": "ทันที",
         "mainStat": null,
         "gcd": "10s",
@@ -12007,7 +12007,7 @@ export const gsaCharactersTh = [
         "slot": "พรสวรรค์",
         "slotEn": "Talent",
         "unlockStar": 0,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr066_2.webp",
         "type": "ทันที",
         "mainStat": null,
         "gcd": null,
@@ -12029,7 +12029,7 @@ export const gsaCharactersTh = [
         "slot": "อัตโนมัติ",
         "slotEn": "Auto",
         "unlockStar": 1,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr066_3.webp",
         "type": "ทันที",
         "mainStat": null,
         "gcd": null,
@@ -12051,7 +12051,7 @@ export const gsaCharactersTh = [
         "slot": "พาสซีฟ 1",
         "slotEn": "Passive 1",
         "unlockStar": 4,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr066_5.webp",
         "type": "พาสซีฟ",
         "mainStat": null,
         "gcd": null,
@@ -12071,7 +12071,7 @@ export const gsaCharactersTh = [
         "slot": "พาสซีฟ 2",
         "slotEn": "Passive 2",
         "unlockStar": 6,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr066_6.webp",
         "type": "พาสซีฟ",
         "mainStat": null,
         "gcd": null,
@@ -12091,7 +12091,7 @@ export const gsaCharactersTh = [
         "slot": "อัลติเมท",
         "slotEn": "Ultimate",
         "unlockStar": 2,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr066_4.webp",
         "type": "ทันที",
         "mainStat": null,
         "gcd": null,
@@ -12743,7 +12743,7 @@ export const gsaCharactersTh = [
     "epithet": "กลิ่นหอมละมุน ระดมยิงด้วยนม",
     "sex": "เพศชาย",
     "inGacha": true,
-    "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/cr107_Icon_Texture_CB.webp",
+    "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/cr107_Icon_Texture_OFF.webp",
     "sortOrder": 107,
     "element": {
       "id": 2,
@@ -12768,7 +12768,7 @@ export const gsaCharactersTh = [
         "slot": "โจมตีปกติ",
         "slotEn": "Basic Attack",
         "unlockStar": 0,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr107_1.webp",
         "type": "ทันที",
         "mainStat": null,
         "gcd": "10s",
@@ -12784,7 +12784,7 @@ export const gsaCharactersTh = [
         "slot": "พรสวรรค์",
         "slotEn": "Talent",
         "unlockStar": 0,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr107_2.webp",
         "type": "ทันที",
         "mainStat": null,
         "gcd": null,
@@ -12806,7 +12806,7 @@ export const gsaCharactersTh = [
         "slot": "อัตโนมัติ",
         "slotEn": "Auto",
         "unlockStar": 1,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr107_3.webp",
         "type": "ทันที",
         "mainStat": null,
         "gcd": null,
@@ -12828,7 +12828,7 @@ export const gsaCharactersTh = [
         "slot": "พาสซีฟ 1",
         "slotEn": "Passive 1",
         "unlockStar": 4,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr107_5.webp",
         "type": "พาสซีฟ",
         "mainStat": null,
         "gcd": null,
@@ -12848,7 +12848,7 @@ export const gsaCharactersTh = [
         "slot": "พาสซีฟ 2",
         "slotEn": "Passive 2",
         "unlockStar": 6,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr107_6.webp",
         "type": "พาสซีฟ",
         "mainStat": null,
         "gcd": null,
@@ -12868,7 +12868,7 @@ export const gsaCharactersTh = [
         "slot": "อัลติเมท",
         "slotEn": "Ultimate",
         "unlockStar": 2,
-        "icon": null,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr107_4.webp",
         "type": "ทันที",
         "mainStat": null,
         "gcd": null,
@@ -12910,8 +12910,394 @@ export const gsaCharactersTh = [
       "manaAmpPer": "0",
       "hpRcvPer": "1000"
     }
-  }
-];
+  },
+  {
+    "id": "133006000",
+    "tierStats": [
+      {
+        "tier": 1,
+        "hp": 8533,
+        "atk": 156
+      },
+      {
+        "tier": 2,
+        "hp": 12759,
+        "atk": 230
+      },
+      {
+        "tier": 3,
+        "hp": 25600,
+        "atk": 468
+      },
+      {
+        "tier": 4,
+        "hp": 38360,
+        "atk": 699
+      },
+      {
+        "tier": 5,
+        "hp": 51201,
+        "atk": 937
+      },
+      {
+        "tier": 6,
+        "hp": 68268,
+        "atk": 1249
+      },
+      {
+        "tier": 7,
+        "hp": 85336,
+        "atk": 1562
+      },
+      {
+        "tier": 8,
+        "hp": 102403,
+        "atk": 1874
+      },
+      {
+        "tier": 9,
+        "hp": 122883,
+        "atk": 2246
+      },
+      {
+        "tier": 10,
+        "hp": 147509,
+        "atk": 2700
+      }
+    ],
+    "growth": {
+      "rate": 1.5,
+      "hp": [
+        115.91,
+        231.83,
+        579.57,
+        927.32,
+        1275.06,
+        1622.81
+      ],
+      "atk": [
+        1.48,
+        2.97,
+        7.44,
+        11.9,
+        16.36,
+        20.83
+      ]
+    },
+    "affection": [
+      {
+        "label": "ต้านทานธาตุลม%",
+        "value": 50
+      },
+      {
+        "label": "ต้านทานธาตุลม%",
+        "value": 50
+      },
+      {
+        "label": "ต้านทานธาตุลม%",
+        "value": 50
+      },
+      {
+        "label": "ต้านทานธาตุลม%",
+        "value": 50
+      },
+      {
+        "label": "ต้านทานธาตุลม%",
+        "value": 50
+      },
+      {
+        "label": "ต้านทานธาตุลม%",
+        "value": 50
+      },
+      {
+        "label": "ต้านทานธาตุลม%",
+        "value": 100
+      },
+      {
+        "label": "ต้านทานธาตุลม%",
+        "value": 100
+      },
+      {
+        "label": "ต้านทานธาตุลม%",
+        "value": 100
+      },
+      {
+        "label": "ต้านทานธาตุลม%",
+        "value": 200
+      }
+    ],
+    "gear": [
+      {
+        "slot": "อุปกรณ์สวมมือ",
+        "name": "ถุงมือใยไหม EX",
+        "stats": [
+          {
+            "label": "พลังโจมตี",
+            "base": 44,
+            "pct": false
+          },
+          {
+            "label": "火屬性攻擊",
+            "base": 1000,
+            "pct": true
+          },
+          {
+            "label": "สปีดโจมตี",
+            "base": 182,
+            "pct": false
+          },
+          {
+            "label": "แม่นยำ",
+            "base": 58,
+            "pct": false
+          }
+        ]
+      },
+      {
+        "slot": "อาวุธ",
+        "name": "ปลอกแขนเอสเปอร์ไฟ EX",
+        "stats": [
+          {
+            "label": "พลังโจมตี",
+            "base": 44,
+            "pct": false
+          },
+          {
+            "label": "火屬性攻擊",
+            "base": 1000,
+            "pct": true
+          },
+          {
+            "label": "บล็อค",
+            "base": 107,
+            "pct": false
+          },
+          {
+            "label": "ลดดาเมจบล็อค",
+            "base": 96,
+            "pct": false
+          }
+        ]
+      },
+      {
+        "slot": "ส่วนเท้า",
+        "name": "รองเท้าใยไหม EX",
+        "stats": [
+          {
+            "label": "พลังโจมตี",
+            "base": 44,
+            "pct": false
+          },
+          {
+            "label": "火屬性攻擊",
+            "base": 1000,
+            "pct": true
+          },
+          {
+            "label": "เพิ่มเอฟเฟกต์การรักษาที่ได้รับ",
+            "base": 188,
+            "pct": false
+          },
+          {
+            "label": "หลบหลีกโจมตีคริ",
+            "base": 80,
+            "pct": false
+          }
+        ]
+      },
+      {
+        "slot": "เครื่องประดับ",
+        "name": "ลูกประคำสงบจิต",
+        "stats": [
+          {
+            "label": "พลังโจมตี",
+            "base": 77,
+            "pct": false
+          }
+        ]
+      }
+    ],
+    "model": "cr060",
+    "slug": "danxin",
+    "name": "Danxin",
+    "nameEn": "Danxin",
+    "title": "มังกรครามรุ่นที่สอง",
+    "epithet": "เปลวไฟสีคราม เบี่ยงเบนประเด็นแนบเนียน",
+    "sex": "เพศชาย",
+    "inGacha": false,
+    "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/cr060_Icon_Texture.webp",
+    "sortOrder": 60,
+    "element": {
+      "id": 1,
+      "name": "ไฟ",
+      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/battleelement_1.webp"
+    },
+    "job": {
+      "id": 1,
+      "name": "ป้องกัน",
+      "color": "#957C7A",
+      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/guard_1.webp"
+    },
+    "attackType": {
+      "id": 1,
+      "name": "物理",
+      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Attributes_02.webp"
+    },
+    "skills": [
+      {
+        "id": "150006000",
+        "name": "แส้ไหมพัน",
+        "slot": "โจมตีปกติ",
+        "slotEn": "Basic Attack",
+        "unlockStar": 0,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr060_1.webp",
+        "type": "ทันที",
+        "mainStat": null,
+        "gcd": "10s",
+        "desc": "สร้างดาเมจกายภาพ 83% แก่เป้าหมาย",
+        "detail": null,
+        "cooldown": "0s",
+        "cost": null,
+        "statuses": []
+      },
+      {
+        "id": "150006010",
+        "name": "ผนังเพลิงมังกร",
+        "slot": "พรสวรรค์",
+        "slotEn": "Talent",
+        "unlockStar": 0,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr060_2.webp",
+        "type": "ทันที",
+        "mainStat": null,
+        "gcd": null,
+        "desc": "เพิ่มโล่ 2145% (10วิ) แก่ตัวเอง",
+        "detail": null,
+        "cooldown": "10s",
+        "cost": 1,
+        "statuses": [
+          "มึนงง"
+        ],
+        "awakened": {
+          "desc": "เพิ่มโล่ 3000% (10วิ) แก่ตัวเอง",
+          "detail": null
+        }
+      },
+      {
+        "id": "150006020",
+        "name": "ทลายสวนกลับสามครั้ง",
+        "slot": "อัตโนมัติ",
+        "slotEn": "Auto",
+        "unlockStar": 1,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr060_3.webp",
+        "type": "ทันที",
+        "mainStat": null,
+        "gcd": null,
+        "desc": "สร้างดาเมจกายภาพ 100% สามช่วงแก่เป้าหมาย\nเมื่อโจมตีครั้งสุดท้ายแม่นยำ โอกาสกลางที่จะให้ลดดาเมจพลังงาน10% (8วิ)",
+        "detail": null,
+        "cooldown": "6s",
+        "cost": null,
+        "statuses": [
+          "รักษา",
+          "ลดดาเมจที่ได้รับ"
+        ],
+        "awakened": {
+          "desc": "สร้างดาเมจกายภาพ 135% สามช่วงแก่เป้าหมาย\nเมื่อโจมตีครั้งสุดท้ายแม่นยำ โอกาสกลางที่จะให้ลดดาเมจพลังงาน20% (8วิ)",
+          "detail": null
+        }
+      },
+      {
+        "id": "150006030",
+        "name": "สัญชาตญาณเร่าร้อน",
+        "slot": "พาสซีฟ 1",
+        "slotEn": "Passive 1",
+        "unlockStar": 4,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr060_5.webp",
+        "type": "พาสซีฟ",
+        "mainStat": null,
+        "gcd": null,
+        "desc": "เมื่อตัวเองได้รับโล่ มอบเอฟเฟกต์ขยายแก่ตัวเอง: \"เมื่อได้รับบาดเจ็บ โอกาสต่ำทำให้เป้าหมายสุ่มตกอยู่ในสถานะแผดเผาS (6วิ)\" (6วิ)\nเอฟเฟกต์ขยายทุกครั้งที่ทริกเกอร์ ต้องเว้นช่วงอย่างน้อย 6 วิ",
+        "detail": null,
+        "cooldown": "0s",
+        "cost": null,
+        "statuses": [],
+        "awakened": {
+          "desc": "เมื่อตัวเองได้รับโล่ มอบเอฟเฟกต์ขยายแก่ตัวเอง: \"เมื่อได้รับบาดเจ็บ โอกาสต่ำทำให้เป้าหมายสุ่มตกอยู่ในสถานะแผดเผาS (6วิ)\" (6วิ)\nเอฟเฟกต์ขยายทุกครั้งที่ทริกเกอร์ ต้องเว้นช่วงอย่างน้อย 6 วิ\nมอบแก่สมาชิกทั้งหมดเพิ่มบล็อก8%",
+          "detail": null
+        }
+      },
+      {
+        "id": "150006050",
+        "name": "ไหมพันคลายแรง",
+        "slot": "พาสซีฟ 2",
+        "slotEn": "Passive 2",
+        "unlockStar": 6,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr060_6.webp",
+        "type": "พาสซีฟ",
+        "mainStat": null,
+        "gcd": null,
+        "desc": "มอบแก่ตัวเองลดดาเมจพลังงานที่ได้รับ 10%",
+        "detail": null,
+        "cooldown": "0s",
+        "cost": null,
+        "statuses": [],
+        "awakened": {
+          "desc": "มอบแก่สมาชิกทั้งหมดลดดาเมจพลังงานที่ได้รับ10%\nในระบบ PVP มอบแก่ตัวเองเพิ่มเอฟเฟกต์การรักษาที่ได้รับ13%",
+          "detail": null
+        }
+      },
+      {
+        "id": "150006041",
+        "name": "มังกรครามสะท้านพิภพ",
+        "slot": "อัลติเมท",
+        "slotEn": "Ultimate",
+        "unlockStar": 2,
+        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr060_4.webp",
+        "type": "ทันที",
+        "mainStat": null,
+        "gcd": null,
+        "desc": "เข้าสู่สถานะปลุกพลัง มอบแก่ตัวเองลดดาเมจพื้นฐานที่ได้รับ 40% (24วิ)\nสร้างดาเมจพลังงาน93% สี่ช่วงแก่เป้าหมายสูงสุดสองรายในขอบเขตด้านหน้า\nมอบเพิ่มบล็อก10% แก่ตัวเอง (12วิ)\nมอบเพิ่มลดดาเมจบล็อค20% แก่ตัวเอง (12วิ)",
+        "detail": null,
+        "cooldown": "24s",
+        "cost": 3,
+        "statuses": []
+      }
+    ],
+    "profile": {
+      "title": "功夫美少女",
+      "birthday": "7 / 23",
+      "age": "22",
+      "height": "165",
+      "weight": "51",
+      "interest": "ประลองยุทธ์, ของว่างรสเผ็ด",
+      "personality": "ร่าเริงชอบเอาชนะ, พอโดนยั่วยุก็รับศึกทันที",
+      "resumeParas": [
+        "自幼時隨父親在各國修行，並精進家傳的纏絲拳法。",
+        "17歲回到托比亞後，年少氣盛的丹芯便常私下去打地下拳賽。龍應天視察拳賽，見丹芯拳術了得，遂延攬其帶藝投師入青龍武術館。",
+        "進入青龍幫後，融合龍應天指導的拳術改稱為青龍纏絲拳。",
+        "由於個性活潑又精通武術，也被指派為武鬥會司儀。",
+        "父親目前下落不明，應該是又出國修行了。"
+      ]
+    },
+    "stats": {
+      "atkRange": "120",
+      "normalAttackGCD": "10000",
+      "critPer": "1000",
+      "critRstPer": "0",
+      "critAmpPer": "5000",
+      "critDmgRdcPer": "0",
+      "hitPer": "8500",
+      "ddgPer": "0",
+      "blkPer": "2500",
+      "blkPenPer": "1500",
+      "blkRdcPer": "2000",
+      "healCritPer": "1000",
+      "healCritAmpPer": "5000",
+      "atkHastePer": "0",
+      "cdHastePer": "0",
+      "manaAmpPer": "0",
+      "hpRcvPer": "1000"
+    }
+  }];
 
 export function getGsaCharacterTh(slug) {
   return gsaCharactersTh.find(c => c.slug === slug);

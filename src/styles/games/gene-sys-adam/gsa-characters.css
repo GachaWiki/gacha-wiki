@@ -907,3 +907,62 @@
   height: 24px;
   object-fit: contain;
 }
+
+/* Status & buff tiles: the game's own status icons with name, kind chip and
+   an explanation line where official text exists */
+.gsa-status-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.gsa-status-tile {
+  width: 250px;
+  padding: 10px 12px;
+  border: 1px solid var(--gsa-border);
+  border-radius: 10px;
+  background: var(--gsa-bg-secondary);
+}
+
+.gsa-status-head {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.gsa-status-icon {
+  width: 28px;
+  height: 28px;
+  display: block;
+  border-radius: 6px;
+  border: 1px solid var(--gsa-border);
+  background: #171114;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
+.gsa-status-icon-ph {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--gsa-text-dim);
+}
+
+.gsa-status-name {
+  font-size: 0.85rem;
+  color: var(--gsa-text);
+}
+
+.gsa-status-kind-debuff {
+  background: var(--gsa-gold);
+  color: #1c1610;
+}
+
+.gsa-status-desc {
+  margin: 8px 0 0;
+  font-size: 0.76rem;
+  line-height: 1.5;
+  color: var(--gsa-text-dim);
+}

@@ -50,17 +50,18 @@ const placementOf = slug => GSA_TIER_PLACEMENTS[slug] || { tier: 'C', rarity: nu
 // 依稀有度分頁的職業分區（與 gsaTierTabs 同邏輯，但角色名稱使用官方繁中）。
 const tierTabs = ['SSR', 'SR'].map(rarity => ({
   rarity,
-  jobs: GSA_JOB_SECTIONS.concat([{ job: 'Unclassified', zh: '未分類' }]).map(({ job, zh, icon }) => ({
-    job,
-    zh,
-    en: job,
-    icon,
+  jobs: GSA_JOB_SECTIONS.concat([{ job: 'Unclassified', zh: '未分類' }]).map(section => ({
+    job: section.job,
+    zh: section.zh,
+    en: section.job,
+    icon: section.icon,
+    noteZh: section.noteZh,
     tiers: GSA_TIERS.map(({ tier, color }) => ({
       tier,
       color,
       characters: gsaCharactersZh
         .filter(c => isReleased(c)
-          && (c.job ? c.job.name === zh : zh === '未分類')
+          && (c.job ? c.job.name === section.zh : section.zh === '未分類')
           && (placementOf(c.slug).rarity || 'SSR') === rarity
           && placementOf(c.slug).tier === tier)
         .map(c => ({ ...c, placement: placementOf(c.slug) }))
@@ -147,6 +148,7 @@ const total = tierTabs.reduce((n, t) => n + tabCount(t.rarity), 0);
                 {group.tiers.reduce((n, t) => n + t.characters.length, 0)} 名角色
               </span>
             </div>
+            {group.noteZh && <p class="gsa-tier-section-note">{group.noteZh}</p>}
             <div class="gsa-tier-grid">
               {group.tiers.map(row => (
                 <div class="gsa-tier-row">
@@ -161,11 +163,16 @@ const total = tierTabs.reduce((n, t) => n + tabCount(t.rarity), 0);
                         ) : (
                           <span class="gsa-tier-thumb gsa-monogram">{c.name?.[0]}</span>
                         )}
-                        {gsaRarityBadge(c.placement.rarity) ? (
-                          <img class="gsa-rarity-badge gsa-tier-thumb-badge" src={gsaRarityBadge(c.placement.rarity)} alt={c.placement.rarity} width="50" height="32" loading="lazy" />
-                        ) : (
-                          <span class={`gsa-tier-rarity gsa-tier-rarity-${(c.placement.rarity || 'sr').toLowerCase()}`}>{c.placement.rarity}</span>
-                        )}
+                        <span class="gsa-tier-badges">
+                          {gsaRarityBadge(c.placement.rarity) ? (
+                            <img class="gsa-rarity-badge gsa-tier-thumb-badge" src={gsaRarityBadge(c.placement.rarity)} alt={c.placement.rarity} width="50" height="32" loading="lazy" />
+                          ) : (
+                            <span class={`gsa-tier-rarity gsa-tier-rarity-${(c.placement.rarity || 'sr').toLowerCase()}`}>{c.placement.rarity}</span>
+                          )}
+                          {c.element && (
+                            <img class="gsa-tier-elem" src={c.element.icon} alt={c.element.name} title={c.element.name} width="18" height="18" loading="lazy" />
+                          )}
+                        </span>
                         <span class="gsa-tier-name-label">{fullZhName(c)}</span>
                         {(() => { const pr = gsaPursuitRole(c.slug); return (
                           <span class={`gsa-tier-role gsa-tier-role-${pr.role}`}>{TIER_ROLE_ZH[pr.role]}</span>
