@@ -61,6 +61,13 @@ export function gsaRarityBadge(rarity) {
 // best-in-class attribute (colors the badge gold and pins a shortTitle chip
 // on the card). Keep these for verdicts worth a second glance, not everyone.
 export const GSA_TIER_NOTES = {
+  'ruby': {
+    type: 'info',
+    variant: 'carry',
+    shortTitle: 'Single-Target Queen',
+    title: 'Very strong single target.',
+    text: 'Every skill she has hits one target: her ultimate is three hits of 300% under an Awakening state with Electrocute Hit Rate Up 30%, and her Talent Skill is three hits of 93% that lands Electrocute S. She also keeps Electrocute up so Qing Yin and Li Mu can chain Overload pursuits. On top of that she is the cheapest SSR to actually max: duplicates from a Mission and her Exclusive Weapon is obtainable.',
+  },
   'komachi-sayaka': {
     type: 'info',
     variant: 'carry',
@@ -142,7 +149,7 @@ export const GSA_ELEMENT_SECTIONS = Object.entries(GSA_ELEMENT_MATCHUPS)
     chain: GSA_PURSUIT_CHAINS[name],
   }));
 
-export const GSA_TIER_UPDATED = 'October 13, 2026';
+export const GSA_TIER_UPDATED = 'October 17, 2026';
 
 // Early-game callout rendered above the views. The tiers rate end-state
 // power; this box explains why low placements still carry your account early.
@@ -204,7 +211,7 @@ export const GSA_TIER_PLACEMENTS = {
   'rachel': { tier: 'A', rarity: 'SSR', reason: 'Utility Sniper: her Auto Skill prioritizes furthest targets and Interrupts their skills, the Ultimate is a straight-line strike that triggers a Sanction L Pursuit on targets with the Judgment status, and kills inflict Damage Decrease 15% on enemy Sniper and Breaker Type targets.' },
   'katya': { tier: 'A', rarity: 'SR', reason: 'Freeze support: multi-hit forward-area attacks that trigger Ice Break Pursuits on Frozen targets, plus ACC Down and Water ATK Up self-buffs. Wants Freeze Initiators.' },
   'lin-lin': { tier: 'A', rarity: 'SSR', reason: 'Fire debuffer and clean-up: Fire Res Down 8%, Burn on her Auto Skill, Crit Chance Down, and everything aims at the lowest HP target. Mops up for Fire Type teams.' },
-  'ruby': { tier: 'A', rarity: 'SSR', reason: 'Wild card: 900% combined damage and an Ultimate with Electrocute Hit Rate Up 30%, but her ATK scaling could not be verified from the tables. Promising, unproven. The cheap SSR: Mission duplicates and an obtainable Exclusive Weapon make her the easiest premium unit to actually build.' },
+  'ruby': { tier: 'SS', rarity: 'SSR', reason: 'Very strong single-target damage: every skill she has fires at one target, capped by a three-hit 900% Ultimate under an Awakening state with Electrocute Hit Rate Up 30%, a 279% three-hit Talent Skill that lands Electrocute S, and self-buffs (Attack Up 10%, Wind ATK Up 7%). She also keeps Electrocute up for Qing Yin and Li Mu Overload teams. The cheapest premium build in the game: Mission duplicates and an obtainable Exclusive Weapon make her the easiest SSR to fully max.' },
   'theodore': { tier: 'B', rarity: 'SR', reason: 'The protagonist starter: functional Fire Res Down and a serviceable eight-hit Ultimate, but every limited unit outclasses him. He is free, be kind. Early on he is a core pick anyway: his Exclusive Weapon is obtainable and SR duplicates come quickly.' },
   'denice': { tier: 'B', rarity: 'SR', reason: 'A fifteen-hit Ultimate sounds fun until you see Random targeting. The Petrify synergy on her Talent Skill is real, the base multipliers are not.' },
   'ruo-lan': { tier: 'B', rarity: 'SSR', reason: 'All value is locked behind Earth Type allies: Earth ATK Up 20%, Shields and damage triggers for Earth Type teams only. For every other element she is a plain attacker.' },
