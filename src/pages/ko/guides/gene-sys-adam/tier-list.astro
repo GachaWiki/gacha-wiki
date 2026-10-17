@@ -1,0 +1,13 @@
+---
+// Gene-Sys: Adam ko tier list: thin wrapper over the shared I18nTierList
+// body (data from tier-list.js; shell labels inside the component).
+import GsaI18nLayout from '../../../../layouts/gene-sys-adam/GsaI18nLayout.astro';
+import I18nTierList from '../../../../components/gene-sys-adam/i18n/I18nTierList.astro';
+import { GSA_KO } from '../../../../data/gene-sys-adam/ko/ui.js';
+import { gsaCharactersKo } from '../../../../data/gene-sys-adam/ko/characters.js';
+const ui = GSA_KO;
+---
+
+<GsaI18nLayout ui={ui} title="티어 리스트" gameTitle="티어 리스트" breadcrumbItems={[{ name: ui.gameName, href: ui.baseUrl }, { name: "티어 리스트" }]}>
+  <I18nTierList locale="ko" characters={gsaCharactersKo} />
+</GsaI18nLayout>

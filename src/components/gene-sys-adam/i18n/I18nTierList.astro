@@ -1,0 +1,347 @@
+---
+// Shared Gene-Sys: Adam tier list body for every locale. All content comes
+// from tier-list.js (placements, notes, element overrides, pairs, pursuit
+// chains) so an EN-side data edit propagates to every language automatically;
+// only the shell strings live in the LABELS dict below (EN fallback for
+// anything a locale has not translated yet). Pages wrap this in their own
+// layout and pass the locale roster. zh-TW keeps its bespoke page (rarity
+// tabs + full zh boxes) until it is migrated onto this component.
+import { GSA_TIER_VIEWS, gsaTierSsrCount, GSA_TIER_UPDATED, GSA_BEGINNER_NOTE, GSA_PAIRS_NOTE, GSA_PURSUIT_NOTE, GSA_TIER_PLACEMENTS, gsaRarityBadge, GSA_ELEMENT_SECTIONS, gsaFullDisplayName, GSA_TIER_NOTES } from '../../../data/gene-sys-adam/tier-list.js';
+import { gsaPursuitRole } from '../../../data/gene-sys-adam/pursuit-roles.js';
+import GSAElementCard from '../GSAElementCard.astro';
+import '../../../styles/games/gene-sys-adam/gsa-common.css';
+import '../../../styles/games/gene-sys-adam/gsa-tier.css';
+
+const { locale, characters } = Astro.props;
+const base = locale === 'en' ? '' : `/${locale}`;
+
+// Shell strings per locale; missing keys fall back to EN. Long editorial
+// bodies (beginner intro, pursuit copy, pair notes) stay EN until each
+// locale fills them in; structure always comes from the shared data.
+const LABELS = {
+  en: {
+    view: { job: 'By Combat Style', element: 'By Element' },
+    roles: { trigger: 'Pursuit Finisher', enabler: 'Pursuit Initiator', both: 'Initiator + Finisher', none: 'No Pursuit Role' },
+    count: n => `${n} characters`,
+    beginner: GSA_BEGINNER_NOTE,
+    pairs: GSA_PAIRS_NOTE,
+    pursuit: GSA_PURSUIT_NOTE,
+  },
+  ja: {
+    view: { job: '職業別', element: '属性別' },
+    roles: { trigger: '追撃フィニッシャー', enabler: '追撃イニシエーター', both: 'イニシエーター＋フィニッシャー', none: '追撃役なし' },
+    count: n => `${n} 体`,
+    beginner: {
+      title: '序盤の育成優先度',
+      intro: GSA_BEGINNER_NOTE.intro,
+      pickNotes: GSA_BEGINNER_NOTE.picks.reduce((m, p) => ({ ...m, [p.slug]: p.note }), {}),
+      lastSlot: GSA_BEGINNER_NOTE.lastSlot,
+    },
+    pairs: {
+      title: 'おすすめペア',
+      intro: GSA_PAIRS_NOTE.intro,
+      entries: {
+        'andou-kana': { name: '氷破ペア' },
+        'belle-clumsy-cowgirl': { name: 'アースコア' },
+        'li-mu': { name: '風クリティカルコア' },
+        jessica: { name: '万能枠' },
+      },
+    },
+    pursuit: GSA_PURSUIT_NOTE,
+  },
+  ko: {
+    view: { job: '직업별', element: '속성별' },
+    roles: { trigger: '추격 마무리', enabler: '추격 시작', both: '시작 + 마무리', none: '추격 역할 없음' },
+    count: n => `${n}명`,
+    beginner: {
+      title: '초반 육성 우선순위',
+      intro: GSA_BEGINNER_NOTE.intro,
+      pickNotes: GSA_BEGINNER_NOTE.picks.reduce((m, p) => ({ ...m, [p.slug]: p.note }), {}),
+      lastSlot: GSA_BEGINNER_NOTE.lastSlot,
+    },
+    pairs: {
+      title: '추천 조합',
+      intro: GSA_PAIRS_NOTE.intro,
+      entries: {
+        'andou-kana': { name: '빙결 파괴 콤비' },
+        'belle-clumsy-cowgirl': { name: '대지 코어' },
+        'li-mu': { name: '바람 치명타 코어' },
+        jessica: { name: '범용 픽' },
+      },
+    },
+    pursuit: GSA_PURSUIT_NOTE,
+  },
+  th: {
+    view: { job: 'ตามคลาส', element: 'ตามธาตุ' },
+    roles: { trigger: 'ผู้ปิดฉากไล่ตาม', enabler: 'ผู้เริ่มไล่ตาม', both: 'เริ่ม + ปิดฉาก', none: 'ไม่มีบทบาทไล่ตาม' },
+    count: n => `${n} ตัว`,
+    beginner: {
+      title: 'ลำดับการเลี้ยงช่วงต้นเกม',
+      intro: GSA_BEGINNER_NOTE.intro,
+      pickNotes: GSA_BEGINNER_NOTE.picks.reduce((m, p) => ({ ...m, [p.slug]: p.note }), {}),
+      lastSlot: GSA_BEGINNER_NOTE.lastSlot,
+    },
+    pairs: {
+      title: 'คู่แนะนำ',
+      intro: GSA_PAIRS_NOTE.intro,
+      entries: {
+        'andou-kana': { name: 'คู่ทำลายน้ำแข็ง' },
+        'belle-clumsy-cowgirl': { name: 'แกนทีมดิน' },
+        'li-mu': { name: 'แกนคริตลม' },
+        jessica: { name: 'ตัวเลือกสากล' },
+      },
+    },
+    pursuit: GSA_PURSUIT_NOTE,
+  },
+  vi: {
+    view: { job: 'Theo hệ đánh', element: 'Theo nguyên tố' },
+    roles: { trigger: 'Người kết thúc truy kích', enabler: 'Ngợi mở truy kích', both: 'Mở + kết thúc', none: 'Không có vai truy kích' },
+    count: n => `${n} nhân vật`,
+    beginner: {
+      title: 'Ưu tiên nuôi đầu game',
+      intro: GSA_BEGINNER_NOTE.intro,
+      pickNotes: GSA_BEGINNER_NOTE.picks.reduce((m, p) => ({ ...m, [p.slug]: p.note }), {}),
+      lastSlot: GSA_BEGINNER_NOTE.lastSlot,
+    },
+    pairs: {
+      title: 'Cặp đôi đề xuất',
+      intro: GSA_PAIRS_NOTE.intro,
+      entries: {
+        'andou-kana': { name: 'Cặp Phá Băng' },
+        'belle-clumsy-cowgirl': { name: 'Lõi Đất' },
+        'li-mu': { name: 'Lõi bạo kích Gió' },
+        jessica: { name: 'Lựa chọn đa dụng' },
+      },
+    },
+    pursuit: GSA_PURSUIT_NOTE,
+  },
+  'zh-cn': {
+    view: { job: '按职业', element: '按属性' },
+    roles: { trigger: '追击终结者', enabler: '追击启动者', both: '启动 + 终结', none: '无追击定位' },
+    count: n => `${n} 名角色`,
+    beginner: {
+      title: '前期培养重点',
+      intro: '排行榜评估的是后期战力，但游戏进度仰赖重复角色：阶级系统与重复取得次数绑定，角色无法升阶到超过自己持有的重复数量。SR 角色更容易抽到、也更容易叠出重复，是升阶与练满成本最低的选择，因此投资得当的 SR 反而能撑起你前中期的账号。',
+      pickNotes: {
+        theodore: '武器可取得，SR 重复角色累积快',
+        adele: '武器可取得，SR 重复角色累积快',
+        belle: '武器可取得，SR 重复角色累积快',
+        ruby: 'SSR：任务可获得重复角色，武器可取得',
+      },
+      lastSlot: { name: '最后一个位置', note: '选择重复数最高的 SSR，或从任务中取得大量重复的 SR，以输出角色优先。' },
+    },
+    pairs: {
+      title: '推荐组合',
+      intro: '互相搭配的角色组合：先决定组合，再围绕它补齐队伍。',
+      entries: {
+        'andou-kana': { name: '冰破组合', note: '加奈施加冻结，咲香将每个冻结目标转为冰破追击伤害。' },
+        'belle-clumsy-cowgirl': { name: '大地核心', note: '千鹤坦住前线并施加石化，若兰提升大地属性攻击，牛仔贝儿粉碎带状态的目标。' },
+        'li-mu': { name: '风属性暴击核心', note: '李沐与爱蜜莉提供暴击伤害与暴击团队增益。' },
+        jessica: { name: '通用百搭', note: '洁西卡与黑泽诗音适合大多数队伍，但游戏之后可能推出更适合其他属性类型的角色。' },
+      },
+    },
+    pursuit: GSA_PURSUIT_NOTE,
+  },
+};
+
+const L = LABELS[locale] ?? LABELS.en;
+const bySlug = Object.fromEntries(characters.map(c => [c.slug, c]));
+const charUrl = slug => `${base}/guides/gene-sys-adam/characters/${slug}/`;
+// roster-aware display name: append the title when two units share a name
+// (Belle / Belle Cowgirl), same rule as gsaFullDisplayName on the EN page
+const nameCounts = characters.reduce((m, c) => ({ ...m, [c.name]: (m[c.name] || 0) + 1 }), {});
+const displayName = c => c.title && nameCounts[c.name] > 1 ? `${c.name} (${c.title})` : c.name;
+---
+
+<section>
+  <div class="gsa-beginner-box">
+    <div class="gsa-beginner-head">
+      <div class="gsa-beginner-head-copy">
+        <h2 class="gsa-beginner-title">{L.beginner.title}</h2>
+        <p class="gsa-beginner-intro">{L.beginner.intro}</p>
+      </div>
+      <div class="gsa-elem-side">
+        <GSAElementCard />
+      </div>
+    </div>
+    <div class="gsa-beginner-team">
+      {GSA_BEGINNER_NOTE.picks.map(pick => {
+        const c = bySlug[pick.slug];
+        const rarity = (GSA_TIER_PLACEMENTS[pick.slug]?.rarity || 'sr').toLowerCase();
+        const note = L.beginner.pickNotes?.[pick.slug] ?? pick.note;
+        return (
+          <a class="gsa-beginner-card" href={charUrl(pick.slug)}>
+            {c?.icon
+              ? <img class="gsa-beginner-thumb" src={c.icon} alt={c.name} width="64" height="64" loading="lazy" />
+              : <span class="gsa-beginner-thumb gsa-monogram">{c?.name?.[0]}</span>}
+            <span class="gsa-beginner-name">{c?.name ?? pick.slug}</span>
+            {gsaRarityBadge(GSA_TIER_PLACEMENTS[pick.slug]?.rarity) ? (
+              <img class="gsa-rarity-badge" src={gsaRarityBadge(GSA_TIER_PLACEMENTS[pick.slug].rarity)} alt={GSA_TIER_PLACEMENTS[pick.slug].rarity} width="50" height="32" loading="lazy" />
+            ) : (
+              <span class={`gsa-tier-rarity gsa-tier-rarity-${rarity}`}>{GSA_TIER_PLACEMENTS[pick.slug]?.rarity ?? 'SR'}</span>
+            )}
+            <span class="gsa-beginner-note">{note}</span>
+          </a>
+        );
+      })}
+      <div class="gsa-beginner-card gsa-beginner-card-last">
+        <span class="gsa-beginner-thumb gsa-monogram">?</span>
+        <span class="gsa-beginner-name">{L.beginner.lastSlot.name}</span>
+        <span class="gsa-beginner-note">{L.beginner.lastSlot.note}</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="gsa-beginner-box gsa-pairs-box">
+    <h2 class="gsa-beginner-title">{L.pairs.title}</h2>
+    <p class="gsa-beginner-intro">{L.pairs.intro}</p>
+    <div class="gsa-pairs-grid">
+      {GSA_PAIRS_NOTE.pairs.map(pair => {
+        // the universal pair is keyed by its first member so every locale
+        // dict addresses pairs the same way
+        const key = pair.members[0];
+        const loc = L.pairs.entries?.[key];
+        return (
+          <div class={`gsa-pairs-card${pair.universal ? ' gsa-pairs-card-universal' : ''}`}>
+            <span class="gsa-pairs-name">{loc?.name ?? pair.name}</span>
+            <div class="gsa-pairs-members">
+              {pair.members.map(slug => {
+                const c = bySlug[slug];
+                return (
+                  <a class="gsa-pairs-member" href={charUrl(slug)}>
+                    {c?.icon
+                      ? <img class="gsa-pairs-thumb" src={c.icon} alt={c.name} width="48" height="48" loading="lazy" />
+                      : <span class="gsa-pairs-thumb gsa-monogram">{c?.name?.[0]}</span>}
+                    <span class="gsa-pairs-member-name">{c?.name ?? slug}</span>
+                  </a>
+                );
+              })}
+            </div>
+            <span class="gsa-pairs-note">{loc?.note ?? pair.note}</span>
+          </div>
+        );
+      })}
+    </div>
+  </div>
+
+  <div class="gsa-pursuit-box">
+    <h2 class="gsa-beginner-title">{L.pursuit.title}</h2>
+    <p class="gsa-beginner-intro">{L.pursuit.intro}</p>
+    <p class="gsa-pursuit-chains-intro">{L.pursuit.chainsIntro}</p>
+    <div class="gsa-pursuit-chains">
+      {GSA_ELEMENT_SECTIONS.map(({ element, zh, icon, chain }) => (
+        <div class="gsa-pursuit-chain">
+          <span class="gsa-pursuit-elem">
+            <img src={icon} alt="" width="36" height="36" loading="lazy" />
+            <b>{element}<i class="gsa-pursuit-elem-zh">{zh}</i></b>
+          </span>
+          <span class="gsa-pursuit-status" title={`${chain.status} (${chain.statusZh})`}>{chain.status}</span>
+          <svg class="gsa-pursuit-arrow" viewBox="0 0 26 12" width="22" height="10" aria-hidden="true"><path d="M0 6 H20 M15 1 L20 6 L15 11" stroke="currentColor" fill="none" stroke-width="2" /></svg>
+          <span class="gsa-pursuit-name" title={`${chain.pursuit} (${chain.pursuitZh})`}>{chain.pursuit}</span>
+          <span class="gsa-pursuit-effect">{chain.effect}</span>
+        </div>
+      ))}
+    </div>
+    <p class="gsa-pursuit-footnote">{L.pursuit.footnote}</p>
+  </div>
+
+  <div class="gsa-tier-tabs" role="tablist" aria-label="Tier list view">
+    {GSA_TIER_VIEWS.map((v, i) => (
+      <button
+        class={`gsa-tier-tab${i === 0 ? ' active' : ''}`}
+        data-view-tab={v.view}
+        role="tab"
+        aria-selected={i === 0 ? 'true' : 'false'}
+      >
+        {L.view[v.view] ?? v.label}
+      </button>
+    ))}
+  </div>
+
+  {GSA_TIER_VIEWS.map((v, i) => (
+    <div class="gsa-tier-tabpanel" data-view-panel={v.view} style={i > 0 ? 'display:none' : undefined}>
+      {v.sections.map(section => (
+        <div class="gsa-tier-job-section">
+          <div class="gsa-tier-job-header">
+            {section.icon && <img class="gsa-tier-job-icon" src={section.icon} alt="" width="40" height="40" loading="lazy" />}
+            <h2 class="gsa-tier-job-title">{section.title}<span class="gsa-tier-job-zh">{section.zh}</span></h2>
+            {section.chain && (
+              <span class="gsa-tier-pursuit-chip" title={`${section.chain.effect} when it fires`}>
+                {section.chain.status} triggers {section.chain.pursuit}
+              </span>
+            )}
+            <span class="gsa-tier-job-count">
+              {L.count(section.tiers.reduce((n, t) => n + t.characters.length, 0))}
+            </span>
+          </div>
+          {section.note && <p class="gsa-tier-section-note">{section.note}</p>}
+          <div class="gsa-tier-grid">
+            {section.tiers.map(row => (
+              <div class="gsa-tier-row">
+                <div class="gsa-tier-label">
+                  <span class="gsa-tier-name" style={`color:${row.color}`}>{row.tier}</span>
+                </div>
+                <div class="gsa-tier-characters">
+                  {row.characters.map(c => (
+                    <a class="gsa-tier-card" href={charUrl(c.slug)}>
+                      {c.icon ? (
+                        <img class="gsa-tier-thumb" src={c.icon} alt={displayName(c)} loading="lazy" />
+                      ) : (
+                        <span class="gsa-tier-thumb gsa-monogram">{c.name?.[0]}</span>
+                      )}
+                      <span class="gsa-tier-badges">
+                        {gsaRarityBadge(c.placement.rarity) ? (
+                          <img class="gsa-rarity-badge gsa-tier-thumb-badge" src={gsaRarityBadge(c.placement.rarity)} alt={c.placement.rarity} width="50" height="32" loading="lazy" />
+                        ) : (
+                          <span class={`gsa-tier-rarity gsa-tier-rarity-${(c.placement.rarity || 'sr').toLowerCase()}`}>{c.placement.rarity}</span>
+                        )}
+                        {c.element && (
+                          <img class="gsa-tier-elem" src={c.element.icon} alt={c.element.name} title={c.element.name} width="18" height="18" loading="lazy" />
+                        )}
+                      </span>
+                      <span class="gsa-tier-name-label">{displayName(c)}</span>
+                      {(() => { const pr = gsaPursuitRole(c.slug); return (
+                        <span class={`gsa-tier-role gsa-tier-role-${pr.role}`}>{L.roles[pr.role]}</span>
+                      ); })()}
+                      {GSA_TIER_NOTES[c.slug] && (() => { const n = GSA_TIER_NOTES[c.slug]; return (
+                        <span class={`gsa-tier-note-badge gsa-tier-note-${n.type}${n.variant ? ` gsa-note-variant-${n.variant}` : ''}`} tabindex="0" aria-label={n.title}>
+                          <span class="gsa-tier-note-icon">{n.variant ? '★' : '!'}</span>
+                          <span class="gsa-tier-note-tooltip" role="tooltip">
+                            <span class="gsa-tier-note-tooltip-title">{n.title}</span>
+                            <span class="gsa-tier-note-tooltip-text">{n.text}</span>
+                          </span>
+                        </span>
+                      ); })()}
+                      {GSA_TIER_NOTES[c.slug]?.variant && (
+                        <span class={`gsa-tier-card-highlight gsa-note-variant-${GSA_TIER_NOTES[c.slug].variant}`}>{GSA_TIER_NOTES[c.slug].shortTitle}</span>
+                      )}
+                    </a>
+                  ))}
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      ))}
+    </div>
+  ))}
+</section>
+
+<script is:inline>
+  // View tabs: the same SSR roster grouped by job or by element.
+  (function () {
+    var tabs = document.querySelectorAll('.gsa-tier-tab');
+    var panels = document.querySelectorAll('.gsa-tier-tabpanel');
+    tabs.forEach(function (btn) {
+      btn.addEventListener('click', function () {
+        tabs.forEach(function (b) { b.classList.remove('active'); b.setAttribute('aria-selected', 'false'); });
+        btn.classList.add('active');
+        btn.setAttribute('aria-selected', 'true');
+        var view = btn.getAttribute('data-view-tab');
+        panels.forEach(function (p) {
+          p.style.display = p.getAttribute('data-view-panel') === view ? '' : 'none';
+        });
+      });
+    });
+  })();
+</script>

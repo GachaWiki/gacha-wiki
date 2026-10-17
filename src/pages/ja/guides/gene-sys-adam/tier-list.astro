@@ -1,0 +1,13 @@
+---
+// Gene-Sys: Adam ja tier list: thin wrapper over the shared I18nTierList
+// body (data from tier-list.js; shell labels inside the component).
+import GsaI18nLayout from '../../../../layouts/gene-sys-adam/GsaI18nLayout.astro';
+import I18nTierList from '../../../../components/gene-sys-adam/i18n/I18nTierList.astro';
+import { GSA_JA } from '../../../../data/gene-sys-adam/ja/ui.js';
+import { gsaCharactersJa } from '../../../../data/gene-sys-adam/ja/characters.js';
+const ui = GSA_JA;
+---
+
+<GsaI18nLayout ui={ui} title="ランキング" gameTitle="ランキング" breadcrumbItems={[{ name: ui.gameName, href: ui.baseUrl }, { name: "ランキング" }]}>
+  <I18nTierList locale="ja" characters={gsaCharactersJa} />
+</GsaI18nLayout>
