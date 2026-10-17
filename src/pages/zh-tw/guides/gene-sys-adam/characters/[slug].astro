@@ -222,6 +222,9 @@ const growth = c.growth || { rate: 1, hp: [0, 0, 0, 0, 0, 0], atk: [0, 0, 0, 0, 
               {c.element.name}
             </span>
           )}
+          {c.rarity && (
+            <span class={`gsa-chip ${c.rarity === 'SSR' ? 'solid-gold' : 'solid-accent'}`}>{c.rarity}</span>
+          )}
           {c.inGacha ? null : <span class="gsa-chip solid-muted">未在卡池中</span>}
         </div>
       </div>

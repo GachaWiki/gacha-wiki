@@ -31,6 +31,7 @@ export const gsaCharacters = [
     "inGacha": true,
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/cr031_Icon_Texture.webp",
     "sortOrder": 31,
+    "rarity": "SR",
     "element": {
       "id": 5,
       "name": "Light",
@@ -205,6 +206,7 @@ export const gsaCharacters = [
     "inGacha": true,
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/cr032_Icon_Texture.webp",
     "sortOrder": 32,
+    "rarity": "SR",
     "element": {
       "id": 2,
       "name": "Earth",
@@ -376,6 +378,7 @@ export const gsaCharacters = [
     "inGacha": true,
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/cr033_Icon_Texture.webp",
     "sortOrder": 33,
+    "rarity": "SR",
     "element": {
       "id": 2,
       "name": "Earth",
@@ -557,6 +560,7 @@ export const gsaCharacters = [
     "inGacha": true,
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/cr034_Icon_Texture.webp",
     "sortOrder": 34,
+    "rarity": "SR",
     "element": {
       "id": 6,
       "name": "Dark",
@@ -737,6 +741,7 @@ export const gsaCharacters = [
     "inGacha": true,
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/cr035_Icon_Texture.webp",
     "sortOrder": 35,
+    "rarity": "SR",
     "element": {
       "id": 6,
       "name": "Dark",
@@ -916,6 +921,7 @@ export const gsaCharacters = [
     "inGacha": true,
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/cr036_Icon_Texture.webp",
     "sortOrder": 36,
+    "rarity": "SR",
     "element": {
       "id": 3,
       "name": "Wind",
@@ -1097,6 +1103,7 @@ export const gsaCharacters = [
     "inGacha": true,
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/cr037_Icon_Texture.webp",
     "sortOrder": 37,
+    "rarity": "SR",
     "element": {
       "id": 3,
       "name": "Wind",
@@ -1277,6 +1284,7 @@ export const gsaCharacters = [
     "inGacha": true,
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/cr038_Icon_Texture.webp",
     "sortOrder": 38,
+    "rarity": "SR",
     "element": {
       "id": 4,
       "name": "Water",
@@ -1448,6 +1456,7 @@ export const gsaCharacters = [
     "inGacha": true,
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/cr039_Icon_Texture.webp",
     "sortOrder": 39,
+    "rarity": "SR",
     "element": {
       "id": 4,
       "name": "Water",
@@ -1620,6 +1629,7 @@ export const gsaCharacters = [
     "inGacha": true,
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/cr040_Icon_Texture.webp",
     "sortOrder": 40,
+    "rarity": "SR",
     "element": {
       "id": 5,
       "name": "Light",
@@ -1803,6 +1813,7 @@ export const gsaCharacters = [
     "inGacha": true,
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/cr041_Icon_Texture.webp",
     "sortOrder": 41,
+    "rarity": "SR",
     "element": {
       "id": 1,
       "name": "Fire",
@@ -1992,6 +2003,7 @@ export const gsaCharacters = [
     "inGacha": false,
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/cr042_Icon_Texture.webp",
     "sortOrder": 42,
+    "rarity": "SR",
     "element": {
       "id": 1,
       "name": "Fire",
@@ -2180,6 +2192,7 @@ export const gsaCharacters = [
     "inGacha": true,
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/cr043_Icon_Texture.webp",
     "sortOrder": 43,
+    "rarity": "SSR",
     "element": {
       "id": 2,
       "name": "Earth",
@@ -2363,6 +2376,7 @@ export const gsaCharacters = [
     "inGacha": true,
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/cr044_Icon_Texture.webp",
     "sortOrder": 44,
+    "rarity": "SSR",
     "element": {
       "id": 6,
       "name": "Dark",
@@ -2551,6 +2565,7 @@ export const gsaCharacters = [
     "inGacha": true,
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/cr045_Icon_Texture.webp",
     "sortOrder": 45,
+    "rarity": "SSR",
     "element": {
       "id": 6,
       "name": "Dark",
@@ -2736,6 +2751,7 @@ export const gsaCharacters = [
     "inGacha": true,
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/cr046_Icon_Texture.webp",
     "sortOrder": 46,
+    "rarity": "SSR",
     "element": {
       "id": 6,
       "name": "Dark",
@@ -2921,6 +2937,7 @@ export const gsaCharacters = [
     "inGacha": true,
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/cr047_Icon_Texture.webp",
     "sortOrder": 47,
+    "rarity": "SSR",
     "element": {
       "id": 5,
       "name": "Light",
@@ -3110,6 +3127,7 @@ export const gsaCharacters = [
     "inGacha": true,
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/cr048_Icon_Texture.webp",
     "sortOrder": 48,
+    "rarity": "SSR",
     "element": {
       "id": 5,
       "name": "Light",
@@ -3292,6 +3310,7 @@ export const gsaCharacters = [
     "inGacha": true,
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/cr049_Icon_Texture.webp",
     "sortOrder": 49,
+    "rarity": "SSR",
     "element": {
       "id": 2,
       "name": "Earth",
@@ -3477,6 +3496,7 @@ export const gsaCharacters = [
     "inGacha": true,
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/cr050_Icon_Texture.webp",
     "sortOrder": 50,
+    "rarity": "SSR",
     "element": {
       "id": 3,
       "name": "Wind",
@@ -3660,6 +3680,7 @@ export const gsaCharacters = [
     "inGacha": true,
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/cr051_Icon_Texture1.webp",
     "sortOrder": 51,
+    "rarity": "SSR",
     "element": {
       "id": 5,
       "name": "Light",
@@ -3847,6 +3868,7 @@ export const gsaCharacters = [
     "inGacha": true,
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/cr053_Icon_Texture.webp",
     "sortOrder": 53,
+    "rarity": "SSR",
     "element": {
       "id": 4,
       "name": "Water",
@@ -4035,6 +4057,7 @@ export const gsaCharacters = [
     "inGacha": true,
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/cr054_Icon_Texture.webp",
     "sortOrder": 54,
+    "rarity": "SSR",
     "element": {
       "id": 1,
       "name": "Fire",
@@ -4223,6 +4246,7 @@ export const gsaCharacters = [
     "inGacha": true,
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/cr055_Icon_Texture.webp",
     "sortOrder": 55,
+    "rarity": "SSR",
     "element": {
       "id": 1,
       "name": "Fire",
@@ -4406,6 +4430,7 @@ export const gsaCharacters = [
     "inGacha": false,
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/cr056_Icon_Texture.webp",
     "sortOrder": 56,
+    "rarity": "SSR",
     "element": {
       "id": 3,
       "name": "Wind",
@@ -4588,6 +4613,7 @@ export const gsaCharacters = [
     "inGacha": true,
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/cr057_Icon_Texture.webp",
     "sortOrder": 57,
+    "rarity": "SSR",
     "element": {
       "id": 4,
       "name": "Water",
@@ -4776,6 +4802,7 @@ export const gsaCharacters = [
     "inGacha": true,
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/cr058_Icon_Texture.webp",
     "sortOrder": 58,
+    "rarity": "SSR",
     "element": {
       "id": 3,
       "name": "Wind",
@@ -4962,6 +4989,7 @@ export const gsaCharacters = [
     "inGacha": false,
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/cr059_Icon_Texture.webp",
     "sortOrder": 59,
+    "rarity": "SSR",
     "element": {
       "id": 2,
       "name": "Earth",
@@ -5146,6 +5174,7 @@ export const gsaCharacters = [
     "inGacha": false,
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/cr061_Icon_Texture.webp",
     "sortOrder": 61,
+    "rarity": "SSR",
     "element": {
       "id": 6,
       "name": "Dark",
@@ -5328,6 +5357,7 @@ export const gsaCharacters = [
     "inGacha": false,
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/cr062_Icon_Texture.webp",
     "sortOrder": 62,
+    "rarity": "SSR",
     "element": {
       "id": 5,
       "name": "Light",
@@ -5508,6 +5538,7 @@ export const gsaCharacters = [
     "inGacha": false,
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/cr063_Icon_Texture.webp",
     "sortOrder": 63,
+    "rarity": "SSR",
     "element": {
       "id": 4,
       "name": "Water",
@@ -5688,6 +5719,7 @@ export const gsaCharacters = [
     "inGacha": true,
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/cr064_Icon_Texture.webp",
     "sortOrder": 64,
+    "rarity": "SSR",
     "element": {
       "id": 4,
       "name": "Water",
@@ -5876,6 +5908,7 @@ export const gsaCharacters = [
     "inGacha": true,
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/cr065_Icon_Texture.webp",
     "sortOrder": 65,
+    "rarity": "SSR",
     "element": {
       "id": 2,
       "name": "Earth",
@@ -6067,6 +6100,7 @@ export const gsaCharacters = [
     "inGacha": false,
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/cr066_Icon_Texture.webp",
     "sortOrder": 66,
+    "rarity": "SSR",
     "element": {
       "id": 1,
       "name": "Fire",
@@ -6259,6 +6293,7 @@ export const gsaCharacters = [
     "inGacha": true,
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/cr074_Icon_Texture.webp",
     "sortOrder": 74,
+    "rarity": "SSR",
     "element": {
       "id": 5,
       "name": "Light",
@@ -6448,6 +6483,7 @@ export const gsaCharacters = [
     "inGacha": true,
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/cr107_Icon_Texture_OFF.webp",
     "sortOrder": 107,
+    "rarity": "SSR",
     "element": {
       "id": 2,
       "name": "Earth",
@@ -6630,6 +6666,7 @@ export const gsaCharacters = [
     "inGacha": false,
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/cr060_Icon_Texture.webp",
     "sortOrder": 60,
+    "rarity": "SSR",
     "element": {
       "id": 1,
       "name": "Fire",
