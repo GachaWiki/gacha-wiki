@@ -673,9 +673,80 @@ a.gsa-tier-card:active {
 /* Per-section editorial note under a job header (e.g. the Guardian caveat) */
 .gsa-tier-section-note {
   margin: 0 0 10px;
-  font-size: 0.8rem;
+  font-size: var(--text-sm);
   line-height: 1.55;
   color: var(--gsa-text-dim);
   border-left: 2px solid var(--gsa-border);
   padding-left: 10px;
 }
+
+/* Recommended pairs box (same family as the beginner box): one card per
+   pairing, member chips with icons, shared note under the members. */
+.gsa-pairs-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 12px;
+}
+
+.gsa-pairs-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 8px;
+  background: var(--gsa-bg-secondary);
+  border: 1px solid var(--gsa-border);
+  border-radius: 12px;
+  padding: 14px 12px;
+  min-width: 0;
+}
+
+.gsa-pairs-name {
+  font-size: var(--text-sm);
+  font-weight: 700;
+  color: var(--gsa-text);
+}
+
+.gsa-pairs-members {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.gsa-pairs-member {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  text-decoration: none;
+  color: var(--gsa-text);
+  min-width: 0;
+}
+
+.gsa-pairs-thumb {
+  width: 48px;
+  height: 48px;
+  border-radius: 8px;
+  object-fit: cover;
+  border: 1px solid var(--gsa-border);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.gsa-pairs-member-name {
+  font-size: var(--text-xs);
+  color: var(--gsa-text);
+}
+
+.gsa-pairs-note {
+  font-size: var(--text-sm);
+  color: var(--gsa-text);
+  line-height: 1.5;
+}
+
+.gsa-pairs-card-universal {
+  border-style: dashed;
+}
+

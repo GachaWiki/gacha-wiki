@@ -945,13 +945,13 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 0.85rem;
+  font-size: var(--text-sm);
   font-weight: 700;
   color: var(--gsa-text-dim);
 }
 
 .gsa-status-name {
-  font-size: 0.85rem;
+  font-size: var(--text-sm);
   color: var(--gsa-text);
 }
 
@@ -962,7 +962,7 @@
 
 .gsa-status-desc {
   margin: 8px 0 0;
-  font-size: 0.76rem;
+  font-size: var(--text-xs);
   line-height: 1.5;
   color: var(--gsa-text-dim);
 }

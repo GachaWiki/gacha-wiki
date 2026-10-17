@@ -3,7 +3,7 @@
 // 相同（gsa-tier.css）。角色卡與名稱改由官方繁中角色資料解析，前期培養
 // 說明與挑選理由為本維基繁中撰寫。
 import GsaZhLayout from '../../../../layouts/gene-sys-adam/GsaZhLayout.astro';
-import { GSA_TIERS, GSA_JOB_SECTIONS, GSA_TIER_PLACEMENTS, gsaRarityBadge, GSA_COMBOS, GSA_TIER_NOTES } from '../../../../data/gene-sys-adam/tier-list.js';
+import { GSA_TIERS, GSA_JOB_SECTIONS, GSA_TIER_PLACEMENTS, gsaRarityBadge, GSA_TIER_NOTES } from '../../../../data/gene-sys-adam/tier-list.js';
 import { gsaCharactersZh } from '../../../../data/gene-sys-adam/zh-tw/characters.js';
 import { gsaPursuitRole } from '../../../../data/gene-sys-adam/pursuit-roles.js';
 import { GSA_ZH } from '../../../../data/gene-sys-adam/zh-tw/ui.js';
@@ -42,6 +42,18 @@ const BEGINNER_NOTE = {
     name: '最後一個位置',
     note: '選擇重複數最高的 SSR，或從任務中取得大量重複的 SR，以輸出角色優先。',
   },
+};
+
+// 推薦組合（用戶編選）：與前期培養重點相同的卡片結構，渲染在其下方。
+const PAIRS_NOTE = {
+  title: '推薦組合',
+  intro: '互相搭配的角色組合：先決定組合，再圍繞它補齊隊伍。',
+  pairs: [
+    { name: '冰破組合', members: ['andou-kana', 'komachi-sayaka'], note: '加奈施加凍結，咲香將每個凍結目標轉為冰破追擊傷害。' },
+    { name: '大地核心', members: ['belle-clumsy-cowgirl', 'hijikata-chizuru', 'ruo-lan'], note: '千鶴坦住前線並施加石化，若蘭提升大地屬性攻擊，牛仔貝兒粉碎帶狀態的目標。' },
+    { name: '風屬性暴擊核心', members: ['li-mu', 'amelie'], note: '李沐與愛蜜莉提供暴擊傷害與暴擊團隊增益。' },
+    { name: '通用百搭', members: ['jessica', 'kurosawa-shion'], note: '潔西卡與黑澤詩音適合大多數隊伍，但遊戲之後可能推出更適合其他屬性類型的角色。', universal: true },
+  ],
 };
 
 const isReleased = c => Boolean(c.icon);
@@ -120,6 +132,32 @@ const total = tierTabs.reduce((n, t) => n + tabCount(t.rarity), 0);
       </div>
     </div>
 
+    <div class="gsa-beginner-box gsa-pairs-box">
+      <h2 class="gsa-beginner-title">{PAIRS_NOTE.title}</h2>
+      <p class="gsa-beginner-intro">{PAIRS_NOTE.intro}</p>
+      <div class="gsa-pairs-grid">
+        {PAIRS_NOTE.pairs.map(pair => (
+          <div class={`gsa-pairs-card${pair.universal ? ' gsa-pairs-card-universal' : ''}`}>
+            <span class="gsa-pairs-name">{pair.name}</span>
+            <div class="gsa-pairs-members">
+              {pair.members.map(slug => {
+                const c = gsaCharactersZh.find(x => x.slug === slug);
+                return (
+                  <a class="gsa-pairs-member" href={`/zh-tw/guides/gene-sys-adam/characters/${slug}/`}>
+                    {c?.icon
+                      ? <img class="gsa-pairs-thumb" src={c.icon} alt={c.name} width="48" height="48" loading="lazy" />
+                      : <span class="gsa-pairs-thumb gsa-monogram">{c?.name?.[0]}</span>}
+                    <span class="gsa-pairs-member-name">{c?.name ?? slug}</span>
+                  </a>
+                );
+              })}
+            </div>
+            <span class="gsa-pairs-note">{pair.note}</span>
+          </div>
+        ))}
+      </div>
+    </div>
+
     <div class="gsa-tier-tabs" role="tablist" aria-label="稀有度">
       {tierTabs.map((tab, i) => (
         <button
@@ -132,9 +170,6 @@ const total = tierTabs.reduce((n, t) => n + tabCount(t.rarity), 0);
           <span class="gsa-tier-tab-count">{tabCount(tab.rarity)}</span>
         </button>
       ))}
-      <button class="gsa-tier-tab" data-rarity-tab="combos" role="tab" aria-selected="false">
-        組合推薦
-      </button>
     </div>
 
     {tierTabs.map((tab, i) => (
@@ -200,61 +235,6 @@ const total = tierTabs.reduce((n, t) => n + tabCount(t.rarity), 0);
       </div>
     ))}
 
-    <div class="gsa-tier-tabpanel" data-rarity-panel="combos" style="display:none">
-      <p class="gsa-combo-intro">
-        追擊鏈組合：啟動技角色施加狀態，終結技角色對狀態目標的最後一擊發動追擊（獨立傷害通道，有專屬的追擊抗性）。沒有啟動技角色的終結技角色會失去整個循環，請以組合而非單體來評價。
-      </p>
-      <div class="gsa-combo-grid">
-        {GSA_COMBOS.map(cb => (
-          <div class={`gsa-combo-card${cb.featured ? ' gsa-combo-featured' : ''}`}>
-            <div class="gsa-combo-head">
-              <span class="gsa-tier-pursuit-chip">{cb.chainZh}</span>
-              {cb.featured && <span class="gsa-chip solid-accent">推薦組合</span>}
-            </div>
-            <h3 class="gsa-combo-name">{cb.nameZh}</h3>
-            <div class="gsa-combo-groups">
-              <div class="gsa-combo-group">
-                <span class="gsa-combo-group-label">啟動技</span>
-                {cb.enablers.map(slug => {
-                  const m = bySlugZhFull[slug];
-                  if (!m) return null;
-                  return (
-                    <a class="gsa-combo-member" href={`${base}characters/${slug}/`}>
-                      {m.icon
-                        ? <img class="gsa-combo-member-icon" src={m.icon} alt="" width="36" height="36" loading="lazy" />
-                        : <span class="gsa-combo-member-icon gsa-monogram">{m.name?.[0]}</span>}
-                      <span class="gsa-combo-member-name">{fullZhName(m)}</span>
-                      <span class="gsa-tier-role gsa-tier-role-enabler">{TIER_ROLE_ZH.enabler}</span>
-                    </a>
-                  );
-                })}
-              </div>
-              <span class="gsa-combo-arrow" aria-hidden="true">&rarr;</span>
-              <div class="gsa-combo-group">
-                <span class="gsa-combo-group-label">終結技</span>
-                {cb.triggers.map(slug => {
-                  const m = bySlugZhFull[slug];
-                  if (!m) return null;
-                  const pr = gsaPursuitRole(slug);
-                  return (
-                    <a class="gsa-combo-member" href={`${base}characters/${slug}/`}>
-                      {m.icon
-                        ? <img class="gsa-combo-member-icon" src={m.icon} alt="" width="36" height="36" loading="lazy" />
-                        : <span class="gsa-combo-member-icon gsa-monogram">{m.name?.[0]}</span>}
-                      <span class="gsa-combo-member-name">{fullZhName(m)}</span>
-                      <span class={`gsa-tier-role gsa-tier-role-${pr.role === 'both' ? 'both' : 'trigger'}`}>
-                        {TIER_ROLE_ZH[pr.role === 'both' ? 'both' : 'trigger']}
-                      </span>
-                    </a>
-                  );
-                })}
-              </div>
-            </div>
-            <p class="gsa-combo-note">{cb.noteZh}</p>
-          </div>
-        ))}
-      </div>
-    </div>
 
   </section>
 </GsaZhLayout>

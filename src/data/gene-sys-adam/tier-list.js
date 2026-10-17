@@ -31,8 +31,8 @@ export function gsaFullDisplayName(c) {
 }
 
 // Same tier ladder colors as the majo list so tiers read the same site-wide.
-// SSS is RESERVED for a future "broken" unit; it stays empty and hidden until
-// one actually ships.
+// SSS is the "broken" tier; it only renders while at least one unit is
+// placed there (currently Jessica).
 export const GSA_TIERS = [
   { tier: 'SSS', color: '#f87171' },
   { tier: 'SS', color: '#f2c14e' },
@@ -61,48 +61,53 @@ export function gsaRarityBadge(rarity) {
 // best-in-class attribute (colors the badge gold and pins a shortTitle chip
 // on the card). Keep these for verdicts worth a second glance, not everyone.
 export const GSA_TIER_NOTES = {
-  // Empty note slots for the whole roster, in game roster order: fill in +
-  // uncomment any you want. type: 'info' or 'warning'; optional variant:
-  // 'carry' or 'tank' (gold badge + shortTitle chip on the card, shortTitle
-  // only renders when variant is set). title = tooltip heading, text =
-  // tooltip body. Avoid apostrophes (single-quoted strings).
-  // 'aira':                { type: 'info', variant: '', shortTitle: '', title: '', text: '' },
-  // 'denice':              { type: 'info', variant: '', shortTitle: '', title: '', text: '' },
-  // 'vera':                { type: 'info', variant: '', shortTitle: '', title: '', text: '' },
-  // 'mudia':               { type: 'info', variant: '', shortTitle: '', title: '', text: '' },
-  // 'yulia':               { type: 'info', variant: '', shortTitle: '', title: '', text: '' },
-  // 'lin-lan':             { type: 'info', variant: '', shortTitle: '', title: '', text: '' },
-  // 'takajou-ranka':       { type: 'info', variant: '', shortTitle: '', title: '', text: '' },
-  // 'katya':               { type: 'info', variant: '', shortTitle: '', title: '', text: '' },
-  // 'thalia':              { type: 'info', variant: '', shortTitle: '', title: '', text: '' },
-  // 'belle':               { type: 'info', variant: '', shortTitle: '', title: '', text: '' },
-  // 'adele':               { type: 'info', variant: '', shortTitle: '', title: '', text: '' },
-  // 'theodore':            { type: 'info', variant: '', shortTitle: '', title: '', text: '' },
-  // 'ruo-lan':             { type: 'info', variant: '', shortTitle: '', title: '', text: '' },
-  // 'amber':               { type: 'info', variant: '', shortTitle: '', title: '', text: '' },
-  // 'kurosawa-shion':      { type: 'info', variant: '', shortTitle: '', title: '', text: '' },
-  // 'chloe':               { type: 'info', variant: '', shortTitle: '', title: '', text: '' },
-  // 'charlotte':           { type: 'info', variant: '', shortTitle: '', title: '', text: '' },
-  // 'rachel':              { type: 'info', variant: '', shortTitle: '', title: '', text: '' },
-  // 'milena':              { type: 'info', variant: '', shortTitle: '', title: '', text: '' },
-  // 'amelie':              { type: 'info', variant: '', shortTitle: '', title: '', text: '' },
-  // 'annabelle':           { type: 'info', variant: '', shortTitle: '', title: '', text: '' },
-  // 'sugimoto-arina':      { type: 'info', variant: '', shortTitle: '', title: '', text: '' },
-  // 'ogino-rui':           { type: 'info', variant: '', shortTitle: '', title: '', text: '' },
-  // 'lin-lin':             { type: 'info', variant: '', shortTitle: '', title: '', text: '' },
-  // 'ruby':                { type: 'info', variant: '', shortTitle: '', title: '', text: '' },
-  // 'liz':                 { type: 'info', variant: '', shortTitle: '', title: '', text: '' },
-  // 'li-mu':               { type: 'info', variant: '', shortTitle: '', title: '', text: '' },
-  // 'bernardo':            { type: 'info', variant: '', shortTitle: '', title: '', text: '' },
-  // 'danxin':              { type: 'info', variant: '', shortTitle: '', title: '', text: '' },
-  // 'ojima-erina':         { type: 'info', variant: '', shortTitle: '', title: '', text: '' },
-  // 'shiraishi-ai':        { type: 'info', variant: '', shortTitle: '', title: '', text: '' },
-  // 'andou-kana':          { type: 'info', variant: '', shortTitle: '', title: '', text: '' },
-  // 'komachi-sayaka':      { type: 'info', variant: '', shortTitle: '', title: '', text: '' },
-  // 'hijikata-chizuru':    { type: 'info', variant: '', shortTitle: '', title: '', text: '' },
-  // 'fujiwara-arisa':      { type: 'info', variant: '', shortTitle: '', title: '', text: '' },
-  // 'jessica':             { type: 'info', variant: '', shortTitle: '', title: '', text: '' },
-  // 'belle-clumsy-cowgirl': { type: 'info', variant: '', shortTitle: '', title: '', text: '' },
+  // Tier notes: type 'info' or 'warning'; optional variant 'carry' or
+  // 'tank' (gold badge + shortTitle chip, shortTitle only renders when
+  // variant is set). Entries in game roster order; empty slots below are
+  // the SSR units without a note yet: remove the // after filling in.
+  // No apostrophes (single-quoted strings), no em dashes.
+  'ruo-lan': {
+    type: 'info',
+    title: 'Best Earth buffer.',
+    text: 'Best buffer for Earth team: Earth ATK Up 20%, shields and damage triggers for Earth allies. There is no good Earth DPS yet.',
+  },
+  'amber': {
+    type: 'warning',
+    title: 'Tank, no status.',
+    text: 'We can easily max her out and she is very good for an early account, though she does not bring much more than the other tank characters. She is just a tanky character.',
+  },
+  'kurosawa-shion': {
+    type: 'info',
+    title: 'The battery of the game.',
+    text: 'She helps your EN recover so you can activate your skills and ultimate faster. She would be good with a Dark team.',
+  },
+  'charlotte': {
+    type: 'warning',
+    title: 'Quite tanky, but she still does not bring much to the team.',
+    text: 'Do not worry too much about her: any other tank character can do the same job. She just does not have anything that makes her stand out, maybe the Judgment status.',
+  },
+  'rachel': {
+    type: 'info',
+    title: 'Backline killer.',
+    text: 'She is good at killing backline DPS. Her damage is mid, though it is good enough if you have her maxed.',
+  },
+  'amelie': {
+    type: 'info',
+    title: 'SS with a full Wind team.',
+    text: 'She is S, but she can be SS if you have a full Wind team. Her buffs and crit rate are good.',
+  },
+  'sugimoto-arina': {
+    type: 'info',
+    title: 'The only good healer.',
+    text: 'We do not have a good healer in the game yet. Better ones will come later and she will matter less then, but for now she is the only good option.',
+  },
+  'lin-lin': {
+    type: 'info',
+    variant: 'carry',
+    shortTitle: 'DPS and status fire.',
+    title: 'Good at hitting backline targets.',
+    text: 'Her ultimate and skills hit the targets with the lowest health, which usually means the DPS. She is good at PVP but her damage is a bit weak, and the good thing is she can apply the Fire status.',
+  },
   'ruby': {
     type: 'info',
     variant: 'carry',
@@ -110,58 +115,68 @@ export const GSA_TIER_NOTES = {
     title: 'Very strong single target.',
     text: 'Every skill she has hits one target: her ultimate is three hits of 300% under an Awakening state with Electrocute Hit Rate Up 30%, and her Talent Skill is three hits of 93% that lands Electrocute S. She also keeps Electrocute up so Qing Yin and Li Mu can chain Overload pursuits. On top of that she is the cheapest SSR to actually max: duplicates from a Mission and her Exclusive Weapon is obtainable.',
   },
+  'liz': {
+    type: 'warning',
+    title: 'Only her ultimate makes her stand out, and her numbers are too low.',
+    text: 'No pursuit role, no team buff, no status. She is just a tanky character.',
+  },
+  'danxin': {
+    type: 'info',
+    title: 'Hard to get, but quite tanky.',
+    text: 'If you manage to get her and fully max her out, which would take months, she is alright but not totally broken. Her shield is broken though.',
+  },
+  'ojima-erina': {
+    type: 'info',
+    title: 'Built for PVP.',
+    text: 'Her kit is built around EN, which matters a lot in PVP: she would be SSS in PVP. Her damage is middling.',
+  },
+  'shiraishi-ai': {
+    type: 'info',
+    title: 'Can be SSS.',
+    text: 'She can be SSS to be honest: her Support Type targeting is quite strong and she deals very good damage. She is just missing a status effect.',
+  },
+  'andou-kana': {
+    type: 'info',
+    variant: 'carry',
+    shortTitle: 'Freeze Initiator',
+    title: 'Core character for the Ice Break pursuit chain.',
+    text: 'She is P2W: you need to spend money to get her, but she is quite busted for Ice teams and her AoE ultimate is very strong.',
+  },
   'komachi-sayaka': {
     type: 'info',
     variant: 'carry',
     shortTitle: 'Ice Break Finisher',
-    title: 'The Ice Break Finisher',
-    text: 'She is one of the best damage dealer in game right now, specially for ice team. she can finish the Ice Break pursuit her ultimate is very strong, and with Andou Kana she is totally busted.',
+    title: 'The Ice Break Finisher.',
+    text: 'She is one of the best damage dealers in the game right now, especially for Ice teams. She can finish the Ice Break pursuit and her ultimate is very strong, and with Andou Kana she is totally busted.',
   },
   'hijikata-chizuru': {
     type: 'info',
     variant: 'tank',
-    shortTitle: 'Best Tank',
-    title: 'The Best Tank',
-    text: 'She is one of best tank in game right now, specially for Earth team. she can active the petrify earth status her passive is good too',
-  },
-  'kurosawa-shion': {
-    type: 'info',
-    title: 'The battery of the game.',
-    text: 'She dont deal damage her self but she dont need to, with her your whole team cast ultimate non stop. her Energy restore and her stacking basic damage buff for the party is crazy, she make every team better.',
+    shortTitle: 'The Best Tank',
+    title: 'The best tank.',
+    text: 'She is one of the best tanks in the game right now, especially for Earth teams. She can activate the Petrify Earth status and her passive is good too.',
   },
   'fujiwara-arisa': {
     type: 'info',
-    title: 'F2P friendly, but take time to get fully max her out and she is a good single target damage dealer.',
-    text: 'you can get her from the event page which is always available, her ultimate damage is good her ultimate very strong single target, thought it take time to fully max her out.',
+    title: 'F2P friendly single target damage dealer, but takes time to fully max out.',
+    text: 'You can get her from the event page which is always available. Her ultimate is very strong single target damage, though it takes time to fully max her out.',
   },
-  'andou-kana': {
+  'jessica': {
     type: 'info',
-    variant: 'Sniper',
-    shortTitle: 'Freeze Initiator',
-    title: 'Core character for Ice Break pursuit chain',
-    text: 'She is p2w you need to spend money to get her but she is quite busted for ice team and her AEO ultimate is very strong.',
+    title: 'Not released yet.',
+    text: 'She has not been released yet, though she is broken and in the game files.',
   },
-  charlotte: {
+  'belle-clumsy-cowgirl': {
     type: 'warning',
-    title: 'She is quite tanky but she still dont bring much to the team.',
-    text: 'Dont worry to much about her any other tank character can do the same job, she just dont have anything make her stand out, Judgment status maybe ~~.',
+    title: 'Damage feels weak.',
+    text: 'Her damage is just weak. She is good for Earth and AoE damage, but she feels weak and you never use her skills in maps.',
   },
-  liz: {
-    type: 'warning',
-    title: 'only her ultimate what make her stand out, but her numbers even too low,',
-    text: 'no pursuit role, no team buff, no status, she is just a tanky character.',
-  },
-  danxin: {
-    type: 'info',
-    title: 'hard to get her but quite tanky.',
-    text: 'I mean if you managed to get and fully max her out which would tanks months she would be alright but not totally borken. her shield is borken though',
-  },
-  amber: {
-    type: 'warning',
-    title: 'Tank no status.',
-    text: 'we can easily max her out she very good early account though she dont bring much like other tank character, she is just a tanky character.',
-  },
-  
+  // 'chloe': { type: 'info', variant: '', shortTitle: '', title: '', text: '' },
+  // 'milena': { type: 'info', variant: '', shortTitle: '', title: '', text: '' },
+  // 'annabelle': { type: 'info', variant: '', shortTitle: '', title: '', text: '' },
+  // 'ogino-rui': { type: 'info', variant: '', shortTitle: '', title: '', text: '' },
+  // 'li-mu': { type: 'info', variant: '', shortTitle: '', title: '', text: '' },
+  // 'bernardo': { type: 'info', variant: '', shortTitle: '', title: '', text: '' },
 };
 
 // element-neutral job icons (JobData.jobicon base with element 0)
@@ -190,6 +205,36 @@ export const GSA_ELEMENT_SECTIONS = Object.entries(GSA_ELEMENT_MATCHUPS)
     icon: m.icon,
     chain: GSA_PURSUIT_CHAINS[name],
   }));
+
+// Recommended pairs (user-curated): same box structure as the beginner
+// note, rendered directly below it on the tier list.
+export const GSA_PAIRS_NOTE = {
+  title: 'Recommended pairs',
+  intro: 'Units built to work together: pick the pair first, then fill the rest of the team around it.',
+  pairs: [
+    {
+      name: 'Ice Break pair',
+      members: ['andou-kana', 'komachi-sayaka'],
+      note: 'Kana supplies the Freeze, Sayaka turns every Frozen target into Ice Break pursuit damage.',
+    },
+    {
+      name: 'Earth core',
+      members: ['belle-clumsy-cowgirl', 'hijikata-chizuru', 'ruo-lan'],
+      note: 'Chizuru tanks and applies Petrify, Ruo Lan buffs Earth ATK, and Belle Cowgirl shatters statused targets.',
+    },
+    {
+      name: 'Wind crit core',
+      members: ['li-mu', 'amelie'],
+      note: 'Li Mu and Amelie for crit damage and crit team buffs.',
+    },
+    {
+      name: 'Universal fits',
+      members: ['jessica', 'kurosawa-shion'],
+      note: 'Jessica and Kurosawa Shion work in the majority of teams, but the game can introduce much better fits for other element types later on.',
+      universal: true,
+    },
+  ],
+};
 
 export const GSA_TIER_UPDATED = 'October 17, 2026';
 
@@ -223,44 +268,58 @@ export const GSA_PURSUIT_NOTE = {
 
 // slug -> { tier, rarity, reason }
 export const GSA_TIER_PLACEMENTS = {
-  'kurosawa-shion': { tier: 'SS', rarity: 'SSR', reason: 'The EN supplier. Her Auto Skill increases the party’s EN by 4.5 every 6 seconds, her Ultimate grants the whole party EN Gain Up 45% for 24s, and her Talent Skill stacks party Basic Damage Up 15% up to three times. Every Ultimate in the team comes online faster with her on the field.' },
-  'jessica': { tier: 'SS', rarity: 'SSR', reason: 'Best defensive support: a 795% Shield to all party members on an 8s cooldown, continuous healing on her Auto Skill and passives, and an Ultimate that Cleanses debuffs from all party members and applies a 1285% Shield.' },
-  'ogino-rui': { tier: 'SS', rarity: 'SSR', reason: 'Highest raw damage of any character: 850% in combined multipliers, a permanent self Physical DMG Up 20% and Crit Chance Up 18% on her Auto Skill, HP recovery on hit, and a five-hit 170% Ultimate.' },
-  'lin-lan': { tier: 'S', rarity: 'SR', reason: 'The Guardian partner: 1785% Shields on a 10s cooldown, an Auto Skill that lowers Basic Attack damage taken by 35%, and a 3700% Ultimate Shield. Rating assumes you run a Guardian, which you should.' },
-  'adele': { tier: 'S', rarity: 'SR', reason: 'Best SR damage dealer: a 660% Ultimate, a self Attack Up 20% and ACC Up Auto Skill, plus Burn and Wind ATK Down utility. Strong enough that duplicates are a bonus, not a requirement. Early-game cornerstone: SR duplicates Class Up fast and her Exclusive Weapon is obtainable.' },
-  'yulia': { tier: 'S', rarity: 'SR', reason: 'Heavy single-target Dark damage: a 615% single-target Ultimate with a Dark Res Down follow-up, Light ATK Down against Light Type enemies, and Evasion Up for survivability.' },
-  'thalia': { tier: 'S', rarity: 'SR', reason: 'Built for bosses: everything she has targets the highest ATK enemy, her Auto Skill inflicts Basic Damage Down 20% on them, a passive grants her Basic Damage Up 40%, and the Ultimate adds Knockdown.' },
-  'milena': { tier: 'S', rarity: 'SSR', reason: 'A ten-hit 800% single-target Ultimate, Knockdown and Petrify control, and a passive that stacks DMG Block Down on Guardian Type targets. An SSR whose duplicates are still worth the investment.' },
-  'hijikata-chizuru': { tier: 'SS', rarity: 'SSR', reason: 'The best tank in the game, and it is not close: Physical Damage Taken Decreased 20% plus Water Res Up on a 4s loop, EN Gain Up 35% keeping the team casting, a self restore on every hit (34%), and after Class Up the whole party gains ATK SPD Up 12% and Physical PEN RES Up 10%. She also initiates the Earth chain, inflicting Petrify M on both her Auto Skill and her five-hit Ultimate with Petrify Hit Rate Up 35%. Tanks, sustains, buffs and feeds Pursuits at once; Charlotte cannot match this.' },
-  'vera': { tier: 'A', rarity: 'SR', reason: 'Textbook Guardian: a two-hit 400% Stun on her Talent Skill, Regeneration on her Auto Skill, Block Up 30% on the Ultimate and passive HP recovery. Dependable, if unexciting next to Hijikata Chizuru.' },
-  'takajou-ranka': { tier: 'S', rarity: 'SR', reason: 'A Guardian that deals damage: an Auto Skill that restores 466% HP to self, a five-hit forward-area Ultimate and Silence utility. Lets you keep the Guardian slot without giving up damage.' },
-  'shiraishi-ai': { tier: 'S', rarity: 'SSR', reason: 'Huge numbers (832% in combined multipliers, a four-hit 208% Ultimate) but nearly all of it prioritizes Support Type targets and cuts their healing. A PVP and anti-healing weapon first, a general damage dealer second.' },
-  'andou-kana': { tier: 'S', rarity: 'SSR', reason: 'Freeze disables the target and her skills are built on it: Freeze on a nine-hit Talent Skill and a five-hit all-targets Ultimate with wide forward coverage. With Komachi Sayaka she forms the SS Ice Break pair (see the Combo Collective tab): Kana freezes, Sayaka converts every Frozen target into Ice Break L Pursuits. A solid S on her own, and the Initiator half of the game’s best pairing.' },
-  'sugimoto-arina': { tier: 'A', rarity: 'SSR', reason: 'A straightforward healer: restores 630% HP to the two lowest HP allies, an Ultimate that restores 1000% HP to all party members, and Stun Res Up attached. Jessica simply does more for the same slot.' },
   'aira': { tier: 'A', rarity: 'SR', reason: 'Solid Light Sniper with a Judgment passive stun combo and a defensive ultimate. Mid multipliers keep her out of the top ranks, nothing to fault otherwise.' },
-  'amelie': { tier: 'A', rarity: 'SSR', reason: 'All-target specialist: the Ultimate hits all targets five times and Bleed uptime is reliable, but her Auto Skill buffs Random allies and her single-target numbers trail the SR damage leaders.' },
-  'komachi-sayaka': { tier: 'SS', rarity: 'SSR', reason: 'The Ice Break Finisher and the strongest Pursuit Finisher in the game when Freeze is kept up: a six-hit forward-area Ultimate (330% per target) that inflicts Water Res Down 10% and Skill Damage Taken Increased 15% before triggering the Ice Break L Pursuit, a separate damage channel. Every successful Ice Break Pursuit stacks Water ATK Up 8% (3 stacks after Class Up) plus party Physical DMG Up 10%, and her Talent Skill jumps from 3x40% to 3x100% per target after Class Up. SS on her own, and SSS-tier with Andou Kana supplying Freeze.' },
-  'danxin': { tier: 'A', rarity: 'SSR', reason: 'A Guardian with Striker-grade growth (rate 1.5), so she scales like a DPS while tanking: a 2145% self-shield on the active, Energy damage taken cut 10%, and an ultimate that cuts basic attack damage taken 40%. PvP arena exchange unit, not a summon. Great in content that hits hard.' },
-  'ojima-erina': { tier: 'A', rarity: 'SSR', reason: 'A reliable Breaker with 345% across her Basic Attack and Talent Skill and a clean three-hit Ultimate. No team buffs, no weaknesses, no drama.' },
-  'bernardo': { tier: 'B', rarity: 'SSR', reason: 'Buff numbers too small to matter (a 5% Damage Up Auto Skill) and a Petrify chance that is Medium at best. The attitude is carrying the skills. Arena exchange unit, not a summon.' },
-  'li-mu': { tier: 'S', rarity: 'SSR', reason: 'His real value is team amplification: after Class Up the whole party gains Crit DMG Up 12% AND Wind ATK Up 7%, stacking two strong buffs on one roster slot. He is also the main Electrocute Initiator, rolling Electrocute M on every hit of a six-hit Auto Skill with an Electrocute Hit Rate Up 30% rider on his Ultimate, plus Knockdown on the finisher. The 360% three-target Ultimate is modest, and the Overload chain has no released Finisher yet, but the day one ships he becomes its fuel. S now, SSS-potential pairing later.' },
-  'annabelle': { tier: 'A', rarity: 'SSR', reason: 'AoE Light damage with control: a seven-hit two-target Ultimate that also lands Dark ATK Down 20% and ATK SPD Down 30%, Light Res Down 5% on her Auto Skill, and party Block Penetration Up 6% after Class Up. The 385% total is modest for an SSR and she has no pursuit role, but the layered debuffs make Light teams hit harder.' },
+  'denice': { tier: 'B', rarity: 'SR', reason: 'A fifteen-hit Ultimate sounds fun until you see Random targeting. The Petrify synergy on her Talent Skill is real, the base multipliers are not.' },
+  'vera': { tier: 'A', rarity: 'SR', reason: 'Textbook Guardian: a two-hit 400% Stun on her Talent Skill, Regeneration on her Auto Skill, Block Up 30% on the Ultimate and passive HP recovery. Dependable, if unexciting next to Hijikata Chizuru.' },
+  'mudia': { tier: 'A', rarity: 'SR', reason: 'A Guardian with HP recovery: restores HP on her Talent Skill, on basic attack hits and on every Ultimate strike, inflicts Bleed on her Auto Skill, and grants herself Max HP Up. Hard to kill, moderate damage.' },
+  'yulia': { tier: 'S', rarity: 'SR', reason: 'Heavy single-target Dark damage: a 615% single-target Ultimate with a Dark Res Down follow-up, Light ATK Down against Light Type enemies, and Evasion Up for survivability.' },
+  'lin-lan': { tier: 'S', rarity: 'SR', reason: 'The Guardian partner: 1785% Shields on a 10s cooldown, an Auto Skill that lowers Basic Attack damage taken by 35%, and a 3700% Ultimate Shield. Rating assumes you run a Guardian, which you should.' },
+  'takajou-ranka': { tier: 'S', rarity: 'SR', reason: 'A Guardian that deals damage: an Auto Skill that restores 466% HP to self, a five-hit forward-area Ultimate and Silence utility. Lets you keep the Guardian slot without giving up damage.' },
+  'katya': { tier: 'A', rarity: 'SR', reason: 'Freeze support: multi-hit forward-area attacks that trigger Ice Break Pursuits on Frozen targets, plus ACC Down and Water ATK Up self-buffs. Wants Freeze Initiators.' },
+  'thalia': { tier: 'S', rarity: 'SR', reason: 'Built for bosses: everything she has targets the highest ATK enemy, her Auto Skill inflicts Basic Damage Down 20% on them, a passive grants her Basic Damage Up 40%, and the Ultimate adds Knockdown.' },
+  'belle': { tier: 'B', rarity: 'SR', reason: 'A healer whose numbers lose to Jessica and Sugimoto Arina at every line. The Evasion Up quirks do not save the slot. Early on she is a real pick: her Exclusive Weapon is obtainable and SR duplicates let you fully max her while your SSRs are still raising their Class.' },
+  'adele': { tier: 'S', rarity: 'SR', reason: 'Best SR damage dealer: a 660% Ultimate, a self Attack Up 20% and ACC Up Auto Skill, plus Burn and Wind ATK Down utility. Strong enough that duplicates are a bonus, not a requirement. Early-game cornerstone: SR duplicates Class Up fast and her Exclusive Weapon is obtainable.' },
+  'theodore': { tier: 'B', rarity: 'SR', reason: 'The protagonist starter: functional Fire Res Down and a serviceable eight-hit Ultimate, but every limited unit outclasses him. He is free, be kind. Early on he is a core pick anyway: his Exclusive Weapon is obtainable and SR duplicates come quickly.' },
+  'ruo-lan': { tier: 'SS', rarity: 'SSR', reason: 'All value is locked behind Earth Type allies: Earth ATK Up 20%, Shields and damage triggers for Earth Type teams only. For every other element she is a plain attacker.' },
+  'amber': { tier: 'A', rarity: 'SSR', reason: 'The tankiest wall on the roster: a 1920% Shield on her Auto Skill, a 1000% self restore with Cleanse, Max HP Up 10%, and a 2900% Ultimate Shield with Phy Damage Reflect 40%. She holds any line without support; her limits are that everything but the Class Up Max HP Up 10% is self-only, her Passive 1 Amplify grants a literal 0% in the current data, and she has no pursuit role at all.' },
+  'kurosawa-shion': { tier: 'SS', rarity: 'SSR', reason: 'The EN supplier. Her Auto Skill increases the party’s EN by 4.5 every 6 seconds, her Ultimate grants the whole party EN Gain Up 45% for 24s, and her Talent Skill stacks party Basic Damage Up 15% up to three times. Every Ultimate in the team comes online faster with her on the field.' },
   'chloe': { tier: 'A', rarity: 'SSR', reason: 'Her thirteen-hit 585% Ultimate is better than it looks, and the self-inflicted Pain cost is manageable behind any healing support.' },
   'charlotte': { tier: 'S', rarity: 'SSR', reason: 'A niche S rather than a power pick: her Passive 2 after Class Up grants the whole party Dark Res Up 7% for Light into Dark matchups, and her Ultimate makes her one of only two characters who can inflict Judgment, feeding Sanction Pursuits for any Light Finisher. Her own output is middling (a nine-hit 34% per-hit Ultimate behind big self Shields). The game is young and better Light units will ship, so raise her only as far as current content demands.' },
-  'mudia': { tier: 'A', rarity: 'SR', reason: 'A Guardian with HP recovery: restores HP on her Talent Skill, on basic attack hits and on every Ultimate strike, inflicts Bleed on her Auto Skill, and grants herself Max HP Up. Hard to kill, moderate damage.' },
-  'amber': { tier: 'A', rarity: 'SSR', reason: 'The tankiest wall on the roster: a 1920% Shield on her Auto Skill, a 1000% self restore with Cleanse, Max HP Up 10%, and a 2900% Ultimate Shield with Phy Damage Reflect 40%. She holds any line without support; her limits are that everything but the Class Up Max HP Up 10% is self-only, her Passive 1 Amplify grants a literal 0% in the current data, and she has no pursuit role at all.' },
-  'liz': { tier: 'B', rarity: 'SSR', reason: 'Not bad, just outmatched: the party-wide 960% Ultimate Shield (10s, Fire Res Up 10% while it holds) is thin for an Ultimate slot and one hard hit strips most of it, her passives after Class Up amount to party Fire Res Up 5% and Block Up 7%, and she inflicts no Initiator status at all, so she contributes nothing to the Pursuit system. Serviceable as an early Water Guardian, first to bench when something better arrives.' },
-  'rachel': { tier: 'A', rarity: 'SSR', reason: 'Utility Sniper: her Auto Skill prioritizes furthest targets and Interrupts their skills, the Ultimate is a straight-line strike that triggers a Sanction L Pursuit on targets with the Judgment status, and kills inflict Damage Decrease 15% on enemy Sniper and Breaker Type targets.' },
-  'katya': { tier: 'A', rarity: 'SR', reason: 'Freeze support: multi-hit forward-area attacks that trigger Ice Break Pursuits on Frozen targets, plus ACC Down and Water ATK Up self-buffs. Wants Freeze Initiators.' },
+  'rachel': { tier: 'SS', rarity: 'SSR', reason: 'Utility Sniper: her Auto Skill prioritizes furthest targets and Interrupts their skills, the Ultimate is a straight-line strike that triggers a Sanction L Pursuit on targets with the Judgment status, and kills inflict Damage Decrease 15% on enemy Sniper and Breaker Type targets.' },
+  'milena': { tier: 'S', rarity: 'SSR', reason: 'A ten-hit 800% single-target Ultimate, Knockdown and Petrify control, and a passive that stacks DMG Block Down on Guardian Type targets. An SSR whose duplicates are still worth the investment.' },
+  'amelie': { tier: 'S', rarity: 'SSR', reason: 'All-target specialist: the Ultimate hits all targets five times and Bleed uptime is reliable, but her Auto Skill buffs Random allies and her single-target numbers trail the SR damage leaders.' },
+  'annabelle': { tier: 'A', rarity: 'SSR', reason: 'AoE Light damage with control: a seven-hit two-target Ultimate that also lands Dark ATK Down 20% and ATK SPD Down 30%, Light Res Down 5% on her Auto Skill, and party Block Penetration Up 6% after Class Up. The 385% total is modest for an SSR and she has no pursuit role, but the layered debuffs make Light teams hit harder.' },
+  'sugimoto-arina': { tier: 'SS', rarity: 'SSR', reason: 'A straightforward healer: restores 630% HP to the two lowest HP allies, an Ultimate that restores 1000% HP to all party members, and Stun Res Up attached. Jessica simply does more for the same slot.' },
+  'ogino-rui': { tier: 'SS', rarity: 'SSR', reason: 'Highest raw damage of any character: 850% in combined multipliers, a permanent self Physical DMG Up 20% and Crit Chance Up 18% on her Auto Skill, HP recovery on hit, and a five-hit 170% Ultimate.' },
   'lin-lin': { tier: 'S', rarity: 'SSR', reason: 'Fire debuffer and clean-up: Fire Res Down 8%, Burn on her Auto Skill, Crit Chance Down, and everything aims at the lowest HP target. Mops up for Fire Type teams.' },
   'ruby': { tier: 'SS', rarity: 'SSR', reason: 'Very strong single-target damage: every skill she has fires at one target, capped by a three-hit 900% Ultimate under an Awakening state with Electrocute Hit Rate Up 30%, a 279% three-hit Talent Skill that lands Electrocute S, and self-buffs (Attack Up 10%, Wind ATK Up 7%). She also keeps Electrocute up for Qing Yin and Li Mu Overload teams. The cheapest premium build in the game: Mission duplicates and an obtainable Exclusive Weapon make her the easiest SSR to fully max.' },
-  'theodore': { tier: 'B', rarity: 'SR', reason: 'The protagonist starter: functional Fire Res Down and a serviceable eight-hit Ultimate, but every limited unit outclasses him. He is free, be kind. Early on he is a core pick anyway: his Exclusive Weapon is obtainable and SR duplicates come quickly.' },
-  'denice': { tier: 'B', rarity: 'SR', reason: 'A fifteen-hit Ultimate sounds fun until you see Random targeting. The Petrify synergy on her Talent Skill is real, the base multipliers are not.' },
-  'ruo-lan': { tier: 'B', rarity: 'SSR', reason: 'All value is locked behind Earth Type allies: Earth ATK Up 20%, Shields and damage triggers for Earth Type teams only. For every other element she is a plain attacker.' },
-  'belle': { tier: 'B', rarity: 'SR', reason: 'A healer whose numbers lose to Jessica and Sugimoto Arina at every line. The Evasion Up quirks do not save the slot. Early on she is a real pick: her Exclusive Weapon is obtainable and SR duplicates let you fully max her while your SSRs are still raising their Class.' },
-  'belle-clumsy-cowgirl': { tier: 'A', rarity: 'SSR', reason: 'The self-sufficient Shatter Initiator: she applies her own Petrify before her five-hit all-targets Ultimate, so she triggers Stone Shatter pursuits without any feeder, on top of spread damage and small party heals. Weaknesses are real (spread damage splits, no party buffs), but she is the only unit who runs the Earth chain entirely alone.' },
+  'liz': { tier: 'B', rarity: 'SSR', reason: 'Not bad, just outmatched: the party-wide 960% Ultimate Shield (10s, Fire Res Up 10% while it holds) is thin for an Ultimate slot and one hard hit strips most of it, her passives after Class Up amount to party Fire Res Up 5% and Block Up 7%, and she inflicts no Initiator status at all, so she contributes nothing to the Pursuit system. Serviceable as an early Water Guardian, first to bench when something better arrives.' },
+  'li-mu': { tier: 'S', rarity: 'SSR', reason: 'His real value is team amplification: after Class Up the whole party gains Crit DMG Up 12% AND Wind ATK Up 7%, stacking two strong buffs on one roster slot. He is also the main Electrocute Initiator, rolling Electrocute M on every hit of a six-hit Auto Skill with an Electrocute Hit Rate Up 30% rider on his Ultimate, plus Knockdown on the finisher. The 360% three-target Ultimate is modest, and the Overload chain has no released Finisher yet, but the day one ships he becomes its fuel. S now, SSS-potential pairing later.' },
+  'bernardo': { tier: 'S', rarity: 'SSR', reason: 'Buff numbers too small to matter (a 5% Damage Up Auto Skill) and a Petrify chance that is Medium at best. The attitude is carrying the skills. Arena exchange unit, not a summon.' },
+  'danxin': { tier: 'A', rarity: 'SSR', reason: 'A Guardian with Striker-grade growth (rate 1.5), so she scales like a DPS while tanking: a 2145% self-shield on the active, Energy damage taken cut 10%, and an ultimate that cuts basic attack damage taken 40%. PvP arena exchange unit, not a summon. Great in content that hits hard.' },
+  'ojima-erina': { tier: 'SS', rarity: 'SSR', reason: 'A reliable Breaker with 345% across her Basic Attack and Talent Skill and a clean three-hit Ultimate. No team buffs, no weaknesses, no drama.' },
+  'shiraishi-ai': { tier: 'SS', rarity: 'SSR', reason: 'Huge numbers (832% in combined multipliers, a four-hit 208% Ultimate) but nearly all of it prioritizes Support Type targets and cuts their healing. A PVP and anti-healing weapon first, a general damage dealer second.' },
+  'andou-kana': { tier: 'SS', rarity: 'SSR', reason: 'Freeze disables the target and her skills are built on it: Freeze on a nine-hit Talent Skill and a five-hit all-targets Ultimate with wide forward coverage. With Komachi Sayaka she forms the SS Ice Break pair (see the Combo Collective tab): Kana freezes, Sayaka converts every Frozen target into Ice Break L Pursuits. A solid S on her own, and the Initiator half of the game’s best pairing.' },
+  'komachi-sayaka': { tier: 'SS', rarity: 'SSR', reason: 'The Ice Break Finisher and the strongest Pursuit Finisher in the game when Freeze is kept up: a six-hit forward-area Ultimate (330% per target) that inflicts Water Res Down 10% and Skill Damage Taken Increased 15% before triggering the Ice Break L Pursuit, a separate damage channel. Every successful Ice Break Pursuit stacks Water ATK Up 8% (3 stacks after Class Up) plus party Physical DMG Up 10%, and her Talent Skill jumps from 3x40% to 3x100% per target after Class Up. SS on her own, and SSS-tier with Andou Kana supplying Freeze.' },
+  'hijikata-chizuru': { tier: 'SS', rarity: 'SSR', reason: 'The best tank in the game, and it is not close: Physical Damage Taken Decreased 20% plus Water Res Up on a 4s loop, EN Gain Up 35% keeping the team casting, a self restore on every hit (34%), and after Class Up the whole party gains ATK SPD Up 12% and Physical PEN RES Up 10%. She also initiates the Earth chain, inflicting Petrify M on both her Auto Skill and her five-hit Ultimate with Petrify Hit Rate Up 35%. Tanks, sustains, buffs and feeds Pursuits at once; Charlotte cannot match this.' },
   'fujiwara-arisa': { tier: 'SS', rarity: 'SSR', reason: 'Tied for the hardest single hit in the game: a nine-hit 900% single-target Ultimate that ends in a Stun and Burn M, backed by a 435% to 585% Talent Skill and Burn S on her Auto Skill. She is also the premium Burn Initiator, keeping the Fire status up so Theodore can Detonate. Raw ceiling plus chain value; the only thing she lacks is team amplification.' },
+  'jessica': { tier: 'SSS', rarity: 'SSR', reason: 'Best defensive support: a 795% Shield to all party members on an 8s cooldown, continuous healing on her Auto Skill and passives, and an Ultimate that Cleanses debuffs from all party members and applies a 1285% Shield.' },
+  'belle-clumsy-cowgirl': { tier: 'S', rarity: 'SSR', reason: 'The self-sufficient Shatter Initiator: she applies her own Petrify before her five-hit all-targets Ultimate, so she triggers Stone Shatter pursuits without any feeder, on top of spread damage and small party heals. Weaknesses are real (spread damage splits, no party buffs), but she is the only unit who runs the Earth chain entirely alone.' },
 };
+
+// Element-view placements: the By Element view rates units inside their
+// element's own context, which can differ from the global ladder (an
+// element's best buffer matters more once that element has a real team).
+// Only DIVERGENCES live here; every other slug falls back to its global
+// GSA_TIER_PLACEMENTS tier.
+export const GSA_ELEMENT_PLACEMENTS = {
+  'amelie': { tier: 'SS' },  // S globally, SS with a full Wind team (user verdict)
+  'belle-clumsy-cowgirl': { tier: 'SS' },  // S globally, SS in the Earth view (user verdict)
+};
+
+const elementPlacementOf = slug => GSA_ELEMENT_PLACEMENTS[slug]
+  || GSA_TIER_PLACEMENTS[slug]
+  || { tier: 'C', rarity: null };
 
 const placementOf = slug =>
   GSA_TIER_PLACEMENTS[slug] || {
@@ -288,13 +347,14 @@ const isSSR = c => (placementOf(c.slug).rarity || 'SSR') === 'SSR';
 const releasedSSR = gsaCharacters.filter(c => isReleased(c) && isSSR(c));
 
 // One section's members bucketed into tier rows, name-sorted inside a row.
-const tierRows = members => GSA_TIERS
+// placementFn switches the source ladder (global vs element view).
+const tierRows = (members, placementFn = placementOf) => GSA_TIERS
   .map(({ tier, color }) => ({
     tier,
     color,
     characters: members
-      .filter(c => placementOf(c.slug).tier === tier)
-      .map(c => ({ ...c, placement: placementOf(c.slug) }))
+      .filter(c => placementFn(c.slug).tier === tier)
+      .map(c => ({ ...c, placement: placementFn(c.slug) }))
       .sort((a, b) => a.name.localeCompare(b.name)),
   }))
   .filter(t => t.characters.length > 0);
@@ -325,13 +385,15 @@ export const GSA_TIER_VIEWS = [
       element: 'Unclassified',
       zh: '未分類',
     }]).map(section => {
-      const tiers = tierRows(releasedSSR.filter(c => (c.element ? c.element.name : 'Unclassified') === section.element));
+      const tiers = tierRows(releasedSSR.filter(c => (c.element ? c.element.name : 'Unclassified') === section.element), elementPlacementOf);
       return tiers.length ? { ...section, key: section.element, title: section.element, tiers } : null;
     }).filter(Boolean),
   },
 ];
 
 // Combo Collective: the pursuit-chain pairings, one card per element family.
+// UNWIRED 2026-10-17: the tier-list Combo Collective tab was removed (user: too
+// confusing, rework planned); the curated data below is kept for the rework.
 // Enablers apply the status, triggers fire the pursuit on final hits against
 // statused targets (the pursuit is a separate damage channel with its own
 // resistance stat). Members come from pursuit-roles.js; notes are editorial.
