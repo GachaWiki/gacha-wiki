@@ -136,12 +136,7 @@ export const gsaCharactersZhCn = [
       "name": "光",
       "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/battleelement_5.webp"
     },
-    "job": {
-      "id": 2,
-      "name": "突击",
-      "color": "#EA3333",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/fighters_5.webp"
-    },
+    "job": {"id": 2, "name": "突击", "color": "#EA3333", "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/fighters_5.webp" },
     "attackType": {
       "id": 1,
       "name": "物理",
@@ -423,12 +418,7 @@ export const gsaCharactersZhCn = [
       "name": "土",
       "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/battleelement_2.webp"
     },
-    "job": {
-      "id": 5,
-      "name": "破坏",
-      "color": "#9433EA",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/master_2.webp"
-    },
+    "job": {"id": 3, "name": "狙击", "color": "#FFC405", "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/archer_2.webp" },
     "attackType": {
       "id": 2,
       "name": "能量",
@@ -2142,12 +2132,7 @@ export const gsaCharactersZhCn = [
       "name": "水",
       "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/battleelement_4.webp"
     },
-    "job": {
-      "id": 4,
-      "name": "支援",
-      "color": "#33EA62",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/priest_4.webp"
-    },
+    "job": {"id": 5, "name": "破坏", "color": "#9433EA", "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/master_4.webp" },
     "attackType": {
       "id": 1,
       "name": "物理",
@@ -2426,12 +2411,7 @@ export const gsaCharactersZhCn = [
       "name": "水",
       "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/battleelement_4.webp"
     },
-    "job": {
-      "id": 5,
-      "name": "破坏",
-      "color": "#9433EA",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/master_4.webp"
-    },
+    "job": {"id": 3, "name": "狙击", "color": "#FFC405", "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/archer_4.webp" },
     "attackType": {
       "id": 2,
       "name": "能量",
@@ -2801,12 +2781,7 @@ export const gsaCharactersZhCn = [
       "name": "光",
       "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/battleelement_5.webp"
     },
-    "job": {
-      "id": 3,
-      "name": "狙击",
-      "color": "#FFC405",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/archer_5.webp"
-    },
+    "job": {"id": 4, "name": "支援", "color": "#33EA62", "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/priest_5.webp" },
     "attackType": {
       "id": 1,
       "name": "物理",
@@ -3951,12 +3926,7 @@ export const gsaCharactersZhCn = [
       "name": "土",
       "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/battleelement_2.webp"
     },
-    "job": {
-      "id": 3,
-      "name": "狙击",
-      "color": "#FFC405",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/archer_2.webp"
-    },
+    "job": {"id": 4, "name": "支援", "color": "#33EA62", "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/priest_2.webp" },
     "attackType": {
       "id": 1,
       "name": "物理",
@@ -4716,12 +4686,7 @@ export const gsaCharactersZhCn = [
       "name": "暗",
       "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/battleelement_6.webp"
     },
-    "job": {
-      "id": 4,
-      "name": "支援",
-      "color": "#33EA62",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/priest_2.webp"
-    },
+    "job": {"id": 4, "name": "支援", "color": "#33EA62", "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/priest_6.webp" },
     "attackType": {
       "id": 2,
       "name": "能量",
@@ -5869,12 +5834,7 @@ export const gsaCharactersZhCn = [
       "name": "光",
       "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/battleelement_5.webp"
     },
-    "job": {
-      "id": 5,
-      "name": "破坏",
-      "color": "#9433EA",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/master_5.webp"
-    },
+    "job": {"id": 3, "name": "狙击", "color": "#FFC405", "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/archer_5.webp" },
     "attackType": {
       "id": 2,
       "name": "能量",
@@ -6633,12 +6593,7 @@ export const gsaCharactersZhCn = [
       "name": "风",
       "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/battleelement_3.webp"
     },
-    "job": {
-      "id": 3,
-      "name": "狙击",
-      "color": "#FFC405",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/archer_3.webp"
-    },
+    "job": {"id": 5, "name": "破坏", "color": "#9433EA", "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/master_3.webp" },
     "attackType": {
       "id": 2,
       "name": "能量",
@@ -8175,12 +8130,7 @@ export const gsaCharactersZhCn = [
       "name": "火",
       "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/battleelement_1.webp"
     },
-    "job": {
-      "id": 4,
-      "name": "支援",
-      "color": "#33EA62",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/priest_1.webp"
-    },
+    "job": {"id": 3, "name": "狙击", "color": "#FFC405", "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/archer_1.webp" },
     "attackType": {
       "id": 2,
       "name": "能量",
@@ -8566,12 +8516,7 @@ export const gsaCharactersZhCn = [
       "name": "风",
       "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/battleelement_3.webp"
     },
-    "job": {
-      "id": 4,
-      "name": "支援",
-      "color": "#33EA62",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/priest_3.webp"
-    },
+    "job": {"id": 3, "name": "狙击", "color": "#FFC405", "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/archer_3.webp" },
     "attackType": {
       "id": 1,
       "name": "物理",
@@ -9677,12 +9622,7 @@ export const gsaCharactersZhCn = [
       "name": "土",
       "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/battleelement_2.webp"
     },
-    "job": {
-      "id": 4,
-      "name": "支援",
-      "color": "#33EA62",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/priest_2.webp"
-    },
+    "job": {"id": 3, "name": "狙击", "color": "#FFC405", "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/archer_2.webp" },
     "attackType": {
       "id": 1,
       "name": "物理",
@@ -10058,12 +9998,7 @@ export const gsaCharactersZhCn = [
       "name": "暗",
       "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/battleelement_6.webp"
     },
-    "job": {
-      "id": 3,
-      "name": "狙击",
-      "color": "#FFC405",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/archer_6.webp"
-    },
+    "job": {"id": 5, "name": "破坏", "color": "#9433EA", "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/master_6.webp" },
     "attackType": {
       "id": 2,
       "name": "能量",
@@ -10439,12 +10374,7 @@ export const gsaCharactersZhCn = [
       "name": "光",
       "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/battleelement_5.webp"
     },
-    "job": {
-      "id": 5,
-      "name": "破坏",
-      "color": "#9433EA",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/master_5.webp"
-    },
+    "job": {"id": 3, "name": "狙击", "color": "#FFC405", "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/archer_5.webp" },
     "attackType": {
       "id": 1,
       "name": "物理",
@@ -10816,12 +10746,7 @@ export const gsaCharactersZhCn = [
       "name": "水",
       "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/battleelement_4.webp"
     },
-    "job": {
-      "id": 3,
-      "name": "狙击",
-      "color": "#FFC405",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/archer_4.webp"
-    },
+    "job": {"id": 5, "name": "破坏", "color": "#9433EA", "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/master_4.webp" },
     "attackType": {
       "id": 2,
       "name": "能量",
@@ -12750,12 +12675,7 @@ export const gsaCharactersZhCn = [
       "name": "土",
       "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/battleelement_2.webp"
     },
-    "job": {
-      "id": 4,
-      "name": "支援",
-      "color": "#33EA62",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/priest_2.webp"
-    },
+    "job": {"id": 5, "name": "破坏", "color": "#9433EA", "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/master_2.webp" },
     "attackType": {
       "id": 1,
       "name": "物理",

@@ -36,12 +36,7 @@ export const gsaCharacters = [
       "name": "Light",
       "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/battleelement_5.webp"
     },
-    "job": {
-      "id": 2,
-      "name": "Striker",
-      "color": "#EA3333",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/fighters_5.webp"
-    },
+    "job": {"id": 2, "name": "Striker", "color": "#EA3333", "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/fighters_5.webp" },
     "attackType": {
       "id": 1,
       "name": "Physical",
@@ -215,12 +210,7 @@ export const gsaCharacters = [
       "name": "Earth",
       "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/battleelement_2.webp"
     },
-    "job": {
-      "id": 5,
-      "name": "Breaker",
-      "color": "#9433EA",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/master_2.webp"
-    },
+    "job": {"id": 3, "name": "Sniper", "color": "#FFC405", "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/archer_2.webp" },
     "attackType": {
       "id": 2,
       "name": "Energy",
@@ -1292,12 +1282,7 @@ export const gsaCharacters = [
       "name": "Water",
       "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/battleelement_4.webp"
     },
-    "job": {
-      "id": 4,
-      "name": "Support",
-      "color": "#33EA62",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/priest_4.webp"
-    },
+    "job": {"id": 5, "name": "Breaker", "color": "#9433EA", "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/master_4.webp" },
     "attackType": {
       "id": 1,
       "name": "Physical",
@@ -1468,12 +1453,7 @@ export const gsaCharacters = [
       "name": "Water",
       "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/battleelement_4.webp"
     },
-    "job": {
-      "id": 5,
-      "name": "Breaker",
-      "color": "#9433EA",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/master_4.webp"
-    },
+    "job": {"id": 3, "name": "Sniper", "color": "#FFC405", "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/archer_4.webp" },
     "attackType": {
       "id": 2,
       "name": "Energy",
@@ -1645,12 +1625,7 @@ export const gsaCharacters = [
       "name": "Light",
       "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/battleelement_5.webp"
     },
-    "job": {
-      "id": 3,
-      "name": "Sniper",
-      "color": "#FFC405",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/archer_5.webp"
-    },
+    "job": {"id": 4, "name": "Support", "color": "#33EA62", "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/priest_5.webp" },
     "attackType": {
       "id": 1,
       "name": "Physical",
@@ -2210,12 +2185,7 @@ export const gsaCharacters = [
       "name": "Earth",
       "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/battleelement_2.webp"
     },
-    "job": {
-      "id": 3,
-      "name": "Sniper",
-      "color": "#FFC405",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/archer_2.webp"
-    },
+    "job": {"id": 4, "name": "Support", "color": "#33EA62", "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/priest_2.webp" },
     "attackType": {
       "id": 1,
       "name": "Physical",
@@ -2586,12 +2556,7 @@ export const gsaCharacters = [
       "name": "Dark",
       "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/battleelement_6.webp"
     },
-    "job": {
-      "id": 4,
-      "name": "Support",
-      "color": "#33EA62",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/priest_2.webp"
-    },
+    "job": {"id": 4, "name": "Support", "color": "#33EA62", "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/priest_6.webp" },
     "attackType": {
       "id": 2,
       "name": "Energy",
@@ -3150,12 +3115,7 @@ export const gsaCharacters = [
       "name": "Light",
       "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/battleelement_5.webp"
     },
-    "job": {
-      "id": 5,
-      "name": "Breaker",
-      "color": "#9433EA",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/master_5.webp"
-    },
+    "job": {"id": 3, "name": "Sniper", "color": "#FFC405", "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/archer_5.webp" },
     "attackType": {
       "id": 2,
       "name": "Energy",
@@ -3522,12 +3482,7 @@ export const gsaCharacters = [
       "name": "Wind",
       "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/battleelement_3.webp"
     },
-    "job": {
-      "id": 3,
-      "name": "Sniper",
-      "color": "#FFC405",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/archer_3.webp"
-    },
+    "job": {"id": 5, "name": "Breaker", "color": "#9433EA", "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/master_3.webp" },
     "attackType": {
       "id": 2,
       "name": "Energy",
@@ -4273,12 +4228,7 @@ export const gsaCharacters = [
       "name": "Fire",
       "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/battleelement_1.webp"
     },
-    "job": {
-      "id": 4,
-      "name": "Support",
-      "color": "#33EA62",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/priest_1.webp"
-    },
+    "job": {"id": 3, "name": "Sniper", "color": "#FFC405", "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/archer_1.webp" },
     "attackType": {
       "id": 2,
       "name": "Energy",
@@ -4461,12 +4411,7 @@ export const gsaCharacters = [
       "name": "Wind",
       "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/battleelement_3.webp"
     },
-    "job": {
-      "id": 4,
-      "name": "Support",
-      "color": "#33EA62",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/priest_3.webp"
-    },
+    "job": {"id": 3, "name": "Sniper", "color": "#FFC405", "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/archer_3.webp" },
     "attackType": {
       "id": 1,
       "name": "Physical",
@@ -5022,12 +4967,7 @@ export const gsaCharacters = [
       "name": "Earth",
       "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/battleelement_2.webp"
     },
-    "job": {
-      "id": 4,
-      "name": "Support",
-      "color": "#33EA62",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/priest_2.webp"
-    },
+    "job": {"id": 3, "name": "Sniper", "color": "#FFC405", "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/archer_2.webp" },
     "attackType": {
       "id": 1,
       "name": "Physical",
@@ -5211,12 +5151,7 @@ export const gsaCharacters = [
       "name": "Dark",
       "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/battleelement_6.webp"
     },
-    "job": {
-      "id": 3,
-      "name": "Sniper",
-      "color": "#FFC405",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/archer_6.webp"
-    },
+    "job": {"id": 5, "name": "Breaker", "color": "#9433EA", "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/master_6.webp" },
     "attackType": {
       "id": 2,
       "name": "Energy",
@@ -5398,12 +5333,7 @@ export const gsaCharacters = [
       "name": "Light",
       "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/battleelement_5.webp"
     },
-    "job": {
-      "id": 5,
-      "name": "Breaker",
-      "color": "#9433EA",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/master_5.webp"
-    },
+    "job": {"id": 3, "name": "Sniper", "color": "#FFC405", "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/archer_5.webp" },
     "attackType": {
       "id": 1,
       "name": "Physical",
@@ -5583,12 +5513,7 @@ export const gsaCharacters = [
       "name": "Water",
       "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/battleelement_4.webp"
     },
-    "job": {
-      "id": 3,
-      "name": "Sniper",
-      "color": "#FFC405",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/archer_4.webp"
-    },
+    "job": {"id": 5, "name": "Breaker", "color": "#9433EA", "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/master_4.webp" },
     "attackType": {
       "id": 2,
       "name": "Energy",
@@ -6528,12 +6453,7 @@ export const gsaCharacters = [
       "name": "Earth",
       "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/battleelement_2.webp"
     },
-    "job": {
-      "id": 4,
-      "name": "Support",
-      "color": "#33EA62",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/priest_2.webp"
-    },
+    "job": {"id": 5, "name": "Breaker", "color": "#9433EA", "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/master_2.webp" },
     "attackType": {
       "id": 1,
       "name": "Physical",
