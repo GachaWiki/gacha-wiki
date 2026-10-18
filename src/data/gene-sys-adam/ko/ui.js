@@ -83,8 +83,9 @@ export const GSA_KO = {
     "dbTitle": "캐릭터 데이터베이스",
     "dbDesc": "42명의 각성자: 속성, 직업, 스킬, 스탯 계산기, 추격 체계 역할까지. 게임 공식 한국어 텍스트 사용.",
     "dbBtn": "도감 보기",
-    "moreTitle": "영어 콘텐츠",
-    "moreDesc": "티어리스트·뽑기(배너)·업데이트는 현재 영어판과 번체중문판에서 제공됩니다."
+        "moreTitle": "다른 콘텐츠",
+    "moreDesc": "티어 리스트는 한국어로 제공됩니다. 뽑기(배너)와 업데이트는 현재 영어로 제공됩니다.",
+    "tierLabel": "티어 리스트"
   },
   "baseUrl": "/ko/guides/gene-sys-adam/",
   "selectorUrl": "/guides/gene-sys-adam/select/",

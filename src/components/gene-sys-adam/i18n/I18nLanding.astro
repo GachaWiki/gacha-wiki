@@ -1,8 +1,8 @@
 ---
 // Shared landing template for the Gene-Sys: Adam non-EN language sections
 // (ja/ko/th/vi/zh-cn): story blurb, download buttons, the localized character
-// database card and pointers to the EN/zh-tw sections (tier list, banners,
-// updates). All copy comes from the per-language ui module; gsa-landing.css.
+// database card, the localized tier list button and pointers to the EN
+// sections (banners, updates). All copy comes from the per-language ui module; gsa-landing.css.
 import GameLanguageLinks from '../../GameLanguageLinks.astro';
 
 export interface Props {
@@ -66,7 +66,7 @@ const L = ui.labels;
         <p class="gsa-category-description">{ui.landing.moreDesc}</p>
       </div>
       <div class="gsa-buttons-grid">
-        <a href="/guides/gene-sys-adam/tier-list/" class="gsa-resource-button">Tier List (EN)</a>
+        <a href={`${base}tier-list/`} class="gsa-resource-button">{ui.landing.tierLabel}</a>
         <a href="/guides/gene-sys-adam/banners/" class="gsa-resource-button">Banners (EN)</a>
         <a href="/guides/gene-sys-adam/updates/" class="gsa-resource-button">Updates (EN)</a>
       </div>

@@ -83,8 +83,9 @@ export const GSA_VI = {
     "dbTitle": "Cơ sở dữ liệu nhân vật",
     "dbDesc": "42 Kiện Tướng: nguyên tố, nghề nghiệp, kỹ năng, máy tính chỉ số và vai trò trong hệ Truy Kích. Văn bản game dùng bản tiếng Việt chính thức.",
     "dbBtn": "Xem cơ sở dữ liệu",
-    "moreTitle": "Nội dung tiếng Anh",
-    "moreDesc": "Bảng xếp hạng, banner và bản tin cập nhật hiện có ở bản tiếng Anh và tiếng Trung phồn thể."
+        "moreTitle": "Nội dung khác",
+    "moreDesc": "Bảng xếp hạng đã có bản tiếng Việt. Banner và bản tin cập nhật hiện chỉ có bản tiếng Anh.",
+    "tierLabel": "Bảng Xếp Hạng"
   },
   "baseUrl": "/vi/guides/gene-sys-adam/",
   "selectorUrl": "/guides/gene-sys-adam/select/",

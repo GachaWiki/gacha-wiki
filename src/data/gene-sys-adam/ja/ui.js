@@ -83,8 +83,9 @@ export const GSA_JA = {
     "dbTitle": "キャラクターデータベース",
     "dbDesc": "全42名の覚醒者：属性、ジョブ、スキル、ステータス計算機、追撃体系の役割を掲載。ゲーム内公式日本語テキストを使用。",
     "dbBtn": "図鑑を見る",
-    "moreTitle": "英語版コンテンツ",
-    "moreDesc": "ティアリスト・卡池（バナー）・更新履歴は現在英語版と繁體中文版で公開中です。"
+        "moreTitle": "その他のコンテンツ",
+    "moreDesc": "ティアリストは日本語で公開中です。卡池（バナー）と更新履歴は現在英語版で公開中です。",
+    "tierLabel": "ティアリスト"
   },
   "baseUrl": "/ja/guides/gene-sys-adam/",
   "selectorUrl": "/guides/gene-sys-adam/select/",

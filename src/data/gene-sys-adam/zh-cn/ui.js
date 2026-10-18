@@ -83,8 +83,9 @@ export const GSA_ZHCN = {
     "dbTitle": "角色数据库",
     "dbDesc": "全部 42 名觉醒者：属性、职业、技能、素质计算器与追击体系角色。游戏文字取自官方简体中文。",
     "dbBtn": "浏览数据库",
-    "moreTitle": "英语内容",
-    "moreDesc": "强度榜、卡池与更新公告目前提供英语版与繁体中文版。"
+        "moreTitle": "更多内容",
+    "moreDesc": "排行榜已提供简体中文版。卡池与更新公告目前为英语版。",
+    "tierLabel": "排行榜"
   },
   "baseUrl": "/zh-cn/guides/gene-sys-adam/",
   "selectorUrl": "/guides/gene-sys-adam/select/",
