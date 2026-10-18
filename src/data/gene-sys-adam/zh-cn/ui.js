@@ -84,8 +84,10 @@ export const GSA_ZHCN = {
     "dbDesc": "全部 42 名觉醒者：属性、职业、技能、素质计算器与追击体系角色。游戏文字取自官方简体中文。",
     "dbBtn": "浏览数据库",
         "moreTitle": "更多内容",
-    "moreDesc": "排行榜已提供简体中文版。卡池与更新公告目前为英语版。",
-    "tierLabel": "排行榜"
+    "moreDesc": "强度榜、卡池历史与更新日志均已提供简体中文版本。",
+    "tierLabel": "排行榜",
+    "bannersLabel": "卡池",
+    "updatesLabel": "更新"
   },
   "baseUrl": "/zh-cn/guides/gene-sys-adam/",
   "selectorUrl": "/guides/gene-sys-adam/select/",
@@ -100,19 +102,19 @@ export const GSA_ZHCN = {
       ]
     },
     {
-      "title": "英语内容",
+      "title": "攻略",
       "links": [
         {
           "name": "排行榜",
           "href": "/zh-cn/guides/gene-sys-adam/tier-list/"
         },
         {
-          "name": "Banners (EN)",
-          "href": "/guides/gene-sys-adam/banners/"
+          "name": "卡池",
+          "href": "/zh-cn/guides/gene-sys-adam/banners/"
         },
         {
-          "name": "Updates (EN)",
-          "href": "/guides/gene-sys-adam/updates/"
+          "name": "更新",
+          "href": "/zh-cn/guides/gene-sys-adam/updates/"
         }
       ]
     }

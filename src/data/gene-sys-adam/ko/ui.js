@@ -84,8 +84,10 @@ export const GSA_KO = {
     "dbDesc": "42명의 각성자: 속성, 직업, 스킬, 스탯 계산기, 추격 체계 역할까지. 게임 공식 한국어 텍스트 사용.",
     "dbBtn": "도감 보기",
         "moreTitle": "다른 콘텐츠",
-    "moreDesc": "티어 리스트는 한국어로 제공됩니다. 뽑기(배너)와 업데이트는 현재 영어로 제공됩니다.",
-    "tierLabel": "티어 리스트"
+    "moreDesc": "티어 리스트, 배너 히스토리, 업데이트 로그를 모두 한국어로 이용할 수 있다.",
+    "tierLabel": "티어 리스트",
+    "bannersLabel": "배너",
+    "updatesLabel": "업데이트"
   },
   "baseUrl": "/ko/guides/gene-sys-adam/",
   "selectorUrl": "/guides/gene-sys-adam/select/",
@@ -100,19 +102,19 @@ export const GSA_KO = {
       ]
     },
     {
-      "title": "영어 콘텐츠",
+      "title": "가이드",
       "links": [
         {
           "name": "티어 리스트",
           "href": "/ko/guides/gene-sys-adam/tier-list/"
         },
         {
-          "name": "Banners (EN)",
-          "href": "/guides/gene-sys-adam/banners/"
+          "name": "배너",
+          "href": "/ko/guides/gene-sys-adam/banners/"
         },
         {
-          "name": "Updates (EN)",
-          "href": "/guides/gene-sys-adam/updates/"
+          "name": "업데이트",
+          "href": "/ko/guides/gene-sys-adam/updates/"
         }
       ]
     }

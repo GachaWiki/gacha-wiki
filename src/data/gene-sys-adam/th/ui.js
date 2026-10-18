@@ -84,8 +84,10 @@ export const GSA_TH = {
     "dbDesc": "ผู้ตื่นรู้ทั้ง 42 คน: ธาตุ อาชีพ สกิล เครื่องคำนวณสเตตัส และบทบาทในระบบไล่ตาม ใช้ข้อความไทยอย่างเป็นทางการจากเกม",
     "dbBtn": "เปิดคลังตัวละคร",
         "moreTitle": "เนื้อหาอื่น ๆ",
-    "moreDesc": "อันดับตัวละครชมได้ในภาษาไทย แบนเนอร์และบันทึกอัปเดตปัจจุบันมีเฉพาะฉบับภาษาอังกฤษ",
-    "tierLabel": "จัดอันดับ"
+    "moreDesc": "เทียร์ลิสต์ ประวัติแบนเนอร์ และบันทึกการอัปเดต มีให้ใช้งานครบทุกส่วนในภาษาไทย",
+    "tierLabel": "จัดอันดับ",
+    "bannersLabel": "แบนเนอร์",
+    "updatesLabel": "อัปเดต"
   },
   "baseUrl": "/th/guides/gene-sys-adam/",
   "selectorUrl": "/guides/gene-sys-adam/select/",
@@ -100,19 +102,19 @@ export const GSA_TH = {
       ]
     },
     {
-      "title": "เนื้อหาภาษาอังกฤษ",
+      "title": "คู่มือ",
       "links": [
         {
           "name": "จัดอันดับ",
           "href": "/th/guides/gene-sys-adam/tier-list/"
         },
         {
-          "name": "Banners (EN)",
-          "href": "/guides/gene-sys-adam/banners/"
+          "name": "แบนเนอร์",
+          "href": "/th/guides/gene-sys-adam/banners/"
         },
         {
-          "name": "Updates (EN)",
-          "href": "/guides/gene-sys-adam/updates/"
+          "name": "อัปเดต",
+          "href": "/th/guides/gene-sys-adam/updates/"
         }
       ]
     }

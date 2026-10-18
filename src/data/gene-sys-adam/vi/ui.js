@@ -84,8 +84,10 @@ export const GSA_VI = {
     "dbDesc": "42 Kiện Tướng: nguyên tố, nghề nghiệp, kỹ năng, máy tính chỉ số và vai trò trong hệ Truy Kích. Văn bản game dùng bản tiếng Việt chính thức.",
     "dbBtn": "Xem cơ sở dữ liệu",
         "moreTitle": "Nội dung khác",
-    "moreDesc": "Bảng xếp hạng đã có bản tiếng Việt. Banner và bản tin cập nhật hiện chỉ có bản tiếng Anh.",
-    "tierLabel": "Bảng Xếp Hạng"
+    "moreDesc": "Bảng xếp hạng, lịch sử banner và nhật ký cập nhật đều có sẵn bằng tiếng Việt.",
+    "tierLabel": "Bảng Xếp Hạng",
+    "bannersLabel": "Banner",
+    "updatesLabel": "Cập Nhật"
   },
   "baseUrl": "/vi/guides/gene-sys-adam/",
   "selectorUrl": "/guides/gene-sys-adam/select/",
@@ -100,19 +102,19 @@ export const GSA_VI = {
       ]
     },
     {
-      "title": "Nội dung tiếng Anh",
+      "title": "Hướng Dẫn",
       "links": [
         {
           "name": "Bảng Xếp Hạng",
           "href": "/vi/guides/gene-sys-adam/tier-list/"
         },
         {
-          "name": "Banners (EN)",
-          "href": "/guides/gene-sys-adam/banners/"
+          "name": "Banner",
+          "href": "/vi/guides/gene-sys-adam/banners/"
         },
         {
-          "name": "Updates (EN)",
-          "href": "/guides/gene-sys-adam/updates/"
+          "name": "Cập Nhật",
+          "href": "/vi/guides/gene-sys-adam/updates/"
         }
       ]
     }

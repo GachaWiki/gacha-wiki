@@ -84,8 +84,10 @@ export const GSA_JA = {
     "dbDesc": "全42名の覚醒者：属性、ジョブ、スキル、ステータス計算機、追撃体系の役割を掲載。ゲーム内公式日本語テキストを使用。",
     "dbBtn": "図鑑を見る",
         "moreTitle": "その他のコンテンツ",
-    "moreDesc": "ティアリストは日本語で公開中です。卡池（バナー）と更新履歴は現在英語版で公開中です。",
-    "tierLabel": "ティアリスト"
+    "moreDesc": "キャラ評価表、バナー履歴、アップデートログは、いずれも日本語で閲覧できる。",
+    "tierLabel": "ティアリスト",
+    "bannersLabel": "バナー",
+    "updatesLabel": "アップデート"
   },
   "baseUrl": "/ja/guides/gene-sys-adam/",
   "selectorUrl": "/guides/gene-sys-adam/select/",
@@ -100,19 +102,19 @@ export const GSA_JA = {
       ]
     },
     {
-      "title": "英語版コンテンツ",
+      "title": "攻略",
       "links": [
         {
           "name": "ティアリスト",
           "href": "/ja/guides/gene-sys-adam/tier-list/"
         },
         {
-          "name": "Banners (EN)",
-          "href": "/guides/gene-sys-adam/banners/"
+          "name": "バナー",
+          "href": "/ja/guides/gene-sys-adam/banners/"
         },
         {
-          "name": "Updates (EN)",
-          "href": "/guides/gene-sys-adam/updates/"
+          "name": "アップデート",
+          "href": "/ja/guides/gene-sys-adam/updates/"
         }
       ]
     }
