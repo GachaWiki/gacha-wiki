@@ -29,9 +29,13 @@ const game = navOverride
   ? { ...getGameData(validatedGameKey), ...navOverride }
   : getGameData(validatedGameKey);
 // Game landing URL from the single registry (fixes every game at once — no per-game chain).
+// The registry URL is the games-list entry point, which is the /select/ hub for
+// games with localized wikis; inside the wiki the game title must lead to the
+// landing page (same as the localized sections and the mobile nav), never the selector.
+const registryUrl = validatedGameKey && getGameById(validatedGameKey)?.url;
 const gameUrl =
   navOverride?.gameUrl ||
-  (validatedGameKey && getGameById(validatedGameKey)?.url) ||
+  registryUrl?.replace(/\/select\/$/, '/') ||
   '/guides/silver-and-blood/';
 
 // Activate only the LONGEST matching nav href, so a deeper page like
