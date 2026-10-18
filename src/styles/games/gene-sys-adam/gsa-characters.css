@@ -127,6 +127,12 @@
   line-height: 1.5;
 }
 
+/* text links inside notes: accent like every other content link, never the
+   browser default blue */
+.gsa-section-note a {
+  color: var(--gsa-accent-strong);
+}
+
 /* ---------- stat tiles ---------- */
 .gsa-stat-grid {
   display: grid;
