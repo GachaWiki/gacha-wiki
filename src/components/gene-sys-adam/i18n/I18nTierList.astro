@@ -7,7 +7,6 @@
 // layout and pass the locale roster. zh-TW keeps its bespoke page (rarity
 // tabs + full zh boxes) until it is migrated onto this component.
 import { GSA_TIER_VIEWS, gsaTierSsrCount, GSA_TIER_UPDATED, GSA_BEGINNER_NOTE, GSA_PAIRS_NOTE, GSA_PURSUIT_NOTE, GSA_TIER_PLACEMENTS, gsaRarityBadge, GSA_ELEMENT_SECTIONS, gsaFullDisplayName, GSA_TIER_NOTES } from '../../../data/gene-sys-adam/tier-list.js';
-import { GSA_PURSUIT_TERMS_LOC } from '../../../data/gene-sys-adam/pursuit-terms-loc.js';
 import { gsaPursuitRole } from '../../../data/gene-sys-adam/pursuit-roles.js';
 import GSAElementCard from '../GSAElementCard.astro';
 import '../../../styles/games/gene-sys-adam/gsa-common.css';
@@ -152,21 +151,6 @@ const charUrl = slug => `${base}/guides/gene-sys-adam/characters/${slug}/`;
 // (Belle / Belle Cowgirl), same rule as gsaFullDisplayName on the EN page
 const nameCounts = characters.reduce((m, c) => ({ ...m, [c.name]: (m[c.name] || 0) + 1 }), {});
 const displayName = c => c.title && nameCounts[c.name] > 1 ? `${c.name} (${c.title})` : c.name;
-// game-official localized status/pursuit terms for this locale (EN fallback)
-const terms = GSA_PURSUIT_TERMS_LOC[locale];
-const statusName = en => (terms && terms.statuses[en]) || en;
-const pursuitName = en => (terms && terms.pursuits[en]) || en;
-// localized job + element names per id, straight from the locale roster
-// (the game's own terms); sections are titled by these on non-EN pages
-const JOB_EN = { 1: 'Guardian', 2: 'Striker', 3: 'Sniper', 4: 'Support', 5: 'Breaker' };
-const ELEM_EN = { 1: 'Fire', 2: 'Earth', 3: 'Wind', 4: 'Water', 5: 'Light', 6: 'Dark' };
-const jobTitle = {}; const elemTitle = {};
-for (const c of characters) {
-  if (c.job?.id && !jobTitle[JOB_EN[c.job.id]]) jobTitle[JOB_EN[c.job.id]] = c.job.name;
-  if (c.element?.id && !elemTitle[ELEM_EN[c.element.id]]) elemTitle[ELEM_EN[c.element.id]] = c.element.name;
-}
-// the views are computed from the EN roster; overlay locale name/icon per card
-const loc = slug => bySlug[slug] || {};
 ---
 
 <section>
@@ -251,9 +235,9 @@ const loc = slug => bySlug[slug] || {};
             <img src={icon} alt="" width="36" height="36" loading="lazy" />
             <b>{element}<i class="gsa-pursuit-elem-zh">{zh}</i></b>
           </span>
-          <span class="gsa-pursuit-status" title={`${chain.status} (${chain.statusZh})`}>{statusName(chain.status)}</span>
+          <span class="gsa-pursuit-status" title={`${chain.status} (${chain.statusZh})`}>{chain.status}</span>
           <svg class="gsa-pursuit-arrow" viewBox="0 0 26 12" width="22" height="10" aria-hidden="true"><path d="M0 6 H20 M15 1 L20 6 L15 11" stroke="currentColor" fill="none" stroke-width="2" /></svg>
-          <span class="gsa-pursuit-name" title={`${chain.pursuit} (${chain.pursuitZh})`}>{pursuitName(chain.pursuit)}</span>
+          <span class="gsa-pursuit-name" title={`${chain.pursuit} (${chain.pursuitZh})`}>{chain.pursuit}</span>
           <span class="gsa-pursuit-effect">{chain.effect}</span>
         </div>
       ))}
@@ -280,10 +264,10 @@ const loc = slug => bySlug[slug] || {};
         <div class="gsa-tier-job-section">
           <div class="gsa-tier-job-header">
             {section.icon && <img class="gsa-tier-job-icon" src={section.icon} alt="" width="40" height="40" loading="lazy" />}
-            <h2 class="gsa-tier-job-title">{jobTitle[section.title] ?? section.title}<span class="gsa-tier-job-zh">{locale === 'en' ? section.zh : section.title}</span></h2>
+            <h2 class="gsa-tier-job-title">{section.title}<span class="gsa-tier-job-zh">{section.zh}</span></h2>
             {section.chain && (
               <span class="gsa-tier-pursuit-chip" title={`${section.chain.effect} when it fires`}>
-                {statusName(section.chain.status)} triggers {pursuitName(section.chain.pursuit)}
+                {section.chain.status} triggers {section.chain.pursuit}
               </span>
             )}
             <span class="gsa-tier-job-count">
@@ -300,10 +284,10 @@ const loc = slug => bySlug[slug] || {};
                 <div class="gsa-tier-characters">
                   {row.characters.map(c => (
                     <a class="gsa-tier-card" href={charUrl(c.slug)}>
-                      {loc(c.slug).icon || c.icon ? (
-                        <img class="gsa-tier-thumb" src={loc(c.slug).icon || c.icon} alt={displayName(loc(c.slug).name ? loc(c.slug) : c)} loading="lazy" />
+                      {c.icon ? (
+                        <img class="gsa-tier-thumb" src={c.icon} alt={displayName(c)} loading="lazy" />
                       ) : (
-                        <span class="gsa-tier-thumb gsa-monogram">{(loc(c.slug).name || c.name)?.[0]}</span>
+                        <span class="gsa-tier-thumb gsa-monogram">{c.name?.[0]}</span>
                       )}
                       <span class="gsa-tier-badges">
                         {gsaRarityBadge(c.placement.rarity) ? (
@@ -315,7 +299,7 @@ const loc = slug => bySlug[slug] || {};
                           <img class="gsa-tier-elem" src={c.element.icon} alt={c.element.name} title={c.element.name} width="18" height="18" loading="lazy" />
                         )}
                       </span>
-                      <span class="gsa-tier-name-label">{loc(c.slug).name ? displayName(loc(c.slug)) : displayName(c)}</span>
+                      <span class="gsa-tier-name-label">{displayName(c)}</span>
                       {(() => { const pr = gsaPursuitRole(c.slug); return (
                         <span class={`gsa-tier-role gsa-tier-role-${pr.role}`}>{L.roles[pr.role]}</span>
                       ); })()}
