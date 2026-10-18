@@ -3,7 +3,7 @@
 // 相同（gsa-tier.css）。角色卡與名稱改由官方繁中角色資料解析，前期培養
 // 說明與挑選理由為本維基繁中撰寫。
 import GsaZhLayout from '../../../../layouts/gene-sys-adam/GsaZhLayout.astro';
-import { GSA_TIERS, GSA_JOB_SECTIONS, GSA_TIER_PLACEMENTS, gsaRarityBadge, GSA_TIER_NOTES } from '../../../../data/gene-sys-adam/tier-list.js';
+import { GSA_TIERS, GSA_JOB_SECTIONS, GSA_TIER_PLACEMENTS, GSA_ELEMENT_PLACEMENTS, GSA_ELEMENT_SECTIONS, gsaRarityBadge, GSA_TIER_NOTES } from '../../../../data/gene-sys-adam/tier-list.js';
 import { gsaCharactersZh } from '../../../../data/gene-sys-adam/zh-tw/characters.js';
 import { gsaPursuitRole } from '../../../../data/gene-sys-adam/pursuit-roles.js';
 import { GSA_ZH } from '../../../../data/gene-sys-adam/zh-tw/ui.js';
@@ -56,8 +56,55 @@ const PAIRS_NOTE = {
   ],
 };
 
+// 繁中版角色短評（對應 GSA_TIER_NOTES 的在地化標題與內文，未列出的角色回退英文）。
+const NOTES_ZH = {
+  'amelie': [null, '滿編風隊時可到 SS。', '她是 S，但如果有完整的風屬性隊伍可以到 SS。她的增益與暴擊率都不錯。'],
+  'ojima-erina': [null, '為 PVP 而生。', '她的技能組圍繞 EN 運轉，這在 PVP 影響很大：她在 PVP 可以到 SSS。傷害普通。'],
+  'belle-clumsy-cowgirl': [null, '傷害偏弱。', '她的傷害就是偏低。她適合大地與範圍傷害，但體感偏弱，地圖上幾乎不會用到她的技能。'],
+  'ruo-lan': [null, '最佳大地輔助。', '大地隊的最佳輔助：大地攻擊提升 20%、護盾與大地隊專用的傷害觸發。目前還沒有好的大地主力輸出。'],
+  'rachel': [null, '後排殺手。', '她擅長擊殺後排輸出。傷害中等，但滿星後夠用。'],
+  'sugimoto-arina': [null, '唯一的優秀治療。', '遊戲目前沒有好的治療角色。之後會有更好的，她的重要性會下降，但現在她是唯一的好選擇。'],
+  'lin-lin': ['輸出與火屬狀態。', '擅長打後排目標。', '她的奧義與技能會打血量最低的目標，通常就是輸出手。PVP 表現不錯但傷害稍弱，優點是她能上火屬狀態。'],
+  'shiraishi-ai': [null, '有 SSS 潛力。', '老實說她可以到 SSS：她針對支援型的目標很強，傷害也很好。只是缺狀態效果。'],
+  'jessica': [null, '尚未實裝。', '她尚未開放取得，不過在遊戲檔案資料中她非常強。'],
+  'ruby': ['風屬最佳單體。', '非常強的單體輸出。', '她的每個技能都打單一目標：奧義在覺醒狀態下三段各 300%（感電命中率提升 30%），天賦技能三段各 93% 並附加感電 S。她還能持續上感電讓清音與李沐接超載追擊。而且她是最容易練滿的 SSR：任務可取得重複、專武可取得。'],
+  'komachi-sayaka': ['冰破終結者', '冰破終結者。', '她是目前遊戲最強的輸出之一，尤其冰隊。她能收掉冰破追擊，奧義非常強，與安藤加奈搭配更是無解。'],
+  'hijikata-chizuru': ['最強坦克', '最強坦克。', '她是目前遊戲最好的坦克之一，尤其大地隊。她能觸發石化大地狀態，被動也很好。'],
+  'kurosawa-shion': [null, '全隊的電池。', '她幫全隊回 EN，讓技能與奧義轉得更快。她跟暗隊也很合。'],
+  'fujiwara-arisa': [null, '免費友善的單體輸出，但練滿需要時間。', '活動頁面隨時可以取得她。她的奧義單體傷害非常強，只是要花時間練滿。'],
+  'andou-kana': ['冰凍啟動者', '冰破追擊鏈的核心。', '她是課金角色：需要花錢取得，但冰隊非常爆炸，範圍奧義非常強。'],
+  'charlotte': [null, '坦度不錯，但對隊伍幫助有限。', '不用太在意她：其他坦克也能做同樣的事。她沒有突出的地方，最多是審判狀態。'],
+  'liz': [null, '只有奧義能看，數值也太低。', '沒有追擊定位、沒有團隊增益、沒有狀態，就是一個坦。'],
+  'danxin': [null, '難取得但很坦。', '如果抽到並練滿（要好幾個月），她還行但沒有到爆炸。不過她的護盾真的爆炸。'],
+  'amber': [null, '坦克，無狀態。', '很容易練滿，前期帳號很好用，但比其他坦克沒多帶什麼，就只是坦。'],
+};
+const noteZh = slug => NOTES_ZH[slug] || null;
+
+
 const isReleased = c => Boolean(c.icon);
 const placementOf = slug => GSA_TIER_PLACEMENTS[slug] || { tier: 'C', rarity: null };
+
+// 屬性檢視：與英文版相同的屬性專用梯隊（GSA_ELEMENT_PLACEMENTS，缺省回退全域梯）。
+const ELEM_ID = { Fire: 1, Earth: 2, Wind: 3, Water: 4, Light: 5, Dark: 6 };
+const elemName = {};
+for (const c of gsaCharactersZh) if (c.element?.id && !elemName[c.element.id]) elemName[c.element.id] = c.element.name;
+const elemPlacementOf = slug => GSA_ELEMENT_PLACEMENTS[slug] || GSA_TIER_PLACEMENTS[slug] || { tier: 'C', rarity: null };
+const elemSections = GSA_ELEMENT_SECTIONS.map(section => ({
+  ...section,
+  local: elemName[ELEM_ID[section.element]] || section.element,
+  tiers: GSA_TIERS.map(({ tier, color }) => ({
+    tier,
+    color,
+    characters: gsaCharactersZh
+      .filter(c => isReleased(c)
+        && c.element && c.element.id === ELEM_ID[section.element]
+        && (elemPlacementOf(c.slug).rarity || 'SSR') === 'SSR'
+        && elemPlacementOf(c.slug).tier === tier)
+      .map(c => ({ ...c, placement: elemPlacementOf(c.slug) }))
+      .sort((a, b) => a.name.localeCompare(b.name, 'zh-Hant')),
+  })).filter(t => t.characters.length > 0),
+})).filter(sec => sec.tiers.length);
+
 
 // 依稀有度分頁的職業分區（與 gsaTierTabs 同邏輯，但角色名稱使用官方繁中）。
 const tierTabs = ['SSR', 'SR'].map(rarity => ({
@@ -90,7 +137,7 @@ const total = tierTabs.reduce((n, t) => n + tabCount(t.rarity), 0);
 
 <GsaZhLayout
   title="排行榜"
-  description={`黑色基因排行榜（2026年9月22日更新）：依職業戰鬥風格評比全部 ${total} 名已實裝角色，評分依據來自解密資料表的技能數據。`}
+  description={`黑色基因排行榜（2026年10月17日更新）：依職業戰鬥風格評比全部 ${total} 名已實裝角色，評分依據來自解密資料表的技能數據。`}
   gameTitle="排行榜"
   breadcrumbItems={[{ name: GSA_ZH.gameName, href: base }, { name: '排行榜' }]}
 >
@@ -170,6 +217,9 @@ const total = tierTabs.reduce((n, t) => n + tabCount(t.rarity), 0);
           <span class="gsa-tier-tab-count">{tabCount(tab.rarity)}</span>
         </button>
       ))}
+      <button class="gsa-tier-tab" data-rarity-tab="element" role="tab" aria-selected="false">
+        屬性別
+      </button>
     </div>
 
     {tierTabs.map((tab, i) => (
@@ -212,17 +262,17 @@ const total = tierTabs.reduce((n, t) => n + tabCount(t.rarity), 0);
                         {(() => { const pr = gsaPursuitRole(c.slug); return (
                           <span class={`gsa-tier-role gsa-tier-role-${pr.role}`}>{TIER_ROLE_ZH[pr.role]}</span>
                         ); })()}
-                        {GSA_TIER_NOTES[c.slug] && (() => { const n = GSA_TIER_NOTES[c.slug]; return (
-                          <span class={`gsa-tier-note-badge gsa-tier-note-${n.type}${n.variant ? ` gsa-note-variant-${n.variant}` : ''}`} tabindex="0" aria-label={n.title}>
+                        {GSA_TIER_NOTES[c.slug] && (() => { const n = GSA_TIER_NOTES[c.slug]; const zh = noteZh(c.slug); const t = zh ? zh[1] : n.title; const x = zh ? zh[2] : n.text; return (
+                          <span class={`gsa-tier-note-badge gsa-tier-note-${n.type}${n.variant ? ` gsa-note-variant-${n.variant}` : ''}`} tabindex="0" aria-label={t}>
                             <span class="gsa-tier-note-icon">{n.variant ? '★' : '!'}</span>
                             <span class="gsa-tier-note-tooltip" role="tooltip">
-                              <span class="gsa-tier-note-tooltip-title">{n.title}</span>
-                              <span class="gsa-tier-note-tooltip-text">{n.text}</span>
+                              <span class="gsa-tier-note-tooltip-title">{t}</span>
+                              <span class="gsa-tier-note-tooltip-text">{x}</span>
                             </span>
                           </span>
                         ); })()}
-                        {GSA_TIER_NOTES[c.slug]?.variant && (
-                          <span class={`gsa-tier-card-highlight gsa-note-variant-${GSA_TIER_NOTES[c.slug].variant}`}>{GSA_TIER_NOTES[c.slug].shortTitle}</span>
+                        {GSA_TIER_NOTES[c.slug]?.variant && noteZh(c.slug)?.[0] && (
+                          <span class={`gsa-tier-card-highlight gsa-note-variant-${GSA_TIER_NOTES[c.slug].variant}`}>{noteZh(c.slug)[0]}</span>
                         )}
                       </a>
                     ))}
@@ -236,6 +286,53 @@ const total = tierTabs.reduce((n, t) => n + tabCount(t.rarity), 0);
     ))}
 
 
+    <div class="gsa-tier-tabpanel" data-rarity-panel="element" style="display:none">
+      {elemSections.map(section => (
+        <div class="gsa-tier-job-section">
+          <div class="gsa-tier-job-header">
+            {section.icon && <img class="gsa-tier-job-icon" src={section.icon} alt="" width="40" height="40" loading="lazy" />}
+            <h2 class="gsa-tier-job-title">{section.local}<span class="gsa-tier-job-zh">{section.element}</span></h2>
+            <span class="gsa-tier-job-count">
+              {section.tiers.reduce((n, t) => n + t.characters.length, 0)} 名角色
+            </span>
+          </div>
+          <div class="gsa-tier-grid">
+            {section.tiers.map(row => (
+              <div class="gsa-tier-row">
+                <div class="gsa-tier-label">
+                  <span class="gsa-tier-name" style={`color:${row.color}`}>{row.tier}</span>
+                </div>
+                <div class="gsa-tier-characters">
+                  {row.characters.map(c => (
+                    <a class="gsa-tier-card" href={`${base}characters/${c.slug}/`}>
+                      {c.icon ? (
+                        <img class="gsa-tier-thumb" src={c.icon} alt={fullZhName(c)} loading="lazy" />
+                      ) : (
+                        <span class="gsa-tier-thumb gsa-monogram">{c.name?.[0]}</span>
+                      )}
+                      <span class="gsa-tier-badges">
+                        {gsaRarityBadge(c.placement.rarity) ? (
+                          <img class="gsa-rarity-badge gsa-tier-thumb-badge" src={gsaRarityBadge(c.placement.rarity)} alt={c.placement.rarity} width="50" height="32" loading="lazy" />
+                        ) : (
+                          <span class={`gsa-tier-rarity gsa-tier-rarity-${(c.placement.rarity || 'sr').toLowerCase()}`}>{c.placement.rarity}</span>
+                        )}
+                        {c.element && (
+                          <img class="gsa-tier-elem" src={c.element.icon} alt={c.element.name} title={c.element.name} width="18" height="18" loading="lazy" />
+                        )}
+                      </span>
+                      <span class="gsa-tier-name-label">{fullZhName(c)}</span>
+                      {(() => { const pr = gsaPursuitRole(c.slug); return (
+                        <span class={`gsa-tier-role gsa-tier-role-${pr.role}`}>{TIER_ROLE_ZH[pr.role]}</span>
+                      ); })()}
+                    </a>
+                  ))}
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      ))}
+    </div>
   </section>
 </GsaZhLayout>
 

@@ -102,8 +102,8 @@ export const GSA_ZHCN = {
       "title": "英语内容",
       "links": [
         {
-          "name": "Tier List (EN)",
-          "href": "/guides/gene-sys-adam/tier-list/"
+          "name": "排行榜",
+          "href": "/zh-cn/guides/gene-sys-adam/tier-list/"
         },
         {
           "name": "Banners (EN)",
