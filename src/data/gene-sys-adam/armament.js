@@ -4309,3 +4309,15 @@ export const GSA_GEAR_SLOT_ALIAS = {
   'Giáp Tay': 'Gloves', 'Vũ Khí': 'Weapon', 'Giáp Chân': 'Shoes', 'Phụ Kiện': 'Accessory',
   '手套': 'Gloves', '足部': 'Shoes', '飾品': 'Accessory', '饰品': 'Accessory',
 };
+
+// Game quality-tier names per wiki language, keyed by htmlLang, for the
+// character page gear cards (EX pieces = Rainbow tier, base = Blue/Gold).
+export const GSA_GEAR_TIER_WORDS = {
+  en: { White: 'White', Green: 'Green', Blue: 'Blue', Purple: 'Purple', Gold: 'Gold', Red: 'Red', Rainbow: 'Rainbow' },
+  'zh-Hant': { White: '白色', Green: '綠色', Blue: '藍色', Purple: '紫色', Gold: '金色', Red: '紅色', Rainbow: '彩虹' },
+  'zh-Hans': { White: '白', Green: '绿', Blue: '蓝', Purple: '紫', Gold: '金', Red: '红', Rainbow: '彩虹' },
+  ja: { White: '白', Green: '緑', Blue: '青', Purple: '紫', Gold: '金', Red: '赤', Rainbow: '虹' },
+  ko: { White: '백', Green: '녹', Blue: '청', Purple: '자', Gold: '금', Red: '적', Rainbow: '무지개' },
+  th: { White: 'ขาว', Green: 'เขียว', Blue: 'ฟ้า', Purple: 'ม่วง', Gold: 'ทอง', Red: 'แดง', Rainbow: 'สายรุ้ง' },
+  vi: { White: 'Trắng', Green: 'Lục', Blue: 'Lam', Purple: 'Tím', Gold: 'Kim', Red: 'Đỏ', Rainbow: 'Cầu vồng' },
+};
