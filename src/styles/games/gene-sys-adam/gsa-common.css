@@ -362,20 +362,14 @@ a.gsa-card:active {
   }
 }
 
-/* Character page armament section: gear icon tile beside the piece name
+/* Character page armament section: gear icon tile on the gear cards
    (light tile like the Armament page; letter placeholder while a piece has
    no extracted art) */
-.gsa-gear-name {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
-
 .gsa-gear-ic {
-  width: 40px;
-  height: 40px;
-  flex: 0 0 40px;
-  border-radius: 6px;
+  width: 48px;
+  height: 48px;
+  flex: 0 0 48px;
+  border-radius: 8px;
   background: #d8d2d3;
   display: flex;
   align-items: center;

@@ -747,33 +747,81 @@
   line-height: 1.35;
 }
 
-/* Armament table: icon + piece id (name + EX level range) + stat chips */
-#gsa-armament .gsa-gear-name {
-  align-items: center;
+/* Armament: modern gear cards (compact version of the Armament page cards) */
+.gsa-gear-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 14px;
+  margin-top: 14px;
 }
-#gsa-armament .gsa-gear-id {
+.gsa-gear-card {
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.09);
+  border-radius: 10px;
+  padding: 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.gsa-gear-head {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.gsa-gear-title {
   display: flex;
   flex-direction: column;
   gap: 2px;
   min-width: 0;
+  flex: 1;
 }
-#gsa-armament .gsa-gear-piece {
+.gsa-gear-slot {
+  font-size: var(--text-xs);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
   font-weight: 700;
+  color: var(--gsa-text-dim);
+}
+.gsa-gear-piece {
+  font-weight: 700;
+  font-size: var(--text-body);
   color: var(--gsa-text);
 }
-#gsa-armament .gsa-gear-lv {
+.gsa-gear-lv {
   font-size: var(--text-xs);
   color: var(--gsa-text-dim);
   white-space: nowrap;
+  background: var(--gsa-bg-tertiary);
+  border: 1px solid var(--gsa-border);
+  border-radius: 5px;
+  padding: 2px 8px;
 }
-#gsa-armament .gsa-gear-stats {
+.gsa-gear-rows {
+  list-style: none;
+  margin: 0;
+  padding: 0;
   display: flex;
-  flex-wrap: wrap;
-  gap: 6px;
-  justify-content: flex-start;
+  flex-direction: column;
+  gap: 4px;
+  font-size: var(--text-sm);
 }
-#gsa-armament .gsa-gear-stats .gsa-chip {
-  font-size: var(--text-xs);
+.gsa-gear-rows li {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+  padding-bottom: 4px;
+}
+.gsa-gear-rows li:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+.gsa-gear-rows li span:first-child {
+  color: var(--gsa-text-dim);
+}
+.gsa-gear-rows li span:last-child {
+  color: var(--gsa-text);
+  font-variant-numeric: tabular-nums;
   white-space: nowrap;
 }
 

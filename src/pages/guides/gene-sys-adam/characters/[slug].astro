@@ -470,37 +470,36 @@ const growth = c.growth || { rate: 1, hp: [0, 0, 0, 0, 0, 0], atk: [0, 0, 0, 0, 
           enhancement; gear ratings are flat points, which the game converts
           through its level-scaled curve.
         </p>
-        <table class="gsa-stats-table">
-          <thead>
-            <tr><th>Slot</th><th>Piece</th><th>Stat lines</th></tr>
-          </thead>
-          <tbody>
-            {c.gear.map(g => (
-              <tr>
-                <th scope="row">{g.slot}</th>
-                <td class="gsa-gear-name">
+        <div class="gsa-gear-grid">
+          {c.gear.map(g => {
+            const art = gearArt[`${c.slug}|${GSA_GEAR_SLOT_ALIAS[g.slot] || g.slot}`];
+            const mxs = gearMax[`${c.slug}|${GSA_GEAR_SLOT_ALIAS[g.slot] || g.slot}`] || [];
+            return (
+              <div class="gsa-gear-card">
+                <div class="gsa-gear-head">
                   <span class="gsa-gear-ic" aria-hidden="true">
-                    {gearArt[`${c.slug}|${GSA_GEAR_SLOT_ALIAS[g.slot] || g.slot}`]
-                      ? <img src={gearArt[`${c.slug}|${GSA_GEAR_SLOT_ALIAS[g.slot] || g.slot}`]} alt="" width="40" height="40" loading="lazy" />
+                    {art
+                      ? <img src={art} alt="" width="48" height="48" loading="lazy" />
                       : <span class="gsa-gear-ic-ph">{g.slot[0]}</span>}
                   </span>
-                  <span class="gsa-gear-id">
+                  <span class="gsa-gear-title">
+                    <span class="gsa-gear-slot">{g.slot}</span>
                     <span class="gsa-gear-piece">{g.name}</span>
-                    <span class="gsa-gear-lv">EX Lv.1-6</span>
                   </span>
-                </td>
-                <td class="gsa-gear-stats">
+                  <span class="gsa-gear-lv">EX Lv.1-6</span>
+                </div>
+                <ul class="gsa-gear-rows">
                   {g.stats.map((s, i) => {
-                    const mx = (gearMax[`${c.slug}|${GSA_GEAR_SLOT_ALIAS[g.slot] || g.slot}`] || [])[i];
-                    const val = s.pct ? `${s.base / 100}%` : s.base.toLocaleString('en-US');
+                    const mx = mxs[i];
+                    const val = s.pct ? `+${s.base / 100}%` : `+${s.base.toLocaleString('en-US')}`;
                     const rng = !s.pct && mx != null && mx !== s.base ? ` to ${mx.toLocaleString('en-US')}` : '';
-                    return <span class="gsa-chip solid-muted">{s.label} +{val}{rng}</span>;
+                    return <li><span>{s.label}</span><span>{val}{rng}</span></li>;
                   })}
-                </td>
-              </tr>
-            ))}
-          </tbody>
-        </table>
+                </ul>
+              </div>
+            );
+          })}
+        </div>
         <p class="gsa-section-note" style="margin-top:8px">
           <a href="/guides/gene-sys-adam/armament/">Browse every signature piece on the Armament page</a>,
           with EX rank growth, enhancement, star-up and dismantle costs.

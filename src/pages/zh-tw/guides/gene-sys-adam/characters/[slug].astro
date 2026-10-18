@@ -510,37 +510,36 @@ const growth = c.growth || { rate: 1, hp: [0, 0, 0, 0, 0, 0], atk: [0, 0, 0, 0, 
         <p class="gsa-section-note">
           該角色的專屬裝備（每個部位的最佳版本），直接取自遊戲資料表。屬性線為 EX 等級 1 至 6、強化前的數值；裝備評級為固定點數，遊戲會透過隨等級縮放的曲線換算。
         </p>
-        <table class="gsa-stats-table">
-          <thead>
-            <tr><th>部位</th><th>裝備</th><th>屬性線</th></tr>
-          </thead>
-          <tbody>
-            {c.gear.map(g => (
-              <tr>
-                <th scope="row">{g.slot}</th>
-                <td class="gsa-gear-name">
+        <div class="gsa-gear-grid">
+          {c.gear.map(g => {
+            const art = gearArt[`${c.slug}|${GSA_GEAR_SLOT_ALIAS[g.slot] || g.slot}`];
+            const mxs = gearMax[`${c.slug}|${GSA_GEAR_SLOT_ALIAS[g.slot] || g.slot}`] || [];
+            return (
+              <div class="gsa-gear-card">
+                <div class="gsa-gear-head">
                   <span class="gsa-gear-ic" aria-hidden="true">
-                    {gearArt[`${c.slug}|${GSA_GEAR_SLOT_ALIAS[g.slot] || g.slot}`]
-                      ? <img src={gearArt[`${c.slug}|${GSA_GEAR_SLOT_ALIAS[g.slot] || g.slot}`]} alt="" width="40" height="40" loading="lazy" />
+                    {art
+                      ? <img src={art} alt="" width="48" height="48" loading="lazy" />
                       : <span class="gsa-gear-ic-ph">{g.slot[0]}</span>}
                   </span>
-                  <span class="gsa-gear-id">
+                  <span class="gsa-gear-title">
+                    <span class="gsa-gear-slot">{g.slot}</span>
                     <span class="gsa-gear-piece">{g.name}</span>
-                    <span class="gsa-gear-lv">EX Lv.1-6</span>
                   </span>
-                </td>
-                <td class="gsa-gear-stats">
+                  <span class="gsa-gear-lv">EX Lv.1-6</span>
+                </div>
+                <ul class="gsa-gear-rows">
                   {g.stats.map((s, i) => {
-                    const mx = (gearMax[`${c.slug}|${GSA_GEAR_SLOT_ALIAS[g.slot] || g.slot}`] || [])[i];
-                    const val = s.pct ? `${s.base / 100}%` : s.base.toLocaleString('en-US');
+                    const mx = mxs[i];
+                    const val = s.pct ? `+${s.base / 100}%` : `+${s.base.toLocaleString('en-US')}`;
                     const rng = !s.pct && mx != null && mx !== s.base ? ` 至 ${mx.toLocaleString('en-US')}` : '';
-                    return <span class="gsa-chip solid-muted">{s.label} +{val}{rng}</span>;
+                    return <li><span>{s.label}</span><span>{val}{rng}</span></li>;
                   })}
-                </td>
-              </tr>
-            ))}
-          </tbody>
-        </table>
+                </ul>
+              </div>
+            );
+          })}
+        </div>
         <p class="gsa-section-note" style="margin-top:8px">
           <a href={`${base}armament/`}>前往武裝頁瀏覽所有專屬裝備</a>，包含 EX 階級成長、強化、升星與拆解費用。
         </p>
