@@ -8,6 +8,7 @@ import { gsaPursuitRole, GSA_PURSUIT_ROLES } from '../../../data/gene-sys-adam/p
 import { GSA_TIER_PLACEMENTS, gsaRarityBadge } from '../../../data/gene-sys-adam/tier-list.js';
 import { GSA_STATUSES, GSA_CHAR_STATUSES } from '../../../data/gene-sys-adam/statuses.js';
 import { gsaPropertyTypes } from '../../../data/gene-sys-adam/property-types.js';
+import { gsaSignatureGear, GSA_GEAR_SLOT_ALIAS } from '../../../data/gene-sys-adam/armament.js';
 
 export interface Props {
   ui: any;
@@ -26,6 +27,12 @@ const INV = Object.fromEntries(Object.entries(statLabels).map(([en, loc]) => [lo
 
 const profile = c.profile || {};
 const stats = c.stats || {};
+
+// Signature gear art (armament.js holds the icon names; join by slug+slot)
+const R2 = 'https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam';
+const gearArt = Object.fromEntries(
+  gsaSignatureGear.filter(g => g.icon).map(g => [`${g.slug}|${g.slot}`, `${R2}/${g.icon}.webp`])
+);
 const pct = v => `${Number(v) / 100}%`;
 
 const statGroups = [
@@ -391,7 +398,14 @@ const myStatuses = (GSA_CHAR_STATUSES[slug] || [])
           {c.gear.map(g => (
             <tr>
               <th scope="row">{g.slot}</th>
-              <td class="gsa-gear-name">{g.name}</td>
+              <td class="gsa-gear-name">
+                <span class="gsa-gear-ic" aria-hidden="true">
+                  {gearArt[`${c.slug}|${GSA_GEAR_SLOT_ALIAS[g.slot] || g.slot}`]
+                    ? <img src={gearArt[`${c.slug}|${GSA_GEAR_SLOT_ALIAS[g.slot] || g.slot}`]} alt="" width="40" height="40" loading="lazy" />
+                    : <span class="gsa-gear-ic-ph">{g.slot[0]}</span>}
+                </span>
+                <span>{g.name}</span>
+              </td>
               <td class="gsa-gear-stats">
                 {g.stats.map(s => (
                   <span class="gsa-chip solid-muted">{s.label} +{s.pct ? `${s.base / 100}%` : s.base.toLocaleString('en-US')}</span>

@@ -4298,3 +4298,14 @@ export const gsaDismantleReturns = [
     }
   }
 ];
+
+// Localized gear slot names (game-official, from the per-locale characters
+// gear arrays) -> EN slot names, for joining signature gear art on the
+// character pages in every language.
+export const GSA_GEAR_SLOT_ALIAS = {
+  '両手': 'Gloves', '武器': 'Weapon', '足部': 'Shoes', 'アクセサリー': 'Accessory',
+  '장갑': 'Gloves', '무기': 'Weapon', '신발': 'Shoes', '액세서리': 'Accessory',
+  'อุปกรณ์สวมมือ': 'Gloves', 'อาวุธ': 'Weapon', 'ส่วนเท้า': 'Shoes', 'เครื่องประดับ': 'Accessory',
+  'Giáp Tay': 'Gloves', 'Vũ Khí': 'Weapon', 'Giáp Chân': 'Shoes', 'Phụ Kiện': 'Accessory',
+  '手套': 'Gloves', '足部': 'Shoes', '飾品': 'Accessory', '饰品': 'Accessory',
+};

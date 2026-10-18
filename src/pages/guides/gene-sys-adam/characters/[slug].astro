@@ -9,6 +9,7 @@ import { getGsaReworkArchive } from '../../../../data/gene-sys-adam/rework-archi
 import { gsaPursuitRole, GSA_PURSUIT_ROLES } from '../../../../data/gene-sys-adam/pursuit-roles.js';
 import { GSA_TIER_PLACEMENTS, gsaRarityBadge, gsaFullDisplayName } from '../../../../data/gene-sys-adam/tier-list.js';
 import { GSA_STATUSES, GSA_CHAR_STATUSES } from '../../../../data/gene-sys-adam/statuses.js';
+import { gsaSignatureGear, GSA_GEAR_SLOT_ALIAS } from '../../../../data/gene-sys-adam/armament.js';
 import '../../../../styles/games/gene-sys-adam/gsa-common.css';
 import '../../../../styles/games/gene-sys-adam/gsa-characters.css';
 
@@ -21,6 +22,12 @@ const c = getGsaCharacter(slug);
 if (!c) return Astro.redirect('/guides/gene-sys-adam/characters/');
 
 const reworkArchive = getGsaReworkArchive(slug);
+
+// Signature gear art (armament.js holds the icon names; join by slug+slot)
+const R2 = 'https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam';
+const gearArt = Object.fromEntries(
+  gsaSignatureGear.filter(g => g.icon).map(g => [`${g.slug}|${g.slot}`, `${R2}/${g.icon}.webp`])
+);
 
 // Pursuit-system role: trigger fires pursuits, enabler applies the initiating
 // status, both is self-sufficient. "Pairs with" lists the roster characters
@@ -467,7 +474,14 @@ const growth = c.growth || { rate: 1, hp: [0, 0, 0, 0, 0, 0], atk: [0, 0, 0, 0, 
             {c.gear.map(g => (
               <tr>
                 <th scope="row">{g.slot}</th>
-                <td class="gsa-gear-name">{g.name}</td>
+                <td class="gsa-gear-name">
+                  <span class="gsa-gear-ic" aria-hidden="true">
+                    {gearArt[`${c.slug}|${GSA_GEAR_SLOT_ALIAS[g.slot] || g.slot}`]
+                      ? <img src={gearArt[`${c.slug}|${GSA_GEAR_SLOT_ALIAS[g.slot] || g.slot}`]} alt="" width="40" height="40" loading="lazy" />
+                      : <span class="gsa-gear-ic-ph">{g.slot[0]}</span>}
+                  </span>
+                  <span>{g.name}</span>
+                </td>
                 <td class="gsa-gear-stats">
                   {g.stats.map(s => (
                     <span class="gsa-chip solid-muted">{s.label} +{s.pct ? `${s.base / 100}%` : s.base.toLocaleString('en-US')}</span>
