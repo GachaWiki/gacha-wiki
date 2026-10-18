@@ -28,6 +28,10 @@ const R2 = 'https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam';
 const gearArt = Object.fromEntries(
   gsaSignatureGear.filter(g => g.icon).map(g => [`${g.slug}|${g.slot}`, `${R2}/${g.icon}.webp`])
 );
+// EX chain growth per stat (index-aligned with the character's gear stats)
+const gearMax = Object.fromEntries(
+  gsaSignatureGear.map(g => [`${g.slug}|${g.slot}`, g.stats.map(s => (s.pct ? null : s.max))])
+);
 
 // Pursuit-system role: trigger fires pursuits, enabler applies the initiating
 // status, both is self-sufficient. "Pairs with" lists the roster characters
@@ -462,7 +466,7 @@ const growth = c.growth || { rate: 1, hp: [0, 0, 0, 0, 0, 0], atk: [0, 0, 0, 0, 
         <h2>Armament</h2>
         <p class="gsa-section-note">
           This character's signature gear (best variant of each slot), straight
-          from the game tables. Stat lines are the base values before
+          from the game tables. Stat lines span EX level 1 to 6, before
           enhancement; gear ratings are flat points, which the game converts
           through its level-scaled curve.
         </p>
@@ -480,12 +484,18 @@ const growth = c.growth || { rate: 1, hp: [0, 0, 0, 0, 0, 0], atk: [0, 0, 0, 0, 
                       ? <img src={gearArt[`${c.slug}|${GSA_GEAR_SLOT_ALIAS[g.slot] || g.slot}`]} alt="" width="40" height="40" loading="lazy" />
                       : <span class="gsa-gear-ic-ph">{g.slot[0]}</span>}
                   </span>
-                  <span>{g.name}</span>
+                  <span class="gsa-gear-id">
+                    <span class="gsa-gear-piece">{g.name}</span>
+                    <span class="gsa-gear-lv">EX Lv.1-6</span>
+                  </span>
                 </td>
                 <td class="gsa-gear-stats">
-                  {g.stats.map(s => (
-                    <span class="gsa-chip solid-muted">{s.label} +{s.pct ? `${s.base / 100}%` : s.base.toLocaleString('en-US')}</span>
-                  ))}
+                  {g.stats.map((s, i) => {
+                    const mx = (gearMax[`${c.slug}|${GSA_GEAR_SLOT_ALIAS[g.slot] || g.slot}`] || [])[i];
+                    const val = s.pct ? `${s.base / 100}%` : s.base.toLocaleString('en-US');
+                    const rng = !s.pct && mx != null && mx !== s.base ? ` to ${mx.toLocaleString('en-US')}` : '';
+                    return <span class="gsa-chip solid-muted">{s.label} +{val}{rng}</span>;
+                  })}
                 </td>
               </tr>
             ))}

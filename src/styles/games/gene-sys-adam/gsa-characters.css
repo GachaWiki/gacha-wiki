@@ -747,19 +747,34 @@
   line-height: 1.35;
 }
 
-/* Armament table: piece name + stat chips */
+/* Armament table: icon + piece id (name + EX level range) + stat chips */
 #gsa-armament .gsa-gear-name {
+  align-items: center;
+}
+#gsa-armament .gsa-gear-id {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  min-width: 0;
+}
+#gsa-armament .gsa-gear-piece {
   font-weight: 700;
   color: var(--gsa-text);
+}
+#gsa-armament .gsa-gear-lv {
+  font-size: var(--text-xs);
+  color: var(--gsa-text-dim);
+  white-space: nowrap;
 }
 #gsa-armament .gsa-gear-stats {
   display: flex;
   flex-wrap: wrap;
   gap: 6px;
-  justify-content: flex-end;
+  justify-content: flex-start;
 }
 #gsa-armament .gsa-gear-stats .gsa-chip {
   font-size: var(--text-xs);
+  white-space: nowrap;
 }
 
 /* Rework Archive: pre-rework vs current text compare (HW pattern), flat cards */

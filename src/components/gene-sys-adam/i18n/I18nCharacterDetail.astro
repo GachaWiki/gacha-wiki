@@ -33,6 +33,10 @@ const R2 = 'https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam';
 const gearArt = Object.fromEntries(
   gsaSignatureGear.filter(g => g.icon).map(g => [`${g.slug}|${g.slot}`, `${R2}/${g.icon}.webp`])
 );
+// EX chain growth per stat (index-aligned with the character's gear stats)
+const gearMax = Object.fromEntries(
+  gsaSignatureGear.map(g => [`${g.slug}|${g.slot}`, g.stats.map(s => (s.pct ? null : s.max))])
+);
 const pct = v => `${Number(v) / 100}%`;
 
 const statGroups = [
@@ -404,12 +408,18 @@ const myStatuses = (GSA_CHAR_STATUSES[slug] || [])
                     ? <img src={gearArt[`${c.slug}|${GSA_GEAR_SLOT_ALIAS[g.slot] || g.slot}`]} alt="" width="40" height="40" loading="lazy" />
                     : <span class="gsa-gear-ic-ph">{g.slot[0]}</span>}
                 </span>
-                <span>{g.name}</span>
+                <span class="gsa-gear-id">
+                  <span class="gsa-gear-piece">{g.name}</span>
+                  <span class="gsa-gear-lv">EX Lv.1-6</span>
+                </span>
               </td>
               <td class="gsa-gear-stats">
-                {g.stats.map(s => (
-                  <span class="gsa-chip solid-muted">{s.label} +{s.pct ? `${s.base / 100}%` : s.base.toLocaleString('en-US')}</span>
-                ))}
+                {g.stats.map((s, i) => {
+                  const mx = (gearMax[`${c.slug}|${GSA_GEAR_SLOT_ALIAS[g.slot] || g.slot}`] || [])[i];
+                  const val = s.pct ? `${s.base / 100}%` : s.base.toLocaleString('en-US');
+                  const rng = !s.pct && mx != null && mx !== s.base ? `-${mx.toLocaleString('en-US')}` : '';
+                  return <span class="gsa-chip solid-muted">{s.label} +{val}{rng}</span>;
+                })}
               </td>
             </tr>
           ))}
