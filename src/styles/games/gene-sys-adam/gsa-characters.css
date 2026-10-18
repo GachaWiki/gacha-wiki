@@ -782,6 +782,7 @@
 .gsa-gear-tier-purple { --gsa-tier-c: #a86ee0; }
 .gsa-gear-tier-gold { --gsa-tier-c: #e0a84d; }
 .gsa-gear-tier-red { --gsa-tier-c: #e0596b; }
+.gsa-gear-tier-rainbow { --gsa-tier-c: #e0596b; }
 .gsa-gear-tier-rainbow::before {
   background: linear-gradient(180deg, #e0596b, #e0a84d, #6fbf73, #5b9ee0, #a86ee0);
 }
@@ -816,20 +817,11 @@
   gap: 4px;
   flex: 0 0 auto;
 }
-.gsa-gear-tierpill {
+.gsa-gear-tier-text {
   font-size: var(--text-xs);
   font-weight: 700;
-  padding: 2px 8px;
-  border-radius: 5px;
-  border: 1px solid var(--gsa-tier-c, var(--gsa-border));
   color: var(--gsa-tier-c, var(--gsa-text-dim));
   white-space: nowrap;
-  line-height: 1.5;
-}
-.gsa-gear-tier-rainbow .gsa-gear-tierpill {
-  border-color: rgba(255, 255, 255, 0.25);
-  color: var(--gsa-text);
-  background: linear-gradient(90deg, rgba(224, 89, 107, 0.22), rgba(224, 168, 77, 0.22), rgba(111, 191, 115, 0.22), rgba(91, 158, 224, 0.22), rgba(168, 110, 224, 0.22));
 }
 .gsa-gear-lv {
   font-size: var(--text-xs);
