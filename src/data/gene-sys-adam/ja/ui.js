@@ -102,8 +102,8 @@ export const GSA_JA = {
       "title": "英語版コンテンツ",
       "links": [
         {
-          "name": "ティアリスト",
-          "href": "/ja/guides/gene-sys-adam/tier-list/"
+          "name": "Tier List (EN)",
+          "href": "/guides/gene-sys-adam/tier-list/"
         },
         {
           "name": "Banners (EN)",

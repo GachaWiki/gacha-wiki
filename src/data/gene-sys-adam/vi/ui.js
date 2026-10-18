@@ -102,8 +102,8 @@ export const GSA_VI = {
       "title": "Nội dung tiếng Anh",
       "links": [
         {
-          "name": "Bảng Xếp Hạng",
-          "href": "/vi/guides/gene-sys-adam/tier-list/"
+          "name": "Tier List (EN)",
+          "href": "/guides/gene-sys-adam/tier-list/"
         },
         {
           "name": "Banners (EN)",

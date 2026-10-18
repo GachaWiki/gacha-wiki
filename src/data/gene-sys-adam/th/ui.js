@@ -102,8 +102,8 @@ export const GSA_TH = {
       "title": "เนื้อหาภาษาอังกฤษ",
       "links": [
         {
-          "name": "จัดอันดับ",
-          "href": "/th/guides/gene-sys-adam/tier-list/"
+          "name": "Tier List (EN)",
+          "href": "/guides/gene-sys-adam/tier-list/"
         },
         {
           "name": "Banners (EN)",

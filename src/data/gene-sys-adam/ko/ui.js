@@ -102,8 +102,8 @@ export const GSA_KO = {
       "title": "영어 콘텐츠",
       "links": [
         {
-          "name": "티어 리스트",
-          "href": "/ko/guides/gene-sys-adam/tier-list/"
+          "name": "Tier List (EN)",
+          "href": "/guides/gene-sys-adam/tier-list/"
         },
         {
           "name": "Banners (EN)",
