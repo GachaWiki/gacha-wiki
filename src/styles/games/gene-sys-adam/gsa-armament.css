@@ -63,6 +63,15 @@
 
 .gsa-arm-chips {
   display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 5px;
+}
+
+/* two chip rows on every card (slot + class / quality) so headers keep one
+   fixed height and the name + stat rows line up across the grid */
+.gsa-arm-chip-row {
+  display: flex;
   flex-wrap: wrap;
   gap: 5px;
 }
@@ -71,6 +80,10 @@
   margin: 0;
   font-weight: 600;
   font-size: var(--text-md);
+  line-height: 1.4;
+  /* reserve two lines so the stat block starts at the same height on every
+     card regardless of how long the piece name is */
+  min-height: calc(2 * 1.4em);
   color: #e8e2e3;
 }
 
@@ -104,6 +117,9 @@
 
 .gsa-arm-flavor {
   margin: 0;
+  /* pin to the card bottom: flavor lines vary per piece, the stat block must
+     not drift because of them */
+  margin-top: auto;
   font-size: var(--text-xs);
   line-height: 1.5;
   color: #9c8f94;

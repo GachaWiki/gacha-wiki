@@ -76,12 +76,16 @@ const statLine = (s) =>
             <div class="gsa-arm-id">
               <p class="gsa-arm-char">{g.char}</p>
               <div class="gsa-arm-chips">
-                <span class="gsa-chip gsa-chip-type">{SLOT_LABEL[g.slot]}</span>
-                {g.slot === 'Weapon' && g.weaponClass && (
-                  <span class="gsa-chip solid-muted">{g.weaponClass}</span>
-                )}
-                <span class={`gsa-chip ${g.nameEx.endsWith(' EX') ? 'solid-accent' : 'solid-gold'}`}>
-                  {g.nameEx.endsWith(' EX') ? 'EX' : g.quality}
+                <span class="gsa-arm-chip-row">
+                  <span class="gsa-chip gsa-chip-type">{SLOT_LABEL[g.slot]}</span>
+                  {g.slot === 'Weapon' && g.weaponClass && (
+                    <span class="gsa-chip solid-muted">{g.weaponClass}</span>
+                  )}
+                </span>
+                <span class="gsa-arm-chip-row">
+                  <span class={`gsa-chip ${g.nameEx.endsWith(' EX') ? 'solid-accent' : 'solid-gold'}`}>
+                    {g.nameEx.endsWith(' EX') ? 'EX' : g.quality}
+                  </span>
                 </span>
               </div>
             </div>
