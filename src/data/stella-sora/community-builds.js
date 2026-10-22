@@ -907,6 +907,27 @@ export const COMMUNITY_BUILDS = {
       },
     ],
   },
+
+  'firstlight-noya': {
+    meta: 'The anniversary limited top carry, day-1 JP preset with a working in-game import code. Same Noya + Firefly + Tilia trio every server rates as her best team.',
+    builds: [
+      {
+        lang: 'ja',
+        source: 'X: @ultimate_ulty',
+        url: 'https://x.com/ultimate_ulty/status/2112588936208069090',
+        date: '2026-10',
+        name: 'Light: Noya skill-build day-1 preset',
+        team: ['firstlight-noya', 'firefly', 'tilia'],
+        flow: 'Longsword skill-form damage; supports are fill-ins',
+        desc: 'Day-1 provisional skill-build shared with a real in-game import code (paste it in the Potential Preselection import box). Noya takes the skill-form cores Lucent Blitz and Dawnflare, maxes Prism Warp, Lucent Tide and the grit line, and spreads leftovers on Resolve: Blitz, Searing Sun and Astral Brilliance; commons go to Argent Mirage and Guiding Star. Firefly (JP ホタル) just takes her 6-cap slots (Stellar Crash, Domain of Purity) and fills the rest, picking up おかたづけ if available. Tilia maxes 好機発見 (Revealed Flaw) and ナイトパンチ (Enemy Counter); the post also recommends her shield common 堅固な盾 for safer bounty (指名手配) completion. Overall plan: secure the 6-cap slots on both supports, then pour every resource into Noya toward her 8th potential slot; mid-game the roughly 200 JPY signature Melodemail (専用メザメール) purchase is considered worth it.',
+        potentials: {
+          'firstlight-noya': ['Lucent Blitz', 'Dawnflare', 'Prism Warp', 'Lucent Tide', "Veteran's Grit", 'Resolve: Blitz', 'Searing Sun', 'Astral Brilliance'],
+          firefly: ['Radiance Blade: Twin Shadow', 'Radiance Blade: Firefly', 'Stellar Crash', 'Domain of Purity'],
+          tilia: ['Renewed Spectrum', 'Perfect Spiral', 'Revealed Flaw', 'Enemy Counter'],
+        },
+      },
+    ],
+  },
 };
 
 export function getCommunityBuilds(slug) {

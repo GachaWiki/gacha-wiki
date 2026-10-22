@@ -1108,5 +1108,168 @@ export const COMMUNITY_CODES = {
     "reason": "",
     "members": {},
     "dropped": []
+  },
+  "firstlight-noya:0": {
+    "code": "AAAAogAAAHMAAABrzTACLYbFkAQMQGyIwAQA",
+    "reason": "",
+    "members": {
+      "firstlight-noya": [
+        {
+          "id": 516201,
+          "name": "Lucent Blitz",
+          "kind": "core",
+          "level": null
+        },
+        {
+          "id": 516202,
+          "name": "Dawnflare",
+          "kind": "core",
+          "level": null
+        },
+        {
+          "id": 516205,
+          "name": "Prism Warp",
+          "kind": "normal",
+          "level": 6
+        },
+        {
+          "id": 516206,
+          "name": "Resolve: Blitz",
+          "kind": "normal",
+          "level": 4
+        },
+        {
+          "id": 516207,
+          "name": "Lucent Tide",
+          "kind": "normal",
+          "level": 6
+        },
+        {
+          "id": 516211,
+          "name": "Searing Sun",
+          "kind": "normal",
+          "level": 4
+        },
+        {
+          "id": 516212,
+          "name": "Astral Brilliance",
+          "kind": "normal",
+          "level": 2
+        },
+        {
+          "id": 516213,
+          "name": "Veteran's Grit",
+          "kind": "normal",
+          "level": 6
+        },
+        {
+          "id": 516241,
+          "name": "Argent Mirage: Legion's End",
+          "kind": "common",
+          "level": 6
+        },
+        {
+          "id": 516243,
+          "name": "Guiding Star",
+          "kind": "common",
+          "level": 6
+        }
+      ],
+      "firefly": [
+        {
+          "id": 511521,
+          "name": "Radiance Blade: Twin Shadow",
+          "kind": "core",
+          "level": null
+        },
+        {
+          "id": 511522,
+          "name": "Radiance Blade: Firefly",
+          "kind": "core",
+          "level": null
+        },
+        {
+          "id": 511525,
+          "name": "Lightforged Blade",
+          "kind": "normal",
+          "level": 2
+        },
+        {
+          "id": 511526,
+          "name": "Stellar Crash",
+          "kind": "normal",
+          "level": 6
+        },
+        {
+          "id": 511527,
+          "name": "Blade of Falling Petals",
+          "kind": "normal",
+          "level": 2
+        },
+        {
+          "id": 511531,
+          "name": "Sanctuary of Light",
+          "kind": "normal",
+          "level": 1
+        },
+        {
+          "id": 511533,
+          "name": "Domain of Purity",
+          "kind": "normal",
+          "level": 6
+        },
+        {
+          "id": 511541,
+          "name": "Persistent Warmth",
+          "kind": "common",
+          "level": 1
+        }
+      ],
+      "tilia": [
+        {
+          "id": 510722,
+          "name": "Renewed Spectrum",
+          "kind": "core",
+          "level": null
+        },
+        {
+          "id": 510723,
+          "name": "Perfect Spiral",
+          "kind": "core",
+          "level": null
+        },
+        {
+          "id": 510725,
+          "name": "Enemy Counter",
+          "kind": "normal",
+          "level": 6
+        },
+        {
+          "id": 510726,
+          "name": "Blinding Beam",
+          "kind": "normal",
+          "level": 2
+        },
+        {
+          "id": 510727,
+          "name": "Knight's Seal",
+          "kind": "normal",
+          "level": 1
+        },
+        {
+          "id": 510730,
+          "name": "Revealed Flaw",
+          "kind": "normal",
+          "level": 6
+        },
+        {
+          "id": 510733,
+          "name": "Banner of Glory",
+          "kind": "normal",
+          "level": 2
+        }
+      ]
+    },
+    "dropped": []
   }
 };
