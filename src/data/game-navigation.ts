@@ -285,6 +285,7 @@ export const NAV_DATA: Record<GameKey, { sections: NavigationSection[] }> = {
           { name: 'Support Stats', href: '/guides/busty-burst/support-stats/' },
           { name: 'Support Bonus', href: '/guides/busty-burst/support-bonus/' },
           { name: 'Official Art', href: '/guides/busty-burst/official-art/' },
+          { name: 'Artists', href: '/guides/busty-burst/artists/' },
         ],
       },
       {
@@ -426,9 +427,17 @@ export const NAV_DATA: Record<GameKey, { sections: NavigationSection[] }> = {
   'last-origin-global': {
     sections: [
       {
+        title: 'Characters',
+        links: [
+          { name: 'Database', href: '/guides/last-origin-global/characters/' },
+          { name: 'Tier List', href: '/guides/last-origin-global/tier-list/' },
+        ],
+      },
+      {
         title: 'Game',
         links: [
           { name: 'Home', href: '/guides/last-origin-global/' },
+          { name: 'Release Timeline', href: '/guides/last-origin-global/release-timeline/' },
           { name: 'Clock', href: '/clock/last-origin-global/' },
         ],
       },
