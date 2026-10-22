@@ -241,6 +241,8 @@ export const emblemStats = {
     'Rainbow tier: Provides significantly higher values (typically 2x Gold tier)',
     "Some stats (DEF%, flat stats, specific crit rates) don't have Rainbow variants",
     'Element PEN is only available up to Level 80',
+    'Element PEN caps at 250 against elemental weaknesses: stacking beyond that gives no extra benefit',
+    'Non-weakness matchups have a higher PEN cap; VUL Exploit can convert excess PEN but nothing uses it in game yet',
     'Skill/Ultimate level increases only available at Level 80',
     'Potential level increases only available at Level 90',
   ],
