@@ -197,9 +197,9 @@ const structuredData = {
                     </h3>
                   </div>
                   <p class="community-build-src">
-                    <a href={b.url} target="_blank" rel="noopener">
-                      {b.source}
-                    </a>
+                    {b.url
+                      ? <a href={b.url} target="_blank" rel="noopener">{b.source}</a>
+                      : <span>{b.source}</span>}
                     {b.date && <span class="community-date"> · {b.date}</span>}
                   </p>
                   {b.flow && <p class="community-flow">{b.flow}</p>}

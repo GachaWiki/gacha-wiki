@@ -89,7 +89,9 @@ const structuredData = {
         <h1 class="cbuild-hero-name">{build.name}</h1>
         <p class="cbuild-hero-meta">
           For <a href={`/guides/stella-sora/characters/${charSlug}/`}>{char?.name}</a> ·
-          <a href={build.url} target="_blank" rel="noopener">{build.source}</a>
+          {build.url
+            ? <a href={build.url} target="_blank" rel="noopener">{build.source}</a>
+            : <span>{build.source}</span>}
           {build.date && <span> · {build.date}</span>}
         </p>
         <p class="cbuild-hero-desc">{build.desc}</p>

@@ -926,6 +926,21 @@ export const COMMUNITY_BUILDS = {
           tilia: ['Renewed Spectrum', 'Perfect Spiral', 'Revealed Flaw', 'Enemy Counter'],
         },
       },
+      {
+        lang: 'ja',
+        source: 'X: @kidukirey',
+        url: '',
+        date: '2026-10',
+        name: 'Light: Noya skill-build all-6 preset',
+        team: ['firstlight-noya', 'firefly', 'tilia'],
+        flow: 'Longsword skill-form; every Noya normal potential at 6',
+        desc: 'Second day-1 refinement of the skill build, shared with a working in-game import code: same Lucent Blitz and Dawnflare cores, but all six Noya normal potentials (Prism Warp, Resolve: Blitz, Lucent Tide, Searing Sun, Astral Brilliance and the grit line) sit at 6, with Argent Mirage and Guiding Star commons; the supports are stripped to their 6-cap picks plus token fills. The post frames her bluntly: an HP-dependent attacker with almost no synergy with existing characters, so supports only matter for debuffs and elemental buffs (team ATK buffs do nothing for her). Emblem plan: her signature record; otherwise Lux DMG and Skill DMG. Sub-records: the Freesia signature (JP 餅, motif emblem) first, then Lux DMG or free distributed options.',
+        potentials: {
+          'firstlight-noya': ['Lucent Blitz', 'Dawnflare', 'Prism Warp', 'Resolve: Blitz', 'Lucent Tide', 'Searing Sun', 'Astral Brilliance', "Veteran's Grit"],
+          firefly: ['Radiance Blade: Twin Shadow', 'Radiance Blade: Firefly', 'Stellar Crash', 'Domain of Purity'],
+          tilia: ['Renewed Spectrum', 'Perfect Spiral', 'Revealed Flaw', 'Enemy Counter'],
+        },
+      },
     ],
   },
 };
