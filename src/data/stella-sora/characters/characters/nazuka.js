@@ -57,14 +57,14 @@ export const Nazuka = {
       "Chilling Wind Spinner",
       "Blazing Wind Spinner",
       "Gilded Ceramic Bowl",
-      "Blossom Porcelain Cup",
+      "Porcelain Cup",
       "Mystic Potion Kettle",
-      "Summer Chill Crushed Ice",
+      "Chill Crushed Ice",
       "Fragrant Ice Delight",
-      "Sweet IceFurry"
+      "Sweet Ice Furry"
     ],
     "hates": [
-      "Card Photo Capturer",
+      "Card Capturer",
       "Reflective Photo Capturer",
       "Ultra-Precision Photo Capturer"
     ]

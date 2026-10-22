@@ -49,11 +49,11 @@ export const Chaton = {
       "Love Candle",
       "Rising Star",
       "Shining Star",
-      "Summer Chill Crushed Ice",
-      "Sweet IceFurry"
+      "Chill Crushed Ice",
+      "Sweet Ice Furry"
     ],
     "hates": [
-      "Blossom Porcelain Cup",
+      "Porcelain Cup",
       "Gilded Ceramic Bowl",
       "Mystic Potion Kettle"
     ]

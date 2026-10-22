@@ -42,14 +42,14 @@ export const SpringseekCoronis = {
   ],
   "giftPreferences": {
     "loves": [
-      "Blossom Porcelain Cup",
-      "Card Photo Capturer",
+      "Porcelain Cup",
+      "Card Capturer",
       "Cosmic Form",
       "Gilded Ceramic Bowl",
       "Moonlit Companion",
       "Mystic Potion Kettle",
       "Reflective Photo Capturer",
-      "Stellanite Enchantment",
+      "Star Eclipse",
       "Ultra-Precision Photo Capturer"
     ],
     "hates": [

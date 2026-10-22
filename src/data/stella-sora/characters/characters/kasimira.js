@@ -57,7 +57,7 @@ export const Kasimira = {
       "Blazing Wings",
       "Fiery Honeypot",
       "Gilded Ceramic Bowl",
-      "Blossom Porcelain Cup",
+      "Porcelain Cup",
       "Mystic Potion Kettle"
     ],
     "hates": []

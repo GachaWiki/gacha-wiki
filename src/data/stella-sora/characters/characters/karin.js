@@ -43,7 +43,7 @@ export const Karin = {
   "giftPreferences": {
     "loves": [
       "Blazing Wind Spinner",
-      "Card Photo Capturer",
+      "Card Capturer",
       "Chilling Wind Spinner",
       "Deluxe Blower",
       "Exquisite Blower",

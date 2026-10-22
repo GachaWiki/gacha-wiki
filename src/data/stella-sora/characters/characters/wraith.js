@@ -1,5 +1,5 @@
 // Wraith Character Data - Stella Sora
-// Generated from live game tables (Sep 8 2026 patch, v1.15.0)
+// Generated from live game tables (Oct 19 2026 patch, v2.0.0)
 
 export const Wraith = {
   "id": 143,
@@ -10,7 +10,9 @@ export const Wraith = {
   "description": "Hailing from the frozen land of Norstheim, she is an elite warrior of the Sentinel of Dawn. A master of all weapons, she pays extra attention to cases involving Nocturn Eterna.",
   "voiceActor": {
     "cn": "Wang Meixin",
-    "jp": "Minami Takahashi"
+    "cnLocalized": "王美心",
+    "jp": "Minami Takahashi",
+    "jpLocalized": "高橋ミナミ"
   },
   "birthday": "12.24",
   "grade": 5,
@@ -36,22 +38,28 @@ export const Wraith = {
       "icon": "DatingSPCG_143302",
       "clue": "Visit the Cave to unlock",
       "secondChoice": "You thought you hit a dead end at a stone wall, but Wraith flips a hidden switch, and the rock grinds open.\n\nBefore you can react, a natural bathhouse is revealed.\n\n\"I put a lot of work into fixing this place up.\"\n\n\"But seeing that look on your face? Totally worth it.\"\n\n\"Hop in. Don't worry, the water's pristine.\"\n\nShe disappears behind a screen to wash up. Not wanting to be rude, you decide to give this outdoor bath a try. However..."
+    },
+    {
+      "name": "Watermelon Ice Pop",
+      "icon": "DatingSPCG_143303",
+      "clue": "Visit the Dessert Shop to unlock",
+      "secondChoice": "\"Thanks for waiting. Here is your seasonal special.\"\nWhen the waiter sets the dessert down in front of her, Wraith just stares at it.\n\"Watermelon...? Dessert shops serve fruit?\"\n\"No, it's an ice pop.\"\n\"So they slice the watermelon and freeze it?\"\n\"It's just shaped like a watermelon...\""
     }
   ],
   "giftPreferences": {
     "loves": [
       "Blazing Wind Spinner",
       "Blazing Wings",
+      "Chill Crushed Ice",
       "Chilling Wind Spinner",
       "Fiery Honeypot",
       "Fragrant Ice Delight",
       "Love Candle",
-      "Summer Chill Crushed Ice",
-      "Sweet IceFurry",
+      "Sweet Ice Furry",
       "Whisper Wind Spinner"
     ],
     "hates": [
-      "Card Photo Capturer",
+      "Card Capturer",
       "Reflective Photo Capturer",
       "Ultra-Precision Photo Capturer"
     ]
@@ -80,7 +88,7 @@ export const Wraith = {
     "shortDescription": "Spins rapidly to slash, dealing AoE DMG and firing bullets in all directions. The Main Skill can trigger ##Ventus Mark#1017# and generate a Cyclone.",
     "params": [
       "49%/57%/64%/86%/93%/100%/114%/120%/126%/137%/147%/157%/167%",
-      "69%/80%/90%/121%/131%/141%/160%/168%/177%/193%/207%/221%/235%",
+      "76%/88%/99%/133%/144%/155%/175%/184%/194%/211%/227%/242%/258%",
       "8%/11%/13%/16%/18%/21%/23%/26%/28%"
     ],
     "hints": {
@@ -475,7 +483,7 @@ export const Wraith = {
           "name": "Glorious Return to Norstheim",
           "description": "Increases Wraith's Ventus DMG dealt to elite or higher-tier targets by <color=#0abec5>&Param1&</color>.",
           "params": [
-            "0.2%"
+            "24%"
           ]
         },
         {

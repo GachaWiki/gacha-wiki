@@ -1,23 +1,12 @@
+// Minova Character Data - Stella Sora
+// Generated from live game tables (Oct 19 2026 patch, v2.0.0)
+
 export const Minova = {
   "id": 132,
   "name": "Minova",
   "icon": "/stella/assets/Minova.png",
   "portrait": "/stella/assets/Minova_portrait.png",
   "background": "/stella/assets/Minova_background.png",
-  "variants": {
-    "base": "/stella/assets/Minova_base.png",
-    "q": "/stella/assets/Minova_q.png",
-    "gd": "/stella/assets/Minova_gd.png",
-    "goods": "/stella/assets/Minova_goods.png",
-    "qs": "/stella/assets/Minova_qs.png",
-    "xl": "/stella/assets/Minova_xl.png",
-    "gc": "/stella/assets/Minova_gc.png",
-    "sk": "/stella/assets/Minova_portrait.png",
-    "xxl": "/stella/assets/Minova.png",
-    "qm": "/stella/assets/Minova_qm.png",
-    "l": "/stella/assets/Minova_l.png",
-    "s": "/stella/assets/Minova_s.png"
-  },
   "description": "As the leader of the Ashwind Clan, Minova rarely operates alone. Her greatest asset in battle is not her skateboard or baseball bat, but her companions.",
   "voiceActor": {
     "cn": "Yang Qingjiang",
@@ -25,7 +14,7 @@ export const Minova = {
     "jp": "Ai Fairouz",
     "jpLocalized": "ファイルーズあい"
   },
-  "birthday": "1.1",
+  "birthday": "",
   "grade": 5,
   "element": "Lux",
   "position": "Versatile",
@@ -42,56 +31,62 @@ export const Minova = {
       "name": "Bioluminescence",
       "icon": "DatingSPCG_132301",
       "clue": "Visit the Cave to unlock",
-      "secondChoice": "Keep exploring deeper."
+      "secondChoice": "Minova gazes at the scene in awe.\n\n\"Look, if you collect the sap from the plants like this...\"\n\nYou cut a leaf, and a fluorescent sap drips into the container."
     },
     {
       "name": "Borrowing Books",
       "icon": "DatingSPCG_132303",
       "clue": "Visit the Academy to unlock",
-      "secondChoice": "Gonna look around inside the library."
+      "secondChoice": "\"Look!\" She pulls out \"An Introduction to Artifact Appraisal.\" \"Read this and you won't get scammed by shady merchants.\"\n\nShe hands it to you with an awkward smile. \"Hope it helps on your journey.\""
+    },
+    {
+      "name": "Deceptive Packaging",
+      "icon": "DatingSPCG_132304",
+      "clue": "Visit Hot Spring Resort to unlock",
+      "secondChoice": "Unlike the other shops, this one offered all kinds of bowls, plates, and other food items, many of them rare pieces specially made for the resort or released as collaboration items. Minova, however, was clearly not interested in those. She wanted something more modern feel.\n\nThen the two of you spotted a strangely shaped lollipop, which immediately caught Minova's eye."
     }
   ],
   "giftPreferences": {
     "loves": [
-      "Love Candle",
       "Blazing Wings",
+      "Card Capturer",
+      "Cosmic Form",
       "Fiery Honeypot",
-      "Card Photo Capturer",
-      "Reflective Photo Capturer",
-      "Ultra-Precision Photo Capturer",
-      "Stellanite Enchantment",
+      "Love Candle",
       "Moonlit Companion",
-      "Cosmic Form"
+      "Reflective Photo Capturer",
+      "Star Eclipse",
+      "Ultra-Precision Photo Capturer"
     ],
     "hates": [
-      "Portable Blower",
+      "Deluxe Blower",
       "Exquisite Blower",
-      "Deluxe Blower"
+      "Portable Blower"
     ]
   },
   "normalAttack": {
     "name": "Bat and Skate",
     "icon": "Icon/Skill/13201_Normal",
-    "description": "Swings the baseball bat and kickflips the skateboard to attack the target.\u000bStrike 1: <color=#fb8037>&Param1& of ATK</color> as Lux DMG.\u000bStrike 2: <color=#fb8037>&Param2& of ATK</color> as Lux DMG.\u000bStrike 3: <color=#fb8037>&Param3& of ATK</color> as Lux DMG.\u000bStrike 4: <color=#fb8037>&Param4& of ATK</color> and <color=#fb8037>&Param6& of ATK x6</color> as Lux DMG.\u000bStrike 5: <color=#fb8037>&Param5& of ATK</color> as Lux DMG.",
+    "description": "Swings the baseball bat and kickflips the skateboard to attack the target.\u000bStrike 1: <color=#fb8037>&Param1&</color> of ATK as Lux Auto Attack DMG.\u000bStrike 2: <color=#fb8037>&Param2&</color> of ATK as Lux Auto Attack DMG.\u000bStrike 3: <color=#fb8037>&Param3&</color> of ATK as Lux Auto Attack DMG.\u000bStrike 4: <color=#fb8037>&Param4&</color> and <color=#fb8037>&Param6& x6</color> of ATK as Lux Auto Attack DMG.\u000bStrike 5: <color=#fb8037>&Param5&</color> of ATK as Lux Auto Attack DMG.",
     "shortDescription": "Swings the baseball bat and kickflips the skateboard to attack the target.",
     "params": [
-      "15.5%/17.8%/20.1%/27%/29.2%/31.4%/35.7%/37.5%/39.4%/43.1%/46.2%/49.3%/52.4%",
-      "15.5%/17.8%/20.1%/27%/29.2%/31.4%/35.7%/37.5%/39.4%/43.1%/46.2%/49.3%/52.4%",
+      "15%/17%/20%/27%/29%/31%/35%/37%/39%/43%/46%/49%/52%",
+      "15%/17%/20%/27%/29%/31%/35%/37%/39%/43%/46%/49%/52%",
       "26%/30%/34%/45%/49%/53%/60%/63%/66%/72%/77%/82%/88%",
-      "16.9%/19.5%/22%/29.6%/32%/34.4%/39.1%/41.1%/43.2%/47.2%/50.6%/54%/57.4%",
+      "16%/19%/22%/29%/32%/34%/39%/41%/43%/47%/50%/54%/57%",
       "40%/46%/52%/71%/76%/82%/93%/98%/103%/112%/121%/129%/137%",
-      "7.7%/8.9%/10%/13.5%/14.6%/15.7%/17.8%/18.8%/19.7%/21.5%/23.1%/24.6%/26.2%"
+      "7%/8%/10%/13%/14%/15%/17%/18%/19%/21%/23%/24%/26%"
     ],
     "hints": {}
   },
   "skill": {
     "name": "Syou: Pulsar Streak",
     "icon": "Icon/Skill/13201_Skill_Main",
-    "description": "Swings the baseball bat, dealing <color=#fb8037>&Param1& of ATK</color> as Lux DMG. Then, activates the second phase, Two Base Hit: Charges at the target, delivering rapid strikes. Hold to deal <color=#fb8037>&Param2& of ATK</color> as Lux DMG every 0.3s for a total of 3s. Finishes with a powerful smash, dealing <color=#fb8037>&Param3& of ATK</color> as Lux DMG.\u000bBoth Syou: Pulsar Streak (Main Skill) and Two Base Hit can trigger ##Lux Mark#1015#, dealing &Param4& of ATK as Lux Mark DMG.",
-    "shortDescription": "Swings the baseball bat to attack the target, then activates Two Base Hit: Charges at the target for a rapid series of strikes.\u000bThe Main Skill can trigger ##Lux Mark#1015#.",
+    "description": "Swings the baseball bat, dealing <color=#fb8037>&Param1&</color> of ATK as Lux Skill DMG. Then, activates the second phase, Two Base Hit: Charges at the target, delivering rapid strikes. Hold to deal <color=#fb8037>&Param2&</color> of ATK as Lux Skill DMG every 0.3s for a total of 3s. Finishes with a powerful smash, dealing <color=#fb8037>&Param3&</color> of ATK as Lux Skill DMG.\u000bBoth Syou: Pulsar Streak (Main Skill) and Two Base Hit can trigger ##Lux Mark#1015# and summon a Thunderbolt, dealing &Param4& of ATK as Lux Mark DMG.",
+    "shortDescription": "Swings the baseball bat to attack the target, then activates Two Base Hit: Charges at the target for a rapid series of strikes.\u000bThe Main Skill can trigger ##Lux Mark#1015# and summon a Thunderbolt.",
     "params": [
       "58%/66%/75%/101%/109%/117%/133%/140%/147%/161%/172%/184%/195%",
-      "13.7%/15.8%/17.9%/24%/26%/27.9%/31.7%/33.4%/35%/38.3%/41.1%/43.8%/46.6%",
+      "13%/15%/17%/24%/26%/27%/31%/33%/35%/38%/41%/43%/46%",
       "62%/72%/81%/109%/118%/126%/144%/151%/159%/174%/186%/199%/211%",
       "89%/115%/142%/168%/195%/221%/248%/275%/301%"
     ],
@@ -99,8 +94,7 @@ export const Minova = {
       "1015": {
         "id": 1015,
         "name": "Lux Mark",
-        "description": "The generic name for all Lux Marks.\u000bWhen triggered by specific Lux Trekkers' attacks, the status is removed, and a special effect is activated.",
-        "params": []
+        "description": "The generic name for all Lux Marks.\u000bWhen triggered by specific Lux Trekkers' attacks, the status is removed, and a special effect is activated."
       }
     },
     "cooldown": "14s"
@@ -108,7 +102,7 @@ export const Minova = {
   "supportSkill": {
     "name": "Gi: Supernova Burst",
     "icon": "Icon/Skill/13201_Skill_Support",
-    "description": "Radiates hyper concentrated starlight, dealing <color=#fb8037>&Param1& of ATK</color> as Lux DMG and inflicting 2 stacks of Astral Hex.\u000bEvery 3s, Astral Hex deals <color=#fb8037>&Param2& of ATK</color> as AoE Lux DMG and inflicts ##Lux Mark: Radiance#2016#.",
+    "description": "Radiates starlight, dealing <color=#fb8037>&Param1&</color> of ATK as Lux Skill DMG and inflicting 2 stacks of Astral Hex.\u000bEvery 3s, Astral Hex deals <color=#fb8037>&Param2&</color> of ATK as AoE Lux Skill DMG and inflicts ##Lux Mark: Radiance#2016#.",
     "shortDescription": "Sprinkles Astral Hex on the targets and then deals DMG.\u000bThe Support Skill can inflict ##Lux Mark: Radiance#2016#.",
     "params": [
       "304%/349%/395%/532%/574%/617%/702%/738%/775%/847%/884%/920%/957%",
@@ -118,10 +112,7 @@ export const Minova = {
       "2016": {
         "id": 2016,
         "name": "Lux Mark: Radiance",
-        "description": "A special status applied to the target by some Lux Trekkers, lasting for 10s.\u000bCan be triggered by the attacks of specific Lux Trekkers. When triggered, deals DMG.",
-        "params": [
-          "15"
-        ]
+        "description": "Some Lux Trekkers apply a special status to the target for 10 sec.\u000bWhen triggered by specific Lux Trekkers' attacks, the status is removed, and a special effect is activated."
       }
     },
     "cooldown": "16s"
@@ -129,7 +120,7 @@ export const Minova = {
   "ultimate": {
     "name": "Ketsu: Entropic Convergence",
     "icon": "Icon/Skill/13201_Ultra",
-    "description": "Commands the Ashwind Clan members to attack the target, dealing <color=#fb8037>&Param1& of ATK</color> as AoE Lux DMG every 0.3s for a total of 5s.",
+    "description": "Commands the Ashwind Clan members to attack the target, dealing <color=#fb8037>&Param1&</color> of ATK as AoE Lux Ultimate DMG every 0.3s for a total of 5s.",
     "shortDescription": "Commands the Ashwind Clan members to attack the target.",
     "params": [
       "70%/80%/91%/122%/132%/142%/161%/170%/178%/195%/209%/223%/237%"
@@ -310,7 +301,7 @@ export const Minova = {
       "talents": [
         {
           "name": "Forsaken Memories",
-          "description": "Each time Minova deals Ultimate DMG to a target, increases the Aqua Lux DMG taken by the target by <color=#0abec5>&Param1&</color> for &Param2&s, stacking up to &Param3& times.",
+          "description": "Each time Minova deals Ultimate DMG to a target, increases the Lux DMG taken by the target by <color=#0abec5>&Param1&</color> for &Param2&s, stacking up to &Param3& times.",
           "params": [
             "1.75%",
             "20",
@@ -953,363 +944,6 @@ export const Minova = {
       "atk": 7311
     }
   ],
-  "upgrades": [
-    {
-      "items": [
-        {
-          "id": 20091,
-          "name": "Faint Wick",
-          "quantity": 5
-        }
-      ],
-      "currency": {
-        "dorra": 7900
-      }
-    },
-    {
-      "items": [
-        {
-          "id": 20091,
-          "name": "Faint Wick",
-          "quantity": 5
-        },
-        {
-          "id": 20092,
-          "name": "Lumen Essence",
-          "quantity": 10
-        }
-      ],
-      "currency": {
-        "dorra": 19800
-      }
-    },
-    {
-      "items": [
-        {
-          "id": 20091,
-          "name": "Faint Wick",
-          "quantity": 10
-        },
-        {
-          "id": 20092,
-          "name": "Lumen Essence",
-          "quantity": 15
-        }
-      ],
-      "currency": {
-        "dorra": 44400
-      }
-    },
-    {
-      "items": [
-        {
-          "id": 20091,
-          "name": "Faint Wick",
-          "quantity": 15
-        },
-        {
-          "id": 20092,
-          "name": "Lumen Essence",
-          "quantity": 25
-        }
-      ],
-      "currency": {
-        "dorra": 66600
-      }
-    },
-    {
-      "items": [
-        {
-          "id": 20091,
-          "name": "Faint Wick",
-          "quantity": 20
-        },
-        {
-          "id": 20092,
-          "name": "Lumen Essence",
-          "quantity": 40
-        }
-      ],
-      "currency": {
-        "dorra": 146100
-      }
-    },
-    {
-      "items": [
-        {
-          "id": 20091,
-          "name": "Faint Wick",
-          "quantity": 30
-        },
-        {
-          "id": 20092,
-          "name": "Lumen Essence",
-          "quantity": 55
-        },
-        {
-          "id": 20093,
-          "name": "Eternal Gloom Core",
-          "quantity": 20
-        }
-      ],
-      "currency": {
-        "dorra": 291600
-      }
-    },
-    {
-      "items": [
-        {
-          "id": 20092,
-          "name": "Lumen Essence",
-          "quantity": 75
-        },
-        {
-          "id": 20093,
-          "name": "Eternal Gloom Core",
-          "quantity": 30
-        }
-      ],
-      "currency": {
-        "dorra": 560200
-      }
-    },
-    {
-      "items": [
-        {
-          "id": 20092,
-          "name": "Lumen Essence",
-          "quantity": 95
-        },
-        {
-          "id": 20093,
-          "name": "Eternal Gloom Core",
-          "quantity": 50
-        }
-      ],
-      "currency": {
-        "dorra": 1121300
-      }
-    },
-    {
-      "items": [],
-      "currency": {
-        "dorra": 1121300
-      }
-    }
-  ],
-  "skillUpgrades": [
-    {
-      "items": [
-        {
-          "id": 32021,
-          "name": "Kung Fu Game Cartridge",
-          "quantity": 6
-        },
-        {
-          "id": 32000,
-          "name": "Chess Piece of Skill",
-          "quantity": 2
-        }
-      ],
-      "currency": {
-        "dorra": 13300
-      }
-    },
-    {
-      "items": [
-        {
-          "id": 32021,
-          "name": "Kung Fu Game Cartridge",
-          "quantity": 12
-        },
-        {
-          "id": 32000,
-          "name": "Chess Piece of Skill",
-          "quantity": 6
-        }
-      ],
-      "currency": {
-        "dorra": 17600
-      }
-    },
-    {
-      "items": [
-        {
-          "id": 32021,
-          "name": "Kung Fu Game Cartridge",
-          "quantity": 24
-        },
-        {
-          "id": 32022,
-          "name": "Fighting Game Cartridge",
-          "quantity": 3
-        },
-        {
-          "id": 32000,
-          "name": "Chess Piece of Skill",
-          "quantity": 10
-        }
-      ],
-      "currency": {
-        "dorra": 49800
-      }
-    },
-    {
-      "items": [
-        {
-          "id": 32021,
-          "name": "Kung Fu Game Cartridge",
-          "quantity": 38
-        },
-        {
-          "id": 32022,
-          "name": "Fighting Game Cartridge",
-          "quantity": 8
-        },
-        {
-          "id": 32000,
-          "name": "Chess Piece of Skill",
-          "quantity": 24
-        }
-      ],
-      "currency": {
-        "dorra": 100000
-      }
-    },
-    {
-      "items": [
-        {
-          "id": 32021,
-          "name": "Kung Fu Game Cartridge",
-          "quantity": 70
-        },
-        {
-          "id": 32022,
-          "name": "Fighting Game Cartridge",
-          "quantity": 14
-        },
-        {
-          "id": 32023,
-          "name": "Phantom Game Cartridge",
-          "quantity": 6
-        },
-        {
-          "id": 32000,
-          "name": "Chess Piece of Skill",
-          "quantity": 55
-        }
-      ],
-      "currency": {
-        "dorra": 400000
-      }
-    },
-    {
-      "items": [
-        {
-          "id": 21053,
-          "name": "Radiant Crown Essence",
-          "quantity": 1
-        },
-        {
-          "id": 32022,
-          "name": "Fighting Game Cartridge",
-          "quantity": 50
-        },
-        {
-          "id": 32023,
-          "name": "Phantom Game Cartridge",
-          "quantity": 18
-        },
-        {
-          "id": 32000,
-          "name": "Chess Piece of Skill",
-          "quantity": 232
-        }
-      ],
-      "currency": {
-        "dorra": 900000
-      }
-    },
-    {
-      "items": [
-        {
-          "id": 21053,
-          "name": "Radiant Crown Essence",
-          "quantity": 2
-        },
-        {
-          "id": 32022,
-          "name": "Fighting Game Cartridge",
-          "quantity": 90
-        },
-        {
-          "id": 32023,
-          "name": "Phantom Game Cartridge",
-          "quantity": 34
-        },
-        {
-          "id": 32000,
-          "name": "Chess Piece of Skill",
-          "quantity": 323
-        }
-      ],
-      "currency": {
-        "dorra": 1600000
-      }
-    },
-    {
-      "items": [
-        {
-          "id": 21053,
-          "name": "Radiant Crown Essence",
-          "quantity": 3
-        },
-        {
-          "id": 32022,
-          "name": "Fighting Game Cartridge",
-          "quantity": 140
-        },
-        {
-          "id": 32023,
-          "name": "Phantom Game Cartridge",
-          "quantity": 50
-        },
-        {
-          "id": 32000,
-          "name": "Chess Piece of Skill",
-          "quantity": 478
-        }
-      ],
-      "currency": {
-        "dorra": 2300000
-      }
-    },
-    {
-      "items": [
-        {
-          "id": 21053,
-          "name": "Radiant Crown Essence",
-          "quantity": 6
-        },
-        {
-          "id": 32022,
-          "name": "Fighting Game Cartridge",
-          "quantity": 200
-        },
-        {
-          "id": 32023,
-          "name": "Phantom Game Cartridge",
-          "quantity": 70
-        },
-        {
-          "id": 32000,
-          "name": "Chess Piece of Skill",
-          "quantity": 927
-        }
-      ],
-      "currency": {
-        "dorra": 3400000
-      }
-    }
-  ]
+  "upgrades": [],
+  "skillUpgrades": []
 };

@@ -13159,5 +13159,336 @@ export const SYSTEM_PRESETS = [
         ]
       }
     ]
+  },
+  {
+    "slug": "firstlight-noya",
+    "name": "Firstlight Noya",
+    "element": "Lux",
+    "grade": 5,
+    "baseUnit": "16201",
+    "presets": [
+      {
+        "label": "Default Preset 1",
+        "skin": 16201,
+        "skinType": "base",
+        "code": "AAAAogAAAIQAAABrzbADAEbNiACCAKxIAEIA",
+        "members": [
+          {
+            "slug": "firstlight-noya",
+            "name": "Firstlight Noya",
+            "element": "Lux",
+            "role": "Main",
+            "baseUnit": "16201",
+            "selection": {
+              "cores": [
+                {
+                  "icon": "516201",
+                  "name": "Lucent Blitz",
+                  "level": null
+                },
+                {
+                  "icon": "516202",
+                  "name": "Dawnflare",
+                  "level": null
+                }
+              ],
+              "normals": [
+                {
+                  "icon": "516205",
+                  "name": "Prism Warp",
+                  "level": 6
+                },
+                {
+                  "icon": "516206",
+                  "name": "Resolve: Blitz",
+                  "level": 6
+                },
+                {
+                  "icon": "516207",
+                  "name": "Lucent Tide",
+                  "level": 6
+                },
+                {
+                  "icon": "516211",
+                  "name": "Searing Sun",
+                  "level": 6
+                }
+              ],
+              "commons": [
+                {
+                  "icon": "516241",
+                  "name": "Argent Mirage: Legion's End",
+                  "level": 1
+                },
+                {
+                  "icon": "516243",
+                  "name": "Guiding Star",
+                  "level": 6
+                }
+              ]
+            }
+          },
+          {
+            "slug": "minova",
+            "name": "Minova",
+            "element": "Lux",
+            "role": "Support",
+            "baseUnit": "13201",
+            "selection": {
+              "cores": [
+                {
+                  "icon": "513221",
+                  "name": "Four-Star Wanted Level",
+                  "level": null
+                },
+                {
+                  "icon": "513222",
+                  "name": "Radiant Burst",
+                  "level": null
+                }
+              ],
+              "normals": [
+                {
+                  "icon": "513225",
+                  "name": "Optimal Hit Zone",
+                  "level": 6
+                },
+                {
+                  "icon": "513226",
+                  "name": "Shutout Desire",
+                  "level": 6
+                },
+                {
+                  "icon": "513227",
+                  "name": "Final Score",
+                  "level": 1
+                },
+                {
+                  "icon": "513232",
+                  "name": "Home Run State",
+                  "level": 1
+                },
+                {
+                  "icon": "513233",
+                  "name": "Radiant Synergy",
+                  "level": 1
+                }
+              ],
+              "commons": []
+            }
+          },
+          {
+            "slug": "tilia",
+            "name": "Tilia",
+            "element": "Lux",
+            "role": "Support",
+            "baseUnit": "10701",
+            "selection": {
+              "cores": [
+                {
+                  "icon": "510721",
+                  "name": "Holy Inscription",
+                  "level": null
+                },
+                {
+                  "icon": "510723",
+                  "name": "Perfect Spiral",
+                  "level": null
+                }
+              ],
+              "normals": [
+                {
+                  "icon": "510725",
+                  "name": "Enemy Counter",
+                  "level": 6
+                },
+                {
+                  "icon": "510726",
+                  "name": "Blinding Beam",
+                  "level": 1
+                },
+                {
+                  "icon": "510727",
+                  "name": "Knight's Seal",
+                  "level": 1
+                },
+                {
+                  "icon": "510729",
+                  "name": "Trick Boost",
+                  "level": 4
+                },
+                {
+                  "icon": "510733",
+                  "name": "Banner of Glory",
+                  "level": 1
+                }
+              ],
+              "commons": []
+            }
+          }
+        ]
+      },
+      {
+        "label": "Firstlight Noya Default Preset 2",
+        "skin": 16202,
+        "skinType": "awakened",
+        "code": "AAAAogAAAIQAAABrMAbbAA4wBsCSAKxIAEIA",
+        "members": [
+          {
+            "slug": "firstlight-noya",
+            "name": "Firstlight Noya",
+            "element": "Lux",
+            "role": "Main",
+            "baseUnit": "16201",
+            "selection": {
+              "cores": [
+                {
+                  "icon": "516203",
+                  "name": "Stardust Descent",
+                  "level": null
+                },
+                {
+                  "icon": "516204",
+                  "name": "Sinbreaker",
+                  "level": null
+                }
+              ],
+              "normals": [
+                {
+                  "icon": "516208",
+                  "name": "Eclipse Phantom",
+                  "level": 6
+                },
+                {
+                  "icon": "516209",
+                  "name": "Gavel of Absolution",
+                  "level": 6
+                },
+                {
+                  "icon": "516210",
+                  "name": "Resolve: Sunder",
+                  "level": 6
+                },
+                {
+                  "icon": "516211",
+                  "name": "Searing Sun",
+                  "level": 6
+                }
+              ],
+              "commons": [
+                {
+                  "icon": "516242",
+                  "name": "Empyrean Starfall: Devil's End",
+                  "level": 1
+                },
+                {
+                  "icon": "516243",
+                  "name": "Guiding Star",
+                  "level": 6
+                }
+              ]
+            }
+          },
+          {
+            "slug": "minova",
+            "name": "Minova",
+            "element": "Lux",
+            "role": "Support",
+            "baseUnit": "13201",
+            "selection": {
+              "cores": [
+                {
+                  "icon": "513223",
+                  "name": "Oath Satellite",
+                  "level": null
+                },
+                {
+                  "icon": "513224",
+                  "name": "Star Core Crumbled",
+                  "level": null
+                }
+              ],
+              "normals": [
+                {
+                  "icon": "513228",
+                  "name": "Perfect Arc",
+                  "level": 6
+                },
+                {
+                  "icon": "513230",
+                  "name": "Fervent Applause",
+                  "level": 6
+                },
+                {
+                  "icon": "513232",
+                  "name": "Home Run State",
+                  "level": 1
+                },
+                {
+                  "icon": "513229",
+                  "name": "Three Base Hit",
+                  "level": 1
+                },
+                {
+                  "icon": "513233",
+                  "name": "Radiant Synergy",
+                  "level": 1
+                }
+              ],
+              "commons": []
+            }
+          },
+          {
+            "slug": "tilia",
+            "name": "Tilia",
+            "element": "Lux",
+            "role": "Support",
+            "baseUnit": "10701",
+            "selection": {
+              "cores": [
+                {
+                  "icon": "510721",
+                  "name": "Holy Inscription",
+                  "level": null
+                },
+                {
+                  "icon": "510723",
+                  "name": "Perfect Spiral",
+                  "level": null
+                }
+              ],
+              "normals": [
+                {
+                  "icon": "510725",
+                  "name": "Enemy Counter",
+                  "level": 6
+                },
+                {
+                  "icon": "510726",
+                  "name": "Blinding Beam",
+                  "level": 1
+                },
+                {
+                  "icon": "510727",
+                  "name": "Knight's Seal",
+                  "level": 1
+                },
+                {
+                  "icon": "510729",
+                  "name": "Trick Boost",
+                  "level": 4
+                },
+                {
+                  "icon": "510733",
+                  "name": "Banner of Glory",
+                  "level": 1
+                }
+              ],
+              "commons": []
+            }
+          }
+        ]
+      }
+    ]
   }
 ];

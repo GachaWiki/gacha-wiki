@@ -53,7 +53,7 @@ export const Mistique = {
   ],
   "giftPreferences": {
     "loves": [
-      "Card Photo Capturer",
+      "Card Capturer",
       "Reflective Photo Capturer",
       "Ultra-Precision Photo Capturer",
       "Portable Blower",
@@ -64,7 +64,7 @@ export const Mistique = {
       "Shining Star"
     ],
     "hates": [
-      "Stellanite Enchantment",
+      "Star Eclipse",
       "Moonlit Companion",
       "Cosmic Form"
     ]

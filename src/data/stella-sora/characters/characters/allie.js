@@ -42,15 +42,15 @@ export const Allie = {
   ],
   "giftPreferences": {
     "loves": [
-      "Blossom Porcelain Cup",
+      "Porcelain Cup",
       "Deluxe Blower",
       "Exquisite Blower",
       "Fragrant Ice Delight",
       "Gilded Ceramic Bowl",
       "Mystic Potion Kettle",
       "Portable Blower",
-      "Summer Chill Crushed Ice",
-      "Sweet IceFurry"
+      "Chill Crushed Ice",
+      "Sweet Ice Furry"
     ],
     "hates": [
       "Emerging Talent",

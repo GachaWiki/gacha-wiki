@@ -42,8 +42,8 @@ export const Eleanor = {
   ],
   "giftPreferences": {
     "loves": [
-      "Blossom Porcelain Cup",
-      "Card Photo Capturer",
+      "Porcelain Cup",
+      "Card Capturer",
       "Deluxe Blower",
       "Exquisite Blower",
       "Gilded Ceramic Bowl",

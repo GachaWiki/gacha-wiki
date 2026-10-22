@@ -1,23 +1,12 @@
+// Gerie Character Data - Stella Sora
+// Generated from live game tables (Oct 19 2026 patch, v2.0.0)
+
 export const Gerie = {
   "id": 149,
   "name": "Gerie",
   "icon": "/stella/assets/Gerie.png",
   "portrait": "/stella/assets/Gerie_portrait.png",
   "background": "/stella/assets/Gerie_background.png",
-  "variants": {
-    "base": "/stella/assets/Gerie_base.png",
-    "q": "/stella/assets/Gerie_q.png",
-    "gd": "/stella/assets/Gerie_gd.png",
-    "goods": "/stella/assets/Gerie_goods.png",
-    "qs": "/stella/assets/Gerie_qs.png",
-    "xl": "/stella/assets/Gerie_xl.png",
-    "gc": "/stella/assets/Gerie_gc.png",
-    "sk": "/stella/assets/Gerie_portrait.png",
-    "xxl": "/stella/assets/Gerie.png",
-    "qm": "/stella/assets/Gerie_qm.png",
-    "l": "/stella/assets/Gerie_l.png",
-    "s": "/stella/assets/Gerie_s.png"
-  },
   "description": "Gerie brandishes her chain-shovel \"Mercy\" with reckless abandon on the battlefield, crushing swathes of foes. She sows terror into her opponent's soul before delivering judgment.",
   "voiceActor": {
     "cn": "Jing Chen",
@@ -42,67 +31,72 @@ export const Gerie = {
       "name": "The Cave Mass",
       "icon": "DatingSPCG_149301",
       "clue": "Visit the Cave to unlock",
-      "secondChoice": "Keep exploring deeper."
+      "secondChoice": "\"Boss, there are long-lost remains here. Please turn away, so you won't be frightened.\" She turns you around with her other hand. \"Please wait a moment and let me grant the unfortunate their final peace.\""
     },
     {
       "name": "Sea Prayer",
       "icon": "DatingSPCG_149302",
       "clue": "Visit the Port to unlock",
-      "secondChoice": "Take a small boat out for some coastal sightseeing."
+      "secondChoice": "\"It's vast and calm here.\" She takes your hands. \"Please share this stillness with me and use it to measure your own nature.\""
+    },
+    {
+      "name": "The Snow Spirit",
+      "icon": "DatingSPCG_149303",
+      "clue": "Visit Hot Spring Resort to unlock",
+      "secondChoice": "\"Just a moment, Boss~\"\n\nWith that, she walked straight into the shop. Before long, she came back out wearing a yukata.\n\n\"What do I look? Pretty scary, right?~\"\n\n\"Scary? I think it looks great.\"\n\n\"Huh...? Isn't this the look from that Goodwind horror story...?\""
     }
   ],
   "giftPreferences": {
     "loves": [
-      "Love Candle",
-      "Blazing Wings",
-      "Fiery Honeypot",
-      "Whisper Wind Spinner",
-      "Chilling Wind Spinner",
       "Blazing Wind Spinner",
-      "Rising Star",
+      "Blazing Wings",
+      "Chilling Wind Spinner",
       "Emerging Talent",
-      "Shining Star"
+      "Fiery Honeypot",
+      "Love Candle",
+      "Rising Star",
+      "Shining Star",
+      "Whisper Wind Spinner"
     ],
     "hates": [
-      "Portable Blower",
+      "Deluxe Blower",
       "Exquisite Blower",
-      "Deluxe Blower"
+      "Portable Blower"
     ]
   },
   "normalAttack": {
     "name": "Kiss of Death",
     "icon": "Icon/Skill/14901_Normal",
-    "description": "Slings the chain shovel to deal DMG multiple times.\u000bStrike 1: <color=#ec6d21>&Param1& of ATK</color> as Terra DMG.\u000bStrike 2: <color=#ec6d21>&Param2& of ATK x2</color> as Terra DMG.\u000bStrike 3: <color=#ec6d21>&Param3& of ATK</color> as Terra DMG.\u000bStrike 4: <color=#ec6d21>&Param4& of ATK x2</color> as Terra DMG.\u000bStrike 5: <color=#ec6d21>&Param5& of ATK</color>/<color=#ec6d21>&Param6& of ATK</color> as Terra DMG.",
+    "description": "Slings the chain shovel to deal DMG multiple times.\u000bStrike 1: <color=#ec6d21>&Param1&</color> of ATK as Terra Auto Attack DMG.\u000bStrike 2: <color=#ec6d21>&Param2& x2</color> of ATK as Terra Auto Attack DMG.\u000bStrike 3: <color=#ec6d21>&Param3&</color> of ATK as Terra Auto Attack DMG.\u000bStrike 4: <color=#ec6d21>&Param4& x2</color> of ATK as Terra Auto Attack DMG.\u000bStrike 5: <color=#ec6d21>&Param5&</color> and <color=#ec6d21>&Param6&</color> of ATK as Terra Auto Attack DMG.",
     "shortDescription": "Swings the chain shovel to deal DMG multiple times.",
     "params": [
-      "15.4%/17.7%/20%/26.9%/29%/31.2%/35.5%/37.3%/39.2%/42.8%/45.9%/49%/52.1%",
-      "9.8%/11.3%/12.7%/17.2%/18.5%/19.9%/22.6%/23.8%/25%/27.3%/29.3%/31.3%/33.2%",
-      "14.1%/16.2%/18.3%/24.6%/26.6%/28.5%/32.5%/34.2%/35.8%/39.2%/42%/44.8%/47.6%",
-      "13.1%/15%/17%/23%/25%/27%/30%/32%/33%/36%/39%/42%/44%",
-      "22.9%/26.3%/29.7%/40%/43.2%/46.4%/52.8%/55.6%/58.3%/63.8%/68.4%/72.9%/77.5%",
-      "16.8%/19.3%/21.8%/29.4%/31.7%/34.1%/38.8%/40.8%/42.8%/46.8%/50.2%/53.5%/56.9%"
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
     ],
     "hints": {}
   },
   "skill": {
     "name": "Thorned Inferno",
     "icon": "Icon/Skill/14901_Skill_Main",
-    "description": "Leaps at the target, dealing <color=#ec6d21>&Param1& of ATK</color>/<color=#ec6d21>&Param2& of ATK</color> as AoE Terra DMG, and creates an Iron Cage.\u000bIron Cage: Links 2 nearby targets, dealing <color=#ec6d21>&Param3& of ATK</color> as Terra DMG every second for 8s. When Gerie is near the Iron Cage, she enters the Lethal status, which increases her &Param4& by <color=#ec6d21>&Param5&</color>.\u000bThorned Inferno (Main Skill) can trigger ##Terra Mark#1020#, dealing &Param6& of ATK as AoE Terra Mark DMG.",
+    "description": "Leaps at the target, dealing <color=#ec6d21>&Param1&</color> and <color=#ec6d21>&Param2&</color> of ATK as AoE Terra Skill DMG, and creates an Iron Cage.\u000bIron Cage: Links 2 nearby targets, dealing <color=#ec6d21>&Param3&</color> of ATK as Terra Skill DMG every second for 8s. When Gerie is near the Iron Cage, she enters the Lethal status, which increases her &Param4& by <color=#ec6d21>&Param5&</color>.\u000bThorned Inferno (Main Skill) can trigger ##Terra Mark#1020#, dealing &Param6& of ATK as AoE Terra Mark DMG.",
     "shortDescription": "Leaps at the target, dealing AoE Terra DMG, and creates an Iron Cage that deals DMG over time.\u000bWhen Gerie is near the Iron Cage, she enters the Lethal status, which increases her Auto Attack DMG.\u000bThe Main Skill can trigger ##Terra Mark#1020#.",
     "params": [
-      "86%/98%/111%/150%/162%/174%/198%/208%/218%/239%/256%/273%/290%",
-      "57%/66%/74%/100%/108%/116%/132%/139%/145%/159%/171%/182%/193%",
-      "25.2%/29%/32.7%/44.1%/47.6%/51.1%/58.2%/61.2%/64.2%/70.2%/75.3%/80.3%/85.3%",
-      "Effect,LevelUp,14900011,EffectTypeFirstSubtype,Enum,EAT",
-      "Effect,LevelUp,14900011,EffectTypeParam1,HdPct",
-      "37%/48%/59%/70%/81%/92%/103%/114%/125%"
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
     ],
     "hints": {
       "1020": {
         "id": 1020,
         "name": "Terra Mark",
-        "description": "The generic name for all Terra Marks.\u000bWhen triggered by specific Terra Trekkers' attacks, the status is removed, and a special effect is activated.",
-        "params": []
+        "description": "The generic name for all Terra Marks.\u000bWhen triggered by specific Terra Trekkers' attacks, the status is removed, and a special effect is activated."
       }
     },
     "cooldown": "14s"
@@ -110,19 +104,18 @@ export const Gerie = {
   "supportSkill": {
     "name": "Immediate Execution",
     "icon": "Icon/Skill/14901_Skill_Support",
-    "description": "Slings the chain shovel and creates Seismic Waves, dealing <color=#ec6d21>&Param1&</color>/<color=#ec6d21>&Param2&</color> Terra DMG respectively.\u000bImmediate Execution (Support Skill) can trigger ##Terra Mark#1020#, dealing &Param3& of ATK as AoE Terra Mark DMG.",
+    "description": "Slings the chain shovel and creates Seismic Waves, dealing <color=#ec6d21>&Param1&</color> and <color=#ec6d21>&Param2&</color> of ATK as Terra Skill DMG respectively.\u000bImmediate Execution (Support Skill) can trigger ##Terra Mark#1020#, dealing &Param3& of ATK as AoE Terra Mark DMG.",
     "shortDescription": "Slings the chain shovel and creates Seismic Waves, dealing Terra DMG respectively.\u000bThe Support Skill can trigger ##Terra Mark#1020#.",
     "params": [
-      "105%/120%/136%/183%/198%/213%/242%/255%/267%/292%/313%/334%/355%",
-      "79%/91%/103%/138%/149%/160%/182%/192%/201%/220%/236%/252%/268%",
-      "37%/48%/59%/70%/81%/92%/103%/114%/125%"
+      "",
+      "",
+      ""
     ],
     "hints": {
       "1020": {
         "id": 1020,
         "name": "Terra Mark",
-        "description": "The generic name for all Terra Marks.\u000bWhen triggered by specific Terra Trekkers' attacks, the status is removed, and a special effect is activated.",
-        "params": []
+        "description": "The generic name for all Terra Marks.\u000bWhen triggered by specific Terra Trekkers' attacks, the status is removed, and a special effect is activated."
       }
     },
     "cooldown": "12s"
@@ -130,18 +123,18 @@ export const Gerie = {
   "ultimate": {
     "name": "Divine: Retribution of Evil",
     "icon": "Icon/Skill/14901_Ultra",
-    "description": "Generates a huge chain shovel, dealing <color=#ec6d21>&Param1& of ATK x3</color> as Terra DMG to targets in its path.\u000bHeaven's Grace: Judgement of Doom (Ultimate) can trigger ##Terra Mark#1020#, dealing &Param3& of ATK as AoE Terra Mark DMG.",
-    "shortDescription": "Generates a huge chain shovel, dealing Terra DMG to targets in its path.\u000bThe Ultimate can trigger ##Terra Mark#1020#.",
+    "description": "Generates 3 huge chain shovels, each dealing <color=#ec6d21>&Param1& of ATK x3</color> as Terra Ultimate DMG to targets along its path.\u000bDivine: Retribution of Evil (Ultimate) can trigger ##Terra Mark#1020#, dealing &Param3& of ATK as AoE Terra Mark DMG.",
+    "shortDescription": "Generates multiple huge chain shovels, each dealing Terra DMG to targets along its path.\u000bHer Ultimate can trigger ##Terra Mark#1020#.",
     "params": [
-      "390%/449%/507%/683%/737%/792%/901%/948%/995%/1089%/1167%/1245%/1323%",
-      "37%/48%/59%/70%/81%/92%/103%/114%/125%"
+      "",
+      "",
+      ""
     ],
     "hints": {
       "1020": {
         "id": 1020,
         "name": "Terra Mark",
-        "description": "The generic name for all Terra Marks.\u000bWhen triggered by specific Terra Trekkers' attacks, the status is removed, and a special effect is activated.",
-        "params": []
+        "description": "The generic name for all Terra Marks.\u000bWhen triggered by specific Terra Trekkers' attacks, the status is removed, and a special effect is activated."
       }
     },
     "cooldown": "30s",
@@ -964,363 +957,6 @@ export const Gerie = {
       "atk": 7426
     }
   ],
-  "upgrades": [
-    {
-      "items": [
-        {
-          "id": 20071,
-          "name": "Backstage Ragged Hat",
-          "quantity": 5
-        }
-      ],
-      "currency": {
-        "dorra": 7900
-      }
-    },
-    {
-      "items": [
-        {
-          "id": 20071,
-          "name": "Backstage Ragged Hat",
-          "quantity": 5
-        },
-        {
-          "id": 20072,
-          "name": "Spotlight Bowler",
-          "quantity": 10
-        }
-      ],
-      "currency": {
-        "dorra": 19800
-      }
-    },
-    {
-      "items": [
-        {
-          "id": 20071,
-          "name": "Backstage Ragged Hat",
-          "quantity": 10
-        },
-        {
-          "id": 20072,
-          "name": "Spotlight Bowler",
-          "quantity": 15
-        }
-      ],
-      "currency": {
-        "dorra": 44400
-      }
-    },
-    {
-      "items": [
-        {
-          "id": 20071,
-          "name": "Backstage Ragged Hat",
-          "quantity": 15
-        },
-        {
-          "id": 20072,
-          "name": "Spotlight Bowler",
-          "quantity": 25
-        }
-      ],
-      "currency": {
-        "dorra": 66600
-      }
-    },
-    {
-      "items": [
-        {
-          "id": 20071,
-          "name": "Backstage Ragged Hat",
-          "quantity": 20
-        },
-        {
-          "id": 20072,
-          "name": "Spotlight Bowler",
-          "quantity": 40
-        }
-      ],
-      "currency": {
-        "dorra": 146100
-      }
-    },
-    {
-      "items": [
-        {
-          "id": 20071,
-          "name": "Backstage Ragged Hat",
-          "quantity": 30
-        },
-        {
-          "id": 20072,
-          "name": "Spotlight Bowler",
-          "quantity": 55
-        },
-        {
-          "id": 20073,
-          "name": "Exeunt Bowler",
-          "quantity": 20
-        }
-      ],
-      "currency": {
-        "dorra": 291600
-      }
-    },
-    {
-      "items": [
-        {
-          "id": 20072,
-          "name": "Spotlight Bowler",
-          "quantity": 75
-        },
-        {
-          "id": 20073,
-          "name": "Exeunt Bowler",
-          "quantity": 30
-        }
-      ],
-      "currency": {
-        "dorra": 560200
-      }
-    },
-    {
-      "items": [
-        {
-          "id": 20072,
-          "name": "Spotlight Bowler",
-          "quantity": 95
-        },
-        {
-          "id": 20073,
-          "name": "Exeunt Bowler",
-          "quantity": 50
-        }
-      ],
-      "currency": {
-        "dorra": 1121300
-      }
-    },
-    {
-      "items": [],
-      "currency": {
-        "dorra": 1121300
-      }
-    }
-  ],
-  "skillUpgrades": [
-    {
-      "items": [
-        {
-          "id": 32021,
-          "name": "Kung Fu Game Cartridge",
-          "quantity": 6
-        },
-        {
-          "id": 32000,
-          "name": "Chess Piece of Skill",
-          "quantity": 2
-        }
-      ],
-      "currency": {
-        "dorra": 13300
-      }
-    },
-    {
-      "items": [
-        {
-          "id": 32021,
-          "name": "Kung Fu Game Cartridge",
-          "quantity": 12
-        },
-        {
-          "id": 32000,
-          "name": "Chess Piece of Skill",
-          "quantity": 6
-        }
-      ],
-      "currency": {
-        "dorra": 17600
-      }
-    },
-    {
-      "items": [
-        {
-          "id": 32021,
-          "name": "Kung Fu Game Cartridge",
-          "quantity": 24
-        },
-        {
-          "id": 32022,
-          "name": "Fighting Game Cartridge",
-          "quantity": 3
-        },
-        {
-          "id": 32000,
-          "name": "Chess Piece of Skill",
-          "quantity": 10
-        }
-      ],
-      "currency": {
-        "dorra": 49800
-      }
-    },
-    {
-      "items": [
-        {
-          "id": 32021,
-          "name": "Kung Fu Game Cartridge",
-          "quantity": 38
-        },
-        {
-          "id": 32022,
-          "name": "Fighting Game Cartridge",
-          "quantity": 8
-        },
-        {
-          "id": 32000,
-          "name": "Chess Piece of Skill",
-          "quantity": 24
-        }
-      ],
-      "currency": {
-        "dorra": 100000
-      }
-    },
-    {
-      "items": [
-        {
-          "id": 32021,
-          "name": "Kung Fu Game Cartridge",
-          "quantity": 70
-        },
-        {
-          "id": 32022,
-          "name": "Fighting Game Cartridge",
-          "quantity": 14
-        },
-        {
-          "id": 32023,
-          "name": "Phantom Game Cartridge",
-          "quantity": 6
-        },
-        {
-          "id": 32000,
-          "name": "Chess Piece of Skill",
-          "quantity": 55
-        }
-      ],
-      "currency": {
-        "dorra": 400000
-      }
-    },
-    {
-      "items": [
-        {
-          "id": 21003,
-          "name": "Forest Elf Essence",
-          "quantity": 1
-        },
-        {
-          "id": 32022,
-          "name": "Fighting Game Cartridge",
-          "quantity": 50
-        },
-        {
-          "id": 32023,
-          "name": "Phantom Game Cartridge",
-          "quantity": 18
-        },
-        {
-          "id": 32000,
-          "name": "Chess Piece of Skill",
-          "quantity": 232
-        }
-      ],
-      "currency": {
-        "dorra": 900000
-      }
-    },
-    {
-      "items": [
-        {
-          "id": 21003,
-          "name": "Forest Elf Essence",
-          "quantity": 2
-        },
-        {
-          "id": 32022,
-          "name": "Fighting Game Cartridge",
-          "quantity": 90
-        },
-        {
-          "id": 32023,
-          "name": "Phantom Game Cartridge",
-          "quantity": 34
-        },
-        {
-          "id": 32000,
-          "name": "Chess Piece of Skill",
-          "quantity": 323
-        }
-      ],
-      "currency": {
-        "dorra": 1600000
-      }
-    },
-    {
-      "items": [
-        {
-          "id": 21003,
-          "name": "Forest Elf Essence",
-          "quantity": 3
-        },
-        {
-          "id": 32022,
-          "name": "Fighting Game Cartridge",
-          "quantity": 140
-        },
-        {
-          "id": 32023,
-          "name": "Phantom Game Cartridge",
-          "quantity": 50
-        },
-        {
-          "id": 32000,
-          "name": "Chess Piece of Skill",
-          "quantity": 478
-        }
-      ],
-      "currency": {
-        "dorra": 2300000
-      }
-    },
-    {
-      "items": [
-        {
-          "id": 21003,
-          "name": "Forest Elf Essence",
-          "quantity": 6
-        },
-        {
-          "id": 32022,
-          "name": "Fighting Game Cartridge",
-          "quantity": 200
-        },
-        {
-          "id": 32023,
-          "name": "Phantom Game Cartridge",
-          "quantity": 70
-        },
-        {
-          "id": 32000,
-          "name": "Chess Piece of Skill",
-          "quantity": 927
-        }
-      ],
-      "currency": {
-        "dorra": 3400000
-      }
-    }
-  ]
+  "upgrades": [],
+  "skillUpgrades": []
 };

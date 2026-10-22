@@ -1,5 +1,5 @@
 // Firenze Character Data - Stella Sora
-// Generated from live game tables (Sep 8 2026 patch, v1.15.0)
+// Generated from live game tables (Oct 19 2026 patch, v2.0.0)
 
 export const Firenze = {
   "id": 110,
@@ -38,18 +38,24 @@ export const Firenze = {
       "icon": "DatingSPCG_110302",
       "clue": "Visit the Port to unlock",
       "secondChoice": "Like Firenze said, she's not fishing to catch some fish, so she stays calm and relaxed even when no fish takes the bait for quite some time...\nUntil her competitive side takes over.\n\"How dare you ignore me, fish?\" She also hates to fail."
+    },
+    {
+      "name": "A \"Romantic\" Stroll",
+      "icon": "DatingSPCG_110303",
+      "clue": "Visit the Market to unlock",
+      "secondChoice": "It turns out she regularly leaves the office to inspect commercial hubs across the city, including this one.\n\"This is the only place you see genuine market trends and real civic life,\" she explains.\n\"So this is just work to you, not a casual stroll...\" You sigh. That sounds exactly like the Firenze you know."
     }
   ],
   "giftPreferences": {
     "loves": [
       "Blazing Wings",
-      "Blossom Porcelain Cup",
       "Deluxe Blower",
       "Exquisite Blower",
       "Fiery Honeypot",
       "Gilded Ceramic Bowl",
       "Love Candle",
       "Mystic Potion Kettle",
+      "Porcelain Cup",
       "Portable Blower"
     ],
     "hates": [

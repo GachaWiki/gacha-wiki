@@ -46,8 +46,8 @@ export const Donna = {
       "Exquisite Blower",
       "Fragrant Ice Delight",
       "Portable Blower",
-      "Summer Chill Crushed Ice",
-      "Sweet IceFurry",
+      "Chill Crushed Ice",
+      "Sweet Ice Furry",
       "Whisper Wind Spinner"
     ],
     "hates": [

@@ -56,7 +56,7 @@ export const Shia = {
       "Portable Blower",
       "Exquisite Blower",
       "Deluxe Blower",
-      "Stellanite Enchantment",
+      "Star Eclipse",
       "Moonlit Companion",
       "Cosmic Form",
       "Whisper Wind Spinner",
@@ -64,9 +64,9 @@ export const Shia = {
       "Blazing Wind Spinner"
     ],
     "hates": [
-      "Summer Chill Crushed Ice",
+      "Chill Crushed Ice",
       "Fragrant Ice Delight",
-      "Sweet IceFurry"
+      "Sweet Ice Furry"
     ]
   },
   "normalAttack": {

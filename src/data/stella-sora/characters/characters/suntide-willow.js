@@ -43,7 +43,7 @@ export const SuntideWillow = {
   "giftPreferences": {
     "loves": [
       "Blazing Wind Spinner",
-      "Blossom Porcelain Cup",
+      "Porcelain Cup",
       "Chilling Wind Spinner",
       "Deluxe Blower",
       "Exquisite Blower",

@@ -57,7 +57,7 @@ export const Laru = {
       "Chilling Wind Spinner",
       "Blazing Wind Spinner",
       "Gilded Ceramic Bowl",
-      "Blossom Porcelain Cup",
+      "Porcelain Cup",
       "Mystic Potion Kettle"
     ],
     "hates": []

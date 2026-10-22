@@ -1,23 +1,12 @@
+// Chixia Character Data - Stella Sora
+// Generated from live game tables (Oct 19 2026 patch, v2.0.0)
+
 export const Chixia = {
   "id": 141,
   "name": "Chixia",
   "icon": "/stella/assets/Chixia.png",
   "portrait": "/stella/assets/Chixia_portrait.png",
   "background": "/stella/assets/Chixia_background.png",
-  "variants": {
-    "base": "/stella/assets/Chixia_base.png",
-    "q": "/stella/assets/Chixia_q.png",
-    "gd": "/stella/assets/Chixia_gd.png",
-    "goods": "/stella/assets/Chixia_goods.png",
-    "qs": "/stella/assets/Chixia_qs.png",
-    "xl": "/stella/assets/Chixia_xl.png",
-    "gc": "/stella/assets/Chixia_gc.png",
-    "sk": "/stella/assets/Chixia_portrait.png",
-    "xxl": "/stella/assets/Chixia.png",
-    "qm": "/stella/assets/Chixia_qm.png",
-    "l": "/stella/assets/Chixia_l.png",
-    "s": "/stella/assets/Chixia_s.png"
-  },
   "description": "Nobody would expect a Xuan Shi to be so timid. Her giant writing brush is a modified flamethrower and also her instrument in drawing powerful talismans.",
   "voiceActor": {
     "cn": "Tang Xiafang",
@@ -25,7 +14,7 @@ export const Chixia = {
     "jp": "Sora Tokui",
     "jpLocalized": "徳井青空"
   },
-  "birthday": "4.1",
+  "birthday": "4.10",
   "grade": 5,
   "element": "Ignis",
   "position": "Versatile",
@@ -42,72 +31,96 @@ export const Chixia = {
       "name": "The Mural Master",
       "icon": "DatingSPCG_141301",
       "clue": "Visit the Cave to unlock",
-      "secondChoice": "Keep exploring deeper."
+      "secondChoice": "These murals are wildly abstract, much like the careless scribbles of a three-year-old. They look strange indeed inside the damp, dim cave.\n\nAnd then you notice that Chixia isn't scared of the dark anymore. In fact, she's so excited that sparks are flying from her tail."
     },
     {
       "name": "Cake Artistry",
       "icon": "DatingSPCG_141302",
       "clue": "Visit the Dessert Shop to unlock",
-      "secondChoice": "Haven't had enough. Let's order some more."
+      "secondChoice": "\"I want that one!\"\n\nChixia's eyes light up as she points at the small cake, excitedly placing her order. However, she is told it's actually a failed practice attempt made by one of the shop's new apprentices.\n\nSeeing her stunned by the words \"failed,\" you step in quickly, have a quiet word with the staff, and manage to buy the strange little cake at a discount."
+    },
+    {
+      "name": "A Hot Spring Mystery",
+      "icon": "DatingSPCG_141303",
+      "clue": "Visit Hot Spring Resort to unlock",
+      "secondChoice": "You were surprised to learn that there actually were people who didn't like hot spring soaks.\n\n\"The water will make the scales on my tail wet. And it will make my fire spells go wonky. Anyway, there's no way I'm getting in there!\"\n\n\"But when you take a bath, your tail gets wet, too...\"\n\nBefore you could finish, you saw the guilty look on her face. Could it be...?\n\n\"Hey, you're afraid of baths?! What are you, a cat?\""
+    },
+    {
+      "name": "",
+      "icon": "",
+      "clue": "",
+      "secondChoice": "The menu is packed with choices and you don't know where to start. After some indecision, you end up ordering the same thing as ==DATING_CHARACTER==."
+    },
+    {
+      "name": "",
+      "icon": "",
+      "clue": "",
+      "secondChoice": "As you sit down with your orders, a couple at the next table leans in close. Please, not in public...!"
+    },
+    {
+      "name": "",
+      "icon": "",
+      "clue": "",
+      "secondChoice": "Almost immediately, the comic book section draws your attention. Each of you grabs one."
+    },
+    {
+      "name": "",
+      "icon": "",
+      "clue": "",
+      "secondChoice": "You discover an old manuscript recording Stellaroid sightings. Holding one side each, you read together."
     }
   ],
   "giftPreferences": {
     "loves": [
-      "Card Photo Capturer",
-      "Reflective Photo Capturer",
-      "Ultra-Precision Photo Capturer",
-      "Rising Star",
+      "Card Capturer",
+      "Chill Crushed Ice",
       "Emerging Talent",
-      "Shining Star",
-      "Summer Chill Crushed Ice",
       "Fragrant Ice Delight",
-      "Sweet IceFurry"
+      "Reflective Photo Capturer",
+      "Rising Star",
+      "Shining Star",
+      "Sweet Ice Furry",
+      "Ultra-Precision Photo Capturer"
     ],
     "hates": [
       "Gilded Ceramic Bowl",
-      "Blossom Porcelain Cup",
-      "Mystic Potion Kettle"
+      "Mystic Potion Kettle",
+      "Porcelain Cup"
     ]
   },
   "normalAttack": {
     "name": "Mystic Brushstrokes",
     "icon": "Icon/Skill/14101_Normal",
-    "description": "Waves the writing brush and inflicts Ink.\u000bStrike 1: <color=#fb8037>&Param1& of ATK</color> as Ignis DMG.\u000bStrike 2: <color=#fb8037>&Param2& of ATK</color> as Ignis DMG.\u000bStrike 3: <color=#fb8037>&Param3& of ATK x4</color> as Ignis DMG.\u000bStrike 4: <color=#fb8037>&Param4& of ATK x3</color> as Ignis DMG.\u000bStrike 5: <color=#fb8037>&Param5& of ATK</color> as Ignis DMG.",
+    "description": "Waves the writing brush and inflicts Ink.\u000bStrike 1: <color=#fb8037>&Param1&</color> of ATK as Ignis Auto Attack DMG.\u000bStrike 2: <color=#fb8037>&Param2&</color> of ATK as Ignis Auto Attack DMG.\u000bStrike 3: <color=#fb8037>&Param3& x4</color> of ATK as Ignis Auto Attack DMG.\u000bStrike 4: <color=#fb8037>&Param4& x3</color> of ATK as Ignis Auto Attack DMG.\u000bStrike 5: <color=#fb8037>&Param5&</color> of ATK as Ignis Auto Attack DMG.",
     "shortDescription": "Hurls the writing brush to perform multiple attacks.",
     "params": [
-      "12.2%/14%/15.8%/21.3%/23%/24.7%/28.1%/29.6%/31%/34%/36.4%/38.8%/41.3%",
-      "14.7%/16.9%/19.2%/25.8%/27.8%/29.9%/34%/35.8%/37.6%/41.1%/44.1%/47%/50%",
-      "7.2%/8.3%/9.4%/12.6%/13.6%/14.6%/16.6%/17.5%/18.4%/20.1%/21.5%/23%/24.4%",
-      "6.7%/7.7%/8.7%/11.8%/12.7%/13.6%/15.5%/16.3%/17.1%/18.8%/20.1%/21.4%/22.8%",
-      "22.4%/25.8%/29.1%/39.2%/42.4%/45.5%/51.8%/54.5%/57.1%/62.5%/67%/71.5%/76%"
+      "12%/14%/15%/21%/23%/24%/28%/29%/31%/34%/36%/38%/41%",
+      "14%/16%/19%/25%/27%/29%/34%/35%/37%/41%/44%/47%/50%",
+      "7%/8%/9%/12%/13%/14%/16%/17%/18%/20%/21%/23%/24%",
+      "6%/7%/8%/11%/12%/13%/15%/16%/17%/18%/20%/21%/22%",
+      "22%/25%/29%/39%/42%/45%/51%/54%/57%/62%/67%/71%/76%"
     ],
     "hints": {}
   },
   "skill": {
     "name": "Purifying Flames",
     "icon": "Icon/Skill/14101_Skill_Main",
-    "description": "Spreads out a torrent of flames, dealing <color=#fb8037>&Param1& of ATK</color> as AoE Ignis DMG every 0.2s for a total of 3s. When dealing DMG to targets with Ink, inflicts ##Ignite#2027#.\u000bPurifying Flames (Main Skill) can trigger ##Ignis Mark#1016#, dealing &Param3& of ATK as AoE Ignis Mark DMG.",
-    "shortDescription": "Spreads out a torrent of flames ahead, dealing DMG over time.\u000bThe Main Skill can trigger ##Ignis Mark#1016#.",
+    "description": "Spreads out a torrent of flames, dealing <color=#fb8037>&Param1&</color> of ATK as AoE Ignis Skill DMG every 0.2s for a total of 3s. When dealing DMG to targets with Ink, inflicts ##Ignite#2027#.\u000bPurifying Flames (Main Skill) can trigger ##Ignis Mark#1016# and inflict Incineration, dealing &Param3& of ATK as AoE Ignis Mark DMG.",
+    "shortDescription": "Spreads out a torrent of flames ahead, dealing DMG over time.\u000bThe Main Skill can trigger ##Ignis Mark#1016# and inflict Incineration.",
     "params": [
-      "12.2%/14%/15.8%/21.3%/23%/24.7%/28.1%/29.6%/31%/34%/36.4%/38.8%/41.3%",
+      "24%/28%/32%/43%/46%/50%/57%/60%/63%/68%/73%/78%/83%",
       "Purifying Flames",
       "28%/36%/45%/53%/61%/70%/78%/86%/95%"
     ],
     "hints": {
+      "2027": {
+        "id": 2027,
+        "name": "Ignite"
+      },
       "1016": {
         "id": 1016,
         "name": "Ignis Mark",
-        "description": "The generic name for all Ignis Marks.\u000bWhen triggered by specific Ignis Trekkers' attacks, the status is removed, and a special effect is activated.",
-        "params": []
-      },
-      "2027": {
-        "id": 2027,
-        "name": "Ignite",
-        "description": "Chixia's flames ignite the Ink applied on the target, dealing DMG pers for &Param2&s. Her flames deal Ignis DMG equal to &Param1& of ATK in total.",
-        "params": [
-          "28%/36%/45%/53%/61%/70%/78%/86%/95%",
-          "8"
-        ]
+        "description": "The generic name for all Ignis Marks.\u000bWhen triggered by specific Ignis Trekkers' attacks, the status is removed, and a special effect is activated."
       }
     },
     "cooldown": "7s"
@@ -115,21 +128,23 @@ export const Chixia = {
   "supportSkill": {
     "name": "Awakening: Crimson Dragon",
     "icon": "Icon/Skill/14101_Skill_Support",
-    "description": "Summons a Crimson Dragon every 2s, up to 3 times.\u000bEach Crimson Dragon lasts for 8s and spits Ink at the target, dealing <color=#fb8037>&Param1& of ATK</color> as Ignis Minion's DMG. Upon vanishing, it charges toward the target, dealing <color=#fb8037>&Param2& of ATK</color> as Ignis Minion's AoE DMG.\u000bWhen Crimson Dragon deals DMG, inflicts ##Ignis Mark: Sacred Flame#2013#.\u000bMinions summoned by &Param3& will be removed when the Support Skill is cast again.",
-    "shortDescription": "Summons a Crimson Dragon to attack the target.\u000bThe Support Skill can inflict ##Ignis Mark: Sacred Flame#2013#.",
+    "description": "Summons a ##Crimson Dragon#4018# every 2s, up to 3 times.\u000b##Crimson Dragon#4018# spits Ink at the target, dealing <color=#fb8037>&Param1&</color> of ATK as Ignis Minion's DMG. Upon vanishing, it charges toward the target, dealing <color=#fb8037>&Param2&</color> of ATK as Ignis Minion's AoE DMG.\u000bWhen ##Crimson Dragon#4018# deals DMG, inflicts ##Ignis Mark: Sacred Flame#2013#.\u000bMinions summoned by &Param3& will be removed when the Support Skill is cast again.",
+    "shortDescription": "Summons a ##Crimson Dragon#4018# to attack the target.\u000b##Crimson Dragon#4018#'s DMG can inflict ##Ignis Mark: Sacred Flame#2013#.",
     "params": [
       "39%/45%/51%/69%/74%/80%/91%/95%/100%/109%/117%/125%/133%",
       "57%/65%/73%/99%/107%/115%/131%/137%/144%/158%/169%/180%/192%",
       "Awakening: Crimson Dragon"
     ],
     "hints": {
+      "4018": {
+        "id": 4018,
+        "name": "Crimson Dragon",
+        "description": "Crimson Dragon inherits 100% of Chixia's ATK for 8s, during which it is immune to DMG."
+      },
       "2013": {
         "id": 2013,
         "name": "Ignis Mark: Sacred Flame",
-        "description": "A special status applied to the target by some Ignis Trekkers, lasting for 10s.\u000bCan be triggered by the attacks of specific Ignis Trekkers. When triggered, deals large AoE DMG.",
-        "params": [
-          "10"
-        ]
+        "description": "Some Ignis characters apply a special status to the target for 10 sec.\u000bWhen triggered by specific Ignis characters' attacks, the status is removed, and a special effect is activated."
       }
     },
     "cooldown": "18s"
@@ -137,12 +152,12 @@ export const Chixia = {
   "ultimate": {
     "name": "Dragon's Ascension",
     "icon": "Icon/Skill/14101_Ultra",
-    "description": "Conjures a Fire Dragon to circle around the target, dealing <color=#fb8037>&Param1& of ATK</color> as Ignis DMG in a large area every 0.3s for a total of 5s.",
+    "description": "Conjures a Fire Dragon to circle around the target, dealing <color=#fb8037>&Param1&</color> of ATK as Ignis Ultimate DMG in a large area every 0.3s for a total of 5s.",
     "shortDescription": "Conjures a Fire Dragon to attack the target's location.",
     "params": [
       "87%/101%/114%/153%/165%/177%/202%/212%/223%/244%/261%/279%/296%",
-      "HitDamage,DamageNum,141400002",
-      "HitDamage,DamageNum,141400003",
+      "",
+      "",
       "Dragon's Ascension",
       "28%/36%/45%/53%/61%/70%/78%/86%/95%"
     ],
@@ -241,7 +256,7 @@ export const Chixia = {
           "description": "Increases Crit Rate by <color=#0abec5>&Param1&</color> and Crit DMG by <color=#0abec5>&Param2&</color> for Chixia's Ultimate.",
           "params": [
             "10%",
-            "10%"
+            "0.08%"
           ]
         },
         {
@@ -963,363 +978,6 @@ export const Chixia = {
       "atk": 7254
     }
   ],
-  "upgrades": [
-    {
-      "items": [
-        {
-          "id": 20071,
-          "name": "Backstage Ragged Hat",
-          "quantity": 5
-        }
-      ],
-      "currency": {
-        "dorra": 7900
-      }
-    },
-    {
-      "items": [
-        {
-          "id": 20071,
-          "name": "Backstage Ragged Hat",
-          "quantity": 5
-        },
-        {
-          "id": 20072,
-          "name": "Spotlight Bowler",
-          "quantity": 10
-        }
-      ],
-      "currency": {
-        "dorra": 19800
-      }
-    },
-    {
-      "items": [
-        {
-          "id": 20071,
-          "name": "Backstage Ragged Hat",
-          "quantity": 10
-        },
-        {
-          "id": 20072,
-          "name": "Spotlight Bowler",
-          "quantity": 15
-        }
-      ],
-      "currency": {
-        "dorra": 44400
-      }
-    },
-    {
-      "items": [
-        {
-          "id": 20071,
-          "name": "Backstage Ragged Hat",
-          "quantity": 15
-        },
-        {
-          "id": 20072,
-          "name": "Spotlight Bowler",
-          "quantity": 25
-        }
-      ],
-      "currency": {
-        "dorra": 66600
-      }
-    },
-    {
-      "items": [
-        {
-          "id": 20071,
-          "name": "Backstage Ragged Hat",
-          "quantity": 20
-        },
-        {
-          "id": 20072,
-          "name": "Spotlight Bowler",
-          "quantity": 40
-        }
-      ],
-      "currency": {
-        "dorra": 146100
-      }
-    },
-    {
-      "items": [
-        {
-          "id": 20071,
-          "name": "Backstage Ragged Hat",
-          "quantity": 30
-        },
-        {
-          "id": 20072,
-          "name": "Spotlight Bowler",
-          "quantity": 55
-        },
-        {
-          "id": 20073,
-          "name": "Exeunt Bowler",
-          "quantity": 20
-        }
-      ],
-      "currency": {
-        "dorra": 291600
-      }
-    },
-    {
-      "items": [
-        {
-          "id": 20072,
-          "name": "Spotlight Bowler",
-          "quantity": 75
-        },
-        {
-          "id": 20073,
-          "name": "Exeunt Bowler",
-          "quantity": 30
-        }
-      ],
-      "currency": {
-        "dorra": 560200
-      }
-    },
-    {
-      "items": [
-        {
-          "id": 20072,
-          "name": "Spotlight Bowler",
-          "quantity": 95
-        },
-        {
-          "id": 20073,
-          "name": "Exeunt Bowler",
-          "quantity": 50
-        }
-      ],
-      "currency": {
-        "dorra": 1121300
-      }
-    },
-    {
-      "items": [],
-      "currency": {
-        "dorra": 1121300
-      }
-    }
-  ],
-  "skillUpgrades": [
-    {
-      "items": [
-        {
-          "id": 32021,
-          "name": "Kung Fu Game Cartridge",
-          "quantity": 6
-        },
-        {
-          "id": 32000,
-          "name": "Chess Piece of Skill",
-          "quantity": 2
-        }
-      ],
-      "currency": {
-        "dorra": 13300
-      }
-    },
-    {
-      "items": [
-        {
-          "id": 32021,
-          "name": "Kung Fu Game Cartridge",
-          "quantity": 12
-        },
-        {
-          "id": 32000,
-          "name": "Chess Piece of Skill",
-          "quantity": 6
-        }
-      ],
-      "currency": {
-        "dorra": 17600
-      }
-    },
-    {
-      "items": [
-        {
-          "id": 32021,
-          "name": "Kung Fu Game Cartridge",
-          "quantity": 24
-        },
-        {
-          "id": 32022,
-          "name": "Fighting Game Cartridge",
-          "quantity": 3
-        },
-        {
-          "id": 32000,
-          "name": "Chess Piece of Skill",
-          "quantity": 10
-        }
-      ],
-      "currency": {
-        "dorra": 49800
-      }
-    },
-    {
-      "items": [
-        {
-          "id": 32021,
-          "name": "Kung Fu Game Cartridge",
-          "quantity": 38
-        },
-        {
-          "id": 32022,
-          "name": "Fighting Game Cartridge",
-          "quantity": 8
-        },
-        {
-          "id": 32000,
-          "name": "Chess Piece of Skill",
-          "quantity": 24
-        }
-      ],
-      "currency": {
-        "dorra": 100000
-      }
-    },
-    {
-      "items": [
-        {
-          "id": 32021,
-          "name": "Kung Fu Game Cartridge",
-          "quantity": 70
-        },
-        {
-          "id": 32022,
-          "name": "Fighting Game Cartridge",
-          "quantity": 14
-        },
-        {
-          "id": 32023,
-          "name": "Phantom Game Cartridge",
-          "quantity": 6
-        },
-        {
-          "id": 32000,
-          "name": "Chess Piece of Skill",
-          "quantity": 55
-        }
-      ],
-      "currency": {
-        "dorra": 400000
-      }
-    },
-    {
-      "items": [
-        {
-          "id": 21023,
-          "name": "Colossus Essence",
-          "quantity": 1
-        },
-        {
-          "id": 32022,
-          "name": "Fighting Game Cartridge",
-          "quantity": 50
-        },
-        {
-          "id": 32023,
-          "name": "Phantom Game Cartridge",
-          "quantity": 18
-        },
-        {
-          "id": 32000,
-          "name": "Chess Piece of Skill",
-          "quantity": 232
-        }
-      ],
-      "currency": {
-        "dorra": 900000
-      }
-    },
-    {
-      "items": [
-        {
-          "id": 21023,
-          "name": "Colossus Essence",
-          "quantity": 2
-        },
-        {
-          "id": 32022,
-          "name": "Fighting Game Cartridge",
-          "quantity": 90
-        },
-        {
-          "id": 32023,
-          "name": "Phantom Game Cartridge",
-          "quantity": 34
-        },
-        {
-          "id": 32000,
-          "name": "Chess Piece of Skill",
-          "quantity": 323
-        }
-      ],
-      "currency": {
-        "dorra": 1600000
-      }
-    },
-    {
-      "items": [
-        {
-          "id": 21023,
-          "name": "Colossus Essence",
-          "quantity": 3
-        },
-        {
-          "id": 32022,
-          "name": "Fighting Game Cartridge",
-          "quantity": 140
-        },
-        {
-          "id": 32023,
-          "name": "Phantom Game Cartridge",
-          "quantity": 50
-        },
-        {
-          "id": 32000,
-          "name": "Chess Piece of Skill",
-          "quantity": 478
-        }
-      ],
-      "currency": {
-        "dorra": 2300000
-      }
-    },
-    {
-      "items": [
-        {
-          "id": 21023,
-          "name": "Colossus Essence",
-          "quantity": 6
-        },
-        {
-          "id": 32022,
-          "name": "Fighting Game Cartridge",
-          "quantity": 200
-        },
-        {
-          "id": 32023,
-          "name": "Phantom Game Cartridge",
-          "quantity": 70
-        },
-        {
-          "id": 32000,
-          "name": "Chess Piece of Skill",
-          "quantity": 927
-        }
-      ],
-      "currency": {
-        "dorra": 3400000
-      }
-    }
-  ]
+  "upgrades": [],
+  "skillUpgrades": []
 };

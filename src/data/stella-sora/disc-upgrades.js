@@ -116,6 +116,8 @@ import { disc as aGiftForTheJourney } from './discs/a-gift-for-the-journey.js';
 import { disc as snowyNightSurprise } from './discs/snowy-night-surprise.js';
 import { disc as AllThatWasBeautiful } from './discs/all-that-was-beautiful.js';
 import { disc as BedtimeStory } from './discs/bedtime-story.js';
+import { disc as MyGuidingStar } from './discs/my-guiding-star.js';
+import { disc as EternalBrilliance } from './discs/eternal-brilliance.js';
 import { disc as MomentOfGlory } from './discs/moment-of-glory.js';
 import { disc as FlyOCagedBird } from './discs/fly-o-caged-bird.js';
 import { disc as SummerMarch } from './discs/summer-march.js';
@@ -221,6 +223,8 @@ const allDiscs = [
   snowyNightSurprise,
   AllThatWasBeautiful,
   BedtimeStory,
+  MyGuidingStar,
+  EternalBrilliance,
   MomentOfGlory,
   FlyOCagedBird,
   SummerMarch,

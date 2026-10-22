@@ -53,11 +53,11 @@ export const Shimiao = {
   ],
   "giftPreferences": {
     "loves": [
-      "Stellanite Enchantment",
+      "Star Eclipse",
       "Moonlit Companion",
       "Cosmic Form",
       "Gilded Ceramic Bowl",
-      "Blossom Porcelain Cup",
+      "Porcelain Cup",
       "Mystic Potion Kettle"
     ],
     "hates": []

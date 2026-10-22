@@ -53,7 +53,7 @@ export const Coronis = {
   ],
   "giftPreferences": {
     "loves": [
-      "Card Photo Capturer",
+      "Card Capturer",
       "Reflective Photo Capturer",
       "Ultra-Precision Photo Capturer",
       "Whisper Wind Spinner",

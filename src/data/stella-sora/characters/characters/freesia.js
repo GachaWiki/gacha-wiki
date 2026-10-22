@@ -56,11 +56,11 @@ export const Freesia = {
       "Portable Blower",
       "Exquisite Blower",
       "Deluxe Blower",
-      "Stellanite Enchantment",
+      "Star Eclipse",
       "Moonlit Companion",
       "Cosmic Form",
       "Gilded Ceramic Bowl",
-      "Blossom Porcelain Cup",
+      "Porcelain Cup",
       "Mystic Potion Kettle"
     ],
     "hates": [

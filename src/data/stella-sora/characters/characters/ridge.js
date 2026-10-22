@@ -56,9 +56,9 @@ export const Ridge = {
       "Portable Blower",
       "Exquisite Blower",
       "Deluxe Blower",
-      "Summer Chill Crushed Ice",
+      "Chill Crushed Ice",
       "Fragrant Ice Delight",
-      "Sweet IceFurry"
+      "Sweet Ice Furry"
     ],
     "hates": []
   },

@@ -5160,5 +5160,134 @@ export const POTENTIAL_LISTS = {
         "name": "Mirror Blade"
       }
     ]
-  }
+  },
+  "firstlight-noya": {
+    "cid": 162,
+    "masterSpec": [
+          {
+                "id": 516201,
+                "name": "Lucent Blitz"
+          },
+          {
+                "id": 516202,
+                "name": "Dawnflare"
+          },
+          {
+                "id": 516203,
+                "name": "Stardust Descent"
+          },
+          {
+                "id": 516204,
+                "name": "Sinbreaker"
+          }
+    ],
+    "masterNorm": [
+          {
+                "id": 516205,
+                "name": "Prism Warp"
+          },
+          {
+                "id": 516206,
+                "name": "Resolve: Blitz"
+          },
+          {
+                "id": 516207,
+                "name": "Lucent Tide"
+          },
+          {
+                "id": 516208,
+                "name": "Eclipse Phantom"
+          },
+          {
+                "id": 516209,
+                "name": "Gavel of Absolution"
+          },
+          {
+                "id": 516210,
+                "name": "Resolve: Sunder"
+          },
+          {
+                "id": 516211,
+                "name": "Searing Sun"
+          },
+          {
+                "id": 516212,
+                "name": "Astral Brilliance"
+          },
+          {
+                "id": 516213,
+                "name": "Veteran's Grit"
+          }
+    ],
+    "assistSpec": [
+          {
+                "id": 516221,
+                "name": "Tempest Scourge"
+          },
+          {
+                "id": 516222,
+                "name": "Inquisitor's Edge"
+          },
+          {
+                "id": 516223,
+                "name": "Skyrend Flash"
+          },
+          {
+                "id": 516224,
+                "name": "Galeblade"
+          }
+    ],
+    "assistNorm": [
+          {
+                "id": 516225,
+                "name": "Radiant Sever"
+          },
+          {
+                "id": 516226,
+                "name": "Aegis: Sunder"
+          },
+          {
+                "id": 516227,
+                "name": "Fiendbreaker"
+          },
+          {
+                "id": 516228,
+                "name": "Sunfire Cleave"
+          },
+          {
+                "id": 516229,
+                "name": "Aegis: Blitz"
+          },
+          {
+                "id": 516230,
+                "name": "Breath of Light"
+          },
+          {
+                "id": 516231,
+                "name": "No More Goodbyes"
+          },
+          {
+                "id": 516232,
+                "name": "No More Sorrow"
+          },
+          {
+                "id": 516233,
+                "name": "No More Chains"
+          }
+    ],
+    "commons": [
+          {
+                "id": 516241,
+                "name": "Argent Mirage: Legion's End"
+          },
+          {
+                "id": 516242,
+                "name": "Empyrean Starfall: Devil's End"
+          },
+          {
+                "id": 516243,
+                "name": "Guiding Star"
+          }
+    ],
+  },
 };

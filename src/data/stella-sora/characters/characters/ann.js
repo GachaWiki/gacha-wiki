@@ -53,12 +53,12 @@ export const Ann = {
   ],
   "giftPreferences": {
     "loves": [
-      "Stellanite Enchantment",
+      "Star Eclipse",
       "Moonlit Companion",
       "Cosmic Form",
-      "Summer Chill Crushed Ice",
+      "Chill Crushed Ice",
       "Fragrant Ice Delight",
-      "Sweet IceFurry"
+      "Sweet Ice Furry"
     ],
     "hates": []
   },

@@ -4,15 +4,15 @@
 export const giftPreferences = {
   "Allie": {
     loves: [
-      "Blossom Porcelain Cup",
+      "Porcelain Cup",
       "Deluxe Blower",
       "Exquisite Blower",
       "Fragrant Ice Delight",
       "Gilded Ceramic Bowl",
       "Mystic Potion Kettle",
       "Portable Blower",
-      "Summer Chill Crushed Ice",
-      "Sweet IceFurry",
+      "Chill Crushed Ice",
+      "Sweet Ice Furry",
     ],
     hates: [
       "Emerging Talent",
@@ -22,21 +22,21 @@ export const giftPreferences = {
     neutral: [
       "Blazing Wind Spinner",
       "Blazing Wings",
-      "Card Photo Capturer",
+      "Card Capturer",
       "Chilling Wind Spinner",
       "Cosmic Form",
       "Fiery Honeypot",
       "Love Candle",
       "Moonlit Companion",
       "Reflective Photo Capturer",
-      "Stellanite Enchantment",
+      "Star Eclipse",
       "Ultra-Precision Photo Capturer",
       "Whisper Wind Spinner",
     ],
   },
   "Amber": {
     loves: [
-      "Card Photo Capturer",
+      "Card Capturer",
       "Reflective Photo Capturer",
       "Ultra-Precision Photo Capturer",
       "Rising Star",
@@ -54,13 +54,13 @@ export const giftPreferences = {
       "Portable Blower",
       "Exquisite Blower",
       "Deluxe Blower",
-      "Summer Chill Crushed Ice",
+      "Chill Crushed Ice",
       "Fragrant Ice Delight",
-      "Sweet IceFurry",
+      "Sweet Ice Furry",
       "Gilded Ceramic Bowl",
-      "Blossom Porcelain Cup",
+      "Porcelain Cup",
       "Mystic Potion Kettle",
-      "Stellanite Enchantment",
+      "Star Eclipse",
       "Moonlit Companion",
       "Cosmic Form"
     ]
@@ -77,7 +77,7 @@ export const giftPreferences = {
     ],
     hates: [],
     neutral: [
-      "Card Photo Capturer",
+      "Card Capturer",
       "Reflective Photo Capturer",
       "Ultra-Precision Photo Capturer",
       "Love Candle",
@@ -86,13 +86,13 @@ export const giftPreferences = {
       "Portable Blower",
       "Exquisite Blower",
       "Deluxe Blower",
-      "Summer Chill Crushed Ice",
+      "Chill Crushed Ice",
       "Fragrant Ice Delight",
-      "Sweet IceFurry",
+      "Sweet Ice Furry",
       "Gilded Ceramic Bowl",
-      "Blossom Porcelain Cup",
+      "Porcelain Cup",
       "Mystic Potion Kettle",
-      "Stellanite Enchantment",
+      "Star Eclipse",
       "Moonlit Companion",
       "Cosmic Form"
     ]
@@ -104,12 +104,12 @@ export const giftPreferences = {
       "Blazing Wings",
       "Fiery Honeypot",
       "Gilded Ceramic Bowl",
-      "Blossom Porcelain Cup",
+      "Porcelain Cup",
       "Mystic Potion Kettle"
     ],
     hates: [],
     neutral: [
-      "Card Photo Capturer",
+      "Card Capturer",
       "Reflective Photo Capturer",
       "Ultra-Precision Photo Capturer",
       "Rising Star",
@@ -121,10 +121,10 @@ export const giftPreferences = {
       "Portable Blower",
       "Exquisite Blower",
       "Deluxe Blower",
-      "Summer Chill Crushed Ice",
+      "Chill Crushed Ice",
       "Fragrant Ice Delight",
-      "Sweet IceFurry",
-      "Stellanite Enchantment",
+      "Sweet Ice Furry",
+      "Star Eclipse",
       "Moonlit Companion",
       "Cosmic Form"
     ]
@@ -139,7 +139,7 @@ export const giftPreferences = {
       "Exquisite Blower",
       "Deluxe Blower",
       "Gilded Ceramic Bowl",
-      "Blossom Porcelain Cup",
+      "Porcelain Cup",
       "Mystic Potion Kettle"
     ],
     hates: [
@@ -148,7 +148,7 @@ export const giftPreferences = {
       "Shining Star"
     ],
     neutral: [
-      "Card Photo Capturer",
+      "Card Capturer",
       "Reflective Photo Capturer",
       "Ultra-Precision Photo Capturer",
       "Moonlit Companion",
@@ -156,25 +156,25 @@ export const giftPreferences = {
       "Whisper Wind Spinner",
       "Chilling Wind Spinner",
       "Blazing Wind Spinner",
-      "Summer Chill Crushed Ice",
+      "Chill Crushed Ice",
       "Fragrant Ice Delight",
-      "Sweet IceFurry",
-      "Stellanite Enchantment"
+      "Sweet Ice Furry",
+      "Star Eclipse"
     ]
   },
 
   "Iris": {
     loves: [
-      "Stellanite Enchantment",
+      "Star Eclipse",
       "Moonlit Companion",
       "Cosmic Form",
-      "Summer Chill Crushed Ice",
+      "Chill Crushed Ice",
       "Fragrant Ice Delight",
-      "Sweet IceFurry"
+      "Sweet Ice Furry"
     ],
     hates: [],
     neutral: [
-      "Card Photo Capturer",
+      "Card Capturer",
       "Reflective Photo Capturer",
       "Ultra-Precision Photo Capturer",
       "Rising Star",
@@ -190,7 +190,7 @@ export const giftPreferences = {
       "Exquisite Blower",
       "Deluxe Blower",
       "Gilded Ceramic Bowl",
-      "Blossom Porcelain Cup",
+      "Porcelain Cup",
       "Mystic Potion Kettle"
     ]
   },
@@ -206,7 +206,7 @@ export const giftPreferences = {
     ],
     hates: [],
     neutral: [
-      "Card Photo Capturer",
+      "Card Capturer",
       "Reflective Photo Capturer",
       "Ultra-Precision Photo Capturer",
       "Rising Star",
@@ -215,13 +215,13 @@ export const giftPreferences = {
       "Portable Blower",
       "Exquisite Blower",
       "Deluxe Blower",
-      "Summer Chill Crushed Ice",
+      "Chill Crushed Ice",
       "Fragrant Ice Delight",
-      "Sweet IceFurry",
+      "Sweet Ice Furry",
       "Gilded Ceramic Bowl",
-      "Blossom Porcelain Cup",
+      "Porcelain Cup",
       "Mystic Potion Kettle",
-      "Stellanite Enchantment",
+      "Star Eclipse",
       "Moonlit Companion",
       "Cosmic Form"
     ]
@@ -229,16 +229,16 @@ export const giftPreferences = {
 
   "Shimiao": {
     loves: [
-      "Stellanite Enchantment",
+      "Star Eclipse",
       "Moonlit Companion",
       "Cosmic Form",
       "Gilded Ceramic Bowl",
-      "Blossom Porcelain Cup",
+      "Porcelain Cup",
       "Mystic Potion Kettle"
     ],
     hates: [],
     neutral: [
-      "Card Photo Capturer",
+      "Card Capturer",
       "Reflective Photo Capturer",
       "Ultra-Precision Photo Capturer",
       "Rising Star",
@@ -253,9 +253,9 @@ export const giftPreferences = {
       "Portable Blower",
       "Exquisite Blower",
       "Deluxe Blower",
-      "Summer Chill Crushed Ice",
+      "Chill Crushed Ice",
       "Fragrant Ice Delight",
-      "Sweet IceFurry"
+      "Sweet Ice Furry"
     ]
   },
 
@@ -267,17 +267,17 @@ export const giftPreferences = {
       "Rising Star",
       "Emerging Talent",
       "Shining Star",
-      "Summer Chill Crushed Ice",
+      "Chill Crushed Ice",
       "Fragrant Ice Delight",
-      "Sweet IceFurry"
+      "Sweet Ice Furry"
     ],
     hates: [
       "Gilded Ceramic Bowl",
-      "Blossom Porcelain Cup",
+      "Porcelain Cup",
       "Mystic Potion Kettle"
     ],
     neutral: [
-      "Card Photo Capturer",
+      "Card Capturer",
       "Reflective Photo Capturer",
       "Ultra-Precision Photo Capturer",
       "Moonlit Companion",
@@ -288,21 +288,21 @@ export const giftPreferences = {
       "Portable Blower",
       "Exquisite Blower",
       "Deluxe Blower",
-      "Stellanite Enchantment"
+      "Star Eclipse"
     ]
   },
 
   "Firefly": {
     loves: [
-      "Card Photo Capturer",
+      "Card Capturer",
       "Reflective Photo Capturer",
       "Ultra-Precision Photo Capturer",
-      "Stellanite Enchantment",
+      "Star Eclipse",
       "Moonlit Companion",
       "Cosmic Form",
-      "Summer Chill Crushed Ice",
+      "Chill Crushed Ice",
       "Fragrant Ice Delight",
-      "Sweet IceFurry"
+      "Sweet Ice Furry"
     ],
     hates: [
       "Portable Blower",
@@ -318,7 +318,7 @@ export const giftPreferences = {
       "Chilling Wind Spinner",
       "Blazing Wind Spinner",
       "Gilded Ceramic Bowl",
-      "Blossom Porcelain Cup",
+      "Porcelain Cup",
       "Mystic Potion Kettle",
       "Emerging Talent",
       "Shining Star"
@@ -330,13 +330,13 @@ export const giftPreferences = {
       "Portable Blower",
       "Exquisite Blower",
       "Deluxe Blower",
-      "Summer Chill Crushed Ice",
+      "Chill Crushed Ice",
       "Fragrant Ice Delight",
-      "Sweet IceFurry"
+      "Sweet Ice Furry"
     ],
     hates: [],
     neutral: [
-      "Card Photo Capturer",
+      "Card Capturer",
       "Reflective Photo Capturer",
       "Ultra-Precision Photo Capturer",
       "Rising Star",
@@ -349,9 +349,9 @@ export const giftPreferences = {
       "Chilling Wind Spinner",
       "Blazing Wind Spinner",
       "Gilded Ceramic Bowl",
-      "Blossom Porcelain Cup",
+      "Porcelain Cup",
       "Mystic Potion Kettle",
-      "Stellanite Enchantment",
+      "Star Eclipse",
       "Moonlit Companion",
       "Cosmic Form"
     ]
@@ -359,16 +359,16 @@ export const giftPreferences = {
 
   "Jinglin": {
     loves: [
-      "Summer Chill Crushed Ice",
+      "Chill Crushed Ice",
       "Fragrant Ice Delight",
-      "Sweet IceFurry",
+      "Sweet Ice Furry",
       "Gilded Ceramic Bowl",
-      "Blossom Porcelain Cup",
+      "Porcelain Cup",
       "Mystic Potion Kettle"
     ],
     hates: [],
     neutral: [
-      "Card Photo Capturer",
+      "Card Capturer",
       "Reflective Photo Capturer",
       "Ultra-Precision Photo Capturer",
       "Rising Star",
@@ -383,7 +383,7 @@ export const giftPreferences = {
       "Portable Blower",
       "Exquisite Blower",
       "Deluxe Blower",
-      "Stellanite Enchantment",
+      "Star Eclipse",
       "Moonlit Companion",
       "Cosmic Form"
     ]
@@ -391,7 +391,7 @@ export const giftPreferences = {
 
   "Coronis": {
     loves: [
-      "Card Photo Capturer",
+      "Card Capturer",
       "Reflective Photo Capturer",
       "Ultra-Precision Photo Capturer",
       "Whisper Wind Spinner",
@@ -409,13 +409,13 @@ export const giftPreferences = {
       "Portable Blower",
       "Exquisite Blower",
       "Deluxe Blower",
-      "Summer Chill Crushed Ice",
+      "Chill Crushed Ice",
       "Fragrant Ice Delight",
-      "Sweet IceFurry",
+      "Sweet Ice Furry",
       "Gilded Ceramic Bowl",
-      "Blossom Porcelain Cup",
+      "Porcelain Cup",
       "Mystic Potion Kettle",
-      "Stellanite Enchantment",
+      "Star Eclipse",
       "Moonlit Companion",
       "Cosmic Form"
     ]
@@ -426,11 +426,11 @@ export const giftPreferences = {
       "Whisper Wind Spinner",
       "Chilling Wind Spinner",
       "Blazing Wind Spinner",
-      "Summer Chill Crushed Ice",
+      "Chill Crushed Ice",
       "Fragrant Ice Delight",
-      "Sweet IceFurry",
+      "Sweet Ice Furry",
       "Gilded Ceramic Bowl",
-      "Blossom Porcelain Cup",
+      "Porcelain Cup",
       "Mystic Potion Kettle"
     ],
     hates: [
@@ -439,7 +439,7 @@ export const giftPreferences = {
       "Shining Star"
     ],
     neutral: [
-      "Card Photo Capturer",
+      "Card Capturer",
       "Reflective Photo Capturer",
       "Ultra-Precision Photo Capturer",
       "Love Candle",
@@ -448,7 +448,7 @@ export const giftPreferences = {
       "Portable Blower",
       "Exquisite Blower",
       "Deluxe Blower",
-      "Stellanite Enchantment",
+      "Star Eclipse",
       "Moonlit Companion",
       "Cosmic Form"
     ]
@@ -465,7 +465,7 @@ export const giftPreferences = {
     ],
     hates: [],
     neutral: [
-      "Card Photo Capturer",
+      "Card Capturer",
       "Reflective Photo Capturer",
       "Ultra-Precision Photo Capturer",
       "Rising Star",
@@ -474,13 +474,13 @@ export const giftPreferences = {
       "Whisper Wind Spinner",
       "Chilling Wind Spinner",
       "Blazing Wind Spinner",
-      "Summer Chill Crushed Ice",
+      "Chill Crushed Ice",
       "Fragrant Ice Delight",
-      "Sweet IceFurry",
+      "Sweet Ice Furry",
       "Gilded Ceramic Bowl",
-      "Blossom Porcelain Cup",
+      "Porcelain Cup",
       "Mystic Potion Kettle",
-      "Stellanite Enchantment",
+      "Star Eclipse",
       "Moonlit Companion",
       "Cosmic Form"
     ]
@@ -488,16 +488,16 @@ export const giftPreferences = {
 
   "Ann": {
     loves: [
-      "Stellanite Enchantment",
+      "Star Eclipse",
       "Moonlit Companion",
       "Cosmic Form",
-      "Summer Chill Crushed Ice",
+      "Chill Crushed Ice",
       "Fragrant Ice Delight",
-      "Sweet IceFurry"
+      "Sweet Ice Furry"
     ],
     hates: [],
     neutral: [
-      "Card Photo Capturer",
+      "Card Capturer",
       "Reflective Photo Capturer",
       "Ultra-Precision Photo Capturer",
       "Rising Star",
@@ -513,7 +513,7 @@ export const giftPreferences = {
       "Exquisite Blower",
       "Deluxe Blower",
       "Gilded Ceramic Bowl",
-      "Blossom Porcelain Cup",
+      "Porcelain Cup",
       "Mystic Potion Kettle"
     ]
   },
@@ -523,11 +523,11 @@ export const giftPreferences = {
       "Portable Blower",
       "Exquisite Blower",
       "Deluxe Blower",
-      "Stellanite Enchantment",
+      "Star Eclipse",
       "Moonlit Companion",
       "Cosmic Form",
       "Gilded Ceramic Bowl",
-      "Blossom Porcelain Cup",
+      "Porcelain Cup",
       "Mystic Potion Kettle"
     ],
     hates: [
@@ -536,7 +536,7 @@ export const giftPreferences = {
       "Fiery Honeypot"
     ],
     neutral: [
-      "Card Photo Capturer",
+      "Card Capturer",
       "Reflective Photo Capturer",
       "Ultra-Precision Photo Capturer",
       "Rising Star",
@@ -545,9 +545,9 @@ export const giftPreferences = {
       "Whisper Wind Spinner",
       "Chilling Wind Spinner",
       "Blazing Wind Spinner",
-      "Summer Chill Crushed Ice",
+      "Chill Crushed Ice",
       "Fragrant Ice Delight",
-      "Sweet IceFurry"
+      "Sweet Ice Furry"
     ]
   },
 
@@ -556,13 +556,13 @@ export const giftPreferences = {
       "Love Candle",
       "Blazing Wings",
       "Fiery Honeypot",
-      "Stellanite Enchantment",
+      "Star Eclipse",
       "Moonlit Companion",
       "Cosmic Form"
     ],
     hates: [],
     neutral: [
-      "Card Photo Capturer",
+      "Card Capturer",
       "Reflective Photo Capturer",
       "Ultra-Precision Photo Capturer",
       "Rising Star",
@@ -574,11 +574,11 @@ export const giftPreferences = {
       "Portable Blower",
       "Exquisite Blower",
       "Deluxe Blower",
-      "Summer Chill Crushed Ice",
+      "Chill Crushed Ice",
       "Fragrant Ice Delight",
-      "Sweet IceFurry",
+      "Sweet Ice Furry",
       "Gilded Ceramic Bowl",
-      "Blossom Porcelain Cup",
+      "Porcelain Cup",
       "Mystic Potion Kettle"
     ]
   },
@@ -594,7 +594,7 @@ export const giftPreferences = {
     ],
     hates: [],
     neutral: [
-      "Card Photo Capturer",
+      "Card Capturer",
       "Reflective Photo Capturer",
       "Ultra-Precision Photo Capturer",
       "Rising Star",
@@ -603,13 +603,13 @@ export const giftPreferences = {
       "Portable Blower",
       "Exquisite Blower",
       "Deluxe Blower",
-      "Summer Chill Crushed Ice",
+      "Chill Crushed Ice",
       "Fragrant Ice Delight",
-      "Sweet IceFurry",
+      "Sweet Ice Furry",
       "Gilded Ceramic Bowl",
-      "Blossom Porcelain Cup",
+      "Porcelain Cup",
       "Mystic Potion Kettle",
-      "Stellanite Enchantment",
+      "Star Eclipse",
       "Moonlit Companion",
       "Cosmic Form"
     ]
@@ -623,9 +623,9 @@ export const giftPreferences = {
       "Whisper Wind Spinner",
       "Chilling Wind Spinner",
       "Blazing Wind Spinner",
-      "Summer Chill Crushed Ice",
+      "Chill Crushed Ice",
       "Fragrant Ice Delight",
-      "Sweet IceFurry"
+      "Sweet Ice Furry"
     ],
     hates: [
       "Rising Star",
@@ -633,7 +633,7 @@ export const giftPreferences = {
       "Shining Star"
     ],
     neutral: [
-      "Card Photo Capturer",
+      "Card Capturer",
       "Reflective Photo Capturer",
       "Ultra-Precision Photo Capturer",
       "Moonlit Companion",
@@ -642,9 +642,9 @@ export const giftPreferences = {
       "Blazing Wings",
       "Fiery Honeypot",
       "Gilded Ceramic Bowl",
-      "Blossom Porcelain Cup",
+      "Porcelain Cup",
       "Mystic Potion Kettle",
-      "Stellanite Enchantment"
+      "Star Eclipse"
     ]
   },
 
@@ -653,10 +653,10 @@ export const giftPreferences = {
       "Love Candle",
       "Blazing Wings",
       "Fiery Honeypot",
-      "Card Photo Capturer",
+      "Card Capturer",
       "Reflective Photo Capturer",
       "Ultra-Precision Photo Capturer",
-      "Stellanite Enchantment",
+      "Star Eclipse",
       "Moonlit Companion",
       "Cosmic Form"
     ],
@@ -672,11 +672,11 @@ export const giftPreferences = {
       "Whisper Wind Spinner",
       "Chilling Wind Spinner",
       "Blazing Wind Spinner",
-      "Summer Chill Crushed Ice",
+      "Chill Crushed Ice",
       "Fragrant Ice Delight",
-      "Sweet IceFurry",
+      "Sweet Ice Furry",
       "Gilded Ceramic Bowl",
-      "Blossom Porcelain Cup",
+      "Porcelain Cup",
       "Mystic Potion Kettle"
     ]
   },
@@ -687,14 +687,14 @@ export const giftPreferences = {
       "Chilling Wind Spinner",
       "Blazing Wind Spinner",
       "Gilded Ceramic Bowl",
-      "Blossom Porcelain Cup",
+      "Porcelain Cup",
       "Mystic Potion Kettle",
-      "Summer Chill Crushed Ice",
+      "Chill Crushed Ice",
       "Fragrant Ice Delight",
-      "Sweet IceFurry"
+      "Sweet Ice Furry"
     ],
     hates: [
-      "Card Photo Capturer",
+      "Card Capturer",
       "Reflective Photo Capturer",
       "Ultra-Precision Photo Capturer"
     ],
@@ -708,7 +708,7 @@ export const giftPreferences = {
       "Portable Blower",
       "Exquisite Blower",
       "Deluxe Blower",
-      "Stellanite Enchantment",
+      "Star Eclipse",
       "Moonlit Companion",
       "Cosmic Form"
     ]
@@ -716,14 +716,14 @@ export const giftPreferences = {
 
   "Fuyuka": {
     loves: [
-      "Card Photo Capturer",
+      "Card Capturer",
       "Reflective Photo Capturer",
       "Ultra-Precision Photo Capturer",
-      "Stellanite Enchantment",
+      "Star Eclipse",
       "Moonlit Companion",
       "Cosmic Form",
       "Gilded Ceramic Bowl",
-      "Blossom Porcelain Cup",
+      "Porcelain Cup",
       "Mystic Potion Kettle"
     ],
     hates: [
@@ -741,15 +741,15 @@ export const giftPreferences = {
       "Portable Blower",
       "Exquisite Blower",
       "Deluxe Blower",
-      "Summer Chill Crushed Ice",
+      "Chill Crushed Ice",
       "Fragrant Ice Delight",
-      "Sweet IceFurry"
+      "Sweet Ice Furry"
     ]
   },
 
   "Mistique": {
     loves: [
-      "Card Photo Capturer",
+      "Card Capturer",
       "Reflective Photo Capturer",
       "Ultra-Precision Photo Capturer",
       "Portable Blower",
@@ -760,7 +760,7 @@ export const giftPreferences = {
       "Shining Star"
     ],
     hates: [
-      "Stellanite Enchantment",
+      "Star Eclipse",
       "Moonlit Companion",
       "Cosmic Form"
     ],
@@ -771,11 +771,11 @@ export const giftPreferences = {
       "Whisper Wind Spinner",
       "Chilling Wind Spinner",
       "Blazing Wind Spinner",
-      "Summer Chill Crushed Ice",
+      "Chill Crushed Ice",
       "Fragrant Ice Delight",
-      "Sweet IceFurry",
+      "Sweet Ice Furry",
       "Gilded Ceramic Bowl",
-      "Blossom Porcelain Cup",
+      "Porcelain Cup",
       "Mystic Potion Kettle"
     ]
   },
@@ -785,11 +785,11 @@ export const giftPreferences = {
       "Portable Blower",
       "Exquisite Blower",
       "Deluxe Blower",
-      "Card Photo Capturer",
+      "Card Capturer",
       "Reflective Photo Capturer",
       "Ultra-Precision Photo Capturer",
       "Gilded Ceramic Bowl",
-      "Blossom Porcelain Cup",
+      "Porcelain Cup",
       "Mystic Potion Kettle"
     ],
     hates: [
@@ -804,10 +804,10 @@ export const giftPreferences = {
       "Whisper Wind Spinner",
       "Chilling Wind Spinner",
       "Blazing Wind Spinner",
-      "Summer Chill Crushed Ice",
+      "Chill Crushed Ice",
       "Fragrant Ice Delight",
-      "Sweet IceFurry",
-      "Stellanite Enchantment",
+      "Sweet Ice Furry",
+      "Star Eclipse",
       "Emerging Talent",
       "Shining Star"
     ]
@@ -815,11 +815,11 @@ export const giftPreferences = {
 
   "Sparkla": {
     loves: [
-      "Stellanite Enchantment",
+      "Star Eclipse",
       "Moonlit Companion",
       "Cosmic Form",
       "Gilded Ceramic Bowl",
-      "Blossom Porcelain Cup",
+      "Porcelain Cup",
       "Mystic Potion Kettle",
       "Rising Star",
       "Emerging Talent",
@@ -831,7 +831,7 @@ export const giftPreferences = {
       "Blazing Wind Spinner"
     ],
     neutral: [
-      "Card Photo Capturer",
+      "Card Capturer",
       "Reflective Photo Capturer",
       "Ultra-Precision Photo Capturer",
       "Love Candle",
@@ -840,27 +840,27 @@ export const giftPreferences = {
       "Portable Blower",
       "Exquisite Blower",
       "Deluxe Blower",
-      "Summer Chill Crushed Ice",
+      "Chill Crushed Ice",
       "Fragrant Ice Delight",
-      "Sweet IceFurry"
+      "Sweet Ice Furry"
     ]
   },
 
   "Chixia": {
     loves: [
-      "Card Photo Capturer",
+      "Card Capturer",
       "Reflective Photo Capturer",
       "Ultra-Precision Photo Capturer",
       "Rising Star",
       "Emerging Talent",
       "Shining Star",
-      "Summer Chill Crushed Ice",
+      "Chill Crushed Ice",
       "Fragrant Ice Delight",
-      "Sweet IceFurry"
+      "Sweet Ice Furry"
     ],
     hates: [
       "Gilded Ceramic Bowl",
-      "Blossom Porcelain Cup",
+      "Porcelain Cup",
       "Mystic Potion Kettle"
     ],
     neutral: [
@@ -873,7 +873,7 @@ export const giftPreferences = {
       "Portable Blower",
       "Exquisite Blower",
       "Deluxe Blower",
-      "Stellanite Enchantment",
+      "Star Eclipse",
       "Moonlit Companion",
       "Cosmic Form"
     ]
@@ -881,19 +881,19 @@ export const giftPreferences = {
 
   "Cosette": {
     loves: [
-      "Card Photo Capturer",
+      "Card Capturer",
       "Reflective Photo Capturer",
       "Ultra-Precision Photo Capturer",
       "Rising Star",
       "Emerging Talent",
       "Shining Star",
-      "Summer Chill Crushed Ice",
+      "Chill Crushed Ice",
       "Fragrant Ice Delight",
-      "Sweet IceFurry"
+      "Sweet Ice Furry"
     ],
     hates: [
       "Gilded Ceramic Bowl",
-      "Blossom Porcelain Cup",
+      "Porcelain Cup",
       "Mystic Potion Kettle"
     ],
     neutral: [
@@ -906,7 +906,7 @@ export const giftPreferences = {
       "Portable Blower",
       "Exquisite Blower",
       "Deluxe Blower",
-      "Stellanite Enchantment",
+      "Star Eclipse",
       "Moonlit Companion",
       "Cosmic Form"
     ]
@@ -920,12 +920,12 @@ export const giftPreferences = {
       "Whisper Wind Spinner",
       "Chilling Wind Spinner",
       "Blazing Wind Spinner",
-      "Summer Chill Crushed Ice",
+      "Chill Crushed Ice",
       "Fragrant Ice Delight",
-      "Sweet IceFurry"
+      "Sweet Ice Furry"
     ],
     hates: [
-      "Card Photo Capturer",
+      "Card Capturer",
       "Reflective Photo Capturer",
       "Ultra-Precision Photo Capturer"
     ],
@@ -937,9 +937,9 @@ export const giftPreferences = {
       "Exquisite Blower",
       "Deluxe Blower",
       "Gilded Ceramic Bowl",
-      "Blossom Porcelain Cup",
+      "Porcelain Cup",
       "Mystic Potion Kettle",
-      "Stellanite Enchantment",
+      "Star Eclipse",
       "Emerging Talent",
       "Shining Star"
     ]
@@ -954,7 +954,7 @@ export const giftPreferences = {
       "Chilling Wind Spinner",
       "Blazing Wind Spinner",
       "Gilded Ceramic Bowl",
-      "Blossom Porcelain Cup",
+      "Porcelain Cup",
       "Mystic Potion Kettle"
     ],
     hates: [
@@ -963,16 +963,16 @@ export const giftPreferences = {
       "Shining Star"
     ],
     neutral: [
-      "Card Photo Capturer",
+      "Card Capturer",
       "Reflective Photo Capturer",
       "Ultra-Precision Photo Capturer",
       "Portable Blower",
       "Exquisite Blower",
       "Deluxe Blower",
-      "Summer Chill Crushed Ice",
+      "Chill Crushed Ice",
       "Fragrant Ice Delight",
-      "Sweet IceFurry",
-      "Stellanite Enchantment",
+      "Sweet Ice Furry",
+      "Star Eclipse",
       "Moonlit Companion",
       "Cosmic Form"
     ]
@@ -981,7 +981,7 @@ export const giftPreferences = {
   "Otoha": {
     loves: [
       "Gilded Ceramic Bowl",
-      "Blossom Porcelain Cup",
+      "Porcelain Cup",
       "Mystic Potion Kettle",
       "Portable Blower",
       "Exquisite Blower",
@@ -996,7 +996,7 @@ export const giftPreferences = {
       "Blazing Wind Spinner"
     ],
     neutral: [
-      "Card Photo Capturer",
+      "Card Capturer",
       "Reflective Photo Capturer",
       "Ultra-Precision Photo Capturer",
       "Moonlit Companion",
@@ -1004,10 +1004,10 @@ export const giftPreferences = {
       "Love Candle",
       "Blazing Wings",
       "Fiery Honeypot",
-      "Summer Chill Crushed Ice",
+      "Chill Crushed Ice",
       "Fragrant Ice Delight",
-      "Sweet IceFurry",
-      "Stellanite Enchantment"
+      "Sweet Ice Furry",
+      "Star Eclipse"
     ]
   },
 
@@ -1016,13 +1016,13 @@ export const giftPreferences = {
       "Rising Star",
       "Emerging Talent",
       "Shining Star",
-      "Summer Chill Crushed Ice",
+      "Chill Crushed Ice",
       "Fragrant Ice Delight",
-      "Sweet IceFurry"
+      "Sweet Ice Furry"
     ],
     hates: [],
     neutral: [
-      "Card Photo Capturer",
+      "Card Capturer",
       "Reflective Photo Capturer",
       "Ultra-Precision Photo Capturer",
       "Love Candle",
@@ -1035,9 +1035,9 @@ export const giftPreferences = {
       "Exquisite Blower",
       "Deluxe Blower",
       "Gilded Ceramic Bowl",
-      "Blossom Porcelain Cup",
+      "Porcelain Cup",
       "Mystic Potion Kettle",
-      "Stellanite Enchantment",
+      "Star Eclipse",
       "Moonlit Companion",
       "Cosmic Form"
     ]
@@ -1061,16 +1061,16 @@ export const giftPreferences = {
       "Deluxe Blower"
     ],
     neutral: [
-      "Card Photo Capturer",
+      "Card Capturer",
       "Reflective Photo Capturer",
       "Ultra-Precision Photo Capturer",
-      "Summer Chill Crushed Ice",
+      "Chill Crushed Ice",
       "Fragrant Ice Delight",
-      "Sweet IceFurry",
+      "Sweet Ice Furry",
       "Gilded Ceramic Bowl",
-      "Blossom Porcelain Cup",
+      "Porcelain Cup",
       "Mystic Potion Kettle",
-      "Stellanite Enchantment",
+      "Star Eclipse",
       "Moonlit Companion",
       "Cosmic Form"
     ]
@@ -1082,12 +1082,12 @@ export const giftPreferences = {
       "Chilling Wind Spinner",
       "Blazing Wind Spinner",
       "Gilded Ceramic Bowl",
-      "Blossom Porcelain Cup",
+      "Porcelain Cup",
       "Mystic Potion Kettle"
     ],
     hates: [],
     neutral: [
-      "Card Photo Capturer",
+      "Card Capturer",
       "Reflective Photo Capturer",
       "Ultra-Precision Photo Capturer",
       "Rising Star",
@@ -1099,10 +1099,10 @@ export const giftPreferences = {
       "Portable Blower",
       "Exquisite Blower",
       "Deluxe Blower",
-      "Summer Chill Crushed Ice",
+      "Chill Crushed Ice",
       "Fragrant Ice Delight",
-      "Sweet IceFurry",
-      "Stellanite Enchantment",
+      "Sweet Ice Furry",
+      "Star Eclipse",
       "Moonlit Companion",
       "Cosmic Form"
     ]
@@ -1113,7 +1113,7 @@ export const giftPreferences = {
       "Portable Blower",
       "Exquisite Blower",
       "Deluxe Blower",
-      "Stellanite Enchantment",
+      "Star Eclipse",
       "Moonlit Companion",
       "Cosmic Form",
       "Whisper Wind Spinner",
@@ -1121,12 +1121,12 @@ export const giftPreferences = {
       "Blazing Wind Spinner"
     ],
     hates: [
-      "Summer Chill Crushed Ice",
+      "Chill Crushed Ice",
       "Fragrant Ice Delight",
-      "Sweet IceFurry"
+      "Sweet Ice Furry"
     ],
     neutral: [
-      "Card Photo Capturer",
+      "Card Capturer",
       "Reflective Photo Capturer",
       "Ultra-Precision Photo Capturer",
       "Rising Star",
@@ -1136,7 +1136,7 @@ export const giftPreferences = {
       "Blazing Wings",
       "Fiery Honeypot",
       "Gilded Ceramic Bowl",
-      "Blossom Porcelain Cup",
+      "Porcelain Cup",
       "Mystic Potion Kettle"
     ]
   },
@@ -1146,11 +1146,11 @@ export const giftPreferences = {
       "Love Candle",
       "Blazing Wings",
       "Fiery Honeypot",
-      "Card Photo Capturer",
+      "Card Capturer",
       "Reflective Photo Capturer",
       "Ultra-Precision Photo Capturer",
       "Gilded Ceramic Bowl",
-      "Blossom Porcelain Cup",
+      "Porcelain Cup",
       "Mystic Potion Kettle"
     ],
     hates: [
@@ -1165,10 +1165,10 @@ export const giftPreferences = {
       "Portable Blower",
       "Exquisite Blower",
       "Deluxe Blower",
-      "Summer Chill Crushed Ice",
+      "Chill Crushed Ice",
       "Fragrant Ice Delight",
-      "Sweet IceFurry",
-      "Stellanite Enchantment",
+      "Sweet Ice Furry",
+      "Star Eclipse",
       "Moonlit Companion",
       "Cosmic Form"
     ]
@@ -1176,7 +1176,7 @@ export const giftPreferences = {
 
   "Karin": {
     loves: [
-      "Card Photo Capturer",
+      "Card Capturer",
       "Reflective Photo Capturer",
       "Ultra-Precision Photo Capturer",
       "Portable Blower",
@@ -1195,13 +1195,13 @@ export const giftPreferences = {
       "Rising Star",
       "Moonlit Companion",
       "Cosmic Form",
-      "Summer Chill Crushed Ice",
+      "Chill Crushed Ice",
       "Fragrant Ice Delight",
-      "Sweet IceFurry",
+      "Sweet Ice Furry",
       "Gilded Ceramic Bowl",
-      "Blossom Porcelain Cup",
+      "Porcelain Cup",
       "Mystic Potion Kettle",
-      "Stellanite Enchantment",
+      "Star Eclipse",
       "Emerging Talent",
       "Shining Star"
     ]
@@ -1215,17 +1215,17 @@ export const giftPreferences = {
       "Rising Star",
       "Emerging Talent",
       "Shining Star",
-      "Summer Chill Crushed Ice",
+      "Chill Crushed Ice",
       "Fragrant Ice Delight",
-      "Sweet IceFurry"
+      "Sweet Ice Furry"
     ],
     hates: [
-      "Stellanite Enchantment",
+      "Star Eclipse",
       "Moonlit Companion",
       "Cosmic Form"
     ],
     neutral: [
-      "Card Photo Capturer",
+      "Card Capturer",
       "Reflective Photo Capturer",
       "Ultra-Precision Photo Capturer",
       "Love Candle",
@@ -1235,21 +1235,21 @@ export const giftPreferences = {
       "Chilling Wind Spinner",
       "Blazing Wind Spinner",
       "Gilded Ceramic Bowl",
-      "Blossom Porcelain Cup",
+      "Porcelain Cup",
       "Mystic Potion Kettle"
     ]
   },
 
   "Springseek Coronis": {
     loves: [
-      "Card Photo Capturer",
+      "Card Capturer",
       "Reflective Photo Capturer",
       "Ultra-Precision Photo Capturer",
-      "Stellanite Enchantment",
+      "Star Eclipse",
       "Moonlit Companion",
       "Cosmic Form",
       "Gilded Ceramic Bowl",
-      "Blossom Porcelain Cup",
+      "Porcelain Cup",
       "Mystic Potion Kettle"
     ],
     hates: [
@@ -1265,9 +1265,9 @@ export const giftPreferences = {
       "Whisper Wind Spinner",
       "Chilling Wind Spinner",
       "Blazing Wind Spinner",
-      "Summer Chill Crushed Ice",
+      "Chill Crushed Ice",
       "Fragrant Ice Delight",
-      "Sweet IceFurry",
+      "Sweet Ice Furry",
       "Emerging Talent",
       "Shining Star"
     ]
@@ -1279,7 +1279,7 @@ export const giftPreferences = {
       "Chilling Wind Spinner",
       "Blazing Wind Spinner",
       "Gilded Ceramic Bowl",
-      "Blossom Porcelain Cup",
+      "Porcelain Cup",
       "Mystic Potion Kettle",
       "Portable Blower",
       "Exquisite Blower",
@@ -1288,7 +1288,7 @@ export const giftPreferences = {
     hates: [
     ],
     neutral: [
-      "Card Photo Capturer",
+      "Card Capturer",
       "Reflective Photo Capturer",
       "Ultra-Precision Photo Capturer",
       "Rising Star",
@@ -1297,13 +1297,44 @@ export const giftPreferences = {
       "Love Candle",
       "Blazing Wings",
       "Fiery Honeypot",
-      "Summer Chill Crushed Ice",
+      "Chill Crushed Ice",
       "Fragrant Ice Delight",
-      "Sweet IceFurry",
-      "Stellanite Enchantment",
+      "Sweet Ice Furry",
+      "Star Eclipse",
       "Emerging Talent",
       "Shining Star"
     ]
+  },
+  "Firstlight Noya": {
+    loves: ["Blazing Wings",
+"Chill Crushed Ice",
+"Cosmic Form",
+"Fiery Honeypot",
+"Fragrant Ice Delight",
+"Love Candle",
+"Moonlit Companion",
+"Star Eclipse",
+"Sweet Ice Furry",
+],
+    hates: ["Deluxe Blower",
+"Exquisite Blower",
+"Portable Blower",
+],
+    neutral: [
+"Artifact Wishing Egg",
+      "Card Capturer",
+      "Reflective Photo Capturer",
+      "Ultra-Precision Photo Capturer",
+      "Rising Star",
+      "Whisper Wind Spinner",
+      "Chilling Wind Spinner",
+      "Blazing Wind Spinner",
+      "Gilded Ceramic Bowl",
+      "Porcelain Cup",
+      "Mystic Potion Kettle",
+      "Emerging Talent",
+      "Shining Star"
+    ],
   }};
 
 // Helper function to get character preferences

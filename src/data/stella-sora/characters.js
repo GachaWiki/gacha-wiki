@@ -21,6 +21,7 @@ import { disc as theLostPilgrim } from './discs/the-lost-pilgrim.js';
 import { disc as ripplesOfNostalgia } from './discs/ripples-of-nostalgia.js';
 import { disc as clawTheClaw } from './discs/claw-the-claw.js';
 import { disc as snowyNightSurprise } from './discs/snowy-night-surprise.js';
+import { disc as myGuidingStar } from './discs/my-guiding-star.js';
 
 // Import full character data from new character files
 import { Amber } from './characters/characters/amber.js';
@@ -63,6 +64,7 @@ import { Otoha } from './characters/characters/otoha.js';
 import { Karin } from './characters/characters/karin.js';
 import { SuntideWillow } from './characters/characters/suntide-willow.js';
 import { Allie } from './characters/characters/allie.js';
+import { FirstlightNoya } from './characters/characters/firstlight-noya.js';
 
 // Map character data by slug for easy lookup
 const characterDataMap = {
@@ -109,6 +111,7 @@ const characterDataMap = {
   'suntide-willow': SuntideWillow,
   allie: Allie,
   'allie': Allie,
+  'firstlight-noya': FirstlightNoya,
 };
 
 // Map 5-star characters to their signature discs
@@ -125,6 +128,7 @@ const characterDiscMap = {
   shia: ripplesOfNostalgia,
   nazuna: clawTheClaw,
   snowishLaru: snowyNightSurprise,
+  'firstlight-noya': myGuidingStar,
 };
 
 // Game Mechanics Reference

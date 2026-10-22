@@ -42,7 +42,7 @@ export const Otoha = {
   ],
   "giftPreferences": {
     "loves": [
-      "Blossom Porcelain Cup",
+      "Porcelain Cup",
       "Deluxe Blower",
       "Emerging Talent",
       "Exquisite Blower",

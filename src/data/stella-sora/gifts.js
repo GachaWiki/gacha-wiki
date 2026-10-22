@@ -41,7 +41,7 @@ export const gifts = [
   // Photo Capturer Category
   {
     id: 1,
-    name: "Card Photo Capturer",
+    name: "Card Capturer",
     slug: "card-photo-capturer",
     category: "Photo Capturer",
     rarity: 3,
@@ -201,7 +201,7 @@ export const gifts = [
   // Ice/Shaved Ice Category
   {
     id: 16,
-    name: "Summer Chill Crushed Ice",
+    name: "Chill Crushed Ice",
     slug: "summer-chill-crushed-ice",
     category: "Shaved Ice",
     rarity: 3,
@@ -221,7 +221,7 @@ export const gifts = [
   },
   {
     id: 18,
-    name: "Sweet IceFurry",
+    name: "Sweet Ice Furry",
     slug: "sweet-icefurry",
     category: "Shaved Ice",
     rarity: 5,
@@ -243,7 +243,7 @@ export const gifts = [
   },
   {
     id: 20,
-    name: "Blossom Porcelain Cup",
+    name: "Porcelain Cup",
     slug: "blossom-porcelain-cup",
     category: "Ceramic",
     rarity: 4,
@@ -265,7 +265,7 @@ export const gifts = [
   // Magical/Enchantment Category
   {
     id: 22,
-    name: "Stellanite Enchantment",
+    name: "Star Eclipse",
     slug: "stellanite-enchantment",
     category: "Enchantment",
     rarity: 3,

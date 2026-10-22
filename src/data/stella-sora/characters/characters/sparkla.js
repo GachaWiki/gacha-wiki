@@ -42,7 +42,7 @@ export const Sparkla = {
   ],
   "giftPreferences": {
     "loves": [
-      "Blossom Porcelain Cup",
+      "Porcelain Cup",
       "Cosmic Form",
       "Emerging Talent",
       "Gilded Ceramic Bowl",
@@ -50,7 +50,7 @@ export const Sparkla = {
       "Mystic Potion Kettle",
       "Rising Star",
       "Shining Star",
-      "Stellanite Enchantment"
+      "Star Eclipse"
     ],
     "hates": [
       "Blazing Wind Spinner",

@@ -2118,5 +2118,31 @@ export const CHAR_ART = {
           "caption": "Date: The Charcoal Cake"
         }
       ]
-    }
+    },
+  "firstlight-noya": {
+      "base": "16201",
+      "main": "charart/16201_SK.png",
+      "skins": [
+        { "unit": "16201", "name": "Default", "desc": "", "type": 1 },
+        { "unit": "16202", "name": "Awakened", "desc": "", "type": 2 },
+      ],
+      "gallery": [
+        {
+          "src": "charart/16201_GOODS.png",
+          "caption": "Illustrated Card"
+        },
+        {
+          "src": "charart/16201_Q.png",
+          "caption": "Portrait"
+        },
+        {
+          "src": "dating/firstlight-noya-event-0.png",
+          "caption": "Date: A Bitter Defeat"
+        },
+        {
+          "src": "dating/firstlight-noya-event-1.png",
+          "caption": "Date: Warmth"
+        },
+      ],
+    },
 };

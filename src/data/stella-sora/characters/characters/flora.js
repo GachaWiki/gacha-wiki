@@ -56,7 +56,7 @@ export const Flora = {
       "Love Candle",
       "Blazing Wings",
       "Fiery Honeypot",
-      "Stellanite Enchantment",
+      "Star Eclipse",
       "Moonlit Companion",
       "Cosmic Form"
     ],

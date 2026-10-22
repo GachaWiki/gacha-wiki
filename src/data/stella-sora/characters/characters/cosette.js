@@ -53,19 +53,19 @@ export const Cosette = {
   ],
   "giftPreferences": {
     "loves": [
-      "Card Photo Capturer",
+      "Card Capturer",
       "Reflective Photo Capturer",
       "Ultra-Precision Photo Capturer",
       "Rising Star",
       "Emerging Talent",
       "Shining Star",
-      "Summer Chill Crushed Ice",
+      "Chill Crushed Ice",
       "Fragrant Ice Delight",
-      "Sweet IceFurry"
+      "Sweet Ice Furry"
     ],
     "hates": [
       "Gilded Ceramic Bowl",
-      "Blossom Porcelain Cup",
+      "Porcelain Cup",
       "Mystic Potion Kettle"
     ]
   },

@@ -224,7 +224,7 @@ export const characterInfo = [
       jp: 'Satomi Sato',
       jpLocalized: '佐藤聡美',
     },
-    birthday: '4.2',
+    birthday: '4.20',
     rarity: 5,
     element: 'Ventus',
     position: 'Vanguard',
@@ -350,7 +350,7 @@ export const characterInfo = [
       jp: 'Ai Fairouz',
       jpLocalized: 'ファイルーズあい',
     },
-    birthday: '1.1',
+    birthday: '',
     rarity: 5,
     element: 'Lux',
     position: 'Versatile',
@@ -434,7 +434,7 @@ export const characterInfo = [
       jp: 'Sora Tokui',
       jpLocalized: '徳井青空',
     },
-    birthday: '4.1',
+    birthday: '4.10',
     rarity: 5,
     element: 'Ignis',
     position: 'Versatile',
@@ -661,9 +661,9 @@ export const characterInfo = [
       'Hailing from the frozen land of Norstheim, she is an elite warrior of the Sentinel of Dawn. A master of all weapons, she pays extra attention to cases involving Nocturn Eterna.',
     voiceActor: {
       cn: 'Wang Meixin',
-      cnLocalized: '',
+      cnLocalized: '王美心',
       jp: 'Minami Takahashi',
-      jpLocalized: '',
+      jpLocalized: '高橋ミナミ',
     },
     birthday: '12.24',
     rarity: 5,
@@ -842,6 +842,27 @@ export const characterInfo = [
     tags: ["Vanguard", "Steady", "Freelance Trekker"],
   },
 
+  {
+    id: 162,
+    slug: 'firstlight-noya',
+    name: 'Firstlight Noya',
+    description:
+      'Swinging a greatsword that buried her past, Noya relies on years of brutal arena combat to carve out a path to the future.',
+    voiceActor: {
+      cn: 'Kiyo',
+      cnLocalized: 'Kiyo',
+      jp: 'Riona Imaizumi',
+      jpLocalized: '今泉りおな',
+    },
+    birthday: '6.21',
+    rarity: 5,
+    element: 'Lux',
+    position: 'Vanguard',
+    attackType: 'Melee',
+    style: 'Inquisitive',
+    faction: 'The Night Watch',
+    tags: ['Vanguard', 'Inquisitive', 'The Night Watch'],
+  },
 ];
 
 // Helper function to get character by slug

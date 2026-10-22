@@ -56,11 +56,11 @@ export const Nazuna = {
       "Love Candle",
       "Blazing Wings",
       "Fiery Honeypot",
-      "Card Photo Capturer",
+      "Card Capturer",
       "Reflective Photo Capturer",
       "Ultra-Precision Photo Capturer",
       "Gilded Ceramic Bowl",
-      "Blossom Porcelain Cup",
+      "Porcelain Cup",
       "Mystic Potion Kettle"
     ],
     "hates": [

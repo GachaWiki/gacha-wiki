@@ -49,13 +49,13 @@ export const SnowishLaru = {
       "Portable Blower",
       "Rising Star",
       "Shining Star",
-      "Summer Chill Crushed Ice",
-      "Sweet IceFurry"
+      "Chill Crushed Ice",
+      "Sweet Ice Furry"
     ],
     "hates": [
       "Cosmic Form",
       "Moonlit Companion",
-      "Stellanite Enchantment"
+      "Star Eclipse"
     ]
   },
   "normalAttack": {

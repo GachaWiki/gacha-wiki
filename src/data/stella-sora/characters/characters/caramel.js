@@ -56,9 +56,9 @@ export const Caramel = {
       "Rising Star",
       "Emerging Talent",
       "Shining Star",
-      "Summer Chill Crushed Ice",
+      "Chill Crushed Ice",
       "Fragrant Ice Delight",
-      "Sweet IceFurry"
+      "Sweet Ice Furry"
     ],
     "hates": []
   },

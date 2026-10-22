@@ -738,7 +738,7 @@ export const datingEvents = [
       },
     ],
   },
-  {
+   {
     id: 110,
     character: 'Firenze',
     slug: 'firenze',
@@ -758,6 +758,14 @@ export const datingEvents = [
         image: 'firenze-event-1.png',
         clue: 'Visit the Port to unlock',
         secondChoice: 'Like Firenze said, she\'s not fishing to catch some fish, so she stays calm and relaxed even when no fish takes the bait for quite some time...\nUntil her competitive side takes over.\n"How dare you ignore me, fish?" She also hates to fail.',
+      },
+      {
+        index: 2,
+        name: 'A "Romantic" Stroll',
+        icon: 'DatingSPCG_110303',
+        image: 'firenze-event-2.png',
+        clue: 'Visit the Market to unlock',
+        secondChoice: 'It turns out she regularly leaves the office to inspect commercial hubs across the city, including this one.\n"This is the only place you see genuine market trends and real civic life," she explains.\n"So this is just work to you, not a casual stroll..." You sigh. That sounds exactly like the Firenze you know.',
       },
     ],
   },
@@ -922,6 +930,29 @@ export const datingEvents = [
       },
     ],
   },
+  {
+    id: 162,
+    character: 'Firstlight Noya',
+    slug: 'firstlight-noya',
+    events: [
+      {
+        index: 0,
+        name: 'A Bitter Defeat',
+        icon: 'DatingSPCG_162301',
+        image: 'firstlight-noya-event-0.png',
+        clue: 'Visit the streets of Filanis to unlock',
+        secondChoice: 'The player eagerly challenges her to a match, and the crowd starts cheering her on. She looks at you, and you nod. You have never seen Alina play chess before—you did not even know she knew how.\nWith your approval, a confident smile spreads across Alina\'s face, as if to say: Guess I have no choice. Watch this!',
+      },
+      {
+        index: 1,
+        name: 'Warmth',
+        icon: 'DatingSPCG_162302',
+        image: 'firstlight-noya-event-1.png',
+        clue: 'Visit Insura to unlock',
+        secondChoice: 'It is late at night. You and Alina place the blankets by the fire, hoping they will dry.\nTo avoid catching a cold from sleeping on the floor, you sit by the fire with her, chatting about random things to stay awake.\n"The desert has a very different kind of scenery. When evening comes, it feels like the whole world is painted gold..."\n"And the people living in that city have their own rules..."',
+      },
+    ],
+  }
 ];
 
 // Helper function to get dating events by character slug

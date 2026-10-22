@@ -1,23 +1,12 @@
+// Nanoha Character Data - Stella Sora
+// Generated from live game tables (Oct 19 2026 patch, v2.0.0)
+
 export const Nanoha = {
   "id": 119,
   "name": "Nanoha",
   "icon": "/stella/assets/Nanoha.png",
   "portrait": "/stella/assets/Nanoha_portrait.png",
   "background": "/stella/assets/Nanoha_background.png",
-  "variants": {
-    "base": "/stella/assets/Nanoha_base.png",
-    "q": "/stella/assets/Nanoha_q.png",
-    "gd": "/stella/assets/Nanoha_gd.png",
-    "goods": "/stella/assets/Nanoha_goods.png",
-    "qs": "/stella/assets/Nanoha_qs.png",
-    "xl": "/stella/assets/Nanoha_xl.png",
-    "gc": "/stella/assets/Nanoha_gc.png",
-    "sk": "/stella/assets/Nanoha_portrait.png",
-    "xxl": "/stella/assets/Nanoha.png",
-    "qm": "/stella/assets/Nanoha_qm.png",
-    "l": "/stella/assets/Nanoha_l.png",
-    "s": "/stella/assets/Nanoha_s.png"
-  },
   "description": "Nanoha is a maid working at Goodwind who is also skilled in \"Flower\" Ninjutsu. She takes pride in her Sunflower Shuriken, which can hit its target while moving at high speed.",
   "voiceActor": {
     "cn": "Dou Nai",
@@ -25,7 +14,7 @@ export const Nanoha = {
     "jp": "Satomi Sato",
     "jpLocalized": "佐藤聡美"
   },
-  "birthday": "4.2",
+  "birthday": "4.20",
   "grade": 5,
   "element": "Ventus",
   "position": "Vanguard",
@@ -42,60 +31,65 @@ export const Nanoha = {
       "name": "Customized Sweetness",
       "icon": "DatingSPCG_119301",
       "clue": "Visit the Dessert Shop to unlock",
-      "secondChoice": "Haven't had enough. Let's order some more."
+      "secondChoice": "\"One of these little cakes is made just for you, with all your favorite flavors mixed in. Would you care to guess which one?\"\n\nExcited by the fun challenge, you dive in and start tasting them one by one."
     },
     {
       "name": "The Best Maid",
       "icon": "DatingSPCG_119302",
       "clue": "Visit the Market to unlock",
-      "secondChoice": "There's an event you can join in the game area."
+      "secondChoice": "You go first and dispatch five darts. Unfortunately, none of them hit the spot exactly, leaving you a little frustrated.\n\n\"Please, allow Nanoha to win this for you,\" Amidst the noisy crowd, Nanoha whispers softly into your ear."
+    },
+    {
+      "name": "Maid Attendant",
+      "icon": "DatingSPCG_119303",
+      "clue": "Visit the Academy to unlock",
+      "secondChoice": "Because of Nanoha's maid outfit, the two of you became the center of attention the moment you walked in.\n\nAnd since she stayed quietly at your side the whole time, people around the class started whispering to each other, wondering if you might come from some prominent family."
     }
   ],
   "giftPreferences": {
     "loves": [
-      "Whisper Wind Spinner",
-      "Chilling Wind Spinner",
       "Blazing Wind Spinner",
-      "Summer Chill Crushed Ice",
+      "Chill Crushed Ice",
+      "Chilling Wind Spinner",
       "Fragrant Ice Delight",
-      "Sweet IceFurry",
       "Gilded Ceramic Bowl",
-      "Blossom Porcelain Cup",
-      "Mystic Potion Kettle"
+      "Mystic Potion Kettle",
+      "Porcelain Cup",
+      "Sweet Ice Furry",
+      "Whisper Wind Spinner"
     ],
     "hates": [
-      "Rising Star",
       "Emerging Talent",
+      "Rising Star",
       "Shining Star"
     ]
   },
   "normalAttack": {
     "name": "Flowers Scatter",
     "icon": "Icon/Skill/11901_Normal",
-    "description": "Throws multiple darts.\u000bStrike 1: <color=#ec6d21>&Param1& of ATK ×2</color> as Ventus DMG.\u000bStrike 2: <color=#ec6d21>&Param2& of ATK ×2</color> as Ventus DMG.\u000bStrike 3: <color=#ec6d21>&Param3& of ATK ×3</color> as Ventus DMG.",
+    "description": "Throws multiple darts.\u000bStrike 1: <color=#ec6d21>&Param1& x2</color> of ATK as Ventus Auto Attack DMG.\u000bStrike 2: <color=#ec6d21>&Param2& x2</color> of ATK as Ventus Auto Attack DMG.\u000bStrike 3: <color=#ec6d21>&Param3& x3</color> of ATK as Ventus Auto Attack DMG.",
     "shortDescription": "Throws a number of darts.",
     "params": [
-      "11%/12.6%/14.3%/19.2%/20.8%/22.3%/25.4%/26.7%/28%/30.7%/32.9%/35.1%/37.3%",
-      "11%/12.6%/14.3%/19.2%/20.8%/22.3%/25.4%/26.7%/28%/30.7%/32.9%/35.1%/37.3%",
-      "16.1%/18.5%/20.9%/28.2%/30.4%/32.7%/37.2%/39.1%/41.1%/44.9%/48.1%/51.4%/54.6%"
+      "15%/17%/19%/26%/28%/30%/35%/37%/38%/42%/45%/48%/51%",
+      "15%/17%/19%/26%/28%/30%/35%/37%/38%/42%/45%/48%/51%",
+      "22%/25%/28%/39%/42%/45%/51%/54%/56%/62%/66%/71%/75%"
     ],
     "hints": {}
   },
   "skill": {
     "name": "Flowers Dance",
     "icon": "Icon/Skill/11901_Skill_Main",
-    "description": "Throws two sunflower shurikens that strike the target and return for 4 times. Each hit deals <color=#ec6d21>&Param1& of ATK</color> as Ventus DMG.\u000bFlowers Dance (Main Skill) can trigger ##Ventus Mark#1017#, dealing &Param2& of ATK as AoE Ventus Mark DMG.",
-    "shortDescription": "Throws sunflower shurikens that strike the target and return. The Main Skill can trigger ##Ventus Mark#1017#.",
+    "description": "Throws two sunflower shurikens, each flying back and forth 8 times and dealing <color=#ec6d21>&Param1&</color> of ATK as Ventus Skill DMG.\u000bFlowers Dance (Main Skill) can trigger ##Ventus Mark#1017# and create a Blossom, dealing &Param2& of ATK as AoE Ventus Mark DMG.",
+    "shortDescription": "Throws sunflower shurikens that strike the target and return. The Main Skill can trigger ##Ventus Mark#1017# and create a Blossom.",
     "params": [
-      "4.9%/5.6%/6.3%/8.5%/9.2%/9.9%/11.2%/11.8%/12.4%/13.5%/14.5%/15.5%/16.4%",
+      "6%/7%/8%/12%/13%/14%/15%/16%/17%/19%/20%/21%/23%",
       "31%/40%/49%/58%/67%/77%/86%/95%/104%"
     ],
     "hints": {
       "1017": {
         "id": 1017,
         "name": "Ventus Mark",
-        "description": "The generic name for all Ventus Marks.\u000bWhen triggered by specific Ventus Trekkers' attacks, the status is removed, and a special effect is activated.",
-        "params": []
+        "description": "The generic name for all Ventus Marks.\u000bWhen triggered by specific Ventus Trekkers' attacks, the status is removed, and a special effect is activated."
       }
     },
     "cooldown": "10s"
@@ -103,18 +97,17 @@ export const Nanoha = {
   "supportSkill": {
     "name": "Flowers Bloom",
     "icon": "Icon/Skill/11901_Skill_Support",
-    "description": "Conjures an exploding sunflower that fires 12 darts, each dealing <color=#ec6d21>&Param1& of ATK</color> as Ventus DMG.\u000bFlowers Bloom (Support Skill) can trigger ##Ventus Mark#1017#, dealing &Param2& of ATK as AoE Ventus Mark DMG.",
-    "shortDescription": "Conjures an exploding sunflower that fires multiple darts. The Support Skill can trigger ##Ventus Mark#1017#.",
+    "description": "Conjures an exploding sunflower that fires 12 shurikens, each dealing <color=#ec6d21>&Param1&</color> of ATK as Ventus Skill DMG.\u000bFlowers Bloom (Support Skill) can trigger ##Ventus Mark#1017# and create a Blossom, dealing &Param2& of ATK as AoE Ventus Mark DMG.",
+    "shortDescription": "Conjures an exploding sunflower that fires multiple shurikens. The Support Skill can trigger ##Ventus Mark#1017# and create a Blossom.",
     "params": [
-      "25.9%/29.8%/33.7%/45.3%/49%/52.6%/59.9%/63%/66.1%/72.3%/77.5%/82.7%/87.8%",
+      "25%/29%/33%/45%/49%/52%/59%/63%/66%/72%/77%/82%/87%",
       "31%/40%/49%/58%/67%/77%/86%/95%/104%"
     ],
     "hints": {
       "1017": {
         "id": 1017,
         "name": "Ventus Mark",
-        "description": "The generic name for all Ventus Marks.\u000bWhen triggered by specific Ventus Trekkers' attacks, the status is removed, and a special effect is activated.",
-        "params": []
+        "description": "The generic name for all Ventus Marks.\u000bWhen triggered by specific Ventus Trekkers' attacks, the status is removed, and a special effect is activated."
       }
     },
     "cooldown": "12s"
@@ -122,20 +115,19 @@ export const Nanoha = {
   "ultimate": {
     "name": "Flowers Thrice",
     "icon": "Icon/Skill/11901_Ultra",
-    "description": "Generates 2 stationary clones that attack enemies with darts, dealing <color=#ec6d21>&Param1& of Nanoha's ATK x2</color>, <color=#ec6d21>&Param2& of Nanoha's ATK x2</color>, and <color=#ec6d21>&Param3& of Nanoha's ATK x3</color> as Ventus Ultimate DMG.\u000bEach clone lasts for 10s. Up to 2 clones can be present simultaneously.\u000bWhen a clone deals DMG, it can trigger ##Ventus Mark#1017#, dealing &Param4& of ATK as AoE Ventus Mark DMG.",
-    "shortDescription": "Generates clones that attack enemies. The clones can trigger ##Ventus Mark#1017#.",
+    "description": "Generates 2 stationary clones that attack enemies with shurikens, dealing of ATK<color=#ec6d21>&Param1& x2, <color=#ec6d21>&Param2& x2</color>, and <color=#ec6d21></color>&Param3& x3</color> as Ventus Ultimate DMG.\u000bEach clone lasts for 25s. Up to 2 clones can be present simultaneously.\u000bWhen a clone deals DMG, it can trigger ##Ventus Mark#1017# and create a Blossom, dealing &Param4& of ATK as AoE Ventus Mark DMG.",
+    "shortDescription": "Generates clones that attack enemies. The clones can trigger ##Ventus Mark#1017# and create a Blossom.",
     "params": [
-      "19.4%/22.3%/25.2%/33.9%/36.7%/39.4%/44.8%/47.1%/49.5%/54.1%/58%/61.9%/65.7%",
-      "19.4%/22.3%/25.2%/33.9%/36.7%/39.4%/44.8%/47.1%/49.5%/54.1%/58%/61.9%/65.7%",
-      "28.4%/32.7%/37%/49.8%/53.8%/57.7%/65.7%/69.1%/72.5%/79.4%/85%/90.7%/96.4%",
+      "19%/22%/25%/33%/36%/39%/44%/47%/49%/54%/58%/61%/65%",
+      "19%/22%/25%/33%/36%/39%/44%/47%/49%/54%/58%/61%/65%",
+      "28%/32%/37%/49%/53%/57%/65%/69%/72%/79%/85%/90%/96%",
       "31%/40%/49%/58%/67%/77%/86%/95%/104%"
     ],
     "hints": {
       "1017": {
         "id": 1017,
         "name": "Ventus Mark",
-        "description": "The generic name for all Ventus Marks.\u000bWhen triggered by specific Ventus Trekkers' attacks, the status is removed, and a special effect is activated.",
-        "params": []
+        "description": "The generic name for all Ventus Marks.\u000bWhen triggered by specific Ventus Trekkers' attacks, the status is removed, and a special effect is activated."
       }
     },
     "cooldown": "30s",
@@ -954,363 +946,6 @@ export const Nanoha = {
       "atk": 7426
     }
   ],
-  "upgrades": [
-    {
-      "items": [
-        {
-          "id": 20091,
-          "name": "Faint Wick",
-          "quantity": 5
-        }
-      ],
-      "currency": {
-        "dorra": 7900
-      }
-    },
-    {
-      "items": [
-        {
-          "id": 20091,
-          "name": "Faint Wick",
-          "quantity": 5
-        },
-        {
-          "id": 20092,
-          "name": "Lumen Essence",
-          "quantity": 10
-        }
-      ],
-      "currency": {
-        "dorra": 19800
-      }
-    },
-    {
-      "items": [
-        {
-          "id": 20091,
-          "name": "Faint Wick",
-          "quantity": 10
-        },
-        {
-          "id": 20092,
-          "name": "Lumen Essence",
-          "quantity": 15
-        }
-      ],
-      "currency": {
-        "dorra": 44400
-      }
-    },
-    {
-      "items": [
-        {
-          "id": 20091,
-          "name": "Faint Wick",
-          "quantity": 15
-        },
-        {
-          "id": 20092,
-          "name": "Lumen Essence",
-          "quantity": 25
-        }
-      ],
-      "currency": {
-        "dorra": 66600
-      }
-    },
-    {
-      "items": [
-        {
-          "id": 20091,
-          "name": "Faint Wick",
-          "quantity": 20
-        },
-        {
-          "id": 20092,
-          "name": "Lumen Essence",
-          "quantity": 40
-        }
-      ],
-      "currency": {
-        "dorra": 146100
-      }
-    },
-    {
-      "items": [
-        {
-          "id": 20091,
-          "name": "Faint Wick",
-          "quantity": 30
-        },
-        {
-          "id": 20092,
-          "name": "Lumen Essence",
-          "quantity": 55
-        },
-        {
-          "id": 20093,
-          "name": "Eternal Gloom Core",
-          "quantity": 20
-        }
-      ],
-      "currency": {
-        "dorra": 291600
-      }
-    },
-    {
-      "items": [
-        {
-          "id": 20092,
-          "name": "Lumen Essence",
-          "quantity": 75
-        },
-        {
-          "id": 20093,
-          "name": "Eternal Gloom Core",
-          "quantity": 30
-        }
-      ],
-      "currency": {
-        "dorra": 560200
-      }
-    },
-    {
-      "items": [
-        {
-          "id": 20092,
-          "name": "Lumen Essence",
-          "quantity": 95
-        },
-        {
-          "id": 20093,
-          "name": "Eternal Gloom Core",
-          "quantity": 50
-        }
-      ],
-      "currency": {
-        "dorra": 1121300
-      }
-    },
-    {
-      "items": [],
-      "currency": {
-        "dorra": 1121300
-      }
-    }
-  ],
-  "skillUpgrades": [
-    {
-      "items": [
-        {
-          "id": 32001,
-          "name": "Tapping Game Cartridge",
-          "quantity": 6
-        },
-        {
-          "id": 32000,
-          "name": "Chess Piece of Skill",
-          "quantity": 2
-        }
-      ],
-      "currency": {
-        "dorra": 13300
-      }
-    },
-    {
-      "items": [
-        {
-          "id": 32001,
-          "name": "Tapping Game Cartridge",
-          "quantity": 12
-        },
-        {
-          "id": 32000,
-          "name": "Chess Piece of Skill",
-          "quantity": 6
-        }
-      ],
-      "currency": {
-        "dorra": 17600
-      }
-    },
-    {
-      "items": [
-        {
-          "id": 32001,
-          "name": "Tapping Game Cartridge",
-          "quantity": 24
-        },
-        {
-          "id": 32002,
-          "name": "Rhythm Game Cartridge",
-          "quantity": 3
-        },
-        {
-          "id": 32000,
-          "name": "Chess Piece of Skill",
-          "quantity": 10
-        }
-      ],
-      "currency": {
-        "dorra": 49800
-      }
-    },
-    {
-      "items": [
-        {
-          "id": 32001,
-          "name": "Tapping Game Cartridge",
-          "quantity": 38
-        },
-        {
-          "id": 32002,
-          "name": "Rhythm Game Cartridge",
-          "quantity": 8
-        },
-        {
-          "id": 32000,
-          "name": "Chess Piece of Skill",
-          "quantity": 24
-        }
-      ],
-      "currency": {
-        "dorra": 100000
-      }
-    },
-    {
-      "items": [
-        {
-          "id": 32001,
-          "name": "Tapping Game Cartridge",
-          "quantity": 70
-        },
-        {
-          "id": 32002,
-          "name": "Rhythm Game Cartridge",
-          "quantity": 14
-        },
-        {
-          "id": 32003,
-          "name": "Magic Sound Game Cartridge",
-          "quantity": 6
-        },
-        {
-          "id": 32000,
-          "name": "Chess Piece of Skill",
-          "quantity": 55
-        }
-      ],
-      "currency": {
-        "dorra": 400000
-      }
-    },
-    {
-      "items": [
-        {
-          "id": 21043,
-          "name": "Wind Essence",
-          "quantity": 1
-        },
-        {
-          "id": 32002,
-          "name": "Rhythm Game Cartridge",
-          "quantity": 50
-        },
-        {
-          "id": 32003,
-          "name": "Magic Sound Game Cartridge",
-          "quantity": 18
-        },
-        {
-          "id": 32000,
-          "name": "Chess Piece of Skill",
-          "quantity": 232
-        }
-      ],
-      "currency": {
-        "dorra": 900000
-      }
-    },
-    {
-      "items": [
-        {
-          "id": 21043,
-          "name": "Wind Essence",
-          "quantity": 2
-        },
-        {
-          "id": 32002,
-          "name": "Rhythm Game Cartridge",
-          "quantity": 90
-        },
-        {
-          "id": 32003,
-          "name": "Magic Sound Game Cartridge",
-          "quantity": 34
-        },
-        {
-          "id": 32000,
-          "name": "Chess Piece of Skill",
-          "quantity": 323
-        }
-      ],
-      "currency": {
-        "dorra": 1600000
-      }
-    },
-    {
-      "items": [
-        {
-          "id": 21043,
-          "name": "Wind Essence",
-          "quantity": 3
-        },
-        {
-          "id": 32002,
-          "name": "Rhythm Game Cartridge",
-          "quantity": 140
-        },
-        {
-          "id": 32003,
-          "name": "Magic Sound Game Cartridge",
-          "quantity": 50
-        },
-        {
-          "id": 32000,
-          "name": "Chess Piece of Skill",
-          "quantity": 478
-        }
-      ],
-      "currency": {
-        "dorra": 2300000
-      }
-    },
-    {
-      "items": [
-        {
-          "id": 21043,
-          "name": "Wind Essence",
-          "quantity": 6
-        },
-        {
-          "id": 32002,
-          "name": "Rhythm Game Cartridge",
-          "quantity": 200
-        },
-        {
-          "id": 32003,
-          "name": "Magic Sound Game Cartridge",
-          "quantity": 70
-        },
-        {
-          "id": 32000,
-          "name": "Chess Piece of Skill",
-          "quantity": 927
-        }
-      ],
-      "currency": {
-        "dorra": 3400000
-      }
-    }
-  ]
+  "upgrades": [],
+  "skillUpgrades": []
 };

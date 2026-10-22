@@ -1584,77 +1584,46 @@ export const allPotentials = {
         build1: {
           title: 'Firenze: Main Build 1',
           description: 'A build that enhances combat mobility and skill activation frequency.',
-          potentials: [
-            'Step Kicking',
-            'Nimble Step',
-            'High Risk',
-            'Dark Pirouette',
-            'Flash Break'
-          ]
+          potentials: ['Step Kicking', 'Nimble Step', 'High Risk', 'Dark Pirouette', 'Flash Break']
         },
         build2: {
           title: 'Firenze: Main Build 2',
           description: 'A summoner build that enhances clone capabilities and attack synergy.',
-          potentials: [
-            'Phantom Waltz',
-            'Shadow Step',
-            'Gloomy Veil',
-            'Extended Shift',
-            'Accurate Coincidence'
-          ]
+          potentials: ['Phantom Waltz', 'Shadow Step', 'Gloomy Veil', 'Extended Shift', 'Accurate Coincidence']
         }
       },
       support: {
         build1: {
           title: 'Firenze: Support Build 1',
           description: 'A build that amplifies skill activation effects and boosts sustained DPS at the target\'s location.',
-          potentials: [
-            'Shadow Nail',
-            'Shadow Flicker',
-            'Drinking Party',
-            'Typical Case',
-            'Joyous Whip'
-          ]
+          potentials: ['Shadow Nail', 'Shadow Flicker', 'Drinking Party', 'Typical Case', 'Joyous Whip']
         },
         build2: {
           title: 'Firenze: Support Build 2',
           description: 'A build that empowers clones summoned via skills, increasing their numbers and duration.',
-          potentials: [
-            'Twin Shadow',
-            'Shadownight Descendant',
-            'Step Sync',
-            'Dark Resurgence',
-            'Flexible Operation'
-          ]
+          potentials: ['Twin Shadow', 'Shadownight Descendant', 'Step Sync', 'Dark Resurgence', 'Flexible Operation']
         }
       }
     },
     potentials: {
       mainCore: [
-        {
+{
           name: 'Step Kicking',
           icon: '511001',
           description: 'When casting Elegant Parade (Main Skill), Firenze deals an additional <color=#0abec5>&Param1& x3</color> of ATK as AoE Umbra Skill DMG.',
           shortDescription: 'The Main Skill deals additional damage.',
-          params: [
-            '55%/63%/71%/95%/103%/111%/126%/133%/139%/152%/163%/174%/185%'
-          ],
+          params: ['55%/63%/71%/95%/103%/111%/126%/133%/139%/152%/163%/174%/185%'],
           rarity: 1,
           stype: 42,
           corner: null,
           hints: {}
         },
-        {
+{
           name: 'Nimble Step',
           icon: '511002',
           description: 'After Firenze\'s Elegant Parade (Main Skill) deals DMG <color=#0abec5>6</color> times, it creates a domain for &Param1&s, dealing <color=#0abec5>&Param2&</color> of ATK as AoE Umbra Skill DMG every 0.5s and increases Firenze\'s &Param3& by <color=#0abec5>&Param4&</color>. The domain\'s DMG can trigger ##Umbra Mark#1019#.',
           shortDescription: 'When Firenze\'s Main Skill deals DMG for a certain number of times, she creates a domain that deals continuous AoE DMG and boosts her &Param3&.',
-          params: [
-            '7',
-            '67%/77%/87%/118%/127%/137%/155%/164%/172%/188%/201%/215%/228%',
-            'Skill DMG',
-            '5%'
-          ],
+          params: ['7', '67%/77%/87%/118%/127%/137%/155%/164%/172%/188%/201%/215%/228%', 'Skill DMG', '5%'],
           rarity: 1,
           stype: 42,
           corner: null,
@@ -1666,14 +1635,12 @@ export const allPotentials = {
             }
           }
         },
-        {
+{
           name: 'Phantom Waltz',
           icon: '511003',
           description: 'Firenze generates <color=#0abec5>1</color> ##Shadow Clone#4002# every <color=#0abec5>5</color>s.\nWhen casting Elegant Parade (Main Skill), increases the number of ##Shadow Clones#4002# summoned by <color=#0abec5>&Param1&</color>.',
           shortDescription: 'Firenze automatically summons ##Shadow Clones#4002#. When casting the Main Skill, increases the number of ##Shadow Clones#4002# summoned.',
-          params: [
-            '1'
-          ],
+          params: ['1'],
           rarity: 1,
           stype: 42,
           corner: null,
@@ -1684,15 +1651,12 @@ export const allPotentials = {
             }
           }
         },
-        {
+{
           name: 'Shadow Step',
           icon: '511004',
           description: 'Upon vanishing, Firenze\'s ##Shadow Clones#4002# will explode, dealing <color=#0abec5>&Param1&</color> of ATK as AoE Umbra Minion DMG.\nThe max limit of ##Shadow Clones#4002# increases by <color=#0abec5>&Param2&</color> for every other Umbra Trekker in the squad.',
           shortDescription: 'Upon vanishing, Firenze\'s ##Shadow Clones#4002# will explode, dealing AoE DMG. The max limit of ##Shadow Clones#4002# increases for every other Umbra Trekker in the squad.',
-          params: [
-            '117%/135%/152%/205%/221%/238%/271%/285%/299%/327%/350%/374%/397%',
-            '1'
-          ],
+          params: ['117%/135%/152%/205%/221%/238%/271%/285%/299%/327%/350%/374%/397%', '1'],
           rarity: 1,
           stype: 42,
           corner: null,
@@ -1705,17 +1669,12 @@ export const allPotentials = {
         }
       ],
       mainNormal: [
-        {
+{
           name: 'High Risk',
           icon: '511005',
           description: 'When Firenze deals Skill DMG, there is a &Param2& chance to deal an additional <color=#ec6d21>&Param1&</color> of ATK as Umbra Skill DMG. The chance is increased to &Param3& if the target is inflicted with ##Umbra Burn#2028#. This effect can only be triggered &Param4& times every second.',
           shortDescription: 'When Firenze deals Skill DMG, there is a chance to deal additional DMG.',
-          params: [
-            '64%/103%/141%/180%/218%/256%/295%/333%/372%',
-            '400000',
-            '800000',
-            '2'
-          ],
+          params: ['64%/103%/141%/180%/218%/256%/295%/333%/372%', '400000', '800000', '2'],
           rarity: 1,
           stype: 41,
           corner: 1,
@@ -1727,16 +1686,12 @@ export const allPotentials = {
             }
           }
         },
-        {
+{
           name: 'Gloomy Veil',
           icon: '511008',
           description: 'Increases ##Shadow Clone#4002#\'s max limit by &Param1& and &Param2& by <color=#ec6d21>&Param3&</color>.',
           shortDescription: 'Increases ##Shadow Clone#4002#\'s max limit and &Param2&.',
-          params: [
-            '1',
-            'Umbra DMG',
-            '14%/22%/31%/39%/47%/55%/64%/72%/80%'
-          ],
+          params: ['1', 'Umbra DMG', '14%/22%/31%/39%/47%/55%/64%/72%/80%'],
           rarity: 2,
           stype: 41,
           corner: 1,
@@ -1747,30 +1702,23 @@ export const allPotentials = {
             }
           }
         },
-        {
+{
           name: 'Hunting Command',
           icon: '511011',
           description: 'For each Umbra Trekker in the squad, increases Firenze\'s &Param1& by <color=#ec6d21>&Param2&</color>.',
           shortDescription: 'Each Umbra Trekker in the squad increases Firenze\'s &Param1&.',
-          params: [
-            'Umbra DMG',
-            '7%/11%/15%/19%/23%/27%/31%/35%/39%'
-          ],
+          params: ['Umbra DMG', '7%/11%/15%/19%/23%/27%/31%/35%/39%'],
           rarity: 1,
           stype: 41,
           corner: 1,
           hints: {}
         },
-        {
+{
           name: 'Dark Pirouette',
           icon: '511006',
           description: 'When Firenze triggers an ##Umbra Mark#1019#, increases &Param1& by <color=#ec6d21>&Param2&</color> for &Param3&s.',
           shortDescription: 'When Firenze triggers an ##Umbra Mark#1019#, increases &Param1&.',
-          params: [
-            'ATK',
-            '15%/24%/33%/42%/51%/60%/69%/78%/87%',
-            '3'
-          ],
+          params: ['ATK', '15%/24%/33%/42%/51%/60%/69%/78%/87%', '3'],
           rarity: 2,
           stype: 41,
           corner: 2,
@@ -1782,16 +1730,12 @@ export const allPotentials = {
             }
           }
         },
-        {
+{
           name: 'Extended Shift',
           icon: '511009',
           description: '##Shadow Clone#4002# lasts <color=#ec6d21>&Param1&</color>s longer on the battlefield. Also increases &Param2& by <color=#ec6d21>&Param3&</color>.',
           shortDescription: '##Shadow Clone#4002# lasts longer on the battlefield. Also increases &Param2&.',
-          params: [
-            '',
-            'Minion DMG',
-            '19%/31%/43%/54%/66%/77%/89%/101%/112%'
-          ],
+          params: ['', 'Minion DMG', '19%/31%/43%/54%/66%/77%/89%/101%/112%'],
           rarity: 1,
           stype: 41,
           corner: 2,
@@ -1802,15 +1746,12 @@ export const allPotentials = {
             }
           }
         },
-        {
+{
           name: 'Clone Trick',
           icon: '511012',
           description: 'Firenze can dodge through barriers.\nIncreases ##Shadow Clone#4002#\'s &Param1& by <color=#ec6d21>&Param2&</color>.',
           shortDescription: 'Firenze can dodge through barriers. Increases ##Shadow Clone#4002#\'s DMG.',
-          params: [
-            'Minion DMG',
-            '8%/13%/17%/22%/27%/31%/36%/41%/46%'
-          ],
+          params: ['Minion DMG', '8%/13%/17%/22%/27%/31%/36%/41%/46%'],
           rarity: 2,
           stype: 41,
           corner: 2,
@@ -1821,31 +1762,23 @@ export const allPotentials = {
             }
           }
         },
-        {
+{
           name: 'Flash Break',
           icon: '511007',
           description: 'When Firenze deals DMG with an Auto Attack, increases her &Param1& by <color=#ec6d21>&Param2&</color> for &Param3&s, stacking up to <color=#ec6d21>&Param4&</color> times. The effect ends if Elegant Parade (Main Skill) is cast.',
           shortDescription: 'When Firenze deals DMG with an Auto Attack, increases her &Param1&. The effect ends if the Main Skill is cast.',
-          params: [
-            'Skill DMG',
-            '4%/6%/9%/11%/13%/15%/18%/20%/22%',
-            '5',
-            '3'
-          ],
+          params: ['Skill DMG', '4%/6%/9%/11%/13%/15%/18%/20%/22%', '5', '3'],
           rarity: 2,
           stype: 41,
           corner: 3,
           hints: {}
         },
-        {
+{
           name: 'Accurate Coincidence',
           icon: '511010',
           description: 'After Firenze casts Elegant Parade (Main Skill), her next Auto Attack directly casts the last strike.\nAlso increases ##Shadow Clone#4002#\'s &Param1& by <color=#ec6d21>&Param2&</color>.',
           shortDescription: 'After Firenze casts the Main Skill, her next Auto Attack starts with the 4th strike. Also increases ##Shadow Clone#4002#\'s &Param1&.',
-          params: [
-            'Minion DMG',
-            '13%/20%/28%/35%/43%/50%/58%/65%/73%'
-          ],
+          params: ['Minion DMG', '13%/20%/28%/35%/43%/50%/58%/65%/73%'],
           rarity: 2,
           stype: 41,
           corner: 3,
@@ -1856,16 +1789,12 @@ export const allPotentials = {
             }
           }
         },
-        {
+{
           name: 'Announcement Time',
           icon: '511013',
           description: 'Firenze can dodge one more time.\nWhen dodging, increases Firenze\'s &Param3& by <color=#ec6d21>&Param1&</color> for &Param2&s.',
           shortDescription: 'Firenze can dodge one more time. Increases her &Param3& when dodging.',
-          params: [
-            '4%/6%/9%/11%/13%/15%/18%/20%/22%',
-            '6',
-            'ATK'
-          ],
+          params: ['4%/6%/9%/11%/13%/15%/18%/20%/22%', '6', 'ATK'],
           rarity: 2,
           stype: 41,
           corner: 3,
@@ -1873,40 +1802,34 @@ export const allPotentials = {
         }
       ],
       supportCore: [
-        {
+{
           name: 'Shadow Nail',
           icon: '511021',
           description: 'The cane stays in the ground for 6s, dealing <color=#0abec5>&Param1&</color> of ATK as AoE Umbra Skill DMG per second.',
           shortDescription: 'The cane stays in the ground for a period of time, dealing DMG over time.',
-          params: [
-            '35%/40%/45%/61%/65%/70%/80%/84%/88%/96%/103%/110%/117%'
-          ],
+          params: ['35%/40%/45%/61%/65%/70%/80%/84%/88%/96%/103%/110%/117%'],
           rarity: 1,
           stype: 42,
           corner: null,
           hints: {}
         },
-        {
+{
           name: 'Shadow Flicker',
           icon: '511022',
           description: 'When the cane disappears, triggers an explosion, dealing <color=#0abec5>&Param1&</color> of ATK as AoE Umbra Skill DMG.',
           shortDescription: 'When the cane disappears, triggers an explosion, dealing AoE DMG.',
-          params: [
-            '108%/124%/141%/189%/204%/220%/250%/263%/276%/302%/323%/345%/367%'
-          ],
+          params: ['108%/124%/141%/189%/204%/220%/250%/263%/276%/302%/323%/345%/367%'],
           rarity: 1,
           stype: 42,
           corner: null,
           hints: {}
         },
-        {
+{
           name: 'Twin Shadow',
           icon: '511023',
           description: 'Reign of Night (Support Skill) summons <color=#0abec5>2</color> more ##Shadow Clones#4002#, with the max limit increased by <color=#0abec5>&Param1&</color>.',
           shortDescription: 'Increases the max limit and the number summoned of ##Shadow Clones#4002# by Support Skills.',
-          params: [
-            '2'
-          ],
+          params: ['2'],
           rarity: 1,
           stype: 42,
           corner: null,
@@ -1917,7 +1840,7 @@ export const allPotentials = {
             }
           }
         },
-        {
+{
           name: 'Shadownight Descendant',
           icon: '511024',
           description: 'The ##Shadow Clones#4002# summoned by Reign of Night (Support Skill) will last <color=#0abec5>5</color>s longer on the battlefield.',
@@ -1935,17 +1858,12 @@ export const allPotentials = {
         }
       ],
       supportNormal: [
-        {
+{
           name: 'Drinking Party',
           icon: '511025',
           description: 'When cane DMG triggers an ##Umbra Mark#1019#, reduces Reign of Night (Support Skill)\'s Cooldown by &Param3&s. This effect can only be triggered &Param4& times per cast.\nAlso increases DMG dealt by the cane by <color=#ec6d21>&Param1&</color>.',
           shortDescription: 'When cane DMG triggers an ##Umbra Mark#1019#, reduces Support Skill Cooldown. Also increases the cane\'s DMG.',
-          params: [
-            '10%/16%/22%/29%/35%/41%/47%/53%/59%',
-            'Skill DMG',
-            '1',
-            '4'
-          ],
+          params: ['10%/16%/22%/29%/35%/41%/47%/53%/59%', 'Skill DMG', '1', '4'],
           rarity: 1,
           stype: 41,
           corner: 1,
@@ -1957,16 +1875,12 @@ export const allPotentials = {
             }
           }
         },
-        {
+{
           name: 'Step Sync',
           icon: '511028',
           description: 'Increases ##Shadow Clone#4002#\'s &Param3& by <color=#ec6d21>&Param2&</color>. Reduces the intervals between their sprint attacks by <color=#ec6d21>&Param1&%</color>.',
           shortDescription: 'Increases ##Shadow Clone#4002#\'s &Param3&. Reduces the intervals between their sprint attacks.',
-          params: [
-            '',
-            '5%/9%/12%/15%/18%/21%/25%/28%/31%',
-            'Minion DMG'
-          ],
+          params: ['', '5%/9%/12%/15%/18%/21%/25%/28%/31%', 'Minion DMG'],
           rarity: 1,
           stype: 41,
           corner: 1,
@@ -1977,15 +1891,12 @@ export const allPotentials = {
             }
           }
         },
-        {
+{
           name: 'Shadow Waltz',
           icon: '511031',
           description: 'Increases ##Shadow Clone#4002#\'s &Param2& by <color=#ec6d21>&Param1&</color>.',
           shortDescription: 'Increases ##Shadow Clone#4002#\'s DMG.',
-          params: [
-            '18%/28%/39%/49%/60%/70%/81%/91%/102%',
-            'Minion DMG'
-          ],
+          params: ['18%/28%/39%/49%/60%/70%/81%/91%/102%', 'Minion DMG'],
           rarity: 2,
           stype: 41,
           corner: 1,
@@ -1996,15 +1907,12 @@ export const allPotentials = {
             }
           }
         },
-        {
+{
           name: 'Typical Case',
           icon: '511026',
           description: 'Increases the cane\'s Umbra DMG to targets inflicted with ##Dark Burn#2028# by <color=#ec6d21>&Param1&</color>.',
           shortDescription: 'Increases the cane\'s Umbra DMG to targets inflicted with ##Dark Burn#2028#.',
-          params: [
-            '10%/16%/22%/29%/35%/41%/47%/53%/59%',
-            'Umbra DMG'
-          ],
+          params: ['10%/16%/22%/29%/35%/41%/47%/53%/59%', 'Umbra DMG'],
           rarity: 2,
           stype: 41,
           corner: 2,
@@ -2016,14 +1924,12 @@ export const allPotentials = {
             }
           }
         },
-        {
+{
           name: 'Dark Resurgence',
           icon: '511029',
           description: 'Upon vanishing, ##Shadow Clones#4002# will explode, dealing <color=#ec6d21>&Param1&</color> of ATK as AoE Umbra Minion DMG.',
           shortDescription: 'Upon vanishing, Firenze\'s ##Shadow Clones#4002# will explode, dealing AoE DMG.',
-          params: [
-            '35%/55%/76%/97%/118%/138%/159%/180%/201%'
-          ],
+          params: ['35%/55%/76%/97%/118%/138%/159%/180%/201%'],
           rarity: 2,
           stype: 41,
           corner: 2,
@@ -2034,47 +1940,34 @@ export const allPotentials = {
             }
           }
         },
-        {
+{
           name: 'Prime Stance',
           icon: '511032',
           description: 'Increases Firenze\'s &Param2& by <color=#ec6d21>&Param1&</color>.',
           shortDescription: 'Increases Firenze\'s &Param2&.',
-          params: [
-            '16%/26%/36%/46%/56%/65%/75%/85%/95%',
-            'ATK'
-          ],
+          params: ['16%/26%/36%/46%/56%/65%/75%/85%/95%', 'ATK'],
           rarity: 2,
           stype: 41,
           corner: 2,
           hints: {}
         },
-        {
+{
           name: 'Joyous Whip',
           icon: '511027',
           description: 'When the cane deals DMG, increases Firenze\'s &Param3& by <color=#ec6d21>&Param1&</color> for &Param2&s, up to &Param4& stacks.',
           shortDescription: 'When the cane deals DMG, increases Firenze\'s &Param3&.',
-          params: [
-            '3%/4%/6%/8%/9%/11%/12%/14%/16%',
-            '10',
-            'ATK',
-            '3'
-          ],
+          params: ['3%/4%/6%/8%/9%/11%/12%/14%/16%', '10', 'ATK', '3'],
           rarity: 2,
           stype: 41,
           corner: 3,
           hints: {}
         },
-        {
+{
           name: 'Flexible Operation',
           icon: '511030',
           description: 'When a ##Shadow Clone#4002# deals damage, increases all present ##Shadow Clones#4002#\' &Param3& by <color=#ec6d21>&Param1&</color>, up to &Param4& stacks.',
           shortDescription: 'When a ##Shadow Clone#4002# deals DMG, increases all ##Shadow Clones#4002#\' &Param3& on the battlefield.',
-          params: [
-            '2.9%/4.6%/6.3%/8%/9.7%/11.4%/13.1%/14.8%/16.5%',
-            '6',
-            'Minion DMG',
-            '6'
-          ],
+          params: ['2.9%/4.6%/6.3%/8%/9.7%/11.4%/13.1%/14.8%/16.5%', '6', 'Minion DMG', '6'],
           rarity: 2,
           stype: 41,
           corner: 3,
@@ -2085,15 +1978,12 @@ export const allPotentials = {
             }
           }
         },
-        {
+{
           name: 'Special Care',
           icon: '511033',
           description: 'Increases all Umbra Trekkers\' &Param2& by <color=#ec6d21>&Param1&</color>.',
           shortDescription: 'Increases all Umbra Trekkers\' &Param2&.',
-          params: [
-            '11%/17%/23%/29%/36%/42%/48%/55%/61%',
-            'Umbra DMG'
-          ],
+          params: ['11%/17%/23%/29%/36%/42%/48%/55%/61%', 'Umbra DMG'],
           rarity: 1,
           stype: 41,
           corner: 3,
@@ -2101,16 +1991,12 @@ export const allPotentials = {
         }
       ],
       common: [
-        {
+{
           name: 'Instant Liquidation',
           icon: '511041',
           description: 'Firenze absorbs all ##Shadow Clones#4002# when casting Personal Tuition (Ultimate). Each ##Shadow Clone#4002# absorbed increases Ultimate DMG by <color=#ec6d21>&Param1&</color>, up to &Param2& stacks.',
           shortDescription: 'When Firenze casts her Ultimate, each ##Shadow Clone#4002# on the battlefield increases her Ultimate DMG.',
-          params: [
-            '35%/55%/76%/97%/117%/138%/159%/179%/200%',
-            '5',
-            'Ultimate DMG'
-          ],
+          params: ['35%/55%/76%/97%/117%/138%/159%/179%/200%', '5', 'Ultimate DMG'],
           rarity: 2,
           stype: 41,
           corner: null,
@@ -2121,32 +2007,23 @@ export const allPotentials = {
             }
           }
         },
-        {
+{
           name: 'Instant Peak',
           icon: '511042',
           description: 'When Firenze deals DMG, increases &Param1& by <color=#ec6d21>&Param2&</color> for &Param3&s.',
           shortDescription: 'When Firenze deals DMG, increases &Param1&.',
-          params: [
-            'Ultimate Crit Rate',
-            '5%/7%/8%/10%/11%/13%/15%/16%/20%',
-            '5'
-          ],
+          params: ['Ultimate Crit Rate', '5%/7%/8%/10%/11%/13%/15%/16%/20%', '5'],
           rarity: 2,
           stype: 41,
           corner: null,
           hints: {}
         },
-        {
+{
           name: 'Place Your Bets',
           icon: '511043',
           description: 'When Firenze triggers an ##Umbra Mark#1019#, increases &Param1& by <color=#ec6d21>&Param2&</color> for &Param3&s, up to &Param4& stacks. The effect ends if Personal Tuition (Ultimate) is cast.',
           shortDescription: 'When Firenze triggers an ##Umbra Mark#1019#, increases &Param1&.',
-          params: [
-            'Ultimate DMG',
-            '17%/28%/38%/49%/59%/69%/80%/90%/101%',
-            '20',
-            '10'
-          ],
+          params: ['Ultimate DMG', '17%/28%/38%/49%/59%/69%/80%/90%/101%', '20', '10'],
           rarity: 2,
           stype: 41,
           corner: null,
@@ -6780,80 +6657,52 @@ export const allPotentials = {
         build1: {
           title: 'Nanoha: Main Build 1',
           description: 'A build that increases ATK SPD and dart count, with consecutive hits triggering additional AoE DMG.',
-          potentials: [
-            'Growth Tempest',
-            'Blossom Flurry',
-            'Gale Rage',
-            'Phantom Follower',
-            'Sun Chaser'
-          ]
+          potentials: ['Growth Tempest', 'Blossom Flurry', 'Gale Rage', 'Phantom Follower', 'Sun Chaser']
         },
         build2: {
           title: 'Nanoha: Main Build 2',
           description: 'A build that enhances dart attack range and enables multi-hit DMG, ideal for fighting large targets.',
-          potentials: [
-            'Whirling Blade',
-            'Bloom Dance',
-            'Distant Prayer',
-            'Splendid Vortex',
-            'Blossom Shower'
-          ]
+          potentials: ['Whirling Blade', 'Bloom Dance', 'Distant Prayer', 'Splendid Vortex', 'Blossom Shower']
         }
       },
       support: {
         build1: {
           title: 'Nanoha: Support Build 1',
           description: 'An AoE build that triggers Ventus Marks when hitting multiple targets, reducing cooldown greatly.',
-          potentials: [
-            'Revitalizing Nourishment',
-            'Gentle Thaw',
-            'Tender Nurture',
-            'Troubleshooting',
-            'Shift Duty'
-          ]
+          potentials: ['Revitalizing Nourishment', 'Gentle Thaw', 'Tender Nurture', 'Troubleshooting', 'Shift Duty']
         },
         build2: {
           title: 'Nanoha: Support Build 2',
           description: 'A single-target build that continuously tracks and pursues targets, gradually increasing detonation DMG.',
-          potentials: [
-            'Floral Nexus',
-            'Unfulfilled Enthusiasm',
-            'VIP Focus',
-            'Regular Trim',
-            'Tender Care'
-          ]
+          potentials: ['Floral Nexus', 'Unfulfilled Enthusiasm', 'VIP Focus', 'Regular Trim', 'Tender Care']
         }
       }
     },
     potentials: {
       mainCore: [
-        {
+{
           name: 'Growth Tempest',
           icon: '511901',
           description: 'After Nanoha deals DMG with Auto Attacks <color=#0abec5>3</color> times, deals an additional <color=#0abec5>&Param1& of ATK</color> as AoE Ventus Auto Attack DMG.',
           shortDescription: 'After Nanoha deals multiple instances of Auto Attack DMG, deals additional AoE Ventus Auto Attack DMG.',
-          params: [
-            '9%/10%/12%/16%/17%/19%/21%/22%/24%/26%/28%/30%/31%'
-          ],
+          params: ['13%/15%/16%/22%/24%/26%/30%/31%/33%/36%/38%/41%/44%'],
           rarity: 1,
           stype: 42,
           corner: null,
           hints: {}
         },
-        {
+{
           name: 'Blossom Flurry',
           icon: '511902',
           description: 'Within 10s after casting Flowers Dance (Main Skill), Nanoha fires <color=#0abec5>3</color> additional shurikens with her Auto Attacks that can pierce through the target, each dealing <color=#0abec5>&Param1& of ATK</color> as Ventus Auto Attack DMG.',
           shortDescription: 'After casting the Main Skill, Nanoha fires additional shurikens with her Auto Attacks.',
-          params: [
-            '3%/4%/4%/6%/6%/7%/8%/8%/8%/9%/10%/11%/11%'
-          ],
+          params: ['4%/5%/6%/8%/9%/9%/11%/11%/12%/13%/14%/15%/16%'],
           rarity: 1,
           stype: 42,
           corner: null,
           hints: {}
         },
-        {
+{
           name: 'Whirling Blade',
           icon: '511903',
           description: 'The sunflower shuriken of Flowers Dance (Main Skill) deals DMG multiple times, hitting targets once every <color=#0abec5>0.15</color>s.',
@@ -6864,15 +6713,12 @@ export const allPotentials = {
           corner: null,
           hints: {}
         },
-        {
+{
           name: 'Bloom Dance',
           icon: '511904',
           description: 'Increases the Attack Range of Flowers Dance (Main Skill)\'s sunflower shuriken by <color=#0abec5>50%</color> and its &Param1& by <color=#0abec5>&Param2&</color>.',
           shortDescription: 'Increases sunflower shuriken\'s DMG and Attack Range.',
-          params: [
-            'Skill DMG',
-            '66.7%'
-          ],
+          params: ['Skill DMG', '66.7%'],
           rarity: 1,
           stype: 42,
           corner: null,
@@ -6880,49 +6726,34 @@ export const allPotentials = {
         }
       ],
       mainNormal: [
-        {
+{
           name: 'Gale Rage',
           icon: '511905',
           description: 'Each time Nanoha throws the sunflower shuriken during Flowers Dance (Main Skill), increases &Param5& by <color=#ec6d21>&Param1&</color>, and &Param6& by <color=#ec6d21>&Param2&</color> for &Param3&s, stacking up to &Param4& times.',
           shortDescription: 'Each time Nanoha throws the sunflower shuriken, increases &Param5& and &Param6&.',
-          params: [
-            '2.7%/3.6%/4.5%/5.4%/6.3%/7.2%/8.1%/9%/10%',
-            '6%/10%/13%/17%/20%/24%/28%/31%/35%',
-            '5',
-            '3',
-            'ATK SPD',
-            'Auto Attack DMG'
-          ],
+          params: ['2.7%/3.6%/4.5%/5.4%/6.3%/7.2%/8.1%/9%/10%', '6%/10%/13%/17%/20%/24%/28%/31%/35%', '5', '3', 'ATK SPD', 'Auto Attack DMG'],
           rarity: 1,
           stype: 41,
           corner: 1,
           hints: {}
         },
-        {
+{
           name: 'Distant Prayer',
           icon: '511908',
-          description: 'When Flowers Dance (Main Skill) is cast, the farther the sunflower shuriken is from Nanoha, the more &Param2& it deals, with a minimum increase of <color=#ec6d21>&Param1&</color>.',
-          shortDescription: 'The farther the sunflower shuriken is from Nanoha, the more &Param2& it deals.',
-          params: [
-            '16%/26%/36%/46%/56%/65%/75%/85%/95%',
-            'Skill DMG'
-          ],
+          description: 'When the sunflower shuriken cast by Flowers Dance (Main Skill) is farther from Nanoha, increases the &Param1& it deals by <color=#ec6d21>&Param2&</color>.',
+          shortDescription: 'The farther the sunflower shuriken is from Nanoha, increases the &Param1& it deals.',
+          params: ['Skill DMG', '40%/65%/90%/115%/140%/163%/188%/213%/238%'],
           rarity: 2,
           stype: 41,
           corner: 1,
           hints: {}
         },
-        {
+{
           name: 'Blooming Flowers',
           icon: '511912',
           description: 'When Nanoha triggers ##Ventus Mark#1017#, increases her &Param3& by <color=#ec6d21>&Param1&</color> for &Param2&s, stacking up to &Param4& times.',
           shortDescription: 'When Nanoha triggers ##Ventus Mark#1017#, increases her &Param3&.',
-          params: [
-            '2%/3.2%/4.4%/5.6%/6.8%/8%/9.2%/10.4%/11.6%',
-            '2',
-            'ATK',
-            '6'
-          ],
+          params: ['2%/3.2%/4.4%/5.6%/6.8%/8%/9.2%/10.4%/11.6%', '2', 'ATK', '6'],
           rarity: 2,
           stype: 41,
           corner: 1,
@@ -6934,31 +6765,23 @@ export const allPotentials = {
             }
           }
         },
-        {
+{
           name: 'Phantom Follower',
           icon: '511906',
-          description: 'Each mirror image on the battlefield increases Nanoha\'s &Param2& by <color=#ec6d21>&Param1&</color>.',
-          shortDescription: 'Each mirror image increases Nanoha\'s &Param2&.',
-          params: [
-            '12%/18%/25%/32%/39%/46%/53%/60%/67%',
-            'Auto Attack DMG'
-          ],
+          description: 'Increases Nanoha\'s &Param2& by <color=#ec6d21>&Param1&</color> for each active clone, stacking up to &Param3& times. Increases Nanoha\'s &Param4& by <color=#ec6d21>&Param5&</color> while Flowers Thrice (Ultimate) is on cooldown.',
+          shortDescription: 'Increases Nanoha\'s &Param2& for each active clone. Increases Nanoha\'s &Param4& while her Ultimate is on cooldown.',
+          params: ['12%/18%/25%/32%/39%/46%/53%/60%/67%', 'Auto Attack DMG', '2', 'Auto Attack DMG', '14%/23%/32%/40%/49%/57%/66%/75%/83%'],
           rarity: 2,
           stype: 41,
           corner: 2,
           hints: {}
         },
-        {
+{
           name: 'Splendid Vortex',
           icon: '511909',
           description: 'When Flowers Dance (Main Skill) triggers a ##Ventus Mark#1017#, increases &Param4& by <color=#ec6d21>&Param1&</color> for &Param2&s, stacking up to &Param3& times.',
           shortDescription: 'When the Main Skill triggers ##Ventus Mark#1017#, increases &Param4&.',
-          params: [
-            '33%/52%/72%/91%/111%/130%/150%/169%/189%',
-            '3',
-            '3',
-            'Skill DMG'
-          ],
+          params: ['33%/52%/72%/91%/111%/130%/150%/169%/189%', '3', '3', 'Skill DMG'],
           rarity: 2,
           stype: 41,
           corner: 2,
@@ -6970,61 +6793,45 @@ export const allPotentials = {
             }
           }
         },
-        {
+{
           name: 'Sky Piercer',
           icon: '511911',
           description: 'When casting Flowers Dance (Main Skill), increases &Param3& by <color=#ec6d21>&Param1&</color> for &Param2&s.',
           shortDescription: 'When casting the Main Skill, increases &Param3&.',
-          params: [
-            '15%/24%/33%/42%/51%/60%/69%/78%/87%',
-            '10',
-            'ATK'
-          ],
+          params: ['15%/24%/33%/42%/51%/60%/69%/78%/87%', '10', 'ATK'],
           rarity: 1,
           stype: 41,
           corner: 2,
           hints: {}
         },
-        {
+{
           name: 'Sun Chaser',
           icon: '511907',
           description: 'When Nanoha deals DMG, there is a 30% chance to increase her &Param4& by <color=#ec6d21>&Param1&</color> and &Param5& by <color=#ec6d21>&Param2&</color> for &Param3&s.',
           shortDescription: 'When Nanoha deals DMG, there is a chance to increase her &Param4& and &Param5&.',
-          params: [
-            '20%/20%/27%/27%/33%/33%/40%/40%/45%',
-            '10%/16%/21%/27%/33%/39%/45%/50%/56%',
-            '5',
-            'ATK SPD',
-            'ATK'
-          ],
+          params: ['20%/20%/27%/27%/33%/33%/40%/40%/45%', '10%/16%/21%/27%/33%/39%/45%/50%/56%', '5', 'ATK SPD', 'ATK'],
           rarity: 2,
           stype: 41,
           corner: 3,
           hints: {}
         },
-        {
+{
           name: 'Blossom Shower',
           icon: '511910',
-          description: 'When casting Flowers Dance (Main Skill), the clones fire non-returning sunflower shurikens, each dealing <color=#ec6d21>&Param1&</color> of Nanoha\'s ATK as Ventus Skill DMG.',
-          shortDescription: 'When casting the Main Skill, the clones fire sunflower shurikens.',
-          params: [
-            '316%/506%/695%/885%/1074%/1264%/1453%/1643%/1833%'
-          ],
+          description: 'When casting Flowers Dance (Main Skill), up to 2 active clones fire non-returning sunflower shurikens, each dealing <color=#ec6d21>&Param1&</color> of Nanoha\'s ATK as Ventus Skill DMG. Casting Flowers Thrice (Ultimate) increases Nanoha\'s &Param2& by <color=#ec6d21>&Param3&</color> for &Param4&s.',
+          shortDescription: 'When casting the Main Skill, the clones fire sunflower shurikens. Casting Flowers Thrice (Ultimate) increases Nanoha\'s &Param2&.',
+          params: ['316%/506%/695%/885%/1074%/1264%/1453%/1643%/1833%', 'Skill DMG', '18%/29%/40%/50%/61%/72%/83%/94%/104%', '30'],
           rarity: 1,
           stype: 41,
           corner: 3,
           hints: {}
         },
-        {
+{
           name: 'Starlit Dash',
           icon: '511913',
           description: 'Nanoha can dodge one more time.\nWhen dodging, increases her &Param3& by <color=#ec6d21>&Param1&</color> for &Param2&s.',
           shortDescription: 'Nanoha can dodge one more time. Increases her &Param3& when dodging.',
-          params: [
-            '9.3%/14.9%/20.5%/26.1%/31.7%/37.3%/42.9%/48.5%/54.1%',
-            '4',
-            'ATK'
-          ],
+          params: ['9.3%/14.9%/20.5%/26.1%/31.7%/37.3%/42.9%/48.5%/54.1%', '4', 'ATK'],
           rarity: 2,
           stype: 41,
           corner: 3,
@@ -7032,7 +6839,7 @@ export const allPotentials = {
         }
       ],
       supportCore: [
-        {
+{
           name: 'Revitalizing Nourishment',
           icon: '511921',
           description: 'When casting Flowers Bloom (Support Skill), if the first round of shurikens deals DMG to <color=#0abec5>3 or more</color> targets, Nanoha will fire <color=#0abec5>1</color> additional round of shurikens.\nThis effect can only be triggered once per cast.',
@@ -7043,16 +6850,12 @@ export const allPotentials = {
           corner: null,
           hints: {}
         },
-        {
+{
           name: 'Gentle Thaw',
           icon: '511922',
           description: 'When Flowers Bloom (Support Skill) triggers ##Ventus Mark#1017#, causes an explosion that deals <color=#0abec5>&Param1&</color> Ventus Skill DMG and reduces Skill Cooldown by <color=#0abec5>&Param2&</color>s.\nThis effect can only be triggered <color=#0abec5>&Param3&</color> times per Skill cast.',
           shortDescription: 'When the Support Skill triggers a ##Ventus Mark#1017#, causes an explosion and reduces Skill Cooldown.',
-          params: [
-            '14%/16%/18%/24%/26%/28%/32%/34%/36%/39%/42%/45%/48%',
-            '3',
-            '1'
-          ],
+          params: ['14%/16%/18%/24%/26%/28%/32%/34%/36%/39%/42%/45%/48%', '3', '1'],
           rarity: 1,
           stype: 42,
           corner: null,
@@ -7064,29 +6867,23 @@ export const allPotentials = {
             }
           }
         },
-        {
+{
           name: 'Floral Nexus',
           icon: '511923',
           description: 'Shurikens from Flowers Bloom (Support Skill) <color=#0abec5>follow</color> their targets, with Skill DMG increased by <color=#0abec5>&Param1&</color>.',
           shortDescription: 'Shurikens from the Support Skill follow their targets, dealing increased Skill DMG.',
-          params: [
-            '27.3%',
-            'Skill DMG'
-          ],
+          params: ['27.3%', 'Skill DMG'],
           rarity: 1,
           stype: 42,
           corner: null,
           hints: {}
         },
-        {
+{
           name: 'Unfulfilled Enthusiasm',
           icon: '511924',
           description: 'Shurikens from Flowers Bloom (Support Skill) inflict Marks additionally, stacking up to <color=#0abec5>12</color> times.\nWhen the exploding sunflower disappears, it detonates all Marks, dealing <color=#0abec5>&Param1& of ATK</color> as Ventus Skill DMG. Each stack increases the DMG by <color=#0abec5>&Param2&</color>.',
           shortDescription: 'The Support Skill can inflict Marks. When the exploding sunflower disappears, it detonates all Marks to deal DMG.',
-          params: [
-            '56%/64%/73%/98%/106%/114%/129%/136%/143%/156%/168%/179%/190%',
-            '15%'
-          ],
+          params: ['56%/64%/73%/98%/106%/114%/129%/136%/143%/156%/168%/179%/190%', '15%'],
           rarity: 1,
           stype: 42,
           corner: null,
@@ -7094,131 +6891,100 @@ export const allPotentials = {
         }
       ],
       supportNormal: [
-        {
+{
           name: 'Tender Nurture',
           icon: '511925',
           description: 'When casting Flowers Bloom (Support Skill), increases &Param3& dealt to targets with HP above <color=#ec6d21>&Param1&%</color> by <color=#ec6d21>&Param2&</color>.',
           shortDescription: 'Increases the Support Skill\'s &Param3& dealt to targets with higher HP.',
-          params: [
-            '',
-            '22%/35%/48%/61%/74%/87%/101%/114%/127%',
-            'Skill DMG'
-          ],
+          params: ['', '22%/35%/48%/61%/74%/87%/101%/114%/127%', 'Skill DMG'],
           rarity: 2,
           stype: 41,
           corner: 1,
           hints: {}
         },
-        {
+{
           name: 'VIP Focus',
           icon: '511928',
           description: 'Increases the &Param1& Flowers Bloom (Support Skill) dealt to elite or higher-tier targets by <color=#ec6d21>&Param2&</color>.',
           shortDescription: 'Increases the Support Skill\'s &Param1& dealt to elite or higher-tier targets.',
-          params: [
-            'Skill DMG',
-            '20%/33%/45%/57%/69%/81%/94%/106%/118%'
-          ],
+          params: ['Skill DMG', '20%/33%/45%/57%/69%/81%/94%/106%/118%'],
           rarity: 2,
           stype: 41,
           corner: 1,
           hints: {}
         },
-        {
+{
           name: 'Dance of Scattering Petals',
           icon: '511931',
           description: 'When the main Trekker casts the Main Skill, increases Nanoha\'s &Param1& by <color=#ec6d21>&Param2&</color> for &Param3&s.',
           shortDescription: 'When the main Trekker casts the Main Skill, increases Nanoha\'s &Param1&.',
-          params: [
-            'ATK',
-            '10%/16%/22%/28%/34%/40%/46%/52%/58%',
-            '6'
-          ],
+          params: ['ATK', '10%/16%/22%/28%/34%/40%/46%/52%/58%', '6'],
           rarity: 2,
           stype: 41,
           corner: 1,
           hints: {}
         },
-        {
+{
           name: 'Troubleshooting',
           icon: '511926',
           description: 'When Flowers Bloom (Support Skill) deals DMG for the first time, increases Nanoha\'s &Param1& by <color=#ec6d21>&Param2&</color> for &Param3&s, stacking up to &Param4& times.',
           shortDescription: 'When the Support Skill deals DMG for the first time, increases Nanoha\'s &Param1&.',
-          params: [
-            'Skill DMG',
-            '3.7%/5.9%/8.1%/10.3%/12.5%/14.7%/16.9%/19.1%/21.3%',
-            '5',
-            '5'
-          ],
+          params: ['Skill DMG', '3.7%/5.9%/8.1%/10.3%/12.5%/14.7%/16.9%/19.1%/21.3%', '5', '5'],
           rarity: 2,
           stype: 41,
           corner: 2,
           hints: {}
         },
-        {
+{
           name: 'Regular Trim',
           icon: '511929',
           description: 'Increases the &Param2& of Flowers Bloom (Support Skill) by an additional <color=#ec6d21>&Param1&</color>.',
           shortDescription: 'Increases the Support Skill\'s &Param2&.',
-          params: [
-            '51%/68%/85%/102%/119%/136%/153%/170%/187%',
-            'Resilience Break Efficiency'
-          ],
+          params: ['51%/68%/85%/102%/119%/136%/153%/170%/187%', 'Resilience Break Efficiency'],
           rarity: 2,
           stype: 41,
           corner: 2,
           hints: {}
         },
-        {
+{
           name: 'Tender Trap',
           icon: '511932',
           description: 'When an ally has full Energy, increases the &Param3& of Flowers Bloom (Support Skill) by <color=#ec6d21>&Param1&</color>.',
           shortDescription: 'When an ally has full Energy, increases Nanoha\'s Support Skill &Param3&.',
-          params: [
-            '22%/35%/48%/61%/74%/87%/101%/114%/127%',
-            '',
-            'Skill DMG'
-          ],
+          params: ['22%/35%/48%/61%/74%/87%/101%/114%/127%', '', 'Skill DMG'],
           rarity: 2,
           stype: 41,
           corner: 2,
           hints: {}
         },
-        {
+{
           name: 'Shift Duty',
           icon: '511927',
           description: 'When an exploding sunflower is conjured, the clones fire 12 shurikens at nearby targets, each dealing <color=#ec6d21>&Param1&</color> of Nanoha\'s ATK as Ventus Minion DMG.',
           shortDescription: 'When an exploding sunflower is conjured, the clones fire multiple small shurikens at nearby targets.',
-          params: [
-            '21%/33%/46%/59%/71%/84%/97%/109%/122%'
-          ],
+          params: ['21%/33%/46%/59%/71%/84%/97%/109%/122%'],
           rarity: 1,
           stype: 41,
           corner: 3,
           hints: {}
         },
-        {
+{
           name: 'Tender Care',
           icon: '511930',
           description: 'When an exploding sunflower disappears, the clones fire 5 shurikens forward, each dealing <color=#ec6d21>&Param1& of Nanoha\'s ATK</color> as Ventus Skill DMG.',
           shortDescription: 'When an exploding sunflower disappears, the clones fire multiple shurikens forward.',
-          params: [
-            '22%/35%/48%/62%/75%/88%/102%/115%/128%'
-          ],
+          params: ['22%/35%/48%/62%/75%/88%/102%/115%/128%'],
           rarity: 1,
           stype: 41,
           corner: 3,
           hints: {}
         },
-        {
+{
           name: 'United in Times',
           icon: '511933',
           description: 'When Flowers Bloom (Support Skill) triggers a ##Ventus Mark#1017#, increases the squad\'s &Param3& by <color=#ec6d21>&Param1&</color> for &Param2&s.',
           shortDescription: 'When the Support Skill triggers a ##Ventus Mark#1017#, increases the squad\'s &Param3&.',
-          params: [
-            '19%/30%/42%/53%/64%/75%/87%/98%/109%',
-            '5',
-            'ATK'
-          ],
+          params: ['19%/30%/42%/53%/64%/75%/87%/98%/109%', '5', 'ATK'],
           rarity: 1,
           stype: 41,
           corner: 3,
@@ -7232,44 +6998,34 @@ export const allPotentials = {
         }
       ],
       common: [
-        {
+{
           name: 'Blossom Rhyme',
           icon: '511941',
           description: 'The clones now follow the main Trekker into combat.\nIncreases the clones\' &Param2& by <color=#ec6d21>&Param1&</color>.',
           shortDescription: 'The clones now follow the main Trekker into combat, their &Param2& increased.',
-          params: [
-            '10%/16%/22%/28%/34%/39%/45%/51%/57%',
-            'ATK'
-          ],
+          params: ['10%/16%/22%/28%/34%/39%/45%/51%/57%', 'ATK'],
           rarity: 2,
           stype: 41,
           corner: null,
           hints: {}
         },
-        {
+{
           name: 'Infinite Shade',
           icon: '511942',
           description: 'Increases Nanoha\'s &Param2& by <color=#ec6d21>&Param1&</color>.\nFlowers Thrice (Ultimate) will summon one additional mirror image. Up to 3 mirror images can exist at the same time.',
           shortDescription: 'Increases Nanoha\'s &Param2&. The Ultimate will summon more mirror images.',
-          params: [
-            '34%/54%/75%/95%/116%/136%/156%/177%/197%',
-            'Ultimate DMG'
-          ],
+          params: ['34%/54%/75%/95%/116%/136%/156%/177%/197%', 'Ultimate DMG'],
           rarity: 2,
           stype: 41,
           corner: null,
           hints: {}
         },
-        {
+{
           name: 'Wind Whispers',
           icon: '511943',
           description: 'Increases Nanoha\'s &Param3& by <color=#ec6d21>&Param2&</color>. \nAlso increases the duration of mirror images by <color=#ec6d21>&Param1&</color>s.',
           shortDescription: 'Increases Nanoha\'s &Param3& and the duration of mirror images.',
-          params: [
-            '',
-            '7%/12%/16%/21%/25%/29%/34%/38%/43%',
-            'ATK'
-          ],
+          params: ['', '7%/12%/16%/21%/25%/29%/34%/38%/43%', 'ATK'],
           rarity: 2,
           stype: 41,
           corner: null,
@@ -10882,79 +10638,46 @@ export const allPotentials = {
         build1: {
           title: 'Minova: Main Build 1',
           description: 'A build that adds a 3rd attack to skills, synergizing Auto Attacks and skill combos for optimal DMG.',
-          potentials: [
-            'Ultimatum',
-            'Clan Clash Artistry',
-            'Ashwind Rhythm',
-            'Unyielding Strength',
-            'On a Roll'
-          ]
+          potentials: ['Ultimatum', 'Clan Clash Artistry', 'Ashwind Rhythm', 'Unyielding Strength', 'On a Roll']
         },
         build2: {
           title: 'Minova: Main Build 2',
           description: 'A build that enhances the two-phase attacks of skills, enabling consecutive skill casting for sustained DPS.',
-          potentials: [
-            'Board Tricks',
-            'No Respite',
-            'Radiant Glow',
-            'Light Burn',
-            'Nebulous Reverb'
-          ]
+          potentials: ['Board Tricks', 'No Respite', 'Radiant Glow', 'Light Burn', 'Nebulous Reverb']
         }
       },
       support: {
         build1: {
           title: 'Minova: Support Build 1',
           description: 'A build that scatters stars that attach to targets, dealing DMG over time.',
-          potentials: [
-            'Four-Star Wanted Level',
-            'Radiant Burst',
-            'Optimal Hit Zone',
-            'Shutout Desire',
-            'Final Score'
-          ]
+          potentials: ['Four-Star Wanted Level', 'Radiant Burst', 'Optimal Hit Zone', 'Shutout Desire', 'Final Score']
         },
         build2: {
           title: 'Minova: Support Build 2',
           description: 'A build that scatters stars that attach and weaken enemies, granting a shield to the main Trekker.',
-          potentials: [
-            'Oath Satellite',
-            'Star Core Crumbled',
-            'Perfect Arc',
-            'Three Base Hit',
-            'Fervent Applause'
-          ]
+          potentials: ['Oath Satellite', 'Star Core Crumbled', 'Perfect Arc', 'Three Base Hit', 'Fervent Applause']
         }
       }
     },
     potentials: {
       mainCore: [
-        {
+{
           name: 'Ultimatum',
           icon: '513201',
           description: 'Adds a third phase to the Main Skill: Three Base Hit. Deals <color=#0abec5>&Param2& of ATK x2</color>/<color=#0abec5>&Param3& of ATK</color> as AoE Lux Skill DMG. \nDuring this phase, Minova becomes <color=#0abec5>immune</color> to damage.',
           shortDescription: 'Adds a third phase to the Main Skill: Three Base Hit.',
-          params: [
-            'Syou: Pulsar Streak',
-            '115%/132%/149%/201%/217%/233%/265%/278%/292%/320%/343%/366%/388%',
-            '172%/198%/223%/301%/325%/349%/397%/418%/438%/479%/514%/548%/583%'
-          ],
+          params: ['Syou: Pulsar Streak', '115%/132%/149%/201%/217%/233%/265%/278%/292%/320%/343%/366%/388%', '172%/198%/223%/301%/325%/349%/397%/418%/438%/479%/514%/548%/583%'],
           rarity: 1,
           stype: 42,
           corner: null,
           hints: {}
         },
-        {
+{
           name: 'Clan Clash Artistry',
           icon: '513202',
-          description: 'When &Param1& (Main Skill) triggers a ##Lux Mark#1015#, enhances Two Base Hit\'s DMG Multiplier by <color=#0abec5>&Param2&</color> and reduces its Attack Interval by <color=#0abec5>30%</color>.',
-          shortDescription: 'When the Main Skill triggers a ##Lux Mark#1015#, enhances Two Base Hit.',
-          params: [
-            'Syou: Pulsar Streak',
-            '64.4%',
-            '115%/132%/149%/201%/217%/233%/265%/278%/292%/320%/343%/366%/388%',
-            '229%/263%/297%/400%/432%/464%/528%/555%/583%/638%/683%/729%/775%'
-          ],
+          description: 'Increases the DMG Multiplier of Three Base Hit from Ultimatum (Potential) by <color=#0abec5>&Param2&</color>.\nAfter &Param1& (Main Skill) triggers ##Lux Mark#1015#, increases the DMG Multiplier of Two Base Hit by <color=#0abec5>&Param2&</color> and reduces its Attack Interval by <color=#0abec5>30%</color>. Three Base Hit from Ultimatum also deals an additional <color=#0abec5>&Param4&</color> of ATK as AoE Lux Skill DMG.',
+          shortDescription: 'Increases the DMG Multiplier of Three Base Hit from Ultimatum (Potential).\nAfter the Main Skill triggers ##Lux Mark#1015#, enhances Three Base Hit from Ultimatum and Two Base Hit.',
+          params: ['Syou: Pulsar Streak', '64.4%', '115%/132%/149%/201%/217%/233%/265%/278%/292%/320%/343%/366%/388%', '376%/432%/488%/657%/710%/763%/868%/913%/958%/1048%/1123%/1198%/1274%'],
           rarity: 1,
           stype: 42,
           corner: null,
@@ -10966,18 +10689,12 @@ export const allPotentials = {
             }
           }
         },
-        {
+{
           name: 'Board Tricks',
           icon: '513203',
           description: 'Increases the DMG Multiplier of &Param1& (Main Skill) by <color=#0abec5>&Param2&</color>.\nWhen ##Lux Mark#1015# is triggered, increases the Skill DMG taken by the target by <color=#0abec5>&Param3&</color> for &Param4&s.',
           shortDescription: 'Increases Main Skill DMG. When triggering a mark, increases the Skill DMG taken by the target.',
-          params: [
-            'Syou: Pulsar Streak',
-            '430%',
-            '27%',
-            '8',
-            'Skill DMG Taken'
-          ],
+          params: ['Syou: Pulsar Streak', '430%', '27%', '8', 'Skill DMG Taken'],
           rarity: 1,
           stype: 42,
           corner: null,
@@ -10989,16 +10706,12 @@ export const allPotentials = {
             }
           }
         },
-        {
+{
           name: 'No Respite',
           icon: '513204',
           description: 'Two Base Hit becomes a 3-hit combo, and its Skill Damage is increased by <color=#0abec5>&Param2&</color>. When Two Base Hit is cast within 2s after &Param1&, deals an additional <color=#0abec5>&Param3&</color> of ATK as AoE Lux Skill DMG with each hit.',
           shortDescription: 'Two Base Hit becomes a 3-hit combo and its DMG is increased. Casting Two Base Hit immediately after &Param1& deals additional DMG.',
-          params: [
-            'Syou: Pulsar Streak',
-            '47%',
-            '66%/76%/86%/115%/125%/134%/152%/160%/168%/184%/197%/211%/224%'
-          ],
+          params: ['Syou: Pulsar Streak', '47%', '82%/95%/107%/144%/156%/167%/191%/200%/210%/230%/247%/263%/280%'],
           rarity: 1,
           stype: 42,
           corner: null,
@@ -11006,128 +10719,89 @@ export const allPotentials = {
         }
       ],
       mainNormal: [
-        {
+{
           name: 'Ashwind Rhythm',
           icon: '513205',
           description: 'After Minova casts the Main Skill, increases her ATK SPD by &Param2& and Auto Attack DMG by <color=#ec6d21>&Param3&</color> for &Param4&s.',
           shortDescription: 'After Minova casts the Main Skill, increases her ATK SPD and Auto Attack DMG.',
-          params: [
-            'Syou: Pulsar Streak',
-            '20%',
-            '89%/142%/195%/248%/301%/354%/407%/460%/513%',
-            '6',
-            'Auto Attack DMG'
-          ],
+          params: ['Syou: Pulsar Streak', '20%', '89%/142%/195%/248%/301%/354%/407%/460%/513%', '6', 'Auto Attack DMG'],
           rarity: 1,
           stype: 41,
           corner: 1,
           hints: {}
         },
-        {
+{
           name: 'Radiant Glow',
           icon: '513208',
           description: 'When &Param1& (Main Skill) hits a target, deals an additional <color=#ec6d21>&Param2& of ATK</color> as AoE Lux Skill DMG.',
           shortDescription: 'When the Main Skill hits a target, deals additional DMG.',
-          params: [
-            'Syou: Pulsar Streak',
-            '157%/250%/344%/438%/532%/626%/720%/814%/908%'
-          ],
+          params: ['Syou: Pulsar Streak', '196%/313%/430%/548%/665%/783%/900%/1017%/1135%'],
           rarity: 2,
           stype: 41,
           corner: 1,
           hints: {}
         },
-        {
+{
           name: 'More Than Just Pretty',
           icon: '513211',
           description: 'When the fifth strike of Minova\'s Auto Attack deals DMG, increases the Lux DMG taken by the target by <color=#ec6d21>&Param1&</color> for &Param2&s.',
           shortDescription: 'When Minova deals DMG with an Auto Attack, increases the Lux DMG taken by the target.',
-          params: [
-            '10%/16%/22%/28%/34%/40%/46%/52%/58%',
-            '6',
-            'Lux DMG Taken'
-          ],
+          params: ['10%/16%/22%/28%/34%/40%/46%/52%/58%', '6', 'Lux DMG Taken'],
           rarity: 2,
           stype: 41,
           corner: 1,
           hints: {}
         },
-        {
+{
           name: 'Unyielding Strength',
           icon: '513206',
           description: 'When Minova hits a target with an Auto Attack, increases her next Main Skill\'s Skill DMG by <color=#ec6d21>&Param2&</color>, stacking up to &Param3& times.',
           shortDescription: 'When Minova hits a target with an Auto Attack, increases her next Main Skill\'s DMG.',
-          params: [
-            'Syou: Pulsar Streak',
-            '8%/13%/18%/22%/27%/32%/37%/42%/46%',
-            '6',
-            'Skill DMG'
-          ],
+          params: ['Syou: Pulsar Streak', '8%/13%/18%/22%/27%/32%/37%/42%/46%', '6', 'Skill DMG'],
           rarity: 2,
           stype: 41,
           corner: 2,
           hints: {}
         },
-        {
+{
           name: 'Light Burn',
           icon: '513209',
           description: 'Reduces the Cooldown of &Param1& (Main Skill) by &Param4&s. When casting, increases Skill DMG by <color=#ec6d21>&Param2&</color> for &Param3&s.',
           shortDescription: 'When casting the Main Skill, increases Skill DMG and reduces its Cooldown.',
-          params: [
-            'Syou: Pulsar Streak',
-            '20%/32%/44%/57%/69%/81%/93%/105%/117%',
-            '5',
-            '4'
-          ],
+          params: ['Syou: Pulsar Streak', '20%/32%/44%/57%/69%/81%/93%/105%/117%', '5', '4'],
           rarity: 1,
           stype: 41,
           corner: 2,
           hints: {}
         },
-        {
+{
           name: 'Home Court Advantage',
           icon: '513212',
           description: 'After casting &Param5&, (Main Skill) increases Minova\'s &Param4& by <color=#ec6d21>&Param1&</color> for &Param2&s. This effect can only be triggered once every &Param3&s.',
           shortDescription: 'After casting the Main Skill, increases Minova\'s &Param4&.',
-          params: [
-            '25%/40%/55%/70%/85%/100%/115%/130%/145%',
-            '6',
-            '8',
-            'ATK',
-            'Syou: Pulsar Streak'
-          ],
+          params: ['25%/40%/55%/70%/85%/100%/115%/130%/145%', '6', '8', 'ATK', 'Syou: Pulsar Streak'],
           rarity: 2,
           stype: 41,
           corner: 2,
           hints: {}
         },
-        {
+{
           name: 'On a Roll',
           icon: '513207',
           description: 'While Minova\'s Main Skill is active, each strike increases its Skill DMG by <color=#ec6d21>&Param2&</color>, stacking up to &Param3& times.',
           shortDescription: 'While Minova\'s Main Skill is active, each strike increases its Skill DMG.',
-          params: [
-            'Syou: Pulsar Streak',
-            '4.8%/7.7%/10.6%/13.5%/16.4%/19.3%/22.2%/25.1%/28%',
-            '6',
-            'Skill DMG'
-          ],
+          params: ['Syou: Pulsar Streak', '4.8%/7.7%/10.6%/13.5%/16.4%/19.3%/22.2%/25.1%/28%', '6', 'Skill DMG'],
           rarity: 2,
           stype: 41,
           corner: 3,
           hints: {}
         },
-        {
+{
           name: 'Nebulous Reverb',
           icon: '513210',
           description: '&Param1& (Ultimate) can trigger ##Lux Mark#1015# and summons a Thunderbolt, dealing &Param2& of ATK as Lux Mark DMG. After casting the Ultimate, increases Skill DMG by <color=#ec6d21>&Param3&</color> for &Param4&s.',
           shortDescription: 'The Ultimate can trigger ##Lux Mark#1015# and summon a Thunderbolt. After casting the Ultimate, increases Skill DMG.',
-          params: [
-            'Ketsu: Entropic Convergence',
-            '89%/115%/142%/168%/195%/221%/248%/275%/301%',
-            '91%/146%/200%/255%/309%/364%/419%/473%/528%',
-            '5'
-          ],
+          params: ['Ketsu: Entropic Convergence', '89%/115%/142%/168%/195%/221%/248%/275%/301%', '91%/146%/200%/255%/309%/364%/419%/473%/528%', '5'],
           rarity: 2,
           stype: 41,
           corner: 3,
@@ -11139,17 +10813,12 @@ export const allPotentials = {
             }
           }
         },
-        {
+{
           name: 'Starlit Sky',
           icon: '513213',
           description: 'When casting any Support Skill, increases Minova\'s &Param4& by <color=#ec6d21>&Param1&</color> for &Param2&s, stacking up to &Param3& times.',
           shortDescription: 'When casting any Support Skill, increases Minova\'s &Param4&.',
-          params: [
-            '12%/19%/26%/34%/41%/48%/55%/62%/70%',
-            '10',
-            '2',
-            'ATK'
-          ],
+          params: ['12%/19%/26%/34%/41%/48%/55%/62%/70%', '10', '2', 'ATK'],
           rarity: 1,
           stype: 41,
           corner: 3,
@@ -11157,60 +10826,45 @@ export const allPotentials = {
         }
       ],
       supportCore: [
-        {
+{
           name: 'Four-Star Wanted Level',
           icon: '513221',
           description: 'Increases the Skill DMG of &Param1& (Support Skill) by <color=#0abec5>&Param2&</color>.\nAstral Hex\'s stacks will increase to <color=#0abec5>4</color>.',
           shortDescription: 'Increases Skill DMG and the stacks of Astral Hex.',
-          params: [
-            'Gi: Supernova Burst',
-            '15%',
-            'Skill DMG'
-          ],
+          params: ['Gi: Supernova Burst', '15%', 'Skill DMG'],
           rarity: 1,
           stype: 42,
           corner: null,
           hints: {}
         },
-        {
+{
           name: 'Radiant Burst',
           icon: '513222',
           description: 'Increases the Attack Range of Astral Hex by <color=#0abec5>50%</color> and its Skill DMG by <color=#0abec5>&Param2&</color>.',
           shortDescription: 'Increases the DMG and Attack Range of Astral Hex.',
-          params: [
-            'Gi: Supernova Burst',
-            '44%',
-            'Skill DMG'
-          ],
+          params: ['Gi: Supernova Burst', '44%', 'Skill DMG'],
           rarity: 1,
           stype: 42,
           corner: null,
           hints: {}
         },
-        {
+{
           name: 'Oath Satellite',
           icon: '513223',
           description: 'When casting &Param1& (Support Skill), the main Trekker gains a shield equal to <color=#0abec5>&Param2&</color> of Minova\'s Max HP, lasting for &Param3&s.',
           shortDescription: 'When casting the Support Skill, the main Trekker gains a shield.',
-          params: [
-            'Gi: Supernova Burst',
-            '15%',
-            '6'
-          ],
+          params: ['Gi: Supernova Burst', '15%', '6'],
           rarity: 1,
           stype: 42,
           corner: null,
           hints: {}
         },
-        {
+{
           name: 'Star Core Crumbled',
           icon: '513224',
           description: 'When Astral Hex deals DMG, summons a <color=#0abec5>Meteor</color>. When the main Trekker picks it up, gains a stack of Astral Hex, and their ATK is increased by <color=#0abec5>&Param1&</color> for &Param2&s.',
           shortDescription: 'When Astral Hex deals DMG, summons a Meteor. When the main Trekker picks it up, gains a stack of Astral Hex and their ATK is increased.',
-          params: [
-            '18%',
-            '8'
-          ],
+          params: ['18%', '8'],
           rarity: 1,
           stype: 42,
           corner: null,
@@ -11218,46 +10872,34 @@ export const allPotentials = {
         }
       ],
       supportNormal: [
-        {
+{
           name: 'Optimal Hit Zone',
           icon: '513225',
           description: 'Increases Minova\'s Skill DMG dealt to targets inflicted with Astral Hex. Each Astral Hex increases the Skill DMG by <color=#ec6d21>&Param1&</color>.',
           shortDescription: 'Increases Minova\'s Skill DMG dealt to targets inflicted with Astral Hex.',
-          params: [
-            '6%/10%/14%/17%/21%/25%/28%/32%/36%',
-            'Skill DMG'
-          ],
+          params: ['6%/10%/14%/17%/21%/25%/28%/32%/36%', 'Skill DMG'],
           rarity: 2,
           stype: 41,
           corner: 1,
           hints: {}
         },
-        {
+{
           name: 'Perfect Arc',
           icon: '513228',
           description: 'When casting &Param1& (Support Skill), deals an additional <color=#ec6d21>&Param2& of ATK x4</color> as Lux Skill DMG and inflicts Astral Hex.',
           shortDescription: 'When casting the Support Skill, deals additional DMG and inflicts Astral Hex.',
-          params: [
-            'Gi: Supernova Burst',
-            '125%/200%/276%/351%/426%/501%/576%/651%/727%'
-          ],
+          params: ['Gi: Supernova Burst', '125%/200%/276%/351%/426%/501%/576%/651%/727%'],
           rarity: 1,
           stype: 41,
           corner: 1,
           hints: {}
         },
-        {
+{
           name: 'Ashwind\'s Wrath',
           icon: '513231',
           description: '&Param1& (Ultimate) can inflict ##Lux Mark: Radiance#2016#. \nAfter casting &Param2& (Support Skill), increases the DMG of the next Ultimate by <color=#ec6d21>&Param3&</color>, up to &Param4& stacks.',
           shortDescription: 'The Ultimate can inflict ##Lux Mark: Radiance#2016#. \nAfter casting the Support Skill, increases the DMG of the next Ultimate.',
-          params: [
-            'Ketsu: Entropic Convergence',
-            'Gi: Supernova Burst',
-            '9%/15%/20%/26%/31%/37%/42%/48%/53%',
-            '3',
-            'Ultimate DMG'
-          ],
+          params: ['Ketsu: Entropic Convergence', 'Gi: Supernova Burst', '9%/15%/20%/26%/31%/37%/42%/48%/53%', '3', 'Ultimate DMG'],
           rarity: 2,
           stype: 41,
           corner: 1,
@@ -11269,91 +10911,67 @@ export const allPotentials = {
             }
           }
         },
-        {
+{
           name: 'Shutout Desire',
           icon: '513226',
           description: 'When the main Trekker deals damage to a target inflicted with Astral Hex, deals an additional <color=#ec6d21>&Param1& of Minova\'s ATK</color> as Lux Skill DMG. This effect can only be triggered once per second.',
           shortDescription: 'When the main Trekker deals DMG to a target inflicted with Astral Hex, deals additional DMG.',
-          params: [
-            ''
-          ],
+          params: [''],
           rarity: 1,
           stype: 41,
           corner: 2,
           hints: {}
         },
-        {
+{
           name: 'Three Base Hit',
           icon: '513229',
           description: 'When &Param1& (Support Skill) hits 3 or more targets, reduces the Skill Cooldown by &Param2&s and increases the squad\'s &Param5& by <color=#ec6d21>&Param3&</color> for &Param4&s.',
           shortDescription: 'When the Support Skill hits 3 or more targets, reduces the Skill Cooldown and increases the squad\'s &Param5&.',
-          params: [
-            'Gi: Supernova Burst',
-            '3',
-            '21%/34%/47%/59%/72%/85%/97%/110%/123%',
-            '8',
-            'ATK'
-          ],
+          params: ['Gi: Supernova Burst', '3', '21%/34%/47%/59%/72%/85%/97%/110%/123%', '8', 'ATK'],
           rarity: 2,
           stype: 41,
           corner: 2,
           hints: {}
         },
-        {
+{
           name: 'Home Run State',
           icon: '513232',
           description: 'Increases Minova\'s &Param2& by <color=#ec6d21>&Param1&</color>.',
           shortDescription: 'Increases Minova\'s &Param2&.',
-          params: [
-            '10%/16%/22%/28%/34%/40%/46%/52%/58%',
-            'ATK'
-          ],
+          params: ['10%/16%/22%/28%/34%/40%/46%/52%/58%', 'ATK'],
           rarity: 2,
           stype: 41,
           corner: 2,
           hints: {}
         },
-        {
+{
           name: 'Final Score',
           icon: '513227',
           description: 'Each target inflicted with Astral Hex increases the Skill DMG of exploding Astral Hex by <color=#ec6d21>&Param1&</color>, up to &Param2& stacks.',
           shortDescription: 'Each target inflicted with Astral Hex increases the DMG of Astral Hex.',
-          params: [
-            '12%/18%/25%/32%/39%/46%/53%/60%/67%',
-            '4',
-            'Skill DMG'
-          ],
+          params: ['12%/18%/25%/32%/39%/46%/53%/60%/67%', '4', 'Skill DMG'],
           rarity: 2,
           stype: 41,
           corner: 3,
           hints: {}
         },
-        {
+{
           name: 'Fervent Applause',
           icon: '513230',
           description: 'When Astral Hex deals DMG, increases the &Param4& of the main Trekker within its Attack Range by <color=#ec6d21>&Param1&</color> for &Param2&s, up to &Param3& stacks.',
           shortDescription: 'When Astral Hex deals DMG, increases the &Param4& of the main Trekker within its Attack Range.',
-          params: [
-            '6%/10%/14%/17%/21%/25%/28%/32%/36%',
-            '8',
-            '8',
-            'ATK'
-          ],
+          params: ['6%/10%/14%/17%/21%/25%/28%/32%/36%', '8', '8', 'ATK'],
           rarity: 2,
           stype: 41,
           corner: 3,
           hints: {}
         },
-        {
+{
           name: 'Radiant Synergy',
           icon: '513233',
           description: 'For each Lux Trekker on the squad, increases the squad\'s ATK by <color=#ec6d21>&Param1&</color>, up to &Param2& stacks.',
           shortDescription: 'Each Lux ally increases the squad\'s ATK.',
-          params: [
-            '5%/8%/11%/14%/17%/20%/23%/26%/29%',
-            '3',
-            'ATK'
-          ],
+          params: ['5%/8%/11%/14%/17%/20%/23%/26%/29%', '3', 'ATK'],
           rarity: 1,
           stype: 41,
           corner: 3,
@@ -11361,46 +10979,34 @@ export const allPotentials = {
         }
       ],
       common: [
-        {
+{
           name: 'Urgent Reinforcement',
           icon: '513241',
           description: 'Casting &Param1& (Ultimate) requires 25% more Energy and its Ultimate DMG is increased by <color=#ec6d21>&Param2&</color>.',
           shortDescription: 'Increases Ultimate DMG and costs more Energy.',
-          params: [
-            'Ketsu: Entropic Convergence',
-            '32%/51%/70%/89%/108%/127%/146%/165%/184%',
-            'Ultimate DMG'
-          ],
+          params: ['Ketsu: Entropic Convergence', '32%/51%/70%/89%/108%/127%/146%/165%/184%', 'Ultimate DMG'],
           rarity: 2,
           stype: 41,
           corner: null,
           hints: {}
         },
-        {
+{
           name: 'Flash of Starlight',
           icon: '513242',
           description: 'Reduces the Attack Interval of &Param1& (Ultimate) by 30% and increases its Ultimate DMG by <color=#ec6d21>&Param2&</color>.',
           shortDescription: 'Reduces the Ultimate\'s Attack Interval and increases its DMG.',
-          params: [
-            'Ketsu: Entropic Convergence',
-            '21%/33%/46%/58%/71%/83%/96%/108%/121%',
-            'Ultimate DMG'
-          ],
+          params: ['Ketsu: Entropic Convergence', '21%/33%/46%/58%/71%/83%/96%/108%/121%', 'Ultimate DMG'],
           rarity: 2,
           stype: 41,
           corner: null,
           hints: {}
         },
-        {
+{
           name: 'Weakness Strike',
           icon: '513243',
           description: 'While &Param1& is active, Vollara and Neuvira will help Minova attack the enemies, dealing <color=#ec6d21>&Param2& of ATK x2</color>/<color=#ec6d21>&Param3& of ATK</color> as AoE Lux Ultimate DMG.',
           shortDescription: 'While the Ultimate is active, Vollara and Neuvira will help Minova attack the enemies.',
-          params: [
-            'Ketsu: Entropic Convergence',
-            '153%/244%/336%/427%/519%/610%/702%/793%/885%',
-            '305%/488%/671%/855%/1038%/1221%/1404%/1587%/1770%'
-          ],
+          params: ['Ketsu: Entropic Convergence', '153%/244%/336%/427%/519%/610%/702%/793%/885%', '305%/488%/671%/855%/1038%/1221%/1404%/1587%/1770%'],
           rarity: 2,
           stype: 41,
           corner: null,
@@ -14314,75 +13920,46 @@ export const allPotentials = {
         build1: {
           title: 'Chixia: Main Build 1',
           description: 'A build that extends the duration of flames and enhances Auto Attacks when there is enough heat.',
-          potentials: [
-            'Sleepless Flame',
-            'Shooting Star',
-            'Blistering Flame Corrosion',
-            'Ashes of the Firepit',
-            'Flame Resonance'
-          ]
+          potentials: ['Sleepless Flame', 'Shooting Star', 'Blistering Flame Corrosion', 'Ashes of the Firepit', 'Flame Resonance']
         },
         build2: {
           title: 'Chixia: Main Build 2',
           description: 'A DPS build that boosts the burst DMG of flames.',
-          potentials: [
-            'Flame-Stained Ink',
-            'Blazing Rainbow Array',
-            'Scorching Ink',
-            'Flame-Ink Matrix',
-            'Infernal Ember'
-          ]
+          potentials: ['Flame-Stained Ink', 'Blazing Rainbow Array', 'Scorching Ink', 'Flame-Ink Matrix', 'Infernal Ember']
         }
       },
       support: {
         build1: {
           title: 'Chixia: Support Build 1',
           description: 'A build that allows skills to summon multiple Crimson Dragons for ranged attacks.',
-          potentials: [
-            'Crimson Dragon: Convergence',
-            'Crimson Dragon: Chant',
-            'Ink Sigil: Horn Call',
-            'Ink Sigil: Trail Seeker',
-            'Ink Sigil: Barrier Construct'
-          ]
+          potentials: ['Crimson Dragon: Convergence', 'Crimson Dragon: Chant', 'Ink Sigil: Horn Call', 'Ink Sigil: Trail Seeker', 'Ink Sigil: Barrier Construct']
         },
         build2: {
           title: 'Chixia: Support Build 2',
           description: 'A build that allows skills to summon a Tiger of the East for melee attacks.',
-          potentials: [
-            'Sigil Unleashed: Tiger of the East',
-            'Tiger of the East: Blazing Scales',
-            'Ink Sigil: Blood Fed',
-            'Ink Sigil: Ambush',
-            'Ink Sigil: Raid'
-          ]
+          potentials: ['Sigil Unleashed: Tiger of the East', 'Tiger of the East: Blazing Scales', 'Ink Sigil: Blood Fed', 'Ink Sigil: Ambush', 'Ink Sigil: Raid']
         }
       }
     },
     potentials: {
       mainCore: [
-        {
+{
           name: 'Sleepless Flame',
           icon: '514101',
           description: 'Increases the duration of Purifying Flames (Main Skill) by <color=#0abec5>3</color>s and Skill DMG by <color=#0abec5>&Param1&</color>.',
           shortDescription: 'Increases the Main Skill\'s duration and DMG.',
-          params: [
-            '45%'
-          ],
+          params: ['45%'],
           rarity: 1,
           stype: 42,
           corner: null,
           hints: {}
         },
-        {
+{
           name: 'Shooting Star',
           icon: '514102',
           description: 'When casting Purifying Flames (Main Skill), generates 1 stack of heat every second. Once full, enhances Chixia\'s Auto Attacks, dealing <color=#0abec5>&Param1& x8</color> and <color=#0abec5>&Param2& x2</color> of ATK as AoE Ignis Auto Attack DMG. Each enhanced Auto Attack consumes 1 stack of heat. When an enhanced Auto Attack deals DMG to targets with Ink, inflicts ##Ignite#2027#.',
           shortDescription: 'When Chixia unleashes flames with the Main Skill, builds up heat. Once full, enhances her Auto Attacks.',
-          params: [
-            '10%/11%/13%/17%/19%/20%/23%/24%/25%/28%/30%/32%/34%',
-            '33%/38%/43%/58%/63%/68%/77%/81%/85%/93%/100%/107%/113%'
-          ],
+          params: ['10%/11%/13%/17%/19%/20%/23%/24%/25%/28%/30%/32%/34%', '33%/38%/43%/58%/63%/68%/77%/81%/85%/93%/100%/107%/113%'],
           rarity: 1,
           stype: 42,
           corner: null,
@@ -14393,14 +13970,12 @@ export const allPotentials = {
             }
           }
         },
-        {
+{
           name: 'Flame-Stained Ink',
           icon: '514103',
           description: 'Ink can stack up to <color=#0abec5>4</color> times on targets. When a target with 4 stacks of Ink triggers ##Burn#2027#, deals <color=#0abec5>&Param1& of ATK</color> as AoE Ignis Skill DMG.',
           shortDescription: 'Ink can stack on targets. Once fully stacked, triggers ##Burn#2027#, dealing additional DMG.',
-          params: [
-            '125%/144%/163%/219%/237%/254%/289%/304%/319%/349%/374%/399%/424%'
-          ],
+          params: ['125%/144%/163%/219%/237%/254%/289%/304%/319%/349%/374%/399%/424%'],
           rarity: 1,
           stype: 42,
           corner: null,
@@ -14411,14 +13986,12 @@ export const allPotentials = {
             }
           }
         },
-        {
+{
           name: 'Blazing Rainbow Array',
           icon: '514104',
           description: 'Increases the Attack Range of Purifying Flames (Main Skill). \nIncreases Skill DMG by <color=#0abec5>&Param1&</color>. This effect gradually diminishes over 3s.',
           shortDescription: 'Increases the DMG and Attack Range of the Main Skill.',
-          params: [
-            '272%'
-          ],
+          params: ['272%'],
           rarity: 1,
           stype: 42,
           corner: null,
@@ -14426,14 +13999,12 @@ export const allPotentials = {
         }
       ],
       mainNormal: [
-        {
+{
           name: 'Blistering Flame Corrosion',
           icon: '514105',
           description: 'Reduces the ATK of targets inflicted with ##Burn#2027# by <color=#ec6d21>&Param1&</color>.',
           shortDescription: 'Reduces the ATK of targets inflicted with ##Burn#2027#.',
-          params: [
-            '-7%/-9%/-12%/-14%/-16%/-18%/-21%/-23%/-25%'
-          ],
+          params: ['-7%/-9%/-12%/-14%/-16%/-18%/-21%/-23%/-25%'],
           rarity: 2,
           stype: 41,
           corner: 1,
@@ -14444,30 +14015,23 @@ export const allPotentials = {
             }
           }
         },
-        {
+{
           name: 'Scorching Ink',
           icon: '514108',
           description: 'For each stack of Ink on the target, increases the Ignis DMG taken by the target by <color=#ec6d21>&Param1&</color>.',
           shortDescription: 'Ink can increase the Ignis DMG taken by the target.',
-          params: [
-            '4%/7%/9%/12%/14%/17%/19%/22%/24%'
-          ],
+          params: ['4%/7%/9%/12%/14%/17%/19%/22%/24%'],
           rarity: 2,
           stype: 41,
           corner: 1,
           hints: {}
         },
-        {
+{
           name: 'Inkburn Stroke',
           icon: '514111',
           description: 'Dragon\'s Ascension (Ultimate) can trigger ##Ignis Mark#1016# and inflict Incineration, dealing &Param1& of ATK as AoE Ignis Mark DMG. Each time the mark is triggered, increases Chixia\'s ATK by <color=#ec6d21>&Param2&</color> for &Param3&s, up to &Param4& stacks.',
           shortDescription: 'The Ultimate can trigger ##Ignis Mark#1016# and inflict Incineration. Each time the mark is triggered, increases Chixia\'s ATK.',
-          params: [
-            '28%/36%/45%/53%/61%/70%/78%/86%/95%',
-            '8%/13%/18%/23%/28%/33%/38%/43%/47%',
-            '10',
-            '5'
-          ],
+          params: ['28%/36%/45%/53%/61%/70%/78%/86%/95%', '8%/13%/18%/23%/28%/33%/38%/43%/47%', '10', '5'],
           rarity: 2,
           stype: 41,
           corner: 1,
@@ -14479,14 +14043,12 @@ export const allPotentials = {
             }
           }
         },
-        {
+{
           name: 'Ashes of the Firepit',
           icon: '514106',
           description: 'When a target inflicted with ##Burn#2027# is killed, leaves behind lingering flames, dealing <color=#ec6d21>&Param1& of ATK</color> as AoE Ignis Skill DMG per second for a total of 8s.',
           shortDescription: 'When a target inflicted with ##Burn#2027# is killed, leaves behind lingering flames that deal DOT.',
-          params: [
-            '31%/50%/68%/87%/106%/124%/143%/162%/180%'
-          ],
+          params: ['31%/50%/68%/87%/106%/124%/143%/162%/180%'],
           rarity: 1,
           stype: 41,
           corner: 2,
@@ -14497,15 +14059,12 @@ export const allPotentials = {
             }
           }
         },
-        {
+{
           name: 'Flame-Ink Matrix',
           icon: '514109',
           description: 'When casting Purifying Flames (Main Skill), deals an additional <color=#ec6d21>&Param1& of ATK</color> as AoE Ignis Skill DMG and inflicts Ink.\nWhen the Main Skill inflicts ##Burn#2027# on targets inflicted with Ink, increases the Ignis DMG they take by <color=#ec6d21>&Param2&</color>.',
           shortDescription: 'The Main Skill deals additional damage. When the Main Skill inflicts ##Burn#2027# on targets, increases the Ignis DMG they take.',
-          params: [
-            '91%/146%/200%/255%/310%/365%/419%/474%/529%',
-            '7%/11%/15%/19%/23%/27%/32%/36%/40%'
-          ],
+          params: ['91%/146%/200%/255%/310%/365%/419%/474%/529%', '7%/11%/15%/19%/23%/27%/32%/36%/40%'],
           rarity: 1,
           stype: 41,
           corner: 2,
@@ -14516,16 +14075,12 @@ export const allPotentials = {
             }
           }
         },
-        {
+{
           name: 'Finishing Touch',
           icon: '514112',
           description: 'When Chixia triggers ##Ignis Mark#1016#, increases the Ignis DMG taken by the target by <color=#ec6d21>&Param1&</color> for &Param2&s, stacking up to &Param3& times.',
           shortDescription: 'When Chixia triggers ##Ignis Mark#1016#, increases the Ignis DMG taken by the target.',
-          params: [
-            '4%/6%/8%/10%/13%/15%/17%/19%/21%',
-            '10',
-            '3'
-          ],
+          params: ['4%/6%/8%/10%/13%/15%/17%/19%/21%', '10', '3'],
           rarity: 2,
           stype: 41,
           corner: 2,
@@ -14537,42 +14092,34 @@ export const allPotentials = {
             }
           }
         },
-        {
+{
           name: 'Flame Resonance',
           icon: '514107',
           description: 'While Purifying Flames (Main Skill) is active, increases the squad\'s ATK by <color=#ec6d21>&Param1&</color>.',
           shortDescription: 'While the Main Skill is active, increases the squad\'s ATK.',
-          params: [
-            '23%/37%/51%/65%/79%/93%/107%/121%/135%'
-          ],
+          params: ['23%/37%/51%/65%/79%/93%/107%/121%/135%'],
           rarity: 2,
           stype: 41,
           corner: 3,
           hints: {}
         },
-        {
+{
           name: 'Infernal Ember',
           icon: '514110',
-          description: 'When Chixia casts Purifying Flames (Main Skill), she gains a shield equal to <color=#ec6d21>&Param1&</color> of her Max HP.',
-          shortDescription: 'When Chixia casts the Main Skill, she gains a shield.',
-          params: [
-            '7%/10%/12%/14%/17%/19%/22%/24%/26%'
-          ],
+          description: 'Casting Purifying Flames (Main Skill) grants a Shield equal to <color=#ec6d21>&Param1&</color> of Max HP and Super Armor while the Shield lasts.',
+          shortDescription: 'Casting the Main Skill grants a Shield and Super Armor while the Shield lasts.',
+          params: ['7%/10%/12%/14%/17%/19%/22%/24%/26%'],
           rarity: 2,
           stype: 41,
           corner: 3,
           hints: {}
         },
-        {
+{
           name: 'Ink Brilliance',
           icon: '514113',
           description: 'Can dodge one more time. \nWhen casting Purifying Flames (Main Skill), increases &Param3& by <color=#ec6d21>&Param1&</color> for 3s.\nWhile the Main Skill is active, each Crit Hit increases the skill\'s duration by 1s, up to a total of 3s.',
           shortDescription: 'Chixia can dodge one more time.\nWhen casting the Main Skill, increases &Param3&.',
-          params: [
-            '29%/46%/63%/81%/98%/115%/133%/150%/167%',
-            '7',
-            'ATK'
-          ],
+          params: ['29%/46%/63%/81%/98%/115%/133%/150%/167%', '7', 'ATK'],
           rarity: 1,
           stype: 41,
           corner: 3,
@@ -14580,14 +14127,12 @@ export const allPotentials = {
         }
       ],
       supportCore: [
-        {
+{
           name: 'Crimson Dragon: Convergence',
           icon: '514121',
           description: 'Increases ##Crimson Dragon#4018#\'s Minion DMG by <color=#0abec5>&Param1&</color>. \nChixia can summon <color=#0abec5>1</color> additional ##Crimson Dragon#4018#.',
           shortDescription: 'Increases ##Crimson Dragon#4018#\'s Minion DMG. Chixia can summon more Crimson Dragons.',
-          params: [
-            '43%'
-          ],
+          params: ['43%'],
           rarity: 1,
           stype: 42,
           corner: null,
@@ -14599,31 +14144,23 @@ export const allPotentials = {
             }
           }
         },
-        {
+{
           name: 'Crimson Dragon: Chant',
           icon: '514122',
           description: 'When Chixia has more than <color=#0abec5>1</color> minion, increases all of her minions\' ATK by <color=#0abec5>&Param1&</color> and their ATK SPD by <color=#0abec5>&Param2&</color>.',
           shortDescription: 'When Chixia has more than 1 minion, increases her ATK and ATK SPD.',
-          params: [
-            '35%',
-            '35%'
-          ],
+          params: ['35%', '35%'],
           rarity: 1,
           stype: 42,
           corner: null,
           hints: {}
         },
-        {
+{
           name: 'Sigil Unleashed: Tiger of the East',
           icon: '514123',
           description: '##Crimson Dragon#4018# enhances into ##Tiger of the East#4019#. Increases ##Tiger of the East#4019#\'s Minion DMG by <color=#0abec5>&Param1&</color> every 2s.\n##Tiger of the East#4019# deals <color=#0abec5>&Param2&</color>, <color=#0abec5>&Param3&</color>, and <color=#0abec5>&Param4& x2</color> of ATK as AoE Ignis Minion DMG and inflicts ##Ignis Mark: Sacred Flame#2013#.',
           shortDescription: '##Crimson Dragon#4018# enhances into ##Tiger of the East#4019#.\n##Tiger of the East#4019#\'s DMG inflicts ##Ignis Mark: Sacred Flame#2013#.',
-          params: [
-            '50%',
-            '114%/132%/149%/200%/216%/232%/264%/278%/292%/319%/342%/365%/388%',
-            '153%/175%/198%/267%/288%/310%/352%/371%/389%/426%/456%/487%/517%',
-            '102%/117%/132%/178%/192%/206%/235%/247%/259%/284%/304%/324%/345%'
-          ],
+          params: ['50%', '114%/132%/149%/200%/216%/232%/264%/278%/292%/319%/342%/365%/388%', '153%/175%/198%/267%/288%/310%/352%/371%/389%/426%/456%/487%/517%', '102%/117%/132%/178%/192%/206%/235%/247%/259%/284%/304%/324%/345%'],
           rarity: 1,
           stype: 42,
           corner: null,
@@ -14645,15 +14182,12 @@ export const allPotentials = {
             }
           }
         },
-        {
+{
           name: 'Tiger of the East: Blazing Scales',
           icon: '514124',
           description: 'The first minion summoned by &Param2& (Support Skill) is inflicted with Blazing Barrier, dealing <color=#0abec5>&Param1& of ATK</color> as AoE Ignis Minion DMG to nearby targets every <color=#0abec5>0.5</color>s.',
           shortDescription: 'The first summon of the Support Skill creates a Blazing Sphere, dealing DMG to nearby targets continuously.',
-          params: [
-            '37%/43%/49%/65%/71%/76%/87%/91%/96%/105%/112%/120%/127%',
-            'Awakening: Crimson Dragon'
-          ],
+          params: ['37%/43%/49%/65%/71%/76%/87%/91%/96%/105%/112%/120%/127%', 'Awakening: Crimson Dragon'],
           rarity: 1,
           stype: 42,
           corner: null,
@@ -14661,56 +14195,45 @@ export const allPotentials = {
         }
       ],
       supportNormal: [
-        {
+{
           name: 'Ink Sigil: Horn Call',
           icon: '514125',
           description: 'Each of Chixia\'s minions increases all friendly units\' ATK by <color=#ec6d21>&Param1&</color>.',
           shortDescription: 'Chixia\'s minions will increase all friendly units\' ATK.',
-          params: [
-            '7%/11%/15%/19%/23%/27%/31%/35%/39%'
-          ],
+          params: ['7%/11%/15%/19%/23%/27%/31%/35%/39%'],
           rarity: 2,
           stype: 41,
           corner: 1,
           hints: {}
         },
-        {
+{
           name: 'Ink Sigil: Blood Fed',
           icon: '514128',
           description: 'Increases the Minion DMG of Chixia\'s minions by <color=#ec6d21>&Param1&</color> per second, up to &Param2& times.',
           shortDescription: 'Continuously increases the DMG dealt by Chixia\'s minions.',
-          params: [
-            '6.1%/9.8%/13.5%/17.2%/20.9%/24.6%/28.3%/32%/35.7%',
-            '15'
-          ],
+          params: ['6.1%/9.8%/13.5%/17.2%/20.9%/24.6%/28.3%/32%/35.7%', '15'],
           rarity: 2,
           stype: 41,
           corner: 1,
           hints: {}
         },
-        {
+{
           name: 'Majestic Stride',
           icon: '514131',
           description: 'Increases Chixia\'s &Param2& by <color=#ec6d21>&Param1&</color>.',
           shortDescription: 'Increases Chixia\'s &Param2&.',
-          params: [
-            '16%/26%/36%/45%/55%/65%/74%/84%/94%',
-            'Minion DMG'
-          ],
+          params: ['16%/26%/36%/45%/55%/65%/74%/84%/94%', 'Minion DMG'],
           rarity: 2,
           stype: 41,
           corner: 1,
           hints: {}
         },
-        {
+{
           name: 'Ink Sigil: Trail Seeker',
           icon: '514126',
           description: 'When a squadmate casts the Main Skill, ##Crimson Dragon#4018# deals an additional <color=#ec6d21>&Param1&x2</color> of ATK as Ignis Minion DMG to the target, while ##Tiger of the East#4019# deals an additional <color=#ec6d21>&Param2& x5</color> of ATK as AoE Ignis Minion DMG to the target.',
           shortDescription: 'When a squadmate casts a Main Skill, Chixia\'s minions deal additional DMG.',
-          params: [
-            '119%/191%/262%/334%/405%/477%/548%/620%/691%',
-            '71%/114%/156%/199%/241%/284%/327%/369%/412%'
-          ],
+          params: ['119%/191%/262%/334%/405%/477%/548%/620%/691%', '71%/114%/156%/199%/241%/284%/327%/369%/412%'],
           rarity: 1,
           stype: 41,
           corner: 2,
@@ -14727,31 +14250,23 @@ export const allPotentials = {
             }
           }
         },
-        {
+{
           name: 'Ink Sigil: Ambush',
           icon: '514129',
           description: 'When Chixia\'s minions deal DMG, increases all friendly units\' ATK near the target by <color=#ec6d21>&Param1&</color> for &Param2&s.',
           shortDescription: 'When Chixia\'s minions deal DMG, increases all friendly units\' ATK.',
-          params: [
-            '15%/24%/33%/42%/51%/60%/69%/78%/87%',
-            '4'
-          ],
+          params: ['15%/24%/33%/42%/51%/60%/69%/78%/87%', '4'],
           rarity: 1,
           stype: 41,
           corner: 2,
           hints: {}
         },
-        {
+{
           name: 'Prayer of Raging Flame',
           icon: '514132',
           description: 'Dragon\'s Ascension (Ultimate) can inflict ##Ignis Mark: Sacred Flame#2013#. When dealing DMG to a target, increases all friendly units\' &Param4& by <color=#ec6d21>&Param1&</color> for &Param2&s, stacking up to &Param3& times.',
           shortDescription: 'The Ultimate can inflict ##Ignis Mark: Sacred Flame#2013#. When dealing DMG, increases your squad\'s &Param4&.',
-          params: [
-            '18%/28%/39%/50%/60%/71%/81%/92%/103%',
-            '10',
-            '5',
-            'ATK'
-          ],
+          params: ['18%/28%/39%/50%/60%/71%/81%/92%/103%', '10', '5', 'ATK'],
           rarity: 2,
           stype: 41,
           corner: 2,
@@ -14763,41 +14278,34 @@ export const allPotentials = {
             }
           }
         },
-        {
+{
           name: 'Ink Sigil: Barrier Construct',
           icon: '514127',
           description: 'Chixia\'s minions increase the Crit Rate of nearby friendly units by <color=#ec6d21>&Param1&</color>, up to &Param2& times.',
           shortDescription: 'Chixia\'s minions increase the Crit Rate of nearby friendly units.',
-          params: [
-            '1.3%/1.7%/2.1%/2.5%/2.9%/3.3%/3.7%/4.1%/4.5%',
-            '6'
-          ],
+          params: ['1.3%/1.7%/2.1%/2.5%/2.9%/3.3%/3.7%/4.1%/4.5%', '6'],
           rarity: 2,
           stype: 41,
           corner: 3,
           hints: {}
         },
-        {
+{
           name: 'Ink Sigil: Raid',
           icon: '514130',
           description: 'Increases the Minion DMG dealt by Chixia\'s minions to close-by targets by <color=#ec6d21>&Param1&</color>.',
           shortDescription: 'Increases the DMG dealt by Chixia\'s minions to close-by targets.',
-          params: [
-            '34%/54%/74%/95%/115%/135%/156%/176%/196%'
-          ],
+          params: ['34%/54%/74%/95%/115%/135%/156%/176%/196%'],
           rarity: 2,
           stype: 41,
           corner: 3,
           hints: {}
         },
-        {
+{
           name: 'Sigil Unleashed: Flame Glow',
           icon: '514133',
           description: 'Increases all Ignis Trekkers\' Ignis DMG by <color=#ec6d21>&Param1&</color>.',
           shortDescription: 'Increases Ignis Trekkers\' Ignis DMG.',
-          params: [
-            '15%/24%/33%/42%/51%/60%/69%/78%/87%'
-          ],
+          params: ['15%/24%/33%/42%/51%/60%/69%/78%/87%'],
           rarity: 1,
           stype: 41,
           corner: 3,
@@ -14805,43 +14313,34 @@ export const allPotentials = {
         }
       ],
       common: [
-        {
+{
           name: 'Dragon Blaze',
           icon: '514141',
           description: 'When Dragon\'s Ascension (Ultimate) lands a Crit Hit, increases Chixia\'s &Param4& by <color=#ec6d21>&Param1&</color> for &Param2&s, up to &Param3& stacks.',
           shortDescription: 'When the Ultimate lands a Crit Hit, increases Chixia\'s &Param4&.',
-          params: [
-            '16%/26%/36%/46%/56%/65%/75%/85%/95%',
-            '10',
-            '5',
-            'ATK'
-          ],
+          params: ['16%/26%/36%/46%/56%/65%/75%/85%/95%', '10', '5', 'ATK'],
           rarity: 2,
           stype: 41,
           corner: null,
           hints: {}
         },
-        {
+{
           name: 'Blazing Vortex',
           icon: '514142',
           description: 'When casting Dragon\'s Ascension, creates a blaze vortex, dealing <color=#ec6d21>&Param1& of ATK</color> as AoE Ignis Ultimate DMG every 0.5s for a total of 8s.',
           shortDescription: 'The Ultimate creates a blaze vortex that deals DMG over time.',
-          params: [
-            '49%/78%/107%/137%/166%/195%/225%/254%/283%'
-          ],
+          params: ['49%/78%/107%/137%/166%/195%/225%/254%/283%'],
           rarity: 2,
           stype: 41,
           corner: null,
           hints: {}
         },
-        {
+{
           name: 'Dragon Breath',
           icon: '514143',
           description: 'When Dragon\'s Ascension ends, the mighty dragon possesses the main Trekker, dealing <color=#ec6d21>&Param1& of ATK</color> as AoE Ignis Ultimate DMG every 2s for a total of 8s.',
           shortDescription: 'When the Ultimate ends, the main Trekker continuously deals DMG in front.',
-          params: [
-            '124%/198%/272%/346%/421%/495%/569%/643%/717%'
-          ],
+          params: ['124%/198%/272%/346%/421%/495%/569%/643%/717%'],
           rarity: 2,
           stype: 41,
           corner: null,
@@ -15405,62 +14904,35 @@ export const allPotentials = {
         build1: {
           title: 'Wraith: Main Build 1',
           description: 'A melee build that generates Whirlwinds to destroy projectiles when activating a skill or Auto Attack.',
-          potentials: [
-            'Last Gasp of Gale',
-            'Twin Shadows',
-            'Zero Hour',
-            'Blade\'s Waltz',
-            'Rapid Draw'
-          ]
+          potentials: ['Last Gasp of Gale', 'Twin Shadows', 'Zero Hour', 'Blade\'s Waltz', 'Rapid Draw']
         },
         build2: {
           title: 'Wraith: Main Build 2',
           description: 'A build that enhances the ranged DMG of skills and Auto Attacks, significantly boosting ranged DPS.',
-          potentials: [
-            'Storm-Piercing Surge',
-            'Wind-Splitting Bullet',
-            'Overheat Shot',
-            'Scorching Gale',
-            'Tracewind Blink'
-          ]
+          potentials: ['Storm-Piercing Surge', 'Wind-Splitting Bullet', 'Overheat Shot', 'Scorching Gale', 'Tracewind Blink']
         }
       },
       support: {
         build1: {
           title: 'Wraith: Support Build 1',
           description: 'A build that allows skills to generate ground fissures and Whirlwinds, boosting sustained DPS.',
-          potentials: [
-            'Underbarrel Launcher',
-            'Suppressive Wind-Splitting Round',
-            'Ominous Vibe',
-            'Hunter\'s Instinct',
-            'Frost-Proof Constitution'
-          ]
+          potentials: ['Underbarrel Launcher', 'Suppressive Wind-Splitting Round', 'Ominous Vibe', 'Hunter\'s Instinct', 'Frost-Proof Constitution']
         },
         build2: {
           title: 'Wraith: Support Build 2',
           description: 'A build that enhances skill range and DMG, boosting burst DMG potential.',
-          potentials: [
-            'Rotary Saw',
-            'Enhanced Rapid-Fire Round',
-            'Warrior\'s Quality',
-            'Will of Vengeance',
-            'Dawn\'s Embrace'
-          ]
+          potentials: ['Rotary Saw', 'Enhanced Rapid-Fire Round', 'Warrior\'s Quality', 'Will of Vengeance', 'Dawn\'s Embrace']
         }
       }
     },
     potentials: {
       mainCore: [
-        {
+{
           name: 'Last Gasp of Gale',
           icon: '514301',
           description: 'Within &Param1&s after casting Whirling Onslaught (Main Skill), when the next Auto Attack slash deals DMG, it generates a Whirlwind that deal <color=#0abec5>&Param2&</color> of ATK as AoE Auto Attack DMG every 0.5s for 4s.\nThe Whirlwind can track and attack enemies, triggering ##Ventus Mark#1017#.',
           shortDescription: 'For a short duration after the Main Skill is cast, combo slashes of Auto Attacks can generate a Whirlwind to deal DMG. The Whirlwind can track and attack enemies.',
-          params: [
-            '4',
-            '27%/31%/35%/47%/51%/54%/62%/65%/68%/75%/80%/86%/91%'
-          ],
+          params: ['4', '35%/40%/45%/61%/66%/71%/81%/85%/89%/97%/105%/112%/119%'],
           rarity: 1,
           stype: 42,
           corner: null,
@@ -15472,14 +14944,12 @@ export const allPotentials = {
             }
           }
         },
-        {
+{
           name: 'Twin Shadows',
           icon: '514302',
           description: 'When casting Whirling Onslaught (Main Skill), generates 2 Whirlwinds that deal <color=#0abec5>&Param1&</color> of ATK as AoE Auto Attack DMG every 0.5s for 4s. \nThe Whirlwind can increase its Attack Range over time and trigger ##Ventus Mark#1017#.',
           shortDescription: 'When casting the Main Skill, generates multiple Whirlwinds to deal DMG. The Whirlwind can increase its Attack Range over time.',
-          params: [
-            '27%/31%/35%/47%/51%/54%/62%/65%/68%/75%/80%/86%/91%'
-          ],
+          params: ['35%/40%/45%/61%/66%/71%/81%/85%/89%/97%/105%/112%/119%'],
           rarity: 1,
           stype: 42,
           corner: null,
@@ -15491,29 +14961,23 @@ export const allPotentials = {
             }
           }
         },
-        {
+{
           name: 'Storm-Piercing Surge',
           icon: '514303',
-          description: 'The bullets of Whirling Onslaught (Main Skill) become lasers that track distant targets. Increases the &Param1& dealt by Wraith\'s shots to distant targets by <color=#0abec5>&Param2&</color>.',
-          shortDescription: 'The Main Skill\'s bullets become lasers that track distant targets. Increases the &Param1& dealt by Wraith\'s shots to distant targets.',
-          params: [
-            'Ventus DMG',
-            '20%'
-          ],
+          description: 'Whirling Onslaught (Main Skill) fires homing lasers instead of bullets, dealing AoE DMG. Increases the &Param1& dealt by Wraith\'s shots by <color=#0abec5>&Param2&</color>.',
+          shortDescription: 'The Main Skill fires homing lasers instead of bullets, dealing AoE DMG. Increases the &Param1& dealt by Wraith\'s shots.',
+          params: ['Ventus DMG', '20%'],
           rarity: 1,
           stype: 42,
           corner: null,
           hints: {}
         },
-        {
+{
           name: 'Wind-Splitting Bullet',
           icon: '514304',
           description: 'When holding to cast Whirling Onslaught (Main Skill), each round fires <color=#0abec5>4</color> more bullets than the previous one.\nIncreases the &Param1& dealt by Wraith\'s bullets by <color=#0abec5>&Param2&</color>. Can trigger ##Ventus Mark#1017#.',
           shortDescription: 'Increases the number of bullets fired when holding to cast the Main Skill continuously. Increases the &Param1& dealt by all Wraith\'s shots.',
-          params: [
-            'Ventus DMG',
-            '30%'
-          ],
+          params: ['Ventus DMG', '30%'],
           rarity: 1,
           stype: 42,
           corner: null,
@@ -15527,139 +14991,100 @@ export const allPotentials = {
         }
       ],
       mainNormal: [
-        {
+{
           name: 'Zero Hour',
           icon: '514305',
           description: 'Whirling Onslaught (Main Skill)\'s slashes will stir up a storm, blocking hostile projectiles.\nAlso increases Wraith\'s &Param1& to nearby targets by <color=#ec6d21>&Param2&</color>.',
           shortDescription: 'The Main Skill\'s slashes can block enemy projectile attacks. Increases Wraith\'s DMG dealt to nearby targets.',
-          params: [
-            'Auto Attack DMG',
-            '15%/23%/32%/41%/50%/59%/67%/76%/85%'
-          ],
+          params: ['Auto Attack DMG', '18%/28%/39%/50%/60%/71%/81%/92%/103%'],
           rarity: 1,
           stype: 41,
           corner: 1,
           hints: {}
         },
-        {
+{
           name: 'Overheat Shot',
           icon: '514308',
           description: 'When casting Whirling Onslaught (Main Skill), increases the Main Skill\'s shot &Param1& by <color=#ec6d21>&Param2&</color> for &Param3&s, up to &Param4& stacks.',
           shortDescription: 'When casting Whirling Onslaught (Main Skill), increases the &Param1& of Main Skill\'s shots.',
-          params: [
-            'Skill DMG',
-            '11%/18%/24%/31%/37%/44%/51%/57%/64%',
-            '1',
-            '3'
-          ],
+          params: ['Skill DMG', '11%/18%/24%/31%/37%/44%/51%/57%/64%', '1', '3'],
           rarity: 2,
           stype: 41,
           corner: 1,
           hints: {}
         },
-        {
+{
           name: 'Unseen Predator',
           icon: '514311',
           description: 'Wraith can dodge one more time.\nWhen dodging, increases &Param1& by <color=#ec6d21>&Param2&</color> for &Param3&s.',
           shortDescription: 'Increases the number of Wraith\'s dodges. Increases &Param1& when dodging.',
-          params: [
-            'ATK',
-            '14%/23%/32%/40%/49%/57%/66%/75%/83%',
-            '4'
-          ],
+          params: ['ATK', '14%/23%/32%/40%/49%/57%/66%/75%/83%', '4'],
           rarity: 2,
           stype: 41,
           corner: 1,
           hints: {}
         },
-        {
+{
           name: 'Blade\'s Waltz',
           icon: '514306',
           description: 'Increases the slash &Param1& of Whirling Onslaught (Main Skill) by <color=#ec6d21>&Param2&</color>.\nIncreases Wraith\'s &Param3& by <color=#ec6d21>&Param4&</color>.',
           shortDescription: 'Increases the &Param1& dealt by the Main Skill\'s slashes. Increases Wraith\'s &Param3&.',
-          params: [
-            'Skill DMG',
-            '8%/12%/17%/21%/26%/30%/35%/39%/44%',
-            'Auto Attack DMG',
-            '13%/21%/28%/36%/44%/51%/59%/67%/74%'
-          ],
+          params: ['Skill DMG', '8%/12%/17%/21%/26%/30%/35%/39%/44%', 'Auto Attack DMG', '13%/21%/28%/36%/44%/51%/59%/67%/74%'],
           rarity: 2,
           stype: 41,
           corner: 2,
           hints: {}
         },
-        {
+{
           name: 'Scorching Gale',
           icon: '514309',
           description: 'When Wraith\'s shots deal DMG, increases &Param1& by <color=#ec6d21>&Param2&</color> for &Param3&s, up to &Param4& stacks. This effect can only be triggered &Param5& times per second.\nThe effect ends if the Main Skill is cast.',
           shortDescription: 'When Wraith\'s shots deal DMG, increases &Param1&.',
-          params: [
-            'Skill DMG',
-            '2.3%/3.7%/5.1%/6.5%/7.9%/9.3%/10.7%/12.1%/13.5%',
-            '5',
-            '8',
-            ''
-          ],
+          params: ['Skill DMG', '2.3%/3.7%/5.1%/6.5%/7.9%/9.3%/10.7%/12.1%/13.5%', '5', '8', ''],
           rarity: 2,
           stype: 41,
           corner: 2,
           hints: {}
         },
-        {
+{
           name: 'Dauntless Poise',
           icon: '514312',
           description: 'Each Ventus Trekker in the squad increases Wraith\'s &Param1& by <color=#ec6d21>&Param2&</color>.',
           shortDescription: 'Each Ventus Trekker in the squad increase Wraith\'s &Param1&.',
-          params: [
-            'ATK',
-            '9%/14%/19%/24%/29%/35%/40%/45%/50%'
-          ],
+          params: ['ATK', '9%/14%/19%/24%/29%/35%/40%/45%/50%'],
           rarity: 1,
           stype: 41,
           corner: 2,
           hints: {}
         },
-        {
+{
           name: 'Rapid Draw',
           icon: '514307',
           description: 'When Whirling Onslaught (Main Skill)\'s slashes deal DMG, increases Wraith\'s &Param1& by <color=#ec6d21>&Param2&</color> for &Param3&s.',
           shortDescription: 'When the Main Skill\'s slashes deal DMG, increases &Param1&.',
-          params: [
-            'Auto Attack DMG',
-            '14%/22%/31%/39%/47%/55%/64%/72%/80%',
-            '5',
-            '1'
-          ],
+          params: ['Auto Attack DMG', '14%/22%/31%/39%/47%/55%/64%/72%/80%', '5', '1'],
           rarity: 2,
           stype: 41,
           corner: 3,
           hints: {}
         },
-        {
+{
           name: 'Tracewind Blink',
           icon: '514310',
           description: 'Within &Param1&s after casting Whirling Onslaught (Main Skill), enhances Wraith\'s weapon. Each additional Main Skill stack consumed extends the duration by 3s.\nWhile Wraith\'s weapon is enhanced, her Auto Attack shots fire lasers, dealing <color=#ec6d21>&Param2&</color> of ATK as Ventus Skill DMG. This effect can only be triggered once per second.',
           shortDescription: 'For a short duration after Whirling Onslaught (Main Skill) is cast, enhances Wraith\'s weapon, during which her Auto Attack shots fire lasers to deal DMG.',
-          params: [
-            '3',
-            '77%/123%/169%/216%/262%/308%/354%/400%/446%'
-          ],
+          params: ['3', '84%/135%/185%/237%/287%/337%/388%/438%/489%'],
           rarity: 1,
           stype: 41,
           corner: 3,
           hints: {}
         },
-        {
+{
           name: 'Tempest Stance',
           icon: '514313',
           description: 'When Wraith triggers ##Ventus Mark#1017#, increases &Param1& by <color=#ec6d21>&Param2&</color> for &Param3&s, stacking up to &Param4& times.',
           shortDescription: 'When Wraith triggers ##Ventus Mark#1017#, increases &Param1&.',
-          params: [
-            'Ventus DMG',
-            '6%/10%/13%/17%/20%/24%/28%/31%/35%',
-            '3',
-            '3'
-          ],
+          params: ['Ventus DMG', '6%/10%/13%/17%/20%/24%/28%/31%/35%', '3', '3'],
           rarity: 2,
           stype: 41,
           corner: 3,
@@ -15673,14 +15098,12 @@ export const allPotentials = {
         }
       ],
       supportCore: [
-        {
+{
           name: 'Underbarrel Launcher',
           icon: '514321',
           description: 'Rolling Bungee (Support Skill)\'s shot creates a tornado that tracks the target, dealing <color=#0abec5>&Param1&</color> of ATK as AoE Ventus Skill DMG every 0.5s for 8s. Can trigger ##Ventus Mark#1017#.',
           shortDescription: 'The Support Skill shoots and generates a Tornado that tracks the target, dealing multiple instances of DMG.',
-          params: [
-            '18%/21%/24%/32%/35%/38%/43%/45%/47%/52%/56%/59%/63%'
-          ],
+          params: ['18%/21%/24%/32%/35%/38%/43%/45%/47%/52%/56%/59%/63%'],
           rarity: 1,
           stype: 42,
           corner: null,
@@ -15692,14 +15115,12 @@ export const allPotentials = {
             }
           }
         },
-        {
+{
           name: 'Suppressive Wind-Splitting Round',
           icon: '514322',
           description: 'Rolling Bungee (Support Skill)\'s slashes create a rift in the ground, dealing <color=#0abec5>&Param1&</color> of ATK as AoE Ventus Skill DMG every 0.5s for a total of 8s. Can trigger ##Ventus Mark#1017#.',
           shortDescription: 'The Support Skill slashes and cracks the ground, dealing multiple instances of DMG.',
-          params: [
-            '18%/21%/24%/32%/35%/38%/43%/45%/47%/52%/56%/59%/63%'
-          ],
+          params: ['18%/21%/24%/32%/35%/38%/43%/45%/47%/52%/56%/59%/63%'],
           rarity: 1,
           stype: 42,
           corner: null,
@@ -15711,20 +15132,18 @@ export const allPotentials = {
             }
           }
         },
-        {
+{
           name: 'Rotary Saw',
           icon: '514323',
           description: 'Rolling Bungee (Support Skill) triggers an additional slash, dealing <color=#0abec5>&Param1&</color> of ATK as Ventus Skill DMG in a large area.',
           shortDescription: 'The Support Skill slashes and then performs a horizontal sweep, dealing DMG in a large area.',
-          params: [
-            '300%/345%/390%/525%/567%/609%/692%/728%/764%/836%/896%/956%/1016%'
-          ],
+          params: ['300%/345%/390%/525%/567%/609%/692%/728%/764%/836%/896%/956%/1016%'],
           rarity: 1,
           stype: 42,
           corner: null,
           hints: {}
         },
-        {
+{
           name: 'Enhanced Rapid-Fire Round',
           icon: '514324',
           description: 'Rolling Bungee (Support Skill) fires <color=#0abec5>2</color> additional lasers.',
@@ -15737,14 +15156,12 @@ export const allPotentials = {
         }
       ],
       supportNormal: [
-        {
+{
           name: 'Ominous Vibe',
           icon: '514325',
           description: 'When Rolling Bungee (Support Skill) deals DMG, there is a 50% chance to fire lasers, dealing <color=#ec6d21>&Param1&</color> of Wraith\'s ATK as Ventus Skill DMG. Can trigger ##Ventus Mark#1017#.',
           shortDescription: 'When the Support Skill deals DMG, there is a chance to fire lasers to deal DMG.',
-          params: [
-            '24%/38%/53%/67%/82%/97%/111%/126%/140%'
-          ],
+          params: ['24%/38%/53%/67%/82%/97%/111%/126%/140%'],
           rarity: 1,
           stype: 41,
           corner: 1,
@@ -15756,30 +15173,23 @@ export const allPotentials = {
             }
           }
         },
-        {
+{
           name: 'Warrior\'s Quality',
           icon: '514328',
           description: 'When the slashes of Rolling Bungee (Support Skill) deal DMG, increases the &Param3& of this Support Skill\'s shots by <color=#ec6d21>&Param1&</color>, stacking up to &Param2& times.',
           shortDescription: 'When the Support Skill\'s slashes deal DMG, increases the &Param3& of this Support Skill\'s shots.',
-          params: [
-            '3.7%/5.9%/8.1%/10.3%/12.5%/14.7%/16.9%/19.1%/21.3%',
-            '9',
-            'Skill DMG'
-          ],
+          params: ['3.7%/5.9%/8.1%/10.3%/12.5%/14.7%/16.9%/19.1%/21.3%', '9', 'Skill DMG'],
           rarity: 1,
           stype: 41,
           corner: 1,
           hints: {}
         },
-        {
+{
           name: 'Expatriate',
           icon: '514331',
           description: 'Increases Rolling Bungee (Support Skill)\'s &Param2& dealt to targets inflicted with ##Ventus Mark#1017# by <color=#ec6d21>&Param1&</color>.',
           shortDescription: 'Increases the Support Skill\'s DMG dealt to targets inflicted with ##Ventus Mark#1017#.',
-          params: [
-            '11%/17%/23%/29%/36%/42%/48%/55%/61%',
-            'Ventus DMG'
-          ],
+          params: ['11%/17%/23%/29%/36%/42%/48%/55%/61%', 'Ventus DMG'],
           rarity: 2,
           stype: 41,
           corner: 1,
@@ -15791,44 +15201,34 @@ export const allPotentials = {
             }
           }
         },
-        {
+{
           name: 'Hunter\'s Instinct',
           icon: '514326',
           description: 'When Rolling Bungee (Support Skill) deals DMG, increases Wraith\'s &Param1& by <color=#ec6d21>&Param2&</color> for &Param3&s, stacking up to &Param4& times.',
           shortDescription: 'When the Support Skill deals DMG, increases Wraith\'s &Param1&.',
-          params: [
-            'ATK',
-            '1.2%/1.9%/2.6%/3.3%/4%/4.7%/5.4%/6.1%/6.8%',
-            '4',
-            '10'
-          ],
+          params: ['ATK', '1.2%/1.9%/2.6%/3.3%/4%/4.7%/5.4%/6.1%/6.8%', '4', '10'],
           rarity: 2,
           stype: 41,
           corner: 2,
           hints: {}
         },
-        {
+{
           name: 'Will of Vengeance',
           icon: '514329',
           description: 'Increases the &Param2& of the slashes and shots of Rolling Bungee (Support Skill) by <color=#ec6d21>&Param1&</color>.',
           shortDescription: 'Increases the Support Skill\'s DMG.',
-          params: [
-            '11%/17%/23%/29%/36%/42%/48%/55%/61%',
-            'Skill DMG'
-          ],
+          params: ['11%/17%/23%/29%/36%/42%/48%/55%/61%', 'Skill DMG'],
           rarity: 2,
           stype: 41,
           corner: 2,
           hints: {}
         },
-        {
+{
           name: 'Avenger',
           icon: '514332',
           description: 'When a Ventus Trekker other than Wraith triggers ##Ventus Mark#1017#, there is a 50% chance to create a Whirlwind, dealing <color=#ec6d21>&Param1&</color> of Wraith\'s ATK as AoE Skill DMG every 0.5s for a total of 8s. The Whirlwind can track and attack enemies. This effect can only be triggered once every 3s.',
           shortDescription: 'When a Ventus squadmate triggers ##Ventus Mark#1017#, there is a chance to create a Whirlwind, dealing multiple instances of DMG.',
-          params: [
-            '2%/4%/6%/7%/9%/10%/12%/14%/15%'
-          ],
+          params: ['2%/4%/6%/7%/9%/10%/12%/14%/15%'],
           rarity: 2,
           stype: 41,
           corner: 2,
@@ -15840,46 +15240,34 @@ export const allPotentials = {
             }
           }
         },
-        {
+{
           name: 'Frost-Proof Constitution',
           icon: '514327',
           description: 'Casting Rolling Bungee (Support Skill) increases Wraith\'s &Param1& by <color=#ec6d21>&Param2&</color> for &Param3&s.',
           shortDescription: 'When casting the Support Skill, increases Wraith\'s &Param1&.',
-          params: [
-            'Skill DMG',
-            '9%/15%/21%/26%/32%/37%/43%/49%/54%',
-            '10'
-          ],
+          params: ['Skill DMG', '9%/15%/21%/26%/32%/37%/43%/49%/54%', '10'],
           rarity: 2,
           stype: 41,
           corner: 3,
           hints: {}
         },
-        {
+{
           name: 'Dawn\'s Embrace',
           icon: '514330',
           description: 'Increases the &Param3& of Rolling Bungee (Support Skill)\'s slashes by <color=#ec6d21>&Param1&</color>. If only one target is hit, increases this bonus to <color=#ec6d21>&Param2&</color>.',
           shortDescription: 'The fewer targets the Support Skill\'s slashes hit, the higher the DMG dealt.',
-          params: [
-            '10%/17%/23%/29%/35%/41%/48%/54%/60%',
-            '17%/28%/38%/49%/59%/69%/80%/90%/101%',
-            'Ventus DMG'
-          ],
+          params: ['10%/17%/23%/29%/35%/41%/48%/54%/60%', '17%/28%/38%/49%/59%/69%/80%/90%/101%', 'Ventus DMG'],
           rarity: 2,
           stype: 41,
           corner: 3,
           hints: {}
         },
-        {
+{
           name: 'Flame Hunter',
           icon: '514333',
           description: 'Each Ventus Trekker in the squad increases Wraith\'s &Param1& by <color=#ec6d21>&Param2&</color>.',
           shortDescription: 'Each Ventus Trekker in the squad increase Wraith\'s &Param1&.',
-          params: [
-            'ATK',
-            '5%/8%/11%/14%/17%/20%/23%/26%/29%',
-            '3'
-          ],
+          params: ['ATK', '5%/8%/11%/14%/17%/20%/23%/26%/29%', '3'],
           rarity: 1,
           stype: 41,
           corner: 3,
@@ -15887,44 +15275,34 @@ export const allPotentials = {
         }
       ],
       common: [
-        {
+{
           name: 'Daybreaker',
           icon: '514341',
           description: 'Increases Thousand Shade Dance (Ultimate)\'s shuttling speed. Also increases Wraith\'s &Param1& by <color=#ec6d21>&Param2&</color>.',
           shortDescription: 'Increases the Ultimate\'s shuttling speed. Also increases Wraith\'s &Param1&.',
-          params: [
-            'Ultimate DMG',
-            '144%/230%/316%/402%/488%/574%/660%/746%/832%'
-          ],
+          params: ['Ultimate DMG', '144%/230%/316%/402%/488%/574%/660%/746%/832%'],
           rarity: 2,
           stype: 41,
           corner: null,
           hints: {}
         },
-        {
+{
           name: 'Raging Battle Will',
           icon: '514342',
           description: 'After casting Thousand Shade Dance (Ultimate), increases Wraith\'s &Param1& by <color=#ec6d21>&Param2&</color> for &Param3&s.',
           shortDescription: 'After casting the Ultimate, increases Wraith\'s &Param1&.',
-          params: [
-            'ATK',
-            '28%/44%/61%/77%/94%/111%/127%/144%/160%',
-            '20'
-          ],
+          params: ['ATK', '28%/44%/61%/77%/94%/111%/127%/144%/160%', '20'],
           rarity: 2,
           stype: 41,
           corner: null,
           hints: {}
         },
-        {
+{
           name: 'Tempest Siphon',
           icon: '514343',
           description: 'When Thousand Shade Dance (Ultimate) unfolds its domain, pulls in targets. Also increases Wraith\'s &Param1& by <color=#ec6d21>&Param2&</color>.',
           shortDescription: 'When the Ultimate unfolds its domain, pulls in targets. Also increases Wraith\'s &Param1&.',
-          params: [
-            'Ultimate DMG',
-            '115%/185%/254%/323%/392%/461%/531%/600%/669%'
-          ],
+          params: ['Ultimate DMG', '115%/185%/254%/323%/392%/461%/531%/600%/669%'],
           rarity: 2,
           stype: 41,
           corner: null,
@@ -17624,76 +17002,46 @@ export const allPotentials = {
         build1: {
           title: 'Gerie: Main Build 1',
           description: 'An Auto Attack build that increases Movement SPD, attack range, and DMG after casting a skill.',
-          potentials: [
-            'Beyond All Control',
-            'Avalanche of Stone',
-            'Delight in Ruin',
-            'No Safeword',
-            'Lingering Hunger'
-          ]
+          potentials: ['Beyond All Control', 'Avalanche of Stone', 'Delight in Ruin', 'No Safeword', 'Lingering Hunger']
         },
         build2: {
           title: 'Gerie: Main Build 2',
           description: 'A skill build that increases the number of targets linked by skills and creates chain reactions with Trekkers.',
-          potentials: [
-            'Agony Cascade',
-            'Endless Throes',
-            'Slanderous Strike',
-            'Everyone\'s Invited',
-            'Piercing Sorrow'
-          ]
+          potentials: ['Agony Cascade', 'Endless Throes', 'Slanderous Strike', 'Everyone\'s Invited', 'Piercing Sorrow']
         }
       },
       support: {
         build1: {
           title: 'Gerie: Support Build 1',
           description: 'A burst build that increases the number of chain shovels and allows chain shovel dragging to deal additional DMG.',
-          potentials: [
-            'Deeper into Sin',
-            'Curtain Call',
-            'Hexacalamity: Grief\'s Toll',
-            'Hexacalamity: Tyrant\'s March',
-            'Hexacalamity: Hallowed Chains'
-          ]
+          potentials: ['Deeper into Sin', 'Curtain Call', 'Hexacalamity: Grief\'s Toll', 'Hexacalamity: Tyrant\'s March', 'Hexacalamity: Hallowed Chains']
         },
         build2: {
           title: 'Gerie: Support Build 2',
           description: 'A build that allows the Trekker to continuously generate shockwaves to deal DMG over time.',
-          potentials: [
-            'Sin-Bound Echo',
-            'Earthshaker',
-            'Hexacalamity: Erosion',
-            'Hexacalamity: Death',
-            'Hexacalamity: Famine'
-          ]
+          potentials: ['Sin-Bound Echo', 'Earthshaker', 'Hexacalamity: Erosion', 'Hexacalamity: Death', 'Hexacalamity: Famine']
         }
       }
     },
     potentials: {
       mainCore: [
-        {
+{
           name: 'Beyond All Control',
           icon: '514901',
           description: 'When Gerie is in Lethal status, increases her Movement SPD by <color=#0abec5>&Param3&</color> and her &Param1& by <color=#0abec5>&Param2&</color>. Lethal is no longer limited to the vicinity of Iron Cage.',
           shortDescription: 'When Gerie is in Lethal status, increases her Movement SPD and &Param1&. Lethal status remains active even when Gerie is not at the vicinity of Iron Cage.',
-          params: [
-            'Auto Attack DMG',
-            '47%',
-            '15%'
-          ],
+          params: ['Auto Attack DMG', '47%', '15%'],
           rarity: 1,
           stype: 42,
           corner: null,
           hints: {}
         },
-        {
+{
           name: 'Avalanche of Stone',
           icon: '514902',
           description: 'When Gerie is in Lethal status, increases the range of her Auto Attacks by <color=#0abec5>25%</color>, and she can trigger ##Terra Mark#1020#. When an Auto Attack deals DMG, it also deals <color=#0abec5>&Param1& of ATK</color> as Terra Auto Attack DMG.',
           shortDescription: 'When Gerie is in Lethal status, increases the range of her Auto Attacks, and she can trigger ##Terra Mark#1020#. When an Auto Attack deals DMG, it also deals Terra Auto Attack DMG.',
-          params: [
-            ''
-          ],
+          params: [''],
           rarity: 1,
           stype: 42,
           corner: null,
@@ -17705,28 +17053,23 @@ export const allPotentials = {
             }
           }
         },
-        {
+{
           name: 'Agony Cascade',
           icon: '514903',
           description: 'The Iron Cage now links <color=#0abec5>4</color> targets and its &Param1& is increased by <color=#0abec5>&Param2&</color>.',
           shortDescription: 'The Iron Cage can link more targets and its &Param1& is increased.',
-          params: [
-            'Skill DMG',
-            '50%'
-          ],
+          params: ['Skill DMG', '50%'],
           rarity: 1,
           stype: 42,
           corner: null,
           hints: {}
         },
-        {
+{
           name: 'Endless Throes',
           icon: '514904',
           description: 'When Gerie deals Auto Attack DMG to targets linked by the Iron Cage, deals an additional <color=#0abec5>&Param1& of ATK</color> as Terra Skill DMG to these targets. This effect can only be triggered once per second. Can trigger ##Terra Mark#1020#.',
           shortDescription: 'When Gerie deals Auto Attack DMG to targets linked by the Iron Cage, these targets receive additional DMG.',
-          params: [
-            ''
-          ],
+          params: [''],
           rarity: 1,
           stype: 42,
           corner: null,
@@ -17740,64 +17083,45 @@ export const allPotentials = {
         }
       ],
       mainNormal: [
-        {
+{
           name: 'Delight in Ruin',
           icon: '514905',
           description: 'When Gerie deals DMG with an Auto Attack, increases her &Param1& by <color=#ec6d21>&Param2&</color> for &Param3&s, stacking up to &Param4& times.',
           shortDescription: 'When Gerie deals DMG with an Auto Attack, increases her &Param1&.',
-          params: [
-            'ATK',
-            '2%/3%/4%/6%/7%/8%/9%/10%/12%',
-            '8',
-            '6'
-          ],
+          params: ['ATK', '2%/3%/4%/6%/7%/8%/9%/10%/12%', '8', '6'],
           rarity: 2,
           stype: 41,
           corner: 1,
           hints: {}
         },
-        {
+{
           name: 'Slanderous Strike',
           icon: '514908',
           description: 'Reduces the Movement SPD of targets linked by the Iron Cage by &Param2&. Increases Gerie\'s &Param3& to slowed targets by <color=#ec6d21>&Param4&</color>.',
           shortDescription: 'Reduces the &Param1& of targets linked by the Iron Cage.\nIncreases Gerie\'s &Param3& to slowed targets.',
-          params: [
-            'Movement SPD',
-            '-50%',
-            'Terra DMG',
-            '11%/17%/24%/30%/36%/43%/49%/56%/62%'
-          ],
+          params: ['Movement SPD', '-50%', 'Terra DMG', '11%/17%/24%/30%/36%/43%/49%/56%/62%'],
           rarity: 2,
           stype: 41,
           corner: 1,
           hints: {}
         },
-        {
+{
           name: 'Hunt is On',
           icon: '514911',
           description: 'Gerie can dodge one more time.\nAfter dodging, increases her &Param1& by <color=#ec6d21>&Param2&</color> for &Param3&s.',
           shortDescription: 'Gerie can dodge one more time.\nIncreases her &Param1& after dodging.',
-          params: [
-            'ATK',
-            '9%/15%/21%/26%/32%/37%/43%/49%/54%',
-            '8'
-          ],
+          params: ['ATK', '9%/15%/21%/26%/32%/37%/43%/49%/54%', '8'],
           rarity: 2,
           stype: 41,
           corner: 1,
           hints: {}
         },
-        {
+{
           name: 'No Safeword',
           icon: '514906',
           description: 'Increases Gerie\'s &Param1& by <color=#ec6d21>&Param2&</color>.\nIncreases her Auto Attack DMG to targets with ##Broken Resilience#1006# by <color=#ec6d21>&Param4&</color>.',
           shortDescription: 'Increases Gerie\'s &Param1&.\nIncreases her Auto Attack DMG to targets with ##Broken Resilience#1006#.',
-          params: [
-            'Auto Attack DMG',
-            '18%/29%/40%/50%/61%/72%/83%/94%/104%',
-            'Auto Attack DMG',
-            '36%/58%/79%/100%/120%/140%/170%/190%/210%'
-          ],
+          params: ['Auto Attack DMG', '18%/29%/40%/50%/61%/72%/83%/94%/104%', 'Auto Attack DMG', '36%/58%/79%/100%/120%/140%/170%/190%/210%'],
           rarity: 2,
           stype: 41,
           corner: 2,
@@ -17809,73 +17133,56 @@ export const allPotentials = {
             }
           }
         },
-        {
+{
           name: 'Everyone\'s Invited',
           icon: '514912',
           description: 'Increases Iron Cage\'s &Param1& by <color=#ec6d21>&Param2&</color> and its range by 100%.',
           shortDescription: 'Increases the &Param1& and range of Iron Cage.',
-          params: [
-            'Skill DMG',
-            '21%/34%/47%/60%/73%/85%/98%/111%/124%'
-          ],
+          params: ['Skill DMG', '21%/34%/47%/60%/73%/85%/98%/111%/124%'],
           rarity: 2,
           stype: 41,
           corner: 2,
           hints: {}
         },
-        {
+{
           name: 'Shadow Law',
           icon: '514909',
           description: 'When a squadmate casts a Support Skill, increases Gerie\'s &Param1& by <color=#ec6d21>&Param2&</color> for &Param3&s, up to &Param4& stacks.',
           shortDescription: 'When a squadmate casts a Support Skill, increases Gerie\'s &Param1&.',
-          params: [
-            'Skill DMG',
-            '9%/14%/19%/24%/30%/35%/40%/45%/50%',
-            '10',
-            '2'
-          ],
+          params: ['Skill DMG', '9%/14%/19%/24%/30%/35%/40%/45%/50%', '10', '2'],
           rarity: 2,
           stype: 41,
           corner: 2,
           hints: {}
         },
-        {
+{
           name: 'Lingering Hunger',
           icon: '514907',
           description: 'Increases Gerie\'s &Param1& by <color=#ec6d21>&Param2&</color>.\nIf Gerie is in Lethal status when the Iron Cage disappears, the status lasts 4s longer.',
           shortDescription: 'Increases Gerie\'s &Param1&.\nIf Gerie is in Lethal status when the Iron Cage disappears, the status lasts 4s longer.',
-          params: [
-            'Auto Attack DMG',
-            '27%/43%/59%/75%/91%/107%/123%/139%/155%'
-          ],
+          params: ['Auto Attack DMG', '27%/43%/59%/75%/91%/107%/123%/139%/155%'],
           rarity: 1,
           stype: 41,
           corner: 3,
           hints: {}
         },
-        {
+{
           name: 'Piercing Sorrow',
           icon: '514910',
           description: 'Increases Iron Cage\'s &Param1& by <color=#ec6d21>&Param2&</color> and its duration by 50%.',
           shortDescription: 'Increases the &Param1& and duration of Iron Cage.',
-          params: [
-            'Terra DMG',
-            '18%/28%/39%/49%/60%/71%/81%/92%/102%'
-          ],
+          params: ['Terra DMG', '18%/28%/39%/49%/60%/71%/81%/92%/102%'],
           rarity: 1,
           stype: 41,
           corner: 3,
           hints: {}
         },
-        {
+{
           name: 'Shared Sensation',
           icon: '514913',
           description: 'For each Terra Trekker on the squad, increases Gerie\'s &Param1& by <color=#ec6d21>&Param2&</color>.',
           shortDescription: 'For each Terra Trekker on the squad, increases Gerie\'s &Param1&.',
-          params: [
-            'ATK',
-            '5%/8%/11%/14%/17%/20%/23%/26%/29%'
-          ],
+          params: ['ATK', '5%/8%/11%/14%/17%/20%/23%/26%/29%'],
           rarity: 1,
           stype: 41,
           corner: 3,
@@ -17883,31 +17190,23 @@ export const allPotentials = {
         }
       ],
       supportCore: [
-        {
+{
           name: 'Deeper into Sin',
           icon: '514921',
           description: 'Increases the &Param1& of Immediate Execution (Support Skill)\'s chained spades by <color=#0abec5>&Param2&</color>. When casting Immediate Execution, conjures up 2 additional chained spades, dealing <color=#0abec5>&Param3&</color> of ATK as Terra Skill DMG.',
           shortDescription: 'Increases the &Param1& of the Support Skill\'s chained spades. The Support Skill now conjures up more chained spades to deal DMG.',
-          params: [
-            'Skill DMG',
-            '11%',
-            ''
-          ],
+          params: ['Skill DMG', '11%', ''],
           rarity: 1,
           stype: 42,
           corner: null,
           hints: {}
         },
-        {
+{
           name: 'Curtain Call',
           icon: '514922',
           description: 'Increases the &Param1& of Immediate Execution (Support Skill)\'s chained spades by <color=#0abec5>&Param2&</color>. When the chained spades are withdrawn, each spade deals <color=#0abec5>&Param3&</color> of ATK as Terra Skill DMG. Can trigger ##Terra Mark#1020#.',
           shortDescription: 'Increases the &Param1& of the Support Skill\'s chained spades. When the chained spades are withdrawn, each spade deals DMG.',
-          params: [
-            'Skill DMG',
-            '11%',
-            ''
-          ],
+          params: ['Skill DMG', '11%', ''],
           rarity: 1,
           stype: 42,
           corner: null,
@@ -17919,28 +17218,23 @@ export const allPotentials = {
             }
           }
         },
-        {
+{
           name: 'Sin-Bound Echo',
           icon: '514923',
           description: 'When casting Immediate Execution (Support Skill), Gerie remains on the battlefield for 6s and creates seismic waves at her and the chained spades\' location once per second, each seismic wave dealing <color=#0abec5>&Param1& of ATK</color> as Terra Skill DMG.',
           shortDescription: 'When casting the Support Skill, Gerie remains on the battlefield for a period of time and creates seismic waves at her and the chained spades\' location every second to deal DMG.',
-          params: [
-            ''
-          ],
+          params: [''],
           rarity: 1,
           stype: 42,
           corner: null,
           hints: {}
         },
-        {
+{
           name: 'Earthshaker',
           icon: '514924',
           description: 'Increases the &Param1& of Immediate Execution (Support Skill)\'s seismic waves by <color=#0abec5>&Param2&</color> and their Attack Range by <color=#0abec5>40%</color>.',
           shortDescription: 'Increases the &Param1& and Attack Range of the Support Skill\'s seismic waves.',
-          params: [
-            'Skill DMG',
-            '32%'
-          ],
+          params: ['Skill DMG', '32%'],
           rarity: 1,
           stype: 42,
           corner: null,
@@ -17948,46 +17242,34 @@ export const allPotentials = {
         }
       ],
       supportNormal: [
-        {
+{
           name: 'Hexacalamity: Grief\'s Toll',
           icon: '514925',
           description: 'When casting Immediate Execution (Support Skill), increases Gerie\'s &Param1& by <color=#ec6d21>&Param2&</color> for &Param3&s.',
           shortDescription: 'When casting the Support Skill, increases Gerie\'s &Param1&.',
-          params: [
-            'Skill DMG',
-            '17%/27%/38%/48%/58%/69%/79%/89%/100%',
-            '3'
-          ],
+          params: ['Skill DMG', '17%/27%/38%/48%/58%/69%/79%/89%/100%', '3'],
           rarity: 2,
           stype: 41,
           corner: 1,
           hints: {}
         },
-        {
+{
           name: 'Hexacalamity: Erosion',
           icon: '514928',
           description: 'When casting Immediate Execution (Support Skill), increases Skill DMG by <color=#ec6d21>&Param2&</color> every second. Resets after the Skill ends.',
           shortDescription: 'When casting the Support Skill, increases Skill DMG every second. Resets after the Skill ends.',
-          params: [
-            '',
-            '3%/5%/6%/8%/10%/11%/13%/15%/16%'
-          ],
+          params: ['', '3%/5%/6%/8%/10%/11%/13%/15%/16%'],
           rarity: 2,
           stype: 41,
           corner: 1,
           hints: {}
         },
-        {
+{
           name: 'Twilight\'s Verdict',
           icon: '514931',
           description: 'When Gerie triggers a ##Terra Mark#1020#, increases her &Param1& by <color=#ec6d21>&Param2&</color> for &Param3&s, up to &Param4& stacks.',
           shortDescription: 'When Gerie triggers a ##Terra Mark#1020#, increases her &Param1&.',
-          params: [
-            'Terra DMG',
-            '10%/16%/22%/28%/34%/40%/46%/52%/58%',
-            '8',
-            '4'
-          ],
+          params: ['Terra DMG', '10%/16%/22%/28%/34%/40%/46%/52%/58%', '8', '4'],
           rarity: 2,
           stype: 41,
           corner: 1,
@@ -17999,87 +17281,67 @@ export const allPotentials = {
             }
           }
         },
-        {
+{
           name: 'Hexacalamity: Tyrant\'s March',
           icon: '514926',
           description: 'Increases the &Param1& of Immediate Execution (Support Skill)\'s chained spades to targets at less than 70% HP by <color=#ec6d21>&Param2&</color>.',
           shortDescription: 'Increases the &Param1& of the Support Skill\'s chained spades to targets at less than 70% HP.',
-          params: [
-            'Skill DMG',
-            '16%/26%/35%/45%/55%/64%/74%/83%/93%'
-          ],
+          params: ['Skill DMG', '16%/26%/35%/45%/55%/64%/74%/83%/93%'],
           rarity: 2,
           stype: 41,
           corner: 2,
           hints: {}
         },
-        {
+{
           name: 'Hexacalamity: Death',
           icon: '514929',
           description: 'For the seismic waves generated by Immediate Execution (Support Skill), increases their &Param1& by <color=#ec6d21>&Param2&</color> and &Param3& by <color=#ec6d21>&Param4&</color>.',
           shortDescription: 'Increases the &Param1& and Resilience Break Efficiency of the Support Skill\'s seismic waves.',
-          params: [
-            'Skill DMG',
-            '8%/13%/17%/22%/27%/31%/36%/41%/46%',
-            '',
-            '0.43%/0.43%/0.43%/0.43%/0.43%/0.43%/0.43%/0.43%/0.43%'
-          ],
+          params: ['Skill DMG', '8%/13%/17%/22%/27%/31%/36%/41%/46%', '', '0.43%/0.43%/0.43%/0.43%/0.43%/0.43%/0.43%/0.43%/0.43%'],
           rarity: 2,
           stype: 41,
           corner: 2,
           hints: {}
         },
-        {
+{
           name: 'Twilight\'s Hunt',
           icon: '514932',
           description: 'When a squadmate casts a Skill or Ultimate, increases Gerie\'s &Param1& by <color=#ec6d21>&Param2&</color> for &Param3&s, stacking up to &Param4& times.',
           shortDescription: 'When a squadmate casts a skill or Ultimate, increases Gerie\'s &Param1&.',
-          params: [
-            'ATK',
-            '10%/16%/22%/28%/34%/40%/46%/52%/58%',
-            '8',
-            '2'
-          ],
+          params: ['ATK', '10%/16%/22%/28%/34%/40%/46%/52%/58%', '8', '2'],
           rarity: 2,
           stype: 41,
           corner: 2,
           hints: {}
         },
-        {
+{
           name: 'Hexacalamity: Hallowed Chains',
           icon: '514927',
           description: 'When the chain shovel of Immediate Execution (Support Skill) hits a target, it deals <color=#ec6d21>&Param1& of ATK</color> as Terra Skill DMG.',
           shortDescription: 'When the Support Skill\'s chained spade hits a target, deals additional DMG.',
-          params: [
-            ''
-          ],
+          params: [''],
           rarity: 1,
           stype: 41,
           corner: 3,
           hints: {}
         },
-        {
+{
           name: 'Hexacalamity: Famine',
           icon: '514930',
           description: 'When the seismic waves generated by Immediate Execution (Support Skill) end, they deal an additional <color=#ec6d21>&Param1& of ATK</color> as AoE Terra Skill DMG.',
           shortDescription: 'When the Support Skill\'s seismic waves stop, deals DMG again.',
-          params: [
-            ''
-          ],
+          params: [''],
           rarity: 1,
           stype: 41,
           corner: 3,
           hints: {}
         },
-        {
+{
           name: 'Anima Resonance',
           icon: '514933',
           description: 'For each Terra Trekker on the squad, increases Gerie\'s &Param1& by <color=#ec6d21>&Param2&</color>.',
           shortDescription: 'For each Terra Trekker on the squad, increases Gerie\'s &Param1&.',
-          params: [
-            'ATK',
-            '5%/8%/11%/14%/17%/20%/23%/26%/29%'
-          ],
+          params: ['ATK', '5%/8%/11%/14%/17%/20%/23%/26%/29%'],
           rarity: 1,
           stype: 41,
           corner: 3,
@@ -18087,33 +17349,23 @@ export const allPotentials = {
         }
       ],
       common: [
-        {
+{
           name: 'Emberwing\'s Proclamation',
           icon: '514941',
           description: 'Increases Gerie\'s &Param1& by <color=#ec6d21>&Param2&</color>. \nDivine Retribution of Evil now conjures up 2 additional gigantic chained spades, dealing <color=#ec6d21>&Param3& of ATK</color> as Terra Ultimate DMG.',
           shortDescription: 'Increases Gerie\'s &Param1&. \nThe Ultimate now conjures up gigantic chained spades to deal DMG.',
-          params: [
-            'Ultimate DMG',
-            '5%/9%/12%/15%/18%/21%/25%/28%/31%',
-            ''
-          ],
+          params: ['Ultimate DMG', '5%/9%/12%/15%/18%/21%/25%/28%/31%', ''],
           rarity: 2,
           stype: 41,
           corner: null,
           hints: {}
         },
-        {
+{
           name: 'Quadrifrons\' Lore',
           icon: '514942',
           description: 'Increases Gerie\'s &Param1& by <color=#ec6d21>&Param2&</color>. When a friendly unit triggers ##Terra Mark#1020# on a target, additionally increases Gerie\'s &Param5& by <color=#ec6d21>&Param3&</color> to the same target for &Param4&s.',
           shortDescription: 'Increases Gerie\'s &Param1&. When a friendly unit triggers ##Terra Mark#1020# on a target, additionally increases Gerie\'s &Param5& to the same target.',
-          params: [
-            'Ultimate DMG',
-            '17%/28%/38%/49%/59%/69%/80%/90%/101%',
-            '24%/39%/54%/68%/83%/97%/112%/127%/141%',
-            '15',
-            'Ultimate DMG'
-          ],
+          params: ['Ultimate DMG', '17%/28%/38%/49%/59%/69%/80%/90%/101%', '24%/39%/54%/68%/83%/97%/112%/127%/141%', '15', 'Ultimate DMG'],
           rarity: 2,
           stype: 41,
           corner: null,
@@ -18125,16 +17377,12 @@ export const allPotentials = {
             }
           }
         },
-        {
+{
           name: 'Samsara\'s Judgment',
           icon: '514943',
           description: 'When casting Divine Retribution of Evil (Ultimate), increases Gerie\'s DMG to nearby targets by <color=#ec6d21>&Param2&</color> for &Param3&s. Also inflicts ##Fear#4501# on normal targets for 2s.',
           shortDescription: 'When Gerie casts the Ultimate, increases her nearby targets\' DMG taken. Normal targets will be inflicted with ##Fear#4501# for 2s.',
-          params: [
-            'Terra DMG',
-            '29%/47%/65%/82%/100%/117%/135%/153%/170%',
-            '15'
-          ],
+          params: ['Terra DMG', '29%/47%/65%/82%/100%/117%/135%/153%/170%', '15'],
           rarity: 2,
           stype: 41,
           corner: null,
@@ -23967,6 +23215,402 @@ export const allPotentials = {
       ]
     }
   },
+  "firstlight-noya": {
+    id: 162,
+    name: 'Firstlight Noya',
+    element: 'Lux',
+    buildOrder: {
+      main: {
+        build1: {
+          title: 'Firstlight Noya Main Build 1',
+          description: 'A build that keeps up relentless pressure with rapid longsword slashes, racking up hit after hit.',
+          potentials: ['Lucent Blitz', 'Dawnflare', 'Prism Warp', 'Resolve: Blitz', 'Lucent Tide']
+        },
+        build2: {
+          title: 'Firstlight Noya Main Build 2',
+          description: 'A build that swings the greatsword in massive arcs, crushing enemies under thunderous blows.',
+          potentials: ['Stardust Descent', 'Sinbreaker', 'Eclipse Phantom', 'Gavel of Absolution', 'Resolve: Sunder']
+        }
+      },
+      support: {
+        build1: {
+          title: 'Firstlight Noya Support Build 1',
+          description: 'A build that enhances the greatsword to unleash a barrage of lightning attacks against enemies.',
+          potentials: ['Tempest Scourge', 'Inquisitor\'s Edge', 'Radiant Sever', 'Aegis: Sunder', 'Fiendbreaker']
+        },
+        build2: {
+          title: 'Firstlight Noya Support Build 2',
+          description: 'A build that enhances high-speed slashes to launch thunder assaults on enemies.',
+          potentials: ['Skyrend Flash', 'Galeblade', 'Sunfire Cleave', 'Aegis: Blitz', 'Breath of Light']
+        }
+      }
+    },
+    potentials: {
+      mainCore: [
+{
+          name: 'Lucent Blitz',
+          icon: '516201',
+          description: 'Storm Flash: Radiance (Main Skill) unleashes <color=#0abec5>4</color> more longsword attacks and fires <color=#0abec5>9</color> Glows, each Glow dealing <color=#0abec5>&Param1&</color> of Max HP as Lux Skill DMG.',
+          shortDescription: 'Storm Flash: Radiance (Main Skill) unleashes more longsword attacks and fires multiple Glows at the target.',
+          params: ['21%/25%/28%/37%/40%/43%/49%/52%/55%/60%/64%/68%/72%'],
+          rarity: 1,
+          stype: 42,
+          corner: null,
+          hints: {}
+        },
+{
+          name: 'Dawnflare',
+          icon: '516202',
+          description: 'Firing a total of <color=#0abec5>&Param1&</color> Glows grants Radiance Flurry (Special Main Skill): swings the longsword to unleash a massive blade light that deals <color=#0abec5>&Param2& x6</color> of Max HP as Lux Skill DMG and can trigger ##Lux Mark#1015#.\nLongsword sprint attacks during Auto Attacks now fire <color=#0abec5>3</color> Glows, each dealing <color=#0abec5>&Param3&</color> of Max HP as Lux Skill DMG.',
+          shortDescription: 'Firing a certain number of Glows grants Firstlight Noya Radiance Flurry (Special Main Skill), which deals AoE DMG. Longsword sprint attacks during Auto Attacks now fire multiple Glows.',
+          params: ['17', '134%/155%/175%/235%/254%/273%/310%/327%/343%/376%/403%/427%/452%', '21%/25%/28%/37%/40%/43%/49%/52%/55%/60%/64%/68%/72%'],
+          rarity: 1,
+          stype: 42,
+          corner: null,
+          hints: {
+            1015: {
+              id: 1015,
+              name: 'Lux Mark',
+              description: 'The generic name for all Lux Marks.\nWhen triggered by specific Lux Trekkers\' attacks, the status is removed, and a special effect is activated.'
+            }
+          }
+        },
+{
+          name: 'Stardust Descent',
+          icon: '516203',
+          description: 'Storm Flash: Radiance (Main Skill) attacks additionally generate <color=#0abec5>2</color> Starfalls. Auto Attack sprints become greatsword attacks that deal <color=#0abec5>&Param1&</color> of Max HP as Lux Auto Attack DMG and generate 1 Starfall. Firstlight Noya triggering a Mark generates <color=#0abec5>1</color> Starfall, and this effect triggers only once every 1s. The above Starfalls deal <color=#0abec5>&Param2&</color> of Max HP as AoE Lux Auto Attack DMG.',
+          shortDescription: 'Storm Flash: Radiance (Main Skill) attacks generate multiple Starfalls. Auto Attack sprints become greatsword attacks that generate Starfalls. Firstlight Noya triggering a Mark also generates Starfalls. All Starfalls deal AoE DMG.',
+          params: ['89%/103%/116%/156%/169%/181%/206%/217%/228%/250%/268%/284%/300%', '23%/26%/30%/40%/43%/46%/52%/55%/58%/64%/68%/72%/76%'],
+          rarity: 1,
+          stype: 42,
+          corner: null,
+          hints: {}
+        },
+{
+          name: 'Sinbreaker',
+          icon: '516204',
+          description: 'Firstlight Noya absorbs lingering Starfalls nearby. For every <color=#0abec5>&Param1&</color> Starfalls absorbed, her next Auto Attack becomes Judgment Starfall (Special Auto Attack): channels energy into a massive downward greatsword strike, dealing <color=#0abec5>&Param2& x2</color> of Max HP as AoE Lux Auto Attack DMG, which can trigger ##Lux Mark#1015#.\nIncreases the greatsword\'s Attack Range and &Param3& during Auto Attacks by <color=#0abec5>&Param4&</color>. They can also trigger ##Lux Mark#1015#.',
+          shortDescription: 'Firstlight Noya absorbs lingering Starfalls nearby. After absorbing enough, her next Auto Attack becomes Judgment Starfall, dealing AoE DMG. Increases the greatsword\'s Attack Range and &Param3& during Auto Attacks, allowing them to trigger ##Lux Mark#1015#.',
+          params: ['11', '222%/256%/289%/389%/420%/451%/514%/540%/567%/623%/667%/707%/747%', '', ''],
+          rarity: 1,
+          stype: 42,
+          corner: null,
+          hints: {
+            1015: {
+              id: 1015,
+              name: 'Lux Mark',
+              description: 'The generic name for all Lux Marks.\nWhen triggered by specific Lux Trekkers\' attacks, the status is removed, and a special effect is activated.'
+            }
+          }
+        }
+      ],
+      mainNormal: [
+{
+          name: 'Prism Warp',
+          icon: '516205',
+          description: 'Glows fired by Firstlight Noya return to hit targets, dealing <color=#fb8037>&Param1&</color> of Max HP as Lux Skill DMG.\nIncreases the &Param2& dealt by Firstlight Noya\'s longsword attacks and Glows by <color=#fb8037>&Param3&</color>.',
+          shortDescription: 'Glows fired by Firstlight Noya return to deal DMG. Increases the &Param2& dealt by Firstlight Noya\'s longsword attacks and Glows.',
+          params: ['16%/25%/35%/44%/53%/63%/69%/74%/79%/0%/0%/0%/0%', 'Skill Crit Rate', '3.7%/6%/8.2%/10.5%/12.7%/15%/15%/15%/15%'],
+          rarity: 1,
+          stype: 41,
+          corner: 1,
+          hints: {}
+        },
+{
+          name: 'Eclipse Phantom',
+          icon: '516208',
+          description: 'Casting Judgment Starfall (Special Auto Attack) generates a field that deals <color=#fb8037>&Param1& x6</color> of Max HP as Lux Auto Attack DMG.\nIncreases the &Param2& dealt by Firstlight Noya\'s greatsword attacks and Starfalls by <color=#fb8037>&Param3&</color>.',
+          shortDescription: 'Casting Judgment Starfall (Special Auto Attack) generates a field that deals DMG multiple times. Increases the &Param2& dealt by Firstlight Noya\'s greatsword attacks and Starfalls.',
+          params: ['41%/66%/91%/115%/140%/165%/181%/194%/206%/0%/0%/0%/0%', 'Auto Attack Crit Rate', '3.7%/6%/8.2%/10.5%/12.7%/15%/15%/15%/15%'],
+          rarity: 1,
+          stype: 41,
+          corner: 1,
+          hints: {}
+        },
+{
+          name: 'Searing Sun',
+          icon: '516211',
+          description: 'Increases Firstlight Noya\'s &Param1& dealt to targets with ##Glimmer#4029# by <color=#fb8037>&Param2&</color>.\nIncreases her &Param3& by <color=#fb8037>&Param4&</color>.',
+          shortDescription: 'Increases Firstlight Noya\'s &Param1& dealt to targets with ##Glimmer#4029#. Increases her &Param3&.',
+          params: ['Lux DMG', '6%/9.6%/13.2%/16.8%/20.4%/24%/26.4%/28.2%/30%', 'Max HP', '150/240/330/420/510/600/660/705/750'],
+          rarity: 2,
+          stype: 41,
+          corner: 1,
+          hints: {
+            4029: {
+              id: 4029,
+              name: 'Glimmer'
+            }
+          }
+        },
+{
+          name: 'Resolve: Blitz',
+          icon: '516206',
+          description: 'Casting Radiance Flurry (Main Skill) switches Firstlight Noya\'s Ultimate to the longsword form.\nHer longsword attacks and Glows deal <color=#fb8037>&Param2&</color> more &Param1& to targets with ##Glimmer#4029#.',
+          shortDescription: 'Casting the Special Main Skill switches Firstlight Noya\'s Ultimate to the longsword form. Her longsword attacks and Glows deal increased &Param1& to targets with ##Glimmer#4029#.',
+          params: ['DMG multiplier', '4.5%/7.2%/9.9%/12.6%/15.3%/18%/20%/22%/24%'],
+          rarity: 2,
+          stype: 41,
+          corner: 2,
+          hints: {
+            4029: {
+              id: 4029,
+              name: 'Glimmer'
+            }
+          }
+        },
+{
+          name: 'Gavel of Absolution',
+          icon: '516209',
+          description: 'When Starfalls dissipate, strike the target with a lightning bolt, dealing <color=#fb8037>&Param1&</color> of Max HP as Lux Auto Attack DMG.\nCasting the Main Skill increases Firstlight Noya\'s &Param2& by <color=#fb8037>&Param3&</color> for &Param4&.',
+          shortDescription: 'When Starfalls dissipate, strike the target with lightning. Casting the Main Skill increases Firstlight Noya\'s &Param2&.',
+          params: ['14%/22%/31%/39%/47%/56%/61%/65%/70%/0%/0%/0%/0%', 'Auto Attack Crit Rate', '3.7%/6%/8.2%/10.5%/12.7%/15%/15%/15%/15%', '12'],
+          rarity: 2,
+          stype: 41,
+          corner: 2,
+          hints: {}
+        },
+{
+          name: 'Astral Brilliance',
+          icon: '516212',
+          description: 'Each Lux Trekker in the squad increases Firstlight Noya\'s ##Lux PEN#2068# by <color=#fb8037>&Param2&</color>.',
+          shortDescription: 'Lux Trekkers in the squad increase Firstlight Noya\'s ##Lux PEN#2068#.',
+          params: ['Lux PEN', '10/15/20/25/30/35/40/45/50'],
+          rarity: 1,
+          stype: 41,
+          corner: 2,
+          hints: {
+            2068: {
+              id: 2068,
+              name: 'Lux PEN',
+              description: 'DMG dealt penetrates part of the target\'s Elemental RES, up to 250.'
+            }
+          }
+        },
+{
+          name: 'Lucent Tide',
+          icon: '516207',
+          description: 'Glows can trigger ##Lux Mark#1015# and have a &Param1&% chance to gain increased Attack Range.\nCasting the Main Skill increases Firstlight Noya\'s &Param2& by <color=#fb8037>&Param3&</color> and Lux Versatile Trekkers\' &Param4& by <color=#fb8037>&Param5&</color> for &Param6&s, stacking up to &Param7& times.',
+          shortDescription: 'Glows can trigger ##Lux Mark#1015# and have a chance to gain increased Attack Range. Casting the Main Skill increases Firstlight Noya\'s &Param2& and Lux Versatile Trekkers\' &Param4&.',
+          params: ['50', 'Skill Crit Rate', '1.8%/3%/4.1%/5.2%/6.3%/7.5%/7.5%/7.5%/7.5%', 'Skill Crit DMG', '7.5%/12%/16.5%/21%/25.5%/30%/33%/35.2%/37.5%', '12', '2'],
+          rarity: 2,
+          stype: 41,
+          corner: 3,
+          hints: {
+            1015: {
+              id: 1015,
+              name: 'Lux Mark',
+              description: 'The generic name for all Lux Marks.\nWhen triggered by specific Lux Trekkers\' attacks, the status is removed, and a special effect is activated.'
+            }
+          }
+        },
+{
+          name: 'Resolve: Sunder',
+          icon: '516210',
+          description: 'Casting Judgment Starfall (Special Auto Attack) switches Firstlight Noya\'s Ultimate to the greatsword form.\nIncreases the &Param1& dealt by her greatsword attacks and Starfalls by <color=#fb8037>&Param2&</color>.',
+          shortDescription: 'Casting Judgment Starfall (Special Auto Attack) switches Firstlight Noya\'s Ultimate to the greatsword form. Increases the &Param1& dealt by her greatsword attacks and Starfalls.',
+          params: ['DEF PEN', '1500%/2400%/3300%/4200%/5100%/6000%/6600%/7200%/7800%'],
+          rarity: 2,
+          stype: 41,
+          corner: 3,
+          hints: {}
+        },
+{
+          name: 'Veteran\'s Grit',
+          icon: '516213',
+          description: 'Increases Firstlight Noya\'s &Param1& by <color=#fb8037>&Param2&</color>.',
+          shortDescription: 'Increases Firstlight Noya\'s &Param1&.',
+          params: ['Max HP', '2250/3600/4950/6300/7650/9000/9900/10575/11250'],
+          rarity: 2,
+          stype: 41,
+          corner: 3,
+          hints: {}
+        }
+      ],
+      supportCore: [
+{
+          name: 'Tempest Scourge',
+          icon: '516221',
+          description: 'The greatsword attack in Thunderstrike: Break (Support Skill) leaves behind a field that deals <color=#0abec5>&Param1& x6</color> of Max HP as Lux Auto Attack DMG.',
+          shortDescription: 'The greatsword attack in Thunderstrike: Break (Support Skill) leaves behind a field that deals DMG multiple times.',
+          params: ['92%/106%/120%/161%/174%/187%/213%/224%/235%/257%/276%/294%/312%'],
+          rarity: 1,
+          stype: 42,
+          corner: null,
+          hints: {}
+        },
+{
+          name: 'Inquisitor\'s Edge',
+          icon: '516222',
+          description: 'The greatsword attack in Thunderstrike: Break (Support Skill) generates <color=#0abec5>11</color> Starfalls, each dealing <color=#0abec5>&Param1&</color> of Max HP as Lux Auto Attack DMG.',
+          shortDescription: 'The greatsword attack in Thunderstrike: Break (Support Skill) generates multiple Starfalls to attack the target.',
+          params: ['50%/58%/65%/88%/95%/102%/116%/122%/128%/140%/150%/160%/170%'],
+          rarity: 1,
+          stype: 42,
+          corner: null,
+          hints: {}
+        },
+{
+          name: 'Skyrend Flash',
+          icon: '516223',
+          description: 'The longsword attack in Thunderstrike: Break (Support Skill) continuously fires Glows at the target, each dealing <color=#0abec5>&Param1&</color> of Max HP as Lux Skill DMG.',
+          shortDescription: 'The longsword attack in Thunderstrike: Break (Support Skill) continuously fires Glows at the target.',
+          params: ['28%/32%/37%/49%/53%/57%/65%/68%/72%/79%/84%/90%/95%'],
+          rarity: 1,
+          stype: 42,
+          corner: null,
+          hints: {}
+        },
+{
+          name: 'Galeblade',
+          icon: '516224',
+          description: 'Thunderstrike: Break (Support Skill) performs <color=#0abec5>10</color> more longsword attacks.',
+          shortDescription: 'Thunderstrike: Break (Support Skill) performs more longsword attacks.',
+          params: [],
+          rarity: 1,
+          stype: 42,
+          corner: null,
+          hints: {}
+        }
+      ],
+      supportNormal: [
+{
+          name: 'Radiant Sever',
+          icon: '516225',
+          description: 'Increases the Attack Range of Starfalls generated by Thunderstrike: Break (Support Skill).\nEach generated Starfall increases Firstlight Noya\'s &Param1& by <color=#fb8037>&Param2&</color> for &Param3&s, stacking up to &Param4& times.',
+          shortDescription: 'Increases the Attack Range of Starfalls generated by Thunderstrike: Break (Support Skill). Generating a Starfall increases Firstlight Noya\'s &Param1&.',
+          params: ['Auto Attack DMG', '5%/8%/11%/14%/17%/20%/23%/26%/29%', '12', '3'],
+          rarity: 1,
+          stype: 41,
+          corner: 1,
+          hints: {}
+        },
+{
+          name: 'Sunfire Cleave',
+          icon: '516228',
+          description: 'Glows have a &Param1&% chance to gain increased Attack Range when fired.\nIncreases the &Param2& dealt by Firstlight Noya\'s longsword attacks and Glows by <color=#fb8037>&Param3&</color>.',
+          shortDescription: 'Glows have a chance to gain increased Attack Range when fired. Increases the &Param2& dealt by Firstlight Noya\'s longsword attacks and Glows.',
+          params: ['50', 'Skill DMG', '15%/24%/33%/42%/51%/60%/69%/78%/87%'],
+          rarity: 1,
+          stype: 41,
+          corner: 1,
+          hints: {}
+        },
+{
+          name: 'No More Goodbyes',
+          icon: '516231',
+          description: 'Each Lux Trekker in the squad increases all Lux Trekkers\' &Param1& by <color=#fb8037>&Param2&</color>.',
+          shortDescription: 'Lux Trekkers in the squad increase all Lux Trekkers\' &Param1&.',
+          params: ['Lux DMG', '3%/5%/7%/9%/11%/13%/15%/17%/19%'],
+          rarity: 1,
+          stype: 41,
+          corner: 1,
+          hints: {}
+        },
+{
+          name: 'Aegis: Sunder',
+          icon: '516226',
+          description: 'After the greatsword attack in Thunderstrike: Break (Support Skill), switches Firstlight Noya\'s Ultimate to the greatsword form.\nWhen her longsword attacks deal DMG, increases her &Param1& by <color=#fb8037>&Param2&</color> for &Param3&s, stacking up to &Param4& times.',
+          shortDescription: 'After the greatsword attack in Thunderstrike: Break (Support Skill), switches Firstlight Noya\'s Ultimate to the greatsword form. When her longsword attacks deal DMG, increases her &Param1&.',
+          params: ['Lux DMG', '3%/4.8%/6.6%/8.4%/10.2%/12%/13.8%/15.6%/17.4%', '8', '5'],
+          rarity: 2,
+          stype: 41,
+          corner: 2,
+          hints: {}
+        },
+{
+          name: 'Aegis: Blitz',
+          icon: '516229',
+          description: 'After the longsword attack in Thunderstrike: Break (Support Skill), switches Firstlight Noya\'s Ultimate to the longsword form.\nWhen her greatsword deals DMG, increases her &Param1& by <color=#fb8037>&Param2&</color> for &Param3&s, stacking up to &Param4& times.',
+          shortDescription: 'After the longsword attack in Thunderstrike: Break (Support Skill), Firstlight Noya\'s Ultimate switches to the longsword form. When her greatsword attacks deal DMG, increases her &Param1&.',
+          params: ['Lux DMG', '5%/8%/11%/14%/17%/20%/23%/26%/29%', '20', '3'],
+          rarity: 2,
+          stype: 41,
+          corner: 2,
+          hints: {}
+        },
+{
+          name: 'No More Sorrow',
+          icon: '516232',
+          description: 'When the Lux Main Trekker casts the Main Skill, increases Firstlight Noya\'s &Param1& by <color=#fb8037>&Param2&</color> for &Param3&s.',
+          shortDescription: 'When the Lux Main Trekker casts the Main Skill, increases Firstlight Noya\'s &Param1&.',
+          params: ['Lux DMG', '10%/16%/22%/28%/34%/40%/46%/52%/58%', '15'],
+          rarity: 2,
+          stype: 41,
+          corner: 2,
+          hints: {}
+        },
+{
+          name: 'Fiendbreaker',
+          icon: '516227',
+          description: 'Increases the &Param1& dealt by Firstlight Noya\'s greatsword attacks and Starfalls by <color=#fb8037>&Param2&</color>.',
+          shortDescription: 'Increases the &Param1& dealt by Firstlight Noya\'s greatsword attacks and Starfalls.',
+          params: ['DMG multiplier', '5%/8%/11%/14%/17%/20%/23%/26%/29%'],
+          rarity: 2,
+          stype: 41,
+          corner: 3,
+          hints: {}
+        },
+{
+          name: 'Breath of Light',
+          icon: '516230',
+          description: 'Increases the &Param1& dealt by Firstlight Noya\'s longsword attacks and Glows by <color=#fb8037>&Param2&</color>.',
+          shortDescription: 'Increases the &Param1& dealt by Firstlight Noya\'s longsword attacks and Glows.',
+          params: ['DMG multiplier', '5%/8%/11%/14%/17%/20%/23%/26%/29%'],
+          rarity: 2,
+          stype: 41,
+          corner: 3,
+          hints: {}
+        },
+{
+          name: 'No More Chains',
+          icon: '516233',
+          description: 'When any Lux Trekker in the squad casts a Main Skill or Support Skill, increases Firstlight Noya\'s &Param1& by <color=#fb8037>&Param2&</color> for &Param3&, stacking up to &Param4& times.',
+          shortDescription: 'When any Lux Trekker in the squad casts a Main Skill or Support Skill, increases Firstlight Noya\'s &Param1&.',
+          params: ['Lux DMG', '3%/5%/7%/9%/11%/13%/15%/17%/19%', '10', '3'],
+          rarity: 2,
+          stype: 41,
+          corner: 3,
+          hints: {}
+        }
+      ],
+      common: [
+{
+          name: 'Argent Mirage: Legion\'s End',
+          icon: '516241',
+          description: 'When casting the longsword form Empyrean Starender (Ultimate), fires 7 Glows that each deal <color=#fb8037>&Param1&</color>of Max HP as Lux Skill DMG.\nIncreases Firstlight Noya\'s &Param2& by <color=#fb8037>&Param3&</color>.',
+          shortDescription: 'When casting the longsword form Empyrean Starender (Ultimate), fires multiple Glows at the target and increases Firstlight Noya\'s &Param2&.',
+          params: ['30%/48%/66%/84%/102%/120%/132%/141%/150%/0%/0%/0%/0%', 'Skill DMG', '15%/24%/33%/42%/51%/60%/66%/70.5%/75%'],
+          rarity: 2,
+          stype: 41,
+          corner: null,
+          hints: {}
+        },
+{
+          name: 'Empyrean Starfall: Devil\'s End',
+          icon: '516242',
+          description: 'The greatsword form Empyrean Starender (Ultimate) leaves behind a field that deals <color=#fb8037>&Param1& x6</color> of Max HP as Lux Auto Attack DMG.\nIncreases Firstlight Noya\'s &Param2& by <color=#fb8037>&Param3&</color>.',
+          shortDescription: 'The greatsword form Empyrean Starender (Ultimate) leaves behind a field to attack the target. Increases Firstlight Noya\'s &Param2&.',
+          params: ['41%/66%/91%/115%/140%/165%/181%/194%/206%/0%/0%/0%/0%', 'Auto Attack DMG', '15%/24%/33%/42%/51%/60%/66%/70.5%/75%'],
+          rarity: 2,
+          stype: 41,
+          corner: null,
+          hints: {}
+        },
+{
+          name: 'Guiding Star',
+          icon: '516243',
+          description: 'While in the Starender state, Noya gains <color=#fb8037>&Param2&</color> additional &Param1& and restores <color=#fb8037>&Param4&</color> Energy every &Param3&s.',
+          shortDescription: 'While in the Starender state, Noya gains additional &Param1& and regularly restores Energy.',
+          params: ['Crit DMG', '15%/24%/33%/42%/51%/60%/66%/70.5%/75%', '', ''],
+          rarity: 2,
+          stype: 41,
+          corner: null,
+          hints: {}
+        }
+      ]
+    }
+  },
 };
 
 // Helper functions
@@ -23983,6 +23627,7 @@ export const getAllCharacterNames = () =>
 
 // kebab-slug aliases
 allPotentials['allie'] = allPotentials.allie;
+allPotentials.firstlightNoya = allPotentials['firstlight-noya'];
 
 // Get a specific potential by name for a character (searches all categories)
 export const getPotentialByName = (characterName, potentialName) => {

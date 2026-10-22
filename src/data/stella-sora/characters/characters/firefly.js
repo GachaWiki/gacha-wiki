@@ -42,14 +42,14 @@ export const Firefly = {
   ],
   "giftPreferences": {
     "loves": [
-      "Card Photo Capturer",
+      "Card Capturer",
       "Cosmic Form",
       "Fragrant Ice Delight",
       "Moonlit Companion",
       "Reflective Photo Capturer",
-      "Stellanite Enchantment",
-      "Summer Chill Crushed Ice",
-      "Sweet IceFurry",
+      "Star Eclipse",
+      "Chill Crushed Ice",
+      "Sweet Ice Furry",
       "Ultra-Precision Photo Capturer"
     ],
     "hates": [

@@ -53,11 +53,11 @@ export const Jinglin = {
   ],
   "giftPreferences": {
     "loves": [
-      "Summer Chill Crushed Ice",
+      "Chill Crushed Ice",
       "Fragrant Ice Delight",
-      "Sweet IceFurry",
+      "Sweet Ice Furry",
       "Gilded Ceramic Bowl",
-      "Blossom Porcelain Cup",
+      "Porcelain Cup",
       "Mystic Potion Kettle"
     ],
     "hates": []
