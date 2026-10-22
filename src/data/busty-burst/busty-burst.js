@@ -63,6 +63,7 @@ export const bustyBurstConfig = {
         { id: 'bb-support-stats', title: 'Support Stats', url: '/guides/busty-burst/support-stats/' },
         { id: 'bb-support-bonus', title: 'Support Bonus', url: '/guides/busty-burst/support-bonus/' },
         { id: 'bb-official-art', title: 'Official Art', url: '/guides/busty-burst/official-art/' },
+        { id: 'bb-artists', title: 'Artists', url: '/guides/busty-burst/artists/' },
       ],
     },
     {
