@@ -3,8 +3,15 @@
 // Main story / event story / tales CGs and world location art, served from R2
 import StoryGalleryLayout from '../../../layouts/stella-sora/StoryGalleryLayout.astro';
 import { STORY_GALLERY } from '../../../data/stella-sora/story-gallery.js';
+import { STORY_VIDEOS } from '../../../data/stella-sora/story-videos.js';
 
 const R2_BASE = 'https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/stella-sora';
+
+// flat video count for the tab badge (gallery tabs are arrays, videos are grouped)
+const TAB_COUNTS: Record<string, any[]> = {
+  ...STORY_GALLERY,
+  svideos: STORY_VIDEOS.flatMap(g => g.items),
+};
 
 const TABS = [
   { id: 'main', label: 'Main Story' },
@@ -12,6 +19,7 @@ const TABS = [
   { id: 'tales', label: 'Tales' },
   { id: 'bg', label: 'World' },
   { id: 'xart', label: 'Official Art' },
+  { id: 'svideos', label: 'Story Videos' },
 ];
 
 // group main story by chapter for subheadings
@@ -74,7 +82,7 @@ const structuredData = {
           >
             {tab.label}
             <span class="story-tab-count">
-              {STORY_GALLERY[tab.id as keyof typeof STORY_GALLERY].length}
+              {TAB_COUNTS[tab.id as keyof typeof TAB_COUNTS].length}
             </span>
           </button>
         ))
@@ -189,6 +197,28 @@ const structuredData = {
           ))
         }
       </div>
+    </div>
+
+    <div class="story-tab-panel" id="panel-svideos" role="tabpanel" data-panel="svideos" hidden>
+      {
+        STORY_VIDEOS.map(group => (
+          <div class="story-chapter-group">
+            <h2 class="story-chapter-title">{group.group}</h2>
+            <div class="svideo-grid">
+              {group.items.map(v => (
+                <div class="svideo-card">
+                  <video controls preload="none" poster={`${R2_BASE}/${v.poster}`}>
+                    <source src={`${R2_BASE}/${v.video}`} type="video/mp4" />
+                  </video>
+                  <span class="story-caption">
+                    {v.title} · {v.duration}
+                  </span>
+                </div>
+              ))}
+            </div>
+          </div>
+        ))
+      }
     </div>
   </section>
 </StoryGalleryLayout>

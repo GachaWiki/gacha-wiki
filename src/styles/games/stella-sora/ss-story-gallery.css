@@ -102,3 +102,28 @@
     gap: 0.75rem;
   }
 }
+
+/* ---- Story Videos tab: client-extracted cutscenes, lazy (preload=none) ---- */
+.svideo-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 1rem;
+}
+
+.svideo-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  background: var(--ss-bg-tertiary);
+  border: 1px solid var(--ss-border);
+  border-radius: var(--ss-radius-md);
+  padding: 0.75rem;
+}
+
+.svideo-card video {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  background: #000;
+  border-radius: var(--ss-radius-sm);
+  display: block;
+}
