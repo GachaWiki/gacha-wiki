@@ -613,3 +613,85 @@
   font-size: var(--text-xs);
   color: var(--ss-text-secondary);
 }
+
+/* ---- Community tab compact cards (v2.0 redesign): portrait + chips +
+   one-line meta + build rows; full details stay on the build pages. ---- */
+.community-grid {
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
+
+.community-card {
+  gap: 0.65rem;
+}
+
+.community-head {
+  align-items: center;
+}
+
+.community-portrait {
+  width: 72px;
+  height: 72px;
+  object-fit: cover;
+  border-radius: var(--ss-radius-sm);
+  border: 1px solid var(--ss-border);
+  flex: none;
+}
+
+.community-buildcount {
+  font-size: var(--text-2xs);
+  color: var(--ss-text-secondary);
+  border: 1px solid var(--ss-border);
+  border-radius: var(--ss-radius-sm);
+  padding: 0.1rem 0.4rem;
+}
+
+.community-meta-clamp {
+  margin: 0;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.community-builds-rows {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.community-row {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  min-width: 0;
+}
+
+.community-row-name {
+  flex: 1 1 auto;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: var(--ss-primary);
+  text-decoration: none;
+  font-size: var(--text-sm);
+}
+
+.community-row-team {
+  display: flex;
+  align-items: center;
+  gap: 0.2rem;
+  flex: none;
+}
+
+.community-row-team img {
+  display: block;
+  border-radius: var(--ss-radius-sm);
+}
+
+.tbuilds-count {
+  font-size: var(--text-xs);
+  color: var(--ss-text-secondary);
+  margin-left: auto;
+  white-space: nowrap;
+}

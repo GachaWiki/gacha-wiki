@@ -29,6 +29,7 @@ const SKILL_SLUGS = new Set([
   'jinglin', 'karin', 'kasimira', 'laru', 'minova', 'mistique', 'nanoha', 'nazuka', 'nazuna',
   'noya', 'otoha', 'ridge', 'shia', 'shimiao', 'snowish-laru', 'sparkla', 'springseek-coronis',
   'suntide-willow', 'teresa', 'tilia', 'wraith',
+'firstlight-noya',
 ]);
 
 // Character element mapping (all 39 characters)
@@ -46,6 +47,7 @@ const characterElementMap: Record<string, string> = {
   eleanor: 'ventus',
   firefly: 'lux',
   firenze: 'umbra',
+  'firstlight-noya': 'lux',
   flora: 'ignis',
   freesia: 'aqua',
   fuyuka: 'ignis',
@@ -87,6 +89,8 @@ const { characterName, skillType, alt, loading = 'lazy', class: className } = As
 // Get character slug (lowercase, spaces to hyphens)
 // Special cases for characters with different folder names
 const characterSlugMap: Record<string, string> = {
+  'firstlight noya': 'firstlight-noya',
+  firstlightnoya: 'firstlight-noya',
   'snowish laru': 'snowish-laru',
   snowishlaru: 'snowish-laru',
   springseekcoronis: 'springseek-coronis',
