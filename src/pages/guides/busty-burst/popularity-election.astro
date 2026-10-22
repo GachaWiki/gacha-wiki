@@ -1,0 +1,181 @@
+---
+// Busty Burst Fantasy - JP anniversary Paladin Popularity Election results page
+import BannerTimelineLayout from '../../../layouts/busty-burst/BannerTimelineLayout.astro';
+import { ELECTIONS } from '../../../data/busty-burst/election.js';
+
+const fmt = (n) => n.toLocaleString('en-US');
+---
+
+<BannerTimelineLayout title="JP Popularity Elections - Busty Burst Fantasy" description="Results of the JP server anniversary Paladin Popularity Elections for Busty Burst Fantasy, with vote counts and reward outcomes." gameTitle="JP Popularity Elections">
+  <section class="content-section">
+    <div class="bb-elect-intro">
+      <h2 class="bb-elect-title">How the elections work</h2>
+      <p class="bb-elect-text">
+        Each anniversary the JP server runs a Paladin Popularity Election (人気聖騎士総選挙). Players earn voting tickets by playing normally (ticket supply scales with AP spent), so the results reflect engaged JP player preference rather than pure strength. The SSR 1st place winner receives a new costume and a dedicated weapon, and the SR 1st place winner is promoted to SSR in a later update.
+      </p>
+      <p class="bb-elect-text">
+        The EN server follows JP content, so election rewards eventually reach EN. From the latest vote: Elaine's new costume and weapon, and Tsukina's SSR promotion, are still pending on the JP side.
+      </p>
+    </div>
+
+    {ELECTIONS.map((el) => (
+      <div class="bb-elect-card">
+        <div class="bb-elect-card-head">
+          <h3 class="bb-elect-card-title">{el.name}</h3>
+          <span class="bb-elect-jp">{el.jpName}</span>
+          <span class="bb-elect-dates">{el.dates}</span>
+        </div>
+        <p class="bb-elect-rewards">{el.rewards}</p>
+        <div class="bb-elect-winner-notes">
+          <span class="bb-elect-chip bb-elect-chip-ssr">SSR winner: {el.ssrWinnerNote}</span>
+          <span class="bb-elect-chip bb-elect-chip-sr">SR winner: {el.srWinnerNote}</span>
+        </div>
+        <div class="bb-elect-groups">
+          {[
+            { label: 'SSR Group', rows: el.ssr },
+            { label: 'SR Group', rows: el.sr },
+          ].map((group) => (
+            <div class="bb-elect-group">
+              <h4 class="bb-elect-group-title">{group.label}</h4>
+              <ol class="bb-elect-list">
+                {group.rows.map((row) => (
+                  <li class={`bb-elect-row${row.rank === 1 ? ' bb-elect-row-winner' : ''}`}>
+                    <span class="bb-elect-rank">{row.rank}</span>
+                    <span class="bb-elect-name">
+                      {row.slug ? (
+                        <a href={`/guides/busty-burst/characters/${row.slug}/`}>{row.name}</a>
+                      ) : (
+                        row.name
+                      )}
+                    </span>
+                    <span class="bb-elect-votes">{fmt(row.votes)} votes</span>
+                  </li>
+                ))}
+              </ol>
+            </div>
+          ))}
+        </div>
+        <p class="bb-elect-footnote">Vote counts from the official in-game results notice. Names without links are not yet on the EN server.</p>
+      </div>
+    ))}
+  </section>
+</BannerTimelineLayout>
+
+<style>
+  .content-section {
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+  .bb-elect-intro,
+  .bb-elect-card {
+    background: rgba(255, 255, 255, 0.04);
+    border: 1px solid rgba(255, 255, 255, 0.09);
+    border-radius: 10px;
+    padding: 20px;
+  }
+  .bb-elect-title {
+    font-size: var(--text-xl);
+    margin: 0 0 10px;
+  }
+  .bb-elect-text {
+    font-size: var(--text-sm);
+    line-height: 1.6;
+    margin: 0 0 10px;
+    color: rgba(255, 255, 255, 0.82);
+  }
+  .bb-elect-card-head {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  .bb-elect-card-title {
+    font-size: var(--text-lg);
+    margin: 0;
+  }
+  .bb-elect-jp {
+    font-size: var(--text-xs);
+    color: rgba(255, 255, 255, 0.55);
+  }
+  .bb-elect-dates {
+    font-size: var(--text-xs);
+    color: rgba(255, 255, 255, 0.65);
+  }
+  .bb-elect-rewards {
+    font-size: var(--text-sm);
+    margin: 0 0 12px;
+    color: rgba(255, 255, 255, 0.82);
+  }
+  .bb-elect-winner-notes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin: 0 0 16px;
+  }
+  .bb-elect-chip {
+    display: inline-block;
+    border-radius: 5px;
+    padding: 4px 10px;
+    font-size: var(--text-xs);
+    font-weight: 700;
+    color: #ffffff;
+  }
+  .bb-elect-chip-ssr { background: #b8860b; }
+  .bb-elect-chip-sr { background: #4878a8; }
+  .bb-elect-groups {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 20px;
+  }
+  .bb-elect-group-title {
+    font-size: var(--text-base);
+    margin: 0 0 8px;
+  }
+  .bb-elect-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+  .bb-elect-row {
+    display: grid;
+    grid-template-columns: 28px 1fr auto;
+    align-items: center;
+    gap: 10px;
+    padding: 6px 10px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.03);
+    font-size: var(--text-sm);
+  }
+  .bb-elect-row-winner {
+    background: rgba(109, 184, 216, 0.16);
+  }
+  .bb-elect-rank {
+    font-size: var(--text-xs);
+    font-weight: 700;
+    color: rgba(255, 255, 255, 0.6);
+  }
+  .bb-elect-name a {
+    color: var(--bbc-accent, #6db8d8);
+    text-decoration: none;
+  }
+  .bb-elect-votes {
+    font-size: var(--text-xs);
+    color: rgba(255, 255, 255, 0.6);
+  }
+  .bb-elect-footnote {
+    font-size: var(--text-2xs);
+    color: rgba(255, 255, 255, 0.45);
+    margin: 14px 0 0;
+  }
+  @media (max-width: 640px) {
+    .bb-elect-card { padding: 14px; }
+    .bb-elect-groups { grid-template-columns: 1fr; }
+  }
+</style>

@@ -294,6 +294,7 @@ export const NAV_DATA: Record<GameKey, { sections: NavigationSection[] }> = {
           { name: 'Build', href: '/guides/busty-burst/build/' },
           { name: 'Support Tier List', href: '/guides/busty-burst/support-tier-list/' },
           { name: 'Summon or Skip?', href: '/guides/busty-burst/summon-or-skip/' },
+          { name: 'JP Popularity Elections', href: '/guides/busty-burst/popularity-election/' },
           { name: 'Bust & Booty', href: '/guides/busty-burst/bust-booty-ranking/' },
         ],
       },
