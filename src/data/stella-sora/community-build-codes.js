@@ -1422,5 +1422,69 @@ export const COMMUNITY_CODES = {
       ]
     },
     "dropped": []
+  },
+
+  "nazuna:2": {
+    "code": "AAAAnAAAAJUAAABrUMEBvACgADsMAMGAAGAC",
+    "reason": "",
+    "members": {
+      "nazuna": [
+        {"id": 515602, "name": "Wobble Dance", "kind": "core", "level": null},
+        {"id": 515604, "name": "Graceful Turn", "kind": "core", "level": null},
+        {"id": 515606, "name": "Cutie's Rally", "kind": "normal", "level": 3},
+        {"id": 515608, "name": "Clean Sweep", "kind": "normal", "level": 1},
+        {"id": 515613, "name": "Wily Wonder", "kind": "normal", "level": 3},
+        {"id": 515610, "name": "Focus Fire", "kind": "normal", "level": 3},
+        {"id": 515612, "name": "Touch of Nature", "kind": "normal", "level": 6},
+      ],
+      "gerie": [
+        {"id": 514921, "name": "Deeper into Sin", "kind": "core", "level": null},
+        {"id": 514923, "name": "Sin-Bound Echo", "kind": "core", "level": null},
+        {"id": 514930, "name": "Hexacalamity: Famine", "kind": "normal", "level": 1},
+        {"id": 514931, "name": "Twilight's Verdict", "kind": "normal", "level": 6},
+        {"id": 514932, "name": "Twilight's Hunt", "kind": "normal", "level": 6},
+        {"id": 514933, "name": "Anima Resonance", "kind": "normal", "level": 6},
+      ],
+      "tilia": [
+        {"id": 510721, "name": "Holy Inscription", "kind": "core", "level": null},
+        {"id": 510722, "name": "Renewed Spectrum", "kind": "core", "level": null},
+        {"id": 510726, "name": "Blinding Beam", "kind": "normal", "level": 6},
+        {"id": 510729, "name": "Trick Boost", "kind": "normal", "level": 6},
+        {"id": 510743, "name": "Knight Oath: Courage", "kind": "common", "level": 2},
+      ],
+    },
+    "dropped": []
+  },
+  "chitose:3": {
+    "code": "AAAAkAAAAH0AAAB/MAYjZADMABgAAKxABAwB",
+    "reason": "",
+    "members": {
+      "chitose": [
+        {"id": 514403, "name": "Cascade of Ruin", "kind": "core", "level": null},
+        {"id": 514404, "name": "Against the Flow", "kind": "core", "level": null},
+        {"id": 514408, "name": "Serpent in Tide", "kind": "normal", "level": 6},
+        {"id": 514409, "name": "Returning Tide", "kind": "normal", "level": 1},
+        {"id": 514413, "name": "Azure Embrace", "kind": "normal", "level": 6},
+        {"id": 514410, "name": "Flowing Circle", "kind": "normal", "level": 6},
+        {"id": 514412, "name": "Adamant Scales", "kind": "normal", "level": 2},
+      ],
+      "freesia": [
+        {"id": 512521, "name": "Realm of Frost", "kind": "core", "level": null},
+        {"id": 512522, "name": "Chill Forecast", "kind": "core", "level": null},
+        {"id": 512525, "name": "Winter's Grip", "kind": "normal", "level": 6},
+        {"id": 512531, "name": "Guardian's Heart", "kind": "normal", "level": 6},
+      ],
+      "teresa": [
+        {"id": 512721, "name": "Surge: Infinite", "kind": "core", "level": null},
+        {"id": 512723, "name": "Surge: Immortality", "kind": "core", "level": null},
+        {"id": 512725, "name": "Isn't It Awesome!", "kind": "normal", "level": 6},
+        {"id": 512726, "name": "Hold On!", "kind": "normal", "level": 1},
+        {"id": 512731, "name": "Band-aid Collector", "kind": "normal", "level": 1},
+        {"id": 512733, "name": "Shortcut Seeker", "kind": "normal", "level": 6},
+        {"id": 512743, "name": "Demonic Devour", "kind": "common", "level": 1},
+      ],
+    },
+    "dropped": []
   }
+
 };
