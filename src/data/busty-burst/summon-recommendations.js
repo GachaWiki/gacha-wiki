@@ -3,6 +3,34 @@
 
 export const summonRecommendations = [
   {
+    bannerId: 'banner-the-sun-and-the-moon',
+    character: 'Bernadette & Adrienne',
+    characterSlug: 'bernadette',
+    bannerType: 'Event Summon',
+    startDate: '2026-10-20',
+    endDate: '2026-11-03',
+    verdict: 'summon',
+    summary: 'Pull for the singer duo. Both are SSS tier support units and both work on physical and magic teams: Bernadette covers the physical side, Adrienne covers the magic side, and their shared Accuracy UP, Max HP and stacking ATK buffs fit anywhere.',
+    reasons: [
+      {
+        title: 'SSS Tier Support Units',
+        text: 'Both placed SSS on our tier list. Back-row supports who pump crit, hit-based damage and accuracy while shredding enemy defense and block, exactly what every damage dealer wants.',
+      },
+      {
+        title: 'Physical And Magic Coverage In One Banner',
+        text: 'Bernadette raises physical crit and hit-based physical damage and drops enemy physical defense with a chance to stun. Adrienne is the magic counterpart, dropping enemy magic defense with a chance to sleep. Whichever team type you run, this banner has your support.',
+      },
+      {
+        title: 'Team-Wide Utility That Fits Anywhere',
+        text: 'Both bring Accuracy UP, Max HP passives, MP recovery after ally ultimates, and stacking ATK buffs after their own ultimate (physical for Bernadette, magic for Adrienne). The pair works on both physical and magic teams.',
+      },
+      {
+        title: 'Two SSR Pickups On A 14-Day Banner',
+        text: 'A dual pickup banner like Bridal Blessing, running Oct 20 to Nov 3. Two rate-up SSR supports for one banner is strong value for any account.',
+      },
+    ],
+  },
+  {
     bannerId: 'banner-paladin-introduction-diana',
     character: 'Diana & Zilka',
     characterSlug: 'diana',

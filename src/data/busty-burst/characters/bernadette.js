@@ -41,8 +41,8 @@ export const info = {
     }
   },
   "obtain": {
-    "type": "unknown",
-    "source": ""
+    "type": "banner",
+    "source": "The Sun and the Moon Event Summon"
   },
   "characterId": 2153
 };
@@ -89,11 +89,11 @@ export const skills = {
     },
     {
       "slot": 3,
-      "name": "Don't you want to hear my song?",
+      "name": "Don't you want to listen to my song?",
       "icon": "skill001/skill0011",
-      "description": "All enemies 12s Physical Defense -18%-30 DOWN and Accuracy -9 DOWN for 12 seconds, 50% chance to 2s",
-      "descriptionLv1": "All enemies 12s Physical Defense -18%-30 DOWN and Accuracy -9 DOWN for 12 seconds, 50% chance to 2s",
-      "descriptionLv90": "All enemies 12s Physical Defense -18%-210 DOWN and Accuracy -18 DOWN for 12 seconds, 50% chance to 2s",
+      "description": "Inflicts Physical Defense -18%-30 DOWN for 12 seconds and Accuracy -9 DOWN for 12 seconds to all enemies, with 50% possibilities STUN for 2 seconds",
+      "descriptionLv1": "Inflicts Physical Defense -18%-30 DOWN for 12 seconds and Accuracy -9 DOWN for 12 seconds to all enemies, with 50% possibilities STUN for 2 seconds",
+      "descriptionLv90": "Inflicts Physical Defense -18%-210 DOWN for 12 seconds and Accuracy -18 DOWN for 12 seconds to all enemies, with 50% possibilities STUN for 2 seconds",
       "target": "All Enemies",
       "castTime": 1.7,
       "damageScaling": null,
@@ -134,9 +134,9 @@ export const skills = {
   "ultimate": [
     {
       "rank": 1,
-      "name": "The world that revolves around me",
+      "name": "The World Revolves Around Me",
       "icon": "skill001/skill0020_1",
-      "description": "Applies Hit-Based Physical Damage (LV 1) to all allies for 20 seconds and Accuracy UP(LV 1) for 10 seconds, all enemies 10s BlockDOWN(LV 1)",
+      "description": "Applies Hit-Based Physical Damage (LV 1) to all allies for 20 seconds and Accuracy UP(LV 1) for 10 seconds. Inflicts BlockDOWN(LV 1) to all enemies for 10 seconds",
       "effect": "300% + 0",
       "buffEffects": [
         {
@@ -161,9 +161,9 @@ export const skills = {
     },
     {
       "rank": 2,
-      "name": "The world that revolves around me",
+      "name": "The World Revolves Around Me",
       "icon": "skill001/skill0020_2",
-      "description": "Applies Hit-Based Physical Damage (LV 2) to all allies for 20 seconds and Accuracy UP(LV 2) for 10 seconds, all enemies 10s BlockDOWN(LV 2)",
+      "description": "Applies Hit-Based Physical Damage (LV 2) to all allies for 20 seconds and Accuracy UP(LV 2) for 10 seconds. Inflicts BlockDOWN(LV 2) to all enemies for 10 seconds",
       "effect": "300% + 0",
       "buffEffects": [
         {
@@ -188,9 +188,9 @@ export const skills = {
     },
     {
       "rank": 3,
-      "name": "The world that revolves around me",
+      "name": "The World Revolves Around Me",
       "icon": "skill001/skill0020_3",
-      "description": "Applies Hit-Based Physical Damage (LV 3) to all allies for 20 seconds and Accuracy UP(LV 3) for 10 seconds, all enemies 10s BlockDOWN(LV 3)",
+      "description": "Applies Hit-Based Physical Damage (LV 3) to all allies for 20 seconds and Accuracy UP(LV 3) for 10 seconds. Inflicts BlockDOWN(LV 3) to all enemies for 10 seconds",
       "effect": "300% + 0",
       "buffEffects": [
         {
@@ -215,9 +215,9 @@ export const skills = {
     },
     {
       "rank": 4,
-      "name": "The world that revolves around me",
+      "name": "The World Revolves Around Me",
       "icon": "skill001/skill0020_4",
-      "description": "Applies Hit-Based Physical Damage (LV 4) to all allies for 20 seconds and Accuracy UP(LV 4) for 10 seconds, all enemies 10s BlockDOWN(LV 4)",
+      "description": "Applies Hit-Based Physical Damage (LV 4) to all allies for 20 seconds and Accuracy UP(LV 4) for 10 seconds. Inflicts BlockDOWN(LV 4) to all enemies for 10 seconds",
       "effect": "300% + 0",
       "buffEffects": [
         {
@@ -242,9 +242,9 @@ export const skills = {
     },
     {
       "rank": 5,
-      "name": "The world that revolves around me",
+      "name": "The World Revolves Around Me",
       "icon": "skill001/skill0020_5",
-      "description": "Applies Hit-Based Physical Damage (LV 5) to all allies for 20 seconds and Accuracy UP(LV 5) for 10 seconds, all enemies 10s BlockDOWN(LV 5)",
+      "description": "Applies Hit-Based Physical Damage (LV 5) to all allies for 20 seconds and Accuracy UP(LV 5) for 10 seconds. Inflicts BlockDOWN(LV 5) to all enemies for 10 seconds",
       "effect": "300% + 0",
       "buffEffects": [
         {
@@ -273,7 +273,7 @@ export const skills = {
       "slot": 1,
       "name": "Max HP +, MP Recovery",
       "icon": "skill001/skill1003",
-      "description": "Gain Max HP UP(Large), after an ally casts an ultimate, self gains MP Recovery 50",
+      "description": "Gain Max HP UP(Large). Applies MP Recovery 50 to self after casting ultimate skills",
       "effect": "Max HP + (+3444), MP Recovery (+50%)",
       "effectValues": [
         {
@@ -294,7 +294,7 @@ export const skills = {
       "slot": 2,
       "name": "Physical Attack +, Max HP +",
       "icon": "skill001/skill1005",
-      "description": "Before casting an ultimate, all allies gain 3% Physical Attack UP(max 15%), 3% Max HP UP(max 15%)",
+      "description": "Applies 3% physical attacks UP(Max 15%) and 3% maximum HP up(Max 15%) to all allies",
       "effect": "HP()",
       "effectValues": []
     }

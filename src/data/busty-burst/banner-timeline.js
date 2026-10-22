@@ -5,6 +5,31 @@
  */
 
 export const bannerTimelineData = [
+  // #47 - "The Sun and the Moon" / Bernadette & Adrienne (Oct 20 - Nov 3) - CURRENT
+  {
+    id: 'the-sun-and-the-moon-2026',
+    title: '"The Sun and the Moon" Event Summon',
+    bannerType: 'event',
+    featuredPaladins: [
+      {
+        name: 'Bernadette',
+        rarity: 'SSR',
+        type: 'Support',
+      },
+      {
+        name: 'Adrienne',
+        rarity: 'SSR',
+        type: 'Support',
+      },
+    ],
+    startDate: '2026-10-20T04:00:00Z',
+    endDate: '2026-11-03T03:00:00Z',
+    description:
+      '"The Sun and the Moon" Event Summon! New Paladin Rate Up! Bernadette (SSR Wind Physical Support) and Adrienne (SSR Water Magic Support), a back-row singer duo. Guaranteed SR Paladin when performing a 10-pull.',
+    note: 'Bernadette (characterId 2153) and Adrienne (characterId 2154), a two-week dual like "Bridal Blessing". Bernadette raises ally physical crit, hit-based physical damage and accuracy and drops enemy block; Adrienne is the magic counterpart, dropping enemy magic defense and accuracy with a chance to sleep. End time from game data (2026/11/03 03:00 UTC); start from the rotation switch on Oct 20 when the Oct 13 banners ended. Official EN skill text landed with the Oct 22 hot-update (their pages previously carried fan translations). Sharik (characterId 2155, SR Mind Physical Attacker) also shipped in this update but appears on no summon banner in the game data.',
+    status: 'current',
+    image: 'banner-the-sun-and-the-moon',
+  },
   // #46 - "FANZINE" 4th / Skateboarder Nue (Oct 13 - Oct 20) - CURRENT
   {
     id: 'fanzine-4th-2026',
@@ -1164,6 +1189,61 @@ seasonalCharactersData.forEach(season => {
  * Guild Battle pickup summons, tracked separately from the main timeline.
  */
 export const guildBattleData = [
+  // Competitive Battle MIND pick up (Oct 20 - Nov 3) - CURRENT
+  {
+    id: 'competitive-battle-mind-2026-10',
+    title: 'Competitive Battle・MIND Pick Up Summon',
+    bannerType: 'event',
+    featuredPaladins: [
+      {
+        name: '[The Noble Succubus Empress] Shamshel',
+        rarity: 'SSR',
+        type: 'Attacker',
+      },
+      {
+        name: 'Soltina',
+        rarity: 'SSR',
+        type: 'Attacker',
+      },
+      {
+        name: 'The Dark Knight',
+        rarity: 'SSR',
+        type: 'Attacker',
+      },
+      {
+        name: 'Yu Lima Elka',
+        rarity: 'SSR',
+        type: 'Tank',
+      },
+      {
+        name: 'Yaksha',
+        rarity: 'SSR',
+        type: 'Attacker',
+      },
+      {
+        name: 'Emelaria',
+        rarity: 'SR',
+        type: 'Attacker',
+      },
+      {
+        name: 'Zoe',
+        rarity: 'SR',
+        type: 'Tank',
+      },
+      {
+        name: 'Medusa',
+        rarity: 'SR',
+        type: 'Attacker',
+      },
+    ],
+    startDate: '2026-10-20T04:00:00Z',
+    endDate: '2026-11-03T03:00:00Z',
+    description:
+      'Competitive Battle MIND support summon! Rate up for Dark-attribute paladins Shamshel, Soltina, The Dark Knight, Yu Lima Elka, Yaksha, Emelaria, Zoe and Medusa ahead of the MIND Competitive Battle. Guaranteed SR Paladin when performing a 10-pull.',
+    note: 'Attribute pickup summon for the Competitive Battle MIND season, boosting the counter element (Dark) like FIRE boosted Water. Two-week run: end time from game data (2026/11/03 03:00 UTC); start from the rotation switch on Oct 20 when the FIRE pickup ended. Soltina, The Dark Knight and Yu Lima Elka are older paladins without EN wiki pages.',
+    status: 'current',
+    image: 'banner-competitive-battle-mind-pickup',
+  },
   // Competitive Battle FIRE pick up (Oct 6 - Oct 20) - CURRENT
   {
     id: 'competitive-battle-fire-2026-10',

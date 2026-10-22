@@ -6,7 +6,7 @@ export const BUSTY_BURST_TIER_LISTS = {
     name: 'SSR Tier List',
     description:
       'Tier list for SSR characters. Covers general performance across all game modes.',
-    lastUpdated: '2026-10-01',
+    lastUpdated: '2026-10-22',
     tiers: [
       {
         tier: 'SSS',
@@ -17,7 +17,9 @@ export const BUSTY_BURST_TIER_LISTS = {
         },
         characters: ['festive_attire_estiriel', 'liesel', 'frey', 'dragon_crusher_medusa', 'messeria', 'top_dancer_messeria', 'sweet-bunny-artia', 'underboob-cheerleader-gemini', 'tempting-naked-apron-diana',
           // October 2026 Burst FES release (user correction: SSS DPS)
-          'elaine',],
+          'elaine',
+          // October 2026 The Sun and the Moon release (user: SSS support duo, both work on physical and magic teams)
+          'bernadette', 'adrienne',],
       },
       {
         tier: 'SS',
@@ -138,7 +140,7 @@ export const BUSTY_BURST_TIER_LISTS = {
     name: 'SR Tier List',
     description:
       'Tier list for SR characters in SR Raid mode.',
-    lastUpdated: '2026-09-16',
+    lastUpdated: '2026-10-22',
     tiers: [
       {
         tier: 'SSS',
@@ -171,6 +173,8 @@ export const BUSTY_BURST_TIER_LISTS = {
           'collie',
           'the-bride-of-seduction-ophelio',
           'sarka',
+          // October 2026 The Sun and the Moon SR (user correction: S tier)
+          'sharik',
         ],
       },
       {

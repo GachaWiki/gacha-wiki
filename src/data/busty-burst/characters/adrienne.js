@@ -40,8 +40,8 @@ export const info = {
     }
   },
   "obtain": {
-    "type": "unknown",
-    "source": ""
+    "type": "banner",
+    "source": "The Sun and the Moon Event Summon"
   },
   "characterId": 2154
 };
@@ -51,7 +51,7 @@ export const skills = {
   "skills": [
     {
       "slot": 2,
-      "name": "Animat",
+      "name": "Animato",
       "icon": "skill001/skill0018",
       "description": "Applies Magic Critical Damage 50 UP to all allies for 12 seconds and Accuracy 11 UP for 12 seconds",
       "descriptionLv1": "Applies Magic Critical Damage 50 UP to all allies for 12 seconds and Accuracy 11 UP for 12 seconds",
@@ -87,11 +87,11 @@ export const skills = {
     },
     {
       "slot": 3,
-      "name": "Pheasant",
+      "name": "Pesante",
       "icon": "skill001/skill0011",
-      "description": "All enemies 12s Magic Defense-18%-30 DOWN and Accuracy -9 DOWN for 12 seconds, 50% chance to 2s",
-      "descriptionLv1": "All enemies 12s Magic Defense-18%-30 DOWN and Accuracy -9 DOWN for 12 seconds, 50% chance to 2s",
-      "descriptionLv90": "All enemies 12s Magic Defense-18%-210 DOWN and Accuracy -18 DOWN for 12 seconds, 50% chance to 2s",
+      "description": "Inflicts Magic Defense-18%-30 DOWN for 12 seconds and Accuracy -9 DOWN for 12 seconds to all enemies, with 50% possibilities SLEEP for 2 seconds",
+      "descriptionLv1": "Inflicts Magic Defense-18%-30 DOWN for 12 seconds and Accuracy -9 DOWN for 12 seconds to all enemies, with 50% possibilities SLEEP for 2 seconds",
+      "descriptionLv90": "Inflicts Magic Defense-18%-210 DOWN for 12 seconds and Accuracy -18 DOWN for 12 seconds to all enemies, with 50% possibilities SLEEP for 2 seconds",
       "target": "All Enemies",
       "castTime": 1.6,
       "damageScaling": null,
@@ -132,9 +132,9 @@ export const skills = {
   "ultimate": [
     {
       "rank": 1,
-      "name": "My special place to belong",
+      "name": "My Special Place",
       "icon": "skill001/skill0020_1",
-      "description": "Applies Hit-Based Magic Damage (LV 1) to all allies for 20 seconds and Accuracy UP(LV 1) for 10 seconds, 10s BlockUP(LV 1)",
+      "description": "Applies Hit-Based Magic Damage (LV 1) for 20 seconds, Accuracy UP(LV 1) for 10 seconds and BlockUP(LV 1) for 10 seconds to all allies",
       "effect": "300% + 0",
       "buffEffects": [
         {
@@ -159,9 +159,9 @@ export const skills = {
     },
     {
       "rank": 2,
-      "name": "My special place to belong",
+      "name": "My Special Place",
       "icon": "skill001/skill0020_2",
-      "description": "Applies Hit-Based Magic Damage (LV 2) to all allies for 20 seconds and Accuracy UP(LV 2) for 10 seconds, 10s BlockUP(LV 2)",
+      "description": "Applies Hit-Based Magic Damage (LV 2) for 20 seconds, Accuracy UP(LV 2) for 10 seconds and BlockUP(LV 2) for 10 seconds to all allies",
       "effect": "300% + 0",
       "buffEffects": [
         {
@@ -186,9 +186,9 @@ export const skills = {
     },
     {
       "rank": 3,
-      "name": "My special place to belong",
+      "name": "My Special Place",
       "icon": "skill001/skill0020_3",
-      "description": "Applies Hit-Based Magic Damage (LV 3) to all allies for 20 seconds and Accuracy UP(LV 3) for 10 seconds, 10s BlockUP(LV 3)",
+      "description": "Applies Hit-Based Magic Damage (LV 3) for 20 seconds, Accuracy UP(LV 3) for 10 seconds and BlockUP(LV 3) for 10 seconds to all allies",
       "effect": "300% + 0",
       "buffEffects": [
         {
@@ -213,9 +213,9 @@ export const skills = {
     },
     {
       "rank": 4,
-      "name": "My special place to belong",
+      "name": "My Special Place",
       "icon": "skill001/skill0020_4",
-      "description": "Applies Hit-Based Magic Damage (LV 4) to all allies for 20 seconds and Accuracy UP(LV 4) for 10 seconds, 10s BlockUP(LV 4)",
+      "description": "Applies Hit-Based Magic Damage (LV 4) for 20 seconds, Accuracy UP(LV 4) for 10 seconds and BlockUP(LV 4) for 10 seconds to all allies",
       "effect": "300% + 0",
       "buffEffects": [
         {
@@ -240,9 +240,9 @@ export const skills = {
     },
     {
       "rank": 5,
-      "name": "My special place to belong",
+      "name": "My Special Place",
       "icon": "skill001/skill0020_5",
-      "description": "Applies Hit-Based Magic Damage (LV 5) to all allies for 20 seconds and Accuracy UP(LV 5) for 10 seconds, 10s BlockUP(LV 5)",
+      "description": "Applies Hit-Based Magic Damage (LV 5) for 20 seconds, Accuracy UP(LV 5) for 10 seconds and BlockUP(LV 5) for 10 seconds to all allies",
       "effect": "300% + 0",
       "buffEffects": [
         {
@@ -271,7 +271,7 @@ export const skills = {
       "slot": 1,
       "name": "Max HP +, MP Recovery",
       "icon": "skill001/skill1003",
-      "description": "Gain Max HP UP(Large), after an ally casts an ultimate, self gains MP Recovery 50",
+      "description": "Gain Max HP UP(Large). Applies MP Recovery 50 to self after casting ultimate skills",
       "effect": "Max HP + (+3444), MP Recovery (+50%)",
       "effectValues": [
         {
@@ -292,7 +292,7 @@ export const skills = {
       "slot": 2,
       "name": "Magic Attack +, Max HP +",
       "icon": "skill001/skill1005",
-      "description": "After casting an ultimate, all allies gain 3% Magic Attack UP(max 15%), 3% Max HP UP(max 15%)",
+      "description": "Applies 3% magical attacks UP(Max 15%) and 3% maximum HP up(Max 15%) to all allies",
       "effect": "HP()",
       "effectValues": []
     }

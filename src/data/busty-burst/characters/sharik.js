@@ -41,8 +41,8 @@ export const info = {
     }
   },
   "obtain": {
-    "type": "unknown",
-    "source": ""
+    "type": "banner",
+    "source": "Standard Banner"
   },
   "characterId": 2155
 };
@@ -52,7 +52,7 @@ export const skills = {
   "skills": [
     {
       "slot": 2,
-      "name": "Eliminate enemies. Execute thoroughly.",
+      "name": "Annihilate the enemy. Execute thoroughly.",
       "icon": "skill001/skill0009",
       "description": "Deals physical damage to the 3 nearest enemies and inflicts Physical Defense -18%-30 DOWN for 5 seconds",
       "descriptionLv1": "Deals physical damage to the 3 nearest enemies and inflicts Physical Defense -18%-30 DOWN for 5 seconds",
@@ -80,11 +80,11 @@ export const skills = {
     },
     {
       "slot": 3,
-      "name": "Instant incapacitation. That's the best.",
+      "name": "Neutralize immediately. That is the best.",
       "icon": "skill001/skill0011",
-      "description": "Deals physical damage to the nearest enemy and inflicts Stun for 2 seconds, 2s",
-      "descriptionLv1": "Deals physical damage to the nearest enemy and inflicts Stun for 2 seconds, 2s",
-      "descriptionLv90": "Deals physical damage to the nearest enemy and inflicts Stun for 2 seconds, 2s",
+      "description": "Deals physical damage to the nearest enemy. Also inflicts Stun for 2 seconds and Dispel for 2 seconds",
+      "descriptionLv1": "Deals physical damage to the nearest enemy. Also inflicts Stun for 2 seconds and Dispel for 2 seconds",
+      "descriptionLv90": "Deals physical damage to the nearest enemy. Also inflicts Stun for 2 seconds and Dispel for 2 seconds",
       "target": "Nearest Enemy",
       "castTime": 0.95,
       "damageScaling": "250% ATK",
@@ -116,41 +116,41 @@ export const skills = {
   "ultimate": [
     {
       "rank": 1,
-      "name": "Protect the target. That's my job.",
+      "name": "Protect the VIP: A Job Of Mine",
       "icon": "skill001/skill0003_1",
-      "description": "Deals physical damage to the nearest enemy, guaranteed hit",
+      "description": "Deals physical damage to the nearest enemy. Guaranteed to hit",
       "effect": "1100% + 500",
       "buffEffects": []
     },
     {
       "rank": 2,
-      "name": "Protect the target. That's my job.",
+      "name": "Protect the VIP: A Job Of Mine",
       "icon": "skill001/skill0003_2",
-      "description": "Deals physical damage to the nearest enemy, guaranteed hit",
+      "description": "Deals physical damage to the nearest enemy. Guaranteed to hit",
       "effect": "1320% + 650",
       "buffEffects": []
     },
     {
       "rank": 3,
-      "name": "Protect the target. That's my job.",
+      "name": "Protect the VIP: A Job Of Mine",
       "icon": "skill001/skill0003_3",
-      "description": "Deals physical damage to the nearest enemy, guaranteed hit",
+      "description": "Deals physical damage to the nearest enemy. Guaranteed to hit",
       "effect": "1470% + 800",
       "buffEffects": []
     },
     {
       "rank": 4,
-      "name": "Protect the target. That's my job.",
+      "name": "Protect the VIP: A Job Of Mine",
       "icon": "skill001/skill0003_4",
-      "description": "Deals physical damage to the nearest enemy, guaranteed hit",
+      "description": "Deals physical damage to the nearest enemy. Guaranteed to hit",
       "effect": "1590% + 900",
       "buffEffects": []
     },
     {
       "rank": 5,
-      "name": "Protect the target. That's my job.",
+      "name": "Protect the VIP: A Job Of Mine",
       "icon": "skill001/skill0003_5",
-      "description": "Deals physical damage to the nearest enemy, guaranteed hit",
+      "description": "Deals physical damage to the nearest enemy. Guaranteed to hit",
       "effect": "1700% + 1000",
       "buffEffects": []
     }

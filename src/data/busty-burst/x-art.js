@@ -10,12 +10,21 @@ export const BB_X_CARDS = {
   "abigail": [
     { src: "x/2074057111647207740-1.webp", lang: "en", date: "2026-07-06", name: "Abigail" },
   ],
+  "adrienne": [
+    { src: "x/1821124130781196550-1.webp", lang: "jp", date: "2024-08-07", name: "アドリエンヌ" },
+  ],
+  "adventurer-henrietti": [
+    { src: "x/1884534450161070536-1.webp", lang: "jp", date: "2025-01-29", name: "【冒険家】ヘンリエッティ" },
+  ],
   "agile-mercenary-shaty": [
     { src: "x/1912438338088497177-1.webp", lang: "jp", date: "2025-04-16", name: "【凄腕傭兵】シャティ" },
   ],
   "aiming-for-your-heart-shaty": [
     { src: "x/2107036824107716919-1.webp", lang: "en", date: "2026-10-05", name: "【Aiming for Your Heart♪】Shaty" },
     { src: "x/1816742775326646462-1.webp", lang: "jp", date: "2024-07-26", name: "【キミのハートを狙い撃ち♪】シャティ" },
+  ],
+  "alluring-naked-apron-zilka": [
+    { src: "x/1805896972059939134-1.webp", lang: "jp", date: "2024-06-26", name: "【魅惑の裸エプロン】ジールカ" },
   ],
   "american-police-lapis": [
     { src: "x/2061374694129852653-1.webp", lang: "en", date: "2026-06-01", name: "【American Police】Lapis" },
@@ -38,6 +47,7 @@ export const BB_X_CARDS = {
     { src: "x/1770382406387949890-1.webp", lang: "jp", date: "2024-03-20", name: "ビューティア" },
   ],
   "bernadette": [
+    { src: "x/2112110253777256736-1.webp", lang: "en", date: "2026-10-19", name: "Bernadette" },
     { src: "x/1821131897969504504-1.webp", lang: "jp", date: "2024-08-07", name: "ベルナデット" },
   ],
   "bewildered-bride-magdalena": [
@@ -62,8 +72,17 @@ export const BB_X_CARDS = {
   "boob-shaking-cheerleader-bonita": [
     { src: "x/1907364885446504757-1.webp", lang: "jp", date: "2025-04-02", name: "【乳揺れチアガール】ボニータ" },
   ],
+  "boob-shaking-cheerleader-nora": [
+    { src: "x/1907379986522087883-1.webp", lang: "jp", date: "2025-04-02", name: "【乳揺れチアガール】ノーラ" },
+  ],
+  "captain-of-the-vern-holy-knights-order-frigis": [
+    { src: "x/1833807705208766831-1.webp", lang: "jp", date: "2024-09-11", name: "【ヴェルン神聖騎士団団長】フリギス" },
+  ],
   "chocolate-dragon-warrior-hildis": [
     { src: "x/2020787253438829032-1.webp", lang: "en", date: "2026-02-09", name: "【Chocolate Dragon Knight】Hildis" },
+  ],
+  "chocolate-is-mine-ange": [
+    { src: "x/1887071193762877711-1.webp", lang: "jp", date: "2025-02-05", name: "【チョコレートはわたし♪】アンジェ" },
   ],
   "cluul": [
     { src: "x/2066448124403490989-1.webp", lang: "en", date: "2026-06-15", name: "Cluul" },
@@ -88,8 +107,14 @@ export const BB_X_CARDS = {
   "elegant-bunny-girl-bernadette": [
     { src: "x/1899762298652381538-1.webp", lang: "jp", date: "2025-03-12", name: "【エレガントバニー】ベルナデット" },
   ],
+  "elrons-sturdy-shield-natasha": [
+    { src: "x/1937805511468122305-1.webp", lang: "jp", date: "2025-06-25", name: "【エルロンの堅牢なる盾】ナターシャ" },
+  ],
   "epic-fishing-meinias": [
     { src: "x/2010639135686468026-1.webp", lang: "en", date: "2026-01-12", name: "【Epic Fishing】Meinias" },
+  ],
+  "erotic-nun-soltina": [
+    { src: "x/1881998378835599644-1.webp", lang: "jp", date: "2025-01-22", name: "【エロ修道女】ソルティナ" },
   ],
   "eva": [
     { src: "x/2084206387870228683-1.webp", lang: "en", date: "2026-08-03", name: "Eva" },
@@ -105,6 +130,9 @@ export const BB_X_CARDS = {
   ],
   "fruit-basket-bianca": [
     { src: "x/2030934113473925411-1.webp", lang: "en", date: "2026-03-09", name: "【Fruit Basket】Bianca" },
+  ],
+  "geldin": [
+    { src: "x/1925136991752011794-1.webp", lang: "jp", date: "2025-05-21", name: "ゲルディン" },
   ],
   "getting-out-of-the-pool-artia": [
     { src: "x/2081667237845541235-1.webp", lang: "en", date: "2026-07-27", name: "【Fresh Out of the Pool】Artia" },
@@ -130,12 +158,21 @@ export const BB_X_CARDS = {
   "gracie": [
     { src: "x/2025860683666202778-1.webp", lang: "en", date: "2026-02-23", name: "Gracie" },
   ],
+  "handmade-chocolate-maid-sarka": [
+    { src: "x/1887071164323049857-1.webp", lang: "jp", date: "2025-02-05", name: "【チョコづくりメイド】サーカ" },
+  ],
   "hanis": [
     { src: "x/1980937244736377044-1.webp", lang: "jp", date: "2025-10-22", name: "【ノルンの悪魔】ハニス" },
     { src: "x/1940357270564679771-1.webp", lang: "jp", date: "2025-07-02", name: "ハニス" },
   ],
   "henrietti": [
     { src: "x/2041331373567365381-1.webp", lang: "en", date: "2026-04-07", name: "Henrietti" },
+  ],
+  "holy-knight-of-the-binding-staff-katisha": [
+    { src: "x/1947952326691725657-1.webp", lang: "jp", date: "2025-07-23", name: "【捕縛杖の聖騎士】カティーシャ" },
+  ],
+  "holy-night-boob-demon-lust": [
+    { src: "x/1867056784319434992-1.webp", lang: "jp", date: "2024-12-12", name: "【聖夜の乳魔】ルスト" },
   ],
   "ilugio": [
     { src: "x/1808448116909379941-1.webp", lang: "jp", date: "2024-07-03", name: "イルーギオ" },
@@ -146,6 +183,9 @@ export const BB_X_CARDS = {
   "inrine": [
     { src: "x/2041332631866896690-1.webp", lang: "en", date: "2026-04-07", name: "Inrine" },
     { src: "x/1823653288576798857-1.webp", lang: "jp", date: "2024-08-14", name: "リン" },
+  ],
+  "invincible-empress-gladys": [
+    { src: "x/1833815247192207698-1.webp", lang: "jp", date: "2024-09-11", name: "【無敵の皇妃】グラディス" },
   ],
   "kaguya": [
     { src: "x/2003028990047776874-1.webp", lang: "en", date: "2025-12-22", name: "Kaguya" },
@@ -175,6 +215,9 @@ export const BB_X_CARDS = {
   "little-devil-idol-nina": [
     { src: "x/1894681310146535627-1.webp", lang: "jp", date: "2025-02-26", name: "【小悪魔アイドル】ニーナ" },
   ],
+  "lone-biker-inleen": [
+    { src: "x/1861704030059463119-1.webp", lang: "jp", date: "2024-11-27", name: "【孤高のバイカー】インリーン" },
+  ],
   "louise": [
     { src: "x/1991076482098360672-1.webp", lang: "jp", date: "2025-11-19", name: "【爆乳武闘家】ルイーズ" },
     { src: "x/1955566245866090659-1.webp", lang: "jp", date: "2025-08-13", name: "【長乳の浴衣娘】ルイーズ" },
@@ -198,6 +241,9 @@ export const BB_X_CARDS = {
   ],
   "maid-erotic-enchanter-ilugio": [
     { src: "x/1831263496916623673-1.webp", lang: "jp", date: "2024-09-04", name: "【メイドエロチャンター】イルーギオ" },
+  ],
+  "moran": [
+    { src: "x/1940349684981309719-1.webp", lang: "jp", date: "2025-07-02", name: "モーラン" },
   ],
   "my-little-sister-is-a-sailor-bonita": [
     { src: "x/1854093873905328428-1.webp", lang: "jp", date: "2024-11-06", name: "【俺の妹は水兵さん】ボニータ" },
@@ -230,6 +276,9 @@ export const BB_X_CARDS = {
   "peerless-inventor-pastel": [
     { src: "x/1950489046045847757-1.webp", lang: "jp", date: "2025-07-30", name: "【稀代の発明家】パステル" },
   ],
+  "possessed-by-the-power-of-high-cut-black-knight": [
+    { src: "x/1836336865143853486-1.webp", lang: "jp", date: "2024-09-18", name: "【ハイレグの力に取り込まれし者】黒騎士" },
+  ],
   "priscilla": [
     { src: "x/2053763385704267913-1.webp", lang: "en", date: "2026-05-11", name: "Priscilla" },
   ],
@@ -251,6 +300,9 @@ export const BB_X_CARDS = {
   ],
   "raoul": [
     { src: "x/2066449382501687472-1.webp", lang: "en", date: "2026-06-15", name: "Raoul" },
+  ],
+  "red-umbrella-zodiac-girl-lilirara": [
+    { src: "x/1871850876744114208-1.webp", lang: "jp", date: "2024-12-25", name: "【紅傘の歳女】リリララ" },
   ],
   "repressed-schoolgirl-raffine": [
     { src: "x/1869314222821372339-1.webp", lang: "jp", date: "2024-12-18", name: "【むっつり女学生】ラフィーネ" },
@@ -294,12 +346,18 @@ export const BB_X_CARDS = {
   "shaty": [
     { src: "x/1997955560159715616-1.webp", lang: "en", date: "2025-12-08", name: "Shaty" },
   ],
+  "sharik": [
+    { src: "x/1821116574285361346-1.webp", lang: "jp", date: "2024-08-07", name: "シャリク" },
+  ],
   "shushu": [
     { src: "x/1838873578961272874-1.webp", lang: "jp", date: "2024-09-25", name: "シュシュ" },
   ],
   "sirius": [
     { src: "x/2091824082853699664-1.webp", lang: "en", date: "2026-08-24", name: "Sirius" },
     { src: "x/1800823119009181890-1.webp", lang: "jp", date: "2024-06-12", name: "シリウス" },
+  ],
+  "skateboarder-nue": [
+    { src: "x/1818579857120375068-1.webp", lang: "jp", date: "2024-07-31", name: "【スケートボーダー】鵺" },
   ],
   "slightly-mischievous-devil-luca": [
     { src: "x/2036006285699911970-1.webp", lang: "en", date: "2026-03-23", name: "【Slightly Mischievous Devil】Luca" },
@@ -310,11 +368,26 @@ export const BB_X_CARDS = {
   "songstress-of-the-sky-festival-bernadette": [
     { src: "x/1826190003291971810-1.webp", lang: "jp", date: "2024-08-21", name: "【大空祭の歌姫】ベルナデット" },
   ],
+  "steaming-dim-sum-lilirara": [
+    { src: "x/1828726718292533721-1.webp", lang: "jp", date: "2024-08-28", name: "【ホカホカ点心】リリララ" },
+  ],
+  "super-bust-dirndl-adrienne": [
+    { src: "x/1856630587991470273-1.webp", lang: "jp", date: "2024-11-13", name: "【超乳ディアンドル】アドリエンヌ" },
+  ],
   "sonia": [
     { src: "x/1914975043236532340-1.webp", lang: "jp", date: "2025-04-23", name: "ソニア" },
   ],
+  "super-serious-nurse-lapis": [
+    { src: "x/1889610539485036781-1.webp", lang: "jp", date: "2025-02-12", name: "【生真面目ナース】ラピス" },
+  ],
+  "sura": [
+    { src: "x/1925129448535597455-1.webp", lang: "jp", date: "2025-05-21", name: "スーラ" },
+  ],
   "sweet-bunny-artia": [
     { src: "x/2063910151397298478-1.webp", lang: "en", date: "2026-06-08", name: "【Sweet Bunny】Artia" },
+  ],
+  "swift-wind-kunoichi-lin": [
+    { src: "x/1935276335326445880-1.webp", lang: "jp", date: "2025-06-18", name: "【疾風のくノ一】リン" },
   ],
   "tempting-naked-apron-diana": [
     { src: "x/2086740586833273221-1.webp", lang: "en", date: "2026-08-10", name: "【Tempting Naked Apron】Diana" },
@@ -344,6 +417,12 @@ export const BB_X_CARDS = {
   ],
   "trish": [
     { src: "x/2046155662166786127-1.webp", lang: "en", date: "2026-04-20", name: "Trish" },
+  ],
+  "tsukina": [
+    { src: "x/1940342152292450790-1.webp", lang: "jp", date: "2025-07-02", name: "ツキナ" },
+  ],
+  "twin-shrine-maiden-cluul": [
+    { src: "x/1876924304463446022-1.webp", lang: "jp", date: "2025-01-08", name: "【双子巫女】クルール" },
   ],
   "twin-shrine-maiden-raoul": [
     { src: "x/1874387618592612849-1.webp", lang: "jp", date: "2025-01-01", name: "【双子巫女】ラウール" },
@@ -376,6 +455,9 @@ export const BB_X_CARDS = {
   ],
   "yaksha": [
     { src: "x/2068983581360493037-1.webp", lang: "en", date: "2026-06-22", name: "Yaksha" },
+  ],
+  "yura": [
+    { src: "x/1930195322749489526-1.webp", lang: "jp", date: "2025-06-04", name: "ユラ" },
   ],
   "zilka": [
     { src: "x/2051227833838850129-1.webp", lang: "en", date: "2026-05-04", name: "Zilka" },
