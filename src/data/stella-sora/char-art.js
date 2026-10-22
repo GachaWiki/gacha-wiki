@@ -195,6 +195,12 @@ export const CHAR_ART = {
         "name": "Awakened",
         "desc": "",
         "type": 2
+      },
+      {
+        "unit": "11003",
+        "name": "Deadly Beauty, Unparalleled Allure",
+        "desc": "3D Appearance (Oct 2026)",
+        "type": 3
       }
     ],
     "gallery": [
@@ -1799,6 +1805,12 @@ export const CHAR_ART = {
         "name": "Awakened",
         "desc": "",
         "type": 2
+      },
+      {
+        "unit": "15503",
+        "name": "Call of the Coral Sea",
+        "desc": "3D Appearance (Oct 2026)",
+        "type": 3
       }
     ],
     "gallery": [

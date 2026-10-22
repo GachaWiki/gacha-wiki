@@ -97,4 +97,16 @@ export const CHAR_VIDEOS = {
     video: 'pv/chitose.mp4',
     poster: 'pv/chitose.webp',
   },
+  'firstlight-noya': {
+    title: 'Firstlight Noya Trekker PV',
+    duration: '2:43',
+    video: 'pv/firstlight-noya.mp4',
+    poster: 'pv/firstlight-noya.webp',
+  },
+  allie: {
+    title: 'Allie Trekker PV',
+    duration: '2:15',
+    video: 'pv/allie.mp4',
+    poster: 'pv/allie.webp',
+  },
 };
