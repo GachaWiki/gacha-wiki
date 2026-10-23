@@ -1,6 +1,24 @@
 // Horizon Walker character story CGs (Dialogue_BG_Illustration assets from the game)
 // Keyed by game hero id. NonAdult duplicates and popup crops excluded.
 export const STORY_CG = {
+  "71": [
+    {
+      "file": "story-cg/MuYingying/MuYingying_Friendship_001.webp",
+      "caption": "Friendship Story CG 1"
+    },
+    {
+      "file": "story-cg/MuYingying/MuYingying_Friendship_002.webp",
+      "caption": "Friendship Story CG 2"
+    },
+    {
+      "file": "story-cg/MuYingying/MuYingying_Friendship_002_Long_Hair.webp",
+      "caption": "Friendship Story CG 2 (long hair variant)"
+    },
+    {
+      "file": "story-cg/MuYingying/MuYingying_Friendship_003.webp",
+      "caption": "Friendship Story CG 3"
+    }
+  ],
   "70": [
     {
       "file": "story-cg/Garud/Garud_Friendship_001.webp",

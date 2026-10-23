@@ -55,6 +55,7 @@ import { ahramData } from './characters/ahram.js';
 import { kotohaData } from './characters/kotoha.js';
 import { nonohaData } from './characters/nonoha.js';
 import { garudData } from './characters/garud.js';
+import { mu_ying_yingData } from './characters/mu-ying-ying.js';
 import { dorotheaData } from './characters/dorothea.js';
 import { marikaData } from './characters/marika.js';
 import { juzaData } from './characters/juza.js';
@@ -138,6 +139,7 @@ const CHARACTER_DATA = {
   kotoha: kotohaData,
   nonoha: nonohaData,
   garud: garudData,
+  'mu-ying-ying': mu_ying_yingData,
   dorothea: dorotheaData,
   marika: marikaData,
   juza: juzaData,

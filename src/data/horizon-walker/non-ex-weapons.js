@@ -4,6 +4,24 @@
 
 export const NON_EX_WEAPONS = [
   {
+    id: 204403,
+    name: "Crimson Blood Rose",
+    nameKo: "크림슨 블러드 로즈",
+    description: "A rose steeped in blood never wilts. As for whose blood drips from its petals... perhaps it is best not to ask.",
+    type: "Blunt Weapon & Shield",
+    rarity: "SS",
+    maxLevel: 60,
+    image: "Weapon_FullIMG_MaceAndShield_Bloodrose_Mace_MS",
+    stats: {"weaponMeleeAtk": 11, "weaponMagicAtk": 11, "electricDef": 88},
+    statGrowth: {"weaponMeleeAtk": 1, "weaponMagicAtk": 1, "electricDef": 8},
+    specialEffect: {
+      name: "Unique: Sparking!",
+      description: "This weapon, passed down from the hands of the fairies, is exceptionally beautiful-and that is about all it has going for it. Though one fairy is quite adamant that good looks count as performance, too.",
+      valuesByLevel: null,
+    },
+    obtain: "Limited-time package only (Crimson Blood Rose Weapon Skin Pack, Oct 22 - Nov 19 2026). Not obtainable through FairyNet Search.",
+  },
+  {
     id: 213201,
     name: "Hyunmoo MM Core",
     nameKo: "현무 MM코어",

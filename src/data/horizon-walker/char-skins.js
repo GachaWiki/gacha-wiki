@@ -137,7 +137,7 @@ export const CHAR_SKINS = {
     { id: 81, number: 'S01', name: "Memopad", icon: 'UI_Icon_Hero_SoJoohee_S01.png', fullIcon: 'UI_Icon_Hero_Full_SoJoohee_S01.png', isDefault: false },
     { id: 145, number: 'S02', name: "Inverted Bunny Girl", icon: 'UI_Icon_Hero_SoJoohee_S02.png', fullIcon: 'UI_Icon_Hero_Full_SoJoohee_S02.png', isDefault: false },
     { id: 180, number: 'S03', name: "Barely-Maid", icon: 'UI_Icon_Hero_SoJoohee_S03.png', fullIcon: 'UI_Icon_Hero_Full_SoJoohee_S03.png', isDefault: false },
-    { id: 229, number: 'S04', name: "Halloween", icon: 'UI_Icon_Hero_SoJoohee_S04.png', fullIcon: 'UI_Icon_Hero_Full_SoJoohee_S04.png', isDefault: false },
+    { id: 229, number: 'S04', name: "Halloween", icon: 'UI_Icon_Hero_SoJoohee_S04.png', fullIcon: 'UI_Icon_Hero_Full_SoJoohee_S04.png?v=2', isDefault: false },
   ],
   30: [
     { id: 29, number: 'N01', name: "Default", icon: 'UI_Icon_Hero_KimGayeong_N01.png', fullIcon: 'UI_Icon_Hero_Full_KimGayeong_N01.png', isDefault: true },
@@ -343,8 +343,8 @@ export const CHAR_SKINS = {
     { id: 223, number: 'S01', name: "Lingerie", icon: 'UI_Icon_Hero_Garud_S01.png', fullIcon: 'UI_Icon_Hero_Full_Garud_S01.png', isDefault: false },
   ],
   71: [
-    { id: 227, number: 'N01', name: "Default", icon: 'UI_Icon_Hero_MuYingying_N01.png', fullIcon: 'UI_Icon_Hero_Full_MuYingying_N01.png', isDefault: true },
-    { id: 228, number: 'S01', name: "Halloween", icon: 'UI_Icon_Hero_MuYingying_S01.png', fullIcon: 'UI_Icon_Hero_Full_MuYingying_S01.png', isDefault: false },
+    { id: 227, number: 'N01', name: "Default", icon: 'UI_Icon_Hero_MuYingying_N01.png', fullIcon: 'UI_Icon_Hero_Full_MuYingying_N01.png?v=2', isDefault: true },
+    { id: 228, number: 'S01', name: "Halloween", icon: 'UI_Icon_Hero_MuYingying_S01.png', fullIcon: 'UI_Icon_Hero_Full_MuYingying_S01.png?v=2', isDefault: false },
   ],
   996: [
     { id: 142, number: 'N01', name: "Default", icon: 'UI_Icon_Hero_Player_N01.png', fullIcon: 'UI_Icon_Hero_Full_Player_N01.png', isDefault: true },

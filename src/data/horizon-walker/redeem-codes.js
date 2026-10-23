@@ -6,10 +6,26 @@ export const horizonWalkerRedeemCodes = {
     title: 'Horizon Walker Redeem Codes - Free Rewards & Gift Codes | GachaWiki',
     description:
       'Working Horizon Walker redeem codes for free rewards, EX character selectors, and items. Updated codes with step-by-step redemption guide.',
-    lastUpdated: new Date('2026-04-27'),
+    lastUpdated: new Date('2026-10-23'),
   },
 
   availableCodes: [
+    {
+      id: 'hw2ndannivwpn',
+      code: 'HW2NDANNIVWPN',
+      rewards: 'EX Weapon Coupon ×1',
+      status: 'working',
+      lastChecked: 'October 2026',
+      dateAdded: '2026-10-23',
+    },
+    {
+      id: 'hw2ndannivcha',
+      code: 'HW2NDANNIVCHA',
+      rewards: 'EX Character Coupon ×1',
+      status: 'working',
+      lastChecked: 'October 2026',
+      dateAdded: '2026-10-23',
+    },
     {
       id: 'applefxxk',
       code: 'applefxxk',

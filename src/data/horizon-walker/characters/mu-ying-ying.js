@@ -1,5 +1,5 @@
-// Mu Ying-ying Character Data - Horizon Walker
-// Extracted from the game's decrypted data tables (build 2026-09-01, Steam 24963123)
+// Mu Yingying Character Data - Horizon Walker
+// Extracted from the game's decrypted data tables (Oct 22 2026 update, Steam 3279780)
 import {
   validateCharacterData,
   sanitizeCharacterData,
@@ -7,195 +7,250 @@ import {
 } from '../../../utils/horizon-walker/data-validation.js';
 
 const rawMu_ying_yingData = {
-  name: "Mu Ying-ying",
-  image: "Mu Ying-ying",
+  name: "Mu Yingying",
+  image: "MuYingying",
   rarity: "EX",
   cost: 7,
   tags: ["EX Rarity"],
 
-  description: "Mu Ying-ying is an EX rarity hero with a deployment cost of 7, dealing Physical damage.",
+  description: "Mu Yingying is an EX rarity hero with a deployment cost of 7, a security officer who electrifies allies, tanks counterattacks with her stun baton, and detonates stored charge through [Overcharge].",
 
   stats: {
-    // Base stats from game data (unequipped, no trait bonuses)
-    strength: '9',
-    technic: '4',
+    // Primaries at max rarity raise (base + class rating increments), from game tables
+    strength: '15',
+    technic: '16',
     intelligence: '6',
-    vitality: '15',
+    vitality: '27',
     agility: '3',
 
-    maxHp: '960',
+    maxHp: '1728',
     spd: '81',
-    meleeAtk: '115',
-    rangedAtk: '51',
+    meleeAtk: '192',
+    rangedAtk: '204',
     magicAtk: '76',
-    startingAp: '131',
+    startingAp: '163',
     apRecovery: '91',
     accuracy: '102',
     evade: '38',
     critRate: '10',
     critDmg: '156',
+
+    // Attribute boosts/DEF (Lv 60, full raises, inborn + default kit trait passives included)
+    slashBoost: '0',
+    pierceBoost: '0',
+    crushBoost: '6',
+    heatBoost: '0',
+    coldBoost: '0',
+    electricBoost: '0',
+    immaterialBoost: '0',
+    poisonBoost: '0',
+    slashDef: '0',
+    pierceDef: '0',
+    crushDef: '0',
+    heatDef: '0',
+    coldDef: '0',
+    electricDef: '300',
+    immaterialDef: '40',
+    poisonDef: '0',
+    blockRate: '0',
   },
 
   profile: {
-  "age": "",
-  "racial": "",
-  "homeland": "",
-  "height": "",
-  "birthday": "",
-  "bwhRatio": ""
+  "age": "34",
+  "racial": "Human (Earth)",
+  "homeland": "East Asia Federation",
+  "height": "155cm",
+  "birthday": "November 11th",
+  "bwhRatio": "94(L)-52-96"
 },
 
   uniqueTraits: {
-    baseMagicATK50: { name: 'Base Magic ATK +50%', description: 'Cannot perform Weak Point Attacks, but increases base Magic ATK by 50%.' },
-    phoenix: { name: 'Phoenix', description: 'Heat DMG Boost +10%, Max HP +5%' },
-    eternity: { name: 'Eternity', description: 'This trait has no listed description in the current game build; its text was removed in the September 10, 2026 patch.' },
-    interested: { name: 'Interested', description: 'Unlocks at Gift Affection Level 5: becomes active after reaching 2,000 affection points through gift-giving. Special trait with no listed characteristics.' },
+    staticElectricity: { name: 'Static Electricity', description: "At the start of your turn, applies [Electrocution] to allies within a 3m radius for 2R. When an enemy initiates an attack against you, turns to face the attacker. Block Rate +25%. Block Rate is capped at 75%. [Electrocution]: When hit, deals additional Electric DMG based on the caster's Electric DEF to enemies within a 5m radius. When hit by Electric DMG, this effect triggers one additional time. DMG from [Electrocution] only occurs after 'Plasma Explosion' has been used at least once. At EX+2, adds additional Electric DMG equal to 20% of Electric DEF." },
+    human: { name: 'Human', description: 'Technic +1, AP Recovery +4%' },
+    senseOfBelonging: { name: 'Sense of Belonging', description: "At the start of battle, [Camaraderie] activates for Vanguards affiliated with Discover. [Camaraderie]: Increases Crit DMG by 200%. Yeon Chae-young additionally gains [Sense of Distance]. [Sense of Distance]: On attack, reduces the cooldown of all skills by 1R. So Joo-hee additionally gains [Love-Hate]. [Love-Hate]: Increases all DEF by 3000, reduces DMG taken by 50%, and allows Counterattacks regardless of the base number of Counterattacks." },
+    interested: { name: 'Interested', description: 'Special trait with no listed characteristics.' },
   },
 
   skills: {
-    incineration: {
-      gameKey: "Incineration",
-      icon: "UI_SkillIcon_Incineration",
-      name: "Incinerate",
+    suppressionStrike: {
+      gameKey: "SuppressionStrike",
+      icon: "UI_SkillIcon_SuppressionStrike",
+      name: "Suppression Strike",
       type: 'Skill',
-      description: "None",
+      description: "Swings a stun baton to strike enemies. Deals Crush DMG equal to {60,66,72,78,84,90,96,102,108,114}% of Melee ATK to enemies within a 120° fan-shaped area with a 2m radius.",
     },
-    ember: {
-      gameKey: "Ember",
-      icon: "UI_SkillIcon_Ember",
-      name: "Cinder",
+    ambushCover: {
+      gameKey: "AmbushCover",
+      icon: "UI_SkillIcon_AmbushCover",
+      name: "Surprise Cover",
       type: 'Skill',
-      description: "None",
+      description: "If any ally is in Stealth at the start of any turn, the Crit Rate of allies in Stealth increases by {55,60,65,70,75,80,85,90,95,100}% until the end of the turn. From the start to the end of any turn, all DEF increases by {110,120,130,140,150,160,170,180,190,200}% of Electric DEF.",
     },
-    ignition: {
-      gameKey: "Ignition",
-      icon: "UI_SkillIcon_Ignition",
-      name: "Ignite",
+    plasmaExplosion: {
+      gameKey: "PlasmaExplosion",
+      icon: "UI_SkillIcon_PlasmaExplosion",
+      name: "Plasma Burst",
       type: 'Skill',
-      description: "None",
+      description: "Unleashes a powerful electric discharge, creating an electrified field for a short duration. Deals Electric DMG equal to {80,88,96,104,112,120,128,136,142,150}% of Melee ATK to enemies within a 5m radius. On a successful hit, inflicts [Electrocution] for 2R. At EX+1, also inflicts Taunt for 2R on a successful hit. [Electrocution]: When hit, deals additional Electric DMG equal to {200,220,240,260,280,300,320,340,360,380}% of the caster's Electric DEF to enemies within a 5m radius. When hit by Electric DMG, this effect triggers one additional time. DMG from [Electrocution] only occurs after 'Plasma Burst' has been used at least once. At EX+2, adds additional Electric DMG equal to 20% of Electric DEF.",
     },
-    solitude: {
-      gameKey: "Solitude",
-      icon: "UI_SkillIcon_Solitude",
-      name: "Solitude",
+    swift: {
+      gameKey: "Swift",
+      icon: "UI_SkillIcon_Swift",
+      name: "Haste",
       type: 'Skill',
-      description: "None",
+      description: "If you are within the damage area generated by [Electrocution], recover 5% of Max HP and gain 1 stack of [Power Charge]. [Power Charge]: Melee ATK +20%, Electric Boost +15%, and Crit Rate +4%. Stacks up to 10 times. At EX+4, [Power Charge] grants an additional 5% Electric Boost. At EX+6, [Power Charge] grants an additional 1% Crit Rate. At the start of any turn, if [Power Charge] has reached 10 stacks, removes all stacks of [Power Charge] and gains [Overcharge]. [Overcharge]: Melee ATK +400%, Electric Boost +300%, and Crit Rate +80%. At EX+4, [Overcharge] grants an additional 100% Electric Boost. At EX+6, [Overcharge] grants an additional 20% Crit Rate. Cannot gain [Power Charge] while [Overcharge] is active.",
     },
-    burningFeather: {
-      gameKey: "BurningFeather",
-      icon: "UI_SkillIcon_BurningFeather",
-      name: "Phoenix Feather",
+    powerRelease: {
+      gameKey: "PowerRelease",
+      icon: "UI_SkillIcon_PowerRelease",
+      name: "Power Discharge",
       type: 'Skill',
-      description: "None",
+      description: "Releases all the electricity stored within the body at once. Can only be activated while [Overcharge] is active. Leaps to the designated location, dealing Electric DMG equal to {600,660,720,780,840,900,960,1020,1080,1140}% of Melee ATK to enemies within a 7m radius. Afterward, [Overcharge] is removed.",
     },
-    heatDetection: {
-      gameKey: "HeatDetection",
-      icon: "UI_SkillIcon_HeatDetection",
-      name: "Crimson Blaze",
+    powerCharge: {
+      gameKey: "PowerCharge",
+      icon: "UI_SkillIcon_PowerCharge",
+      name: "Power Charge",
       type: 'Skill',
-      description: "None",
+      description: "After attacking while [Overcharge] is active, performs an additional Response using 'Thunderstrike'. [#sepline]Thunderstrike Unleashes a shower of lightning bolts. Deals Electric DMG equal to {120,132,144,156,168,180,192,204,216,228}% of Melee ATK to enemies within a 120º fan-shaped area with a 7m radius.",
     },
   },
   heroId: 71,
 
+  weapon: {
+    name: "Tactical Suppression Gear - ES01",
+    flavor: "Developed by the Bureau of Rift Management's Engineering Research Division, the ES01 was an experimental weapon system designed to take tactical suppression to the next level. Its electroshock baton could deliver devastating electrical strikes at close range or channel high-voltage currents toward distant targets. Paired with a shield made from a special material recovered from within a Rift, the ES01 offered an impressive combination of offensive power and protection. But there was a catch. The system consumed so much electricity that its operator had to carry a separate battery pack, making it cumbersome and impractical in the field. Despite its promising performance, the ES01 was deemed unfit for mass production and eventually abandoned in a research facility's storage room. That was until the Human God ordered it to be modified for Mu Yingying. With Yingying herself supplying the electricity, the ES01 no longer needed an external power source. Freed from its greatest limitation, the weapon unleashed destructive power far beyond what its designers had envisioned. Its electrical insulation was reinforced, and its energy storage capacity was upgraded to handle the sheer output of Yingying's abilities. Once written off as a failed prototype, the ES01 finally had its chance to shine.",
+    type: "Blunt Weapon & Shield",
+    rarity: 'EX',
+    image: "Weapon_FullIMG_MaceAndShield_ForMuYingying_MS",
+    imageOnR2: true,
+    maxLevel: 60,
+    stats: {
+      "Melee ATK (weapon)": "70",
+      "Melee ATK (%)": "49%"
+    },
+    uniqueSkills: {
+      unique: {
+        name: "Unique: Anti-Shock Armor",
+        type: 'Unique',
+        description: "During battle, Electric DEF increases by {200,400,600,800,1000}. Additionally, Counterattack DMG increases by {50,100,150,200,250}%. Block Rate increases by {10,20,30,40,50}%. Block Rate is capped at 75%.",
+      },
+      signature: {
+        name: "Mu Yingying Signature: Current Brand",
+        type: 'Signature',
+        description: "On a successful hit, inflicts [Electrocution] on the enemy. Converts the Crush DMG of 'Suppression Strike' into Electric DMG and increases its range to 5m. Can perform unlimited Counterattacks during battle.",
+      },
+    },
+    levelStats: {
+      "Melee ATK (weapon)": [11, 70],
+      "Melee ATK (%)": [7.7, 49.0]
+    },
+    exLevels: {
+      effects: [
+        { name: "During battle, Electric DEF increases", valuesByLevel: "200 / 400 / 600 / 800 / 1000" },
+        { name: "Counterattack DMG increases", valuesByLevel: "50% / 100% / 150% / 200% / 250%" },
+      ],
+    },
+  },
+  story: "Secretary of the Classified Security Division at the Bureau of Rift Management. Despite her youthful appearance, Mu Yingying is a seasoned veteran with over a decade of field experience. Her colleagues don't turn to her because she has all the answers. They rely on her because she knows how to distinguish what is certain from what remains unknown, and because even when faced with the unexplained, she always finds a way to bring everyone home safely. The Classified Security Division's office, once bustling with colleagues, is now occupied by Yingying alone. Although new cases have become increasingly rare, her work continues, from inspecting sealed entities to cross-referencing old records. Yet years spent quietly preventing disasters are difficult to quantify as tangible achievements. When the Bureau begins reviewing its divisions for possible consolidation, Yingying takes it upon herself to assist other departments in their field operations, determined to prove that the Classified Security Division still matters, and thus has an important role to play.",
   rarityStages: {
     'EX': {
       strength: 9,
-      technic: 4,
+      technic: 10,
       intelligence: 6,
       vitality: 15,
       agility: 3,
       maxHp: 960,
       meleeAtk: 115,
-      rangedAtk: 51,
+      rangedAtk: 128,
       magicAtk: 76,
       evade: 38,
       apRecovery: 91,
-      startingAp: 131
+      startingAp: 163
     },
     'EX 1': {
-      strength: 9,
-      technic: 4,
+      strength: 10,
+      technic: 11,
       intelligence: 6,
-      vitality: 15,
+      vitality: 18,
       agility: 3,
-      maxHp: 960,
-      meleeAtk: 115,
-      rangedAtk: 51,
+      maxHp: 1152,
+      meleeAtk: 128,
+      rangedAtk: 140,
       magicAtk: 76,
       evade: 38,
       apRecovery: 91,
-      startingAp: 131
+      startingAp: 163
     },
     'EX 2': {
-      strength: 9,
-      technic: 4,
+      strength: 10,
+      technic: 12,
       intelligence: 6,
-      vitality: 15,
+      vitality: 18,
       agility: 3,
-      maxHp: 960,
-      meleeAtk: 115,
-      rangedAtk: 51,
+      maxHp: 1152,
+      meleeAtk: 128,
+      rangedAtk: 153,
       magicAtk: 76,
       evade: 38,
       apRecovery: 91,
-      startingAp: 131
+      startingAp: 163
     },
     'EX 3': {
-      strength: 9,
-      technic: 4,
+      strength: 12,
+      technic: 13,
       intelligence: 6,
-      vitality: 15,
+      vitality: 22,
       agility: 3,
-      maxHp: 960,
-      meleeAtk: 115,
-      rangedAtk: 51,
+      maxHp: 1408,
+      meleeAtk: 153,
+      rangedAtk: 166,
       magicAtk: 76,
       evade: 38,
       apRecovery: 91,
-      startingAp: 131
+      startingAp: 163
     },
     'EX 4': {
-      strength: 9,
-      technic: 4,
+      strength: 12,
+      technic: 14,
       intelligence: 6,
-      vitality: 15,
+      vitality: 22,
       agility: 3,
-      maxHp: 960,
-      meleeAtk: 115,
-      rangedAtk: 51,
+      maxHp: 1408,
+      meleeAtk: 153,
+      rangedAtk: 179,
       magicAtk: 76,
       evade: 38,
       apRecovery: 91,
-      startingAp: 131
+      startingAp: 163
     },
     'EX 5': {
-      strength: 9,
-      technic: 4,
+      strength: 15,
+      technic: 15,
       intelligence: 6,
-      vitality: 15,
+      vitality: 27,
       agility: 3,
-      maxHp: 960,
-      meleeAtk: 115,
-      rangedAtk: 51,
+      maxHp: 1728,
+      meleeAtk: 192,
+      rangedAtk: 192,
       magicAtk: 76,
       evade: 38,
       apRecovery: 91,
-      startingAp: 131
+      startingAp: 163
     },
     'EX 6': {
-      strength: 9,
-      technic: 4,
+      strength: 15,
+      technic: 16,
       intelligence: 6,
-      vitality: 15,
+      vitality: 27,
       agility: 3,
-      maxHp: 960,
-      meleeAtk: 115,
-      rangedAtk: 51,
+      maxHp: 1728,
+      meleeAtk: 192,
+      rangedAtk: 204,
       magicAtk: 76,
       evade: 38,
       apRecovery: 91,
-      startingAp: 131
+      startingAp: 163
     },
   },
 };
@@ -203,8 +258,8 @@ const rawMu_ying_yingData = {
 // Sanitize and validate the character data
 export const mu_ying_yingData = sanitizeCharacterData(rawMu_ying_yingData);
 export const mu_ying_yingSEO = {
-  title: `Mu Ying-ying - Horizon Walker Character Guide`,
-  description: `Complete guide for Mu Ying-ying, EX rarity 7 cost hero in Horizon Walker. Skills, traits, profile and team tips.`,
+  title: `Mu Yingying - Horizon Walker Character Guide`,
+  description: `Complete guide for Mu Yingying, EX rarity 7 cost hero in Horizon Walker. Skills, traits, profile and team tips.`,
 };
 
 const rawHighlighting = {
@@ -215,7 +270,7 @@ const rawHighlighting = {
   keywords: /\b(?:reduces?|deals?|inflicts?|additional|equal\s+to|applies?|gains?|grants?|lasting|successful|activates?|increases?|decreases?|deployed|battle|allies|recovers?|defeated|duration|turn|start|end|rounds?|for\s+\d{1,3}\s+rounds?)\b/gi,
   attributes: /\b(?:AP|Magic\s+ATK|Immaterial|Physical|Slash|Pierce|Crush|Heat|Cold|Electric|Poison|Evasion|ATK|AP\s+recovery|all\s+ATK|DEF|max\s+HP|HP|Speed|Accuracy|Crit\s+Rate|Crit\s+DMG)\b/gi,
   searchableTerms: [
-    "Mu Ying-ying",
+    "Mu Yingying",
     "EX",
     7,
     ...rawMu_ying_yingData.tags,

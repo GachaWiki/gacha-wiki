@@ -5,6 +5,29 @@
 // later "Searches have ended" announcement (its own patch note is not on the wiki).
 export const bannerRuns = [
   {
+    type: "debut",
+    start: "2026-10-22", end: "2026-11-05",
+    approximate: false, reconstructed: false,
+    entries: [
+      { name: "Thunderclap Guardian", kind: "vanguard", charSlug: "mu-ying-ying", noteImage: "patch-notes/64899b11dcd9.webp" },
+      { name: "Tactical Suppression Gear - ES01", kind: "weapon", weaponImage: "Weapon_FullIMG_MaceAndShield_ForMuYingying_MS" },
+    ],
+    bannerImage: "patch-notes/ae2055f8b0b6.webp",
+    sourceNote: "update-2026-10-21",
+    sourceUrl: "/guides/horizon-walker/updates/update-2026-10-21/",
+  },
+  {
+    type: "rerun",
+    start: "2026-10-22", end: "2026-11-05",
+    approximate: false, reconstructed: false,
+    entries: [
+      { name: "Fleure de Vanité 92", kind: "weapon", weaponImage: "Weapon_FullIMG_Fleur_De_Vanite92" },
+    ],
+    bannerImage: null,
+    sourceNote: "update-2026-10-21",
+    sourceUrl: "/guides/horizon-walker/updates/update-2026-10-21/",
+  },
+  {
     type: "rerun",
     start: "2026-10-08", end: "2026-10-22",
     approximate: false, reconstructed: false,
@@ -921,37 +944,27 @@ export const bannerRuns = [
     sourceUrl: "/guides/horizon-walker/updates/update-2024-12-18/",
   },
   {
-    type: "debut",
-    start: "2024-12-05", end: "2024-12-19",
-    approximate: false, reconstructed: false,
-    entries: [
-      { name: "JK229 Artemis", kind: "weapon", weaponImage: "Weapon_FullIMG_JK220_Artemis" },
-    ],
-    bannerImage: "patch-notes/263f3bc954d8.webp",
-    sourceNote: "update-2024-12-04",
-    sourceUrl: "/guides/horizon-walker/updates/update-2024-12-04/",
-  },
-  {
     type: "rerun",
     start: "2024-12-05", end: "2024-12-19",
-    approximate: false, reconstructed: false,
+    approximate: true, reconstructed: true,
     entries: [
       { name: "Marhim, the Queen Puss of Bloodbath", kind: "vanguard", charSlug: "marhim" },
+      { name: "JK229 Artemis", kind: "weapon", weaponImage: "Weapon_FullIMG_JK220_Artemis" },
       { name: "The Crimson Executioner", kind: "weapon", weaponImage: "Weapon_FullIMG_TheBloodyExecutioner" },
     ],
     bannerImage: null,
-    sourceNote: "update-2024-12-04",
-    sourceUrl: "/guides/horizon-walker/updates/update-2024-12-04/",
+    sourceNote: "update-2024-12-18",
+    sourceUrl: "/guides/horizon-walker/updates/update-2024-12-18/",
   },
   {
     type: "debut",
     start: "2024-11-21", end: "2024-12-05",
-    approximate: false, reconstructed: false,
+    approximate: true, reconstructed: false,
     entries: [
       { name: "Saint of Bullets", kind: "vanguard", charSlug: "juha", noteImage: "patch-notes/495bfb0434c7.webp" },
       { name: "The Wings of Glory", kind: "weapon", weaponImage: "Weapon_FullIMG_SignsOfTheHolySpirit" },
     ],
-    bannerImage: "patch-notes/d85a84826778.webp",
+    bannerImage: "patch-notes/4783db8194e7.webp",
     sourceNote: "update-2024-11-20",
     sourceUrl: "/guides/horizon-walker/updates/update-2024-11-20/",
   },
@@ -993,6 +1006,17 @@ export const focusedSearches = [
 // from the patch notes; characters never introduced there are launch roster
 // (2024-11-21, the first maintenance the notes cover).
 export const characterReleases = [
+  {
+    "name": "Mu Yingying",
+    "slug": "mu-ying-ying",
+    "rarity": "EX",
+    "image": "MuYingying",
+    "date": "2026-10-22",
+    "via": "banner",
+    "bannerName": "Thunderclap Guardian",
+    "sourceNote": "update-2026-10-21",
+    "sourceUrl": "/guides/horizon-walker/updates/update-2026-10-21/"
+  },
   {
     "name": "Garud",
     "slug": "garud",
@@ -1427,17 +1451,6 @@ export const characterReleases = [
     "slug": "nika",
     "rarity": "EX",
     "image": "Nika.jpg",
-    "date": "2024-11-21",
-    "via": "launch",
-    "bannerName": null,
-    "sourceNote": null,
-    "sourceUrl": null
-  },
-  {
-    "name": "Mu Ying-ying",
-    "slug": "mu-ying-ying",
-    "rarity": "EX",
-    "image": "Mu Ying-ying",
     "date": "2024-11-21",
     "via": "launch",
     "bannerName": null,

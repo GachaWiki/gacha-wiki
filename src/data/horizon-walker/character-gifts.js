@@ -2234,6 +2234,43 @@ export const CHARACTER_GIFT_PREFERENCES = [
       },
     ],
   },
+  {
+    id: 'mu-yingying',
+    name: 'Mu Yingying',
+    rarity: 'EX',
+    image: 'MuYingying.jpg',
+    favorites: [
+      {
+        id: 'grey-goose-vodka',
+        name: 'Grey Goose Vodka',
+        rarity: 'SS',
+        image: '../../assets/images/games/horizon-walker/Gifts/Grey_Goose_Vodka.jpg',
+        basePoints: 50,
+        bonusPoints: 20,
+        totalPoints: 70,
+      },
+    ],
+    likes: [
+      {
+        id: 'anti-aging-skincare-product',
+        name: 'Anti-Aging Skincare Product',
+        rarity: 'A',
+        image: '../../assets/images/games/horizon-walker/Gifts/Anti_aging_Skincare_product.jpg',
+        basePoints: 20,
+        bonusPoints: 10,
+        totalPoints: 30,
+      },
+      {
+        id: 'hotel-restaurant-meal-voucher',
+        name: 'Hotel Restaurant Meal Voucher',
+        rarity: 'A',
+        image: '../../assets/images/games/horizon-walker/Gifts/Hotel_Restaurant_Meal_Voucher.jpg',
+        basePoints: 20,
+        bonusPoints: 10,
+        totalPoints: 30,
+      },
+    ],
+  },
 ];
 export const getCharacterById = characterId => {
   return CHARACTER_GIFT_PREFERENCES.find(char => char.id === characterId);

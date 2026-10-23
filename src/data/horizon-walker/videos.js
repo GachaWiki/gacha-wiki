@@ -151,6 +151,9 @@ export const HW_CHARACTER_VIDEOS = {
     { id: 'pRqRKHt10Qk', type: 'costume', title: 'New Costume - Lady Violet', date: '2026-03-24' },
     { id: 'gGbvVoARUUg', type: 'intro', title: 'New Vanguard - Maximilia', date: '2026-03-23' },
   ],
+  'mu-ying-ying': [
+    { id: 'qgb5-aeZ9ps', type: 'intro', title: 'New Vanguard - Mu Yingying', date: '2026-10-14' },
+  ],
   mira: [
     { id: '_lyOGiknabs', type: 'intro', title: 'New Vanguard - Mira', date: '2026-05-28' },
   ],
