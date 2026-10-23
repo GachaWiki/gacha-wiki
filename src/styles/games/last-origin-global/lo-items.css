@@ -333,6 +333,42 @@
   color: var(--lo-text-secondary);
 }
 
+/* ---------- unit page where-to-farm ---------- */
+.lo-farm-groups {
+  display: flex;
+  flex-direction: column;
+  gap: var(--lo-spacing-md);
+  margin-bottom: var(--lo-spacing-md);
+}
+.lo-farm-group {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.lo-farm-source {
+  font-size: var(--text-sm);
+  font-weight: 700;
+  color: var(--lo-text-primary);
+}
+.lo-farm-stages {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+.lo-farm-note {
+  color: var(--lo-text-secondary);
+  font-weight: 400;
+}
+.lo-farm-notes {
+  margin: 0 0 var(--lo-spacing-sm);
+  padding-left: 18px;
+  font-size: var(--text-sm);
+  color: var(--lo-text-primary);
+}
+.lo-farm-notes li {
+  margin-bottom: 4px;
+}
+
 /* ---------- unit page equipment section ---------- */
 .lo-unit-slots {
   display: flex;

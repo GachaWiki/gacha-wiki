@@ -161,6 +161,32 @@ const resist = st.resist || {};
     </div>
   )}
 
+  {c.farm && (c.farm.groups.length > 0 || c.farm.notes.length > 0) && (
+    <div class="lo-panel">
+      <h2 class="lo-panel-title">Where to Farm</h2>
+      {c.farm.groups.length > 0 && (
+        <div class="lo-farm-groups">
+          {c.farm.groups.map((g) => (
+            <div class="lo-farm-group">
+              <span class="lo-farm-source">{g.source}</span>
+              <div class="lo-farm-stages">
+                {g.stages.map(([stage, note]) => (
+                  <span class="lo-source-badge">{stage}{note ? <span class="lo-farm-note"> {note}</span> : ''}</span>
+                ))}
+              </div>
+            </div>
+          ))}
+        </div>
+      )}
+      {c.farm.notes.length > 0 && (
+        <ul class="lo-farm-notes">
+          {c.farm.notes.map((n) => <li>{n}</li>)}
+        </ul>
+      )}
+      <p class="lo-stats-note">Drop sources via lastorigin.wiki.gg. Event stages only drop the unit while the event runs.</p>
+    </div>
+  )}
+
   <div class="lo-panel">
     <h2 class="lo-panel-title">Stats</h2>
     <table class="lo-table">

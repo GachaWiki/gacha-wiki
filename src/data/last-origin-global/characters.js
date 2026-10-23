@@ -27,6 +27,22 @@ export const loCharacters = [
     "height": "188cm",
     "weight": "180kg",
     "equipRec": "OGCC",
+    "farm": {
+      "notes": [
+        "Labiata can only be obtained by clearing 6-8 (Once) OR buying her One-Off Package (Once)."
+      ],
+      "groups": [
+        {
+          "source": "Main Story",
+          "stages": [
+            [
+              "6-8",
+              "First Clear Reward"
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/labiata.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/labiata.webp",
     "stats": {
@@ -152,6 +168,252 @@ export const loCharacters = [
     "height": "168cm",
     "weight": "54kg",
     "equipRec": "CCGO",
+    "farm": {
+      "notes": [
+        "Production"
+      ],
+      "groups": [
+        {
+          "source": "Legacy of Rioboros",
+          "stages": [
+            [
+              "Ev2-4B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Choco Queen in Wonderland",
+          "stages": [
+            [
+              "Ev2-1ep",
+              ""
+            ],
+            [
+              "Ev2-3Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Aria of the Elven Town",
+          "stages": [
+            [
+              "Ev3-2s",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Country within Muddy Memory",
+          "stages": [
+            [
+              "Ev2-5",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Invitation from Paradise",
+          "stages": [
+            [
+              "Ev2-7",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Lightless Sanctuary",
+          "stages": [
+            [
+              "Ev3-2s",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Bunny? Niba! Thumpy Thump Reverse Bunny Trouble!",
+          "stages": [
+            [
+              "Ev2-5B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Wolf's Fang of Fury",
+          "stages": [
+            [
+              "Ev1-1",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Blind Princess and the Land of Mist",
+          "stages": [
+            [
+              "Ev1-3Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Dreaming Mermaid's Island",
+          "stages": [
+            [
+              "Ev1-1Ex",
+              ""
+            ],
+            [
+              "Ev2-4",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Orca Film Festival",
+          "stages": [
+            [
+              "Ev1-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Curtain Call After the Apocalypse",
+          "stages": [
+            [
+              "Ev1-6",
+              ""
+            ],
+            [
+              "Ev2-2",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Gold Out of Space",
+          "stages": [
+            [
+              "Ev2-1Ex",
+              ""
+            ],
+            [
+              "Ev3-4B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Adventuring at Sea Again",
+          "stages": [
+            [
+              "Ev1-4",
+              ""
+            ],
+            [
+              "Ev1-2B",
+              ""
+            ],
+            [
+              "Ev1-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "For the Dreamless Mermaid",
+          "stages": [
+            [
+              "Ev2-2",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Palace of the Reclusive Goddess",
+          "stages": [
+            [
+              "Ev1-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Daisenran ~Endless Storm of Violet Lightning~",
+          "stages": [
+            [
+              "Ev1-4",
+              ""
+            ],
+            [
+              "Ev2-1B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Project ORCA: Sun-Rising Stage",
+          "stages": [
+            [
+              "Ev1-1Ex",
+              ""
+            ],
+            [
+              "Ev3-1B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Corrupted Last Record",
+          "stages": [
+            [
+              "Ev3-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Living Dead Carnival",
+          "stages": [
+            [
+              "Ev1-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Orca Christmas Expo",
+          "stages": [
+            [
+              "Ev2-5",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Sisters of Omerta",
+          "stages": [
+            [
+              "Ev1-1",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Silent Swamp",
+          "stages": [
+            [
+              "Ev1-1",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/constantia.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/constantia.webp",
     "stats": {
@@ -285,6 +547,80 @@ export const loCharacters = [
     "height": "178cm",
     "weight": "65kg",
     "equipRec": "CCOG",
+    "farm": {
+      "notes": [
+        "Production",
+        "Halloween Park Panic!'s Exchange",
+        "St.Orca's Secret Operation's Exchange",
+        "Wolf's Fang of Fury's Exchange",
+        "Zero Base's Exchange"
+      ],
+      "groups": [
+        {
+          "source": "Main Story",
+          "stages": [
+            [
+              "9-4",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Choco Queen in Wonderland",
+          "stages": [
+            [
+              "Ev2-3Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Country within Muddy Memory",
+          "stages": [
+            [
+              "Ev2-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Invitation from Paradise",
+          "stages": [
+            [
+              "Ev2-7",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Water Park on which the Sun Never Sets",
+          "stages": [
+            [
+              "Ev2-3Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Blind Princess and the Land of Mist",
+          "stages": [
+            [
+              "Ev3-5B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Dreaming Mermaid's Island",
+          "stages": [
+            [
+              "Ev1-3B",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/alice.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/alice.webp",
     "stats": {
@@ -438,6 +774,362 @@ export const loCharacters = [
     "height": "152cm",
     "weight": "40kg",
     "equipRec": "CCOG",
+    "farm": {
+      "notes": [
+        "Production"
+      ],
+      "groups": [
+        {
+          "source": "Main Story",
+          "stages": [
+            [
+              "4-1B",
+              "First Clear Reward"
+            ],
+            [
+              "4-1B",
+              ""
+            ],
+            [
+              "4-2Ex",
+              ""
+            ],
+            [
+              "5-3",
+              ""
+            ],
+            [
+              "5-4Ex",
+              ""
+            ],
+            [
+              "6-6",
+              ""
+            ],
+            [
+              "6-1Ex",
+              ""
+            ],
+            [
+              "9-3Ex",
+              ""
+            ],
+            [
+              "11-1Ex",
+              ""
+            ],
+            [
+              "12-3Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "St.Orca's Secret Operation",
+          "stages": [
+            [
+              "Ev2-4B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Choco Queen in Wonderland",
+          "stages": [
+            [
+              "Ev2-3Ex",
+              ""
+            ],
+            [
+              "Ev2-5Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Aria of the Elven Town",
+          "stages": [
+            [
+              "Ev2-7",
+              ""
+            ],
+            [
+              "Ev3-3s",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Invitation from Paradise",
+          "stages": [
+            [
+              "Ev1-6",
+              ""
+            ],
+            [
+              "Ev2-7",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Project ORCA Starlit Night Stage",
+          "stages": [
+            [
+              "Ev2-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Lightless Sanctuary",
+          "stages": [
+            [
+              "Ev2-7",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Rose that Blooms atop of Lotus",
+          "stages": [
+            [
+              "Ev2-3",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Bunny? Niba! Thumpy Thump Reverse Bunny Trouble!",
+          "stages": [
+            [
+              "Ev2-5B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Mini Companions' Onslaught ~Fierceness that Invites Storm~",
+          "stages": [
+            [
+              "Ev1-5",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Orca Date Contest",
+          "stages": [
+            [
+              "Ev1-5Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Wolf's Fang of Fury",
+          "stages": [
+            [
+              "Ev1-1",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Water Park on which the Sun Never Sets",
+          "stages": [
+            [
+              "Ev2-3Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Blind Princess and the Land of Mist",
+          "stages": [
+            [
+              "Ev1-3Ex",
+              ""
+            ],
+            [
+              "Ev3-6",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Dreaming Mermaid's Island",
+          "stages": [
+            [
+              "Ev2-2",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Orca Film Festival",
+          "stages": [
+            [
+              "Ev1-6",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Sincerely, To Your End",
+          "stages": [
+            [
+              "Ev1-3",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Gold Out of Space",
+          "stages": [
+            [
+              "Ev1-4B",
+              ""
+            ],
+            [
+              "Ev2-2B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Adventuring at Sea Again",
+          "stages": [
+            [
+              "Ev1-8",
+              ""
+            ],
+            [
+              "Ev1-1B",
+              ""
+            ],
+            [
+              "Ev1-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "For the Dreamless Mermaid",
+          "stages": [
+            [
+              "Ev1-2B",
+              ""
+            ],
+            [
+              "Ev2-2",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Palace of the Reclusive Goddess",
+          "stages": [
+            [
+              "Ev1-5",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Daisenran ~Endless Storm of Violet Lightning~",
+          "stages": [
+            [
+              "Ev1-1",
+              ""
+            ],
+            [
+              "Ev1-5",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Project ORCA: Sun-Rising Stage",
+          "stages": [
+            [
+              "Ev2-2",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Corrupted Last Record",
+          "stages": [
+            [
+              "Ev1-8",
+              ""
+            ],
+            [
+              "Ev4-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Orca Christmas Expo",
+          "stages": [
+            [
+              "Ev1-4",
+              ""
+            ],
+            [
+              "Ev2-1EX",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Dance of the Stars",
+          "stages": [
+            [
+              "Ev2-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Bride of the Orca",
+          "stages": [
+            [
+              "Ev1-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Sisters of Omerta",
+          "stages": [
+            [
+              "Ev1-4Ex",
+              ""
+            ],
+            [
+              "Ev1-4EXH",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Silent Swamp",
+          "stages": [
+            [
+              "Ev1-4Ex",
+              ""
+            ],
+            [
+              "Ev1-4EXH",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/vanilla.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/vanilla.webp",
     "stats": {
@@ -599,6 +1291,100 @@ export const loCharacters = [
     "height": "162cm",
     "weight": "47kg",
     "equipRec": "OCCG",
+    "farm": {
+      "notes": [
+        "Production",
+        "Full Moon Nocturne's Exchange",
+        "Eternal Winter's Ark's Exchange"
+      ],
+      "groups": [
+        {
+          "source": "Main Story",
+          "stages": [
+            [
+              "10-2B",
+              "First Clear Reward"
+            ],
+            [
+              "11-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Legacy of Rioboros",
+          "stages": [
+            [
+              "Ev2-5B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Choco Queen in Wonderland",
+          "stages": [
+            [
+              "Ev2-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Somebody's Wish",
+          "stages": [
+            [
+              "Ev1-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Water Park on which the Sun Never Sets",
+          "stages": [
+            [
+              "Ev1-5B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Blind Princess and the Land of Mist",
+          "stages": [
+            [
+              "Ev1-7B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Curtain Call After the Apocalypse",
+          "stages": [
+            [
+              "Ev1-6",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Zero Base",
+          "stages": [
+            [
+              "Ev2-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Dance of the Stars",
+          "stages": [
+            [
+              "Ev2-3Ex",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/rhea.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/rhea.webp",
     "stats": {
@@ -719,6 +1505,257 @@ export const loCharacters = [
     "height": "158cm",
     "weight": "43kg",
     "equipRec": "CCOG",
+    "farm": {
+      "notes": [
+        "Production"
+      ],
+      "groups": [
+        {
+          "source": "Somebody's Wish",
+          "stages": [
+            [
+              "Ev1-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Project ORCA Starlit Night Stage",
+          "stages": [
+            [
+              "Ev1-6",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Lightless Sanctuary",
+          "stages": [
+            [
+              "Ev3-2s",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Rose that Blooms atop of Lotus",
+          "stages": [
+            [
+              "Ev1-3",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Eternal Winter's Ark",
+          "stages": [
+            [
+              "Ev1-11",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Orca Date Contest",
+          "stages": [
+            [
+              "Ev1-4Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Wolf's Fang of Fury",
+          "stages": [
+            [
+              "Ev1-2",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Water Park on which the Sun Never Sets",
+          "stages": [
+            [
+              "Ev1-2B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Water Park on which the Sun Never Sets",
+          "stages": [
+            [
+              "Ev3-2B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Blind Princess and the Land of Mist",
+          "stages": [
+            [
+              "Ev1-7B",
+              ""
+            ],
+            [
+              "Ev3-5B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Dreaming Mermaid's Island",
+          "stages": [
+            [
+              "Ev1-4",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Orca Film Festival",
+          "stages": [
+            [
+              "Ev1-4",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Gold Out of Space",
+          "stages": [
+            [
+              "Ev1-4B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Adventuring at Sea Again",
+          "stages": [
+            [
+              "Ev1-9",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "For the Dreamless Mermaid",
+          "stages": [
+            [
+              "Ev2-2B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Palace of the Reclusive Goddess",
+          "stages": [
+            [
+              "Ev1-2",
+              ""
+            ],
+            [
+              "Ev2-2",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Daisenran ~Endless Storm of Violet Lightning~",
+          "stages": [
+            [
+              "Ev1-1",
+              ""
+            ],
+            [
+              "Ev1-4",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Project ORCA: Sun-Rising Stage",
+          "stages": [
+            [
+              "Ev1-3Ex",
+              ""
+            ],
+            [
+              "Ev3-3B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Corrupted Last Record",
+          "stages": [
+            [
+              "Ev3-8",
+              ""
+            ],
+            [
+              "Ev4-1",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Living Dead Carnival",
+          "stages": [
+            [
+              "Ev1-3",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Orca Christmas Expo",
+          "stages": [
+            [
+              "Ev1-2",
+              ""
+            ],
+            [
+              "Ev2-2B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Dance of the Stars",
+          "stages": [
+            [
+              "Ev1-4Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Bride of the Orca",
+          "stages": [
+            [
+              "Ev2-1",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Sisters of Omerta",
+          "stages": [
+            [
+              "Ev1-2Ex",
+              ""
+            ],
+            [
+              "Ev1-2EXH",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/scissors-lise.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/scissors-lise.webp",
     "stats": {
@@ -836,6 +1873,296 @@ export const loCharacters = [
     "height": "165cm",
     "weight": "43kg",
     "equipRec": "CCOG",
+    "farm": {
+      "notes": [
+        "Production"
+      ],
+      "groups": [
+        {
+          "source": "Main Story",
+          "stages": [
+            [
+              "2-6",
+              ""
+            ],
+            [
+              "2-3Ex",
+              ""
+            ],
+            [
+              "3-4",
+              ""
+            ],
+            [
+              "3-4Ex",
+              ""
+            ],
+            [
+              "4-1B",
+              ""
+            ],
+            [
+              "5-2Ex",
+              ""
+            ],
+            [
+              "6-3",
+              ""
+            ],
+            [
+              "6-4Ex",
+              ""
+            ],
+            [
+              "7-1",
+              ""
+            ],
+            [
+              "12-3Ex",
+              ""
+            ],
+            [
+              "13-15",
+              ""
+            ],
+            [
+              "13-23",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Legacy of Rioboros",
+          "stages": [
+            [
+              "Ev2-3B",
+              ""
+            ],
+            [
+              "Ev2-5B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Somebody's Wish",
+          "stages": [
+            [
+              "Ev2-5",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Eternal Winter's Ark",
+          "stages": [
+            [
+              "Ev1-11",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Mini Companions' Onslaught ~Fierceness that Invites Storm~",
+          "stages": [
+            [
+              "Ev1-7",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Wolf's Fang of Fury",
+          "stages": [
+            [
+              "Ev1-2",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Water Park on which the Sun Never Sets",
+          "stages": [
+            [
+              "Ev1-2B",
+              ""
+            ],
+            [
+              "Ev3-2B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Blind Princess and the Land of Mist",
+          "stages": [
+            [
+              "Ev1-7B",
+              ""
+            ],
+            [
+              "Ev3-6B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Curtain Call After the Apocalypse",
+          "stages": [
+            [
+              "Ev1-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Sincerely, To Your End",
+          "stages": [
+            [
+              "Ev1-5",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Gold Out of Space",
+          "stages": [
+            [
+              "Ev1-1Ex",
+              ""
+            ],
+            [
+              "Ev2-4",
+              ""
+            ],
+            [
+              "Ev3-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Zero Base",
+          "stages": [
+            [
+              "Ev1-1B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Adventuring at Sea Again",
+          "stages": [
+            [
+              "Ev1-7",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "For the Dreamless Mermaid",
+          "stages": [
+            [
+              "Ev2-6",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Palace of the Reclusive Goddess",
+          "stages": [
+            [
+              "Ev1-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Daisenran ~Endless Storm of Violet Lightning~",
+          "stages": [
+            [
+              "Ev1-3B",
+              ""
+            ],
+            [
+              "Ev2-2B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Project ORCA: Sun-Rising Stage",
+          "stages": [
+            [
+              "Ev1-2Ex",
+              ""
+            ],
+            [
+              "Ev3-4B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Corrupted Last Record",
+          "stages": [
+            [
+              "Ev3-3Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Living Dead Carnival",
+          "stages": [
+            [
+              "Ev1-4Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Orca Christmas Expo",
+          "stages": [
+            [
+              "Ev2-1B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Bride of the Orca",
+          "stages": [
+            [
+              "Ev1-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Sisters of Omerta",
+          "stages": [
+            [
+              "Ev1-2Ex",
+              ""
+            ],
+            [
+              "Ev1-2EXH",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Silent Swamp",
+          "stages": [
+            [
+              "Ev1-6",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/daphne.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/daphne.webp",
     "stats": {
@@ -953,6 +2280,7 @@ export const loCharacters = [
     "height": "135cm",
     "weight": "28kg",
     "equipRec": "CCOG",
+    "farm": null,
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/aqua.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/aqua.webp",
     "stats": {
@@ -1065,6 +2393,72 @@ export const loCharacters = [
     "height": "166cm",
     "weight": "51kg",
     "equipRec": "CCOG",
+    "farm": {
+      "notes": [
+        "Production",
+        "Rose that Blooms atop of Lotus's Exchange",
+        "Eternal Winter's Ark's Exchange",
+        "Orca Date Contest's Exchange",
+        "Wolf's Fang of Fury's Exchange",
+        "The Blind Princess and the Land of Mist's Exchange",
+        "Dreaming Mermaid's Island's exchange"
+      ],
+      "groups": [
+        {
+          "source": "Main Story",
+          "stages": [
+            [
+              "11-3Ex",
+              ""
+            ],
+            [
+              "13-13",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Lightless Sanctuary",
+          "stages": [
+            [
+              "Ev1-3Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Curtain Call After the Apocalypse",
+          "stages": [
+            [
+              "Ev2-6",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Corrupted Last Record",
+          "stages": [
+            [
+              "Ev1-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Sisters of Omerta",
+          "stages": [
+            [
+              "Ev1-2Ex",
+              ""
+            ],
+            [
+              "Ev1-2EXH",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/titania.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/titania.webp",
     "stats": {
@@ -1177,6 +2571,55 @@ export const loCharacters = [
     "height": "175cm",
     "weight": "55kg",
     "equipRec": "CCOG",
+    "farm": {
+      "notes": [
+        "Production",
+        "Full Moon Nocturne's Exchange",
+        "Bunny? Niba! Thumpy Thump Reverse Bunny Trouble!'s Exchange"
+      ],
+      "groups": [
+        {
+          "source": "Main Story",
+          "stages": [
+            [
+              "4-8",
+              ""
+            ],
+            [
+              "13-19",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Water Park on which the Sun Never Sets",
+          "stages": [
+            [
+              "Ev2-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Curtain Call After the Apocalypse",
+          "stages": [
+            [
+              "Ev1-5",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Dance of the Stars",
+          "stages": [
+            [
+              "Ev2-1Ex",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/alexandra.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/alexandra.webp",
     "stats": {
@@ -1321,6 +2764,89 @@ export const loCharacters = [
     "height": "165.2cm",
     "weight": "54.1kg",
     "equipRec": "GCCO",
+    "farm": {
+      "notes": [
+        "Production",
+        "Supreme Dinner's Exchange",
+        "Legacy of Rioboros's Exchange",
+        "Full Moon Nocturne's Exchange",
+        "Orca Restoration's Exchange",
+        "Invitation from Paradise's Exchange",
+        "Eternal Winter's Ark's Exchange",
+        "Wolf's Fang of Fury's Exchange",
+        "Adventuring at Sea Again's Exchange",
+        "Dance of the Stars's Exchange"
+      ],
+      "groups": [
+        {
+          "source": "Main Story",
+          "stages": [
+            [
+              "12-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Lightless Sanctuary",
+          "stages": [
+            [
+              "Ev2-3",
+              "First Clear Reward"
+            ],
+            [
+              "Ev3-2s",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Water Park on which the Sun Never Sets",
+          "stages": [
+            [
+              "Ev1-3Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Blind Princess and the Land of Mist",
+          "stages": [
+            [
+              "Ev2-6",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Dreaming Mermaid's Island",
+          "stages": [
+            [
+              "Ev2-5",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Gold Out of Space",
+          "stages": [
+            [
+              "Ev1-7",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Orca Christmas Expo",
+          "stages": [
+            [
+              "Ev1-3EX",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/sowan.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/sowan.webp",
     "stats": {
@@ -1432,6 +2958,178 @@ export const loCharacters = [
     "height": "148.5cm",
     "weight": "37kg",
     "equipRec": "CCOG",
+    "farm": {
+      "notes": [
+        "Production"
+      ],
+      "groups": [
+        {
+          "source": "Main Story",
+          "stages": [
+            [
+              "7-8Ex",
+              ""
+            ],
+            [
+              "8-1Ex",
+              ""
+            ],
+            [
+              "13-36",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Project ORCA Starlit Night Stage",
+          "stages": [
+            [
+              "Ev3-1",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Bunny? Niba! Thumpy Thump Reverse Bunny Trouble!",
+          "stages": [
+            [
+              "Ev2-5B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Orca Date Contest",
+          "stages": [
+            [
+              "Ev1-4Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Wolf's Fang of Fury",
+          "stages": [
+            [
+              "Ev3-4",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Blind Princess and the Land of Mist",
+          "stages": [
+            [
+              "Ev1-3",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Dreaming Mermaid's Island",
+          "stages": [
+            [
+              "Ev1-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Orca Film Festival",
+          "stages": [
+            [
+              "Ev2-5",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Curtain Call After the Apocalypse",
+          "stages": [
+            [
+              "Ev1-6",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Gold Out of Space",
+          "stages": [
+            [
+              "Ev2-4B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Zero Base",
+          "stages": [
+            [
+              "Ev2-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "For the Dreamless Mermaid",
+          "stages": [
+            [
+              "Ev2-1B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Project ORCA: Sun-Rising Stage",
+          "stages": [
+            [
+              "Ev2-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Corrupted Last Record",
+          "stages": [
+            [
+              "Ev4-4",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Orca Christmas Expo",
+          "stages": [
+            [
+              "Ev2-1",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "From Martial Arts With Love",
+          "stages": [
+            [
+              "Ev1-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Silent Swamp",
+          "stages": [
+            [
+              "Ev1-2Ex",
+              ""
+            ],
+            [
+              "Ev1-2EXH",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/annie.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/annie.webp",
     "stats": {
@@ -1544,6 +3242,284 @@ export const loCharacters = [
     "height": "174cm",
     "weight": "53kg",
     "equipRec": "CCOG",
+    "farm": {
+      "notes": [
+        "Production"
+      ],
+      "groups": [
+        {
+          "source": "Main Story",
+          "stages": [
+            [
+              "6-8Ex",
+              ""
+            ],
+            [
+              "7-7",
+              ""
+            ],
+            [
+              "8-7",
+              ""
+            ],
+            [
+              "9-4",
+              ""
+            ],
+            [
+              "12-6",
+              ""
+            ],
+            [
+              "13-25",
+              ""
+            ],
+            [
+              "13-34",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Aria of the Elven Town",
+          "stages": [
+            [
+              "Ev3-2s",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Country within Muddy Memory",
+          "stages": [
+            [
+              "Ev2-2",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Project ORCA Starlit Night Stage",
+          "stages": [
+            [
+              "Ev2-6",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Orca Date Contest",
+          "stages": [
+            [
+              "Ev1-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Wolf's Fang of Fury",
+          "stages": [
+            [
+              "Ev2-7",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Water Park on which the Sun Never Sets",
+          "stages": [
+            [
+              "Ev2-2Ex",
+              ""
+            ],
+            [
+              "Ev3-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Blind Princess and the Land of Mist",
+          "stages": [
+            [
+              "Ev1-7",
+              ""
+            ],
+            [
+              "Ev2-1",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Dreaming Mermaid's Island",
+          "stages": [
+            [
+              "Ev3-3B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Orca Film Festival",
+          "stages": [
+            [
+              "Ev2-6",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Gold Out of Space",
+          "stages": [
+            [
+              "Ev1-3Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Zero Base",
+          "stages": [
+            [
+              "Ev1-3Ex",
+              ""
+            ],
+            [
+              "Ev2-4",
+              ""
+            ],
+            [
+              "Ev2-3Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Adventuring at Sea Again",
+          "stages": [
+            [
+              "Ev1-5",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "For the Dreamless Mermaid",
+          "stages": [
+            [
+              "Ev1-6",
+              ""
+            ],
+            [
+              "Ev2-2B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Palace of the Reclusive Goddess",
+          "stages": [
+            [
+              "Ev1-2",
+              ""
+            ],
+            [
+              "Ev1-3",
+              ""
+            ],
+            [
+              "Ev2-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Daisenran ~Endless Storm of Violet Lightning~",
+          "stages": [
+            [
+              "Ev1-6",
+              ""
+            ],
+            [
+              "Ev2-3B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Project ORCA: Sun-Rising Stage",
+          "stages": [
+            [
+              "Ev1-4",
+              ""
+            ],
+            [
+              "Ev2-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Corrupted Last Record",
+          "stages": [
+            [
+              "Ev2-3Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Living Dead Carnival",
+          "stages": [
+            [
+              "Ev1-8",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Orca Christmas Expo",
+          "stages": [
+            [
+              "Ev2-1",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Dance of the Stars",
+          "stages": [
+            [
+              "Ev1-8",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Top Secret Operation: Doki-Doki Love Schedule",
+          "stages": [
+            [
+              "Ev1-4Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Sisters of Omerta",
+          "stages": [
+            [
+              "Ev1-1Ex",
+              ""
+            ],
+            [
+              "Ev1-1EXH",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/maria.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/maria.webp",
     "stats": {
@@ -1670,6 +3646,7 @@ export const loCharacters = [
     "height": "165cm",
     "weight": "55kg",
     "equipRec": "CCOG",
+    "farm": null,
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/fotia.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/fotia.webp",
     "stats": {
@@ -1782,6 +3759,102 @@ export const loCharacters = [
     "height": "160cm",
     "weight": "47kg",
     "equipRec": "CCOG",
+    "farm": {
+      "notes": [
+        "Production",
+        "Legacy of Rioboros's Exchange",
+        "Halloween Park Panic!'s Exchange",
+        "St.Orca's Secret Operation's Exchange",
+        "Orca Restoration's Exchange"
+      ],
+      "groups": [
+        {
+          "source": "Main Story",
+          "stages": [
+            [
+              "5-8Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Legacy of Rioboros",
+          "stages": [
+            [
+              "Ev2-4B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Invitation from Paradise",
+          "stages": [
+            [
+              "Ev1-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Somebody's Wish",
+          "stages": [
+            [
+              "Ev1-6",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Mini Companions' Onslaught ~Fierceness that Invites Storm~",
+          "stages": [
+            [
+              "Ev1-4",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Wolf's Fang of Fury",
+          "stages": [
+            [
+              "Ev2-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Blind Princess and the Land of Mist",
+          "stages": [
+            [
+              "Ev1-7",
+              ""
+            ],
+            [
+              "Ev2-2",
+              "First Clear Reward"
+            ]
+          ]
+        },
+        {
+          "source": "Zero Base",
+          "stages": [
+            [
+              "Ev1-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Bride of the Orca",
+          "stages": [
+            [
+              "Ev1-1Ex",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/black-lilith.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/black-lilith.webp",
     "stats": {
@@ -1895,6 +3968,179 @@ export const loCharacters = [
     "height": "160cm",
     "weight": "59kg",
     "equipRec": "CCOG",
+    "farm": {
+      "notes": [
+        "Production",
+        "Lightless Sanctuary's Exhange"
+      ],
+      "groups": [
+        {
+          "source": "Main Story",
+          "stages": [
+            [
+              "3-8",
+              ""
+            ],
+            [
+              "7-4Ex",
+              ""
+            ],
+            [
+              "12-17",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Aria of the Elven Town",
+          "stages": [
+            [
+              "Ev3-1s",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Invitation from Paradise",
+          "stages": [
+            [
+              "Ev1-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Somebody's Wish",
+          "stages": [
+            [
+              "Ev1-4",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Lightless Sanctuary",
+          "stages": [
+            [
+              "Ev3-1s",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Mini Companions' Onslaught ~Fierceness that Invites Storm~",
+          "stages": [
+            [
+              "Ev1-3",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Wolf's Fang of Fury",
+          "stages": [
+            [
+              "Ev2-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Water Park on which the Sun Never Sets",
+          "stages": [
+            [
+              "Ev1-6B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Blind Princess and the Land of Mist",
+          "stages": [
+            [
+              "Ev2-6",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Dreaming Mermaid's Island",
+          "stages": [
+            [
+              "Ev1-8",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "For the Dreamless Mermaid",
+          "stages": [
+            [
+              "Ev1-4",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Girl Walking Through the Night",
+          "stages": [
+            [
+              "Ev1-5",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Project ORCA: Sun-Rising Stage",
+          "stages": [
+            [
+              "Ev1-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Corrupted Last Record",
+          "stages": [
+            [
+              "Ev4-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Dance of the Stars",
+          "stages": [
+            [
+              "Ev1-8",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Bride of the Orca",
+          "stages": [
+            [
+              "Ev2-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Sisters of Omerta",
+          "stages": [
+            [
+              "Ev2-3Ex",
+              ""
+            ],
+            [
+              "Ev2-3EXH",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/perrault.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/perrault.webp",
     "stats": {
@@ -2022,6 +4268,183 @@ export const loCharacters = [
     "height": "154cm",
     "weight": "44kg",
     "equipRec": "CCOG",
+    "farm": {
+      "notes": [
+        "Production"
+      ],
+      "groups": [
+        {
+          "source": "Legacy of Rioboros",
+          "stages": [
+            [
+              "Ev2-4B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Aria of the Elven Town",
+          "stages": [
+            [
+              "Ev2-3Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Invitation from Paradise",
+          "stages": [
+            [
+              "Ev1-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Somebody's Wish",
+          "stages": [
+            [
+              "Ev2-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Lightless Sanctuary",
+          "stages": [
+            [
+              "Ev3-2s",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Mini Companions' Onslaught ~Fierceness that Invites Storm~",
+          "stages": [
+            [
+              "Ev1-2",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Orca Date Contest",
+          "stages": [
+            [
+              "Ev1-1B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Wolf's Fang of Fury",
+          "stages": [
+            [
+              "Ev2-2Ex",
+              ""
+            ],
+            [
+              "Ev3-4",
+              "First Clear Reward"
+            ]
+          ]
+        },
+        {
+          "source": "The Blind Princess and the Land of Mist",
+          "stages": [
+            [
+              "Ev1-7",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Curtain Call After the Apocalypse",
+          "stages": [
+            [
+              "Ev2-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Gold Out of Space",
+          "stages": [
+            [
+              "Ev3-2B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Zero Base",
+          "stages": [
+            [
+              "Ev2-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Girl Walking Through the Night",
+          "stages": [
+            [
+              "Ev1-7",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Project ORCA: Sun-Rising Stage",
+          "stages": [
+            [
+              "Ev3-1B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Corrupted Last Record",
+          "stages": [
+            [
+              "Ev4-8",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Orca Christmas Expo",
+          "stages": [
+            [
+              "Ev2-3EX",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Bride of the Orca",
+          "stages": [
+            [
+              "Ev1-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Sisters of Omerta",
+          "stages": [
+            [
+              "Ev1-1Ex",
+              ""
+            ],
+            [
+              "Ev1-1EXH",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/hachiko.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/hachiko.webp",
     "stats": {
@@ -2153,6 +4576,64 @@ export const loCharacters = [
     "height": "161cm",
     "weight": "53kg",
     "equipRec": "CCOG",
+    "farm": {
+      "notes": [
+        "Production",
+        "Orca Date Contest's Exchange",
+        "Zero Base's Exchange"
+      ],
+      "groups": [
+        {
+          "source": "Main Story",
+          "stages": [
+            [
+              "7-4Ex",
+              ""
+            ],
+            [
+              "13-24",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Invitation from Paradise",
+          "stages": [
+            [
+              "Ev1-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Somebody's Wish",
+          "stages": [
+            [
+              "Ev2-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Bunny? Niba! Thumpy Thump Reverse Bunny Trouble!",
+          "stages": [
+            [
+              "Ev2-5Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Mini Companions' Onslaught ~Fierceness that Invites Storm~",
+          "stages": [
+            [
+              "Ev1-2",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/fenrir.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/fenrir.webp",
     "stats": {
@@ -2257,6 +4738,13 @@ export const loCharacters = [
     "height": "148cm",
     "weight": "39kg",
     "equipRec": "GCCO",
+    "farm": {
+      "notes": [
+        "Production",
+        "One-Off Package (Once)"
+      ],
+      "groups": []
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/kiki-peiling.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/kiki-peiling.webp",
     "stats": {
@@ -2369,6 +4857,89 @@ export const loCharacters = [
     "height": "181cm",
     "weight": "67kg",
     "equipRec": "CCOG",
+    "farm": {
+      "notes": [
+        "Production",
+        "Legacy of Rioboros's Exchange",
+        "Halloween Park Panic!'s Exchange",
+        "Orca Restoration's Exchange",
+        "Corrupted Last Record's Exchange"
+      ],
+      "groups": [
+        {
+          "source": "Legacy of Rioboros",
+          "stages": [
+            [
+              "Ev2-2B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Country within Muddy Memory",
+          "stages": [
+            [
+              "Ev2-5",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Invitation from Paradise",
+          "stages": [
+            [
+              "Ev2-3Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Project ORCA Starlit Night Stage",
+          "stages": [
+            [
+              "Ev2-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Bunny? Niba! Thumpy Thump Reverse Bunny Trouble!",
+          "stages": [
+            [
+              "Ev2-4Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Wolf's Fang of Fury",
+          "stages": [
+            [
+              "Ev3-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Adventuring at Sea Again",
+          "stages": [
+            [
+              "Ev1-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "From Martial Arts With Love",
+          "stages": [
+            [
+              "Ev1-2Ex",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/marie.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/marie.webp",
     "stats": {
@@ -2482,6 +5053,381 @@ export const loCharacters = [
     "height": "135cm",
     "weight": "28kg",
     "equipRec": "CCOG",
+    "farm": {
+      "notes": [
+        "Production",
+        "Orca Restoration's Exchange"
+      ],
+      "groups": [
+        {
+          "source": "Main Story",
+          "stages": [
+            [
+              "2-2Ex",
+              ""
+            ],
+            [
+              "3-4Ex",
+              ""
+            ],
+            [
+              "4-2",
+              ""
+            ],
+            [
+              "4-3Ex",
+              ""
+            ],
+            [
+              "5-1",
+              ""
+            ],
+            [
+              "5-3Ex",
+              ""
+            ],
+            [
+              "5-8Ex",
+              ""
+            ],
+            [
+              "6-5",
+              ""
+            ],
+            [
+              "6-3Ex",
+              ""
+            ],
+            [
+              "9-4Ex",
+              ""
+            ],
+            [
+              "11-5",
+              ""
+            ],
+            [
+              "12-2Ex",
+              ""
+            ],
+            [
+              "13-6",
+              ""
+            ],
+            [
+              "13-8",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Legacy of Rioboros",
+          "stages": [
+            [
+              "Ev3-3s",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "St.Orca's Secret Operation",
+          "stages": [
+            [
+              "Ev2-2B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Choco Queen in Wonderland",
+          "stages": [
+            [
+              "Ev2-3Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Country within Muddy Memory",
+          "stages": [
+            [
+              "Ev2-5",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Invitation from Paradise",
+          "stages": [
+            [
+              "Ev1-6",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Somebody's Wish",
+          "stages": [
+            [
+              "Ev2-5",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Lightless Sanctuary",
+          "stages": [
+            [
+              "Ev2-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Eternal Winter's Ark",
+          "stages": [
+            [
+              "Ev1-1B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Bunny? Niba! Thumpy Thump Reverse Bunny Trouble!",
+          "stages": [
+            [
+              "Ev2-5B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Orca Date Contest",
+          "stages": [
+            [
+              "Ev1-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Wolf's Fang of Fury",
+          "stages": [
+            [
+              "Ev3-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Water Park on which the Sun Never Sets",
+          "stages": [
+            [
+              "Ev1-1B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Blind Princess and the Land of Mist",
+          "stages": [
+            [
+              "Ev2-1B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Dreaming Mermaid's Island",
+          "stages": [
+            [
+              "Ev2-6",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Curtain Call After the Apocalypse",
+          "stages": [
+            [
+              "Ev2-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Gold Out of Space",
+          "stages": [
+            [
+              "Ev2-1Ex",
+              ""
+            ],
+            [
+              "Ev3-1B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Adventuring at Sea Again",
+          "stages": [
+            [
+              "Ev1-5",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "For the Dreamless Mermaid",
+          "stages": [
+            [
+              "Ev1-3B",
+              ""
+            ],
+            [
+              "Ev2-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Girl Walking Through the Night",
+          "stages": [
+            [
+              "Ev1-2",
+              ""
+            ],
+            [
+              "Ev1-4",
+              ""
+            ],
+            [
+              "Ev1-6",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Palace of the Reclusive Goddess",
+          "stages": [
+            [
+              "Ev1-3",
+              ""
+            ],
+            [
+              "Ev2-5",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Daisenran ~Endless Storm of Violet Lightning~",
+          "stages": [
+            [
+              "Ev1-3B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Project ORCA: Sun-Rising Stage",
+          "stages": [
+            [
+              "Ev2-1",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Corrupted Last Record",
+          "stages": [
+            [
+              "Ev1-2",
+              ""
+            ],
+            [
+              "Ev3-9",
+              ""
+            ],
+            [
+              "Ev4-8",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Living Dead Carnival",
+          "stages": [
+            [
+              "Ev1-7",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Orca Christmas Expo",
+          "stages": [
+            [
+              "Ev1-3",
+              ""
+            ],
+            [
+              "Ev2-3B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Dance of the Stars",
+          "stages": [
+            [
+              "Ev2-7",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Bride of the Orca",
+          "stages": [
+            [
+              "Ev2-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "From Martial Arts With Love",
+          "stages": [
+            [
+              "Ev1-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Sisters of Omerta",
+          "stages": [
+            [
+              "Ev2-3Ex",
+              ""
+            ],
+            [
+              "Ev2-3EXH",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Silent Swamp",
+          "stages": [
+            [
+              "Ev1-8",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/efreeti.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/efreeti.webp",
     "stats": {
@@ -2592,6 +5538,7 @@ export const loCharacters = [
     "height": "150cm",
     "weight": "43kg",
     "equipRec": "CCOG",
+    "farm": null,
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/leprechaun.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/leprechaun.webp",
     "stats": {
@@ -2712,6 +5659,7 @@ export const loCharacters = [
     "height": "171cm",
     "weight": "52kg",
     "equipRec": "CCOG",
+    "farm": null,
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/impet.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/impet.webp",
     "stats": {
@@ -2832,6 +5780,7 @@ export const loCharacters = [
     "height": "154cm",
     "weight": "41kg",
     "equipRec": "CCOG",
+    "farm": null,
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/brownie.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/brownie.webp",
     "stats": {
@@ -2931,6 +5880,149 @@ export const loCharacters = [
     "height": "141cm",
     "weight": "38kg",
     "equipRec": "CCOG",
+    "farm": {
+      "notes": [
+        "Production",
+        "Orca Restoration's Exchange"
+      ],
+      "groups": [
+        {
+          "source": "Main Story",
+          "stages": [
+            [
+              "4-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "St.Orca's Secret Operation",
+          "stages": [
+            [
+              "Ev2-3B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Country within Muddy Memory",
+          "stages": [
+            [
+              "Ev2-5",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Lightless Sanctuary",
+          "stages": [
+            [
+              "Ev2-5",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Rose that Blooms atop of Lotus",
+          "stages": [
+            [
+              "Ev1-6",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Bunny? Niba! Thumpy Thump Reverse Bunny Trouble!",
+          "stages": [
+            [
+              "Ev2-4Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Orca Date Contest",
+          "stages": [
+            [
+              "Ev1-5Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Wolf's Fang of Fury",
+          "stages": [
+            [
+              "Ev3-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Water Park on which the Sun Never Sets",
+          "stages": [
+            [
+              "Ev1-1B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Blind Princess and the Land of Mist",
+          "stages": [
+            [
+              "Ev2-1B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "For the Dreamless Mermaid",
+          "stages": [
+            [
+              "Ev2-4B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Girl Walking Through the Night",
+          "stages": [
+            [
+              "Ev1-2",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Daisenran ~Endless Storm of Violet Lightning~",
+          "stages": [
+            [
+              "Ev2-3B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Corrupted Last Record",
+          "stages": [
+            [
+              "Ev3-4Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "From Martial Arts With Love",
+          "stages": [
+            [
+              "Ev1-2Ex",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/silky.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/silky.webp",
     "stats": {
@@ -3044,6 +6136,161 @@ export const loCharacters = [
     "height": "153.4cm",
     "weight": "44kg",
     "equipRec": "COGC",
+    "farm": {
+      "notes": [
+        "Production",
+        "Orca Restoration's Exchange"
+      ],
+      "groups": [
+        {
+          "source": "Main Story",
+          "stages": [
+            [
+              "6-4",
+              ""
+            ],
+            [
+              "6-2Ex",
+              ""
+            ],
+            [
+              "12-10B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Legacy of Rioboros",
+          "stages": [
+            [
+              "Ev2-4B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "St.Orca's Secret Operation",
+          "stages": [
+            [
+              "Ev2-7",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Project ORCA Starlit Night Stage",
+          "stages": [
+            [
+              "Ev1-1B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Rose that Blooms atop of Lotus",
+          "stages": [
+            [
+              "Ev1-6",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Eternal Winter's Ark",
+          "stages": [
+            [
+              "Ev1-12",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Wolf's Fang of Fury",
+          "stages": [
+            [
+              "Ev3-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Water Park on which the Sun Never Sets",
+          "stages": [
+            [
+              "Ev2-3B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Blind Princess and the Land of Mist",
+          "stages": [
+            [
+              "Ev1-8B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "For the Dreamless Mermaid",
+          "stages": [
+            [
+              "Ev2-4",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Girl Walking Through the Night",
+          "stages": [
+            [
+              "Ev1-4",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Project ORCA: Sun-Rising Stage",
+          "stages": [
+            [
+              "Ev2-7",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Living Dead Carnival",
+          "stages": [
+            [
+              "Ev1-1",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Dance of the Stars",
+          "stages": [
+            [
+              "Ev2-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Silent Swamp",
+          "stages": [
+            [
+              "Ev1-3Ex",
+              ""
+            ],
+            [
+              "Ev1-3EXH",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/phoenix.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/phoenix.webp",
     "stats": {
@@ -3164,6 +6411,7 @@ export const loCharacters = [
     "height": "175cm",
     "weight": "62kg",
     "equipRec": "CCOG",
+    "farm": null,
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/gnome.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/gnome.webp",
     "stats": {
@@ -3276,6 +6524,170 @@ export const loCharacters = [
     "height": "175.2cm",
     "weight": "54.7kg",
     "equipRec": "CCOG",
+    "farm": {
+      "notes": [
+        "Production",
+        "Orca Restoration's Exchange"
+      ],
+      "groups": [
+        {
+          "source": "Main Story",
+          "stages": [
+            [
+              "8-1Ex",
+              ""
+            ],
+            [
+              "9-3Ex",
+              ""
+            ],
+            [
+              "12-9B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "St.Orca's Secret Operation",
+          "stages": [
+            [
+              "Ev2-1B",
+              "First Clear Reward"
+            ]
+          ]
+        },
+        {
+          "source": "Country within Muddy Memory",
+          "stages": [
+            [
+              "Ev2-5",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Invitation from Paradise",
+          "stages": [
+            [
+              "Ev1-5",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Lightless Sanctuary",
+          "stages": [
+            [
+              "Ev2-8",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Eternal Winter's Ark",
+          "stages": [
+            [
+              "Ev1-7B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Orca Date Contest",
+          "stages": [
+            [
+              "Ev1-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Wolf's Fang of Fury",
+          "stages": [
+            [
+              "Ev3-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Water Park on which the Sun Never Sets",
+          "stages": [
+            [
+              "Ev2-4B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Blind Princess and the Land of Mist",
+          "stages": [
+            [
+              "Ev2-1B",
+              ""
+            ],
+            [
+              "Ev3-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Dreaming Mermaid's Island",
+          "stages": [
+            [
+              "Ev2-6",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "For the Dreamless Mermaid",
+          "stages": [
+            [
+              "Ev1-6",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Girl Walking Through the Night",
+          "stages": [
+            [
+              "Ev1-6",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Daisenran ~Endless Storm of Violet Lightning~",
+          "stages": [
+            [
+              "Ev2-6",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Corrupted Last Record",
+          "stages": [
+            [
+              "Ev2-10",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Dance of the Stars",
+          "stages": [
+            [
+              "Ev1-3Ex",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/red-hood.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/red-hood.webp",
     "stats": {
@@ -3382,6 +6794,248 @@ export const loCharacters = [
     "height": "150cm",
     "weight": "42kg",
     "equipRec": "COCG",
+    "farm": {
+      "notes": [
+        "Production"
+      ],
+      "groups": [
+        {
+          "source": "Main Story",
+          "stages": [
+            [
+              "10-2Ex",
+              ""
+            ],
+            [
+              "11-4",
+              ""
+            ],
+            [
+              "13-6",
+              ""
+            ],
+            [
+              "13-8",
+              ""
+            ],
+            [
+              "13-11",
+              ""
+            ],
+            [
+              "13-14",
+              ""
+            ],
+            [
+              "13-16",
+              ""
+            ],
+            [
+              "13-19",
+              ""
+            ],
+            [
+              "13-22",
+              ""
+            ],
+            [
+              "13-24",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Mini Companions' Onslaught ~Fierceness that Invites Storm~",
+          "stages": [
+            [
+              "Ev1-3",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Water Park on which the Sun Never Sets",
+          "stages": [
+            [
+              "Ev1-3Ex",
+              ""
+            ],
+            [
+              "Ev3-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Blind Princess and the Land of Mist",
+          "stages": [
+            [
+              "Ev1-6",
+              ""
+            ],
+            [
+              "Ev2-1B",
+              ""
+            ],
+            [
+              "Ev3-4",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Dreaming Mermaid's Island",
+          "stages": [
+            [
+              "Ev1-1B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Orca Film Festival",
+          "stages": [
+            [
+              "Ev2-2",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Curtain Call After the Apocalypse",
+          "stages": [
+            [
+              "Ev1-6",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Gold Out of Space",
+          "stages": [
+            [
+              "Ev3-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Adventuring at Sea Again",
+          "stages": [
+            [
+              "Ev1-5",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "For the Dreamless Mermaid",
+          "stages": [
+            [
+              "Ev1-4",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Girl Walking Through the Night",
+          "stages": [
+            [
+              "Ev1-2",
+              ""
+            ],
+            [
+              "Ev1-4",
+              ""
+            ],
+            [
+              "Ev1-6",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Palace of the Reclusive Goddess",
+          "stages": [
+            [
+              "Ev1-2B",
+              ""
+            ],
+            [
+              "Ev2-5",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Daisenran ~Endless Storm of Violet Lightning~",
+          "stages": [
+            [
+              "Ev1-2B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Project ORCA: Sun-Rising Stage",
+          "stages": [
+            [
+              "Ev1-7",
+              ""
+            ],
+            [
+              "Ev3-2",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Corrupted Last Record",
+          "stages": [
+            [
+              "Ev3-7",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Living Dead Carnival",
+          "stages": [
+            [
+              "Ev1-4",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Orca Christmas Expo",
+          "stages": [
+            [
+              "Ev2-4",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Dance of the Stars",
+          "stages": [
+            [
+              "Ev1-3Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "From Martial Arts With Love",
+          "stages": [
+            [
+              "Ev1-2Ex",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/habetrot.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/habetrot.webp",
     "stats": {
@@ -3495,6 +7149,94 @@ export const loCharacters = [
     "height": "172cm",
     "weight": "?0kg (Access Denied)",
     "equipRec": "CCOG",
+    "farm": {
+      "notes": [
+        "Production",
+        "Halloween Park Panic!'s Exchange",
+        "Orca Restoration's Exchange",
+        "Wolf's Fang of Fury's Exchange",
+        "Somebody's Wish's Exchange",
+        "Daisenran ~Endless Storm of Violet Lightning~'s Exchange"
+      ],
+      "groups": [
+        {
+          "source": "Main Story",
+          "stages": [
+            [
+              "8-1Ex",
+              ""
+            ],
+            [
+              "10-6B",
+              "First Clear Reward"
+            ]
+          ]
+        },
+        {
+          "source": "Aria of the Elven Town",
+          "stages": [
+            [
+              "Ev2-4B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Invitation from Paradise",
+          "stages": [
+            [
+              "Ev2-3Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Somebody's Wish",
+          "stages": [
+            [
+              "Ev2-6",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Eternal Winter's Ark",
+          "stages": [
+            [
+              "Ev1-12",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Blind Princess and the Land of Mist",
+          "stages": [
+            [
+              "Ev1-8",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Curtain Call After the Apocalypse",
+          "stages": [
+            [
+              "Ev1-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Dance of the Stars",
+          "stages": [
+            [
+              "Ev1-2Ex",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/leona.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/leona.webp",
     "stats": {
@@ -3650,6 +7392,160 @@ export const loCharacters = [
     "height": "171cm",
     "weight": "48kg",
     "equipRec": "CCOG",
+    "farm": {
+      "notes": [
+        "Production"
+      ],
+      "groups": [
+        {
+          "source": "Main Story",
+          "stages": [
+            [
+              "4-4",
+              ""
+            ],
+            [
+              "5-4",
+              ""
+            ],
+            [
+              "5-4Ex",
+              ""
+            ],
+            [
+              "7-4",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Aria of the Elven Town",
+          "stages": [
+            [
+              "Ev2-5",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Somebody's Wish",
+          "stages": [
+            [
+              "Ev1-5",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Lightless Sanctuary",
+          "stages": [
+            [
+              "Ev1-3Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Eternal Winter's Ark",
+          "stages": [
+            [
+              "Ev1-12",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Orca Date Contest",
+          "stages": [
+            [
+              "Ev1-6Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Wolf's Fang of Fury",
+          "stages": [
+            [
+              "Ev1-5",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Water Park on which the Sun Never Sets",
+          "stages": [
+            [
+              "Ev1-2B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Blind Princess and the Land of Mist",
+          "stages": [
+            [
+              "Ev1-8",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Curtain Call After the Apocalypse",
+          "stages": [
+            [
+              "Ev2-2",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Girl Walking Through the Night",
+          "stages": [
+            [
+              "Ev1-3",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Daisenran ~Endless Storm of Violet Lightning~",
+          "stages": [
+            [
+              "Ev1-2B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Project ORCA: Sun-Rising Stage",
+          "stages": [
+            [
+              "Ev1-3Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Living Dead Carnival",
+          "stages": [
+            [
+              "Ev1-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Dance of the Stars",
+          "stages": [
+            [
+              "Ev1-2Ex",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/valkyrie.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/valkyrie.webp",
     "stats": {
@@ -3777,6 +7673,277 @@ export const loCharacters = [
     "height": "151cm",
     "weight": "52kg",
     "equipRec": "CCOG",
+    "farm": {
+      "notes": [
+        "Production"
+      ],
+      "groups": [
+        {
+          "source": "Main Story",
+          "stages": [
+            [
+              "2-8",
+              ""
+            ],
+            [
+              "2-1Ex",
+              ""
+            ],
+            [
+              "3-8",
+              ""
+            ],
+            [
+              "4-2Ex",
+              ""
+            ],
+            [
+              "6-1Ex",
+              ""
+            ],
+            [
+              "9-3Ex",
+              ""
+            ],
+            [
+              "12-17",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Legacy of Rioboros",
+          "stages": [
+            [
+              "Ev3-2s",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Choco Queen in Wonderland",
+          "stages": [
+            [
+              "Ev2-4",
+              ""
+            ],
+            [
+              "Ev2-5Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Somebody's Wish",
+          "stages": [
+            [
+              "Ev1-4",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Lightless Sanctuary",
+          "stages": [
+            [
+              "Ev2-7",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Eternal Winter's Ark",
+          "stages": [
+            [
+              "Ev1-5B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Mini Companions' Onslaught ~Fierceness that Invites Storm~",
+          "stages": [
+            [
+              "Ev1-2",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Wolf's Fang of Fury",
+          "stages": [
+            [
+              "Ev1-4",
+              ""
+            ],
+            [
+              "Ev3-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Blind Princess and the Land of Mist",
+          "stages": [
+            [
+              "Ev3-4B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Dreaming Mermaid's Island",
+          "stages": [
+            [
+              "Ev1-4B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Orca Film Festival",
+          "stages": [
+            [
+              "Ev2-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Curtain Call After the Apocalypse",
+          "stages": [
+            [
+              "Ev2-3Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Sincerely, To Your End",
+          "stages": [
+            [
+              "Ev1-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Gold Out of Space",
+          "stages": [
+            [
+              "Ev1-6",
+              ""
+            ],
+            [
+              "Ev3-3Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Adventuring at Sea Again",
+          "stages": [
+            [
+              "Ev1-7",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "For the Dreamless Mermaid",
+          "stages": [
+            [
+              "Ev1-1B",
+              ""
+            ],
+            [
+              "Ev2-1",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Palace of the Reclusive Goddess",
+          "stages": [
+            [
+              "Ev2-7",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Daisenran ~Endless Storm of Violet Lightning~",
+          "stages": [
+            [
+              "Ev2-6",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Project ORCA: Sun-Rising Stage",
+          "stages": [
+            [
+              "Ev2-2",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Corrupted Last Record",
+          "stages": [
+            [
+              "Ev1-7",
+              ""
+            ],
+            [
+              "Ev4-4",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Orca Christmas Expo",
+          "stages": [
+            [
+              "Ev1-4",
+              ""
+            ],
+            [
+              "Ev2-1EX",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Dance of the Stars",
+          "stages": [
+            [
+              "Ev2-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Sisters of Omerta",
+          "stages": [
+            [
+              "Ev1-2",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Silent Swamp",
+          "stages": [
+            [
+              "Ev1-1",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/nymph.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/nymph.webp",
     "stats": {
@@ -3897,6 +8064,7 @@ export const loCharacters = [
     "height": "159cm",
     "weight": "41kg",
     "equipRec": "CCOG",
+    "farm": null,
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/gremlin.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/gremlin.webp",
     "stats": {
@@ -3996,6 +8164,7 @@ export const loCharacters = [
     "height": "160cm",
     "weight": "75kg",
     "equipRec": "CCOG",
+    "farm": null,
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/sand-girl.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/sand-girl.webp",
     "stats": {
@@ -4117,6 +8286,265 @@ export const loCharacters = [
     "height": "162cm",
     "weight": "51kg",
     "equipRec": "CCOG",
+    "farm": {
+      "notes": [
+        "Production"
+      ],
+      "groups": [
+        {
+          "source": "Choco Queen in Wonderland",
+          "stages": [
+            [
+              "Ev2-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Invitation from Paradise",
+          "stages": [
+            [
+              "Ev2-3Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Project ORCA Starlit Night Stage",
+          "stages": [
+            [
+              "Ev2-5",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Lightless Sanctuary",
+          "stages": [
+            [
+              "Ev3-2s",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Eternal Winter's Ark",
+          "stages": [
+            [
+              "Ev1-6",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Orca Date Contest",
+          "stages": [
+            [
+              "Ev1-6Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Wolf's Fang of Fury",
+          "stages": [
+            [
+              "Ev1-5",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Water Park on which the Sun Never Sets",
+          "stages": [
+            [
+              "Ev2-6B",
+              ""
+            ],
+            [
+              "Ev3-6B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Blind Princess and the Land of Mist",
+          "stages": [
+            [
+              "Ev1-5B",
+              ""
+            ],
+            [
+              "Ev2-2",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Dreaming Mermaid's Island",
+          "stages": [
+            [
+              "Ev2-2",
+              ""
+            ],
+            [
+              "Ev3-1B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Curtain Call After the Apocalypse",
+          "stages": [
+            [
+              "Ev2-3",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Gold Out of Space",
+          "stages": [
+            [
+              "Ev2-4B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Zero Base",
+          "stages": [
+            [
+              "Ev2-7",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Adventuring at Sea Again",
+          "stages": [
+            [
+              "Ev1-9",
+              ""
+            ],
+            [
+              "Ev1-1B",
+              ""
+            ],
+            [
+              "Ev1-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "For the Dreamless Mermaid",
+          "stages": [
+            [
+              "Ev1-5",
+              ""
+            ],
+            [
+              "Ev2-4",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Girl Walking Through the Night",
+          "stages": [
+            [
+              "Ev1-3",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Palace of the Reclusive Goddess",
+          "stages": [
+            [
+              "Ev1-3B",
+              ""
+            ],
+            [
+              "Ev2-2B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Daisenran ~Endless Storm of Violet Lightning~",
+          "stages": [
+            [
+              "Ev1-2B",
+              ""
+            ],
+            [
+              "Ev2-4B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Project ORCA: Sun-Rising Stage",
+          "stages": [
+            [
+              "Ev1-3",
+              ""
+            ],
+            [
+              "Ev2-7",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Corrupted Last Record",
+          "stages": [
+            [
+              "Ev2-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Living Dead Carnival",
+          "stages": [
+            [
+              "Ev1-3",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Orca Christmas Expo",
+          "stages": [
+            [
+              "Ev1-4EX",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Bride of the Orca",
+          "stages": [
+            [
+              "Ev1-4Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Sisters of Omerta",
+          "stages": [
+            [
+              "Ev1-2",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/bheur.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/bheur.webp",
     "stats": {
@@ -4229,6 +8657,291 @@ export const loCharacters = [
     "height": "145cm",
     "weight": "44kg",
     "equipRec": "CCOG",
+    "farm": {
+      "notes": [
+        "Production"
+      ],
+      "groups": [
+        {
+          "source": "Main Story",
+          "stages": [
+            [
+              "7-3",
+              ""
+            ],
+            [
+              "7-2Ex",
+              ""
+            ],
+            [
+              "9-4B",
+              ""
+            ],
+            [
+              "12-15",
+              ""
+            ],
+            [
+              "13-4",
+              ""
+            ],
+            [
+              "13-5",
+              ""
+            ],
+            [
+              "13-13",
+              ""
+            ],
+            [
+              "13-21",
+              ""
+            ],
+            [
+              "13-28",
+              ""
+            ],
+            [
+              "13-40",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Country within Muddy Memory",
+          "stages": [
+            [
+              "Ev2-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Invitation from Paradise",
+          "stages": [
+            [
+              "Ev1-5",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Project ORCA Starlit Night Stage",
+          "stages": [
+            [
+              "Ev2-3Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Lightless Sanctuary",
+          "stages": [
+            [
+              "Ev3-1s",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Eternal Winter's Ark",
+          "stages": [
+            [
+              "Ev1-5B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Mini Companions' Onslaught ~Fierceness that Invites Storm~",
+          "stages": [
+            [
+              "Ev1-2",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Wolf's Fang of Fury",
+          "stages": [
+            [
+              "Ev1-5",
+              ""
+            ],
+            [
+              "Ev3-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Water Park on which the Sun Never Sets",
+          "stages": [
+            [
+              "Ev2-5B",
+              ""
+            ],
+            [
+              "Ev3-5B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Blind Princess and the Land of Mist",
+          "stages": [
+            [
+              "Ev1-8",
+              ""
+            ],
+            [
+              "Ev2-2",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Dreaming Mermaid's Island",
+          "stages": [
+            [
+              "Ev1-7",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Orca Film Festival",
+          "stages": [
+            [
+              "Ev2-5",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Curtain Call After the Apocalypse",
+          "stages": [
+            [
+              "Ev1-2",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Adventuring at Sea Again",
+          "stages": [
+            [
+              "Ev1-7",
+              ""
+            ],
+            [
+              "Ev1-3B",
+              ""
+            ],
+            [
+              "Ev1-3Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "For the Dreamless Mermaid",
+          "stages": [
+            [
+              "Ev1-3",
+              ""
+            ],
+            [
+              "Ev2-6",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Girl Walking Through the Night",
+          "stages": [
+            [
+              "Ev1-3",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Palace of the Reclusive Goddess",
+          "stages": [
+            [
+              "Ev1-4B",
+              ""
+            ],
+            [
+              "Ev2-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Daisenran ~Endless Storm of Violet Lightning~",
+          "stages": [
+            [
+              "Ev1-1B",
+              ""
+            ],
+            [
+              "Ev1-8",
+              ""
+            ],
+            [
+              "Ev2-4B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Project ORCA: Sun-Rising Stage",
+          "stages": [
+            [
+              "Ev1-3",
+              ""
+            ],
+            [
+              "Ev2-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Living Dead Carnival",
+          "stages": [
+            [
+              "Ev1-5",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Orca Christmas Expo",
+          "stages": [
+            [
+              "Ev1-4EX",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Sisters of Omerta",
+          "stages": [
+            [
+              "Ev1-3Ex",
+              ""
+            ],
+            [
+              "Ev1-3EXH",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/alvis.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/alvis.webp",
     "stats": {
@@ -4349,6 +9062,131 @@ export const loCharacters = [
     "height": "147cm",
     "weight": "42kg",
     "equipRec": "CCOG",
+    "farm": {
+      "notes": [
+        "Production"
+      ],
+      "groups": [
+        {
+          "source": "Main Story",
+          "stages": [
+            [
+              "13-4",
+              ""
+            ],
+            [
+              "13-5",
+              ""
+            ],
+            [
+              "13-13",
+              ""
+            ],
+            [
+              "13-14",
+              ""
+            ],
+            [
+              "13-21",
+              ""
+            ],
+            [
+              "13-22",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Adventuring at Sea Again",
+          "stages": [
+            [
+              "Ev1-3",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Girl Walking Through the Night",
+          "stages": [
+            [
+              "Ev1-3",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Palace of the Reclusive Goddess",
+          "stages": [
+            [
+              "Ev1-4B",
+              ""
+            ],
+            [
+              "Ev2-7",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Project ORCA: Sun-Rising Stage",
+          "stages": [
+            [
+              "Ev1-7",
+              ""
+            ],
+            [
+              "Ev3-2",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Corrupted Last Record",
+          "stages": [
+            [
+              "Ev3-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Living Dead Carnival",
+          "stages": [
+            [
+              "Ev1-7",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Orca Christmas Expo",
+          "stages": [
+            [
+              "Ev2-4",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Dance of the Stars",
+          "stages": [
+            [
+              "Ev1-3Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Sisters of Omerta",
+          "stages": [
+            [
+              "Ev1-6",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/pixie.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/pixie.webp",
     "stats": {
@@ -4454,6 +9292,80 @@ export const loCharacters = [
     "height": "169cm",
     "weight": "55kg",
     "equipRec": "CCOG",
+    "farm": {
+      "notes": [
+        "Wolf's Fang of Fury's Exchange"
+      ],
+      "groups": [
+        {
+          "source": "Wolf's Fang of Fury",
+          "stages": [
+            [
+              "Ev1-5",
+              "First Clear Reward"
+            ]
+          ]
+        },
+        {
+          "source": "The Blind Princess and the Land of Mist",
+          "stages": [
+            [
+              "Ev1-5B",
+              ""
+            ],
+            [
+              "Ev3-5",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Dreaming Mermaid's Island",
+          "stages": [
+            [
+              "Ev2-4",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "For the Dreamless Mermaid",
+          "stages": [
+            [
+              "Ev1-4B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Project ORCA: Sun-Rising Stage",
+          "stages": [
+            [
+              "Ev2-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Corrupted Last Record",
+          "stages": [
+            [
+              "Ev4-2",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Dance of the Stars",
+          "stages": [
+            [
+              "Ev1-4Ex",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/kheshig.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/kheshig.webp",
     "stats": {
@@ -4566,6 +9478,111 @@ export const loCharacters = [
     "height": "178cm",
     "weight": "60kg",
     "equipRec": "CCOG",
+    "farm": {
+      "notes": [
+        "Production",
+        "Legacy of Rioboros's Exchange",
+        "Orca Restoration's Exchange",
+        "Somebody's Wish's Exchange",
+        "Wolf's Fang of Fury's Exchange",
+        "Daisenran ~Endless Storm of Violet Lightning~'s Exchange"
+      ],
+      "groups": [
+        {
+          "source": "Main Story",
+          "stages": [
+            [
+              "5-4Ex",
+              ""
+            ],
+            [
+              "10-7B",
+              "First Clear Reward"
+            ],
+            [
+              "12-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Legacy of Rioboros",
+          "stages": [
+            [
+              "Ev2-5B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Choco Queen in Wonderland",
+          "stages": [
+            [
+              "Ev2-5Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Invitation from Paradise",
+          "stages": [
+            [
+              "Ev3-3s",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Lightless Sanctuary",
+          "stages": [
+            [
+              "Ev3-1s",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Eternal Winter's Ark",
+          "stages": [
+            [
+              "Ev1-9B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Wolf's Fang of Fury",
+          "stages": [
+            [
+              "Ev2-7",
+              "First Clear Reward"
+            ],
+            [
+              "Ev2-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Blind Princess and the Land of Mist",
+          "stages": [
+            [
+              "Ev1-5B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Dance of the Stars",
+          "stages": [
+            [
+              "Ev1-4Ex",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/khan.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/khan.webp",
     "stats": {
@@ -4689,6 +9706,148 @@ export const loCharacters = [
     "height": "156cm",
     "weight": "50kg",
     "equipRec": "CCOG",
+    "farm": {
+      "notes": [
+        "Production",
+        "Somebody's Wish's Exchange"
+      ],
+      "groups": [
+        {
+          "source": "Legacy of Rioboros",
+          "stages": [
+            [
+              "Ev2-5B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Choco Queen in Wonderland",
+          "stages": [
+            [
+              "Ev2-5Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Invitation from Paradise",
+          "stages": [
+            [
+              "Ev3-3s",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Project ORCA Starlit Night Stage",
+          "stages": [
+            [
+              "Ev2-3B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Eternal Winter's Ark",
+          "stages": [
+            [
+              "Ev1-9B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Orca Date Contest",
+          "stages": [
+            [
+              "Ev1-1B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Wolf's Fang of Fury",
+          "stages": [
+            [
+              "Ev2-4",
+              "First Clear Reward"
+            ],
+            [
+              "Ev2-4",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Water Park on which the Sun Never Sets",
+          "stages": [
+            [
+              "Ev2-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Blind Princess and the Land of Mist",
+          "stages": [
+            [
+              "Ev1-6B",
+              ""
+            ],
+            [
+              "Ev3-5",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Dreaming Mermaid's Island",
+          "stages": [
+            [
+              "Ev2-3",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "For the Dreamless Mermaid",
+          "stages": [
+            [
+              "Ev1-2B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Daisenran ~Endless Storm of Violet Lightning~",
+          "stages": [
+            [
+              "Ev2-7",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Corrupted Last Record",
+          "stages": [
+            [
+              "Ev3-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Orca Christmas Expo",
+          "stages": [
+            [
+              "Ev1-4",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/quick-camel.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/quick-camel.webp",
     "stats": {
@@ -4803,6 +9962,7 @@ export const loCharacters = [
     "height": "165cm",
     "weight": "50kg",
     "equipRec": "CCOG",
+    "farm": null,
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/war-wolf.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/war-wolf.webp",
     "stats": {
@@ -4958,6 +10118,157 @@ export const loCharacters = [
     "height": "164cm",
     "weight": "48kg",
     "equipRec": "CCOG",
+    "farm": {
+      "notes": [
+        "Production",
+        "St.Orca's Secret Operation's Exchange"
+      ],
+      "groups": [
+        {
+          "source": "Main Story",
+          "stages": [
+            [
+              "8-6",
+              ""
+            ],
+            [
+              "9-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Country within Muddy Memory",
+          "stages": [
+            [
+              "Ev2-6",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Invitation from Paradise",
+          "stages": [
+            [
+              "Ev3-3s",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Somebody's Wish",
+          "stages": [
+            [
+              "Ev2-5",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Project ORCA Starlit Night Stage",
+          "stages": [
+            [
+              "Ev1-3Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Eternal Winter's Ark",
+          "stages": [
+            [
+              "Ev1-9B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Orca Date Contest",
+          "stages": [
+            [
+              "Ev1-4Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Wolf's Fang of Fury",
+          "stages": [
+            [
+              "Ev2-6",
+              "First Clear Reward"
+            ],
+            [
+              "Ev2-6",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Blind Princess and the Land of Mist",
+          "stages": [
+            [
+              "Ev1-5B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Dreaming Mermaid's Island",
+          "stages": [
+            [
+              "Ev1-3Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Orca Film Festival",
+          "stages": [
+            [
+              "Ev2-4",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Zero Base",
+          "stages": [
+            [
+              "Ev2-5",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Palace of the Reclusive Goddess",
+          "stages": [
+            [
+              "Ev2-7",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Corrupted Last Record",
+          "stages": [
+            [
+              "Ev1-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Orca Christmas Expo",
+          "stages": [
+            [
+              "Ev2-4",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/talon-feather.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/talon-feather.webp",
     "stats": {
@@ -5075,6 +10386,82 @@ export const loCharacters = [
     "height": "190cm",
     "weight": "100kg",
     "equipRec": "CCOG",
+    "farm": {
+      "notes": [
+        "Production",
+        "Orca Date Contest's Exchange",
+        "Daisenran ~Endless Storm of Violet Lightning~'s Exchange"
+      ],
+      "groups": [
+        {
+          "source": "Main Story",
+          "stages": [
+            [
+              "13-16",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Bunny? Niba! Thumpy Thump Reverse Bunny Trouble!",
+          "stages": [
+            [
+              "Ev2-6Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Mini Companions' Onslaught ~Fierceness that Invites Storm~",
+          "stages": [
+            [
+              "Ev1-6",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Blind Princess and the Land of Mist",
+          "stages": [
+            [
+              "Ev3-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Zero Base",
+          "stages": [
+            [
+              "Ev2-3Ex",
+              "First Clear Reward"
+            ],
+            [
+              "Ev2-3Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Project ORCA: Sun-Rising Stage",
+          "stages": [
+            [
+              "Ev2-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Bride of the Orca",
+          "stages": [
+            [
+              "Ev1-4Ex",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/frigga.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/frigga.webp",
     "stats": {
@@ -5184,6 +10571,208 @@ export const loCharacters = [
     "height": "185cm",
     "weight": "86kg",
     "equipRec": "COCG",
+    "farm": {
+      "notes": [
+        "Production"
+      ],
+      "groups": [
+        {
+          "source": "Main Story",
+          "stages": [
+            [
+              "10-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Water Park on which the Sun Never Sets",
+          "stages": [
+            [
+              "Ev2-6B",
+              ""
+            ],
+            [
+              "Ev3-3Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Blind Princess and the Land of Mist",
+          "stages": [
+            [
+              "Ev2-3",
+              ""
+            ],
+            [
+              "Ev3-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Dreaming Mermaid's Island",
+          "stages": [
+            [
+              "Ev1-3B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Orca Film Festival",
+          "stages": [
+            [
+              "Ev2-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Gold Out of Space",
+          "stages": [
+            [
+              "Ev1-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Zero Base",
+          "stages": [
+            [
+              "Ev1-4",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Zero Base",
+          "stages": [
+            [
+              "Ev1-2Ex",
+              ""
+            ],
+            [
+              "Ev2-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Adventuring at Sea Again",
+          "stages": [
+            [
+              "Ev1-4",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "For the Dreamless Mermaid",
+          "stages": [
+            [
+              "Ev1-3",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Girl Walking Through the Night",
+          "stages": [
+            [
+              "Ev1-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "AGSes of the Orca, Unite!",
+          "stages": [
+            [
+              "Ev1-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Palace of the Reclusive Goddess",
+          "stages": [
+            [
+              "Ev1-3B",
+              ""
+            ],
+            [
+              "Ev2-6",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Project ORCA: Sun-Rising Stage",
+          "stages": [
+            [
+              "Ev1-7",
+              ""
+            ],
+            [
+              "Ev3-3",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Corrupted Last Record",
+          "stages": [
+            [
+              "Ev3-7",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Living Dead Carnival",
+          "stages": [
+            [
+              "Ev1-5",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Orca Christmas Expo",
+          "stages": [
+            [
+              "Ev2-4",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Dance of the Stars",
+          "stages": [
+            [
+              "Ev1-3Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Sisters of Omerta",
+          "stages": [
+            [
+              "Ev1-1Ex",
+              ""
+            ],
+            [
+              "Ev1-1EXH",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/ajax.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/ajax.webp",
     "stats": {
@@ -5294,6 +10883,13 @@ export const loCharacters = [
     "height": "188cm",
     "weight": "92kg",
     "equipRec": "CGCO",
+    "farm": {
+      "notes": [
+        "Production",
+        "One-Off Package (Once)"
+      ],
+      "groups": []
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/eir.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/eir.webp",
     "stats": {
@@ -5404,6 +11000,38 @@ export const loCharacters = [
     "height": "199cm",
     "weight": "121kg",
     "equipRec": "OCCG",
+    "farm": {
+      "notes": [
+        "Production",
+        "Main Story Exchange Post (Chapter 12)",
+        "For the Dreamless Mermaid's Exchange",
+        "Corrupted Last Record's Exchange"
+      ],
+      "groups": [
+        {
+          "source": "Project ORCA: Sun-Rising Stage",
+          "stages": [
+            [
+              "Ev2-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Sisters of Omerta",
+          "stages": [
+            [
+              "Ev2-4Ex",
+              ""
+            ],
+            [
+              "Ev2-4EXH",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/alcyone.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/alcyone.webp",
     "stats": {
@@ -5508,6 +11136,105 @@ export const loCharacters = [
     "height": "140cm",
     "weight": "33kg",
     "equipRec": "CCOG",
+    "farm": {
+      "notes": [
+        "Production",
+        "Legacy of Rioboros's Exchange",
+        "Halloween Park Panic!'s Exchange",
+        "St.Orca's Secret Operation's Exchange",
+        "Choco Queen in Wonderland's Exchange",
+        "Orca Restoration's Exchange",
+        "Country within Muddy Memory's Exchange",
+        "Adventuring at Sea Again's Exchange"
+      ],
+      "groups": [
+        {
+          "source": "Main Story",
+          "stages": [
+            [
+              "6-8",
+              ""
+            ],
+            [
+              "10-4B",
+              "First Clear Reward"
+            ]
+          ]
+        },
+        {
+          "source": "Legacy of Rioboros",
+          "stages": [
+            [
+              "Ev3-4s",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Invitation from Paradise",
+          "stages": [
+            [
+              "Ev2-2Ex",
+              "First Clear Reward"
+            ]
+          ]
+        },
+        {
+          "source": "Project ORCA Starlit Night Stage",
+          "stages": [
+            [
+              "Ev2-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Bunny? Niba! Thumpy Thump Reverse Bunny Trouble!",
+          "stages": [
+            [
+              "Ev2-5Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Wolf's Fang of Fury",
+          "stages": [
+            [
+              "Ev1-3Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Blind Princess and the Land of Mist",
+          "stages": [
+            [
+              "Ev1-4B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Project ORCA: Sun-Rising Stage",
+          "stages": [
+            [
+              "Ev2-3Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "From Martial Arts With Love",
+          "stages": [
+            [
+              "Ev1-3Ex",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/may.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/may.webp",
     "stats": {
@@ -5624,6 +11351,173 @@ export const loCharacters = [
     "height": "175cm",
     "weight": "57kg",
     "equipRec": "CCOG",
+    "farm": {
+      "notes": [
+        "Production"
+      ],
+      "groups": [
+        {
+          "source": "Main Story",
+          "stages": [
+            [
+              "3-1Ex",
+              ""
+            ],
+            [
+              "4-8",
+              ""
+            ],
+            [
+              "4-4Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "St.Orca's Secret Operation",
+          "stages": [
+            [
+              "Ev2-1ep",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Project ORCA Starlit Night Stage",
+          "stages": [
+            [
+              "Ev1-1B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Lightless Sanctuary",
+          "stages": [
+            [
+              "Ev1-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Bunny? Niba! Thumpy Thump Reverse Bunny Trouble!",
+          "stages": [
+            [
+              "Ev2-5Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Orca Date Contest",
+          "stages": [
+            [
+              "Ev1-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Wolf's Fang of Fury",
+          "stages": [
+            [
+              "Ev1-3Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Water Park on which the Sun Never Sets",
+          "stages": [
+            [
+              "Ev2-3Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Blind Princess and the Land of Mist",
+          "stages": [
+            [
+              "Ev1-4B",
+              ""
+            ],
+            [
+              "Ev3-7B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Orca Film Festival",
+          "stages": [
+            [
+              "Ev2-3",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "For the Dreamless Mermaid",
+          "stages": [
+            [
+              "Ev2-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "AGSes of the Orca, Unite!",
+          "stages": [
+            [
+              "Ev1-3Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Project ORCA: Sun-Rising Stage",
+          "stages": [
+            [
+              "Ev1-3",
+              ""
+            ],
+            [
+              "Ev1-3Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Living Dead Carnival",
+          "stages": [
+            [
+              "Ev1-4",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Dance of the Stars",
+          "stages": [
+            [
+              "Ev2-4Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "From Martial Arts With Love",
+          "stages": [
+            [
+              "Ev1-3Ex",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/night-angel.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/night-angel.webp",
     "stats": {
@@ -5750,6 +11644,309 @@ export const loCharacters = [
     "height": "168cm",
     "weight": "54kg",
     "equipRec": "CCOG",
+    "farm": {
+      "notes": [
+        "Production"
+      ],
+      "groups": [
+        {
+          "source": "Main Story",
+          "stages": [
+            [
+              "2-8",
+              ""
+            ],
+            [
+              "3-7",
+              ""
+            ],
+            [
+              "4-2Ex",
+              ""
+            ],
+            [
+              "5-2Ex",
+              ""
+            ],
+            [
+              "6-8",
+              ""
+            ],
+            [
+              "6-2Ex",
+              ""
+            ],
+            [
+              "9-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Legacy of Rioboros",
+          "stages": [
+            [
+              "Ev2-3B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "St.Orca's Secret Operation",
+          "stages": [
+            [
+              "Ev2-8",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Choco Queen in Wonderland",
+          "stages": [
+            [
+              "Ev2-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Project ORCA Starlit Night Stage",
+          "stages": [
+            [
+              "Ev2-4",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Lightless Sanctuary",
+          "stages": [
+            [
+              "Ev3-1s",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Eternal Winter's Ark",
+          "stages": [
+            [
+              "Ev1-9B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Mini Companions' Onslaught ~Fierceness that Invites Storm~",
+          "stages": [
+            [
+              "Ev1-5",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Orca Date Contest",
+          "stages": [
+            [
+              "Ev1-1B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Wolf's Fang of Fury",
+          "stages": [
+            [
+              "Ev1-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Water Park on which the Sun Never Sets",
+          "stages": [
+            [
+              "Ev2-2B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Blind Princess and the Land of Mist",
+          "stages": [
+            [
+              "Ev1-4B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Dreaming Mermaid's Island",
+          "stages": [
+            [
+              "Ev2-6",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Orca Film Festival",
+          "stages": [
+            [
+              "Ev1-6",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Curtain Call After the Apocalypse",
+          "stages": [
+            [
+              "Ev1-2",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Sincerely, To Your End",
+          "stages": [
+            [
+              "Ev1-4",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Gold Out of Space",
+          "stages": [
+            [
+              "Ev3-3B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Zero Base",
+          "stages": [
+            [
+              "Ev1-1Ex",
+              ""
+            ],
+            [
+              "Ev2-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "For the Dreamless Mermaid",
+          "stages": [
+            [
+              "Ev1-5",
+              ""
+            ],
+            [
+              "Ev2-4B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Palace of the Reclusive Goddess",
+          "stages": [
+            [
+              "Ev1-8",
+              ""
+            ],
+            [
+              "Ev2-3B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Daisenran ~Endless Storm of Violet Lightning~",
+          "stages": [
+            [
+              "Ev1-5",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Project ORCA: Sun-Rising Stage",
+          "stages": [
+            [
+              "Ev2-5",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Corrupted Last Record",
+          "stages": [
+            [
+              "Ev1-4Ex",
+              ""
+            ],
+            [
+              "Ev4-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Orca Christmas Expo",
+          "stages": [
+            [
+              "Ev1-1EX",
+              ""
+            ],
+            [
+              "Ev2-4EX",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Dance of the Stars",
+          "stages": [
+            [
+              "Ev2-4Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Bride of the Orca",
+          "stages": [
+            [
+              "Ev2-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Sisters of Omerta",
+          "stages": [
+            [
+              "Ev1-3",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Silent Swamp",
+          "stages": [
+            [
+              "Ev1-6",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/daika.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/daika.webp",
     "stats": {
@@ -5857,6 +12054,7 @@ export const loCharacters = [
     "height": "158cm",
     "weight": "55kg",
     "equipRec": "CCOG",
+    "farm": null,
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/djinnia.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/djinnia.webp",
     "stats": {
@@ -5977,6 +12175,230 @@ export const loCharacters = [
     "height": "145cm",
     "weight": "38kg",
     "equipRec": "CCOG",
+    "farm": {
+      "notes": [
+        "Production"
+      ],
+      "groups": [
+        {
+          "source": "St.Orca's Secret Operation",
+          "stages": [
+            [
+              "Ev2-3B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Somebody's Wish",
+          "stages": [
+            [
+              "Ev2-3",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Project ORCA Starlit Night Stage",
+          "stages": [
+            [
+              "Ev1-4",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Orca Date Contest",
+          "stages": [
+            [
+              "Ev1-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Wolf's Fang of Fury",
+          "stages": [
+            [
+              "Ev1-3Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Water Park on which the Sun Never Sets",
+          "stages": [
+            [
+              "Ev1-4B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Blind Princess and the Land of Mist",
+          "stages": [
+            [
+              "Ev1-5",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Dreaming Mermaid's Island",
+          "stages": [
+            [
+              "Ev1-1B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Sincerely, To Your End",
+          "stages": [
+            [
+              "Ev1-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Gold Out of Space",
+          "stages": [
+            [
+              "Ev1-3Ex",
+              ""
+            ],
+            [
+              "Ev1-3Ex",
+              ""
+            ],
+            [
+              "Ev2-7",
+              ""
+            ],
+            [
+              "Ev2-3Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "For the Dreamless Mermaid",
+          "stages": [
+            [
+              "Ev1-1B",
+              ""
+            ],
+            [
+              "Ev2-1B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Palace of the Reclusive Goddess",
+          "stages": [
+            [
+              "Ev1-7",
+              ""
+            ],
+            [
+              "Ev2-5",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Daisenran ~Endless Storm of Violet Lightning~",
+          "stages": [
+            [
+              "Ev1-7",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Project ORCA: Sun-Rising Stage",
+          "stages": [
+            [
+              "Ev2-3",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Corrupted Last Record",
+          "stages": [
+            [
+              "Ev1-2Ex",
+              ""
+            ],
+            [
+              "Ev4-2",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Orca Christmas Expo",
+          "stages": [
+            [
+              "Ev1-6",
+              ""
+            ],
+            [
+              "Ev2-2EX",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Dance of the Stars",
+          "stages": [
+            [
+              "Ev2-3Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Bride of the Orca",
+          "stages": [
+            [
+              "Ev1-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "From Martial Arts With Love",
+          "stages": [
+            [
+              "Ev1-3Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Sisters of Omerta",
+          "stages": [
+            [
+              "Ev2-3",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Silent Swamp",
+          "stages": [
+            [
+              "Ev1-5",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/sylphid.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/sylphid.webp",
     "stats": {
@@ -6090,6 +12512,277 @@ export const loCharacters = [
     "height": "170cm",
     "weight": "61kg",
     "equipRec": "CCOG",
+    "farm": {
+      "notes": [
+        "Production"
+      ],
+      "groups": [
+        {
+          "source": "Main Story",
+          "stages": [
+            [
+              "6-8Ex",
+              ""
+            ],
+            [
+              "8-5",
+              ""
+            ],
+            [
+              "9-5B",
+              ""
+            ],
+            [
+              "12-10B",
+              ""
+            ],
+            [
+              "13-27",
+              ""
+            ],
+            [
+              "13-36",
+              ""
+            ],
+            [
+              "13-38",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Aria of the Elven Town",
+          "stages": [
+            [
+              "Ev2-3",
+              ""
+            ],
+            [
+              "Ev2-8",
+              ""
+            ],
+            [
+              "Ev2-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Country within Muddy Memory",
+          "stages": [
+            [
+              "Ev2-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Project ORCA Starlit Night Stage",
+          "stages": [
+            [
+              "Ev1-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Lightless Sanctuary",
+          "stages": [
+            [
+              "Ev1-7",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Eternal Winter's Ark",
+          "stages": [
+            [
+              "Ev1-9B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Bunny? Niba! Thumpy Thump Reverse Bunny Trouble!",
+          "stages": [
+            [
+              "Ev2-5Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Mini Companions' Onslaught ~Fierceness that Invites Storm~",
+          "stages": [
+            [
+              "Ev1-7",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Wolf's Fang of Fury",
+          "stages": [
+            [
+              "Ev1-3Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Water Park on which the Sun Never Sets",
+          "stages": [
+            [
+              "Ev1-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Blind Princess and the Land of Mist",
+          "stages": [
+            [
+              "Ev1-4B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Dreaming Mermaid's Island",
+          "stages": [
+            [
+              "Ev2-4",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Zero Base",
+          "stages": [
+            [
+              "Ev1-3B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Adventuring at Sea Again",
+          "stages": [
+            [
+              "Ev1-3",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "For the Dreamless Mermaid",
+          "stages": [
+            [
+              "Ev1-4",
+              ""
+            ],
+            [
+              "Ev2-4B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Palace of the Reclusive Goddess",
+          "stages": [
+            [
+              "Ev1-5",
+              ""
+            ],
+            [
+              "Ev2-3Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Project ORCA: Sun-Rising Stage",
+          "stages": [
+            [
+              "Ev1-5",
+              ""
+            ],
+            [
+              "Ev2-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Corrupted Last Record",
+          "stages": [
+            [
+              "Ev2-4Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Living Dead Carnival",
+          "stages": [
+            [
+              "Ev1-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Orca Christmas Expo",
+          "stages": [
+            [
+              "Ev2-2",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Dance of the Stars",
+          "stages": [
+            [
+              "Ev1-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Bride of the Orca",
+          "stages": [
+            [
+              "Ev2-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "From Martial Arts With Love",
+          "stages": [
+            [
+              "Ev1-3Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Silent Swamp",
+          "stages": [
+            [
+              "Ev1-2Ex",
+              ""
+            ],
+            [
+              "Ev1-2EXH",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/banshee.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/banshee.webp",
     "stats": {
@@ -6203,6 +12896,112 @@ export const loCharacters = [
     "height": "175cm",
     "weight": "63kg",
     "equipRec": "CCOG",
+    "farm": {
+      "notes": [
+        "Production"
+      ],
+      "groups": [
+        {
+          "source": "Main Story",
+          "stages": [
+            [
+              "9-8",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Eternal Winter's Ark",
+          "stages": [
+            [
+              "Ev1-5B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Orca Date Contest",
+          "stages": [
+            [
+              "Ev1-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Water Park on which the Sun Never Sets",
+          "stages": [
+            [
+              "Ev3-3Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Blind Princess and the Land of Mist",
+          "stages": [
+            [
+              "Ev1-8",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Dreaming Mermaid's Island",
+          "stages": [
+            [
+              "Ev2-4B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Curtain Call After the Apocalypse",
+          "stages": [
+            [
+              "Ev2-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Gold Out of Space",
+          "stages": [
+            [
+              "Ev2-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "For the Dreamless Mermaid",
+          "stages": [
+            [
+              "Ev2-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Corrupted Last Record",
+          "stages": [
+            [
+              "Ev3-3Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "From Martial Arts With Love",
+          "stages": [
+            [
+              "Ev1-3Ex",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/strato-angel.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/strato-angel.webp",
     "stats": {
@@ -6305,6 +13104,57 @@ export const loCharacters = [
     "height": "178cm",
     "weight": "61kg",
     "equipRec": "GCCO",
+    "farm": {
+      "notes": [
+        "Production"
+      ],
+      "groups": [
+        {
+          "source": "Main Story",
+          "stages": [
+            [
+              "7-8",
+              ""
+            ],
+            [
+              "10-3B",
+              "First Clear Reward"
+            ],
+            [
+              "11-6",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Country within Muddy Memory",
+          "stages": [
+            [
+              "Ev2-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Blind Princess and the Land of Mist",
+          "stages": [
+            [
+              "Ev1-6B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Orca Christmas Expo",
+          "stages": [
+            [
+              "Ev2-3B",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/royal-arsenal.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/royal-arsenal.webp",
     "stats": {
@@ -6424,6 +13274,79 @@ export const loCharacters = [
     "height": "163cm",
     "weight": "51kg",
     "equipRec": "CCOG",
+    "farm": {
+      "notes": [
+        "Production",
+        "Legacy of Rioboros's Exchange",
+        "Full Moon Nocturne's Exchange",
+        "Country within Muddy Memory's Exchange",
+        "Rose that Blooms atop of Lotus's Exchange"
+      ],
+      "groups": [
+        {
+          "source": "Main Story",
+          "stages": [
+            [
+              "5-8Ex",
+              ""
+            ],
+            [
+              "13-4",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Choco Queen in Wonderland",
+          "stages": [
+            [
+              "Ev2-6Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Aria of the Elven Town",
+          "stages": [
+            [
+              "Ev2-8",
+              "First Clear Reward"
+            ]
+          ]
+        },
+        {
+          "source": "The Water Park on which the Sun Never Sets",
+          "stages": [
+            [
+              "Ev3-3Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Girl Walking Through the Night",
+          "stages": [
+            [
+              "Ev1-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Sisters of Omerta",
+          "stages": [
+            [
+              "Ev2-2Ex",
+              ""
+            ],
+            [
+              "Ev2-2EXH",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/bloody-panther.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/bloody-panther.webp",
     "stats": {
@@ -6565,6 +13488,120 @@ export const loCharacters = [
     "height": "161cm",
     "weight": "55kg",
     "equipRec": "CCOG",
+    "farm": {
+      "notes": [
+        "Production",
+        "Somebody's Wish's Exchange"
+      ],
+      "groups": [
+        {
+          "source": "Legacy of Rioboros",
+          "stages": [
+            [
+              "Ev3-3s",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Full Moon Nocturne",
+          "stages": [
+            [
+              "Ev2-6",
+              ""
+            ],
+            [
+              "Ev2-6Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Lightless Sanctuary",
+          "stages": [
+            [
+              "Ev1-5",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Wolf's Fang of Fury",
+          "stages": [
+            [
+              "Ev2-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Blind Princess and the Land of Mist",
+          "stages": [
+            [
+              "Ev2-1",
+              ""
+            ],
+            [
+              "Ev1-6",
+              ""
+            ],
+            [
+              "Ev3-5",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Adventuring at Sea Again",
+          "stages": [
+            [
+              "Ev1-5",
+              ""
+            ],
+            [
+              "Ev1-3B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Girl Walking Through the Night",
+          "stages": [
+            [
+              "Ev1-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "AGSes of the Orca, Unite!",
+          "stages": [
+            [
+              "Ev1-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Corrupted Last Record",
+          "stages": [
+            [
+              "Ev2-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Orca Christmas Expo",
+          "stages": [
+            [
+              "Ev2-1EX",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/calista.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/calista.webp",
     "stats": {
@@ -6660,6 +13697,32 @@ export const loCharacters = [
     "height": "172cm",
     "weight": "62kg",
     "equipRec": "CCOG",
+    "farm": {
+      "notes": [
+        "Production",
+        "Palace of the Reclusive Goddess's Exchange"
+      ],
+      "groups": [
+        {
+          "source": "The Girl Walking Through the Night",
+          "stages": [
+            [
+              "Ev1-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Living Dead Carnival",
+          "stages": [
+            [
+              "Ev1-2Ex",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/nashorn.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/nashorn.webp",
     "stats": {
@@ -6793,6 +13856,269 @@ export const loCharacters = [
     "height": "163cm",
     "weight": "49kg",
     "equipRec": "CCOG",
+    "farm": {
+      "notes": [
+        "Production"
+      ],
+      "groups": [
+        {
+          "source": "Legacy of Rioboros",
+          "stages": [
+            [
+              "Ev2-5B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "St.Orca's Secret Operation",
+          "stages": [
+            [
+              "Ev2-6",
+              ""
+            ],
+            [
+              "Ev2-6Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Country within Muddy Memory",
+          "stages": [
+            [
+              "Ev2-1",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Invitation from Paradise",
+          "stages": [
+            [
+              "Ev1-8",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Project ORCA Starlit Night Stage",
+          "stages": [
+            [
+              "Ev2-3",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Lightless Sanctuary",
+          "stages": [
+            [
+              "Ev1-6",
+              ""
+            ],
+            [
+              "Ev2-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Mini Companions' Onslaught ~Fierceness that Invites Storm~",
+          "stages": [
+            [
+              "Ev1-3",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Wolf's Fang of Fury",
+          "stages": [
+            [
+              "Ev2-4",
+              ""
+            ],
+            [
+              "Ev2-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Water Park on which the Sun Never Sets",
+          "stages": [
+            [
+              "Ev1-4B",
+              ""
+            ],
+            [
+              "Ev3-4B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Blind Princess and the Land of Mist",
+          "stages": [
+            [
+              "Ev1-7",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Dreaming Mermaid's Island",
+          "stages": [
+            [
+              "Ev1-2B",
+              ""
+            ],
+            [
+              "Ev2-3B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Curtain Call After the Apocalypse",
+          "stages": [
+            [
+              "Ev2-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Gold Out of Space",
+          "stages": [
+            [
+              "Ev1-6",
+              ""
+            ],
+            [
+              "Ev2-3B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Adventuring at Sea Again",
+          "stages": [
+            [
+              "Ev1-6",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "For the Dreamless Mermaid",
+          "stages": [
+            [
+              "Ev1-4B",
+              ""
+            ],
+            [
+              "Ev2-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Girl Walking Through the Night",
+          "stages": [
+            [
+              "Ev1-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "AGSes of the Orca, Unite!",
+          "stages": [
+            [
+              "Ev1-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Palace of the Reclusive Goddess",
+          "stages": [
+            [
+              "Ev1-4",
+              ""
+            ],
+            [
+              "Ev2-6",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Project ORCA: Sun-Rising Stage",
+          "stages": [
+            [
+              "Ev2-1",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Corrupted Last Record",
+          "stages": [
+            [
+              "Ev1-7",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Living Dead Carnival",
+          "stages": [
+            [
+              "Ev1-8",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Orca Christmas Expo",
+          "stages": [
+            [
+              "Ev1-4",
+              ""
+            ],
+            [
+              "Ev2-3B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Dance of the Stars",
+          "stages": [
+            [
+              "Ev2-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Silent Swamp",
+          "stages": [
+            [
+              "Ev1-1Ex",
+              ""
+            ],
+            [
+              "Ev1-1EXH",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/io.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/io.webp",
     "stats": {
@@ -6913,6 +14239,251 @@ export const loCharacters = [
     "height": "168cm",
     "weight": "56kg",
     "equipRec": "CCOG",
+    "farm": {
+      "notes": [
+        "Production"
+      ],
+      "groups": [
+        {
+          "source": "Main Story",
+          "stages": [
+            [
+              "7-3Ex",
+              ""
+            ],
+            [
+              "8-3",
+              ""
+            ],
+            [
+              "9-6",
+              ""
+            ],
+            [
+              "11-5",
+              ""
+            ],
+            [
+              "12-1Ex",
+              ""
+            ],
+            [
+              "13-28",
+              ""
+            ],
+            [
+              "13-40",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Legacy of Rioboros",
+          "stages": [
+            [
+              "Ev2-2B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "St.Orca's Secret Operation",
+          "stages": [
+            [
+              "Ev2-4",
+              ""
+            ],
+            [
+              "Ev2-5",
+              ""
+            ],
+            [
+              "Ev2-6Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Somebody's Wish",
+          "stages": [
+            [
+              "Ev2-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Lightless Sanctuary",
+          "stages": [
+            [
+              "Ev1-3Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Mini Companions' Onslaught ~Fierceness that Invites Storm~",
+          "stages": [
+            [
+              "Ev1-3",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Wolf's Fang of Fury",
+          "stages": [
+            [
+              "Ev2-1",
+              ""
+            ],
+            [
+              "Ev2-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Water Park on which the Sun Never Sets",
+          "stages": [
+            [
+              "Ev1-5B",
+              ""
+            ],
+            [
+              "Ev3-5B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Blind Princess and the Land of Mist",
+          "stages": [
+            [
+              "Ev1-6",
+              ""
+            ],
+            [
+              "Ev2-1",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Zero Base",
+          "stages": [
+            [
+              "Ev2-3",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "For the Dreamless Mermaid",
+          "stages": [
+            [
+              "Ev1-7",
+              ""
+            ],
+            [
+              "Ev2-1",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Girl Walking Through the Night",
+          "stages": [
+            [
+              "Ev1-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "AGSes of the Orca, Unite!",
+          "stages": [
+            [
+              "Ev1-1Ex",
+              ""
+            ],
+            [
+              "Ev1-5Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Palace of the Reclusive Goddess",
+          "stages": [
+            [
+              "Ev1-2B",
+              ""
+            ],
+            [
+              "Ev2-3B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Daisenran ~Endless Storm of Violet Lightning~",
+          "stages": [
+            [
+              "Ev1-1B",
+              ""
+            ],
+            [
+              "Ev1-2B",
+              ""
+            ],
+            [
+              "Ev2-7",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Project ORCA: Sun-Rising Stage",
+          "stages": [
+            [
+              "Ev1-2",
+              ""
+            ],
+            [
+              "Ev2-6",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Corrupted Last Record",
+          "stages": [
+            [
+              "Ev1-3Ex",
+              ""
+            ],
+            [
+              "Ev2-1Ex",
+              ""
+            ],
+            [
+              "Ev4-4Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Orca Christmas Expo",
+          "stages": [
+            [
+              "Ev1-3EX",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/spriggan.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/spriggan.webp",
     "stats": {
@@ -7033,6 +14604,112 @@ export const loCharacters = [
     "height": "166cm",
     "weight": "51kg",
     "equipRec": "CCOG",
+    "farm": {
+      "notes": [
+        "Production"
+      ],
+      "groups": [
+        {
+          "source": "Legacy of Rioboros",
+          "stages": [
+            [
+              "Ev3-2s",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Aria of the Elven Town",
+          "stages": [
+            [
+              "Ev2-4B",
+              "First Clear Reward"
+            ]
+          ]
+        },
+        {
+          "source": "Lightless Sanctuary",
+          "stages": [
+            [
+              "Ev1-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Wolf's Fang of Fury",
+          "stages": [
+            [
+              "Ev2-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Water Park on which the Sun Never Sets",
+          "stages": [
+            [
+              "Ev1-4B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Blind Princess and the Land of Mist",
+          "stages": [
+            [
+              "Ev1-6B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Zero Base",
+          "stages": [
+            [
+              "Ev2-3Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "AGSes of the Orca, Unite!",
+          "stages": [
+            [
+              "Ev1-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Project ORCA: Sun-Rising Stage",
+          "stages": [
+            [
+              "Ev1-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Living Dead Carnival",
+          "stages": [
+            [
+              "Ev1-3",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Bride of the Orca",
+          "stages": [
+            [
+              "Ev2-4Ex",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/beast-hunter.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/beast-hunter.webp",
     "stats": {
@@ -7146,6 +14823,83 @@ export const loCharacters = [
     "height": "159cm",
     "weight": "46kg",
     "equipRec": "CCOG",
+    "farm": {
+      "notes": [
+        "Production",
+        "Full Moon Nocturne's Exchange",
+        "Bunny? Niba! Thumpy Thump Reverse Bunny Trouble!'s Exchange",
+        "Wolf's Fang of Fury's Exchange"
+      ],
+      "groups": [
+        {
+          "source": "Main Story",
+          "stages": [
+            [
+              "5-8",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Invitation from Paradise",
+          "stages": [
+            [
+              "Ev1-8",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Project ORCA Starlit Night Stage",
+          "stages": [
+            [
+              "Ev2-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Water Park on which the Sun Never Sets",
+          "stages": [
+            [
+              "Ev2-4B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Blind Princess and the Land of Mist",
+          "stages": [
+            [
+              "Ev2-8",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Project ORCA: Sun-Rising Stage",
+          "stages": [
+            [
+              "Ev3-1B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Silent Swamp",
+          "stages": [
+            [
+              "Ev1-1Ex",
+              ""
+            ],
+            [
+              "Ev1-1EXH",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/emily.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/emily.webp",
     "stats": {
@@ -7286,6 +15040,233 @@ export const loCharacters = [
     "height": "158cm",
     "weight": "46kg",
     "equipRec": "CCOG",
+    "farm": {
+      "notes": [
+        "Production"
+      ],
+      "groups": [
+        {
+          "source": "Legacy of Rioboros",
+          "stages": [
+            [
+              "Ev3-4s",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "St.Orca's Secret Operation",
+          "stages": [
+            [
+              "Ev2-5",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Invitation from Paradise",
+          "stages": [
+            [
+              "Ev2-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Lightless Sanctuary",
+          "stages": [
+            [
+              "Ev1-5",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Orca Date Contest",
+          "stages": [
+            [
+              "Ev1-4Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Wolf's Fang of Fury",
+          "stages": [
+            [
+              "Ev2-3",
+              ""
+            ],
+            [
+              "Ev2-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Water Park on which the Sun Never Sets",
+          "stages": [
+            [
+              "Ev1-1B",
+              ""
+            ],
+            [
+              "Ev3-1B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Blind Princess and the Land of Mist",
+          "stages": [
+            [
+              "Ev1-6B",
+              ""
+            ],
+            [
+              "Ev2-8",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Dreaming Mermaid's Island",
+          "stages": [
+            [
+              "Ev2-5",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Orca Film Festival",
+          "stages": [
+            [
+              "Ev2-2",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Curtain Call After the Apocalypse",
+          "stages": [
+            [
+              "Ev1-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Gold Out of Space",
+          "stages": [
+            [
+              "Ev2-4B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Adventuring at Sea Again",
+          "stages": [
+            [
+              "Ev1-3B",
+              ""
+            ],
+            [
+              "Ev1-3Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "For the Dreamless Mermaid",
+          "stages": [
+            [
+              "Ev1-4B",
+              ""
+            ],
+            [
+              "Ev2-5",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Palace of the Reclusive Goddess",
+          "stages": [
+            [
+              "Ev1-6",
+              ""
+            ],
+            [
+              "Ev2-3",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Daisenran ~Endless Storm of Violet Lightning~",
+          "stages": [
+            [
+              "Ev1-6",
+              ""
+            ],
+            [
+              "Ev1-4B",
+              ""
+            ],
+            [
+              "Ev2-2B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Project ORCA: Sun-Rising Stage",
+          "stages": [
+            [
+              "Ev2-3",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Corrupted Last Record",
+          "stages": [
+            [
+              "Ev1-1Ex",
+              ""
+            ],
+            [
+              "Ev4-4Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Orca Christmas Expo",
+          "stages": [
+            [
+              "Ev1-5",
+              ""
+            ],
+            [
+              "Ev2-2EX",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Dance of the Stars",
+          "stages": [
+            [
+              "Ev2-2Ex",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/pani.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/pani.webp",
     "stats": {
@@ -7399,6 +15380,284 @@ export const loCharacters = [
     "height": "170cm",
     "weight": "59kg",
     "equipRec": "GCOC",
+    "farm": {
+      "notes": [
+        "Production"
+      ],
+      "groups": [
+        {
+          "source": "Main Story",
+          "stages": [
+            [
+              "7-5",
+              ""
+            ],
+            [
+              "7-8",
+              ""
+            ],
+            [
+              "8-6",
+              ""
+            ],
+            [
+              "9-3",
+              ""
+            ],
+            [
+              "12-7",
+              ""
+            ],
+            [
+              "13-11",
+              ""
+            ],
+            [
+              "13-19",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Invitation from Paradise",
+          "stages": [
+            [
+              "Ev3-1s",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Project ORCA Starlit Night Stage",
+          "stages": [
+            [
+              "Ev1-3Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Eternal Winter's Ark",
+          "stages": [
+            [
+              "Ev1-12",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Mini Companions' Onslaught ~Fierceness that Invites Storm~",
+          "stages": [
+            [
+              "Ev1-7",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Orca Date Contest",
+          "stages": [
+            [
+              "Ev1-1B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Wolf's Fang of Fury",
+          "stages": [
+            [
+              "Ev2-6",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Water Park on which the Sun Never Sets",
+          "stages": [
+            [
+              "Ev2-1B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Blind Princess and the Land of Mist",
+          "stages": [
+            [
+              "Ev1-6B",
+              ""
+            ],
+            [
+              "Ev2-8",
+              ""
+            ],
+            [
+              "Ev3-5B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Dreaming Mermaid's Island",
+          "stages": [
+            [
+              "Ev1-3Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Sincerely, To Your End",
+          "stages": [
+            [
+              "Ev1-6",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Gold Out of Space",
+          "stages": [
+            [
+              "Ev2-7",
+              ""
+            ],
+            [
+              "Ev3-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Zero Base",
+          "stages": [
+            [
+              "Ev1-6",
+              ""
+            ],
+            [
+              "Ev2-5",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Adventuring at Sea Again",
+          "stages": [
+            [
+              "Ev1-6",
+              ""
+            ],
+            [
+              "Ev1-4B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "For the Dreamless Mermaid",
+          "stages": [
+            [
+              "Ev1-7",
+              ""
+            ],
+            [
+              "Ev2-1B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Palace of the Reclusive Goddess",
+          "stages": [
+            [
+              "Ev1-4B",
+              ""
+            ],
+            [
+              "Ev2-3Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Daisenran ~Endless Storm of Violet Lightning~",
+          "stages": [
+            [
+              "Ev2-5",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Project ORCA: Sun-Rising Stage",
+          "stages": [
+            [
+              "Ev1-4",
+              ""
+            ],
+            [
+              "Ev2-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Living Dead Carnival",
+          "stages": [
+            [
+              "Ev1-7",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Orca Christmas Expo",
+          "stages": [
+            [
+              "Ev2-1",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Dance of the Stars",
+          "stages": [
+            [
+              "Ev1-8",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Sisters of Omerta",
+          "stages": [
+            [
+              "Ev2-4Ex",
+              ""
+            ],
+            [
+              "Ev2-4EXH",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Silent Swamp",
+          "stages": [
+            [
+              "Ev1-1Ex",
+              ""
+            ],
+            [
+              "Ev1-1EXH",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/raven.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/raven.webp",
     "stats": {
@@ -7509,6 +15768,85 @@ export const loCharacters = [
     "height": "159cm",
     "weight": "46.8kg",
     "equipRec": "CCOG",
+    "farm": {
+      "notes": [
+        "Production",
+        "Legacy of Rioboros's Exchange",
+        "Halloween Park Panic!'s Exchange",
+        "St.Orca's Secret Operation's Exchange",
+        "Choco Queen in Wonderland's Exchange",
+        "Rose that Blooms atop of Lotus's Exchange"
+      ],
+      "groups": [
+        {
+          "source": "Main Story",
+          "stages": [
+            [
+              "12-5",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Legacy of Rioboros",
+          "stages": [
+            [
+              "Ev3-1ep",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Aria of the Elven Town",
+          "stages": [
+            [
+              "Ev3-2s",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Somebody's Wish",
+          "stages": [
+            [
+              "Ev2-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Water Park on which the Sun Never Sets",
+          "stages": [
+            [
+              "Ev3-4B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Blind Princess and the Land of Mist",
+          "stages": [
+            [
+              "Ev2-1B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Sisters of Omerta",
+          "stages": [
+            [
+              "Ev1-1Ex",
+              ""
+            ],
+            [
+              "Ev1-1EXH",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/neodym.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/neodym.webp",
     "stats": {
@@ -7621,6 +15959,76 @@ export const loCharacters = [
     "height": "2.3m",
     "weight": "0.72t",
     "equipRec": "OCCG",
+    "farm": {
+      "notes": [
+        "Production"
+      ],
+      "groups": [
+        {
+          "source": "Main Story",
+          "stages": [
+            [
+              "12-15",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Blind Princess and the Land of Mist",
+          "stages": [
+            [
+              "Ev3-3Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Gold Out of Space",
+          "stages": [
+            [
+              "Ev1-4",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Palace of the Reclusive Goddess",
+          "stages": [
+            [
+              "Ev1-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Corrupted Last Record",
+          "stages": [
+            [
+              "Ev1-2",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Orca Christmas Expo",
+          "stages": [
+            [
+              "Ev1-5",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Sisters of Omerta",
+          "stages": [
+            [
+              "Ev1-5",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/shade.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/shade.webp",
     "stats": {
@@ -7733,6 +16141,147 @@ export const loCharacters = [
     "height": "170cm",
     "weight": "52kg",
     "equipRec": "CCOG",
+    "farm": {
+      "notes": [
+        "Production",
+        "Somebody's Wish's Exchange"
+      ],
+      "groups": [
+        {
+          "source": "Main Story",
+          "stages": [
+            [
+              "3-2Ex",
+              ""
+            ],
+            [
+              "5-4",
+              ""
+            ],
+            [
+              "13-28",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Legacy of Rioboros",
+          "stages": [
+            [
+              "Ev2-3B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Invitation from Paradise",
+          "stages": [
+            [
+              "Ev2-3Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Project ORCA Starlit Night Stage",
+          "stages": [
+            [
+              "Ev2-4B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Lightless Sanctuary",
+          "stages": [
+            [
+              "Ev2-6",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Mini Companions' Onslaught ~Fierceness that Invites Storm~",
+          "stages": [
+            [
+              "Ev1-5",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Wolf's Fang of Fury",
+          "stages": [
+            [
+              "Ev1-3Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Blind Princess and the Land of Mist",
+          "stages": [
+            [
+              "Ev1-8B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Gold Out of Space",
+          "stages": [
+            [
+              "Ev1-3Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Adventuring at Sea Again",
+          "stages": [
+            [
+              "Ev1-3",
+              ""
+            ],
+            [
+              "Ev1-1B",
+              ""
+            ],
+            [
+              "Ev1-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Daisenran ~Endless Storm of Violet Lightning~",
+          "stages": [
+            [
+              "Ev1-1B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Corrupted Last Record",
+          "stages": [
+            [
+              "Ev3-7",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Orca Christmas Expo",
+          "stages": [
+            [
+              "Ev1-6",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/phantom.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/phantom.webp",
     "stats": {
@@ -7878,6 +16427,71 @@ export const loCharacters = [
     "height": "171cm",
     "weight": "54kg",
     "equipRec": "CCOG",
+    "farm": {
+      "notes": [
+        "Production"
+      ],
+      "groups": [
+        {
+          "source": "Main Story",
+          "stages": [
+            [
+              "7-8Ex",
+              ""
+            ],
+            [
+              "11-4Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Aria of the Elven Town",
+          "stages": [
+            [
+              "Ev3-3s",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Bunny? Niba! Thumpy Thump Reverse Bunny Trouble!",
+          "stages": [
+            [
+              "Ev2-4Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Water Park on which the Sun Never Sets",
+          "stages": [
+            [
+              "Ev3-6B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Blind Princess and the Land of Mist",
+          "stages": [
+            [
+              "Ev2-2B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Sincerely, To Your End",
+          "stages": [
+            [
+              "Ev1-3Ex",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/echidna.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/echidna.webp",
     "stats": {
@@ -7994,6 +16608,7 @@ export const loCharacters = [
     "height": "170cm",
     "weight": "61kg",
     "equipRec": "CCOG",
+    "farm": null,
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/wraithy.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/wraithy.webp",
     "stats": {
@@ -8111,6 +16726,74 @@ export const loCharacters = [
     "height": "140cm",
     "weight": "32.3kg",
     "equipRec": "CCOG",
+    "farm": {
+      "notes": [
+        "Production",
+        "Full Moon Nocturne's Exchange",
+        "The Blind Princess and the Land of Mist's Exchange",
+        "Sisters of Omerta's Exchange"
+      ],
+      "groups": [
+        {
+          "source": "Main Story",
+          "stages": [
+            [
+              "12-6",
+              ""
+            ],
+            [
+              "13-7",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "St.Orca's Secret Operation",
+          "stages": [
+            [
+              "Ev2-8",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Country within Muddy Memory",
+          "stages": [
+            [
+              "Ev2-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Invitation from Paradise",
+          "stages": [
+            [
+              "Ev1-3Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "For the Dreamless Mermaid",
+          "stages": [
+            [
+              "Ev2-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Dance of the Stars",
+          "stages": [
+            [
+              "Ev2-2Ex",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/doctor.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/doctor.webp",
     "stats": {
@@ -8222,6 +16905,326 @@ export const loCharacters = [
     "height": "171cm",
     "weight": "49kg",
     "equipRec": "CCOG",
+    "farm": {
+      "notes": [
+        "Production"
+      ],
+      "groups": [
+        {
+          "source": "Main Story",
+          "stages": [
+            [
+              "2-1",
+              "First Clear Reward"
+            ],
+            [
+              "6-1Ex",
+              ""
+            ],
+            [
+              "7-4",
+              ""
+            ],
+            [
+              "9-5",
+              ""
+            ],
+            [
+              "12-2Ex",
+              ""
+            ],
+            [
+              "13-7",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "St.Orca's Secret Operation",
+          "stages": [
+            [
+              "Ev2-2ep",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Choco Queen in Wonderland",
+          "stages": [
+            [
+              "Ev2-5Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Aria of the Elven Town",
+          "stages": [
+            [
+              "Ev3-3s",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Invitation from Paradise",
+          "stages": [
+            [
+              "Ev1-3Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Somebody's Wish",
+          "stages": [
+            [
+              "Ev1-5",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Project ORCA Starlit Night Stage",
+          "stages": [
+            [
+              "Ev3-2",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Lightless Sanctuary",
+          "stages": [
+            [
+              "Ev3-1s",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Rose that Blooms atop of Lotus",
+          "stages": [
+            [
+              "Ev1-5",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Orca Date Contest",
+          "stages": [
+            [
+              "Ev1-6Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Wolf's Fang of Fury",
+          "stages": [
+            [
+              "Ev2-7",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Water Park on which the Sun Never Sets",
+          "stages": [
+            [
+              "Ev2-3B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Blind Princess and the Land of Mist",
+          "stages": [
+            [
+              "Ev3-4B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Dreaming Mermaid's Island",
+          "stages": [
+            [
+              "Ev1-6",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Orca Film Festival",
+          "stages": [
+            [
+              "Ev2-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Curtain Call After the Apocalypse",
+          "stages": [
+            [
+              "Ev1-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Sincerely, To Your End",
+          "stages": [
+            [
+              "Ev1-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Gold Out of Space",
+          "stages": [
+            [
+              "Ev1-3B",
+              ""
+            ],
+            [
+              "Ev2-6",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Adventuring at Sea Again",
+          "stages": [
+            [
+              "Ev1-5",
+              ""
+            ],
+            [
+              "Ev1-3B",
+              ""
+            ],
+            [
+              "Ev1-3Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "For the Dreamless Mermaid",
+          "stages": [
+            [
+              "Ev2-4",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Girl Walking Through the Night",
+          "stages": [
+            [
+              "Ev1-5",
+              ""
+            ],
+            [
+              "Ev1-7",
+              ""
+            ],
+            [
+              "Ev1-9",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Palace of the Reclusive Goddess",
+          "stages": [
+            [
+              "Ev1-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Daisenran ~Endless Storm of Violet Lightning~",
+          "stages": [
+            [
+              "Ev2-8",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Project ORCA: Sun-Rising Stage",
+          "stages": [
+            [
+              "Ev1-1Ex",
+              ""
+            ],
+            [
+              "Ev3-2B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Corrupted Last Record",
+          "stages": [
+            [
+              "Ev3-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Living Dead Carnival",
+          "stages": [
+            [
+              "Ev1-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Orca Christmas Expo",
+          "stages": [
+            [
+              "Ev2-5",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Sisters of Omerta",
+          "stages": [
+            [
+              "Ev2-1Ex",
+              ""
+            ],
+            [
+              "Ev2-1EXH",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Silent Swamp",
+          "stages": [
+            [
+              "Ev1-3Ex",
+              ""
+            ],
+            [
+              "Ev1-3EXH",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/amy.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/amy.webp",
     "stats": {
@@ -8332,6 +17335,7 @@ export const loCharacters = [
     "height": "159cm",
     "weight": "46.5kg",
     "equipRec": "CCOG",
+    "farm": null,
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/tomo.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/tomo.webp",
     "stats": {
@@ -8484,6 +17488,73 @@ export const loCharacters = [
     "height": "160cm",
     "weight": "46.7kg",
     "equipRec": "CCOG",
+    "farm": {
+      "notes": [
+        "Production",
+        "Country within Muddy Memory's Exchange",
+        "Corrupted Last Record's Exchange"
+      ],
+      "groups": [
+        {
+          "source": "Main Story",
+          "stages": [
+            [
+              "9-4Ex",
+              ""
+            ],
+            [
+              "12-11",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Invitation from Paradise",
+          "stages": [
+            [
+              "Ev2-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Water Park on which the Sun Never Sets",
+          "stages": [
+            [
+              "Ev2-3Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Blind Princess and the Land of Mist",
+          "stages": [
+            [
+              "Ev3-6B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Gold Out of Space",
+          "stages": [
+            [
+              "Ev2-7",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Project ORCA: Sun-Rising Stage",
+          "stages": [
+            [
+              "Ev1-1Ex",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/shirayuri.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/shirayuri.webp",
     "stats": {
@@ -8588,6 +17659,105 @@ export const loCharacters = [
     "height": "167cm",
     "weight": "54kg",
     "equipRec": "CCOG",
+    "farm": {
+      "notes": [
+        "Production",
+        "Somebody's Wish's Exchange",
+        "Eternal Winter's Ark's Exchange"
+      ],
+      "groups": [
+        {
+          "source": "Main Story",
+          "stages": [
+            [
+              "8-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Choco Queen in Wonderland",
+          "stages": [
+            [
+              "Ev2-4Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Aria of the Elven Town",
+          "stages": [
+            [
+              "Ev2-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Project ORCA Starlit Night Stage",
+          "stages": [
+            [
+              "Ev2-3Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Rose that Blooms atop of Lotus",
+          "stages": [
+            [
+              "Ev1-6",
+              "First Clear Reward"
+            ]
+          ]
+        },
+        {
+          "source": "Wolf's Fang of Fury",
+          "stages": [
+            [
+              "Ev2-3Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Blind Princess and the Land of Mist",
+          "stages": [
+            [
+              "Ev1-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "For the Dreamless Mermaid",
+          "stages": [
+            [
+              "Ev1-3B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "AGSes of the Orca, Unite!",
+          "stages": [
+            [
+              "Ev1-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Dance of the Stars",
+          "stages": [
+            [
+              "Ev2-7",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/hongryeon.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/hongryeon.webp",
     "stats": {
@@ -8714,6 +17884,359 @@ export const loCharacters = [
     "height": "158cm",
     "weight": "47kg",
     "equipRec": "CCOG",
+    "farm": {
+      "notes": [
+        "Production"
+      ],
+      "groups": [
+        {
+          "source": "Main Story",
+          "stages": [
+            [
+              "1-3Ex",
+              ""
+            ],
+            [
+              "1-4Ex",
+              ""
+            ],
+            [
+              "2-1Ex",
+              ""
+            ],
+            [
+              "3-3Ex",
+              ""
+            ],
+            [
+              "4-1",
+              ""
+            ],
+            [
+              "4-1Ex",
+              ""
+            ],
+            [
+              "5-4",
+              ""
+            ],
+            [
+              "5-8",
+              ""
+            ],
+            [
+              "5-3Ex",
+              ""
+            ],
+            [
+              "6-8",
+              ""
+            ],
+            [
+              "7-1Ex",
+              ""
+            ],
+            [
+              "13-7",
+              ""
+            ],
+            [
+              "13-15",
+              ""
+            ],
+            [
+              "13-16",
+              ""
+            ],
+            [
+              "13-23",
+              ""
+            ],
+            [
+              "13-24",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Legacy of Rioboros",
+          "stages": [
+            [
+              "Ev3-1ep",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Choco Queen in Wonderland",
+          "stages": [
+            [
+              "Ev2-4Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Aria of the Elven Town",
+          "stages": [
+            [
+              "Ev2-4",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Country within Muddy Memory",
+          "stages": [
+            [
+              "Ev2-6",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Invitation from Paradise",
+          "stages": [
+            [
+              "Ev2-5",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Project ORCA Starlit Night Stage",
+          "stages": [
+            [
+              "Ev2-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Lightless Sanctuary",
+          "stages": [
+            [
+              "Ev2-3Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Rose that Blooms atop of Lotus",
+          "stages": [
+            [
+              "Ev1-5",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Orca Date Contest",
+          "stages": [
+            [
+              "Ev1-1B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Wolf's Fang of Fury",
+          "stages": [
+            [
+              "Ev2-1",
+              ""
+            ],
+            [
+              "Ev2-3Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Water Park on which the Sun Never Sets",
+          "stages": [
+            [
+              "Ev1-6B",
+              ""
+            ],
+            [
+              "Ev3-6B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Blind Princess and the Land of Mist",
+          "stages": [
+            [
+              "Ev1-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Dreaming Mermaid's Island",
+          "stages": [
+            [
+              "Ev3-2B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Gold Out of Space",
+          "stages": [
+            [
+              "Ev2-2Ex",
+              ""
+            ],
+            [
+              "Ev3-1B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Adventuring at Sea Again",
+          "stages": [
+            [
+              "Ev1-4",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "For the Dreamless Mermaid",
+          "stages": [
+            [
+              "Ev1-2B",
+              ""
+            ],
+            [
+              "Ev2-4B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Girl Walking Through the Night",
+          "stages": [
+            [
+              "Ev1-5",
+              ""
+            ],
+            [
+              "Ev1-7",
+              ""
+            ],
+            [
+              "Ev1-8",
+              ""
+            ],
+            [
+              "Ev1-9",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Palace of the Reclusive Goddess",
+          "stages": [
+            [
+              "Ev1-3",
+              ""
+            ],
+            [
+              "Ev2-4",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Daisenran ~Endless Storm of Violet Lightning~",
+          "stages": [
+            [
+              "Ev1-3",
+              ""
+            ],
+            [
+              "Ev2-1B",
+              ""
+            ],
+            [
+              "Ev2-3B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Project ORCA: Sun-Rising Stage",
+          "stages": [
+            [
+              "Ev2-1",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Corrupted Last Record",
+          "stages": [
+            [
+              "Ev1-2",
+              ""
+            ],
+            [
+              "Ev3-9",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Living Dead Carnival",
+          "stages": [
+            [
+              "Ev1-5",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Orca Christmas Expo",
+          "stages": [
+            [
+              "Ev1-3",
+              ""
+            ],
+            [
+              "Ev2-3B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Dance of the Stars",
+          "stages": [
+            [
+              "Ev2-7",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Sisters of Omerta",
+          "stages": [
+            [
+              "Ev2-2Ex",
+              ""
+            ],
+            [
+              "Ev2-2EXH",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/steel-draco.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/steel-draco.webp",
     "stats": {
@@ -8827,6 +18350,356 @@ export const loCharacters = [
     "height": "154cm",
     "weight": "38kg",
     "equipRec": "CCOG",
+    "farm": {
+      "notes": [
+        "Production"
+      ],
+      "groups": [
+        {
+          "source": "Main Story",
+          "stages": [
+            [
+              "1-8",
+              ""
+            ],
+            [
+              "1-2Ex",
+              ""
+            ],
+            [
+              "1-4Ex",
+              ""
+            ],
+            [
+              "2-2Ex",
+              ""
+            ],
+            [
+              "3-3",
+              ""
+            ],
+            [
+              "3-8",
+              ""
+            ],
+            [
+              "3-2Ex",
+              ""
+            ],
+            [
+              "4-1Ex",
+              ""
+            ],
+            [
+              "6-4",
+              ""
+            ],
+            [
+              "7-4",
+              ""
+            ],
+            [
+              "9-8",
+              ""
+            ],
+            [
+              "12-17",
+              ""
+            ],
+            [
+              "13-7",
+              ""
+            ],
+            [
+              "13-15",
+              ""
+            ],
+            [
+              "13-23",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Legacy of Rioboros",
+          "stages": [
+            [
+              "Ev3-1s",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Choco Queen in Wonderland",
+          "stages": [
+            [
+              "Ev2-4Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Aria of the Elven Town",
+          "stages": [
+            [
+              "Ev2-4B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Invitation from Paradise",
+          "stages": [
+            [
+              "Ev1-4",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Somebody's Wish",
+          "stages": [
+            [
+              "Ev1-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Lightless Sanctuary",
+          "stages": [
+            [
+              "Ev2-8",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Rose that Blooms atop of Lotus",
+          "stages": [
+            [
+              "Ev1-4",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Eternal Winter's Ark",
+          "stages": [
+            [
+              "Ev1-7B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Mini Companions' Onslaught ~Fierceness that Invites Storm~",
+          "stages": [
+            [
+              "Ev1-6",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Wolf's Fang of Fury",
+          "stages": [
+            [
+              "Ev2-3Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Water Park on which the Sun Never Sets",
+          "stages": [
+            [
+              "Ev3-1B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Blind Princess and the Land of Mist",
+          "stages": [
+            [
+              "Ev2-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Dreaming Mermaid's Island",
+          "stages": [
+            [
+              "Ev2-1",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Orca Film Festival",
+          "stages": [
+            [
+              "Ev2-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Gold Out of Space",
+          "stages": [
+            [
+              "Ev3-5",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "For the Dreamless Mermaid",
+          "stages": [
+            [
+              "Ev1-4",
+              ""
+            ],
+            [
+              "Ev1-4B",
+              ""
+            ],
+            [
+              "Ev2-3B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Girl Walking Through the Night",
+          "stages": [
+            [
+              "Ev1-5",
+              ""
+            ],
+            [
+              "Ev1-7",
+              ""
+            ],
+            [
+              "Ev1-8",
+              ""
+            ],
+            [
+              "Ev1-9",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Palace of the Reclusive Goddess",
+          "stages": [
+            [
+              "Ev1-8",
+              ""
+            ],
+            [
+              "Ev2-1B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Daisenran ~Endless Storm of Violet Lightning~",
+          "stages": [
+            [
+              "Ev1-3",
+              ""
+            ],
+            [
+              "Ev1-8",
+              ""
+            ],
+            [
+              "Ev2-6",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Project ORCA: Sun-Rising Stage",
+          "stages": [
+            [
+              "Ev2-4",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Corrupted Last Record",
+          "stages": [
+            [
+              "Ev1-3Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Orca Christmas Expo",
+          "stages": [
+            [
+              "Ev1-1EX",
+              ""
+            ],
+            [
+              "Ev2-3EX",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Dance of the Stars",
+          "stages": [
+            [
+              "Ev2-4Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Top Secret Operation: Doki-Doki Love Schedule",
+          "stages": [
+            [
+              "Ev1-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Sisters of Omerta",
+          "stages": [
+            [
+              "Ev2-4Ex",
+              ""
+            ],
+            [
+              "Ev2-4EXH",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Silent Swamp",
+          "stages": [
+            [
+              "Ev1-3Ex",
+              ""
+            ],
+            [
+              "Ev1-3EXH",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/miho.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/miho.webp",
     "stats": {
@@ -8954,6 +18827,358 @@ export const loCharacters = [
     "height": "158cm",
     "weight": "43kg",
     "equipRec": "CCOG",
+    "farm": {
+      "notes": [
+        "Production"
+      ],
+      "groups": [
+        {
+          "source": "Main Story",
+          "stages": [
+            [
+              "1-8",
+              ""
+            ],
+            [
+              "1-1Ex",
+              ""
+            ],
+            [
+              "1-4Ex",
+              ""
+            ],
+            [
+              "2-7",
+              ""
+            ],
+            [
+              "2-1Ex",
+              ""
+            ],
+            [
+              "3-6",
+              ""
+            ],
+            [
+              "4-4",
+              ""
+            ],
+            [
+              "4-6",
+              ""
+            ],
+            [
+              "4-8",
+              ""
+            ],
+            [
+              "4-4Ex",
+              ""
+            ],
+            [
+              "5-2",
+              ""
+            ],
+            [
+              "5-1Ex",
+              ""
+            ],
+            [
+              "5-3Ex",
+              ""
+            ],
+            [
+              "6-1",
+              ""
+            ],
+            [
+              "6-2Ex",
+              ""
+            ],
+            [
+              "10-6",
+              ""
+            ],
+            [
+              "13-7",
+              ""
+            ],
+            [
+              "13-15",
+              ""
+            ],
+            [
+              "13-23",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Legacy of Rioboros",
+          "stages": [
+            [
+              "Ev2-1B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "St.Orca's Secret Operation",
+          "stages": [
+            [
+              "Ev2-7",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Choco Queen in Wonderland",
+          "stages": [
+            [
+              "Ev2-4Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Aria of the Elven Town",
+          "stages": [
+            [
+              "Ev2-4",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Invitation from Paradise",
+          "stages": [
+            [
+              "Ev2-5",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Project ORCA Starlit Night Stage",
+          "stages": [
+            [
+              "Ev2-3",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Lightless Sanctuary",
+          "stages": [
+            [
+              "Ev3-1s",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Rose that Blooms atop of Lotus",
+          "stages": [
+            [
+              "Ev1-3",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Eternal Winter's Ark",
+          "stages": [
+            [
+              "Ev1-7B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Wolf's Fang of Fury",
+          "stages": [
+            [
+              "Ev2-4",
+              ""
+            ],
+            [
+              "Ev2-3Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Water Park on which the Sun Never Sets",
+          "stages": [
+            [
+              "Ev2-3B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Blind Princess and the Land of Mist",
+          "stages": [
+            [
+              "Ev1-2Ex",
+              ""
+            ],
+            [
+              "Ev3-5",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Dreaming Mermaid's Island",
+          "stages": [
+            [
+              "Ev1-2Ex",
+              ""
+            ],
+            [
+              "Ev3-1B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Orca Film Festival",
+          "stages": [
+            [
+              "Ev1-2",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Adventuring at Sea Again",
+          "stages": [
+            [
+              "Ev1-3",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "For the Dreamless Mermaid",
+          "stages": [
+            [
+              "Ev1-1B",
+              ""
+            ],
+            [
+              "Ev2-3B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Girl Walking Through the Night",
+          "stages": [
+            [
+              "Ev1-5",
+              ""
+            ],
+            [
+              "Ev1-7",
+              ""
+            ],
+            [
+              "Ev1-8",
+              ""
+            ],
+            [
+              "Ev1-9",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Palace of the Reclusive Goddess",
+          "stages": [
+            [
+              "Ev1-2",
+              ""
+            ],
+            [
+              "Ev2-3",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Daisenran ~Endless Storm of Violet Lightning~",
+          "stages": [
+            [
+              "Ev2-6",
+              ""
+            ],
+            [
+              "Ev2-7",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Project ORCA: Sun-Rising Stage",
+          "stages": [
+            [
+              "Ev1-3Ex",
+              ""
+            ],
+            [
+              "Ev3-4B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Corrupted Last Record",
+          "stages": [
+            [
+              "Ev3-8",
+              ""
+            ],
+            [
+              "Ev4-2",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Living Dead Carnival",
+          "stages": [
+            [
+              "Ev1-4",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Orca Christmas Expo",
+          "stages": [
+            [
+              "Ev1-3",
+              ""
+            ],
+            [
+              "Ev2-2B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Dance of the Stars",
+          "stages": [
+            [
+              "Ev2-7",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/pinto.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/pinto.webp",
     "stats": {
@@ -9103,6 +19328,170 @@ export const loCharacters = [
     "height": "143cm",
     "weight": "75kg",
     "equipRec": "CCOG",
+    "farm": {
+      "notes": [
+        "Production",
+        "Project ORCA Starlit Night Stage's Exchange"
+      ],
+      "groups": [
+        {
+          "source": "Main Story",
+          "stages": [
+            [
+              "5-3Ex",
+              ""
+            ],
+            [
+              "5-8Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Legacy of Rioboros",
+          "stages": [
+            [
+              "Ev3-1s",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Choco Queen in Wonderland",
+          "stages": [
+            [
+              "Ev2-4Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Aria of the Elven Town",
+          "stages": [
+            [
+              "Ev2-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Invitation from Paradise",
+          "stages": [
+            [
+              "Ev2-5",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Project ORCA Starlit Night Stage",
+          "stages": [
+            [
+              "Ev2-3Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Rose that Blooms atop of Lotus",
+          "stages": [
+            [
+              "Ev1-4",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Orca Date Contest",
+          "stages": [
+            [
+              "Ev1-1B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Wolf's Fang of Fury",
+          "stages": [
+            [
+              "Ev2-3Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Blind Princess and the Land of Mist",
+          "stages": [
+            [
+              "Ev1-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Gold Out of Space",
+          "stages": [
+            [
+              "Ev3-4B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Adventuring at Sea Again",
+          "stages": [
+            [
+              "Ev1-6",
+              ""
+            ],
+            [
+              "Ev1-4B",
+              ""
+            ],
+            [
+              "Ev1-3Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Girl Walking Through the Night",
+          "stages": [
+            [
+              "Ev1-8",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Project ORCA: Sun-Rising Stage",
+          "stages": [
+            [
+              "Ev2-1",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Corrupted Last Record",
+          "stages": [
+            [
+              "Ev4-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Orca Christmas Expo",
+          "stages": [
+            [
+              "Ev2-3B",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/bulgasari.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/bulgasari.webp",
     "stats": {
@@ -9248,6 +19637,22 @@ export const loCharacters = [
     "height": "175cm",
     "weight": "58kg",
     "equipRec": "OGCC",
+    "farm": {
+      "notes": [
+        "Invincible Dragon can only be obtained by clearing 7-8 (Once) OR buying her One-Off Package (Once)."
+      ],
+      "groups": [
+        {
+          "source": "Main Story",
+          "stages": [
+            [
+              "7-8",
+              "First Clear Reward"
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/invincible-dragon.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/invincible-dragon.webp",
     "stats": {
@@ -9404,6 +19809,121 @@ export const loCharacters = [
     "height": "154cm",
     "weight": "43kg",
     "equipRec": "CCOG",
+    "farm": {
+      "notes": [
+        "Production"
+      ],
+      "groups": [
+        {
+          "source": "Choco Queen in Wonderland",
+          "stages": [
+            [
+              "Ev2-5",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Invitation from Paradise",
+          "stages": [
+            [
+              "Ev3-2s",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Lightless Sanctuary",
+          "stages": [
+            [
+              "Ev3-1",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Eternal Winter's Ark",
+          "stages": [
+            [
+              "Ev1-3Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Orca Date Contest",
+          "stages": [
+            [
+              "Ev1-5Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Water Park on which the Sun Never Sets",
+          "stages": [
+            [
+              "Ev2-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Blind Princess and the Land of Mist",
+          "stages": [
+            [
+              "Ev2-6",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Dreaming Mermaid's Island",
+          "stages": [
+            [
+              "Ev1-5",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "For the Dreamless Mermaid",
+          "stages": [
+            [
+              "Ev1-3B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Project ORCA: Sun-Rising Stage",
+          "stages": [
+            [
+              "Ev1-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Living Dead Carnival",
+          "stages": [
+            [
+              "Ev1-7",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Dance of the Stars",
+          "stages": [
+            [
+              "Ev2-2Ex",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/nereid.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/nereid.webp",
     "stats": {
@@ -9524,6 +20044,151 @@ export const loCharacters = [
     "height": "161.1cm",
     "weight": "56kg",
     "equipRec": "COCG",
+    "farm": {
+      "notes": [
+        "Production"
+      ],
+      "groups": [
+        {
+          "source": "Main Story",
+          "stages": [
+            [
+              "6-7",
+              ""
+            ],
+            [
+              "6-4Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Legacy of Rioboros",
+          "stages": [
+            [
+              "Ev2-1B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Invitation from Paradise",
+          "stages": [
+            [
+              "Ev3-2s",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Lightless Sanctuary",
+          "stages": [
+            [
+              "Ev3-2s",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Eternal Winter's Ark",
+          "stages": [
+            [
+              "Ev1-3Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Orca Date Contest",
+          "stages": [
+            [
+              "Ev1-5Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Blind Princess and the Land of Mist",
+          "stages": [
+            [
+              "Ev3-7B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Gold Out of Space",
+          "stages": [
+            [
+              "Ev3-4",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Adventuring at Sea Again",
+          "stages": [
+            [
+              "Ev1-8",
+              ""
+            ],
+            [
+              "Ev1-2B",
+              ""
+            ],
+            [
+              "Ev1-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "AGSes of the Orca, Unite!",
+          "stages": [
+            [
+              "Ev1-4Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Daisenran ~Endless Storm of Violet Lightning~",
+          "stages": [
+            [
+              "Ev1-5",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Corrupted Last Record",
+          "stages": [
+            [
+              "Ev3-2",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Orca Christmas Expo",
+          "stages": [
+            [
+              "Ev2-2",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Silent Swamp",
+          "stages": [
+            [
+              "Ev1-1",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/undine.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/undine.webp",
     "stats": {
@@ -9638,6 +20303,86 @@ export const loCharacters = [
     "height": "151.4cm",
     "weight": "40kg",
     "equipRec": "CCOG",
+    "farm": {
+      "notes": [
+        "Production",
+        "Full Moon Nocturne's Exchange"
+      ],
+      "groups": [
+        {
+          "source": "Main Story",
+          "stages": [
+            [
+              "13-8",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Legacy of Rioboros",
+          "stages": [
+            [
+              "Ev3-3",
+              "First Clear Reward"
+            ]
+          ]
+        },
+        {
+          "source": "Invitation from Paradise",
+          "stages": [
+            [
+              "Ev3-2s",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Eternal Winter's Ark",
+          "stages": [
+            [
+              "Ev1-3Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Curtain Call After the Apocalypse",
+          "stages": [
+            [
+              "Ev2-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Adventuring at Sea Again",
+          "stages": [
+            [
+              "Ev1-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Project ORCA: Sun-Rising Stage",
+          "stages": [
+            [
+              "Ev3-2B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Dance of the Stars",
+          "stages": [
+            [
+              "Ev2-4Ex",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/sirene.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/sirene.webp",
     "stats": {
@@ -9779,6 +20524,125 @@ export const loCharacters = [
     "height": "145cm",
     "weight": "34kg",
     "equipRec": "GCCO",
+    "farm": {
+      "notes": [
+        "Production",
+        "Country within Muddy Memory's Exchange"
+      ],
+      "groups": [
+        {
+          "source": "Main Story",
+          "stages": [
+            [
+              "8-8",
+              ""
+            ],
+            [
+              "9-4",
+              ""
+            ],
+            [
+              "13-38",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Invitation from Paradise",
+          "stages": [
+            [
+              "Ev3-1s",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Project ORCA Starlit Night Stage",
+          "stages": [
+            [
+              "Ev3-2",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Eternal Winter's Ark",
+          "stages": [
+            [
+              "Ev1-3Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Orca Date Contest",
+          "stages": [
+            [
+              "Ev1-6Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Blind Princess and the Land of Mist",
+          "stages": [
+            [
+              "Ev3-6B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Zero Base",
+          "stages": [
+            [
+              "Ev2-7",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Palace of the Reclusive Goddess",
+          "stages": [
+            [
+              "Ev2-4B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Corrupted Last Record",
+          "stages": [
+            [
+              "Ev1-3Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Orca Christmas Expo",
+          "stages": [
+            [
+              "Ev2-5",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Sisters of Omerta",
+          "stages": [
+            [
+              "Ev2-4Ex",
+              ""
+            ],
+            [
+              "Ev2-4EXH",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/thetis.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/thetis.webp",
     "stats": {
@@ -9893,6 +20757,85 @@ export const loCharacters = [
     "height": "169cm",
     "weight": "52kg",
     "equipRec": "CCOG",
+    "farm": {
+      "notes": [
+        "Production",
+        "Legacy of Rioboros's Exchange",
+        "Choco Queen in Wonderland's Exchange"
+      ],
+      "groups": [
+        {
+          "source": "Main Story",
+          "stages": [
+            [
+              "4-4Ex",
+              ""
+            ],
+            [
+              "11-7",
+              ""
+            ],
+            [
+              "13-6",
+              ""
+            ],
+            [
+              "13-21",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Legacy of Rioboros",
+          "stages": [
+            [
+              "Ev2-1B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Invitation from Paradise",
+          "stages": [
+            [
+              "Ev3-4s",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Project ORCA Starlit Night Stage",
+          "stages": [
+            [
+              "Ev2-6",
+              ""
+            ],
+            [
+              "Ev2-4B",
+              "First Clear Reward"
+            ]
+          ]
+        },
+        {
+          "source": "The Water Park on which the Sun Never Sets",
+          "stages": [
+            [
+              "Ev1-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Bride of the Orca",
+          "stages": [
+            [
+              "Ev2-2Ex",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/sleipnir.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/sleipnir.webp",
     "stats": {
@@ -10013,6 +20956,248 @@ export const loCharacters = [
     "height": "152cm",
     "weight": "40kg",
     "equipRec": "CCOG",
+    "farm": {
+      "notes": [
+        "Production"
+      ],
+      "groups": [
+        {
+          "source": "Main Story",
+          "stages": [
+            [
+              "11-7",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Legacy of Rioboros",
+          "stages": [
+            [
+              "Ev2-4B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Choco Queen in Wonderland",
+          "stages": [
+            [
+              "Ev2-2ep",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Aria of the Elven Town",
+          "stages": [
+            [
+              "Ev3-1s",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Country within Muddy Memory",
+          "stages": [
+            [
+              "Ev2-5",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Invitation from Paradise",
+          "stages": [
+            [
+              "Ev2-6",
+              ""
+            ],
+            [
+              "Ev3-4s",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Project ORCA Starlit Night Stage",
+          "stages": [
+            [
+              "Ev1-1",
+              "First Clear Reward"
+            ],
+            [
+              "Ev1-3",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Lightless Sanctuary",
+          "stages": [
+            [
+              "Ev3-1s",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Wolf's Fang of Fury",
+          "stages": [
+            [
+              "Ev1-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Water Park on which the Sun Never Sets",
+          "stages": [
+            [
+              "Ev2-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Dreaming Mermaid's Island",
+          "stages": [
+            [
+              "Ev3-4B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Orca Film Festival",
+          "stages": [
+            [
+              "Ev2-1",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Curtain Call After the Apocalypse",
+          "stages": [
+            [
+              "Ev2-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Gold Out of Space",
+          "stages": [
+            [
+              "Ev1-2",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Adventuring at Sea Again",
+          "stages": [
+            [
+              "Ev1-3",
+              ""
+            ],
+            [
+              "Ev1-1B",
+              ""
+            ],
+            [
+              "Ev1-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "For the Dreamless Mermaid",
+          "stages": [
+            [
+              "Ev2-1",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Palace of the Reclusive Goddess",
+          "stages": [
+            [
+              "Ev1-3Ex",
+              ""
+            ],
+            [
+              "Ev2-4B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Daisenran ~Endless Storm of Violet Lightning~",
+          "stages": [
+            [
+              "Ev1-3",
+              ""
+            ],
+            [
+              "Ev2-2B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Project ORCA: Sun-Rising Stage",
+          "stages": [
+            [
+              "Ev1-1Ex",
+              ""
+            ],
+            [
+              "Ev3-3",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Corrupted Last Record",
+          "stages": [
+            [
+              "Ev3-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Living Dead Carnival",
+          "stages": [
+            [
+              "Ev1-8",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Orca Christmas Expo",
+          "stages": [
+            [
+              "Ev2-5",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Bride of the Orca",
+          "stages": [
+            [
+              "Ev1-2Ex",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/griffon.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/griffon.webp",
     "stats": {
@@ -10142,6 +21327,94 @@ export const loCharacters = [
     "height": "163cm",
     "weight": "55kg",
     "equipRec": "CCOG",
+    "farm": {
+      "notes": [
+        "Production",
+        "Orca Restoration's Exchange",
+        "Somebody's Wish's Exchange"
+      ],
+      "groups": [
+        {
+          "source": "Main Story",
+          "stages": [
+            [
+              "6-8Ex",
+              ""
+            ],
+            [
+              "12-17",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Project ORCA Starlit Night Stage",
+          "stages": [
+            [
+              "Ev2-5",
+              ""
+            ],
+            [
+              "Ev2-3B",
+              "First Clear Reward"
+            ]
+          ]
+        },
+        {
+          "source": "Wolf's Fang of Fury",
+          "stages": [
+            [
+              "Ev1-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Water Park on which the Sun Never Sets",
+          "stages": [
+            [
+              "Ev1-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Dreaming Mermaid's Island",
+          "stages": [
+            [
+              "Ev3-1B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Project ORCA: Sun-Rising Stage",
+          "stages": [
+            [
+              "Ev1-3Ex",
+              ""
+            ],
+            [
+              "Ev3-3B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Sisters of Omerta",
+          "stages": [
+            [
+              "Ev2-3Ex",
+              ""
+            ],
+            [
+              "Ev2-3EXH",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/harpyia.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/harpyia.webp",
     "stats": {
@@ -10262,6 +21535,41 @@ export const loCharacters = [
     "height": "147cm",
     "weight": "32kg",
     "equipRec": "CCOG",
+    "farm": {
+      "notes": [
+        "Production",
+        "The Gold Out of Space's Exchange"
+      ],
+      "groups": [
+        {
+          "source": "For the Dreamless Mermaid",
+          "stages": [
+            [
+              "Ev1-4B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Project ORCA: Sun-Rising Stage",
+          "stages": [
+            [
+              "Ev3-3B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Bride of the Orca",
+          "stages": [
+            [
+              "Ev1-2Ex",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/uroborus.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/uroborus.webp",
     "stats": {
@@ -10368,6 +21676,120 @@ export const loCharacters = [
     "height": "154cm",
     "weight": "47kg",
     "equipRec": "CCOG",
+    "farm": {
+      "notes": [
+        "Production"
+      ],
+      "groups": [
+        {
+          "source": "Legacy of Rioboros",
+          "stages": [
+            [
+              "Ev2-1B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Invitation from Paradise",
+          "stages": [
+            [
+              "Ev3-4s",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Project ORCA Starlit Night Stage",
+          "stages": [
+            [
+              "Ev1-4",
+              "First Clear Reward"
+            ],
+            [
+              "Ev1-2B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Orca Date Contest",
+          "stages": [
+            [
+              "Ev1-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Wolf's Fang of Fury",
+          "stages": [
+            [
+              "Ev1-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Blind Princess and the Land of Mist",
+          "stages": [
+            [
+              "Ev3-5B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Adventuring at Sea Again",
+          "stages": [
+            [
+              "Ev1-4",
+              ""
+            ],
+            [
+              "Ev1-2B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Project ORCA: Sun-Rising Stage",
+          "stages": [
+            [
+              "Ev2-2",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Living Dead Carnival",
+          "stages": [
+            [
+              "Ev1-5",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Dance of the Stars",
+          "stages": [
+            [
+              "Ev2-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Bride of the Orca",
+          "stages": [
+            [
+              "Ev1-2Ex",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/blackhound.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/blackhound.webp",
     "stats": {
@@ -10474,6 +21896,221 @@ export const loCharacters = [
     "height": "152cm",
     "weight": "42kg",
     "equipRec": "CCOG",
+    "farm": {
+      "notes": [
+        "Production"
+      ],
+      "groups": [
+        {
+          "source": "Aria of the Elven Town",
+          "stages": [
+            [
+              "Ev2-5",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Invitation from Paradise",
+          "stages": [
+            [
+              "Ev2-6",
+              ""
+            ],
+            [
+              "Ev3-3s",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Somebody's Wish",
+          "stages": [
+            [
+              "Ev1-3",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Project ORCA Starlit Night Stage",
+          "stages": [
+            [
+              "Ev1-2",
+              "First Clear Reward"
+            ],
+            [
+              "Ev1-4",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Orca Date Contest",
+          "stages": [
+            [
+              "Ev1-3Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Wolf's Fang of Fury",
+          "stages": [
+            [
+              "Ev1-3Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Water Park on which the Sun Never Sets",
+          "stages": [
+            [
+              "Ev2-3Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Blind Princess and the Land of Mist",
+          "stages": [
+            [
+              "Ev3-4",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Dreaming Mermaid's Island",
+          "stages": [
+            [
+              "Ev1-3B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Orca Film Festival",
+          "stages": [
+            [
+              "Ev1-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Gold Out of Space",
+          "stages": [
+            [
+              "Ev2-2",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Zero Base",
+          "stages": [
+            [
+              "Ev1-2B",
+              ""
+            ],
+            [
+              "Ev2-4",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "For the Dreamless Mermaid",
+          "stages": [
+            [
+              "Ev1-6",
+              ""
+            ],
+            [
+              "Ev2-2",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Palace of the Reclusive Goddess",
+          "stages": [
+            [
+              "Ev1-2B",
+              ""
+            ],
+            [
+              "Ev2-4B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Daisenran ~Endless Storm of Violet Lightning~",
+          "stages": [
+            [
+              "Ev1-1B",
+              ""
+            ],
+            [
+              "Ev2-5",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Project ORCA: Sun-Rising Stage",
+          "stages": [
+            [
+              "Ev1-2",
+              ""
+            ],
+            [
+              "Ev2-7",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Corrupted Last Record",
+          "stages": [
+            [
+              "Ev2-10",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Living Dead Carnival",
+          "stages": [
+            [
+              "Ev1-1",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Orca Christmas Expo",
+          "stages": [
+            [
+              "Ev1-3EX",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Bride of the Orca",
+          "stages": [
+            [
+              "Ev2-2Ex",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/lindwurm.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/lindwurm.webp",
     "stats": {
@@ -10593,6 +22230,76 @@ export const loCharacters = [
     "height": "155cm",
     "weight": "39.999kg",
     "equipRec": "GCOC",
+    "farm": {
+      "notes": [
+        "Production"
+      ],
+      "groups": [
+        {
+          "source": "Main Story",
+          "stages": [
+            [
+              "11-8",
+              "First Clear Reward"
+            ]
+          ]
+        },
+        {
+          "source": "Dreaming Mermaid's Island",
+          "stages": [
+            [
+              "Ev1-6",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Orca Film Festival",
+          "stages": [
+            [
+              "Ev1-3",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "For the Dreamless Mermaid",
+          "stages": [
+            [
+              "Ev1-2B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Project ORCA: Sun-Rising Stage",
+          "stages": [
+            [
+              "Ev1-6",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Living Dead Carnival",
+          "stages": [
+            [
+              "Ev1-4Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Orca Christmas Expo",
+          "stages": [
+            [
+              "Ev1-2EX",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/taylor.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/taylor.webp",
     "stats": {
@@ -10698,6 +22405,59 @@ export const loCharacters = [
     "height": "182cm",
     "weight": "0.00006kt",
     "equipRec": "GCOC",
+    "farm": {
+      "notes": [
+        "Production",
+        "Dreaming Mermaid's Island's exchange"
+      ],
+      "groups": [
+        {
+          "source": "Main Story",
+          "stages": [
+            [
+              "11-7",
+              "First Clear Reward"
+            ]
+          ]
+        },
+        {
+          "source": "For the Dreamless Mermaid",
+          "stages": [
+            [
+              "Ev1-1B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Project ORCA: Sun-Rising Stage",
+          "stages": [
+            [
+              "Ev1-2",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Corrupted Last Record",
+          "stages": [
+            [
+              "Ev4-1",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Orca Christmas Expo",
+          "stages": [
+            [
+              "Ev1-2",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/olivia.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/olivia.webp",
     "stats": {
@@ -10839,6 +22599,67 @@ export const loCharacters = [
     "height": "175cm",
     "weight": "60kg",
     "equipRec": "CCOG",
+    "farm": {
+      "notes": [
+        "Production"
+      ],
+      "groups": [
+        {
+          "source": "Main Story",
+          "stages": [
+            [
+              "13-25",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Rose that Blooms atop of Lotus",
+          "stages": [
+            [
+              "Ev2-6",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Zero Base",
+          "stages": [
+            [
+              "Ev2-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Girl Walking Through the Night",
+          "stages": [
+            [
+              "Ev1-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "AGSes of the Orca, Unite!",
+          "stages": [
+            [
+              "Ev1-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Daisenran ~Endless Storm of Violet Lightning~",
+          "stages": [
+            [
+              "Ev1-8",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/kunoichi-enrai.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/kunoichi-enrai.webp",
     "stats": {
@@ -10948,6 +22769,24 @@ export const loCharacters = [
     "height": "171cm",
     "weight": "55kg",
     "equipRec": "OGCC",
+    "farm": {
+      "notes": [
+        "Production",
+        "One-Off Package (Once)",
+        "Orca Christmas Expo's Exchange"
+      ],
+      "groups": [
+        {
+          "source": "Bride of the Orca",
+          "stages": [
+            [
+              "Ev2-3Ex",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/english-shepherd.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/english-shepherd.webp",
     "stats": {
@@ -11043,6 +22882,22 @@ export const loCharacters = [
     "height": "1.75m",
     "weight": "0.25t",
     "equipRec": "CCOG",
+    "farm": {
+      "notes": [
+        "Production"
+      ],
+      "groups": [
+        {
+          "source": "Orca Christmas Expo",
+          "stages": [
+            [
+              "Ev2-2B",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/aeda.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/aeda.webp",
     "stats": {
@@ -11147,6 +23002,124 @@ export const loCharacters = [
     "height": "103cm",
     "weight": "17kg",
     "equipRec": "CCOG",
+    "farm": {
+      "notes": [
+        "Production"
+      ],
+      "groups": [
+        {
+          "source": "Main Story",
+          "stages": [
+            [
+              "2-6",
+              "First Clear Reward"
+            ],
+            [
+              "5-8Ex",
+              ""
+            ],
+            [
+              "8-2Ex",
+              ""
+            ],
+            [
+              "11-3Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Legacy of Rioboros",
+          "stages": [
+            [
+              "Ev3-1ep",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Country within Muddy Memory",
+          "stages": [
+            [
+              "Ev2-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Water Park on which the Sun Never Sets",
+          "stages": [
+            [
+              "Ev3-1B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Blind Princess and the Land of Mist",
+          "stages": [
+            [
+              "Ev2-4B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Curtain Call After the Apocalypse",
+          "stages": [
+            [
+              "Ev2-3Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Gold Out of Space",
+          "stages": [
+            [
+              "Ev2-3B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Palace of the Reclusive Goddess",
+          "stages": [
+            [
+              "Ev1-3B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Project ORCA: Sun-Rising Stage",
+          "stages": [
+            [
+              "Ev1-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Orca Christmas Expo",
+          "stages": [
+            [
+              "Ev1-3",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Silent Swamp",
+          "stages": [
+            [
+              "Ev1-6",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/coco.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/coco.webp",
     "stats": {
@@ -11267,6 +23240,142 @@ export const loCharacters = [
     "height": "1.3m",
     "weight": "0.201t",
     "equipRec": "CCOG",
+    "farm": {
+      "notes": [
+        "Production"
+      ],
+      "groups": [
+        {
+          "source": "Main Story",
+          "stages": [
+            [
+              "3-2B",
+              ""
+            ],
+            [
+              "12-9",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Aria of the Elven Town",
+          "stages": [
+            [
+              "Ev2-3B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Bunny? Niba! Thumpy Thump Reverse Bunny Trouble!",
+          "stages": [
+            [
+              "Ev2-5Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Wolf's Fang of Fury",
+          "stages": [
+            [
+              "Ev1-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Blind Princess and the Land of Mist",
+          "stages": [
+            [
+              "Ev3-3Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Gold Out of Space",
+          "stages": [
+            [
+              "Ev1-3",
+              ""
+            ],
+            [
+              "Ev3-3Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Zero Base",
+          "stages": [
+            [
+              "Ev1-1B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Palace of the Reclusive Goddess",
+          "stages": [
+            [
+              "Ev2-7",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Project ORCA: Sun-Rising Stage",
+          "stages": [
+            [
+              "Ev2-4",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Corrupted Last Record",
+          "stages": [
+            [
+              "Ev4-8",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Orca Christmas Expo",
+          "stages": [
+            [
+              "Ev1-6",
+              ""
+            ],
+            [
+              "Ev2-3EX",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Dance of the Stars",
+          "stages": [
+            [
+              "Ev2-3Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "From Martial Arts With Love",
+          "stages": [
+            [
+              "Ev1-3Ex",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/stinger.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/stinger.webp",
     "stats": {
@@ -11370,6 +23479,133 @@ export const loCharacters = [
     "height": "174cm",
     "weight": "56kg",
     "equipRec": "CCOG",
+    "farm": {
+      "notes": [
+        "Production"
+      ],
+      "groups": [
+        {
+          "source": "Main Story",
+          "stages": [
+            [
+              "7-3Ex",
+              ""
+            ],
+            [
+              "9-1Ex",
+              ""
+            ],
+            [
+              "12-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Country within Muddy Memory",
+          "stages": [
+            [
+              "Ev2-4",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Eternal Winter's Ark",
+          "stages": [
+            [
+              "Ev1-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Mini Companions' Onslaught ~Fierceness that Invites Storm~",
+          "stages": [
+            [
+              "Ev1-6",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Orca Date Contest",
+          "stages": [
+            [
+              "Ev1-1B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Blind Princess and the Land of Mist",
+          "stages": [
+            [
+              "Ev2-2B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Orca Film Festival",
+          "stages": [
+            [
+              "Ev2-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Palace of the Reclusive Goddess",
+          "stages": [
+            [
+              "Ev1-4B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Corrupted Last Record",
+          "stages": [
+            [
+              "Ev1-7",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Orca Christmas Expo",
+          "stages": [
+            [
+              "Ev2-2EX",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Top Secret Operation: Doki-Doki Love Schedule",
+          "stages": [
+            [
+              "Ev1-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Silent Swamp",
+          "stages": [
+            [
+              "Ev1-1Ex",
+              ""
+            ],
+            [
+              "Ev1-1EXH",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/spartoia.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/spartoia.webp",
     "stats": {
@@ -11515,6 +23751,22 @@ export const loCharacters = [
     "height": "174cm",
     "weight": "60kg",
     "equipRec": "CCOG",
+    "farm": {
+      "notes": [
+        "Lemonade Epsilon can only be obtained by clearing 13-42 (once) OR buying her One-Off Package (Once)."
+      ],
+      "groups": [
+        {
+          "source": "Main Story",
+          "stages": [
+            [
+              "13-42",
+              "First Clear Reward"
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/lemonade-epsilon.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/lemonade-epsilon.webp",
     "stats": {
@@ -11619,6 +23871,100 @@ export const loCharacters = [
     "height": "176.3cm",
     "weight": "59.8(+0.4)kg",
     "equipRec": "GCOC",
+    "farm": {
+      "notes": [
+        "Production",
+        "Legacy of Rioboros's Exchange",
+        "Halloween Park Panic!'s Exchange",
+        "Adventuring at Sea Again's Exchange"
+      ],
+      "groups": [
+        {
+          "source": "Main Story",
+          "stages": [
+            [
+              "10-8",
+              "First Clear Reward"
+            ],
+            [
+              "11-6",
+              "First Clear Reward"
+            ],
+            [
+              "12-7",
+              ""
+            ],
+            [
+              "13-34",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Legacy of Rioboros",
+          "stages": [
+            [
+              "Ev2-3B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "St.Orca's Secret Operation",
+          "stages": [
+            [
+              "Ev2-6",
+              "First Clear Reward"
+            ]
+          ]
+        },
+        {
+          "source": "Invitation from Paradise",
+          "stages": [
+            [
+              "Ev3-1s",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Lightless Sanctuary",
+          "stages": [
+            [
+              "Ev1-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Bunny? Niba! Thumpy Thump Reverse Bunny Trouble!",
+          "stages": [
+            [
+              "Ev2-4Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Water Park on which the Sun Never Sets",
+          "stages": [
+            [
+              "Ev3-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Sincerely, To Your End",
+          "stages": [
+            [
+              "Ev1-1Ex",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/audrey.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/audrey.webp",
     "stats": {
@@ -11721,6 +24067,133 @@ export const loCharacters = [
     "height": "5.8m",
     "weight": "121t",
     "equipRec": "CCOG",
+    "farm": {
+      "notes": [
+        "Production"
+      ],
+      "groups": [
+        {
+          "source": "Main Story",
+          "stages": [
+            [
+              "9-6B",
+              ""
+            ],
+            [
+              "12-10B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Bunny? Niba! Thumpy Thump Reverse Bunny Trouble!",
+          "stages": [
+            [
+              "Ev2-4B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Orca Date Contest",
+          "stages": [
+            [
+              "Ev1-3Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Wolf's Fang of Fury",
+          "stages": [
+            [
+              "Ev1-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Blind Princess and the Land of Mist",
+          "stages": [
+            [
+              "Ev2-3Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Gold Out of Space",
+          "stages": [
+            [
+              "Ev1-7",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Project ORCA: Sun-Rising Stage",
+          "stages": [
+            [
+              "Ev1-2Ex",
+              ""
+            ],
+            [
+              "Ev3-1B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Corrupted Last Record",
+          "stages": [
+            [
+              "Ev3-4Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Living Dead Carnival",
+          "stages": [
+            [
+              "Ev1-1",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Orca Christmas Expo",
+          "stages": [
+            [
+              "Ev1-2",
+              ""
+            ],
+            [
+              "Ev2-1B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Dance of the Stars",
+          "stages": [
+            [
+              "Ev1-4Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Sisters of Omerta",
+          "stages": [
+            [
+              "Ev1-5",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/tommy-walker.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/tommy-walker.webp",
     "stats": {
@@ -11824,6 +24297,7 @@ export const loCharacters = [
     "height": "131cm",
     "weight": "26kg",
     "equipRec": "CCOG",
+    "farm": null,
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/dutch-girl.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/dutch-girl.webp",
     "stats": {
@@ -11934,6 +24408,153 @@ export const loCharacters = [
     "height": "157cm",
     "weight": "47kg",
     "equipRec": "GCOC",
+    "farm": {
+      "notes": [
+        "Production",
+        "Legacy of Rioboros's Exchange"
+      ],
+      "groups": [
+        {
+          "source": "Main Story",
+          "stages": [
+            [
+              "10-7",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Choco Queen in Wonderland",
+          "stages": [
+            [
+              "Ev2-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Invitation from Paradise",
+          "stages": [
+            [
+              "Ev3-1s",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Lightless Sanctuary",
+          "stages": [
+            [
+              "Ev1-6",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Rose that Blooms atop of Lotus",
+          "stages": [
+            [
+              "Ev2-6",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Wolf's Fang of Fury",
+          "stages": [
+            [
+              "Ev2-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Blind Princess and the Land of Mist",
+          "stages": [
+            [
+              "Ev2-8",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Dreaming Mermaid's Island",
+          "stages": [
+            [
+              "Ev2-6",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Gold Out of Space",
+          "stages": [
+            [
+              "Ev1-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Adventuring at Sea Again",
+          "stages": [
+            [
+              "Ev1-9",
+              ""
+            ],
+            [
+              "Ev1-1B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Project ORCA: Sun-Rising Stage",
+          "stages": [
+            [
+              "Ev1-7",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Corrupted Last Record",
+          "stages": [
+            [
+              "Ev4-4Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Orca Christmas Expo",
+          "stages": [
+            [
+              "Ev2-1",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Sisters of Omerta",
+          "stages": [
+            [
+              "Ev1-1",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Silent Swamp",
+          "stages": [
+            [
+              "Ev1-8",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/triaina.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/triaina.webp",
     "stats": {
@@ -12046,6 +24667,7 @@ export const loCharacters = [
     "height": "1.1m",
     "weight": "0.12t",
     "equipRec": "CCOG",
+    "farm": null,
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/drone.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/drone.webp",
     "stats": {
@@ -12141,6 +24763,324 @@ export const loCharacters = [
     "height": "172cm",
     "weight": "58kg",
     "equipRec": "CCOG",
+    "farm": {
+      "notes": [
+        "Production"
+      ],
+      "groups": [
+        {
+          "source": "Main Story",
+          "stages": [
+            [
+              "2-4Ex",
+              ""
+            ],
+            [
+              "3-1",
+              ""
+            ],
+            [
+              "3-1Ex",
+              ""
+            ],
+            [
+              "4-4",
+              ""
+            ],
+            [
+              "4-8",
+              ""
+            ],
+            [
+              "5-1Ex",
+              ""
+            ],
+            [
+              "9-2Ex",
+              ""
+            ],
+            [
+              "12-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Legacy of Rioboros",
+          "stages": [
+            [
+              "Ev2-2B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Choco Queen in Wonderland",
+          "stages": [
+            [
+              "Ev2-3",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Invitation from Paradise",
+          "stages": [
+            [
+              "Ev1-7",
+              ""
+            ],
+            [
+              "Ev1-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Somebody's Wish",
+          "stages": [
+            [
+              "Ev2-1",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Project ORCA Starlit Night Stage",
+          "stages": [
+            [
+              "Ev3-1",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Lightless Sanctuary",
+          "stages": [
+            [
+              "Ev1-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Rose that Blooms atop of Lotus",
+          "stages": [
+            [
+              "Ev1-5",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Orca Date Contest",
+          "stages": [
+            [
+              "Ev1-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Wolf's Fang of Fury",
+          "stages": [
+            [
+              "Ev3-4",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Water Park on which the Sun Never Sets",
+          "stages": [
+            [
+              "Ev1-3B",
+              ""
+            ],
+            [
+              "Ev3-3B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Blind Princess and the Land of Mist",
+          "stages": [
+            [
+              "Ev1-8B",
+              ""
+            ],
+            [
+              "Ev2-2Ex",
+              ""
+            ],
+            [
+              "Ev3-5",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Dreaming Mermaid's Island",
+          "stages": [
+            [
+              "Ev1-2Ex",
+              ""
+            ],
+            [
+              "Ev3-3B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Orca Film Festival",
+          "stages": [
+            [
+              "Ev1-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Sincerely, To Your End",
+          "stages": [
+            [
+              "Ev1-6",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Gold Out of Space",
+          "stages": [
+            [
+              "Ev1-1B",
+              ""
+            ],
+            [
+              "Ev3-4",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Adventuring at Sea Again",
+          "stages": [
+            [
+              "Ev1-4B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "For the Dreamless Mermaid",
+          "stages": [
+            [
+              "Ev1-2B",
+              ""
+            ],
+            [
+              "Ev2-6",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Palace of the Reclusive Goddess",
+          "stages": [
+            [
+              "Ev1-6",
+              ""
+            ],
+            [
+              "Ev2-4",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Daisenran ~Endless Storm of Violet Lightning~",
+          "stages": [
+            [
+              "Ev2-1B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Project ORCA: Sun-Rising Stage",
+          "stages": [
+            [
+              "Ev2-3",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Corrupted Last Record",
+          "stages": [
+            [
+              "Ev1-1Ex",
+              ""
+            ],
+            [
+              "Ev4-1",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Orca Christmas Expo",
+          "stages": [
+            [
+              "Ev1-5",
+              ""
+            ],
+            [
+              "Ev2-2EX",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Dance of the Stars",
+          "stages": [
+            [
+              "Ev2-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Bride of the Orca",
+          "stages": [
+            [
+              "Ev1-3Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "From Martial Arts With Love",
+          "stages": [
+            [
+              "Ev1-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Silent Swamp",
+          "stages": [
+            [
+              "Ev1-8",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/frost-serpent.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/frost-serpent.webp",
     "stats": {
@@ -12246,6 +25186,7 @@ export const loCharacters = [
     "height": "180cm",
     "weight": "72kg",
     "equipRec": "CCOG",
+    "farm": null,
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/miss-safety.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/miss-safety.webp",
     "stats": {
@@ -12349,6 +25290,357 @@ export const loCharacters = [
     "height": "153cm",
     "weight": "45kg",
     "equipRec": "CCOG",
+    "farm": {
+      "notes": [
+        "Production"
+      ],
+      "groups": [
+        {
+          "source": "Main Story",
+          "stages": [
+            [
+              "2-5",
+              ""
+            ],
+            [
+              "2-3Ex",
+              ""
+            ],
+            [
+              "3-2",
+              ""
+            ],
+            [
+              "3-8",
+              ""
+            ],
+            [
+              "3-2Ex",
+              ""
+            ],
+            [
+              "4-4",
+              ""
+            ],
+            [
+              "4-1Ex",
+              ""
+            ],
+            [
+              "5-5",
+              ""
+            ],
+            [
+              "5-1Ex",
+              ""
+            ],
+            [
+              "6-7",
+              ""
+            ],
+            [
+              "6-2Ex",
+              ""
+            ],
+            [
+              "7-2Ex",
+              ""
+            ],
+            [
+              "10-7",
+              ""
+            ],
+            [
+              "12-6",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Legacy of Rioboros",
+          "stages": [
+            [
+              "Ev2-1B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Aria of the Elven Town",
+          "stages": [
+            [
+              "Ev2-2",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Invitation from Paradise",
+          "stages": [
+            [
+              "Ev1-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Somebody's Wish",
+          "stages": [
+            [
+              "Ev1-6",
+              ""
+            ],
+            [
+              "Ev2-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Lightless Sanctuary",
+          "stages": [
+            [
+              "Ev1-8",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Rose that Blooms atop of Lotus",
+          "stages": [
+            [
+              "Ev1-4",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Mini Companions' Onslaught ~Fierceness that Invites Storm~",
+          "stages": [
+            [
+              "Ev1-6",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Wolf's Fang of Fury",
+          "stages": [
+            [
+              "Ev3-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Water Park on which the Sun Never Sets",
+          "stages": [
+            [
+              "Ev1-3B",
+              ""
+            ],
+            [
+              "Ev3-3B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Blind Princess and the Land of Mist",
+          "stages": [
+            [
+              "Ev1-8B",
+              ""
+            ],
+            [
+              "Ev2-6",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Dreaming Mermaid's Island",
+          "stages": [
+            [
+              "Ev1-6",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Orca Film Festival",
+          "stages": [
+            [
+              "Ev1-4",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Curtain Call After the Apocalypse",
+          "stages": [
+            [
+              "Ev1-3",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Sincerely, To Your End",
+          "stages": [
+            [
+              "Ev1-3Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Gold Out of Space",
+          "stages": [
+            [
+              "Ev1-2B",
+              ""
+            ],
+            [
+              "Ev3-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Adventuring at Sea Again",
+          "stages": [
+            [
+              "Ev1-9",
+              ""
+            ],
+            [
+              "Ev1-2B",
+              ""
+            ],
+            [
+              "Ev1-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "For the Dreamless Mermaid",
+          "stages": [
+            [
+              "Ev1-3B",
+              ""
+            ],
+            [
+              "Ev2-4",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Palace of the Reclusive Goddess",
+          "stages": [
+            [
+              "Ev1-5",
+              ""
+            ],
+            [
+              "Ev2-2",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Daisenran ~Endless Storm of Violet Lightning~",
+          "stages": [
+            [
+              "Ev1-7",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Project ORCA: Sun-Rising Stage",
+          "stages": [
+            [
+              "Ev2-2",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Corrupted Last Record",
+          "stages": [
+            [
+              "Ev1-8",
+              ""
+            ],
+            [
+              "Ev4-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Orca Christmas Expo",
+          "stages": [
+            [
+              "Ev1-5",
+              ""
+            ],
+            [
+              "Ev2-1EX",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Dance of the Stars",
+          "stages": [
+            [
+              "Ev2-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Bride of the Orca",
+          "stages": [
+            [
+              "Ev2-3Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "From Martial Arts With Love",
+          "stages": [
+            [
+              "Ev1-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Top Secret Operation: Doki-Doki Love Schedule",
+          "stages": [
+            [
+              "Ev1-4Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Sisters of Omerta",
+          "stages": [
+            [
+              "Ev2-4",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/cerberus.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/cerberus.webp",
     "stats": {
@@ -12469,6 +25761,7 @@ export const loCharacters = [
     "height": "2.05m",
     "weight": "0.41t",
     "equipRec": "CCOG",
+    "farm": null,
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/rampart.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/rampart.webp",
     "stats": {
@@ -12624,6 +25917,7 @@ export const loCharacters = [
     "height": "1.2m",
     "weight": "0.305t",
     "equipRec": "CCOG",
+    "farm": null,
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/pupp-head.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/pupp-head.webp",
     "stats": {
@@ -12715,6 +26009,134 @@ export const loCharacters = [
     "height": "164cm",
     "weight": "49kg",
     "equipRec": "CCOG",
+    "farm": {
+      "notes": [
+        "Production"
+      ],
+      "groups": [
+        {
+          "source": "Main Story",
+          "stages": [
+            [
+              "5-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Legacy of Rioboros",
+          "stages": [
+            [
+              "Ev3-4s",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Invitation from Paradise",
+          "stages": [
+            [
+              "Ev2-3Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Project ORCA Starlit Night Stage",
+          "stages": [
+            [
+              "Ev1-1B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Orca Date Contest",
+          "stages": [
+            [
+              "Ev1-5Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Water Park on which the Sun Never Sets",
+          "stages": [
+            [
+              "Ev1-3B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Blind Princess and the Land of Mist",
+          "stages": [
+            [
+              "Ev3-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Dreaming Mermaid's Island",
+          "stages": [
+            [
+              "Ev1-2B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "For the Dreamless Mermaid",
+          "stages": [
+            [
+              "Ev1-7",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Project ORCA: Sun-Rising Stage",
+          "stages": [
+            [
+              "Ev2-4",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Corrupted Last Record",
+          "stages": [
+            [
+              "Ev4-3Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Orca Christmas Expo",
+          "stages": [
+            [
+              "Ev2-5",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Sisters of Omerta",
+          "stages": [
+            [
+              "Ev2-1Ex",
+              ""
+            ],
+            [
+              "Ev2-1EXH",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/express.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/express.webp",
     "stats": {
@@ -12860,6 +26282,305 @@ export const loCharacters = [
     "height": "172cm",
     "weight": "65kg",
     "equipRec": "CCOG",
+    "farm": {
+      "notes": [
+        "Production"
+      ],
+      "groups": [
+        {
+          "source": "Main Story",
+          "stages": [
+            [
+              "7-2Ex",
+              ""
+            ],
+            [
+              "8-2Ex",
+              ""
+            ],
+            [
+              "9-7",
+              ""
+            ],
+            [
+              "12-5",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Legacy of Rioboros",
+          "stages": [
+            [
+              "Ev2-4B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "St.Orca's Secret Operation",
+          "stages": [
+            [
+              "Ev2-1ep",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Aria of the Elven Town",
+          "stages": [
+            [
+              "Ev3-2s",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Somebody's Wish",
+          "stages": [
+            [
+              "Ev2-4",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Lightless Sanctuary",
+          "stages": [
+            [
+              "Ev3-2s",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Rose that Blooms atop of Lotus",
+          "stages": [
+            [
+              "Ev2-4",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Bunny? Niba! Thumpy Thump Reverse Bunny Trouble!",
+          "stages": [
+            [
+              "Ev2-4B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Orca Date Contest",
+          "stages": [
+            [
+              "Ev1-3Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Wolf's Fang of Fury",
+          "stages": [
+            [
+              "Ev1-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Water Park on which the Sun Never Sets",
+          "stages": [
+            [
+              "Ev2-4B",
+              ""
+            ],
+            [
+              "Ev3-4B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Blind Princess and the Land of Mist",
+          "stages": [
+            [
+              "Ev2-2B",
+              ""
+            ],
+            [
+              "Ev3-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Dreaming Mermaid's Island",
+          "stages": [
+            [
+              "Ev3-2B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Curtain Call After the Apocalypse",
+          "stages": [
+            [
+              "Ev1-3Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Sincerely, To Your End",
+          "stages": [
+            [
+              "Ev1-3Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Gold Out of Space",
+          "stages": [
+            [
+              "Ev2-7",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Adventuring at Sea Again",
+          "stages": [
+            [
+              "Ev1-8",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "For the Dreamless Mermaid",
+          "stages": [
+            [
+              "Ev2-1B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Girl Walking Through the Night",
+          "stages": [
+            [
+              "Ev1-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "AGSes of the Orca, Unite!",
+          "stages": [
+            [
+              "Ev1-3Ex",
+              ""
+            ],
+            [
+              "Ev1-5Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Palace of the Reclusive Goddess",
+          "stages": [
+            [
+              "Ev1-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Daisenran ~Endless Storm of Violet Lightning~",
+          "stages": [
+            [
+              "Ev1-4B",
+              ""
+            ],
+            [
+              "Ev2-4B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Project ORCA: Sun-Rising Stage",
+          "stages": [
+            [
+              "Ev1-3Ex",
+              ""
+            ],
+            [
+              "Ev3-2B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Corrupted Last Record",
+          "stages": [
+            [
+              "Ev3-4Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Living Dead Carnival",
+          "stages": [
+            [
+              "Ev1-2",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Orca Christmas Expo",
+          "stages": [
+            [
+              "Ev1-2",
+              ""
+            ],
+            [
+              "Ev2-2B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Dance of the Stars",
+          "stages": [
+            [
+              "Ev1-4Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Sisters of Omerta",
+          "stages": [
+            [
+              "Ev2-2Ex",
+              ""
+            ],
+            [
+              "Ev2-2EXH",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/fortune.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/fortune.webp",
     "stats": {
@@ -12948,6 +26669,7 @@ export const loCharacters = [
     "height": "122cm",
     "weight": "24kg",
     "equipRec": "GCOC",
+    "farm": null,
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/lrl.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/lrl.webp",
     "stats": {
@@ -13079,6 +26801,290 @@ export const loCharacters = [
     "height": "165cm",
     "weight": "58kg",
     "equipRec": "CCOG",
+    "farm": {
+      "notes": [
+        "Production"
+      ],
+      "groups": [
+        {
+          "source": "Main Story",
+          "stages": [
+            [
+              "2-4Ex",
+              ""
+            ],
+            [
+              "3-5",
+              ""
+            ],
+            [
+              "3-4Ex",
+              ""
+            ],
+            [
+              "4-7",
+              ""
+            ],
+            [
+              "5-2Ex",
+              ""
+            ],
+            [
+              "9-4Ex",
+              ""
+            ],
+            [
+              "12-3Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Aria of the Elven Town",
+          "stages": [
+            [
+              "Ev2-6",
+              ""
+            ],
+            [
+              "Ev3-1s",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Somebody's Wish",
+          "stages": [
+            [
+              "Ev2-2",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Lightless Sanctuary",
+          "stages": [
+            [
+              "Ev2-6",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Rose that Blooms atop of Lotus",
+          "stages": [
+            [
+              "Ev2-3",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Bunny? Niba! Thumpy Thump Reverse Bunny Trouble!",
+          "stages": [
+            [
+              "Ev2-6Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Orca Date Contest",
+          "stages": [
+            [
+              "Ev1-5Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Wolf's Fang of Fury",
+          "stages": [
+            [
+              "Ev3-3",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Water Park on which the Sun Never Sets",
+          "stages": [
+            [
+              "Ev1-5B",
+              ""
+            ],
+            [
+              "Ev3-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Blind Princess and the Land of Mist",
+          "stages": [
+            [
+              "Ev2-3",
+              ""
+            ],
+            [
+              "Ev3-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Dreaming Mermaid's Island",
+          "stages": [
+            [
+              "Ev1-8",
+              ""
+            ],
+            [
+              "Ev2-4B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Curtain Call After the Apocalypse",
+          "stages": [
+            [
+              "Ev1-3Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Gold Out of Space",
+          "stages": [
+            [
+              "Ev2-2Ex",
+              ""
+            ],
+            [
+              "Ev3-4B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Adventuring at Sea Again",
+          "stages": [
+            [
+              "Ev1-6",
+              ""
+            ],
+            [
+              "Ev1-4B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "For the Dreamless Mermaid",
+          "stages": [
+            [
+              "Ev2-5",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Palace of the Reclusive Goddess",
+          "stages": [
+            [
+              "Ev1-3Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Daisenran ~Endless Storm of Violet Lightning~",
+          "stages": [
+            [
+              "Ev2-8",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Project ORCA: Sun-Rising Stage",
+          "stages": [
+            [
+              "Ev1-2Ex",
+              ""
+            ],
+            [
+              "Ev3-3B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Corrupted Last Record",
+          "stages": [
+            [
+              "Ev3-3Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Living Dead Carnival",
+          "stages": [
+            [
+              "Ev1-3Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Orca Christmas Expo",
+          "stages": [
+            [
+              "Ev2-1B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Bride of the Orca",
+          "stages": [
+            [
+              "Ev1-4Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Top Secret Operation: Doki-Doki Love Schedule",
+          "stages": [
+            [
+              "Ev1-3Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Sisters of Omerta",
+          "stages": [
+            [
+              "Ev1-6",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Silent Swamp",
+          "stages": [
+            [
+              "Ev1-2",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/mighty-r.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/mighty-r.webp",
     "stats": {
@@ -13231,6 +27237,7 @@ export const loCharacters = [
     "height": "162cm",
     "weight": "55kg",
     "equipRec": "CCOG",
+    "farm": null,
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/tiequan.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/tiequan.webp",
     "stats": {
@@ -13343,6 +27350,7 @@ export const loCharacters = [
     "height": "164cm",
     "weight": "53kg",
     "equipRec": "CGCO",
+    "farm": null,
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/johanna.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/johanna.webp",
     "stats": {
@@ -13446,6 +27454,273 @@ export const loCharacters = [
     "height": "174cm",
     "weight": "80kg",
     "equipRec": "CCOG",
+    "farm": {
+      "notes": [
+        "Production"
+      ],
+      "groups": [
+        {
+          "source": "Main Story",
+          "stages": [
+            [
+              "8-1Ex",
+              ""
+            ],
+            [
+              "9-1",
+              ""
+            ],
+            [
+              "12-17",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "St.Orca's Secret Operation",
+          "stages": [
+            [
+              "Ev2-3",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Aria of the Elven Town",
+          "stages": [
+            [
+              "Ev3-3s",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Somebody's Wish",
+          "stages": [
+            [
+              "Ev2-2",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Lightless Sanctuary",
+          "stages": [
+            [
+              "Ev2-4",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Rose that Blooms atop of Lotus",
+          "stages": [
+            [
+              "Ev2-6",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Orca Date Contest",
+          "stages": [
+            [
+              "Ev1-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Wolf's Fang of Fury",
+          "stages": [
+            [
+              "Ev3-3",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Water Park on which the Sun Never Sets",
+          "stages": [
+            [
+              "Ev1-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Blind Princess and the Land of Mist",
+          "stages": [
+            [
+              "Ev1-5",
+              ""
+            ],
+            [
+              "Ev2-2B",
+              ""
+            ],
+            [
+              "Ev2-1Ex",
+              ""
+            ],
+            [
+              "Ev3-6",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Dreaming Mermaid's Island",
+          "stages": [
+            [
+              "Ev1-1Ex",
+              ""
+            ],
+            [
+              "Ev2-1B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Orca Film Festival",
+          "stages": [
+            [
+              "Ev1-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Curtain Call After the Apocalypse",
+          "stages": [
+            [
+              "Ev1-4",
+              ""
+            ],
+            [
+              "Ev2-3Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Gold Out of Space",
+          "stages": [
+            [
+              "Ev2-1B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "For the Dreamless Mermaid",
+          "stages": [
+            [
+              "Ev1-3",
+              ""
+            ],
+            [
+              "Ev2-2B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Palace of the Reclusive Goddess",
+          "stages": [
+            [
+              "Ev1-7",
+              ""
+            ],
+            [
+              "Ev2-6",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Daisenran ~Endless Storm of Violet Lightning~",
+          "stages": [
+            [
+              "Ev2-5",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Project ORCA: Sun-Rising Stage",
+          "stages": [
+            [
+              "Ev2-4",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Corrupted Last Record",
+          "stages": [
+            [
+              "Ev1-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Orca Christmas Expo",
+          "stages": [
+            [
+              "Ev1-6",
+              ""
+            ],
+            [
+              "Ev2-3EX",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Dance of the Stars",
+          "stages": [
+            [
+              "Ev2-3Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Bride of the Orca",
+          "stages": [
+            [
+              "Ev2-4Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Top Secret Operation: Doki-Doki Love Schedule",
+          "stages": [
+            [
+              "Ev1-3Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Silent Swamp",
+          "stages": [
+            [
+              "Ev1-4Ex",
+              ""
+            ],
+            [
+              "Ev1-4EXH",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/scathy.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/scathy.webp",
     "stats": {
@@ -13558,6 +27833,175 @@ export const loCharacters = [
     "height": "143.7cm",
     "weight": "35kg",
     "equipRec": "CGOC",
+    "farm": {
+      "notes": [
+        "Production",
+        "Somebody's Wish's Exchange"
+      ],
+      "groups": [
+        {
+          "source": "Main Story",
+          "stages": [
+            [
+              "6-8",
+              ""
+            ],
+            [
+              "13-34",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Legacy of Rioboros",
+          "stages": [
+            [
+              "Ev2-2B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "St.Orca's Secret Operation",
+          "stages": [
+            [
+              "Ev2-8",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Choco Queen in Wonderland",
+          "stages": [
+            [
+              "Ev2-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Aria of the Elven Town",
+          "stages": [
+            [
+              "Ev2-7",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Project ORCA Starlit Night Stage",
+          "stages": [
+            [
+              "Ev1-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Bunny? Niba! Thumpy Thump Reverse Bunny Trouble!",
+          "stages": [
+            [
+              "Ev2-4B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Orca Date Contest",
+          "stages": [
+            [
+              "Ev1-3Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Wolf's Fang of Fury",
+          "stages": [
+            [
+              "Ev3-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Blind Princess and the Land of Mist",
+          "stages": [
+            [
+              "Ev2-3",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Sincerely, To Your End",
+          "stages": [
+            [
+              "Ev1-5",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Adventuring at Sea Again",
+          "stages": [
+            [
+              "Ev1-7",
+              ""
+            ],
+            [
+              "Ev1-4B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Girl Walking Through the Night",
+          "stages": [
+            [
+              "Ev1-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Daisenran ~Endless Storm of Violet Lightning~",
+          "stages": [
+            [
+              "Ev1-3",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Corrupted Last Record",
+          "stages": [
+            [
+              "Ev3-2",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Dance of the Stars",
+          "stages": [
+            [
+              "Ev1-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Silent Swamp",
+          "stages": [
+            [
+              "Ev1-2",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/momo.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/momo.webp",
     "stats": {
@@ -13675,6 +28119,152 @@ export const loCharacters = [
     "height": "166.4cm",
     "weight": "55.1kg",
     "equipRec": "CGCO",
+    "farm": {
+      "notes": [
+        "Production"
+      ],
+      "groups": [
+        {
+          "source": "Main Story",
+          "stages": [
+            [
+              "6-4",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Aria of the Elven Town",
+          "stages": [
+            [
+              "Ev2-2Ex",
+              "First Clear Reward"
+            ]
+          ]
+        },
+        {
+          "source": "Somebody's Wish",
+          "stages": [
+            [
+              "Ev2-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Lightless Sanctuary",
+          "stages": [
+            [
+              "Ev2-6",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Bunny? Niba! Thumpy Thump Reverse Bunny Trouble!",
+          "stages": [
+            [
+              "Ev2-4B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Orca Date Contest",
+          "stages": [
+            [
+              "Ev1-4Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Wolf's Fang of Fury",
+          "stages": [
+            [
+              "Ev1-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Blind Princess and the Land of Mist",
+          "stages": [
+            [
+              "Ev2-8",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Gold Out of Space",
+          "stages": [
+            [
+              "Ev1-7",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Adventuring at Sea Again",
+          "stages": [
+            [
+              "Ev1-3B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Daisenran ~Endless Storm of Violet Lightning~",
+          "stages": [
+            [
+              "Ev1-3B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Corrupted Last Record",
+          "stages": [
+            [
+              "Ev3-1",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Dance of the Stars",
+          "stages": [
+            [
+              "Ev1-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Bride of the Orca",
+          "stages": [
+            [
+              "Ev1-4Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Sisters of Omerta",
+          "stages": [
+            [
+              "Ev2-2Ex",
+              ""
+            ],
+            [
+              "Ev2-2EXH",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/atalanta.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/atalanta.webp",
     "stats": {
@@ -13778,6 +28368,97 @@ export const loCharacters = [
     "height": "162cm",
     "weight": "51kg",
     "equipRec": "CGOC",
+    "farm": {
+      "notes": [
+        "Production",
+        "Legacy of Rioboros's Exchange",
+        "Halloween Park Panic!'s Exchange",
+        "St.Orca's Secret Operation's Exchange",
+        "Choco Queen in Wonderland's Exchange",
+        "Bunny? Niba! Thumpy Thump Reverse Bunny Trouble!'s Exchange",
+        "Wolf's Fang of Fury's Exchange",
+        "The Blind Princess and the Land of Mist's Exchange",
+        "Adventuring at Sea Again's Exchange"
+      ],
+      "groups": [
+        {
+          "source": "Main Story",
+          "stages": [
+            [
+              "12-9B",
+              ""
+            ],
+            [
+              "13-22",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Legacy of Rioboros",
+          "stages": [
+            [
+              "Ev2-4B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Aria of the Elven Town",
+          "stages": [
+            [
+              "Ev2-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Invitation from Paradise",
+          "stages": [
+            [
+              "Ev2-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Water Park on which the Sun Never Sets",
+          "stages": [
+            [
+              "Ev3-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Gold Out of Space",
+          "stages": [
+            [
+              "Ev1-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Palace of the Reclusive Goddess",
+          "stages": [
+            [
+              "Ev2-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Project ORCA: Sun-Rising Stage",
+          "stages": [
+            [
+              "Ev1-1Ex",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/charlotte.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/charlotte.webp",
     "stats": {
@@ -13894,6 +28575,63 @@ export const loCharacters = [
     "height": "171cm",
     "weight": "42kg",
     "equipRec": "CGOC",
+    "farm": {
+      "notes": [
+        "Production",
+        "Full Moon Nocturne's Exchange",
+        "Halloween Park Panic!'s Exchange",
+        "Choco Queen in Wonderland's Exchange",
+        "Aria of the Elven Town's Exchange",
+        "Somebody's Wish's Exchange",
+        "The Water Park on which the Sun Never Sets' Exchange"
+      ],
+      "groups": [
+        {
+          "source": "Main Story",
+          "stages": [
+            [
+              "8-2Ex",
+              ""
+            ],
+            [
+              "13-23",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Invitation from Paradise",
+          "stages": [
+            [
+              "Ev1-3Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Lightless Sanctuary",
+          "stages": [
+            [
+              "Ev1-8",
+              ""
+            ],
+            [
+              "Ev1-8",
+              "First Clear Reward"
+            ]
+          ]
+        },
+        {
+          "source": "Living Dead Carnival",
+          "stages": [
+            [
+              "Ev1-3Ex",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/azazel.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/azazel.webp",
     "stats": {
@@ -14013,6 +28751,131 @@ export const loCharacters = [
     "height": "153cm",
     "weight": "41kg",
     "equipRec": "CGOC",
+    "farm": {
+      "notes": [
+        "Full Moon Nocturne's Exchange",
+        "Production"
+      ],
+      "groups": [
+        {
+          "source": "Main Story",
+          "stages": [
+            [
+              "9-3Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Invitation from Paradise",
+          "stages": [
+            [
+              "Ev2-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Bunny? Niba! Thumpy Thump Reverse Bunny Trouble!",
+          "stages": [
+            [
+              "Ev2-4B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Orca Date Contest",
+          "stages": [
+            [
+              "Ev1-3Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Wolf's Fang of Fury",
+          "stages": [
+            [
+              "Ev3-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Blind Princess and the Land of Mist",
+          "stages": [
+            [
+              "Ev2-3",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "For the Dreamless Mermaid",
+          "stages": [
+            [
+              "Ev2-3B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Girl Walking Through the Night",
+          "stages": [
+            [
+              "Ev1-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Daisenran ~Endless Storm of Violet Lightning~",
+          "stages": [
+            [
+              "Ev1-7",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Corrupted Last Record",
+          "stages": [
+            [
+              "Ev3-7",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Dance of the Stars",
+          "stages": [
+            [
+              "Ev1-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Bride of the Orca",
+          "stages": [
+            [
+              "Ev2-4Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Silent Swamp",
+          "stages": [
+            [
+              "Ev1-5",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/baekto.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/baekto.webp",
     "stats": {
@@ -14132,6 +28995,77 @@ export const loCharacters = [
     "height": "2.1m",
     "weight": "1.25t",
     "equipRec": "GCCO",
+    "farm": {
+      "notes": [
+        "Production",
+        "Bunny? Niba! Thumpy Thump Reverse Bunny Trouble!'s Exchange"
+      ],
+      "groups": [
+        {
+          "source": "Main Story",
+          "stages": [
+            [
+              "9-7B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Wolf's Fang of Fury",
+          "stages": [
+            [
+              "Ev3-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Blind Princess and the Land of Mist",
+          "stages": [
+            [
+              "Ev2-3Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Sincerely, To Your End",
+          "stages": [
+            [
+              "Ev1-6",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Palace of the Reclusive Goddess",
+          "stages": [
+            [
+              "Ev1-3",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Corrupted Last Record",
+          "stages": [
+            [
+              "Ev1-7",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Orca Christmas Expo",
+          "stages": [
+            [
+              "Ev1-3",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/goltarion.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/goltarion.webp",
     "stats": {
@@ -14238,6 +29172,93 @@ export const loCharacters = [
     "height": "156cm",
     "weight": "43kg",
     "equipRec": "CGOC",
+    "farm": {
+      "notes": [
+        "Production",
+        "St.Orca's Secret Operation's Exchange",
+        "Choco Queen in Wonderland's Exchange",
+        "Invitation from Paradise's Exchange",
+        "Wolf's Fang of Fury's Exchange"
+      ],
+      "groups": [
+        {
+          "source": "Main Story",
+          "stages": [
+            [
+              "9-7",
+              ""
+            ],
+            [
+              "13-35",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Aria of the Elven Town",
+          "stages": [
+            [
+              "Ev2-8",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Country within Muddy Memory",
+          "stages": [
+            [
+              "Ev2-6",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Bunny? Niba! Thumpy Thump Reverse Bunny Trouble!",
+          "stages": [
+            [
+              "Ev2-6Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Orca Date Contest",
+          "stages": [
+            [
+              "Ev1-1B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Sincerely, To Your End",
+          "stages": [
+            [
+              "Ev1-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Gold Out of Space",
+          "stages": [
+            [
+              "Ev1-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Adventuring at Sea Again",
+          "stages": [
+            [
+              "Ev1-3Ex",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/armand.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/armand.webp",
     "stats": {
@@ -14351,6 +29372,61 @@ export const loCharacters = [
     "height": "165~168cm",
     "weight": "??kg",
     "equipRec": "OCGC",
+    "farm": {
+      "notes": [
+        "Production",
+        "Bunny? Niba! Thumpy Thump Reverse Bunny Trouble!'s Exhange",
+        "Orca Date Contest's Exchange",
+        "AGSes of the Orca, Unite!'s Exhange"
+      ],
+      "groups": [
+        {
+          "source": "Main Story",
+          "stages": [
+            [
+              "12-3Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Blind Princess and the Land of Mist",
+          "stages": [
+            [
+              "Ev2-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Dreaming Mermaid's Island",
+          "stages": [
+            [
+              "Ev3-4B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Palace of the Reclusive Goddess",
+          "stages": [
+            [
+              "Ev2-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Top Secret Operation: Doki-Doki Love Schedule",
+          "stages": [
+            [
+              "Ev1-3Ex",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/niba.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/niba.webp",
     "stats": {
@@ -14456,6 +29532,134 @@ export const loCharacters = [
     "height": "158cm",
     "weight": "63kg",
     "equipRec": "GOCC",
+    "farm": {
+      "notes": [
+        "Production"
+      ],
+      "groups": [
+        {
+          "source": "Main Story",
+          "stages": [
+            [
+              "6-8",
+              ""
+            ],
+            [
+              "6-4Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "St.Orca's Secret Operation",
+          "stages": [
+            [
+              "Ev2-2ep",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Invitation from Paradise",
+          "stages": [
+            [
+              "Ev1-3Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Bunny? Niba! Thumpy Thump Reverse Bunny Trouble!",
+          "stages": [
+            [
+              "Ev2-5B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Wolf's Fang of Fury",
+          "stages": [
+            [
+              "Ev1-2",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Blind Princess and the Land of Mist",
+          "stages": [
+            [
+              "Ev1-3Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Dreaming Mermaid's Island",
+          "stages": [
+            [
+              "Ev1-4B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Curtain Call After the Apocalypse",
+          "stages": [
+            [
+              "Ev1-3Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Gold Out of Space",
+          "stages": [
+            [
+              "Ev2-3Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Palace of the Reclusive Goddess",
+          "stages": [
+            [
+              "Ev1-4",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Corrupted Last Record",
+          "stages": [
+            [
+              "Ev1-8",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Dance of the Stars",
+          "stages": [
+            [
+              "Ev2-4Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Top Secret Operation: Doki-Doki Love Schedule",
+          "stages": [
+            [
+              "Ev1-4Ex",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/carolina.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/carolina.webp",
     "stats": {
@@ -14561,6 +29765,170 @@ export const loCharacters = [
     "height": "148cm",
     "weight": "39kg",
     "equipRec": "OCCG",
+    "farm": {
+      "notes": [
+        "Production"
+      ],
+      "groups": [
+        {
+          "source": "Main Story",
+          "stages": [
+            [
+              "8-6",
+              ""
+            ],
+            [
+              "12-3",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Legacy of Rioboros",
+          "stages": [
+            [
+              "Ev2-3B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "St.Orca's Secret Operation",
+          "stages": [
+            [
+              "Ev2-4B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Choco Queen in Wonderland",
+          "stages": [
+            [
+              "Ev2-4",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Somebody's Wish",
+          "stages": [
+            [
+              "Ev2-5",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Lightless Sanctuary",
+          "stages": [
+            [
+              "Ev1-7",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Orca Date Contest",
+          "stages": [
+            [
+              "Ev1-6Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Wolf's Fang of Fury",
+          "stages": [
+            [
+              "Ev1-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Water Park on which the Sun Never Sets",
+          "stages": [
+            [
+              "Ev2-2B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Blind Princess and the Land of Mist",
+          "stages": [
+            [
+              "Ev2-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Orca Film Festival",
+          "stages": [
+            [
+              "Ev2-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Gold Out of Space",
+          "stages": [
+            [
+              "Ev2-2B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Zero Base",
+          "stages": [
+            [
+              "Ev2-5",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Palace of the Reclusive Goddess",
+          "stages": [
+            [
+              "Ev2-3",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Project ORCA: Sun-Rising Stage",
+          "stages": [
+            [
+              "Ev3-4B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Corrupted Last Record",
+          "stages": [
+            [
+              "Ev4-8",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Dance of the Stars",
+          "stages": [
+            [
+              "Ev2-2Ex",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/yumi.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/yumi.webp",
     "stats": {
@@ -14656,6 +30024,309 @@ export const loCharacters = [
     "height": "152cm",
     "weight": "50kg",
     "equipRec": "OCCG",
+    "farm": {
+      "notes": [
+        "Production",
+        "Orca Restoration's Exchange"
+      ],
+      "groups": [
+        {
+          "source": "Main Story",
+          "stages": [
+            [
+              "7-4Ex",
+              ""
+            ],
+            [
+              "8-2",
+              ""
+            ],
+            [
+              "9-7",
+              ""
+            ],
+            [
+              "11-3Ex",
+              ""
+            ],
+            [
+              "13-27",
+              ""
+            ],
+            [
+              "13-36",
+              ""
+            ],
+            [
+              "13-38",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Legacy of Rioboros",
+          "stages": [
+            [
+              "Ev2-2B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "St.Orca's Secret Operation",
+          "stages": [
+            [
+              "Ev2-6",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Choco Queen in Wonderland",
+          "stages": [
+            [
+              "Ev2-1",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Invitation from Paradise",
+          "stages": [
+            [
+              "Ev1-5",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Lightless Sanctuary",
+          "stages": [
+            [
+              "Ev1-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Eternal Winter's Ark",
+          "stages": [
+            [
+              "Ev1-3",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Bunny? Niba! Thumpy Thump Reverse Bunny Trouble!",
+          "stages": [
+            [
+              "Ev2-5B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Mini Companions' Onslaught ~Fierceness that Invites Storm~",
+          "stages": [
+            [
+              "Ev1-4",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Wolf's Fang of Fury",
+          "stages": [
+            [
+              "Ev3-1",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Water Park on which the Sun Never Sets",
+          "stages": [
+            [
+              "Ev2-4B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Blind Princess and the Land of Mist",
+          "stages": [
+            [
+              "Ev1-3",
+              ""
+            ],
+            [
+              "Ev3-7B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Dreaming Mermaid's Island",
+          "stages": [
+            [
+              "Ev2-5",
+              ""
+            ],
+            [
+              "Ev3-4B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Orca Film Festival",
+          "stages": [
+            [
+              "Ev2-4",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Curtain Call After the Apocalypse",
+          "stages": [
+            [
+              "Ev2-6",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Gold Out of Space",
+          "stages": [
+            [
+              "Ev1-3",
+              ""
+            ],
+            [
+              "Ev3-2B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Zero Base",
+          "stages": [
+            [
+              "Ev2-1",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "For the Dreamless Mermaid",
+          "stages": [
+            [
+              "Ev1-7",
+              ""
+            ],
+            [
+              "Ev2-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Girl Walking Through the Night",
+          "stages": [
+            [
+              "Ev1-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "AGSes of the Orca, Unite!",
+          "stages": [
+            [
+              "Ev1-4Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Palace of the Reclusive Goddess",
+          "stages": [
+            [
+              "Ev1-1B",
+              ""
+            ],
+            [
+              "Ev2-2B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Project ORCA: Sun-Rising Stage",
+          "stages": [
+            [
+              "Ev2-6",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Corrupted Last Record",
+          "stages": [
+            [
+              "Ev2-1Ex",
+              ""
+            ],
+            [
+              "Ev4-3Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Orca Christmas Expo",
+          "stages": [
+            [
+              "Ev1-2EX",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Bride of the Orca",
+          "stages": [
+            [
+              "Ev1-3Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Top Secret Operation: Doki-Doki Love Schedule",
+          "stages": [
+            [
+              "Ev1-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Sisters of Omerta",
+          "stages": [
+            [
+              "Ev1-1",
+              ""
+            ],
+            [
+              "Ev2-3",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/elven-forest-maker.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/elven-forest-maker.webp",
     "stats": {
@@ -14780,6 +30451,178 @@ export const loCharacters = [
     "height": "168cm",
     "weight": "65kg",
     "equipRec": "GCOC",
+    "farm": {
+      "notes": [
+        "Production"
+      ],
+      "groups": [
+        {
+          "source": "Main Story",
+          "stages": [
+            [
+              "7-1Ex",
+              ""
+            ],
+            [
+              "11-1Ex",
+              ""
+            ],
+            [
+              "12-10",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Legacy of Rioboros",
+          "stages": [
+            [
+              "Ev2-5B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "St.Orca's Secret Operation",
+          "stages": [
+            [
+              "Ev2-6",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Aria of the Elven Town",
+          "stages": [
+            [
+              "Ev2-6",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Invitation from Paradise",
+          "stages": [
+            [
+              "Ev1-6",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Project ORCA Starlit Night Stage",
+          "stages": [
+            [
+              "Ev2-6",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Lightless Sanctuary",
+          "stages": [
+            [
+              "Ev2-7",
+              "First Clear Reward"
+            ]
+          ]
+        },
+        {
+          "source": "Eternal Winter's Ark",
+          "stages": [
+            [
+              "Ev1-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Mini Companions' Onslaught ~Fierceness that Invites Storm~",
+          "stages": [
+            [
+              "Ev1-7",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Blind Princess and the Land of Mist",
+          "stages": [
+            [
+              "Ev2-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Orca Film Festival",
+          "stages": [
+            [
+              "Ev2-6",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "For the Dreamless Mermaid",
+          "stages": [
+            [
+              "Ev2-1",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Girl Walking Through the Night",
+          "stages": [
+            [
+              "Ev1-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "AGSes of the Orca, Unite!",
+          "stages": [
+            [
+              "Ev1-5Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Corrupted Last Record",
+          "stages": [
+            [
+              "Ev2-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Orca Christmas Expo",
+          "stages": [
+            [
+              "Ev2-4EX",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Sisters of Omerta",
+          "stages": [
+            [
+              "Ev1-4Ex",
+              ""
+            ],
+            [
+              "Ev1-4EXH",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/ignis.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/ignis.webp",
     "stats": {
@@ -14890,6 +30733,260 @@ export const loCharacters = [
     "height": "149cm",
     "weight": "54kg",
     "equipRec": "OCCG",
+    "farm": {
+      "notes": [
+        "Production",
+        "Orca Restoration's Exchange"
+      ],
+      "groups": [
+        {
+          "source": "Main Story",
+          "stages": [
+            [
+              "7-4Ex",
+              ""
+            ],
+            [
+              "8-4",
+              ""
+            ],
+            [
+              "9-6",
+              ""
+            ],
+            [
+              "12-15",
+              ""
+            ],
+            [
+              "13-27",
+              ""
+            ],
+            [
+              "13-36",
+              ""
+            ],
+            [
+              "13-38",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Choco Queen in Wonderland",
+          "stages": [
+            [
+              "Ev2-2",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Lightless Sanctuary",
+          "stages": [
+            [
+              "Ev1-7",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Eternal Winter's Ark",
+          "stages": [
+            [
+              "Ev1-3",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Bunny? Niba! Thumpy Thump Reverse Bunny Trouble!",
+          "stages": [
+            [
+              "Ev2-5B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Mini Companions' Onslaught ~Fierceness that Invites Storm~",
+          "stages": [
+            [
+              "Ev1-4",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Wolf's Fang of Fury",
+          "stages": [
+            [
+              "Ev3-1",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Water Park on which the Sun Never Sets",
+          "stages": [
+            [
+              "Ev2-5B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Blind Princess and the Land of Mist",
+          "stages": [
+            [
+              "Ev1-3",
+              ""
+            ],
+            [
+              "Ev3-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Dreaming Mermaid's Island",
+          "stages": [
+            [
+              "Ev2-3",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Orca Film Festival",
+          "stages": [
+            [
+              "Ev1-5",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Gold Out of Space",
+          "stages": [
+            [
+              "Ev2-6",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Adventuring at Sea Again",
+          "stages": [
+            [
+              "Ev1-8",
+              ""
+            ],
+            [
+              "Ev1-2B",
+              ""
+            ],
+            [
+              "Ev1-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "For the Dreamless Mermaid",
+          "stages": [
+            [
+              "Ev1-4",
+              ""
+            ],
+            [
+              "Ev2-5",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Palace of the Reclusive Goddess",
+          "stages": [
+            [
+              "Ev1-3B",
+              ""
+            ],
+            [
+              "Ev2-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Project ORCA: Sun-Rising Stage",
+          "stages": [
+            [
+              "Ev1-3",
+              ""
+            ],
+            [
+              "Ev2-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Corrupted Last Record",
+          "stages": [
+            [
+              "Ev2-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Living Dead Carnival",
+          "stages": [
+            [
+              "Ev1-4",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Orca Christmas Expo",
+          "stages": [
+            [
+              "Ev1-4EX",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Bride of the Orca",
+          "stages": [
+            [
+              "Ev2-3Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Top Secret Operation: Doki-Doki Love Schedule",
+          "stages": [
+            [
+              "Ev1-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Sisters of Omerta",
+          "stages": [
+            [
+              "Ev2-4",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/dark-elven-forest-ranger.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/dark-elven-forest-ranger.webp",
     "stats": {
@@ -15014,6 +31111,149 @@ export const loCharacters = [
     "height": "179cm",
     "weight": "56kg",
     "equipRec": "GCCO",
+    "farm": {
+      "notes": [
+        "Production",
+        "Halloween Park Panic!'s Exchange",
+        "Orca Restoration's Exchange"
+      ],
+      "groups": [
+        {
+          "source": "Main Story",
+          "stages": [
+            [
+              "7-8Ex",
+              ""
+            ],
+            [
+              "8-8",
+              ""
+            ],
+            [
+              "12-3Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Aria of the Elven Town",
+          "stages": [
+            [
+              "Ev2-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Somebody's Wish",
+          "stages": [
+            [
+              "Ev2-3",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Project ORCA Starlit Night Stage",
+          "stages": [
+            [
+              "Ev1-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Bunny? Niba! Thumpy Thump Reverse Bunny Trouble!",
+          "stages": [
+            [
+              "Ev2-4B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Orca Date Contest",
+          "stages": [
+            [
+              "Ev1-3Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Wolf's Fang of Fury",
+          "stages": [
+            [
+              "Ev1-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Blind Princess and the Land of Mist",
+          "stages": [
+            [
+              "Ev1-5",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Curtain Call After the Apocalypse",
+          "stages": [
+            [
+              "Ev1-4",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Zero Base",
+          "stages": [
+            [
+              "Ev2-7",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Palace of the Reclusive Goddess",
+          "stages": [
+            [
+              "Ev2-3B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Corrupted Last Record",
+          "stages": [
+            [
+              "Ev1-4Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Living Dead Carnival",
+          "stages": [
+            [
+              "Ev1-8",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Dance of the Stars",
+          "stages": [
+            [
+              "Ev2-7",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/circe.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/circe.webp",
     "stats": {
@@ -15131,6 +31371,156 @@ export const loCharacters = [
     "height": "180cm",
     "weight": "75kg",
     "equipRec": "GCOC",
+    "farm": {
+      "notes": [
+        "Production"
+      ],
+      "groups": [
+        {
+          "source": "Main Story",
+          "stages": [
+            [
+              "6-8Ex",
+              ""
+            ],
+            [
+              "8-2Ex",
+              ""
+            ],
+            [
+              "12-7",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Aria of the Elven Town",
+          "stages": [
+            [
+              "Ev3-3s",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Invitation from Paradise",
+          "stages": [
+            [
+              "Ev2-8",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Mini Companions' Onslaught ~Fierceness that Invites Storm~",
+          "stages": [
+            [
+              "Ev1-6",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Wolf's Fang of Fury",
+          "stages": [
+            [
+              "Ev3-3",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Water Park on which the Sun Never Sets",
+          "stages": [
+            [
+              "Ev1-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Blind Princess and the Land of Mist",
+          "stages": [
+            [
+              "Ev3-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Dreaming Mermaid's Island",
+          "stages": [
+            [
+              "Ev3-3B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Orca Film Festival",
+          "stages": [
+            [
+              "Ev1-6",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Curtain Call After the Apocalypse",
+          "stages": [
+            [
+              "Ev1-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Gold Out of Space",
+          "stages": [
+            [
+              "Ev3-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "For the Dreamless Mermaid",
+          "stages": [
+            [
+              "Ev1-3B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Project ORCA: Sun-Rising Stage",
+          "stages": [
+            [
+              "Ev2-3Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Corrupted Last Record",
+          "stages": [
+            [
+              "Ev4-2",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Orca Christmas Expo",
+          "stages": [
+            [
+              "Ev2-1B",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
     "icon": null,
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/barbariana.webp",
     "stats": {
@@ -15255,6 +31645,128 @@ export const loCharacters = [
     "height": "173cm",
     "weight": "57kg",
     "equipRec": "CGOC",
+    "farm": {
+      "notes": [
+        "Production"
+      ],
+      "groups": [
+        {
+          "source": "Invitation from Paradise",
+          "stages": [
+            [
+              "Ev1-3Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Somebody's Wish",
+          "stages": [
+            [
+              "Ev1-2Ex",
+              ""
+            ],
+            [
+              "Ev1-8",
+              ""
+            ],
+            [
+              "Ev2-5",
+              "First Clear Reward"
+            ]
+          ]
+        },
+        {
+          "source": "Orca Date Contest",
+          "stages": [
+            [
+              "Ev1-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Wolf's Fang of Fury",
+          "stages": [
+            [
+              "Ev1-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Water Park on which the Sun Never Sets",
+          "stages": [
+            [
+              "Ev2-6B",
+              ""
+            ],
+            [
+              "Ev2-4B",
+              ""
+            ],
+            [
+              "Ev3-6B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Curtain Call After the Apocalypse",
+          "stages": [
+            [
+              "Ev2-3",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Gold Out of Space",
+          "stages": [
+            [
+              "Ev1-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "For the Dreamless Mermaid",
+          "stages": [
+            [
+              "Ev1-1B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Project ORCA: Sun-Rising Stage",
+          "stages": [
+            [
+              "Ev2-5",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Orca Christmas Expo",
+          "stages": [
+            [
+              "Ev1-3EX",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Sisters of Omerta",
+          "stages": [
+            [
+              "Ev2-3",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/veronica.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/veronica.webp",
     "stats": {
@@ -15372,6 +31884,58 @@ export const loCharacters = [
     "height": "186cm",
     "weight": "74kg",
     "equipRec": "CCOG",
+    "farm": {
+      "notes": [
+        "Production"
+      ],
+      "groups": [
+        {
+          "source": "Lightless Sanctuary",
+          "stages": [
+            [
+              "Ev2-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Water Park on which the Sun Never Sets",
+          "stages": [
+            [
+              "Ev2-5B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Dreaming Mermaid's Island",
+          "stages": [
+            [
+              "Ev1-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Curtain Call After the Apocalypse",
+          "stages": [
+            [
+              "Ev1-3Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Living Dead Carnival",
+          "stages": [
+            [
+              "Ev1-4Ex",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/saraqael.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/saraqael.webp",
     "stats": {
@@ -15481,6 +32045,103 @@ export const loCharacters = [
     "height": "163cm",
     "weight": "35kg",
     "equipRec": "CCOG",
+    "farm": {
+      "notes": [
+        "Production",
+        "Lightless Sanctuary's Exhange"
+      ],
+      "groups": [
+        {
+          "source": "Main Story",
+          "stages": [
+            [
+              "9-8",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Orca Date Contest",
+          "stages": [
+            [
+              "Ev1-3Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Water Park on which the Sun Never Sets",
+          "stages": [
+            [
+              "Ev2-5B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Blind Princess and the Land of Mist",
+          "stages": [
+            [
+              "Ev2-2B",
+              ""
+            ],
+            [
+              "Ev3-5B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Gold Out of Space",
+          "stages": [
+            [
+              "Ev1-2B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Palace of the Reclusive Goddess",
+          "stages": [
+            [
+              "Ev1-7",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Corrupted Last Record",
+          "stages": [
+            [
+              "Ev2-2",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Orca Christmas Expo",
+          "stages": [
+            [
+              "Ev2-4",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Sisters of Omerta",
+          "stages": [
+            [
+              "Ev1-3Ex",
+              ""
+            ],
+            [
+              "Ev1-3EXH",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/angel.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/angel.webp",
     "stats": {
@@ -15576,6 +32237,77 @@ export const loCharacters = [
     "height": "141cm",
     "weight": "35kg",
     "equipRec": "GCCO",
+    "farm": {
+      "notes": [
+        "Production",
+        "AGSes of the Orca, Unite!'s Exhange"
+      ],
+      "groups": [
+        {
+          "source": "Lightless Sanctuary",
+          "stages": [
+            [
+              "Ev1-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Orca Date Contest",
+          "stages": [
+            [
+              "Ev1-1B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Wolf's Fang of Fury",
+          "stages": [
+            [
+              "Ev1-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Dreaming Mermaid's Island",
+          "stages": [
+            [
+              "Ev2-3B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Corrupted Last Record",
+          "stages": [
+            [
+              "Ev4-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Living Dead Carnival",
+          "stages": [
+            [
+              "Ev1-3Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Top Secret Operation: Doki-Doki Love Schedule",
+          "stages": [
+            [
+              "Ev1-2Ex",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/draculina.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/draculina.webp",
     "stats": {
@@ -15687,6 +32419,13 @@ export const loCharacters = [
     "height": "3.5m",
     "weight": "6.7t",
     "equipRec": "OCCG",
+    "farm": {
+      "notes": [
+        "Production",
+        "One-Off Package (Once)"
+      ],
+      "groups": []
+    },
     "icon": null,
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/ymir.webp",
     "stats": {
@@ -15800,6 +32539,116 @@ export const loCharacters = [
     "height": "164cm",
     "weight": "51kg",
     "equipRec": "CCOG",
+    "farm": {
+      "notes": [
+        "Production"
+      ],
+      "groups": [
+        {
+          "source": "Main Story",
+          "stages": [
+            [
+              "7-2Ex",
+              ""
+            ],
+            [
+              "9-4Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Choco Queen in Wonderland",
+          "stages": [
+            [
+              "Ev2-3Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Project ORCA Starlit Night Stage",
+          "stages": [
+            [
+              "Ev2-5",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Bunny? Niba! Thumpy Thump Reverse Bunny Trouble!",
+          "stages": [
+            [
+              "Ev2-5B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Mini Companions' Onslaught ~Fierceness that Invites Storm~",
+          "stages": [
+            [
+              "Ev1-5",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Wolf's Fang of Fury",
+          "stages": [
+            [
+              "Ev1-1",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Blind Princess and the Land of Mist",
+          "stages": [
+            [
+              "Ev1-3Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Curtain Call After the Apocalypse",
+          "stages": [
+            [
+              "Ev1-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "For the Dreamless Mermaid",
+          "stages": [
+            [
+              "Ev1-5",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Project ORCA: Sun-Rising Stage",
+          "stages": [
+            [
+              "Ev3-2",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Orca Christmas Expo",
+          "stages": [
+            [
+              "Ev1-1EX",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/keumran.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/keumran.webp",
     "stats": {
@@ -15912,6 +32761,67 @@ export const loCharacters = [
     "height": "169cm",
     "weight": "58kg",
     "equipRec": "CCOG",
+    "farm": {
+      "notes": [
+        "Production"
+      ],
+      "groups": [
+        {
+          "source": "Somebody's Wish",
+          "stages": [
+            [
+              "Ev1-2",
+              "First Clear Reward"
+            ]
+          ]
+        },
+        {
+          "source": "Lightless Sanctuary",
+          "stages": [
+            [
+              "Ev2-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Mini Companions' Onslaught ~Fierceness that Invites Storm~",
+          "stages": [
+            [
+              "Ev1-5",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Blind Princess and the Land of Mist",
+          "stages": [
+            [
+              "Ev1-3Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Curtain Call After the Apocalypse",
+          "stages": [
+            [
+              "Ev2-3Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Gold Out of Space",
+          "stages": [
+            [
+              "Ev3-5",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/hirume.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/hirume.webp",
     "stats": {
@@ -16038,6 +32948,78 @@ export const loCharacters = [
     "height": "159cm",
     "weight": "49.7kg",
     "equipRec": "CGOC",
+    "farm": {
+      "notes": [
+        "Production",
+        "Lightless Sanctuary's Exhange",
+        "Bunny? Niba! Thumpy Thump Reverse Bunny Trouble!'s Exchange",
+        "Wolf's Fang of Fury's Exchange"
+      ],
+      "groups": [
+        {
+          "source": "Main Story",
+          "stages": [
+            [
+              "8-8",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Aria of the Elven Town",
+          "stages": [
+            [
+              "Ev3-1s",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Somebody's Wish",
+          "stages": [
+            [
+              "Ev1-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Orca Film Festival",
+          "stages": [
+            [
+              "Ev1-5",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Project ORCA: Sun-Rising Stage",
+          "stages": [
+            [
+              "Ev1-3Ex",
+              ""
+            ],
+            [
+              "Ev3-1B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Silent Swamp",
+          "stages": [
+            [
+              "Ev1-2Ex",
+              ""
+            ],
+            [
+              "Ev1-2EXH",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/tiamat.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/tiamat.webp",
     "stats": {
@@ -16149,6 +33131,54 @@ export const loCharacters = [
     "height": "163cm",
     "weight": "49kg",
     "equipRec": "OGCC",
+    "farm": {
+      "notes": [
+        "Production",
+        "The Water Park on which the Sun Never Sets' Exchange"
+      ],
+      "groups": [
+        {
+          "source": "Main Story",
+          "stages": [
+            [
+              "12-10B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Blind Princess and the Land of Mist",
+          "stages": [
+            [
+              "Ev3-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Dreaming Mermaid's Island",
+          "stages": [
+            [
+              "Ev2-2Ex",
+              "First Clear Reward"
+            ]
+          ]
+        },
+        {
+          "source": "The Silent Swamp",
+          "stages": [
+            [
+              "Ev1-4Ex",
+              ""
+            ],
+            [
+              "Ev1-4EXH",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/mercury.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/mercury.webp",
     "stats": {
@@ -16253,6 +33283,296 @@ export const loCharacters = [
     "height": "160cm",
     "weight": "55kg",
     "equipRec": "CGOC",
+    "farm": {
+      "notes": [
+        "Production"
+      ],
+      "groups": [
+        {
+          "source": "Legacy of Rioboros",
+          "stages": [
+            [
+              "Ev2-1B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Invitation from Paradise",
+          "stages": [
+            [
+              "Ev1-7",
+              ""
+            ],
+            [
+              "Ev2-4",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Project ORCA Starlit Night Stage",
+          "stages": [
+            [
+              "Ev1-5",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Rose that Blooms atop of Lotus",
+          "stages": [
+            [
+              "Ev2-4",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Eternal Winter's Ark",
+          "stages": [
+            [
+              "Ev1-1",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Bunny? Niba! Thumpy Thump Reverse Bunny Trouble!",
+          "stages": [
+            [
+              "Ev2-4Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Orca Date Contest",
+          "stages": [
+            [
+              "Ev1-6Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Wolf's Fang of Fury",
+          "stages": [
+            [
+              "Ev2-3",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Water Park on which the Sun Never Sets",
+          "stages": [
+            [
+              "Ev2-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Blind Princess and the Land of Mist",
+          "stages": [
+            [
+              "Ev2-6",
+              ""
+            ],
+            [
+              "Ev3-6B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Dreaming Mermaid's Island",
+          "stages": [
+            [
+              "Ev1-3Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Orca Film Festival",
+          "stages": [
+            [
+              "Ev1-3",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Curtain Call After the Apocalypse",
+          "stages": [
+            [
+              "Ev1-4",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Sincerely, To Your End",
+          "stages": [
+            [
+              "Ev1-4",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Gold Out of Space",
+          "stages": [
+            [
+              "Ev1-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Gold Out of Space",
+          "stages": [
+            [
+              "Ev2-3Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Zero Base",
+          "stages": [
+            [
+              "Ev2-2",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "For the Dreamless Mermaid",
+          "stages": [
+            [
+              "Ev1-6",
+              ""
+            ],
+            [
+              "Ev2-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "AGSes of the Orca, Unite!",
+          "stages": [
+            [
+              "Ev1-3Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Palace of the Reclusive Goddess",
+          "stages": [
+            [
+              "Ev1-1B",
+              ""
+            ],
+            [
+              "Ev2-4B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Daisenran ~Endless Storm of Violet Lightning~",
+          "stages": [
+            [
+              "Ev1-5",
+              ""
+            ],
+            [
+              "Ev2-3B",
+              ""
+            ],
+            [
+              "Ev2-8",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Project ORCA: Sun-Rising Stage",
+          "stages": [
+            [
+              "Ev2-5",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Corrupted Last Record",
+          "stages": [
+            [
+              "Ev2-2",
+              ""
+            ],
+            [
+              "Ev4-3Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Orca Christmas Expo",
+          "stages": [
+            [
+              "Ev1-2EX",
+              ""
+            ],
+            [
+              "Ev2-4EX",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Bride of the Orca",
+          "stages": [
+            [
+              "Ev2-1",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Sisters of Omerta",
+          "stages": [
+            [
+              "Ev1-4Ex",
+              ""
+            ],
+            [
+              "Ev1-4EXH",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Silent Swamp",
+          "stages": [
+            [
+              "Ev1-2Ex",
+              ""
+            ],
+            [
+              "Ev1-2EXH",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/mina.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/mina.webp",
     "stats": {
@@ -16377,6 +33697,73 @@ export const loCharacters = [
     "height": "164cm",
     "weight": "46kg",
     "equipRec": "CCOG",
+    "farm": {
+      "notes": [
+        "Production",
+        "For the Dreamless Mermaid's Exchange",
+        "Project ORCA: Sun-Rising Stage's Exchange"
+      ],
+      "groups": [
+        {
+          "source": "Main Story",
+          "stages": [
+            [
+              "10-7",
+              ""
+            ],
+            [
+              "13-40",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Bunny? Niba! Thumpy Thump Reverse Bunny Trouble!",
+          "stages": [
+            [
+              "Ev2-5Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Blind Princess and the Land of Mist",
+          "stages": [
+            [
+              "Ev1-3Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Orca Film Festival",
+          "stages": [
+            [
+              "Ev2-6",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "AGSes of the Orca, Unite!",
+          "stages": [
+            [
+              "Ev1-5Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Orca Christmas Expo",
+          "stages": [
+            [
+              "Ev1-1EX",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/cheona.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/cheona.webp",
     "stats": {
@@ -16488,6 +33875,71 @@ export const loCharacters = [
     "height": "165cm",
     "weight": "50kg",
     "equipRec": "CCOG",
+    "farm": {
+      "notes": [
+        "Production"
+      ],
+      "groups": [
+        {
+          "source": "Main Story",
+          "stages": [
+            [
+              "13-28",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Orca Date Contest",
+          "stages": [
+            [
+              "Ev1-6Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Blind Princess and the Land of Mist",
+          "stages": [
+            [
+              "Ev2-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Dreaming Mermaid's Island",
+          "stages": [
+            [
+              "Ev2-1Ex",
+              "First Clear Reward"
+            ]
+          ]
+        },
+        {
+          "source": "Corrupted Last Record",
+          "stages": [
+            [
+              "Ev4-4Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Silent Swamp",
+          "stages": [
+            [
+              "Ev1-3Ex",
+              ""
+            ],
+            [
+              "Ev1-3EXH",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/ullr.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/ullr.webp",
     "stats": {
@@ -16628,6 +34080,63 @@ export const loCharacters = [
     "height": "156cm",
     "weight": "49kg",
     "equipRec": "GOCC",
+    "farm": {
+      "notes": [
+        "Production",
+        "AGSes of the Orca, Unite!'s Exhange"
+      ],
+      "groups": [
+        {
+          "source": "Main Story",
+          "stages": [
+            [
+              "10-6",
+              ""
+            ],
+            [
+              "13-15",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Rose that Blooms atop of Lotus",
+          "stages": [
+            [
+              "Ev2-5",
+              "First Clear Reward"
+            ]
+          ]
+        },
+        {
+          "source": "Eternal Winter's Ark",
+          "stages": [
+            [
+              "Ev1-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Blind Princess and the Land of Mist",
+          "stages": [
+            [
+              "Ev1-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Dance of the Stars",
+          "stages": [
+            [
+              "Ev1-8",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/janghwa.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/janghwa.webp",
     "stats": {
@@ -16779,6 +34288,36 @@ export const loCharacters = [
     "height": "150cm",
     "weight": "72kg",
     "equipRec": "COGC",
+    "farm": {
+      "notes": [
+        "Production",
+        "One-Off Package (Once)",
+        "The Water Park on which the Sun Never Sets' Exchange",
+        "Palace of the Reclusive Goddess's Exchange",
+        "Corrupted Last Record's Exchange",
+        "Top Secret Operation: Doki-Doki Love Schedule's Exchange"
+      ],
+      "groups": [
+        {
+          "source": "The Gold Out of Space",
+          "stages": [
+            [
+              "Ev1-3Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Project ORCA: Sun-Rising Stage",
+          "stages": [
+            [
+              "Ev1-2Ex",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/vargr.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/vargr.webp",
     "stats": {
@@ -16902,6 +34441,42 @@ export const loCharacters = [
     "height": "157cm",
     "weight": "54kg",
     "equipRec": "CGCO",
+    "farm": {
+      "notes": [
+        "Production",
+        "Project ORCA: Sun-Rising Stage's Exchange",
+        "Sisters of Omerta's Exchange"
+      ],
+      "groups": [
+        {
+          "source": "Main Story",
+          "stages": [
+            [
+              "13-38",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "AGSes of the Orca, Unite!",
+          "stages": [
+            [
+              "Ev1-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Palace of the Reclusive Goddess",
+          "stages": [
+            [
+              "Ev1-1Ex",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/fafnir.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/fafnir.webp",
     "stats": {
@@ -17013,6 +34588,13 @@ export const loCharacters = [
     "height": "169.8cm",
     "weight": "Undisclosed",
     "equipRec": "CCOG",
+    "farm": {
+      "notes": [
+        "Production",
+        "One-Off Package (Once)"
+      ],
+      "groups": []
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/maria-grace.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/maria-grace.webp",
     "stats": {
@@ -17117,6 +34699,13 @@ export const loCharacters = [
     "height": "177 cm",
     "weight": "0.000000076MT.",
     "equipRec": "CCOG",
+    "farm": {
+      "notes": [
+        "Production",
+        "One-Off Package (Once)"
+      ],
+      "groups": []
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/sterling.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/sterling.webp",
     "stats": {
@@ -17227,6 +34816,173 @@ export const loCharacters = [
     "height": "145cm",
     "weight": "40kg",
     "equipRec": "GOCC",
+    "farm": {
+      "notes": [
+        "Production"
+      ],
+      "groups": [
+        {
+          "source": "Main Story",
+          "stages": [
+            [
+              "8-1Ex",
+              ""
+            ],
+            [
+              "9-7",
+              ""
+            ],
+            [
+              "11-3Ex",
+              ""
+            ],
+            [
+              "12-2Ex",
+              ""
+            ],
+            [
+              "13-35",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "St.Orca's Secret Operation",
+          "stages": [
+            [
+              "Ev2-5",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Choco Queen in Wonderland",
+          "stages": [
+            [
+              "Ev2-3",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Country within Muddy Memory",
+          "stages": [
+            [
+              "Ev2-3",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Project ORCA Starlit Night Stage",
+          "stages": [
+            [
+              "Ev2-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Lightless Sanctuary",
+          "stages": [
+            [
+              "Ev2-7",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Bunny? Niba! Thumpy Thump Reverse Bunny Trouble!",
+          "stages": [
+            [
+              "Ev2-5B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Orca Date Contest",
+          "stages": [
+            [
+              "Ev1-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Wolf's Fang of Fury",
+          "stages": [
+            [
+              "Ev2-3Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Water Park on which the Sun Never Sets",
+          "stages": [
+            [
+              "Ev3-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Blind Princess and the Land of Mist",
+          "stages": [
+            [
+              "Ev1-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Gold Out of Space",
+          "stages": [
+            [
+              "Ev3-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Palace of the Reclusive Goddess",
+          "stages": [
+            [
+              "Ev1-2",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Corrupted Last Record",
+          "stages": [
+            [
+              "Ev3-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Orca Christmas Expo",
+          "stages": [
+            [
+              "Ev1-4",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Sisters of Omerta",
+          "stages": [
+            [
+              "Ev1-2",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/empress.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/empress.webp",
     "stats": {
@@ -17337,6 +35093,281 @@ export const loCharacters = [
     "height": "151cm",
     "weight": "40kg",
     "equipRec": "GOCC",
+    "farm": {
+      "notes": [
+        "Production",
+        "Orca Restoration's Exchange"
+      ],
+      "groups": [
+        {
+          "source": "Main Story",
+          "stages": [
+            [
+              "6-8Ex",
+              ""
+            ],
+            [
+              "7-1Ex",
+              ""
+            ],
+            [
+              "8-6",
+              ""
+            ],
+            [
+              "9-4",
+              ""
+            ],
+            [
+              "13-26",
+              ""
+            ],
+            [
+              "13-35",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Invitation from Paradise",
+          "stages": [
+            [
+              "Ev2-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Lightless Sanctuary",
+          "stages": [
+            [
+              "Ev3-2s",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Mini Companions' Onslaught ~Fierceness that Invites Storm~",
+          "stages": [
+            [
+              "Ev1-6",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Wolf's Fang of Fury",
+          "stages": [
+            [
+              "Ev1-3",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Water Park on which the Sun Never Sets",
+          "stages": [
+            [
+              "Ev1-6B",
+              ""
+            ],
+            [
+              "Ev3-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Blind Princess and the Land of Mist",
+          "stages": [
+            [
+              "Ev1-1Ex",
+              ""
+            ],
+            [
+              "Ev2-1Ex",
+              ""
+            ],
+            [
+              "Ev3-7B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Dreaming Mermaid's Island",
+          "stages": [
+            [
+              "Ev1-5",
+              ""
+            ],
+            [
+              "Ev2-2B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Orca Film Festival",
+          "stages": [
+            [
+              "Ev2-3",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Curtain Call After the Apocalypse",
+          "stages": [
+            [
+              "Ev1-1",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Gold Out of Space",
+          "stages": [
+            [
+              "Ev1-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Zero Base",
+          "stages": [
+            [
+              "Ev1-2Ex",
+              ""
+            ],
+            [
+              "Ev2-5",
+              ""
+            ],
+            [
+              "Ev2-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Adventuring at Sea Again",
+          "stages": [
+            [
+              "Ev1-4",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "For the Dreamless Mermaid",
+          "stages": [
+            [
+              "Ev1-5",
+              ""
+            ],
+            [
+              "Ev2-3B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Palace of the Reclusive Goddess",
+          "stages": [
+            [
+              "Ev1-4",
+              ""
+            ],
+            [
+              "Ev2-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Daisenran ~Endless Storm of Violet Lightning~",
+          "stages": [
+            [
+              "Ev1-4",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Project ORCA: Sun-Rising Stage",
+          "stages": [
+            [
+              "Ev1-4",
+              ""
+            ],
+            [
+              "Ev2-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Corrupted Last Record",
+          "stages": [
+            [
+              "Ev2-3Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Living Dead Carnival",
+          "stages": [
+            [
+              "Ev1-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Orca Christmas Expo",
+          "stages": [
+            [
+              "Ev2-1",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Dance of the Stars",
+          "stages": [
+            [
+              "Ev1-8",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Sisters of Omerta",
+          "stages": [
+            [
+              "Ev1-3Ex",
+              ""
+            ],
+            [
+              "Ev1-3EXH",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Silent Swamp",
+          "stages": [
+            [
+              "Ev1-5",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/saetti.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/saetti.webp",
     "stats": {
@@ -17454,6 +35485,13 @@ export const loCharacters = [
     "height": "168cm",
     "weight": "50kg",
     "equipRec": "CCGO",
+    "farm": {
+      "notes": [
+        "Production",
+        "One-Off Package (Once)"
+      ],
+      "groups": []
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/celsi.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/celsi.webp",
     "stats": {
@@ -17564,6 +35602,148 @@ export const loCharacters = [
     "height": "158cm",
     "weight": "49kg",
     "equipRec": "GCCO",
+    "farm": {
+      "notes": [
+        "Production",
+        "Choco Queen in Wonderland's Exchange"
+      ],
+      "groups": [
+        {
+          "source": "Main Story",
+          "stages": [
+            [
+              "8-7",
+              ""
+            ],
+            [
+              "9-7",
+              ""
+            ],
+            [
+              "12-5",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Country within Muddy Memory",
+          "stages": [
+            [
+              "Ev2-2",
+              "First Clear Reward"
+            ]
+          ]
+        },
+        {
+          "source": "Somebody's Wish",
+          "stages": [
+            [
+              "Ev2-4",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Project ORCA Starlit Night Stage",
+          "stages": [
+            [
+              "Ev2-3B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Bunny? Niba! Thumpy Thump Reverse Bunny Trouble!",
+          "stages": [
+            [
+              "Ev2-5B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Mini Companions' Onslaught ~Fierceness that Invites Storm~",
+          "stages": [
+            [
+              "Ev1-2",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Wolf's Fang of Fury",
+          "stages": [
+            [
+              "Ev2-3Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Blind Princess and the Land of Mist",
+          "stages": [
+            [
+              "Ev2-2",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Dreaming Mermaid's Island",
+          "stages": [
+            [
+              "Ev3-1B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Zero Base",
+          "stages": [
+            [
+              "Ev2-4",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Palace of the Reclusive Goddess",
+          "stages": [
+            [
+              "Ev2-4",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Corrupted Last Record",
+          "stages": [
+            [
+              "Ev1-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Dance of the Stars",
+          "stages": [
+            [
+              "Ev2-7",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Bride of the Orca",
+          "stages": [
+            [
+              "Ev2-1",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/aurora.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/aurora.webp",
     "stats": {
@@ -17688,6 +35868,13 @@ export const loCharacters = [
     "height": "169cm",
     "weight": "51kg",
     "equipRec": "CCOG",
+    "farm": {
+      "notes": [
+        "Production",
+        "One-Off Package (Once)"
+      ],
+      "groups": []
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/layla-cloudy.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/layla-cloudy.webp",
     "stats": {
@@ -17790,6 +35977,32 @@ export const loCharacters = [
     "height": "160cm",
     "weight": "55kg",
     "equipRec": "GCCO",
+    "farm": {
+      "notes": [
+        "Production",
+        "Main Story Exchange Post (Chapter 13)"
+      ],
+      "groups": [
+        {
+          "source": "Main Story",
+          "stages": [
+            [
+              "13-26",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Daisenran ~Endless Storm of Violet Lightning~",
+          "stages": [
+            [
+              "Ev2-8",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/sarena.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/sarena.webp",
     "stats": {
@@ -17885,6 +36098,69 @@ export const loCharacters = [
     "height": "170cm",
     "weight": "65kg",
     "equipRec": "GOCC",
+    "farm": {
+      "notes": [
+        "Production",
+        "Sincerely, To Your End's Exchange",
+        "Daisenran ~Endless Storm of Violet Lightning~'s Exchange"
+      ],
+      "groups": [
+        {
+          "source": "Rose that Blooms atop of Lotus",
+          "stages": [
+            [
+              "Ev1-6",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Dreaming Mermaid's Island",
+          "stages": [
+            [
+              "Ev3-3B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Girl Walking Through the Night",
+          "stages": [
+            [
+              "Ev1-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "AGSes of the Orca, Unite!",
+          "stages": [
+            [
+              "Ev1-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Palace of the Reclusive Goddess",
+          "stages": [
+            [
+              "Ev1-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Top Secret Operation: Doki-Doki Love Schedule",
+          "stages": [
+            [
+              "Ev1-4Ex",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/clover-ace.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/clover-ace.webp",
     "stats": {
@@ -17982,6 +36258,134 @@ export const loCharacters = [
     "height": "169cm",
     "weight": "57kg",
     "equipRec": "GCOC",
+    "farm": {
+      "notes": [
+        "Production"
+      ],
+      "groups": [
+        {
+          "source": "Main Story",
+          "stages": [
+            [
+              "8-2Ex",
+              ""
+            ],
+            [
+              "9-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Country within Muddy Memory",
+          "stages": [
+            [
+              "Ev2-4",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Invitation from Paradise",
+          "stages": [
+            [
+              "Ev2-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Mini Companions' Onslaught ~Fierceness that Invites Storm~",
+          "stages": [
+            [
+              "Ev1-4",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Water Park on which the Sun Never Sets",
+          "stages": [
+            [
+              "Ev2-1B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Blind Princess and the Land of Mist",
+          "stages": [
+            [
+              "Ev3-4B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Dreaming Mermaid's Island",
+          "stages": [
+            [
+              "Ev1-7",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Orca Film Festival",
+          "stages": [
+            [
+              "Ev1-5",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Gold Out of Space",
+          "stages": [
+            [
+              "Ev2-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "For the Dreamless Mermaid",
+          "stages": [
+            [
+              "Ev2-5",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Project ORCA: Sun-Rising Stage",
+          "stages": [
+            [
+              "Ev2-3",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Corrupted Last Record",
+          "stages": [
+            [
+              "Ev4-1",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Dance of the Stars",
+          "stages": [
+            [
+              "Ev1-3Ex",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/sunny.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/sunny.webp",
     "stats": {
@@ -18101,6 +36505,53 @@ export const loCharacters = [
     "height": "178cm",
     "weight": "65kg",
     "equipRec": "CGOC",
+    "farm": {
+      "notes": [
+        "Production",
+        "Full Moon Nocturne's Exchange",
+        "Halloween Park Panic!'s Exchange",
+        "Eternal Winter's Ark's Exchange",
+        "Daisenran ~Endless Storm of Violet Lightning~'s Exchange"
+      ],
+      "groups": [
+        {
+          "source": "Invitation from Paradise",
+          "stages": [
+            [
+              "Ev2-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Wolf's Fang of Fury",
+          "stages": [
+            [
+              "Ev3-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Dreaming Mermaid's Island",
+          "stages": [
+            [
+              "Ev1-7",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Project ORCA: Sun-Rising Stage",
+          "stages": [
+            [
+              "Ev2-2Ex",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/faucre.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/faucre.webp",
     "stats": {
@@ -18220,6 +36671,269 @@ export const loCharacters = [
     "height": "178cm",
     "weight": "72kg",
     "equipRec": "CCOG",
+    "farm": {
+      "notes": [
+        "Production",
+        "Orca Restoration's Exchange"
+      ],
+      "groups": [
+        {
+          "source": "Main Story",
+          "stages": [
+            [
+              "8-1Ex",
+              ""
+            ],
+            [
+              "9-2",
+              ""
+            ],
+            [
+              "11-3Ex",
+              ""
+            ],
+            [
+              "12-10",
+              ""
+            ],
+            [
+              "13-28",
+              ""
+            ],
+            [
+              "13-40",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Country within Muddy Memory",
+          "stages": [
+            [
+              "Ev2-3",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Invitation from Paradise",
+          "stages": [
+            [
+              "Ev3-2s",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Project ORCA Starlit Night Stage",
+          "stages": [
+            [
+              "Ev2-2",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Mini Companions' Onslaught ~Fierceness that Invites Storm~",
+          "stages": [
+            [
+              "Ev1-4",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Wolf's Fang of Fury",
+          "stages": [
+            [
+              "Ev3-4",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Blind Princess and the Land of Mist",
+          "stages": [
+            [
+              "Ev1-1Ex",
+              ""
+            ],
+            [
+              "Ev2-4B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Dreaming Mermaid's Island",
+          "stages": [
+            [
+              "Ev1-1",
+              ""
+            ],
+            [
+              "Ev2-1B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Orca Film Festival",
+          "stages": [
+            [
+              "Ev2-4",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Curtain Call After the Apocalypse",
+          "stages": [
+            [
+              "Ev1-2Ex",
+              ""
+            ],
+            [
+              "Ev2-1",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Gold Out of Space",
+          "stages": [
+            [
+              "Ev1-7",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Zero Base",
+          "stages": [
+            [
+              "Ev1-1Ex",
+              ""
+            ],
+            [
+              "Ev2-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Adventuring at Sea Again",
+          "stages": [
+            [
+              "Ev1-9",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "For the Dreamless Mermaid",
+          "stages": [
+            [
+              "Ev1-3",
+              ""
+            ],
+            [
+              "Ev2-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "AGSes of the Orca, Unite!",
+          "stages": [
+            [
+              "Ev1-4Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Palace of the Reclusive Goddess",
+          "stages": [
+            [
+              "Ev1-6",
+              ""
+            ],
+            [
+              "Ev2-3B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Daisenran ~Endless Storm of Violet Lightning~",
+          "stages": [
+            [
+              "Ev1-1",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Project ORCA: Sun-Rising Stage",
+          "stages": [
+            [
+              "Ev1-5",
+              ""
+            ],
+            [
+              "Ev2-3Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Corrupted Last Record",
+          "stages": [
+            [
+              "Ev2-4Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Living Dead Carnival",
+          "stages": [
+            [
+              "Ev1-3Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Orca Christmas Expo",
+          "stages": [
+            [
+              "Ev2-2",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Dance of the Stars",
+          "stages": [
+            [
+              "Ev1-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Silent Swamp",
+          "stages": [
+            [
+              "Ev1-2",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/lumberjane.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/lumberjane.webp",
     "stats": {
@@ -18326,6 +37040,95 @@ export const loCharacters = [
     "height": "171cm",
     "weight": "59kg",
     "equipRec": "CCOG",
+    "farm": {
+      "notes": [
+        "Production",
+        "Lightless Sanctuary's Exhange"
+      ],
+      "groups": [
+        {
+          "source": "Main Story",
+          "stages": [
+            [
+              "9-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Invitation from Paradise",
+          "stages": [
+            [
+              "Ev2-8",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Eternal Winter's Ark",
+          "stages": [
+            [
+              "Ev1-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Water Park on which the Sun Never Sets",
+          "stages": [
+            [
+              "Ev2-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Blind Princess and the Land of Mist",
+          "stages": [
+            [
+              "Ev3-6",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Dreaming Mermaid's Island",
+          "stages": [
+            [
+              "Ev1-8",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Orca Film Festival",
+          "stages": [
+            [
+              "Ev2-5",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Gold Out of Space",
+          "stages": [
+            [
+              "Ev2-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Daisenran ~Endless Storm of Violet Lightning~",
+          "stages": [
+            [
+              "Ev2-4B",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/black-wyrm.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/black-wyrm.webp",
     "stats": {
@@ -18431,6 +37234,161 @@ export const loCharacters = [
     "height": "163cm",
     "weight": "48kg",
     "equipRec": "CCOG",
+    "farm": {
+      "notes": [
+        "Production"
+      ],
+      "groups": [
+        {
+          "source": "Main Story",
+          "stages": [
+            [
+              "9-3",
+              ""
+            ],
+            [
+              "11-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Aria of the Elven Town",
+          "stages": [
+            [
+              "Ev3-2s",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Invitation from Paradise",
+          "stages": [
+            [
+              "Ev1-7",
+              "First Clear Reward"
+            ]
+          ]
+        },
+        {
+          "source": "Somebody's Wish",
+          "stages": [
+            [
+              "Ev1-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Lightless Sanctuary",
+          "stages": [
+            [
+              "Ev3-1s",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Rose that Blooms atop of Lotus",
+          "stages": [
+            [
+              "Ev2-4",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Bunny? Niba! Thumpy Thump Reverse Bunny Trouble!",
+          "stages": [
+            [
+              "Ev2-6Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Mini Companions' Onslaught ~Fierceness that Invites Storm~",
+          "stages": [
+            [
+              "Ev1-3",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Wolf's Fang of Fury",
+          "stages": [
+            [
+              "Ev2-1",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Blind Princess and the Land of Mist",
+          "stages": [
+            [
+              "Ev2-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Dreaming Mermaid's Island",
+          "stages": [
+            [
+              "Ev3-2B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Curtain Call After the Apocalypse",
+          "stages": [
+            [
+              "Ev2-6",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Palace of the Reclusive Goddess",
+          "stages": [
+            [
+              "Ev1-3Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Daisenran ~Endless Storm of Violet Lightning~",
+          "stages": [
+            [
+              "Ev1-1",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Corrupted Last Record",
+          "stages": [
+            [
+              "Ev3-1",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Orca Christmas Expo",
+          "stages": [
+            [
+              "Ev1-6",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/kunoichi-zero.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/kunoichi-zero.webp",
     "stats": {
@@ -18541,6 +37499,158 @@ export const loCharacters = [
     "height": "174cm",
     "weight": "60kg",
     "equipRec": "CCOG",
+    "farm": {
+      "notes": [
+        "Production",
+        "Aria of the Elven Town's Exchange"
+      ],
+      "groups": [
+        {
+          "source": "Main Story",
+          "stages": [
+            [
+              "9-4",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Invitation from Paradise",
+          "stages": [
+            [
+              "Ev1-8",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Project ORCA Starlit Night Stage",
+          "stages": [
+            [
+              "Ev1-5",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Lightless Sanctuary",
+          "stages": [
+            [
+              "Ev2-5",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Mini Companions' Onslaught ~Fierceness that Invites Storm~",
+          "stages": [
+            [
+              "Ev1-4",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Water Park on which the Sun Never Sets",
+          "stages": [
+            [
+              "Ev3-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Blind Princess and the Land of Mist",
+          "stages": [
+            [
+              "Ev1-7",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Dreaming Mermaid's Island",
+          "stages": [
+            [
+              "Ev2-2B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Gold Out of Space",
+          "stages": [
+            [
+              "Ev3-3Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "For the Dreamless Mermaid",
+          "stages": [
+            [
+              "Ev2-2B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Girl Walking Through the Night",
+          "stages": [
+            [
+              "Ev1-9",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Daisenran ~Endless Storm of Violet Lightning~",
+          "stages": [
+            [
+              "Ev1-6",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Corrupted Last Record",
+          "stages": [
+            [
+              "Ev3-8",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Orca Christmas Expo",
+          "stages": [
+            [
+              "Ev2-3",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Bride of the Orca",
+          "stages": [
+            [
+              "Ev2-3Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Sisters of Omerta",
+          "stages": [
+            [
+              "Ev1-6",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/snow-feather.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/snow-feather.webp",
     "stats": {
@@ -18646,6 +37756,85 @@ export const loCharacters = [
     "height": "172cm",
     "weight": "61kg",
     "equipRec": "CCOG",
+    "farm": {
+      "notes": [
+        "Production",
+        "Eternal Winter's Ark's Exchange"
+      ],
+      "groups": [
+        {
+          "source": "Main Story",
+          "stages": [
+            [
+              "8-2Ex",
+              ""
+            ],
+            [
+              "13-11",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Aria of the Elven Town",
+          "stages": [
+            [
+              "Ev2-3Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Somebody's Wish",
+          "stages": [
+            [
+              "Ev2-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Dreaming Mermaid's Island",
+          "stages": [
+            [
+              "Ev2-1B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Orca Film Festival",
+          "stages": [
+            [
+              "Ev2-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Palace of the Reclusive Goddess",
+          "stages": [
+            [
+              "Ev2-3Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Sisters of Omerta",
+          "stages": [
+            [
+              "Ev2-1Ex",
+              ""
+            ],
+            [
+              "Ev2-1EXH",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/cerestia.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/cerestia.webp",
     "stats": {
@@ -18758,6 +37947,278 @@ export const loCharacters = [
     "height": "132cm",
     "weight": "28kg",
     "equipRec": "CCOG",
+    "farm": {
+      "notes": [
+        "Production",
+        "Country within Muddy Memory's Exchange"
+      ],
+      "groups": [
+        {
+          "source": "Main Story",
+          "stages": [
+            [
+              "8-2Ex",
+              ""
+            ],
+            [
+              "9-5",
+              ""
+            ],
+            [
+              "13-4",
+              ""
+            ],
+            [
+              "13-5",
+              ""
+            ],
+            [
+              "13-13",
+              ""
+            ],
+            [
+              "13-21",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Invitation from Paradise",
+          "stages": [
+            [
+              "Ev2-8",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Somebody's Wish",
+          "stages": [
+            [
+              "Ev1-5",
+              ""
+            ],
+            [
+              "Ev2-6",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Lightless Sanctuary",
+          "stages": [
+            [
+              "Ev2-5",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Eternal Winter's Ark",
+          "stages": [
+            [
+              "Ev1-12",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Mini Companions' Onslaught ~Fierceness that Invites Storm~",
+          "stages": [
+            [
+              "Ev1-2",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Wolf's Fang of Fury",
+          "stages": [
+            [
+              "Ev1-4",
+              ""
+            ],
+            [
+              "Ev3-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Water Park on which the Sun Never Sets",
+          "stages": [
+            [
+              "Ev2-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Blind Princess and the Land of Mist",
+          "stages": [
+            [
+              "Ev1-8",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Dreaming Mermaid's Island",
+          "stages": [
+            [
+              "Ev1-8",
+              ""
+            ],
+            [
+              "Ev2-4B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Orca Film Festival",
+          "stages": [
+            [
+              "Ev2-6",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Curtain Call After the Apocalypse",
+          "stages": [
+            [
+              "Ev2-6",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Adventuring at Sea Again",
+          "stages": [
+            [
+              "Ev1-8",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "For the Dreamless Mermaid",
+          "stages": [
+            [
+              "Ev1-7",
+              ""
+            ],
+            [
+              "Ev2-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Girl Walking Through the Night",
+          "stages": [
+            [
+              "Ev1-3",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "AGSes of the Orca, Unite!",
+          "stages": [
+            [
+              "Ev1-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Palace of the Reclusive Goddess",
+          "stages": [
+            [
+              "Ev1-7",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Daisenran ~Endless Storm of Violet Lightning~",
+          "stages": [
+            [
+              "Ev1-7",
+              ""
+            ],
+            [
+              "Ev1-4B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Project ORCA: Sun-Rising Stage",
+          "stages": [
+            [
+              "Ev1-5",
+              ""
+            ],
+            [
+              "Ev2-3Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Corrupted Last Record",
+          "stages": [
+            [
+              "Ev3-1",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Living Dead Carnival",
+          "stages": [
+            [
+              "Ev1-4Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Orca Christmas Expo",
+          "stages": [
+            [
+              "Ev2-2",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Dance of the Stars",
+          "stages": [
+            [
+              "Ev1-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Sisters of Omerta",
+          "stages": [
+            [
+              "Ev2-1Ex",
+              ""
+            ],
+            [
+              "Ev2-1EXH",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/andvari.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/andvari.webp",
     "stats": {
@@ -18881,6 +38342,162 @@ export const loCharacters = [
     "height": "163cm",
     "weight": "48kg",
     "equipRec": "CCOG",
+    "farm": {
+      "notes": [
+        "Production",
+        "Invitation from Paradise's Exchange"
+      ],
+      "groups": [
+        {
+          "source": "Main Story",
+          "stages": [
+            [
+              "9-4Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Country within Muddy Memory",
+          "stages": [
+            [
+              "Ev2-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Somebody's Wish",
+          "stages": [
+            [
+              "Ev1-6",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Project ORCA Starlit Night Stage",
+          "stages": [
+            [
+              "Ev1-6",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Eternal Winter's Ark",
+          "stages": [
+            [
+              "Ev1-11",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Mini Companions' Onslaught ~Fierceness that Invites Storm~",
+          "stages": [
+            [
+              "Ev1-4",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Wolf's Fang of Fury",
+          "stages": [
+            [
+              "Ev3-1",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Blind Princess and the Land of Mist",
+          "stages": [
+            [
+              "Ev1-7B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Dreaming Mermaid's Island",
+          "stages": [
+            [
+              "Ev2-5",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Orca Film Festival",
+          "stages": [
+            [
+              "Ev1-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Curtain Call After the Apocalypse",
+          "stages": [
+            [
+              "Ev1-5",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Gold Out of Space",
+          "stages": [
+            [
+              "Ev2-4",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Palace of the Reclusive Goddess",
+          "stages": [
+            [
+              "Ev1-8",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Corrupted Last Record",
+          "stages": [
+            [
+              "Ev1-2",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Dance of the Stars",
+          "stages": [
+            [
+              "Ev1-8",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Sisters of Omerta",
+          "stages": [
+            [
+              "Ev1-2Ex",
+              ""
+            ],
+            [
+              "Ev1-2EXH",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/dryad.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/dryad.webp",
     "stats": {
@@ -19001,6 +38618,90 @@ export const loCharacters = [
     "height": "174cm",
     "weight": "62kg",
     "equipRec": "CCOG",
+    "farm": {
+      "notes": [
+        "Production",
+        "The Water Park on which the Sun Never Sets' Exchange"
+      ],
+      "groups": [
+        {
+          "source": "Main Story",
+          "stages": [
+            [
+              "9-1Ex",
+              ""
+            ],
+            [
+              "12-15",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Invitation from Paradise",
+          "stages": [
+            [
+              "Ev1-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Somebody's Wish",
+          "stages": [
+            [
+              "Ev1-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Lightless Sanctuary",
+          "stages": [
+            [
+              "Ev3-2s",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Orca Date Contest",
+          "stages": [
+            [
+              "Ev1-4Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Blind Princess and the Land of Mist",
+          "stages": [
+            [
+              "Ev2-4B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Corrupted Last Record",
+          "stages": [
+            [
+              "Ev1-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Bride of the Orca",
+          "stages": [
+            [
+              "Ev1-3Ex",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/sadius.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/sadius.webp",
     "stats": {
@@ -19113,6 +38814,148 @@ export const loCharacters = [
     "height": "171cm",
     "weight": "56kg",
     "equipRec": "CCOG",
+    "farm": {
+      "notes": [
+        "Production"
+      ],
+      "groups": [
+        {
+          "source": "Main Story",
+          "stages": [
+            [
+              "9-6",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Invitation from Paradise",
+          "stages": [
+            [
+              "Ev1-7",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Lightless Sanctuary",
+          "stages": [
+            [
+              "Ev3-2s",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Rose that Blooms atop of Lotus",
+          "stages": [
+            [
+              "Ev2-6",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Eternal Winter's Ark",
+          "stages": [
+            [
+              "Ev1-3",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Mini Companions' Onslaught ~Fierceness that Invites Storm~",
+          "stages": [
+            [
+              "Ev1-3",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Wolf's Fang of Fury",
+          "stages": [
+            [
+              "Ev2-3",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Blind Princess and the Land of Mist",
+          "stages": [
+            [
+              "Ev2-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Dreaming Mermaid's Island",
+          "stages": [
+            [
+              "Ev2-3B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Curtain Call After the Apocalypse",
+          "stages": [
+            [
+              "Ev1-3",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Sincerely, To Your End",
+          "stages": [
+            [
+              "Ev1-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Zero Base",
+          "stages": [
+            [
+              "Ev1-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Palace of the Reclusive Goddess",
+          "stages": [
+            [
+              "Ev1-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Corrupted Last Record",
+          "stages": [
+            [
+              "Ev2-3Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Orca Christmas Expo",
+          "stages": [
+            [
+              "Ev1-5",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/kunoichi-kaen.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/kunoichi-kaen.webp",
     "stats": {
@@ -19219,6 +39062,142 @@ export const loCharacters = [
     "height": "166cm",
     "weight": "51kg",
     "equipRec": "CCOG",
+    "farm": {
+      "notes": [
+        "Production"
+      ],
+      "groups": [
+        {
+          "source": "Main Story",
+          "stages": [
+            [
+              "9-3Ex",
+              ""
+            ],
+            [
+              "11-7",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Invitation from Paradise",
+          "stages": [
+            [
+              "Ev2-6",
+              ""
+            ],
+            [
+              "Ev3-4s",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Project ORCA Starlit Night Stage",
+          "stages": [
+            [
+              "Ev2-1",
+              "First Clear Reward"
+            ],
+            [
+              "Ev2-4",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Orca Date Contest",
+          "stages": [
+            [
+              "Ev1-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Wolf's Fang of Fury",
+          "stages": [
+            [
+              "Ev1-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Water Park on which the Sun Never Sets",
+          "stages": [
+            [
+              "Ev1-3Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Blind Princess and the Land of Mist",
+          "stages": [
+            [
+              "Ev3-4B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Sincerely, To Your End",
+          "stages": [
+            [
+              "Ev1-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Palace of the Reclusive Goddess",
+          "stages": [
+            [
+              "Ev1-6",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Daisenran ~Endless Storm of Violet Lightning~",
+          "stages": [
+            [
+              "Ev1-4",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Corrupted Last Record",
+          "stages": [
+            [
+              "Ev3-9",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Orca Christmas Expo",
+          "stages": [
+            [
+              "Ev2-3",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Bride of the Orca",
+          "stages": [
+            [
+              "Ev2-2Ex",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/hraesvelgr.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/hraesvelgr.webp",
     "stats": {
@@ -19330,6 +39309,184 @@ export const loCharacters = [
     "height": "180cm",
     "weight": "65kg",
     "equipRec": "CCOG",
+    "farm": {
+      "notes": [
+        "Production",
+        "Country within Muddy Memory's Exchange"
+      ],
+      "groups": [
+        {
+          "source": "Main Story",
+          "stages": [
+            [
+              "8-7",
+              ""
+            ],
+            [
+              "9-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Invitation from Paradise",
+          "stages": [
+            [
+              "Ev2-1Ex",
+              "First Clear Reward"
+            ]
+          ]
+        },
+        {
+          "source": "Somebody's Wish",
+          "stages": [
+            [
+              "Ev2-6",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Project ORCA Starlit Night Stage",
+          "stages": [
+            [
+              "Ev2-4B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Bunny? Niba! Thumpy Thump Reverse Bunny Trouble!",
+          "stages": [
+            [
+              "Ev2-5Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Mini Companions' Onslaught ~Fierceness that Invites Storm~",
+          "stages": [
+            [
+              "Ev1-5",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Wolf's Fang of Fury",
+          "stages": [
+            [
+              "Ev1-3Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Water Park on which the Sun Never Sets",
+          "stages": [
+            [
+              "Ev1-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Blind Princess and the Land of Mist",
+          "stages": [
+            [
+              "Ev1-4B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Dreaming Mermaid's Island",
+          "stages": [
+            [
+              "Ev1-4",
+              ""
+            ],
+            [
+              "Ev3-4B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Orca Film Festival",
+          "stages": [
+            [
+              "Ev1-2",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Sincerely, To Your End",
+          "stages": [
+            [
+              "Ev1-3Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Gold Out of Space",
+          "stages": [
+            [
+              "Ev2-7",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Zero Base",
+          "stages": [
+            [
+              "Ev2-4",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Palace of the Reclusive Goddess",
+          "stages": [
+            [
+              "Ev2-2",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Daisenran ~Endless Storm of Violet Lightning~",
+          "stages": [
+            [
+              "Ev2-1B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Project ORCA: Sun-Rising Stage",
+          "stages": [
+            [
+              "Ev1-5",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Living Dead Carnival",
+          "stages": [
+            [
+              "Ev1-2",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/wraith.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/wraith.webp",
     "stats": {
@@ -19446,6 +39603,105 @@ export const loCharacters = [
     "height": "174cm",
     "weight": "63kg",
     "equipRec": "CCOG",
+    "farm": {
+      "notes": [
+        "Production",
+        "Orca Date Contest's Exchange",
+        "The Girl Walking Through the Night's Exchange"
+      ],
+      "groups": [
+        {
+          "source": "Main Story",
+          "stages": [
+            [
+              "9-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Invitation from Paradise",
+          "stages": [
+            [
+              "Ev1-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Project ORCA Starlit Night Stage",
+          "stages": [
+            [
+              "Ev1-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Lightless Sanctuary",
+          "stages": [
+            [
+              "Ev2-3Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Mini Companions' Onslaught ~Fierceness that Invites Storm~",
+          "stages": [
+            [
+              "Ev1-3",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Orca Date Contest",
+          "stages": [
+            [
+              "Ev1-1B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Water Park on which the Sun Never Sets",
+          "stages": [
+            [
+              "Ev2-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Dreaming Mermaid's Island",
+          "stages": [
+            [
+              "Ev2-2B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Corrupted Last Record",
+          "stages": [
+            [
+              "Ev4-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Bride of the Orca",
+          "stages": [
+            [
+              "Ev2-1Ex",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/poi.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/poi.webp",
     "stats": {
@@ -19551,6 +39807,83 @@ export const loCharacters = [
     "height": "171cm",
     "weight": "57kg",
     "equipRec": "CCOG",
+    "farm": {
+      "notes": [],
+      "groups": [
+        {
+          "source": "Main Story",
+          "stages": [
+            [
+              "9-3Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Country within Muddy Memory",
+          "stages": [
+            [
+              "Ev2-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Somebody's Wish",
+          "stages": [
+            [
+              "Ev1-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Lightless Sanctuary",
+          "stages": [
+            [
+              "Ev3-1s",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Bunny? Niba! Thumpy Thump Reverse Bunny Trouble!",
+          "stages": [
+            [
+              "Ev2-6Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Water Park on which the Sun Never Sets",
+          "stages": [
+            [
+              "Ev3-5B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Blind Princess and the Land of Mist",
+          "stages": [
+            [
+              "Ev1-8B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Corrupted Last Record",
+          "stages": [
+            [
+              "Ev2-1Ex",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/leanne.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/leanne.webp",
     "stats": {
@@ -19660,6 +39993,83 @@ export const loCharacters = [
     "height": "171cm",
     "weight": "62kg",
     "equipRec": "CCOG",
+    "farm": {
+      "notes": [
+        "Production",
+        "One-Off Package (Once)",
+        "Eternal Winter's Ark's Exchange",
+        "Orca Date Contest's Exchange",
+        "Wolf's Fang of Fury's Exchange",
+        "Somebody's Wish's Exchange",
+        "Dreaming Mermaid's Island's Exchange",
+        "Top Secret Operation: Doki-Doki Love Schedule's Exchange"
+      ],
+      "groups": [
+        {
+          "source": "Main Story",
+          "stages": [
+            [
+              "9-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Somebody's Wish",
+          "stages": [
+            [
+              "Ev2-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Project ORCA Starlit Night Stage",
+          "stages": [
+            [
+              "Ev1-3Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Lightless Sanctuary",
+          "stages": [
+            [
+              "Ev1-3Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Curtain Call After the Apocalypse",
+          "stages": [
+            [
+              "Ev1-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "AGSes of the Orca, Unite!",
+          "stages": [
+            [
+              "Ev1-5Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Corrupted Last Record",
+          "stages": [
+            [
+              "Ev2-4Ex",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/eternity.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/eternity.webp",
     "stats": {
@@ -19785,6 +40195,59 @@ export const loCharacters = [
     "height": "185cm",
     "weight": "69kg",
     "equipRec": "CCOG",
+    "farm": {
+      "notes": [
+        "Production",
+        "Bunny? Niba! Thumpy Thump Reverse Bunny Trouble!'s Exchange"
+      ],
+      "groups": [
+        {
+          "source": "Main Story",
+          "stages": [
+            [
+              "9-3Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Project ORCA Starlit Night Stage",
+          "stages": [
+            [
+              "Ev2-3Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Water Park on which the Sun Never Sets",
+          "stages": [
+            [
+              "Ev3-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Dreaming Mermaid's Island",
+          "stages": [
+            [
+              "Ev3-2B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Top Secret Operation: Doki-Doki Love Schedule",
+          "stages": [
+            [
+              "Ev1-1Ex",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/azaz.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/azaz.webp",
     "stats": {
@@ -19887,6 +40350,22 @@ export const loCharacters = [
     "height": "Data Cracked",
     "weight": "Data Cracked",
     "equipRec": "CCOG",
+    "farm": {
+      "notes": [
+        "Lemonade Alpha can only be obtained by clearing 8-8 (Once) OR buying her One-Off Package (Once)."
+      ],
+      "groups": [
+        {
+          "source": "Main Story",
+          "stages": [
+            [
+              "8-8",
+              "First Clear Reward"
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/lemonade-alpha.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/lemonade-alpha.webp",
     "stats": {
@@ -19998,6 +40477,61 @@ export const loCharacters = [
     "height": "139cm",
     "weight": "31kg",
     "equipRec": "CGOC",
+    "farm": {
+      "notes": [
+        "Production",
+        "Project ORCA Starlit Night Stage's Exchange",
+        "Orca Date Contest's Exchange",
+        "The Gold Out of Space's Exchange"
+      ],
+      "groups": [
+        {
+          "source": "Main Story",
+          "stages": [
+            [
+              "10-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Lightless Sanctuary",
+          "stages": [
+            [
+              "Ev1-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Blind Princess and the Land of Mist",
+          "stages": [
+            [
+              "Ev3-7B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Orca Film Festival",
+          "stages": [
+            [
+              "Ev1-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Corrupted Last Record",
+          "stages": [
+            [
+              "Ev2-2Ex",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/ella.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/ella.webp",
     "stats": {
@@ -20102,6 +40636,77 @@ export const loCharacters = [
     "height": "185cm",
     "weight": "77kg",
     "equipRec": "CCOG",
+    "farm": {
+      "notes": [
+        "Production",
+        "The Water Park on which the Sun Never Sets' Exchange"
+      ],
+      "groups": [
+        {
+          "source": "Main Story",
+          "stages": [
+            [
+              "10-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Lightless Sanctuary",
+          "stages": [
+            [
+              "Ev1-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Blind Princess and the Land of Mist",
+          "stages": [
+            [
+              "Ev1-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Curtain Call After the Apocalypse",
+          "stages": [
+            [
+              "Ev2-3",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "For the Dreamless Mermaid",
+          "stages": [
+            [
+              "Ev2-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Project ORCA: Sun-Rising Stage",
+          "stages": [
+            [
+              "Ev1-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Orca Christmas Expo",
+          "stages": [
+            [
+              "Ev1-2EX",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/rena.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/rena.webp",
     "stats": {
@@ -20199,6 +40804,135 @@ export const loCharacters = [
     "height": "155cm",
     "weight": "44kg",
     "equipRec": "CCOG",
+    "farm": {
+      "notes": [
+        "Production",
+        "Invitation from Paradise's Exchange"
+      ],
+      "groups": [
+        {
+          "source": "Main Story",
+          "stages": [
+            [
+              "10-8",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Project ORCA Starlit Night Stage",
+          "stages": [
+            [
+              "Ev2-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Bunny? Niba! Thumpy Thump Reverse Bunny Trouble!",
+          "stages": [
+            [
+              "Ev2-4Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Wolf's Fang of Fury",
+          "stages": [
+            [
+              "Ev2-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Blind Princess and the Land of Mist",
+          "stages": [
+            [
+              "Ev1-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Orca Film Festival",
+          "stages": [
+            [
+              "Ev1-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Gold Out of Space",
+          "stages": [
+            [
+              "Ev1-4B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Zero Base",
+          "stages": [
+            [
+              "Ev1-3Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Palace of the Reclusive Goddess",
+          "stages": [
+            [
+              "Ev2-2B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Daisenran ~Endless Storm of Violet Lightning~",
+          "stages": [
+            [
+              "Ev1-4B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Corrupted Last Record",
+          "stages": [
+            [
+              "Ev3-8",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Orca Christmas Expo",
+          "stages": [
+            [
+              "Ev2-2",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Silent Swamp",
+          "stages": [
+            [
+              "Ev1-4Ex",
+              ""
+            ],
+            [
+              "Ev1-4EXH",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/mery.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/mery.webp",
     "stats": {
@@ -20294,6 +41028,60 @@ export const loCharacters = [
     "height": "183cm",
     "weight": "57kg",
     "equipRec": "CCOG",
+    "farm": {
+      "notes": [
+        "Production",
+        "The Water Park on which the Sun Never Sets' Exchange",
+        "The Girl Walking Through the Night's Exchange"
+      ],
+      "groups": [
+        {
+          "source": "Invitation from Paradise",
+          "stages": [
+            [
+              "Ev2-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Project ORCA Starlit Night Stage",
+          "stages": [
+            [
+              "Ev2-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Lightless Sanctuary",
+          "stages": [
+            [
+              "Ev2-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Blind Princess and the Land of Mist",
+          "stages": [
+            [
+              "Ev3-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Orca Film Festival",
+          "stages": [
+            [
+              "Ev1-6",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/machina.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/machina.webp",
     "stats": {
@@ -20403,6 +41191,93 @@ export const loCharacters = [
     "height": "170cm",
     "weight": "49kg",
     "equipRec": "CCOG",
+    "farm": {
+      "notes": [
+        "Production"
+      ],
+      "groups": [
+        {
+          "source": "Main Story",
+          "stages": [
+            [
+              "13-25",
+              ""
+            ],
+            [
+              "13-40",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Project ORCA Starlit Night Stage",
+          "stages": [
+            [
+              "Ev1-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Eternal Winter's Ark",
+          "stages": [
+            [
+              "Ev1-6",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Wolf's Fang of Fury",
+          "stages": [
+            [
+              "Ev1-4",
+              "First Clear Reward"
+            ],
+            [
+              "Ev1-4",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Blind Princess and the Land of Mist",
+          "stages": [
+            [
+              "Ev1-7B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "For the Dreamless Mermaid",
+          "stages": [
+            [
+              "Ev2-2",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Project ORCA: Sun-Rising Stage",
+          "stages": [
+            [
+              "Ev2-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Orca Christmas Expo",
+          "stages": [
+            [
+              "Ev1-4EX",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/salamander.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/salamander.webp",
     "stats": {
@@ -20516,6 +41391,40 @@ export const loCharacters = [
     "height": "164.5cm",
     "weight": "47kg",
     "equipRec": "OGCC",
+    "farm": {
+      "notes": [
+        "Production"
+      ],
+      "groups": [
+        {
+          "source": "The Water Park on which the Sun Never Sets",
+          "stages": [
+            [
+              "Ev1-3Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Dreaming Mermaid's Island",
+          "stages": [
+            [
+              "Ev2-4B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Dance of the Stars",
+          "stages": [
+            [
+              "Ev1-3Ex",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/scarabya.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/scarabya.webp",
     "stats": {
@@ -20621,6 +41530,278 @@ export const loCharacters = [
     "height": "171cm",
     "weight": "44kg",
     "equipRec": "CCOG",
+    "farm": {
+      "notes": [
+        "Production"
+      ],
+      "groups": [
+        {
+          "source": "Main Story",
+          "stages": [
+            [
+              "9-4B",
+              ""
+            ],
+            [
+              "11-3",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Project ORCA Starlit Night Stage",
+          "stages": [
+            [
+              "Ev1-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Lightless Sanctuary",
+          "stages": [
+            [
+              "Ev1-4",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Eternal Winter's Ark",
+          "stages": [
+            [
+              "Ev1-6",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Bunny? Niba! Thumpy Thump Reverse Bunny Trouble!",
+          "stages": [
+            [
+              "Ev2-4Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Orca Date Contest",
+          "stages": [
+            [
+              "Ev1-4Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Wolf's Fang of Fury",
+          "stages": [
+            [
+              "Ev1-3",
+              "First Clear Reward"
+            ],
+            [
+              "Ev1-3",
+              ""
+            ],
+            [
+              "Ev2-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Water Park on which the Sun Never Sets",
+          "stages": [
+            [
+              "Ev2-2B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Blind Princess and the Land of Mist",
+          "stages": [
+            [
+              "Ev1-5B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Dreaming Mermaid's Island",
+          "stages": [
+            [
+              "Ev2-2B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Orca Film Festival",
+          "stages": [
+            [
+              "Ev1-1",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Curtain Call After the Apocalypse",
+          "stages": [
+            [
+              "Ev2-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Gold Out of Space",
+          "stages": [
+            [
+              "Ev1-4",
+              ""
+            ],
+            [
+              "Ev3-4",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Zero Base",
+          "stages": [
+            [
+              "Ev1-3",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Adventuring at Sea Again",
+          "stages": [
+            [
+              "Ev1-7",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "For the Dreamless Mermaid",
+          "stages": [
+            [
+              "Ev1-6",
+              ""
+            ],
+            [
+              "Ev2-6",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Girl Walking Through the Night",
+          "stages": [
+            [
+              "Ev1-8",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Palace of the Reclusive Goddess",
+          "stages": [
+            [
+              "Ev1-8",
+              ""
+            ],
+            [
+              "Ev2-3",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Daisenran ~Endless Storm of Violet Lightning~",
+          "stages": [
+            [
+              "Ev1-6",
+              ""
+            ],
+            [
+              "Ev1-8",
+              ""
+            ],
+            [
+              "Ev2-7",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Project ORCA: Sun-Rising Stage",
+          "stages": [
+            [
+              "Ev1-6",
+              ""
+            ],
+            [
+              "Ev3-2",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Corrupted Last Record",
+          "stages": [
+            [
+              "Ev3-2",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Living Dead Carnival",
+          "stages": [
+            [
+              "Ev1-2",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Orca Christmas Expo",
+          "stages": [
+            [
+              "Ev2-3",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Dance of the Stars",
+          "stages": [
+            [
+              "Ev1-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Sisters of Omerta",
+          "stages": [
+            [
+              "Ev2-3Ex",
+              ""
+            ],
+            [
+              "Ev2-3EXH",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/hyena.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/hyena.webp",
     "stats": {
@@ -20738,6 +41919,22 @@ export const loCharacters = [
     "height": "180cm",
     "weight": "90kg",
     "equipRec": "OGCC",
+    "farm": {
+      "notes": [
+        "Lemonade Gamma can only be obtained by clearing 13-16 (Once) OR buying her One-Off Package (Once)."
+      ],
+      "groups": [
+        {
+          "source": "Main Story",
+          "stages": [
+            [
+              "13-16",
+              "First Clear Reward"
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/lemonade-gamma.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/lemonade-gamma.webp",
     "stats": {
@@ -20840,6 +42037,13 @@ export const loCharacters = [
     "height": "158cm",
     "weight": "51kg",
     "equipRec": "OCCG",
+    "farm": {
+      "notes": [
+        "Production",
+        "One-Off Package (Once)"
+      ],
+      "groups": []
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/rhode.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/rhode.webp",
     "stats": {
@@ -20978,6 +42182,41 @@ export const loCharacters = [
     "height": "150cm",
     "weight": "41kg",
     "equipRec": "CCOG",
+    "farm": {
+      "notes": [
+        "Production",
+        "One-Off Package (Once)"
+      ],
+      "groups": [
+        {
+          "source": "Corrupted Last Record",
+          "stages": [
+            [
+              "Ev3-4Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Living Dead Carnival",
+          "stages": [
+            [
+              "Ev1-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Bride of the Orca",
+          "stages": [
+            [
+              "Ev2-4Ex",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/merope.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/merope.webp",
     "stats": {
@@ -21073,6 +42312,51 @@ export const loCharacters = [
     "height": "156cm",
     "weight": "44kg",
     "equipRec": "OCCG",
+    "farm": {
+      "notes": [
+        "Production",
+        "Main Story Exchange Post (Chapter 12)",
+        "The Girl Walking Through the Night's Exchange"
+      ],
+      "groups": [
+        {
+          "source": "Main Story",
+          "stages": [
+            [
+              "13-5",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "AGSes of the Orca, Unite!",
+          "stages": [
+            [
+              "Ev1-3Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Palace of the Reclusive Goddess",
+          "stages": [
+            [
+              "Ev1-3Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Project ORCA: Sun-Rising Stage",
+          "stages": [
+            [
+              "Ev3-2B",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/merlin.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/merlin.webp",
     "stats": {
@@ -21175,6 +42459,31 @@ export const loCharacters = [
     "height": "8.18m<br>'''Length:''' 9.57m",
     "weight": "242t",
     "equipRec": "OCCG",
+    "farm": {
+      "notes": [
+        "Production"
+      ],
+      "groups": [
+        {
+          "source": "Project ORCA: Sun-Rising Stage",
+          "stages": [
+            [
+              "Ev3-4B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Orca Christmas Expo",
+          "stages": [
+            [
+              "Ev2-1EX",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/triton.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/triton.webp",
     "stats": {
@@ -21265,6 +42574,31 @@ export const loCharacters = [
     "height": "3.6m",
     "weight": "6.23t",
     "equipRec": "CCOG",
+    "farm": {
+      "notes": [
+        "Production"
+      ],
+      "groups": [
+        {
+          "source": "The Blind Princess and the Land of Mist",
+          "stages": [
+            [
+              "Ev2-3Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Orca Christmas Expo",
+          "stages": [
+            [
+              "Ev2-4EX",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/albatross.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/albatross.webp",
     "stats": {
@@ -21371,6 +42705,128 @@ export const loCharacters = [
     "height": "5.6m",
     "weight": "102.6t",
     "equipRec": "CCOG",
+    "farm": {
+      "notes": [
+        "Production"
+      ],
+      "groups": [
+        {
+          "source": "Main Story",
+          "stages": [
+            [
+              "3-2B",
+              "First Clear Reward"
+            ],
+            [
+              "3-2B",
+              ""
+            ],
+            [
+              "12-10B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Choco Queen in Wonderland",
+          "stages": [
+            [
+              "Ev2-6Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Wolf's Fang of Fury",
+          "stages": [
+            [
+              "Ev1-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Blind Princess and the Land of Mist",
+          "stages": [
+            [
+              "Ev3-3Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Gold Out of Space",
+          "stages": [
+            [
+              "Ev2-3Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Palace of the Reclusive Goddess",
+          "stages": [
+            [
+              "Ev2-2B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Project ORCA: Sun-Rising Stage",
+          "stages": [
+            [
+              "Ev2-5",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Corrupted Last Record",
+          "stages": [
+            [
+              "Ev1-4Ex",
+              ""
+            ],
+            [
+              "Ev4-4",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Orca Christmas Expo",
+          "stages": [
+            [
+              "Ev1-1EX",
+              ""
+            ],
+            [
+              "Ev2-4EX",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Dance of the Stars",
+          "stages": [
+            [
+              "Ev2-4Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "From Martial Arts With Love",
+          "stages": [
+            [
+              "Ev1-3Ex",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/seljuq.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/seljuq.webp",
     "stats": {
@@ -21519,6 +42975,80 @@ export const loCharacters = [
     "height": "3.5m",
     "weight": "49t",
     "equipRec": "CCOG",
+    "farm": {
+      "notes": [
+        "Production"
+      ],
+      "groups": [
+        {
+          "source": "Main Story",
+          "stages": [
+            [
+              "3-2B",
+              ""
+            ],
+            [
+              "12-11",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Bunny? Niba! Thumpy Thump Reverse Bunny Trouble!",
+          "stages": [
+            [
+              "Ev2-4B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Blind Princess and the Land of Mist",
+          "stages": [
+            [
+              "Ev3-3Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Gold Out of Space",
+          "stages": [
+            [
+              "Ev1-3B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Palace of the Reclusive Goddess",
+          "stages": [
+            [
+              "Ev1-2B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Corrupted Last Record",
+          "stages": [
+            [
+              "Ev1-8",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Orca Christmas Expo",
+          "stages": [
+            [
+              "Ev2-1B",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/gigantes.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/gigantes.webp",
     "stats": {
@@ -21632,6 +43162,7 @@ export const loCharacters = [
     "height": "1.85m",
     "weight": "0.96t",
     "equipRec": "CCOG",
+    "farm": null,
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/fallen.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/fallen.webp",
     "stats": {
@@ -21735,6 +43266,45 @@ export const loCharacters = [
     "height": "168cm",
     "weight": "56kg",
     "equipRec": "GCCO",
+    "farm": {
+      "notes": [
+        "Production",
+        "Eternal Winter's Ark's Exchange"
+      ],
+      "groups": [
+        {
+          "source": "Mini Companions' Onslaught ~Fierceness that Invites Storm~",
+          "stages": [
+            [
+              "Ev1-2",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Water Park on which the Sun Never Sets",
+          "stages": [
+            [
+              "Ev3-5B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Blind Princess and the Land of Mist",
+          "stages": [
+            [
+              "Ev1-6",
+              ""
+            ],
+            [
+              "Ev3-4",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/orellia.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/orellia.webp",
     "stats": {
@@ -21815,6 +43385,45 @@ export const loCharacters = [
     "height": "134cm",
     "weight": "31kg",
     "equipRec": "GCCO",
+    "farm": {
+      "notes": [
+        "Production",
+        "Eternal Winter's Ark's Exchange"
+      ],
+      "groups": [
+        {
+          "source": "Mini Companions' Onslaught ~Fierceness that Invites Storm~",
+          "stages": [
+            [
+              "Ev1-7",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Water Park on which the Sun Never Sets",
+          "stages": [
+            [
+              "Ev3-4B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Blind Princess and the Land of Mist",
+          "stages": [
+            [
+              "Ev1-6",
+              ""
+            ],
+            [
+              "Ev3-4",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/tachi.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/tachi.webp",
     "stats": {
@@ -21897,6 +43506,14 @@ export const loCharacters = [
     "height": "165cm",
     "weight": "49kg",
     "equipRec": "CCOG",
+    "farm": {
+      "notes": [
+        "Production",
+        "One-Off Package (Once)",
+        "Top Secret Operation: Doki-Doki Love Schedule's Exchange"
+      ],
+      "groups": []
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/kunoichi-shiden.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/kunoichi-shiden.webp",
     "stats": {
@@ -22013,6 +43630,59 @@ export const loCharacters = [
     "height": "168cm (On Profile)",
     "weight": "48kg (On Profile)",
     "equipRec": "CCOG",
+    "farm": {
+      "notes": [
+        "Production",
+        "Orca Date Contest's Exchange"
+      ],
+      "groups": [
+        {
+          "source": "Dreaming Mermaid's Island",
+          "stages": [
+            [
+              "Ev2-3Ex",
+              "First Clear Reward"
+            ]
+          ]
+        },
+        {
+          "source": "Orca Date Contest",
+          "stages": [
+            [
+              "Ev1-5Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Gold Out of Space",
+          "stages": [
+            [
+              "Ev3-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Palace of the Reclusive Goddess",
+          "stages": [
+            [
+              "Ev2-3Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Project ORCA: Sun-Rising Stage",
+          "stages": [
+            [
+              "Ev2-2Ex",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/erato.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/erato.webp",
     "stats": {
@@ -22122,6 +43792,95 @@ export const loCharacters = [
     "height": "171cm",
     "weight": "58kg",
     "equipRec": "CCOG",
+    "farm": {
+      "notes": [
+        "Production",
+        "Project ORCA Starlit Night Stage's Exchange"
+      ],
+      "groups": [
+        {
+          "source": "Main Story",
+          "stages": [
+            [
+              "9-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Lightless Sanctuary",
+          "stages": [
+            [
+              "Ev2-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Water Park on which the Sun Never Sets",
+          "stages": [
+            [
+              "Ev3-2B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Blind Princess and the Land of Mist",
+          "stages": [
+            [
+              "Ev3-6",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Orca Film Festival",
+          "stages": [
+            [
+              "Ev1-4",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Palace of the Reclusive Goddess",
+          "stages": [
+            [
+              "Ev1-5",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Daisenran ~Endless Storm of Violet Lightning~",
+          "stages": [
+            [
+              "Ev2-2B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Corrupted Last Record",
+          "stages": [
+            [
+              "Ev3-9",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Dance of the Stars",
+          "stages": [
+            [
+              "Ev2-3Ex",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/muse.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/muse.webp",
     "stats": {
@@ -22239,6 +43998,112 @@ export const loCharacters = [
     "height": "164cm",
     "weight": "52kg",
     "equipRec": "CCOG",
+    "farm": {
+      "notes": [
+        "Production"
+      ],
+      "groups": [
+        {
+          "source": "Main Story",
+          "stages": [
+            [
+              "9-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Lightless Sanctuary",
+          "stages": [
+            [
+              "Ev2-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Wolf's Fang of Fury",
+          "stages": [
+            [
+              "Ev2-7",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Water Park on which the Sun Never Sets",
+          "stages": [
+            [
+              "Ev1-5B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Blind Princess and the Land of Mist",
+          "stages": [
+            [
+              "Ev3-6",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Dreaming Mermaid's Island",
+          "stages": [
+            [
+              "Ev2-1B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Gold Out of Space",
+          "stages": [
+            [
+              "Ev3-3B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "For the Dreamless Mermaid",
+          "stages": [
+            [
+              "Ev1-3",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Project ORCA: Sun-Rising Stage",
+          "stages": [
+            [
+              "Ev3-3",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Living Dead Carnival",
+          "stages": [
+            [
+              "Ev1-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Top Secret Operation: Doki-Doki Love Schedule",
+          "stages": [
+            [
+              "Ev1-2Ex",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/boryeon.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/boryeon.webp",
     "stats": {
@@ -22341,6 +44206,63 @@ export const loCharacters = [
     "height": "162cm",
     "weight": "47kg",
     "equipRec": "CCOG",
+    "farm": {
+      "notes": [
+        "Production",
+        "Orca Date Contest's Exchange"
+      ],
+      "groups": [
+        {
+          "source": "Main Story",
+          "stages": [
+            [
+              "9-4",
+              "First Clear Reward"
+            ],
+            [
+              "10-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Water Park on which the Sun Never Sets",
+          "stages": [
+            [
+              "Ev3-3B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Zero Base",
+          "stages": [
+            [
+              "Ev1-3B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Palace of the Reclusive Goddess",
+          "stages": [
+            [
+              "Ev2-5",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Project ORCA: Sun-Rising Stage",
+          "stages": [
+            [
+              "Ev3-3B",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/orangeade.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/orangeade.webp",
     "stats": {
@@ -22474,6 +44396,42 @@ export const loCharacters = [
     "height": "181cm",
     "weight": "75kg",
     "equipRec": "CCOG",
+    "farm": {
+      "notes": [
+        "Production",
+        "Orca Film Festival's Exchange",
+        "AGSes of the Orca, Unite!'s Exhange"
+      ],
+      "groups": [
+        {
+          "source": "Zero Base",
+          "stages": [
+            [
+              "Ev1-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Palace of the Reclusive Goddess",
+          "stages": [
+            [
+              "Ev1-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Living Dead Carnival",
+          "stages": [
+            [
+              "Ev1-1Ex",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/hathor.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/hathor.webp",
     "stats": {
@@ -22576,6 +44534,22 @@ export const loCharacters = [
     "height": "175cm",
     "weight": "'''60'''kg",
     "equipRec": "CCOG",
+    "farm": {
+      "notes": [
+        "Lemonade Beta can only be obtained by clearing 12-16 (Once) OR buying her One-Off Package (Once)."
+      ],
+      "groups": [
+        {
+          "source": "Main Story",
+          "stages": [
+            [
+              "12-16",
+              "First Clear Reward"
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/lemonade-beta.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/lemonade-beta.webp",
     "stats": {
@@ -22680,6 +44654,40 @@ export const loCharacters = [
     "height": "2.5 M",
     "weight": "20.5 T",
     "equipRec": "CCOG",
+    "farm": {
+      "notes": [
+        "Production"
+      ],
+      "groups": [
+        {
+          "source": "Main Story",
+          "stages": [
+            [
+              "13-27",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Palace of the Reclusive Goddess",
+          "stages": [
+            [
+              "Ev2-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Project ORCA: Sun-Rising Stage",
+          "stages": [
+            [
+              "Ev2-3Ex",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/deathstalker.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/deathstalker.webp",
     "stats": {
@@ -22786,6 +44794,115 @@ export const loCharacters = [
     "height": "2.14m",
     "weight": "0.54t",
     "equipRec": "CCOG",
+    "farm": {
+      "notes": [
+        "Production"
+      ],
+      "groups": [
+        {
+          "source": "Main Story",
+          "stages": [
+            [
+              "9-7B",
+              ""
+            ],
+            [
+              "13-26",
+              ""
+            ],
+            [
+              "13-35",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Aria of the Elven Town",
+          "stages": [
+            [
+              "Ev2-2B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Bunny? Niba! Thumpy Thump Reverse Bunny Trouble!",
+          "stages": [
+            [
+              "Ev2-4B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Orca Date Contest",
+          "stages": [
+            [
+              "Ev1-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Wolf's Fang of Fury",
+          "stages": [
+            [
+              "Ev2-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Blind Princess and the Land of Mist",
+          "stages": [
+            [
+              "Ev2-3Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Palace of the Reclusive Goddess",
+          "stages": [
+            [
+              "Ev2-1B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Project ORCA: Sun-Rising Stage",
+          "stages": [
+            [
+              "Ev2-6",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Corrupted Last Record",
+          "stages": [
+            [
+              "Ev2-2",
+              ""
+            ],
+            [
+              "Ev4-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Orca Christmas Expo",
+          "stages": [
+            [
+              "Ev1-2EX",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/spartan-captain.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/spartan-captain.webp",
     "stats": {
@@ -22885,6 +45002,7 @@ export const loCharacters = [
     "height": "2m",
     "weight": "0.54t",
     "equipRec": "CCOG",
+    "farm": null,
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/spartan-assault.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/spartan-assault.webp",
     "stats": {
@@ -22977,6 +45095,7 @@ export const loCharacters = [
     "height": "2.1m",
     "weight": "0.67t",
     "equipRec": "CCOG",
+    "farm": null,
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/spartan-boomer.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/spartan-boomer.webp",
     "stats": {
@@ -23069,6 +45188,40 @@ export const loCharacters = [
     "height": "4.8m",
     "weight": "9.98t",
     "equipRec": "OCCG",
+    "farm": {
+      "notes": [
+        "Production"
+      ],
+      "groups": [
+        {
+          "source": "Legacy of Rioboros",
+          "stages": [
+            [
+              "Ev3-8",
+              "First Clear Reward"
+            ]
+          ]
+        },
+        {
+          "source": "Project ORCA: Sun-Rising Stage",
+          "stages": [
+            [
+              "Ev3-4B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Orca Christmas Expo",
+          "stages": [
+            [
+              "Ev2-3EX",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/roc.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/roc.webp",
     "stats": {
@@ -23174,6 +45327,107 @@ export const loCharacters = [
     "height": "2.3m",
     "weight": "65t",
     "equipRec": "CCOG",
+    "farm": {
+      "notes": [
+        "Production"
+      ],
+      "groups": [
+        {
+          "source": "Country within Muddy Memory",
+          "stages": [
+            [
+              "Ev2-2",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Bunny? Niba! Thumpy Thump Reverse Bunny Trouble!",
+          "stages": [
+            [
+              "Ev2-4B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Orca Date Contest",
+          "stages": [
+            [
+              "Ev1-5Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Wolf's Fang of Fury",
+          "stages": [
+            [
+              "Ev2-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Gold Out of Space",
+          "stages": [
+            [
+              "Ev1-1B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Palace of the Reclusive Goddess",
+          "stages": [
+            [
+              "Ev2-1B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Project ORCA: Sun-Rising Stage",
+          "stages": [
+            [
+              "Ev1-2",
+              ""
+            ],
+            [
+              "Ev2-7",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Corrupted Last Record",
+          "stages": [
+            [
+              "Ev2-10",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Living Dead Carnival",
+          "stages": [
+            [
+              "Ev1-2",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Orca Christmas Expo",
+          "stages": [
+            [
+              "Ev1-3EX",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/fortress.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/fortress.webp",
     "stats": {
@@ -23312,6 +45566,33 @@ export const loCharacters = [
     "height": "10.24m<br/>'''Length''': 22.33m",
     "weight": "412t",
     "equipRec": "CCOG",
+    "farm": {
+      "notes": [
+        "Production",
+        "Project ORCA Starlit Night Stage's Exchange",
+        "Orca Date Contest's Exchange"
+      ],
+      "groups": [
+        {
+          "source": "Main Story",
+          "stages": [
+            [
+              "11-5",
+              "First Clear Reward"
+            ]
+          ]
+        },
+        {
+          "source": "Orca Christmas Expo",
+          "stages": [
+            [
+              "Ev2-1EX",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/tyrant.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/tyrant.webp",
     "stats": {
@@ -23418,6 +45699,49 @@ export const loCharacters = [
     "height": "230cm",
     "weight": "520kg",
     "equipRec": "OCCG",
+    "farm": {
+      "notes": [
+        "Production"
+      ],
+      "groups": [
+        {
+          "source": "Main Story",
+          "stages": [
+            [
+              "9-6B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Palace of the Reclusive Goddess",
+          "stages": [
+            [
+              "Ev2-3Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Project ORCA: Sun-Rising Stage",
+          "stages": [
+            [
+              "Ev2-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Orca Christmas Expo",
+          "stages": [
+            [
+              "Ev1-2",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/rhein-ritter.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/rhein-ritter.webp",
     "stats": {
@@ -23521,6 +45845,31 @@ export const loCharacters = [
     "height": "3.5m",
     "weight": "42t",
     "equipRec": "CCOG",
+    "farm": {
+      "notes": [
+        "Production"
+      ],
+      "groups": [
+        {
+          "source": "Aria of the Elven Town",
+          "stages": [
+            [
+              "Ev3-3s",
+              "First Clear Reward"
+            ]
+          ]
+        },
+        {
+          "source": "Orca Christmas Expo",
+          "stages": [
+            [
+              "Ev2-1B",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/mr-alfred.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/mr-alfred.webp",
     "stats": {
@@ -23633,6 +45982,115 @@ export const loCharacters = [
     "height": "2.3m",
     "weight": "1.2t",
     "equipRec": "CCOG",
+    "farm": {
+      "notes": [
+        "Production"
+      ],
+      "groups": [
+        {
+          "source": "Bunny? Niba! Thumpy Thump Reverse Bunny Trouble!",
+          "stages": [
+            [
+              "Ev2-4B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Wolf's Fang of Fury",
+          "stages": [
+            [
+              "Ev2-6",
+              ""
+            ],
+            [
+              "Ev2-1B",
+              ""
+            ],
+            [
+              "Ev3-5",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Zero Base",
+          "stages": [
+            [
+              "Ev1-4",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Palace of the Reclusive Goddess",
+          "stages": [
+            [
+              "Ev2-2",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Project ORCA: Sun-Rising Stage",
+          "stages": [
+            [
+              "Ev1-6",
+              ""
+            ],
+            [
+              "Ev2-3Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Corrupted Last Record",
+          "stages": [
+            [
+              "Ev3-1",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Living Dead Carnival",
+          "stages": [
+            [
+              "Ev1-1",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Orca Christmas Expo",
+          "stages": [
+            [
+              "Ev2-3",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Dance of the Stars",
+          "stages": [
+            [
+              "Ev1-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Sisters of Omerta",
+          "stages": [
+            [
+              "Ev1-5",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/watcher.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/watcher.webp",
     "stats": {
@@ -23728,6 +46186,53 @@ export const loCharacters = [
     "height": "6.1m<br/>'''Length''': 15.2m",
     "weight": "490t",
     "equipRec": "CCOG",
+    "farm": {
+      "notes": [
+        "Production"
+      ],
+      "groups": [
+        {
+          "source": "Main Story",
+          "stages": [
+            [
+              "11-4",
+              "First Clear Reward"
+            ]
+          ]
+        },
+        {
+          "source": "The Blind Princess and the Land of Mist",
+          "stages": [
+            [
+              "Ev2-8",
+              "First Clear Reward"
+            ],
+            [
+              "Ev2-3Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Corrupted Last Record",
+          "stages": [
+            [
+              "Ev3-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Orca Christmas Expo",
+          "stages": [
+            [
+              "Ev2-4EX",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/stronghold.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/stronghold.webp",
     "stats": {
@@ -23832,6 +46337,42 @@ export const loCharacters = [
     "height": "176cm",
     "weight": "58kg",
     "equipRec": "CGCO",
+    "farm": {
+      "notes": [
+        "Production",
+        "The Water Park on which the Sun Never Sets' Exchange",
+        "Main Story Exchange Post (Chapter 13)"
+      ],
+      "groups": [
+        {
+          "source": "Dreaming Mermaid's Island",
+          "stages": [
+            [
+              "Ev1-4B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Corrupted Last Record",
+          "stages": [
+            [
+              "Ev1-3Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "From Martial Arts With Love",
+          "stages": [
+            [
+              "Ev1-1Ex",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/sonia.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/sonia.webp",
     "stats": {
@@ -23943,6 +46484,103 @@ export const loCharacters = [
     "height": "127cm",
     "weight": "25kg",
     "equipRec": "CCOG",
+    "farm": {
+      "notes": [
+        "Production"
+      ],
+      "groups": [
+        {
+          "source": "Main Story",
+          "stages": [
+            [
+              "10-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Rose that Blooms atop of Lotus",
+          "stages": [
+            [
+              "Ev1-5",
+              "First Clear Reward"
+            ]
+          ]
+        },
+        {
+          "source": "The Water Park on which the Sun Never Sets",
+          "stages": [
+            [
+              "Ev3-6B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Blind Princess and the Land of Mist",
+          "stages": [
+            [
+              "Ev3-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Gold Out of Space",
+          "stages": [
+            [
+              "Ev2-6",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Zero Base",
+          "stages": [
+            [
+              "Ev1-2B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Palace of the Reclusive Goddess",
+          "stages": [
+            [
+              "Ev2-1B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Corrupted Last Record",
+          "stages": [
+            [
+              "Ev2-4Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Dance of the Stars",
+          "stages": [
+            [
+              "Ev1-4Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Sisters of Omerta",
+          "stages": [
+            [
+              "Ev1-3",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/ellie.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/ellie.webp",
     "stats": {
@@ -24046,6 +46684,87 @@ export const loCharacters = [
     "height": "178cm",
     "weight": "53kg",
     "equipRec": "CCOG",
+    "farm": {
+      "notes": [
+        "Production",
+        "Wolf's Fang of Fury's Exchange",
+        "The Girl Walking Through the Night's Exchange"
+      ],
+      "groups": [
+        {
+          "source": "Main Story",
+          "stages": [
+            [
+              "13-36",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Lightless Sanctuary",
+          "stages": [
+            [
+              "Ev2-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Rose that Blooms atop of Lotus",
+          "stages": [
+            [
+              "Ev1-2",
+              "First Clear Reward"
+            ]
+          ]
+        },
+        {
+          "source": "The Water Park on which the Sun Never Sets",
+          "stages": [
+            [
+              "Ev3-3Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Blind Princess and the Land of Mist",
+          "stages": [
+            [
+              "Ev3-4B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Dreaming Mermaid's Island",
+          "stages": [
+            [
+              "Ev1-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Gold Out of Space",
+          "stages": [
+            [
+              "Ev2-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Dance of the Stars",
+          "stages": [
+            [
+              "Ev1-1Ex",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/nicky-tracy.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/nicky-tracy.webp",
     "stats": {
@@ -24141,6 +46860,40 @@ export const loCharacters = [
     "height": "9.8m<br>'''Length:''' 16.78m",
     "weight": "27t",
     "equipRec": "CCOG",
+    "farm": {
+      "notes": [
+        "Production"
+      ],
+      "groups": [
+        {
+          "source": "The Blind Princess and the Land of Mist",
+          "stages": [
+            [
+              "Ev3-3Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Corrupted Last Record",
+          "stages": [
+            [
+              "Ev3-3Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Orca Christmas Expo",
+          "stages": [
+            [
+              "Ev2-2EX",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/glacias.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/glacias.webp",
     "stats": {
@@ -24236,6 +46989,131 @@ export const loCharacters = [
     "height": "175cm",
     "weight": "65kg",
     "equipRec": "CCOG",
+    "farm": {
+      "notes": [
+        "Production",
+        "Rose that Blooms atop of Lotus's Exchange"
+      ],
+      "groups": [
+        {
+          "source": "Main Story",
+          "stages": [
+            [
+              "10-6",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Lightless Sanctuary",
+          "stages": [
+            [
+              "Ev2-3Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Bunny? Niba! Thumpy Thump Reverse Bunny Trouble!",
+          "stages": [
+            [
+              "Ev2-6Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Mini Companions' Onslaught ~Fierceness that Invites Storm~",
+          "stages": [
+            [
+              "Ev1-6",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Wolf's Fang of Fury",
+          "stages": [
+            [
+              "Ev1-3",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Blind Princess and the Land of Mist",
+          "stages": [
+            [
+              "Ev1-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Dreaming Mermaid's Island",
+          "stages": [
+            [
+              "Ev1-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Gold Out of Space",
+          "stages": [
+            [
+              "Ev3-3",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "For the Dreamless Mermaid",
+          "stages": [
+            [
+              "Ev2-6",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Project ORCA: Sun-Rising Stage",
+          "stages": [
+            [
+              "Ev2-6",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Living Dead Carnival",
+          "stages": [
+            [
+              "Ev1-3Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Dance of the Stars",
+          "stages": [
+            [
+              "Ev2-3Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Sisters of Omerta",
+          "stages": [
+            [
+              "Ev2-4",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/queen-of-mane.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/queen-of-mane.webp",
     "stats": {
@@ -24346,6 +47224,68 @@ export const loCharacters = [
     "height": "171cm",
     "weight": "57kg",
     "equipRec": "CCOG",
+    "farm": {
+      "notes": [
+        "Production",
+        "Bunny? Niba! Thumpy Thump Reverse Bunny Trouble!'s Exchange"
+      ],
+      "groups": [
+        {
+          "source": "Main Story",
+          "stages": [
+            [
+              "13-14",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Eternal Winter's Ark",
+          "stages": [
+            [
+              "Ev1-1",
+              "First Clear Reward"
+            ]
+          ]
+        },
+        {
+          "source": "Orca Date Contest",
+          "stages": [
+            [
+              "Ev1-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Water Park on which the Sun Never Sets",
+          "stages": [
+            [
+              "Ev1-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Blind Princess and the Land of Mist",
+          "stages": [
+            [
+              "Ev1-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Gold Out of Space",
+          "stages": [
+            [
+              "Ev2-3Ex",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/mnemosyne.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/mnemosyne.webp",
     "stats": {
@@ -24458,6 +47398,235 @@ export const loCharacters = [
     "height": "173cm",
     "weight": "54kg",
     "equipRec": "CCOG",
+    "farm": {
+      "notes": [
+        "Production"
+      ],
+      "groups": [
+        {
+          "source": "Main Story",
+          "stages": [
+            [
+              "9-8",
+              ""
+            ],
+            [
+              "9-5B",
+              ""
+            ],
+            [
+              "11-2Ex",
+              ""
+            ],
+            [
+              "12-1",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Rose that Blooms atop of Lotus",
+          "stages": [
+            [
+              "Ev2-6",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Eternal Winter's Ark",
+          "stages": [
+            [
+              "Ev1-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Bunny? Niba! Thumpy Thump Reverse Bunny Trouble!",
+          "stages": [
+            [
+              "Ev2-6Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Mini Companions' Onslaught ~Fierceness that Invites Storm~",
+          "stages": [
+            [
+              "Ev1-5",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Wolf's Fang of Fury",
+          "stages": [
+            [
+              "Ev3-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Water Park on which the Sun Never Sets",
+          "stages": [
+            [
+              "Ev2-1B",
+              ""
+            ],
+            [
+              "Ev3-3Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Blind Princess and the Land of Mist",
+          "stages": [
+            [
+              "Ev2-4B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Dreaming Mermaid's Island",
+          "stages": [
+            [
+              "Ev2-3B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Curtain Call After the Apocalypse",
+          "stages": [
+            [
+              "Ev1-5",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Gold Out of Space",
+          "stages": [
+            [
+              "Ev3-3",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Adventuring at Sea Again",
+          "stages": [
+            [
+              "Ev1-6",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "For the Dreamless Mermaid",
+          "stages": [
+            [
+              "Ev1-5",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Palace of the Reclusive Goddess",
+          "stages": [
+            [
+              "Ev1-1B",
+              ""
+            ],
+            [
+              "Ev2-4",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Daisenran ~Endless Storm of Violet Lightning~",
+          "stages": [
+            [
+              "Ev1-3B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Project ORCA: Sun-Rising Stage",
+          "stages": [
+            [
+              "Ev1-6",
+              ""
+            ],
+            [
+              "Ev3-3",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Corrupted Last Record",
+          "stages": [
+            [
+              "Ev3-2",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Living Dead Carnival",
+          "stages": [
+            [
+              "Ev1-3",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Orca Christmas Expo",
+          "stages": [
+            [
+              "Ev2-3",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Dance of the Stars",
+          "stages": [
+            [
+              "Ev1-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Top Secret Operation: Doki-Doki Love Schedule",
+          "stages": [
+            [
+              "Ev1-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Sisters of Omerta",
+          "stages": [
+            [
+              "Ev1-3",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/hussar.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/hussar.webp",
     "stats": {
@@ -24568,6 +47737,82 @@ export const loCharacters = [
     "height": "167cm",
     "weight": "49kg",
     "equipRec": "CCOG",
+    "farm": {
+      "notes": [
+        "Production",
+        "Eternal Winter's Ark's Exchange",
+        "Orca Date Contest's Exchange"
+      ],
+      "groups": [
+        {
+          "source": "Main Story",
+          "stages": [
+            [
+              "9-8",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Lightless Sanctuary",
+          "stages": [
+            [
+              "Ev2-3Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Water Park on which the Sun Never Sets",
+          "stages": [
+            [
+              "Ev1-6B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Curtain Call After the Apocalypse",
+          "stages": [
+            [
+              "Ev2-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Girl Walking Through the Night",
+          "stages": [
+            [
+              "Ev1-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Palace of the Reclusive Goddess",
+          "stages": [
+            [
+              "Ev1-3Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Sisters of Omerta",
+          "stages": [
+            [
+              "Ev1-3Ex",
+              ""
+            ],
+            [
+              "Ev1-3EXH",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/ramiel.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/ramiel.webp",
     "stats": {
@@ -24666,6 +47911,59 @@ export const loCharacters = [
     "height": "3.5m<br/>'''Width:''' 5.2m",
     "weight": "72t",
     "equipRec": "CCOG",
+    "farm": {
+      "notes": [
+        "Production",
+        "Bunny? Niba! Thumpy Thump Reverse Bunny Trouble!'s Exchange"
+      ],
+      "groups": [
+        {
+          "source": "Mini Companions' Onslaught ~Fierceness that Invites Storm~",
+          "stages": [
+            [
+              "Ev1-7",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Blind Princess and the Land of Mist",
+          "stages": [
+            [
+              "Ev2-3Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Palace of the Reclusive Goddess",
+          "stages": [
+            [
+              "Ev1-1B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Corrupted Last Record",
+          "stages": [
+            [
+              "Ev2-10",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Orca Christmas Expo",
+          "stages": [
+            [
+              "Ev2-2B",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/arachne.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/arachne.webp",
     "stats": {
@@ -24756,6 +48054,86 @@ export const loCharacters = [
     "height": "172cm",
     "weight": "66kg",
     "equipRec": "CCOG",
+    "farm": {
+      "notes": [
+        "Production",
+        "One-Off Package (Once)"
+      ],
+      "groups": [
+        {
+          "source": "Main Story",
+          "stages": [
+            [
+              "13-27",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Eternal Winter's Ark",
+          "stages": [
+            [
+              "Ev1-3Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Blind Princess and the Land of Mist",
+          "stages": [
+            [
+              "Ev3-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Orca Film Festival",
+          "stages": [
+            [
+              "Ev1-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Gold Out of Space",
+          "stages": [
+            [
+              "Ev3-3Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Girl Walking Through the Night",
+          "stages": [
+            [
+              "Ev1-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "AGSes of the Orca, Unite!",
+          "stages": [
+            [
+              "Ev1-3Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Palace of the Reclusive Goddess",
+          "stages": [
+            [
+              "Ev1-2Ex",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/sekhmet.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/sekhmet.webp",
     "stats": {
@@ -24865,6 +48243,40 @@ export const loCharacters = [
     "height": "3.9m (Falcon) / 6.7m (Human)<br>'''Length:''' 10.3m",
     "weight": "3.1t",
     "equipRec": "OCCG",
+    "farm": {
+      "notes": [
+        "Production"
+      ],
+      "groups": [
+        {
+          "source": "The Blind Princess and the Land of Mist",
+          "stages": [
+            [
+              "Ev3-3Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Corrupted Last Record",
+          "stages": [
+            [
+              "Ev4-3Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Orca Christmas Expo",
+          "stages": [
+            [
+              "Ev2-3EX",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/peregrinus.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/peregrinus.webp",
     "stats": {
@@ -24987,6 +48399,51 @@ export const loCharacters = [
     "height": "155cm",
     "weight": "42kg",
     "equipRec": "GCOC",
+    "farm": {
+      "notes": [
+        "Production",
+        "The Blind Princess and the Land of Mist's Exchange",
+        "The Silent Swamp's Exchange"
+      ],
+      "groups": [
+        {
+          "source": "Mini Companions' Onslaught ~Fierceness that Invites Storm~",
+          "stages": [
+            [
+              "Ev1-7",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Water Park on which the Sun Never Sets",
+          "stages": [
+            [
+              "Ev1-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Dreaming Mermaid's Island",
+          "stages": [
+            [
+              "Ev2-6",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Corrupted Last Record",
+          "stages": [
+            [
+              "Ev3-1Ex",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/cyclops-princess.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/cyclops-princess.webp",
     "stats": {
@@ -25089,6 +48546,40 @@ export const loCharacters = [
     "height": "180cm",
     "weight": "81kg",
     "equipRec": "GCOC",
+    "farm": {
+      "notes": [
+        "Production"
+      ],
+      "groups": [
+        {
+          "source": "The Gold Out of Space",
+          "stages": [
+            [
+              "Ev3-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "AGSes of the Orca, Unite!",
+          "stages": [
+            [
+              "Ev1-4Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Living Dead Carnival",
+          "stages": [
+            [
+              "Ev1-4Ex",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/blind-princess.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/blind-princess.webp",
     "stats": {
@@ -25184,6 +48675,22 @@ export const loCharacters = [
     "height": "8.7m<br>'''Length:''' 17.5m",
     "weight": "56.5t",
     "equipRec": "CGOC",
+    "farm": {
+      "notes": [
+        "Production"
+      ],
+      "groups": [
+        {
+          "source": "Orca Christmas Expo",
+          "stages": [
+            [
+              "Ev2-2EX",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/nidhogg.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/nidhogg.webp",
     "stats": {
@@ -25279,6 +48786,25 @@ export const loCharacters = [
     "height": "163 cm",
     "weight": "50 kg",
     "equipRec": "GCOC",
+    "farm": {
+      "notes": [
+        "Production",
+        "One-Off Package (Once)",
+        "Project ORCA: Sun-Rising Stage's Exchange",
+        "The Silent Swamp's Exchange"
+      ],
+      "groups": [
+        {
+          "source": "Living Dead Carnival",
+          "stages": [
+            [
+              "Ev1-1Ex",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/dione.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/dione.webp",
     "stats": {
@@ -25381,6 +48907,13 @@ export const loCharacters = [
     "height": "170cm",
     "weight": "57kg",
     "equipRec": "CCOG",
+    "farm": {
+      "notes": [
+        "Production",
+        "One-Off Package (Once)"
+      ],
+      "groups": []
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/melt.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/melt.webp",
     "stats": {
@@ -25484,6 +49017,13 @@ export const loCharacters = [
     "height": "135cm",
     "weight": "4.5kg",
     "equipRec": "CCOG",
+    "farm": {
+      "notes": [
+        "Production",
+        "One-Off Package (Once)"
+      ],
+      "groups": []
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/ireina.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/ireina.webp",
     "stats": {
@@ -25594,6 +49134,63 @@ export const loCharacters = [
     "height": "175cm",
     "weight": "55kg",
     "equipRec": "GOCC",
+    "farm": {
+      "notes": [
+        "Production",
+        "The Blind Princess and the Land of Mist's Exchange"
+      ],
+      "groups": [
+        {
+          "source": "Main Story",
+          "stages": [
+            [
+              "11-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Orca Film Festival",
+          "stages": [
+            [
+              "Ev2-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "AGSes of the Orca, Unite!",
+          "stages": [
+            [
+              "Ev1-4Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Project ORCA: Sun-Rising Stage",
+          "stages": [
+            [
+              "Ev2-3Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Sisters of Omerta",
+          "stages": [
+            [
+              "Ev1-4Ex",
+              ""
+            ],
+            [
+              "Ev1-4EXH",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/brunhild.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/brunhild.webp",
     "stats": {
@@ -25696,6 +49293,50 @@ export const loCharacters = [
     "height": "163cm",
     "weight": "39kg",
     "equipRec": "COGC",
+    "farm": {
+      "notes": [
+        "Production",
+        "Dreaming Mermaid's Island's Exchange"
+      ],
+      "groups": [
+        {
+          "source": "Main Story",
+          "stages": [
+            [
+              "11-1B",
+              "First Clear Reward"
+            ]
+          ]
+        },
+        {
+          "source": "Eternal Winter's Ark",
+          "stages": [
+            [
+              "Ev2-7",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Zero Base",
+          "stages": [
+            [
+              "Ev1-3Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Corrupted Last Record",
+          "stages": [
+            [
+              "Ev1-4Ex",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/hela.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/hela.webp",
     "stats": {
@@ -25791,6 +49432,13 @@ export const loCharacters = [
     "height": "155cm",
     "weight": "38kg",
     "equipRec": "GCCO",
+    "farm": {
+      "notes": [
+        "Production",
+        "One-Off Package (Once)"
+      ],
+      "groups": []
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/wistar.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/wistar.webp",
     "stats": {
@@ -25893,6 +49541,13 @@ export const loCharacters = [
     "height": "185cm",
     "weight": "71kg",
     "equipRec": "CCOG",
+    "farm": {
+      "notes": [
+        "Production",
+        "One-Off Package (Once)"
+      ],
+      "groups": []
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/nerites.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/nerites.webp",
     "stats": {
@@ -25995,6 +49650,52 @@ export const loCharacters = [
     "height": "152cm",
     "weight": "41kg",
     "equipRec": "GOCC",
+    "farm": {
+      "notes": [
+        "Production",
+        "The Water Park on which the Sun Never Sets' Exchange",
+        "The Blind Princess and the Land of Mist's Exchange",
+        "For the Dreamless Mermaid's Exchange"
+      ],
+      "groups": [
+        {
+          "source": "Eternal Winter's Ark",
+          "stages": [
+            [
+              "Ev1-12",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Dreaming Mermaid's Island",
+          "stages": [
+            [
+              "Ev1-3Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Palace of the Reclusive Goddess",
+          "stages": [
+            [
+              "Ev2-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Orca Christmas Expo",
+          "stages": [
+            [
+              "Ev1-4EX",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/melite.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/melite.webp",
     "stats": {
@@ -26092,6 +49793,50 @@ export const loCharacters = [
     "height": "168cm",
     "weight": "54kg",
     "equipRec": "CCOG",
+    "farm": {
+      "notes": [
+        "Production",
+        "Dreaming Mermaid's Island's exchange"
+      ],
+      "groups": [
+        {
+          "source": "Main Story",
+          "stages": [
+            [
+              "9-4Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Water Park on which the Sun Never Sets",
+          "stages": [
+            [
+              "Ev2-6B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Blind Princess and the Land of Mist",
+          "stages": [
+            [
+              "Ev2-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Corrupted Last Record",
+          "stages": [
+            [
+              "Ev2-3Ex",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/amphitrite.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/amphitrite.webp",
     "stats": {
@@ -26196,6 +49941,34 @@ export const loCharacters = [
     "height": "168cm",
     "weight": "59kg",
     "equipRec": "CCOG",
+    "farm": {
+      "notes": [
+        "Production",
+        "The Water Park on which the Sun Never Sets' Exchange",
+        "Dreaming Mermaid's Island's exchange",
+        "For the Dreamless Mermaid's Exchange"
+      ],
+      "groups": [
+        {
+          "source": "The Blind Princess and the Land of Mist",
+          "stages": [
+            [
+              "Ev2-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Palace of the Reclusive Goddess",
+          "stages": [
+            [
+              "Ev2-1Ex",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/salacia.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/salacia.webp",
     "stats": {
@@ -26298,6 +50071,103 @@ export const loCharacters = [
     "height": "171cm",
     "weight": "59kg",
     "equipRec": "OGCC",
+    "farm": {
+      "notes": [
+        "Production"
+      ],
+      "groups": [
+        {
+          "source": "Rose that Blooms atop of Lotus",
+          "stages": [
+            [
+              "Ev1-5",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "The Water Park on which the Sun Never Sets",
+          "stages": [
+            [
+              "Ev1-1B",
+              "First Clear Reward"
+            ]
+          ]
+        },
+        {
+          "source": "Dreaming Mermaid's Island",
+          "stages": [
+            [
+              "Ev1-3B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Zero Base",
+          "stages": [
+            [
+              "Ev1-6",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Palace of the Reclusive Goddess",
+          "stages": [
+            [
+              "Ev2-1Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Daisenran ~Endless Storm of Violet Lightning~",
+          "stages": [
+            [
+              "Ev2-5",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Corrupted Last Record",
+          "stages": [
+            [
+              "Ev2-2",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Orca Christmas Expo",
+          "stages": [
+            [
+              "Ev2-2B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Bride of the Orca",
+          "stages": [
+            [
+              "Ev1-3Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Top Secret Operation: Doki-Doki Love Schedule",
+          "stages": [
+            [
+              "Ev1-3Ex",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/galatea.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/galatea.webp",
     "stats": {
@@ -26418,6 +50288,67 @@ export const loCharacters = [
     "height": "254cm",
     "weight": "450kg",
     "equipRec": "CCOG",
+    "farm": {
+      "notes": [
+        "Production"
+      ],
+      "groups": [
+        {
+          "source": "Dreaming Mermaid's Island",
+          "stages": [
+            [
+              "Ev1-6",
+              "First Clear Reward"
+            ]
+          ]
+        },
+        {
+          "source": "Zero Base",
+          "stages": [
+            [
+              "Ev1-2Ex",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Palace of the Reclusive Goddess",
+          "stages": [
+            [
+              "Ev2-6",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Project ORCA: Sun-Rising Stage",
+          "stages": [
+            [
+              "Ev3-2B",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Corrupted Last Record",
+          "stages": [
+            [
+              "Ev4-4",
+              ""
+            ]
+          ]
+        },
+        {
+          "source": "Orca Christmas Expo",
+          "stages": [
+            [
+              "Ev2-3B",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/satgat.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/satgat.webp",
     "stats": {
@@ -26521,6 +50452,13 @@ export const loCharacters = [
     "height": "215cm",
     "weight": "155kg",
     "equipRec": "GOCC",
+    "farm": {
+      "notes": [
+        "Production",
+        "One-Off Package (Once)"
+      ],
+      "groups": []
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/charybdis.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/charybdis.webp",
     "stats": {
@@ -26660,6 +50598,24 @@ export const loCharacters = [
     "height": "146 cm",
     "weight": "97 kg",
     "equipRec": "CCOG",
+    "farm": {
+      "notes": [
+        "Production",
+        "One-Off Package (Once)",
+        "Dance of the Stars's Exchange"
+      ],
+      "groups": [
+        {
+          "source": "From Martial Arts With Love",
+          "stages": [
+            [
+              "Ev1-3Ex",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/calypso.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/calypso.webp",
     "stats": {
@@ -26762,6 +50718,13 @@ export const loCharacters = [
     "height": "203cm",
     "weight": "135kg",
     "equipRec": "CCOG",
+    "farm": {
+      "notes": [
+        "Production",
+        "One-Off Package (Once)"
+      ],
+      "groups": []
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/lamia.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/lamia.webp",
     "stats": {
@@ -26864,6 +50827,13 @@ export const loCharacters = [
     "height": "170cm",
     "weight": "51kg",
     "equipRec": "COGC",
+    "farm": {
+      "notes": [
+        "Production",
+        "One-Off Package (Once)"
+      ],
+      "groups": []
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/grave-song.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/grave-song.webp",
     "stats": {
@@ -26976,6 +50946,13 @@ export const loCharacters = [
     "height": "184.44cm",
     "weight": "114.44kg",
     "equipRec": "GOCC",
+    "farm": {
+      "notes": [
+        "Production",
+        "One-Off Package (Once)"
+      ],
+      "groups": []
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/sawame.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/sawame.webp",
     "stats": {
@@ -27086,6 +51063,13 @@ export const loCharacters = [
     "height": "166cm",
     "weight": "176kg",
     "equipRec": "OCGC",
+    "farm": {
+      "notes": [
+        "Production",
+        "One-Off Package (Once)"
+      ],
+      "groups": []
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/hestia.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/hestia.webp",
     "stats": {
@@ -27190,6 +51174,14 @@ export const loCharacters = [
     "height": "165cm",
     "weight": "52kg",
     "equipRec": "OGCC",
+    "farm": {
+      "notes": [
+        "Production",
+        "One-Off Package (Once)",
+        "SoulWorker X Last Origin Collaboration: Special Mission's Exchange"
+      ],
+      "groups": []
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/haru-estia.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/haru-estia.webp",
     "stats": {
@@ -27301,6 +51293,13 @@ export const loCharacters = [
     "height": "155cm",
     "weight": "47kg",
     "equipRec": "CCOG",
+    "farm": {
+      "notes": [
+        "Production",
+        "One-Off Package (Once)"
+      ],
+      "groups": []
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/lily-bloommerchen.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/lily-bloommerchen.webp",
     "stats": {
@@ -27405,6 +51404,13 @@ export const loCharacters = [
     "height": "148cm",
     "weight": "39kg",
     "equipRec": "CCOG",
+    "farm": {
+      "notes": [
+        "Production",
+        "One-Off Package (Once)"
+      ],
+      "groups": []
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/stella-unibell.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/stella-unibell.webp",
     "stats": {
@@ -27509,6 +51515,13 @@ export const loCharacters = [
     "height": "169cm",
     "weight": "49kg",
     "equipRec": "OGCC",
+    "farm": {
+      "notes": [
+        "Production",
+        "One-Off Package (Once)"
+      ],
+      "groups": []
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/iris-yuma.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/iris-yuma.webp",
     "stats": {
@@ -27611,6 +51624,13 @@ export const loCharacters = [
     "height": "152cm",
     "weight": "41kg",
     "equipRec": "GOCC",
+    "farm": {
+      "notes": [
+        "Production",
+        "One-Off Package (Once)"
+      ],
+      "groups": []
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/chii-aruel.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/chii-aruel.webp",
     "stats": {
@@ -27713,6 +51733,13 @@ export const loCharacters = [
     "height": "162cm",
     "weight": "48kg",
     "equipRec": "CCOG",
+    "farm": {
+      "notes": [
+        "Production",
+        "One-Off Package (Once)"
+      ],
+      "groups": []
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/ephnel.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/ephnel.webp",
     "stats": {
@@ -27815,6 +51842,13 @@ export const loCharacters = [
     "height": "158cm",
     "weight": "50kg",
     "equipRec": "CCOG",
+    "farm": {
+      "notes": [
+        "Production",
+        "One-Off Package (Once)"
+      ],
+      "groups": []
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/lee-nabi.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/lee-nabi.webp",
     "stats": {
@@ -27919,6 +51953,14 @@ export const loCharacters = [
     "height": "151cm",
     "weight": "40kg",
     "equipRec": "CCOG",
+    "farm": {
+      "notes": [
+        "Production",
+        "One-Off Package (Once)",
+        "SoulWorker X Last Origin Collaboration: Special Mission's Exchange"
+      ],
+      "groups": []
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/dhana-opini.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/dhana-opini.webp",
     "stats": {
@@ -28021,6 +52063,12 @@ export const loCharacters = [
     "height": "164cm",
     "weight": "55kg",
     "equipRec": "OGCC",
+    "farm": {
+      "notes": [
+        "Production (26/09/2023 - 31/07/2025)"
+      ],
+      "groups": []
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/koyori.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/koyori.webp",
     "stats": {
@@ -28133,6 +52181,12 @@ export const loCharacters = [
     "height": "170cm",
     "weight": "60kg",
     "equipRec": "OGCC",
+    "farm": {
+      "notes": [
+        "Production (24/10/2023 - 31/07/2025)"
+      ],
+      "groups": []
+    },
     "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/icons/sengoku-kaen.webp",
     "art": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/last-origin-global/character/sengoku-kaen.webp",
     "stats": {
