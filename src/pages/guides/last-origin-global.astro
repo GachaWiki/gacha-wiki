@@ -4,9 +4,35 @@ import LastOriginGlobalLandingLayout from '../../layouts/last-origin-global/Land
 import FormattedDate from '../../components/FormattedDate.astro';
 import DiscordPromo from '../../components/DiscordPromo.astro';
 import { lastOriginGlobalConfig } from '../../data/last-origin-global/last-origin-global.js';
+import { loCharacters } from '../../data/last-origin-global/characters.js';
 import heroImage from '../../assets/images/games/last-origin-global/gameimg/hero.png';
 
-const { meta, gameInfo, story, gameInfo: { preRegistration, socialLinks }, categoryGroups } = lastOriginGlobalConfig;
+const { meta, gameInfo, story, gameInfo: { socialLinks } } = lastOriginGlobalConfig;
+const unitCount = loCharacters.length;
+const ssCount = loCharacters.filter((c) => (c.promotedRank || c.rank) === 'SS').length;
+const resourceCategories = [
+  {
+    id: 'characters',
+    title: 'Characters',
+    description: `${unitCount} Bioroids with skills and stats`,
+    size: 'medium',
+    guides: [
+      { id: 'database', title: 'Character Database', url: '/guides/last-origin-global/characters/' },
+      { id: 'tier', title: 'Tier List', url: '/guides/last-origin-global/tier-list/' },
+    ],
+  },
+  {
+    id: 'game',
+    title: 'Game',
+    description: 'History and server info',
+    size: 'small',
+    guides: [
+      { id: 'home', title: 'Home', url: '/guides/last-origin-global/' },
+      { id: 'timeline', title: 'Release Timeline', url: '/guides/last-origin-global/release-timeline/' },
+      { id: 'clock', title: 'Clock', url: '/clock/last-origin-global/' },
+    ],
+  },
+];
 ---
 
 <LastOriginGlobalLandingLayout
@@ -50,18 +76,6 @@ const { meta, gameInfo, story, gameInfo: { preRegistration, socialLinks }, categ
   </script>
 
   <section class="content-section">
-    {preRegistration && (
-      <div class="lo-prereg-banner">
-        <h2 class="section-title">Pre-Registration Now Open</h2>
-        <p class="lo-prereg-dates">
-          {preRegistration.startDate} &ndash; {preRegistration.endDate}
-        </p>
-        <a href={preRegistration.url} target="_blank" rel="noopener noreferrer" class="play-button">
-          Register on VFUN
-        </a>
-      </div>
-    )}
-
     <h2 class="section-title">About</h2>
 
     <div class="story-content">
@@ -72,6 +86,7 @@ const { meta, gameInfo, story, gameInfo: { preRegistration, socialLinks }, categ
       <p>{gameInfo.description}</p>
       <p><strong>Publisher:</strong> {gameInfo.publisher}</p>
       <p><strong>Platforms:</strong> {gameInfo.platforms.join(', ')}</p>
+      <p><strong>Roster:</strong> {unitCount} Bioroids, {ssCount} at SS rank</p>
     </div>
 
     <div class="play-button-container">
@@ -142,7 +157,7 @@ const { meta, gameInfo, story, gameInfo: { preRegistration, socialLinks }, categ
 
     <div class="lo-resources-grid">
       {
-        categoryGroups.map(category => (
+        resourceCategories.map(category => (
           <div class={`lo-resource-category lo-category-${category.size}`}>
             <div class="lo-category-header">
               <h3>{category.title}</h3>

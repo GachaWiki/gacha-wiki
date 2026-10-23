@@ -121,7 +121,7 @@ export const GAMES: Game[] = [
     url: '/guides/last-origin-global/',
     status: 'active',
     themeColor: '#e63946',
-    sections: ['Pre-Registration', 'Bioroids', 'Grid Combat', 'Unit Types', 'Roles', 'Progression'],
+    sections: ['Characters', 'Tier List', 'Release Timeline'],
   },
   {
     id: 'make-drama',

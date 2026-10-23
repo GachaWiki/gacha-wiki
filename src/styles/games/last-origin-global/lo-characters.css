@@ -1,0 +1,194 @@
+/* Last Origin Global character pages: index filters + detail layout. */
+
+.lo-toolbar-filters {
+  flex-wrap: wrap;
+}
+.lo-filter-sep {
+  width: 1px;
+  height: 22px;
+  background: var(--lo-border-light);
+}
+.lo-faction-select {
+  padding: 5px 10px;
+  font-size: var(--text-sm);
+  color: var(--lo-text-primary);
+  background: var(--lo-bg-secondary);
+  border: 1px solid var(--lo-border);
+  border-radius: var(--lo-radius-sm);
+  outline: none;
+  max-width: 220px;
+}
+
+/* Detail page */
+.lo-detail-header {
+  display: grid;
+  grid-template-columns: minmax(220px, 340px) 1fr;
+  gap: var(--lo-spacing-lg);
+  background: var(--lo-bg-card);
+  border: 1px solid var(--lo-border);
+  border-radius: var(--lo-radius-md);
+  padding: var(--lo-spacing-lg);
+  margin-bottom: var(--lo-spacing-lg);
+}
+@media (max-width: 760px) {
+  .lo-detail-header {
+    grid-template-columns: 1fr;
+  }
+}
+.lo-detail-art {
+  position: relative;
+  border-radius: var(--lo-radius-md);
+  overflow: hidden;
+  background: var(--lo-bg-secondary);
+  border: 1px solid var(--lo-border);
+}
+.lo-detail-art img {
+  width: 100%;
+  display: block;
+}
+.lo-detail-id {
+  display: flex;
+  flex-direction: column;
+  gap: var(--lo-spacing-sm);
+}
+.lo-detail-title {
+  font-size: var(--text-3xl);
+  font-weight: 700;
+  color: var(--lo-text-primary);
+  line-height: 1.15;
+}
+.lo-detail-subtitle {
+  font-size: var(--text-body);
+  color: var(--lo-text-tertiary);
+}
+.lo-detail-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+.lo-detail-facts {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: var(--lo-spacing-sm) var(--lo-spacing-lg);
+  margin-top: var(--lo-spacing-sm);
+}
+.lo-fact {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.lo-fact-label {
+  font-size: var(--text-2xs);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--lo-text-muted);
+}
+.lo-fact-value {
+  font-size: var(--text-md);
+  color: var(--lo-text-secondary);
+}
+
+/* Skill list */
+.lo-skill {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding: var(--lo-spacing-md) 0;
+  border-bottom: 1px solid var(--lo-border);
+}
+.lo-skill:last-child {
+  border-bottom: none;
+}
+.lo-skill-head {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+.lo-skill-name {
+  font-size: var(--text-lg);
+  font-weight: 700;
+  color: var(--lo-text-primary);
+}
+.lo-skill-slot {
+  font-size: var(--text-2xs);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--lo-accent);
+}
+.lo-skill-meta {
+  font-size: var(--text-2xs);
+  color: var(--lo-text-muted);
+  margin-left: auto;
+}
+.lo-skill-effect {
+  font-size: var(--text-body);
+  color: var(--lo-text-secondary);
+  line-height: 1.6;
+  white-space: pre-line;
+}
+
+/* Stats table with SS column */
+.lo-stats-note {
+  font-size: var(--text-2xs);
+  color: var(--lo-text-muted);
+  margin-top: 6px;
+}
+
+/* Skins gallery */
+.lo-skins-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: var(--lo-spacing-md);
+}
+.lo-skin-card {
+  display: flex;
+  flex-direction: column;
+  background: var(--lo-bg-secondary);
+  border: 1px solid var(--lo-border);
+  border-radius: var(--lo-radius-md);
+  overflow: hidden;
+  margin: 0;
+}
+.lo-skin-art {
+  aspect-ratio: 3 / 4;
+  background: var(--lo-bg-tertiary);
+}
+.lo-skin-art img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top center;
+  display: block;
+}
+.lo-skin-missing {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  font-size: var(--text-xs);
+  color: var(--lo-text-muted);
+}
+.lo-skin-caption {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  padding: 8px 10px 10px;
+}
+.lo-skin-name {
+  font-size: var(--text-sm);
+  font-weight: 700;
+  color: var(--lo-text-primary);
+  line-height: 1.3;
+}
+.lo-skin-sub {
+  font-size: var(--text-3xs);
+  color: var(--lo-text-tertiary);
+}
+.lo-skin-desc {
+  font-size: var(--text-2xs);
+  color: var(--lo-text-muted);
+  line-height: 1.5;
+  margin-top: 2px;
+}

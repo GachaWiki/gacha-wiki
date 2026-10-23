@@ -1,0 +1,151 @@
+---
+// Last Origin Global character detail: portrait header with identity facts,
+// full skill kit and min/max stats incl. SS promotion values.
+import LOLayout from '../../../../layouts/last-origin-global/LandingLayout.astro';
+import { loCharacters, getLoCharacter } from '../../../../data/last-origin-global/characters.js';
+import { getLoTier } from '../../../../data/last-origin-global/tier-list.js';
+import '../../../../styles/games/last-origin-global/lo-common.css';
+import '../../../../styles/games/last-origin-global/lo-characters.css';
+
+export async function getStaticPaths() {
+  return loCharacters.map((c) => ({ params: { slug: c.slug } }));
+}
+
+const { slug } = Astro.params;
+const c = getLoCharacter(slug);
+if (!c) return Astro.redirect('/guides/last-origin-global/characters/');
+
+const tier = getLoTier(slug);
+const st = c.stats || {};
+const facts = [
+  { label: 'Faction', value: c.faction },
+  { label: 'Class', value: c.cls },
+  { label: 'Weapon', value: c.weapon },
+  { label: 'Artist', value: c.artist },
+  { label: 'Production', value: c.prodTime },
+  { label: 'Height', value: c.height },
+  { label: 'Weight', value: c.weight },
+  { label: 'Equipment', value: c.equipRec },
+  { label: 'Korean name', value: c.krName },
+  { label: 'No.', value: c.number != null ? `#${c.number}` : '' },
+].filter((f) => f.value);
+
+const statRows = [
+  { label: 'HP', a: st.hp?.[0], b: st.hp?.[1], ss: st.ss?.hp },
+  { label: 'ATK', a: st.atk?.[0], b: st.atk?.[1], ss: st.ss?.atk },
+  { label: 'DEF', a: st.def?.[0], b: st.def?.[1], ss: st.ss?.def },
+  { label: 'SPD', a: st.spd, b: st.spd, ss: st.ss?.spd },
+  { label: 'CRIT', a: st.crit, b: st.crit, ss: st.ss?.crit },
+  { label: 'ACC', a: st.acc, b: st.acc, ss: st.ss?.acc },
+  { label: 'EVA', a: st.eva, b: st.eva, ss: st.ss?.eva },
+];
+const resist = st.resist || {};
+---
+
+<LOLayout
+  title={c.name}
+  description={`${c.name} (${c.title}) guide for Last Origin Global: ${c.role} ${c.armorType} unit with full skill kit and stats.`}
+  gameTitle={c.name}
+>
+  <div class="lo-detail-header">
+    <div class="lo-detail-art">
+      <img src={c.art} alt={c.name} width="400" height="400" loading="eager" decoding="async" />
+    </div>
+    <div class="lo-detail-id">
+      <div>
+        <div class="lo-detail-title">{c.name}</div>
+        <div class="lo-detail-subtitle">{c.title}{c.krName ? ` · ${c.krName}` : ''}</div>
+      </div>
+      <div class="lo-detail-chips">
+        <span class={`lo-chip lo-chip-role-${c.role.toLowerCase()}`}>{c.role}</span>
+        <span class={`lo-chip lo-chip-type-${c.armorType.toLowerCase()}`}>{c.armorType}</span>
+        <span class={`lo-chip lo-chip-rank-${c.rank.toLowerCase()}`}>{c.rank}</span>
+        {c.promotedRank && <span class={`lo-chip lo-chip-rank-${c.promotedRank.toLowerCase()}`}>{c.promotedRank} promotion</span>}
+        {tier && <span class="lo-chip">{tier} tier</span>}
+      </div>
+      <div class="lo-detail-facts">
+        {facts.map((f) => (
+          <div class="lo-fact">
+            <span class="lo-fact-label">{f.label}</span>
+            <span class="lo-fact-value">{f.value}</span>
+          </div>
+        ))}
+      </div>
+    </div>
+  </div>
+
+  <div class="lo-panel">
+    <h2 class="lo-panel-title">Skills</h2>
+    {c.skills.map((sk) => (
+      <div class="lo-skill">
+        <div class="lo-skill-head">
+          <span class="lo-skill-slot">{sk.slot}</span>
+          <span class="lo-skill-name">{sk.name}</span>
+          <span class="lo-skill-meta">{[sk.aoe, sk.range ? `range ${sk.range}` : null].filter(Boolean).join(' · ')}</span>
+        </div>
+        <p class="lo-skill-effect">{sk.effect}</p>
+      </div>
+    ))}
+  </div>
+
+  {c.skins && c.skins.length > 0 && (
+    <div class="lo-panel">
+      <h2 class="lo-panel-title">Skins</h2>
+      <div class="lo-skins-grid">
+        <figure class="lo-skin-card">
+          <div class="lo-skin-art">
+            <img src={c.art} alt={`${c.name} base`} width="300" height="300" loading="lazy" decoding="async" />
+          </div>
+          <figcaption class="lo-skin-caption">
+            <span class="lo-skin-name">Base</span>
+            <span class="lo-skin-sub">Default outfit</span>
+          </figcaption>
+        </figure>
+        {c.skins.map((sk) => (
+          <figure class="lo-skin-card">
+            <div class="lo-skin-art">
+              {sk.img ? (
+                <img src={sk.img} alt={`${c.name} ${sk.name}`} width="300" height="300" loading="lazy" decoding="async" />
+              ) : (
+                <span class="lo-skin-missing">Art unavailable</span>
+              )}
+            </div>
+            <figcaption class="lo-skin-caption">
+              <span class="lo-skin-name">{sk.name}</span>
+              <span class="lo-skin-sub">{[sk.price ? `Price ${sk.price}` : null, sk.tab].filter(Boolean).join(' · ')}</span>
+              {sk.desc && <span class="lo-skin-desc">{sk.desc}</span>}
+            </figcaption>
+          </figure>
+        ))}
+      </div>
+    </div>
+  )}
+
+  <div class="lo-panel">
+    <h2 class="lo-panel-title">Stats</h2>
+    <table class="lo-table">
+      <thead>
+        <tr>
+          <th>Stat</th>
+          <th>Min</th>
+          <th>Max</th>
+          {st.ss && <th>Max (SS)</th>}
+        </tr>
+      </thead>
+      <tbody>
+        {statRows.map((r) => (
+          <tr>
+            <td>{r.label}</td>
+            <td>{r.a ?? '-'}</td>
+            <td>{r.b ?? '-'}</td>
+            {st.ss && <td>{r.ss ?? '-'}</td>}
+          </tr>
+        ))}
+      </tbody>
+    </table>
+    {resist.fire || resist.ice || resist.elec ? (
+      <p class="lo-stats-note">Resistances: fire {resist.fire ?? 0}%, ice {resist.ice ?? 0}%, electric {resist.elec ?? 0}%.</p>
+    ) : null}
+    <p class="lo-stats-note">Values via lastorigin.wiki.gg. Max stats are at max level and full link; SS column applies after {c.promotedRank} promotion.</p>
+  </div>
+</LOLayout>

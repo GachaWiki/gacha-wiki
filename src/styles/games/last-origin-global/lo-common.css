@@ -1,0 +1,197 @@
+/* Last Origin Global shared components: chips, toolbar, cards, panels.
+   Uses only the lo- color system and --text-* typography tokens. */
+
+.lo-page-intro {
+  font-size: var(--text-body);
+  color: var(--lo-text-secondary);
+  max-width: 760px;
+  margin: 0 auto var(--lo-spacing-lg);
+  text-align: center;
+}
+
+/* Solid status chips (house convention: filled chips, no outline pills) */
+.lo-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 2px 8px;
+  border-radius: 5px;
+  font-size: var(--text-2xs);
+  font-weight: 700;
+  color: #fff;
+  background: var(--lo-secondary);
+  line-height: 1.5;
+}
+.lo-chip-role-attacker { background: #c94b5a; }
+.lo-chip-role-defender { background: #4a7fb5; }
+.lo-chip-role-supporter { background: #3f9d7f; }
+.lo-chip-rank-b { background: #6b7280; }
+.lo-chip-rank-a { background: #3f9d7f; }
+.lo-chip-rank-s { background: #4a7fb5; }
+.lo-chip-rank-ss { background: #d4a017; }
+.lo-chip-type-light { background: #8a8f5c; }
+.lo-chip-type-heavy { background: #7a5c8a; }
+.lo-chip-type-air { background: #5c8a89; }
+
+a.lo-chip {
+  text-decoration: none;
+}
+
+/* Toolbar: search + filters */
+.lo-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--lo-spacing-sm);
+  padding: var(--lo-spacing-md);
+  background: var(--lo-bg-card);
+  border: 1px solid var(--lo-border);
+  border-radius: var(--lo-radius-md);
+  margin-bottom: var(--lo-spacing-lg);
+}
+.lo-search {
+  flex: 1 1 220px;
+  min-width: 180px;
+  padding: 8px 12px;
+  font-size: var(--text-md);
+  color: var(--lo-text-primary);
+  background: var(--lo-bg-secondary);
+  border: 1px solid var(--lo-border);
+  border-radius: var(--lo-radius-sm);
+  outline: none;
+}
+.lo-search:focus {
+  border-color: var(--lo-primary);
+}
+.lo-filter-btn {
+  padding: 5px 12px;
+  font-size: var(--text-sm);
+  font-weight: 600;
+  color: var(--lo-text-secondary);
+  background: var(--lo-bg-secondary);
+  border: 1px solid var(--lo-border);
+  border-radius: var(--lo-radius-sm);
+  cursor: pointer;
+}
+.lo-filter-btn.active {
+  color: #fff;
+  background: var(--lo-primary);
+  border-color: var(--lo-primary);
+}
+.lo-count {
+  font-size: var(--text-sm);
+  color: var(--lo-text-tertiary);
+  margin-left: auto;
+  white-space: nowrap;
+}
+
+/* Flat cards (no hover, no glow, border from game vars) */
+.lo-card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: var(--lo-spacing-md);
+}
+a.lo-card {
+  text-decoration: none;
+  color: inherit;
+}
+.lo-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background: var(--lo-bg-card);
+  border: 1px solid var(--lo-border);
+  border-radius: var(--lo-radius-md);
+  overflow: hidden;
+}
+.lo-card-art {
+  position: relative;
+  aspect-ratio: 3 / 4;
+  background: var(--lo-bg-secondary);
+}
+.lo-card-art img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top center;
+  display: block;
+}
+.lo-card-art .lo-card-icon {
+  position: absolute;
+  left: 6px;
+  bottom: 6px;
+  width: 34px;
+  height: 34px;
+  border-radius: 5px;
+  border: 1px solid var(--lo-border-light);
+  background: rgba(13, 13, 15, 0.85);
+}
+.lo-card-body {
+  padding: 8px 10px 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.lo-card-name {
+  font-size: var(--text-md);
+  font-weight: 700;
+  color: var(--lo-text-primary);
+  line-height: 1.25;
+}
+.lo-card-sub {
+  font-size: var(--text-2xs);
+  color: var(--lo-text-tertiary);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.lo-card-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+}
+
+/* Section panels */
+.lo-panel {
+  background: var(--lo-bg-card);
+  border: 1px solid var(--lo-border);
+  border-radius: var(--lo-radius-md);
+  padding: var(--lo-spacing-lg);
+  margin-bottom: var(--lo-spacing-lg);
+}
+.lo-panel-title {
+  font-size: var(--text-xl);
+  font-weight: 700;
+  color: var(--lo-text-primary);
+  margin-bottom: var(--lo-spacing-md);
+}
+
+/* Data tables */
+.lo-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: var(--text-md);
+}
+.lo-table th,
+.lo-table td {
+  padding: 7px 10px;
+  text-align: left;
+  border-bottom: 1px solid var(--lo-border);
+}
+.lo-table th {
+  font-size: var(--text-2xs);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--lo-text-tertiary);
+}
+.lo-table td {
+  color: var(--lo-text-secondary);
+}
+
+.no-results {
+  display: none;
+  padding: var(--lo-spacing-lg);
+  text-align: center;
+  color: var(--lo-text-tertiary);
+  font-size: var(--text-body);
+}

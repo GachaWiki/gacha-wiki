@@ -72,7 +72,7 @@ export const clockLandingGames = [
     description: 'Global Pre-Registration',
     image: '', // Image will be imported directly in the Astro page
     url: '/clock/last-origin-global',
-    themeColor: '#f4a261',
+    themeColor: '#e63946',
     active: true,
   },
   {

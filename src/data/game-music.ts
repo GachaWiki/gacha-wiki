@@ -96,6 +96,20 @@ export const GAME_MUSIC: Partial<Record<GameKey, GameMusicConfig>> = {
     idleBorder: 'var(--gsa-border, #3d3236)',
     idleColor: '#b3a8ab',
   },
+  'last-origin-global': {
+    gameLabel: 'Last Origin Global',
+    storagePrefix: 'lo',
+    // Title, lobby and Alteration Sanctum themes (UnityCache bgm_01/02/29 bundles).
+    tracks: [
+      `${R2}/last-origin-global/audio/bgm-title.mp3`,
+      `${R2}/last-origin-global/audio/bgm-lobby.mp3`,
+      `${R2}/last-origin-global/audio/bgm-sanctum.mp3`,
+    ],
+    accent: '#ff6b7a',
+    accentBorder: 'rgba(230, 57, 70, 0.45)',
+    idleBorder: 'var(--lo-border, #2a2a32)',
+    idleColor: '#b3b3b3',
+  },
   'taimanin-squad': {
     gameLabel: 'Taimanin Squad',
     storagePrefix: 'ts',

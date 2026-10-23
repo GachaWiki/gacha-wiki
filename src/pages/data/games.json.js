@@ -11,6 +11,7 @@ import { rebellionGilgameshConfig } from '../../data/rebellion-gilgamesh/rebelli
 import { starSaviorConfig } from '../../data/star-savior/star-savior.js';
 import { taimaninSquadConfig } from '../../data/taimanin-squad/taimanin-squad.js';
 import { lastOriginGlobalConfig } from '../../data/last-origin-global/last-origin-global.js';
+import { loCharacters } from '../../data/last-origin-global/characters.js';
 import { makeDramaConfig } from '../../data/make-drama/make-drama.js';
 
 export const prerender = true;
@@ -306,13 +307,13 @@ export async function GET() {
       })),
     },
 
-    // Last Origin Global (guides only - no JSON data API yet)
+    // Last Origin Global
     {
       id: 'last-origin-global',
       name: 'Last Origin Global',
       japaneseName: '라스트 오리진',
       slug: 'last-origin-global',
-      status: 'pre-registration',
+      status: 'active',
       genre: 'Post-Apocalyptic Turn-Based Strategy RPG',
       description: lastOriginGlobalConfig.gameInfo.description,
       heroImage: lastOriginGlobalConfig.meta.heroImage,
@@ -320,14 +321,31 @@ export async function GET() {
       socialLinks: lastOriginGlobalConfig.gameInfo.socialLinks,
       wikiUrl: '/guides/last-origin-global/',
       story: lastOriginGlobalConfig.story,
-      contentAvailable: {},
+      contentAvailable: {
+        characters: { count: loCharacters.length, url: '/guides/last-origin-global/characters/' },
+        tierList: { url: '/guides/last-origin-global/tier-list/' },
+        releaseTimeline: { url: '/guides/last-origin-global/release-timeline/' },
+      },
       apiEndpoints: [],
-      note: 'Guides available on the wiki - no structured JSON data API yet',
-      guides: (lastOriginGlobalConfig.categoryGroups || []).map(group => ({
-        category: group.title,
-        description: group.description,
-        pages: (group.guides || []).map(g => ({ title: g.title, url: g.url })),
-      })),
+      guides: [
+        {
+          category: 'Characters',
+          description: 'Bioroid database, tier list',
+          pages: [
+            { title: 'Character Database', url: '/guides/last-origin-global/characters/' },
+            { title: 'Tier List', url: '/guides/last-origin-global/tier-list/' },
+          ],
+        },
+        {
+          category: 'Game',
+          description: 'History and server info',
+          pages: [
+            { title: 'Home', url: '/guides/last-origin-global/' },
+            { title: 'Release Timeline', url: '/guides/last-origin-global/release-timeline/' },
+            { title: 'Clock', url: '/clock/last-origin-global/' },
+          ],
+        },
+      ],
     },
 
     // Make Drama (guides only - no JSON data API yet)

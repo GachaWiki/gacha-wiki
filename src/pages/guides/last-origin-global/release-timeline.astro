@@ -1,0 +1,144 @@
+---
+// Last Origin Global release timeline: Global milestones, post-Global unit
+// additions, the launch roster and the earlier original-service history.
+import LOLayout from '../../../layouts/last-origin-global/LandingLayout.astro';
+import { loCharacters } from '../../../data/last-origin-global/characters.js';
+import {
+  LO_GLOBAL_MILESTONES,
+  LO_GLOBAL_RELEASES,
+  LO_LAUNCH_ROSTER,
+  LO_HISTORY_RELEASES,
+} from '../../../data/last-origin-global/release-timeline.js';
+import '../../../styles/games/last-origin-global/lo-common.css';
+import '../../../styles/games/last-origin-global/lo-characters.css';
+
+const byName = new Map(loCharacters.map((c) => [c.name.toLowerCase(), c]));
+// a few Implementation Log names differ slightly from unit page titles
+const NAME_ALIASES = {
+  'express 76': 'express',
+  'ellie quickhand': 'ellie',
+  lise: 'scissors lise',
+};
+const normKey = (name) => name.toLowerCase().replace(/[^a-z0-9]/g, '');
+const byNorm = new Map(loCharacters.map((c) => [normKey(c.name), c]));
+const link = (name) => {
+  const alias = NAME_ALIASES[name.toLowerCase()];
+  const target = alias || name.toLowerCase();
+  const c = byName.get(target) || byNorm.get(normKey(name));
+  return c ? `/guides/last-origin-global/characters/${c.slug}/` : null;
+};
+const fmtDate = (iso) => {
+  if (iso === 'launch') return 'Launch';
+  const [y, m, d] = iso.split('-');
+  return `${d}/${m}/${y}`;
+};
+---
+
+<LOLayout
+  title="Release Timeline"
+  description="Release timeline for Last Origin Global: Global expansion milestones, new unit additions, the launch roster and the original service history."
+  gameTitle="Release Timeline"
+>
+  <div class="lo-page-intro">
+    How the Global R+ roster came together: server milestones, every post-Global unit addition, and the full earlier history of the original service.
+  </div>
+
+  <div class="lo-panel">
+    <h2 class="lo-panel-title">Global milestones</h2>
+    <table class="lo-table">
+      <thead><tr><th>Date</th><th>Event</th><th>Details</th></tr></thead>
+      <tbody>
+        {LO_GLOBAL_MILESTONES.map((m) => (
+          <tr>
+            <td>{fmtDate(m.date)}</td>
+            <td>{m.title}</td>
+            <td>{m.desc}</td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  </div>
+
+  <div class="lo-panel">
+    <h2 class="lo-panel-title">New units since Global launch</h2>
+    {LO_GLOBAL_RELEASES.map((r) => (
+      <div class="lo-release-row">
+        <span class="lo-release-date">{fmtDate(r.date)}</span>
+        <div class="lo-release-units">
+          {r.units.map((u) => {
+            const href = link(u.name);
+            return href ? (
+              <a class="lo-chip lo-chip-rank-{u.rank.toLowerCase()}" href={href}>{u.name}</a>
+            ) : (
+              <span class={`lo-chip lo-chip-rank-${u.rank.toLowerCase()}`}>{u.name}</span>
+            );
+          })}
+        </div>
+      </div>
+    ))}
+  </div>
+
+  <div class="lo-panel">
+    <h2 class="lo-panel-title">Launch roster ({LO_LAUNCH_ROSTER.length} units)</h2>
+    <div class="lo-release-units">
+      {LO_LAUNCH_ROSTER.map((u) => {
+        const href = link(u.name);
+        return href ? (
+          <a class={`lo-chip lo-chip-rank-${u.rank.toLowerCase()}`} href={href}>{u.name}</a>
+        ) : (
+          <span class={`lo-chip lo-chip-rank-${u.rank.toLowerCase()}`}>{u.name}</span>
+        );
+      })}
+    </div>
+    <p class="lo-stats-note">Original service launch on 24/01/2019. All of these units were available when the Taiwan and Global R+ server opened.</p>
+  </div>
+
+  <div class="lo-panel">
+    <h2 class="lo-panel-title">Original service history</h2>
+    <p class="lo-stats-note" style="margin-bottom: 12px;">
+      Units added on the Korean service before the Taiwan/Global server opened. Dates follow the original service.
+    </p>
+    {LO_HISTORY_RELEASES.map((r) => (
+      <div class="lo-release-row">
+        <span class="lo-release-date">{fmtDate(r.date)}</span>
+        <div class="lo-release-units">
+          {r.units.map((u) => {
+            const href = link(u.name);
+            return href ? (
+              <a class={`lo-chip lo-chip-rank-${u.rank.toLowerCase()}`} href={href}>{u.name}</a>
+            ) : (
+              <span class={`lo-chip lo-chip-rank-${u.rank.toLowerCase()}`}>{u.name}</span>
+            );
+          })}
+        </div>
+      </div>
+    ))}
+  </div>
+</LOLayout>
+
+<style>
+  .lo-release-row {
+    display: flex;
+    align-items: baseline;
+    gap: var(--lo-spacing-md);
+    padding: 8px 0;
+    border-bottom: 1px solid var(--lo-border);
+  }
+  .lo-release-row:last-child {
+    border-bottom: none;
+  }
+  .lo-release-date {
+    min-width: 96px;
+    font-size: var(--text-sm);
+    font-weight: 700;
+    color: var(--lo-accent);
+  }
+  .lo-release-units {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+  }
+  .lo-release-units a.lo-chip {
+    text-decoration: none;
+  }
+</style>

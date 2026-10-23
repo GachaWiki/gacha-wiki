@@ -1,0 +1,171 @@
+---
+// Last Origin Global tier list, house design: tier bar rows with a label
+// column and compact character cards, tinted beginner box, and two views
+// (all units / by role). Notes live on the cards as badges with tooltips.
+import LOLayout from '../../../layouts/last-origin-global/LandingLayout.astro';
+import { loCharacters } from '../../../data/last-origin-global/characters.js';
+import {
+  LO_TIERS,
+  LO_TIER_UPDATED,
+  LO_TIER_OVERRIDES,
+  LO_TIER_PLACEMENTS,
+  LO_TIER_SOURCES,
+  LO_TIER_BEGINNER,
+} from '../../../data/last-origin-global/tier-list.js';
+import '../../../styles/games/last-origin-global/lo-common.css';
+import '../../../styles/games/last-origin-global/lo-tier.css';
+
+const bySlug = new Map(loCharacters.map((c) => [c.slug, c]));
+const TIER_COLOR = { SS: 'ss', S: 's', A: 'a', B: 'b' };
+const ROLE_ORDER = ['Attacker', 'Defender', 'Supporter'];
+const overrideCount = Object.keys(LO_TIER_OVERRIDES).length;
+
+const beginner = LO_TIER_BEGINNER.map((b) => ({ ...b, unit: bySlug.get(b.slug) })).filter((b) => b.unit);
+
+// tier -> ordered unit objects, resolved against the roster
+const rowsByTier = Object.fromEntries(
+  LO_TIERS.map((t) => [
+    t,
+    LO_TIER_PLACEMENTS[t].map((slug) => bySlug.get(slug)).filter(Boolean),
+  ])
+);
+// role -> tier -> units, for the by-role view
+const roleSections = ROLE_ORDER.map((role) => ({
+  role,
+  tiers: LO_TIERS.map((t) => ({
+    tier: t,
+    characters: rowsByTier[t].filter((c) => c.role === role),
+  })).filter((row) => row.characters.length > 0),
+  count: loCharacters.filter((c) => c.role === role).length,
+}));
+---
+
+<LOLayout
+  title="Tier List"
+  description={`Tier list for Last Origin Global units, merged from Korean, Japanese and TW/English community sources. ${loCharacters.length} units ranked with sources and beginner picks.`}
+  gameTitle="Tier List"
+>
+  <section>
+    <div class="lo-beginner-box">
+      <h2 class="lo-beginner-title">Beginner staples</h2>
+      <p class="lo-beginner-intro">
+        Last Origin has no PVP: every tier here is about PVE performance. Global R+ also has no reroll culture
+        because everything is farmable, so every community points new players to these free or early units
+        instead of chasing rarity. Updated {LO_TIER_UPDATED}.
+        {overrideCount > 0 && `${overrideCount} manual verdict applied.`}
+      </p>
+      <div class="lo-beginner-team">
+        {beginner.map((b) => (
+          <a class="lo-beginner-card" href={`/guides/last-origin-global/characters/${b.slug}/`}>
+            {b.unit.icon
+              ? <img class="lo-beginner-thumb" src={b.unit.icon} alt={b.unit.name} width="64" height="64" loading="lazy" />
+              : <span class="lo-beginner-thumb lo-beginner-monogram">{b.unit.name?.[0]}</span>}
+            <span class="lo-beginner-name">{b.unit.name}</span>
+            <span class="lo-beginner-note">{b.why}</span>
+          </a>
+        ))}
+      </div>
+    </div>
+
+    <div class="lo-panel" style="margin-top: 2rem">
+      <h2 class="lo-panel-title">Sources</h2>
+      <table class="lo-table">
+        <thead><tr><th>Region</th><th>Source</th><th>Date</th><th>Notes</th></tr></thead>
+        <tbody>
+          {LO_TIER_SOURCES.map((s) => (
+            <tr>
+              <td>{s.region}</td>
+              <td><a class="lo-src-link" href={s.url} target="_blank" rel="noopener noreferrer">{s.name}</a></td>
+              <td>{s.date}</td>
+              <td>{s.note}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+      <p class="lo-stats-note">
+        Placement rule: a unit needs at least two independent top-tier mentions to reach SS, one strong mention or
+        repeated comp-core status for S. Units without a
+        dedicated community placement carry a provisional kit-based estimate and say so in their note.
+      </p>
+    </div>
+
+    <div class="lo-tier-tabs" role="tablist" aria-label="Tier list view">
+      <button class="lo-tier-tab active" data-view-tab="all" role="tab" aria-selected="true" type="button">All Units</button>
+      <button class="lo-tier-tab" data-view-tab="role" role="tab" aria-selected="false" type="button">By Role</button>
+    </div>
+
+    <div class="lo-tier-tabpanel" data-view-panel="all">
+      <div class="lo-tier-grid">
+        {LO_TIERS.map((t) => (
+          <div class="lo-tier-row">
+            <div class="lo-tier-label">
+              <span class={`lo-tier-name lo-tier-name-${TIER_COLOR[t]}`}>{t}</span>
+            </div>
+            <div class="lo-tier-characters">
+              {rowsByTier[t].map((c) => (
+                <a class="lo-tier-card" href={`/guides/last-origin-global/characters/${c.slug}/`}>
+                  {c.icon
+                    ? <img class="lo-tier-thumb" src={c.icon} alt={c.name} loading="lazy" />
+                    : <span class="lo-tier-thumb lo-tier-monogram">{c.name?.[0]}</span>}
+                  <span class="lo-tier-name-label">{c.name}</span>
+                  <span class={`lo-tier-role-chip lo-tier-role-${c.role.toLowerCase()}`}>{c.role}</span>
+                </a>
+              ))}
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+
+    <div class="lo-tier-tabpanel" data-view-panel="role" style="display:none">
+      {roleSections.map((section) => (
+        <div class="lo-tier-role-section">
+          <div class="lo-tier-role-header">
+            <h2 class="lo-tier-role-title">{section.role}s</h2>
+            <span class="lo-tier-role-count">{section.count} units</span>
+          </div>
+          <div class="lo-tier-grid">
+            {section.tiers.map((row) => (
+              <div class="lo-tier-row">
+                <div class="lo-tier-label">
+                  <span class={`lo-tier-name lo-tier-name-${TIER_COLOR[row.tier]}`}>{row.tier}</span>
+                </div>
+                <div class="lo-tier-characters">
+                  {row.characters.map((c) => (
+                    <a class="lo-tier-card" href={`/guides/last-origin-global/characters/${c.slug}/`}>
+                      {c.icon
+                        ? <img class="lo-tier-thumb" src={c.icon} alt={c.name} loading="lazy" />
+                        : <span class="lo-tier-thumb lo-tier-monogram">{c.name?.[0]}</span>}
+                      <span class="lo-tier-name-label">{c.name}</span>
+                      <span class={`lo-tier-role-chip lo-tier-role-${c.role.toLowerCase()}`}>{c.armorType}</span>
+                    </a>
+                  ))}
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      ))}
+    </div>
+
+</section>
+</LOLayout>
+
+<script is:inline>
+  // View tabs: all units in one set of tier rows, or grouped by role.
+  (function () {
+    var tabs = document.querySelectorAll('.lo-tier-tab');
+    var panels = document.querySelectorAll('.lo-tier-tabpanel');
+    tabs.forEach(function (btn) {
+      btn.addEventListener('click', function () {
+        tabs.forEach(function (b) { b.classList.remove('active'); b.setAttribute('aria-selected', 'false'); });
+        btn.classList.add('active');
+        btn.setAttribute('aria-selected', 'true');
+        var view = btn.getAttribute('data-view-tab');
+        panels.forEach(function (p) {
+          p.style.display = p.getAttribute('data-view-panel') === view ? '' : 'none';
+        });
+      });
+    });
+  })();
+</script>

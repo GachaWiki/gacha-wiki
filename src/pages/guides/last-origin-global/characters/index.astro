@@ -1,0 +1,110 @@
+---
+// Last Origin Global character database: all 218 Bioroids with search and
+// role / armor type / rank filters, cards link to per-unit detail pages.
+import LOLayout from '../../../../layouts/last-origin-global/LandingLayout.astro';
+import { loCharacters, LO_ROLES, LO_ARMOR_TYPES, LO_RANKS } from '../../../../data/last-origin-global/characters.js';
+import '../../../../styles/games/last-origin-global/lo-common.css';
+import '../../../../styles/games/last-origin-global/lo-characters.css';
+
+const characters = [...loCharacters].sort((a, b) => (a.sortOrder ?? 9999) - (b.sortOrder ?? 9999));
+const factions = [...new Set(characters.map((c) => c.faction).filter(Boolean))].sort();
+---
+
+<LOLayout
+  title="Character Database"
+  description={`Complete Bioroid database for Last Origin Global. Browse all ${characters.length} units with roles, armor types, ranks, stats and full skill kits.`}
+  gameTitle="Characters"
+>
+  <div class="lo-page-intro">
+    All {characters.length} Bioroids on the Global R+ server. Search by name or filter by role, armor type, rank and faction.
+  </div>
+
+  <div class="lo-toolbar">
+    <input type="text" class="lo-search" placeholder="Search name or title..." id="lo-search" />
+    <span class="lo-count" id="lo-count">{characters.length} units</span>
+  </div>
+  <div class="lo-toolbar lo-toolbar-filters">
+    <button class="lo-filter-btn active" data-group="role" data-filter="all">All roles</button>
+    {LO_ROLES.map((r) => <button class="lo-filter-btn" data-group="role" data-filter={r.toLowerCase()}>{r}</button>)}
+    <span class="lo-filter-sep" aria-hidden="true"></span>
+    <button class="lo-filter-btn active" data-group="type" data-filter="all">All types</button>
+    {LO_ARMOR_TYPES.map((t) => <button class="lo-filter-btn" data-group="type" data-filter={t.toLowerCase()}>{t}</button>)}
+    <span class="lo-filter-sep" aria-hidden="true"></span>
+    <button class="lo-filter-btn active" data-group="rank" data-filter="all">All ranks</button>
+    {LO_RANKS.map((rk) => <button class="lo-filter-btn" data-group="rank" data-filter={`rank-${rk.toLowerCase()}`}>{rk}</button>)}
+    <span class="lo-filter-sep" aria-hidden="true"></span>
+    <select class="lo-faction-select" id="lo-faction" aria-label="Filter by faction">
+      <option value="all">All factions</option>
+      {factions.map((f) => <option value={f}>{f}</option>)}
+    </select>
+  </div>
+
+  <div class="lo-card-grid" id="lo-grid">
+    {characters.map((c) => (
+      <a class="lo-card" href={`/guides/last-origin-global/characters/${c.slug}/`}
+        data-search={`${c.name} ${c.title} ${(c.aka || []).join(' ')} ${c.krName}`.toLowerCase()}
+        data-role={c.role.toLowerCase()} data-type={c.armorType.toLowerCase()} data-rank={`rank-${(c.promotedRank || c.rank).toLowerCase()}`}
+        data-faction={c.faction}>
+        <div class="lo-card-art">
+          <img src={c.art} alt={c.name} width="300" height="300" loading="lazy" decoding="async" />
+          {c.icon && <img class="lo-card-icon" src={c.icon} alt="" width="34" height="34" loading="lazy" />}
+        </div>
+        <div class="lo-card-body">
+          <span class="lo-card-name">{c.name}</span>
+          <span class="lo-card-sub">{c.title}</span>
+          <div class="lo-card-chips">
+            <span class={`lo-chip lo-chip-role-${c.role.toLowerCase()}`}>{c.role}</span>
+            <span class={`lo-chip lo-chip-rank-${(c.promotedRank || c.rank).toLowerCase()}`}>{c.promotedRank || c.rank}</span>
+            <span class={`lo-chip lo-chip-type-${c.armorType.toLowerCase()}`}>{c.armorType}</span>
+          </div>
+        </div>
+      </a>
+    ))}
+  </div>
+  <div class="no-results" id="lo-no-results">No units match the current filters.</div>
+</LOLayout>
+
+<script is:inline>
+  // Client-side search + filter over the unit grid.
+  (function () {
+    var state = { q: '', role: 'all', type: 'all', rank: 'all', faction: 'all' };
+    var cards = Array.prototype.slice.call(document.querySelectorAll('#lo-grid .lo-card'));
+    var count = document.getElementById('lo-count');
+    var noResults = document.getElementById('lo-no-results');
+
+    function apply() {
+      var shown = 0;
+      cards.forEach(function (card) {
+        var ok =
+          (!state.q || card.getAttribute('data-search').indexOf(state.q) >= 0) &&
+          (state.role === 'all' || card.getAttribute('data-role') === state.role) &&
+          (state.type === 'all' || card.getAttribute('data-type') === state.type) &&
+          (state.rank === 'all' || card.getAttribute('data-rank') === state.rank) &&
+          (state.faction === 'all' || card.getAttribute('data-faction') === state.faction);
+        card.style.display = ok ? '' : 'none';
+        if (ok) shown++;
+      });
+      count.textContent = shown + ' units';
+      noResults.style.display = shown === 0 ? 'block' : 'none';
+    }
+
+    document.getElementById('lo-search').addEventListener('input', function (e) {
+      state.q = e.target.value.trim().toLowerCase();
+      apply();
+    });
+    document.querySelectorAll('.lo-filter-btn').forEach(function (btn) {
+      btn.addEventListener('click', function () {
+        var group = btn.getAttribute('data-group');
+        document.querySelectorAll('.lo-filter-btn[data-group="' + group + '"]').forEach(function (b) {
+          b.classList.toggle('active', b === btn);
+        });
+        state[group] = btn.getAttribute('data-filter');
+        apply();
+      });
+    });
+    document.getElementById('lo-faction').addEventListener('change', function (e) {
+      state.faction = e.target.value;
+      apply();
+    });
+  })();
+</script>
