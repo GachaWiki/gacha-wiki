@@ -1,0 +1,107 @@
+---
+// Last Origin Global equipment database: chips, OS and gear families with
+// slot / category filters, cards link to per-family detail pages.
+import LOLayout from '../../../../layouts/last-origin-global/LandingLayout.astro';
+import { LO_ITEM_FAMILIES, LO_SLOT_LABELS } from '../../../../data/last-origin-global/items.js';
+import '../../../../styles/games/last-origin-global/lo-common.css';
+import '../../../../styles/games/last-origin-global/lo-items.css';
+
+const released = LO_ITEM_FAMILIES.filter((f) => f.released);
+const totalItems = LO_ITEM_FAMILIES.reduce((n, f) => n + f.tiers.length, 0);
+---
+
+<LOLayout
+  title="Equipment Database"
+  description={`Complete equipment database for Last Origin Global: ${LO_ITEM_FAMILIES.length} chip, OS and gear families with ${totalItems} tiers, full enchant-level stats, upgrade costs and farm locations.`}
+  gameTitle="Equipment"
+>
+  <div class="lo-page-intro">
+    All {released.length} equipment families on the Global R+ server: chips, OS and gear with per-tier stats, enchant costs and drop locations.
+    Data from the KR datamine cross-checked against the Global server. <a href="/guides/last-origin-global/equipment/materials/">Upgrade materials</a>
+  </div>
+
+  <div class="lo-toolbar">
+    <input type="text" class="lo-search" placeholder="Search equipment..." id="lo-item-search" />
+    <span class="lo-count" id="lo-item-count">{released.length} items</span>
+  </div>
+  <div class="lo-toolbar lo-toolbar-filters">
+    <button class="lo-filter-btn active" data-group="slot" data-filter="all">All slots</button>
+    <button class="lo-filter-btn" data-group="slot" data-filter="chip">Chips</button>
+    <button class="lo-filter-btn" data-group="slot" data-filter="os">OS</button>
+    <button class="lo-filter-btn" data-group="slot" data-filter="sub">Gear</button>
+    <span class="lo-filter-sep" aria-hidden="true"></span>
+    <button class="lo-filter-btn active" data-group="cat" data-filter="all">All types</button>
+    <button class="lo-filter-btn" data-group="cat" data-filter="normal">Normal</button>
+    <button class="lo-filter-btn" data-group="cat" data-filter="exclusive">Exclusive</button>
+    <button class="lo-filter-btn" data-group="cat" data-filter="sanctum">Sanctum</button>
+    <span class="lo-filter-sep" aria-hidden="true"></span>
+    <button class="lo-filter-btn active" data-group="rel" data-filter="yes">Released</button>
+    <button class="lo-filter-btn" data-group="rel" data-filter="no">KR only</button>
+  </div>
+
+  <div class="lo-item-grid" id="lo-item-grid">
+    {LO_ITEM_FAMILIES.map((f) => (
+      <a class="lo-item-card" href={`/guides/last-origin-global/equipment/${f.slug}/`}
+        data-search={`${f.name} ${f.slotLabel} ${f.tiers.map((t) => t.grade).join(' ')}`.toLowerCase()}
+        data-slot={f.slot} data-cat={f.category} data-rel={f.released ? 'yes' : 'no'}>
+        <div class="lo-item-card-head">
+          <img src={f.tiers[f.tiers.length - 1].icon} alt={f.name} width="64" height="64" loading="lazy" decoding="async" />
+          <span class={`lo-chip lo-chip-slot-${f.slot}`}>{f.slotLabel}</span>
+        </div>
+        <span class="lo-item-card-name">{f.name}</span>
+        <span class="lo-item-card-grades">{f.tiers.map((t) => t.grade).join(' / ')}</span>
+        {!f.released && <span class="lo-chip lo-chip-unreleased">KR only</span>}
+        {f.category === 'exclusive' && <span class="lo-chip lo-chip-exclusive">Exclusive</span>}
+        {f.category === 'sanctum' && <span class="lo-chip lo-chip-sanctum">Sanctum</span>}
+      </a>
+    ))}
+  </div>
+  <div class="lo-no-results" id="lo-item-no-results" style="display:none;">No equipment matches the current filters.</div>
+
+  <div class="lo-item-legend">
+    <span><span class="lo-chip lo-chip-slot-chip">Chip</span> slot chips boost raw stats.</span>
+    <span><span class="lo-chip lo-chip-slot-os">OS</span> systems grant battle effects.</span>
+    <span><span class="lo-chip lo-chip-slot-sub">Gear</span> sub-weapons and utility.</span>
+    <span><span class="lo-chip lo-chip-sanctum">Sanctum</span> items only drop in the Sanctum of Alteration roguelike mode.</span>
+  </div>
+</LOLayout>
+
+<script is:inline>
+  // Client-side search + filters over the equipment grid.
+  (function () {
+    var state = { q: '', slot: 'all', cat: 'all', rel: 'yes' };
+    var cards = Array.prototype.slice.call(document.querySelectorAll('#lo-item-grid .lo-item-card'));
+    var count = document.getElementById('lo-item-count');
+    var noResults = document.getElementById('lo-item-no-results');
+
+    function apply() {
+      var shown = 0;
+      cards.forEach(function (card) {
+        var ok =
+          (!state.q || card.getAttribute('data-search').indexOf(state.q) >= 0) &&
+          (state.slot === 'all' || card.getAttribute('data-slot') === state.slot) &&
+          (state.cat === 'all' || card.getAttribute('data-cat') === state.cat) &&
+          (state.rel === 'all' || card.getAttribute('data-rel') === state.rel);
+        card.style.display = ok ? '' : 'none';
+        if (ok) shown++;
+      });
+      count.textContent = shown + ' items';
+      noResults.style.display = shown === 0 ? 'block' : 'none';
+    }
+
+    document.getElementById('lo-item-search').addEventListener('input', function (e) {
+      state.q = e.target.value.trim().toLowerCase();
+      apply();
+    });
+    document.querySelectorAll('.lo-filter-btn').forEach(function (btn) {
+      btn.addEventListener('click', function () {
+        var group = btn.getAttribute('data-group');
+        document.querySelectorAll('.lo-filter-btn[data-group="' + group + '"]').forEach(function (b) {
+          b.classList.toggle('active', b === btn);
+        });
+        state[group] = btn.getAttribute('data-filter');
+        apply();
+      });
+    });
+  })();
+</script>

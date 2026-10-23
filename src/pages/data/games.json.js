@@ -12,6 +12,7 @@ import { starSaviorConfig } from '../../data/star-savior/star-savior.js';
 import { taimaninSquadConfig } from '../../data/taimanin-squad/taimanin-squad.js';
 import { lastOriginGlobalConfig } from '../../data/last-origin-global/last-origin-global.js';
 import { loCharacters } from '../../data/last-origin-global/characters.js';
+import { LO_ITEM_FAMILIES as loItemFamilies } from '../../data/last-origin-global/items.js';
 import { makeDramaConfig } from '../../data/make-drama/make-drama.js';
 
 export const prerender = true;
@@ -324,6 +325,7 @@ export async function GET() {
       contentAvailable: {
         characters: { count: loCharacters.length, url: '/guides/last-origin-global/characters/' },
         tierList: { url: '/guides/last-origin-global/tier-list/' },
+        equipment: { count: loItemFamilies.filter((f) => f.released).length, url: '/guides/last-origin-global/equipment/' },
         releaseTimeline: { url: '/guides/last-origin-global/release-timeline/' },
       },
       apiEndpoints: [],
@@ -334,6 +336,14 @@ export async function GET() {
           pages: [
             { title: 'Character Database', url: '/guides/last-origin-global/characters/' },
             { title: 'Tier List', url: '/guides/last-origin-global/tier-list/' },
+          ],
+        },
+        {
+          category: 'Equipment',
+          description: 'Chips, OS, gear and materials',
+          pages: [
+            { title: 'Equipment Database', url: '/guides/last-origin-global/equipment/' },
+            { title: 'Upgrade Materials', url: '/guides/last-origin-global/equipment/materials/' },
           ],
         },
         {

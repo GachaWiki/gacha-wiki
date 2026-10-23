@@ -1,0 +1,29 @@
+---
+// Last Origin Global upgrade materials: the 19 consumables equipment
+// enchanting and tier upgrades consume, sorted by how often they are used.
+import LOLayout from '../../../../layouts/last-origin-global/LandingLayout.astro';
+import { LO_MATERIALS } from '../../../../data/last-origin-global/items.js';
+import '../../../../styles/games/last-origin-global/lo-common.css';
+import '../../../../styles/games/last-origin-global/lo-items.css';
+---
+
+<LOLayout
+  title="Upgrade Materials"
+  description={`Upgrade materials for Last Origin Global equipment: ${LO_MATERIALS.length} modules, alloys and robot parts used by chip, OS and gear enchanting and tier upgrades.`}
+  gameTitle="Materials"
+>
+  <div class="lo-page-intro">
+    The {LO_MATERIALS.length} materials consumed by equipment enchanting and tier upgrades, ranked by how many upgrade steps need them.
+    See where each item drops on its <a href="/guides/last-origin-global/equipment/">equipment page</a>.
+  </div>
+
+  <div class="lo-mat-grid">
+    {LO_MATERIALS.map((m) => (
+      <div class="lo-mat-card" data-search={`${m.name} ${m.key}`.toLowerCase()}>
+        {m.icon && <img src={m.icon} alt={m.name} width="56" height="56" loading="lazy" decoding="async" />}
+        <span class="lo-mat-name">{m.name}</span>
+        <span class="lo-mat-uses">{m.uses} uses</span>
+      </div>
+    ))}
+  </div>
+</LOLayout>

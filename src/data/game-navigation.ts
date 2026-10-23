@@ -434,6 +434,13 @@ export const NAV_DATA: Record<GameKey, { sections: NavigationSection[] }> = {
         ],
       },
       {
+        title: 'Equipment',
+        links: [
+          { name: 'Equipment DB', href: '/guides/last-origin-global/equipment/' },
+          { name: 'Materials', href: '/guides/last-origin-global/equipment/materials/' },
+        ],
+      },
+      {
         title: 'Game',
         links: [
           { name: 'Home', href: '/guides/last-origin-global/' },

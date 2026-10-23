@@ -4,8 +4,10 @@
 import LOLayout from '../../../../layouts/last-origin-global/LandingLayout.astro';
 import { loCharacters, getLoCharacter } from '../../../../data/last-origin-global/characters.js';
 import { getLoTier } from '../../../../data/last-origin-global/tier-list.js';
+import { getItemFamily, getPrivateGearForUnit } from '../../../../data/last-origin-global/items.js';
 import '../../../../styles/games/last-origin-global/lo-common.css';
 import '../../../../styles/games/last-origin-global/lo-characters.css';
+import '../../../../styles/games/last-origin-global/lo-items.css';
 
 export async function getStaticPaths() {
   return loCharacters.map((c) => ({ params: { slug: c.slug } }));
@@ -17,6 +19,14 @@ if (!c) return Astro.redirect('/guides/last-origin-global/characters/');
 
 const tier = getLoTier(slug);
 const st = c.stats || {};
+// equipRec letters = slot layout: C chip, O OS, G gear (slot order)
+const SLOT_NAMES = { C: 'Chip', O: 'OS', G: 'Gear' };
+const SLOT_FILTER = { C: 'chip', O: 'os', G: 'sub' };
+const slotLayout = (c.equipRec || '').split('').map((ch) => SLOT_NAMES[ch]).filter(Boolean);
+const exclusiveGear = getPrivateGearForUnit(c.slug)
+  .flatMap((g) => g.familySlugs)
+  .map(getItemFamily)
+  .filter(Boolean);
 const facts = [
   { label: 'Faction', value: c.faction },
   { label: 'Class', value: c.cls },
@@ -25,7 +35,7 @@ const facts = [
   { label: 'Production', value: c.prodTime },
   { label: 'Height', value: c.height },
   { label: 'Weight', value: c.weight },
-  { label: 'Equipment', value: c.equipRec },
+  { label: 'Equipment slots', value: slotLayout.join(' / ') },
   { label: 'Korean name', value: c.krName },
   { label: 'No.', value: c.number != null ? `#${c.number}` : '' },
 ].filter((f) => f.value);
@@ -118,6 +128,36 @@ const resist = st.resist || {};
           </figure>
         ))}
       </div>
+    </div>
+  )}
+
+  {(slotLayout.length > 0 || exclusiveGear.length > 0) && (
+    <div class="lo-panel">
+      <h2 class="lo-panel-title">Equipment</h2>
+      {slotLayout.length > 0 && (
+        <div class="lo-unit-slots">
+          {(c.equipRec || '').split('').map((ch) => (
+            <a class="lo-unit-slot" href={`/guides/last-origin-global/equipment/`}>
+              <span class={`lo-chip lo-chip-slot-${SLOT_FILTER[ch]}`}>{SLOT_NAMES[ch]}</span>
+            </a>
+          ))}
+          <span class="lo-unit-slots-note">Slot layout. Browse picks in the <a href="/guides/last-origin-global/equipment/">equipment database</a>.</span>
+        </div>
+      )}
+      {exclusiveGear.length > 0 && (
+        <div class="lo-unit-exclusive">
+          <span class="lo-item-section-label">Exclusive equipment</span>
+          <div class="lo-unit-exclusive-grid">
+            {exclusiveGear.map((g) => (
+              <a class="lo-unit-gear-card" href={`/guides/last-origin-global/equipment/${g.slug}/`}>
+                <img src={g.tiers[g.tiers.length - 1].icon} alt={g.name} width="56" height="56" loading="lazy" decoding="async" />
+                <span class="lo-unit-gear-name">{g.name}</span>
+                <span class="lo-unit-gear-grades">{g.tiers.map((t) => t.grade).join(' / ')}</span>
+              </a>
+            ))}
+          </div>
+        </div>
+      )}
     </div>
   )}
 

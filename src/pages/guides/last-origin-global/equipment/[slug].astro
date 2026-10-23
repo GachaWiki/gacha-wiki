@@ -1,0 +1,185 @@
+---
+// Last Origin Global equipment detail: one page per family, tier selector
+// (B to SSS), per-enchant-level stats, upgrade/enchant costs and sources.
+import LOLayout from '../../../../layouts/last-origin-global/LandingLayout.astro';
+import { LO_ITEM_FAMILIES, getItemFamily, LO_MATERIALS, getPrivateGearForUnit } from '../../../../data/last-origin-global/items.js';
+import { loCharacters } from '../../../../data/last-origin-global/characters.js';
+import '../../../../styles/games/last-origin-global/lo-common.css';
+import '../../../../styles/games/last-origin-global/lo-items.css';
+
+export async function getStaticPaths() {
+  return LO_ITEM_FAMILIES.map((f) => ({ params: { slug: f.slug } }));
+}
+
+const { slug } = Astro.params;
+const fam = getItemFamily(slug);
+if (!fam) return Astro.redirect('/guides/last-origin-global/equipment/');
+
+const matByName = Object.fromEntries(LO_MATERIALS.map((m) => [m.key, m]));
+const unitBySlug = Object.fromEntries(loCharacters.map((c) => [c.slug, c]));
+const exclusiveUnits = (fam.exclusiveUnits || [])
+  .map((s) => unitBySlug[s])
+  .filter(Boolean);
+// units whose wiki page lists this family as exclusive gear
+const linkedUnits = loCharacters.filter((c) =>
+  getPrivateGearForUnit(c.slug).some((g) => g.familySlugs.includes(fam.slug))
+).filter((c) => !fam.exclusiveUnits.includes(c.slug));
+
+function fmtRes(n) {
+  if (n == null) return '-';
+  return n >= 1000 ? n.toLocaleString('en-US') : String(n);
+}
+
+function costLabel(items) {
+  if (!items || !items.length) return '';
+  return items.map(([key, n]) => `${matByName[key]?.name || key} x${n}`).join(', ');
+}
+
+const sortedTiers = [...fam.tiers].sort((a, b) => a.tier - b.tier);
+const top = sortedTiers[sortedTiers.length - 1];
+---
+
+<LOLayout
+  title={`${fam.name} - Equipment`}
+  description={`${fam.name} ${fam.slotLabel} for Last Origin Global: ${fam.tiers.map((t) => t.grade).join(', ')} tiers, stats at every enchant level, upgrade costs and farm locations.`}
+  gameTitle="Equipment"
+>
+  <div class="lo-item-detail">
+    <div class="lo-item-detail-head">
+      <img src={top.icon} alt={fam.name} width="96" height="96" />
+      <div class="lo-item-detail-title">
+        <h1>{fam.name}</h1>
+        <div class="lo-item-detail-chips">
+          <span class={`lo-chip lo-chip-slot-${fam.slot}`}>{fam.slotLabel}</span>
+          {fam.category === 'exclusive' && <span class="lo-chip lo-chip-exclusive">Exclusive</span>}
+          {fam.category === 'sanctum' && <span class="lo-chip lo-chip-sanctum">Sanctum</span>}
+          {!fam.released && <span class="lo-chip lo-chip-unreleased">KR only, not on Global yet</span>}
+        </div>
+      </div>
+      <div class="lo-item-tier-nav">
+        {sortedTiers.map((t, i) => (
+          <button class={`lo-tier-btn${i === 0 ? ' active' : ''}`} data-tier={t.uid}>{t.grade}</button>
+        ))}
+      </div>
+    </div>
+
+    {fam.desc && <p class="lo-item-desc">{fam.desc}</p>}
+
+    {fam.wikiEffect && (
+      <div class="lo-item-effect-panel">
+        <div class="lo-item-effect-label">Effect</div>
+        {fam.wikiEntries.map((e) => (
+          <p class="lo-item-effect-text">
+            {e.rank && e.rank !== 'B' ? <span class="lo-chip lo-chip-tierdoc">{e.rank}</span> : ''}
+            {e.effect}
+          </p>
+        ))}
+        {fam.wikiEntries[0]?.note && <p class="lo-item-effect-note">{fam.wikiEntries[0].note}</p>}
+      </div>
+    )}
+
+    {exclusiveUnits.length > 0 && (
+      <div class="lo-item-exclusive">
+        <span class="lo-item-section-label">Exclusive to</span>
+        {exclusiveUnits.map((u) => (
+          <a class="lo-item-unit-link" href={`/guides/last-origin-global/characters/${u.slug}/`}>
+            <img src={u.icon} alt={u.name} width="28" height="28" loading="lazy" />
+            {u.name}
+          </a>
+        ))}
+        {linkedUnits.map((u) => (
+          <a class="lo-item-unit-link" href={`/guides/last-origin-global/characters/${u.slug}/`}>
+            <img src={u.icon} alt={u.name} width="28" height="28" loading="lazy" />
+            {u.name}
+          </a>
+        ))}
+      </div>
+    )}
+
+    {sortedTiers.map((t, ti) => (
+      <section class={`lo-item-tier-panel${ti === 0 ? ' active' : ''}`} data-tier-panel={t.uid}>
+        <div class="lo-item-tier-head">
+          <img src={t.icon} alt={`${fam.name} ${t.grade}`} width="48" height="48" loading="lazy" />
+          <span class="lo-chip lo-chip-grade">{t.grade} grade</span>
+          {t.craft ? <span class="lo-item-craft">Workshop production: {Math.round(t.craft / 60)} min</span> : ''}
+        </div>
+
+        <div class="lo-item-table-wrap">
+          <table class="lo-item-table">
+            <thead>
+              <tr>
+                <th>Enchant</th>
+                <th>Stats</th>
+                <th>Effect</th>
+                <th>Upgrade cost</th>
+              </tr>
+            </thead>
+            <tbody>
+              {t.stats.map((lvl, i) => {
+                const cost = t.enchant[i - 1];
+                return (
+                  <tr>
+                    <td class="lo-item-lvl">+{i}</td>
+                    <td>
+                      {(lvl[0] || []).map(([stat, val]) => (
+                        <span class={`lo-stat-line${String(val).startsWith('-') ? ' lo-stat-neg' : ''}`}>{stat} {String(val).startsWith('-') ? '' : '+'}{val}</span>
+                      ))}
+                    </td>
+                    <td class="lo-item-buffs">{(lvl[1] || []).map((b) => <span class="lo-buff-line">{b}</span>)}</td>
+                    <td class="lo-item-cost">
+                      {cost ? (
+                        <>
+                          {fmtRes(cost.res)} resources{cost.items.length ? <span class="lo-cost-items"> + {costLabel(cost.items)}</span> : ''}
+                        </>
+                      ) : ''}
+                    </td>
+                  </tr>
+                );
+              })}
+            </tbody>
+          </table>
+        </div>
+
+        {t.upgradeTo && (
+          <div class="lo-item-upgrade">
+            Upgrade to <strong>{t.upgradeTo.replace(/_(Chip|System|Sub)_/, '_').replace('_T', ' T')}</strong>
+            {t.upgradeCost.length ? <span>: {costLabel(t.upgradeCost)}</span> : ''}
+          </div>
+        )}
+
+        {t.sources.length > 0 && (
+          <div class="lo-item-sources">
+            <span class="lo-item-section-label">Where to get</span>
+            {t.sources.map((s) => <span class="lo-source-badge">{s}</span>)}
+          </div>
+        )}
+      </section>
+    ))}
+
+    {fam.acquisition.length > 0 && (
+      <div class="lo-item-acquisition">
+        <span class="lo-item-section-label">Acquisition (wiki)</span>
+        <ul>
+          {fam.acquisition.map((a) => <li>{a}</li>)}
+        </ul>
+      </div>
+    )}
+  </div>
+</LOLayout>
+
+<script is:inline>
+  // Tier selector: show the selected tier's panel.
+  (function () {
+    var btns = document.querySelectorAll('.lo-tier-btn');
+    var panels = document.querySelectorAll('.lo-item-tier-panel');
+    btns.forEach(function (btn) {
+      btn.addEventListener('click', function () {
+        btns.forEach(function (b) { b.classList.toggle('active', b === btn); });
+        var uid = btn.getAttribute('data-tier');
+        panels.forEach(function (p) {
+          p.classList.toggle('active', p.getAttribute('data-tier-panel') === uid);
+        });
+      });
+    });
+  })();
+</script>
