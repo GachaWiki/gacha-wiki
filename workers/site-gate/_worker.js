@@ -42,6 +42,7 @@ async function sessionMember(request, env) {
   const member = payload.slice(0, colon);
   const exp = Number(payload.slice(colon + 1));
   if (!exp || Date.now() > exp) return null;
+  if (!Object.values(GW_CODES).includes(member)) return null;
   return member;
 }
 
