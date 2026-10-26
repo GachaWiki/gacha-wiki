@@ -3,7 +3,7 @@
 export const MiranaBuildConfig = {
   damageScaling: "Melee Attack",
   buildStrategyTitle: "Community Sheet Build (Mirana)",
-  recommendedStigma: "Mix",
+  recommendedStigma: "Mixed 2-Set: Jester's Mask + Jupiter",
   buildStrategy: [
     {
       title: "Weapon: Chrysaor",

@@ -1,6 +1,6 @@
 // Official Stella Sora news content (cleaned from stellasora.global/news/1930)
 export const content = `
-<p><img src="https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/stella-sora/news/1930-1.webp" alt="" loading="lazy" decoding="async" /></p>
+<p><img src="https://img.gachawiki.info/stella-sora/news/1930-1.webp" alt="" loading="lazy" decoding="async" /></p>
 <p>Dear Tyrant,</p>
 <p>You can now visit Yostar Top-Up Center(<a href="https://payment.yo-star.com/index" target="_blank" rel="noopener nofollow">https://payment.yo-star.com/index</a>)to take advantage of special discounts!</p>
 <p><strong>[About Yostar Top-up Center]</strong></p>

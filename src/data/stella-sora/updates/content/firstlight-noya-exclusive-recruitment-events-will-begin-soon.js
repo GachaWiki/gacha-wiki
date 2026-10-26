@@ -1,6 +1,6 @@
 // Official Stella Sora news content (cleaned from stellasora.global/news/4926)
 export const content = `
-<p><img src="https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/stella-sora/news/4926-1.webp" alt="" loading="lazy" decoding="async" /></p>
+<p><img src="https://img.gachawiki.info/stella-sora/news/4926-1.webp" alt="" loading="lazy" decoding="async" /></p>
 <p><strong>Exclusive limited recruitment event: At the First Piercing Light will begin soon! During the event period, there's a higher chance to get the exclusive ★5 Trekker, Firstlight Noya.</strong></p>
 <p><strong>✦ Recruitment Period ✦</strong></p>
 <p>Start: Oct. 19, 2026 after maintenance</p>
@@ -13,7 +13,7 @@ export const content = `
 <p>- When the recruitment period ends, Firstlight Noya (★5) will not be added to the Permanent Trekker Banner.</p>
 <p>- All recruitment attempts that fail to obtain Firstlight Noya (★5) will accumulate within and carry over across all Limited Trekker Banners, independent from other banner types.</p>
 <p>*For more recruitment information, please select the Details button in the bottom-left corner of the recruitment screen.</p>
-<p><img src="https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/stella-sora/news/4926-2.webp" alt="" loading="lazy" decoding="async" /></p>
+<p><img src="https://img.gachawiki.info/stella-sora/news/4926-2.webp" alt="" loading="lazy" decoding="async" /></p>
 <p><strong>Exclusive limited recruitment event: Resolve at the Tip of My Sword will begin soon! During the event period, there's a higher chance to get the exclusive ★5 Runic Disc: My Guiding Star.</strong></p>
 <p><strong>✦ Recruitment Period ✦</strong></p>
 <p>Start: Oct. 19, 2026 after maintenance</p>

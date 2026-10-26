@@ -1,6 +1,6 @@
 // Official Stella Sora news content (cleaned from stellasora.global/news/2218)
 export const content = `
-<p><img src="https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/stella-sora/news/2218-1.webp" alt="" loading="lazy" decoding="async" /></p>
+<p><img src="https://img.gachawiki.info/stella-sora/news/2218-1.webp" alt="" loading="lazy" decoding="async" /></p>
 <p><strong>Exclusive limited recruitment event: Holy Night Gift Rush will begin soon! During the event period, there's a higher chance to get the ★5 Trekker, Snowish Laru.</strong></p>
 <p><strong>✦ Recruitment Period ✦</strong></p>
 <p>Start: Dec. 22, 2025 after maintenance</p>
@@ -13,7 +13,7 @@ export const content = `
 <p>- When the recruitment period ends, Snowish Laru (★5) will not be added to the Permanent Trekker Banner.</p>
 <p>- All recruitment attempts that fail to obtain Snowish Laru (★5) will accumulate within and carry over across all Limited Trekker Banners, independent from other banner types.</p>
 <p>*For more recruitment information, please select the Details button in the bottom-left corner of the recruitment screen.</p>
-<p><img src="https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/stella-sora/news/2218-2.webp" alt="" loading="lazy" decoding="async" /></p>
+<p><img src="https://img.gachawiki.info/stella-sora/news/2218-2.webp" alt="" loading="lazy" decoding="async" /></p>
 <p><strong>Exclusive limited recruitment event: Ode of the Kingdom of Fries will begin soon! During the event period, there's a higher chance to get the ★5 Runic Disc, Snowy Night Surprise.</strong></p>
 <p><strong>✦ Recruitment Period ✦</strong></p>
 <p>Start: Dec. 22, 2025 after maintenance</p>

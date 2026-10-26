@@ -3,7 +3,7 @@
 export const MatrothoBuildConfig = {
   damageScaling: "Melee Attack",
   buildStrategyTitle: "Community Sheet Build (Matrotho)",
-  recommendedStigma: "The Thousand Mile Weaver (General)",
+  recommendedStigma: "The Thousand Mile Weave",
   buildStrategy: [
     {
       title: "Weapon: The Lamoran Wind",

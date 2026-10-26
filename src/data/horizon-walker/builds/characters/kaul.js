@@ -3,7 +3,7 @@
 export const KaulBuildConfig = {
   damageScaling: "Melee Attack",
   buildStrategyTitle: "Community Sheet Build (Kaul)",
-  recommendedStigma: "Jupiter (With Korabi in Team)",
+  recommendedStigma: "Jupiter",
   buildStrategy: [
     {
       title: "Weapon: Massively Vibrating Pole",

@@ -6,14 +6,14 @@ export const gsaItems = [
   "name": "Gold Bars",
   "desc": "Gold Bars symbolize eternal wealth and can be exchanged for any power or resource you desire.",
   "quality": "70",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200000001.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200000001.webp"
  },
  {
   "id": "200000002",
   "name": "Stamina",
   "desc": "Theodore's Stamina.",
   "quality": "70",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200000002.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200000002.webp"
  },
  {
   "id": "200000003",
@@ -34,14 +34,14 @@ export const gsaItems = [
   "name": "Silver Coin",
   "desc": "Issued by the Tobia government, this is the most common currency used for trade.",
   "quality": "0",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200000005.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200000005.webp"
  },
  {
   "id": "200000006",
   "name": "Mastery",
   "desc": "With the passage of time and the weight of experience, Theodore will grow ever more formidable.",
   "quality": "50",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200000006.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200000006.webp"
  },
  {
   "id": "200000007",
@@ -76,7 +76,7 @@ export const gsaItems = [
   "name": "Enhancement Component",
   "desc": "Contains parts used for equipment reinforcement, including fabrics, buckles, padding, carbon fiber cloth, and ceramic armor plates.",
   "quality": "30",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200000011.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200000011.webp"
  },
  {
   "id": "200000012",
@@ -146,21 +146,21 @@ export const gsaItems = [
   "name": "SSR Medallion",
   "desc": "Business cards obtained from acquiring duplicate SSR characters at max stars. Can be exchanged for items at the Exchange Shop.",
   "quality": "70",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200000021.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200000021.webp"
  },
  {
   "id": "200000022",
   "name": "SR Medallion",
   "desc": "Business cards obtained from acquiring duplicate SR characters at max stars. Can be exchanged for items at the Exchange Shop.",
   "quality": "50",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200000022.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200000022.webp"
  },
  {
   "id": "200000023",
   "name": "R Medallion",
   "desc": "Business cards obtained from acquiring duplicate R characters at max stars. Can be exchanged for items at the Exchange Shop.",
   "quality": "30",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200000023.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200000023.webp"
  },
  {
   "id": "200000024",
@@ -195,28 +195,28 @@ export const gsaItems = [
   "name": "Auto-Battle Card",
   "desc": "A pass containing a digital authorization certificate. Once activated, it can be used to complete designated procedures directly, making it the best choice for mission efficiency and task management.",
   "quality": "30",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200000028.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200000028.webp"
  },
  {
   "id": "200000029",
   "name": "Vitality",
   "desc": "The vitality needed to interact with women.",
   "quality": "30",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200000029.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200000029.webp"
  },
  {
   "id": "200000030",
   "name": "EROLABS Coin",
   "desc": "EROLABS Coin",
   "quality": "70",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200000030.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200000030.webp"
  },
  {
   "id": "200000031",
   "name": "Battery",
   "desc": "A Phone Battery. You'll need this to stay in touch with the lovely ladies.",
   "quality": "70",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200000031.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200000031.webp"
  },
  {
   "id": "200010001",
@@ -230,7 +230,7 @@ export const gsaItems = [
   "name": "Mission Activity",
   "desc": "Obtained by completing missions. Accumulate them to claim rewards.",
   "quality": "50",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200010002.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200010002.webp"
  },
  {
   "id": "200020001",
@@ -244,98 +244,98 @@ export const gsaItems = [
   "name": "Honor Medal",
   "desc": "A medal obtained from the Carducci Arena. Can be exchanged for items at the Exchange Shop.",
   "quality": "50",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200020002.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200020002.webp"
  },
  {
   "id": "200020003",
   "name": "Tournament Token",
   "desc": "A reward obtained from the Desperate Deathmatch. Can be exchanged for items at the Exchange Shop.",
   "quality": "50",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200020003.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200020003.webp"
  },
  {
   "id": "200020004",
   "name": "Flame Energy Module",
   "desc": "Obtained from Fire Resonance stages. Can be exchanged for items at the Exchange Shop.",
   "quality": "50",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200020004.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200020004.webp"
  },
  {
   "id": "200020005",
   "name": "Cryo Energy Module",
   "desc": "Obtained from Water Resonance stages. Can be exchanged for items at the Exchange Shop.",
   "quality": "50",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200020005.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200020005.webp"
  },
  {
   "id": "200020006",
   "name": "Fissure Energy Module",
   "desc": "Obtained from Earth Resonance stages. Can be exchanged for items at the Exchange Shop.",
   "quality": "50",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200020006.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200020006.webp"
  },
  {
   "id": "200020007",
   "name": "Storm Energy Module",
   "desc": "Obtained from Wind Resonance stages. Can be exchanged for items at the Exchange Shop.",
   "quality": "50",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200020007.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200020007.webp"
  },
  {
   "id": "200020008",
   "name": "Shadow Energy Module",
   "desc": "Obtained from Dark Resonance stages. Can be exchanged for items at the Exchange Shop.",
   "quality": "50",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200020008.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200020008.webp"
  },
  {
   "id": "200020009",
   "name": "Radiant Energy Module",
   "desc": "Obtained from Light Resonance stages. Can be exchanged for items at the Exchange Shop.",
   "quality": "50",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200020009.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200020009.webp"
  },
  {
   "id": "200020012",
   "name": "Gale Crystal Cluster",
   "desc": "Obtained from events. Can be exchanged for premium items at the Exchange Shop.",
   "quality": "30",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200020012.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200020012.webp"
  },
  {
   "id": "200020013",
   "name": "Inferno Crystal Cluster",
   "desc": "Obtained from events. Can be exchanged for premium items at the Exchange Shop.",
   "quality": "30",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200020013.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200020013.webp"
  },
  {
   "id": "200020014",
   "name": "Rockslide Crystal Cluster",
   "desc": "Obtained from events. Can be exchanged for premium items at the Exchange Shop.",
   "quality": "30",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200020014.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200020014.webp"
  },
  {
   "id": "200020015",
   "name": "Frost Crystal Cluster",
   "desc": "Obtained from events. Can be exchanged for premium items at the Exchange Shop.",
   "quality": "30",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200020015.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200020015.webp"
  },
  {
   "id": "200020016",
   "name": "Holy Light Crystal Cluster",
   "desc": "Obtained from events. Can be exchanged for premium items at the Exchange Shop.",
   "quality": "30",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200020016.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200020016.webp"
  },
  {
   "id": "200020017",
   "name": "Umbra Crystal Cluster",
   "desc": "Obtained from events. Can be exchanged for premium items at the Exchange Shop.",
   "quality": "30",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200020017.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200020017.webp"
  },
  {
   "id": "200020018",
@@ -356,42 +356,42 @@ export const gsaItems = [
   "name": "Heart Aroma Lamp",
   "desc": "A high-tech fragrance diffuser with a cute design. By releasing a high-concentration, mood-guiding scent, it creates a comfortable and even slightly psychedelic atmosphere...",
   "quality": "50",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200020020.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200020020.webp"
  },
  {
   "id": "200020021",
   "name": "President Gold Card",
   "desc": "[Recreation Club] Only those who have proven their luck through the Lucky Wheel may enter the President's Secret Club.",
   "quality": "70",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200020021.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200020021.webp"
  },
  {
   "id": "200020022",
   "name": "Raffle Ticket",
   "desc": "[Recreation Club] Visit the club 7 times within one week to receive a Lucky Wheel raffle ticket, with a chance to win a President Gold Card.",
   "quality": "50",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200020022.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200020022.webp"
  },
  {
   "id": "200020023",
   "name": "Unlimited Play Ticket",
   "desc": "[Recreation Club] With this ticket, enjoy exclusive access to the venue after hours.",
   "quality": "50",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200020023.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200020023.webp"
  },
  {
   "id": "200020024",
   "name": "Extra Play Ticket",
   "desc": "[Recreation Club] If you wish to continue, use this ticket for an extra attempt.",
   "quality": "50",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200020024.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200020024.webp"
  },
  {
   "id": "200020025",
   "name": "[Combat Expertise] Entry Permit",
   "desc": "Increases the number of [Combat Expertise] attempts by 1.",
   "quality": "50",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200020025.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200020025.webp"
  },
  {
   "id": "200020026",
@@ -405,14 +405,14 @@ export const gsaItems = [
   "name": "SSR Advanced Referral Ticket (Premium)",
   "desc": "Obtained by exchanging an SSR Medallion. Can be used to redeem a character at the SSR Advanced Agency.",
   "quality": "50",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200020027.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200020027.webp"
  },
  {
   "id": "200020028",
   "name": "SSR Advanced Referral Ticket (Regular)",
   "desc": "Obtained by exchanging an SSR Medallion. Can be used to redeem a character at the SSR Talent Agency.",
   "quality": "50",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200020028.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200020028.webp"
  },
  {
   "id": "200020029",
@@ -426,7 +426,7 @@ export const gsaItems = [
   "name": "Advanced Summon Ticket (Fragment)",
   "desc": "Collect 50 to fuse 1 \"Advanced Summon Ticket.\"",
   "quality": "30",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200020030.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200020030.webp"
  },
  {
   "id": "200040001",
@@ -447,77 +447,77 @@ export const gsaItems = [
   "name": "Stamina Potion (50 Stamina)",
   "desc": "Immediately restores 50 Stamina.",
   "quality": "50",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200040003.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200040003.webp"
  },
  {
   "id": "200040004",
   "name": "7-Day Stamina Potion (50 Stamina)",
   "desc": "Immediately restores 50 Stamina. Valid for 7 days only.",
   "quality": "50",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200040003.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200040003.webp"
  },
  {
   "id": "200050000",
   "name": "Combat Training Record (Excess EXP Refunded)",
   "desc": "A record of basic training used to enhance combat skills. Can be used to quickly increase a character's EXP by {0}. When a character reaches max level, any excess EXP is refunded.",
   "quality": "0",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200050001.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200050001.webp"
  },
  {
   "id": "200050001",
   "name": "Combat Training Record (Lv. 1)",
   "desc": "Advanced training record that combines theory and practical experience. Can be used to quickly increase a character's EXP by {0}.",
   "quality": "10",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200050002.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200050002.webp"
  },
  {
   "id": "200050002",
   "name": "Combat Training Record (Lv. 2)",
   "desc": "Advanced combat training that enhances your combat skills. Can be used to quickly increase a character's EXP by {0}.",
   "quality": "30",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200050003.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200050003.webp"
  },
  {
   "id": "200050003",
   "name": "Combat Training Record (Lv. 3)",
   "desc": "Elite combat training that combines battlefield experience with practical tactics. Can be used to quickly increase a character's EXP by {0}.",
   "quality": "50",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200050004.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200050004.webp"
  },
  {
   "id": "200060001",
   "name": "Guardian Module (Lv. 1)",
   "desc": "Suitable for beginners to learn basic defense techniques.",
   "quality": "10",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200060001.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200060001.webp"
  },
  {
   "id": "200060002",
   "name": "Guardian Module (Lv. 2)",
   "desc": "Enhances durability and stability. Contains an intermediate-level core component.",
   "quality": "30",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200060002.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200060002.webp"
  },
  {
   "id": "200060003",
   "name": "Guardian Module (Lv. 3)",
   "desc": "Precisely adjusts reaction and defense capabilities to improve combat synchronization rates.",
   "quality": "50",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200060003.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200060003.webp"
  },
  {
   "id": "200060004",
   "name": "Guardian Module (Lv. 4)",
   "desc": "Integrates an advanced defense database to enhance combat command capability.",
   "quality": "70",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200060004.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200060004.webp"
  },
  {
   "id": "200060005",
   "name": "Guardian Module (Lv. 5)",
   "desc": "Supports versatile combat roles, designed for high-stress environments.",
   "quality": "70",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200060005.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200060005.webp"
  },
  {
   "id": "200060006",
@@ -538,35 +538,35 @@ export const gsaItems = [
   "name": "Assault Module (Lv. 1)",
   "desc": "Suitable for beginner combat, teaches the fundamentals of basic assault.",
   "quality": "10",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200060011.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200060011.webp"
  },
  {
   "id": "200060012",
   "name": "Assault Module (Lv. 2)",
   "desc": "Enhances propulsion stability and close-quarters dash efficiency. Contains an intermediate-level kinetic module.",
   "quality": "30",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200060012.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200060012.webp"
  },
  {
   "id": "200060013",
   "name": "Assault Module (Lv. 3)",
   "desc": "Precisely adjusts motion response and combat accuracy to improve combat chain synchronization.",
   "quality": "50",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200060013.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200060013.webp"
  },
  {
   "id": "200060014",
   "name": "Assault Module (Lv. 4)",
   "desc": "Integrates an advanced assault tactics database to enhance formation breaking and combat rhythm sensing capabilities.",
   "quality": "70",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200060014.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200060014.webp"
  },
  {
   "id": "200060015",
   "name": "Assault Module (Lv. 5)",
   "desc": "Supports versatile frontline breakthrough operations, suitable for high-intensity mission environments.",
   "quality": "70",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200060015.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200060015.webp"
  },
  {
   "id": "200060016",
@@ -587,21 +587,21 @@ export const gsaItems = [
   "name": "Sniper Module (Lv. 1)",
   "desc": "Suitable for beginner sniper practice. Activates the basic aim-assist function.",
   "quality": "10",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200060021.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200060021.webp"
  },
  {
   "id": "200060022",
   "name": "Sniper Module (Lv. 2)",
   "desc": "Enhances stability and target-locking capabilities. Contains an intermediate-level sensor component.",
   "quality": "30",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200060022.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200060022.webp"
  },
  {
   "id": "200060023",
   "name": "Sniper Module (Lv. 3)",
   "desc": "Precisely adjusts aiming accuracy and firing rhythm to improve long-range combat efficiency and fluency.",
   "quality": "50",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200060023.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200060023.webp"
  },
  {
   "id": "200060024",
@@ -636,35 +636,35 @@ export const gsaItems = [
   "name": "Support Module (Lv. 1)",
   "desc": "Suitable for beginner support training, teaches basic assist and recovery skills.",
   "quality": "10",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200060031.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200060031.webp"
  },
  {
   "id": "200060032",
   "name": "Support Module (Lv. 2)",
   "desc": "Enhances stability and continuous recovery efficiency. Contains an intermediate-level restoration module.",
   "quality": "30",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200060032.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200060032.webp"
  },
  {
   "id": "200060033",
   "name": "Support Module (Lv. 3)",
   "desc": "Precisely adjusts healing intervals and status reinforcement parameters to improve coordinated support synchronization rates.",
   "quality": "50",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200060033.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200060033.webp"
  },
  {
   "id": "200060034",
   "name": "Support Module (Lv. 4)",
   "desc": "Integrates an advanced medical database to enhance tactical signal diffusion and command coordination capabilities.",
   "quality": "70",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200060034.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200060034.webp"
  },
  {
   "id": "200060035",
   "name": "Support Module (Lv. 5)",
   "desc": "Supports versatile assistance and enhancement missions in hybrid warfare environments.",
   "quality": "70",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200060035.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200060035.webp"
  },
  {
   "id": "200060036",
@@ -685,21 +685,21 @@ export const gsaItems = [
   "name": "Breaker Module (Lv. 1)",
   "desc": "Suitable for beginners to learn basic fire support.",
   "quality": "10",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200060041.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200060041.webp"
  },
  {
   "id": "200060042",
   "name": "Breaker Module (Lv. 2)",
   "desc": "Enhances explosive impact force. Contains an intermediate-level explosive core component.",
   "quality": "30",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200060042.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200060042.webp"
  },
  {
   "id": "200060043",
   "name": "Breaker Module (Lv. 3)",
   "desc": "Precisely adjusts critical hit parameters and area control to improve strike efficiency.",
   "quality": "50",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200060043.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200060043.webp"
  },
  {
   "id": "200060044",
@@ -734,49 +734,49 @@ export const gsaItems = [
   "name": "Dream Lipstick",
   "desc": "A limited-edition mini lipstick set by a fashion brand, featuring three beautifully designed, trendy shades. These cute lipsticks make for a delightful and charming little gift. (Affection +50)",
   "quality": "10",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200070001.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200070001.webp"
  },
  {
   "id": "200070002",
   "name": "Premium Salon Voucher",
   "desc": "A premium voucher for top-tier salon services, including styling, hair and nail services and private make up consultations. (Affection +250)",
   "quality": "30",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200070002.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200070002.webp"
  },
  {
   "id": "200070003",
   "name": "Curated Skincare Set",
   "desc": "A curated skincare gift set from a cosmetic brand, containing a variety of popular and effective skincare products. Each item is presented in elegant and unique packaging. (Affection +500)",
   "quality": "50",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200070003.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200070003.webp"
  },
  {
   "id": "200080001",
   "name": "Silver Ore",
   "desc": "Ore required to rank up equipment, obtained from <color=#e88418>Practical Assessment</color> stages.",
   "quality": "30",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200080001.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200080001.webp"
  },
  {
   "id": "200080002",
   "name": "Blue Jade",
   "desc": "Ore required to rank up equipment, obtained from <color=#e88418>Practical Assessment</color> stages.",
   "quality": "30",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200080002.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200080002.webp"
  },
  {
   "id": "200080003",
   "name": "Blaze Core",
   "desc": "Ore required to rank up equipment, obtained from <color=#e88418>Practical Assessment</color> stages.",
   "quality": "30",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200080003.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200080003.webp"
  },
  {
   "id": "200080004",
   "name": "Celestial Iron",
   "desc": "Ore required to rank up equipment, obtained from <color=#e88418>Practical Assessment</color> stages.",
   "quality": "50",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200080004.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200080004.webp"
  },
  {
   "id": "200080005",
@@ -1259,21 +1259,21 @@ export const gsaItems = [
   "name": "Combat Style Module (Lv. 1) Random Chest",
   "desc": "Use to randomly receive a Combat Style Module (Lv. 1). Receive 5 per use.",
   "quality": "50",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200090001.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200090001.webp"
  },
  {
   "id": "200090002",
   "name": "Combat Style Module (Lv. 2) Random Chest",
   "desc": "Use to randomly receive a Combat Style Module (Lv. 2). Receive 5 per use.",
   "quality": "50",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200090002.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200090002.webp"
  },
  {
   "id": "200090003",
   "name": "Combat Style Module (Lv. 3) Random Chest",
   "desc": "Use to randomly receive a Combat Style Module (Lv. 3). Receive 5 per use.",
   "quality": "50",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200090003.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200090003.webp"
  },
  {
   "id": "200090004",
@@ -1315,35 +1315,35 @@ export const gsaItems = [
   "name": "Elemental Cluster Random Chest",
   "desc": "Use to randomly receive an Elemental Cluster. Receive 1 per use.",
   "quality": "50",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200090009.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200090009.webp"
  },
  {
   "id": "200090010",
   "name": "Beginner's Common Accessory Random Chest",
   "desc": "Open to randomly receive 1 Common-Grade accessory. Tap to preview contents.",
   "quality": "0",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200090010.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200090010.webp"
  },
  {
   "id": "200090011",
   "name": "Beginner's Standard-Grade Accessory Random Chest",
   "desc": "Open to randomly receive 1 Standard-Grade Accessory. Tap to preview contents.",
   "quality": "10",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200090011.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200090011.webp"
  },
  {
   "id": "200090012",
   "name": "Beginner's Tactical Accessory Random Chest",
   "desc": "Open to randomly receive 1 Tactical-Grade Accessory. Tap to preview contents.",
   "quality": "30",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200090012.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200090012.webp"
  },
  {
   "id": "200090013",
   "name": "Beginner's Specialized Accessory Random Chest",
   "desc": "Open to randomly receive 1 Specialized-Grade Accessory. Tap to preview contents.",
   "quality": "50",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200090013.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200090013.webp"
  },
  {
   "id": "200090014",
@@ -1357,7 +1357,7 @@ export const gsaItems = [
   "name": "Elemental Forged Steel Choice Chest",
   "desc": "Use to select and receive an Elemental Forged Steel. Receive 1 per use.",
   "quality": "50",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200090015.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200090015.webp"
  },
  {
   "id": "200090016",
@@ -1504,21 +1504,21 @@ export const gsaItems = [
   "name": "Combat Style Module (Lv. 3) Selection Chest",
   "desc": "Use to select and receive a Combat Style Module (Lv. 3). Receive 5 per use.",
   "quality": "50",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200100003.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200100003.webp"
  },
  {
   "id": "200100004",
   "name": "Combat Style Module (Lv. 4) Selection Chest",
   "desc": "Use to select and receive a Combat Style Module (Lv. 4). Receive 5 per use.",
   "quality": "50",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200100004.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200100004.webp"
  },
  {
   "id": "200100005",
   "name": "Combat Style Module (Lv. 5) Selection Chest",
   "desc": "Use to select and receive a Combat Style Module (Lv. 5). Receive 5 per use.",
   "quality": "50",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200100005.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200100005.webp"
  },
  {
   "id": "200100006",
@@ -1532,56 +1532,56 @@ export const gsaItems = [
   "name": "Combat Style Module (Lv. 7) Selection Chest",
   "desc": "Obtain a chosen Combat Style Module (Lv. 7) Grants 1 item each time.",
   "quality": "70",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200100007.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200100007.webp"
  },
  {
   "id": "200100011",
   "name": "Large Combat Style Module (Lv. 1) Selection Chest",
   "desc": "Use to select and receive a Combat Style Module (Lv. 1). Receive 50 per use.",
   "quality": "50",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200100011.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200100011.webp"
  },
  {
   "id": "200100012",
   "name": "Large Combat Style Module (Lv. 2) Selection Chest",
   "desc": "Use to select and receive a Combat Style Module (Lv. 2). Receive 50 per use.",
   "quality": "50",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200100012.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200100012.webp"
  },
  {
   "id": "200100013",
   "name": "Large Combat Style Module (Lv. 3) Selection Chest",
   "desc": "Use to select and receive a Combat Style Module (Lv. 3). Receive 50 per use.",
   "quality": "50",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200100013.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200100013.webp"
  },
  {
   "id": "200100014",
   "name": "Large Combat Style Module (Lv. 4) Selection Chest",
   "desc": "Use to select and receive a Combat Style Module (Lv. 4). Receive 50 per use.",
   "quality": "50",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200100014.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200100014.webp"
  },
  {
   "id": "200100015",
   "name": "Large Combat Style Module (Lv. 5) Selection Chest",
   "desc": "Use to select and receive a Combat Style Module (Lv. 5). Receive 50 per use.",
   "quality": "50",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200100015.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200100015.webp"
  },
  {
   "id": "200100016",
   "name": "Large Combat Style Module (Lv. 6) Selection Chest",
   "desc": "Use to select and receive a Combat Style Module (Lv. 6). Receive 50 per use.",
   "quality": "70",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200100016.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200100016.webp"
  },
  {
   "id": "200100018",
   "name": "Elemental Cluster Selection Chest",
   "desc": "Use to select and receive an Elemental Cluster. Receive 1 per use.",
   "quality": "70",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200100018.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200100018.webp"
  },
  {
   "id": "200100019",
@@ -1602,14 +1602,14 @@ export const gsaItems = [
   "name": "<color=#9BE1FE>Tactical</color> Physical Armor Choice Resupply Chest",
   "desc": "Choose 1 piece of <color=#9BE1FE>Tactical</color> Physical-type Armor.",
   "quality": "30",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200100021.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200100021.webp"
  },
  {
   "id": "200100022",
   "name": "<color=#9BE1FE>Tactical</color> Energy Armor Choice Resupply Chest",
   "desc": "Choose 1 piece of <color=#9BE1FE>Tactical</color> Energy-type Armor.",
   "quality": "30",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200100022.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200100022.webp"
  },
  {
   "id": "200100023",
@@ -1686,14 +1686,14 @@ export const gsaItems = [
   "name": "Basic Supply Chest",
   "desc": "Grants various Combat Style Modules (Lv. 1), Combat Training Records (Lv. 1), and Enhancement Components.",
   "quality": "0",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200100033.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200100033.webp"
  },
  {
   "id": "200100034",
   "name": "Advanced Supply Chest",
   "desc": "Grants various Combat Style Modules (Lv. 2), Combat Training Records (Lv. 1), and Enhancement Components.",
   "quality": "10",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200100034.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200100034.webp"
  },
  {
   "id": "200100035",
@@ -1889,301 +1889,301 @@ export const gsaItems = [
   "name": "Belle Promotion Certificate",
   "desc": "A promotion certificate issued by senior authorities, awarded only to members who have demonstrated outstanding performance. It serves as official verification that the holder is authorized to advance to a higher rank. Can be used to rank up <color=#e88418>SR Belle</color>.",
   "quality": "50",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200110001.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200110001.webp"
  },
  {
   "id": "200110041",
   "name": "Adele Promotion Certificate",
   "desc": "A promotion certificate issued by senior authorities, awarded only to members who have demonstrated outstanding performance. It serves as official verification that the holder is authorized to advance to a higher rank. Can be used to rank up <color=#e88418>SR Adele</color>.",
   "quality": "50",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200110001.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200110001.webp"
  },
  {
   "id": "200110042",
   "name": "Theodore Promotion Certificate",
   "desc": "A promotion certificate issued by senior authorities, awarded only to members who have demonstrated outstanding performance. It serves as official verification that the holder is authorized to advance to a higher rank. Can be used to rank up <color=#e88418>SR Theodore</color>.",
   "quality": "50",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200110001.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200110001.webp"
  },
  {
   "id": "200110043",
   "name": "Ruo Lan Promotion Certificate",
   "desc": "A promotion certificate issued by senior authorities, awarded only to members who have demonstrated outstanding performance. It serves as official verification that the holder is authorized to advance to a higher rank. Can be used to rank up <color=#e88418>SSR Ruo Lan</color>.",
   "quality": "50",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200110001.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200110001.webp"
  },
  {
   "id": "200110044",
   "name": "Amber Promotion Certificate",
   "desc": "A promotion certificate issued by senior authorities, awarded only to members who have demonstrated outstanding performance. It serves as official verification that the holder is authorized to advance to a higher rank. Can be used to rank up <color=#e88418>SSR Amber</color>.",
   "quality": "50",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200110001.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200110001.webp"
  },
  {
   "id": "200110045",
   "name": "Kurosawa Shion Promotion Certificate",
   "desc": "A promotion certificate issued by senior authorities, awarded only to members who have demonstrated outstanding performance. It serves as official verification that the holder is authorized to advance to a higher rank. Can be used to rank up <color=#e88418>SSR Kurosawa Shion</color>.",
   "quality": "50",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200110001.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200110001.webp"
  },
  {
   "id": "200110046",
   "name": "Chloe Promotion Certification",
   "desc": "A promotion certificate issued by senior authorities, awarded only to members who have demonstrated outstanding performance. It serves as official verification that the holder is authorized to advance to a higher rank. Can be used to rank up <color=#e88418>SSR Chloe</color>.",
   "quality": "50",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200110001.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200110001.webp"
  },
  {
   "id": "200110047",
   "name": "Charlotte Promotion Certificate",
   "desc": "A promotion certificate issued by senior authorities, awarded only to members who have demonstrated outstanding performance. It serves as official verification that the holder is authorized to advance to a higher rank. Can be used to rank up <color=#e88418>SSR Charlotte</color>.",
   "quality": "50",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200110001.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200110001.webp"
  },
  {
   "id": "200110048",
   "name": "Rachel Promotion Certificate",
   "desc": "A promotion certificate issued by senior authorities, awarded only to members who have demonstrated outstanding performance. It serves as official verification that the holder is authorized to advance to a higher rank. Can be used to rank up <color=#e88418>SSR Rachel</color>.",
   "quality": "50",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200110001.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200110001.webp"
  },
  {
   "id": "200110049",
   "name": "Milena Promotion Certificate",
   "desc": "A promotion certificate issued by senior authorities, awarded only to members who have demonstrated outstanding performance. It serves as official verification that the holder is authorized to advance to a higher rank. Can be used to rank up <color=#e88418>SSR Milena</color>.",
   "quality": "50",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200110001.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200110001.webp"
  },
  {
   "id": "200110050",
   "name": "Amelie Promotion Certificate",
   "desc": "A promotion certificate issued by senior authorities, awarded only to members who have demonstrated outstanding performance. It serves as official verification that the holder is authorized to advance to a higher rank. Can be used to rank up <color=#e88418>SSR Amelie</color>.",
   "quality": "50",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200110001.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200110001.webp"
  },
  {
   "id": "200110051",
   "name": "Annabelle Promotion Certificate",
   "desc": "A promotion certificate issued by senior authorities, awarded only to members who have demonstrated outstanding performance. It serves as official verification that the holder is authorized to advance to a higher rank. Can be used to rank up <color=#e88418>SSR Annabelle</color>.",
   "quality": "50",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200110001.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200110001.webp"
  },
  {
   "id": "200110052",
   "name": "Fujiwara Shiyoi Promotion Certificate",
   "desc": "A promotion certificate issued by senior authorities, awarded only to members who have demonstrated outstanding performance. It serves as official verification that the holder is authorized to advance to a higher rank. Can be used to rank up<color=#e88418>SSR Fujiwara Shiyoi</color>.",
   "quality": "50",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200110001.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200110001.webp"
  },
  {
   "id": "200110053",
   "name": "Sugimoto Arina Promotion Certificate",
   "desc": "A promotion certificate issued by senior authorities, awarded only to members who have demonstrated outstanding performance. It serves as official verification that the holder is authorized to advance to a higher rank. Can be used to rank up <color=#e88418>SSR Sugimoto Arina</color>.",
   "quality": "50",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200110001.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200110001.webp"
  },
  {
   "id": "200110054",
   "name": "Ogino Rui Promotion Certificate",
   "desc": "A promotion certificate issued by senior authorities, awarded only to members who have demonstrated outstanding performance. It serves as official verification that the holder is authorized to advance to a higher rank. Can be used to rank up <color=#e88418>SSR Ogino Rui</color>.",
   "quality": "50",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200110001.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200110001.webp"
  },
  {
   "id": "200110055",
   "name": "Lin Lin Promotion Certificate",
   "desc": "A promotion certificate issued by senior authorities, awarded only to members who have demonstrated outstanding performance. It serves as official verification that the holder is authorized to advance to a higher rank. Can be used to rank up <color=#e88418>SSR Lin Lin</color>.",
   "quality": "50",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200110001.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200110001.webp"
  },
  {
   "id": "200110056",
   "name": "Ruby Promotion Certification",
   "desc": "A promotion certificate issued by senior authorities, awarded only to members who have demonstrated outstanding performance. It serves as official verification that the holder is authorized to advance to a higher rank. Can be used to rank up <color=#e88418>SSR Ruby</color>.",
   "quality": "50",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200110001.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200110001.webp"
  },
  {
   "id": "200110057",
   "name": "Liz Promotion Certificate",
   "desc": "A promotion certificate issued by senior authorities, awarded only to members who have demonstrated outstanding performance. It serves as official verification that the holder is authorized to advance to a higher rank. Can be used to rank up <color=#e88418>SSR Liz</color>.",
   "quality": "50",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200110001.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200110001.webp"
  },
  {
   "id": "200110058",
   "name": "Li Mu Promotion Certificate",
   "desc": "A promotion certificate issued by senior authorities, awarded only to members who have demonstrated outstanding performance. It serves as official verification that the holder is authorized to advance to a higher rank. Can be used to rank up <color=#e88418>SSR Li Mu</color>.",
   "quality": "50",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200110001.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200110001.webp"
  },
  {
   "id": "200110059",
   "name": "Bernardo Promotion Certificate",
   "desc": "A promotion certificate issued by senior authorities, awarded only to members who have demonstrated outstanding performance. It serves as official verification that the holder is authorized to advance to a higher rank. Can be used to rank up <color=#e88418>SSR Bernardo</color>.",
   "quality": "50",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200110001.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200110001.webp"
  },
  {
   "id": "200110060",
   "name": "Danxin Promotion Certification",
   "desc": "A promotion certificate issued by senior authorities, awarded only to members who have demonstrated outstanding performance. It serves as official verification that the holder is authorized to advance to a higher rank. Can be used to rank up <color=#e88418>SSR Danxin</color>.",
   "quality": "50",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200110001.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200110001.webp"
  },
  {
   "id": "200110061",
   "name": "Ojima Erina Promotion Certificate",
   "desc": "A promotion certificate issued by senior authorities, awarded only to members who have demonstrated outstanding performance. It serves as official verification that the holder is authorized to advance to a higher rank. Can be used to rank up <color=#e88418>SSR Ojima Erina</color>.",
   "quality": "50",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200110001.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200110001.webp"
  },
  {
   "id": "200110062",
   "name": "Shiraishi Ai Promotion Certificate",
   "desc": "A promotion certificate issued by senior authorities, awarded only to members who have demonstrated outstanding performance. It serves as official verification that the holder is authorized to advance to a higher rank. Can be used to rank up <color=#e88418>SSR Shiraishi Ai</color>.",
   "quality": "50",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200110001.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200110001.webp"
  },
  {
   "id": "200110063",
   "name": "Andou Kana Promotion Certificate",
   "desc": "A promotion certificate issued by senior authorities, awarded only to members who have demonstrated outstanding performance. It serves as official verification that the holder is authorized to advance to a higher rank. Can be used to rank up <color=#e88418>SSR Andou Kana</color>.",
   "quality": "50",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200110001.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200110001.webp"
  },
  {
   "id": "200110064",
   "name": "Komachi Sayaka Promotion Certificate",
   "desc": "A promotion certificate issued by senior authorities, awarded only to members who have demonstrated outstanding performance. It serves as official verification that the holder is authorized to advance to a higher rank. Can be used to rank up <color=#e88418>SSR Komachi Sayaka</color>.",
   "quality": "50",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200110001.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200110001.webp"
  },
  {
   "id": "200110065",
   "name": "Hijikata Chizuru Promotion Certificate",
   "desc": "A promotion certificate issued by senior authorities, awarded only to members who have demonstrated outstanding performance. It serves as official verification that the holder is authorized to advance to a higher rank. Can be used to rank up <color=#e88418>SSR Hijikata Chizuru</color>.",
   "quality": "50",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200110001.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200110001.webp"
  },
  {
   "id": "200110066",
   "name": "Fujiwara Arisa Promotion Certificate",
   "desc": "A promotion certificate issued by senior authorities, awarded only to members who have demonstrated outstanding performance. It serves as official verification that the holder is authorized to advance to a higher rank. Can be used to rank up<color=#e88418>SSR Fujiwara Arisa</color>.",
   "quality": "50",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200110001.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200110001.webp"
  },
  {
   "id": "200110067",
   "name": "Qingyin Promotion Certification",
   "desc": "A promotion certificate issued by senior authorities, awarded only to members who have demonstrated outstanding performance. It serves as official verification that the holder is authorized to advance to a higher rank. Can be used to rank up <color=#e88418>SSR Qingyin</color>.",
   "quality": "50",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200110001.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200110001.webp"
  },
  {
   "id": "200110068",
   "name": "Leng Zhen Promotion Certification",
   "desc": "A promotion certificate issued by senior authorities, awarded only to members who have demonstrated outstanding performance. It serves as official verification that the holder is authorized to advance to a higher rank. Can be used to rank up <color=#e88418>SSR Leng Zhen</color>.",
   "quality": "50",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200110001.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200110001.webp"
  },
  {
   "id": "200110069",
   "name": "Banxia Promotion Certification",
   "desc": "A promotion certificate issued by senior authorities, awarded only to members who have demonstrated outstanding performance. It serves as official verification that the holder is authorized to advance to a higher rank. Can be used to rank up <color=#e88418>SSR Banxia</color>.",
   "quality": "50",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200110001.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200110001.webp"
  },
  {
   "id": "200110070",
   "name": "Elena Promotion Certificate",
   "desc": "A promotion certificate issued by senior authorities, awarded only to members who have demonstrated outstanding performance. It serves as official verification that the holder is authorized to advance to a higher rank. Can be used to rank up <color=#e88418>SSR Elena</color>.",
   "quality": "50",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200110001.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200110001.webp"
  },
  {
   "id": "200110071",
   "name": "Victoria Promotion Certificate",
   "desc": "A promotion certificate issued by senior authorities, awarded only to members who have demonstrated outstanding performance. It serves as official verification that the holder is authorized to advance to a higher rank. Can be used to rank up <color=#e88418>SSR Victoria</color>.",
   "quality": "50",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200110001.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200110001.webp"
  },
  {
   "id": "200110072",
   "name": "Alyna Promotion Certificate",
   "desc": "A promotion certificate issued by senior authorities, awarded only to members who have demonstrated outstanding performance. It serves as official verification that the holder is authorized to advance to a higher rank. Can be used to rank up <color=#e88418>SSR Alyna</color>.",
   "quality": "50",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200110001.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200110001.webp"
  },
  {
   "id": "200110073",
   "name": "Connie Promotion Certificate",
   "desc": "A promotion certificate issued by senior authorities, awarded only to members who have demonstrated outstanding performance. It serves as official verification that the holder is authorized to advance to a higher rank. Can be used to rank up <color=#e88418>SSR Connie</color>.",
   "quality": "50",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200110001.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200110001.webp"
  },
  {
   "id": "200110074",
   "name": "Jessica Promotion Certificate",
   "desc": "A promotion certificate issued by senior authorities, awarded only to members who have demonstrated outstanding performance. It serves as official verification that the holder is authorized to advance to a higher rank. Can be used to rank up <color=#e88418>SSR Jessica</color>.",
   "quality": "50",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200110001.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200110001.webp"
  },
  {
   "id": "200110075",
   "name": "Komachi Yuu Promotion Certificate",
   "desc": "A promotion certificate issued by senior authorities, awarded only to members who have demonstrated outstanding performance. It serves as official verification that the holder is authorized to advance to a higher rank. Can be used to rank up <color=#e88418>SSR Komachi Yuu</color>.",
   "quality": "50",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200110001.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200110001.webp"
  },
  {
   "id": "200110078",
   "name": "Awana Promotion Certification",
   "desc": "A promotion certificate issued by senior authorities, awarded only to members who have demonstrated outstanding performance. It serves as official verification that the holder is authorized to advance to a higher rank. Can be used to rank up <color=#e88418>SSR Awana</color>.",
   "quality": "50",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200110001.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200110001.webp"
  },
  {
   "id": "200110082",
   "name": "Rookie Maid - Sugimoto Arina Promotion Certificate",
   "desc": "A promotion certificate issued by senior authorities, awarded only to members who have demonstrated outstanding performance. It serves as official verification that the holder is authorized to advance to a higher rank. Can be used to rank up <color=#e88418>SSR Rookie Maid - Sugimoto Arina</color>.",
   "quality": "50",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200110001.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200110001.webp"
  },
  {
   "id": "200110107",
   "name": "Clumsy Cowgirl - Belle Promotion Certificate",
   "desc": "A promotion certificate issued by senior authorities, awarded only to members who have demonstrated outstanding performance. It serves as official verification that the holder is authorized to advance to a higher rank. Can be used to rank up <color=#e88418>SSR Clumsy Cowgirl - Belle</color>.",
   "quality": "50",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200110001.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200110001.webp"
  },
  {
   "id": "200120001",
   "name": "Standard Summon Ticket",
   "desc": "A contract issued to top-tier headhunters. Can be used for 1 Summon.",
   "quality": "50",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200120001.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200120001.webp"
  },
  {
   "id": "200120002",
   "name": "Standard Summon 10-Pull Ticket",
   "desc": "A contract issued to top-tier headhunters. Can be used for 10 Summons.",
   "quality": "70",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200120002.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200120002.webp"
  },
  {
   "id": "200120003",
   "name": "Unlimited Summon Ticket",
   "desc": "Can be used in the Unlimited Summon to reroll until you get your desired result.",
   "quality": "70",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200120003.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200120003.webp"
  },
  {
   "id": "200120004",
   "name": "Advanced Summon Ticket",
   "desc": "A contract issued to top-tier headhunters. Can be used for 1 Advanced Summon.",
   "quality": "70",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200120004.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200120004.webp"
  },
  {
   "id": "200120006",
@@ -2652,7 +2652,7 @@ export const gsaItems = [
   "name": "Advanced Certificate",
   "desc": "Obtained by performing the [Advanced Summon].",
   "quality": "50",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200130011.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200130011.webp"
  },
  {
   "id": "200130012",
@@ -3002,14 +3002,14 @@ export const gsaItems = [
   "name": "Ruo Lan Summon Letter",
   "desc": "Use to summon the SSR character: Ruo Lan.",
   "quality": "70",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200150043.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200150043.webp"
  },
  {
   "id": "200150044",
   "name": "Amber Summon Letter",
   "desc": "Use to summon the SSR character: Amber.",
   "quality": "70",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200150044.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200150044.webp"
  },
  {
   "id": "200150045",
@@ -3037,21 +3037,21 @@ export const gsaItems = [
   "name": "Rachel Summon Letter",
   "desc": "Use to summon the SSR character: Rachel.",
   "quality": "70",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200150048.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200150048.webp"
  },
  {
   "id": "200150049",
   "name": "Milena Summon Letter",
   "desc": "Use to summon the SSR character: Milena.",
   "quality": "70",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200150049.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200150049.webp"
  },
  {
   "id": "200150050",
   "name": "Amelie Summon Letter",
   "desc": "Use to summon the SSR character: Amelie.",
   "quality": "70",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200150050.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200150050.webp"
  },
  {
   "id": "200150051",
@@ -3072,21 +3072,21 @@ export const gsaItems = [
   "name": "Sugimoto Arina Summon Letter",
   "desc": "Use to summon the SSR character: Sugimoto Arina.",
   "quality": "70",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200150053.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200150053.webp"
  },
  {
   "id": "200150054",
   "name": "Ogino Rui Summon Letter",
   "desc": "Use to summon the SSR character: Ogino Rui.",
   "quality": "70",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200150054.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200150054.webp"
  },
  {
   "id": "200150055",
   "name": "Lin Lin Summon Letter",
   "desc": "Use to summon the SSR character: Lin Lin.",
   "quality": "70",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200150055.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200150055.webp"
  },
  {
   "id": "200150056",
@@ -3100,14 +3100,14 @@ export const gsaItems = [
   "name": "Liz Summon Letter",
   "desc": "Use to summon the SSR character: Liz.",
   "quality": "70",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200150057.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200150057.webp"
  },
  {
   "id": "200150058",
   "name": "Li Mu Summon Letter",
   "desc": "Use to summon the SSR character: Li Mu.",
   "quality": "70",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200150058.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200150058.webp"
  },
  {
   "id": "200150059",
@@ -3429,28 +3429,28 @@ export const gsaItems = [
   "name": "[Random SSR] Summon Letter",
   "desc": "Randomly summon 1 SSR character. (Standard Summon Characters: Ruo Lan, Kurosawa Shion, Chloe, Charlotte, Milena, Amelie, Annabelle, Sugimoto Arina, Ogino Rui, Lin Lin, Liz, Li Mu)",
   "quality": "50",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200160011.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200160011.webp"
  },
  {
   "id": "200160012",
   "name": "[SSR Choice] Summon Letter",
   "desc": "Summon one selected SR character. (Standard Summon Characters: Ruo Lan, Kurosawa Shion, Chloe, Charlotte, Milena, Amelie, Annabelle, Sugimoto Arina, Ogino Rui, Lin Lin, Liz, Li Mu)",
   "quality": "50",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200160012.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200160012.webp"
  },
  {
   "id": "200160013",
   "name": "[Random SR] Summon Letter",
   "desc": "Randomly summon 1 SR character. (Standard Summon Characters: Aira, Denice, Vera, Mudia, Yulia, Lin Lan, Takajou Ranka, Katya, Thalia)",
   "quality": "30",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200160013.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200160013.webp"
  },
  {
   "id": "200160014",
   "name": "[SR Choice] Summon Letter",
   "desc": "Summon one selected SR character. (Standard Summon Characters: Aira, Denice, Vera, Mudia, Yulia, Lin Lan, Takajou Ranka, Katya, Thalia)",
   "quality": "30",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200160014.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200160014.webp"
  },
  {
   "id": "200160015",
@@ -3646,105 +3646,105 @@ export const gsaItems = [
   "name": "Sweet Motion Gloves Component",
   "desc": "Collect {0} to combine into {1}.",
   "quality": "55",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Equip_cr040_glove.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Equip_cr040_glove.webp"
  },
  {
   "id": "200170405",
   "name": "PP-9C Self-Defense Pistol Component",
   "desc": "Collect {0} to combine into {1}.",
   "quality": "55",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Equip_cr040_wp.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Equip_cr040_wp.webp"
  },
  {
   "id": "200170406",
   "name": "Midnight Sparkle Shoes Component",
   "desc": "Collect {0} to combine into {1}.",
   "quality": "55",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Equip_cr040_shoe.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Equip_cr040_shoe.webp"
  },
  {
   "id": "200170414",
   "name": "Urban Walker Gloves Component",
   "desc": "Collect {0} to combine into {1}.",
   "quality": "55",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Equip_cr041_glove.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Equip_cr041_glove.webp"
  },
  {
   "id": "200170415",
   "name": "Hanzo Blade: Violet Component",
   "desc": "Collect {0} to combine into {1}.",
   "quality": "55",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Equip_cr041_wp.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Equip_cr041_wp.webp"
  },
  {
   "id": "200170416",
   "name": "Urban Walker Leather Boots Component",
   "desc": "Collect {0} to combine into {1}.",
   "quality": "55",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Equip_cr041_shoe.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Equip_cr041_shoe.webp"
  },
  {
   "id": "200170424",
   "name": "Tactical Gloves: Shadow Wolf Component",
   "desc": "Collect {0} to combine into {1}.",
   "quality": "55",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Equip_cr042_glove.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Equip_cr042_glove.webp"
  },
  {
   "id": "200170425",
   "name": "CQC Gunblade Set Component",
   "desc": "Collect {0} to combine into {1}.",
   "quality": "55",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Equip_cr042_wp.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Equip_cr042_wp.webp"
  },
  {
   "id": "200170426",
   "name": "Assault Boots: Shadow Wolf Component",
   "desc": "Collect {0} to combine into {1}.",
   "quality": "55",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Equip_cr042_shoe.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Equip_cr042_shoe.webp"
  },
  {
   "id": "200170434",
   "name": "Actuarial Profit Gloves Component",
   "desc": "Collect {0} to combine into {1}.",
   "quality": "55",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Equip_cr043_glove.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Equip_cr043_glove.webp"
  },
  {
   "id": "200170435",
   "name": "CFQ-76K Submachine Gun Component",
   "desc": "Collect {0} to combine into {1}.",
   "quality": "55",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Equip_cr043_wp.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Equip_cr043_wp.webp"
  },
  {
   "id": "200170436",
   "name": "Obsidian Curve Heels Component",
   "desc": "Collect {0} to combine into {1}.",
   "quality": "55",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Equip_cr043_shoe.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Equip_cr043_shoe.webp"
  },
  {
   "id": "200170444",
   "name": "Prestige Dealer Gloves Component",
   "desc": "Collect {0} to combine into {1}.",
   "quality": "55",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Equip_cr042_glove.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Equip_cr042_glove.webp"
  },
  {
   "id": "200170445",
   "name": "Royal Prestige Poker Card Component",
   "desc": "Collect {0} to combine into {1}.",
   "quality": "55",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Equip_cr042_wp.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Equip_cr042_wp.webp"
  },
  {
   "id": "200170446",
   "name": "Brilliant Charm High Heels Component",
   "desc": "Collect {0} to combine into {1}.",
   "quality": "55",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Equip_cr042_shoe.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Equip_cr042_shoe.webp"
  },
  {
   "id": "200170454",
@@ -3758,7 +3758,7 @@ export const gsaItems = [
   "name": "High-Density Dark Energy Sphere Component",
   "desc": "Collect {0} to combine into {1}.",
   "quality": "55",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Equip_cr045_wp.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Equip_cr045_wp.webp"
  },
  {
   "id": "200170456",
@@ -3779,7 +3779,7 @@ export const gsaItems = [
   "name": "N17-Heavy Tactical Rifle Component",
   "desc": "Collect {0} to combine into {1}.",
   "quality": "55",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Equip_cr046_wp.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Equip_cr046_wp.webp"
  },
  {
   "id": "200170466",
@@ -3821,14 +3821,14 @@ export const gsaItems = [
   "name": "SA556 Tactical Rifle Component",
   "desc": "Collect {0} to combine into {1}.",
   "quality": "55",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Equip_cr048_wp.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Equip_cr048_wp.webp"
  },
  {
   "id": "200170486",
   "name": "Patrol Duty Heeled Boots Component",
   "desc": "Collect {0} to combine into {1}.",
   "quality": "55",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Equip_cr048_shoe.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Equip_cr048_shoe.webp"
  },
  {
   "id": "200170494",
@@ -3842,7 +3842,7 @@ export const gsaItems = [
   "name": "Black & Gold Butterfly Knife Component",
   "desc": "Collect {0} to combine into {1}.",
   "quality": "55",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Equip_cr049_wp.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Equip_cr049_wp.webp"
  },
  {
   "id": "200170496",
@@ -3877,21 +3877,21 @@ export const gsaItems = [
   "name": "Leather Protective Gloves Component",
   "desc": "Collect {0} to combine into {1}.",
   "quality": "55",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Equip_cr051_glove.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Equip_cr051_glove.webp"
  },
  {
   "id": "200170515",
   "name": "Winters MK3 Gen5 Lever-Action Carbine Component",
   "desc": "Collect {0} to combine into {1}.",
   "quality": "55",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Equip_cr051_wp.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Equip_cr051_wp.webp"
  },
  {
   "id": "200170516",
   "name": "Cowboy Boots Component",
   "desc": "Collect {0} to combine into {1}.",
   "quality": "55",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Equip_cr051_shoe.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Equip_cr051_shoe.webp"
  },
  {
   "id": "200170524",
@@ -3919,63 +3919,63 @@ export const gsaItems = [
   "name": "Moonlit Jade Circlet Component",
   "desc": "Collect {0} to combine into {1}.",
   "quality": "55",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Equip_cr053_glove.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Equip_cr053_glove.webp"
  },
  {
   "id": "200170535",
   "name": "Moonveil Massage Oil Component",
   "desc": "Collect {0} to combine into {1}.",
   "quality": "55",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Equip_cr053_wp.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Equip_cr053_wp.webp"
  },
  {
   "id": "200170536",
   "name": "Moonveil Sandals Component",
   "desc": "Collect {0} to combine into {1}.",
   "quality": "55",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Equip_cr053_shoe.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Equip_cr053_shoe.webp"
  },
  {
   "id": "200170544",
   "name": "Devoted Love Gloves Component",
   "desc": "Collect {0} to combine into {1}.",
   "quality": "55",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Equip_cr054_glove.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Equip_cr054_glove.webp"
  },
  {
   "id": "200170545",
   "name": "Personal Fruit Knife Component",
   "desc": "Collect {0} to combine into {1}.",
   "quality": "55",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Equip_cr054_wp.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Equip_cr054_wp.webp"
  },
  {
   "id": "200170546",
   "name": "Shoes of Punishment Component",
   "desc": "Collect {0} to combine into {1}.",
   "quality": "55",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Equip_cr054_shoe.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Equip_cr054_shoe.webp"
  },
  {
   "id": "200170554",
   "name": "Seeker Jade Bracelet Component",
   "desc": "Collect {0} to combine into {1}.",
   "quality": "55",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Equip_cr055_glove.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Equip_cr055_glove.webp"
  },
  {
   "id": "200170555",
   "name": "Words of Fate Component",
   "desc": "Collect {0} to combine into {1}.",
   "quality": "55",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Equip_cr055_wp.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Equip_cr055_wp.webp"
  },
  {
   "id": "200170556",
   "name": "Scent-Seeker Component",
   "desc": "Collect {0} to combine into {1}.",
   "quality": "55",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Equip_cr055_shoe.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Equip_cr055_shoe.webp"
  },
  {
   "id": "200170564",
@@ -4024,35 +4024,35 @@ export const gsaItems = [
   "name": "Jade Wind Gloves Component",
   "desc": "Collect {0} to combine into {1}.",
   "quality": "55",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Equip_cr058_glove.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Equip_cr058_glove.webp"
  },
  {
   "id": "200170585",
   "name": "Clouded Ink Twin Dragon Staff Component",
   "desc": "Collect {0} to combine into {1}.",
   "quality": "55",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Equip_cr058_wp.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Equip_cr058_wp.webp"
  },
  {
   "id": "200170586",
   "name": "Vigilante's Short Boots Component",
   "desc": "Collect {0} to combine into {1}.",
   "quality": "55",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Equip_cr058_shoe.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Equip_cr058_shoe.webp"
  },
  {
   "id": "200170594",
   "name": "Gilded Bloodheart Ring Component",
   "desc": "Collect {0} to combine into {1}.",
   "quality": "55",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Equip_cr059_glove.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Equip_cr059_glove.webp"
  },
  {
   "id": "200170595",
   "name": "LAR-58 Assault Rifle Component",
   "desc": "Collect {0} to combine into {1}.",
   "quality": "55",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Equip_cr059_wp.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Equip_cr059_wp.webp"
  },
  {
   "id": "200170596",
@@ -4066,35 +4066,35 @@ export const gsaItems = [
   "name": "Bluesteel Fistguards Component",
   "desc": "Collect {0} to combine into {1}.",
   "quality": "55",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Equip_cr060_glove.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Equip_cr060_glove.webp"
  },
  {
   "id": "200170605",
   "name": "Dragon Surge Palm Component",
   "desc": "Collect {0} to combine into {1}.",
   "quality": "55",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Equip_cr060_wp.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Equip_cr060_wp.webp"
  },
  {
   "id": "200170606",
   "name": "Traceless Boots Component",
   "desc": "Collect {0} to combine into {1}.",
   "quality": "55",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Equip_cr060_shoe.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Equip_cr060_shoe.webp"
  },
  {
   "id": "200170614",
   "name": "Tsukuyomi Maid Gloves Component",
   "desc": "Collect {0} to combine into {1}.",
   "quality": "55",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Equip_cr061_glove.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Equip_cr061_glove.webp"
  },
  {
   "id": "200170615",
   "name": "Dark Psyche Component",
   "desc": "Collect {0} to combine into {1}.",
   "quality": "55",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Equip_cr061_wp.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Equip_cr061_wp.webp"
  },
  {
   "id": "200170616",
@@ -4108,21 +4108,21 @@ export const gsaItems = [
   "name": "Foreman's Ruffled Sleeves Component",
   "desc": "Collect {0} to combine into {1}.",
   "quality": "55",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Equip_cr062_glove.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Equip_cr062_glove.webp"
  },
  {
   "id": "200170625",
   "name": "Foreman's Dart Blade Component",
   "desc": "Collect {0} to combine into {1}.",
   "quality": "55",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Equip_cr062_wp.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Equip_cr062_wp.webp"
  },
  {
   "id": "200170626",
   "name": "Foreman's Leather Shoes Component",
   "desc": "Collect {0} to combine into {1}.",
   "quality": "55",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Equip_cr062_shoe.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Equip_cr062_shoe.webp"
  },
  {
   "id": "200170634",
@@ -4150,42 +4150,42 @@ export const gsaItems = [
   "name": "Oiran Handbag Component",
   "desc": "Collect {0} to combine into {1}.",
   "quality": "55",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Equip_cr064_glove.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Equip_cr064_glove.webp"
  },
  {
   "id": "200170645",
   "name": "Moonflower Naginata Component",
   "desc": "Collect {0} to combine into {1}.",
   "quality": "55",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Equip_cr064_wp.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Equip_cr064_wp.webp"
  },
  {
   "id": "200170646",
   "name": "Moonflower Footwear Component",
   "desc": "Collect {0} to combine into {1}.",
   "quality": "55",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Equip_cr064_shoe.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Equip_cr064_shoe.webp"
  },
  {
   "id": "200170654",
   "name": "Nio's Gauntlets Component",
   "desc": "Collect {0} to combine into {1}.",
   "quality": "55",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Equip_cr065_glove.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Equip_cr065_glove.webp"
  },
  {
   "id": "200170655",
   "name": "Fudomaru Component",
   "desc": "Collect {0} to combine into {1}.",
   "quality": "55",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Equip_cr065_wp.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Equip_cr065_wp.webp"
  },
  {
   "id": "200170656",
   "name": "Lacquered Geta Heels Component",
   "desc": "Collect {0} to combine into {1}.",
   "quality": "55",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Equip_cr065_shoe.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Equip_cr065_shoe.webp"
  },
  {
   "id": "200170664",
@@ -4787,21 +4787,21 @@ export const gsaItems = [
   "name": "Monthly Romantica",
   "desc": "Monthly Romantica, a fiction-focused literary journal cherished by young women, serves as a sanctuary for the dreams of countless girls. For Belle, it is also the outlet for her own sweet fantasies. (Belle's Affection +1000)",
   "quality": "30",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200200040.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200200040.webp"
  },
  {
   "id": "200200041",
   "name": "Merino Scarf",
   "desc": "Finely woven from the highest quality merino wool. The understated color and exquisite craftsmanship make it both lightweight and warm, perfect for missions or everyday wear. (Adele's Affection +1000)",
   "quality": "30",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200200041.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200200041.webp"
  },
  {
   "id": "200200042",
   "name": "Scented Candle",
   "desc": "Compact and easy to carry, available in a variety of natural scents. Perfect for meditation and relaxation. It comes with a delicate lid or carrying pouch. (Theodore's Affection +1000)",
   "quality": "30",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200200042.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200200042.webp"
  },
  {
   "id": "200200043",
@@ -4836,7 +4836,7 @@ export const gsaItems = [
   "name": "NeoBra Enhanced Pastie Set",
   "desc": "Specialized invisible lingerie featuring a skin-conforming gel interior. Engineered for an instant cup-size boost, it sculpts a natural silhouette with a seamless, wire-free design. (Charlotte's Affection +1000)",
   "quality": "30",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200200047.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200200047.webp"
  },
  {
   "id": "200200048",
@@ -4857,7 +4857,7 @@ export const gsaItems = [
   "name": "Luxury Brand Clutch Bag",
   "desc": "A piece with a bold, unmistakable logo and avant-garde design that prioritizes style over function. Amelie will approve of your taste if you give this to her. (Amelie's Affection +1000)",
   "quality": "30",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200200050.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200200050.webp"
  },
  {
   "id": "200200051",
@@ -4892,7 +4892,7 @@ export const gsaItems = [
   "name": "Imported Loquat Syrup",
   "desc": "A loquat syrup made from natural medicinal formulas, effective in protecting and restoring the voice. Exclusively produced in a small Eastern nation, it utilizes the traits of \"Sonic-Type Espers\" to strengthen the vocal cords and improve breath control efficiency. It is distributed worldwide. (Ruby's Affection +1000)",
   "quality": "30",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200200056.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200200056.webp"
  },
  {
   "id": "200200057",
@@ -4927,7 +4927,7 @@ export const gsaItems = [
   "name": "Toffee Cake",
   "desc": "Soft cake drenched in smooth toffee sauce and finished with a sprinkle of toasted almonds. The savory-sweet notes and nutty fragrance offer a gentle comfort with every mouthful. It's a dreamlike confection that melts away even the darkest moods. (Ojima Erina's Affection +1000)",
   "quality": "30",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200200061.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200200061.webp"
  },
  {
   "id": "200200062",
@@ -5137,7 +5137,7 @@ export const gsaItems = [
   "name": "[Chat Portrait] Adele",
   "desc": "Obtained by owning 5\u2605 [Shadow Dagger - Adele].",
   "quality": "50",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/cr041_h1_Icon_Texture.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/cr041_h1_Icon_Texture.webp"
  },
  {
   "id": "200210043",
@@ -5200,7 +5200,7 @@ export const gsaItems = [
   "name": "[Chat Portrait] Annabelle",
   "desc": "Obtained by owning 5\u2605 [Shackled Saintess - Annabelle].",
   "quality": "50",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/cr051_h1_Icon_Texture.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/cr051_h1_Icon_Texture.webp"
  },
  {
   "id": "200210052",
@@ -5277,7 +5277,7 @@ export const gsaItems = [
   "name": "[Chat Portrait] Andou Kana",
   "desc": "Obtained by owning 5\u2605 [Scholastic Agent - Andou Kana].",
   "quality": "50",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/cr063_h1_Icon_Texture.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/cr063_h1_Icon_Texture.webp"
  },
  {
   "id": "200210064",
@@ -5487,21 +5487,21 @@ export const gsaItems = [
   "name": "[Profile Picture] Default",
   "desc": "Default Profile Picture.",
   "quality": "0",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/cr000_Icon_Texture.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/cr000_Icon_Texture.webp"
  },
  {
   "id": "200220040",
   "name": "[Date Portrait] Belle",
   "desc": "Complete Belle's Message Logs \"A Strange Sample\" to obtain.",
   "quality": "70",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/cr040_h2_Icon_Texture.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/cr040_h2_Icon_Texture.webp"
  },
  {
   "id": "200220041",
   "name": "[Date Portrait] Adele",
   "desc": "Complete Adele's Message Log, \"Too Busy Lately\" to obtain.",
   "quality": "70",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/cr041_h2_Icon_Texture.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/cr041_h2_Icon_Texture.webp"
  },
  {
   "id": "200220043",
@@ -5599,7 +5599,7 @@ export const gsaItems = [
   "name": "[Date Portrait] Ruby",
   "desc": "Complete Ruby's Message Logs \"The Same Thought\" to obtain.",
   "quality": "70",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/cr056_h2_Icon_Texture.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/cr056_h2_Icon_Texture.webp"
  },
  {
   "id": "200220057",
@@ -5641,7 +5641,7 @@ export const gsaItems = [
   "name": "[Date Portrait] Andou Kana",
   "desc": "Complete Andou Kana's Message Logs \"Results of the Second Revision\" to obtain.",
   "quality": "70",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/cr063_h2_Icon_Texture.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/cr063_h2_Icon_Texture.webp"
  },
  {
   "id": "200220064",
@@ -5851,7 +5851,7 @@ export const gsaItems = [
   "name": "[Profile Frame] Default",
   "desc": "Default Profile Frame",
   "quality": "0",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200240001.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200240001.webp"
  },
  {
   "id": "200240002",
@@ -5865,14 +5865,14 @@ export const gsaItems = [
   "name": "[Portrait Frame] VIP 5",
   "desc": "VIP 5 Exclusive Pack: Limited Portrait Frame.",
   "quality": "30",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200240003.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200240003.webp"
  },
  {
   "id": "200240004",
   "name": "[Portrait Frame] VIP 10",
   "desc": "VIP 10 Exclusive Pack: Limited Portrait Frame.",
   "quality": "50",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200240004.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200240004.webp"
  },
  {
   "id": "200240005",
@@ -6054,7 +6054,7 @@ export const gsaItems = [
   "name": "[Background] Night of Tobia",
   "desc": "Tobia's enchanting night. The city's vitality only awakens after nightfall, and with it, all its dangers are revealed.",
   "quality": "50",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200250001.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200250001.webp"
  },
  {
   "id": "200250002",
@@ -6068,119 +6068,119 @@ export const gsaItems = [
   "name": "[Background] Tobia Airport",
   "desc": "The gateway to Tobia. A destination coveted by many people. After all, a good environment is the most important thing for a bright future.",
   "quality": "50",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200255001.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200255001.webp"
  },
  {
   "id": "200255002",
   "name": "[Background] VORTEX",
   "desc": "Music, alcohol, bodies, you can find the night you crave most in VORTEX.",
   "quality": "50",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200255002.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200255002.webp"
  },
  {
   "id": "200255003",
   "name": "[Background] Dawn of Tobia",
   "desc": "Daytime in Tobia carries a hint of exhaustion after the revelry, and a sense of melancholy is hidden in its corners.",
   "quality": "50",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200255003.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200255003.webp"
  },
  {
   "id": "200255004",
   "name": "[Background] Bathroom",
   "desc": "The faint fragrance lingering inside still recalls the intimate entanglement of that night's bath.",
   "quality": "50",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200255004.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200255004.webp"
  },
  {
   "id": "200255005",
   "name": "[Background] Twilight of Tobia",
   "desc": "As the sun sinks low, the gradually lit city calls out to pedestrians and perils alike.",
   "quality": "50",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200255005.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200255005.webp"
  },
  {
   "id": "200255006",
   "name": "[Background] Room",
   "desc": "As the room sinks into darkness, the mind grows bright.",
   "quality": "50",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200255006.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200255006.webp"
  },
  {
   "id": "200255007",
   "name": "[Background] Adele's Home",
   "desc": "All traces of Adele's life are laid bare before you.",
   "quality": "50",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200255007.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200255007.webp"
  },
  {
   "id": "200255008",
   "name": "[Background] Hotel Room",
   "desc": "A double bed. How many times has it been tumbled upon? How many lingering traces of unbridled desires does it hold?",
   "quality": "50",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200255008.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200255008.webp"
  },
  {
   "id": "200255009",
   "name": "[Background] Abandoned Warehouse",
   "desc": "In the empty warehouse, a scent of rust lingers, a remnant of violence.",
   "quality": "50",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200255009.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200255009.webp"
  },
  {
   "id": "200255010",
   "name": "[Background] City Back Alley",
   "desc": "Filthy and dark, the stench of crime permeates this place. Unfamiliar faces will be met with suspicion; you'll need some connections or know-how to find any illicit dealings.",
   "quality": "50",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200255010.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200255010.webp"
  },
  {
   "id": "200255011",
   "name": "[Background] Heaven's Door",
   "desc": "Witness the birth of a new generation of female idols. Countless people have been captivated in this place, losing their hearts and their fortunes.",
   "quality": "50",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200255011.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200255011.webp"
  },
  {
   "id": "200255012",
   "name": "[Background] Moonflower Clan Estate",
   "desc": "Step into the solemn main house of the Moonflower Clan, where every blade of grass and every tree exudes order, etiquette, and chivalry.",
   "quality": "50",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200255012.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200255012.webp"
  },
  {
   "id": "200255013",
   "name": "[Background] Japanese-Style Private Room",
   "desc": "Power struggles and absurd sexual desires are concealed within this elegant Japanese-style room, never to be revealed.",
   "quality": "50",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200255013.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200255013.webp"
  },
  {
   "id": "200255014",
   "name": "[Background] Study",
   "desc": "Only a ruler with the power to command all is worthy of this study.",
   "quality": "50",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200255014.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200255014.webp"
  },
  {
   "id": "200255015",
   "name": "[Background] Pleasure District Street - Day",
   "desc": "A seemingly ordinary street bustling with commuters, yet it can hardly conceal its decadent nature.",
   "quality": "50",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200255015.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200255015.webp"
  },
  {
   "id": "200255016",
   "name": "[Background] Pleasure District Street - Night",
   "desc": "After nightfall, the pleasure district overflows with alcohol and sex. This is a playground for adults only.",
   "quality": "50",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200255016.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200255016.webp"
  },
  {
   "id": "200255017",
   "name": "[Background] Pleasure District Street - Festival",
   "desc": "Brilliant festival banners hang high for the Yoikasumi Festival. This is a dreamlike annual event in the Moonflower pleasure district.",
   "quality": "50",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200255017.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200255017.webp"
  },
  {
   "id": "200255018",
@@ -6306,7 +6306,7 @@ export const gsaItems = [
   "name": "[Background] Tobia",
   "desc": "The light shines in the darkness, and the darkness has not overcome it.",
   "quality": "50",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200255035.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200255035.webp"
  },
  {
   "id": "200255036",
@@ -6432,119 +6432,119 @@ export const gsaItems = [
   "name": "[CG] A Heavy Blow",
   "desc": "Beat it.",
   "quality": "50",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200260001.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200260001.webp"
  },
  {
   "id": "200260002",
   "name": "[CG] Presidential Address",
   "desc": "To make sure that nothing like the Saint Violet's Tragedy ever happens again...",
   "quality": "50",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200260002.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200260002.webp"
  },
  {
   "id": "200260003",
   "name": "[CG] Stage Performance",
   "desc": "Fire away, come on~\u266a",
   "quality": "50",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200260003.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200260003.webp"
  },
  {
   "id": "200260004",
   "name": "[CG] Tourism Ambassador",
   "desc": "May every day you spend in Tobia be filled with hope, dreams, and... love.",
   "quality": "50",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200260004.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200260004.webp"
  },
  {
   "id": "200260005",
   "name": "[CG] Mutation",
   "desc": "Hahaha! I'm gonna tear you all to shreads!!",
   "quality": "50",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200260005.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200260005.webp"
  },
  {
   "id": "200260006",
   "name": "[CG] Vigilante Justice",
   "desc": "So long, loser.",
   "quality": "50",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200260006.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200260006.webp"
  },
  {
   "id": "200260007",
   "name": "[CG] Memories",
   "desc": "...Thank you...",
   "quality": "50",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200260007.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200260007.webp"
  },
  {
   "id": "200260008",
   "name": "[CG] Dragon and Tiger",
   "desc": "Since you have come so far and honor me with your presence, it is only right that I entertain you.",
   "quality": "50",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200260008.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200260008.webp"
  },
  {
   "id": "200260009",
   "name": "[CG] Dancing Hearts",
   "desc": "Now, I shall don this attire, and let my dance speak for itself.",
   "quality": "50",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200260009.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200260009.webp"
  },
  {
   "id": "200260010",
   "name": "[CG] Slash Marks",
   "desc": "This, and this alone, I can never forgive.",
   "quality": "50",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200260010.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200260010.webp"
  },
  {
   "id": "200260011",
   "name": "[CG] The Puppeteer",
   "desc": "The \"Prelude to Vengeance\"... has begun.",
   "quality": "50",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200260011.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200260011.webp"
  },
  {
   "id": "200260012",
   "name": "[CG] Dance Practice",
   "desc": "She has long since become someone far beyond my reach.",
   "quality": "50",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200260012.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200260012.webp"
  },
  {
   "id": "200260013",
   "name": "[CG] Tears of Hatred",
   "desc": "Go to hell...!",
   "quality": "50",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200260013.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200260013.webp"
  },
  {
   "id": "200260014",
   "name": "[CG] Interrogation in the Rain",
   "desc": "Tell me why you did it?! Brother!",
   "quality": "50",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200260014.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200260014.webp"
  },
  {
   "id": "200260015",
   "name": "[CG] Betrayal",
   "desc": "But what matters most, is the Carducci honor you threw away.",
   "quality": "50",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200260015.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200260015.webp"
  },
  {
   "id": "200260016",
   "name": "[CG] Bloodstained Rainy Night",
   "desc": "...Theodore?",
   "quality": "50",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200260016.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200260016.webp"
  },
  {
   "id": "200260017",
   "name": "[CG] Blade Drawn",
   "desc": "This will end in two minutes.",
   "quality": "50",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200260017.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200260017.webp"
  },
  {
   "id": "200260018",
@@ -6635,140 +6635,140 @@ export const gsaItems = [
   "name": "[HCG] Nightclub Dance Floor",
   "desc": "Who is pressed against Belle's back?",
   "quality": "70",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200270001.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200270001.webp"
  },
  {
   "id": "200270002",
   "name": "[HCG] Soapy Bath",
   "desc": "Must smell wonderful.",
   "quality": "70",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200270002.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200270002.webp"
  },
  {
   "id": "200270003",
   "name": "[HCG] On the Job",
   "desc": "You're just a cum dumpster for me to use and abuse.",
   "quality": "70",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200270003.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200270003.webp"
  },
  {
   "id": "200270004",
   "name": "[HCG] Struggle",
   "desc": "A stage in heat is the most alluring of all.",
   "quality": "70",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200270004.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200270004.webp"
  },
  {
   "id": "200270005",
   "name": "[HCG] Fuyutsuki Kasumi's Footjob",
   "desc": "Please be a little rougher.",
   "quality": "70",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200270005.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200270005.webp"
  },
  {
   "id": "200270006",
   "name": "[HCG] Streetwalker",
   "desc": "In broad daylight, you can have pleasure anywhere.",
   "quality": "70",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200270006.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200270006.webp"
  },
  {
   "id": "200270007",
   "name": "[HCG] Surprise Bar",
   "desc": "If I wear a mask, no one will recognize me, right?",
   "quality": "70",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200270007.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200270007.webp"
  },
  {
   "id": "200270008",
   "name": "[HCG] Ritual of Purification",
   "desc": "Washed completely clean, from the inside out.",
   "quality": "70",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200270008.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200270008.webp"
  },
  {
   "id": "200270009",
   "name": "[HCG] Maid Cafe",
   "desc": "One could happily spend a whole day here, just waiting for a sudden surprise.",
   "quality": "70",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200270009.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200270009.webp"
  },
  {
   "id": "200270010",
   "name": "[HCG] Professional Spirit",
   "desc": "If you're not going to obey, then this cock will have to teach you a lesson.",
   "quality": "70",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200270010.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200270010.webp"
  },
  {
   "id": "200270011",
   "name": "[HCG] Bare Skinship",
   "desc": "Is a physical examination necessary?",
   "quality": "70",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200270011.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200270011.webp"
  },
  {
   "id": "200270012",
   "name": "[HCG] Naked Banquet",
   "desc": "A vessel perfect down to its appearance and blood type still requires rigorous training before it can be \"served.\"",
   "quality": "70",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200270012.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200270012.webp"
  },
  {
   "id": "200270013",
   "name": "[HCG] Photo Album",
   "desc": "Which goddesses had their scandalous photos leaked?",
   "quality": "70",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200270013.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200270013.webp"
  },
  {
   "id": "200270014",
   "name": "[HCG] Rowdy Patron",
   "desc": "Never casually experiment with the pleasure of asphyxiation.",
   "quality": "70",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200270014.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200270014.webp"
  },
  {
   "id": "200270015",
   "name": "[HCG] Underground Auction",
   "desc": "Behind the glitz and glamour of an idol lies a world of unseen hardships.",
   "quality": "70",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200270015.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200270015.webp"
  },
  {
   "id": "200270016",
   "name": "[HCG] Making a Comeback",
   "desc": "Struggling artists must always find ways to reinvent themselves just to survive.",
   "quality": "70",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200270016.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200270016.webp"
  },
  {
   "id": "200270017",
   "name": "[HCG] Honey Trap",
   "desc": "A gift exclusively for you, wishing only to serve you.",
   "quality": "70",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200270017.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200270017.webp"
  },
  {
   "id": "200270018",
   "name": "[HCG] Kidnapping",
   "desc": "No matter how you struggle or scream, it is all in vain.",
   "quality": "70",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200270018.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200270018.webp"
  },
  {
   "id": "200270019",
   "name": "[HCG] Bathing",
   "desc": "The hot water pours down, washing away exhaustion and settling the mind.",
   "quality": "70",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200270019.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200270019.webp"
  },
  {
   "id": "200270020",
   "name": "[HCG] Illusory Dream",
   "desc": "A nightmare from the abyss, tightly coiling and burrowing deep into mind and flesh.",
   "quality": "70",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200270020.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200270020.webp"
  },
  {
   "id": "200270021",
@@ -6796,21 +6796,21 @@ export const gsaItems = [
   "name": "[Special HCG] Splashdown Paradise",
   "desc": "Take a refreshing dip in that pool.",
   "quality": "70",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200270024.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200270024.webp"
  },
  {
   "id": "200270025",
   "name": "[Special HCG] Euphoria Live Lounge",
   "desc": "Ultimate Whale.",
   "quality": "70",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200270025.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200270025.webp"
  },
  {
   "id": "200270026",
   "name": "[Special HCG] Chamber of Bondage",
   "desc": "Restrained desire runs high in the dead of night.",
   "quality": "70",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200270026.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200270026.webp"
  },
  {
   "id": "200270027",
@@ -6831,7 +6831,7 @@ export const gsaItems = [
   "name": "[HCG] Side Effects",
   "desc": "The potion's side effects caused reason to be overwhelmed by desire.",
   "quality": "70",
-  "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_200270029.webp"
+  "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_200270029.webp"
  },
  {
   "id": "200270030",

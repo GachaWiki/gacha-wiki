@@ -4,7 +4,7 @@
 // (7000). Light and Dark are strong against each other, so their strong and
 // weak matchup is the same element. Icons are the game's own battleelement_N
 // assets on R2 (kept here so pages do not depend on the roster for them).
-const R2 = 'https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam';
+const R2 = 'https://img.gachawiki.info/gene-sys-adam';
 
 export const GSA_ELEMENT_MATCHUPS = {
   Fire: { id: 1, zh: '火', icon: `${R2}/battleelement_1.webp`, strongVs: 'Wind', weakVs: 'Water' },

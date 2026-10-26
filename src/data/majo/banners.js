@@ -5,7 +5,7 @@
 // gacha UI bundles (activity_button_images / gacha_cover_animations) and lives
 // on R2 under majo/banners/.
 
-const R2 = 'https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/majo/banners';
+const R2 = 'https://img.gachawiki.info/majo/banners';
 
 export const bannerTypes = [
   {
@@ -76,7 +76,7 @@ export const bannerTypes = [
 export const bannerTimeline = [
   {
     name: 'Daphine UR Pickup',
-    image: 'https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/majo/banners/ur-pu-4-daphine.webp',
+    image: 'https://img.gachawiki.info/majo/banners/ur-pu-4-daphine.webp',
     imageWidth: 1200,
     imageHeight: 480,
     type: 'Eternal Contact',
@@ -88,7 +88,7 @@ export const bannerTimeline = [
   },
   {
     name: 'Bellakey UR Pickup',
-    image: 'https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/majo/banners/ur-pu-3-bellakey.webp',
+    image: 'https://img.gachawiki.info/majo/banners/ur-pu-3-bellakey.webp',
     imageWidth: 1200,
     imageHeight: 480,
     type: 'Eternal Contact',
@@ -100,7 +100,7 @@ export const bannerTimeline = [
   },
   {
     name: 'Luoqin + Lucia dual Pickup',
-    image: 'https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/majo/banners/ssr-pu-3-luoqin-lucia.webp',
+    image: 'https://img.gachawiki.info/majo/banners/ssr-pu-3-luoqin-lucia.webp',
     imageWidth: 1200,
     imageHeight: 480,
     type: 'Limited Contact',
@@ -112,7 +112,7 @@ export const bannerTimeline = [
   },
   {
     name: 'Bazhuli UR Pickup',
-    image: 'https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/majo/banners/bazhuli-gacha.webp',
+    image: 'https://img.gachawiki.info/majo/banners/bazhuli-gacha.webp',
     imageWidth: 1440,
     imageHeight: 1920,
     type: 'Eternal Contact',
@@ -124,7 +124,7 @@ export const bannerTimeline = [
   },
   {
     name: 'Emily Pickup',
-    image: 'https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/majo/banners/ssr-pu-2-emily.webp',
+    image: 'https://img.gachawiki.info/majo/banners/ssr-pu-2-emily.webp',
     imageWidth: 1200,
     imageHeight: 480,
     type: 'Limited Contact',
@@ -136,7 +136,7 @@ export const bannerTimeline = [
   },
   {
     name: 'Eternal Contact UR rotation',
-    image: 'https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/majo/banners/ur-pu-4-daphine.webp',
+    image: 'https://img.gachawiki.info/majo/banners/ur-pu-4-daphine.webp',
     imageWidth: 1200,
     imageHeight: 480,
     type: 'Eternal Contact',
@@ -148,7 +148,7 @@ export const bannerTimeline = [
   },
   {
     name: 'Isabelle UR Pickup',
-    image: 'https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/majo/banners/ur-pu-1-isabelle.webp?v=2',
+    image: 'https://img.gachawiki.info/majo/banners/ur-pu-1-isabelle.webp?v=2',
     imageWidth: 1024,
     imageHeight: 410,
     type: 'Eternal Contact',
@@ -160,7 +160,7 @@ export const bannerTimeline = [
   },
   {
     name: 'Yun + Alice dual Pickup',
-    image: 'https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/majo/banners/ssr-pu-1-yun-alice.webp?v=2',
+    image: 'https://img.gachawiki.info/majo/banners/ssr-pu-1-yun-alice.webp?v=2',
     imageWidth: 1024,
     imageHeight: 410,
     type: 'Limited Contact',

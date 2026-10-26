@@ -3,7 +3,7 @@
 export const YuiBuildConfig = {
   damageScaling: "Firing Attack",
   buildStrategyTitle: "Community Sheet Build (Yui Matsumoto)",
-  recommendedStigma: "Mix",
+  recommendedStigma: "Mixed 2-Set: The Four Horsemen + Phantom Banquet",
   buildStrategy: [
     {
       title: "Weapon: Phantom Stiletto",

@@ -3,7 +3,7 @@
 export const NariBuildConfig = {
   damageScaling: "Firing Attack",
   buildStrategyTitle: "Community Sheet Build (Nari)",
-  recommendedStigma: "Mix",
+  recommendedStigma: "Mixed 2-Set: The Four Horsemen + Phantom Banquet",
   buildStrategy: [
     {
       title: "Weapon: Zamiel",

@@ -3,7 +3,7 @@
 export const MarikaBuildConfig = {
   damageScaling: "Melee Attack",
   buildStrategyTitle: "Community Sheet Build (Marika)",
-  recommendedStigma: "The Thousand Mile Weaver",
+  recommendedStigma: "The Thousand Mile Weave",
   buildStrategy: [
     {
       title: "Weapon: Lamoran Spiraldrive",

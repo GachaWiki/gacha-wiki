@@ -83,7 +83,7 @@ danxin: {
 const reworkZh = REWORK_ZH[slug] || null;
 
 // Signature gear art (armament.js holds the icon names; join by slug+slot)
-const R2 = 'https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam';
+const R2 = 'https://img.gachawiki.info/gene-sys-adam';
 const gearArt = Object.fromEntries(
   gsaSignatureGear.filter(g => g.icon).map(g => [`${g.slug}|${g.slot}`, `${R2}/${g.icon}.webp`])
 );

@@ -1,6 +1,6 @@
 // Official Stella Sora news content (cleaned from stellasora.global/news/1772)
 export const content = `
-<p><img src="https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/stella-sora/news/1772-1.webp" alt="" loading="lazy" decoding="async" /></p>
+<p><img src="https://img.gachawiki.info/stella-sora/news/1772-1.webp" alt="" loading="lazy" decoding="async" /></p>
 <p>Dear Tyrant,</p>
 <p>If you played during the Closed Beta Test (CBT) and now have problems after installing the official PC client, like unable to login, please do the following:</p>
 <p>1. Uninstall the Closed Beta Test PC client from your computer.</p>

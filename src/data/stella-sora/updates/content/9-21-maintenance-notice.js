@@ -1,6 +1,6 @@
 // Official Stella Sora news content (cleaned from stellasora.global/news/4691)
 export const content = `
-<p><img src="https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/stella-sora/news/2102-1.webp" alt="" loading="lazy" decoding="async" /></p>
+<p><img src="https://img.gachawiki.info/stella-sora/news/2102-1.webp" alt="" loading="lazy" decoding="async" /></p>
 <p>Dear Tyrant,</p>
 <p>Stella Sora is scheduled to undergo maintenance and updates on Sep. 21, 2026, from 20:00 (UTC-7). The maintenance is expected to last approximately 3 hours.</p>
 <p>Once maintenance begins, you won't be able to log into the game. If you're still playing at that time, you'll be logged out automatically. To keep your account data safe, please finish any ongoing stages and close the game before maintenance begins.</p>
@@ -19,7 +19,7 @@ export const content = `
 <p>Ranking Reward Claim Period: Sep. 29, 2026 13:00 ⁠- Oct. 29, 2026 12:59 (UTC-7)</p>
 <p>Participate in the combat, rank up damage, and climb the leaderboard! You can also earn rewards, including Stellanite Dust, Proving Grounds Gift Box, Deluxe Cartridge Box, and more!</p>
 <p>Requirements: Authorization Level ≥ 10</p>
-<p><img src="https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/stella-sora/news/4691-1.webp" alt="" loading="lazy" decoding="async" /></p>
+<p><img src="https://img.gachawiki.info/stella-sora/news/4691-1.webp" alt="" loading="lazy" decoding="async" /></p>
 <p><strong>✦ Fixes ✦</strong></p>
 <p>- Fixed an issue where Jinglin's Potential, [Energy Storage: Bind], did not function correctly when she was the Main Trekker during the Boss Blitz battle against Furious Stomper Crab.</p>
 <p>- Fixed a model display issue affecting Tilia's 3D Appearance: Shining Bright, Spirits High.</p>

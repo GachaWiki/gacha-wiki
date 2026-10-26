@@ -603,7 +603,7 @@ const coreStats = [
             .map((section) => (
           <div class="stigma-build-section">
             {section.label && <div class="stigma-build-label">{section.label}</div>}
-            {section.display.type === 'mixed' ? (
+            {section.display?.type === 'mixed' ? (
               <>
                 <div class="stigma-header">
                   <div class="stigma-title-section">
@@ -749,7 +749,7 @@ const coreStats = [
                   </div>
                 </div>
               </>
-            ) : (
+            ) : section.display?.set ? (
               <>
                 <div class="stigma-header">
                   <div class="stigma-title-section">
@@ -792,6 +792,11 @@ const coreStats = [
                   </div>
                 </div>
               </>
+            ) : (
+              <div class="stigma-set-bonus">
+                <h5>Stigma Plan</h5>
+                <p>{buildConfig.recommendedStigma || 'See build strategy details.'}</p>
+              </div>
             )}
           </div>
             ))}

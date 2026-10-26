@@ -1,6 +1,6 @@
 // Official Stella Sora news content (cleaned from stellasora.global/news/3688)
 export const content = `
-<p><img src="https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/stella-sora/news/3688-1.webp" alt="" loading="lazy" decoding="async" /></p>
+<p><img src="https://img.gachawiki.info/stella-sora/news/3688-1.webp" alt="" loading="lazy" decoding="async" /></p>
 <p>Celsia is a formidable presence descended within the Monolith. Possessed by an irrational fervor for war, she manifests as opposing masters of the chessboard, orchestrating an eternal struggle within her domain.</p>
 <p>None know her origin, and fewer still survive her purgatorial torrents. She commands her chariots to crush the earth, chanting anthems to the extinction of life. Amidst the endless cycle of conflict, only her madness remains eternal.</p>
 <p><strong>✦ Enemy Information ✦</strong></p>

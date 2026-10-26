@@ -242,7 +242,7 @@ const stigmaSections: any[] =
             .map((section: any) => (
           <div class="stigma-build-section">
             {section.label && <div class="stigma-build-label">{section.label}</div>}
-            {section.display.type === 'mixed' ? (
+            {section.display?.type === 'mixed' ? (
             // Mixed 2-Set Stigma Display
             <>
               <div class="stigma-header">
@@ -478,7 +478,7 @@ const stigmaSections: any[] =
                 </div>
               </div>
             </>
-            ) : (
+            ) : section.display?.set ? (
             // Single Stigma Set Display (like Juha, Vlissing)
             <>
               <div class="stigma-header">
@@ -548,6 +548,11 @@ const stigmaSections: any[] =
                 </div>
               </div>
             </>
+            ) : (
+              <div class="stigma-set-bonus">
+                <h5>Stigma Plan</h5>
+                <p>{buildConfig.recommendedStigma || 'See build strategy details.'}</p>
+              </div>
             )}
           </div>
             ))}

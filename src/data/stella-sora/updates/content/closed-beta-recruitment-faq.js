@@ -1,6 +1,6 @@
 // Official Stella Sora news content (cleaned from stellasora.global/news/104)
 export const content = `
-<p><img src="https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/stella-sora/news/104-1.webp" alt="" loading="lazy" decoding="async" /></p>
+<p><img src="https://img.gachawiki.info/stella-sora/news/104-1.webp" alt="" loading="lazy" decoding="async" /></p>
 <p><strong>Stella Sora Closed Beta Recruitment FAQ</p>
 <p>Dear Tyrant, thank you for your continuous love and support for Stella Sora.</p>
 <p>Here is an FAQ regarding the Closed Beta Recruitment process. If you have additional questions, feel free to contact us at: <a href="mailto:stellasora.cs@yo-star.com" target="_blank" rel="noopener nofollow">stellasora.cs@yo-star.com</a></p>

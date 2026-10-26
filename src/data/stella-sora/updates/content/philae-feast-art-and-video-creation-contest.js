@@ -1,6 +1,6 @@
 // Official Stella Sora news content (cleaned from stellasora.global/news/3031)
 export const content = `
-<p><img src="https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/stella-sora/news/3031-1.webp" alt="" loading="lazy" decoding="async" /></p>
+<p><img src="https://img.gachawiki.info/stella-sora/news/3031-1.webp" alt="" loading="lazy" decoding="async" /></p>
 <p><strong data-path-to-node="4" data-index-in-node="0">Dear Tyrant,</p>
 <p></strong>The Philae feast shines bright, but undercurrents are surging beneath the surface. Untold stories await your capture.</p>
 <p>For the first time, submissions for both Art and Video tracks will be accepted simultaneously, featuring an upgraded prize pool!</p>
@@ -106,7 +106,7 @@ export const content = `
 <p></strong>1. Download: <strong>Click the button below</strong> to get the complete character model pack.</p>
 <p>2. Edit: Import the .pmx files into MMD or your preferred 3D software.</p>
 <p>3. Share: Unleash your creativity and share your masterpiece with the community!</p>
-<p><a href="https://drive.google.com/uc?export=download&amp;id=13OhG8kB5I46MZSN3BRkrJ2K6Jhk5kgWe" target="_blank" rel="noopener nofollow"><img src="https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/stella-sora/news/2545-3.webp" alt="" loading="lazy" decoding="async" /></a></p>
+<p><a href="https://drive.google.com/uc?export=download&amp;id=13OhG8kB5I46MZSN3BRkrJ2K6Jhk5kgWe" target="_blank" rel="noopener nofollow"><img src="https://img.gachawiki.info/stella-sora/news/2545-3.webp" alt="" loading="lazy" decoding="async" /></a></p>
 <p><strong>✦</strong> <strong>Creation </strong><strong>Showcase</strong> <strong>✦</strong></p>
 <p>1. All compliant works will be featured in our dedicated Discord channel: <a href="https://discord.com/channels/1296014241089978408/1493869954938962011" target="_blank" rel="noopener nofollow">Philae-feast-creation-contest</a>. To keep things organized, we will open new threads regularly (categorized by track) and archive the day's submissions within them.</p>
 <p>2. To ensure fairness, these channels will only be used for showcasing content and will not be used for evaluation, scoring, or data collection.</p>

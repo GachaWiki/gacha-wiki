@@ -129,19 +129,19 @@ export const gsaCharactersTh = [
     "epithet": "กวาดล้างทั่วบริเวณ พิพากษาความชั่ว",
     "sex": "เพศหญิง",
     "inGacha": true,
-    "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/cr031_Icon_Texture.webp",
+    "icon": "https://img.gachawiki.info/gene-sys-adam/cr031_Icon_Texture.webp",
     "sortOrder": 31,
     "rarity": "SR",
     "element": {
       "id": 5,
       "name": "แสง",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/battleelement_5.webp"
+      "icon": "https://img.gachawiki.info/gene-sys-adam/battleelement_5.webp"
     },
-    "job": {"id": 2, "name": "จู่โจม", "color": "#EA3333", "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/fighters_5.webp" },
+    "job": {"id": 2, "name": "จู่โจม", "color": "#EA3333", "icon": "https://img.gachawiki.info/gene-sys-adam/fighters_5.webp" },
     "attackType": {
       "id": 1,
       "name": "物理",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Attributes_02.webp"
+      "icon": "https://img.gachawiki.info/gene-sys-adam/Attributes_02.webp"
     },
     "skills": [
       {
@@ -150,7 +150,7 @@ export const gsaCharactersTh = [
         "slot": "โจมตีปกติ",
         "slotEn": "Basic Attack",
         "unlockStar": 0,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr031_1.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr031_1.webp",
         "type": "ทันที",
         "mainStat": null,
         "gcd": "10s",
@@ -166,7 +166,7 @@ export const gsaCharactersTh = [
         "slot": "พรสวรรค์",
         "slotEn": "Talent",
         "unlockStar": 0,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr031_2.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr031_2.webp",
         "type": "ทันที",
         "mainStat": null,
         "gcd": null,
@@ -184,7 +184,7 @@ export const gsaCharactersTh = [
         "slot": "อัตโนมัติ",
         "slotEn": "Auto",
         "unlockStar": 1,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr031_3.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr031_3.webp",
         "type": "ทันที",
         "mainStat": null,
         "gcd": null,
@@ -203,7 +203,7 @@ export const gsaCharactersTh = [
         "slot": "พาสซีฟ 1",
         "slotEn": "Passive 1",
         "unlockStar": 4,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr031_5.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr031_5.webp",
         "type": "พาสซีฟ",
         "mainStat": null,
         "gcd": null,
@@ -223,7 +223,7 @@ export const gsaCharactersTh = [
         "slot": "พาสซีฟ 2",
         "slotEn": "Passive 2",
         "unlockStar": 6,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr031_6.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr031_6.webp",
         "type": "พาสซีฟ",
         "mainStat": null,
         "gcd": null,
@@ -243,7 +243,7 @@ export const gsaCharactersTh = [
         "slot": "อัลติเมท",
         "slotEn": "Ultimate",
         "unlockStar": 2,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr031_4.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr031_4.webp",
         "type": "ทันที",
         "mainStat": null,
         "gcd": null,
@@ -412,19 +412,19 @@ export const gsaCharactersTh = [
     "epithet": "นักล่าผู้ไร้เสียง ซุ่มสังหารทะลุหิน",
     "sex": "เพศหญิง",
     "inGacha": true,
-    "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/cr032_Icon_Texture.webp",
+    "icon": "https://img.gachawiki.info/gene-sys-adam/cr032_Icon_Texture.webp",
     "sortOrder": 32,
     "rarity": "SR",
     "element": {
       "id": 2,
       "name": "ดิน",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/battleelement_2.webp"
+      "icon": "https://img.gachawiki.info/gene-sys-adam/battleelement_2.webp"
     },
-    "job": {"id": 3, "name": "สไนเปอร์", "color": "#FFC405", "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/archer_2.webp" },
+    "job": {"id": 3, "name": "สไนเปอร์", "color": "#FFC405", "icon": "https://img.gachawiki.info/gene-sys-adam/archer_2.webp" },
     "attackType": {
       "id": 2,
       "name": "能量",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Attributes_01.webp"
+      "icon": "https://img.gachawiki.info/gene-sys-adam/Attributes_01.webp"
     },
     "skills": [
       {
@@ -433,7 +433,7 @@ export const gsaCharactersTh = [
         "slot": "โจมตีปกติ",
         "slotEn": "Basic Attack",
         "unlockStar": 0,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr032_1.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr032_1.webp",
         "type": "ทันที",
         "mainStat": null,
         "gcd": "10s",
@@ -449,7 +449,7 @@ export const gsaCharactersTh = [
         "slot": "พรสวรรค์",
         "slotEn": "Talent",
         "unlockStar": 0,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr032_2.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr032_2.webp",
         "type": "ทันที",
         "mainStat": null,
         "gcd": null,
@@ -467,7 +467,7 @@ export const gsaCharactersTh = [
         "slot": "อัตโนมัติ",
         "slotEn": "Auto",
         "unlockStar": 1,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr032_3.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr032_3.webp",
         "type": "ทันที",
         "mainStat": null,
         "gcd": null,
@@ -483,7 +483,7 @@ export const gsaCharactersTh = [
         "slot": "พาสซีฟ 1",
         "slotEn": "Passive 1",
         "unlockStar": 4,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr032_5.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr032_5.webp",
         "type": "พาสซีฟ",
         "mainStat": null,
         "gcd": null,
@@ -503,7 +503,7 @@ export const gsaCharactersTh = [
         "slot": "พาสซีฟ 2",
         "slotEn": "Passive 2",
         "unlockStar": 6,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr032_6.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr032_6.webp",
         "type": "พาสซีฟ",
         "mainStat": null,
         "gcd": null,
@@ -523,7 +523,7 @@ export const gsaCharactersTh = [
         "slot": "อัลติเมท",
         "slotEn": "Ultimate",
         "unlockStar": 2,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr032_4.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr032_4.webp",
         "type": "ทันที",
         "mainStat": null,
         "gcd": null,
@@ -691,24 +691,24 @@ export const gsaCharactersTh = [
     "epithet": "โจมตีหนักมึนงง สร้างแนวป้องกัน",
     "sex": "เพศหญิง",
     "inGacha": true,
-    "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/cr033_Icon_Texture.webp",
+    "icon": "https://img.gachawiki.info/gene-sys-adam/cr033_Icon_Texture.webp",
     "sortOrder": 33,
     "rarity": "SR",
     "element": {
       "id": 2,
       "name": "ดิน",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/battleelement_2.webp"
+      "icon": "https://img.gachawiki.info/gene-sys-adam/battleelement_2.webp"
     },
     "job": {
       "id": 1,
       "name": "ป้องกัน",
       "color": "#957C7A",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/guard_2.webp"
+      "icon": "https://img.gachawiki.info/gene-sys-adam/guard_2.webp"
     },
     "attackType": {
       "id": 1,
       "name": "物理",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Attributes_02.webp"
+      "icon": "https://img.gachawiki.info/gene-sys-adam/Attributes_02.webp"
     },
     "skills": [
       {
@@ -717,7 +717,7 @@ export const gsaCharactersTh = [
         "slot": "โจมตีปกติ",
         "slotEn": "Basic Attack",
         "unlockStar": 0,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr033_1.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr033_1.webp",
         "type": "ทันที",
         "mainStat": null,
         "gcd": "18s",
@@ -733,7 +733,7 @@ export const gsaCharactersTh = [
         "slot": "พรสวรรค์",
         "slotEn": "Talent",
         "unlockStar": 0,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr033_2.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr033_2.webp",
         "type": "ทันที",
         "mainStat": null,
         "gcd": null,
@@ -751,7 +751,7 @@ export const gsaCharactersTh = [
         "slot": "อัตโนมัติ",
         "slotEn": "Auto",
         "unlockStar": 1,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr033_3.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr033_3.webp",
         "type": "ทันที",
         "mainStat": null,
         "gcd": null,
@@ -770,7 +770,7 @@ export const gsaCharactersTh = [
         "slot": "พาสซีฟ 1",
         "slotEn": "Passive 1",
         "unlockStar": 4,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr033_5.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr033_5.webp",
         "type": "พาสซีฟ",
         "mainStat": null,
         "gcd": null,
@@ -792,7 +792,7 @@ export const gsaCharactersTh = [
         "slot": "พาสซีฟ 2",
         "slotEn": "Passive 2",
         "unlockStar": 6,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr033_6.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr033_6.webp",
         "type": "พาสซีฟ",
         "mainStat": null,
         "gcd": null,
@@ -812,7 +812,7 @@ export const gsaCharactersTh = [
         "slot": "อัลติเมท",
         "slotEn": "Ultimate",
         "unlockStar": 2,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr033_4.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr033_4.webp",
         "type": "ทันที",
         "mainStat": null,
         "gcd": null,
@@ -981,24 +981,24 @@ export const gsaCharactersTh = [
     "epithet": "โหยกระหายโลหิต ต่อต้านร่างกาย",
     "sex": "เพศหญิง",
     "inGacha": true,
-    "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/cr034_Icon_Texture.webp",
+    "icon": "https://img.gachawiki.info/gene-sys-adam/cr034_Icon_Texture.webp",
     "sortOrder": 34,
     "rarity": "SR",
     "element": {
       "id": 6,
       "name": "มืด",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/battleelement_6.webp"
+      "icon": "https://img.gachawiki.info/gene-sys-adam/battleelement_6.webp"
     },
     "job": {
       "id": 1,
       "name": "ป้องกัน",
       "color": "#957C7A",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/guard_6.webp"
+      "icon": "https://img.gachawiki.info/gene-sys-adam/guard_6.webp"
     },
     "attackType": {
       "id": 1,
       "name": "物理",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Attributes_02.webp"
+      "icon": "https://img.gachawiki.info/gene-sys-adam/Attributes_02.webp"
     },
     "skills": [
       {
@@ -1007,7 +1007,7 @@ export const gsaCharactersTh = [
         "slot": "โจมตีปกติ",
         "slotEn": "Basic Attack",
         "unlockStar": 0,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr034_1.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr034_1.webp",
         "type": "ทันที",
         "mainStat": null,
         "gcd": "10s",
@@ -1023,7 +1023,7 @@ export const gsaCharactersTh = [
         "slot": "พรสวรรค์",
         "slotEn": "Talent",
         "unlockStar": 0,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr034_2.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr034_2.webp",
         "type": "ทันที",
         "mainStat": null,
         "gcd": null,
@@ -1041,7 +1041,7 @@ export const gsaCharactersTh = [
         "slot": "อัตโนมัติ",
         "slotEn": "Auto",
         "unlockStar": 1,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr034_3.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr034_3.webp",
         "type": "ทันที",
         "mainStat": null,
         "gcd": null,
@@ -1059,7 +1059,7 @@ export const gsaCharactersTh = [
         "slot": "พาสซีฟ 1",
         "slotEn": "Passive 1",
         "unlockStar": 4,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr034_5.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr034_5.webp",
         "type": "พาสซีฟ",
         "mainStat": null,
         "gcd": null,
@@ -1081,7 +1081,7 @@ export const gsaCharactersTh = [
         "slot": "พาสซีฟ 2",
         "slotEn": "Passive 2",
         "unlockStar": 6,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr034_6.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr034_6.webp",
         "type": "พาสซีฟ",
         "mainStat": null,
         "gcd": null,
@@ -1101,7 +1101,7 @@ export const gsaCharactersTh = [
         "slot": "อัลติเมท",
         "slotEn": "Ultimate",
         "unlockStar": 2,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr034_4.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr034_4.webp",
         "type": "ทันที",
         "mainStat": null,
         "gcd": null,
@@ -1269,24 +1269,24 @@ export const gsaCharactersTh = [
     "epithet": "กวาดวนพุ่งแทง รอยประทับดำมืด",
     "sex": "เพศหญิง",
     "inGacha": true,
-    "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/cr035_Icon_Texture.webp",
+    "icon": "https://img.gachawiki.info/gene-sys-adam/cr035_Icon_Texture.webp",
     "sortOrder": 35,
     "rarity": "SR",
     "element": {
       "id": 6,
       "name": "มืด",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/battleelement_6.webp"
+      "icon": "https://img.gachawiki.info/gene-sys-adam/battleelement_6.webp"
     },
     "job": {
       "id": 2,
       "name": "จู่โจม",
       "color": "#EA3333",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/fighters_6.webp"
+      "icon": "https://img.gachawiki.info/gene-sys-adam/fighters_6.webp"
     },
     "attackType": {
       "id": 2,
       "name": "能量",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Attributes_01.webp"
+      "icon": "https://img.gachawiki.info/gene-sys-adam/Attributes_01.webp"
     },
     "skills": [
       {
@@ -1311,7 +1311,7 @@ export const gsaCharactersTh = [
         "slot": "พรสวรรค์",
         "slotEn": "Talent",
         "unlockStar": 0,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr035_2.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr035_2.webp",
         "type": "ทันที",
         "mainStat": null,
         "gcd": null,
@@ -1348,7 +1348,7 @@ export const gsaCharactersTh = [
         "slot": "พาสซีฟ 1",
         "slotEn": "Passive 1",
         "unlockStar": 4,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr035_5.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr035_5.webp",
         "type": "พาสซีฟ",
         "mainStat": null,
         "gcd": null,
@@ -1368,7 +1368,7 @@ export const gsaCharactersTh = [
         "slot": "พาสซีฟ 2",
         "slotEn": "Passive 2",
         "unlockStar": 6,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr035_6.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr035_6.webp",
         "type": "พาสซีฟ",
         "mainStat": null,
         "gcd": null,
@@ -1555,24 +1555,24 @@ export const gsaCharactersTh = [
     "epithet": "เต้นรำเขียวมรกต การคุ้มครองจากสายลม",
     "sex": "เพศหญิง",
     "inGacha": true,
-    "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/cr036_Icon_Texture.webp",
+    "icon": "https://img.gachawiki.info/gene-sys-adam/cr036_Icon_Texture.webp",
     "sortOrder": 36,
     "rarity": "SR",
     "element": {
       "id": 3,
       "name": "ลม",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/battleelement_3.webp"
+      "icon": "https://img.gachawiki.info/gene-sys-adam/battleelement_3.webp"
     },
     "job": {
       "id": 4,
       "name": "สนับสนุน",
       "color": "#33EA62",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/priest_3.webp"
+      "icon": "https://img.gachawiki.info/gene-sys-adam/priest_3.webp"
     },
     "attackType": {
       "id": 1,
       "name": "物理",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Attributes_02.webp"
+      "icon": "https://img.gachawiki.info/gene-sys-adam/Attributes_02.webp"
     },
     "skills": [
       {
@@ -1581,7 +1581,7 @@ export const gsaCharactersTh = [
         "slot": "โจมตีปกติ",
         "slotEn": "Basic Attack",
         "unlockStar": 0,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr036_1.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr036_1.webp",
         "type": "ทันที",
         "mainStat": null,
         "gcd": "10s",
@@ -1597,7 +1597,7 @@ export const gsaCharactersTh = [
         "slot": "พรสวรรค์",
         "slotEn": "Talent",
         "unlockStar": 0,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr036_2.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr036_2.webp",
         "type": "ทันที",
         "mainStat": null,
         "gcd": null,
@@ -1615,7 +1615,7 @@ export const gsaCharactersTh = [
         "slot": "อัตโนมัติ",
         "slotEn": "Auto",
         "unlockStar": 1,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr036_3.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr036_3.webp",
         "type": "ทันที",
         "mainStat": null,
         "gcd": null,
@@ -1634,7 +1634,7 @@ export const gsaCharactersTh = [
         "slot": "พาสซีฟ 1",
         "slotEn": "Passive 1",
         "unlockStar": 4,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr036_5.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr036_5.webp",
         "type": "พาสซีฟ",
         "mainStat": null,
         "gcd": null,
@@ -1656,7 +1656,7 @@ export const gsaCharactersTh = [
         "slot": "พาสซีฟ 2",
         "slotEn": "Passive 2",
         "unlockStar": 6,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr036_6.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr036_6.webp",
         "type": "พาสซีฟ",
         "mainStat": null,
         "gcd": null,
@@ -1676,7 +1676,7 @@ export const gsaCharactersTh = [
         "slot": "อัลติเมท",
         "slotEn": "Ultimate",
         "unlockStar": 2,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr036_4.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr036_4.webp",
         "type": "ทันที",
         "mainStat": null,
         "gcd": null,
@@ -1844,24 +1844,24 @@ export const gsaCharactersTh = [
     "epithet": "พร้อมมีเรื่องเสมอ ห้ามพูดมาก",
     "sex": "เพศหญิง",
     "inGacha": true,
-    "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/cr037_Icon_Texture.webp",
+    "icon": "https://img.gachawiki.info/gene-sys-adam/cr037_Icon_Texture.webp",
     "sortOrder": 37,
     "rarity": "SR",
     "element": {
       "id": 3,
       "name": "ลม",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/battleelement_3.webp"
+      "icon": "https://img.gachawiki.info/gene-sys-adam/battleelement_3.webp"
     },
     "job": {
       "id": 1,
       "name": "ป้องกัน",
       "color": "#957C7A",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/guard_3.webp"
+      "icon": "https://img.gachawiki.info/gene-sys-adam/guard_3.webp"
     },
     "attackType": {
       "id": 2,
       "name": "能量",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Attributes_01.webp"
+      "icon": "https://img.gachawiki.info/gene-sys-adam/Attributes_01.webp"
     },
     "skills": [
       {
@@ -1870,7 +1870,7 @@ export const gsaCharactersTh = [
         "slot": "โจมตีปกติ",
         "slotEn": "Basic Attack",
         "unlockStar": 0,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr037_1.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr037_1.webp",
         "type": "ทันที",
         "mainStat": null,
         "gcd": "10s",
@@ -1886,7 +1886,7 @@ export const gsaCharactersTh = [
         "slot": "พรสวรรค์",
         "slotEn": "Talent",
         "unlockStar": 0,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr037_2.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr037_2.webp",
         "type": "ทันที",
         "mainStat": null,
         "gcd": null,
@@ -1904,7 +1904,7 @@ export const gsaCharactersTh = [
         "slot": "อัตโนมัติ",
         "slotEn": "Auto",
         "unlockStar": 1,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr037_3.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr037_3.webp",
         "type": "ทันที",
         "mainStat": null,
         "gcd": null,
@@ -1922,7 +1922,7 @@ export const gsaCharactersTh = [
         "slot": "พาสซีฟ 1",
         "slotEn": "Passive 1",
         "unlockStar": 4,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr037_5.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr037_5.webp",
         "type": "พาสซีฟ",
         "mainStat": null,
         "gcd": null,
@@ -1944,7 +1944,7 @@ export const gsaCharactersTh = [
         "slot": "พาสซีฟ 2",
         "slotEn": "Passive 2",
         "unlockStar": 6,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr037_6.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr037_6.webp",
         "type": "พาสซีฟ",
         "mainStat": null,
         "gcd": null,
@@ -1964,7 +1964,7 @@ export const gsaCharactersTh = [
         "slot": "อัลติเมท",
         "slotEn": "Ultimate",
         "unlockStar": 2,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr037_4.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr037_4.webp",
         "type": "ทันที",
         "mainStat": null,
         "gcd": null,
@@ -2132,19 +2132,19 @@ export const gsaCharactersTh = [
     "epithet": "กดดันด้วยไฟ สะเก็ดน้ำค้างแข็ง",
     "sex": "เพศหญิง",
     "inGacha": true,
-    "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/cr038_Icon_Texture.webp",
+    "icon": "https://img.gachawiki.info/gene-sys-adam/cr038_Icon_Texture.webp",
     "sortOrder": 38,
     "rarity": "SR",
     "element": {
       "id": 4,
       "name": "น้ำ",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/battleelement_4.webp"
+      "icon": "https://img.gachawiki.info/gene-sys-adam/battleelement_4.webp"
     },
-    "job": {"id": 5, "name": "ทำลาย", "color": "#9433EA", "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/master_4.webp" },
+    "job": {"id": 5, "name": "ทำลาย", "color": "#9433EA", "icon": "https://img.gachawiki.info/gene-sys-adam/master_4.webp" },
     "attackType": {
       "id": 1,
       "name": "物理",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Attributes_02.webp"
+      "icon": "https://img.gachawiki.info/gene-sys-adam/Attributes_02.webp"
     },
     "skills": [
       {
@@ -2153,7 +2153,7 @@ export const gsaCharactersTh = [
         "slot": "โจมตีปกติ",
         "slotEn": "Basic Attack",
         "unlockStar": 0,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr038_1.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr038_1.webp",
         "type": "ทันที",
         "mainStat": null,
         "gcd": "16.001s",
@@ -2169,7 +2169,7 @@ export const gsaCharactersTh = [
         "slot": "พรสวรรค์",
         "slotEn": "Talent",
         "unlockStar": 0,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr038_2.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr038_2.webp",
         "type": "ทันที",
         "mainStat": null,
         "gcd": null,
@@ -2187,7 +2187,7 @@ export const gsaCharactersTh = [
         "slot": "อัตโนมัติ",
         "slotEn": "Auto",
         "unlockStar": 1,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr038_3.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr038_3.webp",
         "type": "ทันที",
         "mainStat": null,
         "gcd": null,
@@ -2203,7 +2203,7 @@ export const gsaCharactersTh = [
         "slot": "พาสซีฟ 1",
         "slotEn": "Passive 1",
         "unlockStar": 4,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr038_5.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr038_5.webp",
         "type": "พาสซีฟ",
         "mainStat": null,
         "gcd": null,
@@ -2223,7 +2223,7 @@ export const gsaCharactersTh = [
         "slot": "พาสซีฟ 2",
         "slotEn": "Passive 2",
         "unlockStar": 6,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr038_6.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr038_6.webp",
         "type": "พาสซีฟ",
         "mainStat": null,
         "gcd": null,
@@ -2243,7 +2243,7 @@ export const gsaCharactersTh = [
         "slot": "อัลติเมท",
         "slotEn": "Ultimate",
         "unlockStar": 2,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr038_4.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr038_4.webp",
         "type": "ทันที",
         "mainStat": null,
         "gcd": null,
@@ -2412,19 +2412,19 @@ export const gsaCharactersTh = [
     "epithet": "เงางามออกศึก สไนเปอร์กดดัน",
     "sex": "เพศหญิง",
     "inGacha": true,
-    "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/cr039_Icon_Texture.webp",
+    "icon": "https://img.gachawiki.info/gene-sys-adam/cr039_Icon_Texture.webp",
     "sortOrder": 39,
     "rarity": "SR",
     "element": {
       "id": 4,
       "name": "น้ำ",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/battleelement_4.webp"
+      "icon": "https://img.gachawiki.info/gene-sys-adam/battleelement_4.webp"
     },
-    "job": {"id": 3, "name": "สไนเปอร์", "color": "#FFC405", "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/archer_4.webp" },
+    "job": {"id": 3, "name": "สไนเปอร์", "color": "#FFC405", "icon": "https://img.gachawiki.info/gene-sys-adam/archer_4.webp" },
     "attackType": {
       "id": 2,
       "name": "能量",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Attributes_01.webp"
+      "icon": "https://img.gachawiki.info/gene-sys-adam/Attributes_01.webp"
     },
     "skills": [
       {
@@ -2433,7 +2433,7 @@ export const gsaCharactersTh = [
         "slot": "โจมตีปกติ",
         "slotEn": "Basic Attack",
         "unlockStar": 0,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr039_1.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr039_1.webp",
         "type": "ทันที",
         "mainStat": null,
         "gcd": "16.001s",
@@ -2449,7 +2449,7 @@ export const gsaCharactersTh = [
         "slot": "พรสวรรค์",
         "slotEn": "Talent",
         "unlockStar": 0,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr039_2.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr039_2.webp",
         "type": "ทันที",
         "mainStat": null,
         "gcd": null,
@@ -2467,7 +2467,7 @@ export const gsaCharactersTh = [
         "slot": "อัตโนมัติ",
         "slotEn": "Auto",
         "unlockStar": 1,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr039_3.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr039_3.webp",
         "type": "ทันที",
         "mainStat": null,
         "gcd": null,
@@ -2483,7 +2483,7 @@ export const gsaCharactersTh = [
         "slot": "พาสซีฟ 1",
         "slotEn": "Passive 1",
         "unlockStar": 4,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr039_5.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr039_5.webp",
         "type": "พาสซีฟ",
         "mainStat": null,
         "gcd": null,
@@ -2503,7 +2503,7 @@ export const gsaCharactersTh = [
         "slot": "พาสซีฟ 2",
         "slotEn": "Passive 2",
         "unlockStar": 6,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr039_6.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr039_6.webp",
         "type": "พาสซีฟ",
         "mainStat": null,
         "gcd": null,
@@ -2523,7 +2523,7 @@ export const gsaCharactersTh = [
         "slot": "อัลติเมท",
         "slotEn": "Ultimate",
         "unlockStar": 2,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr039_4.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr039_4.webp",
         "type": "ทันที",
         "mainStat": null,
         "gcd": null,
@@ -2783,19 +2783,19 @@ export const gsaCharactersTh = [
     "epithet": "นุ่มนวลรักษา หัวใจผู้พิทักษ์",
     "sex": "เพศหญิง",
     "inGacha": true,
-    "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/cr040_Icon_Texture.webp",
+    "icon": "https://img.gachawiki.info/gene-sys-adam/cr040_Icon_Texture.webp",
     "sortOrder": 40,
     "rarity": "SR",
     "element": {
       "id": 5,
       "name": "แสง",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/battleelement_5.webp"
+      "icon": "https://img.gachawiki.info/gene-sys-adam/battleelement_5.webp"
     },
-    "job": {"id": 4, "name": "สนับสนุน", "color": "#33EA62", "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/priest_5.webp" },
+    "job": {"id": 4, "name": "สนับสนุน", "color": "#33EA62", "icon": "https://img.gachawiki.info/gene-sys-adam/priest_5.webp" },
     "attackType": {
       "id": 1,
       "name": "物理",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Attributes_02.webp"
+      "icon": "https://img.gachawiki.info/gene-sys-adam/Attributes_02.webp"
     },
     "skills": [
       {
@@ -2804,7 +2804,7 @@ export const gsaCharactersTh = [
         "slot": "โจมตีปกติ",
         "slotEn": "Basic Attack",
         "unlockStar": 0,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr040_1.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr040_1.webp",
         "type": "ทันที",
         "mainStat": null,
         "gcd": "10s",
@@ -2820,7 +2820,7 @@ export const gsaCharactersTh = [
         "slot": "พรสวรรค์",
         "slotEn": "Talent",
         "unlockStar": 0,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr040_2.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr040_2.webp",
         "type": "ทันที",
         "mainStat": null,
         "gcd": null,
@@ -2842,7 +2842,7 @@ export const gsaCharactersTh = [
         "slot": "อัตโนมัติ",
         "slotEn": "Auto",
         "unlockStar": 1,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr040_3.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr040_3.webp",
         "type": "ทันที",
         "mainStat": null,
         "gcd": null,
@@ -2865,7 +2865,7 @@ export const gsaCharactersTh = [
         "slot": "พาสซีฟ 1",
         "slotEn": "Passive 1",
         "unlockStar": 4,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr040_5.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr040_5.webp",
         "type": "พาสซีฟ",
         "mainStat": null,
         "gcd": null,
@@ -2885,7 +2885,7 @@ export const gsaCharactersTh = [
         "slot": "พาสซีฟ 2",
         "slotEn": "Passive 2",
         "unlockStar": 6,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr040_6.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr040_6.webp",
         "type": "พาสซีฟ",
         "mainStat": null,
         "gcd": null,
@@ -2905,7 +2905,7 @@ export const gsaCharactersTh = [
         "slot": "อัลติเมท",
         "slotEn": "Ultimate",
         "unlockStar": 2,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr040_4.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr040_4.webp",
         "type": "ทันที",
         "mainStat": null,
         "gcd": null,
@@ -3165,24 +3165,24 @@ export const gsaCharactersTh = [
     "epithet": "เงาบินร่ายรำฉับไว คมมีดร้อนระอุ",
     "sex": "เพศหญิง",
     "inGacha": true,
-    "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/cr041_Icon_Texture.webp",
+    "icon": "https://img.gachawiki.info/gene-sys-adam/cr041_Icon_Texture.webp",
     "sortOrder": 41,
     "rarity": "SR",
     "element": {
       "id": 1,
       "name": "ไฟ",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/battleelement_1.webp"
+      "icon": "https://img.gachawiki.info/gene-sys-adam/battleelement_1.webp"
     },
     "job": {
       "id": 3,
       "name": "สไนเปอร์",
       "color": "#FFC405",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/archer_1.webp"
+      "icon": "https://img.gachawiki.info/gene-sys-adam/archer_1.webp"
     },
     "attackType": {
       "id": 2,
       "name": "能量",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Attributes_01.webp"
+      "icon": "https://img.gachawiki.info/gene-sys-adam/Attributes_01.webp"
     },
     "skills": [
       {
@@ -3191,7 +3191,7 @@ export const gsaCharactersTh = [
         "slot": "โจมตีปกติ",
         "slotEn": "Basic Attack",
         "unlockStar": 0,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr041_1.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr041_1.webp",
         "type": "ทันที",
         "mainStat": null,
         "gcd": "7.5s",
@@ -3207,7 +3207,7 @@ export const gsaCharactersTh = [
         "slot": "พรสวรรค์",
         "slotEn": "Talent",
         "unlockStar": 0,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr041_2.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr041_2.webp",
         "type": "ทันที",
         "mainStat": null,
         "gcd": null,
@@ -3230,7 +3230,7 @@ export const gsaCharactersTh = [
         "slot": "อัตโนมัติ",
         "slotEn": "Auto",
         "unlockStar": 1,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr041_3.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr041_3.webp",
         "type": "ทันที",
         "mainStat": null,
         "gcd": null,
@@ -3253,7 +3253,7 @@ export const gsaCharactersTh = [
         "slot": "พาสซีฟ 1",
         "slotEn": "Passive 1",
         "unlockStar": 4,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr041_5.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr041_5.webp",
         "type": "พาสซีฟ",
         "mainStat": null,
         "gcd": null,
@@ -3273,7 +3273,7 @@ export const gsaCharactersTh = [
         "slot": "พาสซีฟ 2",
         "slotEn": "Passive 2",
         "unlockStar": 6,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr041_6.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr041_6.webp",
         "type": "พาสซีฟ",
         "mainStat": null,
         "gcd": null,
@@ -3293,7 +3293,7 @@ export const gsaCharactersTh = [
         "slot": "อัลติเมท",
         "slotEn": "Ultimate",
         "unlockStar": 2,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr041_4.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr041_4.webp",
         "type": "ทันที",
         "mainStat": null,
         "gcd": null,
@@ -3551,24 +3551,24 @@ export const gsaCharactersTh = [
     "epithet": "ดาบปืนจู่โจมคลั่ง ระเบิดเพลิงนรก",
     "sex": "เพศชาย",
     "inGacha": false,
-    "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/cr042_Icon_Texture.webp",
+    "icon": "https://img.gachawiki.info/gene-sys-adam/cr042_Icon_Texture.webp",
     "sortOrder": 42,
     "rarity": "SR",
     "element": {
       "id": 1,
       "name": "ไฟ",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/battleelement_1.webp"
+      "icon": "https://img.gachawiki.info/gene-sys-adam/battleelement_1.webp"
     },
     "job": {
       "id": 2,
       "name": "จู่โจม",
       "color": "#EA3333",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/fighters_1.webp"
+      "icon": "https://img.gachawiki.info/gene-sys-adam/fighters_1.webp"
     },
     "attackType": {
       "id": 1,
       "name": "物理",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Attributes_02.webp"
+      "icon": "https://img.gachawiki.info/gene-sys-adam/Attributes_02.webp"
     },
     "skills": [
       {
@@ -3577,7 +3577,7 @@ export const gsaCharactersTh = [
         "slot": "โจมตีปกติ",
         "slotEn": "Basic Attack",
         "unlockStar": 0,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr042_1.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr042_1.webp",
         "type": "ทันที",
         "mainStat": null,
         "gcd": "10s",
@@ -3593,7 +3593,7 @@ export const gsaCharactersTh = [
         "slot": "พรสวรรค์",
         "slotEn": "Talent",
         "unlockStar": 0,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr042_2.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr042_2.webp",
         "type": "ทันที",
         "mainStat": null,
         "gcd": null,
@@ -3616,7 +3616,7 @@ export const gsaCharactersTh = [
         "slot": "อัตโนมัติ",
         "slotEn": "Auto",
         "unlockStar": 1,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr042_3.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr042_3.webp",
         "type": "ทันที",
         "mainStat": null,
         "gcd": null,
@@ -3638,7 +3638,7 @@ export const gsaCharactersTh = [
         "slot": "พาสซีฟ 1",
         "slotEn": "Passive 1",
         "unlockStar": 4,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr042_5.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr042_5.webp",
         "type": "พาสซีฟ",
         "mainStat": null,
         "gcd": null,
@@ -3658,7 +3658,7 @@ export const gsaCharactersTh = [
         "slot": "พาสซีฟ 2",
         "slotEn": "Passive 2",
         "unlockStar": 6,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr042_6.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr042_6.webp",
         "type": "พาสซีฟ",
         "mainStat": null,
         "gcd": null,
@@ -3678,7 +3678,7 @@ export const gsaCharactersTh = [
         "slot": "อัลติเมท",
         "slotEn": "Ultimate",
         "unlockStar": 2,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr042_4.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr042_4.webp",
         "type": "ทันที",
         "mainStat": null,
         "gcd": null,
@@ -3931,19 +3931,19 @@ export const gsaCharactersTh = [
     "epithet": "พันธมิตรผาหิน ฉลาดหลักแหลม",
     "sex": "เพศหญิง",
     "inGacha": true,
-    "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/cr043_Icon_Texture.webp",
+    "icon": "https://img.gachawiki.info/gene-sys-adam/cr043_Icon_Texture.webp",
     "sortOrder": 43,
     "rarity": "SSR",
     "element": {
       "id": 2,
       "name": "ดิน",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/battleelement_2.webp"
+      "icon": "https://img.gachawiki.info/gene-sys-adam/battleelement_2.webp"
     },
-    "job": {"id": 4, "name": "สนับสนุน", "color": "#33EA62", "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/priest_2.webp" },
+    "job": {"id": 4, "name": "สนับสนุน", "color": "#33EA62", "icon": "https://img.gachawiki.info/gene-sys-adam/priest_2.webp" },
     "attackType": {
       "id": 1,
       "name": "物理",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Attributes_02.webp"
+      "icon": "https://img.gachawiki.info/gene-sys-adam/Attributes_02.webp"
     },
     "skills": [
       {
@@ -3952,7 +3952,7 @@ export const gsaCharactersTh = [
         "slot": "โจมตีปกติ",
         "slotEn": "Basic Attack",
         "unlockStar": 0,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr043_1.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr043_1.webp",
         "type": "ทันที",
         "mainStat": null,
         "gcd": "10s",
@@ -3968,7 +3968,7 @@ export const gsaCharactersTh = [
         "slot": "พรสวรรค์",
         "slotEn": "Talent",
         "unlockStar": 0,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr043_2.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr043_2.webp",
         "type": "ทันที",
         "mainStat": null,
         "gcd": null,
@@ -3991,7 +3991,7 @@ export const gsaCharactersTh = [
         "slot": "อัตโนมัติ",
         "slotEn": "Auto",
         "unlockStar": 1,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr043_3.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr043_3.webp",
         "type": "ทันที",
         "mainStat": null,
         "gcd": null,
@@ -4013,7 +4013,7 @@ export const gsaCharactersTh = [
         "slot": "พาสซีฟ 1",
         "slotEn": "Passive 1",
         "unlockStar": 4,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr043_5.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr043_5.webp",
         "type": "พาสซีฟ",
         "mainStat": null,
         "gcd": null,
@@ -4033,7 +4033,7 @@ export const gsaCharactersTh = [
         "slot": "พาสซีฟ 2",
         "slotEn": "Passive 2",
         "unlockStar": 6,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr043_6.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr043_6.webp",
         "type": "พาสซีฟ",
         "mainStat": null,
         "gcd": null,
@@ -4053,7 +4053,7 @@ export const gsaCharactersTh = [
         "slot": "อัลติเมท",
         "slotEn": "Ultimate",
         "unlockStar": 2,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr043_4.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr043_4.webp",
         "type": "ทันที",
         "mainStat": null,
         "gcd": null,
@@ -4313,24 +4313,24 @@ export const gsaCharactersTh = [
     "epithet": "ชิปไร้ที่สิ้นสุด ร่างกายทองคำล้ำค่า",
     "sex": "เพศหญิง",
     "inGacha": true,
-    "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/cr044_Icon_Texture.webp",
+    "icon": "https://img.gachawiki.info/gene-sys-adam/cr044_Icon_Texture.webp",
     "sortOrder": 44,
     "rarity": "SSR",
     "element": {
       "id": 6,
       "name": "มืด",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/battleelement_6.webp"
+      "icon": "https://img.gachawiki.info/gene-sys-adam/battleelement_6.webp"
     },
     "job": {
       "id": 1,
       "name": "ป้องกัน",
       "color": "#957C7A",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/guard_6.webp"
+      "icon": "https://img.gachawiki.info/gene-sys-adam/guard_6.webp"
     },
     "attackType": {
       "id": 2,
       "name": "能量",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Attributes_01.webp"
+      "icon": "https://img.gachawiki.info/gene-sys-adam/Attributes_01.webp"
     },
     "skills": [
       {
@@ -4339,7 +4339,7 @@ export const gsaCharactersTh = [
         "slot": "โจมตีปกติ",
         "slotEn": "Basic Attack",
         "unlockStar": 0,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr044_1.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr044_1.webp",
         "type": "ทันที",
         "mainStat": null,
         "gcd": "10s",
@@ -4355,7 +4355,7 @@ export const gsaCharactersTh = [
         "slot": "พรสวรรค์",
         "slotEn": "Talent",
         "unlockStar": 0,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr044_2.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr044_2.webp",
         "type": "ทันที",
         "mainStat": null,
         "gcd": null,
@@ -4378,7 +4378,7 @@ export const gsaCharactersTh = [
         "slot": "อัตโนมัติ",
         "slotEn": "Auto",
         "unlockStar": 1,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr044_3.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr044_3.webp",
         "type": "ทันที",
         "mainStat": null,
         "gcd": null,
@@ -4400,7 +4400,7 @@ export const gsaCharactersTh = [
         "slot": "พาสซีฟ 1",
         "slotEn": "Passive 1",
         "unlockStar": 4,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr044_5.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr044_5.webp",
         "type": "พาสซีฟ",
         "mainStat": null,
         "gcd": null,
@@ -4420,7 +4420,7 @@ export const gsaCharactersTh = [
         "slot": "พาสซีฟ 2",
         "slotEn": "Passive 2",
         "unlockStar": 6,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr044_6.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr044_6.webp",
         "type": "พาสซีฟ",
         "mainStat": null,
         "gcd": null,
@@ -4440,7 +4440,7 @@ export const gsaCharactersTh = [
         "slot": "อัลติเมท",
         "slotEn": "Ultimate",
         "unlockStar": 2,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr044_4.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr044_4.webp",
         "type": "ทันที",
         "mainStat": null,
         "gcd": null,
@@ -4693,19 +4693,19 @@ export const gsaCharactersTh = [
     "epithet": "สมมติฐานเคลื่อนที่นิรันดร์ เสริมฤทธิ์ยา",
     "sex": "เพศหญิง",
     "inGacha": true,
-    "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/cr045_Icon_Texture.webp",
+    "icon": "https://img.gachawiki.info/gene-sys-adam/cr045_Icon_Texture.webp",
     "sortOrder": 45,
     "rarity": "SSR",
     "element": {
       "id": 6,
       "name": "มืด",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/battleelement_6.webp"
+      "icon": "https://img.gachawiki.info/gene-sys-adam/battleelement_6.webp"
     },
-    "job": {"id": 4, "name": "สนับสนุน", "color": "#33EA62", "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/priest_6.webp" },
+    "job": {"id": 4, "name": "สนับสนุน", "color": "#33EA62", "icon": "https://img.gachawiki.info/gene-sys-adam/priest_6.webp" },
     "attackType": {
       "id": 2,
       "name": "能量",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Attributes_01.webp"
+      "icon": "https://img.gachawiki.info/gene-sys-adam/Attributes_01.webp"
     },
     "skills": [
       {
@@ -4714,7 +4714,7 @@ export const gsaCharactersTh = [
         "slot": "โจมตีปกติ",
         "slotEn": "Basic Attack",
         "unlockStar": 0,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr045_1.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr045_1.webp",
         "type": "ทันที",
         "mainStat": null,
         "gcd": "10s",
@@ -4730,7 +4730,7 @@ export const gsaCharactersTh = [
         "slot": "พรสวรรค์",
         "slotEn": "Talent",
         "unlockStar": 0,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr045_2.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr045_2.webp",
         "type": "ทันที",
         "mainStat": null,
         "gcd": null,
@@ -4753,7 +4753,7 @@ export const gsaCharactersTh = [
         "slot": "อัตโนมัติ",
         "slotEn": "Auto",
         "unlockStar": 1,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr045_3.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr045_3.webp",
         "type": "ทันที",
         "mainStat": null,
         "gcd": null,
@@ -4775,7 +4775,7 @@ export const gsaCharactersTh = [
         "slot": "พาสซีฟ 1",
         "slotEn": "Passive 1",
         "unlockStar": 4,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr045_5.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr045_5.webp",
         "type": "พาสซีฟ",
         "mainStat": null,
         "gcd": null,
@@ -4797,7 +4797,7 @@ export const gsaCharactersTh = [
         "slot": "พาสซีฟ 2",
         "slotEn": "Passive 2",
         "unlockStar": 6,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr045_6.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr045_6.webp",
         "type": "พาสซีฟ",
         "mainStat": null,
         "gcd": null,
@@ -4817,7 +4817,7 @@ export const gsaCharactersTh = [
         "slot": "อัลติเมท",
         "slotEn": "Ultimate",
         "unlockStar": 2,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr045_4.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr045_4.webp",
         "type": "ทันที",
         "mainStat": null,
         "gcd": null,
@@ -5077,24 +5077,24 @@ export const gsaCharactersTh = [
     "epithet": "ร่างกายมาโซคิสม์ หัวใจแห่งความเจ็บปวด",
     "sex": "เพศหญิง",
     "inGacha": true,
-    "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/cr046_Icon_Texture.webp",
+    "icon": "https://img.gachawiki.info/gene-sys-adam/cr046_Icon_Texture.webp",
     "sortOrder": 46,
     "rarity": "SSR",
     "element": {
       "id": 6,
       "name": "มืด",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/battleelement_6.webp"
+      "icon": "https://img.gachawiki.info/gene-sys-adam/battleelement_6.webp"
     },
     "job": {
       "id": 2,
       "name": "จู่โจม",
       "color": "#EA3333",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/fighters_6.webp"
+      "icon": "https://img.gachawiki.info/gene-sys-adam/fighters_6.webp"
     },
     "attackType": {
       "id": 1,
       "name": "物理",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Attributes_02.webp"
+      "icon": "https://img.gachawiki.info/gene-sys-adam/Attributes_02.webp"
     },
     "skills": [
       {
@@ -5103,7 +5103,7 @@ export const gsaCharactersTh = [
         "slot": "โจมตีปกติ",
         "slotEn": "Basic Attack",
         "unlockStar": 0,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr046_1.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr046_1.webp",
         "type": "ทันที",
         "mainStat": null,
         "gcd": "10s",
@@ -5119,7 +5119,7 @@ export const gsaCharactersTh = [
         "slot": "พรสวรรค์",
         "slotEn": "Talent",
         "unlockStar": 0,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr046_2.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr046_2.webp",
         "type": "ทันที",
         "mainStat": null,
         "gcd": null,
@@ -5139,7 +5139,7 @@ export const gsaCharactersTh = [
         "slot": "อัตโนมัติ",
         "slotEn": "Auto",
         "unlockStar": 1,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr046_3.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr046_3.webp",
         "type": "ทันที",
         "mainStat": null,
         "gcd": null,
@@ -5161,7 +5161,7 @@ export const gsaCharactersTh = [
         "slot": "พาสซีฟ 1",
         "slotEn": "Passive 1",
         "unlockStar": 4,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr046_5.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr046_5.webp",
         "type": "พาสซีฟ",
         "mainStat": null,
         "gcd": null,
@@ -5181,7 +5181,7 @@ export const gsaCharactersTh = [
         "slot": "พาสซีฟ 2",
         "slotEn": "Passive 2",
         "unlockStar": 6,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr046_6.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr046_6.webp",
         "type": "พาสซีฟ",
         "mainStat": null,
         "gcd": null,
@@ -5201,7 +5201,7 @@ export const gsaCharactersTh = [
         "slot": "อัลติเมท",
         "slotEn": "Ultimate",
         "unlockStar": 2,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr046_4.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr046_4.webp",
         "type": "ทันที",
         "mainStat": null,
         "gcd": null,
@@ -5461,24 +5461,24 @@ export const gsaCharactersTh = [
     "epithet": "การเคลื่อนไหวขั้นสุดขีด กระสุนเงินพิพากษา",
     "sex": "เพศหญิง",
     "inGacha": true,
-    "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/cr047_Icon_Texture.webp",
+    "icon": "https://img.gachawiki.info/gene-sys-adam/cr047_Icon_Texture.webp",
     "sortOrder": 47,
     "rarity": "SSR",
     "element": {
       "id": 5,
       "name": "แสง",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/battleelement_5.webp"
+      "icon": "https://img.gachawiki.info/gene-sys-adam/battleelement_5.webp"
     },
     "job": {
       "id": 1,
       "name": "ป้องกัน",
       "color": "#957C7A",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/guard_5.webp"
+      "icon": "https://img.gachawiki.info/gene-sys-adam/guard_5.webp"
     },
     "attackType": {
       "id": 2,
       "name": "能量",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Attributes_01.webp"
+      "icon": "https://img.gachawiki.info/gene-sys-adam/Attributes_01.webp"
     },
     "skills": [
       {
@@ -5487,7 +5487,7 @@ export const gsaCharactersTh = [
         "slot": "โจมตีปกติ",
         "slotEn": "Basic Attack",
         "unlockStar": 0,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr047_1.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr047_1.webp",
         "type": "ทันที",
         "mainStat": null,
         "gcd": "10s",
@@ -5503,7 +5503,7 @@ export const gsaCharactersTh = [
         "slot": "พรสวรรค์",
         "slotEn": "Talent",
         "unlockStar": 0,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr047_2.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr047_2.webp",
         "type": "ทันที",
         "mainStat": null,
         "gcd": null,
@@ -5525,7 +5525,7 @@ export const gsaCharactersTh = [
         "slot": "อัตโนมัติ",
         "slotEn": "Auto",
         "unlockStar": 1,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr047_3.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr047_3.webp",
         "type": "ทันที",
         "mainStat": null,
         "gcd": null,
@@ -5547,7 +5547,7 @@ export const gsaCharactersTh = [
         "slot": "พาสซีฟ 1",
         "slotEn": "Passive 1",
         "unlockStar": 4,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr047_5.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr047_5.webp",
         "type": "พาสซีฟ",
         "mainStat": null,
         "gcd": null,
@@ -5569,7 +5569,7 @@ export const gsaCharactersTh = [
         "slot": "พาสซีฟ 2",
         "slotEn": "Passive 2",
         "unlockStar": 6,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr047_6.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr047_6.webp",
         "type": "พาสซีฟ",
         "mainStat": null,
         "gcd": null,
@@ -5589,7 +5589,7 @@ export const gsaCharactersTh = [
         "slot": "อัลติเมท",
         "slotEn": "Ultimate",
         "unlockStar": 2,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr047_4.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr047_4.webp",
         "type": "ทันที",
         "mainStat": null,
         "gcd": null,
@@ -5844,19 +5844,19 @@ export const gsaCharactersTh = [
     "epithet": "ตัดสินบาป แสงแห่งความยุติธรรม",
     "sex": "เพศหญิง",
     "inGacha": true,
-    "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/cr048_Icon_Texture.webp",
+    "icon": "https://img.gachawiki.info/gene-sys-adam/cr048_Icon_Texture.webp",
     "sortOrder": 48,
     "rarity": "SSR",
     "element": {
       "id": 5,
       "name": "แสง",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/battleelement_5.webp"
+      "icon": "https://img.gachawiki.info/gene-sys-adam/battleelement_5.webp"
     },
-    "job": {"id": 3, "name": "สไนเปอร์", "color": "#FFC405", "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/archer_5.webp" },
+    "job": {"id": 3, "name": "สไนเปอร์", "color": "#FFC405", "icon": "https://img.gachawiki.info/gene-sys-adam/archer_5.webp" },
     "attackType": {
       "id": 2,
       "name": "能量",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Attributes_01.webp"
+      "icon": "https://img.gachawiki.info/gene-sys-adam/Attributes_01.webp"
     },
     "skills": [
       {
@@ -5865,7 +5865,7 @@ export const gsaCharactersTh = [
         "slot": "โจมตีปกติ",
         "slotEn": "Basic Attack",
         "unlockStar": 0,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr048_1.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr048_1.webp",
         "type": "ทันที",
         "mainStat": null,
         "gcd": "10s",
@@ -5881,7 +5881,7 @@ export const gsaCharactersTh = [
         "slot": "พรสวรรค์",
         "slotEn": "Talent",
         "unlockStar": 0,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr048_2.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr048_2.webp",
         "type": "ทันที",
         "mainStat": null,
         "gcd": null,
@@ -5903,7 +5903,7 @@ export const gsaCharactersTh = [
         "slot": "อัตโนมัติ",
         "slotEn": "Auto",
         "unlockStar": 1,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr048_3.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr048_3.webp",
         "type": "ทันที",
         "mainStat": null,
         "gcd": null,
@@ -5925,7 +5925,7 @@ export const gsaCharactersTh = [
         "slot": "พาสซีฟ 1",
         "slotEn": "Passive 1",
         "unlockStar": 4,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr048_5.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr048_5.webp",
         "type": "พาสซีฟ",
         "mainStat": null,
         "gcd": null,
@@ -5945,7 +5945,7 @@ export const gsaCharactersTh = [
         "slot": "พาสซีฟ 2",
         "slotEn": "Passive 2",
         "unlockStar": 6,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr048_6.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr048_6.webp",
         "type": "พาสซีฟ",
         "mainStat": null,
         "gcd": null,
@@ -5965,7 +5965,7 @@ export const gsaCharactersTh = [
         "slot": "อัลติเมท",
         "slotEn": "Ultimate",
         "unlockStar": 2,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr048_4.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr048_4.webp",
         "type": "ทันที",
         "mainStat": null,
         "gcd": null,
@@ -6225,24 +6225,24 @@ export const gsaCharactersTh = [
     "epithet": "จู่โจมกระดูกหัก ประสาทสัมผัสแข็งเป็นหิน",
     "sex": "เพศหญิง",
     "inGacha": true,
-    "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/cr049_Icon_Texture.webp",
+    "icon": "https://img.gachawiki.info/gene-sys-adam/cr049_Icon_Texture.webp",
     "sortOrder": 49,
     "rarity": "SSR",
     "element": {
       "id": 2,
       "name": "ดิน",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/battleelement_2.webp"
+      "icon": "https://img.gachawiki.info/gene-sys-adam/battleelement_2.webp"
     },
     "job": {
       "id": 2,
       "name": "จู่โจม",
       "color": "#EA3333",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/fighters_2.webp"
+      "icon": "https://img.gachawiki.info/gene-sys-adam/fighters_2.webp"
     },
     "attackType": {
       "id": 1,
       "name": "物理",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Attributes_02.webp"
+      "icon": "https://img.gachawiki.info/gene-sys-adam/Attributes_02.webp"
     },
     "skills": [
       {
@@ -6251,7 +6251,7 @@ export const gsaCharactersTh = [
         "slot": "โจมตีปกติ",
         "slotEn": "Basic Attack",
         "unlockStar": 0,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr049_1.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr049_1.webp",
         "type": "ทันที",
         "mainStat": null,
         "gcd": "10s",
@@ -6267,7 +6267,7 @@ export const gsaCharactersTh = [
         "slot": "พรสวรรค์",
         "slotEn": "Talent",
         "unlockStar": 0,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr049_2.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr049_2.webp",
         "type": "ทันที",
         "mainStat": null,
         "gcd": null,
@@ -6289,7 +6289,7 @@ export const gsaCharactersTh = [
         "slot": "อัตโนมัติ",
         "slotEn": "Auto",
         "unlockStar": 1,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr049_3.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr049_3.webp",
         "type": "ทันที",
         "mainStat": null,
         "gcd": null,
@@ -6309,7 +6309,7 @@ export const gsaCharactersTh = [
         "slot": "พาสซีฟ 1",
         "slotEn": "Passive 1",
         "unlockStar": 4,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr049_5.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr049_5.webp",
         "type": "พาสซีฟ",
         "mainStat": null,
         "gcd": null,
@@ -6329,7 +6329,7 @@ export const gsaCharactersTh = [
         "slot": "พาสซีฟ 2",
         "slotEn": "Passive 2",
         "unlockStar": 6,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr049_6.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr049_6.webp",
         "type": "พาสซีฟ",
         "mainStat": null,
         "gcd": null,
@@ -6349,7 +6349,7 @@ export const gsaCharactersTh = [
         "slot": "อัลติเมท",
         "slotEn": "Ultimate",
         "unlockStar": 2,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr049_4.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr049_4.webp",
         "type": "ทันที",
         "mainStat": null,
         "gcd": null,
@@ -6605,19 +6605,19 @@ export const gsaCharactersTh = [
     "epithet": "หมื่นบุปผานกยูง ระบำคลั่งลูกกระสุน",
     "sex": "เพศหญิง",
     "inGacha": true,
-    "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/cr050_Icon_Texture.webp",
+    "icon": "https://img.gachawiki.info/gene-sys-adam/cr050_Icon_Texture.webp",
     "sortOrder": 50,
     "rarity": "SSR",
     "element": {
       "id": 3,
       "name": "ลม",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/battleelement_3.webp"
+      "icon": "https://img.gachawiki.info/gene-sys-adam/battleelement_3.webp"
     },
-    "job": {"id": 5, "name": "ทำลาย", "color": "#9433EA", "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/master_3.webp" },
+    "job": {"id": 5, "name": "ทำลาย", "color": "#9433EA", "icon": "https://img.gachawiki.info/gene-sys-adam/master_3.webp" },
     "attackType": {
       "id": 2,
       "name": "能量",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Attributes_01.webp"
+      "icon": "https://img.gachawiki.info/gene-sys-adam/Attributes_01.webp"
     },
     "skills": [
       {
@@ -6626,7 +6626,7 @@ export const gsaCharactersTh = [
         "slot": "โจมตีปกติ",
         "slotEn": "Basic Attack",
         "unlockStar": 0,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr050_1.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr050_1.webp",
         "type": "ทันที",
         "mainStat": null,
         "gcd": "10s",
@@ -6642,7 +6642,7 @@ export const gsaCharactersTh = [
         "slot": "พรสวรรค์",
         "slotEn": "Talent",
         "unlockStar": 0,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr050_2.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr050_2.webp",
         "type": "ทันที",
         "mainStat": null,
         "gcd": null,
@@ -6664,7 +6664,7 @@ export const gsaCharactersTh = [
         "slot": "อัตโนมัติ",
         "slotEn": "Auto",
         "unlockStar": 1,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr050_3.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr050_3.webp",
         "type": "ทันที",
         "mainStat": null,
         "gcd": null,
@@ -6687,7 +6687,7 @@ export const gsaCharactersTh = [
         "slot": "พาสซีฟ 1",
         "slotEn": "Passive 1",
         "unlockStar": 4,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr050_5.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr050_5.webp",
         "type": "พาสซีฟ",
         "mainStat": null,
         "gcd": null,
@@ -6707,7 +6707,7 @@ export const gsaCharactersTh = [
         "slot": "พาสซีฟ 2",
         "slotEn": "Passive 2",
         "unlockStar": 6,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr050_6.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr050_6.webp",
         "type": "พาสซีฟ",
         "mainStat": null,
         "gcd": null,
@@ -6727,7 +6727,7 @@ export const gsaCharactersTh = [
         "slot": "อัลติเมท",
         "slotEn": "Ultimate",
         "unlockStar": 2,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr050_4.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr050_4.webp",
         "type": "ทันที",
         "mainStat": null,
         "gcd": null,
@@ -6988,24 +6988,24 @@ export const gsaCharactersTh = [
     "epithet": "อธิษฐานความเย้ายวน แสงแห่งการผิดศีลธรรม",
     "sex": "เพศหญิง",
     "inGacha": true,
-    "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/cr051_Icon_Texture1.webp",
+    "icon": "https://img.gachawiki.info/gene-sys-adam/cr051_Icon_Texture1.webp",
     "sortOrder": 51,
     "rarity": "SSR",
     "element": {
       "id": 5,
       "name": "แสง",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/battleelement_5.webp"
+      "icon": "https://img.gachawiki.info/gene-sys-adam/battleelement_5.webp"
     },
     "job": {
       "id": 2,
       "name": "จู่โจม",
       "color": "#EA3333",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/fighters_5.webp"
+      "icon": "https://img.gachawiki.info/gene-sys-adam/fighters_5.webp"
     },
     "attackType": {
       "id": 2,
       "name": "能量",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Attributes_01.webp"
+      "icon": "https://img.gachawiki.info/gene-sys-adam/Attributes_01.webp"
     },
     "skills": [
       {
@@ -7014,7 +7014,7 @@ export const gsaCharactersTh = [
         "slot": "โจมตีปกติ",
         "slotEn": "Basic Attack",
         "unlockStar": 0,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr051_1.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr051_1.webp",
         "type": "ทันที",
         "mainStat": null,
         "gcd": "10s",
@@ -7030,7 +7030,7 @@ export const gsaCharactersTh = [
         "slot": "พรสวรรค์",
         "slotEn": "Talent",
         "unlockStar": 0,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr051_2.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr051_2.webp",
         "type": "ทันที",
         "mainStat": null,
         "gcd": null,
@@ -7052,7 +7052,7 @@ export const gsaCharactersTh = [
         "slot": "อัตโนมัติ",
         "slotEn": "Auto",
         "unlockStar": 1,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr051_3.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr051_3.webp",
         "type": "ทันที",
         "mainStat": null,
         "gcd": null,
@@ -7074,7 +7074,7 @@ export const gsaCharactersTh = [
         "slot": "พาสซีฟ 1",
         "slotEn": "Passive 1",
         "unlockStar": 4,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr051_5.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr051_5.webp",
         "type": "พาสซีฟ",
         "mainStat": null,
         "gcd": null,
@@ -7094,7 +7094,7 @@ export const gsaCharactersTh = [
         "slot": "พาสซีฟ 2",
         "slotEn": "Passive 2",
         "unlockStar": 6,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr051_6.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr051_6.webp",
         "type": "พาสซีฟ",
         "mainStat": null,
         "gcd": null,
@@ -7114,7 +7114,7 @@ export const gsaCharactersTh = [
         "slot": "อัลติเมท",
         "slotEn": "Ultimate",
         "unlockStar": 2,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr051_4.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr051_4.webp",
         "type": "ทันที",
         "mainStat": null,
         "gcd": null,
@@ -7373,24 +7373,24 @@ export const gsaCharactersTh = [
     "epithet": "คลายเส้นกระดูก ลมปราณและเลือดลมเต็มเปี่ยม",
     "sex": "เพศหญิง",
     "inGacha": true,
-    "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/cr053_Icon_Texture.webp",
+    "icon": "https://img.gachawiki.info/gene-sys-adam/cr053_Icon_Texture.webp",
     "sortOrder": 53,
     "rarity": "SSR",
     "element": {
       "id": 4,
       "name": "น้ำ",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/battleelement_4.webp"
+      "icon": "https://img.gachawiki.info/gene-sys-adam/battleelement_4.webp"
     },
     "job": {
       "id": 4,
       "name": "สนับสนุน",
       "color": "#33EA62",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/priest_4.webp"
+      "icon": "https://img.gachawiki.info/gene-sys-adam/priest_4.webp"
     },
     "attackType": {
       "id": 2,
       "name": "能量",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Attributes_01.webp"
+      "icon": "https://img.gachawiki.info/gene-sys-adam/Attributes_01.webp"
     },
     "skills": [
       {
@@ -7399,7 +7399,7 @@ export const gsaCharactersTh = [
         "slot": "โจมตีปกติ",
         "slotEn": "Basic Attack",
         "unlockStar": 0,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr053_1.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr053_1.webp",
         "type": "ทันที",
         "mainStat": null,
         "gcd": "10s",
@@ -7415,7 +7415,7 @@ export const gsaCharactersTh = [
         "slot": "พรสวรรค์",
         "slotEn": "Talent",
         "unlockStar": 0,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr053_2.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr053_2.webp",
         "type": "ทันที",
         "mainStat": null,
         "gcd": null,
@@ -7437,7 +7437,7 @@ export const gsaCharactersTh = [
         "slot": "อัตโนมัติ",
         "slotEn": "Auto",
         "unlockStar": 1,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr053_3.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr053_3.webp",
         "type": "ทันที",
         "mainStat": null,
         "gcd": null,
@@ -7460,7 +7460,7 @@ export const gsaCharactersTh = [
         "slot": "พาสซีฟ 1",
         "slotEn": "Passive 1",
         "unlockStar": 4,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr053_5.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr053_5.webp",
         "type": "พาสซีฟ",
         "mainStat": null,
         "gcd": null,
@@ -7480,7 +7480,7 @@ export const gsaCharactersTh = [
         "slot": "พาสซีฟ 2",
         "slotEn": "Passive 2",
         "unlockStar": 6,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr053_6.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr053_6.webp",
         "type": "พาสซีฟ",
         "mainStat": null,
         "gcd": null,
@@ -7500,7 +7500,7 @@ export const gsaCharactersTh = [
         "slot": "อัลติเมท",
         "slotEn": "Ultimate",
         "unlockStar": 2,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr053_4.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr053_4.webp",
         "type": "ทันที",
         "mainStat": null,
         "gcd": null,
@@ -7760,24 +7760,24 @@ export const gsaCharactersTh = [
     "epithet": "นักล่าชายเต็มวัย รีดจนแห้ง",
     "sex": "เพศหญิง",
     "inGacha": true,
-    "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/cr054_Icon_Texture.webp",
+    "icon": "https://img.gachawiki.info/gene-sys-adam/cr054_Icon_Texture.webp",
     "sortOrder": 54,
     "rarity": "SSR",
     "element": {
       "id": 1,
       "name": "ไฟ",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/battleelement_1.webp"
+      "icon": "https://img.gachawiki.info/gene-sys-adam/battleelement_1.webp"
     },
     "job": {
       "id": 3,
       "name": "สไนเปอร์",
       "color": "#FFC405",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/archer_1.webp"
+      "icon": "https://img.gachawiki.info/gene-sys-adam/archer_1.webp"
     },
     "attackType": {
       "id": 1,
       "name": "物理",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Attributes_02.webp"
+      "icon": "https://img.gachawiki.info/gene-sys-adam/Attributes_02.webp"
     },
     "skills": [
       {
@@ -7786,7 +7786,7 @@ export const gsaCharactersTh = [
         "slot": "โจมตีปกติ",
         "slotEn": "Basic Attack",
         "unlockStar": 0,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr054_1.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr054_1.webp",
         "type": "ทันที",
         "mainStat": null,
         "gcd": "10s",
@@ -7802,7 +7802,7 @@ export const gsaCharactersTh = [
         "slot": "พรสวรรค์",
         "slotEn": "Talent",
         "unlockStar": 0,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr054_2.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr054_2.webp",
         "type": "ทันที",
         "mainStat": null,
         "gcd": null,
@@ -7824,7 +7824,7 @@ export const gsaCharactersTh = [
         "slot": "อัตโนมัติ",
         "slotEn": "Auto",
         "unlockStar": 1,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr054_3.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr054_3.webp",
         "type": "ทันที",
         "mainStat": null,
         "gcd": null,
@@ -7847,7 +7847,7 @@ export const gsaCharactersTh = [
         "slot": "พาสซีฟ 1",
         "slotEn": "Passive 1",
         "unlockStar": 4,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr054_5.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr054_5.webp",
         "type": "พาสซีฟ",
         "mainStat": null,
         "gcd": null,
@@ -7867,7 +7867,7 @@ export const gsaCharactersTh = [
         "slot": "พาสซีฟ 2",
         "slotEn": "Passive 2",
         "unlockStar": 6,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr054_6.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr054_6.webp",
         "type": "พาสซีฟ",
         "mainStat": null,
         "gcd": null,
@@ -7887,7 +7887,7 @@ export const gsaCharactersTh = [
         "slot": "อัลติเมท",
         "slotEn": "Ultimate",
         "unlockStar": 2,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr054_4.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr054_4.webp",
         "type": "ทันที",
         "mainStat": null,
         "gcd": null,
@@ -8146,19 +8146,19 @@ export const gsaCharactersTh = [
     "epithet": "เปลวไฟร้อนระอุ คำนวนฟ้าลิขิตอันแยบยล",
     "sex": "เพศหญิง",
     "inGacha": true,
-    "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/cr055_Icon_Texture.webp",
+    "icon": "https://img.gachawiki.info/gene-sys-adam/cr055_Icon_Texture.webp",
     "sortOrder": 55,
     "rarity": "SSR",
     "element": {
       "id": 1,
       "name": "ไฟ",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/battleelement_1.webp"
+      "icon": "https://img.gachawiki.info/gene-sys-adam/battleelement_1.webp"
     },
-    "job": {"id": 3, "name": "สไนเปอร์", "color": "#FFC405", "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/archer_1.webp" },
+    "job": {"id": 3, "name": "สไนเปอร์", "color": "#FFC405", "icon": "https://img.gachawiki.info/gene-sys-adam/archer_1.webp" },
     "attackType": {
       "id": 2,
       "name": "能量",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Attributes_01.webp"
+      "icon": "https://img.gachawiki.info/gene-sys-adam/Attributes_01.webp"
     },
     "skills": [
       {
@@ -8167,7 +8167,7 @@ export const gsaCharactersTh = [
         "slot": "โจมตีปกติ",
         "slotEn": "Basic Attack",
         "unlockStar": 0,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr055_1.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr055_1.webp",
         "type": "ทันที",
         "mainStat": null,
         "gcd": "9s",
@@ -8183,7 +8183,7 @@ export const gsaCharactersTh = [
         "slot": "พรสวรรค์",
         "slotEn": "Talent",
         "unlockStar": 0,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr055_2.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr055_2.webp",
         "type": "ทันที",
         "mainStat": null,
         "gcd": null,
@@ -8206,7 +8206,7 @@ export const gsaCharactersTh = [
         "slot": "อัตโนมัติ",
         "slotEn": "Auto",
         "unlockStar": 1,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr055_3.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr055_3.webp",
         "type": "ทันที",
         "mainStat": null,
         "gcd": null,
@@ -8228,7 +8228,7 @@ export const gsaCharactersTh = [
         "slot": "พาสซีฟ 1",
         "slotEn": "Passive 1",
         "unlockStar": 4,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr055_5.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr055_5.webp",
         "type": "พาสซีฟ",
         "mainStat": null,
         "gcd": null,
@@ -8248,7 +8248,7 @@ export const gsaCharactersTh = [
         "slot": "พาสซีฟ 2",
         "slotEn": "Passive 2",
         "unlockStar": 6,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr055_6.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr055_6.webp",
         "type": "พาสซีฟ",
         "mainStat": null,
         "gcd": null,
@@ -8268,7 +8268,7 @@ export const gsaCharactersTh = [
         "slot": "อัลติเมท",
         "slotEn": "Ultimate",
         "unlockStar": 2,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr055_4.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr055_4.webp",
         "type": "ทันที",
         "mainStat": null,
         "gcd": null,
@@ -8533,19 +8533,19 @@ export const gsaCharactersTh = [
     "epithet": "ท่วงทำนองเคลื่อนไหว จังหวะหัวใจไฟฟ้า",
     "sex": "เพศหญิง",
     "inGacha": false,
-    "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/cr056_Icon_Texture.webp",
+    "icon": "https://img.gachawiki.info/gene-sys-adam/cr056_Icon_Texture.webp",
     "sortOrder": 56,
     "rarity": "SSR",
     "element": {
       "id": 3,
       "name": "ลม",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/battleelement_3.webp"
+      "icon": "https://img.gachawiki.info/gene-sys-adam/battleelement_3.webp"
     },
-    "job": {"id": 3, "name": "สไนเปอร์", "color": "#FFC405", "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/archer_3.webp" },
+    "job": {"id": 3, "name": "สไนเปอร์", "color": "#FFC405", "icon": "https://img.gachawiki.info/gene-sys-adam/archer_3.webp" },
     "attackType": {
       "id": 1,
       "name": "物理",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Attributes_02.webp"
+      "icon": "https://img.gachawiki.info/gene-sys-adam/Attributes_02.webp"
     },
     "skills": [
       {
@@ -8554,7 +8554,7 @@ export const gsaCharactersTh = [
         "slot": "โจมตีปกติ",
         "slotEn": "Basic Attack",
         "unlockStar": 0,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr056_1.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr056_1.webp",
         "type": "ทันที",
         "mainStat": null,
         "gcd": "10s",
@@ -8570,7 +8570,7 @@ export const gsaCharactersTh = [
         "slot": "พรสวรรค์",
         "slotEn": "Talent",
         "unlockStar": 0,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr056_2.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr056_2.webp",
         "type": "ทันที",
         "mainStat": null,
         "gcd": null,
@@ -8592,7 +8592,7 @@ export const gsaCharactersTh = [
         "slot": "อัตโนมัติ",
         "slotEn": "Auto",
         "unlockStar": 1,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr056_3.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr056_3.webp",
         "type": "ทันที",
         "mainStat": null,
         "gcd": null,
@@ -8614,7 +8614,7 @@ export const gsaCharactersTh = [
         "slot": "พาสซีฟ 1",
         "slotEn": "Passive 1",
         "unlockStar": 4,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr056_5.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr056_5.webp",
         "type": "พาสซีฟ",
         "mainStat": null,
         "gcd": null,
@@ -8634,7 +8634,7 @@ export const gsaCharactersTh = [
         "slot": "พาสซีฟ 2",
         "slotEn": "Passive 2",
         "unlockStar": 6,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr056_6.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr056_6.webp",
         "type": "พาสซีฟ",
         "mainStat": null,
         "gcd": null,
@@ -8654,7 +8654,7 @@ export const gsaCharactersTh = [
         "slot": "อัลติเมท",
         "slotEn": "Ultimate",
         "unlockStar": 2,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr056_4.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr056_4.webp",
         "type": "ทันที",
         "mainStat": null,
         "gcd": null,
@@ -8914,24 +8914,24 @@ export const gsaCharactersTh = [
     "epithet": "หลบหลีกปรับลมหายใจ ลมหมัดคมกริบ",
     "sex": "เพศหญิง",
     "inGacha": true,
-    "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/cr057_Icon_Texture.webp",
+    "icon": "https://img.gachawiki.info/gene-sys-adam/cr057_Icon_Texture.webp",
     "sortOrder": 57,
     "rarity": "SSR",
     "element": {
       "id": 4,
       "name": "น้ำ",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/battleelement_4.webp"
+      "icon": "https://img.gachawiki.info/gene-sys-adam/battleelement_4.webp"
     },
     "job": {
       "id": 1,
       "name": "ป้องกัน",
       "color": "#957C7A",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/guard_4.webp"
+      "icon": "https://img.gachawiki.info/gene-sys-adam/guard_4.webp"
     },
     "attackType": {
       "id": 1,
       "name": "物理",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Attributes_02.webp"
+      "icon": "https://img.gachawiki.info/gene-sys-adam/Attributes_02.webp"
     },
     "skills": [
       {
@@ -8940,7 +8940,7 @@ export const gsaCharactersTh = [
         "slot": "โจมตีปกติ",
         "slotEn": "Basic Attack",
         "unlockStar": 0,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr057_1.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr057_1.webp",
         "type": "ทันที",
         "mainStat": null,
         "gcd": "2.4s",
@@ -8956,7 +8956,7 @@ export const gsaCharactersTh = [
         "slot": "พรสวรรค์",
         "slotEn": "Talent",
         "unlockStar": 0,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr057_2.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr057_2.webp",
         "type": "ทันที",
         "mainStat": null,
         "gcd": null,
@@ -8979,7 +8979,7 @@ export const gsaCharactersTh = [
         "slot": "อัตโนมัติ",
         "slotEn": "Auto",
         "unlockStar": 1,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr057_3.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr057_3.webp",
         "type": "ทันที",
         "mainStat": null,
         "gcd": null,
@@ -9001,7 +9001,7 @@ export const gsaCharactersTh = [
         "slot": "พาสซีฟ 1",
         "slotEn": "Passive 1",
         "unlockStar": 4,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr057_5.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr057_5.webp",
         "type": "พาสซีฟ",
         "mainStat": null,
         "gcd": null,
@@ -9021,7 +9021,7 @@ export const gsaCharactersTh = [
         "slot": "พาสซีฟ 2",
         "slotEn": "Passive 2",
         "unlockStar": 6,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr057_6.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr057_6.webp",
         "type": "พาสซีฟ",
         "mainStat": null,
         "gcd": null,
@@ -9041,7 +9041,7 @@ export const gsaCharactersTh = [
         "slot": "อัลติเมท",
         "slotEn": "Ultimate",
         "unlockStar": 2,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr057_4.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr057_4.webp",
         "type": "ทันที",
         "mainStat": null,
         "gcd": null,
@@ -9298,24 +9298,24 @@ export const gsaCharactersTh = [
     "epithet": "มังกรข้ามแม่น้ำ ก้องกังวานฟ้าผ่า",
     "sex": "เพศหญิง",
     "inGacha": true,
-    "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/cr058_Icon_Texture.webp",
+    "icon": "https://img.gachawiki.info/gene-sys-adam/cr058_Icon_Texture.webp",
     "sortOrder": 58,
     "rarity": "SSR",
     "element": {
       "id": 3,
       "name": "ลม",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/battleelement_3.webp"
+      "icon": "https://img.gachawiki.info/gene-sys-adam/battleelement_3.webp"
     },
     "job": {
       "id": 2,
       "name": "จู่โจม",
       "color": "#EA3333",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/fighters_3.webp"
+      "icon": "https://img.gachawiki.info/gene-sys-adam/fighters_3.webp"
     },
     "attackType": {
       "id": 1,
       "name": "物理",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Attributes_02.webp"
+      "icon": "https://img.gachawiki.info/gene-sys-adam/Attributes_02.webp"
     },
     "skills": [
       {
@@ -9324,7 +9324,7 @@ export const gsaCharactersTh = [
         "slot": "โจมตีปกติ",
         "slotEn": "Basic Attack",
         "unlockStar": 0,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr058_1.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr058_1.webp",
         "type": "ทันที",
         "mainStat": null,
         "gcd": "10s",
@@ -9340,7 +9340,7 @@ export const gsaCharactersTh = [
         "slot": "พรสวรรค์",
         "slotEn": "Talent",
         "unlockStar": 0,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr058_2.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr058_2.webp",
         "type": "ทันที",
         "mainStat": null,
         "gcd": null,
@@ -9362,7 +9362,7 @@ export const gsaCharactersTh = [
         "slot": "อัตโนมัติ",
         "slotEn": "Auto",
         "unlockStar": 1,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr058_3.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr058_3.webp",
         "type": "ทันที",
         "mainStat": null,
         "gcd": null,
@@ -9384,7 +9384,7 @@ export const gsaCharactersTh = [
         "slot": "พาสซีฟ 1",
         "slotEn": "Passive 1",
         "unlockStar": 4,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr058_5.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr058_5.webp",
         "type": "พาสซีฟ",
         "mainStat": null,
         "gcd": null,
@@ -9404,7 +9404,7 @@ export const gsaCharactersTh = [
         "slot": "พาสซีฟ 2",
         "slotEn": "Passive 2",
         "unlockStar": 6,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr058_6.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr058_6.webp",
         "type": "พาสซีฟ",
         "mainStat": null,
         "gcd": null,
@@ -9424,7 +9424,7 @@ export const gsaCharactersTh = [
         "slot": "อัลติเมท",
         "slotEn": "Ultimate",
         "unlockStar": 2,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr058_4.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr058_4.webp",
         "type": "ทันที",
         "mainStat": null,
         "gcd": null,
@@ -9642,19 +9642,19 @@ export const gsaCharactersTh = [
     "epithet": "ความกล้าแห่งกระดูกศิลา เข่นฆ่าผู้อ่อนแอ",
     "sex": "เพศชาย",
     "inGacha": false,
-    "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/cr059_Icon_Texture.webp",
+    "icon": "https://img.gachawiki.info/gene-sys-adam/cr059_Icon_Texture.webp",
     "sortOrder": 59,
     "rarity": "SSR",
     "element": {
       "id": 2,
       "name": "ดิน",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/battleelement_2.webp"
+      "icon": "https://img.gachawiki.info/gene-sys-adam/battleelement_2.webp"
     },
-    "job": {"id": 3, "name": "สไนเปอร์", "color": "#FFC405", "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/archer_2.webp" },
+    "job": {"id": 3, "name": "สไนเปอร์", "color": "#FFC405", "icon": "https://img.gachawiki.info/gene-sys-adam/archer_2.webp" },
     "attackType": {
       "id": 1,
       "name": "物理",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Attributes_02.webp"
+      "icon": "https://img.gachawiki.info/gene-sys-adam/Attributes_02.webp"
     },
     "skills": [
       {
@@ -9663,7 +9663,7 @@ export const gsaCharactersTh = [
         "slot": "โจมตีปกติ",
         "slotEn": "Basic Attack",
         "unlockStar": 0,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr059_1.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr059_1.webp",
         "type": "ทันที",
         "mainStat": null,
         "gcd": "10s",
@@ -9679,7 +9679,7 @@ export const gsaCharactersTh = [
         "slot": "พรสวรรค์",
         "slotEn": "Talent",
         "unlockStar": 0,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr059_2.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr059_2.webp",
         "type": "ทันที",
         "mainStat": null,
         "gcd": null,
@@ -9701,7 +9701,7 @@ export const gsaCharactersTh = [
         "slot": "อัตโนมัติ",
         "slotEn": "Auto",
         "unlockStar": 1,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr059_3.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr059_3.webp",
         "type": "ทันที",
         "mainStat": null,
         "gcd": null,
@@ -9724,7 +9724,7 @@ export const gsaCharactersTh = [
         "slot": "พาสซีฟ 1",
         "slotEn": "Passive 1",
         "unlockStar": 4,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr059_5.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr059_5.webp",
         "type": "พาสซีฟ",
         "mainStat": null,
         "gcd": null,
@@ -9744,7 +9744,7 @@ export const gsaCharactersTh = [
         "slot": "พาสซีฟ 2",
         "slotEn": "Passive 2",
         "unlockStar": 6,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr059_6.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr059_6.webp",
         "type": "พาสซีฟ",
         "mainStat": null,
         "gcd": null,
@@ -9764,7 +9764,7 @@ export const gsaCharactersTh = [
         "slot": "อัลติเมท",
         "slotEn": "Ultimate",
         "unlockStar": 2,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr059_4.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr059_4.webp",
         "type": "ทันที",
         "mainStat": null,
         "gcd": null,
@@ -10019,19 +10019,19 @@ export const gsaCharactersTh = [
     "epithet": "เคลิบเคลิ้มอ้อมแอ้ม ปรนนิบัติสุดกำลัง",
     "sex": "เพศหญิง",
     "inGacha": false,
-    "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/cr061_Icon_Texture.webp",
+    "icon": "https://img.gachawiki.info/gene-sys-adam/cr061_Icon_Texture.webp",
     "sortOrder": 61,
     "rarity": "SSR",
     "element": {
       "id": 6,
       "name": "มืด",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/battleelement_6.webp"
+      "icon": "https://img.gachawiki.info/gene-sys-adam/battleelement_6.webp"
     },
-    "job": {"id": 5, "name": "ทำลาย", "color": "#9433EA", "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/master_6.webp" },
+    "job": {"id": 5, "name": "ทำลาย", "color": "#9433EA", "icon": "https://img.gachawiki.info/gene-sys-adam/master_6.webp" },
     "attackType": {
       "id": 2,
       "name": "能量",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Attributes_01.webp"
+      "icon": "https://img.gachawiki.info/gene-sys-adam/Attributes_01.webp"
     },
     "skills": [
       {
@@ -10040,7 +10040,7 @@ export const gsaCharactersTh = [
         "slot": "โจมตีปกติ",
         "slotEn": "Basic Attack",
         "unlockStar": 0,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr061_1.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr061_1.webp",
         "type": "ทันที",
         "mainStat": null,
         "gcd": "10s",
@@ -10056,7 +10056,7 @@ export const gsaCharactersTh = [
         "slot": "พรสวรรค์",
         "slotEn": "Talent",
         "unlockStar": 0,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr061_2.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr061_2.webp",
         "type": "ทันที",
         "mainStat": null,
         "gcd": null,
@@ -10078,7 +10078,7 @@ export const gsaCharactersTh = [
         "slot": "อัตโนมัติ",
         "slotEn": "Auto",
         "unlockStar": 1,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr061_3.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr061_3.webp",
         "type": "ทันที",
         "mainStat": null,
         "gcd": null,
@@ -10100,7 +10100,7 @@ export const gsaCharactersTh = [
         "slot": "พาสซีฟ 1",
         "slotEn": "Passive 1",
         "unlockStar": 4,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr061_5.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr061_5.webp",
         "type": "พาสซีฟ",
         "mainStat": null,
         "gcd": null,
@@ -10120,7 +10120,7 @@ export const gsaCharactersTh = [
         "slot": "พาสซีฟ 2",
         "slotEn": "Passive 2",
         "unlockStar": 6,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr061_6.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr061_6.webp",
         "type": "พาสซีฟ",
         "mainStat": null,
         "gcd": null,
@@ -10140,7 +10140,7 @@ export const gsaCharactersTh = [
         "slot": "อัลติเมท",
         "slotEn": "Ultimate",
         "unlockStar": 2,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr061_4.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr061_4.webp",
         "type": "ทันที",
         "mainStat": null,
         "gcd": null,
@@ -10396,19 +10396,19 @@ export const gsaCharactersTh = [
     "epithet": "กุหลาบขาวมีหนาม สังหารตอบโต้ขั้นสุด",
     "sex": "เพศหญิง",
     "inGacha": false,
-    "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/cr062_Icon_Texture.webp",
+    "icon": "https://img.gachawiki.info/gene-sys-adam/cr062_Icon_Texture.webp",
     "sortOrder": 62,
     "rarity": "SSR",
     "element": {
       "id": 5,
       "name": "แสง",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/battleelement_5.webp"
+      "icon": "https://img.gachawiki.info/gene-sys-adam/battleelement_5.webp"
     },
-    "job": {"id": 3, "name": "สไนเปอร์", "color": "#FFC405", "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/archer_5.webp" },
+    "job": {"id": 3, "name": "สไนเปอร์", "color": "#FFC405", "icon": "https://img.gachawiki.info/gene-sys-adam/archer_5.webp" },
     "attackType": {
       "id": 1,
       "name": "物理",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Attributes_02.webp"
+      "icon": "https://img.gachawiki.info/gene-sys-adam/Attributes_02.webp"
     },
     "skills": [
       {
@@ -10417,7 +10417,7 @@ export const gsaCharactersTh = [
         "slot": "โจมตีปกติ",
         "slotEn": "Basic Attack",
         "unlockStar": 0,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr062_1.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr062_1.webp",
         "type": "ทันที",
         "mainStat": null,
         "gcd": "10s",
@@ -10433,7 +10433,7 @@ export const gsaCharactersTh = [
         "slot": "พรสวรรค์",
         "slotEn": "Talent",
         "unlockStar": 0,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr062_2.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr062_2.webp",
         "type": "ชี้นำ",
         "mainStat": null,
         "gcd": null,
@@ -10455,7 +10455,7 @@ export const gsaCharactersTh = [
         "slot": "อัตโนมัติ",
         "slotEn": "Auto",
         "unlockStar": 1,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr062_3.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr062_3.webp",
         "type": "ทันที",
         "mainStat": null,
         "gcd": null,
@@ -10475,7 +10475,7 @@ export const gsaCharactersTh = [
         "slot": "พาสซีฟ 1",
         "slotEn": "Passive 1",
         "unlockStar": 4,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr062_5.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr062_5.webp",
         "type": "พาสซีฟ",
         "mainStat": null,
         "gcd": null,
@@ -10495,7 +10495,7 @@ export const gsaCharactersTh = [
         "slot": "พาสซีฟ 2",
         "slotEn": "Passive 2",
         "unlockStar": 6,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr062_6.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr062_6.webp",
         "type": "พาสซีฟ",
         "mainStat": null,
         "gcd": null,
@@ -10515,7 +10515,7 @@ export const gsaCharactersTh = [
         "slot": "อัลติเมท",
         "slotEn": "Ultimate",
         "unlockStar": 2,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr062_4.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr062_4.webp",
         "type": "ทันที",
         "mainStat": null,
         "gcd": null,
@@ -10769,19 +10769,19 @@ export const gsaCharactersTh = [
     "epithet": "พลังล้นทะลัก สายตาเยือกแข็ง",
     "sex": "เพศหญิง",
     "inGacha": false,
-    "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/cr063_Icon_Texture.webp",
+    "icon": "https://img.gachawiki.info/gene-sys-adam/cr063_Icon_Texture.webp",
     "sortOrder": 63,
     "rarity": "SSR",
     "element": {
       "id": 4,
       "name": "น้ำ",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/battleelement_4.webp"
+      "icon": "https://img.gachawiki.info/gene-sys-adam/battleelement_4.webp"
     },
-    "job": {"id": 5, "name": "ทำลาย", "color": "#9433EA", "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/master_4.webp" },
+    "job": {"id": 5, "name": "ทำลาย", "color": "#9433EA", "icon": "https://img.gachawiki.info/gene-sys-adam/master_4.webp" },
     "attackType": {
       "id": 2,
       "name": "能量",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Attributes_01.webp"
+      "icon": "https://img.gachawiki.info/gene-sys-adam/Attributes_01.webp"
     },
     "skills": [
       {
@@ -10790,7 +10790,7 @@ export const gsaCharactersTh = [
         "slot": "โจมตีปกติ",
         "slotEn": "Basic Attack",
         "unlockStar": 0,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr063_1.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr063_1.webp",
         "type": "ทันที",
         "mainStat": null,
         "gcd": "9s",
@@ -10806,7 +10806,7 @@ export const gsaCharactersTh = [
         "slot": "พรสวรรค์",
         "slotEn": "Talent",
         "unlockStar": 0,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr063_2.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr063_2.webp",
         "type": "ทันที",
         "mainStat": null,
         "gcd": null,
@@ -10828,7 +10828,7 @@ export const gsaCharactersTh = [
         "slot": "อัตโนมัติ",
         "slotEn": "Auto",
         "unlockStar": 1,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr063_3.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr063_3.webp",
         "type": "ทันที",
         "mainStat": null,
         "gcd": null,
@@ -10848,7 +10848,7 @@ export const gsaCharactersTh = [
         "slot": "พาสซีฟ 1",
         "slotEn": "Passive 1",
         "unlockStar": 4,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr063_5.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr063_5.webp",
         "type": "พาสซีฟ",
         "mainStat": null,
         "gcd": null,
@@ -10868,7 +10868,7 @@ export const gsaCharactersTh = [
         "slot": "พาสซีฟ 2",
         "slotEn": "Passive 2",
         "unlockStar": 6,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr063_6.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr063_6.webp",
         "type": "พาสซีฟ",
         "mainStat": null,
         "gcd": null,
@@ -10888,7 +10888,7 @@ export const gsaCharactersTh = [
         "slot": "อัลติเมท",
         "slotEn": "Ultimate",
         "unlockStar": 2,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr063_4.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr063_4.webp",
         "type": "ทันที",
         "mainStat": null,
         "gcd": null,
@@ -11148,24 +11148,24 @@ export const gsaCharactersTh = [
     "epithet": "โจมตีต่อเนื่องด้วยนากินาตะ สะเก็ดน้ำแข็งระเบิด",
     "sex": "เพศหญิง",
     "inGacha": true,
-    "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/cr064_Icon_Texture.webp",
+    "icon": "https://img.gachawiki.info/gene-sys-adam/cr064_Icon_Texture.webp",
     "sortOrder": 64,
     "rarity": "SSR",
     "element": {
       "id": 4,
       "name": "น้ำ",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/battleelement_4.webp"
+      "icon": "https://img.gachawiki.info/gene-sys-adam/battleelement_4.webp"
     },
     "job": {
       "id": 2,
       "name": "จู่โจม",
       "color": "#EA3333",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/fighters_4.webp"
+      "icon": "https://img.gachawiki.info/gene-sys-adam/fighters_4.webp"
     },
     "attackType": {
       "id": 1,
       "name": "物理",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Attributes_02.webp"
+      "icon": "https://img.gachawiki.info/gene-sys-adam/Attributes_02.webp"
     },
     "skills": [
       {
@@ -11174,7 +11174,7 @@ export const gsaCharactersTh = [
         "slot": "โจมตีปกติ",
         "slotEn": "Basic Attack",
         "unlockStar": 0,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr064_1.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr064_1.webp",
         "type": "ทันที",
         "mainStat": null,
         "gcd": "7.001s",
@@ -11190,7 +11190,7 @@ export const gsaCharactersTh = [
         "slot": "พรสวรรค์",
         "slotEn": "Talent",
         "unlockStar": 0,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr064_2.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr064_2.webp",
         "type": "ทันที",
         "mainStat": null,
         "gcd": null,
@@ -11213,7 +11213,7 @@ export const gsaCharactersTh = [
         "slot": "อัตโนมัติ",
         "slotEn": "Auto",
         "unlockStar": 1,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr064_3.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr064_3.webp",
         "type": "ทันที",
         "mainStat": null,
         "gcd": null,
@@ -11235,7 +11235,7 @@ export const gsaCharactersTh = [
         "slot": "พาสซีฟ 1",
         "slotEn": "Passive 1",
         "unlockStar": 4,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr064_5.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr064_5.webp",
         "type": "พาสซีฟ",
         "mainStat": null,
         "gcd": null,
@@ -11255,7 +11255,7 @@ export const gsaCharactersTh = [
         "slot": "พาสซีฟ 2",
         "slotEn": "Passive 2",
         "unlockStar": 6,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr064_6.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr064_6.webp",
         "type": "พาสซีฟ",
         "mainStat": null,
         "gcd": null,
@@ -11275,7 +11275,7 @@ export const gsaCharactersTh = [
         "slot": "อัลติเมท",
         "slotEn": "Ultimate",
         "unlockStar": 2,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr064_4.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr064_4.webp",
         "type": "ทันที",
         "mainStat": null,
         "gcd": null,
@@ -11535,24 +11535,24 @@ export const gsaCharactersTh = [
     "epithet": "โจมตีหนักไม่เคลื่อนไหว ปรัชญาแห่งหินผา",
     "sex": "เพศหญิง",
     "inGacha": true,
-    "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/cr065_Icon_Texture.webp",
+    "icon": "https://img.gachawiki.info/gene-sys-adam/cr065_Icon_Texture.webp",
     "sortOrder": 65,
     "rarity": "SSR",
     "element": {
       "id": 2,
       "name": "ดิน",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/battleelement_2.webp"
+      "icon": "https://img.gachawiki.info/gene-sys-adam/battleelement_2.webp"
     },
     "job": {
       "id": 1,
       "name": "ป้องกัน",
       "color": "#957C7A",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/guard_2.webp"
+      "icon": "https://img.gachawiki.info/gene-sys-adam/guard_2.webp"
     },
     "attackType": {
       "id": 2,
       "name": "能量",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Attributes_01.webp"
+      "icon": "https://img.gachawiki.info/gene-sys-adam/Attributes_01.webp"
     },
     "skills": [
       {
@@ -11561,7 +11561,7 @@ export const gsaCharactersTh = [
         "slot": "โจมตีปกติ",
         "slotEn": "Basic Attack",
         "unlockStar": 0,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr065_1.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr065_1.webp",
         "type": "ทันที",
         "mainStat": null,
         "gcd": "17s",
@@ -11577,7 +11577,7 @@ export const gsaCharactersTh = [
         "slot": "พรสวรรค์",
         "slotEn": "Talent",
         "unlockStar": 0,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr065_2.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr065_2.webp",
         "type": "ทันที",
         "mainStat": null,
         "gcd": null,
@@ -11601,7 +11601,7 @@ export const gsaCharactersTh = [
         "slot": "อัตโนมัติ",
         "slotEn": "Auto",
         "unlockStar": 1,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr065_3.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr065_3.webp",
         "type": "ทันที",
         "mainStat": null,
         "gcd": null,
@@ -11623,7 +11623,7 @@ export const gsaCharactersTh = [
         "slot": "พาสซีฟ 1",
         "slotEn": "Passive 1",
         "unlockStar": 4,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr065_5.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr065_5.webp",
         "type": "พาสซีฟ",
         "mainStat": null,
         "gcd": null,
@@ -11645,7 +11645,7 @@ export const gsaCharactersTh = [
         "slot": "พาสซีฟ 2",
         "slotEn": "Passive 2",
         "unlockStar": 6,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr065_6.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr065_6.webp",
         "type": "พาสซีฟ",
         "mainStat": null,
         "gcd": null,
@@ -11665,7 +11665,7 @@ export const gsaCharactersTh = [
         "slot": "อัลติเมท",
         "slotEn": "Ultimate",
         "unlockStar": 2,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr065_4.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr065_4.webp",
         "type": "ทันที",
         "mainStat": null,
         "gcd": null,
@@ -11924,24 +11924,24 @@ export const gsaCharactersTh = [
     "epithet": "บัวแดงเผากระดูก ความสง่างามมลายสิ้น",
     "sex": "เพศหญิง",
     "inGacha": false,
-    "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/cr066_Icon_Texture.webp",
+    "icon": "https://img.gachawiki.info/gene-sys-adam/cr066_Icon_Texture.webp",
     "sortOrder": 66,
     "rarity": "SSR",
     "element": {
       "id": 1,
       "name": "ไฟ",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/battleelement_1.webp"
+      "icon": "https://img.gachawiki.info/gene-sys-adam/battleelement_1.webp"
     },
     "job": {
       "id": 2,
       "name": "จู่โจม",
       "color": "#EA3333",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/fighters_1.webp"
+      "icon": "https://img.gachawiki.info/gene-sys-adam/fighters_1.webp"
     },
     "attackType": {
       "id": 1,
       "name": "物理",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Attributes_02.webp"
+      "icon": "https://img.gachawiki.info/gene-sys-adam/Attributes_02.webp"
     },
     "skills": [
       {
@@ -11950,7 +11950,7 @@ export const gsaCharactersTh = [
         "slot": "โจมตีปกติ",
         "slotEn": "Basic Attack",
         "unlockStar": 0,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr066_1.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr066_1.webp",
         "type": "ทันที",
         "mainStat": null,
         "gcd": "10s",
@@ -11966,7 +11966,7 @@ export const gsaCharactersTh = [
         "slot": "พรสวรรค์",
         "slotEn": "Talent",
         "unlockStar": 0,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr066_2.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr066_2.webp",
         "type": "ทันที",
         "mainStat": null,
         "gcd": null,
@@ -11988,7 +11988,7 @@ export const gsaCharactersTh = [
         "slot": "อัตโนมัติ",
         "slotEn": "Auto",
         "unlockStar": 1,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr066_3.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr066_3.webp",
         "type": "ทันที",
         "mainStat": null,
         "gcd": null,
@@ -12010,7 +12010,7 @@ export const gsaCharactersTh = [
         "slot": "พาสซีฟ 1",
         "slotEn": "Passive 1",
         "unlockStar": 4,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr066_5.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr066_5.webp",
         "type": "พาสซีฟ",
         "mainStat": null,
         "gcd": null,
@@ -12030,7 +12030,7 @@ export const gsaCharactersTh = [
         "slot": "พาสซีฟ 2",
         "slotEn": "Passive 2",
         "unlockStar": 6,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr066_6.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr066_6.webp",
         "type": "พาสซีฟ",
         "mainStat": null,
         "gcd": null,
@@ -12050,7 +12050,7 @@ export const gsaCharactersTh = [
         "slot": "อัลติเมท",
         "slotEn": "Ultimate",
         "unlockStar": 2,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr066_4.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr066_4.webp",
         "type": "ทันที",
         "mainStat": null,
         "gcd": null,
@@ -12316,24 +12316,24 @@ export const gsaCharactersTh = [
     "epithet": "เสียงดนตรีดังก้อง ปกป้องอย่างสมบูรณ์",
     "sex": "เพศหญิง",
     "inGacha": true,
-    "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/cr074_Icon_Texture.webp",
+    "icon": "https://img.gachawiki.info/gene-sys-adam/cr074_Icon_Texture.webp",
     "sortOrder": 74,
     "rarity": "SSR",
     "element": {
       "id": 5,
       "name": "แสง",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/battleelement_5.webp"
+      "icon": "https://img.gachawiki.info/gene-sys-adam/battleelement_5.webp"
     },
     "job": {
       "id": 4,
       "name": "สนับสนุน",
       "color": "#33EA62",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/priest_5.webp"
+      "icon": "https://img.gachawiki.info/gene-sys-adam/priest_5.webp"
     },
     "attackType": {
       "id": 2,
       "name": "能量",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Attributes_01.webp"
+      "icon": "https://img.gachawiki.info/gene-sys-adam/Attributes_01.webp"
     },
     "skills": [
       {
@@ -12703,19 +12703,19 @@ export const gsaCharactersTh = [
     "epithet": "กลิ่นหอมละมุน ระดมยิงด้วยนม",
     "sex": "เพศชาย",
     "inGacha": true,
-    "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/cr107_Icon_Texture.webp",
+    "icon": "https://img.gachawiki.info/gene-sys-adam/cr107_Icon_Texture.webp",
     "sortOrder": 107,
     "rarity": "SSR",
     "element": {
       "id": 2,
       "name": "ดิน",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/battleelement_2.webp"
+      "icon": "https://img.gachawiki.info/gene-sys-adam/battleelement_2.webp"
     },
-    "job": {"id": 5, "name": "ทำลาย", "color": "#9433EA", "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/master_2.webp" },
+    "job": {"id": 5, "name": "ทำลาย", "color": "#9433EA", "icon": "https://img.gachawiki.info/gene-sys-adam/master_2.webp" },
     "attackType": {
       "id": 1,
       "name": "物理",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Attributes_02.webp"
+      "icon": "https://img.gachawiki.info/gene-sys-adam/Attributes_02.webp"
     },
     "skills": [
       {
@@ -12724,7 +12724,7 @@ export const gsaCharactersTh = [
         "slot": "โจมตีปกติ",
         "slotEn": "Basic Attack",
         "unlockStar": 0,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr107_1.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr107_1.webp",
         "type": "ทันที",
         "mainStat": null,
         "gcd": "10s",
@@ -12740,7 +12740,7 @@ export const gsaCharactersTh = [
         "slot": "พรสวรรค์",
         "slotEn": "Talent",
         "unlockStar": 0,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr107_2.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr107_2.webp",
         "type": "ทันที",
         "mainStat": null,
         "gcd": null,
@@ -12762,7 +12762,7 @@ export const gsaCharactersTh = [
         "slot": "อัตโนมัติ",
         "slotEn": "Auto",
         "unlockStar": 1,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr107_3.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr107_3.webp",
         "type": "ทันที",
         "mainStat": null,
         "gcd": null,
@@ -12784,7 +12784,7 @@ export const gsaCharactersTh = [
         "slot": "พาสซีฟ 1",
         "slotEn": "Passive 1",
         "unlockStar": 4,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr107_5.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr107_5.webp",
         "type": "พาสซีฟ",
         "mainStat": null,
         "gcd": null,
@@ -12804,7 +12804,7 @@ export const gsaCharactersTh = [
         "slot": "พาสซีฟ 2",
         "slotEn": "Passive 2",
         "unlockStar": 6,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr107_6.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr107_6.webp",
         "type": "พาสซีฟ",
         "mainStat": null,
         "gcd": null,
@@ -12824,7 +12824,7 @@ export const gsaCharactersTh = [
         "slot": "อัลติเมท",
         "slotEn": "Ultimate",
         "unlockStar": 2,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr107_4.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr107_4.webp",
         "type": "ทันที",
         "mainStat": null,
         "gcd": null,
@@ -13081,24 +13081,24 @@ export const gsaCharactersTh = [
     "epithet": "เปลวไฟสีคราม เบี่ยงเบนประเด็นแนบเนียน",
     "sex": "เพศชาย",
     "inGacha": false,
-    "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/cr060_Icon_Texture.webp",
+    "icon": "https://img.gachawiki.info/gene-sys-adam/cr060_Icon_Texture.webp",
     "sortOrder": 60,
     "rarity": "SSR",
     "element": {
       "id": 1,
       "name": "ไฟ",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/battleelement_1.webp"
+      "icon": "https://img.gachawiki.info/gene-sys-adam/battleelement_1.webp"
     },
     "job": {
       "id": 1,
       "name": "ป้องกัน",
       "color": "#957C7A",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/guard_1.webp"
+      "icon": "https://img.gachawiki.info/gene-sys-adam/guard_1.webp"
     },
     "attackType": {
       "id": 1,
       "name": "物理",
-      "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Attributes_02.webp"
+      "icon": "https://img.gachawiki.info/gene-sys-adam/Attributes_02.webp"
     },
     "skills": [
       {
@@ -13107,7 +13107,7 @@ export const gsaCharactersTh = [
         "slot": "โจมตีปกติ",
         "slotEn": "Basic Attack",
         "unlockStar": 0,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr060_1.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr060_1.webp",
         "type": "ทันที",
         "mainStat": null,
         "gcd": "10s",
@@ -13123,7 +13123,7 @@ export const gsaCharactersTh = [
         "slot": "พรสวรรค์",
         "slotEn": "Talent",
         "unlockStar": 0,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr060_2.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr060_2.webp",
         "type": "ทันที",
         "mainStat": null,
         "gcd": null,
@@ -13145,7 +13145,7 @@ export const gsaCharactersTh = [
         "slot": "อัตโนมัติ",
         "slotEn": "Auto",
         "unlockStar": 1,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr060_3.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr060_3.webp",
         "type": "ทันที",
         "mainStat": null,
         "gcd": null,
@@ -13168,7 +13168,7 @@ export const gsaCharactersTh = [
         "slot": "พาสซีฟ 1",
         "slotEn": "Passive 1",
         "unlockStar": 4,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr060_5.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr060_5.webp",
         "type": "พาสซีฟ",
         "mainStat": null,
         "gcd": null,
@@ -13188,7 +13188,7 @@ export const gsaCharactersTh = [
         "slot": "พาสซีฟ 2",
         "slotEn": "Passive 2",
         "unlockStar": 6,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr060_6.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr060_6.webp",
         "type": "พาสซีฟ",
         "mainStat": null,
         "gcd": null,
@@ -13208,7 +13208,7 @@ export const gsaCharactersTh = [
         "slot": "อัลติเมท",
         "slotEn": "Ultimate",
         "unlockStar": 2,
-        "icon": "https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam/Icon_cr060_4.webp",
+        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr060_4.webp",
         "type": "ทันที",
         "mainStat": null,
         "gcd": null,

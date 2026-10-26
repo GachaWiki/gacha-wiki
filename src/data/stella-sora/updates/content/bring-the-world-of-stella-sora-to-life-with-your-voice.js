@@ -1,6 +1,6 @@
 // Official Stella Sora news content (cleaned from stellasora.global/news/4975)
 export const content = `
-<p><img src="https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/stella-sora/news/4975-1.webp" alt="" loading="lazy" decoding="async" /></p>
+<p><img src="https://img.gachawiki.info/stella-sora/news/4975-1.webp" alt="" loading="lazy" decoding="async" /></p>
 <p><strong>Dear Tyrant,</strong></p>
 <p>Bring the world of Stella Sora to life with your voice!</p>
 <p>To celebrate Stella Sora's 1st anniversary, we're launching the Voices of the Monolith: 1st Anniversary Dub Contest. Please read the contest details below carefully！</p>
@@ -30,11 +30,11 @@ export const content = `
 <p>Your submission should be based on anniversary-related content, including but not limited to the main story, PVs, and more.</p>
 <p>The following are a few examples of in-game content you can choose from for voiceover. Of course, you are also welcome to explore freely and find a scene that inspires you!</p>
 <p><strong>1. Highlights from Main Story Chapter 9</strong></p>
-<p><img src="https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/stella-sora/news/4975-2.webp" alt="" loading="lazy" decoding="async" /></p>
+<p><img src="https://img.gachawiki.info/stella-sora/news/4975-2.webp" alt="" loading="lazy" decoding="async" /></p>
 <p><strong>2. Trekkers Affinity Stories</strong></p>
-<p><img src="https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/stella-sora/news/4975-3.webp" alt="" loading="lazy" decoding="async" /></p>
+<p><img src="https://img.gachawiki.info/stella-sora/news/4975-3.webp" alt="" loading="lazy" decoding="async" /></p>
 <p><strong>3. Anniversary Character Preview</strong></p>
-<p><img src="https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/stella-sora/news/4975-4.webp" alt="" loading="lazy" decoding="async" /></p>
+<p><img src="https://img.gachawiki.info/stella-sora/news/4975-4.webp" alt="" loading="lazy" decoding="async" /></p>
 <p><strong>🍰✦Prize Pool✦</strong></p>
 <p><strong>Grand Prizes</strong></p>
 <p><strong>First Place</strong></p>

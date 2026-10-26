@@ -1,6 +1,6 @@
 // Official Stella Sora news content (cleaned from stellasora.global/news/1768)
 export const content = `
-<p><img src="https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/stella-sora/news/1768-1.webp" alt="" loading="lazy" decoding="async" /></p>
+<p><img src="https://img.gachawiki.info/stella-sora/news/1768-1.webp" alt="" loading="lazy" decoding="async" /></p>
 <p>Dear Tyrants,</p>
 <p>Join us on our official social media channels to discuss gameplay, story, and other experiences with players from around the world!</p>
 <p>By following our official channels, you'll also receive regular updates on game content, version news, and special rewards~</p>

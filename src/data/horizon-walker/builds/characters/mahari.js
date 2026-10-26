@@ -3,7 +3,7 @@
 export const MahariBuildConfig = {
   damageScaling: "Melee ATK 12.1 (77)",
   buildStrategyTitle: "Community Sheet Build (Mahari)",
-  recommendedStigma: "Mix (C.DMG Buff Scalling) [Only Work With Weapon]",
+  recommendedStigma: "Mixed 2-Set: The Wind that Wanders the World + The Four Horsemen",
   buildStrategy: [
     {
       title: "Weapon: The Arms of Laphnesis",

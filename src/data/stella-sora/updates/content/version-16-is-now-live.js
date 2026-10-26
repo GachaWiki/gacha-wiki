@@ -3,30 +3,30 @@ export const content = `
 <p><strong>✦ New Content ✦</strong></p>
 <p><strong>■ New Trekker and Runic Disc</strong></p>
 <p>New ★5 Terra Trekker: Springseek Coronis can be recruited from the event-limited banner: Warmth Lingers, Longing Stirs.</p>
-<p><img src="https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/stella-sora/news/2581-1.webp" alt="" loading="lazy" decoding="async" /></p>
+<p><img src="https://img.gachawiki.info/stella-sora/news/2581-1.webp" alt="" loading="lazy" decoding="async" /></p>
 <p>New ★5 Terra Disc: Veiled Dawn of Spring can be recruited from the event-limited banner: Fresh Affection Awakes.</p>
-<p><img src="https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/stella-sora/news/2581-2.webp" alt="" loading="lazy" decoding="async" /></p>
+<p><img src="https://img.gachawiki.info/stella-sora/news/2581-2.webp" alt="" loading="lazy" decoding="async" /></p>
 <p><strong>■ New Story</strong></p>
 <p><strong>Event story: Crackling Hint of Spring</strong></p>
 <p>Period: Feb. 02, 2026 after maintenance ⁠- Feb. 16, 2026 12:59:59 (UTC-7)</p>
 <p>The New Start Guild has disappeared right in the middle of the Springseek celebrations! You wander the lively lanes of Cangwu alongside "that doctor" as you search for traces of your friends...</p>
-<p><img src="https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/stella-sora/news/2581-3.webp" alt="" loading="lazy" decoding="async" /></p>
+<p><img src="https://img.gachawiki.info/stella-sora/news/2581-3.webp" alt="" loading="lazy" decoding="async" /></p>
 <p><strong>The Nova Times New Chapters #09: One-Day Partner and #10: A Day of Harvest</strong></p>
 <p>Period: Permanent after Feb. 16, 2026 21:00 (UTC-7)</p>
 <p>As buds unfold, love takes hold.</p>
-<p><img src="https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/stella-sora/news/2581-4.webp" alt="" loading="lazy" decoding="async" /></p>
+<p><img src="https://img.gachawiki.info/stella-sora/news/2581-4.webp" alt="" loading="lazy" decoding="async" /></p>
 <p><strong>■ New Event</strong></p>
 <p><strong>Limited Event: Crackling Hint of Spring</strong></p>
 <p>Period: Feb. 02, 2026 after maintenance - Feb. 16, 2026 12:59:59 (UTC-7)</p>
 <p>Event Shop & Reward Exchange: Feb. 02, 2026 after maintenance ⁠- Feb. 23, 2026 19:59:59 (UTC-7)</p>
 <p>Fortune Found, Wellness Bound! Complete missions to get Tasty Tanghulu, which can be used in the Event Shop to redeem ★5 Runic Disc: Wine Warm, Lamps Alight, Honor Title: Crackling Hint of Spring, Stellanite Dust, Sprout Ticket, Cerulean Ticket, Trekker and Disc tier-up materials, and more!</p>
 <p>Requirements: Authorization Level ≥ 5</p>
-<p><img src="https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/stella-sora/news/2581-5.webp" alt="" loading="lazy" decoding="async" /></p>
+<p><img src="https://img.gachawiki.info/stella-sora/news/2581-5.webp" alt="" loading="lazy" decoding="async" /></p>
 <p><strong>Cookie Workshop</strong></p>
 <p>Period: Feb. 02, 2026 after maintenance - Feb. 16, 2026 12:59:59 (UTC-7)</p>
 <p>Match the shapes, pack the cookie boxes, and claim your rewards, including Stellanite Dust, Tasty Tanghulu, Novice Trekker Promotion Box, and more!</p>
 <p>Requirements: Authorization Level ≥ 5</p>
-<p><img src="https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/stella-sora/news/2581-6.webp" alt="" loading="lazy" decoding="async" /></p>
+<p><img src="https://img.gachawiki.info/stella-sora/news/2581-6.webp" alt="" loading="lazy" decoding="async" /></p>
 <p><strong>✦ Event Update ✦</strong></p>
 <p><strong>Cataclysm Survivor</strong></p>
 <p>Period: Feb. 02, 2026 after maintenance - Feb. 23, 2026 19:59:59 (UTC-7)</p>
@@ -35,45 +35,45 @@ export const content = `
 <p>Zone 1 - Enemy Vulnerability: Terra, Umbra</p>
 <p>Zone 2 - Enemy Vulnerability: Terra, Ignis</p>
 <p>Requirements: Authorization Level ≥ 11</p>
-<p><img src="https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/stella-sora/news/2581-11.webp" alt="" loading="lazy" decoding="async" /></p>
+<p><img src="https://img.gachawiki.info/stella-sora/news/2581-11.webp" alt="" loading="lazy" decoding="async" /></p>
 <p><strong>Log-in Event: Honeyed Murmurs, Sweet as Dew</strong></p>
 <p>Period: Feb. 09, 2026 21:00 - Feb. 23, 2026 19:59:59 (UTC-7)</p>
 <p>Listen to the sweet, affectionate voices. Participate in the log-in event to receive Cerulean Ticket ×3, Gold Disc ×600, and Deluxe Choice Box ×5 in total!</p>
 <p>Requirements: Authorization Level ≥ 2</p>
-<p><img src="https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/stella-sora/news/2581-7.webp" alt="" loading="lazy" decoding="async" /></p>
+<p><img src="https://img.gachawiki.info/stella-sora/news/2581-7.webp" alt="" loading="lazy" decoding="async" /></p>
 <p><strong>Log-in Event: Gallop Into Blooming Splendor</strong></p>
 <p>Period: Feb. 16, 2026 21:00 - Mar. 02, 2026 11:59:59 (UTC-7)</p>
 <p>Come join the Springseek Festival for a grand celebration! Participate in the log-in event to receive Cerulean Ticket ×4, Gold Disc ×900, and Deluxe Choice Box ×7 in total!</p>
 <p>Requirements: Authorization Level ≥ 2</p>
-<p><img src="https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/stella-sora/news/2581-8.webp" alt="" loading="lazy" decoding="async" /></p>
+<p><img src="https://img.gachawiki.info/stella-sora/news/2581-8.webp" alt="" loading="lazy" decoding="async" /></p>
 <p><strong>Bouncing Bumper Bash</strong></p>
 <p>Period: Feb. 16, 2026 21:00 - Feb. 23, 2026 19:59:59 (UTC-7)</p>
 <p>A peculiar arcade machine appeared in the Monolith. Fire marbles to repel invading enemies and defend the planet! Clear the stages to earn rewards such as Stellanite Dust, Honor Title: Space Cadet, and Exquisite Gift Box.</p>
 <p>Requirements: Authorization Level ≥ 5</p>
-<p><img src="https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/stella-sora/news/2581-9.webp" alt="" loading="lazy" decoding="async" /></p>
+<p><img src="https://img.gachawiki.info/stella-sora/news/2581-9.webp" alt="" loading="lazy" decoding="async" /></p>
 <p><strong>Call for Best Records</strong></p>
 <p>Period: Feb. 16, 2026 21:00 - Feb. 23, 2026 19:59:59 (UTC-7)</p>
 <p>Save Records according to the goal and submit them to claim your rewards! You may check the requirements for each goal and submit eligible Records in response to them!</p>
 <p>Requirements: Authorization Level ≥ 10</p>
-<p><img src="https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/stella-sora/news/2581-10.webp" alt="" loading="lazy" decoding="async" /></p>
+<p><img src="https://img.gachawiki.info/stella-sora/news/2581-10.webp" alt="" loading="lazy" decoding="async" /></p>
 <p><strong>Limited recruitment event: A Fateful Encounter</strong></p>
 <p>Period: Feb. 16, 2026 21:00 (UTC-7) ⁠- Mar. 09, 2026 12:59:59 (UTC-7)</p>
 <p>During the event period, there's a higher chance to get the ★5 Trekker, Chixia.</p>
-<p><img src="https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/stella-sora/news/2581-12.webp" alt="" loading="lazy" decoding="async" /></p>
+<p><img src="https://img.gachawiki.info/stella-sora/news/2581-12.webp" alt="" loading="lazy" decoding="async" /></p>
 <p><strong>Limited recruitment event: A Heart-Tuned Melody</strong></p>
 <p>Period: Feb. 16, 2026 21:00 (UTC-7) ⁠- Mar. 09, 2026 12:59:59 (UTC-7)</p>
 <p>During the event period, there's a higher chance to get the ★5 Runic Disc: Mystic Brushstrokes.</p>
-<p><img src="https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/stella-sora/news/2581-13.webp" alt="" loading="lazy" decoding="async" /></p>
+<p><img src="https://img.gachawiki.info/stella-sora/news/2581-13.webp" alt="" loading="lazy" decoding="async" /></p>
 <p><strong>✦ New Merchandise ✦</strong></p>
 <p><strong>■ Everbright Wishes: Ascent Details</strong></p>
 <p>Purchase Everbright Wishes: Ascent to receive Stellanite Lumina ×300 immediately and activate a 30-day subscription period, during which you can log in daily to claim Canned Vigor Soda ×5 and Monolith Stairs Pass ×2.</p>
 <p>Period: Permanent after maintenance in Feb. 02, 2026</p>
 <p>*Starting with the Crackling Hint of Spring version, the original Everbright Wishes will be renamed to Everbright Wishes: Stardust. Your remaining active days for the original Everbright Wishes will automatically transfer to Everbright Wishes: Stardust. The price, rewards, and quantity of items provided by Everbright Wishes: Stardust remain identical to the original version.</p>
-<p><img src="https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/stella-sora/news/2581-14.webp" alt="" loading="lazy" decoding="async" /></p>
+<p><img src="https://img.gachawiki.info/stella-sora/news/2581-14.webp" alt="" loading="lazy" decoding="async" /></p>
 <p><strong>■ Style Gallery</strong></p>
 <p>New 3D Appearance for Mistique: Cocoa Night Sweetheart (Purchase in Shop)</p>
 <p>Period: Feb. 02, 2026 after maintenance - Feb. 23, 2026 19:59:59 (UTC-7)</p>
-<p><img src="https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/stella-sora/news/2581-15.webp" alt="" loading="lazy" decoding="async" /></p>
+<p><img src="https://img.gachawiki.info/stella-sora/news/2581-15.webp" alt="" loading="lazy" decoding="async" /></p>
 <p><strong>■ Trekker's Picks: Stellar Special</strong></p>
 <p>- Splendid Spring: Fortune Favor</p>
 <p>- Splendid Spring: Cerulean Ticket Ascent Set</p>

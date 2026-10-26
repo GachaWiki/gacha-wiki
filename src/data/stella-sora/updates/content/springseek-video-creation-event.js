@@ -1,6 +1,6 @@
 // Official Stella Sora news content (cleaned from stellasora.global/news/2545)
 export const content = `
-<p><img src="https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/stella-sora/news/2545-1.webp" alt="" loading="lazy" decoding="async" /></p>
+<p><img src="https://img.gachawiki.info/stella-sora/news/2545-1.webp" alt="" loading="lazy" decoding="async" /></p>
 <p><strong data-path-to-node="4" data-index-in-node="0">Dear Tyrant,</p>
 <p></strong>Ready for a journey to Cangwu?</p>
 <p>The Springseek Video Creation Event is now open! From in-depth gameplay guides to hilarious fun creations using our official assets, we want to see your talent shine. We have prepared festive gifts for your creativity, including cash prizes, new merch, and massive Stellanite Dust rewards!</p>
@@ -59,7 +59,7 @@ export const content = `
 <p>· <strong>Reward</strong>: Stellanite Dust ×1000</p>
 <p><strong>✦</strong> <strong>Official Assets Download</strong> <strong>✦</strong></p>
 <p>This time, we've got something special - <strong>Official MMD Models</strong> are now available for your creations! Don't forget to check the <strong data-path-to-node="6,0" data-index-in-node="124">Usage Guidelines</strong> below before you start downloading.</p>
-<p><img src="https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/stella-sora/news/2545-2.webp" alt="" loading="lazy" decoding="async" /><strong></p>
+<p><img src="https://img.gachawiki.info/stella-sora/news/2545-2.webp" alt="" loading="lazy" decoding="async" /><strong></p>
 <p>✦ Usage Guidelines</p>
 <p></strong>1. Models are provided in .pmx format, compatible with mainstream software such as MMD.</p>
 <p>2. Models are provided for non-commercial fan creations and contest use only. Any form of commercial use is strictly prohibited.</p>
@@ -69,7 +69,7 @@ export const content = `
 <p></strong>1. Download: <strong>Click the button below</strong> to get the complete character model pack.</p>
 <p>2. Edit: Import the .pmx files into MMD or your preferred 3D software.</p>
 <p>3. Share: Unleash your creativity and share your masterpiece with the community!</p>
-<p><a href="https://drive.google.com/uc?export=download&amp;id=15HapdZzxTbfB8PoU-mlk2v9ohQj13eFf" target="_blank" rel="noopener nofollow"><img src="https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/stella-sora/news/2545-3.webp" alt="" loading="lazy" decoding="async" /></a></p>
+<p><a href="https://drive.google.com/uc?export=download&amp;id=15HapdZzxTbfB8PoU-mlk2v9ohQj13eFf" target="_blank" rel="noopener nofollow"><img src="https://img.gachawiki.info/stella-sora/news/2545-3.webp" alt="" loading="lazy" decoding="async" /></a></p>
 <p><strong>✦</strong> <strong>Creation </strong><strong>Showcase</strong> <strong>✦</strong></p>
 <p>1. All compliant works will be featured in our dedicated Discord channel: <a href="https://discord.gg/CXekgqn2wh" target="_blank" rel="noopener nofollow">springseek_video_creation_event</a> To keep things organized, we will open new threads regularly (categorized by track) and archive the day's submissions within them.</p>
 <p>2. To ensure fairness, these channels will only be used for showcasing content and will not be used for evaluation, scoring, or data collection.</p>

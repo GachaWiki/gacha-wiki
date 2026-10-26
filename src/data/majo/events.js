@@ -1,6 +1,6 @@
 // MAJO event guide data: patch-note style content for in-game events, plus extracted event art on R2.
 
-const R2 = 'https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev';
+const R2 = 'https://img.gachawiki.info';
 
 export const MAJO_EVENTS = [
   {

@@ -1,6 +1,6 @@
 // Official Stella Sora news content (cleaned from stellasora.global/news/152)
 export const content = `
-<p><img src="https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/stella-sora/news/152-1.webp" alt="" loading="lazy" decoding="async" /></p>
+<p><img src="https://img.gachawiki.info/stella-sora/news/152-1.webp" alt="" loading="lazy" decoding="async" /></p>
 <p><strong>Closed Beta Test Announcement</strong></p>
 <p>Esteemed Tyrant,</p>
 <p>Welcome to the Closed Beta Test of <em>Stella Sora</em>!</p>

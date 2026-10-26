@@ -1,6 +1,6 @@
 // Official Stella Sora news content (cleaned from stellasora.global/news/1766)
 export const content = `
-<p><img src="https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/stella-sora/news/1766-1.webp" alt="" loading="lazy" decoding="async" /></p>
+<p><img src="https://img.gachawiki.info/stella-sora/news/1766-1.webp" alt="" loading="lazy" decoding="async" /></p>
 <p>Dear Tyrants,</p>
 <p>Pre-Download for Stella Sora is now live! Download and be among the first to step onto the Nova Continent!</p>
 <p>Plus, the official release of Stella Sora 1.0 will go live on October <strong>19, 2025, at 19:00 (UTC-7)</strong> across all platforms! Countless Monoliths are waiting to be explored. See you at the launch!</p>

@@ -11,7 +11,7 @@ import { gsaCharacters } from './characters.js';
 
 const bySlug = Object.fromEntries(gsaCharacters.map(c => [c.slug, c]));
 
-const R2 = 'https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/gene-sys-adam';
+const R2 = 'https://img.gachawiki.info/gene-sys-adam';
 
 export const GSA_BANNERS_UPDATED = 'October 13, 2026';
 

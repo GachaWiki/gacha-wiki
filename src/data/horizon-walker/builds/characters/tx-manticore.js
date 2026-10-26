@@ -3,7 +3,7 @@
 export const TXManticoreBuildConfig = {
   damageScaling: "Firing Attack",
   buildStrategyTitle: "Community Sheet Build (TX-Manticore)",
-  recommendedStigma: "The Four Horseman",
+  recommendedStigma: "The Four Horsemen",
   buildStrategy: [
     {
       title: "Weapon: The Aegaeon Core",

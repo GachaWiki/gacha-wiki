@@ -314,8 +314,8 @@ export const hela = {
   },
 
   images: {
-    portrait: 'https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/zone-nova/characters/Hela.png',
-    card: 'https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev/zone-nova/memories/Helacard.jpg',
+    portrait: 'https://img.gachawiki.info/zone-nova/characters/Hela.png',
+    card: 'https://img.gachawiki.info/zone-nova/memories/Helacard.jpg',
   },
 
   tags: [
