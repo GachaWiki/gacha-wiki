@@ -1,0 +1,9 @@
+# Deploys the img.gachawiki.info gate worker (members-only R2 image serving).
+name = "gachawiki-img-gate"
+main = "worker.js"
+compatibility_date = "2026-10-01"
+account_id = "e51353d4a2f4d0a9f80a3145642da5a7"
+
+[[r2_buckets]]
+binding = "IMAGES"
+bucket_name = "gachawiki-images"
