@@ -58,7 +58,7 @@ export const PVE_TIER_LIST = {
   description:
     'Class-based PvE rankings with role highlights for story, events, and general progression.',
   tiers: {
-    UR: [{ name: 'Bors' }, { name: 'Medusa' }],
+    UR: [{ name: 'Bors' }, { name: 'Medusa' }, { name: 'Mila' }],
     SSS: [
       { name: 'Sharin' },
       { name: 'Gluttony - Beelzebub' },
@@ -105,7 +105,6 @@ export const PVE_TIER_LIST = {
       { name: 'Fenrir' },
       { name: 'Ootakemaru' },
       { name: 'Suzuka Gozen' },
-      { name: 'Mila' },
     ],
     S: [
       { name: 'Zashiki-warashi' },
@@ -145,7 +144,7 @@ export const PVP_TIER_LIST = {
   lastUpdated: '2026-10-27',
   description: 'Class-based Arena PvP rankings with role highlights for competitive play.',
   tiers: {
-    UR: [{ name: 'Pride-Lucifer' }, { name: 'Bors' }, { name: 'Medusa' }],
+    UR: [{ name: 'Pride-Lucifer' }, { name: 'Bors' }, { name: 'Medusa' }, { name: 'Mila' }],
     SSS: [{ name: 'Sharin' }, { name: 'Gluttony - Beelzebub' }, { name: 'Keller' }, { name: 'Nina' }, { name: 'Morgan Le Fay' }, { name: 'Odin' }, { name: 'Tamamo-no-Mae' }, { name: 'Wrath-Samael' }, { name: 'Gaia' }, { name: 'Jill' }, { name: 'Jorogumo' }, { name: 'Thor' }, { name: 'Apep' }, { name: 'Artemis' }, { name: 'Freya' }, { name: 'Hiyori' }, { name: 'Veronica' }, { name: 'Set' }, { name: 'Brynhild' }, { name: 'Fenrir' }, { name: 'Ootakemaru' }, { name: 'Suzuka Gozen' }],
     SS: [
       { name: 'Guinevere' },
@@ -168,7 +167,6 @@ export const PVP_TIER_LIST = {
       { name: 'Nephthys' },
       { name: 'Bedivere' },
       { name: 'Ibaraki-doji' },
-      { name: 'Mila' },
     ],
     S: [
       { name: 'Arthur' },
@@ -370,7 +368,7 @@ export const TIER_LIST_CHANGELOG = [
   {
     date: '2026-10-27',
     changes: [
-      'New characters added: Suzuka Gozen (SS PvE, SSS PvP, S for New Players) and Mila (SS PvE, SS PvP, S for New Players)',
+      'New characters added: Suzuka Gozen (SS PvE, SSS PvP, S for New Players) and Mila (UR PvE, UR PvP, S for New Players)',
       'Suzuka Gozen is a Holy Destroyer built around stacking banners: [Bow Draw] accelerates her Normal Attacks, [Keen Eye] raises Ultimate and Pursue damage, and consuming [Imperial Bell] + [Resonance] upgrades [Divine Tidebreaker] to 790% ATK with 380% ATK Holy Pursue splashes and [Mirror Fracture] Holy Resistance shred',
       "Season synergy: Trial of Bravery 29 pairs SUPPORTER Ultimates with DESTROYER Ultimate follow-ups ([Divine Punishment] 300% ATK Holy Pursue per target) which is Suzuka Gozen's showcase rule",
       'Mila is a Chaos Supporter mana engine: allies attacking [Candy Master] marked enemies earn [Begged Candy] (damage +4% and mana recovery +2% each), and [Full Load] at 8 [Candy Bag] grants team mana +1, ATK +40%, and Ultimate damage +20% for 5 seconds',
