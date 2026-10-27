@@ -78,6 +78,9 @@ function page(opts) {
     + '</div></body></html>';
 }
 
+// Small profile chip injected into every page: member name, email, wallet link.
+const PROFILE_WIDGET = `<script>(function(){function esc(t){return String(t).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;")}fetch("/whoami").then(function(r){return r.ok?r.json():null}).then(function(d){if(!d||!d.member)return;var email=d.member;var name=email.split("@")[0];var css=document.createElement("style");css.textContent="#gw-profile{position:fixed;right:16px;bottom:16px;z-index:2147483000;background:#14181d;border:1px solid rgba(255,255,255,0.14);border-radius:10px;padding:12px 16px;font-family:system-ui,-apple-system,Segoe UI,sans-serif;min-width:180px}#gw-profile .gwp-label{font-size:10px;letter-spacing:1px;text-transform:uppercase;color:#8a97a3;margin-bottom:4px}#gw-profile .gwp-name{font-size:14px;font-weight:700;color:#fff}#gw-profile .gwp-email{font-size:11px;color:#8a97a3;margin:2px 0 10px;word-break:break-all}#gw-profile .gwp-wallet{display:block;text-align:center;padding:8px;border-radius:8px;background:#e91e63;color:#fff;font-size:12px;font-weight:600;text-decoration:none}";document.head.appendChild(css);var c=document.createElement("div");c.id="gw-profile";c.innerHTML='<div class="gwp-label">GachaWiki member</div><div class="gwp-name">'+esc(name)+'</div><div class="gwp-email">'+esc(email)+'</div><a class="gwp-wallet" href="/verify">Connect Wallet</a>';document.body.appendChild(c)})})();</script>`;
+
 // Personal code derived from a Discord user id: stable forever for that account.
 async function deriveCode(secret, discordId) {
   const h = await hmac(secret, 'discord:' + discordId);
@@ -257,6 +260,14 @@ export default {
       return new Response(codeSent, { headers: { 'Content-Type': 'text/html; charset=utf-8', 'Cache-Control': 'no-store' } });
     }
 
+    if (url.pathname === '/whoami') {
+      const m = await sessionMember(request, secret);
+      return new Response(JSON.stringify({ member: m }), {
+        status: m ? 200 : 401,
+        headers: { 'Content-Type': 'application/json', 'Cache-Control': 'no-store' },
+      });
+    }
+
     const member = await sessionMember(request, secret);
     if (!member) {
       const next = url.pathname === '/' ? '/' : url.pathname + url.search;
@@ -269,6 +280,7 @@ export default {
     const originUrl = 'https://gacha-wiki.pages.dev' + url.pathname + url.search;
     const originHeaders = new Headers(request.headers);
     originHeaders.set('x-gw-origin', originSig);
+    originHeaders.delete('accept-encoding');
     const originResp = await fetch(originUrl, {
       method: request.method,
       headers: originHeaders,
@@ -277,6 +289,16 @@ export default {
     });
     const respHeaders = new Headers(originResp.headers);
     respHeaders.delete('set-cookie');
+    const ct = respHeaders.get('content-type') || '';
+    if (request.method === 'GET' && originResp.status === 200 && ct.includes('text/html')) {
+      let html = await originResp.text();
+      respHeaders.delete('content-length');
+      respHeaders.delete('content-encoding');
+      respHeaders.delete('etag');
+      respHeaders.set('cache-control', 'no-store');
+      html = html.includes('</body>') ? html.replace('</body>', PROFILE_WIDGET + '</body>') : html + PROFILE_WIDGET;
+      return new Response(html, { status: 200, headers: respHeaders });
+    }
     return new Response(originResp.body, { status: originResp.status, headers: respHeaders });
   },
 };
