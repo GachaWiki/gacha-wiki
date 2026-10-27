@@ -10,9 +10,13 @@ const SESSION_DAYS = 30;
 const GW_SECRET_ENV = null; // secret GW_SECRET is set via wrangler secret
 const enc = new TextEncoder();
 
-// One shared invite code, posted only in the Discord members channel (role-gated).
-// Approval = the maintainer grants the Discord role; the code alone is not personal.
-const INVITE_CODE = 'QA4D-4SS4-BQZZ';
+// Personal invite codes: each member fetches their own code at /code by signing in
+// with Discord and holding the required server role. The code is derived
+// deterministically from their Discord account (always the same for that person),
+// recorded in KV (invite:<CODE> -> {discord, email}) and bound to the first email
+// that registers with it. MAINTAINER_CODE bootstraps the maintainer account.
+const MAINTAINER_EMAIL = 'elfhuyace@gmail.com';
+const MAINTAINER_CODE = 'QA4D-4SS4-BQZZ';
 // Emails in this set are banned: existing sessions die and re-registration is refused.
 const BLOCKED = {};
 
@@ -66,9 +70,32 @@ function page(opts) {
     + (error ? '<p class="err">' + esc(error) + '</p>' : '')
     + (notice ? '<p class="ok">' + esc(notice) + '</p>' : '')
     + '<div class="panel"><h2>Sign in</h2><form method="POST" action="/login"><input type="email" name="email" placeholder="Email" value="' + esc(email) + '" autocomplete="email" required><input type="password" name="password" placeholder="Password" autocomplete="current-password" required><button type="submit">Sign in</button></form></div>'
-    + '<div class="panel"><h2>Sign up (new members)</h2><form method="POST" action="/register"><input type="email" name="email" placeholder="Email" value="' + esc(email) + '" autocomplete="email" required><input name="code" placeholder="Invite code" autocomplete="off" required><input type="password" name="password" placeholder="Choose a password (8+ characters)" autocomplete="new-password" minlength="8" required><button type="submit">Sign up</button><p class="note">New members need an invite code. Forgot your password? Enter your email, invite code and a new password here.</p><p class="note">No invite code yet? Join our Discord: <a href="https://discord.gg/YdWFddQKR8" target="_blank" rel="noopener">discord.gg/YdWFddQKR8</a></p></form></div>'
+    + '<div class="panel"><h2>Sign up (new members)</h2><form method="POST" action="/register"><input type="email" name="email" placeholder="Email" value="' + esc(email) + '" autocomplete="email" required><input name="code" placeholder="Invite code" autocomplete="off" required><input type="password" name="password" placeholder="Choose a password (8+ characters)" autocomplete="new-password" minlength="8" required><button type="submit">Sign up</button><p class="note">New members need a personal invite code. Get yours with Discord: <a href="/code">get my code</a>. Forgot your password? Enter your email, your code and a new password here.</p><p class="note">Not a member yet? Join our Discord: <a href="https://discord.gg/YdWFddQKR8" target="_blank" rel="noopener">discord.gg/YdWFddQKR8</a></p></form></div>'
     + '<div class="why"><h2>Why is GachaWiki members-only?</h2>This wiki covers games with adult (18+) content. Public access would expose that content to minors, and regulations in many countries require adult content to be age-restricted. GachaWiki is therefore members-only: every account is approved personally by the maintainer, and access can be revoked at any time.</div>'
     + '</div></body></html>';
+}
+
+// Personal code derived from a Discord user id: stable forever for that account.
+async function deriveCode(secret, discordId) {
+  const h = await hmac(secret, 'discord:' + discordId);
+  const alphabet = 'ABCDEFGHJKLMNPQRSTUVWXYZ23456789';
+  const groups = [];
+  for (let g = 0; g < 3; g++) {
+    let s = '';
+    for (let i = 0; i < 4; i++) s += alphabet[parseInt(h.slice(g * 4 + i, g * 4 + i + 1), 16) % alphabet.length];
+    groups.push(s);
+  }
+  return groups.join('-');
+}
+
+const shell = (body) => '<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>GachaWiki Members</title><style>body{margin:0;min-height:100vh;display:flex;align-items:center;justify-content:center;background:#101418;color:#d7dde3;font-family:system-ui,-apple-system,"Segoe UI",sans-serif;line-height:1.6;padding:24px}.panel{max-width:480px;width:100%;border:1px solid rgba(255,255,255,0.1);border-radius:12px;background:rgba(255,255,255,0.04);padding:40px 32px;text-align:center}h1{font-size:22px;color:#fff;margin:0 0 6px}h1 span{color:#e91e63}p{font-size:15px;color:#aeb8c2;margin:8px 0 18px}.code{font-size:26px;letter-spacing:3px;color:#fff;background:#0b0e11;border:1px solid rgba(255,255,255,0.18);border-radius:8px;padding:14px;margin:18px 0;font-weight:700}a.btn{display:block;padding:12px;border-radius:8px;background:#5865f2;color:#fff;font-size:15px;font-weight:600;text-decoration:none}a.btn.ghost{background:#1f2937;margin-top:10px}.err{color:#e91e63}.note{font-size:13px;color:#8a97a3;margin-top:16px}</style></head><body><div class="panel">' + body + '</div></body></html>';
+
+const codeLanding = shell('<h1>Gacha<span>Wiki</span> Members</h1><p>Sign in with Discord to get your personal invite code.</p><a class="btn" href="/code/start">Continue with Discord</a><p class="note">You need the member role on our Discord server first.</p><p class="note"><a href="/login">Back to sign in</a></p>');
+const codeNotConfigured = shell('<h1>Gacha<span>Wiki</span> Members</h1><p class="err">Code pickup is being set up. Please check back shortly.</p><p class="note"><a href="/login">Back to sign in</a></p>');
+const codeNoRole = shell('<h1>Gacha<span>Wiki</span> Members</h1><p class="err">You do not have the member role yet.</p><p>Ask for the role in our Discord server, then come back here.</p><a class="btn ghost" href="/login">Back to sign in</a>');
+
+function codeSuccess(code) {
+  return shell('<h1>Your personal code</h1><div class="code">' + code + '</div><p>This code is yours alone and never changes. Use it once to sign up (or to reset your password) with your email at the sign in page.</p><a class="btn" href="/login">Go to sign up</a><p class="note">Do not share this code: it is linked to you.</p>');
 }
 
 async function tooManyFails(env, email) {
@@ -107,12 +134,29 @@ export default {
         if (email in BLOCKED) {
           return new Response(page({ error: 'Access for this account has been revoked by the maintainer.', email }), { status: 403, headers: { 'Content-Type': 'text/html; charset=utf-8', 'Cache-Control': 'no-store' } });
         }
-        if (INVITE_CODE !== code) {
+        // valid codes: the maintainer bootstrap pair, or a personal code fetched at /code
+        let invite = null;
+        if (code === MAINTAINER_CODE && email === MAINTAINER_EMAIL) {
+          invite = { maintainer: true };
+        } else {
+          const rec = await env.MEMBERS.get('invite:' + code);
+          if (rec) {
+            invite = JSON.parse(rec);
+            if (invite.email && invite.email !== email) {
+              return new Response(page({ error: 'This code belongs to another account. Fetch your own code with Discord below.', email }), { status: 401, headers: { 'Content-Type': 'text/html; charset=utf-8', 'Cache-Control': 'no-store' } });
+            }
+          }
+        }
+        if (!invite) {
           await recordFail(env, email);
-          return new Response(page({ error: 'That invite code is not valid. Get the current code from the members channel on our Discord.', email }), { status: 401, headers: { 'Content-Type': 'text/html; charset=utf-8', 'Cache-Control': 'no-store' } });
+          return new Response(page({ error: 'That invite code is not valid. Fetch your personal code with Discord below.', email }), { status: 401, headers: { 'Content-Type': 'text/html; charset=utf-8', 'Cache-Control': 'no-store' } });
         }
         if (password.length < 8) {
           return new Response(page({ error: 'Password must be at least 8 characters.', email }), { status: 400, headers: { 'Content-Type': 'text/html; charset=utf-8', 'Cache-Control': 'no-store' } });
+        }
+        if (!invite.maintainer && !invite.email) {
+          invite.email = email;
+          await env.MEMBERS.put('invite:' + code, JSON.stringify(invite));
         }
         const salt = hex(crypto.getRandomValues(new Uint8Array(16)));
         const hash = await passwordHash(password, salt);
@@ -137,6 +181,58 @@ export default {
       const next = String(form.get('next') || '/');
       const safeNext = next.startsWith('/') && !next.startsWith('//') ? next : '/';
       return new Response(null, { status: 303, headers: { 'Location': safeNext, 'Set-Cookie': cookie, 'Cache-Control': 'no-store' } });
+    }
+
+    // ---- personal code pickup via Discord ----
+    if (url.pathname === '/code' || url.pathname === '/code/' || url.pathname === '/code/start' || url.pathname === '/code/callback') {
+      const clientId = env.DISCORD_CLIENT_ID;
+      const clientSecret = env.DISCORD_CLIENT_SECRET;
+      const guildId = env.DISCORD_GUILD_ID;
+      const roleId = env.DISCORD_ROLE_ID;
+      const redirectUri = 'https://gachawiki.info/code/callback';
+      if (!clientId || !clientSecret || !guildId || !roleId) {
+        return new Response(codeNotConfigured, { headers: { 'Content-Type': 'text/html; charset=utf-8', 'Cache-Control': 'no-store' } });
+      }
+      if (url.pathname === '/code/start') {
+        const state = hex(crypto.getRandomValues(new Uint8Array(16)));
+        const authorize = 'https://discord.com/oauth2/authorize?client_id=' + encodeURIComponent(clientId)
+          + '&response_type=code&redirect_uri=' + encodeURIComponent(redirectUri)
+          + '&scope=' + encodeURIComponent('identify guilds.members.read') + '&state=' + state;
+        return new Response(null, { status: 302, headers: { Location: authorize, 'Set-Cookie': 'gw_oauth=' + state + '; Path=/code; Max-Age=600; HttpOnly; Secure; SameSite=Lax', 'Cache-Control': 'no-store' } });
+      }
+      if (url.pathname === '/code/callback') {
+        const state = url.searchParams.get('state') || '';
+        const oauthCode = url.searchParams.get('code') || '';
+        const cookieState = (request.headers.get('Cookie') || '').match(/gw_oauth=([a-f0-9]+)/);
+        if (!oauthCode || !state || !cookieState || cookieState[1] !== state) {
+          return Response.redirect('https://gachawiki.info/code/start', 302);
+        }
+        const tokenResp = await fetch('https://discord.com/api/oauth2/token', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+          body: new URLSearchParams({ client_id: clientId, client_secret: clientSecret, grant_type: 'authorization_code', code: oauthCode, redirect_uri: redirectUri }),
+        });
+        if (!tokenResp.ok) return new Response(codeNotConfigured, { headers: { 'Content-Type': 'text/html; charset=utf-8', 'Cache-Control': 'no-store' } });
+        const token = (await tokenResp.json()).access_token;
+        const authHeaders = { Authorization: 'Bearer ' + token };
+        const meResp = await fetch('https://discord.com/api/users/@me', { headers: authHeaders });
+        if (!meResp.ok) return new Response(codeNotConfigured, { headers: { 'Content-Type': 'text/html; charset=utf-8', 'Cache-Control': 'no-store' } });
+        const me = await meResp.json();
+        const memberResp = await fetch('https://discord.com/api/users/@me/guilds/' + guildId + '/member', { headers: authHeaders });
+        if (!memberResp.ok) return new Response(codeNoRole, { status: 403, headers: { 'Content-Type': 'text/html; charset=utf-8', 'Cache-Control': 'no-store' } });
+        const member = await memberResp.json();
+        if (!Array.isArray(member.roles) || !member.roles.includes(roleId)) {
+          return new Response(codeNoRole, { status: 403, headers: { 'Content-Type': 'text/html; charset=utf-8', 'Cache-Control': 'no-store' } });
+        }
+        const code = await deriveCode(secret, me.id);
+        const key = 'invite:' + code;
+        const existing = await env.MEMBERS.get(key);
+        const rec = existing ? JSON.parse(existing) : { discord: me.id, discord_name: me.username, email: null, created: Date.now() };
+        rec.discord = me.id;
+        await env.MEMBERS.put(key, JSON.stringify(rec));
+        return new Response(codeSuccess(code), { headers: { 'Content-Type': 'text/html; charset=utf-8', 'Cache-Control': 'no-store' } });
+      }
+      return new Response(codeLanding, { headers: { 'Content-Type': 'text/html; charset=utf-8', 'Cache-Control': 'no-store' } });
     }
 
     const member = await sessionMember(request, secret);
