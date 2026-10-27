@@ -102,7 +102,7 @@ export const MEMORY_TIER_LIST = {
     },
     Destroyer: {
       UR: [],
-      SSS: [{ name: "A Dream of Peace" }],
+      SSS: [{ name: "A Dream of Peace" }, { name: "Let's play with Suzuka" }],
       SS: [{ name: "Night of Blood and Storm" }, { name: "The Servant's Aspiration" }, { name: "Unreserved love" }],
       S: [{ name: "Reorganizing Revolution" }, { name: "The maid's bath" }, { name: "The Way of Revenge" }],
       A: [
@@ -116,7 +116,7 @@ export const MEMORY_TIER_LIST = {
     },
     Supporter: {
       UR: [{ name: "Unholy Alliance" }],
-      SSS: [{ name: "Absolutely perfect buttocks" }, { name: "Bath Time" }, { name: "Hot Spring & Her " }],
+      SSS: [{ name: "Absolutely perfect buttocks" }, { name: "Bath Time" }, { name: "Hot Spring & Her " }, { name: "Spooky Soup" }],
       SS: [{ name: "Awkward Appearance" }, { name: "The Loneliest Moment" }],
       S: [{ name: "And Also Chocolate" }, { name: "Dawn's Sunlight" }],
       A: [{ name: "Sleep Treasure" }, { name: "SUPPORTER REMEM." }],
