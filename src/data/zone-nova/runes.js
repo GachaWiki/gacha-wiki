@@ -1,7 +1,7 @@
 // Zone Nova Rune Sets Data
-// Regenerated 2026-09-04 from live master data (equipment_info + equipment_passive_info
-// set ids 101-114). Names/bonuses are the game's own localization (color tags stripped).
-// The 4 element-damage sets (Kryos/Anemos/Hepha/Skota) are the newest wave.
+// Regenerated from live master data (equipment_info + equipment_passive_info
+// set ids 101-116). Names/bonuses are the game's own localization (color tags stripped).
+// Newest wave (2026-10-27): Aether (Holy Damage) + Harmonia (Support Boost).
 
 const SETS = {
   Alpha: {
@@ -94,7 +94,6 @@ const SETS = {
     tag: 'Frost Damage',
     chineseName: '克里奧斯',
     image: 'Kryos.webp',
-    isNew: true,
     twoPiece: 'Frost damage increased by 10%',
     fourPiece:
       'For every 10% reduction in Normal Attack cooldown, Frost damage is increased by 4% and Critical Damage is increased by 3.6%, up to a maximum of 5 stacks',
@@ -104,7 +103,6 @@ const SETS = {
     tag: 'Storm Damage',
     chineseName: '阿涅莫斯',
     image: 'Anemos.webp',
-    isNew: true,
     twoPiece: 'Storm damage increased by 10%',
     fourPiece:
       'After dealing Storm attribute skill damage, the user’s Storm damage is increased by 4% and the target’s Defense is reduced by 6% for 5 seconds, stacking up to 5 times',
@@ -114,7 +112,6 @@ const SETS = {
     tag: 'Blaze Damage',
     chineseName: '赫法',
     image: 'Hepha.webp',
-    isNew: true,
     twoPiece: 'Blaze damage increased by 10%',
     fourPiece:
       'When dealing Blaze attribute Ultimate Skill damage, Critical Rate is increased by 12% and Attack Power is increased by 16%',
@@ -124,10 +121,29 @@ const SETS = {
     tag: 'Chaos Damage',
     chineseName: '斯科塔',
     image: 'Skota.webp',
-    isNew: true,
     twoPiece: 'Chaos damage increased by 10%',
     fourPiece:
       'Attack Power increased by 12%. Chaos resistance penetration increased by 12% during the release of the Ultimate Skill (triggers at most once every 5 seconds)',
+  },
+  Aether: {
+    name: 'Aether',
+    tag: 'Holy Damage',
+    chineseName: '艾忒爾',
+    image: 'Aether.webp',
+    isNew: true,
+    twoPiece: 'Holy damage increases by 10%',
+    fourPiece:
+      'When dealing Holy damage, own Holy damage increases by 1% and penetration by 0.5% for 3.5 seconds, stacking up to 20 times',
+  },
+  Harmonia: {
+    name: 'Harmonia',
+    tag: 'Support Boost',
+    chineseName: '哈莫尼亞',
+    image: 'Harmonia.webp',
+    isNew: true,
+    twoPiece: 'Attack increases by 8%',
+    fourPiece:
+      'Attack increases by 50%. After entering battle, Attack decreases by 5% every 5 seconds, up to a maximum decrease of 50%. If the wearer is a Supporter, at the start of battle they also transfer 10% of their current Attack to the other allied unit on the field with the highest Attack',
   },
 };
 

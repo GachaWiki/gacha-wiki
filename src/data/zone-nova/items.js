@@ -1,5 +1,5 @@
 // Zone Nova item database - generated from decrypted stack_item_info master data
-// 498 items. Source: D:\ZoneNova\output\masterdata (AES crack 2026-09-03).
+// 515 items. Source: D:\ZoneNova\output\masterdata (AES crack 2026-09-03).
 // Regen: python D:\ZoneNova\gen_items_js.py
 
 export const items = [
@@ -668,6 +668,14 @@ export const items = [
     icon: 'Campaign_Token_40.png',
   },
   {
+    id: 8801,
+    name: 'Event Currency',
+    description: 'Phantom Night Festival: The Chase Beneath the Mask Token',
+    rarity: 'SSR',
+    type: 'Campaign Token',
+    icon: 'Campaign_Token_8002.png',
+  },
+  {
     id: 9000,
     name: 'Selectable Permanent Character',
     description: 'Can select one Permanent Character',
@@ -813,7 +821,7 @@ export const items = [
   },
   {
     id: 9018,
-    name: 'DMM 15th Anniversary Selectable Limited Remembrance',
+    name: 'Exclusive Selectable Limited Remembrance',
     description: 'You can choose to obtain one of the specified limited memories or permanent Remembrance.',
     rarity: 'SSR',
     type: 'Selection Box',
@@ -868,6 +876,22 @@ export const items = [
     icon: 'Icon_Remem_Random.png',
   },
   {
+    id: 9025,
+    name: 'Selectable Limited Character III',
+    description: 'You can choose one of the specified limited-time characters or permanent characters.',
+    rarity: 'SSR',
+    type: 'Selection Box',
+    icon: 'Icon_Char_Pickbox.png',
+  },
+  {
+    id: 9026,
+    name: 'Selectable Limited Remembrance III',
+    description: 'You can choose to obtain one of the specified limited memories or permanent Remembrance.',
+    rarity: 'SSR',
+    type: 'Selection Box',
+    icon: 'Icon_Remem_Pickbox.png',
+  },
+  {
     id: 9101,
     name: 'Selectable Limited Character Avatar I',
     description: 'You can choose one of the specified limited-edition character avatars.',
@@ -878,7 +902,7 @@ export const items = [
   {
     id: 9250,
     name: 'Prayer Codex Character Selector',
-    description: 'Consume one selector to choose one reward from 39 options.',
+    description: 'Consume one selector to choose one reward from 40 options.',
     rarity: 'SSR',
     type: 'Selection Box',
     icon: 'Icon_Char_Pickbox.png',
@@ -886,7 +910,7 @@ export const items = [
   {
     id: 9251,
     name: 'Prayer Codex Remembrance Selector',
-    description: 'Consume one selector to choose one reward from 39 options.',
+    description: 'Consume one selector to choose one reward from 40 options.',
     rarity: 'SSR',
     type: 'Selection Box',
     icon: 'Icon_Remem_Pickbox.png',
@@ -926,7 +950,7 @@ export const items = [
   {
     id: 9264,
     name: 'New Prayer Codex Page · Dawn',
-    description: 'Spend New Prayer Codex Page · Dawn ×1 to draw 1 Archive using the group odds and receive Prayer Codex Fragment ×1. Redeem the Archive in Character & Remembrance Redemption for its fixed character ×1 and corresponding remembrance ×1. Group 1: 50% (7 equally likely Archives) Cynia\'s Archive, Cleopatra\'s Archive, Guinevere\'s Archive, Gaia\'s Archive, Zeus\'s Archive, Athena\'s Archive, Hela\'s Archive Group 2: 45% (6 equally likely Archives) Odin\'s Archive, Thor\'s Archive, Frigga\'s Archive, Freya\'s Archive, Tamamo-no-Mae\'s Archive, Shuten-dōji\'s Archive Group 3: 2% (9 equally likely Archives) Ibaraki-doji\'s Archive, Jorogumo\'s Archive, Keller\'s Archive, Hiyori\'s Archive, Sharin\'s Archive, Jill\'s Archive, Lust - Asmodeus\'s Archive, Pride - Lucifer\'s Archive, Wrath - Samael\'s Archive Group 4: 2% (9 equally likely Archives) Gluttony - Beelzebub\'s Archive, Lavinia\'s Archive, Lily\'s Archive, Nini\'s Archive, Morgan Le Fey\'s Archive, Apep\'s Archive, Erika\'s Archive, Veronica\'s Archive, Sigurd\'s Archive Group 5: 1% (8 equally likely Archives) Set\'s Archive, Nephthys\'s Archive, Bedivere\'s Archive, Bors\'s Archive, Poseidon\'s Archive, Medusa\'s Archive, Brynhild\'s Archive, Fenrir\'s Archive Select a group using the odds above, then draw 1 Archive uniformly within it. Each Archive has probability equal to its group probability divided by the number of Archives in that group.',
+    description: 'Spend New Prayer Codex Page · Dawn ×1 to draw 1 Archive using the group odds and receive Prayer Codex Fragment ×1. Redeem the Archive in Character & Remembrance Redemption for its fixed character ×1 and corresponding remembrance ×1. Group 1: 50% (8 equally likely Archives) Cynia\'s Archive, Cleopatra\'s Archive, Guinevere\'s Archive, Gaia\'s Archive, Zeus\'s Archive, Athena\'s Archive, Hela\'s Archive, Odin\'s Archive Group 2: 45% (6 equally likely Archives) Thor\'s Archive, Frigga\'s Archive, Freya\'s Archive, Tamamo-no-Mae\'s Archive, Shuten-dōji\'s Archive, Ibaraki-doji\'s Archive Group 3: 2% (9 equally likely Archives) Jorogumo\'s Archive, Keller\'s Archive, Hiyori\'s Archive, Sharin\'s Archive, Jill\'s Archive, Lust - Asmodeus\'s Archive, Pride - Lucifer\'s Archive, Wrath - Samael\'s Archive, Gluttony - Beelzebub\'s Archive Group 4: 2% (9 equally likely Archives) Lavinia\'s Archive, Lily\'s Archive, Nini\'s Archive, Morgan Le Fey\'s Archive, Apep\'s Archive, Erika\'s Archive, Veronica\'s Archive, Sigurd\'s Archive, Set\'s Archive Group 5: 1% (8 equally likely Archives) Nephthys\'s Archive, Bedivere\'s Archive, Bors\'s Archive, Poseidon\'s Archive, Medusa\'s Archive, Brynhild\'s Archive, Fenrir\'s Archive, Ootakemaru\'s Archive Select a group using the odds above, then draw 1 Archive uniformly within it. Each Archive has probability equal to its group probability divided by the number of Archives in that group.',
     rarity: 'SSR',
     type: 'Other',
     icon: 'Icon_Pray_Ticket_1.png',
@@ -934,7 +958,7 @@ export const items = [
   {
     id: 9265,
     name: 'New Prayer Codex Page · Echo',
-    description: 'Spend New Prayer Codex Page · Echo ×1 to draw 1 Archive using the group odds and receive Prayer Codex Fragment ×2. Redeem the Archive in Character & Remembrance Redemption for its fixed character ×1 and corresponding remembrance ×1. Group 1: 35% (7 equally likely Archives) Cynia\'s Archive, Cleopatra\'s Archive, Guinevere\'s Archive, Gaia\'s Archive, Zeus\'s Archive, Athena\'s Archive, Hela\'s Archive Group 2: 45% (6 equally likely Archives) Odin\'s Archive, Thor\'s Archive, Frigga\'s Archive, Freya\'s Archive, Tamamo-no-Mae\'s Archive, Shuten-dōji\'s Archive Group 3: 15% (9 equally likely Archives) Ibaraki-doji\'s Archive, Jorogumo\'s Archive, Keller\'s Archive, Hiyori\'s Archive, Sharin\'s Archive, Jill\'s Archive, Lust - Asmodeus\'s Archive, Pride - Lucifer\'s Archive, Wrath - Samael\'s Archive Group 4: 3% (9 equally likely Archives) Gluttony - Beelzebub\'s Archive, Lavinia\'s Archive, Lily\'s Archive, Nini\'s Archive, Morgan Le Fey\'s Archive, Apep\'s Archive, Erika\'s Archive, Veronica\'s Archive, Sigurd\'s Archive Group 5: 2% (8 equally likely Archives) Set\'s Archive, Nephthys\'s Archive, Bedivere\'s Archive, Bors\'s Archive, Poseidon\'s Archive, Medusa\'s Archive, Brynhild\'s Archive, Fenrir\'s Archive Select a group using the odds above, then draw 1 Archive uniformly within it. Each Archive has probability equal to its group probability divided by the number of Archives in that group.',
+    description: 'Spend New Prayer Codex Page · Echo ×1 to draw 1 Archive using the group odds and receive Prayer Codex Fragment ×2. Redeem the Archive in Character & Remembrance Redemption for its fixed character ×1 and corresponding remembrance ×1. Group 1: 35% (8 equally likely Archives) Cynia\'s Archive, Cleopatra\'s Archive, Guinevere\'s Archive, Gaia\'s Archive, Zeus\'s Archive, Athena\'s Archive, Hela\'s Archive, Odin\'s Archive Group 2: 45% (6 equally likely Archives) Thor\'s Archive, Frigga\'s Archive, Freya\'s Archive, Tamamo-no-Mae\'s Archive, Shuten-dōji\'s Archive, Ibaraki-doji\'s Archive Group 3: 15% (9 equally likely Archives) Jorogumo\'s Archive, Keller\'s Archive, Hiyori\'s Archive, Sharin\'s Archive, Jill\'s Archive, Lust - Asmodeus\'s Archive, Pride - Lucifer\'s Archive, Wrath - Samael\'s Archive, Gluttony - Beelzebub\'s Archive Group 4: 3% (9 equally likely Archives) Lavinia\'s Archive, Lily\'s Archive, Nini\'s Archive, Morgan Le Fey\'s Archive, Apep\'s Archive, Erika\'s Archive, Veronica\'s Archive, Sigurd\'s Archive, Set\'s Archive Group 5: 2% (8 equally likely Archives) Nephthys\'s Archive, Bedivere\'s Archive, Bors\'s Archive, Poseidon\'s Archive, Medusa\'s Archive, Brynhild\'s Archive, Fenrir\'s Archive, Ootakemaru\'s Archive Select a group using the odds above, then draw 1 Archive uniformly within it. Each Archive has probability equal to its group probability divided by the number of Archives in that group.',
     rarity: 'SSR',
     type: 'Other',
     icon: 'Icon_Pray_Ticket_2.png',
@@ -942,7 +966,7 @@ export const items = [
   {
     id: 9266,
     name: 'New Prayer Codex Page · Verse',
-    description: 'Spend New Prayer Codex Page · Verse ×1 to draw 1 Archive using the group odds and receive Prayer Codex Fragment ×3. Redeem the Archive in Character & Remembrance Redemption for its fixed character ×1 and corresponding remembrance ×1. Group 1: 25% (7 equally likely Archives) Cynia\'s Archive, Cleopatra\'s Archive, Guinevere\'s Archive, Gaia\'s Archive, Zeus\'s Archive, Athena\'s Archive, Hela\'s Archive Group 2: 35% (6 equally likely Archives) Odin\'s Archive, Thor\'s Archive, Frigga\'s Archive, Freya\'s Archive, Tamamo-no-Mae\'s Archive, Shuten-dōji\'s Archive Group 3: 20% (9 equally likely Archives) Ibaraki-doji\'s Archive, Jorogumo\'s Archive, Keller\'s Archive, Hiyori\'s Archive, Sharin\'s Archive, Jill\'s Archive, Lust - Asmodeus\'s Archive, Pride - Lucifer\'s Archive, Wrath - Samael\'s Archive Group 4: 15% (9 equally likely Archives) Gluttony - Beelzebub\'s Archive, Lavinia\'s Archive, Lily\'s Archive, Nini\'s Archive, Morgan Le Fey\'s Archive, Apep\'s Archive, Erika\'s Archive, Veronica\'s Archive, Sigurd\'s Archive Group 5: 5% (8 equally likely Archives) Set\'s Archive, Nephthys\'s Archive, Bedivere\'s Archive, Bors\'s Archive, Poseidon\'s Archive, Medusa\'s Archive, Brynhild\'s Archive, Fenrir\'s Archive Select a group using the odds above, then draw 1 Archive uniformly within it. Each Archive has probability equal to its group probability divided by the number of Archives in that group.',
+    description: 'Spend New Prayer Codex Page · Verse ×1 to draw 1 Archive using the group odds and receive Prayer Codex Fragment ×3. Redeem the Archive in Character & Remembrance Redemption for its fixed character ×1 and corresponding remembrance ×1. Group 1: 25% (8 equally likely Archives) Cynia\'s Archive, Cleopatra\'s Archive, Guinevere\'s Archive, Gaia\'s Archive, Zeus\'s Archive, Athena\'s Archive, Hela\'s Archive, Odin\'s Archive Group 2: 35% (6 equally likely Archives) Thor\'s Archive, Frigga\'s Archive, Freya\'s Archive, Tamamo-no-Mae\'s Archive, Shuten-dōji\'s Archive, Ibaraki-doji\'s Archive Group 3: 20% (9 equally likely Archives) Jorogumo\'s Archive, Keller\'s Archive, Hiyori\'s Archive, Sharin\'s Archive, Jill\'s Archive, Lust - Asmodeus\'s Archive, Pride - Lucifer\'s Archive, Wrath - Samael\'s Archive, Gluttony - Beelzebub\'s Archive Group 4: 15% (9 equally likely Archives) Lavinia\'s Archive, Lily\'s Archive, Nini\'s Archive, Morgan Le Fey\'s Archive, Apep\'s Archive, Erika\'s Archive, Veronica\'s Archive, Sigurd\'s Archive, Set\'s Archive Group 5: 5% (8 equally likely Archives) Nephthys\'s Archive, Bedivere\'s Archive, Bors\'s Archive, Poseidon\'s Archive, Medusa\'s Archive, Brynhild\'s Archive, Fenrir\'s Archive, Ootakemaru\'s Archive Select a group using the odds above, then draw 1 Archive uniformly within it. Each Archive has probability equal to its group probability divided by the number of Archives in that group.',
     rarity: 'SSR',
     type: 'Other',
     icon: 'Icon_Pray_Ticket_3.png',
@@ -950,10 +974,74 @@ export const items = [
   {
     id: 9267,
     name: 'New Prayer Codex Page · Crown',
-    description: 'Spend New Prayer Codex Page · Crown ×1 to draw 1 Archive using the group odds and receive Prayer Codex Fragment ×6. Redeem the Archive in Character & Remembrance Redemption for its fixed character ×1 and corresponding remembrance ×1. Group 3: 35% (9 equally likely Archives) Ibaraki-doji\'s Archive, Jorogumo\'s Archive, Keller\'s Archive, Hiyori\'s Archive, Sharin\'s Archive, Jill\'s Archive, Lust - Asmodeus\'s Archive, Pride - Lucifer\'s Archive, Wrath - Samael\'s Archive Group 4: 35% (9 equally likely Archives) Gluttony - Beelzebub\'s Archive, Lavinia\'s Archive, Lily\'s Archive, Nini\'s Archive, Morgan Le Fey\'s Archive, Apep\'s Archive, Erika\'s Archive, Veronica\'s Archive, Sigurd\'s Archive Group 5: 30% (8 equally likely Archives) Set\'s Archive, Nephthys\'s Archive, Bedivere\'s Archive, Bors\'s Archive, Poseidon\'s Archive, Medusa\'s Archive, Brynhild\'s Archive, Fenrir\'s Archive Select a group using the odds above, then draw 1 Archive uniformly within it. Each Archive has probability equal to its group probability divided by the number of Archives in that group.',
+    description: 'Spend New Prayer Codex Page · Crown ×1 to draw 1 Archive using the group odds and receive Prayer Codex Fragment ×6. Redeem the Archive in Character & Remembrance Redemption for its fixed character ×1 and corresponding remembrance ×1. Group 3: 35% (9 equally likely Archives) Jorogumo\'s Archive, Keller\'s Archive, Hiyori\'s Archive, Sharin\'s Archive, Jill\'s Archive, Lust - Asmodeus\'s Archive, Pride - Lucifer\'s Archive, Wrath - Samael\'s Archive, Gluttony - Beelzebub\'s Archive Group 4: 35% (9 equally likely Archives) Lavinia\'s Archive, Lily\'s Archive, Nini\'s Archive, Morgan Le Fey\'s Archive, Apep\'s Archive, Erika\'s Archive, Veronica\'s Archive, Sigurd\'s Archive, Set\'s Archive Group 5: 30% (8 equally likely Archives) Nephthys\'s Archive, Bedivere\'s Archive, Bors\'s Archive, Poseidon\'s Archive, Medusa\'s Archive, Brynhild\'s Archive, Fenrir\'s Archive, Ootakemaru\'s Archive Select a group using the odds above, then draw 1 Archive uniformly within it. Each Archive has probability equal to its group probability divided by the number of Archives in that group.',
     rarity: 'SSR',
     type: 'Other',
     icon: 'Icon_Pray_Ticket_4.png',
+  },
+  {
+    id: 9270,
+    name: 'Halloween Character Surprise Box (DX)',
+    description: 'Upon activation, one of the following results will be randomly obtained: 45% chance to obtain 8080 Luminite Crystal; 45% chance to obtain the character [Mira] x1; 5% chance to obtain both 8080 Luminite Crystal and the character [Mira] x1; 2.5% chance to obtain 16160 Luminite Crystal; 2.5% chance to obtain the character [Mira] x2.',
+    rarity: 'SSR',
+    type: 'Other',
+    icon: 'Icon_Halloween_Character.png',
+  },
+  {
+    id: 9271,
+    name: 'Halloween Remembrance Surprise Box (DX)',
+    description: 'Upon activation, one of the following results will be randomly obtained: 45% chance to obtain 3880 Luminite Crystal; 45% chance to obtain the remembrance [Spooky Soup] x1; 5% chance to obtain both 3880 Luminite Crystal and the remembrance [Spooky Soup] x1; 2.5% chance to obtain 7760 Luminite Crystal; 2.5% chance to obtain the remembrance [Spooky Soup] x2.',
+    rarity: 'SSR',
+    type: 'Other',
+    icon: 'Icon_Halloween_Remembrance.png',
+  },
+  {
+    id: 9272,
+    name: 'Halloween Character Surprise Box (S)',
+    description: 'Open for a 1% chance of the character [Mila] ×1 or a 99% chance of 100 Luminite Crystal.',
+    rarity: 'N',
+    type: 'Other',
+    icon: 'Icon_Halloween_Character.png',
+  },
+  {
+    id: 9273,
+    name: 'Halloween Character Surprise Box (M)',
+    description: 'Open for a 2% chance of the character [Mila] ×1 or a 98% chance of 200 Luminite Crystal.',
+    rarity: 'R',
+    type: 'Other',
+    icon: 'Icon_Halloween_Character.png',
+  },
+  {
+    id: 9274,
+    name: 'Halloween Character Surprise Box (L)',
+    description: 'Open for a 3% chance of the character [Mila] ×1 or a 97% chance of 300 Luminite Crystal.',
+    rarity: 'SR',
+    type: 'Other',
+    icon: 'Icon_Halloween_Character.png',
+  },
+  {
+    id: 9275,
+    name: 'Halloween Remembrance Surprise Box (S)',
+    description: 'Open for a 1% chance of the remembrance [Spooky Soup] ×1 or a 99% chance of 100 Luminite Crystal.',
+    rarity: 'N',
+    type: 'Other',
+    icon: 'Icon_Halloween_Remembrance.png',
+  },
+  {
+    id: 9276,
+    name: 'Halloween Remembrance Surprise Box (M)',
+    description: 'Open for a 2% chance of the remembrance [Spooky Soup] ×1 or a 98% chance of 200 Luminite Crystal.',
+    rarity: 'R',
+    type: 'Other',
+    icon: 'Icon_Halloween_Remembrance.png',
+  },
+  {
+    id: 9277,
+    name: 'Halloween Remembrance Surprise Box (L)',
+    description: 'Open for a 3% chance of the remembrance [Spooky Soup] ×1 or a 97% chance of 300 Luminite Crystal.',
+    rarity: 'SR',
+    type: 'Other',
+    icon: 'Icon_Halloween_Remembrance.png',
   },
   {
     id: 10411,
@@ -1932,6 +2020,14 @@ export const items = [
     icon: 'Icon_Player_Icon_4061_Cute.png',
   },
   {
+    id: 91042,
+    name: 'Mila(S)',
+    description: 'Unlocks Mila’s chibi avatar.',
+    rarity: 'SSR',
+    type: 'Avatar',
+    icon: 'Icon_Player_Icon_8002_Cute.png',
+  },
+  {
     id: 92002,
     name: 'Candidate',
     description: '',
@@ -2012,6 +2108,14 @@ export const items = [
     icon: 'Icon_MidAutumn_Frame.png',
   },
   {
+    id: 92012,
+    name: 'Pumpkin Phantom Night',
+    description: 'Pumpkin Phantom Night Avatar Frame',
+    rarity: 'SSR',
+    type: 'Avatar',
+    icon: 'Icon_Halloween_Frame.png',
+  },
+  {
     id: 93002,
     name: 'Illusory Hue',
     description: '',
@@ -2090,6 +2194,14 @@ export const items = [
     rarity: 'SSR',
     type: 'Avatar',
     icon: 'Icon_MidAutumn_Banner.png',
+  },
+  {
+    id: 93012,
+    name: 'Moonlit Shimmer',
+    description: 'Moonlit Shimmer profile card background. Change it in your profile.',
+    rarity: 'SSR',
+    type: 'Avatar',
+    icon: 'Icon_Halloween_Banner.png',
   },
   {
     id: 107301,
@@ -3444,6 +3556,14 @@ export const items = [
     icon: 'Icon_Redeem_4059.png',
   },
   {
+    id: 974060,
+    name: 'Ootakemaru\'s Archive',
+    description: 'Use in the Prayer Codex Shop to receive <color=#E7713B>Ootakemaru</color> ×1 and <color=#E7713B>Drunk General</color> ×1.',
+    rarity: 'SSR',
+    type: 'Other',
+    icon: 'Icon_Redeem_4060.png',
+  },
+  {
     id: 978001,
     name: 'Sigurd\'s Archive',
     description: 'Use in the Prayer Codex Shop to exchange for a Gift and receive <color=#E7713B>Sigurd</color> ×1 and <color=#E7713B>Christmas present</color> ×1.',
@@ -3980,6 +4100,14 @@ export const items = [
     icon: 'Icon_Character_Awaken_4060.png',
   },
   {
+    id: 1104061,
+    name: 'Suzuka Gozen\'s Soul Stone',
+    description: 'Inside, there seems to be a ball of everlasting flame slowly rotating, occasionally flashing bright spots like stars. Its surface is engraved with tiny cracks, but it exudes an indestructible aura, as if it has experienced the baptism of countless years. When you hold it in your hand, a warm and heavy feeling will spread along the palm of your hand and reach the bottom of your heart.',
+    rarity: 'SSR',
+    type: 'Awakening',
+    icon: 'Icon_Character_Awaken_4061.png',
+  },
+  {
     id: 1108001,
     name: 'Sigurd Soul Stone',
     description: 'Inside, there seems to be a ball of everlasting flame slowly rotating, occasionally flashing bright spots like stars. Its surface is engraved with tiny cracks, but it exudes an indestructible aura, as if it has experienced the baptism of countless years. When you hold it in your hand, a warm and heavy feeling will spread along the palm of your hand and reach the bottom of your heart.',
@@ -3987,12 +4115,20 @@ export const items = [
     type: 'Awakening',
     icon: 'Icon_Character_Awaken_8001.png',
   },
+  {
+    id: 1108002,
+    name: 'Mila\'s Soul Stone',
+    description: 'Inside, there seems to be a ball of everlasting flame slowly rotating, occasionally flashing bright spots like stars. Its surface is engraved with tiny cracks, but it exudes an indestructible aura, as if it has experienced the baptism of countless years. When you hold it in your hand, a warm and heavy feeling will spread along the palm of your hand and reach the bottom of your heart.',
+    rarity: 'SSR',
+    type: 'Awakening',
+    icon: 'Icon_Character_Awaken_8002.png',
+  },
 ];
 
 export const itemTypes = [
-  { name: 'Avatar', count: 181 },
-  { name: 'Awakening', count: 67 },
-  { name: 'Campaign Token', count: 40 },
+  { name: 'Avatar', count: 184 },
+  { name: 'Awakening', count: 69 },
+  { name: 'Campaign Token', count: 41 },
   { name: 'Character EXP', count: 3 },
   { name: 'Character Rank-Up', count: 21 },
   { name: 'Character Special', count: 11 },
@@ -4000,11 +4136,11 @@ export const itemTypes = [
   { name: 'Gacha', count: 2 },
   { name: 'Memory EXP', count: 3 },
   { name: 'Memory Rank-Up', count: 21 },
-  { name: 'Other', count: 65 },
+  { name: 'Other', count: 74 },
   { name: 'Rune Craft', count: 1 },
   { name: 'Rune EXP', count: 3 },
   { name: 'Rune Shard', count: 3 },
-  { name: 'Selection Box', count: 38 },
+  { name: 'Selection Box', count: 40 },
   { name: 'Story Unlock', count: 1 },
   { name: 'Talent', count: 15 },
   { name: 'Training Material', count: 22 },
