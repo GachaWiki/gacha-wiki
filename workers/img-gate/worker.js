@@ -56,7 +56,7 @@ export default {
     if (!obj) return new Response('Not found', { status: 404 });
     const headers = new Headers();
     obj.writeHttpMetadata(headers);
-    headers.set('Cache-Control', 'public, max-age=86400');
+    headers.set('Cache-Control', 'private, max-age=604800');
     headers.set('ETag', obj.httpEtag);
     return new Response(obj.body, { headers });
   },
