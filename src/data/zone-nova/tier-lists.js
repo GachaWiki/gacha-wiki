@@ -223,7 +223,7 @@ export const NEW_PLAYER_TIER_LIST = {
       { name: 'Bors' },
       { name: 'Medusa' },
     ],
-    S: [{ name: 'Snow Girl' }, { name: 'Merlin' }, { name: 'Arthur' }, { name: 'Greed Mammon' }, { name: 'Veronica' }, { name: 'Poseidon' }, { name: 'Set' }, { name: 'Nephthys' }, { name: 'Bedivere' }, { name: 'Brynhild' }, { name: 'Fenrir' }, { name: 'Ootakemaru' }, { name: 'Suzuka Gozen' }, { name: 'Mila' }],
+    S: [{ name: 'Snow Girl' }, { name: 'Merlin' }, { name: 'Arthur' }, { name: 'Greed Mammon' }, { name: 'Veronica' }, { name: 'Poseidon' }, { name: 'Set' }, { name: 'Nephthys' }, { name: 'Bedivere' }, { name: 'Brynhild' }, { name: 'Fenrir' }, { name: 'Ootakemaru' }, { name: 'Suzuka Gozen' }],
     A: [
       { name: 'Tefnut' },
       { name: 'Bastet' },
@@ -368,7 +368,7 @@ export const TIER_LIST_CHANGELOG = [
   {
     date: '2026-10-27',
     changes: [
-      'New characters added: Suzuka Gozen (SS PvE, SSS PvP, S for New Players) and Mila (UR PvE, UR PvP, S for New Players)',
+      "New characters added: Suzuka Gozen (SS PvE, SSS PvP, S for New Players) and Mila (UR PvE, UR PvP). Mila is not listed for New Players: she is an event-limited character and cannot be obtained on a new account",
       'Suzuka Gozen is a Holy Destroyer built around stacking banners: [Bow Draw] accelerates her Normal Attacks, [Keen Eye] raises Ultimate and Pursue damage, and consuming [Imperial Bell] + [Resonance] upgrades [Divine Tidebreaker] to 790% ATK with 380% ATK Holy Pursue splashes and [Mirror Fracture] Holy Resistance shred',
       "Season synergy: Trial of Bravery 29 pairs SUPPORTER Ultimates with DESTROYER Ultimate follow-ups ([Divine Punishment] 300% ATK Holy Pursue per target) which is Suzuka Gozen's showcase rule",
       'Mila is a Chaos Supporter mana engine: allies attacking [Candy Master] marked enemies earn [Begged Candy] (damage +4% and mana recovery +2% each), and [Full Load] at 8 [Candy Bag] grants team mana +1, ATK +40%, and Ultimate damage +20% for 5 seconds',
