@@ -1,6 +1,14 @@
 // Zone Nova Updates Data
 export const zoneNovaUpdates = [
   {
+    id: 'maintenance-october-27-2026',
+    title: 'October 27, 2026 Maintenance Update',
+    date: 'October 27, 2026',
+    type: 'maintenance',
+    summary: "Maintenance on October 27, 2026 (14:00 UTC+8, ~2 hours). Mila (Supporter, Chaos) limited recruitment October 27, 2026 14:15 - November 10, 2026 03:59 (UTC+8). Suzuka Gozen (Destroyer, Holy) limited recruitment October 29, 2026 14:15 - November 10, 2026 03:59 (UTC+8). Rift Surge XXXIX open October 28, 2026 - November 10, 2026. New Chaos Supporter built around candy-debuff synergy: [Candy Master] debuffs the highest-ATK enemy, allies earn [Begged Candy] stacks for attacking marked enemies, and at 8 [Candy Bag] stacks she triggers [Full Load] (team mana +1, ATK +40%, Ultimate damage +20%). New Holy Destroyer built around stacking banners: [Bow Draw] and [Keen Eye] stack toward her upgraded Ultimate [Divine Tidebreaker] (790% ATK plus 380% ATK Holy Pursue splashes and [Mirror Fracture] Holy resistance shred). New signature Remembrances: Spooky Soup (SSR, Supporter) and Let's play with Suzuka (SSR, Destroyer), each on the limited Remembrance banner alongside their recruitment banners. Phantom Night Festival event: The Chase Beneath the Mask October 27 - November 10, 2026. Halloween 2026 login event October 28 - November 10 plus Halloween Surprise Boxes (S/M/L/DX), the Pumpkin Phantom Night avatar frame, and the Moonlit Shimmer banner. Anniversary 2026 limited recruitment events October 27 - November 10, 2026. Bors and Tamamo-no-Mae limited recruitment reruns November 3 - November 10, 2026. New rune sets: Aether [Holy Damage] and Harmonia [Support Boost]. Ootakemaru's Archive redeemable in the Prayer Codex Shop. Snowfield Journey Part 2 runs October 27 - November 10. Trial of Bravery season 29 (October 28 - November 10): Safir, Kemich, Avalon, and Heikyo Castle factions, with a rule that pairs SUPPORTER Ultimates with DESTROYER Ultimate follow-ups.",
+    url: '/guides/zone-nova/updates/maintenance-october-27-2026/',
+  },
+  {
     id: 'maintenance-october-13-2026',
     title: 'October 13, 2026 Maintenance Update',
     date: 'October 13, 2026',
