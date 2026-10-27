@@ -7,7 +7,7 @@ import ZNMemoryImage from '../../components/zone-nova/ZNMemoryImage.astro';
 import ZNClassImage from '../../components/zone-nova/ZNClassImage.astro';
 
 import { getCharacterClass } from '../../data/zone-nova/characters.js';
-import { BUFF_EXPLANATIONS } from '../../data/zone-nova/memories.js';
+import { BUFF_EXPLANATIONS, MEMORY_NSFW_ART } from '../../data/zone-nova/memories.js';
 
 export interface Props {
   memoryData: any;
@@ -32,6 +32,9 @@ const getImageFilename = (imagePath: string): string => {
 };
 
 const memoryImageFilename = getImageFilename(memoryData.image);
+
+// NSFW (_H) variant art shipped next to the standard card art, when it exists
+const nsfwArtUrl = MEMORY_NSFW_ART[memoryData.slug] || null;
 
 // Group a long single-line story into readable paragraphs (~3 sentences each)
 function storyParagraphs(story: string): string[] {
@@ -160,15 +163,31 @@ function getCharacterUrl(characterName: string): string {
     <section class="memory-header">
       <div class="memory-container">
         <div class="memory-card-display">
-          <div class="memory-card-frame">
-            <ZNMemoryImage
-              imageName={memoryImageFilename}
-              alt={memoryData.name}
-              width={200}
-              height={300}
-              loading="lazy"
-              class="memory-card-image"
-            />
+          <div class="memory-card-frames">
+            <div class="memory-card-frame">
+              <ZNMemoryImage
+                imageName={memoryImageFilename}
+                alt={memoryData.name}
+                width={200}
+                height={300}
+                loading="lazy"
+                class="memory-card-image"
+              />
+              <span class="memory-card-caption">Standard</span>
+            </div>
+            {nsfwArtUrl && (
+              <div class="memory-card-frame">
+                <img
+                  src={nsfwArtUrl}
+                  alt={`${memoryData.name} NSFW art`}
+                  width={200}
+                  height={300}
+                  loading="lazy"
+                  class="memory-card-image"
+                />
+                <span class="memory-card-caption">NSFW Variant</span>
+              </div>
+            )}
           </div>
         </div>
 
@@ -438,7 +457,7 @@ function getCharacterUrl(characterName: string): string {
 
     .memory-container {
       display: grid;
-      grid-template-columns: 200px 1fr;
+      grid-template-columns: auto 1fr;
       gap: 2rem;
       background: var(--zn-bg-secondary);
       border: 1px solid var(--zn-border-primary);
@@ -451,11 +470,29 @@ function getCharacterUrl(characterName: string): string {
       position: relative;
     }
 
+    .memory-card-frames {
+      display: flex;
+      gap: 0.75rem;
+    }
+
+    .memory-card-frames .memory-card-frame {
+      width: 200px;
+      flex: 0 0 auto;
+    }
+
     .memory-card-frame {
       background: var(--zn-bg-tertiary);
       border: 1px solid var(--zn-border-primary);
       border-radius: 6px;
       padding: 0.75rem;
+    }
+
+    .memory-card-caption {
+      display: block;
+      text-align: center;
+      margin-top: 0.5rem;
+      font-size: var(--text-xs);
+      color: var(--zn-text-secondary);
     }
 
     .memory-card-image {
@@ -745,6 +782,11 @@ function getCharacterUrl(characterName: string): string {
       .memory-card-display {
         max-width: 250px;
         margin: 0 auto;
+      }
+
+      .memory-card-frames {
+        flex-direction: column;
+        gap: 0.6rem;
       }
 
       .memory-card-frame {
