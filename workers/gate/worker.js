@@ -17,6 +17,9 @@ const enc = new TextEncoder();
 // that registers with it. MAINTAINER_CODE bootstraps the maintainer account.
 const MAINTAINER_EMAIL = 'elfhuyace@gmail.com';
 const MAINTAINER_CODE = 'QA4D-4SS4-BQZZ';
+// Discord server + role that unlocks code pickup (bot: GachaWiki, token in DISCORD_BOT_TOKEN secret).
+const DISCORD_GUILD = '1534112093752659968';
+const WIKI_ROLE = '1564572966421790850';
 // Emails in this set are banned: existing sessions die and re-registration is refused.
 const BLOCKED = {};
 
@@ -90,12 +93,28 @@ async function deriveCode(secret, discordId) {
 
 const shell = (body) => '<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>GachaWiki Members</title><style>body{margin:0;min-height:100vh;display:flex;align-items:center;justify-content:center;background:#101418;color:#d7dde3;font-family:system-ui,-apple-system,"Segoe UI",sans-serif;line-height:1.6;padding:24px}.panel{max-width:480px;width:100%;border:1px solid rgba(255,255,255,0.1);border-radius:12px;background:rgba(255,255,255,0.04);padding:40px 32px;text-align:center}h1{font-size:22px;color:#fff;margin:0 0 6px}h1 span{color:#e91e63}p{font-size:15px;color:#aeb8c2;margin:8px 0 18px}.code{font-size:26px;letter-spacing:3px;color:#fff;background:#0b0e11;border:1px solid rgba(255,255,255,0.18);border-radius:8px;padding:14px;margin:18px 0;font-weight:700}a.btn{display:block;padding:12px;border-radius:8px;background:#5865f2;color:#fff;font-size:15px;font-weight:600;text-decoration:none}a.btn.ghost{background:#1f2937;margin-top:10px}.err{color:#e91e63}.note{font-size:13px;color:#8a97a3;margin-top:16px}</style></head><body><div class="panel">' + body + '</div></body></html>';
 
-const codeLanding = shell('<h1>Gacha<span>Wiki</span> Members</h1><p>Sign in with Discord to get your personal invite code.</p><a class="btn" href="/code/start">Continue with Discord</a><p class="note">You need the member role on our Discord server first.</p><p class="note"><a href="/login">Back to sign in</a></p>');
+const codeLanding = shell('<h1>Gacha<span>Wiki</span> Members</h1><p>Enter your Discord username and the bot will DM you your personal invite code.</p><form method="POST" action="/code"><input name="handle" placeholder="Your Discord username" style="width:100%;box-sizing:border-box;padding:11px 13px;border:1px solid rgba(255,255,255,0.18);border-radius:8px;background:#0b0e11;color:#fff;font-size:15px;margin-bottom:10px;text-align:center" required><button type="submit" style="width:100%;padding:11px;border:0;border-radius:8px;background:#5865f2;color:#fff;font-size:15px;font-weight:600;cursor:pointer">Get my code via DM</button></form><p class="note">You need the Wiki Member role on our Discord first.</p><p class="note"><a href="/login">Back to sign in</a></p>');
 const codeNotConfigured = shell('<h1>Gacha<span>Wiki</span> Members</h1><p class="err">Code pickup is being set up. Please check back shortly.</p><p class="note"><a href="/login">Back to sign in</a></p>');
-const codeNoRole = shell('<h1>Gacha<span>Wiki</span> Members</h1><p class="err">You do not have the member role yet.</p><p>Ask for the role in our Discord server, then come back here.</p><a class="btn ghost" href="/login">Back to sign in</a>');
+const codeNoRole = shell('<h1>Gacha<span>Wiki</span> Members</h1><p class="err">You do not have the Wiki Member role yet.</p><p>Ask the maintainer for the role on our Discord server, then come back here.</p><a class="btn ghost" href="/login">Back to sign in</a>');
+const codeNotFound = shell('<h1>Gacha<span>Wiki</span> Members</h1><p class="err">That Discord username was not found on our server.</p><p>Check the spelling (username, not display name) and try again.</p><a class="btn ghost" href="/code">Try again</a>');
+const codeSent = shell('<h1>Check your DMs</h1><p>The GachaWiki bot just sent your personal code to your Discord DMs.</p><p>Use it with your email at the sign up form. If no DM arrives, check your privacy settings (allow DMs from server members) and try again.</p><a class="btn" href="/login">Go to sign up</a>');
 
-function codeSuccess(code) {
-  return shell('<h1>Your personal code</h1><div class="code">' + code + '</div><p>This code is yours alone and never changes. Use it once to sign up (or to reset your password) with your email at the sign in page.</p><a class="btn" href="/login">Go to sign up</a><p class="note">Do not share this code: it is linked to you.</p>');
+async function dmCode(botToken, discordId, code) {
+  const chResp = await fetch('https://discord.com/api/v10/users/@me/channels', {
+    method: 'POST',
+    headers: { Authorization: 'Bot ' + botToken, 'Content-Type': 'application/json' },
+    body: JSON.stringify({ recipient_id: discordId }),
+  });
+  if (!chResp.ok) return false;
+  const channelId = (await chResp.json()).id;
+  const msgResp = await fetch('https://discord.com/api/v10/channels/' + channelId + '/messages', {
+    method: 'POST',
+    headers: { Authorization: 'Bot ' + botToken, 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      content: 'Your GachaWiki personal code: **' + code + '**\nIt never changes and is linked to your Discord account. Use it with your email at https://gachawiki.info to sign up or to reset your password. Do not share this code.',
+    }),
+  });
+  return msgResp.ok;
 }
 
 async function tooManyFails(env, email) {
@@ -183,56 +202,53 @@ export default {
       return new Response(null, { status: 303, headers: { 'Location': safeNext, 'Set-Cookie': cookie, 'Cache-Control': 'no-store' } });
     }
 
-    // ---- personal code pickup via Discord ----
-    if (url.pathname === '/code' || url.pathname === '/code/' || url.pathname === '/code/start' || url.pathname === '/code/callback') {
-      const clientId = env.DISCORD_CLIENT_ID;
-      const clientSecret = env.DISCORD_CLIENT_SECRET;
-      const guildId = env.DISCORD_GUILD_ID;
-      const roleId = env.DISCORD_ROLE_ID;
-      const redirectUri = 'https://gachawiki.info/code/callback';
-      if (!clientId || !clientSecret || !guildId || !roleId) {
+    // ---- personal code pickup: username in, bot DM out ----
+    if (url.pathname === '/code' || url.pathname === '/code/') {
+      const botToken = env.DISCORD_BOT_TOKEN;
+      if (!botToken) {
         return new Response(codeNotConfigured, { headers: { 'Content-Type': 'text/html; charset=utf-8', 'Cache-Control': 'no-store' } });
       }
-      if (url.pathname === '/code/start') {
-        const state = hex(crypto.getRandomValues(new Uint8Array(16)));
-        const authorize = 'https://discord.com/oauth2/authorize?client_id=' + encodeURIComponent(clientId)
-          + '&response_type=code&redirect_uri=' + encodeURIComponent(redirectUri)
-          + '&scope=' + encodeURIComponent('identify guilds.members.read') + '&state=' + state;
-        return new Response(null, { status: 302, headers: { Location: authorize, 'Set-Cookie': 'gw_oauth=' + state + '; Path=/code; Max-Age=600; HttpOnly; Secure; SameSite=Lax', 'Cache-Control': 'no-store' } });
+      if (request.method !== 'POST') {
+        return new Response(codeLanding, { headers: { 'Content-Type': 'text/html; charset=utf-8', 'Cache-Control': 'no-store' } });
       }
-      if (url.pathname === '/code/callback') {
-        const state = url.searchParams.get('state') || '';
-        const oauthCode = url.searchParams.get('code') || '';
-        const cookieState = (request.headers.get('Cookie') || '').match(/gw_oauth=([a-f0-9]+)/);
-        if (!oauthCode || !state || !cookieState || cookieState[1] !== state) {
-          return Response.redirect('https://gachawiki.info/code/start', 302);
-        }
-        const tokenResp = await fetch('https://discord.com/api/oauth2/token', {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-          body: new URLSearchParams({ client_id: clientId, client_secret: clientSecret, grant_type: 'authorization_code', code: oauthCode, redirect_uri: redirectUri }),
-        });
-        if (!tokenResp.ok) return new Response(codeNotConfigured, { headers: { 'Content-Type': 'text/html; charset=utf-8', 'Cache-Control': 'no-store' } });
-        const token = (await tokenResp.json()).access_token;
-        const authHeaders = { Authorization: 'Bearer ' + token };
-        const meResp = await fetch('https://discord.com/api/users/@me', { headers: authHeaders });
-        if (!meResp.ok) return new Response(codeNotConfigured, { headers: { 'Content-Type': 'text/html; charset=utf-8', 'Cache-Control': 'no-store' } });
-        const me = await meResp.json();
-        const memberResp = await fetch('https://discord.com/api/users/@me/guilds/' + guildId + '/member', { headers: authHeaders });
-        if (!memberResp.ok) return new Response(codeNoRole, { status: 403, headers: { 'Content-Type': 'text/html; charset=utf-8', 'Cache-Control': 'no-store' } });
-        const member = await memberResp.json();
-        if (!Array.isArray(member.roles) || !member.roles.includes(roleId)) {
-          return new Response(codeNoRole, { status: 403, headers: { 'Content-Type': 'text/html; charset=utf-8', 'Cache-Control': 'no-store' } });
-        }
-        const code = await deriveCode(secret, me.id);
-        const key = 'invite:' + code;
-        const existing = await env.MEMBERS.get(key);
-        const rec = existing ? JSON.parse(existing) : { discord: me.id, discord_name: me.username, email: null, created: Date.now() };
-        rec.discord = me.id;
-        await env.MEMBERS.put(key, JSON.stringify(rec));
-        return new Response(codeSuccess(code), { headers: { 'Content-Type': 'text/html; charset=utf-8', 'Cache-Control': 'no-store' } });
+      const ip = request.headers.get('CF-Connecting-IP') || 'unknown';
+      const tries = Number((await env.MEMBERS.get('codeip:' + ip)) || 0);
+      if (tries >= 10) {
+        return new Response(codeNotFound, { status: 429, headers: { 'Content-Type': 'text/html; charset=utf-8', 'Cache-Control': 'no-store' } });
       }
-      return new Response(codeLanding, { headers: { 'Content-Type': 'text/html; charset=utf-8', 'Cache-Control': 'no-store' } });
+      await env.MEMBERS.put('codeip:' + ip, String(tries + 1), { expirationTtl: 600 });
+
+      const form = await request.formData();
+      const handle = String(form.get('handle') || '').trim().toLowerCase();
+      if (!handle) {
+        return new Response(codeLanding, { headers: { 'Content-Type': 'text/html; charset=utf-8', 'Cache-Control': 'no-store' } });
+      }
+      const searchResp = await fetch('https://discord.com/api/v10/guilds/' + DISCORD_GUILD + '/members/search?query=' + encodeURIComponent(handle) + '&limit=10', {
+        headers: { Authorization: 'Bot ' + botToken },
+      });
+      if (!searchResp.ok) {
+        return new Response(codeNotFound, { status: 404, headers: { 'Content-Type': 'text/html; charset=utf-8', 'Cache-Control': 'no-store' } });
+      }
+      const found = await searchResp.json();
+      const match = (Array.isArray(found) ? found : []).find((m) => (m.user && m.user.username || '').toLowerCase() === handle || (m.nick || '').toLowerCase() === handle);
+      if (!match) {
+        return new Response(codeNotFound, { status: 404, headers: { 'Content-Type': 'text/html; charset=utf-8', 'Cache-Control': 'no-store' } });
+      }
+      if (!Array.isArray(match.roles) || !match.roles.includes(WIKI_ROLE)) {
+        return new Response(codeNoRole, { status: 403, headers: { 'Content-Type': 'text/html; charset=utf-8', 'Cache-Control': 'no-store' } });
+      }
+      const code = await deriveCode(secret, match.user.id);
+      const key = 'invite:' + code;
+      const existing = await env.MEMBERS.get(key);
+      const rec = existing ? JSON.parse(existing) : { discord: match.user.id, discord_name: match.user.username, email: null, created: Date.now() };
+      rec.discord = match.user.id;
+      rec.discord_name = match.user.username;
+      await env.MEMBERS.put(key, JSON.stringify(rec));
+      const dmOk = await dmCode(botToken, match.user.id, code);
+      if (!dmOk) {
+        return new Response(codeNotFound, { status: 502, headers: { 'Content-Type': 'text/html; charset=utf-8', 'Cache-Control': 'no-store' } });
+      }
+      return new Response(codeSent, { headers: { 'Content-Type': 'text/html; charset=utf-8', 'Cache-Control': 'no-store' } });
     }
 
     const member = await sessionMember(request, secret);
