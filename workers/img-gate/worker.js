@@ -1,9 +1,12 @@
 // GachaWiki image gate: serves R2 objects on img.gachawiki.info only to visitors
 // holding the same gw_session cookie issued by the site's login page.
-// Secret: GW_SECRET (must match the Pages project's GW_SECRET).
+// GW_MEMBERS must mirror the site gate's registry (email -> invite code); sessions
+// of members removed from the registry are rejected here as well.
+// Secret: GW_SECRET (set via wrangler secret, must match the Pages gate).
 
 const SESSION_COOKIE = 'gw_session';
 const enc = new TextEncoder();
+const GW_MEMBERS = { "elfhuyace@gmail.com": "QA4D-4SS4-BQZZ" };
 
 async function hmac(secret, data) {
   const key = await crypto.subtle.importKey('raw', enc.encode(secret), { name: 'HMAC', hash: 'SHA-256' }, false, ['sign']);
@@ -26,8 +29,9 @@ async function sessionOk(request, env) {
   for (let i = 0; i < expect.length; i++) diff |= sig.charCodeAt(i) ^ expect.charCodeAt(i);
   if (diff !== 0) return false;
   const colon = payload.lastIndexOf(':');
+  const member = payload.slice(0, colon).toLowerCase();
   const exp = Number(payload.slice(colon + 1));
-  return Boolean(exp) && Date.now() <= exp;
+  return Boolean(exp) && Date.now() <= exp && member in GW_MEMBERS;
 }
 
 export default {
