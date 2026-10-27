@@ -1,0 +1,13 @@
+# Deploys the GachaWiki login gate (invite-code registration + own passwords)
+# in front of the Pages site. Secret GW_SECRET must match the img gate.
+name = "gachawiki-gate"
+main = "worker.js"
+compatibility_date = "2026-10-01"
+account_id = "e51353d4a2f4d0a9f80a3145642da5a7"
+zone_id = "9f8a9bd5c993a5488298aa62ff59af19"
+
+routes = ["gachawiki.info/*", "www.gachawiki.info/*"]
+
+[[kv_namespaces]]
+binding = "MEMBERS"
+id = "6614fbfb7de34e97bf0603d3acc347ba"
