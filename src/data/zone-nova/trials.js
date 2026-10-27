@@ -168,6 +168,14 @@ export const BRAVERY_SEASONS = [
     factionsRaw: [2, 3, 5, 6],
     rule: 'All allies receive 70% less damage. Every 3 seconds, all allies receive and deal 1% more damage. When an ATTACKER deals damage, the target takes 100% more damage for 3 seconds; when an ATTACKER deals follow-up damage, the target takes an additional 100% more damage for 6 seconds.',
   },
+  {
+    id: 29,
+    start: '2026-10-28',
+    end: '2026-11-10',
+    factions: factionsOf([1, 2, 3, 6]),
+    factionsRaw: [1, 2, 3, 6],
+    rule: 'All enemy units gain 1 stack of [Prismatic Ward] every 10 seconds: resistance to all elements increases by 10% per stack, up to 5 stacks. Lasts indefinitely and can be dispelled. When an allied SUPPORTER uses an ULT, the next DESTROYER ULT within 6 seconds calls down [Divine Punishment] once on each target hit, dealing small-area Holy Pursue Damage equal to 300% ATK.',
+  },
 ];
 
 // Current season stages (tower_setting_info): 180s time limit each
