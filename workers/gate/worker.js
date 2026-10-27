@@ -96,6 +96,7 @@ const shell = (body) => '<!doctype html><html lang="en"><head><meta charset="utf
 const codeLanding = shell('<h1>Gacha<span>Wiki</span> Members</h1><p>The easiest way: type <strong>/code</strong> in the <strong>#wiki-access</strong> channel on our Discord. The bot replies with your personal code, visible only to you.</p><p style="margin-bottom:6px">Or use the web form below and the bot will DM it to you:</p><form method="POST" action="/code"><input name="handle" placeholder="Your Discord username" style="width:100%;box-sizing:border-box;padding:11px 13px;border:1px solid rgba(255,255,255,0.18);border-radius:8px;background:#0b0e11;color:#fff;font-size:15px;margin-bottom:10px;text-align:center" required><button type="submit" style="width:100%;padding:11px;border:0;border-radius:8px;background:#5865f2;color:#fff;font-size:15px;font-weight:600;cursor:pointer">Get my code via DM</button></form><p class="note">You need the Wiki Member role on our Discord first.</p><p class="note"><a href="/login">Back to sign in</a></p>');
 const codeNotConfigured = shell('<h1>Gacha<span>Wiki</span> Members</h1><p class="err">Code pickup is being set up. Please check back shortly.</p><p class="note"><a href="/login">Back to sign in</a></p>');
 const codeNoRole = shell('<h1>Gacha<span>Wiki</span> Members</h1><p class="err">You do not have the Wiki Member role yet.</p><p>Ask the maintainer for the role on our Discord server, then come back here.</p><a class="btn ghost" href="/login">Back to sign in</a>');
+const codeTooNew = shell('<h1>Gacha<span>Wiki</span> Members</h1><p class="err">Your Discord account is newer than the minimum age for wiki access.</p><p>Accounts must be at least two years old. This is an anti-abuse rule; talk to the maintainer if you think this is a mistake.</p><a class="btn ghost" href="/login">Back to sign in</a>');
 const codeNotFound = shell('<h1>Gacha<span>Wiki</span> Members</h1><p class="err">That Discord username was not found on our server.</p><p>Check the spelling (username, not display name) and try again.</p><a class="btn ghost" href="/code">Try again</a>');
 const codeSent = shell('<h1>Check your DMs</h1><p>The GachaWiki bot just sent your personal code to your Discord DMs.</p><p>Use it with your email at the sign up form. If no DM arrives, check your privacy settings (allow DMs from server members) and try again.</p><a class="btn" href="/login">Go to sign up</a>');
 
@@ -236,6 +237,11 @@ export default {
       }
       if (!Array.isArray(match.roles) || !match.roles.includes(WIKI_ROLE)) {
         return new Response(codeNoRole, { status: 403, headers: { 'Content-Type': 'text/html; charset=utf-8', 'Cache-Control': 'no-store' } });
+      }
+      // snowflake IDs encode the account creation time; require a minimum age
+      const accountAge = Date.now() - (Number(BigInt(match.user.id) >> 22n) + 1420070400000);
+      if (accountAge < 2 * 366 * 86400000) {
+        return new Response(codeTooNew, { status: 403, headers: { 'Content-Type': 'text/html; charset=utf-8', 'Cache-Control': 'no-store' } });
       }
       const code = await deriveCode(secret, match.user.id);
       const key = 'invite:' + code;
