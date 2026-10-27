@@ -4,7 +4,7 @@
 export const majoClockConfig = {
   id: 'majo',
   name: 'MAJO: Witches Night',
-  image: 'https://img.gachawiki.info/majo/icon.webp?v=2',
+  image: 'https://k2b1c5ab57ed98e51.gachawiki.info/majo/icon.webp?v=2',
   launchDate: '2026-08-12T00:00:00Z',
   displayDate: 'August 12, 2026',
   timerDescription: 'Daily Server Reset',

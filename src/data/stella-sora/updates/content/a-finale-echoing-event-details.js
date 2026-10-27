@@ -1,6 +1,6 @@
 // Official Stella Sora news content (cleaned from stellasora.global/news/4669)
 export const content = `
-<p><img src="https://img.gachawiki.info/stella-sora/news/4669-1.webp" alt="" loading="lazy" decoding="async" /></p>
+<p><img src="https://k2b1c5ab57ed98e51.gachawiki.info/stella-sora/news/4669-1.webp" alt="" loading="lazy" decoding="async" /></p>
 <p>Unable to accept the advance of aging, Olympia kept turning to magic and wishes. But the loyal Coppelius offered a more direct, perfect solution.</p>
 <p>Upon this ceremonial stage adorned with flowers and pools, the grand rite of life continued without end.</p>
 <p>Submit your soul and body wholly to her... To the great Olympia!</p>

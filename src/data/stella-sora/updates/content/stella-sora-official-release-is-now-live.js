@@ -1,6 +1,6 @@
 // Official Stella Sora news content (cleaned from stellasora.global/news/1840)
 export const content = `
-<p><img src="https://img.gachawiki.info/stella-sora/news/1840-1.webp" alt="" loading="lazy" decoding="async" /></p>
+<p><img src="https://k2b1c5ab57ed98e51.gachawiki.info/stella-sora/news/1840-1.webp" alt="" loading="lazy" decoding="async" /></p>
 <p>Dear Tyrants,</p>
 <p>Battle with Trekkers in Light-action Fantasy RPG!</p>
 <p>The official release of Stella Sora across all platforms begins on <strong>October 19, 2025, at 19:00 (UTC-7)</strong>! The fantastical world of Nova awaits your exploration!</p>
@@ -11,11 +11,11 @@ export const content = `
 <p>2025/10/19 19:00(UTC-7)</p>
 <p><strong>✦ Official Release Content Overview ✦</strong></p>
 <p>New ★5 Trekker: Chitose</p>
-<p><img src="https://img.gachawiki.info/stella-sora/news/1840-2.webp" alt="" loading="lazy" decoding="async" /></p>
+<p><img src="https://k2b1c5ab57ed98e51.gachawiki.info/stella-sora/news/1840-2.webp" alt="" loading="lazy" decoding="async" /></p>
 <p>New ★5 Runic Disc: Sword Against Stream</p>
-<p><img src="https://img.gachawiki.info/stella-sora/news/1840-3.webp" alt="" loading="lazy" decoding="async" /></p>
+<p><img src="https://k2b1c5ab57ed98e51.gachawiki.info/stella-sora/news/1840-3.webp" alt="" loading="lazy" decoding="async" /></p>
 <p>New appearance for Minova: Tipsy Daydream</p>
-<p><img src="https://img.gachawiki.info/stella-sora/news/1840-4.webp" alt="" loading="lazy" decoding="async" /></p>
+<p><img src="https://k2b1c5ab57ed98e51.gachawiki.info/stella-sora/news/1840-4.webp" alt="" loading="lazy" decoding="async" /></p>
 <p>New Trekker stories, limited-time gameplay features, and special events with rich rewards will also be available!</p>
 <p><strong>✦ Launch Reward Overview ✦</strong></p>
 <p>After the official release, you can collect the following free rewards through in-game features and events:</p>

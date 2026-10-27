@@ -92,7 +92,7 @@ export const zoneNovaRedeemCodes = {
         id: 'step-1',
         title: 'Go to Settings',
         description: 'Open Zone Nova and tap the Settings (gear icon) as shown below:',
-        image: 'https://img.gachawiki.info/zone-nova/redeemcodes/1.jpg',
+        image: 'https://k2b1c5ab57ed98e51.gachawiki.info/zone-nova/redeemcodes/1.jpg',
         imageAlt: 'Zone Nova Settings Location',
       },
       {
@@ -105,7 +105,7 @@ export const zoneNovaRedeemCodes = {
           'A popup will appear - enter your code exactly as shown',
           'Submit the code and check your in-game mail for rewards instantly',
         ],
-        image: 'https://img.gachawiki.info/zone-nova/redeemcodes/2.jpg',
+        image: 'https://k2b1c5ab57ed98e51.gachawiki.info/zone-nova/redeemcodes/2.jpg',
         imageAlt: 'Zone Nova Account and Redeem Code Location',
       },
     ],

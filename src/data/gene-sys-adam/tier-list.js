@@ -42,7 +42,7 @@ export const GSA_TIERS = [
   { tier: 'C', color: '#736f85' },
 ];
 
-const R2 = 'https://img.gachawiki.info/gene-sys-adam';
+const R2 = 'https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam';
 
 // The game's own rarity badges (Icon_SR / Icon_SSR from the gacha UI bundles).
 // No Icon_R has shipped in any pulled bundle yet; R falls back to a text chip.

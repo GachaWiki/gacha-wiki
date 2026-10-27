@@ -1,6 +1,6 @@
 // Official Stella Sora news content (cleaned from stellasora.global/news/1739)
 export const content = `
-<p><img src="https://img.gachawiki.info/stella-sora/news/1739-1.webp" alt="" loading="lazy" decoding="async" /></p>
+<p><img src="https://k2b1c5ab57ed98e51.gachawiki.info/stella-sora/news/1739-1.webp" alt="" loading="lazy" decoding="async" /></p>
 <p>Dear Tyrant,</p>
 <p>Great to have you here! Let the sea breeze carry your inspiration to the screen, and share your original video/live-stream entries for a chance to win a cash prize, Stellanite Dust×3000, and exclusive merch. Every participant with at least one compliant entry gets a participation reward, and we'll hold additional lucky draws among submissions (winners of other awards excluded)!</p>
 <p><strong>⛱ Contest Schedule (UTC-7) ⛱</strong></p>

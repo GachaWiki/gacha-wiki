@@ -1,6 +1,6 @@
 // Official Stella Sora news content (cleaned from stellasora.global/news/4358)
 export const content = `
-<p><strong><img src="https://img.gachawiki.info/stella-sora/news/4358-1.webp" alt="" loading="lazy" decoding="async" /></strong></p>
+<p><strong><img src="https://k2b1c5ab57ed98e51.gachawiki.info/stella-sora/news/4358-1.webp" alt="" loading="lazy" decoding="async" /></strong></p>
 <p><strong>Dear Tyrant,</strong></p>
 <p>Thank you for your continued interest in and support for Stella Sora.</p>
 <p>To build a richer and more active community with players who love Stella Sora, we are officially launching recruitment for the Stella Sora Creator Program: <strong>Scarlet Creative!</strong></p>

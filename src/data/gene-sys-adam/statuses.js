@@ -15,7 +15,7 @@ export const GSA_STATUSES = {
       "vi": "Electrocute",
       "zh-cn": "触电"
     },
-    "icon": "https://img.gachawiki.info/gene-sys-adam/buff_Shock_Icon.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/buff_Shock_Icon.webp",
     "kind": "debuff",
     "order": 1,
     "desc": "Electrocute status. Feeds the Overload pursuit, which inflicts Silence on the target.",
@@ -32,7 +32,7 @@ export const GSA_STATUSES = {
       "vi": "Overload",
       "zh-cn": "超载"
     },
-    "icon": "https://img.gachawiki.info/gene-sys-adam/buff_Overload_Icon.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/buff_Overload_Icon.webp",
     "kind": "debuff",
     "order": 2,
     "desc": null,
@@ -49,7 +49,7 @@ export const GSA_STATUSES = {
       "vi": "Petrify",
       "zh-cn": "石化"
     },
-    "icon": "https://img.gachawiki.info/gene-sys-adam/buff_Petrify_Icon.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/buff_Petrify_Icon.webp",
     "kind": "debuff",
     "order": 3,
     "desc": "Petrify status. Feeds the Shatter pursuit, which lowers the target’s elemental RES except Light and Dark.",
@@ -66,7 +66,7 @@ export const GSA_STATUSES = {
       "vi": "Shatter",
       "zh-cn": "碎石"
     },
-    "icon": "https://img.gachawiki.info/gene-sys-adam/buff_Obliterate_Icon.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/buff_Obliterate_Icon.webp",
     "kind": "debuff",
     "order": 4,
     "desc": null,
@@ -83,7 +83,7 @@ export const GSA_STATUSES = {
       "vi": "Burn",
       "zh-cn": "燃烧"
     },
-    "icon": "https://img.gachawiki.info/gene-sys-adam/buff_Burn_Icon.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/buff_Burn_Icon.webp",
     "kind": "debuff",
     "order": 5,
     "desc": "Burn status. Feeds the Detonate pursuit: Detonate deals a massive amount of bonus damage and consumes the Burn.",
@@ -100,7 +100,7 @@ export const GSA_STATUSES = {
       "vi": "Detonate",
       "zh-cn": "引爆"
     },
-    "icon": "https://img.gachawiki.info/gene-sys-adam/buff_Explode_Icon.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/buff_Explode_Icon.webp",
     "kind": "debuff",
     "order": 6,
     "desc": null,
@@ -117,7 +117,7 @@ export const GSA_STATUSES = {
       "vi": "Frozen",
       "zh-cn": "冰冻"
     },
-    "icon": "https://img.gachawiki.info/gene-sys-adam/buff_Freeze_Icon.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/buff_Freeze_Icon.webp",
     "kind": "debuff",
     "order": 7,
     "desc": "Freeze status. Feeds the Ice Break pursuit, which lowers the target’s ATK Speed.",
@@ -134,7 +134,7 @@ export const GSA_STATUSES = {
       "vi": "Ice Break",
       "zh-cn": "破冰"
     },
-    "icon": "https://img.gachawiki.info/gene-sys-adam/buff_BrokenFreeze_Icon.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/buff_BrokenFreeze_Icon.webp",
     "kind": "debuff",
     "order": 8,
     "desc": null,
@@ -168,7 +168,7 @@ export const GSA_STATUSES = {
       "vi": "Sanction",
       "zh-cn": "制裁"
     },
-    "icon": "https://img.gachawiki.info/gene-sys-adam/buff_LightCombo_Icon.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/buff_LightCombo_Icon.webp",
     "kind": "debuff",
     "order": 10,
     "desc": null,
@@ -185,7 +185,7 @@ export const GSA_STATUSES = {
       "vi": "Ebon",
       "zh-cn": "漆黑"
     },
-    "icon": "https://img.gachawiki.info/gene-sys-adam/buff_DarkStart_Icon.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/buff_DarkStart_Icon.webp",
     "kind": "debuff",
     "order": 11,
     "desc": "Ebon status. Feeds the Abyss pursuit, which prevents the target from being healed for a period.",
@@ -202,7 +202,7 @@ export const GSA_STATUSES = {
       "vi": "Abyss",
       "zh-cn": "深渊"
     },
-    "icon": "https://img.gachawiki.info/gene-sys-adam/buff_DarkCombo_Icon.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/buff_DarkCombo_Icon.webp",
     "kind": "debuff",
     "order": 12,
     "desc": null,
@@ -236,7 +236,7 @@ export const GSA_STATUSES = {
       "vi": "Knock Down",
       "zh-cn": "击倒"
     },
-    "icon": "https://img.gachawiki.info/gene-sys-adam/buff_KnockDown_Icon.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/buff_KnockDown_Icon.webp",
     "kind": "debuff",
     "order": 14,
     "desc": null,
@@ -253,7 +253,7 @@ export const GSA_STATUSES = {
       "vi": "Stun",
       "zh-cn": "晕眩"
     },
-    "icon": "https://img.gachawiki.info/gene-sys-adam/buff_Stun_Icon.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/buff_Stun_Icon.webp",
     "kind": "debuff",
     "order": 15,
     "desc": null,
@@ -270,7 +270,7 @@ export const GSA_STATUSES = {
       "vi": "Bleed",
       "zh-cn": "流血"
     },
-    "icon": "https://img.gachawiki.info/gene-sys-adam/buff_Blood_Icon.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/buff_Blood_Icon.webp",
     "kind": "debuff",
     "order": 16,
     "desc": null,
@@ -287,7 +287,7 @@ export const GSA_STATUSES = {
       "vi": "Silence",
       "zh-cn": "禁言"
     },
-    "icon": "https://img.gachawiki.info/gene-sys-adam/buff_Silence_Icon.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/buff_Silence_Icon.webp",
     "kind": "debuff",
     "order": 17,
     "desc": null,
@@ -304,7 +304,7 @@ export const GSA_STATUSES = {
       "vi": "Interrupt",
       "zh-cn": "中断"
     },
-    "icon": "https://img.gachawiki.info/gene-sys-adam/buff_Break_Icon.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/buff_Break_Icon.webp",
     "kind": "debuff",
     "order": 18,
     "desc": null,
@@ -321,7 +321,7 @@ export const GSA_STATUSES = {
       "vi": "Poison",
       "zh-cn": "中毒"
     },
-    "icon": "https://img.gachawiki.info/gene-sys-adam/buff_Poison_Icon.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/buff_Poison_Icon.webp",
     "kind": "debuff",
     "order": 19,
     "desc": null,
@@ -406,7 +406,7 @@ export const GSA_STATUSES = {
       "vi": "Shield",
       "zh-cn": "护盾"
     },
-    "icon": "https://img.gachawiki.info/gene-sys-adam/buff_Barrier_Icon.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/buff_Barrier_Icon.webp",
     "kind": "buff",
     "order": 25,
     "desc": null,
@@ -457,7 +457,7 @@ export const GSA_STATUSES = {
       "vi": "Heal",
       "zh-cn": "治疗"
     },
-    "icon": "https://img.gachawiki.info/gene-sys-adam/buff_Heal_Icon.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/buff_Heal_Icon.webp",
     "kind": "buff",
     "order": 28,
     "desc": null,
@@ -491,7 +491,7 @@ export const GSA_STATUSES = {
       "vi": "Dispel Debuffs",
       "zh-cn": "清除负面效果"
     },
-    "icon": "https://img.gachawiki.info/gene-sys-adam/buff_purify_Icon.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/buff_purify_Icon.webp",
     "kind": "debuff",
     "order": 30,
     "desc": null,
@@ -508,7 +508,7 @@ export const GSA_STATUSES = {
       "vi": "Dispel Buffs",
       "zh-cn": "清除正面效果"
     },
-    "icon": "https://img.gachawiki.info/gene-sys-adam/buff_disperse_Icon.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/buff_disperse_Icon.webp",
     "kind": "debuff",
     "order": 31,
     "desc": null,
@@ -525,7 +525,7 @@ export const GSA_STATUSES = {
       "vi": "Max HP Up",
       "zh-cn": "生命值上限提升"
     },
-    "icon": "https://img.gachawiki.info/gene-sys-adam/buff_Hp_Up_Icon.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/buff_Hp_Up_Icon.webp",
     "kind": "buff",
     "order": 32,
     "desc": null,
@@ -542,7 +542,7 @@ export const GSA_STATUSES = {
       "vi": "Attack Up",
       "zh-cn": "攻击力提升"
     },
-    "icon": "https://img.gachawiki.info/gene-sys-adam/buff_Atk_Up_Icon.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/buff_Atk_Up_Icon.webp",
     "kind": "buff",
     "order": 33,
     "desc": "Attack Power. Increases the damage dealt.",
@@ -559,7 +559,7 @@ export const GSA_STATUSES = {
       "vi": "Physical DMG Up",
       "zh-cn": "物理伤害提升"
     },
-    "icon": "https://img.gachawiki.info/gene-sys-adam/buff_Pdmg_Up_Icon.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/buff_Pdmg_Up_Icon.webp",
     "kind": "buff",
     "order": 34,
     "desc": null,
@@ -576,7 +576,7 @@ export const GSA_STATUSES = {
       "vi": "Energy DMG Up",
       "zh-cn": "能量伤害提升"
     },
-    "icon": "https://img.gachawiki.info/gene-sys-adam/buff_Mdmg_Up_Icon.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/buff_Mdmg_Up_Icon.webp",
     "kind": "buff",
     "order": 35,
     "desc": null,
@@ -593,7 +593,7 @@ export const GSA_STATUSES = {
       "vi": "Physical Damage Taken Decreased",
       "zh-cn": "受到物理伤害降低"
     },
-    "icon": "https://img.gachawiki.info/gene-sys-adam/buff_Prdc_Up_Icon.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/buff_Prdc_Up_Icon.webp",
     "kind": "debuff",
     "order": 36,
     "desc": null,
@@ -610,7 +610,7 @@ export const GSA_STATUSES = {
       "vi": "Energy Damage Taken Decreased",
       "zh-cn": "受到能量伤害降低"
     },
-    "icon": "https://img.gachawiki.info/gene-sys-adam/buff_Mrdc_Up_Icon.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/buff_Mrdc_Up_Icon.webp",
     "kind": "debuff",
     "order": 37,
     "desc": null,
@@ -627,7 +627,7 @@ export const GSA_STATUSES = {
       "vi": "Damage Up",
       "zh-cn": "伤害提升"
     },
-    "icon": "https://img.gachawiki.info/gene-sys-adam/buff_Dmg_Up_Icon.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/buff_Dmg_Up_Icon.webp",
     "kind": "buff",
     "order": 38,
     "desc": null,
@@ -644,7 +644,7 @@ export const GSA_STATUSES = {
       "vi": "Damage Taken Decreased",
       "zh-cn": "受到伤害降低"
     },
-    "icon": "https://img.gachawiki.info/gene-sys-adam/buff_Rdc_Up_Icon.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/buff_Rdc_Up_Icon.webp",
     "kind": "debuff",
     "order": 39,
     "desc": null,
@@ -661,7 +661,7 @@ export const GSA_STATUSES = {
       "vi": "ACC Up",
       "zh-cn": "命中提升"
     },
-    "icon": "https://img.gachawiki.info/gene-sys-adam/buff_Hit_Up_Icon.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/buff_Hit_Up_Icon.webp",
     "kind": "buff",
     "order": 40,
     "desc": "Determines whether an attack will land. This value is offset by the target's Evasion.",
@@ -678,7 +678,7 @@ export const GSA_STATUSES = {
       "vi": "Evasion UP",
       "zh-cn": "闪避提升"
     },
-    "icon": "https://img.gachawiki.info/gene-sys-adam/buff_Ddg_Up_Icon.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/buff_Ddg_Up_Icon.webp",
     "kind": "buff",
     "order": 41,
     "desc": null,
@@ -695,7 +695,7 @@ export const GSA_STATUSES = {
       "vi": "Crit Chance Up",
       "zh-cn": "暴击提升"
     },
-    "icon": "https://img.gachawiki.info/gene-sys-adam/buff_Crit_Up_Icon.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/buff_Crit_Up_Icon.webp",
     "kind": "buff",
     "order": 42,
     "desc": null,
@@ -712,7 +712,7 @@ export const GSA_STATUSES = {
       "vi": "Crit Evasion Up",
       "zh-cn": "暴击闪避提升"
     },
-    "icon": "https://img.gachawiki.info/gene-sys-adam/buff_CritRst_Up_Icon.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/buff_CritRst_Up_Icon.webp",
     "kind": "buff",
     "order": 43,
     "desc": "Reduces the chance of receiving a Crit. This effect is offset by the target's Crit stat.",
@@ -729,7 +729,7 @@ export const GSA_STATUSES = {
       "vi": "Crit DMG Up",
       "zh-cn": "暴击伤害提升"
     },
-    "icon": "https://img.gachawiki.info/gene-sys-adam/buff_CritAmp_Up_Icon.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/buff_CritAmp_Up_Icon.webp",
     "kind": "buff",
     "order": 44,
     "desc": "Determines the bonus damage multiplier on a Critical Hit.",
@@ -746,7 +746,7 @@ export const GSA_STATUSES = {
       "vi": "Block Penetration Up",
       "zh-cn": "格挡无视提升"
     },
-    "icon": "https://img.gachawiki.info/gene-sys-adam/buff_BlkPen_Up_Icon.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/buff_BlkPen_Up_Icon.webp",
     "kind": "buff",
     "order": 45,
     "desc": null,
@@ -763,7 +763,7 @@ export const GSA_STATUSES = {
       "vi": "Block Up",
       "zh-cn": "格挡提升"
     },
-    "icon": "https://img.gachawiki.info/gene-sys-adam/buff_Blk_Up_Icon.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/buff_Blk_Up_Icon.webp",
     "kind": "buff",
     "order": 46,
     "desc": "Determines the chance to block when taking damage. A successful block reduces the damage received.",
@@ -780,7 +780,7 @@ export const GSA_STATUSES = {
       "vi": "DMG Block Up",
       "zh-cn": "格挡减伤提升"
     },
-    "icon": "https://img.gachawiki.info/gene-sys-adam/buff_BlkRdc_Up_Icon.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/buff_BlkRdc_Up_Icon.webp",
     "kind": "buff",
     "order": 47,
     "desc": null,
@@ -831,7 +831,7 @@ export const GSA_STATUSES = {
       "vi": "Healing Crit Up",
       "zh-cn": "治疗暴击提升"
     },
-    "icon": "https://img.gachawiki.info/gene-sys-adam/buff_HealCrit_Up_Icon.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/buff_HealCrit_Up_Icon.webp",
     "kind": "buff",
     "order": 50,
     "desc": null,
@@ -865,7 +865,7 @@ export const GSA_STATUSES = {
       "vi": "Healing Up",
       "zh-cn": "治疗效果提升"
     },
-    "icon": "https://img.gachawiki.info/gene-sys-adam/buff_Heal_Up_Icon.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/buff_Heal_Up_Icon.webp",
     "kind": "buff",
     "order": 52,
     "desc": null,
@@ -882,7 +882,7 @@ export const GSA_STATUSES = {
       "vi": "Healing Received Up",
       "zh-cn": "受治疗效果提升"
     },
-    "icon": "https://img.gachawiki.info/gene-sys-adam/buff_RecHeal_Up_Icon.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/buff_RecHeal_Up_Icon.webp",
     "kind": "buff",
     "order": 53,
     "desc": null,
@@ -899,7 +899,7 @@ export const GSA_STATUSES = {
       "vi": "EN Gain Up",
       "zh-cn": "EN值获取提升"
     },
-    "icon": "https://img.gachawiki.info/gene-sys-adam/buff_ManaAmp_Up_Icon.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/buff_ManaAmp_Up_Icon.webp",
     "kind": "buff",
     "order": 54,
     "desc": null,
@@ -916,7 +916,7 @@ export const GSA_STATUSES = {
       "vi": "ATK SPD Up",
       "zh-cn": "攻击速度提升"
     },
-    "icon": "https://img.gachawiki.info/gene-sys-adam/buff_AtkHaste_Up_Icon.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/buff_AtkHaste_Up_Icon.webp",
     "kind": "buff",
     "order": 55,
     "desc": null,
@@ -950,7 +950,7 @@ export const GSA_STATUSES = {
       "vi": "Wind ATK Up",
       "zh-cn": "风属性攻击提升"
     },
-    "icon": "https://img.gachawiki.info/gene-sys-adam/buff_WindAtk_Up_Icon.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/buff_WindAtk_Up_Icon.webp",
     "kind": "buff",
     "order": 57,
     "desc": "Increases Wind DMG dealt. This value is offset by the attacker's Wind Res.",
@@ -967,7 +967,7 @@ export const GSA_STATUSES = {
       "vi": "Earth ATK Up",
       "zh-cn": "土属性攻击提升"
     },
-    "icon": "https://img.gachawiki.info/gene-sys-adam/buff_EarthAtk_Up_Icon.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/buff_EarthAtk_Up_Icon.webp",
     "kind": "buff",
     "order": 58,
     "desc": "Increases Earth DMG dealt. This value is offset by the attacker's Earth Res.",
@@ -984,7 +984,7 @@ export const GSA_STATUSES = {
       "vi": "Fire ATK Up",
       "zh-cn": "火属性攻击提升"
     },
-    "icon": "https://img.gachawiki.info/gene-sys-adam/buff_FireAtk_Up_Icon.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/buff_FireAtk_Up_Icon.webp",
     "kind": "buff",
     "order": 59,
     "desc": "Increases Fire DMG dealt. This value is offset by the attacker's Fire Res.",
@@ -1001,7 +1001,7 @@ export const GSA_STATUSES = {
       "vi": "Water ATK Up",
       "zh-cn": "水属性攻击提升"
     },
-    "icon": "https://img.gachawiki.info/gene-sys-adam/buff_WaterAtk_Up_Icon.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/buff_WaterAtk_Up_Icon.webp",
     "kind": "buff",
     "order": 60,
     "desc": "Increases Water DMG dealt. This value is offset by the attacker's Water Res.",
@@ -1018,7 +1018,7 @@ export const GSA_STATUSES = {
       "vi": "Light ATK Up",
       "zh-cn": "光属性攻击提升"
     },
-    "icon": "https://img.gachawiki.info/gene-sys-adam/buff_LightAtk_Up_Icon.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/buff_LightAtk_Up_Icon.webp",
     "kind": "buff",
     "order": 61,
     "desc": "Increases Light DMG dealt. This value is offset by the attacker's Light Res.",
@@ -1035,7 +1035,7 @@ export const GSA_STATUSES = {
       "vi": "Dark ATK Up",
       "zh-cn": "暗属性攻击提升"
     },
-    "icon": "https://img.gachawiki.info/gene-sys-adam/buff_DarkAtk_Up_Icon.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/buff_DarkAtk_Up_Icon.webp",
     "kind": "buff",
     "order": 62,
     "desc": "Increases Dark DMG dealt. This value is offset by the attacker's Dark Res.",
@@ -1052,7 +1052,7 @@ export const GSA_STATUSES = {
       "vi": "Wind Res Up",
       "zh-cn": "风属性抗性提升"
     },
-    "icon": "https://img.gachawiki.info/gene-sys-adam/buff_WindRes_Up_Icon.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/buff_WindRes_Up_Icon.webp",
     "kind": "buff",
     "order": 63,
     "desc": "Reduces incoming Wind DMG. This value is offset by the attacker's Wind ATK.",
@@ -1069,7 +1069,7 @@ export const GSA_STATUSES = {
       "vi": "Earth Res Up",
       "zh-cn": "土属性抗性提升"
     },
-    "icon": "https://img.gachawiki.info/gene-sys-adam/buff_EarthRes_Up_Icon.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/buff_EarthRes_Up_Icon.webp",
     "kind": "buff",
     "order": 64,
     "desc": "Reduces incoming Earth DMG. This value is offset by the attacker's Earth ATK.",
@@ -1086,7 +1086,7 @@ export const GSA_STATUSES = {
       "vi": "Fire Res Up",
       "zh-cn": "火属性抗性提升"
     },
-    "icon": "https://img.gachawiki.info/gene-sys-adam/buff_FireRes_Up_Icon.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/buff_FireRes_Up_Icon.webp",
     "kind": "buff",
     "order": 65,
     "desc": "Reduces incoming Fire DMG. This value is offset by the attacker's Fire ATK.",
@@ -1103,7 +1103,7 @@ export const GSA_STATUSES = {
       "vi": "Water Res Up",
       "zh-cn": "水属性抗性提升"
     },
-    "icon": "https://img.gachawiki.info/gene-sys-adam/buff_WaterRes_Up_Icon.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/buff_WaterRes_Up_Icon.webp",
     "kind": "buff",
     "order": 66,
     "desc": "Reduces incoming Water DMG. This value is offset by the attacker's Water ATK.",
@@ -1120,7 +1120,7 @@ export const GSA_STATUSES = {
       "vi": "Light Res Up",
       "zh-cn": "光属性抗性提升"
     },
-    "icon": "https://img.gachawiki.info/gene-sys-adam/buff_LightRes_Up_Icon.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/buff_LightRes_Up_Icon.webp",
     "kind": "buff",
     "order": 67,
     "desc": "Reduces incoming Light DMG. This value is offset by the attacker's Light ATK.",
@@ -1137,7 +1137,7 @@ export const GSA_STATUSES = {
       "vi": "Dark Res Up",
       "zh-cn": "暗属性抗性提升"
     },
-    "icon": "https://img.gachawiki.info/gene-sys-adam/buff_DarkRes_Up_Icon.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/buff_DarkRes_Up_Icon.webp",
     "kind": "buff",
     "order": 68,
     "desc": "Reduces incoming Dark DMG. This value is offset by the attacker's Dark ATK.",
@@ -1171,7 +1171,7 @@ export const GSA_STATUSES = {
       "vi": "Attack Down",
       "zh-cn": "攻击力降低"
     },
-    "icon": "https://img.gachawiki.info/gene-sys-adam/buff_Atk_Down_Icon.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/buff_Atk_Down_Icon.webp",
     "kind": "debuff",
     "order": 70,
     "desc": "Attack Power. Increases the damage dealt.",
@@ -1188,7 +1188,7 @@ export const GSA_STATUSES = {
       "vi": "Physical DMG Down",
       "zh-cn": "物理伤害降低"
     },
-    "icon": "https://img.gachawiki.info/gene-sys-adam/buff_Pdmg_Down_Icon.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/buff_Pdmg_Down_Icon.webp",
     "kind": "debuff",
     "order": 71,
     "desc": null,
@@ -1222,7 +1222,7 @@ export const GSA_STATUSES = {
       "vi": "Physical DMG Taken Up",
       "zh-cn": "受到物理伤害提升"
     },
-    "icon": "https://img.gachawiki.info/gene-sys-adam/buff_Prdc_Down_Icon.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/buff_Prdc_Down_Icon.webp",
     "kind": "buff",
     "order": 73,
     "desc": null,
@@ -1239,7 +1239,7 @@ export const GSA_STATUSES = {
       "vi": "Energy DMG Taken Up",
       "zh-cn": "受到能量伤害提升"
     },
-    "icon": "https://img.gachawiki.info/gene-sys-adam/buff_Mrdc_Down_Icon.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/buff_Mrdc_Down_Icon.webp",
     "kind": "buff",
     "order": 74,
     "desc": null,
@@ -1256,7 +1256,7 @@ export const GSA_STATUSES = {
       "vi": "Damage Decrease",
       "zh-cn": "伤害降低"
     },
-    "icon": "https://img.gachawiki.info/gene-sys-adam/buff_Dmg_Down_Icon.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/buff_Dmg_Down_Icon.webp",
     "kind": "debuff",
     "order": 75,
     "desc": null,
@@ -1273,7 +1273,7 @@ export const GSA_STATUSES = {
       "vi": "Damage Taken Up",
       "zh-cn": "受到伤害提升"
     },
-    "icon": "https://img.gachawiki.info/gene-sys-adam/buff_Rdc_Down_Icon.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/buff_Rdc_Down_Icon.webp",
     "kind": "buff",
     "order": 76,
     "desc": null,
@@ -1290,7 +1290,7 @@ export const GSA_STATUSES = {
       "vi": "ACC Down",
       "zh-cn": "命中降低"
     },
-    "icon": "https://img.gachawiki.info/gene-sys-adam/buff_Hit_Down_Icon.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/buff_Hit_Down_Icon.webp",
     "kind": "debuff",
     "order": 77,
     "desc": "Determines whether an attack will land. This value is offset by the target's Evasion.",
@@ -1307,7 +1307,7 @@ export const GSA_STATUSES = {
       "vi": "Evasion Down",
       "zh-cn": "闪避降低"
     },
-    "icon": "https://img.gachawiki.info/gene-sys-adam/buff_Ddg_Down_Icon.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/buff_Ddg_Down_Icon.webp",
     "kind": "debuff",
     "order": 78,
     "desc": "Determines the chance to avoid being hit by an attack. This value is offset by the target's Accuracy.",
@@ -1324,7 +1324,7 @@ export const GSA_STATUSES = {
       "vi": "Crit Chance Down",
       "zh-cn": "暴击降低"
     },
-    "icon": "https://img.gachawiki.info/gene-sys-adam/buff_Crit_Down_Icon.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/buff_Crit_Down_Icon.webp",
     "kind": "debuff",
     "order": 79,
     "desc": null,
@@ -1341,7 +1341,7 @@ export const GSA_STATUSES = {
       "vi": "Crit Evasion Down",
       "zh-cn": "暴击闪避降低"
     },
-    "icon": "https://img.gachawiki.info/gene-sys-adam/buff_CritRst_Down_Icon.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/buff_CritRst_Down_Icon.webp",
     "kind": "debuff",
     "order": 80,
     "desc": "Reduces the chance of receiving a Crit. This effect is offset by the target's Crit stat.",
@@ -1392,7 +1392,7 @@ export const GSA_STATUSES = {
       "vi": "Block Down",
       "zh-cn": "格挡降低"
     },
-    "icon": "https://img.gachawiki.info/gene-sys-adam/buff_Blk_Down_Icon.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/buff_Blk_Down_Icon.webp",
     "kind": "debuff",
     "order": 83,
     "desc": "Determines the chance to block when taking damage. A successful block reduces the damage received.",
@@ -1409,7 +1409,7 @@ export const GSA_STATUSES = {
       "vi": "DMG Block Down",
       "zh-cn": "格挡减伤降低"
     },
-    "icon": "https://img.gachawiki.info/gene-sys-adam/buff_BlkRdc_Down_Icon.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/buff_BlkRdc_Down_Icon.webp",
     "kind": "debuff",
     "order": 84,
     "desc": null,
@@ -1494,7 +1494,7 @@ export const GSA_STATUSES = {
       "vi": "Healing Down",
       "zh-cn": "治疗效果降低"
     },
-    "icon": "https://img.gachawiki.info/gene-sys-adam/buff_Heal_Down_Icon.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/buff_Heal_Down_Icon.webp",
     "kind": "buff",
     "order": 89,
     "desc": null,
@@ -1511,7 +1511,7 @@ export const GSA_STATUSES = {
       "vi": "Healing Received Down",
       "zh-cn": "受治疗效果降低"
     },
-    "icon": "https://img.gachawiki.info/gene-sys-adam/buff_RecHeal_Down_Icon.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/buff_RecHeal_Down_Icon.webp",
     "kind": "buff",
     "order": 90,
     "desc": null,
@@ -1528,7 +1528,7 @@ export const GSA_STATUSES = {
       "vi": "EN Gain Down",
       "zh-cn": "EN值获取降低"
     },
-    "icon": "https://img.gachawiki.info/gene-sys-adam/buff_ManaAmp_Down_Icon.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/buff_ManaAmp_Down_Icon.webp",
     "kind": "debuff",
     "order": 91,
     "desc": null,
@@ -1545,7 +1545,7 @@ export const GSA_STATUSES = {
       "vi": "ATK SPD Down",
       "zh-cn": "攻击速度降低"
     },
-    "icon": "https://img.gachawiki.info/gene-sys-adam/buff_AtkHaste_Down_Icon.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/buff_AtkHaste_Down_Icon.webp",
     "kind": "debuff",
     "order": 92,
     "desc": null,
@@ -1579,7 +1579,7 @@ export const GSA_STATUSES = {
       "vi": "Wind ATK Down",
       "zh-cn": "风属性攻击降低"
     },
-    "icon": "https://img.gachawiki.info/gene-sys-adam/buff_WindAtk_Down_Icon.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/buff_WindAtk_Down_Icon.webp",
     "kind": "debuff",
     "order": 94,
     "desc": "Increases Wind DMG dealt. This value is offset by the attacker's Wind Res.",
@@ -1596,7 +1596,7 @@ export const GSA_STATUSES = {
       "vi": "Earth ATK Down",
       "zh-cn": "土属性攻击降低"
     },
-    "icon": "https://img.gachawiki.info/gene-sys-adam/buff_EarthAtk_Down_Icon.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/buff_EarthAtk_Down_Icon.webp",
     "kind": "debuff",
     "order": 95,
     "desc": "Increases Earth DMG dealt. This value is offset by the attacker's Earth Res.",
@@ -1613,7 +1613,7 @@ export const GSA_STATUSES = {
       "vi": "Fire ATK Down",
       "zh-cn": "火属性攻击降低"
     },
-    "icon": "https://img.gachawiki.info/gene-sys-adam/buff_FireAtk_Down_Icon.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/buff_FireAtk_Down_Icon.webp",
     "kind": "debuff",
     "order": 96,
     "desc": "Increases Fire DMG dealt. This value is offset by the attacker's Fire Res.",
@@ -1647,7 +1647,7 @@ export const GSA_STATUSES = {
       "vi": "Light ATK Down",
       "zh-cn": "光属性攻击降低"
     },
-    "icon": "https://img.gachawiki.info/gene-sys-adam/buff_LightAtk_Down_Icon.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/buff_LightAtk_Down_Icon.webp",
     "kind": "debuff",
     "order": 98,
     "desc": "Increases Light DMG dealt. This value is offset by the attacker's Light Res.",
@@ -1664,7 +1664,7 @@ export const GSA_STATUSES = {
       "vi": "Dark ATK Down",
       "zh-cn": "暗属性攻击降低"
     },
-    "icon": "https://img.gachawiki.info/gene-sys-adam/buff_DarkAtk_Down_Icon.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/buff_DarkAtk_Down_Icon.webp",
     "kind": "debuff",
     "order": 99,
     "desc": "Increases Dark DMG dealt. This value is offset by the attacker's Dark Res.",
@@ -1681,7 +1681,7 @@ export const GSA_STATUSES = {
       "vi": "Wind Res Down",
       "zh-cn": "风属性抗性降低"
     },
-    "icon": "https://img.gachawiki.info/gene-sys-adam/buff_WindRes_Down_Icon.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/buff_WindRes_Down_Icon.webp",
     "kind": "debuff",
     "order": 100,
     "desc": "Reduces incoming Wind DMG. This value is offset by the attacker's Wind ATK.",
@@ -1698,7 +1698,7 @@ export const GSA_STATUSES = {
       "vi": "Earth Res Down",
       "zh-cn": "土属性抗性降低"
     },
-    "icon": "https://img.gachawiki.info/gene-sys-adam/buff_EarthRes_Down_Icon.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/buff_EarthRes_Down_Icon.webp",
     "kind": "debuff",
     "order": 101,
     "desc": "Reduces incoming Earth DMG. This value is offset by the attacker's Earth ATK.",
@@ -1715,7 +1715,7 @@ export const GSA_STATUSES = {
       "vi": "Fire Res Down",
       "zh-cn": "火属性抗性降低"
     },
-    "icon": "https://img.gachawiki.info/gene-sys-adam/buff_FireRes_Down_Icon.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/buff_FireRes_Down_Icon.webp",
     "kind": "debuff",
     "order": 102,
     "desc": "Reduces incoming Fire DMG. This value is offset by the attacker's Fire ATK.",
@@ -1732,7 +1732,7 @@ export const GSA_STATUSES = {
       "vi": "Water Res Down",
       "zh-cn": "水属性抗性降低"
     },
-    "icon": "https://img.gachawiki.info/gene-sys-adam/buff_WaterRes_Down_Icon.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/buff_WaterRes_Down_Icon.webp",
     "kind": "debuff",
     "order": 103,
     "desc": "Reduces incoming Water DMG. This value is offset by the attacker's Water ATK.",
@@ -1749,7 +1749,7 @@ export const GSA_STATUSES = {
       "vi": "Light Res Down",
       "zh-cn": "光属性抗性降低"
     },
-    "icon": "https://img.gachawiki.info/gene-sys-adam/buff_LightRes_Down_Icon.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/buff_LightRes_Down_Icon.webp",
     "kind": "debuff",
     "order": 104,
     "desc": "Reduces incoming Light DMG. This value is offset by the attacker's Light ATK.",
@@ -1766,7 +1766,7 @@ export const GSA_STATUSES = {
       "vi": "Dark Res Down",
       "zh-cn": "暗属性抗性降低"
     },
-    "icon": "https://img.gachawiki.info/gene-sys-adam/buff_DarkRes_Down_Icon.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/buff_DarkRes_Down_Icon.webp",
     "kind": "debuff",
     "order": 105,
     "desc": "Reduces incoming Dark DMG. This value is offset by the attacker's Dark ATK.",
@@ -1783,7 +1783,7 @@ export const GSA_STATUSES = {
       "vi": "Basic Damage Up",
       "zh-cn": "普攻伤害提升"
     },
-    "icon": "https://img.gachawiki.info/gene-sys-adam/buff_normalAtk_Up_Icon.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/buff_normalAtk_Up_Icon.webp",
     "kind": "buff",
     "order": 106,
     "desc": null,
@@ -1800,7 +1800,7 @@ export const GSA_STATUSES = {
       "vi": "Basic Attack Damage Taken Decreased",
       "zh-cn": "受到普攻伤害降低"
     },
-    "icon": "https://img.gachawiki.info/gene-sys-adam/buff_normalAtkRdc_Up_Icon.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/buff_normalAtkRdc_Up_Icon.webp",
     "kind": "debuff",
     "order": 107,
     "desc": null,
@@ -1817,7 +1817,7 @@ export const GSA_STATUSES = {
       "vi": "Skill Damage Up",
       "zh-cn": "技能伤害提升"
     },
-    "icon": "https://img.gachawiki.info/gene-sys-adam/buff_skillAtk_Up_Icon.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/buff_skillAtk_Up_Icon.webp",
     "kind": "buff",
     "order": 108,
     "desc": null,
@@ -1834,7 +1834,7 @@ export const GSA_STATUSES = {
       "vi": "Skill Damage Taken Decreased",
       "zh-cn": "受到技能伤害降低"
     },
-    "icon": "https://img.gachawiki.info/gene-sys-adam/buff_skillAtkRdc_Up_Icon.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/buff_skillAtkRdc_Up_Icon.webp",
     "kind": "debuff",
     "order": 109,
     "desc": null,
@@ -1851,7 +1851,7 @@ export const GSA_STATUSES = {
       "vi": "Basic Damage Down",
       "zh-cn": "普攻伤害降低"
     },
-    "icon": "https://img.gachawiki.info/gene-sys-adam/buff_normalAtk_Down_Icon.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/buff_normalAtk_Down_Icon.webp",
     "kind": "debuff",
     "order": 110,
     "desc": null,
@@ -1885,7 +1885,7 @@ export const GSA_STATUSES = {
       "vi": "Skill Damage Down",
       "zh-cn": "技能伤害降低"
     },
-    "icon": "https://img.gachawiki.info/gene-sys-adam/buff_skillAtk_Down_Icon.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/buff_skillAtk_Down_Icon.webp",
     "kind": "debuff",
     "order": 112,
     "desc": null,
@@ -1902,7 +1902,7 @@ export const GSA_STATUSES = {
       "vi": "Skill DMG Taken Up",
       "zh-cn": "受到技能伤害提升"
     },
-    "icon": "https://img.gachawiki.info/gene-sys-adam/buff_skillAtkRdc_Down_Icon.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/buff_skillAtkRdc_Down_Icon.webp",
     "kind": "buff",
     "order": 113,
     "desc": null,

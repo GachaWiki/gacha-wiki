@@ -1,6 +1,6 @@
 // Official Stella Sora news content (cleaned from stellasora.global/news/2102)
 export const content = `
-<p><img src="https://img.gachawiki.info/stella-sora/news/2102-1.webp" alt="" loading="lazy" decoding="async" /></p>
+<p><img src="https://k2b1c5ab57ed98e51.gachawiki.info/stella-sora/news/2102-1.webp" alt="" loading="lazy" decoding="async" /></p>
 <p>Dear Tyrant,</p>
 <p>Stella Sora is scheduled to undergo maintenance and updates starting on Dec. 08, 2025 at 20:00 (UTC-7), with an estimated duration of 6 hours.</p>
 <p>Once maintenance begins, you won't be able to log into the game. If you're still playing at that time, you'll be logged out automatically. To keep your account data safe, please finish any ongoing stages and close the game before maintenance begins.</p>
@@ -16,26 +16,26 @@ export const content = `
 <p><strong>✦ New Content ✦</strong></p>
 <p><strong>■ New Trekker and Runic Disc</strong></p>
 <p>New★5 Ventus Trekker: Nazuka can be recruited from the event limited banner: A Breezy Romance.</p>
-<p><img src="https://img.gachawiki.info/stella-sora/news/2099-3.webp" alt="" loading="lazy" decoding="async" /></p>
+<p><img src="https://k2b1c5ab57ed98e51.gachawiki.info/stella-sora/news/2099-3.webp" alt="" loading="lazy" decoding="async" /></p>
 <p>New★5 Ventus Disc: Deer's Song can be recruited from the event limited banner: Afternoon Glimmer into the Green.</p>
-<p><img src="https://img.gachawiki.info/stella-sora/news/2099-4.webp" alt="" loading="lazy" decoding="async" /></p>
+<p><img src="https://k2b1c5ab57ed98e51.gachawiki.info/stella-sora/news/2099-4.webp" alt="" loading="lazy" decoding="async" /></p>
 <p><strong>■ New Story</strong></p>
 <p><strong>Main Story Chapter Four: Beyond the Dream</strong></p>
 <p>The hunt for the Big Three has reached its climax.</p>
 <p>The truth behind the parting of friends, the secrets hidden within the monsters, the shadowy figure stirring behind the scenes... Can you wield the power as the Tyrant, overcome all obstacles, and reach that happy ending, filled with laughter and joy for all?</p>
 <p>Period: Permanent after Dec. 08, 2025 after Maintenance</p>
-<p><img src="https://img.gachawiki.info/stella-sora/news/2102-2.webp" alt="" loading="lazy" decoding="async" /></p>
+<p><img src="https://k2b1c5ab57ed98e51.gachawiki.info/stella-sora/news/2102-2.webp" alt="" loading="lazy" decoding="async" /></p>
 <p><strong>■ New Event</strong></p>
 <p><strong>Main Story Update Event: Beyond the Dream</strong></p>
 <p>Period: Dec. 08, 2025 after Maintenance ⁠- Dec. 22, 2025 12:59:59 (UTC-7)</p>
 <p>Event Shop & Reward Exchange: Dec. 08, 2025 after Maintenance ⁠- Dec 29, 2025, 12:59:59 (UTC-7)</p>
 <p>Details: Eliminate monsters and protect the forest! Complete missions to get ★5 Runic Disc: One, Two, Three, Jump!, Honor Title: Beyond the Dream, Stellanite Dust, Sprout Ticket, Cerulean Ticket, Trekker and Disc tier-up materials, and more!</p>
-<p><img src="https://img.gachawiki.info/stella-sora/news/2099-2.webp" alt="" loading="lazy" decoding="async" /></p>
+<p><img src="https://k2b1c5ab57ed98e51.gachawiki.info/stella-sora/news/2099-2.webp" alt="" loading="lazy" decoding="async" /></p>
 <p><strong>Lucky Treasure Shovel</strong></p>
 <p>Period: Dec. 08, 2025 after Maintenance ⁠- Dec. 22, 2025 12:59:59 (UTC-7)</p>
 <p>Details: Areas hiding precious treasures await exploration! During the event, you can use Treasure Shovels to uncover the treasures with your Trekkers, and accumulate points to complete quests, which will reward you with Stellanite Dust, Healthy Rice Ball, and more.</p>
 <p>Requirements: Authorization Level ≥ 5</p>
-<p><img src="https://img.gachawiki.info/stella-sora/news/2102-3.webp" alt="" loading="lazy" decoding="async" /></p>
+<p><img src="https://k2b1c5ab57ed98e51.gachawiki.info/stella-sora/news/2102-3.webp" alt="" loading="lazy" decoding="async" /></p>
 <p><strong>✦ New Limited-time Merchandise ✦</strong></p>
 <p><strong>■ Trekker's Picks: Stellar Special</strong></p>
 <p>- A Breezy Romance: Cerulean Ticket Set</p>

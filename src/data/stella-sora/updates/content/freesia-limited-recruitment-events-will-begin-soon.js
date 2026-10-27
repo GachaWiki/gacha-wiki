@@ -1,6 +1,6 @@
 // Official Stella Sora news content (cleaned from stellasora.global/news/2266)
 export const content = `
-<p><img src="https://img.gachawiki.info/stella-sora/news/2266-1.webp" alt="" loading="lazy" decoding="async" /></p>
+<p><img src="https://k2b1c5ab57ed98e51.gachawiki.info/stella-sora/news/2266-1.webp" alt="" loading="lazy" decoding="async" /></p>
 <p><strong>Limited recruitment event: A Fateful Encounter will begin soon! During the event period, there's a higher chance to get the ★5 Trekker, Freesia.</strong></p>
 <p><strong>✦ Recruitment Period ✦</strong></p>
 <p>Start: Dec. 29, 2025 21:00:00 (UTC-7)</p>
@@ -9,7 +9,7 @@ export const content = `
 <p>During the event period, the chance for getting the ★5 Trekker Freesia is boosted!</p>
 <p>During the event period, the chance for getting ★4 Trekkers, Flora and Coronis, is also boosted.</p>
 <p>*For more recruitment information, please select the Details button in the bottom-left corner of the recruitment screen.</p>
-<p><img src="https://img.gachawiki.info/stella-sora/news/2266-2.webp" alt="" loading="lazy" decoding="async" /></p>
+<p><img src="https://k2b1c5ab57ed98e51.gachawiki.info/stella-sora/news/2266-2.webp" alt="" loading="lazy" decoding="async" /></p>
 <p><strong>Limited recruitment event: A Heart-Tuned Melody will begin soon! During the event period, there's a higher chance to get the ★5 Runic Disc: Sunlit Blossom.</strong></p>
 <p><strong>✦ Recruitment Period ✦</strong></p>
 <p>Start: Dec. 29, 2025 21:00:00 (UTC-7)</p>

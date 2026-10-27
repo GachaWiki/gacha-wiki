@@ -4,7 +4,7 @@
 export const pennyData = {
   // Basic Character Information
   name: 'Penny',
-  image: 'https://img.gachawiki.info/zone-nova/characters/penny.png', // Use full path
+  image: 'https://k2b1c5ab57ed98e51.gachawiki.info/zone-nova/characters/penny.png', // Use full path
   rarity: 'SSR', // SSR, SR, R
   element: 'Wind', // Fire, Ice, Wind, Holy, Chaos
   class: 'Tank', // Tank, Warrior, Attacker, Destroyer, Supporter, Disruptor, Healer - Determines memory compatibility

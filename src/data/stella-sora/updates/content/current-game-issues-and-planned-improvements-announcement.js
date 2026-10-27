@@ -1,6 +1,6 @@
 // Official Stella Sora news content (cleaned from stellasora.global/news/1966)
 export const content = `
-<p><img src="https://img.gachawiki.info/stella-sora/news/1966-1.webp" alt="" loading="lazy" decoding="async" /></p>
+<p><img src="https://k2b1c5ab57ed98e51.gachawiki.info/stella-sora/news/1966-1.webp" alt="" loading="lazy" decoding="async" /></p>
 <p>Dear Tyrant,</p>
 <p>Thank you for your continued support of Stella Sora. It has been nearly three weeks since the official launch, and during this time, we've received a lot of feedback and suggestions from players. We truly appreciate everyone's enthusiasm for the game and want to express our heartfelt gratitude.</p>
 <p>Recently, players have raised concerns about unclear descriptions, a lack of user-friendly features, and game balance issues. We sincerely apologize for any negative impact these may have had on your gaming experience. We'd like to take this opportunity to address these issues and share our plans for future improvements.</p>

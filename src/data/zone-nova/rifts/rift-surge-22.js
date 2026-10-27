@@ -34,6 +34,6 @@ export const riftSurge22SEO = {
     'Damage Buffs',
     'Character Guide',
   ],
-  image: 'https://img.gachawiki.info/zone-nova/rifts/rift-surge-22.jpg',
+  image: 'https://k2b1c5ab57ed98e51.gachawiki.info/zone-nova/rifts/rift-surge-22.jpg',
   url: '/guides/zone-nova/rifts/rift-surge-22/',
 };

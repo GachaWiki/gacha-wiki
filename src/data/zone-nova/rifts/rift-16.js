@@ -27,6 +27,6 @@ export const rift16SEO = {
   description:
     'Complete guide for Rift XVI in Zone Nova, featuring Warrior and Supporter character synergies, team compositions, and strategies.',
   keywords: ['Zone Nova', 'Rift XVI', 'Warrior', 'Supporter', 'Team Synergy', 'Character Guide'],
-  image: 'https://img.gachawiki.info/zone-nova/rifts/rift-16.jpg',
+  image: 'https://k2b1c5ab57ed98e51.gachawiki.info/zone-nova/rifts/rift-16.jpg',
   url: '/guides/zone-nova/rifts/rift-16/',
 };

@@ -1,6 +1,6 @@
 // Official Stella Sora news content (cleaned from stellasora.global/news/2004)
 export const content = `
-<p><img src="https://img.gachawiki.info/stella-sora/news/2004-1.webp" alt="" loading="lazy" decoding="async" /></p>
+<p><img src="https://k2b1c5ab57ed98e51.gachawiki.info/stella-sora/news/2004-1.webp" alt="" loading="lazy" decoding="async" /></p>
 <p>Dear Tyrant,</p>
 <p>There were several issues regarding the ongoing event: A Finale Echoing. We sincerely apologize for any inconvenience this may have caused. The issue where the battle may fail to progress normally when the boss transitions between phases has now been fixed.</p>
 <p>Compensation will be distributed according to the details below. Once again, thank you for your support and understanding.</p>

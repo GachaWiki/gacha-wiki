@@ -16,7 +16,7 @@ export const damageMechanicsIndex = {
     subtitle: "Master Zone Nova's Combat System",
     description:
       'Comprehensive guides covering damage calculations, character-specific mechanics, and advanced combat strategies. From basic defense formulas to complex character interactions.',
-    featuredImage: 'https://img.gachawiki.info/zone-nova/mechanics/damage-mechanics-hero.jpg', // Optional hero image
+    featuredImage: 'https://k2b1c5ab57ed98e51.gachawiki.info/zone-nova/mechanics/damage-mechanics-hero.jpg', // Optional hero image
     quickStats: [
       { label: 'Core Mechanics', value: '1', icon: '⚔️' },
       { label: 'Character Guides', value: '1', icon: '👥' },

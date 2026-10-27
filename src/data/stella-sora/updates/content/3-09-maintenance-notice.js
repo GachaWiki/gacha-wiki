@@ -1,6 +1,6 @@
 // Official Stella Sora news content (cleaned from stellasora.global/news/2778)
 export const content = `
-<p><img src="https://img.gachawiki.info/stella-sora/news/2102-1.webp" alt="" loading="lazy" decoding="async" /></p>
+<p><img src="https://k2b1c5ab57ed98e51.gachawiki.info/stella-sora/news/2102-1.webp" alt="" loading="lazy" decoding="async" /></p>
 <p>Dear Tyrant,</p>
 <p>Stella Sora is scheduled to undergo maintenance and updates on Mar. 09, 2026, from 20:00 (UTC-7), to apply and verify content for A Finale Echoing set to begin on Mar. 09. The maintenance is expected to last approximately 3 hours.</p>
 <p>Once maintenance begins, you won't be able to log into the game. If you're still playing at that time, you'll be logged out automatically. To keep your account data safe, please finish any ongoing stages and close the game before maintenance begins.</p>

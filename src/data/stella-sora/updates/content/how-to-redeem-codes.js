@@ -1,6 +1,6 @@
 // Official Stella Sora news content (cleaned from stellasora.global/news/1846)
 export const content = `
-<p><img src="https://img.gachawiki.info/stella-sora/news/1846-1.webp" alt="" loading="lazy" decoding="async" /></p>
+<p><img src="https://k2b1c5ab57ed98e51.gachawiki.info/stella-sora/news/1846-1.webp" alt="" loading="lazy" decoding="async" /></p>
 <p>Dear Tyrants,</p>
 <p>You can redeem your codes using the following methods:</p>
 <p>- PC (Windows): Go to [Menu] → [Redeem Code] on the main game screen, then enter your UID and the redeem code to claim your rewards.</p>

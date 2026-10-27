@@ -29,19 +29,19 @@ export const gsaCharacters = [
     "epithet": "Area Suppression, Judgment of Sin",
     "sex": "Female",
     "inGacha": true,
-    "icon": "https://img.gachawiki.info/gene-sys-adam/cr031_Icon_Texture.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/cr031_Icon_Texture.webp",
     "sortOrder": 31,
     "rarity": "SR",
     "element": {
       "id": 5,
       "name": "Light",
-      "icon": "https://img.gachawiki.info/gene-sys-adam/battleelement_5.webp"
+      "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/battleelement_5.webp"
     },
-    "job": {"id": 2, "name": "Striker", "color": "#EA3333", "icon": "https://img.gachawiki.info/gene-sys-adam/fighters_5.webp" },
+    "job": {"id": 2, "name": "Striker", "color": "#EA3333", "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/fighters_5.webp" },
     "attackType": {
       "id": 1,
       "name": "Physical",
-      "icon": "https://img.gachawiki.info/gene-sys-adam/Attributes_02.webp"
+      "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Attributes_02.webp"
     },
     "skills": [
       {
@@ -49,7 +49,7 @@ export const gsaCharacters = [
         "name": "Covering Fire",
         "slot": "Basic Attack",
         "unlockStar": 0,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr031_1.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr031_1.webp",
         "type": "Instant",
         "mainStat": "ATK",
         "gcd": "10s",
@@ -64,7 +64,7 @@ export const gsaCharacters = [
         "name": "Judgment Combo",
         "slot": "Talent",
         "unlockStar": 0,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr031_2.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr031_2.webp",
         "type": "Instant",
         "mainStat": "ATK",
         "gcd": null,
@@ -81,7 +81,7 @@ export const gsaCharacters = [
         "name": "Tactical Beacon",
         "slot": "Auto",
         "unlockStar": 1,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr031_3.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr031_3.webp",
         "type": "Instant",
         "mainStat": null,
         "gcd": null,
@@ -99,7 +99,7 @@ export const gsaCharacters = [
         "name": "Ties of Affection",
         "slot": "Passive 1",
         "unlockStar": 4,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr031_5.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr031_5.webp",
         "type": "Passive",
         "mainStat": null,
         "gcd": null,
@@ -118,7 +118,7 @@ export const gsaCharacters = [
         "name": "Tactical Dispatch",
         "slot": "Passive 2",
         "unlockStar": 6,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr031_6.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr031_6.webp",
         "type": "Passive",
         "mainStat": null,
         "gcd": null,
@@ -137,7 +137,7 @@ export const gsaCharacters = [
         "name": "Location Lockdown",
         "slot": "Ultimate",
         "unlockStar": 2,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr031_4.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr031_4.webp",
         "type": "Instant",
         "mainStat": "ATK",
         "gcd": null,
@@ -204,19 +204,19 @@ export const gsaCharacters = [
     "epithet": "Silent Hunter, Stone-Piercing Bullet",
     "sex": "Female",
     "inGacha": true,
-    "icon": "https://img.gachawiki.info/gene-sys-adam/cr032_Icon_Texture.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/cr032_Icon_Texture.webp",
     "sortOrder": 32,
     "rarity": "SR",
     "element": {
       "id": 2,
       "name": "Earth",
-      "icon": "https://img.gachawiki.info/gene-sys-adam/battleelement_2.webp"
+      "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/battleelement_2.webp"
     },
-    "job": {"id": 3, "name": "Sniper", "color": "#FFC405", "icon": "https://img.gachawiki.info/gene-sys-adam/archer_2.webp" },
+    "job": {"id": 3, "name": "Sniper", "color": "#FFC405", "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/archer_2.webp" },
     "attackType": {
       "id": 2,
       "name": "Energy",
-      "icon": "https://img.gachawiki.info/gene-sys-adam/Attributes_01.webp"
+      "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Attributes_01.webp"
     },
     "skills": [
       {
@@ -224,7 +224,7 @@ export const gsaCharacters = [
         "name": "Rapid Fire",
         "slot": "Basic Attack",
         "unlockStar": 0,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr032_1.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr032_1.webp",
         "type": "Instant",
         "mainStat": "ATK",
         "gcd": "10s",
@@ -239,7 +239,7 @@ export const gsaCharacters = [
         "name": "Suppressing Fire",
         "slot": "Talent",
         "unlockStar": 0,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr032_2.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr032_2.webp",
         "type": "Instant",
         "mainStat": null,
         "gcd": null,
@@ -256,7 +256,7 @@ export const gsaCharacters = [
         "name": "Threat Designation",
         "slot": "Auto",
         "unlockStar": 1,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr032_3.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr032_3.webp",
         "type": "Instant",
         "mainStat": "ATK",
         "gcd": null,
@@ -271,7 +271,7 @@ export const gsaCharacters = [
         "name": "Biological Weakness",
         "slot": "Passive 1",
         "unlockStar": 4,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr032_5.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr032_5.webp",
         "type": "Passive",
         "mainStat": null,
         "gcd": null,
@@ -290,7 +290,7 @@ export const gsaCharacters = [
         "name": "Energy Drink",
         "slot": "Passive 2",
         "unlockStar": 6,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr032_6.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr032_6.webp",
         "type": "Passive",
         "mainStat": null,
         "gcd": null,
@@ -309,7 +309,7 @@ export const gsaCharacters = [
         "name": "Piercing Blast",
         "slot": "Ultimate",
         "unlockStar": 2,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr032_4.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr032_4.webp",
         "type": "Instant",
         "mainStat": "ATK",
         "gcd": null,
@@ -376,24 +376,24 @@ export const gsaCharacters = [
     "epithet": "Stunning Smash, Barrier Fortification",
     "sex": "Female",
     "inGacha": true,
-    "icon": "https://img.gachawiki.info/gene-sys-adam/cr033_Icon_Texture.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/cr033_Icon_Texture.webp",
     "sortOrder": 33,
     "rarity": "SR",
     "element": {
       "id": 2,
       "name": "Earth",
-      "icon": "https://img.gachawiki.info/gene-sys-adam/battleelement_2.webp"
+      "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/battleelement_2.webp"
     },
     "job": {
       "id": 1,
       "name": "Guardian",
       "color": "#957C7A",
-      "icon": "https://img.gachawiki.info/gene-sys-adam/guard_2.webp"
+      "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/guard_2.webp"
     },
     "attackType": {
       "id": 1,
       "name": "Physical",
-      "icon": "https://img.gachawiki.info/gene-sys-adam/Attributes_02.webp"
+      "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Attributes_02.webp"
     },
     "skills": [
       {
@@ -401,7 +401,7 @@ export const gsaCharacters = [
         "name": "Collision Strike",
         "slot": "Basic Attack",
         "unlockStar": 0,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr033_1.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr033_1.webp",
         "type": "Instant",
         "mainStat": "ATK",
         "gcd": "18s",
@@ -416,7 +416,7 @@ export const gsaCharacters = [
         "name": "Formation Shatter",
         "slot": "Talent",
         "unlockStar": 0,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr033_2.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr033_2.webp",
         "type": "Instant",
         "mainStat": "ATK",
         "gcd": null,
@@ -433,7 +433,7 @@ export const gsaCharacters = [
         "name": "Defensive Tenacity",
         "slot": "Auto",
         "unlockStar": 1,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr033_3.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr033_3.webp",
         "type": "Instant",
         "mainStat": "Healing",
         "gcd": null,
@@ -451,7 +451,7 @@ export const gsaCharacters = [
         "name": "Indomitable Iron Will",
         "slot": "Passive 1",
         "unlockStar": 4,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr033_5.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr033_5.webp",
         "type": "Passive",
         "mainStat": "ATK",
         "gcd": null,
@@ -472,7 +472,7 @@ export const gsaCharacters = [
         "name": "Wall of Valor",
         "slot": "Passive 2",
         "unlockStar": 6,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr033_6.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr033_6.webp",
         "type": "Passive",
         "mainStat": null,
         "gcd": null,
@@ -491,7 +491,7 @@ export const gsaCharacters = [
         "name": "Fortified Bastion",
         "slot": "Ultimate",
         "unlockStar": 2,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr033_4.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr033_4.webp",
         "type": "Instant",
         "mainStat": null,
         "gcd": null,
@@ -558,24 +558,24 @@ export const gsaCharacters = [
     "epithet": "Bloodthirsty Lash, Assault on Flesh",
     "sex": "Female",
     "inGacha": true,
-    "icon": "https://img.gachawiki.info/gene-sys-adam/cr034_Icon_Texture.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/cr034_Icon_Texture.webp",
     "sortOrder": 34,
     "rarity": "SR",
     "element": {
       "id": 6,
       "name": "Dark",
-      "icon": "https://img.gachawiki.info/gene-sys-adam/battleelement_6.webp"
+      "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/battleelement_6.webp"
     },
     "job": {
       "id": 1,
       "name": "Guardian",
       "color": "#957C7A",
-      "icon": "https://img.gachawiki.info/gene-sys-adam/guard_6.webp"
+      "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/guard_6.webp"
     },
     "attackType": {
       "id": 1,
       "name": "Physical",
-      "icon": "https://img.gachawiki.info/gene-sys-adam/Attributes_02.webp"
+      "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Attributes_02.webp"
     },
     "skills": [
       {
@@ -583,7 +583,7 @@ export const gsaCharacters = [
         "name": "Whiplash",
         "slot": "Basic Attack",
         "unlockStar": 0,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr034_1.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr034_1.webp",
         "type": "Instant",
         "mainStat": "ATK",
         "gcd": "10s",
@@ -598,7 +598,7 @@ export const gsaCharacters = [
         "name": "Vicious Bloodrush",
         "slot": "Talent",
         "unlockStar": 0,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr034_2.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr034_2.webp",
         "type": "Instant",
         "mainStat": "ATK",
         "gcd": null,
@@ -615,7 +615,7 @@ export const gsaCharacters = [
         "name": "Savage Sideswipe",
         "slot": "Auto",
         "unlockStar": 1,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr034_3.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr034_3.webp",
         "type": "Instant",
         "mainStat": "ATK",
         "gcd": null,
@@ -632,7 +632,7 @@ export const gsaCharacters = [
         "name": "Street Survival",
         "slot": "Passive 1",
         "unlockStar": 4,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr034_5.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr034_5.webp",
         "type": "Passive",
         "mainStat": null,
         "gcd": null,
@@ -653,7 +653,7 @@ export const gsaCharacters = [
         "name": "Guarding Protector",
         "slot": "Passive 2",
         "unlockStar": 6,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr034_6.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr034_6.webp",
         "type": "Passive",
         "mainStat": null,
         "gcd": null,
@@ -672,7 +672,7 @@ export const gsaCharacters = [
         "name": "Dark Shadow Bloodline",
         "slot": "Ultimate",
         "unlockStar": 2,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr034_4.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr034_4.webp",
         "type": "Instant",
         "mainStat": "ATK",
         "gcd": null,
@@ -739,24 +739,24 @@ export const gsaCharacters = [
     "epithet": "Sweeping Thrust, Obsidian Brand",
     "sex": "Female",
     "inGacha": true,
-    "icon": "https://img.gachawiki.info/gene-sys-adam/cr035_Icon_Texture.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/cr035_Icon_Texture.webp",
     "sortOrder": 35,
     "rarity": "SR",
     "element": {
       "id": 6,
       "name": "Dark",
-      "icon": "https://img.gachawiki.info/gene-sys-adam/battleelement_6.webp"
+      "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/battleelement_6.webp"
     },
     "job": {
       "id": 2,
       "name": "Striker",
       "color": "#EA3333",
-      "icon": "https://img.gachawiki.info/gene-sys-adam/fighters_6.webp"
+      "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/fighters_6.webp"
     },
     "attackType": {
       "id": 2,
       "name": "Energy",
-      "icon": "https://img.gachawiki.info/gene-sys-adam/Attributes_01.webp"
+      "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Attributes_01.webp"
     },
     "skills": [
       {
@@ -779,7 +779,7 @@ export const gsaCharacters = [
         "name": "Safe Distance",
         "slot": "Talent",
         "unlockStar": 0,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr035_2.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr035_2.webp",
         "type": "Instant",
         "mainStat": "ATK",
         "gcd": null,
@@ -814,7 +814,7 @@ export const gsaCharacters = [
         "name": "Decisive Triumph",
         "slot": "Passive 1",
         "unlockStar": 4,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr035_5.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr035_5.webp",
         "type": "Passive",
         "mainStat": null,
         "gcd": null,
@@ -833,7 +833,7 @@ export const gsaCharacters = [
         "name": "Spoils of Victory",
         "slot": "Passive 2",
         "unlockStar": 6,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr035_6.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr035_6.webp",
         "type": "Passive",
         "mainStat": null,
         "gcd": null,
@@ -919,24 +919,24 @@ export const gsaCharacters = [
     "epithet": "Verdant Dance, Refreshing Breeze",
     "sex": "Female",
     "inGacha": true,
-    "icon": "https://img.gachawiki.info/gene-sys-adam/cr036_Icon_Texture.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/cr036_Icon_Texture.webp",
     "sortOrder": 36,
     "rarity": "SR",
     "element": {
       "id": 3,
       "name": "Wind",
-      "icon": "https://img.gachawiki.info/gene-sys-adam/battleelement_3.webp"
+      "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/battleelement_3.webp"
     },
     "job": {
       "id": 4,
       "name": "Support",
       "color": "#33EA62",
-      "icon": "https://img.gachawiki.info/gene-sys-adam/priest_3.webp"
+      "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/priest_3.webp"
     },
     "attackType": {
       "id": 1,
       "name": "Physical",
-      "icon": "https://img.gachawiki.info/gene-sys-adam/Attributes_02.webp"
+      "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Attributes_02.webp"
     },
     "skills": [
       {
@@ -944,7 +944,7 @@ export const gsaCharacters = [
         "name": "Jade Flash",
         "slot": "Basic Attack",
         "unlockStar": 0,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr036_1.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr036_1.webp",
         "type": "Instant",
         "mainStat": "ATK",
         "gcd": "10s",
@@ -959,7 +959,7 @@ export const gsaCharacters = [
         "name": "Cerulean Shroud",
         "slot": "Talent",
         "unlockStar": 0,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr036_2.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr036_2.webp",
         "type": "Instant",
         "mainStat": null,
         "gcd": null,
@@ -976,7 +976,7 @@ export const gsaCharacters = [
         "name": "Shuriken Gale Shield",
         "slot": "Auto",
         "unlockStar": 1,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr036_3.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr036_3.webp",
         "type": "Instant",
         "mainStat": null,
         "gcd": null,
@@ -994,7 +994,7 @@ export const gsaCharacters = [
         "name": "Windborne Alliance",
         "slot": "Passive 1",
         "unlockStar": 4,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr036_5.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr036_5.webp",
         "type": "Passive",
         "mainStat": null,
         "gcd": null,
@@ -1015,7 +1015,7 @@ export const gsaCharacters = [
         "name": "Swift as the Wind",
         "slot": "Passive 2",
         "unlockStar": 6,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr036_6.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr036_6.webp",
         "type": "Passive",
         "mainStat": null,
         "gcd": null,
@@ -1034,7 +1034,7 @@ export const gsaCharacters = [
         "name": "Ninefold Cyclone",
         "slot": "Ultimate",
         "unlockStar": 2,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr036_4.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr036_4.webp",
         "type": "Instant",
         "mainStat": null,
         "gcd": null,
@@ -1101,24 +1101,24 @@ export const gsaCharacters = [
     "epithet": "Brawler's Pride, No Small Talk",
     "sex": "Female",
     "inGacha": true,
-    "icon": "https://img.gachawiki.info/gene-sys-adam/cr037_Icon_Texture.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/cr037_Icon_Texture.webp",
     "sortOrder": 37,
     "rarity": "SR",
     "element": {
       "id": 3,
       "name": "Wind",
-      "icon": "https://img.gachawiki.info/gene-sys-adam/battleelement_3.webp"
+      "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/battleelement_3.webp"
     },
     "job": {
       "id": 1,
       "name": "Guardian",
       "color": "#957C7A",
-      "icon": "https://img.gachawiki.info/gene-sys-adam/guard_3.webp"
+      "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/guard_3.webp"
     },
     "attackType": {
       "id": 2,
       "name": "Energy",
-      "icon": "https://img.gachawiki.info/gene-sys-adam/Attributes_01.webp"
+      "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Attributes_01.webp"
     },
     "skills": [
       {
@@ -1126,7 +1126,7 @@ export const gsaCharacters = [
         "name": "Best Regards",
         "slot": "Basic Attack",
         "unlockStar": 0,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr037_1.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr037_1.webp",
         "type": "Instant",
         "mainStat": "ATK",
         "gcd": "10s",
@@ -1141,7 +1141,7 @@ export const gsaCharacters = [
         "name": "Blowout Victory",
         "slot": "Talent",
         "unlockStar": 0,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr037_2.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr037_2.webp",
         "type": "Instant",
         "mainStat": "ATK",
         "gcd": null,
@@ -1158,7 +1158,7 @@ export const gsaCharacters = [
         "name": "Love Unto Death",
         "slot": "Auto",
         "unlockStar": 1,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr037_3.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr037_3.webp",
         "type": "Instant",
         "mainStat": "Healing",
         "gcd": null,
@@ -1175,7 +1175,7 @@ export const gsaCharacters = [
         "name": "Declaration of Love",
         "slot": "Passive 1",
         "unlockStar": 4,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr037_5.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr037_5.webp",
         "type": "Passive",
         "mainStat": "ATK",
         "gcd": null,
@@ -1196,7 +1196,7 @@ export const gsaCharacters = [
         "name": "Thank You",
         "slot": "Passive 2",
         "unlockStar": 6,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr037_6.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr037_6.webp",
         "type": "Passive",
         "mainStat": null,
         "gcd": null,
@@ -1215,7 +1215,7 @@ export const gsaCharacters = [
         "name": "Demonic Void",
         "slot": "Ultimate",
         "unlockStar": 2,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr037_4.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr037_4.webp",
         "type": "Instant",
         "mainStat": "ATK",
         "gcd": null,
@@ -1282,19 +1282,19 @@ export const gsaCharacters = [
     "epithet": "Suppression Fire, Glacial Shrapnel",
     "sex": "Female",
     "inGacha": true,
-    "icon": "https://img.gachawiki.info/gene-sys-adam/cr038_Icon_Texture.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/cr038_Icon_Texture.webp",
     "sortOrder": 38,
     "rarity": "SR",
     "element": {
       "id": 4,
       "name": "Water",
-      "icon": "https://img.gachawiki.info/gene-sys-adam/battleelement_4.webp"
+      "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/battleelement_4.webp"
     },
-    "job": {"id": 5, "name": "Breaker", "color": "#9433EA", "icon": "https://img.gachawiki.info/gene-sys-adam/master_4.webp" },
+    "job": {"id": 5, "name": "Breaker", "color": "#9433EA", "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/master_4.webp" },
     "attackType": {
       "id": 1,
       "name": "Physical",
-      "icon": "https://img.gachawiki.info/gene-sys-adam/Attributes_02.webp"
+      "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Attributes_02.webp"
     },
     "skills": [
       {
@@ -1302,7 +1302,7 @@ export const gsaCharacters = [
         "name": "Firepower!",
         "slot": "Basic Attack",
         "unlockStar": 0,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr038_1.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr038_1.webp",
         "type": "Instant",
         "mainStat": "ATK",
         "gcd": "16.001s",
@@ -1317,7 +1317,7 @@ export const gsaCharacters = [
         "name": "High-Pressure Airburst",
         "slot": "Talent",
         "unlockStar": 0,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr038_2.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr038_2.webp",
         "type": "Instant",
         "mainStat": "ATK",
         "gcd": null,
@@ -1334,7 +1334,7 @@ export const gsaCharacters = [
         "name": "Torrential Burst",
         "slot": "Auto",
         "unlockStar": 1,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr038_3.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr038_3.webp",
         "type": "Instant",
         "mainStat": "ATK",
         "gcd": null,
@@ -1349,7 +1349,7 @@ export const gsaCharacters = [
         "name": "Intimidating Nature",
         "slot": "Passive 1",
         "unlockStar": 4,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr038_5.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr038_5.webp",
         "type": "Passive",
         "mainStat": null,
         "gcd": null,
@@ -1368,7 +1368,7 @@ export const gsaCharacters = [
         "name": "Ballistic Expertise",
         "slot": "Passive 2",
         "unlockStar": 6,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr038_6.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr038_6.webp",
         "type": "Passive",
         "mainStat": null,
         "gcd": null,
@@ -1387,7 +1387,7 @@ export const gsaCharacters = [
         "name": "Explosive Flurry Burst",
         "slot": "Ultimate",
         "unlockStar": 2,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr038_4.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr038_4.webp",
         "type": "Instant",
         "mainStat": "ATK",
         "gcd": null,
@@ -1454,19 +1454,19 @@ export const gsaCharacters = [
     "epithet": "War Phantom, Suppressive Snipe",
     "sex": "Female",
     "inGacha": true,
-    "icon": "https://img.gachawiki.info/gene-sys-adam/cr039_Icon_Texture.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/cr039_Icon_Texture.webp",
     "sortOrder": 39,
     "rarity": "SR",
     "element": {
       "id": 4,
       "name": "Water",
-      "icon": "https://img.gachawiki.info/gene-sys-adam/battleelement_4.webp"
+      "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/battleelement_4.webp"
     },
-    "job": {"id": 3, "name": "Sniper", "color": "#FFC405", "icon": "https://img.gachawiki.info/gene-sys-adam/archer_4.webp" },
+    "job": {"id": 3, "name": "Sniper", "color": "#FFC405", "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/archer_4.webp" },
     "attackType": {
       "id": 2,
       "name": "Energy",
-      "icon": "https://img.gachawiki.info/gene-sys-adam/Attributes_01.webp"
+      "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Attributes_01.webp"
     },
     "skills": [
       {
@@ -1474,7 +1474,7 @@ export const gsaCharacters = [
         "name": "Enemy Engaged!",
         "slot": "Basic Attack",
         "unlockStar": 0,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr039_1.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr039_1.webp",
         "type": "Instant",
         "mainStat": "ATK",
         "gcd": "16.001s",
@@ -1489,7 +1489,7 @@ export const gsaCharacters = [
         "name": "Armor-Piercing Suppression",
         "slot": "Talent",
         "unlockStar": 0,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr039_2.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr039_2.webp",
         "type": "Instant",
         "mainStat": "ATK",
         "gcd": null,
@@ -1506,7 +1506,7 @@ export const gsaCharacters = [
         "name": "Disruption Suppression",
         "slot": "Auto",
         "unlockStar": 1,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr039_3.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr039_3.webp",
         "type": "Instant",
         "mainStat": "ATK",
         "gcd": null,
@@ -1521,7 +1521,7 @@ export const gsaCharacters = [
         "name": "Battlefield Analysis",
         "slot": "Passive 1",
         "unlockStar": 4,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr039_5.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr039_5.webp",
         "type": "Passive",
         "mainStat": null,
         "gcd": null,
@@ -1540,7 +1540,7 @@ export const gsaCharacters = [
         "name": "Sniping Rhythm",
         "slot": "Passive 2",
         "unlockStar": 6,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr039_6.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr039_6.webp",
         "type": "Passive",
         "mainStat": null,
         "gcd": null,
@@ -1559,7 +1559,7 @@ export const gsaCharacters = [
         "name": "Dynamic Suppression",
         "slot": "Ultimate",
         "unlockStar": 2,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr039_4.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr039_4.webp",
         "type": "Instant",
         "mainStat": "ATK",
         "gcd": null,
@@ -1627,19 +1627,19 @@ export const gsaCharacters = [
     "epithet": "Adorable Healing, Guardian Heart",
     "sex": "Female",
     "inGacha": true,
-    "icon": "https://img.gachawiki.info/gene-sys-adam/cr040_Icon_Texture.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/cr040_Icon_Texture.webp",
     "sortOrder": 40,
     "rarity": "SR",
     "element": {
       "id": 5,
       "name": "Light",
-      "icon": "https://img.gachawiki.info/gene-sys-adam/battleelement_5.webp"
+      "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/battleelement_5.webp"
     },
-    "job": {"id": 4, "name": "Support", "color": "#33EA62", "icon": "https://img.gachawiki.info/gene-sys-adam/priest_5.webp" },
+    "job": {"id": 4, "name": "Support", "color": "#33EA62", "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/priest_5.webp" },
     "attackType": {
       "id": 1,
       "name": "Physical",
-      "icon": "https://img.gachawiki.info/gene-sys-adam/Attributes_02.webp"
+      "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Attributes_02.webp"
     },
     "skills": [
       {
@@ -1647,7 +1647,7 @@ export const gsaCharacters = [
         "name": "Panicked Shot",
         "slot": "Basic Attack",
         "unlockStar": 0,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr040_1.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr040_1.webp",
         "type": "Instant",
         "mainStat": "ATK",
         "gcd": "10s",
@@ -1662,7 +1662,7 @@ export const gsaCharacters = [
         "name": "Hasty Bandage",
         "slot": "Talent",
         "unlockStar": 0,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr040_2.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr040_2.webp",
         "type": "Instant",
         "mainStat": "Healing",
         "gcd": null,
@@ -1683,7 +1683,7 @@ export const gsaCharacters = [
         "name": "Tender Hug",
         "slot": "Auto",
         "unlockStar": 1,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr040_3.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr040_3.webp",
         "type": "Instant",
         "mainStat": null,
         "gcd": null,
@@ -1705,7 +1705,7 @@ export const gsaCharacters = [
         "name": "Surefire Success!",
         "slot": "Passive 1",
         "unlockStar": 4,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr040_5.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr040_5.webp",
         "type": "Passive",
         "mainStat": "Healing",
         "gcd": null,
@@ -1724,7 +1724,7 @@ export const gsaCharacters = [
         "name": "That Was Close!",
         "slot": "Passive 2",
         "unlockStar": 6,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr040_6.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr040_6.webp",
         "type": "Passive",
         "mainStat": null,
         "gcd": null,
@@ -1743,7 +1743,7 @@ export const gsaCharacters = [
         "name": "Clumsy Healing Miracle",
         "slot": "Ultimate",
         "unlockStar": 2,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr040_4.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr040_4.webp",
         "type": "Instant",
         "mainStat": "Healing",
         "gcd": null,
@@ -1811,24 +1811,24 @@ export const gsaCharacters = [
     "epithet": "Fleeting Shadow, Searing Blade",
     "sex": "Female",
     "inGacha": true,
-    "icon": "https://img.gachawiki.info/gene-sys-adam/cr041_Icon_Texture.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/cr041_Icon_Texture.webp",
     "sortOrder": 41,
     "rarity": "SR",
     "element": {
       "id": 1,
       "name": "Fire",
-      "icon": "https://img.gachawiki.info/gene-sys-adam/battleelement_1.webp"
+      "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/battleelement_1.webp"
     },
     "job": {
       "id": 3,
       "name": "Sniper",
       "color": "#FFC405",
-      "icon": "https://img.gachawiki.info/gene-sys-adam/archer_1.webp"
+      "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/archer_1.webp"
     },
     "attackType": {
       "id": 2,
       "name": "Energy",
-      "icon": "https://img.gachawiki.info/gene-sys-adam/Attributes_01.webp"
+      "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Attributes_01.webp"
     },
     "skills": [
       {
@@ -1836,7 +1836,7 @@ export const gsaCharacters = [
         "name": "Sky Cleaver",
         "slot": "Basic Attack",
         "unlockStar": 0,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr041_1.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr041_1.webp",
         "type": "Instant",
         "mainStat": "ATK",
         "gcd": "7.5s",
@@ -1851,7 +1851,7 @@ export const gsaCharacters = [
         "name": "Ember Waltz",
         "slot": "Talent",
         "unlockStar": 0,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr041_2.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr041_2.webp",
         "type": "Instant",
         "mainStat": "ATK",
         "gcd": null,
@@ -1873,7 +1873,7 @@ export const gsaCharacters = [
         "name": "Galeblade Mirage",
         "slot": "Auto",
         "unlockStar": 1,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr041_3.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr041_3.webp",
         "type": "Instant",
         "mainStat": null,
         "gcd": null,
@@ -1895,7 +1895,7 @@ export const gsaCharacters = [
         "name": "Intelligence Network",
         "slot": "Passive 1",
         "unlockStar": 4,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr041_5.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr041_5.webp",
         "type": "Passive",
         "mainStat": null,
         "gcd": null,
@@ -1914,7 +1914,7 @@ export const gsaCharacters = [
         "name": "Power, Speed, and Grace",
         "slot": "Passive 2",
         "unlockStar": 6,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr041_6.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr041_6.webp",
         "type": "Passive",
         "mainStat": null,
         "gcd": null,
@@ -1933,7 +1933,7 @@ export const gsaCharacters = [
         "name": "Blade Hailstorm",
         "slot": "Ultimate",
         "unlockStar": 2,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr041_4.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr041_4.webp",
         "type": "Instant",
         "mainStat": "ATK",
         "gcd": null,
@@ -2001,24 +2001,24 @@ export const gsaCharacters = [
     "epithet": "Gunblade Onslaught, Infernal Detonation",
     "sex": "Male",
     "inGacha": false,
-    "icon": "https://img.gachawiki.info/gene-sys-adam/cr042_Icon_Texture.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/cr042_Icon_Texture.webp",
     "sortOrder": 42,
     "rarity": "SR",
     "element": {
       "id": 1,
       "name": "Fire",
-      "icon": "https://img.gachawiki.info/gene-sys-adam/battleelement_1.webp"
+      "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/battleelement_1.webp"
     },
     "job": {
       "id": 2,
       "name": "Striker",
       "color": "#EA3333",
-      "icon": "https://img.gachawiki.info/gene-sys-adam/fighters_1.webp"
+      "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/fighters_1.webp"
     },
     "attackType": {
       "id": 1,
       "name": "Physical",
-      "icon": "https://img.gachawiki.info/gene-sys-adam/Attributes_02.webp"
+      "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Attributes_02.webp"
     },
     "skills": [
       {
@@ -2026,7 +2026,7 @@ export const gsaCharacters = [
         "name": "Chilling Cleave",
         "slot": "Basic Attack",
         "unlockStar": 0,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr042_1.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr042_1.webp",
         "type": "Instant",
         "mainStat": "ATK",
         "gcd": "10s",
@@ -2041,7 +2041,7 @@ export const gsaCharacters = [
         "name": "Chasing Shadows",
         "slot": "Talent",
         "unlockStar": 0,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr042_2.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr042_2.webp",
         "type": "Instant",
         "mainStat": "ATK",
         "gcd": null,
@@ -2063,7 +2063,7 @@ export const gsaCharacters = [
         "name": "Decisive Gunshot",
         "slot": "Auto",
         "unlockStar": 1,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr042_3.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr042_3.webp",
         "type": "Instant",
         "mainStat": "ATK",
         "gcd": null,
@@ -2084,7 +2084,7 @@ export const gsaCharacters = [
         "name": "Wall of Dominion",
         "slot": "Passive 1",
         "unlockStar": 4,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr042_5.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr042_5.webp",
         "type": "Passive",
         "mainStat": null,
         "gcd": null,
@@ -2103,7 +2103,7 @@ export const gsaCharacters = [
         "name": "Silent Wolf",
         "slot": "Passive 2",
         "unlockStar": 6,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr042_6.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr042_6.webp",
         "type": "Passive",
         "mainStat": null,
         "gcd": null,
@@ -2122,7 +2122,7 @@ export const gsaCharacters = [
         "name": "Hell's Concerto",
         "slot": "Ultimate",
         "unlockStar": 2,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr042_4.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr042_4.webp",
         "type": "Instant",
         "mainStat": "ATK",
         "gcd": null,
@@ -2190,19 +2190,19 @@ export const gsaCharacters = [
     "epithet": "Monolith Alliance, Tactical Wit",
     "sex": "Female",
     "inGacha": true,
-    "icon": "https://img.gachawiki.info/gene-sys-adam/cr043_Icon_Texture.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/cr043_Icon_Texture.webp",
     "sortOrder": 43,
     "rarity": "SSR",
     "element": {
       "id": 2,
       "name": "Earth",
-      "icon": "https://img.gachawiki.info/gene-sys-adam/battleelement_2.webp"
+      "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/battleelement_2.webp"
     },
-    "job": {"id": 4, "name": "Support", "color": "#33EA62", "icon": "https://img.gachawiki.info/gene-sys-adam/priest_2.webp" },
+    "job": {"id": 4, "name": "Support", "color": "#33EA62", "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/priest_2.webp" },
     "attackType": {
       "id": 1,
       "name": "Physical",
-      "icon": "https://img.gachawiki.info/gene-sys-adam/Attributes_02.webp"
+      "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Attributes_02.webp"
     },
     "skills": [
       {
@@ -2210,7 +2210,7 @@ export const gsaCharacters = [
         "name": "Targeted Shot",
         "slot": "Basic Attack",
         "unlockStar": 0,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr043_1.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr043_1.webp",
         "type": "Instant",
         "mainStat": "ATK",
         "gcd": "10s",
@@ -2225,7 +2225,7 @@ export const gsaCharacters = [
         "name": "Smokescreen",
         "slot": "Talent",
         "unlockStar": 0,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr043_2.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr043_2.webp",
         "type": "Instant",
         "mainStat": null,
         "gcd": null,
@@ -2247,7 +2247,7 @@ export const gsaCharacters = [
         "name": "Suppressing Fire",
         "slot": "Auto",
         "unlockStar": 1,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr043_3.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr043_3.webp",
         "type": "Instant",
         "mainStat": "ATK",
         "gcd": null,
@@ -2268,7 +2268,7 @@ export const gsaCharacters = [
         "name": "Field Maintenance",
         "slot": "Passive 1",
         "unlockStar": 4,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr043_5.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr043_5.webp",
         "type": "Passive",
         "mainStat": null,
         "gcd": null,
@@ -2287,7 +2287,7 @@ export const gsaCharacters = [
         "name": "Iron Wall",
         "slot": "Passive 2",
         "unlockStar": 6,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr043_6.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr043_6.webp",
         "type": "Passive",
         "mainStat": null,
         "gcd": null,
@@ -2306,7 +2306,7 @@ export const gsaCharacters = [
         "name": "Improvised Outpost",
         "slot": "Ultimate",
         "unlockStar": 2,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr043_4.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr043_4.webp",
         "type": "Instant",
         "mainStat": null,
         "gcd": null,
@@ -2374,24 +2374,24 @@ export const gsaCharacters = [
     "epithet": "Infinite Stakes, Body of Gold",
     "sex": "Female",
     "inGacha": true,
-    "icon": "https://img.gachawiki.info/gene-sys-adam/cr044_Icon_Texture.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/cr044_Icon_Texture.webp",
     "sortOrder": 44,
     "rarity": "SSR",
     "element": {
       "id": 6,
       "name": "Dark",
-      "icon": "https://img.gachawiki.info/gene-sys-adam/battleelement_6.webp"
+      "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/battleelement_6.webp"
     },
     "job": {
       "id": 1,
       "name": "Guardian",
       "color": "#957C7A",
-      "icon": "https://img.gachawiki.info/gene-sys-adam/guard_6.webp"
+      "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/guard_6.webp"
     },
     "attackType": {
       "id": 2,
       "name": "Energy",
-      "icon": "https://img.gachawiki.info/gene-sys-adam/Attributes_01.webp"
+      "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Attributes_01.webp"
     },
     "skills": [
       {
@@ -2399,7 +2399,7 @@ export const gsaCharacters = [
         "name": "Cardistry",
         "slot": "Basic Attack",
         "unlockStar": 0,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr044_1.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr044_1.webp",
         "type": "Instant",
         "mainStat": "ATK",
         "gcd": "10s",
@@ -2414,7 +2414,7 @@ export const gsaCharacters = [
         "name": "Scarlet Purification",
         "slot": "Talent",
         "unlockStar": 0,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr044_2.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr044_2.webp",
         "type": "Instant",
         "mainStat": "Healing",
         "gcd": null,
@@ -2436,7 +2436,7 @@ export const gsaCharacters = [
         "name": "Card Array",
         "slot": "Auto",
         "unlockStar": 1,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr044_3.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr044_3.webp",
         "type": "Instant",
         "mainStat": null,
         "gcd": null,
@@ -2457,7 +2457,7 @@ export const gsaCharacters = [
         "name": "All-in",
         "slot": "Passive 1",
         "unlockStar": 4,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr044_5.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr044_5.webp",
         "type": "Passive",
         "mainStat": null,
         "gcd": null,
@@ -2476,7 +2476,7 @@ export const gsaCharacters = [
         "name": "Straight Flush",
         "slot": "Passive 2",
         "unlockStar": 6,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr044_6.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr044_6.webp",
         "type": "Passive",
         "mainStat": null,
         "gcd": null,
@@ -2495,7 +2495,7 @@ export const gsaCharacters = [
         "name": "Ace's Barrier",
         "slot": "Ultimate",
         "unlockStar": 2,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr044_4.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr044_4.webp",
         "type": "Instant",
         "mainStat": null,
         "gcd": null,
@@ -2563,19 +2563,19 @@ export const gsaCharacters = [
     "epithet": "Perpetual Motion Idea, Potion Boost",
     "sex": "Female",
     "inGacha": true,
-    "icon": "https://img.gachawiki.info/gene-sys-adam/cr045_Icon_Texture.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/cr045_Icon_Texture.webp",
     "sortOrder": 45,
     "rarity": "SSR",
     "element": {
       "id": 6,
       "name": "Dark",
-      "icon": "https://img.gachawiki.info/gene-sys-adam/battleelement_6.webp"
+      "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/battleelement_6.webp"
     },
-    "job": {"id": 4, "name": "Support", "color": "#33EA62", "icon": "https://img.gachawiki.info/gene-sys-adam/priest_6.webp" },
+    "job": {"id": 4, "name": "Support", "color": "#33EA62", "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/priest_6.webp" },
     "attackType": {
       "id": 2,
       "name": "Energy",
-      "icon": "https://img.gachawiki.info/gene-sys-adam/Attributes_01.webp"
+      "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Attributes_01.webp"
     },
     "skills": [
       {
@@ -2583,7 +2583,7 @@ export const gsaCharacters = [
         "name": "Phantasmal Combustion",
         "slot": "Basic Attack",
         "unlockStar": 0,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr045_1.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr045_1.webp",
         "type": "Instant",
         "mainStat": "ATK",
         "gcd": "10s",
@@ -2598,7 +2598,7 @@ export const gsaCharacters = [
         "name": "Shadow Energy Shroud",
         "slot": "Talent",
         "unlockStar": 0,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr045_2.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr045_2.webp",
         "type": "Instant",
         "mainStat": null,
         "gcd": null,
@@ -2620,7 +2620,7 @@ export const gsaCharacters = [
         "name": "Dark Energy Recharge",
         "slot": "Auto",
         "unlockStar": 1,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr045_3.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr045_3.webp",
         "type": "Instant",
         "mainStat": null,
         "gcd": null,
@@ -2641,7 +2641,7 @@ export const gsaCharacters = [
         "name": "Ethereal Calm",
         "slot": "Passive 1",
         "unlockStar": 4,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr045_5.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr045_5.webp",
         "type": "Passive",
         "mainStat": null,
         "gcd": null,
@@ -2662,7 +2662,7 @@ export const gsaCharacters = [
         "name": "Abyssal Allure",
         "slot": "Passive 2",
         "unlockStar": 6,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr045_6.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr045_6.webp",
         "type": "Passive",
         "mainStat": null,
         "gcd": null,
@@ -2681,7 +2681,7 @@ export const gsaCharacters = [
         "name": "Umbral Infusion",
         "slot": "Ultimate",
         "unlockStar": 2,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr045_4.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr045_4.webp",
         "type": "Instant",
         "mainStat": null,
         "gcd": null,
@@ -2749,24 +2749,24 @@ export const gsaCharacters = [
     "epithet": "Masochistic Physique, Heartbeat of Pain",
     "sex": "Female",
     "inGacha": true,
-    "icon": "https://img.gachawiki.info/gene-sys-adam/cr046_Icon_Texture.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/cr046_Icon_Texture.webp",
     "sortOrder": 46,
     "rarity": "SSR",
     "element": {
       "id": 6,
       "name": "Dark",
-      "icon": "https://img.gachawiki.info/gene-sys-adam/battleelement_6.webp"
+      "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/battleelement_6.webp"
     },
     "job": {
       "id": 2,
       "name": "Striker",
       "color": "#EA3333",
-      "icon": "https://img.gachawiki.info/gene-sys-adam/fighters_6.webp"
+      "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/fighters_6.webp"
     },
     "attackType": {
       "id": 1,
       "name": "Physical",
-      "icon": "https://img.gachawiki.info/gene-sys-adam/Attributes_02.webp"
+      "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Attributes_02.webp"
     },
     "skills": [
       {
@@ -2774,7 +2774,7 @@ export const gsaCharacters = [
         "name": "Blind Shot",
         "slot": "Basic Attack",
         "unlockStar": 0,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr046_1.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr046_1.webp",
         "type": "Instant",
         "mainStat": "ATK",
         "gcd": "10s",
@@ -2789,7 +2789,7 @@ export const gsaCharacters = [
         "name": "Sacrificial Restraint",
         "slot": "Talent",
         "unlockStar": 0,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr046_2.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr046_2.webp",
         "type": "Instant",
         "mainStat": "ATK",
         "gcd": null,
@@ -2808,7 +2808,7 @@ export const gsaCharacters = [
         "name": "Survival Instinct",
         "slot": "Auto",
         "unlockStar": 1,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr046_3.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr046_3.webp",
         "type": "Instant",
         "mainStat": "ATK",
         "gcd": null,
@@ -2829,7 +2829,7 @@ export const gsaCharacters = [
         "name": "Ache for Agony",
         "slot": "Passive 1",
         "unlockStar": 4,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr046_5.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr046_5.webp",
         "type": "Passive",
         "mainStat": "ATK",
         "gcd": null,
@@ -2848,7 +2848,7 @@ export const gsaCharacters = [
         "name": "Lamb's Metamorphosis",
         "slot": "Passive 2",
         "unlockStar": 6,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr046_6.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr046_6.webp",
         "type": "Passive",
         "mainStat": null,
         "gcd": null,
@@ -2867,7 +2867,7 @@ export const gsaCharacters = [
         "name": "Chaos Onslaught",
         "slot": "Ultimate",
         "unlockStar": 2,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr046_4.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr046_4.webp",
         "type": "Instant",
         "mainStat": "ATK",
         "gcd": null,
@@ -2935,24 +2935,24 @@ export const gsaCharacters = [
     "epithet": "Extreme Footwork, Silver Bullet of Judgment",
     "sex": "Female",
     "inGacha": true,
-    "icon": "https://img.gachawiki.info/gene-sys-adam/cr047_Icon_Texture.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/cr047_Icon_Texture.webp",
     "sortOrder": 47,
     "rarity": "SSR",
     "element": {
       "id": 5,
       "name": "Light",
-      "icon": "https://img.gachawiki.info/gene-sys-adam/battleelement_5.webp"
+      "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/battleelement_5.webp"
     },
     "job": {
       "id": 1,
       "name": "Guardian",
       "color": "#957C7A",
-      "icon": "https://img.gachawiki.info/gene-sys-adam/guard_5.webp"
+      "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/guard_5.webp"
     },
     "attackType": {
       "id": 2,
       "name": "Energy",
-      "icon": "https://img.gachawiki.info/gene-sys-adam/Attributes_01.webp"
+      "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Attributes_01.webp"
     },
     "skills": [
       {
@@ -2960,7 +2960,7 @@ export const gsaCharacters = [
         "name": "Reflex Shot",
         "slot": "Basic Attack",
         "unlockStar": 0,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr047_1.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr047_1.webp",
         "type": "Instant",
         "mainStat": "ATK",
         "gcd": "10s",
@@ -2975,7 +2975,7 @@ export const gsaCharacters = [
         "name": "Rapid Fire",
         "slot": "Talent",
         "unlockStar": 0,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr047_2.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr047_2.webp",
         "type": "Instant",
         "mainStat": "ATK",
         "gcd": null,
@@ -2996,7 +2996,7 @@ export const gsaCharacters = [
         "name": "Barrier Force Field",
         "slot": "Auto",
         "unlockStar": 1,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr047_3.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr047_3.webp",
         "type": "Instant",
         "mainStat": null,
         "gcd": null,
@@ -3017,7 +3017,7 @@ export const gsaCharacters = [
         "name": "Emotional First-Aid",
         "slot": "Passive 1",
         "unlockStar": 4,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr047_5.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr047_5.webp",
         "type": "Passive",
         "mainStat": "ATK",
         "gcd": null,
@@ -3038,7 +3038,7 @@ export const gsaCharacters = [
         "name": "Close-Quarters Defense",
         "slot": "Passive 2",
         "unlockStar": 6,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr047_6.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr047_6.webp",
         "type": "Passive",
         "mainStat": null,
         "gcd": null,
@@ -3057,7 +3057,7 @@ export const gsaCharacters = [
         "name": "Death Mark",
         "slot": "Ultimate",
         "unlockStar": 2,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr047_4.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr047_4.webp",
         "type": "Instant",
         "mainStat": "ATK",
         "gcd": null,
@@ -3125,19 +3125,19 @@ export const gsaCharacters = [
     "epithet": "Severing Sin, Light of Justice",
     "sex": "Female",
     "inGacha": true,
-    "icon": "https://img.gachawiki.info/gene-sys-adam/cr048_Icon_Texture.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/cr048_Icon_Texture.webp",
     "sortOrder": 48,
     "rarity": "SSR",
     "element": {
       "id": 5,
       "name": "Light",
-      "icon": "https://img.gachawiki.info/gene-sys-adam/battleelement_5.webp"
+      "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/battleelement_5.webp"
     },
-    "job": {"id": 3, "name": "Sniper", "color": "#FFC405", "icon": "https://img.gachawiki.info/gene-sys-adam/archer_5.webp" },
+    "job": {"id": 3, "name": "Sniper", "color": "#FFC405", "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/archer_5.webp" },
     "attackType": {
       "id": 2,
       "name": "Energy",
-      "icon": "https://img.gachawiki.info/gene-sys-adam/Attributes_01.webp"
+      "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Attributes_01.webp"
     },
     "skills": [
       {
@@ -3145,7 +3145,7 @@ export const gsaCharacters = [
         "name": "Aimed Shot",
         "slot": "Basic Attack",
         "unlockStar": 0,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr048_1.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr048_1.webp",
         "type": "Instant",
         "mainStat": "ATK",
         "gcd": "10s",
@@ -3160,7 +3160,7 @@ export const gsaCharacters = [
         "name": "Penetrating Impact",
         "slot": "Talent",
         "unlockStar": 0,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr048_2.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr048_2.webp",
         "type": "Instant",
         "mainStat": "ATK",
         "gcd": null,
@@ -3181,7 +3181,7 @@ export const gsaCharacters = [
         "name": "Converging Fire",
         "slot": "Auto",
         "unlockStar": 1,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr048_3.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr048_3.webp",
         "type": "Instant",
         "mainStat": null,
         "gcd": null,
@@ -3202,7 +3202,7 @@ export const gsaCharacters = [
         "name": "Pocket List",
         "slot": "Passive 1",
         "unlockStar": 4,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr048_5.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr048_5.webp",
         "type": "Passive",
         "mainStat": null,
         "gcd": null,
@@ -3221,7 +3221,7 @@ export const gsaCharacters = [
         "name": "Combat Modification",
         "slot": "Passive 2",
         "unlockStar": 6,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr048_6.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr048_6.webp",
         "type": "Passive",
         "mainStat": null,
         "gcd": null,
@@ -3240,7 +3240,7 @@ export const gsaCharacters = [
         "name": "Deathline Judgment",
         "slot": "Ultimate",
         "unlockStar": 2,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr048_4.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr048_4.webp",
         "type": "Instant",
         "mainStat": "ATK",
         "gcd": null,
@@ -3308,24 +3308,24 @@ export const gsaCharacters = [
     "epithet": "Fracture Onslaught, Petrified Senses",
     "sex": "Female",
     "inGacha": true,
-    "icon": "https://img.gachawiki.info/gene-sys-adam/cr049_Icon_Texture.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/cr049_Icon_Texture.webp",
     "sortOrder": 49,
     "rarity": "SSR",
     "element": {
       "id": 2,
       "name": "Earth",
-      "icon": "https://img.gachawiki.info/gene-sys-adam/battleelement_2.webp"
+      "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/battleelement_2.webp"
     },
     "job": {
       "id": 2,
       "name": "Striker",
       "color": "#EA3333",
-      "icon": "https://img.gachawiki.info/gene-sys-adam/fighters_2.webp"
+      "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/fighters_2.webp"
     },
     "attackType": {
       "id": 1,
       "name": "Physical",
-      "icon": "https://img.gachawiki.info/gene-sys-adam/Attributes_02.webp"
+      "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Attributes_02.webp"
     },
     "skills": [
       {
@@ -3333,7 +3333,7 @@ export const gsaCharacters = [
         "name": "On Your Feet!",
         "slot": "Basic Attack",
         "unlockStar": 0,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr049_1.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr049_1.webp",
         "type": "Instant",
         "mainStat": "ATK",
         "gcd": "10s",
@@ -3348,7 +3348,7 @@ export const gsaCharacters = [
         "name": "Crippling Assassination",
         "slot": "Talent",
         "unlockStar": 0,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr049_2.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr049_2.webp",
         "type": "Instant",
         "mainStat": "ATK",
         "gcd": null,
@@ -3369,7 +3369,7 @@ export const gsaCharacters = [
         "name": "Fluttering Blade Blossom",
         "slot": "Auto",
         "unlockStar": 1,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr049_3.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr049_3.webp",
         "type": "Instant",
         "mainStat": "ATK",
         "gcd": null,
@@ -3388,7 +3388,7 @@ export const gsaCharacters = [
         "name": "Tattoo Experience",
         "slot": "Passive 1",
         "unlockStar": 4,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr049_5.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr049_5.webp",
         "type": "Passive",
         "mainStat": null,
         "gcd": null,
@@ -3407,7 +3407,7 @@ export const gsaCharacters = [
         "name": "Born Rebel",
         "slot": "Passive 2",
         "unlockStar": 6,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr049_6.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr049_6.webp",
         "type": "Passive",
         "mainStat": null,
         "gcd": null,
@@ -3426,7 +3426,7 @@ export const gsaCharacters = [
         "name": "Crimson Butterfly Waltz",
         "slot": "Ultimate",
         "unlockStar": 2,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr049_4.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr049_4.webp",
         "type": "Instant",
         "mainStat": "ATK",
         "gcd": null,
@@ -3494,19 +3494,19 @@ export const gsaCharacters = [
     "epithet": "Blooming Peacock, Storm of Bullets",
     "sex": "Female",
     "inGacha": true,
-    "icon": "https://img.gachawiki.info/gene-sys-adam/cr050_Icon_Texture.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/cr050_Icon_Texture.webp",
     "sortOrder": 50,
     "rarity": "SSR",
     "element": {
       "id": 3,
       "name": "Wind",
-      "icon": "https://img.gachawiki.info/gene-sys-adam/battleelement_3.webp"
+      "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/battleelement_3.webp"
     },
-    "job": {"id": 5, "name": "Breaker", "color": "#9433EA", "icon": "https://img.gachawiki.info/gene-sys-adam/master_3.webp" },
+    "job": {"id": 5, "name": "Breaker", "color": "#9433EA", "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/master_3.webp" },
     "attackType": {
       "id": 2,
       "name": "Energy",
-      "icon": "https://img.gachawiki.info/gene-sys-adam/Attributes_01.webp"
+      "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Attributes_01.webp"
     },
     "skills": [
       {
@@ -3514,7 +3514,7 @@ export const gsaCharacters = [
         "name": "Predictive Shot",
         "slot": "Basic Attack",
         "unlockStar": 0,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr050_1.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr050_1.webp",
         "type": "Instant",
         "mainStat": "ATK",
         "gcd": "10s",
@@ -3529,7 +3529,7 @@ export const gsaCharacters = [
         "name": "Crippling Break",
         "slot": "Talent",
         "unlockStar": 0,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr050_2.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr050_2.webp",
         "type": "Instant",
         "mainStat": "ATK",
         "gcd": null,
@@ -3550,7 +3550,7 @@ export const gsaCharacters = [
         "name": "Morale Boost",
         "slot": "Auto",
         "unlockStar": 1,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr050_3.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr050_3.webp",
         "type": "Instant",
         "mainStat": null,
         "gcd": null,
@@ -3572,7 +3572,7 @@ export const gsaCharacters = [
         "name": "Dignity First",
         "slot": "Passive 1",
         "unlockStar": 4,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr050_5.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr050_5.webp",
         "type": "Passive",
         "mainStat": null,
         "gcd": null,
@@ -3591,7 +3591,7 @@ export const gsaCharacters = [
         "name": "Explosive Temper",
         "slot": "Passive 2",
         "unlockStar": 6,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr050_6.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr050_6.webp",
         "type": "Passive",
         "mainStat": null,
         "gcd": null,
@@ -3610,7 +3610,7 @@ export const gsaCharacters = [
         "name": "Showstopping Finale",
         "slot": "Ultimate",
         "unlockStar": 2,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr050_4.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr050_4.webp",
         "type": "Instant",
         "mainStat": "ATK",
         "gcd": null,
@@ -3678,24 +3678,24 @@ export const gsaCharacters = [
     "epithet": "Lewd Devotion, Unholy Illumination",
     "sex": "Female",
     "inGacha": true,
-    "icon": "https://img.gachawiki.info/gene-sys-adam/cr051_Icon_Texture1.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/cr051_Icon_Texture1.webp",
     "sortOrder": 51,
     "rarity": "SSR",
     "element": {
       "id": 5,
       "name": "Light",
-      "icon": "https://img.gachawiki.info/gene-sys-adam/battleelement_5.webp"
+      "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/battleelement_5.webp"
     },
     "job": {
       "id": 2,
       "name": "Striker",
       "color": "#EA3333",
-      "icon": "https://img.gachawiki.info/gene-sys-adam/fighters_5.webp"
+      "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/fighters_5.webp"
     },
     "attackType": {
       "id": 2,
       "name": "Energy",
-      "icon": "https://img.gachawiki.info/gene-sys-adam/Attributes_01.webp"
+      "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Attributes_01.webp"
     },
     "skills": [
       {
@@ -3703,7 +3703,7 @@ export const gsaCharacters = [
         "name": "Holy Burstfire",
         "slot": "Basic Attack",
         "unlockStar": 0,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr051_1.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr051_1.webp",
         "type": "Instant",
         "mainStat": "ATK",
         "gcd": "10s",
@@ -3718,7 +3718,7 @@ export const gsaCharacters = [
         "name": "Rain of Retribution",
         "slot": "Talent",
         "unlockStar": 0,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr051_2.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr051_2.webp",
         "type": "Instant",
         "mainStat": "ATK",
         "gcd": null,
@@ -3739,7 +3739,7 @@ export const gsaCharacters = [
         "name": "Divine Absolution",
         "slot": "Auto",
         "unlockStar": 1,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr051_3.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr051_3.webp",
         "type": "Instant",
         "mainStat": "ATK",
         "gcd": null,
@@ -3760,7 +3760,7 @@ export const gsaCharacters = [
         "name": "Token of Atonement",
         "slot": "Passive 1",
         "unlockStar": 4,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr051_5.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr051_5.webp",
         "type": "Passive",
         "mainStat": null,
         "gcd": null,
@@ -3779,7 +3779,7 @@ export const gsaCharacters = [
         "name": "Binding Sanctuary",
         "slot": "Passive 2",
         "unlockStar": 6,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr051_6.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr051_6.webp",
         "type": "Passive",
         "mainStat": null,
         "gcd": null,
@@ -3798,7 +3798,7 @@ export const gsaCharacters = [
         "name": "Final Confession",
         "slot": "Ultimate",
         "unlockStar": 2,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr051_4.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr051_4.webp",
         "type": "Instant",
         "mainStat": "ATK",
         "gcd": null,
@@ -3866,24 +3866,24 @@ export const gsaCharacters = [
     "epithet": "Loosened Limbs, Flowing Vitality",
     "sex": "Female",
     "inGacha": true,
-    "icon": "https://img.gachawiki.info/gene-sys-adam/cr053_Icon_Texture.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/cr053_Icon_Texture.webp",
     "sortOrder": 53,
     "rarity": "SSR",
     "element": {
       "id": 4,
       "name": "Water",
-      "icon": "https://img.gachawiki.info/gene-sys-adam/battleelement_4.webp"
+      "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/battleelement_4.webp"
     },
     "job": {
       "id": 4,
       "name": "Support",
       "color": "#33EA62",
-      "icon": "https://img.gachawiki.info/gene-sys-adam/priest_4.webp"
+      "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/priest_4.webp"
     },
     "attackType": {
       "id": 2,
       "name": "Energy",
-      "icon": "https://img.gachawiki.info/gene-sys-adam/Attributes_01.webp"
+      "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Attributes_01.webp"
     },
     "skills": [
       {
@@ -3891,7 +3891,7 @@ export const gsaCharacters = [
         "name": "Backline Support",
         "slot": "Basic Attack",
         "unlockStar": 0,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr053_1.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr053_1.webp",
         "type": "Instant",
         "mainStat": "ATK",
         "gcd": "10s",
@@ -3906,7 +3906,7 @@ export const gsaCharacters = [
         "name": "Restorative Circulation",
         "slot": "Talent",
         "unlockStar": 0,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr053_2.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr053_2.webp",
         "type": "Instant",
         "mainStat": "Healing",
         "gcd": null,
@@ -3927,7 +3927,7 @@ export const gsaCharacters = [
         "name": "Relaxing Massage",
         "slot": "Auto",
         "unlockStar": 1,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr053_3.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr053_3.webp",
         "type": "Instant",
         "mainStat": null,
         "gcd": null,
@@ -3949,7 +3949,7 @@ export const gsaCharacters = [
         "name": "Hot Spring Technique",
         "slot": "Passive 1",
         "unlockStar": 4,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr053_5.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr053_5.webp",
         "type": "Passive",
         "mainStat": "Healing",
         "gcd": null,
@@ -3968,7 +3968,7 @@ export const gsaCharacters = [
         "name": "Massage Technique",
         "slot": "Passive 2",
         "unlockStar": 6,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr053_6.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr053_6.webp",
         "type": "Passive",
         "mainStat": null,
         "gcd": null,
@@ -3987,7 +3987,7 @@ export const gsaCharacters = [
         "name": "Cinematic Sauna",
         "slot": "Ultimate",
         "unlockStar": 2,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr053_4.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr053_4.webp",
         "type": "Instant",
         "mainStat": "Healing",
         "gcd": null,
@@ -4055,24 +4055,24 @@ export const gsaCharacters = [
     "epithet": "Stud Hunter, Drained Essence",
     "sex": "Female",
     "inGacha": true,
-    "icon": "https://img.gachawiki.info/gene-sys-adam/cr054_Icon_Texture.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/cr054_Icon_Texture.webp",
     "sortOrder": 54,
     "rarity": "SSR",
     "element": {
       "id": 1,
       "name": "Fire",
-      "icon": "https://img.gachawiki.info/gene-sys-adam/battleelement_1.webp"
+      "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/battleelement_1.webp"
     },
     "job": {
       "id": 3,
       "name": "Sniper",
       "color": "#FFC405",
-      "icon": "https://img.gachawiki.info/gene-sys-adam/archer_1.webp"
+      "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/archer_1.webp"
     },
     "attackType": {
       "id": 1,
       "name": "Physical",
-      "icon": "https://img.gachawiki.info/gene-sys-adam/Attributes_02.webp"
+      "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Attributes_02.webp"
     },
     "skills": [
       {
@@ -4080,7 +4080,7 @@ export const gsaCharacters = [
         "name": "A Present for You♥",
         "slot": "Basic Attack",
         "unlockStar": 0,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr054_1.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr054_1.webp",
         "type": "Instant",
         "mainStat": null,
         "gcd": "10s",
@@ -4095,7 +4095,7 @@ export const gsaCharacters = [
         "name": "Express Tribute",
         "slot": "Talent",
         "unlockStar": 0,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr054_2.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr054_2.webp",
         "type": "Instant",
         "mainStat": null,
         "gcd": null,
@@ -4116,7 +4116,7 @@ export const gsaCharacters = [
         "name": "Sweetheart Autograph",
         "slot": "Auto",
         "unlockStar": 1,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr054_3.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr054_3.webp",
         "type": "Instant",
         "mainStat": null,
         "gcd": null,
@@ -4138,7 +4138,7 @@ export const gsaCharacters = [
         "name": "Toxic Devotion",
         "slot": "Passive 1",
         "unlockStar": 4,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr054_5.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr054_5.webp",
         "type": "Passive",
         "mainStat": null,
         "gcd": null,
@@ -4157,7 +4157,7 @@ export const gsaCharacters = [
         "name": "Echoes of Affection",
         "slot": "Passive 2",
         "unlockStar": 6,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr054_6.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr054_6.webp",
         "type": "Passive",
         "mainStat": null,
         "gcd": null,
@@ -4176,7 +4176,7 @@ export const gsaCharacters = [
         "name": "Lovey Dovey Special",
         "slot": "Ultimate",
         "unlockStar": 2,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr054_4.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr054_4.webp",
         "type": "Instant",
         "mainStat": null,
         "gcd": null,
@@ -4244,19 +4244,19 @@ export const gsaCharacters = [
     "epithet": "Radiant Flame, Heavenly Calculation",
     "sex": "Female",
     "inGacha": true,
-    "icon": "https://img.gachawiki.info/gene-sys-adam/cr055_Icon_Texture.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/cr055_Icon_Texture.webp",
     "sortOrder": 55,
     "rarity": "SSR",
     "element": {
       "id": 1,
       "name": "Fire",
-      "icon": "https://img.gachawiki.info/gene-sys-adam/battleelement_1.webp"
+      "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/battleelement_1.webp"
     },
-    "job": {"id": 3, "name": "Sniper", "color": "#FFC405", "icon": "https://img.gachawiki.info/gene-sys-adam/archer_1.webp" },
+    "job": {"id": 3, "name": "Sniper", "color": "#FFC405", "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/archer_1.webp" },
     "attackType": {
       "id": 2,
       "name": "Energy",
-      "icon": "https://img.gachawiki.info/gene-sys-adam/Attributes_01.webp"
+      "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Attributes_01.webp"
     },
     "skills": [
       {
@@ -4264,7 +4264,7 @@ export const gsaCharacters = [
         "name": "Auspicious Blessing",
         "slot": "Basic Attack",
         "unlockStar": 0,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr055_1.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr055_1.webp",
         "type": "Instant",
         "mainStat": "ATK",
         "gcd": "9s",
@@ -4279,7 +4279,7 @@ export const gsaCharacters = [
         "name": "Out of Luck",
         "slot": "Talent",
         "unlockStar": 0,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr055_2.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr055_2.webp",
         "type": "Instant",
         "mainStat": "ATK",
         "gcd": null,
@@ -4301,7 +4301,7 @@ export const gsaCharacters = [
         "name": "Unfinished Business",
         "slot": "Auto",
         "unlockStar": 1,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr055_3.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr055_3.webp",
         "type": "Instant",
         "mainStat": "ATK",
         "gcd": null,
@@ -4322,7 +4322,7 @@ export const gsaCharacters = [
         "name": "Twist of Fate",
         "slot": "Passive 1",
         "unlockStar": 4,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr055_5.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr055_5.webp",
         "type": "Passive",
         "mainStat": null,
         "gcd": null,
@@ -4341,7 +4341,7 @@ export const gsaCharacters = [
         "name": "Stroke of Luck",
         "slot": "Passive 2",
         "unlockStar": 6,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr055_6.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr055_6.webp",
         "type": "Passive",
         "mainStat": null,
         "gcd": null,
@@ -4360,7 +4360,7 @@ export const gsaCharacters = [
         "name": "Blazing Fate Formation",
         "slot": "Ultimate",
         "unlockStar": 2,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr055_4.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr055_4.webp",
         "type": "Instant",
         "mainStat": "ATK",
         "gcd": null,
@@ -4428,19 +4428,19 @@ export const gsaCharacters = [
     "epithet": "Dynamic Melody, Pulsing Beat",
     "sex": "Female",
     "inGacha": false,
-    "icon": "https://img.gachawiki.info/gene-sys-adam/cr056_Icon_Texture.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/cr056_Icon_Texture.webp",
     "sortOrder": 56,
     "rarity": "SSR",
     "element": {
       "id": 3,
       "name": "Wind",
-      "icon": "https://img.gachawiki.info/gene-sys-adam/battleelement_3.webp"
+      "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/battleelement_3.webp"
     },
-    "job": {"id": 3, "name": "Sniper", "color": "#FFC405", "icon": "https://img.gachawiki.info/gene-sys-adam/archer_3.webp" },
+    "job": {"id": 3, "name": "Sniper", "color": "#FFC405", "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/archer_3.webp" },
     "attackType": {
       "id": 1,
       "name": "Physical",
-      "icon": "https://img.gachawiki.info/gene-sys-adam/Attributes_02.webp"
+      "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Attributes_02.webp"
     },
     "skills": [
       {
@@ -4448,7 +4448,7 @@ export const gsaCharacters = [
         "name": "Basic Shot",
         "slot": "Basic Attack",
         "unlockStar": 0,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr056_1.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr056_1.webp",
         "type": "Instant",
         "mainStat": "ATK",
         "gcd": "10s",
@@ -4463,7 +4463,7 @@ export const gsaCharacters = [
         "name": "Radiant Shot",
         "slot": "Talent",
         "unlockStar": 0,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr056_2.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr056_2.webp",
         "type": "Instant",
         "mainStat": "ATK",
         "gcd": null,
@@ -4484,7 +4484,7 @@ export const gsaCharacters = [
         "name": "Rhythmic Barrage",
         "slot": "Auto",
         "unlockStar": 1,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr056_3.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr056_3.webp",
         "type": "Instant",
         "mainStat": "ATK",
         "gcd": null,
@@ -4505,7 +4505,7 @@ export const gsaCharacters = [
         "name": "Scalding Aura",
         "slot": "Passive 1",
         "unlockStar": 4,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr056_5.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr056_5.webp",
         "type": "Passive",
         "mainStat": null,
         "gcd": null,
@@ -4524,7 +4524,7 @@ export const gsaCharacters = [
         "name": "Trendy Shine",
         "slot": "Passive 2",
         "unlockStar": 6,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr056_6.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr056_6.webp",
         "type": "Passive",
         "mainStat": null,
         "gcd": null,
@@ -4543,7 +4543,7 @@ export const gsaCharacters = [
         "name": "Overclocked Radiance",
         "slot": "Ultimate",
         "unlockStar": 2,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr056_4.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr056_4.webp",
         "type": "Instant",
         "mainStat": "ATK",
         "gcd": null,
@@ -4611,24 +4611,24 @@ export const gsaCharacters = [
     "epithet": "Evasive Recovery, Fierce Fist",
     "sex": "Female",
     "inGacha": true,
-    "icon": "https://img.gachawiki.info/gene-sys-adam/cr057_Icon_Texture.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/cr057_Icon_Texture.webp",
     "sortOrder": 57,
     "rarity": "SSR",
     "element": {
       "id": 4,
       "name": "Water",
-      "icon": "https://img.gachawiki.info/gene-sys-adam/battleelement_4.webp"
+      "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/battleelement_4.webp"
     },
     "job": {
       "id": 1,
       "name": "Guardian",
       "color": "#957C7A",
-      "icon": "https://img.gachawiki.info/gene-sys-adam/guard_4.webp"
+      "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/guard_4.webp"
     },
     "attackType": {
       "id": 1,
       "name": "Physical",
-      "icon": "https://img.gachawiki.info/gene-sys-adam/Attributes_02.webp"
+      "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Attributes_02.webp"
     },
     "skills": [
       {
@@ -4636,7 +4636,7 @@ export const gsaCharacters = [
         "name": "Thunderbolt Jab",
         "slot": "Basic Attack",
         "unlockStar": 0,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr057_1.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr057_1.webp",
         "type": "Instant",
         "mainStat": "ATK",
         "gcd": "2.4s",
@@ -4651,7 +4651,7 @@ export const gsaCharacters = [
         "name": "Dual Shot",
         "slot": "Talent",
         "unlockStar": 0,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr057_2.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr057_2.webp",
         "type": "Instant",
         "mainStat": "ATK",
         "gcd": null,
@@ -4673,7 +4673,7 @@ export const gsaCharacters = [
         "name": "Enhanced Breath",
         "slot": "Auto",
         "unlockStar": 1,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr057_3.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr057_3.webp",
         "type": "Instant",
         "mainStat": "Healing",
         "gcd": null,
@@ -4694,7 +4694,7 @@ export const gsaCharacters = [
         "name": "Midnight Discipline",
         "slot": "Passive 1",
         "unlockStar": 4,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr057_5.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr057_5.webp",
         "type": "Passive",
         "mainStat": "ATK",
         "gcd": null,
@@ -4713,7 +4713,7 @@ export const gsaCharacters = [
         "name": "Calm Response",
         "slot": "Passive 2",
         "unlockStar": 6,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr057_6.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr057_6.webp",
         "type": "Passive",
         "mainStat": null,
         "gcd": null,
@@ -4732,7 +4732,7 @@ export const gsaCharacters = [
         "name": "Waveguard Shield",
         "slot": "Ultimate",
         "unlockStar": 2,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr057_4.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr057_4.webp",
         "type": "Instant",
         "mainStat": null,
         "gcd": null,
@@ -4800,24 +4800,24 @@ export const gsaCharacters = [
     "epithet": "River-Crossing Dragon, Roaring Thunder",
     "sex": "Female",
     "inGacha": true,
-    "icon": "https://img.gachawiki.info/gene-sys-adam/cr058_Icon_Texture.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/cr058_Icon_Texture.webp",
     "sortOrder": 58,
     "rarity": "SSR",
     "element": {
       "id": 3,
       "name": "Wind",
-      "icon": "https://img.gachawiki.info/gene-sys-adam/battleelement_3.webp"
+      "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/battleelement_3.webp"
     },
     "job": {
       "id": 2,
       "name": "Striker",
       "color": "#EA3333",
-      "icon": "https://img.gachawiki.info/gene-sys-adam/fighters_3.webp"
+      "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/fighters_3.webp"
     },
     "attackType": {
       "id": 1,
       "name": "Physical",
-      "icon": "https://img.gachawiki.info/gene-sys-adam/Attributes_02.webp"
+      "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Attributes_02.webp"
     },
     "skills": [
       {
@@ -4825,7 +4825,7 @@ export const gsaCharacters = [
         "name": "Phantom Staff",
         "slot": "Basic Attack",
         "unlockStar": 0,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr058_1.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr058_1.webp",
         "type": "Instant",
         "mainStat": "ATK",
         "gcd": "10s",
@@ -4840,7 +4840,7 @@ export const gsaCharacters = [
         "name": "Thunder Quintet Rod",
         "slot": "Talent",
         "unlockStar": 0,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr058_2.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr058_2.webp",
         "type": "Instant",
         "mainStat": "ATK",
         "gcd": null,
@@ -4861,7 +4861,7 @@ export const gsaCharacters = [
         "name": "Storm Dragon Assault",
         "slot": "Auto",
         "unlockStar": 1,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr058_3.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr058_3.webp",
         "type": "Instant",
         "mainStat": "ATK",
         "gcd": null,
@@ -4882,7 +4882,7 @@ export const gsaCharacters = [
         "name": "Meridian Lock",
         "slot": "Passive 1",
         "unlockStar": 4,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr058_5.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr058_5.webp",
         "type": "Passive",
         "mainStat": null,
         "gcd": null,
@@ -4901,7 +4901,7 @@ export const gsaCharacters = [
         "name": "Seamless Motion",
         "slot": "Passive 2",
         "unlockStar": 6,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr058_6.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr058_6.webp",
         "type": "Passive",
         "mainStat": null,
         "gcd": null,
@@ -4920,7 +4920,7 @@ export const gsaCharacters = [
         "name": "Dimensional Quake",
         "slot": "Ultimate",
         "unlockStar": 2,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr058_4.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr058_4.webp",
         "type": "Instant",
         "mainStat": "ATK",
         "gcd": null,
@@ -4987,19 +4987,19 @@ export const gsaCharacters = [
     "epithet": "Rockbone Valor, Culling the Weak",
     "sex": "Male",
     "inGacha": false,
-    "icon": "https://img.gachawiki.info/gene-sys-adam/cr059_Icon_Texture.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/cr059_Icon_Texture.webp",
     "sortOrder": 59,
     "rarity": "SSR",
     "element": {
       "id": 2,
       "name": "Earth",
-      "icon": "https://img.gachawiki.info/gene-sys-adam/battleelement_2.webp"
+      "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/battleelement_2.webp"
     },
-    "job": {"id": 3, "name": "Sniper", "color": "#FFC405", "icon": "https://img.gachawiki.info/gene-sys-adam/archer_2.webp" },
+    "job": {"id": 3, "name": "Sniper", "color": "#FFC405", "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/archer_2.webp" },
     "attackType": {
       "id": 1,
       "name": "Physical",
-      "icon": "https://img.gachawiki.info/gene-sys-adam/Attributes_02.webp"
+      "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Attributes_02.webp"
     },
     "skills": [
       {
@@ -5007,7 +5007,7 @@ export const gsaCharacters = [
         "name": "Explosive Shot",
         "slot": "Basic Attack",
         "unlockStar": 0,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr059_1.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr059_1.webp",
         "type": "Instant",
         "mainStat": "ATK",
         "gcd": "10s",
@@ -5022,7 +5022,7 @@ export const gsaCharacters = [
         "name": "Suppression Fire",
         "slot": "Talent",
         "unlockStar": 0,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr059_2.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr059_2.webp",
         "type": "Instant",
         "mainStat": "ATK",
         "gcd": null,
@@ -5043,7 +5043,7 @@ export const gsaCharacters = [
         "name": "Glorious Inspiration",
         "slot": "Auto",
         "unlockStar": 1,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr059_3.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr059_3.webp",
         "type": "Instant",
         "mainStat": null,
         "gcd": null,
@@ -5065,7 +5065,7 @@ export const gsaCharacters = [
         "name": "Ruthless Warning",
         "slot": "Passive 1",
         "unlockStar": 4,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr059_5.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr059_5.webp",
         "type": "Passive",
         "mainStat": null,
         "gcd": null,
@@ -5084,7 +5084,7 @@ export const gsaCharacters = [
         "name": "Coyote's Resolve",
         "slot": "Passive 2",
         "unlockStar": 6,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr059_6.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr059_6.webp",
         "type": "Passive",
         "mainStat": null,
         "gcd": null,
@@ -5103,7 +5103,7 @@ export const gsaCharacters = [
         "name": "Dominating Aura",
         "slot": "Ultimate",
         "unlockStar": 2,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr059_4.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr059_4.webp",
         "type": "Instant",
         "mainStat": "ATK",
         "gcd": null,
@@ -5172,19 +5172,19 @@ export const gsaCharacters = [
     "epithet": "Seductive Whispers, Absolute Devotion",
     "sex": "Female",
     "inGacha": false,
-    "icon": "https://img.gachawiki.info/gene-sys-adam/cr061_Icon_Texture.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/cr061_Icon_Texture.webp",
     "sortOrder": 61,
     "rarity": "SSR",
     "element": {
       "id": 6,
       "name": "Dark",
-      "icon": "https://img.gachawiki.info/gene-sys-adam/battleelement_6.webp"
+      "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/battleelement_6.webp"
     },
-    "job": {"id": 5, "name": "Breaker", "color": "#9433EA", "icon": "https://img.gachawiki.info/gene-sys-adam/master_6.webp" },
+    "job": {"id": 5, "name": "Breaker", "color": "#9433EA", "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/master_6.webp" },
     "attackType": {
       "id": 2,
       "name": "Energy",
-      "icon": "https://img.gachawiki.info/gene-sys-adam/Attributes_01.webp"
+      "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Attributes_01.webp"
     },
     "skills": [
       {
@@ -5192,7 +5192,7 @@ export const gsaCharacters = [
         "name": "Dust Off",
         "slot": "Basic Attack",
         "unlockStar": 0,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr061_1.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr061_1.webp",
         "type": "Instant",
         "mainStat": "ATK",
         "gcd": "10s",
@@ -5207,7 +5207,7 @@ export const gsaCharacters = [
         "name": "Heart-Throb Echoes",
         "slot": "Talent",
         "unlockStar": 0,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr061_2.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr061_2.webp",
         "type": "Instant",
         "mainStat": "ATK",
         "gcd": null,
@@ -5228,7 +5228,7 @@ export const gsaCharacters = [
         "name": "Adorable Purity Boost",
         "slot": "Auto",
         "unlockStar": 1,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr061_3.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr061_3.webp",
         "type": "Instant",
         "mainStat": null,
         "gcd": null,
@@ -5249,7 +5249,7 @@ export const gsaCharacters = [
         "name": "Adorable Energy Infusion",
         "slot": "Passive 1",
         "unlockStar": 4,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr061_5.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr061_5.webp",
         "type": "Passive",
         "mainStat": null,
         "gcd": null,
@@ -5268,7 +5268,7 @@ export const gsaCharacters = [
         "name": "Adorable Smile",
         "slot": "Passive 2",
         "unlockStar": 6,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr061_6.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr061_6.webp",
         "type": "Passive",
         "mainStat": null,
         "gcd": null,
@@ -5287,7 +5287,7 @@ export const gsaCharacters = [
         "name": "Adorable Twirling Lovesong",
         "slot": "Ultimate",
         "unlockStar": 2,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr061_4.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr061_4.webp",
         "type": "Instant",
         "mainStat": "ATK",
         "gcd": null,
@@ -5355,19 +5355,19 @@ export const gsaCharacters = [
     "epithet": "Thorny White Rose, Ultimate Counter",
     "sex": "Female",
     "inGacha": false,
-    "icon": "https://img.gachawiki.info/gene-sys-adam/cr062_Icon_Texture.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/cr062_Icon_Texture.webp",
     "sortOrder": 62,
     "rarity": "SSR",
     "element": {
       "id": 5,
       "name": "Light",
-      "icon": "https://img.gachawiki.info/gene-sys-adam/battleelement_5.webp"
+      "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/battleelement_5.webp"
     },
-    "job": {"id": 3, "name": "Sniper", "color": "#FFC405", "icon": "https://img.gachawiki.info/gene-sys-adam/archer_5.webp" },
+    "job": {"id": 3, "name": "Sniper", "color": "#FFC405", "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/archer_5.webp" },
     "attackType": {
       "id": 1,
       "name": "Physical",
-      "icon": "https://img.gachawiki.info/gene-sys-adam/Attributes_02.webp"
+      "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Attributes_02.webp"
     },
     "skills": [
       {
@@ -5375,7 +5375,7 @@ export const gsaCharacters = [
         "name": "Elegance Can Be Efficient",
         "slot": "Basic Attack",
         "unlockStar": 0,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr062_1.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr062_1.webp",
         "type": "Instant",
         "mainStat": null,
         "gcd": "10s",
@@ -5390,7 +5390,7 @@ export const gsaCharacters = [
         "name": "You Should Do This Now",
         "slot": "Talent",
         "unlockStar": 0,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr062_2.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr062_2.webp",
         "type": "Guiding",
         "mainStat": "ATK",
         "gcd": null,
@@ -5411,7 +5411,7 @@ export const gsaCharacters = [
         "name": "Don't Get the Order Wrong",
         "slot": "Auto",
         "unlockStar": 1,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr062_3.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr062_3.webp",
         "type": "Instant",
         "mainStat": null,
         "gcd": null,
@@ -5430,7 +5430,7 @@ export const gsaCharacters = [
         "name": "Do I Make You Nervous?",
         "slot": "Passive 1",
         "unlockStar": 4,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr062_5.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr062_5.webp",
         "type": "Passive",
         "mainStat": null,
         "gcd": null,
@@ -5449,7 +5449,7 @@ export const gsaCharacters = [
         "name": "Anyone Can Do it",
         "slot": "Passive 2",
         "unlockStar": 6,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr062_6.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr062_6.webp",
         "type": "Passive",
         "mainStat": null,
         "gcd": null,
@@ -5468,7 +5468,7 @@ export const gsaCharacters = [
         "name": "Last Step Is Key!",
         "slot": "Ultimate",
         "unlockStar": 2,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr062_4.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr062_4.webp",
         "type": "Instant",
         "mainStat": null,
         "gcd": null,
@@ -5536,19 +5536,19 @@ export const gsaCharacters = [
     "epithet": "Radiant Vitality, Freezing Gaze",
     "sex": "Female",
     "inGacha": false,
-    "icon": "https://img.gachawiki.info/gene-sys-adam/cr063_Icon_Texture.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/cr063_Icon_Texture.webp",
     "sortOrder": 63,
     "rarity": "SSR",
     "element": {
       "id": 4,
       "name": "Water",
-      "icon": "https://img.gachawiki.info/gene-sys-adam/battleelement_4.webp"
+      "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/battleelement_4.webp"
     },
-    "job": {"id": 5, "name": "Breaker", "color": "#9433EA", "icon": "https://img.gachawiki.info/gene-sys-adam/master_4.webp" },
+    "job": {"id": 5, "name": "Breaker", "color": "#9433EA", "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/master_4.webp" },
     "attackType": {
       "id": 2,
       "name": "Energy",
-      "icon": "https://img.gachawiki.info/gene-sys-adam/Attributes_01.webp"
+      "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Attributes_01.webp"
     },
     "skills": [
       {
@@ -5556,7 +5556,7 @@ export const gsaCharacters = [
         "name": "Ah, Go Away!",
         "slot": "Basic Attack",
         "unlockStar": 0,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr063_1.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr063_1.webp",
         "type": "Instant",
         "mainStat": "ATK",
         "gcd": "9s",
@@ -5571,7 +5571,7 @@ export const gsaCharacters = [
         "name": "Let's Have Some Fun!",
         "slot": "Talent",
         "unlockStar": 0,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr063_2.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr063_2.webp",
         "type": "Instant",
         "mainStat": "ATK",
         "gcd": null,
@@ -5592,7 +5592,7 @@ export const gsaCharacters = [
         "name": "Surprise for You!",
         "slot": "Auto",
         "unlockStar": 1,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr063_3.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr063_3.webp",
         "type": "Instant",
         "mainStat": "ATK",
         "gcd": null,
@@ -5611,7 +5611,7 @@ export const gsaCharacters = [
         "name": "I’m Your Fashion Guru~~",
         "slot": "Passive 1",
         "unlockStar": 4,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr063_5.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr063_5.webp",
         "type": "Passive",
         "mainStat": null,
         "gcd": null,
@@ -5630,7 +5630,7 @@ export const gsaCharacters = [
         "name": "Are You Into Me?",
         "slot": "Passive 2",
         "unlockStar": 6,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr063_6.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr063_6.webp",
         "type": "Passive",
         "mainStat": null,
         "gcd": null,
@@ -5649,7 +5649,7 @@ export const gsaCharacters = [
         "name": "Time for Your Graduation Presents!",
         "slot": "Ultimate",
         "unlockStar": 2,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr063_4.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr063_4.webp",
         "type": "Instant",
         "mainStat": "ATK",
         "gcd": null,
@@ -5717,24 +5717,24 @@ export const gsaCharacters = [
     "epithet": "Naginata Flurry, Frozen Shatter",
     "sex": "Female",
     "inGacha": true,
-    "icon": "https://img.gachawiki.info/gene-sys-adam/cr064_Icon_Texture.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/cr064_Icon_Texture.webp",
     "sortOrder": 64,
     "rarity": "SSR",
     "element": {
       "id": 4,
       "name": "Water",
-      "icon": "https://img.gachawiki.info/gene-sys-adam/battleelement_4.webp"
+      "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/battleelement_4.webp"
     },
     "job": {
       "id": 2,
       "name": "Striker",
       "color": "#EA3333",
-      "icon": "https://img.gachawiki.info/gene-sys-adam/fighters_4.webp"
+      "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/fighters_4.webp"
     },
     "attackType": {
       "id": 1,
       "name": "Physical",
-      "icon": "https://img.gachawiki.info/gene-sys-adam/Attributes_02.webp"
+      "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Attributes_02.webp"
     },
     "skills": [
       {
@@ -5742,7 +5742,7 @@ export const gsaCharacters = [
         "name": "Aquamoon",
         "slot": "Basic Attack",
         "unlockStar": 0,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr064_1.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr064_1.webp",
         "type": "Instant",
         "mainStat": "ATK",
         "gcd": "7.001s",
@@ -5757,7 +5757,7 @@ export const gsaCharacters = [
         "name": "Snowbind Duet",
         "slot": "Talent",
         "unlockStar": 0,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr064_2.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr064_2.webp",
         "type": "Instant",
         "mainStat": "ATK",
         "gcd": null,
@@ -5779,7 +5779,7 @@ export const gsaCharacters = [
         "name": "Arctic Sandblast",
         "slot": "Auto",
         "unlockStar": 1,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr064_3.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr064_3.webp",
         "type": "Instant",
         "mainStat": "ATK",
         "gcd": null,
@@ -5800,7 +5800,7 @@ export const gsaCharacters = [
         "name": "Frigid Core",
         "slot": "Passive 1",
         "unlockStar": 4,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr064_5.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr064_5.webp",
         "type": "Passive",
         "mainStat": "ATK",
         "gcd": null,
@@ -5819,7 +5819,7 @@ export const gsaCharacters = [
         "name": "Winter’s Twin Blades",
         "slot": "Passive 2",
         "unlockStar": 6,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr064_6.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr064_6.webp",
         "type": "Passive",
         "mainStat": null,
         "gcd": null,
@@ -5838,7 +5838,7 @@ export const gsaCharacters = [
         "name": "Frost Ring Moon Shatter",
         "slot": "Ultimate",
         "unlockStar": 2,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr064_4.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr064_4.webp",
         "type": "Instant",
         "mainStat": "ATK",
         "gcd": null,
@@ -5906,24 +5906,24 @@ export const gsaCharacters = [
     "epithet": "Immovable Strikes, Wisdom of Stone",
     "sex": "Female",
     "inGacha": true,
-    "icon": "https://img.gachawiki.info/gene-sys-adam/cr065_Icon_Texture.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/cr065_Icon_Texture.webp",
     "sortOrder": 65,
     "rarity": "SSR",
     "element": {
       "id": 2,
       "name": "Earth",
-      "icon": "https://img.gachawiki.info/gene-sys-adam/battleelement_2.webp"
+      "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/battleelement_2.webp"
     },
     "job": {
       "id": 1,
       "name": "Guardian",
       "color": "#957C7A",
-      "icon": "https://img.gachawiki.info/gene-sys-adam/guard_2.webp"
+      "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/guard_2.webp"
     },
     "attackType": {
       "id": 2,
       "name": "Energy",
-      "icon": "https://img.gachawiki.info/gene-sys-adam/Attributes_01.webp"
+      "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Attributes_01.webp"
     },
     "skills": [
       {
@@ -5931,7 +5931,7 @@ export const gsaCharacters = [
         "name": "Morning Grump",
         "slot": "Basic Attack",
         "unlockStar": 0,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr065_1.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr065_1.webp",
         "type": "Instant",
         "mainStat": "ATK",
         "gcd": "17s",
@@ -5946,7 +5946,7 @@ export const gsaCharacters = [
         "name": "Slothful Titan",
         "slot": "Talent",
         "unlockStar": 0,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr065_2.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr065_2.webp",
         "type": "Instant",
         "mainStat": null,
         "gcd": null,
@@ -5969,7 +5969,7 @@ export const gsaCharacters = [
         "name": "Somnolent Wheels",
         "slot": "Auto",
         "unlockStar": 1,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr065_3.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr065_3.webp",
         "type": "Instant",
         "mainStat": "ATK",
         "gcd": null,
@@ -5990,7 +5990,7 @@ export const gsaCharacters = [
         "name": "Vital Drain",
         "slot": "Passive 1",
         "unlockStar": 4,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr065_5.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr065_5.webp",
         "type": "Passive",
         "mainStat": null,
         "gcd": null,
@@ -6011,7 +6011,7 @@ export const gsaCharacters = [
         "name": "Selfless Serenity",
         "slot": "Passive 2",
         "unlockStar": 6,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr065_6.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr065_6.webp",
         "type": "Passive",
         "mainStat": null,
         "gcd": null,
@@ -6030,7 +6030,7 @@ export const gsaCharacters = [
         "name": "Inertial Avalanche",
         "slot": "Ultimate",
         "unlockStar": 2,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr065_4.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr065_4.webp",
         "type": "Instant",
         "mainStat": "ATK",
         "gcd": null,
@@ -6098,24 +6098,24 @@ export const gsaCharacters = [
     "epithet": "Scorched Lotus, Fleeting Splendor",
     "sex": "Female",
     "inGacha": false,
-    "icon": "https://img.gachawiki.info/gene-sys-adam/cr066_Icon_Texture.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/cr066_Icon_Texture.webp",
     "sortOrder": 66,
     "rarity": "SSR",
     "element": {
       "id": 1,
       "name": "Fire",
-      "icon": "https://img.gachawiki.info/gene-sys-adam/battleelement_1.webp"
+      "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/battleelement_1.webp"
     },
     "job": {
       "id": 2,
       "name": "Striker",
       "color": "#EA3333",
-      "icon": "https://img.gachawiki.info/gene-sys-adam/fighters_1.webp"
+      "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/fighters_1.webp"
     },
     "attackType": {
       "id": 1,
       "name": "Physical",
-      "icon": "https://img.gachawiki.info/gene-sys-adam/Attributes_02.webp"
+      "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Attributes_02.webp"
     },
     "skills": [
       {
@@ -6123,7 +6123,7 @@ export const gsaCharacters = [
         "name": "Kesa Slash",
         "slot": "Basic Attack",
         "unlockStar": 0,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr066_1.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr066_1.webp",
         "type": "Instant",
         "mainStat": "ATK",
         "gcd": "10s",
@@ -6138,7 +6138,7 @@ export const gsaCharacters = [
         "name": "Resplendent Blade Flash",
         "slot": "Talent",
         "unlockStar": 0,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr066_2.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr066_2.webp",
         "type": "Instant",
         "mainStat": "ATK",
         "gcd": null,
@@ -6159,7 +6159,7 @@ export const gsaCharacters = [
         "name": "Crimson Shadow Reversal",
         "slot": "Auto",
         "unlockStar": 1,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr066_3.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr066_3.webp",
         "type": "Instant",
         "mainStat": "ATK",
         "gcd": null,
@@ -6180,7 +6180,7 @@ export const gsaCharacters = [
         "name": "Noble Discipline",
         "slot": "Passive 1",
         "unlockStar": 4,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr066_5.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr066_5.webp",
         "type": "Passive",
         "mainStat": null,
         "gcd": null,
@@ -6199,7 +6199,7 @@ export const gsaCharacters = [
         "name": "Five Rings Creed",
         "slot": "Passive 2",
         "unlockStar": 6,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr066_6.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr066_6.webp",
         "type": "Passive",
         "mainStat": null,
         "gcd": null,
@@ -6218,7 +6218,7 @@ export const gsaCharacters = [
         "name": "Flame Moon Waltz: Tetra Slash",
         "slot": "Ultimate",
         "unlockStar": 2,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr066_4.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr066_4.webp",
         "type": "Instant",
         "mainStat": "ATK",
         "gcd": null,
@@ -6291,24 +6291,24 @@ export const gsaCharacters = [
     "epithet": "Heavenly Resonance, Total Protection",
     "sex": "Female",
     "inGacha": true,
-    "icon": "https://img.gachawiki.info/gene-sys-adam/cr074_Icon_Texture.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/cr074_Icon_Texture.webp",
     "sortOrder": 74,
     "rarity": "SSR",
     "element": {
       "id": 5,
       "name": "Light",
-      "icon": "https://img.gachawiki.info/gene-sys-adam/battleelement_5.webp"
+      "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/battleelement_5.webp"
     },
     "job": {
       "id": 4,
       "name": "Support",
       "color": "#33EA62",
-      "icon": "https://img.gachawiki.info/gene-sys-adam/priest_5.webp"
+      "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/priest_5.webp"
     },
     "attackType": {
       "id": 2,
       "name": "Energy",
-      "icon": "https://img.gachawiki.info/gene-sys-adam/Attributes_01.webp"
+      "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Attributes_01.webp"
     },
     "skills": [
       {
@@ -6481,19 +6481,19 @@ export const gsaCharacters = [
     "epithet": "Creamy Fragrance, Dairy Barrage",
     "sex": "Male",
     "inGacha": true,
-    "icon": "https://img.gachawiki.info/gene-sys-adam/cr107_Icon_Texture.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/cr107_Icon_Texture.webp",
     "sortOrder": 107,
     "rarity": "SSR",
     "element": {
       "id": 2,
       "name": "Earth",
-      "icon": "https://img.gachawiki.info/gene-sys-adam/battleelement_2.webp"
+      "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/battleelement_2.webp"
     },
-    "job": {"id": 5, "name": "Breaker", "color": "#9433EA", "icon": "https://img.gachawiki.info/gene-sys-adam/master_2.webp" },
+    "job": {"id": 5, "name": "Breaker", "color": "#9433EA", "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/master_2.webp" },
     "attackType": {
       "id": 1,
       "name": "Physical",
-      "icon": "https://img.gachawiki.info/gene-sys-adam/Attributes_02.webp"
+      "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Attributes_02.webp"
     },
     "skills": [
       {
@@ -6501,7 +6501,7 @@ export const gsaCharacters = [
         "name": "Super Pure & Rich, Delicious!",
         "slot": "Basic Attack",
         "unlockStar": 0,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr107_1.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr107_1.webp",
         "type": "Instant",
         "mainStat": "ATK",
         "gcd": "10s",
@@ -6516,7 +6516,7 @@ export const gsaCharacters = [
         "name": "Fresh Milk... Eruption!",
         "slot": "Talent",
         "unlockStar": 0,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr107_2.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr107_2.webp",
         "type": "Instant",
         "mainStat": "ATK",
         "gcd": null,
@@ -6537,7 +6537,7 @@ export const gsaCharacters = [
         "name": "Chilled Milky Delivery",
         "slot": "Auto",
         "unlockStar": 1,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr107_3.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr107_3.webp",
         "type": "Instant",
         "mainStat": "Healing",
         "gcd": null,
@@ -6558,7 +6558,7 @@ export const gsaCharacters = [
         "name": "Essential Bedtime Ritual",
         "slot": "Passive 1",
         "unlockStar": 4,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr107_5.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr107_5.webp",
         "type": "Passive",
         "mainStat": null,
         "gcd": null,
@@ -6577,7 +6577,7 @@ export const gsaCharacters = [
         "name": "I Can Do Anything",
         "slot": "Passive 2",
         "unlockStar": 6,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr107_6.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr107_6.webp",
         "type": "Passive",
         "mainStat": null,
         "gcd": null,
@@ -6596,7 +6596,7 @@ export const gsaCharacters = [
         "name": "Bovine Advent: Mega Udder Cannon",
         "slot": "Ultimate",
         "unlockStar": 2,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr107_4.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr107_4.webp",
         "type": "Instant",
         "mainStat": "ATK",
         "gcd": null,
@@ -6664,24 +6664,24 @@ export const gsaCharacters = [
     "epithet": "Azure Flames, Subtle Deflection",
     "sex": "Male",
     "inGacha": false,
-    "icon": "https://img.gachawiki.info/gene-sys-adam/cr060_Icon_Texture.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/cr060_Icon_Texture.webp",
     "sortOrder": 60,
     "rarity": "SSR",
     "element": {
       "id": 1,
       "name": "Fire",
-      "icon": "https://img.gachawiki.info/gene-sys-adam/battleelement_1.webp"
+      "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/battleelement_1.webp"
     },
     "job": {
       "id": 1,
       "name": "Guardian",
       "color": "#957C7A",
-      "icon": "https://img.gachawiki.info/gene-sys-adam/guard_1.webp"
+      "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/guard_1.webp"
     },
     "attackType": {
       "id": 1,
       "name": "Physical",
-      "icon": "https://img.gachawiki.info/gene-sys-adam/Attributes_02.webp"
+      "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Attributes_02.webp"
     },
     "skills": [
       {
@@ -6689,7 +6689,7 @@ export const gsaCharacters = [
         "name": "Silk Whip Strike",
         "slot": "Basic Attack",
         "unlockStar": 0,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr060_1.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr060_1.webp",
         "type": "Instant",
         "mainStat": "ATK",
         "gcd": "10s",
@@ -6704,7 +6704,7 @@ export const gsaCharacters = [
         "name": "Dragon Flame Wall",
         "slot": "Talent",
         "unlockStar": 0,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr060_2.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr060_2.webp",
         "type": "Instant",
         "mainStat": null,
         "gcd": null,
@@ -6725,7 +6725,7 @@ export const gsaCharacters = [
         "name": "Triple Stance Breaker",
         "slot": "Auto",
         "unlockStar": 1,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr060_3.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr060_3.webp",
         "type": "Instant",
         "mainStat": "ATK",
         "gcd": null,
@@ -6747,7 +6747,7 @@ export const gsaCharacters = [
         "name": "Spicy Instinct",
         "slot": "Passive 1",
         "unlockStar": 4,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr060_5.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr060_5.webp",
         "type": "Passive",
         "mainStat": null,
         "gcd": null,
@@ -6766,7 +6766,7 @@ export const gsaCharacters = [
         "name": "Silk Deflection",
         "slot": "Passive 2",
         "unlockStar": 6,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr060_6.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr060_6.webp",
         "type": "Passive",
         "mainStat": null,
         "gcd": null,
@@ -6785,7 +6785,7 @@ export const gsaCharacters = [
         "name": "Azure Dragon Flame Quake",
         "slot": "Ultimate",
         "unlockStar": 2,
-        "icon": "https://img.gachawiki.info/gene-sys-adam/Icon_cr060_4.webp",
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr060_4.webp",
         "type": "Instant",
         "mainStat": "ATK",
         "gcd": null,

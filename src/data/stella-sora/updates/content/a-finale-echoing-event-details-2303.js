@@ -1,6 +1,6 @@
 // Official Stella Sora news content (cleaned from stellasora.global/news/2303)
 export const content = `
-<p><img src="https://img.gachawiki.info/stella-sora/news/2303-1.webp" alt="" loading="lazy" decoding="async" /></p>
+<p><img src="https://k2b1c5ab57ed98e51.gachawiki.info/stella-sora/news/2303-1.webp" alt="" loading="lazy" decoding="async" /></p>
 <p>Opera Ghost: Rovina is a formidable presence entrenched within the Monolith. She is like a persistent nightmare, appearing silently in the shadows. No one knows her past, and no one has witnessed her end. Only that lingering fear descends upon the heart of every person who utters her name.</p>
 <p>She wears fear as her etiquette and feeds despair with paranoia. In her repertoire, she performs the most ancient of nightmare.</p>
 <p><strong>✦ Enemy Information ✦</strong></p>

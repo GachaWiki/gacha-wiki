@@ -1,6 +1,6 @@
 // Central R2 image CDN configuration
 // All game images served from Cloudflare R2 to stay under CF Pages file limit
-export const R2_BASE = 'https://img.gachawiki.info';
+export const R2_BASE = 'https://k2b1c5ab57ed98e51.gachawiki.info';
 
 /**
  * Build an R2 image URL for a game asset.

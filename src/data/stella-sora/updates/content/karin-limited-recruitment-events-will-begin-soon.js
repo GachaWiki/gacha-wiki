@@ -1,6 +1,6 @@
 // Official Stella Sora news content (cleaned from stellasora.global/news/4361)
 export const content = `
-<p><img src="https://img.gachawiki.info/stella-sora/news/4361-1.webp" alt="" loading="lazy" decoding="async" /></p>
+<p><img src="https://k2b1c5ab57ed98e51.gachawiki.info/stella-sora/news/4361-1.webp" alt="" loading="lazy" decoding="async" /></p>
 <p><strong>Limited recruitment event: Bloom to the Bright Sun will begin soon! During the event period, the chance of getting ★5 Trekker Karin is boosted! </strong></p>
 <p><strong>✦ Recruitment Period ✦</strong></p>
 <p>Start: Aug. 17, 2026 after maintenance</p>
@@ -11,7 +11,7 @@ export const content = `
 <p>- When the recruitment period ends, Karin (★5) will not be added to the Permanent Trekker Banner immediately.</p>
 <p>- All recruitment attempts that fail to obtain Karin (★5) will accumulate within and carry over across all Limited Trekker Banners, independent from other banner types.</p>
 <p>*For more recruitment information, please select the Details button in the bottom-left corner of the recruitment screen.</p>
-<p><img src="https://img.gachawiki.info/stella-sora/news/4361-2.webp" alt="" loading="lazy" decoding="async" /></p>
+<p><img src="https://k2b1c5ab57ed98e51.gachawiki.info/stella-sora/news/4361-2.webp" alt="" loading="lazy" decoding="async" /></p>
 <p><strong>Limited recruitment event: Tinges of Rainbow will begin soon! During the event period, the chance of getting the ★5 Disc [Ride the Waves With Me] is boosted!</strong></p>
 <p><strong>✦ Recruitment Period ✦</strong></p>
 <p>Start: Aug. 17, 2026 after maintenance</p>

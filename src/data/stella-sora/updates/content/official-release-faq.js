@@ -1,6 +1,6 @@
 // Official Stella Sora news content (cleaned from stellasora.global/news/1767)
 export const content = `
-<p><img src="https://img.gachawiki.info/stella-sora/news/1767-1.webp" alt="" loading="lazy" decoding="async" /></p>
+<p><img src="https://k2b1c5ab57ed98e51.gachawiki.info/stella-sora/news/1767-1.webp" alt="" loading="lazy" decoding="async" /></p>
 <p>Dear Tyrants,</p>
 <p>The Official Release of Stella Sora is soon to go live across all platforms! To help you better explore the world of Nova, we've prepared answers to some common questions. If you have any other inquiries, you can find more information or contact us through the following channels:</p>
 <p>1. On the game's login screen, select [Support], or on the main game screen go to [Menu] → [Support] to view other FAQs.</p>

@@ -41,7 +41,7 @@ export interface Props {
 
 const { char, t, skillSections, ui } = Astro.props;
 
-const GALLERY_R2 = 'https://img.gachawiki.info/majo/gallery';
+const GALLERY_R2 = 'https://k2b1c5ab57ed98e51.gachawiki.info/majo/gallery';
 const illustrations = WITCH_ILLUSTRATIONS.find(g => g.id === char.id)?.images ?? [];
 const illuLabel = (label: string) => ui.illuLabels[label] || label;
 const lightboxItems = illustrations.map(im => ({

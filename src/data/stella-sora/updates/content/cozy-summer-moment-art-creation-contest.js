@@ -1,6 +1,6 @@
 // Official Stella Sora news content (cleaned from stellasora.global/news/3966)
 export const content = `
-<p><strong data-path-to-node="4" data-index-in-node="0"><img src="https://img.gachawiki.info/stella-sora/news/3966-1.webp" alt="" loading="lazy" decoding="async" /></p>
+<p><strong data-path-to-node="4" data-index-in-node="0"><img src="https://k2b1c5ab57ed98e51.gachawiki.info/stella-sora/news/3966-1.webp" alt="" loading="lazy" decoding="async" /></p>
 <p>Dear Tyrant,</strong></p>
 <p>This summer brings more than just the passionate sun. Embraced by coconut groves and the glow of the sunset, it's time to share your wildest ideas aloud!</p>
 <p>Please read the full event details below carefully before participating.</p>

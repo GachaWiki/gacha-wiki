@@ -1,6 +1,6 @@
 // Official Stella Sora news content (cleaned from stellasora.global/news/2886)
 export const content = `
-<p><img src="https://img.gachawiki.info/stella-sora/news/2886-1.webp" alt="" loading="lazy" decoding="async" /></p>
+<p><img src="https://k2b1c5ab57ed98e51.gachawiki.info/stella-sora/news/2886-1.webp" alt="" loading="lazy" decoding="async" /></p>
 <p>Under the bath of starlight, we set forth to gather the fragments of our dreams.</p>
 <p>Join the log in event to claim a total of Cerulean Ticket ×5 and Gold Disc ×1500!</p>
 <p><strong>✦ Period ✦</strong></p>

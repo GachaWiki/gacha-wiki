@@ -1,6 +1,6 @@
 // Official Stella Sora news content (cleaned from stellasora.global/news/1980)
 export const content = `
-<p><img src="https://img.gachawiki.info/stella-sora/news/1980-1.webp" alt="" loading="lazy" decoding="async" /></p>
+<p><img src="https://k2b1c5ab57ed98e51.gachawiki.info/stella-sora/news/1980-1.webp" alt="" loading="lazy" decoding="async" /></p>
 <p>Dear Tyrant,</p>
 <p>Stella Sora is scheduled to undergo maintenance and updates starting on <strong>Nov. 17, 2025 20:00 (UTC-7)</strong>. This update is mandatory. After maintenance, you will not be able to access the game through the old app/client. Please download and install the new app/client to continue playing.</p>
 <p>You may perform the update based on your device.</p>

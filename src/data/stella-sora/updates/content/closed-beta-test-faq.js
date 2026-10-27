@@ -1,6 +1,6 @@
 // Official Stella Sora news content (cleaned from stellasora.global/news/135)
 export const content = `
-<p><img src="https://img.gachawiki.info/stella-sora/news/135-1.webp" alt="" loading="lazy" decoding="async" /></p>
+<p><img src="https://k2b1c5ab57ed98e51.gachawiki.info/stella-sora/news/135-1.webp" alt="" loading="lazy" decoding="async" /></p>
 <p><strong>Closed Beta Test FAQ</strong></p>
 <p>Esteemed Tyrant,</p>
 <p>We sincerely appreciate your unwavering support and enthusiasm for <em>Stella Sora</em>! To assist you during the Closed Beta Test, we've compiled this FAQ addressing common inquiries. Should you have any additional questions, please don't hesitate to reach out to our team at: <u><strong><a href="mailto:stellasora.cs@yo-star.com" target="_blank" rel="noopener nofollow">stellasora.cs@yo-star.com</a></strong></u>.</p>

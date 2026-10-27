@@ -1,6 +1,6 @@
 // Official Stella Sora news content (cleaned from stellasora.global/news/2887)
 export const content = `
-<p><img src="https://img.gachawiki.info/stella-sora/news/2887-1.webp" alt="" loading="lazy" decoding="async" /></p>
+<p><img src="https://k2b1c5ab57ed98e51.gachawiki.info/stella-sora/news/2887-1.webp" alt="" loading="lazy" decoding="async" /></p>
 <p>Our guild funds are running dry! It's time to ascend the Monolith and wish for Artifacts to secure our livelihood. Swipe and match Trekker tiles to earn points and clear stages. Reach certain Floors to get Deluxe Trekker Promotion Box, Deluxe Disc Promotion Box, Deluxe Cartridge Box, and more!</p>
 <p><strong>✦ Period ✦</strong></p>
 <p>Start: Apr. 06, 2026 21:00 (UTC-7)</p>

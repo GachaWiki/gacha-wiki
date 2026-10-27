@@ -6,7 +6,7 @@
 export const zoneNovaConfig = {
   id: 'zone-nova',
   name: 'Zone Nova',
-  image: 'https://img.gachawiki.info/zone-nova/zonenova.jpg',
+  image: 'https://k2b1c5ab57ed98e51.gachawiki.info/zone-nova/zonenova.jpg',
   hasRegions: true,
   currentRegion: 'ero-labs', // default region
   launchDate: '2025-04-29T00:00:00Z',

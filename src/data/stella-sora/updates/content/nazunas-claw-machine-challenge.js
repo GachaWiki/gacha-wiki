@@ -1,6 +1,6 @@
 // Official Stella Sora news content (cleaned from stellasora.global/news/2880)
 export const content = `
-<p><img src="https://img.gachawiki.info/stella-sora/news/2880-1.webp" alt="" loading="lazy" decoding="async" /></p>
+<p><img src="https://k2b1c5ab57ed98e51.gachawiki.info/stella-sora/news/2880-1.webp" alt="" loading="lazy" decoding="async" /></p>
 <p>The web mini-game, We Require More Sherlocks: Nazuna's Claw Machine Challenge, is now live. Participate in the game to earn a variety of rewards!</p>
 <p>Click the event link below to join; control the claw and become a claw machine master!</p>
 <p>Event Link: <a href="https://stellasora.global/event/clawgame" target="_blank" rel="noopener nofollow">https://stellasora.global/event/clawgame</a></p>

@@ -34,6 +34,6 @@ export const riftSurge17SEO = {
     'Elemental Crit',
     'Character Guide',
   ],
-  image: 'https://img.gachawiki.info/zone-nova/rifts/rift-surge-17.jpg',
+  image: 'https://k2b1c5ab57ed98e51.gachawiki.info/zone-nova/rifts/rift-surge-17.jpg',
   url: '/guides/zone-nova/rifts/rift-surge-17/',
 };

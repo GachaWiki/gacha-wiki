@@ -5,7 +5,7 @@
 // them. To give a new game music, add one entry here and the player renders.
 import type { GameKey } from './game-navigation';
 
-const R2 = 'https://img.gachawiki.info';
+const R2 = 'https://k2b1c5ab57ed98e51.gachawiki.info';
 
 export interface GameMusicConfig {
   // Game display name used in the toggle's aria-label.

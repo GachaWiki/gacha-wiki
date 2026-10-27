@@ -1,6 +1,6 @@
 // Official Stella Sora news content (cleaned from stellasora.global/news/2175)
 export const content = `
-<p><img src="https://img.gachawiki.info/stella-sora/news/2175-1.webp" alt="" loading="lazy" decoding="async" /></p>
+<p><img src="https://k2b1c5ab57ed98e51.gachawiki.info/stella-sora/news/2175-1.webp" alt="" loading="lazy" decoding="async" /></p>
 <p><strong>Dear Tyrant</strong>,</p>
 <p>The <strong>Snowish Festival</strong> is approaching! Join our <strong>Wish Weavers Art Creation Contest</strong> and help us build the festive atmosphere! The reindeer carriage has brought you generous rewards: cash prizes, Stellanite Dust, and new merchandise.</p>
 <p>Get cozy and creative, let's come together to celebrate the Snowish Festival and the coming new year!</p>

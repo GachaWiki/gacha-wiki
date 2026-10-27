@@ -1,6 +1,6 @@
 // Official Stella Sora news content (cleaned from stellasora.global/news/2071)
 export const content = `
-<p><img src="https://img.gachawiki.info/stella-sora/news/2071-1.webp" alt="" loading="lazy" decoding="async" /></p>
+<p><img src="https://k2b1c5ab57ed98e51.gachawiki.info/stella-sora/news/2071-1.webp" alt="" loading="lazy" decoding="async" /></p>
 <p>Dear Tyrant,</p>
 <p>Stella Sora is scheduled to undergo maintenance and updates starting on Dec. 1, 2025 at 20:00 (UTC-7), with an estimated duration of 3 hours. Once maintenance begins, you won't be able to log into the game. If you're still playing at that time, you'll be logged out automatically. To keep your account data safe, please finish any ongoing stages and close the game before maintenance begins.</p>
 <p><strong>✦ Maintenance Period ✦</strong></p>

@@ -43,8 +43,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/labiata.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/labiata.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/labiata.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/labiata.webp",
     "stats": {
       "hp": [
         271,
@@ -112,35 +112,35 @@ export const loCharacters = [
         "tab": "Naked Apron (Labiata",
         "price": "182",
         "desc": "The new bride Labiata has prepared dinner for the special one. Please also enjoy Labiata's special dessert...",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/labiata-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/labiata-1.webp"
       },
       {
         "name": "Labiata Origin",
         "tab": "Labiata Origin",
         "price": "7-4Ex First Clear",
         "desc": "Labiata got her original form back.",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/labiata-2.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/labiata-2.webp"
       },
       {
         "name": "Micro Bikini (Labiata)",
         "tab": "Micro Bikini (Labiata)",
         "price": "159",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/labiata-3.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/labiata-3.webp"
       },
       {
         "name": "Micro Bikini (Origin Labiata)",
         "tab": "Micro Bikini (Origin Labiata)",
         "price": "159",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/labiata-4.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/labiata-4.webp"
       },
       {
         "name": "Asian Style Dress (Labiata)",
         "tab": "Asian Style Dress (Labiata)",
         "price": "272",
         "desc": "A single flower has bloomed atop a blanket of snow. How about setting some time aside for this orchid that blossomed in the cold winter?",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/labiata-5.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/labiata-5.webp"
       }
     ],
     "sortOrder": 2
@@ -414,8 +414,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/constantia.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/constantia.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/constantia.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/constantia.webp",
     "stats": {
       "hp": [
         156,
@@ -491,35 +491,35 @@ export const loCharacters = [
         "tab": "|rowspan",
         "price": "[[Sub Story]]",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/constantia-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/constantia-1.webp"
       },
       {
         "name": "Unused Asset",
         "tab": "|rowspan",
         "price": "",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/constantia-2.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/constantia-2.webp"
       },
       {
         "name": "Battlesuit Constantia",
         "tab": "|rowspan",
         "price": "Pre-Registration Event",
         "desc": "Although Constantia is proud of her maid suit, she still dresses this for testing purposes. Even then there are things that she can't give up.",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/constantia-3.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/constantia-3.webp"
       },
       {
         "name": "Night Dress (Constantia)",
         "tab": "|rowspan",
         "price": "91",
         "desc": "You can only see her without her glasses when there's nobody else.",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/constantia-4.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/constantia-4.webp"
       },
       {
         "name": "Bodyguard Uniform (Constantia)",
         "tab": "|rowspan",
         "price": "136",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/constantia-5.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/constantia-5.webp"
       }
     ],
     "sortOrder": 3
@@ -621,8 +621,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/alice.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/alice.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/alice.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/alice.webp",
     "stats": {
       "hp": [
         172,
@@ -725,28 +725,28 @@ export const loCharacters = [
         "tab": "Base",
         "price": "",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/alice-0.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/alice-0.webp"
       },
       {
         "name": "Night Queen Dress (Alice)",
         "tab": "Night Queen Dress (Alice)",
         "price": "228",
         "desc": "Would you like a sweet dream from the Night Queen? But you may not wake up ever again......",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/alice-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/alice-1.webp"
       },
       {
         "name": "Jewel Bikini (Alice)",
         "tab": "Jewel Bikini (Alice)",
         "price": "205",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/alice-2.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/alice-2.webp"
       },
       {
         "name": "Habit Overflowing with Lust (Alice)",
         "tab": "Habit Overflowing with Lust (Alice)",
         "price": "177",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/alice-3.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/alice-3.webp"
       }
     ],
     "sortOrder": 4
@@ -1130,8 +1130,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/vanilla.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/vanilla.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/vanilla.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/vanilla.webp",
     "stats": {
       "hp": [
         157,
@@ -1242,28 +1242,28 @@ export const loCharacters = [
         "tab": "|rowspan",
         "price": "",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/vanilla-0.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/vanilla-0.webp"
       },
       {
         "name": "Date Look (Vanilla)",
         "tab": "|rowspan",
         "price": "114",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/vanilla-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/vanilla-1.webp"
       },
       {
         "name": "Upgraded Maid Outfit: Day (Vanilla)",
         "tab": "|rowspan",
         "price": "202",
         "desc": "On a very special day, Vanilla finally comes to you with a cake she baked herself and asks you a question.<br />\"Master? I'll ask again. Are my cakes still not very good?\"",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/vanilla-2.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/vanilla-2.webp"
       },
       {
         "name": "Upgraded Maid Outfit: Night (Vanilla)",
         "tab": "|rowspan",
         "price": "202",
         "desc": "On a very special day, Vanilla finally comes to you with a cake she baked herself and asks you a question.<br />\"Master? I'll ask again. Are my cakes still not very good?\"",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/vanilla-3.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/vanilla-3.webp"
       }
     ],
     "sortOrder": 5
@@ -1385,8 +1385,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/rhea.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/rhea.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/rhea.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/rhea.webp",
     "stats": {
       "hp": [
         177,
@@ -1454,28 +1454,28 @@ export const loCharacters = [
         "tab": "Base",
         "price": "",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/rhea-0.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/rhea-0.webp"
       },
       {
         "name": "Audrey Moon Collection: Adult Rabbit",
         "tab": "Audrey Moon Collection: Adult Rabbit",
         "price": "159",
         "desc": "The traditional dress for the old festival「The end of August」that is restored by Audrey. Rumours are saying that the festival has something to do with Moon Rabbits. Also, a lot of females were featured on magazines wearing this...",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/rhea-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/rhea-1.webp"
       },
       {
         "name": "Wedding Dress (Rhea)",
         "tab": "Wedding Dress (Rhea)",
         "price": "159",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/rhea-2.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/rhea-2.webp"
       },
       {
         "name": "Doctor's Outfit (Rhea)",
         "tab": "Doctor's Outfit (Rhea)",
         "price": "147",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/rhea-3.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/rhea-3.webp"
       }
     ],
     "sortOrder": 6
@@ -1756,8 +1756,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/scissors-lise.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/scissors-lise.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/scissors-lise.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/scissors-lise.webp",
     "stats": {
       "hp": [
         122,
@@ -1833,21 +1833,21 @@ export const loCharacters = [
         "tab": "| rowspan",
         "price": "57",
         "desc": "Thanks to her sisters, Lise now gets to wear the nurse outfit as well. Maybe she hopes that the commander needs intensive caring...",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/scissors-lise-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/scissors-lise-1.webp"
       },
       {
         "name": "Torn Swimsuit (Lise)",
         "tab": "|rowspan",
         "price": "114",
         "desc": "The swimsuit Lise wanted to show you but couldn't due to reasons. This is the perfect execution of Lise's design with the advice from a [[Black Lilith",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/scissors-lise-2.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/scissors-lise-2.webp"
       },
       {
         "name": "Clothes Prepared by Sisters (Lise)",
         "tab": "|rowspan",
         "price": "114",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/scissors-lise-3.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/scissors-lise-3.webp"
       }
     ],
     "sortOrder": 7
@@ -2163,8 +2163,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/daphne.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/daphne.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/daphne.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/daphne.webp",
     "stats": {
       "hp": [
         140,
@@ -2240,21 +2240,21 @@ export const loCharacters = [
         "tab": "|rowspan",
         "price": "65",
         "desc": "The original Daphne model is designed as a gardener, however there were records of care-taking units being built. Plants, living creatures have no difference as long as they needed to be taken care of... right?",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/daphne-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/daphne-1.webp"
       },
       {
         "name": "Elegant Swimsuit (Daphne)",
         "tab": "|rowspan",
         "price": "136",
         "desc": "Daphne's summer vacation is always peaceful. Her hot affection of the summer only belongs to her master.",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/daphne-2.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/daphne-2.webp"
       },
       {
         "name": "Valentine's Present (Daphne)",
         "tab": "|rowspan",
         "price": "147",
         "desc": "Daphne has prepared a special Valentine's gift for you. She says she received special training from Lise for it .... What could it possibly be for Daphne to be so embarrassed?",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/daphne-3.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/daphne-3.webp"
       }
     ],
     "sortOrder": 8
@@ -2281,8 +2281,8 @@ export const loCharacters = [
     "weight": "28kg",
     "equipRec": "CCOG",
     "farm": null,
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/aqua.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/aqua.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/aqua.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/aqua.webp",
     "stats": {
       "hp": [
         159,
@@ -2358,14 +2358,14 @@ export const loCharacters = [
         "tab": "Base",
         "price": "",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/aqua-0.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/aqua-0.webp"
       },
       {
         "name": "Sweet and Cute Bee Costume (Aqua)",
         "tab": "Sweet and Cute Bee Costume (Aqua)",
         "price": "114",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/aqua-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/aqua-1.webp"
       }
     ],
     "sortOrder": 9
@@ -2459,8 +2459,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/titania.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/titania.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/titania.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/titania.webp",
     "stats": {
       "hp": [
         190,
@@ -2528,21 +2528,21 @@ export const loCharacters = [
         "tab": "Party Dress (Titania)",
         "price": "136",
         "desc": "It could be the alcohol, or your hard effort to open her up, but for some reason u don't sense the usual hostility from her as she's holding her glass. Perhaps this time u may actually have a chance to look into her true feelings.",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/titania-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/titania-1.webp"
       },
       {
         "name": "Pretending-not-to-Win Bunny Girl Costume (Titania)",
         "tab": "Pretending-not-to-Win Bunny Girl Costume (Titania)",
         "price": "136",
         "desc": "At your continued persuasion, Titania eventually accepted the Bunny Girl costume. She's blatantly saying that she doesn't like it at all, but this alone can be said to be a major development. But don't let your guard down. In order to completely melt the heart of the arrogant Ice Queen, there are still many mountains to overcome.",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/titania-2.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/titania-2.webp"
       },
       {
         "name": "Mask Bikini (Titania)",
         "tab": "Mask Bikini (Titania)",
         "price": "167",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/titania-3.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/titania-3.webp"
       }
     ],
     "sortOrder": 10
@@ -2620,8 +2620,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/alexandra.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/alexandra.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/alexandra.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/alexandra.webp",
     "stats": {
       "hp": [
         162,
@@ -2724,21 +2724,21 @@ export const loCharacters = [
         "tab": "Training Suit (Alexandra)",
         "price": "91",
         "desc": "Only humans need teachers. However, some masters will learn how to behave like a human first.",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/alexandra-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/alexandra-1.webp"
       },
       {
         "name": "Muscle-mania Bikini (Alexandra)",
         "tab": "Muscle-mania Bikini (Alexandra)",
         "price": "136",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/alexandra-2.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/alexandra-2.webp"
       },
       {
         "name": "Inspector's Office Look (Alexandra)",
         "tab": "Inspector's Office Look (Alexandra)",
         "price": "192",
         "desc": "A report that your overtime work has greatly surpassed the legally allowed amount has ended up in front of Alexandra. You *are* taking overtime pay, right? Alexandra's come to your quarters, with a hefty bonus for all your hard work.",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/alexandra-3.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/alexandra-3.webp"
       }
     ],
     "sortOrder": 11
@@ -2847,8 +2847,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/sowan.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/sowan.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/sowan.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/sowan.webp",
     "stats": {
       "hp": [
         186,
@@ -2916,21 +2916,21 @@ export const loCharacters = [
         "tab": "Chef's Swimsuit",
         "price": "182",
         "desc": "\"Wait, don't panic, that's Sowan's trap!\" This is the swimsuit that she got after making so many enemies falling in her trap. But can Sowan achieve her goals though?",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/sowan-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/sowan-1.webp"
       },
       {
         "name": "Sophisticated Cheongsam Dress",
         "tab": "Sophisticated Cheongsam Dress",
         "price": "182",
         "desc": "She stayed low and waited for her rivals to get distracted and left the table. Please listen to her true self with the help of alcohol.",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/sowan-2.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/sowan-2.webp"
       },
       {
         "name": "Tailcoat (Sowan)",
         "tab": "Tailcoat (Sowan)",
         "price": "159",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/sowan-3.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/sowan-3.webp"
       }
     ],
     "sortOrder": 12
@@ -3130,8 +3130,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/annie.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/annie.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/annie.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/annie.webp",
     "stats": {
       "hp": [
         210,
@@ -3207,14 +3207,14 @@ export const loCharacters = [
         "tab": "|rowspan",
         "price": "",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/annie-0.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/annie-0.webp"
       },
       {
         "name": "Anywhere Series Tokkofuku",
         "tab": "Anywhere Series Tokkofuku",
         "price": "182",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/annie-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/annie-1.webp"
       }
     ],
     "sortOrder": 13
@@ -3520,8 +3520,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/maria.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/maria.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/maria.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/maria.webp",
     "stats": {
       "hp": [
         208,
@@ -3597,28 +3597,28 @@ export const loCharacters = [
         "tab": "|rowspan",
         "price": "",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/maria-0.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/maria-0.webp"
       },
       {
         "name": "Imp Outfit (Maria)",
         "tab": "|rowspan",
         "price": "114",
         "desc": "In a performance meant for children, Maria was given an unexpected role. With rope constricting tightly and eyes blindfolded, what could Maria be thinking about now?",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/maria-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/maria-1.webp"
       },
       {
         "name": "Holy Night's Dress (Maria)",
         "tab": "|rowspan",
         "price": "114",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/maria-2.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/maria-2.webp"
       },
       {
         "name": "Baby Lingerie (Maria)",
         "tab": "|rowspan",
         "price": "182",
         "desc": "You've been invited to the childcare training of the Orca's exclusive caretaker, Maria! It just happens to be time for playing house, so let's start from the basics. \"For a baby whining from hunger, be patient while you feed them warm milk and pat their bottom.\" Hmm … how about you take this opportunity to give a demonstration?",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/maria-3.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/maria-3.webp"
       }
     ],
     "sortOrder": 14
@@ -3647,8 +3647,8 @@ export const loCharacters = [
     "weight": "55kg",
     "equipRec": "CCOG",
     "farm": null,
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/fotia.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/fotia.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/fotia.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/fotia.webp",
     "stats": {
       "hp": [
         156,
@@ -3724,14 +3724,14 @@ export const loCharacters = [
         "tab": "Sledge Deer Costume (Fotia)",
         "price": "91",
         "desc": "The formal dress born from Alexandra's「Education」for Fotia. But you know it's... uh... yeah.., okay then?",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/fotia-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/fotia-1.webp"
       },
       {
         "name": "Dessert (Fotia)",
         "tab": "Dessert (Fotia)",
         "price": "147",
         "desc": "It is said there is a special dessert only for the Commander. A special menu, dedicated room service, and even a dessert, all for the Commander and no one else. Please enjoy to your heart's content.",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/fotia-2.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/fotia-2.webp"
       }
     ],
     "sortOrder": 15
@@ -3855,8 +3855,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/black-lilith.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/black-lilith.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/black-lilith.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/black-lilith.webp",
     "stats": {
       "hp": [
         216,
@@ -3924,21 +3924,21 @@ export const loCharacters = [
         "tab": "Homemade Maid Uniform (Lilith)",
         "price": "68",
         "desc": "It seems that you hired a maid that shouldn't be hired.",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/black-lilith-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/black-lilith-1.webp"
       },
       {
         "name": "Swimwear that goes beyond it's purpose",
         "tab": "Swimwear that goes beyond it's purpose",
         "price": "159",
         "desc": "To thank Lilith who made Audrey's inspiration revived again, she made this as a token of appreciation in return to make Lilith's dream come true. What Lilith wanted was a swimsuit to leave some trace on her once summer ends.",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/black-lilith-2.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/black-lilith-2.webp"
       },
       {
         "name": "Empress Outfit for Musical (Black Lilith)",
         "tab": "Empress Outfit for Musical (Black Lilith)",
         "price": "196",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/black-lilith-3.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/black-lilith-3.webp"
       }
     ],
     "sortOrder": 16
@@ -4141,8 +4141,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/perrault.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/perrault.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/perrault.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/perrault.webp",
     "stats": {
       "hp": [
         212,
@@ -4218,28 +4218,28 @@ export const loCharacters = [
         "tab": "|rowspan",
         "price": "57",
         "desc": "Perrault loves milk so much that she drank her master's milk without realizing that. But it's dripping everywhere. Maybe she needs to be punished for this?",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/perrault-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/perrault-1.webp"
       },
       {
         "name": "Decorative Swimsuit (Perrault)",
         "tab": "Decorative Swimsuit (Perrault)",
         "price": "159",
         "desc": "「Look! I have a kitty on my titty!」.",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/perrault-2.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/perrault-2.webp"
       },
       {
         "name": "Special Bodyguard Uniform (Perrault)",
         "tab": "Special Bodyguard Uniform (Perrault)",
         "price": "SS",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/perrault-3.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/perrault-3.webp"
       },
       {
         "name": "Bunny Girl Costume (Perrault)",
         "tab": "Bunny Girl Costume (Perrault)",
         "price": "196",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/perrault-4.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/perrault-4.webp"
       }
     ],
     "sortOrder": 17
@@ -4445,8 +4445,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/hachiko.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/hachiko.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/hachiko.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/hachiko.webp",
     "stats": {
       "hp": [
         266,
@@ -4522,35 +4522,35 @@ export const loCharacters = [
         "tab": "| rowspan",
         "price": "",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/hachiko-0.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/hachiko-0.webp"
       },
       {
         "name": "Children's Maid Clothes (Hachiko)",
         "tab": "|rowspan",
         "price": "80",
         "desc": "Hachiko still can't tell if there's anything wrong within this family.",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/hachiko-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/hachiko-1.webp"
       },
       {
         "name": "Homemade Tactical Bombing Equipment (Hachiko)",
         "tab": "|rowspan",
         "price": "4",
         "desc": "Hachiko has inherited the will of the older Hachikos who could fly above the battlefield. But this is what comes after our Hachiko tried her best... still cute, isn't it?",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/hachiko-2.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/hachiko-2.webp"
       },
       {
         "name": "Cute Maid Costume (Hachiko)",
         "tab": "Cute Maid Costume (Hachiko)",
         "price": "159",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/hachiko-3.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/hachiko-3.webp"
       },
       {
         "name": "Baker's Clothes (Hachiko)",
         "tab": "Baker's Clothes (Hachiko)",
         "price": "147",
         "desc": "Chocolate, mint, and meatpies. Three tasty things have been combined into a single food, so it could never be bad, right? How about trying the special mint chocolate meatpie that Hachiko worked hard to make just for you?",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/hachiko-4.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/hachiko-4.webp"
       }
     ],
     "sortOrder": 18
@@ -4634,8 +4634,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/fenrir.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/fenrir.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/fenrir.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/fenrir.webp",
     "stats": {
       "hp": [
         246,
@@ -4703,7 +4703,7 @@ export const loCharacters = [
         "tab": "Broken Redemption",
         "price": "159",
         "desc": "「Poor Fenrir... Her body is so hot right now and she can't handle it. You are the only one who can solve that problem.」",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/fenrir-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/fenrir-1.webp"
       },
       {
         "name": "Mi...ko Clothes? (Fenrir )",
@@ -4745,8 +4745,8 @@ export const loCharacters = [
       ],
       "groups": []
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/kiki-peiling.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/kiki-peiling.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/kiki-peiling.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/kiki-peiling.webp",
     "stats": {
       "hp": [
         155,
@@ -4822,14 +4822,14 @@ export const loCharacters = [
         "tab": "Base",
         "price": "",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/kiki-peiling-0.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/kiki-peiling-0.webp"
       },
       {
         "name": "Mini Wedding Dress (Kiki Peiling)",
         "tab": "Mini Wedding Dress (Kiki Peiling)",
         "price": "192",
         "desc": "Kiki, the lovely girl who never loses her smile and confidence, has been sending signals to you that she wants to \"spend her life together with you\". Please promise her that her feelings will be reciprocated.",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/kiki-peiling-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/kiki-peiling-1.webp"
       }
     ],
     "sortOrder": 20
@@ -4940,8 +4940,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/marie.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/marie.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/marie.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/marie.webp",
     "stats": {
       "hp": [
         232,
@@ -5009,21 +5009,21 @@ export const loCharacters = [
         "tab": "Student Council President's Uniform",
         "price": "80",
         "desc": "Please respond to the council leader, Marie's confession!!",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/marie-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/marie-1.webp"
       },
       {
         "name": "Lingerie Gift (Marie)",
         "tab": "Lingerie Gift (Marie)",
         "price": "159",
         "desc": "「I hope Captain Marie can be happy」- Leprechaun<br>「Finally the training will be paused for about 10 months」- Brownie<br>「Cheers to Captain's new life journey」- Impet<br>「She can probably one shot this~」 - Efreeti",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/marie-2.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/marie-2.webp"
       },
       {
         "name": "Summer Uniform (Marie)",
         "tab": "Summer Uniform (Marie)",
         "price": "147",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/marie-3.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/marie-3.webp"
       }
     ],
     "sortOrder": 21
@@ -5428,8 +5428,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/efreeti.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/efreeti.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/efreeti.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/efreeti.webp",
     "stats": {
       "hp": [
         202,
@@ -5505,14 +5505,14 @@ export const loCharacters = [
         "tab": "|rowspan",
         "price": "base",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/efreeti-0.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/efreeti-0.webp"
       },
       {
         "name": "Summer Combat Uniform (Efreeti)",
         "tab": "|rowspan",
         "price": "91",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/efreeti-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/efreeti-1.webp"
       }
     ],
     "sortOrder": 22
@@ -5539,8 +5539,8 @@ export const loCharacters = [
     "weight": "43kg",
     "equipRec": "CCOG",
     "farm": null,
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/leprechaun.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/leprechaun.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/leprechaun.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/leprechaun.webp",
     "stats": {
       "hp": [
         178,
@@ -5616,21 +5616,21 @@ export const loCharacters = [
         "tab": "Summer Combat Uniform (Leprechaun)",
         "price": "44",
         "desc": "It's summer time, and a new uniform is needed to cope with the weather. Apparently Leprechaun doesn't want such things...",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/leprechaun-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/leprechaun-1.webp"
       },
       {
         "name": "Fresh Graduate's Suit (Leprechaun)",
         "tab": "Fresh Graduate's Suit (Leprechaun)",
         "price": "147",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/leprechaun-2.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/leprechaun-2.webp"
       },
       {
         "name": "Fresh Graduate's Suit (Leprechaun)",
         "tab": "Fresh Graduate's Suit (Leprechaun)",
         "price": "182",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/leprechaun-3.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/leprechaun-3.webp"
       }
     ],
     "sortOrder": 23
@@ -5660,8 +5660,8 @@ export const loCharacters = [
     "weight": "52kg",
     "equipRec": "CCOG",
     "farm": null,
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/impet.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/impet.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/impet.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/impet.webp",
     "stats": {
       "hp": [
         142,
@@ -5737,21 +5737,21 @@ export const loCharacters = [
         "tab": "Base",
         "price": "",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/impet-0.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/impet-0.webp"
       },
       {
         "name": "Y-shaped Bikini (Impet)",
         "tab": "Y-shaped Bikini (Impet)",
         "price": "91",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/impet-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/impet-1.webp"
       },
       {
         "name": "Classic Office Suit (Impet)",
         "tab": "Classic Office Suit (Impet)",
         "price": "192",
         "desc": "One late night, you're alone with Assistant Manager Impet when she comes to talk. \"Mr. Team Manager ... don't tell me you're working overtime again?\" She hands you a cup of coffee as she starts organizing your papers to help, and you just can't help but love her.",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/impet-2.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/impet-2.webp"
       }
     ],
     "sortOrder": 24
@@ -5781,8 +5781,8 @@ export const loCharacters = [
     "weight": "41kg",
     "equipRec": "CCOG",
     "farm": null,
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/brownie.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/brownie.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/brownie.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/brownie.webp",
     "stats": {
       "hp": [
         154,
@@ -5851,7 +5851,7 @@ export const loCharacters = [
         "tab": "Summer Combat Uniform (Brownie)",
         "price": "34",
         "desc": "It's summer time, and a new uniform is needed to cope with the weather. The passionate brownie and the uniform is a pair made in heaven.",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/brownie-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/brownie-1.webp"
       }
     ],
     "sortOrder": 25
@@ -6023,8 +6023,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/silky.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/silky.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/silky.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/silky.webp",
     "stats": {
       "hp": [
         210,
@@ -6100,14 +6100,14 @@ export const loCharacters = [
         "tab": "Summer Combat Suit",
         "price": "136",
         "desc": "Brownie somehow got a paid vacation. Goodjob Brownie!",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/silky-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/silky-1.webp"
       },
       {
         "name": "Cozy See-through Beachwear (Silky)",
         "tab": "Cozy See-through Beachwear (Silky)",
         "price": "202",
         "desc": "Steel Line's gone on a summer vacation with the Commander! While you're looking at the others playing beach volleyball, Silky shyly approaches you in her tube and whispers in your ear. \"Commander, would you look at my swimsuit too ...?\"",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/silky-2.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/silky-2.webp"
       }
     ],
     "sortOrder": 26
@@ -6291,8 +6291,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/phoenix.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/phoenix.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/phoenix.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/phoenix.webp",
     "stats": {
       "hp": [
         181,
@@ -6368,21 +6368,21 @@ export const loCharacters = [
         "tab": "|rowspan",
         "price": "base",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/phoenix-0.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/phoenix-0.webp"
       },
       {
         "name": "Summer Combat Uniform (Phoenix)",
         "tab": "Summer Combat Uniform (Phoenix)",
         "price": "136",
         "desc": "Phoenix always maintains her precious equipment herself. The reason why she wears the summer uniform but not a mechanic's uniform? She wants you to see her maintaining it with your own eyes.",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/phoenix-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/phoenix-1.webp"
       },
       {
         "name": "Pirate Outfit (Phoenix)",
         "tab": "Pirate Outfit (Phoenix)",
         "price": "147",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/phoenix-2.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/phoenix-2.webp"
       }
     ],
     "sortOrder": 27
@@ -6412,8 +6412,8 @@ export const loCharacters = [
     "weight": "62kg",
     "equipRec": "CCOG",
     "farm": null,
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/gnome.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/gnome.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/gnome.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/gnome.webp",
     "stats": {
       "hp": [
         210,
@@ -6489,14 +6489,14 @@ export const loCharacters = [
         "tab": "Wedding Dress (Gnome)",
         "price": "46",
         "desc": "Today, she becomes part of the family.",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/gnome-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/gnome-1.webp"
       },
       {
         "name": "Bunny Girl Costume (Gnome)",
         "tab": "Bunny Girl Costume (Gnome)",
         "price": "114",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/gnome-2.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/gnome-2.webp"
       }
     ],
     "sortOrder": 28
@@ -6688,8 +6688,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/red-hood.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/red-hood.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/red-hood.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/red-hood.webp",
     "stats": {
       "hp": [
         200,
@@ -6765,7 +6765,7 @@ export const loCharacters = [
         "tab": "|rowspan",
         "price": "114",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/red-hood-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/red-hood-1.webp"
       }
     ],
     "sortOrder": 29
@@ -7036,8 +7036,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/habetrot.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/habetrot.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/habetrot.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/habetrot.webp",
     "stats": {
       "hp": [
         118,
@@ -7113,14 +7113,14 @@ export const loCharacters = [
         "tab": "|rowspan",
         "price": "114",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/habetrot-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/habetrot-1.webp"
       },
       {
         "name": "Long Skirt (Habetrot)",
         "tab": "|rowspan",
         "price": "192",
         "desc": "Victory! Habetrot, an officer of Steel Line, has been promised a date with the Commander as a reward for her hard work up until now. It's an opportunity to show off her hidden appeal ... certainly. But even without such efforts, it's clear it'll be a day to remember for the two of you. Now that she's wearing casual clothes instead of her uniform, what memories will you make with her?",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/habetrot-2.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/habetrot-2.webp"
       }
     ],
     "sortOrder": 30
@@ -7237,8 +7237,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/leona.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/leona.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/leona.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/leona.webp",
     "stats": {
       "hp": [
         162,
@@ -7341,28 +7341,28 @@ export const loCharacters = [
         "tab": "Lingerie (Leona)",
         "price": "80",
         "desc": "Leona is always arrogant and elegant, but it seems to be not the case when it's bedtime. Probably it's about time to learn about her true interests.",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/leona-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/leona-1.webp"
       },
       {
         "name": "Race Queen Cosplay (Leona)",
         "tab": "Race Queen Cosplay (Leona)",
         "price": "136",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/leona-2.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/leona-2.webp"
       },
       {
         "name": "Wedding Dress (Leona)",
         "tab": "Wedding Dress (Leona)",
         "price": "136",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/leona-3.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/leona-3.webp"
       },
       {
         "name": "Boss's Dress (Leona)",
         "tab": "Boss's Dress (Leona)",
         "price": "136",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/leona-4.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/leona-4.webp"
       }
     ],
     "sortOrder": 31
@@ -7546,8 +7546,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/valkyrie.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/valkyrie.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/valkyrie.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/valkyrie.webp",
     "stats": {
       "hp": [
         170,
@@ -7623,28 +7623,28 @@ export const loCharacters = [
         "tab": "Concert Dress (Valkyrie)",
         "price": "77",
         "desc": "The field uniform stands out too much in the city. To get rid of the enemies in the city, Valkyrie chose a more fitting outfit for herself.",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/valkyrie-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/valkyrie-1.webp"
       },
       {
         "name": "Valkyrie's Swimsuit",
         "tab": "Valkyrie's Swimsuit",
         "price": "159",
         "desc": "Valkyrie is excited about the overdue vacation. But don't forget about that small bag.",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/valkyrie-2.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/valkyrie-2.webp"
       },
       {
         "name": "Comfortable Homewear (Valkyrie)",
         "tab": "Comfortable Homewear (Valkyrie)",
         "price": "159",
         "desc": "The always serious Valkyrie will only loosen up when she's with you.",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/valkyrie-3.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/valkyrie-3.webp"
       },
       {
         "name": "Wedding Dress (T-8 Valkyrie)",
         "tab": "Wedding Dress (T-8 Valkyrie)",
         "price": "114",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/valkyrie-4.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/valkyrie-4.webp"
       }
     ],
     "sortOrder": 32
@@ -7944,8 +7944,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/nymph.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/nymph.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/nymph.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/nymph.webp",
     "stats": {
       "hp": [
         161,
@@ -8021,21 +8021,21 @@ export const loCharacters = [
         "tab": "|rowspan",
         "price": "",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/nymph-0.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/nymph-0.webp"
       },
       {
         "name": "Fairy Dress (Nymph)",
         "tab": "|rowspan",
         "price": "114",
         "desc": "This is a secret but... To learn the perfect pose to hide her concerns and only show the parts she's confident in, Nymph was under Leona's analysis and guidance for some days...",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/nymph-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/nymph-1.webp"
       },
       {
         "name": "Custom Tailored Suit (Nymph)",
         "tab": "|rowspan",
         "price": "147",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/nymph-2.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/nymph-2.webp"
       }
     ],
     "sortOrder": 33
@@ -8065,8 +8065,8 @@ export const loCharacters = [
     "weight": "41kg",
     "equipRec": "CCOG",
     "farm": null,
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/gremlin.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/gremlin.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/gremlin.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/gremlin.webp",
     "stats": {
       "hp": [
         154,
@@ -8128,14 +8128,14 @@ export const loCharacters = [
         "tab": "Base",
         "price": "",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/gremlin-0.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/gremlin-0.webp"
       },
       {
         "name": "Sportwear (Gremlin)",
         "tab": "Sportwear (Gremlin)",
         "price": "68",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/gremlin-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/gremlin-1.webp"
       }
     ],
     "sortOrder": 34
@@ -8165,8 +8165,8 @@ export const loCharacters = [
     "weight": "75kg",
     "equipRec": "CCOG",
     "farm": null,
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/sand-girl.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/sand-girl.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/sand-girl.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/sand-girl.webp",
     "stats": {
       "hp": [
         208,
@@ -8242,21 +8242,21 @@ export const loCharacters = [
         "tab": "Base",
         "price": "",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/sand-girl-0.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/sand-girl-0.webp"
       },
       {
         "name": "Concert Dress (Sand Girl)",
         "tab": "Concert Dress (Sand Girl)",
         "price": "91",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/sand-girl-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/sand-girl-1.webp"
       },
       {
         "name": "Clothes for a Magical Night (GS-10 Sandgirl)",
         "tab": "Clothes for a Magical Night (GS-10 Sandgirl)",
         "price": "114",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/sand-girl-2.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/sand-girl-2.webp"
       }
     ],
     "sortOrder": 35
@@ -8545,8 +8545,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/bheur.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/bheur.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/bheur.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/bheur.webp",
     "stats": {
       "hp": [
         162,
@@ -8614,21 +8614,21 @@ export const loCharacters = [
         "tab": "|rowspan",
         "price": "",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/bheur-0.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/bheur-0.webp"
       },
       {
         "name": "Vampire Costume (Bheur)",
         "tab": "|rowspan",
         "price": "114",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/bheur-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/bheur-1.webp"
       },
       {
         "name": "Modern Suit (Bheur)",
         "tab": "|rowspan",
         "price": "114",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/bheur-2.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/bheur-2.webp"
       }
     ],
     "sortOrder": 36
@@ -8942,8 +8942,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/alvis.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/alvis.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/alvis.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/alvis.webp",
     "stats": {
       "hp": [
         230,
@@ -9019,21 +9019,21 @@ export const loCharacters = [
         "tab": "|rowspan",
         "price": "",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/alvis-0.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/alvis-0.webp"
       },
       {
         "name": "Vampire Dress (Alvis)",
         "tab": "|rowspan",
         "price": "136",
         "desc": "Count Alvis only wants one thing, and that is to fill the bag she got from Valkyrie to be filled with chocolates. If you don't fight her off with chocolates, there might be bigger troubles waiting for you!",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/alvis-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/alvis-1.webp"
       },
       {
         "name": "Classic Suit (Alvis)",
         "tab": "|rowspan",
         "price": "134",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/alvis-2.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/alvis-2.webp"
       }
     ],
     "sortOrder": 37
@@ -9187,8 +9187,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/pixie.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/pixie.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/pixie.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/pixie.webp",
     "stats": {
       "hp": [
         285,
@@ -9256,14 +9256,14 @@ export const loCharacters = [
         "tab": "|rowspan",
         "price": "",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/pixie-0.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/pixie-0.webp"
       },
       {
         "name": "Christmas Outfit (T-19 Pixie)",
         "tab": "|rowspan",
         "price": "182",
         "desc": "Just what kind of advice did her loader Lion give her to make her get such an adorable outfit? If you like the clothes, don't forget the tuna cans you promised Lion as payment!",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/pixie-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/pixie-1.webp"
       }
     ],
     "sortOrder": 38
@@ -9366,8 +9366,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/kheshig.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/kheshig.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/kheshig.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/kheshig.webp",
     "stats": {
       "hp": [
         175,
@@ -9443,14 +9443,14 @@ export const loCharacters = [
         "tab": "|rowspan",
         "price": "",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/kheshig-0.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/kheshig-0.webp"
       },
       {
         "name": "A Piece of Towel (Kheshig)",
         "tab": "A Piece of Towel (Kheshig)",
         "price": "114",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/kheshig-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/kheshig-1.webp"
       }
     ],
     "sortOrder": 40
@@ -9583,8 +9583,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/khan.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/khan.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/khan.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/khan.webp",
     "stats": {
       "hp": [
         155,
@@ -9652,35 +9652,35 @@ export const loCharacters = [
         "tab": "Parade Uniform (Khan)",
         "price": "136",
         "desc": "In some countries or companies, a parade is often held to celebrate the victory of a war. Of course, this is the time to wear the dress that gets the most attention.",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/khan-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/khan-1.webp"
       },
       {
         "name": "Wedding Dress (Khan)",
         "tab": "Wedding Dress (Khan)",
         "price": "159",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/khan-2.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/khan-2.webp"
       },
       {
         "name": "Alluring Lingerie (Khan)",
         "tab": "Alluring Lingerie (Khan)",
         "price": "114",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/khan-3.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/khan-3.webp"
       },
       {
         "name": "Modified School Uniform (Khan)",
         "tab": "Modified School Uniform (Khan)",
         "price": "147",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/khan-4.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/khan-4.webp"
       },
       {
         "name": "Luxurious Fiancée Dress (Khan)",
         "tab": "Luxurious Fiancée Dress (Khan)",
         "price": "302",
         "desc": "With how many times she's raced across the vast deserts, a sports car won't be much more than a prop. Still, her presence graces the passenger seat for you, as you've probably been waiting for this very moment as much as her. She is by you side not as captain of the Anger of the Horde, but as a woman. \"Keep the wait short, and the excitement long. Even if I'd go back in time before I fell in love, I'd still choose you.\" Perhaps your true feelings have reached her?",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/khan-5.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/khan-5.webp"
       }
     ],
     "sortOrder": 41
@@ -9848,8 +9848,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/quick-camel.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/quick-camel.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/quick-camel.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/quick-camel.webp",
     "stats": {
       "hp": [
         200,
@@ -9925,14 +9925,14 @@ export const loCharacters = [
         "tab": "|rowspan",
         "price": "114",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/quick-camel-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/quick-camel-1.webp"
       },
       {
         "name": "Clothes for a New Date (Quick Camel)",
         "tab": "Clothes for a New Date (Quick Camel)",
         "price": "147",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/quick-camel-2.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/quick-camel-2.webp"
       }
     ],
     "sortOrder": 42
@@ -9963,8 +9963,8 @@ export const loCharacters = [
     "weight": "50kg",
     "equipRec": "CCOG",
     "farm": null,
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/war-wolf.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/war-wolf.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/war-wolf.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/war-wolf.webp",
     "stats": {
       "hp": [
         175,
@@ -10075,21 +10075,21 @@ export const loCharacters = [
         "tab": "Modern Captain Costume (War Wolf)",
         "price": "66",
         "desc": "After she retires, War Wolf debuts as a actress in the movie 「Caribbean's Buccaneer」. Time to feel the middle ages now!",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/war-wolf-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/war-wolf-1.webp"
       },
       {
         "name": "Overmodified Nun Dress (War Wolf)",
         "tab": "Overmodified Nun Dress (War Wolf)",
         "price": "114",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/war-wolf-2.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/war-wolf-2.webp"
       },
       {
         "name": "Queen of the Hill's Clothes (War Wolf)",
         "tab": "Queen of the Hill's Clothes (War Wolf)",
         "price": "147",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/war-wolf-3.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/war-wolf-3.webp"
       }
     ],
     "sortOrder": 43
@@ -10269,8 +10269,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/talon-feather.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/talon-feather.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/talon-feather.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/talon-feather.webp",
     "stats": {
       "hp": [
         152,
@@ -10346,21 +10346,21 @@ export const loCharacters = [
         "tab": "|rowspan",
         "price": "base",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/talon-feather-0.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/talon-feather-0.webp"
       },
       {
         "name": "Towel Sheet (Talon Feather)",
         "tab": "Towel Sheet (Talon Feather)",
         "price": "114",
         "desc": "To some, sitting in a hot spring and looking at the snow is no different than sitting in heaven. But Talon Feather is in her own heaven probably...",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/talon-feather-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/talon-feather-1.webp"
       },
       {
         "name": "Wedding Dress (Talon Feather)",
         "tab": "Wedding Dress (Talon Feather)",
         "price": "114",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/talon-feather-2.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/talon-feather-2.webp"
       }
     ],
     "sortOrder": 44
@@ -10462,8 +10462,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/frigga.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/frigga.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/frigga.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/frigga.webp",
     "stats": {
       "hp": [
         240,
@@ -10531,21 +10531,21 @@ export const loCharacters = [
         "tab": "Cowgirl Bikini (Frigga)",
         "price": "114",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/frigga-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/frigga-1.webp"
       },
       {
         "name": "Wet Hanbok (Frigga)",
         "tab": "Wet Hanbok (Frigga)",
         "price": "147",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/frigga-2.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/frigga-2.webp"
       },
       {
         "name": "Homewear for Honey (Frigga)",
         "tab": "Homewear for Honey (Frigga)",
         "price": "192",
         "desc": "It's undeniable fact that bears love honey. In the early morning, when the children are still asleep, it seems Frigga's eyes are set on you instead of the honey jars she usually goes for. \"You shouldn't play with your food~\" she says, but she seems excited to use the honey to bring joy to both your mouth and eyes.",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/frigga-3.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/frigga-3.webp"
       }
     ],
     "sortOrder": 46
@@ -10773,8 +10773,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/ajax.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/ajax.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/ajax.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/ajax.webp",
     "stats": {
       "hp": [
         230,
@@ -10850,14 +10850,14 @@ export const loCharacters = [
         "tab": "|rowspan",
         "price": "",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/ajax-0.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/ajax-0.webp"
       },
       {
         "name": "Cowgirl Bikini (Ajax)",
         "tab": "|rowspan",
         "price": "114",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/ajax-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/ajax-1.webp"
       }
     ],
     "sortOrder": 47
@@ -10890,8 +10890,8 @@ export const loCharacters = [
       ],
       "groups": []
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/eir.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/eir.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/eir.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/eir.webp",
     "stats": {
       "hp": [
         216,
@@ -10967,14 +10967,14 @@ export const loCharacters = [
         "tab": "Base",
         "price": "",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/eir-0.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/eir-0.webp"
       },
       {
         "name": "Pajamas (Eir)",
         "tab": "Pajamas (Eir)",
         "price": "[192",
         "desc": "Eir asks to be your mother even when she's accompanying you on a trip. Tonight, she says she'll be a big and comfy teddy bear. She's gone through all this trouble, so ... it would only be right to hop into her bosom without hesitation, don't you think?",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/eir-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/eir-1.webp"
       }
     ],
     "sortOrder": 49
@@ -11032,8 +11032,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/alcyone.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/alcyone.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/alcyone.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/alcyone.webp",
     "stats": {
       "hp": [
         270,
@@ -11101,14 +11101,14 @@ export const loCharacters = [
         "tab": "Figure Skating Costume (Alcyone)",
         "price": "147",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/alcyone-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/alcyone-1.webp"
       },
       {
         "name": "See-through Dress (Alcyone)",
         "tab": "See-through Dress (Alcyone)",
         "price": "262",
         "desc": "Going back to the beach, her painful memories seem to have been washed away with the foam of the waves. Her smile, as radiant as the sun itself, will surely become a beautiful memory that will stay with you forever, wouldn't you agree? Forget the complexities of your everyday life for a while, and show each other your true feelings. After all, she probably wants to move on to what comes after a princess carry.",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/alcyone-2.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/alcyone-2.webp"
       }
     ],
     "sortOrder": 50
@@ -11235,8 +11235,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/may.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/may.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/may.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/may.webp",
     "stats": {
       "hp": [
         186,
@@ -11304,28 +11304,28 @@ export const loCharacters = [
         "tab": "May's Sweater",
         "price": "80",
         "desc": "May's sending you her passionate love. Will you accept her passionate love?",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/may-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/may-1.webp"
       },
       {
         "name": "Atomic Sexy Swimsuit (May)",
         "tab": "Atomic Sexy Swimsuit (May)",
         "price": "182",
         "desc": "May knows how to utilize her \"weapons\". Can she appeal her nuclear-fusion level of Charisma with this swimsuit?",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/may-2.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/may-2.webp"
       },
       {
         "name": "Wedding Dress (May)",
         "tab": "Wedding Dress (May)",
         "price": "159",
         "desc": "With the encouragement from Audrey who made this dress, May walks very slowly. No matter how many times she read those romancing novels she borrowed from Harpyia, and how many encouraging words she received from her teammates, the moment she saw you, it's all gone. Will May be honest to herself this time...",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/may-3.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/may-3.webp"
       },
       {
         "name": "See-through Blouse (May)",
         "tab": "See-through Blouse (May)",
         "price": "265",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/may-4.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/may-4.webp"
       }
     ],
     "sortOrder": 51
@@ -11518,8 +11518,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/night-angel.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/night-angel.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/night-angel.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/night-angel.webp",
     "stats": {
       "hp": [
         160,
@@ -11595,28 +11595,28 @@ export const loCharacters = [
         "tab": "|rowspan",
         "price": "1",
         "desc": "Well... Everyone can at least dream freely.",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/night-angel-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/night-angel-1.webp"
       },
       {
         "name": "Night Angel's Racing Swimsuit",
         "tab": "Night Angel's Racing Swimsuit",
         "price": "159",
         "desc": "「Commander will finally understand my beauty!」-- Talking about having a blind spot. The perfect example of how to hide something in plain daylight.",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/night-angel-2.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/night-angel-2.webp"
       },
       {
         "name": "Gothic Stage Costume (Night Angel)",
         "tab": "Gothic Stage Costume (Night Angel)",
         "price": "242",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/night-angel-3.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/night-angel-3.webp"
       },
       {
         "name": "Bunnygirl Costume (B-11 Night Angel)",
         "tab": "Bunnygirl Costume (B-11 Night Angel)",
         "price": "182",
         "desc": "They say to hide a tree in the forest, but sometimes a single tree in the middle of a barren plain can be more impressive than an entire jungle. She's taking the plunge after you asked, so praise her lots. You know very well ... that looks aren't everything, don't you?",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/night-angel-4.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/night-angel-4.webp"
       }
     ],
     "sortOrder": 52
@@ -11947,8 +11947,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/daika.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/daika.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/daika.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/daika.webp",
     "stats": {
       "hp": [
         181,
@@ -12024,7 +12024,7 @@ export const loCharacters = [
         "tab": "|rowspan",
         "price": "91",
         "desc": "She's always waiting for the sweet first night after the wedding.",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/daika-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/daika-1.webp"
       }
     ],
     "sortOrder": 53
@@ -12055,8 +12055,8 @@ export const loCharacters = [
     "weight": "55kg",
     "equipRec": "CCOG",
     "farm": null,
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/djinnia.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/djinnia.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/djinnia.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/djinnia.webp",
     "stats": {
       "hp": [
         158,
@@ -12132,21 +12132,21 @@ export const loCharacters = [
         "tab": "Base",
         "price": "",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/djinnia-0.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/djinnia-0.webp"
       },
       {
         "name": "Farm Overall (Djinnia)",
         "tab": "Farm Overall (Djinnia)",
         "price": "114",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/djinnia-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/djinnia-1.webp"
       },
       {
         "name": "Vacation Swimsuit (Djinnia)",
         "tab": "Vacation Swimsuit (Djinnia)",
         "price": "192",
         "desc": "The season has come when fruits ripen. But under the searing rays of the sun, Djinnia is also feeling the heat on her exposed skin ...!",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/djinnia-2.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/djinnia-2.webp"
       }
     ],
     "sortOrder": 54
@@ -12399,8 +12399,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/sylphid.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/sylphid.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/sylphid.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/sylphid.webp",
     "stats": {
       "hp": [
         140,
@@ -12476,14 +12476,14 @@ export const loCharacters = [
         "tab": "| rowspan",
         "price": "base",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/sylphid-0.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/sylphid-0.webp"
       },
       {
         "name": "Super! Hip Outfit (Sylphid)",
         "tab": "|rowspan",
         "price": "114",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/sylphid-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/sylphid-1.webp"
       }
     ],
     "sortOrder": 55
@@ -12783,8 +12783,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/banshee.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/banshee.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/banshee.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/banshee.webp",
     "stats": {
       "hp": [
         178,
@@ -12860,14 +12860,14 @@ export const loCharacters = [
         "tab": "|rowspan",
         "price": "114",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/banshee-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/banshee-1.webp"
       },
       {
         "name": "Manager Uniform (Banshee)",
         "tab": "|rowspan",
         "price": "192",
         "desc": "Banshee helped out in the cafeteria sometimes at Sowan's request, and now she's received a manager uniform and is helping more actively after her Gourmet Club activities. The cafeteria's newest item, the Tuna Burger! You've got to try it out, right? One nutritious and affordable Tuna Burger set, thank you! Oh wait, the most important part is missing: the smile!",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/banshee-2.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/banshee-2.webp"
       }
     ],
     "sortOrder": 56
@@ -13002,8 +13002,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/strato-angel.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/strato-angel.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/strato-angel.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/strato-angel.webp",
     "stats": {
       "hp": [
         140,
@@ -13071,14 +13071,14 @@ export const loCharacters = [
         "tab": "Barely-fit Bunny Girl Costume (Strato Angel)",
         "price": "114",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/strato-angel-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/strato-angel-1.webp"
       },
       {
         "name": "Just-the-right-size Swimsuit (Strato Angel)",
         "tab": "Just-the-right-size Swimsuit (Strato Angel)",
         "price": "114",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/strato-angel-2.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/strato-angel-2.webp"
       }
     ],
     "sortOrder": 57
@@ -13155,8 +13155,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/royal-arsenal.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/royal-arsenal.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/royal-arsenal.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/royal-arsenal.webp",
     "stats": {
       "hp": [
         228,
@@ -13224,28 +13224,28 @@ export const loCharacters = [
         "tab": "|rowspan",
         "price": "",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/royal-arsenal-0.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/royal-arsenal-0.webp"
       },
       {
         "name": "Wedding Dress (Royal Arsenal)",
         "tab": "Wedding Dress (Royal Arsenal)",
         "price": "205",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/royal-arsenal-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/royal-arsenal-1.webp"
       },
       {
         "name": "Bunny Girl Costume (Royal Arsenal)",
         "tab": "Bunny Girl Costume (Royal Arsenal)",
         "price": "196",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/royal-arsenal-2.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/royal-arsenal-2.webp"
       },
       {
         "name": "Tape Bikini (Royal Arsenal)",
         "tab": "Tape Bikini (Royal Arsenal)",
         "price": "147",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/royal-arsenal-3.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/royal-arsenal-3.webp"
       }
     ],
     "sortOrder": 60
@@ -13347,8 +13347,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/bloody-panther.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/bloody-panther.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/bloody-panther.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/bloody-panther.webp",
     "stats": {
       "hp": [
         265,
@@ -13451,14 +13451,14 @@ export const loCharacters = [
         "tab": "|rowspan",
         "price": "base",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/bloody-panther-0.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/bloody-panther-0.webp"
       },
       {
         "name": "See-through Bikini (Bloody Panther)",
         "tab": "See-through Bikini (Bloody Panther)",
         "price": "205",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/bloody-panther-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/bloody-panther-1.webp"
       }
     ],
     "sortOrder": 61
@@ -13602,8 +13602,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/calista.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/calista.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/calista.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/calista.webp",
     "stats": {
       "hp": [
         238,
@@ -13671,7 +13671,7 @@ export const loCharacters = [
         "tab": "| rowspan",
         "price": "114",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/calista-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/calista-1.webp"
       }
     ],
     "sortOrder": 62
@@ -13723,8 +13723,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/nashorn.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/nashorn.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/nashorn.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/nashorn.webp",
     "stats": {
       "hp": [
         220,
@@ -13827,7 +13827,7 @@ export const loCharacters = [
         "tab": "Summer Uniform? (Nashorn)",
         "price": "147",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/nashorn-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/nashorn-1.webp"
       }
     ],
     "sortOrder": 63
@@ -14119,8 +14119,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/io.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/io.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/io.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/io.webp",
     "stats": {
       "hp": [
         214,
@@ -14203,14 +14203,14 @@ export const loCharacters = [
         "tab": "|rowspan",
         "price": "91",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/io-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/io-1.webp"
       },
       {
         "name": "Bathrobe (Io)",
         "tab": "|rowspan",
         "price": "182",
         "desc": "After hearing rumors that bathing in Elven Milk does wonders for your skin, the shy and timid Io would sneak to the baths in the dead of night to enjoy her little secret alone. At least, until Ignis' customer list was revealed. \"What could she be doing with all that milk?\" Curious, you end up paying her a visit.",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/io-2.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/io-2.webp"
       }
     ],
     "sortOrder": 65
@@ -14484,8 +14484,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/spriggan.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/spriggan.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/spriggan.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/spriggan.webp",
     "stats": {
       "hp": [
         208,
@@ -14561,21 +14561,21 @@ export const loCharacters = [
         "tab": "| rowspan",
         "price": "",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/spriggan-0.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/spriggan-0.webp"
       },
       {
         "name": "Reporter's Swimsuit (Spriggan)",
         "tab": "|rowspan",
         "price": "136",
         "desc": "This is reporter Spriggan, I'm currently at the scene of seaside vacation! It is much hotter than I expected. And let's take a sneaky peek at commander's private... Don't worry, this is a secret broadcast!",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/spriggan-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/spriggan-1.webp"
       },
       {
         "name": "Summer Uniform (Spriggan)",
         "tab": "|rowspan",
         "price": "182",
         "desc": "The importance of girls' friendship is second only to the Commander! She may be seen as the least noteworthy among all of the memorable trendsetters, but with a keen sense for all the hottest fads, she's an essential part of the so-called 'influenroids' group. How about you join in and express your feelings to her with some special holographic stickers?",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/spriggan-2.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/spriggan-2.webp"
       }
     ],
     "sortOrder": 66
@@ -14710,8 +14710,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/beast-hunter.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/beast-hunter.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/beast-hunter.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/beast-hunter.webp",
     "stats": {
       "hp": [
         210,
@@ -14787,14 +14787,14 @@ export const loCharacters = [
         "tab": "Deep Sea Hunting Suit (Beast Hunter)",
         "price": "80",
         "desc": "Beast Hunter is also wanted in the Horizon faction. Some of the Beast Hunters responded to this request, and worked with them to eliminate the enemies who can dive.",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/beast-hunter-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/beast-hunter-1.webp"
       },
       {
         "name": "Date Outfit (Beast Hunter)",
         "tab": "Date Outfit (Beast Hunter)",
         "price": "167",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/beast-hunter-2.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/beast-hunter-2.webp"
       }
     ],
     "sortOrder": 67
@@ -14900,8 +14900,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/emily.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/emily.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/emily.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/emily.webp",
     "stats": {
       "hp": [
         199,
@@ -15004,14 +15004,14 @@ export const loCharacters = [
         "tab": "New Student School Uniform (Emily)",
         "price": "91",
         "desc": "When she's gone for school, many things happened back in home...",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/emily-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/emily-1.webp"
       },
       {
         "name": "Frill Bikini (X-05 Emily)",
         "tab": "Frill Bikini (X-05 Emily)",
         "price": "182",
         "desc": "\"Commander ... isn't the Orca 1 also a kind of aquarium?\"<br />Don't look so lost. It would be best to think of a good answer before asking why Emily decided to wear such an adorable outfit.",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/emily-2.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/emily-2.webp"
       }
     ],
     "sortOrder": 68
@@ -15267,8 +15267,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/pani.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/pani.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/pani.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/pani.webp",
     "stats": {
       "hp": [
         206,
@@ -15344,14 +15344,14 @@ export const loCharacters = [
         "tab": "| rowspan",
         "price": "",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/pani-0.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/pani-0.webp"
       },
       {
         "name": "Rash Guard (Pani)",
         "tab": "|rowspan",
         "price": "114",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/pani-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/pani-1.webp"
       }
     ],
     "sortOrder": 69
@@ -15658,8 +15658,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/raven.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/raven.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/raven.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/raven.webp",
     "stats": {
       "hp": [
         168,
@@ -15735,14 +15735,14 @@ export const loCharacters = [
         "tab": "|rowspan",
         "price": "",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/raven-0.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/raven-0.webp"
       },
       {
         "name": "Succubus Outfit (Raven)",
         "tab": "|rowspan",
         "price": "114",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/raven-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/raven-1.webp"
       }
     ],
     "sortOrder": 70
@@ -15847,8 +15847,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/neodym.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/neodym.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/neodym.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/neodym.webp",
     "stats": {
       "hp": [
         138,
@@ -15916,21 +15916,21 @@ export const loCharacters = [
         "tab": "Ghost-like Lingerie (Neodym)",
         "price": "159",
         "desc": "Neodym leaned the \"traditions\" of Halloween from Brownie and her friends, and she decided to do it too. What trick will the ghost type Neodym pull off?",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/neodym-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/neodym-1.webp"
       },
       {
         "name": "Crew Uniform (Neodym)",
         "tab": "Crew Uniform (Neodym)",
         "price": "134",
         "desc": "As the only passenger on this flight, all of the service provided will be complementary. So how about a glass of champagne with our flight attendant Neodym?",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/neodym-2.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/neodym-2.webp"
       },
       {
         "name": "Phantom Thief's Outfit (Neodym)",
         "tab": "Phantom Thief's Outfit (Neodym)",
         "price": "147",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/neodym-3.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/neodym-3.webp"
       }
     ],
     "sortOrder": 71
@@ -16029,8 +16029,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/shade.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/shade.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/shade.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/shade.webp",
     "stats": {
       "hp": [
         229,
@@ -16106,14 +16106,14 @@ export const loCharacters = [
         "tab": "Base",
         "price": "",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/shade-0.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/shade-0.webp"
       },
       {
         "name": "Grim Reaper Model (Shade)",
         "tab": "Grim Reaper Model (Shade)",
         "price": "159",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/shade-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/shade-1.webp"
       }
     ],
     "sortOrder": 72
@@ -16282,8 +16282,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/phantom.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/phantom.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/phantom.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/phantom.webp",
     "stats": {
       "hp": [
         155,
@@ -16394,14 +16394,14 @@ export const loCharacters = [
         "tab": "Upgraded Suit (Phantom)",
         "price": "SS",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/phantom-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/phantom-1.webp"
       },
       {
         "name": "Formal Magical Girl Outfit (Phantom)",
         "tab": "Formal Magical Girl Outfit (Phantom)",
         "price": "114",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/phantom-2.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/phantom-2.webp"
       }
     ],
     "sortOrder": 73
@@ -16492,8 +16492,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/echidna.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/echidna.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/echidna.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/echidna.webp",
     "stats": {
       "hp": [
         250,
@@ -16561,28 +16561,28 @@ export const loCharacters = [
         "tab": "Base",
         "price": "base",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/echidna-0.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/echidna-0.webp"
       },
       {
         "name": "Ribbon Dress (Echidna)",
         "tab": "Ribbon Dress (Echidna)",
         "price": "159",
         "desc": "The only chance that comes yearly, Echidna can choose whatever she likes to wear. Time to untie that ribbon!",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/echidna-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/echidna-1.webp"
       },
       {
         "name": "Wedding Dress (Echidna)",
         "tab": "Wedding Dress (Echidna)",
         "price": "182",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/echidna-2.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/echidna-2.webp"
       },
       {
         "name": "T-shirt and Dolphin Shorts (Echidna)",
         "tab": "T-shirt and Dolphin Shorts (Echidna)",
         "price": "114",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/echidna-3.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/echidna-3.webp"
       }
     ],
     "sortOrder": 74
@@ -16609,8 +16609,8 @@ export const loCharacters = [
     "weight": "61kg",
     "equipRec": "CCOG",
     "farm": null,
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/wraithy.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/wraithy.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/wraithy.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/wraithy.webp",
     "stats": {
       "hp": [
         139,
@@ -16686,21 +16686,21 @@ export const loCharacters = [
         "tab": "Base",
         "price": "",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/wraithy-0.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/wraithy-0.webp"
       },
       {
         "name": "Night Lingerie (Wraithy)",
         "tab": "Night Lingerie (Wraithy)",
         "price": "114",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/wraithy-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/wraithy-1.webp"
       },
       {
         "name": "Gift Set Including Wraithy (Wraithy)",
         "tab": "Gift Set Including Wraithy (Wraithy)",
         "price": "114",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/wraithy-2.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/wraithy-2.webp"
       }
     ],
     "sortOrder": 75
@@ -16794,8 +16794,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/doctor.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/doctor.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/doctor.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/doctor.webp",
     "stats": {
       "hp": [
         270,
@@ -16863,21 +16863,21 @@ export const loCharacters = [
         "tab": "Suspicious Potion (Doctor)",
         "price": "159",
         "desc": "After drinking the suspicious potion, Doctor became bigger, sexier, stronger. Can Doctor achieve her goal?",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/doctor-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/doctor-1.webp"
       },
       {
         "name": "Relentless Villain's Mask (Doctor)",
         "tab": "Relentless Villain's Mask (Doctor)",
         "price": "",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/doctor-2.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/doctor-2.webp"
       },
       {
         "name": "Summer Swimsuit (Doctor)",
         "tab": "Summer Swimsuit (Doctor)",
         "price": "192",
         "desc": "Doctor wants to stop being treated as a child. She takes her growth serum, aiming for a passionate night with you in her adult body. You'll help her with her frustration, won't you?",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/doctor-3.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/doctor-3.webp"
       }
     ],
     "sortOrder": 76
@@ -17225,8 +17225,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/amy.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/amy.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/amy.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/amy.webp",
     "stats": {
       "hp": [
         154,
@@ -17302,14 +17302,14 @@ export const loCharacters = [
         "tab": "|rowspan",
         "price": "46",
         "desc": "The suit Amy wears when things escalate quickly. But some people say that this suit is more seducing...",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/amy-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/amy-1.webp"
       },
       {
         "name": "Wedding Dress (Amy)",
         "tab": "|rowspan",
         "price": "91",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/amy-2.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/amy-2.webp"
       }
     ],
     "sortOrder": 77
@@ -17336,8 +17336,8 @@ export const loCharacters = [
     "weight": "46.5kg",
     "equipRec": "CCOG",
     "farm": null,
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/tomo.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/tomo.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/tomo.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/tomo.webp",
     "stats": {
       "hp": [
         163,
@@ -17448,21 +17448,21 @@ export const loCharacters = [
         "tab": "Student's Socks (Tomo)",
         "price": "[[Sub Story]]",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/tomo-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/tomo-1.webp"
       },
       {
         "name": "Gymnastics Suit (Tomo)",
         "tab": "Gymnastics Suit (Tomo)",
         "price": "34",
         "desc": "Tomo chose Rhythmic gymnastics for her club activities. Well you know, the rules themselves are not that hard...",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/tomo-2.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/tomo-2.webp"
       },
       {
         "name": "Infiltration Suit (Tomo)",
         "tab": "Infiltration Suit (Tomo)",
         "price": "147",
         "desc": "No use arguing! Beauties die young! The best elite agent of 080, the genius Tomo has become a super spy to try carrying out an infiltration mission! But ... why is she packing so many explosives for the mission?",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/tomo-3.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/tomo-3.webp"
       }
     ],
     "sortOrder": 78
@@ -17555,8 +17555,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/shirayuri.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/shirayuri.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/shirayuri.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/shirayuri.webp",
     "stats": {
       "hp": [
         170,
@@ -17624,14 +17624,14 @@ export const loCharacters = [
         "tab": "Miko Clothes (Shirayuri)",
         "price": "136",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/shirayuri-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/shirayuri-1.webp"
       },
       {
         "name": "Infiltration Suit (Shirayuri)",
         "tab": "Infiltration Suit (Shirayuri)",
         "price": "159",
         "desc": "At times, Shirayuri takes on infiltration mission herself. There's no reason for her to do it in Orca? ...Are you sure about that?",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/shirayuri-2.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/shirayuri-2.webp"
       }
     ],
     "sortOrder": 79
@@ -17758,8 +17758,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/hongryeon.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/hongryeon.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/hongryeon.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/hongryeon.webp",
     "stats": {
       "hp": [
         167,
@@ -17827,35 +17827,35 @@ export const loCharacters = [
         "tab": "|rowspan",
         "price": "",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/hongryeon-0.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/hongryeon-0.webp"
       },
       {
         "name": "Wedding Dress (HongRyeon)",
         "tab": "Wedding Dress (HongRyeon)",
         "price": "159",
         "desc": "A good dress can change the emotion of whoever is wearing it. When HongRyeon wears this dress, the rational side of her is gone and her face is steaming. And... just don't ask her about her feelings.",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/hongryeon-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/hongryeon-1.webp"
       },
       {
         "name": "Sleevelss One-piece Dress (HongRyeon)",
         "tab": "Sleevelss One-piece Dress (HongRyeon)",
         "price": "159",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/hongryeon-2.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/hongryeon-2.webp"
       },
       {
         "name": "Hound's Clothes (JangHwa)",
         "tab": "Hound's Clothes (JangHwa)",
         "price": "114",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/hongryeon-3.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/hongryeon-3.webp"
       },
       {
         "name": "Jazz Party Dress (HongRyeon)",
         "tab": "Jazz Party Dress (HongRyeon)",
         "price": "257",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/hongryeon-4.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/hongryeon-4.webp"
       }
     ],
     "sortOrder": 80
@@ -18237,8 +18237,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/steel-draco.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/steel-draco.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/steel-draco.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/steel-draco.webp",
     "stats": {
       "hp": [
         254,
@@ -18314,14 +18314,14 @@ export const loCharacters = [
         "tab": "|rowspan",
         "price": "91",
         "desc": "Even for Mongoose team, there are still indoor duties waiting for them. Of course, since it's a duty, so uniforms are required. Steel Draco seems to be happy about this dress that can appeal her intelegent side...",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/steel-draco-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/steel-draco-1.webp"
       },
       {
         "name": "Date Clothes, a Shield and a Shotgun (Draco)",
         "tab": "|rowspan",
         "price": "114",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/steel-draco-2.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/steel-draco-2.webp"
       }
     ],
     "sortOrder": 81
@@ -18700,8 +18700,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/miho.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/miho.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/miho.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/miho.webp",
     "stats": {
       "hp": [
         146,
@@ -18777,28 +18777,28 @@ export const loCharacters = [
         "tab": "|rowspan",
         "price": "46",
         "desc": "Miho is melting her favourite chocolate to make a present. Who will she send her true-love chocolate to?",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/miho-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/miho-1.webp"
       },
       {
         "name": "Wedding Dress (Miho)",
         "tab": "|rowspan",
         "price": "114",
         "desc": "Despite her pumping heart and tears about to come out, Miho is still trying to pull off a joke on you like she always does. You've been with her for so long, you understand that she's one step away from being honest to herself. Please, be Miho's First love and her Last love.",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/miho-2.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/miho-2.webp"
       },
       {
         "name": "Gumiho Costume (Miho)",
         "tab": "|rowspan",
         "price": "91",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/miho-3.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/miho-3.webp"
       },
       {
         "name": "Vacation Swimsuit (Miho)",
         "tab": "|rowspan",
         "price": "192",
         "desc": "Miho seems somewhat annoyed, after all the lengths she went to with her daring cosplay. This time, she's determined to keep your wandering heart with clothes that bring out her charm the most. You aren't sure if it's her relentless advances or the searing heat of the sun, but you just can't seem to stop sweating.",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/miho-4.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/miho-4.webp"
       }
     ],
     "sortOrder": 82
@@ -19179,8 +19179,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/pinto.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/pinto.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/pinto.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/pinto.webp",
     "stats": {
       "hp": [
         178,
@@ -19291,14 +19291,14 @@ export const loCharacters = [
         "tab": "|rowspan",
         "price": "46",
         "desc": "Blue sky! Colorful Aerobatics! And the clothing is perfect!",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/pinto-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/pinto-1.webp"
       },
       {
         "name": "Special Operation's Uniform (Pinto)",
         "tab": "|rowspan",
         "price": "SS",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/pinto-2.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/pinto-2.webp"
       }
     ],
     "sortOrder": 83
@@ -19492,8 +19492,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/bulgasari.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/bulgasari.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/bulgasari.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/bulgasari.webp",
     "stats": {
       "hp": [
         245,
@@ -19604,14 +19604,14 @@ export const loCharacters = [
         "tab": "Open Back Sweater (Bulgasari)",
         "price": "136",
         "desc": "For Mongoose team, since they don't have a fixed schedule for duty so they focus on resting whenever possible. When they do so, everyone just wears super casual clothing.",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/bulgasari-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/bulgasari-1.webp"
       },
       {
         "name": "Golden Workers Workwear (Bulgasari)",
         "tab": "Golden Workers Workwear (Bulgasari)",
         "price": "114",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/bulgasari-2.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/bulgasari-2.webp"
       }
     ],
     "sortOrder": 84
@@ -19653,8 +19653,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/invincible-dragon.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/invincible-dragon.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/invincible-dragon.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/invincible-dragon.webp",
     "stats": {
       "hp": [
         212,
@@ -19757,28 +19757,28 @@ export const loCharacters = [
         "tab": "Exclusive Fur Coat (Invincible Dragon)",
         "price": "136",
         "desc": "While spreading her power of darkness across the VR world, the Invincible Dragon has faced an unknown issue while loading its outfit data, which drove her to put on a random fur coat from a nearby shop. And Audrey, as one with an eye for fashion, has decided to remake this spectacular moment.",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/invincible-dragon-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/invincible-dragon-1.webp"
       },
       {
         "name": "Sailor Dress (Invincible Dragon)",
         "tab": "Sailor Dress (Invincible Dragon)",
         "price": "159",
         "desc": "ou have accomplished something no other man has ever dared to. Who would have imagined that the so called unbeatable Bioroid would wear something like this, just because you asked her? She might even wear something else, if you convince her enough.",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/invincible-dragon-2.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/invincible-dragon-2.webp"
       },
       {
         "name": "Maid-style Swimsuit (Invincible Dragon)",
         "tab": "Maid-style Swimsuit (Invincible Dragon)",
         "price": "114",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/invincible-dragon-3.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/invincible-dragon-3.webp"
       },
       {
         "name": "Poseidon Uniform (Invincible Dragon)",
         "tab": "Poseidon Uniform (Invincible Dragon)",
         "price": "147",
         "desc": "What if Invincible Dragon belonged to Poseidon Industries? Why, she would have become the living embodiment of war, an undefeated admiral that would go down in legends! But don't worry too much. She may be wearing the Poseidon uniform, but her feelings for you will probably remain the same.",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/invincible-dragon-4.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/invincible-dragon-4.webp"
       }
     ],
     "sortOrder": 85
@@ -19924,8 +19924,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/nereid.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/nereid.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/nereid.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/nereid.webp",
     "stats": {
       "hp": [
         220,
@@ -20001,21 +20001,21 @@ export const loCharacters = [
         "tab": "| rowspan",
         "price": "",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/nereid-0.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/nereid-0.webp"
       },
       {
         "name": "Nerineri's Summer (Nereid)",
         "tab": "Nerineri's Summer (Nereid)",
         "price": "159",
         "desc": "Such a powerful item for a sea fairy? There's no one that can stop Neri-teddie from having fun on the beach this summer! ...Oh! Neri is running towards you.",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/nereid-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/nereid-1.webp"
       },
       {
         "name": "Maid Style Swimsuit (Nereid)",
         "tab": "Maid Style Swimsuit (Nereid)",
         "price": "114",
         "desc": "Neri said, \"This is too revealing…\" and Undine is supporting her on the side. Looking back, it seems as if Neri had never worn anything like this to appeal to you before. While twisting and wriggling her embarrassed body, Neri sticks out a print handout. Let's help Neri to regain her courage and return to her cheerful old self!​",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/nereid-2.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/nereid-2.webp"
       }
     ],
     "sortOrder": 87
@@ -20189,8 +20189,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/undine.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/undine.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/undine.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/undine.webp",
     "stats": {
       "hp": [
         184,
@@ -20266,14 +20266,14 @@ export const loCharacters = [
         "tab": "|rowspan",
         "price": "136",
         "desc": "The cheese cake Undine told you to taste was not that good again, but Undine just won't give up. Please pretend that you can't see her steaming face and dripping sweat.",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/undine-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/undine-1.webp"
       },
       {
         "name": "Maid Style Swimsuit (Undine)",
         "tab": "Maid Style Swimsuit (Undine)",
         "price": "136",
         "desc": "Undine was offering a delicious dessert she made. We should pretend that we don't know about how many sleepless nights she spent in learning this, right? Oh, and ask her if you want to \"taste it in a different way\". Undine is soft hearted and can't refuse if you insist.​",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/undine-2.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/undine-2.webp"
       }
     ],
     "sortOrder": 88
@@ -20383,8 +20383,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/sirene.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/sirene.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/sirene.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/sirene.webp",
     "stats": {
       "hp": [
         244,
@@ -20487,14 +20487,14 @@ export const loCharacters = [
         "tab": "Cute Dress (Sirene)",
         "price": "182",
         "desc": "As the Executive officer of Horizon, her responsibilities are huge. However, when she's with you, she's just a little girl who's fallen in love with someone. Please create some unforgettable memories for Sirene.",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/sirene-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/sirene-1.webp"
       },
       {
         "name": "Maid Style Swimsuit (Sirene)",
         "tab": "Maid Style Swimsuit (Sirene)",
         "price": "136",
         "desc": "Sirene has decided to give up the Lieutenant position and become the Maid for you, together with other Horizon team members. She is wearing very skimpy maid dress, but because she so so focused on her work, she doesn't seem to be embarrassed. Sirene is performing very well at her duties while looking at you. But… it seems like her cheeks are starting to blush…?​",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/sirene-2.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/sirene-2.webp"
       }
     ],
     "sortOrder": 89
@@ -20643,8 +20643,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/thetis.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/thetis.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/thetis.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/thetis.webp",
     "stats": {
       "hp": [
         148,
@@ -20720,14 +20720,14 @@ export const loCharacters = [
         "tab": "Little Devil's Miasma (Thetis)",
         "price": "182",
         "desc": "Not having received any swimsuit for herself, Thetis has asked Audrey for an oufit that could teach the Commander a good lesson. Could this small and adorable devil make your heart pound?",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/thetis-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/thetis-1.webp"
       },
       {
         "name": "Maid Style Swimsuit (Thetis)",
         "tab": "Maid Style Swimsuit (Thetis)",
         "price": "114",
         "desc": "Cafe Horizon is now open! Ah, Thetis is bringing the menu. The menu seems a bit strange but why don't we listen to what she has to say before we call the manager or tell her off?",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/thetis-2.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/thetis-2.webp"
       }
     ],
     "sortOrder": 90
@@ -20836,8 +20836,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/sleipnir.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/sleipnir.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/sleipnir.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/sleipnir.webp",
     "stats": {
       "hp": [
         182,
@@ -20905,28 +20905,28 @@ export const loCharacters = [
         "tab": "Concert Outfit (Sleipnir)",
         "price": "91",
         "desc": "Tickets will sold-out any moment! The 100 Mach shockwave will shock you!",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/sleipnir-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/sleipnir-1.webp"
       },
       {
         "name": "Striped Swimsuit (Sleipnir)",
         "tab": "Striped Swimsuit (Sleipnir)",
         "price": "182",
         "desc": "As long as the swimsuit doesn't fall off when she's flying it's ok... It should be ok?",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/sleipnir-2.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/sleipnir-2.webp"
       },
       {
         "name": "Idol Costume (Sleipnir)",
         "tab": "Idol Costume (Sleipnir)",
         "price": "242",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/sleipnir-3.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/sleipnir-3.webp"
       },
       {
         "name": "Swallow Hood (Sleipnir)",
         "tab": "Swallow Hood (Sleipnir)",
         "price": "4",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/sleipnir-4.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/sleipnir-4.webp"
       }
     ],
     "sortOrder": 91
@@ -21198,8 +21198,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/griffon.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/griffon.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/griffon.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/griffon.webp",
     "stats": {
       "hp": [
         136,
@@ -21275,28 +21275,28 @@ export const loCharacters = [
         "tab": "|rowspan",
         "price": "[[Sub Story]]",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/griffon-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/griffon-1.webp"
       },
       {
         "name": "Anniversary Uniform (Griffon)",
         "tab": "|rowspan",
         "price": "34",
         "desc": "The formal uniform of Griffon's producing country. Griffon wears this uniform when she needs to change the guard with the soldiers. Sometimes, political concerns are necessary.",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/griffon-2.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/griffon-2.webp"
       },
       {
         "name": "Idol Costume (Griffon)",
         "tab": "|rowspan",
         "price": "196",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/griffon-3.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/griffon-3.webp"
       },
       {
         "name": "Party Dress (Griffon)",
         "tab": "|rowspan",
         "price": "182",
         "desc": "The Orca has changed a lot since you joined. It would take an eternity to explain all the differences, but one thing is certain; Griffon has become more honest.",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/griffon-4.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/griffon-4.webp"
       }
     ],
     "sortOrder": 92
@@ -21415,8 +21415,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/harpyia.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/harpyia.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/harpyia.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/harpyia.webp",
     "stats": {
       "hp": [
         163,
@@ -21484,28 +21484,28 @@ export const loCharacters = [
         "tab": "|rowspan",
         "price": "",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/harpyia-0.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/harpyia-0.webp"
       },
       {
         "name": "US Style Bikini (Harpyia)",
         "tab": "|rowspan",
         "price": "159",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/harpyia-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/harpyia-1.webp"
       },
       {
         "name": "Idol Costume (Harpyia)",
         "tab": "|rowspan",
         "price": "242",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/harpyia-2.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/harpyia-2.webp"
       },
       {
         "name": "Cheerleader Outfit (Harpyia)",
         "tab": "Cheerleader Outfit (Harpyia)",
         "price": "192",
         "desc": "One day, a novel that Harpyia happened to read created an incredible shockwave. The novel begins with a girl, uninterested in anything but reading, falling for the captain of the school's football team. She transforms herself into an entirely different person to earn his heart, and is eventually successful, with the two of them becoming the most famous couple in the school - a generic third-rate teenage romance. But Harpyia was moved by the protagonist's drive to change herself for love, and with Carolina's help she has become a proper cheerleader that she dreamt of!",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/harpyia-3.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/harpyia-3.webp"
       }
     ],
     "sortOrder": 93
@@ -21570,8 +21570,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/uroborus.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/uroborus.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/uroborus.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/uroborus.webp",
     "stats": {
       "hp": [
         147,
@@ -21639,14 +21639,14 @@ export const loCharacters = [
         "tab": "Base",
         "price": "",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/uroborus-0.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/uroborus-0.webp"
       },
       {
         "name": "Instructor Uniform (Uroboros)",
         "tab": "Instructor Uniform (Uroboros)",
         "price": "192",
         "desc": "Her skills? In the past, she was called the Black Viper of the Battlefield. One look at the teamwork and strength of the Sky Knights she trained with her gentle charisma allows you a glimpse of what that name meant. Her wisdom, gained from infinite cycles, will be a weapon more potent than any venom. Now, her personal lessons for you will begin at any moment, so pay attention!",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/uroborus-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/uroborus-1.webp"
       }
     ],
     "sortOrder": 94
@@ -21790,8 +21790,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/blackhound.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/blackhound.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/blackhound.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/blackhound.webp",
     "stats": {
       "hp": [
         193,
@@ -21859,14 +21859,14 @@ export const loCharacters = [
         "tab": "|rowspan",
         "price": "114",
         "desc": "Blackhound made this uniform by herself just for that special person. Although she's late for a little bit, she's cute when she wears it and that's ok.",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/blackhound-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/blackhound-1.webp"
       },
       {
         "name": "Idol Costume (Blackhound)",
         "tab": "Idol Costume (Blackhound)",
         "price": "219",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/blackhound-2.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/blackhound-2.webp"
       }
     ],
     "sortOrder": 95
@@ -22111,8 +22111,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/lindwurm.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/lindwurm.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/lindwurm.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/lindwurm.webp",
     "stats": {
       "hp": [
         162,
@@ -22188,21 +22188,21 @@ export const loCharacters = [
         "tab": "|rowspan",
         "price": "136",
         "desc": "She's not intentionally being a bad girl, but she's seducing the teachers anyways. The hall monitor Armand who saw that just gets more things to deal with.",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/lindwurm-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/lindwurm-1.webp"
       },
       {
         "name": "Idol Costume (Lindwurm)",
         "tab": "|rowspan",
         "price": "196",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/lindwurm-2.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/lindwurm-2.webp"
       },
       {
         "name": "Qipao (Lindwurm)",
         "tab": "|rowspan",
         "price": "182",
         "desc": "Lindy's sending you messages with numbers again, and just like black and white, it seems her world is only in two colors - cute or not cute! Is it even possible not to love her?",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/lindwurm-3.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/lindwurm-3.webp"
       }
     ],
     "sortOrder": 96
@@ -22300,8 +22300,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/taylor.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/taylor.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/taylor.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/taylor.webp",
     "stats": {
       "hp": [
         172,
@@ -22377,7 +22377,7 @@ export const loCharacters = [
         "tab": "Sexy Bikini (Taylor)",
         "price": "167",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/taylor-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/taylor-1.webp"
       }
     ],
     "sortOrder": 97
@@ -22458,8 +22458,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/olivia.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/olivia.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/olivia.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/olivia.webp",
     "stats": {
       "hp": [
         166,
@@ -22570,7 +22570,7 @@ export const loCharacters = [
         "tab": "Sexy Bikini (Olivia)",
         "price": "167",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/olivia-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/olivia-1.webp"
       }
     ],
     "sortOrder": 98
@@ -22660,8 +22660,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/kunoichi-enrai.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/kunoichi-enrai.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/kunoichi-enrai.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/kunoichi-enrai.webp",
     "stats": {
       "hp": [
         164,
@@ -22729,21 +22729,21 @@ export const loCharacters = [
         "tab": "Magical Girl Outfit (Kunoichi Enrai)",
         "price": "272",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/kunoichi-enrai-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/kunoichi-enrai-1.webp"
       },
       {
         "name": "Kunoichi Personality Retention Training Uniform: Brown",
         "tab": "Kunoichi Personality Retention Training Uniform: Brown",
         "price": "232",
         "desc": "\"Mothers are strong.\" To learn how to null herself to pain and endure the ache of farewell, Enrai has come to you with a determined look on her face, dressed in the trainee's outfit of her ninja days.",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/kunoichi-enrai-2.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/kunoichi-enrai-2.webp"
       },
       {
         "name": "Kunoichi Personality Retention Training Uniform: Pink",
         "tab": "Kunoichi Personality Retention Training Uniform: Pink",
         "price": "232",
         "desc": "\"Mothers are strong.\" To learn how to null herself to pain and endure the ache of farewell, Enrai has come to you with a determined look on her face, dressed in the trainee's outfit of her ninja days.",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/kunoichi-enrai-3.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/kunoichi-enrai-3.webp"
       }
     ],
     "sortOrder": 99
@@ -22787,8 +22787,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/english-shepherd.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/english-shepherd.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/english-shepherd.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/english-shepherd.webp",
     "stats": {
       "hp": [
         192,
@@ -22856,7 +22856,7 @@ export const loCharacters = [
         "tab": "Go! Iron Maidens",
         "price": "182",
         "desc": "Before the apocalypse, Shepherd was an avid fan of the Iron Maidens. She'd even get into arguments often with her younger sister Beta when they were up against the Cannoneers. Now, she's donned her uniform and stands atop the mound for the ceremonial first pitch of the very first baseball game since the fall of humanity. Watch out for her fierce attacks towards her manager for the day: you!",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/english-shepherd-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/english-shepherd-1.webp"
       }
     ],
     "sortOrder": 100
@@ -22898,8 +22898,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/aeda.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/aeda.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/aeda.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/aeda.webp",
     "stats": {
       "hp": [
         234,
@@ -22967,14 +22967,14 @@ export const loCharacters = [
         "tab": "Base",
         "price": "",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/aeda-0.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/aeda-0.webp"
       },
       {
         "name": "Model.CDR Mistress (Aeda Type-G)",
         "tab": "Model.CDR Mistress (Aeda Type-G)",
         "price": "182",
         "desc": "Today Aeda has appeared before you in a new body created to show her loyalty and gain your favor. Remember: only you can restore humanity.",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/aeda-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/aeda-1.webp"
       }
     ],
     "sortOrder": 101
@@ -23120,8 +23120,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/coco.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/coco.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/coco.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/coco.webp",
     "stats": {
       "hp": [
         280,
@@ -23197,21 +23197,21 @@ export const loCharacters = [
         "tab": "Base",
         "price": "",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/coco-0.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/coco-0.webp"
       },
       {
         "name": "Coco and WhiteShell",
         "tab": "Coco and WhiteShell",
         "price": "",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/coco-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/coco-1.webp"
       },
       {
         "name": "Stellar Guardian Spacesuit (Coco in White Shell)",
         "tab": "Stellar Guardian Spacesuit (Coco in White Shell)",
         "price": "242",
         "desc": "Beyond the Infinite! Coco's universe will grow evermore, as she has you accompanying her journey. Even if you may lose your way in the stargate, Coco will remain among the stars shining like Polaris, as a beacon to guide you.",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/coco-2.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/coco-2.webp"
       }
     ],
     "sortOrder": 102
@@ -23376,8 +23376,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/stinger.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/stinger.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/stinger.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/stinger.webp",
     "stats": {
       "hp": [
         193,
@@ -23453,7 +23453,7 @@ export const loCharacters = [
         "tab": "|rowspan",
         "price": "",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/stinger-0.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/stinger-0.webp"
       }
     ],
     "sortOrder": 103
@@ -23606,8 +23606,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/spartoia.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/spartoia.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/spartoia.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/spartoia.webp",
     "stats": {
       "hp": [
         240,
@@ -23718,14 +23718,14 @@ export const loCharacters = [
         "tab": "|rowspan",
         "price": "",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/spartoia-0.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/spartoia-0.webp"
       },
       {
         "name": "Lace See-through Blouse (Spartoia)",
         "tab": "Lace See-through Blouse (Spartoia)",
         "price": "159",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/spartoia-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/spartoia-1.webp"
       }
     ],
     "sortOrder": 104
@@ -23767,8 +23767,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/lemonade-epsilon.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/lemonade-epsilon.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/lemonade-epsilon.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/lemonade-epsilon.webp",
     "stats": {
       "hp": [
         123,
@@ -23836,14 +23836,14 @@ export const loCharacters = [
         "tab": "Home Wear (Lemonade Epsilon)",
         "price": "192",
         "desc": "Context: she's escaped the confines of outer space, with all its vast emptiness causing her very existence to feel meaningless, and joined the Orca. She's been avoiding contact by saying she's busy, to the point where her own sisters haven't been able to visit her new room. Meanwhile, something strange is happening in the Orca. All the books are disappearing, even LRL's favorites ...",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/lemonade-epsilon-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/lemonade-epsilon-1.webp"
       },
       {
         "name": "Astral Dream Dress (Epsilon)",
         "tab": "Astral Dream Dress (Epsilon)",
         "price": "352",
         "desc": "It's time to cross the Milky Way to meet her in your dreams. Until all the trials and tribulations you've weathered become beautiful stars. Until she joins you, shining brightly among the constellations, to create a new galaxy with you. You are my universe, mine and mine alone. Shine with me forever.",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/lemonade-epsilon-2.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/lemonade-epsilon-2.webp"
       }
     ],
     "sortOrder": 105
@@ -23965,8 +23965,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/audrey.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/audrey.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/audrey.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/audrey.webp",
     "stats": {
       "hp": [
         182,
@@ -24034,14 +24034,14 @@ export const loCharacters = [
         "tab": "Party Dress (Audrey)",
         "price": "182",
         "desc": "The ultimate beauty has arrived at the party! Please stare as you need to. Because this is the dress that Audrey poured all of her inspirations into for that one special person.",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/audrey-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/audrey-1.webp"
       },
       {
         "name": "Sexy Bikini (Audrey)",
         "tab": "Sexy Bikini (Audrey)",
         "price": "136",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/audrey-2.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/audrey-2.webp"
       }
     ],
     "sortOrder": 106
@@ -24194,8 +24194,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/tommy-walker.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/tommy-walker.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/tommy-walker.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/tommy-walker.webp",
     "stats": {
       "hp": [
         280,
@@ -24271,7 +24271,7 @@ export const loCharacters = [
         "tab": "|rowspan",
         "price": "",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/tommy-walker-0.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/tommy-walker-0.webp"
       }
     ],
     "sortOrder": 107
@@ -24298,8 +24298,8 @@ export const loCharacters = [
     "weight": "26kg",
     "equipRec": "CCOG",
     "farm": null,
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/dutch-girl.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/dutch-girl.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/dutch-girl.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/dutch-girl.webp",
     "stats": {
       "hp": [
         181,
@@ -24375,14 +24375,14 @@ export const loCharacters = [
         "tab": "Event Costume (Dutch Girl)",
         "price": "46",
         "desc": "The day that they need to go to the Chamber of Commerce for promotion is one of the few days Dutch Girl can say hi to the sun. Dutch Girl is free from mining on that day only, and she can rest without worrying about anything.",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/dutch-girl-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/dutch-girl-1.webp"
       },
       {
         "name": "Little Santa's Clothes (Dutch Girl)",
         "tab": "Little Santa's Clothes (Dutch Girl)",
         "price": "147",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/dutch-girl-2.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/dutch-girl-2.webp"
       }
     ],
     "sortOrder": 108
@@ -24555,8 +24555,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/triaina.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/triaina.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/triaina.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/triaina.webp",
     "stats": {
       "hp": [
         247,
@@ -24632,14 +24632,14 @@ export const loCharacters = [
         "tab": "|rowspan",
         "price": "",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/triaina-0.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/triaina-0.webp"
       },
       {
         "name": "Audrey Moon Collection <Frontier Rabbit>",
         "tab": "Audrey Moon Collection <Frontier Rabbit>",
         "price": "114",
         "desc": "The traditional dress for the old festival「The end of August」that is restored by Audrey. This is 「Magical Neo New Triaina」that conquered the exploration from the see to the moon. Will the residents of the moon like her presents?",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/triaina-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/triaina-1.webp"
       }
     ],
     "sortOrder": 109
@@ -24668,8 +24668,8 @@ export const loCharacters = [
     "weight": "0.12t",
     "equipRec": "CCOG",
     "farm": null,
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/drone.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/drone.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/drone.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/drone.webp",
     "stats": {
       "hp": [
         213,
@@ -24737,7 +24737,7 @@ export const loCharacters = [
         "tab": "Base",
         "price": "",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/drone-0.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/drone-0.webp"
       }
     ],
     "sortOrder": 110
@@ -25081,8 +25081,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/frost-serpent.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/frost-serpent.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/frost-serpent.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/frost-serpent.webp",
     "stats": {
       "hp": [
         230,
@@ -25151,14 +25151,14 @@ export const loCharacters = [
         "tab": "|rowspan",
         "price": "56",
         "desc": "The teacher that knows the danger of water better than anyone.",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/frost-serpent-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/frost-serpent-1.webp"
       },
       {
         "name": "Wet Ghost Costume (Frost Serpent)",
         "tab": "|rowspan",
         "price": "147",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/frost-serpent-2.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/frost-serpent-2.webp"
       }
     ],
     "sortOrder": 111
@@ -25187,8 +25187,8 @@ export const loCharacters = [
     "weight": "72kg",
     "equipRec": "CCOG",
     "farm": null,
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/miss-safety.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/miss-safety.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/miss-safety.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/miss-safety.webp",
     "stats": {
       "hp": [
         245,
@@ -25250,21 +25250,21 @@ export const loCharacters = [
         "tab": "Base",
         "price": "",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/miss-safety-0.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/miss-safety-0.webp"
       },
       {
         "name": "Housekeeper Uniform (Miss Safety)",
         "tab": "Housekeeper Uniform (Miss Safety)",
         "price": "68",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/miss-safety-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/miss-safety-1.webp"
       },
       {
         "name": "Safety Lingerie (Miss Safety)",
         "tab": "Safety Lingerie (Miss Safety)",
         "price": "192",
         "desc": "Miss Safety is the most dedicated member of the City Guard when it comes to safety. After gaining experience in the stain removal team. she's now trying being a nightguard. For some reason, she's come to lock the door to the Commander's quarters late at night, dressed in the \"safety lingerie\" that she received from Sadius as a gift. \"Commander ... you shouldn't have forgotten about locking your door, or about me, you know?\"",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/miss-safety-2.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/miss-safety-2.webp"
       }
     ],
     "sortOrder": 112
@@ -25641,8 +25641,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/cerberus.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/cerberus.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/cerberus.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/cerberus.webp",
     "stats": {
       "hp": [
         218,
@@ -25718,21 +25718,21 @@ export const loCharacters = [
         "tab": "|rowspan",
         "price": "68",
         "desc": "For ceremony, it's sword, but for real combat she uses a stick. Sounds weird, but works. But you do need a cool-looking sword for the ceremony, that's for sure.",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/cerberus-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/cerberus-1.webp"
       },
       {
         "name": "Swimsuit (Cerberus)",
         "tab": "|rowspan",
         "price": "114",
         "desc": "Even at the beach, Cerberus still doesn't forget about her duty. She bought all this gear just to be the guard dog for everyone.",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/cerberus-2.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/cerberus-2.webp"
       },
       {
         "name": "Wedding Dress (Cerberus)",
         "tab": "|rowspan",
         "price": "136",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/cerberus-3.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/cerberus-3.webp"
       }
     ],
     "sortOrder": 113
@@ -25762,8 +25762,8 @@ export const loCharacters = [
     "weight": "0.41t",
     "equipRec": "CCOG",
     "farm": null,
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/rampart.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/rampart.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/rampart.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/rampart.webp",
     "stats": {
       "hp": [
         250,
@@ -25874,21 +25874,21 @@ export const loCharacters = [
         "tab": "Base",
         "price": "",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/rampart-0.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/rampart-0.webp"
       },
       {
         "name": "War Arm (Rampart)",
         "tab": "War Arm (Rampart)",
         "price": "[[Sub Story]]",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/rampart-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/rampart-1.webp"
       },
       {
         "name": "Ramparion Custom Pack (Rampart)",
         "tab": "Ramparion Custom Pack (Rampart)",
         "price": "68",
         "desc": "To celebrate the Child's Day and make a perfect present, the police department customized this Rampart for it.",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/rampart-2.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/rampart-2.webp"
       }
     ],
     "sortOrder": 114
@@ -25918,8 +25918,8 @@ export const loCharacters = [
     "weight": "0.305t",
     "equipRec": "CCOG",
     "farm": null,
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/pupp-head.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/pupp-head.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/pupp-head.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/pupp-head.webp",
     "stats": {
       "hp": [
         220,
@@ -25981,7 +25981,7 @@ export const loCharacters = [
         "tab": "Base",
         "price": "",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/pupp-head-0.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/pupp-head-0.webp"
       }
     ],
     "sortOrder": 115
@@ -26137,8 +26137,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/express.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/express.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/express.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/express.webp",
     "stats": {
       "hp": [
         222,
@@ -26249,14 +26249,14 @@ export const loCharacters = [
         "tab": "Part-time Swimsuit (Express)",
         "price": "159",
         "desc": "For a workholic like Express 76, she still only thinks about her work even she's on vacation. She collected so many tuna cans, probably a gift to someone?",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/express-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/express-1.webp"
       },
       {
         "name": "Skinny Date Look (Express)",
         "tab": "Skinny Date Look (Express)",
         "price": "192",
         "desc": "After working hard even in vacation spots, she's finally expanded her business with all the tuna cans she'd saved up. And it seems she's taking on the role of the company's model as well. With her fame, there will probably be a massive pileup in logistics, but it'll be a good opportunity for everyone to realize how important Express 76 is. Leave a message on her phone: \"I'd like same-day shipping for my date, please!\"",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/express-2.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/express-2.webp"
       }
     ],
     "sortOrder": 116
@@ -26581,8 +26581,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/fortune.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/fortune.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/fortune.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/fortune.webp",
     "stats": {
       "hp": [
         203,
@@ -26636,14 +26636,14 @@ export const loCharacters = [
         "tab": "|rowspan",
         "price": "57",
         "desc": "There's equipment that needs to be maintenanced by Fortune in the deeper sea. This diving suit is made of new materials, and can handle everything thrown at it except hiding Fortune's body.",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/fortune-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/fortune-1.webp"
       },
       {
         "name": "Stars and Stripes Bikini (Fortune)",
         "tab": "|rowspan",
         "price": "147",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/fortune-2.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/fortune-2.webp"
       }
     ],
     "sortOrder": 117
@@ -26670,8 +26670,8 @@ export const loCharacters = [
     "weight": "24kg",
     "equipRec": "GCOC",
     "farm": null,
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/lrl.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/lrl.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/lrl.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/lrl.webp",
     "stats": {
       "hp": [
         147,
@@ -26747,35 +26747,35 @@ export const loCharacters = [
         "tab": "Gothic Dress (LRL)",
         "price": "54",
         "desc": "The Vampire master LRL who awakened new blood powers. The sword and dress is a perfect fit for the true Vampire master.",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/lrl-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/lrl-1.webp"
       },
       {
         "name": "End of shift supply Number 1 (LRL)",
         "tab": "End of shift supply Number 1 (LRL)",
         "price": "15",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/lrl-2.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/lrl-2.webp"
       },
       {
         "name": "Cyclops Princess Costume (LRL)",
         "tab": "Cyclops Princess Costume (LRL)",
         "price": "136",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/lrl-3.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/lrl-3.webp"
       },
       {
         "name": "Wolf Hunter's Clothes (LRL)",
         "tab": "Wolf Hunter's Clothes (LRL)",
         "price": "147",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/lrl-4.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/lrl-4.webp"
       },
       {
         "name": "Swimsuit From My Familiar (LRL)",
         "tab": "Swimsuit From My Familiar (LRL)",
         "price": "192",
         "desc": "The wish coupons that LRL made herself with love and care have now filled up the drawer in the Commander's office. Just as it was starting to become a problem, LRL came to play and sat on your lap, before turning her eyes to the mess in your drawer and making a satisfied smile. \"Kufufufu ... incredible! It seems I have finally found a contractor to brave the perils of fulfilling my destiny of splashy-splash with me!\" On that note! You've prepared a new offering for the princess that will allow her to unleash 500% of her true potential. All to splashy-splash with her, of course!",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/lrl-5.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/lrl-5.webp"
       }
     ],
     "sortOrder": 118
@@ -27085,8 +27085,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/mighty-r.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/mighty-r.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/mighty-r.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/mighty-r.webp",
     "stats": {
       "hp": [
         204,
@@ -27197,21 +27197,21 @@ export const loCharacters = [
         "tab": "|rowspan",
         "price": "",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/mighty-r-0.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/mighty-r-0.webp"
       },
       {
         "name": "Special Combatant Mighty R",
         "tab": "|rowspan",
         "price": "SS",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/mighty-r-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/mighty-r-1.webp"
       },
       {
         "name": "Street Style Uniform (Mighty R)",
         "tab": "|rowspan",
         "price": "114",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/mighty-r-2.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/mighty-r-2.webp"
       }
     ],
     "sortOrder": 119
@@ -27238,8 +27238,8 @@ export const loCharacters = [
     "weight": "55kg",
     "equipRec": "CCOG",
     "farm": null,
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/tiequan.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/tiequan.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/tiequan.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/tiequan.webp",
     "stats": {
       "hp": [
         165,
@@ -27315,14 +27315,14 @@ export const loCharacters = [
         "tab": "Training Suit (Tiequan)",
         "price": "46",
         "desc": "After the training is finished, the moment she takes a break and feel all the sweat coming out of her is the moment Tiequan feels the most alive.",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/tiequan-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/tiequan-1.webp"
       },
       {
         "name": "Tennis Clothes (Tiequan)",
         "tab": "Tennis Clothes (Tiequan)",
         "price": "114",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/tiequan-2.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/tiequan-2.webp"
       }
     ],
     "sortOrder": 120
@@ -27351,8 +27351,8 @@ export const loCharacters = [
     "weight": "53kg",
     "equipRec": "CGCO",
     "farm": null,
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/johanna.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/johanna.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/johanna.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/johanna.webp",
     "stats": {
       "hp": [
         220,
@@ -27428,7 +27428,7 @@ export const loCharacters = [
         "tab": "Saint Armor (Johanna)",
         "price": "114",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/johanna-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/johanna-1.webp"
       }
     ],
     "sortOrder": 121
@@ -27721,8 +27721,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/scathy.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/scathy.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/scathy.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/scathy.webp",
     "stats": {
       "hp": [
         200,
@@ -27798,14 +27798,14 @@ export const loCharacters = [
         "tab": "|rowspan",
         "price": "46",
         "desc": "Another day, another wish for the birth of a new family member.",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/scathy-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/scathy-1.webp"
       },
       {
         "name": "Scathy's Evening Dress (Scathy)",
         "tab": "|rowspan",
         "price": "182",
         "desc": "Scathy was practicing her \"physical hacking\" when she had the desire to show her toned body to you. As such she went to Audrey. She stands before you now, so do enjoy a dinner with her, whose muscles rival the beauty of her intellect.",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/scathy-2.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/scathy-2.webp"
       }
     ],
     "sortOrder": 122
@@ -28002,8 +28002,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/momo.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/momo.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/momo.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/momo.webp",
     "stats": {
       "hp": [
         143,
@@ -28079,21 +28079,21 @@ export const loCharacters = [
         "tab": "Transformation Costume of the Moon",
         "price": "136",
         "desc": "The transform costume used in second season of \"Magical Girl☆Momo\". Please witness my even stronger moon rabbit's magical power.",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/momo-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/momo-1.webp"
       },
       {
         "name": "Magical Wedding Dress (MoMo)",
         "tab": "Magical Wedding Dress (MoMo)",
         "price": "136",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/momo-2.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/momo-2.webp"
       },
       {
         "name": "Outfit for Localization (MoMo)",
         "tab": "Outfit for Localization (MoMo)",
         "price": "114",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/momo-3.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/momo-3.webp"
       }
     ],
     "sortOrder": 123
@@ -28265,8 +28265,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/atalanta.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/atalanta.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/atalanta.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/atalanta.webp",
     "stats": {
       "hp": [
         227,
@@ -28342,7 +28342,7 @@ export const loCharacters = [
         "tab": "Cute Bear Costume (Atalanta)",
         "price": "114",
         "desc": "Apparently the always cool-looking Atalanta can't strike a pose in this clothing...",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/atalanta-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/atalanta-1.webp"
       }
     ],
     "sortOrder": 124
@@ -28459,8 +28459,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/charlotte.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/charlotte.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/charlotte.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/charlotte.webp",
     "stats": {
       "hp": [
         192,
@@ -28528,28 +28528,28 @@ export const loCharacters = [
         "tab": "Base",
         "price": "",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/charlotte-0.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/charlotte-0.webp"
       },
       {
         "name": "Jewelry Bikini (Charlotte)",
         "tab": "Jewelry Bikini (Charlotte)",
         "price": "182",
         "desc": "The swimsuit was made using luxury jewels, thus making the model wearing it even more beautiful. The only problem is the cost of the jewels are so high, they can only cover a very small area.",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/charlotte-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/charlotte-1.webp"
       },
       {
         "name": "Modified Nun Suit (Charlotte)",
         "tab": "Modified Nun Suit (Charlotte)",
         "price": "182",
         "desc": "Armand chose Azazel as her agent... Well... why didn't I try my best?",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/charlotte-2.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/charlotte-2.webp"
       },
       {
         "name": "Grid Girl Uniform (Charlotte)",
         "tab": "Grid Girl Uniform (Charlotte)",
         "price": "114",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/charlotte-3.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/charlotte-3.webp"
       }
     ],
     "sortOrder": 125
@@ -28632,8 +28632,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/azazel.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/azazel.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/azazel.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/azazel.webp",
     "stats": {
       "hp": [
         171,
@@ -28701,28 +28701,28 @@ export const loCharacters = [
         "tab": "|rowspan",
         "price": "",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/azazel-0.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/azazel-0.webp"
       },
       {
         "name": "Luxurious Lingerie (Azazel)",
         "tab": "Luxurious Lingerie (Azazel)",
         "price": "159",
         "desc": "Azazel believed that you are the Messiah, so she had new responsibilities. Apparently Brownie gave her some advice when Azazel was busy with her religious activities.",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/azazel-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/azazel-1.webp"
       },
       {
         "name": "Monokini (Azazel)",
         "tab": "Monokini (Azazel)",
         "price": "136",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/azazel-2.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/azazel-2.webp"
       },
       {
         "name": "Azazel Alter",
         "tab": "Azazel Alter",
         "price": "",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/azazel-3.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/azazel-3.webp"
       }
     ],
     "sortOrder": 126
@@ -28876,8 +28876,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/baekto.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/baekto.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/baekto.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/baekto.webp",
     "stats": {
       "hp": [
         210,
@@ -28953,21 +28953,21 @@ export const loCharacters = [
         "tab": "Red Hood (BaekTo)",
         "price": "159",
         "desc": "The moon's power reached maximum as it turns into a full moon, and Red Hood appeared! The monsters that are trashing around during Halloween are surely dead now!",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/baekto-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/baekto-1.webp"
       },
       {
         "name": "Outfit for Localization (BaekTo)",
         "tab": "Outfit for Localization (BaekTo)",
         "price": "114",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/baekto-2.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/baekto-2.webp"
       },
       {
         "name": "Magical Full Moon Dress (BaekTo)",
         "tab": "Magical Full Moon Dress (BaekTo)",
         "price": "212",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/baekto-3.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/baekto-3.webp"
       }
     ],
     "sortOrder": 127
@@ -29066,8 +29066,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/goltarion.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/goltarion.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/goltarion.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/goltarion.webp",
     "stats": {
       "hp": [
         1311,
@@ -29143,7 +29143,7 @@ export const loCharacters = [
         "tab": "Holy Knight Model (Goltarion)",
         "price": "136",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/goltarion-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/goltarion-1.webp"
       }
     ],
     "sortOrder": 128
@@ -29259,8 +29259,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/armand.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/armand.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/armand.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/armand.webp",
     "stats": {
       "hp": [
         134,
@@ -29328,21 +29328,21 @@ export const loCharacters = [
         "tab": "Base",
         "price": "",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/armand-0.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/armand-0.webp"
       },
       {
         "name": "Hall Monitor School Uniform (Armand)",
         "tab": "Hall Monitor School Uniform (Armand)",
         "price": "159",
         "desc": "Armand decided to step up and deal with the discipline problems in Orca. Hey you, tidy your clothes!",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/armand-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/armand-1.webp"
       },
       {
         "name": "Kouhei Church Sister's Habit (Armand)",
         "tab": "Kouhei Church Sister's Habit (Armand)",
         "price": "114",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/armand-2.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/armand-2.webp"
       }
     ],
     "sortOrder": 129
@@ -29427,8 +29427,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/niba.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/niba.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/niba.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/niba.webp",
     "stats": {
       "hp": [
         177,
@@ -29496,14 +29496,14 @@ export const loCharacters = [
         "tab": "Serious Mode (NiBA)",
         "price": "159",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/niba-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/niba-1.webp"
       },
       {
         "name": "Pretense Mode Bunnysuit (NiBA)",
         "tab": "Pretense Mode Bunnysuit (NiBA)",
         "price": "192",
         "desc": "Even the dauntless Bunny Slayer hides a dark history. She may be merciless in turning bunnygirls into reverse bunnies, but she cannot conceal the fact that she too was once a bunnygirl herself forever. Those days of glory ... will she meet a person who will be able to accept even her past ...? <Excerpt from NiBA's Secret Diary>",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/niba-2.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/niba-2.webp"
       }
     ],
     "sortOrder": 130
@@ -29660,8 +29660,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/carolina.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/carolina.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/carolina.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/carolina.webp",
     "stats": {
       "hp": [
         179,
@@ -29737,7 +29737,7 @@ export const loCharacters = [
         "tab": "Audrey Moon Collection: Assistant Rabbit (Carol)",
         "price": "114",
         "desc": "The traditional dress for the old festival「The end of August」that is restored by Audrey. But the size of the dress is just... can it still hold it together under Carolina's intense cheering",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/carolina-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/carolina-1.webp"
       }
     ],
     "sortOrder": 131
@@ -29929,8 +29929,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/yumi.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/yumi.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/yumi.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/yumi.webp",
     "stats": {
       "hp": [
         190,
@@ -29991,14 +29991,14 @@ export const loCharacters = [
         "tab": "Base",
         "price": "",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/yumi-0.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/yumi-0.webp"
       },
       {
         "name": "Ruffle Bikini (Yumi)",
         "tab": "Ruffle Bikini (Yumi)",
         "price": "114",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/yumi-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/yumi-1.webp"
       }
     ],
     "sortOrder": 132
@@ -30327,8 +30327,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/elven-forest-maker.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/elven-forest-maker.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/elven-forest-maker.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/elven-forest-maker.webp",
     "stats": {
       "hp": [
         227,
@@ -30404,28 +30404,28 @@ export const loCharacters = [
         "tab": "|rowspan",
         "price": "",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/elven-forest-maker-0.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/elven-forest-maker-0.webp"
       },
       {
         "name": "Cowgirl Bikini (Elven Forest Maker)",
         "tab": "|rowspan",
         "price": "114",
         "desc": "They said two cups of milk everyday is good for your health. Elven's body is the perfect proof of that statement.",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/elven-forest-maker-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/elven-forest-maker-1.webp"
       },
       {
         "name": "White Dress (Elven Forest Maker)",
         "tab": "|rowspan",
         "price": "114",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/elven-forest-maker-2.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/elven-forest-maker-2.webp"
       },
       {
         "name": "Bikini Swimsuit (Elven)",
         "tab": "|rowspan",
         "price": "192",
         "desc": "Our secret summer, that not everyone can know about. How about you join in on their private vacation?",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/elven-forest-maker-3.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/elven-forest-maker-3.webp"
       }
     ],
     "sortOrder": 133
@@ -30623,8 +30623,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/ignis.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/ignis.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/ignis.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/ignis.webp",
     "stats": {
       "hp": [
         262,
@@ -30700,14 +30700,14 @@ export const loCharacters = [
         "tab": "Flame Witch Costume (Ignis)",
         "price": "193",
         "desc": "Ignis treats every job seriously, and you saw her perfect costume and her perfect acting skills. Although she didn't have a chance to show her face, she's still happy since you commendated her.",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/ignis-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/ignis-1.webp"
       },
       {
         "name": "Cowgirl Monokini (Ignis)",
         "tab": "Cowgirl Monokini (Ignis)",
         "price": "147",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/ignis-2.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/ignis-2.webp"
       }
     ],
     "sortOrder": 134
@@ -30987,8 +30987,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/dark-elven-forest-ranger.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/dark-elven-forest-ranger.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/dark-elven-forest-ranger.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/dark-elven-forest-ranger.webp",
     "stats": {
       "hp": [
         198,
@@ -31064,28 +31064,28 @@ export const loCharacters = [
         "tab": "|rowspan",
         "price": "",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/dark-elven-forest-ranger-0.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/dark-elven-forest-ranger-0.webp"
       },
       {
         "name": "Cowgirl Bikini (Dark Elven Forest Ranger)",
         "tab": "|rowspan",
         "price": "91",
         "desc": "Elven Forest Maker sells pure milk and I sell chocolate milk... heh... Oh, it's probably not what you are thinking right now. Please stop those lewd thoughts and be a good boy...",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/dark-elven-forest-ranger-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/dark-elven-forest-ranger-1.webp"
       },
       {
         "name": "Chocolate Dress (Dark Elven Forest Ranger)",
         "tab": "|rowspan",
         "price": "114",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/dark-elven-forest-ranger-2.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/dark-elven-forest-ranger-2.webp"
       },
       {
         "name": "Bikini Swimsuit (Dark Elven)",
         "tab": "|rowspan",
         "price": "192",
         "desc": "Our secret summer, that not everyone can know about. How about you join in on their private vacation?",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/dark-elven-forest-ranger-3.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/dark-elven-forest-ranger-3.webp"
       }
     ],
     "sortOrder": 135
@@ -31254,8 +31254,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/circe.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/circe.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/circe.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/circe.webp",
     "stats": {
       "hp": [
         170,
@@ -31331,21 +31331,21 @@ export const loCharacters = [
         "tab": "Base",
         "price": "",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/circe-0.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/circe-0.webp"
       },
       {
         "name": "Druid Ritual Clothes (Circe)",
         "tab": "Druid Ritual Clothes (Circe)",
         "price": "136",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/circe-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/circe-1.webp"
       },
       {
         "name": "Bunny's Santa's Clothes (Circe)",
         "tab": "Bunny's Santa's Clothes (Circe)",
         "price": "147",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/circe-2.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/circe-2.webp"
       }
     ],
     "sortOrder": 136
@@ -31522,7 +31522,7 @@ export const loCharacters = [
       ]
     },
     "icon": null,
-    "art": "https://img.gachawiki.info/last-origin-global/character/barbariana.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/barbariana.webp",
     "stats": {
       "hp": [
         258,
@@ -31598,28 +31598,28 @@ export const loCharacters = [
         "tab": "Base",
         "price": "",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/barbariana-0.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/barbariana-0.webp"
       },
       {
         "name": "Scary Sister's School Uniform (Barbariana)",
         "tab": "Scary Sister's School Uniform (Barbariana)",
         "price": "136",
         "desc": "Shit... time to use the final trick I have up in my sleeves. Armand probably expected this to happen... Wait, she probably didn't expect that face you are making right now.",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/barbariana-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/barbariana-1.webp"
       },
       {
         "name": "Evening Dress (Barbariana)",
         "tab": "Evening Dress (Barbariana)",
         "price": "134",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/barbariana-2.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/barbariana-2.webp"
       },
       {
         "name": "Maid Outfit (Barbariana)",
         "tab": "Maid Outfit (Barbariana)",
         "price": "192",
         "desc": "It's a new look for Barbariana, based on the Commander's subconscious desires. You're prepared to adore her to your heart's content, right?",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/barbariana-3.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/barbariana-3.webp"
       }
     ],
     "sortOrder": 137
@@ -31767,8 +31767,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/veronica.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/veronica.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/veronica.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/veronica.webp",
     "stats": {
       "hp": [
         190,
@@ -31844,21 +31844,21 @@ export const loCharacters = [
         "tab": "| rowspan",
         "price": "",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/veronica-0.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/veronica-0.webp"
       },
       {
         "name": "Plate Armor Set (Veronica)",
         "tab": "| rowspan",
         "price": "182",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/veronica-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/veronica-1.webp"
       },
       {
         "name": "Vacation Look (Veronica)",
         "tab": "Vacation Look (Veronica)",
         "price": "114",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/veronica-2.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/veronica-2.webp"
       }
     ],
     "sortOrder": 138
@@ -31936,8 +31936,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/saraqael.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/saraqael.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/saraqael.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/saraqael.webp",
     "stats": {
       "hp": [
         200,
@@ -32005,21 +32005,21 @@ export const loCharacters = [
         "tab": "Base",
         "price": "",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/saraqael-0.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/saraqael-0.webp"
       },
       {
         "name": "Feather Bikini (Saraqael)",
         "tab": "Feather Bikini (Saraqael)",
         "price": "136",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/saraqael-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/saraqael-1.webp"
       },
       {
         "name": "Outfit for Blessing (Saraqael)",
         "tab": "Outfit for Blessing (Saraqael)",
         "price": "114",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/saraqael-2.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/saraqael-2.webp"
       }
     ],
     "sortOrder": 139
@@ -32142,8 +32142,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/angel.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/angel.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/angel.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/angel.webp",
     "stats": {
       "hp": [
         144,
@@ -32204,14 +32204,14 @@ export const loCharacters = [
         "tab": "|rowspan",
         "price": "159",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/angel-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/angel-1.webp"
       },
       {
         "name": "Priest Angel",
         "tab": "Priest Angel",
         "price": "",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/angel-2.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/angel-2.webp"
       }
     ],
     "sortOrder": 140
@@ -32308,8 +32308,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/draculina.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/draculina.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/draculina.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/draculina.webp",
     "stats": {
       "hp": [
         166,
@@ -32377,21 +32377,21 @@ export const loCharacters = [
         "tab": "Base",
         "price": "",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/draculina-0.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/draculina-0.webp"
       },
       {
         "name": "Micro Bikini (Draculina)",
         "tab": "Micro Bikini (Draculina)",
         "price": "159",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/draculina-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/draculina-1.webp"
       },
       {
         "name": "Oni-style Miko Outfit (Draculina)",
         "tab": "Oni-style Miko Outfit (Draculina)",
         "price": "252",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/draculina-2.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/draculina-2.webp"
       }
     ],
     "sortOrder": 141
@@ -32427,7 +32427,7 @@ export const loCharacters = [
       "groups": []
     },
     "icon": null,
-    "art": "https://img.gachawiki.info/last-origin-global/character/ymir.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/ymir.webp",
     "stats": {
       "hp": [
         279,
@@ -32503,14 +32503,14 @@ export const loCharacters = [
         "tab": "Base",
         "price": "",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/ymir-0.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/ymir-0.webp"
       },
       {
         "name": "Steampunk Model (Ymir)",
         "tab": "Steampunk Model (Ymir)",
         "price": "192",
         "desc": "Bismarck, now with several successful shows, needed a striking character for their next project. That was when their eyes turned to the Ymir model that was building the set. And thus an unfeeling robot discovered emotions and was born anew as a splendid supporting character. They might have made him a little too stubborn, but it's cool so it should be fine, right?",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/ymir-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/ymir-1.webp"
       }
     ],
     "sortOrder": 142
@@ -32649,8 +32649,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/keumran.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/keumran.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/keumran.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/keumran.webp",
     "stats": {
       "hp": [
         192,
@@ -32726,14 +32726,14 @@ export const loCharacters = [
         "tab": "Wet Hanbok (KeumRan)",
         "price": "136",
         "desc": "Even for swordmasters like Keumran, there're still accidents that caused her to fall into the water... You can probably tell she's very anxious about being with only you in a very quiet place...",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/keumran-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/keumran-1.webp"
       },
       {
         "name": "Nice Dress (KeumRan)",
         "tab": "Nice Dress (KeumRan)",
         "price": "136",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/keumran-2.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/keumran-2.webp"
       }
     ],
     "sortOrder": 147
@@ -32822,8 +32822,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/hirume.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/hirume.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/hirume.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/hirume.webp",
     "stats": {
       "hp": [
         320,
@@ -32891,35 +32891,35 @@ export const loCharacters = [
         "tab": "Base",
         "price": "",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/hirume-0.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/hirume-0.webp"
       },
       {
         "name": "Handmade Ceremonial Dress (Hirume)",
         "tab": "Handmade Ceremonial Dress (Hirume)",
         "price": "265",
         "desc": "Hirume says she needs to keep the promise she made with you in the previous life, and is waiting for you, day and night. As it is usual with her, she is imagining things again, but you know that her feelings for you is sincere. Let's follow the moonlight and take a walk. The passage will lead you to the garden where Hirume is waiting.",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/hirume-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/hirume-1.webp"
       },
       {
         "name": "Costume made in Secret (Hirume)",
         "tab": "Costume made in Secret (Hirume)",
         "price": "114",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/hirume-2.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/hirume-2.webp"
       },
       {
         "name": "The Sailor Costume for Childhood Friend (Hirume)",
         "tab": "The Sailor Costume for Childhood Friend (Hirume)",
         "price": "196",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/hirume-3.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/hirume-3.webp"
       },
       {
         "name": "Handmade Ceremonial Dress (Hirume) (V2)",
         "tab": "Handmade Ceremonial Dress (Hirume) (V2)",
         "price": "205",
         "desc": "Hirume says she needs to keep the promise she made with you in the previous life, and is waiting for you, day and night. As it is usual with her, she is imagining things again, but you know that her feelings for you is sincere. Let's follow the moonlight and take a walk. The passage will lead you to the garden where Hirume is waiting.",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/hirume-4.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/hirume-4.webp"
       }
     ],
     "sortOrder": 148
@@ -33020,8 +33020,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/tiamat.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/tiamat.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/tiamat.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/tiamat.webp",
     "stats": {
       "hp": [
         184,
@@ -33089,21 +33089,21 @@ export const loCharacters = [
         "tab": "|rowspan",
         "price": "182",
         "desc": "You finally caught Tiamat's heart. For her, your worry-free attitude probably saved her...",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/tiamat-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/tiamat-1.webp"
       },
       {
         "name": "PS Battlesuit (Tiamat)",
         "tab": "PS Battlesuit (Tiamat)",
         "price": "136",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/tiamat-2.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/tiamat-2.webp"
       },
       {
         "name": "Fluttery Lingerie (Tiamat)",
         "tab": "Fluttery Lingerie (Tiamat)",
         "price": "192",
         "desc": "You've been invited to the Strikers' pajama party. As the girls show off their appeal in different ways, you're put in the difficult position of having to pick the one with your favorite set of pajamas. Gathering her courage, Tiamat asks you: \"Commander, please tell me ... you like these clothes.\"",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/tiamat-3.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/tiamat-3.webp"
       }
     ],
     "sortOrder": 149
@@ -33179,8 +33179,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/mercury.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/mercury.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/mercury.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/mercury.webp",
     "stats": {
       "hp": [
         200,
@@ -33248,14 +33248,14 @@ export const loCharacters = [
         "tab": "PS Battlesuit (Mercury)",
         "price": "136",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/mercury-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/mercury-1.webp"
       },
       {
         "name": "Twinkling Sleepwear (Mercury)",
         "tab": "Twinkling Sleepwear (Mercury)",
         "price": "192",
         "desc": "You've been invited to the Strikers' pajama party. As the girls show off their appeal in different ways, you're put in the difficult position of having to pick the one with your favorite set of pajamas. Mercury speaks in her proud voice: \"I want to become perfect to the Commander as well!\"",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/mercury-2.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/mercury-2.webp"
       }
     ],
     "sortOrder": 150
@@ -33573,8 +33573,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/mina.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/mina.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/mina.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/mina.webp",
     "stats": {
       "hp": [
         205,
@@ -33650,28 +33650,28 @@ export const loCharacters = [
         "tab": "|rowspan",
         "price": "",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/mina-0.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/mina-0.webp"
       },
       {
         "name": "Celestial Armor (Mina)",
         "tab": "|rowspan",
         "price": "114",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/mina-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/mina-1.webp"
       },
       {
         "name": "PS Combat Suit (Mina)",
         "tab": "|rowspan",
         "price": "147",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/mina-2.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/mina-2.webp"
       },
       {
         "name": "Fired Up Lucky Underwear (Lancer Mina)",
         "tab": "|rowspan",
         "price": "192",
         "desc": "You've been invited to the Strikers' pajama party. As the girls show off their appeal in different ways, you're put in the difficult position of having to pick the one with your favorite set of pajamas. Mina is whistling, looking relaxed. \"Did you think I only looked good in my armor, Commander?\"",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/mina-3.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/mina-3.webp"
       }
     ],
     "sortOrder": 151
@@ -33764,8 +33764,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/cheona.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/cheona.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/cheona.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/cheona.webp",
     "stats": {
       "hp": [
         186,
@@ -33833,21 +33833,21 @@ export const loCharacters = [
         "tab": "Cat Maid Style Swimsuit (CheonA)",
         "price": "136",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/cheona-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/cheona-1.webp"
       },
       {
         "name": "Inappropriate Clothes (CheonA)",
         "tab": "Inappropriate Clothes (CheonA)",
         "price": "147",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/cheona-2.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/cheona-2.webp"
       },
       {
         "name": "Special Street Clothes (CheonA)",
         "tab": "Special Street Clothes (CheonA)",
         "price": "262",
         "desc": "The last limited-time clearance sale has begun. She can't pass up a chance like this with all the hot packs she has to buy regularly, can she? Shopping is perfect for a change of pace too, so she's even carefully decorated herself with her favorite accessories. However, she is looking at you with a smile colder than her body temperature ... \"Just how long are you gonna keep me buying these disposable hot packs?\"",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/cheona-3.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/cheona-3.webp"
       }
     ],
     "sortOrder": 152
@@ -33940,8 +33940,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/ullr.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/ullr.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/ullr.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/ullr.webp",
     "stats": {
       "hp": [
         200,
@@ -34044,14 +34044,14 @@ export const loCharacters = [
         "tab": "PS Battlesuit (Ullr)",
         "price": "114",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/ullr-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/ullr-1.webp"
       },
       {
         "name": "Fluffy Pajamas (Ullr)",
         "tab": "Fluffy Pajamas (Ullr)",
         "price": "192",
         "desc": "You've been invited to the Strikers' pajama party. As the girls show off their appeal in different ways, you're put in the difficult position of having to pick the one with your favorite set of pajamas. Ullr feels for you awkwardly, asking for help: \"Um, Commander ... I can't see, so tell me ... how do I look ...?\"",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/ullr-2.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/ullr-2.webp"
       }
     ],
     "sortOrder": 152
@@ -34137,8 +34137,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/janghwa.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/janghwa.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/janghwa.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/janghwa.webp",
     "stats": {
       "hp": [
         192,
@@ -34241,28 +34241,28 @@ export const loCharacters = [
         "tab": "Cat Maid Style Swimsuit (JangHwa)",
         "price": "114",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/janghwa-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/janghwa-1.webp"
       },
       {
         "name": "Operations Officer's Clothes (JangHwa)",
         "tab": "Operations Officer's Clothes (JangHwa)",
         "price": "114",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/janghwa-2.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/janghwa-2.webp"
       },
       {
         "name": "Inappropriate Clothes (JangHwa)",
         "tab": "Inappropriate Clothes (JangHwa)",
         "price": "147",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/janghwa-3.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/janghwa-3.webp"
       },
       {
         "name": "Stage Outfit (JangHwa)",
         "tab": "Stage Outfit (JangHwa)",
         "price": "317",
         "desc": "JangHwa's fingers move deftly across the smooth keys instead of her usual wires. Not one to lose, Fafnir uses her electricity to send a wail through her guitar. Do their clashing performances sound dissonant? Try to open your heart and feel the excitement. Before you know, you'll find yourself burning like the sun full of passion.",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/janghwa-4.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/janghwa-4.webp"
       }
     ],
     "sortOrder": 154
@@ -34318,8 +34318,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/vargr.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/vargr.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/vargr.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/vargr.webp",
     "stats": {
       "hp": [
         371,
@@ -34387,35 +34387,35 @@ export const loCharacters = [
         "tab": "Base",
         "price": "",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/vargr-0.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/vargr-0.webp"
       },
       {
         "name": "Wolf! Miko's Clothes (Vargr)",
         "tab": "Wolf! Miko's Clothes (Vargr)",
         "price": "134",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/vargr-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/vargr-1.webp"
       },
       {
         "name": "Puppy Maid-style Swimsuit (Vargr)",
         "tab": "Puppy Maid-style Swimsuit (Vargr)",
         "price": "114",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/vargr-2.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/vargr-2.webp"
       },
       {
         "name": "Stage Outfit (Vargr)",
         "tab": "Stage Outfit (Vargr)",
         "price": "317",
         "desc": "Even with just drumsticks instead of Skoll and Hati, she remains the sturdy cornerstone of the Empress's Hounds. CheonA's flashy techniques and deep bass have come together to create a synergy that pounds your eardrums. Listening to their sharp and passionate performance, you can't help but be impressed at their professional tricks somehow weaving the cacophony of their instruments into a song. Let the rhythm take your body, and you'll soon find yourself burning red hot like the sun.",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/vargr-3.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/vargr-3.webp"
       },
       {
         "name": "Swimsuit (Vargr)",
         "tab": "Swimsuit (Vargr)",
         "price": "302",
         "desc": "She's always bearing the burden of leadership without complaint, but even such a perfect girl like her has weaknesses ...! Just for today, let's forget about all our worries and let the cool waves carry us away. With the promise that we won't let go of each other's hands, of course. Now, it's time to make some memories with this pure and innocent maiden under the sunshine!",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/vargr-4.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/vargr-4.webp"
       }
     ],
     "sortOrder": 156
@@ -34477,8 +34477,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/fafnir.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/fafnir.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/fafnir.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/fafnir.webp",
     "stats": {
       "hp": [
         156,
@@ -34546,21 +34546,21 @@ export const loCharacters = [
         "tab": "Base",
         "price": "",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/fafnir-0.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/fafnir-0.webp"
       },
       {
         "name": "Gambler's Dress (Fafnir)",
         "tab": "Gambler's Dress (Fafnir)",
         "price": "272",
         "desc": "Wherever there is gold, her tail shall follow. According to her, luck is the same as her thick and alluring tail, always following her around. How about you believe in her and go all in? Flash! Was that just now a troubling thought or a bolt of lightning?",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/fafnir-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/fafnir-1.webp"
       },
       {
         "name": "School Uniform (Fafnir)",
         "tab": "School Uniform (Fafnir)",
         "price": "202",
         "desc": "\"I'm sick of being called Bakanir!\" Fafnir has finally made up her mind. Korean, English, Math, and even History! She has vowed to master these difficult subjects and never be ridiculed again, so please cheer her on!",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/fafnir-2.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/fafnir-2.webp"
       }
     ],
     "sortOrder": 157
@@ -34595,8 +34595,8 @@ export const loCharacters = [
       ],
       "groups": []
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/maria-grace.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/maria-grace.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/maria-grace.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/maria-grace.webp",
     "stats": {
       "hp": [
         162,
@@ -34664,14 +34664,14 @@ export const loCharacters = [
         "tab": "Base",
         "price": "",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/maria-grace-0.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/maria-grace-0.webp"
       },
       {
         "name": "Stage Outfit (Maria Grace)",
         "tab": "Stage Outfit (Maria Grace)",
         "price": "[[Store#Unit_One-Off_Package",
         "desc": "Shred the stage! The Empress of the Empress's Hounds has chanted, becoming the lead singer on the stage. Listen to the various noises of her teammates come together with her powerful voice. Before long, you'll find yourself burning up like the sun.",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/maria-grace-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/maria-grace-1.webp"
       }
     ],
     "sortOrder": 158
@@ -34706,8 +34706,8 @@ export const loCharacters = [
       ],
       "groups": []
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/sterling.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/sterling.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/sterling.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/sterling.webp",
     "stats": {
       "hp": [
         162,
@@ -34783,14 +34783,14 @@ export const loCharacters = [
         "tab": "Base",
         "price": "",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/sterling-0.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/sterling-0.webp"
       },
       {
         "name": "Brand New Sweatsuit (Sterling)",
         "tab": "Brand New Sweatsuit (Sterling)",
         "price": "182",
         "desc": "'Just wait, I'll show them that I can be both smart *and* strong!' Sterling has bought a new sweatsuit with the gold she received from Fafnir as payment. For vengeance! Training! Is! Combat! ... Unfortunately, reality never goes as you want it to.",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/sterling-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/sterling-1.webp"
       }
     ],
     "sortOrder": 159
@@ -34983,8 +34983,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/empress.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/empress.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/empress.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/empress.webp",
     "stats": {
       "hp": [
         198,
@@ -35060,14 +35060,14 @@ export const loCharacters = [
         "tab": "Base",
         "price": "",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/empress-0.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/empress-0.webp"
       },
       {
         "name": "Bikini and Robe Cardigan (Empress)",
         "tab": "Bikini and Robe Cardigan (Empress)",
         "price": "114",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/empress-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/empress-1.webp"
       }
     ],
     "sortOrder": 161
@@ -35368,8 +35368,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/saetti.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/saetti.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/saetti.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/saetti.webp",
     "stats": {
       "hp": [
         210,
@@ -35445,21 +35445,21 @@ export const loCharacters = [
         "tab": "|rowspan",
         "price": "",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/saetti-0.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/saetti-0.webp"
       },
       {
         "name": "Wedding Dress (Saetti)",
         "tab": "|rowspan",
         "price": "114",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/saetti-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/saetti-1.webp"
       },
       {
         "name": "Ruffle Bikini (Saetti)",
         "tab": "|rowspan",
         "price": "136",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/saetti-2.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/saetti-2.webp"
       }
     ],
     "sortOrder": 162
@@ -35492,8 +35492,8 @@ export const loCharacters = [
       ],
       "groups": []
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/celsi.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/celsi.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/celsi.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/celsi.webp",
     "stats": {
       "hp": [
         199,
@@ -35569,14 +35569,14 @@ export const loCharacters = [
         "tab": "Base",
         "price": "",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/celsi-0.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/celsi-0.webp"
       },
       {
         "name": "Eco-Friendly Lingerie (Celsi)",
         "tab": "Eco-Friendly Lingerie (Celsi)",
         "price": "192",
         "desc": "The shy spirit of springs has left the water wearing her best to meet her secret love - you, who have caused great ripples in her once calm heart. You may never fully grasp the depths of the pond that is her. Now, let's take a deep breath and answer her cheeky invitation.",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/celsi-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/celsi-1.webp"
       }
     ],
     "sortOrder": 163
@@ -35744,8 +35744,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/aurora.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/aurora.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/aurora.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/aurora.webp",
     "stats": {
       "hp": [
         164,
@@ -35821,28 +35821,28 @@ export const loCharacters = [
         "tab": "|rowspan",
         "price": "",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/aurora-0.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/aurora-0.webp"
       },
       {
         "name": "Bunny Girl Outfit (Aurora)",
         "tab": "Bunny Girl Outfit (Aurora)",
         "price": "114",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/aurora-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/aurora-1.webp"
       },
       {
         "name": "Maid Style Swimsuit (Aurora)",
         "tab": "Maid Style Swimsuit (Aurora)",
         "price": "114",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/aurora-2.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/aurora-2.webp"
       },
       {
         "name": "Halloween Costume... Part of It (Aurora)",
         "tab": "Halloween Costume... Part of It (Aurora)",
         "price": "114",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/aurora-3.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/aurora-3.webp"
       }
     ],
     "sortOrder": 165
@@ -35875,8 +35875,8 @@ export const loCharacters = [
       ],
       "groups": []
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/layla-cloudy.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/layla-cloudy.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/layla-cloudy.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/layla-cloudy.webp",
     "stats": {
       "hp": [
         151,
@@ -35944,14 +35944,14 @@ export const loCharacters = [
         "tab": "Base",
         "price": "",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/layla-cloudy-0.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/layla-cloudy-0.webp"
       },
       {
         "name": "Fate-Changing Dancer's Clothes (Layla Cloudy)",
         "tab": "Fate-Changing Dancer's Clothes (Layla Cloudy)",
         "price": "192",
         "desc": "The flow of celestial bodies, and the whispers of the stars. Fate is just another way to call the balance of life. Every journey has an end, but the cycle of the stars continues. Various fates with different stories gather to a single place. And in the center is you, the cusp of Aries. Layla has become enamored with you, who has the power to change even destinies that have already been fortold.",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/layla-cloudy-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/layla-cloudy-1.webp"
       }
     ],
     "sortOrder": 166
@@ -36003,8 +36003,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/sarena.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/sarena.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/sarena.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/sarena.webp",
     "stats": {
       "hp": [
         307,
@@ -36072,7 +36072,7 @@ export const loCharacters = [
         "tab": "Base",
         "price": "",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/sarena-0.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/sarena-0.webp"
       }
     ],
     "sortOrder": 168
@@ -36161,8 +36161,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/clover-ace.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/clover-ace.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/clover-ace.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/clover-ace.webp",
     "stats": {
       "hp": [
         181,
@@ -36230,7 +36230,7 @@ export const loCharacters = [
         "tab": "Tokusatsu Costume (Clover Ace)",
         "price": "192",
         "desc": "\"Her hero suit was upgraded for the final fight against the Machine Empire!\" ... is the lore for Clover Ace's new costume. There seem to be some special features for fanservice scenes ... for her sake, it would be better to pretend you didn't notice that part, wouldn't you agree?",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/clover-ace-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/clover-ace-1.webp"
       }
     ],
     "sortOrder": 169
@@ -36386,8 +36386,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/sunny.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/sunny.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/sunny.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/sunny.webp",
     "stats": {
       "hp": [
         220,
@@ -36463,21 +36463,21 @@ export const loCharacters = [
         "tab": "Base",
         "price": "",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/sunny-0.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/sunny-0.webp"
       },
       {
         "name": "Yoga Suit (Sunny)",
         "tab": "Yoga Suit (Sunny)",
         "price": "136",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/sunny-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/sunny-1.webp"
       },
       {
         "name": "Full Body Paint Suit (Acrobatic Sunny)",
         "tab": "Full Body Paint Suit (Acrobatic Sunny)",
         "price": "182",
         "desc": "Sunny is showing off her mid-air acrobatic skills that she practiced for so long! Don't take your eyes off of her soaring through the sky!",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/sunny-2.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/sunny-2.webp"
       }
     ],
     "sortOrder": 170
@@ -36552,8 +36552,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/faucre.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/faucre.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/faucre.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/faucre.webp",
     "stats": {
       "hp": [
         220,
@@ -36621,28 +36621,28 @@ export const loCharacters = [
         "tab": "Base",
         "price": "",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/faucre-0.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/faucre-0.webp"
       },
       {
         "name": "Magical Girl Costume (Faucre)",
         "tab": "Magical Girl Costume (Faucre)",
         "price": "159",
         "desc": "The (ex-Evil Lord) Faucre had to change her job under the pressure from one of her friend. Sizes aside, as long as you have dream and hope, anything is possible...right?",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/faucre-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/faucre-1.webp"
       },
       {
         "name": "Moon Rabbit Charm (Faucre)",
         "tab": "Moon Rabbit Charm (Faucre)",
         "price": "205",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/faucre-2.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/faucre-2.webp"
       },
       {
         "name": "Space Overlord's Formal Dress (Faucre)",
         "tab": "Space Overlord's Formal Dress (Faucre)",
         "price": "174",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/faucre-3.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/faucre-3.webp"
       }
     ],
     "sortOrder": 171
@@ -36934,8 +36934,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/lumberjane.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/lumberjane.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/lumberjane.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/lumberjane.webp",
     "stats": {
       "hp": [
         226,
@@ -37011,7 +37011,7 @@ export const loCharacters = [
         "tab": "|rowspan",
         "price": "91",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/lumberjane-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/lumberjane-1.webp"
       }
     ],
     "sortOrder": 172
@@ -37129,8 +37129,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/black-wyrm.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/black-wyrm.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/black-wyrm.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/black-wyrm.webp",
     "stats": {
       "hp": [
         260,
@@ -37198,14 +37198,14 @@ export const loCharacters = [
         "tab": "C-String Bikini (Black Wyrm)",
         "price": "182",
         "desc": "Freed from the emotions control module, BlackWyrm has recovered her own personality. No, maybe a bit more honest...? Probably a rebound from a long-time suppression. Let's see what she's been suppressing inside her heart for all these years.",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/black-wyrm-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/black-wyrm-1.webp"
       },
       {
         "name": "Wedding Dress (Black Wyrm)",
         "tab": "Wedding Dress (Black Wyrm)",
         "price": "182",
         "desc": "After the feeling suppression module failure, BlackWyrm started to feel the suppressed emotions while spending time with you. She was used to nonchalant expressions and speaking in a cold-hearted tone. But here she is whispering with deep feelings for you. Would you hold her hand?",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/black-wyrm-2.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/black-wyrm-2.webp"
       }
     ],
     "sortOrder": 173
@@ -37389,8 +37389,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/kunoichi-zero.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/kunoichi-zero.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/kunoichi-zero.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/kunoichi-zero.webp",
     "stats": {
       "hp": [
         143,
@@ -37466,14 +37466,14 @@ export const loCharacters = [
         "tab": "Hospitality Outfit (Kunoichi Zero)",
         "price": "136",
         "desc": "In hopes of having a wonderful time on her date with you, Kunoichi Zero has made her way through acquiring her infiltration outfit. As a reimage of a blooming flower, this outfit blossoms when its been ruffled.",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/kunoichi-zero-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/kunoichi-zero-1.webp"
       },
       {
         "name": "A Wild Bunny Caught in a Net!? (Kunoichi Zero)",
         "tab": "A Wild Bunny Caught in a Net!? (Kunoichi Zero)",
         "price": "147",
         "desc": "Kunoichi Zero has prepared a bunnysuit with fishnets to seduce you, despite her great embarrassment.",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/kunoichi-zero-2.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/kunoichi-zero-2.webp"
       }
     ],
     "sortOrder": 174
@@ -37651,8 +37651,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/snow-feather.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/snow-feather.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/snow-feather.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/snow-feather.webp",
     "stats": {
       "hp": [
         190,
@@ -37713,21 +37713,21 @@ export const loCharacters = [
         "tab": "Base",
         "price": "",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/snow-feather-0.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/snow-feather-0.webp"
       },
       {
         "name": "Wedding Dress (Snow Feather)",
         "tab": "Wedding Dress (Snow Feather)",
         "price": "114",
         "desc": "For the little sister who was becoming more uneasy that grew alongside the feeling for you, big sisters of Companion Series made this dress by gathering their feeling of encouragement for her. Will you receive her affection for you that she revealed despite her anxiety?",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/snow-feather-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/snow-feather-1.webp"
       },
       {
         "name": "Feather Bikini of Mercy (Snow Feather)",
         "tab": "Feather Bikini of Mercy (Snow Feather)",
         "price": "202",
         "desc": "The Companions are enjoying the sound of the crashing waves together. The summer sun is harsh, so it's a relief you can relax as well under the shade of her cool wings.",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/snow-feather-2.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/snow-feather-2.webp"
       }
     ],
     "sortOrder": 175
@@ -37835,8 +37835,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/cerestia.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/cerestia.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/cerestia.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/cerestia.webp",
     "stats": {
       "hp": [
         275,
@@ -37904,21 +37904,21 @@ export const loCharacters = [
         "tab": "|rowspan",
         "price": "",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/cerestia-0.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/cerestia-0.webp"
       },
       {
         "name": "Cowgirl Bikini (Cerestia)",
         "tab": "Cowgirl Bikini (Cerestia)",
         "price": "182",
         "desc": "New banana milk product CF that features Celestia will start now! Well then, Commander? Would you give the go sign?",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/cerestia-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/cerestia-1.webp"
       },
       {
         "name": "Rejuvenating Bikini (Cerestia)",
         "tab": "Rejuvenating Bikini (Cerestia)",
         "price": "182",
         "desc": "This time, Cerestia says she's developed a health tonic boasting a sweet fruity flavor. Don't pay too much attention to the strange shape of the bottle, and try some! It'll give you wings!",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/cerestia-2.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/cerestia-2.webp"
       }
     ],
     "sortOrder": 176
@@ -38219,8 +38219,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/andvari.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/andvari.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/andvari.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/andvari.webp",
     "stats": {
       "hp": [
         200,
@@ -38288,35 +38288,35 @@ export const loCharacters = [
         "tab": "|rowspan",
         "price": "",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/andvari-0.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/andvari-0.webp"
       },
       {
         "name": "Witch Costume (Andvari)",
         "tab": "|rowspan",
         "price": "91",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/andvari-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/andvari-1.webp"
       },
       {
         "name": "Preschooler Uniform (Andvari)",
         "tab": "|rowspan",
         "price": "114",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/andvari-2.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/andvari-2.webp"
       },
       {
         "name": "Classic Child Suit (Andvari)",
         "tab": "|rowspan",
         "price": "114",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/andvari-3.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/andvari-3.webp"
       },
       {
         "name": "Vacation Swimsuit (Andvari)",
         "tab": "|rowspan",
         "price": "192",
         "desc": "The growth serum that Doctor made has allowed Andvari to dream of life as an adult, even if only for a bit. She isn't the little kid you used to know. Please support the more mature and beautiful Andvari in her dreams!",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/andvari-4.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/andvari-4.webp"
       }
     ],
     "sortOrder": 177
@@ -38498,8 +38498,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/dryad.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/dryad.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/dryad.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/dryad.webp",
     "stats": {
       "hp": [
         200,
@@ -38575,21 +38575,21 @@ export const loCharacters = [
         "tab": "|rowspan",
         "price": "",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/dryad-0.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/dryad-0.webp"
       },
       {
         "name": "Patient Clothing (Dryad)",
         "tab": "Patient Clothing (Dryad)",
         "price": "114",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/dryad-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/dryad-1.webp"
       },
       {
         "name": "Dirndl (Dryad)",
         "tab": "Dirndl (Dryad)",
         "price": "192",
         "desc": "Let's all have some beer that Dryad made with golden wheat she grew herself to recreate a festival from the old world, beloved for generations. The soft head and rich nutty flavor is just exceptional! Pair it with some special sausages and bread and you'll be more than satisfied. Oh? Unlike her usual self, Dryad seems rather flustered. It's probably since you're enjoying the beer she brewed with all her care and love.",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/dryad-2.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/dryad-2.webp"
       }
     ],
     "sortOrder": 178
@@ -38702,8 +38702,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/sadius.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/sadius.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/sadius.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/sadius.webp",
     "stats": {
       "hp": [
         320,
@@ -38771,21 +38771,21 @@ export const loCharacters = [
         "tab": "Base",
         "price": "",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/sadius-0.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/sadius-0.webp"
       },
       {
         "name": "Thunder Dragon Outfit (Sadius)",
         "tab": "Thunder Dragon Outfit (Sadius)",
         "price": "182",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/sadius-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/sadius-1.webp"
       },
       {
         "name": "Party Swimsuit (Sadius)",
         "tab": "Party Swimsuit (Sadius)",
         "price": "167",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/sadius-2.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/sadius-2.webp"
       }
     ],
     "sortOrder": 179
@@ -38956,8 +38956,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/kunoichi-kaen.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/kunoichi-kaen.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/kunoichi-kaen.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/kunoichi-kaen.webp",
     "stats": {
       "hp": [
         185,
@@ -39033,7 +39033,7 @@ export const loCharacters = [
         "tab": "Host Outfit (Kunoichi Kaen)",
         "price": "114",
         "desc": "Once like a blank sheet of paper, Kaen is slowly filling up herself with your unique colors. Listen to her vigorous voice, and embrace yourself with the two flowers, each on your arms.",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/kunoichi-kaen-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/kunoichi-kaen-1.webp"
       }
     ],
     "sortOrder": 180
@@ -39198,8 +39198,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/hraesvelgr.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/hraesvelgr.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/hraesvelgr.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/hraesvelgr.webp",
     "stats": {
       "hp": [
         145,
@@ -39267,21 +39267,21 @@ export const loCharacters = [
         "tab": "|rowspan",
         "price": "",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/hraesvelgr-0.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/hraesvelgr-0.webp"
       },
       {
         "name": "Idol Costume (Hraesvelgr)",
         "tab": "|rowspan",
         "price": "219",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/hraesvelgr-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/hraesvelgr-1.webp"
       },
       {
         "name": "Magical MoMo Summer Set (Hraesvelgr)",
         "tab": "Magical MoMo Summer Set (Hraesvelgr)",
         "price": "114",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/hraesvelgr-2.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/hraesvelgr-2.webp"
       }
     ],
     "sortOrder": 181
@@ -39487,8 +39487,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/wraith.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/wraith.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/wraith.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/wraith.webp",
     "stats": {
       "hp": [
         195,
@@ -39556,28 +39556,28 @@ export const loCharacters = [
         "tab": "|rowspan",
         "price": "",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/wraith-0.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/wraith-0.webp"
       },
       {
         "name": "Special Agent Equipment (Wraith)",
         "tab": "Special Agent Equipment (Wraith)",
         "price": "114",
         "desc": "One of Wraith's desires is to take after her idol, Phantom. Which is why this outfit will be a very pleasant gift for her. The size seems a little small, but as long as she's happy, we'll let it pass.",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/wraith-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/wraith-1.webp"
       },
       {
         "name": "The Best Swimsuit (Wraith)",
         "tab": "The Best Swimsuit (Wraith)",
         "price": "136",
         "desc": "Seeing you suffering from such heat, our agent came out of stealth operation and started selling beverages. The thing though, is that it has gotten so unexpectedly popular that it took her off-guard. That said, why not go to her and order some drinks? Just sayin'.",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/wraith-2.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/wraith-2.webp"
       },
       {
         "name": "Trainee Magical Girl's Outfit (Wraith)",
         "tab": "Trainee Magical Girl's Outfit (Wraith)",
         "price": "147",
         "desc": "Wraith is training hard under Magical MoMo's guidance to become a magical girl. However, her training is far from easy. Ordering food at Submarine, getting her hair done at BoRyeon's boutique .... Can Wraith pass these trials and become an official magical girl?",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/wraith-3.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/wraith-3.webp"
       }
     ],
     "sortOrder": 182
@@ -39702,8 +39702,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/poi.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/poi.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/poi.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/poi.webp",
     "stats": {
       "hp": [
         190,
@@ -39771,14 +39771,14 @@ export const loCharacters = [
         "tab": "Dress Shirt (Poi)",
         "price": "159",
         "desc": "Oh no! It looks like Poi has stolen milk... Or.. from the looks of her face, that's not what happened. Something dangerous might happen, don't let your guard down!",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/poi-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/poi-1.webp"
       },
       {
         "name": "Transparent Zipsuit (Poi)",
         "tab": "Transparent Zipsuit (Poi)",
         "price": "156",
         "desc": "Poi didn't want water near her body, yet she wanted to swim alongside her master. Audrey somehow satisfied this client with this seemingly impossible request. How? With this marvelous outfit! But to be honest, Poi is more interested in you than this summer beach.",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/poi-2.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/poi-2.webp"
       }
     ],
     "sortOrder": 183
@@ -39884,8 +39884,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/leanne.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/leanne.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/leanne.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/leanne.webp",
     "stats": {
       "hp": [
         210,
@@ -39953,21 +39953,21 @@ export const loCharacters = [
         "tab": "Date Outfit (Leanne)",
         "price": "136",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/leanne-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/leanne-1.webp"
       },
       {
         "name": "Wedding Dress (Leanne)",
         "tab": "Wedding Dress (Leanne)",
         "price": "136",
         "desc": "Leanne who's wearing snow white wedding dress has the face that shows both anticipation and happiness. You, who have been spending a long time with her, should know what she wants, right? Go on ahead. There's an old friend waiting for you.",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/leanne-2.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/leanne-2.webp"
       },
       {
         "name": "Lifeguard Swimsuit (Leanne)",
         "tab": "Lifeguard Swimsuit (Leanne)",
         "price": "147",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/leanne-3.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/leanne-3.webp"
       }
     ],
     "sortOrder": 184
@@ -40070,8 +40070,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/eternity.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/eternity.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/eternity.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/eternity.webp",
     "stats": {
       "hp": [
         245,
@@ -40139,35 +40139,35 @@ export const loCharacters = [
         "tab": "Straitjacket (Eternity)",
         "price": "136",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/eternity-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/eternity-1.webp"
       },
       {
         "name": "Lingerie Bikini (Eternity)",
         "tab": "Lingerie Bikini (Eternity)",
         "price": "159",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/eternity-2.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/eternity-2.webp"
       },
       {
         "name": "Clothes for Seducing Master (Eternity)",
         "tab": "Clothes for Seducing Master (Eternity)",
         "price": "196",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/eternity-3.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/eternity-3.webp"
       },
       {
         "name": "Ceremonial Robes for the End (Eternity)",
         "tab": "Ceremonial Robes for the End (Eternity)",
         "price": "182",
         "desc": "Eternity is an unusual type of bioroid who prepares clothes for her own death. As joining her master in their coffin requires utmost respect and care ... they are full of her determination to serve you to the end, even in the afterlife. The day she takes these clothes out may be humanity's final day.",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/eternity-4.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/eternity-4.webp"
       },
       {
         "name": "Flower Dress (Eternity)",
         "tab": "Flower Dress (Eternity)",
         "price": "302",
         "desc": "Ordinary flowers would wither away soon after being cut, but Eternity is a beautiful flower that will stay in bloom forever. She says she is happy to spend her every moment with you, her beloved master. Bury your face in her bouquet that only blossom with your love, and let her experience with all her body the feeling of a flower bud burgeoning.",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/eternity-5.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/eternity-5.webp"
       }
     ],
     "sortOrder": 185
@@ -40248,8 +40248,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/azaz.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/azaz.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/azaz.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/azaz.webp",
     "stats": {
       "hp": [
         255,
@@ -40317,14 +40317,14 @@ export const loCharacters = [
         "tab": "Muscle-mania Bikini (Azaz)",
         "price": "159",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/azaz-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/azaz-1.webp"
       },
       {
         "name": "Bunny Girl Costume (Azaz)",
         "tab": "Bunny Girl Costume (Azaz)",
         "price": "196",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/azaz-2.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/azaz-2.webp"
       }
     ],
     "sortOrder": 186
@@ -40366,8 +40366,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/lemonade-alpha.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/lemonade-alpha.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/lemonade-alpha.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/lemonade-alpha.webp",
     "stats": {
       "hp": [
         275,
@@ -40435,21 +40435,21 @@ export const loCharacters = [
         "tab": "Lace Lingerie (Lemonade Alpha)",
         "price": "159",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/lemonade-alpha-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/lemonade-alpha-1.webp"
       },
       {
         "name": "Hanbok for a night with you (Lemonade Alpha)",
         "tab": "Hanbok for a night with you (Lemonade Alpha)",
         "price": "167",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/lemonade-alpha-2.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/lemonade-alpha-2.webp"
       },
       {
         "name": "Lemonade Delta's Dress (Lemonade Alpha)",
         "tab": "Lemonade Delta's Dress (Lemonade Alpha)",
         "price": "182",
         "desc": "Oh my, it seems Delta's dress was too difficult for Alpha to wear. She insisted that she'd wear the same size as Delta ... How will you teach a lesson to this stubborn actress?",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/lemonade-alpha-3.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/lemonade-alpha-3.webp"
       }
     ],
     "sortOrder": 187
@@ -40532,8 +40532,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/ella.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/ella.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/ella.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/ella.webp",
     "stats": {
       "hp": [
         155,
@@ -40601,14 +40601,14 @@ export const loCharacters = [
         "tab": "Animal Pajama (Ella)",
         "price": "136",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/ella-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/ella-1.webp"
       },
       {
         "name": "Vacation Swimsuit (Ella)",
         "tab": "Vacation Swimsuit (Ella)",
         "price": "192",
         "desc": "The ocean looks like the blue skies above, and the horizon stretches out without end. She was there alone, and surely feeling lonely. In your time with her, Ella's charm has ended up catching you unaware, winding its way around you. The blue waves breaking at your feet mix with her smile, and turn this summer into an even more dazzling sight.",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/ella-2.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/ella-2.webp"
       }
     ],
     "sortOrder": 188
@@ -40707,8 +40707,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/rena.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/rena.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/rena.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/rena.webp",
     "stats": {
       "hp": [
         320,
@@ -40776,7 +40776,7 @@ export const loCharacters = [
         "tab": "Bunny Suit...-shaped Wrestling Uniform (Rena)",
         "price": "114",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/rena-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/rena-1.webp"
       }
     ],
     "sortOrder": 189
@@ -40933,8 +40933,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/mery.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/mery.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/mery.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/mery.webp",
     "stats": {
       "hp": [
         260,
@@ -41002,7 +41002,7 @@ export const loCharacters = [
         "tab": "Painting with a Beauty (Mery)",
         "price": "114",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/mery-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/mery-1.webp"
       }
     ],
     "sortOrder": 190
@@ -41082,8 +41082,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/machina.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/machina.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/machina.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/machina.webp",
     "stats": {
       "hp": [
         177,
@@ -41151,21 +41151,21 @@ export const loCharacters = [
         "tab": "Base",
         "price": "",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/machina-0.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/machina-0.webp"
       },
       {
         "name": "Hologram Wedding Dress (Machina)",
         "tab": "Hologram Wedding Dress (Machina)",
         "price": "136",
         "desc": "As time passes, I mean, precisely, because of you and the atmosphere of Orca, Machina could lay down her burden. I heard that Azaz and Mary helped Machina to express her affection and gratitude to you... Huh? The part of that dress seems a bit odd...? It's like... a hologram...?",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/machina-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/machina-1.webp"
       },
       {
         "name": "Swimsuit (Machina)",
         "tab": "Swimsuit (Machina)",
         "price": "192",
         "desc": "The world of fashion is so complicated and confusing! Machina mumbles as she tries to recreate an haute couture outfit that embodies human desires. Can this ... really be called clothing?",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/machina-2.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/machina-2.webp"
       }
     ],
     "sortOrder": 191
@@ -41278,8 +41278,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/salamander.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/salamander.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/salamander.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/salamander.webp",
     "stats": {
       "hp": [
         238,
@@ -41355,14 +41355,14 @@ export const loCharacters = [
         "tab": "|rowspan",
         "price": "",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/salamander-0.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/salamander-0.webp"
       },
       {
         "name": "A Shirt, Skirt ...... and Bandaids? (Salamander)",
         "tab": "A Shirt, Skirt ...... and Bandaids? (Salamander)",
         "price": "147",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/salamander-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/salamander-1.webp"
       }
     ],
     "sortOrder": 192
@@ -41425,8 +41425,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/scarabya.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/scarabya.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/scarabya.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/scarabya.webp",
     "stats": {
       "hp": [
         265,
@@ -41494,14 +41494,14 @@ export const loCharacters = [
         "tab": "Given Costume (Scarabya)",
         "price": "136",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/scarabya-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/scarabya-1.webp"
       },
       {
         "name": "Health Committee Uniform (Scarabya)",
         "tab": "Health Committee Uniform (Scarabya)",
         "price": "147",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/scarabya-2.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/scarabya-2.webp"
       }
     ],
     "sortOrder": 193
@@ -41802,8 +41802,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/hyena.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/hyena.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/hyena.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/hyena.webp",
     "stats": {
       "hp": [
         144,
@@ -41879,21 +41879,21 @@ export const loCharacters = [
         "tab": "|rowspan",
         "price": "",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/hyena-0.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/hyena-0.webp"
       },
       {
         "name": "Somewhat Suspicious Bikini (Hyena)",
         "tab": "|rowspan",
         "price": "114",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/hyena-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/hyena-1.webp"
       },
       {
         "name": "Street Writer's Clothes (Hyena)",
         "tab": "|rowspan",
         "price": "147",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/hyena-2.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/hyena-2.webp"
       }
     ],
     "sortOrder": 194
@@ -41935,8 +41935,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/lemonade-gamma.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/lemonade-gamma.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/lemonade-gamma.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/lemonade-gamma.webp",
     "stats": {
       "hp": [
         271,
@@ -42004,14 +42004,14 @@ export const loCharacters = [
         "tab": "Slip Gown (Gamma)",
         "price": "182",
         "desc": "Lemonade Gamma was planning to take her combat suit off and enjoy a relaxing vacation - until you showed up and caught her in the act. But don't worry. You already know how to quell the wrath of a lady angry from being caught defenseless, don't you?",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/lemonade-gamma-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/lemonade-gamma-1.webp"
       },
       {
         "name": "Captain's Maid? Outfit (Gamma)",
         "tab": "Captain's Maid? Outfit (Gamma)",
         "price": "327",
         "desc": "The day has finally come! Café Poseidon is officially open for business, and they've prepared a special lemonade menu in an ambitious bid to surpass Café Horizon. Merlin is as happy as she could be that her dream of finally opening a café has come true, with the help of Rhode (who may be a bumbling troublemaker). Even Merope is helping out for the day as an honorary member of Poseidon, but despite the extra help, the new café's popularity seems to be more than they can handle. Looks like it's up to Gamma to make sure everyone's hard work bears fruit.",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/lemonade-gamma-2.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/lemonade-gamma-2.webp"
       }
     ],
     "sortOrder": 195
@@ -42044,8 +42044,8 @@ export const loCharacters = [
       ],
       "groups": []
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/rhode.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/rhode.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/rhode.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/rhode.webp",
     "stats": {
       "hp": [
         192,
@@ -42156,7 +42156,7 @@ export const loCharacters = [
         "tab": "Sweets Lolita (Rhode)",
         "price": "[[Store#Unit_One-Off_Package",
         "desc": "Rhode's prepared an outfit that'll give everyone a sweet taste for the tea party. Hopefully she doesn't trip on her own feet this time. After all, she's the main dessert.",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/rhode-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/rhode-1.webp"
       }
     ],
     "sortOrder": 197
@@ -42217,8 +42217,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/merope.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/merope.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/merope.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/merope.webp",
     "stats": {
       "hp": [
         196,
@@ -42286,7 +42286,7 @@ export const loCharacters = [
         "tab": "Outfit for a Date with Her Crush (Merope)",
         "price": "182",
         "desc": "You've brought Merope to Orca Park as a reward for working hard as your bodyguard. A date with a cute orca! But it seems it will be difficult to escape the piercing gaze of her thoughtful big sister...",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/merope-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/merope-1.webp"
       }
     ],
     "sortOrder": 198
@@ -42357,8 +42357,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/merlin.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/merlin.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/merlin.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/merlin.webp",
     "stats": {
       "hp": [
         222,
@@ -42426,14 +42426,14 @@ export const loCharacters = [
         "tab": "Maid? Outfit (Merlin)",
         "price": "182",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/merlin-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/merlin-1.webp"
       },
       {
         "name": "Concert Dress (Merlin)",
         "tab": "Concert Dress (Merlin)",
         "price": "252",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/merlin-2.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/merlin-2.webp"
       }
     ],
     "sortOrder": 199
@@ -42484,8 +42484,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/triton.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/triton.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/triton.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/triton.webp",
     "stats": {
       "hp": [
         340,
@@ -42599,8 +42599,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/albatross.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/albatross.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/albatross.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/albatross.webp",
     "stats": {
       "hp": [
         294,
@@ -42668,14 +42668,14 @@ export const loCharacters = [
         "tab": "Base",
         "price": "",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/albatross-0.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/albatross-0.webp"
       },
       {
         "name": "Base Guardian Model (Albatross)",
         "tab": "Base Guardian Model (Albatross)",
         "price": "182",
         "desc": "This is how Albatross looked like when he patrolled in the center of the city. Although he can't perform a \"cymatic scan\" or erase people's memory with the Neuralyzer, he still soothes citizens' heart as a landmark.",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/albatross-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/albatross-1.webp"
       }
     ],
     "sortOrder": 201
@@ -42827,8 +42827,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/seljuq.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/seljuq.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/seljuq.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/seljuq.webp",
     "stats": {
       "hp": [
         277,
@@ -42939,14 +42939,14 @@ export const loCharacters = [
         "tab": "|rowspan",
         "price": "",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/seljuq-0.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/seljuq-0.webp"
       },
       {
         "name": "Independent Combat-type Seljuq Model",
         "tab": "|rowspan",
         "price": "136",
         "desc": "This is Model K 180 ESeljuq with improved AI and other upgrades. However, it seems they added a emotion module and a hologram module...what for?",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/seljuq-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/seljuq-1.webp"
       }
     ],
     "sortOrder": 202
@@ -43049,8 +43049,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/gigantes.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/gigantes.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/gigantes.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/gigantes.webp",
     "stats": {
       "hp": [
         335,
@@ -43126,14 +43126,14 @@ export const loCharacters = [
         "tab": "Base",
         "price": "",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/gigantes-0.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/gigantes-0.webp"
       },
       {
         "name": "Dagon Custom Pack (Gigantes)",
         "tab": "Dagon Custom Pack (Gigantes)",
         "price": "114",
         "desc": "The eternal rival of Ramparion, Deep Sea Dagon is angered by the failure of his subordinates and decided to raise up from the deep sea. (This product is rentaled by D-Entertainment from Black River. In case of damage and malfunctioning, all compensation must be made following America's Compensation Law.)",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/gigantes-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/gigantes-1.webp"
       }
     ],
     "sortOrder": 203
@@ -43163,8 +43163,8 @@ export const loCharacters = [
     "weight": "0.96t",
     "equipRec": "CCOG",
     "farm": null,
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/fallen.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/fallen.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/fallen.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/fallen.webp",
     "stats": {
       "hp": [
         231,
@@ -43240,7 +43240,7 @@ export const loCharacters = [
         "tab": "Base",
         "price": "",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/fallen-0.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/fallen-0.webp"
       }
     ],
     "sortOrder": 204
@@ -43305,8 +43305,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/orellia.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/orellia.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/orellia.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/orellia.webp",
     "stats": {
       "hp": [
         170,
@@ -43424,8 +43424,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/tachi.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/tachi.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/tachi.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/tachi.webp",
     "stats": {
       "hp": [
         170,
@@ -43514,8 +43514,8 @@ export const loCharacters = [
       ],
       "groups": []
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/kunoichi-shiden.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/kunoichi-shiden.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/kunoichi-shiden.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/kunoichi-shiden.webp",
     "stats": {
       "hp": [
         180,
@@ -43583,28 +43583,28 @@ export const loCharacters = [
         "tab": "Base",
         "price": "",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/kunoichi-shiden-0.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/kunoichi-shiden-0.webp"
       },
       {
         "name": "Ornate Kimono (Kunoichi Shiden)",
         "tab": "Ornate Kimono (Kunoichi Shiden)",
         "price": "182",
         "desc": "After enjoying the warm tea and sweet snacks, it's time to move on to the next course. Shiden, adorned in dazzlingly elaborate clothes, looks at you with ease. Now, go ahead and show her everything that you have. Until she won't let you go and starts begging to buy all your time.",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/kunoichi-shiden-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/kunoichi-shiden-1.webp"
       },
       {
         "name": "White Tiger Onee Gyaru (Kunoichi Shiden)",
         "tab": "White Tiger Onee Gyaru (Kunoichi Shiden)",
         "price": "342",
         "desc": "They say late bloomers can be a handful, and Shiden's been waiting for 800 years to finally try out the cute gyaru style she'd admired for so long. With your love and support, she's managed to muster up the courage to get a total wardrobe change. Of course, she is still a lovely and courageous nadeshiko no matter her looks, but maybe thanks to having a perfect outfit, she's being quite affectionate compared to her usual self. The time has come for all the effort she put into BoRyeon's gyaru training as a kunoichi to finally shine!",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/kunoichi-shiden-2.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/kunoichi-shiden-2.webp"
       },
       {
         "name": "Black Tiger Onee Gyaru (Kunoichi Shiden)",
         "tab": "Black Tiger Onee Gyaru (Kunoichi Shiden)",
         "price": "342",
         "desc": "They say late bloomers can be a handful, and Shiden's been waiting for 800 years to finally try out the cute gyaru style she'd admired for so long. With your love and support, she's managed to muster up the courage to get a total wardrobe change. Of course, she is still a lovely and courageous nadeshiko no matter her looks, but maybe thanks to having a perfect outfit, she's being quite affectionate compared to her usual self. The time has come for all the effort she put into BoRyeon's gyaru training as a kunoichi to finally shine!",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/kunoichi-shiden-3.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/kunoichi-shiden-3.webp"
       }
     ],
     "sortOrder": 207
@@ -43683,8 +43683,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/erato.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/erato.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/erato.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/erato.webp",
     "stats": {
       "hp": [
         222,
@@ -43752,21 +43752,21 @@ export const loCharacters = [
         "tab": "Base",
         "price": "",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/erato-0.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/erato-0.webp"
       },
       {
         "name": "Wedding Dress (Erato)",
         "tab": "Wedding Dress (Erato)",
         "price": "114",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/erato-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/erato-1.webp"
       },
       {
         "name": "Bunnysuit for the Fans (Erato)",
         "tab": "Bunnysuit for the Fans (Erato)",
         "price": "167",
         "desc": "She's prepared to allure the crowd. Are you all ready? One, two, three, the special concert begins now!",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/erato-2.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/erato-2.webp"
       }
     ],
     "sortOrder": 208
@@ -43881,8 +43881,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/muse.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/muse.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/muse.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/muse.webp",
     "stats": {
       "hp": [
         192,
@@ -43958,21 +43958,21 @@ export const loCharacters = [
         "tab": "Idol Costume (Muse)",
         "price": "174",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/muse-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/muse-1.webp"
       },
       {
         "name": "Wedding Dress (Muse)",
         "tab": "Wedding Dress (Muse)",
         "price": "114",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/muse-2.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/muse-2.webp"
       },
       {
         "name": "Bunnysuit (Muse)",
         "tab": "Bunnysuit (Muse)",
         "price": "182",
         "desc": "Encore! Having been inspired by the ever-popular Erato, Muse hard at work practicing for her special concert with her. Please cheer her on so she can overcome her shyness and stand proudly before her fans. It's showtime again!",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/muse-3.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/muse-3.webp"
       }
     ],
     "sortOrder": 209
@@ -44104,8 +44104,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/boryeon.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/boryeon.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/boryeon.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/boryeon.webp",
     "stats": {
       "hp": [
         180,
@@ -44173,14 +44173,14 @@ export const loCharacters = [
         "tab": "Hawaiian Bikini (BoRyeon)",
         "price": "114",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/boryeon-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/boryeon-1.webp"
       },
       {
         "name": "Customized School Uniform (BoRyeon)",
         "tab": "Customized School Uniform (BoRyeon)",
         "price": "147",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/boryeon-2.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/boryeon-2.webp"
       }
     ],
     "sortOrder": 210
@@ -44263,8 +44263,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/orangeade.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/orangeade.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/orangeade.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/orangeade.webp",
     "stats": {
       "hp": [
         200,
@@ -44340,35 +44340,35 @@ export const loCharacters = [
         "tab": "Base",
         "price": "",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/orangeade-0.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/orangeade-0.webp"
       },
       {
         "name": "Frill Mini Onepiece (Orangeade)",
         "tab": "Frill Mini Onepiece (Orangeade)",
         "price": "136",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/orangeade-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/orangeade-1.webp"
       },
       {
         "name": "Cutie-pie Orange (Orangeade)",
         "tab": "Cutie-pie Orange (Orangeade)",
         "price": "41",
         "desc": "Hello, Commander! It's cutie-pie Orangeade~!!",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/orangeade-2.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/orangeade-2.webp"
       },
       {
         "name": "Sporty Bunnygirl (Orangeade)",
         "tab": "Sporty Bunnygirl (Orangeade)",
         "price": "192",
         "desc": "You've been bored, right? The refreshing Orange Sunshine Bunny has come to tickle your eardrums, with a smile as bright as the sun on her face. As always, today's Orangeade is 100% sweet!",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/orangeade-3.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/orangeade-3.webp"
       },
       {
         "name": "Tower Assistant",
         "tab": "Tower Assistant",
         "price": "",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/orangeade-4.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/orangeade-4.webp"
       }
     ],
     "sortOrder": 211
@@ -44432,8 +44432,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/hathor.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/hathor.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/hathor.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/hathor.webp",
     "stats": {
       "hp": [
         140,
@@ -44501,14 +44501,14 @@ export const loCharacters = [
         "tab": "Base",
         "price": "",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/hathor-0.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/hathor-0.webp"
       },
       {
         "name": "Cowgirl Bikini (Hathor)",
         "tab": "Cowgirl Bikini (Hathor)",
         "price": "147",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/hathor-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/hathor-1.webp"
       }
     ],
     "sortOrder": 212
@@ -44550,8 +44550,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/lemonade-beta.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/lemonade-beta.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/lemonade-beta.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/lemonade-beta.webp",
     "stats": {
       "hp": [
         132,
@@ -44619,14 +44619,14 @@ export const loCharacters = [
         "tab": "Chairman's Dedicated Secretary (Lemonade Beta)",
         "price": "182",
         "desc": "This is a small token of appreciation for all your hard work, Master. All I have to do is the same things I did for the old Chairman, right? I'm ready, Master!",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/lemonade-beta-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/lemonade-beta-1.webp"
       },
       {
         "name": "Lingerie Dress (Lemonade Beta)",
         "tab": "Lingerie Dress (Lemonade Beta)",
         "price": "262",
         "desc": "What could love possibly mean for a lonely sinner? Perhaps it is something far too generous for such a person .... She decides to make a clumsy attempt at self-pleasure and quell the ache for love from deep within her belly.",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/lemonade-beta-2.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/lemonade-beta-2.webp"
       }
     ],
     "sortOrder": 213
@@ -44688,8 +44688,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/deathstalker.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/deathstalker.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/deathstalker.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/deathstalker.webp",
     "stats": {
       "hp": [
         240,
@@ -44765,7 +44765,7 @@ export const loCharacters = [
         "tab": "Enhanced Combat Model (S7 Deathstalker)",
         "price": "192",
         "desc": "Aeda's new body caused a ripple effect in many ways. So many AGSes went to Azaz that she was buried in work, and the loyal and hardworking Deathstalker would also pay her a visit in secret one day. Using scrapped schematics from River Metall as a base, her new body is apparently focused on maximizing her abilities on the battlefield.... Could it be that this \"battlefield\" is the Commander's quarters?",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/deathstalker-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/deathstalker-1.webp"
       }
     ],
     "sortOrder": 214
@@ -44903,8 +44903,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/spartan-captain.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/spartan-captain.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/spartan-captain.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/spartan-captain.webp",
     "stats": {
       "hp": [
         240,
@@ -44973,7 +44973,7 @@ export const loCharacters = [
         "tab": "|rowspan",
         "price": "",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/spartan-captain-0.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/spartan-captain-0.webp"
       }
     ],
     "sortOrder": 215
@@ -45003,8 +45003,8 @@ export const loCharacters = [
     "weight": "0.54t",
     "equipRec": "CCOG",
     "farm": null,
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/spartan-assault.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/spartan-assault.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/spartan-assault.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/spartan-assault.webp",
     "stats": {
       "hp": [
         228,
@@ -45066,7 +45066,7 @@ export const loCharacters = [
         "tab": "Base",
         "price": "",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/spartan-assault-0.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/spartan-assault-0.webp"
       }
     ],
     "sortOrder": 216
@@ -45096,8 +45096,8 @@ export const loCharacters = [
     "weight": "0.67t",
     "equipRec": "CCOG",
     "farm": null,
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/spartan-boomer.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/spartan-boomer.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/spartan-boomer.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/spartan-boomer.webp",
     "stats": {
       "hp": [
         228,
@@ -45159,7 +45159,7 @@ export const loCharacters = [
         "tab": "Base",
         "price": "",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/spartan-boomer-0.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/spartan-boomer-0.webp"
       }
     ],
     "sortOrder": 217
@@ -45222,8 +45222,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/roc.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/roc.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/roc.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/roc.webp",
     "stats": {
       "hp": [
         222,
@@ -45291,14 +45291,14 @@ export const loCharacters = [
         "tab": "Base",
         "price": "",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/roc-0.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/roc-0.webp"
       },
       {
         "name": "Guardian Knight Model (Roc)",
         "tab": "Guardian Knight Model (Roc)",
         "price": "212",
         "desc": "The black reaper, free from his duty of watching over his old master's grave, went on a long adventure in search of a purpose. Now, he has finally become a knight safeguarding the skies of the Orca.",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/roc-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/roc-1.webp"
       }
     ],
     "sortOrder": 221
@@ -45428,8 +45428,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/fortress.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/fortress.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/fortress.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/fortress.webp",
     "stats": {
       "hp": [
         297,
@@ -45540,7 +45540,7 @@ export const loCharacters = [
         "tab": "|rowspan",
         "price": "",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/fortress-0.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/fortress-0.webp"
       }
     ],
     "sortOrder": 222
@@ -45593,8 +45593,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/tyrant.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/tyrant.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/tyrant.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/tyrant.webp",
     "stats": {
       "hp": [
         384,
@@ -45662,14 +45662,14 @@ export const loCharacters = [
         "tab": "Base",
         "price": "",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/tyrant-0.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/tyrant-0.webp"
       },
       {
         "name": "Model.Tiny Tyrant (Tyrant)",
         "tab": "Model.Tiny Tyrant (Tyrant)",
         "price": "159",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/tyrant-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/tyrant-1.webp"
       }
     ],
     "sortOrder": 224
@@ -45742,8 +45742,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/rhein-ritter.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/rhein-ritter.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/rhein-ritter.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/rhein-ritter.webp",
     "stats": {
       "hp": [
         226,
@@ -45819,7 +45819,7 @@ export const loCharacters = [
         "tab": "Rhein Tiger Model (Rhein Ritter)",
         "price": "159",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/rhein-ritter-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/rhein-ritter-1.webp"
       }
     ],
     "sortOrder": 225
@@ -45870,8 +45870,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/mr-alfred.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/mr-alfred.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/mr-alfred.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/mr-alfred.webp",
     "stats": {
       "hp": [
         324,
@@ -45939,21 +45939,21 @@ export const loCharacters = [
         "tab": "Base",
         "price": "",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/mr-alfred-0.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/mr-alfred-0.webp"
       },
       {
         "name": "Robert's Body Prototype",
         "tab": "Robert's Body Prototype",
         "price": "[[Exchange]]",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/mr-alfred-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/mr-alfred-1.webp"
       },
       {
         "name": "Event Portrait",
         "tab": "Event Portrait",
         "price": "",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/mr-alfred-2.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/mr-alfred-2.webp"
       }
     ],
     "sortOrder": 226
@@ -46091,8 +46091,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/watcher.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/watcher.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/watcher.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/watcher.webp",
     "stats": {
       "hp": [
         204,
@@ -46233,8 +46233,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/stronghold.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/stronghold.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/stronghold.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/stronghold.webp",
     "stats": {
       "hp": [
         372,
@@ -46302,14 +46302,14 @@ export const loCharacters = [
         "tab": "|rowspan",
         "price": "",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/stronghold-0.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/stronghold-0.webp"
       },
       {
         "name": "Custom Bipedal Caterpillars (Stronghold)",
         "tab": "Custom Bipedal Caterpillars (Stronghold)",
         "price": "192",
         "desc": "After much deliberation, Stronghold requested a meeting with Azaz and Sterling. His first words were: \"I have been deeply inspired by what Roc and Tyrant accomplished. As such I would like to request a new body that will allow me to deploy to more battlefields.\"",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/stronghold-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/stronghold-1.webp"
       }
     ],
     "sortOrder": 228
@@ -46373,8 +46373,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/sonia.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/sonia.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/sonia.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/sonia.webp",
     "stats": {
       "hp": [
         260,
@@ -46442,21 +46442,21 @@ export const loCharacters = [
         "tab": "Base",
         "price": "",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/sonia-0.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/sonia-0.webp"
       },
       {
         "name": "Swimsuit Prepared with Heart (Sonia)",
         "tab": "Swimsuit Prepared with Heart (Sonia)",
         "price": "114",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/sonia-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/sonia-1.webp"
       },
       {
         "name": "See-through Hoodie just before getting ravaged (Sonia)",
         "tab": "See-through Hoodie just before getting ravaged (Sonia)",
         "price": "182",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/sonia-2.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/sonia-2.webp"
       }
     ],
     "sortOrder": 229
@@ -46581,8 +46581,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/ellie.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/ellie.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/ellie.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/ellie.webp",
     "stats": {
       "hp": [
         190,
@@ -46658,7 +46658,7 @@ export const loCharacters = [
         "tab": "Picnic Outfit (Ellie)",
         "price": "114",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/ellie-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/ellie-1.webp"
       }
     ],
     "sortOrder": 230
@@ -46765,8 +46765,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/nicky-tracy.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/nicky-tracy.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/nicky-tracy.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/nicky-tracy.webp",
     "stats": {
       "hp": [
         190,
@@ -46834,7 +46834,7 @@ export const loCharacters = [
         "tab": "Transparent Coat (Nicky Tracy)",
         "price": "159",
         "desc": "It's a cloth that Nicky wears for difficult missions. If you are curious about its purpose, why don't you check it yourself? It might be more than what it seems.",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/nicky-tracy-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/nicky-tracy-1.webp"
       }
     ],
     "sortOrder": 231
@@ -46894,8 +46894,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/glacias.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/glacias.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/glacias.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/glacias.webp",
     "stats": {
       "hp": [
         240,
@@ -46963,7 +46963,7 @@ export const loCharacters = [
         "tab": "Model.Warm-hearted Queen (Glacias)",
         "price": "159",
         "desc": "Unlike Peregrinus, Glacias was incapable of switching body structure... But with the help of Azaz, it was of no problem. While surprised about the new body, Glacias gave thanks with warm voice. Because it can now talk in same eye level as you.",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/glacias-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/glacias-1.webp"
       }
     ],
     "sortOrder": 232
@@ -47114,8 +47114,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/queen-of-mane.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/queen-of-mane.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/queen-of-mane.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/queen-of-mane.webp",
     "stats": {
       "hp": [
         180,
@@ -47191,14 +47191,14 @@ export const loCharacters = [
         "tab": "Party Dress (Queen of Mane)",
         "price": "114",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/queen-of-mane-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/queen-of-mane-1.webp"
       },
       {
         "name": "Chain Bikini (Queen of Mane)",
         "tab": "Chain Bikini (Queen of Mane)",
         "price": "147",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/queen-of-mane-2.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/queen-of-mane-2.webp"
       }
     ],
     "sortOrder": 233
@@ -47286,8 +47286,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/mnemosyne.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/mnemosyne.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/mnemosyne.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/mnemosyne.webp",
     "stats": {
       "hp": [
         330,
@@ -47355,21 +47355,21 @@ export const loCharacters = [
         "tab": "Innocent One Piece (Mnemosyne)",
         "price": "159",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/mnemosyne-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/mnemosyne-1.webp"
       },
       {
         "name": "Cool Uniform (Mnemosyne)",
         "tab": "Cool Uniform (Mnemosyne)",
         "price": "114",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/mnemosyne-2.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/mnemosyne-2.webp"
       },
       {
         "name": "Stage Costume (Mnemosyne)",
         "tab": "Stage Costume (Mnemosyne)",
         "price": "182",
         "desc": "Here's looking at you, Commander! Mnemosyne is putting on a show in the mini pool to quell the lingering heat. Oh my ... Is that slight tint of red spreading on her face because of the cocktail, or because of her shyness towards you?",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/mnemosyne-3.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/mnemosyne-3.webp"
       }
     ],
     "sortOrder": 234
@@ -47627,8 +47627,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/hussar.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/hussar.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/hussar.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/hussar.webp",
     "stats": {
       "hp": [
         180,
@@ -47704,14 +47704,14 @@ export const loCharacters = [
         "tab": "|rowspan",
         "price": "114",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/hussar-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/hussar-1.webp"
       },
       {
         "name": "Biker's Clothes (Hussar)",
         "tab": "|rowspan",
         "price": "147",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/hussar-2.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/hussar-2.webp"
       }
     ],
     "sortOrder": 235
@@ -47813,8 +47813,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/ramiel.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/ramiel.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/ramiel.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/ramiel.webp",
     "stats": {
       "hp": [
         320,
@@ -47882,7 +47882,7 @@ export const loCharacters = [
         "tab": "Pareo (Ramiel)",
         "price": "136",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/ramiel-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/ramiel-1.webp"
       }
     ],
     "sortOrder": 236
@@ -47964,8 +47964,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/arachne.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/arachne.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/arachne.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/arachne.webp",
     "stats": {
       "hp": [
         280,
@@ -48026,7 +48026,7 @@ export const loCharacters = [
         "tab": "Model. Spider Queen (Arachne)",
         "price": "159",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/arachne-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/arachne-1.webp"
       }
     ],
     "sortOrder": 237
@@ -48134,8 +48134,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/sekhmet.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/sekhmet.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/sekhmet.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/sekhmet.webp",
     "stats": {
       "hp": [
         180,
@@ -48203,21 +48203,21 @@ export const loCharacters = [
         "tab": "Base",
         "price": "",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/sekhmet-0.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/sekhmet-0.webp"
       },
       {
         "name": "Dancer's Clothing (Sekhmet)",
         "tab": "Dancer's Clothing (Sekhmet)",
         "price": "196",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/sekhmet-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/sekhmet-1.webp"
       },
       {
         "name": "Cowgirl Bikini (Sekhmet)",
         "tab": "Cowgirl Bikini (Sekhmet)",
         "price": "192",
         "desc": "Elven Farm's new Elven Coffee Milk has just been released! Sweet and rich milk, and bitter and aromatic coffee beans. How about a taste of the coffee milk Sekhmet made by mixing both?",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/sekhmet-2.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/sekhmet-2.webp"
       }
     ],
     "sortOrder": 238
@@ -48277,8 +48277,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/peregrinus.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/peregrinus.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/peregrinus.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/peregrinus.webp",
     "stats": {
       "hp": [
         200,
@@ -48444,8 +48444,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/cyclops-princess.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/cyclops-princess.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/cyclops-princess.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/cyclops-princess.webp",
     "stats": {
       "hp": [
         157,
@@ -48513,14 +48513,14 @@ export const loCharacters = [
         "tab": "Admiral's Swimsuit (Cyclops Princess)",
         "price": "159",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/cyclops-princess-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/cyclops-princess-1.webp"
       },
       {
         "name": "Top-secret Agent Outfit (Cyclops Princess)",
         "tab": "Top-secret Agent Outfit (Cyclops Princess)",
         "price": "114",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/cyclops-princess-2.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/cyclops-princess-2.webp"
       }
     ],
     "sortOrder": 240
@@ -48580,8 +48580,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/blind-princess.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/blind-princess.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/blind-princess.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/blind-princess.webp",
     "stats": {
       "hp": [
         255,
@@ -48649,7 +48649,7 @@ export const loCharacters = [
         "tab": "Dragon Witch Costume (Blind Princess)",
         "price": "272",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/blind-princess-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/blind-princess-1.webp"
       }
     ],
     "sortOrder": 241
@@ -48691,8 +48691,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/nidhogg.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/nidhogg.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/nidhogg.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/nidhogg.webp",
     "stats": {
       "hp": [
         255,
@@ -48760,7 +48760,7 @@ export const loCharacters = [
         "tab": "Midgard Guardian Dragon Model (Nidhogg)",
         "price": "192",
         "desc": "With Glacias's mercy, Nidhogg has been given a new body. He faces his past, when he was a dutiful protector watching over Midgard, before being intoxicated by the thrill of bloodshed. Now, he seeks to become an an arbiter of justice once more with his new brothers, smiting those with evil intent who dare intrude upon the Orca's territory.",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/nidhogg-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/nidhogg-1.webp"
       }
     ],
     "sortOrder": 242
@@ -48805,8 +48805,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/dione.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/dione.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/dione.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/dione.webp",
     "stats": {
       "hp": [
         247,
@@ -48874,14 +48874,14 @@ export const loCharacters = [
         "tab": "Base",
         "price": "",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/dione-0.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/dione-0.webp"
       },
       {
         "name": "Harness Bikini (Dione)",
         "tab": "Harness Bikini (Dione)",
         "price": "182",
         "desc": "An unexpected girl, ready to care for you with all her heart and soul after you got heatstroke. Huh? For some reason it feels the roles have been reversed … Isn't there someone who can help her out of her predicament?",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/dione-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/dione-1.webp"
       }
     ],
     "sortOrder": 243
@@ -48914,8 +48914,8 @@ export const loCharacters = [
       ],
       "groups": []
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/melt.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/melt.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/melt.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/melt.webp",
     "stats": {
       "hp": [
         206,
@@ -48991,7 +48991,7 @@ export const loCharacters = [
         "tab": "Autumn Yukata (Melt)",
         "price": "182",
         "desc": "After getting trained by the Kunoichis, Melt has invited you to the Therapy Room in the water park. Put your work panel down, and try her deep sleep therapy. Don't worry that it might be too short ... it'll be a very long night with her.",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/melt-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/melt-1.webp"
       }
     ],
     "sortOrder": 244
@@ -49024,8 +49024,8 @@ export const loCharacters = [
       ],
       "groups": []
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/ireina.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/ireina.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/ireina.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/ireina.webp",
     "stats": {
       "hp": [
         294,
@@ -49101,14 +49101,14 @@ export const loCharacters = [
         "tab": "Base",
         "price": "",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/ireina-0.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/ireina-0.webp"
       },
       {
         "name": "Favorite Home Wear (Ireina)",
         "tab": "Favorite Home Wear (Ireina)",
         "price": "182",
         "desc": "It seems Lemonade Epsilon's joined the party to defeat the Demon Lord, hmm? And Ireina's changed into more comfortable clothes to stay up all night. With all the high-calorie snacks you could want, this place might seem like heaven on earth to some, but in reality it is a brutal battlefield. After many attempts, there only a single stage stands between her and the ending ...! Please watch till the end to find out if she manages to defeat the Demon Lord!",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/ireina-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/ireina-1.webp"
       }
     ],
     "sortOrder": 245
@@ -49191,8 +49191,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/brunhild.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/brunhild.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/brunhild.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/brunhild.webp",
     "stats": {
       "hp": [
         166,
@@ -49260,14 +49260,14 @@ export const loCharacters = [
         "tab": "|rowspan",
         "price": "",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/brunhild-0.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/brunhild-0.webp"
       },
       {
         "name": "Performance Suit lacking Fire Resistance (Brunhild)",
         "tab": "Performance Suit lacking Fire Resistance (Brunhild)",
         "price": "",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/brunhild-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/brunhild-1.webp"
       }
     ],
     "sortOrder": 246
@@ -49337,8 +49337,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/hela.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/hela.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/hela.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/hela.webp",
     "stats": {
       "hp": [
         264,
@@ -49406,7 +49406,7 @@ export const loCharacters = [
         "tab": "Bottomless Swimsuit (Hela)",
         "price": "147",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/hela-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/hela-1.webp"
       }
     ],
     "sortOrder": 247
@@ -49439,8 +49439,8 @@ export const loCharacters = [
       ],
       "groups": []
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/wistar.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/wistar.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/wistar.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/wistar.webp",
     "stats": {
       "hp": [
         125,
@@ -49508,14 +49508,14 @@ export const loCharacters = [
         "tab": "Base",
         "price": "",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/wistar-0.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/wistar-0.webp"
       },
       {
         "name": "Marionette Tutu (Wistar)",
         "tab": "Marionette Tutu (Wistar)",
         "price": "192",
         "desc": "Hopefully her frightened movements don't root you in place forever with their beauty. You could cut the tangled strings and free her from her pain and pleasure. Of course, the decision is up to you.",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/wistar-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/wistar-1.webp"
       }
     ],
     "sortOrder": 248
@@ -49548,8 +49548,8 @@ export const loCharacters = [
       ],
       "groups": []
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/nerites.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/nerites.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/nerites.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/nerites.webp",
     "stats": {
       "hp": [
         240,
@@ -49617,14 +49617,14 @@ export const loCharacters = [
         "tab": "Base",
         "price": "",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/nerites-0.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/nerites-0.webp"
       },
       {
         "name": "Blue-clothed Sweet Devil Lingerie (Nerites)",
         "tab": "Blue-clothed Sweet Devil Lingerie (Nerites)",
         "price": "192",
         "desc": "Have you ever heard about the blue-clothed devil? They say her punishment is sweeter than any dessert, that even a single taste is enough to get you addicted. Are you prepared to handle the rewards that the strict instructor of Amphitrite and Salacia will give you? If you are, it's time to show your unyielding will. YES and YES!",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/nerites-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/nerites-1.webp"
       }
     ],
     "sortOrder": 249
@@ -49696,8 +49696,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/melite.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/melite.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/melite.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/melite.webp",
     "stats": {
       "hp": [
         245,
@@ -49765,7 +49765,7 @@ export const loCharacters = [
         "tab": "Base",
         "price": "114",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/melite-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/melite-1.webp"
       }
     ],
     "sortOrder": 250
@@ -49837,8 +49837,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/amphitrite.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/amphitrite.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/amphitrite.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/amphitrite.webp",
     "stats": {
       "hp": [
         230,
@@ -49906,14 +49906,14 @@ export const loCharacters = [
         "tab": "Edible Swimsuit (Amphitrite)",
         "price": "147",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/amphitrite-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/amphitrite-1.webp"
       },
       {
         "name": "White-clothed Cutie Devil Lingerie (Amphitrite)",
         "tab": "White-clothed Cutie Devil Lingerie (Amphitrite)",
         "price": "192",
         "desc": "Have you heard about the white-clothed devil? Whisper your secret offer in her ear, when she's come to beg for snacks for her precious sister. A reward far sweeter than any candy or chocolate will be waiting for her.",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/amphitrite-2.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/amphitrite-2.webp"
       }
     ],
     "sortOrder": 251
@@ -49969,8 +49969,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/salacia.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/salacia.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/salacia.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/salacia.webp",
     "stats": {
       "hp": [
         250,
@@ -50038,14 +50038,14 @@ export const loCharacters = [
         "tab": "Edible Swimsuit (Salacia)",
         "price": "147",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/salacia-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/salacia-1.webp"
       },
       {
         "name": "Black-clothed Sexy Devil Lingerie (Salacia)",
         "tab": "Black-clothed Sexy Devil Lingerie (Salacia)",
         "price": "192",
         "desc": "Have you heard about the black-clothed devil? Show your generosity to her, whose eyes are sparkling at the thought of eating rare and expensive sweets that she could only dream of. She'll be intoxicated by the sweetness that she can't fully taste with just her mouth.",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/salacia-2.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/salacia-2.webp"
       }
     ],
     "sortOrder": 252
@@ -50168,8 +50168,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/galatea.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/galatea.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/galatea.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/galatea.webp",
     "stats": {
       "hp": [
         235,
@@ -50245,21 +50245,21 @@ export const loCharacters = [
         "tab": "Base",
         "price": "",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/galatea-0.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/galatea-0.webp"
       },
       {
         "name": "Swimsuit and Hotpants (Galatea)",
         "tab": "Swimsuit and Hotpants (Galatea)",
         "price": "114",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/galatea-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/galatea-1.webp"
       },
       {
         "name": "Date Outfit (Galatea)",
         "tab": "Date Outfit (Galatea)",
         "price": "147",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/galatea-2.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/galatea-2.webp"
       }
     ],
     "sortOrder": 253
@@ -50349,8 +50349,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/satgat.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/satgat.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/satgat.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/satgat.webp",
     "stats": {
       "hp": [
         210,
@@ -50426,7 +50426,7 @@ export const loCharacters = [
         "tab": "Customized Historical Uniform (Satgat)",
         "price": "192",
         "desc": "\"A man must always have his blade honed if he wishes to seize both friendship and love. Entrust me with your soldiers. I swear that I shall protect you, Commander, even if my body should turn to dust. How could I claim to be worthy of a love if I cannot even accomplish that?\" -Excerpt from the script handed by Faucre for Descartes Voyager Satgat's Guest Star Episode in the Overseas Special",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/satgat-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/satgat-1.webp"
       }
     ],
     "sortOrder": 255
@@ -50459,8 +50459,8 @@ export const loCharacters = [
       ],
       "groups": []
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/charybdis.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/charybdis.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/charybdis.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/charybdis.webp",
     "stats": {
       "hp": [
         360,
@@ -50563,14 +50563,14 @@ export const loCharacters = [
         "tab": "Base",
         "price": "",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/charybdis-0.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/charybdis-0.webp"
       },
       {
         "name": "Bikini Swimsuit (Charybdis)",
         "tab": "Bikini Swimsuit (Charybdis)",
         "price": "192",
         "desc": "She reminisces of the Mediterranean, with its sparkling waves, orange-scented winds, and emerald skies. But now, the most perfect vacation spot for her is you.",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/charybdis-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/charybdis-1.webp"
       }
     ],
     "sortOrder": 256
@@ -50616,8 +50616,8 @@ export const loCharacters = [
         }
       ]
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/calypso.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/calypso.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/calypso.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/calypso.webp",
     "stats": {
       "hp": [
         186,
@@ -50685,14 +50685,14 @@ export const loCharacters = [
         "tab": "Base",
         "price": "",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/calypso-0.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/calypso-0.webp"
       },
       {
         "name": "Ao Dai (Calypso)",
         "tab": "Ao Dai (Calypso)",
         "price": "182",
         "desc": "Calypso has prepared a special outfit to enjoy her day off with you. What will you do for the girl who keeps adjusting the strap on her non la?",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/calypso-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/calypso-1.webp"
       }
     ],
     "sortOrder": 257
@@ -50725,8 +50725,8 @@ export const loCharacters = [
       ],
       "groups": []
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/lamia.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/lamia.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/lamia.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/lamia.webp",
     "stats": {
       "hp": [
         352,
@@ -50794,14 +50794,14 @@ export const loCharacters = [
         "tab": "Base",
         "price": "",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/lamia-0.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/lamia-0.webp"
       },
       {
         "name": "Wrestling Uniform (Lamia)",
         "tab": "Wrestling Uniform (Lamia)",
         "price": "192",
         "desc": "Lamia scoffed after seeing Rena and Mighty R. \"Weaklings like them, wrestling? Seems like I'll have to give a demonstration!\" And with that, she came back dressed in a uniform themed after an ancient warrioress! Can you feel her pulsing fighter's spirit?",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/lamia-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/lamia-1.webp"
       }
     ],
     "sortOrder": 258
@@ -50834,8 +50834,8 @@ export const loCharacters = [
       ],
       "groups": []
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/grave-song.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/grave-song.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/grave-song.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/grave-song.webp",
     "stats": {
       "hp": [
         150,
@@ -50911,14 +50911,14 @@ export const loCharacters = [
         "tab": "Base",
         "price": "",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/grave-song-0.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/grave-song-0.webp"
       },
       {
         "name": "Exclusive Top Streamer Outfit (Grave Song)",
         "tab": "Exclusive Top Streamer Outfit (Grave Song)",
         "price": "192",
         "desc": "Thanks to extra overtime from Yumi and unwavering support from the Orca's Engineering Department, her livestreams are once again available to the entire world. Her streams are now a great PR tool, showing the daily life of the Orca Resistance directly from the most real angle possible. In addition to all that, her streams featuring you have proven beyond a doubt that the rumors of your heroics are true. A trendy streamer needs a trendy outfit!",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/grave-song-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/grave-song-1.webp"
       }
     ],
     "sortOrder": 259
@@ -50953,8 +50953,8 @@ export const loCharacters = [
       ],
       "groups": []
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/sawame.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/sawame.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/sawame.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/sawame.webp",
     "stats": {
       "hp": [
         200,
@@ -51030,14 +51030,14 @@ export const loCharacters = [
         "tab": "Base",
         "price": "",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/sawame-0.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/sawame-0.webp"
       },
       {
         "name": "Black Sailor Outfit (Sawame)",
         "tab": "Black Sailor Outfit (Sawame)",
         "price": "192",
         "desc": "A school from the old world, preserved too cleanly and perfectly. Have you heard of the curse of the red spider lilies that bloom there? Where could all the bodies of the old humans have gone?",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/sawame-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/sawame-1.webp"
       }
     ],
     "sortOrder": 260
@@ -51070,8 +51070,8 @@ export const loCharacters = [
       ],
       "groups": []
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/hestia.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/hestia.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/hestia.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/hestia.webp",
     "stats": {
       "hp": [
         210,
@@ -51139,14 +51139,14 @@ export const loCharacters = [
         "tab": "Base",
         "price": "",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/hestia-0.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/hestia-0.webp"
       },
       {
         "name": "Model.Cold-hearted Princess (Hestia)",
         "tab": "Model.Cold-hearted Princess (Hestia)",
         "price": "192",
         "desc": "To quote Hestia when she first joined the Orca, her current appearance was made by her mother as the \"perfect form\" - but if the Orca's technology was sufficient, Hestia wanted to return to her \"true form\" and earn the right to bear the burden of her inevitable destiny ... Unlike her appearance that symbolizes burning flames, her heart is as frigid as absolute zero. Her face seems flush red at your compliments that she looks good in this restored body ... but surely, you were just seeing things, right?",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/hestia-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/hestia-1.webp"
       }
     ],
     "sortOrder": 261
@@ -51182,8 +51182,8 @@ export const loCharacters = [
       ],
       "groups": []
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/haru-estia.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/haru-estia.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/haru-estia.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/haru-estia.webp",
     "stats": {
       "hp": [
         279,
@@ -51251,21 +51251,21 @@ export const loCharacters = [
         "tab": "Base",
         "price": "",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/haru-estia-0.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/haru-estia-0.webp"
       },
       {
         "name": "Restored Prototype Model (Haru Estia)",
         "tab": "Restored Prototype Model (Haru Estia)",
         "price": "197",
         "desc": "Data that the developer left unused is quite the surprise for the player. Haru's been overwritten by the wrong data, and her appearance has been completely changed. Even Vargr, who had been logged in at the same time, was affected by the strange data. What trials lay ahead? It's time for you to hurry and take these two beauties to fix the bug!",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/haru-estia-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/haru-estia-1.webp"
       },
       {
         "name": "Restored Prototype Costume (Haru Estia)",
         "tab": "Restored Prototype Costume (Haru Estia)",
         "price": "Participate in the Last Origin collaboration event in SoulWorker[[#Trivia",
         "desc": "Data that the developer left unused is quite the surprise for the player. Haru's been overwritten by the wrong data, and her appearance has been completely changed. Even Vargr, who had been logged in at the same time, was affected by the strange data. What trials lay ahead? It's time for you to hurry and take these two beauties to fix the bug!",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/haru-estia-2.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/haru-estia-2.webp"
       }
     ],
     "sortOrder": 293
@@ -51300,8 +51300,8 @@ export const loCharacters = [
       ],
       "groups": []
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/lily-bloommerchen.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/lily-bloommerchen.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/lily-bloommerchen.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/lily-bloommerchen.webp",
     "stats": {
       "hp": [
         233,
@@ -51369,14 +51369,14 @@ export const loCharacters = [
         "tab": "Base",
         "price": "",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/lily-bloommerchen-0.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/lily-bloommerchen-0.webp"
       },
       {
         "name": "Fantasy-style Kimono (Lily Bloommerchen)",
         "tab": "Fantasy-style Kimono (Lily Bloommerchen)",
         "price": "207",
         "desc": "The Orca Park's \"Malta Mansion of Horror\", gaining much popularity thanks to Shade's incredible acting, has decided to prepare a theme for the new combatants. What lies beyond the fields of the red spider lilies in full bloom? In the place that lies between life and death, Lily plays her role spectacularly as a yokai still in training.",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/lily-bloommerchen-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/lily-bloommerchen-1.webp"
       }
     ],
     "sortOrder": 294
@@ -51411,8 +51411,8 @@ export const loCharacters = [
       ],
       "groups": []
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/stella-unibell.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/stella-unibell.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/stella-unibell.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/stella-unibell.webp",
     "stats": {
       "hp": [
         241,
@@ -51480,14 +51480,14 @@ export const loCharacters = [
         "tab": "Base",
         "price": "",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/stella-unibell-0.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/stella-unibell-0.webp"
       },
       {
         "name": "Goth Lolita Outfit (Stella)",
         "tab": "Goth Lolita Outfit (Stella)",
         "price": "197",
         "desc": "Even if the night's dance partner is an Iron Parasite or Soul Junk, it isn't scary if you're with a beloved friend! You've been invited to a ball held by these frightening girls - please grace the event with your presence, as an honorary member of a certain exclusive club that only accepts the most daring and dashing of dancers.",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/stella-unibell-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/stella-unibell-1.webp"
       }
     ],
     "sortOrder": 295
@@ -51522,8 +51522,8 @@ export const loCharacters = [
       ],
       "groups": []
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/iris-yuma.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/iris-yuma.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/iris-yuma.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/iris-yuma.webp",
     "stats": {
       "hp": [
         209,
@@ -51591,14 +51591,14 @@ export const loCharacters = [
         "tab": "Base",
         "price": "",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/iris-yuma-0.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/iris-yuma-0.webp"
       },
       {
         "name": "Japanese Martial Arts Uniform (Iris Yuma)",
         "tab": "Japanese Martial Arts Uniform (Iris Yuma)",
         "price": "197",
         "desc": "After being recommended martial arts training as a healthy method to express her anger, Iris Yuma seems to have awakened to a new hobby alongside Shirayuri, who understands her struggles. Watch as the two show their immense talents in their respective fields - the fury that burns from deep within is turned to unrivaled passion and motivation.",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/iris-yuma-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/iris-yuma-1.webp"
       }
     ],
     "sortOrder": 296
@@ -51631,8 +51631,8 @@ export const loCharacters = [
       ],
       "groups": []
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/chii-aruel.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/chii-aruel.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/chii-aruel.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/chii-aruel.webp",
     "stats": {
       "hp": [
         null,
@@ -51700,14 +51700,14 @@ export const loCharacters = [
         "tab": "Base",
         "price": "",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/chii-aruel-0.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/chii-aruel-0.webp"
       },
       {
         "name": "Sushi (Cat) Display (Chii Aruel)",
         "tab": "Sushi (Cat) Display (Chii Aruel)",
         "price": "202",
         "desc": "The monotony of their everyday work has caused Sowan and Audrey to feel stuck in a rut. That's why Aurora, Olivia, and Taylor have come together to host an event that the two of them will be able to enjoy without worry. Food that you have to wear as well, and clothes that need to taste as good as they look? Artists are always hungry for a new challenge! And there just happens to be a crewmember who's hungry in a different way. A new face, who understands the longing hearts of the fish-loving Perrault and Poi! What better reason could there be for a festival?",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/chii-aruel-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/chii-aruel-1.webp"
       }
     ],
     "sortOrder": 297
@@ -51740,8 +51740,8 @@ export const loCharacters = [
       ],
       "groups": []
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/ephnel.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/ephnel.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/ephnel.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/ephnel.webp",
     "stats": {
       "hp": [
         211,
@@ -51809,14 +51809,14 @@ export const loCharacters = [
         "tab": "Base",
         "price": "",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/ephnel-0.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/ephnel-0.webp"
       },
       {
         "name": "Neon Techwear (Ephnel)",
         "tab": "Neon Techwear (Ephnel)",
         "price": "232",
         "desc": "The Strikers feel the pull of fate as Ephnel fits right in, as if she had been their teammate for ages. On the streets that are teeming with Iron Parasites instead of people, they leave the mark of the Resistance in colors of hope for all to see. You'd better watch out, you know? If you run into these girls in the alley, you won't be getting away easily.",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/ephnel-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/ephnel-1.webp"
       }
     ],
     "sortOrder": 298
@@ -51849,8 +51849,8 @@ export const loCharacters = [
       ],
       "groups": []
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/lee-nabi.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/lee-nabi.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/lee-nabi.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/lee-nabi.webp",
     "stats": {
       "hp": [
         199,
@@ -51918,14 +51918,14 @@ export const loCharacters = [
         "tab": "Base",
         "price": "",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/lee-nabi-0.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/lee-nabi-0.webp"
       },
       {
         "name": "Steel Line Summer Uniform (Lee Nabi)",
         "tab": "Steel Line Summer Uniform (Lee Nabi)",
         "price": "217",
         "desc": "To boost morale, you visit Steel Line's field training exercise in the smoldering heat. They just happen to be on lunch break - it's a perfect opportunity to witness the rumored chow skills (?) of Lee Nabi, don't you think? Leprechaun and Brownie can barely hide their excitement at the thought of learning from her.",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/lee-nabi-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/lee-nabi-1.webp"
       }
     ],
     "sortOrder": 299
@@ -51961,8 +51961,8 @@ export const loCharacters = [
       ],
       "groups": []
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/dhana-opini.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/dhana-opini.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/dhana-opini.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/dhana-opini.webp",
     "stats": {
       "hp": [
         204,
@@ -52030,14 +52030,14 @@ export const loCharacters = [
         "tab": "Base",
         "price": "",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/dhana-opini-0.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/dhana-opini-0.webp"
       },
       {
         "name": "Openback Sweater (Dhana Opini)",
         "tab": "Openback Sweater (Dhana Opini)",
         "price": "207",
         "desc": "They too will have to part ways in time, but this moment will remain as a beautiful memory that will give them the strength to go on, wouldn't you agree? The night shows no signs of ending for this group of girls who overcame similar pains.",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/dhana-opini-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/dhana-opini-1.webp"
       }
     ],
     "sortOrder": 300
@@ -52069,8 +52069,8 @@ export const loCharacters = [
       ],
       "groups": []
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/koyori.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/koyori.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/koyori.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/koyori.webp",
     "stats": {
       "hp": [
         150,
@@ -52146,14 +52146,14 @@ export const loCharacters = [
         "tab": "Rampaging Miko (Koyori)",
         "price": "SS",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/koyori-1.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/koyori-1.webp"
       },
       {
         "name": "Traditional Swimsuit (Koyori)",
         "tab": "Traditional Swimsuit (Koyori)",
         "price": "",
         "desc": "",
-        "img": "https://img.gachawiki.info/last-origin-global/skins/koyori-2.webp"
+        "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/koyori-2.webp"
       }
     ],
     "sortOrder": 301
@@ -52187,8 +52187,8 @@ export const loCharacters = [
       ],
       "groups": []
     },
-    "icon": "https://img.gachawiki.info/last-origin-global/icons/sengoku-kaen.webp",
-    "art": "https://img.gachawiki.info/last-origin-global/character/sengoku-kaen.webp",
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/icons/sengoku-kaen.webp",
+    "art": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/character/sengoku-kaen.webp",
     "stats": {
       "hp": [
         171,

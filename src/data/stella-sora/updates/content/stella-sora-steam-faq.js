@@ -1,6 +1,6 @@
 // Official Stella Sora news content (cleaned from stellasora.global/news/4896)
 export const content = `
-<p><img src="https://img.gachawiki.info/stella-sora/news/4896-1.webp" alt="" loading="lazy" decoding="async" /></p>
+<p><img src="https://k2b1c5ab57ed98e51.gachawiki.info/stella-sora/news/4896-1.webp" alt="" loading="lazy" decoding="async" /></p>
 <p>Dear Tyrant,</p>
 <p>Stella Sora is coming soon to Steam! To help you explore the world of Nova, we've prepared answers to some frequently asked questions. If you need more help, you can view additional FAQs or contact us through the channels below.</p>
 <p>How to view more FAQs:</p>

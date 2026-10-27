@@ -1,6 +1,6 @@
 // Official Stella Sora news content (cleaned from stellasora.global/news/1843)
 export const content = `
-<p><img src="https://img.gachawiki.info/stella-sora/news/1843-1.webp" alt="" loading="lazy" decoding="async" /></p>
+<p><img src="https://k2b1c5ab57ed98e51.gachawiki.info/stella-sora/news/1843-1.webp" alt="" loading="lazy" decoding="async" /></p>
 <p>Dear Tyrants,</p>
 <p>The Official Release of Stella Sora is now live across all platforms! To thank all Tyrants for your continued support, we've prepared the following rewards just for you~</p>
 <p>✦ <strong>Pre-Registration Rewards</strong> ✦</p>
