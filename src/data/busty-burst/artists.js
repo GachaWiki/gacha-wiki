@@ -238,7 +238,7 @@ export const BB_ARTISTS = [
     works: "Action Taimanin supporter illustrations",
     characters: [
       { slug: "battledore-kimono-girl-lilith", name: "Battledore Kimono Girl: Lilith" },
-      { slug: "captain-of-the-vern-holy-knights-order-frigis", name: "Captain of the Vern Holy Knights Order】Frigis" },
+      { slug: "captain-of-the-vern-holy-knights-order-frigis", name: "Captain of the Vern Holy Knights Order: Frigis" },
       { slug: "giselle", name: "Giselle" },
       { slug: "lilith", name: "Lilith" },
       { slug: "the-bride-of-purity-giselle", name: "The Bride of Purity: Giselle" },

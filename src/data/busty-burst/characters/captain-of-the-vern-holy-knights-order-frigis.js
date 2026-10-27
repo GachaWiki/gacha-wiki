@@ -3,9 +3,9 @@
 
 export const info = {
   "slug": "captain-of-the-vern-holy-knights-order-frigis",
-  "name": "Captain of the Vern Holy Knights Order】Frigis",
-  "displayName": "Captain of the Vern Holy Knights Order】Frigis",
-  "baseName": "Captain of the Vern Holy Knights Order】Frigis",
+  "name": "Captain of the Vern Holy Knights Order: Frigis",
+  "displayName": "Captain of the Vern Holy Knights Order: Frigis",
+  "baseName": "Captain of the Vern Holy Knights Order: Frigis",
   "title": null,
   "rarity": "SSR",
   "element": "Holy",
@@ -23,7 +23,7 @@ export const info = {
     "Disrupt",
     "MP Recovery"
   ],
-  "image": "Captain of the Vern Holy Knights Order】Frigis",
+  "image": "Captain of the Vern Holy Knights Order: Frigis",
   "introduction": "Front RowPhysicalAttacker",
   "profile": {
     "height": "167cm",
@@ -258,7 +258,7 @@ export const skills = {
       ]
     }
   ],
-  "name": "Captain of the Vern Holy Knights Order】Frigis",
+  "name": "Captain of the Vern Holy Knights Order: Frigis",
   "id": 2164,
   "rarity": "SSR",
   "element": "Holy",
@@ -292,7 +292,7 @@ export const skills = {
 export const stats = {
   "id": "captain-of-the-vern-holy-knights-order-frigis",
   "characterId": 2164,
-  "name": "Captain of the Vern Holy Knights Order】Frigis",
+  "name": "Captain of the Vern Holy Knights Order: Frigis",
   "rarity": "SSR",
   "element": "聖",
   "weapon": "",

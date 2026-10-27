@@ -3,6 +3,34 @@
 
 export const summonRecommendations = [
   {
+    bannerId: 'banner-entwined-with-the-wind',
+    character: 'Lin',
+    characterSlug: 'lin',
+    bannerType: 'Event Summon',
+    startDate: '2026-10-27',
+    endDate: '2026-11-03',
+    verdict: 'skip',
+    summary: 'Skip for now. Lin is an SS tier wind attacker and worth having, but this banner will come back later, so there is no rush. Save your crystals this week and pick her up when she returns.',
+    reasons: [
+      {
+        title: 'She Will Come Back',
+        text: 'Event summon banners rerun in this game. Octo-Octo Beach Panic!! already came back once this month, and the JP schedule reruns every event banner eventually. Miss her now and you can still get her later, so there is no reason to force pulls.',
+      },
+      {
+        title: 'SS In A Wind Team',
+        text: 'She is rated SS on our tier list. With more than 3 wind allies her skill 2 grants Wind Type ATK 15% UP and her passive a Damage 10% UP that cannot be cleansed, and her Gale windows amplify her own strikes. A core piece for mono-wind.',
+      },
+      {
+        title: 'Mono-Wind Dependency',
+        text: 'Her team buffs need 3+ wind allies to come online. Outside a dedicated wind squad she plays as a single-target attacker with no taunt, shield or self-sustain, so accounts without a wind core lose most of the value.',
+      },
+      {
+        title: 'Better Banner Still Up',
+        text: 'The Sun and the Moon runs until Nov 3 with the SSS support duo Bernadette and Adrienne, who fit physical and magic teams alike. If you are spending crystals this week, that is where they go.',
+      },
+    ],
+  },
+  {
     bannerId: 'banner-the-sun-and-the-moon',
     character: 'Bernadette & Adrienne',
     characterSlug: 'bernadette',

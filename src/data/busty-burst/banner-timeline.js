@@ -5,6 +5,26 @@
  */
 
 export const bannerTimelineData = [
+  // #48 - "Entwined with the Wind" / Lin (Oct 27 - Nov 3) - CURRENT
+  {
+    id: 'entwined-with-the-wind-2026',
+    title: '"Entwined with the Wind" Event Summon',
+    bannerType: 'event',
+    featuredPaladins: [
+      {
+        name: 'Lin',
+        rarity: 'SSR',
+        type: 'Attacker',
+      },
+    ],
+    startDate: '2026-10-27T04:00:00Z',
+    endDate: '2026-11-03T03:00:00Z',
+    description:
+      '"Entwined with the Wind" Event Summon! New Paladin Rate Up! Lin (SSR Wind Physical Attacker), a front-row lance duelist who sweeps enemies while her Gale effect amps her wind strikes, and buffs wind allies when 3+ team members are wind attribute. Guaranteed SR Paladin when performing a 10-pull.',
+    note: 'Lin (characterId 2156), first banner pickup. Official EN skill text landed with the Oct 27 hot-update (her page previously carried a fan translation: Swift Wind Assault / Wind Wrap / Crouching Dragon Flying Spiral, renamed officially to Gale Strike / Wind Wrap / Winding Dragon\'s Cyclone; the 疾Wind buff is officially "Gale"). End time from game data (2026/11/03 03:00 UTC); start from the rotation switch on Oct 27. Runs concurrent with the second week of "The Sun and the Moon".',
+    status: 'current',
+    image: 'banner-entwined-with-the-wind',
+  },
   // #47 - "The Sun and the Moon" / Bernadette & Adrienne (Oct 20 - Nov 3) - CURRENT
   {
     id: 'the-sun-and-the-moon-2026',

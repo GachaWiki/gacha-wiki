@@ -6,7 +6,7 @@ export const BUSTY_BURST_TIER_LISTS = {
     name: 'SSR Tier List',
     description:
       'Tier list for SSR characters. Covers general performance across all game modes.',
-    lastUpdated: '2026-10-22',
+    lastUpdated: '2026-10-27',
     tiers: [
       {
         tier: 'SSS',
@@ -32,6 +32,8 @@ export const BUSTY_BURST_TIER_LISTS = {
           'teresia', 'dark_knight', 'ophelio', 'luca', 'lapis', 'rosa', 'chocolate-hildis', 'giselle', 'meinias', 'shaty', 'gemini', 'lust', 'setsuka', 'samurai_cow_girl_setsuka', 'trish', 'diana', 'priscilla',
           // September 2026 wave (rated from kits)
           'school-bloomers-black-knight', 'ange', 'raffine', 'the-bride-of-luck-theresia', 'alluring-naked-apron-zilka', 'gil', 'nina',
+          // October 2026 Entwined with the Wind release (user: SS, skip the banner because it will rerun)
+          'lin',
         ],
       },
       {

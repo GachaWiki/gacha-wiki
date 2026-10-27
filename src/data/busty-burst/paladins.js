@@ -1545,6 +1545,16 @@ export const BUSTY_BURST_PALADINS = [
     role: 'Attacker',
     tier: 'S',
   },
+  {
+    id: 'lin',
+    characterId: 2156,
+    name: 'Lin',
+    fileName: 'Lin',
+    rarity: 'SSR',
+    element: 'Wind',
+    role: 'Attacker',
+    tier: 'SS',
+  },
 ];
 
 export const getPaladinById = id => {

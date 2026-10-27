@@ -41,8 +41,8 @@ export const info = {
     }
   },
   "obtain": {
-    "type": "unknown",
-    "source": ""
+    "type": "banner",
+    "source": "Entwined with the Wind Event Summon"
   },
   "characterId": 2156
 };
@@ -52,11 +52,11 @@ export const skills = {
   "skills": [
     {
       "slot": 2,
-      "name": "Swift Wind Assault",
+      "name": "Gale Strike",
       "icon": "skill001/skill0002",
-      "description": "Deals physical damage to the nearest enemy and inflicts Physical Defense -21%-40 DOWN for 6 seconds while [Swift Wind] is active activation before applies to self 6s Wind-type Attack 30%UP",
-      "descriptionLv1": "Deals physical damage to the nearest enemy and inflicts Physical Defense -21%-40 DOWN for 6 seconds while [Swift Wind] is active activation before applies to self 6s Wind-type Attack 30%UP",
-      "descriptionLv90": "Deals physical damage to the nearest enemy and inflicts Physical Defense -21%-220 DOWN for 6 seconds while [Swift Wind] is active activation before applies to self 6s Wind-type Attack 30%UP",
+      "description": "Deals physical damage to the nearest enemy and inflicts Physical Defense -21%-40 DOWN for 6 seconds. During Gale effect time, apply wind attack damage 30% UP for 6 seconds before casting the skill",
+      "descriptionLv1": "Deals physical damage to the nearest enemy and inflicts Physical Defense -21%-40 DOWN for 6 seconds. During Gale effect time, apply wind attack damage 30% UP for 6 seconds before casting the skill",
+      "descriptionLv90": "Deals physical damage to the nearest enemy and inflicts Physical Defense -21%-220 DOWN for 6 seconds. During Gale effect time, apply wind attack damage 30% UP for 6 seconds before casting the skill",
       "target": "Nearest Enemy",
       "castTime": 1.2,
       "damageScaling": "300% ATK",
@@ -82,9 +82,9 @@ export const skills = {
       "slot": 3,
       "name": "Wind Wrap",
       "icon": "skill001/skill0019",
-      "description": "Applies Action Speed 14%UP to all allies for 10 seconds and Accuracy 9 UP for 10 seconds, when the party has 3+ Wind allies, Wind allies gain 10s Wind Type ATK 15%UP",
-      "descriptionLv1": "Applies Action Speed 14%UP to all allies for 10 seconds and Accuracy 9 UP for 10 seconds, when the party has 3+ Wind allies, Wind allies gain 10s Wind Type ATK 15%UP",
-      "descriptionLv90": "Applies Action Speed 14%UP to all allies for 10 seconds and Accuracy 18 UP for 10 seconds, when the party has 3+ Wind allies, Wind allies gain 10s Wind Type ATK 15%UP",
+      "description": "Applies Action Speed 14%UP to all allies for 10 seconds and Accuracy 9 UP for 10 seconds. When more than 3 team members are wind attribute, all allies Wind Type ATK 15%UP for 10 seconds",
+      "descriptionLv1": "Applies Action Speed 14%UP to all allies for 10 seconds and Accuracy 9 UP for 10 seconds. When more than 3 team members are wind attribute, all allies Wind Type ATK 15%UP for 10 seconds",
+      "descriptionLv90": "Applies Action Speed 14%UP to all allies for 10 seconds and Accuracy 18 UP for 10 seconds. When more than 3 team members are wind attribute, all allies Wind Type ATK 15%UP for 10 seconds",
       "target": "All Allies",
       "castTime": 1.4,
       "damageScaling": null,
@@ -124,9 +124,9 @@ export const skills = {
   "ultimate": [
     {
       "rank": 1,
-      "name": "Crouching Dragon Flying Spiral",
+      "name": "Winding Dragon's Cyclone",
       "icon": "skill001/skill0003_1",
-      "description": "Deals physical damage to the nearest enemy and inflicts BlockDOWN(LV 1) for 10 seconds, applies to self 10s [Swift Wind] status (action speed 10%UP)",
+      "description": "Deals physical damage to the nearest enemy and inflicts BlockDOWN(LV 1) for 10 seconds. Applies Gale effect(Move speed 10% UP) to self for 10 seconds",
       "effect": "1000% + 800",
       "buffEffects": [
         {
@@ -136,7 +136,7 @@ export const skills = {
           "duration": 10
         },
         {
-          "name": "Swift Wind",
+          "name": "Gale",
           "value": 10,
           "type": "flat",
           "duration": 10
@@ -145,9 +145,9 @@ export const skills = {
     },
     {
       "rank": 2,
-      "name": "Crouching Dragon Flying Spiral",
+      "name": "Winding Dragon's Cyclone",
       "icon": "skill001/skill0003_2",
-      "description": "Deals physical damage to the nearest enemy and inflicts BlockDOWN(LV 2) for 10 seconds, applies to self 11s [Swift Wind] status (action speed 10%UP)",
+      "description": "Deals physical damage to the nearest enemy and inflicts BlockDOWN(LV 2) for 10 seconds. Applies Gale effect(Move speed 10% UP) to self for 11 seconds",
       "effect": "1200% + 950",
       "buffEffects": [
         {
@@ -157,7 +157,7 @@ export const skills = {
           "duration": 10
         },
         {
-          "name": "Swift Wind",
+          "name": "Gale",
           "value": 10,
           "type": "flat",
           "duration": 11
@@ -166,9 +166,9 @@ export const skills = {
     },
     {
       "rank": 3,
-      "name": "Crouching Dragon Flying Spiral",
+      "name": "Winding Dragon's Cyclone",
       "icon": "skill001/skill0003_3",
-      "description": "Deals physical damage to the nearest enemy and inflicts BlockDOWN(LV 3) for 10 seconds, applies to self 12s [Swift Wind] status (action speed 10%UP)",
+      "description": "Deals physical damage to the nearest enemy and inflicts BlockDOWN(LV 3) for 10 seconds. Applies Gale effect(Move speed 10% UP) to self for 12 seconds",
       "effect": "1350% + 1100",
       "buffEffects": [
         {
@@ -178,7 +178,7 @@ export const skills = {
           "duration": 10
         },
         {
-          "name": "Swift Wind",
+          "name": "Gale",
           "value": 10,
           "type": "flat",
           "duration": 12
@@ -187,9 +187,9 @@ export const skills = {
     },
     {
       "rank": 4,
-      "name": "Crouching Dragon Flying Spiral",
+      "name": "Winding Dragon's Cyclone",
       "icon": "skill001/skill0003_4",
-      "description": "Deals physical damage to the nearest enemy and inflicts BlockDOWN(LV 4) for 10 seconds, applies to self 13s [Swift Wind] status (action speed 10%UP)",
+      "description": "Deals physical damage to the nearest enemy and inflicts BlockDOWN(LV 4) for 10 seconds. Applies Gale effect(Move speed 10% UP) to self for 13 seconds",
       "effect": "1450% + 1200",
       "buffEffects": [
         {
@@ -199,7 +199,7 @@ export const skills = {
           "duration": 10
         },
         {
-          "name": "Swift Wind",
+          "name": "Gale",
           "value": 10,
           "type": "flat",
           "duration": 13
@@ -208,9 +208,9 @@ export const skills = {
     },
     {
       "rank": 5,
-      "name": "Crouching Dragon Flying Spiral",
+      "name": "Winding Dragon's Cyclone",
       "icon": "skill001/skill0003_5",
-      "description": "Deals physical damage to the nearest enemy and inflicts BlockDOWN(LV 5) for 10 seconds, applies to self 14s [Swift Wind] status (action speed 10%UP)",
+      "description": "Deals physical damage to the nearest enemy and inflicts BlockDOWN(LV 5) for 10 seconds. Applies Gale effect(Move speed 10% UP) to self for 14 seconds",
       "effect": "1500% + 1300",
       "buffEffects": [
         {
@@ -220,7 +220,7 @@ export const skills = {
           "duration": 10
         },
         {
-          "name": "Swift Wind",
+          "name": "Gale",
           "value": 10,
           "type": "flat",
           "duration": 14
@@ -233,7 +233,7 @@ export const skills = {
       "slot": 1,
       "name": "Action Speed +, Damage UP(Cannot be Cleansed)",
       "icon": "skill001/skill1001",
-      "description": "Gain Action Speed UP(Large), when the party has 3+ Wind allies, Wind allies gain Damage 10%UP(Cannot be Cleansed)",
+      "description": "Gain Action Speed UP(Large). When more than 3 team members are wind attribute, all allies Damage 10%UP(Cannot be Cleansed)",
       "effect": "Action Speed + (+15), Damage UP(Cannot be Cleansed) (+10%)",
       "effectValues": [
         {
