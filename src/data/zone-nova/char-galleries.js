@@ -212,6 +212,11 @@ export const CHAR_GALLERIES = {
   'merlin': [
     { label: 'Awakened', image: 'https://img.gachawiki.info/zone-nova/gallery/awaken/merlin.webp', w: 256, h: 256 },
   ],
+  'mila': [
+    { label: 'Awakened', image: 'https://img.gachawiki.info/zone-nova/gallery/awaken/mila.webp', w: 256, h: 256 },
+    { label: 'Halloween 2026', title: 'Phantom Night Festival: The Chase Beneath the Mask', image: 'https://img.gachawiki.info/zone-nova/events/event-halloween.webp', w: 1024, h: 512 },
+    { label: 'Gacha Banner', image: 'https://img.gachawiki.info/zone-nova/gallery/gacha/mila.webp', w: 433, h: 212 },
+  ],
   'mordred': [
     { label: 'Awakened', image: 'https://img.gachawiki.info/zone-nova/gallery/awaken/mordred.webp', w: 256, h: 256 },
   ],
@@ -246,6 +251,7 @@ export const CHAR_GALLERIES = {
     { label: 'Gacha Banner', image: 'https://img.gachawiki.info/zone-nova/gallery/gacha/odin.webp', w: 433, h: 212 },
   ],
   'ootakemaru': [
+    { label: 'Awakened', image: 'https://img.gachawiki.info/zone-nova/gallery/awaken/ootakemaru.webp', w: 256, h: 256 },
     { label: 'Event 20', title: '[Snowfield Journey: The Chase Between Demons, Celestial Maidens, and Bandits] Part 1', image: 'https://img.gachawiki.info/zone-nova/events/event-20-a.webp', w: 1024, h: 512 },
     { label: 'Event 20 Banner', title: '[Snowfield Journey: The Chase Between Demons, Celestial Maidens, and Bandits] Part 1', image: 'https://img.gachawiki.info/zone-nova/gallery/campaign/campaign-39.webp', w: 433, h: 212 },
     { label: 'Gacha Banner', image: 'https://img.gachawiki.info/zone-nova/gallery/gacha/ootakemaru.webp', w: 433, h: 212 },
@@ -300,6 +306,12 @@ export const CHAR_GALLERIES = {
   ],
   'snow-girl': [
     { label: 'Awakened', image: 'https://img.gachawiki.info/zone-nova/gallery/awaken/snow-girl.webp', w: 256, h: 256 },
+  ],
+  'suzuka-gozen': [
+    { label: 'Awakened', image: 'https://img.gachawiki.info/zone-nova/gallery/awaken/suzuka-gozen.webp', w: 256, h: 256 },
+    { label: 'Event 20', title: '[Snowfield Journey: The Chase Between Demons, Celestial Maidens, and Bandits] Part 2', image: 'https://img.gachawiki.info/zone-nova/events/event-20-b.webp', w: 1024, h: 512 },
+    { label: 'Event 20 Banner', title: '[Snowfield Journey: The Chase Between Demons, Celestial Maidens, and Bandits] Part 2', image: 'https://img.gachawiki.info/zone-nova/gallery/campaign/campaign-40.webp', w: 433, h: 212 },
+    { label: 'Gacha Banner', image: 'https://img.gachawiki.info/zone-nova/gallery/gacha/suzuka-gozen.webp', w: 433, h: 212 },
   ],
   'tamamo-no-mae': [
     { label: 'Awakened', image: 'https://img.gachawiki.info/zone-nova/gallery/awaken/tamamo-no-mae.webp', w: 256, h: 256 },
