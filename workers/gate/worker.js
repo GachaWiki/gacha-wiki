@@ -10,8 +10,11 @@ const SESSION_DAYS = 30;
 const GW_SECRET_ENV = null; // secret GW_SECRET is set via wrangler secret
 const enc = new TextEncoder();
 
-// invite registry: email -> personal invite code from the maintainer (mirrored in img-gate)
-const INVITES = { "elfhuyace@gmail.com": "QA4D-4SS4-BQZZ" };
+// One shared invite code, posted only in the Discord members channel (role-gated).
+// Approval = the maintainer grants the Discord role; the code alone is not personal.
+const INVITE_CODE = 'QA4D-4SS4-BQZZ';
+// Emails in this set are banned: existing sessions die and re-registration is refused.
+const BLOCKED = {};
 
 async function hmac(secret, data) {
   const key = await crypto.subtle.importKey('raw', enc.encode(secret), { name: 'HMAC', hash: 'SHA-256' }, false, ['sign']);
@@ -51,7 +54,7 @@ async function sessionMember(request, secret) {
   const member = payload.slice(0, colon).toLowerCase();
   const exp = Number(payload.slice(colon + 1));
   if (!exp || Date.now() > exp) return null;
-  if (!(member in INVITES)) return null;
+  if (member in BLOCKED) return null;
   return member;
 }
 
@@ -101,9 +104,12 @@ export default {
       }
 
       if (isRegister) {
-        if (INVITES[email] !== code) {
+        if (email in BLOCKED) {
+          return new Response(page({ error: 'Access for this account has been revoked by the maintainer.', email }), { status: 403, headers: { 'Content-Type': 'text/html; charset=utf-8', 'Cache-Control': 'no-store' } });
+        }
+        if (INVITE_CODE !== code) {
           await recordFail(env, email);
-          return new Response(page({ error: 'That invite code is not valid for this email. Check with the maintainer.', email }), { status: 401, headers: { 'Content-Type': 'text/html; charset=utf-8', 'Cache-Control': 'no-store' } });
+          return new Response(page({ error: 'That invite code is not valid. Get the current code from the members channel on our Discord.', email }), { status: 401, headers: { 'Content-Type': 'text/html; charset=utf-8', 'Cache-Control': 'no-store' } });
         }
         if (password.length < 8) {
           return new Response(page({ error: 'Password must be at least 8 characters.', email }), { status: 400, headers: { 'Content-Type': 'text/html; charset=utf-8', 'Cache-Control': 'no-store' } });
