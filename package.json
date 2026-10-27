@@ -18,7 +18,7 @@
   "packageManager": "bun@1.2.21",
   "scripts": {
     "dev": "astro dev",
-    "build": "astro check && astro build",
+    "build": "astro check && astro build && node -e \"require('fs').copyFileSync('workers/site-gate/_worker.js','dist/_worker.js');console.log('[build] origin gate _worker.js copied to dist')\"",
     "build:cloudflare": "astro build",
     "preview": "astro preview",
     "start": "astro preview",
