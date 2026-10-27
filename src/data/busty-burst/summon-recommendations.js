@@ -10,11 +10,11 @@ export const summonRecommendations = [
     startDate: '2026-10-27',
     endDate: '2026-11-03',
     verdict: 'skip',
-    summary: 'Skip for now. Lin is an SS tier wind attacker and worth having, but this banner will come back later, so there is no rush. Save your crystals this week and pick her up when she returns.',
+    summary: 'Skip for now. Lin is an SS tier wind attacker and worth having, but after the event she joins the "Tower of Trials Summon" pool, so a future Tower event can drop her again or you can exchange 200 pity for her. Save your crystals this week.',
     reasons: [
       {
-        title: 'She Will Come Back',
-        text: 'Event summon banners rerun in this game. Octo-Octo Beach Panic!! already came back once this month, and the JP schedule reruns every event banner eventually. Miss her now and you can still get her later, so there is no reason to force pulls.',
+        title: 'She Will Be Back In The Tower Pool',
+        text: 'After this banner ends, Lin is added to the "Tower of Trials Summon" pool, not the Otherworldly Summon. A future Tower of Trials event can drop her again, and she can be exchanged for 200 pity. There is no reason to force pulls now.',
       },
       {
         title: 'SS In A Wind Team',
