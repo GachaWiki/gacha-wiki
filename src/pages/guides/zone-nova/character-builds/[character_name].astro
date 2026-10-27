@@ -11,6 +11,9 @@ import { apepData } from '../../../../data/zone-nova/characters/apep.js';
 import { helaData } from '../../../../data/zone-nova/characters/hela.js';
 import { brynhildData } from '../../../../data/zone-nova/characters/brynhild.js';
 import { fenrirData } from '../../../../data/zone-nova/characters/fenrir.js';
+import { ootakemaruData } from '../../../../data/zone-nova/characters/ootakemaru.js';
+import { suzukagozenData } from '../../../../data/zone-nova/characters/suzuka-gozen.js';
+import { milaData } from '../../../../data/zone-nova/characters/mila.js';
 import { naiyaData } from '../../../../data/zone-nova/characters/naiya.js';
 import { pennyData } from '../../../../data/zone-nova/characters/penny.js';
 import { apolloData } from '../../../../data/zone-nova/characters/apollo.js';
@@ -114,11 +117,17 @@ const characterData =
                               ? lustAsmodeusData
                             : finalCharacter.slug === 'pride-lucifer'
                               ? prideLuciferData
-                             : finalCharacter.slug === 'wrath-samael'
+                                 : finalCharacter.slug === 'wrath-samael'
                                  ? wrathSamaelData
-                                 : finalCharacter.slug === 'hiyori'
-                                   ? hiyoriData
-                                   : null;
+                                 : finalCharacter.slug === 'ootakemaru'
+                                   ? ootakemaruData
+                                   : finalCharacter.slug === 'suzuka-gozen'
+                                     ? suzukagozenData
+                                     : finalCharacter.slug === 'mila'
+                                       ? milaData
+                                   : finalCharacter.slug === 'hiyori'
+                                     ? hiyoriData
+                                     : null;
 
 // Memory card URL mapping for easy maintenance
 const memoryCardUrls = {

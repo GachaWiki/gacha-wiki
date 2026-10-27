@@ -42,6 +42,8 @@ import { borsBuild } from './character-builds/bors.js';
 import { brynhildBuild } from './character-builds/brynhild.js';
 import { fenrirBuild } from './character-builds/fenrir.js';
 import { ootakemaruBuild } from './character-builds/ootakemaru.js';
+import { suzukagozenBuild } from './character-builds/suzuka-gozen.js';
+import { milaBuild } from './character-builds/mila.js';
 import { cleopatraBuild } from './character-builds/cleopatra.js';
 import { erikaBuild } from './character-builds/erika.js';
 import { greedMammonBuild } from './character-builds/greed-mammon.js';
@@ -194,6 +196,10 @@ export const CHARACTER_BUILDS = {
   'fenrir': fenrirBuild,
   // Ootakemaru Build - SSR Ice Attacker
   'ootakemaru': ootakemaruBuild,
+  // Suzuka Gozen Build - SSR Holy Destroyer
+  'suzuka-gozen': suzukagozenBuild,
+  // Mila Build - SSR Chaos Supporter
+  'mila': milaBuild,
 
   // Cleopatra Build - SSR Chaos Destroyer
   'cleopatra': cleopatraBuild,
