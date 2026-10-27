@@ -177,15 +177,15 @@ export const gluttonyBeelzebubData = {
     normal:     {
       name: "Cold Devour",
       cooldown: "2.0s",
-      description: "Deals ice damage equal to 120% attack power to the designated enemy unit.",
-      template: "Deals ice damage equal to {0} attack power to the designated enemy unit.",
+      description: "Deals 120% Attack as ice damage to the targeted enemy unit",
+      template: "Deals {0} Attack as ice damage to the targeted enemy unit",
       levelValues: [["55%"], ["60%"], ["65%"], ["70%"], ["75%"], ["80%"], ["85%"], ["90%"], ["95%"], ["100%"], ["105%"], ["110%"], ["115%"], ["120%"]],
     },
     auto:     {
       name: "Cold Deprivation",
       cooldown: "7.0s",
-      description: "Deals 488.9% attack damage as ice damage to the designated enemy unit and reduces the enemy's energy by 1.",
-      template: "Deals {0} attack damage as ice damage to the designated enemy unit and reduces the enemy's energy by 1.",
+      description: "Deals 488.9% Attack as ice damage to the targeted enemy unit and reduces the enemy's energy by 1.",
+      template: "Deals {0} Attack as ice damage to the targeted enemy unit and reduces the enemy's energy by 1.",
       levelValues: [["200%"], ["222.2%"], ["244.4%"], ["266.7%"], ["288.9%"], ["311.1%"], ["333.3%"], ["355.6%"], ["377.8%"], ["400%"], ["422.2%"], ["444.4%"], ["466.7%"], ["488.9%"]],
     },
     ultimate:     {

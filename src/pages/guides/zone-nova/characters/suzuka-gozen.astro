@@ -1,0 +1,16 @@
+---
+import CharacterIndividualLayout from '../../../../layouts/zone-nova/CharacterIndividualLayout.astro';
+import CharacterPageTemplate from '../../../../templates/zone-nova/CharacterPageTemplate.astro';
+import { suzukagozenData, suzukagozenSEO } from '../../../../data/zone-nova/characters/suzuka-gozen.js';
+
+export const prerender = true;
+---
+
+<CharacterIndividualLayout
+  title={suzukagozenSEO.title}
+  description={suzukagozenSEO.description}
+  gameTitle={suzukagozenData.name}
+  character={suzukagozenData}
+>
+  <CharacterPageTemplate characterData={suzukagozenData} />
+</CharacterIndividualLayout>

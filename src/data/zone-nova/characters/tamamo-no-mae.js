@@ -178,15 +178,15 @@ export const tamamoNoMaeData = {
     normal:     {
       name: "Crimson Blade Dance",
       cooldown: "2.0s",
-      description: "Deals 120% ATK fire DMG to a target enemy.",
-      template: "Deals {0} ATK fire DMG to a target enemy.",
+      description: "Deals 120% Attack as fire damage to the targeted enemy unit",
+      template: "Deals {0} Attack as fire damage to the targeted enemy unit",
       levelValues: [["55%"], ["60%"], ["65%"], ["70%"], ["75%"], ["80%"], ["85%"], ["90%"], ["95%"], ["100%"], ["105%"], ["110%"], ["115%"], ["120%"]],
     },
     auto:     {
       name: "Bewitching Fire",
       cooldown: "5.0s",
-      description: "Deals 142.2% ATK fire DMG to a target enemy and gains 1 stack of [Fox Flame] (max 9 stacks). Restores 1 Energy for every 2 Skills used.",
-      template: "Deals {0} ATK fire DMG to a target enemy and gains 1 stack of [Fox Flame] (max 9 stacks). Restores 1 Energy for every 2 Skills used.",
+      description: "Deals 142.2% Attack as fire damage to the targeted enemy unit and gains 1 stack of [Fox Flame] (max 9 stacks). Restores 1 Energy for every 2 Skills used.",
+      template: "Deals {0} Attack as fire damage to the targeted enemy unit and gains 1 stack of [Fox Flame] (max 9 stacks). Restores 1 Energy for every 2 Skills used.",
       levelValues: [["70%"], ["75.6%"], ["81.1%"], ["86.7%"], ["92.2%"], ["97.8%"], ["103.3%"], ["108.9%"], ["114.4%"], ["120%"], ["125.6%"], ["131.1%"], ["136.7%"], ["142.2%"]],
     },
     ultimate:     {

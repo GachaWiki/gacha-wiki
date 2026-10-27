@@ -173,8 +173,8 @@ export const medusaData = {
     normal:     {
       name: "Precision shooting",
       cooldown: "2.0s",
-      description: "Deals 120% attack power wind damage to the designated enemy unit. When Medusa enters the [Stone Princess] form, her normal attacks will deal 73.3% ​​attack power wind damage to the enemy unit, and also inflict [Serpent's Gaze], increasing the cooldown of all skills by 3.5% for 10 seconds, up to 10 stacks.",
-      template: "Deals {0} attack power wind damage to the designated enemy unit. When Medusa enters the [Stone Princess] form, her normal attacks will deal {1} ​​attack power wind damage to the enemy unit, and also inflict [Serpent's Gaze], increasing the cooldown of all skills by 3.5% for 10 seconds, up to 10 stacks.",
+      description: "Deals 120% Attack as wind damage to the targeted enemy unit. When Medusa enters the [Stone Princess] form, her normal attacks will deal 73.3% ​​attack power wind damage to the enemy unit, and also inflict [Serpent's Gaze], increasing the cooldown of all skills by 3.5% for 10 seconds, up to 10 stacks.",
+      template: "Deals {0} Attack as wind damage to the targeted enemy unit. When Medusa enters the [Stone Princess] form, her normal attacks will deal {1} ​​attack power wind damage to the enemy unit, and also inflict [Serpent's Gaze], increasing the cooldown of all skills by 3.5% for 10 seconds, up to 10 stacks.",
       levelValues: [["55%", "30%"], ["60%", "33.3%"], ["65%", "36.7%"], ["70%", "40%"], ["75%", "43.3%"], ["80%", "46.7%"], ["85%", "50%"], ["90%", "53.3%"], ["95%", "56.7%"], ["100%", "60%"], ["105%", "63.3%"], ["110%", "66.7%"], ["115%", "70%"], ["120%", "73.3%"]],
     },
     auto:     {

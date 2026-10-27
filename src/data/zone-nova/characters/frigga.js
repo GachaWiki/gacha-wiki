@@ -179,8 +179,8 @@ export const friggaData = {
     normal:     {
       name: "Spindle Thrust",
       cooldown: "2.0s",
-      description: "Deals 120% Attack Power as chaos damage to a designated enemy unit.",
-      template: "Deals {0} Attack Power as chaos damage to a designated enemy unit.",
+      description: "Deals 120% Attack as chaos damage to the targeted enemy unit",
+      template: "Deals {0} Attack as chaos damage to the targeted enemy unit",
       levelValues: [["55%"], ["60%"], ["65%"], ["70%"], ["75%"], ["80%"], ["85%"], ["90%"], ["95%"], ["100%"], ["105%"], ["110%"], ["115%"], ["120%"]],
     },
     auto:     {

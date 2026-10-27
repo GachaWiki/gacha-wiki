@@ -12,7 +12,7 @@ export const ZONE_NOVA_FACTIONS = {
   Safir: {
     name: 'Safir',
     chineseName: '薩緋爾',
-    characters: ['Shanna', 'Penny', 'Chiya', 'Kela', 'Lavinia', 'Lily', 'Lyra', 'Naiya', 'Nina', 'Erika', 'Veronica', ],
+    characters: ['Shanna', 'Penny', 'Chiya', 'Kela', 'Lavinia', 'Lily', 'Lyra', 'Naiya', 'Nina', 'Erika', 'Veronica', 'Mila', ],
     color: '#2196f3',
     description: 'The Safir faction',
   },
@@ -54,7 +54,7 @@ export const ZONE_NOVA_FACTIONS = {
   'Heikyo Castle': {
     name: 'Heikyo Castle',
     chineseName: '平京城',
-    characters: ['Ibaraki-doji', 'Zashiki-warashi', 'Snow Girl', 'Jorogumo', 'Shuten-doji', 'Tamamo-no-Mae', 'Ootakemaru'],
+    characters: ['Ibaraki-doji', 'Zashiki-warashi', 'Snow Girl', 'Jorogumo', 'Shuten-doji', 'Tamamo-no-Mae', 'Ootakemaru', 'Suzuka Gozen'],
     color: '#00bcd4',
     description: 'The Heikyo Castle faction with Japanese influences',
   },

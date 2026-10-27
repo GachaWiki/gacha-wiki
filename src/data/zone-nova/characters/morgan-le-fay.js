@@ -178,8 +178,8 @@ export const morganLeFayData = {
     normal:     {
       name: "Dawn Slash",
       cooldown: "2.0s",
-      description: "Deals 120% attack power as holy damage to the designated enemy unit.",
-      template: "Deals {0} attack power as holy damage to the designated enemy unit.",
+      description: "Deals 120% Attack as holy damage to the targeted enemy unit",
+      template: "Deals {0} Attack as holy damage to the targeted enemy unit",
       levelValues: [["55%"], ["60%"], ["65%"], ["70%"], ["75%"], ["80%"], ["85%"], ["90%"], ["95%"], ["100%"], ["105%"], ["110%"], ["115%"], ["120%"]],
     },
     auto:     {

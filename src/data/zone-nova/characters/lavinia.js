@@ -178,8 +178,8 @@ export const laviniaData = {
     normal:     {
       name: "Flame Kiss",
       cooldown: "2.0s",
-      description: "Deal 120% attack fire damage to the designated enemy unit",
-      template: "Deal {0} attack fire damage to the designated enemy unit",
+      description: "Deals 120% Attack as fire damage to the targeted enemy unit",
+      template: "Deals {0} Attack as fire damage to the targeted enemy unit",
       levelValues: [["55%"], ["60%"], ["65%"], ["70%"], ["75%"], ["80%"], ["85%"], ["90%"], ["95%"], ["100%"], ["105%"], ["110%"], ["115%"], ["120%"]],
     },
     auto:     {

@@ -178,8 +178,8 @@ export const freyaData = {
     normal:     {
       name: "Golden Wind Assault",
       cooldown: "2.0s",
-      description: "Deal 72% attack damage of ice damage to the designated enemy unit.",
-      template: "Deal {0} attack damage of ice damage to the designated enemy unit.",
+      description: "Deals 72% Attack as ice damage to the targeted enemy unit",
+      template: "Deals {0} Attack as ice damage to the targeted enemy unit",
       levelValues: [["33%"], ["36%"], ["39%"], ["42%"], ["45%"], ["48%"], ["51%"], ["54%"], ["57%"], ["60%"], ["63%"], ["66%"], ["69%"], ["72%"]],
     },
     auto:     {

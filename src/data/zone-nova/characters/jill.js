@@ -175,8 +175,8 @@ export const jillData = {
     normal:     {
       name: "Morning Drill",
       cooldown: "2.0s",
-      description: "Deals holy DMG equal to 120% ATK to the target enemy.",
-      template: "Deals holy DMG equal to {0} ATK to the target enemy.",
+      description: "Deals 120% Attack as holy damage to the targeted enemy unit",
+      template: "Deals {0} Attack as holy damage to the targeted enemy unit",
       levelValues: [["55%"], ["60%"], ["65%"], ["70%"], ["75%"], ["80%"], ["85%"], ["90%"], ["95%"], ["100%"], ["105%"], ["110%"], ["115%"], ["120%"]],
     },
     auto:     {

@@ -179,8 +179,8 @@ export const jorogumoData = {
     normal:     {
       name: "Eclipse Silk",
       cooldown: "2.0s",
-      description: "Deals 120% ATK chaos Damage to a target enemy.",
-      template: "Deals {0} ATK chaos Damage to a target enemy.",
+      description: "Deals 120% Attack as chaos damage to the targeted enemy unit",
+      template: "Deals {0} Attack as chaos damage to the targeted enemy unit",
       levelValues: [["55%"], ["60%"], ["65%"], ["70%"], ["75%"], ["80%"], ["85%"], ["90%"], ["95%"], ["100%"], ["105%"], ["110%"], ["115%"], ["120%"]],
     },
     auto:     {

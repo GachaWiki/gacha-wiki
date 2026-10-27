@@ -173,8 +173,8 @@ export const bedivereData = {
     normal:     {
       name: "Edge Testing",
       cooldown: "2.0s",
-      description: "Deals ice DMG equal to 120% ATK to the target enemy unit",
-      template: "Deals ice DMG equal to {0} ATK to the target enemy unit",
+      description: "Deals 120% Attack as ice damage to the targeted enemy unit",
+      template: "Deals {0} Attack as ice damage to the targeted enemy unit",
       levelValues: [["55%"], ["60%"], ["65%"], ["70%"], ["75%"], ["80%"], ["85%"], ["90%"], ["95%"], ["100%"], ["105%"], ["110%"], ["115%"], ["120%"]],
     },
     auto:     {
