@@ -555,11 +555,11 @@ table.character-table tr {
     min-height: 44px;
   }
 
-  /* zn-db toolbar: rows stack centered, search goes full width */
+  /* zn-db toolbar on mobile: filters and sort are desktop tools, hide them
+     (they bloat the small screen); search + count remain */
   .zn-db-filter-row,
   .zn-db-sort-row {
-    width: 100%;
-    justify-content: center;
+    display: none;
   }
 
   .zn-db-search-row {
@@ -568,21 +568,8 @@ table.character-table tr {
 
   .zn-db-search-input {
     width: 100%;
-  }
-
-  .zn-db-select,
-  .zn-db-sort-btn,
-  .zn-db-reset-btn,
-  .zn-db-search-input {
-    height: 44px; /* Larger touch targets */
-    min-height: 44px;
-    padding: 0 1rem;
+    height: 44px; /* Larger touch target */
     font-size: var(--text-md); /* Slightly larger text */
-  }
-
-  .zn-db-reset-btn {
-    margin-left: 0;
-    padding: 0 1.2rem;
   }
 
   .main-content-container {
