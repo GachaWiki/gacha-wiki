@@ -651,10 +651,6 @@
   letter-spacing: 0.05em;
 }
 
-.hw-badge-favorites {
-  background: var(--hw-error-gradient);
-  color: var(--hw-text-white);
-}
 
 .hw-favorite-stats {
   display: grid;
@@ -761,10 +757,6 @@
   letter-spacing: 0.05em;
 }
 
-.hw-badge-likes {
-  background: var(--hw-bg-solid-green);
-  color: var(--hw-text-white);
-}
 
 .hw-like-stats {
   display: grid;
@@ -972,12 +964,6 @@
   color: var(--hw-text-light);
 }
 
-.hw-badge-value {
-  background: var(--hw-gold-gradient);
-  color: var(--hw-text-white);
-  font-size: var(--text-xs);
-  padding: 0.3rem 0.6rem;
-}
 .hw-gift-box-image {
   width: 50px;
   height: 50px;

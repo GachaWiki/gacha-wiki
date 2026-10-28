@@ -216,7 +216,6 @@ const description = weaponFlavor
             <div class="weapon-block">
               <div class="weapon-exskills-header">
                 <h2 class="weapon-stats-title">獨特技能：{uniqueSkillName}</h2>
-                <span class="hw-badge" data-type="Unique">獨特</span>
               </div>
 
               {hasExVariation ? (
@@ -305,8 +304,7 @@ const description = weaponFlavor
             <div class="weapon-block">
               <div class="weapon-exskills-header">
                 <h2 class="weapon-stats-title">專屬技能{signatureShortName ? `：${signatureShortName}` : ''}</h2>
-                {weapon.signatureSkill && <span class="hw-badge" data-type="Signature">專屬</span>}
-              </div>
+                </div>
 
               {
                 weapon.signatureSkill && (
@@ -377,7 +375,6 @@ const description = weaponFlavor
                 <div class="weapon-block">
                   <div class="weapon-exskills-header">
                     <h2 class="weapon-stats-title">特殊效果{specialEffectName ? `：${specialEffectName}` : ''}</h2>
-                    <span class="hw-badge" data-type="Unique">特殊</span>
                   </div>
 
                   {hasNonExVariation ? (

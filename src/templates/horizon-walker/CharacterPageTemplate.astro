@@ -286,7 +286,6 @@ const DEFAULT_LABELS = {
   giftExplanation:
     'Need 2000 points of affection to reach Level 5 to unlock trait bonus and also get gold and game currency too',
   level5BonusTitle: 'Level 5 Affection Bonus',
-  affectionBonusBadge: 'Affection Bonus',
   highValueGiftsTitle: 'High-Value Gifts',
   highValueGiftsDesc:
     'These rare gifts provide exceptional affection points (80+ total) and are extremely valuable',
@@ -1718,7 +1717,6 @@ function getSkillCardClasses(skill: any, key: string, isBase: boolean = false, i
                 <div class={`weapon-skill-card2${isSignature ? ' weapon-skill-card2-sig' : ''}`}>
                   <div class="weapon-skill-head">
                     <h3 class="weapon-skill-head-title">{isSignature ? `${labels.signatureSkillPrefix}${shortName}` : `${labels.uniqueSkillPrefix}${skill.name}`}</h3>
-                    <span class="hw-badge" data-type={skill.type || 'Unique'}>{skill.type || 'Unique'}</span>
                   </div>
 
                   {!isSignature && (characterData.weapon as any).exLevels && (
@@ -1967,9 +1965,6 @@ function getSkillCardClasses(skill: any, key: string, isBase: boolean = false, i
           <div class="level5-bonus-card">
             <div class="level5-bonus-header">
               <h3 class="level5-bonus-title">{labels.level5BonusTitle}</h3>
-              <span class="hw-badge" data-type="Bonus">
-                {labels.affectionBonusBadge}
-              </span>
             </div>
             <div class="level5-bonus-content">
               <span class="bonus-type">{statTypeDisplayName(giftData.level5Bonus.type)}:</span>

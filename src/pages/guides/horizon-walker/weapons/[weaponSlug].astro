@@ -162,7 +162,6 @@ export const prerender = true;
             <div class="weapon-block">
               <div class="weapon-exskills-header">
                 <h2 class="weapon-stats-title">Unique Skill: {weapon.uniqueSkill?.name}</h2>
-                <span class="hw-badge" data-type="Unique">Unique</span>
               </div>
 
               {hasExVariation ? (
@@ -253,8 +252,7 @@ export const prerender = true;
             <div class="weapon-block">
               <div class="weapon-exskills-header">
                 <h2 class="weapon-stats-title">Signature Skill{signatureShortName ? `: ${signatureShortName}` : ''}</h2>
-                {weapon.signatureSkill && <span class="hw-badge" data-type="Signature">Signature</span>}
-              </div>
+                </div>
 
               {
                 weapon.signatureSkill && (
@@ -332,7 +330,6 @@ export const prerender = true;
                 <div class="weapon-block">
                   <div class="weapon-exskills-header">
                     <h2 class="weapon-stats-title">Special Effect{weapon.specialEffect.name ? `: ${weapon.specialEffect.name.replace(/^Unique:\s*/, '')}` : ''}</h2>
-                    <span class="hw-badge" data-type="Unique">Special</span>
                   </div>
 
                   {hasNonExVariation ? (
