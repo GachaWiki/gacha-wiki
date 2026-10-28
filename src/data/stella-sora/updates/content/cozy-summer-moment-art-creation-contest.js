@@ -91,7 +91,7 @@ export const content = `
 <p>4. You may submit multiple entries for each track and participate in more than one track. Each person can win only one major award per track, but may be eligible to win awards in other tracks.</p>
 <p>5. Reposting or re-editing the works of others, maliciously displaying cheats or game bugs, or any other behavior that violates platform rules is strictly prohibited.</p>
 <p><strong>✦Terms & Conditions✦</strong></p>
-<p>1. All works (including titles, visuals, and descriptions) must not contain political, violent, pornographic, grotesque, third-party watermarks, or any other content prohibited by your posting platform. Excessively gory, NSFW, or obvious commercial promotions are not eligible.</p>
+<p>1. All works (including titles, visuals, and descriptions) must not contain political, violent, pornographic, grotesque, third-party watermarks, or any other content prohibited by your posting platform. Excessively gory or obvious commercial promotions are not eligible.</p>
 <p>2. If third-party materials (such as fonts) are used, the creator must ensure they have the legal right to use them.</p>
 <p>3. Collaborative works must be uploaded by one participant from the group; please avoid repeated submissions.</p>
 <p>4. All in-game item rewards are limited to the Stella Sora EN Server. If a winner does not have the required account, the reward will be forfeited.</p>

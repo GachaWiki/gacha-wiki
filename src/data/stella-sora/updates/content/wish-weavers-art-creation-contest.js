@@ -98,7 +98,7 @@ export const content = `
 <p>5. Reposting or re-editing the works of others, or any other behavior that violates platform rules is strictly prohibited.</p>
 <p>6.<strong> If your entry contains text, please ensure it is in English</strong>.</p>
 <p>❅ <strong>Terms & Conditions</strong> ❅</p>
-<p>1. All works (including titles, visuals, and descriptions) must not contain political, violent, pornographic, grotesque, third-party watermarks, or any other content prohibited by your posting platform. Excessively gory, NSFW, or obvious commercial promotions are not eligible.</p>
+<p>1. All works (including titles, visuals, and descriptions) must not contain political, violent, pornographic, grotesque, third-party watermarks, or any other content prohibited by your posting platform. Excessively gory or obvious commercial promotions are not eligible.</p>
 <p>2. If third-party materials (such as fonts) are used, the creator must ensure they have the legal rights to use them.</p>
 <p>3. Collaborative works must be uploaded by one participant from the group; please avoid repeated submissions.</p>
 <p>4. All in-game item rewards are limited to the Stella Sora EN Server. If a winner does not have the required account, the reward will be forfeited.</p>

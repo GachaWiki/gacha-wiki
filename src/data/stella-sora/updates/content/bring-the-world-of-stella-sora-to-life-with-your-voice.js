@@ -73,7 +73,7 @@ export const content = `
 <p>3. If an entry is later found to involve plagiarism or privacy violations, or if the original link is deleted during the event, the entry will be disqualified.</p>
 <p>4. After the contest ends, the showcased works will remain available for an additional 7 days for public display, after which they will be hidden and archived.</p>
 <p><strong>✦Terms & Conditions✦</strong></p>
-<p>1. All works (including titles, visuals, and descriptions) must not contain political, violent, pornographic, grotesque, third-party watermarks, or any other content prohibited by your posting platform. Excessively gory, NSFW, or overt commercial promotions are not eligible.</p>
+<p>1. All works (including titles, visuals, and descriptions) must not contain political, violent, pornographic, grotesque, third-party watermarks, or any other content prohibited by your posting platform. Excessively gory or overt commercial promotions are not eligible.</p>
 <p>2. If third-party materials (such as fonts) are used, the creator must ensure they have the legal right to use them.</p>
 <p>3. All entries must not contain AI-generated content.</p>
 <p>4. Collaborative works must be uploaded by one participant from the group; please avoid repeated submissions.</p>
