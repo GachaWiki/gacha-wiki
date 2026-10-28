@@ -177,17 +177,14 @@ function getCharacterUrl(characterName: string): string {
             </div>
             {nsfwArtUrl && (
               <div class="memory-card-frame">
-                <div class="memory-nsfw-wrap" data-nsfw-reveal>
-                  <img
-                    src={nsfwArtUrl}
-                    alt={`${memoryData.name} NSFW art`}
-                    width={200}
-                    height={300}
-                    loading="lazy"
-                    class="memory-card-image"
-                  />
-                  <span class="memory-nsfw-cover">NSFW art: double-click to show</span>
-                </div>
+                <img
+                  src={nsfwArtUrl}
+                  alt={`${memoryData.name} NSFW art`}
+                  width={200}
+                  height={300}
+                  loading="lazy"
+                  class="memory-card-image"
+                />
                 <span class="memory-card-caption">NSFW Variant</span>
               </div>
             )}
@@ -322,14 +319,6 @@ function getCharacterUrl(characterName: string): string {
           pills.forEach((p) => p.classList.toggle('active', p === pill));
           const lv = pill.getAttribute('data-awaken');
           variants.forEach((v) => v.classList.toggle('active', v.getAttribute('data-awaken') === lv));
-        });
-      });
-
-      // NSFW art stays blurred until double-clicked (toggle) so it is safe to
-      // open the page in public; single click never reveals it.
-      document.querySelectorAll('[data-nsfw-reveal]').forEach((el) => {
-        el.addEventListener('dblclick', () => {
-          el.classList.toggle('revealed');
         });
       });
     </script>
@@ -504,39 +493,6 @@ function getCharacterUrl(characterName: string): string {
       margin-top: 0.5rem;
       font-size: var(--text-xs);
       color: var(--zn-text-secondary);
-    }
-
-    .memory-nsfw-wrap {
-      position: relative;
-      cursor: pointer;
-      user-select: none;
-    }
-
-    .memory-nsfw-wrap .memory-card-image {
-      filter: blur(26px);
-    }
-
-    .memory-nsfw-wrap.revealed .memory-card-image {
-      filter: none;
-    }
-
-    .memory-nsfw-cover {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      padding: 0.35rem 0.6rem;
-      background: var(--zn-bg-tertiary);
-      border: 1px solid var(--zn-border-primary);
-      border-radius: 4px;
-      font-size: var(--text-xs);
-      color: var(--zn-text-secondary);
-      text-align: center;
-      pointer-events: none;
-    }
-
-    .memory-nsfw-wrap.revealed .memory-nsfw-cover {
-      display: none;
     }
 
     .memory-card-image {
