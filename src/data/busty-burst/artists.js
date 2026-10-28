@@ -250,7 +250,7 @@ export const BB_ARTISTS = [
     romaji: "Yamada Gogogo",
     pixiv: "https://www.pixiv.net/users/11837334",
     x: "https://x.com/ymdgogogogo",
-    works: "Adult manga via Nijigen Dream (Ero-na series)",
+    works: "Manga via Nijigen Dream",
     characters: [
       { slug: "lin", name: "Lin" },
       { slug: "nue", name: "Nue" },
@@ -306,7 +306,7 @@ export const BB_ARTISTS = [
     romaji: "Nanase Mizuho",
     pixiv: "https://www.pixiv.net/users/2684135",
     x: "https://x.com/nanasemizuho",
-    works: "Comic Unreal adult manga, Netorare Princess, doujin circle ArkEmerald",
+    works: "Comic Unreal manga, doujin circle ArkEmerald",
     characters: [
       { slug: "kitty-ruru", name: "Kitty: Ruru" },
       { slug: "little-devil-idol-nina", name: "Little Devil Idol: Nina" },

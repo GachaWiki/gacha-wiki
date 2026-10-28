@@ -1457,8 +1457,8 @@ export const loCharacters = [
         "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/rhea-0.webp"
       },
       {
-        "name": "Audrey Moon Collection: Adult Rabbit",
-        "tab": "Audrey Moon Collection: Adult Rabbit",
+        "name": "Audrey Moon Collection: Rabbit",
+        "tab": "Audrey Moon Collection: Rabbit",
         "price": "159",
         "desc": "The traditional dress for the old festival「The end of August」that is restored by Audrey. Rumours are saying that the festival has something to do with Moon Rabbits. Also, a lot of females were featured on magazines wearing this...",
         "img": "https://k2b1c5ab57ed98e51.gachawiki.info/last-origin-global/skins/rhea-1.webp"
@@ -38261,7 +38261,7 @@ export const loCharacters = [
         "aoe": "AoE"
       },
       {
-        "name": "Mature Younger Sister",
+        "name": "Elegant Younger Sister",
         "slot": "Passive",
         "effect": "At the start of round, grant Sisters of Valhalla Ice Resist up +10%(+19%) for 1 round.",
         "range": "",

@@ -16,7 +16,7 @@ export const GSA_UPDATES = [
     imageCaption: 'Official event art for the Black Gold Hunter re-run, posted on X (@GeneSysAdamJP, October 13, 2026).',
     summary: 'The Black Gold Hunter event re-ran on October 13 with the Cowgirl Belle ticket recruits, a 120-pity gem lane, the eight-vault Warrant Gem economy and Gold Bar training, while kit reworks landed on Belle, Elena, Victoria, Alyna and Leng Zhen.',
     points: [
-      'Black Gold Hunter event re-run live October 13, 07:00 to November 3, 06:59 (UTC+8), per the official @GeneSysAdamJP announcement. Event stages drop Warrant Gems that open the eight black-market vaults (uniform-probability rewards per vault), paid and free Gold Bars feed the event training bonus, and login gifts run alongside. The client pulled the banner art panel (Draw_Bg_23) on October 13; the panel is R18 and stays off the wiki.',
+      'Black Gold Hunter event re-run live October 13, 07:00 to November 3, 06:59 (UTC+8), per the official @GeneSysAdamJP announcement. Event stages drop Warrant Gems that open the eight black-market vaults (uniform-probability rewards per vault), paid and free Gold Bars feed the event training bonus, and login gifts run alongside. The client pulled the banner art panel (Draw_Bg_23) on October 13; the panel art stays off the wiki.',
       'Ticket recruit lanes for Cowgirl Belle and Rookie Maid Sugimoto Arina, plus a gem machine with a 120-pull guarantee. The Ogino Rui and Sugimoto Arina solo rate-ups that had run since September 29 were superseded by this wave.',
       'Kit reworks: Belle Clumsy Cowgirl gained a critical-hit ally shield passive (65% Shield, 4 seconds, 6-second internal cooldown) and her Chilled Milky Delivery cooldown went from 5 to 6 seconds; Elena\'s basic attack now hits twice, her talent fires five hits applying Burn M, and her reworked passive grants self Fire ATK Up 6% (12s) on hit against Burning targets; Victoria\'s basic attack hits twice and her awakened ultimate lands eight hits.',
       'Affection tracks buffed: Qing Yin and Victoria had four affection reward steps raised (+50 to +100 on three steps, +100 to +200 on the last), lifting each track from +500 to +800 flat ATK in total.',
@@ -111,7 +111,7 @@ export const GSA_UPDATES = [
     points: [
       'Pre-registration opened on August 26, 2026 (12:00, UTC+8).',
       'Milestone rewards scale with total registrations, up to the 500,000 tier confirmed on September 17.',
-      'The campaign ran on the EROLABS platform store page.',
+      'The campaign ran on the platform store page.',
     ],
     source: 'Official site news (genesys-adam.com), announcement post 3427.',
   },
@@ -139,7 +139,7 @@ export const GSA_UPDATES = [
       'Two SSR characters with kits in the tables: Qing Yin, a Wind Breaker whose whole kit prioritizes Electrocuted targets and triggers Overload pursuits, and Leng Zhen, a Water Breaker who charges the team 2 EN per hit and lands Freeze M rolls on every loop. Leng Zhen\'s passives were reworked again on October 13 and now reference effect rows that have not shipped in the static tables yet; those lines complete when her wave goes live.',
       'Lingering Echoes dual rate-up banner for both (art panels Draw_Bg_40_1 and _40_2) with a 120-pull featured guarantee, plus training missions for each.',
       'Collect Gagaku Emblems event: emblems drop from event stages and trade in the event exchange shop.',
-      'Last in the current activity pipeline; their kits arrived in the September 22 tables alongside 90 preload items (1,001 to 1,078: the Source of Chaos event set, date and chat portraits, and new HCG scene unlocks) and the Assembly-CSharp 1.0.0 hot-update module.',
+      'Last in the current activity pipeline; their kits arrived in the September 22 tables alongside 90 preload items (1,001 to 1,078: the Source of Chaos event set, date and chat portraits, and new story scene unlocks) and the Assembly-CSharp 1.0.0 hot-update module.',
     ],
     source: 'Draw machine and activity tables, Patch pulls of September 22 and October 2, 2026.',
   },

@@ -37,7 +37,7 @@ export const september2MaintenanceData = {
       'Activity Period: September 2, 2025 after maintenance ~ September 16, 2025 03:59:59',
       'Class: Destroyer',
       'Element: Ice',
-      "Profile: 芙蕾雅 — [Captain] of the Hailayu Cavalry Squadron, [Asa Family] younger sister, caretaker of [Misty Forest]. 芙蕾雅 herself possesses the ability to evade enemy spirit detection and cause resonance. She helps her escape the framework of being trapped in various patterns, understanding the opponent's inner thoughts from an emotional perspective. Therefore, 芙蕾雅 can always anticipate the opponent's needs in advance, which has won her the title [Mist Spirit]. She is gradually becoming a spirit that can see through people's hearts, and she herself is very fond of this position, with a divine-like adult woman who is both gentle and somewhat teasing.",
+      "Profile: 芙蕾雅 — [Captain] of the Hailayu Cavalry Squadron, [Asa Family] younger sister, caretaker of [Misty Forest]. 芙蕾雅 herself possesses the ability to evade enemy spirit detection and cause resonance. She helps her escape the framework of being trapped in various patterns, understanding the opponent's inner thoughts from an emotional perspective. Therefore, 芙蕾雅 can always anticipate the opponent's needs in advance, which has won her the title [Mist Spirit]. She is gradually becoming a spirit that can see through people's hearts, and she herself is very fond of this position, with a divine-like woman who is both gentle and somewhat teasing.",
       '',
       "3. Opening [Limited Memory Recruitment] Slave's Desire",
       '',

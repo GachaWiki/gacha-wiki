@@ -108,7 +108,7 @@ export const bannerTimeline = [
     dateNote: 'start date',
     featured: ['Luoqin', 'Lucia'],
     slugs: ['luoqin', 'lucia'],
-    note: 'Dual SSR Pickup with the September pair. Banners confirmed by JP wiki calendar and the official EROLABS announcement. Runs to Oct 21.',
+    note: 'Dual SSR Pickup with the September pair. Banners confirmed by JP wiki calendar and the official announcement. Runs to Oct 21.',
   },
   {
     name: 'Bazhuli UR Pickup',

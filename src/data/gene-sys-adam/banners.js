@@ -31,7 +31,7 @@ export const GSA_BANNERS = [
     eventToken: 'Warrant Gems and Gold Bars',
     training: ['Belle'],
     image: `${R2}/X_BGH_Event.webp`,
-    note: 'The Black Gold Hunter event returned on October 13 (official period on the @GeneSysAdamJP account): event stages drop Warrant Gems that open the eight black-market vaults, each vault paying from a uniform-probability reward table, while paid and free Gold Bars feed the event training bonus. Ticket lanes cover Cowgirl Belle and Rookie Maid Sugimoto Arina, and the gem machine carries a 120-pull guarantee. The client pulled its banner art panel (Draw_Bg_23) on October 13; the panel itself is R18 and stays off the wiki, so the card uses the official event art. Login gifts run alongside.',
+    note: 'The Black Gold Hunter event returned on October 13 (official period on the @GeneSysAdamJP account): event stages drop Warrant Gems that open the eight black-market vaults, each vault paying from a uniform-probability reward table, while paid and free Gold Bars feed the event training bonus. Ticket lanes cover Cowgirl Belle and Rookie Maid Sugimoto Arina, and the gem machine carries a 120-pull guarantee. The client pulled its banner art panel (Draw_Bg_23) on October 13; the panel art itself stays off the wiki, so the card uses the official event art. Login gifts run alongside.',
   },
   {
     slug: 'ogino-rui-rate-up',
@@ -73,7 +73,7 @@ export const GSA_BANNERS = [
     eventToken: 'Moonflower Crest',
     training: ['Komachi Sayaka', 'Hijikata Chizuru'],
     image: `${R2}/News_3520.webp`,
-    note: 'The official-launch limited banner: a 120-pull featured guarantee, an ECoin ticket lane, and an exchange shop stocking Moonflower Naginata and Footwear components for Hijikata Chizuru. Card art is the official event notice from genesys-adam.com; the in-game art panels are R18 and stay off the wiki. Dates from the same official notice.',
+    note: 'The official-launch limited banner: a 120-pull featured guarantee, an ECoin ticket lane, and an exchange shop stocking Moonflower Naginata and Footwear components for Hijikata Chizuru. Card art is the official event notice from genesys-adam.com; the in-game art panels stay off the wiki. Dates from the same official notice.',
   },
   {
     slug: 'heavens-door-jessica',

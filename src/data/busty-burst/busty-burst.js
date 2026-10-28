@@ -5,7 +5,7 @@ export const bustyBurstConfig = {
   meta: {
     title: 'Busty Burst Fantasy Wiki - Download, Global Version & Paladin Guide | GachaWiki',
     description:
-      'Download Busty Burst Fantasy global version - Best adult fantasy RPG with paladin tier lists, summoning guides. Compare vs similar gacha games like R18 RPGs. Free download link, latest updates, team building strategies and duel tips for 2025.',
+      'Download Busty Burst Fantasy global version - Best fantasy RPG with paladin tier lists, summoning guides. Compare vs similar gacha RPGs. Free download link, latest updates, team building strategies and duel tips for 2025.',
     gameTitle: 'Busty Burst Fantasy',
     heroImage: 'gameLogo.webp',
   },

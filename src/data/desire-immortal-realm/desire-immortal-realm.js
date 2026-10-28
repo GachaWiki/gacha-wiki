@@ -10,7 +10,7 @@ export const desireImmortalRealmConfig = {
 
   gameInfo: {
     description:
-      'Desire Immortal Realm (欲界仙途, pinyin: Yù Jiè Xiān Tú) is a Chinese xianxia cultivation gacha distributed via the Erolabs platform. It reimagines famous women from Chinese history, mythology, and literature — Sun Shangxiang, Nie Xiaoqian, Hua Mulan, Diaochan, Xi Shi, Chang\'e, and more — as immortals of the Hehuan Sect. Combat is tower-defense style across star-tier progression.',
+      'Desire Immortal Realm (欲界仙途, pinyin: Yù Jiè Xiān Tú) is a Chinese xianxia cultivation gacha distributed digitally. It reimagines famous women from Chinese history, mythology, and literature — Sun Shangxiang, Nie Xiaoqian, Hua Mulan, Diaochan, Xi Shi, Chang\'e, and more — as immortals of the Hehuan Sect. Combat is tower-defense style across star-tier progression.',
     lastUpdated: new Date(),
   },
 

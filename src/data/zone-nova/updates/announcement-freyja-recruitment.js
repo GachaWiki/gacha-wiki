@@ -27,7 +27,7 @@ export const freyjaRecruitmentData = {
       '芙蕾雅 is an ice-attribute destroyer-type character. She is a long-range attacker who can simultaneously cause large-scale killing damage. Most terrifyingly, enemies who see her have already been attacked several times by the time they notice her.',
       '',
       'Character Profile:',
-      "芙蕾雅 — [Captain] of the Hailayu Cavalry 2nd Squadron, [Asa Family] younger sister. The caretaker of [Misty Forest]. 芙蕾雅 herself possesses the ability to evade enemy spirit detection and cause resonance. She helps her escape the framework of being trapped in various patterns, understanding the opponent's inner thoughts from an emotional perspective. Therefore, 芙蕾雅 can always anticipate the opponent's needs in advance, which has won her the title [Mist Spirit]. She is gradually becoming a spirit that can see through people's hearts, and she herself is very fond of this position, with a divine-like adult woman who is both gentle and somewhat teasing.",
+      "芙蕾雅 — [Captain] of the Hailayu Cavalry 2nd Squadron, [Asa Family] younger sister. The caretaker of [Misty Forest]. 芙蕾雅 herself possesses the ability to evade enemy spirit detection and cause resonance. She helps her escape the framework of being trapped in various patterns, understanding the opponent's inner thoughts from an emotional perspective. Therefore, 芙蕾雅 can always anticipate the opponent's needs in advance, which has won her the title [Mist Spirit]. She is gradually becoming a spirit that can see through people's hearts, and she herself is very fond of this position, with a divine-like woman who is both gentle and somewhat teasing.",
       '',
       'Activity Details:',
       'Activity Period: 2025/09/02 After maintenance ~ 2025/09/16 03:59',

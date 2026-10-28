@@ -206,8 +206,8 @@ export const gsaItems = [
  },
  {
   "id": "200000030",
-  "name": "EROLABS Coin",
-  "desc": "EROLABS Coin",
+  "name": "ECoin",
+  "desc": "ECoin",
   "quality": "70",
   "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200000030.webp"
  },
@@ -5716,7 +5716,7 @@ export const gsaItems = [
  {
   "id": "200220074",
   "name": "[Date Portrait] Jessica",
-  "desc": "Complete Jessica's Message Logs \"Mature Charm\" to obtain.",
+  "desc": "Complete Jessica's Message Logs to obtain.",
   "quality": "70",
   "icon": null
  },
@@ -6171,7 +6171,7 @@ export const gsaItems = [
  {
   "id": "200255016",
   "name": "[Background] Pleasure District Street - Night",
-  "desc": "After nightfall, the pleasure district overflows with alcohol and sex. This is a playground for adults only.",
+  "desc": "After nightfall, the pleasure district overflows with drinks and revelry. This is a playground for grown-ups.",
   "quality": "50",
   "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200255016.webp"
  },
@@ -6632,301 +6632,301 @@ export const gsaItems = [
  },
  {
   "id": "200270001",
-  "name": "[HCG] Nightclub Dance Floor",
+  "name": "Nightclub Dance Floor",
   "desc": "Who is pressed against Belle's back?",
   "quality": "70",
   "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200270001.webp"
  },
  {
   "id": "200270002",
-  "name": "[HCG] Soapy Bath",
+  "name": "Soapy Bath",
   "desc": "Must smell wonderful.",
   "quality": "70",
   "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200270002.webp"
  },
  {
   "id": "200270003",
-  "name": "[HCG] On the Job",
+  "name": "On the Job",
   "desc": "You're just a cum dumpster for me to use and abuse.",
   "quality": "70",
   "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200270003.webp"
  },
  {
   "id": "200270004",
-  "name": "[HCG] Struggle",
+  "name": "Struggle",
   "desc": "A stage in heat is the most alluring of all.",
   "quality": "70",
   "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200270004.webp"
  },
  {
   "id": "200270005",
-  "name": "[HCG] Fuyutsuki Kasumi's Footjob",
+  "name": "Fuyutsuki Kasumi's Footjob",
   "desc": "Please be a little rougher.",
   "quality": "70",
   "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200270005.webp"
  },
  {
   "id": "200270006",
-  "name": "[HCG] Streetwalker",
+  "name": "Streetwalker",
   "desc": "In broad daylight, you can have pleasure anywhere.",
   "quality": "70",
   "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200270006.webp"
  },
  {
   "id": "200270007",
-  "name": "[HCG] Surprise Bar",
+  "name": "Surprise Bar",
   "desc": "If I wear a mask, no one will recognize me, right?",
   "quality": "70",
   "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200270007.webp"
  },
  {
   "id": "200270008",
-  "name": "[HCG] Ritual of Purification",
+  "name": "Ritual of Purification",
   "desc": "Washed completely clean, from the inside out.",
   "quality": "70",
   "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200270008.webp"
  },
  {
   "id": "200270009",
-  "name": "[HCG] Maid Cafe",
+  "name": "Maid Cafe",
   "desc": "One could happily spend a whole day here, just waiting for a sudden surprise.",
   "quality": "70",
   "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200270009.webp"
  },
  {
   "id": "200270010",
-  "name": "[HCG] Professional Spirit",
+  "name": "Professional Spirit",
   "desc": "If you're not going to obey, then this cock will have to teach you a lesson.",
   "quality": "70",
   "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200270010.webp"
  },
  {
   "id": "200270011",
-  "name": "[HCG] Bare Skinship",
+  "name": "Bare Skinship",
   "desc": "Is a physical examination necessary?",
   "quality": "70",
   "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200270011.webp"
  },
  {
   "id": "200270012",
-  "name": "[HCG] Naked Banquet",
+  "name": "Naked Banquet",
   "desc": "A vessel perfect down to its appearance and blood type still requires rigorous training before it can be \"served.\"",
   "quality": "70",
   "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200270012.webp"
  },
  {
   "id": "200270013",
-  "name": "[HCG] Photo Album",
+  "name": "Photo Album",
   "desc": "Which goddesses had their scandalous photos leaked?",
   "quality": "70",
   "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200270013.webp"
  },
  {
   "id": "200270014",
-  "name": "[HCG] Rowdy Patron",
+  "name": "Rowdy Patron",
   "desc": "Never casually experiment with the pleasure of asphyxiation.",
   "quality": "70",
   "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200270014.webp"
  },
  {
   "id": "200270015",
-  "name": "[HCG] Underground Auction",
+  "name": "Underground Auction",
   "desc": "Behind the glitz and glamour of an idol lies a world of unseen hardships.",
   "quality": "70",
   "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200270015.webp"
  },
  {
   "id": "200270016",
-  "name": "[HCG] Making a Comeback",
+  "name": "Making a Comeback",
   "desc": "Struggling artists must always find ways to reinvent themselves just to survive.",
   "quality": "70",
   "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200270016.webp"
  },
  {
   "id": "200270017",
-  "name": "[HCG] Honey Trap",
+  "name": "Honey Trap",
   "desc": "A gift exclusively for you, wishing only to serve you.",
   "quality": "70",
   "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200270017.webp"
  },
  {
   "id": "200270018",
-  "name": "[HCG] Kidnapping",
+  "name": "Kidnapping",
   "desc": "No matter how you struggle or scream, it is all in vain.",
   "quality": "70",
   "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200270018.webp"
  },
  {
   "id": "200270019",
-  "name": "[HCG] Bathing",
+  "name": "Bathing",
   "desc": "The hot water pours down, washing away exhaustion and settling the mind.",
   "quality": "70",
   "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200270019.webp"
  },
  {
   "id": "200270020",
-  "name": "[HCG] Illusory Dream",
+  "name": "Illusory Dream",
   "desc": "A nightmare from the abyss, tightly coiling and burrowing deep into mind and flesh.",
   "quality": "70",
   "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200270020.webp"
  },
  {
   "id": "200270021",
-  "name": "[HCG] Shared Afterthoughts",
+  "name": "Shared Afterthoughts",
   "desc": "Reading the online reviews, you can only use your imagination to piece together that peak, love-struck experience.",
   "quality": "70",
   "icon": null
  },
  {
   "id": "200270022",
-  "name": "[HCG] Crown of Power",
+  "name": "Crown of Power",
   "desc": "Welcome to Elysium. All that is a feast for the eyes, the nose, and the palate belongs to me. If you did not know before, you certainly do now.",
   "quality": "70",
   "icon": null
  },
  {
   "id": "200270023",
-  "name": "[HCG] Indulgent Training",
+  "name": "Indulgent Training",
   "desc": "She thoroughly enjoyed being conquered by such a powerful man, relishing the brutal, primal nature of his treatment.",
   "quality": "70",
   "icon": null
  },
  {
   "id": "200270024",
-  "name": "[Special HCG] Splashdown Paradise",
+  "name": "Splashdown Paradise",
   "desc": "Take a refreshing dip in that pool.",
   "quality": "70",
   "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200270024.webp"
  },
  {
   "id": "200270025",
-  "name": "[Special HCG] Euphoria Live Lounge",
+  "name": "Euphoria Live Lounge",
   "desc": "Ultimate Whale.",
   "quality": "70",
   "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200270025.webp"
  },
  {
   "id": "200270026",
-  "name": "[Special HCG] Chamber of Bondage",
+  "name": "Chamber of Bondage",
   "desc": "Restrained desire runs high in the dead of night.",
   "quality": "70",
   "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200270026.webp"
  },
  {
   "id": "200270027",
-  "name": "[Special HCG] Secret Club",
+  "name": "Secret Club",
   "desc": "Keep tapping along to the rhythm! This is a luxurious experience reserved for our most distinguished guests.",
   "quality": "70",
   "icon": null
  },
  {
   "id": "200270028",
-  "name": "[HCG] Top Dealer's VIP Service",
+  "name": "Top Dealer's VIP Service",
   "desc": "A premium service you can only enjoy after letting yourself be played for a sucker.",
   "quality": "70",
   "icon": null
  },
  {
   "id": "200270029",
-  "name": "[HCG] Side Effects",
+  "name": "Side Effects",
   "desc": "The potion's side effects caused reason to be overwhelmed by desire.",
   "quality": "70",
   "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200270029.webp"
  },
  {
   "id": "200270030",
-  "name": "[HCG] Night Clinic",
+  "name": "Night Clinic",
   "desc": "Late at night, the nurse continues tirelessly providing care to her patients.",
   "quality": "70",
   "icon": null
  },
  {
   "id": "200270031",
-  "name": "[HCG] Dual Cultivation",
+  "name": "Dual Cultivation",
   "desc": "Harvesting the Yin to nourish the Yang is the ultimate secret to eternal youth and vitality.",
   "quality": "70",
   "icon": null
  },
  {
   "id": "200270032",
-  "name": "[HCG] Banquet of Betrayal",
+  "name": "Banquet of Betrayal",
   "desc": "At the most romantic candlelit dinner, indulge in the ultimate raw desire and passion.",
   "quality": "70",
   "icon": null
  },
  {
   "id": "200270033",
-  "name": "\u3010HCG\u3011\u6c99\u7058\u4e0a\u7684\u6027\u611b\u6bd4\u8a66",
+  "name": "\u6c99\u7058\u4e0a\u7684\u6027\u611b\u6bd4\u8a66",
   "desc": "\u4fd7\u8a71\u8aaa\uff1a\u7f8e\u9e97\u7684\u82b1\u6735\u7e3d\u5e36\u523a\uff0c\u5371\u96aa\u7684\u5973\u4eba\u7576\u7136\u4e5f\u6709\u8457\u81f4\u547d\u7684\u5438\u5f15\u529b\u2026\u2026",
   "quality": "70",
   "icon": null
  },
  {
   "id": "200270034",
-  "name": "\u3010HCG\u3011\u898b\u8272\u8d77\u610f\u7684\u8b77\u885b",
+  "name": "\u898b\u8272\u8d77\u610f\u7684\u8b77\u885b",
   "desc": "\u7cbe\u795e\u840e\u9761\u3001\u8eab\u9ad4\u865b\u5f31\uff0c\u4f46\u662f\u4e0b\u9762\u9084\u662f\u5f88\u6709\u7cbe\u795e\u3002",
   "quality": "70",
   "icon": null
  },
  {
   "id": "200270035",
-  "name": "\u3010HCG\u3011\u5c0d\u597d\u7537\u4eba\u7684\u9951\u6e34\u5984\u60f3",
+  "name": "\u5c0d\u597d\u7537\u4eba\u7684\u9951\u6e34\u5984\u60f3",
   "desc": "\u7d93\u6b77\u904e\u77ed\u66ab\u7684\u5408\u4f5c\u8207\u76f8\u8655\u904e\u5f8c\uff0c\u827e\u7433\u5a1c\u770b\u5411\u897f\u5967\u591a\u773c\u795e\u4e0d\u518d\u53ea\u6709\u6b3d\u4f69\uff0c\u9084\u53c3\u96dc\u4e86\u591a\u9918\u7684\u60c5\u611f\u2026\u2026",
   "quality": "70",
   "icon": null
  },
  {
   "id": "200270036",
-  "name": "\u3010HCG\u3011\u672b\u8def\u6fc0\u60c5",
+  "name": "\u672b\u8def\u6fc0\u60c5",
   "desc": "\u6062\u5fa9\u7cbe\u795e\u7684\u6700\u597d\u65b9\u6cd5\u5c31\u662f\u4f86\u4e00\u767c\u3002",
   "quality": "70",
   "icon": null
  },
  {
   "id": "200270037",
-  "name": "[HCG] An Ecstatic Interrogation",
+  "name": "An Ecstatic Interrogation",
   "desc": "The price for refusing to cooperate with the investigation is a grueling interrogation that will wring you dry.",
   "quality": "70",
   "icon": null
  },
  {
   "id": "200270038",
-  "name": "[HCG] Special Assignment",
+  "name": "Special Assignment",
   "desc": "To avoid being swallowed by the abyss of mortal desires, one must first master every depth of them.",
   "quality": "70",
   "icon": null
  },
  {
   "id": "200270039",
-  "name": "\u3010HCG\u3011\u9060\u96e2\u5875\u56c2\u7684\u6d6a\u6f2b\u5047\u671f",
+  "name": "\u9060\u96e2\u5875\u56c2\u7684\u6d6a\u6f2b\u5047\u671f",
   "desc": "\u5076\u723e\u4e5f\u8a72\u653e\u4e0b\u5fc3\u4e2d\u96dc\u5ff5\u9060\u96e2\u5875\u56c2\uff0c\u76e1\u60c5\u4eab\u53d7\u653e\u9b06\u3001\u5feb\u6d3b\u7684\u5047\u65e5\u3002",
   "quality": "70",
   "icon": null
  },
  {
   "id": "200270040",
-  "name": "\u3010HCG\u3011\u97f3\u6a02\u6027\u4ea4\u6d3e\u5c0d",
+  "name": "\u97f3\u6a02\u6027\u4ea4\u6d3e\u5c0d",
   "desc": "\u5168\u8eab\u5fc3\u90fd\u6c90\u6d74\u5728\u6027\u611b\u8207\u97f3\u6a02\u7684\u72c2\u6b61\u4e4b\u4e2d\u3002",
   "quality": "70",
   "icon": null
  },
  {
   "id": "200270041",
-  "name": "\u3010HCG\u3011\u8ab2\u5f8c\u8f14\u5c0e",
+  "name": "\u8ab2\u5f8c\u8f14\u5c0e",
   "desc": "\u6c92\u6709\u8001\u5e2b\u7684\u5141\u8a31\u5c31\u4e0d\u80fd\u5c04\u51fa\u4f86\u3002",
   "quality": "70",
   "icon": null
  },
  {
   "id": "200270042",
-  "name": "\u3010HCG\u3011\u704c\u7cbe\u88dc\u5145\u967d\u6c23",
+  "name": "\u704c\u7cbe\u88dc\u5145\u967d\u6c23",
   "desc": "\u6eff\u6eff\u5730\uff0c\u6ce8\u5165\u7d14\u967d\u4e4b\u6db2\u3002",
   "quality": "70",
   "icon": null
  },
  {
   "id": "200270043",
-  "name": "\u3010HCG\u3011\u53cd\u566c\u7684\u8831\u6bd2",
+  "name": "\u53cd\u566c\u7684\u8831\u6bd2",
   "desc": "\u8831\u6bd2\u2026\u2026\u4f3c\u4e4e\u4e5f\u6c92\u90a3\u9ebc\u7cdf\u7cd5\u3002",
   "quality": "70",
   "icon": null

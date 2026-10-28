@@ -913,7 +913,7 @@ export const gsaSignatureGear = [
     "slot": "Shoes",
     "name": "Worn High Heels",
     "nameEx": "Worn High Heels EX",
-    "flavor": "Every adult woman should own a pair of high heels that is truly hers. However, Chloe seems to have worn this pair for a very long time, as the soles are already worn smooth.",
+    "flavor": "Every woman should own a pair of high heels that is truly hers. However, Chloe seems to have worn this pair for a very long time, as the soles are already worn smooth.",
     "icon": "Equip_cr046_shoe",
     "quality": "Blue",
     "stats": [

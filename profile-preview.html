@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>GachaWiki profile - preview (not deployed)</title>
+<style>
+  body { margin: 0; min-height: 140vh; background: #0e1116; color: #d7dde3; font-family: system-ui, -apple-system, "Segoe UI", sans-serif; }
+  /* fake site header to judge placement against */
+  .fake-header { position: sticky; top: 0; height: 52px; background: #14181d; border-bottom: 1px solid rgba(255,255,255,0.1); display: flex; align-items: center; padding: 0 18px; gap: 18px; z-index: 100; }
+  .fake-header .logo { color: #fff; font-weight: 800; font-size: 15px; letter-spacing: 0.4px; }
+  .fake-header .logo span { color: #e91e63; }
+  .fake-header .nav { color: #8a97a3; font-size: 13px; }
+  .content { padding: 40px 24px; max-width: 700px; margin: 0 auto; line-height: 1.7; font-size: 14px; color: #aeb8c2; }
+  h1 { color: #fff; font-size: 22px; }
+
+  /* ============ the new profile design (exactly what would ship) ============ */
+  .gwp-wrap { position: fixed; top: 9px; right: 14px; z-index: 2147483000; font-family: system-ui, -apple-system, "Segoe UI", sans-serif; }
+  .gwp-btn { display: inline-flex; align-items: center; gap: 9px; padding: 4px 13px 4px 5px; background: rgba(17,20,26,0.92); border: 1px solid rgba(255,255,255,0.16); border-radius: 999px; cursor: pointer; user-select: none; }
+  .gwp-avatar { width: 27px; height: 27px; border-radius: 50%; background: linear-gradient(135deg, #e91e63, #ad1457); color: #fff; font-size: 12px; font-weight: 700; display: flex; align-items: center; justify-content: center; letter-spacing: 0.5px; }
+  .gwp-name { font-size: 12.5px; font-weight: 600; color: #fff; max-width: 130px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .gwp-caret { font-size: 9px; color: #8a97a3; margin-top: 1px; }
+  .gwp-menu { position: fixed; top: 46px; right: 14px; width: 250px; background: #161a20; border: 1px solid rgba(255,255,255,0.14); border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.5); overflow: hidden; z-index: 2147483000; }
+  .gwp-menu .gwp-head { display: flex; align-items: center; gap: 11px; padding: 13px 14px; border-bottom: 1px solid rgba(255,255,255,0.08); }
+  .gwp-menu .gwp-avatar { width: 34px; height: 34px; font-size: 14px; }
+  .gwp-menu .gwp-mname { font-size: 13.5px; font-weight: 700; color: #fff; }
+  .gwp-menu .gwp-memail { font-size: 11px; color: #8a97a3; word-break: break-all; margin-top: 1px; }
+  .gwp-menu a.gwp-out { display: flex; align-items: center; gap: 9px; padding: 11px 14px; font-size: 13px; font-weight: 600; color: #e91e63; text-decoration: none; border-top: 1px solid rgba(255,255,255,0.06); }
+  .gwp-menu .gwp-out-ico { width: 15px; height: 15px; border: 1.6px solid #e91e63; border-radius: 3px; position: relative; }
+  .gwp-menu .gwp-out-ico:after { content: ""; position: absolute; right: 2px; top: -4px; width: 7px; height: 1.6px; background: #e35c75; transform: rotate(-45deg); }
+  @media (max-width: 640px) { .gwp-wrap { display: none; } }
+</style>
+</head>
+<body>
+  <div class="fake-header">
+    <div class="logo">Gacha<span>Wiki</span></div>
+    <div class="nav">Game Guides&nbsp;&nbsp;·&nbsp;&nbsp;Community&nbsp;&nbsp;·&nbsp;&nbsp;Web3</div>
+  </div>
+
+  <div class="content">
+    <h1>Profile design preview</h1>
+    <p>This is exactly how the member profile would look on the real site: the account pill sits top-right, level with the header. Click it to open the account menu, then click <strong style="color:#fff">Sign out</strong> to test the flow (it will show a confirmation bar below instead of actually logging you out, since this is a mock).</p>
+    <p style="color:#8a97a3">The menu now opens ABOVE every page element (that was the bug that made sign-out unreachable on the real site).</p>
+    <p id="result" style="color:#4caf50;font-weight:600"></p>
+  </div>
+
+  <span class="gwp-wrap">
+    <span class="gwp-btn" id="gwpBtn">
+      <span class="gwp-avatar">E</span>
+      <span class="gwp-name">elfhuyace</span>
+      <span class="gwp-caret">▼</span>
+    </span>
+  </span>
+  <div class="gwp-menu" id="gwpMenu" style="display:none">
+    <div class="gwp-head">
+      <span class="gwp-avatar">E</span>
+      <span>
+        <div class="gwp-mname">elfhuyace</div>
+        <div class="gwp-memail">elfhuyace@gmail.com</div>
+      </span>
+    </div>
+    <a class="gwp-out" href="#" id="gwpOut"><span class="gwp-out-ico"></span>Sign out</a>
+  </div>
+
+<script>
+  var btn = document.getElementById("gwpBtn");
+  var menu = document.getElementById("gwpMenu");
+  btn.addEventListener("click", function(e){ e.stopPropagation(); menu.style.display = menu.style.display === "none" ? "block" : "none"; });
+  document.addEventListener("click", function(){ menu.style.display = "none"; });
+  document.getElementById("gwpOut").addEventListener("click", function(e){ e.preventDefault(); menu.style.display = "none"; document.getElementById("result").textContent = "Sign out clicked - on the real site this logs you out and returns you to the login page."; });
+</script>
+</body>
+</html>

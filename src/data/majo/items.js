@@ -139,7 +139,7 @@ export const majoItems = [
     id: "VIP13_title", category: "Title", icon: null, nameZh: "称号：挥金如土", nameEn: "Title: Spending Like Water", descEn: "Thank you for your continued support. This is a testament to your glory.", }, {
     id: "VIP14_title", category: "Title", icon: null, nameZh: "称号：金碧辉煌", nameEn: "Title: Gilded Splendor", descEn: "Thank you for your continued support. This is a testament to your glory.", }, {
     id: "VIP15_title", category: "Title", icon: null, nameZh: "称号：富可敌国", nameEn: "Title: Richer Than Nations", descEn: "Thank you for your continued support. This is a testament to your glory.", }, {
-    id: "VIP5_title", category: "Title", icon: null, nameZh: "称号：成熟的大人", nameEn: "Title: Mature Adult", descEn: "Thank you for your continued support. This is a testament to your glory.", }, {
+    id: "VIP5_title", category: "Title", icon: null, nameZh: "称号：老練", nameEn: "Title: Distinguished", descEn: "Thank you for your continued support. This is a testament to your glory.", }, {
     id: "VIP7_title", category: "Title", icon: null, nameZh: "称号：家财万贯", nameEn: "Title: Wealth Beyond Measure", descEn: "Thank you for your continued support. This is a testament to your glory.", }, {
     id: "account_exp_1", category: "Misc", icon: "account_exp_1", nameZh: "观测稜鏡", nameEn: "Observation Prism", descEn: "A prism that reflects lingering images of the multiverse. Can be used to raise Observer level.", }, {
     id: "advanced_bottom_atk_SR_01", category: "Equipment", icon: "advanced_bottom_atk_01", nameZh: "碳纤长裤", nameEn: "Carbon Fiber Trousers ", }, {

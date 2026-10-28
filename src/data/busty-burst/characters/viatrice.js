@@ -52,7 +52,7 @@ export const skills = {
   "skills": [
     {
       "slot": 2,
-      "name": "Wanna try some hot games for adult only",
+      "name": "Wanna try some fun games",
       "icon": "skill001/skill0011",
       "description": "Deals magic damage to the 3 nearest enemies and inflicts Burn(HP --200 per second) for 15 seconds and Block-11 DOWN for 8 seconds",
       "descriptionLv1": "Deals magic damage to the 3 nearest enemies and inflicts Burn(HP --200 per second) for 15 seconds and Block-11 DOWN for 8 seconds",

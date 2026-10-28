@@ -60,7 +60,7 @@ export const clockLandingGames = [
   {
     id: 'busty-burst',
     name: 'Busty Burst Fantasy',
-    description: 'Adult fantasy RPG',
+    description: 'Fantasy RPG',
     image: '', // Image will be imported directly in the Astro page
     url: '/clock/busty-burst',
     themeColor: 'var(--bb-primary)',
@@ -78,7 +78,7 @@ export const clockLandingGames = [
   {
     id: 'majo',
     name: 'MAJO: Witches Night',
-    description: 'R18 witch-contract strategy gacha',
+    description: 'Witch-contract strategy gacha',
     image: 'https://k2b1c5ab57ed98e51.gachawiki.info/majo/banner-16x9.webp',
     url: '/clock/majo',
     themeColor: '#8577a8',

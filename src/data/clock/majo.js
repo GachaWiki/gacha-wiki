@@ -1,4 +1,4 @@
-// MAJO: Witches Night clock configuration — EROLABS global server, UTC.
+// MAJO: Witches Night clock configuration — global server, UTC.
 // Daily reset: 21:00 UTC (05:00 Taipei). Launch: August 12, 2026.
 
 export const majoClockConfig = {

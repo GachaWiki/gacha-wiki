@@ -10,7 +10,7 @@ export interface Props {
 
 const {
   title = SITE_TITLE,
-  description = 'Rebellion Gilgamesh Wiki - Adult Fantasy RPG Character Guide, Club Management & Strategy',
+  description = 'Rebellion Gilgamesh Wiki - Fantasy RPG Character Guide, Club Management & Strategy',
 } = Astro.props;
 
 const metaTitle = title === SITE_TITLE ? SITE_TITLE : `${title} | Rebellion Gilgamesh Wiki`;
@@ -41,11 +41,10 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site).href;
 
 <!-- Rebellion Gilgamesh Specific Meta -->
 <meta name="game:title" content="Rebellion Gilgamesh ルーレット契約" />
-<meta name="game:genre" content="Adult RPG, Fantasy, Gacha, Club Management" />
+<meta name="game:genre" content="RPG, Fantasy, Gacha, Club Management" />
 <meta name="game:platform" content="Android, iOS, Web" />
-<meta name="game:rating" content="Adults Only" />
 <meta name="game:developer" content="Rebellion Gilgamesh Team" />
-<meta name="game:publisher" content="Erolabs, DMM" />
+<meta name="game:publisher" content="DMM" />
 
 <!-- Structured Data for Game -->
 <script
@@ -56,17 +55,15 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site).href;
     name: 'Rebellion Gilgamesh ルーレット契約',
     alternateName: 'Rebellion Gilgamesh Roulette Contract',
     description:
-      'Adult fantasy RPG set in a demon-ruled world. As one of the 72 sons of a slave owner, run a club and save humanity. Features character collection, special moves, and club management mechanics.',
-    genre: ['Adult RPG', 'Fantasy', 'Gacha', 'Club Management'],
+      'Fantasy RPG set in a demon-ruled world. As one of the 72 sons of a slave owner, run a club and save humanity. Features character collection, special moves, and club management mechanics.',
+    genre: ['RPG', 'Fantasy', 'Gacha', 'Club Management'],
     applicationCategory: 'Game',
     operatingSystem: 'Android, iOS, Web',
     gamePlatform: ['Android', 'iOS', 'Web Browser'],
-    contentRating: 'Adults Only',
     playMode: 'SinglePlayer',
     publisher: {
       '@type': 'Organization',
-      name: 'Erolabs',
-      url: 'https://game.erolabsshare.net/app/f302f717/Rebellion_Gilgamesh',
+      name: 'DMM',
     },
     offers: {
       '@type': 'Offer',
@@ -75,7 +72,7 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site).href;
       availability: 'https://schema.org/InStock',
       seller: {
         '@type': 'Organization',
-        name: 'Erolabs',
+        name: 'DMM',
       },
     },
     url: canonicalURL,
@@ -94,7 +91,7 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site).href;
     "@type": "WebSite",
     "name": "Rebellion Gilgamesh Wiki",
     "alternateName": "Rebellion Gilgamesh ルーレット契約 Wiki",
-    "description": "Complete guide for Rebellion Gilgamesh adult RPG. Character database, club management tips, special moves, and story walkthrough.",
+    "description": "Complete guide for Rebellion Gilgamesh RPG. Character database, club management tips, special moves, and story walkthrough.",
     "url": "https://gachawiki.info/guides/rebellion-gilgamesh/",
     "potentialAction": {
       "@type": "SearchAction",
@@ -109,10 +106,6 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site).href;
   }
 </script>
 
-<!-- Adult Content Warning Meta -->
-<meta name="rating" content="adult" />
-<meta name="content-rating" content="adult" />
-<meta name="adult-content" content="true" />
 
 <!-- Rebellion Gilgamesh Theme CSS Variables (Inline for faster loading) -->
 <style>
@@ -124,6 +117,5 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site).href;
 </style>
 
 <!-- Performance Optimization -->
-<link rel="dns-prefetch" href="//game.erolabsshare.net" />
 <link rel="dns-prefetch" href="//x.com" />
 <link rel="dns-prefetch" href="//rebgil.funyoursjapan.pink" />

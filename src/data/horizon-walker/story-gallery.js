@@ -239,7 +239,7 @@ export const WORLD_ART = [
 
 // Square dialogue illustrations: story props and character vignettes
 export const POPUP_ART = [
-    { file: 'story-cg/Popups/Adult_Novel_001.webp', caption: 'Adult Novel' },
+    { file: 'story-cg/Popups/Adult_Novel_001.webp', caption: 'Novel' },
     { file: 'story-cg/Popups/Advance_Of_Demon_001.webp', caption: 'Advance of the Demon' },
     { file: 'story-cg/Popups/Advance_Of_Demon_002.webp', caption: 'Advance of the Demon 2' },
     { file: 'story-cg/Popups/AvataOfTheBrood_001.webp', caption: 'Avata of the Brood' },
