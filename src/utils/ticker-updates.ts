@@ -130,6 +130,8 @@ export function getTickerUpdates(): TickerItem[] {
     if (colon <= 0) continue; // subjects without a "key: summary" shape are skipped
     const key = subject.slice(0, colon).trim().toLowerCase();
     if (SKIP_PREFIXES.has(key)) continue;
+    // Never surface flagged wording (kept out of pages) via changelog subjects
+    if (/(r-?18|nsfw|mature|adult|erolabs|hcg)/i.test(subject)) continue;
 
     const target = PREFIX_LINKS[key] ?? { name: titleCase(key), href: '/' };
 
