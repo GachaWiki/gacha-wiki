@@ -1,130 +1,89 @@
 ---
-// Korean general-traits database: /ko/guides/horizon-walker/traits/
-// All trait names and stat lines use the game's official Korean;
-// category headings are wiki editorial labels written for the ko wiki.
+// Korean Trait System page: /ko/guides/horizon-walker/traits/
+// Trait names, stat lines and EX passives use the game's official Korean;
+// intro and section labels are wiki editorial text.
 import HwLangLayout from '../../../../layouts/lang/HwLangLayout.astro';
-import { hwTraits, totalTraits } from '../../../../data/horizon-walker/traits.js';
-import { HW_ZH_TRAIT_NAMES, HW_ZH_STAT_TYPES } from '../../../../data/horizon-walker/ko/game-text.js';
+import TraitsDb from '../../../../components/horizon-walker/TraitsDb.astro';
+import { GENERAL_TRAITS, TRAIT_GRADES, EX_SKILLS } from '../../../../data/horizon-walker/traits.js';
+import { TRAIT_NAMES_LOC, STAT_LABELS_LOC, EX_SKILLS_LOC } from '../../../../data/horizon-walker/ko/traits-loc.js';
 import { HW_ZH } from '../../../../data/horizon-walker/ko/ui.js';
-import '../../../../styles/games/horizon-walker/hw-traits.css';
 
 export const prerender = true;
 
-// Wiki editorial category headings (EN data key -> ko label)
-const CATEGORY_ZH = {
-  'Health & Vitality': '생명력과 활력',
-  'HP Penalties': '생명력 대가',
-  'Melee Attack': '근접 공격',
-  'Ranged Attack': '사격 공격',
-  'Magic Attack': '마법 공격',
-  Speed: '속도',
-  Accuracy: '적중',
-  Critical: '치명타',
-  Evasion: '회피',
-  Defense: '방어',
-  'Specialized Defense': '특화 방어',
-  'Elemental Defense': '속성 방어',
-  'Attack Boosts': '공격 유형 강화',
-  'Elemental Boosts': '속성 강화',
-  'Multi-Elemental': '다중 속성',
-  'AP & Starting': '행동력과 전투 시작',
-  'AP Recovery': '행동 회복력',
-  'Aggro Management': '어그로 조정',
-  'Knockback Resistance': '밀림 저항',
-  'Special Defense': '특수 방어',
+const keyByPassiveName = {};
+for (const [k, v] of Object.entries(EX_SKILLS)) keyByPassiveName[v.name] = k;
+
+const effectKo = (line) => {
+  const idx = Math.max(line.lastIndexOf(' +'), line.lastIndexOf(' -'));
+  if (idx <= 0) return line;
+  const label = line.slice(0, idx).trim();
+  return `${STAT_LABELS_LOC[label] || label}${line.slice(idx)}`;
 };
 
-// wiki EN stat spellings that point at the same official stat label
-const STAT_ALIASES = {
-  ACC: 'Accuracy',
-  Evasion: 'Evade',
+const rows = GENERAL_TRAITS.map((t) => ({
+  id: t.id,
+  name: TRAIT_NAMES_LOC[t.id] || t.name,
+  grade: t.grade,
+  effects: t.effects.map(effectKo),
+  passiveKey: t.passive ? (keyByPassiveName[t.passive] || null) : null,
+}));
+
+const NOTES = {
+  1: '최하위 스탯 특성.',
+  2: '하위 스탯 특성.',
+  3: '중위 스탯 특성.',
+  4: '혼 빚기로 제작 가능(혼 가위 필요).',
+  5: '혼 빚기로 제작 가능(혼 가위 필요).',
+  6: '혼 빚기로 제작 가능(혼 가위 필요).',
+  7: 'EX 패시브 계열마다 여러 선택지가 있습니다. EX 등급 용병이 지참.',
 };
-
-const statLabelZh = label => {
-  const key = STAT_ALIASES[label] || label;
-  return HW_ZH_STAT_TYPES[key] || label;
-};
-
-// 'Max HP: +3%' -> '최대 생명력: +3%'; unmapped labels keep the EN line verbatim
-const effectZh = line => {
-  const idx = line.indexOf(': ');
-  if (idx < 1) return line;
-  const label = line.slice(0, idx);
-  const zh = statLabelZh(label.trim());
-  if (zh === label.trim()) return line;
-  return `${zh}: ${line.slice(idx + 1).trim()}`;
-};
-
-const traitNameZh = name => HW_ZH_TRAIT_NAMES[name] || name;
-
-const categoryNames = Object.keys(hwTraits).sort();
-
-const createAnchorId = text => text.toLowerCase().replace(/[^a-z0-9]/g, '-');
+const grades = TRAIT_GRADES.map((g) => ({ grade: g.grade, label: `${g.grade}등급`, note: NOTES[g.grade] || '' }));
 ---
 
 <HwLangLayout lang="ko" ui={HW_ZH}
-  title="특성 데이터베이스 - 호라이즌 워커 한국어 위키 - GachaWiki"
-  description={`호라이즌 워커 전체 ${totalTraits}종 일반 특성 데이터베이스: 특성명과 스탯 증감 효과는 모두 게임 공식 한국어이며, 기능별로 분류해 정리했습니다.`}
-  keywords={['호라이즌 워커', '특성', '일반 특성', '공략']}
-  pageTitle="특성"
+  title={`특성 시스템 - 일반 특성, 등급, EX 패시브 - 호라이즌 워커 한국어 위키 - GachaWiki`}
+  description={`호라이즌 워커 특성 시스템 완전 정리: 전체 ${GENERAL_TRAITS.length}종 일반 특성을 1~7등급별 효과와 함께 수록하고, 7등급 EX 패시브, 혼궤, 혼샘(혼 담기·혼 빚기)과 복구작전 특성 보상을 해설합니다. 특성명과 스탯은 게임 공식 한국어입니다.`}
+  keywords={['호라이즌 워커', '특성', '일반 특성', '특성 시스템', '공략']}
+  pageTitle="특성 시스템"
   breadcrumbItems={[
     { name: '홈', href: '/' },
     { name: '호라이즌 워커', href: HW_ZH.baseUrl },
-    { name: '특성' },
+    { name: '특성 시스템' },
   ]}
 >
-  <div class="hw-traits-container">
-    <div class="hw-traits-header">
-      <h1 class="hw-traits-title">일반 특성</h1>
-      <p class="hw-traits-subtitle">전 캐릭터 공통 특성과 효과 정리</p>
-      <p class="hw-traits-total">총 {totalTraits}종 특성</p>
-    </div>
+  <div class="traits-db">
+    <section class="traits-intro">
+      <h2 class="traits-intro-heading">특성 시스템의 구조</h2>
+      <p class="traits-intro-text">
+        일반 특성은 1~7등급으로 나뉩니다. 아이콘과 이름 색상은 등급에 따라 달라지며 1~3등급은 같은 색상을 사용합니다. 등급이 높을수록 강력한 스탯을 제공하고, 7등급 특성은 EX 패시브 스킬을 추가로 부여합니다.
+      </p>
+      <h3 class="traits-intro-sub">혼궤</h3>
+      <p class="traits-intro-text">
+        일반 특성을 보관하는 새 인벤토리 탭입니다. 특성별로 최대 50,000개까지 보관할 수 있고, 미보유 특성도 도감처럼 등급 필터로 확인할 수 있습니다. 보관한 특성은 비용 없이 캐릭터에게 장착할 수 있으며, 특성 필터는 제공 스탯 기준 정렬도 지원합니다.
+      </p>
+      <h3 class="traits-intro-sub">혼샘: 혼 담기와 혼 빚기</h3>
+      <p class="traits-intro-text">
+        혼 담기는 일반 특성을 혼으로 변환합니다(한 번에 최대 20종, 등급이 높을수록 더 많은 혼 획득). 혼 빚기는 혼을 소모해 선택한 등급의 일반 특성을 무작위로 제작합니다(한 번에 최대 20개). 4등급 이상 제작에는 혼 가위가 필요합니다.
+      </p>
+      <h3 class="traits-intro-sub">복구작전 보상</h3>
+      <p class="traits-intro-text">
+        복구작전(본편 4장 스테이지 6-1 클리어 후 해금)에서는 지역 방위 임무 보상으로 일반 특성이 지급됩니다. 긴급 출격 승리 시 4~6등급 특성 3개를 추가로 받습니다. FairyNet 검색으로 등장하는 EX 등급 용병은 항상 7등급 특성을 1개 이상 지참합니다.
+      </p>
+    </section>
 
-    <nav class="hw-traits-nav" role="navigation" aria-label="분류 바로가기">
-      <h2 class="hw-traits-nav-title">분류 바로가기:</h2>
-      <div class="hw-traits-nav-links">
-        {
-          categoryNames.map(category => {
-            const categoryId = createAnchorId(category);
-            return (
-              <a href={`#${categoryId}`} class="hw-traits-nav-link">
-                {CATEGORY_ZH[category] || category}
-              </a>
-            );
-          })
-        }
-      </div>
-    </nav>
-
-    {
-      categoryNames.map(categoryName => {
-        const traitsInCategory = hwTraits[categoryName];
-        if (!traitsInCategory || traitsInCategory.length === 0) return null;
-
-        const categoryId = createAnchorId(categoryName);
-        const traitCount = traitsInCategory.length;
-
-        return (
-          <section class="hw-traits-section" id={categoryId}>
-            <div class="hw-traits-category-header">
-              <h2 class="hw-traits-category-title">{CATEGORY_ZH[categoryName] || categoryName}</h2>
-              <span class="hw-traits-category-count">({traitCount}종)</span>
-            </div>
-            <div class="hw-traits-grid">
-              {traitsInCategory.map(trait => (
-                <div class="hw-trait-card">
-                  <h3 class="hw-trait-name">{traitNameZh(trait.name)}</h3>
-                  <ul class="hw-trait-effects">
-                    {trait.effects.map(effect => (
-                      <li class="hw-trait-effect">{effectZh(effect)}</li>
-                    ))}
-                  </ul>
-                </div>
-              ))}
-            </div>
-          </section>
-        );
-      })
-    }
+    <TraitsDb
+      rows={rows}
+      exByPassive={EX_SKILLS_LOC}
+      grades={grades}
+      strings={{
+        all: '전체',
+        searchPlaceholder: '특성 이름, 스탯 또는 패시브 검색…',
+        empty: '현재 필터에 일치하는 특성이 없습니다.',
+        hint: '각 EX 패시브는 패시브가 같고 공격 타입 스탯(근접·원거리·마법)이 다른 특성 옵션을 최대 3가지 제공합니다. 캐릭터의 피해 타입에 맞는 옵션을 고르세요. 마지막 그룹은 패시브 없는 순수 스탯 옵션입니다.',
+        optionsLabel: '옵션:',
+        pureLabel: '순수 스탯 특성',
+        pureDesc: 'EX 패시브 없음: 순수 스탯 라인.',
+      }}
+    />
   </div>
 </HwLangLayout>

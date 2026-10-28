@@ -1,0 +1,148 @@
+---
+// Shared Trait System database body: grade filter chips, search, per-grade
+// collapsible sections, grade 7 EX passive cards. Language pages pass fully
+// localized rows/labels; styling comes from hw-traits.css.
+import '../../styles/games/horizon-walker/hw-traits.css';
+
+export interface Props {
+  rows: { id: number; name: string; grade: number; effects: string[]; passiveKey: string | null }[];
+  exByPassive: Record<string, { name: string; description: string }>;
+  grades: { grade: number; label: string; note: string }[];
+  strings: {
+    all: string;
+    searchPlaceholder: string;
+    empty: string;
+    hint: string;
+    optionsLabel: string;
+    pureLabel: string;
+    pureDesc: string;
+  };
+}
+
+const { rows, exByPassive, grades, strings } = Astro.props;
+
+const gradeCounts: Record<number, number> = {};
+for (const t of rows) gradeCounts[t.grade] = (gradeCounts[t.grade] || 0) + 1;
+
+// Grade 7 groups: every EX passive comes as up to three variant traits with the
+// same passive but a different ATK-type stat line. Group so each passive shows
+// once; the pure-stat group (no passive) always renders last.
+const g7 = rows.filter((t) => t.grade === 7);
+const order: string[] = [];
+const groups: Record<string, { key: string | null; variants: typeof g7 }> = {};
+for (const t of g7) {
+  const key = t.passiveKey;
+  if (!key) continue;
+  if (!groups[key]) {
+    groups[key] = { key, variants: [] };
+    order.push(key);
+  }
+  groups[key].variants.push(t);
+}
+const pureGroup = g7.filter((t) => !t.passiveKey);
+const g7Groups = [
+  ...order.map((k) => ({ title: exByPassive[k]?.name || k, description: exByPassive[k]?.description || '', variants: groups[k].variants })),
+  ...(pureGroup.length ? [{ title: strings.pureLabel, description: strings.pureDesc, variants: pureGroup }] : []),
+];
+---
+
+<section class="traits-controls">
+  <div class="traits-grade-chips" role="group" aria-label="Filter by grade">
+    <button class="traits-grade-chip active" data-grade="all">{strings.all} ({rows.length})</button>
+    {grades.map((g) => (
+      <button class="traits-grade-chip" data-grade={String(g.grade)}>
+        {g.label} ({gradeCounts[g.grade] || 0})
+      </button>
+    ))}
+  </div>
+  <input type="search" class="traits-search" placeholder={strings.searchPlaceholder} aria-label={strings.searchPlaceholder} />
+</section>
+
+<div class="traits-list" id="traits-list">
+  {grades.map((g) => (
+    <details class="traits-grade" data-grade={String(g.grade)} open={g.grade === 7}>
+      <summary class="traits-grade-summary">
+        <span class="traits-grade-title">{g.label} <span class="traits-grade-count">({gradeCounts[g.grade] || 0})</span></span>
+        <span class="traits-grade-note">{g.note}</span>
+      </summary>
+      {g.grade === 7 ? (
+        <p class="traits-g7-hint">{strings.hint}</p>
+      ) : null}
+      {g.grade === 7 ? (
+        <ul class="traits-grade-items">
+          {g7Groups.map((grp) => (
+            <li
+              class="traits-item traits-filterable"
+              data-grade="7"
+              data-search={(`${grp.title} ${grp.variants.map((v) => `${v.name} ${v.effects.join(' ')}`).join(' ')}`).toLowerCase()}
+            >
+              <span class="traits-item-main">
+                <span class="traits-item-passive">{grp.title}</span>
+              </span>
+              <p class="traits-item-detail-always">{grp.description}</p>
+              <span class="traits-g7-options-label">{strings.optionsLabel}</span>
+              <ul class="traits-g7-variants">
+                {grp.variants.map((v) => (
+                  <li><span class="traits-name">{v.name}</span> <span class="traits-item-sep">·</span> <span class="traits-item-effects">{v.effects.join(' · ')}</span></li>
+                ))}
+              </ul>
+            </li>
+          ))}
+        </ul>
+      ) : (
+        <ul class="traits-grade-items">
+          {rows.filter((t) => t.grade === g.grade).map((t) => (
+            <li
+              class="traits-item traits-filterable"
+              data-grade={String(t.grade)}
+              data-search={(`${t.name} ${t.effects.join(' ')}`).toLowerCase()}
+            >
+              <span class="traits-item-main">
+                <span class="traits-name">{t.name}</span>
+                <span class="traits-item-sep">·</span>
+                <span class="traits-item-effects">{t.effects.join(' · ')}</span>
+              </span>
+            </li>
+          ))}
+        </ul>
+      )}
+    </details>
+  ))}
+  <p class="traits-empty" hidden>{strings.empty}</p>
+</div>
+
+<script is:inline>
+  (function () {
+    var chips = document.querySelectorAll('.traits-grade-chip');
+    var search = document.querySelector('.traits-search');
+    var items = document.querySelectorAll('.traits-filterable');
+    var empty = document.querySelector('.traits-empty');
+    var sections = document.querySelectorAll('.traits-grade');
+    function apply() {
+      var grade = document.querySelector('.traits-grade-chip.active').getAttribute('data-grade');
+      var q = (search.value || '').toLowerCase().trim();
+      var shown = 0;
+      items.forEach(function (r) {
+        var okG = grade === 'all' || r.getAttribute('data-grade') === grade;
+        var okQ = !q || r.getAttribute('data-search').indexOf(q) >= 0;
+        var show = okG && okQ;
+        r.style.display = show ? '' : 'none';
+        if (show) shown++;
+      });
+      sections.forEach(function (sec) {
+        var secShown = [...sec.querySelectorAll('.traits-item')].some(function (r) { return r.style.display !== 'none'; });
+        sec.style.display = secShown ? '' : 'none';
+        if (q && secShown) sec.open = true;
+      });
+      empty.hidden = shown > 0;
+    }
+    chips.forEach(function (c) {
+      c.addEventListener('click', function () {
+        chips.forEach(function (x) { x.classList.remove('active'); });
+        c.classList.add('active');
+        apply();
+      });
+    });
+    search.addEventListener('input', apply);
+  })();
+</script>

@@ -160,6 +160,7 @@ export const NAV_DATA: Record<GameKey, { sections: NavigationSection[] }> = {
           { name: 'Level Difference', href: '/guides/horizon-walker/level-difference/' },
           { name: 'Traits', href: '/guides/horizon-walker/traits/' },
           { name: 'Demi-Ascension', href: '/guides/horizon-walker/demi/' },
+          { name: 'Trait System', href: '/guides/horizon-walker/traits/' },
           { name: 'Stigma Sub Stats', href: '/guides/horizon-walker/stigma-sub-stats/' },
         ],
       },

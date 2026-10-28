@@ -1,130 +1,89 @@
 ---
-// Japanese general-traits database: /ja/guides/horizon-walker/traits/
-// All trait names and stat lines use the game's official Japanese;
-// category headings are wiki editorial labels written for the ja wiki.
+// Japanese Trait System page: /ja/guides/horizon-walker/traits/
+// Trait names, stat lines and EX passives use the game's official Japanese;
+// intro and section labels are wiki editorial text.
 import HwLangLayout from '../../../../layouts/lang/HwLangLayout.astro';
-import { hwTraits, totalTraits } from '../../../../data/horizon-walker/traits.js';
-import { HW_ZH_TRAIT_NAMES, HW_ZH_STAT_TYPES } from '../../../../data/horizon-walker/ja/game-text.js';
+import TraitsDb from '../../../../components/horizon-walker/TraitsDb.astro';
+import { GENERAL_TRAITS, TRAIT_GRADES, EX_SKILLS } from '../../../../data/horizon-walker/traits.js';
+import { TRAIT_NAMES_LOC, STAT_LABELS_LOC, EX_SKILLS_LOC } from '../../../../data/horizon-walker/ja/traits-loc.js';
 import { HW_ZH } from '../../../../data/horizon-walker/ja/ui.js';
-import '../../../../styles/games/horizon-walker/hw-traits.css';
 
 export const prerender = true;
 
-// Wiki editorial category headings (EN data key -> ja label)
-const CATEGORY_ZH = {
-  'Health & Vitality': '生命と体力',
-  'HP Penalties': 'HP 代価',
-  'Melee Attack': '近接攻撃',
-  'Ranged Attack': '遠距離攻撃',
-  'Magic Attack': '魔法攻撃',
-  Speed: '速度',
-  Accuracy: '命中',
-  Critical: 'クリティカル',
-  Evasion: '回避',
-  Defense: '防御',
-  'Specialized Defense': '特化防御',
-  'Elemental Defense': '属性防御',
-  'Attack Boosts': '攻撃タイプ強化',
-  'Elemental Boosts': '属性強化',
-  'Multi-Elemental': '複数属性',
-  'AP & Starting': '行動力と開始時',
-  'AP Recovery': '行動力回復',
-  'Aggro Management': '敵視調整',
-  'Knockback Resistance': 'ノックバック耐性',
-  'Special Defense': '特殊防御',
+const keyByPassiveName = {};
+for (const [k, v] of Object.entries(EX_SKILLS)) keyByPassiveName[v.name] = k;
+
+const effectJa = (line) => {
+  const idx = Math.max(line.lastIndexOf(' +'), line.lastIndexOf(' -'));
+  if (idx <= 0) return line;
+  const label = line.slice(0, idx).trim();
+  return `${STAT_LABELS_LOC[label] || label}${line.slice(idx)}`;
 };
 
-// wiki EN stat spellings that point at the same official stat label
-const STAT_ALIASES = {
-  ACC: 'Accuracy',
-  Evasion: 'Evade',
+const rows = GENERAL_TRAITS.map((t) => ({
+  id: t.id,
+  name: TRAIT_NAMES_LOC[t.id] || t.name,
+  grade: t.grade,
+  effects: t.effects.map(effectJa),
+  passiveKey: t.passive ? (keyByPassiveName[t.passive] || null) : null,
+}));
+
+const NOTES = {
+  1: '最下位のステータス特性。',
+  2: '下位のステータス特性。',
+  3: '中位のステータス特性。',
+  4: '魂の錬成で作成可能（魂の鋏が必要）。',
+  5: '魂の錬成で作成可能（魂の鋏が必要）。',
+  6: '魂の錬成で作成可能（魂の鋏が必要）。',
+  7: 'EXパッシブの系統ごとに複数の選択肢あり。EXランクの傭兵が所持。',
 };
-
-const statLabelJa = label => {
-  const key = STAT_ALIASES[label] || label;
-  return HW_ZH_STAT_TYPES[key] || label;
-};
-
-// 'Max HP: +3%' -> '最大HP：+3%'; unmapped labels keep the EN line verbatim
-const effectJa = line => {
-  const idx = line.indexOf(': ');
-  if (idx < 1) return line;
-  const label = line.slice(0, idx);
-  const ja = statLabelJa(label.trim());
-  if (ja === label.trim()) return line;
-  return `${ja}：${line.slice(idx + 1).trim()}`;
-};
-
-const traitNameJa = name => HW_ZH_TRAIT_NAMES[name] || name;
-
-const categoryNames = Object.keys(hwTraits).sort();
-
-const createAnchorId = text => text.toLowerCase().replace(/[^a-z0-9]/g, '-');
+const grades = TRAIT_GRADES.map((g) => ({ grade: g.grade, label: `グレード${g.grade}`, note: NOTES[g.grade] || '' }));
 ---
 
 <HwLangLayout lang="ja" ui={HW_ZH}
-  title="特性データベース - ホライゾン・ウォーカー日本語ウィキ - GachaWiki"
-  description={`ホライゾン・ウォーカーの全 ${totalTraits} 種の汎用特性データベース：特性名とステータス増減効果はゲーム公式の日本語で、用途別に分類して掲載しています。`}
-  keywords={['ホライゾン・ウォーカー', '特性', '汎用特性', '攻略']}
-  pageTitle="特性"
+  title={`特性システム - 汎用特性・グレード・EXパッシブ - ホライゾン・ウォーカー日本語ウィキ - GachaWiki`}
+  description={`ホライゾン・ウォーカーの特性システム完全リファレンス：全 ${GENERAL_TRAITS.length} 種の汎用特性をグレード1～7別に効果付きで掲載、グレード7のEXパッシブ、ソウルヴォールト、魂の泉（魂の注入・錬成）と復旧作戦の特性報酬を解説。特性名とステータスはゲーム公式の日本語です。`}
+  keywords={['ホライゾン・ウォーカー', '特性', '汎用特性', '特性システム', '攻略']}
+  pageTitle="特性システム"
   breadcrumbItems={[
     { name: 'ホーム', href: '/' },
     { name: 'ホライゾン・ウォーカー', href: HW_ZH.baseUrl },
-    { name: '特性' },
+    { name: '特性システム' },
   ]}
 >
-  <div class="hw-traits-container">
-    <div class="hw-traits-header">
-      <h1 class="hw-traits-title">汎用特性</h1>
-      <p class="hw-traits-subtitle">全キャラ共通の特性と効果一覧</p>
-      <p class="hw-traits-total">全 {totalTraits} 種の特性</p>
-    </div>
+  <div class="traits-db">
+    <section class="traits-intro">
+      <h2 class="traits-intro-heading">特性システムの仕組み</h2>
+      <p class="traits-intro-text">
+        汎用特性はグレード1～7に分かれます。アイコンと名前の色はグレードごとに異なり、グレード1～3は同じ色です。グレードが高いほど強力なステータスボーナスを持ち、グレード7の特性はさらにEXパッシブスキルを付与します。
+      </p>
+      <h3 class="traits-intro-sub">ソウルヴォールト</h3>
+      <p class="traits-intro-text">
+        汎用特性を保管する新しいインベントリタブです。各特性は最大50,000個まで保管でき、未所持の特性も図鑑のようにグレードで絞り込んで閲覧できます。保管した特性は無料でキャラクターに装備でき、特性フィルターでは提供ステータスによる並べ替えにも対応します。
+      </p>
+      <h3 class="traits-intro-sub">魂の泉：魂の注入と錬成</h3>
+      <p class="traits-intro-text">
+        魂の注入は汎用特性を魂に変換します（一度に最大20種類、グレードが高いほど多くの魂を獲得）。魂の錬成は魂を消費して選んだグレードの汎用特性をランダムで作成します（一度に最大20個）。グレード4以上の錬成には魂の鋏が必要です。
+      </p>
+      <h3 class="traits-intro-sub">復旧作戦の報酬</h3>
+      <p class="traits-intro-text">
+        復旧作戦（本編第4章ステージ6-1クリアで解放）では、地域防衛の任務で汎用特性が報酬として支給されます。緊急出撃に勝利すると、グレード4～6の特性が3個追加でもらえます。FairyNet検索で登場するEXランクの傭兵は必ずグレード7の特性を1つ以上所持しています。
+      </p>
+    </section>
 
-    <nav class="hw-traits-nav" role="navigation" aria-label="カテゴリナビゲーション">
-      <h2 class="hw-traits-nav-title">カテゴリへ移動：</h2>
-      <div class="hw-traits-nav-links">
-        {
-          categoryNames.map(category => {
-            const categoryId = createAnchorId(category);
-            return (
-              <a href={`#${categoryId}`} class="hw-traits-nav-link">
-                {CATEGORY_ZH[category] || category}
-              </a>
-            );
-          })
-        }
-      </div>
-    </nav>
-
-    {
-      categoryNames.map(categoryName => {
-        const traitsInCategory = hwTraits[categoryName];
-        if (!traitsInCategory || traitsInCategory.length === 0) return null;
-
-        const categoryId = createAnchorId(categoryName);
-        const traitCount = traitsInCategory.length;
-
-        return (
-          <section class="hw-traits-section" id={categoryId}>
-            <div class="hw-traits-category-header">
-              <h2 class="hw-traits-category-title">{CATEGORY_ZH[categoryName] || categoryName}</h2>
-              <span class="hw-traits-category-count">（{traitCount} 件）</span>
-            </div>
-            <div class="hw-traits-grid">
-              {traitsInCategory.map(trait => (
-                <div class="hw-trait-card">
-                  <h3 class="hw-trait-name">{traitNameJa(trait.name)}</h3>
-                  <ul class="hw-trait-effects">
-                    {trait.effects.map(effect => (
-                      <li class="hw-trait-effect">{effectJa(effect)}</li>
-                    ))}
-                  </ul>
-                </div>
-              ))}
-            </div>
-          </section>
-        );
-      })
-    }
+    <TraitsDb
+      rows={rows}
+      exByPassive={EX_SKILLS_LOC}
+      grades={grades}
+      strings={{
+        all: 'すべて',
+        searchPlaceholder: '特性名・ステータス・パッシブを検索…',
+        empty: '現在のフィルターに一致する特性はありません。',
+        hint: '各EXパッシブには、同一パッシブで攻撃タイプの異なる（近接・遠距離・魔法）特性オプションが最大3種類用意されています。キャラクターのダメージタイプに合うオプションを選んでください。最後のグループはパッシブを持たない純ステータス枠です。',
+        optionsLabel: '選択肢：',
+        pureLabel: '純ステータス特性',
+        pureDesc: 'EXパッシブなし：純ステータスライン。',
+      }}
+    />
   </div>
 </HwLangLayout>

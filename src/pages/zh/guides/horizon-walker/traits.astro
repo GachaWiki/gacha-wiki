@@ -1,130 +1,90 @@
 ---
-// Chinese general-traits database: /zh/guides/horizon-walker/traits/
-// All trait names and stat lines use the game's official Simplified Chinese;
-// category headings are wiki editorial labels written for the zh wiki.
+// Chinese (Simplified) Trait System page: /zh/guides/horizon-walker/traits/
+// Trait names, stat lines and EX passives use the game's official Simplified
+// Chinese; intro and section labels are wiki editorial text.
 import HwZhLayout from '../../../../layouts/zh/HwZhLayout.astro';
-import { hwTraits, totalTraits } from '../../../../data/horizon-walker/traits.js';
-import { HW_ZH_TRAIT_NAMES, HW_ZH_STAT_TYPES } from '../../../../data/horizon-walker/zh/game-text.js';
+import TraitsDb from '../../../../components/horizon-walker/TraitsDb.astro';
+import { GENERAL_TRAITS, TRAIT_GRADES, EX_SKILLS } from '../../../../data/horizon-walker/traits.js';
+import { TRAIT_NAMES_LOC, STAT_LABELS_LOC, EX_SKILLS_LOC } from '../../../../data/horizon-walker/zh/traits-loc.js';
 import { HW_ZH } from '../../../../data/horizon-walker/zh/ui.js';
-import '../../../../styles/games/horizon-walker/hw-traits.css';
 
 export const prerender = true;
 
-// Wiki editorial category headings (EN data key -> zh label)
-const CATEGORY_ZH = {
-  'Health & Vitality': '生命与体力',
-  'HP Penalties': '生命值代价',
-  'Melee Attack': '近战攻击',
-  'Ranged Attack': '远程攻击',
-  'Magic Attack': '魔法攻击',
-  Speed: '速度',
-  Accuracy: '命中',
-  Critical: '暴击',
-  Evasion: '回避',
-  Defense: '防御',
-  'Specialized Defense': '特化防御',
-  'Elemental Defense': '属性防御',
-  'Attack Boosts': '攻击类型强化',
-  'Elemental Boosts': '属性强化',
-  'Multi-Elemental': '多属性',
-  'AP & Starting': '行动力与开场',
-  'AP Recovery': '行动力恢复',
-  'Aggro Management': '仇恨调整',
-  'Knockback Resistance': '击退抗性',
-  'Special Defense': '特殊防御',
+const keyByPassiveName = {};
+for (const [k, v] of Object.entries(EX_SKILLS)) keyByPassiveName[v.name] = k;
+
+// "Melee ATK +10%" -> "近战攻击 +10%" via official stat labels
+const effectZh = (line) => {
+  const idx = Math.max(line.lastIndexOf(' +'), line.lastIndexOf(' -'));
+  if (idx <= 0) return line;
+  const label = line.slice(0, idx).trim();
+  return `${STAT_LABELS_LOC[label] || label}${line.slice(idx)}`;
 };
 
-// wiki EN stat spellings that point at the same official stat label
-const STAT_ALIASES = {
-  ACC: 'Accuracy',
-  Evasion: 'Evade',
+const rows = GENERAL_TRAITS.map((t) => ({
+  id: t.id,
+  name: TRAIT_NAMES_LOC[t.id] || t.name,
+  grade: t.grade,
+  effects: t.effects.map(effectZh),
+  passiveKey: t.passive ? (keyByPassiveName[t.passive] || null) : null,
+}));
+
+const NOTES = {
+  1: '最低阶的属性特性。',
+  2: '低阶属性特性。',
+  3: '中阶属性特性。',
+  4: '可在铸魂中制作（需要魂之剪）。',
+  5: '可在铸魂中制作（需要魂之剪）。',
+  6: '可在铸魂中制作（需要魂之剪）。',
+  7: 'EX被动系列，每个系列包含不同选项。由EX级佣兵携带。',
 };
-
-const statLabelZh = label => {
-  const key = STAT_ALIASES[label] || label;
-  return HW_ZH_STAT_TYPES[key] || label;
-};
-
-// 'Max HP: +3%' -> '最大生命值：+3%'; unmapped labels keep the EN line verbatim
-const effectZh = line => {
-  const idx = line.indexOf(': ');
-  if (idx < 1) return line;
-  const label = line.slice(0, idx);
-  const zh = statLabelZh(label.trim());
-  if (zh === label.trim()) return line;
-  return `${zh}：${line.slice(idx + 1).trim()}`;
-};
-
-const traitNameZh = name => HW_ZH_TRAIT_NAMES[name] || name;
-
-const categoryNames = Object.keys(hwTraits).sort();
-
-const createAnchorId = text => text.toLowerCase().replace(/[^a-z0-9]/g, '-');
+const grades = TRAIT_GRADES.map((g) => ({ grade: g.grade, label: `${g.grade}级`, note: NOTES[g.grade] || '' }));
 ---
 
 <HwZhLayout
-  title="特性数据库 - 地平线行者中文维基 - GachaWiki"
-  description={`地平线行者全部 ${totalTraits} 条通用特性的中文数据库：特性名称与属性增减效果均为游戏官方简体中文，按功能分类整理。`}
-  keywords={['地平线行者', '特性', '通用特性', '攻略']}
-  pageTitle="特性"
+  title={`特性系统 - 通用特性品级与EX被动 - 地平线行者中文维基 - GachaWiki`}
+  description={`地平线行者特性系统完整资料：全部 ${GENERAL_TRAITS.length} 条通用特性按品级1至7分类及效果、7级EX被动技能、魂匣、魂泉铸魂与复原作战特性奖励，特性名称与属性均为游戏官方简体中文。`}
+  keywords={['地平线行者', '特性', '通用特性', '特性系统', '攻略']}
+  pageTitle="特性系统"
   breadcrumbItems={[
     { name: '首页', href: '/' },
     { name: '地平线行者', href: HW_ZH.baseUrl },
-    { name: '特性' },
+    { name: '特性系统' },
   ]}
 >
-  <div class="hw-traits-container">
-    <div class="hw-traits-header">
-      <h1 class="hw-traits-title">通用特性</h1>
-      <p class="hw-traits-subtitle">全部角色通用特性与效果一览</p>
-      <p class="hw-traits-total">共 {totalTraits} 条特性</p>
-    </div>
+  <div class="traits-db">
+    <section class="traits-intro">
+      <h2 class="traits-intro-heading">特性系统的运作方式</h2>
+      <p class="traits-intro-text">
+        通用特性分为1至7级。图标与名称颜色随品级变化，1至3级共用同一颜色。品级越高属性加成越强，7级特性还会额外赋予EX被动技能。
+      </p>
+      <h3 class="traits-intro-sub">魂匣</h3>
+      <p class="traits-intro-text">
+        新增的背包选项卡，用于存放通用特性。每种特性最多可存放50000份，未持有的特性也可像图鉴一样按品级筛选浏览，并可免费为先锋装备已存放的特性。特性筛选还支持按提供的属性排序。
+      </p>
+      <h3 class="traits-intro-sub">魂泉：注入魂与铸魂</h3>
+      <p class="traits-intro-text">
+        注入魂将通用特性转化为魂（每次最多20种特性，品级越高产出的魂越多）。铸魂消耗魂来随机制作所选品级的通用特性，每次最多20个。制作4级或更高品级需要魂之剪。
+      </p>
+      <h3 class="traits-intro-sub">复原作战奖励</h3>
+      <p class="traits-intro-text">
+        复原作战模式（通关主线第四章关卡6-1后解锁）会通过地域防卫任务发放通用特性。紧急出击获胜可获得3个额外的4至6级特性。FairyNet搜索中出现的EX级佣兵必定携带至少一个7级特性。
+      </p>
+    </section>
 
-    <nav class="hw-traits-nav" role="navigation" aria-label="分类导航">
-      <h2 class="hw-traits-nav-title">跳转到分类：</h2>
-      <div class="hw-traits-nav-links">
-        {
-          categoryNames.map(category => {
-            const categoryId = createAnchorId(category);
-            return (
-              <a href={`#${categoryId}`} class="hw-traits-nav-link">
-                {CATEGORY_ZH[category] || category}
-              </a>
-            );
-          })
-        }
-      </div>
-    </nav>
-
-    {
-      categoryNames.map(categoryName => {
-        const traitsInCategory = hwTraits[categoryName];
-        if (!traitsInCategory || traitsInCategory.length === 0) return null;
-
-        const categoryId = createAnchorId(categoryName);
-        const traitCount = traitsInCategory.length;
-
-        return (
-          <section class="hw-traits-section" id={categoryId}>
-            <div class="hw-traits-category-header">
-              <h2 class="hw-traits-category-title">{CATEGORY_ZH[categoryName] || categoryName}</h2>
-              <span class="hw-traits-category-count">（{traitCount} 条）</span>
-            </div>
-            <div class="hw-traits-grid">
-              {traitsInCategory.map(trait => (
-                <div class="hw-trait-card">
-                  <h3 class="hw-trait-name">{traitNameZh(trait.name)}</h3>
-                  <ul class="hw-trait-effects">
-                    {trait.effects.map(effect => (
-                      <li class="hw-trait-effect">{effectZh(effect)}</li>
-                    ))}
-                  </ul>
-                </div>
-              ))}
-            </div>
-          </section>
-        );
-      })
-    }
+    <TraitsDb
+      rows={rows}
+      exByPassive={EX_SKILLS_LOC}
+      grades={grades}
+      strings={{
+        all: '全部',
+        searchPlaceholder: '搜索特性名称、属性或被动…',
+        empty: '没有符合当前筛选条件的特性。',
+        hint: '每个EX被动最多有三种特性选项，被动效果相同但攻击类型属性不同（近战、远程或魔法）。请选择与角色伤害类型匹配的选项。最后一组是无被动的纯属性选项。',
+        optionsLabel: '选项：',
+        pureLabel: '纯属性特性',
+        pureDesc: '无EX被动：纯属性条。',
+      }}
+    />
   </div>
 </HwZhLayout>

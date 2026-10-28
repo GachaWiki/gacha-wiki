@@ -1,79 +1,86 @@
 ---
-import TraitsLayout from '../../../../layouts/horizon-walker/TraitsLayout.astro';
-import { hwTraits, totalTraits } from '../../../../data/horizon-walker/traits.js';
+// Horizon Walker Trait System database: graded General Traits, EX passive skills, Soulwell mechanics
+import GuideLayout from '../../../../layouts/horizon-walker/GuideLayout.astro';
+import TraitsDb from '../../../../components/horizon-walker/TraitsDb.astro';
+import { GENERAL_TRAITS, TRAIT_GRADES, EX_SKILLS } from '../../../../data/horizon-walker/traits.js';
 
-const title = 'Traits';
-const description = `Complete list of all ${totalTraits} Horizon Walker general traits with their effects and bonuses.`;
+const title = 'Trait System - General Traits, Grades and EX Passives | Horizon Walker Wiki';
+const description =
+  'Complete Trait System reference for Horizon Walker: all General Traits by grade 1-7 with effects, the grade 7 EX passive skills, Soul Coffer, Soulwell crafting and Recovery Operation trait rewards.';
 
-// Get category names for navigation
-const categoryNames = Object.keys(hwTraits).sort();
+// EN passive display name -> gameKey so grade 7 groups match EX_SKILLS entries
+const keyByPassiveName: Record<string, string> = {};
+for (const [k, v] of Object.entries(EX_SKILLS)) keyByPassiveName[v.name] = k;
 
-// Function to create anchor-safe ID
-function createAnchorId(text: string): string {
-  return text.toLowerCase().replace(/[^a-z0-9]/g, '-');
-}
+const rows = GENERAL_TRAITS.map((t) => ({
+  id: t.id,
+  name: t.name,
+  grade: t.grade,
+  effects: t.effects,
+  passiveKey: t.passive ? (keyByPassiveName[t.passive] || null) : null,
+}));
+
+const GRADE_NOTES: Record<number, string> = {
+  1: 'Lowest tier stat traits.',
+  2: 'Low tier stat traits.',
+  3: 'Mid tier stat traits.',
+  4: 'Craftable in the Soul Forge (Soul Shears required).',
+  5: 'Craftable in the Soul Forge (Soul Shears required).',
+  6: 'Craftable in the Soul Forge (Soul Shears required).',
+  7: 'Families of EX passives, each with variant options. Carried by EX-Rank Mercenaries.',
+};
+const grades = TRAIT_GRADES.map((g) => ({ grade: g.grade, label: g.label, note: GRADE_NOTES[g.grade] || '' }));
+
+export const prerender = true;
 ---
 
-<TraitsLayout title={title} description={description}>
-  <div class="hw-traits-container">
-    <!-- Header Section -->
-    <div class="hw-traits-header">
-      <h1 class="hw-traits-title">General Traits</h1>
-      <p class="hw-traits-subtitle">Complete list of all character traits and their effects</p>
-      <p class="hw-traits-total">Total Traits: {totalTraits}</p>
-    </div>
+<GuideLayout
+  title={title}
+  description={description}
+  pageTitle="Trait System"
+  subtitle="Every General Trait by grade, the grade 7 EX passives, and how the Soulwell and Recovery Operation feed your trait pool."
+>
+  <div class="traits-db">
+    <section class="traits-intro">
+      <h2 class="traits-intro-heading">How the Trait System Works</h2>
+      <p class="traits-intro-text">
+        General Traits are divided into Grades 1 to 7. Icon and name colors vary by grade, and Grades 1 to 3 share
+        the same color. Higher grades carry stronger stat lines, and Grade 7 traits additionally grant EX passive
+        skills.
+      </p>
+      <h3 class="traits-intro-sub">Soul Coffer</h3>
+      <p class="traits-intro-text">
+        A new Inventory tab that stores General Traits. You can store up to 50,000 copies of each trait, browse
+        unowned traits like a Collection with grade filtering, and equip stored traits to Vanguards at no cost.
+        Trait filters also let you sort by the stats they provide.
+      </p>
+      <h3 class="traits-intro-sub">Soulwell: Imbuement and Forge</h3>
+      <p class="traits-intro-text">
+        Soul Imbuement converts General Traits into Souls (up to 20 trait kinds at once, higher grades yield more
+        Souls). Soul Forge spends Souls to create random General Traits of a chosen grade, up to 20 at once. Soul
+        Shears are required to forge Grade 4 or higher.
+      </p>
+      <h3 class="traits-intro-sub">Recovery Operation Rewards</h3>
+      <p class="traits-intro-text">
+        The Recovery Operation mode (unlocks after Chapter 4, Stage 6-1) pays out General Trait copies from region
+        defense assignments. Emergency deployment wins grant 3 extra Grade 4 to 6 traits. EX-Rank Mercenaries from
+        FairyNet Search always carry at least one Grade 7 trait.
+      </p>
+    </section>
 
-    <!-- Category Navigation -->
-    <nav class="hw-traits-nav" role="navigation" aria-label="Category navigation">
-      <h2 class="hw-traits-nav-title">Jump to Category:</h2>
-      <div class="hw-traits-nav-links">
-        {
-          categoryNames.map(category => {
-            const categoryId = createAnchorId(category);
-            return (
-              <a
-                href={`#${categoryId}`}
-                class="hw-traits-nav-link"
-                aria-label={`Go to ${category} traits`}
-              >
-                {category}
-              </a>
-            );
-          })
-        }
-      </div>
-    </nav>
-
-    <!-- Traits Categories -->
-    {
-      categoryNames.map(categoryName => {
-        const traitsInCategory = hwTraits[categoryName];
-        if (!traitsInCategory || traitsInCategory.length === 0) return null;
-
-        const categoryId = createAnchorId(categoryName);
-        const traitCount = traitsInCategory.length;
-
-        return (
-          <section class="hw-traits-section" id={categoryId}>
-            <div class="hw-traits-category-header">
-              <h2 class="hw-traits-category-title">{categoryName}</h2>
-              <span class="hw-traits-category-count">({traitCount} traits)</span>
-            </div>
-            <div class="hw-traits-grid">
-              {traitsInCategory.map(trait => (
-                <div class="hw-trait-card">
-                  <h3 class="hw-trait-name">{trait.name}</h3>
-                  <ul class="hw-trait-effects">
-                    {trait.effects.map(effect => (
-                      <li class="hw-trait-effect">{effect}</li>
-                    ))}
-                  </ul>
-                </div>
-              ))}
-            </div>
-          </section>
-        );
-      })
-    }
+    <TraitsDb
+      rows={rows}
+      exByPassive={EX_SKILLS}
+      grades={grades}
+      strings={{
+        all: 'All',
+        searchPlaceholder: 'Search trait name, stat or passive...',
+        empty: 'No traits match the current filter.',
+        hint: 'Each EX passive comes in up to three trait options with the same passive but a different ATK-type stat line (Melee, Ranged or Magic). Pick the option that matches the character\'s damage type. The last group is the pure stat option with no passive.',
+        optionsLabel: 'Options:',
+        pureLabel: 'Pure stat traits',
+        pureDesc: 'No EX passive: pure stat line.',
+      }}
+    />
   </div>
-</TraitsLayout>
+</GuideLayout>
