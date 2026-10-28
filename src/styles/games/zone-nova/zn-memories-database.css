@@ -603,63 +603,11 @@ table.memory-table th {
 }
 
 
-/* Compact filter bar (redesigned 2026-09-05: one row, selects instead of button walls) */
-.memory-filter-bar {
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 0.6rem;
-  padding: 0.9rem 1rem !important;
-  margin-bottom: 1.25rem;
-}
-
-.memory-filter-search {
-  flex: 1 1 220px;
-  min-width: 180px;
-  padding: 0.5rem 0.75rem;
-  border: 1px solid var(--amber-glow, #d4a017);
-  border-radius: 8px;
-  background: var(--zn-bg-tertiary, #3a3a3a);
-  color: var(--text-primary, #e7ecf3);
-  font-size: var(--text-md);
-}
-
-.memory-filter-select {
-  flex: 0 1 auto;
-  padding: 0.5rem 0.6rem;
-  border: 1px solid var(--amber-glow, #d4a017);
-  border-radius: 8px;
-  background: var(--zn-bg-tertiary, #3a3a3a);
-  color: var(--text-primary, #e7ecf3);
-  font-size: var(--text-md);
-  cursor: pointer;
-}
-
-.memory-filter-dir {
-  padding: 0.5rem 0.7rem;
-  border: 1px solid var(--amber-glow, #d4a017);
-  border-radius: 8px;
-  background: var(--zn-bg-tertiary, #3a3a3a);
-  color: var(--text-primary, #e7ecf3);
-  font-size: var(--text-body);
-  font-weight: 700;
-  cursor: pointer;
-}
-
-.memory-filter-dir:hover,
-.memory-filter-select:hover {
-  border-color: var(--amber-glow, #f0b429);
-}
-
-@media (max-width: 640px) {
-  .memory-filter-bar {
-    flex-direction: column;
-    align-items: stretch;
-  }
-  .memory-filter-search,
-  .memory-filter-select,
-  .memory-filter-dir {
-    width: 100%;
-    flex: 1 1 auto;
+/* Toolbar uses the shared zn-db- system from zn-character.css.
+   This page has only two filter selects: cap their width so they stay
+   equal-sized instead of stretching across the full card. */
+@media (min-width: 1025px) {
+  .zn-db-toolbar .zn-db-select {
+    flex: 0 1 240px;
   }
 }

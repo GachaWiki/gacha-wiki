@@ -87,15 +87,8 @@ const classSections = getGroupedMemorySections();
                             />
                           </div>
                           <div class="tl-char-name">{memory.name}</div>
-                          <div class="tl-char-badges">
-                            <span class={`tl-badge tl-badge-rarity-${memory.rarity.toLowerCase()}`}>
-                              {memory.rarity}
-                            </span>
-                            {memory.character && (
-                              <span class="tl-badge tl-badge-element-holy">
-                                {memory.character}
-                              </span>
-                            )}
+                          <div class="tl-char-meta">
+                            {[memory.rarity, memory.character].filter(Boolean).join(', ')}
                           </div>
                         </div>
                       );
@@ -139,15 +132,8 @@ const classSections = getGroupedMemorySections();
                 />
               </div>
               <div class="tl-pool-name">{memory.name}</div>
-              <div class="tl-pool-badges">
-                <span class={`tl-badge tl-badge-rarity-${memory.rarity.toLowerCase()}`}>
-                  {memory.rarity}
-                </span>
-                {memory.character && (
-                  <span class="tl-badge tl-badge-element-holy">
-                    {memory.character}
-                  </span>
-                )}
+              <div class="tl-char-meta">
+                {[memory.rarity, memory.character].filter(Boolean).join(', ')}
               </div>
             </div>
           ))}
@@ -310,10 +296,7 @@ const classSections = getGroupedMemorySections();
             <img src="${poolCard.querySelector('img').src}" alt="${memoryName}" loading="lazy" />
           </div>
           <div class="tl-char-name">${memoryName}</div>
-          <div class="tl-char-badges">
-            <span class="tl-badge tl-badge-rarity-${memData?.rarity?.toLowerCase() || 'sr'}">${memData?.rarity || 'SR'}</span>
-            ${memData?.character ? `<span class="tl-badge tl-badge-element-holy">${memData.character}</span>` : ''}
-          </div>
+          <div class="tl-char-meta">${memData?.rarity || 'SR'}${memData?.character ? `, ${memData.character}` : ''}</div>
           <button class="tl-remove-btn" title="Remove from tier">&times;</button>
         `;
 

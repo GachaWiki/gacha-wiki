@@ -100,6 +100,136 @@
   transform: translateY(0);
 }
 
+/* Character database toolbar: one card holding filters + sort on top and the
+   centered search below. Scoped zn-db- classes so the shared .filter-bar rules
+   above (rankings, team synergy, tags) are untouched. */
+.zn-db-toolbar {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin: 2rem auto 1.5rem auto;
+  padding: 1rem 1.25rem;
+  background: var(--zn-bg-secondary);
+  border: 1px solid var(--zn-border);
+  border-radius: 12px;
+}
+
+.zn-db-filter-row,
+.zn-db-sort-row {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.zn-db-select {
+  flex: 1 1 0;
+  min-width: 110px;
+  height: 38px;
+  box-sizing: border-box;
+  padding: 0 0.75rem;
+  background: var(--zn-bg-secondary);
+  color: var(--zn-text-secondary);
+  border-radius: 8px;
+  border: 1px solid var(--zn-border);
+  font-size: var(--text-sm);
+  cursor: pointer;
+}
+
+.zn-db-sort-label {
+  color: var(--zn-text-muted);
+  font-size: var(--text-sm);
+}
+
+.zn-db-sort-btn {
+  height: 38px;
+  box-sizing: border-box;
+  padding: 0 0.75rem;
+  background: var(--zn-bg-secondary);
+  color: var(--zn-text-secondary);
+  border-radius: 8px;
+  border: 1px solid var(--zn-border);
+  font-size: var(--text-sm);
+  cursor: pointer;
+}
+
+.zn-db-sort-btn.active {
+  background: var(--amber-glow);
+  color: white;
+  border-color: var(--amber-glow);
+}
+
+.zn-db-sort-btn.asc::after,
+.zn-db-sort-btn.desc::after {
+  content: '▼';
+  font-size: var(--text-2xs);
+  margin-left: 0.35em;
+}
+
+.zn-db-sort-btn.asc::after {
+  content: '▲';
+}
+
+.zn-db-reset-btn {
+  margin-left: auto;
+  height: 38px;
+  box-sizing: border-box;
+  padding: 0 1rem;
+  background: transparent;
+  color: var(--zn-text-secondary);
+  border-radius: 8px;
+  border: 1px solid var(--zn-border);
+  font-size: var(--text-sm);
+  cursor: pointer;
+}
+
+.zn-db-search-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.zn-db-search-input {
+  width: min(340px, 100%);
+  height: 38px;
+  box-sizing: border-box;
+  padding: 0 0.75rem;
+  border: 1px solid var(--amber-glow, #f59e0b);
+  border-radius: 8px;
+  background: var(--zn-bg-secondary);
+  color: var(--zn-text-primary);
+  font-size: var(--text-sm);
+  outline: none;
+}
+
+.zn-db-search-input:focus {
+  border-color: var(--amber-glow, #f59e0b);
+}
+
+.zn-db-search-input::placeholder {
+  color: var(--zn-text-muted);
+}
+
+.zn-db-count {
+  color: var(--zn-text-muted);
+  font-size: var(--text-sm);
+  white-space: nowrap;
+}
+
+.zn-db-no-results {
+  margin: 0;
+  padding: 0.25rem 0 0;
+  text-align: center;
+  color: var(--zn-text-muted);
+  font-size: var(--text-sm);
+}
+
+.zn-db-no-results[hidden] {
+  display: none;
+}
+
 /* Desktop table */
 .character-table-container {
   overflow-x: auto;
@@ -123,6 +253,24 @@ table.character-table td {
   text-align: center;
   border-bottom: 1px solid var(--zn-border);
   vertical-align: middle;
+}
+
+/* Max-stats note lives inside the table as its caption */
+table.character-table caption.db-max-stats-note {
+  padding: 0.6rem 1rem;
+  text-align: left;
+  color: var(--zn-text-muted);
+  font-size: var(--text-sm);
+  border-bottom: 1px solid var(--zn-border);
+}
+
+/* Keep the note one uniform line: the site-wide strong rule (16px primary font)
+   must not inflate "max values" past its sentence */
+table.character-table caption.db-max-stats-note strong {
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: 600;
+  color: inherit;
 }
 
 table.character-table th {
@@ -196,6 +344,21 @@ table.character-table tr {
 
 /* .mobile-card-badges styles moved to zn-badge-colour.css */
 
+/* Mobile card plain-text meta + tags (badges removed; content at primary degree) */
+.mobile-card-meta {
+  margin: 0.4rem 0 0;
+  color: var(--zn-text-primary);
+  font-size: var(--text-sm);
+  line-height: 1.4;
+}
+
+.mobile-card-tags-text {
+  margin: 0.2rem 0 0;
+  color: var(--zn-text-primary);
+  font-size: var(--text-sm);
+  line-height: 1.4;
+}
+
 /* Character Database Table Badge Sizing */
 .character-table .rarity-badge,
 .character-table .element-badge,
@@ -230,7 +393,7 @@ table.character-table tr {
   gap: 1.2rem;
   margin-top: 0.5rem;
   font-size: 1.05em;
-  color: var(--zn-text-secondary);
+  color: var(--zn-text-primary);
   font-weight: 500;
   flex-wrap: wrap;
 }
@@ -240,7 +403,7 @@ table.character-table tr {
   gap: 1.2rem;
   margin-top: 0.2rem;
   font-size: 0.98em;
-  color: var(--zn-text-secondary);
+  color: var(--zn-text-primary);
   font-weight: 500;
 }
 
@@ -390,6 +553,36 @@ table.character-table tr {
   .reset-btn {
     padding: 0.8rem 1.2rem; /* Larger touch target */
     min-height: 44px;
+  }
+
+  /* zn-db toolbar: rows stack centered, search goes full width */
+  .zn-db-filter-row,
+  .zn-db-sort-row {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .zn-db-search-row {
+    width: 100%;
+  }
+
+  .zn-db-search-input {
+    width: 100%;
+  }
+
+  .zn-db-select,
+  .zn-db-sort-btn,
+  .zn-db-reset-btn,
+  .zn-db-search-input {
+    height: 44px; /* Larger touch targets */
+    min-height: 44px;
+    padding: 0 1rem;
+    font-size: var(--text-md); /* Slightly larger text */
+  }
+
+  .zn-db-reset-btn {
+    margin-left: 0;
+    padding: 0 1.2rem;
   }
 
   .main-content-container {

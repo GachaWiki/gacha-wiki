@@ -92,7 +92,7 @@
 }
 
 .character-faction-info {
-  color: var(--zn-text-secondary);
+  color: var(--zn-text-primary);
   margin: 0.2rem 0 0 0;
   font-style: italic;
   text-align: center;
@@ -130,10 +130,40 @@
 }
 
 .character-info-label {
-  color: var(--zn-text-muted);
+  color: var(--amber-glow);
   margin-bottom: 0.3rem;
   font-weight: 600;
   font-size: var(--text-md);
+}
+
+/* Plain-text values in the character info grid (badges removed) */
+.character-info-value {
+  color: var(--zn-text-primary);
+  font-weight: 600;
+  font-size: var(--text-md);
+}
+
+/* Plain-text gameplay tags (badge chips removed) */
+.character-tags-text {
+  margin: 0;
+  color: var(--zn-text-primary);
+  font-size: var(--text-md);
+  line-height: 1.5;
+}
+
+/* Plain-text skill type labels (badge pills removed) */
+.skill-type-label {
+  color: var(--amber-glow);
+  font-size: var(--text-xs);
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+/* Plain-text talent tree totals (badge pills removed) */
+.talent-total-value {
+  color: var(--zn-text-primary);
+  font-weight: 600;
+  font-size: var(--text-sm);
 }
 
 .faction-section {
@@ -163,7 +193,8 @@
 }
 
 .character-stats-title {
-  color: var(--zn-text-primary);
+  color: var(--amber-glow);
+  font-weight: 700;
   margin: 0 0 1rem 0;
   text-align: center;
   font-size: var(--text-xl);
@@ -172,7 +203,8 @@
 }
 
 .character-stats-subtitle {
-  color: var(--zn-text-primary);
+  color: var(--amber-glow);
+  font-weight: 700;
   margin: 0 0 1rem 0;
   font-size: var(--text-lg);
 }
@@ -197,7 +229,7 @@
 }
 
 .stat-label {
-  color: var(--zn-text-muted);
+  color: var(--amber-glow);
   margin-bottom: 0.3rem;
   font-weight: 600;
   font-size: var(--text-md);
@@ -243,9 +275,10 @@
 }
 
 .talent-totals-title {
-  color: var(--zn-text-primary);
+  color: var(--amber-glow);
   margin: 0 0 0.75rem 0;
   font-size: var(--text-base);
+  font-weight: 700;
 }
 
 .talent-totals-grid {
@@ -488,7 +521,7 @@
 }
 
 .skill-level-picker .picker-label {
-  color: var(--zn-text-muted);
+  color: var(--amber-glow);
   font-size: var(--text-md);
   font-weight: 600;
   text-transform: uppercase;
@@ -619,7 +652,7 @@
 }
 
 .skill-title {
-  color: var(--zn-text-primary);
+  color: var(--amber-glow);
   font-size: var(--text-xl);
   font-weight: 700;
   margin: 0;
@@ -632,25 +665,21 @@
 }
 
 .skill-cooldown {
-  color: var(--zn-text-primary);
-  font-size: var(--text-md);
+  color: var(--zn-text-muted);
+  font-size: var(--text-xs);
   font-weight: 600;
-  background: rgba(0, 172, 193, 0.15);
-  padding: 0.2rem 0.5rem;
-  border-radius: 4px;
+  white-space: nowrap;
 }
 
 .skill-cost {
-  color: var(--zn-text-primary);
-  font-size: var(--text-md);
+  color: var(--zn-text-muted);
+  font-size: var(--text-xs);
   font-weight: 600;
-  background: rgba(255, 183, 77, 0.15);
-  padding: 0.2rem 0.5rem;
-  border-radius: 4px;
+  white-space: nowrap;
 }
 
 .skill-description {
-  color: var(--zn-text-secondary);
+  color: var(--zn-text-primary);
   line-height: 1.6;
   margin: 0;
   font-size: var(--text-body);
@@ -665,14 +694,14 @@
 }
 
 .skill-state-title {
-  color: var(--teal-crystal);
+  color: var(--amber-glow);
   font-size: var(--text-base);
   font-weight: 700;
   margin: 0 0 0.5rem 0;
 }
 
 .skill-state-description {
-  color: var(--zn-text-secondary);
+  color: var(--zn-text-primary);
   line-height: 1.6;
   margin: 0;
   font-size: var(--text-md);
@@ -700,7 +729,7 @@
 }
 
 .skill-additional-rule-item {
-  color: var(--zn-text-secondary);
+  color: var(--zn-text-primary);
   line-height: 1.6;
   margin-bottom: 0.4rem;
   padding-left: 0.5rem;
@@ -733,7 +762,7 @@
 }
 
 .team-skill-requirements span {
-  color: var(--zn-text-secondary);
+  color: var(--zn-text-primary);
 }
 
 /* Node Tree */
@@ -757,7 +786,7 @@
 }
 
 .node-components {
-  color: var(--zn-text-secondary);
+  color: var(--zn-text-primary);
   font-size: var(--text-body);
   line-height: 1.6;
   margin: 0;
@@ -794,7 +823,7 @@
 }
 
 .node-section-subtitle {
-  color: var(--zn-text-secondary);
+  color: var(--zn-text-primary);
   margin-bottom: 1rem;
   font-size: var(--text-body);
 }
@@ -877,7 +906,7 @@
 }
 
 .node-tier-requirement {
-  color: var(--zn-text-secondary);
+  color: var(--zn-text-primary);
   font-size: var(--text-md);
 }
 
@@ -950,7 +979,7 @@
 }
 
 .awakening-title {
-  color: var(--zn-text-primary);
+  color: var(--amber-glow);
   font-size: var(--text-lg);
   font-weight: 700;
   margin: 0;
@@ -960,11 +989,11 @@
 }
 
 .awakening-level-number {
-  color: var(--zn-text-primary);
+  color: var(--amber-glow);
   font-weight: 800;
 }
 .awakening-description {
-  color: var(--zn-text-secondary);
+  color: var(--zn-text-primary);
   line-height: 1.6;
   margin: 0;
   font-size: var(--text-body);
@@ -1138,7 +1167,7 @@
 }
 
 .mem-buff-note {
-  color: var(--zn-text-secondary);
+  color: var(--zn-text-primary);
   font-size: var(--text-md);
   line-height: 1.6;
   margin: 0 0 0.3rem;
@@ -1216,7 +1245,7 @@
 
 .equipment-limitation-description {
   margin: 0;
-  color: var(--zn-text-secondary);
+  color: var(--zn-text-primary);
   font-weight: 500;
   font-size: var(--text-body);
   line-height: 1.5;
@@ -1512,23 +1541,6 @@
   }
 }
 
-/* Skill Highlighting */
-
-.zn-highlight-damage {
-  color: var(--teal-crystal);
-  font-weight: 600;
-}
-
-.zn-highlight-status {
-  color: var(--amber-glow);
-  font-weight: 600;
-}
-
-.zn-highlight-numbers {
-  color: #42a5f5;
-  font-weight: 600;
-}
-
 /* Damage Analysis */
 
 .damage-analysis-section {
@@ -1536,7 +1548,7 @@
 }
 
 .damage-analysis-description {
-  color: var(--zn-text-secondary);
+  color: var(--zn-text-primary);
   font-size: var(--text-base);
   line-height: 1.6;
   margin: 0 0 1.5rem 0;
@@ -1580,7 +1592,7 @@
   gap: 1rem;
   padding: 0.75rem 1rem;
   border-bottom: 1px solid var(--zn-border);
-  color: var(--zn-text-secondary);
+  color: var(--zn-text-primary);
 }
 
 .damage-breakdown-row:last-child {
@@ -1603,12 +1615,12 @@
 }
 
 .breakdown-col.type {
-  color: var(--zn-text-secondary);
+  color: var(--zn-text-primary);
   font-size: var(--text-md);
 }
 
 .breakdown-col.duration {
-  color: var(--zn-text-secondary);
+  color: var(--zn-text-primary);
   font-weight: 500;
   font-size: var(--text-md);
 }
@@ -1665,7 +1677,7 @@
 }
 
 .damage-total-note {
-  color: var(--zn-text-secondary);
+  color: var(--zn-text-primary);
   font-size: var(--text-md);
   margin: 0;
   font-style: italic;
@@ -1727,7 +1739,7 @@
 }
 
 .character-gallery-event-title {
-  color: var(--zn-text-secondary);
+  color: var(--zn-text-primary);
   font-size: var(--text-md);
   line-height: 1.35;
 }

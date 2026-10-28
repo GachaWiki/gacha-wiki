@@ -31,42 +31,48 @@ const getImageFilename = (imagePath: string): string => {
   <section class="page-flex">
     <div class="main-content-container">
       <div class="content-wrapper">
-        {/* <!-- Filter Bar (compact) --> */}
-        <div class="filter-container memory-filter-bar">
-          <input
-            type="text"
-            id="memory-search"
-            placeholder="Search memory cards..."
-            class="memory-filter-search"
-          />
-          <select id="memory-rarity" class="memory-filter-select" aria-label="Filter by rarity">
-            <option value="">All Rarities</option>
-            <option value="SSR">SSR</option>
-            <option value="SR">SR</option>
-            <option value="R">R</option>
-          </select>
-          <select id="memory-class" class="memory-filter-select" aria-label="Filter by class">
-            <option value="">All Classes</option>
-            {MEMORY_METADATA.classes.map(className => (
-              <option value={className}>{className}</option>
-            ))}
-          </select>
-          <select id="memory-sort" class="memory-filter-select" aria-label="Sort by">
-            <option value="name">Sort: Name</option>
-            <option value="hp">Sort: HP</option>
-            <option value="attack">Sort: ATK</option>
-            <option value="defense">Sort: DEF</option>
-          </select>
-          <button
-            type="button"
-            id="memory-sort-dir"
-            class="memory-filter-dir"
-            title="Toggle sort direction"
-            aria-label="Toggle sort direction"
-          >
-            ↓
-          </button>
-          <button type="button" class="reset-btn" id="reset-table">Reset</button>
+        {/* <!-- Toolbar card: filters + sort on top, centered search below (zn-db system) --> */}
+        <div class="zn-db-toolbar">
+          <div class="zn-db-filter-row">
+            <select class="zn-db-select" id="memory-rarity" aria-label="Filter by rarity">
+              <option value="">All Rarities</option>
+              <option value="SSR">SSR</option>
+              <option value="SR">SR</option>
+              <option value="R">R</option>
+            </select>
+            <select class="zn-db-select" id="memory-class" aria-label="Filter by class">
+              <option value="">All Classes</option>
+              {MEMORY_METADATA.classes.map(className => (
+                <option value={className}>{className}</option>
+              ))}
+            </select>
+          </div>
+          <div class="zn-db-sort-row">
+            <span class="zn-db-sort-label">Sort by:</span>
+            <button type="button" class="zn-db-sort-btn active asc" data-sort="name">
+              Name
+            </button>
+            <button type="button" class="zn-db-sort-btn" data-sort="hp">Max HP</button>
+            <button type="button" class="zn-db-sort-btn" data-sort="attack">Max ATK</button>
+            <button type="button" class="zn-db-sort-btn" data-sort="defense">Max DEF</button>
+            <button type="button" class="zn-db-reset-btn" id="reset-table">Reset</button>
+          </div>
+          <div class="zn-db-search-row">
+            <input
+              type="text"
+              id="memory-search"
+              placeholder="Search memory cards..."
+              class="zn-db-search-input"
+              aria-label="Search memory cards"
+            />
+            <span class="zn-db-count" id="memory-count">
+              {ZONE_NOVA_MEMORIES.length} memories
+            </span>
+          </div>
+          <p class="zn-db-no-results" id="memory-no-results" hidden>
+            No memory cards match the current filters. Clear the search or filters to see all
+            memories.
+          </p>
         </div>
 
         {/* <!-- Desktop table view --> */}
@@ -109,14 +115,7 @@ const getImageFilename = (imagePath: string): string => {
                       />
                     </td>
                     <td>{memory.name}</td>
-                    <td>
-                      <span
-                        class={`rarity-badge ${memory.rarity.toLowerCase()}`}
-                        data-sort-key="rarity"
-                      >
-                        {memory.rarity}
-                      </span>
-                    </td>
+                    <td data-sort-key="rarity">{memory.rarity}</td>
                     <td style="text-align: center; vertical-align: middle;">
                       {(() => {
                         const memoryClass = getMemoryClass(memory);
@@ -133,13 +132,7 @@ const getImageFilename = (imagePath: string): string => {
                         );
                       })()}
                     </td>
-                    <td>
-                      <span
-                        class={`class-badge ${(getMemoryClass(memory) || 'universal').toLowerCase()}`}
-                      >
-                        {getMemoryClass(memory) || 'Universal'}
-                      </span>
-                    </td>
+                    <td data-sort-key="class">{getMemoryClass(memory) || 'Universal'}</td>
                     <td data-sort-key="hp">{memory.stats.hp.toLocaleString()}</td>
                     <td data-sort-key="attack">{memory.stats.attack.toLocaleString()}</td>
                     <td data-sort-key="defense">{memory.stats.defense.toLocaleString()}</td>
@@ -174,19 +167,14 @@ const getImageFilename = (imagePath: string): string => {
                   />
                   <div class="mobile-card-title-group">
                     <h3>{memory.name}</h3>
-                    <div class="mobile-card-badges">
-                      <span class={`rarity-badge ${memory.rarity.toLowerCase()}`}>
-                        {memory.rarity}
-                      </span>
-                      {(() => {
-                        const memoryClass = getMemoryClass(memory);
-                        return memoryClass ? (
-                          <span class={`class-badge ${memoryClass.toLowerCase()}`}>
-                            {memoryClass}
-                          </span>
-                        ) : null;
-                      })()}
-                    </div>
+                    {(() => {
+                      const memoryClass = getMemoryClass(memory);
+                      return (
+                        <p class="mobile-card-meta">
+                          {memoryClass ? `${memory.rarity}, ${memoryClass}` : memory.rarity}
+                        </p>
+                      );
+                    })()}
                   </div>
                 </div>
                 <div class="mobile-card-stats">
@@ -209,18 +197,20 @@ const getImageFilename = (imagePath: string): string => {
   </section>
 
   <script>
-    // Memory database functionality (compact filter bar: selects + search)
+    // Memory database functionality (zn-db toolbar: filter selects, sort buttons, search)
     document.addEventListener('DOMContentLoaded', function () {
       const memoryTableBody = document.getElementById('memory-table-body');
       const mobileCardsContainer = document.getElementById('mobile-cards-container');
       const searchInput = document.getElementById('memory-search');
       const raritySelect = document.getElementById('memory-rarity');
       const classSelect = document.getElementById('memory-class');
-      const sortSelect = document.getElementById('memory-sort');
-      const sortDirButton = document.getElementById('memory-sort-dir');
+      const sortButtons = document.querySelectorAll('.zn-db-sort-btn');
       const resetButton = document.getElementById('reset-table');
+      const countEl = document.getElementById('memory-count');
+      const noResultsEl = document.getElementById('memory-no-results');
 
-      let isAscending = false;
+      let currentSortKey = 'name';
+      let currentSortDirection = 'asc';
       let allMemories: any[] = [];
 
       function initializeMemories() {
@@ -263,11 +253,25 @@ const getImageFilename = (imagePath: string): string => {
         });
       }
 
+      function updateResultMeta(visibleCount: number) {
+        const total = allMemories.length;
+        if (countEl) {
+          countEl.textContent =
+            visibleCount === total
+              ? `${total} memories`
+              : `${visibleCount} of ${total} memories`;
+        }
+        if (noResultsEl) {
+          noResultsEl.hidden = visibleCount !== 0;
+        }
+      }
+
       function filterMemories() {
-        const searchValue = (searchInput?.value || '').trim().toLowerCase();
+        const searchValue = (searchInput as HTMLInputElement)?.value.trim().toLowerCase() || '';
         const rarityValue = (raritySelect as HTMLSelectElement)?.value || '';
         const classValue = (classSelect as HTMLSelectElement)?.value || '';
 
+        let visibleCount = 0;
         allMemories.forEach(memory => {
           const matchesSearch = !searchValue || memory.data.name.includes(searchValue);
           const matchesRarity =
@@ -276,19 +280,22 @@ const getImageFilename = (imagePath: string): string => {
           const isVisible = matchesSearch && matchesRarity && matchesClass;
           memory.element.style.display = isVisible ? '' : 'none';
           if (memory.mobileElement) memory.mobileElement.style.display = isVisible ? '' : 'none';
+          if (isVisible) visibleCount++;
         });
         updateRowNumbers();
+        updateResultMeta(visibleCount);
       }
 
       function applySort() {
-        const sortKey = (sortSelect as HTMLSelectElement)?.value || 'name';
         const sortedMemories = [...allMemories].sort((a, b) => {
-          const aVal = a.data[sortKey];
-          const bVal = b.data[sortKey];
+          const aVal = a.data[currentSortKey];
+          const bVal = b.data[currentSortKey];
           if (typeof aVal === 'string') {
-            return isAscending ? aVal.localeCompare(bVal) : bVal.localeCompare(aVal);
+            return currentSortDirection === 'asc'
+              ? aVal.localeCompare(bVal)
+              : bVal.localeCompare(aVal);
           }
-          return isAscending ? aVal - bVal : bVal - aVal;
+          return currentSortDirection === 'asc' ? aVal - bVal : bVal - aVal;
         });
         sortedMemories.forEach(memory => {
           memoryTableBody?.appendChild(memory.element);
@@ -297,17 +304,21 @@ const getImageFilename = (imagePath: string): string => {
         updateRowNumbers();
       }
 
-      function updateDirLabel() {
-        if (sortDirButton) sortDirButton.textContent = isAscending ? '↑' : '↓';
+      function setActiveSortButton() {
+        sortButtons.forEach(btn => btn.classList.remove('active', 'asc', 'desc'));
+        const activeBtn = Array.from(sortButtons).find(
+          btn => (btn as HTMLElement).dataset.sort === currentSortKey
+        );
+        if (activeBtn) activeBtn.classList.add('active', currentSortDirection);
       }
 
       function resetTable() {
-        if (searchInput) searchInput.value = '';
+        if (searchInput) (searchInput as HTMLInputElement).value = '';
         if (raritySelect) (raritySelect as HTMLSelectElement).value = '';
         if (classSelect) (classSelect as HTMLSelectElement).value = '';
-        if (sortSelect) (sortSelect as HTMLSelectElement).value = 'name';
-        isAscending = false;
-        updateDirLabel();
+        currentSortKey = 'name';
+        currentSortDirection = 'asc';
+        setActiveSortButton();
         allMemories.forEach(memory => {
           memory.element.style.display = '';
           if (memory.mobileElement) memory.mobileElement.style.display = '';
@@ -341,18 +352,27 @@ const getImageFilename = (imagePath: string): string => {
       searchInput?.addEventListener('input', filterMemories);
       raritySelect?.addEventListener('change', filterMemories);
       classSelect?.addEventListener('change', filterMemories);
-      sortSelect?.addEventListener('change', applySort);
-      sortDirButton?.addEventListener('click', function () {
-        isAscending = !isAscending;
-        updateDirLabel();
-        applySort();
+      sortButtons.forEach(button => {
+        button.addEventListener('click', function () {
+          const sortKey = (this as HTMLElement).dataset.sort;
+          if (!sortKey) return;
+          if (currentSortKey === sortKey) {
+            currentSortDirection = currentSortDirection === 'asc' ? 'desc' : 'asc';
+          } else {
+            currentSortKey = sortKey;
+            // numeric columns default to descending (highest first), name to A-Z
+            currentSortDirection = sortKey === 'name' ? 'asc' : 'desc';
+          }
+          setActiveSortButton();
+          applySort();
+        });
       });
       resetButton.addEventListener('click', resetTable);
       addNavigationHandlers();
 
       // default: name A-Z
-      isAscending = true;
-      updateDirLabel();
+      setActiveSortButton();
+      filterMemories();
       applySort();
     });
   </script>

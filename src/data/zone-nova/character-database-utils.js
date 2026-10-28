@@ -11,8 +11,10 @@ export function initializeCharacterDatabase() {
     const rarityFilter = document.getElementById('rarity-filter');
     const classFilter = document.getElementById('class-filter');
     const factionFilter = document.getElementById('faction-filter');
-    const sortButtons = document.querySelectorAll('.sort-btn');
+    const sortButtons = document.querySelectorAll('.zn-db-sort-btn');
     const resetButton = document.getElementById('reset-table');
+    const countEl = document.getElementById('character-count');
+    const noResultsEl = document.getElementById('zn-db-no-results');
 
     // --- State ---
     let currentSortKey = 'name';
@@ -41,6 +43,19 @@ export function initializeCharacterDatabase() {
           row.querySelector('td').textContent = visibleIndex++;
         }
       });
+    }
+
+    function updateResultMeta(visibleCount) {
+      const total = originalRows.length;
+      if (countEl) {
+        countEl.textContent =
+          visibleCount === total
+            ? `${total} characters`
+            : `${visibleCount} of ${total} characters`;
+      }
+      if (noResultsEl) {
+        noResultsEl.hidden = visibleCount !== 0;
+      }
     }
 
     function sortByName(items, isDesktop = true) {
@@ -132,10 +147,10 @@ export function initializeCharacterDatabase() {
           return;
         }
 
-        const elementText = row.querySelector('.element-badge')?.textContent?.trim() || '';
-        const rarityText = row.querySelector('.rarity-badge')?.textContent?.trim() || '';
-          const classText = row.querySelector('.class-badge')?.textContent?.trim() || '';
-        const factionText = row.querySelector('.faction-badge')?.textContent?.trim() || '';
+        const elementText = row.querySelector('[data-sort-key="element"]')?.textContent?.trim() || '';
+        const rarityText = row.querySelector('[data-sort-key="rarity"]')?.textContent?.trim() || '';
+          const classText = row.querySelector('[data-sort-key="class"]')?.textContent?.trim() || '';
+          const factionText = row.querySelector('[data-sort-key="faction"]')?.textContent?.trim() || '';
 
         // Debug logging for class and faction filters
         if ((charClass || faction) && index === 0) {
@@ -207,6 +222,7 @@ export function initializeCharacterDatabase() {
       }
 
       renumberRows();
+      updateResultMeta(visibleRows.length);
     }
 
     // --- Sorting ---
@@ -346,6 +362,11 @@ export function initializeCharacterDatabase() {
       sortByName(allCards, false).forEach(card => mobileCardsContainer.appendChild(card));
       renumberRows();
 
+      // Restore the visible default sort state on the Name button
+      const nameBtn = Array.from(sortButtons).find(btn => btn.dataset.sort === 'name');
+      if (nameBtn) nameBtn.classList.add('active', 'asc');
+      updateResultMeta(originalRows.length);
+
       // Clear sessionStorage
       try {
         sessionStorage.removeItem('zone-nova-character-filters');
@@ -404,5 +425,6 @@ export function initializeCharacterDatabase() {
     sortByName(allCards, false).forEach(card => mobileCardsContainer.appendChild(card));
 
     renumberRows();
+    updateResultMeta(originalRows.length);
   });
 }

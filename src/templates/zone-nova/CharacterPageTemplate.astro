@@ -102,83 +102,6 @@ function renderSkillWithState(skill, highlightedSkill) {
   }
 }
 
-// Helper function to categorize character tags for styling
-function getTagCategory(tag: string): string {
-  const lowerTag = tag.toLowerCase();
-
-  // Damage/Scaling tags - Orange
-  if (
-    lowerTag.includes('def-scale') ||
-    lowerTag.includes('hp scale') ||
-    lowerTag.includes('scale') ||
-    lowerTag.includes('crit rate') ||
-    lowerTag.includes('crit dmg') ||
-    lowerTag.includes('normal atk') ||
-    lowerTag.includes('normal attack') ||
-    lowerTag.includes('dot') ||
-    lowerTag.includes('extra attack') ||
-    lowerTag.includes('aoe') ||
-    lowerTag.includes('enhanced ultimate') ||
-    lowerTag.includes('penetration') ||
-    lowerTag.includes('damage increase') ||
-    lowerTag.includes('interrupt') ||
-    lowerTag.includes('dot intake increases') ||
-    lowerTag.includes('atk increase') ||
-    lowerTag.includes('crit rate increase') ||
-    lowerTag.includes('crit dmg increases') ||
-    lowerTag.includes('atk increases') ||
-    lowerTag.includes('hp-scale') ||
-    lowerTag.includes('increase attack')
-  ) {
-    return 'damage-scaling';
-  }
-
-  // Team utility tags - Blue
-  if (
-    lowerTag.includes('shield') ||
-    lowerTag.includes('buff') ||
-    lowerTag.includes('healing') ||
-    lowerTag.includes('debuff') ||
-    lowerTag.includes('reduce') ||
-    lowerTag.includes('inc skill cooldown') ||
-    lowerTag.includes('revive') ||
-    lowerTag.includes('increase max hp') ||
-    lowerTag.includes('aoe healing') ||
-    lowerTag.includes('stop ultimate') ||
-    lowerTag.includes('revival') ||
-    lowerTag.includes('reduced damage') ||
-    lowerTag.includes('continuously heals') ||
-    lowerTag.includes('healing damage increase') ||
-    lowerTag.includes('vulnerability') ||
-    lowerTag.includes('debuffer') ||
-    lowerTag.includes('weakness')
-  ) {
-    return 'team-utility';
-  }
-
-  // Self utility tags - Green
-  if (
-    lowerTag.includes('damage reduction') ||
-    lowerTag.includes('atk speed') ||
-    lowerTag.includes('attack speed') ||
-    lowerTag.includes('energy recovery') ||
-    lowerTag.includes('hp consume') ||
-    lowerTag.includes('cooldown reduction') ||
-    lowerTag.includes('energy') ||
-    lowerTag.includes('block') ||
-    lowerTag.includes('speed attack')
-  ) {
-    return 'self-utility';
-  }
-
-  // General mechanic tags - Purple
-  if (lowerTag.includes('melee') || lowerTag.includes('range')) {
-    return 'general-mechanic';
-  }
-
-  // Default fallback
-  return 'general-mechanic';
-}
 ---
 
 <!-- Mobile navigation instruction at top of main content -->
@@ -224,45 +147,30 @@ function getTagCategory(tag: string): string {
         <div class="character-info-grid">
           <div class="character-info-item">
             <div class="character-info-label">Class</div>
-            <span
-              class={`class-badge ${characterData.class ? characterData.class.toLowerCase() : 'unknown'}`}
-              >{characterData.class || 'TBA'}</span
-            >
+            <div class="character-info-value">{characterData.class || 'TBA'}</div>
           </div>
           <div class="character-info-item">
             <div class="character-info-label">Rarity</div>
-            <span class={`rarity-badge ${characterData.rarity.toLowerCase()}`}
-              >{characterData.rarity}</span
-            >
+            <div class="character-info-value">{characterData.rarity}</div>
           </div>
           <div class="character-info-item">
             <div class="character-info-label">Element</div>
-            <span class={`element-badge ${characterData.element.toLowerCase()}`}
-              >{characterData.element}</span
-            >
+            <div class="character-info-value">{characterData.element}</div>
           </div>
           <div class="character-info-item">
             <div class="character-info-label">Role</div>
-            <span
-              class={`role-badge ${characterData.role ? characterData.role.toLowerCase() : 'unknown'}`}
-              >{characterData.role || 'TBA'}</span
-            >
+            <div class="character-info-value">{characterData.role || 'TBA'}</div>
           </div>
           <div class="faction-section">
             <div class="character-info-label">Faction</div>
-            <span
-              class={`faction-badge ${(factionData?.name || characterData.faction).toLowerCase().replace(/\s+/g, '-').replace(/\./g, '')}`}
-              style={factionData?.color
-                ? `background-color: ${factionData.color}; border: 2px solid ${factionData.color}; color: white; font-weight: 700; padding: 0.5rem 1rem; border-radius: 8px; display: inline-block; box-shadow: 0 2px 8px ${factionData.color}40; text-shadow: 0 1px 2px rgba(0,0,0,0.3);`
-                : 'background-color: var(--neutral-50); border: 2px solid var(--text-secondary); color: var(--text-secondary); font-weight: 700; padding: 0.5rem 1rem; border-radius: 8px; display: inline-block;'}
-            >
+            <div class="character-info-value">
               {factionData?.name || characterData.faction}
               {
                 factionData?.chineseName && (
                   <span class="faction-chinese-name">({factionData.chineseName})</span>
                 )
               }
-            </span>
+            </div>
           </div>
         </div>
       </div>
@@ -347,10 +255,7 @@ function getTagCategory(tag: string): string {
           />
           <div class="character-class-content">
             <div class="character-class-badges">
-              <span
-                class={`class-badge ${characterData.class ? characterData.class.toLowerCase() : 'unknown'}`}
-                >{characterData.class || 'TBA'}</span
-              >
+              <div class="character-info-value">{characterData.class || 'TBA'}</div>
             </div>
             <p class="character-class-compatibility">
               Memory Compatibility: <strong class="character-class-highlight"
@@ -366,9 +271,7 @@ function getTagCategory(tag: string): string {
             <div class="character-tags-container">
               <div class="character-tags-label">Gameplay Tags</div>
               <div class="character-tags-wrapper">
-                {characterData.tags.map((tag: string) => (
-                  <span class={`character-tag ${getTagCategory(tag)}`}>{tag}</span>
-                ))}
+                <p class="character-tags-text">{characterData.tags.join(', ')}</p>
               </div>
             </div>
           )
@@ -413,7 +316,7 @@ function getTagCategory(tag: string): string {
             <h3 class="skill-title">
               {characterData.skills.normal.name}
             </h3>
-            <span class="skill-badge normal-attack"> Normal Attack </span>
+            <span class="skill-type-label">Normal Attack</span>
           </div>
           {normalSkillData.hasDescription && (skillLevelVariants.normal ? (
             <div class="skill-levels">
@@ -449,7 +352,7 @@ function getTagCategory(tag: string): string {
               {characterData.skills.auto.name}
             </h3>
             <div class="skill-meta">
-              <span class="skill-badge auto-skill"> Auto Skill </span>
+              <span class="skill-type-label">Auto Skill</span>
               <span class="skill-cooldown">
                 Cooldown: {characterData.skills.auto.cooldown}
               </span>
@@ -492,7 +395,7 @@ function getTagCategory(tag: string): string {
               {characterData.skills.ultimate.name}
             </h3>
             <div class="skill-meta">
-              <span class="skill-badge ultimate"> Ultimate </span>
+              <span class="skill-type-label">Ultimate</span>
               <span class="skill-cost">
                 Cost: {characterData.skills.ultimate.energyCost}
               </span>
@@ -541,7 +444,7 @@ function getTagCategory(tag: string): string {
             <h3 class="skill-title">
               {characterData.skills.passive.name}
             </h3>
-            <span class="skill-badge passive"> Passive </span>
+            <span class="skill-type-label">Passive</span>
           </div>
           {passiveSkillData.hasDescription && (skillLevelVariants.passive ? (
             <div class="skill-levels">
@@ -573,7 +476,7 @@ function getTagCategory(tag: string): string {
       <h3 class="skill-title">
         {characterData.teamSkill.name}
       </h3>
-      <span class="skill-badge team-skill"> Team Skill </span>
+      <span class="skill-type-label">Team Skill</span>
     </div>
     <p class="skill-description" set:html={highlightedTeamSkill.description} />
     <div class="team-skill-requirements">
@@ -655,7 +558,7 @@ function getTagCategory(tag: string): string {
           </h3>
           <div class="talent-totals-grid">
             {characterData.talentTree.totals.map((t) => (
-              <span class="talent-total-badge">{t}</span>
+              <span class="talent-total-value">{t}</span>
             ))}
           </div>
           <p class="talent-totals-note">

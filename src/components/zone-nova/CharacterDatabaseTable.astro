@@ -5,11 +5,11 @@ import { ZONE_NOVA_CHARACTERS } from '../../data/zone-nova/characters.js';
 
 <!-- Desktop table view -->
 <div class="character-table-container">
-  <p class="db-max-stats-note">
-    Stat columns show <strong>max values</strong> (base stats with the full talent tree unlocked). Base
-    values are on each character's page.
-  </p>
   <table class="character-table">
+    <caption class="db-max-stats-note">
+      Stat columns show <strong>max values</strong> (base stats with the full talent tree unlocked).
+      Base values are on each character's page.
+    </caption>
     <thead>
       <tr>
         <th>#</th>
@@ -51,16 +51,8 @@ import { ZONE_NOVA_CHARACTERS } from '../../data/zone-nova/characters.js';
               </div>
             </td>
             <td>{char.name}</td>
-            <td>
-              <span class={`rarity-badge ${char.rarity.toLowerCase()}`} data-sort-key="rarity">
-                {char.rarity}
-              </span>
-            </td>
-            <td>
-              <span class={`element-badge ${char.element.toLowerCase()}`} data-sort-key="element">
-                {char.element}
-              </span>
-            </td>
+            <td data-sort-key="rarity">{char.rarity}</td>
+            <td data-sort-key="element">{char.element}</td>
             <td style="text-align: center; vertical-align: middle;">
               <ZNClassImage
                 className={char.class}
@@ -70,19 +62,8 @@ import { ZONE_NOVA_CHARACTERS } from '../../data/zone-nova/characters.js';
                 height={24}
               />
             </td>
-            <td>
-              <span class={`class-badge ${char.class.toLowerCase()}`} data-sort-key="class">
-                {char.class}
-              </span>
-            </td>
-            <td>
-              <span
-                class={`faction-badge ${char.faction.toLowerCase().replace(/\s+/g, '-').replace(/\./g, '')}`}
-                data-sort-key="faction"
-              >
-                {char.faction}
-              </span>
-            </td>
+            <td data-sort-key="class">{char.class}</td>
+            <td data-sort-key="faction">{char.faction}</td>
             <td data-sort-key="hp">{(char.maxStats?.hp ?? char.stats.hp).toLocaleString()}</td>
             <td data-sort-key="attack">{(char.maxStats?.attack ?? char.stats.attack).toLocaleString()}</td>
             <td data-sort-key="defense">{(char.maxStats?.defense ?? char.stats.defense).toLocaleString()}</td>

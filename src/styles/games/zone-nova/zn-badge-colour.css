@@ -785,7 +785,7 @@
 }
 
 .character-tags-label {
-  color: var(--zn-text-secondary);
+  color: var(--amber-glow);
   font-size: var(--text-md);
   font-weight: 600;
   margin-bottom: 0.6rem;

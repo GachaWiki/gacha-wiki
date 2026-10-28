@@ -1,36 +1,48 @@
 ---
-import { CHARACTER_METADATA } from '../../data/zone-nova/characters.js';
+import { CHARACTER_METADATA, ZONE_NOVA_CHARACTERS } from '../../data/zone-nova/characters.js';
 ---
 
-<!-- Filter Bar -->
-<div class="filter-bar">
-  <div class="search-bar">
-    <input type="text" id="character-search" placeholder="Search characters..." class="search-input" />
-  </div>
-  <div class="filter-controls">
-    <select class="filter-select" id="element-filter">
-      <option value="">Element</option>
+<!-- Character database controls: filters + sort rows on top, centered search below -->
+<div class="zn-db-toolbar">
+  <div class="zn-db-filter-row">
+    <select class="zn-db-select" id="element-filter" aria-label="Filter by element">
+      <option value="">All Elements</option>
       {CHARACTER_METADATA.elements.map(element => <option value={element}>{element}</option>)}
     </select>
-    <select class="filter-select" id="rarity-filter">
-      <option value="">Rarity</option>
+    <select class="zn-db-select" id="rarity-filter" aria-label="Filter by rarity">
+      <option value="">All Rarities</option>
       {CHARACTER_METADATA.rarities.map(rarity => <option value={rarity}>{rarity}</option>)}
     </select>
-    <select class="filter-select" id="class-filter">
-      <option value="">Class</option>
+    <select class="zn-db-select" id="class-filter" aria-label="Filter by class">
+      <option value="">All Classes</option>
       {CHARACTER_METADATA.classes.map(charClass => <option value={charClass}>{charClass}</option>)}
     </select>
-    <select class="filter-select" id="faction-filter">
-      <option value="">Faction</option>
+    <select class="zn-db-select" id="faction-filter" aria-label="Filter by faction">
+      <option value="">All Factions</option>
       {CHARACTER_METADATA.factions.map(faction => <option value={faction}>{faction}</option>)}
     </select>
   </div>
-  <div class="sort-controls">
-    <button class="sort-btn" data-sort="hp">Max HP</button>
-    <button class="sort-btn" data-sort="attack">Max ATK</button>
-    <button class="sort-btn" data-sort="defense">Max DEF</button>
-    <button class="sort-btn" data-sort="critRate">Max Crit Rate</button>
-    <button class="sort-btn" data-sort="critDmg">Max Crit DMG</button>
-    <button class="reset-btn" id="reset-table">Reset</button>
+  <div class="zn-db-sort-row">
+    <span class="zn-db-sort-label">Sort by:</span>
+    <button class="zn-db-sort-btn active asc" data-sort="name">Name</button>
+    <button class="zn-db-sort-btn" data-sort="hp">Max HP</button>
+    <button class="zn-db-sort-btn" data-sort="attack">Max ATK</button>
+    <button class="zn-db-sort-btn" data-sort="defense">Max DEF</button>
+    <button class="zn-db-sort-btn" data-sort="critRate">Max Crit Rate</button>
+    <button class="zn-db-sort-btn" data-sort="critDmg">Max Crit DMG</button>
+    <button class="zn-db-reset-btn" id="reset-table">Reset</button>
   </div>
+  <div class="zn-db-search-row">
+    <input
+      type="text"
+      id="character-search"
+      placeholder="Search characters..."
+      class="zn-db-search-input"
+      aria-label="Search characters"
+    />
+    <span class="zn-db-count" id="character-count">{ZONE_NOVA_CHARACTERS.length} characters</span>
+  </div>
+  <p class="zn-db-no-results" id="zn-db-no-results" hidden>
+    No characters match the current filters. Clear the search or filters to see all characters.
+  </p>
 </div>

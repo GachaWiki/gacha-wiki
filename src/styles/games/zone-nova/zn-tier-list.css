@@ -441,83 +441,14 @@
   hyphens: auto;
 }
 
-.tl-char-badges {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.25rem;
-  align-items: center;
-  justify-content: center;
+/* Character meta line (rarity + element as plain text; badges removed 2026-10-28) */
+.tl-char-meta {
   width: 100%;
   max-width: 110px;
-}
-
-/* ============================================ */
-/* 11. CHARACTER BADGES (shared) */
-/* ============================================ */
-
-.tl-badge {
-  padding: 0.15rem 0.35rem;
-  min-height: 16px;
-  font-size: var(--text-3xs);
-  font-weight: 800;
-  line-height: 1;
-  text-transform: uppercase;
-  border-radius: 3px;
-  border: none;
-  cursor: default;
-  white-space: nowrap;
-  flex-shrink: 0;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-}
-
-/* Rarity */
-.tl-badge-rarity-ur {
-  background: #000;
-  color: #fff;
-  font-weight: 800;
-}
-
-.tl-badge-rarity-ssr {
-  background: var(--zn-badge-ssr);
-  color: #000;
-}
-
-.tl-badge-rarity-sr {
-  background: var(--zn-badge-sr);
-  color: #000;
-}
-
-.tl-badge-rarity-r {
-  background: var(--zn-badge-r);
-  color: #000;
-}
-
-/* Element */
-.tl-badge-element-fire {
-  background: var(--zn-badge-fire);
-  color: var(--zn-badge-white);
-}
-
-.tl-badge-element-ice {
-  background: var(--zn-badge-ice);
-  color: var(--zn-badge-white);
-}
-
-.tl-badge-element-wind {
-  background: var(--zn-badge-wind);
-  color: var(--zn-badge-black);
-}
-
-.tl-badge-element-holy {
-  background: var(--zn-badge-holy);
-  color: var(--zn-badge-black);
-}
-
-.tl-badge-element-chaos {
-  background: var(--zn-badge-chaos);
-  color: var(--zn-badge-white);
+  text-align: center;
+  color: var(--zn-text-primary);
+  font-size: var(--text-xs);
+  line-height: 1.3;
 }
 
 /* ============================================ */
@@ -740,14 +671,9 @@
   hyphens: auto;
 }
 
-.tl-pool-badges {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.15rem;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
+.tl-pool-card .tl-char-meta {
   max-width: 80px;
+  font-size: var(--text-2xs);
 }
 
 /* Maker Tier List */
@@ -821,7 +747,7 @@
   min-height: 28px;
 }
 
-.tl-maker-row .tl-char-badges {
+.tl-maker-row .tl-char-meta {
   max-width: 80px;
 }
 
@@ -969,14 +895,9 @@
     min-height: 30px;
   }
 
-  .tl-char-badges {
+  .tl-char-meta {
     max-width: 85px;
-  }
-
-  .tl-badge {
-    font-size: var(--text-3xs);
-    padding: 0.1rem 0.25rem;
-    min-height: 12px;
+    font-size: var(--text-2xs);
   }
 
   .tl-legend {
@@ -1020,7 +941,7 @@
     max-width: 65px;
   }
 
-  .tl-pool-badges {
+  .tl-pool-card .tl-char-meta {
     max-width: 65px;
   }
 
@@ -1051,7 +972,7 @@
     min-height: 22px;
   }
 
-  .tl-maker-row .tl-char-badges {
+  .tl-maker-row .tl-char-meta {
     max-width: 65px;
   }
 
@@ -1103,7 +1024,7 @@
     max-width: 58px;
   }
 
-  .tl-pool-badges {
+  .tl-pool-card .tl-char-meta {
     max-width: 58px;
   }
 }
