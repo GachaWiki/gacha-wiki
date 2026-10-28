@@ -80,7 +80,7 @@ const navSections = langSection && game ? [...game.sections, langSection] : (gam
           aria-label={`Browse ${game.name} ${game.sections[game.sections.length - 1].title}`}
           aria-expanded="false"
         >
-          <h2 class="game-title">{game.name} {game.sections[game.sections.length - 1].title}</h2>
+          <h2 class="game-title">{`${game.name} ${game.sections[game.sections.length - 1].title}`}</h2>
         </button>
       </div>
       {musicConfig && <GameMusicPlayer config={musicConfig} variant="mobile" />}
