@@ -1,0 +1,85 @@
+---
+// Brown Dust 2 landing (standard wiki landing: hero art, story, download, resources).
+import GameLayout from '../../../layouts/brown-dust-2/GameLayout.astro';
+import FormattedDate from '../../../components/FormattedDate.astro';
+import DiscordPromo from '../../../components/DiscordPromo.astro';
+import { brownDust2Units, brownDust2Characters } from '../../../data/brown-dust-2/characters.js';
+
+const unitCount = brownDust2Units.length;
+const charCount = brownDust2Characters.length;
+---
+
+<GameLayout title="Home" description="Brown Dust 2 wiki: turn-based RPG by Gamfs and Neowiz. Character database with costumes, skills, elements and voice actors, built from decrypted local client data." hideBreadcrumb>
+  <!-- Ambient background video (48s cut of the official main movie), full-bleed top, fades out by mid-page -->
+  <div class="bd2-bg-video-wrap" aria-hidden="true">
+    <video class="bd2-bg-video" autoplay muted loop playsinline preload="auto">
+      <source src="/videos/bd2-hero.mp4" type="video/mp4" />
+    </video>
+  </div>
+
+  <section class="bd2-hero-section bd2-hero-over-video">
+    <h1 class="bd2-hero-title">Brown Dust 2</h1>
+    <p class="bd2-hero-tag">
+      Turn-based RPG by Gamfs and Neowiz. Story-driven campaign, costume gacha and tactical
+      grid combat.
+    </p>
+  </section>
+
+  <section class="bd2-content-section">
+    <div class="bd2-story">
+      <p>
+        <strong>Brown Dust 2</strong> is a turn-based RPG by Gamfs and published by Neowiz, a
+        sequel to Brown Dust set in a dark fantasy world of mercenaries and curses. The game
+        pairs a story-driven campaign with tactical grid combat where positioning, elements
+        and skill timing decide battles.
+      </p>
+      <p>
+        Characters are collected through the costume gacha: every character has a fixed
+        element and star grade, and each of the {unitCount} units changes the skills
+        and stats they bring to battle. The wiki currently covers all{' '}
+        {brownDust2Characters.length} playable characters with full costume skill data,
+        extracted from the local game client.
+      </p>
+    </div>
+
+    <div class="bd2-download-row">
+      <a
+        class="bd2-download-btn"
+        href="https://www.browndust2.com/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Download &amp; Play Brown Dust 2
+        <span class="bd2-download-arrow">&rarr;</span>
+      </a>
+    </div>
+
+    <DiscordPromo />
+
+    <p class="bd2-last-updated">
+      Last Updated: <FormattedDate date={new Date('2026-10-28')} />
+    </p>
+  </section>
+
+  <section class="bd2-content-section">
+    <h2 style="font-size: var(--text-4xl); margin: 0 0 1rem; font-weight: 700; text-align: center; color: var(--bd2-accent-strong);">
+      Guides &amp; Resources
+    </h2>
+    <div class="bd2-resources-grid">
+      <div class="bd2-resource-category">
+        <div class="bd2-category-header">
+          <h3>Characters</h3>
+          <p class="bd2-category-description">
+            All {brownDust2Characters.length} characters and {unitCount} units with
+            elements, skills, cooldowns and voice actors.
+          </p>
+        </div>
+        <div class="bd2-buttons-grid">
+          <a href="/guides/brown-dust-2/characters/" class="bd2-resource-button">
+            Character Database
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+</GameLayout>

@@ -26,6 +26,7 @@ const majo = g('majo');
 const agentX = g('agent-x');
 const geneSysAdam = g('gene-sys-adam');
 const muvLuvGirlsGarden = g('muv-luv-girls-garden');
+const brownDust2 = g('brown-dust-2');
 
 // Type definitions for better code quality and IntelliSense
 export interface SocialLinks {
@@ -1082,6 +1083,36 @@ const GAME_SEO_CONFIG: Record<string, GameSEOConfig> = {
     alternateName: ['マブラヴ ガールズガーデン', 'マブガル'],
     inLanguage: 'ja',
     availableLanguage: ['ja', 'en', 'zh-Hans', 'zh-Hant'],
+    playMode: 'SinglePlayer',
+  },
+  [brownDust2.id]: {
+    gameName: brownDust2.name,
+    keywords: [
+      brownDust2.name,
+      'brown dust 2',
+      'browndust2',
+      'brown dust ii',
+      '브라운더스트2',
+      'ブラウンダスト2',
+      '棕色塵埃2',
+      'brown dust 2 wiki',
+      'brown dust 2 guide',
+      'brown dust 2 characters',
+      'brown dust 2 database',
+      'brown dust 2 costumes',
+      'brown dust 2 tier list',
+      '브라운더스트2 공략',
+      '브라운더스트2 캐릭터',
+      'ブラウンダスト2 攻略',
+      'ブラウンダスト2 キャラ',
+    ] as const,
+    themeColor: brownDust2.themeColor,
+    description: 'Brown Dust 2 wiki: turn-based RPG by Gamfs and Neowiz. Full character database with costumes, elements, voice actors and skills, built from decrypted local client data.',
+    genres: ['Turn-Based RPG', 'Gacha'] as const,
+    platform: 'Mobile, PC',
+    alternateName: ['브라운더스트2', 'ブラウンダスト2', 'BrownDust II'],
+    inLanguage: 'en',
+    availableLanguage: ['en', 'ja', 'ko', 'zh-Hans', 'zh-Hant'],
     playMode: 'SinglePlayer',
   },
 } as const;

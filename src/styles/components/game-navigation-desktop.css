@@ -510,3 +510,16 @@
   background: #b02a37;
   color: white;
 }
+
+
+/* ============================================
+   BROWN DUST 2 SPECIFIC STYLING
+   ============================================ */
+.game-nav-desktop[data-game='brown-dust-2'] .game-title {
+  color: #d6bc85;
+}
+
+.game-nav-desktop[data-game='brown-dust-2'] .dropdown-link.active {
+  background: #7d6740;
+  color: white;
+}

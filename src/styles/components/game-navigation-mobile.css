@@ -701,3 +701,24 @@
   background: #b02a37;
   color: white;
 }
+
+
+/* ============================================
+   BROWN DUST 2 SPECIFIC STYLING
+   ============================================ */
+.game-nav-mobile[data-game='brown-dust-2'] .game-title {
+  color: #d6bc85;
+}
+
+.mobile-links[data-game='brown-dust-2'] .mobile-game-name {
+  color: #d6bc85;
+}
+
+.mobile-links[data-game='brown-dust-2'] .mobile-section-title {
+  color: #d6bc85;
+}
+
+.mobile-links[data-game='brown-dust-2'] .mobile-link.active {
+  background: #7d6740;
+  color: white;
+}

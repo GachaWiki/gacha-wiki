@@ -1,0 +1,18380 @@
+// Brown Dust 2 unit database: every released costume is its own playable unit
+// (189 units across 87 characters), generated from the local PC client tables
+// (Data/t SQLCipher DBs, decrypted + protobuf-decoded). Element and grade live on
+// the base character; skills, VA and images are per costume.
+
+export const ELEMENTS = {
+  0: 'Water',
+  1: 'Fire',
+  2: 'Wind',
+  3: 'Light',
+  4: 'Dark',
+};
+
+export const brownDust2Units = [
+  {
+    'id': 101,
+    'slug': 'herb-tracker-lathel',
+    'name': 'Herb Tracker',
+    'nameJp': '薬草採集者',
+    'nameKr': '약초 추적자',
+    'charSlug': 'lathel',
+    'charName': 'Lathel',
+    'element': 1,
+    'grade': 5,
+    'vaJp': 'Shun Horie',
+    'talent': {
+      'name': 'Search',
+      'mark': 'Talent_Buff006_Mark',
+      'skills': [
+        {
+          'name': 'Herbalist\'s Sense',
+          'desc': 'Detects the location of hidden objects for 15 seconds.',
+          'value': 60,
+          'catalyst': 5,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_6_s.webp'
+        },
+        {
+          'name': 'Herbalist\'s Sense',
+          'desc': 'Detects the location of hidden objects for 30 seconds.',
+          'value': 60,
+          'catalyst': 5,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_6_s.webp'
+        },
+        {
+          'name': 'Herbalist\'s Sense',
+          'desc': '',
+          'value': 60,
+          'catalyst': 5,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_6_s.webp'
+        },
+        {
+          'name': 'Herbalist\'s Sense',
+          'desc': 'Detects the location of hidden objects for 90 seconds.',
+          'value': 60,
+          'catalyst': 5,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_6_s.webp'
+        },
+        {
+          'name': 'Herbalist\'s Sense',
+          'desc': '',
+          'value': 60,
+          'catalyst': 5,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_6_s.webp'
+        }
+      ]
+    },
+    'vaKr': 'Kim Young-sun',
+    'maxLevel': 5,
+    'skills': [
+      {
+        'name': 'The Sword of Fresh Blood',
+        'desc': 'Use 50% of your Current HP to increase your ATK by 5% for 2 turn(s). Attack the enemy 2 times, dealing X Physical DMG equal to 150% of your ATK per hit.',
+        'cooldown': 5,
+        'tiers': [
+          {
+            'rank': 0,
+            'sp': 3,
+            'value': 150,
+            'turns': 2,
+            'text': 'Use 50% of your Current HP to increase your ATK by 5% for 2 turn(s). Attack the enemy 2 times, dealing X Physical DMG equal to 150% of your ATK per hit.'
+          },
+          {
+            'rank': 1,
+            'sp': 3,
+            'value': 200,
+            'turns': 2,
+            'text': 'Use 50% of your Current HP to increase your ATK by 5% for 2 turn(s). Attack the enemy 2 times, dealing X Physical DMG equal to 200% of your ATK per hit.'
+          },
+          {
+            'rank': 2,
+            'sp': 3,
+            'value': 245,
+            'turns': 2,
+            'text': 'Use 50% of your Current HP to increase your ATK by 5% for 2 turn(s). Attack the enemy 2 times, dealing X Physical DMG equal to 245% of your ATK per hit.'
+          },
+          {
+            'rank': 3,
+            'sp': 2,
+            'value': 245,
+            'turns': 2,
+            'text': 'Use 50% of your Current HP to increase your ATK by 5% for 2 turn(s). Attack the enemy 2 times, dealing X Physical DMG equal to 245% of your ATK per hit.'
+          },
+          {
+            'rank': 4,
+            'sp': 2,
+            'value': 285,
+            'turns': 2,
+            'text': 'Use 50% of your Current HP to increase your ATK by 5% for 2 turn(s). Attack the enemy 2 times, dealing X Physical DMG equal to 285% of your ATK per hit.'
+          },
+          {
+            'rank': 5,
+            'sp': 2,
+            'value': 320,
+            'turns': 2,
+            'text': 'Use 50% of your Current HP to increase your ATK by 5% for 2 turn(s). Attack the enemy 2 times, dealing X Physical DMG equal to 320% of your ATK per hit.'
+          }
+        ],
+        'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillicons/v2/skillicon_1.webp'
+      }
+    ],
+    'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/101/icon.webp',
+    'body': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/101/body.webp',
+    'skillCard': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillart/000101.webp'
+  },
+  {
+    'id': 102,
+    'slug': 'lonely-survivor-lathel',
+    'name': 'Lonely Survivor',
+    'nameJp': 'ローンサバイバー',
+    'nameKr': '론리 서바이버',
+    'charSlug': 'lathel',
+    'charName': 'Lathel',
+    'element': 1,
+    'grade': 5,
+    'vaJp': 'Shun Horie',
+    'talent': {
+      'name': 'Search',
+      'mark': 'Talent_Buff006_Mark',
+      'skills': [
+        {
+          'name': 'Herbalist\'s Sense',
+          'desc': 'Detects the location of hidden objects for 15 seconds.',
+          'value': 60,
+          'catalyst': 5,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_6_s.webp'
+        },
+        {
+          'name': 'Herbalist\'s Sense',
+          'desc': 'Detects the location of hidden objects for 30 seconds.',
+          'value': 60,
+          'catalyst': 5,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_6_s.webp'
+        },
+        {
+          'name': 'Herbalist\'s Sense',
+          'desc': '',
+          'value': 60,
+          'catalyst': 5,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_6_s.webp'
+        },
+        {
+          'name': 'Herbalist\'s Sense',
+          'desc': 'Detects the location of hidden objects for 90 seconds.',
+          'value': 60,
+          'catalyst': 5,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_6_s.webp'
+        },
+        {
+          'name': 'Herbalist\'s Sense',
+          'desc': '',
+          'value': 60,
+          'catalyst': 5,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_6_s.webp'
+        }
+      ]
+    },
+    'vaKr': 'Lee Kyung-tae',
+    'maxLevel': 5,
+    'skills': [
+      {
+        'name': 'Ludbion Drive',
+        'desc': 'Use 50% of your Current HP to increase your ATK by 5% for 2 turn(s). Attack the enemy 3 times, dealing X Physical DMG equal to 65% of your ATK per hit.',
+        'cooldown': 5,
+        'tiers': [
+          {
+            'rank': 0,
+            'sp': 4,
+            'value': 65,
+            'turns': 2,
+            'text': 'Use 50% of your Current HP to increase your ATK by 5% for 2 turn(s). Attack the enemy 3 times, dealing X Physical DMG equal to 65% of your ATK per hit.'
+          },
+          {
+            'rank': 1,
+            'sp': 4,
+            'value': 90,
+            'turns': 2,
+            'text': 'Use 50% of your Current HP to increase your ATK by 5% for 2 turn(s). Attack the enemy 3 times, dealing X Physical DMG equal to 90% of your ATK per hit.'
+          },
+          {
+            'rank': 2,
+            'sp': 4,
+            'value': 115,
+            'turns': 2,
+            'text': 'Use 50% of your Current HP to increase your ATK by 5% for 2 turn(s). Attack the enemy 3 times, dealing X Physical DMG equal to 115% of your ATK per hit.'
+          },
+          {
+            'rank': 3,
+            'sp': 3,
+            'value': 115,
+            'turns': 2,
+            'text': 'Use 50% of your Current HP to increase your ATK by 5% for 2 turn(s). Attack the enemy 3 times, dealing X Physical DMG equal to 115% of your ATK per hit.'
+          },
+          {
+            'rank': 4,
+            'sp': 3,
+            'value': 135,
+            'turns': 2,
+            'text': 'Use 50% of your Current HP to increase your ATK by 5% for 2 turn(s). Attack the enemy 3 times, dealing X Physical DMG equal to 135% of your ATK per hit.'
+          },
+          {
+            'rank': 5,
+            'sp': 3,
+            'value': 155,
+            'turns': 2,
+            'text': 'Use 50% of your Current HP to increase your ATK by 5% for 2 turn(s). Attack the enemy 3 times, dealing X Physical DMG equal to 155% of your ATK per hit.'
+          }
+        ],
+        'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillicons/v2/skillicon_2.webp'
+      }
+    ],
+    'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/102/icon.webp',
+    'body': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/102/body.webp',
+    'skillCard': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillart/000102.webp'
+  },
+  {
+    'id': 103,
+    'slug': 'homunculus-lathel',
+    'name': 'Homunculus',
+    'nameJp': 'ホムンクルス',
+    'nameKr': '호문쿨루스',
+    'charSlug': 'lathel',
+    'charName': 'Lathel',
+    'element': 1,
+    'grade': 5,
+    'vaJp': 'Shun Horie',
+    'talent': {
+      'name': 'Search',
+      'mark': 'Talent_Buff006_Mark',
+      'skills': [
+        {
+          'name': 'Herbalist\'s Sense',
+          'desc': 'Detects the location of hidden objects for 15 seconds.',
+          'value': 60,
+          'catalyst': 5,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_6_s.webp'
+        },
+        {
+          'name': 'Herbalist\'s Sense',
+          'desc': 'Detects the location of hidden objects for 30 seconds.',
+          'value': 60,
+          'catalyst': 5,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_6_s.webp'
+        },
+        {
+          'name': 'Herbalist\'s Sense',
+          'desc': '',
+          'value': 60,
+          'catalyst': 5,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_6_s.webp'
+        },
+        {
+          'name': 'Herbalist\'s Sense',
+          'desc': 'Detects the location of hidden objects for 90 seconds.',
+          'value': 60,
+          'catalyst': 5,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_6_s.webp'
+        },
+        {
+          'name': 'Herbalist\'s Sense',
+          'desc': '',
+          'value': 60,
+          'catalyst': 5,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_6_s.webp'
+        }
+      ]
+    },
+    'vaKr': 'Lee Kyung-tae',
+    'maxLevel': 5,
+    'skills': [
+      {
+        'name': 'The Sacrifice of Fresh Blood',
+        'desc': 'Ally ATK is increased by 25% for 2 turn(s). Ally ATK is increased by 25% for 2 turn(s).',
+        'cooldown': 5,
+        'tiers': [
+          {
+            'rank': 0,
+            'sp': 2,
+            'value': 60,
+            'turns': 2,
+            'text': 'Ally ATK is increased by 25% for 2 turn(s). Ally ATK is increased by 25% for 2 turn(s).'
+          },
+          {
+            'rank': 1,
+            'sp': 2,
+            'value': 60,
+            'turns': 2,
+            'text': 'Ally ATK is increased by 50% for 2 turn(s). Ally ATK is increased by 50% for 2 turn(s).'
+          },
+          {
+            'rank': 2,
+            'sp': 2,
+            'value': 70,
+            'turns': 2,
+            'text': 'Ally ATK is increased by 50% for 2 turn(s). Ally ATK is increased by 50% for 2 turn(s).'
+          },
+          {
+            'rank': 3,
+            'sp': 1,
+            'value': 70,
+            'turns': 2,
+            'text': 'Ally ATK is increased by 50% for 2 turn(s). Ally ATK is increased by 50% for 2 turn(s).'
+          },
+          {
+            'rank': 4,
+            'sp': 1,
+            'value': 80,
+            'turns': 2,
+            'text': 'Ally ATK is increased by 50% for 2 turn(s). Ally ATK is increased by 50% for 2 turn(s).'
+          },
+          {
+            'rank': 5,
+            'sp': 1,
+            'value': 80,
+            'turns': 2,
+            'text': 'Ally ATK is increased by 50% for 2 turn(s). Ally ATK is increased by 50% for 2 turn(s).'
+          }
+        ],
+        'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillicons/v2/skillicon_5.webp'
+      }
+    ],
+    'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/103/icon.webp',
+    'body': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/103/body.webp',
+    'skillCard': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillart/000103.webp'
+  },
+  {
+    'id': 104,
+    'slug': 'dark-knight-lathel',
+    'name': 'Dark Knight',
+    'nameJp': '暗黒騎士',
+    'nameKr': '암흑 기사',
+    'charSlug': 'lathel',
+    'charName': 'Lathel',
+    'element': 1,
+    'grade': 5,
+    'vaJp': 'Shun Horie',
+    'talent': {
+      'name': 'Search',
+      'mark': 'Talent_Buff006_Mark',
+      'skills': [
+        {
+          'name': 'Herbalist\'s Sense',
+          'desc': 'Detects the location of hidden objects for 15 seconds.',
+          'value': 60,
+          'catalyst': 5,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_6_s.webp'
+        },
+        {
+          'name': 'Herbalist\'s Sense',
+          'desc': 'Detects the location of hidden objects for 30 seconds.',
+          'value': 60,
+          'catalyst': 5,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_6_s.webp'
+        },
+        {
+          'name': 'Herbalist\'s Sense',
+          'desc': '',
+          'value': 60,
+          'catalyst': 5,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_6_s.webp'
+        },
+        {
+          'name': 'Herbalist\'s Sense',
+          'desc': 'Detects the location of hidden objects for 90 seconds.',
+          'value': 60,
+          'catalyst': 5,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_6_s.webp'
+        },
+        {
+          'name': 'Herbalist\'s Sense',
+          'desc': '',
+          'value': 60,
+          'catalyst': 5,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_6_s.webp'
+        }
+      ]
+    },
+    'vaKr': 'Kim Young-sun',
+    'maxLevel': 5,
+    'skills': [
+      {
+        'name': 'Bloody Howl',
+        'desc': 'Preemptive ActionApply an Energy Guard (X) to yourself for 4 turn(s), equal to 50% of your Max HP. Apply a X% Barrier (Physical) to yourself for 4 turn(s).',
+        'cooldown': 5,
+        'tiers': [
+          {
+            'rank': 0,
+            'sp': 2,
+            'value': 170,
+            'turns': 4,
+            'text': 'Preemptive ActionApply an Energy Guard (X) to yourself for 4 turn(s), equal to 50% of your Max HP. Apply a X% Barrier (Physical) to yourself for 4 turn(s).'
+          },
+          {
+            'rank': 1,
+            'sp': 2,
+            'value': 220,
+            'turns': 4,
+            'text': 'Preemptive ActionApply an Energy Guard (X) to yourself for 4 turn(s), equal to 50% of your Max HP. Apply a X% Barrier (Physical) to yourself for 4 turn(s).'
+          },
+          {
+            'rank': 2,
+            'sp': 2,
+            'value': 270,
+            'turns': 4,
+            'text': 'Preemptive ActionApply an Energy Guard (X) to yourself for 4 turn(s), equal to 50% of your Max HP. Apply a X% Barrier (Physical) to yourself for 4 turn(s).'
+          },
+          {
+            'rank': 3,
+            'sp': 1,
+            'value': 270,
+            'turns': 4,
+            'text': 'Preemptive ActionApply an Energy Guard (X) to yourself for 4 turn(s), equal to 50% of your Max HP. Apply a X% Barrier (Physical) to yourself for 4 turn(s).'
+          },
+          {
+            'rank': 4,
+            'sp': 1,
+            'value': 320,
+            'turns': 4,
+            'text': 'Preemptive ActionApply an Energy Guard (X) to yourself for 4 turn(s), equal to 50% of your Max HP. Apply a X% Barrier (Physical) to yourself for 4 turn(s).'
+          },
+          {
+            'rank': 5,
+            'sp': 1,
+            'value': 320,
+            'turns': 6,
+            'text': 'Preemptive ActionApply an Energy Guard (X) to yourself for 6 turn(s), equal to 50% of your Max HP. Apply a X% Barrier (Physical) to yourself for 6 turn(s).'
+          }
+        ],
+        'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillicons/v2/skillicon_3.webp'
+      }
+    ],
+    'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/104/icon.webp',
+    'body': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/104/body.webp',
+    'skillCard': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillart/000104.webp'
+  },
+  {
+    'id': 105,
+    'slug': 'promise-of-vengeance-lathel',
+    'name': 'Promise of Vengeance',
+    'nameJp': '復讐の誓い',
+    'nameKr': '복수의 맹세',
+    'charSlug': 'lathel',
+    'charName': 'Lathel',
+    'element': 1,
+    'grade': 5,
+    'vaJp': 'Shun Horie',
+    'talent': {
+      'name': 'Search',
+      'mark': 'Talent_Buff006_Mark',
+      'skills': [
+        {
+          'name': 'Herbalist\'s Sense',
+          'desc': 'Detects the location of hidden objects for 15 seconds.',
+          'value': 60,
+          'catalyst': 5,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_6_s.webp'
+        },
+        {
+          'name': 'Herbalist\'s Sense',
+          'desc': 'Detects the location of hidden objects for 30 seconds.',
+          'value': 60,
+          'catalyst': 5,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_6_s.webp'
+        },
+        {
+          'name': 'Herbalist\'s Sense',
+          'desc': '',
+          'value': 60,
+          'catalyst': 5,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_6_s.webp'
+        },
+        {
+          'name': 'Herbalist\'s Sense',
+          'desc': 'Detects the location of hidden objects for 90 seconds.',
+          'value': 60,
+          'catalyst': 5,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_6_s.webp'
+        },
+        {
+          'name': 'Herbalist\'s Sense',
+          'desc': '',
+          'value': 60,
+          'catalyst': 5,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_6_s.webp'
+        }
+      ]
+    },
+    'vaKr': 'Kim Young-sun',
+    'maxLevel': 5,
+    'skills': [
+      {
+        'name': 'Flame of Revenge',
+        'desc': 'Use 50% of your Current HP to increase your ATK by 5% for 2 turn(s). Deal X Physical DMG to the enemy equal to 450% of your ATK.',
+        'cooldown': 5,
+        'tiers': [
+          {
+            'rank': 0,
+            'sp': 3,
+            'value': 450,
+            'turns': 2,
+            'text': 'Use 50% of your Current HP to increase your ATK by 5% for 2 turn(s). Deal X Physical DMG to the enemy equal to 450% of your ATK.'
+          },
+          {
+            'rank': 1,
+            'sp': 3,
+            'value': 600,
+            'turns': 2,
+            'text': 'Use 50% of your Current HP to increase your ATK by 5% for 2 turn(s). Deal X Physical DMG to the enemy equal to 600% of your ATK.'
+          },
+          {
+            'rank': 2,
+            'sp': 3,
+            'value': 750,
+            'turns': 2,
+            'text': 'Use 50% of your Current HP to increase your ATK by 5% for 2 turn(s). Deal X Physical DMG to the enemy equal to 750% of your ATK.'
+          },
+          {
+            'rank': 3,
+            'sp': 2,
+            'value': 750,
+            'turns': 2,
+            'text': 'Use 50% of your Current HP to increase your ATK by 5% for 2 turn(s). Deal X Physical DMG to the enemy equal to 750% of your ATK.'
+          },
+          {
+            'rank': 4,
+            'sp': 2,
+            'value': 875,
+            'turns': 2,
+            'text': 'Use 50% of your Current HP to increase your ATK by 5% for 2 turn(s). Deal X Physical DMG to the enemy equal to 875% of your ATK.'
+          },
+          {
+            'rank': 5,
+            'sp': 2,
+            'value': 1000,
+            'turns': 2,
+            'text': 'Use 50% of your Current HP to increase your ATK by 5% for 2 turn(s). Deal X Physical DMG to the enemy equal to 1000% of your ATK.'
+          }
+        ],
+        'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillicons/v2/skillicon_4.webp'
+      }
+    ],
+    'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/105/icon.webp',
+    'body': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/105/body.webp',
+    'skillCard': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillart/000105.webp'
+  },
+  {
+    'id': 106,
+    'slug': 'pool-party-lathel',
+    'name': 'Pool Party',
+    'nameJp': 'プールパーティ',
+    'nameKr': '풀 파티',
+    'charSlug': 'lathel',
+    'charName': 'Lathel',
+    'element': 1,
+    'grade': 5,
+    'vaJp': 'Shun Horie',
+    'talent': {
+      'name': 'Search',
+      'mark': 'Talent_Buff006_Mark',
+      'skills': [
+        {
+          'name': 'Herbalist\'s Sense',
+          'desc': 'Detects the location of hidden objects for 15 seconds.',
+          'value': 60,
+          'catalyst': 5,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_6_s.webp'
+        },
+        {
+          'name': 'Herbalist\'s Sense',
+          'desc': 'Detects the location of hidden objects for 30 seconds.',
+          'value': 60,
+          'catalyst': 5,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_6_s.webp'
+        },
+        {
+          'name': 'Herbalist\'s Sense',
+          'desc': '',
+          'value': 60,
+          'catalyst': 5,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_6_s.webp'
+        },
+        {
+          'name': 'Herbalist\'s Sense',
+          'desc': 'Detects the location of hidden objects for 90 seconds.',
+          'value': 60,
+          'catalyst': 5,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_6_s.webp'
+        },
+        {
+          'name': 'Herbalist\'s Sense',
+          'desc': '',
+          'value': 60,
+          'catalyst': 5,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_6_s.webp'
+        }
+      ]
+    },
+    'vaKr': 'Kim Young-sun',
+    'maxLevel': 5,
+    'skills': [
+      {
+        'name': 'Shark Tornado',
+        'desc': 'Use 100% of your Current HP to increase your Crit Rate by 5% for 2 turn(s). Attack the enemy 3 times, dealing X Physical DMG equal to 75% of your ATK per hit.',
+        'cooldown': 3,
+        'tiers': [
+          {
+            'rank': 0,
+            'sp': 4,
+            'value': 75,
+            'turns': 2,
+            'text': 'Use 100% of your Current HP to increase your Crit Rate by 5% for 2 turn(s). Attack the enemy 3 times, dealing X Physical DMG equal to 75% of your ATK per hit.'
+          },
+          {
+            'rank': 1,
+            'sp': 4,
+            'value': 93,
+            'turns': 2,
+            'text': 'Use 100% of your Current HP to increase your Crit Rate by 5% for 2 turn(s). Attack the enemy 3 times, dealing X Physical DMG equal to 93% of your ATK per hit.'
+          },
+          {
+            'rank': 2,
+            'sp': 4,
+            'value': 111,
+            'turns': 2,
+            'text': 'Use 100% of your Current HP to increase your Crit Rate by 5% for 2 turn(s). Attack the enemy 3 times, dealing X Physical DMG equal to 111% of your ATK per hit.'
+          },
+          {
+            'rank': 3,
+            'sp': 3,
+            'value': 111,
+            'turns': 2,
+            'text': 'Use 100% of your Current HP to increase your Crit Rate by 5% for 2 turn(s). Attack the enemy 3 times, dealing X Physical DMG equal to 111% of your ATK per hit.'
+          },
+          {
+            'rank': 4,
+            'sp': 3,
+            'value': 128,
+            'turns': 2,
+            'text': 'Use 100% of your Current HP to increase your Crit Rate by 5% for 2 turn(s). Attack the enemy 3 times, dealing X Physical DMG equal to 128% of your ATK per hit.'
+          },
+          {
+            'rank': 5,
+            'sp': 3,
+            'value': 145,
+            'turns': 2,
+            'text': 'Use 100% of your Current HP to increase your Crit Rate by 5% for 2 turn(s). Attack the enemy 3 times, dealing X Physical DMG equal to 145% of your ATK per hit.'
+          }
+        ],
+        'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillicons/v2/skillicon_86.webp'
+      }
+    ],
+    'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/106/icon.webp',
+    'body': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/106/body.webp',
+    'skillCard': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillart/000106.webp'
+  },
+  {
+    'id': 201,
+    'slug': 'knight-of-blood-justia',
+    'name': 'Knight of Blood',
+    'nameJp': '鮮血の騎士',
+    'nameKr': '피의 기사',
+    'charSlug': 'justia',
+    'charName': 'Justia',
+    'element': 3,
+    'grade': 5,
+    'vaJp': 'Azumi Waki',
+    'talent': {
+      'name': 'Cook',
+      'mark': '0',
+      'skills': [
+        {
+          'name': 'Chef of the Battlefield',
+          'desc': 'You can make 1st rank B-chelin dishes.',
+          'value': [
+            0,
+            64,
+            64
+          ],
+          'catalyst': 1,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_7_s.webp'
+        },
+        {
+          'name': 'Chef of the Battlefield',
+          'desc': '',
+          'value': [
+            0,
+            64
+          ],
+          'catalyst': 2,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_7_s.webp'
+        },
+        {
+          'name': 'Chef of the Battlefield',
+          'desc': 'You can make 3rd rank B-chelin dishes.',
+          'value': 0,
+          'catalyst': 5,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_7_s.webp'
+        },
+        {
+          'name': 'Chef of the Battlefield',
+          'desc': '',
+          'value': 0,
+          'catalyst': 7,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_7_s.webp'
+        },
+        {
+          'name': 'Chef of the Battlefield',
+          'desc': 'You can make 5th rank B-chelin dishes.',
+          'value': 0,
+          'catalyst': 10,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_7_s.webp'
+        }
+      ]
+    },
+    'vaKr': 'Jung Hye-won',
+    'maxLevel': 5,
+    'skills': [
+      {
+        'name': 'Lunar Halo Slit',
+        'desc': 'Attack the enemy 3 times, dealing X Fixed DMG (Physical) equal to 75% of your ATK per hit.',
+        'cooldown': 5,
+        'tiers': [
+          {
+            'rank': 0,
+            'sp': 4,
+            'value': 75,
+            'turns': null,
+            'text': 'Attack the enemy 3 times, dealing X Fixed DMG (Physical) equal to 75% of your ATK per hit.'
+          },
+          {
+            'rank': 1,
+            'sp': 4,
+            'value': 105,
+            'turns': null,
+            'text': 'Attack the enemy 3 times, dealing X Fixed DMG (Physical) equal to 105% of your ATK per hit.'
+          },
+          {
+            'rank': 2,
+            'sp': 4,
+            'value': 130,
+            'turns': null,
+            'text': 'Attack the enemy 3 times, dealing X Fixed DMG (Physical) equal to 130% of your ATK per hit.'
+          },
+          {
+            'rank': 3,
+            'sp': 3,
+            'value': 130,
+            'turns': null,
+            'text': 'Attack the enemy 3 times, dealing X Fixed DMG (Physical) equal to 130% of your ATK per hit.'
+          },
+          {
+            'rank': 4,
+            'sp': 3,
+            'value': 155,
+            'turns': null,
+            'text': 'Attack the enemy 3 times, dealing X Fixed DMG (Physical) equal to 155% of your ATK per hit.'
+          },
+          {
+            'rank': 5,
+            'sp': 3,
+            'value': 175,
+            'turns': null,
+            'text': 'Attack the enemy 3 times, dealing X Fixed DMG (Physical) equal to 175% of your ATK per hit.'
+          }
+        ],
+        'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillicons/v2/skillicon_6.webp'
+      }
+    ],
+    'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/201/icon.webp',
+    'body': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/201/body.webp',
+    'skillCard': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillart/000201.webp'
+  },
+  {
+    'id': 202,
+    'slug': 'white-reaper-justia',
+    'name': 'White Reaper',
+    'nameJp': '白い死神',
+    'nameKr': '하얀 사신',
+    'charSlug': 'justia',
+    'charName': 'Justia',
+    'element': 3,
+    'grade': 5,
+    'vaJp': 'Azumi Waki',
+    'talent': {
+      'name': 'Cook',
+      'mark': '0',
+      'skills': [
+        {
+          'name': 'Chef of the Battlefield',
+          'desc': 'You can make 1st rank B-chelin dishes.',
+          'value': [
+            0,
+            64,
+            64
+          ],
+          'catalyst': 1,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_7_s.webp'
+        },
+        {
+          'name': 'Chef of the Battlefield',
+          'desc': '',
+          'value': [
+            0,
+            64
+          ],
+          'catalyst': 2,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_7_s.webp'
+        },
+        {
+          'name': 'Chef of the Battlefield',
+          'desc': 'You can make 3rd rank B-chelin dishes.',
+          'value': 0,
+          'catalyst': 5,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_7_s.webp'
+        },
+        {
+          'name': 'Chef of the Battlefield',
+          'desc': '',
+          'value': 0,
+          'catalyst': 7,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_7_s.webp'
+        },
+        {
+          'name': 'Chef of the Battlefield',
+          'desc': 'You can make 5th rank B-chelin dishes.',
+          'value': 0,
+          'catalyst': 10,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_7_s.webp'
+        }
+      ]
+    },
+    'vaKr': 'Jung Hye-won',
+    'maxLevel': 5,
+    'skills': [
+      {
+        'name': 'Quarter Moon Jab',
+        'desc': 'Deal X Fixed DMG (Physical) to the enemy equal to 275% of your ATK.',
+        'cooldown': 5,
+        'tiers': [
+          {
+            'rank': 0,
+            'sp': 3,
+            'value': 275,
+            'turns': null,
+            'text': 'Deal X Fixed DMG (Physical) to the enemy equal to 275% of your ATK.'
+          },
+          {
+            'rank': 1,
+            'sp': 3,
+            'value': 350,
+            'turns': null,
+            'text': 'Deal X Fixed DMG (Physical) to the enemy equal to 350% of your ATK.'
+          },
+          {
+            'rank': 2,
+            'sp': 3,
+            'value': 420,
+            'turns': null,
+            'text': 'Deal X Fixed DMG (Physical) to the enemy equal to 420% of your ATK.'
+          },
+          {
+            'rank': 3,
+            'sp': 2,
+            'value': 420,
+            'turns': null,
+            'text': 'Deal X Fixed DMG (Physical) to the enemy equal to 420% of your ATK.'
+          },
+          {
+            'rank': 4,
+            'sp': 2,
+            'value': 490,
+            'turns': null,
+            'text': 'Deal X Fixed DMG (Physical) to the enemy equal to 490% of your ATK.'
+          },
+          {
+            'rank': 5,
+            'sp': 2,
+            'value': 555,
+            'turns': null,
+            'text': 'Deal X Fixed DMG (Physical) to the enemy equal to 555% of your ATK.'
+          }
+        ],
+        'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillicons/v2/skillicon_7.webp'
+      }
+    ],
+    'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/202/icon.webp',
+    'body': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/202/body.webp',
+    'skillCard': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillart/000202.webp'
+  },
+  {
+    'id': 203,
+    'slug': 'blood-glutton-justia',
+    'name': 'Blood Glutton',
+    'nameJp': '血の貪食者',
+    'nameKr': '피의 탐식자',
+    'charSlug': 'justia',
+    'charName': 'Justia',
+    'element': 3,
+    'grade': 5,
+    'vaJp': 'Azumi Waki',
+    'talent': {
+      'name': 'Cook',
+      'mark': '0',
+      'skills': [
+        {
+          'name': 'Chef of the Battlefield',
+          'desc': 'You can make 1st rank B-chelin dishes.',
+          'value': [
+            0,
+            64,
+            64
+          ],
+          'catalyst': 1,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_7_s.webp'
+        },
+        {
+          'name': 'Chef of the Battlefield',
+          'desc': '',
+          'value': [
+            0,
+            64
+          ],
+          'catalyst': 2,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_7_s.webp'
+        },
+        {
+          'name': 'Chef of the Battlefield',
+          'desc': 'You can make 3rd rank B-chelin dishes.',
+          'value': 0,
+          'catalyst': 5,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_7_s.webp'
+        },
+        {
+          'name': 'Chef of the Battlefield',
+          'desc': '',
+          'value': 0,
+          'catalyst': 7,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_7_s.webp'
+        },
+        {
+          'name': 'Chef of the Battlefield',
+          'desc': 'You can make 5th rank B-chelin dishes.',
+          'value': 0,
+          'catalyst': 10,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_7_s.webp'
+        }
+      ]
+    },
+    'vaKr': 'Jung Hye-won',
+    'maxLevel': 5,
+    'skills': [
+      {
+        'name': 'The Fang of Gluttony',
+        'desc': 'Your Property DMG increases by 200% for 8 turn(s). Heal yourself for [1[ equal to [6[% of your Max HP. Deal X Fixed DMG (Physical) to the enemy equal to 150% of your ATK.',
+        'cooldown': 7,
+        'tiers': [
+          {
+            'rank': 0,
+            'sp': 3,
+            'value': 150,
+            'turns': 8,
+            'text': 'Your Property DMG increases by 200% for 8 turn(s). Heal yourself for [1[ equal to [6[% of your Max HP. Deal X Fixed DMG (Physical) to the enemy equal to 150% of your ATK.'
+          },
+          {
+            'rank': 1,
+            'sp': 2,
+            'value': 150,
+            'turns': 8,
+            'text': 'Your Property DMG increases by 200% for 8 turn(s). Heal yourself for [1[ equal to [6[% of your Max HP. Deal X Fixed DMG (Physical) to the enemy equal to 150% of your ATK.'
+          },
+          {
+            'rank': 2,
+            'sp': 2,
+            'value': 185,
+            'turns': 8,
+            'text': 'Your Property DMG increases by 250% for 8 turn(s). Heal yourself for [1[ equal to [6[% of your Max HP. Deal X Fixed DMG (Physical) to the enemy equal to 185% of your ATK.'
+          },
+          {
+            'rank': 3,
+            'sp': 2,
+            'value': null,
+            'turns': null,
+            'text': 'Your Property DMG increases by X% for X turn(s). Heal yourself for [1[ equal to [6[% of your Max HP. Deal X Fixed DMG (Physical) to the enemy equal to X% of your ATK.'
+          },
+          {
+            'rank': 4,
+            'sp': 2,
+            'value': 260,
+            'turns': 8,
+            'text': 'Your Property DMG increases by 350% for 8 turn(s). Heal yourself for [1[ equal to [6[% of your Max HP. Deal X Fixed DMG (Physical) to the enemy equal to 260% of your ATK.'
+          },
+          {
+            'rank': 5,
+            'sp': 2,
+            'value': 300,
+            'turns': 8,
+            'text': 'Your Property DMG increases by 400% for 8 turn(s). Heal yourself for [1[ equal to [6[% of your Max HP. Deal X Fixed DMG (Physical) to the enemy equal to 300% of your ATK.'
+          }
+        ],
+        'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillicons/v2/skillicon_8.webp'
+      }
+    ],
+    'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/203/icon.webp',
+    'body': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/203/body.webp',
+    'skillCard': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillart/000203.webp'
+  },
+  {
+    'id': 204,
+    'slug': 'kendo-club-justia',
+    'name': 'Kendo Club',
+    'nameJp': '剣道部',
+    'nameKr': '검도부',
+    'charSlug': 'justia',
+    'charName': 'Justia',
+    'element': 3,
+    'grade': 5,
+    'vaJp': 'Azumi Waki',
+    'talent': {
+      'name': 'Cook',
+      'mark': '0',
+      'skills': [
+        {
+          'name': 'Chef of the Battlefield',
+          'desc': 'You can make 1st rank B-chelin dishes.',
+          'value': [
+            0,
+            64,
+            64
+          ],
+          'catalyst': 1,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_7_s.webp'
+        },
+        {
+          'name': 'Chef of the Battlefield',
+          'desc': '',
+          'value': [
+            0,
+            64
+          ],
+          'catalyst': 2,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_7_s.webp'
+        },
+        {
+          'name': 'Chef of the Battlefield',
+          'desc': 'You can make 3rd rank B-chelin dishes.',
+          'value': 0,
+          'catalyst': 5,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_7_s.webp'
+        },
+        {
+          'name': 'Chef of the Battlefield',
+          'desc': '',
+          'value': 0,
+          'catalyst': 7,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_7_s.webp'
+        },
+        {
+          'name': 'Chef of the Battlefield',
+          'desc': 'You can make 5th rank B-chelin dishes.',
+          'value': 0,
+          'catalyst': 10,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_7_s.webp'
+        }
+      ]
+    },
+    'vaKr': 'Jung Hye-won',
+    'maxLevel': 5,
+    'skills': [
+      {
+        'name': 'Sakura Halo\'s Stroke',
+        'desc': 'Attack the enemy 3 times, dealing X Fixed DMG (Physical) equal to 90% of your ATK per hit.',
+        'cooldown': 5,
+        'tiers': [
+          {
+            'rank': 0,
+            'sp': 4,
+            'value': 90,
+            'turns': null,
+            'text': 'Attack the enemy 3 times, dealing X Fixed DMG (Physical) equal to 90% of your ATK per hit.'
+          },
+          {
+            'rank': 1,
+            'sp': 4,
+            'value': 120,
+            'turns': null,
+            'text': 'Attack the enemy 3 times, dealing X Fixed DMG (Physical) equal to 120% of your ATK per hit.'
+          },
+          {
+            'rank': 2,
+            'sp': 4,
+            'value': 150,
+            'turns': null,
+            'text': 'Attack the enemy 3 times, dealing X Fixed DMG (Physical) equal to 150% of your ATK per hit.'
+          },
+          {
+            'rank': 3,
+            'sp': 3,
+            'value': 150,
+            'turns': null,
+            'text': 'Attack the enemy 3 times, dealing X Fixed DMG (Physical) equal to 150% of your ATK per hit.'
+          },
+          {
+            'rank': 4,
+            'sp': 3,
+            'value': 175,
+            'turns': null,
+            'text': 'Attack the enemy 3 times, dealing X Fixed DMG (Physical) equal to 175% of your ATK per hit.'
+          },
+          {
+            'rank': 5,
+            'sp': 3,
+            'value': 200,
+            'turns': null,
+            'text': 'Attack the enemy 3 times, dealing X Fixed DMG (Physical) equal to 200% of your ATK per hit.'
+          }
+        ],
+        'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillicons/v2/skillicon_9.webp'
+      }
+    ],
+    'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/204/icon.webp',
+    'body': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/204/body.webp',
+    'skillCard': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillart/000204.webp'
+  },
+  {
+    'id': 206,
+    'slug': 'pool-party-justia',
+    'name': 'Pool Party',
+    'nameJp': 'プールパーティ',
+    'nameKr': '풀 파티',
+    'charSlug': 'justia',
+    'charName': 'Justia',
+    'element': 3,
+    'grade': 5,
+    'vaJp': 'Azumi Waki',
+    'talent': {
+      'name': 'Cook',
+      'mark': '0',
+      'skills': [
+        {
+          'name': 'Chef of the Battlefield',
+          'desc': 'You can make 1st rank B-chelin dishes.',
+          'value': [
+            0,
+            64,
+            64
+          ],
+          'catalyst': 1,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_7_s.webp'
+        },
+        {
+          'name': 'Chef of the Battlefield',
+          'desc': '',
+          'value': [
+            0,
+            64
+          ],
+          'catalyst': 2,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_7_s.webp'
+        },
+        {
+          'name': 'Chef of the Battlefield',
+          'desc': 'You can make 3rd rank B-chelin dishes.',
+          'value': 0,
+          'catalyst': 5,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_7_s.webp'
+        },
+        {
+          'name': 'Chef of the Battlefield',
+          'desc': '',
+          'value': 0,
+          'catalyst': 7,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_7_s.webp'
+        },
+        {
+          'name': 'Chef of the Battlefield',
+          'desc': 'You can make 5th rank B-chelin dishes.',
+          'value': 0,
+          'catalyst': 10,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_7_s.webp'
+        }
+      ]
+    },
+    'vaKr': 'Jung Hye-won',
+    'maxLevel': 5,
+    'skills': [
+      {
+        'name': 'Food Fighter',
+        'desc': 'You have a X% chance to evade enemy attacks until you successfully evade X times. Your ATK is increased by 150% for 8 turn(s).',
+        'cooldown': 7,
+        'tiers': [
+          {
+            'rank': 0,
+            'sp': 2,
+            'value': 1,
+            'turns': 8,
+            'text': 'You have a X% chance to evade enemy attacks until you successfully evade X times. Your ATK is increased by 150% for 8 turn(s).'
+          },
+          {
+            'rank': 1,
+            'sp': 2,
+            'value': 1,
+            'turns': 8,
+            'text': 'You have a X% chance to evade enemy attacks until you successfully evade X times. Your ATK is increased by 185% for 8 turn(s).'
+          },
+          {
+            'rank': 2,
+            'sp': 2,
+            'value': 1,
+            'turns': 8,
+            'text': 'You have a X% chance to evade enemy attacks until you successfully evade X times. Your ATK is increased by 210% for 8 turn(s).'
+          },
+          {
+            'rank': 3,
+            'sp': 1,
+            'value': 1,
+            'turns': 8,
+            'text': 'You have a X% chance to evade enemy attacks until you successfully evade X times. Your ATK is increased by 210% for 8 turn(s).'
+          },
+          {
+            'rank': 4,
+            'sp': 1,
+            'value': 1,
+            'turns': 8,
+            'text': 'You have a X% chance to evade enemy attacks until you successfully evade X times. Your ATK is increased by 245% for 8 turn(s).'
+          },
+          {
+            'rank': 5,
+            'sp': 1,
+            'value': 1,
+            'turns': 8,
+            'text': 'You have a X% chance to evade enemy attacks until you successfully evade X times. Your ATK is increased by 270% for 8 turn(s).'
+          }
+        ],
+        'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillicons/v2/skillicon_87.webp'
+      }
+    ],
+    'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/206/icon.webp',
+    'body': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/206/body.webp',
+    'skillCard': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillart/000206.webp'
+  },
+  {
+    'id': 301,
+    'slug': 'the-lapis-witch-scheherazade',
+    'name': 'The Lapis Witch',
+    'nameJp': '蒼の魔女',
+    'nameKr': '푸른 마녀',
+    'charSlug': 'scheherazade',
+    'charName': 'Scheherazade',
+    'element': 0,
+    'grade': 5,
+    'vaJp': 'Aimi',
+    'talent': {
+      'name': 'Alchemy',
+      'mark': '0',
+      'skills': [
+        {
+          'name': 'Type 1 Alchemy',
+          'desc': 'Lv. 1 limit: You can use Alchemy.',
+          'value': 64,
+          'catalyst': 2,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_8_s.webp'
+        },
+        {
+          'name': 'Type 1 Alchemy',
+          'desc': '',
+          'value': 64,
+          'catalyst': 3,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_8_s.webp'
+        },
+        {
+          'name': 'Type 1 Alchemy',
+          'desc': 'Lv. 3 limit: You can use Alchemy.',
+          'value': 64,
+          'catalyst': 6,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_8_s.webp'
+        },
+        {
+          'name': 'Type 1 Alchemy',
+          'desc': 'Lv. 4 limit: You can use Alchemy.',
+          'value': 64,
+          'catalyst': 12,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_8_s.webp'
+        },
+        {
+          'name': 'Type 1 Alchemy',
+          'desc': '',
+          'value': 64,
+          'catalyst': 20,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_8_s.webp'
+        }
+      ]
+    },
+    'vaKr': 'Yeo Min-jeong',
+    'maxLevel': 5,
+    'skills': [
+      {
+        'name': 'Aqua Break',
+        'desc': 'Attack the enemy 3 times, dealing X Magic DMG equal to 180% of your Magic ATK per hit. Remove Buffs from the enemy.',
+        'cooldown': 5,
+        'tiers': [
+          {
+            'rank': 0,
+            'sp': 4,
+            'value': 180,
+            'turns': null,
+            'text': 'Attack the enemy 3 times, dealing X Magic DMG equal to 180% of your Magic ATK per hit. Remove Buffs from the enemy.'
+          },
+          {
+            'rank': 1,
+            'sp': 4,
+            'value': 205,
+            'turns': null,
+            'text': 'Attack the enemy 3 times, dealing X Magic DMG equal to 205% of your Magic ATK per hit. Remove Buffs from the enemy.'
+          },
+          {
+            'rank': 2,
+            'sp': 4,
+            'value': 230,
+            'turns': null,
+            'text': 'Attack the enemy 3 times, dealing X Magic DMG equal to 230% of your Magic ATK per hit. Remove Buffs from the enemy.'
+          },
+          {
+            'rank': 3,
+            'sp': 3,
+            'value': 230,
+            'turns': null,
+            'text': 'Attack the enemy 3 times, dealing X Magic DMG equal to 230% of your Magic ATK per hit. Remove Buffs from the enemy.'
+          },
+          {
+            'rank': 4,
+            'sp': 3,
+            'value': 255,
+            'turns': null,
+            'text': 'Attack the enemy 3 times, dealing X Magic DMG equal to 255% of your Magic ATK per hit. Remove Buffs from the enemy.'
+          },
+          {
+            'rank': 5,
+            'sp': 3,
+            'value': 280,
+            'turns': null,
+            'text': 'Attack the enemy 3 times, dealing X Magic DMG equal to 280% of your Magic ATK per hit. Remove Buffs from the enemy.'
+          }
+        ],
+        'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillicons/v2/skillicon_10.webp'
+      }
+    ],
+    'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/301/icon.webp',
+    'body': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/301/body.webp',
+    'skillCard': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillart/000301.webp'
+  },
+  {
+    'id': 303,
+    'slug': 'the-magic-school-professor-scheherazade',
+    'name': 'The Magic School Professor',
+    'nameJp': '魔法学校教授',
+    'nameKr': '마법학교 교수',
+    'charSlug': 'scheherazade',
+    'charName': 'Scheherazade',
+    'element': 0,
+    'grade': 5,
+    'vaJp': 'Aimi',
+    'talent': {
+      'name': 'Alchemy',
+      'mark': '0',
+      'skills': [
+        {
+          'name': 'Type 1 Alchemy',
+          'desc': 'Lv. 1 limit: You can use Alchemy.',
+          'value': 64,
+          'catalyst': 2,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_8_s.webp'
+        },
+        {
+          'name': 'Type 1 Alchemy',
+          'desc': '',
+          'value': 64,
+          'catalyst': 3,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_8_s.webp'
+        },
+        {
+          'name': 'Type 1 Alchemy',
+          'desc': 'Lv. 3 limit: You can use Alchemy.',
+          'value': 64,
+          'catalyst': 6,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_8_s.webp'
+        },
+        {
+          'name': 'Type 1 Alchemy',
+          'desc': 'Lv. 4 limit: You can use Alchemy.',
+          'value': 64,
+          'catalyst': 12,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_8_s.webp'
+        },
+        {
+          'name': 'Type 1 Alchemy',
+          'desc': '',
+          'value': 64,
+          'catalyst': 20,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_8_s.webp'
+        }
+      ]
+    },
+    'vaKr': 'Yeo Min-jeong',
+    'maxLevel': 5,
+    'skills': [
+      {
+        'name': 'Aqua Silence',
+        'desc': 'Attack the enemy 7 times, dealing X Magic DMG equal to 35% of your Magic ATK per hit. Remove Buffs from the enemy.',
+        'cooldown': 3,
+        'tiers': [
+          {
+            'rank': 0,
+            'sp': 6,
+            'value': 35,
+            'turns': null,
+            'text': 'Attack the enemy 7 times, dealing X Magic DMG equal to 35% of your Magic ATK per hit. Remove Buffs from the enemy.'
+          },
+          {
+            'rank': 1,
+            'sp': 6,
+            'value': 45,
+            'turns': null,
+            'text': 'Attack the enemy 7 times, dealing X Magic DMG equal to 45% of your Magic ATK per hit. Remove Buffs from the enemy.'
+          },
+          {
+            'rank': 2,
+            'sp': 6,
+            'value': 55,
+            'turns': null,
+            'text': 'Attack the enemy 7 times, dealing X Magic DMG equal to 55% of your Magic ATK per hit. Remove Buffs from the enemy.'
+          },
+          {
+            'rank': 3,
+            'sp': 5,
+            'value': 55,
+            'turns': null,
+            'text': 'Attack the enemy 7 times, dealing X Magic DMG equal to 55% of your Magic ATK per hit. Remove Buffs from the enemy.'
+          },
+          {
+            'rank': 4,
+            'sp': 5,
+            'value': 65,
+            'turns': null,
+            'text': 'Attack the enemy 7 times, dealing X Magic DMG equal to 65% of your Magic ATK per hit. Remove Buffs from the enemy.'
+          },
+          {
+            'rank': 5,
+            'sp': 5,
+            'value': 75,
+            'turns': null,
+            'text': 'Attack the enemy 7 times, dealing X Magic DMG equal to 75% of your Magic ATK per hit. Remove Buffs from the enemy.'
+          }
+        ],
+        'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillicons/v2/skillicon_11.webp'
+      }
+    ],
+    'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/303/icon.webp',
+    'body': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/303/body.webp',
+    'skillCard': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillart/000303.webp'
+  },
+  {
+    'id': 304,
+    'slug': 'code-name-s-scheherazade',
+    'name': 'Code Name S',
+    'nameJp': 'コードネームS',
+    'nameKr': '코드네임 S',
+    'charSlug': 'scheherazade',
+    'charName': 'Scheherazade',
+    'element': 0,
+    'grade': 5,
+    'vaJp': 'Aimi',
+    'talent': {
+      'name': 'Alchemy',
+      'mark': '0',
+      'skills': [
+        {
+          'name': 'Type 1 Alchemy',
+          'desc': 'Lv. 1 limit: You can use Alchemy.',
+          'value': 64,
+          'catalyst': 2,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_8_s.webp'
+        },
+        {
+          'name': 'Type 1 Alchemy',
+          'desc': '',
+          'value': 64,
+          'catalyst': 3,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_8_s.webp'
+        },
+        {
+          'name': 'Type 1 Alchemy',
+          'desc': 'Lv. 3 limit: You can use Alchemy.',
+          'value': 64,
+          'catalyst': 6,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_8_s.webp'
+        },
+        {
+          'name': 'Type 1 Alchemy',
+          'desc': 'Lv. 4 limit: You can use Alchemy.',
+          'value': 64,
+          'catalyst': 12,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_8_s.webp'
+        },
+        {
+          'name': 'Type 1 Alchemy',
+          'desc': '',
+          'value': 64,
+          'catalyst': 20,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_8_s.webp'
+        }
+      ]
+    },
+    'vaKr': 'Yeo Min-jeong',
+    'maxLevel': 5,
+    'skills': [
+      {
+        'name': 'Sapphire Boomerang',
+        'desc': 'Attack the enemy 3 times, dealing X Magic DMG equal to 95% of your Magic ATK per hit. Remove Buffs from the enemy. Apply Silence to the enemy for [5[ turn(s).',
+        'cooldown': 5,
+        'tiers': [
+          {
+            'rank': 0,
+            'sp': 4,
+            'value': 95,
+            'turns': 2,
+            'text': 'Attack the enemy 3 times, dealing X Magic DMG equal to 95% of your Magic ATK per hit. Remove Buffs from the enemy. Apply Silence to the enemy for [5[ turn(s).'
+          },
+          {
+            'rank': 1,
+            'sp': 4,
+            'value': null,
+            'turns': null,
+            'text': 'Attack the enemy 3 times, dealing X Magic DMG equal to X% of your Magic ATK per hit. Remove Buffs from the enemy. Apply Silence to the enemy for [5[ turn(s).'
+          },
+          {
+            'rank': 2,
+            'sp': 4,
+            'value': 145,
+            'turns': 2,
+            'text': 'Attack the enemy 3 times, dealing X Magic DMG equal to 145% of your Magic ATK per hit. Remove Buffs from the enemy. Apply Silence to the enemy for [5[ turn(s).'
+          },
+          {
+            'rank': 3,
+            'sp': 3,
+            'value': 145,
+            'turns': 2,
+            'text': 'Attack the enemy 3 times, dealing X Magic DMG equal to 145% of your Magic ATK per hit. Remove Buffs from the enemy. Apply Silence to the enemy for [5[ turn(s).'
+          },
+          {
+            'rank': 4,
+            'sp': 3,
+            'value': 165,
+            'turns': 2,
+            'text': 'Attack the enemy 3 times, dealing X Magic DMG equal to 165% of your Magic ATK per hit. Remove Buffs from the enemy. Apply Silence to the enemy for [5[ turn(s).'
+          },
+          {
+            'rank': 5,
+            'sp': 3,
+            'value': 185,
+            'turns': 2,
+            'text': 'Attack the enemy 3 times, dealing X Magic DMG equal to 185% of your Magic ATK per hit. Remove Buffs from the enemy. Apply Silence to the enemy for [5[ turn(s).'
+          }
+        ],
+        'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillicons/v2/skillicon_12.webp'
+      }
+    ],
+    'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/304/icon.webp',
+    'body': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/304/body.webp',
+    'skillCard': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillart/000304.webp'
+  },
+  {
+    'id': 306,
+    'slug': 'pool-party-scheherazade',
+    'name': 'Pool Party',
+    'nameJp': 'プールパーティ',
+    'nameKr': '풀 파티',
+    'charSlug': 'scheherazade',
+    'charName': 'Scheherazade',
+    'element': 0,
+    'grade': 5,
+    'vaJp': 'Aimi',
+    'talent': {
+      'name': 'Alchemy',
+      'mark': '0',
+      'skills': [
+        {
+          'name': 'Type 1 Alchemy',
+          'desc': 'Lv. 1 limit: You can use Alchemy.',
+          'value': 64,
+          'catalyst': 2,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_8_s.webp'
+        },
+        {
+          'name': 'Type 1 Alchemy',
+          'desc': '',
+          'value': 64,
+          'catalyst': 3,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_8_s.webp'
+        },
+        {
+          'name': 'Type 1 Alchemy',
+          'desc': 'Lv. 3 limit: You can use Alchemy.',
+          'value': 64,
+          'catalyst': 6,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_8_s.webp'
+        },
+        {
+          'name': 'Type 1 Alchemy',
+          'desc': 'Lv. 4 limit: You can use Alchemy.',
+          'value': 64,
+          'catalyst': 12,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_8_s.webp'
+        },
+        {
+          'name': 'Type 1 Alchemy',
+          'desc': '',
+          'value': 64,
+          'catalyst': 20,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_8_s.webp'
+        }
+      ]
+    },
+    'vaKr': 'Yeo Min-jeong',
+    'maxLevel': 5,
+    'skills': [
+      {
+        'name': 'Midsummer Heat Wave',
+        'desc': 'Attack the enemy 5 times, dealing X Magic DMG equal to 30% of your Magic ATK per hit. If this attack results in the enemy having a Chain count of 15 or more, deal &1& Magic DMG equal to &6&% of your Magic ATK instead. Remove Buffs from the enemy.',
+        'cooldown': 5,
+        'tiers': [
+          {
+            'rank': 0,
+            'sp': 3,
+            'value': 30,
+            'turns': null,
+            'text': 'Attack the enemy 5 times, dealing X Magic DMG equal to 30% of your Magic ATK per hit. If this attack results in the enemy having a Chain count of 15 or more, deal &1& Magic DMG equal to &6&% of your Magic ATK instead. Remove Buffs from the enemy.'
+          },
+          {
+            'rank': 1,
+            'sp': 3,
+            'value': 38,
+            'turns': null,
+            'text': 'Attack the enemy 5 times, dealing X Magic DMG equal to 38% of your Magic ATK per hit. If this attack results in the enemy having a Chain count of 15 or more, deal &1& Magic DMG equal to &6&% of your Magic ATK instead. Remove Buffs from the enemy.'
+          },
+          {
+            'rank': 2,
+            'sp': 3,
+            'value': 46,
+            'turns': null,
+            'text': 'Attack the enemy 5 times, dealing X Magic DMG equal to 46% of your Magic ATK per hit. If this attack results in the enemy having a Chain count of 15 or more, deal &1& Magic DMG equal to &6&% of your Magic ATK instead. Remove Buffs from the enemy.'
+          },
+          {
+            'rank': 3,
+            'sp': 2,
+            'value': 46,
+            'turns': null,
+            'text': 'Attack the enemy 5 times, dealing X Magic DMG equal to 46% of your Magic ATK per hit. If this attack results in the enemy having a Chain count of 15 or more, deal &1& Magic DMG equal to &6&% of your Magic ATK instead. Remove Buffs from the enemy.'
+          },
+          {
+            'rank': 4,
+            'sp': 2,
+            'value': 53,
+            'turns': null,
+            'text': 'Attack the enemy 5 times, dealing X Magic DMG equal to 53% of your Magic ATK per hit. If this attack results in the enemy having a Chain count of 15 or more, deal &1& Magic DMG equal to &6&% of your Magic ATK instead. Remove Buffs from the enemy.'
+          },
+          {
+            'rank': 5,
+            'sp': 2,
+            'value': 60,
+            'turns': null,
+            'text': 'Attack the enemy 5 times, dealing X Magic DMG equal to 60% of your Magic ATK per hit. If this attack results in the enemy having a Chain count of 15 or more, deal &1& Magic DMG equal to &6&% of your Magic ATK instead. Remove Buffs from the enemy.'
+          }
+        ],
+        'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillicons/v2/skillicon_88.webp'
+      }
+    ],
+    'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/306/icon.webp',
+    'body': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/306/body.webp',
+    'skillCard': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillart/000306.webp'
+  },
+  {
+    'id': 401,
+    'slug': 'the-sharpshooter-of-the-mist-gray',
+    'name': 'The Sharpshooter of the Mist',
+    'nameJp': '霧の名射手',
+    'nameKr': '안개의 명사수',
+    'charSlug': 'gray',
+    'charName': 'Gray',
+    'element': 2,
+    'grade': 5,
+    'vaJp': 'Kohsuke Toriumi',
+    'talent': {
+      'name': 'Detect Danger',
+      'mark': 'Talent_Buff012_Mark',
+      'skills': [
+        {
+          'name': 'That\'s Dangerous',
+          'desc': 'For 10 seconds, you can spot traps and damage-dealing fiends like Gloom Glutti in a large area around you.',
+          'value': null,
+          'catalyst': 5,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_12_s.webp'
+        },
+        {
+          'name': 'That\'s Dangerous',
+          'desc': '',
+          'value': null,
+          'catalyst': 5,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_12_s.webp'
+        },
+        {
+          'name': 'That\'s Dangerous',
+          'desc': 'For 14 seconds, you can spot traps and damage-dealing fiends like Gloom Glutti in a large area around you.',
+          'value': null,
+          'catalyst': 5,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_12_s.webp'
+        },
+        {
+          'name': 'That\'s Dangerous',
+          'desc': 'For 16 seconds, you can spot traps and damage-dealing fiends like Gloom Glutti in a large area around you.',
+          'value': [
+            0,
+            8320,
+            0,
+            0
+          ],
+          'catalyst': 5,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_12_s.webp'
+        },
+        {
+          'name': 'That\'s Dangerous',
+          'desc': '',
+          'value': [
+            0,
+            8352,
+            0,
+            0
+          ],
+          'catalyst': 5,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_12_s.webp'
+        }
+      ]
+    },
+    'vaKr': 'Choi Gyeol',
+    'maxLevel': 5,
+    'skills': [
+      {
+        'name': 'Triple Shot',
+        'desc': 'Attack the enemy 3 times, dealing X Physical DMG equal to 65% of your ATK per hit. Apply Poison to the enemy for 4 turn(s), dealing X Physical DMG equal to 65% of their ATK.',
+        'cooldown': 5,
+        'tiers': [
+          {
+            'rank': 0,
+            'sp': 3,
+            'value': 65,
+            'turns': 4,
+            'text': 'Attack the enemy 3 times, dealing X Physical DMG equal to 65% of your ATK per hit. Apply Poison to the enemy for 4 turn(s), dealing X Physical DMG equal to 65% of their ATK.'
+          },
+          {
+            'rank': 1,
+            'sp': 3,
+            'value': 65,
+            'turns': 4,
+            'text': 'Attack the enemy 3 times, dealing X Physical DMG equal to 65% of your ATK per hit. Apply Poison to the enemy for 4 turn(s), dealing X Physical DMG equal to 65% of their ATK.'
+          },
+          {
+            'rank': 2,
+            'sp': 3,
+            'value': 65,
+            'turns': 4,
+            'text': 'Attack the enemy 3 times, dealing X Physical DMG equal to 65% of your ATK per hit. Apply Poison to the enemy for 4 turn(s), dealing X Physical DMG equal to 65% of their ATK.'
+          },
+          {
+            'rank': 3,
+            'sp': 2,
+            'value': 65,
+            'turns': 4,
+            'text': 'Attack the enemy 3 times, dealing X Physical DMG equal to 65% of your ATK per hit. Apply Poison to the enemy for 4 turn(s), dealing X Physical DMG equal to 65% of their ATK.'
+          },
+          {
+            'rank': 4,
+            'sp': 2,
+            'value': 65,
+            'turns': 4,
+            'text': 'Attack the enemy 3 times, dealing X Physical DMG equal to 65% of your ATK per hit. Apply Poison to the enemy for 4 turn(s), dealing X Physical DMG equal to 65% of their ATK.'
+          },
+          {
+            'rank': 5,
+            'sp': 2,
+            'value': 65,
+            'turns': 4,
+            'text': 'Attack the enemy 3 times, dealing X Physical DMG equal to 65% of your ATK per hit. Apply Poison to the enemy for 4 turn(s), dealing X Physical DMG equal to 65% of their ATK.'
+          }
+        ],
+        'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillicons/v2/skillicon_13.webp'
+      }
+    ],
+    'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/401/icon.webp',
+    'body': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/401/body.webp',
+    'skillCard': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillart/000401.webp'
+  },
+  {
+    'id': 402,
+    'slug': 'b-rank-manager-gray',
+    'name': 'B-Rank Manager',
+    'nameJp': 'B級社長',
+    'nameKr': 'B급 사장',
+    'charSlug': 'gray',
+    'charName': 'Gray',
+    'element': 2,
+    'grade': 5,
+    'vaJp': 'Kohsuke Toriumi',
+    'talent': {
+      'name': 'Detect Danger',
+      'mark': 'Talent_Buff012_Mark',
+      'skills': [
+        {
+          'name': 'That\'s Dangerous',
+          'desc': 'For 10 seconds, you can spot traps and damage-dealing fiends like Gloom Glutti in a large area around you.',
+          'value': null,
+          'catalyst': 5,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_12_s.webp'
+        },
+        {
+          'name': 'That\'s Dangerous',
+          'desc': '',
+          'value': null,
+          'catalyst': 5,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_12_s.webp'
+        },
+        {
+          'name': 'That\'s Dangerous',
+          'desc': 'For 14 seconds, you can spot traps and damage-dealing fiends like Gloom Glutti in a large area around you.',
+          'value': null,
+          'catalyst': 5,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_12_s.webp'
+        },
+        {
+          'name': 'That\'s Dangerous',
+          'desc': 'For 16 seconds, you can spot traps and damage-dealing fiends like Gloom Glutti in a large area around you.',
+          'value': [
+            0,
+            8320,
+            0,
+            0
+          ],
+          'catalyst': 5,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_12_s.webp'
+        },
+        {
+          'name': 'That\'s Dangerous',
+          'desc': '',
+          'value': [
+            0,
+            8352,
+            0,
+            0
+          ],
+          'catalyst': 5,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_12_s.webp'
+        }
+      ]
+    },
+    'vaKr': 'Choi Gyeol',
+    'maxLevel': 5,
+    'skills': [
+      {
+        'name': 'A kick to shake off obsessive fans',
+        'desc': 'Attack the enemy 5 times, dealing X Physical DMG equal to 35% of your ATK per hit. Reduce enemy DEF by -50% for 2 turn(s).',
+        'cooldown': 5,
+        'tiers': [
+          {
+            'rank': 0,
+            'sp': 3,
+            'value': 35,
+            'turns': 2,
+            'text': 'Attack the enemy 5 times, dealing X Physical DMG equal to 35% of your ATK per hit. Reduce enemy DEF by -50% for 2 turn(s).'
+          },
+          {
+            'rank': 1,
+            'sp': 3,
+            'value': 50,
+            'turns': 2,
+            'text': 'Attack the enemy 5 times, dealing X Physical DMG equal to 50% of your ATK per hit. Reduce enemy DEF by -50% for 2 turn(s).'
+          },
+          {
+            'rank': 2,
+            'sp': 3,
+            'value': 65,
+            'turns': 2,
+            'text': 'Attack the enemy 5 times, dealing X Physical DMG equal to 65% of your ATK per hit. Reduce enemy DEF by -50% for 2 turn(s).'
+          },
+          {
+            'rank': 3,
+            'sp': 2,
+            'value': 65,
+            'turns': 2,
+            'text': 'Attack the enemy 5 times, dealing X Physical DMG equal to 65% of your ATK per hit. Reduce enemy DEF by -50% for 2 turn(s).'
+          },
+          {
+            'rank': 4,
+            'sp': 2,
+            'value': 75,
+            'turns': 2,
+            'text': 'Attack the enemy 5 times, dealing X Physical DMG equal to 75% of your ATK per hit. Reduce enemy DEF by -50% for 2 turn(s).'
+          },
+          {
+            'rank': 5,
+            'sp': 2,
+            'value': 85,
+            'turns': 2,
+            'text': 'Attack the enemy 5 times, dealing X Physical DMG equal to 85% of your ATK per hit. Reduce enemy DEF by -50% for 2 turn(s).'
+          }
+        ],
+        'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillicons/v2/skillicon_14.webp'
+      }
+    ],
+    'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/402/icon.webp',
+    'body': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/402/body.webp',
+    'skillCard': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillart/000402.webp'
+  },
+  {
+    'id': 403,
+    'slug': 'vanguard-gray',
+    'name': 'Vanguard',
+    'nameJp': '先鋒隊',
+    'nameKr': '선봉장',
+    'charSlug': 'gray',
+    'charName': 'Gray',
+    'element': 2,
+    'grade': 5,
+    'vaJp': 'Kohsuke Toriumi',
+    'talent': {
+      'name': 'Detect Danger',
+      'mark': 'Talent_Buff012_Mark',
+      'skills': [
+        {
+          'name': 'That\'s Dangerous',
+          'desc': 'For 10 seconds, you can spot traps and damage-dealing fiends like Gloom Glutti in a large area around you.',
+          'value': null,
+          'catalyst': 5,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_12_s.webp'
+        },
+        {
+          'name': 'That\'s Dangerous',
+          'desc': '',
+          'value': null,
+          'catalyst': 5,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_12_s.webp'
+        },
+        {
+          'name': 'That\'s Dangerous',
+          'desc': 'For 14 seconds, you can spot traps and damage-dealing fiends like Gloom Glutti in a large area around you.',
+          'value': null,
+          'catalyst': 5,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_12_s.webp'
+        },
+        {
+          'name': 'That\'s Dangerous',
+          'desc': 'For 16 seconds, you can spot traps and damage-dealing fiends like Gloom Glutti in a large area around you.',
+          'value': [
+            0,
+            8320,
+            0,
+            0
+          ],
+          'catalyst': 5,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_12_s.webp'
+        },
+        {
+          'name': 'That\'s Dangerous',
+          'desc': '',
+          'value': [
+            0,
+            8352,
+            0,
+            0
+          ],
+          'catalyst': 5,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_12_s.webp'
+        }
+      ]
+    },
+    'vaKr': 'Choi Gyeol',
+    'maxLevel': 5,
+    'skills': [
+      {
+        'name': 'The Flag of Honor',
+        'desc': 'Attack the enemy 5 times, dealing X Physical DMG equal to 25% of your ATK per hit. Apply Poison to the enemy for 4 turn(s), dealing Physical DMG equal to 25% of their Magic ATK.',
+        'cooldown': 5,
+        'tiers': [
+          {
+            'rank': 0,
+            'sp': 5,
+            'value': 25,
+            'turns': 4,
+            'text': 'Attack the enemy 5 times, dealing X Physical DMG equal to 25% of your ATK per hit. Apply Poison to the enemy for 4 turn(s), dealing Physical DMG equal to 25% of their Magic ATK.'
+          },
+          {
+            'rank': 1,
+            'sp': 5,
+            'value': 25,
+            'turns': 4,
+            'text': 'Attack the enemy 5 times, dealing X Physical DMG equal to 25% of your ATK per hit. Apply Poison to the enemy for 4 turn(s), dealing Physical DMG equal to 25% of their Magic ATK.'
+          },
+          {
+            'rank': 2,
+            'sp': 5,
+            'value': 25,
+            'turns': 4,
+            'text': 'Attack the enemy 5 times, dealing X Physical DMG equal to 25% of your ATK per hit. Apply Poison to the enemy for 4 turn(s), dealing Physical DMG equal to 25% of their Magic ATK.'
+          },
+          {
+            'rank': 3,
+            'sp': 4,
+            'value': 25,
+            'turns': 4,
+            'text': 'Attack the enemy 5 times, dealing X Physical DMG equal to 25% of your ATK per hit. Apply Poison to the enemy for 4 turn(s), dealing Physical DMG equal to 25% of their Magic ATK.'
+          },
+          {
+            'rank': 4,
+            'sp': 4,
+            'value': 25,
+            'turns': 4,
+            'text': 'Attack the enemy 5 times, dealing X Physical DMG equal to 25% of your ATK per hit. Apply Poison to the enemy for 4 turn(s), dealing Physical DMG equal to 25% of their Magic ATK.'
+          },
+          {
+            'rank': 5,
+            'sp': 4,
+            'value': 25,
+            'turns': 4,
+            'text': 'Attack the enemy 5 times, dealing X Physical DMG equal to 25% of your ATK per hit. Apply Poison to the enemy for 4 turn(s), dealing Physical DMG equal to 25% of their Magic ATK.'
+          }
+        ],
+        'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillicons/v2/skillicon_15.webp'
+      }
+    ],
+    'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/403/icon.webp',
+    'body': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/403/body.webp',
+    'skillCard': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillart/000403.webp'
+  },
+  {
+    'id': 406,
+    'slug': 'pool-party-gray',
+    'name': 'Pool Party',
+    'nameJp': 'プールパーティ',
+    'nameKr': '풀 파티',
+    'charSlug': 'gray',
+    'charName': 'Gray',
+    'element': 2,
+    'grade': 5,
+    'vaJp': 'Kohsuke Toriumi',
+    'talent': {
+      'name': 'Detect Danger',
+      'mark': 'Talent_Buff012_Mark',
+      'skills': [
+        {
+          'name': 'That\'s Dangerous',
+          'desc': 'For 10 seconds, you can spot traps and damage-dealing fiends like Gloom Glutti in a large area around you.',
+          'value': null,
+          'catalyst': 5,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_12_s.webp'
+        },
+        {
+          'name': 'That\'s Dangerous',
+          'desc': '',
+          'value': null,
+          'catalyst': 5,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_12_s.webp'
+        },
+        {
+          'name': 'That\'s Dangerous',
+          'desc': 'For 14 seconds, you can spot traps and damage-dealing fiends like Gloom Glutti in a large area around you.',
+          'value': null,
+          'catalyst': 5,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_12_s.webp'
+        },
+        {
+          'name': 'That\'s Dangerous',
+          'desc': 'For 16 seconds, you can spot traps and damage-dealing fiends like Gloom Glutti in a large area around you.',
+          'value': [
+            0,
+            8320,
+            0,
+            0
+          ],
+          'catalyst': 5,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_12_s.webp'
+        },
+        {
+          'name': 'That\'s Dangerous',
+          'desc': '',
+          'value': [
+            0,
+            8352,
+            0,
+            0
+          ],
+          'catalyst': 5,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_12_s.webp'
+        }
+      ]
+    },
+    'vaKr': 'Choi Gyeol',
+    'maxLevel': 5,
+    'skills': [
+      {
+        'name': 'Waterbomb Launching!',
+        'desc': 'Your Crit Rate is increased by 50% for 4 turn(s). Your Crit DMG is increased by [6[% for [5[ turn(s). Attack the enemy 3 times, dealing X Physical DMG equal to 100% of your ATK per hit.',
+        'cooldown': 5,
+        'tiers': [
+          {
+            'rank': 0,
+            'sp': 5,
+            'value': 100,
+            'turns': 4,
+            'text': 'Your Crit Rate is increased by 50% for 4 turn(s). Your Crit DMG is increased by [6[% for [5[ turn(s). Attack the enemy 3 times, dealing X Physical DMG equal to 100% of your ATK per hit.'
+          },
+          {
+            'rank': 1,
+            'sp': 5,
+            'value': null,
+            'turns': null,
+            'text': 'Your Crit Rate is increased by X% for X turn(s). Your Crit DMG is increased by [6[% for [5[ turn(s). Attack the enemy 3 times, dealing X Physical DMG equal to X% of your ATK per hit.'
+          },
+          {
+            'rank': 2,
+            'sp': 5,
+            'value': 127,
+            'turns': 4,
+            'text': 'Your Crit Rate is increased by 50% for 4 turn(s). Your Crit DMG is increased by [6[% for [5[ turn(s). Attack the enemy 3 times, dealing X Physical DMG equal to 127% of your ATK per hit.'
+          },
+          {
+            'rank': 3,
+            'sp': 4,
+            'value': null,
+            'turns': null,
+            'text': 'Your Crit Rate is increased by X% for X turn(s). Your Crit DMG is increased by [6[% for [5[ turn(s). Attack the enemy 3 times, dealing X Physical DMG equal to X% of your ATK per hit.'
+          },
+          {
+            'rank': 4,
+            'sp': 4,
+            'value': 139,
+            'turns': 4,
+            'text': 'Your Crit Rate is increased by 50% for 4 turn(s). Your Crit DMG is increased by [6[% for [5[ turn(s). Attack the enemy 3 times, dealing X Physical DMG equal to 139% of your ATK per hit.'
+          },
+          {
+            'rank': 5,
+            'sp': 4,
+            'value': null,
+            'turns': null,
+            'text': 'Your Crit Rate is increased by X% for X turn(s). Your Crit DMG is increased by [6[% for [5[ turn(s). Attack the enemy 3 times, dealing X Physical DMG equal to X% of your ATK per hit.'
+          }
+        ],
+        'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillicons/v2/skillicon_89.webp'
+      }
+    ],
+    'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/406/icon.webp',
+    'body': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/406/body.webp',
+    'skillCard': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillart/000406.webp'
+  },
+  {
+    'id': 501,
+    'slug': 'white-cat-rou',
+    'name': 'White Cat',
+    'nameJp': '白猫',
+    'nameKr': '하얀 고양이',
+    'charSlug': 'rou',
+    'charName': 'Rou',
+    'element': 4,
+    'grade': 5,
+    'vaJp': 'Ayasa Ito',
+    'talent': {
+      'name': 'Stealth',
+      'mark': 'Talent_Buff017_Mark',
+      'skills': [
+        {
+          'name': 'Tiptoe Tiptoe',
+          'desc': '',
+          'value': [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          'catalyst': 5,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_17_s.webp'
+        },
+        {
+          'name': 'Tiptoe Tiptoe',
+          'desc': 'Moves for 12 seconds while in Stealth mode.',
+          'value': [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          'catalyst': 5,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_17_s.webp'
+        },
+        {
+          'name': 'Tiptoe Tiptoe',
+          'desc': 'Moves for 14 seconds while in Stealth mode.',
+          'value': [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          'catalyst': 5,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_17_s.webp'
+        },
+        {
+          'name': 'Tiptoe Tiptoe',
+          'desc': '',
+          'value': null,
+          'catalyst': 5,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_17_s.webp'
+        },
+        {
+          'name': 'Tiptoe Tiptoe',
+          'desc': 'Moves for 24 seconds while in Stealth mode.',
+          'value': null,
+          'catalyst': 5,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_17_s.webp'
+        }
+      ]
+    },
+    'vaKr': 'Kim Hyeon-ji',
+    'maxLevel': 5,
+    'skills': [
+      {
+        'name': 'Half Moon Kick',
+        'desc': 'For 2 turn(s), you have a X% chance to evade enemy attacks. Each successful Evasion reduces the chance of evading future attacks by X%. Deal 1 Physical DMG to the enemy and knock them back 3 tiles backward. Any enemies they collide with take Physical DMG equal to X% of the knocked-back enemy\'s Max HP. Apply Bleed to the enemy for [5[ turn(s), dealing [1[ Physical DMG equal to [6[% of your ATK.',
+        'cooldown': 3,
+        'tiers': [
+          {
+            'rank': 0,
+            'sp': 2,
+            'value': null,
+            'turns': 2,
+            'text': 'For 2 turn(s), you have a X% chance to evade enemy attacks. Each successful Evasion reduces the chance of evading future attacks by X%. Deal 1 Physical DMG to the enemy and knock them back 3 tiles backward. Any enemies they collide with take Physical DMG equal to X% of the knocked-back enemy\'s Max HP. Apply Bleed to the enemy for [5[ turn(s), dealing [1[ Physical DMG equal to [6[% of your ATK.'
+          },
+          {
+            'rank': 1,
+            'sp': 2,
+            'value': null,
+            'turns': 2,
+            'text': 'For 2 turn(s), you have a X% chance to evade enemy attacks. Each successful Evasion reduces the chance of evading future attacks by X%. Deal 1 Physical DMG to the enemy and knock them back 3 tiles backward. Any enemies they collide with take Physical DMG equal to X% of the knocked-back enemy\'s Max HP. Apply Bleed to the enemy for [5[ turn(s), dealing [1[ Physical DMG equal to [6[% of your ATK.'
+          },
+          {
+            'rank': 2,
+            'sp': 2,
+            'value': null,
+            'turns': 2,
+            'text': 'For 2 turn(s), you have a X% chance to evade enemy attacks. Each successful Evasion reduces the chance of evading future attacks by X%. Deal 1 Physical DMG to the enemy and knock them back 3 tiles backward. Any enemies they collide with take Physical DMG equal to X% of the knocked-back enemy\'s Max HP. Apply Bleed to the enemy for [5[ turn(s), dealing [1[ Physical DMG equal to [6[% of your ATK.'
+          },
+          {
+            'rank': 3,
+            'sp': 1,
+            'value': null,
+            'turns': null,
+            'text': 'For X turn(s), you have a X% chance to evade enemy attacks. Each successful Evasion reduces the chance of evading future attacks by X%. Deal 1 Physical DMG to the enemy and knock them back 3 tiles backward. Any enemies they collide with take Physical DMG equal to X% of the knocked-back enemy\'s Max HP. Apply Bleed to the enemy for [5[ turn(s), dealing [1[ Physical DMG equal to [6[% of your ATK.'
+          },
+          {
+            'rank': 4,
+            'sp': 1,
+            'value': null,
+            'turns': 2,
+            'text': 'For 2 turn(s), you have a X% chance to evade enemy attacks. Each successful Evasion reduces the chance of evading future attacks by X%. Deal 1 Physical DMG to the enemy and knock them back 3 tiles backward. Any enemies they collide with take Physical DMG equal to X% of the knocked-back enemy\'s Max HP. Apply Bleed to the enemy for [5[ turn(s), dealing [1[ Physical DMG equal to [6[% of your ATK.'
+          },
+          {
+            'rank': 5,
+            'sp': 1,
+            'value': null,
+            'turns': 2,
+            'text': 'For 2 turn(s), you have a X% chance to evade enemy attacks. Each successful Evasion reduces the chance of evading future attacks by X%. Deal 1 Physical DMG to the enemy and knock them back 3 tiles backward. Any enemies they collide with take Physical DMG equal to X% of the knocked-back enemy\'s Max HP. Apply Bleed to the enemy for [5[ turn(s), dealing [1[ Physical DMG equal to [6[% of your ATK.'
+          }
+        ],
+        'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillicons/v2/skillicon_16.webp'
+      }
+    ],
+    'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/501/icon.webp',
+    'body': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/501/body.webp',
+    'skillCard': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillart/000501.webp'
+  },
+  {
+    'id': 502,
+    'slug': 'red-riding-hood-rou',
+    'name': 'Red Riding Hood',
+    'nameJp': '赤ずきん',
+    'nameKr': '빨간모자',
+    'charSlug': 'rou',
+    'charName': 'Rou',
+    'element': 4,
+    'grade': 5,
+    'vaJp': 'Ayasa Ito',
+    'talent': {
+      'name': 'Stealth',
+      'mark': 'Talent_Buff017_Mark',
+      'skills': [
+        {
+          'name': 'Tiptoe Tiptoe',
+          'desc': '',
+          'value': [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          'catalyst': 5,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_17_s.webp'
+        },
+        {
+          'name': 'Tiptoe Tiptoe',
+          'desc': 'Moves for 12 seconds while in Stealth mode.',
+          'value': [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          'catalyst': 5,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_17_s.webp'
+        },
+        {
+          'name': 'Tiptoe Tiptoe',
+          'desc': 'Moves for 14 seconds while in Stealth mode.',
+          'value': [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          'catalyst': 5,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_17_s.webp'
+        },
+        {
+          'name': 'Tiptoe Tiptoe',
+          'desc': '',
+          'value': null,
+          'catalyst': 5,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_17_s.webp'
+        },
+        {
+          'name': 'Tiptoe Tiptoe',
+          'desc': 'Moves for 24 seconds while in Stealth mode.',
+          'value': null,
+          'catalyst': 5,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_17_s.webp'
+        }
+      ]
+    },
+    'vaKr': 'Kim Hyeon-ji',
+    'maxLevel': 5,
+    'skills': [
+      {
+        'name': 'It\'s Snack Time!',
+        'desc': 'Ally Crit Rate is increased by 150% for 6 turn(s). Ally Crit DMG is increased by 150% for 6 turn(s). Apply an Energy Guard ([1[) to allies for [5[ turn(s), equal to [6[% of your Max HP.',
+        'cooldown': 5,
+        'tiers': [
+          {
+            'rank': 0,
+            'sp': 4,
+            'value': 30,
+            'turns': 6,
+            'text': 'Ally Crit Rate is increased by 150% for 6 turn(s). Ally Crit DMG is increased by 150% for 6 turn(s). Apply an Energy Guard ([1[) to allies for [5[ turn(s), equal to [6[% of your Max HP.'
+          },
+          {
+            'rank': 1,
+            'sp': 4,
+            'value': 40,
+            'turns': 6,
+            'text': 'Ally Crit Rate is increased by 150% for 6 turn(s). Ally Crit DMG is increased by 150% for 6 turn(s). Apply an Energy Guard ([1[) to allies for [5[ turn(s), equal to [6[% of your Max HP.'
+          },
+          {
+            'rank': 2,
+            'sp': 4,
+            'value': 50,
+            'turns': 6,
+            'text': 'Ally Crit Rate is increased by 150% for 6 turn(s). Ally Crit DMG is increased by 150% for 6 turn(s). Apply an Energy Guard ([1[) to allies for [5[ turn(s), equal to [6[% of your Max HP.'
+          },
+          {
+            'rank': 3,
+            'sp': 3,
+            'value': null,
+            'turns': null,
+            'text': 'Ally Crit Rate is increased by X% for X turn(s). Ally Crit DMG is increased by X% for X turn(s). Apply an Energy Guard ([1[) to allies for [5[ turn(s), equal to [6[% of your Max HP.'
+          },
+          {
+            'rank': 4,
+            'sp': 3,
+            'value': 50,
+            'turns': 6,
+            'text': 'Ally Crit Rate is increased by 225% for 6 turn(s). Ally Crit DMG is increased by 225% for 6 turn(s). Apply an Energy Guard ([1[) to allies for [5[ turn(s), equal to [6[% of your Max HP.'
+          },
+          {
+            'rank': 5,
+            'sp': 3,
+            'value': 50,
+            'turns': 6,
+            'text': 'Ally Crit Rate is increased by 300% for 6 turn(s). Ally Crit DMG is increased by 300% for 6 turn(s). Apply an Energy Guard ([1[) to allies for [5[ turn(s), equal to [6[% of your Max HP.'
+          }
+        ],
+        'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillicons/v2/skillicon_95.webp'
+      }
+    ],
+    'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/502/icon.webp',
+    'body': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/502/body.webp',
+    'skillCard': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillart/000502.webp'
+  },
+  {
+    'id': 504,
+    'slug': 'nature-s-claw-rou',
+    'name': 'Nature\'s Claw',
+    'nameJp': '自然の爪',
+    'nameKr': '자연의 발톱',
+    'charSlug': 'rou',
+    'charName': 'Rou',
+    'element': 4,
+    'grade': 5,
+    'vaJp': 'Ayasa Ito',
+    'talent': {
+      'name': 'Stealth',
+      'mark': 'Talent_Buff017_Mark',
+      'skills': [
+        {
+          'name': 'Tiptoe Tiptoe',
+          'desc': '',
+          'value': [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          'catalyst': 5,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_17_s.webp'
+        },
+        {
+          'name': 'Tiptoe Tiptoe',
+          'desc': 'Moves for 12 seconds while in Stealth mode.',
+          'value': [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          'catalyst': 5,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_17_s.webp'
+        },
+        {
+          'name': 'Tiptoe Tiptoe',
+          'desc': 'Moves for 14 seconds while in Stealth mode.',
+          'value': [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          'catalyst': 5,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_17_s.webp'
+        },
+        {
+          'name': 'Tiptoe Tiptoe',
+          'desc': '',
+          'value': null,
+          'catalyst': 5,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_17_s.webp'
+        },
+        {
+          'name': 'Tiptoe Tiptoe',
+          'desc': 'Moves for 24 seconds while in Stealth mode.',
+          'value': null,
+          'catalyst': 5,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_17_s.webp'
+        }
+      ]
+    },
+    'vaKr': 'Kim Hyeon-ji',
+    'maxLevel': 5,
+    'skills': [
+      {
+        'name': 'Let\'s Play Hide-and-seek!',
+        'desc': 'For 2 turn(s), you have a X% chance to evade enemy attacks. Each successful Evasion reduces the chance of evading future attacks by X%. Attack the enemy 5 times, dealing Physical DMG equal to X% of their Max HP per hit.',
+        'cooldown': 5,
+        'tiers': [
+          {
+            'rank': 0,
+            'sp': 5,
+            'value': 14,
+            'turns': 2,
+            'text': 'For 2 turn(s), you have a X% chance to evade enemy attacks. Each successful Evasion reduces the chance of evading future attacks by X%. Attack the enemy 5 times, dealing Physical DMG equal to X% of their Max HP per hit.'
+          },
+          {
+            'rank': 1,
+            'sp': 5,
+            'value': 17,
+            'turns': 2,
+            'text': 'For 2 turn(s), you have a X% chance to evade enemy attacks. Each successful Evasion reduces the chance of evading future attacks by X%. Attack the enemy 5 times, dealing Physical DMG equal to X% of their Max HP per hit.'
+          },
+          {
+            'rank': 2,
+            'sp': 5,
+            'value': 19,
+            'turns': 2,
+            'text': 'For 2 turn(s), you have a X% chance to evade enemy attacks. Each successful Evasion reduces the chance of evading future attacks by X%. Attack the enemy 5 times, dealing Physical DMG equal to X% of their Max HP per hit.'
+          },
+          {
+            'rank': 3,
+            'sp': 4,
+            'value': 19,
+            'turns': 2,
+            'text': 'For 2 turn(s), you have a X% chance to evade enemy attacks. Each successful Evasion reduces the chance of evading future attacks by X%. Attack the enemy 5 times, dealing Physical DMG equal to X% of their Max HP per hit.'
+          },
+          {
+            'rank': 4,
+            'sp': 4,
+            'value': 21,
+            'turns': 2,
+            'text': 'For 2 turn(s), you have a X% chance to evade enemy attacks. Each successful Evasion reduces the chance of evading future attacks by X%. Attack the enemy 5 times, dealing Physical DMG equal to X% of their Max HP per hit.'
+          },
+          {
+            'rank': 5,
+            'sp': 4,
+            'value': 23,
+            'turns': 2,
+            'text': 'For 2 turn(s), you have a X% chance to evade enemy attacks. Each successful Evasion reduces the chance of evading future attacks by X%. Attack the enemy 5 times, dealing Physical DMG equal to X% of their Max HP per hit.'
+          }
+        ],
+        'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillicons/v2/skillicon_17.webp'
+      }
+    ],
+    'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/504/icon.webp',
+    'body': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/504/body.webp',
+    'skillCard': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillart/000504.webp'
+  },
+  {
+    'id': 506,
+    'slug': 'stray-cat-rou',
+    'name': 'Stray Cat',
+    'nameJp': 'ストレイ・キャット',
+    'nameKr': '스트레이 캣',
+    'charSlug': 'rou',
+    'charName': 'Rou',
+    'element': 4,
+    'grade': 5,
+    'vaJp': 'Ayasa Ito',
+    'talent': {
+      'name': 'Stealth',
+      'mark': 'Talent_Buff017_Mark',
+      'skills': [
+        {
+          'name': 'Tiptoe Tiptoe',
+          'desc': '',
+          'value': [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          'catalyst': 5,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_17_s.webp'
+        },
+        {
+          'name': 'Tiptoe Tiptoe',
+          'desc': 'Moves for 12 seconds while in Stealth mode.',
+          'value': [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          'catalyst': 5,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_17_s.webp'
+        },
+        {
+          'name': 'Tiptoe Tiptoe',
+          'desc': 'Moves for 14 seconds while in Stealth mode.',
+          'value': [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          'catalyst': 5,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_17_s.webp'
+        },
+        {
+          'name': 'Tiptoe Tiptoe',
+          'desc': '',
+          'value': null,
+          'catalyst': 5,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_17_s.webp'
+        },
+        {
+          'name': 'Tiptoe Tiptoe',
+          'desc': 'Moves for 24 seconds while in Stealth mode.',
+          'value': null,
+          'catalyst': 5,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_17_s.webp'
+        }
+      ]
+    },
+    'vaKr': 'Kim Hyeon-ji',
+    'maxLevel': 5,
+    'skills': [
+      {
+        'name': 'Terra Burst',
+        'desc': 'Your Crit Rate is increased by 50% for 1 turn(s). Deal X Physical DMG to the enemy equal to 350% of your ATK.',
+        'cooldown': 5,
+        'tiers': [
+          {
+            'rank': 0,
+            'sp': 5,
+            'value': 350,
+            'turns': 1,
+            'text': 'Your Crit Rate is increased by 50% for 1 turn(s). Deal X Physical DMG to the enemy equal to 350% of your ATK.'
+          },
+          {
+            'rank': 1,
+            'sp': 5,
+            'value': 400,
+            'turns': 1,
+            'text': 'Your Crit Rate is increased by 50% for 1 turn(s). Deal X Physical DMG to the enemy equal to 400% of your ATK.'
+          },
+          {
+            'rank': 2,
+            'sp': 5,
+            'value': 450,
+            'turns': 1,
+            'text': 'Your Crit Rate is increased by 50% for 1 turn(s). Deal X Physical DMG to the enemy equal to 450% of your ATK.'
+          },
+          {
+            'rank': 3,
+            'sp': 5,
+            'value': 500,
+            'turns': 1,
+            'text': 'Your Crit Rate is increased by 50% for 1 turn(s). Deal X Physical DMG to the enemy equal to 500% of your ATK.'
+          },
+          {
+            'rank': 4,
+            'sp': 5,
+            'value': 550,
+            'turns': 1,
+            'text': 'Your Crit Rate is increased by 50% for 1 turn(s). Deal X Physical DMG to the enemy equal to 550% of your ATK.'
+          },
+          {
+            'rank': 5,
+            'sp': 5,
+            'value': 600,
+            'turns': 1,
+            'text': 'Your Crit Rate is increased by 50% for 1 turn(s). Deal X Physical DMG to the enemy equal to 600% of your ATK.'
+          }
+        ],
+        'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillicons/v2/skillicon_103.webp'
+      }
+    ],
+    'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/506/icon.webp',
+    'body': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/506/body.webp',
+    'skillCard': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillart/000506.webp'
+  },
+  {
+    'id': 601,
+    'slug': 'the-fiend-scholar-olstein',
+    'name': 'The Fiend Scholar',
+    'nameJp': '魔物学者',
+    'nameKr': '마물학자',
+    'charSlug': 'olstein',
+    'charName': 'Olstein',
+    'element': 2,
+    'grade': 5,
+    'vaJp': 'Kentaro Kumagai',
+    'talent': {
+      'name': 'Dispatch',
+      'mark': '0',
+      'skills': [
+        {
+          'name': 'Repayment of the Cat',
+          'desc': 'You can dispatch Ratshu, the Ruler of Rats to fetch you useful items. The dispatch ends at 9:00 AM (KST).',
+          'value': null,
+          'catalyst': 5,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_18_s.webp'
+        },
+        {
+          'name': 'Repayment of the Cat',
+          'desc': '',
+          'value': [
+            0,
+            64,
+            0,
+            0,
+            0,
+            0
+          ],
+          'catalyst': 5,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_18_s.webp'
+        },
+        {
+          'name': 'Repayment of the Cat',
+          'desc': 'You can dispatch Ratshu, the Ruler of Rats and Catshu, the Guardian of the Cheese to fetch you a bit more useful items. The dispatch ends at 9:00 AM (KST).',
+          'value': [
+            0,
+            64,
+            0,
+            0,
+            0
+          ],
+          'catalyst': 5,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_18_s.webp'
+        },
+        {
+          'name': 'Repayment of the Cat',
+          'desc': '',
+          'value': [
+            0,
+            64,
+            0,
+            0,
+            0
+          ],
+          'catalyst': 5,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_18_s.webp'
+        },
+        {
+          'name': 'Repayment of the Cat',
+          'desc': 'You can dispatch Ratshu, the Ruler of Rats, Catshu, the Guardian of the Cheese, and Matshu, the Pursuer of Sparrows to fetch you very useful items. The dispatch ends at 9:00 AM (KST).',
+          'value': null,
+          'catalyst': 5,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_18_s.webp'
+        }
+      ]
+    },
+    'vaKr': 'Lee Ho-san',
+    'maxLevel': 5,
+    'skills': [
+      {
+        'name': 'Silent Fury',
+        'desc': 'Restore X SP to allies and reduce the enemy\'s SP by X each time an attack hits an enemy. Deal X Magic DMG to the enemy equal to X% of your Magic ATK. Apply Silence to the enemy for [5[ turn(s).',
+        'cooldown': 5,
+        'tiers': [
+          {
+            'rank': 0,
+            'sp': 4,
+            'value': 1,
+            'turns': 4,
+            'text': 'Restore X SP to allies and reduce the enemy\'s SP by X each time an attack hits an enemy. Deal X Magic DMG to the enemy equal to X% of your Magic ATK. Apply Silence to the enemy for [5[ turn(s).'
+          },
+          {
+            'rank': 1,
+            'sp': 4,
+            'value': 2,
+            'turns': 4,
+            'text': 'Restore X SP to allies and reduce the enemy\'s SP by X each time an attack hits an enemy. Deal X Magic DMG to the enemy equal to X% of your Magic ATK. Apply Silence to the enemy for [5[ turn(s).'
+          },
+          {
+            'rank': 2,
+            'sp': 4,
+            'value': 3,
+            'turns': 4,
+            'text': 'Restore X SP to allies and reduce the enemy\'s SP by X each time an attack hits an enemy. Deal X Magic DMG to the enemy equal to X% of your Magic ATK. Apply Silence to the enemy for [5[ turn(s).'
+          },
+          {
+            'rank': 3,
+            'sp': 3,
+            'value': 3,
+            'turns': 4,
+            'text': 'Restore X SP to allies and reduce the enemy\'s SP by X each time an attack hits an enemy. Deal X Magic DMG to the enemy equal to X% of your Magic ATK. Apply Silence to the enemy for [5[ turn(s).'
+          },
+          {
+            'rank': 4,
+            'sp': 3,
+            'value': 4,
+            'turns': 4,
+            'text': 'Restore X SP to allies and reduce the enemy\'s SP by X each time an attack hits an enemy. Deal X Magic DMG to the enemy equal to X% of your Magic ATK. Apply Silence to the enemy for [5[ turn(s).'
+          },
+          {
+            'rank': 5,
+            'sp': 3,
+            'value': null,
+            'turns': null,
+            'text': 'Restore X SP to allies and reduce the enemy\'s SP by X each time an attack hits an enemy. Deal X Magic DMG to the enemy equal to X% of your Magic ATK. Apply Silence to the enemy for [5[ turn(s).'
+          }
+        ],
+        'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillicons/v2/skillicon_18.webp'
+      }
+    ],
+    'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/601/icon.webp',
+    'body': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/601/body.webp',
+    'skillCard': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillart/000601.webp'
+  },
+  {
+    'id': 604,
+    'slug': 'sage-of-blue-clouds-olstein',
+    'name': 'Sage of Blue Clouds',
+    'nameJp': '青雲の道士',
+    'nameKr': '청운의 도사',
+    'charSlug': 'olstein',
+    'charName': 'Olstein',
+    'element': 2,
+    'grade': 5,
+    'vaJp': 'Kentaro Kumagai',
+    'talent': {
+      'name': 'Dispatch',
+      'mark': '0',
+      'skills': [
+        {
+          'name': 'Repayment of the Cat',
+          'desc': 'You can dispatch Ratshu, the Ruler of Rats to fetch you useful items. The dispatch ends at 9:00 AM (KST).',
+          'value': null,
+          'catalyst': 5,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_18_s.webp'
+        },
+        {
+          'name': 'Repayment of the Cat',
+          'desc': '',
+          'value': [
+            0,
+            64,
+            0,
+            0,
+            0,
+            0
+          ],
+          'catalyst': 5,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_18_s.webp'
+        },
+        {
+          'name': 'Repayment of the Cat',
+          'desc': 'You can dispatch Ratshu, the Ruler of Rats and Catshu, the Guardian of the Cheese to fetch you a bit more useful items. The dispatch ends at 9:00 AM (KST).',
+          'value': [
+            0,
+            64,
+            0,
+            0,
+            0
+          ],
+          'catalyst': 5,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_18_s.webp'
+        },
+        {
+          'name': 'Repayment of the Cat',
+          'desc': '',
+          'value': [
+            0,
+            64,
+            0,
+            0,
+            0
+          ],
+          'catalyst': 5,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_18_s.webp'
+        },
+        {
+          'name': 'Repayment of the Cat',
+          'desc': 'You can dispatch Ratshu, the Ruler of Rats, Catshu, the Guardian of the Cheese, and Matshu, the Pursuer of Sparrows to fetch you very useful items. The dispatch ends at 9:00 AM (KST).',
+          'value': null,
+          'catalyst': 5,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_18_s.webp'
+        }
+      ]
+    },
+    'vaKr': 'Lee Ho-san',
+    'maxLevel': 5,
+    'skills': [
+      {
+        'name': 'The Arrival of the Cloud Dragon',
+        'desc': 'Attack the enemy 7 times, dealing X Magic DMG equal to 25% of your Magic ATK per hit. Remove Stat Reinforcement effects from the enemy. Reduce the enemy\'s ATK by [6[% for [5[ turn(s). If the enemy is a Magic Type, reduce their Magic ATK by =6=% for =5= turn(s) instead.',
+        'cooldown': 5,
+        'tiers': [
+          {
+            'rank': 0,
+            'sp': 2,
+            'value': 25,
+            'turns': 2,
+            'text': 'Attack the enemy 7 times, dealing X Magic DMG equal to 25% of your Magic ATK per hit. Remove Stat Reinforcement effects from the enemy. Reduce the enemy\'s ATK by [6[% for [5[ turn(s). If the enemy is a Magic Type, reduce their Magic ATK by =6=% for =5= turn(s) instead.'
+          },
+          {
+            'rank': 1,
+            'sp': 2,
+            'value': null,
+            'turns': null,
+            'text': 'Attack the enemy 7 times, dealing X Magic DMG equal to X% of your Magic ATK per hit. Remove Stat Reinforcement effects from the enemy. Reduce the enemy\'s ATK by [6[% for [5[ turn(s). If the enemy is a Magic Type, reduce their Magic ATK by =6=% for =5= turn(s) instead.'
+          },
+          {
+            'rank': 2,
+            'sp': 2,
+            'value': 25,
+            'turns': 2,
+            'text': 'Attack the enemy 7 times, dealing X Magic DMG equal to 25% of your Magic ATK per hit. Remove Stat Reinforcement effects from the enemy. Reduce the enemy\'s ATK by [6[% for [5[ turn(s). If the enemy is a Magic Type, reduce their Magic ATK by =6=% for =5= turn(s) instead.'
+          },
+          {
+            'rank': 3,
+            'sp': 1,
+            'value': 25,
+            'turns': 2,
+            'text': 'Attack the enemy 7 times, dealing X Magic DMG equal to 25% of your Magic ATK per hit. Remove Stat Reinforcement effects from the enemy. Reduce the enemy\'s ATK by [6[% for [5[ turn(s). If the enemy is a Magic Type, reduce their Magic ATK by =6=% for =5= turn(s) instead.'
+          },
+          {
+            'rank': 4,
+            'sp': 1,
+            'value': 25,
+            'turns': 2,
+            'text': 'Attack the enemy 7 times, dealing X Magic DMG equal to 25% of your Magic ATK per hit. Remove Stat Reinforcement effects from the enemy. Reduce the enemy\'s ATK by [6[% for [5[ turn(s). If the enemy is a Magic Type, reduce their Magic ATK by =6=% for =5= turn(s) instead.'
+          },
+          {
+            'rank': 5,
+            'sp': 1,
+            'value': 25,
+            'turns': 2,
+            'text': 'Attack the enemy 7 times, dealing X Magic DMG equal to 25% of your Magic ATK per hit. Remove Stat Reinforcement effects from the enemy. Reduce the enemy\'s ATK by [6[% for [5[ turn(s). If the enemy is a Magic Type, reduce their Magic ATK by =6=% for =5= turn(s) instead.'
+          }
+        ],
+        'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillicons/v2/skillicon_19.webp'
+      }
+    ],
+    'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/604/icon.webp',
+    'body': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/604/body.webp',
+    'skillCard': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillart/000604.webp'
+  },
+  {
+    'id': 701,
+    'slug': 'dimension-witch-eclipse',
+    'name': 'Dimension Witch',
+    'nameJp': '空間の魔女',
+    'nameKr': '공간의 마녀',
+    'charSlug': 'eclipse',
+    'charName': 'Eclipse',
+    'element': 4,
+    'grade': 5,
+    'vaJp': 'Mikoi Sasaki',
+    'talent': {
+      'name': '',
+      'mark': '0',
+      'skills': [
+        {
+          'name': '',
+          'desc': 'You can create a Magic Circle and travel only to other Magic Circles in a Safe Zone.',
+          'value': [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          'catalyst': 20,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_15_s.webp'
+        },
+        {
+          'name': '',
+          'desc': 'You can create a Magic Circle and travel only to other Magic Circles in a Safe Zone.',
+          'value': [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          'catalyst': 15,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_15_s.webp'
+        },
+        {
+          'name': '',
+          'desc': 'You can create a Magic Circle and travel only to other Magic Circles in a Safe Zone.',
+          'value': [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          'catalyst': 5,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_15_s.webp'
+        }
+      ]
+    },
+    'vaKr': 'Jeon Sook-kyung',
+    'maxLevel': 5,
+    'skills': [
+      {
+        'name': 'Terra Drain',
+        'desc': 'Heal yourself for [1[ equal to [6[% of your Max HP. Reduce the enemy\'s SP by X each time an attack hits an enemy. Attack the enemy 3 times, dealing X Magic DMG equal to X% of your Magic ATK per hit.',
+        'cooldown': 5,
+        'tiers': [
+          {
+            'rank': 0,
+            'sp': 4,
+            'value': null,
+            'turns': null,
+            'text': 'Heal yourself for [1[ equal to [6[% of your Max HP. Reduce the enemy\'s SP by X each time an attack hits an enemy. Attack the enemy 3 times, dealing X Magic DMG equal to X% of your Magic ATK per hit.'
+          },
+          {
+            'rank': 1,
+            'sp': 4,
+            'value': null,
+            'turns': null,
+            'text': 'Heal yourself for [1[ equal to [6[% of your Max HP. Reduce the enemy\'s SP by X each time an attack hits an enemy. Attack the enemy 3 times, dealing X Magic DMG equal to X% of your Magic ATK per hit.'
+          },
+          {
+            'rank': 2,
+            'sp': 4,
+            'value': null,
+            'turns': null,
+            'text': 'Heal yourself for [1[ equal to [6[% of your Max HP. Reduce the enemy\'s SP by X each time an attack hits an enemy. Attack the enemy 3 times, dealing X Magic DMG equal to X% of your Magic ATK per hit.'
+          },
+          {
+            'rank': 3,
+            'sp': 3,
+            'value': null,
+            'turns': null,
+            'text': 'Heal yourself for [1[ equal to [6[% of your Max HP. Reduce the enemy\'s SP by X each time an attack hits an enemy. Attack the enemy 3 times, dealing X Magic DMG equal to X% of your Magic ATK per hit.'
+          },
+          {
+            'rank': 4,
+            'sp': 3,
+            'value': null,
+            'turns': null,
+            'text': 'Heal yourself for [1[ equal to [6[% of your Max HP. Reduce the enemy\'s SP by X each time an attack hits an enemy. Attack the enemy 3 times, dealing X Magic DMG equal to X% of your Magic ATK per hit.'
+          },
+          {
+            'rank': 5,
+            'sp': 3,
+            'value': null,
+            'turns': null,
+            'text': 'Heal yourself for [1[ equal to [6[% of your Max HP. Reduce the enemy\'s SP by X each time an attack hits an enemy. Attack the enemy 3 times, dealing X Magic DMG equal to X% of your Magic ATK per hit.'
+          }
+        ],
+        'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillicons/v2/skillicon_20.webp'
+      }
+    ],
+    'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/701/icon.webp',
+    'body': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/701/body.webp',
+    'skillCard': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillart/000701.webp'
+  },
+  {
+    'id': 706,
+    'slug': 'nightmare-bunny-eclipse',
+    'name': 'Nightmare Bunny',
+    'nameJp': 'ナイトメア・バニー',
+    'nameKr': '나이트메어 바니',
+    'charSlug': 'eclipse',
+    'charName': 'Eclipse',
+    'element': 4,
+    'grade': 5,
+    'vaJp': 'Mikoi Sasaki',
+    'talent': {
+      'name': '',
+      'mark': '0',
+      'skills': [
+        {
+          'name': '',
+          'desc': 'You can create a Magic Circle and travel only to other Magic Circles in a Safe Zone.',
+          'value': [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          'catalyst': 20,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_15_s.webp'
+        },
+        {
+          'name': '',
+          'desc': 'You can create a Magic Circle and travel only to other Magic Circles in a Safe Zone.',
+          'value': [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          'catalyst': 15,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_15_s.webp'
+        },
+        {
+          'name': '',
+          'desc': 'You can create a Magic Circle and travel only to other Magic Circles in a Safe Zone.',
+          'value': [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          'catalyst': 5,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_15_s.webp'
+        }
+      ]
+    },
+    'vaKr': 'Jeon Sook-kyung',
+    'maxLevel': 5,
+    'skills': [
+      {
+        'name': 'Dream Eater',
+        'desc': 'Restore X SP to allies and reduce the enemy\'s SP by X each time an attack hits an enemy. Reduce enemy Magic Resistance by X% for X turn(s). Attack the enemy 3 times, dealing [1[ Magic DMG equal to [6[% of your Magic ATK per hit.',
+        'cooldown': 5,
+        'tiers': [
+          {
+            'rank': 0,
+            'sp': 3,
+            'value': null,
+            'turns': null,
+            'text': 'Restore X SP to allies and reduce the enemy\'s SP by X each time an attack hits an enemy. Reduce enemy Magic Resistance by X% for X turn(s). Attack the enemy 3 times, dealing [1[ Magic DMG equal to [6[% of your Magic ATK per hit.'
+          },
+          {
+            'rank': 1,
+            'sp': 3,
+            'value': null,
+            'turns': null,
+            'text': 'Restore X SP to allies and reduce the enemy\'s SP by X each time an attack hits an enemy. Reduce enemy Magic Resistance by X% for X turn(s). Attack the enemy 3 times, dealing [1[ Magic DMG equal to [6[% of your Magic ATK per hit.'
+          },
+          {
+            'rank': 2,
+            'sp': 3,
+            'value': 1,
+            'turns': 4,
+            'text': 'Restore X SP to allies and reduce the enemy\'s SP by X each time an attack hits an enemy. Reduce enemy Magic Resistance by -15% for 4 turn(s). Attack the enemy 3 times, dealing [1[ Magic DMG equal to [6[% of your Magic ATK per hit.'
+          },
+          {
+            'rank': 3,
+            'sp': 3,
+            'value': 1,
+            'turns': 4,
+            'text': 'Restore X SP to allies and reduce the enemy\'s SP by X each time an attack hits an enemy. Reduce enemy Magic Resistance by -15% for 4 turn(s). Attack the enemy 3 times, dealing [1[ Magic DMG equal to [6[% of your Magic ATK per hit.'
+          },
+          {
+            'rank': 4,
+            'sp': 3,
+            'value': 1,
+            'turns': 4,
+            'text': 'Restore X SP to allies and reduce the enemy\'s SP by X each time an attack hits an enemy. Reduce enemy Magic Resistance by -15% for 4 turn(s). Attack the enemy 3 times, dealing [1[ Magic DMG equal to [6[% of your Magic ATK per hit.'
+          },
+          {
+            'rank': 5,
+            'sp': 3,
+            'value': null,
+            'turns': null,
+            'text': 'Restore X SP to allies and reduce the enemy\'s SP by X each time an attack hits an enemy. Reduce enemy Magic Resistance by X% for X turn(s). Attack the enemy 3 times, dealing [1[ Magic DMG equal to [6[% of your Magic ATK per hit.'
+          }
+        ],
+        'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillicons/v2/skillicon_102.webp'
+      }
+    ],
+    'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/706/icon.webp',
+    'body': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/706/body.webp',
+    'skillCard': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillart/000706.webp'
+  },
+  {
+    'id': 707,
+    'slug': 'beach-vacation-eclipse',
+    'name': 'Beach Vacation',
+    'nameJp': 'ビーチバカンス',
+    'nameKr': '비치 바캉스',
+    'charSlug': 'eclipse',
+    'charName': 'Eclipse',
+    'element': 4,
+    'grade': 5,
+    'vaJp': 'Mikoi Sasaki',
+    'talent': {
+      'name': '',
+      'mark': '0',
+      'skills': [
+        {
+          'name': '',
+          'desc': 'You can create a Magic Circle and travel only to other Magic Circles in a Safe Zone.',
+          'value': [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          'catalyst': 20,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_15_s.webp'
+        },
+        {
+          'name': '',
+          'desc': 'You can create a Magic Circle and travel only to other Magic Circles in a Safe Zone.',
+          'value': [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          'catalyst': 15,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_15_s.webp'
+        },
+        {
+          'name': '',
+          'desc': 'You can create a Magic Circle and travel only to other Magic Circles in a Safe Zone.',
+          'value': [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          'catalyst': 5,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_15_s.webp'
+        }
+      ]
+    },
+    'vaKr': 'Jeon Sook-kyung',
+    'maxLevel': 5,
+    'skills': [
+      {
+        'name': 'Summer Climax',
+        'desc': 'Attack the enemy 2 times, dealing X Magic DMG equal to 420% of your Magic ATK per hit.',
+        'cooldown': 11,
+        'tiers': [
+          {
+            'rank': 0,
+            'sp': 5,
+            'value': 420,
+            'turns': null,
+            'text': 'Attack the enemy 2 times, dealing X Magic DMG equal to 420% of your Magic ATK per hit.'
+          },
+          {
+            'rank': 1,
+            'sp': 4,
+            'value': 420,
+            'turns': null,
+            'text': 'Attack the enemy 2 times, dealing X Magic DMG equal to 420% of your Magic ATK per hit.'
+          },
+          {
+            'rank': 2,
+            'sp': 4,
+            'value': 470,
+            'turns': null,
+            'text': 'Attack the enemy 2 times, dealing X Magic DMG equal to 470% of your Magic ATK per hit.'
+          },
+          {
+            'rank': 3,
+            'sp': 4,
+            'value': 520,
+            'turns': null,
+            'text': 'Attack the enemy 2 times, dealing X Magic DMG equal to 520% of your Magic ATK per hit.'
+          },
+          {
+            'rank': 4,
+            'sp': 4,
+            'value': null,
+            'turns': null,
+            'text': 'Attack the enemy 2 times, dealing X Magic DMG equal to X% of your Magic ATK per hit.'
+          },
+          {
+            'rank': 5,
+            'sp': 4,
+            'value': 620,
+            'turns': null,
+            'text': 'Attack the enemy 2 times, dealing X Magic DMG equal to 620% of your Magic ATK per hit.'
+          }
+        ],
+        'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillicons/v2/skillicon_130.webp'
+      }
+    ],
+    'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/707/icon.webp',
+    'body': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/707/body.webp',
+    'skillCard': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillart/000707.webp'
+  },
+  {
+    'id': 708,
+    'slug': 'dream-bride-eclipse',
+    'name': 'Dream Bride',
+    'nameJp': '夢の中の花嫁',
+    'nameKr': '꿈속의 신부',
+    'charSlug': 'eclipse',
+    'charName': 'Eclipse',
+    'element': 4,
+    'grade': 5,
+    'vaJp': 'Mikoi Sasaki',
+    'talent': {
+      'name': '',
+      'mark': '0',
+      'skills': [
+        {
+          'name': '',
+          'desc': 'You can create a Magic Circle and travel only to other Magic Circles in a Safe Zone.',
+          'value': [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          'catalyst': 20,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_15_s.webp'
+        },
+        {
+          'name': '',
+          'desc': 'You can create a Magic Circle and travel only to other Magic Circles in a Safe Zone.',
+          'value': [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          'catalyst': 15,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_15_s.webp'
+        },
+        {
+          'name': '',
+          'desc': 'You can create a Magic Circle and travel only to other Magic Circles in a Safe Zone.',
+          'value': [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          'catalyst': 5,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_15_s.webp'
+        }
+      ]
+    },
+    'vaKr': 'Jeon Sook-kyung',
+    'maxLevel': 5,
+    'skills': [
+      {
+        'name': 'Honeymoon Getaway',
+        'desc': 'Your Magic ATK is increased by 50% for 6 turn(s). Deal X Magic DMG to the enemy equal to 400% of your Magic ATK.',
+        'cooldown': 5,
+        'tiers': [
+          {
+            'rank': 0,
+            'sp': 5,
+            'value': 400,
+            'turns': 6,
+            'text': 'Your Magic ATK is increased by 50% for 6 turn(s). Deal X Magic DMG to the enemy equal to 400% of your Magic ATK.'
+          },
+          {
+            'rank': 1,
+            'sp': 4,
+            'value': 400,
+            'turns': 6,
+            'text': 'Your Magic ATK is increased by 50% for 6 turn(s). Deal X Magic DMG to the enemy equal to 400% of your Magic ATK.'
+          },
+          {
+            'rank': 2,
+            'sp': 4,
+            'value': 450,
+            'turns': 6,
+            'text': 'Your Magic ATK is increased by 50% for 6 turn(s). Deal X Magic DMG to the enemy equal to 450% of your Magic ATK.'
+          },
+          {
+            'rank': 3,
+            'sp': 4,
+            'value': null,
+            'turns': null,
+            'text': 'Your Magic ATK is increased by X% for X turn(s). Deal X Magic DMG to the enemy equal to X% of your Magic ATK.'
+          },
+          {
+            'rank': 4,
+            'sp': 4,
+            'value': 550,
+            'turns': 6,
+            'text': 'Your Magic ATK is increased by 50% for 6 turn(s). Deal X Magic DMG to the enemy equal to 550% of your Magic ATK.'
+          },
+          {
+            'rank': 5,
+            'sp': 4,
+            'value': 600,
+            'turns': 6,
+            'text': 'Your Magic ATK is increased by 50% for 6 turn(s). Deal X Magic DMG to the enemy equal to 600% of your Magic ATK.'
+          }
+        ],
+        'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillicons/v2/skillicon_166.webp'
+      }
+    ],
+    'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/708/icon.webp',
+    'body': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/708/body.webp',
+    'skillCard': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillart/000708.webp'
+  },
+  {
+    'id': 801,
+    'slug': 'thorn-of-the-desert-rubia',
+    'name': 'Thorn of the Desert',
+    'nameJp': '砂漠の棘',
+    'nameKr': '사막의 가시',
+    'charSlug': 'rubia',
+    'charName': 'Rubia',
+    'element': 1,
+    'grade': 5,
+    'vaJp': 'Sayumi Suzushiro',
+    'talent': {
+      'name': 'Swiftness',
+      'mark': 'Talent_Buff024_Mark',
+      'skills': [
+        {
+          'name': '',
+          'desc': 'For 10 seconds, Dash skill recharge speed is increased by 95%.',
+          'value': null,
+          'catalyst': 30,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_24_s.webp'
+        },
+        {
+          'name': '',
+          'desc': 'For 14 seconds, Dash skill recharge speed is increased by 95%.',
+          'value': null,
+          'catalyst': 20,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_24_s.webp'
+        },
+        {
+          'name': '',
+          'desc': 'For 16 seconds, Dash skill recharge speed is increased by 95%.',
+          'value': null,
+          'catalyst': 15,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_24_s.webp'
+        },
+        {
+          'name': '',
+          'desc': 'For 20 seconds, Dash skill recharge speed is increased by 95%.',
+          'value': null,
+          'catalyst': 10,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_24_s.webp'
+        }
+      ]
+    },
+    'vaKr': 'Bang Yeon-ji',
+    'maxLevel': 5,
+    'skills': [
+      {
+        'name': 'Dagger Dance',
+        'desc': 'Attack the enemy 3 times, dealing X Physical DMG equal to 40% of your ATK per hit. Apply Burn to the enemy for 7 turn(s), dealing X Physical DMG equal to 40% of your ATK.',
+        'cooldown': 5,
+        'tiers': [
+          {
+            'rank': 0,
+            'sp': 4,
+            'value': 40,
+            'turns': 7,
+            'text': 'Attack the enemy 3 times, dealing X Physical DMG equal to 40% of your ATK per hit. Apply Burn to the enemy for 7 turn(s), dealing X Physical DMG equal to 40% of your ATK.'
+          },
+          {
+            'rank': 1,
+            'sp': 4,
+            'value': 60,
+            'turns': 7,
+            'text': 'Attack the enemy 3 times, dealing X Physical DMG equal to 60% of your ATK per hit. Apply Burn to the enemy for 7 turn(s), dealing X Physical DMG equal to 60% of your ATK.'
+          },
+          {
+            'rank': 2,
+            'sp': 4,
+            'value': 75,
+            'turns': 7,
+            'text': 'Attack the enemy 3 times, dealing X Physical DMG equal to 75% of your ATK per hit. Apply Burn to the enemy for 7 turn(s), dealing X Physical DMG equal to 75% of your ATK.'
+          },
+          {
+            'rank': 3,
+            'sp': 3,
+            'value': 75,
+            'turns': 7,
+            'text': 'Attack the enemy 3 times, dealing X Physical DMG equal to 75% of your ATK per hit. Apply Burn to the enemy for 7 turn(s), dealing X Physical DMG equal to 75% of your ATK.'
+          },
+          {
+            'rank': 4,
+            'sp': 3,
+            'value': 75,
+            'turns': 7,
+            'text': 'Attack the enemy 3 times, dealing X Physical DMG equal to 75% of your ATK per hit. Apply Burn to the enemy for 7 turn(s), dealing X Physical DMG equal to 75% of your ATK.'
+          },
+          {
+            'rank': 5,
+            'sp': 3,
+            'value': 75,
+            'turns': 7,
+            'text': 'Attack the enemy 3 times, dealing X Physical DMG equal to 75% of your ATK per hit. Apply Burn to the enemy for 7 turn(s), dealing X Physical DMG equal to 75% of your ATK.'
+          }
+        ],
+        'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillicons/v2/skillicon_21.webp'
+      }
+    ],
+    'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/801/icon.webp',
+    'body': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/801/body.webp',
+    'skillCard': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillart/000801.webp'
+  },
+  {
+    'id': 804,
+    'slug': 'the-empress-of-the-ocean-rubia',
+    'name': 'The Empress of the Ocean',
+    'nameJp': '海の女帝',
+    'nameKr': '바다의 여제',
+    'charSlug': 'rubia',
+    'charName': 'Rubia',
+    'element': 1,
+    'grade': 5,
+    'vaJp': 'Sayumi Suzushiro',
+    'talent': {
+      'name': 'Swiftness',
+      'mark': 'Talent_Buff024_Mark',
+      'skills': [
+        {
+          'name': '',
+          'desc': 'For 10 seconds, Dash skill recharge speed is increased by 95%.',
+          'value': null,
+          'catalyst': 30,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_24_s.webp'
+        },
+        {
+          'name': '',
+          'desc': 'For 14 seconds, Dash skill recharge speed is increased by 95%.',
+          'value': null,
+          'catalyst': 20,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_24_s.webp'
+        },
+        {
+          'name': '',
+          'desc': 'For 16 seconds, Dash skill recharge speed is increased by 95%.',
+          'value': null,
+          'catalyst': 15,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_24_s.webp'
+        },
+        {
+          'name': '',
+          'desc': 'For 20 seconds, Dash skill recharge speed is increased by 95%.',
+          'value': null,
+          'catalyst': 10,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_24_s.webp'
+        }
+      ]
+    },
+    'vaKr': 'Bang Yeon-ji',
+    'maxLevel': 5,
+    'skills': [
+      {
+        'name': 'Break Bullet',
+        'desc': 'Attack the enemy 6 times, dealing X Physical DMG equal to 40% of your ATK per hit. Reduce enemy DEF by -25% for 4 turn(s).',
+        'cooldown': 5,
+        'tiers': [
+          {
+            'rank': 0,
+            'sp': 5,
+            'value': 40,
+            'turns': 4,
+            'text': 'Attack the enemy 6 times, dealing X Physical DMG equal to 40% of your ATK per hit. Reduce enemy DEF by -25% for 4 turn(s).'
+          },
+          {
+            'rank': 1,
+            'sp': 5,
+            'value': 48,
+            'turns': 4,
+            'text': 'Attack the enemy 6 times, dealing X Physical DMG equal to 48% of your ATK per hit. Reduce enemy DEF by -25% for 4 turn(s).'
+          },
+          {
+            'rank': 2,
+            'sp': 5,
+            'value': 56,
+            'turns': 4,
+            'text': 'Attack the enemy 6 times, dealing X Physical DMG equal to 56% of your ATK per hit. Reduce enemy DEF by -25% for 4 turn(s).'
+          },
+          {
+            'rank': 3,
+            'sp': 4,
+            'value': 56,
+            'turns': 4,
+            'text': 'Attack the enemy 6 times, dealing X Physical DMG equal to 56% of your ATK per hit. Reduce enemy DEF by -25% for 4 turn(s).'
+          },
+          {
+            'rank': 4,
+            'sp': 4,
+            'value': 64,
+            'turns': 4,
+            'text': 'Attack the enemy 6 times, dealing X Physical DMG equal to 64% of your ATK per hit. Reduce enemy DEF by -25% for 4 turn(s).'
+          },
+          {
+            'rank': 5,
+            'sp': 4,
+            'value': 72,
+            'turns': 4,
+            'text': 'Attack the enemy 6 times, dealing X Physical DMG equal to 72% of your ATK per hit. Reduce enemy DEF by -25% for 4 turn(s).'
+          }
+        ],
+        'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillicons/v2/skillicon_22.webp'
+      }
+    ],
+    'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/804/icon.webp',
+    'body': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/804/body.webp',
+    'skillCard': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillart/000804.webp'
+  },
+  {
+    'id': 806,
+    'slug': 'maid-name-c-rubia',
+    'name': 'Maid Name C',
+    'nameJp': 'メイドネームC',
+    'nameKr': '메이드네임 C',
+    'charSlug': 'rubia',
+    'charName': 'Rubia',
+    'element': 1,
+    'grade': 5,
+    'vaJp': 'Sayumi Suzushiro',
+    'talent': {
+      'name': 'Swiftness',
+      'mark': 'Talent_Buff024_Mark',
+      'skills': [
+        {
+          'name': '',
+          'desc': 'For 10 seconds, Dash skill recharge speed is increased by 95%.',
+          'value': null,
+          'catalyst': 30,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_24_s.webp'
+        },
+        {
+          'name': '',
+          'desc': 'For 14 seconds, Dash skill recharge speed is increased by 95%.',
+          'value': null,
+          'catalyst': 20,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_24_s.webp'
+        },
+        {
+          'name': '',
+          'desc': 'For 16 seconds, Dash skill recharge speed is increased by 95%.',
+          'value': null,
+          'catalyst': 15,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_24_s.webp'
+        },
+        {
+          'name': '',
+          'desc': 'For 20 seconds, Dash skill recharge speed is increased by 95%.',
+          'value': null,
+          'catalyst': 10,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_24_s.webp'
+        }
+      ]
+    },
+    'vaKr': 'Bang Yeon-ji',
+    'maxLevel': 5,
+    'skills': [
+      {
+        'name': 'Secret Service',
+        'desc': 'You have a X% chance to evade enemy attacks until you successfully evade X times. Your ATK is increased by [6[% for [5[ turn(s). Attack the enemy 2 times, dealing X Physical DMG equal to 120% of your ATK per hit.',
+        'cooldown': 5,
+        'tiers': [
+          {
+            'rank': 0,
+            'sp': 3,
+            'value': 120,
+            'turns': 2,
+            'text': 'You have a X% chance to evade enemy attacks until you successfully evade X times. Your ATK is increased by [6[% for [5[ turn(s). Attack the enemy 2 times, dealing X Physical DMG equal to 120% of your ATK per hit.'
+          },
+          {
+            'rank': 1,
+            'sp': 2,
+            'value': null,
+            'turns': null,
+            'text': 'You have a X% chance to evade enemy attacks until you successfully evade X times. Your ATK is increased by [6[% for [5[ turn(s). Attack the enemy 2 times, dealing X Physical DMG equal to X% of your ATK per hit.'
+          },
+          {
+            'rank': 2,
+            'sp': 2,
+            'value': 140,
+            'turns': 2,
+            'text': 'You have a X% chance to evade enemy attacks until you successfully evade X times. Your ATK is increased by [6[% for [5[ turn(s). Attack the enemy 2 times, dealing X Physical DMG equal to 140% of your ATK per hit.'
+          },
+          {
+            'rank': 3,
+            'sp': 2,
+            'value': null,
+            'turns': null,
+            'text': 'You have a X% chance to evade enemy attacks until you successfully evade X times. Your ATK is increased by [6[% for [5[ turn(s). Attack the enemy 2 times, dealing X Physical DMG equal to X% of your ATK per hit.'
+          },
+          {
+            'rank': 4,
+            'sp': 2,
+            'value': 180,
+            'turns': 2,
+            'text': 'You have a X% chance to evade enemy attacks until you successfully evade X times. Your ATK is increased by [6[% for [5[ turn(s). Attack the enemy 2 times, dealing X Physical DMG equal to 180% of your ATK per hit.'
+          },
+          {
+            'rank': 5,
+            'sp': 2,
+            'value': null,
+            'turns': null,
+            'text': 'You have a X% chance to evade enemy attacks until you successfully evade X times. Your ATK is increased by [6[% for [5[ turn(s). Attack the enemy 2 times, dealing X Physical DMG equal to X% of your ATK per hit.'
+          }
+        ],
+        'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillicons/v2/skillicon_112.webp'
+      }
+    ],
+    'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/806/icon.webp',
+    'body': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/806/body.webp',
+    'skillCard': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillart/000806.webp'
+  },
+  {
+    'id': 807,
+    'slug': 'maid-bikini-rubia',
+    'name': 'Maid Bikini',
+    'nameJp': 'メイドビキニ',
+    'nameKr': '메이드 비키니',
+    'charSlug': 'rubia',
+    'charName': 'Rubia',
+    'element': 1,
+    'grade': 5,
+    'vaJp': 'Sayumi Suzushiro',
+    'talent': {
+      'name': 'Swiftness',
+      'mark': 'Talent_Buff024_Mark',
+      'skills': [
+        {
+          'name': '',
+          'desc': 'For 10 seconds, Dash skill recharge speed is increased by 95%.',
+          'value': null,
+          'catalyst': 30,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_24_s.webp'
+        },
+        {
+          'name': '',
+          'desc': 'For 14 seconds, Dash skill recharge speed is increased by 95%.',
+          'value': null,
+          'catalyst': 20,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_24_s.webp'
+        },
+        {
+          'name': '',
+          'desc': 'For 16 seconds, Dash skill recharge speed is increased by 95%.',
+          'value': null,
+          'catalyst': 15,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_24_s.webp'
+        },
+        {
+          'name': '',
+          'desc': 'For 20 seconds, Dash skill recharge speed is increased by 95%.',
+          'value': null,
+          'catalyst': 10,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_24_s.webp'
+        }
+      ]
+    },
+    'vaKr': 'Bang Yeon-ji',
+    'maxLevel': 5,
+    'skills': [
+      {
+        'name': 'Secret Order',
+        'desc': 'Deal X Physical DMG to the enemy equal to X% of your ATK. Apply Burn to the enemy for X turn(s), dealing X Physical DMG equal to X% of your ATK. Apply a [6[% DoT Vulnerability to the enemy for [5[ turn(s).',
+        'cooldown': 3,
+        'tiers': [
+          {
+            'rank': 0,
+            'sp': 4,
+            'value': null,
+            'turns': null,
+            'text': 'Deal X Physical DMG to the enemy equal to X% of your ATK. Apply Burn to the enemy for X turn(s), dealing X Physical DMG equal to X% of your ATK. Apply a [6[% DoT Vulnerability to the enemy for [5[ turn(s).'
+          },
+          {
+            'rank': 1,
+            'sp': 3,
+            'value': 150,
+            'turns': 2,
+            'text': 'Deal X Physical DMG to the enemy equal to 150% of your ATK. Apply Burn to the enemy for 2 turn(s), dealing X Physical DMG equal to 150% of your ATK. Apply a [6[% DoT Vulnerability to the enemy for [5[ turn(s).'
+          },
+          {
+            'rank': 2,
+            'sp': 3,
+            'value': 150,
+            'turns': 2,
+            'text': 'Deal X Physical DMG to the enemy equal to 150% of your ATK. Apply Burn to the enemy for 2 turn(s), dealing X Physical DMG equal to 150% of your ATK. Apply a [6[% DoT Vulnerability to the enemy for [5[ turn(s).'
+          },
+          {
+            'rank': 3,
+            'sp': 3,
+            'value': null,
+            'turns': null,
+            'text': 'Deal X Physical DMG to the enemy equal to X% of your ATK. Apply Burn to the enemy for X turn(s), dealing X Physical DMG equal to X% of your ATK. Apply a [6[% DoT Vulnerability to the enemy for [5[ turn(s).'
+          },
+          {
+            'rank': 4,
+            'sp': 3,
+            'value': 150,
+            'turns': 2,
+            'text': 'Deal X Physical DMG to the enemy equal to 150% of your ATK. Apply Burn to the enemy for 2 turn(s), dealing X Physical DMG equal to 150% of your ATK. Apply a [6[% DoT Vulnerability to the enemy for [5[ turn(s).'
+          },
+          {
+            'rank': 5,
+            'sp': 3,
+            'value': null,
+            'turns': null,
+            'text': 'Deal X Physical DMG to the enemy equal to X% of your ATK. Apply Burn to the enemy for X turn(s), dealing X Physical DMG equal to X% of your ATK. Apply a [6[% DoT Vulnerability to the enemy for [5[ turn(s).'
+          }
+        ],
+        'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillicons/v2/skillicon_174.webp'
+      }
+    ],
+    'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/807/icon.webp',
+    'body': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/807/body.webp',
+    'skillCard': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillart/000807.webp'
+  },
+  {
+    'id': 901,
+    'slug': 'combat-doctor-remnunt',
+    'name': 'Combat Doctor',
+    'nameJp': '戦闘医師',
+    'nameKr': '전투 의사',
+    'charSlug': 'remnunt',
+    'charName': 'Remnunt',
+    'element': 0,
+    'grade': 3,
+    'vaJp': 'Yutaro Takahashi',
+    'talent': null,
+    'vaKr': 'Choi Hyeon-su',
+    'maxLevel': 5,
+    'skills': [
+      {
+        'name': 'Steady Hands',
+        'desc': 'Attack the enemy 2 times, dealing X Physical DMG equal to 100% of your ATK per hit. Reduce enemy ATK by -50% for 4 turn(s).',
+        'cooldown': 7,
+        'tiers': [
+          {
+            'rank': 0,
+            'sp': 4,
+            'value': 100,
+            'turns': 4,
+            'text': 'Attack the enemy 2 times, dealing X Physical DMG equal to 100% of your ATK per hit. Reduce enemy ATK by -50% for 4 turn(s).'
+          },
+          {
+            'rank': 1,
+            'sp': 4,
+            'value': 100,
+            'turns': 4,
+            'text': 'Attack the enemy 2 times, dealing X Physical DMG equal to 100% of your ATK per hit. Reduce enemy ATK by -50% for 4 turn(s).'
+          },
+          {
+            'rank': 2,
+            'sp': 4,
+            'value': null,
+            'turns': null,
+            'text': 'Attack the enemy 2 times, dealing X Physical DMG equal to X% of your ATK per hit. Reduce enemy ATK by X% for X turn(s).'
+          },
+          {
+            'rank': 3,
+            'sp': 3,
+            'value': 125,
+            'turns': 4,
+            'text': 'Attack the enemy 2 times, dealing X Physical DMG equal to 125% of your ATK per hit. Reduce enemy ATK by -50% for 4 turn(s).'
+          },
+          {
+            'rank': 4,
+            'sp': 3,
+            'value': 175,
+            'turns': 4,
+            'text': 'Attack the enemy 2 times, dealing X Physical DMG equal to 175% of your ATK per hit. Reduce enemy ATK by -50% for 4 turn(s).'
+          },
+          {
+            'rank': 5,
+            'sp': 3,
+            'value': 250,
+            'turns': 4,
+            'text': 'Attack the enemy 2 times, dealing X Physical DMG equal to 250% of your ATK per hit. Reduce enemy ATK by -50% for 4 turn(s).'
+          }
+        ],
+        'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillicons/v2/skillicon_23.webp'
+      }
+    ],
+    'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/901/icon.webp',
+    'body': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/901/body.webp'
+  },
+  {
+    'id': 1001,
+    'slug': 'desert-flower-sylvia',
+    'name': 'Desert Flower',
+    'nameJp': '砂漠の華',
+    'nameKr': '사막의 꽃',
+    'charSlug': 'sylvia',
+    'charName': 'Sylvia',
+    'element': 0,
+    'grade': 5,
+    'vaJp': 'Saya Aizawa',
+    'talent': {
+      'name': 'Bargain',
+      'mark': '0',
+      'skills': [
+        {
+          'name': 'How Much Is It Again?',
+          'desc': 'Bargain with the shopkeeper for a 35% discount on items with an 100% chance.',
+          'value': null,
+          'catalyst': 10,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_16_s.webp'
+        },
+        {
+          'name': 'How Much Is It Again?',
+          'desc': '',
+          'value': null,
+          'catalyst': 10,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_16_s.webp'
+        },
+        {
+          'name': 'How Much Is It Again?',
+          'desc': 'Bargain with the shopkeeper for a 45% discount on items with an 100% chance.',
+          'value': null,
+          'catalyst': 10,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_16_s.webp'
+        },
+        {
+          'name': 'How Much Is It Again?',
+          'desc': 'Bargain with the shopkeeper for a 50% discount on items with an 100% chance.',
+          'value': null,
+          'catalyst': 10,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_16_s.webp'
+        },
+        {
+          'name': 'How Much Is It Again?',
+          'desc': 'Bargain with the shopkeeper for a 60% discount on items with an 100% chance.',
+          'value': null,
+          'catalyst': 10,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_16_s.webp'
+        }
+      ]
+    },
+    'vaKr': 'Kim Ha-ru',
+    'maxLevel': 5,
+    'skills': [
+      {
+        'name': 'The Sword Fortress',
+        'desc': 'For 4 turn(s), Counter whenever you receive an attack. Each Counter deals X Physical DMG to the enemy equal to 400% of your ATK. Apply a X% Barrier to yourself for 4 turn(s).',
+        'cooldown': 5,
+        'tiers': [
+          {
+            'rank': 0,
+            'sp': 4,
+            'value': 400,
+            'turns': 4,
+            'text': 'For 4 turn(s), Counter whenever you receive an attack. Each Counter deals X Physical DMG to the enemy equal to 400% of your ATK. Apply a X% Barrier to yourself for 4 turn(s).'
+          },
+          {
+            'rank': 1,
+            'sp': 4,
+            'value': 465,
+            'turns': 4,
+            'text': 'For 4 turn(s), Counter whenever you receive an attack. Each Counter deals X Physical DMG to the enemy equal to 465% of your ATK. Apply a X% Barrier to yourself for 4 turn(s).'
+          },
+          {
+            'rank': 2,
+            'sp': 4,
+            'value': 530,
+            'turns': 4,
+            'text': 'For 4 turn(s), Counter whenever you receive an attack. Each Counter deals X Physical DMG to the enemy equal to 530% of your ATK. Apply a X% Barrier to yourself for 4 turn(s).'
+          },
+          {
+            'rank': 3,
+            'sp': 3,
+            'value': null,
+            'turns': null,
+            'text': 'For X turn(s), Counter whenever you receive an attack. Each Counter deals X Physical DMG to the enemy equal to X% of your ATK. Apply a X% Barrier to yourself for X turn(s).'
+          },
+          {
+            'rank': 4,
+            'sp': 3,
+            'value': 595,
+            'turns': 4,
+            'text': 'For 4 turn(s), Counter whenever you receive an attack. Each Counter deals X Physical DMG to the enemy equal to 595% of your ATK. Apply a X% Barrier to yourself for 4 turn(s).'
+          },
+          {
+            'rank': 5,
+            'sp': 3,
+            'value': 660,
+            'turns': 4,
+            'text': 'For 4 turn(s), Counter whenever you receive an attack. Each Counter deals X Physical DMG to the enemy equal to 660% of your ATK. Apply a X% Barrier to yourself for 4 turn(s).'
+          }
+        ],
+        'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillicons/v2/skillicon_24.webp'
+      }
+    ],
+    'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/1001/icon.webp',
+    'body': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/1001/body.webp',
+    'skillCard': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillart/001001.webp'
+  },
+  {
+    'id': 1002,
+    'slug': 'the-sword-queen-sylvia',
+    'name': 'The Sword Queen',
+    'nameJp': '剣后',
+    'nameKr': '검후',
+    'charSlug': 'sylvia',
+    'charName': 'Sylvia',
+    'element': 0,
+    'grade': 5,
+    'vaJp': 'Saya Aizawa',
+    'talent': {
+      'name': 'Bargain',
+      'mark': '0',
+      'skills': [
+        {
+          'name': 'How Much Is It Again?',
+          'desc': 'Bargain with the shopkeeper for a 35% discount on items with an 100% chance.',
+          'value': null,
+          'catalyst': 10,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_16_s.webp'
+        },
+        {
+          'name': 'How Much Is It Again?',
+          'desc': '',
+          'value': null,
+          'catalyst': 10,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_16_s.webp'
+        },
+        {
+          'name': 'How Much Is It Again?',
+          'desc': 'Bargain with the shopkeeper for a 45% discount on items with an 100% chance.',
+          'value': null,
+          'catalyst': 10,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_16_s.webp'
+        },
+        {
+          'name': 'How Much Is It Again?',
+          'desc': 'Bargain with the shopkeeper for a 50% discount on items with an 100% chance.',
+          'value': null,
+          'catalyst': 10,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_16_s.webp'
+        },
+        {
+          'name': 'How Much Is It Again?',
+          'desc': 'Bargain with the shopkeeper for a 60% discount on items with an 100% chance.',
+          'value': null,
+          'catalyst': 10,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_16_s.webp'
+        }
+      ]
+    },
+    'vaKr': 'Kim Ha-ru',
+    'maxLevel': 5,
+    'skills': [
+      {
+        'name': 'Continuous Blossom Flying Sword',
+        'desc': 'Your ATK is increased by 100% for 2 turn(s). Attack the enemy 4 times, dealing X Physical DMG equal to 25% of your ATK per hit.',
+        'cooldown': 5,
+        'tiers': [
+          {
+            'rank': 0,
+            'sp': 1,
+            'value': 25,
+            'turns': 2,
+            'text': 'Your ATK is increased by 100% for 2 turn(s). Attack the enemy 4 times, dealing X Physical DMG equal to 25% of your ATK per hit.'
+          },
+          {
+            'rank': 1,
+            'sp': 1,
+            'value': 30,
+            'turns': 2,
+            'text': 'Your ATK is increased by 100% for 2 turn(s). Attack the enemy 4 times, dealing X Physical DMG equal to 30% of your ATK per hit.'
+          },
+          {
+            'rank': 2,
+            'sp': 1,
+            'value': null,
+            'turns': null,
+            'text': 'Your ATK is increased by X% for X turn(s). Attack the enemy 4 times, dealing X Physical DMG equal to X% of your ATK per hit.'
+          },
+          {
+            'rank': 3,
+            'sp': 1,
+            'value': 35,
+            'turns': 4,
+            'text': 'Your ATK is increased by 150% for 4 turn(s). Attack the enemy 4 times, dealing X Physical DMG equal to 35% of your ATK per hit.'
+          },
+          {
+            'rank': 4,
+            'sp': 1,
+            'value': 40,
+            'turns': 4,
+            'text': 'Your ATK is increased by 150% for 4 turn(s). Attack the enemy 4 times, dealing X Physical DMG equal to 40% of your ATK per hit.'
+          },
+          {
+            'rank': 5,
+            'sp': 1,
+            'value': 40,
+            'turns': 6,
+            'text': 'Your ATK is increased by 200% for 6 turn(s). Attack the enemy 4 times, dealing X Physical DMG equal to 40% of your ATK per hit.'
+          }
+        ],
+        'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillicons/v2/skillicon_98.webp'
+      }
+    ],
+    'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/1002/icon.webp',
+    'body': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/1002/body.webp',
+    'skillCard': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillart/001002.webp'
+  },
+  {
+    'id': 1004,
+    'slug': 'admiral-sylvia',
+    'name': 'Admiral',
+    'nameJp': '海軍隊長',
+    'nameKr': '해군 대장',
+    'charSlug': 'sylvia',
+    'charName': 'Sylvia',
+    'element': 0,
+    'grade': 5,
+    'vaJp': 'Saya Aizawa',
+    'talent': {
+      'name': 'Bargain',
+      'mark': '0',
+      'skills': [
+        {
+          'name': 'How Much Is It Again?',
+          'desc': 'Bargain with the shopkeeper for a 35% discount on items with an 100% chance.',
+          'value': null,
+          'catalyst': 10,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_16_s.webp'
+        },
+        {
+          'name': 'How Much Is It Again?',
+          'desc': '',
+          'value': null,
+          'catalyst': 10,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_16_s.webp'
+        },
+        {
+          'name': 'How Much Is It Again?',
+          'desc': 'Bargain with the shopkeeper for a 45% discount on items with an 100% chance.',
+          'value': null,
+          'catalyst': 10,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_16_s.webp'
+        },
+        {
+          'name': 'How Much Is It Again?',
+          'desc': 'Bargain with the shopkeeper for a 50% discount on items with an 100% chance.',
+          'value': null,
+          'catalyst': 10,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_16_s.webp'
+        },
+        {
+          'name': 'How Much Is It Again?',
+          'desc': 'Bargain with the shopkeeper for a 60% discount on items with an 100% chance.',
+          'value': null,
+          'catalyst': 10,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_16_s.webp'
+        }
+      ]
+    },
+    'vaKr': 'Kim Ha-ru',
+    'maxLevel': 5,
+    'skills': [
+      {
+        'name': 'The Punisher',
+        'desc': 'Apply an Energy Guard (X) to yourself equal to 45% of your ATK. This effect wears off after being hit X times. Attack the enemy 5 times, dealing X Physical DMG equal to 45% of your ATK per hit.',
+        'cooldown': 9,
+        'tiers': [
+          {
+            'rank': 0,
+            'sp': 4,
+            'value': 45,
+            'turns': 3,
+            'text': 'Apply an Energy Guard (X) to yourself equal to 45% of your ATK. This effect wears off after being hit X times. Attack the enemy 5 times, dealing X Physical DMG equal to 45% of your ATK per hit.'
+          },
+          {
+            'rank': 1,
+            'sp': 4,
+            'value': null,
+            'turns': null,
+            'text': 'Apply an Energy Guard (X) to yourself equal to X% of your ATK. This effect wears off after being hit X times. Attack the enemy 5 times, dealing X Physical DMG equal to X% of your ATK per hit.'
+          },
+          {
+            'rank': 2,
+            'sp': 4,
+            'value': 67,
+            'turns': 4,
+            'text': 'Apply an Energy Guard (X) to yourself equal to 67% of your ATK. This effect wears off after being hit X times. Attack the enemy 5 times, dealing X Physical DMG equal to 67% of your ATK per hit.'
+          },
+          {
+            'rank': 3,
+            'sp': 3,
+            'value': 67,
+            'turns': 4,
+            'text': 'Apply an Energy Guard (X) to yourself equal to 67% of your ATK. This effect wears off after being hit X times. Attack the enemy 5 times, dealing X Physical DMG equal to 67% of your ATK per hit.'
+          },
+          {
+            'rank': 4,
+            'sp': 3,
+            'value': 85,
+            'turns': 4,
+            'text': 'Apply an Energy Guard (X) to yourself equal to 85% of your ATK. This effect wears off after being hit X times. Attack the enemy 5 times, dealing X Physical DMG equal to 85% of your ATK per hit.'
+          },
+          {
+            'rank': 5,
+            'sp': 3,
+            'value': null,
+            'turns': null,
+            'text': 'Apply an Energy Guard (X) to yourself equal to X% of your ATK. This effect wears off after being hit X times. Attack the enemy 5 times, dealing X Physical DMG equal to X% of your ATK per hit.'
+          }
+        ],
+        'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillicons/v2/skillicon_25.webp'
+      }
+    ],
+    'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/1004/icon.webp',
+    'body': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/1004/body.webp',
+    'skillCard': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillart/001004.webp'
+  },
+  {
+    'id': 1006,
+    'slug': 'bikini-agent-sylvia',
+    'name': 'Bikini Agent',
+    'nameJp': 'ビキニエージェント',
+    'nameKr': '비키니 에이전트',
+    'charSlug': 'sylvia',
+    'charName': 'Sylvia',
+    'element': 0,
+    'grade': 5,
+    'vaJp': 'Saya Aizawa',
+    'talent': {
+      'name': 'Bargain',
+      'mark': '0',
+      'skills': [
+        {
+          'name': 'How Much Is It Again?',
+          'desc': 'Bargain with the shopkeeper for a 35% discount on items with an 100% chance.',
+          'value': null,
+          'catalyst': 10,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_16_s.webp'
+        },
+        {
+          'name': 'How Much Is It Again?',
+          'desc': '',
+          'value': null,
+          'catalyst': 10,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_16_s.webp'
+        },
+        {
+          'name': 'How Much Is It Again?',
+          'desc': 'Bargain with the shopkeeper for a 45% discount on items with an 100% chance.',
+          'value': null,
+          'catalyst': 10,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_16_s.webp'
+        },
+        {
+          'name': 'How Much Is It Again?',
+          'desc': 'Bargain with the shopkeeper for a 50% discount on items with an 100% chance.',
+          'value': null,
+          'catalyst': 10,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_16_s.webp'
+        },
+        {
+          'name': 'How Much Is It Again?',
+          'desc': 'Bargain with the shopkeeper for a 60% discount on items with an 100% chance.',
+          'value': null,
+          'catalyst': 10,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_16_s.webp'
+        }
+      ]
+    },
+    'vaKr': 'Chae-rim',
+    'maxLevel': 5,
+    'skills': [
+      {
+        'name': 'Bikini Blaster',
+        'desc': 'Extend the duration of all Buffs you currently have by X turn(s). Deal X Physical DMG to the enemy equal to 400% of your ATK.',
+        'cooldown': 5,
+        'tiers': [
+          {
+            'rank': 0,
+            'sp': 5,
+            'value': 400,
+            'turns': null,
+            'text': 'Extend the duration of all Buffs you currently have by X turn(s). Deal X Physical DMG to the enemy equal to 400% of your ATK.'
+          },
+          {
+            'rank': 1,
+            'sp': 4,
+            'value': 400,
+            'turns': null,
+            'text': 'Extend the duration of all Buffs you currently have by X turn(s). Deal X Physical DMG to the enemy equal to 400% of your ATK.'
+          },
+          {
+            'rank': 2,
+            'sp': 4,
+            'value': 475,
+            'turns': null,
+            'text': 'Extend the duration of all Buffs you currently have by X turn(s). Deal X Physical DMG to the enemy equal to 475% of your ATK.'
+          },
+          {
+            'rank': 3,
+            'sp': 4,
+            'value': 550,
+            'turns': null,
+            'text': 'Extend the duration of all Buffs you currently have by X turn(s). Deal X Physical DMG to the enemy equal to 550% of your ATK.'
+          },
+          {
+            'rank': 4,
+            'sp': 4,
+            'value': 625,
+            'turns': null,
+            'text': 'Extend the duration of all Buffs you currently have by X turn(s). Deal X Physical DMG to the enemy equal to 625% of your ATK.'
+          },
+          {
+            'rank': 5,
+            'sp': 4,
+            'value': 700,
+            'turns': null,
+            'text': 'Extend the duration of all Buffs you currently have by X turn(s). Deal X Physical DMG to the enemy equal to 700% of your ATK.'
+          }
+        ],
+        'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillicons/v2/skillicon_173.webp'
+      }
+    ],
+    'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/1006/icon.webp',
+    'body': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/1006/body.webp',
+    'skillCard': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillart/001006.webp'
+  },
+  {
+    'id': 1101,
+    'slug': 'angel-of-destruction-teresse',
+    'name': 'Angel of Destruction',
+    'nameJp': '破壊の天使',
+    'nameKr': '파괴의 천사',
+    'charSlug': 'teresse',
+    'charName': 'Teresse',
+    'element': 0,
+    'grade': 5,
+    'vaJp': 'Anzai Chika',
+    'talent': {
+      'name': 'Overpower',
+      'mark': 'Talent_Buff027_Mark',
+      'skills': [
+        {
+          'name': '',
+          'desc': 'Using this ability instantly overpowers certain spawned monsters on the map.\\n● Daily Uses: 15',
+          'value': [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          'catalyst': 45,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_27_s.webp'
+        },
+        {
+          'name': '',
+          'desc': 'Using this ability instantly overpowers certain spawned monsters on the map.\\n● Daily Uses: 25',
+          'value': null,
+          'catalyst': 25,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_27_s.webp'
+        },
+        {
+          'name': '',
+          'desc': 'Using this ability instantly overpowers certain spawned monsters on the map.\\n● Daily Uses: 30',
+          'value': null,
+          'catalyst': 15,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_27_s.webp'
+        }
+      ]
+    },
+    'vaKr': 'Jung Yu-mi',
+    'maxLevel': 5,
+    'skills': [
+      {
+        'name': 'Berserk Smash',
+        'desc': 'Restore X SP to allies. Deal 1 Physical DMG to the enemy and knock them back 2 tiles backward. Any enemies they collide with take Physical DMG equal to X% of the knocked-back enemy\'s Max HP. Apply Bleed to the enemy for [5[ turn(s), dealing [1[ Physical DMG equal to [6[% of your ATK.',
+        'cooldown': 3,
+        'tiers': [
+          {
+            'rank': 0,
+            'sp': 2,
+            'value': null,
+            'turns': null,
+            'text': 'Restore X SP to allies. Deal 1 Physical DMG to the enemy and knock them back 2 tiles backward. Any enemies they collide with take Physical DMG equal to X% of the knocked-back enemy\'s Max HP. Apply Bleed to the enemy for [5[ turn(s), dealing [1[ Physical DMG equal to [6[% of your ATK.'
+          },
+          {
+            'rank': 1,
+            'sp': 2,
+            'value': null,
+            'turns': 6,
+            'text': 'Restore X SP to allies. Deal 1 Physical DMG to the enemy and knock them back 2 tiles backward. Any enemies they collide with take Physical DMG equal to X% of the knocked-back enemy\'s Max HP. Apply Bleed to the enemy for [5[ turn(s), dealing [1[ Physical DMG equal to [6[% of your ATK.'
+          },
+          {
+            'rank': 2,
+            'sp': 2,
+            'value': null,
+            'turns': 6,
+            'text': 'Restore X SP to allies. Deal 1 Physical DMG to the enemy and knock them back 2 tiles backward. Any enemies they collide with take Physical DMG equal to X% of the knocked-back enemy\'s Max HP. Apply Bleed to the enemy for [5[ turn(s), dealing [1[ Physical DMG equal to [6[% of your ATK.'
+          },
+          {
+            'rank': 3,
+            'sp': 1,
+            'value': null,
+            'turns': null,
+            'text': 'Restore X SP to allies. Deal 1 Physical DMG to the enemy and knock them back 2 tiles backward. Any enemies they collide with take Physical DMG equal to X% of the knocked-back enemy\'s Max HP. Apply Bleed to the enemy for [5[ turn(s), dealing [1[ Physical DMG equal to [6[% of your ATK.'
+          },
+          {
+            'rank': 4,
+            'sp': 1,
+            'value': null,
+            'turns': null,
+            'text': 'Restore X SP to allies. Deal 1 Physical DMG to the enemy and knock them back 2 tiles backward. Any enemies they collide with take Physical DMG equal to X% of the knocked-back enemy\'s Max HP. Apply Bleed to the enemy for [5[ turn(s), dealing [1[ Physical DMG equal to [6[% of your ATK.'
+          },
+          {
+            'rank': 5,
+            'sp': 1,
+            'value': null,
+            'turns': 6,
+            'text': 'Restore X SP to allies. Deal 1 Physical DMG to the enemy and knock them back 2 tiles backward. Any enemies they collide with take Physical DMG equal to X% of the knocked-back enemy\'s Max HP. Apply Bleed to the enemy for [5[ turn(s), dealing [1[ Physical DMG equal to [6[% of your ATK.'
+          }
+        ],
+        'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillicons/v2/skillicon_26.webp'
+      }
+    ],
+    'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/1101/icon.webp',
+    'body': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/1101/body.webp',
+    'skillCard': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillart/001101.webp'
+  },
+  {
+    'id': 1106,
+    'slug': 'medical-club-teresse',
+    'name': 'Medical Club',
+    'nameJp': '保健委員',
+    'nameKr': '양호부',
+    'charSlug': 'teresse',
+    'charName': 'Teresse',
+    'element': 0,
+    'grade': 5,
+    'vaJp': 'Anzai Chika',
+    'talent': {
+      'name': 'Overpower',
+      'mark': 'Talent_Buff027_Mark',
+      'skills': [
+        {
+          'name': '',
+          'desc': 'Using this ability instantly overpowers certain spawned monsters on the map.\\n● Daily Uses: 15',
+          'value': [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          'catalyst': 45,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_27_s.webp'
+        },
+        {
+          'name': '',
+          'desc': 'Using this ability instantly overpowers certain spawned monsters on the map.\\n● Daily Uses: 25',
+          'value': null,
+          'catalyst': 25,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_27_s.webp'
+        },
+        {
+          'name': '',
+          'desc': 'Using this ability instantly overpowers certain spawned monsters on the map.\\n● Daily Uses: 30',
+          'value': null,
+          'catalyst': 15,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_27_s.webp'
+        }
+      ]
+    },
+    'vaKr': 'Jung Yu-mi',
+    'maxLevel': 5,
+    'skills': [
+      {
+        'name': 'I-I\'ll Help!',
+        'desc': 'For 4 turn(s), increase each ally\'s ATK or Magic ATK by 25%, depending on their attack type. Heal allies at the end of each turn for 4 turn(s), equal to 25% of your Current HP.',
+        'cooldown': 5,
+        'tiers': [
+          {
+            'rank': 0,
+            'sp': 4,
+            'value': 50,
+            'turns': 4,
+            'text': 'For 4 turn(s), increase each ally\'s ATK or Magic ATK by 25%, depending on their attack type. Heal allies at the end of each turn for 4 turn(s), equal to 25% of your Current HP.'
+          },
+          {
+            'rank': 1,
+            'sp': 3,
+            'value': 50,
+            'turns': 4,
+            'text': 'For 4 turn(s), increase each ally\'s ATK or Magic ATK by 25%, depending on their attack type. Heal allies at the end of each turn for 4 turn(s), equal to 25% of your Current HP.'
+          },
+          {
+            'rank': 2,
+            'sp': 3,
+            'value': 70,
+            'turns': 4,
+            'text': 'For 4 turn(s), increase each ally\'s ATK or Magic ATK by 25%, depending on their attack type. Heal allies at the end of each turn for 4 turn(s), equal to 25% of your Current HP.'
+          },
+          {
+            'rank': 3,
+            'sp': 3,
+            'value': 70,
+            'turns': 4,
+            'text': 'For 4 turn(s), increase each ally\'s ATK or Magic ATK by 50%, depending on their attack type. Heal allies at the end of each turn for 4 turn(s), equal to 50% of your Current HP.'
+          },
+          {
+            'rank': 4,
+            'sp': 3,
+            'value': 90,
+            'turns': 4,
+            'text': 'For 4 turn(s), increase each ally\'s ATK or Magic ATK by 50%, depending on their attack type. Heal allies at the end of each turn for 4 turn(s), equal to 50% of your Current HP.'
+          },
+          {
+            'rank': 5,
+            'sp': 3,
+            'value': 110,
+            'turns': 4,
+            'text': 'For 4 turn(s), increase each ally\'s ATK or Magic ATK by 50%, depending on their attack type. Heal allies at the end of each turn for 4 turn(s), equal to 50% of your Current HP.'
+          }
+        ],
+        'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillicons/v2/skillicon_113.webp'
+      }
+    ],
+    'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/1106/icon.webp',
+    'body': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/1106/body.webp',
+    'skillCard': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillart/001106.webp'
+  },
+  {
+    'id': 1107,
+    'slug': 'beachside-angel-teresse',
+    'name': 'Beachside Angel',
+    'nameJp': 'ビーチの天使',
+    'nameKr': '해변의 천사',
+    'charSlug': 'teresse',
+    'charName': 'Teresse',
+    'element': 0,
+    'grade': 5,
+    'vaJp': 'Anzai Chika',
+    'talent': {
+      'name': 'Overpower',
+      'mark': 'Talent_Buff027_Mark',
+      'skills': [
+        {
+          'name': '',
+          'desc': 'Using this ability instantly overpowers certain spawned monsters on the map.\\n● Daily Uses: 15',
+          'value': [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          'catalyst': 45,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_27_s.webp'
+        },
+        {
+          'name': '',
+          'desc': 'Using this ability instantly overpowers certain spawned monsters on the map.\\n● Daily Uses: 25',
+          'value': null,
+          'catalyst': 25,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_27_s.webp'
+        },
+        {
+          'name': '',
+          'desc': 'Using this ability instantly overpowers certain spawned monsters on the map.\\n● Daily Uses: 30',
+          'value': null,
+          'catalyst': 15,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_27_s.webp'
+        }
+      ]
+    },
+    'vaKr': 'Jung Yu-mi',
+    'maxLevel': 5,
+    'skills': [
+      {
+        'name': 'P-Proud to Show Skin!',
+        'desc': 'Apply an Augmentation effect to allies for X turn(s), increasing their damage dealt by X% when attacking enemies with a Chain count of 5 or less.',
+        'cooldown': 5,
+        'tiers': [
+          {
+            'rank': 0,
+            'sp': 4,
+            'value': 1,
+            'turns': null,
+            'text': 'Apply an Augmentation effect to allies for X turn(s), increasing their damage dealt by X% when attacking enemies with a Chain count of 5 or less.'
+          },
+          {
+            'rank': 1,
+            'sp': 3,
+            'value': 1,
+            'turns': null,
+            'text': 'Apply an Augmentation effect to allies for X turn(s), increasing their damage dealt by X% when attacking enemies with a Chain count of 5 or less.'
+          },
+          {
+            'rank': 2,
+            'sp': 3,
+            'value': 1,
+            'turns': null,
+            'text': 'Apply an Augmentation effect to allies for X turn(s), increasing their damage dealt by X% when attacking enemies with a Chain count of 5 or less.'
+          },
+          {
+            'rank': 3,
+            'sp': 3,
+            'value': 1,
+            'turns': null,
+            'text': 'Apply an Augmentation effect to allies for X turn(s), increasing their damage dealt by X% when attacking enemies with a Chain count of 5 or less.'
+          },
+          {
+            'rank': 4,
+            'sp': 3,
+            'value': 1,
+            'turns': null,
+            'text': 'Apply an Augmentation effect to allies for X turn(s), increasing their damage dealt by X% when attacking enemies with a Chain count of 5 or less.'
+          },
+          {
+            'rank': 5,
+            'sp': 3,
+            'value': 2,
+            'turns': null,
+            'text': 'Apply an Augmentation effect to allies for X turn(s), increasing their damage dealt by X% when attacking enemies with a Chain count of 5 or less.'
+          }
+        ],
+        'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillicons/v2/skillicon_131.webp'
+      }
+    ],
+    'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/1107/icon.webp',
+    'body': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/1107/body.webp',
+    'skillCard': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillart/001107.webp'
+  },
+  {
+    'id': 1201,
+    'slug': 'rodev-s-star-liatris',
+    'name': 'Rodev\'s Star',
+    'nameJp': 'ロデブの星',
+    'nameKr': '로데브의 별',
+    'charSlug': 'liatris',
+    'charName': 'Liatris',
+    'element': 1,
+    'grade': 5,
+    'vaJp': 'Amane Shindo',
+    'talent': {
+      'name': 'Rush',
+      'mark': 'Talent_Buff013_Mark',
+      'skills': [
+        {
+          'name': 'Falling into Hubby\'s arms♡',
+          'desc': 'Boosts the movement speed by 25% for 15 seconds.',
+          'value': null,
+          'catalyst': 5,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_13_s.webp'
+        },
+        {
+          'name': 'Falling into Hubby\'s arms♡',
+          'desc': 'Boosts the movement speed by 25% for 18 seconds.',
+          'value': [
+            0,
+            8336,
+            0,
+            0
+          ],
+          'catalyst': 5,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_13_s.webp'
+        },
+        {
+          'name': 'Falling into Hubby\'s arms♡',
+          'desc': '',
+          'value': [
+            0,
+            8360,
+            0,
+            0
+          ],
+          'catalyst': 5,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_13_s.webp'
+        },
+        {
+          'name': 'Falling into Hubby\'s arms♡',
+          'desc': 'Boosts the movement speed by 25% for 24 seconds.',
+          'value': [
+            0,
+            8384,
+            0,
+            0
+          ],
+          'catalyst': 5,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_13_s.webp'
+        },
+        {
+          'name': 'Falling into Hubby\'s arms♡',
+          'desc': 'Boosts the movement speed by 25% for 30 seconds.',
+          'value': [
+            0,
+            8432,
+            0,
+            0
+          ],
+          'catalyst': 5,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_13_s.webp'
+        }
+      ]
+    },
+    'vaKr': 'Kim Bo-yeong',
+    'maxLevel': 5,
+    'skills': [
+      {
+        'name': 'Air Piercing',
+        'desc': 'Attack the enemy 5 times, dealing X Physical DMG equal to 30% of your ATK per hit. Apply a stacking Burn to the enemy for 5 turn(s), dealing X Physical DMG equal to 30% of your ATK per stack. Can stack up to X times.',
+        'cooldown': 3,
+        'tiers': [
+          {
+            'rank': 0,
+            'sp': 6,
+            'value': 30,
+            'turns': 5,
+            'text': 'Attack the enemy 5 times, dealing X Physical DMG equal to 30% of your ATK per hit. Apply a stacking Burn to the enemy for 5 turn(s), dealing X Physical DMG equal to 30% of your ATK per stack. Can stack up to X times.'
+          },
+          {
+            'rank': 1,
+            'sp': 6,
+            'value': null,
+            'turns': null,
+            'text': 'Attack the enemy 5 times, dealing X Physical DMG equal to X% of your ATK per hit. Apply a stacking Burn to the enemy for X turn(s), dealing X Physical DMG equal to X% of your ATK per stack. Can stack up to X times.'
+          },
+          {
+            'rank': 2,
+            'sp': 6,
+            'value': 30,
+            'turns': 5,
+            'text': 'Attack the enemy 5 times, dealing X Physical DMG equal to 30% of your ATK per hit. Apply a stacking Burn to the enemy for 5 turn(s), dealing X Physical DMG equal to 30% of your ATK per stack. Can stack up to X times.'
+          },
+          {
+            'rank': 3,
+            'sp': 5,
+            'value': 30,
+            'turns': 5,
+            'text': 'Attack the enemy 5 times, dealing X Physical DMG equal to 30% of your ATK per hit. Apply a stacking Burn to the enemy for 5 turn(s), dealing X Physical DMG equal to 30% of your ATK per stack. Can stack up to X times.'
+          },
+          {
+            'rank': 4,
+            'sp': 5,
+            'value': 30,
+            'turns': 5,
+            'text': 'Attack the enemy 5 times, dealing X Physical DMG equal to 30% of your ATK per hit. Apply a stacking Burn to the enemy for 5 turn(s), dealing X Physical DMG equal to 30% of your ATK per stack. Can stack up to X times.'
+          },
+          {
+            'rank': 5,
+            'sp': 5,
+            'value': null,
+            'turns': null,
+            'text': 'Attack the enemy 5 times, dealing X Physical DMG equal to X% of your ATK per hit. Apply a stacking Burn to the enemy for X turn(s), dealing X Physical DMG equal to X% of your ATK per stack. Can stack up to X times.'
+          }
+        ],
+        'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillicons/v2/skillicon_27.webp'
+      }
+    ],
+    'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/1201/icon.webp',
+    'body': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/1201/body.webp',
+    'skillCard': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillart/001201.webp'
+  },
+  {
+    'id': 1206,
+    'slug': 'neon-stalker-liatris',
+    'name': 'Neon Stalker',
+    'nameJp': 'ネオン・ストーカー',
+    'nameKr': '네온 스토커',
+    'charSlug': 'liatris',
+    'charName': 'Liatris',
+    'element': 1,
+    'grade': 5,
+    'vaJp': 'Amane Shindo',
+    'talent': {
+      'name': 'Rush',
+      'mark': 'Talent_Buff013_Mark',
+      'skills': [
+        {
+          'name': 'Falling into Hubby\'s arms♡',
+          'desc': 'Boosts the movement speed by 25% for 15 seconds.',
+          'value': null,
+          'catalyst': 5,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_13_s.webp'
+        },
+        {
+          'name': 'Falling into Hubby\'s arms♡',
+          'desc': 'Boosts the movement speed by 25% for 18 seconds.',
+          'value': [
+            0,
+            8336,
+            0,
+            0
+          ],
+          'catalyst': 5,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_13_s.webp'
+        },
+        {
+          'name': 'Falling into Hubby\'s arms♡',
+          'desc': '',
+          'value': [
+            0,
+            8360,
+            0,
+            0
+          ],
+          'catalyst': 5,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_13_s.webp'
+        },
+        {
+          'name': 'Falling into Hubby\'s arms♡',
+          'desc': 'Boosts the movement speed by 25% for 24 seconds.',
+          'value': [
+            0,
+            8384,
+            0,
+            0
+          ],
+          'catalyst': 5,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_13_s.webp'
+        },
+        {
+          'name': 'Falling into Hubby\'s arms♡',
+          'desc': 'Boosts the movement speed by 25% for 30 seconds.',
+          'value': [
+            0,
+            8432,
+            0,
+            0
+          ],
+          'catalyst': 5,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_13_s.webp'
+        }
+      ]
+    },
+    'vaKr': 'Kim Bo-yeong',
+    'maxLevel': 5,
+    'skills': [
+      {
+        'name': 'Fire Execution',
+        'desc': 'Attack the enemy 5 times, dealing X Physical DMG equal to 35% of your ATK per hit. Apply a stacking Burn to the enemy for 5 turn(s), dealing X Physical DMG equal to 35% of your ATK per stack. Can stack up to X times.',
+        'cooldown': 3,
+        'tiers': [
+          {
+            'rank': 0,
+            'sp': 4,
+            'value': 35,
+            'turns': 5,
+            'text': 'Attack the enemy 5 times, dealing X Physical DMG equal to 35% of your ATK per hit. Apply a stacking Burn to the enemy for 5 turn(s), dealing X Physical DMG equal to 35% of your ATK per stack. Can stack up to X times.'
+          },
+          {
+            'rank': 1,
+            'sp': 4,
+            'value': 35,
+            'turns': 5,
+            'text': 'Attack the enemy 5 times, dealing X Physical DMG equal to 35% of your ATK per hit. Apply a stacking Burn to the enemy for 5 turn(s), dealing X Physical DMG equal to 35% of your ATK per stack. Can stack up to X times.'
+          },
+          {
+            'rank': 2,
+            'sp': 4,
+            'value': 47,
+            'turns': 5,
+            'text': 'Attack the enemy 5 times, dealing X Physical DMG equal to 47% of your ATK per hit. Apply a stacking Burn to the enemy for 5 turn(s), dealing X Physical DMG equal to 47% of your ATK per stack. Can stack up to X times.'
+          },
+          {
+            'rank': 3,
+            'sp': 3,
+            'value': 47,
+            'turns': 5,
+            'text': 'Attack the enemy 5 times, dealing X Physical DMG equal to 47% of your ATK per hit. Apply a stacking Burn to the enemy for 5 turn(s), dealing X Physical DMG equal to 47% of your ATK per stack. Can stack up to X times.'
+          },
+          {
+            'rank': 4,
+            'sp': 3,
+            'value': 47,
+            'turns': 5,
+            'text': 'Attack the enemy 5 times, dealing X Physical DMG equal to 47% of your ATK per hit. Apply a stacking Burn to the enemy for 5 turn(s), dealing X Physical DMG equal to 47% of your ATK per stack. Can stack up to X times.'
+          },
+          {
+            'rank': 5,
+            'sp': 3,
+            'value': 55,
+            'turns': 5,
+            'text': 'Attack the enemy 5 times, dealing X Physical DMG equal to 55% of your ATK per hit. Apply a stacking Burn to the enemy for 5 turn(s), dealing X Physical DMG equal to 55% of your ATK per stack. Can stack up to X times.'
+          }
+        ],
+        'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillicons/v2/skillicon_93.webp'
+      }
+    ],
+    'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/1206/icon.webp',
+    'body': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/1206/body.webp',
+    'skillCard': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillart/001206.webp'
+  },
+  {
+    'id': 1207,
+    'slug': 'maid-name-r-liatris',
+    'name': 'Maid Name R',
+    'nameJp': 'メイドネームR',
+    'nameKr': '메이드네임 R',
+    'charSlug': 'liatris',
+    'charName': 'Liatris',
+    'element': 1,
+    'grade': 5,
+    'vaJp': 'Amane Shindo',
+    'talent': {
+      'name': 'Rush',
+      'mark': 'Talent_Buff013_Mark',
+      'skills': [
+        {
+          'name': 'Falling into Hubby\'s arms♡',
+          'desc': 'Boosts the movement speed by 25% for 15 seconds.',
+          'value': null,
+          'catalyst': 5,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_13_s.webp'
+        },
+        {
+          'name': 'Falling into Hubby\'s arms♡',
+          'desc': 'Boosts the movement speed by 25% for 18 seconds.',
+          'value': [
+            0,
+            8336,
+            0,
+            0
+          ],
+          'catalyst': 5,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_13_s.webp'
+        },
+        {
+          'name': 'Falling into Hubby\'s arms♡',
+          'desc': '',
+          'value': [
+            0,
+            8360,
+            0,
+            0
+          ],
+          'catalyst': 5,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_13_s.webp'
+        },
+        {
+          'name': 'Falling into Hubby\'s arms♡',
+          'desc': 'Boosts the movement speed by 25% for 24 seconds.',
+          'value': [
+            0,
+            8384,
+            0,
+            0
+          ],
+          'catalyst': 5,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_13_s.webp'
+        },
+        {
+          'name': 'Falling into Hubby\'s arms♡',
+          'desc': 'Boosts the movement speed by 25% for 30 seconds.',
+          'value': [
+            0,
+            8432,
+            0,
+            0
+          ],
+          'catalyst': 5,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_13_s.webp'
+        }
+      ]
+    },
+    'vaKr': 'Kim Bo-yeong',
+    'maxLevel': 5,
+    'skills': [
+      {
+        'name': 'Maid Love♡Fire',
+        'desc': 'Deal X Physical DMG to the enemy equal to 400% of your ATK. If the enemy is under DoT effects, deal &1& Physical DMG equal to &6&% of your ATK instead.',
+        'cooldown': 5,
+        'tiers': [
+          {
+            'rank': 0,
+            'sp': 4,
+            'value': 400,
+            'turns': null,
+            'text': 'Deal X Physical DMG to the enemy equal to 400% of your ATK. If the enemy is under DoT effects, deal &1& Physical DMG equal to &6&% of your ATK instead.'
+          },
+          {
+            'rank': 1,
+            'sp': 4,
+            'value': 400,
+            'turns': null,
+            'text': 'Deal X Physical DMG to the enemy equal to 400% of your ATK. If the enemy is under DoT effects, deal &1& Physical DMG equal to &6&% of your ATK instead.'
+          },
+          {
+            'rank': 2,
+            'sp': 4,
+            'value': 475,
+            'turns': null,
+            'text': 'Deal X Physical DMG to the enemy equal to 475% of your ATK. If the enemy is under DoT effects, deal &1& Physical DMG equal to &6&% of your ATK instead.'
+          },
+          {
+            'rank': 3,
+            'sp': 4,
+            'value': 475,
+            'turns': null,
+            'text': 'Deal X Physical DMG to the enemy equal to 475% of your ATK. If the enemy is under DoT effects, deal &1& Physical DMG equal to &6&% of your ATK instead.'
+          },
+          {
+            'rank': 4,
+            'sp': 4,
+            'value': 550,
+            'turns': null,
+            'text': 'Deal X Physical DMG to the enemy equal to 550% of your ATK. If the enemy is under DoT effects, deal &1& Physical DMG equal to &6&% of your ATK instead.'
+          },
+          {
+            'rank': 5,
+            'sp': 4,
+            'value': 550,
+            'turns': null,
+            'text': 'Deal X Physical DMG to the enemy equal to 550% of your ATK. If the enemy is under DoT effects, deal &1& Physical DMG equal to &6&% of your ATK instead.'
+          }
+        ],
+        'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillicons/v2/skillicon_110.webp'
+      }
+    ],
+    'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/1207/icon.webp',
+    'body': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/1207/body.webp',
+    'skillCard': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillart/001207.webp'
+  },
+  {
+    'id': 1301,
+    'slug': 'lugo-hunter-gynt',
+    'name': 'Lugo Hunter',
+    'nameJp': 'ルーゴ狩人',
+    'nameKr': '루고 사냥꾼',
+    'charSlug': 'gynt',
+    'charName': 'Gynt',
+    'element': 2,
+    'grade': 3,
+    'vaJp': 'Yohei Matsuoka',
+    'talent': null,
+    'vaKr': 'Lee Da-eun',
+    'maxLevel': 5,
+    'skills': [
+      {
+        'name': 'Jump Shot',
+        'desc': 'Attack the enemy 2 times, dealing X Physical DMG equal to 100% of your ATK per hit. Reduce enemy ATK by -50% for 4 turn(s).',
+        'cooldown': 7,
+        'tiers': [
+          {
+            'rank': 0,
+            'sp': 4,
+            'value': 100,
+            'turns': 4,
+            'text': 'Attack the enemy 2 times, dealing X Physical DMG equal to 100% of your ATK per hit. Reduce enemy ATK by -50% for 4 turn(s).'
+          },
+          {
+            'rank': 1,
+            'sp': 4,
+            'value': 100,
+            'turns': 4,
+            'text': 'Attack the enemy 2 times, dealing X Physical DMG equal to 100% of your ATK per hit. Reduce enemy ATK by -50% for 4 turn(s).'
+          },
+          {
+            'rank': 2,
+            'sp': 4,
+            'value': null,
+            'turns': null,
+            'text': 'Attack the enemy 2 times, dealing X Physical DMG equal to X% of your ATK per hit. Reduce enemy ATK by X% for X turn(s).'
+          },
+          {
+            'rank': 3,
+            'sp': 3,
+            'value': 125,
+            'turns': 4,
+            'text': 'Attack the enemy 2 times, dealing X Physical DMG equal to 125% of your ATK per hit. Reduce enemy ATK by -50% for 4 turn(s).'
+          },
+          {
+            'rank': 4,
+            'sp': 3,
+            'value': 175,
+            'turns': 4,
+            'text': 'Attack the enemy 2 times, dealing X Physical DMG equal to 175% of your ATK per hit. Reduce enemy ATK by -50% for 4 turn(s).'
+          },
+          {
+            'rank': 5,
+            'sp': 3,
+            'value': 250,
+            'turns': 4,
+            'text': 'Attack the enemy 2 times, dealing X Physical DMG equal to 250% of your ATK per hit. Reduce enemy ATK by -50% for 4 turn(s).'
+          }
+        ],
+        'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillicons/v2/skillicon_28.webp'
+      }
+    ],
+    'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/1301/icon.webp',
+    'body': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/1301/body.webp'
+  },
+  {
+    'id': 1401,
+    'slug': 'lugo-defense-force-fred',
+    'name': 'Lugo Defense Force',
+    'nameJp': 'ルーゴ守備隊',
+    'nameKr': '루고 수비대',
+    'charSlug': 'fred',
+    'charName': 'Fred',
+    'element': 2,
+    'grade': 3,
+    'vaJp': 'Joe Ninomiya',
+    'talent': {
+      'name': 'Craft Gear',
+      'mark': '0',
+      'skills': [
+        {
+          'name': 'Bring Out the Anvil!',
+          'desc': 'Crafts N grade gears.',
+          'value': null,
+          'catalyst': 3,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_9_s.webp'
+        },
+        {
+          'name': 'Bring Out the Anvil!',
+          'desc': 'Crafts N grade gears.',
+          'value': null,
+          'catalyst': 5,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_9_s.webp'
+        },
+        {
+          'name': 'Bring Out the Anvil!',
+          'desc': 'Crafts R grade gears.',
+          'value': null,
+          'catalyst': 10,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_9_s.webp'
+        },
+        {
+          'name': 'Bring Out the Anvil!',
+          'desc': 'Crafts SR grade gears.',
+          'value': null,
+          'catalyst': 18,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_9_s.webp'
+        },
+        {
+          'name': 'Bring Out the Anvil!',
+          'desc': 'Crafts UR grade gears.',
+          'value': null,
+          'catalyst': 28,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_9_s.webp'
+        }
+      ]
+    },
+    'vaKr': 'Jung Uhan',
+    'maxLevel': 5,
+    'skills': [
+      {
+        'name': 'Shield Slam',
+        'desc': 'Restore X SP to allies. Deal 1 Physical DMG to the enemy and knock them back 2 tiles backward. Any enemies they collide with take Physical DMG equal to X% of the knocked-back enemy\'s Max HP. Apply Bleed to the enemy for [5[ turn(s), dealing [1[ Physical DMG equal to [6[% of your ATK.',
+        'cooldown': 7,
+        'tiers': [
+          {
+            'rank': 0,
+            'sp': 2,
+            'value': null,
+            'turns': 6,
+            'text': 'Restore X SP to allies. Deal 1 Physical DMG to the enemy and knock them back 2 tiles backward. Any enemies they collide with take Physical DMG equal to X% of the knocked-back enemy\'s Max HP. Apply Bleed to the enemy for [5[ turn(s), dealing [1[ Physical DMG equal to [6[% of your ATK.'
+          },
+          {
+            'rank': 1,
+            'sp': 2,
+            'value': null,
+            'turns': 6,
+            'text': 'Restore X SP to allies. Deal 1 Physical DMG to the enemy and knock them back 2 tiles backward. Any enemies they collide with take Physical DMG equal to X% of the knocked-back enemy\'s Max HP. Apply Bleed to the enemy for [5[ turn(s), dealing [1[ Physical DMG equal to [6[% of your ATK.'
+          },
+          {
+            'rank': 2,
+            'sp': 2,
+            'value': null,
+            'turns': 6,
+            'text': 'Restore X SP to allies. Deal 1 Physical DMG to the enemy and knock them back 2 tiles backward. Any enemies they collide with take Physical DMG equal to X% of the knocked-back enemy\'s Max HP. Apply Bleed to the enemy for [5[ turn(s), dealing [1[ Physical DMG equal to [6[% of your ATK.'
+          },
+          {
+            'rank': 3,
+            'sp': 1,
+            'value': null,
+            'turns': null,
+            'text': 'Restore X SP to allies. Deal 1 Physical DMG to the enemy and knock them back 2 tiles backward. Any enemies they collide with take Physical DMG equal to X% of the knocked-back enemy\'s Max HP. Apply Bleed to the enemy for [5[ turn(s), dealing [1[ Physical DMG equal to [6[% of your ATK.'
+          },
+          {
+            'rank': 4,
+            'sp': 1,
+            'value': null,
+            'turns': 6,
+            'text': 'Restore X SP to allies. Deal 1 Physical DMG to the enemy and knock them back 2 tiles backward. Any enemies they collide with take Physical DMG equal to X% of the knocked-back enemy\'s Max HP. Apply Bleed to the enemy for [5[ turn(s), dealing [1[ Physical DMG equal to [6[% of your ATK.'
+          },
+          {
+            'rank': 5,
+            'sp': 1,
+            'value': null,
+            'turns': 6,
+            'text': 'Restore X SP to allies. Deal 1 Physical DMG to the enemy and knock them back 2 tiles backward. Any enemies they collide with take Physical DMG equal to X% of the knocked-back enemy\'s Max HP. Apply Bleed to the enemy for [5[ turn(s), dealing [1[ Physical DMG equal to [6[% of your ATK.'
+          }
+        ],
+        'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillicons/v2/skillicon_29.webp'
+      }
+    ],
+    'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/1401/icon.webp',
+    'body': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/1401/body.webp'
+  },
+  {
+    'id': 1501,
+    'slug': 'wandering-priest-lisianne',
+    'name': 'Wandering Priest',
+    'nameJp': '放浪の聖職者',
+    'nameKr': '방랑 성직자',
+    'charSlug': 'lisianne',
+    'charName': 'Lisianne',
+    'element': 2,
+    'grade': 4,
+    'vaJp': 'Yukino Uehara',
+    'talent': {
+      'name': 'Revival',
+      'mark': '0',
+      'skills': [
+        {
+          'name': 'Church Relief Order',
+          'desc': 'Fatigue is recovered to 1 HP',
+          'value': [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          'catalyst': 10,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_10_s.webp'
+        },
+        {
+          'name': 'Church Relief Order',
+          'desc': 'Fatigue is recovered to 1 HP',
+          'value': [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          'catalyst': 9,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_10_s.webp'
+        },
+        {
+          'name': 'Church Relief Order',
+          'desc': 'Fatigue is recovered to 1 HP',
+          'value': [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          'catalyst': 8,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_10_s.webp'
+        },
+        {
+          'name': 'Church Relief Order',
+          'desc': 'Fatigue is recovered to 1 HP',
+          'value': [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          'catalyst': 7,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_10_s.webp'
+        }
+      ]
+    },
+    'vaKr': 'Yoon Eun-seo',
+    'maxLevel': 5,
+    'skills': [
+      {
+        'name': 'Prayer for Healing',
+        'desc': 'Heal allies for X equal to 50% of your Magic ATK. Remove DoT effects from allies.',
+        'cooldown': 7,
+        'tiers': [
+          {
+            'rank': 0,
+            'sp': 3,
+            'value': 50,
+            'turns': null,
+            'text': 'Heal allies for X equal to 50% of your Magic ATK. Remove DoT effects from allies.'
+          },
+          {
+            'rank': 1,
+            'sp': 3,
+            'value': 50,
+            'turns': null,
+            'text': 'Heal allies for X equal to 50% of your Magic ATK. Remove DoT effects from allies.'
+          },
+          {
+            'rank': 2,
+            'sp': 3,
+            'value': 70,
+            'turns': null,
+            'text': 'Heal allies for X equal to 70% of your Magic ATK. Remove DoT effects from allies.'
+          },
+          {
+            'rank': 3,
+            'sp': 2,
+            'value': 70,
+            'turns': null,
+            'text': 'Heal allies for X equal to 70% of your Magic ATK. Remove DoT effects from allies.'
+          },
+          {
+            'rank': 4,
+            'sp': 2,
+            'value': 100,
+            'turns': null,
+            'text': 'Heal allies for X equal to 100% of your Magic ATK. Remove DoT effects from allies.'
+          },
+          {
+            'rank': 5,
+            'sp': 2,
+            'value': 150,
+            'turns': null,
+            'text': 'Heal allies for X equal to 150% of your Magic ATK. Remove DoT effects from allies.'
+          }
+        ],
+        'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillicons/v2/skillicon_30.webp'
+      }
+    ],
+    'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/1501/icon.webp',
+    'body': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/1501/body.webp'
+  },
+  {
+    'id': 1601,
+    'slug': 'righteous-raider-girl-bernie',
+    'name': 'Righteous Raider Girl',
+    'nameJp': '義賊少女',
+    'nameKr': '의적 소녀',
+    'charSlug': 'bernie',
+    'charName': 'Bernie',
+    'element': 2,
+    'grade': 4,
+    'vaJp': 'Hikaru Iida',
+    'talent': {
+      'name': 'Steal',
+      'mark': '0',
+      'skills': [
+        {
+          'name': 'Hands faster than the eyes',
+          'desc': 'You can steal item(s) from the target NPC.',
+          'value': null,
+          'catalyst': 1,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_1_s.webp'
+        },
+        {
+          'name': 'Hands faster than the eyes',
+          'desc': 'You can steal item(s) from the target NPC.',
+          'value': null,
+          'catalyst': 2,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_1_s.webp'
+        },
+        {
+          'name': 'Hands faster than the eyes',
+          'desc': 'You can steal item(s) from the target NPC.',
+          'value': null,
+          'catalyst': 3,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_1_s.webp'
+        },
+        {
+          'name': 'Hands faster than the eyes',
+          'desc': 'You can steal item(s) from the target NPC.',
+          'value': null,
+          'catalyst': 4,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_1_s.webp'
+        },
+        {
+          'name': 'Hands faster than the eyes',
+          'desc': 'You can steal item(s) from the target NPC.',
+          'value': null,
+          'catalyst': 5,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_1_s.webp'
+        }
+      ]
+    },
+    'vaKr': 'Yu Yeong',
+    'maxLevel': 5,
+    'skills': [
+      {
+        'name': 'Drain Dagger',
+        'desc': 'Restore X SP to allies each time an attack hits an enemy. Attack the enemy 2 times, dealing X Physical DMG equal to X% of your ATK per hit. Apply Silence to the enemy for [5[ turn(s).',
+        'cooldown': 7,
+        'tiers': [
+          {
+            'rank': 0,
+            'sp': 4,
+            'value': 2,
+            'turns': 2,
+            'text': 'Restore X SP to allies each time an attack hits an enemy. Attack the enemy 2 times, dealing X Physical DMG equal to X% of your ATK per hit. Apply Silence to the enemy for [5[ turn(s).'
+          },
+          {
+            'rank': 1,
+            'sp': 4,
+            'value': null,
+            'turns': null,
+            'text': 'Restore X SP to allies each time an attack hits an enemy. Attack the enemy 2 times, dealing X Physical DMG equal to X% of your ATK per hit. Apply Silence to the enemy for [5[ turn(s).'
+          },
+          {
+            'rank': 2,
+            'sp': 4,
+            'value': 2,
+            'turns': 2,
+            'text': 'Restore X SP to allies each time an attack hits an enemy. Attack the enemy 2 times, dealing X Physical DMG equal to X% of your ATK per hit. Apply Silence to the enemy for [5[ turn(s).'
+          },
+          {
+            'rank': 3,
+            'sp': 3,
+            'value': null,
+            'turns': null,
+            'text': 'Restore X SP to allies each time an attack hits an enemy. Attack the enemy 2 times, dealing X Physical DMG equal to X% of your ATK per hit. Apply Silence to the enemy for [5[ turn(s).'
+          },
+          {
+            'rank': 4,
+            'sp': 3,
+            'value': 2,
+            'turns': 2,
+            'text': 'Restore X SP to allies each time an attack hits an enemy. Attack the enemy 2 times, dealing X Physical DMG equal to X% of your ATK per hit. Apply Silence to the enemy for [5[ turn(s).'
+          },
+          {
+            'rank': 5,
+            'sp': 3,
+            'value': null,
+            'turns': null,
+            'text': 'Restore X SP to allies each time an attack hits an enemy. Attack the enemy 2 times, dealing X Physical DMG equal to X% of your ATK per hit. Apply Silence to the enemy for [5[ turn(s).'
+          }
+        ],
+        'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillicons/v2/skillicon_31.webp'
+      }
+    ],
+    'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/1601/icon.webp',
+    'body': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/1601/body.webp'
+  },
+  {
+    'id': 2401,
+    'slug': 'adventurer-of-the-unknown-diana',
+    'name': 'Adventurer of the Unknown',
+    'nameJp': '未知の探求者',
+    'nameKr': '미지의 탐구자',
+    'charSlug': 'diana',
+    'charName': 'Diana',
+    'element': 2,
+    'grade': 5,
+    'vaJp': 'Kaori Maeda',
+    'talent': {
+      'name': 'Dispatch',
+      'mark': '0',
+      'skills': [
+        {
+          'name': '',
+          'desc': 'Greedy Patty, Troublesome Rusty can bring you useful items.\\nDispatch ends at 09 a.m. (KST)',
+          'value': 64,
+          'catalyst': 5,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_18_s.webp'
+        },
+        {
+          'name': '',
+          'desc': 'Greedy Patty, Troublesome Rusty, Sassy Dusty can bring you useful items.\\nDispatch ends at 09 a.m. (KST)',
+          'value': 64,
+          'catalyst': 5,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_18_s.webp'
+        },
+        {
+          'name': '',
+          'desc': 'Greedy Patty, Troublesome Rusty, Sassy Dusty can bring you a bit more useful items.\\nDispatch ends at 09 a.m. (KST)',
+          'value': 64,
+          'catalyst': 5,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_18_s.webp'
+        },
+        {
+          'name': '',
+          'desc': 'Greedy Patty, Troublesome Rusty, Sassy Dusty can bring you very useful items.\\nDispatch ends at 09 a.m. (KST)',
+          'value': [
+            1114208,
+            16256
+          ],
+          'catalyst': 5,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_18_s.webp'
+        }
+      ]
+    },
+    'vaKr': 'Kim Seon-hye',
+    'maxLevel': 5,
+    'skills': [
+      {
+        'name': 'Elemental Reverse',
+        'desc': 'Apply an Aura to yourself for X turn(s). Allies within the Aura gain a >6>% increase in Property DMG and a >8>% increase in Crit Rate.',
+        'cooldown': 9,
+        'tiers': [
+          {
+            'rank': 0,
+            'sp': 3,
+            'value': null,
+            'turns': null,
+            'text': 'Apply an Aura to yourself for X turn(s). Allies within the Aura gain a >6>% increase in Property DMG and a >8>% increase in Crit Rate.'
+          },
+          {
+            'rank': 1,
+            'sp': 3,
+            'value': null,
+            'turns': null,
+            'text': 'Apply an Aura to yourself for X turn(s). Allies within the Aura gain a >6>% increase in Property DMG and a >8>% increase in Crit Rate.'
+          },
+          {
+            'rank': 2,
+            'sp': 3,
+            'value': null,
+            'turns': null,
+            'text': 'Apply an Aura to yourself for X turn(s). Allies within the Aura gain a >6>% increase in Property DMG and a >8>% increase in Crit Rate.'
+          },
+          {
+            'rank': 3,
+            'sp': 2,
+            'value': null,
+            'turns': null,
+            'text': 'Apply an Aura to yourself for X turn(s). Allies within the Aura gain a >6>% increase in Property DMG and a >8>% increase in Crit Rate.'
+          },
+          {
+            'rank': 4,
+            'sp': 2,
+            'value': null,
+            'turns': null,
+            'text': 'Apply an Aura to yourself for X turn(s). Allies within the Aura gain a >6>% increase in Property DMG and a >8>% increase in Crit Rate.'
+          },
+          {
+            'rank': 5,
+            'sp': 2,
+            'value': null,
+            'turns': null,
+            'text': 'Apply an Aura to yourself for X turn(s). Allies within the Aura gain a >6>% increase in Property DMG and a >8>% increase in Crit Rate.'
+          }
+        ],
+        'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillicons/v2/skillicon_35.webp'
+      }
+    ],
+    'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/2401/icon.webp',
+    'body': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/2401/body.webp',
+    'skillCard': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillart/002401.webp'
+  },
+  {
+    'id': 2403,
+    'slug': 'magical-innovator-diana',
+    'name': 'Magical Innovator',
+    'nameJp': 'マジカル・イノベーター',
+    'nameKr': '매지컬 이노베이터',
+    'charSlug': 'diana',
+    'charName': 'Diana',
+    'element': 2,
+    'grade': 5,
+    'vaJp': 'Kaori Maeda',
+    'talent': {
+      'name': 'Dispatch',
+      'mark': '0',
+      'skills': [
+        {
+          'name': '',
+          'desc': 'Greedy Patty, Troublesome Rusty can bring you useful items.\\nDispatch ends at 09 a.m. (KST)',
+          'value': 64,
+          'catalyst': 5,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_18_s.webp'
+        },
+        {
+          'name': '',
+          'desc': 'Greedy Patty, Troublesome Rusty, Sassy Dusty can bring you useful items.\\nDispatch ends at 09 a.m. (KST)',
+          'value': 64,
+          'catalyst': 5,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_18_s.webp'
+        },
+        {
+          'name': '',
+          'desc': 'Greedy Patty, Troublesome Rusty, Sassy Dusty can bring you a bit more useful items.\\nDispatch ends at 09 a.m. (KST)',
+          'value': 64,
+          'catalyst': 5,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_18_s.webp'
+        },
+        {
+          'name': '',
+          'desc': 'Greedy Patty, Troublesome Rusty, Sassy Dusty can bring you very useful items.\\nDispatch ends at 09 a.m. (KST)',
+          'value': [
+            1114208,
+            16256
+          ],
+          'catalyst': 5,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_18_s.webp'
+        }
+      ]
+    },
+    'vaKr': 'Kim Seon-hye',
+    'maxLevel': 5,
+    'skills': [
+      {
+        'name': 'Magical Field Expansion',
+        'desc': 'Preemptive ActionUse Allied Zone Summon to create X Magic Amplifier ET001.',
+        'cooldown': 15,
+        'tiers': [
+          {
+            'rank': 0,
+            'sp': 5,
+            'value': 5030,
+            'turns': null,
+            'text': 'Preemptive ActionUse Allied Zone Summon to create X Magic Amplifier ET001.'
+          },
+          {
+            'rank': 1,
+            'sp': 5,
+            'value': 5031,
+            'turns': null,
+            'text': 'Preemptive ActionUse Allied Zone Summon to create X Magic Amplifier ET001.'
+          },
+          {
+            'rank': 2,
+            'sp': 5,
+            'value': 5032,
+            'turns': null,
+            'text': 'Preemptive ActionUse Allied Zone Summon to create X Magic Amplifier ET001.'
+          },
+          {
+            'rank': 3,
+            'sp': 5,
+            'value': 5033,
+            'turns': null,
+            'text': 'Preemptive ActionUse Allied Zone Summon to create X Magic Amplifier ET001.'
+          },
+          {
+            'rank': 4,
+            'sp': 5,
+            'value': 5034,
+            'turns': null,
+            'text': 'Preemptive ActionUse Allied Zone Summon to create X Magic Amplifier ET001.'
+          },
+          {
+            'rank': 5,
+            'sp': 5,
+            'value': 5035,
+            'turns': null,
+            'text': 'Preemptive ActionUse Allied Zone Summon to create X Magic Amplifier ET001.'
+          }
+        ],
+        'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillicons/v2/skillicon_191.webp'
+      }
+    ],
+    'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/2403/icon.webp',
+    'body': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/2403/body.webp',
+    'skillCard': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillart/002403.webp'
+  },
+  {
+    'id': 2406,
+    'slug': 'anti-dystopia-diana',
+    'name': 'Anti-dystopia',
+    'nameJp': 'アンチ・ディストピア',
+    'nameKr': '안티 디스토피아',
+    'charSlug': 'diana',
+    'charName': 'Diana',
+    'element': 2,
+    'grade': 5,
+    'vaJp': 'Kaori Maeda',
+    'talent': {
+      'name': 'Dispatch',
+      'mark': '0',
+      'skills': [
+        {
+          'name': '',
+          'desc': 'Greedy Patty, Troublesome Rusty can bring you useful items.\\nDispatch ends at 09 a.m. (KST)',
+          'value': 64,
+          'catalyst': 5,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_18_s.webp'
+        },
+        {
+          'name': '',
+          'desc': 'Greedy Patty, Troublesome Rusty, Sassy Dusty can bring you useful items.\\nDispatch ends at 09 a.m. (KST)',
+          'value': 64,
+          'catalyst': 5,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_18_s.webp'
+        },
+        {
+          'name': '',
+          'desc': 'Greedy Patty, Troublesome Rusty, Sassy Dusty can bring you a bit more useful items.\\nDispatch ends at 09 a.m. (KST)',
+          'value': 64,
+          'catalyst': 5,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_18_s.webp'
+        },
+        {
+          'name': '',
+          'desc': 'Greedy Patty, Troublesome Rusty, Sassy Dusty can bring you very useful items.\\nDispatch ends at 09 a.m. (KST)',
+          'value': [
+            1114208,
+            16256
+          ],
+          'catalyst': 5,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_18_s.webp'
+        }
+      ]
+    },
+    'vaKr': 'Kim Seon-hye',
+    'maxLevel': 5,
+    'skills': [
+      {
+        'name': 'Champagne Shower',
+        'desc': 'Apply an Aura to yourself for X turn(s). Allies within the Aura gain an Energy Guard equal to >6>% of your Magic ATK, which regenerates each turn.',
+        'cooldown': 5,
+        'tiers': [
+          {
+            'rank': 0,
+            'sp': 2,
+            'value': null,
+            'turns': null,
+            'text': 'Apply an Aura to yourself for X turn(s). Allies within the Aura gain an Energy Guard equal to >6>% of your Magic ATK, which regenerates each turn.'
+          },
+          {
+            'rank': 1,
+            'sp': 1,
+            'value': null,
+            'turns': null,
+            'text': 'Apply an Aura to yourself for X turn(s). Allies within the Aura gain an Energy Guard equal to >6>% of your Magic ATK, which regenerates each turn.'
+          },
+          {
+            'rank': 2,
+            'sp': 1,
+            'value': null,
+            'turns': null,
+            'text': 'Apply an Aura to yourself for X turn(s). Allies within the Aura gain an Energy Guard equal to >6>% of your Magic ATK, which regenerates each turn.'
+          },
+          {
+            'rank': 3,
+            'sp': 1,
+            'value': null,
+            'turns': null,
+            'text': 'Apply an Aura to yourself for X turn(s). Allies within the Aura gain an Energy Guard equal to >6>% of your Magic ATK, which regenerates each turn.'
+          },
+          {
+            'rank': 4,
+            'sp': 1,
+            'value': null,
+            'turns': null,
+            'text': 'Apply an Aura to yourself for X turn(s). Allies within the Aura gain an Energy Guard equal to >6>% of your Magic ATK, which regenerates each turn.'
+          },
+          {
+            'rank': 5,
+            'sp': 1,
+            'value': null,
+            'turns': null,
+            'text': 'Apply an Aura to yourself for X turn(s). Allies within the Aura gain an Energy Guard equal to >6>% of your Magic ATK, which regenerates each turn.'
+          }
+        ],
+        'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillicons/v2/skillicon_104.webp'
+      }
+    ],
+    'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/2406/icon.webp',
+    'body': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/2406/body.webp',
+    'skillCard': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillart/002406.webp'
+  },
+  {
+    'id': 3001,
+    'slug': 'anvil-of-creation-layla',
+    'name': 'Anvil of Creation',
+    'nameJp': '想像の金床',
+    'nameKr': '창조의 모루',
+    'charSlug': 'layla',
+    'charName': 'Layla',
+    'element': 3,
+    'grade': 4,
+    'vaJp': 'Aira Iryo',
+    'talent': {
+      'name': 'Craft Gear',
+      'mark': '0',
+      'skills': [
+        {
+          'name': 'Click clack, click clack!',
+          'desc': 'Crafts N grade gears.',
+          'value': null,
+          'catalyst': 3,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_9_s.webp'
+        },
+        {
+          'name': 'Click clack, click clack!',
+          'desc': 'Crafts N grade gears.',
+          'value': null,
+          'catalyst': 5,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_9_s.webp'
+        },
+        {
+          'name': 'Click clack, click clack!',
+          'desc': 'Crafts R grade gears.',
+          'value': null,
+          'catalyst': 10,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_9_s.webp'
+        },
+        {
+          'name': 'Click clack, click clack!',
+          'desc': 'Crafts SR grade gears.',
+          'value': null,
+          'catalyst': 18,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_9_s.webp'
+        },
+        {
+          'name': 'Click clack, click clack!',
+          'desc': 'Crafts UR grade gears.',
+          'value': null,
+          'catalyst': 28,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_9_s.webp'
+        }
+      ]
+    },
+    'vaKr': 'Jung Yu-jung',
+    'maxLevel': 5,
+    'skills': [
+      {
+        'name': 'Anvil of Destruction',
+        'desc': 'Restore X SP to allies each time an attack hits an enemy. Attack the enemy 2 times, dealing X Physical DMG equal to X% of your ATK per hit.',
+        'cooldown': 7,
+        'tiers': [
+          {
+            'rank': 0,
+            'sp': 6,
+            'value': 1,
+            'turns': null,
+            'text': 'Restore X SP to allies each time an attack hits an enemy. Attack the enemy 2 times, dealing X Physical DMG equal to X% of your ATK per hit.'
+          },
+          {
+            'rank': 1,
+            'sp': 6,
+            'value': null,
+            'turns': null,
+            'text': 'Restore X SP to allies each time an attack hits an enemy. Attack the enemy 2 times, dealing X Physical DMG equal to X% of your ATK per hit.'
+          },
+          {
+            'rank': 2,
+            'sp': 6,
+            'value': 1,
+            'turns': null,
+            'text': 'Restore X SP to allies each time an attack hits an enemy. Attack the enemy 2 times, dealing X Physical DMG equal to X% of your ATK per hit.'
+          },
+          {
+            'rank': 3,
+            'sp': 5,
+            'value': null,
+            'turns': null,
+            'text': 'Restore X SP to allies each time an attack hits an enemy. Attack the enemy 2 times, dealing X Physical DMG equal to X% of your ATK per hit.'
+          },
+          {
+            'rank': 4,
+            'sp': 5,
+            'value': 1,
+            'turns': null,
+            'text': 'Restore X SP to allies each time an attack hits an enemy. Attack the enemy 2 times, dealing X Physical DMG equal to X% of your ATK per hit.'
+          },
+          {
+            'rank': 5,
+            'sp': 5,
+            'value': null,
+            'turns': null,
+            'text': 'Restore X SP to allies each time an attack hits an enemy. Attack the enemy 2 times, dealing X Physical DMG equal to X% of your ATK per hit.'
+          }
+        ],
+        'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillicons/v2/skillicon_85.webp'
+      }
+    ],
+    'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/3001/icon.webp',
+    'body': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/3001/body.webp',
+    'skillCard': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillart/003001.webp'
+  },
+  {
+    'id': 3101,
+    'slug': 'hand-of-salvation-elpis',
+    'name': 'Hand of Salvation',
+    'nameJp': '救いの手',
+    'nameKr': '구원의 손길',
+    'charSlug': 'elpis',
+    'charName': 'Elpis',
+    'element': 4,
+    'grade': 4,
+    'vaJp': 'Nozomi Masu',
+    'talent': null,
+    'vaKr': 'Oh Ro-ah',
+    'maxLevel': 5,
+    'skills': [
+      {
+        'name': 'Prayer of the Sanctuary',
+        'desc': 'Ally Magic ATK is increased by 30% for 6 turn(s). Ally Crit Rate is increased by 30% for 6 turn(s).',
+        'cooldown': 5,
+        'tiers': [
+          {
+            'rank': 0,
+            'sp': 3,
+            'value': 25,
+            'turns': 6,
+            'text': 'Ally Magic ATK is increased by 30% for 6 turn(s). Ally Crit Rate is increased by 30% for 6 turn(s).'
+          },
+          {
+            'rank': 1,
+            'sp': 3,
+            'value': null,
+            'turns': null,
+            'text': 'Ally Magic ATK is increased by X% for X turn(s). Ally Crit Rate is increased by X% for X turn(s).'
+          },
+          {
+            'rank': 2,
+            'sp': 2,
+            'value': 40,
+            'turns': 6,
+            'text': 'Ally Magic ATK is increased by 30% for 6 turn(s). Ally Crit Rate is increased by 30% for 6 turn(s).'
+          },
+          {
+            'rank': 3,
+            'sp': 2,
+            'value': null,
+            'turns': null,
+            'text': 'Ally Magic ATK is increased by X% for X turn(s). Ally Crit Rate is increased by X% for X turn(s).'
+          },
+          {
+            'rank': 4,
+            'sp': 2,
+            'value': 55,
+            'turns': 6,
+            'text': 'Ally Magic ATK is increased by 35% for 6 turn(s). Ally Crit Rate is increased by 35% for 6 turn(s).'
+          },
+          {
+            'rank': 5,
+            'sp': 2,
+            'value': null,
+            'turns': null,
+            'text': 'Ally Magic ATK is increased by X% for X turn(s). Ally Crit Rate is increased by X% for X turn(s).'
+          }
+        ],
+        'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillicons/v2/skillicon_118.webp'
+      }
+    ],
+    'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/3101/icon.webp',
+    'body': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/3101/body.webp',
+    'skillCard': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillart/003101.webp'
+  },
+  {
+    'id': 3201,
+    'slug': 'last-hope-loen',
+    'name': 'Last Hope',
+    'nameJp': '最後の希望',
+    'nameKr': '마지막 희망',
+    'charSlug': 'loen',
+    'charName': 'Loen',
+    'element': 1,
+    'grade': 5,
+    'vaJp': 'Ayuru Ohashi',
+    'talent': null,
+    'vaKr': 'Kim Chae Rin',
+    'maxLevel': 5,
+    'skills': [
+      {
+        'name': 'Descending Inferno',
+        'desc': 'Deal X Magic DMG to the enemy equal to 500% of your Magic ATK.',
+        'cooldown': 3,
+        'tiers': [
+          {
+            'rank': 0,
+            'sp': 5,
+            'value': 500,
+            'turns': null,
+            'text': 'Deal X Magic DMG to the enemy equal to 500% of your Magic ATK.'
+          },
+          {
+            'rank': 1,
+            'sp': 5,
+            'value': 570,
+            'turns': null,
+            'text': 'Deal X Magic DMG to the enemy equal to 570% of your Magic ATK.'
+          },
+          {
+            'rank': 2,
+            'sp': 5,
+            'value': 640,
+            'turns': null,
+            'text': 'Deal X Magic DMG to the enemy equal to 640% of your Magic ATK.'
+          },
+          {
+            'rank': 3,
+            'sp': 5,
+            'value': 710,
+            'turns': null,
+            'text': 'Deal X Magic DMG to the enemy equal to 710% of your Magic ATK.'
+          },
+          {
+            'rank': 4,
+            'sp': 5,
+            'value': 780,
+            'turns': null,
+            'text': 'Deal X Magic DMG to the enemy equal to 780% of your Magic ATK.'
+          },
+          {
+            'rank': 5,
+            'sp': 5,
+            'value': 850,
+            'turns': null,
+            'text': 'Deal X Magic DMG to the enemy equal to 850% of your Magic ATK.'
+          }
+        ],
+        'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillicons/v2/skillicon_119.webp'
+      }
+    ],
+    'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/3201/icon.webp',
+    'body': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/3201/body.webp',
+    'skillCard': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillart/003201.webp'
+  },
+  {
+    'id': 3202,
+    'slug': 'track-and-field-team-loen',
+    'name': 'Track and Field Team',
+    'nameJp': '陸上部 部員',
+    'nameKr': '육상부 부원',
+    'charSlug': 'loen',
+    'charName': 'Loen',
+    'element': 1,
+    'grade': 5,
+    'vaJp': 'Ayuru Ohashi',
+    'talent': null,
+    'vaKr': 'Kim Chae Rin',
+    'maxLevel': 5,
+    'skills': [
+      {
+        'name': 'Explosive Dive!',
+        'desc': 'Your Magic ATK is increased by 60% for 4 turn(s). Attack the enemy 2 times, dealing X Magic DMG equal to 200% of your Magic ATK per hit.',
+        'cooldown': 5,
+        'tiers': [
+          {
+            'rank': 0,
+            'sp': 5,
+            'value': 200,
+            'turns': 4,
+            'text': 'Your Magic ATK is increased by 60% for 4 turn(s). Attack the enemy 2 times, dealing X Magic DMG equal to 200% of your Magic ATK per hit.'
+          },
+          {
+            'rank': 1,
+            'sp': 4,
+            'value': null,
+            'turns': null,
+            'text': 'Your Magic ATK is increased by X% for X turn(s). Attack the enemy 2 times, dealing X Magic DMG equal to X% of your Magic ATK per hit.'
+          },
+          {
+            'rank': 2,
+            'sp': 4,
+            'value': 215,
+            'turns': 4,
+            'text': 'Your Magic ATK is increased by 80% for 4 turn(s). Attack the enemy 2 times, dealing X Magic DMG equal to 215% of your Magic ATK per hit.'
+          },
+          {
+            'rank': 3,
+            'sp': 4,
+            'value': null,
+            'turns': null,
+            'text': 'Your Magic ATK is increased by X% for X turn(s). Attack the enemy 2 times, dealing X Magic DMG equal to X% of your Magic ATK per hit.'
+          },
+          {
+            'rank': 4,
+            'sp': 4,
+            'value': 265,
+            'turns': 4,
+            'text': 'Your Magic ATK is increased by 100% for 4 turn(s). Attack the enemy 2 times, dealing X Magic DMG equal to 265% of your Magic ATK per hit.'
+          },
+          {
+            'rank': 5,
+            'sp': 4,
+            'value': null,
+            'turns': null,
+            'text': 'Your Magic ATK is increased by X% for X turn(s). Attack the enemy 2 times, dealing X Magic DMG equal to X% of your Magic ATK per hit.'
+          }
+        ],
+        'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillicons/v2/skillicon_129.webp'
+      }
+    ],
+    'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/3202/icon.webp',
+    'body': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/3202/body.webp',
+    'skillCard': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillart/003202.webp'
+  },
+  {
+    'id': 3203,
+    'slug': 'celebrity-bunny-loen',
+    'name': 'Celebrity Bunny',
+    'nameJp': 'セレブリティ・バニー',
+    'nameKr': '셀레브리티 바니',
+    'charSlug': 'loen',
+    'charName': 'Loen',
+    'element': 1,
+    'grade': 5,
+    'vaJp': 'Ayuru Ohashi',
+    'talent': null,
+    'vaKr': 'Kim Chae Rin',
+    'maxLevel': 5,
+    'skills': [
+      {
+        'name': 'EMP Flash',
+        'desc': 'Deal X Magic DMG to the enemy equal to 50% of your Magic ATK. Damage increases by X% per target.',
+        'cooldown': 9,
+        'tiers': [
+          {
+            'rank': 0,
+            'sp': 7,
+            'value': 50,
+            'turns': null,
+            'text': 'Deal X Magic DMG to the enemy equal to 50% of your Magic ATK. Damage increases by X% per target.'
+          },
+          {
+            'rank': 1,
+            'sp': 6,
+            'value': 50,
+            'turns': null,
+            'text': 'Deal X Magic DMG to the enemy equal to 50% of your Magic ATK. Damage increases by X% per target.'
+          },
+          {
+            'rank': 2,
+            'sp': 6,
+            'value': 50,
+            'turns': null,
+            'text': 'Deal X Magic DMG to the enemy equal to 50% of your Magic ATK. Damage increases by X% per target.'
+          },
+          {
+            'rank': 3,
+            'sp': 6,
+            'value': 50,
+            'turns': null,
+            'text': 'Deal X Magic DMG to the enemy equal to 50% of your Magic ATK. Damage increases by X% per target.'
+          },
+          {
+            'rank': 4,
+            'sp': 6,
+            'value': 50,
+            'turns': null,
+            'text': 'Deal X Magic DMG to the enemy equal to 50% of your Magic ATK. Damage increases by X% per target.'
+          },
+          {
+            'rank': 5,
+            'sp': 6,
+            'value': 50,
+            'turns': null,
+            'text': 'Deal X Magic DMG to the enemy equal to 50% of your Magic ATK. Damage increases by X% per target.'
+          }
+        ],
+        'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillicons/v2/skillicon_149.webp'
+      }
+    ],
+    'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/3203/icon.webp',
+    'body': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/3203/body.webp',
+    'skillCard': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillart/003203.webp'
+  },
+  {
+    'id': 3301,
+    'slug': 'labyrinth-gatekeeper-nebris',
+    'name': 'Labyrinth Gatekeeper',
+    'nameJp': '迷宮の門番',
+    'nameKr': '미궁의 문지기',
+    'charSlug': 'nebris',
+    'charName': 'Nebris',
+    'element': 2,
+    'grade': 5,
+    'vaJp': 'Juri Nagatsuma',
+    'talent': null,
+    'vaKr': 'Bang Si-u',
+    'maxLevel': 5,
+    'skills': [
+      {
+        'name': 'Gatekeeper\'s Power',
+        'desc': 'Apply an Augmentation effect to yourself for 6 turn(s), increasing your damage dealt by X%. If you already have an Augmentation effect, increase Crit DMG by :6:% for :5: turn(s) instead. Attack the enemy 2 times, dealing X Physical DMG equal to 125% of your ATK per hit.',
+        'cooldown': 3,
+        'tiers': [
+          {
+            'rank': 0,
+            'sp': 4,
+            'value': 125,
+            'turns': 6,
+            'text': 'Apply an Augmentation effect to yourself for 6 turn(s), increasing your damage dealt by X%. If you already have an Augmentation effect, increase Crit DMG by :6:% for :5: turn(s) instead. Attack the enemy 2 times, dealing X Physical DMG equal to 125% of your ATK per hit.'
+          },
+          {
+            'rank': 1,
+            'sp': 3,
+            'value': null,
+            'turns': null,
+            'text': 'Apply an Augmentation effect to yourself for X turn(s), increasing your damage dealt by X%. If you already have an Augmentation effect, increase Crit DMG by :6:% for :5: turn(s) instead. Attack the enemy 2 times, dealing X Physical DMG equal to X% of your ATK per hit.'
+          },
+          {
+            'rank': 2,
+            'sp': 3,
+            'value': 125,
+            'turns': 6,
+            'text': 'Apply an Augmentation effect to yourself for 6 turn(s), increasing your damage dealt by X%. If you already have an Augmentation effect, increase Crit DMG by :6:% for :5: turn(s) instead. Attack the enemy 2 times, dealing X Physical DMG equal to 125% of your ATK per hit.'
+          },
+          {
+            'rank': 3,
+            'sp': 3,
+            'value': null,
+            'turns': null,
+            'text': 'Apply an Augmentation effect to yourself for X turn(s), increasing your damage dealt by X%. If you already have an Augmentation effect, increase Crit DMG by :6:% for :5: turn(s) instead. Attack the enemy 2 times, dealing X Physical DMG equal to X% of your ATK per hit.'
+          },
+          {
+            'rank': 4,
+            'sp': 3,
+            'value': 150,
+            'turns': 6,
+            'text': 'Apply an Augmentation effect to yourself for 6 turn(s), increasing your damage dealt by X%. If you already have an Augmentation effect, increase Crit DMG by :6:% for :5: turn(s) instead. Attack the enemy 2 times, dealing X Physical DMG equal to 150% of your ATK per hit.'
+          },
+          {
+            'rank': 5,
+            'sp': 3,
+            'value': null,
+            'turns': null,
+            'text': 'Apply an Augmentation effect to yourself for X turn(s), increasing your damage dealt by X%. If you already have an Augmentation effect, increase Crit DMG by :6:% for :5: turn(s) instead. Attack the enemy 2 times, dealing X Physical DMG equal to X% of your ATK per hit.'
+          }
+        ],
+        'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillicons/v2/skillicon_142.webp'
+      }
+    ],
+    'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/3301/icon.webp',
+    'body': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/3301/body.webp',
+    'skillCard': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillart/003301.webp'
+  },
+  {
+    'id': 3302,
+    'slug': 'laid-back-lifeguard-nebris',
+    'name': 'Laid-back Lifeguard',
+    'nameJp': 'ユルいライフガード',
+    'nameKr': '느슨한 라이프 가드',
+    'charSlug': 'nebris',
+    'charName': 'Nebris',
+    'element': 2,
+    'grade': 5,
+    'vaJp': 'Juri Nagatsuma',
+    'talent': null,
+    'vaKr': 'Bang Si-u',
+    'maxLevel': 5,
+    'skills': [
+      {
+        'name': 'You Started It!',
+        'desc': 'Increase your ATK by 50% for 6 turn(s). If you\'re in a Stat Reinforcement state, increase your Property DMG by :6:% for :5: turn(s) instead. Attack the enemy 2 times, dealing X Physical DMG equal to 100% of your ATK per hit.',
+        'cooldown': 3,
+        'tiers': [
+          {
+            'rank': 0,
+            'sp': 4,
+            'value': 100,
+            'turns': 6,
+            'text': 'Increase your ATK by 50% for 6 turn(s). If you\'re in a Stat Reinforcement state, increase your Property DMG by :6:% for :5: turn(s) instead. Attack the enemy 2 times, dealing X Physical DMG equal to 100% of your ATK per hit.'
+          },
+          {
+            'rank': 1,
+            'sp': 3,
+            'value': null,
+            'turns': null,
+            'text': 'Increase your ATK by X% for X turn(s). If you\'re in a Stat Reinforcement state, increase your Property DMG by :6:% for :5: turn(s) instead. Attack the enemy 2 times, dealing X Physical DMG equal to X% of your ATK per hit.'
+          },
+          {
+            'rank': 2,
+            'sp': 3,
+            'value': 120,
+            'turns': 6,
+            'text': 'Increase your ATK by 50% for 6 turn(s). If you\'re in a Stat Reinforcement state, increase your Property DMG by :6:% for :5: turn(s) instead. Attack the enemy 2 times, dealing X Physical DMG equal to 120% of your ATK per hit.'
+          },
+          {
+            'rank': 3,
+            'sp': 3,
+            'value': null,
+            'turns': null,
+            'text': 'Increase your ATK by X% for X turn(s). If you\'re in a Stat Reinforcement state, increase your Property DMG by :6:% for :5: turn(s) instead. Attack the enemy 2 times, dealing X Physical DMG equal to X% of your ATK per hit.'
+          },
+          {
+            'rank': 4,
+            'sp': 3,
+            'value': 160,
+            'turns': 10,
+            'text': 'Increase your ATK by 50% for 10 turn(s). If you\'re in a Stat Reinforcement state, increase your Property DMG by :6:% for :5: turn(s) instead. Attack the enemy 2 times, dealing X Physical DMG equal to 160% of your ATK per hit.'
+          },
+          {
+            'rank': 5,
+            'sp': 3,
+            'value': null,
+            'turns': null,
+            'text': 'Increase your ATK by X% for X turn(s). If you\'re in a Stat Reinforcement state, increase your Property DMG by :6:% for :5: turn(s) instead. Attack the enemy 2 times, dealing X Physical DMG equal to X% of your ATK per hit.'
+          }
+        ],
+        'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillicons/v2/skillicon_126.webp'
+      }
+    ],
+    'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/3302/icon.webp',
+    'body': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/3302/body.webp',
+    'skillCard': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillart/003302.webp'
+  },
+  {
+    'id': 3303,
+    'slug': 'new-hire-nebris',
+    'name': 'New Hire',
+    'nameJp': '新入社員',
+    'nameKr': '신입 사원',
+    'charSlug': 'nebris',
+    'charName': 'Nebris',
+    'element': 2,
+    'grade': 5,
+    'vaJp': 'Juri Nagatsuma',
+    'talent': null,
+    'vaKr': 'Bang Si-u',
+    'maxLevel': 5,
+    'skills': [
+      {
+        'name': 'Let Me Give It a Go',
+        'desc': 'Attack the enemy 3 times, dealing X Physical DMG equal to 40% of your ATK per hit. Simultaneously, the damage increases by 40% of your ATK for each Buff you have.',
+        'cooldown': 7,
+        'tiers': [
+          {
+            'rank': 0,
+            'sp': 4,
+            'value': 40,
+            'turns': null,
+            'text': 'Attack the enemy 3 times, dealing X Physical DMG equal to 40% of your ATK per hit. Simultaneously, the damage increases by 40% of your ATK for each Buff you have.'
+          },
+          {
+            'rank': 1,
+            'sp': 3,
+            'value': 40,
+            'turns': null,
+            'text': 'Attack the enemy 3 times, dealing X Physical DMG equal to 40% of your ATK per hit. Simultaneously, the damage increases by 40% of your ATK for each Buff you have.'
+          },
+          {
+            'rank': 2,
+            'sp': 3,
+            'value': 55,
+            'turns': null,
+            'text': 'Attack the enemy 3 times, dealing X Physical DMG equal to 55% of your ATK per hit. Simultaneously, the damage increases by 55% of your ATK for each Buff you have.'
+          },
+          {
+            'rank': 3,
+            'sp': 3,
+            'value': 55,
+            'turns': null,
+            'text': 'Attack the enemy 3 times, dealing X Physical DMG equal to 55% of your ATK per hit. Simultaneously, the damage increases by 55% of your ATK for each Buff you have.'
+          },
+          {
+            'rank': 4,
+            'sp': 3,
+            'value': 70,
+            'turns': null,
+            'text': 'Attack the enemy 3 times, dealing X Physical DMG equal to 70% of your ATK per hit. Simultaneously, the damage increases by 70% of your ATK for each Buff you have.'
+          },
+          {
+            'rank': 5,
+            'sp': 3,
+            'value': 70,
+            'turns': null,
+            'text': 'Attack the enemy 3 times, dealing X Physical DMG equal to 70% of your ATK per hit. Simultaneously, the damage increases by 70% of your ATK for each Buff you have.'
+          }
+        ],
+        'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillicons/v2/skillicon_145.webp'
+      }
+    ],
+    'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/3303/icon.webp',
+    'body': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/3303/body.webp',
+    'skillCard': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillart/003303.webp'
+  },
+  {
+    'id': 3401,
+    'slug': 'beach-vacation-morpeah',
+    'name': 'Beach Vacation',
+    'nameJp': 'ビーチバカンス',
+    'nameKr': '비치 바캉스',
+    'charSlug': 'morpeah',
+    'charName': 'Morpeah',
+    'element': 0,
+    'grade': 5,
+    'vaJp': 'Kishimoto Ema',
+    'talent': null,
+    'vaKr': 'Won Esther',
+    'maxLevel': 5,
+    'skills': [
+      {
+        'name': 'Villain Persona',
+        'desc': 'Preemptive ActionUse Allied Zone Summon to create X Persona of Worship. Creates X Persona of Slander.',
+        'cooldown': 3,
+        'tiers': [
+          {
+            'rank': 0,
+            'sp': 6,
+            'value': 5000,
+            'turns': null,
+            'text': 'Preemptive ActionUse Allied Zone Summon to create X Persona of Worship. Creates X Persona of Slander.'
+          },
+          {
+            'rank': 1,
+            'sp': 6,
+            'value': null,
+            'turns': null,
+            'text': 'Preemptive ActionUse Allied Zone Summon to create X Persona of Worship. Creates X Persona of Slander.'
+          },
+          {
+            'rank': 2,
+            'sp': 6,
+            'value': 5002,
+            'turns': null,
+            'text': 'Preemptive ActionUse Allied Zone Summon to create X Persona of Worship. Creates X Persona of Slander.'
+          },
+          {
+            'rank': 3,
+            'sp': 6,
+            'value': null,
+            'turns': null,
+            'text': 'Preemptive ActionUse Allied Zone Summon to create X Persona of Worship. Creates X Persona of Slander.'
+          },
+          {
+            'rank': 4,
+            'sp': 6,
+            'value': 5004,
+            'turns': null,
+            'text': 'Preemptive ActionUse Allied Zone Summon to create X Persona of Worship. Creates X Persona of Slander.'
+          },
+          {
+            'rank': 5,
+            'sp': 6,
+            'value': null,
+            'turns': null,
+            'text': 'Preemptive ActionUse Allied Zone Summon to create X Persona of Worship. Creates X Persona of Slander.'
+          }
+        ],
+        'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillicons/v2/skillicon_132.webp'
+      }
+    ],
+    'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/3401/icon.webp',
+    'body': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/3401/body.webp',
+    'skillCard': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillart/003401.webp'
+  },
+  {
+    'id': 3402,
+    'slug': 'daydream-bunny-morpeah',
+    'name': 'Daydream Bunny',
+    'nameJp': 'デイドリーム・バニー',
+    'nameKr': '데이드림 바니',
+    'charSlug': 'morpeah',
+    'charName': 'Morpeah',
+    'element': 0,
+    'grade': 5,
+    'vaJp': 'Kishimoto Ema',
+    'talent': null,
+    'vaKr': 'Won Esther',
+    'maxLevel': 5,
+    'skills': [
+      {
+        'name': 'Daydream\'s Call',
+        'desc': 'Use Allied Zone Summon to create X Bunny Spectre.',
+        'cooldown': 5,
+        'tiers': [
+          {
+            'rank': 0,
+            'sp': 3,
+            'value': 5020,
+            'turns': null,
+            'text': 'Use Allied Zone Summon to create X Bunny Spectre.'
+          },
+          {
+            'rank': 1,
+            'sp': 3,
+            'value': 5021,
+            'turns': null,
+            'text': 'Use Allied Zone Summon to create X Bunny Spectre.'
+          },
+          {
+            'rank': 2,
+            'sp': 3,
+            'value': 5022,
+            'turns': null,
+            'text': 'Use Allied Zone Summon to create X Bunny Spectre.'
+          },
+          {
+            'rank': 3,
+            'sp': 3,
+            'value': 5023,
+            'turns': null,
+            'text': 'Use Allied Zone Summon to create X Bunny Spectre.'
+          },
+          {
+            'rank': 4,
+            'sp': 3,
+            'value': 5024,
+            'turns': null,
+            'text': 'Use Allied Zone Summon to create X Bunny Spectre.'
+          },
+          {
+            'rank': 5,
+            'sp': 3,
+            'value': 5025,
+            'turns': null,
+            'text': 'Use Allied Zone Summon to create X Bunny Spectre.'
+          }
+        ],
+        'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillicons/v2/skillicon_148.webp'
+      }
+    ],
+    'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/3402/icon.webp',
+    'body': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/3402/body.webp',
+    'skillCard': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillart/003402.webp'
+  },
+  {
+    'id': 3403,
+    'slug': 'apostle-morpeah',
+    'name': 'Apostle',
+    'nameJp': '使徒',
+    'nameKr': '사도',
+    'charSlug': 'morpeah',
+    'charName': 'Morpeah',
+    'element': 0,
+    'grade': 5,
+    'vaJp': 'Kishimoto Ema',
+    'talent': null,
+    'vaKr': 'Won Esther',
+    'maxLevel': 5,
+    'skills': [
+      {
+        'name': 'Black Order',
+        'desc': 'Deal X Magic DMG to the enemy equal to X% of your Magic ATK. Apply Concentrated Fire to the Main Target enemy for X turn(s). Apply a [6[% Summons Vulnerability to the enemy for [5[ turn(s).',
+        'cooldown': 1,
+        'tiers': [
+          {
+            'rank': 0,
+            'sp': 3,
+            'value': null,
+            'turns': null,
+            'text': 'Deal X Magic DMG to the enemy equal to X% of your Magic ATK. Apply Concentrated Fire to the Main Target enemy for X turn(s). Apply a [6[% Summons Vulnerability to the enemy for [5[ turn(s).'
+          },
+          {
+            'rank': 1,
+            'sp': 2,
+            'value': null,
+            'turns': null,
+            'text': 'Deal X Magic DMG to the enemy equal to X% of your Magic ATK. Apply Concentrated Fire to the Main Target enemy for X turn(s). Apply a [6[% Summons Vulnerability to the enemy for [5[ turn(s).'
+          },
+          {
+            'rank': 2,
+            'sp': 2,
+            'value': null,
+            'turns': null,
+            'text': 'Deal X Magic DMG to the enemy equal to X% of your Magic ATK. Apply Concentrated Fire to the Main Target enemy for X turn(s). Apply a [6[% Summons Vulnerability to the enemy for [5[ turn(s).'
+          },
+          {
+            'rank': 3,
+            'sp': 2,
+            'value': null,
+            'turns': null,
+            'text': 'Deal X Magic DMG to the enemy equal to X% of your Magic ATK. Apply Concentrated Fire to the Main Target enemy for X turn(s). Apply a [6[% Summons Vulnerability to the enemy for [5[ turn(s).'
+          },
+          {
+            'rank': 4,
+            'sp': 2,
+            'value': null,
+            'turns': null,
+            'text': 'Deal X Magic DMG to the enemy equal to X% of your Magic ATK. Apply Concentrated Fire to the Main Target enemy for X turn(s). Apply a [6[% Summons Vulnerability to the enemy for [5[ turn(s).'
+          },
+          {
+            'rank': 5,
+            'sp': 2,
+            'value': null,
+            'turns': null,
+            'text': 'Deal X Magic DMG to the enemy equal to X% of your Magic ATK. Apply Concentrated Fire to the Main Target enemy for X turn(s). Apply a [6[% Summons Vulnerability to the enemy for [5[ turn(s).'
+          }
+        ],
+        'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillicons/v2/skillicon_165.webp'
+      }
+    ],
+    'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/3403/icon.webp',
+    'body': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/3403/body.webp',
+    'skillCard': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillart/003403.webp'
+  },
+  {
+    'id': 3501,
+    'slug': 'reclaimed-destiny-sacred-justia',
+    'name': 'Reclaimed Destiny',
+    'nameJp': '取り戻せし運命',
+    'nameKr': '되찾은 운명',
+    'charSlug': 'sacred-justia',
+    'charName': 'Sacred Justia',
+    'element': 3,
+    'grade': 5,
+    'vaJp': 'Azumi Waki',
+    'talent': null,
+    'vaKr': 'Jung Hye-won',
+    'maxLevel': 5,
+    'skills': [
+      {
+        'name': 'Sword of Fidelity',
+        'desc': 'Deal X Physical DMG to the enemy equal to 150% of your ATK. Damage increases by X% per target.',
+        'cooldown': 3,
+        'tiers': [
+          {
+            'rank': 0,
+            'sp': 6,
+            'value': 150,
+            'turns': null,
+            'text': 'Deal X Physical DMG to the enemy equal to 150% of your ATK. Damage increases by X% per target.'
+          },
+          {
+            'rank': 1,
+            'sp': 5,
+            'value': 150,
+            'turns': null,
+            'text': 'Deal X Physical DMG to the enemy equal to 150% of your ATK. Damage increases by X% per target.'
+          },
+          {
+            'rank': 2,
+            'sp': 5,
+            'value': 300,
+            'turns': null,
+            'text': 'Deal X Physical DMG to the enemy equal to 300% of your ATK. Damage increases by X% per target.'
+          },
+          {
+            'rank': 3,
+            'sp': 5,
+            'value': 300,
+            'turns': null,
+            'text': 'Deal X Physical DMG to the enemy equal to 300% of your ATK. Damage increases by X% per target.'
+          },
+          {
+            'rank': 4,
+            'sp': 5,
+            'value': 300,
+            'turns': null,
+            'text': 'Deal X Physical DMG to the enemy equal to 300% of your ATK. Damage increases by X% per target.'
+          },
+          {
+            'rank': 5,
+            'sp': 5,
+            'value': 300,
+            'turns': null,
+            'text': 'Deal X Physical DMG to the enemy equal to 300% of your ATK. Damage increases by X% per target.'
+          }
+        ],
+        'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillicons/v2/skillicon_127.webp'
+      }
+    ],
+    'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/3501/icon.webp',
+    'body': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/3501/body.webp',
+    'skillCard': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillart/003501.webp'
+  },
+  {
+    'id': 3601,
+    'slug': 'faithful-wings-olivier',
+    'name': 'Faithful Wings',
+    'nameJp': '信心の翼',
+    'nameKr': '신실의 날개',
+    'charSlug': 'olivier',
+    'charName': 'Olivier',
+    'element': 3,
+    'grade': 5,
+    'vaJp': 'Nozomi Masu',
+    'talent': null,
+    'vaKr': 'Kwak Gyumi',
+    'maxLevel': 5,
+    'skills': [
+      {
+        'name': 'Faithful Flash',
+        'desc': 'Restore X SP to allies each time an attack hits an enemy. Deal X Magic DMG to the enemy equal to X% of your Magic ATK. Damage increases by 30% per target.',
+        'cooldown': 3,
+        'tiers': [
+          {
+            'rank': 0,
+            'sp': 3,
+            'value': 1,
+            'turns': null,
+            'text': 'Restore X SP to allies each time an attack hits an enemy. Deal X Magic DMG to the enemy equal to X% of your Magic ATK. Damage increases by 30% per target.'
+          },
+          {
+            'rank': 1,
+            'sp': 2,
+            'value': null,
+            'turns': null,
+            'text': 'Restore X SP to allies each time an attack hits an enemy. Deal X Magic DMG to the enemy equal to X% of your Magic ATK. Damage increases by X% per target.'
+          },
+          {
+            'rank': 2,
+            'sp': 2,
+            'value': 1,
+            'turns': null,
+            'text': 'Restore X SP to allies each time an attack hits an enemy. Deal X Magic DMG to the enemy equal to X% of your Magic ATK. Damage increases by 34% per target.'
+          },
+          {
+            'rank': 3,
+            'sp': 2,
+            'value': null,
+            'turns': null,
+            'text': 'Restore X SP to allies each time an attack hits an enemy. Deal X Magic DMG to the enemy equal to X% of your Magic ATK. Damage increases by X% per target.'
+          },
+          {
+            'rank': 4,
+            'sp': 2,
+            'value': 1,
+            'turns': null,
+            'text': 'Restore X SP to allies each time an attack hits an enemy. Deal X Magic DMG to the enemy equal to X% of your Magic ATK. Damage increases by 42% per target.'
+          },
+          {
+            'rank': 5,
+            'sp': 2,
+            'value': null,
+            'turns': null,
+            'text': 'Restore X SP to allies each time an attack hits an enemy. Deal X Magic DMG to the enemy equal to X% of your Magic ATK. Damage increases by X% per target.'
+          }
+        ],
+        'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillicons/v2/skillicon_134.webp'
+      }
+    ],
+    'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/3601/icon.webp',
+    'body': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/3601/body.webp',
+    'skillCard': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillart/003601.webp'
+  },
+  {
+    'id': 3602,
+    'slug': 'apostle-olivier',
+    'name': 'Apostle',
+    'nameJp': '使徒',
+    'nameKr': '사도',
+    'charSlug': 'olivier',
+    'charName': 'Olivier',
+    'element': 3,
+    'grade': 5,
+    'vaJp': 'Nozomi Masu',
+    'talent': null,
+    'vaKr': 'Kwak Gyumi',
+    'maxLevel': 5,
+    'skills': [
+      {
+        'name': 'Unbreakable Command',
+        'desc': 'Preemptive ActionYou have a X% chance to evade enemy attacks until you successfully evade X times. Your Magic ATK is increased by 50% for 8 turn(s).',
+        'cooldown': 9,
+        'tiers': [
+          {
+            'rank': 0,
+            'sp': 2,
+            'value': 1,
+            'turns': 8,
+            'text': 'Preemptive ActionYou have a X% chance to evade enemy attacks until you successfully evade X times. Your Magic ATK is increased by 50% for 8 turn(s).'
+          },
+          {
+            'rank': 1,
+            'sp': 1,
+            'value': null,
+            'turns': null,
+            'text': 'Preemptive ActionYou have a X% chance to evade enemy attacks until you successfully evade X times. Your Magic ATK is increased by X% for X turn(s).'
+          },
+          {
+            'rank': 2,
+            'sp': 1,
+            'value': 1,
+            'turns': 8,
+            'text': 'Preemptive ActionYou have a X% chance to evade enemy attacks until you successfully evade X times. Your Magic ATK is increased by 56% for 8 turn(s).'
+          },
+          {
+            'rank': 3,
+            'sp': 1,
+            'value': null,
+            'turns': null,
+            'text': 'Preemptive ActionYou have a X% chance to evade enemy attacks until you successfully evade X times. Your Magic ATK is increased by X% for X turn(s).'
+          },
+          {
+            'rank': 4,
+            'sp': 1,
+            'value': 1,
+            'turns': 8,
+            'text': 'Preemptive ActionYou have a X% chance to evade enemy attacks until you successfully evade X times. Your Magic ATK is increased by 62% for 8 turn(s).'
+          },
+          {
+            'rank': 5,
+            'sp': 1,
+            'value': null,
+            'turns': null,
+            'text': 'Preemptive ActionYou have a X% chance to evade enemy attacks until you successfully evade X times. Your Magic ATK is increased by X% for X turn(s).'
+          }
+        ],
+        'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillicons/v2/skillicon_172.webp'
+      }
+    ],
+    'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/3602/icon.webp',
+    'body': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/3602/body.webp',
+    'skillCard': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillart/003602.webp'
+  },
+  {
+    'id': 3603,
+    'slug': 'fallen-wings-olivier',
+    'name': 'Fallen Wings',
+    'nameJp': '堕ちた翼',
+    'nameKr': '타락한 날개',
+    'charSlug': 'olivier',
+    'charName': 'Olivier',
+    'element': 3,
+    'grade': 5,
+    'vaJp': 'Nozomi Masu',
+    'talent': null,
+    'vaKr': 'Kwak Gyumi',
+    'maxLevel': 5,
+    'skills': [
+      {
+        'name': 'Purging Flash',
+        'desc': 'Deal X Magic DMG equal to 150% of your Magic ATK. Triggers Rampage, dealing additional damage. Damage is increased by X% for each additional SP consumed.',
+        'cooldown': 3,
+        'tiers': [
+          {
+            'rank': 0,
+            'sp': 2,
+            'value': 150,
+            'turns': null,
+            'text': 'Deal X Magic DMG equal to 150% of your Magic ATK. Triggers Rampage, dealing additional damage. Damage is increased by X% for each additional SP consumed.'
+          },
+          {
+            'rank': 1,
+            'sp': 1,
+            'value': 150,
+            'turns': null,
+            'text': 'Deal X Magic DMG equal to 150% of your Magic ATK. Triggers Rampage, dealing additional damage. Damage is increased by X% for each additional SP consumed.'
+          },
+          {
+            'rank': 2,
+            'sp': 1,
+            'value': 170,
+            'turns': null,
+            'text': 'Deal X Magic DMG equal to 170% of your Magic ATK. Triggers Rampage, dealing additional damage. Damage is increased by X% for each additional SP consumed.'
+          },
+          {
+            'rank': 3,
+            'sp': 1,
+            'value': 190,
+            'turns': null,
+            'text': 'Deal X Magic DMG equal to 190% of your Magic ATK. Triggers Rampage, dealing additional damage. Damage is increased by X% for each additional SP consumed.'
+          },
+          {
+            'rank': 4,
+            'sp': 1,
+            'value': 210,
+            'turns': null,
+            'text': 'Deal X Magic DMG equal to 210% of your Magic ATK. Triggers Rampage, dealing additional damage. Damage is increased by X% for each additional SP consumed.'
+          },
+          {
+            'rank': 5,
+            'sp': 1,
+            'value': 230,
+            'turns': null,
+            'text': 'Deal X Magic DMG equal to 230% of your Magic ATK. Triggers Rampage, dealing additional damage. Damage is increased by X% for each additional SP consumed.'
+          }
+        ],
+        'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillicons/v2/skillicon_171.webp'
+      }
+    ],
+    'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/3603/icon.webp',
+    'body': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/3603/body.webp',
+    'skillCard': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillart/003603.webp'
+  },
+  {
+    'id': 3604,
+    'slug': 'retired-legend-olivier',
+    'name': 'Retired Legend',
+    'nameJp': '伝説のOG',
+    'nameKr': '은퇴한 전설',
+    'charSlug': 'olivier',
+    'charName': 'Olivier',
+    'element': 3,
+    'grade': 5,
+    'vaJp': 'Nozomi Masu',
+    'talent': null,
+    'vaKr': 'Soo-hyun',
+    'maxLevel': 5,
+    'skills': [
+      {
+        'name': 'Sparkle☆Shower!',
+        'desc': 'Create a Domain on the battlefield for [5[ turn(s), increasing allies\' Magic ATK by [6[%. Attack the enemy 6 times, dealing X Magic DMG equal to X% of your Magic ATK per hit.',
+        'cooldown': 15,
+        'tiers': [
+          {
+            'rank': 0,
+            'sp': 6,
+            'value': null,
+            'turns': null,
+            'text': 'Create a Domain on the battlefield for [5[ turn(s), increasing allies\' Magic ATK by [6[%. Attack the enemy 6 times, dealing X Magic DMG equal to X% of your Magic ATK per hit.'
+          },
+          {
+            'rank': 1,
+            'sp': 5,
+            'value': null,
+            'turns': null,
+            'text': 'Create a Domain on the battlefield for [5[ turn(s), increasing allies\' Magic ATK by [6[%. Attack the enemy 6 times, dealing X Magic DMG equal to X% of your Magic ATK per hit.'
+          },
+          {
+            'rank': 2,
+            'sp': 5,
+            'value': null,
+            'turns': null,
+            'text': 'Create a Domain on the battlefield for [5[ turn(s), increasing allies\' Magic ATK by [6[%. Attack the enemy 6 times, dealing X Magic DMG equal to X% of your Magic ATK per hit.'
+          },
+          {
+            'rank': 3,
+            'sp': 5,
+            'value': null,
+            'turns': null,
+            'text': 'Create a Domain on the battlefield for [5[ turn(s), increasing allies\' Magic ATK by [6[%. Attack the enemy 6 times, dealing X Magic DMG equal to X% of your Magic ATK per hit.'
+          },
+          {
+            'rank': 4,
+            'sp': 5,
+            'value': null,
+            'turns': null,
+            'text': 'Create a Domain on the battlefield for [5[ turn(s), increasing allies\' Magic ATK by [6[%. Attack the enemy 6 times, dealing X Magic DMG equal to X% of your Magic ATK per hit.'
+          },
+          {
+            'rank': 5,
+            'sp': 5,
+            'value': null,
+            'turns': null,
+            'text': 'Create a Domain on the battlefield for [5[ turn(s), increasing allies\' Magic ATK by [6[%. Attack the enemy 6 times, dealing X Magic DMG equal to X% of your Magic ATK per hit.'
+          }
+        ],
+        'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillicons/v2/skillicon_192.webp'
+      }
+    ],
+    'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/3604/icon.webp',
+    'body': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/3604/body.webp',
+    'skillCard': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillart/003604.webp'
+  },
+  {
+    'id': 3701,
+    'slug': 'apostle-blade',
+    'name': 'Apostle',
+    'nameJp': '使徒',
+    'nameKr': '사도',
+    'charSlug': 'blade',
+    'charName': 'Blade',
+    'element': 4,
+    'grade': 5,
+    'vaJp': 'Yūki Kuwahara',
+    'talent': null,
+    'vaKr': 'Kim Bo-na',
+    'maxLevel': 5,
+    'skills': [
+      {
+        'name': 'Abyssal Gaze',
+        'desc': 'Counter whenever you receive an attack. Each Counter deals X Physical DMG to all enemies equal to 300% of your ATK. This effect wears off after being hit X times. Deal X Physical DMG to the enemy equal to 300% of your ATK.',
+        'cooldown': 5,
+        'tiers': [
+          {
+            'rank': 0,
+            'sp': 4,
+            'value': 300,
+            'turns': 8,
+            'text': 'Counter whenever you receive an attack. Each Counter deals X Physical DMG to all enemies equal to 300% of your ATK. This effect wears off after being hit X times. Deal X Physical DMG to the enemy equal to 300% of your ATK.'
+          },
+          {
+            'rank': 1,
+            'sp': 4,
+            'value': null,
+            'turns': null,
+            'text': 'Counter whenever you receive an attack. Each Counter deals X Physical DMG to all enemies equal to X% of your ATK. This effect wears off after being hit X times. Deal X Physical DMG to the enemy equal to X% of your ATK.'
+          },
+          {
+            'rank': 2,
+            'sp': 4,
+            'value': 380,
+            'turns': 10,
+            'text': 'Counter whenever you receive an attack. Each Counter deals X Physical DMG to all enemies equal to 380% of your ATK. This effect wears off after being hit X times. Deal X Physical DMG to the enemy equal to 380% of your ATK.'
+          },
+          {
+            'rank': 3,
+            'sp': 4,
+            'value': null,
+            'turns': null,
+            'text': 'Counter whenever you receive an attack. Each Counter deals X Physical DMG to all enemies equal to X% of your ATK. This effect wears off after being hit X times. Deal X Physical DMG to the enemy equal to X% of your ATK.'
+          },
+          {
+            'rank': 4,
+            'sp': 4,
+            'value': 540,
+            'turns': 10,
+            'text': 'Counter whenever you receive an attack. Each Counter deals X Physical DMG to all enemies equal to 540% of your ATK. This effect wears off after being hit X times. Deal X Physical DMG to the enemy equal to 540% of your ATK.'
+          },
+          {
+            'rank': 5,
+            'sp': 4,
+            'value': null,
+            'turns': null,
+            'text': 'Counter whenever you receive an attack. Each Counter deals X Physical DMG to all enemies equal to X% of your ATK. This effect wears off after being hit X times. Deal X Physical DMG to the enemy equal to X% of your ATK.'
+          }
+        ],
+        'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillicons/v2/skillicon_161.webp'
+      }
+    ],
+    'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/3701/icon.webp',
+    'body': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/3701/body.webp',
+    'skillCard': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillart/003701.webp'
+  },
+  {
+    'id': 3702,
+    'slug': 'onsen-swordfighter-blade',
+    'name': 'Onsen Swordfighter',
+    'nameJp': '温泉剣客',
+    'nameKr': '온천 검객',
+    'charSlug': 'blade',
+    'charName': 'Blade',
+    'element': 4,
+    'grade': 5,
+    'vaJp': 'Yūki Kuwahara',
+    'talent': null,
+    'vaKr': 'Kim Bo-na',
+    'maxLevel': 5,
+    'skills': [
+      {
+        'name': 'Moonfall Slash',
+        'desc': 'Deal X Physical DMG to the enemy equal to 350% of your ATK. Deal additonal damage equal to X% of ATK for each Debuff on the enemy.',
+        'cooldown': 5,
+        'tiers': [
+          {
+            'rank': 0,
+            'sp': 4,
+            'value': 350,
+            'turns': null,
+            'text': 'Deal X Physical DMG to the enemy equal to 350% of your ATK. Deal additonal damage equal to X% of ATK for each Debuff on the enemy.'
+          },
+          {
+            'rank': 1,
+            'sp': 3,
+            'value': 350,
+            'turns': null,
+            'text': 'Deal X Physical DMG to the enemy equal to 350% of your ATK. Deal additonal damage equal to X% of ATK for each Debuff on the enemy.'
+          },
+          {
+            'rank': 2,
+            'sp': 3,
+            'value': 425,
+            'turns': null,
+            'text': 'Deal X Physical DMG to the enemy equal to 425% of your ATK. Deal additonal damage equal to X% of ATK for each Debuff on the enemy.'
+          },
+          {
+            'rank': 3,
+            'sp': 3,
+            'value': 425,
+            'turns': null,
+            'text': 'Deal X Physical DMG to the enemy equal to 425% of your ATK. Deal additonal damage equal to X% of ATK for each Debuff on the enemy.'
+          },
+          {
+            'rank': 4,
+            'sp': 3,
+            'value': 500,
+            'turns': null,
+            'text': 'Deal X Physical DMG to the enemy equal to 500% of your ATK. Deal additonal damage equal to X% of ATK for each Debuff on the enemy.'
+          },
+          {
+            'rank': 5,
+            'sp': 3,
+            'value': 500,
+            'turns': null,
+            'text': 'Deal X Physical DMG to the enemy equal to 500% of your ATK. Deal additonal damage equal to X% of ATK for each Debuff on the enemy.'
+          }
+        ],
+        'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillicons/v2/skillicon_154.webp'
+      }
+    ],
+    'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/3702/icon.webp',
+    'body': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/3702/body.webp',
+    'skillCard': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillart/003702.webp'
+  },
+  {
+    'id': 3703,
+    'slug': 'young-lady-blade',
+    'name': 'Young Lady',
+    'nameJp': '公女',
+    'nameKr': '소공녀',
+    'charSlug': 'blade',
+    'charName': 'Blade',
+    'element': 4,
+    'grade': 5,
+    'vaJp': 'Yūki Kuwahara',
+    'talent': null,
+    'vaKr': 'Kim Bo-na',
+    'maxLevel': 5,
+    'skills': [
+      {
+        'name': 'Ruthless Fervor',
+        'desc': 'Attack the enemy 4 times, dealing X Physical DMG equal to 50% of your ATK per hit. Apply a :6:% Vulnerability (Physical) to the Main Target enemy for :5: turn(s).',
+        'cooldown': 3,
+        'tiers': [
+          {
+            'rank': 0,
+            'sp': 5,
+            'value': 50,
+            'turns': null,
+            'text': 'Attack the enemy 4 times, dealing X Physical DMG equal to 50% of your ATK per hit. Apply a :6:% Vulnerability (Physical) to the Main Target enemy for :5: turn(s).'
+          },
+          {
+            'rank': 1,
+            'sp': 4,
+            'value': null,
+            'turns': null,
+            'text': 'Attack the enemy 4 times, dealing X Physical DMG equal to X% of your ATK per hit. Apply a :6:% Vulnerability (Physical) to the Main Target enemy for :5: turn(s).'
+          },
+          {
+            'rank': 2,
+            'sp': 4,
+            'value': 70,
+            'turns': null,
+            'text': 'Attack the enemy 4 times, dealing X Physical DMG equal to 70% of your ATK per hit. Apply a :6:% Vulnerability (Physical) to the Main Target enemy for :5: turn(s).'
+          },
+          {
+            'rank': 3,
+            'sp': 4,
+            'value': null,
+            'turns': null,
+            'text': 'Attack the enemy 4 times, dealing X Physical DMG equal to X% of your ATK per hit. Apply a :6:% Vulnerability (Physical) to the Main Target enemy for :5: turn(s).'
+          },
+          {
+            'rank': 4,
+            'sp': 4,
+            'value': 110,
+            'turns': null,
+            'text': 'Attack the enemy 4 times, dealing X Physical DMG equal to 110% of your ATK per hit. Apply a :6:% Vulnerability (Physical) to the Main Target enemy for :5: turn(s).'
+          },
+          {
+            'rank': 5,
+            'sp': 4,
+            'value': null,
+            'turns': null,
+            'text': 'Attack the enemy 4 times, dealing X Physical DMG equal to X% of your ATK per hit. Apply a :6:% Vulnerability (Physical) to the Main Target enemy for :5: turn(s).'
+          }
+        ],
+        'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillicons/v2/skillicon_162.webp'
+      }
+    ],
+    'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/3703/icon.webp',
+    'body': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/3703/body.webp',
+    'skillCard': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillart/003703.webp'
+  },
+  {
+    'id': 3801,
+    'slug': 'dark-saintess-liberta',
+    'name': 'Dark Saintess',
+    'nameJp': '暗黒聖女',
+    'nameKr': '암흑 성녀',
+    'charSlug': 'liberta',
+    'charName': 'Liberta',
+    'element': 1,
+    'grade': 5,
+    'vaJp': 'Tanaka Tomomi',
+    'talent': {
+      'name': 'Consult',
+      'mark': 'Talent_Buff026_Mark',
+      'skills': [
+        {
+          'name': 'I\'ll take this as a tip.',
+          'desc': '',
+          'value': [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          'catalyst': 50,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_26_s.webp'
+        },
+        {
+          'name': 'I\'ll take this as a tip.',
+          'desc': 'Uses Absorption to absorb Finds on the map. If Search Finds are in an acquirable state, they can also be absorbed.\\n● Number of daily usage: 4 times',
+          'value': null,
+          'catalyst': 40,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_26_s.webp'
+        },
+        {
+          'name': 'I\'ll take this as a tip.',
+          'desc': 'Uses Absorption to absorb Finds on the map. If Search Finds are in an acquirable state, they can also be absorbed.\\n● Number of daily usage: 5 times',
+          'value': null,
+          'catalyst': 30,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_26_s.webp'
+        },
+        {
+          'name': 'I\'ll take this as a tip.',
+          'desc': '',
+          'value': null,
+          'catalyst': 20,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_26_s.webp'
+        },
+        {
+          'name': 'I\'ll take this as a tip.',
+          'desc': 'Uses Absorption to absorb Finds on the map. If Search Finds are in an acquirable state, they can also be absorbed.\\n● Number of daily usage: 7 times',
+          'value': null,
+          'catalyst': 10,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_26_s.webp'
+        }
+      ]
+    },
+    'vaKr': 'Kim Ga-Ryung',
+    'maxLevel': 5,
+    'skills': [
+      {
+        'name': 'Prayer of Duality',
+        'desc': 'Restore [3[ SP to allies. Ally ATK is increased by X% for X turn(s). Ally Crit Rate is increased by X% for X turn(s).',
+        'cooldown': 3,
+        'tiers': [
+          {
+            'rank': 0,
+            'sp': 3,
+            'value': null,
+            'turns': null,
+            'text': 'Restore [3[ SP to allies. Ally ATK is increased by X% for X turn(s). Ally Crit Rate is increased by X% for X turn(s).'
+          },
+          {
+            'rank': 1,
+            'sp': 2,
+            'value': null,
+            'turns': null,
+            'text': 'Restore [3[ SP to allies. Ally ATK is increased by X% for X turn(s). Ally Crit Rate is increased by X% for X turn(s).'
+          },
+          {
+            'rank': 2,
+            'sp': 2,
+            'value': null,
+            'turns': null,
+            'text': 'Restore [3[ SP to allies. Ally ATK is increased by X% for X turn(s). Ally Crit Rate is increased by X% for X turn(s).'
+          },
+          {
+            'rank': 3,
+            'sp': 2,
+            'value': null,
+            'turns': null,
+            'text': 'Restore [3[ SP to allies. Ally ATK is increased by X% for X turn(s). Ally Crit Rate is increased by X% for X turn(s).'
+          },
+          {
+            'rank': 4,
+            'sp': 2,
+            'value': null,
+            'turns': null,
+            'text': 'Restore [3[ SP to allies. Ally ATK is increased by X% for X turn(s). Ally Crit Rate is increased by X% for X turn(s).'
+          },
+          {
+            'rank': 5,
+            'sp': 2,
+            'value': null,
+            'turns': null,
+            'text': 'Restore [3[ SP to allies. Ally ATK is increased by X% for X turn(s). Ally Crit Rate is increased by X% for X turn(s).'
+          }
+        ],
+        'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillicons/v2/skillicon_160.webp'
+      }
+    ],
+    'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/3801/icon.webp',
+    'body': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/3801/body.webp',
+    'skillCard': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillart/003801.webp'
+  },
+  {
+    'id': 3802,
+    'slug': 'onsen-manager-liberta',
+    'name': 'Onsen Manager',
+    'nameJp': '温泉管理人',
+    'nameKr': '온천 관리인',
+    'charSlug': 'liberta',
+    'charName': 'Liberta',
+    'element': 1,
+    'grade': 5,
+    'vaJp': 'Tanaka Tomomi',
+    'talent': {
+      'name': 'Consult',
+      'mark': 'Talent_Buff026_Mark',
+      'skills': [
+        {
+          'name': 'I\'ll take this as a tip.',
+          'desc': '',
+          'value': [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          'catalyst': 50,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_26_s.webp'
+        },
+        {
+          'name': 'I\'ll take this as a tip.',
+          'desc': 'Uses Absorption to absorb Finds on the map. If Search Finds are in an acquirable state, they can also be absorbed.\\n● Number of daily usage: 4 times',
+          'value': null,
+          'catalyst': 40,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_26_s.webp'
+        },
+        {
+          'name': 'I\'ll take this as a tip.',
+          'desc': 'Uses Absorption to absorb Finds on the map. If Search Finds are in an acquirable state, they can also be absorbed.\\n● Number of daily usage: 5 times',
+          'value': null,
+          'catalyst': 30,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_26_s.webp'
+        },
+        {
+          'name': 'I\'ll take this as a tip.',
+          'desc': '',
+          'value': null,
+          'catalyst': 20,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_26_s.webp'
+        },
+        {
+          'name': 'I\'ll take this as a tip.',
+          'desc': 'Uses Absorption to absorb Finds on the map. If Search Finds are in an acquirable state, they can also be absorbed.\\n● Number of daily usage: 7 times',
+          'value': null,
+          'catalyst': 10,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_26_s.webp'
+        }
+      ]
+    },
+    'vaKr': 'Kim Ga-Ryung',
+    'maxLevel': 5,
+    'skills': [
+      {
+        'name': 'It\'s the Protection of the Oni!',
+        'desc': 'Apply an Augmentation effect to allies for 4 turn(s), increasing the damage dealt to enemies with 10 Chains or more by 15%. Heal each ally for 15% of their own Max HP at the end of each turn for 4 turn(s).',
+        'cooldown': 5,
+        'tiers': [
+          {
+            'rank': 0,
+            'sp': 3,
+            'value': 1,
+            'turns': 4,
+            'text': 'Apply an Augmentation effect to allies for 4 turn(s), increasing the damage dealt to enemies with 10 Chains or more by 15%. Heal each ally for 15% of their own Max HP at the end of each turn for 4 turn(s).'
+          },
+          {
+            'rank': 1,
+            'sp': 2,
+            'value': null,
+            'turns': null,
+            'text': 'Apply an Augmentation effect to allies for X turn(s), increasing the damage dealt to enemies with 10 Chains or more by X%. Heal each ally for X% of their own Max HP at the end of each turn for X turn(s).'
+          },
+          {
+            'rank': 2,
+            'sp': 2,
+            'value': 1,
+            'turns': 4,
+            'text': 'Apply an Augmentation effect to allies for 4 turn(s), increasing the damage dealt to enemies with 10 Chains or more by 15%. Heal each ally for 15% of their own Max HP at the end of each turn for 4 turn(s).'
+          },
+          {
+            'rank': 3,
+            'sp': 2,
+            'value': null,
+            'turns': null,
+            'text': 'Apply an Augmentation effect to allies for X turn(s), increasing the damage dealt to enemies with 10 Chains or more by X%. Heal each ally for X% of their own Max HP at the end of each turn for X turn(s).'
+          },
+          {
+            'rank': 4,
+            'sp': 2,
+            'value': 1,
+            'turns': 4,
+            'text': 'Apply an Augmentation effect to allies for 4 turn(s), increasing the damage dealt to enemies with 10 Chains or more by 15%. Heal each ally for 15% of their own Max HP at the end of each turn for 4 turn(s).'
+          },
+          {
+            'rank': 5,
+            'sp': 2,
+            'value': null,
+            'turns': null,
+            'text': 'Apply an Augmentation effect to allies for X turn(s), increasing the damage dealt to enemies with 10 Chains or more by X%. Heal each ally for X% of their own Max HP at the end of each turn for X turn(s).'
+          }
+        ],
+        'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillicons/v2/skillicon_155.webp'
+      }
+    ],
+    'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/3802/icon.webp',
+    'body': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/3802/body.webp',
+    'skillCard': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillart/003802.webp'
+  },
+  {
+    'id': 3803,
+    'slug': 'miracle-rose-liberta',
+    'name': 'Miracle Rose',
+    'nameJp': 'ミラクル・ローズ',
+    'nameKr': '미라클 로즈',
+    'charSlug': 'liberta',
+    'charName': 'Liberta',
+    'element': 1,
+    'grade': 5,
+    'vaJp': 'Tanaka Tomomi',
+    'talent': {
+      'name': 'Consult',
+      'mark': 'Talent_Buff026_Mark',
+      'skills': [
+        {
+          'name': 'I\'ll take this as a tip.',
+          'desc': '',
+          'value': [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          'catalyst': 50,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_26_s.webp'
+        },
+        {
+          'name': 'I\'ll take this as a tip.',
+          'desc': 'Uses Absorption to absorb Finds on the map. If Search Finds are in an acquirable state, they can also be absorbed.\\n● Number of daily usage: 4 times',
+          'value': null,
+          'catalyst': 40,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_26_s.webp'
+        },
+        {
+          'name': 'I\'ll take this as a tip.',
+          'desc': 'Uses Absorption to absorb Finds on the map. If Search Finds are in an acquirable state, they can also be absorbed.\\n● Number of daily usage: 5 times',
+          'value': null,
+          'catalyst': 30,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_26_s.webp'
+        },
+        {
+          'name': 'I\'ll take this as a tip.',
+          'desc': '',
+          'value': null,
+          'catalyst': 20,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_26_s.webp'
+        },
+        {
+          'name': 'I\'ll take this as a tip.',
+          'desc': 'Uses Absorption to absorb Finds on the map. If Search Finds are in an acquirable state, they can also be absorbed.\\n● Number of daily usage: 7 times',
+          'value': null,
+          'catalyst': 10,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_26_s.webp'
+        }
+      ]
+    },
+    'vaKr': 'Kim Ga-Ryung',
+    'maxLevel': 5,
+    'skills': [
+      {
+        'name': 'Rose☆Soul Empower',
+        'desc': 'Your Crit Rate is increased by 40% for 1 turn(s). Attack the enemy 5 times, dealing X Physical DMG equal to 40% of your Max HP per hit.',
+        'cooldown': 5,
+        'tiers': [
+          {
+            'rank': 0,
+            'sp': 2,
+            'value': 7,
+            'turns': 1,
+            'text': 'Your Crit Rate is increased by 40% for 1 turn(s). Attack the enemy 5 times, dealing X Physical DMG equal to 40% of your Max HP per hit.'
+          },
+          {
+            'rank': 1,
+            'sp': 1,
+            'value': null,
+            'turns': null,
+            'text': 'Your Crit Rate is increased by X% for X turn(s). Attack the enemy 5 times, dealing X Physical DMG equal to X% of your Max HP per hit.'
+          },
+          {
+            'rank': 2,
+            'sp': 1,
+            'value': 8,
+            'turns': 1,
+            'text': 'Your Crit Rate is increased by 40% for 1 turn(s). Attack the enemy 5 times, dealing X Physical DMG equal to 40% of your Max HP per hit.'
+          },
+          {
+            'rank': 3,
+            'sp': 1,
+            'value': null,
+            'turns': null,
+            'text': 'Your Crit Rate is increased by X% for X turn(s). Attack the enemy 5 times, dealing X Physical DMG equal to X% of your Max HP per hit.'
+          },
+          {
+            'rank': 4,
+            'sp': 1,
+            'value': 9,
+            'turns': 1,
+            'text': 'Your Crit Rate is increased by 70% for 1 turn(s). Attack the enemy 5 times, dealing X Physical DMG equal to 70% of your Max HP per hit.'
+          },
+          {
+            'rank': 5,
+            'sp': 1,
+            'value': null,
+            'turns': null,
+            'text': 'Your Crit Rate is increased by X% for X turn(s). Attack the enemy 5 times, dealing X Physical DMG equal to X% of your Max HP per hit.'
+          }
+        ],
+        'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillicons/v2/skillicon_197.webp'
+      }
+    ],
+    'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/3803/icon.webp',
+    'body': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/3803/body.webp',
+    'skillCard': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillart/003803.webp'
+  },
+  {
+    'id': 3901,
+    'slug': 'shadowed-dream-sonya',
+    'name': 'Shadowed Dream',
+    'nameJp': '深裏の夢',
+    'nameKr': '이면의 꿈',
+    'charSlug': 'sonya',
+    'charName': 'Sonya',
+    'element': 4,
+    'grade': 5,
+    'vaJp': 'Miu Miyake',
+    'talent': {
+      'name': 'Assemble',
+      'mark': 'Talent_Buff028_Mark',
+      'skills': [
+        {
+          'name': 'Whispering Call',
+          'desc': 'Assembles all field fiends located on the current map that give rewards.\\n● Daily limit: 3 times',
+          'value': [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          'catalyst': 2,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_28_s.webp'
+        },
+        {
+          'name': 'Whispering Call',
+          'desc': 'Assembles all field fiends located on the current map that give rewards.\\n● Daily limit: 4 times',
+          'value': null,
+          'catalyst': 1,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_28_s.webp'
+        },
+        {
+          'name': 'Whispering Call',
+          'desc': 'Assembles all field fiends located on the current map that give rewards.\\n● Daily limit: 5 times',
+          'value': null,
+          'catalyst': 1,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_28_s.webp'
+        },
+        {
+          'name': 'Whispering Call',
+          'desc': '',
+          'value': null,
+          'catalyst': 1,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_28_s.webp'
+        },
+        {
+          'name': 'Whispering Call',
+          'desc': 'Assembles all field fiends located on the current map that give rewards.\\n● Daily limit: 7 times',
+          'value': null,
+          'catalyst': 1,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_28_s.webp'
+        }
+      ]
+    },
+    'vaKr': 'Kim Yea-lim',
+    'maxLevel': 5,
+    'skills': [
+      {
+        'name': 'It\'s Your Time, Tanya',
+        'desc': 'Apply a X% Vulnerability to the enemy for X turn(s).If this attack results in the enemy having a Chain count of 6 or more, apply &6&% Dark Vulnerability for &5& turn(s) instead. Deal X Magic DMG to the enemy equal to X% of your Magic ATK.',
+        'cooldown': 3,
+        'tiers': [
+          {
+            'rank': 0,
+            'sp': 4,
+            'value': 1,
+            'turns': null,
+            'text': 'Apply a X% Vulnerability to the enemy for X turn(s).If this attack results in the enemy having a Chain count of 6 or more, apply &6&% Dark Vulnerability for &5& turn(s) instead. Deal X Magic DMG to the enemy equal to X% of your Magic ATK.'
+          },
+          {
+            'rank': 1,
+            'sp': 3,
+            'value': null,
+            'turns': null,
+            'text': 'Apply a X% Vulnerability to the enemy for X turn(s).If this attack results in the enemy having a Chain count of 6 or more, apply &6&% Dark Vulnerability for &5& turn(s) instead. Deal X Magic DMG to the enemy equal to X% of your Magic ATK.'
+          },
+          {
+            'rank': 2,
+            'sp': 3,
+            'value': 1,
+            'turns': null,
+            'text': 'Apply a X% Vulnerability to the enemy for X turn(s).If this attack results in the enemy having a Chain count of 6 or more, apply &6&% Dark Vulnerability for &5& turn(s) instead. Deal X Magic DMG to the enemy equal to X% of your Magic ATK.'
+          },
+          {
+            'rank': 3,
+            'sp': 3,
+            'value': null,
+            'turns': null,
+            'text': 'Apply a X% Vulnerability to the enemy for X turn(s).If this attack results in the enemy having a Chain count of 6 or more, apply &6&% Dark Vulnerability for &5& turn(s) instead. Deal X Magic DMG to the enemy equal to X% of your Magic ATK.'
+          },
+          {
+            'rank': 4,
+            'sp': 3,
+            'value': 1,
+            'turns': null,
+            'text': 'Apply a X% Vulnerability to the enemy for X turn(s).If this attack results in the enemy having a Chain count of 6 or more, apply &6&% Dark Vulnerability for &5& turn(s) instead. Deal X Magic DMG to the enemy equal to X% of your Magic ATK.'
+          },
+          {
+            'rank': 5,
+            'sp': 3,
+            'value': null,
+            'turns': null,
+            'text': 'Apply a X% Vulnerability to the enemy for X turn(s).If this attack results in the enemy having a Chain count of 6 or more, apply &6&% Dark Vulnerability for &5& turn(s) instead. Deal X Magic DMG to the enemy equal to X% of your Magic ATK.'
+          }
+        ],
+        'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillicons/v2/skillicon_176.webp'
+      }
+    ],
+    'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/3901/icon.webp',
+    'body': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/3901/body.webp',
+    'skillCard': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillart/003901.webp'
+  },
+  {
+    'id': 3902,
+    'slug': 'little-pumpkin-girl-sonya',
+    'name': 'Little Pumpkin Girl',
+    'nameJp': 'かぼちゃ売りの少女',
+    'nameKr': '호박팔이 소녀',
+    'charSlug': 'sonya',
+    'charName': 'Sonya',
+    'element': 4,
+    'grade': 5,
+    'vaJp': 'Miu Miyake',
+    'talent': {
+      'name': 'Assemble',
+      'mark': 'Talent_Buff028_Mark',
+      'skills': [
+        {
+          'name': 'Whispering Call',
+          'desc': 'Assembles all field fiends located on the current map that give rewards.\\n● Daily limit: 3 times',
+          'value': [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          'catalyst': 2,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_28_s.webp'
+        },
+        {
+          'name': 'Whispering Call',
+          'desc': 'Assembles all field fiends located on the current map that give rewards.\\n● Daily limit: 4 times',
+          'value': null,
+          'catalyst': 1,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_28_s.webp'
+        },
+        {
+          'name': 'Whispering Call',
+          'desc': 'Assembles all field fiends located on the current map that give rewards.\\n● Daily limit: 5 times',
+          'value': null,
+          'catalyst': 1,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_28_s.webp'
+        },
+        {
+          'name': 'Whispering Call',
+          'desc': '',
+          'value': null,
+          'catalyst': 1,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_28_s.webp'
+        },
+        {
+          'name': 'Whispering Call',
+          'desc': 'Assembles all field fiends located on the current map that give rewards.\\n● Daily limit: 7 times',
+          'value': null,
+          'catalyst': 1,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_28_s.webp'
+        }
+      ]
+    },
+    'vaKr': 'Kim Yea-lim',
+    'maxLevel': 5,
+    'skills': [
+      {
+        'name': 'Hehe, It\'s Tanya Time!',
+        'desc': 'Deal X Magic DMG to the enemy equal to 200% of your Magic ATK. Apply Nightmare to the enemy for 2 turn(s), dealing X Magic DMG equal to 200% of your Magic ATK.',
+        'cooldown': 3,
+        'tiers': [
+          {
+            'rank': 0,
+            'sp': 5,
+            'value': 200,
+            'turns': 2,
+            'text': 'Deal X Magic DMG to the enemy equal to 200% of your Magic ATK. Apply Nightmare to the enemy for 2 turn(s), dealing X Magic DMG equal to 200% of your Magic ATK.'
+          },
+          {
+            'rank': 1,
+            'sp': 4,
+            'value': null,
+            'turns': null,
+            'text': 'Deal X Magic DMG to the enemy equal to X% of your Magic ATK. Apply Nightmare to the enemy for X turn(s), dealing X Magic DMG equal to X% of your Magic ATK.'
+          },
+          {
+            'rank': 2,
+            'sp': 4,
+            'value': 225,
+            'turns': 2,
+            'text': 'Deal X Magic DMG to the enemy equal to 225% of your Magic ATK. Apply Nightmare to the enemy for 2 turn(s), dealing X Magic DMG equal to 225% of your Magic ATK.'
+          },
+          {
+            'rank': 3,
+            'sp': 4,
+            'value': null,
+            'turns': null,
+            'text': 'Deal X Magic DMG to the enemy equal to X% of your Magic ATK. Apply Nightmare to the enemy for X turn(s), dealing X Magic DMG equal to X% of your Magic ATK.'
+          },
+          {
+            'rank': 4,
+            'sp': 4,
+            'value': 250,
+            'turns': 4,
+            'text': 'Deal X Magic DMG to the enemy equal to 250% of your Magic ATK. Apply Nightmare to the enemy for 4 turn(s), dealing X Magic DMG equal to 250% of your Magic ATK.'
+          },
+          {
+            'rank': 5,
+            'sp': 4,
+            'value': null,
+            'turns': null,
+            'text': 'Deal X Magic DMG to the enemy equal to X% of your Magic ATK. Apply Nightmare to the enemy for X turn(s), dealing X Magic DMG equal to X% of your Magic ATK.'
+          }
+        ],
+        'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillicons/v2/skillicon_180.webp'
+      }
+    ],
+    'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/3902/icon.webp',
+    'body': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/3902/body.webp',
+    'skillCard': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillart/003902.webp'
+  },
+  {
+    'id': 4001,
+    'slug': 'prophetic-dream-darian',
+    'name': 'Prophetic Dream',
+    'nameJp': '啓示の夢',
+    'nameKr': '계시의 꿈',
+    'charSlug': 'darian',
+    'charName': 'Darian',
+    'element': 0,
+    'grade': 5,
+    'vaJp': 'Ami Koshimizu',
+    'talent': null,
+    'vaKr': 'Kim Soon-mi',
+    'maxLevel': 5,
+    'skills': [
+      {
+        'name': 'For Mother\'s Dream',
+        'desc': 'Deal X Physical DMG to the enemy equal to 500% of your ATK. For the Main Target enemy, deal &1& Physical DMG equal to &6&% of your ATK instead.',
+        'cooldown': 3,
+        'tiers': [
+          {
+            'rank': 0,
+            'sp': 4,
+            'value': 500,
+            'turns': null,
+            'text': 'Deal X Physical DMG to the enemy equal to 500% of your ATK. For the Main Target enemy, deal &1& Physical DMG equal to &6&% of your ATK instead.'
+          },
+          {
+            'rank': 1,
+            'sp': 3,
+            'value': 500,
+            'turns': null,
+            'text': 'Deal X Physical DMG to the enemy equal to 500% of your ATK. For the Main Target enemy, deal &1& Physical DMG equal to &6&% of your ATK instead.'
+          },
+          {
+            'rank': 2,
+            'sp': 3,
+            'value': 600,
+            'turns': null,
+            'text': 'Deal X Physical DMG to the enemy equal to 600% of your ATK. For the Main Target enemy, deal &1& Physical DMG equal to &6&% of your ATK instead.'
+          },
+          {
+            'rank': 3,
+            'sp': 3,
+            'value': 600,
+            'turns': null,
+            'text': 'Deal X Physical DMG to the enemy equal to 600% of your ATK. For the Main Target enemy, deal &1& Physical DMG equal to &6&% of your ATK instead.'
+          },
+          {
+            'rank': 4,
+            'sp': 3,
+            'value': 700,
+            'turns': null,
+            'text': 'Deal X Physical DMG to the enemy equal to 700% of your ATK. For the Main Target enemy, deal &1& Physical DMG equal to &6&% of your ATK instead.'
+          },
+          {
+            'rank': 5,
+            'sp': 3,
+            'value': 700,
+            'turns': null,
+            'text': 'Deal X Physical DMG to the enemy equal to 700% of your ATK. For the Main Target enemy, deal &1& Physical DMG equal to &6&% of your ATK instead.'
+          }
+        ],
+        'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillicons/v2/skillicon_177.webp'
+      }
+    ],
+    'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/4001/icon.webp',
+    'body': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/4001/body.webp',
+    'skillCard': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillart/004001.webp'
+  },
+  {
+    'id': 4002,
+    'slug': 'bittersweet-bunny-darian',
+    'name': 'Bittersweet Bunny',
+    'nameJp': 'ビタースウィート・バニー',
+    'nameKr': '비터스윗 바니',
+    'charSlug': 'darian',
+    'charName': 'Darian',
+    'element': 0,
+    'grade': 5,
+    'vaJp': 'Ami Koshimizu',
+    'talent': null,
+    'vaKr': 'Kim Soon-mi',
+    'maxLevel': 5,
+    'skills': [
+      {
+        'name': 'Snow Flower',
+        'desc': 'For every target, this skill\'s cooldown is reduced by [3[ . Deal X Physical DMG to the enemy equal to X% of your ATK. If the enemy is under DoT effects, deal &1& Physical DMG equal to &6&% of your ATK instead. Apply stacking Frostbite to the enemy for X turn(s), dealing X Physical DMG equal to X% of your ATK per stack. Can stack up to X times.',
+        'cooldown': 17,
+        'tiers': [
+          {
+            'rank': 0,
+            'sp': 7,
+            'value': null,
+            'turns': null,
+            'text': 'For every target, this skill\'s cooldown is reduced by [3[ . Deal X Physical DMG to the enemy equal to X% of your ATK. If the enemy is under DoT effects, deal &1& Physical DMG equal to &6&% of your ATK instead. Apply stacking Frostbite to the enemy for X turn(s), dealing X Physical DMG equal to X% of your ATK per stack. Can stack up to X times.'
+          },
+          {
+            'rank': 1,
+            'sp': 6,
+            'value': null,
+            'turns': null,
+            'text': 'For every target, this skill\'s cooldown is reduced by [3[ . Deal X Physical DMG to the enemy equal to X% of your ATK. If the enemy is under DoT effects, deal &1& Physical DMG equal to &6&% of your ATK instead. Apply stacking Frostbite to the enemy for X turn(s), dealing X Physical DMG equal to X% of your ATK per stack. Can stack up to X times.'
+          },
+          {
+            'rank': 2,
+            'sp': 6,
+            'value': null,
+            'turns': null,
+            'text': 'For every target, this skill\'s cooldown is reduced by [3[ . Deal X Physical DMG to the enemy equal to X% of your ATK. If the enemy is under DoT effects, deal &1& Physical DMG equal to &6&% of your ATK instead. Apply stacking Frostbite to the enemy for X turn(s), dealing X Physical DMG equal to X% of your ATK per stack. Can stack up to X times.'
+          },
+          {
+            'rank': 3,
+            'sp': 6,
+            'value': null,
+            'turns': null,
+            'text': 'For every target, this skill\'s cooldown is reduced by [3[ . Deal X Physical DMG to the enemy equal to X% of your ATK. If the enemy is under DoT effects, deal &1& Physical DMG equal to &6&% of your ATK instead. Apply stacking Frostbite to the enemy for X turn(s), dealing X Physical DMG equal to X% of your ATK per stack. Can stack up to X times.'
+          },
+          {
+            'rank': 4,
+            'sp': 6,
+            'value': null,
+            'turns': null,
+            'text': 'For every target, this skill\'s cooldown is reduced by [3[ . Deal X Physical DMG to the enemy equal to X% of your ATK. If the enemy is under DoT effects, deal &1& Physical DMG equal to &6&% of your ATK instead. Apply stacking Frostbite to the enemy for X turn(s), dealing X Physical DMG equal to X% of your ATK per stack. Can stack up to X times.'
+          },
+          {
+            'rank': 5,
+            'sp': 6,
+            'value': null,
+            'turns': null,
+            'text': 'For every target, this skill\'s cooldown is reduced by [3[ . Deal X Physical DMG to the enemy equal to X% of your ATK. If the enemy is under DoT effects, deal &1& Physical DMG equal to &6&% of your ATK instead. Apply stacking Frostbite to the enemy for X turn(s), dealing X Physical DMG equal to X% of your ATK per stack. Can stack up to X times.'
+          }
+        ],
+        'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillicons/v2/skillicon_181.webp'
+      }
+    ],
+    'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/4002/icon.webp',
+    'body': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/4002/body.webp',
+    'skillCard': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillart/004002.webp'
+  },
+  {
+    'id': 4101,
+    'slug': 'starlight-guardian-tyr',
+    'name': 'Starlight Guardian',
+    'nameJp': '星光の守護者',
+    'nameKr': '별빛의 수호자',
+    'charSlug': 'tyr',
+    'charName': 'Tyr',
+    'element': 2,
+    'grade': 5,
+    'vaJp': 'Karin Isobe',
+    'talent': {
+      'name': 'Consult',
+      'mark': 'Talent_Buff026_Mark',
+      'skills': [
+        {
+          'name': 'Treasure Hunt!',
+          'desc': '',
+          'value': [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          'catalyst': 50,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_26_s.webp'
+        },
+        {
+          'name': 'Treasure Hunt!',
+          'desc': 'Uses Absorption to absorb Finds on the map. If Search Finds are in an acquirable state, they can also be absorbed.\\n● Number of daily usage: 4 times',
+          'value': null,
+          'catalyst': 40,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_26_s.webp'
+        },
+        {
+          'name': 'Treasure Hunt!',
+          'desc': 'Uses Absorption to absorb Finds on the map. If Search Finds are in an acquirable state, they can also be absorbed.\\n● Number of daily usage: 5 times',
+          'value': null,
+          'catalyst': 30,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_26_s.webp'
+        },
+        {
+          'name': 'Treasure Hunt!',
+          'desc': 'Uses Absorption to absorb Finds on the map. If Search Finds are in an acquirable state, they can also be absorbed.\\n● Number of daily usage: 6 times',
+          'value': null,
+          'catalyst': 20,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_26_s.webp'
+        },
+        {
+          'name': 'Treasure Hunt!',
+          'desc': 'Uses Absorption to absorb Finds on the map. If Search Finds are in an acquirable state, they can also be absorbed.\\n● Number of daily usage: 7 times',
+          'value': null,
+          'catalyst': 10,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_26_s.webp'
+        }
+      ]
+    },
+    'vaKr': 'Kang Sae-bom',
+    'maxLevel': 5,
+    'skills': [
+      {
+        'name': 'If Only I Could Protect',
+        'desc': 'Apply X SP Cost Increase to yourself for 6 turn(s). Deal X Physical DMG to the enemy equal to 700% of your ATK.',
+        'cooldown': 3,
+        'tiers': [
+          {
+            'rank': 0,
+            'sp': 6,
+            'value': 700,
+            'turns': 6,
+            'text': 'Apply X SP Cost Increase to yourself for 6 turn(s). Deal X Physical DMG to the enemy equal to 700% of your ATK.'
+          },
+          {
+            'rank': 1,
+            'sp': 5,
+            'value': null,
+            'turns': null,
+            'text': 'Apply X SP Cost Increase to yourself for X turn(s). Deal X Physical DMG to the enemy equal to X% of your ATK.'
+          },
+          {
+            'rank': 2,
+            'sp': 5,
+            'value': 825,
+            'turns': 6,
+            'text': 'Apply X SP Cost Increase to yourself for 6 turn(s). Deal X Physical DMG to the enemy equal to 825% of your ATK.'
+          },
+          {
+            'rank': 3,
+            'sp': 5,
+            'value': null,
+            'turns': null,
+            'text': 'Apply X SP Cost Increase to yourself for X turn(s). Deal X Physical DMG to the enemy equal to X% of your ATK.'
+          },
+          {
+            'rank': 4,
+            'sp': 5,
+            'value': 1075,
+            'turns': 6,
+            'text': 'Apply X SP Cost Increase to yourself for 6 turn(s). Deal X Physical DMG to the enemy equal to 1075% of your ATK.'
+          },
+          {
+            'rank': 5,
+            'sp': 5,
+            'value': null,
+            'turns': null,
+            'text': 'Apply X SP Cost Increase to yourself for X turn(s). Deal X Physical DMG to the enemy equal to X% of your ATK.'
+          }
+        ],
+        'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillicons/v2/skillicon_178.webp'
+      }
+    ],
+    'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/4101/icon.webp',
+    'body': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/4101/body.webp',
+    'skillCard': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillart/004101.webp'
+  },
+  {
+    'id': 4102,
+    'slug': 'innocent-bunny-tyr',
+    'name': 'Innocent Bunny',
+    'nameJp': 'イノセント・バニー',
+    'nameKr': '이노센트 바니',
+    'charSlug': 'tyr',
+    'charName': 'Tyr',
+    'element': 2,
+    'grade': 5,
+    'vaJp': 'Karin Isobe',
+    'talent': {
+      'name': 'Consult',
+      'mark': 'Talent_Buff026_Mark',
+      'skills': [
+        {
+          'name': 'Treasure Hunt!',
+          'desc': '',
+          'value': [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          'catalyst': 50,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_26_s.webp'
+        },
+        {
+          'name': 'Treasure Hunt!',
+          'desc': 'Uses Absorption to absorb Finds on the map. If Search Finds are in an acquirable state, they can also be absorbed.\\n● Number of daily usage: 4 times',
+          'value': null,
+          'catalyst': 40,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_26_s.webp'
+        },
+        {
+          'name': 'Treasure Hunt!',
+          'desc': 'Uses Absorption to absorb Finds on the map. If Search Finds are in an acquirable state, they can also be absorbed.\\n● Number of daily usage: 5 times',
+          'value': null,
+          'catalyst': 30,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_26_s.webp'
+        },
+        {
+          'name': 'Treasure Hunt!',
+          'desc': 'Uses Absorption to absorb Finds on the map. If Search Finds are in an acquirable state, they can also be absorbed.\\n● Number of daily usage: 6 times',
+          'value': null,
+          'catalyst': 20,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_26_s.webp'
+        },
+        {
+          'name': 'Treasure Hunt!',
+          'desc': 'Uses Absorption to absorb Finds on the map. If Search Finds are in an acquirable state, they can also be absorbed.\\n● Number of daily usage: 7 times',
+          'value': null,
+          'catalyst': 10,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_26_s.webp'
+        }
+      ]
+    },
+    'vaKr': 'Kang Sae-bom',
+    'maxLevel': 5,
+    'skills': [
+      {
+        'name': 'I\'ll Be Brave',
+        'desc': 'Apply X SP Cost Increase to yourself for 8 turn(s). Deal X Physical DMG to the enemy equal to 125% of your ATK. Damage dealt increases by X% for each SP consumed when using this skill.',
+        'cooldown': 5,
+        'tiers': [
+          {
+            'rank': 0,
+            'sp': 4,
+            'value': 125,
+            'turns': 8,
+            'text': 'Apply X SP Cost Increase to yourself for 8 turn(s). Deal X Physical DMG to the enemy equal to 125% of your ATK. Damage dealt increases by X% for each SP consumed when using this skill.'
+          },
+          {
+            'rank': 1,
+            'sp': 4,
+            'value': null,
+            'turns': null,
+            'text': 'Apply X SP Cost Increase to yourself for X turn(s). Deal X Physical DMG to the enemy equal to X% of your ATK. Damage dealt increases by X% for each SP consumed when using this skill.'
+          },
+          {
+            'rank': 2,
+            'sp': 4,
+            'value': 175,
+            'turns': 8,
+            'text': 'Apply X SP Cost Increase to yourself for 8 turn(s). Deal X Physical DMG to the enemy equal to 175% of your ATK. Damage dealt increases by X% for each SP consumed when using this skill.'
+          },
+          {
+            'rank': 3,
+            'sp': 4,
+            'value': null,
+            'turns': null,
+            'text': 'Apply X SP Cost Increase to yourself for X turn(s). Deal X Physical DMG to the enemy equal to X% of your ATK. Damage dealt increases by X% for each SP consumed when using this skill.'
+          },
+          {
+            'rank': 4,
+            'sp': 4,
+            'value': 225,
+            'turns': 8,
+            'text': 'Apply X SP Cost Increase to yourself for 8 turn(s). Deal X Physical DMG to the enemy equal to 225% of your ATK. Damage dealt increases by X% for each SP consumed when using this skill.'
+          },
+          {
+            'rank': 5,
+            'sp': 4,
+            'value': null,
+            'turns': null,
+            'text': 'Apply X SP Cost Increase to yourself for X turn(s). Deal X Physical DMG to the enemy equal to X% of your ATK. Damage dealt increases by X% for each SP consumed when using this skill.'
+          }
+        ],
+        'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillicons/v2/skillicon_182.webp'
+      }
+    ],
+    'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/4102/icon.webp',
+    'body': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/4102/body.webp',
+    'skillCard': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillart/004102.webp'
+  },
+  {
+    'id': 4201,
+    'slug': 'shattered-dream-palette',
+    'name': 'Shattered Dream',
+    'nameJp': '恐怖の夢',
+    'nameKr': '공포의 꿈',
+    'charSlug': 'palette',
+    'charName': 'Palette',
+    'element': 4,
+    'grade': 5,
+    'vaJp': 'Hikaru Tono',
+    'talent': null,
+    'vaKr': 'Kang Eun-ae',
+    'maxLevel': 5,
+    'skills': [
+      {
+        'name': 'My Masterpiece...!',
+        'desc': 'Deal X Magic DMG to the enemy equal to 500% of your Magic ATK. Extend the duration of all Debuffs on the enemy by X turn(s).',
+        'cooldown': 3,
+        'tiers': [
+          {
+            'rank': 0,
+            'sp': 4,
+            'value': 500,
+            'turns': null,
+            'text': 'Deal X Magic DMG to the enemy equal to 500% of your Magic ATK. Extend the duration of all Debuffs on the enemy by X turn(s).'
+          },
+          {
+            'rank': 1,
+            'sp': 3,
+            'value': null,
+            'turns': null,
+            'text': 'Deal X Magic DMG to the enemy equal to X% of your Magic ATK. Extend the duration of all Debuffs on the enemy by X turn(s).'
+          },
+          {
+            'rank': 2,
+            'sp': 3,
+            'value': 550,
+            'turns': null,
+            'text': 'Deal X Magic DMG to the enemy equal to 550% of your Magic ATK. Extend the duration of all Debuffs on the enemy by X turn(s).'
+          },
+          {
+            'rank': 3,
+            'sp': 3,
+            'value': null,
+            'turns': null,
+            'text': 'Deal X Magic DMG to the enemy equal to X% of your Magic ATK. Extend the duration of all Debuffs on the enemy by X turn(s).'
+          },
+          {
+            'rank': 4,
+            'sp': 3,
+            'value': 650,
+            'turns': null,
+            'text': 'Deal X Magic DMG to the enemy equal to 650% of your Magic ATK. Extend the duration of all Debuffs on the enemy by X turn(s).'
+          },
+          {
+            'rank': 5,
+            'sp': 3,
+            'value': null,
+            'turns': null,
+            'text': 'Deal X Magic DMG to the enemy equal to X% of your Magic ATK. Extend the duration of all Debuffs on the enemy by X turn(s).'
+          }
+        ],
+        'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillicons/v2/skillicon_187.webp'
+      }
+    ],
+    'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/4201/icon.webp',
+    'body': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/4201/body.webp',
+    'skillCard': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillart/004201.webp'
+  },
+  {
+    'id': 4202,
+    'slug': 'miracle-violet-palette',
+    'name': 'Miracle Violet',
+    'nameJp': 'ミラクル・ヴァイオレット',
+    'nameKr': '미라클 바이올렛',
+    'charSlug': 'palette',
+    'charName': 'Palette',
+    'element': 4,
+    'grade': 5,
+    'vaJp': 'Hikaru Tono',
+    'talent': null,
+    'vaKr': 'Kang Eun-ae',
+    'maxLevel': 5,
+    'skills': [
+      {
+        'name': 'Violet☆Ultra Rush',
+        'desc': 'Attack the enemy ~18~ times, dealing X Magic DMG equal to 35% of your Magic ATK per hit. If the target has 7 or more Debuffs, deal &1& Magic DMG equal to &6&% of your Magic ATK instead.',
+        'cooldown': 3,
+        'tiers': [
+          {
+            'rank': 0,
+            'sp': 5,
+            'value': 35,
+            'turns': null,
+            'text': 'Attack the enemy ~18~ times, dealing X Magic DMG equal to 35% of your Magic ATK per hit. If the target has 7 or more Debuffs, deal &1& Magic DMG equal to &6&% of your Magic ATK instead.'
+          },
+          {
+            'rank': 1,
+            'sp': 4,
+            'value': 35,
+            'turns': null,
+            'text': 'Attack the enemy ~18~ times, dealing X Magic DMG equal to 35% of your Magic ATK per hit. If the target has 7 or more Debuffs, deal &1& Magic DMG equal to &6&% of your Magic ATK instead.'
+          },
+          {
+            'rank': 2,
+            'sp': 4,
+            'value': 40,
+            'turns': null,
+            'text': 'Attack the enemy ~18~ times, dealing X Magic DMG equal to 40% of your Magic ATK per hit. If the target has 7 or more Debuffs, deal &1& Magic DMG equal to &6&% of your Magic ATK instead.'
+          },
+          {
+            'rank': 3,
+            'sp': 4,
+            'value': 45,
+            'turns': null,
+            'text': 'Attack the enemy ~18~ times, dealing X Magic DMG equal to 45% of your Magic ATK per hit. If the target has 7 or more Debuffs, deal &1& Magic DMG equal to &6&% of your Magic ATK instead.'
+          },
+          {
+            'rank': 4,
+            'sp': 4,
+            'value': 50,
+            'turns': null,
+            'text': 'Attack the enemy ~18~ times, dealing X Magic DMG equal to 50% of your Magic ATK per hit. If the target has 7 or more Debuffs, deal &1& Magic DMG equal to &6&% of your Magic ATK instead.'
+          },
+          {
+            'rank': 5,
+            'sp': 4,
+            'value': 55,
+            'turns': null,
+            'text': 'Attack the enemy ~18~ times, dealing X Magic DMG equal to 55% of your Magic ATK per hit. If the target has 7 or more Debuffs, deal &1& Magic DMG equal to &6&% of your Magic ATK instead.'
+          }
+        ],
+        'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillicons/v2/skillicon_196.webp'
+      }
+    ],
+    'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/4202/icon.webp',
+    'body': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/4202/body.webp',
+    'skillCard': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillart/004202.webp'
+  },
+  {
+    'id': 4301,
+    'slug': 'deadeye-nekyndalia',
+    'name': 'Deadeye',
+    'nameJp': 'デッドアイ',
+    'nameKr': '데드아이',
+    'charSlug': 'nekyndalia',
+    'charName': 'Nekyndalia',
+    'element': 2,
+    'grade': 5,
+    'vaJp': 'Nina Hanamiya',
+    'talent': null,
+    'vaKr': 'Choi Ha-ri',
+    'maxLevel': 5,
+    'skills': [
+      {
+        'name': 'Fatal Line',
+        'desc': 'For X turn(s), apply a Mark to the enemy. Attack the enemy ~18~ times, dealing X Magic DMG equal to X% of your Magic ATK per hit.',
+        'cooldown': 3,
+        'tiers': [
+          {
+            'rank': 0,
+            'sp': 4,
+            'value': null,
+            'turns': null,
+            'text': 'For X turn(s), apply a Mark to the enemy. Attack the enemy ~18~ times, dealing X Magic DMG equal to X% of your Magic ATK per hit.'
+          },
+          {
+            'rank': 1,
+            'sp': 3,
+            'value': null,
+            'turns': null,
+            'text': 'For X turn(s), apply a Mark to the enemy. Attack the enemy ~18~ times, dealing X Magic DMG equal to X% of your Magic ATK per hit.'
+          },
+          {
+            'rank': 2,
+            'sp': 3,
+            'value': null,
+            'turns': null,
+            'text': 'For X turn(s), apply a Mark to the enemy. Attack the enemy ~18~ times, dealing X Magic DMG equal to X% of your Magic ATK per hit.'
+          },
+          {
+            'rank': 3,
+            'sp': 3,
+            'value': null,
+            'turns': null,
+            'text': 'For X turn(s), apply a Mark to the enemy. Attack the enemy ~18~ times, dealing X Magic DMG equal to X% of your Magic ATK per hit.'
+          },
+          {
+            'rank': 4,
+            'sp': 3,
+            'value': null,
+            'turns': null,
+            'text': 'For X turn(s), apply a Mark to the enemy. Attack the enemy ~18~ times, dealing X Magic DMG equal to X% of your Magic ATK per hit.'
+          },
+          {
+            'rank': 5,
+            'sp': 3,
+            'value': null,
+            'turns': null,
+            'text': 'For X turn(s), apply a Mark to the enemy. Attack the enemy ~18~ times, dealing X Magic DMG equal to X% of your Magic ATK per hit.'
+          }
+        ],
+        'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillicons/v2/skillicon_200.webp'
+      }
+    ],
+    'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/4301/icon.webp',
+    'body': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/4301/body.webp',
+    'skillCard': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillart/004301.webp'
+  },
+  {
+    'id': 4302,
+    'slug': 'unraveling-mummy-nekyndalia',
+    'name': 'Unraveling Mummy',
+    'nameJp': 'ゆるゆるミイラ',
+    'nameKr': '헐거운 미라',
+    'charSlug': 'nekyndalia',
+    'charName': 'Nekyndalia',
+    'element': 2,
+    'grade': 5,
+    'vaJp': 'Nina Hanamiya',
+    'talent': null,
+    'vaKr': 'Choi Ha-ri',
+    'maxLevel': 5,
+    'skills': [
+      {
+        'name': 'Initiating Cleanup',
+        'desc': 'Resonate with targets who have a Mark on the battlefield. For }5} turn(s), apply }13} stack(s) of }6}% Chain DMG Increase (Dealt) to yourself per target. Can stack up to }15} times. Attack the enemy ~18~ times, dealing X Magic DMG equal to 60% of your Magic ATK per hit.',
+        'cooldown': 3,
+        'tiers': [
+          {
+            'rank': 0,
+            'sp': 6,
+            'value': 60,
+            'turns': null,
+            'text': 'Resonate with targets who have a Mark on the battlefield. For }5} turn(s), apply }13} stack(s) of }6}% Chain DMG Increase (Dealt) to yourself per target. Can stack up to }15} times. Attack the enemy ~18~ times, dealing X Magic DMG equal to 60% of your Magic ATK per hit.'
+          },
+          {
+            'rank': 1,
+            'sp': 5,
+            'value': null,
+            'turns': null,
+            'text': 'Resonate with targets who have a Mark on the battlefield. For }5} turn(s), apply }13} stack(s) of }6}% Chain DMG Increase (Dealt) to yourself per target. Can stack up to }15} times. Attack the enemy ~18~ times, dealing X Magic DMG equal to X% of your Magic ATK per hit.'
+          },
+          {
+            'rank': 2,
+            'sp': 5,
+            'value': 65,
+            'turns': null,
+            'text': 'Resonate with targets who have a Mark on the battlefield. For }5} turn(s), apply }13} stack(s) of }6}% Chain DMG Increase (Dealt) to yourself per target. Can stack up to }15} times. Attack the enemy ~18~ times, dealing X Magic DMG equal to 65% of your Magic ATK per hit.'
+          },
+          {
+            'rank': 3,
+            'sp': 5,
+            'value': null,
+            'turns': null,
+            'text': 'Resonate with targets who have a Mark on the battlefield. For }5} turn(s), apply }13} stack(s) of }6}% Chain DMG Increase (Dealt) to yourself per target. Can stack up to }15} times. Attack the enemy ~18~ times, dealing X Magic DMG equal to X% of your Magic ATK per hit.'
+          },
+          {
+            'rank': 4,
+            'sp': 5,
+            'value': 75,
+            'turns': null,
+            'text': 'Resonate with targets who have a Mark on the battlefield. For }5} turn(s), apply }13} stack(s) of }6}% Chain DMG Increase (Dealt) to yourself per target. Can stack up to }15} times. Attack the enemy ~18~ times, dealing X Magic DMG equal to 75% of your Magic ATK per hit.'
+          },
+          {
+            'rank': 5,
+            'sp': 5,
+            'value': null,
+            'turns': null,
+            'text': 'Resonate with targets who have a Mark on the battlefield. For }5} turn(s), apply }13} stack(s) of }6}% Chain DMG Increase (Dealt) to yourself per target. Can stack up to }15} times. Attack the enemy ~18~ times, dealing X Magic DMG equal to X% of your Magic ATK per hit.'
+          }
+        ],
+        'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillicons/v2/skillicon_220.webp'
+      }
+    ],
+    'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/4302/icon.webp',
+    'body': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/4302/body.webp',
+    'skillCard': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillart/004302.webp'
+  },
+  {
+    'id': 20001,
+    'slug': 'esteemed-adventurer-eris',
+    'name': 'Esteemed Adventurer',
+    'nameJp': '有望な冒険家',
+    'nameKr': '촉망받는 모험가',
+    'charSlug': 'eris',
+    'charName': 'Eris',
+    'element': 1,
+    'grade': 5,
+    'vaJp': 'Ai Kakuma',
+    'talent': null,
+    'vaKr': 'Ai Kakuma',
+    'maxLevel': 5,
+    'skills': [
+      {
+        'name': 'Crimson Flash',
+        'desc': 'Deal X Physical DMG to the enemy equal to 300% of your ATK. If this attack results in the enemy having a Chain count of 7 or less, deal &1& Physical DMG equal to &6&% of your ATK instead.',
+        'cooldown': 3,
+        'tiers': [
+          {
+            'rank': 0,
+            'sp': 4,
+            'value': 300,
+            'turns': null,
+            'text': 'Deal X Physical DMG to the enemy equal to 300% of your ATK. If this attack results in the enemy having a Chain count of 7 or less, deal &1& Physical DMG equal to &6&% of your ATK instead.'
+          },
+          {
+            'rank': 1,
+            'sp': 3,
+            'value': 300,
+            'turns': null,
+            'text': 'Deal X Physical DMG to the enemy equal to 300% of your ATK. If this attack results in the enemy having a Chain count of 7 or less, deal &1& Physical DMG equal to &6&% of your ATK instead.'
+          },
+          {
+            'rank': 2,
+            'sp': 3,
+            'value': 375,
+            'turns': null,
+            'text': 'Deal X Physical DMG to the enemy equal to 375% of your ATK. If this attack results in the enemy having a Chain count of 7 or less, deal &1& Physical DMG equal to &6&% of your ATK instead.'
+          },
+          {
+            'rank': 3,
+            'sp': 3,
+            'value': 450,
+            'turns': null,
+            'text': 'Deal X Physical DMG to the enemy equal to 450% of your ATK. If this attack results in the enemy having a Chain count of 7 or less, deal &1& Physical DMG equal to &6&% of your ATK instead.'
+          },
+          {
+            'rank': 4,
+            'sp': 3,
+            'value': 525,
+            'turns': null,
+            'text': 'Deal X Physical DMG to the enemy equal to 525% of your ATK. If this attack results in the enemy having a Chain count of 7 or less, deal &1& Physical DMG equal to &6&% of your ATK instead.'
+          },
+          {
+            'rank': 5,
+            'sp': 3,
+            'value': 600,
+            'turns': null,
+            'text': 'Deal X Physical DMG to the enemy equal to 600% of your ATK. If this attack results in the enemy having a Chain count of 7 or less, deal &1& Physical DMG equal to &6&% of your ATK instead.'
+          }
+        ],
+        'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillicons/v2/skillicon_120.webp'
+      }
+    ],
+    'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/20001/icon.webp',
+    'skillCard': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillart/020001.webp'
+  },
+  {
+    'id': 20002,
+    'slug': 'your-very-own-cat-eris',
+    'name': 'Your Very Own Cat',
+    'nameJp': 'あなただけの猫',
+    'nameKr': '당신만의 고양이',
+    'charSlug': 'eris',
+    'charName': 'Eris',
+    'element': 1,
+    'grade': 5,
+    'vaJp': 'Ai Kakuma',
+    'talent': null,
+    'vaKr': 'Ai Kakuma',
+    'maxLevel': 5,
+    'skills': [
+      {
+        'name': 'Doldia Tribe\'s Secret Technique',
+        'desc': 'Attack the enemy 5 times, dealing X Physical DMG equal to 30% of your ATK per hit. Apply a :6:% Vulnerability (Physical) to the Main Target enemy for :5: turn(s).',
+        'cooldown': 3,
+        'tiers': [
+          {
+            'rank': 0,
+            'sp': 6,
+            'value': 30,
+            'turns': null,
+            'text': 'Attack the enemy 5 times, dealing X Physical DMG equal to 30% of your ATK per hit. Apply a :6:% Vulnerability (Physical) to the Main Target enemy for :5: turn(s).'
+          },
+          {
+            'rank': 1,
+            'sp': 5,
+            'value': null,
+            'turns': null,
+            'text': 'Attack the enemy 5 times, dealing X Physical DMG equal to X% of your ATK per hit. Apply a :6:% Vulnerability (Physical) to the Main Target enemy for :5: turn(s).'
+          },
+          {
+            'rank': 2,
+            'sp': 5,
+            'value': 30,
+            'turns': null,
+            'text': 'Attack the enemy 5 times, dealing X Physical DMG equal to 30% of your ATK per hit. Apply a :6:% Vulnerability (Physical) to the Main Target enemy for :5: turn(s).'
+          },
+          {
+            'rank': 3,
+            'sp': 5,
+            'value': null,
+            'turns': null,
+            'text': 'Attack the enemy 5 times, dealing X Physical DMG equal to X% of your ATK per hit. Apply a :6:% Vulnerability (Physical) to the Main Target enemy for :5: turn(s).'
+          },
+          {
+            'rank': 4,
+            'sp': 5,
+            'value': 45,
+            'turns': null,
+            'text': 'Attack the enemy 5 times, dealing X Physical DMG equal to 45% of your ATK per hit. Apply a :6:% Vulnerability (Physical) to the Main Target enemy for :5: turn(s).'
+          },
+          {
+            'rank': 5,
+            'sp': 5,
+            'value': null,
+            'turns': null,
+            'text': 'Attack the enemy 5 times, dealing X Physical DMG equal to X% of your ATK per hit. Apply a :6:% Vulnerability (Physical) to the Main Target enemy for :5: turn(s).'
+          }
+        ],
+        'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillicons/v2/skillicon_123.webp'
+      }
+    ],
+    'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/20002/icon.webp',
+    'skillCard': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillart/020002.webp'
+  },
+  {
+    'id': 20101,
+    'slug': 'respected-master-roxy',
+    'name': 'Respected Master',
+    'nameJp': '尊敬される師匠',
+    'nameKr': '존경받는 스승',
+    'charSlug': 'roxy',
+    'charName': 'Roxy',
+    'element': 0,
+    'grade': 5,
+    'vaJp': 'Konomi Kohara',
+    'talent': null,
+    'vaKr': 'Konomi Kohara',
+    'maxLevel': 5,
+    'skills': [
+      {
+        'name': 'Cumulonimbus',
+        'desc': 'Deal X Magic DMG to the enemy equal to 140% of your Magic ATK. For the Main Target enemy, deal &1& Magic DMG equal to &6&% of your Magic ATK instead.',
+        'cooldown': 3,
+        'tiers': [
+          {
+            'rank': 0,
+            'sp': 7,
+            'value': 140,
+            'turns': null,
+            'text': 'Deal X Magic DMG to the enemy equal to 140% of your Magic ATK. For the Main Target enemy, deal &1& Magic DMG equal to &6&% of your Magic ATK instead.'
+          },
+          {
+            'rank': 1,
+            'sp': 6,
+            'value': 140,
+            'turns': null,
+            'text': 'Deal X Magic DMG to the enemy equal to 140% of your Magic ATK. For the Main Target enemy, deal &1& Magic DMG equal to &6&% of your Magic ATK instead.'
+          },
+          {
+            'rank': 2,
+            'sp': 6,
+            'value': 210,
+            'turns': null,
+            'text': 'Deal X Magic DMG to the enemy equal to 210% of your Magic ATK. For the Main Target enemy, deal &1& Magic DMG equal to &6&% of your Magic ATK instead.'
+          },
+          {
+            'rank': 3,
+            'sp': 6,
+            'value': 280,
+            'turns': null,
+            'text': 'Deal X Magic DMG to the enemy equal to 280% of your Magic ATK. For the Main Target enemy, deal &1& Magic DMG equal to &6&% of your Magic ATK instead.'
+          },
+          {
+            'rank': 4,
+            'sp': 6,
+            'value': 280,
+            'turns': null,
+            'text': 'Deal X Magic DMG to the enemy equal to 280% of your Magic ATK. For the Main Target enemy, deal &1& Magic DMG equal to &6&% of your Magic ATK instead.'
+          },
+          {
+            'rank': 5,
+            'sp': 6,
+            'value': 350,
+            'turns': null,
+            'text': 'Deal X Magic DMG to the enemy equal to 350% of your Magic ATK. For the Main Target enemy, deal &1& Magic DMG equal to &6&% of your Magic ATK instead.'
+          }
+        ],
+        'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillicons/v2/skillicon_121.webp'
+      }
+    ],
+    'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/20101/icon.webp',
+    'skillCard': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillart/020101.webp'
+  },
+  {
+    'id': 20102,
+    'slug': 'emerging-desire-roxy',
+    'name': 'Emerging Desire',
+    'nameJp': '漏れ出る欲望',
+    'nameKr': '새어 나온 욕망',
+    'charSlug': 'roxy',
+    'charName': 'Roxy',
+    'element': 0,
+    'grade': 5,
+    'vaJp': 'Konomi Kohara',
+    'talent': null,
+    'vaKr': 'Konomi Kohara',
+    'maxLevel': 5,
+    'skills': [
+      {
+        'name': 'Silent Night',
+        'desc': 'Attack the enemy 3 times, dealing X Magic DMG equal to 30% of your Magic ATK per hit. Apply Silence to the enemy for 2 turn(s).',
+        'cooldown': 3,
+        'tiers': [
+          {
+            'rank': 0,
+            'sp': 2,
+            'value': 30,
+            'turns': 2,
+            'text': 'Attack the enemy 3 times, dealing X Magic DMG equal to 30% of your Magic ATK per hit. Apply Silence to the enemy for 2 turn(s).'
+          },
+          {
+            'rank': 1,
+            'sp': 1,
+            'value': null,
+            'turns': null,
+            'text': 'Attack the enemy 3 times, dealing X Magic DMG equal to X% of your Magic ATK per hit. Apply Silence to the enemy for X turn(s).'
+          },
+          {
+            'rank': 2,
+            'sp': 1,
+            'value': 37,
+            'turns': 2,
+            'text': 'Attack the enemy 3 times, dealing X Magic DMG equal to 37% of your Magic ATK per hit. Apply Silence to the enemy for 2 turn(s).'
+          },
+          {
+            'rank': 3,
+            'sp': 1,
+            'value': null,
+            'turns': null,
+            'text': 'Attack the enemy 3 times, dealing X Magic DMG equal to X% of your Magic ATK per hit. Apply Silence to the enemy for X turn(s).'
+          },
+          {
+            'rank': 4,
+            'sp': 1,
+            'value': 51,
+            'turns': 2,
+            'text': 'Attack the enemy 3 times, dealing X Magic DMG equal to 51% of your Magic ATK per hit. Apply Silence to the enemy for 2 turn(s).'
+          },
+          {
+            'rank': 5,
+            'sp': 1,
+            'value': null,
+            'turns': null,
+            'text': 'Attack the enemy 3 times, dealing X Magic DMG equal to X% of your Magic ATK per hit. Apply Silence to the enemy for X turn(s).'
+          }
+        ],
+        'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillicons/v2/skillicon_122.webp'
+      }
+    ],
+    'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/20102/icon.webp',
+    'skillCard': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillart/020102.webp'
+  },
+  {
+    'id': 20201,
+    'slug': 'gentle-destroyer-yomi',
+    'name': 'Gentle Destroyer',
+    'nameJp': '穏やかな破壊者',
+    'nameKr': '온화한 파괴자',
+    'charSlug': 'yomi',
+    'charName': 'Yomi',
+    'element': 2,
+    'grade': 5,
+    'vaJp': 'Ai Kayano',
+    'talent': null,
+    'vaKr': 'Ai Kayano',
+    'maxLevel': 5,
+    'skills': [
+      {
+        'name': 'Sigmund',
+        'desc': 'Attack the enemy 4 times, dealing X Physical DMG equal to 30% of your ATK per hit.',
+        'cooldown': 3,
+        'tiers': [
+          {
+            'rank': 0,
+            'sp': 7,
+            'value': 30,
+            'turns': null,
+            'text': 'Attack the enemy 4 times, dealing X Physical DMG equal to 30% of your ATK per hit.'
+          },
+          {
+            'rank': 1,
+            'sp': 7,
+            'value': 50,
+            'turns': null,
+            'text': 'Attack the enemy 4 times, dealing X Physical DMG equal to 50% of your ATK per hit.'
+          },
+          {
+            'rank': 2,
+            'sp': 7,
+            'value': 70,
+            'turns': null,
+            'text': 'Attack the enemy 4 times, dealing X Physical DMG equal to 70% of your ATK per hit.'
+          },
+          {
+            'rank': 3,
+            'sp': 7,
+            'value': 90,
+            'turns': null,
+            'text': 'Attack the enemy 4 times, dealing X Physical DMG equal to 90% of your ATK per hit.'
+          },
+          {
+            'rank': 4,
+            'sp': 7,
+            'value': 110,
+            'turns': null,
+            'text': 'Attack the enemy 4 times, dealing X Physical DMG equal to 110% of your ATK per hit.'
+          },
+          {
+            'rank': 5,
+            'sp': 7,
+            'value': 130,
+            'turns': null,
+            'text': 'Attack the enemy 4 times, dealing X Physical DMG equal to 130% of your ATK per hit.'
+          }
+        ],
+        'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillicons/v2/skillicon_136.webp'
+      }
+    ],
+    'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/20201/icon.webp',
+    'body': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/20201/body.webp',
+    'skillCard': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillart/020201.webp'
+  },
+  {
+    'id': 20301,
+    'slug': 'fist-of-conviction-yozakura',
+    'name': 'Fist of Conviction',
+    'nameJp': '信念の拳',
+    'nameKr': '신념의 주먹',
+    'charSlug': 'yozakura',
+    'charName': 'Yozakura',
+    'element': 2,
+    'grade': 5,
+    'vaJp': 'Kaori Ishihara',
+    'talent': null,
+    'vaKr': 'Kaori Ishihara',
+    'maxLevel': 5,
+    'skills': [
+      {
+        'name': '10,000 Palm Fists of Paradise Hell',
+        'desc': 'Apply an Augmentation effect to yourself, increasing your Basic Attack DMG by X%. This effect lasts until you perform X Basic Attacks. Attack the enemy 3 times, dealing X Magic DMG equal to 150% of your Magic ATK per hit.',
+        'cooldown': 3,
+        'tiers': [
+          {
+            'rank': 0,
+            'sp': 5,
+            'value': 150,
+            'turns': 1,
+            'text': 'Apply an Augmentation effect to yourself, increasing your Basic Attack DMG by X%. This effect lasts until you perform X Basic Attacks. Attack the enemy 3 times, dealing X Magic DMG equal to 150% of your Magic ATK per hit.'
+          },
+          {
+            'rank': 1,
+            'sp': 4,
+            'value': null,
+            'turns': null,
+            'text': 'Apply an Augmentation effect to yourself, increasing your Basic Attack DMG by X%. This effect lasts until you perform X Basic Attacks. Attack the enemy 3 times, dealing X Magic DMG equal to X% of your Magic ATK per hit.'
+          },
+          {
+            'rank': 2,
+            'sp': 4,
+            'value': 195,
+            'turns': 1,
+            'text': 'Apply an Augmentation effect to yourself, increasing your Basic Attack DMG by X%. This effect lasts until you perform X Basic Attacks. Attack the enemy 3 times, dealing X Magic DMG equal to 195% of your Magic ATK per hit.'
+          },
+          {
+            'rank': 3,
+            'sp': 4,
+            'value': null,
+            'turns': null,
+            'text': 'Apply an Augmentation effect to yourself, increasing your Basic Attack DMG by X%. This effect lasts until you perform X Basic Attacks. Attack the enemy 3 times, dealing X Magic DMG equal to X% of your Magic ATK per hit.'
+          },
+          {
+            'rank': 4,
+            'sp': 4,
+            'value': 240,
+            'turns': 1,
+            'text': 'Apply an Augmentation effect to yourself, increasing your Basic Attack DMG by X%. This effect lasts until you perform X Basic Attacks. Attack the enemy 3 times, dealing X Magic DMG equal to 240% of your Magic ATK per hit.'
+          },
+          {
+            'rank': 5,
+            'sp': 4,
+            'value': null,
+            'turns': null,
+            'text': 'Apply an Augmentation effect to yourself, increasing your Basic Attack DMG by X%. This effect lasts until you perform X Basic Attacks. Attack the enemy 3 times, dealing X Magic DMG equal to X% of your Magic ATK per hit.'
+          }
+        ],
+        'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillicons/v2/skillicon_137.webp'
+      }
+    ],
+    'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/20301/icon.webp',
+    'body': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/20301/body.webp',
+    'skillCard': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillart/020301.webp'
+  },
+  {
+    'id': 20401,
+    'slug': 'dancing-snowflake-yumi',
+    'name': 'Dancing Snowflake',
+    'nameJp': '雪花の舞',
+    'nameKr': '눈꽃의 춤',
+    'charSlug': 'yumi',
+    'charName': 'Yumi',
+    'element': 0,
+    'grade': 5,
+    'vaJp': 'Yumi Hara',
+    'talent': null,
+    'vaKr': 'Yumi Hara',
+    'maxLevel': 5,
+    'skills': [
+      {
+        'name': 'Ice Pillar Fan',
+        'desc': 'Attack the enemy 5 times, dealing X Magic DMG equal to 30% of your Magic ATK per hit. Apply stacking Frostbite to the enemy for 3 turn(s), dealing X Magic DMG equal to 30% of your Magic ATK per stack. Can stack up to X times.',
+        'cooldown': 1,
+        'tiers': [
+          {
+            'rank': 0,
+            'sp': 5,
+            'value': 30,
+            'turns': 3,
+            'text': 'Attack the enemy 5 times, dealing X Magic DMG equal to 30% of your Magic ATK per hit. Apply stacking Frostbite to the enemy for 3 turn(s), dealing X Magic DMG equal to 30% of your Magic ATK per stack. Can stack up to X times.'
+          },
+          {
+            'rank': 1,
+            'sp': 4,
+            'value': null,
+            'turns': null,
+            'text': 'Attack the enemy 5 times, dealing X Magic DMG equal to X% of your Magic ATK per hit. Apply stacking Frostbite to the enemy for X turn(s), dealing X Magic DMG equal to X% of your Magic ATK per stack. Can stack up to X times.'
+          },
+          {
+            'rank': 2,
+            'sp': 4,
+            'value': 60,
+            'turns': 3,
+            'text': 'Attack the enemy 5 times, dealing X Magic DMG equal to 60% of your Magic ATK per hit. Apply stacking Frostbite to the enemy for 3 turn(s), dealing X Magic DMG equal to 60% of your Magic ATK per stack. Can stack up to X times.'
+          },
+          {
+            'rank': 3,
+            'sp': 4,
+            'value': null,
+            'turns': null,
+            'text': 'Attack the enemy 5 times, dealing X Magic DMG equal to X% of your Magic ATK per hit. Apply stacking Frostbite to the enemy for X turn(s), dealing X Magic DMG equal to X% of your Magic ATK per stack. Can stack up to X times.'
+          },
+          {
+            'rank': 4,
+            'sp': 4,
+            'value': 90,
+            'turns': 3,
+            'text': 'Attack the enemy 5 times, dealing X Magic DMG equal to 90% of your Magic ATK per hit. Apply stacking Frostbite to the enemy for 3 turn(s), dealing X Magic DMG equal to 90% of your Magic ATK per stack. Can stack up to X times.'
+          },
+          {
+            'rank': 5,
+            'sp': 4,
+            'value': null,
+            'turns': null,
+            'text': 'Attack the enemy 5 times, dealing X Magic DMG equal to X% of your Magic ATK per hit. Apply stacking Frostbite to the enemy for X turn(s), dealing X Magic DMG equal to X% of your Magic ATK per stack. Can stack up to X times.'
+          }
+        ],
+        'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillicons/v2/skillicon_138.webp'
+      }
+    ],
+    'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/20401/icon.webp',
+    'body': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/20401/body.webp',
+    'skillCard': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillart/020401.webp'
+  },
+  {
+    'id': 20501,
+    'slug': 'kind-ruthlessness-hikage',
+    'name': 'Kind Ruthlessness',
+    'nameJp': '優しき無情',
+    'nameKr': '상냥한 무정',
+    'charSlug': 'hikage',
+    'charName': 'Hikage',
+    'element': 2,
+    'grade': 5,
+    'vaJp': 'Ryoko Shiraishi',
+    'talent': null,
+    'vaKr': 'Ryoko Shiraishi',
+    'maxLevel': 5,
+    'skills': [
+      {
+        'name': 'Gouging',
+        'desc': 'Attack the enemy 12 times, dealing X Physical DMG equal to 40% of your ATK per hit.',
+        'cooldown': 3,
+        'tiers': [
+          {
+            'rank': 0,
+            'sp': 5,
+            'value': 40,
+            'turns': null,
+            'text': 'Attack the enemy 12 times, dealing X Physical DMG equal to 40% of your ATK per hit.'
+          },
+          {
+            'rank': 1,
+            'sp': 4,
+            'value': 40,
+            'turns': null,
+            'text': 'Attack the enemy 12 times, dealing X Physical DMG equal to 40% of your ATK per hit.'
+          },
+          {
+            'rank': 2,
+            'sp': 4,
+            'value': 50,
+            'turns': null,
+            'text': 'Attack the enemy 12 times, dealing X Physical DMG equal to 50% of your ATK per hit.'
+          },
+          {
+            'rank': 3,
+            'sp': 4,
+            'value': 60,
+            'turns': null,
+            'text': 'Attack the enemy 12 times, dealing X Physical DMG equal to 60% of your ATK per hit.'
+          },
+          {
+            'rank': 4,
+            'sp': 4,
+            'value': 60,
+            'turns': null,
+            'text': 'Attack the enemy 12 times, dealing X Physical DMG equal to 60% of your ATK per hit.'
+          },
+          {
+            'rank': 5,
+            'sp': 4,
+            'value': 70,
+            'turns': null,
+            'text': 'Attack the enemy 12 times, dealing X Physical DMG equal to 70% of your ATK per hit.'
+          }
+        ],
+        'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillicons/v2/skillicon_139.webp'
+      }
+    ],
+    'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/20501/icon.webp',
+    'body': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/20501/body.webp',
+    'skillCard': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillart/020501.webp'
+  },
+  {
+    'id': 20601,
+    'slug': 'orcbolg-goblin-slayer',
+    'name': 'Orcbolg',
+    'nameJp': '小鬼を殺す者',
+    'nameKr': '소귀 살해자',
+    'charSlug': 'goblin-slayer',
+    'charName': 'Goblin Slayer',
+    'element': 1,
+    'grade': 5,
+    'vaJp': 'Yuuichirou Umehara',
+    'talent': null,
+    'vaKr': 'Yuuichirou Umehara',
+    'maxLevel': 5,
+    'skills': [
+      {
+        'name': 'Goblin Annihilation',
+        'desc': 'Apply a X% Barrier to yourself for X turn(s). Restore [3[ SP to allies. Attack the enemy 2 times, dealing X Physical DMG equal to X% of your ATK per hit.',
+        'cooldown': 1,
+        'tiers': [
+          {
+            'rank': 0,
+            'sp': 5,
+            'value': null,
+            'turns': null,
+            'text': 'Apply a X% Barrier to yourself for X turn(s). Restore [3[ SP to allies. Attack the enemy 2 times, dealing X Physical DMG equal to X% of your ATK per hit.'
+          },
+          {
+            'rank': 1,
+            'sp': 4,
+            'value': null,
+            'turns': null,
+            'text': 'Apply a X% Barrier to yourself for X turn(s). Restore [3[ SP to allies. Attack the enemy 2 times, dealing X Physical DMG equal to X% of your ATK per hit.'
+          },
+          {
+            'rank': 2,
+            'sp': 4,
+            'value': null,
+            'turns': null,
+            'text': 'Apply a X% Barrier to yourself for X turn(s). Restore [3[ SP to allies. Attack the enemy 2 times, dealing X Physical DMG equal to X% of your ATK per hit.'
+          },
+          {
+            'rank': 3,
+            'sp': 4,
+            'value': null,
+            'turns': null,
+            'text': 'Apply a X% Barrier to yourself for X turn(s). Restore [3[ SP to allies. Attack the enemy 2 times, dealing X Physical DMG equal to X% of your ATK per hit.'
+          },
+          {
+            'rank': 4,
+            'sp': 4,
+            'value': null,
+            'turns': null,
+            'text': 'Apply a X% Barrier to yourself for X turn(s). Restore [3[ SP to allies. Attack the enemy 2 times, dealing X Physical DMG equal to X% of your ATK per hit.'
+          },
+          {
+            'rank': 5,
+            'sp': 4,
+            'value': null,
+            'turns': null,
+            'text': 'Apply a X% Barrier to yourself for X turn(s). Restore [3[ SP to allies. Attack the enemy 2 times, dealing X Physical DMG equal to X% of your ATK per hit.'
+          }
+        ],
+        'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillicons/v2/skillicon_156.webp'
+      }
+    ],
+    'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/20601/icon.webp',
+    'skillCard': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillart/020601.webp'
+  },
+  {
+    'id': 20701,
+    'slug': 'earth-mother-believer-priestess',
+    'name': 'Earth Mother Believer',
+    'nameJp': '地母神の愛娘',
+    'nameKr': '지모신의 사제',
+    'charSlug': 'priestess',
+    'charName': 'Priestess',
+    'element': 3,
+    'grade': 5,
+    'vaJp': 'Yui Ogura',
+    'talent': null,
+    'vaKr': 'Yui Ogura',
+    'maxLevel': 5,
+    'skills': [
+      {
+        'name': 'Holy Light',
+        'desc': 'Apply a X% Vulnerability (Magic) to the enemy for X turn(s). Deal X Magic DMG to the enemy equal to X% of your Magic ATK.',
+        'cooldown': 1,
+        'tiers': [
+          {
+            'rank': 0,
+            'sp': 4,
+            'value': 0,
+            'turns': null,
+            'text': 'Apply a X% Vulnerability (Magic) to the enemy for X turn(s). Deal X Magic DMG to the enemy equal to X% of your Magic ATK.'
+          },
+          {
+            'rank': 1,
+            'sp': 3,
+            'value': null,
+            'turns': null,
+            'text': 'Apply a X% Vulnerability (Magic) to the enemy for X turn(s). Deal X Magic DMG to the enemy equal to X% of your Magic ATK.'
+          },
+          {
+            'rank': 2,
+            'sp': 3,
+            'value': 1,
+            'turns': null,
+            'text': 'Apply a X% Vulnerability (Magic) to the enemy for X turn(s). Deal X Magic DMG to the enemy equal to X% of your Magic ATK.'
+          },
+          {
+            'rank': 3,
+            'sp': 3,
+            'value': null,
+            'turns': null,
+            'text': 'Apply a X% Vulnerability (Magic) to the enemy for X turn(s). Deal X Magic DMG to the enemy equal to X% of your Magic ATK.'
+          },
+          {
+            'rank': 4,
+            'sp': 3,
+            'value': 1,
+            'turns': null,
+            'text': 'Apply a X% Vulnerability (Magic) to the enemy for X turn(s). Deal X Magic DMG to the enemy equal to X% of your Magic ATK.'
+          },
+          {
+            'rank': 5,
+            'sp': 3,
+            'value': null,
+            'turns': null,
+            'text': 'Apply a X% Vulnerability (Magic) to the enemy for X turn(s). Deal X Magic DMG to the enemy equal to X% of your Magic ATK.'
+          }
+        ],
+        'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillicons/v2/skillicon_157.webp'
+      }
+    ],
+    'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/20701/icon.webp',
+    'skillCard': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillart/020701.webp'
+  },
+  {
+    'id': 20801,
+    'slug': 'daughter-of-starwind-high-elf-archer',
+    'name': 'Daughter of Starwind',
+    'nameJp': '星風の娘',
+    'nameKr': '별바람의 딸',
+    'charSlug': 'high-elf-archer',
+    'charName': 'High Elf Archer',
+    'element': 2,
+    'grade': 5,
+    'vaJp': 'Nao Toyama',
+    'talent': null,
+    'vaKr': 'Nao Toyama',
+    'maxLevel': 5,
+    'skills': [
+      {
+        'name': 'High Elf Archery',
+        'desc': 'Your Crit Rate is increased by 100% for 2 turn(s). Attack the enemy 4 times, dealing X Physical DMG equal to 75% of your ATK per hit.',
+        'cooldown': 1,
+        'tiers': [
+          {
+            'rank': 0,
+            'sp': 4,
+            'value': 75,
+            'turns': 2,
+            'text': 'Your Crit Rate is increased by 100% for 2 turn(s). Attack the enemy 4 times, dealing X Physical DMG equal to 75% of your ATK per hit.'
+          },
+          {
+            'rank': 1,
+            'sp': 3,
+            'value': null,
+            'turns': null,
+            'text': 'Your Crit Rate is increased by X% for X turn(s). Attack the enemy 4 times, dealing X Physical DMG equal to X% of your ATK per hit.'
+          },
+          {
+            'rank': 2,
+            'sp': 3,
+            'value': 87,
+            'turns': 2,
+            'text': 'Your Crit Rate is increased by 100% for 2 turn(s). Attack the enemy 4 times, dealing X Physical DMG equal to 87% of your ATK per hit.'
+          },
+          {
+            'rank': 3,
+            'sp': 3,
+            'value': null,
+            'turns': null,
+            'text': 'Your Crit Rate is increased by X% for X turn(s). Attack the enemy 4 times, dealing X Physical DMG equal to X% of your ATK per hit.'
+          },
+          {
+            'rank': 4,
+            'sp': 3,
+            'value': 112,
+            'turns': 2,
+            'text': 'Your Crit Rate is increased by 100% for 2 turn(s). Attack the enemy 4 times, dealing X Physical DMG equal to 112% of your ATK per hit.'
+          },
+          {
+            'rank': 5,
+            'sp': 3,
+            'value': null,
+            'turns': null,
+            'text': 'Your Crit Rate is increased by X% for X turn(s). Attack the enemy 4 times, dealing X Physical DMG equal to X% of your ATK per hit.'
+          }
+        ],
+        'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillicons/v2/skillicon_158.webp'
+      }
+    ],
+    'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/20801/icon.webp',
+    'skillCard': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillart/020801.webp'
+  },
+  {
+    'id': 20901,
+    'slug': 'supreme-god-archbishop-sword-maiden',
+    'name': 'Supreme God Archbishop',
+    'nameJp': '至高神の大司教',
+    'nameKr': '지고신의 대주교',
+    'charSlug': 'sword-maiden',
+    'charName': 'Sword Maiden',
+    'element': 3,
+    'grade': 5,
+    'vaJp': 'Aya Endo',
+    'talent': null,
+    'vaKr': 'Aya Endo',
+    'maxLevel': 5,
+    'skills': [
+      {
+        'name': 'Holy Smite',
+        'desc': 'Attack the enemy 5 times, dealing X Magic DMG equal to 65% of your Magic ATK per hit.',
+        'cooldown': 3,
+        'tiers': [
+          {
+            'rank': 0,
+            'sp': 6,
+            'value': 65,
+            'turns': null,
+            'text': 'Attack the enemy 5 times, dealing X Magic DMG equal to 65% of your Magic ATK per hit.'
+          },
+          {
+            'rank': 1,
+            'sp': 5,
+            'value': 65,
+            'turns': null,
+            'text': 'Attack the enemy 5 times, dealing X Magic DMG equal to 65% of your Magic ATK per hit.'
+          },
+          {
+            'rank': 2,
+            'sp': 5,
+            'value': 75,
+            'turns': null,
+            'text': 'Attack the enemy 5 times, dealing X Magic DMG equal to 75% of your Magic ATK per hit.'
+          },
+          {
+            'rank': 3,
+            'sp': 5,
+            'value': 85,
+            'turns': null,
+            'text': 'Attack the enemy 5 times, dealing X Magic DMG equal to 85% of your Magic ATK per hit.'
+          },
+          {
+            'rank': 4,
+            'sp': 5,
+            'value': 95,
+            'turns': null,
+            'text': 'Attack the enemy 5 times, dealing X Magic DMG equal to 95% of your Magic ATK per hit.'
+          },
+          {
+            'rank': 5,
+            'sp': 5,
+            'value': 105,
+            'turns': null,
+            'text': 'Attack the enemy 5 times, dealing X Magic DMG equal to 105% of your Magic ATK per hit.'
+          }
+        ],
+        'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillicons/v2/skillicon_159.webp'
+      }
+    ],
+    'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/20901/icon.webp',
+    'skillCard': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillart/020901.webp'
+  },
+  {
+    'id': 21001,
+    'slug': 'noble-flame-ikaruga',
+    'name': 'Noble Flame',
+    'nameJp': '清廉の炎',
+    'nameKr': '청렴한 불꽃',
+    'charSlug': 'ikaruga',
+    'charName': 'Ikaruga',
+    'element': 1,
+    'grade': 5,
+    'vaJp': 'Asami Imai',
+    'talent': null,
+    'vaKr': 'Asami Imai',
+    'maxLevel': 5,
+    'skills': [
+      {
+        'name': 'Hien Hōsen: Mode One',
+        'desc': 'Apply X stacks of an effect that increases ATK by 60%. Can stack up to X times. This effect wears off after being hit X times. Attack the enemy 6 times, dealing X Physical DMG equal to 40% of your ATK per hit.',
+        'cooldown': 3,
+        'tiers': [
+          {
+            'rank': 0,
+            'sp': 6,
+            'value': 40,
+            'turns': 1,
+            'text': 'Apply X stacks of an effect that increases ATK by 60%. Can stack up to X times. This effect wears off after being hit X times. Attack the enemy 6 times, dealing X Physical DMG equal to 40% of your ATK per hit.'
+          },
+          {
+            'rank': 1,
+            'sp': 5,
+            'value': null,
+            'turns': null,
+            'text': 'Apply X stacks of an effect that increases ATK by X%. Can stack up to X times. This effect wears off after being hit X times. Attack the enemy 6 times, dealing X Physical DMG equal to X% of your ATK per hit.'
+          },
+          {
+            'rank': 2,
+            'sp': 5,
+            'value': 40,
+            'turns': 1,
+            'text': 'Apply X stacks of an effect that increases ATK by 80%. Can stack up to X times. This effect wears off after being hit X times. Attack the enemy 6 times, dealing X Physical DMG equal to 40% of your ATK per hit.'
+          },
+          {
+            'rank': 3,
+            'sp': 5,
+            'value': null,
+            'turns': null,
+            'text': 'Apply X stacks of an effect that increases ATK by X%. Can stack up to X times. This effect wears off after being hit X times. Attack the enemy 6 times, dealing X Physical DMG equal to X% of your ATK per hit.'
+          },
+          {
+            'rank': 4,
+            'sp': 5,
+            'value': 60,
+            'turns': 1,
+            'text': 'Apply X stacks of an effect that increases ATK by 100%. Can stack up to X times. This effect wears off after being hit X times. Attack the enemy 6 times, dealing X Physical DMG equal to 60% of your ATK per hit.'
+          },
+          {
+            'rank': 5,
+            'sp': 5,
+            'value': null,
+            'turns': null,
+            'text': 'Apply X stacks of an effect that increases ATK by X%. Can stack up to X times. This effect wears off after being hit X times. Attack the enemy 6 times, dealing X Physical DMG equal to X% of your ATK per hit.'
+          }
+        ],
+        'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillicons/v2/skillicon_194.webp'
+      }
+    ],
+    'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/21001/icon.webp',
+    'body': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/21001/body.webp',
+    'skillCard': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillart/021001.webp'
+  },
+  {
+    'id': 21101,
+    'slug': 'eternal-chains-kyouka-uzen',
+    'name': 'Eternal Chains',
+    'nameJp': '無窮の鎖',
+    'nameKr': '무한의 사슬',
+    'charSlug': 'kyouka-uzen',
+    'charName': 'Kyouka Uzen',
+    'element': 3,
+    'grade': 5,
+    'vaJp': 'Akari Kitō',
+    'talent': null,
+    'vaKr': 'Akari Kitō',
+    'maxLevel': 5,
+    'skills': [
+      {
+        'name': 'Time to Submit!',
+        'desc': 'Attack the enemy ~18~ times, dealing X Physical DMG equal to 300% of your ATK per hit.',
+        'cooldown': 9,
+        'tiers': [
+          {
+            'rank': 0,
+            'sp': 5,
+            'value': 300,
+            'turns': null,
+            'text': 'Attack the enemy ~18~ times, dealing X Physical DMG equal to 300% of your ATK per hit.'
+          },
+          {
+            'rank': 1,
+            'sp': 4,
+            'value': 300,
+            'turns': null,
+            'text': 'Attack the enemy ~18~ times, dealing X Physical DMG equal to 300% of your ATK per hit.'
+          },
+          {
+            'rank': 2,
+            'sp': 4,
+            'value': 300,
+            'turns': null,
+            'text': 'Attack the enemy ~18~ times, dealing X Physical DMG equal to 300% of your ATK per hit.'
+          },
+          {
+            'rank': 3,
+            'sp': 4,
+            'value': 350,
+            'turns': null,
+            'text': 'Attack the enemy ~18~ times, dealing X Physical DMG equal to 350% of your ATK per hit.'
+          },
+          {
+            'rank': 4,
+            'sp': 4,
+            'value': 400,
+            'turns': null,
+            'text': 'Attack the enemy ~18~ times, dealing X Physical DMG equal to 400% of your ATK per hit.'
+          },
+          {
+            'rank': 5,
+            'sp': 4,
+            'value': 450,
+            'turns': null,
+            'text': 'Attack the enemy ~18~ times, dealing X Physical DMG equal to 450% of your ATK per hit.'
+          }
+        ],
+        'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillicons/v2/skillicon_210.webp'
+      }
+    ],
+    'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/21101/icon.webp',
+    'body': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/21101/body.webp',
+    'skillCard': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillart/021101.webp'
+  },
+  {
+    'id': 21201,
+    'slug': 'ame-no-mitori-tenka-izumo',
+    'name': 'Ame-no-Mitori',
+    'nameJp': '天御鳥命',
+    'nameKr': '아메노미토리',
+    'charSlug': 'tenka-izumo',
+    'charName': 'Tenka Izumo',
+    'element': 4,
+    'grade': 5,
+    'vaJp': 'Maaya Uchida',
+    'talent': null,
+    'vaKr': 'Maaya Uchida',
+    'maxLevel': 5,
+    'skills': [
+      {
+        'name': 'Right Where I Want You!',
+        'desc': 'Attack the enemy ~18~ times, dealing X Magic DMG equal to X% of your Magic ATK per hit.',
+        'cooldown': 3,
+        'tiers': [
+          {
+            'rank': 0,
+            'sp': 6,
+            'value': null,
+            'turns': null,
+            'text': 'Attack the enemy ~18~ times, dealing X Magic DMG equal to X% of your Magic ATK per hit.'
+          },
+          {
+            'rank': 1,
+            'sp': 5,
+            'value': 240,
+            'turns': null,
+            'text': 'Attack the enemy ~18~ times, dealing X Magic DMG equal to 240% of your Magic ATK per hit.'
+          },
+          {
+            'rank': 2,
+            'sp': 5,
+            'value': 260,
+            'turns': null,
+            'text': 'Attack the enemy ~18~ times, dealing X Magic DMG equal to 260% of your Magic ATK per hit.'
+          },
+          {
+            'rank': 3,
+            'sp': 5,
+            'value': 280,
+            'turns': null,
+            'text': 'Attack the enemy ~18~ times, dealing X Magic DMG equal to 280% of your Magic ATK per hit.'
+          },
+          {
+            'rank': 4,
+            'sp': 5,
+            'value': 300,
+            'turns': null,
+            'text': 'Attack the enemy ~18~ times, dealing X Magic DMG equal to 300% of your Magic ATK per hit.'
+          },
+          {
+            'rank': 5,
+            'sp': 5,
+            'value': 320,
+            'turns': null,
+            'text': 'Attack the enemy ~18~ times, dealing X Magic DMG equal to 320% of your Magic ATK per hit.'
+          }
+        ],
+        'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillicons/v2/skillicon_211.webp'
+      }
+    ],
+    'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/21201/icon.webp',
+    'body': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/21201/body.webp',
+    'skillCard': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillart/021201.webp'
+  },
+  {
+    'id': 21301,
+    'slug': 'lord-of-the-cosmos-ren-yamashiro',
+    'name': 'Lord of the Cosmos',
+    'nameJp': '無限宇宙の全一',
+    'nameKr': '무한우주의 전일',
+    'charSlug': 'ren-yamashiro',
+    'charName': 'Ren Yamashiro',
+    'element': 3,
+    'grade': 5,
+    'vaJp': 'Kana Hanazawa',
+    'talent': null,
+    'vaKr': 'Kana Hanazawa',
+    'maxLevel': 5,
+    'skills': [
+      {
+        'name': 'Time for Discipline!',
+        'desc': 'You have a X% chance to evade enemy attacks until you successfully evade X times. Deal X Magic DMG to the enemy equal to 600% of your Magic ATK.',
+        'cooldown': 1,
+        'tiers': [
+          {
+            'rank': 0,
+            'sp': 5,
+            'value': 600,
+            'turns': 1,
+            'text': 'You have a X% chance to evade enemy attacks until you successfully evade X times. Deal X Magic DMG to the enemy equal to 600% of your Magic ATK.'
+          },
+          {
+            'rank': 1,
+            'sp': 4,
+            'value': null,
+            'turns': null,
+            'text': 'You have a X% chance to evade enemy attacks until you successfully evade X times. Deal X Magic DMG to the enemy equal to X% of your Magic ATK.'
+          },
+          {
+            'rank': 2,
+            'sp': 4,
+            'value': 680,
+            'turns': 1,
+            'text': 'You have a X% chance to evade enemy attacks until you successfully evade X times. Deal X Magic DMG to the enemy equal to 680% of your Magic ATK.'
+          },
+          {
+            'rank': 3,
+            'sp': 4,
+            'value': null,
+            'turns': null,
+            'text': 'You have a X% chance to evade enemy attacks until you successfully evade X times. Deal X Magic DMG to the enemy equal to X% of your Magic ATK.'
+          },
+          {
+            'rank': 4,
+            'sp': 4,
+            'value': 840,
+            'turns': 1,
+            'text': 'You have a X% chance to evade enemy attacks until you successfully evade X times. Deal X Magic DMG to the enemy equal to 840% of your Magic ATK.'
+          },
+          {
+            'rank': 5,
+            'sp': 4,
+            'value': null,
+            'turns': null,
+            'text': 'You have a X% chance to evade enemy attacks until you successfully evade X times. Deal X Magic DMG to the enemy equal to X% of your Magic ATK.'
+          }
+        ],
+        'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillicons/v2/skillicon_212.webp'
+      }
+    ],
+    'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/21301/icon.webp',
+    'body': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/21301/body.webp',
+    'skillCard': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillart/021301.webp'
+  },
+  {
+    'id': 60101,
+    'slug': 'bomb-fanatic-wiggle',
+    'name': 'Bomb Fanatic',
+    'nameJp': '爆弾狂',
+    'nameKr': '폭탄광',
+    'charSlug': 'wiggle',
+    'charName': 'Wiggle',
+    'element': 1,
+    'grade': 3,
+    'vaJp': 'Shinya Takahashi',
+    'talent': {
+      'name': 'Immortal',
+      'mark': '0',
+      'skills': [
+        {
+          'name': 'Explosion Forever!',
+          'desc': 'In a fatigued state, you revive with 100% HP after the battle ends.',
+          'value': 64,
+          'catalyst': null,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_14_s.webp'
+        },
+        {
+          'name': 'Explosion Forever!',
+          'desc': 'In a fatigued state, you revive with 100% HP after the battle ends.',
+          'value': 64,
+          'catalyst': null,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_14_s.webp'
+        },
+        {
+          'name': 'Explosion Forever!',
+          'desc': 'In a fatigued state, you revive with 100% HP after the battle ends.',
+          'value': 64,
+          'catalyst': null,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_14_s.webp'
+        },
+        {
+          'name': 'Explosion Forever!',
+          'desc': '',
+          'value': 64,
+          'catalyst': null,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_14_s.webp'
+        }
+      ]
+    },
+    'vaKr': 'Kim Myung-jun',
+    'maxLevel': 5,
+    'skills': [
+      {
+        'name': 'Wiggle? Explosion!',
+        'desc': 'Self-destruct to deal X Physical DMG to the enemy equal to 300% of your ATK. Self-destruct attacks cannot be evaded.',
+        'cooldown': 1,
+        'tiers': [
+          {
+            'rank': 0,
+            'sp': 5,
+            'value': 300,
+            'turns': null,
+            'text': 'Self-destruct to deal X Physical DMG to the enemy equal to 300% of your ATK. Self-destruct attacks cannot be evaded.'
+          },
+          {
+            'rank': 1,
+            'sp': 4,
+            'value': 300,
+            'turns': null,
+            'text': 'Self-destruct to deal X Physical DMG to the enemy equal to 300% of your ATK. Self-destruct attacks cannot be evaded.'
+          },
+          {
+            'rank': 2,
+            'sp': 4,
+            'value': 335,
+            'turns': null,
+            'text': 'Self-destruct to deal X Physical DMG to the enemy equal to 335% of your ATK. Self-destruct attacks cannot be evaded.'
+          },
+          {
+            'rank': 3,
+            'sp': 3,
+            'value': 335,
+            'turns': null,
+            'text': 'Self-destruct to deal X Physical DMG to the enemy equal to 335% of your ATK. Self-destruct attacks cannot be evaded.'
+          },
+          {
+            'rank': 4,
+            'sp': 3,
+            'value': 400,
+            'turns': null,
+            'text': 'Self-destruct to deal X Physical DMG to the enemy equal to 400% of your ATK. Self-destruct attacks cannot be evaded.'
+          },
+          {
+            'rank': 5,
+            'sp': 3,
+            'value': 500,
+            'turns': null,
+            'text': 'Self-destruct to deal X Physical DMG to the enemy equal to 500% of your ATK. Self-destruct attacks cannot be evaded.'
+          }
+        ],
+        'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillicons/v2/skillicon_37.webp'
+      }
+    ],
+    'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/60101/icon.webp',
+    'body': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/60101/body.webp'
+  },
+  {
+    'id': 60102,
+    'slug': 'bomb-in-the-hoodie-wiggle',
+    'name': 'Bomb in the Hoodie',
+    'nameJp': 'ボムインザフード',
+    'nameKr': '밤 인 더 후드',
+    'charSlug': 'wiggle',
+    'charName': 'Wiggle',
+    'element': 1,
+    'grade': 3,
+    'vaJp': 'Shinya Takahashi',
+    'talent': {
+      'name': 'Immortal',
+      'mark': '0',
+      'skills': [
+        {
+          'name': 'Explosion Forever!',
+          'desc': 'In a fatigued state, you revive with 100% HP after the battle ends.',
+          'value': 64,
+          'catalyst': null,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_14_s.webp'
+        },
+        {
+          'name': 'Explosion Forever!',
+          'desc': 'In a fatigued state, you revive with 100% HP after the battle ends.',
+          'value': 64,
+          'catalyst': null,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_14_s.webp'
+        },
+        {
+          'name': 'Explosion Forever!',
+          'desc': 'In a fatigued state, you revive with 100% HP after the battle ends.',
+          'value': 64,
+          'catalyst': null,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_14_s.webp'
+        },
+        {
+          'name': 'Explosion Forever!',
+          'desc': '',
+          'value': 64,
+          'catalyst': null,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_14_s.webp'
+        }
+      ]
+    },
+    'vaKr': 'Kim Myung-jun',
+    'maxLevel': 5,
+    'skills': [
+      {
+        'name': 'Dancing with Bombs',
+        'desc': 'Attack the enemy 3 times, dealing X Physical DMG equal to 20% of your ATK per hit. Apply Burn to the enemy for 3 turn(s), dealing X Physical DMG equal to 20% of your ATK.',
+        'cooldown': 7,
+        'tiers': [
+          {
+            'rank': 0,
+            'sp': 6,
+            'value': 20,
+            'turns': 3,
+            'text': 'Attack the enemy 3 times, dealing X Physical DMG equal to 20% of your ATK per hit. Apply Burn to the enemy for 3 turn(s), dealing X Physical DMG equal to 20% of your ATK.'
+          },
+          {
+            'rank': 1,
+            'sp': 6,
+            'value': null,
+            'turns': null,
+            'text': 'Attack the enemy 3 times, dealing X Physical DMG equal to X% of your ATK per hit. Apply Burn to the enemy for X turn(s), dealing X Physical DMG equal to X% of your ATK.'
+          },
+          {
+            'rank': 2,
+            'sp': 6,
+            'value': 20,
+            'turns': 3,
+            'text': 'Attack the enemy 3 times, dealing X Physical DMG equal to 20% of your ATK per hit. Apply Burn to the enemy for 3 turn(s), dealing X Physical DMG equal to 20% of your ATK.'
+          },
+          {
+            'rank': 3,
+            'sp': 5,
+            'value': null,
+            'turns': null,
+            'text': 'Attack the enemy 3 times, dealing X Physical DMG equal to X% of your ATK per hit. Apply Burn to the enemy for X turn(s), dealing X Physical DMG equal to X% of your ATK.'
+          },
+          {
+            'rank': 4,
+            'sp': 5,
+            'value': 20,
+            'turns': 3,
+            'text': 'Attack the enemy 3 times, dealing X Physical DMG equal to 20% of your ATK per hit. Apply Burn to the enemy for 3 turn(s), dealing X Physical DMG equal to 20% of your ATK.'
+          },
+          {
+            'rank': 5,
+            'sp': 5,
+            'value': null,
+            'turns': null,
+            'text': 'Attack the enemy 3 times, dealing X Physical DMG equal to X% of your ATK per hit. Apply Burn to the enemy for X turn(s), dealing X Physical DMG equal to X% of your ATK.'
+          }
+        ],
+        'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillicons/v2/skillicon_38.webp'
+      }
+    ],
+    'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/60102/icon.webp',
+    'body': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/60102/body.webp'
+  },
+  {
+    'id': 60201,
+    'slug': 'seductive-wings-lucrezia',
+    'name': 'Seductive Wings',
+    'nameJp': '誘惑の翼',
+    'nameKr': '유혹의 날개',
+    'charSlug': 'lucrezia',
+    'charName': 'Lucrezia',
+    'element': 4,
+    'grade': 4,
+    'vaJp': 'Haruka Kinugasa',
+    'talent': {
+      'name': '',
+      'mark': '0',
+      'skills': [
+        {
+          'name': 'Gate of Darkness',
+          'desc': 'You can create a Magic Circle and travel only to other Magic Circles in a Safe Zone.',
+          'value': [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          'catalyst': 20,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_15_s.webp'
+        },
+        {
+          'name': 'Gate of Darkness',
+          'desc': 'You can create a Magic Circle and travel only to other Magic Circles in a Safe Zone.',
+          'value': [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          'catalyst': 15,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_15_s.webp'
+        },
+        {
+          'name': 'Gate of Darkness',
+          'desc': 'You can create a Magic Circle and travel only to other Magic Circles in a Safe Zone.',
+          'value': [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          'catalyst': 10,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_15_s.webp'
+        },
+        {
+          'name': 'Gate of Darkness',
+          'desc': 'You can create a Magic Circle and travel only to other Magic Circles in a Safe Zone.',
+          'value': [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          'catalyst': 5,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_15_s.webp'
+        }
+      ]
+    },
+    'vaKr': 'Kim Bo-na',
+    'maxLevel': 5,
+    'skills': [
+      {
+        'name': 'Seductive Gesture',
+        'desc': 'Restore X SP to allies each time an attack hits an enemy. Attack the enemy 2 times, dealing X Magic DMG equal to X% of your Magic ATK per hit. Apply Silence to the enemy for [5[ turn(s).',
+        'cooldown': 7,
+        'tiers': [
+          {
+            'rank': 0,
+            'sp': 3,
+            'value': null,
+            'turns': null,
+            'text': 'Restore X SP to allies each time an attack hits an enemy. Attack the enemy 2 times, dealing X Magic DMG equal to X% of your Magic ATK per hit. Apply Silence to the enemy for [5[ turn(s).'
+          },
+          {
+            'rank': 1,
+            'sp': 3,
+            'value': null,
+            'turns': null,
+            'text': 'Restore X SP to allies each time an attack hits an enemy. Attack the enemy 2 times, dealing X Magic DMG equal to X% of your Magic ATK per hit. Apply Silence to the enemy for [5[ turn(s).'
+          },
+          {
+            'rank': 2,
+            'sp': 3,
+            'value': null,
+            'turns': null,
+            'text': 'Restore X SP to allies each time an attack hits an enemy. Attack the enemy 2 times, dealing X Magic DMG equal to X% of your Magic ATK per hit. Apply Silence to the enemy for [5[ turn(s).'
+          },
+          {
+            'rank': 3,
+            'sp': 2,
+            'value': null,
+            'turns': null,
+            'text': 'Restore X SP to allies each time an attack hits an enemy. Attack the enemy 2 times, dealing X Magic DMG equal to X% of your Magic ATK per hit. Apply Silence to the enemy for [5[ turn(s).'
+          },
+          {
+            'rank': 4,
+            'sp': 2,
+            'value': null,
+            'turns': null,
+            'text': 'Restore X SP to allies each time an attack hits an enemy. Attack the enemy 2 times, dealing X Magic DMG equal to X% of your Magic ATK per hit. Apply Silence to the enemy for [5[ turn(s).'
+          },
+          {
+            'rank': 5,
+            'sp': 2,
+            'value': null,
+            'turns': null,
+            'text': 'Restore X SP to allies each time an attack hits an enemy. Attack the enemy 2 times, dealing X Magic DMG equal to X% of your Magic ATK per hit. Apply Silence to the enemy for [5[ turn(s).'
+          }
+        ],
+        'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillicons/v2/skillicon_39.webp'
+      }
+    ],
+    'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/60201/icon.webp',
+    'body': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/60201/body.webp'
+  },
+  {
+    'id': 60301,
+    'slug': 'the-destruction-alec',
+    'name': 'The Destruction',
+    'nameJp': '破壊の星',
+    'nameKr': '파괴의 별',
+    'charSlug': 'alec',
+    'charName': 'Alec',
+    'element': 1,
+    'grade': 5,
+    'vaJp': 'Joe Ninomiya',
+    'talent': {
+      'name': 'Overpower',
+      'mark': 'Talent_Buff027_Mark',
+      'skills': [
+        {
+          'name': 'Contempt',
+          'desc': 'Using this ability instantly overpowers certain spawned monsters on the map.\\n● Daily Uses: 10',
+          'value': [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          'catalyst': 50,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_27_s.webp'
+        },
+        {
+          'name': 'Contempt',
+          'desc': 'Using this ability instantly overpowers certain spawned monsters on the map.\\n● Daily Uses: 15',
+          'value': [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          'catalyst': 45,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_27_s.webp'
+        },
+        {
+          'name': 'Contempt',
+          'desc': 'Using this ability instantly overpowers certain spawned monsters on the map.\\n● Daily Uses: 20',
+          'value': null,
+          'catalyst': 35,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_27_s.webp'
+        },
+        {
+          'name': 'Contempt',
+          'desc': 'Using this ability instantly overpowers certain spawned monsters on the map.\\n● Daily Uses: 25',
+          'value': null,
+          'catalyst': 25,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_27_s.webp'
+        },
+        {
+          'name': 'Contempt',
+          'desc': 'Using this ability instantly overpowers certain spawned monsters on the map.\\n● Daily Uses: 30',
+          'value': null,
+          'catalyst': 15,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_27_s.webp'
+        }
+      ]
+    },
+    'vaKr': 'Kim Ji-yul',
+    'maxLevel': 5,
+    'skills': [
+      {
+        'name': 'Raging Strike',
+        'desc': 'Deal X Fixed DMG (Physical) to the enemy equal to 400% of your ATK.',
+        'cooldown': 5,
+        'tiers': [
+          {
+            'rank': 0,
+            'sp': 3,
+            'value': 400,
+            'turns': null,
+            'text': 'Deal X Fixed DMG (Physical) to the enemy equal to 400% of your ATK.'
+          },
+          {
+            'rank': 1,
+            'sp': 3,
+            'value': 525,
+            'turns': null,
+            'text': 'Deal X Fixed DMG (Physical) to the enemy equal to 525% of your ATK.'
+          },
+          {
+            'rank': 2,
+            'sp': 3,
+            'value': 625,
+            'turns': null,
+            'text': 'Deal X Fixed DMG (Physical) to the enemy equal to 625% of your ATK.'
+          },
+          {
+            'rank': 3,
+            'sp': 2,
+            'value': 625,
+            'turns': null,
+            'text': 'Deal X Fixed DMG (Physical) to the enemy equal to 625% of your ATK.'
+          },
+          {
+            'rank': 4,
+            'sp': 2,
+            'value': 725,
+            'turns': null,
+            'text': 'Deal X Fixed DMG (Physical) to the enemy equal to 725% of your ATK.'
+          },
+          {
+            'rank': 5,
+            'sp': 2,
+            'value': 800,
+            'turns': null,
+            'text': 'Deal X Fixed DMG (Physical) to the enemy equal to 800% of your ATK.'
+          }
+        ],
+        'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillicons/v2/skillicon_40.webp'
+      }
+    ],
+    'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/60301/icon.webp',
+    'body': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/60301/body.webp',
+    'skillCard': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillart/060301.webp'
+  },
+  {
+    'id': 60302,
+    'slug': 'sword-breaker-alec',
+    'name': 'Sword Breaker',
+    'nameJp': 'ソードブレーカー',
+    'nameKr': '소드 브레이커',
+    'charSlug': 'alec',
+    'charName': 'Alec',
+    'element': 1,
+    'grade': 5,
+    'vaJp': 'Joe Ninomiya',
+    'talent': {
+      'name': 'Overpower',
+      'mark': 'Talent_Buff027_Mark',
+      'skills': [
+        {
+          'name': 'Contempt',
+          'desc': 'Using this ability instantly overpowers certain spawned monsters on the map.\\n● Daily Uses: 10',
+          'value': [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          'catalyst': 50,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_27_s.webp'
+        },
+        {
+          'name': 'Contempt',
+          'desc': 'Using this ability instantly overpowers certain spawned monsters on the map.\\n● Daily Uses: 15',
+          'value': [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          'catalyst': 45,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_27_s.webp'
+        },
+        {
+          'name': 'Contempt',
+          'desc': 'Using this ability instantly overpowers certain spawned monsters on the map.\\n● Daily Uses: 20',
+          'value': null,
+          'catalyst': 35,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_27_s.webp'
+        },
+        {
+          'name': 'Contempt',
+          'desc': 'Using this ability instantly overpowers certain spawned monsters on the map.\\n● Daily Uses: 25',
+          'value': null,
+          'catalyst': 25,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_27_s.webp'
+        },
+        {
+          'name': 'Contempt',
+          'desc': 'Using this ability instantly overpowers certain spawned monsters on the map.\\n● Daily Uses: 30',
+          'value': null,
+          'catalyst': 15,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_27_s.webp'
+        }
+      ]
+    },
+    'vaKr': 'Kim Ji-yul',
+    'maxLevel': 5,
+    'skills': [
+      {
+        'name': 'Broken Sword Attack',
+        'desc': 'Attack the enemy 3 times, dealing X Fixed DMG (Physical) equal to 100% of your ATK per hit.',
+        'cooldown': 5,
+        'tiers': [
+          {
+            'rank': 0,
+            'sp': 4,
+            'value': 100,
+            'turns': null,
+            'text': 'Attack the enemy 3 times, dealing X Fixed DMG (Physical) equal to 100% of your ATK per hit.'
+          },
+          {
+            'rank': 1,
+            'sp': 4,
+            'value': 140,
+            'turns': null,
+            'text': 'Attack the enemy 3 times, dealing X Fixed DMG (Physical) equal to 140% of your ATK per hit.'
+          },
+          {
+            'rank': 2,
+            'sp': 4,
+            'value': 175,
+            'turns': null,
+            'text': 'Attack the enemy 3 times, dealing X Fixed DMG (Physical) equal to 175% of your ATK per hit.'
+          },
+          {
+            'rank': 3,
+            'sp': 3,
+            'value': 175,
+            'turns': null,
+            'text': 'Attack the enemy 3 times, dealing X Fixed DMG (Physical) equal to 175% of your ATK per hit.'
+          },
+          {
+            'rank': 4,
+            'sp': 3,
+            'value': 210,
+            'turns': null,
+            'text': 'Attack the enemy 3 times, dealing X Fixed DMG (Physical) equal to 210% of your ATK per hit.'
+          },
+          {
+            'rank': 5,
+            'sp': 3,
+            'value': 240,
+            'turns': null,
+            'text': 'Attack the enemy 3 times, dealing X Fixed DMG (Physical) equal to 240% of your ATK per hit.'
+          }
+        ],
+        'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillicons/v2/skillicon_41.webp'
+      }
+    ],
+    'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/60302/icon.webp',
+    'body': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/60302/body.webp',
+    'skillCard': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillart/060302.webp'
+  },
+  {
+    'id': 60401,
+    'slug': 'the-curse-celia',
+    'name': 'The Curse',
+    'nameJp': '呪いの星',
+    'nameKr': '저주의 별',
+    'charSlug': 'celia',
+    'charName': 'Celia',
+    'element': 4,
+    'grade': 5,
+    'vaJp': 'Chihiro Ibuki',
+    'talent': {
+      'name': 'Consult',
+      'mark': 'Talent_Buff026_Mark',
+      'skills': [
+        {
+          'name': 'Terra Bacchus',
+          'desc': '',
+          'value': [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          'catalyst': 50,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_26_s.webp'
+        },
+        {
+          'name': 'Terra Bacchus',
+          'desc': 'Uses Absorption to absorb Finds on the map. If Search Finds are in an acquirable state, they can also be absorbed.\\n● Number of daily usage: 4 times',
+          'value': null,
+          'catalyst': 40,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_26_s.webp'
+        },
+        {
+          'name': 'Terra Bacchus',
+          'desc': 'Uses Absorption to absorb Finds on the map. If Search Finds are in an acquirable state, they can also be absorbed.\\n● Number of daily usage: 5 times',
+          'value': null,
+          'catalyst': 30,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_26_s.webp'
+        },
+        {
+          'name': 'Terra Bacchus',
+          'desc': 'Uses Absorption to absorb Finds on the map. If Search Finds are in an acquirable state, they can also be absorbed.\\n● Number of daily usage: 6 times',
+          'value': null,
+          'catalyst': 20,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_26_s.webp'
+        },
+        {
+          'name': 'Terra Bacchus',
+          'desc': 'Uses Absorption to absorb Finds on the map. If Search Finds are in an acquirable state, they can also be absorbed.\\n● Number of daily usage: 7 times',
+          'value': null,
+          'catalyst': 10,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_26_s.webp'
+        }
+      ]
+    },
+    'vaKr': 'Bi Ju-eon',
+    'maxLevel': 5,
+    'skills': [
+      {
+        'name': 'Miming Clowns',
+        'desc': 'Attack the enemy 7 times, dealing X Magic DMG equal to 18% of your Magic ATK per hit. Reduce enemy ATK by -35% for 4 turn(s).',
+        'cooldown': 5,
+        'tiers': [
+          {
+            'rank': 0,
+            'sp': 5,
+            'value': 18,
+            'turns': 4,
+            'text': 'Attack the enemy 7 times, dealing X Magic DMG equal to 18% of your Magic ATK per hit. Reduce enemy ATK by -35% for 4 turn(s).'
+          },
+          {
+            'rank': 1,
+            'sp': 5,
+            'value': null,
+            'turns': null,
+            'text': 'Attack the enemy 7 times, dealing X Magic DMG equal to X% of your Magic ATK per hit. Reduce enemy ATK by X% for X turn(s).'
+          },
+          {
+            'rank': 2,
+            'sp': 5,
+            'value': 24,
+            'turns': 4,
+            'text': 'Attack the enemy 7 times, dealing X Magic DMG equal to 24% of your Magic ATK per hit. Reduce enemy ATK by -55% for 4 turn(s).'
+          },
+          {
+            'rank': 3,
+            'sp': 4,
+            'value': null,
+            'turns': null,
+            'text': 'Attack the enemy 7 times, dealing X Magic DMG equal to X% of your Magic ATK per hit. Reduce enemy ATK by X% for X turn(s).'
+          },
+          {
+            'rank': 4,
+            'sp': 4,
+            'value': 27,
+            'turns': 4,
+            'text': 'Attack the enemy 7 times, dealing X Magic DMG equal to 27% of your Magic ATK per hit. Reduce enemy ATK by -65% for 4 turn(s).'
+          },
+          {
+            'rank': 5,
+            'sp': 4,
+            'value': null,
+            'turns': null,
+            'text': 'Attack the enemy 7 times, dealing X Magic DMG equal to X% of your Magic ATK per hit. Reduce enemy ATK by X% for X turn(s).'
+          }
+        ],
+        'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillicons/v2/skillicon_42.webp'
+      }
+    ],
+    'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/60401/icon.webp',
+    'body': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/60401/body.webp'
+  },
+  {
+    'id': 60402,
+    'slug': 'descendant-of-the-great-witch-celia',
+    'name': 'Descendant of the Great Witch',
+    'nameJp': '大魔女の末裔',
+    'nameKr': '대마녀의 후예',
+    'charSlug': 'celia',
+    'charName': 'Celia',
+    'element': 4,
+    'grade': 5,
+    'vaJp': 'Chihiro Ibuki',
+    'talent': {
+      'name': 'Consult',
+      'mark': 'Talent_Buff026_Mark',
+      'skills': [
+        {
+          'name': 'Terra Bacchus',
+          'desc': '',
+          'value': [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          'catalyst': 50,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_26_s.webp'
+        },
+        {
+          'name': 'Terra Bacchus',
+          'desc': 'Uses Absorption to absorb Finds on the map. If Search Finds are in an acquirable state, they can also be absorbed.\\n● Number of daily usage: 4 times',
+          'value': null,
+          'catalyst': 40,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_26_s.webp'
+        },
+        {
+          'name': 'Terra Bacchus',
+          'desc': 'Uses Absorption to absorb Finds on the map. If Search Finds are in an acquirable state, they can also be absorbed.\\n● Number of daily usage: 5 times',
+          'value': null,
+          'catalyst': 30,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_26_s.webp'
+        },
+        {
+          'name': 'Terra Bacchus',
+          'desc': 'Uses Absorption to absorb Finds on the map. If Search Finds are in an acquirable state, they can also be absorbed.\\n● Number of daily usage: 6 times',
+          'value': null,
+          'catalyst': 20,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_26_s.webp'
+        },
+        {
+          'name': 'Terra Bacchus',
+          'desc': 'Uses Absorption to absorb Finds on the map. If Search Finds are in an acquirable state, they can also be absorbed.\\n● Number of daily usage: 7 times',
+          'value': null,
+          'catalyst': 10,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_26_s.webp'
+        }
+      ]
+    },
+    'vaKr': 'Bi Ju-eon',
+    'maxLevel': 5,
+    'skills': [
+      {
+        'name': 'The Ancient Curse',
+        'desc': 'Attack the enemy ~18~ times, dealing X Magic DMG equal to 25% of your Magic ATK per hit. Reduce enemy Magic ATK by -35% for 4 turn(s).',
+        'cooldown': 5,
+        'tiers': [
+          {
+            'rank': 0,
+            'sp': 5,
+            'value': 25,
+            'turns': 4,
+            'text': 'Attack the enemy ~18~ times, dealing X Magic DMG equal to 25% of your Magic ATK per hit. Reduce enemy Magic ATK by -35% for 4 turn(s).'
+          },
+          {
+            'rank': 1,
+            'sp': 5,
+            'value': null,
+            'turns': null,
+            'text': 'Attack the enemy ~18~ times, dealing X Magic DMG equal to X% of your Magic ATK per hit. Reduce enemy Magic ATK by X% for X turn(s).'
+          },
+          {
+            'rank': 2,
+            'sp': 5,
+            'value': 37,
+            'turns': 4,
+            'text': 'Attack the enemy ~18~ times, dealing X Magic DMG equal to 37% of your Magic ATK per hit. Reduce enemy Magic ATK by -55% for 4 turn(s).'
+          },
+          {
+            'rank': 3,
+            'sp': 4,
+            'value': null,
+            'turns': null,
+            'text': 'Attack the enemy ~18~ times, dealing X Magic DMG equal to X% of your Magic ATK per hit. Reduce enemy Magic ATK by X% for X turn(s).'
+          },
+          {
+            'rank': 4,
+            'sp': 4,
+            'value': 43,
+            'turns': 4,
+            'text': 'Attack the enemy ~18~ times, dealing X Magic DMG equal to 43% of your Magic ATK per hit. Reduce enemy Magic ATK by -65% for 4 turn(s).'
+          },
+          {
+            'rank': 5,
+            'sp': 4,
+            'value': null,
+            'turns': null,
+            'text': 'Attack the enemy ~18~ times, dealing X Magic DMG equal to X% of your Magic ATK per hit. Reduce enemy Magic ATK by X% for X turn(s).'
+          }
+        ],
+        'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillicons/v2/skillicon_43.webp'
+      }
+    ],
+    'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/60402/icon.webp',
+    'body': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/60402/body.webp',
+    'skillCard': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillart/060402.webp'
+  },
+  {
+    'id': 60403,
+    'slug': 'masquerade-bunny-celia',
+    'name': 'Masquerade Bunny',
+    'nameJp': 'マスカレイド・バニー',
+    'nameKr': '마스커레이드 바니',
+    'charSlug': 'celia',
+    'charName': 'Celia',
+    'element': 4,
+    'grade': 5,
+    'vaJp': 'Chihiro Ibuki',
+    'talent': {
+      'name': 'Consult',
+      'mark': 'Talent_Buff026_Mark',
+      'skills': [
+        {
+          'name': 'Terra Bacchus',
+          'desc': '',
+          'value': [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          'catalyst': 50,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_26_s.webp'
+        },
+        {
+          'name': 'Terra Bacchus',
+          'desc': 'Uses Absorption to absorb Finds on the map. If Search Finds are in an acquirable state, they can also be absorbed.\\n● Number of daily usage: 4 times',
+          'value': null,
+          'catalyst': 40,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_26_s.webp'
+        },
+        {
+          'name': 'Terra Bacchus',
+          'desc': 'Uses Absorption to absorb Finds on the map. If Search Finds are in an acquirable state, they can also be absorbed.\\n● Number of daily usage: 5 times',
+          'value': null,
+          'catalyst': 30,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_26_s.webp'
+        },
+        {
+          'name': 'Terra Bacchus',
+          'desc': 'Uses Absorption to absorb Finds on the map. If Search Finds are in an acquirable state, they can also be absorbed.\\n● Number of daily usage: 6 times',
+          'value': null,
+          'catalyst': 20,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_26_s.webp'
+        },
+        {
+          'name': 'Terra Bacchus',
+          'desc': 'Uses Absorption to absorb Finds on the map. If Search Finds are in an acquirable state, they can also be absorbed.\\n● Number of daily usage: 7 times',
+          'value': null,
+          'catalyst': 10,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_26_s.webp'
+        }
+      ]
+    },
+    'vaKr': 'Bi Ju-eon',
+    'maxLevel': 5,
+    'skills': [
+      {
+        'name': 'Cheers for All',
+        'desc': 'Apply X Chain Reinforcement to yourself for 4 turn(s). Attack the enemy 3 times, dealing X Magic DMG equal to 65% of your Magic ATK per hit.',
+        'cooldown': 5,
+        'tiers': [
+          {
+            'rank': 0,
+            'sp': 4,
+            'value': 65,
+            'turns': 4,
+            'text': 'Apply X Chain Reinforcement to yourself for 4 turn(s). Attack the enemy 3 times, dealing X Magic DMG equal to 65% of your Magic ATK per hit.'
+          },
+          {
+            'rank': 1,
+            'sp': 3,
+            'value': null,
+            'turns': null,
+            'text': 'Apply X Chain Reinforcement to yourself for X turn(s). Attack the enemy 3 times, dealing X Magic DMG equal to X% of your Magic ATK per hit.'
+          },
+          {
+            'rank': 2,
+            'sp': 3,
+            'value': 85,
+            'turns': 4,
+            'text': 'Apply X Chain Reinforcement to yourself for 4 turn(s). Attack the enemy 3 times, dealing X Magic DMG equal to 85% of your Magic ATK per hit.'
+          },
+          {
+            'rank': 3,
+            'sp': 3,
+            'value': null,
+            'turns': null,
+            'text': 'Apply X Chain Reinforcement to yourself for X turn(s). Attack the enemy 3 times, dealing X Magic DMG equal to X% of your Magic ATK per hit.'
+          },
+          {
+            'rank': 4,
+            'sp': 3,
+            'value': 105,
+            'turns': 6,
+            'text': 'Apply X Chain Reinforcement to yourself for 6 turn(s). Attack the enemy 3 times, dealing X Magic DMG equal to 105% of your Magic ATK per hit.'
+          },
+          {
+            'rank': 5,
+            'sp': 3,
+            'value': null,
+            'turns': null,
+            'text': 'Apply X Chain Reinforcement to yourself for X turn(s). Attack the enemy 3 times, dealing X Magic DMG equal to X% of your Magic ATK per hit.'
+          }
+        ],
+        'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillicons/v2/skillicon_105.webp'
+      }
+    ],
+    'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/60403/icon.webp',
+    'body': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/60403/body.webp',
+    'skillCard': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillart/060403.webp'
+  },
+  {
+    'id': 60501,
+    'slug': 'gentle-maid-anastasia',
+    'name': 'Gentle Maid',
+    'nameJp': '優しきメイド',
+    'nameKr': '상냥한 메이드',
+    'charSlug': 'anastasia',
+    'charName': 'Anastasia',
+    'element': 1,
+    'grade': 5,
+    'vaJp': 'Kana Hanaiwa',
+    'talent': {
+      'name': 'Rush',
+      'mark': 'Talent_Buff013_Mark',
+      'skills': [
+        {
+          'name': 'This is getting exciting!',
+          'desc': 'Boosts the movement speed by 75% for 5 seconds.',
+          'value': null,
+          'catalyst': 10,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_13_s.webp'
+        },
+        {
+          'name': 'This is getting exciting!',
+          'desc': 'Boosts the movement speed by 75% for 6 seconds.',
+          'value': null,
+          'catalyst': 10,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_13_s.webp'
+        },
+        {
+          'name': 'This is getting exciting!',
+          'desc': 'Boosts the movement speed by 75% for 7 seconds.',
+          'value': null,
+          'catalyst': 10,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_13_s.webp'
+        },
+        {
+          'name': 'This is getting exciting!',
+          'desc': 'Boosts the movement speed by 75% for 8 seconds.',
+          'value': [
+            0,
+            0,
+            65,
+            0,
+            0
+          ],
+          'catalyst': 10,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_13_s.webp'
+        },
+        {
+          'name': 'This is getting exciting!',
+          'desc': 'Boosts the movement speed by 75% for 10 seconds.',
+          'value': [
+            0,
+            0,
+            0,
+            0
+          ],
+          'catalyst': 10,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_13_s.webp'
+        }
+      ]
+    },
+    'vaKr': 'Park Shi-yoon',
+    'maxLevel': 5,
+    'skills': [
+      {
+        'name': 'Cluster Bombardment',
+        'desc': 'Your Crit DMG is increased by 350% for 1 turn(s). Attack the enemy 3 times, dealing X Physical DMG equal to 110% of your ATK per hit. For the Main Target enemy, deal &1& Physical DMG equal to &6&% of your ATK instead.',
+        'cooldown': 5,
+        'tiers': [
+          {
+            'rank': 0,
+            'sp': 5,
+            'value': 110,
+            'turns': 1,
+            'text': 'Your Crit DMG is increased by 350% for 1 turn(s). Attack the enemy 3 times, dealing X Physical DMG equal to 110% of your ATK per hit. For the Main Target enemy, deal &1& Physical DMG equal to &6&% of your ATK instead.'
+          },
+          {
+            'rank': 1,
+            'sp': 5,
+            'value': null,
+            'turns': null,
+            'text': 'Your Crit DMG is increased by X% for X turn(s). Attack the enemy 3 times, dealing X Physical DMG equal to X% of your ATK per hit. For the Main Target enemy, deal &1& Physical DMG equal to &6&% of your ATK instead.'
+          },
+          {
+            'rank': 2,
+            'sp': 5,
+            'value': 160,
+            'turns': 1,
+            'text': 'Your Crit DMG is increased by 450% for 1 turn(s). Attack the enemy 3 times, dealing X Physical DMG equal to 160% of your ATK per hit. For the Main Target enemy, deal &1& Physical DMG equal to &6&% of your ATK instead.'
+          },
+          {
+            'rank': 3,
+            'sp': 4,
+            'value': null,
+            'turns': null,
+            'text': 'Your Crit DMG is increased by X% for X turn(s). Attack the enemy 3 times, dealing X Physical DMG equal to X% of your ATK per hit. For the Main Target enemy, deal &1& Physical DMG equal to &6&% of your ATK instead.'
+          },
+          {
+            'rank': 4,
+            'sp': 4,
+            'value': 210,
+            'turns': 1,
+            'text': 'Your Crit DMG is increased by 450% for 1 turn(s). Attack the enemy 3 times, dealing X Physical DMG equal to 210% of your ATK per hit. For the Main Target enemy, deal &1& Physical DMG equal to &6&% of your ATK instead.'
+          },
+          {
+            'rank': 5,
+            'sp': 4,
+            'value': null,
+            'turns': null,
+            'text': 'Your Crit DMG is increased by X% for X turn(s). Attack the enemy 3 times, dealing X Physical DMG equal to X% of your ATK per hit. For the Main Target enemy, deal &1& Physical DMG equal to &6&% of your ATK instead.'
+          }
+        ],
+        'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillicons/v2/skillicon_44.webp'
+      }
+    ],
+    'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/60501/icon.webp',
+    'body': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/60501/body.webp',
+    'skillCard': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillart/060501.webp'
+  },
+  {
+    'id': 60502,
+    'slug': 'fire-graffiti-anastasia',
+    'name': 'Fire Graffiti',
+    'nameJp': 'ファイアグラフィティ',
+    'nameKr': '파이어 그라피티',
+    'charSlug': 'anastasia',
+    'charName': 'Anastasia',
+    'element': 1,
+    'grade': 5,
+    'vaJp': 'Kana Hanaiwa',
+    'talent': {
+      'name': 'Rush',
+      'mark': 'Talent_Buff013_Mark',
+      'skills': [
+        {
+          'name': 'This is getting exciting!',
+          'desc': 'Boosts the movement speed by 75% for 5 seconds.',
+          'value': null,
+          'catalyst': 10,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_13_s.webp'
+        },
+        {
+          'name': 'This is getting exciting!',
+          'desc': 'Boosts the movement speed by 75% for 6 seconds.',
+          'value': null,
+          'catalyst': 10,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_13_s.webp'
+        },
+        {
+          'name': 'This is getting exciting!',
+          'desc': 'Boosts the movement speed by 75% for 7 seconds.',
+          'value': null,
+          'catalyst': 10,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_13_s.webp'
+        },
+        {
+          'name': 'This is getting exciting!',
+          'desc': 'Boosts the movement speed by 75% for 8 seconds.',
+          'value': [
+            0,
+            0,
+            65,
+            0,
+            0
+          ],
+          'catalyst': 10,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_13_s.webp'
+        },
+        {
+          'name': 'This is getting exciting!',
+          'desc': 'Boosts the movement speed by 75% for 10 seconds.',
+          'value': [
+            0,
+            0,
+            0,
+            0
+          ],
+          'catalyst': 10,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_13_s.webp'
+        }
+      ]
+    },
+    'vaKr': 'Park Shi-yoon',
+    'maxLevel': 5,
+    'skills': [
+      {
+        'name': 'Burst, Burst, Burst!',
+        'desc': 'Your Crit DMG is increased by 350% for 1 turn(s). Attack the enemy 10 times, dealing X Physical DMG equal to 30% of your ATK per hit. For the Main Target enemy, deal &1& Physical DMG equal to &6&% of your ATK instead.',
+        'cooldown': 3,
+        'tiers': [
+          {
+            'rank': 0,
+            'sp': 4,
+            'value': 30,
+            'turns': 1,
+            'text': 'Your Crit DMG is increased by 350% for 1 turn(s). Attack the enemy 10 times, dealing X Physical DMG equal to 30% of your ATK per hit. For the Main Target enemy, deal &1& Physical DMG equal to &6&% of your ATK instead.'
+          },
+          {
+            'rank': 1,
+            'sp': 4,
+            'value': null,
+            'turns': null,
+            'text': 'Your Crit DMG is increased by X% for X turn(s). Attack the enemy 10 times, dealing X Physical DMG equal to X% of your ATK per hit. For the Main Target enemy, deal &1& Physical DMG equal to &6&% of your ATK instead.'
+          },
+          {
+            'rank': 2,
+            'sp': 4,
+            'value': 35,
+            'turns': 1,
+            'text': 'Your Crit DMG is increased by 450% for 1 turn(s). Attack the enemy 10 times, dealing X Physical DMG equal to 35% of your ATK per hit. For the Main Target enemy, deal &1& Physical DMG equal to &6&% of your ATK instead.'
+          },
+          {
+            'rank': 3,
+            'sp': 3,
+            'value': null,
+            'turns': null,
+            'text': 'Your Crit DMG is increased by X% for X turn(s). Attack the enemy 10 times, dealing X Physical DMG equal to X% of your ATK per hit. For the Main Target enemy, deal &1& Physical DMG equal to &6&% of your ATK instead.'
+          },
+          {
+            'rank': 4,
+            'sp': 3,
+            'value': 40,
+            'turns': 1,
+            'text': 'Your Crit DMG is increased by 450% for 1 turn(s). Attack the enemy 10 times, dealing X Physical DMG equal to 40% of your ATK per hit. For the Main Target enemy, deal &1& Physical DMG equal to &6&% of your ATK instead.'
+          },
+          {
+            'rank': 5,
+            'sp': 3,
+            'value': null,
+            'turns': null,
+            'text': 'Your Crit DMG is increased by X% for X turn(s). Attack the enemy 10 times, dealing X Physical DMG equal to X% of your ATK per hit. For the Main Target enemy, deal &1& Physical DMG equal to &6&% of your ATK instead.'
+          }
+        ],
+        'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillicons/v2/skillicon_45.webp'
+      }
+    ],
+    'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/60502/icon.webp',
+    'body': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/60502/body.webp',
+    'skillCard': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillart/060502.webp'
+  },
+  {
+    'id': 60601,
+    'slug': 'killer-doll-lecliss',
+    'name': 'Killer Doll',
+    'nameJp': '殺人人形',
+    'nameKr': '살인 인형',
+    'charSlug': 'lecliss',
+    'charName': 'Lecliss',
+    'element': 2,
+    'grade': 5,
+    'vaJp': 'Hika Tsukishiro',
+    'talent': {
+      'name': 'Revival',
+      'mark': '0',
+      'skills': [
+        {
+          'name': '',
+          'desc': 'Fatigue is recovered to 1 HP',
+          'value': [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          'catalyst': 10,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_10_s.webp'
+        },
+        {
+          'name': '',
+          'desc': 'Fatigue is recovered to 1 HP',
+          'value': [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          'catalyst': 9,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_10_s.webp'
+        },
+        {
+          'name': '',
+          'desc': 'Fatigue is recovered to 1 HP',
+          'value': [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          'catalyst': 8,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_10_s.webp'
+        },
+        {
+          'name': '',
+          'desc': 'Fatigue is recovered to 1 HP',
+          'value': [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          'catalyst': 7,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_10_s.webp'
+        },
+        {
+          'name': '',
+          'desc': 'Fatigue is recovered to 1 HP',
+          'value': [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          'catalyst': 5,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_10_s.webp'
+        }
+      ]
+    },
+    'vaKr': 'Son Seon-yeong',
+    'maxLevel': 5,
+    'skills': [
+      {
+        'name': 'Curse Replica',
+        'desc': 'Apply a X% Barrier to yourself for 2 turn(s). Apply Taunt to yourself for 2 turn(s).',
+        'cooldown': 5,
+        'tiers': [
+          {
+            'rank': 0,
+            'sp': 4,
+            'value': 0,
+            'turns': 2,
+            'text': 'Apply a X% Barrier to yourself for 2 turn(s). Apply Taunt to yourself for 2 turn(s).'
+          },
+          {
+            'rank': 1,
+            'sp': 4,
+            'value': null,
+            'turns': null,
+            'text': 'Apply a X% Barrier to yourself for X turn(s). Apply Taunt to yourself for X turn(s).'
+          },
+          {
+            'rank': 2,
+            'sp': 4,
+            'value': 1,
+            'turns': 2,
+            'text': 'Apply a X% Barrier to yourself for 2 turn(s). Apply Taunt to yourself for 2 turn(s).'
+          },
+          {
+            'rank': 3,
+            'sp': 3,
+            'value': null,
+            'turns': null,
+            'text': 'Apply a X% Barrier to yourself for X turn(s). Apply Taunt to yourself for X turn(s).'
+          },
+          {
+            'rank': 4,
+            'sp': 3,
+            'value': 1,
+            'turns': 2,
+            'text': 'Apply a X% Barrier to yourself for 2 turn(s). Apply Taunt to yourself for 2 turn(s).'
+          },
+          {
+            'rank': 5,
+            'sp': 3,
+            'value': null,
+            'turns': null,
+            'text': 'Apply a X% Barrier to yourself for X turn(s). Apply Taunt to yourself for X turn(s).'
+          }
+        ],
+        'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillicons/v2/skillicon_46.webp'
+      }
+    ],
+    'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/60601/icon.webp',
+    'body': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/60601/body.webp',
+    'skillCard': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillart/060601.webp'
+  },
+  {
+    'id': 60602,
+    'slug': 'android-queen-lecliss',
+    'name': 'Android Queen',
+    'nameJp': 'アンドロイドクイーン',
+    'nameKr': '안드로이드 퀸',
+    'charSlug': 'lecliss',
+    'charName': 'Lecliss',
+    'element': 2,
+    'grade': 5,
+    'vaJp': 'Hika Tsukishiro',
+    'talent': {
+      'name': 'Revival',
+      'mark': '0',
+      'skills': [
+        {
+          'name': '',
+          'desc': 'Fatigue is recovered to 1 HP',
+          'value': [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          'catalyst': 10,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_10_s.webp'
+        },
+        {
+          'name': '',
+          'desc': 'Fatigue is recovered to 1 HP',
+          'value': [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          'catalyst': 9,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_10_s.webp'
+        },
+        {
+          'name': '',
+          'desc': 'Fatigue is recovered to 1 HP',
+          'value': [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          'catalyst': 8,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_10_s.webp'
+        },
+        {
+          'name': '',
+          'desc': 'Fatigue is recovered to 1 HP',
+          'value': [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          'catalyst': 7,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_10_s.webp'
+        },
+        {
+          'name': '',
+          'desc': 'Fatigue is recovered to 1 HP',
+          'value': [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          'catalyst': 5,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_10_s.webp'
+        }
+      ]
+    },
+    'vaKr': 'Son Seon-yeong',
+    'maxLevel': 5,
+    'skills': [
+      {
+        'name': 'Auto Defense Mode',
+        'desc': 'For 4 turn(s), Counter whenever you receive an attack. Each Counter deals X Physical DMG to the enemy equal to 65% of your Max HP. Apply an Energy Guard (X) to yourself for 4 turn(s), equal to 65% of your Max HP.',
+        'cooldown': 5,
+        'tiers': [
+          {
+            'rank': 0,
+            'sp': 4,
+            'value': 15,
+            'turns': 4,
+            'text': 'For 4 turn(s), Counter whenever you receive an attack. Each Counter deals X Physical DMG to the enemy equal to 65% of your Max HP. Apply an Energy Guard (X) to yourself for 4 turn(s), equal to 65% of your Max HP.'
+          },
+          {
+            'rank': 1,
+            'sp': 4,
+            'value': null,
+            'turns': null,
+            'text': 'For X turn(s), Counter whenever you receive an attack. Each Counter deals X Physical DMG to the enemy equal to X% of your Max HP. Apply an Energy Guard (X) to yourself for X turn(s), equal to X% of your Max HP.'
+          },
+          {
+            'rank': 2,
+            'sp': 4,
+            'value': 25,
+            'turns': 4,
+            'text': 'For 4 turn(s), Counter whenever you receive an attack. Each Counter deals X Physical DMG to the enemy equal to 100% of your Max HP. Apply an Energy Guard (X) to yourself for 4 turn(s), equal to 100% of your Max HP.'
+          },
+          {
+            'rank': 3,
+            'sp': 3,
+            'value': null,
+            'turns': null,
+            'text': 'For X turn(s), Counter whenever you receive an attack. Each Counter deals X Physical DMG to the enemy equal to X% of your Max HP. Apply an Energy Guard (X) to yourself for X turn(s), equal to X% of your Max HP.'
+          },
+          {
+            'rank': 4,
+            'sp': 3,
+            'value': 35,
+            'turns': 4,
+            'text': 'For 4 turn(s), Counter whenever you receive an attack. Each Counter deals X Physical DMG to the enemy equal to 100% of your Max HP. Apply an Energy Guard (X) to yourself for 4 turn(s), equal to 100% of your Max HP.'
+          },
+          {
+            'rank': 5,
+            'sp': 3,
+            'value': null,
+            'turns': null,
+            'text': 'For X turn(s), Counter whenever you receive an attack. Each Counter deals X Physical DMG to the enemy equal to X% of your Max HP. Apply an Energy Guard (X) to yourself for X turn(s), equal to X% of your Max HP.'
+          }
+        ],
+        'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillicons/v2/skillicon_47.webp'
+      }
+    ],
+    'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/60602/icon.webp',
+    'body': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/60602/body.webp',
+    'skillCard': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillart/060602.webp'
+  },
+  {
+    'id': 60701,
+    'slug': 'steel-engine-rafina',
+    'name': 'Steel Engine',
+    'nameJp': '鋼のエンジン',
+    'nameKr': '강철엔진',
+    'charSlug': 'rafina',
+    'charName': 'Rafina',
+    'element': 0,
+    'grade': 5,
+    'vaJp': 'Hikaru Iida',
+    'talent': {
+      'name': 'Detect Danger',
+      'mark': 'Talent_Buff012_Mark',
+      'skills': [
+        {
+          'name': 'Danger Detection On!',
+          'desc': 'For 30 seconds, you can spot traps and damage-dealing fiends like Gloom Glutti in a small area around you.',
+          'value': null,
+          'catalyst': 5,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_12_s.webp'
+        },
+        {
+          'name': 'Danger Detection On!',
+          'desc': 'For 36 seconds, you can spot traps and damage-dealing fiends like Gloom Glutti in a small area around you.',
+          'value': [
+            0,
+            0,
+            0,
+            0
+          ],
+          'catalyst': 5,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_12_s.webp'
+        },
+        {
+          'name': 'Danger Detection On!',
+          'desc': 'For 42 seconds, you can spot traps and damage-dealing fiends like Gloom Glutti in a small area around you.',
+          'value': [
+            0,
+            0,
+            0,
+            0
+          ],
+          'catalyst': 5,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_12_s.webp'
+        },
+        {
+          'name': 'Danger Detection On!',
+          'desc': 'For 48 seconds, you can spot traps and damage-dealing fiends like Gloom Glutti in a small area around you.',
+          'value': [
+            0,
+            0,
+            0,
+            0
+          ],
+          'catalyst': 5,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_12_s.webp'
+        },
+        {
+          'name': 'Danger Detection On!',
+          'desc': '',
+          'value': [
+            0,
+            0,
+            0,
+            0
+          ],
+          'catalyst': 5,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_12_s.webp'
+        }
+      ]
+    },
+    'vaKr': 'Yoon Eun-seo',
+    'maxLevel': 5,
+    'skills': [
+      {
+        'name': 'Mechanical Dive',
+        'desc': 'Remove the enemy\'s Barrier and Energy Guard. Deal X Physical DMG to the enemy equal to X% of your ATK.',
+        'cooldown': 5,
+        'tiers': [
+          {
+            'rank': 0,
+            'sp': 4,
+            'value': 2006,
+            'turns': null,
+            'text': 'Remove the enemy\'s Barrier and Energy Guard. Deal X Physical DMG to the enemy equal to X% of your ATK.'
+          },
+          {
+            'rank': 1,
+            'sp': 4,
+            'value': null,
+            'turns': null,
+            'text': 'Remove the enemy\'s Barrier and Energy Guard. Deal X Physical DMG to the enemy equal to X% of your ATK.'
+          },
+          {
+            'rank': 2,
+            'sp': 4,
+            'value': 2006,
+            'turns': null,
+            'text': 'Remove the enemy\'s Barrier and Energy Guard. Deal X Physical DMG to the enemy equal to X% of your ATK.'
+          },
+          {
+            'rank': 3,
+            'sp': 3,
+            'value': null,
+            'turns': null,
+            'text': 'Remove the enemy\'s Barrier and Energy Guard. Deal X Physical DMG to the enemy equal to X% of your ATK.'
+          },
+          {
+            'rank': 4,
+            'sp': 3,
+            'value': 2006,
+            'turns': null,
+            'text': 'Remove the enemy\'s Barrier and Energy Guard. Deal X Physical DMG to the enemy equal to X% of your ATK.'
+          },
+          {
+            'rank': 5,
+            'sp': 3,
+            'value': null,
+            'turns': null,
+            'text': 'Remove the enemy\'s Barrier and Energy Guard. Deal X Physical DMG to the enemy equal to X% of your ATK.'
+          }
+        ],
+        'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillicons/v2/skillicon_48.webp'
+      }
+    ],
+    'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/60701/icon.webp',
+    'body': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/60701/body.webp',
+    'skillCard': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillart/060701.webp'
+  },
+  {
+    'id': 60702,
+    'slug': 'code-name-a-rafina',
+    'name': 'Code Name A',
+    'nameJp': 'コードネームA',
+    'nameKr': '코드네임 A',
+    'charSlug': 'rafina',
+    'charName': 'Rafina',
+    'element': 0,
+    'grade': 5,
+    'vaJp': 'Hikaru Iida',
+    'talent': {
+      'name': 'Detect Danger',
+      'mark': 'Talent_Buff012_Mark',
+      'skills': [
+        {
+          'name': 'Danger Detection On!',
+          'desc': 'For 30 seconds, you can spot traps and damage-dealing fiends like Gloom Glutti in a small area around you.',
+          'value': null,
+          'catalyst': 5,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_12_s.webp'
+        },
+        {
+          'name': 'Danger Detection On!',
+          'desc': 'For 36 seconds, you can spot traps and damage-dealing fiends like Gloom Glutti in a small area around you.',
+          'value': [
+            0,
+            0,
+            0,
+            0
+          ],
+          'catalyst': 5,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_12_s.webp'
+        },
+        {
+          'name': 'Danger Detection On!',
+          'desc': 'For 42 seconds, you can spot traps and damage-dealing fiends like Gloom Glutti in a small area around you.',
+          'value': [
+            0,
+            0,
+            0,
+            0
+          ],
+          'catalyst': 5,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_12_s.webp'
+        },
+        {
+          'name': 'Danger Detection On!',
+          'desc': 'For 48 seconds, you can spot traps and damage-dealing fiends like Gloom Glutti in a small area around you.',
+          'value': [
+            0,
+            0,
+            0,
+            0
+          ],
+          'catalyst': 5,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_12_s.webp'
+        },
+        {
+          'name': 'Danger Detection On!',
+          'desc': '',
+          'value': [
+            0,
+            0,
+            0,
+            0
+          ],
+          'catalyst': 5,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_12_s.webp'
+        }
+      ]
+    },
+    'vaKr': 'Yoon Eun-seo',
+    'maxLevel': 5,
+    'skills': [
+      {
+        'name': 'Machina Call',
+        'desc': 'Attack the enemy 5 times, dealing X Physical DMG equal to 90% of your ATK per hit. Reduce enemy DEF by -50% for 4 turn(s).',
+        'cooldown': 5,
+        'tiers': [
+          {
+            'rank': 0,
+            'sp': 5,
+            'value': 90,
+            'turns': 4,
+            'text': 'Attack the enemy 5 times, dealing X Physical DMG equal to 90% of your ATK per hit. Reduce enemy DEF by -50% for 4 turn(s).'
+          },
+          {
+            'rank': 1,
+            'sp': 5,
+            'value': null,
+            'turns': null,
+            'text': 'Attack the enemy 5 times, dealing X Physical DMG equal to X% of your ATK per hit. Reduce enemy DEF by X% for X turn(s).'
+          },
+          {
+            'rank': 2,
+            'sp': 5,
+            'value': 130,
+            'turns': 4,
+            'text': 'Attack the enemy 5 times, dealing X Physical DMG equal to 130% of your ATK per hit. Reduce enemy DEF by -50% for 4 turn(s).'
+          },
+          {
+            'rank': 3,
+            'sp': 4,
+            'value': null,
+            'turns': null,
+            'text': 'Attack the enemy 5 times, dealing X Physical DMG equal to X% of your ATK per hit. Reduce enemy DEF by X% for X turn(s).'
+          },
+          {
+            'rank': 4,
+            'sp': 4,
+            'value': 150,
+            'turns': 4,
+            'text': 'Attack the enemy 5 times, dealing X Physical DMG equal to 150% of your ATK per hit. Reduce enemy DEF by -50% for 4 turn(s).'
+          },
+          {
+            'rank': 5,
+            'sp': 4,
+            'value': null,
+            'turns': null,
+            'text': 'Attack the enemy 5 times, dealing X Physical DMG equal to X% of your ATK per hit. Reduce enemy DEF by X% for X turn(s).'
+          }
+        ],
+        'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillicons/v2/skillicon_49.webp'
+      }
+    ],
+    'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/60702/icon.webp',
+    'body': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/60702/body.webp',
+    'skillCard': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillart/060702.webp'
+  },
+  {
+    'id': 60706,
+    'slug': 'game-club-rafina',
+    'name': 'Game Club',
+    'nameJp': 'ゲーム部',
+    'nameKr': '게임부',
+    'charSlug': 'rafina',
+    'charName': 'Rafina',
+    'element': 0,
+    'grade': 5,
+    'vaJp': 'Hikaru Iida',
+    'talent': {
+      'name': 'Detect Danger',
+      'mark': 'Talent_Buff012_Mark',
+      'skills': [
+        {
+          'name': 'Danger Detection On!',
+          'desc': 'For 30 seconds, you can spot traps and damage-dealing fiends like Gloom Glutti in a small area around you.',
+          'value': null,
+          'catalyst': 5,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_12_s.webp'
+        },
+        {
+          'name': 'Danger Detection On!',
+          'desc': 'For 36 seconds, you can spot traps and damage-dealing fiends like Gloom Glutti in a small area around you.',
+          'value': [
+            0,
+            0,
+            0,
+            0
+          ],
+          'catalyst': 5,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_12_s.webp'
+        },
+        {
+          'name': 'Danger Detection On!',
+          'desc': 'For 42 seconds, you can spot traps and damage-dealing fiends like Gloom Glutti in a small area around you.',
+          'value': [
+            0,
+            0,
+            0,
+            0
+          ],
+          'catalyst': 5,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_12_s.webp'
+        },
+        {
+          'name': 'Danger Detection On!',
+          'desc': 'For 48 seconds, you can spot traps and damage-dealing fiends like Gloom Glutti in a small area around you.',
+          'value': [
+            0,
+            0,
+            0,
+            0
+          ],
+          'catalyst': 5,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_12_s.webp'
+        },
+        {
+          'name': 'Danger Detection On!',
+          'desc': '',
+          'value': [
+            0,
+            0,
+            0,
+            0
+          ],
+          'catalyst': 5,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_12_s.webp'
+        }
+      ]
+    },
+    'vaKr': 'Yoon Eun-seo',
+    'maxLevel': 5,
+    'skills': [
+      {
+        'name': 'Cyber Ninja, Deploy!',
+        'desc': 'Attack the enemy 3 times, dealing X Physical DMG equal to 70% of your ATK per hit. Apply a X% Vulnerability (Physical) to the enemy for 4 turn(s).',
+        'cooldown': 5,
+        'tiers': [
+          {
+            'rank': 0,
+            'sp': 5,
+            'value': 70,
+            'turns': 4,
+            'text': 'Attack the enemy 3 times, dealing X Physical DMG equal to 70% of your ATK per hit. Apply a X% Vulnerability (Physical) to the enemy for 4 turn(s).'
+          },
+          {
+            'rank': 1,
+            'sp': 4,
+            'value': null,
+            'turns': null,
+            'text': 'Attack the enemy 3 times, dealing X Physical DMG equal to X% of your ATK per hit. Apply a X% Vulnerability (Physical) to the enemy for X turn(s).'
+          },
+          {
+            'rank': 2,
+            'sp': 4,
+            'value': 70,
+            'turns': 4,
+            'text': 'Attack the enemy 3 times, dealing X Physical DMG equal to 70% of your ATK per hit. Apply a X% Vulnerability (Physical) to the enemy for 4 turn(s).'
+          },
+          {
+            'rank': 3,
+            'sp': 4,
+            'value': null,
+            'turns': null,
+            'text': 'Attack the enemy 3 times, dealing X Physical DMG equal to X% of your ATK per hit. Apply a X% Vulnerability (Physical) to the enemy for X turn(s).'
+          },
+          {
+            'rank': 4,
+            'sp': 4,
+            'value': 90,
+            'turns': 4,
+            'text': 'Attack the enemy 3 times, dealing X Physical DMG equal to 90% of your ATK per hit. Apply a X% Vulnerability (Physical) to the enemy for 4 turn(s).'
+          },
+          {
+            'rank': 5,
+            'sp': 4,
+            'value': null,
+            'turns': null,
+            'text': 'Attack the enemy 3 times, dealing X Physical DMG equal to X% of your ATK per hit. Apply a X% Vulnerability (Physical) to the enemy for X turn(s).'
+          }
+        ],
+        'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillicons/v2/skillicon_114.webp'
+      }
+    ],
+    'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/60706/icon.webp',
+    'body': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/60706/body.webp',
+    'skillCard': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillart/060706.webp'
+  },
+  {
+    'id': 60801,
+    'slug': 'lovely-lady-elise',
+    'name': 'Lovely Lady',
+    'nameJp': '愛しいレディ',
+    'nameKr': '사랑스러운 아가씨',
+    'charSlug': 'elise',
+    'charName': 'Elise',
+    'element': 1,
+    'grade': 5,
+    'vaJp': 'Minamori Mizuki',
+    'talent': null,
+    'vaKr': 'Won Esther',
+    'maxLevel': 5,
+    'skills': [
+      {
+        'name': 'Death Ending Love',
+        'desc': 'Attack the enemy 3 times, dealing X Physical DMG equal to X% of your ATK per hit. Reduce enemy DEF by X% for X turn(s). Reduce enemy Magic Resistance by [6[% for [5[ turn(s).',
+        'cooldown': 5,
+        'tiers': [
+          {
+            'rank': 0,
+            'sp': 5,
+            'value': null,
+            'turns': null,
+            'text': 'Attack the enemy 3 times, dealing X Physical DMG equal to X% of your ATK per hit. Reduce enemy DEF by X% for X turn(s). Reduce enemy Magic Resistance by [6[% for [5[ turn(s).'
+          },
+          {
+            'rank': 1,
+            'sp': 5,
+            'value': null,
+            'turns': null,
+            'text': 'Attack the enemy 3 times, dealing X Physical DMG equal to X% of your ATK per hit. Reduce enemy DEF by X% for X turn(s). Reduce enemy Magic Resistance by [6[% for [5[ turn(s).'
+          },
+          {
+            'rank': 2,
+            'sp': 5,
+            'value': null,
+            'turns': null,
+            'text': 'Attack the enemy 3 times, dealing X Physical DMG equal to X% of your ATK per hit. Reduce enemy DEF by X% for X turn(s). Reduce enemy Magic Resistance by [6[% for [5[ turn(s).'
+          },
+          {
+            'rank': 3,
+            'sp': 4,
+            'value': null,
+            'turns': null,
+            'text': 'Attack the enemy 3 times, dealing X Physical DMG equal to X% of your ATK per hit. Reduce enemy DEF by X% for X turn(s). Reduce enemy Magic Resistance by [6[% for [5[ turn(s).'
+          },
+          {
+            'rank': 4,
+            'sp': 4,
+            'value': null,
+            'turns': null,
+            'text': 'Attack the enemy 3 times, dealing X Physical DMG equal to X% of your ATK per hit. Reduce enemy DEF by X% for X turn(s). Reduce enemy Magic Resistance by [6[% for [5[ turn(s).'
+          },
+          {
+            'rank': 5,
+            'sp': 4,
+            'value': null,
+            'turns': null,
+            'text': 'Attack the enemy 3 times, dealing X Physical DMG equal to X% of your ATK per hit. Reduce enemy DEF by X% for X turn(s). Reduce enemy Magic Resistance by [6[% for [5[ turn(s).'
+          }
+        ],
+        'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillicons/v2/skillicon_50.webp'
+      }
+    ],
+    'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/60801/icon.webp',
+    'body': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/60801/body.webp',
+    'skillCard': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillart/060801.webp'
+  },
+  {
+    'id': 60802,
+    'slug': 'code-name-o-elise',
+    'name': 'Code Name O',
+    'nameJp': 'コードネーム O',
+    'nameKr': '코드네임 O',
+    'charSlug': 'elise',
+    'charName': 'Elise',
+    'element': 1,
+    'grade': 5,
+    'vaJp': 'Minamori Mizuki',
+    'talent': null,
+    'vaKr': 'Won Esther',
+    'maxLevel': 5,
+    'skills': [
+      {
+        'name': 'Steady... Bang!',
+        'desc': 'Restore X SP to allies. Deal X Physical DMG to the enemy equal to 500% of your ATK.',
+        'cooldown': 5,
+        'tiers': [
+          {
+            'rank': 0,
+            'sp': 3,
+            'value': 500,
+            'turns': null,
+            'text': 'Restore X SP to allies. Deal X Physical DMG to the enemy equal to 500% of your ATK.'
+          },
+          {
+            'rank': 1,
+            'sp': 3,
+            'value': null,
+            'turns': null,
+            'text': 'Restore X SP to allies. Deal X Physical DMG to the enemy equal to X% of your ATK.'
+          },
+          {
+            'rank': 2,
+            'sp': 3,
+            'value': 700,
+            'turns': null,
+            'text': 'Restore X SP to allies. Deal X Physical DMG to the enemy equal to 700% of your ATK.'
+          },
+          {
+            'rank': 3,
+            'sp': 2,
+            'value': null,
+            'turns': null,
+            'text': 'Restore X SP to allies. Deal X Physical DMG to the enemy equal to X% of your ATK.'
+          },
+          {
+            'rank': 4,
+            'sp': 2,
+            'value': 800,
+            'turns': null,
+            'text': 'Restore X SP to allies. Deal X Physical DMG to the enemy equal to 800% of your ATK.'
+          },
+          {
+            'rank': 5,
+            'sp': 2,
+            'value': null,
+            'turns': null,
+            'text': 'Restore X SP to allies. Deal X Physical DMG to the enemy equal to X% of your ATK.'
+          }
+        ],
+        'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillicons/v2/skillicon_51.webp'
+      }
+    ],
+    'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/60802/icon.webp',
+    'body': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/60802/body.webp',
+    'skillCard': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillart/060802.webp'
+  },
+  {
+    'id': 60804,
+    'slug': 'naive-lady-elise',
+    'name': 'Naive Lady',
+    'nameJp': 'ナイーヴ・レディ',
+    'nameKr': '나이브 레이디',
+    'charSlug': 'elise',
+    'charName': 'Elise',
+    'element': 1,
+    'grade': 5,
+    'vaJp': 'Minamori Mizuki',
+    'talent': null,
+    'vaKr': 'Won Esther',
+    'maxLevel': 5,
+    'skills': [
+      {
+        'name': 'I Wanna Win!',
+        'desc': 'Apply an Augmentation effect to yourself for X turn(s), increasing your damage dealt by X%. Resonate with a target affected by Stat Weakening on the battlefield. For ]5]turn(s), apply ]13] stack(s) of ]6]% Augmentation to yourself for each target. Can stack up to ]15] times. Attack the enemy 3 times, dealing X Physical DMG equal to X% of your ATK per hit.',
+        'cooldown': 3,
+        'tiers': [
+          {
+            'rank': 0,
+            'sp': 4,
+            'value': null,
+            'turns': null,
+            'text': 'Apply an Augmentation effect to yourself for X turn(s), increasing your damage dealt by X%. Resonate with a target affected by Stat Weakening on the battlefield. For ]5]turn(s), apply ]13] stack(s) of ]6]% Augmentation to yourself for each target. Can stack up to ]15] times. Attack the enemy 3 times, dealing X Physical DMG equal to X% of your ATK per hit.'
+          },
+          {
+            'rank': 1,
+            'sp': 3,
+            'value': null,
+            'turns': null,
+            'text': 'Apply an Augmentation effect to yourself for X turn(s), increasing your damage dealt by X%. Resonate with a target affected by Stat Weakening on the battlefield. For ]5]turn(s), apply ]13] stack(s) of ]6]% Augmentation to yourself for each target. Can stack up to ]15] times. Attack the enemy 3 times, dealing X Physical DMG equal to X% of your ATK per hit.'
+          },
+          {
+            'rank': 2,
+            'sp': 3,
+            'value': null,
+            'turns': null,
+            'text': 'Apply an Augmentation effect to yourself for X turn(s), increasing your damage dealt by X%. Resonate with a target affected by Stat Weakening on the battlefield. For ]5]turn(s), apply ]13] stack(s) of ]6]% Augmentation to yourself for each target. Can stack up to ]15] times. Attack the enemy 3 times, dealing X Physical DMG equal to X% of your ATK per hit.'
+          },
+          {
+            'rank': 3,
+            'sp': 3,
+            'value': null,
+            'turns': null,
+            'text': 'Apply an Augmentation effect to yourself for X turn(s), increasing your damage dealt by X%. Resonate with a target affected by Stat Weakening on the battlefield. For ]5]turn(s), apply ]13] stack(s) of ]6]% Augmentation to yourself for each target. Can stack up to ]15] times. Attack the enemy 3 times, dealing X Physical DMG equal to X% of your ATK per hit.'
+          },
+          {
+            'rank': 4,
+            'sp': 3,
+            'value': null,
+            'turns': null,
+            'text': 'Apply an Augmentation effect to yourself for X turn(s), increasing your damage dealt by X%. Resonate with a target affected by Stat Weakening on the battlefield. For ]5]turn(s), apply ]13] stack(s) of ]6]% Augmentation to yourself for each target. Can stack up to ]15] times. Attack the enemy 3 times, dealing X Physical DMG equal to X% of your ATK per hit.'
+          },
+          {
+            'rank': 5,
+            'sp': 3,
+            'value': null,
+            'turns': null,
+            'text': 'Apply an Augmentation effect to yourself for X turn(s), increasing your damage dealt by X%. Resonate with a target affected by Stat Weakening on the battlefield. For ]5]turn(s), apply ]13] stack(s) of ]6]% Augmentation to yourself for each target. Can stack up to ]15] times. Attack the enemy 3 times, dealing X Physical DMG equal to X% of your ATK per hit.'
+          }
+        ],
+        'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillicons/v2/skillicon_203.webp'
+      }
+    ],
+    'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/60804/icon.webp',
+    'body': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/60804/body.webp',
+    'skillCard': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillart/060804.webp'
+  },
+  {
+    'id': 60901,
+    'slug': 'demon-s-daughter-seir',
+    'name': 'Demon\'s Daughter',
+    'nameJp': '悪魔の娘',
+    'nameKr': '악마의 딸',
+    'charSlug': 'seir',
+    'charName': 'Seir',
+    'element': 4,
+    'grade': 5,
+    'vaJp': 'Ran Haruka',
+    'talent': {
+      'name': 'Stealth',
+      'mark': 'Talent_Buff017_Mark',
+      'skills': [
+        {
+          'name': '',
+          'desc': 'Moves for 30 seconds while in Stealth mode.',
+          'value': null,
+          'catalyst': 15,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_17_s.webp'
+        },
+        {
+          'name': '',
+          'desc': 'Moves for 36 seconds while in Stealth mode.',
+          'value': [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          'catalyst': 15,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_17_s.webp'
+        },
+        {
+          'name': '',
+          'desc': 'Moves for 54 seconds while in Stealth mode.',
+          'value': [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          'catalyst': 15,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_17_s.webp'
+        },
+        {
+          'name': '',
+          'desc': 'Moves for 72 seconds while in Stealth mode.',
+          'value': null,
+          'catalyst': 15,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_17_s.webp'
+        }
+      ]
+    },
+    'vaKr': 'Lee Da-eun',
+    'maxLevel': 5,
+    'skills': [
+      {
+        'name': 'Protective Instinct',
+        'desc': 'For 4 turn(s), each time you receive an attack, Heal for >1> equal to >6>% of your Max HP. Apply a X% Barrier to yourself for 4 turn(s).',
+        'cooldown': 5,
+        'tiers': [
+          {
+            'rank': 0,
+            'sp': 3,
+            'value': null,
+            'turns': 4,
+            'text': 'For 4 turn(s), each time you receive an attack, Heal for >1> equal to >6>% of your Max HP. Apply a X% Barrier to yourself for 4 turn(s).'
+          },
+          {
+            'rank': 1,
+            'sp': 3,
+            'value': null,
+            'turns': null,
+            'text': 'For X turn(s), each time you receive an attack, Heal for >1> equal to >6>% of your Max HP. Apply a X% Barrier to yourself for X turn(s).'
+          },
+          {
+            'rank': 2,
+            'sp': 3,
+            'value': null,
+            'turns': 4,
+            'text': 'For 4 turn(s), each time you receive an attack, Heal for >1> equal to >6>% of your Max HP. Apply a X% Barrier to yourself for 4 turn(s).'
+          },
+          {
+            'rank': 3,
+            'sp': 2,
+            'value': null,
+            'turns': null,
+            'text': 'For X turn(s), each time you receive an attack, Heal for >1> equal to >6>% of your Max HP. Apply a X% Barrier to yourself for X turn(s).'
+          },
+          {
+            'rank': 4,
+            'sp': 2,
+            'value': null,
+            'turns': 4,
+            'text': 'For 4 turn(s), each time you receive an attack, Heal for >1> equal to >6>% of your Max HP. Apply a X% Barrier to yourself for 4 turn(s).'
+          },
+          {
+            'rank': 5,
+            'sp': 2,
+            'value': null,
+            'turns': null,
+            'text': 'For X turn(s), each time you receive an attack, Heal for >1> equal to >6>% of your Max HP. Apply a X% Barrier to yourself for X turn(s).'
+          }
+        ],
+        'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillicons/v2/skillicon_52.webp'
+      }
+    ],
+    'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/60901/icon.webp',
+    'body': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/60901/body.webp'
+  },
+  {
+    'id': 60902,
+    'slug': 'b-rank-idol-seir',
+    'name': 'B-Rank Idol',
+    'nameJp': 'B級アイドル',
+    'nameKr': 'B급 아이돌',
+    'charSlug': 'seir',
+    'charName': 'Seir',
+    'element': 4,
+    'grade': 5,
+    'vaJp': 'Ran Haruka',
+    'talent': {
+      'name': 'Stealth',
+      'mark': 'Talent_Buff017_Mark',
+      'skills': [
+        {
+          'name': '',
+          'desc': 'Moves for 30 seconds while in Stealth mode.',
+          'value': null,
+          'catalyst': 15,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_17_s.webp'
+        },
+        {
+          'name': '',
+          'desc': 'Moves for 36 seconds while in Stealth mode.',
+          'value': [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          'catalyst': 15,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_17_s.webp'
+        },
+        {
+          'name': '',
+          'desc': 'Moves for 54 seconds while in Stealth mode.',
+          'value': [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          'catalyst': 15,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_17_s.webp'
+        },
+        {
+          'name': '',
+          'desc': 'Moves for 72 seconds while in Stealth mode.',
+          'value': null,
+          'catalyst': 15,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_17_s.webp'
+        }
+      ]
+    },
+    'vaKr': 'Lee Da-eun',
+    'maxLevel': 5,
+    'skills': [
+      {
+        'name': 'He is Bullying Me!',
+        'desc': 'For 2 turn(s), each time you receive an attack, your allies restore >3> SP. Apply a X% Barrier to yourself for 2 turn(s).',
+        'cooldown': 5,
+        'tiers': [
+          {
+            'rank': 0,
+            'sp': 2,
+            'value': null,
+            'turns': 2,
+            'text': 'For 2 turn(s), each time you receive an attack, your allies restore >3> SP. Apply a X% Barrier to yourself for 2 turn(s).'
+          },
+          {
+            'rank': 1,
+            'sp': 2,
+            'value': null,
+            'turns': null,
+            'text': 'For X turn(s), each time you receive an attack, your allies restore >3> SP. Apply a X% Barrier to yourself for X turn(s).'
+          },
+          {
+            'rank': 2,
+            'sp': 2,
+            'value': null,
+            'turns': 2,
+            'text': 'For 2 turn(s), each time you receive an attack, your allies restore >3> SP. Apply a X% Barrier to yourself for 2 turn(s).'
+          },
+          {
+            'rank': 3,
+            'sp': 1,
+            'value': null,
+            'turns': null,
+            'text': 'For X turn(s), each time you receive an attack, your allies restore >3> SP. Apply a X% Barrier to yourself for X turn(s).'
+          },
+          {
+            'rank': 4,
+            'sp': 1,
+            'value': null,
+            'turns': 2,
+            'text': 'For 2 turn(s), each time you receive an attack, your allies restore >3> SP. Apply a X% Barrier to yourself for 2 turn(s).'
+          },
+          {
+            'rank': 5,
+            'sp': 1,
+            'value': null,
+            'turns': null,
+            'text': 'For X turn(s), each time you receive an attack, your allies restore >3> SP. Apply a X% Barrier to yourself for X turn(s).'
+          }
+        ],
+        'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillicons/v2/skillicon_53.webp'
+      }
+    ],
+    'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/60902/icon.webp',
+    'body': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/60902/body.webp'
+  },
+  {
+    'id': 60903,
+    'slug': 'new-hire-seir',
+    'name': 'New Hire',
+    'nameJp': '新入社員',
+    'nameKr': '신입 사원',
+    'charSlug': 'seir',
+    'charName': 'Seir',
+    'element': 4,
+    'grade': 5,
+    'vaJp': 'Ran Haruka',
+    'talent': {
+      'name': 'Stealth',
+      'mark': 'Talent_Buff017_Mark',
+      'skills': [
+        {
+          'name': '',
+          'desc': 'Moves for 30 seconds while in Stealth mode.',
+          'value': null,
+          'catalyst': 15,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_17_s.webp'
+        },
+        {
+          'name': '',
+          'desc': 'Moves for 36 seconds while in Stealth mode.',
+          'value': [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          'catalyst': 15,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_17_s.webp'
+        },
+        {
+          'name': '',
+          'desc': 'Moves for 54 seconds while in Stealth mode.',
+          'value': [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          'catalyst': 15,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_17_s.webp'
+        },
+        {
+          'name': '',
+          'desc': 'Moves for 72 seconds while in Stealth mode.',
+          'value': null,
+          'catalyst': 15,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_17_s.webp'
+        }
+      ]
+    },
+    'vaKr': 'Lee Da-eun',
+    'maxLevel': 5,
+    'skills': [
+      {
+        'name': 'P, please Sign the Contract!',
+        'desc': 'For X turn(s), apply a >6>% Augmentation effect to allies whenever you receive an attack. The Augmentation effect lasts for >5> turn(s), and stacks >13> time(s) with each hit received. This can increase to a maximum of >15> stacks.',
+        'cooldown': 7,
+        'tiers': [
+          {
+            'rank': 0,
+            'sp': 3,
+            'value': null,
+            'turns': null,
+            'text': 'For X turn(s), apply a >6>% Augmentation effect to allies whenever you receive an attack. The Augmentation effect lasts for >5> turn(s), and stacks >13> time(s) with each hit received. This can increase to a maximum of >15> stacks.'
+          },
+          {
+            'rank': 1,
+            'sp': 3,
+            'value': null,
+            'turns': null,
+            'text': 'For X turn(s), apply a >6>% Augmentation effect to allies whenever you receive an attack. The Augmentation effect lasts for >5> turn(s), and stacks >13> time(s) with each hit received. This can increase to a maximum of >15> stacks.'
+          },
+          {
+            'rank': 2,
+            'sp': 3,
+            'value': null,
+            'turns': null,
+            'text': 'For X turn(s), apply a >6>% Augmentation effect to allies whenever you receive an attack. The Augmentation effect lasts for >5> turn(s), and stacks >13> time(s) with each hit received. This can increase to a maximum of >15> stacks.'
+          },
+          {
+            'rank': 3,
+            'sp': 3,
+            'value': null,
+            'turns': null,
+            'text': 'For X turn(s), apply a >6>% Augmentation effect to allies whenever you receive an attack. The Augmentation effect lasts for >5> turn(s), and stacks >13> time(s) with each hit received. This can increase to a maximum of >15> stacks.'
+          },
+          {
+            'rank': 4,
+            'sp': 3,
+            'value': null,
+            'turns': null,
+            'text': 'For X turn(s), apply a >6>% Augmentation effect to allies whenever you receive an attack. The Augmentation effect lasts for >5> turn(s), and stacks >13> time(s) with each hit received. This can increase to a maximum of >15> stacks.'
+          },
+          {
+            'rank': 5,
+            'sp': 3,
+            'value': null,
+            'turns': null,
+            'text': 'For X turn(s), apply a >6>% Augmentation effect to allies whenever you receive an attack. The Augmentation effect lasts for >5> turn(s), and stacks >13> time(s) with each hit received. This can increase to a maximum of >15> stacks.'
+          }
+        ],
+        'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillicons/v2/skillicon_146.webp'
+      }
+    ],
+    'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/60903/icon.webp',
+    'body': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/60903/body.webp'
+  },
+  {
+    'id': 61001,
+    'slug': 'top-idol-helena',
+    'name': 'Top Idol',
+    'nameJp': 'トップアイドル',
+    'nameKr': '톱 아이돌',
+    'charSlug': 'helena',
+    'charName': 'Helena',
+    'element': 3,
+    'grade': 5,
+    'vaJp': 'Konomi Tamura',
+    'talent': {
+      'name': 'Revival',
+      'mark': '0',
+      'skills': []
+    },
+    'vaKr': 'Yu Yeong',
+    'maxLevel': 5,
+    'skills': [
+      {
+        'name': 'Let\'s Sing Together!',
+        'desc': 'Restore X SP to allies. Apply a X% Barrier to allies for X turn(s).',
+        'cooldown': 5,
+        'tiers': [
+          {
+            'rank': 0,
+            'sp': 2,
+            'value': 0,
+            'turns': null,
+            'text': 'Restore X SP to allies. Apply a X% Barrier to allies for X turn(s).'
+          },
+          {
+            'rank': 1,
+            'sp': 2,
+            'value': null,
+            'turns': null,
+            'text': 'Restore X SP to allies. Apply a X% Barrier to allies for X turn(s).'
+          },
+          {
+            'rank': 2,
+            'sp': 2,
+            'value': 0,
+            'turns': null,
+            'text': 'Restore X SP to allies. Apply a X% Barrier to allies for X turn(s).'
+          },
+          {
+            'rank': 3,
+            'sp': 1,
+            'value': null,
+            'turns': null,
+            'text': 'Restore X SP to allies. Apply a X% Barrier to allies for X turn(s).'
+          },
+          {
+            'rank': 4,
+            'sp': 1,
+            'value': 0,
+            'turns': null,
+            'text': 'Restore X SP to allies. Apply a X% Barrier to allies for X turn(s).'
+          },
+          {
+            'rank': 5,
+            'sp': 1,
+            'value': null,
+            'turns': null,
+            'text': 'Restore X SP to allies. Apply a X% Barrier to allies for X turn(s).'
+          }
+        ],
+        'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillicons/v2/skillicon_54.webp'
+      }
+    ],
+    'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/61001/icon.webp',
+    'body': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/61001/body.webp',
+    'skillCard': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillart/061001.webp'
+  },
+  {
+    'id': 61002,
+    'slug': 'b-rank-idol-helena',
+    'name': 'B-Rank Idol',
+    'nameJp': 'B級アイドル',
+    'nameKr': 'B급 아이돌',
+    'charSlug': 'helena',
+    'charName': 'Helena',
+    'element': 3,
+    'grade': 5,
+    'vaJp': 'Konomi Tamura',
+    'talent': {
+      'name': 'Revival',
+      'mark': '0',
+      'skills': []
+    },
+    'vaKr': 'Yu Yeong',
+    'maxLevel': 5,
+    'skills': [
+      {
+        'name': 'I\'m rooting for you!',
+        'desc': 'Ally Magic ATK is increased by X% for X turn(s). Heal allies for X at the end of each turn for X turn(s), equal to X% of your Magic ATK. Ally Crit Rate is increased by [6[% for [5[ turn(s).',
+        'cooldown': 3,
+        'tiers': [
+          {
+            'rank': 0,
+            'sp': 3,
+            'value': null,
+            'turns': null,
+            'text': 'Ally Magic ATK is increased by X% for X turn(s). Heal allies for X at the end of each turn for X turn(s), equal to X% of your Magic ATK. Ally Crit Rate is increased by [6[% for [5[ turn(s).'
+          },
+          {
+            'rank': 1,
+            'sp': 3,
+            'value': null,
+            'turns': null,
+            'text': 'Ally Magic ATK is increased by X% for X turn(s). Heal allies for X at the end of each turn for X turn(s), equal to X% of your Magic ATK. Ally Crit Rate is increased by [6[% for [5[ turn(s).'
+          },
+          {
+            'rank': 2,
+            'sp': 3,
+            'value': null,
+            'turns': null,
+            'text': 'Ally Magic ATK is increased by X% for X turn(s). Heal allies for X at the end of each turn for X turn(s), equal to X% of your Magic ATK. Ally Crit Rate is increased by [6[% for [5[ turn(s).'
+          },
+          {
+            'rank': 3,
+            'sp': 2,
+            'value': null,
+            'turns': null,
+            'text': 'Ally Magic ATK is increased by X% for X turn(s). Heal allies for X at the end of each turn for X turn(s), equal to X% of your Magic ATK. Ally Crit Rate is increased by [6[% for [5[ turn(s).'
+          },
+          {
+            'rank': 4,
+            'sp': 2,
+            'value': null,
+            'turns': null,
+            'text': 'Ally Magic ATK is increased by X% for X turn(s). Heal allies for X at the end of each turn for X turn(s), equal to X% of your Magic ATK. Ally Crit Rate is increased by [6[% for [5[ turn(s).'
+          },
+          {
+            'rank': 5,
+            'sp': 2,
+            'value': null,
+            'turns': null,
+            'text': 'Ally Magic ATK is increased by X% for X turn(s). Heal allies for X at the end of each turn for X turn(s), equal to X% of your Magic ATK. Ally Crit Rate is increased by [6[% for [5[ turn(s).'
+          }
+        ],
+        'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillicons/v2/skillicon_55.webp'
+      }
+    ],
+    'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/61002/icon.webp',
+    'body': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/61002/body.webp',
+    'skillCard': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillart/061002.webp'
+  },
+  {
+    'id': 61003,
+    'slug': 'sunny-inn-hand-helena',
+    'name': 'Sunny Inn Hand',
+    'nameJp': '客桟の陽光',
+    'nameKr': '객잔의 햇살',
+    'charSlug': 'helena',
+    'charName': 'Helena',
+    'element': 3,
+    'grade': 5,
+    'vaJp': 'Konomi Tamura',
+    'talent': {
+      'name': 'Revival',
+      'mark': '0',
+      'skills': []
+    },
+    'vaKr': 'Yu Yeong',
+    'maxLevel': 5,
+    'skills': [
+      {
+        'name': 'A Big, Warm Hug!',
+        'desc': 'Apply an Augmentation effect to the Next-Attacking Ally for X turn(s), increasing their damage dealt by X%. Reduce the cooldown of all Costumes owned by the Next-Attacking Ally by X.',
+        'cooldown': 7,
+        'tiers': [
+          {
+            'rank': 0,
+            'sp': 5,
+            'value': 1,
+            'turns': null,
+            'text': 'Apply an Augmentation effect to the Next-Attacking Ally for X turn(s), increasing their damage dealt by X%. Reduce the cooldown of all Costumes owned by the Next-Attacking Ally by X.'
+          },
+          {
+            'rank': 1,
+            'sp': 4,
+            'value': null,
+            'turns': null,
+            'text': 'Apply an Augmentation effect to the Next-Attacking Ally for X turn(s), increasing their damage dealt by X%. Reduce the cooldown of all Costumes owned by the Next-Attacking Ally by X.'
+          },
+          {
+            'rank': 2,
+            'sp': 4,
+            'value': 1,
+            'turns': null,
+            'text': 'Apply an Augmentation effect to the Next-Attacking Ally for X turn(s), increasing their damage dealt by X%. Reduce the cooldown of all Costumes owned by the Next-Attacking Ally by X.'
+          },
+          {
+            'rank': 3,
+            'sp': 4,
+            'value': null,
+            'turns': null,
+            'text': 'Apply an Augmentation effect to the Next-Attacking Ally for X turn(s), increasing their damage dealt by X%. Reduce the cooldown of all Costumes owned by the Next-Attacking Ally by X.'
+          },
+          {
+            'rank': 4,
+            'sp': 4,
+            'value': 1,
+            'turns': null,
+            'text': 'Apply an Augmentation effect to the Next-Attacking Ally for X turn(s), increasing their damage dealt by X%. Reduce the cooldown of all Costumes owned by the Next-Attacking Ally by X.'
+          },
+          {
+            'rank': 5,
+            'sp': 4,
+            'value': null,
+            'turns': null,
+            'text': 'Apply an Augmentation effect to the Next-Attacking Ally for X turn(s), increasing their damage dealt by X%. Reduce the cooldown of all Costumes owned by the Next-Attacking Ally by X.'
+          }
+        ],
+        'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillicons/v2/skillicon_206.webp'
+      }
+    ],
+    'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/61003/icon.webp',
+    'body': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/61003/body.webp',
+    'skillCard': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillart/061003.webp'
+  },
+  {
+    'id': 61101,
+    'slug': 'piercing-magic-bow-eleaneer',
+    'name': 'Piercing Magic Bow',
+    'nameJp': '貫く魔弓',
+    'nameKr': '꿰뚫는 마궁',
+    'charSlug': 'eleaneer',
+    'charName': 'Eleaneer',
+    'element': 4,
+    'grade': 5,
+    'vaJp': 'Yukino Uehara',
+    'talent': null,
+    'vaKr': 'Kim Chae-ha',
+    'maxLevel': 5,
+    'skills': [
+      {
+        'name': 'Triple Arrow',
+        'desc': 'Attack the enemy ~18~ times, dealing X Physical DMG equal to 80% of your ATK per hit. Remove Buffs from the enemy.',
+        'cooldown': 5,
+        'tiers': [
+          {
+            'rank': 0,
+            'sp': 3,
+            'value': 80,
+            'turns': null,
+            'text': 'Attack the enemy ~18~ times, dealing X Physical DMG equal to 80% of your ATK per hit. Remove Buffs from the enemy.'
+          },
+          {
+            'rank': 1,
+            'sp': 3,
+            'value': null,
+            'turns': null,
+            'text': 'Attack the enemy ~18~ times, dealing X Physical DMG equal to X% of your ATK per hit. Remove Buffs from the enemy.'
+          },
+          {
+            'rank': 2,
+            'sp': 3,
+            'value': 130,
+            'turns': null,
+            'text': 'Attack the enemy ~18~ times, dealing X Physical DMG equal to 130% of your ATK per hit. Remove Buffs from the enemy.'
+          },
+          {
+            'rank': 3,
+            'sp': 2,
+            'value': null,
+            'turns': null,
+            'text': 'Attack the enemy ~18~ times, dealing X Physical DMG equal to X% of your ATK per hit. Remove Buffs from the enemy.'
+          },
+          {
+            'rank': 4,
+            'sp': 2,
+            'value': 155,
+            'turns': null,
+            'text': 'Attack the enemy ~18~ times, dealing X Physical DMG equal to 155% of your ATK per hit. Remove Buffs from the enemy.'
+          },
+          {
+            'rank': 5,
+            'sp': 2,
+            'value': null,
+            'turns': null,
+            'text': 'Attack the enemy ~18~ times, dealing X Physical DMG equal to X% of your ATK per hit. Remove Buffs from the enemy.'
+          }
+        ],
+        'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillicons/v2/skillicon_56.webp'
+      }
+    ],
+    'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/61101/icon.webp',
+    'body': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/61101/body.webp',
+    'skillCard': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillart/061101.webp'
+  },
+  {
+    'id': 61102,
+    'slug': 'b-rank-idol-eleaneer',
+    'name': 'B-Rank Idol',
+    'nameJp': 'B級アイドル',
+    'nameKr': 'B급 아이돌',
+    'charSlug': 'eleaneer',
+    'charName': 'Eleaneer',
+    'element': 4,
+    'grade': 5,
+    'vaJp': 'Yukino Uehara',
+    'talent': null,
+    'vaKr': 'Kim Chae-ha',
+    'maxLevel': 5,
+    'skills': [
+      {
+        'name': 'Sick and Tired of This!',
+        'desc': 'Attack the enemy 3 times, dealing X Physical DMG equal to 135% of your ATK per hit. Apply Silence to the enemy for 2 turn(s).',
+        'cooldown': 3,
+        'tiers': [
+          {
+            'rank': 0,
+            'sp': 5,
+            'value': 135,
+            'turns': 2,
+            'text': 'Attack the enemy 3 times, dealing X Physical DMG equal to 135% of your ATK per hit. Apply Silence to the enemy for 2 turn(s).'
+          },
+          {
+            'rank': 1,
+            'sp': 5,
+            'value': null,
+            'turns': null,
+            'text': 'Attack the enemy 3 times, dealing X Physical DMG equal to X% of your ATK per hit. Apply Silence to the enemy for X turn(s).'
+          },
+          {
+            'rank': 2,
+            'sp': 5,
+            'value': 185,
+            'turns': 2,
+            'text': 'Attack the enemy 3 times, dealing X Physical DMG equal to 185% of your ATK per hit. Apply Silence to the enemy for 2 turn(s).'
+          },
+          {
+            'rank': 3,
+            'sp': 4,
+            'value': null,
+            'turns': null,
+            'text': 'Attack the enemy 3 times, dealing X Physical DMG equal to X% of your ATK per hit. Apply Silence to the enemy for X turn(s).'
+          },
+          {
+            'rank': 4,
+            'sp': 4,
+            'value': 210,
+            'turns': 2,
+            'text': 'Attack the enemy 3 times, dealing X Physical DMG equal to 210% of your ATK per hit. Apply Silence to the enemy for 2 turn(s).'
+          },
+          {
+            'rank': 5,
+            'sp': 4,
+            'value': null,
+            'turns': null,
+            'text': 'Attack the enemy 3 times, dealing X Physical DMG equal to X% of your ATK per hit. Apply Silence to the enemy for X turn(s).'
+          }
+        ],
+        'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillicons/v2/skillicon_57.webp'
+      }
+    ],
+    'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/61102/icon.webp',
+    'body': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/61102/body.webp',
+    'skillCard': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillart/061102.webp'
+  },
+  {
+    'id': 61103,
+    'slug': 'shadow-bunny-eleaneer',
+    'name': 'Shadow Bunny',
+    'nameJp': 'シャドウ・バニー',
+    'nameKr': '쉐도우 바니',
+    'charSlug': 'eleaneer',
+    'charName': 'Eleaneer',
+    'element': 4,
+    'grade': 5,
+    'vaJp': 'Yukino Uehara',
+    'talent': null,
+    'vaKr': 'Kim Chae-ha',
+    'maxLevel': 5,
+    'skills': [
+      {
+        'name': 'Ashen Storm',
+        'desc': 'Your ATK is increased by X% for X turn(s). Create a domain on the battlefield for =5= turn(s), increasing allies\' ATK or Magic ATK by [6[% based on their attack type. Apply =6=% Vulnerability to the enemy.',
+        'cooldown': 15,
+        'tiers': [
+          {
+            'rank': 0,
+            'sp': 6,
+            'value': null,
+            'turns': null,
+            'text': 'Your ATK is increased by X% for X turn(s). Create a domain on the battlefield for =5= turn(s), increasing allies\' ATK or Magic ATK by [6[% based on their attack type. Apply =6=% Vulnerability to the enemy.'
+          },
+          {
+            'rank': 1,
+            'sp': 5,
+            'value': null,
+            'turns': null,
+            'text': 'Your ATK is increased by X% for X turn(s). Create a domain on the battlefield for =5= turn(s), increasing allies\' ATK or Magic ATK by [6[% based on their attack type. Apply =6=% Vulnerability to the enemy.'
+          },
+          {
+            'rank': 2,
+            'sp': 5,
+            'value': null,
+            'turns': null,
+            'text': 'Your ATK is increased by X% for X turn(s). Create a domain on the battlefield for =5= turn(s), increasing allies\' ATK or Magic ATK by [6[% based on their attack type. Apply =6=% Vulnerability to the enemy.'
+          },
+          {
+            'rank': 3,
+            'sp': 5,
+            'value': null,
+            'turns': null,
+            'text': 'Your ATK is increased by X% for X turn(s). Create a domain on the battlefield for =5= turn(s), increasing allies\' ATK or Magic ATK by [6[% based on their attack type. Apply =6=% Vulnerability to the enemy.'
+          },
+          {
+            'rank': 4,
+            'sp': 5,
+            'value': null,
+            'turns': null,
+            'text': 'Your ATK is increased by X% for X turn(s). Create a domain on the battlefield for =5= turn(s), increasing allies\' ATK or Magic ATK by [6[% based on their attack type. Apply =6=% Vulnerability to the enemy.'
+          },
+          {
+            'rank': 5,
+            'sp': 5,
+            'value': null,
+            'turns': null,
+            'text': 'Your ATK is increased by X% for X turn(s). Create a domain on the battlefield for =5= turn(s), increasing allies\' ATK or Magic ATK by [6[% based on their attack type. Apply =6=% Vulnerability to the enemy.'
+          }
+        ],
+        'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillicons/v2/skillicon_183.webp'
+      }
+    ],
+    'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/61103/icon.webp',
+    'body': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/61103/body.webp',
+    'skillCard': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillart/061103.webp'
+  },
+  {
+    'id': 61302,
+    'slug': 'bright-moon-dalvi',
+    'name': 'Bright Moon',
+    'nameJp': '明月',
+    'nameKr': '명월',
+    'charSlug': 'dalvi',
+    'charName': 'Dalvi',
+    'element': 2,
+    'grade': 5,
+    'vaJp': 'Mayu Isshiki',
+    'talent': null,
+    'vaKr': 'Lee Yoo-ri',
+    'maxLevel': 5,
+    'skills': [
+      {
+        'name': 'Moonlit Fox\'s Tale',
+        'desc': 'For [5[ turn(s), Transforms by releasing the power of the Nine-tailed fox. Attack the enemy 2 times, dealing X Magic DMG equal to X% of your Magic ATK per hit. Apply a stacking Bleed to the enemy for X turn(s), dealing X Magic DMG equal to X% of your Magic ATK per stack. Can stack up to X times.',
+        'cooldown': 7,
+        'tiers': [
+          {
+            'rank': 0,
+            'sp': 5,
+            'value': null,
+            'turns': null,
+            'text': 'For [5[ turn(s), Transforms by releasing the power of the Nine-tailed fox. Attack the enemy 2 times, dealing X Magic DMG equal to X% of your Magic ATK per hit. Apply a stacking Bleed to the enemy for X turn(s), dealing X Magic DMG equal to X% of your Magic ATK per stack. Can stack up to X times.'
+          },
+          {
+            'rank': 1,
+            'sp': 4,
+            'value': null,
+            'turns': null,
+            'text': 'For [5[ turn(s), Transforms by releasing the power of the Nine-tailed fox. Attack the enemy 2 times, dealing X Magic DMG equal to X% of your Magic ATK per hit. Apply a stacking Bleed to the enemy for X turn(s), dealing X Magic DMG equal to X% of your Magic ATK per stack. Can stack up to X times.'
+          },
+          {
+            'rank': 2,
+            'sp': 4,
+            'value': null,
+            'turns': null,
+            'text': 'For [5[ turn(s), Transforms by releasing the power of the Nine-tailed fox. Attack the enemy 2 times, dealing X Magic DMG equal to X% of your Magic ATK per hit. Apply a stacking Bleed to the enemy for X turn(s), dealing X Magic DMG equal to X% of your Magic ATK per stack. Can stack up to X times.'
+          },
+          {
+            'rank': 3,
+            'sp': 4,
+            'value': null,
+            'turns': null,
+            'text': 'For [5[ turn(s), Transforms by releasing the power of the Nine-tailed fox. Attack the enemy 2 times, dealing X Magic DMG equal to X% of your Magic ATK per hit. Apply a stacking Bleed to the enemy for X turn(s), dealing X Magic DMG equal to X% of your Magic ATK per stack. Can stack up to X times.'
+          },
+          {
+            'rank': 4,
+            'sp': 4,
+            'value': null,
+            'turns': null,
+            'text': 'For [5[ turn(s), Transforms by releasing the power of the Nine-tailed fox. Attack the enemy 2 times, dealing X Magic DMG equal to X% of your Magic ATK per hit. Apply a stacking Bleed to the enemy for X turn(s), dealing X Magic DMG equal to X% of your Magic ATK per stack. Can stack up to X times.'
+          },
+          {
+            'rank': 5,
+            'sp': 4,
+            'value': null,
+            'turns': null,
+            'text': 'For [5[ turn(s), Transforms by releasing the power of the Nine-tailed fox. Attack the enemy 2 times, dealing X Magic DMG equal to X% of your Magic ATK per hit. Apply a stacking Bleed to the enemy for X turn(s), dealing X Magic DMG equal to X% of your Magic ATK per stack. Can stack up to X times.'
+          }
+        ],
+        'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillicons/v2/skillicon_100.webp'
+      }
+    ],
+    'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/61302/icon.webp',
+    'body': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/61302/body.webp',
+    'skillCard': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillart/061302.webp'
+  },
+  {
+    'id': 61305,
+    'slug': 'summer-vacation-dalvi',
+    'name': 'Summer Vacation',
+    'nameJp': 'サマーバカンス',
+    'nameKr': '여름휴가',
+    'charSlug': 'dalvi',
+    'charName': 'Dalvi',
+    'element': 2,
+    'grade': 5,
+    'vaJp': 'Mayu Isshiki',
+    'talent': null,
+    'vaKr': 'Lee Yoo-ri',
+    'maxLevel': 5,
+    'skills': [
+      {
+        'name': 'Spirit Storm',
+        'desc': 'Attack the enemy 4 times, dealing X Magic DMG equal to 55% of your Magic ATK per hit. Apply a stacking Bleed to the enemy for 6 turn(s), dealing X Magic DMG equal to 55% of your Magic ATK per stack. Can stack up to X times.',
+        'cooldown': 5,
+        'tiers': [
+          {
+            'rank': 0,
+            'sp': 5,
+            'value': 55,
+            'turns': 6,
+            'text': 'Attack the enemy 4 times, dealing X Magic DMG equal to 55% of your Magic ATK per hit. Apply a stacking Bleed to the enemy for 6 turn(s), dealing X Magic DMG equal to 55% of your Magic ATK per stack. Can stack up to X times.'
+          },
+          {
+            'rank': 1,
+            'sp': 4,
+            'value': null,
+            'turns': null,
+            'text': 'Attack the enemy 4 times, dealing X Magic DMG equal to X% of your Magic ATK per hit. Apply a stacking Bleed to the enemy for X turn(s), dealing X Magic DMG equal to X% of your Magic ATK per stack. Can stack up to X times.'
+          },
+          {
+            'rank': 2,
+            'sp': 4,
+            'value': 70,
+            'turns': 6,
+            'text': 'Attack the enemy 4 times, dealing X Magic DMG equal to 70% of your Magic ATK per hit. Apply a stacking Bleed to the enemy for 6 turn(s), dealing X Magic DMG equal to 70% of your Magic ATK per stack. Can stack up to X times.'
+          },
+          {
+            'rank': 3,
+            'sp': 4,
+            'value': null,
+            'turns': null,
+            'text': 'Attack the enemy 4 times, dealing X Magic DMG equal to X% of your Magic ATK per hit. Apply a stacking Bleed to the enemy for X turn(s), dealing X Magic DMG equal to X% of your Magic ATK per stack. Can stack up to X times.'
+          },
+          {
+            'rank': 4,
+            'sp': 4,
+            'value': 85,
+            'turns': 8,
+            'text': 'Attack the enemy 4 times, dealing X Magic DMG equal to 85% of your Magic ATK per hit. Apply a stacking Bleed to the enemy for 8 turn(s), dealing X Magic DMG equal to 85% of your Magic ATK per stack. Can stack up to X times.'
+          },
+          {
+            'rank': 5,
+            'sp': 4,
+            'value': null,
+            'turns': null,
+            'text': 'Attack the enemy 4 times, dealing X Magic DMG equal to X% of your Magic ATK per hit. Apply a stacking Bleed to the enemy for X turn(s), dealing X Magic DMG equal to X% of your Magic ATK per stack. Can stack up to X times.'
+          }
+        ],
+        'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillicons/v2/skillicon_124.webp'
+      }
+    ],
+    'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/61305/icon.webp',
+    'body': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/61305/body.webp',
+    'skillCard': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillart/061305.webp'
+  },
+  {
+    'id': 61306,
+    'slug': 'tricky-lover-dalvi',
+    'name': 'Tricky Lover',
+    'nameJp': 'トリッキー・ラヴァー',
+    'nameKr': '트릭키 러버',
+    'charSlug': 'dalvi',
+    'charName': 'Dalvi',
+    'element': 2,
+    'grade': 5,
+    'vaJp': 'Mayu Isshiki',
+    'talent': null,
+    'vaKr': 'Lee Yoo-ri',
+    'maxLevel': 5,
+    'skills': [
+      {
+        'name': 'Playtime is Over',
+        'desc': 'Deal X Magic DMG to the enemy equal to 100% of your Magic ATK. If the enemy has Bleed, deal Magic DMG equal to &6&% of your Magic ATK per Bleed stack making up the Total Bleed instead. Remove Bleed from the enemy.',
+        'cooldown': 9,
+        'tiers': [
+          {
+            'rank': 0,
+            'sp': 7,
+            'value': 100,
+            'turns': null,
+            'text': 'Deal X Magic DMG to the enemy equal to 100% of your Magic ATK. If the enemy has Bleed, deal Magic DMG equal to &6&% of your Magic ATK per Bleed stack making up the Total Bleed instead. Remove Bleed from the enemy.'
+          },
+          {
+            'rank': 1,
+            'sp': 6,
+            'value': null,
+            'turns': null,
+            'text': 'Deal X Magic DMG to the enemy equal to X% of your Magic ATK. If the enemy has Bleed, deal Magic DMG equal to &6&% of your Magic ATK per Bleed stack making up the Total Bleed instead. Remove Bleed from the enemy.'
+          },
+          {
+            'rank': 2,
+            'sp': 6,
+            'value': 100,
+            'turns': null,
+            'text': 'Deal X Magic DMG to the enemy equal to 100% of your Magic ATK. If the enemy has Bleed, deal Magic DMG equal to &6&% of your Magic ATK per Bleed stack making up the Total Bleed instead. Remove Bleed from the enemy.'
+          },
+          {
+            'rank': 3,
+            'sp': 6,
+            'value': null,
+            'turns': null,
+            'text': 'Deal X Magic DMG to the enemy equal to X% of your Magic ATK. If the enemy has Bleed, deal Magic DMG equal to &6&% of your Magic ATK per Bleed stack making up the Total Bleed instead. Remove Bleed from the enemy.'
+          },
+          {
+            'rank': 4,
+            'sp': 6,
+            'value': 100,
+            'turns': null,
+            'text': 'Deal X Magic DMG to the enemy equal to 100% of your Magic ATK. If the enemy has Bleed, deal Magic DMG equal to &6&% of your Magic ATK per Bleed stack making up the Total Bleed instead. Remove Bleed from the enemy.'
+          },
+          {
+            'rank': 5,
+            'sp': 6,
+            'value': null,
+            'turns': null,
+            'text': 'Deal X Magic DMG to the enemy equal to X% of your Magic ATK. If the enemy has Bleed, deal Magic DMG equal to &6&% of your Magic ATK per Bleed stack making up the Total Bleed instead. Remove Bleed from the enemy.'
+          }
+        ],
+        'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillicons/v2/skillicon_204.webp'
+      }
+    ],
+    'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/61306/icon.webp',
+    'body': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/61306/body.webp',
+    'skillCard': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillart/061306.webp'
+  },
+  {
+    'id': 61402,
+    'slug': 'robin-hood-zenith',
+    'name': 'Robin Hood',
+    'nameJp': 'ロビンフッド',
+    'nameKr': '로빈 후드',
+    'charSlug': 'zenith',
+    'charName': 'Zenith',
+    'element': 2,
+    'grade': 5,
+    'vaJp': 'Misano Sakai',
+    'talent': {
+      'name': 'Search',
+      'mark': 'Talent_Buff006_Mark',
+      'skills': [
+        {
+          'name': 'Hunter\'s Intuition',
+          'desc': 'Detects the location of hidden objects for 30 seconds.',
+          'value': 60,
+          'catalyst': 15,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_6_s.webp'
+        },
+        {
+          'name': 'Hunter\'s Intuition',
+          'desc': 'Detects the location of hidden objects for 60 seconds.',
+          'value': 60,
+          'catalyst': 15,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_6_s.webp'
+        },
+        {
+          'name': 'Hunter\'s Intuition',
+          'desc': 'Detects the location of hidden objects for 90 seconds.',
+          'value': 60,
+          'catalyst': 15,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_6_s.webp'
+        },
+        {
+          'name': 'Hunter\'s Intuition',
+          'desc': '',
+          'value': 60,
+          'catalyst': 15,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_6_s.webp'
+        },
+        {
+          'name': 'Hunter\'s Intuition',
+          'desc': 'Detects the location of hidden objects for 240 seconds.',
+          'value': 60,
+          'catalyst': 15,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_6_s.webp'
+        }
+      ]
+    },
+    'vaKr': 'Oh Ro-ah',
+    'maxLevel': 5,
+    'skills': [
+      {
+        'name': 'Aim the Apple',
+        'desc': 'Attack the enemy 6 times, dealing X Physical DMG equal to X% of your ATK per hit. Apply Concentrated Fire to the enemy for X turn(s). Apply a [6[% Vulnerability to the enemy for [5[ turn(s).',
+        'cooldown': 1,
+        'tiers': [
+          {
+            'rank': 0,
+            'sp': 2,
+            'value': null,
+            'turns': null,
+            'text': 'Attack the enemy 6 times, dealing X Physical DMG equal to X% of your ATK per hit. Apply Concentrated Fire to the enemy for X turn(s). Apply a [6[% Vulnerability to the enemy for [5[ turn(s).'
+          },
+          {
+            'rank': 1,
+            'sp': 2,
+            'value': null,
+            'turns': null,
+            'text': 'Attack the enemy 6 times, dealing X Physical DMG equal to X% of your ATK per hit. Apply Concentrated Fire to the enemy for X turn(s). Apply a [6[% Vulnerability to the enemy for [5[ turn(s).'
+          },
+          {
+            'rank': 2,
+            'sp': 2,
+            'value': null,
+            'turns': null,
+            'text': 'Attack the enemy 6 times, dealing X Physical DMG equal to X% of your ATK per hit. Apply Concentrated Fire to the enemy for X turn(s). Apply a [6[% Vulnerability to the enemy for [5[ turn(s).'
+          },
+          {
+            'rank': 3,
+            'sp': 1,
+            'value': null,
+            'turns': null,
+            'text': 'Attack the enemy 6 times, dealing X Physical DMG equal to X% of your ATK per hit. Apply Concentrated Fire to the enemy for X turn(s). Apply a [6[% Vulnerability to the enemy for [5[ turn(s).'
+          },
+          {
+            'rank': 4,
+            'sp': 1,
+            'value': null,
+            'turns': null,
+            'text': 'Attack the enemy 6 times, dealing X Physical DMG equal to X% of your ATK per hit. Apply Concentrated Fire to the enemy for X turn(s). Apply a [6[% Vulnerability to the enemy for [5[ turn(s).'
+          },
+          {
+            'rank': 5,
+            'sp': 1,
+            'value': null,
+            'turns': null,
+            'text': 'Attack the enemy 6 times, dealing X Physical DMG equal to X% of your ATK per hit. Apply Concentrated Fire to the enemy for X turn(s). Apply a [6[% Vulnerability to the enemy for [5[ turn(s).'
+          }
+        ],
+        'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillicons/v2/skillicon_97.webp'
+      }
+    ],
+    'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/61402/icon.webp',
+    'body': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/61402/body.webp',
+    'skillCard': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillart/061402.webp'
+  },
+  {
+    'id': 61404,
+    'slug': 'poolside-guardian-zenith',
+    'name': 'Poolside Guardian',
+    'nameJp': '水遊びの守護者',
+    'nameKr': '물놀이 수호자',
+    'charSlug': 'zenith',
+    'charName': 'Zenith',
+    'element': 2,
+    'grade': 5,
+    'vaJp': 'Misano Sakai',
+    'talent': {
+      'name': 'Search',
+      'mark': 'Talent_Buff006_Mark',
+      'skills': [
+        {
+          'name': 'Hunter\'s Intuition',
+          'desc': 'Detects the location of hidden objects for 30 seconds.',
+          'value': 60,
+          'catalyst': 15,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_6_s.webp'
+        },
+        {
+          'name': 'Hunter\'s Intuition',
+          'desc': 'Detects the location of hidden objects for 60 seconds.',
+          'value': 60,
+          'catalyst': 15,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_6_s.webp'
+        },
+        {
+          'name': 'Hunter\'s Intuition',
+          'desc': 'Detects the location of hidden objects for 90 seconds.',
+          'value': 60,
+          'catalyst': 15,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_6_s.webp'
+        },
+        {
+          'name': 'Hunter\'s Intuition',
+          'desc': '',
+          'value': 60,
+          'catalyst': 15,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_6_s.webp'
+        },
+        {
+          'name': 'Hunter\'s Intuition',
+          'desc': 'Detects the location of hidden objects for 240 seconds.',
+          'value': 60,
+          'catalyst': 15,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_6_s.webp'
+        }
+      ]
+    },
+    'vaKr': 'Oh Ro-ah',
+    'maxLevel': 5,
+    'skills': [
+      {
+        'name': 'Foul Play!',
+        'desc': 'Attack the enemy 6 times, dealing X Physical DMG equal to X% of your ATK per hit. Apply Concentrated Fire to the enemy for X turn(s). Apply a [6[% Chain DMG Increase (Taken) to the enemy for [5[ turn(s).',
+        'cooldown': 3,
+        'tiers': [
+          {
+            'rank': 0,
+            'sp': 4,
+            'value': null,
+            'turns': null,
+            'text': 'Attack the enemy 6 times, dealing X Physical DMG equal to X% of your ATK per hit. Apply Concentrated Fire to the enemy for X turn(s). Apply a [6[% Chain DMG Increase (Taken) to the enemy for [5[ turn(s).'
+          },
+          {
+            'rank': 1,
+            'sp': 3,
+            'value': null,
+            'turns': null,
+            'text': 'Attack the enemy 6 times, dealing X Physical DMG equal to X% of your ATK per hit. Apply Concentrated Fire to the enemy for X turn(s). Apply a [6[% Chain DMG Increase (Taken) to the enemy for [5[ turn(s).'
+          },
+          {
+            'rank': 2,
+            'sp': 3,
+            'value': null,
+            'turns': null,
+            'text': 'Attack the enemy 6 times, dealing X Physical DMG equal to X% of your ATK per hit. Apply Concentrated Fire to the enemy for X turn(s). Apply a [6[% Chain DMG Increase (Taken) to the enemy for [5[ turn(s).'
+          },
+          {
+            'rank': 3,
+            'sp': 3,
+            'value': null,
+            'turns': null,
+            'text': 'Attack the enemy 6 times, dealing X Physical DMG equal to X% of your ATK per hit. Apply Concentrated Fire to the enemy for X turn(s). Apply a [6[% Chain DMG Increase (Taken) to the enemy for [5[ turn(s).'
+          },
+          {
+            'rank': 4,
+            'sp': 3,
+            'value': null,
+            'turns': null,
+            'text': 'Attack the enemy 6 times, dealing X Physical DMG equal to X% of your ATK per hit. Apply Concentrated Fire to the enemy for X turn(s). Apply a [6[% Chain DMG Increase (Taken) to the enemy for [5[ turn(s).'
+          },
+          {
+            'rank': 5,
+            'sp': 3,
+            'value': null,
+            'turns': null,
+            'text': 'Attack the enemy 6 times, dealing X Physical DMG equal to X% of your ATK per hit. Apply Concentrated Fire to the enemy for X turn(s). Apply a [6[% Chain DMG Increase (Taken) to the enemy for [5[ turn(s).'
+          }
+        ],
+        'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillicons/v2/skillicon_168.webp'
+      }
+    ],
+    'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/61404/icon.webp',
+    'body': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/61404/body.webp',
+    'skillCard': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillart/061404.webp'
+  },
+  {
+    'id': 61901,
+    'slug': 'kind-liberator-samay',
+    'name': 'Kind Liberator',
+    'nameJp': '優しき解放者',
+    'nameKr': '다정한 해방자',
+    'charSlug': 'samay',
+    'charName': 'Samay',
+    'element': 4,
+    'grade': 4,
+    'vaJp': 'Honami Momose',
+    'talent': {
+      'name': 'Revival',
+      'mark': '0',
+      'skills': []
+    },
+    'vaKr': 'Jung Yu-jung',
+    'maxLevel': 5,
+    'skills': [
+      {
+        'name': 'Blade of Hesitation',
+        'desc': 'Attack the enemy 2 times, dealing X Magic DMG equal to 80% of your Magic ATK per hit. Reduce enemy Magic Resistance by -50% for 4 turn(s).',
+        'cooldown': 7,
+        'tiers': [
+          {
+            'rank': 0,
+            'sp': 5,
+            'value': 80,
+            'turns': 4,
+            'text': 'Attack the enemy 2 times, dealing X Magic DMG equal to 80% of your Magic ATK per hit. Reduce enemy Magic Resistance by -50% for 4 turn(s).'
+          },
+          {
+            'rank': 1,
+            'sp': 5,
+            'value': null,
+            'turns': null,
+            'text': 'Attack the enemy 2 times, dealing X Magic DMG equal to X% of your Magic ATK per hit. Reduce enemy Magic Resistance by X% for X turn(s).'
+          },
+          {
+            'rank': 2,
+            'sp': 5,
+            'value': 100,
+            'turns': 4,
+            'text': 'Attack the enemy 2 times, dealing X Magic DMG equal to 100% of your Magic ATK per hit. Reduce enemy Magic Resistance by -50% for 4 turn(s).'
+          },
+          {
+            'rank': 3,
+            'sp': 4,
+            'value': null,
+            'turns': null,
+            'text': 'Attack the enemy 2 times, dealing X Magic DMG equal to X% of your Magic ATK per hit. Reduce enemy Magic Resistance by X% for X turn(s).'
+          },
+          {
+            'rank': 4,
+            'sp': 4,
+            'value': 140,
+            'turns': 4,
+            'text': 'Attack the enemy 2 times, dealing X Magic DMG equal to 140% of your Magic ATK per hit. Reduce enemy Magic Resistance by -50% for 4 turn(s).'
+          },
+          {
+            'rank': 5,
+            'sp': 4,
+            'value': null,
+            'turns': null,
+            'text': 'Attack the enemy 2 times, dealing X Magic DMG equal to X% of your Magic ATK per hit. Reduce enemy Magic Resistance by X% for X turn(s).'
+          }
+        ],
+        'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillicons/v2/skillicon_58.webp'
+      }
+    ],
+    'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/61901/icon.webp',
+    'body': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/61901/body.webp'
+  },
+  {
+    'id': 61902,
+    'slug': 'kind-student-samay',
+    'name': 'Kind Student',
+    'nameJp': '優しき学生',
+    'nameKr': '상냥한 학생',
+    'charSlug': 'samay',
+    'charName': 'Samay',
+    'element': 4,
+    'grade': 4,
+    'vaJp': 'Honami Momose',
+    'talent': {
+      'name': 'Revival',
+      'mark': '0',
+      'skills': []
+    },
+    'vaKr': 'Jung Yu-jung',
+    'maxLevel': 5,
+    'skills': [
+      {
+        'name': 'I\'m Trusting You!',
+        'desc': 'Ally ATK is increased by X% for X turn(s). Ally Magic ATK is increased by X% for X turn(s). Heal allies for [1[ at the end of each turn for [5[ turn(s), equal to [6[% of your Magic ATK.',
+        'cooldown': 5,
+        'tiers': [
+          {
+            'rank': 0,
+            'sp': 2,
+            'value': null,
+            'turns': null,
+            'text': 'Ally ATK is increased by X% for X turn(s). Ally Magic ATK is increased by X% for X turn(s). Heal allies for [1[ at the end of each turn for [5[ turn(s), equal to [6[% of your Magic ATK.'
+          },
+          {
+            'rank': 1,
+            'sp': 2,
+            'value': null,
+            'turns': null,
+            'text': 'Ally ATK is increased by X% for X turn(s). Ally Magic ATK is increased by X% for X turn(s). Heal allies for [1[ at the end of each turn for [5[ turn(s), equal to [6[% of your Magic ATK.'
+          },
+          {
+            'rank': 2,
+            'sp': 2,
+            'value': null,
+            'turns': null,
+            'text': 'Ally ATK is increased by X% for X turn(s). Ally Magic ATK is increased by X% for X turn(s). Heal allies for [1[ at the end of each turn for [5[ turn(s), equal to [6[% of your Magic ATK.'
+          },
+          {
+            'rank': 3,
+            'sp': 1,
+            'value': null,
+            'turns': null,
+            'text': 'Ally ATK is increased by X% for X turn(s). Ally Magic ATK is increased by X% for X turn(s). Heal allies for [1[ at the end of each turn for [5[ turn(s), equal to [6[% of your Magic ATK.'
+          },
+          {
+            'rank': 4,
+            'sp': 1,
+            'value': null,
+            'turns': null,
+            'text': 'Ally ATK is increased by X% for X turn(s). Ally Magic ATK is increased by X% for X turn(s). Heal allies for [1[ at the end of each turn for [5[ turn(s), equal to [6[% of your Magic ATK.'
+          },
+          {
+            'rank': 5,
+            'sp': 1,
+            'value': null,
+            'turns': null,
+            'text': 'Ally ATK is increased by X% for X turn(s). Ally Magic ATK is increased by X% for X turn(s). Heal allies for [1[ at the end of each turn for [5[ turn(s), equal to [6[% of your Magic ATK.'
+          }
+        ],
+        'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillicons/v2/skillicon_59.webp'
+      }
+    ],
+    'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/61902/icon.webp',
+    'body': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/61902/body.webp'
+  },
+  {
+    'id': 62001,
+    'slug': 'loyal-butler-andrew',
+    'name': 'Loyal Butler',
+    'nameJp': '忠実な執事',
+    'nameKr': '충직한 집사',
+    'charSlug': 'andrew',
+    'charName': 'Andrew',
+    'element': 1,
+    'grade': 4,
+    'vaJp': 'Yutaro Takahashi',
+    'talent': {
+      'name': 'Steal',
+      'mark': '0',
+      'skills': [
+        {
+          'name': 'Let me take this for a while.',
+          'desc': 'You can steal item(s) from the target NPC.',
+          'value': null,
+          'catalyst': 1,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_1_s.webp'
+        },
+        {
+          'name': 'Let me take this for a while.',
+          'desc': 'You can steal item(s) from the target NPC.',
+          'value': null,
+          'catalyst': 2,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_1_s.webp'
+        },
+        {
+          'name': 'Let me take this for a while.',
+          'desc': 'You can steal item(s) from the target NPC.',
+          'value': null,
+          'catalyst': 3,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_1_s.webp'
+        },
+        {
+          'name': 'Let me take this for a while.',
+          'desc': 'You can steal item(s) from the target NPC.',
+          'value': null,
+          'catalyst': 4,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_1_s.webp'
+        },
+        {
+          'name': 'Let me take this for a while.',
+          'desc': 'You can steal item(s) from the target NPC.',
+          'value': null,
+          'catalyst': 5,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_1_s.webp'
+        }
+      ]
+    },
+    'vaKr': 'Jung Ui-taek',
+    'maxLevel': 5,
+    'skills': [
+      {
+        'name': 'Life Steal',
+        'desc': 'Heal yourself for [1[ equal to [6[% of your Max HP. Reduce the enemy\'s SP by X each time an attack hits an enemy. Attack the enemy 2 times, dealing X Physical DMG equal to X% of your ATK per hit.',
+        'cooldown': 7,
+        'tiers': [
+          {
+            'rank': 0,
+            'sp': 5,
+            'value': null,
+            'turns': null,
+            'text': 'Heal yourself for [1[ equal to [6[% of your Max HP. Reduce the enemy\'s SP by X each time an attack hits an enemy. Attack the enemy 2 times, dealing X Physical DMG equal to X% of your ATK per hit.'
+          },
+          {
+            'rank': 1,
+            'sp': 5,
+            'value': null,
+            'turns': null,
+            'text': 'Heal yourself for [1[ equal to [6[% of your Max HP. Reduce the enemy\'s SP by X each time an attack hits an enemy. Attack the enemy 2 times, dealing X Physical DMG equal to X% of your ATK per hit.'
+          },
+          {
+            'rank': 2,
+            'sp': 5,
+            'value': null,
+            'turns': null,
+            'text': 'Heal yourself for [1[ equal to [6[% of your Max HP. Reduce the enemy\'s SP by X each time an attack hits an enemy. Attack the enemy 2 times, dealing X Physical DMG equal to X% of your ATK per hit.'
+          },
+          {
+            'rank': 3,
+            'sp': 4,
+            'value': null,
+            'turns': null,
+            'text': 'Heal yourself for [1[ equal to [6[% of your Max HP. Reduce the enemy\'s SP by X each time an attack hits an enemy. Attack the enemy 2 times, dealing X Physical DMG equal to X% of your ATK per hit.'
+          },
+          {
+            'rank': 4,
+            'sp': 4,
+            'value': null,
+            'turns': null,
+            'text': 'Heal yourself for [1[ equal to [6[% of your Max HP. Reduce the enemy\'s SP by X each time an attack hits an enemy. Attack the enemy 2 times, dealing X Physical DMG equal to X% of your ATK per hit.'
+          },
+          {
+            'rank': 5,
+            'sp': 4,
+            'value': null,
+            'turns': null,
+            'text': 'Heal yourself for [1[ equal to [6[% of your Max HP. Reduce the enemy\'s SP by X each time an attack hits an enemy. Attack the enemy 2 times, dealing X Physical DMG equal to X% of your ATK per hit.'
+          }
+        ],
+        'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillicons/v2/skillicon_64.webp'
+      }
+    ],
+    'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/62001/icon.webp',
+    'body': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/62001/body.webp',
+    'skillCard': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillart/062001.webp'
+  },
+  {
+    'id': 62002,
+    'slug': 'specialist-andrew',
+    'name': 'Specialist',
+    'nameJp': 'スペシャリスト',
+    'nameKr': '스페셜리스트',
+    'charSlug': 'andrew',
+    'charName': 'Andrew',
+    'element': 1,
+    'grade': 4,
+    'vaJp': 'Yutaro Takahashi',
+    'talent': {
+      'name': 'Steal',
+      'mark': '0',
+      'skills': [
+        {
+          'name': 'Let me take this for a while.',
+          'desc': 'You can steal item(s) from the target NPC.',
+          'value': null,
+          'catalyst': 1,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_1_s.webp'
+        },
+        {
+          'name': 'Let me take this for a while.',
+          'desc': 'You can steal item(s) from the target NPC.',
+          'value': null,
+          'catalyst': 2,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_1_s.webp'
+        },
+        {
+          'name': 'Let me take this for a while.',
+          'desc': 'You can steal item(s) from the target NPC.',
+          'value': null,
+          'catalyst': 3,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_1_s.webp'
+        },
+        {
+          'name': 'Let me take this for a while.',
+          'desc': 'You can steal item(s) from the target NPC.',
+          'value': null,
+          'catalyst': 4,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_1_s.webp'
+        },
+        {
+          'name': 'Let me take this for a while.',
+          'desc': 'You can steal item(s) from the target NPC.',
+          'value': null,
+          'catalyst': 5,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_1_s.webp'
+        }
+      ]
+    },
+    'vaKr': 'Jung Ui-taek',
+    'maxLevel': 5,
+    'skills': [
+      {
+        'name': 'What Are You Looking At?',
+        'desc': 'For 2 turn(s), you have a X% chance to evade enemy attacks. Each successful Evasion reduces the chance of evading future attacks by X%. Apply Taunt to yourself for 2 turn(s).',
+        'cooldown': 7,
+        'tiers': [
+          {
+            'rank': 0,
+            'sp': 5,
+            'value': 0,
+            'turns': 2,
+            'text': 'For 2 turn(s), you have a X% chance to evade enemy attacks. Each successful Evasion reduces the chance of evading future attacks by X%. Apply Taunt to yourself for 2 turn(s).'
+          },
+          {
+            'rank': 1,
+            'sp': 5,
+            'value': null,
+            'turns': null,
+            'text': 'For X turn(s), you have a X% chance to evade enemy attacks. Each successful Evasion reduces the chance of evading future attacks by X%. Apply Taunt to yourself for X turn(s).'
+          },
+          {
+            'rank': 2,
+            'sp': 5,
+            'value': 0,
+            'turns': 2,
+            'text': 'For 2 turn(s), you have a X% chance to evade enemy attacks. Each successful Evasion reduces the chance of evading future attacks by X%. Apply Taunt to yourself for 2 turn(s).'
+          },
+          {
+            'rank': 3,
+            'sp': 4,
+            'value': null,
+            'turns': null,
+            'text': 'For X turn(s), you have a X% chance to evade enemy attacks. Each successful Evasion reduces the chance of evading future attacks by X%. Apply Taunt to yourself for X turn(s).'
+          },
+          {
+            'rank': 4,
+            'sp': 4,
+            'value': 0,
+            'turns': 2,
+            'text': 'For 2 turn(s), you have a X% chance to evade enemy attacks. Each successful Evasion reduces the chance of evading future attacks by X%. Apply Taunt to yourself for 2 turn(s).'
+          },
+          {
+            'rank': 5,
+            'sp': 4,
+            'value': null,
+            'turns': null,
+            'text': 'For X turn(s), you have a X% chance to evade enemy attacks. Each successful Evasion reduces the chance of evading future attacks by X%. Apply Taunt to yourself for X turn(s).'
+          }
+        ],
+        'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillicons/v2/skillicon_65.webp'
+      }
+    ],
+    'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/62002/icon.webp',
+    'body': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/62002/body.webp',
+    'skillCard': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillart/062002.webp'
+  },
+  {
+    'id': 62101,
+    'slug': 'liberated-marauder-kry',
+    'name': 'Liberated Marauder',
+    'nameJp': '開放された略奪者',
+    'nameKr': '해방된 약탈자',
+    'charSlug': 'kry',
+    'charName': 'Kry',
+    'element': 4,
+    'grade': 4,
+    'vaJp': 'Yutaro Takahashi',
+    'talent': null,
+    'vaKr': 'Choi Gyeol',
+    'maxLevel': 5,
+    'skills': [
+      {
+        'name': 'Armor Attack',
+        'desc': 'Attack the enemy 2 times, dealing X Physical DMG equal to 80% of your ATK per hit. Reduce enemy DEF by -50% for 4 turn(s).',
+        'cooldown': 7,
+        'tiers': [
+          {
+            'rank': 0,
+            'sp': 5,
+            'value': 80,
+            'turns': 4,
+            'text': 'Attack the enemy 2 times, dealing X Physical DMG equal to 80% of your ATK per hit. Reduce enemy DEF by -50% for 4 turn(s).'
+          },
+          {
+            'rank': 1,
+            'sp': 5,
+            'value': null,
+            'turns': null,
+            'text': 'Attack the enemy 2 times, dealing X Physical DMG equal to X% of your ATK per hit. Reduce enemy DEF by X% for X turn(s).'
+          },
+          {
+            'rank': 2,
+            'sp': 5,
+            'value': 100,
+            'turns': 4,
+            'text': 'Attack the enemy 2 times, dealing X Physical DMG equal to 100% of your ATK per hit. Reduce enemy DEF by -50% for 4 turn(s).'
+          },
+          {
+            'rank': 3,
+            'sp': 4,
+            'value': null,
+            'turns': null,
+            'text': 'Attack the enemy 2 times, dealing X Physical DMG equal to X% of your ATK per hit. Reduce enemy DEF by X% for X turn(s).'
+          },
+          {
+            'rank': 4,
+            'sp': 4,
+            'value': 140,
+            'turns': 4,
+            'text': 'Attack the enemy 2 times, dealing X Physical DMG equal to 140% of your ATK per hit. Reduce enemy DEF by -50% for 4 turn(s).'
+          },
+          {
+            'rank': 5,
+            'sp': 4,
+            'value': null,
+            'turns': null,
+            'text': 'Attack the enemy 2 times, dealing X Physical DMG equal to X% of your ATK per hit. Reduce enemy DEF by X% for X turn(s).'
+          }
+        ],
+        'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillicons/v2/skillicon_60.webp'
+      }
+    ],
+    'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/62101/icon.webp',
+    'body': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/62101/body.webp'
+  },
+  {
+    'id': 62102,
+    'slug': 'violent-student-kry',
+    'name': 'Violent Student',
+    'nameJp': '乱暴な学生',
+    'nameKr': '난폭한 학생',
+    'charSlug': 'kry',
+    'charName': 'Kry',
+    'element': 4,
+    'grade': 4,
+    'vaJp': 'Yutaro Takahashi',
+    'talent': null,
+    'vaKr': 'Choi Gyeol',
+    'maxLevel': 5,
+    'skills': [
+      {
+        'name': 'Leave It to Me!',
+        'desc': 'Restore X SP to allies. Deal 1 Physical DMG to the enemy and knock them back 2 tiles backward. Any enemies they collide with take Physical DMG equal to X% of the knocked-back enemy\'s Max HP. Apply Bleed to the enemy for [5[ turn(s), dealing [1[ Physical DMG equal to [6[% of your ATK.',
+        'cooldown': 7,
+        'tiers': [
+          {
+            'rank': 0,
+            'sp': 2,
+            'value': null,
+            'turns': null,
+            'text': 'Restore X SP to allies. Deal 1 Physical DMG to the enemy and knock them back 2 tiles backward. Any enemies they collide with take Physical DMG equal to X% of the knocked-back enemy\'s Max HP. Apply Bleed to the enemy for [5[ turn(s), dealing [1[ Physical DMG equal to [6[% of your ATK.'
+          },
+          {
+            'rank': 1,
+            'sp': 2,
+            'value': null,
+            'turns': null,
+            'text': 'Restore X SP to allies. Deal 1 Physical DMG to the enemy and knock them back 2 tiles backward. Any enemies they collide with take Physical DMG equal to X% of the knocked-back enemy\'s Max HP. Apply Bleed to the enemy for [5[ turn(s), dealing [1[ Physical DMG equal to [6[% of your ATK.'
+          },
+          {
+            'rank': 2,
+            'sp': 2,
+            'value': null,
+            'turns': null,
+            'text': 'Restore X SP to allies. Deal 1 Physical DMG to the enemy and knock them back 2 tiles backward. Any enemies they collide with take Physical DMG equal to X% of the knocked-back enemy\'s Max HP. Apply Bleed to the enemy for [5[ turn(s), dealing [1[ Physical DMG equal to [6[% of your ATK.'
+          },
+          {
+            'rank': 3,
+            'sp': 1,
+            'value': null,
+            'turns': null,
+            'text': 'Restore X SP to allies. Deal 1 Physical DMG to the enemy and knock them back 2 tiles backward. Any enemies they collide with take Physical DMG equal to X% of the knocked-back enemy\'s Max HP. Apply Bleed to the enemy for [5[ turn(s), dealing [1[ Physical DMG equal to [6[% of your ATK.'
+          },
+          {
+            'rank': 4,
+            'sp': 1,
+            'value': null,
+            'turns': null,
+            'text': 'Restore X SP to allies. Deal 1 Physical DMG to the enemy and knock them back 2 tiles backward. Any enemies they collide with take Physical DMG equal to X% of the knocked-back enemy\'s Max HP. Apply Bleed to the enemy for [5[ turn(s), dealing [1[ Physical DMG equal to [6[% of your ATK.'
+          },
+          {
+            'rank': 5,
+            'sp': 1,
+            'value': null,
+            'turns': null,
+            'text': 'Restore X SP to allies. Deal 1 Physical DMG to the enemy and knock them back 2 tiles backward. Any enemies they collide with take Physical DMG equal to X% of the knocked-back enemy\'s Max HP. Apply Bleed to the enemy for [5[ turn(s), dealing [1[ Physical DMG equal to [6[% of your ATK.'
+          }
+        ],
+        'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillicons/v2/skillicon_61.webp'
+      }
+    ],
+    'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/62102/icon.webp',
+    'body': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/62102/body.webp'
+  },
+  {
+    'id': 62501,
+    'slug': 'archmage-maria',
+    'name': 'Archmage',
+    'nameJp': '大魔術師',
+    'nameKr': '대마법사',
+    'charSlug': 'maria',
+    'charName': 'Maria',
+    'element': 4,
+    'grade': 3,
+    'vaJp': 'Minamori Mizuki',
+    'talent': null,
+    'vaKr': 'Kim Yun-chae',
+    'maxLevel': 5,
+    'skills': [
+      {
+        'name': 'Destructive Magic',
+        'desc': 'Attack the enemy 2 times, dealing X Magic DMG equal to 80% of your Magic ATK per hit.',
+        'cooldown': 7,
+        'tiers': [
+          {
+            'rank': 0,
+            'sp': 5,
+            'value': 80,
+            'turns': null,
+            'text': 'Attack the enemy 2 times, dealing X Magic DMG equal to 80% of your Magic ATK per hit.'
+          },
+          {
+            'rank': 1,
+            'sp': 5,
+            'value': 80,
+            'turns': null,
+            'text': 'Attack the enemy 2 times, dealing X Magic DMG equal to 80% of your Magic ATK per hit.'
+          },
+          {
+            'rank': 2,
+            'sp': 5,
+            'value': 100,
+            'turns': null,
+            'text': 'Attack the enemy 2 times, dealing X Magic DMG equal to 100% of your Magic ATK per hit.'
+          },
+          {
+            'rank': 3,
+            'sp': 4,
+            'value': 100,
+            'turns': null,
+            'text': 'Attack the enemy 2 times, dealing X Magic DMG equal to 100% of your Magic ATK per hit.'
+          },
+          {
+            'rank': 4,
+            'sp': 4,
+            'value': 140,
+            'turns': null,
+            'text': 'Attack the enemy 2 times, dealing X Magic DMG equal to 140% of your Magic ATK per hit.'
+          },
+          {
+            'rank': 5,
+            'sp': 4,
+            'value': 200,
+            'turns': null,
+            'text': 'Attack the enemy 2 times, dealing X Magic DMG equal to 200% of your Magic ATK per hit.'
+          }
+        ],
+        'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillicons/v2/skillicon_69.webp'
+      }
+    ],
+    'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/62501/icon.webp',
+    'body': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/62501/body.webp'
+  },
+  {
+    'id': 62601,
+    'slug': 'priest-of-vitality-arines',
+    'name': 'Priest of Vitality',
+    'nameJp': '活力の司祭',
+    'nameKr': '활력의 사제',
+    'charSlug': 'arines',
+    'charName': 'Arines',
+    'element': 3,
+    'grade': 3,
+    'vaJp': 'Honami Momose',
+    'talent': null,
+    'vaKr': 'Kim Chae-ha',
+    'maxLevel': 5,
+    'skills': [
+      {
+        'name': 'Fair and Square',
+        'desc': 'Ally ATK is increased by 30% for 6 turn(s). Ally Crit Rate is increased by 30% for 6 turn(s).',
+        'cooldown': 7,
+        'tiers': [
+          {
+            'rank': 0,
+            'sp': 3,
+            'value': 25,
+            'turns': 6,
+            'text': 'Ally ATK is increased by 30% for 6 turn(s). Ally Crit Rate is increased by 30% for 6 turn(s).'
+          },
+          {
+            'rank': 1,
+            'sp': 3,
+            'value': null,
+            'turns': null,
+            'text': 'Ally ATK is increased by X% for X turn(s). Ally Crit Rate is increased by X% for X turn(s).'
+          },
+          {
+            'rank': 2,
+            'sp': 3,
+            'value': 35,
+            'turns': 6,
+            'text': 'Ally ATK is increased by 30% for 6 turn(s). Ally Crit Rate is increased by 30% for 6 turn(s).'
+          },
+          {
+            'rank': 3,
+            'sp': 2,
+            'value': null,
+            'turns': null,
+            'text': 'Ally ATK is increased by X% for X turn(s). Ally Crit Rate is increased by X% for X turn(s).'
+          },
+          {
+            'rank': 4,
+            'sp': 2,
+            'value': 50,
+            'turns': 6,
+            'text': 'Ally ATK is increased by 30% for 6 turn(s). Ally Crit Rate is increased by 30% for 6 turn(s).'
+          },
+          {
+            'rank': 5,
+            'sp': 2,
+            'value': null,
+            'turns': null,
+            'text': 'Ally ATK is increased by X% for X turn(s). Ally Crit Rate is increased by X% for X turn(s).'
+          }
+        ],
+        'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillicons/v2/skillicon_70.webp'
+      }
+    ],
+    'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/62601/icon.webp',
+    'body': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/62601/body.webp'
+  },
+  {
+    'id': 62701,
+    'slug': 'beautiful-girl-devotee-jayden',
+    'name': 'Beautiful Girl Devotee',
+    'nameJp': '美少女信者',
+    'nameKr': '미소녀 신봉자',
+    'charSlug': 'jayden',
+    'charName': 'Jayden',
+    'element': 3,
+    'grade': 4,
+    'vaJp': 'Taisuke Nakano',
+    'talent': {
+      'name': 'Search',
+      'mark': 'Talent_Buff006_Mark',
+      'skills': [
+        {
+          'name': '',
+          'desc': 'Check the location of hidden objects for 12 seconds.',
+          'value': 60,
+          'catalyst': 2,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_6_s.webp'
+        },
+        {
+          'name': '',
+          'desc': 'Check the location of hidden objects for 18 seconds.',
+          'value': 60,
+          'catalyst': 1,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_6_s.webp'
+        }
+      ]
+    },
+    'vaKr': 'Jung Uhan',
+    'maxLevel': 5,
+    'skills': [
+      {
+        'name': 'Power of Beauty',
+        'desc': 'Heal yourself for X at the end of each turn for 4 turn(s), equal to X% of your Max HP. Apply a X% Barrier (Magic) to yourself for 4 turn(s).',
+        'cooldown': 7,
+        'tiers': [
+          {
+            'rank': 0,
+            'sp': 3,
+            'value': 5,
+            'turns': 4,
+            'text': 'Heal yourself for X at the end of each turn for 4 turn(s), equal to X% of your Max HP. Apply a X% Barrier (Magic) to yourself for 4 turn(s).'
+          },
+          {
+            'rank': 1,
+            'sp': 3,
+            'value': null,
+            'turns': null,
+            'text': 'Heal yourself for X at the end of each turn for X turn(s), equal to X% of your Max HP. Apply a X% Barrier (Magic) to yourself for X turn(s).'
+          },
+          {
+            'rank': 2,
+            'sp': 3,
+            'value': 9,
+            'turns': 4,
+            'text': 'Heal yourself for X at the end of each turn for 4 turn(s), equal to X% of your Max HP. Apply a X% Barrier (Magic) to yourself for 4 turn(s).'
+          },
+          {
+            'rank': 3,
+            'sp': 2,
+            'value': null,
+            'turns': null,
+            'text': 'Heal yourself for X at the end of each turn for X turn(s), equal to X% of your Max HP. Apply a X% Barrier (Magic) to yourself for X turn(s).'
+          },
+          {
+            'rank': 4,
+            'sp': 2,
+            'value': 17,
+            'turns': 4,
+            'text': 'Heal yourself for X at the end of each turn for 4 turn(s), equal to X% of your Max HP. Apply a X% Barrier (Magic) to yourself for 4 turn(s).'
+          },
+          {
+            'rank': 5,
+            'sp': 2,
+            'value': null,
+            'turns': null,
+            'text': 'Heal yourself for X at the end of each turn for X turn(s), equal to X% of your Max HP. Apply a X% Barrier (Magic) to yourself for X turn(s).'
+          }
+        ],
+        'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillicons/v2/skillicon_71.webp'
+      }
+    ],
+    'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/62701/icon.webp',
+    'body': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/62701/body.webp'
+  },
+  {
+    'id': 62702,
+    'slug': 'manga-research-club-jayden',
+    'name': 'Manga Research Club',
+    'nameJp': '漫画研究部',
+    'nameKr': '만화 연구부',
+    'charSlug': 'jayden',
+    'charName': 'Jayden',
+    'element': 3,
+    'grade': 4,
+    'vaJp': 'Taisuke Nakano',
+    'talent': {
+      'name': 'Search',
+      'mark': 'Talent_Buff006_Mark',
+      'skills': [
+        {
+          'name': '',
+          'desc': 'Check the location of hidden objects for 12 seconds.',
+          'value': 60,
+          'catalyst': 2,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_6_s.webp'
+        },
+        {
+          'name': '',
+          'desc': 'Check the location of hidden objects for 18 seconds.',
+          'value': 60,
+          'catalyst': 1,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_6_s.webp'
+        }
+      ]
+    },
+    'vaKr': 'Jung Uhan',
+    'maxLevel': 5,
+    'skills': [
+      {
+        'name': 'Meteor Fall',
+        'desc': 'Attack the enemy 3 times, dealing X Magic DMG equal to 50% of your Magic ATK per hit.',
+        'cooldown': 7,
+        'tiers': [
+          {
+            'rank': 0,
+            'sp': 6,
+            'value': 50,
+            'turns': null,
+            'text': 'Attack the enemy 3 times, dealing X Magic DMG equal to 50% of your Magic ATK per hit.'
+          },
+          {
+            'rank': 1,
+            'sp': 6,
+            'value': 50,
+            'turns': null,
+            'text': 'Attack the enemy 3 times, dealing X Magic DMG equal to 50% of your Magic ATK per hit.'
+          },
+          {
+            'rank': 2,
+            'sp': 6,
+            'value': 70,
+            'turns': null,
+            'text': 'Attack the enemy 3 times, dealing X Magic DMG equal to 70% of your Magic ATK per hit.'
+          },
+          {
+            'rank': 3,
+            'sp': 5,
+            'value': 70,
+            'turns': null,
+            'text': 'Attack the enemy 3 times, dealing X Magic DMG equal to 70% of your Magic ATK per hit.'
+          },
+          {
+            'rank': 4,
+            'sp': 5,
+            'value': 110,
+            'turns': null,
+            'text': 'Attack the enemy 3 times, dealing X Magic DMG equal to 110% of your Magic ATK per hit.'
+          },
+          {
+            'rank': 5,
+            'sp': 5,
+            'value': 170,
+            'turns': null,
+            'text': 'Attack the enemy 3 times, dealing X Magic DMG equal to 170% of your Magic ATK per hit.'
+          }
+        ],
+        'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillicons/v2/skillicon_72.webp'
+      }
+    ],
+    'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/62702/icon.webp',
+    'body': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/62702/body.webp'
+  },
+  {
+    'id': 62801,
+    'slug': 'haggard-delinquent-emma',
+    'name': 'Haggard Delinquent',
+    'nameJp': '刺々しい不良',
+    'nameKr': '까칠한 불량아',
+    'charSlug': 'emma',
+    'charName': 'Emma',
+    'element': 3,
+    'grade': 3,
+    'vaJp': 'Hikaru Iida',
+    'talent': null,
+    'vaKr': 'Kim Yea-lim',
+    'maxLevel': 5,
+    'skills': [
+      {
+        'name': 'I\'m the best!',
+        'desc': 'Your ATK is increased by X% for X turn(s).',
+        'cooldown': 7,
+        'tiers': [
+          {
+            'rank': 0,
+            'sp': 2,
+            'value': 200,
+            'turns': null,
+            'text': 'Your ATK is increased by X% for X turn(s).'
+          },
+          {
+            'rank': 1,
+            'sp': 2,
+            'value': 200,
+            'turns': null,
+            'text': 'Your ATK is increased by X% for X turn(s).'
+          },
+          {
+            'rank': 2,
+            'sp': 2,
+            'value': 250,
+            'turns': null,
+            'text': 'Your ATK is increased by X% for X turn(s).'
+          },
+          {
+            'rank': 3,
+            'sp': 1,
+            'value': 250,
+            'turns': null,
+            'text': 'Your ATK is increased by X% for X turn(s).'
+          },
+          {
+            'rank': 4,
+            'sp': 1,
+            'value': 350,
+            'turns': null,
+            'text': 'Your ATK is increased by X% for X turn(s).'
+          },
+          {
+            'rank': 5,
+            'sp': 1,
+            'value': 500,
+            'turns': null,
+            'text': 'Your ATK is increased by X% for X turn(s).'
+          }
+        ],
+        'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillicons/v2/skillicon_73.webp'
+      }
+    ],
+    'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/62801/icon.webp',
+    'body': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/62801/body.webp'
+  },
+  {
+    'id': 62802,
+    'slug': 'school-queen-emma',
+    'name': 'School Queen',
+    'nameJp': '学校のクイーン',
+    'nameKr': '학교의 여왕',
+    'charSlug': 'emma',
+    'charName': 'Emma',
+    'element': 3,
+    'grade': 3,
+    'vaJp': 'Hikaru Iida',
+    'talent': null,
+    'vaKr': 'Kim Yea-lim',
+    'maxLevel': 5,
+    'skills': [
+      {
+        'name': 'Get Lost, I\'m Busy!',
+        'desc': 'Restore X SP to allies. Deal 1 Physical DMG to the enemy and knock them back 2 tiles to the left. Any enemies they collide with take Physical DMG equal to X% of the knocked-back enemy\'s Max HP. Apply Bleed to the enemy for [5[ turn(s), dealing [1[ Physical DMG equal to [6[% of your ATK.',
+        'cooldown': 7,
+        'tiers': [
+          {
+            'rank': 0,
+            'sp': 3,
+            'value': null,
+            'turns': null,
+            'text': 'Restore X SP to allies. Deal 1 Physical DMG to the enemy and knock them back 2 tiles to the left. Any enemies they collide with take Physical DMG equal to X% of the knocked-back enemy\'s Max HP. Apply Bleed to the enemy for [5[ turn(s), dealing [1[ Physical DMG equal to [6[% of your ATK.'
+          },
+          {
+            'rank': 1,
+            'sp': 3,
+            'value': null,
+            'turns': null,
+            'text': 'Restore X SP to allies. Deal 1 Physical DMG to the enemy and knock them back 2 tiles to the left. Any enemies they collide with take Physical DMG equal to X% of the knocked-back enemy\'s Max HP. Apply Bleed to the enemy for [5[ turn(s), dealing [1[ Physical DMG equal to [6[% of your ATK.'
+          },
+          {
+            'rank': 2,
+            'sp': 3,
+            'value': null,
+            'turns': null,
+            'text': 'Restore X SP to allies. Deal 1 Physical DMG to the enemy and knock them back 2 tiles to the left. Any enemies they collide with take Physical DMG equal to X% of the knocked-back enemy\'s Max HP. Apply Bleed to the enemy for [5[ turn(s), dealing [1[ Physical DMG equal to [6[% of your ATK.'
+          },
+          {
+            'rank': 3,
+            'sp': 2,
+            'value': null,
+            'turns': null,
+            'text': 'Restore X SP to allies. Deal 1 Physical DMG to the enemy and knock them back 2 tiles to the left. Any enemies they collide with take Physical DMG equal to X% of the knocked-back enemy\'s Max HP. Apply Bleed to the enemy for [5[ turn(s), dealing [1[ Physical DMG equal to [6[% of your ATK.'
+          },
+          {
+            'rank': 4,
+            'sp': 2,
+            'value': null,
+            'turns': null,
+            'text': 'Restore X SP to allies. Deal 1 Physical DMG to the enemy and knock them back 2 tiles to the left. Any enemies they collide with take Physical DMG equal to X% of the knocked-back enemy\'s Max HP. Apply Bleed to the enemy for [5[ turn(s), dealing [1[ Physical DMG equal to [6[% of your ATK.'
+          },
+          {
+            'rank': 5,
+            'sp': 2,
+            'value': null,
+            'turns': null,
+            'text': 'Restore X SP to allies. Deal 1 Physical DMG to the enemy and knock them back 2 tiles to the left. Any enemies they collide with take Physical DMG equal to X% of the knocked-back enemy\'s Max HP. Apply Bleed to the enemy for [5[ turn(s), dealing [1[ Physical DMG equal to [6[% of your ATK.'
+          }
+        ],
+        'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillicons/v2/skillicon_74.webp'
+      }
+    ],
+    'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/62802/icon.webp',
+    'body': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/62802/body.webp'
+  },
+  {
+    'id': 63001,
+    'slug': 'kardis-bullet-ingrid',
+    'name': 'Kardis\' Bullet',
+    'nameJp': 'カディスの弾丸',
+    'nameKr': '카디스의 탄환',
+    'charSlug': 'ingrid',
+    'charName': 'Ingrid',
+    'element': 0,
+    'grade': 3,
+    'vaJp': 'Nagisa Kujime',
+    'talent': null,
+    'vaKr': 'Kim Bo-na',
+    'maxLevel': 5,
+    'skills': [
+      {
+        'name': 'Dancing Barrel',
+        'desc': 'Attack the enemy 3 times, dealing X Physical DMG equal to 60% of your ATK per hit.',
+        'cooldown': 7,
+        'tiers': [
+          {
+            'rank': 0,
+            'sp': 4,
+            'value': 60,
+            'turns': null,
+            'text': 'Attack the enemy 3 times, dealing X Physical DMG equal to 60% of your ATK per hit.'
+          },
+          {
+            'rank': 1,
+            'sp': 4,
+            'value': 60,
+            'turns': null,
+            'text': 'Attack the enemy 3 times, dealing X Physical DMG equal to 60% of your ATK per hit.'
+          },
+          {
+            'rank': 2,
+            'sp': 4,
+            'value': 80,
+            'turns': null,
+            'text': 'Attack the enemy 3 times, dealing X Physical DMG equal to 80% of your ATK per hit.'
+          },
+          {
+            'rank': 3,
+            'sp': 3,
+            'value': 80,
+            'turns': null,
+            'text': 'Attack the enemy 3 times, dealing X Physical DMG equal to 80% of your ATK per hit.'
+          },
+          {
+            'rank': 4,
+            'sp': 3,
+            'value': 110,
+            'turns': null,
+            'text': 'Attack the enemy 3 times, dealing X Physical DMG equal to 110% of your ATK per hit.'
+          },
+          {
+            'rank': 5,
+            'sp': 3,
+            'value': 160,
+            'turns': null,
+            'text': 'Attack the enemy 3 times, dealing X Physical DMG equal to 160% of your ATK per hit.'
+          }
+        ],
+        'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillicons/v2/skillicon_76.webp'
+      }
+    ],
+    'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/63001/icon.webp',
+    'body': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/63001/body.webp',
+    'skillCard': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillart/063001.webp'
+  },
+  {
+    'id': 63301,
+    'slug': 'warmth-within-the-severe-cold-cynthia',
+    'name': 'Warmth within the Severe Cold',
+    'nameJp': '酷寒の中の温もり',
+    'nameKr': '혹한 속의 온기',
+    'charSlug': 'cynthia',
+    'charName': 'Cynthia',
+    'element': 0,
+    'grade': 3,
+    'vaJp': 'Hika Tsukishiro',
+    'talent': null,
+    'vaKr': 'Lee Eun-jo',
+    'maxLevel': 5,
+    'skills': [
+      {
+        'name': 'Blizzard',
+        'desc': 'Attack the enemy 2 times, dealing X Magic DMG equal to 25% of your Magic ATK per hit. Apply Frostbite to the enemy, dealing X Magic DMG equal to 25% of your Magic ATK. This effect wears off after being hit X times, including this attack.',
+        'cooldown': 7,
+        'tiers': [
+          {
+            'rank': 0,
+            'sp': 4,
+            'value': 25,
+            'turns': 8,
+            'text': 'Attack the enemy 2 times, dealing X Magic DMG equal to 25% of your Magic ATK per hit. Apply Frostbite to the enemy, dealing X Magic DMG equal to 25% of your Magic ATK. This effect wears off after being hit X times, including this attack.'
+          },
+          {
+            'rank': 1,
+            'sp': 4,
+            'value': null,
+            'turns': null,
+            'text': 'Attack the enemy 2 times, dealing X Magic DMG equal to X% of your Magic ATK per hit. Apply Frostbite to the enemy, dealing X Magic DMG equal to X% of your Magic ATK. This effect wears off after being hit X times, including this attack.'
+          },
+          {
+            'rank': 2,
+            'sp': 4,
+            'value': 25,
+            'turns': 8,
+            'text': 'Attack the enemy 2 times, dealing X Magic DMG equal to 25% of your Magic ATK per hit. Apply Frostbite to the enemy, dealing X Magic DMG equal to 25% of your Magic ATK. This effect wears off after being hit X times, including this attack.'
+          },
+          {
+            'rank': 3,
+            'sp': 3,
+            'value': null,
+            'turns': null,
+            'text': 'Attack the enemy 2 times, dealing X Magic DMG equal to X% of your Magic ATK per hit. Apply Frostbite to the enemy, dealing X Magic DMG equal to X% of your Magic ATK. This effect wears off after being hit X times, including this attack.'
+          },
+          {
+            'rank': 4,
+            'sp': 3,
+            'value': 25,
+            'turns': 8,
+            'text': 'Attack the enemy 2 times, dealing X Magic DMG equal to 25% of your Magic ATK per hit. Apply Frostbite to the enemy, dealing X Magic DMG equal to 25% of your Magic ATK. This effect wears off after being hit X times, including this attack.'
+          },
+          {
+            'rank': 5,
+            'sp': 3,
+            'value': null,
+            'turns': null,
+            'text': 'Attack the enemy 2 times, dealing X Magic DMG equal to X% of your Magic ATK per hit. Apply Frostbite to the enemy, dealing X Magic DMG equal to X% of your Magic ATK. This effect wears off after being hit X times, including this attack.'
+          }
+        ],
+        'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillicons/v2/skillicon_77.webp'
+      }
+    ],
+    'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/63301/icon.webp',
+    'body': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/63301/body.webp',
+    'skillCard': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillart/063301.webp'
+  },
+  {
+    'id': 63401,
+    'slug': 'healer-julie',
+    'name': 'Healer',
+    'nameJp': '回復師',
+    'nameKr': '회복사',
+    'charSlug': 'julie',
+    'charName': 'Julie',
+    'element': 2,
+    'grade': 3,
+    'vaJp': 'Ran Haruka',
+    'talent': null,
+    'vaKr': 'Kim Yun-chae',
+    'maxLevel': 5,
+    'skills': [
+      {
+        'name': 'Regeneration Bestowal',
+        'desc': 'Heal allies for X at the end of each turn for X turn(s), equal to 25% of your Magic ATK.',
+        'cooldown': 7,
+        'tiers': [
+          {
+            'rank': 0,
+            'sp': 3,
+            'value': 25,
+            'turns': null,
+            'text': 'Heal allies for X at the end of each turn for X turn(s), equal to 25% of your Magic ATK.'
+          },
+          {
+            'rank': 1,
+            'sp': 3,
+            'value': 25,
+            'turns': null,
+            'text': 'Heal allies for X at the end of each turn for X turn(s), equal to 25% of your Magic ATK.'
+          },
+          {
+            'rank': 2,
+            'sp': 3,
+            'value': 30,
+            'turns': null,
+            'text': 'Heal allies for X at the end of each turn for X turn(s), equal to 30% of your Magic ATK.'
+          },
+          {
+            'rank': 3,
+            'sp': 2,
+            'value': 30,
+            'turns': null,
+            'text': 'Heal allies for X at the end of each turn for X turn(s), equal to 30% of your Magic ATK.'
+          },
+          {
+            'rank': 4,
+            'sp': 2,
+            'value': 40,
+            'turns': null,
+            'text': 'Heal allies for X at the end of each turn for X turn(s), equal to 40% of your Magic ATK.'
+          },
+          {
+            'rank': 5,
+            'sp': 2,
+            'value': 55,
+            'turns': null,
+            'text': 'Heal allies for X at the end of each turn for X turn(s), equal to 55% of your Magic ATK.'
+          }
+        ],
+        'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillicons/v2/skillicon_78.webp'
+      }
+    ],
+    'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/63401/icon.webp',
+    'body': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/63401/body.webp',
+    'skillCard': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillart/063401.webp'
+  },
+  {
+    'id': 64701,
+    'slug': 'the-mercenary-knight-carlson',
+    'name': 'The Mercenary Knight',
+    'nameJp': '傭兵騎士',
+    'nameKr': '용병 기사',
+    'charSlug': 'carlson',
+    'charName': 'Carlson',
+    'element': 0,
+    'grade': 3,
+    'vaJp': 'Joe Ninomiya',
+    'talent': null,
+    'vaKr': 'Kim Ji-yul',
+    'maxLevel': 5,
+    'skills': [
+      {
+        'name': 'Unbreakable Will',
+        'desc': 'Apply a X% Barrier (Physical) to yourself for X turn(s).',
+        'cooldown': 7,
+        'tiers': [
+          {
+            'rank': 0,
+            'sp': 3,
+            'value': 0,
+            'turns': null,
+            'text': 'Apply a X% Barrier (Physical) to yourself for X turn(s).'
+          },
+          {
+            'rank': 1,
+            'sp': 3,
+            'value': 0,
+            'turns': null,
+            'text': 'Apply a X% Barrier (Physical) to yourself for X turn(s).'
+          },
+          {
+            'rank': 2,
+            'sp': 3,
+            'value': 0,
+            'turns': null,
+            'text': 'Apply a X% Barrier (Physical) to yourself for X turn(s).'
+          },
+          {
+            'rank': 3,
+            'sp': 2,
+            'value': 0,
+            'turns': null,
+            'text': 'Apply a X% Barrier (Physical) to yourself for X turn(s).'
+          },
+          {
+            'rank': 4,
+            'sp': 2,
+            'value': 1,
+            'turns': null,
+            'text': 'Apply a X% Barrier (Physical) to yourself for X turn(s).'
+          },
+          {
+            'rank': 5,
+            'sp': 2,
+            'value': 1,
+            'turns': null,
+            'text': 'Apply a X% Barrier (Physical) to yourself for X turn(s).'
+          }
+        ],
+        'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillicons/v2/skillicon_81.webp'
+      }
+    ],
+    'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/64701/icon.webp',
+    'body': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/64701/body.webp'
+  },
+  {
+    'id': 64801,
+    'slug': 'apprentice-spearman-lydia',
+    'name': 'Apprentice Spearman',
+    'nameJp': '見習い槍兵',
+    'nameKr': '견습 창병',
+    'charSlug': 'lydia',
+    'charName': 'Lydia',
+    'element': 0,
+    'grade': 3,
+    'vaJp': 'Kurea Yamaguchi',
+    'talent': null,
+    'vaKr': 'Park Shi-yoon',
+    'maxLevel': 5,
+    'skills': [
+      {
+        'name': 'Spear Throw',
+        'desc': 'Deal X Physical DMG to the enemy equal to 200% of your ATK.',
+        'cooldown': 7,
+        'tiers': [
+          {
+            'rank': 0,
+            'sp': 4,
+            'value': 200,
+            'turns': null,
+            'text': 'Deal X Physical DMG to the enemy equal to 200% of your ATK.'
+          },
+          {
+            'rank': 1,
+            'sp': 4,
+            'value': 200,
+            'turns': null,
+            'text': 'Deal X Physical DMG to the enemy equal to 200% of your ATK.'
+          },
+          {
+            'rank': 2,
+            'sp': 4,
+            'value': 225,
+            'turns': null,
+            'text': 'Deal X Physical DMG to the enemy equal to 225% of your ATK.'
+          },
+          {
+            'rank': 3,
+            'sp': 3,
+            'value': 225,
+            'turns': null,
+            'text': 'Deal X Physical DMG to the enemy equal to 225% of your ATK.'
+          },
+          {
+            'rank': 4,
+            'sp': 3,
+            'value': 275,
+            'turns': null,
+            'text': 'Deal X Physical DMG to the enemy equal to 275% of your ATK.'
+          },
+          {
+            'rank': 5,
+            'sp': 3,
+            'value': 350,
+            'turns': null,
+            'text': 'Deal X Physical DMG to the enemy equal to 350% of your ATK.'
+          }
+        ],
+        'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillicons/v2/skillicon_82.webp'
+      }
+    ],
+    'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/64801/icon.webp',
+    'body': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/64801/body.webp'
+  },
+  {
+    'id': 64901,
+    'slug': 'little-hunter-rigenette',
+    'name': 'Little Hunter',
+    'nameJp': 'チビ狩人',
+    'nameKr': '꼬마 사냥꾼',
+    'charSlug': 'rigenette',
+    'charName': 'Rigenette',
+    'element': 2,
+    'grade': 3,
+    'vaJp': 'Kana Hanaiwa',
+    'talent': {
+      'name': 'Steal',
+      'mark': '0',
+      'skills': [
+        {
+          'name': 'I\'ll borrow this for a while~',
+          'desc': 'You can steal item(s) from the target NPC.',
+          'value': null,
+          'catalyst': 1,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_1_s.webp'
+        },
+        {
+          'name': 'I\'ll borrow this for a while~',
+          'desc': 'You can steal item(s) from the target NPC.',
+          'value': null,
+          'catalyst': 2,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_1_s.webp'
+        },
+        {
+          'name': 'I\'ll borrow this for a while~',
+          'desc': 'You can steal item(s) from the target NPC.',
+          'value': null,
+          'catalyst': 3,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_1_s.webp'
+        },
+        {
+          'name': 'I\'ll borrow this for a while~',
+          'desc': 'You can steal item(s) from the target NPC.',
+          'value': null,
+          'catalyst': 4,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_1_s.webp'
+        }
+      ]
+    },
+    'vaKr': 'Lee Eun-jo',
+    'maxLevel': 5,
+    'skills': [
+      {
+        'name': 'The next target is you!',
+        'desc': 'Attack the enemy 2 times, dealing X Physical DMG equal to 35% of your ATK per hit. Apply Concentrated Fire to the enemy for 4 turn(s).',
+        'cooldown': 7,
+        'tiers': [
+          {
+            'rank': 0,
+            'sp': 2,
+            'value': 35,
+            'turns': 4,
+            'text': 'Attack the enemy 2 times, dealing X Physical DMG equal to 35% of your ATK per hit. Apply Concentrated Fire to the enemy for 4 turn(s).'
+          },
+          {
+            'rank': 1,
+            'sp': 2,
+            'value': null,
+            'turns': null,
+            'text': 'Attack the enemy 2 times, dealing X Physical DMG equal to X% of your ATK per hit. Apply Concentrated Fire to the enemy for X turn(s).'
+          },
+          {
+            'rank': 2,
+            'sp': 2,
+            'value': 60,
+            'turns': 4,
+            'text': 'Attack the enemy 2 times, dealing X Physical DMG equal to 60% of your ATK per hit. Apply Concentrated Fire to the enemy for 4 turn(s).'
+          },
+          {
+            'rank': 3,
+            'sp': 1,
+            'value': null,
+            'turns': null,
+            'text': 'Attack the enemy 2 times, dealing X Physical DMG equal to X% of your ATK per hit. Apply Concentrated Fire to the enemy for X turn(s).'
+          },
+          {
+            'rank': 4,
+            'sp': 1,
+            'value': 110,
+            'turns': 4,
+            'text': 'Attack the enemy 2 times, dealing X Physical DMG equal to 110% of your ATK per hit. Apply Concentrated Fire to the enemy for 4 turn(s).'
+          },
+          {
+            'rank': 5,
+            'sp': 1,
+            'value': null,
+            'turns': null,
+            'text': 'Attack the enemy 2 times, dealing X Physical DMG equal to X% of your ATK per hit. Apply Concentrated Fire to the enemy for X turn(s).'
+          }
+        ],
+        'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillicons/v2/skillicon_83.webp'
+      }
+    ],
+    'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/64901/icon.webp',
+    'body': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/64901/body.webp'
+  },
+  {
+    'id': 65001,
+    'slug': 'the-mighty-warrior-of-the-tribe-beatrice',
+    'name': 'The Mighty Warrior of the Tribe',
+    'nameJp': '部族の大戦士',
+    'nameKr': '부족의 대전사',
+    'charSlug': 'beatrice',
+    'charName': 'Beatrice',
+    'element': 1,
+    'grade': 3,
+    'vaJp': 'Haruka Kinugasa',
+    'talent': null,
+    'vaKr': 'Jung Yu-jung',
+    'maxLevel': 5,
+    'skills': [
+      {
+        'name': 'I\'ll Beat You!',
+        'desc': 'Attack the enemy 2 times, dealing X Fixed DMG (Physical) equal to 125% of your ATK per hit.',
+        'cooldown': 7,
+        'tiers': [
+          {
+            'rank': 0,
+            'sp': 4,
+            'value': 125,
+            'turns': null,
+            'text': 'Attack the enemy 2 times, dealing X Fixed DMG (Physical) equal to 125% of your ATK per hit.'
+          },
+          {
+            'rank': 1,
+            'sp': 4,
+            'value': 125,
+            'turns': null,
+            'text': 'Attack the enemy 2 times, dealing X Fixed DMG (Physical) equal to 125% of your ATK per hit.'
+          },
+          {
+            'rank': 2,
+            'sp': 4,
+            'value': 150,
+            'turns': null,
+            'text': 'Attack the enemy 2 times, dealing X Fixed DMG (Physical) equal to 150% of your ATK per hit.'
+          },
+          {
+            'rank': 3,
+            'sp': 3,
+            'value': 150,
+            'turns': null,
+            'text': 'Attack the enemy 2 times, dealing X Fixed DMG (Physical) equal to 150% of your ATK per hit.'
+          },
+          {
+            'rank': 4,
+            'sp': 3,
+            'value': 175,
+            'turns': null,
+            'text': 'Attack the enemy 2 times, dealing X Fixed DMG (Physical) equal to 175% of your ATK per hit.'
+          },
+          {
+            'rank': 5,
+            'sp': 3,
+            'value': 225,
+            'turns': null,
+            'text': 'Attack the enemy 2 times, dealing X Fixed DMG (Physical) equal to 225% of your ATK per hit.'
+          }
+        ],
+        'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillicons/v2/skillicon_84.webp'
+      }
+    ],
+    'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/65001/icon.webp',
+    'body': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/65001/body.webp'
+  },
+  {
+    'id': 65102,
+    'slug': 'whitebolt-yuri',
+    'name': 'Whitebolt',
+    'nameJp': '白雷',
+    'nameKr': '백뢰',
+    'charSlug': 'yuri',
+    'charName': 'Yuri',
+    'element': 3,
+    'grade': 5,
+    'vaJp': 'Mizuki Kitajima',
+    'talent': null,
+    'vaKr': 'Sa Moonyoung',
+    'maxLevel': 5,
+    'skills': [
+      {
+        'name': 'Becoming Lightning',
+        'desc': 'Apply [13[ stacks of an effect that increases your ATK by [6[% for [5[ turn(s). This can increase to a maximum of [15[ stacks. Attack the enemy 4 times, dealing X Physical DMG equal to X% of your ATK per hit. Remove Buffs from the enemy.',
+        'cooldown': 5,
+        'tiers': [
+          {
+            'rank': 0,
+            'sp': 4,
+            'value': null,
+            'turns': null,
+            'text': 'Apply [13[ stacks of an effect that increases your ATK by [6[% for [5[ turn(s). This can increase to a maximum of [15[ stacks. Attack the enemy 4 times, dealing X Physical DMG equal to X% of your ATK per hit. Remove Buffs from the enemy.'
+          },
+          {
+            'rank': 1,
+            'sp': 3,
+            'value': null,
+            'turns': null,
+            'text': 'Apply [13[ stacks of an effect that increases your ATK by [6[% for [5[ turn(s). This can increase to a maximum of [15[ stacks. Attack the enemy 4 times, dealing X Physical DMG equal to X% of your ATK per hit. Remove Buffs from the enemy.'
+          },
+          {
+            'rank': 2,
+            'sp': 3,
+            'value': null,
+            'turns': null,
+            'text': 'Apply [13[ stacks of an effect that increases your ATK by [6[% for [5[ turn(s). This can increase to a maximum of [15[ stacks. Attack the enemy 4 times, dealing X Physical DMG equal to X% of your ATK per hit. Remove Buffs from the enemy.'
+          },
+          {
+            'rank': 3,
+            'sp': 3,
+            'value': null,
+            'turns': null,
+            'text': 'Apply [13[ stacks of an effect that increases your ATK by [6[% for [5[ turn(s). This can increase to a maximum of [15[ stacks. Attack the enemy 4 times, dealing X Physical DMG equal to X% of your ATK per hit. Remove Buffs from the enemy.'
+          },
+          {
+            'rank': 4,
+            'sp': 3,
+            'value': null,
+            'turns': null,
+            'text': 'Apply [13[ stacks of an effect that increases your ATK by [6[% for [5[ turn(s). This can increase to a maximum of [15[ stacks. Attack the enemy 4 times, dealing X Physical DMG equal to X% of your ATK per hit. Remove Buffs from the enemy.'
+          },
+          {
+            'rank': 5,
+            'sp': 3,
+            'value': null,
+            'turns': null,
+            'text': 'Apply [13[ stacks of an effect that increases your ATK by [6[% for [5[ turn(s). This can increase to a maximum of [15[ stacks. Attack the enemy 4 times, dealing X Physical DMG equal to X% of your ATK per hit. Remove Buffs from the enemy.'
+          }
+        ],
+        'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillicons/v2/skillicon_101.webp'
+      }
+    ],
+    'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/65102/icon.webp',
+    'body': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/65102/body.webp',
+    'skillCard': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillart/065102.webp'
+  },
+  {
+    'id': 65103,
+    'slug': 'comeback-idol-yuri',
+    'name': 'Comeback Idol',
+    'nameJp': 'カムバックアイドル',
+    'nameKr': '컴백 아이돌',
+    'charSlug': 'yuri',
+    'charName': 'Yuri',
+    'element': 3,
+    'grade': 5,
+    'vaJp': 'Mizuki Kitajima',
+    'talent': null,
+    'vaKr': 'Lee Seul',
+    'maxLevel': 5,
+    'skills': [
+      {
+        'name': 'Fluttering Heart... Bang!',
+        'desc': 'Apply X stacks of an effect that increases your Crit DMG by X% for X turn(s). Can stack up to X times. Apply Target Avoidance to yourself for [5[ turn(s). Deal X Physical DMG to the enemy equal to X% of your ATK.',
+        'cooldown': 5,
+        'tiers': [
+          {
+            'rank': 0,
+            'sp': 4,
+            'value': null,
+            'turns': null,
+            'text': 'Apply X stacks of an effect that increases your Crit DMG by X% for X turn(s). Can stack up to X times. Apply Target Avoidance to yourself for [5[ turn(s). Deal X Physical DMG to the enemy equal to X% of your ATK.'
+          },
+          {
+            'rank': 1,
+            'sp': 3,
+            'value': null,
+            'turns': null,
+            'text': 'Apply X stacks of an effect that increases your Crit DMG by X% for X turn(s). Can stack up to X times. Apply Target Avoidance to yourself for [5[ turn(s). Deal X Physical DMG to the enemy equal to X% of your ATK.'
+          },
+          {
+            'rank': 2,
+            'sp': 3,
+            'value': null,
+            'turns': null,
+            'text': 'Apply X stacks of an effect that increases your Crit DMG by X% for X turn(s). Can stack up to X times. Apply Target Avoidance to yourself for [5[ turn(s). Deal X Physical DMG to the enemy equal to X% of your ATK.'
+          },
+          {
+            'rank': 3,
+            'sp': 3,
+            'value': null,
+            'turns': null,
+            'text': 'Apply X stacks of an effect that increases your Crit DMG by X% for X turn(s). Can stack up to X times. Apply Target Avoidance to yourself for [5[ turn(s). Deal X Physical DMG to the enemy equal to X% of your ATK.'
+          },
+          {
+            'rank': 4,
+            'sp': 3,
+            'value': null,
+            'turns': null,
+            'text': 'Apply X stacks of an effect that increases your Crit DMG by X% for X turn(s). Can stack up to X times. Apply Target Avoidance to yourself for [5[ turn(s). Deal X Physical DMG to the enemy equal to X% of your ATK.'
+          },
+          {
+            'rank': 5,
+            'sp': 3,
+            'value': null,
+            'turns': null,
+            'text': 'Apply X stacks of an effect that increases your Crit DMG by X% for X turn(s). Can stack up to X times. Apply Target Avoidance to yourself for [5[ turn(s). Deal X Physical DMG to the enemy equal to X% of your ATK.'
+          }
+        ],
+        'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillicons/v2/skillicon_106.webp'
+      }
+    ],
+    'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/65103/icon.webp',
+    'body': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/65103/body.webp',
+    'skillCard': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillart/065103.webp'
+  },
+  {
+    'id': 65802,
+    'slug': 'anonymous-sage-nartas',
+    'name': 'Anonymous Sage',
+    'nameJp': '名も無き道士',
+    'nameKr': '무명도사',
+    'charSlug': 'nartas',
+    'charName': 'Nartas',
+    'element': 4,
+    'grade': 5,
+    'vaJp': 'Masaya Miyazaki',
+    'talent': null,
+    'vaKr': 'Min Seung-woo',
+    'maxLevel': 5,
+    'skills': [
+      {
+        'name': 'Half-Demon Divine Palm',
+        'desc': 'Apply a X% Barrier (Magic) to yourself for 4 turn(s). Deal X Magic DMG to the enemy equal to 300% of your Magic ATK. If the enemy is a Physical Type, deal &1& Magic DMG equal to &6&% of your Magic ATK instead.',
+        'cooldown': 1,
+        'tiers': [
+          {
+            'rank': 0,
+            'sp': 5,
+            'value': 300,
+            'turns': 4,
+            'text': 'Apply a X% Barrier (Magic) to yourself for 4 turn(s). Deal X Magic DMG to the enemy equal to 300% of your Magic ATK. If the enemy is a Physical Type, deal &1& Magic DMG equal to &6&% of your Magic ATK instead.'
+          },
+          {
+            'rank': 1,
+            'sp': 5,
+            'value': null,
+            'turns': null,
+            'text': 'Apply a X% Barrier (Magic) to yourself for X turn(s). Deal X Magic DMG to the enemy equal to X% of your Magic ATK. If the enemy is a Physical Type, deal &1& Magic DMG equal to &6&% of your Magic ATK instead.'
+          },
+          {
+            'rank': 2,
+            'sp': 5,
+            'value': 350,
+            'turns': 4,
+            'text': 'Apply a X% Barrier (Magic) to yourself for 4 turn(s). Deal X Magic DMG to the enemy equal to 350% of your Magic ATK. If the enemy is a Physical Type, deal &1& Magic DMG equal to &6&% of your Magic ATK instead.'
+          },
+          {
+            'rank': 3,
+            'sp': 5,
+            'value': null,
+            'turns': null,
+            'text': 'Apply a X% Barrier (Magic) to yourself for X turn(s). Deal X Magic DMG to the enemy equal to X% of your Magic ATK. If the enemy is a Physical Type, deal &1& Magic DMG equal to &6&% of your Magic ATK instead.'
+          },
+          {
+            'rank': 4,
+            'sp': 5,
+            'value': 400,
+            'turns': 4,
+            'text': 'Apply a X% Barrier (Magic) to yourself for 4 turn(s). Deal X Magic DMG to the enemy equal to 400% of your Magic ATK. If the enemy is a Physical Type, deal &1& Magic DMG equal to &6&% of your Magic ATK instead.'
+          },
+          {
+            'rank': 5,
+            'sp': 5,
+            'value': null,
+            'turns': null,
+            'text': 'Apply a X% Barrier (Magic) to yourself for X turn(s). Deal X Magic DMG to the enemy equal to X% of your Magic ATK. If the enemy is a Physical Type, deal &1& Magic DMG equal to &6&% of your Magic ATK instead.'
+          }
+        ],
+        'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillicons/v2/skillicon_99.webp'
+      }
+    ],
+    'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/65802/icon.webp',
+    'body': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/65802/body.webp',
+    'skillCard': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillart/065802.webp'
+  },
+  {
+    'id': 66401,
+    'slug': 'the-fallen-angelica',
+    'name': 'The Fallen',
+    'nameJp': '堕落の星',
+    'nameKr': '타락의 별',
+    'charSlug': 'angelica',
+    'charName': 'Angelica',
+    'element': 3,
+    'grade': 5,
+    'vaJp': 'Hana Hishikawa',
+    'talent': null,
+    'vaKr': 'Lee Hyeon-jin',
+    'maxLevel': 5,
+    'skills': [
+      {
+        'name': 'Corrupted Divine Retribution',
+        'desc': 'Apply a X% Barrier to yourself for 2 turn(s). Attack the enemy ~18~ times, dealing Magic DMG equal to X% of the enemy\'s Max HP per hit.',
+        'cooldown': 5,
+        'tiers': [
+          {
+            'rank': 0,
+            'sp': 3,
+            'value': 45,
+            'turns': 2,
+            'text': 'Apply a X% Barrier to yourself for 2 turn(s). Attack the enemy ~18~ times, dealing Magic DMG equal to X% of the enemy\'s Max HP per hit.'
+          },
+          {
+            'rank': 1,
+            'sp': 3,
+            'value': null,
+            'turns': null,
+            'text': 'Apply a X% Barrier to yourself for X turn(s). Attack the enemy ~18~ times, dealing Magic DMG equal to X% of the enemy\'s Max HP per hit.'
+          },
+          {
+            'rank': 2,
+            'sp': 3,
+            'value': 64,
+            'turns': 2,
+            'text': 'Apply a X% Barrier to yourself for 2 turn(s). Attack the enemy ~18~ times, dealing Magic DMG equal to X% of the enemy\'s Max HP per hit.'
+          },
+          {
+            'rank': 3,
+            'sp': 2,
+            'value': null,
+            'turns': null,
+            'text': 'Apply a X% Barrier to yourself for X turn(s). Attack the enemy ~18~ times, dealing Magic DMG equal to X% of the enemy\'s Max HP per hit.'
+          },
+          {
+            'rank': 4,
+            'sp': 2,
+            'value': 72,
+            'turns': 2,
+            'text': 'Apply a X% Barrier to yourself for 2 turn(s). Attack the enemy ~18~ times, dealing Magic DMG equal to X% of the enemy\'s Max HP per hit.'
+          },
+          {
+            'rank': 5,
+            'sp': 2,
+            'value': null,
+            'turns': null,
+            'text': 'Apply a X% Barrier to yourself for X turn(s). Attack the enemy ~18~ times, dealing Magic DMG equal to X% of the enemy\'s Max HP per hit.'
+          }
+        ],
+        'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillicons/v2/skillicon_90.webp'
+      }
+    ],
+    'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/66401/icon.webp',
+    'body': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/66401/body.webp',
+    'skillCard': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillart/066401.webp'
+  },
+  {
+    'id': 66402,
+    'slug': 'pool-party-angelica',
+    'name': 'Pool Party',
+    'nameJp': 'プールパーティ',
+    'nameKr': '풀 파티',
+    'charSlug': 'angelica',
+    'charName': 'Angelica',
+    'element': 3,
+    'grade': 5,
+    'vaJp': 'Hana Hishikawa',
+    'talent': null,
+    'vaKr': 'Lee Hyeon-jin',
+    'maxLevel': 5,
+    'skills': [
+      {
+        'name': 'Sacred Swing',
+        'desc': 'Apply a X% Barrier to yourself for 2 turn(s). Attack the enemy 3 times, dealing Magic DMG equal to X% of their Max HP per hit.',
+        'cooldown': 5,
+        'tiers': [
+          {
+            'rank': 0,
+            'sp': 5,
+            'value': 15,
+            'turns': 2,
+            'text': 'Apply a X% Barrier to yourself for 2 turn(s). Attack the enemy 3 times, dealing Magic DMG equal to X% of their Max HP per hit.'
+          },
+          {
+            'rank': 1,
+            'sp': 5,
+            'value': null,
+            'turns': null,
+            'text': 'Apply a X% Barrier to yourself for X turn(s). Attack the enemy 3 times, dealing Magic DMG equal to X% of their Max HP per hit.'
+          },
+          {
+            'rank': 2,
+            'sp': 5,
+            'value': 21,
+            'turns': 2,
+            'text': 'Apply a X% Barrier to yourself for 2 turn(s). Attack the enemy 3 times, dealing Magic DMG equal to X% of their Max HP per hit.'
+          },
+          {
+            'rank': 3,
+            'sp': 4,
+            'value': null,
+            'turns': null,
+            'text': 'Apply a X% Barrier to yourself for X turn(s). Attack the enemy 3 times, dealing Magic DMG equal to X% of their Max HP per hit.'
+          },
+          {
+            'rank': 4,
+            'sp': 4,
+            'value': 23,
+            'turns': 2,
+            'text': 'Apply a X% Barrier to yourself for 2 turn(s). Attack the enemy 3 times, dealing Magic DMG equal to X% of their Max HP per hit.'
+          },
+          {
+            'rank': 5,
+            'sp': 4,
+            'value': null,
+            'turns': null,
+            'text': 'Apply a X% Barrier to yourself for X turn(s). Attack the enemy 3 times, dealing Magic DMG equal to X% of their Max HP per hit.'
+          }
+        ],
+        'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillicons/v2/skillicon_91.webp'
+      }
+    ],
+    'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/66402/icon.webp',
+    'body': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/66402/body.webp',
+    'skillCard': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillart/066402.webp'
+  },
+  {
+    'id': 66403,
+    'slug': 'neon-savior-angelica',
+    'name': 'Neon Savior',
+    'nameJp': 'ネオン・セイヴァー',
+    'nameKr': '네온 세이비어',
+    'charSlug': 'angelica',
+    'charName': 'Angelica',
+    'element': 3,
+    'grade': 5,
+    'vaJp': 'Hana Hishikawa',
+    'talent': null,
+    'vaKr': 'Kim Soo-young',
+    'maxLevel': 5,
+    'skills': [
+      {
+        'name': 'Jormun Reverse Mode',
+        'desc': 'Apply a [6[% Barrier to yourself for [5[ turn(s). Deal Magic DMG to the enemy equal to X% of their Max HP. Apply Rot to the enemy for X turn(s), dealing Magic DMG equal to X% of their MAX HP. This can increase to a maximum of X stacks.',
+        'cooldown': 5,
+        'tiers': [
+          {
+            'rank': 0,
+            'sp': 6,
+            'value': null,
+            'turns': null,
+            'text': 'Apply a [6[% Barrier to yourself for [5[ turn(s). Deal Magic DMG to the enemy equal to X% of their Max HP. Apply Rot to the enemy for X turn(s), dealing Magic DMG equal to X% of their MAX HP. This can increase to a maximum of X stacks.'
+          },
+          {
+            'rank': 1,
+            'sp': 6,
+            'value': null,
+            'turns': null,
+            'text': 'Apply a [6[% Barrier to yourself for [5[ turn(s). Deal Magic DMG to the enemy equal to X% of their Max HP. Apply Rot to the enemy for X turn(s), dealing Magic DMG equal to X% of their MAX HP. This can increase to a maximum of X stacks.'
+          },
+          {
+            'rank': 2,
+            'sp': 6,
+            'value': null,
+            'turns': null,
+            'text': 'Apply a [6[% Barrier to yourself for [5[ turn(s). Deal Magic DMG to the enemy equal to X% of their Max HP. Apply Rot to the enemy for X turn(s), dealing Magic DMG equal to X% of their MAX HP. This can increase to a maximum of X stacks.'
+          },
+          {
+            'rank': 3,
+            'sp': 5,
+            'value': null,
+            'turns': null,
+            'text': 'Apply a [6[% Barrier to yourself for [5[ turn(s). Deal Magic DMG to the enemy equal to X% of their Max HP. Apply Rot to the enemy for X turn(s), dealing Magic DMG equal to X% of their MAX HP. This can increase to a maximum of X stacks.'
+          },
+          {
+            'rank': 4,
+            'sp': 5,
+            'value': null,
+            'turns': null,
+            'text': 'Apply a [6[% Barrier to yourself for [5[ turn(s). Deal Magic DMG to the enemy equal to X% of their Max HP. Apply Rot to the enemy for X turn(s), dealing Magic DMG equal to X% of their MAX HP. This can increase to a maximum of X stacks.'
+          },
+          {
+            'rank': 5,
+            'sp': 5,
+            'value': null,
+            'turns': null,
+            'text': 'Apply a [6[% Barrier to yourself for [5[ turn(s). Deal Magic DMG to the enemy equal to X% of their Max HP. Apply Rot to the enemy for X turn(s), dealing Magic DMG equal to X% of their MAX HP. This can increase to a maximum of X stacks.'
+          }
+        ],
+        'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillicons/v2/skillicon_92.webp'
+      }
+    ],
+    'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/66403/icon.webp',
+    'body': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/66403/body.webp',
+    'skillCard': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillart/066403.webp'
+  },
+  {
+    'id': 66801,
+    'slug': 'the-gluttonous-refithea',
+    'name': 'The Gluttonous',
+    'nameJp': '貪欲の星',
+    'nameKr': '탐욕의 별',
+    'charSlug': 'refithea',
+    'charName': 'Refithea',
+    'element': 3,
+    'grade': 5,
+    'vaJp': 'Honoka Inoue',
+    'talent': {
+      'name': 'Assemble',
+      'mark': 'Talent_Buff028_Mark',
+      'skills': [
+        {
+          'name': 'Come on, Glutti!',
+          'desc': 'Assembles all field fiends located on the current map that give rewards.\\n● Daily limit: 3 times',
+          'value': [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          'catalyst': 2,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_28_s.webp'
+        },
+        {
+          'name': 'Come on, Glutti!',
+          'desc': 'Assembles all field fiends located on the current map that give rewards.\\n● Daily limit: 4 times',
+          'value': null,
+          'catalyst': 1,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_28_s.webp'
+        },
+        {
+          'name': 'Come on, Glutti!',
+          'desc': 'Assembles all field fiends located on the current map that give rewards.\\n● Daily limit: 5 times',
+          'value': null,
+          'catalyst': 1,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_28_s.webp'
+        },
+        {
+          'name': 'Come on, Glutti!',
+          'desc': 'Assembles all field fiends located on the current map that give rewards.\\n● Daily limit: 6 times',
+          'value': null,
+          'catalyst': 1,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_28_s.webp'
+        },
+        {
+          'name': 'Come on, Glutti!',
+          'desc': 'Assembles all field fiends located on the current map that give rewards.\\n● Daily limit: 7 times',
+          'value': null,
+          'catalyst': 1,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_28_s.webp'
+        }
+      ]
+    },
+    'vaKr': 'Lee Ji-hyeon',
+    'maxLevel': 5,
+    'skills': [
+      {
+        'name': 'Glutti Showtime!',
+        'desc': 'Ally Crit DMG is increased by X% for X turn(s). Apply an Aura to yourself for [5[ turn(s). Allies within the Aura gain a ]6]% Barrier. Restore X SP to allies.',
+        'cooldown': 7,
+        'tiers': [
+          {
+            'rank': 0,
+            'sp': 3,
+            'value': null,
+            'turns': null,
+            'text': 'Ally Crit DMG is increased by X% for X turn(s). Apply an Aura to yourself for [5[ turn(s). Allies within the Aura gain a ]6]% Barrier. Restore X SP to allies.'
+          },
+          {
+            'rank': 1,
+            'sp': 2,
+            'value': null,
+            'turns': null,
+            'text': 'Ally Crit DMG is increased by X% for X turn(s). Apply an Aura to yourself for [5[ turn(s). Allies within the Aura gain a ]6]% Barrier. Restore X SP to allies.'
+          },
+          {
+            'rank': 2,
+            'sp': 2,
+            'value': null,
+            'turns': null,
+            'text': 'Ally Crit DMG is increased by X% for X turn(s). Apply an Aura to yourself for [5[ turn(s). Allies within the Aura gain a ]6]% Barrier. Restore X SP to allies.'
+          },
+          {
+            'rank': 3,
+            'sp': 2,
+            'value': null,
+            'turns': null,
+            'text': 'Ally Crit DMG is increased by X% for X turn(s). Apply an Aura to yourself for [5[ turn(s). Allies within the Aura gain a ]6]% Barrier. Restore X SP to allies.'
+          },
+          {
+            'rank': 4,
+            'sp': 2,
+            'value': null,
+            'turns': null,
+            'text': 'Ally Crit DMG is increased by X% for X turn(s). Apply an Aura to yourself for [5[ turn(s). Allies within the Aura gain a ]6]% Barrier. Restore X SP to allies.'
+          },
+          {
+            'rank': 5,
+            'sp': 2,
+            'value': null,
+            'turns': null,
+            'text': 'Ally Crit DMG is increased by X% for X turn(s). Apply an Aura to yourself for [5[ turn(s). Allies within the Aura gain a ]6]% Barrier. Restore X SP to allies.'
+          }
+        ],
+        'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillicons/v2/skillicon_116.webp'
+      }
+    ],
+    'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/66801/icon.webp',
+    'body': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/66801/body.webp',
+    'skillCard': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillart/066801.webp'
+  },
+  {
+    'id': 66802,
+    'slug': 'pure-white-blessing-refithea',
+    'name': 'Pure White Blessing',
+    'nameJp': '純白の祝福',
+    'nameKr': '새하얀 축복',
+    'charSlug': 'refithea',
+    'charName': 'Refithea',
+    'element': 3,
+    'grade': 5,
+    'vaJp': 'Honoka Inoue',
+    'talent': {
+      'name': 'Assemble',
+      'mark': 'Talent_Buff028_Mark',
+      'skills': [
+        {
+          'name': 'Come on, Glutti!',
+          'desc': 'Assembles all field fiends located on the current map that give rewards.\\n● Daily limit: 3 times',
+          'value': [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          'catalyst': 2,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_28_s.webp'
+        },
+        {
+          'name': 'Come on, Glutti!',
+          'desc': 'Assembles all field fiends located on the current map that give rewards.\\n● Daily limit: 4 times',
+          'value': null,
+          'catalyst': 1,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_28_s.webp'
+        },
+        {
+          'name': 'Come on, Glutti!',
+          'desc': 'Assembles all field fiends located on the current map that give rewards.\\n● Daily limit: 5 times',
+          'value': null,
+          'catalyst': 1,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_28_s.webp'
+        },
+        {
+          'name': 'Come on, Glutti!',
+          'desc': 'Assembles all field fiends located on the current map that give rewards.\\n● Daily limit: 6 times',
+          'value': null,
+          'catalyst': 1,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_28_s.webp'
+        },
+        {
+          'name': 'Come on, Glutti!',
+          'desc': 'Assembles all field fiends located on the current map that give rewards.\\n● Daily limit: 7 times',
+          'value': null,
+          'catalyst': 1,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_28_s.webp'
+        }
+      ]
+    },
+    'vaKr': 'Lee Ji-hyeon',
+    'maxLevel': 5,
+    'skills': [
+      {
+        'name': 'Let\'s Be Happy Together!',
+        'desc': 'Ally Property DMG increases by X% for X turn(s). Apply X Chain Reinforcement to allies for X turn(s). Apply an Energy Guard ([1[) to allies equal to [6[% of their own Max HP for [5[ turn(s).',
+        'cooldown': 1,
+        'tiers': [
+          {
+            'rank': 0,
+            'sp': 3,
+            'value': null,
+            'turns': null,
+            'text': 'Ally Property DMG increases by X% for X turn(s). Apply X Chain Reinforcement to allies for X turn(s). Apply an Energy Guard ([1[) to allies equal to [6[% of their own Max HP for [5[ turn(s).'
+          },
+          {
+            'rank': 1,
+            'sp': 2,
+            'value': null,
+            'turns': null,
+            'text': 'Ally Property DMG increases by X% for X turn(s). Apply X Chain Reinforcement to allies for X turn(s). Apply an Energy Guard ([1[) to allies equal to [6[% of their own Max HP for [5[ turn(s).'
+          },
+          {
+            'rank': 2,
+            'sp': 2,
+            'value': null,
+            'turns': null,
+            'text': 'Ally Property DMG increases by X% for X turn(s). Apply X Chain Reinforcement to allies for X turn(s). Apply an Energy Guard ([1[) to allies equal to [6[% of their own Max HP for [5[ turn(s).'
+          },
+          {
+            'rank': 3,
+            'sp': 2,
+            'value': null,
+            'turns': null,
+            'text': 'Ally Property DMG increases by X% for X turn(s). Apply X Chain Reinforcement to allies for X turn(s). Apply an Energy Guard ([1[) to allies equal to [6[% of their own Max HP for [5[ turn(s).'
+          },
+          {
+            'rank': 4,
+            'sp': 2,
+            'value': null,
+            'turns': null,
+            'text': 'Ally Property DMG increases by X% for X turn(s). Apply X Chain Reinforcement to allies for X turn(s). Apply an Energy Guard ([1[) to allies equal to [6[% of their own Max HP for [5[ turn(s).'
+          },
+          {
+            'rank': 5,
+            'sp': 2,
+            'value': null,
+            'turns': null,
+            'text': 'Ally Property DMG increases by X% for X turn(s). Apply X Chain Reinforcement to allies for X turn(s). Apply an Energy Guard ([1[) to allies equal to [6[% of their own Max HP for [5[ turn(s).'
+          }
+        ],
+        'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillicons/v2/skillicon_117.webp'
+      }
+    ],
+    'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/66802/icon.webp',
+    'body': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/66802/body.webp',
+    'skillCard': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillart/066802.webp'
+  },
+  {
+    'id': 66803,
+    'slug': 'poolside-fairy-refithea',
+    'name': 'Poolside Fairy',
+    'nameJp': '水遊びの妖精',
+    'nameKr': '물놀이 요정',
+    'charSlug': 'refithea',
+    'charName': 'Refithea',
+    'element': 3,
+    'grade': 5,
+    'vaJp': 'Honoka Inoue',
+    'talent': {
+      'name': 'Assemble',
+      'mark': 'Talent_Buff028_Mark',
+      'skills': [
+        {
+          'name': 'Come on, Glutti!',
+          'desc': 'Assembles all field fiends located on the current map that give rewards.\\n● Daily limit: 3 times',
+          'value': [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          'catalyst': 2,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_28_s.webp'
+        },
+        {
+          'name': 'Come on, Glutti!',
+          'desc': 'Assembles all field fiends located on the current map that give rewards.\\n● Daily limit: 4 times',
+          'value': null,
+          'catalyst': 1,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_28_s.webp'
+        },
+        {
+          'name': 'Come on, Glutti!',
+          'desc': 'Assembles all field fiends located on the current map that give rewards.\\n● Daily limit: 5 times',
+          'value': null,
+          'catalyst': 1,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_28_s.webp'
+        },
+        {
+          'name': 'Come on, Glutti!',
+          'desc': 'Assembles all field fiends located on the current map that give rewards.\\n● Daily limit: 6 times',
+          'value': null,
+          'catalyst': 1,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_28_s.webp'
+        },
+        {
+          'name': 'Come on, Glutti!',
+          'desc': 'Assembles all field fiends located on the current map that give rewards.\\n● Daily limit: 7 times',
+          'value': null,
+          'catalyst': 1,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_28_s.webp'
+        }
+      ]
+    },
+    'vaKr': 'Lee Ji-hyeon',
+    'maxLevel': 5,
+    'skills': [
+      {
+        'name': 'Water Fight!',
+        'desc': 'Ally Property DMG is increased by X% for 6 turn(s). If the target has the Light Property, increase their Property DMG by &6&% for &5& turn(s) instead. Apply X SP Cost Reduction to allies for 6 turn(s).',
+        'cooldown': 7,
+        'tiers': [
+          {
+            'rank': 0,
+            'sp': 7,
+            'value': 25,
+            'turns': 6,
+            'text': 'Ally Property DMG is increased by X% for 6 turn(s). If the target has the Light Property, increase their Property DMG by &6&% for &5& turn(s) instead. Apply X SP Cost Reduction to allies for 6 turn(s).'
+          },
+          {
+            'rank': 1,
+            'sp': 6,
+            'value': null,
+            'turns': null,
+            'text': 'Ally Property DMG is increased by X% for X turn(s). If the target has the Light Property, increase their Property DMG by &6&% for &5& turn(s) instead. Apply X SP Cost Reduction to allies for X turn(s).'
+          },
+          {
+            'rank': 2,
+            'sp': 6,
+            'value': 30,
+            'turns': 6,
+            'text': 'Ally Property DMG is increased by X% for 6 turn(s). If the target has the Light Property, increase their Property DMG by &6&% for &5& turn(s) instead. Apply X SP Cost Reduction to allies for 6 turn(s).'
+          },
+          {
+            'rank': 3,
+            'sp': 6,
+            'value': null,
+            'turns': null,
+            'text': 'Ally Property DMG is increased by X% for X turn(s). If the target has the Light Property, increase their Property DMG by &6&% for &5& turn(s) instead. Apply X SP Cost Reduction to allies for X turn(s).'
+          },
+          {
+            'rank': 4,
+            'sp': 6,
+            'value': 35,
+            'turns': 8,
+            'text': 'Ally Property DMG is increased by X% for 8 turn(s). If the target has the Light Property, increase their Property DMG by &6&% for &5& turn(s) instead. Apply X SP Cost Reduction to allies for 8 turn(s).'
+          },
+          {
+            'rank': 5,
+            'sp': 6,
+            'value': null,
+            'turns': null,
+            'text': 'Ally Property DMG is increased by X% for X turn(s). If the target has the Light Property, increase their Property DMG by &6&% for &5& turn(s) instead. Apply X SP Cost Reduction to allies for X turn(s).'
+          }
+        ],
+        'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillicons/v2/skillicon_169.webp'
+      }
+    ],
+    'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/66803/icon.webp',
+    'body': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/66803/body.webp',
+    'skillCard': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillart/066803.webp'
+  },
+  {
+    'id': 66902,
+    'slug': 'alice-glacia',
+    'name': 'Alice',
+    'nameJp': 'アリス',
+    'nameKr': '앨리스',
+    'charSlug': 'glacia',
+    'charName': 'Glacia',
+    'element': 0,
+    'grade': 5,
+    'vaJp': 'Aika Wakuno',
+    'talent': null,
+    'vaKr': 'Park Shin-hee',
+    'maxLevel': 5,
+    'skills': [
+      {
+        'name': 'Eternal Tea Party',
+        'desc': 'Apply Taunt to yourself for X turn(s). Apply an Energy Guard (X) to yourself for X turn(s), equal to X% of your Magic ATK. Apply Revive to yourself for [5[ turn(s). Revive with [6[% HP upon Death and apply Taunt to yourself for ]5]turn(s).',
+        'cooldown': 7,
+        'tiers': [
+          {
+            'rank': 0,
+            'sp': 4,
+            'value': null,
+            'turns': null,
+            'text': 'Apply Taunt to yourself for X turn(s). Apply an Energy Guard (X) to yourself for X turn(s), equal to X% of your Magic ATK. Apply Revive to yourself for [5[ turn(s). Revive with [6[% HP upon Death and apply Taunt to yourself for ]5]turn(s).'
+          },
+          {
+            'rank': 1,
+            'sp': 4,
+            'value': null,
+            'turns': null,
+            'text': 'Apply Taunt to yourself for X turn(s). Apply an Energy Guard (X) to yourself for X turn(s), equal to X% of your Magic ATK. Apply Revive to yourself for [5[ turn(s). Revive with [6[% HP upon Death and apply Taunt to yourself for ]5]turn(s).'
+          },
+          {
+            'rank': 2,
+            'sp': 4,
+            'value': null,
+            'turns': null,
+            'text': 'Apply Taunt to yourself for X turn(s). Apply an Energy Guard (X) to yourself for X turn(s), equal to X% of your Magic ATK. Apply Revive to yourself for [5[ turn(s). Revive with [6[% HP upon Death and apply Taunt to yourself for ]5]turn(s).'
+          },
+          {
+            'rank': 3,
+            'sp': 3,
+            'value': null,
+            'turns': null,
+            'text': 'Apply Taunt to yourself for X turn(s). Apply an Energy Guard (X) to yourself for X turn(s), equal to X% of your Magic ATK. Apply Revive to yourself for [5[ turn(s). Revive with [6[% HP upon Death and apply Taunt to yourself for ]5]turn(s).'
+          },
+          {
+            'rank': 4,
+            'sp': 3,
+            'value': null,
+            'turns': null,
+            'text': 'Apply Taunt to yourself for X turn(s). Apply an Energy Guard (X) to yourself for X turn(s), equal to X% of your Magic ATK. Apply Revive to yourself for [5[ turn(s). Revive with [6[% HP upon Death and apply Taunt to yourself for ]5]turn(s).'
+          },
+          {
+            'rank': 5,
+            'sp': 3,
+            'value': null,
+            'turns': null,
+            'text': 'Apply Taunt to yourself for X turn(s). Apply an Energy Guard (X) to yourself for X turn(s), equal to X% of your Magic ATK. Apply Revive to yourself for [5[ turn(s). Revive with [6[% HP upon Death and apply Taunt to yourself for ]5]turn(s).'
+          }
+        ],
+        'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillicons/v2/skillicon_94.webp'
+      }
+    ],
+    'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/66902/icon.webp',
+    'body': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/66902/body.webp',
+    'skillCard': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillart/066902.webp'
+  },
+  {
+    'id': 66906,
+    'slug': 'disciplinary-committee-glacia',
+    'name': 'Disciplinary Committee',
+    'nameJp': '風紀委員会',
+    'nameKr': '선도부',
+    'charSlug': 'glacia',
+    'charName': 'Glacia',
+    'element': 0,
+    'grade': 5,
+    'vaJp': 'Aika Wakuno',
+    'talent': null,
+    'vaKr': 'Park Shin-hee',
+    'maxLevel': 5,
+    'skills': [
+      {
+        'name': 'Rules Are Non-Negotiable!',
+        'desc': 'Apply a X% Barrier (Magic) to yourself for 2 turn(s). Attack the enemy 3 times, dealing X Fixed DMG (Magic) equal to 200% of your Magic ATK per hit.',
+        'cooldown': 3,
+        'tiers': [
+          {
+            'rank': 0,
+            'sp': 3,
+            'value': 200,
+            'turns': 2,
+            'text': 'Apply a X% Barrier (Magic) to yourself for 2 turn(s). Attack the enemy 3 times, dealing X Fixed DMG (Magic) equal to 200% of your Magic ATK per hit.'
+          },
+          {
+            'rank': 1,
+            'sp': 2,
+            'value': null,
+            'turns': null,
+            'text': 'Apply a X% Barrier (Magic) to yourself for X turn(s). Attack the enemy 3 times, dealing X Fixed DMG (Magic) equal to X% of your Magic ATK per hit.'
+          },
+          {
+            'rank': 2,
+            'sp': 2,
+            'value': 230,
+            'turns': 2,
+            'text': 'Apply a X% Barrier (Magic) to yourself for 2 turn(s). Attack the enemy 3 times, dealing X Fixed DMG (Magic) equal to 230% of your Magic ATK per hit.'
+          },
+          {
+            'rank': 3,
+            'sp': 2,
+            'value': null,
+            'turns': null,
+            'text': 'Apply a X% Barrier (Magic) to yourself for X turn(s). Attack the enemy 3 times, dealing X Fixed DMG (Magic) equal to X% of your Magic ATK per hit.'
+          },
+          {
+            'rank': 4,
+            'sp': 2,
+            'value': 290,
+            'turns': 2,
+            'text': 'Apply a X% Barrier (Magic) to yourself for 2 turn(s). Attack the enemy 3 times, dealing X Fixed DMG (Magic) equal to 290% of your Magic ATK per hit.'
+          },
+          {
+            'rank': 5,
+            'sp': 2,
+            'value': null,
+            'turns': null,
+            'text': 'Apply a X% Barrier (Magic) to yourself for X turn(s). Attack the enemy 3 times, dealing X Fixed DMG (Magic) equal to X% of your Magic ATK per hit.'
+          }
+        ],
+        'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillicons/v2/skillicon_115.webp'
+      }
+    ],
+    'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/66906/icon.webp',
+    'body': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/66906/body.webp',
+    'skillCard': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillart/066906.webp'
+  },
+  {
+    'id': 66907,
+    'slug': 'heavenly-guardian-successor-glacia',
+    'name': 'Heavenly Guardian Successor',
+    'nameJp': '天守の継承者',
+    'nameKr': '천수의 계승자',
+    'charSlug': 'glacia',
+    'charName': 'Glacia',
+    'element': 0,
+    'grade': 5,
+    'vaJp': 'Aika Wakuno',
+    'talent': null,
+    'vaKr': 'Park Shin-hee',
+    'maxLevel': 5,
+    'skills': [
+      {
+        'name': 'True Dragon Manifest',
+        'desc': 'Attack the enemy 5 times, dealing X Fixed DMG (Magic) equal to 100% of your Magic ATK per hit. Apply X Chain Retention to the enemy for 4 turn(s).',
+        'cooldown': 3,
+        'tiers': [
+          {
+            'rank': 0,
+            'sp': 5,
+            'value': 100,
+            'turns': 4,
+            'text': 'Attack the enemy 5 times, dealing X Fixed DMG (Magic) equal to 100% of your Magic ATK per hit. Apply X Chain Retention to the enemy for 4 turn(s).'
+          },
+          {
+            'rank': 1,
+            'sp': 4,
+            'value': null,
+            'turns': null,
+            'text': 'Attack the enemy 5 times, dealing X Fixed DMG (Magic) equal to X% of your Magic ATK per hit. Apply X Chain Retention to the enemy for X turn(s).'
+          },
+          {
+            'rank': 2,
+            'sp': 4,
+            'value': 100,
+            'turns': 4,
+            'text': 'Attack the enemy 5 times, dealing X Fixed DMG (Magic) equal to 100% of your Magic ATK per hit. Apply X Chain Retention to the enemy for 4 turn(s).'
+          },
+          {
+            'rank': 3,
+            'sp': 4,
+            'value': null,
+            'turns': null,
+            'text': 'Attack the enemy 5 times, dealing X Fixed DMG (Magic) equal to X% of your Magic ATK per hit. Apply X Chain Retention to the enemy for X turn(s).'
+          },
+          {
+            'rank': 4,
+            'sp': 4,
+            'value': 120,
+            'turns': 4,
+            'text': 'Attack the enemy 5 times, dealing X Fixed DMG (Magic) equal to 120% of your Magic ATK per hit. Apply X Chain Retention to the enemy for 4 turn(s).'
+          },
+          {
+            'rank': 5,
+            'sp': 4,
+            'value': null,
+            'turns': null,
+            'text': 'Attack the enemy 5 times, dealing X Fixed DMG (Magic) equal to X% of your Magic ATK per hit. Apply X Chain Retention to the enemy for X turn(s).'
+          }
+        ],
+        'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillicons/v2/skillicon_205.webp'
+      }
+    ],
+    'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/66907/icon.webp',
+    'body': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/66907/body.webp',
+    'skillCard': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillart/066907.webp'
+  },
+  {
+    'id': 67002,
+    'slug': 'snow-white-ventana',
+    'name': 'Snow White',
+    'nameJp': 'スノーホワイト',
+    'nameKr': '백설',
+    'charSlug': 'ventana',
+    'charName': 'Ventana',
+    'element': 3,
+    'grade': 5,
+    'vaJp': 'Tanaka Tomomi',
+    'talent': null,
+    'vaKr': 'Moon Yoo-jeong',
+    'maxLevel': 5,
+    'skills': [
+      {
+        'name': 'End of Fairytale',
+        'desc': 'Deal X Physical DMG to the enemy equal to 200% of your ATK. If the enemy is in a Taunt or Concentrated Fire state, deal &1& Physical DMG equal to &6&% of your ATK instead.',
+        'cooldown': 3,
+        'tiers': [
+          {
+            'rank': 0,
+            'sp': 5,
+            'value': 200,
+            'turns': null,
+            'text': 'Deal X Physical DMG to the enemy equal to 200% of your ATK. If the enemy is in a Taunt or Concentrated Fire state, deal &1& Physical DMG equal to &6&% of your ATK instead.'
+          },
+          {
+            'rank': 1,
+            'sp': 5,
+            'value': 245,
+            'turns': null,
+            'text': 'Deal X Physical DMG to the enemy equal to 245% of your ATK. If the enemy is in a Taunt or Concentrated Fire state, deal &1& Physical DMG equal to &6&% of your ATK instead.'
+          },
+          {
+            'rank': 2,
+            'sp': 5,
+            'value': 285,
+            'turns': null,
+            'text': 'Deal X Physical DMG to the enemy equal to 285% of your ATK. If the enemy is in a Taunt or Concentrated Fire state, deal &1& Physical DMG equal to &6&% of your ATK instead.'
+          },
+          {
+            'rank': 3,
+            'sp': 4,
+            'value': 285,
+            'turns': null,
+            'text': 'Deal X Physical DMG to the enemy equal to 285% of your ATK. If the enemy is in a Taunt or Concentrated Fire state, deal &1& Physical DMG equal to &6&% of your ATK instead.'
+          },
+          {
+            'rank': 4,
+            'sp': 4,
+            'value': 320,
+            'turns': null,
+            'text': 'Deal X Physical DMG to the enemy equal to 320% of your ATK. If the enemy is in a Taunt or Concentrated Fire state, deal &1& Physical DMG equal to &6&% of your ATK instead.'
+          },
+          {
+            'rank': 5,
+            'sp': 4,
+            'value': 350,
+            'turns': null,
+            'text': 'Deal X Physical DMG to the enemy equal to 350% of your ATK. If the enemy is in a Taunt or Concentrated Fire state, deal &1& Physical DMG equal to &6&% of your ATK instead.'
+          }
+        ],
+        'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillicons/v2/skillicon_96.webp'
+      }
+    ],
+    'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/67002/icon.webp',
+    'body': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/67002/body.webp',
+    'skillCard': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillart/067002.webp'
+  },
+  {
+    'id': 67003,
+    'slug': 'comeback-idol-ventana',
+    'name': 'Comeback Idol',
+    'nameJp': 'カムバックアイドル',
+    'nameKr': '컴백 아이돌',
+    'charSlug': 'ventana',
+    'charName': 'Ventana',
+    'element': 3,
+    'grade': 5,
+    'vaJp': 'Tanaka Tomomi',
+    'talent': null,
+    'vaKr': 'Moon Yoo-jeong',
+    'maxLevel': 5,
+    'skills': [
+      {
+        'name': 'Idol Drive!',
+        'desc': 'Your ATK is increased by 50% for 4 turn(s). Deal X Physical DMG to the enemy equal to 400% of your ATK. If the enemy is in a Taunt or Concentrated Fire state, deal &1& Pure DMG (Physical) equal to &6&% of your ATK instead.',
+        'cooldown': 3,
+        'tiers': [
+          {
+            'rank': 0,
+            'sp': 5,
+            'value': 400,
+            'turns': 4,
+            'text': 'Your ATK is increased by 50% for 4 turn(s). Deal X Physical DMG to the enemy equal to 400% of your ATK. If the enemy is in a Taunt or Concentrated Fire state, deal &1& Pure DMG (Physical) equal to &6&% of your ATK instead.'
+          },
+          {
+            'rank': 1,
+            'sp': 5,
+            'value': null,
+            'turns': null,
+            'text': 'Your ATK is increased by X% for X turn(s). Deal X Physical DMG to the enemy equal to X% of your ATK. If the enemy is in a Taunt or Concentrated Fire state, deal &1& Pure DMG (Physical) equal to &6&% of your ATK instead.'
+          },
+          {
+            'rank': 2,
+            'sp': 5,
+            'value': 500,
+            'turns': 4,
+            'text': 'Your ATK is increased by 75% for 4 turn(s). Deal X Physical DMG to the enemy equal to 500% of your ATK. If the enemy is in a Taunt or Concentrated Fire state, deal &1& Pure DMG (Physical) equal to &6&% of your ATK instead.'
+          },
+          {
+            'rank': 3,
+            'sp': 5,
+            'value': null,
+            'turns': null,
+            'text': 'Your ATK is increased by X% for X turn(s). Deal X Physical DMG to the enemy equal to X% of your ATK. If the enemy is in a Taunt or Concentrated Fire state, deal &1& Pure DMG (Physical) equal to &6&% of your ATK instead.'
+          },
+          {
+            'rank': 4,
+            'sp': 5,
+            'value': 600,
+            'turns': 4,
+            'text': 'Your ATK is increased by 100% for 4 turn(s). Deal X Physical DMG to the enemy equal to 600% of your ATK. If the enemy is in a Taunt or Concentrated Fire state, deal &1& Pure DMG (Physical) equal to &6&% of your ATK instead.'
+          },
+          {
+            'rank': 5,
+            'sp': 5,
+            'value': null,
+            'turns': null,
+            'text': 'Your ATK is increased by X% for X turn(s). Deal X Physical DMG to the enemy equal to X% of your ATK. If the enemy is in a Taunt or Concentrated Fire state, deal &1& Pure DMG (Physical) equal to &6&% of your ATK instead.'
+          }
+        ],
+        'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillicons/v2/skillicon_107.webp'
+      }
+    ],
+    'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/67003/icon.webp',
+    'body': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/67003/body.webp',
+    'skillCard': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillart/067003.webp'
+  },
+  {
+    'id': 67004,
+    'slug': 'onsen-practitioner-ventana',
+    'name': 'Onsen Practitioner',
+    'nameJp': '温泉修行人',
+    'nameKr': '온천 수행자',
+    'charSlug': 'ventana',
+    'charName': 'Ventana',
+    'element': 3,
+    'grade': 5,
+    'vaJp': 'Tanaka Tomomi',
+    'talent': null,
+    'vaKr': 'Moon Yoo-jeong',
+    'maxLevel': 5,
+    'skills': [
+      {
+        'name': 'Towel Blade Style: Point Breakthrough',
+        'desc': 'If the enemy is in a Taunt or Concentrated Fire state, apply a &6&% Light Vulnerability to the enemy for &5& turn(s). Deal X Physical DMG to the enemy equal to X% of your ATK.',
+        'cooldown': 7,
+        'tiers': [
+          {
+            'rank': 0,
+            'sp': 3,
+            'value': null,
+            'turns': null,
+            'text': 'If the enemy is in a Taunt or Concentrated Fire state, apply a &6&% Light Vulnerability to the enemy for &5& turn(s). Deal X Physical DMG to the enemy equal to X% of your ATK.'
+          },
+          {
+            'rank': 1,
+            'sp': 2,
+            'value': null,
+            'turns': null,
+            'text': 'If the enemy is in a Taunt or Concentrated Fire state, apply a &6&% Light Vulnerability to the enemy for &5& turn(s). Deal X Physical DMG to the enemy equal to X% of your ATK.'
+          },
+          {
+            'rank': 2,
+            'sp': 2,
+            'value': null,
+            'turns': null,
+            'text': 'If the enemy is in a Taunt or Concentrated Fire state, apply a &6&% Light Vulnerability to the enemy for &5& turn(s). Deal X Physical DMG to the enemy equal to X% of your ATK.'
+          },
+          {
+            'rank': 3,
+            'sp': 2,
+            'value': null,
+            'turns': null,
+            'text': 'If the enemy is in a Taunt or Concentrated Fire state, apply a &6&% Light Vulnerability to the enemy for &5& turn(s). Deal X Physical DMG to the enemy equal to X% of your ATK.'
+          },
+          {
+            'rank': 4,
+            'sp': 2,
+            'value': null,
+            'turns': null,
+            'text': 'If the enemy is in a Taunt or Concentrated Fire state, apply a &6&% Light Vulnerability to the enemy for &5& turn(s). Deal X Physical DMG to the enemy equal to X% of your ATK.'
+          },
+          {
+            'rank': 5,
+            'sp': 2,
+            'value': null,
+            'turns': null,
+            'text': 'If the enemy is in a Taunt or Concentrated Fire state, apply a &6&% Light Vulnerability to the enemy for &5& turn(s). Deal X Physical DMG to the enemy equal to X% of your ATK.'
+          }
+        ],
+        'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillicons/v2/skillicon_153.webp'
+      }
+    ],
+    'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/67004/icon.webp',
+    'body': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/67004/body.webp',
+    'skillCard': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillart/067004.webp'
+  },
+  {
+    'id': 67101,
+    'slug': 'the-void-granhildr',
+    'name': 'The Void',
+    'nameJp': '虚無の星',
+    'nameKr': '허무의 별',
+    'charSlug': 'granhildr',
+    'charName': 'Granhildr',
+    'element': 3,
+    'grade': 5,
+    'vaJp': 'Chiharu',
+    'talent': null,
+    'vaKr': 'Lee Gye-yoon',
+    'maxLevel': 5,
+    'skills': [
+      {
+        'name': 'Goddess\' Protection',
+        'desc': 'Preemptive ActionCounter whenever you receive an attack. Each Counter deals Physical DMG to the enemy, equal to 200% of the damage you received. This effect wears off after being hit X times.',
+        'cooldown': 5,
+        'tiers': [
+          {
+            'rank': 0,
+            'sp': 4,
+            'value': 200,
+            'turns': null,
+            'text': 'Preemptive ActionCounter whenever you receive an attack. Each Counter deals Physical DMG to the enemy, equal to 200% of the damage you received. This effect wears off after being hit X times.'
+          },
+          {
+            'rank': 1,
+            'sp': 4,
+            'value': 250,
+            'turns': null,
+            'text': 'Preemptive ActionCounter whenever you receive an attack. Each Counter deals Physical DMG to the enemy, equal to 250% of the damage you received. This effect wears off after being hit X times.'
+          },
+          {
+            'rank': 2,
+            'sp': 4,
+            'value': 250,
+            'turns': null,
+            'text': 'Preemptive ActionCounter whenever you receive an attack. Each Counter deals Physical DMG to the enemy, equal to 250% of the damage you received. This effect wears off after being hit X times.'
+          },
+          {
+            'rank': 3,
+            'sp': 4,
+            'value': 300,
+            'turns': null,
+            'text': 'Preemptive ActionCounter whenever you receive an attack. Each Counter deals Physical DMG to the enemy, equal to 300% of the damage you received. This effect wears off after being hit X times.'
+          },
+          {
+            'rank': 4,
+            'sp': 4,
+            'value': 350,
+            'turns': null,
+            'text': 'Preemptive ActionCounter whenever you receive an attack. Each Counter deals Physical DMG to the enemy, equal to 350% of the damage you received. This effect wears off after being hit X times.'
+          },
+          {
+            'rank': 5,
+            'sp': 4,
+            'value': 400,
+            'turns': null,
+            'text': 'Preemptive ActionCounter whenever you receive an attack. Each Counter deals Physical DMG to the enemy, equal to 400% of the damage you received. This effect wears off after being hit X times.'
+          }
+        ],
+        'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillicons/v2/skillicon_109.webp'
+      }
+    ],
+    'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/67101/icon.webp',
+    'body': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/67101/body.webp',
+    'skillCard': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillart/067101.webp'
+  },
+  {
+    'id': 67102,
+    'slug': 'comeback-idol-granhildr',
+    'name': 'Comeback Idol',
+    'nameJp': 'カムバックアイドル',
+    'nameKr': '컴백 아이돌',
+    'charSlug': 'granhildr',
+    'charName': 'Granhildr',
+    'element': 3,
+    'grade': 5,
+    'vaJp': 'Chiharu',
+    'talent': null,
+    'vaKr': 'Lee Gye-yoon',
+    'maxLevel': 5,
+    'skills': [
+      {
+        'name': 'Comeback Spotlight',
+        'desc': 'Preemptive ActionApply Taunt to yourself for 4 turn(s). Apply an Energy Guard (X) to yourself for 4 turn(s), equal to 100% of your Max HP.',
+        'cooldown': 7,
+        'tiers': [
+          {
+            'rank': 0,
+            'sp': 6,
+            'value': null,
+            'turns': 4,
+            'text': 'Preemptive ActionApply Taunt to yourself for 4 turn(s). Apply an Energy Guard (X) to yourself for 4 turn(s), equal to 100% of your Max HP.'
+          },
+          {
+            'rank': 1,
+            'sp': 6,
+            'value': null,
+            'turns': null,
+            'text': 'Preemptive ActionApply Taunt to yourself for X turn(s). Apply an Energy Guard (X) to yourself for X turn(s), equal to X% of your Max HP.'
+          },
+          {
+            'rank': 2,
+            'sp': 6,
+            'value': null,
+            'turns': 4,
+            'text': 'Preemptive ActionApply Taunt to yourself for 4 turn(s). Apply an Energy Guard (X) to yourself for 4 turn(s), equal to 150% of your Max HP.'
+          },
+          {
+            'rank': 3,
+            'sp': 6,
+            'value': null,
+            'turns': null,
+            'text': 'Preemptive ActionApply Taunt to yourself for X turn(s). Apply an Energy Guard (X) to yourself for X turn(s), equal to X% of your Max HP.'
+          },
+          {
+            'rank': 4,
+            'sp': 6,
+            'value': null,
+            'turns': 4,
+            'text': 'Preemptive ActionApply Taunt to yourself for 4 turn(s). Apply an Energy Guard (X) to yourself for 4 turn(s), equal to 250% of your Max HP.'
+          },
+          {
+            'rank': 5,
+            'sp': 6,
+            'value': null,
+            'turns': null,
+            'text': 'Preemptive ActionApply Taunt to yourself for X turn(s). Apply an Energy Guard (X) to yourself for X turn(s), equal to X% of your Max HP.'
+          }
+        ],
+        'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillicons/v2/skillicon_108.webp'
+      }
+    ],
+    'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/67102/icon.webp',
+    'body': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/67102/body.webp',
+    'skillCard': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillart/067102.webp'
+  },
+  {
+    'id': 67103,
+    'slug': 'boo-ghost-granhildr',
+    'name': 'Boo Ghost',
+    'nameJp': 'サプライズゴースト',
+    'nameKr': '깜짝 유령',
+    'charSlug': 'granhildr',
+    'charName': 'Granhildr',
+    'element': 3,
+    'grade': 5,
+    'vaJp': 'Chiharu',
+    'talent': null,
+    'vaKr': 'Lee Gye-yoon',
+    'maxLevel': 5,
+    'skills': [
+      {
+        'name': 'Boo! I Scared You!',
+        'desc': 'Attack the enemy 8 times, dealing X Physical DMG equal to X% of your Max HP per hit. Deal an additional X Physical DMG equal to 6% of your current Energy Guard.',
+        'cooldown': 3,
+        'tiers': [
+          {
+            'rank': 0,
+            'sp': 6,
+            'value': 6,
+            'turns': null,
+            'text': 'Attack the enemy 8 times, dealing X Physical DMG equal to X% of your Max HP per hit. Deal an additional X Physical DMG equal to 6% of your current Energy Guard.'
+          },
+          {
+            'rank': 1,
+            'sp': 5,
+            'value': 6,
+            'turns': null,
+            'text': 'Attack the enemy 8 times, dealing X Physical DMG equal to X% of your Max HP per hit. Deal an additional X Physical DMG equal to 6% of your current Energy Guard.'
+          },
+          {
+            'rank': 2,
+            'sp': 5,
+            'value': 6,
+            'turns': null,
+            'text': 'Attack the enemy 8 times, dealing X Physical DMG equal to X% of your Max HP per hit. Deal an additional X Physical DMG equal to 6% of your current Energy Guard.'
+          },
+          {
+            'rank': 3,
+            'sp': 5,
+            'value': 6,
+            'turns': null,
+            'text': 'Attack the enemy 8 times, dealing X Physical DMG equal to X% of your Max HP per hit. Deal an additional X Physical DMG equal to 6% of your current Energy Guard.'
+          },
+          {
+            'rank': 4,
+            'sp': 5,
+            'value': 6,
+            'turns': null,
+            'text': 'Attack the enemy 8 times, dealing X Physical DMG equal to X% of your Max HP per hit. Deal an additional X Physical DMG equal to 6% of your current Energy Guard.'
+          },
+          {
+            'rank': 5,
+            'sp': 5,
+            'value': 6,
+            'turns': null,
+            'text': 'Attack the enemy 8 times, dealing X Physical DMG equal to X% of your Max HP per hit. Deal an additional X Physical DMG equal to 6% of your current Energy Guard.'
+          }
+        ],
+        'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillicons/v2/skillicon_179.webp'
+      }
+    ],
+    'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/67103/icon.webp',
+    'body': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/67103/body.webp',
+    'skillCard': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillart/067103.webp'
+  },
+  {
+    'id': 67104,
+    'slug': 'combat-medic-granhildr',
+    'name': 'Combat Medic',
+    'nameJp': 'コンバット・メディック',
+    'nameKr': '컴뱃 메딕',
+    'charSlug': 'granhildr',
+    'charName': 'Granhildr',
+    'element': 3,
+    'grade': 5,
+    'vaJp': 'Chiharu',
+    'talent': null,
+    'vaKr': 'Kim Seo-hyun',
+    'maxLevel': 5,
+    'skills': [
+      {
+        'name': 'Drastic Measures',
+        'desc': 'Your Crit DMG is increased by X% for X turn(s). If your Number of Buffs is 5 or more, Extend the duration of each Buff by =3= turn(s). Deal X Physical DMG to the enemy equal to X% of your Max HP.',
+        'cooldown': 5,
+        'tiers': [
+          {
+            'rank': 0,
+            'sp': 5,
+            'value': null,
+            'turns': null,
+            'text': 'Your Crit DMG is increased by X% for X turn(s). If your Number of Buffs is 5 or more, Extend the duration of each Buff by =3= turn(s). Deal X Physical DMG to the enemy equal to X% of your Max HP.'
+          },
+          {
+            'rank': 1,
+            'sp': 4,
+            'value': null,
+            'turns': null,
+            'text': 'Your Crit DMG is increased by X% for X turn(s). If your Number of Buffs is 5 or more, Extend the duration of each Buff by =3= turn(s). Deal X Physical DMG to the enemy equal to X% of your Max HP.'
+          },
+          {
+            'rank': 2,
+            'sp': 4,
+            'value': null,
+            'turns': null,
+            'text': 'Your Crit DMG is increased by X% for X turn(s). If your Number of Buffs is 5 or more, Extend the duration of each Buff by =3= turn(s). Deal X Physical DMG to the enemy equal to X% of your Max HP.'
+          },
+          {
+            'rank': 3,
+            'sp': 4,
+            'value': null,
+            'turns': null,
+            'text': 'Your Crit DMG is increased by X% for X turn(s). If your Number of Buffs is 5 or more, Extend the duration of each Buff by =3= turn(s). Deal X Physical DMG to the enemy equal to X% of your Max HP.'
+          },
+          {
+            'rank': 4,
+            'sp': 4,
+            'value': null,
+            'turns': null,
+            'text': 'Your Crit DMG is increased by X% for X turn(s). If your Number of Buffs is 5 or more, Extend the duration of each Buff by =3= turn(s). Deal X Physical DMG to the enemy equal to X% of your Max HP.'
+          },
+          {
+            'rank': 5,
+            'sp': 4,
+            'value': null,
+            'turns': null,
+            'text': 'Your Crit DMG is increased by X% for X turn(s). If your Number of Buffs is 5 or more, Extend the duration of each Buff by =3= turn(s). Deal X Physical DMG to the enemy equal to X% of your Max HP.'
+          }
+        ],
+        'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillicons/v2/skillicon_202.webp'
+      }
+    ],
+    'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/67104/icon.webp',
+    'body': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/67104/body.webp',
+    'skillCard': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillart/067104.webp'
+  },
+  {
+    'id': 67201,
+    'slug': 'dj-venaka',
+    'name': 'DJ',
+    'nameJp': 'DJ',
+    'nameKr': 'DJ',
+    'charSlug': 'venaka',
+    'charName': 'Venaka',
+    'element': 2,
+    'grade': 5,
+    'vaJp': 'Fumi Morisawa',
+    'talent': null,
+    'vaKr': 'Kim Sae-hae',
+    'maxLevel': 5,
+    'skills': [
+      {
+        'name': 'Stand Up, Music On!',
+        'desc': 'Reduce enemy Magic Resistance by 500% for X turn(s). Deal X Magic DMG to the enemy equal to -50% of your Magic ATK.',
+        'cooldown': 5,
+        'tiers': [
+          {
+            'rank': 0,
+            'sp': 4,
+            'value': -50,
+            'turns': null,
+            'text': 'Reduce enemy Magic Resistance by 500% for X turn(s). Deal X Magic DMG to the enemy equal to -50% of your Magic ATK.'
+          },
+          {
+            'rank': 1,
+            'sp': 3,
+            'value': null,
+            'turns': null,
+            'text': 'Reduce enemy Magic Resistance by X% for X turn(s). Deal X Magic DMG to the enemy equal to X% of your Magic ATK.'
+          },
+          {
+            'rank': 2,
+            'sp': 3,
+            'value': -50,
+            'turns': null,
+            'text': 'Reduce enemy Magic Resistance by 600% for X turn(s). Deal X Magic DMG to the enemy equal to -50% of your Magic ATK.'
+          },
+          {
+            'rank': 3,
+            'sp': 3,
+            'value': null,
+            'turns': null,
+            'text': 'Reduce enemy Magic Resistance by X% for X turn(s). Deal X Magic DMG to the enemy equal to X% of your Magic ATK.'
+          },
+          {
+            'rank': 4,
+            'sp': 3,
+            'value': -50,
+            'turns': null,
+            'text': 'Reduce enemy Magic Resistance by 800% for X turn(s). Deal X Magic DMG to the enemy equal to -50% of your Magic ATK.'
+          },
+          {
+            'rank': 5,
+            'sp': 3,
+            'value': null,
+            'turns': null,
+            'text': 'Reduce enemy Magic Resistance by X% for X turn(s). Deal X Magic DMG to the enemy equal to X% of your Magic ATK.'
+          }
+        ],
+        'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillicons/v2/skillicon_125.webp'
+      }
+    ],
+    'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/67201/icon.webp',
+    'body': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/67201/body.webp',
+    'skillCard': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillart/067201.webp'
+  },
+  {
+    'id': 67202,
+    'slug': 'wind-dancer-venaka',
+    'name': 'Wind Dancer',
+    'nameJp': '風の踊り子',
+    'nameKr': '바람의 무희',
+    'charSlug': 'venaka',
+    'charName': 'Venaka',
+    'element': 2,
+    'grade': 5,
+    'vaJp': 'Fumi Morisawa',
+    'talent': null,
+    'vaKr': 'Kim Sae-hae',
+    'maxLevel': 5,
+    'skills': [
+      {
+        'name': 'Zephyr\'s Waltz',
+        'desc': 'Apply a X% Wind Vulnerability to the enemy for X turn(s). Deal X Magic DMG to the enemy equal to X% of your Magic ATK.',
+        'cooldown': 3,
+        'tiers': [
+          {
+            'rank': 0,
+            'sp': 4,
+            'value': 1,
+            'turns': null,
+            'text': 'Apply a X% Wind Vulnerability to the enemy for X turn(s). Deal X Magic DMG to the enemy equal to X% of your Magic ATK.'
+          },
+          {
+            'rank': 1,
+            'sp': 3,
+            'value': null,
+            'turns': null,
+            'text': 'Apply a X% Wind Vulnerability to the enemy for X turn(s). Deal X Magic DMG to the enemy equal to X% of your Magic ATK.'
+          },
+          {
+            'rank': 2,
+            'sp': 3,
+            'value': 1,
+            'turns': null,
+            'text': 'Apply a X% Wind Vulnerability to the enemy for X turn(s). Deal X Magic DMG to the enemy equal to X% of your Magic ATK.'
+          },
+          {
+            'rank': 3,
+            'sp': 3,
+            'value': null,
+            'turns': null,
+            'text': 'Apply a X% Wind Vulnerability to the enemy for X turn(s). Deal X Magic DMG to the enemy equal to X% of your Magic ATK.'
+          },
+          {
+            'rank': 4,
+            'sp': 3,
+            'value': 1,
+            'turns': null,
+            'text': 'Apply a X% Wind Vulnerability to the enemy for X turn(s). Deal X Magic DMG to the enemy equal to X% of your Magic ATK.'
+          },
+          {
+            'rank': 5,
+            'sp': 3,
+            'value': null,
+            'turns': null,
+            'text': 'Apply a X% Wind Vulnerability to the enemy for X turn(s). Deal X Magic DMG to the enemy equal to X% of your Magic ATK.'
+          }
+        ],
+        'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillicons/v2/skillicon_143.webp'
+      }
+    ],
+    'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/67202/icon.webp',
+    'body': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/67202/body.webp',
+    'skillCard': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillart/067202.webp'
+  },
+  {
+    'id': 67301,
+    'slug': 'track-and-field-captain-levia',
+    'name': 'Track and Field Captain',
+    'nameJp': '陸上部 部長',
+    'nameKr': '육상부 부장',
+    'charSlug': 'levia',
+    'charName': 'Levia',
+    'element': 1,
+    'grade': 5,
+    'vaJp': 'Marie Miyake',
+    'talent': null,
+    'vaKr': 'Jeong-sin Woo',
+    'maxLevel': 5,
+    'skills': [
+      {
+        'name': 'Explosive Rush!',
+        'desc': 'Attack the enemy 4 times, dealing X Magic DMG equal to 30% of your Magic ATK per hit. Apply a X% Vulnerability (Magic) to the enemy for 4 turn(s). For the Main Target enemy, apply a :6:% Vulnerability (Magic) for :5: turn(s) instead.',
+        'cooldown': 5,
+        'tiers': [
+          {
+            'rank': 0,
+            'sp': 5,
+            'value': 30,
+            'turns': 4,
+            'text': 'Attack the enemy 4 times, dealing X Magic DMG equal to 30% of your Magic ATK per hit. Apply a X% Vulnerability (Magic) to the enemy for 4 turn(s). For the Main Target enemy, apply a :6:% Vulnerability (Magic) for :5: turn(s) instead.'
+          },
+          {
+            'rank': 1,
+            'sp': 4,
+            'value': null,
+            'turns': null,
+            'text': 'Attack the enemy 4 times, dealing X Magic DMG equal to X% of your Magic ATK per hit. Apply a X% Vulnerability (Magic) to the enemy for X turn(s). For the Main Target enemy, apply a :6:% Vulnerability (Magic) for :5: turn(s) instead.'
+          },
+          {
+            'rank': 2,
+            'sp': 4,
+            'value': 30,
+            'turns': 4,
+            'text': 'Attack the enemy 4 times, dealing X Magic DMG equal to 30% of your Magic ATK per hit. Apply a X% Vulnerability (Magic) to the enemy for 4 turn(s). For the Main Target enemy, apply a :6:% Vulnerability (Magic) for :5: turn(s) instead.'
+          },
+          {
+            'rank': 3,
+            'sp': 4,
+            'value': null,
+            'turns': null,
+            'text': 'Attack the enemy 4 times, dealing X Magic DMG equal to X% of your Magic ATK per hit. Apply a X% Vulnerability (Magic) to the enemy for X turn(s). For the Main Target enemy, apply a :6:% Vulnerability (Magic) for :5: turn(s) instead.'
+          },
+          {
+            'rank': 4,
+            'sp': 4,
+            'value': 50,
+            'turns': 4,
+            'text': 'Attack the enemy 4 times, dealing X Magic DMG equal to 50% of your Magic ATK per hit. Apply a X% Vulnerability (Magic) to the enemy for 4 turn(s). For the Main Target enemy, apply a :6:% Vulnerability (Magic) for :5: turn(s) instead.'
+          },
+          {
+            'rank': 5,
+            'sp': 4,
+            'value': null,
+            'turns': null,
+            'text': 'Attack the enemy 4 times, dealing X Magic DMG equal to X% of your Magic ATK per hit. Apply a X% Vulnerability (Magic) to the enemy for X turn(s). For the Main Target enemy, apply a :6:% Vulnerability (Magic) for :5: turn(s) instead.'
+          }
+        ],
+        'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillicons/v2/skillicon_128.webp'
+      }
+    ],
+    'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/67301/icon.webp',
+    'body': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/67301/body.webp',
+    'skillCard': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillart/067301.webp'
+  },
+  {
+    'id': 67302,
+    'slug': 'night-of-jealousy-levia',
+    'name': 'Night of Jealousy',
+    'nameJp': '嫉妬の夜',
+    'nameKr': '시기의 밤',
+    'charSlug': 'levia',
+    'charName': 'Levia',
+    'element': 1,
+    'grade': 5,
+    'vaJp': 'Marie Miyake',
+    'talent': null,
+    'vaKr': 'Jeong-sin Woo',
+    'maxLevel': 5,
+    'skills': [
+      {
+        'name': 'Gates of Tartarus',
+        'desc': 'Attack the enemy 4 times, dealing X Magic DMG equal to 100% of your Magic ATK per hit. For the Main Target enemy, deal &1& Magic DMG equal to &6&% of your Magic ATK instead.',
+        'cooldown': 5,
+        'tiers': [
+          {
+            'rank': 0,
+            'sp': 5,
+            'value': 100,
+            'turns': null,
+            'text': 'Attack the enemy 4 times, dealing X Magic DMG equal to 100% of your Magic ATK per hit. For the Main Target enemy, deal &1& Magic DMG equal to &6&% of your Magic ATK instead.'
+          },
+          {
+            'rank': 1,
+            'sp': 4,
+            'value': 100,
+            'turns': null,
+            'text': 'Attack the enemy 4 times, dealing X Magic DMG equal to 100% of your Magic ATK per hit. For the Main Target enemy, deal &1& Magic DMG equal to &6&% of your Magic ATK instead.'
+          },
+          {
+            'rank': 2,
+            'sp': 4,
+            'value': 100,
+            'turns': null,
+            'text': 'Attack the enemy 4 times, dealing X Magic DMG equal to 100% of your Magic ATK per hit. For the Main Target enemy, deal &1& Magic DMG equal to &6&% of your Magic ATK instead.'
+          },
+          {
+            'rank': 3,
+            'sp': 4,
+            'value': 120,
+            'turns': null,
+            'text': 'Attack the enemy 4 times, dealing X Magic DMG equal to 120% of your Magic ATK per hit. For the Main Target enemy, deal &1& Magic DMG equal to &6&% of your Magic ATK instead.'
+          },
+          {
+            'rank': 4,
+            'sp': 4,
+            'value': 120,
+            'turns': null,
+            'text': 'Attack the enemy 4 times, dealing X Magic DMG equal to 120% of your Magic ATK per hit. For the Main Target enemy, deal &1& Magic DMG equal to &6&% of your Magic ATK instead.'
+          },
+          {
+            'rank': 5,
+            'sp': 4,
+            'value': 140,
+            'turns': null,
+            'text': 'Attack the enemy 4 times, dealing X Magic DMG equal to 140% of your Magic ATK per hit. For the Main Target enemy, deal &1& Magic DMG equal to &6&% of your Magic ATK instead.'
+          }
+        ],
+        'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillicons/v2/skillicon_135.webp'
+      }
+    ],
+    'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/67302/icon.webp',
+    'body': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/67302/body.webp',
+    'skillCard': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillart/067302.webp'
+  },
+  {
+    'id': 67303,
+    'slug': 'overheat-levia',
+    'name': 'Overheat',
+    'nameJp': 'オーバーヒート',
+    'nameKr': '오버히트',
+    'charSlug': 'levia',
+    'charName': 'Levia',
+    'element': 1,
+    'grade': 5,
+    'vaJp': 'Marie Miyake',
+    'talent': null,
+    'vaKr': 'Jeong-sin Woo',
+    'maxLevel': 5,
+    'skills': [
+      {
+        'name': 'Beast Overdrive',
+        'desc': 'Deal X Magic DMG to the enemy equal to 200% of your Magic ATK. If the enemy is in a Vulnerability state, deal &1& Magic DMG equal to &6&% of your Magic ATK instead. Remove the Vulnerability effect from the enemy.',
+        'cooldown': 3,
+        'tiers': [
+          {
+            'rank': 0,
+            'sp': 5,
+            'value': 200,
+            'turns': null,
+            'text': 'Deal X Magic DMG to the enemy equal to 200% of your Magic ATK. If the enemy is in a Vulnerability state, deal &1& Magic DMG equal to &6&% of your Magic ATK instead. Remove the Vulnerability effect from the enemy.'
+          },
+          {
+            'rank': 1,
+            'sp': 4,
+            'value': null,
+            'turns': null,
+            'text': 'Deal X Magic DMG to the enemy equal to X% of your Magic ATK. If the enemy is in a Vulnerability state, deal &1& Magic DMG equal to &6&% of your Magic ATK instead. Remove the Vulnerability effect from the enemy.'
+          },
+          {
+            'rank': 2,
+            'sp': 4,
+            'value': 275,
+            'turns': null,
+            'text': 'Deal X Magic DMG to the enemy equal to 275% of your Magic ATK. If the enemy is in a Vulnerability state, deal &1& Magic DMG equal to &6&% of your Magic ATK instead. Remove the Vulnerability effect from the enemy.'
+          },
+          {
+            'rank': 3,
+            'sp': 4,
+            'value': null,
+            'turns': null,
+            'text': 'Deal X Magic DMG to the enemy equal to X% of your Magic ATK. If the enemy is in a Vulnerability state, deal &1& Magic DMG equal to &6&% of your Magic ATK instead. Remove the Vulnerability effect from the enemy.'
+          },
+          {
+            'rank': 4,
+            'sp': 4,
+            'value': 350,
+            'turns': null,
+            'text': 'Deal X Magic DMG to the enemy equal to 350% of your Magic ATK. If the enemy is in a Vulnerability state, deal &1& Magic DMG equal to &6&% of your Magic ATK instead. Remove the Vulnerability effect from the enemy.'
+          },
+          {
+            'rank': 5,
+            'sp': 4,
+            'value': null,
+            'turns': null,
+            'text': 'Deal X Magic DMG to the enemy equal to X% of your Magic ATK. If the enemy is in a Vulnerability state, deal &1& Magic DMG equal to &6&% of your Magic ATK instead. Remove the Vulnerability effect from the enemy.'
+          }
+        ],
+        'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillicons/v2/skillicon_150.webp'
+      }
+    ],
+    'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/67303/icon.webp',
+    'body': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/67303/body.webp',
+    'skillCard': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillart/067303.webp'
+  },
+  {
+    'id': 67401,
+    'slug': 'beachside-justice-michaela',
+    'name': 'Beachside Justice',
+    'nameJp': '浜辺の正義',
+    'nameKr': '해변의 정의',
+    'charSlug': 'michaela',
+    'charName': 'Michaela',
+    'element': 3,
+    'grade': 5,
+    'vaJp': 'Tomoe Hanba',
+    'talent': null,
+    'vaKr': 'Kim Sung-yeon',
+    'maxLevel': 5,
+    'skills': [
+      {
+        'name': 'Justice Reveals',
+        'desc': 'Use 200% of your Current HP to increase your Magic ATK by 80% for 2 turn(s). Deal X Magic DMG to the enemy equal to 350% of your Magic ATK.',
+        'cooldown': 1,
+        'tiers': [
+          {
+            'rank': 0,
+            'sp': 4,
+            'value': 350,
+            'turns': 2,
+            'text': 'Use 200% of your Current HP to increase your Magic ATK by 80% for 2 turn(s). Deal X Magic DMG to the enemy equal to 350% of your Magic ATK.'
+          },
+          {
+            'rank': 1,
+            'sp': 3,
+            'value': null,
+            'turns': null,
+            'text': 'Use X% of your Current HP to increase your Magic ATK by X% for X turn(s). Deal X Magic DMG to the enemy equal to X% of your Magic ATK.'
+          },
+          {
+            'rank': 2,
+            'sp': 3,
+            'value': 400,
+            'turns': 2,
+            'text': 'Use 200% of your Current HP to increase your Magic ATK by 80% for 2 turn(s). Deal X Magic DMG to the enemy equal to 400% of your Magic ATK.'
+          },
+          {
+            'rank': 3,
+            'sp': 3,
+            'value': null,
+            'turns': null,
+            'text': 'Use X% of your Current HP to increase your Magic ATK by X% for X turn(s). Deal X Magic DMG to the enemy equal to X% of your Magic ATK.'
+          },
+          {
+            'rank': 4,
+            'sp': 3,
+            'value': 500,
+            'turns': 2,
+            'text': 'Use 200% of your Current HP to increase your Magic ATK by 80% for 2 turn(s). Deal X Magic DMG to the enemy equal to 500% of your Magic ATK.'
+          },
+          {
+            'rank': 5,
+            'sp': 3,
+            'value': null,
+            'turns': null,
+            'text': 'Use X% of your Current HP to increase your Magic ATK by X% for X turn(s). Deal X Magic DMG to the enemy equal to X% of your Magic ATK.'
+          }
+        ],
+        'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillicons/v2/skillicon_133.webp'
+      }
+    ],
+    'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/67401/icon.webp',
+    'body': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/67401/body.webp',
+    'skillCard': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillart/067401.webp'
+  },
+  {
+    'id': 67402,
+    'slug': 'queen-of-signatures-michaela',
+    'name': 'Queen of Signatures',
+    'nameJp': 'サインの女王',
+    'nameKr': '서명의 여왕',
+    'charSlug': 'michaela',
+    'charName': 'Michaela',
+    'element': 3,
+    'grade': 5,
+    'vaJp': 'Tomoe Hanba',
+    'talent': null,
+    'vaKr': 'Kim Sung-yeon',
+    'maxLevel': 5,
+    'skills': [
+      {
+        'name': 'Praise the Fire',
+        'desc': 'Ally SP decreases by X points. Attack the enemy 3 times, dealing X Magic DMG equal to 210% of your Magic ATK per hit.',
+        'cooldown': 7,
+        'tiers': [
+          {
+            'rank': 0,
+            'sp': 3,
+            'value': 210,
+            'turns': null,
+            'text': 'Ally SP decreases by X points. Attack the enemy 3 times, dealing X Magic DMG equal to 210% of your Magic ATK per hit.'
+          },
+          {
+            'rank': 1,
+            'sp': 2,
+            'value': null,
+            'turns': null,
+            'text': 'Ally SP decreases by X points. Attack the enemy 3 times, dealing X Magic DMG equal to X% of your Magic ATK per hit.'
+          },
+          {
+            'rank': 2,
+            'sp': 2,
+            'value': 250,
+            'turns': null,
+            'text': 'Ally SP decreases by X points. Attack the enemy 3 times, dealing X Magic DMG equal to 250% of your Magic ATK per hit.'
+          },
+          {
+            'rank': 3,
+            'sp': 2,
+            'value': null,
+            'turns': null,
+            'text': 'Ally SP decreases by X points. Attack the enemy 3 times, dealing X Magic DMG equal to X% of your Magic ATK per hit.'
+          },
+          {
+            'rank': 4,
+            'sp': 2,
+            'value': 330,
+            'turns': null,
+            'text': 'Ally SP decreases by X points. Attack the enemy 3 times, dealing X Magic DMG equal to 330% of your Magic ATK per hit.'
+          },
+          {
+            'rank': 5,
+            'sp': 2,
+            'value': null,
+            'turns': null,
+            'text': 'Ally SP decreases by X points. Attack the enemy 3 times, dealing X Magic DMG equal to X% of your Magic ATK per hit.'
+          }
+        ],
+        'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillicons/v2/skillicon_147.webp'
+      }
+    ],
+    'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/67402/icon.webp',
+    'body': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/67402/body.webp',
+    'skillCard': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillart/067402.webp'
+  },
+  {
+    'id': 67403,
+    'slug': 'acting-archbishop-michaela',
+    'name': 'Acting Archbishop',
+    'nameJp': '大主教代行',
+    'nameKr': '거룩한 자',
+    'charSlug': 'michaela',
+    'charName': 'Michaela',
+    'element': 3,
+    'grade': 5,
+    'vaJp': 'Tomoe Hanba',
+    'talent': null,
+    'vaKr': 'Kim Sung-yeon',
+    'maxLevel': 5,
+    'skills': [
+      {
+        'name': 'Bleeding Stigmata',
+        'desc': 'Your Crit DMG is increased by X% for X turn(s). Your DEF and Magic Resistance is reduced by [6[% for [5[ turn(s). Deal X Magic DMG to the enemy equal to X% of your Magic ATK.',
+        'cooldown': 5,
+        'tiers': [
+          {
+            'rank': 0,
+            'sp': 4,
+            'value': null,
+            'turns': null,
+            'text': 'Your Crit DMG is increased by X% for X turn(s). Your DEF and Magic Resistance is reduced by [6[% for [5[ turn(s). Deal X Magic DMG to the enemy equal to X% of your Magic ATK.'
+          },
+          {
+            'rank': 1,
+            'sp': 3,
+            'value': null,
+            'turns': null,
+            'text': 'Your Crit DMG is increased by X% for X turn(s). Your DEF and Magic Resistance is reduced by [6[% for [5[ turn(s). Deal X Magic DMG to the enemy equal to X% of your Magic ATK.'
+          },
+          {
+            'rank': 2,
+            'sp': 3,
+            'value': null,
+            'turns': null,
+            'text': 'Your Crit DMG is increased by X% for X turn(s). Your DEF and Magic Resistance is reduced by [6[% for [5[ turn(s). Deal X Magic DMG to the enemy equal to X% of your Magic ATK.'
+          },
+          {
+            'rank': 3,
+            'sp': 3,
+            'value': null,
+            'turns': null,
+            'text': 'Your Crit DMG is increased by X% for X turn(s). Your DEF and Magic Resistance is reduced by [6[% for [5[ turn(s). Deal X Magic DMG to the enemy equal to X% of your Magic ATK.'
+          },
+          {
+            'rank': 4,
+            'sp': 3,
+            'value': null,
+            'turns': null,
+            'text': 'Your Crit DMG is increased by X% for X turn(s). Your DEF and Magic Resistance is reduced by [6[% for [5[ turn(s). Deal X Magic DMG to the enemy equal to X% of your Magic ATK.'
+          },
+          {
+            'rank': 5,
+            'sp': 3,
+            'value': null,
+            'turns': null,
+            'text': 'Your Crit DMG is increased by X% for X turn(s). Your DEF and Magic Resistance is reduced by [6[% for [5[ turn(s). Deal X Magic DMG to the enemy equal to X% of your Magic ATK.'
+          }
+        ],
+        'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillicons/v2/skillicon_164.webp'
+      }
+    ],
+    'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/67403/icon.webp',
+    'body': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/67403/body.webp',
+    'skillCard': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillart/067403.webp'
+  },
+  {
+    'id': 67502,
+    'slug': 'deal-snatcher-luvencia',
+    'name': 'Deal Snatcher',
+    'nameJp': '契約奪取者',
+    'nameKr': '인감 탈취자',
+    'charSlug': 'luvencia',
+    'charName': 'Luvencia',
+    'element': 4,
+    'grade': 5,
+    'vaJp': 'Aina Aiba',
+    'talent': {
+      'name': 'Rush',
+      'mark': 'Talent_Buff013_Mark',
+      'skills': [
+        {
+          'name': '',
+          'desc': 'Boosts the movement speed by 75% for 20 seconds.',
+          'value': null,
+          'catalyst': 30,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_13_s.webp'
+        },
+        {
+          'name': '',
+          'desc': 'Boosts the movement speed by 75% for 25 seconds.',
+          'value': null,
+          'catalyst': 30,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_13_s.webp'
+        },
+        {
+          'name': '',
+          'desc': 'Boosts the movement speed by 75% for 30 seconds.',
+          'value': null,
+          'catalyst': 30,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_13_s.webp'
+        },
+        {
+          'name': '',
+          'desc': 'Boosts the movement speed by 75% for 40 seconds.',
+          'value': [
+            0,
+            0,
+            0,
+            0
+          ],
+          'catalyst': 30,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_13_s.webp'
+        }
+      ]
+    },
+    'vaKr': 'Go-woon Park',
+    'maxLevel': 5,
+    'skills': [
+      {
+        'name': 'Finish Blaster',
+        'desc': 'Attack the enemy 8 times, dealing X Physical DMG equal to 60% of your ATK per hit. For the Main Target enemy, deal &1& Physical DMG equal to &6&% of your ATK instead. Damage is reduced by X% per target. The damage is set according to the first hit.',
+        'cooldown': 3,
+        'tiers': [
+          {
+            'rank': 0,
+            'sp': 6,
+            'value': 60,
+            'turns': null,
+            'text': 'Attack the enemy 8 times, dealing X Physical DMG equal to 60% of your ATK per hit. For the Main Target enemy, deal &1& Physical DMG equal to &6&% of your ATK instead. Damage is reduced by X% per target. The damage is set according to the first hit.'
+          },
+          {
+            'rank': 1,
+            'sp': 5,
+            'value': 60,
+            'turns': null,
+            'text': 'Attack the enemy 8 times, dealing X Physical DMG equal to 60% of your ATK per hit. For the Main Target enemy, deal &1& Physical DMG equal to &6&% of your ATK instead. Damage is reduced by X% per target. The damage is set according to the first hit.'
+          },
+          {
+            'rank': 2,
+            'sp': 5,
+            'value': 60,
+            'turns': null,
+            'text': 'Attack the enemy 8 times, dealing X Physical DMG equal to 60% of your ATK per hit. For the Main Target enemy, deal &1& Physical DMG equal to &6&% of your ATK instead. Damage is reduced by X% per target. The damage is set according to the first hit.'
+          },
+          {
+            'rank': 3,
+            'sp': 5,
+            'value': 70,
+            'turns': null,
+            'text': 'Attack the enemy 8 times, dealing X Physical DMG equal to 70% of your ATK per hit. For the Main Target enemy, deal &1& Physical DMG equal to &6&% of your ATK instead. Damage is reduced by X% per target. The damage is set according to the first hit.'
+          },
+          {
+            'rank': 4,
+            'sp': 5,
+            'value': 70,
+            'turns': null,
+            'text': 'Attack the enemy 8 times, dealing X Physical DMG equal to 70% of your ATK per hit. For the Main Target enemy, deal &1& Physical DMG equal to &6&% of your ATK instead. Damage is reduced by X% per target. The damage is set according to the first hit.'
+          },
+          {
+            'rank': 5,
+            'sp': 5,
+            'value': 80,
+            'turns': null,
+            'text': 'Attack the enemy 8 times, dealing X Physical DMG equal to 80% of your ATK per hit. For the Main Target enemy, deal &1& Physical DMG equal to &6&% of your ATK instead. Damage is reduced by X% per target. The damage is set according to the first hit.'
+          }
+        ],
+        'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillicons/v2/skillicon_144.webp'
+      }
+    ],
+    'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/67502/icon.webp',
+    'body': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/67502/body.webp',
+    'skillCard': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillart/067502.webp'
+  },
+  {
+    'id': 67503,
+    'slug': 'wild-dog-luvencia',
+    'name': 'Wild Dog',
+    'nameJp': 'ワイルドドッグ',
+    'nameKr': '와일드독',
+    'charSlug': 'luvencia',
+    'charName': 'Luvencia',
+    'element': 4,
+    'grade': 5,
+    'vaJp': 'Aina Aiba',
+    'talent': {
+      'name': 'Rush',
+      'mark': 'Talent_Buff013_Mark',
+      'skills': [
+        {
+          'name': '',
+          'desc': 'Boosts the movement speed by 75% for 20 seconds.',
+          'value': null,
+          'catalyst': 30,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_13_s.webp'
+        },
+        {
+          'name': '',
+          'desc': 'Boosts the movement speed by 75% for 25 seconds.',
+          'value': null,
+          'catalyst': 30,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_13_s.webp'
+        },
+        {
+          'name': '',
+          'desc': 'Boosts the movement speed by 75% for 30 seconds.',
+          'value': null,
+          'catalyst': 30,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_13_s.webp'
+        },
+        {
+          'name': '',
+          'desc': 'Boosts the movement speed by 75% for 40 seconds.',
+          'value': [
+            0,
+            0,
+            0,
+            0
+          ],
+          'catalyst': 30,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_13_s.webp'
+        }
+      ]
+    },
+    'vaKr': 'Go-woon Park',
+    'maxLevel': 5,
+    'skills': [
+      {
+        'name': 'Wildbyte R-3',
+        'desc': 'Attack the enemy 8 times, dealing X Physical DMG equal to 30% of your ATK per hit. If the enemy has a Chain count that is a multiple of 3, deal &1& Physical DMG equal to &6&% of your ATK instead.',
+        'cooldown': 5,
+        'tiers': [
+          {
+            'rank': 0,
+            'sp': 5,
+            'value': 30,
+            'turns': null,
+            'text': 'Attack the enemy 8 times, dealing X Physical DMG equal to 30% of your ATK per hit. If the enemy has a Chain count that is a multiple of 3, deal &1& Physical DMG equal to &6&% of your ATK instead.'
+          },
+          {
+            'rank': 1,
+            'sp': 4,
+            'value': 30,
+            'turns': null,
+            'text': 'Attack the enemy 8 times, dealing X Physical DMG equal to 30% of your ATK per hit. If the enemy has a Chain count that is a multiple of 3, deal &1& Physical DMG equal to &6&% of your ATK instead.'
+          },
+          {
+            'rank': 2,
+            'sp': 4,
+            'value': null,
+            'turns': null,
+            'text': 'Attack the enemy 8 times, dealing X Physical DMG equal to X% of your ATK per hit. If the enemy has a Chain count that is a multiple of 3, deal &1& Physical DMG equal to &6&% of your ATK instead.'
+          },
+          {
+            'rank': 3,
+            'sp': 4,
+            'value': 50,
+            'turns': null,
+            'text': 'Attack the enemy 8 times, dealing X Physical DMG equal to 50% of your ATK per hit. If the enemy has a Chain count that is a multiple of 3, deal &1& Physical DMG equal to &6&% of your ATK instead.'
+          },
+          {
+            'rank': 4,
+            'sp': 4,
+            'value': 60,
+            'turns': null,
+            'text': 'Attack the enemy 8 times, dealing X Physical DMG equal to 60% of your ATK per hit. If the enemy has a Chain count that is a multiple of 3, deal &1& Physical DMG equal to &6&% of your ATK instead.'
+          },
+          {
+            'rank': 5,
+            'sp': 4,
+            'value': 70,
+            'turns': null,
+            'text': 'Attack the enemy 8 times, dealing X Physical DMG equal to 70% of your ATK per hit. If the enemy has a Chain count that is a multiple of 3, deal &1& Physical DMG equal to &6&% of your ATK instead.'
+          }
+        ],
+        'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillicons/v2/skillicon_151.webp'
+      }
+    ],
+    'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/67503/icon.webp',
+    'body': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/67503/body.webp',
+    'skillCard': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillart/067503.webp'
+  },
+  {
+    'id': 67504,
+    'slug': 'ocean-vanguard-luvencia',
+    'name': 'Ocean Vanguard',
+    'nameJp': 'オーシャン・ヴァンガード',
+    'nameKr': '오션 뱅가드',
+    'charSlug': 'luvencia',
+    'charName': 'Luvencia',
+    'element': 4,
+    'grade': 5,
+    'vaJp': 'Aina Aiba',
+    'talent': {
+      'name': 'Rush',
+      'mark': 'Talent_Buff013_Mark',
+      'skills': [
+        {
+          'name': '',
+          'desc': 'Boosts the movement speed by 75% for 20 seconds.',
+          'value': null,
+          'catalyst': 30,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_13_s.webp'
+        },
+        {
+          'name': '',
+          'desc': 'Boosts the movement speed by 75% for 25 seconds.',
+          'value': null,
+          'catalyst': 30,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_13_s.webp'
+        },
+        {
+          'name': '',
+          'desc': 'Boosts the movement speed by 75% for 30 seconds.',
+          'value': null,
+          'catalyst': 30,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_13_s.webp'
+        },
+        {
+          'name': '',
+          'desc': 'Boosts the movement speed by 75% for 40 seconds.',
+          'value': [
+            0,
+            0,
+            0,
+            0
+          ],
+          'catalyst': 30,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_13_s.webp'
+        }
+      ]
+    },
+    'vaKr': 'Kim Ye-ryeong',
+    'maxLevel': 5,
+    'skills': [
+      {
+        'name': 'Overclocked Run N\' Gun',
+        'desc': 'For X turn(s), accelerate (Acceleration), applying }13} stacks of an effect that increases your ATK by }6}% whenever you stack a Chain with an attack. Can stack up to }15} times. If you have more than 24 ATK Boost stacks, apply a =6=% Chain DMG Increase (Dealt) to yourself for =5= turn(s). Attack the enemy 8 times, dealing X Physical DMG equal to X% of your ATK per hit.',
+        'cooldown': 5,
+        'tiers': [
+          {
+            'rank': 0,
+            'sp': 6,
+            'value': null,
+            'turns': null,
+            'text': 'For X turn(s), accelerate (Acceleration), applying }13} stacks of an effect that increases your ATK by }6}% whenever you stack a Chain with an attack. Can stack up to }15} times. If you have more than 24 ATK Boost stacks, apply a =6=% Chain DMG Increase (Dealt) to yourself for =5= turn(s). Attack the enemy 8 times, dealing X Physical DMG equal to X% of your ATK per hit.'
+          },
+          {
+            'rank': 1,
+            'sp': 5,
+            'value': null,
+            'turns': null,
+            'text': 'For X turn(s), accelerate (Acceleration), applying }13} stacks of an effect that increases your ATK by }6}% whenever you stack a Chain with an attack. Can stack up to }15} times. If you have more than 24 ATK Boost stacks, apply a =6=% Chain DMG Increase (Dealt) to yourself for =5= turn(s). Attack the enemy 8 times, dealing X Physical DMG equal to X% of your ATK per hit.'
+          },
+          {
+            'rank': 2,
+            'sp': 5,
+            'value': null,
+            'turns': null,
+            'text': 'For X turn(s), accelerate (Acceleration), applying }13} stacks of an effect that increases your ATK by }6}% whenever you stack a Chain with an attack. Can stack up to }15} times. If you have more than 24 ATK Boost stacks, apply a =6=% Chain DMG Increase (Dealt) to yourself for =5= turn(s). Attack the enemy 8 times, dealing X Physical DMG equal to X% of your ATK per hit.'
+          },
+          {
+            'rank': 3,
+            'sp': 5,
+            'value': null,
+            'turns': null,
+            'text': 'For X turn(s), accelerate (Acceleration), applying }13} stacks of an effect that increases your ATK by }6}% whenever you stack a Chain with an attack. Can stack up to }15} times. If you have more than 24 ATK Boost stacks, apply a =6=% Chain DMG Increase (Dealt) to yourself for =5= turn(s). Attack the enemy 8 times, dealing X Physical DMG equal to X% of your ATK per hit.'
+          },
+          {
+            'rank': 4,
+            'sp': 5,
+            'value': null,
+            'turns': null,
+            'text': 'For X turn(s), accelerate (Acceleration), applying }13} stacks of an effect that increases your ATK by }6}% whenever you stack a Chain with an attack. Can stack up to }15} times. If you have more than 24 ATK Boost stacks, apply a =6=% Chain DMG Increase (Dealt) to yourself for =5= turn(s). Attack the enemy 8 times, dealing X Physical DMG equal to X% of your ATK per hit.'
+          },
+          {
+            'rank': 5,
+            'sp': 5,
+            'value': null,
+            'turns': null,
+            'text': 'For X turn(s), accelerate (Acceleration), applying }13} stacks of an effect that increases your ATK by }6}% whenever you stack a Chain with an attack. Can stack up to }15} times. If you have more than 24 ATK Boost stacks, apply a =6=% Chain DMG Increase (Dealt) to yourself for =5= turn(s). Attack the enemy 8 times, dealing X Physical DMG equal to X% of your ATK per hit.'
+          }
+        ],
+        'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillicons/v2/skillicon_201.webp'
+      }
+    ],
+    'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/67504/icon.webp',
+    'body': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/67504/body.webp',
+    'skillCard': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillart/067504.webp'
+  },
+  {
+    'id': 67601,
+    'slug': 'iron-monarch-wilhelmina',
+    'name': 'Iron Monarch',
+    'nameJp': '鋼の君主',
+    'nameKr': '강철의 군주',
+    'charSlug': 'wilhelmina',
+    'charName': 'Wilhelmina',
+    'element': 0,
+    'grade': 5,
+    'vaJp': 'Aya Endo',
+    'talent': null,
+    'vaKr': 'Lee Myung-hee',
+    'maxLevel': 5,
+    'skills': [
+      {
+        'name': 'I am Beirun',
+        'desc': 'Attack the enemy 12 times, dealing X Physical DMG equal to X% of your ATK per hit.',
+        'cooldown': 3,
+        'tiers': [
+          {
+            'rank': 0,
+            'sp': 5,
+            'value': null,
+            'turns': null,
+            'text': 'Attack the enemy 12 times, dealing X Physical DMG equal to X% of your ATK per hit.'
+          },
+          {
+            'rank': 1,
+            'sp': 4,
+            'value': 60,
+            'turns': null,
+            'text': 'Attack the enemy 12 times, dealing X Physical DMG equal to 60% of your ATK per hit.'
+          },
+          {
+            'rank': 2,
+            'sp': 4,
+            'value': 67,
+            'turns': null,
+            'text': 'Attack the enemy 12 times, dealing X Physical DMG equal to 67% of your ATK per hit.'
+          },
+          {
+            'rank': 3,
+            'sp': 4,
+            'value': 74,
+            'turns': null,
+            'text': 'Attack the enemy 12 times, dealing X Physical DMG equal to 74% of your ATK per hit.'
+          },
+          {
+            'rank': 4,
+            'sp': 4,
+            'value': 74,
+            'turns': null,
+            'text': 'Attack the enemy 12 times, dealing X Physical DMG equal to 74% of your ATK per hit.'
+          },
+          {
+            'rank': 5,
+            'sp': 4,
+            'value': 81,
+            'turns': null,
+            'text': 'Attack the enemy 12 times, dealing X Physical DMG equal to 81% of your ATK per hit.'
+          }
+        ],
+        'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillicons/v2/skillicon_163.webp'
+      }
+    ],
+    'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/67601/icon.webp',
+    'body': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/67601/body.webp',
+    'skillCard': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillart/067601.webp'
+  },
+  {
+    'id': 67603,
+    'slug': 'water-park-queen-wilhelmina',
+    'name': 'Water Park Queen',
+    'nameJp': 'ウォーターパークの女王',
+    'nameKr': '워터파크의 여왕',
+    'charSlug': 'wilhelmina',
+    'charName': 'Wilhelmina',
+    'element': 0,
+    'grade': 5,
+    'vaJp': 'Aya Endo',
+    'talent': null,
+    'vaKr': 'Lee Myung-hee',
+    'maxLevel': 5,
+    'skills': [
+      {
+        'name': 'Wave Breaker',
+        'desc': 'Apply X Chain Reinforcement to yourself for 4 turn(s). Attack the enemy 9 times, dealing X Physical DMG equal to 45% of your ATK per hit.',
+        'cooldown': 3,
+        'tiers': [
+          {
+            'rank': 0,
+            'sp': 5,
+            'value': 45,
+            'turns': 4,
+            'text': 'Apply X Chain Reinforcement to yourself for 4 turn(s). Attack the enemy 9 times, dealing X Physical DMG equal to 45% of your ATK per hit.'
+          },
+          {
+            'rank': 1,
+            'sp': 4,
+            'value': null,
+            'turns': null,
+            'text': 'Apply X Chain Reinforcement to yourself for X turn(s). Attack the enemy 9 times, dealing X Physical DMG equal to X% of your ATK per hit.'
+          },
+          {
+            'rank': 2,
+            'sp': 4,
+            'value': 55,
+            'turns': 4,
+            'text': 'Apply X Chain Reinforcement to yourself for 4 turn(s). Attack the enemy 9 times, dealing X Physical DMG equal to 55% of your ATK per hit.'
+          },
+          {
+            'rank': 3,
+            'sp': 4,
+            'value': null,
+            'turns': null,
+            'text': 'Apply X Chain Reinforcement to yourself for X turn(s). Attack the enemy 9 times, dealing X Physical DMG equal to X% of your ATK per hit.'
+          },
+          {
+            'rank': 4,
+            'sp': 4,
+            'value': 65,
+            'turns': 6,
+            'text': 'Apply X Chain Reinforcement to yourself for 6 turn(s). Attack the enemy 9 times, dealing X Physical DMG equal to 65% of your ATK per hit.'
+          },
+          {
+            'rank': 5,
+            'sp': 4,
+            'value': null,
+            'turns': null,
+            'text': 'Apply X Chain Reinforcement to yourself for X turn(s). Attack the enemy 9 times, dealing X Physical DMG equal to X% of your ATK per hit.'
+          }
+        ],
+        'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillicons/v2/skillicon_167.webp'
+      }
+    ],
+    'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/67603/icon.webp',
+    'body': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/67603/body.webp',
+    'skillCard': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillart/067603.webp'
+  },
+  {
+    'id': 67604,
+    'slug': 'frozen-queen-wilhelmina',
+    'name': 'Frozen Queen',
+    'nameJp': 'フローズン・クイーン',
+    'nameKr': '프로즌 퀸',
+    'charSlug': 'wilhelmina',
+    'charName': 'Wilhelmina',
+    'element': 0,
+    'grade': 5,
+    'vaJp': 'Aya Endo',
+    'talent': null,
+    'vaKr': 'Lee Myung-hee',
+    'maxLevel': 5,
+    'skills': [
+      {
+        'name': 'Frozen Resolve',
+        'desc': 'Your Property DMG increases by 30% for 4 turn(s). Attack the enemy ~18~ times, dealing X Physical DMG equal to 60% of your ATK per hit.',
+        'cooldown': 5,
+        'tiers': [
+          {
+            'rank': 0,
+            'sp': 5,
+            'value': 60,
+            'turns': 4,
+            'text': 'Your Property DMG increases by 30% for 4 turn(s). Attack the enemy ~18~ times, dealing X Physical DMG equal to 60% of your ATK per hit.'
+          },
+          {
+            'rank': 1,
+            'sp': 4,
+            'value': null,
+            'turns': null,
+            'text': 'Your Property DMG increases by X% for X turn(s). Attack the enemy ~18~ times, dealing X Physical DMG equal to X% of your ATK per hit.'
+          },
+          {
+            'rank': 2,
+            'sp': 4,
+            'value': null,
+            'turns': null,
+            'text': 'Your Property DMG increases by X% for X turn(s). Attack the enemy ~18~ times, dealing X Physical DMG equal to X% of your ATK per hit.'
+          },
+          {
+            'rank': 3,
+            'sp': 4,
+            'value': null,
+            'turns': null,
+            'text': 'Your Property DMG increases by X% for X turn(s). Attack the enemy ~18~ times, dealing X Physical DMG equal to X% of your ATK per hit.'
+          },
+          {
+            'rank': 4,
+            'sp': 4,
+            'value': 110,
+            'turns': 4,
+            'text': 'Your Property DMG increases by 45% for 4 turn(s). Attack the enemy ~18~ times, dealing X Physical DMG equal to 110% of your ATK per hit.'
+          },
+          {
+            'rank': 5,
+            'sp': 4,
+            'value': null,
+            'turns': null,
+            'text': 'Your Property DMG increases by X% for X turn(s). Attack the enemy ~18~ times, dealing X Physical DMG equal to X% of your ATK per hit.'
+          }
+        ],
+        'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillicons/v2/skillicon_185.webp'
+      }
+    ],
+    'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/67604/icon.webp',
+    'body': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/67604/body.webp',
+    'skillCard': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillart/067604.webp'
+  },
+  {
+    'id': 67701,
+    'slug': 'shrine-maiden-of-purification-granadair',
+    'name': 'Shrine Maiden of Purification',
+    'nameJp': '浄化の巫女',
+    'nameKr': '정화의 무녀',
+    'charSlug': 'granadair',
+    'charName': 'Granadair',
+    'element': 0,
+    'grade': 5,
+    'vaJp': 'Kanna Kan',
+    'talent': {
+      'name': 'Assemble',
+      'mark': 'Talent_Buff028_Mark',
+      'skills': [
+        {
+          'name': 'Spell of Attraction',
+          'desc': 'Assembles all field fiends located on the current map that give rewards.\\n● Daily limit: 3 times',
+          'value': [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          'catalyst': 2,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_28_s.webp'
+        },
+        {
+          'name': 'Spell of Attraction',
+          'desc': 'Assembles all field fiends located on the current map that give rewards.\\n● Daily limit: 4 times',
+          'value': null,
+          'catalyst': 1,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_28_s.webp'
+        },
+        {
+          'name': 'Spell of Attraction',
+          'desc': 'Assembles all field fiends located on the current map that give rewards.\\n● Daily limit: 5 times',
+          'value': null,
+          'catalyst': 1,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_28_s.webp'
+        },
+        {
+          'name': 'Spell of Attraction',
+          'desc': '',
+          'value': null,
+          'catalyst': 1,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_28_s.webp'
+        },
+        {
+          'name': 'Spell of Attraction',
+          'desc': 'Assembles all field fiends located on the current map that give rewards.\\n● Daily limit: 7 times',
+          'value': null,
+          'catalyst': 1,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_28_s.webp'
+        }
+      ]
+    },
+    'vaKr': 'Kim Ye-ryeong',
+    'maxLevel': 5,
+    'skills': [
+      {
+        'name': 'Blessing of Purification',
+        'desc': 'Apply an Augmentation effect to allies for X turn(s), increasing their damage dealt by X%. Absorb Debuffs from allies. For each debuff absorbed, grant that ally }13} stacks of }6}% Augmentation for }5} turn(s). Can stack up to }15} times.',
+        'cooldown': 5,
+        'tiers': [
+          {
+            'rank': 0,
+            'sp': 4,
+            'value': 1,
+            'turns': null,
+            'text': 'Apply an Augmentation effect to allies for X turn(s), increasing their damage dealt by X%. Absorb Debuffs from allies. For each debuff absorbed, grant that ally }13} stacks of }6}% Augmentation for }5} turn(s). Can stack up to }15} times.'
+          },
+          {
+            'rank': 1,
+            'sp': 3,
+            'value': null,
+            'turns': null,
+            'text': 'Apply an Augmentation effect to allies for X turn(s), increasing their damage dealt by X%. Absorb Debuffs from allies. For each debuff absorbed, grant that ally }13} stacks of }6}% Augmentation for }5} turn(s). Can stack up to }15} times.'
+          },
+          {
+            'rank': 2,
+            'sp': 3,
+            'value': 1,
+            'turns': null,
+            'text': 'Apply an Augmentation effect to allies for X turn(s), increasing their damage dealt by X%. Absorb Debuffs from allies. For each debuff absorbed, grant that ally }13} stacks of }6}% Augmentation for }5} turn(s). Can stack up to }15} times.'
+          },
+          {
+            'rank': 3,
+            'sp': 3,
+            'value': null,
+            'turns': null,
+            'text': 'Apply an Augmentation effect to allies for X turn(s), increasing their damage dealt by X%. Absorb Debuffs from allies. For each debuff absorbed, grant that ally }13} stacks of }6}% Augmentation for }5} turn(s). Can stack up to }15} times.'
+          },
+          {
+            'rank': 4,
+            'sp': 3,
+            'value': 1,
+            'turns': null,
+            'text': 'Apply an Augmentation effect to allies for X turn(s), increasing their damage dealt by X%. Absorb Debuffs from allies. For each debuff absorbed, grant that ally }13} stacks of }6}% Augmentation for }5} turn(s). Can stack up to }15} times.'
+          },
+          {
+            'rank': 5,
+            'sp': 3,
+            'value': null,
+            'turns': null,
+            'text': 'Apply an Augmentation effect to allies for X turn(s), increasing their damage dealt by X%. Absorb Debuffs from allies. For each debuff absorbed, grant that ally }13} stacks of }6}% Augmentation for }5} turn(s). Can stack up to }15} times.'
+          }
+        ],
+        'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillicons/v2/skillicon_189.webp'
+      }
+    ],
+    'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/67701/icon.webp',
+    'body': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/67701/body.webp',
+    'skillCard': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillart/067701.webp'
+  },
+  {
+    'id': 67702,
+    'slug': 'queen-of-gluttis-granadair',
+    'name': 'Queen of Gluttis',
+    'nameJp': 'グラティの女王',
+    'nameKr': '글러티의 여왕',
+    'charSlug': 'granadair',
+    'charName': 'Granadair',
+    'element': 0,
+    'grade': 5,
+    'vaJp': 'Kanna Kan',
+    'talent': {
+      'name': 'Assemble',
+      'mark': 'Talent_Buff028_Mark',
+      'skills': [
+        {
+          'name': 'Spell of Attraction',
+          'desc': 'Assembles all field fiends located on the current map that give rewards.\\n● Daily limit: 3 times',
+          'value': [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          'catalyst': 2,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_28_s.webp'
+        },
+        {
+          'name': 'Spell of Attraction',
+          'desc': 'Assembles all field fiends located on the current map that give rewards.\\n● Daily limit: 4 times',
+          'value': null,
+          'catalyst': 1,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_28_s.webp'
+        },
+        {
+          'name': 'Spell of Attraction',
+          'desc': 'Assembles all field fiends located on the current map that give rewards.\\n● Daily limit: 5 times',
+          'value': null,
+          'catalyst': 1,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_28_s.webp'
+        },
+        {
+          'name': 'Spell of Attraction',
+          'desc': '',
+          'value': null,
+          'catalyst': 1,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_28_s.webp'
+        },
+        {
+          'name': 'Spell of Attraction',
+          'desc': 'Assembles all field fiends located on the current map that give rewards.\\n● Daily limit: 7 times',
+          'value': null,
+          'catalyst': 1,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_28_s.webp'
+        }
+      ]
+    },
+    'vaKr': 'Kim Ye-ryeong',
+    'maxLevel': 5,
+    'skills': [
+      {
+        'name': 'Mana Convergence',
+        'desc': 'For [5[ turn(s), your allies restore [3[ SP at the end of each turn. Ally Magic ATK is increased by X% for X turn(s). Ally Magic ATK is increased by X% for X turn(s).',
+        'cooldown': 3,
+        'tiers': [
+          {
+            'rank': 0,
+            'sp': 2,
+            'value': null,
+            'turns': null,
+            'text': 'For [5[ turn(s), your allies restore [3[ SP at the end of each turn. Ally Magic ATK is increased by X% for X turn(s). Ally Magic ATK is increased by X% for X turn(s).'
+          },
+          {
+            'rank': 1,
+            'sp': 1,
+            'value': null,
+            'turns': null,
+            'text': 'For [5[ turn(s), your allies restore [3[ SP at the end of each turn. Ally Magic ATK is increased by X% for X turn(s). Ally Magic ATK is increased by X% for X turn(s).'
+          },
+          {
+            'rank': 2,
+            'sp': 1,
+            'value': null,
+            'turns': null,
+            'text': 'For [5[ turn(s), your allies restore [3[ SP at the end of each turn. Ally Magic ATK is increased by X% for X turn(s). Ally Magic ATK is increased by X% for X turn(s).'
+          },
+          {
+            'rank': 3,
+            'sp': 1,
+            'value': null,
+            'turns': null,
+            'text': 'For [5[ turn(s), your allies restore [3[ SP at the end of each turn. Ally Magic ATK is increased by X% for X turn(s). Ally Magic ATK is increased by X% for X turn(s).'
+          },
+          {
+            'rank': 4,
+            'sp': 1,
+            'value': null,
+            'turns': null,
+            'text': 'For [5[ turn(s), your allies restore [3[ SP at the end of each turn. Ally Magic ATK is increased by X% for X turn(s). Ally Magic ATK is increased by X% for X turn(s).'
+          },
+          {
+            'rank': 5,
+            'sp': 1,
+            'value': null,
+            'turns': null,
+            'text': 'For [5[ turn(s), your allies restore [3[ SP at the end of each turn. Ally Magic ATK is increased by X% for X turn(s). Ally Magic ATK is increased by X% for X turn(s).'
+          }
+        ],
+        'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillicons/v2/skillicon_190.webp'
+      }
+    ],
+    'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/67702/icon.webp',
+    'body': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/67702/body.webp',
+    'skillCard': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillart/067702.webp'
+  },
+  {
+    'id': 67801,
+    'slug': 'night-of-death-mamonir',
+    'name': 'Night of Death',
+    'nameJp': '終焉の夜',
+    'nameKr': '죽음의 밤',
+    'charSlug': 'mamonir',
+    'charName': 'Mamonir',
+    'element': 0,
+    'grade': 5,
+    'vaJp': 'Yurie Igoma',
+    'talent': null,
+    'vaKr': 'Jeong Hae-eun',
+    'maxLevel': 5,
+    'skills': [
+      {
+        'name': 'Go, Octovius!',
+        'desc': 'For X turn(s), Transforms by releasing the power of Octovius. Your Crit DMG is increased by [6[% for [5[ turn(s). Attack the enemy 8 times, dealing X Magic DMG equal to X% of your Max HP per hit.',
+        'cooldown': 7,
+        'tiers': [
+          {
+            'rank': 0,
+            'sp': 4,
+            'value': null,
+            'turns': null,
+            'text': 'For X turn(s), Transforms by releasing the power of Octovius. Your Crit DMG is increased by [6[% for [5[ turn(s). Attack the enemy 8 times, dealing X Magic DMG equal to X% of your Max HP per hit.'
+          },
+          {
+            'rank': 1,
+            'sp': 3,
+            'value': null,
+            'turns': null,
+            'text': 'For X turn(s), Transforms by releasing the power of Octovius. Your Crit DMG is increased by [6[% for [5[ turn(s). Attack the enemy 8 times, dealing X Magic DMG equal to X% of your Max HP per hit.'
+          },
+          {
+            'rank': 2,
+            'sp': 3,
+            'value': null,
+            'turns': null,
+            'text': 'For X turn(s), Transforms by releasing the power of Octovius. Your Crit DMG is increased by [6[% for [5[ turn(s). Attack the enemy 8 times, dealing X Magic DMG equal to X% of your Max HP per hit.'
+          },
+          {
+            'rank': 3,
+            'sp': 3,
+            'value': null,
+            'turns': null,
+            'text': 'For X turn(s), Transforms by releasing the power of Octovius. Your Crit DMG is increased by [6[% for [5[ turn(s). Attack the enemy 8 times, dealing X Magic DMG equal to X% of your Max HP per hit.'
+          },
+          {
+            'rank': 4,
+            'sp': 3,
+            'value': null,
+            'turns': null,
+            'text': 'For X turn(s), Transforms by releasing the power of Octovius. Your Crit DMG is increased by [6[% for [5[ turn(s). Attack the enemy 8 times, dealing X Magic DMG equal to X% of your Max HP per hit.'
+          },
+          {
+            'rank': 5,
+            'sp': 3,
+            'value': null,
+            'turns': null,
+            'text': 'For X turn(s), Transforms by releasing the power of Octovius. Your Crit DMG is increased by [6[% for [5[ turn(s). Attack the enemy 8 times, dealing X Magic DMG equal to X% of your Max HP per hit.'
+          }
+        ],
+        'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillicons/v2/skillicon_188.webp'
+      }
+    ],
+    'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/67801/icon.webp',
+    'body': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/67801/body.webp',
+    'skillCard': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillart/067801.webp'
+  },
+  {
+    'id': 67803,
+    'slug': 'miracle-marine-mamonir',
+    'name': 'Miracle Marine',
+    'nameJp': 'ミラクル・マリン',
+    'nameKr': '미라클 마린',
+    'charSlug': 'mamonir',
+    'charName': 'Mamonir',
+    'element': 0,
+    'grade': 5,
+    'vaJp': 'Yurie Igoma',
+    'talent': null,
+    'vaKr': 'Jeong Hae-eun',
+    'maxLevel': 5,
+    'skills': [
+      {
+        'name': 'Marine☆Deep Endure',
+        'desc': 'Whenever you receive an attack, apply >6>% Vulnerability to the enemy. This effect disappears after X hit(s) received. Vulnerability lasts for >5> turn(s) and applies >13> stacks per hit, up to a maximum of >15> stack(s). Apply a X% Barrier to yourself for 6 turn(s).',
+        'cooldown': 7,
+        'tiers': [
+          {
+            'rank': 0,
+            'sp': 3,
+            'value': null,
+            'turns': 6,
+            'text': 'Whenever you receive an attack, apply >6>% Vulnerability to the enemy. This effect disappears after X hit(s) received. Vulnerability lasts for >5> turn(s) and applies >13> stacks per hit, up to a maximum of >15> stack(s). Apply a X% Barrier to yourself for 6 turn(s).'
+          },
+          {
+            'rank': 1,
+            'sp': 2,
+            'value': null,
+            'turns': null,
+            'text': 'Whenever you receive an attack, apply >6>% Vulnerability to the enemy. This effect disappears after X hit(s) received. Vulnerability lasts for >5> turn(s) and applies >13> stacks per hit, up to a maximum of >15> stack(s). Apply a X% Barrier to yourself for X turn(s).'
+          },
+          {
+            'rank': 2,
+            'sp': 2,
+            'value': null,
+            'turns': 6,
+            'text': 'Whenever you receive an attack, apply >6>% Vulnerability to the enemy. This effect disappears after X hit(s) received. Vulnerability lasts for >5> turn(s) and applies >13> stacks per hit, up to a maximum of >15> stack(s). Apply a X% Barrier to yourself for 6 turn(s).'
+          },
+          {
+            'rank': 3,
+            'sp': 2,
+            'value': null,
+            'turns': null,
+            'text': 'Whenever you receive an attack, apply >6>% Vulnerability to the enemy. This effect disappears after X hit(s) received. Vulnerability lasts for >5> turn(s) and applies >13> stacks per hit, up to a maximum of >15> stack(s). Apply a X% Barrier to yourself for X turn(s).'
+          },
+          {
+            'rank': 4,
+            'sp': 2,
+            'value': null,
+            'turns': 6,
+            'text': 'Whenever you receive an attack, apply >6>% Vulnerability to the enemy. This effect disappears after X hit(s) received. Vulnerability lasts for >5> turn(s) and applies >13> stacks per hit, up to a maximum of >15> stack(s). Apply a X% Barrier to yourself for 6 turn(s).'
+          },
+          {
+            'rank': 5,
+            'sp': 2,
+            'value': null,
+            'turns': null,
+            'text': 'Whenever you receive an attack, apply >6>% Vulnerability to the enemy. This effect disappears after X hit(s) received. Vulnerability lasts for >5> turn(s) and applies >13> stacks per hit, up to a maximum of >15> stack(s). Apply a X% Barrier to yourself for X turn(s).'
+          }
+        ],
+        'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillicons/v2/skillicon_195.webp'
+      }
+    ],
+    'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/67803/icon.webp',
+    'body': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/67803/body.webp',
+    'skillCard': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillart/067803.webp'
+  },
+  {
+    'id': 67901,
+    'slug': 'savage-warrior-aquila',
+    'name': 'Savage Warrior',
+    'nameJp': '戦場の野獣',
+    'nameKr': '전장의 야수',
+    'charSlug': 'aquila',
+    'charName': 'Aquila',
+    'element': 1,
+    'grade': 5,
+    'vaJp': 'Natsumi Takamori',
+    'talent': {
+      'name': 'Overpower',
+      'mark': 'Talent_Buff027_Mark',
+      'skills': [
+        {
+          'name': 'Out of my way!',
+          'desc': '',
+          'value': [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          'catalyst': 50,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_27_s.webp'
+        },
+        {
+          'name': 'Out of my way!',
+          'desc': 'Using this ability instantly overpowers certain spawned monsters on the map.\\n● Daily Uses: 15',
+          'value': [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          'catalyst': 45,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_27_s.webp'
+        },
+        {
+          'name': 'Out of my way!',
+          'desc': '',
+          'value': null,
+          'catalyst': 35,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_27_s.webp'
+        },
+        {
+          'name': 'Out of my way!',
+          'desc': 'Using this ability instantly overpowers certain spawned monsters on the map.\\n● Daily Uses: 25',
+          'value': null,
+          'catalyst': 25,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_27_s.webp'
+        },
+        {
+          'name': 'Out of my way!',
+          'desc': 'Using this ability instantly overpowers certain spawned monsters on the map.\\n● Daily Uses: 30',
+          'value': null,
+          'catalyst': 15,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_27_s.webp'
+        }
+      ]
+    },
+    'vaKr': 'Son Jeong-min',
+    'maxLevel': 5,
+    'skills': [
+      {
+        'name': 'Thrill of Battle',
+        'desc': 'For X turn(s), whenever you receive an attack, apply }13} stacks of an effect that increases your ATK by }6}% for }5} turn(s). This can increase to a maximum of }15} stacks. For [5[ turn(s), whenever you receive an attack, reduce the cooldown of the current Costume by ]3]. Attack the enemy 3 times, dealing X Physical DMG equal to X% of your ATK per hit.',
+        'cooldown': 9,
+        'tiers': [
+          {
+            'rank': 0,
+            'sp': 5,
+            'value': null,
+            'turns': null,
+            'text': 'For X turn(s), whenever you receive an attack, apply }13} stacks of an effect that increases your ATK by }6}% for }5} turn(s). This can increase to a maximum of }15} stacks. For [5[ turn(s), whenever you receive an attack, reduce the cooldown of the current Costume by ]3]. Attack the enemy 3 times, dealing X Physical DMG equal to X% of your ATK per hit.'
+          },
+          {
+            'rank': 1,
+            'sp': 4,
+            'value': null,
+            'turns': null,
+            'text': 'For X turn(s), whenever you receive an attack, apply }13} stacks of an effect that increases your ATK by }6}% for }5} turn(s). This can increase to a maximum of }15} stacks. For [5[ turn(s), whenever you receive an attack, reduce the cooldown of the current Costume by ]3]. Attack the enemy 3 times, dealing X Physical DMG equal to X% of your ATK per hit.'
+          },
+          {
+            'rank': 2,
+            'sp': 4,
+            'value': null,
+            'turns': null,
+            'text': 'For X turn(s), whenever you receive an attack, apply }13} stacks of an effect that increases your ATK by }6}% for }5} turn(s). This can increase to a maximum of }15} stacks. For [5[ turn(s), whenever you receive an attack, reduce the cooldown of the current Costume by ]3]. Attack the enemy 3 times, dealing X Physical DMG equal to X% of your ATK per hit.'
+          },
+          {
+            'rank': 3,
+            'sp': 4,
+            'value': null,
+            'turns': null,
+            'text': 'For X turn(s), whenever you receive an attack, apply }13} stacks of an effect that increases your ATK by }6}% for }5} turn(s). This can increase to a maximum of }15} stacks. For [5[ turn(s), whenever you receive an attack, reduce the cooldown of the current Costume by ]3]. Attack the enemy 3 times, dealing X Physical DMG equal to X% of your ATK per hit.'
+          },
+          {
+            'rank': 4,
+            'sp': 4,
+            'value': null,
+            'turns': null,
+            'text': 'For X turn(s), whenever you receive an attack, apply }13} stacks of an effect that increases your ATK by }6}% for }5} turn(s). This can increase to a maximum of }15} stacks. For [5[ turn(s), whenever you receive an attack, reduce the cooldown of the current Costume by ]3]. Attack the enemy 3 times, dealing X Physical DMG equal to X% of your ATK per hit.'
+          },
+          {
+            'rank': 5,
+            'sp': 4,
+            'value': null,
+            'turns': null,
+            'text': 'For X turn(s), whenever you receive an attack, apply }13} stacks of an effect that increases your ATK by }6}% for }5} turn(s). This can increase to a maximum of }15} stacks. For [5[ turn(s), whenever you receive an attack, reduce the cooldown of the current Costume by ]3]. Attack the enemy 3 times, dealing X Physical DMG equal to X% of your ATK per hit.'
+          }
+        ],
+        'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillicons/v2/skillicon_217.webp'
+      }
+    ],
+    'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/67901/icon.webp',
+    'body': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/67901/body.webp',
+    'skillCard': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillart/067901.webp'
+  },
+  {
+    'id': 67902,
+    'slug': 'sealed-desires-aquila',
+    'name': 'Sealed Desires',
+    'nameJp': '封印されし欲望',
+    'nameKr': '봉인된 욕망',
+    'charSlug': 'aquila',
+    'charName': 'Aquila',
+    'element': 1,
+    'grade': 5,
+    'vaJp': 'Natsumi Takamori',
+    'talent': {
+      'name': 'Overpower',
+      'mark': 'Talent_Buff027_Mark',
+      'skills': [
+        {
+          'name': 'Out of my way!',
+          'desc': '',
+          'value': [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          'catalyst': 50,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_27_s.webp'
+        },
+        {
+          'name': 'Out of my way!',
+          'desc': 'Using this ability instantly overpowers certain spawned monsters on the map.\\n● Daily Uses: 15',
+          'value': [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          'catalyst': 45,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_27_s.webp'
+        },
+        {
+          'name': 'Out of my way!',
+          'desc': '',
+          'value': null,
+          'catalyst': 35,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_27_s.webp'
+        },
+        {
+          'name': 'Out of my way!',
+          'desc': 'Using this ability instantly overpowers certain spawned monsters on the map.\\n● Daily Uses: 25',
+          'value': null,
+          'catalyst': 25,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_27_s.webp'
+        },
+        {
+          'name': 'Out of my way!',
+          'desc': 'Using this ability instantly overpowers certain spawned monsters on the map.\\n● Daily Uses: 30',
+          'value': null,
+          'catalyst': 15,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_27_s.webp'
+        }
+      ]
+    },
+    'vaKr': 'Son Jeong-min',
+    'maxLevel': 5,
+    'skills': [
+      {
+        'name': 'Time to Hunt!',
+        'desc': 'Use X% of your Current HP to increase your Property DMG by X% for X turn(s). For [5[ turn(s), apply Heal Immunity to yourself. This effect cannot be removed by removal effects. Attack the enemy 2 times, dealing X Physical DMG equal to X% of your ATK per hit.',
+        'cooldown': 5,
+        'tiers': [
+          {
+            'rank': 0,
+            'sp': 5,
+            'value': null,
+            'turns': null,
+            'text': 'Use X% of your Current HP to increase your Property DMG by X% for X turn(s). For [5[ turn(s), apply Heal Immunity to yourself. This effect cannot be removed by removal effects. Attack the enemy 2 times, dealing X Physical DMG equal to X% of your ATK per hit.'
+          },
+          {
+            'rank': 1,
+            'sp': 4,
+            'value': null,
+            'turns': null,
+            'text': 'Use X% of your Current HP to increase your Property DMG by X% for X turn(s). For [5[ turn(s), apply Heal Immunity to yourself. This effect cannot be removed by removal effects. Attack the enemy 2 times, dealing X Physical DMG equal to X% of your ATK per hit.'
+          },
+          {
+            'rank': 2,
+            'sp': 4,
+            'value': null,
+            'turns': null,
+            'text': 'Use X% of your Current HP to increase your Property DMG by X% for X turn(s). For [5[ turn(s), apply Heal Immunity to yourself. This effect cannot be removed by removal effects. Attack the enemy 2 times, dealing X Physical DMG equal to X% of your ATK per hit.'
+          },
+          {
+            'rank': 3,
+            'sp': 4,
+            'value': null,
+            'turns': null,
+            'text': 'Use X% of your Current HP to increase your Property DMG by X% for X turn(s). For [5[ turn(s), apply Heal Immunity to yourself. This effect cannot be removed by removal effects. Attack the enemy 2 times, dealing X Physical DMG equal to X% of your ATK per hit.'
+          },
+          {
+            'rank': 4,
+            'sp': 4,
+            'value': null,
+            'turns': null,
+            'text': 'Use X% of your Current HP to increase your Property DMG by X% for X turn(s). For [5[ turn(s), apply Heal Immunity to yourself. This effect cannot be removed by removal effects. Attack the enemy 2 times, dealing X Physical DMG equal to X% of your ATK per hit.'
+          },
+          {
+            'rank': 5,
+            'sp': 4,
+            'value': null,
+            'turns': null,
+            'text': 'Use X% of your Current HP to increase your Property DMG by X% for X turn(s). For [5[ turn(s), apply Heal Immunity to yourself. This effect cannot be removed by removal effects. Attack the enemy 2 times, dealing X Physical DMG equal to X% of your ATK per hit.'
+          }
+        ],
+        'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillicons/v2/skillicon_221.webp'
+      }
+    ],
+    'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/67902/icon.webp',
+    'body': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/67902/body.webp',
+    'skillCard': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillart/067902.webp'
+  }
+];
+
+export const brownDust2Characters = [
+  {
+    'slug': 'lathel',
+    'name': 'Lathel',
+    'element': 1,
+    'grade': 5,
+    'defaultUnit': 'herb-tracker-lathel',
+    'units': [
+      'herb-tracker-lathel',
+      'lonely-survivor-lathel',
+      'homunculus-lathel',
+      'dark-knight-lathel',
+      'promise-of-vengeance-lathel',
+      'pool-party-lathel'
+    ]
+  },
+  {
+    'slug': 'justia',
+    'name': 'Justia',
+    'element': 3,
+    'grade': 5,
+    'defaultUnit': 'knight-of-blood-justia',
+    'units': [
+      'knight-of-blood-justia',
+      'white-reaper-justia',
+      'blood-glutton-justia',
+      'kendo-club-justia',
+      'pool-party-justia'
+    ]
+  },
+  {
+    'slug': 'scheherazade',
+    'name': 'Scheherazade',
+    'element': 0,
+    'grade': 5,
+    'defaultUnit': 'the-lapis-witch-scheherazade',
+    'units': [
+      'the-lapis-witch-scheherazade',
+      'the-magic-school-professor-scheherazade',
+      'code-name-s-scheherazade',
+      'pool-party-scheherazade'
+    ]
+  },
+  {
+    'slug': 'gray',
+    'name': 'Gray',
+    'element': 2,
+    'grade': 5,
+    'defaultUnit': 'the-sharpshooter-of-the-mist-gray',
+    'units': [
+      'the-sharpshooter-of-the-mist-gray',
+      'b-rank-manager-gray',
+      'vanguard-gray',
+      'pool-party-gray'
+    ]
+  },
+  {
+    'slug': 'rou',
+    'name': 'Rou',
+    'element': 4,
+    'grade': 5,
+    'defaultUnit': 'white-cat-rou',
+    'units': [
+      'white-cat-rou',
+      'red-riding-hood-rou',
+      'nature-s-claw-rou',
+      'stray-cat-rou'
+    ]
+  },
+  {
+    'slug': 'olstein',
+    'name': 'Olstein',
+    'element': 2,
+    'grade': 5,
+    'defaultUnit': 'the-fiend-scholar-olstein',
+    'units': [
+      'the-fiend-scholar-olstein',
+      'sage-of-blue-clouds-olstein'
+    ]
+  },
+  {
+    'slug': 'eclipse',
+    'name': 'Eclipse',
+    'element': 4,
+    'grade': 5,
+    'defaultUnit': 'dimension-witch-eclipse',
+    'units': [
+      'dimension-witch-eclipse',
+      'nightmare-bunny-eclipse',
+      'beach-vacation-eclipse',
+      'dream-bride-eclipse'
+    ]
+  },
+  {
+    'slug': 'rubia',
+    'name': 'Rubia',
+    'element': 1,
+    'grade': 5,
+    'defaultUnit': 'thorn-of-the-desert-rubia',
+    'units': [
+      'thorn-of-the-desert-rubia',
+      'the-empress-of-the-ocean-rubia',
+      'maid-name-c-rubia',
+      'maid-bikini-rubia'
+    ]
+  },
+  {
+    'slug': 'remnunt',
+    'name': 'Remnunt',
+    'element': 0,
+    'grade': 3,
+    'defaultUnit': 'combat-doctor-remnunt',
+    'units': [
+      'combat-doctor-remnunt'
+    ]
+  },
+  {
+    'slug': 'sylvia',
+    'name': 'Sylvia',
+    'element': 0,
+    'grade': 5,
+    'defaultUnit': 'desert-flower-sylvia',
+    'units': [
+      'desert-flower-sylvia',
+      'the-sword-queen-sylvia',
+      'admiral-sylvia',
+      'bikini-agent-sylvia'
+    ]
+  },
+  {
+    'slug': 'teresse',
+    'name': 'Teresse',
+    'element': 0,
+    'grade': 5,
+    'defaultUnit': 'angel-of-destruction-teresse',
+    'units': [
+      'angel-of-destruction-teresse',
+      'medical-club-teresse',
+      'beachside-angel-teresse'
+    ]
+  },
+  {
+    'slug': 'liatris',
+    'name': 'Liatris',
+    'element': 1,
+    'grade': 5,
+    'defaultUnit': 'rodev-s-star-liatris',
+    'units': [
+      'rodev-s-star-liatris',
+      'neon-stalker-liatris',
+      'maid-name-r-liatris'
+    ]
+  },
+  {
+    'slug': 'gynt',
+    'name': 'Gynt',
+    'element': 2,
+    'grade': 3,
+    'defaultUnit': 'lugo-hunter-gynt',
+    'units': [
+      'lugo-hunter-gynt'
+    ]
+  },
+  {
+    'slug': 'fred',
+    'name': 'Fred',
+    'element': 2,
+    'grade': 3,
+    'defaultUnit': 'lugo-defense-force-fred',
+    'units': [
+      'lugo-defense-force-fred'
+    ]
+  },
+  {
+    'slug': 'lisianne',
+    'name': 'Lisianne',
+    'element': 2,
+    'grade': 4,
+    'defaultUnit': 'wandering-priest-lisianne',
+    'units': [
+      'wandering-priest-lisianne'
+    ]
+  },
+  {
+    'slug': 'bernie',
+    'name': 'Bernie',
+    'element': 2,
+    'grade': 4,
+    'defaultUnit': 'righteous-raider-girl-bernie',
+    'units': [
+      'righteous-raider-girl-bernie'
+    ]
+  },
+  {
+    'slug': 'diana',
+    'name': 'Diana',
+    'element': 2,
+    'grade': 5,
+    'defaultUnit': 'adventurer-of-the-unknown-diana',
+    'units': [
+      'adventurer-of-the-unknown-diana',
+      'magical-innovator-diana',
+      'anti-dystopia-diana'
+    ]
+  },
+  {
+    'slug': 'layla',
+    'name': 'Layla',
+    'element': 3,
+    'grade': 4,
+    'defaultUnit': 'anvil-of-creation-layla',
+    'units': [
+      'anvil-of-creation-layla'
+    ]
+  },
+  {
+    'slug': 'elpis',
+    'name': 'Elpis',
+    'element': 4,
+    'grade': 4,
+    'defaultUnit': 'hand-of-salvation-elpis',
+    'units': [
+      'hand-of-salvation-elpis'
+    ]
+  },
+  {
+    'slug': 'loen',
+    'name': 'Loen',
+    'element': 1,
+    'grade': 5,
+    'defaultUnit': 'last-hope-loen',
+    'units': [
+      'last-hope-loen',
+      'track-and-field-team-loen',
+      'celebrity-bunny-loen'
+    ]
+  },
+  {
+    'slug': 'nebris',
+    'name': 'Nebris',
+    'element': 2,
+    'grade': 5,
+    'defaultUnit': 'labyrinth-gatekeeper-nebris',
+    'units': [
+      'labyrinth-gatekeeper-nebris',
+      'laid-back-lifeguard-nebris',
+      'new-hire-nebris'
+    ]
+  },
+  {
+    'slug': 'morpeah',
+    'name': 'Morpeah',
+    'element': 0,
+    'grade': 5,
+    'defaultUnit': 'beach-vacation-morpeah',
+    'units': [
+      'beach-vacation-morpeah',
+      'daydream-bunny-morpeah',
+      'apostle-morpeah'
+    ]
+  },
+  {
+    'slug': 'sacred-justia',
+    'name': 'Sacred Justia',
+    'element': 3,
+    'grade': 5,
+    'defaultUnit': 'reclaimed-destiny-sacred-justia',
+    'units': [
+      'reclaimed-destiny-sacred-justia'
+    ]
+  },
+  {
+    'slug': 'olivier',
+    'name': 'Olivier',
+    'element': 3,
+    'grade': 5,
+    'defaultUnit': 'faithful-wings-olivier',
+    'units': [
+      'faithful-wings-olivier',
+      'apostle-olivier',
+      'fallen-wings-olivier',
+      'retired-legend-olivier'
+    ]
+  },
+  {
+    'slug': 'blade',
+    'name': 'Blade',
+    'element': 4,
+    'grade': 5,
+    'defaultUnit': 'apostle-blade',
+    'units': [
+      'apostle-blade',
+      'onsen-swordfighter-blade',
+      'young-lady-blade'
+    ]
+  },
+  {
+    'slug': 'liberta',
+    'name': 'Liberta',
+    'element': 1,
+    'grade': 5,
+    'defaultUnit': 'dark-saintess-liberta',
+    'units': [
+      'dark-saintess-liberta',
+      'onsen-manager-liberta',
+      'miracle-rose-liberta'
+    ]
+  },
+  {
+    'slug': 'sonya',
+    'name': 'Sonya',
+    'element': 4,
+    'grade': 5,
+    'defaultUnit': 'shadowed-dream-sonya',
+    'units': [
+      'shadowed-dream-sonya',
+      'little-pumpkin-girl-sonya'
+    ]
+  },
+  {
+    'slug': 'darian',
+    'name': 'Darian',
+    'element': 0,
+    'grade': 5,
+    'defaultUnit': 'prophetic-dream-darian',
+    'units': [
+      'prophetic-dream-darian',
+      'bittersweet-bunny-darian'
+    ]
+  },
+  {
+    'slug': 'tyr',
+    'name': 'Tyr',
+    'element': 2,
+    'grade': 5,
+    'defaultUnit': 'starlight-guardian-tyr',
+    'units': [
+      'starlight-guardian-tyr',
+      'innocent-bunny-tyr'
+    ]
+  },
+  {
+    'slug': 'palette',
+    'name': 'Palette',
+    'element': 4,
+    'grade': 5,
+    'defaultUnit': 'shattered-dream-palette',
+    'units': [
+      'shattered-dream-palette',
+      'miracle-violet-palette'
+    ]
+  },
+  {
+    'slug': 'nekyndalia',
+    'name': 'Nekyndalia',
+    'element': 2,
+    'grade': 5,
+    'defaultUnit': 'deadeye-nekyndalia',
+    'units': [
+      'deadeye-nekyndalia',
+      'unraveling-mummy-nekyndalia'
+    ]
+  },
+  {
+    'slug': 'eris',
+    'name': 'Eris',
+    'element': 1,
+    'grade': 5,
+    'defaultUnit': 'esteemed-adventurer-eris',
+    'units': [
+      'esteemed-adventurer-eris',
+      'your-very-own-cat-eris'
+    ]
+  },
+  {
+    'slug': 'roxy',
+    'name': 'Roxy',
+    'element': 0,
+    'grade': 5,
+    'defaultUnit': 'respected-master-roxy',
+    'units': [
+      'respected-master-roxy',
+      'emerging-desire-roxy'
+    ]
+  },
+  {
+    'slug': 'yomi',
+    'name': 'Yomi',
+    'element': 2,
+    'grade': 5,
+    'defaultUnit': 'gentle-destroyer-yomi',
+    'units': [
+      'gentle-destroyer-yomi'
+    ]
+  },
+  {
+    'slug': 'yozakura',
+    'name': 'Yozakura',
+    'element': 2,
+    'grade': 5,
+    'defaultUnit': 'fist-of-conviction-yozakura',
+    'units': [
+      'fist-of-conviction-yozakura'
+    ]
+  },
+  {
+    'slug': 'yumi',
+    'name': 'Yumi',
+    'element': 0,
+    'grade': 5,
+    'defaultUnit': 'dancing-snowflake-yumi',
+    'units': [
+      'dancing-snowflake-yumi'
+    ]
+  },
+  {
+    'slug': 'hikage',
+    'name': 'Hikage',
+    'element': 2,
+    'grade': 5,
+    'defaultUnit': 'kind-ruthlessness-hikage',
+    'units': [
+      'kind-ruthlessness-hikage'
+    ]
+  },
+  {
+    'slug': 'goblin-slayer',
+    'name': 'Goblin Slayer',
+    'element': 1,
+    'grade': 5,
+    'defaultUnit': 'orcbolg-goblin-slayer',
+    'units': [
+      'orcbolg-goblin-slayer'
+    ]
+  },
+  {
+    'slug': 'priestess',
+    'name': 'Priestess',
+    'element': 3,
+    'grade': 5,
+    'defaultUnit': 'earth-mother-believer-priestess',
+    'units': [
+      'earth-mother-believer-priestess'
+    ]
+  },
+  {
+    'slug': 'high-elf-archer',
+    'name': 'High Elf Archer',
+    'element': 2,
+    'grade': 5,
+    'defaultUnit': 'daughter-of-starwind-high-elf-archer',
+    'units': [
+      'daughter-of-starwind-high-elf-archer'
+    ]
+  },
+  {
+    'slug': 'sword-maiden',
+    'name': 'Sword Maiden',
+    'element': 3,
+    'grade': 5,
+    'defaultUnit': 'supreme-god-archbishop-sword-maiden',
+    'units': [
+      'supreme-god-archbishop-sword-maiden'
+    ]
+  },
+  {
+    'slug': 'ikaruga',
+    'name': 'Ikaruga',
+    'element': 1,
+    'grade': 5,
+    'defaultUnit': 'noble-flame-ikaruga',
+    'units': [
+      'noble-flame-ikaruga'
+    ]
+  },
+  {
+    'slug': 'kyouka-uzen',
+    'name': 'Kyouka Uzen',
+    'element': 3,
+    'grade': 5,
+    'defaultUnit': 'eternal-chains-kyouka-uzen',
+    'units': [
+      'eternal-chains-kyouka-uzen'
+    ]
+  },
+  {
+    'slug': 'tenka-izumo',
+    'name': 'Tenka Izumo',
+    'element': 4,
+    'grade': 5,
+    'defaultUnit': 'ame-no-mitori-tenka-izumo',
+    'units': [
+      'ame-no-mitori-tenka-izumo'
+    ]
+  },
+  {
+    'slug': 'ren-yamashiro',
+    'name': 'Ren Yamashiro',
+    'element': 3,
+    'grade': 5,
+    'defaultUnit': 'lord-of-the-cosmos-ren-yamashiro',
+    'units': [
+      'lord-of-the-cosmos-ren-yamashiro'
+    ]
+  },
+  {
+    'slug': 'wiggle',
+    'name': 'Wiggle',
+    'element': 1,
+    'grade': 3,
+    'defaultUnit': 'bomb-fanatic-wiggle',
+    'units': [
+      'bomb-fanatic-wiggle',
+      'bomb-in-the-hoodie-wiggle'
+    ]
+  },
+  {
+    'slug': 'lucrezia',
+    'name': 'Lucrezia',
+    'element': 4,
+    'grade': 4,
+    'defaultUnit': 'seductive-wings-lucrezia',
+    'units': [
+      'seductive-wings-lucrezia'
+    ]
+  },
+  {
+    'slug': 'alec',
+    'name': 'Alec',
+    'element': 1,
+    'grade': 5,
+    'defaultUnit': 'the-destruction-alec',
+    'units': [
+      'the-destruction-alec',
+      'sword-breaker-alec'
+    ]
+  },
+  {
+    'slug': 'celia',
+    'name': 'Celia',
+    'element': 4,
+    'grade': 5,
+    'defaultUnit': 'the-curse-celia',
+    'units': [
+      'the-curse-celia',
+      'descendant-of-the-great-witch-celia',
+      'masquerade-bunny-celia'
+    ]
+  },
+  {
+    'slug': 'anastasia',
+    'name': 'Anastasia',
+    'element': 1,
+    'grade': 5,
+    'defaultUnit': 'gentle-maid-anastasia',
+    'units': [
+      'gentle-maid-anastasia',
+      'fire-graffiti-anastasia'
+    ]
+  },
+  {
+    'slug': 'lecliss',
+    'name': 'Lecliss',
+    'element': 2,
+    'grade': 5,
+    'defaultUnit': 'killer-doll-lecliss',
+    'units': [
+      'killer-doll-lecliss',
+      'android-queen-lecliss'
+    ]
+  },
+  {
+    'slug': 'rafina',
+    'name': 'Rafina',
+    'element': 0,
+    'grade': 5,
+    'defaultUnit': 'steel-engine-rafina',
+    'units': [
+      'steel-engine-rafina',
+      'code-name-a-rafina',
+      'game-club-rafina'
+    ]
+  },
+  {
+    'slug': 'elise',
+    'name': 'Elise',
+    'element': 1,
+    'grade': 5,
+    'defaultUnit': 'lovely-lady-elise',
+    'units': [
+      'lovely-lady-elise',
+      'code-name-o-elise',
+      'naive-lady-elise'
+    ]
+  },
+  {
+    'slug': 'seir',
+    'name': 'Seir',
+    'element': 4,
+    'grade': 5,
+    'defaultUnit': 'demon-s-daughter-seir',
+    'units': [
+      'demon-s-daughter-seir',
+      'b-rank-idol-seir',
+      'new-hire-seir'
+    ]
+  },
+  {
+    'slug': 'helena',
+    'name': 'Helena',
+    'element': 3,
+    'grade': 5,
+    'defaultUnit': 'top-idol-helena',
+    'units': [
+      'top-idol-helena',
+      'b-rank-idol-helena',
+      'sunny-inn-hand-helena'
+    ]
+  },
+  {
+    'slug': 'eleaneer',
+    'name': 'Eleaneer',
+    'element': 4,
+    'grade': 5,
+    'defaultUnit': 'piercing-magic-bow-eleaneer',
+    'units': [
+      'piercing-magic-bow-eleaneer',
+      'b-rank-idol-eleaneer',
+      'shadow-bunny-eleaneer'
+    ]
+  },
+  {
+    'slug': 'dalvi',
+    'name': 'Dalvi',
+    'element': 2,
+    'grade': 5,
+    'defaultUnit': 'bright-moon-dalvi',
+    'units': [
+      'bright-moon-dalvi',
+      'summer-vacation-dalvi',
+      'tricky-lover-dalvi'
+    ]
+  },
+  {
+    'slug': 'zenith',
+    'name': 'Zenith',
+    'element': 2,
+    'grade': 5,
+    'defaultUnit': 'robin-hood-zenith',
+    'units': [
+      'robin-hood-zenith',
+      'poolside-guardian-zenith'
+    ]
+  },
+  {
+    'slug': 'samay',
+    'name': 'Samay',
+    'element': 4,
+    'grade': 4,
+    'defaultUnit': 'kind-liberator-samay',
+    'units': [
+      'kind-liberator-samay',
+      'kind-student-samay'
+    ]
+  },
+  {
+    'slug': 'andrew',
+    'name': 'Andrew',
+    'element': 1,
+    'grade': 4,
+    'defaultUnit': 'loyal-butler-andrew',
+    'units': [
+      'loyal-butler-andrew',
+      'specialist-andrew'
+    ]
+  },
+  {
+    'slug': 'kry',
+    'name': 'Kry',
+    'element': 4,
+    'grade': 4,
+    'defaultUnit': 'liberated-marauder-kry',
+    'units': [
+      'liberated-marauder-kry',
+      'violent-student-kry'
+    ]
+  },
+  {
+    'slug': 'maria',
+    'name': 'Maria',
+    'element': 4,
+    'grade': 3,
+    'defaultUnit': 'archmage-maria',
+    'units': [
+      'archmage-maria'
+    ]
+  },
+  {
+    'slug': 'arines',
+    'name': 'Arines',
+    'element': 3,
+    'grade': 3,
+    'defaultUnit': 'priest-of-vitality-arines',
+    'units': [
+      'priest-of-vitality-arines'
+    ]
+  },
+  {
+    'slug': 'jayden',
+    'name': 'Jayden',
+    'element': 3,
+    'grade': 4,
+    'defaultUnit': 'beautiful-girl-devotee-jayden',
+    'units': [
+      'beautiful-girl-devotee-jayden',
+      'manga-research-club-jayden'
+    ]
+  },
+  {
+    'slug': 'emma',
+    'name': 'Emma',
+    'element': 3,
+    'grade': 3,
+    'defaultUnit': 'haggard-delinquent-emma',
+    'units': [
+      'haggard-delinquent-emma',
+      'school-queen-emma'
+    ]
+  },
+  {
+    'slug': 'ingrid',
+    'name': 'Ingrid',
+    'element': 0,
+    'grade': 3,
+    'defaultUnit': 'kardis-bullet-ingrid',
+    'units': [
+      'kardis-bullet-ingrid'
+    ]
+  },
+  {
+    'slug': 'cynthia',
+    'name': 'Cynthia',
+    'element': 0,
+    'grade': 3,
+    'defaultUnit': 'warmth-within-the-severe-cold-cynthia',
+    'units': [
+      'warmth-within-the-severe-cold-cynthia'
+    ]
+  },
+  {
+    'slug': 'julie',
+    'name': 'Julie',
+    'element': 2,
+    'grade': 3,
+    'defaultUnit': 'healer-julie',
+    'units': [
+      'healer-julie'
+    ]
+  },
+  {
+    'slug': 'carlson',
+    'name': 'Carlson',
+    'element': 0,
+    'grade': 3,
+    'defaultUnit': 'the-mercenary-knight-carlson',
+    'units': [
+      'the-mercenary-knight-carlson'
+    ]
+  },
+  {
+    'slug': 'lydia',
+    'name': 'Lydia',
+    'element': 0,
+    'grade': 3,
+    'defaultUnit': 'apprentice-spearman-lydia',
+    'units': [
+      'apprentice-spearman-lydia'
+    ]
+  },
+  {
+    'slug': 'rigenette',
+    'name': 'Rigenette',
+    'element': 2,
+    'grade': 3,
+    'defaultUnit': 'little-hunter-rigenette',
+    'units': [
+      'little-hunter-rigenette'
+    ]
+  },
+  {
+    'slug': 'beatrice',
+    'name': 'Beatrice',
+    'element': 1,
+    'grade': 3,
+    'defaultUnit': 'the-mighty-warrior-of-the-tribe-beatrice',
+    'units': [
+      'the-mighty-warrior-of-the-tribe-beatrice'
+    ]
+  },
+  {
+    'slug': 'yuri',
+    'name': 'Yuri',
+    'element': 3,
+    'grade': 5,
+    'defaultUnit': 'whitebolt-yuri',
+    'units': [
+      'whitebolt-yuri',
+      'comeback-idol-yuri'
+    ]
+  },
+  {
+    'slug': 'nartas',
+    'name': 'Nartas',
+    'element': 4,
+    'grade': 5,
+    'defaultUnit': 'anonymous-sage-nartas',
+    'units': [
+      'anonymous-sage-nartas'
+    ]
+  },
+  {
+    'slug': 'angelica',
+    'name': 'Angelica',
+    'element': 3,
+    'grade': 5,
+    'defaultUnit': 'the-fallen-angelica',
+    'units': [
+      'the-fallen-angelica',
+      'pool-party-angelica',
+      'neon-savior-angelica'
+    ]
+  },
+  {
+    'slug': 'refithea',
+    'name': 'Refithea',
+    'element': 3,
+    'grade': 5,
+    'defaultUnit': 'the-gluttonous-refithea',
+    'units': [
+      'the-gluttonous-refithea',
+      'pure-white-blessing-refithea',
+      'poolside-fairy-refithea'
+    ]
+  },
+  {
+    'slug': 'glacia',
+    'name': 'Glacia',
+    'element': 0,
+    'grade': 5,
+    'defaultUnit': 'alice-glacia',
+    'units': [
+      'alice-glacia',
+      'disciplinary-committee-glacia',
+      'heavenly-guardian-successor-glacia'
+    ]
+  },
+  {
+    'slug': 'ventana',
+    'name': 'Ventana',
+    'element': 3,
+    'grade': 5,
+    'defaultUnit': 'snow-white-ventana',
+    'units': [
+      'snow-white-ventana',
+      'comeback-idol-ventana',
+      'onsen-practitioner-ventana'
+    ]
+  },
+  {
+    'slug': 'granhildr',
+    'name': 'Granhildr',
+    'element': 3,
+    'grade': 5,
+    'defaultUnit': 'the-void-granhildr',
+    'units': [
+      'the-void-granhildr',
+      'comeback-idol-granhildr',
+      'boo-ghost-granhildr',
+      'combat-medic-granhildr'
+    ]
+  },
+  {
+    'slug': 'venaka',
+    'name': 'Venaka',
+    'element': 2,
+    'grade': 5,
+    'defaultUnit': 'dj-venaka',
+    'units': [
+      'dj-venaka',
+      'wind-dancer-venaka'
+    ]
+  },
+  {
+    'slug': 'levia',
+    'name': 'Levia',
+    'element': 1,
+    'grade': 5,
+    'defaultUnit': 'track-and-field-captain-levia',
+    'units': [
+      'track-and-field-captain-levia',
+      'night-of-jealousy-levia',
+      'overheat-levia'
+    ]
+  },
+  {
+    'slug': 'michaela',
+    'name': 'Michaela',
+    'element': 3,
+    'grade': 5,
+    'defaultUnit': 'beachside-justice-michaela',
+    'units': [
+      'beachside-justice-michaela',
+      'queen-of-signatures-michaela',
+      'acting-archbishop-michaela'
+    ]
+  },
+  {
+    'slug': 'luvencia',
+    'name': 'Luvencia',
+    'element': 4,
+    'grade': 5,
+    'defaultUnit': 'deal-snatcher-luvencia',
+    'units': [
+      'deal-snatcher-luvencia',
+      'wild-dog-luvencia',
+      'ocean-vanguard-luvencia'
+    ]
+  },
+  {
+    'slug': 'wilhelmina',
+    'name': 'Wilhelmina',
+    'element': 0,
+    'grade': 5,
+    'defaultUnit': 'iron-monarch-wilhelmina',
+    'units': [
+      'iron-monarch-wilhelmina',
+      'water-park-queen-wilhelmina',
+      'frozen-queen-wilhelmina'
+    ]
+  },
+  {
+    'slug': 'granadair',
+    'name': 'Granadair',
+    'element': 0,
+    'grade': 5,
+    'defaultUnit': 'shrine-maiden-of-purification-granadair',
+    'units': [
+      'shrine-maiden-of-purification-granadair',
+      'queen-of-gluttis-granadair'
+    ]
+  },
+  {
+    'slug': 'mamonir',
+    'name': 'Mamonir',
+    'element': 0,
+    'grade': 5,
+    'defaultUnit': 'night-of-death-mamonir',
+    'units': [
+      'night-of-death-mamonir',
+      'miracle-marine-mamonir'
+    ]
+  },
+  {
+    'slug': 'aquila',
+    'name': 'Aquila',
+    'element': 1,
+    'grade': 5,
+    'defaultUnit': 'savage-warrior-aquila',
+    'units': [
+      'savage-warrior-aquila',
+      'sealed-desires-aquila'
+    ]
+  }
+];
+
+export function getBD2Unit(slug) {
+  return brownDust2Units.find((u) => u.slug === slug);
+}
+export function getBD2Character(slug) {
+  return brownDust2Characters.find((c) => c.slug === slug);
+}

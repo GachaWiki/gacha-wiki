@@ -1,0 +1,217 @@
+---
+// Brown Dust 2 unit detail: one costume unit per page (costume = playable unit).
+// Old base-character URLs redirect to the character's default unit page.
+import GameLayout from '../../../../layouts/brown-dust-2/GameLayout.astro';
+import { ELEMENTS, getBD2Unit, getBD2Character } from '../../../../data/brown-dust-2/characters.js';
+
+export async function getStaticPaths() {
+  const { brownDust2Units, brownDust2Characters } = await import('../../../../data/brown-dust-2/characters.js');
+  const unitSlugs = brownDust2Units.map((u) => ({ params: { slug: u.slug } }));
+  const charSlugs = brownDust2Characters.map((c) => ({ params: { slug: c.slug } }));
+  return [...unitSlugs, ...charSlugs];
+}
+
+const { slug } = Astro.params;
+const R2 = 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/gameimg';
+const ELEMENT_ICONS: Record<string, string> = {
+  Water: `${R2}/elements/water.webp`,
+  Fire: `${R2}/elements/fire.webp`,
+  Wind: `${R2}/elements/wind.webp`,
+  Light: `${R2}/elements/light.webp`,
+  Dark: `${R2}/elements/dark.webp`,
+};
+const STAR = `${R2}/star.webp`;
+const RANKS = [1, 2, 3, 4, 5].map((i) => `${R2}/skillrank_upgrade_${i}.webp`);
+
+// legacy base-character URL -> redirect to default unit
+const unit = getBD2Unit(slug || '');
+if (!unit) {
+  const ch = getBD2Character(slug || '');
+  if (ch?.defaultUnit) return Astro.redirect(`/guides/brown-dust-2/characters/${ch.defaultUnit}/`, 302);
+  return Astro.redirect('/guides/brown-dust-2/characters/', 302);
+}
+
+const elementName = ELEMENTS[unit.element] || 'Water';
+const ch = getBD2Character(unit.charSlug);
+const siblingUnits = ch ? ch.units.filter((s) => s !== unit.slug) : [];
+---
+
+<GameLayout
+  title={`${unit.name} (${unit.charName}) - Brown Dust 2 Unit`}
+  description={`${unit.name} is a ${unit.grade}-star ${elementName} costume unit of ${unit.charName} in Brown Dust 2. Skills, stats and voice actors.`}
+  crumbName={unit.name}
+>
+  <div class="bd2-content-section">
+    <div class="bd2-detail-header">
+      {unit.body || unit.icon ? (
+        <img
+          class={unit.body ? 'bd2-detail-art bd2-detail-art-portrait' : 'bd2-detail-art'}
+          src={unit.body || unit.icon}
+          alt={unit.name}
+          width={unit.body ? 300 : 200}
+          height={unit.body ? undefined : 200}
+        />
+      ) : (
+        <div class="bd2-detail-art-monogram">{unit.name.slice(0, 2)}</div>
+      )}
+      <div class="bd2-detail-info">
+        <h1>{unit.name}</h1>
+        <p class="bd2-detail-name-alt">
+          {unit.nameJp ? `${unit.nameJp} · ` : ''}{unit.charName}
+        </p>
+        <div class="bd2-meta">
+          <span class={`bd2-chip bd2-chip-el-${unit.element}`}>
+            <img class="bd2-el-icon" src={ELEMENT_ICONS[elementName]} alt="" width="18" height="18" loading="lazy" />
+            {elementName}
+          </span>
+          <span class="bd2-chip bd2-chip-dim bd2-stars-row">
+            {Array.from({ length: Math.min(unit.grade, 5) }).map(() => (
+              <img class="bd2-star-icon" src={STAR} alt="" width="16" height="16" loading="lazy" />
+            ))}
+          </span>
+          {unit.vaJp && <span class="bd2-chip bd2-chip-dim">JP VA: {unit.vaJp}</span>}
+        </div>
+      </div>
+    </div>
+
+    <div class="bd2-detail-section">
+      <h2>Skills</h2>
+      {unit.skills.map((skill) => (
+        <div class="bd2-skill-row">
+          {(skill.icon || unit.skillCard) && (
+            <img
+              class={skill.icon ? 'bd2-skill-card bd2-skill-icon' : 'bd2-skill-card'}
+              src={skill.icon || unit.skillCard}
+              alt=""
+              width="72"
+              height="72"
+              loading="lazy"
+            />
+          )}
+          <div class="bd2-skill-body">
+            <span class="bd2-skill-name">{skill.name}</span>
+            {skill.cooldown != null && (
+              <span class="bd2-skill-meta">CD {skill.cooldown} turn{skill.cooldown === 1 ? '' : 's'}</span>
+            )}
+            {skill.tiers && skill.tiers.length > 1 && (
+              <div class="bd2-skill-ranks" data-ranks>
+                <span class="bd2-rank-badges">
+                  {skill.tiers.map((t) => (
+                    <button
+                      type="button"
+                      class={`bd2-rank-btn${t.rank === 0 ? ' active' : ''}`}
+                      data-text={t.text}
+                      data-meta={[t.value != null ? `${t.value}%` : '', t.turns != null ? `${t.turns} turns` : '', t.sp != null ? `SP ${t.sp}` : ''].filter(Boolean).join(' · ')}
+                      aria-label={`Skill rank ${t.rank}`}
+                    >
+                      {t.rank === 0 ? (
+                        <span class="bd2-rank-zero">0</span>
+                      ) : (
+                        <img
+                          class="bd2-rank-icon"
+                          src={RANKS[t.rank - 1]}
+                          alt=""
+                          width="26"
+                          height="26"
+                          loading="lazy"
+                        />
+                      )}
+                    </button>
+                  ))}
+                </span>
+                <span class="bd2-rank-value" data-rank-value>
+                  {skill.tiers[0].value != null ? `${skill.tiers[0].value}%` : ''}
+                  {skill.tiers[0].turns != null && ` · ${skill.tiers[0].turns} turns`}
+                  {skill.tiers[0].sp != null && ` · SP ${skill.tiers[0].sp}`}
+                </span>
+              </div>
+            )}
+            <p class="bd2-skill-desc" data-skill-desc>{skill.desc}</p>
+          </div>
+        </div>
+      ))}
+    </div>
+
+    {unit.talent && unit.talent.skills.length > 0 && (
+      <div class="bd2-detail-section">
+        <h2>Talent{unit.talent.name ? `: ${unit.talent.name}` : ''}</h2>
+        {unit.talent.skills.map((t, i) => (
+          <div class="bd2-skill-row">
+            {t.icon && (
+              <img
+                class="bd2-skill-card bd2-skill-icon"
+                src={t.icon}
+                alt=""
+                width="56"
+                height="56"
+                loading="lazy"
+              />
+            )}
+            <div class="bd2-skill-body">
+              <span class="bd2-skill-name">{t.name}</span>
+              <span class="bd2-skill-meta">Lv {i + 1}</span>
+              {t.value != null && <span class="bd2-skill-meta">Value {t.value}</span>}
+              {t.catalyst != null && <span class="bd2-skill-meta">Catalyst {t.catalyst}</span>}
+              {t.desc && <p class="bd2-skill-desc">{t.desc}</p>}
+            </div>
+          </div>
+        ))}
+      </div>
+    )}
+
+    {siblingUnits.length > 0 && (
+      <div class="bd2-detail-section">
+        <h2>Other {unit.charName} units</h2>
+        <div class="bd2-sibling-row">
+          {siblingUnits.map((s) => {
+            const sib = getBD2Unit(s);
+            return sib ? (
+              <a class="bd2-sibling-card" href={`/guides/brown-dust-2/characters/${sib.slug}/`}>
+                {sib.icon && <img src={sib.icon} alt={sib.name} width="96" height="96" loading="lazy" />}
+                <span class="bd2-sibling-name">{sib.name}</span>
+              </a>
+            ) : null;
+          })}
+        </div>
+      </div>
+    )}
+  </div>
+</GameLayout>
+
+<script is:inline>
+  // Skill rank selector: clicking a rank badge shows that rank's value.
+  (function () {
+    document.querySelectorAll('[data-ranks]').forEach(function (group) {
+      var value = group.querySelector('[data-rank-value]');
+      var buttons = group.querySelectorAll('.bd2-rank-btn');
+      buttons.forEach(function (btn) {
+        btn.addEventListener('click', function () {
+          buttons.forEach(function (b) { b.classList.remove('active'); });
+          btn.classList.add('active');
+          var parts = [btn.getAttribute('data-value'), btn.getAttribute('data-turns'), btn.getAttribute('data-sp')].filter(Boolean);
+          value.textContent = parts.join(' · ');
+        });
+      });
+    });
+  })();
+</script>
+
+<script is:inline>
+  // Skill rank selector: badges sit above the text; clicking a rank swaps the
+  // full description and the value line to that rank's resolved numbers.
+  (function () {
+    document.querySelectorAll('[data-ranks]').forEach(function (group) {
+      var value = group.querySelector('[data-rank-value]');
+      var desc = group.closest('.bd2-skill-body').querySelector('[data-skill-desc]');
+      var buttons = group.querySelectorAll('.bd2-rank-btn');
+      buttons.forEach(function (btn) {
+        btn.addEventListener('click', function () {
+          buttons.forEach(function (b) { b.classList.remove('active'); });
+          btn.classList.add('active');
+          value.textContent = btn.getAttribute('data-meta') || '';
+          desc.textContent = btn.getAttribute('data-text') || desc.textContent;
+        });
+      });
+    });
+  })();
+</script>

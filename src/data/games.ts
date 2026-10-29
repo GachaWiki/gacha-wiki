@@ -190,6 +190,17 @@ export const GAMES: Game[] = [
     themeColor: '#b02a37',
     sections: ['Characters', 'Tier List'],
   },
+  {
+    id: 'brown-dust-2',
+    name: 'Brown Dust 2',
+    slug: 'brown-dust-2',
+    description: 'Turn-Based RPG • 87 Characters • 189 Costumes • 5 Elements',
+    image: 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/gameimg/icon2.png',
+    url: '/guides/brown-dust-2/',
+    status: 'active',
+    themeColor: '#b89a5e',
+    sections: ['Characters', 'Costumes', 'Elements'],
+  },
 ];
 
 export function getGameById(id: string): Game | undefined {

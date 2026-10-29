@@ -1,0 +1,60 @@
+---
+// Base layout for Brown Dust 2 guide pages (nav, SEO, breadcrumb, brown/gold theme).
+import GameSEO from '../../components/GameSEO.astro';
+import Analytics from '../../components/Analytics.astro';
+import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
+import GameNavigationHeader from '../../components/GameNavigationHeader.astro';
+import MobileMenu from '../../components/MobileMenu.astro';
+import CustomScrollbar from '../../components/CustomScrollbar.astro';
+import DecorativeLines from '../../components/DecorativeLines.astro';
+import BD2Breadcrumb from '../../components/brown-dust-2/BD2Breadcrumb.astro';
+
+import '../../styles/global.css';
+import '../../styles/typography.css';
+import '../../styles/games/brown-dust-2/bd2-common.css';
+
+export interface Props {
+  title: string;
+  description?: string;
+  crumbName?: string;
+  hideBreadcrumb?: boolean;
+  pageTitle?: string;
+}
+
+const { title, description, crumbName, hideBreadcrumb = false, pageTitle } = Astro.props;
+const seoDescription =
+  description ||
+  'Brown Dust 2 wiki: character database with costumes, elements, voice actors and skills, built from decrypted local client data.';
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <GameSEO gameKey="brown-dust-2" title={title} description={seoDescription} />
+    <Analytics />
+  </head>
+  <body class="bd2-body">
+    <CustomScrollbar />
+    <div class="bd2-content">
+      <Header />
+      <GameNavigationHeader currentPath={Astro.url.pathname} gameKey="brown-dust-2" />
+      <MobileMenu />
+      <div class="bd2-container">
+        <main class="bd2-main" id="main-content">
+          {pageTitle && (
+            <section class="bd2-title-only-section">
+              <h1 class="bd2-title-only-heading">{pageTitle}</h1>
+              <DecorativeLines />
+            </section>
+          )}
+          {!hideBreadcrumb && (
+            <BD2Breadcrumb autoGenerate gameKey="brown-dust-2" showBackButton={true} currentPageName={crumbName} />
+          )}
+          <slot />
+        </main>
+      </div>
+      <Footer />
+    </div>
+  </body>
+</html>

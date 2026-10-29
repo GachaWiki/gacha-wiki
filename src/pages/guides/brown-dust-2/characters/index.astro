@@ -1,0 +1,119 @@
+---
+// Brown Dust 2 unit database: every released costume is its own card (189 units).
+import GameLayout from '../../../../layouts/brown-dust-2/GameLayout.astro';
+import { ELEMENTS, brownDust2Units, brownDust2Characters } from '../../../../data/brown-dust-2/characters.js';
+
+const R2 = 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/gameimg';
+const ELEMENT_ICONS: Record<string, string> = {
+  Water: `${R2}/elements/water.webp`,
+  Fire: `${R2}/elements/fire.webp`,
+  Wind: `${R2}/elements/wind.webp`,
+  Light: `${R2}/elements/light.webp`,
+  Dark: `${R2}/elements/dark.webp`,
+};
+const STAR = `${R2}/star.webp`;
+const units = brownDust2Units.map((u) => ({
+  ...u,
+  elementName: ELEMENTS[u.element] || 'Water',
+}));
+const charCount = brownDust2Characters.length;
+---
+
+<GameLayout
+  title="Brown Dust 2 Characters: Full Unit Database"
+  description={`All ${units.length} Brown Dust 2 costume units across ${charCount} characters, with elements, star grades, skills and voice actors. Search and filter the full roster.`}
+  crumbName="Characters"
+  pageTitle="Characters"
+>
+  <div class="bd2-content-section">
+    <div class="bd2-toolbar">
+      <input
+        type="text"
+        class="bd2-search"
+        placeholder="Search unit or character..."
+        id="bd2-search"
+        aria-label="Search units"
+      />
+      <span class="bd2-count" id="bd2-count">{units.length} units</span>
+    </div>
+    <div class="bd2-toolbar">
+      <button class="bd2-filter-btn active" data-filter="all">All</button>
+      {Object.entries(ELEMENTS).map(([id, name]) => (
+        <button class="bd2-filter-btn" data-filter={name.toLowerCase()}>
+          <img class="bd2-el-icon" src={ELEMENT_ICONS[name]} alt="" width="18" height="18" loading="lazy" />
+          {name}
+        </button>
+      ))}
+    </div>
+
+    <div class="bd2-grid-cards" id="bd2-grid">
+      {units.map((u) => (
+        <a
+          class="bd2-card"
+          href={`/guides/brown-dust-2/characters/${u.slug}/`}
+          data-search={`${u.name} ${u.nameJp || ''} ${u.nameKr || ''} ${u.charName}`.toLowerCase()}
+          data-tags={(u.elementName || '').toLowerCase()}
+        >
+          <div class="bd2-icon-frame">
+            {u.icon ? (
+              <img src={u.icon} alt={u.name} width="256" height="256" loading="lazy" />
+            ) : (
+              <span class="bd2-monogram">{u.name.slice(0, 2)}</span>
+            )}
+          </div>
+          <p class="bd2-card-title">{u.name}</p>
+          <p class="bd2-card-sub">{u.charName}</p>
+          <div class="bd2-card-types">
+            <span class="bd2-type-tile" title={`Element: ${u.elementName}`}>
+              <img src={ELEMENT_ICONS[u.elementName]} alt={u.elementName} width="24" height="24" loading="lazy" />
+            </span>
+            <span class="bd2-stars-row">
+              {Array.from({ length: Math.min(u.grade, 5) }).map(() => (
+                <img class="bd2-star-icon" src={STAR} alt="" width="14" height="14" loading="lazy" />
+              ))}
+            </span>
+          </div>
+        </a>
+      ))}
+    </div>
+    <p class="bd2-no-results" id="bd2-no-results">No units match your search.</p>
+  </div>
+</GameLayout>
+
+<script is:inline>
+  // Client-side search and element filter for the unit grid.
+  (function () {
+    var search = document.getElementById('bd2-search');
+    var grid = document.getElementById('bd2-grid');
+    var cards = grid.querySelectorAll('.bd2-card');
+    var noResults = document.getElementById('bd2-no-results');
+    var count = document.getElementById('bd2-count');
+    var total = cards.length;
+    var activeFilter = 'all';
+    function apply() {
+      var q = (search.value || '').trim().toLowerCase();
+      var visible = 0;
+      cards.forEach(function (card) {
+        var text = card.getAttribute('data-search') || '';
+        var tags = card.getAttribute('data-tags') || '';
+        var ok = (!q || text.indexOf(q) !== -1) &&
+          (activeFilter === 'all' || tags.indexOf(activeFilter) !== -1);
+        card.style.display = ok ? '' : 'none';
+        if (ok) visible++;
+      });
+      noResults.style.display = visible === 0 ? 'block' : 'none';
+      count.textContent = visible === total
+        ? total + ' units'
+        : visible + ' of ' + total + ' units';
+    }
+    search.addEventListener('input', apply);
+    document.querySelectorAll('.bd2-filter-btn').forEach(function (btn) {
+      btn.addEventListener('click', function () {
+        document.querySelectorAll('.bd2-filter-btn').forEach(function (b) { b.classList.remove('active'); });
+        btn.classList.add('active');
+        activeFilter = btn.getAttribute('data-filter');
+        apply();
+      });
+    });
+  })();
+</script>

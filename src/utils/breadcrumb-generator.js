@@ -126,6 +126,13 @@ const GAME_CONFIG = {
       stats: 'Stats & Formulas',
     },
   },
+  'brown-dust-2': {
+    name: 'Brown Dust 2',
+    basePath: '/guides/brown-dust-2/',
+    patterns: {
+      characters: 'Characters',
+    },
+  },
   'star-savior': {
     name: 'Star Savior',
     basePath: '/guides/star-savior/',

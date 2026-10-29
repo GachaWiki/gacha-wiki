@@ -1,0 +1,8 @@
+---
+// Brown Dust 2 breadcrumb: shared pill design with the BD2 gold accent.
+import BreadcrumbBase from '../BreadcrumbBase.astro';
+const style =
+  '--bc-accent:var(--bd2-accent, #b89a5e);--bc-focus:var(--bd2-accent, #b89a5e);--bc-link:var(--bd2-accent-strong, #d6bc85);--bc-list:rgba(255, 255, 255, 0.5);--bc-back-bg:#241d13';
+---
+
+<BreadcrumbBase {...Astro.props} classPrefix="bd2" style={style} />

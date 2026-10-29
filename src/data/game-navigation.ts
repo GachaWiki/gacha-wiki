@@ -13,7 +13,8 @@ export type GameKey =
   | 'majo'
   | 'agent-x'
   | 'muv-luv-girls-garden'
-  | 'gene-sys-adam';
+  | 'gene-sys-adam'
+  | 'brown-dust-2';
 
 export interface NavigationLink {
   name: string;
@@ -573,6 +574,16 @@ export const NAV_DATA: Record<GameKey, { sections: NavigationSection[] }> = {
         links: [
           { name: 'Banners', href: '/guides/gene-sys-adam/banners/' },
           { name: 'Updates', href: '/guides/gene-sys-adam/updates/' },
+        ],
+      },
+    ],
+  },
+  'brown-dust-2': {
+    sections: [
+      {
+        title: 'Characters',
+        links: [
+          { name: 'Database', href: '/guides/brown-dust-2/characters/' },
         ],
       },
     ],
