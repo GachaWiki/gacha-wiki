@@ -599,5 +599,106 @@
    "cutscene_flag": 0
   }
  ],
- "weapons": []
+ "weapons": [
+  {
+   "id": 25101,
+   "name": "[&Color_Orange][-]",
+   "name_key": "Tbl_UnitWeapon_Name_25101",
+   "icon": "Weapon_25101.png",
+   "rarity": 5,
+   "weapon_type": 251,
+   "opt_type": 11,
+   "opt_value": 47,
+   "skill_slot": 25101,
+   "skill_id": 25111,
+   "skill_data": {
+    "id": 25111,
+    "name": "",
+    "name_key": "Tbl_UnitSkill_Name_25111",
+    "name_readable": "",
+    "description": "",
+    "description_key": "Tbl_UnitSkill_Desc_25111",
+    "description_readable": "",
+    "type_description": "[Normal Attack]",
+    "type_description_readable": "[Normal Attack]",
+    "icon": "25111",
+    "cooldown": 0,
+    "hit_count": 1,
+    "additional_hits": 0,
+    "damage_scaling": "[ATK]",
+    "skill_level_scaling": "[D:10]/[D:10]/[D:10]/[D:10]/[D:10]",
+    "multiplier": 525.0,
+    "damage": {
+     "scaling": [
+      {
+       "stat": "ATK",
+       "pct": 525.0
+      }
+     ],
+     "hits": [
+      {
+       "pct": 525.0,
+       "count": 1,
+       "tar": ""
+      }
+     ],
+     "total": 525.0
+    },
+    "effects": [],
+    "battle_options": "2511101",
+    "battle_option_ids": [
+     2511101
+    ],
+    "evolution_level_required": 0,
+    "trigger_keyword": "",
+    "aura_info": "",
+    "skill_button_type": 0,
+    "camera_type": 0,
+    "cutscene_flag": 0
+   }
+  },
+  {
+   "id": 25102,
+   "name": "[&Color_Orange][-]",
+   "name_key": "Tbl_UnitWeapon_Name_25102",
+   "icon": "Weapon_25102.png",
+   "rarity": 5,
+   "weapon_type": 251,
+   "opt_type": 11,
+   "opt_value": 47,
+   "skill_slot": 25102,
+   "skill_id": 25112,
+   "skill_data": {
+    "id": 25112,
+    "name": "",
+    "name_key": "Tbl_UnitSkill_Name_25112",
+    "name_readable": "",
+    "description": "",
+    "description_key": "Tbl_UnitSkill_Desc_25112",
+    "description_readable": "",
+    "type_description": "[Support Skill]",
+    "type_description_readable": "[Support Skill]",
+    "icon": "25112",
+    "cooldown": 5,
+    "hit_count": 1,
+    "additional_hits": 0,
+    "damage_scaling": "",
+    "skill_level_scaling": "[B:10]/[B:10]/[B:10]/[B:10]/[B:10]",
+    "multiplier": null,
+    "damage": null,
+    "effects": [],
+    "battle_options": "2511201/2511202",
+    "battle_option_ids": [
+     2511201,
+     2511202
+    ],
+    "evolution_level_required": 0,
+    "trigger_keyword": "",
+    "aura_info": "",
+    "skill_button_type": 0,
+    "camera_type": 0,
+    "cutscene_flag": 0
+   }
+  }
+ ]
 }

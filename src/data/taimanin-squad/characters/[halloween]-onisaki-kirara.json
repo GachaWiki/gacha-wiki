@@ -3,22 +3,22 @@
  "name": "[Halloween] Onisaki Kirara",
  "name_key": "Tbl_Unit_Name_261",
  "slug": "[halloween]-onisaki-kirara",
- "rarity": "SR+",
- "rarity_stars": "★★★★",
- "rarity_numeric": 4,
+ "rarity": "SSR",
+ "rarity_stars": "★★★★★",
+ "rarity_numeric": 5,
  "element": "Technique",
  "element_numeric": 2,
- "role": "Defender",
- "role_numeric": 2,
+ "role": "Support",
+ "role_numeric": 3,
  "trait": "Mercury",
  "disposition_numeric": 3,
  "icon": "261_Kirara",
  "model": "261_Kirara/Unit/prf_261",
  "animation_event": "261_kirara",
- "book_index": 0,
- "acquisition_id": 10002,
- "btl_power": 7950,
- "btl_rate": 253738,
+ "book_index": 21,
+ "acquisition_id": 10003,
+ "btl_power": 8950,
+ "btl_rate": 404020,
  "names": {
   "key": "Tbl_Unit_Name_261",
   "english": "[Halloween] Onisaki Kirara",
@@ -28,41 +28,41 @@
  "lore": {
   "key": "Tbl_Unit_Desc_261",
   "english": "Taimanin, a student of Gosha Academy.\n\nA half-blood born between an oni and a human. A hybrid who inherited powers from her high-ranking oni mother, known as \"Frost Phantom\", and the ninja art from her Taimanin father. She has horns growing out of the sides of her head, which is a characteristic of oni. But she has been insecure about them since she was a child, so she usually hides them with large ribbons and shaggy ponytails. She hates men and thinks that all men are animals.\n\nHer power to manipulate cold air, which she inherited from her mother, is so powerful that she can freeze moisture in the air in an instant to create an ice shield, or freeze an enemy with her cold air-clad fists. However, due to an argument with her father, she sealed her ninja art and refuses to use it, so barely anyone knows what kind of ninja art she uses.\n\nHaving heard about it from Hebiko, Kirara surprises everyone by dressing up as a \"Halloween Vampire,\" determined to give the orphanage children an unforgettable Halloween memory.\n\nDue to some mix-up, her costume was a bit too provocative for a children's party, filling her with worry beforehand—yet, driven solely by the desire to bring joy to the kids, she steps out into the festivities anyway.\n\nAgainst a backdrop of sparkling snowflakes, she crafts dozens of bats from pure frost to paint the night sky, earning enthusiastic cheers from the mesmerized kids.",
-  "japanese": "対魔忍、五車学園の生徒。\n \n鬼族と人間のハーフ。「霜の鬼神」と呼ばれた高位鬼族の母の能力と、対魔忍の父の忍法を受け継いだハイブリッド対魔忍。鬼族の特徴である角が頭の横に生えているが、幼い時からのコンプレックスであるため、普段は大きなリボンともさもさのツインテールで隠している。基本的に男嫌いで、男は全員ケダモノだと思っている。 \n \n母親譲りの冷気を操る力は強力で、一瞬で空気中の水分を凍結させて氷の盾を作ったり、冷気を纏った拳で敵を凍結させたりすることもできる。しかし父との確執から忍法の使用は封じており、彼女がどんな忍法を使うのか知っている者は\n ほとんどいない。\n\n蛇子から話を聞いたきららは、孤児園の子供たちに一生忘れられないハロウィンをプレゼントするため、「ハロウィンヴァンパイア」に仮装した。\n\n何かの間違いがあったのか、用意された衣装は子供たちのパーティー用にしてはやや刺激的で心配していたが、子供たちを楽しませるという一念でパーティーに参加した。\n\n輝く雪の花と、冷気で作り上げた氷のコウモリで飾った夜空を見た子供たちは、大きな歓声を上げたらしい。",
+  "japanese": "対魔忍、五車学園の生徒。\n \n鬼族と人間のハーフ。「霜の鬼神」と呼ばれた高位鬼族の母の能力と、対魔忍の父の忍法を受け継いだハイブリッド対魔忍。鬼族の特徴である角が頭の横に生えているが、幼い時からのコンプレックスであるため、普段は大きなリボンともさもさのツインテールで隠している。基本的に男嫌いで、男は全員ケダモノだと思っている。 \n \n母親譲りの冷気を操る力は強力で、一瞬で空気中の水分を凍結させて氷の盾を作ったり、冷気を纏った拳で敵を凍結させたりすることもできる。しかし父との確執から忍法の使用は封じており、彼女がどんな忍法を使うのか知っている者は、ほとんどいない。\n\n蛇子から話を聞いたきららは、孤児園の子供たちに一生忘れられないハロウィンをプレゼントするため、「ハロウィンヴァンパイア」に仮装した。\n\n何かの間違いがあったのか、用意された衣装は子供たちのパーティー用にしてはやや刺激的で心配していたが、子供たちを楽しませるという一念でパーティーに参加した。\n\n輝く雪の花と、冷気で作り上げた氷のコウモリで飾った夜空を見た子供たちは、大きな歓声を上げたらしい。",
   "korean": "대마인, 오차 학원의 학생.\n \n오니족과 인간의 혼혈. \"서리의 귀신\"이라 불린 고위오니족인 어머니의 능력과, 대마인인 아버지의 인법을 이어받은 하이브리드 대마인. 오니족의 특징인 뿔이 머리 옆에 나 있지만, 어릴 때부터 컴플렉스였기때문에, 평소에는 커다란 리본과 부스스한 트윈테일로 숨기고 있다. 기본적으로 남성을 싫어하고, 남성은 모두 짐승이라고 생각하고 있다.\n \n어머니로부터 물려받은 냉기를 다루는 능력은 강력하여, 순식간에 대기 중의 수분을 얼려서 얼음 방패를 만들거나, 냉기를 휘감은 주먹으로 적을 얼려버릴 수도 있다. 하지만 아버지와 반목한 탓에 인법 사용은 봉인하고 있어, 그녀가 어떤 인법을 쓰는지 아는 자는 거의 없다.\n\n헤비코에게 이야기를 들은 키라라는 보육원 아이들에게 평생 잊지 못할 할로윈을 선물하고자, '할로윈 뱀파이어'로 깜짝 분장한다.\n\n무슨 착오였는지 준비된 의상이 아이들을 위한 파티치고는 조금 자극적이라 걱정이 앞섰으나, 아이들을 즐겁게 해주겠다는 일념 하나로 파티에 나선다.\n\n그녀는 반짝이는 눈꽃을 배경으로 차가운 냉기로 빚어낸 수많은 얼음 박쥐들을 밤하늘을 수놓아 아이들의 환호를 받는다.",
-  "chinese_simplified": "对魔忍，五车学园的学生。 \n \n鬼族和人类所生的混血儿。母亲是被称作「霜之鬼」的上级鬼族；父亲则是对魔忍。她继承了母亲的能力和父亲的忍法，成了一名混血对魔忍。头的两侧横生着鬼族的象征——犄角。因此从小就很自卑，所以平时会用大蝴蝶结绑起蓬松的双马尾来隐藏自己的角。基本上讨厌所有的男性，认为他们都是禽兽。 \n \n从母亲那继承到十分强大、操控寒气的能力，能够瞬间冻结空气中的水分，化作冰盾；或者用萦绕着寒气的拳头将敌人冻结。因与父亲反目成仇，她自己将忍法封印了起来，因此几乎没有人知道她所使用的忍法是什么。\n\n从蛇子那里听说这件事的绮罗罗，为了送给育幼院的孩子们一个永生难忘的万圣节，惊喜变装成了「万圣吸血鬼」。\n\n但不知出了什么差错，准备好的服装对给小朋友的派对来说稍嫌大胆，让她一开始有些担忧；但凭着一心想让孩子们开心的念头，她毅然决然地前往派对。\n\n绮罗罗以闪耀的雪花为背景，操控刺骨寒气凝聚出无数冰蝠点缀夜空，赢得了孩子们的欢呼喝采。",
-  "chinese_traditional": "對魔忍，五車學園的學生。\n \n鬼族和人類所生的混血兒。母親是被稱作「霜之鬼」的上級鬼族；父親則是對魔忍。她繼承了母親的能力和父親的忍法，成了一名混血對魔忍。頭的兩側橫生著鬼族的象徵——犄角。因此從小就很自卑，所以平常會用大蝴蝶結綁起蓬鬆的雙馬尾來隱藏自己的角。基本上討厭所有的男性，認為他們都是禽獸。\n \n從母親那繼承到十分強大、操控寒氣的能力，能夠瞬間凍結空氣中的水分，化作冰盾；或者用縈繞著寒氣的拳頭將敵人凍結。因與父親反目成仇，她自己將忍法封印了起來，因此幾乎沒有人知道她所使用的忍法是什麼。\n\n從蛇子那裡聽說這件事的綺羅羅，為了送給育幼院的孩子一個永生難忘的萬聖節，驚喜變裝成了「萬聖吸血鬼」。\n\n但不知出了什麼差錯，準備好的服裝對給小朋友的派對來說稍嫌大膽，讓她一開始有些擔憂；但憑著一心想讓孩子開心的念頭，她毅然決然地前往派對。\n\n綺羅羅以閃耀的雪花為背景，操控刺骨寒氣凝聚出無數冰蝠點綴夜空，贏得了孩子們的歡呼喝采。",
+  "chinese_simplified": "对魔忍，五车学园的学生。 \n \n鬼族和人类所生的混血儿。母亲是被称作「霜之鬼」的上级鬼族；父亲则是对魔忍。她继承了母亲的能力和父亲的忍法，成了一名混血对魔忍。头的两侧横生着鬼族的象征——犄角。因此从小就很自卑，所以平时会用大蝴蝶结绑起蓬松的双马尾来隐藏自己的角。基本上讨厌所有的男性，认为他们都是禽兽。 \n \n从母亲那继承到十分强大、操控寒气的能力，能够瞬间冻结空气中的水分，化作冰盾；或者用萦绕着寒气的拳头冻结敌人。因与父亲反目成仇，她自己将忍法封印了起来，因此几乎没有人知道她所使用的忍法是什么。\n\n从蛇子那里听说这件事的绮罗罗，为了送给育幼院的孩子们一个永生难忘的万圣节，惊喜变装成了「万圣吸血鬼」。\n\n但不知出了什么差错，准备好的服装对给小朋友的派对来说稍嫌大胆，让她一开始有些担忧；但凭着一心想让孩子们开心的念头，她毅然决然地前往派对。\n\n绮罗罗以闪耀的雪花为背景，操控刺骨寒气凝聚出无数冰蝠点缀夜空，赢得了孩子们的欢呼。",
+  "chinese_traditional": "對魔忍，五車學園的學生。\n \n鬼族和人類所生的混血兒。母親是被稱作「霜之鬼」的上級鬼族；父親則是對魔忍。她繼承了母親的能力和父親的忍法，成了一名混血對魔忍。頭的兩側橫生著鬼族的象徵——犄角。因此從小就很自卑，所以平常會用大蝴蝶結綁起蓬鬆的雙馬尾來隱藏自己的角。基本上討厭所有的男性，認為他們都是禽獸。\n \n從母親那繼承到十分強大、操控寒氣的能力，能夠瞬間凍結空氣中的水分，化作冰盾；或者用縈繞著寒氣的拳頭凍結敵人。因與父親反目成仇，她自己將忍法封印了起來，因此幾乎沒有人知道她所使用的忍法是什麼。\n\n從蛇子那裡聽說這件事的綺羅羅，為了送給育幼院的孩子一個永生難忘的萬聖節，驚喜變裝成了「萬聖吸血鬼」。\n\n但不知出了什麼差錯，準備好的服裝對給小朋友的派對來說稍嫌大膽，讓她一開始有些擔憂；但憑著一心想讓孩子開心的念頭，她毅然決然地前往派對。\n\n綺羅羅以閃耀的雪花為背景，操控刺骨寒氣凝聚出無數冰蝠點綴夜空，贏得了孩子們的歡呼。",
   "spanish": "Taimanin y estudiante de la Academia Gosha.\n\nEs mitad Oni y mitad humana. Una Taimanin híbrida que heredó tanto el poder de su madre, una Oni de alto rango conocida como la \"Oni de la Escarcha\", como el Arte Ninja de su padre, quien también era Taimanin. A los lados de la cabeza tiene los característicos cuernos de los Oni, pero como desde pequeña se ha sentido acomplejada por ellos, suele ocultarlos bajo un gran lazo y sus despeinadas coletas. Además, siente un profundo rechazo hacia los hombres y está convencida de que todos son unas bestias.\n\nEl poder para controlar el frío que heredó de su madre es extraordinario. Puede congelar al instante la humedad del aire para crear escudos de hielo o envolver sus puños en un frío intenso capaz de congelar a sus enemigos. Sin embargo, debido a la mala relación que mantiene con su padre, ha decidido no utilizar el Arte Ninja que heredó de él, por lo que casi nadie sabe qué clase de Arte Ninja posee.\n\nTras escuchar la idea de Hebiko, Kirara decide sorprender a los niños del orfanato disfrazándose de \"Vampira de Halloween\" para regalarles una celebración que recuerden toda la vida.\n\nSin embargo, por algún extraño error, el atuendo que prepararon para ella resulta un poco atrevido para una fiesta infantil, lo que hace que al principio se sienta algo incómoda. Aun así, su deseo de hacer felices a los niños termina imponiéndose y decide participar en la fiesta.\n\nCon brillantes copos de nieve como telón de fondo, Kirara utiliza su gélido poder para crear innumerables murciélagos de hielo que revolotean por el cielo nocturno, formando un espectáculo mágico que desata los gritos de emoción de los niños."
  },
  "base_stats": {
-  "HP": 15900,
-  "ATK": 1176,
-  "DEF": 1208,
-  "SPD": 84,
+  "HP": 28640,
+  "ATK": 1432,
+  "DEF": 716,
+  "SPD": 85,
   "CRATE": 25,
   "CDMG": 500,
-  "CRES": 50,
-  "ACC": 0,
-  "EVD": 25
+  "CRES": 0,
+  "ACC": 50,
+  "EVD": 0
  },
  "stats": {
-  "HP": 29908,
-  "ATK": 2119,
-  "DEF": 2277,
-  "SPD": 84,
+  "HP": 51745,
+  "ATK": 2596,
+  "DEF": 1315,
+  "SPD": 85,
   "CRATE": 25,
   "CDMG": 500,
-  "CRES": 100,
-  "ACC": 0,
-  "EVD": 50
+  "CRES": 0,
+  "ACC": 100,
+  "EVD": 0
  },
- "evol_stat_id": 2,
- "evol_stat_type": "Defender",
+ "evol_stat_id": 3,
+ "evol_stat_type": "Support",
  "evolution_bonuses": {
   "1": {
-   "HP": 250,
-   "ATK": 0,
-   "DEF": 20,
+   "HP": 25,
+   "ATK": 3,
+   "DEF": 5,
    "SPD": 0,
    "CRATE": 0,
    "CDMG": 0,
@@ -71,9 +71,9 @@
    "EVD": 0
   },
   "2": {
-   "HP": 500,
-   "ATK": 0,
-   "DEF": 40,
+   "HP": 50,
+   "ATK": 6,
+   "DEF": 10,
    "SPD": 0,
    "CRATE": 0,
    "CDMG": 0,
@@ -82,9 +82,9 @@
    "EVD": 0
   },
   "3": {
-   "HP": 750,
-   "ATK": 0,
-   "DEF": 60,
+   "HP": 75,
+   "ATK": 9,
+   "DEF": 15,
    "SPD": 0,
    "CRATE": 0,
    "CDMG": 0,
@@ -93,9 +93,9 @@
    "EVD": 0
   },
   "4": {
-   "HP": 1000,
-   "ATK": 0,
-   "DEF": 80,
+   "HP": 100,
+   "ATK": 12,
+   "DEF": 20,
    "SPD": 0,
    "CRATE": 0,
    "CDMG": 0,
@@ -104,9 +104,9 @@
    "EVD": 0
   },
   "5": {
-   "HP": 1250,
-   "ATK": 0,
-   "DEF": 100,
+   "HP": 125,
+   "ATK": 15,
+   "DEF": 25,
    "SPD": 0,
    "CRATE": 0,
    "CDMG": 0,
@@ -115,22 +115,22 @@
    "EVD": 0
   },
   "6": {
-   "HP": 1250,
-   "ATK": 0,
-   "DEF": 100,
+   "HP": 125,
+   "ATK": 15,
+   "DEF": 25,
    "SPD": 0,
    "CRATE": 0,
    "CDMG": 0,
-   "CRES": 50,
-   "ACC": 0,
-   "EVD": 25
+   "CRES": 0,
+   "ACC": 50,
+   "EVD": 0
   }
  },
  "evolution_bonuses_per_grade": {
   "1": {
-   "HP": 250,
-   "ATK": 0,
-   "DEF": 20,
+   "HP": 25,
+   "ATK": 3,
+   "DEF": 5,
    "SPD": 0,
    "CRATE": 0,
    "CDMG": 0,
@@ -139,9 +139,9 @@
    "EVD": 0
   },
   "2": {
-   "HP": 500,
-   "ATK": 0,
-   "DEF": 40,
+   "HP": 50,
+   "ATK": 6,
+   "DEF": 10,
    "SPD": 0,
    "CRATE": 0,
    "CDMG": 0,
@@ -150,9 +150,9 @@
    "EVD": 0
   },
   "3": {
-   "HP": 750,
-   "ATK": 0,
-   "DEF": 60,
+   "HP": 75,
+   "ATK": 9,
+   "DEF": 15,
    "SPD": 0,
    "CRATE": 0,
    "CDMG": 0,
@@ -161,9 +161,9 @@
    "EVD": 0
   },
   "4": {
-   "HP": 1000,
-   "ATK": 0,
-   "DEF": 80,
+   "HP": 100,
+   "ATK": 12,
+   "DEF": 20,
    "SPD": 0,
    "CRATE": 0,
    "CDMG": 0,
@@ -172,9 +172,9 @@
    "EVD": 0
   },
   "5": {
-   "HP": 1250,
-   "ATK": 0,
-   "DEF": 100,
+   "HP": 125,
+   "ATK": 15,
+   "DEF": 25,
    "SPD": 0,
    "CRATE": 0,
    "CDMG": 0,
@@ -183,15 +183,15 @@
    "EVD": 0
   },
   "6": {
-   "HP": 1250,
-   "ATK": 0,
-   "DEF": 100,
+   "HP": 125,
+   "ATK": 15,
+   "DEF": 25,
    "SPD": 0,
    "CRATE": 0,
    "CDMG": 0,
-   "CRES": 50,
-   "ACC": 0,
-   "EVD": 25
+   "CRES": 0,
+   "ACC": 50,
+   "EVD": 0
   }
  },
  "stats_by_grade": {
@@ -199,20 +199,20 @@
    "grade": 1,
    "max_level": 10,
    "stats": {
-    "HP": 17846,
-    "ATK": 1319,
-    "DEF": 1355,
-    "SPD": 84,
+    "HP": 32145,
+    "ATK": 1607,
+    "DEF": 803,
+    "SPD": 85,
     "CRATE": 25,
     "CDMG": 500,
-    "CRES": 50,
-    "ACC": 0,
-    "EVD": 25
+    "CRES": 0,
+    "ACC": 50,
+    "EVD": 0
    },
    "evolution_bonus_total": {
-    "HP": 250,
-    "ATK": 0,
-    "DEF": 20,
+    "HP": 25,
+    "ATK": 3,
+    "DEF": 5,
     "SPD": 0,
     "CRATE": 0,
     "CDMG": 0,
@@ -225,20 +225,20 @@
    "grade": 2,
    "max_level": 20,
    "stats": {
-    "HP": 20008,
-    "ATK": 1479,
-    "DEF": 1520,
-    "SPD": 84,
+    "HP": 36040,
+    "ATK": 1802,
+    "DEF": 901,
+    "SPD": 85,
     "CRATE": 25,
     "CDMG": 500,
-    "CRES": 50,
-    "ACC": 0,
-    "EVD": 25
+    "CRES": 0,
+    "ACC": 50,
+    "EVD": 0
    },
    "evolution_bonus_total": {
-    "HP": 500,
-    "ATK": 0,
-    "DEF": 40,
+    "HP": 50,
+    "ATK": 6,
+    "DEF": 10,
     "SPD": 0,
     "CRATE": 0,
     "CDMG": 0,
@@ -251,20 +251,20 @@
    "grade": 3,
    "max_level": 30,
    "stats": {
-    "HP": 22170,
-    "ATK": 1639,
-    "DEF": 1684,
-    "SPD": 84,
+    "HP": 39935,
+    "ATK": 1996,
+    "DEF": 998,
+    "SPD": 85,
     "CRATE": 25,
     "CDMG": 500,
-    "CRES": 50,
-    "ACC": 0,
-    "EVD": 25
+    "CRES": 0,
+    "ACC": 50,
+    "EVD": 0
    },
    "evolution_bonus_total": {
-    "HP": 750,
-    "ATK": 0,
-    "DEF": 60,
+    "HP": 75,
+    "ATK": 9,
+    "DEF": 15,
     "SPD": 0,
     "CRATE": 0,
     "CDMG": 0,
@@ -277,20 +277,20 @@
    "grade": 4,
    "max_level": 40,
    "stats": {
-    "HP": 24333,
-    "ATK": 1799,
-    "DEF": 1848,
-    "SPD": 84,
+    "HP": 43830,
+    "ATK": 2191,
+    "DEF": 1095,
+    "SPD": 85,
     "CRATE": 25,
     "CDMG": 500,
-    "CRES": 50,
-    "ACC": 0,
-    "EVD": 25
+    "CRES": 0,
+    "ACC": 50,
+    "EVD": 0
    },
    "evolution_bonus_total": {
-    "HP": 1000,
-    "ATK": 0,
-    "DEF": 80,
+    "HP": 100,
+    "ATK": 12,
+    "DEF": 20,
     "SPD": 0,
     "CRATE": 0,
     "CDMG": 0,
@@ -303,20 +303,20 @@
    "grade": 5,
    "max_level": 50,
    "stats": {
-    "HP": 26495,
-    "ATK": 1959,
-    "DEF": 2013,
-    "SPD": 84,
+    "HP": 47725,
+    "ATK": 2386,
+    "DEF": 1193,
+    "SPD": 85,
     "CRATE": 25,
     "CDMG": 500,
-    "CRES": 50,
-    "ACC": 0,
-    "EVD": 25
+    "CRES": 0,
+    "ACC": 50,
+    "EVD": 0
    },
    "evolution_bonus_total": {
-    "HP": 1250,
-    "ATK": 0,
-    "DEF": 100,
+    "HP": 125,
+    "ATK": 15,
+    "DEF": 25,
     "SPD": 0,
     "CRATE": 0,
     "CDMG": 0,
@@ -329,26 +329,26 @@
    "grade": 6,
    "max_level": 60,
    "stats": {
-    "HP": 28658,
-    "ATK": 2119,
-    "DEF": 2177,
-    "SPD": 84,
+    "HP": 51620,
+    "ATK": 2581,
+    "DEF": 1290,
+    "SPD": 85,
     "CRATE": 25,
     "CDMG": 500,
-    "CRES": 50,
-    "ACC": 0,
-    "EVD": 25
+    "CRES": 0,
+    "ACC": 50,
+    "EVD": 0
    },
    "evolution_bonus_total": {
-    "HP": 1250,
-    "ATK": 0,
-    "DEF": 100,
+    "HP": 125,
+    "ATK": 15,
+    "DEF": 25,
     "SPD": 0,
     "CRATE": 0,
     "CDMG": 0,
-    "CRES": 50,
-    "ACC": 0,
-    "EVD": 25
+    "CRES": 0,
+    "ACC": 50,
+    "EVD": 0
    }
   }
  },
@@ -357,122 +357,152 @@
    "level": 10,
    "grade_required": 1,
    "stats": {
-    "HP": 17846,
-    "ATK": 1319,
-    "DEF": 1355,
-    "SPD": 84,
+    "HP": 32145,
+    "ATK": 1607,
+    "DEF": 803,
+    "SPD": 85,
     "CRATE": 25,
     "CDMG": 500,
-    "CRES": 50,
-    "ACC": 0,
-    "EVD": 25
+    "CRES": 0,
+    "ACC": 50,
+    "EVD": 0
    }
   },
   "20": {
    "level": 20,
    "grade_required": 2,
    "stats": {
-    "HP": 20008,
-    "ATK": 1479,
-    "DEF": 1520,
-    "SPD": 84,
+    "HP": 36040,
+    "ATK": 1802,
+    "DEF": 901,
+    "SPD": 85,
     "CRATE": 25,
     "CDMG": 500,
-    "CRES": 50,
-    "ACC": 0,
-    "EVD": 25
+    "CRES": 0,
+    "ACC": 50,
+    "EVD": 0
    }
   },
   "30": {
    "level": 30,
    "grade_required": 3,
    "stats": {
-    "HP": 22170,
-    "ATK": 1639,
-    "DEF": 1684,
-    "SPD": 84,
+    "HP": 39935,
+    "ATK": 1996,
+    "DEF": 998,
+    "SPD": 85,
     "CRATE": 25,
     "CDMG": 500,
-    "CRES": 50,
-    "ACC": 0,
-    "EVD": 25
+    "CRES": 0,
+    "ACC": 50,
+    "EVD": 0
    }
   },
   "40": {
    "level": 40,
    "grade_required": 4,
    "stats": {
-    "HP": 24333,
-    "ATK": 1799,
-    "DEF": 1848,
-    "SPD": 84,
+    "HP": 43830,
+    "ATK": 2191,
+    "DEF": 1095,
+    "SPD": 85,
     "CRATE": 25,
     "CDMG": 500,
-    "CRES": 50,
-    "ACC": 0,
-    "EVD": 25
+    "CRES": 0,
+    "ACC": 50,
+    "EVD": 0
    }
   },
   "50": {
    "level": 50,
    "grade_required": 5,
    "stats": {
-    "HP": 26495,
-    "ATK": 1959,
-    "DEF": 2013,
-    "SPD": 84,
+    "HP": 47725,
+    "ATK": 2386,
+    "DEF": 1193,
+    "SPD": 85,
     "CRATE": 25,
     "CDMG": 500,
-    "CRES": 50,
-    "ACC": 0,
-    "EVD": 25
+    "CRES": 0,
+    "ACC": 50,
+    "EVD": 0
    }
   },
   "60": {
    "level": 60,
    "grade_required": 6,
    "stats": {
-    "HP": 28658,
-    "ATK": 2119,
-    "DEF": 2177,
-    "SPD": 84,
+    "HP": 51620,
+    "ATK": 2581,
+    "DEF": 1290,
+    "SPD": 85,
     "CRATE": 25,
     "CDMG": 500,
-    "CRES": 50,
-    "ACC": 0,
-    "EVD": 25
+    "CRES": 0,
+    "ACC": 50,
+    "EVD": 0
    }
   }
  },
  "skills": [
   {
+   "id": 26100,
+   "name": "[&Color_Orange][&CRI_DMG] Aura[-]",
+   "name_key": "Tbl_UnitSkill_Name_CRI_DMG",
+   "name_readable": "CRIT DMG Aura",
+   "description": "Increase {3} of {2} allies by {0} in {1}",
+   "description_key": "Tbl_UnitSkill_Desc_Aura",
+   "description_readable": "Increase CRIT DMG of Technique allies by 17.5% in All Battles",
+   "type_description": "[Aura Skill]",
+   "type_description_readable": "[Aura Skill]",
+   "icon": "leader_cdmg",
+   "cooldown": 0,
+   "hit_count": 0,
+   "additional_hits": 0,
+   "damage_scaling": "",
+   "skill_level_scaling": "",
+   "multiplier": null,
+   "damage": null,
+   "effects": [],
+   "battle_options": "2610001",
+   "battle_option_ids": [
+    2610001
+   ],
+   "evolution_level_required": 3,
+   "trigger_keyword": "",
+   "aura_info": "17.5,QUEST_ALL,Technique,CriDmg",
+   "skill_button_type": -2,
+   "camera_type": 0,
+   "cutscene_flag": 0
+  },
+  {
    "id": 26101,
-   "name": "",
+   "name": "[&Color_Cyan]Frost Jack Spin[-]",
    "name_key": "Tbl_UnitSkill_Name_26101",
-   "name_readable": "",
-   "description": "",
+   "name_readable": "Frost Jack Spin",
+   "description": "Elegantly flies toward the enemy and slashes them with wings [A:26101] time(s).\nTarget hit is inflicted with [&Color_Cyan]([V3:2610102]%)[-] [&Frostbite] at a [&Color_Cyan][R:2610102]%[-] chance.\n[&Common_Word_Skill_ValueTurn]: [V2:2610102] turn(s)",
    "description_key": "Tbl_UnitSkill_Desc_26101",
-   "description_readable": "",
+   "description_readable": "Elegantly flies toward the enemy and slashes them with wings 2 time(s).\nTarget hit is inflicted with (25%) Frostbite at a 15% chance.\nDuration: 2 turn(s)",
    "type_description": "[Normal Attack]",
    "type_description_readable": "[Normal Attack]",
    "icon": "26101",
    "cooldown": 0,
-   "hit_count": 1,
+   "hit_count": 2,
    "additional_hits": 0,
    "damage_scaling": "[ATK]",
-   "skill_level_scaling": "[D:10]/[D:10]/[D:10]/[D:10]/[D:10]",
-   "multiplier": 504.0,
+   "skill_level_scaling": "[B:10]/[P:10]/[B:10]/[P:10]/[B:10]",
+   "multiplier": 252.0,
    "damage": {
     "scaling": [
      {
       "stat": "ATK",
-      "pct": 504.0
+      "pct": 252.0
      }
     ],
     "hits": [
      {
-      "pct": 504.0,
-      "count": 1,
+      "pct": 252.0,
+      "count": 2,
       "tar": ""
      }
     ],
@@ -493,12 +523,12 @@
   },
   {
    "id": 26102,
-   "name": "",
+   "name": "[&Color_Cyan]Ice Pumpkin[-]",
    "name_key": "Tbl_UnitSkill_Name_26102",
-   "name_readable": "",
-   "description": "",
+   "name_readable": "Ice Pumpkin",
+   "description": "Rolls an ice pumpkin head at the enemy.\nIf the target is afflicted with [&Frostbite], inflicts [&Color_Cyan]([V3:2610201]%)[-] [&Weaken] [&Common_Word_Skill_ActionBefore].\n[&Common_Word_Skill_ValueTurn]: [V2:2610201] turn(s)\nInflicts [&Color_Cyan]([V3:2610203]%)[-] [&Freeze] at a [&Color_Cyan][R:2610203]%[-] chance on the [&Common_Word_Skill_ActionLast].\n[&Common_Word_Skill_ValueTurn]: [V2:2610203] turn(s)",
    "description_key": "Tbl_UnitSkill_Desc_26102",
-   "description_readable": "",
+   "description_readable": "Rolls an ice pumpkin head at the enemy.\nIf the target is afflicted with Frostbite, inflicts (31.5%) Weaken before the attack.\nDuration: 2 turn(s)\nInflicts (25%) Freeze at a 35% chance on the Last Attack.\nDuration: 2 turn(s)",
    "type_description": "[Attack Skill]",
    "type_description_readable": "[Attack Skill]",
    "icon": "26102",
@@ -506,7 +536,7 @@
    "hit_count": 1,
    "additional_hits": 0,
    "damage_scaling": "[ATK]",
-   "skill_level_scaling": "[D:10]/[D:10]/[D:10]/[D:10]/[D:10]",
+   "skill_level_scaling": "[B:10]/[P:10]/[B:10]/[P:10]/[B:10]",
    "multiplier": 692.2,
    "damage": {
     "scaling": [
@@ -540,12 +570,12 @@
   },
   {
    "id": 26103,
-   "name": "",
+   "name": "[&Color_Cyan]Frost Jack Nova[-]",
    "name_key": "Tbl_UnitSkill_Name_26103",
-   "name_readable": "",
-   "description": "",
+   "name_readable": "Frost Jack Nova",
+   "description": "Launches a massive ice pumpkin to attack [&Common_Word_Skill_EnemyAll].\nThe following effects apply depending on the number of enemies afflicted with [&Freeze].\n1 or more: Inflicts [&Color_Cyan]([V3:2610302]%)[-] [&SpdDown] to [&Common_Word_Skill_EnemyAll] at a [&Color_Cyan][R:2610302]%[-] chance.\n2 or more: Grants [&Color_Cyan]([V3:2610304]%)[-] [&AtkUp] to [&Common_Word_Skill_AllyAll].\n3 or more: [&Common_Word_Skill_AllyAll] recover by [&Color_Cyan][V3:2610307]%[-] of the character's Max. [&HP].\n[&Common_Word_Skill_ValueTurn]: [V2:2610302] turn(s)",
    "description_key": "Tbl_UnitSkill_Desc_26103",
-   "description_readable": "",
+   "description_readable": "Launches a massive ice pumpkin to attack ALL enemies.\nThe following effects apply depending on the number of enemies afflicted with Freeze.\n1 or more: Inflicts (-28.5%) SPD DOWN to ALL enemies at a 99% chance.\n2 or more: Grants (45%) ATK UP to ALL allies.\n3 or more: ALL allies recover by 31.5% of the character's Max. HP.\nDuration: 2 turn(s)",
    "type_description": "[Ultimate Skill]",
    "type_description_readable": "[Ultimate Skill]",
    "icon": "26103",
@@ -553,30 +583,34 @@
    "hit_count": 1,
    "additional_hits": 0,
    "damage_scaling": "[ATK]",
-   "skill_level_scaling": "[D:10]/[P:10]/[D:10]/[P:10]/[D:10]",
-   "multiplier": 429.8,
+   "skill_level_scaling": "[B:10]/[D:10]/[B:10]/[D:10]/[B:10]",
+   "multiplier": 409.8,
    "damage": {
     "scaling": [
      {
       "stat": "ATK",
-      "pct": 429.8
+      "pct": 409.8
      }
     ],
     "hits": [
      {
-      "pct": 429.8,
+      "pct": 409.8,
       "count": 1,
       "tar": "all enemies"
      }
     ],
-    "total": 429.8
+    "total": 409.8
    },
    "effects": [],
-   "battle_options": "2610301/2610302/2610303",
+   "battle_options": "2610301/2610302/2610303/2610304/2610305/2610306/2610307",
    "battle_option_ids": [
     2610301,
     2610302,
-    2610303
+    2610303,
+    2610304,
+    2610305,
+    2610306,
+    2610307
    ],
    "evolution_level_required": 1,
    "trigger_keyword": "",
@@ -587,26 +621,27 @@
   },
   {
    "id": 26104,
-   "name": "",
+   "name": "[&Color_Cyan]Halloween Vampire[-]",
    "name_key": "Tbl_UnitSkill_Name_26104",
-   "name_readable": "",
-   "description": "",
+   "name_readable": "Halloween Vampire",
+   "description": "At the end of the character's turn, if there is an enemy with [&Frostbite], inflicts [&Color_Cyan]([V3:2610402]%)[-] [&Frostbite] on enemies with no [&Frostbite] at a [&Color_Cyan][R:2610402]%[-] chance.\n[&Common_Word_Skill_ValueTurn]: [V2:2610402] turn(s)\nWhen attacking an enemy afflicted with [&Frostbite], performs a [&Color_Cyan]([V3:2610401]%)[-] [&Common_Word_Skill_DmgDrainHp] attack.",
    "description_key": "Tbl_UnitSkill_Desc_26104",
-   "description_readable": "",
+   "description_readable": "At the end of the character's turn, if there is an enemy with Frostbite, inflicts (25%) Frostbite on enemies with no Frostbite at a 35% chance.\nDuration: 2 turn(s)\nWhen attacking an enemy afflicted with Frostbite, performs a (15%) Life Steal attack.",
    "type_description": "[Passive Skill]",
    "type_description_readable": "[Passive Skill]",
    "icon": "26104",
-   "cooldown": 0,
+   "cooldown": 3,
    "hit_count": 0,
    "additional_hits": 0,
    "damage_scaling": "",
-   "skill_level_scaling": "",
+   "skill_level_scaling": "[B:10]/[P:10]/[B:10]/[P:10]/[B:10]",
    "multiplier": null,
    "damage": null,
    "effects": [],
-   "battle_options": "2610401",
+   "battle_options": "2610401/2610402",
    "battle_option_ids": [
-    2610401
+    2610401,
+    2610402
    ],
    "evolution_level_required": 2,
    "trigger_keyword": "",
@@ -616,5 +651,109 @@
    "cutscene_flag": 0
   }
  ],
- "weapons": []
+ "weapons": [
+  {
+   "id": 26101,
+   "name": "[&Color_Orange]Crystal Specter[-]",
+   "name_key": "Tbl_UnitWeapon_Name_26101",
+   "icon": "Weapon_26101.png",
+   "rarity": 5,
+   "weapon_type": 261,
+   "opt_type": 10,
+   "opt_value": 47,
+   "skill_slot": 26102,
+   "skill_id": 26112,
+   "skill_data": {
+    "id": 26112,
+    "name": "<[&Tbl_UnitWeapon_Name_26101]> [&Tbl_UnitSkill_Name_26102]",
+    "name_key": "Tbl_UnitSkill_Name_26112",
+    "name_readable": "<Crystal Specter> Ice Pumpkin",
+    "description": "Rolls an ice pumpkin head at the enemy.\nIf the target is afflicted with [&Frostbite], increases the duration of [&Frostbite] by [V2:2611201] turn(s) [&Common_Word_Skill_ActionBefore].\nInflicts [&Color_Cyan]([V3:2611203]%)[-] [&Freeze] at a [&Color_Cyan][R:2611203]%[-] chance on the [&Common_Word_Skill_ActionLast].\n[&Common_Word_Skill_ValueTurn]: [V2:2611203] turn(s)",
+    "description_key": "Tbl_UnitSkill_Desc_26112",
+    "description_readable": "Rolls an ice pumpkin head at the enemy.\nIf the target is afflicted with Frostbite, increases the duration of Frostbite by 1 turn(s) before the attack.\nInflicts (25%) Freeze at a 35% chance on the Last Attack.\nDuration: 2 turn(s)",
+    "type_description": "[Attack Skill]",
+    "type_description_readable": "[Attack Skill]",
+    "icon": "26112",
+    "cooldown": 3,
+    "hit_count": 1,
+    "additional_hits": 0,
+    "damage_scaling": "[ATK]",
+    "skill_level_scaling": "[B:10]/[P:10]/[B:10]/[P:10]/[B:10]",
+    "multiplier": 692.2,
+    "damage": {
+     "scaling": [
+      {
+       "stat": "ATK",
+       "pct": 692.2
+      }
+     ],
+     "hits": [
+      {
+       "pct": 692.2,
+       "count": 1,
+       "tar": ""
+      }
+     ],
+     "total": 692.2
+    },
+    "effects": [],
+    "battle_options": "2611201/2611202/2611203",
+    "battle_option_ids": [
+     2611201,
+     2611202,
+     2611203
+    ],
+    "evolution_level_required": 0,
+    "trigger_keyword": "",
+    "aura_info": "",
+    "skill_button_type": 0,
+    "camera_type": 0,
+    "cutscene_flag": 0
+   }
+  },
+  {
+   "id": 26102,
+   "name": "[&Color_Orange]Spectral Flame[-]",
+   "name_key": "Tbl_UnitWeapon_Name_26102",
+   "icon": "Weapon_26102.png",
+   "rarity": 5,
+   "weapon_type": 261,
+   "opt_type": 9,
+   "opt_value": 20,
+   "skill_slot": 26104,
+   "skill_id": 26114,
+   "skill_data": {
+    "id": 26114,
+    "name": "<[&Tbl_UnitWeapon_Name_26102]> [&Tbl_UnitSkill_Name_26104]",
+    "name_key": "Tbl_UnitSkill_Name_26114",
+    "name_readable": "<Spectral Flame> Halloween Vampire",
+    "description": "At the end of the character's turn, if there is an enemy with [&Frostbite], grants [&Color_Cyan]([V3:2611402]%)[-] [&CriRateUp] to [&Common_Word_Skill_AllyAll]\nand removes 1 [&Common_Word_Skill_Random] [&DeBuff].\n[&Common_Word_Skill_ValueTurn]: [V2:2610402] turn(s)\nWhen attacking an enemy afflicted with [&Frostbite], performs a [&Color_Cyan]([V3:2610401]%)[-] [&Common_Word_Skill_DmgDrainHp] attack.",
+    "description_key": "Tbl_UnitSkill_Desc_26114",
+    "description_readable": "At the end of the character's turn, if there is an enemy with Frostbite, grants (35%) CRIT Rate UP to ALL allies\nand removes 1 Random Debuff.\nDuration: 2 turn(s)\nWhen attacking an enemy afflicted with Frostbite, performs a (15%) Life Steal attack.",
+    "type_description": "[Passive Skill]",
+    "type_description_readable": "[Passive Skill]",
+    "icon": "26114",
+    "cooldown": 3,
+    "hit_count": 0,
+    "additional_hits": 0,
+    "damage_scaling": "",
+    "skill_level_scaling": "[B:10]/[B:10]/[B:10]/[B:10]/[B:10]",
+    "multiplier": null,
+    "damage": null,
+    "effects": [],
+    "battle_options": "2611401/2611402/2611403",
+    "battle_option_ids": [
+     2611401,
+     2611402,
+     2611403
+    ],
+    "evolution_level_required": 2,
+    "trigger_keyword": "",
+    "aura_info": "",
+    "skill_button_type": -1,
+    "camera_type": 0,
+    "cutscene_flag": 0
+   }
+  }
+ ]
 }

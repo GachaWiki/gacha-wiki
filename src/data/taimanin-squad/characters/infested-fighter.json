@@ -8,17 +8,17 @@
  "rarity_numeric": 2,
  "element": "Agility",
  "element_numeric": 3,
- "role": "Defender",
- "role_numeric": 2,
- "trait": "Mars",
- "disposition_numeric": 2,
+ "role": "Attacker",
+ "role_numeric": 1,
+ "trait": "Sun",
+ "disposition_numeric": 7,
  "icon": "233_Fightermod2",
  "model": "233_Fightermod2/Unit/prf_233",
  "animation_event": "233_fightermod2",
  "book_index": 0,
  "acquisition_id": 10001,
  "btl_power": 5800,
- "btl_rate": 313138,
+ "btl_rate": 264034,
  "names": {
   "key": "Tbl_Unit_Name_233",
   "english": "Infested Fighter",
@@ -35,10 +35,10 @@
   "spanish": "Un agente especial que pertenecía a la unidad de exoesqueletos de combate personalizados de la UFS y que, tras ser devuelto de la muerte por el miasma de una Caballera Espectral, ahora es utilizado como una marioneta sin alma.\n\nSobre el exoesqueleto de combate, que se ha vuelto verde oscuro tras ser corrompido por el miasma, brotan grotescas bolsas de veneno de un intenso color verde. El miasma que habita en su interior fuerza el funcionamiento de los actuadores hidráulicos de precisión en lugar del cuerpo ya frío y sin vida.\n\nEn particular, la armadura de absorción de impactos, diseñada para resistir todo tipo de ataques, se ha fusionado con el miasma retorcido. Gracias a su abrumadora resistencia, en cuanto detecta a un ser vivo, carga contra él sin piedad y lo aplasta."
  },
  "base_stats": {
-  "HP": 14384,
-  "ATK": 719,
-  "DEF": 881,
-  "SPD": 73,
+  "HP": 12064,
+  "ATK": 928,
+  "DEF": 788,
+  "SPD": 70,
   "CRATE": 25,
   "CDMG": 500,
   "CRES": 0,
@@ -46,23 +46,23 @@
   "EVD": 0
  },
  "stats": {
-  "HP": 28533,
-  "ATK": 1363,
-  "DEF": 1771,
-  "SPD": 73,
-  "CRATE": 25,
-  "CDMG": 500,
-  "CRES": 50,
+  "HP": 23082,
+  "ATK": 1790,
+  "DEF": 1494,
+  "SPD": 70,
+  "CRATE": 50,
+  "CDMG": 575,
+  "CRES": 0,
   "ACC": 0,
-  "EVD": 25
+  "EVD": 0
  },
- "evol_stat_id": 2,
- "evol_stat_type": "Defender",
+ "evol_stat_id": 1,
+ "evol_stat_type": "Attacker",
  "evolution_bonuses": {
   "1": {
-   "HP": 250,
-   "ATK": 0,
-   "DEF": 20,
+   "HP": 40,
+   "ATK": 6,
+   "DEF": 0,
    "SPD": 0,
    "CRATE": 0,
    "CDMG": 0,
@@ -71,9 +71,9 @@
    "EVD": 0
   },
   "2": {
-   "HP": 500,
-   "ATK": 0,
-   "DEF": 40,
+   "HP": 80,
+   "ATK": 12,
+   "DEF": 0,
    "SPD": 0,
    "CRATE": 0,
    "CDMG": 0,
@@ -82,9 +82,9 @@
    "EVD": 0
   },
   "3": {
-   "HP": 750,
-   "ATK": 0,
-   "DEF": 60,
+   "HP": 120,
+   "ATK": 18,
+   "DEF": 0,
    "SPD": 0,
    "CRATE": 0,
    "CDMG": 0,
@@ -93,9 +93,9 @@
    "EVD": 0
   },
   "4": {
-   "HP": 1000,
-   "ATK": 0,
-   "DEF": 80,
+   "HP": 160,
+   "ATK": 24,
+   "DEF": 0,
    "SPD": 0,
    "CRATE": 0,
    "CDMG": 0,
@@ -104,9 +104,9 @@
    "EVD": 0
   },
   "5": {
-   "HP": 1250,
-   "ATK": 0,
-   "DEF": 100,
+   "HP": 200,
+   "ATK": 30,
+   "DEF": 0,
    "SPD": 0,
    "CRATE": 0,
    "CDMG": 0,
@@ -115,22 +115,22 @@
    "EVD": 0
   },
   "6": {
-   "HP": 1250,
-   "ATK": 0,
-   "DEF": 100,
+   "HP": 200,
+   "ATK": 30,
+   "DEF": 0,
    "SPD": 0,
-   "CRATE": 0,
-   "CDMG": 0,
-   "CRES": 50,
+   "CRATE": 25,
+   "CDMG": 75,
+   "CRES": 0,
    "ACC": 0,
-   "EVD": 25
+   "EVD": 0
   }
  },
  "evolution_bonuses_per_grade": {
   "1": {
-   "HP": 250,
-   "ATK": 0,
-   "DEF": 20,
+   "HP": 40,
+   "ATK": 6,
+   "DEF": 0,
    "SPD": 0,
    "CRATE": 0,
    "CDMG": 0,
@@ -139,9 +139,9 @@
    "EVD": 0
   },
   "2": {
-   "HP": 500,
-   "ATK": 0,
-   "DEF": 40,
+   "HP": 80,
+   "ATK": 12,
+   "DEF": 0,
    "SPD": 0,
    "CRATE": 0,
    "CDMG": 0,
@@ -150,9 +150,9 @@
    "EVD": 0
   },
   "3": {
-   "HP": 750,
-   "ATK": 0,
-   "DEF": 60,
+   "HP": 120,
+   "ATK": 18,
+   "DEF": 0,
    "SPD": 0,
    "CRATE": 0,
    "CDMG": 0,
@@ -161,9 +161,9 @@
    "EVD": 0
   },
   "4": {
-   "HP": 1000,
-   "ATK": 0,
-   "DEF": 80,
+   "HP": 160,
+   "ATK": 24,
+   "DEF": 0,
    "SPD": 0,
    "CRATE": 0,
    "CDMG": 0,
@@ -172,9 +172,9 @@
    "EVD": 0
   },
   "5": {
-   "HP": 1250,
-   "ATK": 0,
-   "DEF": 100,
+   "HP": 200,
+   "ATK": 30,
+   "DEF": 0,
    "SPD": 0,
    "CRATE": 0,
    "CDMG": 0,
@@ -183,15 +183,15 @@
    "EVD": 0
   },
   "6": {
-   "HP": 1250,
-   "ATK": 0,
-   "DEF": 100,
+   "HP": 200,
+   "ATK": 30,
+   "DEF": 0,
    "SPD": 0,
-   "CRATE": 0,
-   "CDMG": 0,
-   "CRES": 50,
+   "CRATE": 25,
+   "CDMG": 75,
+   "CRES": 0,
    "ACC": 0,
-   "EVD": 25
+   "EVD": 0
   }
  },
  "stats_by_grade": {
@@ -199,10 +199,10 @@
    "grade": 1,
    "max_level": 10,
    "stats": {
-    "HP": 16351,
-    "ATK": 817,
-    "DEF": 1001,
-    "SPD": 73,
+    "HP": 13714,
+    "ATK": 1054,
+    "DEF": 895,
+    "SPD": 70,
     "CRATE": 25,
     "CDMG": 500,
     "CRES": 0,
@@ -210,9 +210,9 @@
     "EVD": 0
    },
    "evolution_bonus_total": {
-    "HP": 250,
-    "ATK": 0,
-    "DEF": 20,
+    "HP": 40,
+    "ATK": 6,
+    "DEF": 0,
     "SPD": 0,
     "CRATE": 0,
     "CDMG": 0,
@@ -225,10 +225,10 @@
    "grade": 2,
    "max_level": 20,
    "stats": {
-    "HP": 18538,
-    "ATK": 926,
-    "DEF": 1135,
-    "SPD": 73,
+    "HP": 15548,
+    "ATK": 1196,
+    "DEF": 1015,
+    "SPD": 70,
     "CRATE": 25,
     "CDMG": 500,
     "CRES": 0,
@@ -236,9 +236,9 @@
     "EVD": 0
    },
    "evolution_bonus_total": {
-    "HP": 500,
-    "ATK": 0,
-    "DEF": 40,
+    "HP": 80,
+    "ATK": 12,
+    "DEF": 0,
     "SPD": 0,
     "CRATE": 0,
     "CDMG": 0,
@@ -251,10 +251,10 @@
    "grade": 3,
    "max_level": 30,
    "stats": {
-    "HP": 20724,
-    "ATK": 1035,
-    "DEF": 1269,
-    "SPD": 73,
+    "HP": 17381,
+    "ATK": 1337,
+    "DEF": 1135,
+    "SPD": 70,
     "CRATE": 25,
     "CDMG": 500,
     "CRES": 0,
@@ -262,9 +262,9 @@
     "EVD": 0
    },
    "evolution_bonus_total": {
-    "HP": 750,
-    "ATK": 0,
-    "DEF": 60,
+    "HP": 120,
+    "ATK": 18,
+    "DEF": 0,
     "SPD": 0,
     "CRATE": 0,
     "CDMG": 0,
@@ -277,10 +277,10 @@
    "grade": 4,
    "max_level": 40,
    "stats": {
-    "HP": 22910,
-    "ATK": 1145,
-    "DEF": 1403,
-    "SPD": 73,
+    "HP": 19215,
+    "ATK": 1478,
+    "DEF": 1255,
+    "SPD": 70,
     "CRATE": 25,
     "CDMG": 500,
     "CRES": 0,
@@ -288,9 +288,9 @@
     "EVD": 0
    },
    "evolution_bonus_total": {
-    "HP": 1000,
-    "ATK": 0,
-    "DEF": 80,
+    "HP": 160,
+    "ATK": 24,
+    "DEF": 0,
     "SPD": 0,
     "CRATE": 0,
     "CDMG": 0,
@@ -303,10 +303,10 @@
    "grade": 5,
    "max_level": 50,
    "stats": {
-    "HP": 25097,
-    "ATK": 1254,
-    "DEF": 1537,
-    "SPD": 73,
+    "HP": 21049,
+    "ATK": 1619,
+    "DEF": 1374,
+    "SPD": 70,
     "CRATE": 25,
     "CDMG": 500,
     "CRES": 0,
@@ -314,9 +314,9 @@
     "EVD": 0
    },
    "evolution_bonus_total": {
-    "HP": 1250,
-    "ATK": 0,
-    "DEF": 100,
+    "HP": 200,
+    "ATK": 30,
+    "DEF": 0,
     "SPD": 0,
     "CRATE": 0,
     "CDMG": 0,
@@ -329,10 +329,10 @@
    "grade": 6,
    "max_level": 60,
    "stats": {
-    "HP": 27283,
-    "ATK": 1363,
-    "DEF": 1671,
-    "SPD": 73,
+    "HP": 22882,
+    "ATK": 1760,
+    "DEF": 1494,
+    "SPD": 70,
     "CRATE": 25,
     "CDMG": 500,
     "CRES": 0,
@@ -340,15 +340,15 @@
     "EVD": 0
    },
    "evolution_bonus_total": {
-    "HP": 1250,
-    "ATK": 0,
-    "DEF": 100,
+    "HP": 200,
+    "ATK": 30,
+    "DEF": 0,
     "SPD": 0,
-    "CRATE": 0,
-    "CDMG": 0,
-    "CRES": 50,
+    "CRATE": 25,
+    "CDMG": 75,
+    "CRES": 0,
     "ACC": 0,
-    "EVD": 25
+    "EVD": 0
    }
   }
  },
@@ -357,10 +357,10 @@
    "level": 10,
    "grade_required": 1,
    "stats": {
-    "HP": 16351,
-    "ATK": 817,
-    "DEF": 1001,
-    "SPD": 73,
+    "HP": 13714,
+    "ATK": 1054,
+    "DEF": 895,
+    "SPD": 70,
     "CRATE": 25,
     "CDMG": 500,
     "CRES": 0,
@@ -372,10 +372,10 @@
    "level": 20,
    "grade_required": 2,
    "stats": {
-    "HP": 18538,
-    "ATK": 926,
-    "DEF": 1135,
-    "SPD": 73,
+    "HP": 15548,
+    "ATK": 1196,
+    "DEF": 1015,
+    "SPD": 70,
     "CRATE": 25,
     "CDMG": 500,
     "CRES": 0,
@@ -387,10 +387,10 @@
    "level": 30,
    "grade_required": 3,
    "stats": {
-    "HP": 20724,
-    "ATK": 1035,
-    "DEF": 1269,
-    "SPD": 73,
+    "HP": 17381,
+    "ATK": 1337,
+    "DEF": 1135,
+    "SPD": 70,
     "CRATE": 25,
     "CDMG": 500,
     "CRES": 0,
@@ -402,10 +402,10 @@
    "level": 40,
    "grade_required": 4,
    "stats": {
-    "HP": 22910,
-    "ATK": 1145,
-    "DEF": 1403,
-    "SPD": 73,
+    "HP": 19215,
+    "ATK": 1478,
+    "DEF": 1255,
+    "SPD": 70,
     "CRATE": 25,
     "CDMG": 500,
     "CRES": 0,
@@ -417,10 +417,10 @@
    "level": 50,
    "grade_required": 5,
    "stats": {
-    "HP": 25097,
-    "ATK": 1254,
-    "DEF": 1537,
-    "SPD": 73,
+    "HP": 21049,
+    "ATK": 1619,
+    "DEF": 1374,
+    "SPD": 70,
     "CRATE": 25,
     "CDMG": 500,
     "CRES": 0,
@@ -432,10 +432,10 @@
    "level": 60,
    "grade_required": 6,
    "stats": {
-    "HP": 27283,
-    "ATK": 1363,
-    "DEF": 1671,
-    "SPD": 73,
+    "HP": 22882,
+    "ATK": 1760,
+    "DEF": 1494,
+    "SPD": 70,
     "CRATE": 25,
     "CDMG": 500,
     "CRES": 0,
@@ -447,9 +447,9 @@
  "skills": [
   {
    "id": 23301,
-   "name": "",
+   "name": "[&Color_Cyan]Deadly Blow[-]",
    "name_key": "Tbl_UnitSkill_Name_23301",
-   "name_readable": "",
+   "name_readable": "Deadly Blow",
    "description": "",
    "description_key": "Tbl_UnitSkill_Desc_23301",
    "description_readable": "",
@@ -459,24 +459,28 @@
    "cooldown": 0,
    "hit_count": 2,
    "additional_hits": 0,
-   "damage_scaling": "[ATK]",
+   "damage_scaling": "[ATK]/[HP]",
    "skill_level_scaling": "[D:10]/[D:10]/[D:10]/[D:10]/[D:10]",
-   "multiplier": 262.5,
+   "multiplier": 219.4,
    "damage": {
     "scaling": [
      {
       "stat": "ATK",
-      "pct": 262.5
+      "pct": 219.4
+     },
+     {
+      "stat": "Max HP",
+      "pct": 6
      }
     ],
     "hits": [
      {
-      "pct": 262.5,
+      "pct": 219.4,
       "count": 2,
       "tar": ""
      }
     ],
-    "total": 525.0
+    "total": null
    },
    "effects": [],
    "battle_options": "2330101",
@@ -492,9 +496,9 @@
   },
   {
    "id": 23302,
-   "name": "",
+   "name": "[&Color_Cyan]Killing Rush[-]",
    "name_key": "Tbl_UnitSkill_Name_23302",
-   "name_readable": "",
+   "name_readable": "Killing Rush",
    "description": "",
    "description_key": "Tbl_UnitSkill_Desc_23302",
    "description_readable": "",
@@ -505,28 +509,29 @@
    "hit_count": 4,
    "additional_hits": 0,
    "damage_scaling": "[ATK]",
-   "skill_level_scaling": "[D:10]/[D:10]/[D:10]/[D:10]/[D:10]",
-   "multiplier": 192.3,
+   "skill_level_scaling": "[P:10]/[B:10]/[P:10]/[B:10]/[P:10]",
+   "multiplier": 184.6,
    "damage": {
     "scaling": [
      {
       "stat": "ATK",
-      "pct": 192.3
+      "pct": 184.6
      }
     ],
     "hits": [
      {
-      "pct": 192.3,
+      "pct": 184.6,
       "count": 4,
       "tar": ""
      }
     ],
-    "total": 769.2
+    "total": 738.4
    },
    "effects": [],
-   "battle_options": "2330201",
+   "battle_options": "2330201/2330202",
    "battle_option_ids": [
-    2330201
+    2330201,
+    2330202
    ],
    "evolution_level_required": 0,
    "trigger_keyword": "",

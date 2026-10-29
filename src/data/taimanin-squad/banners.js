@@ -57,6 +57,17 @@ const E = (name, icon, rarity = '★4 Epic') => ({ name, icon, rarity });
 
 export const BANNER_HISTORY = [
   {
+    id: 'halloween-pickup',
+    start: '2026-10-29',
+    end: '2026-11-26',
+    type: 'pickup',
+    legend: L('[Halloween] Onisaki Kirara', '261_Kirara'),
+    epic: E('[Halloween] Shinganji Kurenai', '260_Kurenai'),
+    notes: 'Kirara guaranteed on every 100th Pickup Recruit, gauge carries over. Limited units, never added to standard pools. Assemble list added Phantasma and Inage Natsu the same day. [Halloween] Aishu Hebiko is the Halloween Heroes story event reward, not on this banner.',
+    image: '/images/games/taimanin-squad/news/img018.webp',
+    source: '/information-detail/',
+  },
+  {
     id: 'thunder-volt-pickup',
     start: '2026-10-01',
     end: '2026-10-29',

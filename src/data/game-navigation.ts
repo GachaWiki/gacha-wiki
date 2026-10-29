@@ -352,6 +352,7 @@ export const NAV_DATA: Record<GameKey, { sections: NavigationSection[] }> = {
           { name: 'Character Lore', href: '/guides/taimanin-squad/character-lore/' },
           { name: 'Character Stats', href: '/guides/taimanin-squad/character-stats/' },
           { name: 'Tier List', href: '/guides/taimanin-squad/tier-list/' },
+          { name: 'Gallery', href: '/guides/taimanin-squad/gallery/' },
         ],
       },
       {
@@ -370,6 +371,7 @@ export const NAV_DATA: Record<GameKey, { sections: NavigationSection[] }> = {
           { name: 'Bonds & Synergy', href: '/guides/taimanin-squad/bonds/' },
           { name: 'Game Mechanics', href: '/guides/taimanin-squad/mechanics/' },
           { name: 'Banner History', href: '/guides/taimanin-squad/banners/' },
+          { name: 'Events', href: '/guides/taimanin-squad/events/' },
         ],
       },
       {

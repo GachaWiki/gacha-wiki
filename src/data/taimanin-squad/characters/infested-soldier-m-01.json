@@ -6,19 +6,19 @@
  "rarity": "R+",
  "rarity_stars": "★★",
  "rarity_numeric": 2,
- "element": "Technique",
- "element_numeric": 2,
+ "element": "Power",
+ "element_numeric": 1,
  "role": "Attacker",
  "role_numeric": 1,
- "trait": "Jupiter",
- "disposition_numeric": 4,
+ "trait": "Moon",
+ "disposition_numeric": 1,
  "icon": "230_Gsoldiermod1",
  "model": "230_Gsoldiermod1/Unit/prf_230",
  "animation_event": "230_gsoldiermod1",
  "book_index": 0,
  "acquisition_id": 10001,
  "btl_power": 5800,
- "btl_rate": 214930,
+ "btl_rate": 274033,
  "names": {
   "key": "Tbl_Unit_Name_230",
   "english": "Infested Soldier M-01",
@@ -35,9 +35,9 @@
   "spanish": "Un agente que pertenecía a la unidad de exoesqueletos de combate personalizados de la UFS y que, tras ser devuelto de la muerte por el miasma de una Caballera Espectral, ahora es utilizado como una marioneta sin alma.\n\nSobre su avanzado exoesqueleto de combate, una masa de carne rojiza y brillante prolifera como células cancerosas hasta cubrir todo su cuerpo. En lugar de las señales nerviosas ya extintas, grotescos ojos rojos que brotan por toda la masa de carne fuerzan el funcionamiento de los actuadores hidráulicos de precisión.\n\nEn particular, su brazo derecho, completamente devorado por la retorcida masa de carne, se ha deformado grotescamente hasta convertirse en una enorme cuchilla de hueso orgánico con la que despedaza a los vivos."
  },
  "base_stats": {
-  "HP": 9744,
-  "ATK": 1136,
-  "DEF": 696,
+  "HP": 12528,
+  "ATK": 928,
+  "DEF": 765,
   "SPD": 71,
   "CRATE": 25,
   "CDMG": 500,
@@ -46,9 +46,9 @@
   "EVD": 0
  },
  "stats": {
-  "HP": 18682,
-  "ATK": 2184,
-  "DEF": 1320,
+  "HP": 23963,
+  "ATK": 1790,
+  "DEF": 1451,
   "SPD": 71,
   "CRATE": 50,
   "CDMG": 575,
@@ -199,9 +199,9 @@
    "grade": 1,
    "max_level": 10,
    "stats": {
-    "HP": 11076,
-    "ATK": 1291,
-    "DEF": 791,
+    "HP": 14241,
+    "ATK": 1054,
+    "DEF": 869,
     "SPD": 71,
     "CRATE": 25,
     "CDMG": 500,
@@ -225,9 +225,9 @@
    "grade": 2,
    "max_level": 20,
    "stats": {
-    "HP": 12558,
-    "ATK": 1464,
-    "DEF": 897,
+    "HP": 16146,
+    "ATK": 1196,
+    "DEF": 985,
     "SPD": 71,
     "CRATE": 25,
     "CDMG": 500,
@@ -251,9 +251,9 @@
    "grade": 3,
    "max_level": 30,
    "stats": {
-    "HP": 14039,
-    "ATK": 1636,
-    "DEF": 1002,
+    "HP": 18050,
+    "ATK": 1337,
+    "DEF": 1102,
     "SPD": 71,
     "CRATE": 25,
     "CDMG": 500,
@@ -277,9 +277,9 @@
    "grade": 4,
    "max_level": 40,
    "stats": {
-    "HP": 15520,
-    "ATK": 1809,
-    "DEF": 1108,
+    "HP": 19954,
+    "ATK": 1478,
+    "DEF": 1218,
     "SPD": 71,
     "CRATE": 25,
     "CDMG": 500,
@@ -303,9 +303,9 @@
    "grade": 5,
    "max_level": 50,
    "stats": {
-    "HP": 17001,
-    "ATK": 1982,
-    "DEF": 1214,
+    "HP": 21858,
+    "ATK": 1619,
+    "DEF": 1334,
     "SPD": 71,
     "CRATE": 25,
     "CDMG": 500,
@@ -329,9 +329,9 @@
    "grade": 6,
    "max_level": 60,
    "stats": {
-    "HP": 18482,
-    "ATK": 2154,
-    "DEF": 1320,
+    "HP": 23763,
+    "ATK": 1760,
+    "DEF": 1451,
     "SPD": 71,
     "CRATE": 25,
     "CDMG": 500,
@@ -357,9 +357,9 @@
    "level": 10,
    "grade_required": 1,
    "stats": {
-    "HP": 11076,
-    "ATK": 1291,
-    "DEF": 791,
+    "HP": 14241,
+    "ATK": 1054,
+    "DEF": 869,
     "SPD": 71,
     "CRATE": 25,
     "CDMG": 500,
@@ -372,9 +372,9 @@
    "level": 20,
    "grade_required": 2,
    "stats": {
-    "HP": 12558,
-    "ATK": 1464,
-    "DEF": 897,
+    "HP": 16146,
+    "ATK": 1196,
+    "DEF": 985,
     "SPD": 71,
     "CRATE": 25,
     "CDMG": 500,
@@ -387,9 +387,9 @@
    "level": 30,
    "grade_required": 3,
    "stats": {
-    "HP": 14039,
-    "ATK": 1636,
-    "DEF": 1002,
+    "HP": 18050,
+    "ATK": 1337,
+    "DEF": 1102,
     "SPD": 71,
     "CRATE": 25,
     "CDMG": 500,
@@ -402,9 +402,9 @@
    "level": 40,
    "grade_required": 4,
    "stats": {
-    "HP": 15520,
-    "ATK": 1809,
-    "DEF": 1108,
+    "HP": 19954,
+    "ATK": 1478,
+    "DEF": 1218,
     "SPD": 71,
     "CRATE": 25,
     "CDMG": 500,
@@ -417,9 +417,9 @@
    "level": 50,
    "grade_required": 5,
    "stats": {
-    "HP": 17001,
-    "ATK": 1982,
-    "DEF": 1214,
+    "HP": 21858,
+    "ATK": 1619,
+    "DEF": 1334,
     "SPD": 71,
     "CRATE": 25,
     "CDMG": 500,
@@ -432,9 +432,9 @@
    "level": 60,
    "grade_required": 6,
    "stats": {
-    "HP": 18482,
-    "ATK": 2154,
-    "DEF": 1320,
+    "HP": 23763,
+    "ATK": 1760,
+    "DEF": 1451,
     "SPD": 71,
     "CRATE": 25,
     "CDMG": 500,
@@ -447,9 +447,9 @@
  "skills": [
   {
    "id": 23001,
-   "name": "",
+   "name": "[&Color_Cyan]Infected Barrage Shot[-]",
    "name_key": "Tbl_UnitSkill_Name_23001",
-   "name_readable": "",
+   "name_readable": "Infected Barrage Shot",
    "description": "",
    "description_key": "Tbl_UnitSkill_Desc_23001",
    "description_readable": "",
@@ -492,9 +492,9 @@
   },
   {
    "id": 23002,
-   "name": "",
+   "name": "[&Color_Cyan]Infected Charge Shot[-]",
    "name_key": "Tbl_UnitSkill_Name_23002",
-   "name_readable": "",
+   "name_readable": "Infected Charge Shot",
    "description": "",
    "description_key": "Tbl_UnitSkill_Desc_23002",
    "description_readable": "",
@@ -505,28 +505,29 @@
    "hit_count": 1,
    "additional_hits": 0,
    "damage_scaling": "[ATK]",
-   "skill_level_scaling": "[D:10]/[D:10]/[D:10]/[D:10]/[D:10]",
-   "multiplier": 769.1,
+   "skill_level_scaling": "[B:10]/[B:10]/[B:10]/[B:10]/[B:10]",
+   "multiplier": 738.4,
    "damage": {
     "scaling": [
      {
       "stat": "ATK",
-      "pct": 769.1
+      "pct": 738.4
      }
     ],
     "hits": [
      {
-      "pct": 769.1,
+      "pct": 738.4,
       "count": 1,
       "tar": ""
      }
     ],
-    "total": 769.1
+    "total": 738.4
    },
    "effects": [],
-   "battle_options": "2300201",
+   "battle_options": "2300201/2300202",
    "battle_option_ids": [
-    2300201
+    2300201,
+    2300202
    ],
    "evolution_level_required": 0,
    "trigger_keyword": "",

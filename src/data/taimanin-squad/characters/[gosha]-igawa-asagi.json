@@ -510,10 +510,9 @@
    "multiplier": null,
    "damage": null,
    "effects": [],
-   "battle_options": "2340201/2340202",
+   "battle_options": "2340201",
    "battle_option_ids": [
-    2340201,
-    2340202
+    2340201
    ],
    "evolution_level_required": 0,
    "trigger_keyword": "",

@@ -1,0 +1,2 @@
+// Cleaned official news HTML for 2026-10-14 【ANNOUNCEMENT】Maintenance
+export default "Maintenance is scheduled for tomorrow.<br />2026.10. 15. 02:00 ~ 06:00 (UTC)<br /><br />You will not be able to play during the maintenance. We apologize for the inconvenience and thank you for your patience.<br />※ Maintenance schedule is subject to change.";

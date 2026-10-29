@@ -6,19 +6,19 @@
  "rarity": "SSR",
  "rarity_stars": "★★★★★",
  "rarity_numeric": 5,
- "element": "Technique",
- "element_numeric": 2,
- "role": "Attacker",
- "role_numeric": 1,
- "trait": "Sun",
- "disposition_numeric": 7,
+ "element": "Agility",
+ "element_numeric": 3,
+ "role": "Defender",
+ "role_numeric": 2,
+ "trait": "Mercury",
+ "disposition_numeric": 3,
  "icon": "264_Murasaki",
  "model": "264_Murasaki/Unit/prf_264",
  "animation_event": "264_murasaki",
  "book_index": 0,
  "acquisition_id": 10002,
  "btl_power": 8950,
- "btl_rate": 215326,
+ "btl_rate": 432037,
  "names": {
   "key": "Tbl_Unit_Name_264",
   "english": "[Holy Night] Yatsu Murasaki",
@@ -35,34 +35,34 @@
   "spanish": "Yatsu Murasaki [Navidad]"
  },
  "base_stats": {
-  "HP": 15036,
-  "ATK": 1897,
-  "DEF": 930,
-  "SPD": 82,
-  "CRATE": 50,
-  "CDMG": 575,
-  "CRES": 0,
+  "HP": 30788,
+  "ATK": 716,
+  "DEF": 1324,
+  "SPD": 81,
+  "CRATE": 25,
+  "CDMG": 500,
+  "CRES": 50,
   "ACC": 0,
-  "EVD": 0
+  "EVD": 25
  },
  "stats": {
-  "HP": 27300,
-  "ATK": 3449,
-  "DEF": 1676,
-  "SPD": 82,
-  "CRATE": 75,
-  "CDMG": 650,
-  "CRES": 0,
+  "HP": 56742,
+  "ATK": 1290,
+  "DEF": 2486,
+  "SPD": 81,
+  "CRATE": 25,
+  "CDMG": 500,
+  "CRES": 100,
   "ACC": 0,
-  "EVD": 0
+  "EVD": 50
  },
- "evol_stat_id": 1,
- "evol_stat_type": "Attacker",
+ "evol_stat_id": 2,
+ "evol_stat_type": "Defender",
  "evolution_bonuses": {
   "1": {
-   "HP": 40,
-   "ATK": 6,
-   "DEF": 0,
+   "HP": 250,
+   "ATK": 0,
+   "DEF": 20,
    "SPD": 0,
    "CRATE": 0,
    "CDMG": 0,
@@ -71,9 +71,9 @@
    "EVD": 0
   },
   "2": {
-   "HP": 80,
-   "ATK": 12,
-   "DEF": 0,
+   "HP": 500,
+   "ATK": 0,
+   "DEF": 40,
    "SPD": 0,
    "CRATE": 0,
    "CDMG": 0,
@@ -82,9 +82,9 @@
    "EVD": 0
   },
   "3": {
-   "HP": 120,
-   "ATK": 18,
-   "DEF": 0,
+   "HP": 750,
+   "ATK": 0,
+   "DEF": 60,
    "SPD": 0,
    "CRATE": 0,
    "CDMG": 0,
@@ -93,9 +93,9 @@
    "EVD": 0
   },
   "4": {
-   "HP": 160,
-   "ATK": 24,
-   "DEF": 0,
+   "HP": 1000,
+   "ATK": 0,
+   "DEF": 80,
    "SPD": 0,
    "CRATE": 0,
    "CDMG": 0,
@@ -104,9 +104,9 @@
    "EVD": 0
   },
   "5": {
-   "HP": 200,
-   "ATK": 30,
-   "DEF": 0,
+   "HP": 1250,
+   "ATK": 0,
+   "DEF": 100,
    "SPD": 0,
    "CRATE": 0,
    "CDMG": 0,
@@ -115,22 +115,22 @@
    "EVD": 0
   },
   "6": {
-   "HP": 200,
-   "ATK": 30,
-   "DEF": 0,
+   "HP": 1250,
+   "ATK": 0,
+   "DEF": 100,
    "SPD": 0,
-   "CRATE": 25,
-   "CDMG": 75,
-   "CRES": 0,
+   "CRATE": 0,
+   "CDMG": 0,
+   "CRES": 50,
    "ACC": 0,
-   "EVD": 0
+   "EVD": 25
   }
  },
  "evolution_bonuses_per_grade": {
   "1": {
-   "HP": 40,
-   "ATK": 6,
-   "DEF": 0,
+   "HP": 250,
+   "ATK": 0,
+   "DEF": 20,
    "SPD": 0,
    "CRATE": 0,
    "CDMG": 0,
@@ -139,9 +139,9 @@
    "EVD": 0
   },
   "2": {
-   "HP": 80,
-   "ATK": 12,
-   "DEF": 0,
+   "HP": 500,
+   "ATK": 0,
+   "DEF": 40,
    "SPD": 0,
    "CRATE": 0,
    "CDMG": 0,
@@ -150,9 +150,9 @@
    "EVD": 0
   },
   "3": {
-   "HP": 120,
-   "ATK": 18,
-   "DEF": 0,
+   "HP": 750,
+   "ATK": 0,
+   "DEF": 60,
    "SPD": 0,
    "CRATE": 0,
    "CDMG": 0,
@@ -161,9 +161,9 @@
    "EVD": 0
   },
   "4": {
-   "HP": 160,
-   "ATK": 24,
-   "DEF": 0,
+   "HP": 1000,
+   "ATK": 0,
+   "DEF": 80,
    "SPD": 0,
    "CRATE": 0,
    "CDMG": 0,
@@ -172,9 +172,9 @@
    "EVD": 0
   },
   "5": {
-   "HP": 200,
-   "ATK": 30,
-   "DEF": 0,
+   "HP": 1250,
+   "ATK": 0,
+   "DEF": 100,
    "SPD": 0,
    "CRATE": 0,
    "CDMG": 0,
@@ -183,15 +183,15 @@
    "EVD": 0
   },
   "6": {
-   "HP": 200,
-   "ATK": 30,
-   "DEF": 0,
+   "HP": 1250,
+   "ATK": 0,
+   "DEF": 100,
    "SPD": 0,
-   "CRATE": 25,
-   "CDMG": 75,
-   "CRES": 0,
+   "CRATE": 0,
+   "CDMG": 0,
+   "CRES": 50,
    "ACC": 0,
-   "EVD": 0
+   "EVD": 25
   }
  },
  "stats_by_grade": {
@@ -199,20 +199,20 @@
    "grade": 1,
    "max_level": 10,
    "stats": {
-    "HP": 16876,
-    "ATK": 2129,
-    "DEF": 1043,
-    "SPD": 82,
-    "CRATE": 50,
-    "CDMG": 575,
-    "CRES": 0,
+    "HP": 34556,
+    "ATK": 803,
+    "DEF": 1486,
+    "SPD": 81,
+    "CRATE": 25,
+    "CDMG": 500,
+    "CRES": 50,
     "ACC": 0,
-    "EVD": 0
+    "EVD": 25
    },
    "evolution_bonus_total": {
-    "HP": 40,
-    "ATK": 6,
-    "DEF": 0,
+    "HP": 250,
+    "ATK": 0,
+    "DEF": 20,
     "SPD": 0,
     "CRATE": 0,
     "CDMG": 0,
@@ -225,20 +225,20 @@
    "grade": 2,
    "max_level": 20,
    "stats": {
-    "HP": 18921,
-    "ATK": 2387,
-    "DEF": 1170,
-    "SPD": 82,
-    "CRATE": 50,
-    "CDMG": 575,
-    "CRES": 0,
+    "HP": 38743,
+    "ATK": 901,
+    "DEF": 1666,
+    "SPD": 81,
+    "CRATE": 25,
+    "CDMG": 500,
+    "CRES": 50,
     "ACC": 0,
-    "EVD": 0
+    "EVD": 25
    },
    "evolution_bonus_total": {
-    "HP": 80,
-    "ATK": 12,
-    "DEF": 0,
+    "HP": 500,
+    "ATK": 0,
+    "DEF": 40,
     "SPD": 0,
     "CRATE": 0,
     "CDMG": 0,
@@ -251,20 +251,20 @@
    "grade": 3,
    "max_level": 30,
    "stats": {
-    "HP": 20966,
-    "ATK": 2645,
-    "DEF": 1296,
-    "SPD": 82,
-    "CRATE": 50,
-    "CDMG": 575,
-    "CRES": 0,
+    "HP": 42930,
+    "ATK": 998,
+    "DEF": 1846,
+    "SPD": 81,
+    "CRATE": 25,
+    "CDMG": 500,
+    "CRES": 50,
     "ACC": 0,
-    "EVD": 0
+    "EVD": 25
    },
    "evolution_bonus_total": {
-    "HP": 120,
-    "ATK": 18,
-    "DEF": 0,
+    "HP": 750,
+    "ATK": 0,
+    "DEF": 60,
     "SPD": 0,
     "CRATE": 0,
     "CDMG": 0,
@@ -277,20 +277,20 @@
    "grade": 4,
    "max_level": 40,
    "stats": {
-    "HP": 23011,
-    "ATK": 2903,
-    "DEF": 1423,
-    "SPD": 82,
-    "CRATE": 50,
-    "CDMG": 575,
-    "CRES": 0,
+    "HP": 47117,
+    "ATK": 1095,
+    "DEF": 2026,
+    "SPD": 81,
+    "CRATE": 25,
+    "CDMG": 500,
+    "CRES": 50,
     "ACC": 0,
-    "EVD": 0
+    "EVD": 25
    },
    "evolution_bonus_total": {
-    "HP": 160,
-    "ATK": 24,
-    "DEF": 0,
+    "HP": 1000,
+    "ATK": 0,
+    "DEF": 80,
     "SPD": 0,
     "CRATE": 0,
     "CDMG": 0,
@@ -303,20 +303,20 @@
    "grade": 5,
    "max_level": 50,
    "stats": {
-    "HP": 25055,
-    "ATK": 3161,
-    "DEF": 1549,
-    "SPD": 82,
-    "CRATE": 50,
-    "CDMG": 575,
-    "CRES": 0,
+    "HP": 51305,
+    "ATK": 1193,
+    "DEF": 2206,
+    "SPD": 81,
+    "CRATE": 25,
+    "CDMG": 500,
+    "CRES": 50,
     "ACC": 0,
-    "EVD": 0
+    "EVD": 25
    },
    "evolution_bonus_total": {
-    "HP": 200,
-    "ATK": 30,
-    "DEF": 0,
+    "HP": 1250,
+    "ATK": 0,
+    "DEF": 100,
     "SPD": 0,
     "CRATE": 0,
     "CDMG": 0,
@@ -329,26 +329,26 @@
    "grade": 6,
    "max_level": 60,
    "stats": {
-    "HP": 27100,
-    "ATK": 3419,
-    "DEF": 1676,
-    "SPD": 82,
-    "CRATE": 50,
-    "CDMG": 575,
-    "CRES": 0,
+    "HP": 55492,
+    "ATK": 1290,
+    "DEF": 2386,
+    "SPD": 81,
+    "CRATE": 25,
+    "CDMG": 500,
+    "CRES": 50,
     "ACC": 0,
-    "EVD": 0
+    "EVD": 25
    },
    "evolution_bonus_total": {
-    "HP": 200,
-    "ATK": 30,
-    "DEF": 0,
+    "HP": 1250,
+    "ATK": 0,
+    "DEF": 100,
     "SPD": 0,
-    "CRATE": 25,
-    "CDMG": 75,
-    "CRES": 0,
+    "CRATE": 0,
+    "CDMG": 0,
+    "CRES": 50,
     "ACC": 0,
-    "EVD": 0
+    "EVD": 25
    }
   }
  },
@@ -357,94 +357,124 @@
    "level": 10,
    "grade_required": 1,
    "stats": {
-    "HP": 16876,
-    "ATK": 2129,
-    "DEF": 1043,
-    "SPD": 82,
-    "CRATE": 50,
-    "CDMG": 575,
-    "CRES": 0,
+    "HP": 34556,
+    "ATK": 803,
+    "DEF": 1486,
+    "SPD": 81,
+    "CRATE": 25,
+    "CDMG": 500,
+    "CRES": 50,
     "ACC": 0,
-    "EVD": 0
+    "EVD": 25
    }
   },
   "20": {
    "level": 20,
    "grade_required": 2,
    "stats": {
-    "HP": 18921,
-    "ATK": 2387,
-    "DEF": 1170,
-    "SPD": 82,
-    "CRATE": 50,
-    "CDMG": 575,
-    "CRES": 0,
+    "HP": 38743,
+    "ATK": 901,
+    "DEF": 1666,
+    "SPD": 81,
+    "CRATE": 25,
+    "CDMG": 500,
+    "CRES": 50,
     "ACC": 0,
-    "EVD": 0
+    "EVD": 25
    }
   },
   "30": {
    "level": 30,
    "grade_required": 3,
    "stats": {
-    "HP": 20966,
-    "ATK": 2645,
-    "DEF": 1296,
-    "SPD": 82,
-    "CRATE": 50,
-    "CDMG": 575,
-    "CRES": 0,
+    "HP": 42930,
+    "ATK": 998,
+    "DEF": 1846,
+    "SPD": 81,
+    "CRATE": 25,
+    "CDMG": 500,
+    "CRES": 50,
     "ACC": 0,
-    "EVD": 0
+    "EVD": 25
    }
   },
   "40": {
    "level": 40,
    "grade_required": 4,
    "stats": {
-    "HP": 23011,
-    "ATK": 2903,
-    "DEF": 1423,
-    "SPD": 82,
-    "CRATE": 50,
-    "CDMG": 575,
-    "CRES": 0,
+    "HP": 47117,
+    "ATK": 1095,
+    "DEF": 2026,
+    "SPD": 81,
+    "CRATE": 25,
+    "CDMG": 500,
+    "CRES": 50,
     "ACC": 0,
-    "EVD": 0
+    "EVD": 25
    }
   },
   "50": {
    "level": 50,
    "grade_required": 5,
    "stats": {
-    "HP": 25055,
-    "ATK": 3161,
-    "DEF": 1549,
-    "SPD": 82,
-    "CRATE": 50,
-    "CDMG": 575,
-    "CRES": 0,
+    "HP": 51305,
+    "ATK": 1193,
+    "DEF": 2206,
+    "SPD": 81,
+    "CRATE": 25,
+    "CDMG": 500,
+    "CRES": 50,
     "ACC": 0,
-    "EVD": 0
+    "EVD": 25
    }
   },
   "60": {
    "level": 60,
    "grade_required": 6,
    "stats": {
-    "HP": 27100,
-    "ATK": 3419,
-    "DEF": 1676,
-    "SPD": 82,
-    "CRATE": 50,
-    "CDMG": 575,
-    "CRES": 0,
+    "HP": 55492,
+    "ATK": 1290,
+    "DEF": 2386,
+    "SPD": 81,
+    "CRATE": 25,
+    "CDMG": 500,
+    "CRES": 50,
     "ACC": 0,
-    "EVD": 0
+    "EVD": 25
    }
   }
  },
  "skills": [
+  {
+   "id": 26400,
+   "name": "[&Color_Orange][&DEF] Aura[-]",
+   "name_key": "Tbl_UnitSkill_Name_DEF",
+   "name_readable": "DEF Aura",
+   "description": "Increase {3} of {2} allies by {0} in {1}",
+   "description_key": "Tbl_UnitSkill_Desc_Aura",
+   "description_readable": "Increase DEF of Agility allies by 15% in All Battles",
+   "type_description": "[Aura Skill]",
+   "type_description_readable": "[Aura Skill]",
+   "icon": "leader_def",
+   "cooldown": 0,
+   "hit_count": 0,
+   "additional_hits": 0,
+   "damage_scaling": "",
+   "skill_level_scaling": "",
+   "multiplier": null,
+   "damage": null,
+   "effects": [],
+   "battle_options": "2640001",
+   "battle_option_ids": [
+    2640001
+   ],
+   "evolution_level_required": 3,
+   "trigger_keyword": "",
+   "aura_info": "15,QUEST_ALL,Agility,DefRate",
+   "skill_button_type": -2,
+   "camera_type": 0,
+   "cutscene_flag": 0
+  },
   {
    "id": 26401,
    "name": "",
@@ -503,26 +533,26 @@
    "type_description_readable": "[Attack Skill]",
    "icon": "26402",
    "cooldown": 3,
-   "hit_count": 1,
+   "hit_count": 4,
    "additional_hits": 0,
    "damage_scaling": "[ATK]",
    "skill_level_scaling": "[D:10]/[P:10]/[D:10]/[P:10]/[D:10]",
-   "multiplier": 692.2,
+   "multiplier": 173.1,
    "damage": {
     "scaling": [
      {
       "stat": "ATK",
-      "pct": 692.2
+      "pct": 173.1
      }
     ],
     "hits": [
      {
-      "pct": 692.2,
-      "count": 1,
+      "pct": 173.1,
+      "count": 4,
       "tar": ""
      }
     ],
-    "total": 692.2
+    "total": 692.4
    },
    "effects": [],
    "battle_options": "2640201/2640202/2640203",
@@ -608,10 +638,9 @@
    "multiplier": null,
    "damage": null,
    "effects": [],
-   "battle_options": "2640401/2640402",
+   "battle_options": "2640401",
    "battle_option_ids": [
-    2640401,
-    2640402
+    2640401
    ],
    "evolution_level_required": 2,
    "trigger_keyword": "",

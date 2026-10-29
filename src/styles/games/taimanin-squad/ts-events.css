@@ -1,0 +1,166 @@
+/* Taimanin Squad event history: story events, login events and collabs.
+   Flat cards in the ts- house style. Per the site-wide text rules: type and
+   status are plain colored text, no pills/badges; no hover, no shadows. */
+
+.ts-ev-container {
+  max-width: 75rem;
+  margin: 0 auto;
+}
+
+.ts-ev-intro {
+  color: #b3a8ab;
+  font-size: var(--text-body);
+  line-height: 1.55;
+  margin-bottom: 1.75rem;
+  max-width: 60rem;
+}
+
+.ts-ev-section-title {
+  color: var(--ts-accent, #9a8aaa);
+  font-size: var(--text-lg);
+  font-weight: 700;
+  margin: 1.9rem 0 1rem;
+}
+
+.ts-ev-section-title:first-of-type {
+  margin-top: 0;
+}
+
+.ts-ev-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.1rem;
+}
+
+.ts-ev-card {
+  display: flex;
+  gap: 1.5rem;
+  align-items: flex-start;
+  background: var(--ts-bg-card, #1e1a23);
+  border: 1px solid var(--ts-border, #2e2838);
+  border-radius: 10px;
+  padding: 1.25rem;
+}
+
+.ts-ev-card-art {
+  flex-shrink: 0;
+  width: 400px;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.ts-ev-card-art img {
+  width: 100%;
+  display: block;
+}
+
+.ts-ev-card-art-portrait {
+  aspect-ratio: 820 / 260;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background:
+    radial-gradient(ellipse at 75% 40%, rgba(154, 138, 170, 0.22), transparent 65%),
+    var(--ts-bg-tertiary, #242028);
+}
+
+.ts-ev-card-art-portrait :global(.ts-char-icon) {
+  border-radius: 10px;
+}
+
+.ts-ev-art-none {
+  color: #8f8698;
+  font-size: var(--text-md);
+}
+
+.ts-ev-card-body {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  min-width: 0;
+}
+
+.ts-ev-card-top {
+  display: flex;
+  align-items: baseline;
+  gap: 0.65rem;
+  flex-wrap: wrap;
+}
+
+.ts-ev-type {
+  color: var(--ts-accent, #9a8aaa);
+  font-size: var(--text-sm);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.ts-ev-status-live {
+  color: #67c58a;
+  font-size: var(--text-sm);
+  font-weight: 600;
+}
+
+.ts-ev-status-ended {
+  color: #7d7486;
+  font-size: var(--text-sm);
+}
+
+.ts-ev-dates {
+  color: #8f8698;
+  font-size: var(--text-sm);
+}
+
+.ts-ev-card-title {
+  color: #e8e2ee;
+  font-size: var(--text-lg);
+}
+
+.ts-ev-card-reward {
+  display: flex;
+  align-items: center;
+  gap: 0.55rem;
+  color: #d8d2de;
+  font-size: var(--text-md);
+}
+
+.ts-ev-card-reward .ts-char-icon {
+  border-radius: 6px;
+}
+
+.ts-ev-reward-label {
+  color: var(--ts-accent, #9a8aaa);
+  font-weight: 600;
+}
+
+.ts-ev-reward-rarity {
+  color: #8f8698;
+}
+
+.ts-ev-card-weapon {
+  color: #b3a8ab;
+  font-size: var(--text-md);
+}
+
+.ts-ev-card-notes {
+  color: #9a90a3;
+  font-size: var(--text-sm);
+  line-height: 1.5;
+}
+
+.ts-ev-card-source {
+  color: var(--ts-accent, #9a8aaa);
+  font-size: var(--text-sm);
+}
+
+@media (max-width: 900px) {
+  .ts-ev-card {
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+  }
+
+  .ts-ev-card-art {
+    width: 100%;
+  }
+}

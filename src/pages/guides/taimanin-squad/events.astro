@@ -1,0 +1,132 @@
+---
+/**
+ * Taimanin Squad event history: story events, login events and collabs since
+ * launch, compiled from the official news archive. Live events first, then
+ * the ended timeline, newest first.
+ */
+import LandingLayout from '../../../layouts/taimanin-squad/LandingLayout.astro';
+import TSCharacterImage from '../../../components/taimanin-squad/TSCharacterImage.astro';
+import { TS_EVENTS, getEventStatus, getEventTypeLabel } from '../../../data/taimanin-squad/events.js';
+
+import '../../../styles/games/taimanin-squad/ts-events.css';
+
+const title = 'Events - Taimanin Squad | GachaWiki';
+const description =
+  'Every Taimanin Squad story event, login event and collaboration since launch, with periods, reward characters, weapons and links to the official announcements.';
+const gameTitle = 'Events';
+
+const fmt = (iso) => {
+  const d = new Date(iso + 'T00:00:00Z');
+  return d.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric', timeZone: 'UTC' });
+};
+
+const live = TS_EVENTS.filter((e) => getEventStatus(e) !== 'ended');
+const ended = TS_EVENTS.filter((e) => getEventStatus(e) === 'ended');
+---
+
+<LandingLayout title={title} description={description} gameTitle={gameTitle}>
+  <div class="ts-ev-container">
+    <p class="ts-ev-intro">
+      Every story event, login event and collaboration since launch, from the official news archive.
+      Story events run about three weeks: clear event missions, spend Event Tickets at the event shop and claim the reward character.
+      Login events hand out fragments and tickets over 30 or 14 login days. All dates are UTC.
+    </p>
+
+    <h2 class="ts-ev-section-title">Live and Upcoming</h2>
+    <div class="ts-ev-list">
+      {
+        live.map((e) => {
+          const status = getEventStatus(e);
+          return (
+            <article class="ts-ev-card">
+              <div class="ts-ev-card-art">
+                {e.image ? (
+                  <img src={e.image} alt={`${e.name} event art`} loading="lazy" decoding="async" width={820} height={260} />
+                ) : e.rewardUnit ? (
+                  <div class="ts-ev-card-art-portrait">
+                    <TSCharacterImage icon={e.rewardUnit.icon} alt={e.rewardUnit.name} width={110} height={110} />
+                  </div>
+                ) : (
+                  <div class="ts-ev-card-art-portrait ts-ev-art-none">No event art</div>
+                )}
+              </div>
+              <div class="ts-ev-card-body">
+                <div class="ts-ev-card-top">
+                  <span class="ts-ev-type">{getEventTypeLabel(e.type)}</span>
+                  <span class={status === 'live' ? 'ts-ev-status-live' : 'ts-ev-status-ended'}>
+                    {status === 'live' ? 'Live' : 'Upcoming'}
+                  </span>
+                  <span class="ts-ev-dates">
+                    {fmt(e.start)}{e.end ? ` - ${fmt(e.end)}` : ' onward'} (UTC)
+                  </span>
+                </div>
+                <h3 class="ts-ev-card-title">{e.name}</h3>
+                {e.rewardUnit && (
+                  <div class="ts-ev-card-reward">
+                    <TSCharacterImage icon={e.rewardUnit.icon} alt={e.rewardUnit.name} width={36} height={36} />
+                    <span>
+                      <span class="ts-ev-reward-label">Reward: </span>
+                      {e.rewardUnit.name} <span class="ts-ev-reward-rarity">({e.rewardUnit.rarity})</span>
+                    </span>
+                  </div>
+                )}
+                {e.rewardWeapon && (
+                  <p class="ts-ev-card-weapon">Reward weapon: {e.rewardWeapon}</p>
+                )}
+                {e.notes && <p class="ts-ev-card-notes">{e.notes}</p>}
+                <a class="ts-ev-card-source" href={`/guides/taimanin-squad/updates/${e.source}/`}>
+                  Official announcement
+                </a>
+              </div>
+            </article>
+          );
+        })
+      }
+    </div>
+
+    <h2 class="ts-ev-section-title">Ended</h2>
+    <div class="ts-ev-list">
+      {
+        ended.map((e) => (
+          <article class="ts-ev-card">
+            <div class="ts-ev-card-art">
+              {e.image ? (
+                <img src={e.image} alt={`${e.name} event art`} loading="lazy" decoding="async" width={820} height={260} />
+              ) : e.rewardUnit ? (
+                <div class="ts-ev-card-art-portrait">
+                  <TSCharacterImage icon={e.rewardUnit.icon} alt={e.rewardUnit.name} width={110} height={110} />
+                </div>
+              ) : (
+                <div class="ts-ev-card-art-portrait ts-ev-art-none">No event art</div>
+              )}
+            </div>
+            <div class="ts-ev-card-body">
+              <div class="ts-ev-card-top">
+                <span class="ts-ev-type">{getEventTypeLabel(e.type)}</span>
+                <span class="ts-ev-status-ended">Ended</span>
+                <span class="ts-ev-dates">
+                  {fmt(e.start)} - {fmt(e.end)} (UTC)
+                </span>
+              </div>
+              <h3 class="ts-ev-card-title">{e.name}</h3>
+              {e.rewardUnit && (
+                <div class="ts-ev-card-reward">
+                  <TSCharacterImage icon={e.rewardUnit.icon} alt={e.rewardUnit.name} width={36} height={36} />
+                  <span>
+                    <span class="ts-ev-reward-label">Reward: </span>
+                    {e.rewardUnit.name} <span class="ts-ev-reward-rarity">({e.rewardUnit.rarity})</span>
+                  </span>
+                </div>
+              )}
+              {e.rewardWeapon && <p class="ts-ev-card-weapon">Reward weapon: {e.rewardWeapon}</p>}
+              {e.notes && <p class="ts-ev-card-notes">{e.notes}</p>}
+              <a class="ts-ev-card-source" href={`/guides/taimanin-squad/updates/${e.source}/`}>
+                Official announcement
+              </a>
+            </div>
+          </article>
+        ))
+      }
+    </div>
+  </div>
+</LandingLayout>

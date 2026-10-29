@@ -858,45 +858,45 @@
    "damage": null
   },
   "2701": {
-   "multiplier": 504.0,
+   "multiplier": 472.5,
    "hit_count": 1,
    "attack_count": 1,
    "damage": {
     "scaling": [
      {
       "stat": "ATK",
-      "pct": 504.0
+      "pct": 472.5
      }
     ],
     "hits": [
      {
-      "pct": 504.0,
+      "pct": 472.5,
       "count": 1,
       "tar": ""
      }
     ],
-    "total": 504.0
+    "total": 472.5
    }
   },
   "2702": {
-   "multiplier": 392.3,
-   "hit_count": 1,
-   "attack_count": 1,
+   "multiplier": 126.1,
+   "hit_count": 3,
+   "attack_count": 3,
    "damage": {
     "scaling": [
      {
       "stat": "ATK",
-      "pct": 392.3
+      "pct": 126.1
      }
     ],
     "hits": [
      {
-      "pct": 392.3,
-      "count": 1,
+      "pct": 126.1,
+      "count": 3,
       "tar": "all enemies"
      }
     ],
-    "total": 392.3
+    "total": 378.3
    }
   },
   "2703": {
@@ -5069,89 +5069,93 @@
  },
  "232": {
   "23201": {
-   "multiplier": 175.0,
+   "multiplier": 168.0,
    "hit_count": 3,
    "attack_count": 3,
    "damage": {
     "scaling": [
      {
       "stat": "ATK",
-      "pct": 175.0
+      "pct": 168.0
      }
     ],
     "hits": [
      {
-      "pct": 175.0,
+      "pct": 168.0,
       "count": 3,
       "tar": ""
      }
     ],
-    "total": 525.0
+    "total": 504.0
    }
   },
   "23202": {
-   "multiplier": 394.2,
+   "multiplier": 738.4,
    "hit_count": 1,
    "attack_count": 1,
    "damage": {
     "scaling": [
      {
       "stat": "ATK",
-      "pct": 394.2
+      "pct": 738.4
      }
     ],
     "hits": [
      {
-      "pct": 394.2,
+      "pct": 738.4,
       "count": 1,
-      "tar": "all enemies"
+      "tar": ""
      }
     ],
-    "total": 394.2
+    "total": 738.4
    }
   }
  },
  "233": {
   "23301": {
-   "multiplier": 262.5,
+   "multiplier": 219.4,
    "hit_count": 2,
    "attack_count": 2,
    "damage": {
     "scaling": [
      {
       "stat": "ATK",
-      "pct": 262.5
+      "pct": 219.4
+     },
+     {
+      "stat": "Max HP",
+      "pct": 6
      }
     ],
     "hits": [
      {
-      "pct": 262.5,
+      "pct": 219.4,
       "count": 2,
       "tar": ""
      }
     ],
-    "total": 525.0
+    "total": null
    }
   },
   "23302": {
-   "multiplier": 192.3,
+   "multiplier": 184.6,
    "hit_count": 4,
    "attack_count": 4,
    "damage": {
     "scaling": [
      {
       "stat": "ATK",
-      "pct": 192.3
+      "pct": 184.6
      }
     ],
     "hits": [
      {
-      "pct": 192.3,
+      "pct": 184.6,
       "count": 4,
       "tar": ""
      }
     ],
-    "total": 769.2
+    "total": 738.4
    }
   }
  },
@@ -5178,24 +5182,28 @@
    }
   },
   "23102": {
-   "multiplier": 738.4,
+   "multiplier": 572.1,
    "hit_count": 1,
    "attack_count": 1,
    "damage": {
     "scaling": [
      {
       "stat": "ATK",
-      "pct": 738.4
+      "pct": 572.1
+     },
+     {
+      "stat": "Lost HP",
+      "pct": 27
      }
     ],
     "hits": [
      {
-      "pct": 738.4,
+      "pct": 572.1,
       "count": 1,
       "tar": ""
      }
     ],
-    "total": 738.4
+    "total": null
    }
   }
  },
@@ -5222,24 +5230,24 @@
    }
   },
   "23002": {
-   "multiplier": 769.1,
+   "multiplier": 738.4,
    "hit_count": 1,
    "attack_count": 1,
    "damage": {
     "scaling": [
      {
       "stat": "ATK",
-      "pct": 769.1
+      "pct": 738.4
      }
     ],
     "hits": [
      {
-      "pct": 769.1,
+      "pct": 738.4,
       "count": 1,
       "tar": ""
      }
     ],
-    "total": 769.1
+    "total": 738.4
    }
   }
  },
@@ -9201,24 +9209,24 @@
  },
  "229": {
   "22901": {
-   "multiplier": 525.0,
+   "multiplier": 504.0,
    "hit_count": 1,
    "attack_count": 1,
    "damage": {
     "scaling": [
      {
       "stat": "ATK",
-      "pct": 525.0
+      "pct": 504.0
      }
     ],
     "hits": [
      {
-      "pct": 525.0,
+      "pct": 504.0,
       "count": 1,
       "tar": ""
      }
     ],
-    "total": 525.0
+    "total": 504.0
    }
   }
  },
@@ -9778,24 +9786,24 @@
  },
  "227": {
   "22701": {
-   "multiplier": 525.0,
+   "multiplier": 504.0,
    "hit_count": 1,
    "attack_count": 1,
    "damage": {
     "scaling": [
      {
       "stat": "ATK",
-      "pct": 525.0
+      "pct": 504.0
      }
     ],
     "hits": [
      {
-      "pct": 525.0,
+      "pct": 504.0,
       "count": 1,
       "tar": ""
      }
     ],
-    "total": 525.0
+    "total": 504.0
    }
   }
  },
@@ -10802,24 +10810,24 @@
  },
  "228": {
   "22801": {
-   "multiplier": 525.0,
+   "multiplier": 504.0,
    "hit_count": 1,
    "attack_count": 1,
    "damage": {
     "scaling": [
      {
       "stat": "ATK",
-      "pct": 525.0
+      "pct": 504.0
      }
     ],
     "hits": [
      {
-      "pct": 525.0,
+      "pct": 504.0,
       "count": 1,
       "tar": ""
      }
     ],
-    "total": 525.0
+    "total": 504.0
    }
   }
  },
@@ -11752,67 +11760,73 @@
   }
  },
  "99": {
+  "9900": {
+   "multiplier": null,
+   "hit_count": 0,
+   "attack_count": 0,
+   "damage": null
+  },
   "9901": {
-   "multiplier": 252.0,
+   "multiplier": 134.5,
    "hit_count": 2,
    "attack_count": 2,
    "damage": {
     "scaling": [
      {
       "stat": "ATK",
-      "pct": 252.0
+      "pct": 134.5
      }
     ],
     "hits": [
      {
-      "pct": 252.0,
+      "pct": 134.5,
       "count": 2,
-      "tar": ""
-     }
-    ],
-    "total": 504.0
-   }
-  },
-  "9902": {
-   "multiplier": 115.4,
-   "hit_count": 6,
-   "attack_count": 6,
-   "damage": {
-    "scaling": [
-     {
-      "stat": "ATK",
-      "pct": 115.4
-     }
-    ],
-    "hits": [
-     {
-      "pct": 115.4,
-      "count": 6,
-      "tar": ""
-     }
-    ],
-    "total": 692.4
-   }
-  },
-  "9903": {
-   "multiplier": 166.2,
-   "hit_count": 3,
-   "attack_count": 3,
-   "damage": {
-    "scaling": [
-     {
-      "stat": "ATK",
-      "pct": 166.2
-     }
-    ],
-    "hits": [
-     {
-      "pct": 166.2,
-      "count": 3,
       "tar": "all enemies"
      }
     ],
-    "total": 498.6
+    "total": 269.0
+   }
+  },
+  "9902": {
+   "multiplier": 94.6,
+   "hit_count": 4,
+   "attack_count": 4,
+   "damage": {
+    "scaling": [
+     {
+      "stat": "ATK",
+      "pct": 94.6
+     }
+    ],
+    "hits": [
+     {
+      "pct": 94.6,
+      "count": 4,
+      "tar": "all enemies"
+     }
+    ],
+    "total": 378.4
+   }
+  },
+  "9903": {
+   "multiplier": 71.2,
+   "hit_count": 7,
+   "attack_count": 7,
+   "damage": {
+    "scaling": [
+     {
+      "stat": "ATK",
+      "pct": 71.2
+     }
+    ],
+    "hits": [
+     {
+      "pct": 71.2,
+      "count": 7,
+      "tar": "all enemies"
+     }
+    ],
+    "total": 498.4
    }
   },
   "9904": {
@@ -13199,6 +13213,12 @@
   }
  },
  "268": {
+  "26800": {
+   "multiplier": null,
+   "hit_count": 0,
+   "attack_count": 0,
+   "damage": null
+  },
   "26801": {
    "multiplier": 504.0,
    "hit_count": 1,
@@ -14341,78 +14361,13 @@
   }
  },
  "259": {
-  "25901": {
-   "multiplier": 441.0,
-   "hit_count": 1,
-   "attack_count": 1,
-   "damage": {
-    "scaling": [
-     {
-      "stat": "ATK",
-      "pct": 441.0
-     }
-    ],
-    "hits": [
-     {
-      "pct": 441.0,
-      "count": 1,
-      "tar": ""
-     }
-    ],
-    "total": 441.0
-   }
-  },
-  "25902": {
-   "multiplier": 738.4,
-   "hit_count": 1,
-   "attack_count": 1,
-   "damage": {
-    "scaling": [
-     {
-      "stat": "ATK",
-      "pct": 738.4
-     }
-    ],
-    "hits": [
-     {
-      "pct": 738.4,
-      "count": 1,
-      "tar": ""
-     }
-    ],
-    "total": 738.4
-   }
-  },
-  "25903": {
-   "multiplier": 401.2,
-   "hit_count": 1,
-   "attack_count": 1,
-   "damage": {
-    "scaling": [
-     {
-      "stat": "ATK",
-      "pct": 401.2
-     }
-    ],
-    "hits": [
-     {
-      "pct": 401.2,
-      "count": 1,
-      "tar": "all enemies"
-     }
-    ],
-    "total": 401.2
-   }
-  },
-  "25904": {
+  "25900": {
    "multiplier": null,
    "hit_count": 0,
    "attack_count": 0,
    "damage": null
-  }
- },
- "261": {
-  "26101": {
+  },
+  "25901": {
    "multiplier": 504.0,
    "hit_count": 1,
    "attack_count": 1,
@@ -14427,6 +14382,83 @@
      {
       "pct": 504.0,
       "count": 1,
+      "tar": ""
+     }
+    ],
+    "total": 504.0
+   }
+  },
+  "25902": {
+   "multiplier": 230.7,
+   "hit_count": 3,
+   "attack_count": 3,
+   "damage": {
+    "scaling": [
+     {
+      "stat": "ATK",
+      "pct": 230.7
+     }
+    ],
+    "hits": [
+     {
+      "pct": 230.7,
+      "count": 3,
+      "tar": ""
+     }
+    ],
+    "total": 692.1
+   }
+  },
+  "25903": {
+   "multiplier": 152.8,
+   "hit_count": 3,
+   "attack_count": 3,
+   "damage": {
+    "scaling": [
+     {
+      "stat": "ATK",
+      "pct": 152.8
+     }
+    ],
+    "hits": [
+     {
+      "pct": 152.8,
+      "count": 3,
+      "tar": "all enemies"
+     }
+    ],
+    "total": 458.4
+   }
+  },
+  "25904": {
+   "multiplier": null,
+   "hit_count": 0,
+   "attack_count": 0,
+   "damage": null
+  }
+ },
+ "261": {
+  "26100": {
+   "multiplier": null,
+   "hit_count": 0,
+   "attack_count": 0,
+   "damage": null
+  },
+  "26101": {
+   "multiplier": 252.0,
+   "hit_count": 2,
+   "attack_count": 2,
+   "damage": {
+    "scaling": [
+     {
+      "stat": "ATK",
+      "pct": 252.0
+     }
+    ],
+    "hits": [
+     {
+      "pct": 252.0,
+      "count": 2,
       "tar": ""
      }
     ],
@@ -14455,24 +14487,24 @@
    }
   },
   "26103": {
-   "multiplier": 429.8,
+   "multiplier": 409.8,
    "hit_count": 1,
    "attack_count": 1,
    "damage": {
     "scaling": [
      {
       "stat": "ATK",
-      "pct": 429.8
+      "pct": 409.8
      }
     ],
     "hits": [
      {
-      "pct": 429.8,
+      "pct": 409.8,
       "count": 1,
       "tar": "all enemies"
      }
     ],
-    "total": 429.8
+    "total": 409.8
    }
   },
   "26104": {
@@ -14483,6 +14515,12 @@
   }
  },
  "260": {
+  "26000": {
+   "multiplier": null,
+   "hit_count": 0,
+   "attack_count": 0,
+   "damage": null
+  },
   "26001": {
    "multiplier": 504.0,
    "hit_count": 1,
@@ -14505,45 +14543,45 @@
    }
   },
   "26002": {
-   "multiplier": 354.8,
-   "hit_count": 1,
-   "attack_count": 1,
+   "multiplier": 56.0,
+   "hit_count": 7,
+   "attack_count": 7,
    "damage": {
     "scaling": [
      {
       "stat": "ATK",
-      "pct": 354.8
+      "pct": 56.0
      }
     ],
     "hits": [
      {
-      "pct": 354.8,
-      "count": 1,
+      "pct": 56.0,
+      "count": 7,
       "tar": "all enemies"
      }
     ],
-    "total": 354.8
+    "total": 392.0
    }
   },
   "26003": {
-   "multiplier": 838.7,
+   "multiplier": 972.7,
    "hit_count": 1,
    "attack_count": 1,
    "damage": {
     "scaling": [
      {
       "stat": "ATK",
-      "pct": 838.7
+      "pct": 972.7
      }
     ],
     "hits": [
      {
-      "pct": 838.7,
+      "pct": 972.7,
       "count": 1,
       "tar": ""
      }
     ],
-    "total": 838.7
+    "total": 972.7
    }
   },
   "26004": {
@@ -14625,6 +14663,12 @@
   }
  },
  "262": {
+  "26200": {
+   "multiplier": null,
+   "hit_count": 0,
+   "attack_count": 0,
+   "damage": null
+  },
   "26201": {
    "multiplier": 504.0,
    "hit_count": 1,
@@ -14681,6 +14725,12 @@
   }
  },
  "263": {
+  "26300": {
+   "multiplier": null,
+   "hit_count": 0,
+   "attack_count": 0,
+   "damage": null
+  },
   "26301": {
    "multiplier": 393.8,
    "hit_count": 1,
@@ -14756,6 +14806,12 @@
   }
  },
  "264": {
+  "26400": {
+   "multiplier": null,
+   "hit_count": 0,
+   "attack_count": 0,
+   "damage": null
+  },
   "26401": {
    "multiplier": 504.0,
    "hit_count": 1,
@@ -14778,24 +14834,24 @@
    }
   },
   "26402": {
-   "multiplier": 692.2,
-   "hit_count": 1,
-   "attack_count": 1,
+   "multiplier": 173.1,
+   "hit_count": 4,
+   "attack_count": 4,
    "damage": {
     "scaling": [
      {
       "stat": "ATK",
-      "pct": 692.2
+      "pct": 173.1
      }
     ],
     "hits": [
      {
-      "pct": 692.2,
-      "count": 1,
+      "pct": 173.1,
+      "count": 4,
       "tar": ""
      }
     ],
-    "total": 692.2
+    "total": 692.4
    }
   },
   "26403": {
@@ -14924,35 +14980,10 @@
    }
   },
   "25202": {
-   "multiplier": 599.9,
+   "multiplier": null,
    "hit_count": 1,
    "attack_count": 1,
-   "damage": {
-    "scaling": [
-     {
-      "stat": "ATK",
-      "pct": 599.9
-     }
-    ],
-    "hits": [
-     {
-      "pct": 599.9,
-      "count": 1,
-      "tar": ""
-     },
-     {
-      "pct": 599.9,
-      "count": 1,
-      "tar": "1 random enemy"
-     },
-     {
-      "pct": 599.9,
-      "count": 1,
-      "tar": "1 random enemy"
-     }
-    ],
-    "total": 599.9
-   }
+   "damage": null
   },
   "25203": {
    "multiplier": 782.8,
@@ -15343,29 +15374,31 @@
   }
  },
  "275": {
+  "27500": {
+   "multiplier": null,
+   "hit_count": 0,
+   "attack_count": 0,
+   "damage": null
+  },
   "27501": {
-   "multiplier": 126.0,
+   "multiplier": 168.0,
    "hit_count": 3,
    "attack_count": 3,
    "damage": {
     "scaling": [
      {
       "stat": "DEF",
-      "pct": 126.0
-     },
-     {
-      "stat": "ATK",
-      "pct": 84
+      "pct": 168.0
      }
     ],
     "hits": [
      {
-      "pct": 126.0,
+      "pct": 168.0,
       "count": 3,
       "tar": ""
      }
     ],
-    "total": null
+    "total": 504.0
    }
   },
   "27502": {

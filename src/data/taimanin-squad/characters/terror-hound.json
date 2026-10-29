@@ -8,17 +8,17 @@
  "rarity_numeric": 1,
  "element": "Technique",
  "element_numeric": 2,
- "role": "Defender",
- "role_numeric": 2,
- "trait": "Saturn",
- "disposition_numeric": 6,
+ "role": "Attacker",
+ "role_numeric": 1,
+ "trait": "Jupiter",
+ "disposition_numeric": 4,
  "icon": "228_Devilsdogmod2",
  "model": "228_Devilsdogmod2/Unit/prf_228",
  "animation_event": "228_devilsdogmod2",
  "book_index": 0,
  "acquisition_id": 10001,
  "btl_power": 4800,
- "btl_rate": 312841,
+ "btl_rate": 274033,
  "names": {
   "key": "Tbl_Unit_Name_228",
   "english": "Terror Hound",
@@ -35,10 +35,10 @@
   "spanish": "Es una bestia demoníaca que ha quedado deformada hasta resultar irreconocible después de que el miasma acumulado del Reino Demoníaco superara su límite.\n\nLas bolsas de veneno que sobresalen por todo su cuerpo contienen miasma altamente concentrado, y la sangre y la saliva que brotan de ellas provocan un dolor infernal y corroen en cuestión de instantes todo lo que tocan."
  },
  "base_stats": {
-  "HP": 11904,
-  "ATK": 537,
-  "DEF": 787,
-  "SPD": 67,
+  "HP": 10368,
+  "ATK": 768,
+  "DEF": 633,
+  "SPD": 68,
   "CRATE": 25,
   "CDMG": 500,
   "CRES": 0,
@@ -46,23 +46,23 @@
   "EVD": 0
  },
  "stats": {
-  "HP": 24391,
-  "ATK": 1043,
-  "DEF": 1629,
-  "SPD": 67,
-  "CRATE": 25,
-  "CDMG": 500,
-  "CRES": 50,
+  "HP": 20355,
+  "ATK": 1522,
+  "DEF": 1230,
+  "SPD": 68,
+  "CRATE": 50,
+  "CDMG": 575,
+  "CRES": 0,
   "ACC": 0,
-  "EVD": 25
+  "EVD": 0
  },
- "evol_stat_id": 2,
- "evol_stat_type": "Defender",
+ "evol_stat_id": 1,
+ "evol_stat_type": "Attacker",
  "evolution_bonuses": {
   "1": {
-   "HP": 250,
-   "ATK": 0,
-   "DEF": 20,
+   "HP": 40,
+   "ATK": 6,
+   "DEF": 0,
    "SPD": 0,
    "CRATE": 0,
    "CDMG": 0,
@@ -71,9 +71,9 @@
    "EVD": 0
   },
   "2": {
-   "HP": 500,
-   "ATK": 0,
-   "DEF": 40,
+   "HP": 80,
+   "ATK": 12,
+   "DEF": 0,
    "SPD": 0,
    "CRATE": 0,
    "CDMG": 0,
@@ -82,9 +82,9 @@
    "EVD": 0
   },
   "3": {
-   "HP": 750,
-   "ATK": 0,
-   "DEF": 60,
+   "HP": 120,
+   "ATK": 18,
+   "DEF": 0,
    "SPD": 0,
    "CRATE": 0,
    "CDMG": 0,
@@ -93,9 +93,9 @@
    "EVD": 0
   },
   "4": {
-   "HP": 1000,
-   "ATK": 0,
-   "DEF": 80,
+   "HP": 160,
+   "ATK": 24,
+   "DEF": 0,
    "SPD": 0,
    "CRATE": 0,
    "CDMG": 0,
@@ -104,9 +104,9 @@
    "EVD": 0
   },
   "5": {
-   "HP": 1250,
-   "ATK": 0,
-   "DEF": 100,
+   "HP": 200,
+   "ATK": 30,
+   "DEF": 0,
    "SPD": 0,
    "CRATE": 0,
    "CDMG": 0,
@@ -115,22 +115,22 @@
    "EVD": 0
   },
   "6": {
-   "HP": 1250,
-   "ATK": 0,
-   "DEF": 100,
+   "HP": 200,
+   "ATK": 30,
+   "DEF": 0,
    "SPD": 0,
-   "CRATE": 0,
-   "CDMG": 0,
-   "CRES": 50,
+   "CRATE": 25,
+   "CDMG": 75,
+   "CRES": 0,
    "ACC": 0,
-   "EVD": 25
+   "EVD": 0
   }
  },
  "evolution_bonuses_per_grade": {
   "1": {
-   "HP": 250,
-   "ATK": 0,
-   "DEF": 20,
+   "HP": 40,
+   "ATK": 6,
+   "DEF": 0,
    "SPD": 0,
    "CRATE": 0,
    "CDMG": 0,
@@ -139,9 +139,9 @@
    "EVD": 0
   },
   "2": {
-   "HP": 500,
-   "ATK": 0,
-   "DEF": 40,
+   "HP": 80,
+   "ATK": 12,
+   "DEF": 0,
    "SPD": 0,
    "CRATE": 0,
    "CDMG": 0,
@@ -150,9 +150,9 @@
    "EVD": 0
   },
   "3": {
-   "HP": 750,
-   "ATK": 0,
-   "DEF": 60,
+   "HP": 120,
+   "ATK": 18,
+   "DEF": 0,
    "SPD": 0,
    "CRATE": 0,
    "CDMG": 0,
@@ -161,9 +161,9 @@
    "EVD": 0
   },
   "4": {
-   "HP": 1000,
-   "ATK": 0,
-   "DEF": 80,
+   "HP": 160,
+   "ATK": 24,
+   "DEF": 0,
    "SPD": 0,
    "CRATE": 0,
    "CDMG": 0,
@@ -172,9 +172,9 @@
    "EVD": 0
   },
   "5": {
-   "HP": 1250,
-   "ATK": 0,
-   "DEF": 100,
+   "HP": 200,
+   "ATK": 30,
+   "DEF": 0,
    "SPD": 0,
    "CRATE": 0,
    "CDMG": 0,
@@ -183,15 +183,15 @@
    "EVD": 0
   },
   "6": {
-   "HP": 1250,
-   "ATK": 0,
-   "DEF": 100,
+   "HP": 200,
+   "ATK": 30,
+   "DEF": 0,
    "SPD": 0,
-   "CRATE": 0,
-   "CDMG": 0,
-   "CRES": 50,
+   "CRATE": 25,
+   "CDMG": 75,
+   "CRES": 0,
    "ACC": 0,
-   "EVD": 25
+   "EVD": 0
   }
  },
  "stats_by_grade": {
@@ -199,10 +199,10 @@
    "grade": 1,
    "max_level": 10,
    "stats": {
-    "HP": 13618,
-    "ATK": 614,
-    "DEF": 900,
-    "SPD": 67,
+    "HP": 11860,
+    "ATK": 878,
+    "DEF": 724,
+    "SPD": 68,
     "CRATE": 25,
     "CDMG": 500,
     "CRES": 0,
@@ -210,9 +210,9 @@
     "EVD": 0
    },
    "evolution_bonus_total": {
-    "HP": 250,
-    "ATK": 0,
-    "DEF": 20,
+    "HP": 40,
+    "ATK": 6,
+    "DEF": 0,
     "SPD": 0,
     "CRATE": 0,
     "CDMG": 0,
@@ -225,10 +225,10 @@
    "grade": 2,
    "max_level": 20,
    "stats": {
-    "HP": 15522,
-    "ATK": 700,
-    "DEF": 1026,
-    "SPD": 67,
+    "HP": 13519,
+    "ATK": 1001,
+    "DEF": 825,
+    "SPD": 68,
     "CRATE": 25,
     "CDMG": 500,
     "CRES": 0,
@@ -236,9 +236,9 @@
     "EVD": 0
    },
    "evolution_bonus_total": {
-    "HP": 500,
-    "ATK": 0,
-    "DEF": 40,
+    "HP": 80,
+    "ATK": 12,
+    "DEF": 0,
     "SPD": 0,
     "CRATE": 0,
     "CDMG": 0,
@@ -251,10 +251,10 @@
    "grade": 3,
    "max_level": 30,
    "stats": {
-    "HP": 17427,
-    "ATK": 786,
-    "DEF": 1152,
-    "SPD": 67,
+    "HP": 15178,
+    "ATK": 1124,
+    "DEF": 926,
+    "SPD": 68,
     "CRATE": 25,
     "CDMG": 500,
     "CRES": 0,
@@ -262,9 +262,9 @@
     "EVD": 0
    },
    "evolution_bonus_total": {
-    "HP": 750,
-    "ATK": 0,
-    "DEF": 60,
+    "HP": 120,
+    "ATK": 18,
+    "DEF": 0,
     "SPD": 0,
     "CRATE": 0,
     "CDMG": 0,
@@ -277,10 +277,10 @@
    "grade": 4,
    "max_level": 40,
    "stats": {
-    "HP": 19332,
-    "ATK": 872,
-    "DEF": 1278,
-    "SPD": 67,
+    "HP": 16837,
+    "ATK": 1247,
+    "DEF": 1027,
+    "SPD": 68,
     "CRATE": 25,
     "CDMG": 500,
     "CRES": 0,
@@ -288,9 +288,9 @@
     "EVD": 0
    },
    "evolution_bonus_total": {
-    "HP": 1000,
-    "ATK": 0,
-    "DEF": 80,
+    "HP": 160,
+    "ATK": 24,
+    "DEF": 0,
     "SPD": 0,
     "CRATE": 0,
     "CDMG": 0,
@@ -303,10 +303,10 @@
    "grade": 5,
    "max_level": 50,
    "stats": {
-    "HP": 21236,
-    "ATK": 958,
-    "DEF": 1404,
-    "SPD": 67,
+    "HP": 18496,
+    "ATK": 1370,
+    "DEF": 1129,
+    "SPD": 68,
     "CRATE": 25,
     "CDMG": 500,
     "CRES": 0,
@@ -314,9 +314,9 @@
     "EVD": 0
    },
    "evolution_bonus_total": {
-    "HP": 1250,
-    "ATK": 0,
-    "DEF": 100,
+    "HP": 200,
+    "ATK": 30,
+    "DEF": 0,
     "SPD": 0,
     "CRATE": 0,
     "CDMG": 0,
@@ -329,10 +329,10 @@
    "grade": 6,
    "max_level": 60,
    "stats": {
-    "HP": 23141,
-    "ATK": 1043,
-    "DEF": 1529,
-    "SPD": 67,
+    "HP": 20155,
+    "ATK": 1492,
+    "DEF": 1230,
+    "SPD": 68,
     "CRATE": 25,
     "CDMG": 500,
     "CRES": 0,
@@ -340,15 +340,15 @@
     "EVD": 0
    },
    "evolution_bonus_total": {
-    "HP": 1250,
-    "ATK": 0,
-    "DEF": 100,
+    "HP": 200,
+    "ATK": 30,
+    "DEF": 0,
     "SPD": 0,
-    "CRATE": 0,
-    "CDMG": 0,
-    "CRES": 50,
+    "CRATE": 25,
+    "CDMG": 75,
+    "CRES": 0,
     "ACC": 0,
-    "EVD": 25
+    "EVD": 0
    }
   }
  },
@@ -357,10 +357,10 @@
    "level": 10,
    "grade_required": 1,
    "stats": {
-    "HP": 13618,
-    "ATK": 614,
-    "DEF": 900,
-    "SPD": 67,
+    "HP": 11860,
+    "ATK": 878,
+    "DEF": 724,
+    "SPD": 68,
     "CRATE": 25,
     "CDMG": 500,
     "CRES": 0,
@@ -372,10 +372,10 @@
    "level": 20,
    "grade_required": 2,
    "stats": {
-    "HP": 15522,
-    "ATK": 700,
-    "DEF": 1026,
-    "SPD": 67,
+    "HP": 13519,
+    "ATK": 1001,
+    "DEF": 825,
+    "SPD": 68,
     "CRATE": 25,
     "CDMG": 500,
     "CRES": 0,
@@ -387,10 +387,10 @@
    "level": 30,
    "grade_required": 3,
    "stats": {
-    "HP": 17427,
-    "ATK": 786,
-    "DEF": 1152,
-    "SPD": 67,
+    "HP": 15178,
+    "ATK": 1124,
+    "DEF": 926,
+    "SPD": 68,
     "CRATE": 25,
     "CDMG": 500,
     "CRES": 0,
@@ -402,10 +402,10 @@
    "level": 40,
    "grade_required": 4,
    "stats": {
-    "HP": 19332,
-    "ATK": 872,
-    "DEF": 1278,
-    "SPD": 67,
+    "HP": 16837,
+    "ATK": 1247,
+    "DEF": 1027,
+    "SPD": 68,
     "CRATE": 25,
     "CDMG": 500,
     "CRES": 0,
@@ -417,10 +417,10 @@
    "level": 50,
    "grade_required": 5,
    "stats": {
-    "HP": 21236,
-    "ATK": 958,
-    "DEF": 1404,
-    "SPD": 67,
+    "HP": 18496,
+    "ATK": 1370,
+    "DEF": 1129,
+    "SPD": 68,
     "CRATE": 25,
     "CDMG": 500,
     "CRES": 0,
@@ -432,10 +432,10 @@
    "level": 60,
    "grade_required": 6,
    "stats": {
-    "HP": 23141,
-    "ATK": 1043,
-    "DEF": 1529,
-    "SPD": 67,
+    "HP": 20155,
+    "ATK": 1492,
+    "DEF": 1230,
+    "SPD": 68,
     "CRATE": 25,
     "CDMG": 500,
     "CRES": 0,
@@ -447,9 +447,9 @@
  "skills": [
   {
    "id": 22801,
-   "name": "",
+   "name": "[&Color_Cyan]Maul[-]",
    "name_key": "Tbl_UnitSkill_Name_22801",
-   "name_readable": "",
+   "name_readable": "Maul",
    "description": "",
    "description_key": "Tbl_UnitSkill_Desc_22801",
    "description_readable": "",
@@ -461,27 +461,28 @@
    "additional_hits": 0,
    "damage_scaling": "[ATK]",
    "skill_level_scaling": "[D:10]/[D:10]/[D:10]/[D:10]/[D:10]",
-   "multiplier": 525.0,
+   "multiplier": 504.0,
    "damage": {
     "scaling": [
      {
       "stat": "ATK",
-      "pct": 525.0
+      "pct": 504.0
      }
     ],
     "hits": [
      {
-      "pct": 525.0,
+      "pct": 504.0,
       "count": 1,
       "tar": ""
      }
     ],
-    "total": 525.0
+    "total": 504.0
    },
    "effects": [],
-   "battle_options": "2280101",
+   "battle_options": "2280101/2280102",
    "battle_option_ids": [
-    2280101
+    2280101,
+    2280102
    ],
    "evolution_level_required": 0,
    "trigger_keyword": "",

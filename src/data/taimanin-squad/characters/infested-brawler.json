@@ -6,19 +6,19 @@
  "rarity": "R+",
  "rarity_stars": "★★",
  "rarity_numeric": 2,
- "element": "Agility",
- "element_numeric": 3,
+ "element": "Power",
+ "element_numeric": 1,
  "role": "Attacker",
  "role_numeric": 1,
- "trait": "Venus",
- "disposition_numeric": 5,
+ "trait": "Sun",
+ "disposition_numeric": 7,
  "icon": "232_Fightermod1",
  "model": "232_Fightermod1/Unit/prf_232",
  "animation_event": "232_fightermod1",
  "book_index": 0,
  "acquisition_id": 10001,
  "btl_power": 5800,
- "btl_rate": 234730,
+ "btl_rate": 264430,
  "names": {
   "key": "Tbl_Unit_Name_232",
   "english": "Infested Brawler",
@@ -35,10 +35,10 @@
   "spanish": "Un agente especial que pertenecía a la unidad de exoesqueletos de combate personalizados de la UFS y que, tras ser devuelto de la muerte por el miasma de una Caballera Espectral, ahora es utilizado como una marioneta sin alma.\n\nEl exoesqueleto de combate, corrompido por el miasma, se ha teñido de un rojo oscuro, y el miasma que habita en su interior fuerza el funcionamiento de los actuadores hidráulicos de precisión en lugar del cuerpo ya frío y sin vida.\n\nEn particular, la armadura de absorción de impactos, diseñada para resistir todo tipo de ataques, se ha fusionado con el miasma retorcido. Gracias a su abrumadora resistencia, en cuanto detecta a un ser vivo, carga contra él sin piedad y lo aplasta."
  },
  "base_stats": {
-  "HP": 10672,
-  "ATK": 1090,
+  "HP": 12064,
+  "ATK": 1020,
   "DEF": 696,
-  "SPD": 74,
+  "SPD": 72,
   "CRATE": 25,
   "CDMG": 500,
   "CRES": 0,
@@ -46,10 +46,10 @@
   "EVD": 0
  },
  "stats": {
-  "HP": 20442,
-  "ATK": 2097,
+  "HP": 23082,
+  "ATK": 1964,
   "DEF": 1320,
-  "SPD": 74,
+  "SPD": 72,
   "CRATE": 50,
   "CDMG": 575,
   "CRES": 0,
@@ -199,10 +199,10 @@
    "grade": 1,
    "max_level": 10,
    "stats": {
-    "HP": 12131,
-    "ATK": 1239,
+    "HP": 13714,
+    "ATK": 1159,
     "DEF": 791,
-    "SPD": 74,
+    "SPD": 72,
     "CRATE": 25,
     "CDMG": 500,
     "CRES": 0,
@@ -225,10 +225,10 @@
    "grade": 2,
    "max_level": 20,
    "stats": {
-    "HP": 13754,
-    "ATK": 1404,
+    "HP": 15548,
+    "ATK": 1314,
     "DEF": 897,
-    "SPD": 74,
+    "SPD": 72,
     "CRATE": 25,
     "CDMG": 500,
     "CRES": 0,
@@ -251,10 +251,10 @@
    "grade": 3,
    "max_level": 30,
    "stats": {
-    "HP": 15376,
-    "ATK": 1570,
+    "HP": 17381,
+    "ATK": 1469,
     "DEF": 1002,
-    "SPD": 74,
+    "SPD": 72,
     "CRATE": 25,
     "CDMG": 500,
     "CRES": 0,
@@ -277,10 +277,10 @@
    "grade": 4,
    "max_level": 40,
    "stats": {
-    "HP": 16998,
-    "ATK": 1736,
+    "HP": 19215,
+    "ATK": 1624,
     "DEF": 1108,
-    "SPD": 74,
+    "SPD": 72,
     "CRATE": 25,
     "CDMG": 500,
     "CRES": 0,
@@ -303,10 +303,10 @@
    "grade": 5,
    "max_level": 50,
    "stats": {
-    "HP": 18620,
-    "ATK": 1901,
+    "HP": 21049,
+    "ATK": 1779,
     "DEF": 1214,
-    "SPD": 74,
+    "SPD": 72,
     "CRATE": 25,
     "CDMG": 500,
     "CRES": 0,
@@ -329,10 +329,10 @@
    "grade": 6,
    "max_level": 60,
    "stats": {
-    "HP": 20242,
-    "ATK": 2067,
+    "HP": 22882,
+    "ATK": 1934,
     "DEF": 1320,
-    "SPD": 74,
+    "SPD": 72,
     "CRATE": 25,
     "CDMG": 500,
     "CRES": 0,
@@ -357,10 +357,10 @@
    "level": 10,
    "grade_required": 1,
    "stats": {
-    "HP": 12131,
-    "ATK": 1239,
+    "HP": 13714,
+    "ATK": 1159,
     "DEF": 791,
-    "SPD": 74,
+    "SPD": 72,
     "CRATE": 25,
     "CDMG": 500,
     "CRES": 0,
@@ -372,10 +372,10 @@
    "level": 20,
    "grade_required": 2,
    "stats": {
-    "HP": 13754,
-    "ATK": 1404,
+    "HP": 15548,
+    "ATK": 1314,
     "DEF": 897,
-    "SPD": 74,
+    "SPD": 72,
     "CRATE": 25,
     "CDMG": 500,
     "CRES": 0,
@@ -387,10 +387,10 @@
    "level": 30,
    "grade_required": 3,
    "stats": {
-    "HP": 15376,
-    "ATK": 1570,
+    "HP": 17381,
+    "ATK": 1469,
     "DEF": 1002,
-    "SPD": 74,
+    "SPD": 72,
     "CRATE": 25,
     "CDMG": 500,
     "CRES": 0,
@@ -402,10 +402,10 @@
    "level": 40,
    "grade_required": 4,
    "stats": {
-    "HP": 16998,
-    "ATK": 1736,
+    "HP": 19215,
+    "ATK": 1624,
     "DEF": 1108,
-    "SPD": 74,
+    "SPD": 72,
     "CRATE": 25,
     "CDMG": 500,
     "CRES": 0,
@@ -417,10 +417,10 @@
    "level": 50,
    "grade_required": 5,
    "stats": {
-    "HP": 18620,
-    "ATK": 1901,
+    "HP": 21049,
+    "ATK": 1779,
     "DEF": 1214,
-    "SPD": 74,
+    "SPD": 72,
     "CRATE": 25,
     "CDMG": 500,
     "CRES": 0,
@@ -432,10 +432,10 @@
    "level": 60,
    "grade_required": 6,
    "stats": {
-    "HP": 20242,
-    "ATK": 2067,
+    "HP": 22882,
+    "ATK": 1934,
     "DEF": 1320,
-    "SPD": 74,
+    "SPD": 72,
     "CRATE": 25,
     "CDMG": 500,
     "CRES": 0,
@@ -447,9 +447,9 @@
  "skills": [
   {
    "id": 23201,
-   "name": "",
+   "name": "[&Color_Cyan]Deadly Sequence[-]",
    "name_key": "Tbl_UnitSkill_Name_23201",
-   "name_readable": "",
+   "name_readable": "Deadly Sequence",
    "description": "",
    "description_key": "Tbl_UnitSkill_Desc_23201",
    "description_readable": "",
@@ -461,27 +461,28 @@
    "additional_hits": 0,
    "damage_scaling": "[ATK]",
    "skill_level_scaling": "[D:10]/[D:10]/[D:10]/[D:10]/[D:10]",
-   "multiplier": 175.0,
+   "multiplier": 168.0,
    "damage": {
     "scaling": [
      {
       "stat": "ATK",
-      "pct": 175.0
+      "pct": 168.0
      }
     ],
     "hits": [
      {
-      "pct": 175.0,
+      "pct": 168.0,
       "count": 3,
       "tar": ""
      }
     ],
-    "total": 525.0
+    "total": 504.0
    },
    "effects": [],
-   "battle_options": "2320101",
+   "battle_options": "2320101/2320102",
    "battle_option_ids": [
-    2320101
+    2320101,
+    2320102
    ],
    "evolution_level_required": 0,
    "trigger_keyword": "",
@@ -492,9 +493,9 @@
   },
   {
    "id": 23202,
-   "name": "",
+   "name": "[&Color_Cyan]Deadly Impact[-]",
    "name_key": "Tbl_UnitSkill_Name_23202",
-   "name_readable": "",
+   "name_readable": "Deadly Impact",
    "description": "",
    "description_key": "Tbl_UnitSkill_Desc_23202",
    "description_readable": "",
@@ -506,27 +507,28 @@
    "additional_hits": 0,
    "damage_scaling": "[ATK]",
    "skill_level_scaling": "[D:10]/[D:10]/[D:10]/[D:10]/[D:10]",
-   "multiplier": 394.2,
+   "multiplier": 738.4,
    "damage": {
     "scaling": [
      {
       "stat": "ATK",
-      "pct": 394.2
+      "pct": 738.4
      }
     ],
     "hits": [
      {
-      "pct": 394.2,
+      "pct": 738.4,
       "count": 1,
-      "tar": "all enemies"
+      "tar": ""
      }
     ],
-    "total": 394.2
+    "total": 738.4
    },
    "effects": [],
-   "battle_options": "2320201",
+   "battle_options": "2320201/2320202",
    "battle_option_ids": [
-    2320201
+    2320201,
+    2320202
    ],
    "evolution_level_required": 0,
    "trigger_keyword": "",

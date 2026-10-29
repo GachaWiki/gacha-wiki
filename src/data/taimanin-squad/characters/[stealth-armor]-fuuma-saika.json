@@ -16,7 +16,7 @@
  "model": "282_Saika/Unit/prf_282",
  "animation_event": "282_saika",
  "book_index": 18,
- "acquisition_id": 10002,
+ "acquisition_id": 0,
  "btl_power": 8950,
  "btl_rate": 255025,
  "names": {

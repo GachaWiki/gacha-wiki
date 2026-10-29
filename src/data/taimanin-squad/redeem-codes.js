@@ -4,6 +4,14 @@
 
 export const redeemCodes = [
   {
+    code: 'XV83M3M433',
+    source: 'Official Coupon (October)',
+    validUntil: '2026-11-05 02:00 UTC',
+    rewards: 'Gems x 400, Premium Recruit Ticket x 5, Special Fragment Box x 10',
+    status: 'active',
+    notes: 'Register at https://taimaninsquad.com/coupon',
+  },
+  {
     code: 'WELCOMESQUAD01',
     source: 'Official Coupon',
     validUntil: 'Until further notice',
@@ -48,7 +56,7 @@ export const redeemCodes = [
     source: 'Official Coupon',
     validUntil: '2026-10-08 02:00 UTC',
     rewards: 'Gold x 1,000,000, Special Recruit Ticket x 20, Pickup Ticket x 5',
-    status: 'active',
+    status: 'expired',
     notes: 'Register at https://taimaninsquad.com/coupon',
   },
 ];

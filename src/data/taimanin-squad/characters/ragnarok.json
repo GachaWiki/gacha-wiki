@@ -16,7 +16,7 @@
  "model": "301_Ragnarok/Unit/prf_301",
  "animation_event": "301_ragnarok",
  "book_index": 17,
- "acquisition_id": 10004,
+ "acquisition_id": 0,
  "btl_power": 8950,
  "btl_rate": 284428,
  "names": {

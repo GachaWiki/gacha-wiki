@@ -1,5 +1,5 @@
 // Taimanin Squad Weapon Data
-// Generated from game data (build 119, 2026-09-21) - 247 weapons
+// Generated from game data (build 119, 2026-09-21) - 257 weapons
 
 export const TAIMANIN_SQUAD_WEAPONS =
 [
@@ -1292,31 +1292,31 @@ export const TAIMANIN_SQUAD_WEAPONS =
     "name": "Throne Bracelet",
     "slot": "Weapon 1",
     "rarity_stars": 5,
-    "opt_type": 7,
-    "opt_type_name": "Critical Resistance",
-    "opt_value": 35,
-    "bonus_value": 3.5,
-    "skill_id": 2712,
-    "skill_name": "<Throne Bracelet> Heat Wave",
-    "skill_desc": "Attacks ALL enemies by lighting the ground beneath them on fire.\nInflicts (3.5%) Burn at a 60% chance on Last Attack.\nDuration: 3 turn(s)",
-    "skill_type": "[Attack Skill]",
+    "opt_type": 11,
+    "opt_type_name": "ATK",
+    "opt_value": 47,
+    "bonus_value": 4.7,
+    "skill_id": 2713,
+    "skill_name": "<Throne Bracelet> Super Nova",
+    "skill_desc": "Unleashes a wave of fire toward ALL enemies.\nDMG increases by (20%) for each type of Debuff the targets have.\nStacks up to 5 times.\nWhen attacking, performs a (150%) Burn Debuff Resonance attack.",
+    "skill_type": "[Ultimate Skill]",
     "skill_damage": {
       "scaling": [
         {
           "stat": "ATK",
-          "pct": 418.4
+          "pct": 467.4
         }
       ],
       "hits": [
         {
-          "pct": 418.4,
+          "pct": 467.4,
           "count": 1,
           "tar": "all enemies"
         }
       ],
-      "total": 418.4
+      "total": 467.4
     },
-    "skill_icon": "2712",
+    "skill_icon": "2713",
     "char_name": "Astaroth",
     "char_icon": "27_Astaroth",
     "icon": "Weapon_2701.png",
@@ -1328,13 +1328,13 @@ export const TAIMANIN_SQUAD_WEAPONS =
     "name": "Ruby Eye",
     "slot": "Weapon 2",
     "rarity_stars": 5,
-    "opt_type": 8,
-    "opt_type_name": "Accuracy",
-    "opt_value": 20,
-    "bonus_value": 2.0,
+    "opt_type": 5,
+    "opt_type_name": "Critical Rate",
+    "opt_value": 35,
+    "bonus_value": 3.5,
     "skill_id": 2714,
     "skill_name": "<Ruby Eye> Queen of the Inferno",
-    "skill_desc": "When attacking an enemy with Burn, performs a (15%) DEF Penetrate attack.",
+    "skill_desc": "If the character's HP is 50% or more, DMG taken decreases by (-12.5%).\n[Always-active passive effect regardless of cooldown]\nDMG increases by 12.5%/17.5%/22.5%/27.5%, depending on the number of enemies afflicted with Burn (1/2/3/4).",
     "skill_type": "[Passive Skill]",
     "skill_damage": null,
     "skill_icon": "2714",
@@ -4466,6 +4466,63 @@ export const TAIMANIN_SQUAD_WEAPONS =
     "large_icon": "Weapon_9701_m.png"
   },
   {
+    "id": 9901,
+    "unit_id": 99,
+    "name": "Blood Swarm",
+    "slot": "Weapon 1",
+    "rarity_stars": 4,
+    "opt_type": 8,
+    "opt_type_name": "Accuracy",
+    "opt_value": 20,
+    "bonus_value": 2.0,
+    "skill_id": 9913,
+    "skill_name": "<Blood Swarm> Satellite Burst",
+    "skill_desc": "",
+    "skill_type": "[Ultimate Skill]",
+    "skill_damage": {
+      "scaling": [
+        {
+          "stat": "ATK",
+          "pct": 66.8
+        }
+      ],
+      "hits": [
+        {
+          "pct": 66.8,
+          "count": 7,
+          "tar": "all enemies"
+        }
+      ],
+      "total": 467.6
+    },
+    "skill_icon": "9913",
+    "char_name": "Wisp",
+    "char_icon": "99_Wisp",
+    "icon": "Weapon_9901.png",
+    "large_icon": "Weapon_9901_m.png"
+  },
+  {
+    "id": 9902,
+    "unit_id": 99,
+    "name": "Phantom Beelzebub",
+    "slot": "Weapon 2",
+    "rarity_stars": 4,
+    "opt_type": 5,
+    "opt_type_name": "Critical Rate",
+    "opt_value": 35,
+    "bonus_value": 3.5,
+    "skill_id": 9914,
+    "skill_name": "<Phantom Beelzebub> Silver Yaksha",
+    "skill_desc": "",
+    "skill_type": "[Passive Skill]",
+    "skill_damage": null,
+    "skill_icon": "9914",
+    "char_name": "Wisp",
+    "char_icon": "99_Wisp",
+    "icon": "Weapon_9902.png",
+    "large_icon": "Weapon_9902_m.png"
+  },
+  {
     "id": 10101,
     "unit_id": 101,
     "name": "Pandora's Box",
@@ -6275,6 +6332,63 @@ export const TAIMANIN_SQUAD_WEAPONS =
     "large_icon": "Weapon_24802_m.png"
   },
   {
+    "id": 25101,
+    "unit_id": 251,
+    "name": "",
+    "slot": "Weapon 1",
+    "rarity_stars": 5,
+    "opt_type": 11,
+    "opt_type_name": "ATK",
+    "opt_value": 47,
+    "bonus_value": 4.7,
+    "skill_id": 25111,
+    "skill_name": "",
+    "skill_desc": "",
+    "skill_type": "[Normal Attack]",
+    "skill_damage": {
+      "scaling": [
+        {
+          "stat": "ATK",
+          "pct": 525.0
+        }
+      ],
+      "hits": [
+        {
+          "pct": 525.0,
+          "count": 1,
+          "tar": ""
+        }
+      ],
+      "total": 525.0
+    },
+    "skill_icon": "25111",
+    "char_name": "Yukikaze",
+    "char_icon": "251_Yukikaze",
+    "icon": "Weapon_25101.png",
+    "large_icon": "Weapon_25101_m.png"
+  },
+  {
+    "id": 25102,
+    "unit_id": 251,
+    "name": "",
+    "slot": "Weapon 2",
+    "rarity_stars": 5,
+    "opt_type": 11,
+    "opt_type_name": "ATK",
+    "opt_value": 47,
+    "bonus_value": 4.7,
+    "skill_id": 25112,
+    "skill_name": "",
+    "skill_desc": "",
+    "skill_type": "[Support Skill]",
+    "skill_damage": null,
+    "skill_icon": "25112",
+    "char_name": "Yukikaze",
+    "char_icon": "251_Yukikaze",
+    "icon": "Weapon_25102.png",
+    "large_icon": "Weapon_25102_m.png"
+  },
+  {
     "id": 25301,
     "unit_id": 253,
     "name": "Lily Cascade",
@@ -6655,32 +6769,32 @@ export const TAIMANIN_SQUAD_WEAPONS =
     "unit_id": 259,
     "name": "Sugar Twist Broom",
     "slot": "Weapon 1",
-    "rarity_stars": 4,
-    "opt_type": 10,
-    "opt_type_name": "HP",
-    "opt_value": 47,
-    "bonus_value": 4.7,
-    "skill_id": 25911,
-    "skill_name": "",
-    "skill_desc": "",
-    "skill_type": "[Normal Attack]",
+    "rarity_stars": 5,
+    "opt_type": 8,
+    "opt_type_name": "Accuracy",
+    "opt_value": 20,
+    "bonus_value": 2.0,
+    "skill_id": 25912,
+    "skill_name": "<Sugar Twist Broom> Pumpkin Devil",
+    "skill_desc": "Summons 3 Pumpkin Octopuses and sends them to self-destruct on the enemy.\nDMG increases equal to 4.5% of the target's lost HP when attacking.\nUses Jack-o'-Spin upon defeating an enemy with this skill.",
+    "skill_type": "[Attack Skill]",
     "skill_damage": {
       "scaling": [
         {
           "stat": "ATK",
-          "pct": 525.0
+          "pct": 230.7
         }
       ],
       "hits": [
         {
-          "pct": 525.0,
-          "count": 1,
+          "pct": 230.7,
+          "count": 3,
           "tar": ""
         }
       ],
-      "total": 525.0
+      "total": 692.1
     },
-    "skill_icon": "25911",
+    "skill_icon": "25912",
     "char_name": "Hebiko",
     "char_icon": "259_Hebiko",
     "icon": "Weapon_25901.png",
@@ -6691,12 +6805,162 @@ export const TAIMANIN_SQUAD_WEAPONS =
     "unit_id": 259,
     "name": "Spooky Jack Broom",
     "slot": "Weapon 2",
-    "rarity_stars": 4,
+    "rarity_stars": 5,
     "opt_type": 11,
     "opt_type_name": "ATK",
     "opt_value": 47,
     "bonus_value": 4.7,
-    "skill_id": 25912,
+    "skill_id": 25913,
+    "skill_name": "<Spooky Jack Broom> Trick or Treat",
+    "skill_desc": "Flies high into the air and scatters candy toward the ground to attack ALL enemies 3 time(s).\nIf the target is alone, DMG of all attacks increases by (45%).",
+    "skill_type": "[Ultimate Skill]",
+    "skill_damage": {
+      "scaling": [
+        {
+          "stat": "ATK",
+          "pct": 152.8
+        }
+      ],
+      "hits": [
+        {
+          "pct": 152.8,
+          "count": 3,
+          "tar": "all enemies"
+        }
+      ],
+      "total": 458.4
+    },
+    "skill_icon": "25913",
+    "char_name": "Hebiko",
+    "char_icon": "259_Hebiko",
+    "icon": "Weapon_25902.png",
+    "large_icon": "Weapon_25902_m.png"
+  },
+  {
+    "id": 26001,
+    "unit_id": 260,
+    "name": "Jelly Paw Saber",
+    "slot": "Weapon 1",
+    "rarity_stars": 4,
+    "opt_type": 10,
+    "opt_type_name": "HP",
+    "opt_value": 47,
+    "bonus_value": 4.7,
+    "skill_id": 26012,
+    "skill_name": "<Jelly Paw Saber> Pumpkin Tornado",
+    "skill_desc": "Spins rapidly to create a massive tornado, attacking the enemy 7 time(s).\nWhen attacking, performs a (36%) Bleed Debuff Resonance attack, which deals damage equal to 1 Bleed damage, at a 35% chance.\nPerforms a (36%) Bleed Debuff Resonance attack on the Last Attack.",
+    "skill_type": "[Attack Skill]",
+    "skill_damage": {
+      "scaling": [
+        {
+          "stat": "ATK",
+          "pct": 56.0
+        }
+      ],
+      "hits": [
+        {
+          "pct": 56.0,
+          "count": 7,
+          "tar": "all enemies"
+        }
+      ],
+      "total": 392.0
+    },
+    "skill_icon": "26012",
+    "char_name": "Kurenai",
+    "char_icon": "260_Kurenai",
+    "icon": "Weapon_26001.png",
+    "large_icon": "Weapon_26001_m.png"
+  },
+  {
+    "id": 26002,
+    "unit_id": 260,
+    "name": "Pumpkin Trick Cutlass",
+    "slot": "Weapon 2",
+    "rarity_stars": 4,
+    "opt_type": 9,
+    "opt_type_name": "Evasion",
+    "opt_value": 20,
+    "bonus_value": 2.0,
+    "skill_id": 26014,
+    "skill_name": "<Pumpkin Trick Cutlass> Halloween Knight",
+    "skill_desc": "When attacking an enemy afflicted with Bleed, DMG increases by (7.5%).\nWhen CRIT ATK lands on an enemy afflicted with Bleed, inflicts (10%) Bleed on 1 Random enemy at a 20% chance.\nDuration: 3 turn(s)",
+    "skill_type": "[Passive Skill]",
+    "skill_damage": null,
+    "skill_icon": "26014",
+    "char_name": "Kurenai",
+    "char_icon": "260_Kurenai",
+    "icon": "Weapon_26002.png",
+    "large_icon": "Weapon_26002_m.png"
+  },
+  {
+    "id": 26101,
+    "unit_id": 261,
+    "name": "Crystal Specter",
+    "slot": "Weapon 1",
+    "rarity_stars": 5,
+    "opt_type": 10,
+    "opt_type_name": "HP",
+    "opt_value": 47,
+    "bonus_value": 4.7,
+    "skill_id": 26112,
+    "skill_name": "<Crystal Specter> Ice Pumpkin",
+    "skill_desc": "Rolls an ice pumpkin head at the enemy.\nIf the target is afflicted with Frostbite, increases the duration of Frostbite by 1 turn(s) before the attack.\nInflicts (25%) Freeze at a 35% chance on the Last Attack.\nDuration: 2 turn(s)",
+    "skill_type": "[Attack Skill]",
+    "skill_damage": {
+      "scaling": [
+        {
+          "stat": "ATK",
+          "pct": 692.2
+        }
+      ],
+      "hits": [
+        {
+          "pct": 692.2,
+          "count": 1,
+          "tar": ""
+        }
+      ],
+      "total": 692.2
+    },
+    "skill_icon": "26112",
+    "char_name": "Kirara",
+    "char_icon": "261_Kirara",
+    "icon": "Weapon_26101.png",
+    "large_icon": "Weapon_26101_m.png"
+  },
+  {
+    "id": 26102,
+    "unit_id": 261,
+    "name": "Spectral Flame",
+    "slot": "Weapon 2",
+    "rarity_stars": 5,
+    "opt_type": 9,
+    "opt_type_name": "Evasion",
+    "opt_value": 20,
+    "bonus_value": 2.0,
+    "skill_id": 26114,
+    "skill_name": "<Spectral Flame> Halloween Vampire",
+    "skill_desc": "At the end of the character's turn, if there is an enemy with Frostbite, grants (35%) CRIT Rate UP to ALL allies\nand removes 1 Random Debuff.\nDuration: 2 turn(s)\nWhen attacking an enemy afflicted with Frostbite, performs a (15%) Life Steal attack.",
+    "skill_type": "[Passive Skill]",
+    "skill_damage": null,
+    "skill_icon": "26114",
+    "char_name": "Kirara",
+    "char_icon": "261_Kirara",
+    "icon": "Weapon_26102.png",
+    "large_icon": "Weapon_26102_m.png"
+  },
+  {
+    "id": 26301,
+    "unit_id": 263,
+    "name": "Gingerman Sugar Edge",
+    "slot": "Weapon 1",
+    "rarity_stars": 5,
+    "opt_type": 10,
+    "opt_type_name": "HP",
+    "opt_value": 47,
+    "bonus_value": 4.7,
+    "skill_id": 26312,
     "skill_name": "",
     "skill_desc": "",
     "skill_type": "[Attack Skill]",
@@ -6704,23 +6968,44 @@ export const TAIMANIN_SQUAD_WEAPONS =
       "scaling": [
         {
           "stat": "ATK",
-          "pct": 769.1
+          "pct": 738.4
         }
       ],
       "hits": [
         {
-          "pct": 769.1,
+          "pct": 738.4,
           "count": 1,
           "tar": ""
         }
       ],
-      "total": 769.1
+      "total": 738.4
     },
-    "skill_icon": "25912",
-    "char_name": "Hebiko",
-    "char_icon": "259_Hebiko",
-    "icon": "Weapon_25902.png",
-    "large_icon": "Weapon_25902_m.png"
+    "skill_icon": "26312",
+    "char_name": "Sakura",
+    "char_icon": "263_Sakura",
+    "icon": "Weapon_26301.png",
+    "large_icon": "Weapon_26301_m.png"
+  },
+  {
+    "id": 26302,
+    "unit_id": 263,
+    "name": "Snowman Icicle",
+    "slot": "Weapon 2",
+    "rarity_stars": 5,
+    "opt_type": 9,
+    "opt_type_name": "Evasion",
+    "opt_value": 20,
+    "bonus_value": 2.0,
+    "skill_id": 26314,
+    "skill_name": "",
+    "skill_desc": "",
+    "skill_type": "[Passive Skill]",
+    "skill_damage": null,
+    "skill_icon": "26314",
+    "char_name": "Sakura",
+    "char_icon": "263_Sakura",
+    "icon": "Weapon_26302.png",
+    "large_icon": "Weapon_26302_m.png"
   },
   {
     "id": 26701,
@@ -6782,9 +7067,9 @@ export const TAIMANIN_SQUAD_WEAPONS =
   {
     "id": 26801,
     "unit_id": 268,
-    "name": "",
+    "name": "Gamma Flame Saber",
     "slot": "Weapon 1",
-    "rarity_stars": 4,
+    "rarity_stars": 5,
     "opt_type": 12,
     "opt_type_name": "DEF",
     "opt_value": 47,
@@ -6818,9 +7103,9 @@ export const TAIMANIN_SQUAD_WEAPONS =
   {
     "id": 26802,
     "unit_id": 268,
-    "name": "",
+    "name": "Tachyon Pulse Saber",
     "slot": "Weapon 2",
-    "rarity_stars": 4,
+    "rarity_stars": 5,
     "opt_type": 12,
     "opt_type_name": "DEF",
     "opt_value": 47,
@@ -7139,7 +7424,7 @@ export const TAIMANIN_SQUAD_WEAPONS =
     "bonus_value": 3.5,
     "skill_id": 27514,
     "skill_name": "<Neon Dimension>Oni",
-    "skill_desc": "At the end of each side's turn, grants (1) Protective Shield to 1 ally with the lowest HP below 70%, except for the character.\nDuration: 2 turn(s)\nWhen the chatacter's HP is below 50%, the chance of being inflicted by Debuffs reduces by 20%.\n[Always-active passive effect regardless of cooldown]\nWhen hit by an all-target attack, restores HP to the character and the ally with the highest ATK by 6% of the character's Max. HP for each attack. [Always-active passive effect regardless of cooldown]",
+    "skill_desc": "At the end of each side's turn, grants (1) Protective Shield to 1 ally with the lowest HP below 70%, except for the character.\nDuration: 2 turn(s)\nWhen the character's HP is below 50%, the chances of being inflicted by Debuffs are reduced by 20%.\nWhen hit by an all-target attack, restores HP of the character and the ally with the highest ATK by 6% of the character's Max. HP for each attack.",
     "skill_type": "[Passive Skill]",
     "skill_damage": null,
     "skill_icon": "27514",
@@ -7160,7 +7445,7 @@ export const TAIMANIN_SQUAD_WEAPONS =
     "bonus_value": 4.7,
     "skill_id": 27512,
     "skill_name": "<Oni-Gear Blade>Calamity",
-    "skill_desc": "Spins the whole body to attack ALL enemies 1 time(s).\nDMG increases in proportion to the character's DEF.\nWhen attacking, consumes -10% of the character's current HP to activate the effects listed below.\nRemoves 1 Random Debuff from ALL allies.\nGrants Shield equal to 7% of the character's Max. HP to ALL allies after the attack.\nDuration: 2 turn(s)",
+    "skill_desc": "Spins the whole body to attack ALL enemies 1 time(s).\nDeals damage proportional to the character's DEF.\nWhen attacking, consumes -10% of the character's current HP to activate the effects listed below.\nRemoves 1 Random Debuff from ALL allies.\nGrants Shield equal to 7% of the character's Max. HP to ALL allies after the attack.\nDuration: 2 turn(s)",
     "skill_type": "[Attack Skill]",
     "skill_damage": {
       "scaling": [

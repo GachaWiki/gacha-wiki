@@ -8,17 +8,17 @@
  "rarity_numeric": 4,
  "element": "Technique",
  "element_numeric": 2,
- "role": "Defender",
- "role_numeric": 2,
- "trait": "Venus",
- "disposition_numeric": 5,
+ "role": "Attacker",
+ "role_numeric": 1,
+ "trait": "Mars",
+ "disposition_numeric": 2,
  "icon": "260_Kurenai",
  "model": "260_Kurenai/Unit/prf_260",
  "animation_event": "260_kurenai",
- "book_index": 0,
- "acquisition_id": 10002,
+ "book_index": 21,
+ "acquisition_id": 10003,
  "btl_power": 7950,
- "btl_rate": 293635,
+ "btl_rate": 285022,
  "names": {
   "key": "Tbl_Unit_Name_260",
   "english": "[Halloween] Shinganji Kurenai",
@@ -30,39 +30,39 @@
   "english": "Taimanin. A heretic, as she is a mix between human and vampire, and lives as a Taimanin.\n\nShe was taught swordsmanship by her grandfather, Shinganji Genan, and received attention as she was considered to be the heir of the Fuuma clan. But due to the revolt of Fuuma Danjo, Taimanins went against each other, causing Genan to step down. Even Kurenai, who was supposed to take over, left Fuuma's village and lived without being associated with any other clan. But when it comes to Fuuma Kotaro, who is her childhood friend, she always contemplates whether to help him or not. But in the end, she always helps him for old times' sake.\n\nAs a half-human, half-demon, she possesses physical abilities that aid her in combat. She swiftly swings her dual ninja daggers, 'Shirakami' and 'Koma', inherited from Shinganji Genan, the predecessor of the Fuuma clan. Her ninja art 'Wind Art', combined with the Shinganji dual-wielding style, creates a 'Whirlwind Zone' that shreds the enemy with a vacuum blade.\n\nTo give the orphanage children an unforgettable memory for Halloween, she surprised everyone by dressing up as a \"Halloween Knight\". Determined to present them with a truly special moment, she utilized her signature Wind Art to put on a magical spectacle of treats dancing across the entire sky—",
   "japanese": "対魔忍。吸血鬼と人間のハーフでありながら、対魔忍として生きる異端の存在。\n \n祖父の心願寺幻庵から剣術の指南を受け、ゆくゆくはふうま八将を継ぐと目されていたが、ふうま弾正による対魔忍の内紛を咎で幻庵は失脚、その後目を継ぐはずだった紅もふうまの里を離れ、どこにも属さずに行動している。しかし、幼馴染のふうま小太郎と関わることであれば、なんやかんやで悩みつつも昔を思い出して仕方なく協力してしまう。\n \n半人半魔のハーフヴァンパイアとしての身体能力を活かした絶大なる戦闘力を誇り、先代のふうま八将・心願寺幻庵から受け継いだ二刀の小太刀『白神』『紅魔』を高速で操る。風を操る忍法・風遁の術と心願寺流小太刀剣術を組み合わせた絶技・旋風陣は真空の刃で敵を切り裂く。\n\n孤児園の子供たちのために、ハロウィンを迎えて「ハロウィンナイト」に仮装してきた。子供たちに忘れられない思い出を作ってあげようと、得意技の風遁を使ってお菓子が空を舞う魔法のような光景を演出するが──？",
   "korean": "대마인. 흡혈귀와 인간의 혼혈이면서, 대마인으로서 살아가는 이단의 존재.\n \n할아버지 신간지 겐안으로부터 검술 수련을 받아, 이윽고 후우마 팔장을 계승할 것으로 주목받았으나, 후우마 단죠가 일으킨 대마인 내분을 계기로 겐안은 실각, 그 뒤를 이어야 하는 쿠레나이도 후우마의 마을을 떠나, 어디에도 소속되지 않은 채 행동하고 있다. 하지만, 소꿉친구 후우마 코타로에 관한 일이라면, 이러니 저러니 고민하면서도 옛 정을 생각하며 협력해 버리고 만다.\n \n반인반마인 하프 뱀파이어로서의 신체 능력을 살린 막대한 전투 능력을 자랑하며, 선대 후우마 팔장인 신간지 겐안으로부터 물려받은 두 자루의 소태도 '백신'과 '홍마'를 빠르게 휘두른다. 바람을 다루는 인법 풍둔의 술과 신간지류 소태도 검술을 조합한 절기 '선풍진'은, 진공 칼날로 적을 갈기갈기 찢는다.\n\n보육원 아이들을 위해 할로윈을 맞아 '할로윈 나이트'로 깜짝 분장하였다. 아이들에게 잊지 못할 추억을 선물하고자 주특기인 풍둔을 활용해 하늘 가득 과자가 춤추는 마법 같은 광경을 연출해 보이는데──?",
-  "chinese_simplified": "对魔忍，但却是吸血鬼和人类混血的异类。 \n \n曾跟随祖父心愿寺幻庵修习剑术，并以风魔八将继承人的身份备受瞩目。但因风魔弹正引发的对魔忍内战，幻庵下台，作为继承人的红也离开五车，成为了一名无隶属的对魔忍，单独行动。不过，若是与青梅竹马的风魔小太郎有关的事，虽然会烦恼东烦恼西，但最后还是会念着旧情帮忙。 \n \n作为半人半魔的半吸血鬼，她活用身体机能，展现出超强战斗力，如疾风般挥舞着继承自前风魔八将・心愿寺幻庵的两把小太刀「白神」和「红魔」；以操纵风的风遁之术再加上心愿寺流小太刀术，使出绝技「旋风阵」，用真空刀刃把敌人撕成碎片。\n\n为了育幼院的孩子们，她趁着万圣节惊喜乔装成「万圣骑士」。一心想送给小朋友们一段难忘回忆的红，发挥自己最拿手的风遁，营造出点心如魔法般，于空中翩翩起舞的壮观光景——？",
-  "chinese_traditional": "對魔忍，但卻是吸血鬼和人類混血的異類。\n \n曾跟隨祖父心願寺幻庵修習劍術，並以風魔八將繼承人的身分備受矚目。但因風魔彈正引發的對魔忍內戰，幻庵下臺，作為繼承人的紅也離開五車，成為了無隸屬的對魔忍，單獨行動。不過，若是與青梅竹馬的風魔小太郎有關的事，雖然會煩惱東煩惱西，但最後還是會念著舊情幫忙。\n \n作為半人半魔的半吸血鬼，她活用身體機能，展現出超強戰鬥力，如疾風般揮舞著繼承自前風魔八將・心願寺幻庵的兩把小太刀「白神」和「紅魔」；以操縱風的風遁之術再加上心願寺流小太刀術，使出絕技「旋風陣」，用真空刀刃把敵人撕成碎片。\n\n為了育幼院的孩子，她趁著萬聖節驚喜喬裝成「萬聖騎士」。一心想送給小朋友一段難忘回憶的紅，發揮自己最拿手的風遁，營造出點心如魔法般，於空中翩翩起舞的壯觀光景——？",
+  "chinese_simplified": "对魔忍，但却是吸血鬼和人类混血的异类。\n\n曾跟随祖父心愿寺幻庵修习剑术，并以风魔八将继承人的身份备受瞩目。但因风魔弹正引发的对魔忍内战，幻庵下台，作为继承人的红也离开五车，成为了一名无隶属的对魔忍，单独行动。不过，若是与青梅竹马风魔小太郎有关的事，虽然会烦恼东烦恼西，但最后还是会念着旧情帮忙。\n\n作为半人半魔的半吸血鬼，她活用身体机能，展现出超强战斗力，如疾风般挥舞着继承自前风魔八将・心愿寺幻庵的两把小太刀「白神」和「红魔」；以操纵风的风遁之术再加上心愿寺流小太刀术，使出绝技「旋风阵」，用真空刀刃把敌人撕成碎片。\n\n为了育幼院的孩子们，她趁着万圣节惊喜乔装成「万圣骑士」。一心想送给小朋友们一段难忘回忆的红，发挥自己最拿手的风遁，营造出点心如魔法般，于空中翩翩起舞的壮观光景——？",
+  "chinese_traditional": "對魔忍，但卻是吸血鬼和人類混血的異類。\n \n曾跟隨祖父心願寺幻庵修習劍術，並以風魔八將繼承人的身分備受矚目。但因風魔彈正引發的對魔忍內戰，幻庵下臺，作為繼承人的紅也離開五車，成為了無隸屬的對魔忍，單獨行動。不過，若是與青梅竹馬的風魔小太郎有關的事，雖然會煩惱東煩惱西，但最後還是會念著舊情幫忙。\n \n作為半人半魔的半吸血鬼，她活用身體機能，展現出超強戰鬥力，如疾風般揮舞著繼承自前風魔八將・心願寺幻庵的兩把小太刀「白神」和「紅魔」；以操縱風的風遁之術再加上心願寺流小太刀術，使出絕技「旋風陣」，用真空刀刃把敵人撕成碎片。\n\n為了育幼院的孩子，她趁著萬聖節驚喜喬裝「萬聖騎士」。一心只想送給小朋友一段難忘回憶的紅，發揮自己最拿手的風遁，營造出點心如魔法般，於空中翩翩起舞的壯觀光景——？",
   "spanish": "Taimanin. Mitad vampira y mitad humana, es una figura poco común que ha elegido vivir como Taimanin a pesar de sus orígenes.\n\nAprendió el manejo de la espada de su abuelo, Shinganji Gen-an, y llegó a ser considerada una posible sucesora de los Ocho Generales Fuuma. Sin embargo, tras el conflicto interno entre los Taimanin provocado por Fuuma Danjo, Gen-an cayó en desgracia. Kurenai, quien estaba destinada a sucederlo, también abandonó la aldea Fuuma y desde entonces actúa por su cuenta, sin pertenecer a ninguna organización. Aun así, cuando se trata de su amigo de la infancia, Fuuma Kotaro, por más que intente mantenerse al margen, los lazos que los unen desde pequeños siempre terminan llevándola a ayudarlo.\n\nComo medio vampira, posee capacidades físicas extraordinarias que le otorgan un enorme poder de combate. Maneja con gran destreza las dos espadas cortas, \"Byakushin\" y \"Koma\", que heredó de Shinganji Gen-an, anterior miembro de los Ocho Generales Fuuma. Su técnica secreta, \"Senpujin\", combina el Arte del Viento con el manejo de espadas cortas del estilo Shinganji para crear cuchillas de vacío que despedazan a sus enemigos.\n\nPara celebrar Halloween con los niños del orfanato, decidió sorprenderlos disfrazándose de \"Caballera de Halloween\". Con la intención de regalarles un recuerdo inolvidable, utiliza su especialidad, el Arte del Viento, para hacer que los dulces vuelen y bailen por todo el cielo, creando una escena digna de un cuento de hadas──."
  },
  "base_stats": {
-  "HP": 18444,
-  "ATK": 1144,
-  "DEF": 1113,
-  "SPD": 86,
-  "CRATE": 25,
-  "CDMG": 500,
-  "CRES": 50,
+  "HP": 17808,
+  "ATK": 1590,
+  "DEF": 699,
+  "SPD": 81,
+  "CRATE": 50,
+  "CDMG": 575,
+  "CRES": 0,
   "ACC": 0,
-  "EVD": 25
+  "EVD": 0
  },
  "stats": {
-  "HP": 34493,
-  "ATK": 2061,
-  "DEF": 2106,
-  "SPD": 86,
-  "CRATE": 25,
-  "CDMG": 500,
-  "CRES": 100,
+  "HP": 32297,
+  "ATK": 2895,
+  "DEF": 1259,
+  "SPD": 81,
+  "CRATE": 75,
+  "CDMG": 650,
+  "CRES": 0,
   "ACC": 0,
-  "EVD": 50
+  "EVD": 0
  },
- "evol_stat_id": 2,
- "evol_stat_type": "Defender",
+ "evol_stat_id": 1,
+ "evol_stat_type": "Attacker",
  "evolution_bonuses": {
   "1": {
-   "HP": 250,
-   "ATK": 0,
-   "DEF": 20,
+   "HP": 40,
+   "ATK": 6,
+   "DEF": 0,
    "SPD": 0,
    "CRATE": 0,
    "CDMG": 0,
@@ -71,9 +71,9 @@
    "EVD": 0
   },
   "2": {
-   "HP": 500,
-   "ATK": 0,
-   "DEF": 40,
+   "HP": 80,
+   "ATK": 12,
+   "DEF": 0,
    "SPD": 0,
    "CRATE": 0,
    "CDMG": 0,
@@ -82,9 +82,9 @@
    "EVD": 0
   },
   "3": {
-   "HP": 750,
-   "ATK": 0,
-   "DEF": 60,
+   "HP": 120,
+   "ATK": 18,
+   "DEF": 0,
    "SPD": 0,
    "CRATE": 0,
    "CDMG": 0,
@@ -93,9 +93,9 @@
    "EVD": 0
   },
   "4": {
-   "HP": 1000,
-   "ATK": 0,
-   "DEF": 80,
+   "HP": 160,
+   "ATK": 24,
+   "DEF": 0,
    "SPD": 0,
    "CRATE": 0,
    "CDMG": 0,
@@ -104,9 +104,9 @@
    "EVD": 0
   },
   "5": {
-   "HP": 1250,
-   "ATK": 0,
-   "DEF": 100,
+   "HP": 200,
+   "ATK": 30,
+   "DEF": 0,
    "SPD": 0,
    "CRATE": 0,
    "CDMG": 0,
@@ -115,22 +115,22 @@
    "EVD": 0
   },
   "6": {
-   "HP": 1250,
-   "ATK": 0,
-   "DEF": 100,
+   "HP": 200,
+   "ATK": 30,
+   "DEF": 0,
    "SPD": 0,
-   "CRATE": 0,
-   "CDMG": 0,
-   "CRES": 50,
+   "CRATE": 25,
+   "CDMG": 75,
+   "CRES": 0,
    "ACC": 0,
-   "EVD": 25
+   "EVD": 0
   }
  },
  "evolution_bonuses_per_grade": {
   "1": {
-   "HP": 250,
-   "ATK": 0,
-   "DEF": 20,
+   "HP": 40,
+   "ATK": 6,
+   "DEF": 0,
    "SPD": 0,
    "CRATE": 0,
    "CDMG": 0,
@@ -139,9 +139,9 @@
    "EVD": 0
   },
   "2": {
-   "HP": 500,
-   "ATK": 0,
-   "DEF": 40,
+   "HP": 80,
+   "ATK": 12,
+   "DEF": 0,
    "SPD": 0,
    "CRATE": 0,
    "CDMG": 0,
@@ -150,9 +150,9 @@
    "EVD": 0
   },
   "3": {
-   "HP": 750,
-   "ATK": 0,
-   "DEF": 60,
+   "HP": 120,
+   "ATK": 18,
+   "DEF": 0,
    "SPD": 0,
    "CRATE": 0,
    "CDMG": 0,
@@ -161,9 +161,9 @@
    "EVD": 0
   },
   "4": {
-   "HP": 1000,
-   "ATK": 0,
-   "DEF": 80,
+   "HP": 160,
+   "ATK": 24,
+   "DEF": 0,
    "SPD": 0,
    "CRATE": 0,
    "CDMG": 0,
@@ -172,9 +172,9 @@
    "EVD": 0
   },
   "5": {
-   "HP": 1250,
-   "ATK": 0,
-   "DEF": 100,
+   "HP": 200,
+   "ATK": 30,
+   "DEF": 0,
    "SPD": 0,
    "CRATE": 0,
    "CDMG": 0,
@@ -183,15 +183,15 @@
    "EVD": 0
   },
   "6": {
-   "HP": 1250,
-   "ATK": 0,
-   "DEF": 100,
+   "HP": 200,
+   "ATK": 30,
+   "DEF": 0,
    "SPD": 0,
-   "CRATE": 0,
-   "CDMG": 0,
-   "CRES": 50,
+   "CRATE": 25,
+   "CDMG": 75,
+   "CRES": 0,
    "ACC": 0,
-   "EVD": 25
+   "EVD": 0
   }
  },
  "stats_by_grade": {
@@ -199,20 +199,20 @@
    "grade": 1,
    "max_level": 10,
    "stats": {
-    "HP": 20701,
-    "ATK": 1284,
-    "DEF": 1249,
-    "SPD": 86,
-    "CRATE": 25,
-    "CDMG": 500,
-    "CRES": 50,
+    "HP": 19987,
+    "ATK": 1784,
+    "DEF": 784,
+    "SPD": 81,
+    "CRATE": 50,
+    "CDMG": 575,
+    "CRES": 0,
     "ACC": 0,
-    "EVD": 25
+    "EVD": 0
    },
    "evolution_bonus_total": {
-    "HP": 250,
-    "ATK": 0,
-    "DEF": 20,
+    "HP": 40,
+    "ATK": 6,
+    "DEF": 0,
     "SPD": 0,
     "CRATE": 0,
     "CDMG": 0,
@@ -225,20 +225,20 @@
    "grade": 2,
    "max_level": 20,
    "stats": {
-    "HP": 23209,
-    "ATK": 1439,
-    "DEF": 1400,
-    "SPD": 86,
-    "CRATE": 25,
-    "CDMG": 500,
-    "CRES": 50,
+    "HP": 22409,
+    "ATK": 2000,
+    "DEF": 879,
+    "SPD": 81,
+    "CRATE": 50,
+    "CDMG": 575,
+    "CRES": 0,
     "ACC": 0,
-    "EVD": 25
+    "EVD": 0
    },
    "evolution_bonus_total": {
-    "HP": 500,
-    "ATK": 0,
-    "DEF": 40,
+    "HP": 80,
+    "ATK": 12,
+    "DEF": 0,
     "SPD": 0,
     "CRATE": 0,
     "CDMG": 0,
@@ -251,20 +251,20 @@
    "grade": 3,
    "max_level": 30,
    "stats": {
-    "HP": 25718,
-    "ATK": 1595,
-    "DEF": 1551,
-    "SPD": 86,
-    "CRATE": 25,
-    "CDMG": 500,
-    "CRES": 50,
+    "HP": 24831,
+    "ATK": 2217,
+    "DEF": 974,
+    "SPD": 81,
+    "CRATE": 50,
+    "CDMG": 575,
+    "CRES": 0,
     "ACC": 0,
-    "EVD": 25
+    "EVD": 0
    },
    "evolution_bonus_total": {
-    "HP": 750,
-    "ATK": 0,
-    "DEF": 60,
+    "HP": 120,
+    "ATK": 18,
+    "DEF": 0,
     "SPD": 0,
     "CRATE": 0,
     "CDMG": 0,
@@ -277,20 +277,20 @@
    "grade": 4,
    "max_level": 40,
    "stats": {
-    "HP": 28226,
-    "ATK": 1750,
-    "DEF": 1703,
-    "SPD": 86,
-    "CRATE": 25,
-    "CDMG": 500,
-    "CRES": 50,
+    "HP": 27253,
+    "ATK": 2433,
+    "DEF": 1069,
+    "SPD": 81,
+    "CRATE": 50,
+    "CDMG": 575,
+    "CRES": 0,
     "ACC": 0,
-    "EVD": 25
+    "EVD": 0
    },
    "evolution_bonus_total": {
-    "HP": 1000,
-    "ATK": 0,
-    "DEF": 80,
+    "HP": 160,
+    "ATK": 24,
+    "DEF": 0,
     "SPD": 0,
     "CRATE": 0,
     "CDMG": 0,
@@ -303,20 +303,20 @@
    "grade": 5,
    "max_level": 50,
    "stats": {
-    "HP": 30735,
-    "ATK": 1906,
-    "DEF": 1854,
-    "SPD": 86,
-    "CRATE": 25,
-    "CDMG": 500,
-    "CRES": 50,
+    "HP": 29675,
+    "ATK": 2649,
+    "DEF": 1164,
+    "SPD": 81,
+    "CRATE": 50,
+    "CDMG": 575,
+    "CRES": 0,
     "ACC": 0,
-    "EVD": 25
+    "EVD": 0
    },
    "evolution_bonus_total": {
-    "HP": 1250,
-    "ATK": 0,
-    "DEF": 100,
+    "HP": 200,
+    "ATK": 30,
+    "DEF": 0,
     "SPD": 0,
     "CRATE": 0,
     "CDMG": 0,
@@ -329,26 +329,26 @@
    "grade": 6,
    "max_level": 60,
    "stats": {
-    "HP": 33243,
-    "ATK": 2061,
-    "DEF": 2006,
-    "SPD": 86,
-    "CRATE": 25,
-    "CDMG": 500,
-    "CRES": 50,
+    "HP": 32097,
+    "ATK": 2865,
+    "DEF": 1259,
+    "SPD": 81,
+    "CRATE": 50,
+    "CDMG": 575,
+    "CRES": 0,
     "ACC": 0,
-    "EVD": 25
+    "EVD": 0
    },
    "evolution_bonus_total": {
-    "HP": 1250,
-    "ATK": 0,
-    "DEF": 100,
+    "HP": 200,
+    "ATK": 30,
+    "DEF": 0,
     "SPD": 0,
-    "CRATE": 0,
-    "CDMG": 0,
-    "CRES": 50,
+    "CRATE": 25,
+    "CDMG": 75,
+    "CRES": 0,
     "ACC": 0,
-    "EVD": 25
+    "EVD": 0
    }
   }
  },
@@ -357,102 +357,132 @@
    "level": 10,
    "grade_required": 1,
    "stats": {
-    "HP": 20701,
-    "ATK": 1284,
-    "DEF": 1249,
-    "SPD": 86,
-    "CRATE": 25,
-    "CDMG": 500,
-    "CRES": 50,
+    "HP": 19987,
+    "ATK": 1784,
+    "DEF": 784,
+    "SPD": 81,
+    "CRATE": 50,
+    "CDMG": 575,
+    "CRES": 0,
     "ACC": 0,
-    "EVD": 25
+    "EVD": 0
    }
   },
   "20": {
    "level": 20,
    "grade_required": 2,
    "stats": {
-    "HP": 23209,
-    "ATK": 1439,
-    "DEF": 1400,
-    "SPD": 86,
-    "CRATE": 25,
-    "CDMG": 500,
-    "CRES": 50,
+    "HP": 22409,
+    "ATK": 2000,
+    "DEF": 879,
+    "SPD": 81,
+    "CRATE": 50,
+    "CDMG": 575,
+    "CRES": 0,
     "ACC": 0,
-    "EVD": 25
+    "EVD": 0
    }
   },
   "30": {
    "level": 30,
    "grade_required": 3,
    "stats": {
-    "HP": 25718,
-    "ATK": 1595,
-    "DEF": 1551,
-    "SPD": 86,
-    "CRATE": 25,
-    "CDMG": 500,
-    "CRES": 50,
+    "HP": 24831,
+    "ATK": 2217,
+    "DEF": 974,
+    "SPD": 81,
+    "CRATE": 50,
+    "CDMG": 575,
+    "CRES": 0,
     "ACC": 0,
-    "EVD": 25
+    "EVD": 0
    }
   },
   "40": {
    "level": 40,
    "grade_required": 4,
    "stats": {
-    "HP": 28226,
-    "ATK": 1750,
-    "DEF": 1703,
-    "SPD": 86,
-    "CRATE": 25,
-    "CDMG": 500,
-    "CRES": 50,
+    "HP": 27253,
+    "ATK": 2433,
+    "DEF": 1069,
+    "SPD": 81,
+    "CRATE": 50,
+    "CDMG": 575,
+    "CRES": 0,
     "ACC": 0,
-    "EVD": 25
+    "EVD": 0
    }
   },
   "50": {
    "level": 50,
    "grade_required": 5,
    "stats": {
-    "HP": 30735,
-    "ATK": 1906,
-    "DEF": 1854,
-    "SPD": 86,
-    "CRATE": 25,
-    "CDMG": 500,
-    "CRES": 50,
+    "HP": 29675,
+    "ATK": 2649,
+    "DEF": 1164,
+    "SPD": 81,
+    "CRATE": 50,
+    "CDMG": 575,
+    "CRES": 0,
     "ACC": 0,
-    "EVD": 25
+    "EVD": 0
    }
   },
   "60": {
    "level": 60,
    "grade_required": 6,
    "stats": {
-    "HP": 33243,
-    "ATK": 2061,
-    "DEF": 2006,
-    "SPD": 86,
-    "CRATE": 25,
-    "CDMG": 500,
-    "CRES": 50,
+    "HP": 32097,
+    "ATK": 2865,
+    "DEF": 1259,
+    "SPD": 81,
+    "CRATE": 50,
+    "CDMG": 575,
+    "CRES": 0,
     "ACC": 0,
-    "EVD": 25
+    "EVD": 0
    }
   }
  },
  "skills": [
   {
+   "id": 26000,
+   "name": "[&Color_Orange][&CRI_RATE] Aura[-]",
+   "name_key": "Tbl_UnitSkill_Name_CRI_RATE",
+   "name_readable": "CRIT Rate Aura",
+   "description": "Increase {3} of {2} allies by {0} in {1}",
+   "description_key": "Tbl_UnitSkill_Desc_Aura",
+   "description_readable": "Increase CRIT Rate of All allies by 15% in Arena",
+   "type_description": "[Aura Skill]",
+   "type_description_readable": "[Aura Skill]",
+   "icon": "leader_crate",
+   "cooldown": 0,
+   "hit_count": 0,
+   "additional_hits": 0,
+   "damage_scaling": "",
+   "skill_level_scaling": "",
+   "multiplier": null,
+   "damage": null,
+   "effects": [],
+   "battle_options": "2600001",
+   "battle_option_ids": [
+    2600001
+   ],
+   "evolution_level_required": 3,
+   "trigger_keyword": "",
+   "aura_info": "15,QUEST_ARENA_ALL,AllUnit,CriRate",
+   "skill_button_type": -2,
+   "camera_type": 0,
+   "cutscene_flag": 0
+  },
+  {
    "id": 26001,
-   "name": "",
+   "name": "[&Color_Cyan]Jack-o'-Pierce[-]",
    "name_key": "Tbl_UnitSkill_Name_26001",
-   "name_readable": "",
-   "description": "",
+   "name_readable": "Jack-o'-Pierce",
+   "description": "Delivers a powerful thrust with swords to attack the enemy.\nTarget hit is inflicted with [&Color_Cyan]([V3:2600102]%)[-] [&Bleeding].\n[&Common_Word_Skill_ValueTurn]: [V2:2600102] turn(s)",
    "description_key": "Tbl_UnitSkill_Desc_26001",
-   "description_readable": "",
+   "description_readable": "Delivers a powerful thrust with swords to attack the enemy.\nTarget hit is inflicted with (10%) Bleed.\nDuration: 3 turn(s)",
    "type_description": "[Normal Attack]",
    "type_description_readable": "[Normal Attack]",
    "icon": "26001",
@@ -460,7 +490,7 @@
    "hit_count": 1,
    "additional_hits": 0,
    "damage_scaling": "[ATK]",
-   "skill_level_scaling": "[D:10]/[D:10]/[D:10]/[D:10]/[D:10]",
+   "skill_level_scaling": "[D:10]/[B:10]/[D:10]/[B:10]/[D:10]",
    "multiplier": 504.0,
    "damage": {
     "scaling": [
@@ -493,36 +523,36 @@
   },
   {
    "id": 26002,
-   "name": "",
+   "name": "[&Color_Cyan]Pumpkin Tornado[-]",
    "name_key": "Tbl_UnitSkill_Name_26002",
-   "name_readable": "",
-   "description": "",
+   "name_readable": "Pumpkin Tornado",
+   "description": "Spins rapidly to create a massive tornado, attacking the enemy [A:26002] time(s).\nWhen attacking, performs a [&Color_Cyan]([V3:2600202]%)[-] [&Bleeding] [&Common_Word_Skill_DotBuffBurst] attack at a [&Color_Cyan][R:2600202]%[-] chance.\nIf the target is afflicted with [&Bleeding], inflicts [&Color_Cyan]([V3:2600203]%)[-] [&Weaken] at a [&Color_Cyan][R:2600203]%[-] chance on the [&Common_Word_Skill_ActionLast].\n[&Common_Word_Skill_ValueTurn]: [V2:2600203] turn(s)",
    "description_key": "Tbl_UnitSkill_Desc_26002",
-   "description_readable": "",
+   "description_readable": "Spins rapidly to create a massive tornado, attacking the enemy 7 time(s).\nWhen attacking, performs a (30%) Bleed Debuff Resonance attack at a 35% chance.\nIf the target is afflicted with Bleed, inflicts (18%) Weaken at a 50% chance on the Last Attack.\nDuration: 2 turn(s)",
    "type_description": "[Attack Skill]",
    "type_description_readable": "[Attack Skill]",
    "icon": "26002",
-   "cooldown": 3,
-   "hit_count": 1,
+   "cooldown": 4,
+   "hit_count": 7,
    "additional_hits": 0,
    "damage_scaling": "[ATK]",
-   "skill_level_scaling": "[D:10]/[P:10]/[D:10]/[P:10]/[D:10]",
-   "multiplier": 354.8,
+   "skill_level_scaling": "[D:10]/[D:10]/[D:10]/[D:10]/[D:10]",
+   "multiplier": 56.0,
    "damage": {
     "scaling": [
      {
       "stat": "ATK",
-      "pct": 354.8
+      "pct": 56.0
      }
     ],
     "hits": [
      {
-      "pct": 354.8,
-      "count": 1,
+      "pct": 56.0,
+      "count": 7,
       "tar": "all enemies"
      }
     ],
-    "total": 354.8
+    "total": 392.0
    },
    "effects": [],
    "battle_options": "2600201/2600202/2600203",
@@ -540,43 +570,42 @@
   },
   {
    "id": 26003,
-   "name": "",
+   "name": "[&Color_Cyan]Trick or Pumpkin[-]",
    "name_key": "Tbl_UnitSkill_Name_26003",
-   "name_readable": "",
-   "description": "",
+   "name_readable": "Trick or Pumpkin",
+   "description": "Carves a massive pumpkin and detonates it to deal a powerful attack to a single enemy.\nIf the target is afflicted with [&Bleeding], performs a [&Color_Cyan]([V3:2600302]%)[-] [&Bleeding] [&Common_Word_Skill_DotBuffBurst] attack.",
    "description_key": "Tbl_UnitSkill_Desc_26003",
-   "description_readable": "",
+   "description_readable": "Carves a massive pumpkin and detonates it to deal a powerful attack to a single enemy.\nIf the target is afflicted with Bleed, performs a (150%) Bleed Debuff Resonance attack.",
    "type_description": "[Ultimate Skill]",
    "type_description_readable": "[Ultimate Skill]",
    "icon": "26003",
-   "cooldown": 5,
+   "cooldown": 6,
    "hit_count": 1,
    "additional_hits": 0,
    "damage_scaling": "[ATK]",
    "skill_level_scaling": "[D:10]/[D:10]/[D:10]/[D:10]/[D:10]",
-   "multiplier": 838.7,
+   "multiplier": 972.7,
    "damage": {
     "scaling": [
      {
       "stat": "ATK",
-      "pct": 838.7
+      "pct": 972.7
      }
     ],
     "hits": [
      {
-      "pct": 838.7,
+      "pct": 972.7,
       "count": 1,
       "tar": ""
      }
     ],
-    "total": 838.7
+    "total": 972.7
    },
    "effects": [],
-   "battle_options": "2600301/2600302/2600303",
+   "battle_options": "2600301/2600302",
    "battle_option_ids": [
     2600301,
-    2600302,
-    2600303
+    2600302
    ],
    "evolution_level_required": 1,
    "trigger_keyword": "",
@@ -587,26 +616,27 @@
   },
   {
    "id": 26004,
-   "name": "",
+   "name": "[&Color_Cyan]Halloween Knight[-]",
    "name_key": "Tbl_UnitSkill_Name_26004",
-   "name_readable": "",
-   "description": "",
+   "name_readable": "Halloween Knight",
+   "description": "When attacking an enemy afflicted with [&Bleeding], performs a [&Color_Cyan]([V3:2600401]%)[-] [&Common_Word_Skill_DmgDrainHp] attack.\nWhen [&Common_Word_Skill_CriticalAttack] lands on an enemy afflicted with [&Bleeding], inflicts [&Color_Cyan]([V3:2600402]%)[-] [&Bleeding] on 1 [&Common_Word_Skill_Random] enemy at a [&Color_Cyan][R:2600402]%[-] chance. \n[&Common_Word_Skill_ValueTurn]: [V2:2600402] turn(s)",
    "description_key": "Tbl_UnitSkill_Desc_26004",
-   "description_readable": "",
+   "description_readable": "When attacking an enemy afflicted with Bleed, performs a (15%) Life Steal attack.\nWhen CRIT ATK lands on an enemy afflicted with Bleed, inflicts (10%) Bleed on 1 Random enemy at a 20% chance. \nDuration: 3 turn(s)",
    "type_description": "[Passive Skill]",
    "type_description_readable": "[Passive Skill]",
    "icon": "26004",
-   "cooldown": 3,
+   "cooldown": 0,
    "hit_count": 0,
    "additional_hits": 0,
    "damage_scaling": "",
-   "skill_level_scaling": "",
+   "skill_level_scaling": "[B:10]/[B:10]/[B:10]/[B:10]/[B:10]",
    "multiplier": null,
    "damage": null,
    "effects": [],
-   "battle_options": "2600401",
+   "battle_options": "2600401/2600402",
    "battle_option_ids": [
-    2600401
+    2600401,
+    2600402
    ],
    "evolution_level_required": 2,
    "trigger_keyword": "",
@@ -616,5 +646,108 @@
    "cutscene_flag": 0
   }
  ],
- "weapons": []
+ "weapons": [
+  {
+   "id": 26001,
+   "name": "[&Color_Orange]Jelly Paw Saber[-]",
+   "name_key": "Tbl_UnitWeapon_Name_26001",
+   "icon": "Weapon_26001.png",
+   "rarity": 4,
+   "weapon_type": 260,
+   "opt_type": 10,
+   "opt_value": 47,
+   "skill_slot": 26002,
+   "skill_id": 26012,
+   "skill_data": {
+    "id": 26012,
+    "name": "<[&Tbl_UnitWeapon_Name_26001]> [&Tbl_UnitSkill_Name_26002]",
+    "name_key": "Tbl_UnitSkill_Name_26012",
+    "name_readable": "<Jelly Paw Saber> Pumpkin Tornado",
+    "description": "Spins rapidly to create a massive tornado, attacking the enemy [A:26012] time(s).\nWhen attacking, performs a [&Color_Cyan]([V3:2601202]%)[-] [&Bleeding] [&Common_Word_Skill_DotBuffBurst] attack, which deals damage equal to 1 [&Bleeding] damage, at a [&Color_Cyan][R:2601202]%[-] chance.\nPerforms a [&Color_Cyan]([V3:2601203]%)[-] [&Bleeding] [&Common_Word_Skill_DotBuffBurst] attack on the [&Common_Word_Skill_ActionLast].",
+    "description_key": "Tbl_UnitSkill_Desc_26012",
+    "description_readable": "Spins rapidly to create a massive tornado, attacking the enemy 7 time(s).\nWhen attacking, performs a (36%) Bleed Debuff Resonance attack, which deals damage equal to 1 Bleed damage, at a 35% chance.\nPerforms a (36%) Bleed Debuff Resonance attack on the Last Attack.",
+    "type_description": "[Attack Skill]",
+    "type_description_readable": "[Attack Skill]",
+    "icon": "26012",
+    "cooldown": 4,
+    "hit_count": 7,
+    "additional_hits": 0,
+    "damage_scaling": "[ATK]",
+    "skill_level_scaling": "[D:10]/[D:10]/[D:10]/[D:10]/[D:10]",
+    "multiplier": 56.0,
+    "damage": {
+     "scaling": [
+      {
+       "stat": "ATK",
+       "pct": 56.0
+      }
+     ],
+     "hits": [
+      {
+       "pct": 56.0,
+       "count": 7,
+       "tar": "all enemies"
+      }
+     ],
+     "total": 392.0
+    },
+    "effects": [],
+    "battle_options": "2601201/2601202/2601203",
+    "battle_option_ids": [
+     2601201,
+     2601202,
+     2601203
+    ],
+    "evolution_level_required": 0,
+    "trigger_keyword": "",
+    "aura_info": "",
+    "skill_button_type": 0,
+    "camera_type": 0,
+    "cutscene_flag": 0
+   }
+  },
+  {
+   "id": 26002,
+   "name": "[&Color_Orange]Pumpkin Trick Cutlass[-]",
+   "name_key": "Tbl_UnitWeapon_Name_26002",
+   "icon": "Weapon_26002.png",
+   "rarity": 4,
+   "weapon_type": 260,
+   "opt_type": 9,
+   "opt_value": 20,
+   "skill_slot": 26004,
+   "skill_id": 26014,
+   "skill_data": {
+    "id": 26014,
+    "name": "<[&Tbl_UnitWeapon_Name_26002]> [&Tbl_UnitSkill_Name_26004]",
+    "name_key": "Tbl_UnitSkill_Name_26014",
+    "name_readable": "<Pumpkin Trick Cutlass> Halloween Knight",
+    "description": "When attacking an enemy afflicted with [&Bleeding], [&Common_Word_Skill_Damage] increases by [&Color_Cyan]([V3:2601401]%)[-].\nWhen [&Common_Word_Skill_CriticalAttack] lands on an enemy afflicted with [&Bleeding], inflicts [&Color_Cyan]([V3:2601402]%)[-] [&Bleeding] on 1 [&Common_Word_Skill_Random] enemy at a [&Color_Cyan][R:2601402]%[-] chance.\n[&Common_Word_Skill_ValueTurn]: [V2:2601402] turn(s)",
+    "description_key": "Tbl_UnitSkill_Desc_26014",
+    "description_readable": "When attacking an enemy afflicted with Bleed, DMG increases by (7.5%).\nWhen CRIT ATK lands on an enemy afflicted with Bleed, inflicts (10%) Bleed on 1 Random enemy at a 20% chance.\nDuration: 3 turn(s)",
+    "type_description": "[Passive Skill]",
+    "type_description_readable": "[Passive Skill]",
+    "icon": "26014",
+    "cooldown": 0,
+    "hit_count": 0,
+    "additional_hits": 0,
+    "damage_scaling": "",
+    "skill_level_scaling": "[B:10]/[B:10]/[B:10]/[B:10]/[B:10]",
+    "multiplier": null,
+    "damage": null,
+    "effects": [],
+    "battle_options": "2601401/2601402",
+    "battle_option_ids": [
+     2601401,
+     2601402
+    ],
+    "evolution_level_required": 2,
+    "trigger_keyword": "",
+    "aura_info": "",
+    "skill_button_type": -1,
+    "camera_type": 0,
+    "cutscene_flag": 0
+   }
+  }
+ ]
 }

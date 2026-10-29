@@ -1,0 +1,100 @@
+---
+/**
+ * Taimanin Squad art gallery: standing portraits for every released unit
+ * plus expression variants, straight from the game's own art files.
+ * Images are matched the same way TSCharacterImage resolves them: by
+ * unit id + name prefix inside the characterimage folders, by dimension.
+ */
+import { Image } from 'astro:assets';
+import LandingLayout from '../../../layouts/taimanin-squad/LandingLayout.astro';
+import { TAIMANIN_SQUAD_CHARACTERS } from '../../../data/taimanin-squad/characters.js';
+import { RELEASED_UNIT_IDS } from '../../../data/taimanin-squad/released-units.js';
+
+import '../../../styles/games/taimanin-squad/ts-gallery.css';
+
+const title = 'Gallery - Taimanin Squad | GachaWiki';
+const description =
+  'Taimanin Squad character art gallery: standing portraits and expression variants for every released character, extracted from the game.';
+const gameTitle = 'Gallery';
+
+const files = import.meta.glob<{ default: ImageMetadata }>(
+  '../../../assets/images/games/taimanin-squad/characterimage/**/*.png',
+  { eager: true }
+);
+
+// group files by unit icon prefix ("259_Hebiko" catches "259_Hebiko.png" and
+// "259_Hebiko_<expr-hash>.png" alike), bucketed by texture dimensions
+const byUnit: Record<string, { big: string[]; expressions: string[] }> = {};
+for (const key of Object.keys(files)) {
+  const norm = key.replace(/\\/g, '/');
+  const file = norm.split('/').pop() as string;
+  const stem = file.replace(/\.png$/, '');
+  const m = stem.match(/^(\d+_[A-Za-z0-9]+)(?:_(.+))?$/);
+  if (!m) continue;
+  const unitKey = m[1];
+  const meta = files[key].default;
+  const entry = (byUnit[unitKey] ??= { big: [], expressions: [] });
+  if (meta.width === 256 && (meta.height === 512 || meta.height === 256)) {
+    // base standing art (512 tall) or the square stand-in newer units ship
+    if (!m[2]) entry.big.unshift(key);
+    else entry.big.push(key);
+  } else if (meta.width === 128 && meta.height === 128 && m[2]) {
+    entry.expressions.push(key);
+  }
+}
+
+const released = TAIMANIN_SQUAD_CHARACTERS.filter((c) => RELEASED_UNIT_IDS.has(c.id));
+
+const standing = released
+  .map((c) => ({ char: c, art: byUnit[c.icon]?.big[0] }))
+  .filter((e) => e.art)
+  .sort((a, b) => a.char.names?.english.localeCompare(b.char.names?.english));
+
+const variants = released
+  .map((c) => ({ char: c, imgs: byUnit[c.icon]?.expressions ?? [] }))
+  .filter((e) => e.imgs.length > 0)
+  .sort((a, b) => a.char.names?.english.localeCompare(b.char.names?.english));
+---
+
+<LandingLayout title={title} description={description} gameTitle={gameTitle}>
+  <div class="ts-gal-container">
+    <p class="ts-gal-intro">
+      Character art extracted directly from the game client: standing portraits for every released unit,
+      plus the expression variants shipped for selected characters. Click a portrait to open the character page.
+      New units receive their standing art in a following patch, so the newest additions may appear as square crops at first.
+    </p>
+
+    <h2 class="ts-gal-section-title">Standing Art ({standing.length})</h2>
+    <div class="ts-gal-grid">
+      {
+        standing.map(({ char, art }) => (
+          <a class="ts-gal-cell" href={`/guides/taimanin-squad/characters/${char.slug}/`}>
+            <div class="ts-gal-cell-img">
+              <Image src={files[art].default} alt={char.names?.english || char.name} widths={[160, 256, 384]} sizes="(max-width: 700px) 45vw, 180px" loading="lazy" decoding="async" />
+            </div>
+            <span class="ts-gal-cell-name">{char.names?.english || char.name}</span>
+            <span class="ts-gal-cell-meta">
+              {char.rarity_name}, {char.element}
+            </span>
+          </a>
+        ))
+      }
+    </div>
+
+    <h2 class="ts-gal-section-title">Expression Variants</h2>
+    <div class="ts-gal-grid">
+      {
+        variants.map(({ char, imgs }) => (
+          <div class="ts-gal-variant-group">
+            <span class="ts-gal-variant-head">{char.names?.english || char.name}</span>
+            <div class="ts-gal-variant-row">
+              {imgs.map((k) => (
+                <Image src={files[k].default} alt={`${char.names?.english || char.name} expression`} widths={[72, 128]} sizes="72px" loading="lazy" decoding="async" />
+              ))}
+            </div>
+          </div>
+        ))
+      }
+    </div>
+  </div>
+</LandingLayout>

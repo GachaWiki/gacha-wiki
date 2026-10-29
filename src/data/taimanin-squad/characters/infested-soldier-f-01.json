@@ -6,19 +6,19 @@
  "rarity": "R+",
  "rarity_stars": "★★",
  "rarity_numeric": 2,
- "element": "Power",
- "element_numeric": 1,
- "role": "Attacker",
- "role_numeric": 1,
- "trait": "Jupiter",
- "disposition_numeric": 4,
+ "element": "Agility",
+ "element_numeric": 3,
+ "role": "Support",
+ "role_numeric": 3,
+ "trait": "Moon",
+ "disposition_numeric": 1,
  "icon": "231_Gsoldiermod2",
  "model": "231_Gsoldiermod2/Unit/prf_231",
  "animation_event": "231_gsoldiermod2",
  "book_index": 0,
  "acquisition_id": 10001,
  "btl_power": 5800,
- "btl_rate": 234631,
+ "btl_rate": 462430,
  "names": {
   "key": "Tbl_Unit_Name_231",
   "english": "Infested Soldier F-01",
@@ -35,10 +35,10 @@
   "spanish": "Un agente que pertenecía a la unidad de exoesqueletos de combate personalizados de la UFS y que, tras ser devuelto de la muerte por el miasma de una Caballera Espectral, ahora es utilizado como una marioneta sin alma.\n\nSobre su avanzado exoesqueleto de combate, una masa de carne rojiza y brillante prolifera como células cancerosas hasta cubrir todo su cuerpo. En lugar de las señales nerviosas ya extintas, grotescos ojos rojos que brotan por toda la masa de carne fuerzan el funcionamiento de los actuadores hidráulicos de precisión.\n\nEn particular, la retorcida masa de carne que se ha entrelazado grotescamente con el brazo derecho que sostenía el arma apunta el cañón sin vacilar en cuanto detecta a un ser vivo y lo atraviesa con sus disparos."
  },
  "base_stats": {
-  "HP": 10672,
-  "ATK": 1067,
-  "DEF": 719,
-  "SPD": 72,
+  "HP": 21344,
+  "ATK": 556,
+  "DEF": 696,
+  "SPD": 73,
   "CRATE": 25,
   "CDMG": 500,
   "CRES": 0,
@@ -46,23 +46,23 @@
   "EVD": 0
  },
  "stats": {
-  "HP": 20442,
-  "ATK": 2053,
-  "DEF": 1363,
-  "SPD": 72,
-  "CRATE": 50,
-  "CDMG": 575,
+  "HP": 40610,
+  "ATK": 1069,
+  "DEF": 1345,
+  "SPD": 73,
+  "CRATE": 25,
+  "CDMG": 500,
   "CRES": 0,
-  "ACC": 0,
+  "ACC": 50,
   "EVD": 0
  },
- "evol_stat_id": 1,
- "evol_stat_type": "Attacker",
+ "evol_stat_id": 3,
+ "evol_stat_type": "Support",
  "evolution_bonuses": {
   "1": {
-   "HP": 40,
-   "ATK": 6,
-   "DEF": 0,
+   "HP": 25,
+   "ATK": 3,
+   "DEF": 5,
    "SPD": 0,
    "CRATE": 0,
    "CDMG": 0,
@@ -71,9 +71,9 @@
    "EVD": 0
   },
   "2": {
-   "HP": 80,
-   "ATK": 12,
-   "DEF": 0,
+   "HP": 50,
+   "ATK": 6,
+   "DEF": 10,
    "SPD": 0,
    "CRATE": 0,
    "CDMG": 0,
@@ -82,9 +82,9 @@
    "EVD": 0
   },
   "3": {
-   "HP": 120,
-   "ATK": 18,
-   "DEF": 0,
+   "HP": 75,
+   "ATK": 9,
+   "DEF": 15,
    "SPD": 0,
    "CRATE": 0,
    "CDMG": 0,
@@ -93,9 +93,9 @@
    "EVD": 0
   },
   "4": {
-   "HP": 160,
-   "ATK": 24,
-   "DEF": 0,
+   "HP": 100,
+   "ATK": 12,
+   "DEF": 20,
    "SPD": 0,
    "CRATE": 0,
    "CDMG": 0,
@@ -104,9 +104,9 @@
    "EVD": 0
   },
   "5": {
-   "HP": 200,
-   "ATK": 30,
-   "DEF": 0,
+   "HP": 125,
+   "ATK": 15,
+   "DEF": 25,
    "SPD": 0,
    "CRATE": 0,
    "CDMG": 0,
@@ -115,22 +115,22 @@
    "EVD": 0
   },
   "6": {
-   "HP": 200,
-   "ATK": 30,
-   "DEF": 0,
+   "HP": 125,
+   "ATK": 15,
+   "DEF": 25,
    "SPD": 0,
-   "CRATE": 25,
-   "CDMG": 75,
+   "CRATE": 0,
+   "CDMG": 0,
    "CRES": 0,
-   "ACC": 0,
+   "ACC": 50,
    "EVD": 0
   }
  },
  "evolution_bonuses_per_grade": {
   "1": {
-   "HP": 40,
-   "ATK": 6,
-   "DEF": 0,
+   "HP": 25,
+   "ATK": 3,
+   "DEF": 5,
    "SPD": 0,
    "CRATE": 0,
    "CDMG": 0,
@@ -139,9 +139,9 @@
    "EVD": 0
   },
   "2": {
-   "HP": 80,
-   "ATK": 12,
-   "DEF": 0,
+   "HP": 50,
+   "ATK": 6,
+   "DEF": 10,
    "SPD": 0,
    "CRATE": 0,
    "CDMG": 0,
@@ -150,9 +150,9 @@
    "EVD": 0
   },
   "3": {
-   "HP": 120,
-   "ATK": 18,
-   "DEF": 0,
+   "HP": 75,
+   "ATK": 9,
+   "DEF": 15,
    "SPD": 0,
    "CRATE": 0,
    "CDMG": 0,
@@ -161,9 +161,9 @@
    "EVD": 0
   },
   "4": {
-   "HP": 160,
-   "ATK": 24,
-   "DEF": 0,
+   "HP": 100,
+   "ATK": 12,
+   "DEF": 20,
    "SPD": 0,
    "CRATE": 0,
    "CDMG": 0,
@@ -172,9 +172,9 @@
    "EVD": 0
   },
   "5": {
-   "HP": 200,
-   "ATK": 30,
-   "DEF": 0,
+   "HP": 125,
+   "ATK": 15,
+   "DEF": 25,
    "SPD": 0,
    "CRATE": 0,
    "CDMG": 0,
@@ -183,14 +183,14 @@
    "EVD": 0
   },
   "6": {
-   "HP": 200,
-   "ATK": 30,
-   "DEF": 0,
+   "HP": 125,
+   "ATK": 15,
+   "DEF": 25,
    "SPD": 0,
-   "CRATE": 25,
-   "CDMG": 75,
+   "CRATE": 0,
+   "CDMG": 0,
    "CRES": 0,
-   "ACC": 0,
+   "ACC": 50,
    "EVD": 0
   }
  },
@@ -199,10 +199,10 @@
    "grade": 1,
    "max_level": 10,
    "stats": {
-    "HP": 12131,
-    "ATK": 1212,
-    "DEF": 817,
-    "SPD": 72,
+    "HP": 24263,
+    "ATK": 632,
+    "DEF": 791,
+    "SPD": 73,
     "CRATE": 25,
     "CDMG": 500,
     "CRES": 0,
@@ -210,9 +210,9 @@
     "EVD": 0
    },
    "evolution_bonus_total": {
-    "HP": 40,
-    "ATK": 6,
-    "DEF": 0,
+    "HP": 25,
+    "ATK": 3,
+    "DEF": 5,
     "SPD": 0,
     "CRATE": 0,
     "CDMG": 0,
@@ -225,10 +225,10 @@
    "grade": 2,
    "max_level": 20,
    "stats": {
-    "HP": 13754,
-    "ATK": 1375,
-    "DEF": 926,
-    "SPD": 72,
+    "HP": 27508,
+    "ATK": 716,
+    "DEF": 897,
+    "SPD": 73,
     "CRATE": 25,
     "CDMG": 500,
     "CRES": 0,
@@ -236,9 +236,9 @@
     "EVD": 0
    },
    "evolution_bonus_total": {
-    "HP": 80,
-    "ATK": 12,
-    "DEF": 0,
+    "HP": 50,
+    "ATK": 6,
+    "DEF": 10,
     "SPD": 0,
     "CRATE": 0,
     "CDMG": 0,
@@ -251,10 +251,10 @@
    "grade": 3,
    "max_level": 30,
    "stats": {
-    "HP": 15376,
-    "ATK": 1537,
-    "DEF": 1035,
-    "SPD": 72,
+    "HP": 30752,
+    "ATK": 801,
+    "DEF": 1002,
+    "SPD": 73,
     "CRATE": 25,
     "CDMG": 500,
     "CRES": 0,
@@ -262,9 +262,9 @@
     "EVD": 0
    },
    "evolution_bonus_total": {
-    "HP": 120,
-    "ATK": 18,
-    "DEF": 0,
+    "HP": 75,
+    "ATK": 9,
+    "DEF": 15,
     "SPD": 0,
     "CRATE": 0,
     "CDMG": 0,
@@ -277,10 +277,10 @@
    "grade": 4,
    "max_level": 40,
    "stats": {
-    "HP": 16998,
-    "ATK": 1699,
-    "DEF": 1145,
-    "SPD": 72,
+    "HP": 33996,
+    "ATK": 885,
+    "DEF": 1108,
+    "SPD": 73,
     "CRATE": 25,
     "CDMG": 500,
     "CRES": 0,
@@ -288,9 +288,9 @@
     "EVD": 0
    },
    "evolution_bonus_total": {
-    "HP": 160,
-    "ATK": 24,
-    "DEF": 0,
+    "HP": 100,
+    "ATK": 12,
+    "DEF": 20,
     "SPD": 0,
     "CRATE": 0,
     "CDMG": 0,
@@ -303,10 +303,10 @@
    "grade": 5,
    "max_level": 50,
    "stats": {
-    "HP": 18620,
-    "ATK": 1861,
-    "DEF": 1254,
-    "SPD": 72,
+    "HP": 37241,
+    "ATK": 970,
+    "DEF": 1214,
+    "SPD": 73,
     "CRATE": 25,
     "CDMG": 500,
     "CRES": 0,
@@ -314,9 +314,9 @@
     "EVD": 0
    },
    "evolution_bonus_total": {
-    "HP": 200,
-    "ATK": 30,
-    "DEF": 0,
+    "HP": 125,
+    "ATK": 15,
+    "DEF": 25,
     "SPD": 0,
     "CRATE": 0,
     "CDMG": 0,
@@ -329,10 +329,10 @@
    "grade": 6,
    "max_level": 60,
    "stats": {
-    "HP": 20242,
-    "ATK": 2023,
-    "DEF": 1363,
-    "SPD": 72,
+    "HP": 40485,
+    "ATK": 1054,
+    "DEF": 1320,
+    "SPD": 73,
     "CRATE": 25,
     "CDMG": 500,
     "CRES": 0,
@@ -340,14 +340,14 @@
     "EVD": 0
    },
    "evolution_bonus_total": {
-    "HP": 200,
-    "ATK": 30,
-    "DEF": 0,
+    "HP": 125,
+    "ATK": 15,
+    "DEF": 25,
     "SPD": 0,
-    "CRATE": 25,
-    "CDMG": 75,
+    "CRATE": 0,
+    "CDMG": 0,
     "CRES": 0,
-    "ACC": 0,
+    "ACC": 50,
     "EVD": 0
    }
   }
@@ -357,10 +357,10 @@
    "level": 10,
    "grade_required": 1,
    "stats": {
-    "HP": 12131,
-    "ATK": 1212,
-    "DEF": 817,
-    "SPD": 72,
+    "HP": 24263,
+    "ATK": 632,
+    "DEF": 791,
+    "SPD": 73,
     "CRATE": 25,
     "CDMG": 500,
     "CRES": 0,
@@ -372,10 +372,10 @@
    "level": 20,
    "grade_required": 2,
    "stats": {
-    "HP": 13754,
-    "ATK": 1375,
-    "DEF": 926,
-    "SPD": 72,
+    "HP": 27508,
+    "ATK": 716,
+    "DEF": 897,
+    "SPD": 73,
     "CRATE": 25,
     "CDMG": 500,
     "CRES": 0,
@@ -387,10 +387,10 @@
    "level": 30,
    "grade_required": 3,
    "stats": {
-    "HP": 15376,
-    "ATK": 1537,
-    "DEF": 1035,
-    "SPD": 72,
+    "HP": 30752,
+    "ATK": 801,
+    "DEF": 1002,
+    "SPD": 73,
     "CRATE": 25,
     "CDMG": 500,
     "CRES": 0,
@@ -402,10 +402,10 @@
    "level": 40,
    "grade_required": 4,
    "stats": {
-    "HP": 16998,
-    "ATK": 1699,
-    "DEF": 1145,
-    "SPD": 72,
+    "HP": 33996,
+    "ATK": 885,
+    "DEF": 1108,
+    "SPD": 73,
     "CRATE": 25,
     "CDMG": 500,
     "CRES": 0,
@@ -417,10 +417,10 @@
    "level": 50,
    "grade_required": 5,
    "stats": {
-    "HP": 18620,
-    "ATK": 1861,
-    "DEF": 1254,
-    "SPD": 72,
+    "HP": 37241,
+    "ATK": 970,
+    "DEF": 1214,
+    "SPD": 73,
     "CRATE": 25,
     "CDMG": 500,
     "CRES": 0,
@@ -432,10 +432,10 @@
    "level": 60,
    "grade_required": 6,
    "stats": {
-    "HP": 20242,
-    "ATK": 2023,
-    "DEF": 1363,
-    "SPD": 72,
+    "HP": 40485,
+    "ATK": 1054,
+    "DEF": 1320,
+    "SPD": 73,
     "CRATE": 25,
     "CDMG": 500,
     "CRES": 0,
@@ -447,9 +447,9 @@
  "skills": [
   {
    "id": 23101,
-   "name": "",
+   "name": "[&Color_Cyan]Bone Slash[-]",
    "name_key": "Tbl_UnitSkill_Name_23101",
-   "name_readable": "",
+   "name_readable": "Bone Slash",
    "description": "",
    "description_key": "Tbl_UnitSkill_Desc_23101",
    "description_readable": "",
@@ -492,9 +492,9 @@
   },
   {
    "id": 23102,
-   "name": "",
+   "name": "[&Color_Cyan]Bone Cleave[-]",
    "name_key": "Tbl_UnitSkill_Name_23102",
-   "name_readable": "",
+   "name_readable": "Bone Cleave",
    "description": "",
    "description_key": "Tbl_UnitSkill_Desc_23102",
    "description_readable": "",
@@ -504,24 +504,28 @@
    "cooldown": 3,
    "hit_count": 1,
    "additional_hits": 0,
-   "damage_scaling": "[ATK]",
+   "damage_scaling": "[ATK]/[CostHP]",
    "skill_level_scaling": "[D:10]/[D:10]/[D:10]/[D:10]/[D:10]",
-   "multiplier": 738.4,
+   "multiplier": 572.1,
    "damage": {
     "scaling": [
      {
       "stat": "ATK",
-      "pct": 738.4
+      "pct": 572.1
+     },
+     {
+      "stat": "Lost HP",
+      "pct": 27
      }
     ],
     "hits": [
      {
-      "pct": 738.4,
+      "pct": 572.1,
       "count": 1,
       "tar": ""
      }
     ],
-    "total": 738.4
+    "total": null
    },
    "effects": [],
    "battle_options": "2310201/2310202",

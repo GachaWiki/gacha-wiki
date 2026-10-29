@@ -1,0 +1,97 @@
+/* Taimanin Squad character art gallery: standing portraits and expression
+   variants extracted from the game. Flat grid, text labels, no hover effects. */
+
+.ts-gal-container {
+  max-width: 75rem;
+  margin: 0 auto;
+}
+
+.ts-gal-intro {
+  color: #b3a8ab;
+  font-size: var(--text-body);
+  line-height: 1.55;
+  margin-bottom: 1.75rem;
+  max-width: 60rem;
+}
+
+.ts-gal-section-title {
+  color: var(--ts-accent, #9a8aaa);
+  font-size: var(--text-lg);
+  font-weight: 700;
+  margin: 1.9rem 0 1rem;
+}
+
+.ts-gal-section-title:first-of-type {
+  margin-top: 0;
+}
+
+.ts-gal-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: 1rem;
+}
+
+.ts-gal-cell {
+  display: flex;
+  flex-direction: column;
+  gap: 0.45rem;
+  text-decoration: none;
+}
+
+.ts-gal-cell-img {
+  background: var(--ts-bg-card, #1e1a23);
+  border: 1px solid var(--ts-border, #2e2838);
+  border-radius: 10px;
+  overflow: hidden;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.ts-gal-cell-img img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.ts-gal-cell-name {
+  color: #e8e2ee;
+  font-size: var(--text-sm);
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+.ts-gal-cell-meta {
+  color: #8f8698;
+  font-size: var(--text-2xs);
+}
+
+.ts-gal-variant-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  background: var(--ts-bg-card, #1e1a23);
+  border: 1px solid var(--ts-border, #2e2838);
+  border-radius: 10px;
+  padding: 1rem 1.1rem;
+}
+
+.ts-gal-variant-head {
+  color: #e8e2ee;
+  font-size: var(--text-md);
+  font-weight: 600;
+}
+
+.ts-gal-variant-row {
+  display: flex;
+  gap: 0.6rem;
+  flex-wrap: wrap;
+}
+
+.ts-gal-variant-row img {
+  width: 72px;
+  height: 72px;
+  object-fit: contain;
+  border-radius: 8px;
+  background: var(--ts-bg-tertiary, #242028);
+}

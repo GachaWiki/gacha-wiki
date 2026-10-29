@@ -6,19 +6,19 @@
  "rarity": "SR+",
  "rarity_stars": "★★★★",
  "rarity_numeric": 4,
- "element": "Power",
- "element_numeric": 1,
+ "element": "Technique",
+ "element_numeric": 2,
  "role": "Attacker",
  "role_numeric": 1,
- "trait": "Jupiter",
- "disposition_numeric": 4,
+ "trait": "Mars",
+ "disposition_numeric": 2,
  "icon": "99_Wisp",
  "model": "99_Wisp/Unit/prf_99",
  "animation_event": "99_wisp",
  "book_index": 0,
  "acquisition_id": 10002,
  "btl_power": 7950,
- "btl_rate": 303832,
+ "btl_rate": 314623,
  "names": {
   "key": "Tbl_Unit_Name_99",
   "english": "Wisp",
@@ -35,10 +35,10 @@
   "spanish": "Demonio, <La Vengadora>\nUn demonio de alto rango conocido como \"Espectro\", que posee la capacidad de otorgar vida temporal a los muertos y controlarlos.\n\nEs una de las caballeras espectrales de <La Vengadora> que sirven al Rey de los Espectros, quien se hace llamar el rey de los cadáveres. Es conocida como Yasha Plateado por su habilidad para controlar un miasma plateado.\nTambién controla un Golem que materializa su propio poder.\n\nSe dice que su miasma plateado se utiliza principalmente para fortalecer a sus aliados, convirtiendo a los monstruos no muertos bajo su control, como zombis y esqueletos, en poderosos guerreros."
  },
  "base_stats": {
-  "HP": 19080,
-  "ATK": 1208,
-  "DEF": 1017,
-  "SPD": 82,
+  "HP": 19716,
+  "ATK": 1462,
+  "DEF": 731,
+  "SPD": 79,
   "CRATE": 50,
   "CDMG": 575,
   "CRES": 0,
@@ -46,10 +46,10 @@
   "EVD": 0
  },
  "stats": {
-  "HP": 34589,
-  "ATK": 2207,
-  "DEF": 1833,
-  "SPD": 82,
+  "HP": 35736,
+  "ATK": 2665,
+  "DEF": 1317,
+  "SPD": 79,
   "CRATE": 75,
   "CDMG": 650,
   "CRES": 0,
@@ -199,10 +199,10 @@
    "grade": 1,
    "max_level": 10,
    "stats": {
-    "HP": 21415,
-    "ATK": 1355,
-    "DEF": 1141,
-    "SPD": 82,
+    "HP": 22129,
+    "ATK": 1640,
+    "DEF": 820,
+    "SPD": 79,
     "CRATE": 50,
     "CDMG": 575,
     "CRES": 0,
@@ -225,10 +225,10 @@
    "grade": 2,
    "max_level": 20,
    "stats": {
-    "HP": 24010,
-    "ATK": 1520,
-    "DEF": 1279,
-    "SPD": 82,
+    "HP": 24810,
+    "ATK": 1839,
+    "DEF": 919,
+    "SPD": 79,
     "CRATE": 50,
     "CDMG": 575,
     "CRES": 0,
@@ -251,10 +251,10 @@
    "grade": 3,
    "max_level": 30,
    "stats": {
-    "HP": 26605,
-    "ATK": 1684,
-    "DEF": 1418,
-    "SPD": 82,
+    "HP": 27491,
+    "ATK": 2038,
+    "DEF": 1019,
+    "SPD": 79,
     "CRATE": 50,
     "CDMG": 575,
     "CRES": 0,
@@ -277,10 +277,10 @@
    "grade": 4,
    "max_level": 40,
    "stats": {
-    "HP": 29200,
-    "ATK": 1848,
-    "DEF": 1556,
-    "SPD": 82,
+    "HP": 30173,
+    "ATK": 2237,
+    "DEF": 1118,
+    "SPD": 79,
     "CRATE": 50,
     "CDMG": 575,
     "CRES": 0,
@@ -303,10 +303,10 @@
    "grade": 5,
    "max_level": 50,
    "stats": {
-    "HP": 31794,
-    "ATK": 2013,
-    "DEF": 1694,
-    "SPD": 82,
+    "HP": 32854,
+    "ATK": 2436,
+    "DEF": 1218,
+    "SPD": 79,
     "CRATE": 50,
     "CDMG": 575,
     "CRES": 0,
@@ -329,10 +329,10 @@
    "grade": 6,
    "max_level": 60,
    "stats": {
-    "HP": 34389,
-    "ATK": 2177,
-    "DEF": 1833,
-    "SPD": 82,
+    "HP": 35536,
+    "ATK": 2635,
+    "DEF": 1317,
+    "SPD": 79,
     "CRATE": 50,
     "CDMG": 575,
     "CRES": 0,
@@ -357,10 +357,10 @@
    "level": 10,
    "grade_required": 1,
    "stats": {
-    "HP": 21415,
-    "ATK": 1355,
-    "DEF": 1141,
-    "SPD": 82,
+    "HP": 22129,
+    "ATK": 1640,
+    "DEF": 820,
+    "SPD": 79,
     "CRATE": 50,
     "CDMG": 575,
     "CRES": 0,
@@ -372,10 +372,10 @@
    "level": 20,
    "grade_required": 2,
    "stats": {
-    "HP": 24010,
-    "ATK": 1520,
-    "DEF": 1279,
-    "SPD": 82,
+    "HP": 24810,
+    "ATK": 1839,
+    "DEF": 919,
+    "SPD": 79,
     "CRATE": 50,
     "CDMG": 575,
     "CRES": 0,
@@ -387,10 +387,10 @@
    "level": 30,
    "grade_required": 3,
    "stats": {
-    "HP": 26605,
-    "ATK": 1684,
-    "DEF": 1418,
-    "SPD": 82,
+    "HP": 27491,
+    "ATK": 2038,
+    "DEF": 1019,
+    "SPD": 79,
     "CRATE": 50,
     "CDMG": 575,
     "CRES": 0,
@@ -402,10 +402,10 @@
    "level": 40,
    "grade_required": 4,
    "stats": {
-    "HP": 29200,
-    "ATK": 1848,
-    "DEF": 1556,
-    "SPD": 82,
+    "HP": 30173,
+    "ATK": 2237,
+    "DEF": 1118,
+    "SPD": 79,
     "CRATE": 50,
     "CDMG": 575,
     "CRES": 0,
@@ -417,10 +417,10 @@
    "level": 50,
    "grade_required": 5,
    "stats": {
-    "HP": 31794,
-    "ATK": 2013,
-    "DEF": 1694,
-    "SPD": 82,
+    "HP": 32854,
+    "ATK": 2436,
+    "DEF": 1218,
+    "SPD": 79,
     "CRATE": 50,
     "CDMG": 575,
     "CRES": 0,
@@ -432,10 +432,10 @@
    "level": 60,
    "grade_required": 6,
    "stats": {
-    "HP": 34389,
-    "ATK": 2177,
-    "DEF": 1833,
-    "SPD": 82,
+    "HP": 35536,
+    "ATK": 2635,
+    "DEF": 1317,
+    "SPD": 79,
     "CRATE": 50,
     "CDMG": 575,
     "CRES": 0,
@@ -446,10 +446,40 @@
  },
  "skills": [
   {
+   "id": 9900,
+   "name": "[&Color_Orange][&CRI_RATE] Aura[-]",
+   "name_key": "Tbl_UnitSkill_Name_CRI_RATE",
+   "name_readable": "CRIT Rate Aura",
+   "description": "Increase {3} of {2} allies by {0} in {1}",
+   "description_key": "Tbl_UnitSkill_Desc_Aura",
+   "description_readable": "Increase CRIT Rate of All allies by 15% in Extermination",
+   "type_description": "[Aura Skill]",
+   "type_description_readable": "[Aura Skill]",
+   "icon": "leader_crate",
+   "cooldown": 0,
+   "hit_count": 0,
+   "additional_hits": 0,
+   "damage_scaling": "",
+   "skill_level_scaling": "",
+   "multiplier": null,
+   "damage": null,
+   "effects": [],
+   "battle_options": "990001",
+   "battle_option_ids": [
+    990001
+   ],
+   "evolution_level_required": 3,
+   "trigger_keyword": "",
+   "aura_info": "15,QUEST_DUNGEON,AllUnit,CriRate",
+   "skill_button_type": -2,
+   "camera_type": 0,
+   "cutscene_flag": 0
+  },
+  {
    "id": 9901,
-   "name": "",
+   "name": "[&Color_Cyan]Fly Shot[-]",
    "name_key": "Tbl_UnitSkill_Name_9901",
-   "name_readable": "",
+   "name_readable": "Fly Shot",
    "description": "[In preparation]",
    "description_key": "Tbl_UnitSkill_Desc_9901",
    "description_readable": "[In preparation]",
@@ -460,29 +490,28 @@
    "hit_count": 2,
    "additional_hits": 0,
    "damage_scaling": "[ATK]",
-   "skill_level_scaling": "[D:10]/[P:10]/[D:10]/[P:10]/[D:10]",
-   "multiplier": 252.0,
+   "skill_level_scaling": "[D:10]/[D:10]/[D:10]/[D:10]/[D:10]",
+   "multiplier": 134.5,
    "damage": {
     "scaling": [
      {
       "stat": "ATK",
-      "pct": 252.0
+      "pct": 134.5
      }
     ],
     "hits": [
      {
-      "pct": 252.0,
+      "pct": 134.5,
       "count": 2,
-      "tar": ""
+      "tar": "all enemies"
      }
     ],
-    "total": 504.0
+    "total": 269.0
    },
    "effects": [],
-   "battle_options": "990101/990102",
+   "battle_options": "990101",
    "battle_option_ids": [
-    990101,
-    990102
+    990101
    ],
    "evolution_level_required": 0,
    "trigger_keyword": "",
@@ -493,9 +522,9 @@
   },
   {
    "id": 9902,
-   "name": "",
+   "name": "[&Color_Cyan]Barrage Shot[-]",
    "name_key": "Tbl_UnitSkill_Name_9902",
-   "name_readable": "",
+   "name_readable": "Barrage Shot",
    "description": "[In preparation]",
    "description_key": "Tbl_UnitSkill_Desc_9902",
    "description_readable": "[In preparation]",
@@ -503,33 +532,32 @@
    "type_description_readable": "[Attack Skill]",
    "icon": "9902",
    "cooldown": 3,
-   "hit_count": 6,
+   "hit_count": 4,
    "additional_hits": 0,
    "damage_scaling": "[ATK]",
    "skill_level_scaling": "[D:10]/[P:10]/[D:10]/[P:10]/[D:10]",
-   "multiplier": 115.4,
+   "multiplier": 94.6,
    "damage": {
     "scaling": [
      {
       "stat": "ATK",
-      "pct": 115.4
+      "pct": 94.6
      }
     ],
     "hits": [
      {
-      "pct": 115.4,
-      "count": 6,
-      "tar": ""
+      "pct": 94.6,
+      "count": 4,
+      "tar": "all enemies"
      }
     ],
-    "total": 692.4
+    "total": 378.4
    },
    "effects": [],
-   "battle_options": "990201/990202/990203",
+   "battle_options": "990201/990202",
    "battle_option_ids": [
     990201,
-    990202,
-    990203
+    990202
    ],
    "evolution_level_required": 0,
    "trigger_keyword": "",
@@ -540,9 +568,9 @@
   },
   {
    "id": 9903,
-   "name": "",
+   "name": "[&Color_Cyan]Satellite Burst[-]",
    "name_key": "Tbl_UnitSkill_Name_9903",
-   "name_readable": "",
+   "name_readable": "Satellite Burst",
    "description": "[In preparation]",
    "description_key": "Tbl_UnitSkill_Desc_9903",
    "description_readable": "[In preparation]",
@@ -550,26 +578,26 @@
    "type_description_readable": "[Ultimate Skill]",
    "icon": "9903",
    "cooldown": 6,
-   "hit_count": 3,
+   "hit_count": 7,
    "additional_hits": 0,
    "damage_scaling": "[ATK]",
-   "skill_level_scaling": "[D:10]/[P:10]/[D:10]/[P:10]/[D:10]",
-   "multiplier": 166.2,
+   "skill_level_scaling": "[D:10]/[D:10]/[D:10]/[D:10]/[D:10]",
+   "multiplier": 71.2,
    "damage": {
     "scaling": [
      {
       "stat": "ATK",
-      "pct": 166.2
+      "pct": 71.2
      }
     ],
     "hits": [
      {
-      "pct": 166.2,
-      "count": 3,
+      "pct": 71.2,
+      "count": 7,
       "tar": "all enemies"
      }
     ],
-    "total": 498.6
+    "total": 498.4
    },
    "effects": [],
    "battle_options": "990301/990302",
@@ -586,16 +614,16 @@
   },
   {
    "id": 9904,
-   "name": "",
+   "name": "[&Color_Cyan]Silver Yaksha[-]",
    "name_key": "Tbl_UnitSkill_Name_9904",
-   "name_readable": "",
+   "name_readable": "Silver Yaksha",
    "description": "",
    "description_key": "Tbl_UnitSkill_Desc_9904",
    "description_readable": "",
    "type_description": "[Passive Skill]",
    "type_description_readable": "[Passive Skill]",
    "icon": "9904",
-   "cooldown": 0,
+   "cooldown": 3,
    "hit_count": 0,
    "additional_hits": 0,
    "damage_scaling": "",
@@ -603,10 +631,9 @@
    "multiplier": null,
    "damage": null,
    "effects": [],
-   "battle_options": "990401/990402",
+   "battle_options": "990401",
    "battle_option_ids": [
-    990401,
-    990402
+    990401
    ],
    "evolution_level_required": 2,
    "trigger_keyword": "",
@@ -616,5 +643,108 @@
    "cutscene_flag": 0
   }
  ],
- "weapons": []
+ "weapons": [
+  {
+   "id": 9901,
+   "name": "[&Color_Orange]Blood Swarm[-]",
+   "name_key": "Tbl_UnitWeapon_Name_9901",
+   "icon": "Weapon_9901.png",
+   "rarity": 4,
+   "weapon_type": 99,
+   "opt_type": 8,
+   "opt_value": 20,
+   "skill_slot": 9903,
+   "skill_id": 9913,
+   "skill_data": {
+    "id": 9913,
+    "name": "<[&Tbl_UnitWeapon_Name_9901]> [&Tbl_UnitSkill_Name_9903]",
+    "name_key": "Tbl_UnitSkill_Name_9913",
+    "name_readable": "<Blood Swarm> Satellite Burst",
+    "description": "",
+    "description_key": "Tbl_UnitSkill_Desc_9913",
+    "description_readable": "",
+    "type_description": "[Ultimate Skill]",
+    "type_description_readable": "[Ultimate Skill]",
+    "icon": "9913",
+    "cooldown": 6,
+    "hit_count": 7,
+    "additional_hits": 0,
+    "damage_scaling": "[ATK]",
+    "skill_level_scaling": "[D:10]/[D:10]/[D:10]/[D:10]/[D:10]",
+    "multiplier": 66.8,
+    "damage": {
+     "scaling": [
+      {
+       "stat": "ATK",
+       "pct": 66.8
+      }
+     ],
+     "hits": [
+      {
+       "pct": 66.8,
+       "count": 7,
+       "tar": "all enemies"
+      }
+     ],
+     "total": 467.6
+    },
+    "effects": [],
+    "battle_options": "991301/991302/991303",
+    "battle_option_ids": [
+     991301,
+     991302,
+     991303
+    ],
+    "evolution_level_required": 1,
+    "trigger_keyword": "",
+    "aura_info": "",
+    "skill_button_type": 0,
+    "camera_type": 0,
+    "cutscene_flag": 2
+   }
+  },
+  {
+   "id": 9902,
+   "name": "[&Color_Orange]Phantom Beelzebub[-]",
+   "name_key": "Tbl_UnitWeapon_Name_9902",
+   "icon": "Weapon_9902.png",
+   "rarity": 4,
+   "weapon_type": 99,
+   "opt_type": 5,
+   "opt_value": 35,
+   "skill_slot": 9904,
+   "skill_id": 9914,
+   "skill_data": {
+    "id": 9914,
+    "name": "<[&Tbl_UnitWeapon_Name_9902]> [&Tbl_UnitSkill_Name_9904]",
+    "name_key": "Tbl_UnitSkill_Name_9914",
+    "name_readable": "<Phantom Beelzebub> Silver Yaksha",
+    "description": "",
+    "description_key": "Tbl_UnitSkill_Desc_9914",
+    "description_readable": "",
+    "type_description": "[Passive Skill]",
+    "type_description_readable": "[Passive Skill]",
+    "icon": "9914",
+    "cooldown": 3,
+    "hit_count": 0,
+    "additional_hits": 0,
+    "damage_scaling": "",
+    "skill_level_scaling": "",
+    "multiplier": null,
+    "damage": null,
+    "effects": [],
+    "battle_options": "991401/991402",
+    "battle_option_ids": [
+     991401,
+     991402
+    ],
+    "evolution_level_required": 2,
+    "trigger_keyword": "",
+    "aura_info": "",
+    "skill_button_type": -1,
+    "camera_type": 0,
+    "cutscene_flag": 0
+   }
+  }
+ ]
 }

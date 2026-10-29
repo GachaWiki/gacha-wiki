@@ -241,6 +241,19 @@
   margin: 1.1rem 0 0.35rem;
 }
 
+/* inline CMS markup in news bodies: red emphasis, strikethrough, bold */
+.ts-upd-detail-body .ts-upd-red {
+  color: #ff7a70;
+}
+
+.ts-upd-detail-body s {
+  opacity: 0.65;
+}
+
+.ts-upd-detail-body strong:not(.ts-upd-h) {
+  font-weight: 700;
+}
+
 .ts-upd-detail-body img {
   display: block;
   margin: 0.9rem auto;

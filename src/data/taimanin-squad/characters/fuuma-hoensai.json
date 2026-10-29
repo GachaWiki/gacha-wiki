@@ -627,7 +627,7 @@
     "hit_count": 3,
     "additional_hits": 0,
     "damage_scaling": "[ATK]",
-    "skill_level_scaling": "[D:10]/[B:10]/[D:10]/[B:10]/[D:10]",
+    "skill_level_scaling": "[D:10]/[D:10]/[D:10]/[D:10]/[D:10]",
     "multiplier": 143.3,
     "damage": {
      "scaling": [

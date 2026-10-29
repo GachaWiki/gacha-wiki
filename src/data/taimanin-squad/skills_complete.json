@@ -1,6 +1,6 @@
 {
  "version": "4",
- "total_skills": 1656,
+ "total_skills": 1703,
  "total_buffs": 444,
  "total_debuffs": 698,
  "skills": [
@@ -6452,7 +6452,7 @@
    "name_readable": "ATK Aura",
    "description": "Increase {3} of {2} allies by {0} in {1}",
    "description_key": "Tbl_UnitSkill_Desc_Aura",
-   "description_readable": "Increase ATK of All allies by 10% in All Battles",
+   "description_readable": "Increase ATK of Power allies by 15% in All Battles",
    "type_description": "[Aura Skill]",
    "type_description_readable": "[Aura Skill]",
    "icon": "leader_atk",
@@ -6470,7 +6470,7 @@
    ],
    "evolution_level_required": 3,
    "trigger_keyword": "",
-   "aura_info": "10,QUEST_ALL,AllUnit,AtkRate",
+   "aura_info": "15,QUEST_ALL,Destruction,AtkRate",
    "skill_button_type": -2,
    "camera_type": 0,
    "cutscene_flag": 0
@@ -6480,9 +6480,9 @@
    "name": "[&Color_Cyan]Flame Shot[-]",
    "name_key": "Tbl_UnitSkill_Name_2701",
    "name_readable": "Flame Shot",
-   "description": "Forms a fireball at the fingertips and launches it at the enemy.\nTarget hit is inflicted with [&Color_Cyan]([V3:270102]%)[-] [&Burn] at a [&Color_Cyan][R:270102]%[-] chance.\n[&Common_Word_Skill_ValueTurn]: [V2:270102] turn(s)",
+   "description": "Creates a fireball at the fingertips and fires it at the enemy.\nWhen attacking an enemy with [&DeBuff], [&Common_Word_Skill_Damage] increases by [&Color_Cyan]([V3:270102]%)[-].\nWhen attacking an enemy afflicted with [&Burn], [&Common_Word_Skill_Damage] increases by [&Color_Cyan]([V3:270103]%)[-].",
    "description_key": "Tbl_UnitSkill_Desc_2701",
-   "description_readable": "Forms a fireball at the fingertips and launches it at the enemy.\nTarget hit is inflicted with (3.5%) Burn at a 15% chance.\nDuration: 3 turn(s)",
+   "description_readable": "Creates a fireball at the fingertips and fires it at the enemy.\nWhen attacking an enemy with Debuff, DMG increases by (7.5%).\nWhen attacking an enemy afflicted with Burn, DMG increases by (7.5%).",
    "type_description": "[Normal Attack]",
    "type_description_readable": "[Normal Attack]",
    "icon": "2701",
@@ -6490,29 +6490,30 @@
    "hit_count": 1,
    "additional_hits": 0,
    "damage_scaling": "[ATK]",
-   "skill_level_scaling": "[D:10]/[B:10]/[D:10]/[B:10]/[D:10]",
-   "multiplier": 504.0,
+   "skill_level_scaling": "[D:10]/[D:10]/[D:10]/[D:10]/[D:10]",
+   "multiplier": 472.5,
    "damage": {
     "scaling": [
      {
       "stat": "ATK",
-      "pct": 504.0
+      "pct": 472.5
      }
     ],
     "hits": [
      {
-      "pct": 504.0,
+      "pct": 472.5,
       "count": 1,
       "tar": ""
      }
     ],
-    "total": 504.0
+    "total": 472.5
    },
    "effects": [],
-   "battle_options": "270101/270102",
+   "battle_options": "270101/270102/270103",
    "battle_option_ids": [
     270101,
-    270102
+    270102,
+    270103
    ],
    "evolution_level_required": 0,
    "trigger_keyword": "",
@@ -6526,40 +6527,39 @@
    "name": "[&Color_Cyan]Heat Wave[-]",
    "name_key": "Tbl_UnitSkill_Name_2702",
    "name_readable": "Heat Wave",
-   "description": "Attacks [&Common_Word_Skill_EnemyAll] by burning the ground beneath them with flames.\nTargets hit are inflicted with [&Color_Cyan]([V3:270203]%)[-] [&Burn] at a [&Color_Cyan][R:270203]%[-] chance.\n[&Common_Word_Skill_ValueTurn]: [V2:270202] turn(s)\nIf the target is in [&Burn] state, inflict additional [&Burn].\n[&Common_Word_Skill_ValueTurn]: [V2:270203] turn(s)",
+   "description": "Erupts a pillar of fire beneath [&Common_Word_Skill_EnemyAll]' feet to attack.\nTargets hit are inflicted with [&Color_Cyan]([V3:270202]%)[-] [&Burn] at a [&Color_Cyan][R:270202]%[-] chance on the [&Common_Word_Skill_ActionLast].\n[&Common_Word_Skill_ValueTurn]: [V2:270202] turn(s)",
    "description_key": "Tbl_UnitSkill_Desc_2702",
-   "description_readable": "Attacks ALL enemies by burning the ground beneath them with flames.\nTargets hit are inflicted with (3.5%) Burn at a 60% chance.\nDuration: 3 turn(s)\nIf the target is in Burn state, inflict additional Burn.\nDuration: 3 turn(s)",
+   "description_readable": "Erupts a pillar of fire beneath ALL enemies' feet to attack.\nTargets hit are inflicted with (5%) Burn at a 65% chance on the Last Attack.\nDuration: 3 turn(s)",
    "type_description": "[Attack Skill]",
    "type_description_readable": "[Attack Skill]",
    "icon": "2702",
-   "cooldown": 4,
-   "hit_count": 1,
+   "cooldown": 3,
+   "hit_count": 3,
    "additional_hits": 0,
    "damage_scaling": "[ATK]",
    "skill_level_scaling": "[D:10]/[B:10]/[D:10]/[B:10]/[D:10]",
-   "multiplier": 392.3,
+   "multiplier": 126.1,
    "damage": {
     "scaling": [
      {
       "stat": "ATK",
-      "pct": 392.3
+      "pct": 126.1
      }
     ],
     "hits": [
      {
-      "pct": 392.3,
-      "count": 1,
+      "pct": 126.1,
+      "count": 3,
       "tar": "all enemies"
      }
     ],
-    "total": 392.3
+    "total": 378.3
    },
    "effects": [],
-   "battle_options": "270201/270202/270203",
+   "battle_options": "270201/270202",
    "battle_option_ids": [
     270201,
-    270202,
-    270203
+    270202
    ],
    "evolution_level_required": 0,
    "trigger_keyword": "",
@@ -6573,9 +6573,9 @@
    "name": "[&Color_Cyan]Super Nova[-]",
    "name_key": "Tbl_UnitSkill_Name_2703",
    "name_readable": "Super Nova",
-   "description": "Fires a wave of fire, to attack [&Common_Word_Skill_EnemyAll].\nOn [&Common_Word_Skill_ActionLast], inflicts [&Color_Cyan]([V3:270303]%)[-] [&Burn] at a [&Color_Cyan][R:270303]%[-] chance.\n[&Common_Word_Skill_ValueTurn]: [V2:270303] turn(s)\nFor each [&Burn] on the target, increases [&Common_Word_Skill_Damage] by [&Color_Cyan][V3:270302]%[-].",
+   "description": "Unleashes a wave of fire toward [&Common_Word_Skill_EnemyAll].\n[&Common_Word_Skill_Damage] increases by [&Color_Cyan]([V3:270302]%)[-] for each type of [&DeBuff] the targets have.\nStacks up to 5 times.\nIncreases the duration of [&Burn] the targets have by [V2:270303] turn(s) on the [&Common_Word_Skill_ActionLast].",
    "description_key": "Tbl_UnitSkill_Desc_2703",
-   "description_readable": "Fires a wave of fire, to attack ALL enemies.\nOn Last Attack, inflicts (3.5%) Burn at a 75% chance.\nDuration: 3 turn(s)\nFor each Burn on the target, increases DMG by 12.5%.",
+   "description_readable": "Unleashes a wave of fire toward ALL enemies.\nDMG increases by (20%) for each type of Debuff the targets have.\nStacks up to 5 times.\nIncreases the duration of Burn the targets have by 1 turn(s) on the Last Attack.",
    "type_description": "[Ultimate Skill]",
    "type_description_readable": "[Ultimate Skill]",
    "icon": "2703",
@@ -6620,13 +6620,13 @@
    "name": "[&Color_Cyan]Queen of the Inferno[-]",
    "name_key": "Tbl_UnitSkill_Name_2704",
    "name_readable": "Queen of the Inferno",
-   "description": "When attacking an enemy with [&Burn], reduces the [&Common_Word_Skill_TurnGauge] by [&Color_Cyan]([V3:270401]%)[-] at a [&Color_Cyan][R:270401]%[-] chance.",
+   "description": "If the character's [&HP] is [&Color_Cyan]50%[-] or more, [&Common_Word_Skill_Damage] taken decreases by [&Color_Cyan]([V3:270401]%)[-].\n[&Common_Word_Skill_CooltimeIgnore]\nAt the end of the turn, if [&Tbl_UnitSkill_Name_2703] is on [&Common_Word_Skill_CoolTime] and there is an enemy with [&DeBuff], [&Tbl_UnitSkill_Name_2703]'s [&Common_Word_Skill_CoolTime] reduces by [V2:270402] turn(s).",
    "description_key": "Tbl_UnitSkill_Desc_2704",
-   "description_readable": "When attacking an enemy with Burn, reduces the Turn Gauge by (15%) at a 10% chance.",
+   "description_readable": "If the character's HP is 50% or more, DMG taken decreases by (-12.5%).\n[Always-active passive effect regardless of cooldown]\nAt the end of the turn, if Super Nova is on Cooldown and there is an enemy with Debuff, Super Nova's Cooldown reduces by -1 turn(s).",
    "type_description": "[Passive Skill]",
    "type_description_readable": "[Passive Skill]",
    "icon": "2704",
-   "cooldown": 0,
+   "cooldown": 2,
    "hit_count": 1,
    "additional_hits": 0,
    "damage_scaling": "",
@@ -6634,9 +6634,10 @@
    "multiplier": null,
    "damage": null,
    "effects": [],
-   "battle_options": "270401",
+   "battle_options": "270401/270402",
    "battle_option_ids": [
-    270401
+    270401,
+    270402
    ],
    "evolution_level_required": 2,
    "trigger_keyword": "",
@@ -6646,59 +6647,60 @@
    "cutscene_flag": 0
   },
   {
-   "id": 2712,
-   "name": "<[&Tbl_UnitWeapon_Name_2701]> [&Tbl_UnitSkill_Name_2702]",
-   "name_key": "Tbl_UnitSkill_Name_2712",
-   "name_readable": "<Throne Bracelet> Heat Wave",
-   "description": "Attacks [&Common_Word_Skill_EnemyAll] by lighting the ground beneath them on fire.\nInflicts [&Color_Cyan]([V3:271202]%)[-] [&Burn] at a [&Color_Cyan][R:271202]%[-] chance on [&Common_Word_Skill_ActionLast].\n[&Common_Word_Skill_ValueTurn]: [V2:271202] turn(s)",
-   "description_key": "Tbl_UnitSkill_Desc_2712",
-   "description_readable": "Attacks ALL enemies by lighting the ground beneath them on fire.\nInflicts (3.5%) Burn at a 60% chance on Last Attack.\nDuration: 3 turn(s)",
-   "type_description": "[Attack Skill]",
-   "type_description_readable": "[Attack Skill]",
-   "icon": "2712",
-   "cooldown": 4,
+   "id": 2713,
+   "name": "<[&Tbl_UnitWeapon_Name_2701]> [&Tbl_UnitSkill_Name_2703]",
+   "name_key": "Tbl_UnitSkill_Name_2713",
+   "name_readable": "<Throne Bracelet> Super Nova",
+   "description": "Unleashes a wave of fire toward [&Common_Word_Skill_EnemyAll].\n[&Common_Word_Skill_Damage] increases by [&Color_Cyan]([V3:271302]%)[-] for each type of [&DeBuff] the targets have.\nStacks up to 5 times.\nWhen attacking, performs a [&Color_Cyan]([V3:271303]%)[-] [&Burn] [&Common_Word_Skill_DotBuffBurst] attack.",
+   "description_key": "Tbl_UnitSkill_Desc_2713",
+   "description_readable": "Unleashes a wave of fire toward ALL enemies.\nDMG increases by (20%) for each type of Debuff the targets have.\nStacks up to 5 times.\nWhen attacking, performs a (150%) Burn Debuff Resonance attack.",
+   "type_description": "[Ultimate Skill]",
+   "type_description_readable": "[Ultimate Skill]",
+   "icon": "2713",
+   "cooldown": 6,
    "hit_count": 1,
    "additional_hits": 0,
    "damage_scaling": "[ATK]",
-   "skill_level_scaling": "[D:10]/[B:10]/[D:10]/[B:10]/[D:10]",
-   "multiplier": 418.4,
+   "skill_level_scaling": "[D:10]/[D:10]/[D:10]/[D:10]/[D:10]",
+   "multiplier": 467.4,
    "damage": {
     "scaling": [
      {
       "stat": "ATK",
-      "pct": 418.4
+      "pct": 467.4
      }
     ],
     "hits": [
      {
-      "pct": 418.4,
+      "pct": 467.4,
       "count": 1,
       "tar": "all enemies"
      }
     ],
-    "total": 418.4
+    "total": 467.4
    },
    "effects": [],
-   "battle_options": "271201/271202",
+   "battle_options": "271301/271302/271303",
    "battle_option_ids": [
-    271201,
-    271202
+    271301,
+    271302,
+    271303
    ],
-   "evolution_level_required": 0,
+   "evolution_level_required": 1,
    "trigger_keyword": "",
    "aura_info": "",
    "skill_button_type": 0,
    "camera_type": 0,
-   "cutscene_flag": 0
+   "cutscene_flag": 2
   },
   {
    "id": 2714,
    "name": "<[&Tbl_UnitWeapon_Name_2702]> [&Tbl_UnitSkill_Name_2704]",
    "name_key": "Tbl_UnitSkill_Name_2714",
    "name_readable": "<Ruby Eye> Queen of the Inferno",
-   "description": "When attacking an enemy with [&Burn], performs a [&Color_Cyan]([V3:271401]%)[-] [&Common_Word_Skill_DefPenetrate] attack.",
+   "description": "If the character's [&HP] is [&Color_Cyan]50%[-] or more, [&Common_Word_Skill_Damage] taken decreases by [&Color_Cyan]([V3:271401]%)[-].\n[&Common_Word_Skill_CooltimeIgnore]\n[&Common_Word_Skill_Damage] increases by [&Color_Cyan][V3:271402]%[-]/[&Color_Cyan][V3:271403]%[-]/[&Color_Cyan][V3:271404]%[-]/[&Color_Cyan][V3:271405]%[-], depending on the number of enemies afflicted with [&Burn] (1/2/3/4).",
    "description_key": "Tbl_UnitSkill_Desc_2714",
-   "description_readable": "When attacking an enemy with Burn, performs a (15%) DEF Penetrate attack.",
+   "description_readable": "If the character's HP is 50% or more, DMG taken decreases by (-12.5%).\n[Always-active passive effect regardless of cooldown]\nDMG increases by 12.5%/17.5%/22.5%/27.5%, depending on the number of enemies afflicted with Burn (1/2/3/4).",
    "type_description": "[Passive Skill]",
    "type_description_readable": "[Passive Skill]",
    "icon": "2714",
@@ -6710,9 +6712,13 @@
    "multiplier": null,
    "damage": null,
    "effects": [],
-   "battle_options": "271401",
+   "battle_options": "271401/271402/271403/271404/271405",
    "battle_option_ids": [
-    271401
+    271401,
+    271402,
+    271403,
+    271404,
+    271405
    ],
    "evolution_level_required": 2,
    "trigger_keyword": "",
@@ -23291,10 +23297,40 @@
    "cutscene_flag": 0
   },
   {
+   "id": 9900,
+   "name": "[&Color_Orange][&CRI_RATE] Aura[-]",
+   "name_key": "Tbl_UnitSkill_Name_CRI_RATE",
+   "name_readable": "CRIT Rate Aura",
+   "description": "Increase {3} of {2} allies by {0} in {1}",
+   "description_key": "Tbl_UnitSkill_Desc_Aura",
+   "description_readable": "Increase CRIT Rate of All allies by 15% in Extermination",
+   "type_description": "[Aura Skill]",
+   "type_description_readable": "[Aura Skill]",
+   "icon": "leader_crate",
+   "cooldown": 0,
+   "hit_count": 0,
+   "additional_hits": 0,
+   "damage_scaling": "",
+   "skill_level_scaling": "",
+   "multiplier": null,
+   "damage": null,
+   "effects": [],
+   "battle_options": "990001",
+   "battle_option_ids": [
+    990001
+   ],
+   "evolution_level_required": 3,
+   "trigger_keyword": "",
+   "aura_info": "15,QUEST_DUNGEON,AllUnit,CriRate",
+   "skill_button_type": -2,
+   "camera_type": 0,
+   "cutscene_flag": 0
+  },
+  {
    "id": 9901,
-   "name": "",
+   "name": "[&Color_Cyan]Fly Shot[-]",
    "name_key": "Tbl_UnitSkill_Name_9901",
-   "name_readable": "",
+   "name_readable": "Fly Shot",
    "description": "[In preparation]",
    "description_key": "Tbl_UnitSkill_Desc_9901",
    "description_readable": "[In preparation]",
@@ -23305,29 +23341,28 @@
    "hit_count": 2,
    "additional_hits": 0,
    "damage_scaling": "[ATK]",
-   "skill_level_scaling": "[D:10]/[P:10]/[D:10]/[P:10]/[D:10]",
-   "multiplier": 252.0,
+   "skill_level_scaling": "[D:10]/[D:10]/[D:10]/[D:10]/[D:10]",
+   "multiplier": 134.5,
    "damage": {
     "scaling": [
      {
       "stat": "ATK",
-      "pct": 252.0
+      "pct": 134.5
      }
     ],
     "hits": [
      {
-      "pct": 252.0,
+      "pct": 134.5,
       "count": 2,
-      "tar": ""
+      "tar": "all enemies"
      }
     ],
-    "total": 504.0
+    "total": 269.0
    },
    "effects": [],
-   "battle_options": "990101/990102",
+   "battle_options": "990101",
    "battle_option_ids": [
-    990101,
-    990102
+    990101
    ],
    "evolution_level_required": 0,
    "trigger_keyword": "",
@@ -23338,9 +23373,9 @@
   },
   {
    "id": 9902,
-   "name": "",
+   "name": "[&Color_Cyan]Barrage Shot[-]",
    "name_key": "Tbl_UnitSkill_Name_9902",
-   "name_readable": "",
+   "name_readable": "Barrage Shot",
    "description": "[In preparation]",
    "description_key": "Tbl_UnitSkill_Desc_9902",
    "description_readable": "[In preparation]",
@@ -23348,33 +23383,32 @@
    "type_description_readable": "[Attack Skill]",
    "icon": "9902",
    "cooldown": 3,
-   "hit_count": 6,
+   "hit_count": 4,
    "additional_hits": 0,
    "damage_scaling": "[ATK]",
    "skill_level_scaling": "[D:10]/[P:10]/[D:10]/[P:10]/[D:10]",
-   "multiplier": 115.4,
+   "multiplier": 94.6,
    "damage": {
     "scaling": [
      {
       "stat": "ATK",
-      "pct": 115.4
+      "pct": 94.6
      }
     ],
     "hits": [
      {
-      "pct": 115.4,
-      "count": 6,
-      "tar": ""
+      "pct": 94.6,
+      "count": 4,
+      "tar": "all enemies"
      }
     ],
-    "total": 692.4
+    "total": 378.4
    },
    "effects": [],
-   "battle_options": "990201/990202/990203",
+   "battle_options": "990201/990202",
    "battle_option_ids": [
     990201,
-    990202,
-    990203
+    990202
    ],
    "evolution_level_required": 0,
    "trigger_keyword": "",
@@ -23385,9 +23419,9 @@
   },
   {
    "id": 9903,
-   "name": "",
+   "name": "[&Color_Cyan]Satellite Burst[-]",
    "name_key": "Tbl_UnitSkill_Name_9903",
-   "name_readable": "",
+   "name_readable": "Satellite Burst",
    "description": "[In preparation]",
    "description_key": "Tbl_UnitSkill_Desc_9903",
    "description_readable": "[In preparation]",
@@ -23395,26 +23429,26 @@
    "type_description_readable": "[Ultimate Skill]",
    "icon": "9903",
    "cooldown": 6,
-   "hit_count": 3,
+   "hit_count": 7,
    "additional_hits": 0,
    "damage_scaling": "[ATK]",
-   "skill_level_scaling": "[D:10]/[P:10]/[D:10]/[P:10]/[D:10]",
-   "multiplier": 166.2,
+   "skill_level_scaling": "[D:10]/[D:10]/[D:10]/[D:10]/[D:10]",
+   "multiplier": 71.2,
    "damage": {
     "scaling": [
      {
       "stat": "ATK",
-      "pct": 166.2
+      "pct": 71.2
      }
     ],
     "hits": [
      {
-      "pct": 166.2,
-      "count": 3,
+      "pct": 71.2,
+      "count": 7,
       "tar": "all enemies"
      }
     ],
-    "total": 498.6
+    "total": 498.4
    },
    "effects": [],
    "battle_options": "990301/990302",
@@ -23431,16 +23465,16 @@
   },
   {
    "id": 9904,
-   "name": "",
+   "name": "[&Color_Cyan]Silver Yaksha[-]",
    "name_key": "Tbl_UnitSkill_Name_9904",
-   "name_readable": "",
+   "name_readable": "Silver Yaksha",
    "description": "",
    "description_key": "Tbl_UnitSkill_Desc_9904",
    "description_readable": "",
    "type_description": "[Passive Skill]",
    "type_description_readable": "[Passive Skill]",
    "icon": "9904",
-   "cooldown": 0,
+   "cooldown": 3,
    "hit_count": 0,
    "additional_hits": 0,
    "damage_scaling": "",
@@ -23448,10 +23482,87 @@
    "multiplier": null,
    "damage": null,
    "effects": [],
-   "battle_options": "990401/990402",
+   "battle_options": "990401",
    "battle_option_ids": [
-    990401,
-    990402
+    990401
+   ],
+   "evolution_level_required": 2,
+   "trigger_keyword": "",
+   "aura_info": "",
+   "skill_button_type": -1,
+   "camera_type": 0,
+   "cutscene_flag": 0
+  },
+  {
+   "id": 9913,
+   "name": "<[&Tbl_UnitWeapon_Name_9901]> [&Tbl_UnitSkill_Name_9903]",
+   "name_key": "Tbl_UnitSkill_Name_9913",
+   "name_readable": "<Blood Swarm> Satellite Burst",
+   "description": "",
+   "description_key": "Tbl_UnitSkill_Desc_9913",
+   "description_readable": "",
+   "type_description": "[Ultimate Skill]",
+   "type_description_readable": "[Ultimate Skill]",
+   "icon": "9913",
+   "cooldown": 6,
+   "hit_count": 7,
+   "additional_hits": 0,
+   "damage_scaling": "[ATK]",
+   "skill_level_scaling": "[D:10]/[D:10]/[D:10]/[D:10]/[D:10]",
+   "multiplier": 66.8,
+   "damage": {
+    "scaling": [
+     {
+      "stat": "ATK",
+      "pct": 66.8
+     }
+    ],
+    "hits": [
+     {
+      "pct": 66.8,
+      "count": 7,
+      "tar": "all enemies"
+     }
+    ],
+    "total": 467.6
+   },
+   "effects": [],
+   "battle_options": "991301/991302/991303",
+   "battle_option_ids": [
+    991301,
+    991302,
+    991303
+   ],
+   "evolution_level_required": 1,
+   "trigger_keyword": "",
+   "aura_info": "",
+   "skill_button_type": 0,
+   "camera_type": 0,
+   "cutscene_flag": 2
+  },
+  {
+   "id": 9914,
+   "name": "<[&Tbl_UnitWeapon_Name_9902]> [&Tbl_UnitSkill_Name_9904]",
+   "name_key": "Tbl_UnitSkill_Name_9914",
+   "name_readable": "<Phantom Beelzebub> Silver Yaksha",
+   "description": "",
+   "description_key": "Tbl_UnitSkill_Desc_9914",
+   "description_readable": "",
+   "type_description": "[Passive Skill]",
+   "type_description_readable": "[Passive Skill]",
+   "icon": "9914",
+   "cooldown": 3,
+   "hit_count": 0,
+   "additional_hits": 0,
+   "damage_scaling": "",
+   "skill_level_scaling": "",
+   "multiplier": null,
+   "damage": null,
+   "effects": [],
+   "battle_options": "991401/991402",
+   "battle_option_ids": [
+    991401,
+    991402
    ],
    "evolution_level_required": 2,
    "trigger_keyword": "",
@@ -25935,7 +26046,7 @@
    "hit_count": 3,
    "additional_hits": 0,
    "damage_scaling": "[ATK]",
-   "skill_level_scaling": "[D:10]/[B:10]/[D:10]/[B:10]/[D:10]",
+   "skill_level_scaling": "[D:10]/[D:10]/[D:10]/[D:10]/[D:10]",
    "multiplier": 143.3,
    "damage": {
     "scaling": [
@@ -38517,9 +38628,9 @@
   },
   {
    "id": 22701,
-   "name": "",
+   "name": "[&Color_Cyan]Maul[-]",
    "name_key": "Tbl_UnitSkill_Name_22701",
-   "name_readable": "",
+   "name_readable": "Maul",
    "description": "",
    "description_key": "Tbl_UnitSkill_Desc_22701",
    "description_readable": "",
@@ -38530,28 +38641,29 @@
    "hit_count": 1,
    "additional_hits": 0,
    "damage_scaling": "[ATK]",
-   "skill_level_scaling": "[D:10]/[D:10]/[D:10]/[D:10]/[D:10]",
-   "multiplier": 525.0,
+   "skill_level_scaling": "[B:10]/[B:10]/[B:10]/[B:10]/[B:10]",
+   "multiplier": 504.0,
    "damage": {
     "scaling": [
      {
       "stat": "ATK",
-      "pct": 525.0
+      "pct": 504.0
      }
     ],
     "hits": [
      {
-      "pct": 525.0,
+      "pct": 504.0,
       "count": 1,
       "tar": ""
      }
     ],
-    "total": 525.0
+    "total": 504.0
    },
    "effects": [],
-   "battle_options": "2270101",
+   "battle_options": "2270101/2270102",
    "battle_option_ids": [
-    2270101
+    2270101,
+    2270102
    ],
    "evolution_level_required": 0,
    "trigger_keyword": "",
@@ -38562,9 +38674,9 @@
   },
   {
    "id": 22801,
-   "name": "",
+   "name": "[&Color_Cyan]Maul[-]",
    "name_key": "Tbl_UnitSkill_Name_22801",
-   "name_readable": "",
+   "name_readable": "Maul",
    "description": "",
    "description_key": "Tbl_UnitSkill_Desc_22801",
    "description_readable": "",
@@ -38576,27 +38688,28 @@
    "additional_hits": 0,
    "damage_scaling": "[ATK]",
    "skill_level_scaling": "[D:10]/[D:10]/[D:10]/[D:10]/[D:10]",
-   "multiplier": 525.0,
+   "multiplier": 504.0,
    "damage": {
     "scaling": [
      {
       "stat": "ATK",
-      "pct": 525.0
+      "pct": 504.0
      }
     ],
     "hits": [
      {
-      "pct": 525.0,
+      "pct": 504.0,
       "count": 1,
       "tar": ""
      }
     ],
-    "total": 525.0
+    "total": 504.0
    },
    "effects": [],
-   "battle_options": "2280101",
+   "battle_options": "2280101/2280102",
    "battle_option_ids": [
-    2280101
+    2280101,
+    2280102
    ],
    "evolution_level_required": 0,
    "trigger_keyword": "",
@@ -38607,9 +38720,9 @@
   },
   {
    "id": 22901,
-   "name": "",
+   "name": "[&Color_Cyan]Maul[-]",
    "name_key": "Tbl_UnitSkill_Name_22901",
-   "name_readable": "",
+   "name_readable": "Maul",
    "description": "",
    "description_key": "Tbl_UnitSkill_Desc_22901",
    "description_readable": "",
@@ -38621,27 +38734,28 @@
    "additional_hits": 0,
    "damage_scaling": "[ATK]",
    "skill_level_scaling": "[D:10]/[D:10]/[D:10]/[D:10]/[D:10]",
-   "multiplier": 525.0,
+   "multiplier": 504.0,
    "damage": {
     "scaling": [
      {
       "stat": "ATK",
-      "pct": 525.0
+      "pct": 504.0
      }
     ],
     "hits": [
      {
-      "pct": 525.0,
+      "pct": 504.0,
       "count": 1,
       "tar": ""
      }
     ],
-    "total": 525.0
+    "total": 504.0
    },
    "effects": [],
-   "battle_options": "2290101",
+   "battle_options": "2290101/2290102",
    "battle_option_ids": [
-    2290101
+    2290101,
+    2290102
    ],
    "evolution_level_required": 0,
    "trigger_keyword": "",
@@ -38652,9 +38766,9 @@
   },
   {
    "id": 23001,
-   "name": "",
+   "name": "[&Color_Cyan]Infected Barrage Shot[-]",
    "name_key": "Tbl_UnitSkill_Name_23001",
-   "name_readable": "",
+   "name_readable": "Infected Barrage Shot",
    "description": "",
    "description_key": "Tbl_UnitSkill_Desc_23001",
    "description_readable": "",
@@ -38697,9 +38811,9 @@
   },
   {
    "id": 23002,
-   "name": "",
+   "name": "[&Color_Cyan]Infected Charge Shot[-]",
    "name_key": "Tbl_UnitSkill_Name_23002",
-   "name_readable": "",
+   "name_readable": "Infected Charge Shot",
    "description": "",
    "description_key": "Tbl_UnitSkill_Desc_23002",
    "description_readable": "",
@@ -38710,28 +38824,29 @@
    "hit_count": 1,
    "additional_hits": 0,
    "damage_scaling": "[ATK]",
-   "skill_level_scaling": "[D:10]/[D:10]/[D:10]/[D:10]/[D:10]",
-   "multiplier": 769.1,
+   "skill_level_scaling": "[B:10]/[B:10]/[B:10]/[B:10]/[B:10]",
+   "multiplier": 738.4,
    "damage": {
     "scaling": [
      {
       "stat": "ATK",
-      "pct": 769.1
+      "pct": 738.4
      }
     ],
     "hits": [
      {
-      "pct": 769.1,
+      "pct": 738.4,
       "count": 1,
       "tar": ""
      }
     ],
-    "total": 769.1
+    "total": 738.4
    },
    "effects": [],
-   "battle_options": "2300201",
+   "battle_options": "2300201/2300202",
    "battle_option_ids": [
-    2300201
+    2300201,
+    2300202
    ],
    "evolution_level_required": 0,
    "trigger_keyword": "",
@@ -38742,9 +38857,9 @@
   },
   {
    "id": 23101,
-   "name": "",
+   "name": "[&Color_Cyan]Bone Slash[-]",
    "name_key": "Tbl_UnitSkill_Name_23101",
-   "name_readable": "",
+   "name_readable": "Bone Slash",
    "description": "",
    "description_key": "Tbl_UnitSkill_Desc_23101",
    "description_readable": "",
@@ -38787,15 +38902,111 @@
   },
   {
    "id": 23102,
-   "name": "",
+   "name": "[&Color_Cyan]Bone Cleave[-]",
    "name_key": "Tbl_UnitSkill_Name_23102",
-   "name_readable": "",
+   "name_readable": "Bone Cleave",
    "description": "",
    "description_key": "Tbl_UnitSkill_Desc_23102",
    "description_readable": "",
    "type_description": "[Attack Skill]",
    "type_description_readable": "[Attack Skill]",
    "icon": "23102",
+   "cooldown": 3,
+   "hit_count": 1,
+   "additional_hits": 0,
+   "damage_scaling": "[ATK]/[CostHP]",
+   "skill_level_scaling": "[D:10]/[D:10]/[D:10]/[D:10]/[D:10]",
+   "multiplier": 572.1,
+   "damage": {
+    "scaling": [
+     {
+      "stat": "ATK",
+      "pct": 572.1
+     },
+     {
+      "stat": "Lost HP",
+      "pct": 27
+     }
+    ],
+    "hits": [
+     {
+      "pct": 572.1,
+      "count": 1,
+      "tar": ""
+     }
+    ],
+    "total": null
+   },
+   "effects": [],
+   "battle_options": "2310201/2310202",
+   "battle_option_ids": [
+    2310201,
+    2310202
+   ],
+   "evolution_level_required": 0,
+   "trigger_keyword": "",
+   "aura_info": "",
+   "skill_button_type": 0,
+   "camera_type": 0,
+   "cutscene_flag": 0
+  },
+  {
+   "id": 23201,
+   "name": "[&Color_Cyan]Deadly Sequence[-]",
+   "name_key": "Tbl_UnitSkill_Name_23201",
+   "name_readable": "Deadly Sequence",
+   "description": "",
+   "description_key": "Tbl_UnitSkill_Desc_23201",
+   "description_readable": "",
+   "type_description": "[Normal Attack]",
+   "type_description_readable": "[Normal Attack]",
+   "icon": "23201",
+   "cooldown": 0,
+   "hit_count": 3,
+   "additional_hits": 0,
+   "damage_scaling": "[ATK]",
+   "skill_level_scaling": "[D:10]/[D:10]/[D:10]/[D:10]/[D:10]",
+   "multiplier": 168.0,
+   "damage": {
+    "scaling": [
+     {
+      "stat": "ATK",
+      "pct": 168.0
+     }
+    ],
+    "hits": [
+     {
+      "pct": 168.0,
+      "count": 3,
+      "tar": ""
+     }
+    ],
+    "total": 504.0
+   },
+   "effects": [],
+   "battle_options": "2320101/2320102",
+   "battle_option_ids": [
+    2320101,
+    2320102
+   ],
+   "evolution_level_required": 0,
+   "trigger_keyword": "",
+   "aura_info": "",
+   "skill_button_type": 0,
+   "camera_type": 0,
+   "cutscene_flag": 0
+  },
+  {
+   "id": 23202,
+   "name": "[&Color_Cyan]Deadly Impact[-]",
+   "name_key": "Tbl_UnitSkill_Name_23202",
+   "name_readable": "Deadly Impact",
+   "description": "",
+   "description_key": "Tbl_UnitSkill_Desc_23202",
+   "description_readable": "",
+   "type_description": "[Attack Skill]",
+   "type_description_readable": "[Attack Skill]",
+   "icon": "23202",
    "cooldown": 3,
    "hit_count": 1,
    "additional_hits": 0,
@@ -38819,100 +39030,10 @@
     "total": 738.4
    },
    "effects": [],
-   "battle_options": "2310201/2310202",
+   "battle_options": "2320201/2320202",
    "battle_option_ids": [
-    2310201,
-    2310202
-   ],
-   "evolution_level_required": 0,
-   "trigger_keyword": "",
-   "aura_info": "",
-   "skill_button_type": 0,
-   "camera_type": 0,
-   "cutscene_flag": 0
-  },
-  {
-   "id": 23201,
-   "name": "",
-   "name_key": "Tbl_UnitSkill_Name_23201",
-   "name_readable": "",
-   "description": "",
-   "description_key": "Tbl_UnitSkill_Desc_23201",
-   "description_readable": "",
-   "type_description": "[Normal Attack]",
-   "type_description_readable": "[Normal Attack]",
-   "icon": "23201",
-   "cooldown": 0,
-   "hit_count": 3,
-   "additional_hits": 0,
-   "damage_scaling": "[ATK]",
-   "skill_level_scaling": "[D:10]/[D:10]/[D:10]/[D:10]/[D:10]",
-   "multiplier": 175.0,
-   "damage": {
-    "scaling": [
-     {
-      "stat": "ATK",
-      "pct": 175.0
-     }
-    ],
-    "hits": [
-     {
-      "pct": 175.0,
-      "count": 3,
-      "tar": ""
-     }
-    ],
-    "total": 525.0
-   },
-   "effects": [],
-   "battle_options": "2320101",
-   "battle_option_ids": [
-    2320101
-   ],
-   "evolution_level_required": 0,
-   "trigger_keyword": "",
-   "aura_info": "",
-   "skill_button_type": 0,
-   "camera_type": 0,
-   "cutscene_flag": 0
-  },
-  {
-   "id": 23202,
-   "name": "",
-   "name_key": "Tbl_UnitSkill_Name_23202",
-   "name_readable": "",
-   "description": "",
-   "description_key": "Tbl_UnitSkill_Desc_23202",
-   "description_readable": "",
-   "type_description": "[Attack Skill]",
-   "type_description_readable": "[Attack Skill]",
-   "icon": "23202",
-   "cooldown": 3,
-   "hit_count": 1,
-   "additional_hits": 0,
-   "damage_scaling": "[ATK]",
-   "skill_level_scaling": "[D:10]/[D:10]/[D:10]/[D:10]/[D:10]",
-   "multiplier": 394.2,
-   "damage": {
-    "scaling": [
-     {
-      "stat": "ATK",
-      "pct": 394.2
-     }
-    ],
-    "hits": [
-     {
-      "pct": 394.2,
-      "count": 1,
-      "tar": "all enemies"
-     }
-    ],
-    "total": 394.2
-   },
-   "effects": [],
-   "battle_options": "2320201",
-   "battle_option_ids": [
-    2320201
+    2320201,
+    2320202
    ],
    "evolution_level_required": 0,
    "trigger_keyword": "",
@@ -38923,9 +39044,9 @@
   },
   {
    "id": 23301,
-   "name": "",
+   "name": "[&Color_Cyan]Deadly Blow[-]",
    "name_key": "Tbl_UnitSkill_Name_23301",
-   "name_readable": "",
+   "name_readable": "Deadly Blow",
    "description": "",
    "description_key": "Tbl_UnitSkill_Desc_23301",
    "description_readable": "",
@@ -38935,24 +39056,28 @@
    "cooldown": 0,
    "hit_count": 2,
    "additional_hits": 0,
-   "damage_scaling": "[ATK]",
+   "damage_scaling": "[ATK]/[HP]",
    "skill_level_scaling": "[D:10]/[D:10]/[D:10]/[D:10]/[D:10]",
-   "multiplier": 262.5,
+   "multiplier": 219.4,
    "damage": {
     "scaling": [
      {
       "stat": "ATK",
-      "pct": 262.5
+      "pct": 219.4
+     },
+     {
+      "stat": "Max HP",
+      "pct": 6
      }
     ],
     "hits": [
      {
-      "pct": 262.5,
+      "pct": 219.4,
       "count": 2,
       "tar": ""
      }
     ],
-    "total": 525.0
+    "total": null
    },
    "effects": [],
    "battle_options": "2330101",
@@ -38968,9 +39093,9 @@
   },
   {
    "id": 23302,
-   "name": "",
+   "name": "[&Color_Cyan]Killing Rush[-]",
    "name_key": "Tbl_UnitSkill_Name_23302",
-   "name_readable": "",
+   "name_readable": "Killing Rush",
    "description": "",
    "description_key": "Tbl_UnitSkill_Desc_23302",
    "description_readable": "",
@@ -38981,28 +39106,29 @@
    "hit_count": 4,
    "additional_hits": 0,
    "damage_scaling": "[ATK]",
-   "skill_level_scaling": "[D:10]/[D:10]/[D:10]/[D:10]/[D:10]",
-   "multiplier": 192.3,
+   "skill_level_scaling": "[P:10]/[B:10]/[P:10]/[B:10]/[P:10]",
+   "multiplier": 184.6,
    "damage": {
     "scaling": [
      {
       "stat": "ATK",
-      "pct": 192.3
+      "pct": 184.6
      }
     ],
     "hits": [
      {
-      "pct": 192.3,
+      "pct": 184.6,
       "count": 4,
       "tar": ""
      }
     ],
-    "total": 769.2
+    "total": 738.4
    },
    "effects": [],
-   "battle_options": "2330201",
+   "battle_options": "2330201/2330202",
    "battle_option_ids": [
-    2330201
+    2330201,
+    2330202
    ],
    "evolution_level_required": 0,
    "trigger_keyword": "",
@@ -39076,10 +39202,9 @@
    "multiplier": null,
    "damage": null,
    "effects": [],
-   "battle_options": "2340201/2340202",
+   "battle_options": "2340201",
    "battle_option_ids": [
-    2340201,
-    2340202
+    2340201
    ],
    "evolution_level_required": 0,
    "trigger_keyword": "",
@@ -42786,6 +42911,82 @@
    "cutscene_flag": 0
   },
   {
+   "id": 25111,
+   "name": "",
+   "name_key": "Tbl_UnitSkill_Name_25111",
+   "name_readable": "",
+   "description": "",
+   "description_key": "Tbl_UnitSkill_Desc_25111",
+   "description_readable": "",
+   "type_description": "[Normal Attack]",
+   "type_description_readable": "[Normal Attack]",
+   "icon": "25111",
+   "cooldown": 0,
+   "hit_count": 1,
+   "additional_hits": 0,
+   "damage_scaling": "[ATK]",
+   "skill_level_scaling": "[D:10]/[D:10]/[D:10]/[D:10]/[D:10]",
+   "multiplier": 525.0,
+   "damage": {
+    "scaling": [
+     {
+      "stat": "ATK",
+      "pct": 525.0
+     }
+    ],
+    "hits": [
+     {
+      "pct": 525.0,
+      "count": 1,
+      "tar": ""
+     }
+    ],
+    "total": 525.0
+   },
+   "effects": [],
+   "battle_options": "2511101",
+   "battle_option_ids": [
+    2511101
+   ],
+   "evolution_level_required": 0,
+   "trigger_keyword": "",
+   "aura_info": "",
+   "skill_button_type": 0,
+   "camera_type": 0,
+   "cutscene_flag": 0
+  },
+  {
+   "id": 25112,
+   "name": "",
+   "name_key": "Tbl_UnitSkill_Name_25112",
+   "name_readable": "",
+   "description": "",
+   "description_key": "Tbl_UnitSkill_Desc_25112",
+   "description_readable": "",
+   "type_description": "[Support Skill]",
+   "type_description_readable": "[Support Skill]",
+   "icon": "25112",
+   "cooldown": 5,
+   "hit_count": 1,
+   "additional_hits": 0,
+   "damage_scaling": "",
+   "skill_level_scaling": "[B:10]/[B:10]/[B:10]/[B:10]/[B:10]",
+   "multiplier": null,
+   "damage": null,
+   "effects": [],
+   "battle_options": "2511201/2511202",
+   "battle_option_ids": [
+    2511201,
+    2511202
+   ],
+   "evolution_level_required": 0,
+   "trigger_keyword": "",
+   "aura_info": "",
+   "skill_button_type": 0,
+   "camera_type": 0,
+   "cutscene_flag": 0
+  },
+  {
    "id": 25201,
    "name": "",
    "name_key": "Tbl_UnitSkill_Name_25201",
@@ -42847,41 +43048,12 @@
    "additional_hits": 0,
    "damage_scaling": "[ATK]",
    "skill_level_scaling": "[D:10]/[P:10]/[D:10]/[P:10]/[D:10]",
-   "multiplier": 599.9,
-   "damage": {
-    "scaling": [
-     {
-      "stat": "ATK",
-      "pct": 599.9
-     }
-    ],
-    "hits": [
-     {
-      "pct": 599.9,
-      "count": 1,
-      "tar": ""
-     },
-     {
-      "pct": 599.9,
-      "count": 1,
-      "tar": "1 random enemy"
-     },
-     {
-      "pct": 599.9,
-      "count": 1,
-      "tar": "1 random enemy"
-     }
-    ],
-    "total": 599.9
-   },
+   "multiplier": null,
+   "damage": null,
    "effects": [],
-   "battle_options": "2520201/2520202/2520203/2520204/2520205",
+   "battle_options": "2520201",
    "battle_option_ids": [
-    2520201,
-    2520202,
-    2520203,
-    2520204,
-    2520205
+    2520201
    ],
    "evolution_level_required": 0,
    "trigger_keyword": "",
@@ -44647,13 +44819,43 @@
    "cutscene_flag": 0
   },
   {
+   "id": 25900,
+   "name": "[&Color_Orange][&SPD] Aura[-]",
+   "name_key": "Tbl_UnitSkill_Name_SPD",
+   "name_readable": "SPD Aura",
+   "description": "Increase {3} of {2} allies by {0} in {1}",
+   "description_key": "Tbl_UnitSkill_Desc_Aura",
+   "description_readable": "Increase SPD of Agility allies by 7.5% in All Battles",
+   "type_description": "[Aura Skill]",
+   "type_description_readable": "[Aura Skill]",
+   "icon": "leader_spd",
+   "cooldown": 0,
+   "hit_count": 0,
+   "additional_hits": 0,
+   "damage_scaling": "",
+   "skill_level_scaling": "",
+   "multiplier": null,
+   "damage": null,
+   "effects": [],
+   "battle_options": "2590001",
+   "battle_option_ids": [
+    2590001
+   ],
+   "evolution_level_required": 3,
+   "trigger_keyword": "",
+   "aura_info": "7.5,QUEST_ALL,Agility,SpdRate",
+   "skill_button_type": -2,
+   "camera_type": 0,
+   "cutscene_flag": 0
+  },
+  {
    "id": 25901,
-   "name": "",
+   "name": "[&Color_Cyan]Jack-o'-Spin[-]",
    "name_key": "Tbl_UnitSkill_Name_25901",
-   "name_readable": "",
-   "description": "",
+   "name_readable": "Jack-o'-Spin",
+   "description": "Strikes the enemy with the tip of a broom and returns.\nIf the target's [&HP] is below [&Color_Cyan]30%[-], [&Common_Word_Skill_Damage] increases by [&Color_Cyan]([V3:2590102]%)[-].",
    "description_key": "Tbl_UnitSkill_Desc_25901",
-   "description_readable": "",
+   "description_readable": "Strikes the enemy with the tip of a broom and returns.\nIf the target's HP is below 30%, DMG increases by (7.5%).",
    "type_description": "[Normal Attack]",
    "type_description_readable": "[Normal Attack]",
    "icon": "25901",
@@ -44662,30 +44864,28 @@
    "additional_hits": 0,
    "damage_scaling": "[ATK]",
    "skill_level_scaling": "[D:10]/[D:10]/[D:10]/[D:10]/[D:10]",
-   "multiplier": 441.0,
+   "multiplier": 504.0,
    "damage": {
     "scaling": [
      {
       "stat": "ATK",
-      "pct": 441.0
+      "pct": 504.0
      }
     ],
     "hits": [
      {
-      "pct": 441.0,
+      "pct": 504.0,
       "count": 1,
       "tar": ""
      }
     ],
-    "total": 441.0
+    "total": 504.0
    },
    "effects": [],
-   "battle_options": "2590101/2590102/2590103/2590104",
+   "battle_options": "2590101/2590102",
    "battle_option_ids": [
     2590101,
-    2590102,
-    2590103,
-    2590104
+    2590102
    ],
    "evolution_level_required": 0,
    "trigger_keyword": "",
@@ -44696,42 +44896,43 @@
   },
   {
    "id": 25902,
-   "name": "",
+   "name": "[&Color_Cyan]Pumpkin Devil[-]",
    "name_key": "Tbl_UnitSkill_Name_25902",
-   "name_readable": "",
-   "description": "",
+   "name_readable": "Pumpkin Devil",
+   "description": "Summons 3 Pumpkin Octopuses and sends them to self-destruct on the enemy.\nIf the target hit's [&HP] is below [&Color_Cyan]50%[-], [&Common_Word_Skill_CriticalRate] increases by [&Color_Cyan]([V3:2590202]%)[-]. Uses [&Tbl_UnitSkill_Name_25901] upon defeating an enemy with this skill.",
    "description_key": "Tbl_UnitSkill_Desc_25902",
-   "description_readable": "",
+   "description_readable": "Summons 3 Pumpkin Octopuses and sends them to self-destruct on the enemy.\nIf the target hit's HP is below 50%, CRIT Rate increases by (30%). Uses Jack-o'-Spin upon defeating an enemy with this skill.",
    "type_description": "[Attack Skill]",
    "type_description_readable": "[Attack Skill]",
    "icon": "25902",
    "cooldown": 3,
-   "hit_count": 1,
+   "hit_count": 3,
    "additional_hits": 0,
    "damage_scaling": "[ATK]",
    "skill_level_scaling": "[D:10]/[D:10]/[D:10]/[D:10]/[D:10]",
-   "multiplier": 738.4,
+   "multiplier": 230.7,
    "damage": {
     "scaling": [
      {
       "stat": "ATK",
-      "pct": 738.4
+      "pct": 230.7
      }
     ],
     "hits": [
      {
-      "pct": 738.4,
-      "count": 1,
+      "pct": 230.7,
+      "count": 3,
       "tar": ""
      }
     ],
-    "total": 738.4
+    "total": 692.1
    },
    "effects": [],
-   "battle_options": "2590201/2590202",
+   "battle_options": "2590201/2590202/2590203",
    "battle_option_ids": [
     2590201,
-    2590202
+    2590202,
+    2590203
    ],
    "evolution_level_required": 0,
    "trigger_keyword": "",
@@ -44742,44 +44943,42 @@
   },
   {
    "id": 25903,
-   "name": "",
+   "name": "[&Color_Cyan]Trick or Treat[-]",
    "name_key": "Tbl_UnitSkill_Name_25903",
-   "name_readable": "",
-   "description": "",
+   "name_readable": "Trick or Treat",
+   "description": "Flies high into the air and scatters candy toward the ground to attack [&Common_Word_Skill_EnemyAll] [A:25903] time(s).\nIf the target is not alone, [&Common_Word_Skill_Damage] increases by [&Color_Cyan]([V3:2590302]%)[-].",
    "description_key": "Tbl_UnitSkill_Desc_25903",
-   "description_readable": "",
+   "description_readable": "Flies high into the air and scatters candy toward the ground to attack ALL enemies 3 time(s).\nIf the target is not alone, DMG increases by (45%).",
    "type_description": "[Ultimate Skill]",
    "type_description_readable": "[Ultimate Skill]",
    "icon": "25903",
    "cooldown": 5,
-   "hit_count": 1,
+   "hit_count": 3,
    "additional_hits": 0,
    "damage_scaling": "[ATK]",
    "skill_level_scaling": "[D:10]/[D:10]/[D:10]/[D:10]/[D:10]",
-   "multiplier": 401.2,
+   "multiplier": 152.8,
    "damage": {
     "scaling": [
      {
       "stat": "ATK",
-      "pct": 401.2
+      "pct": 152.8
      }
     ],
     "hits": [
      {
-      "pct": 401.2,
-      "count": 1,
+      "pct": 152.8,
+      "count": 3,
       "tar": "all enemies"
      }
     ],
-    "total": 401.2
+    "total": 458.4
    },
    "effects": [],
-   "battle_options": "2590301/2590302/2590303/2590304",
+   "battle_options": "2590301/2590302",
    "battle_option_ids": [
     2590301,
-    2590302,
-    2590303,
-    2590304
+    2590302
    ],
    "evolution_level_required": 1,
    "trigger_keyword": "",
@@ -44790,16 +44989,16 @@
   },
   {
    "id": 25904,
-   "name": "",
+   "name": "[&Color_Cyan]Halloween Devil[-]",
    "name_key": "Tbl_UnitSkill_Name_25904",
-   "name_readable": "",
-   "description": "",
+   "name_readable": "Halloween Devil",
+   "description": "When defeating an enemy, [&Tbl_UnitSkill_Name_25903]'s [&Common_Word_Skill_CoolTime] is reduced by [V2:2590401] turn(s).",
    "description_key": "Tbl_UnitSkill_Desc_25904",
-   "description_readable": "",
+   "description_readable": "When defeating an enemy, Trick or Treat's Cooldown is reduced by -1 turn(s).",
    "type_description": "[Passive Skill]",
    "type_description_readable": "[Passive Skill]",
    "icon": "25904",
-   "cooldown": 3,
+   "cooldown": 0,
    "hit_count": 0,
    "additional_hits": 0,
    "damage_scaling": "",
@@ -44819,42 +45018,44 @@
    "cutscene_flag": 0
   },
   {
-   "id": 25911,
-   "name": "",
-   "name_key": "Tbl_UnitSkill_Name_25911",
-   "name_readable": "",
-   "description": "",
-   "description_key": "Tbl_UnitSkill_Desc_25911",
-   "description_readable": "",
-   "type_description": "[Normal Attack]",
-   "type_description_readable": "[Normal Attack]",
-   "icon": "25911",
-   "cooldown": 0,
-   "hit_count": 1,
+   "id": 25912,
+   "name": "<[&Tbl_UnitWeapon_Name_25901]> [&Tbl_UnitSkill_Name_25902]",
+   "name_key": "Tbl_UnitSkill_Name_25912",
+   "name_readable": "<Sugar Twist Broom> Pumpkin Devil",
+   "description": "Summons 3 Pumpkin Octopuses and sends them to self-destruct on the enemy.\n[&Common_Word_Skill_Damage] increases equal to [&Color_Cyan][V3:2591202]%[-] of the target's lost [&HP] when attacking.\nUses [&Tbl_UnitSkill_Name_25901] upon defeating an enemy with this skill.",
+   "description_key": "Tbl_UnitSkill_Desc_25912",
+   "description_readable": "Summons 3 Pumpkin Octopuses and sends them to self-destruct on the enemy.\nDMG increases equal to 4.5% of the target's lost HP when attacking.\nUses Jack-o'-Spin upon defeating an enemy with this skill.",
+   "type_description": "[Attack Skill]",
+   "type_description_readable": "[Attack Skill]",
+   "icon": "25912",
+   "cooldown": 3,
+   "hit_count": 3,
    "additional_hits": 0,
    "damage_scaling": "[ATK]",
    "skill_level_scaling": "[D:10]/[D:10]/[D:10]/[D:10]/[D:10]",
-   "multiplier": 525.0,
+   "multiplier": 230.7,
    "damage": {
     "scaling": [
      {
       "stat": "ATK",
-      "pct": 525.0
+      "pct": 230.7
      }
     ],
     "hits": [
      {
-      "pct": 525.0,
-      "count": 1,
+      "pct": 230.7,
+      "count": 3,
       "tar": ""
      }
     ],
-    "total": 525.0
+    "total": 692.1
    },
    "effects": [],
-   "battle_options": "2591101",
+   "battle_options": "2591201/2591202/2591203",
    "battle_option_ids": [
-    2591101
+    2591201,
+    2591202,
+    2591203
    ],
    "evolution_level_required": 0,
    "trigger_keyword": "",
@@ -44864,58 +45065,89 @@
    "cutscene_flag": 0
   },
   {
-   "id": 25912,
-   "name": "",
-   "name_key": "Tbl_UnitSkill_Name_25912",
-   "name_readable": "",
-   "description": "",
-   "description_key": "Tbl_UnitSkill_Desc_25912",
-   "description_readable": "",
-   "type_description": "[Attack Skill]",
-   "type_description_readable": "[Attack Skill]",
-   "icon": "25912",
-   "cooldown": 3,
-   "hit_count": 1,
+   "id": 25913,
+   "name": "<[&Tbl_UnitWeapon_Name_25902]> [&Tbl_UnitSkill_Name_25903]",
+   "name_key": "Tbl_UnitSkill_Name_25913",
+   "name_readable": "<Spooky Jack Broom> Trick or Treat",
+   "description": "Flies high into the air and scatters candy toward the ground to attack [&Common_Word_Skill_EnemyAll] [A:25913] time(s).\nIf the target is alone, [&Common_Word_Skill_Damage] of all attacks increases by [&Color_Cyan]([V3:2591302]%)[-].",
+   "description_key": "Tbl_UnitSkill_Desc_25913",
+   "description_readable": "Flies high into the air and scatters candy toward the ground to attack ALL enemies 3 time(s).\nIf the target is alone, DMG of all attacks increases by (45%).",
+   "type_description": "[Ultimate Skill]",
+   "type_description_readable": "[Ultimate Skill]",
+   "icon": "25913",
+   "cooldown": 5,
+   "hit_count": 3,
    "additional_hits": 0,
    "damage_scaling": "[ATK]",
    "skill_level_scaling": "[D:10]/[D:10]/[D:10]/[D:10]/[D:10]",
-   "multiplier": 769.1,
+   "multiplier": 152.8,
    "damage": {
     "scaling": [
      {
       "stat": "ATK",
-      "pct": 769.1
+      "pct": 152.8
      }
     ],
     "hits": [
      {
-      "pct": 769.1,
-      "count": 1,
-      "tar": ""
+      "pct": 152.8,
+      "count": 3,
+      "tar": "all enemies"
      }
     ],
-    "total": 769.1
+    "total": 458.4
    },
    "effects": [],
-   "battle_options": "2591201",
+   "battle_options": "2591301/2591302",
    "battle_option_ids": [
-    2591201
+    2591301,
+    2591302
    ],
-   "evolution_level_required": 0,
+   "evolution_level_required": 1,
    "trigger_keyword": "",
    "aura_info": "",
    "skill_button_type": 0,
+   "camera_type": 0,
+   "cutscene_flag": 2
+  },
+  {
+   "id": 26000,
+   "name": "[&Color_Orange][&CRI_RATE] Aura[-]",
+   "name_key": "Tbl_UnitSkill_Name_CRI_RATE",
+   "name_readable": "CRIT Rate Aura",
+   "description": "Increase {3} of {2} allies by {0} in {1}",
+   "description_key": "Tbl_UnitSkill_Desc_Aura",
+   "description_readable": "Increase CRIT Rate of All allies by 15% in Arena",
+   "type_description": "[Aura Skill]",
+   "type_description_readable": "[Aura Skill]",
+   "icon": "leader_crate",
+   "cooldown": 0,
+   "hit_count": 0,
+   "additional_hits": 0,
+   "damage_scaling": "",
+   "skill_level_scaling": "",
+   "multiplier": null,
+   "damage": null,
+   "effects": [],
+   "battle_options": "2600001",
+   "battle_option_ids": [
+    2600001
+   ],
+   "evolution_level_required": 3,
+   "trigger_keyword": "",
+   "aura_info": "15,QUEST_ARENA_ALL,AllUnit,CriRate",
+   "skill_button_type": -2,
    "camera_type": 0,
    "cutscene_flag": 0
   },
   {
    "id": 26001,
-   "name": "",
+   "name": "[&Color_Cyan]Jack-o'-Pierce[-]",
    "name_key": "Tbl_UnitSkill_Name_26001",
-   "name_readable": "",
-   "description": "",
+   "name_readable": "Jack-o'-Pierce",
+   "description": "Delivers a powerful thrust with swords to attack the enemy.\nTarget hit is inflicted with [&Color_Cyan]([V3:2600102]%)[-] [&Bleeding].\n[&Common_Word_Skill_ValueTurn]: [V2:2600102] turn(s)",
    "description_key": "Tbl_UnitSkill_Desc_26001",
-   "description_readable": "",
+   "description_readable": "Delivers a powerful thrust with swords to attack the enemy.\nTarget hit is inflicted with (10%) Bleed.\nDuration: 3 turn(s)",
    "type_description": "[Normal Attack]",
    "type_description_readable": "[Normal Attack]",
    "icon": "26001",
@@ -44923,7 +45155,7 @@
    "hit_count": 1,
    "additional_hits": 0,
    "damage_scaling": "[ATK]",
-   "skill_level_scaling": "[D:10]/[D:10]/[D:10]/[D:10]/[D:10]",
+   "skill_level_scaling": "[D:10]/[B:10]/[D:10]/[B:10]/[D:10]",
    "multiplier": 504.0,
    "damage": {
     "scaling": [
@@ -44956,36 +45188,36 @@
   },
   {
    "id": 26002,
-   "name": "",
+   "name": "[&Color_Cyan]Pumpkin Tornado[-]",
    "name_key": "Tbl_UnitSkill_Name_26002",
-   "name_readable": "",
-   "description": "",
+   "name_readable": "Pumpkin Tornado",
+   "description": "Spins rapidly to create a massive tornado, attacking the enemy [A:26002] time(s).\nWhen attacking, performs a [&Color_Cyan]([V3:2600202]%)[-] [&Bleeding] [&Common_Word_Skill_DotBuffBurst] attack at a [&Color_Cyan][R:2600202]%[-] chance.\nIf the target is afflicted with [&Bleeding], inflicts [&Color_Cyan]([V3:2600203]%)[-] [&Weaken] at a [&Color_Cyan][R:2600203]%[-] chance on the [&Common_Word_Skill_ActionLast].\n[&Common_Word_Skill_ValueTurn]: [V2:2600203] turn(s)",
    "description_key": "Tbl_UnitSkill_Desc_26002",
-   "description_readable": "",
+   "description_readable": "Spins rapidly to create a massive tornado, attacking the enemy 7 time(s).\nWhen attacking, performs a (30%) Bleed Debuff Resonance attack at a 35% chance.\nIf the target is afflicted with Bleed, inflicts (18%) Weaken at a 50% chance on the Last Attack.\nDuration: 2 turn(s)",
    "type_description": "[Attack Skill]",
    "type_description_readable": "[Attack Skill]",
    "icon": "26002",
-   "cooldown": 3,
-   "hit_count": 1,
+   "cooldown": 4,
+   "hit_count": 7,
    "additional_hits": 0,
    "damage_scaling": "[ATK]",
-   "skill_level_scaling": "[D:10]/[P:10]/[D:10]/[P:10]/[D:10]",
-   "multiplier": 354.8,
+   "skill_level_scaling": "[D:10]/[D:10]/[D:10]/[D:10]/[D:10]",
+   "multiplier": 56.0,
    "damage": {
     "scaling": [
      {
       "stat": "ATK",
-      "pct": 354.8
+      "pct": 56.0
      }
     ],
     "hits": [
      {
-      "pct": 354.8,
-      "count": 1,
+      "pct": 56.0,
+      "count": 7,
       "tar": "all enemies"
      }
     ],
-    "total": 354.8
+    "total": 392.0
    },
    "effects": [],
    "battle_options": "2600201/2600202/2600203",
@@ -45003,43 +45235,42 @@
   },
   {
    "id": 26003,
-   "name": "",
+   "name": "[&Color_Cyan]Trick or Pumpkin[-]",
    "name_key": "Tbl_UnitSkill_Name_26003",
-   "name_readable": "",
-   "description": "",
+   "name_readable": "Trick or Pumpkin",
+   "description": "Carves a massive pumpkin and detonates it to deal a powerful attack to a single enemy.\nIf the target is afflicted with [&Bleeding], performs a [&Color_Cyan]([V3:2600302]%)[-] [&Bleeding] [&Common_Word_Skill_DotBuffBurst] attack.",
    "description_key": "Tbl_UnitSkill_Desc_26003",
-   "description_readable": "",
+   "description_readable": "Carves a massive pumpkin and detonates it to deal a powerful attack to a single enemy.\nIf the target is afflicted with Bleed, performs a (150%) Bleed Debuff Resonance attack.",
    "type_description": "[Ultimate Skill]",
    "type_description_readable": "[Ultimate Skill]",
    "icon": "26003",
-   "cooldown": 5,
+   "cooldown": 6,
    "hit_count": 1,
    "additional_hits": 0,
    "damage_scaling": "[ATK]",
    "skill_level_scaling": "[D:10]/[D:10]/[D:10]/[D:10]/[D:10]",
-   "multiplier": 838.7,
+   "multiplier": 972.7,
    "damage": {
     "scaling": [
      {
       "stat": "ATK",
-      "pct": 838.7
+      "pct": 972.7
      }
     ],
     "hits": [
      {
-      "pct": 838.7,
+      "pct": 972.7,
       "count": 1,
       "tar": ""
      }
     ],
-    "total": 838.7
+    "total": 972.7
    },
    "effects": [],
-   "battle_options": "2600301/2600302/2600303",
+   "battle_options": "2600301/2600302",
    "battle_option_ids": [
     2600301,
-    2600302,
-    2600303
+    2600302
    ],
    "evolution_level_required": 1,
    "trigger_keyword": "",
@@ -45050,26 +45281,27 @@
   },
   {
    "id": 26004,
-   "name": "",
+   "name": "[&Color_Cyan]Halloween Knight[-]",
    "name_key": "Tbl_UnitSkill_Name_26004",
-   "name_readable": "",
-   "description": "",
+   "name_readable": "Halloween Knight",
+   "description": "When attacking an enemy afflicted with [&Bleeding], performs a [&Color_Cyan]([V3:2600401]%)[-] [&Common_Word_Skill_DmgDrainHp] attack.\nWhen [&Common_Word_Skill_CriticalAttack] lands on an enemy afflicted with [&Bleeding], inflicts [&Color_Cyan]([V3:2600402]%)[-] [&Bleeding] on 1 [&Common_Word_Skill_Random] enemy at a [&Color_Cyan][R:2600402]%[-] chance. \n[&Common_Word_Skill_ValueTurn]: [V2:2600402] turn(s)",
    "description_key": "Tbl_UnitSkill_Desc_26004",
-   "description_readable": "",
+   "description_readable": "When attacking an enemy afflicted with Bleed, performs a (15%) Life Steal attack.\nWhen CRIT ATK lands on an enemy afflicted with Bleed, inflicts (10%) Bleed on 1 Random enemy at a 20% chance. \nDuration: 3 turn(s)",
    "type_description": "[Passive Skill]",
    "type_description_readable": "[Passive Skill]",
    "icon": "26004",
-   "cooldown": 3,
+   "cooldown": 0,
    "hit_count": 0,
    "additional_hits": 0,
    "damage_scaling": "",
-   "skill_level_scaling": "",
+   "skill_level_scaling": "[B:10]/[B:10]/[B:10]/[B:10]/[B:10]",
    "multiplier": null,
    "damage": null,
    "effects": [],
-   "battle_options": "2600401",
+   "battle_options": "2600401/2600402",
    "battle_option_ids": [
-    2600401
+    2600401,
+    2600402
    ],
    "evolution_level_required": 2,
    "trigger_keyword": "",
@@ -45079,33 +45311,141 @@
    "cutscene_flag": 0
   },
   {
-   "id": 26101,
-   "name": "",
-   "name_key": "Tbl_UnitSkill_Name_26101",
-   "name_readable": "",
-   "description": "",
-   "description_key": "Tbl_UnitSkill_Desc_26101",
-   "description_readable": "",
-   "type_description": "[Normal Attack]",
-   "type_description_readable": "[Normal Attack]",
-   "icon": "26101",
-   "cooldown": 0,
-   "hit_count": 1,
+   "id": 26012,
+   "name": "<[&Tbl_UnitWeapon_Name_26001]> [&Tbl_UnitSkill_Name_26002]",
+   "name_key": "Tbl_UnitSkill_Name_26012",
+   "name_readable": "<Jelly Paw Saber> Pumpkin Tornado",
+   "description": "Spins rapidly to create a massive tornado, attacking the enemy [A:26012] time(s).\nWhen attacking, performs a [&Color_Cyan]([V3:2601202]%)[-] [&Bleeding] [&Common_Word_Skill_DotBuffBurst] attack, which deals damage equal to 1 [&Bleeding] damage, at a [&Color_Cyan][R:2601202]%[-] chance.\nPerforms a [&Color_Cyan]([V3:2601203]%)[-] [&Bleeding] [&Common_Word_Skill_DotBuffBurst] attack on the [&Common_Word_Skill_ActionLast].",
+   "description_key": "Tbl_UnitSkill_Desc_26012",
+   "description_readable": "Spins rapidly to create a massive tornado, attacking the enemy 7 time(s).\nWhen attacking, performs a (36%) Bleed Debuff Resonance attack, which deals damage equal to 1 Bleed damage, at a 35% chance.\nPerforms a (36%) Bleed Debuff Resonance attack on the Last Attack.",
+   "type_description": "[Attack Skill]",
+   "type_description_readable": "[Attack Skill]",
+   "icon": "26012",
+   "cooldown": 4,
+   "hit_count": 7,
    "additional_hits": 0,
    "damage_scaling": "[ATK]",
    "skill_level_scaling": "[D:10]/[D:10]/[D:10]/[D:10]/[D:10]",
-   "multiplier": 504.0,
+   "multiplier": 56.0,
    "damage": {
     "scaling": [
      {
       "stat": "ATK",
-      "pct": 504.0
+      "pct": 56.0
      }
     ],
     "hits": [
      {
-      "pct": 504.0,
-      "count": 1,
+      "pct": 56.0,
+      "count": 7,
+      "tar": "all enemies"
+     }
+    ],
+    "total": 392.0
+   },
+   "effects": [],
+   "battle_options": "2601201/2601202/2601203",
+   "battle_option_ids": [
+    2601201,
+    2601202,
+    2601203
+   ],
+   "evolution_level_required": 0,
+   "trigger_keyword": "",
+   "aura_info": "",
+   "skill_button_type": 0,
+   "camera_type": 0,
+   "cutscene_flag": 0
+  },
+  {
+   "id": 26014,
+   "name": "<[&Tbl_UnitWeapon_Name_26002]> [&Tbl_UnitSkill_Name_26004]",
+   "name_key": "Tbl_UnitSkill_Name_26014",
+   "name_readable": "<Pumpkin Trick Cutlass> Halloween Knight",
+   "description": "When attacking an enemy afflicted with [&Bleeding], [&Common_Word_Skill_Damage] increases by [&Color_Cyan]([V3:2601401]%)[-].\nWhen [&Common_Word_Skill_CriticalAttack] lands on an enemy afflicted with [&Bleeding], inflicts [&Color_Cyan]([V3:2601402]%)[-] [&Bleeding] on 1 [&Common_Word_Skill_Random] enemy at a [&Color_Cyan][R:2601402]%[-] chance.\n[&Common_Word_Skill_ValueTurn]: [V2:2601402] turn(s)",
+   "description_key": "Tbl_UnitSkill_Desc_26014",
+   "description_readable": "When attacking an enemy afflicted with Bleed, DMG increases by (7.5%).\nWhen CRIT ATK lands on an enemy afflicted with Bleed, inflicts (10%) Bleed on 1 Random enemy at a 20% chance.\nDuration: 3 turn(s)",
+   "type_description": "[Passive Skill]",
+   "type_description_readable": "[Passive Skill]",
+   "icon": "26014",
+   "cooldown": 0,
+   "hit_count": 0,
+   "additional_hits": 0,
+   "damage_scaling": "",
+   "skill_level_scaling": "[B:10]/[B:10]/[B:10]/[B:10]/[B:10]",
+   "multiplier": null,
+   "damage": null,
+   "effects": [],
+   "battle_options": "2601401/2601402",
+   "battle_option_ids": [
+    2601401,
+    2601402
+   ],
+   "evolution_level_required": 2,
+   "trigger_keyword": "",
+   "aura_info": "",
+   "skill_button_type": -1,
+   "camera_type": 0,
+   "cutscene_flag": 0
+  },
+  {
+   "id": 26100,
+   "name": "[&Color_Orange][&CRI_DMG] Aura[-]",
+   "name_key": "Tbl_UnitSkill_Name_CRI_DMG",
+   "name_readable": "CRIT DMG Aura",
+   "description": "Increase {3} of {2} allies by {0} in {1}",
+   "description_key": "Tbl_UnitSkill_Desc_Aura",
+   "description_readable": "Increase CRIT DMG of Technique allies by 17.5% in All Battles",
+   "type_description": "[Aura Skill]",
+   "type_description_readable": "[Aura Skill]",
+   "icon": "leader_cdmg",
+   "cooldown": 0,
+   "hit_count": 0,
+   "additional_hits": 0,
+   "damage_scaling": "",
+   "skill_level_scaling": "",
+   "multiplier": null,
+   "damage": null,
+   "effects": [],
+   "battle_options": "2610001",
+   "battle_option_ids": [
+    2610001
+   ],
+   "evolution_level_required": 3,
+   "trigger_keyword": "",
+   "aura_info": "17.5,QUEST_ALL,Technique,CriDmg",
+   "skill_button_type": -2,
+   "camera_type": 0,
+   "cutscene_flag": 0
+  },
+  {
+   "id": 26101,
+   "name": "[&Color_Cyan]Frost Jack Spin[-]",
+   "name_key": "Tbl_UnitSkill_Name_26101",
+   "name_readable": "Frost Jack Spin",
+   "description": "Elegantly flies toward the enemy and slashes them with wings [A:26101] time(s).\nTarget hit is inflicted with [&Color_Cyan]([V3:2610102]%)[-] [&Frostbite] at a [&Color_Cyan][R:2610102]%[-] chance.\n[&Common_Word_Skill_ValueTurn]: [V2:2610102] turn(s)",
+   "description_key": "Tbl_UnitSkill_Desc_26101",
+   "description_readable": "Elegantly flies toward the enemy and slashes them with wings 2 time(s).\nTarget hit is inflicted with (25%) Frostbite at a 15% chance.\nDuration: 2 turn(s)",
+   "type_description": "[Normal Attack]",
+   "type_description_readable": "[Normal Attack]",
+   "icon": "26101",
+   "cooldown": 0,
+   "hit_count": 2,
+   "additional_hits": 0,
+   "damage_scaling": "[ATK]",
+   "skill_level_scaling": "[B:10]/[P:10]/[B:10]/[P:10]/[B:10]",
+   "multiplier": 252.0,
+   "damage": {
+    "scaling": [
+     {
+      "stat": "ATK",
+      "pct": 252.0
+     }
+    ],
+    "hits": [
+     {
+      "pct": 252.0,
+      "count": 2,
       "tar": ""
      }
     ],
@@ -45126,12 +45466,12 @@
   },
   {
    "id": 26102,
-   "name": "",
+   "name": "[&Color_Cyan]Ice Pumpkin[-]",
    "name_key": "Tbl_UnitSkill_Name_26102",
-   "name_readable": "",
-   "description": "",
+   "name_readable": "Ice Pumpkin",
+   "description": "Rolls an ice pumpkin head at the enemy.\nIf the target is afflicted with [&Frostbite], inflicts [&Color_Cyan]([V3:2610201]%)[-] [&Weaken] [&Common_Word_Skill_ActionBefore].\n[&Common_Word_Skill_ValueTurn]: [V2:2610201] turn(s)\nInflicts [&Color_Cyan]([V3:2610203]%)[-] [&Freeze] at a [&Color_Cyan][R:2610203]%[-] chance on the [&Common_Word_Skill_ActionLast].\n[&Common_Word_Skill_ValueTurn]: [V2:2610203] turn(s)",
    "description_key": "Tbl_UnitSkill_Desc_26102",
-   "description_readable": "",
+   "description_readable": "Rolls an ice pumpkin head at the enemy.\nIf the target is afflicted with Frostbite, inflicts (31.5%) Weaken before the attack.\nDuration: 2 turn(s)\nInflicts (25%) Freeze at a 35% chance on the Last Attack.\nDuration: 2 turn(s)",
    "type_description": "[Attack Skill]",
    "type_description_readable": "[Attack Skill]",
    "icon": "26102",
@@ -45139,7 +45479,7 @@
    "hit_count": 1,
    "additional_hits": 0,
    "damage_scaling": "[ATK]",
-   "skill_level_scaling": "[D:10]/[D:10]/[D:10]/[D:10]/[D:10]",
+   "skill_level_scaling": "[B:10]/[P:10]/[B:10]/[P:10]/[B:10]",
    "multiplier": 692.2,
    "damage": {
     "scaling": [
@@ -45173,12 +45513,12 @@
   },
   {
    "id": 26103,
-   "name": "",
+   "name": "[&Color_Cyan]Frost Jack Nova[-]",
    "name_key": "Tbl_UnitSkill_Name_26103",
-   "name_readable": "",
-   "description": "",
+   "name_readable": "Frost Jack Nova",
+   "description": "Launches a massive ice pumpkin to attack [&Common_Word_Skill_EnemyAll].\nThe following effects apply depending on the number of enemies afflicted with [&Freeze].\n1 or more: Inflicts [&Color_Cyan]([V3:2610302]%)[-] [&SpdDown] to [&Common_Word_Skill_EnemyAll] at a [&Color_Cyan][R:2610302]%[-] chance.\n2 or more: Grants [&Color_Cyan]([V3:2610304]%)[-] [&AtkUp] to [&Common_Word_Skill_AllyAll].\n3 or more: [&Common_Word_Skill_AllyAll] recover by [&Color_Cyan][V3:2610307]%[-] of the character's Max. [&HP].\n[&Common_Word_Skill_ValueTurn]: [V2:2610302] turn(s)",
    "description_key": "Tbl_UnitSkill_Desc_26103",
-   "description_readable": "",
+   "description_readable": "Launches a massive ice pumpkin to attack ALL enemies.\nThe following effects apply depending on the number of enemies afflicted with Freeze.\n1 or more: Inflicts (-28.5%) SPD DOWN to ALL enemies at a 99% chance.\n2 or more: Grants (45%) ATK UP to ALL allies.\n3 or more: ALL allies recover by 31.5% of the character's Max. HP.\nDuration: 2 turn(s)",
    "type_description": "[Ultimate Skill]",
    "type_description_readable": "[Ultimate Skill]",
    "icon": "26103",
@@ -45186,30 +45526,34 @@
    "hit_count": 1,
    "additional_hits": 0,
    "damage_scaling": "[ATK]",
-   "skill_level_scaling": "[D:10]/[P:10]/[D:10]/[P:10]/[D:10]",
-   "multiplier": 429.8,
+   "skill_level_scaling": "[B:10]/[D:10]/[B:10]/[D:10]/[B:10]",
+   "multiplier": 409.8,
    "damage": {
     "scaling": [
      {
       "stat": "ATK",
-      "pct": 429.8
+      "pct": 409.8
      }
     ],
     "hits": [
      {
-      "pct": 429.8,
+      "pct": 409.8,
       "count": 1,
       "tar": "all enemies"
      }
     ],
-    "total": 429.8
+    "total": 409.8
    },
    "effects": [],
-   "battle_options": "2610301/2610302/2610303",
+   "battle_options": "2610301/2610302/2610303/2610304/2610305/2610306/2610307",
    "battle_option_ids": [
     2610301,
     2610302,
-    2610303
+    2610303,
+    2610304,
+    2610305,
+    2610306,
+    2610307
    ],
    "evolution_level_required": 1,
    "trigger_keyword": "",
@@ -45220,15 +45564,125 @@
   },
   {
    "id": 26104,
-   "name": "",
+   "name": "[&Color_Cyan]Halloween Vampire[-]",
    "name_key": "Tbl_UnitSkill_Name_26104",
-   "name_readable": "",
-   "description": "",
+   "name_readable": "Halloween Vampire",
+   "description": "At the end of the character's turn, if there is an enemy with [&Frostbite], inflicts [&Color_Cyan]([V3:2610402]%)[-] [&Frostbite] on enemies with no [&Frostbite] at a [&Color_Cyan][R:2610402]%[-] chance.\n[&Common_Word_Skill_ValueTurn]: [V2:2610402] turn(s)\nWhen attacking an enemy afflicted with [&Frostbite], performs a [&Color_Cyan]([V3:2610401]%)[-] [&Common_Word_Skill_DmgDrainHp] attack.",
    "description_key": "Tbl_UnitSkill_Desc_26104",
-   "description_readable": "",
+   "description_readable": "At the end of the character's turn, if there is an enemy with Frostbite, inflicts (25%) Frostbite on enemies with no Frostbite at a 35% chance.\nDuration: 2 turn(s)\nWhen attacking an enemy afflicted with Frostbite, performs a (15%) Life Steal attack.",
    "type_description": "[Passive Skill]",
    "type_description_readable": "[Passive Skill]",
    "icon": "26104",
+   "cooldown": 3,
+   "hit_count": 0,
+   "additional_hits": 0,
+   "damage_scaling": "",
+   "skill_level_scaling": "[B:10]/[P:10]/[B:10]/[P:10]/[B:10]",
+   "multiplier": null,
+   "damage": null,
+   "effects": [],
+   "battle_options": "2610401/2610402",
+   "battle_option_ids": [
+    2610401,
+    2610402
+   ],
+   "evolution_level_required": 2,
+   "trigger_keyword": "",
+   "aura_info": "",
+   "skill_button_type": -1,
+   "camera_type": 0,
+   "cutscene_flag": 0
+  },
+  {
+   "id": 26112,
+   "name": "<[&Tbl_UnitWeapon_Name_26101]> [&Tbl_UnitSkill_Name_26102]",
+   "name_key": "Tbl_UnitSkill_Name_26112",
+   "name_readable": "<Crystal Specter> Ice Pumpkin",
+   "description": "Rolls an ice pumpkin head at the enemy.\nIf the target is afflicted with [&Frostbite], increases the duration of [&Frostbite] by [V2:2611201] turn(s) [&Common_Word_Skill_ActionBefore].\nInflicts [&Color_Cyan]([V3:2611203]%)[-] [&Freeze] at a [&Color_Cyan][R:2611203]%[-] chance on the [&Common_Word_Skill_ActionLast].\n[&Common_Word_Skill_ValueTurn]: [V2:2611203] turn(s)",
+   "description_key": "Tbl_UnitSkill_Desc_26112",
+   "description_readable": "Rolls an ice pumpkin head at the enemy.\nIf the target is afflicted with Frostbite, increases the duration of Frostbite by 1 turn(s) before the attack.\nInflicts (25%) Freeze at a 35% chance on the Last Attack.\nDuration: 2 turn(s)",
+   "type_description": "[Attack Skill]",
+   "type_description_readable": "[Attack Skill]",
+   "icon": "26112",
+   "cooldown": 3,
+   "hit_count": 1,
+   "additional_hits": 0,
+   "damage_scaling": "[ATK]",
+   "skill_level_scaling": "[B:10]/[P:10]/[B:10]/[P:10]/[B:10]",
+   "multiplier": 692.2,
+   "damage": {
+    "scaling": [
+     {
+      "stat": "ATK",
+      "pct": 692.2
+     }
+    ],
+    "hits": [
+     {
+      "pct": 692.2,
+      "count": 1,
+      "tar": ""
+     }
+    ],
+    "total": 692.2
+   },
+   "effects": [],
+   "battle_options": "2611201/2611202/2611203",
+   "battle_option_ids": [
+    2611201,
+    2611202,
+    2611203
+   ],
+   "evolution_level_required": 0,
+   "trigger_keyword": "",
+   "aura_info": "",
+   "skill_button_type": 0,
+   "camera_type": 0,
+   "cutscene_flag": 0
+  },
+  {
+   "id": 26114,
+   "name": "<[&Tbl_UnitWeapon_Name_26102]> [&Tbl_UnitSkill_Name_26104]",
+   "name_key": "Tbl_UnitSkill_Name_26114",
+   "name_readable": "<Spectral Flame> Halloween Vampire",
+   "description": "At the end of the character's turn, if there is an enemy with [&Frostbite], grants [&Color_Cyan]([V3:2611402]%)[-] [&CriRateUp] to [&Common_Word_Skill_AllyAll]\nand removes 1 [&Common_Word_Skill_Random] [&DeBuff].\n[&Common_Word_Skill_ValueTurn]: [V2:2610402] turn(s)\nWhen attacking an enemy afflicted with [&Frostbite], performs a [&Color_Cyan]([V3:2610401]%)[-] [&Common_Word_Skill_DmgDrainHp] attack.",
+   "description_key": "Tbl_UnitSkill_Desc_26114",
+   "description_readable": "At the end of the character's turn, if there is an enemy with Frostbite, grants (35%) CRIT Rate UP to ALL allies\nand removes 1 Random Debuff.\nDuration: 2 turn(s)\nWhen attacking an enemy afflicted with Frostbite, performs a (15%) Life Steal attack.",
+   "type_description": "[Passive Skill]",
+   "type_description_readable": "[Passive Skill]",
+   "icon": "26114",
+   "cooldown": 3,
+   "hit_count": 0,
+   "additional_hits": 0,
+   "damage_scaling": "",
+   "skill_level_scaling": "[B:10]/[B:10]/[B:10]/[B:10]/[B:10]",
+   "multiplier": null,
+   "damage": null,
+   "effects": [],
+   "battle_options": "2611401/2611402/2611403",
+   "battle_option_ids": [
+    2611401,
+    2611402,
+    2611403
+   ],
+   "evolution_level_required": 2,
+   "trigger_keyword": "",
+   "aura_info": "",
+   "skill_button_type": -1,
+   "camera_type": 0,
+   "cutscene_flag": 0
+  },
+  {
+   "id": 26200,
+   "name": "[&Color_Orange][&CRI_RES] Aura[-]",
+   "name_key": "Tbl_UnitSkill_Name_CRI_RES",
+   "name_readable": "CRIT RES Aura",
+   "description": "Increase {3} of {2} allies by {0} in {1}",
+   "description_key": "Tbl_UnitSkill_Desc_Aura",
+   "description_readable": "Increase CRIT RES of All allies by 15% in Arena",
+   "type_description": "[Aura Skill]",
+   "type_description_readable": "[Aura Skill]",
+   "icon": "leader_cres",
    "cooldown": 0,
    "hit_count": 0,
    "additional_hits": 0,
@@ -45237,14 +45691,14 @@
    "multiplier": null,
    "damage": null,
    "effects": [],
-   "battle_options": "2610401",
+   "battle_options": "2620001",
    "battle_option_ids": [
-    2610401
+    2620001
    ],
-   "evolution_level_required": 2,
+   "evolution_level_required": 3,
    "trigger_keyword": "",
-   "aura_info": "",
-   "skill_button_type": -1,
+   "aura_info": "15,QUEST_ARENA_ALL,AllUnit,CriRes",
+   "skill_button_type": -2,
    "camera_type": 0,
    "cutscene_flag": 0
   },
@@ -45263,7 +45717,7 @@
    "hit_count": 1,
    "additional_hits": 0,
    "damage_scaling": "[ATK]",
-   "skill_level_scaling": "[D:10]/[D:10]/[D:10]/[D:10]/[D:10]",
+   "skill_level_scaling": "[B:10]/[D:10]/[B:10]/[B:10]/[B:10]",
    "multiplier": 504.0,
    "damage": {
     "scaling": [
@@ -45309,7 +45763,7 @@
    "hit_count": 1,
    "additional_hits": 0,
    "damage_scaling": "[ATK]",
-   "skill_level_scaling": "[D:10]/[D:10]/[D:10]/[D:10]/[D:10]",
+   "skill_level_scaling": "[B:10]/[P:10]/[B:10]/[P:10]/[B:10]",
    "multiplier": 692.2,
    "damage": {
     "scaling": [
@@ -45400,6 +45854,36 @@
    "trigger_keyword": "",
    "aura_info": "",
    "skill_button_type": -1,
+   "camera_type": 0,
+   "cutscene_flag": 0
+  },
+  {
+   "id": 26300,
+   "name": "[&Color_Orange][&CRI_RATE] Aura[-]",
+   "name_key": "Tbl_UnitSkill_Name_CRI_RATE",
+   "name_readable": "CRIT Rate Aura",
+   "description": "Increase {3} of {2} allies by {0} in {1}",
+   "description_key": "Tbl_UnitSkill_Desc_Aura",
+   "description_readable": "Increase CRIT Rate of Agility allies by 10% in All Battles",
+   "type_description": "[Aura Skill]",
+   "type_description_readable": "[Aura Skill]",
+   "icon": "leader_crate",
+   "cooldown": 0,
+   "hit_count": 0,
+   "additional_hits": 0,
+   "damage_scaling": "",
+   "skill_level_scaling": "",
+   "multiplier": null,
+   "damage": null,
+   "effects": [],
+   "battle_options": "2630001",
+   "battle_option_ids": [
+    2630001
+   ],
+   "evolution_level_required": 3,
+   "trigger_keyword": "",
+   "aura_info": "10,QUEST_ALL,Agility,CriRate",
+   "skill_button_type": -2,
    "camera_type": 0,
    "cutscene_flag": 0
   },
@@ -45577,6 +46061,112 @@
    "cutscene_flag": 0
   },
   {
+   "id": 26312,
+   "name": "",
+   "name_key": "Tbl_UnitSkill_Name_26312",
+   "name_readable": "",
+   "description": "",
+   "description_key": "Tbl_UnitSkill_Desc_26312",
+   "description_readable": "",
+   "type_description": "[Attack Skill]",
+   "type_description_readable": "[Attack Skill]",
+   "icon": "26312",
+   "cooldown": 3,
+   "hit_count": 1,
+   "additional_hits": 0,
+   "damage_scaling": "[ATK]",
+   "skill_level_scaling": "[D:10]/[P:10]/[D:10]/[P:10]/[D:10]",
+   "multiplier": 738.4,
+   "damage": {
+    "scaling": [
+     {
+      "stat": "ATK",
+      "pct": 738.4
+     }
+    ],
+    "hits": [
+     {
+      "pct": 738.4,
+      "count": 1,
+      "tar": ""
+     }
+    ],
+    "total": 738.4
+   },
+   "effects": [],
+   "battle_options": "2631201/2631202",
+   "battle_option_ids": [
+    2631201,
+    2631202
+   ],
+   "evolution_level_required": 0,
+   "trigger_keyword": "",
+   "aura_info": "",
+   "skill_button_type": 0,
+   "camera_type": 0,
+   "cutscene_flag": 0
+  },
+  {
+   "id": 26314,
+   "name": "",
+   "name_key": "Tbl_UnitSkill_Name_26314",
+   "name_readable": "",
+   "description": "",
+   "description_key": "Tbl_UnitSkill_Desc_26314",
+   "description_readable": "",
+   "type_description": "[Passive Skill]",
+   "type_description_readable": "[Passive Skill]",
+   "icon": "26314",
+   "cooldown": 3,
+   "hit_count": 0,
+   "additional_hits": 0,
+   "damage_scaling": "",
+   "skill_level_scaling": "[P:10]/[P:10]/[P:10]/[P:10]/[P:10]",
+   "multiplier": null,
+   "damage": null,
+   "effects": [],
+   "battle_options": "2631401",
+   "battle_option_ids": [
+    2631401
+   ],
+   "evolution_level_required": 2,
+   "trigger_keyword": "",
+   "aura_info": "",
+   "skill_button_type": -1,
+   "camera_type": 0,
+   "cutscene_flag": 0
+  },
+  {
+   "id": 26400,
+   "name": "[&Color_Orange][&DEF] Aura[-]",
+   "name_key": "Tbl_UnitSkill_Name_DEF",
+   "name_readable": "DEF Aura",
+   "description": "Increase {3} of {2} allies by {0} in {1}",
+   "description_key": "Tbl_UnitSkill_Desc_Aura",
+   "description_readable": "Increase DEF of Agility allies by 15% in All Battles",
+   "type_description": "[Aura Skill]",
+   "type_description_readable": "[Aura Skill]",
+   "icon": "leader_def",
+   "cooldown": 0,
+   "hit_count": 0,
+   "additional_hits": 0,
+   "damage_scaling": "",
+   "skill_level_scaling": "",
+   "multiplier": null,
+   "damage": null,
+   "effects": [],
+   "battle_options": "2640001",
+   "battle_option_ids": [
+    2640001
+   ],
+   "evolution_level_required": 3,
+   "trigger_keyword": "",
+   "aura_info": "15,QUEST_ALL,Agility,DefRate",
+   "skill_button_type": -2,
+   "camera_type": 0,
+   "cutscene_flag": 0
+  },
+  {
    "id": 26401,
    "name": "",
    "name_key": "Tbl_UnitSkill_Name_26401",
@@ -45634,26 +46224,26 @@
    "type_description_readable": "[Attack Skill]",
    "icon": "26402",
    "cooldown": 3,
-   "hit_count": 1,
+   "hit_count": 4,
    "additional_hits": 0,
    "damage_scaling": "[ATK]",
    "skill_level_scaling": "[D:10]/[P:10]/[D:10]/[P:10]/[D:10]",
-   "multiplier": 692.2,
+   "multiplier": 173.1,
    "damage": {
     "scaling": [
      {
       "stat": "ATK",
-      "pct": 692.2
+      "pct": 173.1
      }
     ],
     "hits": [
      {
-      "pct": 692.2,
-      "count": 1,
+      "pct": 173.1,
+      "count": 4,
       "tar": ""
      }
     ],
-    "total": 692.2
+    "total": 692.4
    },
    "effects": [],
    "battle_options": "2640201/2640202/2640203",
@@ -45739,10 +46329,9 @@
    "multiplier": null,
    "damage": null,
    "effects": [],
-   "battle_options": "2640401/2640402",
+   "battle_options": "2640401",
    "battle_option_ids": [
-    2640401,
-    2640402
+    2640401
    ],
    "evolution_level_required": 2,
    "trigger_keyword": "",
@@ -46324,6 +46913,36 @@
    "trigger_keyword": "",
    "aura_info": "",
    "skill_button_type": -1,
+   "camera_type": 0,
+   "cutscene_flag": 0
+  },
+  {
+   "id": 26800,
+   "name": "[&Color_Orange][&CRI_DMG] Aura[-]",
+   "name_key": "Tbl_UnitSkill_Name_CRI_DMG",
+   "name_readable": "CRIT DMG Aura",
+   "description": "Increase {3} of {2} allies by {0} in {1}",
+   "description_key": "Tbl_UnitSkill_Desc_Aura",
+   "description_readable": "Increase CRIT DMG of Balanced allies by 17.5% in All Battles",
+   "type_description": "[Aura Skill]",
+   "type_description_readable": "[Aura Skill]",
+   "icon": "leader_cdmg",
+   "cooldown": 0,
+   "hit_count": 0,
+   "additional_hits": 0,
+   "damage_scaling": "",
+   "skill_level_scaling": "",
+   "multiplier": null,
+   "damage": null,
+   "effects": [],
+   "battle_options": "2680001",
+   "battle_option_ids": [
+    2680001
+   ],
+   "evolution_level_required": 3,
+   "trigger_keyword": "",
+   "aura_info": "17.5,QUEST_ALL,Balance,CriDmg",
+   "skill_button_type": -2,
    "camera_type": 0,
    "cutscene_flag": 0
   },
@@ -48097,41 +48716,67 @@
    "cutscene_flag": 0
   },
   {
+   "id": 27500,
+   "name": "[&Color_Orange][&EVD] Aura[-]",
+   "name_key": "Tbl_UnitSkill_Name_EVD",
+   "name_readable": "EVD Aura",
+   "description": "Increase {3} of {2} allies by {0} in {1}",
+   "description_key": "Tbl_UnitSkill_Desc_Aura",
+   "description_readable": "Increase EVD of All allies by 5% in All Battles",
+   "type_description": "[Aura Skill]",
+   "type_description_readable": "[Aura Skill]",
+   "icon": "leader_evd",
+   "cooldown": 0,
+   "hit_count": 0,
+   "additional_hits": 0,
+   "damage_scaling": "",
+   "skill_level_scaling": "",
+   "multiplier": null,
+   "damage": null,
+   "effects": [],
+   "battle_options": "2750001",
+   "battle_option_ids": [
+    2750001
+   ],
+   "evolution_level_required": 3,
+   "trigger_keyword": "",
+   "aura_info": "5,QUEST_ALL,AllUnit,Evd",
+   "skill_button_type": -2,
+   "camera_type": 0,
+   "cutscene_flag": 0
+  },
+  {
    "id": 27501,
    "name": "[&Color_Cyan]Slay[-]",
    "name_key": "Tbl_UnitSkill_Name_27501",
    "name_readable": "Slay",
-   "description": "Swings a sword vertically to attack the enemy a total of [A:27501] time(s).\n[&Common_Word_Skill_Damage] increases in proportion to the character's DEF.\nPerforms a [&Color_Cyan]([V3:2750102]%)[-] [&Common_Word_Skill_DmgDrainHp] attack in proportion to lost HP.",
+   "description": "Swings a sword vertically to attack the enemy a total of [A:27501] time(s).\n[&Common_Word_Skill_DMGDEF]\nPerforms a [&Color_Cyan]([V3:2750102]%)[-] [&Common_Word_Skill_DmgDrainHp] attack in proportion to lost HP.",
    "description_key": "Tbl_UnitSkill_Desc_27501",
-   "description_readable": "Swings a sword vertically to attack the enemy a total of 3 time(s).\nDMG increases in proportion to the character's DEF.\nPerforms a (12%) Life Steal attack in proportion to lost HP.",
+   "description_readable": "Swings a sword vertically to attack the enemy a total of 3 time(s).\nDeals damage proportional to the character's DEF.\nPerforms a (12%) Life Steal attack in proportion to lost HP.",
    "type_description": "[Normal Attack]",
    "type_description_readable": "[Normal Attack]",
    "icon": "27501",
    "cooldown": 0,
    "hit_count": 3,
    "additional_hits": 0,
-   "damage_scaling": "[DEF]/[ATK]",
-   "skill_level_scaling": "[D:10]/[P:10]/[D:10]/[P:10]/[D:10]",
-   "multiplier": 126.0,
+   "damage_scaling": "[DEF]",
+   "skill_level_scaling": "[D:10]/[D:10]/[D:10]/[D:10]/[D:10]",
+   "multiplier": 168.0,
    "damage": {
     "scaling": [
      {
       "stat": "DEF",
-      "pct": 126.0
-     },
-     {
-      "stat": "ATK",
-      "pct": 84
+      "pct": 168.0
      }
     ],
     "hits": [
      {
-      "pct": 126.0,
+      "pct": 168.0,
       "count": 3,
       "tar": ""
      }
     ],
-    "total": null
+    "total": 504.0
    },
    "effects": [],
    "battle_options": "2750101/2750102",
@@ -48151,9 +48796,9 @@
    "name": "[&Color_Cyan]Calamity[-]",
    "name_key": "Tbl_UnitSkill_Name_27502",
    "name_readable": "Calamity",
-   "description": "Spins the whole body to attack [&Common_Word_Skill_EnemyAll] [A:27502] time(s).\n[&Common_Word_Skill_Damage] increases in proportion to the character's DEF.\nWhen attacking, consumes [&Color_Cyan][V3:2750201]%[-] of the character's current [&HP] to activate the effects listed below.\nTarget hit is inflicted with [&Color_Cyan]([V3:2750203]%)[-] [&AtkDown] at a [&Color_Cyan][R:2750203]%[-] chance.\n[&Common_Word_Skill_ValueTurn]: [V2:2750203] turn(s)\nGrants [&Shield] equal to [&Color_Cyan][V3:2750204]%[-] of the character's Max. [&HP] to [&Common_Word_Skill_AllyAll] [&Common_Word_Skill_ActionAfter].\n[&Common_Word_Skill_ValueTurn]: [V2:2750204] turn(s)",
+   "description": "Spins the whole body to attack [&Common_Word_Skill_EnemyAll] [A:27502] time(s).\n[&Common_Word_Skill_DMGDEF]\nWhen attacking, consumes [&Color_Cyan][V3:2750201]%[-] of the character's current [&HP] to activate the effects listed below.\nTargets hit are inflicted with [&Color_Cyan]([V3:2750203]%)[-] [&AtkDown] at a [&Color_Cyan][R:2750203]%[-] chance.\n[&Common_Word_Skill_ValueTurn]: [V2:2750203] turn(s)\nGrants [&Shield] equal to [&Color_Cyan][V3:2750204]%[-] of the character's Max. [&HP] to [&Common_Word_Skill_AllyAll] [&Common_Word_Skill_ActionAfter].\n[&Common_Word_Skill_ValueTurn]: [V2:2750204] turn(s)",
    "description_key": "Tbl_UnitSkill_Desc_27502",
-   "description_readable": "Spins the whole body to attack ALL enemies 1 time(s).\nDMG increases in proportion to the character's DEF.\nWhen attacking, consumes -10% of the character's current HP to activate the effects listed below.\nTarget hit is inflicted with (-30%) ATK DOWN at a 99% chance.\nDuration: 2 turn(s)\nGrants Shield equal to 7% of the character's Max. HP to ALL allies after the attack.\nDuration: 2 turn(s)",
+   "description_readable": "Spins the whole body to attack ALL enemies 1 time(s).\nDeals damage proportional to the character's DEF.\nWhen attacking, consumes -10% of the character's current HP to activate the effects listed below.\nTargets hit are inflicted with (-30%) ATK DOWN at a 99% chance.\nDuration: 2 turn(s)\nGrants Shield equal to 7% of the character's Max. HP to ALL allies after the attack.\nDuration: 2 turn(s)",
    "type_description": "[Attack Skill]",
    "type_description_readable": "[Attack Skill]",
    "icon": "27502",
@@ -48199,9 +48844,9 @@
    "name": "[&Color_Cyan]Ruthless[-]",
    "name_key": "Tbl_UnitSkill_Name_27503",
    "name_readable": "Ruthless",
-   "description": "Swings the sword upward from below to attack the enemy.\n[&Common_Word_Skill_ATKCOSTHP]\nPerforms a [&Color_Cyan]([V3:2750302]%)[-] [&Common_Word_Skill_DmgDrainHp] attack in proportion to lost [&HP].",
+   "description": "Swings the sword upward from below to attack the enemy.\n[&Common_Word_Skill_DMGDEF]\n[&Common_Word_Skill_ATKCOSTHP]\nPerforms a [&Color_Cyan]([V3:2750302]%)[-] [&Common_Word_Skill_DmgDrainHp] attack in proportion to lost [&HP].",
    "description_key": "Tbl_UnitSkill_Desc_27503",
-   "description_readable": "Swings the sword upward from below to attack the enemy.\nDamage increases in proportion to HP lost.\nPerforms a (18%) Life Steal attack in proportion to lost HP.",
+   "description_readable": "Swings the sword upward from below to attack the enemy.\nDeals damage proportional to the character's DEF.\nDamage increases in proportion to HP lost.\nPerforms a (18%) Life Steal attack in proportion to lost HP.",
    "type_description": "[Ultimate Skill]",
    "type_description_readable": "[Ultimate Skill]",
    "icon": "27503",
@@ -48249,13 +48894,13 @@
    "name": "[&Color_Cyan]Oni[-]",
    "name_key": "Tbl_UnitSkill_Name_27504",
    "name_readable": "Oni",
-   "description": "At the end of each side's turn, grants [&Color_Cyan]([V3:2750402])[-] [&DmgBlockCount] to 1 ally with the lowest [&HP] below [&Color_Cyan]70%[-], except for the character.\n[&Common_Word_Skill_ValueTurn]: [V2:2750402] turn(s)\nIf the character's [&HP] is below [&Color_Cyan]50%[-], the restoration amount increases by [&Color_Cyan][V3:2750401]%[-].\n[&Common_Word_Skill_CooltimeIgnore]\nWhen hit by an all-target attack, restores [&Color_Cyan][V3:2750403]%[-] of the character's Max. [&HP] for each attack.\n[&Common_Word_Skill_CooltimeIgnore]",
+   "description": "At the end of each side's turn, grants [&Color_Cyan]([V3:2750402])[-] [&DmgBlockCount] to 1 ally with the lowest [&HP] below [&Color_Cyan]70%[-], except for the character.\n[&Common_Word_Skill_ValueTurn]: [V2:2750402] turn(s)\nIf the character's [&HP] is below [&Color_Cyan]50%[-], the restoration amount increases by [&Color_Cyan][V3:2750401]%[-].\nWhen hit by an all-target attack, restores [&Color_Cyan][V3:2750403]%[-] of the character's Max. [&HP] for each attack.",
    "description_key": "Tbl_UnitSkill_Desc_27504",
-   "description_readable": "At the end of each side's turn, grants (1) Protective Shield to 1 ally with the lowest HP below 70%, except for the character.\nDuration: 2 turn(s)\nIf the character's HP is below 50%, the restoration amount increases by 35%.\n[Always-active passive effect regardless of cooldown]\nWhen hit by an all-target attack, restores 6% of the character's Max. HP for each attack.\n[Always-active passive effect regardless of cooldown]",
+   "description_readable": "At the end of each side's turn, grants (1) Protective Shield to 1 ally with the lowest HP below 70%, except for the character.\nDuration: 2 turn(s)\nIf the character's HP is below 50%, the restoration amount increases by 35%.\nWhen hit by an all-target attack, restores 6% of the character's Max. HP for each attack.",
    "type_description": "[Passive Skill]",
    "type_description_readable": "[Passive Skill]",
    "icon": "27504",
-   "cooldown": 3,
+   "cooldown": 0,
    "hit_count": 0,
    "additional_hits": 0,
    "damage_scaling": "",
@@ -48281,9 +48926,9 @@
    "name": "<[&Tbl_UnitWeapon_Name_27502]>[&Color_Cyan]Calamity[-]",
    "name_key": "Tbl_UnitSkill_Name_27512",
    "name_readable": "<Oni-Gear Blade>Calamity",
-   "description": "Spins the whole body to attack [&Common_Word_Skill_EnemyAll] [A:27512] time(s).\n[&Common_Word_Skill_Damage] increases in proportion to the character's DEF.\nWhen attacking, consumes [&Color_Cyan][V3:2751201]%[-] of the character's current [&HP] to activate the effects listed below.\nRemoves 1 [&Common_Word_Skill_Random] [&DeBuff] from [&Common_Word_Skill_AllyAll].\nGrants [&Shield] equal to [&Color_Cyan][V3:2751204]%[-] of the character's Max. [&HP] to [&Common_Word_Skill_AllyAll] [&Common_Word_Skill_ActionAfter].\n[&Common_Word_Skill_ValueTurn]: [V2:2751204] turn(s)",
+   "description": "Spins the whole body to attack [&Common_Word_Skill_EnemyAll] [A:27512] time(s).\n[&Common_Word_Skill_DMGDEF]\nWhen attacking, consumes [&Color_Cyan][V3:2751201]%[-] of the character's current [&HP] to activate the effects listed below.\nRemoves 1 [&Common_Word_Skill_Random] [&DeBuff] from [&Common_Word_Skill_AllyAll].\nGrants [&Shield] equal to [&Color_Cyan][V3:2751204]%[-] of the character's Max. [&HP] to [&Common_Word_Skill_AllyAll] [&Common_Word_Skill_ActionAfter].\n[&Common_Word_Skill_ValueTurn]: [V2:2751204] turn(s)",
    "description_key": "Tbl_UnitSkill_Desc_27512",
-   "description_readable": "Spins the whole body to attack ALL enemies 1 time(s).\nDMG increases in proportion to the character's DEF.\nWhen attacking, consumes -10% of the character's current HP to activate the effects listed below.\nRemoves 1 Random Debuff from ALL allies.\nGrants Shield equal to 7% of the character's Max. HP to ALL allies after the attack.\nDuration: 2 turn(s)",
+   "description_readable": "Spins the whole body to attack ALL enemies 1 time(s).\nDeals damage proportional to the character's DEF.\nWhen attacking, consumes -10% of the character's current HP to activate the effects listed below.\nRemoves 1 Random Debuff from ALL allies.\nGrants Shield equal to 7% of the character's Max. HP to ALL allies after the attack.\nDuration: 2 turn(s)",
    "type_description": "[Attack Skill]",
    "type_description_readable": "[Attack Skill]",
    "icon": "27512",
@@ -48329,13 +48974,13 @@
    "name": "<[&Tbl_UnitWeapon_Name_27501]>[&Color_Cyan]Oni[-]",
    "name_key": "Tbl_UnitSkill_Name_27514",
    "name_readable": "<Neon Dimension>Oni",
-   "description": "At the end of each side's turn, grants [&Color_Cyan]([V3:2751402])[-] [&DmgBlockCount] to 1 ally with the lowest [&HP] below [&Color_Cyan]70%[-], except for the character.\n[&Common_Word_Skill_ValueTurn]: [V2:2751402] turn(s)\nWhen the chatacter's [&HP] is below [&Color_Cyan]50%[-], the chance of being inflicted by [&DeBuff]s reduces by [&Color_Cyan][V3:2751401]%[-].\n[&Common_Word_Skill_CooltimeIgnore]\nWhen hit by an all-target attack, restores [&HP] to the character and the ally with the highest [&ATK] by [&Color_Cyan][V3:2751403]%[-] of the character's Max. [&HP] for each attack. [&Common_Word_Skill_CooltimeIgnore]",
+   "description": "At the end of each side's turn, grants [&Color_Cyan]([V3:2751402])[-] [&DmgBlockCount] to 1 ally with the lowest [&HP] below [&Color_Cyan]70%[-], except for the character.\n[&Common_Word_Skill_ValueTurn]: [V2:2751402] turn(s)\nWhen the character's [&HP] is below [&Color_Cyan]50%[-], the chances of being inflicted by [&DeBuff]s are reduced by [&Color_Cyan][V3:2751401]%[-].\nWhen hit by an all-target attack, restores [&HP] of the character and the ally with the highest [&ATK] by [&Color_Cyan][V3:2751403]%[-] of the character's Max. [&HP] for each attack.",
    "description_key": "Tbl_UnitSkill_Desc_27514",
-   "description_readable": "At the end of each side's turn, grants (1) Protective Shield to 1 ally with the lowest HP below 70%, except for the character.\nDuration: 2 turn(s)\nWhen the chatacter's HP is below 50%, the chance of being inflicted by Debuffs reduces by 20%.\n[Always-active passive effect regardless of cooldown]\nWhen hit by an all-target attack, restores HP to the character and the ally with the highest ATK by 6% of the character's Max. HP for each attack. [Always-active passive effect regardless of cooldown]",
+   "description_readable": "At the end of each side's turn, grants (1) Protective Shield to 1 ally with the lowest HP below 70%, except for the character.\nDuration: 2 turn(s)\nWhen the character's HP is below 50%, the chances of being inflicted by Debuffs are reduced by 20%.\nWhen hit by an all-target attack, restores HP of the character and the ally with the highest ATK by 6% of the character's Max. HP for each attack.",
    "type_description": "[Passive Skill]",
    "type_description_readable": "[Passive Skill]",
    "icon": "27514",
-   "cooldown": 3,
+   "cooldown": 0,
    "hit_count": 0,
    "additional_hits": 0,
    "damage_scaling": "",
@@ -54320,26 +54965,29 @@
   },
   {
    "id": 100014,
-   "name": "",
+   "name": "[&Color_Cyan]All-range HW Drone[-]",
    "name_key": "Tbl_UnitSkill_Name_100014",
-   "name_readable": "",
-   "description": "",
+   "name_readable": "All-range HW Drone",
+   "description": "Two scientists call down a drone from the sky and activate it.\nRemoves 1 [&Common_Word_Skill_Random] [&Buff] from [&Common_Word_Skill_EnemyAll].\nOn enemies without [&Buff]s, inflicts [&Color_Cyan]([V3:10001402]%)[-] [&DefDown] at a [&Color_Cyan][R:10001402]%[-] chance.\n[&Common_Word_Skill_ValueTurn]: [V2:10001402] turn(s)\nRecovers [&Common_Word_Skill_AllyAll] by [&Color_Cyan][V3:10001403]%[-] of the caster's Max. [&HP].\nAdditionally grants [&Color_Cyan]([V3:10001404]%)[-] [&CriDmgUp] to [&Common_Word_Skill_AllyAll].\n[&Common_Word_Skill_ValueTurn]: [V2:10001404] turn(s)",
    "description_key": "Tbl_UnitSkill_Desc_100014",
-   "description_readable": "",
-   "type_description": "[Attack Skill]",
-   "type_description_readable": "[Attack Skill]",
+   "description_readable": "Two scientists call down a drone from the sky and activate it.\nRemoves 1 Random Buff from ALL enemies.\nOn enemies without Buffs, inflicts (-60%) DEF DOWN at a 99% chance.\nDuration: 2 turn(s)\nRecovers ALL allies by 36% of the caster's Max. HP.\nAdditionally grants (60%) CRIT DMG UP to ALL allies.\nDuration: 2 turn(s)",
+   "type_description": "[Support Skill]",
+   "type_description_readable": "[Support Skill]",
    "icon": "100000",
    "cooldown": 0,
    "hit_count": 1,
    "additional_hits": 0,
-   "damage_scaling": "[ATK]",
+   "damage_scaling": "",
    "skill_level_scaling": "",
    "multiplier": null,
    "damage": null,
    "effects": [],
-   "battle_options": "10001401",
+   "battle_options": "10001401/10001402/10001403/10001404",
    "battle_option_ids": [
-    10001401
+    10001401,
+    10001402,
+    10001403,
+    10001404
    ],
    "evolution_level_required": 0,
    "trigger_keyword": "",
@@ -54485,6 +55133,51 @@
     10001702,
     10001703,
     10001704
+   ],
+   "evolution_level_required": 0,
+   "trigger_keyword": "",
+   "aura_info": "",
+   "skill_button_type": 0,
+   "camera_type": 0,
+   "cutscene_flag": 0
+  },
+  {
+   "id": 100018,
+   "name": "",
+   "name_key": "Tbl_UnitSkill_Name_100018",
+   "name_readable": "",
+   "description": "",
+   "description_key": "Tbl_UnitSkill_Desc_100018",
+   "description_readable": "",
+   "type_description": "[Attack Skill]",
+   "type_description_readable": "[Attack Skill]",
+   "icon": "100000",
+   "cooldown": 0,
+   "hit_count": 1,
+   "additional_hits": 0,
+   "damage_scaling": "[ATK]",
+   "skill_level_scaling": "",
+   "multiplier": 538.1,
+   "damage": {
+    "scaling": [
+     {
+      "stat": "ATK",
+      "pct": 538.1
+     }
+    ],
+    "hits": [
+     {
+      "pct": 538.1,
+      "count": 1,
+      "tar": "all enemies"
+     }
+    ],
+    "total": 538.1
+   },
+   "effects": [],
+   "battle_options": "10001801",
+   "battle_option_ids": [
+    10001801
    ],
    "evolution_level_required": 0,
    "trigger_keyword": "",
@@ -54803,29 +55496,37 @@
    "cooldown": 0,
    "hit_count": 4,
    "additional_hits": 0,
-   "damage_scaling": "[ATK]",
+   "damage_scaling": "[DEF]/[ATK]",
    "skill_level_scaling": "",
-   "multiplier": 262.5,
+   "multiplier": 154.3,
    "damage": {
     "scaling": [
      {
+      "stat": "DEF",
+      "pct": 154.3
+     },
+     {
       "stat": "ATK",
-      "pct": 262.5
+      "pct": 102
      }
     ],
     "hits": [
      {
-      "pct": 262.5,
+      "pct": 154.3,
       "count": 4,
       "tar": ""
      }
     ],
-    "total": 1050.0
+    "total": null
    },
    "effects": [],
-   "battle_options": "10002601",
+   "battle_options": "10002601/10002602/10002603/10002604/10002605",
    "battle_option_ids": [
-    10002601
+    10002601,
+    10002602,
+    10002603,
+    10002604,
+    10002605
    ],
    "evolution_level_required": 0,
    "trigger_keyword": "",
@@ -61027,9 +61728,9 @@
    "name": "[&Color_Cyan]Enhanced Soul Devour[-]",
    "name_key": "Tbl_UnitSkill_Name_1001913",
    "name_readable": "Enhanced Soul Devour",
-   "description": "On [&Common_Word_Skill_TurnStart], inflicts [&Color_Cyan]([V3:100191301]%)[-] [&Target] to the enemy with a lowest [&HP].\n[&Common_Word_Skill_ValueTurn]: [V2:100191301] turn(s)\nRecovers [&Color_Cyan][V3:100190301]%[-] of Max. [&HP] whenever an enemy is defeated.",
+   "description": "On [&Common_Word_Skill_TurnStart], inflicts [&Color_Cyan]([V3:100191301]%)[-] [&Target] to the enemy with a lowest [&HP].\n[&Common_Word_Skill_ValueTurn]: [V2:100191301] turn(s)\nRecovers [&Color_Cyan][V3:100190301]%[-] of Max. [&HP] whenever an enemy is defeated. [&Common_Word_Skill_CooltimeIgnore]",
    "description_key": "Tbl_UnitSkill_Desc_1001913",
-   "description_readable": "On Turn Start, inflicts (10%) Target to the enemy with a lowest HP.\nDuration: 2 turn(s)\nRecovers 9% of Max. HP whenever an enemy is defeated.",
+   "description_readable": "On Turn Start, inflicts (10%) Target to the enemy with a lowest HP.\nDuration: 2 turn(s)\nRecovers 9% of Max. HP whenever an enemy is defeated. [Always-active passive effect regardless of cooldown]",
    "type_description": "[Passive Skill]",
    "type_description_readable": "[Passive Skill]",
    "icon": "1001903",
@@ -61238,55 +61939,33 @@
    "type_description_readable": "[Normal Attack]",
    "icon": "1002101",
    "cooldown": 0,
-   "hit_count": 5,
+   "hit_count": 4,
    "additional_hits": 0,
    "damage_scaling": "[ATK]",
    "skill_level_scaling": "",
-   "multiplier": 105.0,
+   "multiplier": 67.3,
    "damage": {
     "scaling": [
      {
       "stat": "ATK",
-      "pct": 105.0
+      "pct": 67.3
      }
     ],
     "hits": [
      {
-      "pct": 105.0,
+      "pct": 67.3,
       "count": 1,
-      "tar": ""
-     },
-     {
-      "pct": 105.0,
-      "count": 1,
-      "tar": "1 random enemy"
-     },
-     {
-      "pct": 105.0,
-      "count": 1,
-      "tar": "1 random enemy"
-     },
-     {
-      "pct": 105.0,
-      "count": 1,
-      "tar": "1 random enemy"
-     },
-     {
-      "pct": 105.0,
-      "count": 1,
-      "tar": "1 random enemy"
+      "tar": "all enemies"
      }
     ],
-    "total": 105.0
+    "total": 67.3
    },
    "effects": [],
-   "battle_options": "100210101/100210102/100210103/100210104/100210105",
+   "battle_options": "100210101/100210102/100210103",
    "battle_option_ids": [
     100210101,
     100210102,
-    100210103,
-    100210104,
-    100210105
+    100210103
    ],
    "evolution_level_required": 0,
    "trigger_keyword": "",
@@ -61314,9 +61993,11 @@
    "multiplier": null,
    "damage": null,
    "effects": [],
-   "battle_options": "100210201",
+   "battle_options": "100210201/100210202/100210203",
    "battle_option_ids": [
-    100210201
+    100210201,
+    100210202,
+    100210203
    ],
    "evolution_level_required": 0,
    "trigger_keyword": "",
@@ -61333,35 +62014,103 @@
    "description": "",
    "description_key": "Tbl_UnitSkill_Desc_1002103",
    "description_readable": "",
-   "type_description": "[Attack Skill]",
-   "type_description_readable": "[Attack Skill]",
+   "type_description": "[Passive Skill]",
+   "type_description_readable": "[Passive Skill]",
    "icon": "1002103",
-   "cooldown": 4,
-   "hit_count": 3,
+   "cooldown": 0,
+   "hit_count": 1,
+   "additional_hits": 0,
+   "damage_scaling": "",
+   "skill_level_scaling": "",
+   "multiplier": null,
+   "damage": null,
+   "effects": [],
+   "battle_options": "100210301/100210302/100210303",
+   "battle_option_ids": [
+    100210301,
+    100210302,
+    100210303
+   ],
+   "evolution_level_required": 0,
+   "trigger_keyword": "",
+   "aura_info": "",
+   "skill_button_type": -1,
+   "camera_type": 0,
+   "cutscene_flag": 0
+  },
+  {
+   "id": 1002111,
+   "name": "",
+   "name_key": "Tbl_UnitSkill_Name_1002111",
+   "name_readable": "",
+   "description": "",
+   "description_key": "Tbl_UnitSkill_Desc_1002111",
+   "description_readable": "",
+   "type_description": "[Normal Attack]",
+   "type_description_readable": "[Normal Attack]",
+   "icon": "1002002",
+   "cooldown": 0,
+   "hit_count": 4,
    "additional_hits": 0,
    "damage_scaling": "[ATK]",
    "skill_level_scaling": "",
-   "multiplier": 145.3,
+   "multiplier": 67.3,
    "damage": {
     "scaling": [
      {
       "stat": "ATK",
-      "pct": 145.3
+      "pct": 67.3
      }
     ],
     "hits": [
      {
-      "pct": 145.3,
-      "count": 3,
+      "pct": 67.3,
+      "count": 1,
       "tar": "all enemies"
      }
     ],
-    "total": 435.9
+    "total": 67.3
    },
    "effects": [],
-   "battle_options": "100210301",
+   "battle_options": "100211101/100211102/100211103/100211104",
    "battle_option_ids": [
-    100210301
+    100211101,
+    100211102,
+    100211103,
+    100211104
+   ],
+   "evolution_level_required": 0,
+   "trigger_keyword": "",
+   "aura_info": "",
+   "skill_button_type": 0,
+   "camera_type": 0,
+   "cutscene_flag": 0
+  },
+  {
+   "id": 1002112,
+   "name": "",
+   "name_key": "Tbl_UnitSkill_Name_1002112",
+   "name_readable": "",
+   "description": "",
+   "description_key": "Tbl_UnitSkill_Desc_1002112",
+   "description_readable": "",
+   "type_description": "[Support Skill]",
+   "type_description_readable": "[Support Skill]",
+   "icon": "1002003",
+   "cooldown": 3,
+   "hit_count": 1,
+   "additional_hits": 0,
+   "damage_scaling": "",
+   "skill_level_scaling": "",
+   "multiplier": null,
+   "damage": null,
+   "effects": [],
+   "battle_options": "100211201/100211202/100211203/100211204",
+   "battle_option_ids": [
+    100211201,
+    100211202,
+    100211203,
+    100211204
    ],
    "evolution_level_required": 0,
    "trigger_keyword": "",
@@ -62565,16 +63314,31 @@
    "description": "",
    "description_key": "Tbl_UnitSkill_Desc_1002802",
    "description_readable": "",
-   "type_description": "[Support Skill]",
-   "type_description_readable": "[Support Skill]",
+   "type_description": "[Attack Skill]",
+   "type_description_readable": "[Attack Skill]",
    "icon": "1002802",
    "cooldown": 4,
-   "hit_count": 1,
+   "hit_count": 3,
    "additional_hits": 0,
-   "damage_scaling": "",
+   "damage_scaling": "[ATK]",
    "skill_level_scaling": "",
-   "multiplier": null,
-   "damage": null,
+   "multiplier": 311.9,
+   "damage": {
+    "scaling": [
+     {
+      "stat": "ATK",
+      "pct": 311.9
+     }
+    ],
+    "hits": [
+     {
+      "pct": 311.9,
+      "count": 3,
+      "tar": ""
+     }
+    ],
+    "total": 935.7
+   },
    "effects": [],
    "battle_options": "100280201",
    "battle_option_ids": [
@@ -63101,7 +63865,7 @@
      {
       "pct": 103.9,
       "count": 5,
-      "tar": ""
+      "tar": "all enemies"
      }
     ],
     "total": 519.5
@@ -63237,6 +64001,265 @@
     100330702,
     100330703,
     100330704
+   ],
+   "evolution_level_required": 0,
+   "trigger_keyword": "",
+   "aura_info": "",
+   "skill_button_type": -1,
+   "camera_type": 0,
+   "cutscene_flag": 0
+  },
+  {
+   "id": 1003311,
+   "name": "[&Color_Cyan]Burning Blade[-]",
+   "name_key": "Tbl_UnitSkill_Name_1003301",
+   "name_readable": "Burning Blade",
+   "description": "Alternately swings blades on both forearms to attack the enemy [A:1003311] time(s).\nInflicts [&Color_Cyan]([V3:100331102]%)[-] [&Burn] on the target hit at a [&Color_Cyan][R:100331102]%[-] chance.\n[&Common_Word_Skill_ValueTurn]: [V2:100331102] turn(s)\nIf the target is afflicted with [&Burn], attacks 1 additional [&Common_Word_Skill_Random] enemy.",
+   "description_key": "Tbl_UnitSkill_Desc_1003311",
+   "description_readable": "Alternately swings blades on both forearms to attack the enemy 2 time(s).\nInflicts (3.5%) Burn on the target hit at a 45% chance.\nDuration: 3 turn(s)\nIf the target is afflicted with Burn, attacks 1 additional Random enemy.",
+   "type_description": "[Normal Attack]",
+   "type_description_readable": "[Normal Attack]",
+   "icon": "1003301",
+   "cooldown": 0,
+   "hit_count": 2,
+   "additional_hits": 0,
+   "damage_scaling": "[ATK]",
+   "skill_level_scaling": "",
+   "multiplier": 137.9,
+   "damage": {
+    "scaling": [
+     {
+      "stat": "ATK",
+      "pct": 137.9
+     }
+    ],
+    "hits": [
+     {
+      "pct": 137.9,
+      "count": 2,
+      "tar": ""
+     },
+     {
+      "pct": 137.9,
+      "count": 1,
+      "tar": "1 random enemy"
+     }
+    ],
+    "total": 275.8
+   },
+   "effects": [],
+   "battle_options": "100331101/100331102/100331103",
+   "battle_option_ids": [
+    100331101,
+    100331102,
+    100331103
+   ],
+   "evolution_level_required": 0,
+   "trigger_keyword": "",
+   "aura_info": "",
+   "skill_button_type": 0,
+   "camera_type": 0,
+   "cutscene_flag": 0
+  },
+  {
+   "id": 1003312,
+   "name": "[&Color_Cyan]Silicon Art: Crystalization[-]",
+   "name_key": "Tbl_UnitSkill_Name_1003302",
+   "name_readable": "Silicon Art: Crystalization",
+   "description": "Assumes a combat-ready stance and gains [&Color_Cyan]([V3:100331201]%)[-] [&AccUp] and [&Color_Cyan]([V3:100331202]%)[-] [&CriRateUp].\n[&Common_Word_Skill_ValueTurn]: [V2:100331201] turn(s)\nIf the character's [&HP] is below [&Color_Cyan]50%[-], additionally grants [&Color_Cyan]([V3:100331202]%)[-] [&CriDmgUp].\n[&Common_Word_Skill_ValueTurn]: [V2:100331202] turn(s)",
+   "description_key": "Tbl_UnitSkill_Desc_1003312",
+   "description_readable": "Assumes a combat-ready stance and gains (25%) ACC UP and (32.5%) CRIT Rate UP.\nDuration: 2 turn(s)\nIf the character's HP is below 50%, additionally grants (32.5%) CRIT DMG UP.\nDuration: 2 turn(s)",
+   "type_description": "[Support Skill]",
+   "type_description_readable": "[Support Skill]",
+   "icon": "1003302",
+   "cooldown": 4,
+   "hit_count": 1,
+   "additional_hits": 0,
+   "damage_scaling": "",
+   "skill_level_scaling": "",
+   "multiplier": null,
+   "damage": null,
+   "effects": [],
+   "battle_options": "100331201/100331202/100331203",
+   "battle_option_ids": [
+    100331201,
+    100331202,
+    100331203
+   ],
+   "evolution_level_required": 0,
+   "trigger_keyword": "",
+   "aura_info": "",
+   "skill_button_type": 0,
+   "camera_type": 0,
+   "cutscene_flag": 0
+  },
+  {
+   "id": 1003313,
+   "name": "[&Color_Cyan]Inferno Bite[-]",
+   "name_key": "Tbl_UnitSkill_Name_1003303",
+   "name_readable": "Inferno Bite",
+   "description": "Spins body to attack [&Common_Word_Skill_EnemyAll] [A:1003313] times.\nInflicts [&Color_Cyan]([V3:100331301]%)[-] [&Burn] on [&Common_Word_Skill_EnemyAll] at a [&Color_Cyan][R:100331301]%[-] chance [&Common_Word_Skill_ActionBefore].\n[&Common_Word_Skill_ValueTurn]: [V2:100331301] turn(s)\nIf [&Common_Word_Skill_EnemyAll] have 5 or more [&Burn]s in total, gains [&Color_Cyan]([V3:100331303]%)[-] [&AtkUp] [&Common_Word_Skill_ActionAfter].\n[&Common_Word_Skill_ValueTurn]: [V2:100331303] turn(s)",
+   "description_key": "Tbl_UnitSkill_Desc_1003313",
+   "description_readable": "Spins body to attack ALL enemies 5 times.\nInflicts (3.5%) Burn on ALL enemies at a 80% chance before the attack.\nDuration: 3 turn(s)\nIf ALL enemies have 5 or more Burns in total, gains (50%) ATK UP after the attack.\nDuration: 2 turn(s)",
+   "type_description": "[Attack Skill]",
+   "type_description_readable": "[Attack Skill]",
+   "icon": "1003303",
+   "cooldown": 6,
+   "hit_count": 5,
+   "additional_hits": 0,
+   "damage_scaling": "[ATK]",
+   "skill_level_scaling": "",
+   "multiplier": 124.7,
+   "damage": {
+    "scaling": [
+     {
+      "stat": "ATK",
+      "pct": 124.7
+     }
+    ],
+    "hits": [
+     {
+      "pct": 124.7,
+      "count": 5,
+      "tar": "all enemies"
+     }
+    ],
+    "total": 623.5
+   },
+   "effects": [],
+   "battle_options": "100331301/100331302/100331303",
+   "battle_option_ids": [
+    100331301,
+    100331302,
+    100331303
+   ],
+   "evolution_level_required": 0,
+   "trigger_keyword": "",
+   "aura_info": "",
+   "skill_button_type": 0,
+   "camera_type": 0,
+   "cutscene_flag": 0
+  },
+  {
+   "id": 1003314,
+   "name": "[&Color_Cyan]Silicon Art: Red Crystal Array[-]",
+   "name_key": "Tbl_UnitSkill_Name_1003304",
+   "name_readable": "Silicon Art: Red Crystal Array",
+   "description": "When attacking an enemy afflicted with [&Burn], increases the [&Burn] damage by [&Color_Cyan][V3:100331401]%[-] each.\nWhen attacking an enemy afflicted with [&Burn], inflicts [&Color_Cyan]([V3:100331402]%)[-] [&BurnDmg] at a [&Color_Cyan][R:100331402]%[-] chance.\n[&Common_Word_Skill_ValueTurn]: [V2:100331402] turn(s)",
+   "description_key": "Tbl_UnitSkill_Desc_1003314",
+   "description_readable": "When attacking an enemy afflicted with Burn, increases the Burn damage by 10% each.\nWhen attacking an enemy afflicted with Burn, inflicts (50%) Vulnerable to Burn at a 20% chance.\nDuration: 2 turn(s)",
+   "type_description": "[Passive Skill]",
+   "type_description_readable": "[Passive Skill]",
+   "icon": "1003304",
+   "cooldown": 0,
+   "hit_count": 0,
+   "additional_hits": 0,
+   "damage_scaling": "",
+   "skill_level_scaling": "",
+   "multiplier": null,
+   "damage": null,
+   "effects": [],
+   "battle_options": "100331401/100331402",
+   "battle_option_ids": [
+    100331401,
+    100331402
+   ],
+   "evolution_level_required": 0,
+   "trigger_keyword": "",
+   "aura_info": "",
+   "skill_button_type": -1,
+   "camera_type": 0,
+   "cutscene_flag": 0
+  },
+  {
+   "id": 1003315,
+   "name": "[&Color_Cyan]Cyborg Taimanin[-]",
+   "name_key": "Tbl_UnitSkill_Name_1003305",
+   "name_readable": "Cyborg Taimanin",
+   "description": "When the character is afflicted with [&SpdDown], removes [&SpdDown] and inflicts [&BuffTurn_9999] [&Color_Cyan]([V3:100331502]%)[-] [&Target] on the attacker.\nThis effect ignores [&DeBuffBlock].",
+   "description_key": "Tbl_UnitSkill_Desc_1003315",
+   "description_readable": "When the character is afflicted with SPD DOWN, removes SPD DOWN and inflicts Unremovable (100%) Target on the attacker.\nThis effect ignores Debuff Block.",
+   "type_description": "[Passive Skill]",
+   "type_description_readable": "[Passive Skill]",
+   "icon": "1003305",
+   "cooldown": 0,
+   "hit_count": 0,
+   "additional_hits": 0,
+   "damage_scaling": "",
+   "skill_level_scaling": "",
+   "multiplier": null,
+   "damage": null,
+   "effects": [],
+   "battle_options": "100331501/100331502",
+   "battle_option_ids": [
+    100331501,
+    100331502
+   ],
+   "evolution_level_required": 0,
+   "trigger_keyword": "",
+   "aura_info": "",
+   "skill_button_type": -1,
+   "camera_type": 0,
+   "cutscene_flag": 0
+  },
+  {
+   "id": 1003316,
+   "name": "[&Color_Cyan]Fuuma's Oniwaban Captain[-]",
+   "name_key": "Tbl_UnitSkill_Name_1003306",
+   "name_readable": "Fuuma's Oniwaban Captain",
+   "description": "When attacking, [&Common_Word_Skill_Damage] increases by [&Color_Cyan][V3:100331601]%[-] for each [&Burn] the enemy has.\nStacks up to 5.\nIf [&Common_Word_Skill_EnemyAll] have 3 or more [&Burn]s in total when attacking, increases [&Common_Word_Skill_CriticalRate] by [&Color_Cyan]([V3:100331602]%)[-].\nIf there's an enemy afflicted with [&Burn], inflicts [&Color_Cyan]([V3:100331603]%)[-] [&Burn] to 1 [&Common_Word_Skill_Random] enemy at a [&Color_Cyan][R:100331603]%[-] chance on the [&Common_Word_Skill_ActionLast].\n[&Common_Word_Skill_ValueTurn]: [V2:100331603] turn(s)",
+   "description_key": "Tbl_UnitSkill_Desc_1003316",
+   "description_readable": "When attacking, DMG increases by 15% for each Burn the enemy has.\nStacks up to 5.\nIf ALL enemies have 3 or more Burns in total when attacking, increases CRIT Rate by (15%).\nIf there's an enemy afflicted with Burn, inflicts (3.5%) Burn to 1 Random enemy at a 45% chance on the Last Attack.\nDuration: 3 turn(s)",
+   "type_description": "[Passive Skill]",
+   "type_description_readable": "[Passive Skill]",
+   "icon": "1003306",
+   "cooldown": 0,
+   "hit_count": 0,
+   "additional_hits": 0,
+   "damage_scaling": "",
+   "skill_level_scaling": "",
+   "multiplier": null,
+   "damage": null,
+   "effects": [],
+   "battle_options": "100331601/100331602/100331603",
+   "battle_option_ids": [
+    100331601,
+    100331602,
+    100331603
+   ],
+   "evolution_level_required": 0,
+   "trigger_keyword": "",
+   "aura_info": "",
+   "skill_button_type": -1,
+   "camera_type": 0,
+   "cutscene_flag": 0
+  },
+  {
+   "id": 1003317,
+   "name": "[&Color_Cyan]Silicon Art: Scorching Crystal[-]",
+   "name_key": "Tbl_UnitSkill_Name_1003307",
+   "name_readable": "Silicon Art: Scorching Crystal",
+   "description": "When a [&Common_Word_Skill_CriticalAttack] lands, performs a [&Color_Cyan]([V3:100331701]%)[-] [&Burn] [&Common_Word_Skill_DotBuffBurst] attack to [&Common_Word_Skill_EnemyAll].\nIf the character is afflicted with [&Restraint], reduces the character's [&Common_Word_Skill_CoolTime] time of all skills by [V2:100331702] turn(s).\nAdditionally gains [&Color_Cyan]([V3:100331703]%)[-] [&SpdUp].\n[&Common_Word_Skill_ValueTurn]: [V2:100331703] turn(s)",
+   "description_key": "Tbl_UnitSkill_Desc_1003317",
+   "description_readable": "When a CRIT ATK lands, performs a (36%) Burn Debuff Resonance attack to ALL enemies.\nIf the character is afflicted with Immobilize, reduces the character's Cooldown time of all skills by -1 turn(s).\nAdditionally gains (30%) SPD UP.\nDuration: 2 turn(s)",
+   "type_description": "[Passive Skill]",
+   "type_description_readable": "[Passive Skill]",
+   "icon": "1003307",
+   "cooldown": 0,
+   "hit_count": 0,
+   "additional_hits": 0,
+   "damage_scaling": "",
+   "skill_level_scaling": "",
+   "multiplier": null,
+   "damage": null,
+   "effects": [],
+   "battle_options": "100331701/100331702/100331703/100331704/100331705",
+   "battle_option_ids": [
+    100331701,
+    100331702,
+    100331703,
+    100331704,
+    100331705
    ],
    "evolution_level_required": 0,
    "trigger_keyword": "",
@@ -64773,9 +65796,9 @@
    "name": "[&Color_Cyan]Fanatical Elation[-]",
    "name_key": "Tbl_UnitSkill_Name_15902",
    "name_readable": "Fanatical Elation",
-   "description": "Increases the morale of [&Common_Word_Skill_AllyAll] and grants a [&Color_Cyan]([V3:201010201]%)[-] [&DefUp]. \n[&Common_Word_Skill_ValueTurn]: [V2:201010201] turn(s)\nIf the target has [&DefUp] [&Common_Word_Skill_ActionAfter], increases the duration of the target's [&Shield] by [V2:201010202] turn(s).",
+   "description": "Increases the morale of [&Common_Word_Skill_AllyAll] and grants a [&Color_Cyan]([V3:201010201]%)[-] [&DefUp]. \n[&Common_Word_Skill_ValueTurn]: [V2:201010201] turn(s)\nAfter the using the skill, if the target has [&DefUp], increases the duration of the target's [&Shield] by [V2:201010202] turn(s).\n[&Common_Word_Skill_CooltimeIgnore]",
    "description_key": "Tbl_UnitSkill_Desc_2010102",
-   "description_readable": "Increases the morale of ALL allies and grants a (50%) DEF UP. \nDuration: 2 turn(s)\nIf the target has DEF UP after the attack, increases the duration of the target's Shield by 1 turn(s).",
+   "description_readable": "Increases the morale of ALL allies and grants a (50%) DEF UP. \nDuration: 2 turn(s)\nAfter the using the skill, if the target has DEF UP, increases the duration of the target's Shield by 1 turn(s).\n[Always-active passive effect regardless of cooldown]",
    "type_description": "[Support Skill]",
    "type_description_readable": "[Support Skill]",
    "icon": "15902",
@@ -66513,6 +67536,161 @@
    "cutscene_flag": 0
   },
   {
+   "id": 3000621,
+   "name": "[&Color_Cyan]Demon Blade: Blazing Wind[-]",
+   "name_key": "Tbl_UnitSkill_Name_1000601",
+   "name_readable": "Demon Blade: Blazing Wind",
+   "description": "Crosses swords and unleashes two sword auras, attacking the enemy 1 time.\nTarget hit is inflicted with [&Color_Cyan]([V3:300062102]%)[-] [&SpdDown] at a [&Color_Cyan][R:300062102]%[-] chance.\n[&Common_Word_Skill_ValueTurn]: [V2:300062102] turn(s)",
+   "description_key": "Tbl_UnitSkill_Desc_3000621",
+   "description_readable": "Crosses swords and unleashes two sword auras, attacking the enemy 1 time.\nTarget hit is inflicted with (20%) SPD DOWN at a 30% chance.\nDuration: 2 turn(s)",
+   "type_description": "[Normal Attack]",
+   "type_description_readable": "[Normal Attack]",
+   "icon": "1000601",
+   "cooldown": 0,
+   "hit_count": 1,
+   "additional_hits": 0,
+   "damage_scaling": "[ATK]",
+   "skill_level_scaling": "",
+   "multiplier": 682.5,
+   "damage": {
+    "scaling": [
+     {
+      "stat": "ATK",
+      "pct": 682.5
+     }
+    ],
+    "hits": [
+     {
+      "pct": 682.5,
+      "count": 1,
+      "tar": ""
+     }
+    ],
+    "total": 682.5
+   },
+   "effects": [],
+   "battle_options": "300062101/300062102",
+   "battle_option_ids": [
+    300062101,
+    300062102
+   ],
+   "evolution_level_required": 0,
+   "trigger_keyword": "",
+   "aura_info": "",
+   "skill_button_type": 0,
+   "camera_type": 0,
+   "cutscene_flag": 0
+  },
+  {
+   "id": 3000622,
+   "name": "[&Color_Cyan]Demon Blade: Storm[-]",
+   "name_key": "Tbl_UnitSkill_Name_1000602",
+   "name_readable": "Demon Blade: Storm",
+   "description": "Knocks up an enemy and slashes them mercilessly 9 times.\nIf the target has [&SpdDown], increases [&Common_Word_Skill_Damage] equal to [&Color_Cyan][V3:300062202]%[-] of the target's lost [&HP].\nInflicts [&Stun] at a [&Color_Cyan][R:300062203]%[-] chance on the [&Common_Word_Skill_ActionLast].\n[&Common_Word_Skill_ValueTurn]: [V2:300062203] turn(s)\nIf the target has [&SpdDown], inflicts [&Color_Cyan]([V3:300062204]%)[-] [&Weaken] on the [&Common_Word_Skill_ActionLast].\n[&Common_Word_Skill_ValueTurn]: [V2:300062204] turn(s)",
+   "description_key": "Tbl_UnitSkill_Desc_3000622",
+   "description_readable": "Knocks up an enemy and slashes them mercilessly 9 times.\nIf the target has SPD DOWN, increases DMG equal to 5% of the target's lost HP.\nInflicts Faint at a 15% chance on the Last Attack.\nDuration: 1 turn(s)\nIf the target has SPD DOWN, inflicts (22.5%) Weaken on the Last Attack.\nDuration: 2 turn(s)",
+   "type_description": "[Attack Skill]",
+   "type_description_readable": "[Attack Skill]",
+   "icon": "1000602",
+   "cooldown": 3,
+   "hit_count": 9,
+   "additional_hits": 0,
+   "damage_scaling": "[ATK]",
+   "skill_level_scaling": "",
+   "multiplier": 128.3,
+   "damage": {
+    "scaling": [
+     {
+      "stat": "ATK",
+      "pct": 128.3
+     }
+    ],
+    "hits": [
+     {
+      "pct": 128.3,
+      "count": 9,
+      "tar": ""
+     }
+    ],
+    "total": 1154.7
+   },
+   "effects": [],
+   "battle_options": "300062201/300062202/300062203/300062204",
+   "battle_option_ids": [
+    300062201,
+    300062202,
+    300062203,
+    300062204
+   ],
+   "evolution_level_required": 0,
+   "trigger_keyword": "",
+   "aura_info": "",
+   "skill_button_type": 0,
+   "camera_type": 0,
+   "cutscene_flag": 0
+  },
+  {
+   "id": 3000623,
+   "name": "[&Color_Cyan]Red Gust[-]",
+   "name_key": "Tbl_UnitSkill_Name_1000603",
+   "name_readable": "Red Gust",
+   "description": "On [&Common_Word_Skill_TurnStart], inflicts [&Color_Cyan]([V3:300062301]%)[-] [&Target] on the enemy with the highest [&ATK].\n[&Common_Word_Skill_ValueTurn]: [V2:300062301] turn(s)\nAdditionally increases the duration of the target's [&SpdDown] by 1 turn.",
+   "description_key": "Tbl_UnitSkill_Desc_3000623",
+   "description_readable": "On Turn Start, inflicts (10%) Target on the enemy with the highest ATK.\nDuration: 2 turn(s)\nAdditionally increases the duration of the target's SPD DOWN by 1 turn.",
+   "type_description": "[Passive Skill]",
+   "type_description_readable": "[Passive Skill]",
+   "icon": "1000603",
+   "cooldown": 3,
+   "hit_count": 0,
+   "additional_hits": 0,
+   "damage_scaling": "",
+   "skill_level_scaling": "",
+   "multiplier": null,
+   "damage": null,
+   "effects": [],
+   "battle_options": "300062301/300062302",
+   "battle_option_ids": [
+    300062301,
+    300062302
+   ],
+   "evolution_level_required": 0,
+   "trigger_keyword": "",
+   "aura_info": "",
+   "skill_button_type": -1,
+   "camera_type": 0,
+   "cutscene_flag": 0
+  },
+  {
+   "id": 3000624,
+   "name": "[&Color_Cyan]Raksha[-]",
+   "name_key": "Tbl_UnitSkill_Name_3000614",
+   "name_readable": "Raksha",
+   "description": "Inflicts [&BuffTurn_9999] [&Color_Cyan]([V3:300062401]%)[-] [&DefDown] on the enemy with [&Target] [&Common_Word_Skill_ActionAfter].",
+   "description_key": "Tbl_UnitSkill_Desc_3000624",
+   "description_readable": "Inflicts Unremovable (-15%) DEF DOWN on the enemy with Target after the attack.",
+   "type_description": "[Passive Skill]",
+   "type_description_readable": "[Passive Skill]",
+   "icon": "1000604",
+   "cooldown": 0,
+   "hit_count": 0,
+   "additional_hits": 0,
+   "damage_scaling": "",
+   "skill_level_scaling": "",
+   "multiplier": null,
+   "damage": null,
+   "effects": [],
+   "battle_options": "300062401",
+   "battle_option_ids": [
+    300062401
+   ],
+   "evolution_level_required": 0,
+   "trigger_keyword": "",
+   "aura_info": "",
+   "skill_button_type": -1,
+   "camera_type": 0,
+   "cutscene_flag": 0
+  },
+  {
    "id": 3001101,
    "name": "[&Color_Cyan]Blazing Earthquake[-]",
    "name_key": "Tbl_UnitSkill_Name_1001101",
@@ -66735,6 +67913,239 @@
    "battle_options": "300110601",
    "battle_option_ids": [
     300110601
+   ],
+   "evolution_level_required": 0,
+   "trigger_keyword": "",
+   "aura_info": "",
+   "skill_button_type": -1,
+   "camera_type": 0,
+   "cutscene_flag": 0
+  },
+  {
+   "id": 3001111,
+   "name": "[&Color_Cyan]Blazing Earthquake[-]",
+   "name_key": "Tbl_UnitSkill_Name_1001101",
+   "name_readable": "Blazing Earthquake",
+   "description": "Strikes the ground hard with a fist to attack the enemy.\nInflicts [&Color_Cyan]([V3:300111102]%)[-] [&Bleeding] at a [&Color_Cyan][R:300111102]%[-] chance on the [&Common_Word_Skill_ActionLast].\n[&Common_Word_Skill_ValueTurn]: [V2:300111102] turn(s)",
+   "description_key": "Tbl_UnitSkill_Desc_3001111",
+   "description_readable": "Strikes the ground hard with a fist to attack the enemy.\nInflicts (10%) Bleed at a 55% chance on the Last Attack.\nDuration: 3 turn(s)",
+   "type_description": "[Normal Attack]",
+   "type_description_readable": "[Normal Attack]",
+   "icon": "1001101",
+   "cooldown": 0,
+   "hit_count": 1,
+   "additional_hits": 0,
+   "damage_scaling": "[ATK]",
+   "skill_level_scaling": "",
+   "multiplier": 630.0,
+   "damage": {
+    "scaling": [
+     {
+      "stat": "ATK",
+      "pct": 630.0
+     }
+    ],
+    "hits": [
+     {
+      "pct": 630.0,
+      "count": 1,
+      "tar": ""
+     }
+    ],
+    "total": 630.0
+   },
+   "effects": [],
+   "battle_options": "300111101/300111102",
+   "battle_option_ids": [
+    300111101,
+    300111102
+   ],
+   "evolution_level_required": 0,
+   "trigger_keyword": "",
+   "aura_info": "",
+   "skill_button_type": 0,
+   "camera_type": 0,
+   "cutscene_flag": 0
+  },
+  {
+   "id": 3001112,
+   "name": "[&Color_Cyan]Fireball Volley[-]",
+   "name_key": "Tbl_UnitSkill_Name_1001102",
+   "name_readable": "Fireball Volley",
+   "description": "Conjures a fireball to attack [&Common_Word_Skill_Random] enemies 4 times.\nEach attack inflicts [&Color_Cyan]([V3:300111205]%)[-] [&Bleeding] at a [&Color_Cyan][R:300111205]%[-] chance.\n[&Common_Word_Skill_ValueTurn]: [V2:300111205] turn(s)\nInflicts [&Color_Cyan]([V3:300111206]%)[-] [&BleedingDmg] at a [&Color_Cyan][R:300111206]%[-] chance on the [&Common_Word_Skill_ActionLast].\n[&Common_Word_Skill_ValueTurn]: [V2:300111206] turn(s)",
+   "description_key": "Tbl_UnitSkill_Desc_3001112",
+   "description_readable": "Conjures a fireball to attack Random enemies 4 times.\nEach attack inflicts (10%) Bleed at a 45% chance.\nDuration: 3 turn(s)\nInflicts (37.5%) Vulnerable to Bleeding at a 70% chance on the Last Attack.\nDuration: 2 turn(s)",
+   "type_description": "[Attack Skill]",
+   "type_description_readable": "[Attack Skill]",
+   "icon": "1001102",
+   "cooldown": 3,
+   "hit_count": 4,
+   "additional_hits": 2,
+   "damage_scaling": "[ATK]",
+   "skill_level_scaling": "",
+   "multiplier": 173.1,
+   "damage": {
+    "scaling": [
+     {
+      "stat": "ATK",
+      "pct": 173.1
+     }
+    ],
+    "hits": [
+     {
+      "pct": 173.1,
+      "count": 1,
+      "tar": ""
+     },
+     {
+      "pct": 173.1,
+      "count": 1,
+      "tar": "1 random enemy"
+     },
+     {
+      "pct": 173.1,
+      "count": 1,
+      "tar": "1 random enemy"
+     },
+     {
+      "pct": 173.1,
+      "count": 1,
+      "tar": "1 random enemy"
+     }
+    ],
+    "total": 173.1
+   },
+   "effects": [],
+   "battle_options": "300111201/300111202/300111203/300111204/300111205/300111206",
+   "battle_option_ids": [
+    300111201,
+    300111202,
+    300111203,
+    300111204,
+    300111205,
+    300111206
+   ],
+   "evolution_level_required": 0,
+   "trigger_keyword": "",
+   "aura_info": "",
+   "skill_button_type": 0,
+   "camera_type": 0,
+   "cutscene_flag": 0
+  },
+  {
+   "id": 3001113,
+   "name": "[&Color_Cyan]Infernal Land[-]",
+   "name_key": "Tbl_UnitSkill_Name_1001103",
+   "name_readable": "Infernal Land",
+   "description": "Gains [&Color_Cyan]([V3:300111301]%)[-] [&DmgReflect].\n[&Common_Word_Skill_ValueTurn]: [V2:300111301] turn(s)",
+   "description_key": "Tbl_UnitSkill_Desc_3001113",
+   "description_readable": "Gains (20%) Damage Reflect.\nDuration: 3 turn(s)",
+   "type_description": "[Support Skill]",
+   "type_description_readable": "[Support Skill]",
+   "icon": "1001103",
+   "cooldown": 6,
+   "hit_count": 1,
+   "additional_hits": 0,
+   "damage_scaling": "",
+   "skill_level_scaling": "",
+   "multiplier": null,
+   "damage": null,
+   "effects": [],
+   "battle_options": "300111301",
+   "battle_option_ids": [
+    300111301
+   ],
+   "evolution_level_required": 0,
+   "trigger_keyword": "",
+   "aura_info": "",
+   "skill_button_type": 0,
+   "camera_type": 0,
+   "cutscene_flag": 0
+  },
+  {
+   "id": 3001114,
+   "name": "[&Color_Cyan]Flames of Wrath[-]",
+   "name_key": "Tbl_UnitSkill_Name_1001104",
+   "name_readable": "Flames of Wrath",
+   "description": "When a [&Common_Word_Skill_CriticalAttack] lands, performs a [&Bleeding] [&Common_Word_Skill_DotBuffBurst] attack.",
+   "description_key": "Tbl_UnitSkill_Desc_3001114",
+   "description_readable": "When a CRIT ATK lands, performs a Bleed Debuff Resonance attack.",
+   "type_description": "[Passive Skill]",
+   "type_description_readable": "[Passive Skill]",
+   "icon": "1001104",
+   "cooldown": 0,
+   "hit_count": 0,
+   "additional_hits": 0,
+   "damage_scaling": "",
+   "skill_level_scaling": "",
+   "multiplier": null,
+   "damage": null,
+   "effects": [],
+   "battle_options": "300111401",
+   "battle_option_ids": [
+    300111401
+   ],
+   "evolution_level_required": 0,
+   "trigger_keyword": "",
+   "aura_info": "",
+   "skill_button_type": -1,
+   "camera_type": 0,
+   "cutscene_flag": 0
+  },
+  {
+   "id": 3001115,
+   "name": "[&Color_Cyan]Flames of Dominance[-]",
+   "name_key": "Tbl_UnitSkill_Name_1001105",
+   "name_readable": "Flames of Dominance",
+   "description": "If the target is afflicted with [&Bleeding], inflicts [&Color_Cyan]([V3:300111501]%)[-] [&HealRateDown] at a [&Color_Cyan][R:300111501]%[-] chance.\n[&Common_Word_Skill_ValueTurn]: [V2:300111501] turn(s)\nEach attack increases the duration of the target's [&Bleeding] by [V2:300111502] turn(s) at a [&Color_Cyan][R:300111502]%[-] chance.",
+   "description_key": "Tbl_UnitSkill_Desc_3001115",
+   "description_readable": "If the target is afflicted with Bleed, inflicts (75%) Heal Reduction at a 25% chance.\nDuration: 2 turn(s)\nEach attack increases the duration of the target's Bleed by 1 turn(s) at a 20% chance.",
+   "type_description": "[Passive Skill]",
+   "type_description_readable": "[Passive Skill]",
+   "icon": "1001105",
+   "cooldown": 0,
+   "hit_count": 0,
+   "additional_hits": 0,
+   "damage_scaling": "",
+   "skill_level_scaling": "",
+   "multiplier": null,
+   "damage": null,
+   "effects": [],
+   "battle_options": "300111501/300111502",
+   "battle_option_ids": [
+    300111501,
+    300111502
+   ],
+   "evolution_level_required": 0,
+   "trigger_keyword": "",
+   "aura_info": "",
+   "skill_button_type": -1,
+   "camera_type": 0,
+   "cutscene_flag": 0
+  },
+  {
+   "id": 3001116,
+   "name": "[&Color_Cyan]Flames of Death[-]",
+   "name_key": "Tbl_UnitSkill_Name_1001106",
+   "name_readable": "Flames of Death",
+   "description": "If [&Common_Word_Skill_EnemyAll] are afflicted with 3 or more [&Bleeding] in total, [&Common_Word_Skill_Damage] increases by [&Color_Cyan][V3:300111601]%[-].\nIf [&Common_Word_Skill_EnemyAll] are afflicted with 3 or more [&Bleeding] in total, [&Common_Word_Skill_CriticalRate] increases by [&Color_Cyan]([V3:300111602]%)[-].",
+   "description_key": "Tbl_UnitSkill_Desc_3001116",
+   "description_readable": "If ALL enemies are afflicted with 3 or more Bleed in total, DMG increases by 10%.\nIf ALL enemies are afflicted with 3 or more Bleed in total, CRIT Rate increases by (15%).",
+   "type_description": "[Passive Skill]",
+   "type_description_readable": "[Passive Skill]",
+   "icon": "1001106",
+   "cooldown": 0,
+   "hit_count": 0,
+   "additional_hits": 0,
+   "damage_scaling": "",
+   "skill_level_scaling": "",
+   "multiplier": null,
+   "damage": null,
+   "effects": [],
+   "battle_options": "300111601/300111602",
+   "battle_option_ids": [
+    300111601,
+    300111602
    ],
    "evolution_level_required": 0,
    "trigger_keyword": "",
@@ -67347,6 +68758,189 @@
    "cutscene_flag": 0
   },
   {
+   "id": 3001521,
+   "name": "[&Color_Cyan]Terra Strike[-]",
+   "name_key": "Tbl_UnitSkill_Name_1001501",
+   "name_readable": "Terra Strike",
+   "description": "Throws a rock at an enemy.",
+   "description_key": "Tbl_UnitSkill_Desc_3001521",
+   "description_readable": "Throws a rock at an enemy.",
+   "type_description": "[Normal Attack]",
+   "type_description_readable": "[Normal Attack]",
+   "icon": "1001501",
+   "cooldown": 0,
+   "hit_count": 1,
+   "additional_hits": 0,
+   "damage_scaling": "[ATK]",
+   "skill_level_scaling": "",
+   "multiplier": 630.0,
+   "damage": {
+    "scaling": [
+     {
+      "stat": "ATK",
+      "pct": 630.0
+     }
+    ],
+    "hits": [
+     {
+      "pct": 630.0,
+      "count": 1,
+      "tar": ""
+     }
+    ],
+    "total": 630.0
+   },
+   "effects": [],
+   "battle_options": "300152101",
+   "battle_option_ids": [
+    300152101
+   ],
+   "evolution_level_required": 0,
+   "trigger_keyword": "",
+   "aura_info": "",
+   "skill_button_type": 0,
+   "camera_type": 0,
+   "cutscene_flag": 0
+  },
+  {
+   "id": 3001522,
+   "name": "[&Color_Cyan]Terra Crash[-]",
+   "name_key": "Tbl_UnitSkill_Name_1001502",
+   "name_readable": "Terra Crash",
+   "description": "Slams the ground, dealing damage to [&Common_Word_Skill_EnemyAll] 5 times.\nInflicts [&Stun] to 1 [&Common_Word_Skill_Random] enemy at a [&Color_Cyan][R:300152202]%[-] chance on the [&Common_Word_Skill_ActionLast].\n[&Common_Word_Skill_ValueTurn]: [V2:300152202] turn(s)",
+   "description_key": "Tbl_UnitSkill_Desc_3001522",
+   "description_readable": "Slams the ground, dealing damage to ALL enemies 5 times.\nInflicts Faint to 1 Random enemy at a 45% chance on the Last Attack.\nDuration: 1 turn(s)",
+   "type_description": "[Attack Skill]",
+   "type_description_readable": "[Attack Skill]",
+   "icon": "1001502",
+   "cooldown": 3,
+   "hit_count": 5,
+   "additional_hits": 0,
+   "damage_scaling": "[ATK]",
+   "skill_level_scaling": "",
+   "multiplier": 215.3,
+   "damage": {
+    "scaling": [
+     {
+      "stat": "ATK",
+      "pct": 215.3
+     }
+    ],
+    "hits": [
+     {
+      "pct": 215.3,
+      "count": 5,
+      "tar": "all enemies"
+     }
+    ],
+    "total": 1076.5
+   },
+   "effects": [],
+   "battle_options": "300152201/300152202",
+   "battle_option_ids": [
+    300152201,
+    300152202
+   ],
+   "evolution_level_required": 0,
+   "trigger_keyword": "",
+   "aura_info": "",
+   "skill_button_type": 0,
+   "camera_type": 0,
+   "cutscene_flag": 0
+  },
+  {
+   "id": 3001523,
+   "name": "[&Color_Cyan]Land of Treason[-]",
+   "name_key": "Tbl_UnitSkill_Name_1001503",
+   "name_readable": "Land of Treason",
+   "description": "Gains [&Color_Cyan]([V3:300152301])[-] [&DmgBlockCount].",
+   "description_key": "Tbl_UnitSkill_Desc_3001523",
+   "description_readable": "Gains (10) Protective Shield.",
+   "type_description": "[Support Skill]",
+   "type_description_readable": "[Support Skill]",
+   "icon": "1001503",
+   "cooldown": 7,
+   "hit_count": 1,
+   "additional_hits": 0,
+   "damage_scaling": "",
+   "skill_level_scaling": "",
+   "multiplier": null,
+   "damage": null,
+   "effects": [],
+   "battle_options": "300152301",
+   "battle_option_ids": [
+    300152301
+   ],
+   "evolution_level_required": 0,
+   "trigger_keyword": "",
+   "aura_info": "",
+   "skill_button_type": 0,
+   "camera_type": 0,
+   "cutscene_flag": 0
+  },
+  {
+   "id": 3001524,
+   "name": "[&Color_Cyan]Land of Solitude[-]",
+   "name_key": "Tbl_UnitSkill_Name_1001504",
+   "name_readable": "Land of Solitude",
+   "description": "Decreases [&Common_Word_Skill_Damage] taken by [&Color_Cyan][V3:300152401]%[-] every 3 turns.\nStacks up to 3 times.",
+   "description_key": "Tbl_UnitSkill_Desc_3001524",
+   "description_readable": "Decreases DMG taken by -5% every 3 turns.\nStacks up to 3 times.",
+   "type_description": "[Passive Skill]",
+   "type_description_readable": "[Passive Skill]",
+   "icon": "1001504",
+   "cooldown": 0,
+   "hit_count": 0,
+   "additional_hits": 0,
+   "damage_scaling": "",
+   "skill_level_scaling": "",
+   "multiplier": null,
+   "damage": null,
+   "effects": [],
+   "battle_options": "300152401/300152402/300152403",
+   "battle_option_ids": [
+    300152401,
+    300152402,
+    300152403
+   ],
+   "evolution_level_required": 0,
+   "trigger_keyword": "",
+   "aura_info": "",
+   "skill_button_type": -1,
+   "camera_type": 0,
+   "cutscene_flag": 0
+  },
+  {
+   "id": 3001525,
+   "name": "[&Color_Cyan]Land of Fortitude[-]",
+   "name_key": "Tbl_UnitSkill_Name_1001505",
+   "name_readable": "Land of Fortitude",
+   "description": "Increases the [&Common_Word_Skill_Damage] dealt to enemy afflicted with [&Stun] by [&Color_Cyan][V3:300152501]%[-].",
+   "description_key": "Tbl_UnitSkill_Desc_3001525",
+   "description_readable": "Increases the DMG dealt to enemy afflicted with Faint by 15%.",
+   "type_description": "[Passive Skill]",
+   "type_description_readable": "[Passive Skill]",
+   "icon": "1001505",
+   "cooldown": 0,
+   "hit_count": 0,
+   "additional_hits": 0,
+   "damage_scaling": "",
+   "skill_level_scaling": "",
+   "multiplier": null,
+   "damage": null,
+   "effects": [],
+   "battle_options": "300152501",
+   "battle_option_ids": [
+    300152501
+   ],
+   "evolution_level_required": 0,
+   "trigger_keyword": "",
+   "aura_info": "",
+   "skill_button_type": -1,
+   "camera_type": 0,
+   "cutscene_flag": 0
+  },
+  {
    "id": 3001701,
    "name": "[&Color_Cyan]Assault Gatling[-]",
    "name_key": "Tbl_UnitSkill_Name_1001701",
@@ -67510,7 +69104,7 @@
    "name_readable": "Focused Resonance",
    "description": "Charges electricity to grant [&Color_Cyan]([V3:300200202]%)[-] [&AtkUp] to the character.\n[&Common_Word_Skill_ValueTurn]: [V2:300200202] turn(s)\nIf [&Common_Word_Skill_EnemyAll] have 5 or more [&Buff]s in total, additionally grants [&Color_Cyan]([V3:300200201]%)[-] [&CriDmgUp] to the character.\n[&Common_Word_Skill_ValueTurn]: [V2:300200201] turn(s)",
    "description_key": "Tbl_UnitSkill_Desc_3002002",
-   "description_readable": "Charges electricity to grant (60%) ATK UP to the character.\nDuration: 2 turn(s)\nIf ALL enemies have 5 or more Buffs in total, additionally grants (40%) CRIT DMG UP to the character.\nDuration: 2 turn(s)",
+   "description_readable": "Charges electricity to grant (40%) ATK UP to the character.\nDuration: 2 turn(s)\nIf ALL enemies have 5 or more Buffs in total, additionally grants (60%) CRIT DMG UP to the character.\nDuration: 2 turn(s)",
    "type_description": "[Support Skill]",
    "type_description_readable": "[Support Skill]",
    "icon": "1002002",
@@ -67556,6 +69150,114 @@
    "battle_options": "300200301",
    "battle_option_ids": [
     300200301
+   ],
+   "evolution_level_required": 0,
+   "trigger_keyword": "",
+   "aura_info": "",
+   "skill_button_type": -1,
+   "camera_type": 0,
+   "cutscene_flag": 0
+  },
+  {
+   "id": 3002011,
+   "name": "[&Color_Cyan]Dark Lightning[-]",
+   "name_key": "Tbl_UnitSkill_Name_1002001",
+   "name_readable": "Dark Lightning",
+   "description": "Strikes the enemy with a powerful lightning bolt to attack.\nRemoves [V3:300201102] [&Common_Word_Skill_Random] [&Buff]s from the target hit.\nInflicts [&ElecShock] on the target hit at a [&Color_Cyan][R:300201103]%[-] chance on the [&Common_Word_Skill_ActionLast].\n[&Common_Word_Skill_ValueTurn]: [V2:300201103] turn(s)",
+   "description_key": "Tbl_UnitSkill_Desc_3002011",
+   "description_readable": "Strikes the enemy with a powerful lightning bolt to attack.\nRemoves 1 Random Buffs from the target hit.\nInflicts Electrocute on the target hit at a 75% chance on the Last Attack.\nDuration: 2 turn(s)",
+   "type_description": "[Normal Attack]",
+   "type_description_readable": "[Normal Attack]",
+   "icon": "1002001",
+   "cooldown": 0,
+   "hit_count": 1,
+   "additional_hits": 0,
+   "damage_scaling": "[ATK]",
+   "skill_level_scaling": "",
+   "multiplier": 630.0,
+   "damage": {
+    "scaling": [
+     {
+      "stat": "ATK",
+      "pct": 630.0
+     }
+    ],
+    "hits": [
+     {
+      "pct": 630.0,
+      "count": 1,
+      "tar": ""
+     }
+    ],
+    "total": 630.0
+   },
+   "effects": [],
+   "battle_options": "300201101/300201102/300201103",
+   "battle_option_ids": [
+    300201101,
+    300201102,
+    300201103
+   ],
+   "evolution_level_required": 0,
+   "trigger_keyword": "",
+   "aura_info": "",
+   "skill_button_type": 0,
+   "camera_type": 0,
+   "cutscene_flag": 0
+  },
+  {
+   "id": 3002012,
+   "name": "[&Color_Cyan]Focused Resonance[-]",
+   "name_key": "Tbl_UnitSkill_Name_1002002",
+   "name_readable": "Focused Resonance",
+   "description": "Charges electricity to grant [&Color_Cyan]([V3:300201201]%)[-] [&AtkUp] to the character.\n[&Common_Word_Skill_ValueTurn]: [V2:300201201] turn(s)\nIf [&Common_Word_Skill_EnemyAll] have 5 or more [&Buff]s in total, additionally grants [&Color_Cyan]([V3:300201202]%)[-] [&CriDmgUp] to the character.\n[&Common_Word_Skill_ValueTurn]: [V2:300201202] turn(s)",
+   "description_key": "Tbl_UnitSkill_Desc_3002012",
+   "description_readable": "Charges electricity to grant (60%) ATK UP to the character.\nDuration: 2 turn(s)\nIf ALL enemies have 5 or more Buffs in total, additionally grants (90%) CRIT DMG UP to the character.\nDuration: 2 turn(s)",
+   "type_description": "[Support Skill]",
+   "type_description_readable": "[Support Skill]",
+   "icon": "1002002",
+   "cooldown": 5,
+   "hit_count": 1,
+   "additional_hits": 0,
+   "damage_scaling": "",
+   "skill_level_scaling": "",
+   "multiplier": null,
+   "damage": null,
+   "effects": [],
+   "battle_options": "300201201/300201202",
+   "battle_option_ids": [
+    300201201,
+    300201202
+   ],
+   "evolution_level_required": 0,
+   "trigger_keyword": "",
+   "aura_info": "",
+   "skill_button_type": 0,
+   "camera_type": 0,
+   "cutscene_flag": 0
+  },
+  {
+   "id": 3002013,
+   "name": "[&Color_Cyan]Black Yaksha[-]",
+   "name_key": "Tbl_UnitSkill_Name_1002003",
+   "name_readable": "Black Yaksha",
+   "description": "On [&Common_Word_Skill_TurnStart], reduces the duration of [V3:300201301] [&Common_Word_Skill_Random] [&Buff]s on 1 [&Common_Word_Skill_Random] enemy by 1 turn.",
+   "description_key": "Tbl_UnitSkill_Desc_3002013",
+   "description_readable": "On Turn Start, reduces the duration of 1 Random Buffs on 1 Random enemy by 1 turn.",
+   "type_description": "[Passive Skill]",
+   "type_description_readable": "[Passive Skill]",
+   "icon": "1002003",
+   "cooldown": 0,
+   "hit_count": 1,
+   "additional_hits": 0,
+   "damage_scaling": "",
+   "skill_level_scaling": "",
+   "multiplier": null,
+   "damage": null,
+   "effects": [],
+   "battle_options": "300201301",
+   "battle_option_ids": [
+    300201301
    ],
    "evolution_level_required": 0,
    "trigger_keyword": "",
