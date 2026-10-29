@@ -62,11 +62,19 @@ function setupFilterListeners() {
       applyFiltersAndSort();
     });
   }
+
+  const teamSearch = document.getElementById('teamSearch');
+  if (teamSearch) {
+    teamSearch.addEventListener('input', e => {
+      currentFilters.searchTerm = e.target.value;
+      applyFiltersAndSort();
+    });
+  }
 }
 
 // Set up sort button listeners
 function setupSortListeners() {
-  const sortButtons = document.querySelectorAll('.sort-btn[data-sort]');
+  const sortButtons = document.querySelectorAll('.zn-db-sort-btn[data-sort]');
 
   sortButtons.forEach(button => {
     button.addEventListener('click', e => {
@@ -125,21 +133,19 @@ function resetFilterElements() {
 
   if (teamTypeFilter) teamTypeFilter.value = '';
   if (teamTierFilter) teamTierFilter.value = '';
+  const teamSearch = document.getElementById('teamSearch');
+  if (teamSearch) teamSearch.value = '';
 }
 
 // Update sort button active states
 function updateSortButtonStates() {
-  const sortButtons = document.querySelectorAll('.sort-btn[data-sort]');
+  const sortButtons = document.querySelectorAll('.zn-db-sort-btn[data-sort]');
 
   sortButtons.forEach(button => {
     const sortKey = button.getAttribute('data-sort');
-
+    button.classList.remove('active', 'asc', 'desc');
     if (sortKey === currentSort.key) {
-      button.classList.add('active');
-      button.textContent = `${button.textContent.replace(' ↑', '').replace(' ↓', '')} ${currentSort.direction === 'asc' ? '↑' : '↓'}`;
-    } else {
-      button.classList.remove('active');
-      button.textContent = button.textContent.replace(' ↑', '').replace(' ↓', '');
+      button.classList.add('active', currentSort.direction);
     }
   });
 }
@@ -188,8 +194,8 @@ function renderDesktopTable() {
       team => `
     <tr>
       <td><strong>${team.name}</strong></td>
-      <td><span class="team-type-badge ${team.type}">${getTeamTypeText(team.type)}</span></td>
-      <td><span class="team-tier-badge ${team.tier}">${getTeamTierText(team.tier)}</span></td>
+      <td>${getTeamTypeText(team.type)}</td>
+      <td>${getTeamTierText(team.tier)}</td>
       ${team.characters
         .map(char => {
           const element = getCharacterElement(char.name);
@@ -198,7 +204,7 @@ function renderDesktopTable() {
             <div class="character-cell">
               <img src="${char.image}" alt="${char.name}" class="character-portrait" loading="lazy" />
               <span class="character-name">${char.name}</span>
-              ${element ? `<span class="element-badge element-${element.toLowerCase()}">${element}</span>` : ''}
+              ${element ? `<span class="character-element">${element}</span>` : ''}
             </div>
           </td>
         `;
@@ -236,10 +242,7 @@ function renderMobileCards() {
     <div class="mobile-team-card">
       <div class="mobile-card-header">
         <h3 class="mobile-card-title">${team.name}</h3>
-        <div class="mobile-card-badges">
-          <span class="team-type-badge ${team.type}">${getTeamTypeText(team.type)}</span>
-          <span class="team-tier-badge ${team.tier}">${getTeamTierText(team.tier)}</span>
-        </div>
+        <p class="mobile-team-meta">${getTeamTypeText(team.type)}, ${getTeamTierText(team.tier)}</p>
       </div>
       
       <div class="mobile-card-characters">
@@ -251,7 +254,7 @@ function renderMobileCards() {
               <div class="character-position">${index + 1}</div>
               <img src="${char.image}" alt="${char.name}" class="mobile-character-portrait" loading="lazy" />
               <span class="mobile-character-name">${char.name}</span>
-              ${element ? `<span class="element-badge element-${element.toLowerCase()}">${element}</span>` : ''}
+              ${element ? `<span class="character-element">${element}</span>` : ''}
             </div>
           `;
           })
@@ -265,11 +268,13 @@ function renderMobileCards() {
     .join('');
 }
 
-// Update team count display (if needed)
+// Update the live team count next to the search box
 function updateTeamCount() {
-  // This function can be extended to show team count in the UI
-  // For now, it's a placeholder for future enhancements
-  // Displaying ${currentTeams.length} of ${ZONE_NOVA_TEAMS.length} teams
+  const countEl = document.getElementById('team-count');
+  if (!countEl) return;
+  const visible = currentTeams.length;
+  const total = ZONE_NOVA_TEAMS.length;
+  countEl.textContent = visible === total ? `${total} teams` : `${visible} of ${total} teams`;
 }
 
 // Function to handle responsive table/card switching

@@ -43,7 +43,10 @@ class ZoneNovaRankingsManager {
 
     // Controls
     this.elements.resetBtn = document.getElementById('clear-filters');
-    this.elements.sortButtons = document.querySelectorAll('.sort-btn');
+    this.elements.sortButtons = document.querySelectorAll('.zn-db-sort-btn');
+    this.elements.searchInput = document.getElementById('rankings-search');
+    this.elements.countEl = document.getElementById('rankings-count');
+    this.elements.noResultsEl = document.getElementById('rankings-no-results');
 
     // Rankings display
     this.elements.rankingsDisplay = document.getElementById('rankings-display');
@@ -103,6 +106,15 @@ class ZoneNovaRankingsManager {
       }
     });
 
+    // Search box
+    this.elements.searchInput?.addEventListener('input', () => {
+      try {
+        this.applyFilters();
+      } catch (error) {
+        console.error('Error handling search input:', error);
+      }
+    });
+
     // Character card selection (delegated — cards are static markup)
     document.addEventListener('click', e => {
       try {
@@ -135,7 +147,9 @@ class ZoneNovaRankingsManager {
     const charClass = this.elements.classFilter?.value || '';
     const rarity = this.elements.rarityFilter?.value || '';
     const element = this.elements.elementFilter?.value || '';
+    const search = (this.elements.searchInput?.value || '').trim().toLowerCase();
 
+    let visibleCount = 0;
     this.getAllCards().forEach(card => {
       const char = this.charById.get(parseInt(card.dataset.characterId || '0', 10));
       if (!char) {
@@ -146,11 +160,28 @@ class ZoneNovaRankingsManager {
         (!role || char.role === role) &&
         (!charClass || char.class === charClass) &&
         (!rarity || char.rarity === rarity) &&
-        (!element || char.element === element);
+        (!element || char.element === element) &&
+        (!search || (char.name || '').toLowerCase().includes(search));
       card.style.display = matches ? '' : 'none';
+      if (matches) visibleCount++;
     });
 
+    this.updateResultMeta(visibleCount);
+
     if (this.activeSort) this.applySort(this.activeSort, this.sortDirections[this.activeSort]);
+  }
+
+  updateResultMeta(visibleCount) {
+    const total = this.characters.length;
+    if (this.elements.countEl) {
+      this.elements.countEl.textContent =
+        visibleCount === total
+          ? `${total} characters`
+          : `${visibleCount} of ${total} characters`;
+    }
+    if (this.elements.noResultsEl) {
+      this.elements.noResultsEl.hidden = visibleCount !== 0;
+    }
   }
 
   /**
@@ -161,8 +192,13 @@ class ZoneNovaRankingsManager {
     const column = button.dataset.sort;
     if (!column) return;
 
-    const direction =
-      this.activeSort === column && this.sortDirections[column] === 'desc' ? 'asc' : 'desc';
+    let direction;
+    if (this.activeSort === column) {
+      direction = this.sortDirections[column] === 'desc' ? 'asc' : 'desc';
+    } else {
+      // stat columns default to best-first (descending); overall rank ascends (#1 first)
+      direction = column === 'overall' ? 'asc' : 'desc';
+    }
 
     this.activeSort = column;
     this.sortDirections[column] = direction;
@@ -170,8 +206,8 @@ class ZoneNovaRankingsManager {
 
     this.applySort(column, direction);
 
-    this.elements.sortButtons.forEach(btn => btn.classList.remove('active'));
-    button.classList.add('active');
+    this.elements.sortButtons.forEach(btn => btn.classList.remove('active', 'asc', 'desc'));
+    button.classList.add('active', direction);
   }
 
   applySort(column, direction) {
@@ -217,17 +253,20 @@ class ZoneNovaRankingsManager {
         if (filter) filter.value = '';
       }
     );
+    if (this.elements.searchInput) this.elements.searchInput.value = '';
 
     this.activeSort = null;
     this.sortDirections = {};
-    this.elements.sortButtons.forEach(btn => btn.classList.remove('active'));
+    this.elements.sortButtons.forEach(btn => btn.classList.remove('active', 'asc', 'desc'));
+    const overallBtn = Array.from(this.elements.sortButtons).find(
+      btn => btn.dataset.sort === 'overall'
+    );
+    if (overallBtn) overallBtn.classList.add('active', 'asc');
     ['hp', 'attack', 'defense', 'critRate'].forEach(col =>
       localStorage.removeItem(`zn-rankings-sort-${col}`)
     );
 
-    this.getAllCards().forEach(card => {
-      card.style.display = '';
-    });
+    this.applyFilters();
     this.applySort('overall', 'asc');
   }
 

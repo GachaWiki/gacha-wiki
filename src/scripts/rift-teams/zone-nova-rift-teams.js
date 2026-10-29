@@ -87,11 +87,21 @@ function setupRiftFilterListeners() {
     riftTierFilter.addEventListener('change', tierHandler);
     eventListeners.push({ element: riftTierFilter, event: 'change', handler: tierHandler });
   }
+
+  const riftSearch = document.getElementById('riftSearch');
+  if (riftSearch) {
+    const searchHandler = e => {
+      currentRiftFilters.searchTerm = e.target.value;
+      applyRiftFiltersAndSort();
+    };
+    riftSearch.addEventListener('input', searchHandler);
+    eventListeners.push({ element: riftSearch, event: 'input', handler: searchHandler });
+  }
 }
 
 // Set up sort button listeners
 function setupRiftSortListeners() {
-  const sortButtons = document.querySelectorAll('.rift-sort-btn[data-sort]');
+  const sortButtons = document.querySelectorAll('.zn-db-sort-btn[data-sort]');
 
   sortButtons.forEach(button => {
     const sortHandler = e => {
@@ -154,6 +164,8 @@ function resetRiftFilterElements() {
 
   if (riftTypeFilter) riftTypeFilter.value = '';
   if (riftTierFilter) riftTierFilter.value = '';
+  const riftSearch = document.getElementById('riftSearch');
+  if (riftSearch) riftSearch.value = '';
 }
 
 // Cache DOM elements for performance
@@ -164,18 +176,15 @@ let cachedMobileContainer = null;
 // Update sort button active states
 function updateRiftSortButtonStates() {
   if (!cachedSortButtons) {
-    cachedSortButtons = document.querySelectorAll('.rift-sort-btn[data-sort]');
+    cachedSortButtons = document.querySelectorAll('.zn-db-sort-btn[data-sort]');
   }
 
   cachedSortButtons.forEach(button => {
-    const sortKey = button.getAttribute('data-sort');
-
+    const sortKey = button.getAttribute('data-sort') || '';
+    button.classList.remove('active', 'asc', 'desc');
     if (sortKey === currentRiftSort.key) {
       button.classList.add('active');
-      button.textContent = `${button.textContent.replace(' ↑', '').replace(' ↓', '')} ${currentRiftSort.direction === 'asc' ? '↑' : '↓'}`;
-    } else {
-      button.classList.remove('active');
-      button.textContent = button.textContent.replace(' ↑', '').replace(' ↓', '');
+      if (sortKey) button.classList.add(currentRiftSort.direction);
     }
   });
 }
@@ -194,6 +203,16 @@ function applyRiftFiltersAndSort() {
 
   // Render updated rift teams
   renderRiftTeams();
+  updateRiftTeamCount();
+}
+
+// Update the live team count next to the search box
+function updateRiftTeamCount() {
+  const countEl = document.getElementById('rift-team-count');
+  if (!countEl) return;
+  const visible = currentRiftTeams.length;
+  const total = ZONE_NOVA_RIFT_TEAMS.length;
+  countEl.textContent = visible === total ? `${total} teams` : `${visible} of ${total} teams`;
 }
 
 // Render rift teams in both desktop table and mobile cards
@@ -229,9 +248,9 @@ function renderRiftDesktopTable() {
       team => `
     <tr>
       <td><strong>${escapeHtml(team.name)}</strong></td>
-      <td><span class="rift-type-badge ${team.type}">${escapeHtml(getRiftTeamTypeText(team.type))}</span></td>
-      <td><span class="rift-tier-badge ${team.tier}">${escapeHtml(getRiftTeamTierText(team.tier))}</span></td>
-      <td><div class="element-weakness-container">${team.elementWeakness ? team.elementWeakness.map(element => `<span class="element-weakness-badge element-weakness-${element.toLowerCase()}">${escapeHtml(element)}</span>`).join('') : '<span class="element-weakness-badge no-weakness">-</span>'}</div></td>
+      <td>${escapeHtml(getRiftTeamTypeText(team.type))}</td>
+      <td>${escapeHtml(getRiftTeamTierText(team.tier))}</td>
+      <td>${team.elementWeakness ? team.elementWeakness.map(element => escapeHtml(element)).join(', ') : '-'}</td>
       ${team.characters
         .map(char => {
           const element = getCharacterElement(char.name);
@@ -240,7 +259,7 @@ function renderRiftDesktopTable() {
             <div class="character-cell">
               <img src="${escapeHtml(char.image)}" alt="${escapeHtml(char.name)}" class="character-portrait" loading="lazy" />
               <span class="character-name">${escapeHtml(char.name)}</span>
-              ${element ? `<span class="element-badge element-${element.toLowerCase()}">${escapeHtml(element)}</span>` : ''}
+              ${element ? `<span class="character-element">${escapeHtml(element)}</span>` : ''}
             </div>
           </td>
         `;
@@ -280,10 +299,7 @@ function renderRiftMobileCards() {
     <div class="mobile-rift-team-card">
       <div class="mobile-rift-card-header">
         <h3 class="mobile-rift-card-title">${escapeHtml(team.name)}</h3>
-        <div class="mobile-rift-card-badges">
-          <span class="rift-type-badge ${team.type}">${escapeHtml(getRiftTeamTypeText(team.type))}</span>
-          <span class="rift-tier-badge ${team.tier}">${escapeHtml(getRiftTeamTierText(team.tier))}</span>
-        </div>
+        <p class="mobile-rift-meta">${escapeHtml(getRiftTeamTypeText(team.type))}, ${escapeHtml(getRiftTeamTierText(team.tier))}</p>
       </div>
       
       <div class="mobile-rift-card-characters">
@@ -295,14 +311,14 @@ function renderRiftMobileCards() {
               <div class="character-position">${index + 1}</div>
               <img src="${escapeHtml(char.image)}" alt="${escapeHtml(char.name)}" class="mobile-character-portrait" loading="lazy" />
               <span class="mobile-character-name">${escapeHtml(char.name)}</span>
-              ${element ? `<span class="element-badge element-${element.toLowerCase()}">${escapeHtml(element)}</span>` : ''}
+              ${element ? `<span class="character-element">${escapeHtml(element)}</span>` : ''}
             </div>
           `;
           })
           .join('')}
       </div>
       
-      ${team.elementWeakness ? `<div class="mobile-rift-card-weakness"><strong>Map Weakness:</strong> ${team.elementWeakness.map(element => `<span class="element-weakness-badge element-weakness-${element.toLowerCase()}">${escapeHtml(element)}</span>`).join(' ')}</div>` : ''}
+      ${team.elementWeakness ? `<div class="mobile-rift-card-weakness"><strong>Map Weakness:</strong> ${team.elementWeakness.map(element => escapeHtml(element)).join(', ')}</div>` : ''}
       ${team.notes ? `<div class="mobile-rift-card-notes">${escapeHtml(team.notes)}</div>` : ''}
     </div>
   `

@@ -11,6 +11,7 @@ import {
   viewIds,
 } from '../../../data/zone-nova/character-rankings.js';
 import ZNCharacterImage from '../../../components/zone-nova/ZNCharacterImage.astro';
+import '../../../styles/games/zone-nova/zn-character.css';
 ---
 
 <CharacterRankingsLayout
@@ -31,19 +32,19 @@ import ZNCharacterImage from '../../../components/zone-nova/ZNCharacterImage.ast
     <div class="character-selector">
       <h3 class="selector-title">Select Character</h3>
 
-      <!-- Filters and Sort Controls -->
-      <div class="filter-bar">
-        <div class="filter-controls">
-          <select class="filter-select" id="role-filter">
-            <option value="">Role</option>
+      <!-- Filters, sort and search (zn-db toolbar card) -->
+      <div class="zn-db-toolbar">
+        <div class="zn-db-filter-row">
+          <select class="zn-db-select" id="role-filter" aria-label="Filter by role">
+            <option value="">All Roles</option>
             <option value="Tank">Tank</option>
             <option value="DPS">DPS</option>
             <option value="Supporter">Supporter</option>
             <option value="Disruptor">Disruptor</option>
             <option value="Healer">Healer</option>
           </select>
-          <select class="filter-select" id="class-filter">
-            <option value="">Class</option>
+          <select class="zn-db-select" id="class-filter" aria-label="Filter by class">
+            <option value="">All Classes</option>
             <option value="Tank">Tank</option>
             <option value="Warrior">Warrior</option>
             <option value="Attacker">Attacker</option>
@@ -52,14 +53,14 @@ import ZNCharacterImage from '../../../components/zone-nova/ZNCharacterImage.ast
             <option value="Disruptor">Disruptor</option>
             <option value="Healer">Healer</option>
           </select>
-          <select class="filter-select" id="rarity-filter">
-            <option value="">Rarity</option>
+          <select class="zn-db-select" id="rarity-filter" aria-label="Filter by rarity">
+            <option value="">All Rarities</option>
             <option value="SSR">SSR</option>
             <option value="SR">SR</option>
             <option value="R">R</option>
           </select>
-          <select class="filter-select" id="element-filter">
-            <option value="">Element</option>
+          <select class="zn-db-select" id="element-filter" aria-label="Filter by element">
+            <option value="">All Elements</option>
             <option value="Fire">Fire</option>
             <option value="Ice">Ice</option>
             <option value="Wind">Wind</option>
@@ -67,13 +68,33 @@ import ZNCharacterImage from '../../../components/zone-nova/ZNCharacterImage.ast
             <option value="Chaos">Chaos</option>
           </select>
         </div>
-        <div class="sort-controls">
-          <button class="sort-btn" data-sort="hp">HP</button>
-          <button class="sort-btn" data-sort="attack">ATK</button>
-          <button class="sort-btn" data-sort="defense">DEF</button>
-          <button class="sort-btn" data-sort="critRate">CRIT</button>
-          <button class="reset-btn" id="clear-filters">Reset</button>
+        <div class="zn-db-sort-row">
+          <span class="zn-db-sort-label">Sort by:</span>
+          <button type="button" class="zn-db-sort-btn active asc" data-sort="overall">
+            Overall
+          </button>
+          <button type="button" class="zn-db-sort-btn" data-sort="hp">Max HP</button>
+          <button type="button" class="zn-db-sort-btn" data-sort="attack">Max ATK</button>
+          <button type="button" class="zn-db-sort-btn" data-sort="defense">Max DEF</button>
+          <button type="button" class="zn-db-sort-btn" data-sort="critRate">Max Crit Rate</button>
+          <button type="button" class="zn-db-reset-btn" id="clear-filters">Reset</button>
         </div>
+        <div class="zn-db-search-row">
+          <input
+            type="text"
+            id="rankings-search"
+            placeholder="Search characters..."
+            class="zn-db-search-input"
+            aria-label="Search characters"
+          />
+          <span class="zn-db-count" id="rankings-count">
+            {ZONE_NOVA_CHARACTERS.length} characters
+          </span>
+        </div>
+        <p class="zn-db-no-results" id="rankings-no-results" hidden>
+          No characters match the current filters. Clear the search or filters to see all
+          characters.
+        </p>
       </div>
 
       <!-- Character Grid -->
@@ -109,28 +130,9 @@ import ZNCharacterImage from '../../../components/zone-nova/ZNCharacterImage.ast
               </div>
               <div class="character-info">
                 <h3>{char.name}</h3>
-                <div class="character-badges">
-                  <span
-                    class={`rarity-badge ${char.rarity.toLowerCase()}`}
-                    aria-label={`${char.rarity} rarity`}
-                  >
-                    {char.rarity}
-                  </span>
-                  <span
-                    class={`class-badge ${char.class.toLowerCase().replace(' ', '-')}`}
-                    aria-label={`${char.class} class`}
-                  >
-                    {char.class}
-                  </span>
-                  {char.faction && (
-                    <span
-                      class={`faction-badge ${char.faction.toLowerCase().replace(/\s+/g, '-').replace(/\./g, '')}`}
-                      aria-label={`${char.faction} faction`}
-                    >
-                      {char.faction}
-                    </span>
-                  )}
-                </div>
+                <p class="character-meta">
+                  {[char.rarity, char.class, char.faction].filter(Boolean).join(', ')}
+                </p>
                 <div class="character-stats" aria-label="Character max statistics">
                   <div class="stat-item">
                     <span class="stat-label">HP</span>

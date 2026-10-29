@@ -1,6 +1,8 @@
 ---
 // Import the dedicated layout
 import TeamSynergyLayout from '../../../layouts/zone-nova/TeamSynergyLayout.astro';
+import { ZONE_NOVA_TEAMS } from '../../../data/zone-nova/team-synergy.js';
+import '../../../styles/games/zone-nova/zn-character.css';
 ---
 
 <TeamSynergyLayout
@@ -41,10 +43,10 @@ import TeamSynergyLayout from '../../../layouts/zone-nova/TeamSynergyLayout.astr
           </div>
         </div>
 
-        <!-- Team Database Components -->
-        <div class="team-database-filter-bar">
-          <div class="filter-controls">
-            <select class="filter-select" id="teamTypeFilter">
+        <!-- Team database toolbar (zn-db card) -->
+        <div class="zn-db-toolbar">
+          <div class="zn-db-filter-row">
+            <select class="zn-db-select" id="teamTypeFilter" aria-label="Filter by team type">
               <option value="">All Team Types</option>
               <option value="guild-raid">Guild Raid Teams</option>
               <option value="general">General PvE</option>
@@ -52,8 +54,7 @@ import TeamSynergyLayout from '../../../layouts/zone-nova/TeamSynergyLayout.astr
               <option value="dot">DOT</option>
               <option value="pvp">PVP Teams</option>
             </select>
-
-            <select class="filter-select" id="teamTierFilter">
+            <select class="zn-db-select" id="teamTierFilter" aria-label="Filter by tier">
               <option value="">All Tiers</option>
               <option value="sss">SSS Teams</option>
               <option value="ss">SS Teams</option>
@@ -62,12 +63,24 @@ import TeamSynergyLayout from '../../../layouts/zone-nova/TeamSynergyLayout.astr
               <option value="situational">Situational Teams</option>
             </select>
           </div>
-
-          <div class="sort-controls">
-            <button class="sort-btn" data-sort="name">Name</button>
-            <button class="sort-btn" data-sort="type">Type</button>
-            <button class="sort-btn" data-sort="tier">Tier</button>
-            <button class="reset-btn" id="resetFilters">Reset All</button>
+          <div class="zn-db-sort-row">
+            <span class="zn-db-sort-label">Sort by:</span>
+            <button type="button" class="zn-db-sort-btn active asc" data-sort="name">
+              Name
+            </button>
+            <button type="button" class="zn-db-sort-btn" data-sort="type">Type</button>
+            <button type="button" class="zn-db-sort-btn" data-sort="tier">Tier</button>
+            <button type="button" class="zn-db-reset-btn" id="resetFilters">Reset</button>
+          </div>
+          <div class="zn-db-search-row">
+            <input
+              type="text"
+              id="teamSearch"
+              placeholder="Search teams, characters, notes..."
+              class="zn-db-search-input"
+              aria-label="Search teams"
+            />
+            <span class="zn-db-count" id="team-count">{ZONE_NOVA_TEAMS.length} teams</span>
           </div>
         </div>
 

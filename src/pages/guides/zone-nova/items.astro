@@ -2,6 +2,7 @@
 // Zone Nova item database — generated from the decrypted master data (stack_item_info)
 import ItemsLayout from '../../../layouts/zone-nova/ItemsLayout.astro';
 import { items, itemTypes } from '../../../data/zone-nova/items.js';
+import '../../../styles/games/zone-nova/zn-character.css';
 ---
 
 <ItemsLayout
@@ -16,18 +17,23 @@ import { items, itemTypes } from '../../../data/zone-nova/items.js';
       game files.
     </p>
 
-    <div class="zn-items-filter-bar">
-      <input
-        type="search"
-        id="zn-item-search"
-        placeholder="Search items..."
-        aria-label="Search items"
-      />
-      <select id="zn-item-type" aria-label="Filter by type">
-        <option value="">All types</option>
-        {itemTypes.map((t) => <option value={t.name}>{t.name} ({t.count})</option>)}
-      </select>
-      <span class="zn-items-filter-count" id="zn-item-count"></span>
+    <div class="zn-db-toolbar">
+      <div class="zn-db-filter-row">
+        <select class="zn-db-select" id="zn-item-type" aria-label="Filter by type">
+          <option value="">All types</option>
+          {itemTypes.map((t) => <option value={t.name}>{t.name} ({t.count})</option>)}
+        </select>
+      </div>
+      <div class="zn-db-search-row">
+        <input
+          type="search"
+          id="zn-item-search"
+          placeholder="Search items..."
+          class="zn-db-search-input"
+          aria-label="Search items"
+        />
+        <span class="zn-db-count" id="zn-item-count">{items.length} items</span>
+      </div>
     </div>
 
     <div class="zn-items-grid" id="zn-items-grid"></div>
@@ -56,7 +62,10 @@ import { items, itemTypes } from '../../../data/zone-nova/items.js';
           (!t || it.type === t) &&
           (!q || it.name.toLowerCase().includes(q) || it.description.toLowerCase().includes(q))
       );
-      countEl!.textContent = `${list.length} / ${items.length} items`;
+      countEl!.textContent =
+        list.length === items.length
+          ? `${items.length} items`
+          : `${list.length} of ${items.length} items`;
       if (!list.length) {
         grid!.innerHTML = '<div class="zn-items-empty">No items match your filters.</div>';
         return;
@@ -68,9 +77,7 @@ import { items, itemTypes } from '../../../data/zone-nova/items.js';
             <img class="zn-item-icon" src="${R2}${encodeURIComponent(it.icon)}" alt="${esc(it.name)}" loading="lazy" width="56" height="56" onerror="this.style.visibility='hidden'">
             <div class="zn-item-info">
               <div class="zn-item-name">${esc(it.name)}</div>
-              <div class="zn-item-meta">
-                <span class="zn-item-badge">${esc(it.type)}</span>
-              </div>
+              <div class="zn-item-meta">${esc(it.type)}</div>
               ${it.description ? `<div class="zn-item-desc">${esc(it.description)}</div>` : ''}
             </div>
           </div>`

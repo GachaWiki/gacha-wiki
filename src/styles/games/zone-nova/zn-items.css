@@ -11,44 +11,12 @@
   margin: 0 0 1.25rem 0;
 }
 
-.zn-items-filter-bar {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.75rem;
-  align-items: center;
-  padding: 0.9rem 1rem;
-  margin-bottom: 1.25rem;
-  background: rgba(255, 255, 255, 0.04);
-  border: 1px solid rgba(255, 255, 255, 0.08);
-  border-radius: 10px;
-}
-
-.zn-items-filter-bar input,
-.zn-items-filter-bar select {
-  background: rgba(0, 0, 0, 0.35);
-  color: #eef2f7;
-  border: 1px solid rgba(255, 255, 255, 0.12);
-  border-radius: 8px;
-  padding: 0.5rem 0.75rem;
-  font-size: var(--text-md);
-  outline: none;
-}
-
-.zn-items-filter-bar input:focus,
-.zn-items-filter-bar select:focus {
-  outline: none;
-}
-
-.zn-items-filter-bar input {
-  flex: 1 1 220px;
-  min-width: 180px;
-}
-
-.zn-items-filter-count {
-  color: var(--zn-text-secondary, #b8c4d0);
-  font-size: var(--text-md);
-  margin-left: auto;
-  white-space: nowrap;
+/* Toolbar uses the shared zn-db- system (zn-character.css).
+   One select: cap width so it does not stretch across the card. */
+@media (min-width: 1025px) {
+  .zn-db-toolbar .zn-db-select {
+    flex: 0 1 240px;
+  }
 }
 
 .zn-items-grid {
@@ -96,23 +64,16 @@
   flex-wrap: wrap;
 }
 
-.zn-item-badge {
+.zn-item-meta {
   font-size: var(--text-2xs);
-  padding: 0.1rem 0.5rem;
-  border-radius: 999px;
-  border: 1px solid rgba(255, 255, 255, 0.15);
-  color: #cfd9e4;
-  background: rgba(255, 255, 255, 0.05);
+  color: var(--amber-glow);
+  font-weight: 600;
   white-space: nowrap;
 }
 
-.zn-item-badge.rarity-SSR { color: #ffd76e; border-color: rgba(255, 215, 110, 0.45); }
-.zn-item-badge.rarity-SR  { color: #c9a6ff; border-color: rgba(201, 166, 255, 0.4); }
-.zn-item-badge.rarity-R   { color: #8fc7ff; border-color: rgba(143, 199, 255, 0.4); }
-
 .zn-item-desc {
   font-size: var(--text-xs);
-  color: var(--zn-text-secondary, #9fb0c0);
+  color: var(--zn-text-primary);
   line-height: 1.4;
   display: -webkit-box;
   -webkit-line-clamp: 3;

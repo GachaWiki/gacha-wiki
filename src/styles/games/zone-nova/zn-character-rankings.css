@@ -44,79 +44,6 @@
 }
 
 /* Filter Controls - Match Character Comparison */
-.filter-bar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 1rem;
-  margin: 2rem auto 1.5rem auto;
-  flex-wrap: wrap;
-  padding: 0 1rem;
-}
-
-.filter-controls {
-  display: flex;
-  gap: 0.5rem;
-  align-items: center;
-  flex-wrap: wrap;
-}
-
-.filter-select {
-  padding: 0.4rem 0.7rem;
-  background: var(--zn-bg-secondary);
-  color: var(--zn-text-secondary);
-  border-radius: 8px;
-  border: 1px solid var(--zn-border-primary);
-  font-size: var(--text-sm);
-  cursor: pointer;
-  font-family: var(--font-display), sans-serif;
-}
-
-.filter-select:focus {
-  outline: none;
-  background: var(--zn-bg-tertiary);
-  color: var(--zn-text-primary);
-  border-color: var(--amber-glow);
-}
-
-.sort-controls {
-  display: flex;
-  gap: 0.5rem;
-  align-items: center;
-  flex-wrap: wrap;
-}
-
-.sort-btn {
-  padding: 0.4rem 0.7rem;
-  background: var(--zn-bg-secondary);
-  color: var(--zn-text-secondary);
-  border-radius: 8px;
-  border: 1px solid var(--zn-border-primary);
-  font-size: var(--text-sm);
-  cursor: pointer;
-  font-family: var(--font-display), sans-serif;
-}
-
-.sort-btn.active {
-  background: var(--teal-crystal);
-  color: white;
-  border-color: var(--teal-crystal);
-}
-
-.reset-btn {
-  padding: 0.5rem 1rem;
-  background: var(--amber-glow);
-  color: var(--zn-bg-primary);
-  border-radius: 10px;
-  border: 2px solid var(--amber-glow);
-  font-size: var(--text-md);
-  font-weight: 600;
-  cursor: pointer;
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
-  font-family: var(--font-display), sans-serif;
-}
-
 /* Character Grid */
 .character-grid {
   display: grid;
@@ -244,10 +171,10 @@
   color: var(--zn-text-primary);
 }
 
-.character-badges {
-  display: flex;
-  gap: 0.5rem;
-  flex-wrap: wrap;
+.character-meta {
+  margin: 0.2rem 0 0.5rem;
+  color: var(--zn-text-primary);
+  font-size: var(--text-sm);
 }
 
 .character-subtitle {
@@ -536,17 +463,6 @@
     margin-bottom: 1rem;
   }
 
-  .filter-bar {
-    flex-direction: column;
-    gap: 0.8rem;
-  }
-
-  .filter-controls,
-  .sort-controls {
-    width: 100%;
-    justify-content: center;
-  }
-
   .character-grid {
     grid-template-columns: 1fr;
     gap: 0.75rem;
@@ -644,18 +560,6 @@
   .selector-title {
     font-size: var(--text-base);
     margin-bottom: 0.75rem;
-  }
-
-  .filter-bar {
-    flex-direction: column;
-    gap: 0.6rem;
-    padding: 0 0.5rem;
-  }
-
-  .filter-controls,
-  .sort-controls {
-    width: 100%;
-    justify-content: center;
   }
 
   .character-grid {

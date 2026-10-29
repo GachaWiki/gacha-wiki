@@ -29,52 +29,18 @@
 /*                           FILTER & CONTROLS                             */
 /* ═══════════════════════════════════════════════════════════════════════ */
 
-.rift-team-database-filter-bar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 1rem;
-  margin: 2rem auto 1.5rem auto;
-  flex-wrap: wrap;
-  padding: 0 1rem;
-}
+/* Toolbar uses the shared zn-db- system (zn-character.css) */
 
-.rift-filter-controls,
-.rift-sort-controls {
-  display: flex;
-  gap: 0.5rem;
-  align-items: center;
-  flex-wrap: wrap;
-}
-
-.rift-filter-select,
-.rift-sort-btn {
-  padding: 0.4rem 0.7rem;
-  background: var(--zn-bg-primary);
-  color: var(--zn-text-secondary);
-  border-radius: 4px;
-  border: 1px solid var(--mocha-mousse);
+/* Plain-text helpers for rift rows */
+.mobile-rift-meta {
+  margin: 0.2rem 0 0;
+  color: var(--zn-text-primary);
   font-size: var(--text-sm);
-  cursor: pointer;
 }
 
-.rift-sort-btn.active {
-  background: var(--amber-glow);
-  color: white;
-  border-color: var(--amber-glow);
-}
-
-.rift-reset-btn {
-  padding: 0.5rem 1rem;
-  background: var(--rose-quartz);
-  color: white;
-  border-radius: 4px;
-  border: 1px solid var(--rose-quartz);
-  font-size: var(--text-md);
-  font-weight: 600;
-  cursor: pointer;
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
+.character-element {
+  color: var(--zn-text-muted);
+  font-size: var(--text-xs);
 }
 
 /* ═══════════════════════════════════════════════════════════════════════ */
@@ -182,15 +148,6 @@ table.rift-team-table td:nth-child(4) {
   vertical-align: middle;
 }
 
-/* Element weakness container */
-.element-weakness-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 0.3rem;
-  flex-wrap: wrap;
-}
-
 /* Notes column specific styling */
 table.rift-team-table th:nth-child(9) {
   text-align: center;
@@ -206,409 +163,6 @@ table.rift-team-table td:nth-child(9) {
   padding: 1rem 0.8rem;
 }
 
-/* ═══════════════════════════════════════════════════════════════════════ */
-/*                              BADGES                                     */
-/* ═══════════════════════════════════════════════════════════════════════ */
-
-/* ═══════════════════════════════════════════════════════════════════════ */
-/*                        RIFT TYPE BADGES                                 */
-/* ═══════════════════════════════════════════════════════════════════════ */
-
-.rift-type-badge {
-  display: inline-block;
-  padding: 0.4rem 0.8rem;
-  border-radius: 4px;
-  font-size: var(--text-sm);
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-  white-space: nowrap;
-  line-height: 1.2;
-  vertical-align: middle;
-  border: none;
-  cursor: default;
-  margin: 0.2rem 0.3rem 0.2rem 0;
-}
-
-/* Rift Type Colors - Space-Time Rift themed */
-.rift-type-badge.rift-vii {
-  background: #3f51b5;
-  color: #fff;
-}
-
-.rift-type-badge.rift-viii {
-  background: #673ab7;
-  color: #fff;
-}
-
-.rift-type-badge.rift-ix {
-  background: #9c27b0;
-  color: #fff;
-}
-
-.rift-type-badge.rift-x {
-  background: #e91e63;
-  color: #fff;
-}
-
-.rift-type-badge.rift-xi {
-  background: #f44336;
-  color: #fff;
-}
-
-.rift-type-badge.rift-general {
-  background: #607d8b;
-  color: #fff;
-}
-
-.rift-type-badge.rift-speedrun {
-  background: #ff5722;
-  color: #fff;
-}
-
-/* ═══════════════════════════════════════════════════════════════════════ */
-/*                        RIFT TIER BADGES                                 */
-/* ═══════════════════════════════════════════════════════════════════════ */
-
-.rift-tier-badge {
-  display: inline-block;
-  padding: 0.4rem 0.8rem;
-  border-radius: 4px;
-  font-size: var(--text-sm);
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-  white-space: nowrap;
-  line-height: 1.2;
-  vertical-align: middle;
-  border: none;
-  cursor: default;
-  margin: 0.2rem 0.3rem 0.2rem 0;
-}
-
-/* Rift Tier Colors - matching tier list gradient system */
-.rift-tier-badge.sss {
-  background: linear-gradient(135deg, #ff4757, #ff6b7a);
-  color: #fff;
-  font-weight: 700;
-}
-
-.rift-tier-badge.ss {
-  background: linear-gradient(135deg, #ffa502, #ffb822);
-  color: #000;
-  font-weight: 700;
-}
-
-.rift-tier-badge.s {
-  background: linear-gradient(135deg, #3742fa, #5f66ff);
-  color: #fff;
-  font-weight: 700;
-}
-
-.rift-tier-badge.a {
-  background: linear-gradient(135deg, #2ed573, #4ed88e);
-  color: #000;
-  font-weight: 700;
-}
-
-.rift-tier-badge.situational {
-  background: linear-gradient(135deg, var(--mocha-mousse), var(--zn-border-light));
-  color: #000;
-  font-weight: 600;
-  font-size: var(--text-2xs);
-}
-
-/* ═══════════════════════════════════════════════════════════════════════ */
-/*                             CHARACTERS                                  */
-/* ═══════════════════════════════════════════════════════════════════════ */
-
-/* Character cells in table - reusing from team synergy */
-.character-cell {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 0.3rem;
-  padding: 0.5rem;
-  height: auto;
-  min-height: 100px;
-  max-height: 120px;
-  justify-content: center;
-}
-
-.character-portrait {
-  width: 60px;
-  height: 60px;
-  border-radius: 50%;
-  object-fit: cover;
-  border: 2px solid var(--amber-glow);
-}
-
-.character-name {
-  font-size: var(--text-xs);
-  padding: 0.15rem 0.35rem;
-  background: rgba(255, 183, 77, 0.1);
-  border-radius: 6px;
-  color: var(--zn-text-primary);
-  font-weight: 500;
-  text-align: center;
-  max-width: 80px;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  line-height: 1.2;
-  margin-bottom: 0.1rem;
-}
-
-/* Element badges - reusing from team synergy */
-.character-cell .element-badge,
-.mobile-character-item .element-badge {
-  font-weight: 600;
-  border-radius: 4px;
-  text-transform: uppercase;
-  display: inline-block;
-  line-height: 1;
-  vertical-align: top;
-}
-
-.character-cell .element-badge {
-  font-size: var(--text-3xs);
-  padding: 0.1rem 0.3rem;
-  margin-top: 0.2rem;
-  letter-spacing: 0.3px;
-}
-
-.mobile-character-item .element-badge {
-  font-size: var(--text-3xs);
-  padding: 0.15rem 0.3rem;
-  margin-top: 0.3rem;
-  letter-spacing: 0.2px;
-  border-radius: 3px;
-}
-
-/* Element badge colors - shared between desktop and mobile */
-.character-cell .element-badge.element-fire,
-.mobile-character-item .element-badge.element-fire {
-  background: #ff6b6b !important;
-  color: #fff !important;
-}
-
-.character-cell .element-badge.element-ice,
-.mobile-character-item .element-badge.element-ice {
-  background: #4dbfff !important;
-  color: #fff !important;
-}
-
-.character-cell .element-badge.element-wind,
-.mobile-character-item .element-badge.element-wind {
-  background: #4dffb8 !important;
-  color: #000 !important;
-}
-
-.character-cell .element-badge.element-holy,
-.mobile-character-item .element-badge.element-holy {
-  background: #ffa500 !important;
-  color: #000 !important;
-}
-
-.character-cell .element-badge.element-chaos,
-.mobile-character-item .element-badge.element-chaos {
-  background: #b266ff !important;
-  color: #fff !important;
-}
-
-/* ═══════════════════════════════════════════════════════════════════════ */
-/*                             MOBILE CARDS                               */
-/* ═══════════════════════════════════════════════════════════════════════ */
-
-.mobile-rift-card-view {
-  display: none;
-  gap: 1.5rem;
-  padding: 1rem;
-}
-
-.mobile-rift-team-card {
-  background: var(--zn-bg-primary);
-  border-radius: 4px;
-  border: 1px solid var(--amber-glow);
-  padding: 1.2rem 1rem;
-  margin-bottom: 1.5rem;
-  display: flex;
-  flex-direction: column;
-  gap: 0.7rem;
-}
-
-.mobile-rift-card-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  gap: 1rem;
-}
-
-.mobile-rift-card-title {
-  font-size: var(--text-base);
-  font-weight: 700;
-  color: var(--amber-glow);
-  margin: 0;
-  line-height: 1.3;
-}
-
-.mobile-rift-card-badges {
-  display: flex;
-  flex-direction: column;
-  gap: 0.5rem;
-  align-items: flex-end;
-}
-
-.mobile-rift-card-characters {
-  display: flex;
-  flex-wrap: nowrap;
-  gap: 1rem;
-  margin-top: 1rem;
-  justify-content: space-between;
-  padding: 0.8rem 0 0.5rem 0;
-  overflow-x: auto;
-}
-
-.mobile-character-item {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 0.4rem;
-  padding: 0.3rem;
-  flex-shrink: 0;
-  min-width: 70px;
-  position: relative;
-}
-
-.character-position {
-  position: absolute;
-  top: -8px;
-  left: 50%;
-  transform: translateX(-50%);
-  background: var(--amber-glow);
-  color: #000;
-  width: 18px;
-  height: 18px;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: var(--text-2xs);
-  font-weight: 700;
-  z-index: 1;
-  border: 2px solid var(--zn-bg-primary);
-}
-
-.mobile-character-portrait {
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  object-fit: cover;
-  border: 2px solid var(--amber-glow);
-}
-
-.mobile-character-name {
-  font-size: var(--text-2xs);
-  padding: 0.2rem 0.4rem;
-  background: rgba(255, 183, 77, 0.1);
-  border-radius: 4px;
-  color: var(--zn-text-primary);
-  font-weight: 500;
-  text-align: center;
-  max-width: 70px;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  margin-bottom: 0.2rem;
-}
-
-.mobile-rift-card-notes {
-  color: var(--zn-text-secondary);
-  font-size: var(--text-md);
-  line-height: 1.4;
-  margin-top: 1rem;
-  padding-top: 0.5rem;
-  border-top: 1px solid rgba(255, 183, 77, 0.2);
-  word-wrap: break-word;
-  word-break: break-word;
-  white-space: normal;
-  max-width: 100%;
-  overflow-wrap: break-word;
-  hyphens: auto;
-}
-
-/* ═══════════════════════════════════════════════════════════════════════ */
-/*                            EMPTY STATES                                 */
-/* ═══════════════════════════════════════════════════════════════════════ */
-
-.no-rift-teams-message,
-.no-rift-teams-message-mobile {
-  background: rgba(255, 183, 77, 0.05);
-  border-radius: 4px;
-  padding: 2rem;
-  text-align: center;
-  color: var(--zn-text-secondary);
-  font-style: italic;
-  border: 1px dashed rgba(255, 183, 77, 0.2);
-}
-
-/* ═══════════════════════════════════════════════════════════════════════ */
-/*                        ELEMENT WEAKNESS BADGES                          */
-/* ═══════════════════════════════════════════════════════════════════════ */
-
-.element-weakness-badge {
-  display: inline-block;
-  padding: 0.3rem 0.6rem;
-  border-radius: 4px;
-  font-size: var(--text-xs);
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-  white-space: nowrap;
-  line-height: 1.2;
-  vertical-align: middle;
-  border: none;
-  cursor: default;
-  margin: 0.1rem 0.2rem 0.1rem 0;
-  min-width: 60px;
-  text-align: center;
-}
-
-/* Fire element weakness */
-.element-weakness-badge.element-weakness-fire {
-  background: var(--zn-badge-fire);
-  color: var(--zn-badge-white);
-}
-
-/* Wind element weakness */
-.element-weakness-badge.element-weakness-wind {
-  background: var(--zn-badge-wind);
-  color: var(--zn-badge-black);
-}
-
-/* Ice element weakness */
-.element-weakness-badge.element-weakness-ice {
-  background: var(--zn-badge-ice);
-  color: var(--zn-badge-white);
-}
-
-/* Holy element weakness */
-.element-weakness-badge.element-weakness-holy {
-  background: var(--zn-badge-holy);
-  color: var(--zn-badge-black);
-}
-
-/* Chaos element weakness */
-.element-weakness-badge.element-weakness-chaos {
-  background: var(--zn-badge-chaos);
-  color: var(--zn-badge-white);
-}
-
-/* No weakness */
-.element-weakness-badge.no-weakness {
-  background: var(--zn-badge-gray);
-  color: var(--zn-badge-white);
-}
 
 .mobile-rift-card-weakness {
   color: var(--zn-text-secondary);
@@ -654,32 +208,6 @@ table.rift-team-table td:nth-child(9) {
     display: block;
   }
 
-  .rift-team-database-filter-bar {
-    flex-direction: column;
-    gap: 1rem;
-    padding: 0 0.5rem;
-  }
-
-  .rift-filter-controls,
-  .rift-sort-controls {
-    width: 100%;
-    justify-content: center;
-    gap: 0.8rem;
-  }
-
-  .rift-filter-select,
-  .rift-sort-btn {
-    padding: 0.6rem 1rem;
-    font-size: var(--text-md);
-    min-width: 80px;
-    text-align: center;
-  }
-
-  .rift-reset-btn {
-    padding: 0.6rem 1.2rem;
-    font-size: var(--text-md);
-  }
-
   .main-content-container {
     padding: 0 0.5rem;
   }
@@ -719,19 +247,6 @@ table.rift-team-table td:nth-child(9) {
     margin-bottom: 0.3rem;
   }
 
-  .rift-type-badge,
-  .rift-tier-badge,
-  .element-weakness-badge {
-    font-size: var(--text-xs);
-    padding: 0.4rem 0.7rem;
-    line-height: 1.2;
-    margin: 0.2rem 0.1rem;
-  }
-
-  .element-weakness-badge {
-    padding: 0.25rem 0.5rem;
-    font-size: var(--text-2xs);
-  }
 }
 
 /* Small mobile (480px and below) */
@@ -812,44 +327,10 @@ table.rift-team-table td:nth-child(9) {
     padding-top: 0.7rem;
   }
 
-  .rift-filter-select,
-  .rift-sort-btn {
-    padding: 0.5rem 0.8rem;
-    font-size: var(--text-sm);
-    min-width: 70px;
-  }
-
-  .rift-reset-btn {
-    padding: 0.5rem 1rem;
-    font-size: var(--text-sm);
-  }
-
-  .rift-type-badge,
-  .rift-tier-badge,
-  .element-weakness-badge {
-    font-size: var(--text-2xs);
-    padding: 0.3rem 0.6rem;
-  }
-
-  .element-weakness-badge {
-    padding: 0.2rem 0.4rem;
-    font-size: var(--text-3xs);
-  }
 }
 
 /* Tablet (769px to 1024px) */
 @media (max-width: 1024px) and (min-width: 769px) {
-  .rift-type-badge,
-  .rift-tier-badge,
-  .element-weakness-badge {
-    font-size: var(--text-xs);
-    padding: 0.3rem 0.6rem;
-  }
-
-  .element-weakness-badge {
-    padding: 0.25rem 0.5rem;
-    font-size: var(--text-2xs);
-  }
 
   .character-name {
     font-size: var(--text-xs);
@@ -881,8 +362,4 @@ table.rift-team-table td:nth-child(9) {
     border-width: 2px;
   }
 
-  .rift-type-badge,
-  .rift-tier-badge {
-    border-width: 2px;
-  }
 }

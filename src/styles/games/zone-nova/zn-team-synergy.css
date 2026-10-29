@@ -29,58 +29,17 @@
 /*                           FILTER & CONTROLS                             */
 /* ═══════════════════════════════════════════════════════════════════════ */
 
-.team-database-filter-bar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 1rem;
-  margin: 2rem auto 1.5rem auto;
-  flex-wrap: wrap;
-  padding: 0 1rem;
-}
-
-.filter-controls,
-.sort-controls {
-  display: flex;
-  gap: 0.5rem;
-  align-items: center;
-  flex-wrap: wrap;
-}
-
-.filter-select,
-.sort-btn {
-  padding: 0.4rem 0.7rem;
-  background: var(--zn-bg-primary);
-  color: var(--zn-text-secondary);
-  border-radius: 8px;
-  border: 1px solid var(--mocha-mousse);
+/* Team database toolbar uses the shared zn-db- system (zn-character.css).
+   Plain-text helpers for team rows. */
+.mobile-team-meta {
+  margin: 0.2rem 0 0;
+  color: var(--zn-text-primary);
   font-size: var(--text-sm);
-  cursor: pointer;
-  transition: all 0.2s ease;
 }
 
-.sort-btn.active {
-  background: var(--amber-glow);
-  color: white;
-  border-color: var(--amber-glow);
-}
-
-.reset-btn {
-  padding: 0.5rem 1rem;
-  background: linear-gradient(135deg, var(--rose-quartz), #e91e63);
-  color: white;
-  border-radius: 10px;
-  border: 2px solid var(--rose-quartz);
-  font-size: var(--text-md);
-  font-weight: 600;
-  cursor: pointer;
-  transition: all 0.3s ease;
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
-}
-
-.reset-btn:active {
-  transform: translateY(0);
+.character-element {
+  color: var(--zn-text-muted);
+  font-size: var(--text-xs);
 }
 
 /* ═══════════════════════════════════════════════════════════════════════ */
@@ -192,110 +151,32 @@ table.team-table td:nth-child(8) {
 /*                        TEAM TYPE BADGES                                 */
 /* ═══════════════════════════════════════════════════════════════════════ */
 
-.team-type-badge {
-  display: inline-block;
-  padding: 0.4rem 0.8rem;
-  border-radius: 4px;
-  font-size: var(--text-sm);
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-  white-space: nowrap;
-  line-height: 1.2;
-  vertical-align: middle;
-  border: none;
-  cursor: default;
-  margin: 0.2rem 0.3rem 0.2rem 0;
-}
 
 /* Team Type Colors */
-.team-type-badge.rift {
-  background: #f44336;
-  color: #fff;
-}
 
-.team-type-badge.guild-raid {
-  background: #795548;
-  color: #fff;
-}
 
-.team-type-badge.character {
-  background: #9c27b0;
-  color: #fff;
-}
 
-.team-type-badge.general {
-  background: #4caf50;
-  color: #fff;
-}
 
-.team-type-badge.extra-attack {
-  background: #ff9800;
-  color: #000;
-}
 
-.team-type-badge.dot {
-  background: #e91e63;
-  color: #fff;
-}
 
-.team-type-badge.pvp {
-  background: var(--zn-badge-indigo);
-  color: var(--zn-badge-white);
-}
 
 /* ═══════════════════════════════════════════════════════════════════════ */
 /*                        TEAM TIER BADGES                                 */
 /*                   Using styles from badge.css                           */
 /* ═══════════════════════════════════════════════════════════════════════ */
 
-.team-tier-badge {
-  display: inline-block;
-  padding: 0.4rem 0.8rem;
-  border-radius: 4px;
-  font-size: var(--text-sm);
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-  white-space: nowrap;
-  line-height: 1.2;
-  vertical-align: middle;
-  border: none;
-  cursor: default;
-  margin: 0.2rem 0.3rem 0.2rem 0;
-}
+
 
 /* Team Tier Colors - matching tier list gradient system */
-.team-tier-badge.sss {
-  background: linear-gradient(135deg, #ff4757, #ff6b7a);
-  color: #fff;
-  font-weight: 700;
-}
 
-.team-tier-badge.ss {
-  background: linear-gradient(135deg, #ffa502, #ffb822);
-  color: #000;
-  font-weight: 700;
-}
 
-.team-tier-badge.s {
-  background: linear-gradient(135deg, #3742fa, #5f66ff);
-  color: #fff;
-  font-weight: 700;
-}
 
-.team-tier-badge.a {
-  background: linear-gradient(135deg, #2ed573, #4ed88e);
-  color: #000;
-  font-weight: 700;
-}
 
-.team-tier-badge.situational {
-  background: linear-gradient(135deg, var(--mocha-mousse), var(--zn-border-light));
-  color: #000;
-  font-weight: 600;
-  font-size: var(--text-2xs);
-}
+
+
+
+
+
 
 /* ═══════════════════════════════════════════════════════════════════════ */
 /*                             CHARACTERS                                  */
@@ -339,61 +220,22 @@ table.team-table td:nth-child(8) {
 }
 
 /* Element badges */
-.character-cell .element-badge,
-.mobile-character-item .element-badge {
-  font-weight: 600;
-  border-radius: 4px;
-  text-transform: uppercase;
-  display: inline-block;
-  line-height: 1;
-  vertical-align: top;
-}
 
-.character-cell .element-badge {
-  font-size: var(--text-3xs);
-  padding: 0.1rem 0.3rem;
-  margin-top: 0.2rem;
-  letter-spacing: 0.3px;
-}
 
-.mobile-character-item .element-badge {
-  font-size: var(--text-3xs);
-  padding: 0.15rem 0.3rem;
-  margin-top: 0.3rem;
-  letter-spacing: 0.2px;
-  border-radius: 3px;
-}
+
+
+
 
 /* Element badge colors - shared between desktop and mobile */
-.character-cell .element-badge.element-fire,
-.mobile-character-item .element-badge.element-fire {
-  background: #ff6b6b !important;
-  color: #fff !important;
-}
 
-.character-cell .element-badge.element-ice,
-.mobile-character-item .element-badge.element-ice {
-  background: #4dbfff !important;
-  color: #fff !important;
-}
 
-.character-cell .element-badge.element-wind,
-.mobile-character-item .element-badge.element-wind {
-  background: #4dffb8 !important;
-  color: #000 !important;
-}
 
-.character-cell .element-badge.element-holy,
-.mobile-character-item .element-badge.element-holy {
-  background: #ffa500 !important;
-  color: #000 !important;
-}
 
-.character-cell .element-badge.element-chaos,
-.mobile-character-item .element-badge.element-chaos {
-  background: #b266ff !important;
-  color: #fff !important;
-}
+
+
+
+
+
 
 /* ═══════════════════════════════════════════════════════════════════════ */
 /*                             MOBILE CARDS                               */
@@ -547,35 +389,6 @@ table.team-table td:nth-child(8) {
     display: block;
   }
 
-  .team-database-filter-bar {
-    flex-direction: column;
-    gap: 1rem;
-    padding: 0 0.5rem;
-  }
-
-  .filter-controls,
-  .sort-controls {
-    width: 100%;
-    justify-content: center;
-    gap: 0.8rem;
-  }
-
-  .filter-select,
-  .sort-btn {
-    padding: 0.8rem 1.2rem; /* Larger touch targets */
-    font-size: var(--text-md); /* Larger text for readability */
-    min-width: 88px; /* Larger minimum width */
-    min-height: 44px; /* Minimum touch target size */
-    text-align: center;
-  }
-
-  .reset-btn {
-    padding: 0.8rem 1.2rem; /* Larger touch target */
-    font-size: var(--text-md); /* Larger text */
-    min-height: 44px; /* Minimum touch target size */
-    text-align: center;
-  }
-
   .main-content-container {
     padding: 0 0.5rem;
   }
@@ -614,15 +427,6 @@ table.team-table td:nth-child(8) {
     padding: 0.2rem 0.5rem;
     margin-bottom: 0.3rem;
   }
-
-  .team-type-badge,
-  .team-tier-badge {
-    font-size: var(--text-xs);
-    padding: 0.4rem 0.7rem;
-    line-height: 1.2;
-    margin: 0.2rem 0.1rem;
-  }
-}
 
 /* Small mobile (480px and below) */
 @media (max-width: 480px) {
@@ -687,32 +491,8 @@ table.team-table td:nth-child(8) {
     padding-top: 0.7rem;
   }
 
-  .filter-select,
-  .sort-btn {
-    padding: 0.5rem 0.8rem;
-    font-size: var(--text-sm);
-    min-width: 70px;
-  }
-
-  .reset-btn {
-    padding: 0.5rem 1rem;
-    font-size: var(--text-sm);
-  }
-
-  .team-type-badge,
-  .team-tier-badge {
-    font-size: var(--text-2xs);
-    padding: 0.3rem 0.6rem;
-  }
-}
-
 /* Tablet (769px to 1024px) */
 @media (max-width: 1024px) and (min-width: 769px) {
-  .team-type-badge {
-    font-size: var(--text-xs);
-    padding: 0.3rem 0.6rem;
-  }
-
   .character-name {
     font-size: var(--text-xs);
   }
@@ -729,18 +509,9 @@ table.team-table td:nth-child(8) {
     border-width: 2px;
   }
 
-  .team-type-badge,
-  .team-tier-badge {
-    border-width: 2px;
-  }
-}
-
 /* Reduced motion preferences */
 @media (prefers-reduced-motion: reduce) {
   .mobile-team-card,
-  .filter-select,
-  .sort-btn,
-  .reset-btn,
   table.team-table tr {
     transition: none;
     animation: none;
@@ -749,18 +520,6 @@ table.team-table td:nth-child(8) {
 
 /* Mobile landscape specific adjustments */
 @media (max-height: 768px) and (orientation: landscape) and (hover: none) {
-  .team-database-filter-bar {
-    flex-direction: row;
-    gap: 1rem;
-    padding: 0.5rem;
-  }
-
-  .filter-controls,
-  .sort-controls {
-    width: auto;
-    gap: 0.5rem;
-  }
-
   .mobile-card-view {
     gap: 1rem;
     padding: 0.5rem;
