@@ -797,7 +797,7 @@ export const GSA_STATUSES = {
       "vi": "PHY PEN Up",
       "zh-cn": "物理穿透提升"
     },
-    "icon": null,
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/buff_pDefPen_Up_Icon.webp",
     "kind": "buff",
     "order": 48,
     "desc": null,
@@ -814,7 +814,7 @@ export const GSA_STATUSES = {
       "vi": "Energy PEN Up",
       "zh-cn": "能量穿透提升"
     },
-    "icon": null,
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/buff_mDefPen_Up_Icon.webp",
     "kind": "buff",
     "order": 49,
     "desc": "Ignores a percentage of the target's Energy RES, offset by their Energy PEN RES.",
@@ -848,7 +848,7 @@ export const GSA_STATUSES = {
       "vi": "Healing Crit Bonus Up",
       "zh-cn": "治疗暴击加成提升"
     },
-    "icon": null,
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/buff_HealCritAmp_Up_Icon.webp",
     "kind": "buff",
     "order": 51,
     "desc": null,
@@ -1205,7 +1205,7 @@ export const GSA_STATUSES = {
       "vi": "Energy Damage Down",
       "zh-cn": "能量伤害降低"
     },
-    "icon": null,
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/buff_Mdmg_Down_Icon.webp",
     "kind": "debuff",
     "order": 72,
     "desc": null,
@@ -1919,7 +1919,7 @@ export const GSA_STATUSES = {
       "vi": "Counter Attack",
       "zh-cn": "反制"
     },
-    "icon": null,
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/buff_Counter_Icon.webp",
     "kind": "buff",
     "order": 114,
     "desc": null,
@@ -2140,6 +2140,16 @@ export const GSA_CHAR_STATUSES = {
     "139000002",
     "139000208"
   ],
+  "danxin": [
+    "139000275",
+    "139000205",
+    "139000207",
+    "139000221",
+    "139000240",
+    "139000215",
+    "139000214",
+    "139000024"
+  ],
   "ojima-erina": [
     "139000205",
     "139000207",
@@ -2202,6 +2212,17 @@ export const GSA_CHAR_STATUSES = {
     "139000024",
     "139000014"
   ],
+  "awana": [
+    "139000240",
+    "139000247",
+    "139000210",
+    "139000266",
+    "139000235",
+    "139000230",
+    "139000245",
+    "139000208",
+    "139000010"
+  ],
   "belle-clumsy-cowgirl": [
     "139000226",
     "139000234",
@@ -2211,15 +2232,5 @@ export const GSA_CHAR_STATUSES = {
     "139000003",
     "139000024",
     "139000208"
-  ],
-  "danxin": [
-    "139000275",
-    "139000205",
-    "139000207",
-    "139000221",
-    "139000240",
-    "139000215",
-    "139000214",
-    "139000024"
   ]
 };

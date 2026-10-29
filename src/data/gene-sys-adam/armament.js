@@ -157,7 +157,7 @@ export const gsaSignatureGear = [
     "slot": "Gloves",
     "name": "Urban Walker Gloves",
     "nameEx": "Urban Walker Gloves EX",
-    "flavor": "Made from high-grade, abrasion-resistant fibers, they showcase Adele’s calm, rational, and supremely disciplined professional demeanor.",
+    "flavor": "Made from high-grade, abrasion-resistant fibers, they showcase Adele's calm, rational, and supremely disciplined professional demeanor.",
     "icon": "Equip_cr041_glove",
     "quality": "Blue",
     "stats": [
@@ -643,7 +643,7 @@ export const gsaSignatureGear = [
     "slot": "Shoes",
     "name": "Brilliant Charm High Heels",
     "nameEx": "Brilliant Charm High Heels EX",
-    "flavor": "Dazzling custom-made high heels that make every step confident and captivating, a key highlight of a dealer’s attire.",
+    "flavor": "Dazzling custom-made high heels that make every step confident and captivating, a key highlight of a dealer's attire.",
     "icon": "Equip_cr044_shoe",
     "quality": "Blue",
     "stats": [
@@ -874,7 +874,7 @@ export const gsaSignatureGear = [
     "slot": "Weapon",
     "name": "For the Cherished One",
     "nameEx": "For the Cherished One EX",
-    "flavor": "No matter what you give Chloe, she’ll happily accept it. Even if it’s a weapon, she’ll take good care of it and put it to good use.",
+    "flavor": "No matter what you give Chloe, she'll happily accept it. Even if it's a weapon, she'll take good care of it and put it to good use.",
     "icon": "Equip_cr046_wp",
     "quality": "Blue",
     "stats": [
@@ -913,7 +913,7 @@ export const gsaSignatureGear = [
     "slot": "Shoes",
     "name": "Worn High Heels",
     "nameEx": "Worn High Heels EX",
-    "flavor": "Every woman should own a pair of high heels that is truly hers. However, Chloe seems to have worn this pair for a very long time, as the soles are already worn smooth.",
+    "flavor": "Every adult woman should own a pair of high heels that is truly hers. However, Chloe seems to have worn this pair for a very long time, as the soles are already worn smooth.",
     "icon": "Equip_cr046_shoe",
     "quality": "Blue",
     "stats": [
@@ -952,7 +952,7 @@ export const gsaSignatureGear = [
     "slot": "Accessory",
     "name": "Tender Embrace",
     "nameEx": "Tender Embrace EX",
-    "flavor": "Even though it doesn’t really help, there’s still a longing to be held tightly... That’s why they always wear a belt tight enough to leave a mark.",
+    "flavor": "Even though it doesn't really help, there's still a longing to be held tightly... That's why they always wear a belt tight enough to leave a mark.",
     "icon": null,
     "quality": "Gold",
     "stats": [
@@ -1183,7 +1183,7 @@ export const gsaSignatureGear = [
     "slot": "Shoes",
     "name": "Patrol Duty Heeled Boots",
     "nameEx": "Patrol Duty Heeled Boots EX",
-    "flavor": "Sleek, black, high-heeled long boots designed for city duty. They have a sharp and slender appearance while remaining comfortable and agile. Essential gear for Rachel’s daily assignments.",
+    "flavor": "Sleek, black, high-heeled long boots designed for city duty. They have a sharp and slender appearance while remaining comfortable and agile. Essential gear for Rachel's daily assignments.",
     "icon": "Equip_cr048_shoe",
     "quality": "Blue",
     "stats": [
@@ -1552,7 +1552,7 @@ export const gsaSignatureGear = [
     "slot": "Weapon",
     "name": "Pale Lily",
     "nameEx": "Pale Lily EX",
-    "flavor": "The familiar BT9 model from Carducci’s training days, repainted in a pure white livery for Annabelle, offering one last prayer for their enemies.",
+    "flavor": "The familiar BT9 model from Carducci's training days, repainted in a pure white livery for Annabelle, offering one last prayer for their enemies.",
     "icon": "Equip_cr051_wp",
     "quality": "Blue",
     "stats": [
@@ -1828,7 +1828,7 @@ export const gsaSignatureGear = [
     "slot": "Weapon",
     "name": "Personal Fruit Knife",
     "nameEx": "Personal Fruit Knife EX",
-    "flavor": "It won’t hurt anyone; it will only protect you and me... together, forever.",
+    "flavor": "It won't hurt anyone; it will only protect you and me... together, forever.",
     "icon": "Equip_cr054_wp",
     "quality": "Blue",
     "stats": [
@@ -2320,7 +2320,7 @@ export const gsaSignatureGear = [
     "slot": "Accessory",
     "name": "Carducci Signature Ring",
     "nameEx": "Carducci Signature Ring EX",
-    "flavor": "A minimalist design forged from high-strength stainless steel, engraved with the Carducci Family crest. Composed, understate, and durable, it’s not just a symbol of belonging to the \"Family\" but also a promise of trust and responsibility.",
+    "flavor": "A minimalist design forged from high-strength stainless steel, engraved with the Carducci Family crest. Composed, understate, and durable, it's not just a symbol of belonging to the \"Family\" but also a promise of trust and responsibility.",
     "icon": null,
     "quality": "Gold",
     "stats": [
@@ -2609,6 +2609,144 @@ export const gsaSignatureGear = [
     ]
   },
   {
+    "slug": "danxin",
+    "char": "Danxin",
+    "cr": 60,
+    "element": "Fire",
+    "weaponClass": "Physical",
+    "slot": "Gloves",
+    "name": "Silk-Bound Gloves",
+    "nameEx": "Silk-Bound Gloves EX",
+    "flavor": "Specially made bracers. The interior is reinforced with steel, and the outer layer is covered in tough leather. The dragon emblem at the wrist serves as proof of being an immediate disciple.",
+    "icon": "Equip_cr060_glove",
+    "quality": "Blue",
+    "stats": [
+      {
+        "label": "ATK",
+        "pct": false,
+        "base": 44,
+        "max": 56
+      },
+      {
+        "label": "Fire ATK",
+        "pct": true,
+        "base": 1000,
+        "max": 1000
+      },
+      {
+        "label": "ATK Speed",
+        "pct": false,
+        "base": 182,
+        "max": 210
+      },
+      {
+        "label": "ACC",
+        "pct": false,
+        "base": 58,
+        "max": 60
+      }
+    ]
+  },
+  {
+    "slug": "danxin",
+    "char": "Danxin",
+    "cr": 60,
+    "element": "Fire",
+    "weaponClass": "Physical",
+    "slot": "Weapon",
+    "name": "Fire Esper Bracers",
+    "nameEx": "Fire Esper Bracers EX",
+    "flavor": "An ancient fist style passed down through the Long Yingtian clan for generations. It merges martial arts with the principles of nature, its form like a dragon lurking in the abyss, its energy advancing in like endless waves. Only those with a steadfast will and unwavering self-discipline can grasp its essence.",
+    "icon": "Equip_cr060_wp",
+    "quality": "Blue",
+    "stats": [
+      {
+        "label": "ATK",
+        "pct": false,
+        "base": 44,
+        "max": 56
+      },
+      {
+        "label": "Fire ATK",
+        "pct": true,
+        "base": 1000,
+        "max": 1000
+      },
+      {
+        "label": "Block",
+        "pct": false,
+        "base": 107,
+        "max": 142
+      },
+      {
+        "label": "DMG BLK",
+        "pct": false,
+        "base": 96,
+        "max": 113
+      }
+    ]
+  },
+  {
+    "slug": "danxin",
+    "char": "Danxin",
+    "cr": 60,
+    "element": "Fire",
+    "weaponClass": "Physical",
+    "slot": "Shoes",
+    "name": "Silk-Bound Footwear",
+    "nameEx": "Silk-Bound Footwear EX",
+    "flavor": "Tall boots that combine modern design with the needs of martial artists. Multi-layered wide straps securely wrap around the ankles and calves, providing excellent stability; the sole material effectively eliminates the sound of footsteps.",
+    "icon": "Equip_cr060_shoe",
+    "quality": "Blue",
+    "stats": [
+      {
+        "label": "ATK",
+        "pct": false,
+        "base": 44,
+        "max": 56
+      },
+      {
+        "label": "Fire ATK",
+        "pct": true,
+        "base": 1000,
+        "max": 1000
+      },
+      {
+        "label": "Healing Received Up",
+        "pct": false,
+        "base": 188,
+        "max": 234
+      },
+      {
+        "label": "Crit Evasion",
+        "pct": false,
+        "base": 80,
+        "max": 95
+      }
+    ]
+  },
+  {
+    "slug": "danxin",
+    "char": "Danxin",
+    "cr": 60,
+    "element": null,
+    "weaponClass": "Physical",
+    "slot": "Accessory",
+    "name": "Serenity Mala",
+    "nameEx": "Serenity Mala EX",
+    "flavor": "Composed of 108 smooth ebony beads. When he needs to think clearly or dispel distracting thoughts, Danxin rolls the beads, restoring her mind to a state of perfect peace, \"like a clear mirror and still water.\"",
+    "icon": null,
+    "quality": "Gold",
+    "stats": [
+      {
+        "label": "ATK",
+        "pct": false,
+        "base": 77,
+        "max": 86
+      }
+    ]
+  },
+  {
     "slug": "ojima-erina",
     "char": "Ojima Erina",
     "cr": 61,
@@ -2821,7 +2959,7 @@ export const gsaSignatureGear = [
     "slot": "Shoes",
     "name": "Foreman's Leather Shoes",
     "nameEx": "Foreman's Leather Shoes EX",
-    "flavor": "Simple yet stylish, mirror the uniform’s color scheme and exuding confidence and elegance with every step. For Shiraishi Ai, as a foreman, they are a symbol of self-discipline and composure.",
+    "flavor": "Simple yet stylish, mirror the uniform's color scheme and exuding confidence and elegance with every step. For Shiraishi Ai, as a foreman, they are a symbol of self-discipline and composure.",
     "icon": "Equip_cr062_shoe",
     "quality": "Blue",
     "stats": [
@@ -2992,7 +3130,7 @@ export const gsaSignatureGear = [
     "slot": "Accessory",
     "name": "Vogue Charm",
     "nameEx": "Vogue Charm EX",
-    "flavor": "Kana's backpack is covered in plushies and glittery charms, a reflection of her personal taste. Whenever she finds one she likes, she adds it, though she’s probably lost a few along the way.",
+    "flavor": "Kana's backpack is covered in plushies and glittery charms, a reflection of her personal taste. Whenever she finds one she likes, she adds it, though she's probably lost a few along the way.",
     "icon": null,
     "quality": "Gold",
     "stats": [
@@ -3151,7 +3289,7 @@ export const gsaSignatureGear = [
     "slot": "Gloves",
     "name": "Nio's Gauntlets",
     "nameEx": "Nio's Gauntlets EX",
-    "flavor": "Named after the Vajra Guardians, this pair of gauntlets can resist Fudomaru's special esper powers and serve as a bastion for one’s spirit.",
+    "flavor": "Named after the Vajra Guardians, this pair of gauntlets can resist Fudomaru's special esper powers and serve as a bastion for one's spirit.",
     "icon": "Equip_cr065_glove",
     "quality": "Blue",
     "stats": [
@@ -3190,7 +3328,7 @@ export const gsaSignatureGear = [
     "slot": "Weapon",
     "name": "Fudomaru",
     "nameEx": "Fudomaru EX",
-    "flavor": "Only those with unwavering resolve can wield this Esper, but the price of its immense protective power is a gradual erosion of the wielder’s spirit.",
+    "flavor": "Only those with unwavering resolve can wield this Esper, but the price of its immense protective power is a gradual erosion of the wielder's spirit.",
     "icon": "Equip_cr065_wp",
     "quality": "Blue",
     "stats": [
@@ -3229,7 +3367,7 @@ export const gsaSignatureGear = [
     "slot": "Shoes",
     "name": "Lacquered Geta Heels",
     "nameEx": "Lacquered Geta Heels EX",
-    "flavor": "A high-end pair with multiple layers of lacquer. The soles was deliberately made higher to compensate for her height disadvantage, but she insists it’s just \"for a better view.\"",
+    "flavor": "A high-end pair with multiple layers of lacquer. The soles was deliberately made higher to compensate for her height disadvantage, but she insists it's just \"for a better view.\"",
     "icon": "Equip_cr065_shoe",
     "quality": "Blue",
     "stats": [
@@ -3289,7 +3427,7 @@ export const gsaSignatureGear = [
     "slot": "Gloves",
     "name": "Sword Maiden's Finger",
     "nameEx": "Sword Maiden's Finger EX",
-    "flavor": "Exquisite nail art that doesn’t interfere with sword dancing. Each line is carefully crafted, creating an elegance that doesn't sacrifice its deadly aura.",
+    "flavor": "Exquisite nail art that doesn't interfere with sword dancing. Each line is carefully crafted, creating an elegance that doesn't sacrifice its deadly aura.",
     "icon": "Equip_cr066_glove",
     "quality": "Blue",
     "stats": [
@@ -3407,14 +3545,14 @@ export const gsaSignatureGear = [
     "name": "Floral Kanzashi",
     "nameEx": "Floral Kanzashi EX",
     "flavor": "A hairpin adorned with traditional fabric flowers, used to neatly and smoothly tie back her jet-black hair. A tidy appearance is also a form of etiquette.",
-    "icon": null,
+    "icon": "Equip_cr066_acc",
     "quality": "Gold",
     "stats": [
       {
         "label": "ATK",
         "pct": false,
-        "base": 77,
-        "max": 86
+        "base": 400,
+        "max": 1100
       }
     ]
   },
@@ -3428,7 +3566,7 @@ export const gsaSignatureGear = [
     "name": "Starry Feather Gloves",
     "nameEx": "Starry Feather Gloves EX",
     "flavor": "A pair of asymmetrical, artistic gloves. The left is a long glove with a night-sky gradient, while the right is a short, pure-white glove adorned with 3D white roses and soft lace, symbolizing purity and dreams.",
-    "icon": null,
+    "icon": "Equip_cr074_glove",
     "quality": "Blue",
     "stats": [
       {
@@ -3467,7 +3605,7 @@ export const gsaSignatureGear = [
     "name": "Cloc19 Limited Edition",
     "nameEx": "Cloc19 Limited Edition EX",
     "flavor": "A limited-edition pistol from Cloc Arms that uses a special dyeing method to give it an elegant and unique ivory-white color, it is a self-defense weapon specially prepared for Jessica by Lola.",
-    "icon": null,
+    "icon": "Equip_cr074_wp",
     "quality": "Blue",
     "stats": [
       {
@@ -3500,7 +3638,7 @@ export const gsaSignatureGear = [
     "name": "White Rose Shoes",
     "nameEx": "White Rose Shoes EX",
     "flavor": "High heels designed to match her exclusive performance costume, enhancing the overall light and pure feeling.",
-    "icon": null,
+    "icon": "Equip_cr074_shoe",
     "quality": "Blue",
     "stats": [
       {
@@ -3539,7 +3677,7 @@ export const gsaSignatureGear = [
     "name": "Golden Leaf Hairpiece",
     "nameEx": "Golden Leaf Hairpiece EX",
     "flavor": "A headpiece made to match her custom stage outfit; the dazzling sapphire complement Jessica's angelic features.",
-    "icon": null,
+    "icon": "Equip_cr074_acc",
     "quality": "Gold",
     "stats": [
       {
@@ -3553,6 +3691,144 @@ export const gsaSignatureGear = [
         "pct": true,
         "base": 1500,
         "max": 2500
+      }
+    ]
+  },
+  {
+    "slug": "awana",
+    "char": "Awana",
+    "cr": 78,
+    "element": "Dark",
+    "weaponClass": "Energy",
+    "slot": "Gloves",
+    "name": "HL Work Gloves",
+    "nameEx": "HL Work Gloves EX",
+    "flavor": "Heavy-duty non-slip gloves featuring reinforced palms and knuckles, built for grueling labor and material transport. Out in the field, many personnel refuse to take them off post-shift, taking no chances with unexpected injuries.",
+    "icon": null,
+    "quality": "Blue",
+    "stats": [
+      {
+        "label": "ATK",
+        "pct": false,
+        "base": 118,
+        "max": 151
+      },
+      {
+        "label": "Dark ATK",
+        "pct": true,
+        "base": 1000,
+        "max": 1000
+      },
+      {
+        "label": "Energy Boost",
+        "pct": false,
+        "base": 62,
+        "max": 74
+      },
+      {
+        "label": "ATK Speed",
+        "pct": false,
+        "base": 163,
+        "max": 169
+      }
+    ]
+  },
+  {
+    "slug": "awana",
+    "char": "Awana",
+    "cr": 78,
+    "element": "Dark",
+    "weaponClass": "Energy",
+    "slot": "Weapon",
+    "name": "Keg Pack",
+    "nameEx": "Keg Pack EX",
+    "flavor": "A pressurized draft beer delivery backpack, equipped with padded shoulder and waist straps to distribute the weight of the nearly 20 kg keg, allowing for single-handed dispensing of ice-cold beer. Health regulations mandate that all refills on location must come straight from the pack.",
+    "icon": null,
+    "quality": "Blue",
+    "stats": [
+      {
+        "label": "ATK",
+        "pct": false,
+        "base": 118,
+        "max": 151
+      },
+      {
+        "label": "Dark ATK",
+        "pct": true,
+        "base": 1000,
+        "max": 1000
+      },
+      {
+        "label": "Crit",
+        "pct": false,
+        "base": 97,
+        "max": 140
+      },
+      {
+        "label": "Crit DMG",
+        "pct": false,
+        "base": 217,
+        "max": 244
+      }
+    ]
+  },
+  {
+    "slug": "awana",
+    "char": "Awana",
+    "cr": 78,
+    "element": "Dark",
+    "weaponClass": "Energy",
+    "slot": "Shoes",
+    "name": "Athletic Sneakers",
+    "nameEx": "Athletic Sneakers EX",
+    "flavor": "Lightweight sneakers featuring a breathable mesh upper and wear-resistant soles. Awana frequently goes road running to build up her stamina, wearing through her soles faster than the changing of seasons.",
+    "icon": null,
+    "quality": "Blue",
+    "stats": [
+      {
+        "label": "ATK",
+        "pct": false,
+        "base": 118,
+        "max": 151
+      },
+      {
+        "label": "Dark ATK",
+        "pct": true,
+        "base": 1000,
+        "max": 1000
+      },
+      {
+        "label": "ATK Speed",
+        "pct": false,
+        "base": 182,
+        "max": 210
+      },
+      {
+        "label": "Evasion",
+        "pct": false,
+        "base": 58,
+        "max": 60
+      }
+    ]
+  },
+  {
+    "slug": "awana",
+    "char": "Awana",
+    "cr": 78,
+    "element": null,
+    "weaponClass": "Energy",
+    "slot": "Accessory",
+    "name": "HL Baseball Cap",
+    "nameEx": "HL Baseball Cap EX",
+    "flavor": "A baseball cap included with the beer vendor uniform, making it easy to identify the wearer as staff. Pulling the brim low reduces the chances of being recognized.",
+    "icon": null,
+    "quality": "Gold",
+    "stats": [
+      {
+        "label": "ATK",
+        "pct": false,
+        "base": 400,
+        "max": 1100
       }
     ]
   },
@@ -3691,144 +3967,6 @@ export const gsaSignatureGear = [
         "pct": true,
         "base": 1500,
         "max": 2500
-      }
-    ]
-  },
-  {
-    "slug": "danxin",
-    "char": "Danxin",
-    "cr": 60,
-    "element": "Fire",
-    "weaponClass": "Physical",
-    "slot": "Gloves",
-    "name": "Silk-Bound Gloves",
-    "nameEx": "Silk-Bound Gloves EX",
-    "flavor": "Specially made bracers. The interior is reinforced with steel, and the outer layer is covered in tough leather. The dragon emblem at the wrist serves as proof of being an immediate disciple.",
-    "icon": "Equip_cr060_glove",
-    "quality": "Blue",
-    "stats": [
-      {
-        "label": "ATK",
-        "pct": false,
-        "base": 44,
-        "max": 56
-      },
-      {
-        "label": "Fire ATK",
-        "pct": true,
-        "base": 1000,
-        "max": 1000
-      },
-      {
-        "label": "ATK Speed",
-        "pct": false,
-        "base": 182,
-        "max": 210
-      },
-      {
-        "label": "ACC",
-        "pct": false,
-        "base": 58,
-        "max": 60
-      }
-    ]
-  },
-  {
-    "slug": "danxin",
-    "char": "Danxin",
-    "cr": 60,
-    "element": "Fire",
-    "weaponClass": "Physical",
-    "slot": "Weapon",
-    "name": "Fire Esper Bracers",
-    "nameEx": "Fire Esper Bracers EX",
-    "flavor": "An ancient fist style passed down through the Long Yingtian clan for generations. It merges martial arts with the principles of nature, its form like a dragon lurking in the abyss, its energy advancing in like endless waves. Only those with a steadfast will and unwavering self-discipline can grasp its essence.",
-    "icon": "Equip_cr060_wp",
-    "quality": "Blue",
-    "stats": [
-      {
-        "label": "ATK",
-        "pct": false,
-        "base": 44,
-        "max": 56
-      },
-      {
-        "label": "Fire ATK",
-        "pct": true,
-        "base": 1000,
-        "max": 1000
-      },
-      {
-        "label": "Block",
-        "pct": false,
-        "base": 107,
-        "max": 142
-      },
-      {
-        "label": "DMG BLK",
-        "pct": false,
-        "base": 96,
-        "max": 113
-      }
-    ]
-  },
-  {
-    "slug": "danxin",
-    "char": "Danxin",
-    "cr": 60,
-    "element": "Fire",
-    "weaponClass": "Physical",
-    "slot": "Shoes",
-    "name": "Silk-Bound Footwear",
-    "nameEx": "Silk-Bound Footwear EX",
-    "flavor": "Tall boots that combine modern design with the needs of martial artists. Multi-layered wide straps securely wrap around the ankles and calves, providing excellent stability; the sole material effectively eliminates the sound of footsteps.",
-    "icon": "Equip_cr060_shoe",
-    "quality": "Blue",
-    "stats": [
-      {
-        "label": "ATK",
-        "pct": false,
-        "base": 44,
-        "max": 56
-      },
-      {
-        "label": "Fire ATK",
-        "pct": true,
-        "base": 1000,
-        "max": 1000
-      },
-      {
-        "label": "Healing Received Up",
-        "pct": false,
-        "base": 188,
-        "max": 234
-      },
-      {
-        "label": "Crit Evasion",
-        "pct": false,
-        "base": 80,
-        "max": 95
-      }
-    ]
-  },
-  {
-    "slug": "danxin",
-    "char": "Danxin",
-    "cr": 60,
-    "element": null,
-    "weaponClass": "Physical",
-    "slot": "Accessory",
-    "name": "Serenity Mala",
-    "nameEx": "Serenity Mala EX",
-    "flavor": "Composed of 108 smooth ebony beads. When he needs to think clearly or dispel distracting thoughts, Danxin rolls the beads, restoring her mind to a state of perfect peace, \"like a clear mirror and still water.\"",
-    "icon": null,
-    "quality": "Gold",
-    "stats": [
-      {
-        "label": "ATK",
-        "pct": false,
-        "base": 77,
-        "max": 86
       }
     ]
   }
@@ -4299,9 +4437,8 @@ export const gsaDismantleReturns = [
   }
 ];
 
-// Localized gear slot names (game-official, from the per-locale characters
-// gear arrays) -> EN slot names, for joining signature gear art on the
-// character pages in every language.
+// Slot-name aliases for the localized character pages (game's own slot words
+// per language -> the wiki slot keys used by [slug].astro gear cards).
 export const GSA_GEAR_SLOT_ALIAS = {
   '両手': 'Gloves', '武器': 'Weapon', '足部': 'Shoes', 'アクセサリー': 'Accessory',
   '장갑': 'Gloves', '무기': 'Weapon', '신발': 'Shoes', '액세서리': 'Accessory',

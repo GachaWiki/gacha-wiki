@@ -1,4 +1,4 @@
-// Gene-Sys: Adam character roster (42 profiled characters).
+// Gene-Sys: Adam character roster (38 profiled characters).
 // Source: live game data from BlueStacks (com.neversoft.cr.erolabs), Patch/_settings
 // DES-CBC tables decrypted to pipe-text in D:/GeneSysAdam/output/tables_json.
 // Skill descs resolved from SkillTemplateTextData + EN localization + SkillEffectData
@@ -37,7 +37,12 @@ export const gsaCharacters = [
       "name": "Light",
       "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/battleelement_5.webp"
     },
-    "job": {"id": 2, "name": "Striker", "color": "#EA3333", "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/fighters_5.webp" },
+    "job": {
+      "id": 2,
+      "name": "Striker",
+      "color": "#EA3333",
+      "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/fighters_5.webp"
+    },
     "attackType": {
       "id": 1,
       "name": "Physical",
@@ -104,7 +109,7 @@ export const gsaCharacters = [
         "mainStat": null,
         "gcd": null,
         "desc": "On basic attack hit, High chance to grant self ATK SPD Up 20% (6s).",
-        "detail": "Rachel is always on her mind; the thought of not wanting to make Rachel worry makes her stronger.",
+        "detail": "Her thoughts are always on Rachel. As long as she thinks, \"I can't let Rachel worry,\" she can become even more resilient.",
         "cooldown": null,
         "cost": null,
         "statuses": [],
@@ -212,7 +217,12 @@ export const gsaCharacters = [
       "name": "Earth",
       "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/battleelement_2.webp"
     },
-    "job": {"id": 3, "name": "Sniper", "color": "#FFC405", "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/archer_2.webp" },
+    "job": {
+      "id": 3,
+      "name": "Sniper",
+      "color": "#FFC405",
+      "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/archer_2.webp"
+    },
     "attackType": {
       "id": 2,
       "name": "Energy",
@@ -511,7 +521,7 @@ export const gsaCharacters = [
       "interest": "Fitness",
       "personality": "Calm, steady, resilient, and strong-willed.",
       "resumeParas": [
-        "An orphan from a small southern island nation, she lost her parents while they were being smuggled into Tobia. She ended up homeless, was forced into child labor, and was abused by drug lords. When the cartel was busted, she was sent to live and grow up at House of Saint Violet. Later, she became a police officer, but soon after, the \"Blood Moon Night\" incident occurred. She rushed to the House of Saint Violet after receiving a report, only to find that many of her friends had been killed. Overwhelmed with guilt that she, as a police officer, had been powerless to stop the tragedy, she resigned from her post and began to train relentlessly. Vera started searching for the other survivors from that night, vowing to personally protect her friends from the House of Saint Violet."
+        "An orphan from a small southern island nation, she lost her parents while they were being smuggled into Tobia. She ended up homeless, was forced into child labor, and was abused by drug lords. When the cartel was busted, she was sent to live and grow up at House of Saint Violet. As an adult, she became a police officer, but soon after, the \"Blood Moon Night\" incident occurred. She rushed to the House of Saint Violet after receiving a report, only to find that many of her friends had been killed. Overwhelmed with guilt that she, as a police officer, had been powerless to stop the tragedy, she resigned from her post and began to train relentlessly. Vera started searching for the other survivors from that night, vowing to personally protect her friends from the House of Saint Violet."
       ]
     },
     "stats": {
@@ -1290,7 +1300,12 @@ export const gsaCharacters = [
       "name": "Water",
       "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/battleelement_4.webp"
     },
-    "job": {"id": 5, "name": "Breaker", "color": "#9433EA", "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/master_4.webp" },
+    "job": {
+      "id": 5,
+      "name": "Breaker",
+      "color": "#9433EA",
+      "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/master_4.webp"
+    },
     "attackType": {
       "id": 1,
       "name": "Physical",
@@ -1462,7 +1477,12 @@ export const gsaCharacters = [
       "name": "Water",
       "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/battleelement_4.webp"
     },
-    "job": {"id": 3, "name": "Sniper", "color": "#FFC405", "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/archer_4.webp" },
+    "job": {
+      "id": 3,
+      "name": "Sniper",
+      "color": "#FFC405",
+      "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/archer_4.webp"
+    },
     "attackType": {
       "id": 2,
       "name": "Energy",
@@ -1635,7 +1655,12 @@ export const gsaCharacters = [
       "name": "Light",
       "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/battleelement_5.webp"
     },
-    "job": {"id": 4, "name": "Support", "color": "#33EA62", "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/priest_5.webp" },
+    "job": {
+      "id": 4,
+      "name": "Support",
+      "color": "#33EA62",
+      "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/priest_5.webp"
+    },
     "attackType": {
       "id": 1,
       "name": "Physical",
@@ -2198,7 +2223,12 @@ export const gsaCharacters = [
       "name": "Earth",
       "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/battleelement_2.webp"
     },
-    "job": {"id": 4, "name": "Support", "color": "#33EA62", "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/priest_2.webp" },
+    "job": {
+      "id": 4,
+      "name": "Support",
+      "color": "#33EA62",
+      "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/priest_2.webp"
+    },
     "attackType": {
       "id": 1,
       "name": "Physical",
@@ -2571,7 +2601,12 @@ export const gsaCharacters = [
       "name": "Dark",
       "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/battleelement_6.webp"
     },
-    "job": {"id": 4, "name": "Support", "color": "#33EA62", "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/priest_6.webp" },
+    "job": {
+      "id": 4,
+      "name": "Support",
+      "color": "#33EA62",
+      "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/priest_6.webp"
+    },
     "attackType": {
       "id": 2,
       "name": "Energy",
@@ -3133,7 +3168,12 @@ export const gsaCharacters = [
       "name": "Light",
       "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/battleelement_5.webp"
     },
-    "job": {"id": 3, "name": "Sniper", "color": "#FFC405", "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/archer_5.webp" },
+    "job": {
+      "id": 3,
+      "name": "Sniper",
+      "color": "#FFC405",
+      "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/archer_5.webp"
+    },
     "attackType": {
       "id": 2,
       "name": "Energy",
@@ -3185,7 +3225,7 @@ export const gsaCharacters = [
         "type": "Instant",
         "mainStat": null,
         "gcd": null,
-        "desc": "Prioritizes furthest targets, dealing seven hits of 24% Energy DMG.\nOn final hit, Interrupt the target’s skill.",
+        "desc": "Prioritizes furthest targets, dealing seven hits of 24% Energy DMG.\nOn final hit, Interrupt the target's skill.",
         "detail": null,
         "cooldown": "6s",
         "cost": null,
@@ -3193,7 +3233,7 @@ export const gsaCharacters = [
           "Interrupt"
         ],
         "awakened": {
-          "desc": "Prioritizes furthest targets, dealing seven hits of 35% Energy DMG.\nOn final hit, Interrupt the target’s skill.",
+          "desc": "Prioritizes furthest targets, dealing seven hits of 35% Energy DMG.\nOn final hit, Interrupt the target's skill.",
           "detail": null
         }
       },
@@ -3502,7 +3542,12 @@ export const gsaCharacters = [
       "name": "Wind",
       "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/battleelement_3.webp"
     },
-    "job": {"id": 5, "name": "Breaker", "color": "#9433EA", "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/master_3.webp" },
+    "job": {
+      "id": 5,
+      "name": "Breaker",
+      "color": "#9433EA",
+      "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/master_3.webp"
+    },
     "attackType": {
       "id": 2,
       "name": "Energy",
@@ -3596,7 +3641,7 @@ export const gsaCharacters = [
         "mainStat": null,
         "gcd": null,
         "desc": "Grant self Crit Chance Up 10%.",
-        "detail": "With a personality as fierce as a gale, Alina often grows furious with obnoxious customers and throws them out the door.",
+        "detail": "With a personality as fierce as a gale, Ariana often grows furious with obnoxious customers and throws them out the door.",
         "cooldown": null,
         "cost": null,
         "statuses": [],
@@ -4196,7 +4241,7 @@ export const gsaCharacters = [
       "interest": "Trendy cute outfits, collecting cute clothes and accessories, researching attention-grabbing outfit style",
       "personality": "Cynical, apathetic, and disdainful; often rude to customers. Has little sense of security in love and is emotionally unpredictable.",
       "resumeParas": [
-        "She works at Moonveil Pavilion, an themed maid café.. Normally, she is expressionless and aloof, speaking in a monotone. She shows clear disdain for men she finds uninteresting, but is very protective of her female friends. However, when it comes to a man she likes, she becomes abnormally obsessive and deeply insecure. She will not only repeatedly seek reassurance of his feelings, but will also use various means to track his whereabouts. She is even willing to resort to self-harm to threaten him or gain his attention and concern."
+        "She works at Moonveil Pavilion, an adult-themed maid café.. Normally, she is expressionless and aloof, speaking in a monotone. She shows clear disdain for men she finds uninteresting, but is very protective of her female friends. However, when it comes to a man she likes, she becomes abnormally obsessive and deeply insecure. She will not only repeatedly seek reassurance of his feelings, but will also use various means to track his whereabouts. She is even willing to resort to self-harm to threaten him or gain his attention and concern."
       ]
     },
     "stats": {
@@ -4252,7 +4297,12 @@ export const gsaCharacters = [
       "name": "Fire",
       "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/battleelement_1.webp"
     },
-    "job": {"id": 3, "name": "Sniper", "color": "#FFC405", "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/archer_1.webp" },
+    "job": {
+      "id": 3,
+      "name": "Sniper",
+      "color": "#FFC405",
+      "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/archer_1.webp"
+    },
     "attackType": {
       "id": 2,
       "name": "Energy",
@@ -4436,7 +4486,12 @@ export const gsaCharacters = [
       "name": "Wind",
       "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/battleelement_3.webp"
     },
-    "job": {"id": 3, "name": "Sniper", "color": "#FFC405", "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/archer_3.webp" },
+    "job": {
+      "id": 3,
+      "name": "Sniper",
+      "color": "#FFC405",
+      "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/archer_3.webp"
+    },
     "attackType": {
       "id": 1,
       "name": "Physical",
@@ -4995,7 +5050,12 @@ export const gsaCharacters = [
       "name": "Earth",
       "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/battleelement_2.webp"
     },
-    "job": {"id": 3, "name": "Sniper", "color": "#FFC405", "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/archer_2.webp" },
+    "job": {
+      "id": 3,
+      "name": "Sniper",
+      "color": "#FFC405",
+      "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/archer_2.webp"
+    },
     "attackType": {
       "id": 1,
       "name": "Physical",
@@ -5146,7 +5206,195 @@ export const gsaCharacters = [
       "hpRcvPer": "1000"
     }
   },
-  
+  {
+    "id": "133006000",
+    "tierStats": [
+      {"tier": 1, "hp": 8533, "atk": 156},
+      {"tier": 2, "hp": 12759, "atk": 230},
+      {"tier": 3, "hp": 25600, "atk": 468},
+      {"tier": 4, "hp": 38360, "atk": 699},
+      {"tier": 5, "hp": 51201, "atk": 937},
+      {"tier": 6, "hp": 68268, "atk": 1249},
+      {"tier": 7, "hp": 85336, "atk": 1562},
+      {"tier": 8, "hp": 102403, "atk": 1874},
+      {"tier": 9, "hp": 122883, "atk": 2246},
+      {"tier": 10, "hp": 147509, "atk": 2700}
+    ],
+    "growth": {"rate": 1.5, "hp": [115.91, 231.83, 579.57, 927.32, 1275.06, 1622.81], "atk": [1.48, 2.97, 7.44, 11.9, 16.36, 20.83]},
+    "affection": [{"label": "Wind RES %", "value": 50}, {"label": "Wind RES %", "value": 50}, {"label": "Wind RES %", "value": 50}, {"label": "Wind RES %", "value": 50}, {"label": "Wind RES %", "value": 50}, {"label": "Wind RES %", "value": 50}, {"label": "Wind RES %", "value": 100}, {"label": "Wind RES %", "value": 100}, {"label": "Wind RES %", "value": 100}, {"label": "Wind RES %", "value": 200}],
+    "gear": [{"slot": "Gloves", "name": "Silk-Bound Gloves EX", "stats": [{"label": "ATK", "base": 44, "pct": false}, {"label": "Fire ATK", "base": 1000, "pct": true}, {"label": "ATK Speed", "base": 182, "pct": false}, {"label": "ACC", "base": 58, "pct": false}]}, {"slot": "Weapon", "name": "Fire Esper Bracers EX", "stats": [{"label": "ATK", "base": 44, "pct": false}, {"label": "Fire ATK", "base": 1000, "pct": true}, {"label": "Block", "base": 107, "pct": false}, {"label": "DMG BLK", "base": 96, "pct": false}]}, {"slot": "Shoes", "name": "Silk-Bound Footwear EX", "stats": [{"label": "ATK", "base": 44, "pct": false}, {"label": "Fire ATK", "base": 1000, "pct": true}, {"label": "Healing Received Up", "base": 188, "pct": false}, {"label": "Crit Evasion", "base": 80, "pct": false}]}, {"slot": "Accessory", "name": "Serenity Mala", "stats": [{"label": "ATK", "base": 77, "pct": false}]}],
+    "model": "cr060",
+    "slug": "danxin",
+    "name": "Danxin",
+    "nameZh": "丹芯",
+    "title": "Second Generation Dragon",
+    "epithet": "Azure Flames, Subtle Deflection",
+    "sex": "Male",
+    "inGacha": false,
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/cr060_Icon_Texture.webp",
+    "sortOrder": 60,
+    "rarity": "SSR",
+    "element": {
+      "id": 1,
+      "name": "Fire",
+      "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/battleelement_1.webp"
+    },
+    "job": {
+      "id": 1,
+      "name": "Guardian",
+      "color": "#957C7A",
+      "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/guard_1.webp"
+    },
+    "attackType": {
+      "id": 1,
+      "name": "Physical",
+      "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Attributes_02.webp"
+    },
+    "skills": [
+      {
+        "id": "150006000",
+        "name": "Silk Whip Strike",
+        "slot": "Basic Attack",
+        "unlockStar": 0,
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr060_1.webp",
+        "type": "Instant",
+        "mainStat": "ATK",
+        "gcd": "10s",
+        "desc": "Deal 83% Physical DMG to a target.",
+        "detail": null,
+        "cooldown": null,
+        "cost": null,
+        "statuses": []
+      },
+      {
+        "id": "150006010",
+        "name": "Dragon Flame Wall",
+        "slot": "Talent",
+        "unlockStar": 0,
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr060_2.webp",
+        "type": "Instant",
+        "mainStat": null,
+        "gcd": null,
+        "desc": "Apply a 2145% Shield (10s) to self.",
+        "detail": null,
+        "cooldown": "10s",
+        "cost": 1,
+        "statuses": [
+          "Stun"
+        ],
+        "awakened": {
+          "desc": "Apply a 3000% Shield (10s) to self.",
+          "detail": null
+        }
+      },
+      {
+        "id": "150006020",
+        "name": "Triple Stance Breaker",
+        "slot": "Auto",
+        "unlockStar": 1,
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr060_3.webp",
+        "type": "Instant",
+        "mainStat": "ATK",
+        "gcd": null,
+        "desc": "Deal three hits of 100% Physical DMG to a target.\nOn final hit, Medium chance to inflict Energy Damage Down 10% (8s) on the target.",
+        "detail": null,
+        "cooldown": "6s",
+        "cost": null,
+        "statuses": [
+          "Heal",
+          "Damage Taken Decreased"
+        ],
+        "awakened": {
+          "desc": "Deal three hits of 135% Physical DMG to a target.\nOn final hit, Medium chance to inflict Energy Damage Down 20% (8s) on the target.",
+          "detail": null
+        }
+      },
+      {
+        "id": "150006030",
+        "name": "Spicy Instinct",
+        "slot": "Passive 1",
+        "unlockStar": 4,
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr060_5.webp",
+        "type": "Passive",
+        "mainStat": null,
+        "gcd": null,
+        "desc": "Upon gaining a Shield, grant self the Amplify effect: \"When taking damage, has a Low chance to inflict Burn S (6s) on Random targets\" (6s).\nThe Amplify effect can only trigger once every 6 seconds.",
+        "detail": null,
+        "cooldown": null,
+        "cost": null,
+        "statuses": [],
+        "awakened": {
+          "desc": "Upon gaining a Shield, grant self the Amplify effect: \"When taking damage, has a Low chance to inflict Burn S (6s) on Random targets\" (6s).\nThe Amplify effect can only trigger once every 6 seconds.\nGrant all party members Block Up 8%.",
+          "detail": null
+        }
+      },
+      {
+        "id": "150006050",
+        "name": "Silk Deflection",
+        "slot": "Passive 2",
+        "unlockStar": 6,
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr060_6.webp",
+        "type": "Passive",
+        "mainStat": null,
+        "gcd": null,
+        "desc": "Grant self Energy Damage Taken Decreased 10%.",
+        "detail": null,
+        "cooldown": null,
+        "cost": null,
+        "statuses": [],
+        "awakened": {
+          "desc": "Grant all party members Energy Damage Taken Decreased 10%.\nIn PVP mode, grant self Healing Received Up 13%.",
+          "detail": null
+        }
+      },
+      {
+        "id": "150006041",
+        "name": "Azure Dragon Flame Quake",
+        "slot": "Ultimate",
+        "unlockStar": 2,
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr060_4.webp",
+        "type": "Instant",
+        "mainStat": "ATK",
+        "gcd": null,
+        "desc": "Enter the Awakening state, granting self Basic Attack Damage Taken Decreased 40% (24s).\nDeal four hits of 93% Energy DMG to up to 2 targets within the forward area.\nGrant self Block Up 10% (12s).\nGrant self DMG Block Up 20% (12s).",
+        "detail": null,
+        "cooldown": "24s",
+        "cost": 3,
+        "statuses": []
+      }
+    ],
+    "profile": {
+      "title": "Kung Fu Beauty",
+      "birthday": "7 / 23",
+      "age": "22",
+      "height": "165",
+      "weight": "51",
+      "interest": "Exchanging martial arts techniques, spicy snacks",
+      "personality": "Lively and competitive; instantly accepts any challenge when provoked.",
+      "resumeParas": [
+        "From a young age, she traveled across various countries with her father, perfecting her family's inherited Silk-Reeling Martial Arts. Upon returning to Tobia at the age of 17, the young and impetuous Danxin frequently competed in underground martial arts matches in secret. Spotting her during an inspection of the fights, Long Yingtian was impressed by Danxin's martial prowess and recruited her to join the Azure Dragon Martial Arts Hall under his tutelage. After joining the Azure Dragon Gang, she combined her techniques with Long Yingtian's guidance, rechristening her style as Azure Dragon Silk-Reeling Fist. Thanks to her lively personality and mastery of martial arts, she was also appointed as the master of ceremonies for the martial arts tournament. Her father's current whereabouts are unknown, though he has presumably gone abroad once again for his martial training."
+      ]
+    },
+    "stats": {
+      "atkRange": "120",
+      "normalAttackGCD": "10000",
+      "critPer": "1000",
+      "critRstPer": "0",
+      "critAmpPer": "5000",
+      "critDmgRdcPer": "0",
+      "hitPer": "8500",
+      "ddgPer": "0",
+      "blkPer": "2500",
+      "blkPenPer": "1500",
+      "blkRdcPer": "2000",
+      "healCritPer": "1000",
+      "healCritAmpPer": "5000",
+      "atkHastePer": "0",
+      "cdHastePer": "0",
+      "manaAmpPer": "0",
+      "hpRcvPer": "1000"
+    }
+  },
   {
     "id": "133006100",
     "tierStats": [
@@ -5180,7 +5428,12 @@ export const gsaCharacters = [
       "name": "Dark",
       "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/battleelement_6.webp"
     },
-    "job": {"id": 5, "name": "Breaker", "color": "#9433EA", "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/master_6.webp" },
+    "job": {
+      "id": 5,
+      "name": "Breaker",
+      "color": "#9433EA",
+      "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/master_6.webp"
+    },
     "attackType": {
       "id": 2,
       "name": "Energy",
@@ -5307,7 +5560,7 @@ export const gsaCharacters = [
       "interest": "Cooking, watching dramas",
       "personality": "Kind, amiable, positive, and persevering, but also a bit scatterbrained. Once she gets drunk, she can't help but reveal the dark past she keeps buried deep within her heart.",
       "resumeParas": [
-        "Employed at the maid cafe Moonveil Pavilion, she goes by the stage name Nana. Kind-hearted and warm, she always greets every guest with a sweet smile, listens to them patiently, and offers genuine care. Her heartwarming gestures melt the hearts of visiting patrons, earning her the admiration of many regulars. Her family was infected during the Great Plague, and the enormous medical expenses drove her to seek work at Moonveil Pavilion. However, her time there took a tremendous toll on both her body and mind. Despite having been vaccinated, she was ultimately infected while serving a client. While critically ill, she was injected with an experimental drug claimed to cure the disease, inadvertently awakening the ability to manipulate psychokinetic energy. Even so, she has never been broken by adversity, continuing to bring warmth to her customers with her delightfully airheaded reactions and cheerful smile."
+        "Employed at the adult maid cafe Moonveil Pavilion, she goes by the stage name Nana. Kind-hearted and warm, she always greets every guest with a sweet smile, listens to them patiently, and offers genuine care. Her heartwarming gestures melt the hearts of visiting patrons, earning her the admiration of many regulars. Her family was infected during the Great Plague, and the enormous medical expenses drove her to seek work at Moonveil Pavilion. However, her time there took a tremendous toll on both her body and mind. Despite having been vaccinated, she was ultimately infected while serving a client. While critically ill, she was injected with an experimental drug claimed to cure the disease, inadvertently awakening the ability to manipulate psychokinetic energy. Even so, she has never been broken by adversity, continuing to bring warmth to her customers with her delightfully airheaded reactions and cheerful smile."
       ]
     },
     "stats": {
@@ -5363,7 +5616,12 @@ export const gsaCharacters = [
       "name": "Light",
       "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/battleelement_5.webp"
     },
-    "job": {"id": 3, "name": "Sniper", "color": "#FFC405", "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/archer_5.webp" },
+    "job": {
+      "id": 3,
+      "name": "Sniper",
+      "color": "#FFC405",
+      "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/archer_5.webp"
+    },
     "attackType": {
       "id": 1,
       "name": "Physical",
@@ -5544,7 +5802,12 @@ export const gsaCharacters = [
       "name": "Water",
       "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/battleelement_4.webp"
     },
-    "job": {"id": 5, "name": "Breaker", "color": "#9433EA", "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/master_4.webp" },
+    "job": {
+      "id": 5,
+      "name": "Breaker",
+      "color": "#9433EA",
+      "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/master_4.webp"
+    },
     "attackType": {
       "id": 2,
       "name": "Energy",
@@ -5575,7 +5838,7 @@ export const gsaCharacters = [
         "type": "Instant",
         "mainStat": "ATK",
         "gcd": null,
-        "desc": "Deal nine hits of 27% Energy DMG to up to 3 targets within the forward area.\nOn hit, Extremely High chance to inflict Freeze S (2s).\nAndou Kana’s Freeze chance is reduced each time a target is successfully frozen.",
+        "desc": "Deal nine hits of 27% Energy DMG to up to 3 targets within the forward area.\nOn hit, Extremely High chance to inflict Freeze S (2s).\nAndou Kana's Freeze chance is reduced each time a target is successfully frozen.",
         "detail": null,
         "cooldown": "8s",
         "cost": 1,
@@ -5583,7 +5846,7 @@ export const gsaCharacters = [
           "Frozen"
         ],
         "awakened": {
-          "desc": "Deal nine hits of 40% Energy DMG to up to 3 targets within the forward area.\nOn hit, Extremely High chance to inflict Freeze S (2s).\nAndou Kana’s Freeze chance is reduced each time a target is successfully frozen.",
+          "desc": "Deal nine hits of 40% Energy DMG to up to 3 targets within the forward area.\nOn hit, Extremely High chance to inflict Freeze S (2s).\nAndou Kana's Freeze chance is reduced each time a target is successfully frozen.",
           "detail": null
         }
       },
@@ -5608,7 +5871,7 @@ export const gsaCharacters = [
       },
       {
         "id": "150006330",
-        "name": "I’m Your Fashion Guru~~",
+        "name": "I'm Your Fashion Guru~~",
         "slot": "Passive 1",
         "unlockStar": 4,
         "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr063_5.webp",
@@ -5653,7 +5916,7 @@ export const gsaCharacters = [
         "type": "Instant",
         "mainStat": "ATK",
         "gcd": null,
-        "desc": "Enter the Awakening state, granting self ATK SPD Up 25% (24s).\nDeal five hits of 95% Energy DMG to all targets.\nOn hit, inflict Freeze S (2s).\nAndou Kana’s Freeze chance is reduced each time a target is successfully frozen.",
+        "desc": "Enter the Awakening state, granting self ATK SPD Up 25% (24s).\nDeal five hits of 95% Energy DMG to all targets.\nOn hit, inflict Freeze S (2s).\nAndou Kana's Freeze chance is reduced each time a target is successfully frozen.",
         "detail": null,
         "cooldown": "24s",
         "cost": 3,
@@ -5816,7 +6079,7 @@ export const gsaCharacters = [
       },
       {
         "id": "150006450",
-        "name": "Winter’s Twin Blades",
+        "name": "Winter's Twin Blades",
         "slot": "Passive 2",
         "unlockStar": 6,
         "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr064_6.webp",
@@ -6261,11 +6524,6 @@ export const gsaCharacters = [
       "hpRcvPer": "1000"
     }
   },
-  
-  
-  
-  
-  
   {
     "id": "133007400",
     "tierStats": [
@@ -6457,6 +6715,195 @@ export const gsaCharacters = [
     }
   },
   {
+    "id": "133007800",
+    "tierStats": [
+      {"tier": 1, "hp": 3367, "atk": 345},
+      {"tier": 2, "hp": 5034, "atk": 516},
+      {"tier": 3, "hp": 10104, "atk": 1038},
+      {"tier": 4, "hp": 15140, "atk": 1557},
+      {"tier": 5, "hp": 20209, "atk": 2079},
+      {"tier": 6, "hp": 26947, "atk": 2772},
+      {"tier": 7, "hp": 33684, "atk": 3465},
+      {"tier": 8, "hp": 40421, "atk": 4158},
+      {"tier": 9, "hp": 48505, "atk": 4989},
+      {"tier": 10, "hp": 58226, "atk": 5988}
+    ],
+    "growth": {"rate": 1.25, "hp": [45.75, 91.51, 228.78, 366.04, 503.31, 640.58], "atk": [3.3, 6.6, 16.5, 26.4, 36.3, 46.2]},
+    "affection": [{"label": "Dark ATK %", "value": 50}, {"label": "Dark ATK %", "value": 50}, {"label": "Dark ATK %", "value": 50}, {"label": "Dark ATK %", "value": 50}, {"label": "Dark ATK %", "value": 50}, {"label": "Dark ATK %", "value": 50}, {"label": "Dark ATK %", "value": 100}, {"label": "Dark ATK %", "value": 100}, {"label": "Dark ATK %", "value": 100}, {"label": "Dark ATK %", "value": 200}],
+    "gear": [{"slot": "Gloves", "name": "HL Work Gloves EX", "stats": [{"label": "ATK", "base": 118, "pct": false}, {"label": "Dark ATK", "base": 1000, "pct": true}, {"label": "Energy Boost", "base": 62, "pct": false}, {"label": "ATK Speed", "base": 163, "pct": false}]}, {"slot": "Weapon", "name": "Keg Pack EX", "stats": [{"label": "ATK", "base": 118, "pct": false}, {"label": "Dark ATK", "base": 1000, "pct": true}, {"label": "Crit", "base": 97, "pct": false}, {"label": "Crit DMG", "base": 217, "pct": false}]}, {"slot": "Shoes", "name": "Athletic Sneakers EX", "stats": [{"label": "ATK", "base": 118, "pct": false}, {"label": "Dark ATK", "base": 1000, "pct": true}, {"label": "ATK Speed", "base": 182, "pct": false}, {"label": "Evasion", "base": 58, "pct": false}]}, {"slot": "Accessory", "name": "HL Baseball Cap", "stats": [{"label": "ATK", "base": 77, "pct": false}]}],
+    "model": "cr078",
+    "slug": "awana",
+    "name": "Awana",
+    "nameZh": "沫沫",
+    "title": "Spicy Beer Babe",
+    "epithet": "Foamy Revelry, Tipsy Dreams",
+    "sex": "Female",
+    "inGacha": false,
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/cr078_Icon_Texture.webp",
+    "sortOrder": 78,
+    "rarity": "SSR",
+    "element": {
+      "id": 6,
+      "name": "Dark",
+      "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/battleelement_6.webp"
+    },
+    "job": {
+      "id": 3,
+      "name": "Sniper",
+      "color": "#FFC405",
+      "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/archer_6.webp"
+    },
+    "attackType": {
+      "id": 2,
+      "name": "Energy",
+      "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Attributes_01.webp"
+    },
+    "skills": [
+      {
+        "id": "150007800",
+        "name": "Straight-Press Draft",
+        "slot": "Basic Attack",
+        "unlockStar": 0,
+        "icon": null,
+        "type": "Instant",
+        "mainStat": "ATK",
+        "gcd": "10s",
+        "desc": "Deal 63% Energy DMG to a Random target.",
+        "detail": null,
+        "cooldown": null,
+        "cost": null,
+        "statuses": []
+      },
+      {
+        "id": "150007810",
+        "name": "Valves Wide Open",
+        "slot": "Talent",
+        "unlockStar": 0,
+        "icon": null,
+        "type": "Instant",
+        "mainStat": "ATK",
+        "gcd": null,
+        "desc": "Deal 200% Energy DMG to a Random target.\nOn hit, inflict Energy Damage Down 15% (6s) on the target.\nOn hit, inflict Ebon (6s).",
+        "detail": null,
+        "cooldown": "10s",
+        "cost": 1,
+        "statuses": [
+          "Ebon"
+        ],
+        "awakened": {
+          "desc": "Deal 306% Energy DMG to a Random target.\nOn hit, inflict Energy Damage Down 15% (10s) on the target.\nOn hit, inflict Ebon (6s).",
+          "detail": null
+        }
+      },
+      {
+        "id": "150007820",
+        "name": "Stolen Sip",
+        "slot": "Auto",
+        "unlockStar": 1,
+        "icon": null,
+        "type": "Instant",
+        "mainStat": null,
+        "gcd": null,
+        "desc": "Grant self Crit Chance Up 20% (10s).\nGrant self Dark ATK Up 15% (10s).",
+        "detail": null,
+        "cooldown": "6s",
+        "cost": null,
+        "statuses": [
+          "Crit Chance Up",
+          "Dark ATK Up"
+        ],
+        "awakened": {
+          "desc": "Grant self Crit Chance Up 30% (10s).\nGrant self Dark ATK Up 20% (10s).",
+          "detail": null
+        }
+      },
+      {
+        "id": "150007830",
+        "name": "Malicious Condemnation",
+        "slot": "Passive 1",
+        "unlockStar": 4,
+        "icon": null,
+        "type": "Passive",
+        "mainStat": null,
+        "gcd": null,
+        "desc": "On hit, inflict Light ATK Down 8% (6s) on the target.\nThis effect can only trigger once every 3 seconds.",
+        "detail": "After unexpectedly going viral, what she hated most wasn't the insults, it was being reduced to a few seconds of stunned silence, with the whole world seeing nothing but that one moment.",
+        "cooldown": null,
+        "cost": null,
+        "statuses": [],
+        "awakened": {
+          "desc": "On hit, inflict Light ATK Down 12% (6s) on the target.\nThis effect can only trigger once every 3 seconds.",
+          "detail": null
+        }
+      },
+      {
+        "id": "150007850",
+        "name": "Honest Body",
+        "slot": "Passive 2",
+        "unlockStar": 6,
+        "icon": null,
+        "type": "Passive",
+        "mainStat": null,
+        "gcd": null,
+        "desc": "Grant self Light Res Up 7.5%.",
+        "detail": "Carrying a beer keg is just part of her daily routine. She complains about the hassle, but her body automatically hoists it up before her mind even has a chance to object.",
+        "cooldown": null,
+        "cost": null,
+        "statuses": [],
+        "awakened": {
+          "desc": "Grant all party members Light Res Up 7.5%.",
+          "detail": null
+        }
+      },
+      {
+        "id": "150007841",
+        "name": "Foamy Heaven",
+        "slot": "Ultimate",
+        "unlockStar": 2,
+        "icon": null,
+        "type": "Instant",
+        "mainStat": "ATK",
+        "gcd": null,
+        "desc": "Enter the Awakening state, granting self ACC Up 8.5% (24s).\nDeal 558% Energy DMG to a Random target.\nOn hit, inflict ACC Down 10% (10s) on the target.\nOn hit, inflict Crit Chance Down 20% (10s) on the target.",
+        "detail": null,
+        "cooldown": "24s",
+        "cost": 3,
+        "statuses": []
+      }
+    ],
+    "profile": {
+      "title": "Spicy Beer Babe",
+      "birthday": "1 / 12",
+      "age": "20",
+      "height": "158",
+      "weight": "43",
+      "interest": "Desserts, jogging, supermarket shopping",
+      "personality": "Stubborn and provocative toward people. Hardworking and resilient when facing reality.",
+      "resumeParas": [
+        "Born into a lower-middle-class family in Tobia, she left home upon reaching adulthood and took a job selling beer at HL Entertainment. She is highly familiar with the facilities and locations operated by HL. She maintains a strong guard around strangers, only letting her wall down once trust is established. Following an incident with an unruly customer, Anton formally recruited her as an underground informant. She also acts as a courier, shuttling messages between Anton and his clients."
+      ]
+    },
+    "stats": {
+      "atkRange": "480",
+      "normalAttackGCD": "10000",
+      "critPer": "1000",
+      "critRstPer": "0",
+      "critAmpPer": "5000",
+      "critDmgRdcPer": "0",
+      "hitPer": "9300",
+      "ddgPer": "0",
+      "blkPer": "2500",
+      "blkPenPer": "0",
+      "blkRdcPer": "2000",
+      "healCritPer": "1000",
+      "healCritAmpPer": "5000",
+      "atkHastePer": "0",
+      "cdHastePer": "0",
+      "manaAmpPer": "0",
+      "hpRcvPer": "1000"
+    }
+  },
+  {
     "id": "133010700",
     "tierStats": [
       {"tier": 1, "hp": 3928, "atk": 252},
@@ -6479,7 +6926,7 @@ export const gsaCharacters = [
     "nameZh": "貝兒",
     "title": "Clumsy Cowgirl",
     "epithet": "Creamy Fragrance, Dairy Barrage",
-    "sex": "Male",
+    "sex": "Female",
     "inGacha": true,
     "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/cr107_Icon_Texture.webp",
     "sortOrder": 107,
@@ -6489,7 +6936,12 @@ export const gsaCharacters = [
       "name": "Earth",
       "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/battleelement_2.webp"
     },
-    "job": {"id": 5, "name": "Breaker", "color": "#9433EA", "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/master_2.webp" },
+    "job": {
+      "id": 5,
+      "name": "Breaker",
+      "color": "#9433EA",
+      "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/master_2.webp"
+    },
     "attackType": {
       "id": 1,
       "name": "Physical",
@@ -6638,196 +7090,8 @@ export const gsaCharacters = [
       "manaAmpPer": "0",
       "hpRcvPer": "1000"
     }
-  },
-  {
-    "id": "133006000",
-    "tierStats": [
-      {"tier": 1, "hp": 8533, "atk": 156},
-      {"tier": 2, "hp": 12759, "atk": 230},
-      {"tier": 3, "hp": 25600, "atk": 468},
-      {"tier": 4, "hp": 38360, "atk": 699},
-      {"tier": 5, "hp": 51201, "atk": 937},
-      {"tier": 6, "hp": 68268, "atk": 1249},
-      {"tier": 7, "hp": 85336, "atk": 1562},
-      {"tier": 8, "hp": 102403, "atk": 1874},
-      {"tier": 9, "hp": 122883, "atk": 2246},
-      {"tier": 10, "hp": 147509, "atk": 2700}
-    ],
-    "growth": {"rate": 1.5, "hp": [115.91, 231.83, 579.57, 927.32, 1275.06, 1622.81], "atk": [1.48, 2.97, 7.44, 11.9, 16.36, 20.83]},
-    "affection": [{"label": "Wind RES %", "value": 50}, {"label": "Wind RES %", "value": 50}, {"label": "Wind RES %", "value": 50}, {"label": "Wind RES %", "value": 50}, {"label": "Wind RES %", "value": 50}, {"label": "Wind RES %", "value": 50}, {"label": "Wind RES %", "value": 100}, {"label": "Wind RES %", "value": 100}, {"label": "Wind RES %", "value": 100}, {"label": "Wind RES %", "value": 200}],
-    "gear": [{"slot": "Gloves", "name": "Silk-Bound Gloves EX", "stats": [{"label": "ATK", "base": 44, "pct": false}, {"label": "Fire ATK", "base": 1000, "pct": true}, {"label": "ATK Speed", "base": 182, "pct": false}, {"label": "ACC", "base": 58, "pct": false}]}, {"slot": "Weapon", "name": "Fire Esper Bracers EX", "stats": [{"label": "ATK", "base": 44, "pct": false}, {"label": "Fire ATK", "base": 1000, "pct": true}, {"label": "Block", "base": 107, "pct": false}, {"label": "DMG BLK", "base": 96, "pct": false}]}, {"slot": "Shoes", "name": "Silk-Bound Footwear EX", "stats": [{"label": "ATK", "base": 44, "pct": false}, {"label": "Fire ATK", "base": 1000, "pct": true}, {"label": "Healing Received Up", "base": 188, "pct": false}, {"label": "Crit Evasion", "base": 80, "pct": false}]}, {"slot": "Accessory", "name": "Serenity Mala", "stats": [{"label": "ATK", "base": 77, "pct": false}]}],
-    "model": "cr060",
-    "slug": "danxin",
-    "name": "Danxin",
-    "nameZh": "丹芯",
-    "title": "Second Generation Dragon",
-    "epithet": "Azure Flames, Subtle Deflection",
-    "sex": "Male",
-    "inGacha": false,
-    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/cr060_Icon_Texture.webp",
-    "sortOrder": 60,
-    "rarity": "SSR",
-    "element": {
-      "id": 1,
-      "name": "Fire",
-      "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/battleelement_1.webp"
-    },
-    "job": {
-      "id": 1,
-      "name": "Guardian",
-      "color": "#957C7A",
-      "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/guard_1.webp"
-    },
-    "attackType": {
-      "id": 1,
-      "name": "Physical",
-      "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Attributes_02.webp"
-    },
-    "skills": [
-      {
-        "id": "150006000",
-        "name": "Silk Whip Strike",
-        "slot": "Basic Attack",
-        "unlockStar": 0,
-        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr060_1.webp",
-        "type": "Instant",
-        "mainStat": "ATK",
-        "gcd": "10s",
-        "desc": "Deal 83% Physical DMG to a target.",
-        "detail": null,
-        "cooldown": null,
-        "cost": null,
-        "statuses": []
-      },
-      {
-        "id": "150006010",
-        "name": "Dragon Flame Wall",
-        "slot": "Talent",
-        "unlockStar": 0,
-        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr060_2.webp",
-        "type": "Instant",
-        "mainStat": null,
-        "gcd": null,
-        "desc": "Apply a 2145% Shield (10s) to self.",
-        "detail": null,
-        "cooldown": "10s",
-        "cost": 1,
-        "statuses": [
-          "Stun"
-        ],
-        "awakened": {
-          "desc": "Apply a 3000% Shield (10s) to self.",
-          "detail": null
-        }
-      },
-      {
-        "id": "150006020",
-        "name": "Triple Stance Breaker",
-        "slot": "Auto",
-        "unlockStar": 1,
-        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr060_3.webp",
-        "type": "Instant",
-        "mainStat": "ATK",
-        "gcd": null,
-        "desc": "Deal three hits of 100% Physical DMG to a target.\nOn final hit, Medium chance to inflict Energy Damage Down 10% (8s) on the target.",
-        "detail": null,
-        "cooldown": "6s",
-        "cost": null,
-        "statuses": [
-          "Heal",
-          "Damage Taken Decreased"
-        ],
-        "awakened": {
-          "desc": "Deal three hits of 135% Physical DMG to a target.\nOn final hit, Medium chance to inflict Energy Damage Down 20% (8s) on the target.",
-          "detail": null
-        }
-      },
-      {
-        "id": "150006030",
-        "name": "Spicy Instinct",
-        "slot": "Passive 1",
-        "unlockStar": 4,
-        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr060_5.webp",
-        "type": "Passive",
-        "mainStat": null,
-        "gcd": null,
-        "desc": "Upon gaining a Shield, grant self the Amplify effect: \"When taking damage, has a Low chance to inflict Burn S (6s) on Random targets\" (6s).\nThe Amplify effect can only trigger once every 6 seconds.",
-        "detail": null,
-        "cooldown": null,
-        "cost": null,
-        "statuses": [],
-        "awakened": {
-          "desc": "Upon gaining a Shield, grant self the Amplify effect: \"When taking damage, has a Low chance to inflict Burn S (6s) on Random targets\" (6s).\nThe Amplify effect can only trigger once every 6 seconds.\nGrant all party members Block Up 8%.",
-          "detail": null
-        }
-      },
-      {
-        "id": "150006050",
-        "name": "Silk Deflection",
-        "slot": "Passive 2",
-        "unlockStar": 6,
-        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr060_6.webp",
-        "type": "Passive",
-        "mainStat": null,
-        "gcd": null,
-        "desc": "Grant self Energy Damage Taken Decreased 10%.",
-        "detail": null,
-        "cooldown": null,
-        "cost": null,
-        "statuses": [],
-        "awakened": {
-          "desc": "Grant all party members Energy Damage Taken Decreased 10%.\nIn PVP mode, grant self Healing Received Up 13%.",
-          "detail": null
-        }
-      },
-      {
-        "id": "150006041",
-        "name": "Azure Dragon Flame Quake",
-        "slot": "Ultimate",
-        "unlockStar": 2,
-        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr060_4.webp",
-        "type": "Instant",
-        "mainStat": "ATK",
-        "gcd": null,
-        "desc": "Enter the Awakening state, granting self Basic Attack Damage Taken Decreased 40% (24s).\nDeal four hits of 93% Energy DMG to up to 2 targets within the forward area.\nGrant self Block Up 10% (12s).\nGrant self DMG Block Up 20% (12s).",
-        "detail": null,
-        "cooldown": "24s",
-        "cost": 3,
-        "statuses": []
-      }
-    ],
-    "profile": {
-      "title": "Kung Fu Beauty",
-      "birthday": "7 / 23",
-      "age": "22",
-      "height": "165",
-      "weight": "51",
-      "interest": "Exchanging martial arts techniques, spicy snacks",
-      "personality": "Lively and competitive; instantly accepts any challenge when provoked.",
-      "resumeParas": [
-        "From a young age, she traveled across various countries with her father, perfecting her family's inherited Silk-Reeling Martial Arts. Upon returning to Tobia at the age of 17, the young and impetuous Danxin frequently competed in underground martial arts matches in secret. Spotting her during an inspection of the fights, Long Yingtian was impressed by Danxin's martial prowess and recruited her to join the Azure Dragon Martial Arts Hall under his tutelage. After joining the Azure Dragon Gang, she combined her techniques with Long Yingtian's guidance, rechristening her style as Azure Dragon Silk-Reeling Fist. Thanks to her lively personality and mastery of martial arts, she was also appointed as the master of ceremonies for the martial arts tournament. Her father's current whereabouts are unknown, though he has presumably gone abroad once again for his martial training."
-      ]
-    },
-    "stats": {
-      "atkRange": "120",
-      "normalAttackGCD": "10000",
-      "critPer": "1000",
-      "critRstPer": "0",
-      "critAmpPer": "5000",
-      "critDmgRdcPer": "0",
-      "hitPer": "8500",
-      "ddgPer": "0",
-      "blkPer": "2500",
-      "blkPenPer": "1500",
-      "blkRdcPer": "2000",
-      "healCritPer": "1000",
-      "healCritAmpPer": "5000",
-      "atkHastePer": "0",
-      "cdHastePer": "0",
-      "manaAmpPer": "0",
-      "hpRcvPer": "1000"
-    }
-  }]
+  }
+]
 
 export function getGsaCharacter(slug) {
   return gsaCharacters.find(c => c.slug === slug);

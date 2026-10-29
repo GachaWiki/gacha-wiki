@@ -6,6 +6,25 @@
 // approximate; content lists are exact.
 export const GSA_UPDATES = [
   {
+    slug: '2026-10-27-awana-and-heavens-door',
+    date: 'October 27, 2026',
+    title: "New SSR Awana, Heaven's Door goes live, and the 1.5M Downloads celebration",
+    tag: 'Datamine',
+    summary: "The October 27 wave added the farmable SSR Awana with her Investigation stage, brought the Heaven's Door Jessica banner and the Milena solo rate-up live, and staged the 1.5M Downloads celebration summon, while the next event waves moved one step closer.",
+    points: [
+      'New SSR Awana (Spicy Beer Babe), a Dark Sniper who sells beer at HL Entertainment by day. Like Fujiwara Arisa she is farmable rather than gacha-only: perfect-clear stage 6 of her Investigation stage to recruit her, her stage can drop Awana Promotion Certificates, and a summon-letter item recruits her directly. She is now profiled on the wiki roster with her full kit, signature gear and affection track (she applies Ebon, making her a Pursuit enabler for Dark teams).',
+      "Heaven's Door: Jessica went live: the client pulled her banner panel (Draw_Bg_36) and the event text with this wave, and the limited lane runs its 120-pull featured guarantee. The solo rate-up rotation moved on to Milena in the same window; her panel (Draw_Bg_30) is adult artwork and stays off the wiki.",
+      'The Black Gold Hunter event and the Lunar Splendor launch banner both keep running to November 3, 06:59 (UTC+8), per the official periods.',
+      'A 1.5M Downloads celebration shipped with this wave: two special machines over a twelve-SSR pool (Ruo Lan, Milena, Ogino Rui, Lin Lin, Sugimoto Arina, Liz, Amelie, Li Mu, Kurosawa Shion, Chloe, Charlotte, Annabelle) with a guaranteed SSR on the tenth pull, a Celebration Certificate token that is reclaimed when the celebration ends, and celebration login gifts.',
+      'Summon-screen changes: a Li Mu solo machine joined the configured queue behind Lin Lin and Annabelle (Annabelle\'s tab icon has already shipped to the client), and the Advanced Summon pool flipped its tip from Permanent to Limited.',
+      'The War & Music and Lingering Echoes waves advanced in preload: the client fetched both banners\' text and shipped Elena\'s portrait, so the dual banners for Elena + Victoria and Qing Yin + Leng Zhen are visibly next in line with their Phantom Emblem and Gagaku Emblem events.',
+      'Localization refresh: roughly two thousand new or reworded English strings landed, including cleaner character biographies, New Chapter celebration items (Celebration Core, special blueprints and gifts, a Gift from the Dev Team) pointing at an upcoming story chapter, and a batch of new chat emoji.',
+      'Further preload: profiles and names shipped for Mia (Star of Misfortune), Debbie, DJ JOY and Emeline, a second quality ladder appeared for Fujiwara Arisa, a Phantom Thief Crest event emblem arrived for the Yoru wave (Phantom Thief Nightplume), and Mutated Remnant elite enemies entered the battle tables. None of these are obtainable yet.',
+      'Client hot-update modules landed October 19 and October 27 (139 and 161 KB); 58 game tables changed in total, the largest table wave since launch.',
+    ],
+    source: 'Decrypted table diff, Patch pulls of October 13 and October 29, 2026 (update wave of October 27).',
+  },
+  {
     slug: '2026-10-13-black-gold-hunter-rerun',
     date: 'October 13, 2026',
     title: 'Black Gold Hunter returns with Cowgirl Belle',

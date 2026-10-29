@@ -476,116 +476,16 @@ export const GSA_PURSUIT_ROLES = {
     "riders": [],
     "synergy": []
   },
-  "qing-yin": {
-    "role": "trigger",
-    "triggers": [
-      {
-        "element": "Wind",
-        "status": "Electrocute",
-        "statusZh": "觸電",
-        "pursuit": "Overload",
-        "pursuitZh": "超載",
-        "grades": [
-          "M",
-          "L"
-        ],
-        "skills": [
-          "Talent",
-          "Ultimate"
-        ],
-        "skillsZh": [
-          "天賦",
-          "奧義技"
-        ]
-      }
-    ],
-    "applies": [],
-    "riders": [],
-    "synergy": [
-      {
-        "en": "Bonus kit lines that only work against Electrocuted targets",
-        "zh": "部分效果僅對觸電狀態目標生效"
-      }
-    ]
-  },
-  "leng-zhen": {
+  "awana": {
     "role": "enabler",
     "triggers": [],
     "applies": [
       {
-        "element": "Water",
-        "status": "Freeze",
-        "statusZh": "冰凍",
+        "element": "Dark",
+        "status": "Ebon",
+        "statusZh": "漆黑",
         "grades": [
-          "M"
-        ],
-        "chance": "High",
-        "via": null,
-        "skills": [
-          "Auto",
-          "Ultimate"
-        ],
-        "skillsZh": [
-          "自動",
-          "奧義技"
-        ]
-      }
-    ],
-    "riders": [
-      {
-        "en": "Grants Freeze Hit Rate Up",
-        "zh": "賦予冰凍命中率提升"
-      }
-    ],
-    "synergy": [
-      {
-        "en": "Bonus kit lines that only work against Burning or Frozen targets",
-        "zh": "部分效果僅對燃燒或冰凍狀態目標生效"
-      }
-    ]
-  },
-  "elena": {
-    "role": "enabler",
-    "triggers": [],
-    "applies": [
-      {
-        "element": "Fire",
-        "status": "Burn",
-        "statusZh": "燃燒",
-        "grades": [
-          "M",
-          "L"
-        ],
-        "chance": null,
-        "via": null,
-        "skills": [
-          "Talent",
-          "Ultimate"
-        ],
-        "skillsZh": [
-          "天賦",
-          "奧義技"
-        ]
-      }
-    ],
-    "riders": [],
-    "synergy": [
-      {
-        "en": "Bonus kit lines that only work against Burning targets",
-        "zh": "部分效果僅對燃燒狀態目標生效"
-      }
-    ]
-  },
-  "victoria": {
-    "role": "enabler",
-    "triggers": [],
-    "applies": [
-      {
-        "element": "Earth",
-        "status": "Petrify",
-        "statusZh": "石化",
-        "grades": [
-          "M"
+          "S"
         ],
         "chance": null,
         "via": null,
@@ -597,35 +497,6 @@ export const GSA_PURSUIT_ROLES = {
         ]
       }
     ],
-    "riders": [],
-    "synergy": [
-      {
-        "en": "Bonus kit lines that only work against Petrified or Block Down targets",
-        "zh": "部分效果僅對石化或格擋下降目標生效"
-      }
-    ]
-  },
-  "connie": {
-    "role": "trigger",
-    "triggers": [
-      {
-        "element": "Dark",
-        "status": "Ebon",
-        "statusZh": "漆黑",
-        "pursuit": "Abyss",
-        "pursuitZh": "深淵",
-        "grades": [
-          "L"
-        ],
-        "skills": [
-          "Ultimate"
-        ],
-        "skillsZh": [
-          "奧義技"
-        ]
-      }
-    ],
-    "applies": [],
     "riders": [],
     "synergy": []
   },
