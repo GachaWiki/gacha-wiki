@@ -36,13 +36,13 @@ import { ZONE_NOVA_CHARACTERS } from '../../data/zone-nova/characters.js';
             />
           </div>
           <div class="mobile-card-title-group">
-            <h3>{char.name}</h3>
+            <h3 class={`zn-text-${char.element.toLowerCase()}`}>{char.name}</h3>
           </div>
         </div>
 
         {/* Character meta line (plain text, no badges) */}
         <p class="mobile-card-meta">
-          {char.rarity}, {char.element}, {char.class}, {char.faction}
+          <span class={`zn-text-${char.rarity.toLowerCase()}`}>{char.rarity}</span>, <span class={`zn-text-${char.element.toLowerCase()}`}>{char.element}</span>, {char.class}, {char.faction}
         </p>
 
         <div class="mobile-card-stats">

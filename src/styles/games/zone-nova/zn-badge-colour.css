@@ -853,3 +853,37 @@
   background: var(--zn-badge-mage);
   color: var(--zn-badge-white);
 }
+
+/* ═══════════════════════════════════════════════════════════════════════ */
+/*              PLAIN TEXT COLORS (no badge chrome)                       */
+/*  For list rows: names colored by element, rarity/element text colored. */
+/*  User rule: never add badges for this, font color only.                */
+/* ═══════════════════════════════════════════════════════════════════════ */
+
+.zn-text-ur {
+  color: #ffffff; /* UR text: white (badge equivalent is black bg + white text) */
+}
+.zn-text-ssr {
+  color: #ffd700; /* SSR text: gold, distinct from the Holy orange below */
+}
+.zn-text-sr {
+  color: var(--zn-badge-sr);
+}
+.zn-text-r {
+  color: var(--zn-badge-r);
+}
+.zn-text-fire {
+  color: var(--zn-badge-fire);
+}
+.zn-text-ice {
+  color: var(--zn-badge-ice);
+}
+.zn-text-wind {
+  color: var(--zn-badge-wind);
+}
+.zn-text-holy {
+  color: var(--zn-badge-holy);
+}
+.zn-text-chaos {
+  color: var(--zn-badge-chaos);
+}

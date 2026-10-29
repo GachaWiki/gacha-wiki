@@ -86,9 +86,10 @@ const classSections = getGroupedMemorySections();
                               loading="lazy"
                             />
                           </div>
-                          <div class="tl-char-name">{memory.name}</div>
+                          <div class={`tl-char-name zn-text-${memory.rarity.toLowerCase()}`}>{memory.name}</div>
                           <div class="tl-char-meta">
-                            {[memory.rarity, memory.character].filter(Boolean).join(', ')}
+                            {memory.rarity && <span class={`zn-text-${memory.rarity.toLowerCase()}`}>{memory.rarity}</span>}
+                            {memory.character && <span>, {memory.character}</span>}
                           </div>
                         </div>
                       );
@@ -131,9 +132,10 @@ const classSections = getGroupedMemorySections();
                   loading="lazy"
                 />
               </div>
-              <div class="tl-pool-name">{memory.name}</div>
+              <div class={`tl-pool-name zn-text-${memory.rarity.toLowerCase()}`}>{memory.name}</div>
               <div class="tl-char-meta">
-                {[memory.rarity, memory.character].filter(Boolean).join(', ')}
+                <span class={`zn-text-${memory.rarity.toLowerCase()}`}>{memory.rarity}</span>
+                {memory.character && <span>, {memory.character}</span>}
               </div>
             </div>
           ))}

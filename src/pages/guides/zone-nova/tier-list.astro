@@ -119,9 +119,10 @@ structuredListTypes.forEach(listType => {
                                     format="jpg"
                                   />
                                 </div>
-                                <div class="tl-char-name">{charData.name}</div>
+                                <div class={`tl-char-name zn-text-${charData.element.toLowerCase()}`}>{charData.name}</div>
                                 <div class="tl-char-meta">
-                                  {[charData.rarity, charData.element].filter(Boolean).join(', ')}
+                                  {charData.rarity && <span class={`zn-text-${charData.rarity.toLowerCase()}`}>{charData.rarity}</span>}
+                                  {charData.element && <span class={`zn-text-${charData.element.toLowerCase()}`}>, {charData.element}</span>}
                                 </div>
                               </div>
                             );
@@ -169,8 +170,11 @@ structuredListTypes.forEach(listType => {
                   format="webp"
                 />
               </div>
-              <div class="tl-pool-name">{char.name}</div>
-              <div class="tl-char-meta">{[char.rarity, char.element].filter(Boolean).join(', ')}</div>
+              <div class={`tl-pool-name zn-text-${char.element.toLowerCase()}`}>{char.name}</div>
+              <div class="tl-char-meta">
+                <span class={`zn-text-${char.rarity.toLowerCase()}`}>{char.rarity}</span>
+                <span class={`zn-text-${char.element.toLowerCase()}`}>, {char.element}</span>
+              </div>
             </div>
           ))}
         </div>
@@ -366,8 +370,8 @@ structuredListTypes.forEach(listType => {
           <div class="tl-char-img">
             <img src="${poolCard.querySelector('img').src}" alt="${characterName}" loading="lazy" />
           </div>
-          <div class="tl-char-name">${characterName}</div>
-          <div class="tl-char-meta">${charData?.rarity || 'SR'}${charData?.element ? `, ${elementName}` : ''}</div>
+          <div class="tl-char-name ${charData?.element ? 'zn-text-' + charData.element.toLowerCase() : ''}">${characterName}</div>
+          <div class="tl-char-meta"><span class="zn-text-${(charData?.rarity || 'SR').toLowerCase()}">${charData?.rarity || 'SR'}</span>${charData?.element ? `, <span class="zn-text-${charData.element.toLowerCase()}">${elementName}</span>` : ''}</div>
           <button class="tl-remove-btn" title="Remove from tier">&times;</button>
         `;
 
