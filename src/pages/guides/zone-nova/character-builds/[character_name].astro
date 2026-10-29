@@ -218,6 +218,16 @@ import { ZONE_NOVA_MEMORIES } from '../../../../data/zone-nova/memories.js';
 const memoriesByName = new Map(ZONE_NOVA_MEMORIES.map(card => [card.name.trim(), card.detailUrl]));
 const getMemoryCardUrl = (name: string) => memoryCardUrls[name] || memoriesByName.get((name || '').trim()) || null;
 
+// Memory card effect text is IMPORTED from the memory database (single source of
+// truth; the last = max-awaken effect). Per-build retyped copies drift and drop
+// details, so they are only a fallback when the card is not in the database.
+const resolveMemoryEffect = (card: any): string | null => {
+  const effects = card?.characterSpecific
+    ? characterData?.memoryCard?.effects
+    : ZONE_NOVA_MEMORIES.find(m => m.name.trim() === (card?.name || '').trim())?.effects;
+  return effects && effects.length ? effects[effects.length - 1] : null;
+};
+
 // Generate page title
 const pageTitle = `${finalCharacter.name} Build Guide - Zone Nova`;
 const pageDescription = `Complete build guide for ${finalCharacter.name} in Zone Nova. Optimal equipment, skill priorities, memory cards, and team compositions.`;
@@ -383,7 +393,7 @@ const pageDescription = `Complete build guide for ${finalCharacter.name} in Zone
                       <span class="memory-card-priority">{card.priority}</span>
                     )}
                   </div>
-                  <div class="memory-card-effect">{card.description || card.effect}</div>
+                  <div class="memory-card-effect">{resolveMemoryEffect(card) || card.description || card.effect}</div>
 
                   {/* Spending recommendation note */}
                   {card.spendingNote && (
@@ -474,7 +484,7 @@ const pageDescription = `Complete build guide for ${finalCharacter.name} in Zone
                   <div class="memory-card-header">
                     <div class="memory-card-name">{card.name}</div>
                   </div>
-                  <div class="memory-card-effect">{card.description || card.effect}</div>
+                  <div class="memory-card-effect">{resolveMemoryEffect(card) || card.description || card.effect}</div>
 
                   {/* Spending recommendation note */}
                   {card.spendingNote && (
