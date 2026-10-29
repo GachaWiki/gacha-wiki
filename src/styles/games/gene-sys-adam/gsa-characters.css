@@ -92,6 +92,12 @@
 
 /* Type chips in the header meta row (attack type, job, element) carry
    20px icon tiles, matching the in-game Info tab icon row. */
+.gsa-meta .gsa-header-rarity {
+  display: block;
+  height: 26px;
+  width: auto;
+}
+
 .gsa-meta .gsa-chip img {
   width: 20px;
   height: 20px;

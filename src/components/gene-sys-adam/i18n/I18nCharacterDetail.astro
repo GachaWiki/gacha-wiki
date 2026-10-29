@@ -140,9 +140,9 @@ const myStatuses = (GSA_CHAR_STATUSES[slug] || [])
             {c.element.name}
           </span>
         )}
-        {c.rarity && (
-          <span class={`gsa-chip ${c.rarity === 'SSR' ? 'solid-gold' : 'solid-accent'}`}>{c.rarity}</span>
-        )}
+        {c.rarity && gsaRarityBadge(c.rarity) && (
+            <img class="gsa-header-rarity" src={gsaRarityBadge(c.rarity)} alt={c.rarity} width="50" height="32" loading="lazy" />
+          )}
         {!c.inGacha && <span class="gsa-chip solid-muted">{L.notInSummons}</span>}
       </div>
     </div>
