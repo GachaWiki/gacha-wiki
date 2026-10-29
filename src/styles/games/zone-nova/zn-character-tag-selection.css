@@ -337,8 +337,6 @@
 
 .rarity-badge,
 .class-badge {
-  padding: 0.375rem 0.75rem;
-  border-radius: 8px;
   font-family: var(--font-primary);
   font-size: var(--text-xs);
   font-weight: var(--font-semibold);
@@ -348,15 +346,11 @@
 }
 
 .rarity-badge {
-  background: rgba(255, 183, 77, 0.15);
   color: var(--zn-primary-amber);
-  border: 1px solid rgba(255, 183, 77, 0.25);
 }
 
 .class-badge {
-  background: rgba(78, 205, 196, 0.15);
   color: var(--zn-primary-teal);
-  border: 1px solid rgba(78, 205, 196, 0.25);
 }
 
 /* Legacy styles for backward compatibility */
@@ -549,7 +543,6 @@
 
   .rarity-badge,
   .class-badge {
-    padding: 0.25rem 0.625rem;
     font-size: var(--text-xs);
   }
 

@@ -699,13 +699,12 @@
   color: var(--mlgg-text-muted);
 }
 
-.mlgg-badge-skill-extra { background: #d12f74; color: #fff; }
-.mlgg-badge-skill-active { background: #0072c9; color: #fff; }
-.mlgg-badge-skill-passive { background: #5b6478; color: #fff; }
+.mlgg-badge-skill-extra { color: #d12f74; }
+.mlgg-badge-skill-active { color: #0072c9; }
+.mlgg-badge-skill-passive { color: #8b95a9; }
 
 .mlgg-badge-rarity-up {
-  background: #7c3aed;
-  color: #fff;
+  color: #7c3aed;
 }
 
 /* Compact (non demo data) card blocks */

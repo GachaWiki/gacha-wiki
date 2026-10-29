@@ -91,12 +91,10 @@
 }
 
 .gsa-bn-kind {
-  background: var(--gsa-accent-tint);
   color: var(--gsa-accent-strong);
   font-size: var(--text-xs);
-  font-weight: 700;
-  border-radius: 5px;
-  padding: 0.2rem 0.55rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
 }
 
 .gsa-bn-status {
@@ -104,20 +102,11 @@
   font-weight: 700;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  border-radius: 5px;
-  padding: 0.2rem 0.55rem;
-  color: #fff;
+  color: var(--gsa-text-dim);
 }
 
 .gsa-bn-status-live {
-  background: var(--gsa-accent);
-}
-
-.gsa-bn-status-beta,
-.gsa-bn-status-scheduled,
-.gsa-bn-status-ended {
-  background: #3a2a2c;
-  color: var(--gsa-text-dim);
+  color: var(--gsa-accent-strong);
 }
 
 .gsa-bn-since {
@@ -283,17 +272,12 @@
 }
 
 .gsa-update-tag {
-  position: absolute;
-  top: 0.7rem;
-  left: 0.7rem;
-  background: var(--gsa-accent);
-  color: #fff;
+  color: var(--gsa-accent-strong);
   font-size: var(--text-xs);
   font-weight: 700;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  border-radius: 5px;
-  padding: 0.22rem 0.55rem;
+  white-space: nowrap;
 }
 
 .gsa-update-head {
@@ -352,13 +336,9 @@
 }
 
 .gsa-update-more {
-  display: inline-block;
-  background: var(--gsa-accent-tint);
   color: var(--gsa-accent-strong);
   font-size: var(--text-sm);
-  font-weight: 700;
-  border-radius: 6px;
-  padding: 0.35rem 0.75rem;
+  font-weight: 600;
 }
 
 /* Update detail page */
