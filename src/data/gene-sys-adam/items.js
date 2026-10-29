@@ -1,4 +1,4 @@
-// Gene-Sys: Adam item database (1078 items), from decrypted ItemData + EN localization.
+// Gene-Sys: Adam item database (1092 items), from decrypted ItemData + EN localization.
 
 export const gsaItems = [
  {
@@ -83,14 +83,14 @@ export const gsaItems = [
   "name": "Starlight Credits",
   "desc": "Obtained in the Heaven's Door event; can be exchanged for rewards. (Will be recalled after the event ends)",
   "quality": "50",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200000012.webp"
  },
  {
   "id": "200000013",
   "name": "Support Points",
   "desc": "The level of support shown for your favorite idol, used as the basis for fan ranking in the Heaven's Door event. Obtained by exchanging for merchandise in Heaven's Door. (This item will be reclaimed after the current event ends.)",
   "quality": "50",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200000013.webp"
  },
  {
   "id": "200000014",
@@ -188,7 +188,7 @@ export const gsaItems = [
   "name": "Tournament Entry Card",
   "desc": "This card certifies you as a Desperate Deathmatch participant. Use to restore Desperate Deathmatch challenge attempts.",
   "quality": "50",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200000027.webp"
  },
  {
   "id": "200000028",
@@ -206,8 +206,8 @@ export const gsaItems = [
  },
  {
   "id": "200000030",
-  "name": "ECoin",
-  "desc": "ECoin",
+  "name": "EROLABS Coin",
+  "desc": "EROLABS Coin",
   "quality": "70",
   "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200000030.webp"
  },
@@ -398,7 +398,7 @@ export const gsaItems = [
   "name": "[Elemental Resonance] Entry Permit",
   "desc": "Increases the number of [Elemental Resonance] attempts by 1.",
   "quality": "50",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200020026.webp"
  },
  {
   "id": "200020027",
@@ -524,14 +524,14 @@ export const gsaItems = [
   "name": "Guardian Module (Lv. 6)",
   "desc": "Integrates comprehensive defense data to support consciousness-level combat units.",
   "quality": "70",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200060006.webp"
  },
  {
   "id": "200060007",
   "name": "Guardian Module (Lv. 7)",
   "desc": "Fuses a multi-domain defense architecture with a tactical master control core, designed specifically for Top Secret-tier combat units.",
   "quality": "70",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200060007.webp"
  },
  {
   "id": "200060011",
@@ -573,14 +573,14 @@ export const gsaItems = [
   "name": "Assault Module (Lv. 6)",
   "desc": "Integrates comprehensive assault mechanisms and motion optimization solutions to support team combat.",
   "quality": "70",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200060016.webp"
  },
  {
   "id": "200060017",
   "name": "Assault Module (Lv. 7)",
   "desc": "Fuses an all-domain tactical simulation system with a real-time response master core, designed for top-secret combat units.",
   "quality": "70",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200060017.webp"
  },
  {
   "id": "200060021",
@@ -608,28 +608,28 @@ export const gsaItems = [
   "name": "Sniper Module (Lv. 4)",
   "desc": "Integrates an advanced detection database to enhance weak point identification and ballistic correction calculations.",
   "quality": "70",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200060024.webp"
  },
  {
   "id": "200060025",
   "name": "Sniper Module (Lv. 5)",
   "desc": "Supports versatile long-range missions, suitable for high-risk battlefields with frequent environmental changes.",
   "quality": "70",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200060025.webp"
  },
  {
   "id": "200060026",
   "name": "Sniper Module (Lv. 6)",
   "desc": "Integrates a battlefield visual prediction system and a long-range perception module to support ultra-long-range precision shooting.",
   "quality": "70",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200060026.webp"
  },
  {
   "id": "200060027",
   "name": "Sniper Module (Lv. 7)",
   "desc": "Fuses a tactical firing simulation architecture with a battlefield analysis command core, designed for top-secret sniper combat units.",
   "quality": "70",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200060027.webp"
  },
  {
   "id": "200060031",
@@ -671,14 +671,14 @@ export const gsaItems = [
   "name": "Support Module (Lv. 6)",
   "desc": "Integrates a full-field connection module and a status-aware system to support early-warning tactics.",
   "quality": "70",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200060036.webp"
  },
  {
   "id": "200060037",
   "name": "Support Module (Lv. 7)",
   "desc": "Fuses a wide-area support network with a target identification and distribution system, designed exclusively for top-secret logistics command units.",
   "quality": "70",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200060037.webp"
  },
  {
   "id": "200060041",
@@ -706,28 +706,28 @@ export const gsaItems = [
   "name": "Breaker Module (Lv. 4)",
   "desc": "Integrates an advanced ballistic and explosive databases to enhance destructive power against high-value targets.",
   "quality": "70",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200060044.webp"
  },
  {
   "id": "200060045",
   "name": "Breaker Module (Lv. 5)",
   "desc": "Supports versatile fire support missions, suitable for high-density combat zones.",
   "quality": "70",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200060045.webp"
  },
  {
   "id": "200060046",
   "name": "Breaker Module (Lv. 6)",
   "desc": "Integrates a heavy armament deployment system to support multiple combat units.",
   "quality": "70",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200060046.webp"
  },
  {
   "id": "200060047",
   "name": "Breaker Module (Lv. 7)",
   "desc": "Fuses an all-domain computing core, designed for top-secret combat units.",
   "quality": "70",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200060047.webp"
  },
  {
   "id": "200070001",
@@ -783,42 +783,42 @@ export const gsaItems = [
   "name": "Fiery Forged Steel",
   "desc": "A rare material used for crafting high-tier equipment.",
   "quality": "70",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200080005.webp"
  },
  {
   "id": "200080006",
   "name": "Riptide Forged Steel",
   "desc": "A rare material used for crafting high-tier equipment.",
   "quality": "70",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200080006.webp"
  },
  {
   "id": "200080007",
   "name": "Earthshaker Forged Steel",
   "desc": "A rare material used for crafting high-tier equipment.",
   "quality": "70",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200080007.webp"
  },
  {
   "id": "200080008",
   "name": "Tempest Forged Steel",
   "desc": "A rare material used for crafting high-tier equipment.",
   "quality": "70",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200080008.webp"
  },
  {
   "id": "200080009",
   "name": "Shadow Forged Steel",
   "desc": "A rare material used for crafting high-tier equipment.",
   "quality": "70",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200080009.webp"
  },
  {
   "id": "200080010",
   "name": "Radiant Forged Steel",
   "desc": "A rare material used for crafting high-tier equipment.",
   "quality": "70",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200080010.webp"
  },
  {
   "id": "200080011",
@@ -993,7 +993,7 @@ export const gsaItems = [
   "name": "Enhancement Stabilizer",
   "desc": "One of the laboratory's materials. It can stabilize experimental conditions to prevent life-threatening explosions.",
   "quality": "50",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200080035.webp"
  },
  {
   "id": "200080036",
@@ -1014,243 +1014,264 @@ export const gsaItems = [
   "name": "[Random] Fire Type Weapon Blueprint",
   "desc": "Life is like this book of recipes, you never know what you're going to get.",
   "quality": "50",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200080038.webp"
  },
  {
   "id": "200080039",
   "name": "[Targeted] Fire Type Weapon Blueprint",
   "desc": "This Blueprint is a high-investment, high-risk endeavor, but the rewards are just as great.",
   "quality": "50",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200080038.webp"
  },
  {
   "id": "200080040",
   "name": "[Random] Fire Type Armor Blueprint",
   "desc": "Life is like this book of recipes, you never know what you're going to get.",
   "quality": "50",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200080040.webp"
  },
  {
   "id": "200080041",
   "name": "[Targeted] Fire Type Armor Blueprint",
   "desc": "This Blueprint is a high-investment, high-risk endeavor, but the rewards are just as great.",
   "quality": "50",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200080040.webp"
  },
  {
   "id": "200080042",
   "name": "[Random] Water Type Weapon Blueprint",
   "desc": "Life is like this book of recipes, you never know what you're going to get.",
   "quality": "50",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200080042.webp"
  },
  {
   "id": "200080043",
   "name": "[Targeted] Water Type Weapon Blueprint",
   "desc": "This Blueprint is a high-investment, high-risk endeavor, but the rewards are just as great.",
   "quality": "50",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200080042.webp"
  },
  {
   "id": "200080044",
   "name": "[Random] Water Type Armor Blueprint",
   "desc": "Life is like this book of recipes, you never know what you're going to get.",
   "quality": "50",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200080044.webp"
  },
  {
   "id": "200080045",
   "name": "[Targeted] Water Type Armor Blueprint",
   "desc": "This Blueprint is a high-investment, high-risk endeavor, but the rewards are just as great.",
   "quality": "50",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200080044.webp"
  },
  {
   "id": "200080046",
   "name": "[Random] Wind Type Weapon Blueprint",
   "desc": "Life is like this book of recipes, you never know what you're going to get.",
   "quality": "50",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200080046.webp"
  },
  {
   "id": "200080047",
   "name": "[Targeted] Wind Type Weapon Blueprint",
   "desc": "This Blueprint is a high-investment, high-risk endeavor, but the rewards are just as great.",
   "quality": "50",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200080046.webp"
  },
  {
   "id": "200080048",
   "name": "[Random] Wind Type Armor Blueprint",
   "desc": "Life is like this book of recipes, you never know what you're going to get.",
   "quality": "50",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200080048.webp"
  },
  {
   "id": "200080049",
   "name": "[Targeted] Wind Type Armor Blueprint",
   "desc": "This Blueprint is a high-investment, high-risk endeavor, but the rewards are just as great.",
   "quality": "50",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200080048.webp"
  },
  {
   "id": "200080050",
   "name": "[Random] Earth Type Weapon Blueprint",
   "desc": "Life is like this book of recipes, you never know what you're going to get.",
   "quality": "50",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200080050.webp"
  },
  {
   "id": "200080051",
   "name": "[Targeted] Earth Type Weapon Blueprint",
   "desc": "This Blueprint is a high-investment, high-risk endeavor, but the rewards are just as great.",
   "quality": "50",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200080050.webp"
  },
  {
   "id": "200080052",
   "name": "[Random] Earth Type Armor Blueprint",
   "desc": "Life is like this book of recipes, you never know what you're going to get.",
   "quality": "50",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200080052.webp"
  },
  {
   "id": "200080053",
   "name": "[Targeted] Earth Type Armor Blueprint",
   "desc": "This Blueprint is a high-investment, high-risk endeavor, but the rewards are just as great.",
   "quality": "50",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200080052.webp"
  },
  {
   "id": "200080054",
   "name": "[Random] Light Type Weapon Blueprint",
   "desc": "Life is like this book of recipes, you never know what you're going to get.",
   "quality": "50",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200080054.webp"
  },
  {
   "id": "200080055",
   "name": "[Targeted] Light Type Weapon Blueprint",
   "desc": "This Blueprint is a high-investment, high-risk endeavor, but the rewards are just as great.",
   "quality": "50",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200080054.webp"
  },
  {
   "id": "200080056",
   "name": "[Random] Light Type Armor Blueprint",
   "desc": "Life is like this book of recipes, you never know what you're going to get.",
   "quality": "50",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200080056.webp"
  },
  {
   "id": "200080057",
   "name": "[Targeted] Light Type Armor Blueprint",
   "desc": "This Blueprint is a high-investment, high-risk endeavor, but the rewards are just as great.",
   "quality": "50",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200080056.webp"
  },
  {
   "id": "200080058",
   "name": "[Random] Dark Type Weapon Blueprint",
   "desc": "Life is like this book of recipes, you never know what you're going to get.",
   "quality": "50",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200080058.webp"
  },
  {
   "id": "200080059",
   "name": "[Targeted] Dark Type Weapon Blueprint",
   "desc": "This Blueprint is a high-investment, high-risk endeavor, but the rewards are just as great.",
   "quality": "50",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200080058.webp"
  },
  {
   "id": "200080060",
   "name": "[Random] Dark Type Armor Blueprint",
   "desc": "Life is like this book of recipes, you never know what you're going to get.",
   "quality": "50",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200080060.webp"
  },
  {
   "id": "200080061",
   "name": "[Targeted] Dark Type Armor Blueprint",
   "desc": "This Blueprint is a high-investment, high-risk endeavor, but the rewards are just as great.",
   "quality": "50",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200080060.webp"
  },
  {
   "id": "200080062",
   "name": "[Random] Guardian Specialized Armor Blueprint",
   "desc": "Life is like this book of recipes, you never know what you're going to get.",
   "quality": "50",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200080062.webp"
  },
  {
   "id": "200080063",
   "name": "[Targeted] Guardian Specialized Armor Blueprint",
   "desc": "This Blueprint is a high-investment, high-risk endeavor, but the rewards are just as great.",
   "quality": "50",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200080062.webp"
  },
  {
   "id": "200080064",
   "name": "[Random] Support Specialized Armor Blueprint",
   "desc": "Life is like this book of recipes, you never know what you're going to get.",
   "quality": "50",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200080062.webp"
  },
  {
   "id": "200080065",
   "name": "[Targeted] Support Specialized Armor Blueprint",
   "desc": "This Blueprint is a high-investment, high-risk endeavor, but the rewards are just as great.",
   "quality": "50",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200080062.webp"
  },
  {
   "id": "200080066",
   "name": "[Random] Sniper Specialized Armor Blueprint",
   "desc": "Life is like this book of recipes, you never know what you're going to get.",
   "quality": "50",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200080062.webp"
  },
  {
   "id": "200080067",
   "name": "[Targeted] Sniper Specialized Armor Blueprint",
   "desc": "This Blueprint is a high-investment, high-risk endeavor, but the rewards are just as great.",
   "quality": "50",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200080062.webp"
  },
  {
   "id": "200080068",
   "name": "[Random] Bombardier Specialized Armor Blueprint",
   "desc": "Life is like this book of recipes, you never know what you're going to get.",
   "quality": "50",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200080062.webp"
  },
  {
   "id": "200080069",
   "name": "[Targeted] Bombardier Specialized Armor Blueprint",
   "desc": "This Blueprint is a high-investment, high-risk endeavor, but the rewards are just as great.",
   "quality": "50",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200080062.webp"
  },
  {
   "id": "200080070",
   "name": "[Random] Vanguard Specialized Armor Blueprint",
   "desc": "Life is like this book of recipes, you never know what you're going to get.",
   "quality": "50",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200080062.webp"
  },
  {
   "id": "200080071",
   "name": "[Targeted] Vanguard Specialized Armor Blueprint",
   "desc": "This Blueprint is a high-investment, high-risk endeavor, but the rewards are just as great.",
   "quality": "50",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200080062.webp"
  },
  {
   "id": "200080072",
   "name": "[Random] Basic Armor Blueprint",
   "desc": "Life is like this book of recipes, you never know what you're going to get.",
+  "quality": "50",
+  "icon": null
+ },
+ {
+  "id": "200080073",
+  "name": "New Chapter Celebration Core",
+  "desc": "A mysterious crystal that gathers faint glimmers of light, holding untold possibilities. Can be used for experiments during the New Chapter Launch Celebration Event or converted into Gold Bars through the Armory.",
+  "quality": "50",
+  "icon": null
+ },
+ {
+  "id": "200080074",
+  "name": "New Chapter Special Blueprint (Basic)",
+  "desc": "Use 1 New Chapter Celebration Core to perform an experiment, with a chance to obtain \"Advanced Summon Tickets.\"",
+  "quality": "50",
+  "icon": null
+ },
+ {
+  "id": "200080075",
+  "name": "New Chapter Special Blueprint (Advanced)",
+  "desc": "Use 1 New Chapter Celebration Core to perform an experiment, with boosted drop rates and higher yields of \"Advanced Summon Tickets.\"",
   "quality": "50",
   "icon": null
  },
@@ -1448,7 +1469,7 @@ export const gsaItems = [
   "name": "[Lunar Splendor of the Pleasure District] Armament Resupply Chest",
   "desc": "Randomly grants [Lunar Splendor of the Pleasure District] Event Armaments and Resupply resources. Guaranteed to drop \"[Lunar Splendor of the Pleasure District] Armament Resupply Certificate x1\", with a 4% chance to receive a complete <color=#F7AFFD>Specialized</color> equipment set.",
   "quality": "50",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200090028.webp"
  },
  {
   "id": "200090029",
@@ -1466,15 +1487,15 @@ export const gsaItems = [
  },
  {
   "id": "200090031",
-  "name": "\u3010\u6df7\u6c8c\u4e4b\u6e90\u3011\u6b66\u88dd\u88dc\u7d66\u7bb1",
-  "desc": "\u96a8\u6a5f\u7372\u5f97\u6df7\u6c8c\u4e4b\u6e90\u6b66\u88dd\u3002\u5fc5\u5b9a\u7372\u5f97\"\u3010\u6df7\u6c8c\u4e4b\u6e90\u3011\u6b66\u88dd\u88dc\u7d66\u6191\u8b49x1\"\uff0c\u67094%\u7684\u6a5f\u7387\u53ef\u4ee5\u7372\u5f97\u7279\u5316\u7d1a\u5b8c\u6574\u88dd\u5099\u3002",
+  "name": "[Origin of Chaos] Armament Resupply Chest",
+  "desc": "Randomly receive Origin of Chaos Armaments. Guaranteed to drop \"[Origin of Chaos] Armament Resupply Certificate x1\", with a 4% chance to receive a complete Specialized equipment set.",
   "quality": "50",
   "icon": null
  },
  {
   "id": "200090032",
-  "name": "X(\u4e0d\u7ffb){\u4e3b\u984c\u6d3b\u52d55\u540d\u7a31}\u6b66\u88dd\u88dc\u7d66\u7bb1",
-  "desc": "X(\u4e0d\u7ffb)\u96a8\u6a5f\u7372\u5f97{\u4e3b\u984c\u6d3b\u52d55\u540d\u7a31}\u6b66\u88dd\u3002\u5fc5\u5b9a\u7372\u5f97\"\u3010{\u4e3b\u984c\u6d3b\u52d55\u540d\u7a31}\u3011\u6b66\u88dd\u88dc\u7d66\u6191\u8b49x1\"\uff0c\u67094%\u7684\u6a5f\u7387\u53ef\u4ee5\u7372\u5f97\u7279\u5316\u7d1a\u5b8c\u6574\u88dd\u5099\u3002",
+  "name": "\u7aba\u63a2\u6df1\u6df5\u7684\u4ee3\u50f9\u6b66\u88dd\u88dc\u7d66\u7bb1",
+  "desc": "\u96a8\u6a5f\u7372\u5f97\u7aba\u63a2\u6df1\u6df5\u7684\u4ee3\u50f9\u6b66\u88dd\u3002\u5fc5\u5b9a\u7372\u5f97\"\u3010\u7aba\u63a2\u6df1\u6df5\u7684\u4ee3\u50f9\u3011\u6b66\u88dd\u88dc\u7d66\u6191\u8b49x1\"\uff0c\u67094%\u7684\u6a5f\u7387\u53ef\u4ee5\u7372\u5f97\u7279\u5316\u7d1a\u5b8c\u6574\u88dd\u5099\u3002",
   "quality": "50",
   "icon": null
  },
@@ -1486,18 +1507,39 @@ export const gsaItems = [
   "icon": null
  },
  {
+  "id": "200090034",
+  "name": "New Chapter Special Gift (Regular)",
+  "desc": "Open to receive random combat supplies.",
+  "quality": "50",
+  "icon": null
+ },
+ {
+  "id": "200090035",
+  "name": "New Chapter Special Gift (Advanced)",
+  "desc": "Open to receive random combat supplies.",
+  "quality": "50",
+  "icon": null
+ },
+ {
+  "id": "200090036",
+  "name": "Gift from the Dev Team",
+  "desc": "A gift from the Dev Team, packed with rich rewards!",
+  "quality": "70",
+  "icon": null
+ },
+ {
   "id": "200100001",
   "name": "Combat Style Module (Lv. 1) Selection Chest",
   "desc": "Use to select and receive a Combat Style Module (Lv. 1). Receive 5 per use.",
   "quality": "50",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200100001.webp"
  },
  {
   "id": "200100002",
   "name": "Combat Style Module (Lv. 2) Selection Chest",
   "desc": "Use to select and receive a Combat Style Module (Lv. 2). Receive 5 per use.",
   "quality": "50",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200100002.webp"
  },
  {
   "id": "200100003",
@@ -1630,14 +1672,14 @@ export const gsaItems = [
   "name": "<color=#F7AFFD>Specialized</color> Armor Choice Resupply Chest",
   "desc": "Choose either a \"<color=#F7AFFD>Specialized</color> Physical Armor Choice Resupply Chest\" or a \"<color=#F7AFFD>Specialized</color> Energy Armor Choice Resupply Chest.\" Then, choose one additional Armor of a different type.",
   "quality": "50",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200100025.webp"
  },
  {
   "id": "200100026",
   "name": "Elemental Energy Module Choice Resupply Chest",
   "desc": "Choose 100 Energy Module from the 6 elements.",
   "quality": "50",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200100026.webp"
  },
  {
   "id": "200100027",
@@ -1651,35 +1693,35 @@ export const gsaItems = [
   "name": "<color=#F7AFFD>Specialized</color> SSR Character \"Exclusive Weapon\" Choice Supply Chest",
   "desc": "Choose one piece of <color=#F7AFFD>Specialized</color> SSR Character Exclusive Weapon. (Standard Summon Characters: Ruo Lan, Kurosawa Shion, Chloe, Charlotte, Milena, Amelie, Annabelle, Sugimoto Arina, Ogino Rui, Lin Lin, Liz, Li Mu)",
   "quality": "50",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200100028.webp"
  },
  {
   "id": "200100029",
   "name": "<color=#F7AFFD>Specialized</color> SSR Character \"Exclusive Handwear\" Choice Resupply Chest",
   "desc": "Choose one piece of <color=#F7AFFD>Specialized</color> SSR Character Exclusive Handwear. (Standard Summon Characters: Ruo Lan, Kurosawa Shion, Chloe, Charlotte, Milena, Amelie, Annabelle, Sugimoto Arina, Ogino Rui, Lin Lin, Liz, Li Mu)",
   "quality": "50",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200100029.webp"
  },
  {
   "id": "200100030",
   "name": "<color=#F7AFFD>Specialized</color> SSR Character \"Exclusive Footwear\" Choice Resupply Chest",
   "desc": "Choose one piece of <color=#F7AFFD>Specialized</color> SSR Character Exclusive Footwear. (Standard Summon Characters: Ruo Lan, Kurosawa Shion, Chloe, Charlotte, Milena, Amelie, Annabelle, Sugimoto Arina, Ogino Rui, Lin Lin, Liz, Li Mu)",
   "quality": "50",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200100030.webp"
  },
  {
   "id": "200100031",
   "name": "<color=#F7AFFD>Specialized</color> Accessory Choice Resupply Chest",
   "desc": "Choose 1 <color=#F7AFFD>Specialized</color> Accessory.",
   "quality": "50",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200100031.webp"
  },
  {
   "id": "200100032",
   "name": "<color=#F7AFFD>Specialized</color> Accessory Random Resupply Chest",
   "desc": "Randomly obtain 1 Specialized Accessory.",
   "quality": "50",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200100032.webp"
  },
  {
   "id": "200100033",
@@ -1697,106 +1739,106 @@ export const gsaItems = [
  },
  {
   "id": "200100035",
-  "name": "\u3010\u5730\u7344\u5149\u660e\u3011\u7279\u5316\u7d1a\u8db3\u90e8\u81ea\u9078\u88dc\u7d66\u7bb1",
-  "desc": "\u6307\u5b9a\u9078\u64c71\u4ef6<color=#F7AFFD>\u7279\u5316</color>\u7d1a\u3010\u5730\u7344\u5149\u660e\u3011SSR\u89d2\u8272\u5c08\u5c6c\u8db3\u90e8\u3002\uff08\u9ed1\u6fa4 \u8a69\u97f3\u3001\u514b\u863f\u4f0a\uff09",
+  "name": "[Hell's Light] Specialized Footwear Choice Resupply Chest",
+  "desc": "Choose 1 <color=#F7AFFD>Specialized</color> Exclusive Footwear for a [Hell's Light] SSR character. (Kurosawa Shion, Chloe)",
   "quality": "50",
   "icon": null
  },
  {
   "id": "200100036",
-  "name": "\u3010\u5730\u7344\u5149\u660e\u3011\u7279\u5316\u7d1a\u624b\u5957\u81ea\u9078\u88dc\u7d66\u7bb1",
-  "desc": "\u6307\u5b9a\u9078\u64c71\u4ef6<color=#F7AFFD>\u7279\u5316</color>\u7d1a\u3010\u5730\u7344\u5149\u660e\u3011SSR\u89d2\u8272\u5c08\u5c6c\u624b\u5957\u3002\uff08\u9ed1\u6fa4 \u8a69\u97f3\u3001\u514b\u863f\u4f0a\uff09",
+  "name": "[Hell's Light] Specialized Handwear Choice Resupply Chest",
+  "desc": "Choose 1 <color=#F7AFFD>Specialized</color> Exclusive Handwear for a [Hell's Light] SSR character. (Kurosawa Shion, Chloe)",
   "quality": "50",
   "icon": null
  },
  {
   "id": "200100037",
-  "name": "\u3010\u5730\u7344\u5149\u660e\u3011\u7279\u5316\u7d1a\u6b66\u5668\u81ea\u9078\u88dc\u7d66\u7bb1",
-  "desc": "\u6307\u5b9a\u9078\u64c71\u4ef6<color=#F7AFFD>\u7279\u5316</color>\u7d1a\u3010\u5730\u7344\u5149\u660e\u3011SSR\u89d2\u8272\u5c08\u5c6c\u6b66\u5668\u3002\uff08\u9ed1\u6fa4 \u8a69\u97f3\u3001\u514b\u863f\u4f0a\uff09",
+  "name": "[Hell's Light] Specialized Weapon Choice Resupply Chest",
+  "desc": "Choose 1 <color=#F7AFFD>Specialized</color> Exclusive Weapon for a [Hell's Light] SSR character. (Kurosawa Shion, Chloe)",
   "quality": "50",
   "icon": null
  },
  {
   "id": "200100038",
-  "name": "\u3010\u7f85\u58eb\u6602\u5144\u5f1f\u6703\u3011\u7279\u5316\u7d1a\u8db3\u90e8\u81ea\u9078\u88dc\u7d66\u7bb1",
-  "desc": "\u6307\u5b9a\u9078\u64c71\u4ef6<color=#F7AFFD>\u7279\u5316</color>\u7d1a\u3010\u7f85\u58eb\u6602\u5144\u5f1f\u6703\u3011SSR\u89d2\u8272\u5c08\u5c6c\u8db3\u90e8\u3002\uff08\u611b\u871c\u8389\u3001\u7c73\u84ee\u5a1c\uff09",
+  "name": "[Rosian Brotherhood] Specialized Footwear Choice Resupply Chest",
+  "desc": "Choose 1 <color=#F7AFFD>Specialized</color> Exclusive Footwear for a [Rosian Brotherhood] SSR character. (Amelie, Milena)",
   "quality": "50",
   "icon": null
  },
  {
   "id": "200100039",
-  "name": "\u3010\u7f85\u58eb\u6602\u5144\u5f1f\u6703\u3011\u7279\u5316\u7d1a\u624b\u5957\u81ea\u9078\u88dc\u7d66\u7bb1",
-  "desc": "\u6307\u5b9a\u9078\u64c71\u4ef6<color=#F7AFFD>\u7279\u5316</color>\u7d1a\u3010\u7f85\u58eb\u6602\u5144\u5f1f\u6703\u3011SSR\u89d2\u8272\u5c08\u5c6c\u624b\u5957\u3002\uff08\u611b\u871c\u8389\u3001\u7c73\u84ee\u5a1c\uff09",
+  "name": "[Rosian Brotherhood] Specialized Handwear Choice Resupply Chest",
+  "desc": "Choose 1 <color=#F7AFFD>Specialized</color> Exclusive Handwear for a [Rosian Brotherhood] SSR character. (Amelie, Milena)",
   "quality": "50",
   "icon": null
  },
  {
   "id": "200100040",
-  "name": "\u3010\u7f85\u58eb\u6602\u5144\u5f1f\u6703\u3011\u7279\u5316\u7d1a\u6b66\u5668\u81ea\u9078\u88dc\u7d66\u7bb1",
-  "desc": "\u6307\u5b9a\u9078\u64c71\u4ef6<color=#F7AFFD>\u7279\u5316</color>\u7d1a\u3010\u7f85\u58eb\u6602\u5144\u5f1f\u6703\u3011SSR\u89d2\u8272\u5c08\u5c6c\u6b66\u5668\u3002\uff08\u611b\u871c\u8389\u3001\u7c73\u84ee\u5a1c\uff09",
+  "name": "[Rosian Brotherhood] Specialized Weapon Choice Resupply Chest",
+  "desc": "Choose 1 <color=#F7AFFD>Specialized</color> Exclusive Weapon for a [Rosian Brotherhood] SSR character. (Amelie, Milena)",
   "quality": "50",
   "icon": null
  },
  {
   "id": "200100041",
-  "name": "\u3010\u6708\u83ef\u7d44\u3011\u7279\u5316\u7d1a\u8db3\u90e8\u81ea\u9078\u88dc\u7d66\u7bb1",
-  "desc": "\u6307\u5b9a\u9078\u64c71\u4ef6<color=#F7AFFD>\u7279\u5316</color>\u7d1a\u3010\u6708\u83ef\u7d44\u3011SSR\u89d2\u8272\u5c08\u5c6c\u8db3\u90e8\u3002\uff08\u837b\u91ce \u7460\u8863\u3001\u6749\u672c \u6709\u83dc\uff09",
+  "name": "[Moonflower Clan] Specialized Footwear Choice Resupply Chest",
+  "desc": "Choose 1 <color=#F7AFFD>Specialized</color> Exclusive Footwear for a [Moonflower Clan] SSR character. (Ogino Rui, Sugimoto Arina)",
   "quality": "50",
   "icon": null
  },
  {
   "id": "200100042",
-  "name": "\u3010\u6708\u83ef\u7d44\u3011\u7279\u5316\u7d1a\u624b\u5957\u81ea\u9078\u88dc\u7d66\u7bb1",
-  "desc": "\u6307\u5b9a\u9078\u64c71\u4ef6<color=#F7AFFD>\u7279\u5316</color>\u7d1a\u3010\u6708\u83ef\u7d44\u3011SSR\u89d2\u8272\u5c08\u5c6c\u624b\u5957\u3002\uff08\u837b\u91ce \u7460\u8863\u3001\u6749\u672c \u6709\u83dc\uff09",
+  "name": "[Moonflower Clan] Specialized Handwear Choice Resupply Chest",
+  "desc": "Choose 1 <color=#F7AFFD>Specialized</color> Exclusive Handwear for a [Moonflower Clan] SSR character. (Ogino Rui, Sugimoto Arina)",
   "quality": "50",
   "icon": null
  },
  {
   "id": "200100043",
-  "name": "\u3010\u6708\u83ef\u7d44\u3011\u7279\u5316\u7d1a\u6b66\u5668\u81ea\u9078\u88dc\u7d66\u7bb1",
-  "desc": "\u6307\u5b9a\u9078\u64c71\u4ef6<color=#F7AFFD>\u7279\u5316</color>\u7d1a\u3010\u6708\u83ef\u7d44\u3011SSR\u89d2\u8272\u5c08\u5c6c\u6b66\u5668\u3002\uff08\u837b\u91ce \u7460\u8863\u3001\u6749\u672c \u6709\u83dc\uff09",
+  "name": "[Moonflower Clan] Specialized Weapon Choice Resupply Chest",
+  "desc": "Choose 1 <color=#F7AFFD>Specialized</color> Exclusive Weapon for a [Moonflower Clan] SSR character. (Ogino Rui, Sugimoto Arina)",
   "quality": "50",
   "icon": null
  },
  {
   "id": "200100044",
-  "name": "\u3010\u9752\u9f8d\u5e6b\u3011\u7279\u5316\u7d1a\u8db3\u90e8\u81ea\u9078\u88dc\u7d66\u7bb1",
-  "desc": "\u6307\u5b9a\u9078\u64c71\u4ef6<color=#F7AFFD>\u7279\u5316</color>\u7d1a\u3010\u9752\u9f8d\u5e6b\u3011SSR\u89d2\u8272\u5c08\u5c6c\u8db3\u90e8\u3002\uff08\u82e5\u862d\u3001\u674e\u6c90\uff09",
+  "name": "[Azure Dragon Triad] Specialized Footwear Choice Resupply Chest",
+  "desc": "Choose 1 <color=#F7AFFD>Specialized</color> Exclusive Footwear for a [Azure Dragon Triad] SSR character. (Ruo Lan, Li Mu)",
   "quality": "50",
   "icon": null
  },
  {
   "id": "200100045",
-  "name": "\u3010\u9752\u9f8d\u5e6b\u3011\u7279\u5316\u7d1a\u624b\u5957\u81ea\u9078\u88dc\u7d66\u7bb1",
-  "desc": "\u6307\u5b9a\u9078\u64c71\u4ef6<color=#F7AFFD>\u7279\u5316</color>\u7d1a\u3010\u9752\u9f8d\u5e6b\u3011SSR\u89d2\u8272\u5c08\u5c6c\u624b\u5957\u3002\uff08\u82e5\u862d\u3001\u674e\u6c90\uff09",
+  "name": "[Azure Dragon Triad] Specialized Handwear Choice Resupply Chest",
+  "desc": "Choose 1 <color=#F7AFFD>Specialized</color> Exclusive Handwear for a [Azure Dragon Triad] SSR character. (Ruo Lan, Li Mu)",
   "quality": "50",
   "icon": null
  },
  {
   "id": "200100046",
-  "name": "\u3010\u9752\u9f8d\u5e6b\u3011\u7279\u5316\u7d1a\u6b66\u5668\u81ea\u9078\u88dc\u7d66\u7bb1",
-  "desc": "\u6307\u5b9a\u9078\u64c71\u4ef6<color=#F7AFFD>\u7279\u5316</color>\u7d1a\u3010\u9752\u9f8d\u5e6b\u3011SSR\u89d2\u8272\u5c08\u5c6c\u6b66\u5668\u3002\uff08\u82e5\u862d\u3001\u674e\u6c90\uff09",
+  "name": "[Azure Dragon Triad] Specialized Weapon Choice Resupply Chest",
+  "desc": "Choose 1 <color=#F7AFFD>Specialized</color> Exclusive Weapon for a [Azure Dragon Triad] SSR character. (Ruo Lan, Li Mu)",
   "quality": "50",
   "icon": null
  },
  {
   "id": "200100047",
-  "name": "\u3010\u5361\u8fea\u4e45\u5bb6\u65cf\u3011\u7279\u5316\u7d1a\u8db3\u90e8\u81ea\u9078\u88dc\u7d66\u7bb1",
-  "desc": "\u6307\u5b9a\u9078\u64c71\u4ef6<color=#F7AFFD>\u7279\u5316</color>\u7d1a\u3010\u5361\u8fea\u4e45\u5bb6\u65cf\u3011SSR\u89d2\u8272\u5c08\u5c6c\u8db3\u90e8\u3002\uff08\u8389\u8332\u3001\u5b89\u5a1c\u8c9d\u723e\uff09",
+  "name": "[Carducci Family] Specialized Footwear Choice Resupply Chest",
+  "desc": "Choose 1 <color=#F7AFFD>Specialized</color> Exclusive Footwear for a [Carducci Family] SSR character. (Liz, Annabelle)",
   "quality": "50",
   "icon": null
  },
  {
   "id": "200100048",
-  "name": "\u3010\u5361\u8fea\u4e45\u5bb6\u65cf\u3011\u7279\u5316\u7d1a\u624b\u5957\u81ea\u9078\u88dc\u7d66\u7bb1",
-  "desc": "\u6307\u5b9a\u9078\u64c71\u4ef6<color=#F7AFFD>\u7279\u5316</color>\u7d1a\u3010\u5361\u8fea\u4e45\u5bb6\u65cf\u3011SSR\u89d2\u8272\u5c08\u5c6c\u624b\u5957\u3002\uff08\u8389\u8332\u3001\u5b89\u5a1c\u8c9d\u723e\uff09",
+  "name": "[Carducci Family] Specialized Handwear Choice Resupply Chest",
+  "desc": "Choose 1 <color=#F7AFFD>Specialized</color> Exclusive Handwear for a [Carducci Family] SSR character. (Liz, Annabelle)",
   "quality": "50",
   "icon": null
  },
  {
   "id": "200100049",
-  "name": "\u3010\u5361\u8fea\u4e45\u5bb6\u65cf\u3011\u7279\u5316\u7d1a\u6b66\u5668\u81ea\u9078\u88dc\u7d66\u7bb1",
-  "desc": "\u6307\u5b9a\u9078\u64c71\u4ef6<color=#F7AFFD>\u7279\u5316</color>\u7d1a\u3010\u5361\u8fea\u4e45\u5bb6\u65cf\u3011SSR\u89d2\u8272\u5c08\u5c6c\u6b66\u5668\u3002\uff08\u8389\u8332\u3001\u5b89\u5a1c\u8c9d\u723e\uff09",
+  "name": "[Carducci Family] Specialized Weapon Choice Resupply Chest",
+  "desc": "Choose 1 <color=#F7AFFD>Specialized</color> Exclusive Weapon for a [Carducci Family] SSR character. (Liz, Annabelle)",
   "quality": "50",
   "icon": null
  },
@@ -2131,8 +2173,8 @@ export const gsaItems = [
  },
  {
   "id": "200110075",
-  "name": "Komachi Yuu Promotion Certificate",
-  "desc": "A promotion certificate issued by senior authorities, awarded only to members who have demonstrated outstanding performance. It serves as official verification that the holder is authorized to advance to a higher rank. Can be used to rank up <color=#e88418>SSR Komachi Yuu</color>.",
+  "name": "\u5929\u91ce \u6faa\u83ef\u5347\u661f\u6649\u5347\u5361",
+  "desc": "\u4e00\u5f35\u7531\u9ad8\u968e\u6838\u767c\u7684\u6649\u5347\u8b49\u66f8\uff0c\u50c5\u6388\u4e88\u9054\u6210\u5353\u8d8a\u8868\u73fe\u7684\u6210\u54e1\uff0c\u8b49\u660e\u6301\u6709\u8005\u5177\u5099\u6649\u5347\u81f3\u66f4\u9ad8\u968e\u7d1a\u7684\u8cc7\u683c\u8207\u6b0a\u9650\u3002\u53ef\u4ee5\u8b93<color=#e88418>SSR\u5929\u91ce \u6faa\u83ef</color>\u63d0\u5347\u661f\u7b49\u3002",
   "quality": "50",
   "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200110001.webp"
  },
@@ -2181,7 +2223,7 @@ export const gsaItems = [
  {
   "id": "200120004",
   "name": "Advanced Summon Ticket",
-  "desc": "A contract issued to top-tier headhunters. Can be used for 1 Advanced Summon.",
+  "desc": "Commission a professional headhunter for use in the \"Advanced Summon\" event. Alternatively, visit the Advanced Summon Ticket Exchange to convert it into Summon Tickets for other event periods.",
   "quality": "70",
   "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200120004.webp"
  },
@@ -2197,21 +2239,21 @@ export const gsaItems = [
   "name": "[Ogino Rui] Targeted Summon 10-Pull Ticket",
   "desc": "Character Selector Ticket. Can be used for 10 Summons. (This item will be reclaimed after the current event ends.)",
   "quality": "70",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200120007.webp"
  },
  {
   "id": "200120008",
   "name": "[Lunar Splendor of the Pleasure District] Limited Summon Ticket",
   "desc": "Limited Character Summon Ticket. Can be used for 1 Summon. (This item will be reclaimed after the current event ends.)",
   "quality": "70",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200120008.webp"
  },
  {
   "id": "200120009",
   "name": "[Lunar Splendor of the Pleasure District] Limited Summon 10-Pull Ticket",
   "desc": "Limited Character Summon Ticket. Can be used for 10 Summons. (This item will be reclaimed after the current event ends.)",
   "quality": "70",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200120009.webp"
  },
  {
   "id": "200120010",
@@ -2239,7 +2281,7 @@ export const gsaItems = [
   "name": "[Sugimoto Arina] Targeted Summon 10-Pull Ticket",
   "desc": "Character Selector Ticket. Can be used for 10 Summons. (This item will be reclaimed after the current event ends.)",
   "quality": "70",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200120013.webp"
  },
  {
   "id": "200120014",
@@ -2302,7 +2344,7 @@ export const gsaItems = [
   "name": "Heaven's Door Summon Ticket",
   "desc": "Can be used to summon a Perfect Lady from Heaven's Door. (This item will be reclaimed after the current event ends.)",
   "quality": "70",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200120022.webp"
  },
  {
   "id": "200120023",
@@ -2316,14 +2358,14 @@ export const gsaItems = [
   "name": "[Clumsy Cowgirl - Belle] Limited Summon Ticket",
   "desc": "Limited Character Summon Ticket. Can be used for 1 Summon. (This item will be reclaimed after the current event ends.)",
   "quality": "70",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200120024.webp"
  },
  {
   "id": "200120025",
   "name": "[Clumsy Cowgirl - Belle] Limited Summon 10-Pull Ticket",
   "desc": "Limited Character Summon Ticket. Can be used for 10 Summons. (This item will be reclaimed after the current event ends.)",
   "quality": "70",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200120025.webp"
  },
  {
   "id": "200120027",
@@ -2449,7 +2491,7 @@ export const gsaItems = [
   "name": "[Milena] Targeted Summon 10-Pull Ticket",
   "desc": "Character Selector Ticket. Can be used for 10 Summons. (This item will be reclaimed after the current event ends.)",
   "quality": "70",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200120044.webp"
  },
  {
   "id": "200120045",
@@ -2523,42 +2565,42 @@ export const gsaItems = [
  },
  {
   "id": "200120055",
-  "name": "\u3010\u6df7\u6c8c\u4e4b\u6e90\u3011\u9650\u5b9a\u53ec\u52df\u5361",
+  "name": "[Origin of Chaos] Limited Summon Ticket",
   "desc": "Limited Character Summon Ticket. Can be used for 1 Summon. (This item will be reclaimed after the current event ends.)",
   "quality": "70",
   "icon": null
  },
  {
   "id": "200120056",
-  "name": "\u3010\u6df7\u6c8c\u4e4b\u6e90\u3011\u9650\u5b9a\u53ec\u52df\u5341\u62bd\u5361",
+  "name": "[Origin of Chaos] Limited Summon 10-Pull Ticket",
   "desc": "Limited Character Summon Ticket. Can be used for 10 Summons. (This item will be reclaimed after the current event ends.)",
   "quality": "70",
   "icon": null
  },
  {
   "id": "200120057",
-  "name": "\u3010\u6df7\u6c8c\u4e4b\u6e90\u3011\u9650\u5b9a\u53ec\u52df\u5341\u62bd\u5361(Ecoin)",
+  "name": "[Origin of Chaos] Limited Summon 10-Pull Ticket (ECoin)",
   "desc": "Limited Character Summon Ticket. Can be used for 10 Summons. (This item will be reclaimed after the current event ends.)",
   "quality": "70",
   "icon": null
  },
  {
   "id": "200120058",
-  "name": "X(\u4e0d\u7ffb)\u3010{\u4e3b\u984c\u6d3b\u52d55\u540d\u7a31}\u3011\u9650\u5b9a\u53ec\u52df\u5361",
+  "name": "\u3010\u7aba\u63a2\u6df1\u6df5\u7684\u4ee3\u50f9\u3011\u9650\u5b9a\u53ec\u52df\u5361",
   "desc": "Limited Character Summon Ticket. Can be used for 1 Summon. (This item will be reclaimed after the current event ends.)",
   "quality": "70",
   "icon": null
  },
  {
   "id": "200120059",
-  "name": "X(\u4e0d\u7ffb)\u3010{\u4e3b\u984c\u6d3b\u52d55\u540d\u7a31}\u3011\u9650\u5b9a\u53ec\u52df\u5341\u62bd\u5361",
+  "name": "\u3010\u7aba\u63a2\u6df1\u6df5\u7684\u4ee3\u50f9\u3011\u9650\u5b9a\u53ec\u52df\u5341\u62bd\u5361",
   "desc": "Limited Character Summon Ticket. Can be used for 10 Summons. (This item will be reclaimed after the current event ends.)",
   "quality": "70",
   "icon": null
  },
  {
   "id": "200120060",
-  "name": "X(\u4e0d\u7ffb)\u3010{\u4e3b\u984c\u6d3b\u52d55\u540d\u7a31}\u3011\u9650\u5b9a\u53ec\u52df\u5341\u62bd\u5361(Ecoin)",
+  "name": "\u3010\u7aba\u63a2\u6df1\u6df5\u7684\u4ee3\u50f9\u3011\u9650\u5b9a\u53ec\u52df\u5341\u62bd\u5361(Ecoin)",
   "desc": "Limited Character Summon Ticket. Can be used for 10 Summons. (This item will be reclaimed after the current event ends.)",
   "quality": "70",
   "icon": null
@@ -2589,21 +2631,21 @@ export const gsaItems = [
   "name": "Moonflower Crest",
   "desc": "A Lunar Splendor Crest. Carrying this emblem in Moonflower territory can help you avoid some trouble. Obtained through events, it can be exchanged for items at the Exchange Shop. (This item will be reclaimed after the current event ends.)",
   "quality": "50",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200130001.webp"
  },
  {
   "id": "200130002",
   "name": "Hanafuda Badge",
   "desc": "A badge from a traditional card game popular in the territory of the Moonflower Clan. Obtained through event stage, it can be exchanged for items at the Exchange Shop. (This item will be reclaimed after the current event ends.)",
   "quality": "50",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200130002.webp"
  },
  {
   "id": "200130003",
   "name": "[Lunar Splendor of the Pleasure District] Armament Resupply Certificate",
   "desc": "Obtained through Packs and the [Lunar Splendor of the Pleasure District] Armament Resupply Chest. (This item will be reclaimed after the current event ends.)",
   "quality": "50",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200130003.webp"
  },
  {
   "id": "200130005",
@@ -2659,7 +2701,7 @@ export const gsaItems = [
   "name": "Agate",
   "desc": "Hard in texture, its surface features banded patterns of concentric circles or parallel layers. Obtainable from the [Black Gold Hunter] Warrant Stage. (This item will be reclaimed after the current event ends.)",
   "quality": "50",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200130012.webp"
  },
  {
   "id": "200130013",
@@ -2684,31 +2726,31 @@ export const gsaItems = [
  },
  {
   "id": "200130016",
-  "name": "[1 Million Downloads] Celebration Certificate",
+  "name": "[1M Downloads] Celebration Certificate",
   "desc": "Obtained by performing the [1M Downloads Celebration Summon]. (This item will be reclaimed after the current event ends.)",
   "quality": "50",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200130016.webp"
  },
  {
   "id": "200130017",
   "name": "[Ogino Rui] Targeted Certificate",
   "desc": "Obtained by performing the [Ogino Rui Targeted Summon]. (This item will be reclaimed after the current event ends.)",
   "quality": "50",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200130017.webp"
  },
  {
   "id": "200130018",
   "name": "[Sugimoto Arina] Targeted Certificate",
   "desc": "Obtained by performing the [Sugimoto Arina Targeted Summon]. (This item will be reclaimed after the current event ends.)",
   "quality": "50",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200130018.webp"
  },
  {
   "id": "200130019",
   "name": "[Clumsy Cowgirl - Belle] Targeted Certificate",
   "desc": "Obtained by performing the [Clumsy Cowgirl - Belle Limited Summon]. (This item will be reclaimed after the current event ends.)",
   "quality": "50",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200130019.webp"
  },
  {
   "id": "200130020",
@@ -2757,7 +2799,7 @@ export const gsaItems = [
   "name": "[Milena] Targeted Certificate",
   "desc": "Obtained by performing the [Milena Targeted Summon]. (This item will be reclaimed after the current event ends.)",
   "quality": "50",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200130026.webp"
  },
  {
   "id": "200130027",
@@ -2799,7 +2841,7 @@ export const gsaItems = [
   "name": "Zanshin's Sigil",
   "desc": "Maintain focus and vigilance. Meet both triumph and disaster with humility and calm. Obtained from Investigation Stages. Can be exchanged for items at the Exchange Shop.",
   "quality": "50",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200130032.webp"
  },
  {
   "id": "200130033",
@@ -2824,57 +2866,57 @@ export const gsaItems = [
  },
  {
   "id": "200130036",
-  "name": "\u6df7\u6c8c\u5fbd\u8a18",
-  "desc": "\u85cf\u6c61\u7d0d\u57a2\u7684\u767d\u8272\u5de8\u5854\u7684\u88e1\u9762\uff0c\u96b1\u85cf\u8457\u6975\u5176\u6158\u5fcd\u7684\u8840\u8165\u8b0a\u8a00\u3002\u900f\u904e\u6d3b\u52d5\u53d6\u5f97\uff0c\u53ef\u65bc\u4ea4\u6613\u6240\u514c\u63db\u5546\u54c1\u3002(\u6b64\u7269\u54c1\u5c07\u65bc\u672c\u671f\u6d3b\u52d5\u7d50\u675f\u5f8c\u56de\u6536)",
+  "name": "Chaos Emblem",
+  "desc": "Within the towering white structure that harbors filth and corruption lie horrific, blood-soaked lies. Obtained from Events. Can be exchanged for items at the Exchange Shop. (This item will be removed after the event ends.)",
   "quality": "50",
   "icon": null
  },
  {
   "id": "200130037",
-  "name": "\u540c\u7a2e\u52f3\u7ae0",
-  "desc": "\u5c07\u5065\u5eb7\u8207\u58fd\u547d\u632a\u7528\u5728\u66f4\u6709\u50f9\u503c\u7684\u4eba\u8eab\u4e0a\u3002\u900f\u904e\u6d3b\u52d5\u95dc\u5361\u53d6\u5f97\uff0c\u53ef\u65bc\u4ea4\u6613\u6240\u514c\u63db\u5546\u54c1\u3002(\u6b64\u7269\u54c1\u5c07\u65bc\u672c\u671f\u6d3b\u52d5\u7d50\u675f\u5f8c\u56de\u6536)",
+  "name": "Kindred Medal",
+  "desc": "Sacrifice your own health and lifespan to those deemed more worthy. Obtained from Event Stages. Can be exchanged for items at the Exchange Shop. (This item will be removed after the event ends.)",
   "quality": "50",
   "icon": null
  },
  {
   "id": "200130038",
-  "name": "\u3010\u6df7\u6c8c\u4e4b\u6e90\u3011\u6b66\u88dd\u88dc\u7d66\u6191\u8b49",
-  "desc": "\u900f\u904e\u79ae\u5305\u8207\u3010\u6df7\u6c8c\u4e4b\u6e90\u3011\u6b66\u88dd\u88dc\u7d66\u7bb1\u53d6\u5f97\u3002(\u6b64\u7269\u54c1\u5c07\u65bc\u672c\u671f\u6d3b\u52d5\u7d50\u675f\u5f8c\u56de\u6536)",
+  "name": "[Origin of Chaos] Armament Resupply Certificate",
+  "desc": "Obtained via Packs and the [Origin of Chaos] Armament Resupply Chest. (This item will be removed after the event ends.)",
   "quality": "50",
   "icon": null
  },
  {
   "id": "200130039",
-  "name": "\u75c5\u5b0c\u523b\u5370",
-  "desc": "\u5728\u5730\u7344\uff0c\u5149\u660e\u6b63\u5927\u6bba\u4eba\uff0c\u662f\u88ab\u5141\u8a31\u7684\u3002\u900f\u904e\u8abf\u67e5\u95dc\u5361\u53d6\u5f97\uff0c\u53ef\u65bc\u4ea4\u6613\u6240\u514c\u63db\u5546\u54c1\u3002",
+  "name": "Yandere Sigil",
+  "desc": "In Hell, killing openly and without fear of punishment is permitted. Obtained from Investigation Stages. Can be exchanged for items at the Exchange Shop.",
   "quality": "50",
   "icon": null
  },
  {
   "id": "200130040",
-  "name": "X(\u4e0d\u7ffb){\u6d3b\u52d55}\u5fbd\u8a18",
-  "desc": "X(\u4e0d\u7ffb){\u63cf\u8ff0}\u3002\u900f\u904e\u6d3b\u52d5\u53d6\u5f97\uff0c\u53ef\u65bc\u4ea4\u6613\u6240\u514c\u63db\u5546\u54c1\u3002(\u6b64\u7269\u54c1\u5c07\u65bc\u672c\u671f\u6d3b\u52d5\u7d50\u675f\u5f8c\u56de\u6536)",
+  "name": "\u6df1\u6df5\u5fbd\u8a18",
+  "desc": "\u7576\u4f60\u9577\u4e45\u5730\u51dd\u8996\u6df1\u6df5\uff0c\u6df1\u6df5\u4e5f\u6703\u51dd\u8996\u8457\u4f60\u3002\u900f\u904e\u6d3b\u52d5\u53d6\u5f97\uff0c\u53ef\u65bc\u4ea4\u6613\u6240\u514c\u63db\u5546\u54c1\u3002(\u6b64\u7269\u54c1\u5c07\u65bc\u672c\u671f\u6d3b\u52d5\u7d50\u675f\u5f8c\u56de\u6536)",
   "quality": "50",
   "icon": null
  },
  {
   "id": "200130041",
-  "name": "X(\u4e0d\u7ffb){\u6d3b\u52d55}\u52f3\u7ae0",
-  "desc": "X(\u4e0d\u7ffb){\u63cf\u8ff0}\u3002\u900f\u904e\u6d3b\u52d5\u95dc\u5361\u53d6\u5f97\uff0c\u53ef\u65bc\u4ea4\u6613\u6240\u514c\u63db\u5546\u54c1\u3002(\u6b64\u7269\u54c1\u5c07\u65bc\u672c\u671f\u6d3b\u52d5\u7d50\u675f\u5f8c\u56de\u6536)",
+  "name": "\u89ba\u9192\u52f3\u7ae0",
+  "desc": "\u6c89\u6eba\u5728\u6deb\u9761\u58ae\u843d\u7684\u526f\u4f5c\u7528\u4e4b\u4e0b\u3002\u900f\u904e\u6d3b\u52d5\u95dc\u5361\u53d6\u5f97\uff0c\u53ef\u65bc\u4ea4\u6613\u6240\u514c\u63db\u5546\u54c1\u3002(\u6b64\u7269\u54c1\u5c07\u65bc\u672c\u671f\u6d3b\u52d5\u7d50\u675f\u5f8c\u56de\u6536)",
   "quality": "50",
   "icon": null
  },
  {
   "id": "200130042",
-  "name": "X(\u4e0d\u7ffb)\u3010{\u4e3b\u984c\u6d3b\u52d55\u540d\u7a31}\u3011\u6b66\u88dd\u88dc\u7d66\u6191\u8b49",
-  "desc": "X(\u4e0d\u7ffb)\u900f\u904e\u79ae\u5305\u8207\u3010\u4e3b\u984c\u6d3b\u52d55\u540d\u7a31\u3011\u6b66\u88dd\u88dc\u7d66\u7bb1\u53d6\u5f97\u3002(\u6b64\u7269\u54c1\u5c07\u65bc\u672c\u671f\u6d3b\u52d5\u7d50\u675f\u5f8c\u56de\u6536)",
+  "name": "\u3010\u7aba\u63a2\u6df1\u6df5\u7684\u4ee3\u50f9\u3011\u6b66\u88dd\u88dc\u7d66\u6191\u8b49",
+  "desc": "\u900f\u904e\u79ae\u5305\u8207\u3010\u7aba\u63a2\u6df1\u6df5\u7684\u4ee3\u50f9\u3011\u6b66\u88dd\u88dc\u7d66\u7bb1\u53d6\u5f97\u3002(\u6b64\u7269\u54c1\u5c07\u65bc\u672c\u671f\u6d3b\u52d5\u7d50\u675f\u5f8c\u56de\u6536)",
   "quality": "50",
   "icon": null
  },
  {
   "id": "200130043",
-  "name": "X(\u4e0d\u7ffb){\u6d3b\u52d55}\u523b\u5370",
-  "desc": "X(\u4e0d\u7ffb){\u63cf\u8ff0}\u3002\u900f\u904e\u8abf\u67e5\u95dc\u5361\u53d6\u5f97\uff0c\u53ef\u65bc\u4ea4\u6613\u6240\u514c\u63db\u5546\u54c1\u3002",
+  "name": "\u5075\u67e5\u523b\u5370",
+  "desc": "\u5373\u4f7f\u4e0d\u5e78\u5e38\u5728\uff0c\u4fdd\u6301\u6b63\u9762\u8207\u6a02\u89c0\uff0c\u7e3d\u80fd\u627e\u5230\u51fa\u8def\u3002\u900f\u904e\u8abf\u67e5\u95dc\u5361\u53d6\u5f97\uff0c\u53ef\u65bc\u4ea4\u6613\u6240\u514c\u63db\u5546\u54c1\u3002",
   "quality": "50",
   "icon": null
  },
@@ -2908,8 +2950,22 @@ export const gsaItems = [
  },
  {
   "id": "200130048",
-  "name": "\u3010200\u842c\u4e0b\u8f09\u3011\u7d00\u5ff5\u6191\u8b49",
-  "desc": "\u9032\u884c\u3010200\u842c\u4e0b\u8f09\u7d00\u5ff5\u671f\u9593\u53ec\u52df\u3011\u53d6\u5f97\u3002(\u6b64\u7269\u54c1\u5c07\u65bc\u672c\u671f\u6d3b\u52d5\u7d50\u675f\u5f8c\u56de\u6536)",
+  "name": "[2M Downloads] Celebration Certificate",
+  "desc": "Obtained by performing the [2M Downloads Event Summon]. (This item will be removed after the event ends.)",
+  "quality": "50",
+  "icon": null
+ },
+ {
+  "id": "200130049",
+  "name": "\u602a\u76dc\u523b\u5370",
+  "desc": "\u795e\u51fa\u9b3c\u6c92\u7684\u602a\u76dc\uff0c\u662f\u5bcc\u4eba\u7684\u773c\u4e2d\u91d8\uff0c\u7aae\u4eba\u7684\u53ca\u6642\u96e8\u3002\u900f\u904e\u8abf\u67e5\u95dc\u5361\u53d6\u5f97\uff0c\u53ef\u65bc\u4ea4\u6613\u6240\u514c\u63db\u5546\u54c1\u3002",
+  "quality": "50",
+  "icon": null
+ },
+ {
+  "id": "200130050",
+  "name": "[1.5M Downloads] Celebration Certificate",
+  "desc": "Obtained by performing the [1.5M Downloads Celebration Summon]. (This item will be reclaimed after the current event ends.)",
   "quality": "50",
   "icon": null
  },
@@ -3016,21 +3072,21 @@ export const gsaItems = [
   "name": "Kurosawa Shion Summon Letter",
   "desc": "Use to summon the SSR character: Kurosawa Shion.",
   "quality": "70",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200150045.webp"
  },
  {
   "id": "200150046",
   "name": "Chloe Summon Letter",
   "desc": "Use to summon the SSR character: Chloe.",
   "quality": "70",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200150046.webp"
  },
  {
   "id": "200150047",
   "name": "Charlotte Summon Letter",
   "desc": "Use to summon the SSR character: Charlotte.",
   "quality": "70",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200150047.webp"
  },
  {
   "id": "200150048",
@@ -3058,7 +3114,7 @@ export const gsaItems = [
   "name": "Annabelle Summon Letter",
   "desc": "Use to summon the SSR character: Annabelle.",
   "quality": "70",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200150051.webp"
  },
  {
   "id": "200150052",
@@ -3114,14 +3170,14 @@ export const gsaItems = [
   "name": "Bernardo Summon Letter",
   "desc": "Use to summon the SSR character: Bernardo.",
   "quality": "70",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200150059.webp"
  },
  {
   "id": "200150060",
   "name": "Danxin Summon Letter",
   "desc": "Use to summon the SSR character: Danxin.",
   "quality": "70",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200150060.webp"
  },
  {
   "id": "200150061",
@@ -3149,21 +3205,21 @@ export const gsaItems = [
   "name": "Komachi Sayaka Summon Letter",
   "desc": "Use to summon the SSR character: Komachi Sayaka.",
   "quality": "70",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200150064.webp"
  },
  {
   "id": "200150065",
   "name": "Hijikata Chizuru Summon Letter",
   "desc": "Use to summon the SSR character: Hijikata Chizuru.",
   "quality": "70",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200150065.webp"
  },
  {
   "id": "200150066",
   "name": "Fujiwara Arisa Summon Letter",
   "desc": "Use to summon the SSR character: Fujiwara Arisa.",
   "quality": "70",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200150066.webp"
  },
  {
   "id": "200150067",
@@ -3219,18 +3275,18 @@ export const gsaItems = [
   "name": "Jessica Summon Letter",
   "desc": "Use to summon the SSR character: Jessica.",
   "quality": "70",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200150074.webp"
  },
  {
   "id": "200150075",
-  "name": "Komachi Yuu Summon Letter",
-  "desc": "Use to summon the SSR character: Komachi Yuu.",
+  "name": "\u5929\u91ce \u6faa\u83ef\u53ec\u52df\u4fe1",
+  "desc": "\u4f7f\u7528\u5f8c\u53ef\u53ec\u52dfSSR\u89d2\u8272\uff1a\u300e\u5929\u91ce \u6faa\u83ef\u300f\u3002",
   "quality": "70",
   "icon": null
  },
  {
   "id": "200150077",
-  "name": "Alina Summon Letter",
+  "name": "Ariana Summon Letter",
   "desc": "Use to summon the SSR character: Ariana.",
   "quality": "70",
   "icon": null
@@ -3244,22 +3300,22 @@ export const gsaItems = [
  },
  {
   "id": "200150079",
-  "name": "\u8389\u6b50\u59ae\u7d72\u53ec\u52df\u4fe1",
-  "desc": "\u4f7f\u7528\u5f8c\u53ef\u53ec\u52dfSSR\u89d2\u8272\uff1a\u300e\u8389\u6b50\u59ae\u7d72\u300f\u3002",
+  "name": "Leonisse Summon Letter",
+  "desc": "Use to summon the SSR character: Leonisse",
   "quality": "70",
   "icon": null
  },
  {
   "id": "200150080",
-  "name": "\u91cc\u6069\u53ec\u52df\u4fe1",
-  "desc": "\u4f7f\u7528\u5f8c\u53ef\u53ec\u52dfSSR\u89d2\u8272\uff1a\u300e\u91cc\u6069\u300f\u3002",
+  "name": "Rien Summon Letter",
+  "desc": "Use to summon the SSR character: Rien",
   "quality": "70",
   "icon": null
  },
  {
   "id": "200150081",
-  "name": "\u8299\u6d1b\u7df9\u53ec\u52df\u4fe1",
-  "desc": "\u4f7f\u7528\u5f8c\u53ef\u53ec\u52dfSSR\u89d2\u8272\uff1a\u300e\u8299\u6d1b\u7df9\u300f\u3002",
+  "name": "Florette Summon Letter",
+  "desc": "Use to summon the SSR character: Florette",
   "quality": "70",
   "icon": null
  },
@@ -3272,50 +3328,50 @@ export const gsaItems = [
  },
  {
   "id": "200150083",
-  "name": "\u591c\u7fbd\u53ec\u52df\u4fe1",
-  "desc": "\u4f7f\u7528\u5f8c\u53ef\u53ec\u52dfSSR\u89d2\u8272\uff1a\u300e\u591c\u7fbd\u300f\u3002",
+  "name": "Yoruha Summon Letter",
+  "desc": "Use to summon the SSR character: Yoruha",
   "quality": "70",
   "icon": null
  },
  {
   "id": "200150084",
-  "name": "\u4e9e\u8389\u73ca\u5353\u53ec\u52df\u4fe1",
-  "desc": "\u4f7f\u7528\u5f8c\u53ef\u53ec\u52dfSSR\u89d2\u8272\uff1a\u300e\u4e9e\u8389\u73ca\u5353\u300f\u3002",
+  "name": "Alexandra Summon Letter",
+  "desc": "Use to summon the SSR character: Alexandra",
   "quality": "70",
   "icon": null
  },
  {
   "id": "200150085",
-  "name": "\u514b\u7433\u5a1c\u53ec\u52df\u4fe1",
-  "desc": "\u4f7f\u7528\u5f8c\u53ef\u53ec\u52dfSSR\u89d2\u8272\uff1a\u300e\u514b\u7433\u5a1c\u300f\u3002",
+  "name": "Karina Summon Letter",
+  "desc": "Use to summon the SSR character: Karina",
   "quality": "70",
   "icon": null
  },
  {
   "id": "200150086",
-  "name": "\u871c\u96c5\u53ec\u52df\u4fe1",
-  "desc": "\u4f7f\u7528\u5f8c\u53ef\u53ec\u52dfSSR\u89d2\u8272\uff1a\u300e\u871c\u96c5\u300f\u3002",
+  "name": "Mia Summon Letter",
+  "desc": "Use to summon the SSR character: Mia",
   "quality": "70",
   "icon": null
  },
  {
   "id": "200150093",
-  "name": "DJ JOY\u53ec\u52df\u4fe1",
-  "desc": "\u4f7f\u7528\u5f8c\u53ef\u53ec\u52dfSSR\u89d2\u8272\uff1a\u300eDJ JOY\u300f\u3002",
+  "name": "DJ JOY Summon Letter",
+  "desc": "Use to summon the SSR character: DJ JOY.",
   "quality": "70",
   "icon": null
  },
  {
   "id": "200150094",
-  "name": "X(\u4e0d\u7ffb){cr094}\u53ec\u52df\u4fe1",
-  "desc": "X(\u4e0d\u7ffb)\u4f7f\u7528\u5f8c\u53ef\u53ec\u52dfSSR\u89d2\u8272\uff1a\u300e{cr094}\u300f\u3002",
+  "name": "\u57c3\u9ed8\u7433\u53ec\u52df\u4fe1",
+  "desc": "\u4f7f\u7528\u5f8c\u53ef\u53ec\u52dfSSR\u89d2\u8272\uff1a\u300e\u57c3\u9ed8\u7433\u300f\u3002",
   "quality": "70",
   "icon": null
  },
  {
   "id": "200150100",
-  "name": "\u863f\u62c9\uff0e\u5361\u8fea\u4e45\u53ec\u52df\u4fe1",
-  "desc": "\u4f7f\u7528\u5f8c\u53ef\u53ec\u52dfSSR\u89d2\u8272\uff1a\u300e\u863f\u62c9\uff0e\u5361\u8fea\u4e45\u300f\u3002",
+  "name": "Lola Carducci Summon Letter",
+  "desc": "Use to summon the SSR character: Lola Carducci",
   "quality": "70",
   "icon": null
  },
@@ -3324,7 +3380,7 @@ export const gsaItems = [
   "name": "Clumsy Cowgirl - Belle Summon Letter",
   "desc": "Use to summon the SSR character: Clumsy Cowgirl - Belle.",
   "quality": "70",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200150107.webp"
  },
  {
   "id": "200150108",
@@ -3538,106 +3594,106 @@ export const gsaItems = [
  },
  {
   "id": "200160027",
-  "name": "\u3010\u5730\u7344\u5149\u660e\u3011\u96a8\u6a5f\u53ec\u52df\u4fe1",
-  "desc": "\u7d44\u7e54\u53ec\u52df\u4fe1\uff0c\u4f7f\u7528\u5f8c\u53ef\u96a8\u6a5f\u53ec\u52df\u4e00\u540d\u3010\u5730\u7344\u5149\u660e\u3011SSR\u89d2\u8272\uff1a\u300e\u9ed1\u6fa4 \u8a69\u97f3\u300f\u6216\u300e\u514b\u863f\u4f0a\u300f\u3002",
+  "name": "[Hell's Light] Random Summon Letter",
+  "desc": "Organization Summon Letter. Use to randomly summon a [Hell's Light] SSR character: Kurosawa Shion or Chloe.",
   "quality": "50",
   "icon": null
  },
  {
   "id": "200160028",
-  "name": "\u3010\u7f85\u58eb\u6602\u5144\u5f1f\u6703\u3011\u96a8\u6a5f\u53ec\u52df\u4fe1",
-  "desc": "\u7d44\u7e54\u53ec\u52df\u4fe1\uff0c\u4f7f\u7528\u5f8c\u53ef\u96a8\u6a5f\u53ec\u52df\u4e00\u540d\u3010\u7f85\u58eb\u6602\u5144\u5f1f\u6703\u3011SSR\u89d2\u8272\uff1a\u300e\u611b\u871c\u8389\u300f\u6216\u300e\u7c73\u84ee\u5a1c\u300f\u3002",
+  "name": "[Rosian Brotherhood] Random Summon Letter",
+  "desc": "Organization Summon Letter. Use to randomly summon a [Rosian Brotherhood] SSR character: Amelie or Milena.",
   "quality": "50",
   "icon": null
  },
  {
   "id": "200160029",
-  "name": "\u3010\u6708\u83ef\u7d44\u3011\u96a8\u6a5f\u53ec\u52df\u4fe1",
-  "desc": "\u7d44\u7e54\u53ec\u52df\u4fe1\uff0c\u4f7f\u7528\u5f8c\u53ef\u96a8\u6a5f\u53ec\u52df\u4e00\u540d\u3010\u6708\u83ef\u7d44\u3011SSR\u89d2\u8272\uff1a\u300e\u837b\u91ce \u7460\u8863\u300f\u6216\u300e\u6749\u672c \u6709\u83dc\u300f\u3002",
+  "name": "[Moonflower Clan] Random Summon Letter",
+  "desc": "Organization Summon Letter. Use to randomly summon a [Moonflower Clan] SSR character: Ogino Rui or Sugimoto Arina.",
   "quality": "50",
   "icon": null
  },
  {
   "id": "200160030",
-  "name": "\u3010\u9752\u9f8d\u5e6b\u3011\u96a8\u6a5f\u53ec\u52df\u4fe1",
-  "desc": "\u7d44\u7e54\u53ec\u52df\u4fe1\uff0c\u4f7f\u7528\u5f8c\u53ef\u96a8\u6a5f\u53ec\u52df\u4e00\u540d\u3010\u9752\u9f8d\u5e6b\u3011SSR\u89d2\u8272\uff1a\u300e\u82e5\u862d\u300f\u6216\u300e\u674e\u6c90\u300f\u3002",
+  "name": "[Azure Dragon Triad] Random Summon Letter",
+  "desc": "Organization Summon Letter. Use to randomly summon a [Azure Dragon Triad] SSR character: Ruo Lan or Li Mu.",
   "quality": "50",
   "icon": null
  },
  {
   "id": "200160031",
-  "name": "\u3010\u5361\u8fea\u4e45\u5bb6\u65cf\u3011\u96a8\u6a5f\u53ec\u52df\u4fe1",
-  "desc": "\u7d44\u7e54\u53ec\u52df\u4fe1\uff0c\u4f7f\u7528\u5f8c\u53ef\u96a8\u6a5f\u53ec\u52df\u4e00\u540d\u3010\u5361\u8fea\u4e45\u5bb6\u65cf\u3011SSR\u89d2\u8272\uff1a\u300e\u8389\u8332\u300f\u6216\u300e\u5b89\u5a1c\u8c9d\u723e\u300f\u3002",
+  "name": "[Carducci Family] Random Summon Letter",
+  "desc": "Organization Summon Letter. Use to randomly summon a [Carducci Family] SSR character: Liz or Annabelle.",
   "quality": "50",
   "icon": null
  },
  {
   "id": "200160032",
-  "name": "\u3010\u5730\u7344\u5149\u660e\u3011\u6307\u5b9a\u53ec\u52df\u4fe1",
-  "desc": "\u7d44\u7e54\u53ec\u52df\u4fe1\uff0c\u4f7f\u7528\u5f8c\u53ef\u6307\u5b9a\u53ec\u52df\u4e00\u540d\u3010\u5730\u7344\u5149\u660e\u3011SSR\u89d2\u8272\uff1a\u300e\u9ed1\u6fa4 \u8a69\u97f3\u300f\u6216\u300e\u514b\u863f\u4f0a\u300f\u3002",
+  "name": "[Hell's Light] Targeted Summon Letter",
+  "desc": "Organization Summon Letter. Use to perform a Targeted Summon for a [Hell's Light] SSR character: Kurosawa Shion or Chloe.",
   "quality": "50",
   "icon": null
  },
  {
   "id": "200160033",
-  "name": "\u3010\u7f85\u58eb\u6602\u5144\u5f1f\u6703\u3011\u6307\u5b9a\u53ec\u52df\u4fe1",
-  "desc": "\u7d44\u7e54\u53ec\u52df\u4fe1\uff0c\u4f7f\u7528\u5f8c\u53ef\u6307\u5b9a\u53ec\u52df\u4e00\u540d\u3010\u7f85\u58eb\u6602\u5144\u5f1f\u6703\u3011SSR\u89d2\u8272\uff1a\u300e\u611b\u871c\u8389\u300f\u6216\u300e\u7c73\u84ee\u5a1c\u300f\u3002",
+  "name": "[Rosian Brotherhood] Targeted Summon Letter",
+  "desc": "Organization Summon Letter. Use to perform a Targeted Summon for a [Rosian Brotherhood] SSR character: Amelie or Milena.",
   "quality": "50",
   "icon": null
  },
  {
   "id": "200160034",
-  "name": "\u3010\u6708\u83ef\u7d44\u3011\u6307\u5b9a\u53ec\u52df\u4fe1",
-  "desc": "\u7d44\u7e54\u53ec\u52df\u4fe1\uff0c\u4f7f\u7528\u5f8c\u53ef\u6307\u5b9a\u53ec\u52df\u4e00\u540d\u3010\u6708\u83ef\u7d44\u3011SSR\u89d2\u8272\uff1a\u300e\u837b\u91ce \u7460\u8863\u300f\u6216\u300e\u6749\u672c \u6709\u83dc\u300f\u3002",
+  "name": "[Moonflower Clan] Targeted Summon Letter",
+  "desc": "Organization Summon Letter. Use to perform a Targeted Summon for a [Moonflower Clan] SSR character: Ogino Rui or Sugimoto Arina.",
   "quality": "50",
   "icon": null
  },
  {
   "id": "200160035",
-  "name": "\u3010\u9752\u9f8d\u5e6b\u3011\u6307\u5b9a\u53ec\u52df\u4fe1",
-  "desc": "\u7d44\u7e54\u53ec\u52df\u4fe1\uff0c\u4f7f\u7528\u5f8c\u53ef\u6307\u5b9a\u53ec\u52df\u4e00\u540d\u3010\u9752\u9f8d\u5e6b\u3011SSR\u89d2\u8272\uff1a\u300e\u82e5\u862d\u300f\u6216\u300e\u674e\u6c90\u300f\u3002",
+  "name": "[Azure Dragon Triad] Targeted Summon Letter",
+  "desc": "Organization Summon Letter. Use to perform a Targeted Summon for a [Azure Dragon Triad] SSR character: Ruo Lan or Li Mu.",
   "quality": "50",
   "icon": null
  },
  {
   "id": "200160036",
-  "name": "\u3010\u5361\u8fea\u4e45\u5bb6\u65cf\u3011\u6307\u5b9a\u53ec\u52df\u4fe1",
-  "desc": "\u7d44\u7e54\u53ec\u52df\u4fe1\uff0c\u4f7f\u7528\u5f8c\u53ef\u6307\u5b9a\u53ec\u52df\u4e00\u540d\u3010\u5361\u8fea\u4e45\u5bb6\u65cf\u3011SSR\u89d2\u8272\uff1a\u300e\u8389\u8332\u300f\u6216\u300e\u5b89\u5a1c\u8c9d\u723e\u300f\u3002",
+  "name": "[Carducci Family] Targeted Summon Letter",
+  "desc": "Organization Summon Letter. Use to perform a Targeted Summon for a [Carducci Family] SSR character: Liz or Annabelle.",
   "quality": "50",
   "icon": null
  },
  {
   "id": "200160037",
-  "name": "\u3010\u6df7\u6c8c\u4e4b\u6e90\u3011\u53ec\u52df\u4fe1",
-  "desc": "\u4f7f\u7528\u5f8c\u53ef\u96a8\u6a5f\u53ec\u52df\u4e00\u540dSSR\u89d2\u8272\uff1a\u300e\u8389\u6b50\u59ae\u7d72\u300f\u6216\u300e\u91cc\u6069\u300f\u3002",
+  "name": "[Origin of Chaos] Summon Letter",
+  "desc": "Use to randomly summon one SSR character: Leonisse or Rien.",
   "quality": "50",
   "icon": null
  },
  {
   "id": "200160038",
-  "name": "\u3010\u5929\u5802\u4e4b\u9580 - \u6606\u59ae\u3011\u53ec\u52df\u4fe1",
+  "name": "[Heaven's Door - Connie] Summon Letter",
   "desc": "Use to summon the SSR character: Connie.",
   "quality": "50",
   "icon": null
  },
  {
   "id": "200160039",
-  "name": "X(\u4e0d\u7ffb)\u3010{\u4e3b\u984c\u6d3b\u52d55\u540d\u7a31}\u3011\u53ec\u52df\u4fe1",
-  "desc": "\u4f7f\u7528\u5f8c\u53ef\u96a8\u6a5f\u53ec\u52df\u4e00\u540dSSR\u89d2\u8272\uff1a\u300e\u4e9e\u8389\u73ca\u5353\u300f\u6216\u300e\u514b\u7433\u5a1c\u300f\u3002",
+  "name": "\u3010\u7aba\u63a2\u6df1\u6df5\u7684\u4ee3\u50f9\u3011\u53ec\u52df\u4fe1",
+  "desc": "Use to randomly summon one SSR character: Alexandra or Karina.",
   "quality": "50",
   "icon": null
  },
  {
   "id": "200160040",
   "name": "X(\u4e0d\u7ffb)\u3010{\u4e3b\u984c\u6d3b\u52d56\u540d\u7a31}\u3011\u53ec\u52df\u4fe1",
-  "desc": "\u4f7f\u7528\u5f8c\u53ef\u96a8\u6a5f\u53ec\u52df\u4e00\u540dSSR\u89d2\u8272\uff1a\u300e\u863f\u62c9\uff0e\u5361\u8fea\u4e45\u300f\u6216\u300eDJ JOY\u300f\u3002",
+  "desc": "Use to randomly summon one SSR character: Lola Carducci or DJ JOY.",
   "quality": "50",
   "icon": null
  },
  {
   "id": "200160041",
-  "name": "\u3010\u5929\u5802\u4e4b\u9580 - \u5c0f\u753a \u6182\u3011\u53ec\u52df\u4fe1",
-  "desc": "Use to summon the SSR character: Komachi Yuu.",
+  "name": "\u3010\u5929\u5802\u4e4b\u9580 - \u5929\u91ce \u6faa\u83ef\u3011\u53ec\u52df\u4fe1",
+  "desc": "\u4f7f\u7528\u5f8c\u53ef\u53ec\u52dfSSR\u89d2\u8272\uff1a\u300e\u5929\u91ce \u6faa\u83ef\u300f\u3002",
   "quality": "50",
   "icon": null
  },
@@ -4210,126 +4266,126 @@ export const gsaItems = [
  },
  {
   "id": "200170674",
-  "name": "\u7fe0\u96e8\u91d1\u9432\u7684\u96f6\u4ef6",
+  "name": "Verdant Rain Bracelet Component",
   "desc": "Collect {0} to combine into {1}.",
   "quality": "55",
   "icon": null
  },
  {
   "id": "200170675",
-  "name": "\u9cf4\u98a8\u7389\u7b1b\u7684\u96f6\u4ef6",
+  "name": "Resonant Wind Flute Component",
   "desc": "Collect {0} to combine into {1}.",
   "quality": "55",
   "icon": null
  },
  {
   "id": "200170676",
-  "name": "\u6e05\u98a8\u9ad8\u8ddf\u7684\u96f6\u4ef6",
+  "name": "Breezy Heels Component",
   "desc": "Collect {0} to combine into {1}.",
   "quality": "55",
   "icon": null
  },
  {
   "id": "200170684",
-  "name": "\u6ce3\u8840\u8896\u7684\u96f6\u4ef6",
+  "name": "Sanguine Silk Component",
   "desc": "Collect {0} to combine into {1}.",
   "quality": "55",
   "icon": null
  },
  {
   "id": "200170685",
-  "name": "\u7e1b\u547d\u91dd\u7684\u96f6\u4ef6",
+  "name": "Lifebane Needle Component",
   "desc": "Collect {0} to combine into {1}.",
   "quality": "55",
   "icon": null
  },
  {
   "id": "200170686",
-  "name": "\u51dd\u971c\u5c65\u7684\u96f6\u4ef6",
+  "name": "Rimefrost Treads Component",
   "desc": "Collect {0} to combine into {1}.",
   "quality": "55",
   "icon": null
  },
  {
   "id": "200170694",
-  "name": "\u5b9a\u5fc3\u74b0\u7684\u96f6\u4ef6",
+  "name": "Serenity Bracelet Component",
   "desc": "Collect {0} to combine into {1}.",
   "quality": "55",
   "icon": null
  },
  {
   "id": "200170695",
-  "name": "\u85cf\u85e5\u5323\u7684\u96f6\u4ef6",
+  "name": "Hidden Medicine Pouch Component",
   "desc": "Collect {0} to combine into {1}.",
   "quality": "55",
   "icon": null
  },
  {
   "id": "200170696",
-  "name": "\u975c\u5f71\u5c65\u7684\u96f6\u4ef6",
+  "name": "Stillshade Shoes Component",
   "desc": "Collect {0} to combine into {1}.",
   "quality": "55",
   "icon": null
  },
  {
   "id": "200170704",
-  "name": "\u7d0b\u8eab\u8cbc\u7d19\u7684\u96f6\u4ef6",
+  "name": "Tattoo Stickers Component",
   "desc": "Collect {0} to combine into {1}.",
   "quality": "55",
   "icon": null
  },
  {
   "id": "200170705",
-  "name": "\u7236\u89aa\u7684\u820a\u624b\u69cd\u7684\u96f6\u4ef6",
+  "name": "Father's Old Pistol Component",
   "desc": "Collect {0} to combine into {1}.",
   "quality": "55",
   "icon": null
  },
  {
   "id": "200170706",
-  "name": "\u9ad8\u7d1a\u8a02\u88fd\u5973\u978b\u7684\u96f6\u4ef6",
+  "name": "Premium Custom Women's Shoes Component",
   "desc": "Collect {0} to combine into {1}.",
   "quality": "55",
   "icon": null
  },
  {
   "id": "200170714",
-  "name": "\u9ed1\u8272\u6307\u7532\u6cb9\u7684\u96f6\u4ef6",
+  "name": "Black Nail Polish Component",
   "desc": "Collect {0} to combine into {1}.",
   "quality": "55",
   "icon": null
  },
  {
   "id": "200170715",
-  "name": "\u796d\u8840\u4e4b\u8a93\u7684\u96f6\u4ef6",
+  "name": "Bloodbound Oath Component",
   "desc": "Collect {0} to combine into {1}.",
   "quality": "55",
   "icon": null
  },
  {
   "id": "200170716",
-  "name": "\u8a2d\u8a08\u5e2b\u8a02\u88fd\u6b3e\u9ad8\u8ddf\u978b\u7684\u96f6\u4ef6",
+  "name": "Designer Custom Heels Component",
   "desc": "Collect {0} to combine into {1}.",
   "quality": "55",
   "icon": null
  },
  {
   "id": "200170724",
-  "name": "\u6709\u75e3\u4e4b\u58eb\u7684\u96f6\u4ef6",
+  "name": "Marked One Component",
   "desc": "Collect {0} to combine into {1}.",
   "quality": "55",
   "icon": null
  },
  {
   "id": "200170725",
-  "name": "\u6dd1\u5973\u4e4b\u5fc3\u7684\u96f6\u4ef6",
+  "name": "Maiden's Heart Component",
   "desc": "Collect {0} to combine into {1}.",
   "quality": "55",
   "icon": null
  },
  {
   "id": "200170726",
-  "name": "\u6f06\u76ae\u9ad8\u8ddf\u978b\u7684\u96f6\u4ef6",
+  "name": "Patent Leather High Heels Component",
   "desc": "Collect {0} to combine into {1}.",
   "quality": "55",
   "icon": null
@@ -4815,7 +4871,7 @@ export const gsaItems = [
   "name": "Couple's Spa Voucher",
   "desc": "A premium spa voucher for two, specially prepared for you and your inseparable partner. Cherish every moment of belonging and elegance with precious time spent together. (Amber's Affection +1000)",
   "quality": "30",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200200044.webp"
  },
  {
   "id": "200200045",
@@ -4829,7 +4885,7 @@ export const gsaItems = [
   "name": "Work Notebook",
   "desc": "A notebook with a refined yet understated leather cover. Beyond just the scent of leather and paper, it still carries a lingering trace of your fragrance. (Chloe's Affection +1000)",
   "quality": "30",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200200046.webp"
  },
  {
   "id": "200200047",
@@ -4864,28 +4920,28 @@ export const gsaItems = [
   "name": "White Lily Bouquet",
   "desc": "A bouquet of white lilies in a clear glass vase. The petals are flawless, subtly revealing yellow-orange stamens at their center, all set against a backdrop of green leaves. Pure and elegant, it is the perfect gift for someone you cherish. (Annabelle's Affection +1000)",
   "quality": "30",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200200051.webp"
  },
  {
   "id": "200200053",
   "name": "Mini Massage Oil Gift Set",
   "desc": "A mini massage oil gift set with an elegant design, featuring four natural fragrances. Receiving this gift will let her know you care. (Sugimoto Arina's Affection +1000)",
   "quality": "30",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200200053.webp"
  },
  {
   "id": "200200054",
   "name": "Seasonal Trends Collection Box",
   "desc": "A curated selection of the trendiest cute accessories, from Korean-style hair clips to designer mini brooches. With this box in hand, you'll instantly become a walking fashion icon. (Ogino Rui's Affection +1000)",
   "quality": "30",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200200054.webp"
  },
  {
   "id": "200200055",
   "name": "Premium Java Sparrow Feed",
   "desc": "Premium bird feed sourced from a professional aviary's organic garden. It'll fill her bird's belly and put a smile on Lin Lin's face. (Lin Lin's Affection +1000)",
   "quality": "30",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200200055.webp"
  },
  {
   "id": "200200056",
@@ -4899,14 +4955,14 @@ export const gsaItems = [
   "name": "Specialty Cocktail",
   "desc": "Made with seasonal fruits and a unique secret Blueprint, the first sip has a refreshingly cool sensation, followed by a warm, spicy finish. Perfect for a small drink after work. (Liz's Affection +1000)",
   "quality": "30",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200200057.webp"
  },
  {
   "id": "200200058",
   "name": "Nostalgic Martial Arts Movie Ticket",
   "desc": "Bringing a classic back to the big screen. This ticket can be redeemed for a special screening of a nostalgic martial arts film, allowing one to relive the golden age of action movies. (Li Mu's Affection +1000)",
   "quality": "30",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200200058.webp"
  },
  {
   "id": "200200059",
@@ -4918,7 +4974,7 @@ export const gsaItems = [
  {
   "id": "200200060",
   "name": "Spicy Snacks",
-  "desc": "A premium spicy crispy snack, with every bite hot enough to work up a sweat. It\u2019s especially satisfying after boxing practice' the heat hits your stomach and instantly wakes you up. (Danxin's Affection +1000)",
+  "desc": "A premium spicy crispy snack, with every bite hot enough to work up a sweat. It's especially satisfying after boxing practice' the heat hits your stomach and instantly wakes you up. (Danxin's Affection +1000)",
   "quality": "30",
   "icon": null
  },
@@ -4934,35 +4990,35 @@ export const gsaItems = [
   "name": "Neck & Shoulder Warming Patch",
   "desc": "Contains a thermal-energy conductive layer that, when applied, promotes muscle recovery and regulates breathing. It soothes stiffness and fatigue in the neck and shoulders, allowing Shiraishi Ai to enjoy a moment of gentle care even while tending to others. (Shiraishi Ai's Affection +1000)",
   "quality": "30",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200200062.webp"
  },
  {
   "id": "200200063",
   "name": "Pink Charm",
   "desc": "An exquisite set of pink charms that makes you feel cute just by holding it. Although Kana already has many, there's always room for one more adorable charm. (Andou Kana's Affection +1000)",
   "quality": "30",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200200063.webp"
  },
  {
   "id": "200200064",
   "name": "Tenju Ichiban Matcha Powder",
   "desc": "Fresh tea leaves hand-picked at dawn from the valleys of a distant Eastern land. Features a clear infusion and elegant aroma. A refreshing treat for the mind and spirit. (Komachi Sayaka's Affection +1000)",
   "quality": "30",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200200064.webp"
  },
  {
   "id": "200200065",
   "name": "Sake \"Drunken Moon\"",
   "desc": "A fine sake from the far East, featuring a bottle adorned with Ukiyo-e style nightscapes. For those seeking the ultimate state of relaxation, this is truly the pinnacle of refinement. (Hijikata Chizuru's Affection +1000)",
   "quality": "30",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200200065.webp"
  },
  {
   "id": "200200066",
   "name": "Chef-Recommended Premium Knives",
   "desc": "A set of kitchen knives recommended by a famous chef. Beautiful and sharp, this gift is perfect for Arisa, who loves to cook. (Fujiwara Arisa's Affection +1000)",
   "quality": "30",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200200066.webp"
  },
  {
   "id": "200200067",
@@ -4974,7 +5030,7 @@ export const gsaItems = [
  {
   "id": "200200068",
   "name": "Cute Shaped Gummies",
-  "desc": "Colorful, sparkling gummies bursting with sweet fruit flavors. She may not understand complicated things just yet, but this little treat is enough to win her over. Offer her one, and she\u2019ll happily listen to you. (Leng Zhen's Affection +1000)",
+  "desc": "Colorful, sparkling gummies bursting with sweet fruit flavors. She may not understand complicated things just yet, but this little treat is enough to win her over. Offer her one, and she'll happily listen to you. (Leng Zhen's Affection +1000)",
   "quality": "30",
   "icon": null
  },
@@ -5018,47 +5074,47 @@ export const gsaItems = [
   "name": "Glass Piano Music Box",
   "desc": "An exquisite, transparent glass piano with delicate and elegant carvings on its lid. When the music box is activated, its pure melody gently soothes the heart. (Jessica's Affection +1000)",
   "quality": "30",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200200074.webp"
  },
  {
   "id": "200200075",
-  "name": "X(\u4e0d\u7ffb)\u89d2\u8272\u597d\u611f\u5ea6075\u5c0f\u753a\u6182",
-  "desc": "X(\u4e0d\u7ffb)\uff08\u5c0f\u753a \u6182\u597d\u611f\u5ea6+1000\uff09",
+  "name": "\u57ce\u5e02\u5496\u5561\u676f",
+  "desc": "\u9650\u5730\u767c\u552e\u7684\u57ce\u5e02\u5496\u5561\u676f\uff0c\u676f\u8eab\u5370\u8a72\u57ce\u5e02\u7684\u5730\u6a19\u5716\u6a23\uff0c\u9644\u539f\u5ee0\u7d19\u76d2\u8207\u624b\u5beb\u57ce\u5e02\u540d\u540a\u724c\u3002\u5c07\u65b0\u6536\u5230\u7684\u676f\u5b50\u89aa\u624b\u758a\u4e0a\u6ac3\u5b50\uff0c\u770b\u8457\u8490\u85cf\u6162\u6162\u589e\u52a0\uff0c\u5c31\u662f\u5979\u4eab\u53d7\u4eba\u751f\uff0c\u8d70\u904d\u5404\u5730\u7684\u8b49\u660e\u3002\uff08\u5929\u91ce \u6faa\u83ef\u597d\u611f\u5ea6+1000\uff09",
   "quality": "30",
   "icon": null
  },
  {
   "id": "200200077",
   "name": "Obedience Nectar Designer Perfume",
-  "desc": "Belonging only to you, making desire feel natural. (Alina's Affection +1000)",
+  "desc": "Belonging only to you, making desire feel natural. (Ariana's Affection +1000)",
   "quality": "30",
   "icon": null
  },
  {
   "id": "200200078",
   "name": "Strawberry Shortcake",
-  "desc": "A round strawberry cake piled high with fresh cream, topped with plump, juicy strawberries and filled with a layer of fruit jam inside. With the perfect sweetness and a rich aroma, it\u2019s the shop\u2019s signature dessert that often sells out early. (Awana's Affection +1000)",
+  "desc": "A round strawberry cake piled high with fresh cream, topped with plump, juicy strawberries and filled with a layer of fruit jam inside. With the perfect sweetness and a rich aroma, it's the shop's signature dessert that often sells out early. (Awana's Affection +1000)",
   "quality": "30",
   "icon": null
  },
  {
   "id": "200200079",
-  "name": "\u7bb1\u88dd\u8ecd\u7528\u80fd\u91cf\u53e3\u7ce7",
-  "desc": "\u9577\u6642\u9593\u884c\u8ecd\u8207\u9ad8\u5f37\u5ea6\u4f5c\u6230\u4f7f\u7528\u7684\u9ad8\u71b1\u91cf\u71df\u990a\u88dc\u7d66\u54c1\uff0c\u4e00\u7bb1\u88dd\u6709\u6578\u5341\u689d\u3002\u4fdd\u5b58\u5bb9\u6613\u3001\u651c\u5e36\u65b9\u4fbf\uff0c\u5373\u4f7f\u6c92\u6709\u6642\u9593\u5403\u98ef\u4e5f\u80fd\u8fc5\u901f\u88dc\u5145\u9ad4\u529b\u3002\u8389\u6b50\u59ae\u7d72\u7684\u8fa6\u516c\u5ba4\u88e1\u4f3c\u4e4e\u6c38\u9060\u7f3a\u9019\u500b\u3002\uff08\u8389\u6b50\u59ae\u7d72\u597d\u611f\u5ea6+1000\uff09",
+  "name": "Boxed Military Energy Rations",
+  "desc": "A high-calorie nutritional supplement designed for long marches and intense combat. Each box contains dozens of bars. Easy to store and carry, they provide a quick energy boost even when there's no time for a proper meal. Leonisse's office always seems to be running out of them. (Leonisse's Affection +1000)",
   "quality": "30",
   "icon": null
  },
  {
   "id": "200200080",
-  "name": "\u9ad8\u7d1a\u8702\u871c",
-  "desc": "\u73cd\u8cb4\u7684\u8702\u5de2\u871c\uff0c\u4fdd\u7559\u539f\u672c\u7684\u9999\u6c23\u8207\u53e3\u611f\u3002\u5bcc\u542b\u5929\u7136\u80fd\u91cf\uff0c\u80fd\u5728\u75b2\u52de\u6216\u53d7\u50b7\u5f8c\u88dc\u5145\u9ad4\u529b\u3002\u91cc\u6069\u4f3c\u4e4e\u7279\u5225\u559c\u6b61\u9019\u7a2e\u4f86\u81ea\u5927\u81ea\u7136\u7684\u751c\u5473\u3002\u3002\uff08\u91cc\u6069\u597d\u611f\u5ea6+1000\uff09",
+  "name": "Premium Honey",
+  "desc": "Premium honeycomb honey that preserves its natural aroma and texture. Rich in natural energy, it helps replenish stamina after exhaustion or injury. Rien seems to especially love this natural sweetness. (Rien's Affection +1000)",
   "quality": "30",
   "icon": null
  },
  {
   "id": "200200081",
-  "name": "\u7d72\u7d68\u9aee\u5708",
-  "desc": "\u63a1\u7528\u6975\u81f4\u67d4\u8edf\u7684\u7d72\u7d68\u9762\u6599\u88fd\u6210\uff0c\u89f8\u611f\u6eab\u6f64\uff0c\u80fd\u6eab\u67d4\u5730\u675f\u8d77\u9577\u9aee\u800c\u4e0d\u7559\u58d3\u75d5\u3002\u8299\u6d1b\u7df9\u4f3c\u4e4e\u5f88\u4e2d\u610f\u9019\u6b3e\u9aee\u5708\u5e36\u4f86\u7684\u67d4\u8edf\u89f8\u611f\uff0c\u5e38\u5c07\u5176\u7e8f\u5728\u624b\u8155\u4e0a\u628a\u73a9\u3002\uff08\u8299\u6d1b\u7df9\u597d\u611f\u5ea6+1000\uff09",
+  "name": "Velvet Hair Tie",
+  "desc": "Made from exceptionally soft velvet, this hair tie feels smooth and gentle against the skin. It holds long hair securely without leaving creases. Florette seems to love its soft texture and often wraps it around her wrist to fiddle with it. (Florette Affection's +1000)",
   "quality": "30",
   "icon": null
  },
@@ -5071,50 +5127,50 @@ export const gsaItems = [
  },
  {
   "id": "200200083",
-  "name": "\u71d9\u91d1\u5de5\u85dd\u5361\u7d19",
-  "desc": "\u63a1\u7528\u9ad8\u6a94\u71d9\u91d1\u5de5\u85dd\u88fd\u6210\u7684\u7279\u88fd\u5361\u7d19\uff0c\u8cea\u5730\u539a\u5be6\u4e14\u5e36\u6709\u512a\u96c5\u7684\u6697\u7d0b\u3002\u591c\u7fbd\u975e\u5e38\u559c\u6b61\u7528\u5b83\u4f86\u88c1\u526a\u3001\u88fd\u4f5c\u5979\u9ad8\u8abf\u6311\u91c1\u8b66\u65b9\u7528\u7684\u602a\u76dc\u9810\u544a\u4fe1\u3002\uff08\u591c\u7fbd\u597d\u611f\u5ea6+1000\uff09",
+  "name": "Gold-Foil Cardstock",
+  "desc": "Specially crafted cardstock featuring an elegant embossed pattern and a luxurious gold-foil finish. Yoruha loves using it to cut out and create calling cards for her Phantom Thief announcements, boldly taunting the police. (Yoruha's Affection +1000)",
   "quality": "30",
   "icon": null
  },
  {
   "id": "200200084",
-  "name": "\u7cbe\u7dfb\u76c6\u683d",
-  "desc": "\u5929\u7136\u8c50\u5bcc\u7684\u690d\u7269\u76c6\u683d\uff0c\u878d\u5408\u4e86\u591a\u7a2e\u690d\u683d\uff0c\u4e26\u914d\u6709\u7cbe\u7dfb\u7684\u88dd\u98fe\u3002\u4e9e\u8389\u73ca\u5353\u975e\u5e38\u71b1\u8877\u4fee\u526a\u8207\u8abf\u6574\u690d\u7269\u5f62\u614b\uff0c\u904e\u7a0b\u4e2d\u80fd\u7372\u5f97\u6975\u5927\u7684\u652f\u914d\u611f\u8207\u5e73\u975c\u3002\uff08\u4e9e\u8389\u73ca\u5353\u597d\u611f\u5ea6+1000\uff09",
+  "name": "Elegant Potted Plant",
+  "desc": "A lush potted arrangement combining a variety of plants with exquisite decorative accents. Alexandra is passionate about pruning and shaping her plants, finding a profound sense of control and tranquility in the process. (Alexandra's Affection +1000)",
   "quality": "30",
   "icon": null
  },
  {
   "id": "200200085",
-  "name": "\u751f\u614b\u98fc\u990a\u7bb1",
-  "desc": "\u7531\u9ad8\u900f\u5149\u73bb\u7483\u8207\u5929\u7136\u690d\u7269\u88fd\u6210\u7684\u5c0f\u578b\u98fc\u990a\u76d2\uff0c\u5167\u90e8\u92ea\u8a2d\u4e86\u6eab\u6f64\u7684\u82d4\u861a\u8207\u9d5d\u5375\u77f3\u3002\u8b93\u5979\u7684\u5bf5\u7269\u5011\u6709\u4e00\u500b\u7f8e\u597d\u7684\u4e16\u754c\u3002\uff08\u514b\u7433\u5a1c\u597d\u611f\u5ea6+1000\uff09",
+  "name": "Ecological Terrarium",
+  "desc": "A miniature terrarium made of highly transparent glass and natural plants, with soft moss and smooth pebbles lining the interior. A beautiful little world for her beloved pets. (Karina's Affection +1000)",
   "quality": "30",
   "icon": null
  },
  {
   "id": "200200086",
-  "name": "\u9650\u91cf\u684c\u904a\u9ab0\u5b50\u79ae\u76d2",
-  "desc": "\u7cbe\u7dfb\u76d2\u88dd\u9650\u91cf\u7248\u591a\u9762\u9ad4\u684c\u904a\u9ab0\u5b50\u5957\u7d44\uff0c\u9ab0\u5b50\u5448\u73fe\u6676\u7469\u5254\u900f\u7684\u5bf6\u77f3\u5149\u6fa4\u3002\u96d6\u7136\u871c\u96c5\u56e0\u70ba\u904b\u6c23\u6975\u5dee\u800c\u5e38\u5728\u8dd1\u5718\u6642\u64f2\u51fa\u300c\u5927\u5931\u6557\u300d\uff0c\u4f46\u5979\u4f9d\u7136\u96d9\u773c\u767c\u4eae\u5730\u62b1\u8457\u9019\u5957\u9ab0\u5b50\uff0c\u7948\u79b1\u4e0b\u4e00\u6b21\u80fd\u64f2\u51fa\u5947\u8e5f\u822c\u7684\u300c\u5927\u6210\u529f\u300d\u3002\uff08\u871c\u96c5\u597d\u611f\u5ea6+1000\uff09",
+  "name": "\u5e78\u904b\u5c0f\u5225\u91dd",
+  "desc": "\u9020\u578b\u50cf\u56db\u8449\u8349\u7684\u5e78\u904b\u5225\u91dd\uff0c\u96d6\u7136\u5979\u77e5\u9053\u5e78\u904b\u4e0d\u80fd\u53ea\u9760\u5b83\uff0c\u4ecd\u6703\u5728\u51fa\u52e4\u524d\u5e36\u4e0a\u5e7e\u500b\u3002\u4e5f\u6703\u8f49\u8d08\u7d66\u9700\u8981\u597d\u904b\u7684\u4eba\uff08\u871c\u96c5\u597d\u611f\u5ea6+1000\uff09",
   "quality": "30",
   "icon": null
  },
  {
   "id": "200200093",
-  "name": "X(\u4e0d\u7ffb){cr093\u597d\u611f\u9053\u5177}",
-  "desc": "X(\u4e0d\u7ffb)\uff08{cr093}\u597d\u611f\u5ea6+1000\uff09",
+  "name": "\u96f6\u98df\u79ae\u76d2\u5305",
+  "desc": "\u900f\u660e\u5305\u88dd\u7684\u7d9c\u5408\u96f6\u98df\uff0cDJ JOY\u6700\u559c\u6b61\u5728\u5bb6\u4f11\u606f\u6642\uff0c\u62b1\u8457\u96f6\u98df\uff0c\u8eba\u5728\u6c99\u767c\u4e0a\u5927\u5feb\u6735\u9824\u3002\uff08DJ JOY\u597d\u611f\u5ea6+1000\uff09",
   "quality": "30",
   "icon": null
  },
  {
   "id": "200200094",
-  "name": "X(\u4e0d\u7ffb){cr094\u597d\u611f\u9053\u5177}",
-  "desc": "X(\u4e0d\u7ffb)\uff08{cr094}\u597d\u611f\u5ea6+1000\uff09",
+  "name": "\u96d5\u82b1\u9435\u76d2\u8b77\u624b\u971c",
+  "desc": "\u5929\u7136\u8349\u672c\u8b77\u624b\u971c\u5957\u7d44\uff0c\u8cea\u5730\u8c50\u6f64\u4e14\u4f34\u6709\u6a59\u82b1\u8207\u8309\u8389\u7684\u512a\u96c5\u9999\u6c23\u3002\u80fd\u5b8c\u7f8e\u6ecb\u6f64\u5979\u56e0\u9577\u6642\u9593\u8abf\u9152\u3001\u63a5\u89f8\u51b0\u584a\u800c\u4e7e\u88c2\u7684\u96d9\u624b\uff0c\u6eab\u548c\u7684\u690d\u8403\u82ac\u82b3\u6df1\u5f97\u5979\u7684\u559c\u611b\u3002(\u57c3\u9ed8\u7433\u597d\u611f\u5ea6+1000)",
   "quality": "30",
   "icon": null
  },
  {
   "id": "200200100",
-  "name": "X(\u4e0d\u7ffb){cr100\u597d\u611f\u9053\u5177}",
-  "desc": "X(\u4e0d\u7ffb)\uff08{cr100}\u597d\u611f\u5ea6+1000\uff09",
+  "name": "\u6d41\u884c\u54c1\u724c\u9650\u5b9a\u9999\u6c34",
+  "desc": "\u5c0d\u65bc\u71b1\u611b\u6642\u5c1a\u8207\u9999\u6c34\u5316\u599d\u54c1\u7684\u863f\u62c9\u800c\u8a00\uff0c\u540d\u5a9b\u5708\u5167\u8a71\u984c\u5ea6\u9ad8\u7684\u9999\u6c34\uff0c\u90fd\u662f\u76f8\u7576\u9069\u5408\u5979\u7684\u79ae\u7269\u3002\uff08\u863f\u62c9\uff0e\u5361\u8fea\u4e45\u597d\u611f\u5ea6+1000\uff09",
   "quality": "30",
   "icon": null
  },
@@ -5123,14 +5179,14 @@ export const gsaItems = [
   "name": "Premium Milk Gift Box",
   "desc": "An HL Entertainment party gift set. Featuring an adorable cow on the box. Though the recipient thought to herself, \"I'm the only one here who looks like the cow on the box...\" (Clumsy Cowgirl - Belle's Affection +1000)",
   "quality": "30",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200200107.webp"
  },
  {
   "id": "200210040",
   "name": "[Chat Portrait] Belle",
   "desc": "Obtained by owning 5\u2605 [Spacey Sweetheart - Belle].",
   "quality": "50",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/cr040_h1_Icon_Texture.webp"
  },
  {
   "id": "200210041",
@@ -5144,56 +5200,56 @@ export const gsaItems = [
   "name": "[Chat Portrait] Ruo Lan",
   "desc": "Obtained by owning 5\u2605 [Fiscal Fixer - Ruo Lan].",
   "quality": "50",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/cr043_h1_Icon_Texture.webp"
  },
  {
   "id": "200210044",
   "name": "[Chat Portrait] Amber",
   "desc": "Obtained by owning 5\u2605 [Elegant Croupier - Amber].",
   "quality": "50",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/cr044_h1_Icon_Texture.webp"
  },
  {
   "id": "200210045",
   "name": "[Chat Portrait] Kurosawa Shion",
   "desc": "Obtained by owning 5\u2605 [Meta-Research Freak - Kurosawa Shion].",
   "quality": "50",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/cr045_h1_Icon_Texture.webp"
  },
  {
   "id": "200210046",
   "name": "[Chat Portrait] Chloe",
   "desc": "Obtained by owning 5\u2605 [Sacrificial Lamb - Chloe].",
   "quality": "50",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/cr046_h1_Icon_Texture.webp"
  },
  {
   "id": "200210047",
   "name": "[Chat Portrait] Charlotte",
   "desc": "Obtained by owning 5\u2605 [Silvergun Sweetheart - Charlotte].",
   "quality": "50",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/cr047_h1_Icon_Texture.webp"
  },
  {
   "id": "200210048",
   "name": "[Chat Portrait] Rachel",
   "desc": "Obtained by owning 5\u2605 [Iron Law Sentinel - Rachel].",
   "quality": "50",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/cr048_h1_Icon_Texture.webp"
  },
  {
   "id": "200210049",
   "name": "[Chat Portrait] Milena",
   "desc": "Obtained by owning 5\u2605 [Black-Sector Inker - Milena].",
   "quality": "50",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/cr049_h1_Icon_Texture.webp"
  },
  {
   "id": "200210050",
   "name": "[Chat Portrait] Amelie",
   "desc": "Obtained by owning 5\u2605 [Heart-Stealer - Amelie].",
   "quality": "50",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/cr050_h1_Icon_Texture.webp"
  },
  {
   "id": "200210051",
@@ -5214,63 +5270,63 @@ export const gsaItems = [
   "name": "[Chat Portrait] Sugimoto Arina",
   "desc": "Obtained by owning 5\u2605 [Soothing Touch - Sugimoto Arina].",
   "quality": "50",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/cr053_h1_Icon_Texture.webp"
  },
  {
   "id": "200210054",
   "name": "[Chat Portrait] Ogino Rui",
   "desc": "Obtained by owning 5\u2605 [Yandere Maid - Ogino Rui].",
   "quality": "50",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/cr054_h1_Icon_Texture.webp"
  },
  {
   "id": "200210055",
   "name": "[Chat Portrait] Lin Lin",
   "desc": "Obtained by owning 5\u2605 [Divine Oracle - Lin Lin].",
   "quality": "50",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/cr055_h1_Icon_Texture.webp"
  },
  {
   "id": "200210056",
   "name": "[Chat Portrait] Ruby",
   "desc": "Obtained by owning 5\u2605 [Radiant Diva - Ruby].",
   "quality": "50",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/cr056_h1_Icon_Texture.webp"
  },
  {
   "id": "200210057",
   "name": "[Chat Portrait] Liz",
   "desc": "Obtained by owning 5\u2605 [Bare-Knuckle Bodyguard - Liz].",
   "quality": "50",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/cr057_h1_Icon_Texture.webp"
  },
  {
   "id": "200210058",
   "name": "[Chat Portrait] Li Mu",
   "desc": "Obtained by owning 5\u2605 [Icy Femme Fatale - Li Mu].",
   "quality": "50",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/cr058_h1_Icon_Texture.webp"
  },
  {
   "id": "200210060",
   "name": "[Chat Portrait] Danxin",
   "desc": "Obtained by owning 5\u2605 [Kung Fu Beauty - Danxin].",
   "quality": "50",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/cr060_h1_Icon_Texture.webp"
  },
  {
   "id": "200210061",
   "name": "[Chat Portrait] Ojima Erina",
   "desc": "Obtained by owning 5\u2605 [Sugar-Sweet Maid - Ojima Erina].",
   "quality": "50",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/cr061_h1_Icon_Texture.webp"
  },
  {
   "id": "200210062",
   "name": "[Chat Portrait] Shiraishi Ai",
   "desc": "Obtained by owning 5\u2605 [Gentle Manager - Shiraishi Ai].",
   "quality": "50",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/cr062_h1_Icon_Texture.webp"
  },
  {
   "id": "200210063",
@@ -5284,21 +5340,21 @@ export const gsaItems = [
   "name": "[Chat Portrait] Komachi Sayaka",
   "desc": "Obtained by owning 5\u2605 [Moonlit Courtesan - Komachi Sayaka].",
   "quality": "50",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/cr064_h1_Icon_Texture.webp"
  },
  {
   "id": "200210065",
   "name": "[Chat Portrait] Hijikata Chizuru",
   "desc": "Obtained by owning 5\u2605 [Immovable Sword Maiden - Hijikata Chizuru].",
   "quality": "50",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/cr065_h1_Icon_Texture.webp"
  },
  {
   "id": "200210066",
   "name": "[Chat Portrait] Fujiwara Arisa",
   "desc": "Obtained by owning 5\u2605 [Ephemeral Splendor - Fujiwara Arisa].",
   "quality": "50",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/cr066_h1_Icon_Texture.webp"
  },
  {
   "id": "200210067",
@@ -5358,8 +5414,8 @@ export const gsaItems = [
  },
  {
   "id": "200210075",
-  "name": "[Chat Portrait] Komachi Yuu",
-  "desc": "X(\u4e0d\u7ffb)\u300cXXX-\u5c0f\u753a\u6182\u300d5\u661f\u5165\u624b\u3002",
+  "name": "\u3010\u901a\u8a0a\u982d\u50cf\u3011\u5929\u91ce \u6faa\u83ef",
+  "desc": "X(\u4e0d\u7ffb)\u300cXXX-\u5929\u91ce \u6faa\u83ef\u300d5\u661f\u5165\u624b\u3002",
   "quality": "50",
   "icon": null
  },
@@ -5372,22 +5428,22 @@ export const gsaItems = [
  },
  {
   "id": "200210079",
-  "name": "\u3010\u901a\u8a0a\u982d\u50cf\u3011\u8389\u6b50\u59ae\u7d72 #",
-  "desc": "\u300c\u5967\u5fb7\u4fee\u65af-\u8389\u6b50\u59ae\u7d72\u300d5\u661f\u5165\u624b\u3002",
+  "name": "[Chat Portrait] Leonisse",
+  "desc": "Obtained by owning 5\u2605 [Odysseus - Leonisse].",
   "quality": "50",
   "icon": null
  },
  {
   "id": "200210080",
-  "name": "\u3010\u901a\u8a0a\u982d\u50cf\u3011\u91cc\u6069",
-  "desc": "\u300c\u9ed1\u8089\u5c0f\u91ce\u7378-\u91cc\u6069\u300d5\u661f\u5165\u624b\u3002",
+  "name": "[Chat Portrait] Rien",
+  "desc": "Obtained by owning 5\u2605 [Tanned Little Beast - Rien].",
   "quality": "50",
   "icon": null
  },
  {
   "id": "200210081",
-  "name": "\u3010\u901a\u8a0a\u982d\u50cf\u3011\u8299\u6d1b\u7df9",
-  "desc": "\u300c\u75c5\u5b0c\u96d9\u5200-\u8299\u6d1b\u7df9\u300d5\u661f\u5165\u624b\u3002",
+  "name": "[Chat Portrait] Florette",
+  "desc": "Obtained by owning 5\u2605 [Yandere Dual Blades - Florette].",
   "quality": "50",
   "icon": null
  },
@@ -5400,50 +5456,50 @@ export const gsaItems = [
  },
  {
   "id": "200210083",
-  "name": "\u3010\u901a\u8a0a\u982d\u50cf\u3011\u591c\u7fbd",
-  "desc": "\u300c\u602a\u76dc\u591c\u7fbd-\u591c\u7fbd\u300d5\u661f\u5165\u624b\u3002",
+  "name": "[Chat Portrait] Yoruha",
+  "desc": "Obtained by owning 5\u2605 [Phantom Thief Nightplume - Yoruha].",
   "quality": "50",
   "icon": null
  },
  {
   "id": "200210084",
-  "name": "\u3010\u901a\u8a0a\u982d\u50cf\u3011\u4e9e\u8389\u73ca\u5353",
-  "desc": "\u300c\u7070\u8272\u5224\u5b98-\u4e9e\u8389\u73ca\u5353\u300d5\u661f\u5165\u624b\u3002",
+  "name": "[Chat Portrait] Alexandra",
+  "desc": "Obtained by owning 5\u2605 [Gray Arbiter - Alexandra].",
   "quality": "50",
   "icon": null
  },
  {
   "id": "200210085",
-  "name": "\u3010\u901a\u8a0a\u982d\u50cf\u3011\u514b\u7433\u5a1c",
-  "desc": "\u300c\u82ad\u857e\u9ed1\u5929\u9d5d-\u514b\u7433\u5a1c\u300d5\u661f\u5165\u624b\u3002",
+  "name": "[Chat Portrait] Karina",
+  "desc": "\u300c\u9ed1\u5929\u9d5d-\u514b\u7433\u5a1c\u300d5\u661f\u5165\u624b\u3002",
   "quality": "50",
   "icon": null
  },
  {
   "id": "200210086",
-  "name": "\u3010\u901a\u8a0a\u982d\u50cf\u3011\u871c\u96c5",
-  "desc": "\u300c\u4e0d\u5e78\u4e4b\u661f-\u871c\u96c5\u300d5\u661f\u5165\u624b\u3002",
+  "name": "[Chat Portrait] Mia",
+  "desc": "Obtained by owning 5\u2605 [Star of Misfortune - Mia].",
   "quality": "50",
   "icon": null
  },
  {
   "id": "200210093",
-  "name": "\u3010\u901a\u8a0a\u982d\u50cf\u3011DJ JOY",
-  "desc": "X(\u4e0d\u7ffb)\u300c{\u7a31\u865f}-DJ JOY\u300d5\u661f\u5165\u624b\u3002",
+  "name": "[Chat Portrait] DJ JOY",
+  "desc": "\u300c\u5feb\u6a02\u5929\u4f7f-DJ JOY\u300d5\u661f\u5165\u624b\u3002",
   "quality": "50",
   "icon": null
  },
  {
   "id": "200210094",
-  "name": "X(\u4e0d\u7ffb)\u3010\u901a\u8a0a\u982d\u50cf\u3011{cr094}",
+  "name": "\u3010\u901a\u8a0a\u982d\u50cf\u3011\u57c3\u9ed8\u7433",
   "desc": "X(\u4e0d\u7ffb)\u300c{\u7a31\u865f}-{cr094}\u300d5\u661f\u5165\u624b\u3002",
   "quality": "50",
   "icon": null
  },
  {
   "id": "200210100",
-  "name": "\u3010\u901a\u8a0a\u982d\u50cf\u3011\u863f\u62c9\uff0e\u5361\u8fea\u4e45",
-  "desc": "\u300c\u5bb6\u65cf\u5bf5\u5152-\u863f\u62c9\uff0e\u5361\u8fea\u4e45\u300d5\u661f\u5165\u624b\u3002",
+  "name": "[Chat Portrait] Lola Carducci",
+  "desc": "Obtained by owning 5\u2605 [Darling of the Family - Lola Carducci].",
   "quality": "50",
   "icon": null
  },
@@ -5452,7 +5508,7 @@ export const gsaItems = [
   "name": "[Chat Portrait] Clumsy Cowgirl - Belle",
   "desc": "Obtained by owning 5\u2605 [Clumsy Cowgirl - Belle].",
   "quality": "50",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/cr107_h1_Icon_Texture.webp"
  },
  {
   "id": "200210108",
@@ -5508,63 +5564,63 @@ export const gsaItems = [
   "name": "[Date Portrait] Ruo Lan",
   "desc": "Complete Ruo Lan's Message Logs, \"Dinner Invitation\" to obtain.",
   "quality": "70",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/cr043_h2_Icon_Texture.webp"
  },
  {
   "id": "200220044",
   "name": "[Date Portrait] Amber",
   "desc": "Complete Amber's Message Logs \"New Game, New Prizes\" to obtain.",
   "quality": "70",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/cr044_h2_Icon_Texture.webp"
  },
  {
   "id": "200220045",
   "name": "[Date Portrait] Kurosawa Shion",
   "desc": "Complete Kurosawa Shion's Message Logs, \"Advance Preparation\" to obtain.",
   "quality": "70",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/cr045_h2_Icon_Texture.webp"
  },
  {
   "id": "200220046",
   "name": "[Date Portrait] Chloe",
   "desc": "Complete Chloe's Message Logs, \"A Fully Prepared Punishment\" to obtain.",
   "quality": "70",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/cr046_h2_Icon_Texture.webp"
  },
  {
   "id": "200220047",
   "name": "[Date Portrait] Charlotte",
   "desc": "Complete Charlotte's Message Log, \"Exercise You Can Do Lying Down\" to obtain.",
   "quality": "70",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/cr047_h2_Icon_Texture.webp"
  },
  {
   "id": "200220048",
   "name": "[Date Portrait] Rachel",
   "desc": "Complete Rachel's Message Logs \"Special Training\" to obtain.",
   "quality": "70",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/cr048_h2_Icon_Texture.webp"
  },
  {
   "id": "200220049",
   "name": "[Date Portrait] Milena",
   "desc": "Complete Milena's Message Logs, \"A Way to Celebrate\" to obtain.",
   "quality": "70",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/cr049_h2_Icon_Texture.webp"
  },
  {
   "id": "200220050",
   "name": "[Date Portrait] Amelie",
   "desc": "Complete Amelie's Message Logs, \"Good Enough to Eat\" to obtain.",
   "quality": "70",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/cr050_h2_Icon_Texture.webp"
  },
  {
   "id": "200220051",
   "name": "[Date Portrait] Annabelle",
   "desc": "Complete Annabelle's Message Logs \"On-Site Report\" to obtain.",
   "quality": "70",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/cr051_h2_Icon_Texture.webp"
  },
  {
   "id": "200220052",
@@ -5578,21 +5634,21 @@ export const gsaItems = [
   "name": "[Date Portrait] Sugimoto Arina",
   "desc": "Complete Sugimoto Arina's Message Logs, \"I Want to Hear Your Voice\" to obtain.",
   "quality": "70",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/cr053_h2_Icon_Texture.webp"
  },
  {
   "id": "200220054",
   "name": "[Date Portrait] Ogino Rui",
   "desc": "Complete Ogino Rui's Message Logs, \"Only You\" to obtain.",
   "quality": "70",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/cr054_h2_Icon_Texture.webp"
  },
  {
   "id": "200220055",
   "name": "[Date Portrait] Lin Lin",
   "desc": "Complete Lin Lin's Message Logs \"The One I Really Wanted to See...\" to obtain.",
   "quality": "70",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/cr055_h2_Icon_Texture.webp"
  },
  {
   "id": "200220056",
@@ -5606,35 +5662,35 @@ export const gsaItems = [
   "name": "[Date Portrait] Liz",
   "desc": "Complete Liz's Message Logs, \"True Rest\" to obtain.",
   "quality": "70",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/cr057_h2_Icon_Texture.webp"
  },
  {
   "id": "200220058",
   "name": "[Date Portrait] Li Mu",
   "desc": "Complete Li Mu's Message Logs \"Satisfaction\" to obtain.",
   "quality": "70",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/cr058_h2_Icon_Texture.webp"
  },
  {
   "id": "200220060",
   "name": "[Date Portrait] Danxin",
   "desc": "Complete Danxin's Message Log, \"Let's Fight!\" to obtain.",
   "quality": "70",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/cr060_h2_Icon_Texture.webp"
  },
  {
   "id": "200220061",
   "name": "[Date Portrait] Ojima Erina",
   "desc": "Complete Ojima Erina's Message Log, \"Cooking with Love and a Special Surprise\" to obtain.",
   "quality": "70",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/cr061_h2_Icon_Texture.webp"
  },
  {
   "id": "200220062",
   "name": "[Date Portrait] Shiraishi Ai",
   "desc": "Complete Shiraishi Ai's Message Logs \"A Special 'Dessert'\" to obtain.",
   "quality": "70",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/cr062_h2_Icon_Texture.webp"
  },
  {
   "id": "200220063",
@@ -5648,21 +5704,21 @@ export const gsaItems = [
   "name": "[Date Portrait] Komachi Sayaka",
   "desc": "Complete Komachi Sayaka's Message Log, \"Hot Spring Invitation\" to obtain.",
   "quality": "70",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/cr064_h2_Icon_Texture.webp"
  },
  {
   "id": "200220065",
   "name": "[Date Portrait] Hijikata Chizuru",
   "desc": "Complete Hijikata Chizuru's Message Log, \"The Truth Behind Regret\" to obtain.",
   "quality": "70",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/cr065_h2_Icon_Texture.webp"
  },
  {
   "id": "200220066",
   "name": "[Date Portrait] Fujiwara Arisa",
   "desc": "Complete Fujiwara Arisa's Message Log, \"Missed Invitation\" to obtain.",
   "quality": "70",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/cr066_h2_Icon_Texture.webp"
  },
  {
   "id": "200220067",
@@ -5695,7 +5751,7 @@ export const gsaItems = [
  {
   "id": "200220071",
   "name": "[Date Portrait] Victoria",
-  "desc": "\u5b8c\u6210\u7dad\u591a\u8389\u4e9e\u901a\u8a0a\u6545\u4e8b\u3008\u6b0a\u6b32\u9b54\u5973\u7684\u4efb\u6027\u3009\u5165\u624b\u3002",
+  "desc": "Complete Victoria's Message Logs \"The Witch's Willful Whims\" to obtain.",
   "quality": "70",
   "icon": null
  },
@@ -5716,14 +5772,14 @@ export const gsaItems = [
  {
   "id": "200220074",
   "name": "[Date Portrait] Jessica",
-  "desc": "Complete Jessica's Message Logs to obtain.",
+  "desc": "Complete Jessica's Message Logs \"Mature Charm\" to obtain.",
   "quality": "70",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/cr074_h2_Icon_Texture.webp"
  },
  {
   "id": "200220075",
-  "name": "[Date Portrait] Komachi Yuu",
-  "desc": "X(\u4e0d\u7ffb)\u5b8c\u6210\u5c0f\u753a \u6182\u901a\u8a0a\u6545\u4e8b\u3008\u3009\u5165\u624b\u3002",
+  "name": "\u3010\u7d04\u6703\u982d\u50cf\u3011\u5929\u91ce \u6faa\u83ef",
+  "desc": "X(\u4e0d\u7ffb)\u5b8c\u6210\u5929\u91ce \u6faa\u83ef\u901a\u8a0a\u6545\u4e8b\u3008\u3009\u5165\u624b\u3002",
   "quality": "70",
   "icon": null
  },
@@ -5736,77 +5792,77 @@ export const gsaItems = [
  },
  {
   "id": "200220079",
-  "name": "\u3010\u7d04\u6703\u982d\u50cf\u3011\u8389\u6b50\u59ae\u7d72 #",
-  "desc": "\u5b8c\u6210\u8389\u6b50\u59ae\u7d72\u901a\u8a0a\u6545\u4e8b\u3008\u4efb\u52d9\u5f8c\u7684\u7279\u5225\u56de\u79ae\u3009\u5165\u624b\u3002",
+  "name": "[Date Portrait] Leonisse",
+  "desc": "Complete Leonisse's Message Logs \"Post-Mission Return Gift\" to obtain.",
   "quality": "70",
   "icon": null
  },
  {
   "id": "200220080",
-  "name": "\u3010\u7d04\u6703\u982d\u50cf\u3011\u91cc\u6069",
-  "desc": "\u5b8c\u6210\u91cc\u6069\u901a\u8a0a\u6545\u4e8b\u3008\u5c0f\u91ce\u7378\u7684\u7955\u5bc6\u57fa\u5730\u3009\u5165\u624b\u3002",
+  "name": "[Date Portrait] Rien",
+  "desc": "Complete Rien's Message Logs \"Little Beast's Hideaway\" to obtain.",
   "quality": "70",
   "icon": null
  },
  {
   "id": "200220081",
-  "name": "\u3010\u7d04\u6703\u982d\u50cf\u3011\u8299\u6d1b\u7df9",
-  "desc": "X(\u4e0d\u7ffb)",
+  "name": "[Date Portrait] Florette",
+  "desc": "\u5b8c\u6210\u8299\u6d1b\u7df9\u901a\u8a0a\u6545\u4e8b\u3008\u512a\u96c5\u4e14\u8aa0\u646f\u7684\u8b1d\u7f6a\u3009\u5165\u624b\u3002",
   "quality": "70",
   "icon": null
  },
  {
   "id": "200220082",
   "name": "[Date Portrait] Rookie Maid - Sugimoto Arina",
-  "desc": "X(\u4e0d\u7ffb\u5b8c\u6210\u65b0\u624b\u5973\u50d5-\u6749\u672c \u6709\u83dc\u901a\u8a0a\u6545\u4e8b\u3008\u3009\u5165\u624b\u3002",
+  "desc": "\u5b8c\u6210\u65b0\u624b\u5973\u50d5-\u6749\u672c \u6709\u83dc\u901a\u8a0a\u6545\u4e8b\u3008\u7955\u5bc6\u5c08\u5c6c\u670d\u52d9\u3009\u5165\u624b\u3002",
   "quality": "70",
   "icon": null
  },
  {
   "id": "200220083",
-  "name": "\u3010\u7d04\u6703\u982d\u50cf\u3011\u591c\u7fbd",
-  "desc": "X(\u4e0d\u7ffb)",
+  "name": "[Date Portrait] Yoruha",
+  "desc": "\u5b8c\u6210\u591c\u7fbd\u901a\u8a0a\u6545\u4e8b\u3008\u7b49\u5f85\u82f1\u96c4\u7684\u7279\u7b49\u5e2d\u3009\u5165\u624b\u3002",
   "quality": "70",
   "icon": null
  },
  {
   "id": "200220084",
-  "name": "\u3010\u7d04\u6703\u982d\u50cf\u3011\u4e9e\u8389\u73ca\u5353",
-  "desc": "X(\u4e0d\u7ffb)",
+  "name": "[Date Portrait] Alexandra",
+  "desc": "\u5b8c\u6210\u4e9e\u8389\u73ca\u5353\u901a\u8a0a\u6545\u4e8b\u3008\u8ca0\u8d77\u8cac\u4efb\u7684\u65b9\u6cd5\u3009\u5165\u624b\u3002",
   "quality": "70",
   "icon": null
  },
  {
   "id": "200220085",
-  "name": "\u3010\u7d04\u6703\u982d\u50cf\u3011\u514b\u7433\u5a1c",
+  "name": "[Date Portrait] Karina",
   "desc": "X(\u4e0d\u7ffb)",
   "quality": "70",
   "icon": null
  },
  {
   "id": "200220086",
-  "name": "\u3010\u7d04\u6703\u982d\u50cf\u3011\u871c\u96c5",
+  "name": "[Date Portrait] Mia",
   "desc": "X(\u4e0d\u7ffb)",
   "quality": "70",
   "icon": null
  },
  {
   "id": "200220093",
-  "name": "\u3010\u7d04\u6703\u982d\u50cf\u3011DJ JOY",
+  "name": "[Date Portrait] DJ JOY",
   "desc": "X(\u4e0d\u7ffb)",
   "quality": "70",
   "icon": null
  },
  {
   "id": "200220094",
-  "name": "X(\u4e0d\u7ffb)\u3010\u7d04\u6703\u982d\u50cf\u3011{cr094}",
+  "name": "\u3010\u7d04\u6703\u982d\u50cf\u3011\u57c3\u9ed8\u7433",
   "desc": "X(\u4e0d\u7ffb)",
   "quality": "70",
   "icon": null
  },
  {
   "id": "200220100",
-  "name": "\u3010\u7d04\u6703\u982d\u50cf\u3011\u863f\u62c9\uff0e\u5361\u8fea\u4e45",
+  "name": "[Date Portrait] Lola Carducci",
   "desc": "X(\u4e0d\u7ffb)",
   "quality": "70",
   "icon": null
@@ -5816,7 +5872,7 @@ export const gsaItems = [
   "name": "[Date Portrait] Clumsy Cowgirl - Belle",
   "desc": "Complete Clumsy Cowgirl - Belle's Message Log, \"Unretractable Hint\" to obtain",
   "quality": "70",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/cr107_h2_Icon_Texture.webp"
  },
  {
   "id": "200220108",
@@ -5858,7 +5914,7 @@ export const gsaItems = [
   "name": "[Profile Frame] Debut Commemoration",
   "desc": "Launch Event Limited Portrait Frame",
   "quality": "70",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200240002.webp"
  },
  {
   "id": "200240003",
@@ -5879,28 +5935,28 @@ export const gsaItems = [
   "name": "[Portrait Frame] VIP 15",
   "desc": "VIP 15 Exclusive Pack: Limited Portrait Frame.",
   "quality": "70",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200240005.webp"
  },
  {
   "id": "200240006",
   "name": "[Portrait Frame] Fighting Champion",
   "desc": "Carducci Arena Weekly Rank 1 Reward",
   "quality": "50",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200240006.webp"
  },
  {
   "id": "200240007",
   "name": "[Portrait Frame] Martial King",
   "desc": "Desperate Deathmatch Weekly Rank 1 Reward",
   "quality": "50",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200240007.webp"
  },
  {
   "id": "200240008",
   "name": "[Portrait Frame] Cheer Captain",
   "desc": "Heaven's Door Event , 1st Place Reward.",
   "quality": "50",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200240008.webp"
  },
  {
   "id": "200240009",
@@ -5914,70 +5970,70 @@ export const gsaItems = [
   "name": "[Portrait Frame] 30-Day Login",
   "desc": "30-Day Cumulative Login Reward.",
   "quality": "0",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200240010.webp"
  },
  {
   "id": "200240011",
   "name": "[Portrait Frame] 50-Day Login",
   "desc": "50-Day Cumulative Login Reward.",
   "quality": "10",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200240011.webp"
  },
  {
   "id": "200240012",
   "name": "[Portrait Frame] 70-Day Login",
   "desc": "70-Day Cumulative Login Reward.",
   "quality": "30",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200240012.webp"
  },
  {
   "id": "200240013",
   "name": "[Portrait Frame] 100-Day Login",
   "desc": "100-Day Cumulative Login Reward.",
   "quality": "50",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200240013.webp"
  },
  {
   "id": "200240014",
   "name": "[Portrait Frame] Rank 30",
   "desc": "Rank 30 Reward.",
   "quality": "0",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200240014.webp"
  },
  {
   "id": "200240015",
   "name": "[Portrait Frame] Rank 50",
   "desc": "Rank 50 Reward.",
   "quality": "10",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200240015.webp"
  },
  {
   "id": "200240016",
   "name": "[Portrait Frame] Rank 70",
   "desc": "Rank 70 Reward.",
   "quality": "30",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200240016.webp"
  },
  {
   "id": "200240017",
   "name": "[Portrait Frame] Rank 100",
   "desc": "Rank 100 Reward.",
   "quality": "50",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200240017.webp"
  },
  {
   "id": "200245001",
   "name": "[Portrait Frame] World Champion",
   "desc": "Reward for achieving 1st place in the \"Carducci Arena\" weekly rankings a total of 10 times.",
   "quality": "70",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200245001.webp"
  },
  {
   "id": "200245002",
   "name": "[Portrait Frame] Martial Alliance Chief",
   "desc": "Reward for achieving 1st place in the \"Desperate Deathmatch\" weekly rankings a total of 10 times.",
   "quality": "70",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200245002.webp"
  },
  {
   "id": "200245003",
@@ -6012,7 +6068,7 @@ export const gsaItems = [
   "name": "[Portrait Frame] Lunar Splendor of the Pleasure District",
   "desc": "Lunar Splendor of the Pleasure District Limited Profile Frame.",
   "quality": "70",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200245007.webp"
  },
  {
   "id": "200245008",
@@ -6030,15 +6086,15 @@ export const gsaItems = [
  },
  {
   "id": "200245010",
-  "name": "\u3010\u982d\u50cf\u6846\u3011\u6df7\u6c8c\u4e4b\u6e90",
-  "desc": "\u300e\u6df7\u6c8c\u4e4b\u6e90\u300f\u9650\u5b9a\u982d\u50cf\u6846\u3002",
+  "name": "[Portrait Frame] Origin of Chaos",
+  "desc": "Origin of Chaos Limited Profile Frame.",
   "quality": "70",
   "icon": null
  },
  {
   "id": "200245011",
-  "name": "X(\u4e0d\u7ffb)\u3010\u982d\u50cf\u6846\u3011{\u4e3b\u984c\u6d3b\u52d55\u540d\u7a31}",
-  "desc": "X(\u4e0d\u7ffb)\u300e{\u4e3b\u984c\u6d3b\u52d55\u540d\u7a31}\u300f\u9650\u5b9a\u982d\u50cf\u6846\u3002",
+  "name": "\u3010\u982d\u50cf\u6846\u3011\u7aba\u63a2\u6df1\u6df5\u7684\u4ee3\u50f9",
+  "desc": "\u300e\u7aba\u63a2\u6df1\u6df5\u7684\u4ee3\u50f9\u300f\u9650\u5b9a\u982d\u50cf\u6846\u3002",
   "quality": "70",
   "icon": null
  },
@@ -6171,7 +6227,7 @@ export const gsaItems = [
  {
   "id": "200255016",
   "name": "[Background] Pleasure District Street - Night",
-  "desc": "After nightfall, the pleasure district overflows with drinks and revelry. This is a playground for grown-ups.",
+  "desc": "After nightfall, the pleasure district overflows with alcohol and sex. This is a playground for adults only.",
   "quality": "50",
   "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200255016.webp"
  },
@@ -6187,98 +6243,98 @@ export const gsaItems = [
   "name": "[Background] Moonveil Pavilion",
   "desc": "The sensual maid caf\u00e9, Moonveil Pavilion, had, as always, awaited the arrival of its masters.",
   "quality": "50",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200255018.webp"
  },
  {
   "id": "200255019",
   "name": "[Background] Garmr Palace",
   "desc": "Even the utmost luxury cannot escape the ravages of war.",
   "quality": "50",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200255019.webp"
  },
  {
   "id": "200255020",
   "name": "[Background] Hell's Light",
   "desc": "A ray of light in hell.",
   "quality": "50",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200255020.webp"
  },
  {
   "id": "200255021",
   "name": "[Background] HL Dance Studio",
   "desc": "An aroma that can stir sexual desire often lingers within.",
   "quality": "50",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200255021.webp"
  },
  {
   "id": "200255022",
   "name": "[Background] HL Lobby",
   "desc": "The grand hall of paradise. Everyone in the world would give up everything just to enter this place, from girls chasing star-studded dreams, to men hunting for sultry beauties.",
   "quality": "50",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200255022.webp"
  },
  {
   "id": "200255023",
   "name": "[Background] Office",
   "desc": "The things discussed here are beyond what an ordinary person could ever imagine.",
   "quality": "50",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200255023.webp"
  },
  {
   "id": "200255024",
   "name": "[Background] Dark Private Room",
   "desc": "Under the dim lights, it's the perfect place to entertain partners and enemies alike.",
   "quality": "50",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200255024.webp"
  },
  {
   "id": "200255025",
   "name": "[Background] Carducci Family",
   "desc": "Forged in fine wine, fresh blood, and bullets, that's a style born of unyielding resilience.",
   "quality": "50",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200255025.webp"
  },
  {
   "id": "200255026",
   "name": "[Background] HL Entertainment",
   "desc": "A company in the top 1%, a dream job lusted after by all. Yet behind this glittering facade lies a dream tangled in the darkest sins.",
   "quality": "50",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200255026.webp"
  },
  {
   "id": "200255027",
   "name": "[Background] Luxurious Study",
   "desc": "Shady deals, power plays, and passionate desires are all part of daily life here.",
   "quality": "50",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200255027.webp"
  },
  {
   "id": "200255028",
   "name": "[Background] Abandoned Building",
   "desc": "The air is thick with the smell of dust and dirty, illicit dealings.",
   "quality": "50",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200255028.webp"
  },
  {
   "id": "200255029",
   "name": "[Background] Harbor Warehouse",
   "desc": "What hits you is the scent of the sea breeze, mingled with the stench of fish and blood.",
   "quality": "50",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200255029.webp"
  },
  {
   "id": "200255030",
   "name": "[Background] Riverbank: Night",
   "desc": "Countless passionate memories of youth seem to linger here still.",
   "quality": "50",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200255030.webp"
  },
  {
   "id": "200255031",
   "name": "[Background] Riverbank: Day",
   "desc": "Bright scenery filled with the sweet scent of green grass, nurturing bonds of deep intimacy.",
   "quality": "50",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200255031.webp"
  },
  {
   "id": "200255032",
@@ -6292,14 +6348,14 @@ export const gsaItems = [
   "name": "[Background] HL Live House",
   "desc": "Bringing music, emotions, and people together, creating an immersive experience of soulful resonance.",
   "quality": "50",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200255033.webp"
  },
  {
   "id": "200255034",
   "name": "[Background] Moonflower Secret Mansion: Day",
   "desc": "An ordinary yet beautiful day, quietly observing the passage of time amidst gentle breezes and bright sunshine.",
   "quality": "50",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200255034.webp"
  },
  {
   "id": "200255035",
@@ -6313,117 +6369,117 @@ export const gsaItems = [
   "name": "[Background] Moonflower Secret Mansion: Night",
   "desc": "An ordinary yet beautiful day, where the passage of time fades away in the stillness of the deep night.",
   "quality": "50",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200255036.webp"
  },
  {
   "id": "200255037",
-  "name": "\u3010\u80cc\u666f\u3011\u6eab\u99a8\u5c0f\u5e97",
-  "desc": "\u6b61\u8fce\u5149\u81e8\uff01\u8acb\u554f\u4eca\u5929\u9700\u8981\u4ec0\u9ebc\u5462\uff1f\u4f86\u559d\u676f\u8336\u55ce\uff1f",
+  "name": "[Background] Shop Counter",
+  "desc": "Welcome! What can I get for you today?",
   "quality": "50",
   "icon": null
  },
  {
   "id": "200255038",
-  "name": "\u3010\u80cc\u666f\u3011\u8336\u6a13\u5305\u5ec2",
-  "desc": "\u96b1\u853d\u96c5\u81f4\uff0c\u9069\u5408\u5546\u8ac7\u5927\u4e8b\u3002",
+  "name": "[Background] Tea House Private Room",
+  "desc": "Discreet and elegant, perfect for discussing important business.",
   "quality": "50",
   "icon": null
  },
  {
   "id": "200255039",
-  "name": "\u3010\u80cc\u666f\u3011\u98ef\u5e97\u5eca\u9053",
-  "desc": "\u4f60\u66fe\u7d93\u807d\u8aaa\u95dc\u65bc\u76e1\u982d\u7684\u90a3\u500b\u623f\u9593\u55ce\uff1f",
+  "name": "[Background] Hotel Corridor",
+  "desc": "Have you heard about the room at the very end?",
   "quality": "50",
   "icon": null
  },
  {
   "id": "200255040",
-  "name": "\u3010\u80cc\u666f\u3011\u67f3\u76f8\u5be8",
-  "desc": "\u9019\u88e1\u7684\u5df7\u5f04\u56e0\u70ba\u591a\u65e5\u9670\u96e8\u800c\u6709\u80a1\u6fc3\u6fc3\u7684\u9709\u5473\u3002",
+  "name": "[Background] Liuxiang Village",
+  "desc": "The alleys here carry a thick, musty odor due to days of relentless rain.",
   "quality": "50",
   "icon": null
  },
  {
   "id": "200255041",
-  "name": "\u3010\u80cc\u666f\u3011\u9ad8\u7d1a\u9910\u5ef3",
-  "desc": "\u6240\u6709\u7684\u5973\u4eba\u90fd\u5922\u60f3\u5728\u6709\u5100\u5f0f\u611f\u7684\u9910\u5ef3\u4eab\u7528\u4e00\u9910\u3002",
+  "name": "[Background] Upscale Restaurant",
+  "desc": "Every woman dreams of enjoying a meal at a restaurant with a special ambiance.",
   "quality": "50",
   "icon": null
  },
  {
   "id": "200255042",
-  "name": "\u3010\u80cc\u666f\u3011\u897f\u5967\u591a\u7684\u75c5\u623f",
-  "desc": "\u4eca\u591c\u8a3b\u5b9a\u6709\u4eba\u8981\u5fb9\u591c\u672a\u7720\u2026\u2026",
+  "name": "[Background] Theodore's Hospital Room",
+  "desc": "Someone is destined for a sleepless night tonight...",
   "quality": "50",
   "icon": null
  },
  {
   "id": "200255043",
-  "name": "\u3010\u80cc\u666f\u3011\u5be6\u9a57\u5ba4\u75c5\u623f",
-  "desc": "\u9577\u751f\u4e0d\u8001\u7684\u79d8\u5bc6\u2026\u2026\uff1f",
+  "name": "[Background] Laboratory Ward",
+  "desc": "The secret to immortality...?",
   "quality": "50",
   "icon": null
  },
  {
   "id": "200255044",
-  "name": "\u3010\u80cc\u666f\u3011\u57ce\u5e02\u516c\u8def\u4e4b\u591c",
-  "desc": "\u4f86\u5427\uff01\u6cb9\u9580\u8e29\u5230\u5e95\uff0c\u51fa\u767c\uff01",
+  "name": "[Background] City Highway at Night",
+  "desc": "Come on! Pedal to the metal, let's ride!",
   "quality": "50",
   "icon": null
  },
  {
   "id": "200255045",
-  "name": "\u3010\u80cc\u666f\u3011\u7f85\u58eb\u6602\u5144\u5f1f\u6703\u672c\u90e8",
-  "desc": "\u5973\u4eba\u5d07\u62dc\u6211\u5011\uff0c\u7537\u4eba\u6e34\u671b\u6210\u70ba\u6211\u5011\u3002",
+  "name": "[Background] Rosian Brotherhood Headquarters",
+  "desc": "Women idolize us; men long to be us.",
   "quality": "50",
   "icon": null
  },
  {
   "id": "200255046",
-  "name": "\u3010\u80cc\u666f\u3011\u6d77\u6ff1\u4e4b\u665d",
-  "desc": "\u8c54\u967d\u3001\u6c99\u7058\u3001\u9084\u6709\u9e79\u9e79\u7684\u6d77\u3002",
+  "name": "[Background] Seaside by Day",
+  "desc": "Brilliant sunshine, sandy beaches, and the salty sea breeze.",
   "quality": "50",
   "icon": null
  },
  {
   "id": "200255047",
-  "name": "\u3010\u80cc\u666f\u3011\u6d77\u6ff1\u4e4b\u591c",
-  "desc": "\u6708\u591c\u3001\u665a\u98a8\u3001\u9084\u6709\u9583\u9583\u661f\u5149\u3002",
+  "name": "[Background] Seaside at Night",
+  "desc": "A moonlit night, an evening breeze, and shimmering starlight.",
   "quality": "50",
   "icon": null
  },
  {
   "id": "200255048",
-  "name": "\u3010\u80cc\u666f\u3011\u68ee\u6797\u4e4b\u591c",
-  "desc": "\u6307\u5f15\u6211\u8d70\u4e86\u4e00\u8def\u7684\uff0c\u662f\u679d\u8449\u9593\u843d\u4e0b\u7684\u6708\u5149\u3002",
+  "name": "[Background] Forest at Night",
+  "desc": "The moonlight filtering through the leaves and branches was what guided me along the way.",
   "quality": "50",
   "icon": null
  },
  {
   "id": "200255049",
-  "name": "\u3010\u80cc\u666f\u3011\u6258\u6bd4\u4e9e\u5a1b\u6a02\u57ce",
-  "desc": "\u4e00\u591c\u81f4\u5bcc\uff1f\u6216\u662f\u6e05\u7a7a\u6b78\u96f6\uff1f",
+  "name": "[Background] Tobia Entertainment City",
+  "desc": "Get rich overnight? Or lose everything?",
   "quality": "50",
   "icon": null
  },
  {
   "id": "200255050",
-  "name": "\u3010\u80cc\u666f\u3011\u7e41\u661f\u9ede\u9ede",
-  "desc": "\u90a3\u4e00\u665a\u4e5f\u662f\u9019\u6a23\u7684\u591c\u7a7a\uff0c\u5be7\u975c\uff0c\u795e\u79d8\u3002",
+  "name": "[Background] Starry Sky",
+  "desc": "That night had the very same kind of starry sky, serene and mysterious.",
   "quality": "50",
   "icon": null
  },
  {
   "id": "200255051",
-  "name": "\u3010\u80cc\u666f\u3011\u5927\u96ea\u5c71",
-  "desc": "\u4e00\u671b\u7121\u969b\u7684\u9280\u767d\uff0c\u593e\u96dc\u5bd2\u98a8\u800c\u4f86\u7684\uff0c\u662f\u8f49\u6a5f\uff1f\u9084\u662f\u6bba\u6a5f\uff1f",
+  "name": "[Background] Great Snowy Mountain",
+  "desc": "A boundless expanse of silver-white, accompanied by a biting cold wind. Is this a turning point, or a lethal threat?",
   "quality": "50",
   "icon": null
  },
  {
   "id": "200255052",
-  "name": "\u3010\u80cc\u666f\u3011\u4e2d\u5f0f\u5ef3\u9662",
-  "desc": "\u5b8f\u5927\u3001\u5e7d\u9083\u3001\u4eba\u529b\u3001\u84bc\u53e4\u3001\u6c34\u6cc9\u3001\u773a\u671b\u3002",
+  "name": "[Background] Oriental Courtyard",
+  "desc": "Grand, secluded, manpower, ancient, springwater, an overlooking view.",
   "quality": "50",
   "icon": null
  },
@@ -6558,26 +6614,26 @@ export const gsaItems = [
   "name": "[CG] Yoikasumi Festival",
   "desc": "It really is... so breathtakingly beautiful.",
   "quality": "50",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200260019.webp"
  },
  {
   "id": "200260020",
-  "name": "\u3010CG\u3011\u793e\u4ea4\u665a\u5bb4",
-  "desc": "\u300c\u8b93\u6211\u5011\u597d\u597d\u4eab\u53d7\u4eca\u665a\u7684\u97f3\u6a02\u5427\u3002\u300d",
+  "name": "[CG] Social Gala",
+  "desc": "Let's enjoy tonight's music to the fullest.",
   "quality": "50",
   "icon": null
  },
  {
   "id": "200260021",
-  "name": "\u3010CG\u3011\u7a81\u8972",
-  "desc": "\u300c\u611f\u5230\u69ae\u5e78\u5427, , \u300d",
+  "name": "[CG] Ambush",
+  "desc": "You should feel honored,",
   "quality": "50",
   "icon": null
  },
  {
   "id": "200260022",
-  "name": "\u3010CG\u3011\u85e5\u6d74",
-  "desc": "\u300c\u7684\u85e5\u6d74\u6700\u80fd\u8b93\u4eba\u653e\u9b06\u300d",
+  "name": "[CG] Medicated Bath",
+  "desc": "As expected, nothing is quite as relaxing as your medicinal baths.",
   "quality": "50",
   "icon": null
  },
@@ -6632,302 +6688,302 @@ export const gsaItems = [
  },
  {
   "id": "200270001",
-  "name": "Nightclub Dance Floor",
+  "name": "[HCG] Nightclub Dance Floor",
   "desc": "Who is pressed against Belle's back?",
   "quality": "70",
   "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200270001.webp"
  },
  {
   "id": "200270002",
-  "name": "Soapy Bath",
+  "name": "[HCG] Soapy Bath",
   "desc": "Must smell wonderful.",
   "quality": "70",
   "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200270002.webp"
  },
  {
   "id": "200270003",
-  "name": "On the Job",
+  "name": "[HCG] On the Job",
   "desc": "You're just a cum dumpster for me to use and abuse.",
   "quality": "70",
   "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200270003.webp"
  },
  {
   "id": "200270004",
-  "name": "Struggle",
+  "name": "[HCG] Struggle",
   "desc": "A stage in heat is the most alluring of all.",
   "quality": "70",
   "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200270004.webp"
  },
  {
   "id": "200270005",
-  "name": "Fuyutsuki Kasumi's Footjob",
+  "name": "[HCG] Fuyutsuki Kasumi's Footjob",
   "desc": "Please be a little rougher.",
   "quality": "70",
   "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200270005.webp"
  },
  {
   "id": "200270006",
-  "name": "Streetwalker",
+  "name": "[HCG] Streetwalker",
   "desc": "In broad daylight, you can have pleasure anywhere.",
   "quality": "70",
   "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200270006.webp"
  },
  {
   "id": "200270007",
-  "name": "Surprise Bar",
+  "name": "[HCG] Surprise Bar",
   "desc": "If I wear a mask, no one will recognize me, right?",
   "quality": "70",
   "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200270007.webp"
  },
  {
   "id": "200270008",
-  "name": "Ritual of Purification",
+  "name": "[HCG] Ritual of Purification",
   "desc": "Washed completely clean, from the inside out.",
   "quality": "70",
   "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200270008.webp"
  },
  {
   "id": "200270009",
-  "name": "Maid Cafe",
+  "name": "[HCG] Maid Cafe",
   "desc": "One could happily spend a whole day here, just waiting for a sudden surprise.",
   "quality": "70",
   "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200270009.webp"
  },
  {
   "id": "200270010",
-  "name": "Professional Spirit",
+  "name": "[HCG] Professional Spirit",
   "desc": "If you're not going to obey, then this cock will have to teach you a lesson.",
   "quality": "70",
   "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200270010.webp"
  },
  {
   "id": "200270011",
-  "name": "Bare Skinship",
+  "name": "[HCG] Bare Skinship",
   "desc": "Is a physical examination necessary?",
   "quality": "70",
   "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200270011.webp"
  },
  {
   "id": "200270012",
-  "name": "Naked Banquet",
+  "name": "[HCG] Naked Banquet",
   "desc": "A vessel perfect down to its appearance and blood type still requires rigorous training before it can be \"served.\"",
   "quality": "70",
   "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200270012.webp"
  },
  {
   "id": "200270013",
-  "name": "Photo Album",
+  "name": "[HCG] Photo Album",
   "desc": "Which goddesses had their scandalous photos leaked?",
   "quality": "70",
   "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200270013.webp"
  },
  {
   "id": "200270014",
-  "name": "Rowdy Patron",
+  "name": "[HCG] Rowdy Patron",
   "desc": "Never casually experiment with the pleasure of asphyxiation.",
   "quality": "70",
   "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200270014.webp"
  },
  {
   "id": "200270015",
-  "name": "Underground Auction",
+  "name": "[HCG] Underground Auction",
   "desc": "Behind the glitz and glamour of an idol lies a world of unseen hardships.",
   "quality": "70",
   "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200270015.webp"
  },
  {
   "id": "200270016",
-  "name": "Making a Comeback",
+  "name": "[HCG] Making a Comeback",
   "desc": "Struggling artists must always find ways to reinvent themselves just to survive.",
   "quality": "70",
   "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200270016.webp"
  },
  {
   "id": "200270017",
-  "name": "Honey Trap",
+  "name": "[HCG] Honey Trap",
   "desc": "A gift exclusively for you, wishing only to serve you.",
   "quality": "70",
   "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200270017.webp"
  },
  {
   "id": "200270018",
-  "name": "Kidnapping",
+  "name": "[HCG] Kidnapping",
   "desc": "No matter how you struggle or scream, it is all in vain.",
   "quality": "70",
   "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200270018.webp"
  },
  {
   "id": "200270019",
-  "name": "Bathing",
+  "name": "[HCG] Bathing",
   "desc": "The hot water pours down, washing away exhaustion and settling the mind.",
   "quality": "70",
   "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200270019.webp"
  },
  {
   "id": "200270020",
-  "name": "Illusory Dream",
+  "name": "[HCG] Illusory Dream",
   "desc": "A nightmare from the abyss, tightly coiling and burrowing deep into mind and flesh.",
   "quality": "70",
   "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200270020.webp"
  },
  {
   "id": "200270021",
-  "name": "Shared Afterthoughts",
+  "name": "[HCG] Shared Afterthoughts",
   "desc": "Reading the online reviews, you can only use your imagination to piece together that peak, love-struck experience.",
   "quality": "70",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200270021.webp"
  },
  {
   "id": "200270022",
-  "name": "Crown of Power",
+  "name": "[HCG] Crown of Power",
   "desc": "Welcome to Elysium. All that is a feast for the eyes, the nose, and the palate belongs to me. If you did not know before, you certainly do now.",
   "quality": "70",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200270022.webp"
  },
  {
   "id": "200270023",
-  "name": "Indulgent Training",
+  "name": "[HCG] Indulgent Training",
   "desc": "She thoroughly enjoyed being conquered by such a powerful man, relishing the brutal, primal nature of his treatment.",
   "quality": "70",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200270023.webp"
  },
  {
   "id": "200270024",
-  "name": "Splashdown Paradise",
+  "name": "[Special HCG] Splashdown Paradise",
   "desc": "Take a refreshing dip in that pool.",
   "quality": "70",
   "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200270024.webp"
  },
  {
   "id": "200270025",
-  "name": "Euphoria Live Lounge",
+  "name": "[Special HCG] Euphoria Live Lounge",
   "desc": "Ultimate Whale.",
   "quality": "70",
   "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200270025.webp"
  },
  {
   "id": "200270026",
-  "name": "Chamber of Bondage",
+  "name": "[Special HCG] Chamber of Bondage",
   "desc": "Restrained desire runs high in the dead of night.",
   "quality": "70",
   "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200270026.webp"
  },
  {
   "id": "200270027",
-  "name": "Secret Club",
+  "name": "[Special HCG] Secret Club",
   "desc": "Keep tapping along to the rhythm! This is a luxurious experience reserved for our most distinguished guests.",
   "quality": "70",
   "icon": null
  },
  {
   "id": "200270028",
-  "name": "Top Dealer's VIP Service",
+  "name": "[HCG] Top Dealer's VIP Service",
   "desc": "A premium service you can only enjoy after letting yourself be played for a sucker.",
   "quality": "70",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200270028.webp"
  },
  {
   "id": "200270029",
-  "name": "Side Effects",
+  "name": "[HCG] Side Effects",
   "desc": "The potion's side effects caused reason to be overwhelmed by desire.",
   "quality": "70",
   "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200270029.webp"
  },
  {
   "id": "200270030",
-  "name": "Night Clinic",
+  "name": "[HCG] Night Clinic",
   "desc": "Late at night, the nurse continues tirelessly providing care to her patients.",
   "quality": "70",
   "icon": null
  },
  {
   "id": "200270031",
-  "name": "Dual Cultivation",
+  "name": "[HCG] Dual Cultivation",
   "desc": "Harvesting the Yin to nourish the Yang is the ultimate secret to eternal youth and vitality.",
   "quality": "70",
   "icon": null
  },
  {
   "id": "200270032",
-  "name": "Banquet of Betrayal",
+  "name": "[HCG] Banquet of Betrayal",
   "desc": "At the most romantic candlelit dinner, indulge in the ultimate raw desire and passion.",
   "quality": "70",
   "icon": null
  },
  {
   "id": "200270033",
-  "name": "\u6c99\u7058\u4e0a\u7684\u6027\u611b\u6bd4\u8a66",
-  "desc": "\u4fd7\u8a71\u8aaa\uff1a\u7f8e\u9e97\u7684\u82b1\u6735\u7e3d\u5e36\u523a\uff0c\u5371\u96aa\u7684\u5973\u4eba\u7576\u7136\u4e5f\u6709\u8457\u81f4\u547d\u7684\u5438\u5f15\u529b\u2026\u2026",
+  "name": "[HCG] Beachside Sex Contest",
+  "desc": "As the saying goes, beautiful flowers always have thorns. And dangerous women, of course, have a fatal allure...",
   "quality": "70",
   "icon": null
  },
  {
   "id": "200270034",
-  "name": "\u898b\u8272\u8d77\u610f\u7684\u8b77\u885b",
-  "desc": "\u7cbe\u795e\u840e\u9761\u3001\u8eab\u9ad4\u865b\u5f31\uff0c\u4f46\u662f\u4e0b\u9762\u9084\u662f\u5f88\u6709\u7cbe\u795e\u3002",
+  "name": "[HCG] The Guard Driven by Lust",
+  "desc": "Spiritless and physically weak, but still going strong down below.",
   "quality": "70",
   "icon": null
  },
  {
   "id": "200270035",
-  "name": "\u5c0d\u597d\u7537\u4eba\u7684\u9951\u6e34\u5984\u60f3",
-  "desc": "\u7d93\u6b77\u904e\u77ed\u66ab\u7684\u5408\u4f5c\u8207\u76f8\u8655\u904e\u5f8c\uff0c\u827e\u7433\u5a1c\u770b\u5411\u897f\u5967\u591a\u773c\u795e\u4e0d\u518d\u53ea\u6709\u6b3d\u4f69\uff0c\u9084\u53c3\u96dc\u4e86\u591a\u9918\u7684\u60c5\u611f\u2026\u2026",
+  "name": "[HCG] Lustful Fantasies Over a Good Man",
+  "desc": "After a brief period of cooperation and spending time together, Alyna's gaze toward Theodore no longer held only admiration. There was another, more personal emotion mixed in...",
   "quality": "70",
   "icon": null
  },
  {
   "id": "200270036",
-  "name": "\u672b\u8def\u6fc0\u60c5",
-  "desc": "\u6062\u5fa9\u7cbe\u795e\u7684\u6700\u597d\u65b9\u6cd5\u5c31\u662f\u4f86\u4e00\u767c\u3002",
+  "name": "[HCG] Passion at the End of the Road",
+  "desc": "The best way to recharge your spirits is to get laid.",
   "quality": "70",
   "icon": null
  },
  {
   "id": "200270037",
-  "name": "An Ecstatic Interrogation",
+  "name": "[HCG] An Ecstatic Interrogation",
   "desc": "The price for refusing to cooperate with the investigation is a grueling interrogation that will wring you dry.",
   "quality": "70",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200270037.webp"
  },
  {
   "id": "200270038",
-  "name": "Special Assignment",
+  "name": "[HCG] Special Assignment",
   "desc": "To avoid being swallowed by the abyss of mortal desires, one must first master every depth of them.",
   "quality": "70",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200270038.webp"
  },
  {
   "id": "200270039",
-  "name": "\u9060\u96e2\u5875\u56c2\u7684\u6d6a\u6f2b\u5047\u671f",
-  "desc": "\u5076\u723e\u4e5f\u8a72\u653e\u4e0b\u5fc3\u4e2d\u96dc\u5ff5\u9060\u96e2\u5875\u56c2\uff0c\u76e1\u60c5\u4eab\u53d7\u653e\u9b06\u3001\u5feb\u6d3b\u7684\u5047\u65e5\u3002",
+  "name": "[HCG] A Romantic Getaway",
+  "desc": "Sometimes, you need to set aside your worries, leave the hustle and bustle behind, and fully enjoy a relaxing, carefree holiday.",
   "quality": "70",
   "icon": null
  },
  {
   "id": "200270040",
-  "name": "\u97f3\u6a02\u6027\u4ea4\u6d3e\u5c0d",
-  "desc": "\u5168\u8eab\u5fc3\u90fd\u6c90\u6d74\u5728\u6027\u611b\u8207\u97f3\u6a02\u7684\u72c2\u6b61\u4e4b\u4e2d\u3002",
+  "name": "[HCG] Musical Sex Party",
+  "desc": "Immerse yourself completely in a rapturous celebration of sex and music.",
   "quality": "70",
   "icon": null
  },
  {
   "id": "200270041",
-  "name": "\u8ab2\u5f8c\u8f14\u5c0e",
-  "desc": "\u6c92\u6709\u8001\u5e2b\u7684\u5141\u8a31\u5c31\u4e0d\u80fd\u5c04\u51fa\u4f86\u3002",
+  "name": "[HCG] After-School Tutoring",
+  "desc": "No cumming without the teacher's permission.",
   "quality": "70",
   "icon": null
  },
  {
   "id": "200270042",
-  "name": "\u704c\u7cbe\u88dc\u5145\u967d\u6c23",
-  "desc": "\u6eff\u6eff\u5730\uff0c\u6ce8\u5165\u7d14\u967d\u4e4b\u6db2\u3002",
+  "name": "[HCG] Restoring Yang Energy",
+  "desc": "Fill it to the brim with pure Yang essence.",
   "quality": "70",
   "icon": null
  },
  {
   "id": "200270043",
-  "name": "\u53cd\u566c\u7684\u8831\u6bd2",
-  "desc": "\u8831\u6bd2\u2026\u2026\u4f3c\u4e4e\u4e5f\u6c92\u90a3\u9ebc\u7cdf\u7cd5\u3002",
+  "name": "[HCG] Backlash of the Gu-Poison",
+  "desc": "Gu-poison... honestly doesn't seem all that bad.",
   "quality": "70",
   "icon": null
  },
@@ -6957,7 +7013,7 @@ export const gsaItems = [
   "name": "Lunar Splendor of the Pleasure District",
   "desc": "[Title] The Moonflower fireworks illuminate a place for the drifters to call their own.",
   "quality": "50",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200285003.webp"
  },
  {
   "id": "200285004",
@@ -6983,9 +7039,9 @@ export const gsaItems = [
  {
   "id": "200285007",
   "name": "Ranch Tycoon",
-  "desc": "[Title] Even though you only have one cow, that\u2019s already enough.",
+  "desc": "[Title] Even though you only have one cow, that's already enough.",
   "quality": "50",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200285007.webp"
  },
  {
   "id": "200285008",
@@ -6996,15 +7052,15 @@ export const gsaItems = [
  },
  {
   "id": "200285009",
-  "name": "\u6df7\u6c8c\u4e4b\u6e90",
-  "desc": "X(\u4e0d\u7ffb)\u3010\u7a31\u865f\u3011{\u63cf\u8ff0}",
+  "name": "Origin of Chaos",
+  "desc": "\u3010\u7a31\u865f\u3011\u5167\u5728\u6108\u662f\u90aa\u60e1\uff0c\u5916\u8868\u5c31\u6108\u5149\u660e\u5584\u826f\u3002",
   "quality": "50",
   "icon": null
  },
  {
   "id": "200285010",
-  "name": "X(\u4e0d\u7ffb){\u4e3b\u984c\u6d3b\u52d55\u540d\u7a31}",
-  "desc": "X(\u4e0d\u7ffb)\u3010\u7a31\u865f\u3011{\u63cf\u8ff0}",
+  "name": "\u7aba\u63a2\u6df1\u6df5\u7684\u4ee3\u50f9",
+  "desc": "\u3010\u7a31\u865f\u3011\u7aba\u63a2\u6df1\u6df5\u4e4b\u524d\uff0c\u5c31\u8981\u60f3\u6e05\u695a\u5c07\u8981\u4ed8\u4e0a\u7684\u4ee3\u50f9\u3002",
   "quality": "50",
   "icon": null
  },
@@ -7016,480 +7072,522 @@ export const gsaItems = [
   "icon": null
  },
  {
+  "id": "200285012",
+  "name": "Ephemeral Splendor",
+  "desc": "[Title] Proof of witnessing the Asura.",
+  "quality": "50",
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_200285012.webp"
+ },
+ {
+  "id": "200285013",
+  "name": "Illusive Physician",
+  "desc": "[Title] Proof of completing the prescription.",
+  "quality": "50",
+  "icon": null
+ },
+ {
+  "id": "200285014",
+  "name": "Loving Enforcer",
+  "desc": "[Title] Proof of completing the lesson.",
+  "quality": "50",
+  "icon": null
+ },
+ {
+  "id": "200285015",
+  "name": "Spicy Beer Babe",
+  "desc": "[Title] Proof of becoming a star.",
+  "quality": "50",
+  "icon": null
+ },
+ {
+  "id": "200285016",
+  "name": "Yandere Dual Blades",
+  "desc": "[Title] Proof of a successful date.",
+  "quality": "50",
+  "icon": null
+ },
+ {
+  "id": "200285017",
+  "name": "Phantom Thief Nightplume",
+  "desc": "[Title] Proof of capturing the phantom thief.",
+  "quality": "50",
+  "icon": null
+ },
+ {
   "id": "200970001",
   "name": "[Emoji] Smile",
   "desc": "Default Emoji.",
   "quality": "10",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/emoji_01.webp"
  },
  {
   "id": "200970002",
   "name": "[Sticker] Smile",
   "desc": "Default Emoji.",
   "quality": "10",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/emoji_02.webp"
  },
  {
   "id": "200970003",
   "name": "[Emoji] Silent",
   "desc": "Default Emoji.",
   "quality": "10",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/emoji_03.webp"
  },
  {
   "id": "200970004",
   "name": "[Emoji] Grin",
   "desc": "Default Emoji.",
   "quality": "10",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/emoji_04.webp"
  },
  {
   "id": "200970005",
   "name": "[Sticker] LOL",
   "desc": "Default Emoji.",
   "quality": "10",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/emoji_05.webp"
  },
  {
   "id": "200970006",
   "name": "[Sticker] Pursed Lips",
   "desc": "Default Emoji.",
   "quality": "10",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/emoji_06.webp"
  },
  {
   "id": "200970007",
   "name": "[Sticker] Shock",
   "desc": "Default Emoji.",
   "quality": "10",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/emoji_07.webp"
  },
  {
   "id": "200970008",
   "name": "[Emoji] Angry",
   "desc": "Default Emoji.",
   "quality": "10",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/emoji_08.webp"
  },
  {
   "id": "200970009",
   "name": "[Sticker] Sweat",
   "desc": "Default Emoji.",
   "quality": "10",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/emoji_09.webp"
  },
  {
   "id": "200970010",
   "name": "[Sticker] Silent",
   "desc": "Default Emoji.",
   "quality": "10",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/emoji_10.webp"
  },
  {
   "id": "200970011",
   "name": "[Sticker] Angel",
   "desc": "Default Emoji.",
   "quality": "10",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/emoji_11.webp"
  },
  {
   "id": "200970012",
   "name": "[Sticker] Devil",
   "desc": "Default Emoji.",
   "quality": "10",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/emoji_12.webp"
  },
  {
   "id": "200970013",
   "name": "[Emoji] Sobbing",
   "desc": "Default Emoji.",
   "quality": "10",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/emoji_13.webp"
  },
  {
   "id": "200970014",
   "name": "[Sticker] Starry Eyes",
   "desc": "Default Emoji.",
   "quality": "10",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/emoji_14.webp"
  },
  {
   "id": "200970015",
   "name": "[Sticker] Heart Eyes",
   "desc": "Default Emoji.",
   "quality": "10",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/emoji_15.webp"
  },
  {
   "id": "200970016",
   "name": "[Sticker] Like",
   "desc": "Default Emoji.",
   "quality": "10",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/emoji_16.webp"
  },
  {
   "id": "200970017",
   "name": "[Sticker] Uncomfortable",
   "desc": "Default Emoji.",
   "quality": "10",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/emoji_17.webp"
  },
  {
   "id": "200970018",
   "name": "[Sticker] Disgust",
   "desc": "Default Emoji.",
   "quality": "10",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/emoji_18.webp"
  },
  {
   "id": "200970019",
   "name": "[Sticker] Drool",
   "desc": "Default Emoji.",
   "quality": "10",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/emoji_19.webp"
  },
  {
   "id": "200970020",
   "name": "[Sticker] Clown",
   "desc": "Default Emoji.",
   "quality": "10",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/emoji_20.webp"
  },
  {
   "id": "200970021",
   "name": "[Sticker] Teary",
   "desc": "Default Emoji.",
   "quality": "10",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/emoji_21.webp"
  },
  {
   "id": "200970022",
   "name": "[Emoji] Pouty Face",
   "desc": "Default Emoji.",
   "quality": "10",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/emoji_22.webp"
  },
  {
   "id": "200970023",
   "name": "[Sticker] Teardrop",
   "desc": "Default Emoji.",
   "quality": "10",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/emoji_23.webp"
  },
  {
   "id": "200970024",
   "name": "[Sticker] Pain",
   "desc": "Default Emoji.",
   "quality": "10",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/emoji_24.webp"
  },
  {
   "id": "200970025",
   "name": "[Sticker] Shades",
   "desc": "Default Emoji.",
   "quality": "10",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/emoji_25.webp"
  },
  {
   "id": "200970026",
   "name": "[Sticker] Kitty",
   "desc": "Default Emoji.",
   "quality": "10",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/emoji_26.webp"
  },
  {
   "id": "200970027",
   "name": "[Sticker] Puppy",
   "desc": "Default Emoji.",
   "quality": "10",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/emoji_27.webp"
  },
  {
   "id": "200970028",
   "name": "[Sticker] Contempt",
   "desc": "Default Emoji.",
   "quality": "10",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/emoji_28.webp"
  },
  {
   "id": "200970029",
   "name": "[Sticker] Glasses",
   "desc": "Default Emoji.",
   "quality": "10",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/emoji_29.webp"
  },
  {
   "id": "200970030",
   "name": "[Sticker] Cheeky",
   "desc": "Default Emoji.",
   "quality": "10",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/emoji_30.webp"
  },
  {
   "id": "200970031",
   "name": "[Emoji] Question Mark",
   "desc": "Default Emoji.",
   "quality": "10",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/emoji_31.webp"
  },
  {
   "id": "200970032",
   "name": "[Sticker] Thinking",
   "desc": "Default Emoji.",
   "quality": "10",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/emoji_32.webp"
  },
  {
   "id": "200970033",
   "name": "[Sticker] Chuckle",
   "desc": "Default Emoji.",
   "quality": "10",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/emoji_33.webp"
  },
  {
   "id": "200970034",
   "name": "[Sticker] Sleep",
   "desc": "Default Emoji.",
   "quality": "10",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/emoji_34.webp"
  },
  {
   "id": "200970035",
   "name": "[Sticker] LMAO",
   "desc": "Default Emoji.",
   "quality": "10",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/emoji_35.webp"
  },
  {
   "id": "200970036",
   "name": "[Sticker] Mistake",
   "desc": "Default Emoji.",
   "quality": "10",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/emoji_36.webp"
  },
  {
   "id": "200970037",
   "name": "[Sticker] Injured",
   "desc": "Default Emoji.",
   "quality": "10",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/emoji_37.webp"
  },
  {
   "id": "200970038",
   "name": "[Sticker] Fist",
   "desc": "Default Emoji.",
   "quality": "10",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/emoji_38.webp"
  },
  {
   "id": "200970039",
   "name": "[Emoji] Thumbs Up",
   "desc": "Default Emoji.",
   "quality": "10",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/emoji_39.webp"
  },
  {
   "id": "200970040",
   "name": "[Emoji] Holding Hand",
   "desc": "Default Emoji.",
   "quality": "10",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/emoji_40.webp"
  },
  {
   "id": "200970041",
   "name": "[Emoji] Stars",
   "desc": "Default Emoji.",
   "quality": "10",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/emoji_41.webp"
  },
  {
   "id": "200970042",
   "name": "[Emoji] Heart",
   "desc": "Default Emoji.",
   "quality": "10",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/emoji_42.webp"
  },
  {
   "id": "200970043",
   "name": "[Sticker] Flash",
   "desc": "Default Emoji.",
   "quality": "10",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/emoji_43.webp"
  },
  {
   "id": "200970044",
   "name": "[Sticker] Peeking",
   "desc": "Default Emoji.",
   "quality": "10",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/emoji_44.webp"
  },
  {
   "id": "200970045",
   "name": "[Sticker] Wink",
   "desc": "Default Emoji.",
   "quality": "10",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/emoji_45.webp"
  },
  {
   "id": "200970046",
   "name": "[Sticker] Unhappy",
   "desc": "Default Emoji.",
   "quality": "10",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/emoji_46.webp"
  },
  {
   "id": "200970047",
   "name": "[Sticker] Sneer",
   "desc": "Default Emoji.",
   "quality": "10",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/emoji_47.webp"
  },
  {
   "id": "200970048",
   "name": "[Sticker] Laughing with Tears",
   "desc": "Default Emoji.",
   "quality": "10",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/emoji_48.webp"
  },
  {
   "id": "200970049",
   "name": "[Sticker] Hug",
   "desc": "Default Emoji.",
   "quality": "10",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/emoji_49.webp"
  },
  {
   "id": "200970050",
   "name": "[Sticker] Holding Back Tears",
   "desc": "Default Emoji.",
   "quality": "10",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/emoji_50.webp"
  },
  {
   "id": "200970051",
   "name": "[Sticker] Proud",
   "desc": "Default Emoji.",
   "quality": "10",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/emoji_51.webp"
  },
  {
   "id": "200970052",
   "name": "[Sticker] Melting",
   "desc": "Default Emoji.",
   "quality": "10",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/emoji_52.webp"
  },
  {
   "id": "200970053",
   "name": "[Sticker] Sweat Drop",
   "desc": "Default Emoji.",
   "quality": "10",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/emoji_53.webp"
  },
  {
   "id": "200970054",
   "name": "[Sticker] Blushing",
   "desc": "Default Emoji.",
   "quality": "10",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/emoji_54.webp"
  },
  {
   "id": "200970055",
   "name": "[Sticker] Pensive Regret",
   "desc": "Default Emoji.",
   "quality": "10",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/emoji_55.webp"
  },
  {
   "id": "200970056",
   "name": "[Sticker] Right",
   "desc": "Default Emoji.",
   "quality": "10",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/emoji_56.webp"
  },
  {
   "id": "200970057",
   "name": "[Sticker] Left",
   "desc": "Default Emoji.",
   "quality": "10",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/emoji_57.webp"
  },
  {
   "id": "200970058",
   "name": "[Sticker] Victory",
   "desc": "Default Emoji.",
   "quality": "10",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/emoji_58.webp"
  },
  {
   "id": "200970059",
   "name": "[Sticker] Anguished Frustration",
   "desc": "Default Emoji.",
   "quality": "10",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/emoji_59.webp"
  },
  {
   "id": "200970060",
   "name": "[Sticker] Salute",
   "desc": "Default Emoji.",
   "quality": "10",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/emoji_60.webp"
  },
  {
   "id": "200970061",
   "name": "[Sticker] Monkey Covering Face",
   "desc": "Default Emoji.",
   "quality": "10",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/emoji_61.webp"
  },
  {
   "id": "200970062",
   "name": "[Sticker] Eye Roll",
   "desc": "Default Emoji.",
   "quality": "10",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/emoji_62.webp"
  },
  {
   "id": "200970063",
   "name": "[Sticker] Hot Spring",
   "desc": "Default Emoji.",
   "quality": "10",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/emoji_63.webp"
  },
  {
   "id": "200970064",
   "name": "[Sticker] Vomit",
   "desc": "Default Emoji.",
   "quality": "10",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/emoji_64.webp"
  },
  {
   "id": "200970065",
   "name": "[Sticker] Grinning with a Cold Sweat",
   "desc": "Default Emoji.",
   "quality": "10",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/emoji_65.webp"
  },
  {
   "id": "200970066",
   "name": "[Sticker] Vulgar Remark",
   "desc": "Default Emoji.",
   "quality": "10",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/emoji_66.webp"
  },
  {
   "id": "200970067",
   "name": "[Sticker] Shy Delight",
   "desc": "Default Emoji.",
   "quality": "10",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/emoji_67.webp"
  },
  {
   "id": "200970068",
   "name": "[Sticker] Buffering",
   "desc": "Default Emoji.",
   "quality": "10",
-  "icon": null
+  "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/emoji_68.webp"
  },
  {
   "id": "200980001",
