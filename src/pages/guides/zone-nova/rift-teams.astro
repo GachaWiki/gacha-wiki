@@ -82,48 +82,8 @@ import '../../../styles/games/zone-nova/zn-character.css';
           </div>
         </div>
 
-        <!-- Desktop Table -->
-        <div class="rift-team-table-container">
-          <table class="rift-team-table">
-            <thead>
-              <tr>
-                <th>Team Name</th>
-                <th>Type</th>
-                <th>Tier</th>
-                <th>Map Weakness</th>
-                <th>Character 1</th>
-                <th>Character 2</th>
-                <th>Character 3</th>
-                <th>Character 4</th>
-                <th>Notes</th>
-              </tr>
-            </thead>
-            <tbody id="riftTeamTableBody">
-              <!-- Rift teams will be populated here by JavaScript -->
-              <tr class="no-rift-teams-message">
-                <td
-                  colspan="9"
-                  style="text-align: center; padding: 2rem; color: var(--text-secondary); font-style: italic;"
-                >
-                  Rift team database is currently being populated. Check back soon for specialized
-                  rift compositions!
-                </td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-
-        <!-- Mobile Cards -->
-        <div class="mobile-rift-card-view" id="riftTeamMobileCards">
-          <!-- Mobile cards will be populated here by JavaScript -->
-          <div
-            class="no-rift-teams-message-mobile"
-            style="text-align: center; padding: 2rem; color: var(--text-secondary); font-style: italic;"
-          >
-            Rift team database is currently being populated. Check back soon for specialized rift
-            compositions!
-          </div>
-        </div>
+        <!-- Team sections (one per team, rendered by JavaScript) -->
+        <div class="rift-team-list" id="riftTeamList"></div>
       </div>
     </div>
   </section>

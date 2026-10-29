@@ -25,169 +25,17 @@
   margin: 0 auto;
 }
 
-/* ═══════════════════════════════════════════════════════════════════════ */
-/*                           FILTER & CONTROLS                             */
-/* ═══════════════════════════════════════════════════════════════════════ */
+/* Toolbar + team sections use the shared zn-db-/zn-team- systems (zn-character.css) */
 
-/* Toolbar uses the shared zn-db- system (zn-character.css) */
-
-/* Plain-text helpers for rift rows */
-.mobile-rift-meta {
-  margin: 0.2rem 0 0;
-  color: var(--zn-text-primary);
-  font-size: var(--text-sm);
-}
-
-.character-element {
-  color: var(--zn-text-muted);
-  font-size: var(--text-xs);
-}
+/* Team sections use the shared .zn-team- styles from zn-character.css */
 
 /* ═══════════════════════════════════════════════════════════════════════ */
-/*                            DESKTOP TABLE                                */
+/*                              RESPONSIVE                                 */
 /* ═══════════════════════════════════════════════════════════════════════ */
 
-.rift-team-table-container {
-  overflow-x: auto;
-  margin: 1.5rem auto;
-  padding: 0 1rem;
-  display: block;
-}
-
-table.rift-team-table {
-  width: 100%;
-  border-collapse: separate;
-  border-spacing: 0;
-  background: var(--zn-bg-primary);
-  border-radius: 4px;
-  border: 1px solid var(--zn-border);
-  font-family: var(--font-display), sans-serif;
-}
-
-table.rift-team-table th,
-table.rift-team-table td {
-  padding: 1rem 0.6rem;
-  text-align: center;
-  border-bottom: 1px solid var(--zn-border);
-  vertical-align: middle;
-}
-
-table.rift-team-table th {
-  background: var(--amber-glow);
-  color: #222;
-  font-weight: 700;
-  font-size: var(--text-md);
-  position: sticky;
-  top: 0;
-  z-index: 2;
-}
-
-table.rift-team-table tr {
-  /* No transitions or hover effects */
-}
-
-/* Column Layouts */
-table.rift-team-table th:nth-child(1), /* Team Name */
-table.rift-team-table td:nth-child(1) {
-  width: 12%;
-  min-width: 110px;
-  font-size: var(--text-md);
-  font-weight: 600;
-  line-height: 1.3;
-}
-
-table.rift-team-table th:nth-child(2), /* Type */
-table.rift-team-table td:nth-child(2) {
-  width: 8%;
-  min-width: 90px;
-  padding: 1rem 0.4rem;
-}
-
-table.rift-team-table th:nth-child(3), /* Tier */
-table.rift-team-table td:nth-child(3) {
-  width: 6%;
-  min-width: 70px;
-  padding: 1rem 0.4rem;
-}
-
-table.rift-team-table th:nth-child(4), /* Element Weakness */
-table.rift-team-table td:nth-child(4) {
-  width: 10%;
-  min-width: 120px;
-  text-align: center;
-  padding: 1rem 0.6rem;
-}
-
-table.rift-team-table th:nth-child(5), /* Character 1-4 */
-table.rift-team-table td:nth-child(5),
-table.rift-team-table th:nth-child(6),
-table.rift-team-table td:nth-child(6),
-table.rift-team-table th:nth-child(7),
-table.rift-team-table td:nth-child(7),
-table.rift-team-table th:nth-child(8),
-table.rift-team-table td:nth-child(8) {
-  width: 12%;
-  min-width: 100px;
-  padding: 0.5rem 0.3rem;
-}
-
-table.rift-team-table th:nth-child(9), /* Notes */
-table.rift-team-table td:nth-child(9) {
-  width: auto;
-  min-width: 200px;
-  max-width: none;
-}
-
-/* Element Weakness column specific styling */
-table.rift-team-table th:nth-child(4) {
-  text-align: center;
-}
-
-table.rift-team-table td:nth-child(4) {
-  text-align: center;
-  vertical-align: middle;
-}
-
-/* Notes column specific styling */
-table.rift-team-table th:nth-child(9) {
-  text-align: center;
-}
-
-table.rift-team-table td:nth-child(9) {
-  text-align: left;
-  vertical-align: top;
-  max-width: 300px;
-  word-wrap: break-word;
-  line-height: 1.4;
-  font-size: var(--text-md);
-  padding: 1rem 0.8rem;
-}
-
-
-.mobile-rift-card-weakness {
-  color: var(--zn-text-secondary);
-  font-size: var(--text-md);
-  line-height: 1.4;
-  margin-top: 0.5rem;
-  padding: 0.5rem;
-  background: rgba(255, 183, 77, 0.05);
-  border-radius: 4px;
-  border-left: 3px solid var(--amber-glow);
-}
-
-.mobile-rift-card-weakness strong {
-  color: var(--amber-glow);
-  margin-right: 0.5rem;
-}
-
-/* ═══════════════════════════════════════════════════════════════════════ */
-/*                         RESPONSIVE DESIGN                               */
-/* ═══════════════════════════════════════════════════════════════════════ */
-
-/* Mobile (768px and below) */
 @media (max-width: 768px) {
-  .rift-team-table-container {
-    display: none;
+  .main-content-container {
+    padding: 0 0.5rem;
   }
 
   /* Community Notice Box - Mobile */
@@ -203,56 +51,15 @@ table.rift-team-table td:nth-child(9) {
   .content-wrapper > div[style*='linear-gradient(135deg, #e3f2fd'] p:last-child {
     font-size: var(--text-sm) !important;
   }
-
-  .mobile-rift-card-view {
-    display: block;
-  }
-
-  .main-content-container {
-    padding: 0 0.5rem;
-  }
-
-  .mobile-rift-card-view {
-    padding: 0.5rem;
-    gap: 1rem;
-  }
-
-  .mobile-rift-team-card {
-    padding: 1.5rem;
-    margin-bottom: 1.2rem;
-    border-radius: 4px;
-  }
-
-  .mobile-rift-card-title {
-    font-size: var(--text-lg);
-    font-weight: 700;
-  }
-
-  .mobile-rift-card-characters {
-    gap: 0.8rem;
-    margin-top: 1rem;
-    padding: 0.8rem 0 0.7rem 0;
-    justify-content: space-around;
-  }
-
-  .mobile-character-portrait {
-    width: 55px;
-    height: 55px;
-  }
-
-  .mobile-character-name {
-    font-size: var(--text-xs);
-    max-width: 75px;
-    padding: 0.2rem 0.5rem;
-    margin-bottom: 0.3rem;
-  }
-
 }
 
-/* Small mobile (480px and below) */
 @media (max-width: 480px) {
   .content-wrapper {
     padding: 0;
+  }
+
+  .main-content-container {
+    padding: 0 0.25rem;
   }
 
   /* Community Notice Box - Small Mobile */
@@ -269,73 +76,9 @@ table.rift-team-table td:nth-child(9) {
     font-size: var(--text-xs) !important;
     line-height: 1.3 !important;
   }
-
-  .main-content-container {
-    padding: 0 0.25rem;
-  }
-
-  .mobile-rift-card-view {
-    padding: 0.25rem;
-  }
-
-  .mobile-rift-team-card {
-    padding: 1.2rem;
-    margin-bottom: 1rem;
-    border-radius: 4px;
-  }
-
-  .mobile-rift-card-header {
-    flex-direction: column;
-    align-items: stretch;
-    gap: 0.7rem;
-  }
-
-  .mobile-rift-card-badges {
-    flex-direction: row;
-    align-items: flex-start;
-    flex-wrap: wrap;
-    gap: 0.4rem;
-  }
-
-  .mobile-rift-card-title {
-    font-size: var(--text-base);
-    line-height: 1.3;
-  }
-
-  .mobile-rift-card-characters {
-    gap: 0.7rem;
-    margin-top: 1rem;
-    padding: 0.8rem 0 0.5rem 0;
-    justify-content: space-around;
-  }
-
-  .mobile-character-portrait {
-    width: 50px;
-    height: 50px;
-  }
-
-  .mobile-character-name {
-    font-size: var(--text-3xs);
-    max-width: 65px;
-    padding: 0.15rem 0.3rem;
-    margin-bottom: 0.2rem;
-  }
-
-  .mobile-rift-card-notes {
-    font-size: var(--text-sm);
-    margin-top: 1rem;
-    padding-top: 0.7rem;
-  }
-
 }
 
-/* Tablet (769px to 1024px) */
 @media (max-width: 1024px) and (min-width: 769px) {
-
-  .character-name {
-    font-size: var(--text-xs);
-  }
-
   /* Community Notice Box - Tablet */
   .content-wrapper > div[style*='linear-gradient(135deg, #e3f2fd'] {
     margin: 1.2rem 1rem !important;
@@ -355,11 +98,3 @@ table.rift-team-table td:nth-child(9) {
 /*                        ACCESSIBILITY & PERFORMANCE                      */
 /* ═══════════════════════════════════════════════════════════════════════ */
 
-/* High contrast mode */
-@media (prefers-contrast: high) {
-  .mobile-rift-team-card,
-  table.rift-team-table {
-    border-width: 2px;
-  }
-
-}

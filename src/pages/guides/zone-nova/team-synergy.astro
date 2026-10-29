@@ -54,47 +54,8 @@ import '../../../styles/games/zone-nova/zn-character.css';
           </div>
         </div>
 
-        <!-- Desktop Table -->
-        <div class="team-table-container">
-          <table class="team-table">
-            <thead>
-              <tr>
-                <th>Team Name</th>
-                <th>Type</th>
-                <th>Tier</th>
-                <th>Character 1</th>
-                <th>Character 2</th>
-                <th>Character 3</th>
-                <th>Character 4</th>
-                <th>Notes</th>
-              </tr>
-            </thead>
-            <tbody id="teamTableBody">
-              <!-- Teams will be populated here by JavaScript -->
-              <tr class="no-teams-message">
-                <td
-                  colspan="8"
-                  style="text-align: center; padding: 2rem; color: var(--text-secondary); font-style: italic;"
-                >
-                  Team database is currently being populated. Check back soon for comprehensive team
-                  compositions!
-                </td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-
-        <!-- Mobile Cards -->
-        <div class="mobile-card-view" id="teamMobileCards">
-          <!-- Mobile cards will be populated here by JavaScript -->
-          <div
-            class="no-teams-message-mobile"
-            style="text-align: center; padding: 2rem; color: var(--text-secondary); font-style: italic;"
-          >
-            Team database is currently being populated. Check back soon for comprehensive team
-            compositions!
-          </div>
-        </div>
+        <!-- Team sections (one per team, rendered by JavaScript) -->
+        <div class="team-list" id="teamList"></div>
       </div>
     </div>
   </section>

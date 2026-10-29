@@ -7,8 +7,15 @@ import {
   sortTeams,
   getTeamTypeText,
   getTeamTierText,
-  truncateText,
 } from './team-synergy.js';
+
+// On dev the middleware only rewrites server-rendered HTML to /__gwimg/;
+// client-injected portraits must route through the proxy manually.
+const R2_IMG_HOST = 'https://k2b1c5ab57ed98e51.gachawiki.info/';
+const teamImgSrc = url =>
+  import.meta.env.DEV && url && url.startsWith(R2_IMG_HOST)
+    ? '/__gwimg/' + url.slice(R2_IMG_HOST.length)
+    : url;
 
 import { ZONE_NOVA_CHARACTERS } from './characters.js';
 
@@ -163,69 +170,14 @@ function applyFiltersAndSort() {
   updateTeamCount();
 }
 
-// Render teams in both desktop table and mobile cards
+// Render teams as one section per team (shared layout for all viewports)
 function renderTeams() {
-  renderDesktopTable();
-  renderMobileCards();
-}
-
-// Render desktop table
-function renderDesktopTable() {
-  const tableBody = document.getElementById('teamTableBody');
-  if (!tableBody) return;
+  const list = document.getElementById('teamList');
+  if (!list) return;
 
   if (currentTeams.length === 0) {
-    tableBody.innerHTML = `
-      <tr class="no-teams-message">
-        <td colspan="8" style="text-align: center; padding: 2rem; color: var(--text-secondary); font-style: italic;">
-          ${
-            ZONE_NOVA_TEAMS.length === 0
-              ? 'Team database is currently being populated. Check back soon for comprehensive team compositions!'
-              : 'No teams match the current filters. Try adjusting your filter criteria.'
-          }
-        </td>
-      </tr>
-    `;
-    return;
-  }
-
-  tableBody.innerHTML = currentTeams
-    .map(
-      team => `
-    <tr>
-      <td><strong>${team.name}</strong></td>
-      <td>${getTeamTypeText(team.type)}</td>
-      <td>${getTeamTierText(team.tier)}</td>
-      ${team.characters
-        .map(char => {
-          const element = getCharacterElement(char.name);
-          return `
-          <td>
-            <div class="character-cell">
-              <img src="${char.image}" alt="${char.name}" class="character-portrait" loading="lazy" />
-              <span class="character-name">${char.name}</span>
-              ${element ? `<span class="character-element">${element}</span>` : ''}
-            </div>
-          </td>
-        `;
-        })
-        .join('')}
-      ${team.characters.length < 4 ? '<td>-</td>'.repeat(4 - team.characters.length) : ''}
-      <td>${truncateText(team.notes, 150)}</td>
-    </tr>
-  `
-    )
-    .join('');
-}
-
-// Render mobile cards
-function renderMobileCards() {
-  const mobileContainer = document.getElementById('teamMobileCards');
-  if (!mobileContainer) return;
-
-  if (currentTeams.length === 0) {
-    mobileContainer.innerHTML = `
-      <div class="no-teams-message-mobile">
+    list.innerHTML = `
+      <div class="zn-team-empty">
         ${
           ZONE_NOVA_TEAMS.length === 0
             ? 'Team database is currently being populated. Check back soon for comprehensive team compositions!'
@@ -236,33 +188,30 @@ function renderMobileCards() {
     return;
   }
 
-  mobileContainer.innerHTML = currentTeams
+  list.innerHTML = currentTeams
     .map(
       team => `
-    <div class="mobile-team-card">
-      <div class="mobile-card-header">
-        <h3 class="mobile-card-title">${team.name}</h3>
-        <p class="mobile-team-meta">${getTeamTypeText(team.type)}, ${getTeamTierText(team.tier)}</p>
+    <section class="zn-team-section">
+      <div class="zn-team-head">
+        <h3 class="zn-team-name">${team.name}</h3>
+        <p class="zn-team-meta">${getTeamTypeText(team.type)}, ${getTeamTierText(team.tier)} Tier</p>
       </div>
-      
-      <div class="mobile-card-characters">
+      <div class="zn-team-members">
         ${team.characters
-          .map((char, index) => {
+          .map(char => {
             const element = getCharacterElement(char.name);
             return `
-            <div class="mobile-character-item">
-              <div class="character-position">${index + 1}</div>
-              <img src="${char.image}" alt="${char.name}" class="mobile-character-portrait" loading="lazy" />
-              <span class="mobile-character-name">${char.name}</span>
+            <div class="zn-team-member">
+              <img src="${teamImgSrc(char.image)}" alt="${char.name}" class="zn-team-member-img" loading="lazy" width="64" height="64" />
+              <span class="zn-team-member-name">${char.name}</span>
               ${element ? `<span class="character-element">${element}</span>` : ''}
             </div>
           `;
           })
           .join('')}
       </div>
-      
-      ${team.notes ? `<div class="mobile-card-notes">${team.notes}</div>` : ''}
-    </div>
+      ${team.notes ? `<p class="zn-team-notes">${team.notes}</p>` : ''}
+    </section>
   `
     )
     .join('');
@@ -275,28 +224,4 @@ function updateTeamCount() {
   const visible = currentTeams.length;
   const total = ZONE_NOVA_TEAMS.length;
   countEl.textContent = visible === total ? `${total} teams` : `${visible} of ${total} teams`;
-}
-
-// Function to handle responsive table/card switching
-function handleResponsiveDisplay() {
-  const tableContainer = document.querySelector('.team-table-container');
-  const mobileContainer = document.querySelector('.mobile-card-view');
-
-  if (!tableContainer || !mobileContainer) return;
-
-  const isMobile = window.innerWidth <= 768;
-
-  if (isMobile) {
-    tableContainer.style.display = 'none';
-    mobileContainer.style.display = 'block';
-  } else {
-    tableContainer.style.display = 'block';
-    mobileContainer.style.display = 'none';
-  }
-}
-
-// Set up responsive display handling
-if (typeof window !== 'undefined') {
-  window.addEventListener('resize', handleResponsiveDisplay);
-  document.addEventListener('DOMContentLoaded', handleResponsiveDisplay);
 }

@@ -230,6 +230,79 @@
   display: none;
 }
 
+/* Team sections: one card per team, shared by team-synergy + rift-teams */
+.zn-team-section {
+  background: var(--zn-bg-secondary);
+  border: 1px solid var(--zn-border);
+  border-radius: 12px;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.9rem;
+}
+
+.zn-team-name {
+  margin: 0;
+  color: var(--amber-glow);
+  font-size: var(--text-lg);
+  font-weight: 700;
+}
+
+.zn-team-meta {
+  margin: 0.25rem 0 0.75rem;
+  color: var(--zn-text-primary);
+  font-size: var(--text-sm);
+}
+
+.zn-team-members {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.zn-team-member {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.25rem;
+  min-width: 84px;
+}
+
+.zn-team-member-img {
+  width: 64px;
+  height: 64px;
+  border-radius: 8px;
+  border: 1px solid var(--amber-glow);
+  object-fit: cover;
+}
+
+.zn-team-member-name {
+  color: var(--zn-text-primary);
+  font-size: var(--text-sm);
+  font-weight: 600;
+  text-align: center;
+}
+
+.zn-team-notes {
+  margin: 0.75rem 0 0;
+  color: var(--zn-text-primary);
+  font-size: var(--text-sm);
+  line-height: 1.5;
+}
+
+.zn-team-empty {
+  text-align: center;
+  padding: 2rem;
+  color: var(--zn-text-muted);
+  font-style: italic;
+  background: var(--zn-bg-secondary);
+  border: 1px solid var(--zn-border);
+  border-radius: 12px;
+}
+
+.character-element {
+  color: var(--zn-text-muted);
+  font-size: var(--text-xs);
+}
+
 /* Desktop table */
 .character-table-container {
   overflow-x: auto;
@@ -570,6 +643,23 @@ table.character-table tr {
     width: 100%;
     height: 44px; /* Larger touch target */
     font-size: var(--text-md); /* Slightly larger text */
+  }
+
+  .zn-team-section {
+    padding: 0.8rem;
+  }
+
+  .zn-team-members {
+    gap: 0.6rem;
+  }
+
+  .zn-team-member {
+    min-width: 72px;
+  }
+
+  .zn-team-member-img {
+    width: 56px;
+    height: 56px;
   }
 
   .main-content-container {

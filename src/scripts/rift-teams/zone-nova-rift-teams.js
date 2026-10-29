@@ -7,7 +7,6 @@ import {
   sortRiftTeams,
   getRiftTeamTypeText,
   getRiftTeamTierText,
-  truncateRiftText,
 } from '../../data/zone-nova/rift-teams.js';
 
 import { ZONE_NOVA_CHARACTERS } from '../../data/zone-nova/characters.js';
@@ -27,6 +26,14 @@ function getCharacterElement(characterName) {
   characterElementCache.set(characterName, element);
   return element;
 }
+
+// On dev the middleware only rewrites server-rendered HTML to /__gwimg/;
+// client-injected portraits must route through the proxy manually.
+const R2_IMG_HOST = 'https://k2b1c5ab57ed98e51.gachawiki.info/';
+const riftImgSrc = url =>
+  import.meta.env.DEV && url && url.startsWith(R2_IMG_HOST)
+    ? '/__gwimg/' + url.slice(R2_IMG_HOST.length)
+    : url;
 
 // Function to escape HTML to prevent XSS
 function escapeHtml(text) {
@@ -59,7 +66,6 @@ export function initializeRiftTeamDatabase() {
   setupRiftFilterListeners();
   setupRiftSortListeners();
   setupRiftResetListener();
-  setupResponsiveListeners();
 
   // Initial render
   renderRiftTeams();
@@ -170,8 +176,7 @@ function resetRiftFilterElements() {
 
 // Cache DOM elements for performance
 let cachedSortButtons = null;
-let cachedTableBody = null;
-let cachedMobileContainer = null;
+let cachedTeamList = null;
 
 // Update sort button active states
 function updateRiftSortButtonStates() {
@@ -215,74 +220,16 @@ function updateRiftTeamCount() {
   countEl.textContent = visible === total ? `${total} teams` : `${visible} of ${total} teams`;
 }
 
-// Render rift teams in both desktop table and mobile cards
+// Render rift teams as one section per team (shared layout for all viewports)
 function renderRiftTeams() {
-  renderRiftDesktopTable();
-  renderRiftMobileCards();
-}
-
-// Render desktop table
-function renderRiftDesktopTable() {
-  if (!cachedTableBody) {
-    cachedTableBody = document.getElementById('riftTeamTableBody');
+  if (!cachedTeamList) {
+    cachedTeamList = document.getElementById('riftTeamList');
   }
-  if (!cachedTableBody) return;
+  if (!cachedTeamList) return;
 
   if (currentRiftTeams.length === 0) {
-    cachedTableBody.innerHTML = `
-      <tr class="no-rift-teams-message">
-        <td colspan="9" style="text-align: center; padding: 2rem; color: var(--text-secondary); font-style: italic;">
-          ${
-            ZONE_NOVA_RIFT_TEAMS.length === 0
-              ? 'Rift team database is currently being populated. Check back soon for comprehensive rift team compositions!'
-              : 'No rift teams match the current filters. Try adjusting your filter criteria.'
-          }
-        </td>
-      </tr>
-    `;
-    return;
-  }
-
-  cachedTableBody.innerHTML = currentRiftTeams
-    .map(
-      team => `
-    <tr>
-      <td><strong>${escapeHtml(team.name)}</strong></td>
-      <td>${escapeHtml(getRiftTeamTypeText(team.type))}</td>
-      <td>${escapeHtml(getRiftTeamTierText(team.tier))}</td>
-      <td>${team.elementWeakness ? team.elementWeakness.map(element => escapeHtml(element)).join(', ') : '-'}</td>
-      ${team.characters
-        .map(char => {
-          const element = getCharacterElement(char.name);
-          return `
-          <td>
-            <div class="character-cell">
-              <img src="${escapeHtml(char.image)}" alt="${escapeHtml(char.name)}" class="character-portrait" loading="lazy" />
-              <span class="character-name">${escapeHtml(char.name)}</span>
-              ${element ? `<span class="character-element">${escapeHtml(element)}</span>` : ''}
-            </div>
-          </td>
-        `;
-        })
-        .join('')}
-      ${team.characters.length < 4 ? '<td>-</td>'.repeat(4 - team.characters.length) : ''}
-      <td>${escapeHtml(truncateRiftText(team.notes, 150))}</td>
-    </tr>
-  `
-    )
-    .join('');
-}
-
-// Render mobile cards
-function renderRiftMobileCards() {
-  if (!cachedMobileContainer) {
-    cachedMobileContainer = document.getElementById('riftTeamMobileCards');
-  }
-  if (!cachedMobileContainer) return;
-
-  if (currentRiftTeams.length === 0) {
-    cachedMobileContainer.innerHTML = `
-      <div class="no-rift-teams-message-mobile">
+    cachedTeamList.innerHTML = `
+      <div class="zn-team-empty">
         ${
           ZONE_NOVA_RIFT_TEAMS.length === 0
             ? 'Rift team database is currently being populated. Check back soon for comprehensive rift team compositions!'
@@ -293,34 +240,36 @@ function renderRiftMobileCards() {
     return;
   }
 
-  cachedMobileContainer.innerHTML = currentRiftTeams
+  cachedTeamList.innerHTML = currentRiftTeams
     .map(
       team => `
-    <div class="mobile-rift-team-card">
-      <div class="mobile-rift-card-header">
-        <h3 class="mobile-rift-card-title">${escapeHtml(team.name)}</h3>
-        <p class="mobile-rift-meta">${escapeHtml(getRiftTeamTypeText(team.type))}, ${escapeHtml(getRiftTeamTierText(team.tier))}</p>
+    <section class="zn-team-section">
+      <div class="rift-team-head">
+        <h3 class="zn-team-name">${escapeHtml(team.name)}</h3>
+        <p class="zn-team-meta">
+          ${escapeHtml(getRiftTeamTypeText(team.type))}, ${escapeHtml(getRiftTeamTierText(team.tier))} Tier${
+            team.elementWeakness
+              ? `, Weakness: ${team.elementWeakness.map(element => escapeHtml(element)).join(', ')}`
+              : ''
+          }
+        </p>
       </div>
-      
-      <div class="mobile-rift-card-characters">
+      <div class="zn-team-members">
         ${team.characters
-          .map((char, index) => {
+          .map(char => {
             const element = getCharacterElement(char.name);
             return `
-            <div class="mobile-character-item">
-              <div class="character-position">${index + 1}</div>
-              <img src="${escapeHtml(char.image)}" alt="${escapeHtml(char.name)}" class="mobile-character-portrait" loading="lazy" />
-              <span class="mobile-character-name">${escapeHtml(char.name)}</span>
+            <div class="zn-team-member">
+              <img src="${escapeHtml(riftImgSrc(char.image))}" alt="${escapeHtml(char.name)}" class="zn-team-member-img" loading="lazy" width="64" height="64" />
+              <span class="zn-team-member-name">${escapeHtml(char.name)}</span>
               ${element ? `<span class="character-element">${escapeHtml(element)}</span>` : ''}
             </div>
           `;
           })
           .join('')}
       </div>
-      
-      ${team.elementWeakness ? `<div class="mobile-rift-card-weakness"><strong>Map Weakness:</strong> ${team.elementWeakness.map(element => escapeHtml(element)).join(', ')}</div>` : ''}
-      ${team.notes ? `<div class="mobile-rift-card-notes">${escapeHtml(team.notes)}</div>` : ''}
-    </div>
+      ${team.notes ? `<p class="zn-team-notes">${escapeHtml(team.notes)}</p>` : ''}
+    </section>
   `
     )
     .join('');
@@ -366,36 +315,4 @@ export function setRiftSort(key, direction = 'asc') {
   currentRiftSort = { key, direction };
   updateRiftSortButtonStates();
   applyRiftFiltersAndSort();
-}
-
-// Function to handle responsive table/card switching
-function handleRiftResponsiveDisplay() {
-  const tableContainer = document.querySelector('.rift-team-table-container');
-  const mobileContainer = document.querySelector('.mobile-rift-card-view');
-
-  if (!tableContainer || !mobileContainer) return;
-
-  const isMobile = window.innerWidth <= 768;
-
-  if (isMobile) {
-    tableContainer.style.display = 'none';
-    mobileContainer.style.display = 'block';
-  } else {
-    tableContainer.style.display = 'block';
-    mobileContainer.style.display = 'none';
-  }
-}
-
-// Set up responsive display handling
-function setupResponsiveListeners() {
-  if (typeof window !== 'undefined') {
-    // Store resize listener for cleanup
-    const resizeHandler = handleRiftResponsiveDisplay;
-
-    window.addEventListener('resize', resizeHandler);
-    eventListeners.push({ element: window, event: 'resize', handler: resizeHandler });
-
-    // Initial call to set correct display
-    handleRiftResponsiveDisplay();
-  }
 }
