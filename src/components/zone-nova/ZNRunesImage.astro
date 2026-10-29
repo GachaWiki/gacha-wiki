@@ -20,6 +20,8 @@ const setAliases: Record<string, string[]> = {
   Anemos: ['Anemos'],
   Hepha: ['Hepha'],
   Skota: ['Skota'],
+  Aether: ['Aether'],
+  Harmonia: ['Harmonia'],
 };
 
 const runeImageMap: Record<string, string> = {};
@@ -50,7 +52,10 @@ if (imageKey && !imageKey.includes('.')) {
   imageKey = `${imageKey}.jpg`;
 }
 
-const imageSrc = runeImageMap[imageKey] || `${R2}/Alpha.webp`;
+// Unknown set names try their own file before giving up — never silently
+// fall back to Alpha's icon (that hid the wrong-icon bug for the new sets).
+const imageSrc =
+  runeImageMap[imageKey] || `${R2}/${imageKey.replace(/\.(jpg|jpeg|png|webp)$/i, '')}.webp`;
 ---
 
 <img
