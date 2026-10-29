@@ -9,15 +9,6 @@ export const prerender = true;
 
 // Get all character builds and sort them
 const allBuilds = Object.values(ALL_CHARACTER_BUILDS).sort((a, b) => a.name.localeCompare(b.name));
-
-// Helper function to get badge class names
-function getElementBadgeClass(element) {
-  return `element-badge ${element?.toLowerCase() || 'unknown'}`;
-}
-
-function getRarityBadgeClass(rarity) {
-  return `rarity-badge ${rarity?.toLowerCase() || 'unknown'}`;
-}
 ---
 
 <CharacterBuildsIndexLayout
@@ -62,19 +53,11 @@ function getRarityBadgeClass(rarity) {
               </div>
             </div>
 
-            <div class="character-card-badges">
-              <span class={getRarityBadgeClass(build.character?.rarity)}>
-                {build.character?.rarity || 'N/A'}
-              </span>
-
-              <span class={getElementBadgeClass(build.character?.element)}>
-                {build.character?.element || 'N/A'}
-              </span>
-
-              <span class={`role-badge ${build.role?.toLowerCase() || 'unknown'}`}>
-                {build.role}
-              </span>
-            </div>
+            <p class="character-card-meta">
+              {[build.character?.rarity, build.character?.element, build.role]
+                .filter(Boolean)
+                .join(', ')}
+            </p>
 
             <div class="character-card-preview">
               <>
@@ -88,18 +71,8 @@ function getRarityBadgeClass(rarity) {
               <div style="color: var(--zn-text-tertiary); font-size: var(--text-sm); margin-bottom: 0.5rem;">
                 Key Features:
               </div>
-              <div style="display: flex; flex-wrap: wrap; gap: 0.25rem;">
-                {build.character?.tags?.slice(0, 3).map(tag => (
-                  <span
-                    style="background-color: var(--zn-bg-tertiary);
-                           color: var(--zn-text-secondary);
-                           padding: 0.2rem 0.4rem;
-                           border-radius: 2px;
-                           font-size: var(--text-2xs);"
-                  >
-                    {tag}
-                  </span>
-                ))}
+              <div class="character-card-tags">
+                {build.character?.tags?.slice(0, 3).join(', ') || 'N/A'}
               </div>
             </div>
 

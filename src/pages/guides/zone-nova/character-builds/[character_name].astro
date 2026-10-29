@@ -218,15 +218,6 @@ import { ZONE_NOVA_MEMORIES } from '../../../../data/zone-nova/memories.js';
 const memoriesByName = new Map(ZONE_NOVA_MEMORIES.map(card => [card.name.trim(), card.detailUrl]));
 const getMemoryCardUrl = (name: string) => memoryCardUrls[name] || memoriesByName.get((name || '').trim()) || null;
 
-// Helper function to get badge class names
-function getElementBadgeClass(element) {
-  return `element-badge ${element?.toLowerCase() || 'unknown'}`;
-}
-
-function getRarityBadgeClass(rarity) {
-  return `rarity-badge ${rarity?.toLowerCase() || 'unknown'}`;
-}
-
 // Generate page title
 const pageTitle = `${finalCharacter.name} Build Guide - Zone Nova`;
 const pageDescription = `Complete build guide for ${finalCharacter.name} in Zone Nova. Optimal equipment, skill priorities, memory cards, and team compositions.`;
@@ -264,22 +255,11 @@ const pageDescription = `Complete build guide for ${finalCharacter.name} in Zone
       </div>
     </div>
 
-    <div style="display: flex; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 1rem;">
-      <span class={getRarityBadgeClass(finalCharacter.rarity)}>
-        {finalCharacter.rarity}
-      </span>
-      <span class={getElementBadgeClass(finalCharacter.element)}>
-        {finalCharacter.element}
-      </span>
-      <span
-        class={`class-badge ${finalCharacter.class?.toLowerCase().replace(' ', '-') || 'unknown'}`}
-      >
-        {finalCharacter.class}
-      </span>
-      <span class={`role-badge ${finalCharacter.role?.toLowerCase() || 'unknown'}`}>
-        {finalCharacter.role}
-      </span>
-    </div>
+    <p class="character-card-meta">
+      {[finalCharacter.rarity, finalCharacter.element, finalCharacter.class, finalCharacter.role]
+        .filter(Boolean)
+        .join(', ')}
+    </p>
 
     <p style="color: var(--zn-text-primary); font-size: var(--text-lg); line-height: 1.6;">
       {finalBuild.description}
@@ -400,13 +380,7 @@ const pageDescription = `Complete build guide for ${finalCharacter.name} in Zone
                       )}
                     </div>
                     {card.priority && (
-                      <div>
-                        <span
-                          class={`memory-card-badge ${card.priority.toLowerCase().replace(/\s+/g, '-')}`}
-                        >
-                          {card.priority}
-                        </span>
-                      </div>
+                      <span class="memory-card-priority">{card.priority}</span>
                     )}
                   </div>
                   <div class="memory-card-effect">{card.description || card.effect}</div>
