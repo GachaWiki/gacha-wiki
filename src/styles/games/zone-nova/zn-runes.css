@@ -92,17 +92,11 @@
 .rune-tag {
   font-size: var(--text-2xs);
   font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
   color: var(--zn-primary-amber);
-  background: rgba(245, 185, 66, 0.1);
-  border: 1px solid rgba(245, 185, 66, 0.3);
-  border-radius: 999px;
-  padding: 0.15rem 0.6rem;
 }
 
 .rune-bonus {
-  color: var(--zn-text-secondary);
+  color: var(--zn-text-primary);
   font-size: var(--text-md);
   line-height: 1.6;
   margin: 0 0 0.6rem;
