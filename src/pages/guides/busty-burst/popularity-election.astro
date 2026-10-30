@@ -1,7 +1,8 @@
 ---
 // Busty Burst Fantasy - JP anniversary Paladin Popularity Election results page
 import BannerTimelineLayout from '../../../layouts/busty-burst/BannerTimelineLayout.astro';
-import { ELECTIONS } from '../../../data/busty-burst/election.js';
+import { ELECTIONS, ELECTION_ART_DIMS } from '../../../data/busty-burst/election.js';
+import { R2, ELECTION_ART } from '../../../components/busty-burst/bb-r2';
 
 const fmt = (n) => n.toLocaleString('en-US');
 ---
@@ -23,6 +24,16 @@ const fmt = (n) => n.toLocaleString('en-US');
       const srMax = el.sr[0].votes;
       return (
         <div class="bb-elect-card">
+          {el.banner && (
+            <img
+              class="bb-elect-banner"
+              src={`${R2}/x/${el.banner.tid}-1.webp`}
+              alt={`${el.name} key visual`}
+              width={el.banner.w}
+              height={el.banner.h}
+              loading="lazy"
+            />
+          )}
           <div class="bb-elect-card-head">
             <h3 class="bb-elect-card-title">{el.name}</h3>
             <span class="bb-elect-jp">{el.jpName}</span>
@@ -32,37 +43,68 @@ const fmt = (n) => n.toLocaleString('en-US');
             <span class="bb-elect-dot">&bull;</span>
             <span class="bb-elect-dates">{el.ticketLine}</span>
           </div>
-          <div class="bb-elect-winner-notes">
-            <span class="bb-elect-chip bb-elect-chip-ssr">{el.ssrWinnerNote}</span>
-            <span class="bb-elect-chip bb-elect-chip-sr">{el.srWinnerNote}</span>
-          </div>
           <div class="bb-elect-groups">
             {[
-              { label: 'SSR Group', rows: el.ssr, max: ssrMax, chipClass: 'bb-elect-rank-chip-ssr' },
-              { label: 'SR Group', rows: el.sr, max: srMax, chipClass: 'bb-elect-rank-chip-sr' },
-            ].map((group) => (
-              <div class="bb-elect-group">
-                <h4 class="bb-elect-group-title">{group.label}</h4>
-                <ol class="bb-elect-list">
-                  {group.rows.map((row) => (
-                    <li class:list={['bb-elect-row', { 'bb-elect-row-winner': row.rank === 1 }]}>
-                      <span class:list={['bb-elect-rank-chip', group.chipClass, { 'bb-elect-rank-chip-first': row.rank === 1 }]}>{row.rank}</span>
-                      <span class="bb-elect-name">
-                        {row.slug ? (
-                          <a href={`/guides/busty-burst/characters/${row.slug}/`}>{row.name}</a>
-                        ) : (
-                          row.name
-                        )}
-                      </span>
-                      <span class="bb-elect-bar-wrap">
-                        <span class="bb-elect-bar" style={`width: ${(row.votes / group.max) * 100}%`}></span>
-                      </span>
-                      <span class="bb-elect-votes">{fmt(row.votes)}</span>
-                    </li>
-                  ))}
-                </ol>
-              </div>
-            ))}
+              { label: 'SSR Group', rows: el.ssr, max: ssrMax, note: el.ssrWinnerNote },
+              { label: 'SR Group', rows: el.sr, max: srMax, note: el.srWinnerNote },
+            ].map((group) => {
+              const winnerKey = group.rows[0].art;
+              const winnerDims = winnerKey && ELECTION_ART.has(winnerKey) ? ELECTION_ART_DIMS[winnerKey] : null;
+              const art = winnerDims
+                ? { src: `${R2}/election/rows/${winnerKey}.webp`, w: winnerDims[0], h: winnerDims[1] }
+                : null;
+              return (
+                <div class="bb-elect-group">
+                  <h4 class="bb-elect-group-title">{group.label}</h4>
+                  <div class="bb-elect-winner">
+                    {art && (
+                      <img
+                        class="bb-elect-winner-img"
+                        src={art.src}
+                        alt={`${group.rows[0].name} card art`}
+                        width={art.w}
+                        height={art.h}
+                        loading="lazy"
+                      />
+                    )}
+                    <p class="bb-elect-winner-note">{group.note}</p>
+                  </div>
+                  <ol class="bb-elect-list">
+                    {group.rows.map((row) => {
+                      const rd = row.art && ELECTION_ART.has(row.art) ? ELECTION_ART_DIMS[row.art] : null;
+                      return (
+                        <li class:list={['bb-elect-row', { 'bb-elect-row-winner': row.rank === 1 }]}>
+                          <span class:list={['bb-elect-rank', { 'bb-elect-rank-first': row.rank === 1 }]}>{row.rank}</span>
+                          <span class="bb-elect-name">
+                            {rd && (
+                              <img
+                                class="bb-elect-row-img"
+                                src={`${R2}/election/rows/${row.art}.webp`}
+                                alt=""
+                                width={rd[0]}
+                                height={rd[1]}
+                                loading="lazy"
+                              />
+                            )}
+                            <span class="bb-elect-name-text">
+                              {row.slug ? (
+                                <a href={`/guides/busty-burst/characters/${row.slug}/`}>{row.name}</a>
+                              ) : (
+                                row.name
+                              )}
+                            </span>
+                          </span>
+                          <span class="bb-elect-bar-wrap">
+                            <span class="bb-elect-bar" style={`width: ${(row.votes / group.max) * 100}%`}></span>
+                          </span>
+                          <span class="bb-elect-votes">{fmt(row.votes)}</span>
+                        </li>
+                      );
+                    })}
+                  </ol>
+                </div>
+              );
+            })}
           </div>
           <div class="bb-elect-detail">
             <p class="bb-elect-detail-line">{el.rewards}</p>
@@ -77,11 +119,16 @@ const fmt = (n) => n.toLocaleString('en-US');
               </p>
             )}
             <p class="bb-elect-detail-line">Some Paladins were excluded from voting. The SR group covered Burst-original SR Paladins only.</p>
+            <p class="bb-elect-detail-line">
+              Sources: <a href={el.jpWikiUrl}>JP wiki event page</a>{el.xPosts.map((p) => (
+                <>, <a href={p.url}>{p.label}</a></>
+              ))}.
+            </p>
           </div>
         </div>
       );
     })}
-    <p class="bb-elect-footnote">Vote counts from the official in-game results notice. Unlinked names have not released on the EN server yet.</p>
+    <p class="bb-elect-footnote">Vote counts from the official in-game results notice. Card art is from the JP wiki, key visuals from the official X posts. Unlinked names have not released on the EN server yet.</p>
   </section>
 </BannerTimelineLayout>
 
@@ -109,6 +156,14 @@ const fmt = (n) => n.toLocaleString('en-US');
     line-height: 1.6;
     margin: 0 0 8px;
     color: rgba(255, 255, 255, 0.82);
+  }
+  .bb-elect-banner {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.09);
+    margin: 0 0 14px;
   }
   .bb-elect-card-head {
     display: flex;
@@ -140,22 +195,6 @@ const fmt = (n) => n.toLocaleString('en-US');
     font-size: var(--text-xs);
     color: rgba(255, 255, 255, 0.35);
   }
-  .bb-elect-winner-notes {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 8px;
-    margin: 0 0 16px;
-  }
-  .bb-elect-chip {
-    display: inline-block;
-    border-radius: 5px;
-    padding: 4px 10px;
-    font-size: var(--text-xs);
-    font-weight: 700;
-    color: #ffffff;
-  }
-  .bb-elect-chip-ssr { background: #b8860b; }
-  .bb-elect-chip-sr { background: #4878a8; }
   .bb-elect-groups {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(440px, 1fr));
@@ -164,6 +203,28 @@ const fmt = (n) => n.toLocaleString('en-US');
   .bb-elect-group-title {
     font-size: var(--text-base);
     margin: 0 0 8px;
+  }
+  .bb-elect-winner {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin: 0 0 12px;
+  }
+  .bb-elect-winner-img {
+    height: 150px;
+    width: auto;
+    display: block;
+    flex: none;
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.09);
+    background: rgba(255, 255, 255, 0.03);
+  }
+  .bb-elect-winner-note {
+    font-size: var(--text-sm);
+    color: rgba(255, 255, 255, 0.82);
+    line-height: 1.6;
+    margin: 0;
+    flex: 1;
   }
   .bb-elect-list {
     list-style: none;
@@ -175,7 +236,7 @@ const fmt = (n) => n.toLocaleString('en-US');
   }
   .bb-elect-row {
     display: grid;
-    grid-template-columns: 30px minmax(110px, 1.1fr) minmax(50px, 1fr) 76px;
+    grid-template-columns: 24px minmax(150px, 1.4fr) minmax(40px, 1fr) 76px;
     align-items: center;
     gap: 10px;
     padding: 6px 10px;
@@ -186,21 +247,39 @@ const fmt = (n) => n.toLocaleString('en-US');
   .bb-elect-row-winner {
     background: rgba(109, 184, 216, 0.14);
   }
-  .bb-elect-rank-chip {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    width: 24px;
-    height: 24px;
-    border-radius: 5px;
-    background: rgba(255, 255, 255, 0.08);
+  .bb-elect-rank {
     font-size: var(--text-2xs);
-    font-weight: 700;
-    color: rgba(255, 255, 255, 0.7);
+    color: rgba(255, 255, 255, 0.6);
+    font-variant-numeric: tabular-nums;
   }
-  .bb-elect-rank-chip-ssr.bb-elect-rank-chip-first { background: #b8860b; color: #ffffff; }
-  .bb-elect-rank-chip-sr.bb-elect-rank-chip-first { background: #4878a8; color: #ffffff; }
-  .bb-elect-name a {
+  .bb-elect-rank-first {
+    color: var(--bbc-accent, #6db8d8);
+    font-weight: 700;
+  }
+  .bb-elect-name {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    min-width: 0;
+  }
+  .bb-elect-row-img {
+    height: 40px;
+    width: auto;
+    flex: none;
+    display: block;
+    border-radius: 4px;
+  }
+  .bb-elect-name-text {
+    min-width: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .bb-elect-name-text a {
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
     color: var(--bbc-accent, #6db8d8);
     text-decoration: none;
   }
@@ -240,6 +319,10 @@ const fmt = (n) => n.toLocaleString('en-US');
     margin: 0;
     line-height: 1.5;
   }
+  .bb-elect-detail-line a {
+    color: var(--bbc-accent, #6db8d8);
+    text-decoration: none;
+  }
   .bb-elect-footnote {
     font-size: var(--text-2xs);
     color: rgba(255, 255, 255, 0.45);
@@ -248,7 +331,8 @@ const fmt = (n) => n.toLocaleString('en-US');
   @media (max-width: 640px) {
     .bb-elect-card { padding: 14px; }
     .bb-elect-groups { grid-template-columns: 1fr; }
-    .bb-elect-row { grid-template-columns: 30px 1fr 76px; }
+    .bb-elect-winner-img { height: 110px; }
+    .bb-elect-row { grid-template-columns: 24px 1fr 76px; }
     .bb-elect-bar-wrap { display: none; }
   }
 </style>
