@@ -4,6 +4,7 @@
 // JP-only cards, ultimate reveal art, and game event/banner/campaign art.
 import CharacterDatabaseLayout from '../../../layouts/busty-burst/CharacterDatabaseLayout.astro';
 import { BB_X_CARDS, BB_X_JP_ONLY_CARDS, BB_X_VIDEO_ART, BB_X_GAME_ART } from '../../../data/busty-burst/x-art.js';
+import { bannerTimelineData } from '../../../data/busty-burst/banner-timeline.js';
 import { R2 } from '../../../data/busty-burst/image-manifest.js';
 import { getAllCharacterData } from '../../../data/busty-burst/character-database.js';
 
@@ -41,7 +42,16 @@ const KIND_LABELS = {
   misc: 'Other',
 };
 
-const gameArt = BB_X_GAME_ART;
+const gameArt = [
+  ...bannerTimelineData.map((b) => ({
+    src: `Banner_Img/${b.image}.webp`,
+    kind: 'banner',
+    lang: 'en',
+    date: b.startDate.slice(0, 10),
+    caption: `${b.title} (${b.startDate.slice(0, 10)} to ${b.endDate.slice(0, 10)})`,
+  })),
+  ...BB_X_GAME_ART.map((g) => ({ ...g, lang: 'jp' })),
+].sort((a, b) => b.date.localeCompare(a.date));
 const jpOnly = BB_X_JP_ONLY_CARDS;
 ---
 
@@ -161,7 +171,7 @@ const jpOnly = BB_X_JP_ONLY_CARDS;
 
     <section id="game-art" class="bb-xart-section">
       <h2 class="bb-xart-heading">Events, Summons &amp; Campaigns</h2>
-      <p class="bb-xart-note">Official banner and campaign illustrations, newest first.</p>
+      <p class="bb-xart-note">EN banner timeline art plus official JP posts, newest first. JP dates are the original JP announcements, not the EN schedule.</p>
       <div class="bb-xart-game-grid">
         {gameArt.map((item) => (
           <figure class="bb-xart-game-item">
@@ -172,7 +182,7 @@ const jpOnly = BB_X_JP_ONLY_CARDS;
               decoding="async"
             />
             <figcaption class="bb-xart-game-caption">
-              <span class={`bb-xart-kind bb-xart-kind-${item.kind}`}>{KIND_LABELS[item.kind] || 'Other'}</span>
+              <span class={`bb-xart-kind bb-xart-kind-${item.kind}`}>{item.lang === 'en' ? 'EN' : 'JP'} {KIND_LABELS[item.kind] || 'Other'}</span>
               <span class="bb-xart-kind-date">{item.date}</span>
               {item.caption && <span class="bb-xart-kind-text">{item.caption}</span>}
             </figcaption>

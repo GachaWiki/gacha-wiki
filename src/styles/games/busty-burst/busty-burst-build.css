@@ -82,11 +82,10 @@
 
 .bb-build-section-title {
   font-size: var(--text-xl);
-  font-weight: 600;
-  color: var(--bb-text-primary);
+  font-weight: 700;
+  color: var(--bbc-accent, #6db8d8);
   margin-bottom: 1rem;
   padding-left: 0.8rem;
-  border-left: 3px solid var(--bb-primary, #ff6b6b);
   text-transform: uppercase;
   letter-spacing: 1px;
 }
@@ -108,7 +107,7 @@
   display: flex;
   align-items: center;
   gap: 1rem;
-  cursor: default;
+  cursor: pointer;
 }
 
 .bb-build-character-image {
@@ -217,7 +216,6 @@ a.bb-build-card {
   padding: 1.5rem;
   background: var(--bb-bg-secondary);
   border: 1px solid var(--bb-border);
-  border-left: 3px solid var(--bb-primary, #ff6b6b);
   border-radius: 6px;
 }
 

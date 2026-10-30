@@ -1218,3 +1218,58 @@
     max-width: none;
   }
 }
+
+/* Ultimate reveal videos sections (character page) */
+.bb-char-xart-videos {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1rem;
+  max-width: 620px;
+}
+
+.bb-char-xart-video {
+  margin: 0;
+}
+
+.bb-char-xart-video video {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  border: 1px solid var(--bb-border);
+  border-radius: 8px;
+  display: block;
+  background: var(--bb-bg-primary);
+}
+
+/* Events, Summons & Campaigns sections (character page) */
+.bb-char-gameart-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1rem;
+  max-width: 620px;
+}
+
+.bb-char-gameart-item {
+  margin: 0;
+}
+
+.bb-char-gameart-item img {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  border: 1px solid var(--bb-border);
+  border-radius: 8px;
+  display: block;
+  background: var(--bb-bg-primary);
+}
+
+.bb-char-gameart-caption {
+  margin-top: 0.4rem;
+  display: flex;
+  gap: 8px;
+  font-size: var(--text-xs);
+  color: var(--bb-text-tertiary);
+}
+
+.bb-char-gameart-kind {
+  text-transform: capitalize;
+}

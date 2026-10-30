@@ -147,6 +147,7 @@ export const BB_X_CARDS = {
     { src: "x/2038547025076371733-1.webp", lang: "en", date: "2026-03-30", name: "Giselle" },
   ],
   "gluttonous-warrior-raoul-and-kurul": [
+    { src: "x/2087471654679036058-1.webp", lang: "jp", date: "2026-08-12", name: "【満腹浴衣娘】ラウール＆クルール" },
     { src: "x/1876924304463446022-1.webp", lang: "jp", date: "2025-01-08", name: "【双子巫女】クルール" },
   ],
   "gorgeous-noble-summer-gracie": [
@@ -211,6 +212,9 @@ export const BB_X_CARDS = {
   ],
   "lilith": [
     { src: "x/2056300005984731295-1.webp", lang: "en", date: "2026-05-18", name: "Lilith" },
+  ],
+  "lin": [
+    { src: "x/1823653288576798857-1.webp", lang: "jp", date: "2024-08-14", name: "リン" },
   ],
   "little-devil-idol-nina": [
     { src: "x/1894681310146535627-1.webp", lang: "jp", date: "2025-02-26", name: "【小悪魔アイドル】ニーナ" },
@@ -386,6 +390,9 @@ export const BB_X_CARDS = {
   "sweet-bunny-artia": [
     { src: "x/2063910151397298478-1.webp", lang: "en", date: "2026-06-08", name: "【Sweet Bunny】Artia" },
   ],
+  "swift-blessing-hand-lin": [
+    { src: "x/1867041807856701871-1.webp", lang: "jp", date: "2024-12-12", name: "【疾風の恵み手】リン" },
+  ],
   "swift-wind-kunoichi-lin": [
     { src: "x/1935276335326445880-1.webp", lang: "jp", date: "2025-06-18", name: "【疾風のくノ一】リン" },
   ],
@@ -466,6 +473,9 @@ export const BB_X_CARDS = {
 
 // JP-server-only characters/variants (no EN release yet)
 export const BB_X_JP_ONLY_CARDS = [
+  { src: "x/2115375520984572158-1.webp", lang: "jp", date: "2026-10-28", name: "テアラ" },
+  { src: "x/2074788082134519950-1.webp", lang: "jp", date: "2026-07-08", name: "ヴァルフリーデ" },
+  { src: "x/2036737352287264976-1.webp", lang: "jp", date: "2026-03-25", name: "黄泉" },
   { src: "x/2107765377573015952-1.webp", lang: "jp", date: "2026-10-07", name: "【氷剣の魔討隊】ラピス" },
   { src: "x/2105228659347030431-1.webp", lang: "jp", date: "2026-09-30", name: "【海神に捧げし水着】メルフィス" },
   { src: "x/2102691947148099865-1.webp", lang: "jp", date: "2026-09-23", name: "【高貴なる姫君、降臨♪】シャムシェル" },
@@ -474,7 +484,6 @@ export const BB_X_JP_ONLY_CARDS = [
   { src: "x/2095081806249033913-1.webp", lang: "jp", date: "2026-09-02", name: "【ストリートミュージシャン】ペトラギルス" },
   { src: "x/2092545083963019637-1.webp", lang: "jp", date: "2026-08-26", name: "【潜入女教師】ステラ" },
   { src: "x/2090008464747835730-1.webp", lang: "jp", date: "2026-08-19", name: "【戦う教官補佐】アシュレイ" },
-  { src: "x/2087471654679036058-1.webp", lang: "jp", date: "2026-08-12", name: "【満腹浴衣娘】ラウール＆クルール" },
   { src: "x/2087479212928348526-1.webp", lang: "jp", date: "2026-08-12", name: "【母娘で浴衣娘】ジールカ" },
   { src: "x/2087486769537429505-1.webp", lang: "jp", date: "2026-08-12", name: "【母娘で浴衣娘】ディアナ" },
   { src: "x/2084934938395361610-1.webp", lang: "jp", date: "2026-08-05", name: "單璃" },
@@ -483,7 +492,6 @@ export const BB_X_JP_ONLY_CARDS = [
   { src: "x/2079046124577722616-1.webp", lang: "jp", date: "2026-07-20", name: "【超乳航海士】カティーシャ" },
   { src: "x/2079053666267582934-1.webp", lang: "jp", date: "2026-07-20", name: "【ビキニパイレーツ】ラーグエン" },
   { src: "x/2079061328929710438-1.webp", lang: "jp", date: "2026-07-20", name: "【海賊船長】フリギス" },
-  { src: "x/2074788082134519950-1.webp", lang: "jp", date: "2026-07-08", name: "ヴァルフリーデ" },
   { src: "x/2072251364982583438-1.webp", lang: "jp", date: "2026-07-01", name: "シェーラ＆ファナ" },
   { src: "x/2069714651387183518-1.webp", lang: "jp", date: "2026-06-24", name: "【壮麗のボーカリスト】ベルナデット" },
   { src: "x/2067177935849836571-1.webp", lang: "jp", date: "2026-06-17", name: "【翠緑(すいりょく)の花嫁】レスリア" },
@@ -503,7 +511,6 @@ export const BB_X_JP_ONLY_CARDS = [
   { src: "x/2041818346874925210-1.webp", lang: "jp", date: "2026-04-08", name: "【鬼族のチアガール】蘭邪" },
   { src: "x/2041825882264719535-1.webp", lang: "jp", date: "2026-04-08", name: "【美と健康のチアガール】ビューティア" },
   { src: "x/2039274067497505176-1.webp", lang: "jp", date: "2026-04-01", name: "ターニャ" },
-  { src: "x/2036737352287264976-1.webp", lang: "jp", date: "2026-03-25", name: "黄泉" },
   { src: "x/2034200639979368850-1.webp", lang: "jp", date: "2026-03-18", name: "【ホワイトバニー】スーラ" },
   { src: "x/2031663925507576098-1.webp", lang: "jp", date: "2026-03-11", name: "【ホワイトバニー】ノワ" },
   { src: "x/2029127275414012165-1.webp", lang: "jp", date: "2026-03-04", name: "【独奏のヴァイオリニスト】アドリエンヌ" },
@@ -548,14 +555,6 @@ export const BB_X_JP_ONLY_CARDS = [
   { src: "x/1955570041014960182-1.webp", lang: "jp", date: "2025-08-13", name: "【ゴージャスでノーブルな浴衣娘】グレイシー" },
   { src: "x/1955577575826464773-1.webp", lang: "jp", date: "2025-08-13", name: "【箱入り浴衣娘】ルールー" },
   { src: "x/1953025757309222916-1.webp", lang: "jp", date: "2025-08-06", name: "ラスウェル" },
-  { src: "x/1947952326691725657-1.webp", lang: "jp", date: "2025-07-23", name: "【捕縛杖の聖騎士】カティーシャ" },
-  { src: "x/1940342152292450790-1.webp", lang: "jp", date: "2025-07-02", name: "ツキナ" },
-  { src: "x/1940349684981309719-1.webp", lang: "jp", date: "2025-07-02", name: "モーラン" },
-  { src: "x/1937805511468122305-1.webp", lang: "jp", date: "2025-06-25", name: "【エルロンの堅牢なる盾】ナターシャ" },
-  { src: "x/1935276335326445880-1.webp", lang: "jp", date: "2025-06-18", name: "【疾風のくノ一】リン" },
-  { src: "x/1930195322749489526-1.webp", lang: "jp", date: "2025-06-04", name: "ユラ" },
-  { src: "x/1925129448535597455-1.webp", lang: "jp", date: "2025-05-21", name: "スーラ" },
-  { src: "x/1925136991752011794-1.webp", lang: "jp", date: "2025-05-21", name: "ゲルディン" },
   { src: "x/1922585178435723757-1.webp", lang: "jp", date: "2025-05-14", name: "【紅の花魁】アンジェ" },
   { src: "x/1920048453490733523-1.webp", lang: "jp", date: "2025-05-07", name: "ルキシス" },
   { src: "x/1917511747763855637-1.webp", lang: "jp", date: "2025-04-30", name: "ネフィリア" },
@@ -573,7 +572,6 @@ export const BB_X_JP_ONLY_CARDS = [
   { src: "x/1871850876744114208-1.webp", lang: "jp", date: "2024-12-25", name: "【紅傘の歳女】リリララ" },
   { src: "x/1871858429620314204-1.webp", lang: "jp", date: "2024-12-25", name: "【脂肪燃焼の歳女】ビューティア" },
   { src: "x/1871865974506332631-1.webp", lang: "jp", date: "2024-12-25", name: "【羽子板の歳女】リリス" },
-  { src: "x/1867041807856701871-1.webp", lang: "jp", date: "2024-12-12", name: "【疾風の恵み手】リン" },
   { src: "x/1867049236120150471-1.webp", lang: "jp", date: "2024-12-12", name: "【乳魔な恵み手】シュシュ" },
   { src: "x/1867056784319434992-1.webp", lang: "jp", date: "2024-12-12", name: "【聖夜の乳魔】ルスト" },
   { src: "x/1864240731868811281-1.webp", lang: "jp", date: "2024-12-04", name: "【エルロンの聖騎士】リュッカ" },
@@ -601,6 +599,9 @@ export const BB_X_JP_ONLY_CARDS = [
 
 // Ultimate-reveal (video thumbnail) art per character slug; video = playable clip on R2
 export const BB_X_VIDEO_ART = {
+  "adrienne": [
+    { src: "x/1821139223476314514-1.webp", lang: "jp", date: "2024-08-07", video: "x/videos/1821139223476314514.mp4" },
+  ],
   "agile-mercenary-shaty": [
     { src: "x/1912445864322428962-1.webp", lang: "jp", date: "2025-04-16", video: "x/videos/1912445864322428962.mp4" },
   ],
@@ -655,6 +656,9 @@ export const BB_X_VIDEO_ART = {
   "legendary-hero-gemini": [
     { src: "x/1942886457741287895-1.webp", lang: "jp", date: "2025-07-09", video: "x/videos/1942886457741287895.mp4" },
   ],
+  "lin": [
+    { src: "x/1823660841964855717-1.webp", lang: "jp", date: "2024-08-14", video: "x/videos/1823660841964855717.mp4" },
+  ],
   "louise": [
     { src: "x/1991084040762327474-1.webp", lang: "jp", date: "2025-11-19", video: "x/videos/1991084040762327474.mp4" },
     { src: "x/1879483676410445949-1.webp", lang: "jp", date: "2025-01-15", video: "x/videos/1879483676410445949.mp4" },
@@ -671,6 +675,9 @@ export const BB_X_VIDEO_ART = {
   "raffine": [
     { src: "x/1810977268891562207-1.webp", lang: "jp", date: "2024-07-10", video: "x/videos/1810977268891562207.mp4" },
   ],
+  "riding-the-big-wave-of-love-priscilla": [
+    { src: "x/1816742990699975104-1.webp", lang: "jp", date: "2024-07-26", video: "x/videos/1816742990699975104.mp4" },
+  ],
   "roxanne": [
     { src: "x/1965996221585342955-1.webp", lang: "jp", date: "2025-09-11", video: "x/videos/1965996221585342955.mp4" },
   ],
@@ -679,6 +686,9 @@ export const BB_X_VIDEO_ART = {
   ],
   "sirius": [
     { src: "x/1800840678928457988-1.webp", lang: "jp", date: "2024-06-12", video: "x/videos/1800840678928457988.mp4" },
+  ],
+  "skateboarder-nue": [
+    { src: "x/1818587411162546563-1.webp", lang: "jp", date: "2024-07-31", video: "x/videos/1818587411162546563.mp4" },
   ],
   "sonia": [
     { src: "x/1917791093497946371-1.webp", lang: "jp", date: "2025-05-01", video: "x/videos/1917791093497946371.mp4" },
@@ -703,6 +713,13 @@ export const BB_X_VIDEO_ART = {
 
 // Game-level art: summon banners, events, campaigns, misc illustrations
 export const BB_X_GAME_ART = [
+  { src: "x/2116054999016837503-1.webp", kind: "video", date: "2026-10-30", caption: "【動画紹介】 SSR聖騎士「テアラ」の奥義公開！ ぜひご覧ください！" },
+  { src: "x/2116062547530891308-1.webp", kind: "misc", date: "2026-10-30", caption: "【臨時メンテナンス】 10/30（金）16:00にメンテナンスを終了いたしました。 メンテナンスへのご協力、ありがとうございました。" },
+  { src: "x/2116047448254874105-1.webp", kind: "misc", date: "2026-10-30", caption: "【臨時メンテナンス】 10/30（金）15:00にメンテナンスを開始いたしました。 メンテナンス中はゲームをプレイできません。" },
+  { src: "x/2116062798094450963-1.webp", kind: "banner", date: "2026-10-30", caption: "【召喚】 「同盟戦・火」攻略応援ピックアップ召喚開催中！ 新SSR聖騎士「テアラ」と、同盟戦に有利なバフを獲得できる聖騎士の出現率UP！" },
+  { src: "x/2115745456915640682-1.webp", kind: "event", date: "2026-10-29", caption: "【期間挑戦】 期間挑戦「異策戦・水」開催！ 状態異常やデバフを駆使して敵のGUARDを下げ、より大きいダメージを敵に与えて、ランキング上位を目指そう！" },
+  { src: "x/2037001698590548363-1.webp", kind: "video", date: "2026-03-25", caption: "【動画紹介】 SSR聖騎士「黄泉」の奥義公開！ ぜひご覧ください！" },
+  { src: "x/2074795639020327304-1.webp", kind: "video", date: "2026-07-08", caption: "【動画紹介】 SSR聖騎士「ヴァルフリーデ」の奥義公開！ ぜひご覧ください！" },
   { src: "x/2109116795529662633-1.webp", kind: "event", date: "2026-10-11", caption: "【ログインボーナス】 イベント「Fanzine」ログインボーナス開催！ 7日ログインして、晶石×1000や様々なアイテムをGET！" },
   { src: "x/2109207387743924434-1.webp", kind: "event", date: "2026-10-11", caption: "【ログインボーナス】 復刻イベント「悪玉ハロウィン」ログインボーナス開催！ 7日ログインして、晶石×1000や様々なアイテムをGET！" },
   { src: "x/2108754390798516328-1.webp", kind: "banner", date: "2026-10-10", caption: "【召喚】 復刻イベント「悪玉ハロウィン」イベント召喚開催！ SSR聖騎士「【最強魔女】シャハル」、「【誘惑の吸血鬼】ソルティナ」の出現率UP！" },
@@ -839,7 +856,6 @@ export const BB_X_GAME_ART = [
   { src: "x/2075128572134789207-1.webp", kind: "event", date: "2026-07-09", caption: "【イベント】 復刻イベント「タコタコ、ビーチパニック!!」開催！ イベントを進めて、過去のストーリーをもう一度振り返ろう！" },
   { src: "x/2075128823881048177-1.webp", kind: "event", date: "2026-07-09", caption: "【期間挑戦】 期間挑戦「異策戦・風」開催！ より大きいダメージを敵に与えて、ランキング上位を目指そう！" },
   { src: "x/2075129075543511517-1.webp", kind: "banner", date: "2026-07-09", caption: "【フォロー&amp;リポストキャンペーン】 「バーストフェス」開催を記念に このアカウントをフォロー&amp;このポストをリポストすると、" },
-  { src: "x/2074795639020327304-1.webp", kind: "video", date: "2026-07-08", caption: "【動画紹介】 SSR聖騎士「ヴァルフリーデ」の奥義公開！ ぜひご覧ください！" },
   { src: "x/2073602782943142176-1.webp", kind: "event", date: "2026-07-05", caption: "【パス】 イベント「同盟戦・魔」イベントパス開催！ ミッションをクリアして、様々なアイテムをGET！" },
   { src: "x/2073240383203791098-1.webp", kind: "event", date: "2026-07-04", caption: "【ログインボーナス】 イベント「同盟戦・魔」ログインボーナス開催！ 7日ログインして、晶石×1000や様々なアイテムをGET！" },
   { src: "x/2072878008994590941-1.webp", kind: "banner", date: "2026-07-03", caption: "【召喚】 「同盟戦・魔」攻略応援ピックアップ召喚開催中！ 新SSR聖騎士「シェーラ＆ファナ」と、" },
@@ -972,7 +988,6 @@ export const BB_X_GAME_ART = [
   { src: "x/2037726375646470409-1.webp", kind: "banner", date: "2026-03-28", caption: "【召喚】 「競撃戦・聖」攻略応援ピックアップ召喚開催！ 競撃戦を有利に戦えるSR以上想属性聖騎士出現率UP！" },
   { src: "x/2037816973279572185-1.webp", kind: "banner", date: "2026-03-28", caption: "【召喚】 「覚醒解放記念」ピックアップ召喚開催中！ 覚醒解放された聖騎士「【悩殺☆ビキニ】テレシア」の出現率UP！" },
   { src: "x/2037363981279432866-1.webp", kind: "banner", date: "2026-03-27", caption: "【召喚】 「バーストフェス」イベント召喚開催！ 新フェス限定SSR聖騎士「黄泉」の出現率UP！" },
-  { src: "x/2037001698590548363-1.webp", kind: "video", date: "2026-03-26", caption: "【動画紹介】 SSR聖騎士「黄泉」の奥義公開！ ぜひご覧ください！" },
   { src: "x/2037062243377201649-1.webp", kind: "event", date: "2026-03-26", caption: "【イベント】 イベント「黄泉の門」開催！ イベントを進めて、様々なアイテムをGET！" },
   { src: "x/2037062495085666323-1.webp", kind: "banner", date: "2026-03-26", caption: "【キャンペーン】 バーストフェス開催中！ たくさんの晶石や豪華なアイテムをGET！" },
   { src: "x/2037062746530079008-1.webp", kind: "event", date: "2026-03-26", caption: "【期間挑戦】 期間挑戦「競撃戦・聖」開催！ より大きいダメージを敵に与えて、ランキング上位を目指そう！" },

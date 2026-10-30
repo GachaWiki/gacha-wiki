@@ -20,7 +20,8 @@ import {
   STAT_DISPLAY_NAMES,
 } from '../../../../data/busty-burst/character-database.js';
 import { SPEED_LABELS } from '../../../../data/busty-burst/characters/index.js';
-import { BB_X_CARDS } from '../../../../data/busty-burst/x-art.js';
+import { BB_X_CARDS, BB_X_VIDEO_ART } from '../../../../data/busty-burst/x-art.js';
+import { BB_X_GAME_ART_BY_SLUG } from '../../../../data/busty-burst/x-game-art-by-slug.js';
 import { R2 } from '../../../../data/busty-burst/image-manifest.js';
 
 // Import CSS
@@ -60,6 +61,8 @@ const positionNameMap = {
 
 // Official X introduction cards for this character (EN card first, then JP)
 const xCards = (BB_X_CARDS[slug] || []).slice().sort((a, b) => (a.lang === b.lang ? a.date.localeCompare(b.date) : a.lang === 'en' ? -1 : 1));
+const xVideos = BB_X_VIDEO_ART[slug] || [];
+const xGameArt = BB_X_GAME_ART_BY_SLUG[slug] || [];
 
 // Action Speed values (time in seconds)
 const ACTION_SPEED_VALUES = {
@@ -1061,10 +1064,64 @@ const description = `${character.displayName || character.name} - ${character.ra
             </figure>
           ))}
         </div>
+        </div>
+      </div>
+    </section>
+  )}
+
+  <!-- Ultimate Reveal Videos Section (X ultimate showcases) -->
+  {xVideos.length > 0 && (
+    <section class="bb-char-section">
+      <h2 class="bb-char-section-title">Ultimate Reveal Videos</h2>
+      <p class="bb-char-xart-note">Ultimate skill showcases posted on the official X account.</p>
+      <div class="bb-char-section-content">
+        <div class="bb-char-xart-videos">
+          {xVideos.map((v) => (
+            <figure class="bb-char-xart-video">
+              <video controls preload="none" poster={`${R2}/${v.src}`}>
+                <source src={`${R2}/${v.video}`} type="video/mp4" />
+              </video>
+              <figcaption class="bb-char-xart-caption">
+                <span class={`bb-char-xart-lang ${v.lang}`}>{v.lang === 'en' ? 'EN' : 'JP'}</span>
+                <span class="bb-char-xart-date">{v.date}</span>
+              </figcaption>
+            </figure>
+          ))}
+        </div>
+      </div>
+    </section>
+  )}
+
+  <!-- Events, Summons & Campaigns Section (X posts featuring this Paladin) -->
+  {xGameArt.length > 0 && (
+    <section class="bb-char-section">
+      <h2 class="bb-char-section-title">Events, Summons & Campaigns</h2>
+      <p class="bb-char-xart-note">EN banners from our banner timeline plus official JP server posts. JP dates are the original JP announcements, not the EN schedule.</p>
+      <div class="bb-char-section-content">
+        <div class="bb-char-gameart-grid">
+          {xGameArt.map((e) => (
+            <figure class="bb-char-gameart-item">
+              <img
+                src={`${R2}/${e.src}`}
+                alt={`${character.displayName || character.name} ${e.kind} announcement art`}
+                loading="lazy"
+                decoding="async"
+                width={1200}
+                height={675}
+              />
+              <figcaption class="bb-char-gameart-caption">
+                <span class={`bb-char-xart-lang ${e.lang}`}>{e.lang === 'en' ? 'EN' : 'JP'}</span>
+                <span class="bb-char-gameart-kind">{e.kind}</span>
+                <span class="bb-char-gameart-date">{e.date}</span>
+              </figcaption>
+            </figure>
+          ))}
+        </div>
       </div>
     </section>
   )}
 </CharacterDatabaseLayout>
+
 
 <script is:inline>
 document.addEventListener('DOMContentLoaded', () => {

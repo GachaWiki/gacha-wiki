@@ -1856,4 +1856,120 @@ export const characterBuilds = {
       };
     })(),
   },
+
+  lin: {
+    slug: 'lin',
+    character: {
+      name: 'Lin',
+      fileName: 'Lin',
+      characterId: 2156,
+    },
+    position: {
+      name: 'Front',
+      image: 'Front.png',
+    },
+    attackType: {
+      name: 'Physical',
+      image: 'Physical.png',
+    },
+    weapon: getWeaponData('Spear_of_extermination.png'),
+    accessory: (() => {
+      const goldSet = getAccessorySet('gold');
+      return {
+        name: 'Gold 4 Set + 1 Random SSR',
+        images: goldSet.pieces.slice(1).map(p => p.imageFile),
+        setEffects: formatSetEffects(goldSet.setEffects),
+        mainStats: getMainStats('Physical', 'DPS', 'gold'),
+        substatPriority: getSubstatPriority('Physical'),
+      };
+    })(),
+  },
+
+  bernadette: {
+    slug: 'bernadette',
+    character: {
+      name: 'Bernadette',
+      fileName: 'Bernadette',
+      characterId: 2153,
+    },
+    position: {
+      name: 'Back',
+      image: 'Back.png',
+    },
+    attackType: {
+      name: 'Physical',
+      image: 'Physical.png',
+    },
+    weapon: getWeaponData('Staff_of_annihilation.png'),
+    weaponNote: 'Bernadette is a support first: the Annihilation Staff\'s MP Charge cycles her ultimate faster, keeping her Accuracy UP, Max HP and stacking Physical ATK buffs running. Faster ult uptime is more valuable than raw damage.',
+    accessory: (() => {
+      const emeraldSet = getAccessorySet('emerald');
+      const getImageForSlot = slot => {
+        const piece = emeraldSet.pieces.find(p => p.type === slot);
+        return piece ? piece.imageFile : `Gold_${slot}.png`;
+      };
+      return {
+        name: 'Emerald 4 Set + 1 Random Rainbow',
+        images: emeraldSet.pieces.slice(1).map(p => p.imageFile),
+        setEffects: formatSetEffects(emeraldSet.setEffects),
+        mainStats: [
+          { slot: 'Tiara', imageFile: getImageForSlot('Tiara'), best: 'HP', substat: 'Phys Def' },
+          { slot: 'Earrings', imageFile: getImageForSlot('Earrings'), best: 'Phys Def', substat: 'Mag Def' },
+          { slot: 'Necklace', imageFile: getImageForSlot('Necklace'), best: 'HP', substat: 'Phys Def' },
+          { slot: 'Bracelet', imageFile: getImageForSlot('Bracelet'), best: 'HP', substat: 'Mag Def' },
+          { slot: 'Ring', imageFile: getImageForSlot('Ring'), best: 'Healing', substat: 'HP' },
+        ],
+        substatPriority: {
+          priority: ['HP'],
+          secondary: ['Phys Def', 'Mag Def'],
+          other: ['Healing'],
+          tips: ['As a support, Bernadette prioritizes survivability: her crit, accuracy and stacking ATK buffs matter more than her own damage.'],
+        },
+      };
+    })(),
+  },
+
+  adrienne: {
+    slug: 'adrienne',
+    character: {
+      name: 'Adrienne',
+      fileName: 'Adrienne',
+      characterId: 2154,
+    },
+    position: {
+      name: 'Back',
+      image: 'Back.png',
+    },
+    attackType: {
+      name: 'Magic',
+      image: 'Magic.png',
+    },
+    weapon: getWeaponData('Ringblade_of_Annihilation.png'),
+    weaponNote: 'The Annihilation Ringblade is the Slash-class magic weapon with MP Regeneration+, keeping Adrienne\'s ultimate (enemy M.DEF down with a chance to sleep) and her stacking Magic ATK buffs cycling.',
+    accessory: (() => {
+      const emeraldSet = getAccessorySet('emerald');
+      const getImageForSlot = slot => {
+        const piece = emeraldSet.pieces.find(p => p.type === slot);
+        return piece ? piece.imageFile : `Gold_${slot}.png`;
+      };
+      return {
+        name: 'Emerald 4 Set + 1 Random Rainbow',
+        images: emeraldSet.pieces.slice(1).map(p => p.imageFile),
+        setEffects: formatSetEffects(emeraldSet.setEffects),
+        mainStats: [
+          { slot: 'Tiara', imageFile: getImageForSlot('Tiara'), best: 'HP', substat: 'Mag Def' },
+          { slot: 'Earrings', imageFile: getImageForSlot('Earrings'), best: 'Mag Def', substat: 'Phys Def' },
+          { slot: 'Necklace', imageFile: getImageForSlot('Necklace'), best: 'HP', substat: 'Mag Def' },
+          { slot: 'Bracelet', imageFile: getImageForSlot('Bracelet'), best: 'HP', substat: 'Phys Def' },
+          { slot: 'Ring', imageFile: getImageForSlot('Ring'), best: 'Healing', substat: 'HP' },
+        ],
+        substatPriority: {
+          priority: ['HP'],
+          secondary: ['Mag Def', 'Phys Def'],
+          other: ['Healing'],
+          tips: ['As a support, Adrienne prioritizes survivability to keep enemy M.DEF down and her stacking Magic ATK buffs running.'],
+        },
+      };
+    })(),
+  },
 };
