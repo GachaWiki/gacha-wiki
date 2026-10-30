@@ -51,6 +51,7 @@
 
 .ts-ev-card-art img {
   width: 100%;
+  height: auto;
   display: block;
 }
 
@@ -125,6 +126,8 @@
 }
 
 .ts-ev-card-reward .ts-char-icon {
+  width: 36px;
+  height: 36px;
   border-radius: 6px;
 }
 
@@ -163,4 +166,12 @@
   .ts-ev-card-art {
     width: 100%;
   }
+}
+
+.ts-ev-card-artsrc {
+  display: inline-block;
+  margin-top: 0.4rem;
+  font-size: var(--text-sm);
+  color: #8f8698;
+  text-decoration: none;
 }

@@ -534,7 +534,7 @@ function formatMultiplier(skill: any): string | null {
                       if (!partner) return null;
                       return (
                         <a href={`/guides/taimanin-squad/characters/${partner.slug}/`} class="ts-cd-bond-partner">
-                          <TSCharacterImage icon={partner.icon} alt={partner.names?.english || partner.name} width={36} height={36} />
+                          <TSCharacterImage icon={partner.icon} alt={partner.names?.english || partner.name} width={64} height={64} />
                           <span>{partner.names?.english || partner.name}</span>
                         </a>
                       );

@@ -1,18 +1,12 @@
 ---
 // Taimanin Squad Character Image Component
-// Displays character images from the characterimage folder
-// Selects images by dimensions: 128x128 for icons (largest file), 256x512 for side images
-
-import { Image } from 'astro:assets';
-import fs from 'node:fs';
-import path from 'node:path';
-
-// Import all character images from the new organized folder structure
-// (png icons/variants + webp full-body loading art)
-const characterImages = import.meta.glob<{ default: ImageMetadata }>(
-  '../../assets/images/games/taimanin-squad/characterimage/**/*.{png,webp}',
-  { eager: true }
-);
+// Art is served from the R2 image CDN; image-manifest.js carries each file's
+// dimensions and byte size so variant selection works without local files.
+// Icon slots: the canonical <icon>_face.png (user-verified per unit), then
+// 256x256 squares, then 128x128. Side slots: 256x512 standing art, falling
+// back to the 512x2048 loading illustration.
+import { TS_IMAGE_MANIFEST } from '../../data/taimanin-squad/image-manifest.js';
+import { r2Url } from '../../data/r2-config.js';
 
 export interface Props {
   icon: string;
@@ -20,119 +14,66 @@ export interface Props {
   width?: number;
   height?: number;
   class?: string;
-  variant?: 'icon' | 'side'; // 'icon' = 128x128 (largest), 'side' = 256x512
+  variant?: 'icon' | 'side';
 }
 
 const { icon, alt = 'Character', width = 128, height = 128, class: className = '', variant = 'icon' } = Astro.props;
 
-// Parse the icon prop (e.g., "46_Aina" -> id: "46", name: "Aina")
 const iconParts = icon.split('_');
 const charId = iconParts[0];
-const charName = iconParts.slice(1).join('_'); // Handle names with underscores
+const charName = iconParts.slice(1).join('_');
 
-// Find matching image by dimensions, selecting largest file for icons
-// Image dimensions: 128x128 (icon), 256x512 (side), 256x128 (banner), 64x64 (thumb)
+const ALL = TS_IMAGE_MANIFEST.characterimage;
+const charKeys = Object.keys(ALL).filter(
+  (k) => k.startsWith(charName + '/') && k.slice(charName.length + 1).startsWith(charId + '_')
+);
+const dims = (k) => ALL[k][0] + 'x' + ALL[k][1];
+
 function findCharacterImage() {
-  const allKeys = Object.keys(characterImages);
+  if (charKeys.length === 0) return null;
 
-  // Filter to images in this character's folder with matching ID
-  const charImages = allKeys.filter(key => {
-    const normalizedKey = key.replace(/\\/g, '/');
-    return normalizedKey.includes(`/characterimage/${charName}/`) &&
-           normalizedKey.includes(`/${charId}_${charName}`);
-  });
-
-  if (charImages.length === 0) return null;
-
-  // Target dimensions based on variant
-  const targetWidth = variant === 'icon' ? 128 : 256;
-  const targetHeight = variant === 'icon' ? 128 : 512;
-
-  // Find all images matching target dimensions
-  let matchingImages = charImages.filter(key => {
-    const imgMeta = characterImages[key].default;
-    return imgMeta.width === targetWidth && imgMeta.height === targetHeight;
-  });
-
-  // the 512x2048 loading-screen illustration is the fallback full-body side
-  // portrait for units with no 256x512 standing art (recent units ship only
-  // the loading illustration). Standing art wins when present: it is the
-  // clean bright cut; loading art carries a darker background.
-  if (variant === 'side' && matchingImages.length === 0) {
-    const full = charImages.filter(key => {
-      const imgMeta = characterImages[key].default;
-      return imgMeta.width === 512 && imgMeta.height === 2048;
-    });
-    if (full.length) matchingImages = full;
+  // canonical face: user-verified per unit; only when it is a square crop
+  if (variant === 'icon') {
+    const face = charKeys.find((k) => k.endsWith(`/${charId}_${charName}_face.png`) && ALL[k][0] === ALL[k][1]);
+    if (face) return face;
   }
 
-  if (matchingImages.length === 0) {
-    // Fallback: prefer icon-size (128x128) images as portrait stand-in
-    const iconMatch = charImages.find(key => {
-      const imgMeta = characterImages[key].default;
-      return imgMeta.width === 128 && imgMeta.height === 128;
-    });
+  const wanted = variant === 'icon' ? ['256x256', '128x128'] : ['256x512'];
+  let matching = [];
+  for (const want of wanted) {
+    matching = charKeys.filter((k) => dims(k) === want);
+    if (matching.length > 0) break;
+  }
+
+  // loading illustration is the fallback full-body side portrait for units
+  // with no standing art; standing art wins (brighter, cleaner cut)
+  if (variant === 'side' && matching.length === 0) {
+    const full = charKeys.filter((k) => dims(k) === '512x2048');
+    if (full.length) matching = full;
+  }
+
+  if (matching.length === 0) {
+    const iconMatch = charKeys.find((k) => dims(k) === '128x128');
     if (iconMatch) return iconMatch;
-
-    // Otherwise pick largest file
-    let fallbackKey = charImages[0];
-    let fallbackSize = 0;
-
-    for (const key of charImages) {
-      try {
-        const relativePath = key.replace('../../assets/', 'src/assets/');
-        const absolutePath = path.resolve(process.cwd(), relativePath);
-        const stats = fs.statSync(absolutePath);
-        if (stats.size > fallbackSize) {
-          fallbackSize = stats.size;
-          fallbackKey = key;
-        }
-      } catch {
-        // continue
-      }
-    }
-
-    return fallbackKey;
+    return null;
   }
 
-  if (matchingImages.length === 1) {
-    return matchingImages[0];
-  }
-
-  // Multiple matches: select the largest file (best quality)
-  let largestKey = matchingImages[0];
-  let largestSize = 0;
-
-  for (const key of matchingImages) {
-    try {
-      // Convert glob key to absolute file path
-      const relativePath = key.replace('../../assets/', 'src/assets/');
-      const absolutePath = path.resolve(process.cwd(), relativePath);
-      const stats = fs.statSync(absolutePath);
-      if (stats.size > largestSize) {
-        largestSize = stats.size;
-        largestKey = key;
-      }
-    } catch {
-      // If file stat fails, continue with current selection
-    }
-  }
-
-  return largestKey;
+  // multiple matches: heaviest file (best quality), per manifest sizes
+  return matching.reduce((a, b) => (ALL[b][2] > ALL[a][2] ? b : a));
 }
 
 const imageKey = findCharacterImage();
-const imageModule = imageKey ? characterImages[imageKey].default : null;
 ---
 
-{imageModule ? (
-  <Image
-    src={imageModule}
+{imageKey ? (
+  <img
+    src={r2Url('taimanin-squad', 'characterimage/' + imageKey)}
     alt={alt}
     width={width}
     height={height}
     class:list={['ts-char-icon', className]}
     loading="lazy"
+    decoding="async"
   />
 ) : (
   <div class:list={['ts-char-icon-fallback', className]} style={`width: ${width}px; height: ${height}px;`}>
@@ -143,20 +84,5 @@ const imageModule = imageKey ? characterImages[imageKey].default : null;
 <style>
   .ts-char-icon {
     object-fit: contain;
-    border-radius: 8px;
-  }
-
-  .ts-char-icon-fallback {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    background: var(--ts-bg-tertiary, #242028);
-    color: var(--ts-text-muted, #888);
-    font-weight: 500;
-    font-size: var(--text-3xs);
-    border-radius: 8px;
-    padding: 0.25rem;
-    border: 1px dashed var(--ts-border, #2e2838);
   }
 </style>

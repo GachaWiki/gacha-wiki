@@ -3,19 +3,7 @@
 // Displays skill icons from Skill_icons folder and Aura icons from Aura folder
 // Handles both numeric icons (101.png) and named icons (leader_spd.png)
 
-import { Image } from 'astro:assets';
-
-// Import skill icons
-const skillIcons = import.meta.glob<{ default: ImageMetadata }>(
-  '../../assets/images/games/taimanin-squad/Skill_icons/*.png',
-  { eager: true }
-);
-
-// Import aura icons
-const auraIcons = import.meta.glob<{ default: ImageMetadata }>(
-  '../../assets/images/games/taimanin-squad/Aura/*.png',
-  { eager: true }
-);
+import { tsImg } from '../../data/taimanin-squad/r2-images.js';
 
 export interface Props {
   icon: string;
@@ -26,36 +14,27 @@ export interface Props {
 
 const { icon, alt = 'Skill', size = 48, class: className = '' } = Astro.props;
 
-// Find the matching icon
+// Find the matching icon (aura icons first, then skill icons)
 function findIcon() {
-  // First check if it's an aura icon (starts with "leader_")
   if (icon.startsWith('leader_')) {
-    const auraKey = Object.keys(auraIcons).find(key =>
-      key.toLowerCase().includes(`/${icon.toLowerCase()}.png`)
-    );
-    if (auraKey) return auraIcons[auraKey].default;
+    const aura = tsImg('Aura', `${icon}.png`) || tsImg('Aura', `${icon.toLowerCase()}.png`);
+    if (aura) return aura;
   }
-
-  // Check skill icons
-  const skillKey = Object.keys(skillIcons).find(key =>
-    key.endsWith(`/${icon}.png`)
-  );
-  if (skillKey) return skillIcons[skillKey].default;
-
-  return null;
+  return tsImg('Skill_icons', `${icon}.png`);
 }
 
 const iconImage = findIcon();
 ---
 
 {iconImage ? (
-  <Image
+  <img
     src={iconImage}
     alt={alt}
     width={size}
     height={size}
     class:list={['ts-skill-icon', className]}
     loading="lazy"
+    decoding="async"
   />
 ) : (
   <div

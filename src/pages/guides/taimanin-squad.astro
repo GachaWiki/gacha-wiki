@@ -3,18 +3,11 @@ import TaimaninSquadLandingLayout from '../../layouts/taimanin-squad/LandingLayo
 import FormattedDate from '../../components/FormattedDate.astro';
 import DiscordPromo from '../../components/DiscordPromo.astro';
 import { taimaninSquadConfig } from '../../data/taimanin-squad/taimanin-squad.js';
-import heroImage from '../../assets/images/games/taimanin-squad/gameimg/hero_image.jpg';
-import { Image } from 'astro:assets';
-import { glob } from 'astro:assets';
-
-const emoticons = import.meta.glob<{ default: ImageMetadata }>(
-  '../../assets/images/games/taimanin-squad/emoticons/*.png',
-  { eager: true }
-);
+import { r2Url } from '../../data/r2-config.js';
+import { tsImg } from '../../data/taimanin-squad/r2-images.js';
 
 function getEmoticon(filename) {
-  const key = Object.keys(emoticons).find(k => k.includes(`/${filename}`));
-  return key ? emoticons[key].default : null;
+  return tsImg('emoticons', filename);
 }
 
 // Extract data for easier use in template
@@ -31,7 +24,7 @@ const breadcrumbs = [
   title={meta.title}
   description={meta.description}
   gameTitle={meta.gameTitle}
-  heroImage={heroImage}
+  heroImage={r2Url('taimanin-squad', 'gameimg/hero_image.jpg')}
   heroVideo="/videos/ts-hero.mp4"
 >
   <!-- Structured Data for Taimanin Squad -->
@@ -135,12 +128,14 @@ const breadcrumbs = [
           <div class={`ts-resource-category ts-category-${category.size}`}>
             <div class="ts-category-header">
               {category.icon && getEmoticon(category.icon) && (
-                <Image
+                <img
                   src={getEmoticon(category.icon)}
                   alt=""
                   width={48}
                   height={48}
                   class="ts-category-icon"
+                  loading="lazy"
+                  decoding="async"
                 />
               )}
               <h3>{category.title}</h3>

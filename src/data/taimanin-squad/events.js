@@ -15,7 +15,7 @@ export const TS_EVENTS = [
     rewardUnit: { name: '[Halloween] Aishu Hebiko', icon: '259_Hebiko', rarity: 'Legend' },
     rewardWeapon: 'Sugar Twist Broom',
     notes: 'Complete event missions and spend Event Tickets at the event shop. Unclaimed rewards are deleted when the event ends; leftover Event Tickets carry over to the next event.',
-    image: '/images/games/taimanin-squad/news/img017.webp',
+    image: 'https://k2b1c5ab57ed98e51.gachawiki.info/taimanin-squad/news/img017.webp',
     source: '2026-10-29-october-29th-maintenance-complete',
   },
   {
@@ -27,7 +27,7 @@ export const TS_EVENTS = [
     rewardUnit: null,
     rewardWeapon: null,
     notes: 'Log in for 14 days for Premium Recruit Ticket, Promotion Certificate: 5☆, Special Fragment Box and more.',
-    image: '/images/games/taimanin-squad/news/img016.webp',
+    image: 'https://k2b1c5ab57ed98e51.gachawiki.info/taimanin-squad/news/img016.webp',
     source: '2026-10-29-october-29th-maintenance-complete',
   },
   {
@@ -39,7 +39,7 @@ export const TS_EVENTS = [
     rewardUnit: { name: '[Stealth Armor] Fuuma Saika', icon: '282_Saika', rarity: 'Legend' },
     rewardWeapon: 'Mirage Tactical Leg',
     notes: 'Complete event missions and spend Event Tickets at the event shop.',
-    image: '/images/games/taimanin-squad/news/img010.webp',
+    image: 'https://k2b1c5ab57ed98e51.gachawiki.info/taimanin-squad/news/img010.webp',
     source: '2026-10-01-october-1st-maintenance-complete',
   },
   {
@@ -51,7 +51,7 @@ export const TS_EVENTS = [
     rewardUnit: null,
     rewardWeapon: null,
     notes: 'Log in for 30 days for Fragment: [Combat Suit] Fuuma Amane, Premium Recruit Ticket, Promotion Certificate: 5☆ and Special Fragment Box.',
-    image: null,
+    image: 'https://k2b1c5ab57ed98e51.gachawiki.info/taimanin-squad/news/img011.webp',
     source: '2026-10-01-october-1st-maintenance-complete',
   },
   {
@@ -63,7 +63,7 @@ export const TS_EVENTS = [
     rewardUnit: { name: '[Gosha] Fuuma Tokiko', icon: '243_Tokiko', rarity: 'Legend' },
     rewardWeapon: 'Ninja Art Manual: Book of Gosha',
     notes: 'Complete event missions and spend Event Tickets at the event shop.',
-    image: '/images/games/taimanin-squad/news/img002.webp',
+    image: 'https://k2b1c5ab57ed98e51.gachawiki.info/taimanin-squad/news/img002.webp',
     source: '2026-09-03-september-3rd-maintenance-complete',
   },
   {
@@ -75,7 +75,7 @@ export const TS_EVENTS = [
     rewardUnit: null,
     rewardWeapon: null,
     notes: 'Log in for 30 days for Special and Premium Recruit Tickets, Promotion Certificate: Grade 5, Special Fragment Box and more.',
-    image: '/images/games/taimanin-squad/news/img001.webp',
+    image: 'https://k2b1c5ab57ed98e51.gachawiki.info/taimanin-squad/news/img001.webp',
     source: '2026-09-17-september-17th-maintenance-complete',
   },
   {
@@ -87,7 +87,7 @@ export const TS_EVENTS = [
     rewardUnit: { name: '[Youthful Phantom] Mizuki Shiranui', icon: '272_Shiranui', rarity: 'Legend' },
     rewardWeapon: 'Hydro Frame Glaive',
     notes: 'Complete event missions and spend Event Tickets at the event shop.',
-    image: '/images/games/taimanin-squad/news/img006.webp',
+    image: 'https://k2b1c5ab57ed98e51.gachawiki.info/taimanin-squad/news/img006.webp',
     source: '2026-08-06-august-6th-maintenance-complete',
   },
   {
@@ -111,7 +111,7 @@ export const TS_EVENTS = [
     rewardUnit: null,
     rewardWeapon: null,
     notes: 'Log in for 30 days for Fragment: Cara Cromwell, Premium Recruit Ticket, Promotion Certificate: Grade 5 and Special Fragment Box.',
-    image: '/images/games/taimanin-squad/news/img009.webp',
+    image: 'https://k2b1c5ab57ed98e51.gachawiki.info/taimanin-squad/news/img009.webp',
     source: '2026-07-23-july-23rd-maintenance-complete',
   },
   {
@@ -123,7 +123,8 @@ export const TS_EVENTS = [
     rewardUnit: { name: '[Gosha] Mizuki Yukikaze', icon: '238_Yukikaze', rarity: 'Legend' },
     rewardWeapon: 'Neon Blitz',
     notes: 'Event shop also sold the Inageya lobby theme for Gold.',
-    image: null,
+    image: 'https://k2b1c5ab57ed98e51.gachawiki.info/taimanin-squad/events/gosha-academy.webp',
+    imageSource: { label: 'Art: official X post', url: 'https://x.com/TaimaninSquad/status/2064951405581132256' },
     source: '2026-06-11-june-11th-maintenance-complete',
   },
   {
@@ -147,7 +148,8 @@ export const TS_EVENTS = [
     rewardUnit: { name: '[Wedding] Igawa Asagi', icon: '253_Asagi', rarity: 'Legend' },
     rewardWeapon: 'Lily Cascade',
     notes: 'First story event. Event shop also sold the Garden of Vows lobby theme for Gold.',
-    image: null,
+    image: 'https://k2b1c5ab57ed98e51.gachawiki.info/taimanin-squad/events/wedding.webp',
+    imageSource: { label: 'Art: official X post', url: 'https://x.com/TaimaninSquad/status/2054803899362468156' },
     source: '2026-05-14-may-14th-maintenance-complete',
   },
   {
@@ -159,7 +161,8 @@ export const TS_EVENTS = [
     rewardUnit: null,
     rewardWeapon: null,
     notes: 'Log in for 30 days for Fragment: Onisaki Kirara, Premium Recruit Ticket, Promotion Certificate: Grade 5 and Special Fragment Box.',
-    image: null,
+    image: 'https://k2b1c5ab57ed98e51.gachawiki.info/taimanin-squad/events/kirara-login.webp',
+    imageSource: { label: 'Art: official X post', url: 'https://x.com/TaimaninSquad/status/2044653098472485178' },
     source: '2026-04-16-april-16th-maintenance-complete',
   },
   {
@@ -171,7 +174,8 @@ export const TS_EVENTS = [
     rewardUnit: null,
     rewardWeapon: null,
     notes: 'Click the Another World banner in-game and download Action Taimanin to earn Gems in both games. The TAIMANINTHX coupon worked in both titles.',
-    image: null,
+    image: 'https://k2b1c5ab57ed98e51.gachawiki.info/taimanin-squad/events/action-taimanin-collab.webp',
+    imageSource: { label: 'Art: official X post', url: 'https://x.com/TaimaninSquad/status/2041335148537610547' },
     source: '2026-04-02-april-2nd-maintenance-complete',
   },
 ];

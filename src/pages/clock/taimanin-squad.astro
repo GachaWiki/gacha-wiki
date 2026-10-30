@@ -1,7 +1,8 @@
 ---
 import TaimaninSquadClockLayout from '../../layouts/clock/TaimaninSquad.astro';
 import { taimaninSquadConfig } from '../../data/clock/taimanin-squad.js';
-import GameIcon from '../../assets/images/games/taimanin-squad/gameimg/icon.jpg';
+import { r2Url } from '../../data/r2-config.js';
+const GameIcon = r2Url('taimanin-squad', 'gameimg/icon.jpg');
 
 // Page metadata
 const title = 'Taimanin Squad Clock - Game Launch Countdown Timer | GachaWiki';

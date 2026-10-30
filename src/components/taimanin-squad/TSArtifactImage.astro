@@ -1,13 +1,8 @@
 ---
 // Taimanin Squad Artifact Icon Component
-// Displays artifact slot icons from the artifacticon folder
+// Displays artifact slot icons from the artifacticon folder on the R2 CDN
 
-import { Image } from 'astro:assets';
-
-const artifactImages = import.meta.glob<{ default: ImageMetadata }>(
-  '../../assets/images/games/taimanin-squad/artifacticon/Artifacts_*.png',
-  { eager: true }
-);
+import { tsImg } from '../../data/taimanin-squad/r2-images.js';
 
 export interface Props {
   icon: string;
@@ -25,27 +20,18 @@ const {
   class: className = '',
 } = Astro.props;
 
-function findArtifactImage() {
-  const allKeys = Object.keys(artifactImages);
-  const exactMatch = allKeys.find(key => {
-    const normalized = key.replace(/\\/g, '/');
-    return normalized.endsWith(`/${icon}`);
-  });
-  return exactMatch || null;
-}
-
-const imageKey = findArtifactImage();
-const imageModule = imageKey ? artifactImages[imageKey].default : null;
+const imageSrc = tsImg('artifacticon', icon);
 ---
 
-{imageModule ? (
-  <Image
-    src={imageModule}
+{imageSrc ? (
+  <img
+    src={imageSrc}
     alt={alt}
     width={width}
     height={height}
     class:list={['ts-artifact-icon', className]}
     loading="lazy"
+    decoding="async"
   />
 ) : (
   <div

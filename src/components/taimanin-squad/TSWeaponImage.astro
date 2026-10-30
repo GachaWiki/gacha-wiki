@@ -1,13 +1,9 @@
 ---
 // Taimanin Squad Weapon Image Component
-// Displays weapon icons from the weaponicon folder
+// Displays weapon icons from the weaponicon folder on the R2 image CDN
 
-import { Image } from 'astro:assets';
-
-const weaponImages = import.meta.glob<{ default: ImageMetadata }>(
-  '../../assets/images/games/taimanin-squad/weaponicon/Weapon_*.png',
-  { eager: true }
-);
+import { tsHas } from '../../data/taimanin-squad/r2-images.js';
+import { r2Url } from '../../data/r2-config.js';
 
 export interface Props {
   icon: string;
@@ -30,39 +26,27 @@ const {
 } = Astro.props;
 
 function findWeaponImage() {
-  const allKeys = Object.keys(weaponImages);
-
-  const exactMatch = allKeys.find(key => {
-    const normalized = key.replace(/\\/g, '/');
-    return normalized.endsWith(`/${icon}`);
-  });
-
-  if (exactMatch) return exactMatch;
-
+  if (tsHas('weaponicon', icon)) return icon;
   if (variant === 'large') {
-    const baseName = icon.replace('.png', '');
-    const largeIcon = `${baseName}_l.png`;
-    return allKeys.find(key => {
-      const normalized = key.replace(/\\/g, '/');
-      return normalized.endsWith(`/${largeIcon}`);
-    });
+    const largeIcon = icon.replace('.png', '') + '_l.png';
+    if (tsHas('weaponicon', largeIcon)) return largeIcon;
   }
-
   return null;
 }
 
 const imageKey = findWeaponImage();
-const imageModule = imageKey ? weaponImages[imageKey].default : null;
+const imageSrc = imageKey ? r2Url('taimanin-squad', 'weaponicon/' + imageKey) : null;
 ---
 
-{imageModule ? (
-  <Image
-    src={imageModule}
+{imageSrc ? (
+  <img
+    src={imageSrc}
     alt={alt}
     width={width}
     height={height}
     class:list={['ts-weapon-icon', className]}
     loading="lazy"
+    decoding="async"
   />
 ) : (
   <div

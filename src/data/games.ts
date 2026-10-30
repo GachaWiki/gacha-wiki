@@ -3,7 +3,7 @@
 // this instead of re-declaring id/name/image/url/themeColor.
 
 import RGIcon from '../assets/images/games/rebellion-gilgamesh/gameimg/Icon1.jpg';
-import TaimaninSquadIcon from '../assets/images/games/taimanin-squad/gameimg/icon.jpg';
+
 import LastOriginGlobalIcon from '../assets/images/games/last-origin-global/gameimg/icon.jpg';
 import { r2Url } from './r2-config.js';
 
@@ -95,7 +95,7 @@ export const GAMES: Game[] = [
     name: 'Taimanin Squad',
     slug: 'taimanin-squad',
     description: 'Collecting RPG • Taimanin Franchise • Character Collection • Now on Steam',
-    image: TaimaninSquadIcon,
+    image: r2Url('taimanin-squad', 'gameimg/icon.jpg'),
     url: '/guides/taimanin-squad/',
     status: 'active',
     themeColor: '#6b5b7a',

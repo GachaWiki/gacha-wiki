@@ -97,3 +97,56 @@
   border-radius: 8px;
   background: var(--ts-bg-tertiary, #242028);
 }
+
+/* Event banner cards */
+.ts-gal-events {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.ts-gal-event-card {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  background: var(--ts-bg-secondary, #1a171f);
+  border: 1px solid var(--ts-border, #2e2838);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.ts-gal-event-card img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.ts-gal-event-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+  padding: 0.6rem 0.8rem;
+}
+
+.ts-gal-event-name {
+  font-size: var(--text-md);
+  font-weight: 600;
+  color: var(--ts-text-primary, #fff);
+}
+
+.ts-gal-event-meta {
+  font-size: var(--text-sm);
+  color: var(--ts-text-secondary, #b3a8ab);
+}
+
+.ts-gal-event-src {
+  font-size: var(--text-sm);
+  color: #8f8698;
+}
+
+@media (max-width: 700px) {
+  .ts-gal-events {
+    grid-template-columns: 1fr;
+  }
+}

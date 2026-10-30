@@ -372,6 +372,7 @@ export const NAV_DATA: Record<GameKey, { sections: NavigationSection[] }> = {
           { name: 'Game Mechanics', href: '/guides/taimanin-squad/mechanics/' },
           { name: 'Banner History', href: '/guides/taimanin-squad/banners/' },
           { name: 'Events', href: '/guides/taimanin-squad/events/' },
+          { name: 'Story & World', href: '/guides/taimanin-squad/story/' },
         ],
       },
       {

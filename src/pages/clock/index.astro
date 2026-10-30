@@ -6,7 +6,7 @@ import { getActiveLandingGames } from '../../data/clock/landing.js';
 import { Image } from 'astro:assets';
 import { R2 as BB_R2 } from '../../components/busty-burst/bb-r2';
 const bustyBurstIcon = BB_R2 + '/BG/Icon.webp';
-import taimaninSquadIcon from '../../assets/images/games/taimanin-squad/gameimg/heroimage.jpg';
+import { r2Url } from '../../data/r2-config.js';
 import lastOriginGlobalIcon from '../../assets/images/games/last-origin-global/gameimg/icon.jpg';
 
 // Get all active games for the landing page
@@ -35,7 +35,7 @@ games = games.map(game => {
   if (game.id === 'taimanin-squad') {
     return {
       ...game,
-      image: taimaninSquadIcon,
+      image: r2Url('taimanin-squad', 'gameimg/heroimage.jpg'),
     };
   }
   if (game.id === 'last-origin-global') {

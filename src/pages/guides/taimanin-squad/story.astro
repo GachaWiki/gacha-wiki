@@ -1,0 +1,67 @@
+---
+// Taimanin Squad Story & World page: every entry of the in-game story
+// archive (world terminology, factions, arts, character backgrounds),
+// straight from the game's own localization. Entries that describe a
+// playable unit link to that character's page with their icon.
+import LandingLayout from '../../../layouts/taimanin-squad/LandingLayout.astro';
+import TSCharacterImage from '../../../components/taimanin-squad/TSCharacterImage.astro';
+import { WORLD_LORE } from '../../../data/taimanin-squad/world-lore.js';
+import { getAllCharacters } from '../../../data/taimanin-squad/characters.js';
+
+import '../../../styles/games/taimanin-squad/ts-story.css';
+
+const title = 'Story & World - Taimanin Squad | GachaWiki';
+const description =
+  'Taimanin Squad world lore: the complete in-game story archive covering factions, organizations, ninja arts, demons and character backgrounds.';
+const gameTitle = 'Story & World';
+
+const stripTag = (n) => n.replace(/^\[[^\]]+\]\s*/, '');
+const chars = getAllCharacters();
+const baseUnits = new Map(
+  chars
+    .filter((c) => (c.names?.english || c.name) === stripTag(c.names?.english || c.name))
+    .map((c) => [c.names?.english || c.name, c])
+);
+const allUnits = new Map(chars.map((c) => [c.names?.english || c.name, c]));
+
+const entries = WORLD_LORE.map((e) => ({
+  ...e,
+  unit: baseUnits.get(e.title) || allUnits.get(e.title) || null,
+}));
+---
+
+<LandingLayout title={title} description={description} gameTitle={gameTitle}>
+  <div class="ts-story-container">
+    <p class="ts-story-intro">
+      The complete story archive from inside the game: the world of the Taimanin, its factions and organizations,
+      ninja arts, demons and the backgrounds of its people, in the game's own order.
+      Entries about playable characters link to their character pages.
+    </p>
+    <div class="ts-story-grid">
+      {
+        entries.map((e) => (
+          <article class="ts-story-card">
+            <div class="ts-story-card-head">
+              {e.unit && (
+                <a href={`/guides/taimanin-squad/characters/${e.unit.slug}/`} class="ts-story-card-icon">
+                  <TSCharacterImage icon={e.unit.icon} alt={e.title} width={36} height={36} />
+                </a>
+              )}
+              <div class="ts-story-card-titles">
+                {e.unit ? (
+                  <a class="ts-story-card-title ts-story-card-title-link" href={`/guides/taimanin-squad/characters/${e.unit.slug}/`}>
+                    {e.title}
+                  </a>
+                ) : (
+                  <span class="ts-story-card-title">{e.title}</span>
+                )}
+                {e.jp && e.jp !== e.title && <span class="ts-story-card-jp">{e.jp.split('\n')[0]}</span>}
+              </div>
+            </div>
+            <p class="ts-story-card-desc">{e.desc}</p>
+          </article>
+        ))
+      }
+    </div>
+  </div>
+</LandingLayout>

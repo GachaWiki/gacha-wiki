@@ -1,7 +1,7 @@
 // Taimanin Squad banner history: every Limited Pickup Recruit and Step-Up
 // pack since launch, compiled from the official news archive
 // (taimaninsquad.com/api/information, EN). Icons resolve through
-// TSCharacterImage against src/assets/images/games/taimanin-squad/characterimage.
+// TSCharacterImage against src/assetshttps://k2b1c5ab57ed98e51.gachawiki.info/taimanin-squad/characterimage.
 // Status ("active"/"ended") is computed from `end` at build time.
 
 export const RECRUIT_TYPES = [
@@ -64,7 +64,7 @@ export const BANNER_HISTORY = [
     legend: L('[Halloween] Onisaki Kirara', '261_Kirara'),
     epic: E('[Halloween] Shinganji Kurenai', '260_Kurenai'),
     notes: 'Kirara guaranteed on every 100th Pickup Recruit, gauge carries over. Limited units, never added to standard pools. Assemble list added Phantasma and Inage Natsu the same day. [Halloween] Aishu Hebiko is the Halloween Heroes story event reward, not on this banner.',
-    image: '/images/games/taimanin-squad/news/img018.webp',
+    image: 'https://k2b1c5ab57ed98e51.gachawiki.info/taimanin-squad/news/img018.webp',
     source: '/information-detail/',
   },
   {
@@ -75,7 +75,7 @@ export const BANNER_HISTORY = [
     legend: L('[Thunder Volt] Uehara Rin', '283_Rin'),
     epic: E('[Lightning Onyx] Mizuki Yukikaze', '279_Yukikaze'),
     notes: 'Rin guaranteed on every 100th Pickup Recruit, gauge carries over. Limited units, never added to standard pools.',
-    image: '/images/games/taimanin-squad/news/img014.webp',
+    image: 'https://k2b1c5ab57ed98e51.gachawiki.info/taimanin-squad/news/img014.webp',
     source: '/information-detail/',
   },
   {
@@ -86,7 +86,7 @@ export const BANNER_HISTORY = [
     legend: L('Ragnarok', '301_Ragnarok'),
     weapon: 'Glacial Crystal',
     notes: 'Joins Assemble and Weapon Development after November 26, 2026.',
-    image: '/images/games/taimanin-squad/news/img001.webp',
+    image: 'https://k2b1c5ab57ed98e51.gachawiki.info/taimanin-squad/news/img001.webp',
     source: '/information-detail/',
   },
   {
@@ -97,7 +97,7 @@ export const BANNER_HISTORY = [
     legend: L('[Gosha] Mizuki Shiranui', '237_Shiranui'),
     epic: E('[Swimsuit] Kousaka Shizuru', '257_Shizuru'),
     notes: 'Limited units, never added to standard pools.',
-    image: '/images/games/taimanin-squad/news/img003.webp',
+    image: 'https://k2b1c5ab57ed98e51.gachawiki.info/taimanin-squad/news/img003.webp',
     source: '/information-detail/',
   },
   {
@@ -108,7 +108,7 @@ export const BANNER_HISTORY = [
     legend: L('Inage Natsu', null),
     weapon: 'Urashima',
     notes: 'Joins Assemble and Weapon Development after October 1, 2026.',
-    image: '/images/games/taimanin-squad/news/img004.webp',
+    image: 'https://k2b1c5ab57ed98e51.gachawiki.info/taimanin-squad/news/img004.webp',
     source: '/information-detail/',
   },
   {
@@ -119,7 +119,7 @@ export const BANNER_HISTORY = [
     legend: L('Phantasma', '194_Phantasma'),
     weapon: 'Charming Flower-Eye',
     notes: 'Joins Assemble and Weapon Development after October 15, 2026.',
-    image: '/images/games/taimanin-squad/news/img005.webp',
+    image: 'https://k2b1c5ab57ed98e51.gachawiki.info/taimanin-squad/news/img005.webp',
     source: '/information-detail/',
   },
   {
@@ -130,7 +130,7 @@ export const BANNER_HISTORY = [
     legend: L('[Youthful Immortal] Yatsu Murasaki', '269_Murasaki'),
     epic: E('[Youthful Almighty] Igawa Asagi', '271_Asagi'),
     notes: 'The current PvP meta pair. Limited units, never added to standard pools.',
-    image: '/images/games/taimanin-squad/news/img007.webp',
+    image: 'https://k2b1c5ab57ed98e51.gachawiki.info/taimanin-squad/news/img007.webp',
     source: '/information-detail/',
   },
   {
@@ -141,7 +141,7 @@ export const BANNER_HISTORY = [
     legend: L('Nasara', '105_Nasara'),
     weapon: 'Unidentified Purple Ribbon',
     notes: 'Joins Assemble and Weapon Development after September 17, 2026.',
-    image: '/images/games/taimanin-squad/news/img009.webp',
+    image: 'https://k2b1c5ab57ed98e51.gachawiki.info/taimanin-squad/news/img009.webp',
     source: '/information-detail/',
   },
   {

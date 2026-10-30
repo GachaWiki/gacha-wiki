@@ -1,14 +1,13 @@
 ---
-/**
- * Taimanin Squad art gallery: standing portraits for every released unit
- * plus expression variants, straight from the game's own art files.
- * Images are matched the same way TSCharacterImage resolves them: by
- * unit id + name prefix inside the characterimage folders, by dimension.
- */
-import { Image } from 'astro:assets';
+// Taimanin Squad art gallery: standing portraits for every released unit
+// plus expression variants. Art is served from the R2 image CDN; the
+// manifest supplies dimensions so bucketing works without local files.
 import LandingLayout from '../../../layouts/taimanin-squad/LandingLayout.astro';
 import { TAIMANIN_SQUAD_CHARACTERS } from '../../../data/taimanin-squad/characters.js';
 import { RELEASED_UNIT_IDS } from '../../../data/taimanin-squad/released-units.js';
+import { TS_EVENTS, getEventTypeLabel } from '../../../data/taimanin-squad/events.js';
+import { TS_IMAGE_MANIFEST } from '../../../data/taimanin-squad/image-manifest.js';
+import { r2Url } from '../../../data/r2-config.js';
 
 import '../../../styles/games/taimanin-squad/ts-gallery.css';
 
@@ -17,44 +16,34 @@ const description =
   'Taimanin Squad character art gallery: standing portraits and expression variants for every released character, extracted from the game.';
 const gameTitle = 'Gallery';
 
-const files = import.meta.glob<{ default: ImageMetadata }>(
-  '../../../assets/images/games/taimanin-squad/characterimage/**/*.{png,webp}',
-  { eager: true }
-);
+const img = (rel) => r2Url('taimanin-squad', 'characterimage/' + rel);
+const ALL = TS_IMAGE_MANIFEST.characterimage;
 
 // group files by unit icon prefix ("259_Hebiko" catches "259_Hebiko.png" and
-// "259_Hebiko_<expr-hash>.png" alike), bucketed by texture dimensions
-const byUnit: Record<string, { big: string[]; expressions: string[] }> = {};
-for (const key of Object.keys(files)) {
-  const norm = key.replace(/\\/g, '/');
-  const file = norm.split('/').pop() as string;
-  const stem = file.replace(/\.png$/, '');
-  const m = stem.match(/^(\d+_[A-Za-z0-9]+)(?:_(.+))?$/);
+// hashed variants alike), bucketed by texture dimensions
+const byUnit = {};
+for (const rel of Object.keys(ALL)) {
+  const file = rel.split('/')[1];
+  const m = file.replace(/\.png$/, '').match(/^(\d+_[A-Za-z0-9]+)(?:_(.+))?$/);
   if (!m) continue;
   const unitKey = m[1];
-  const meta = files[key].default;
+  const [w, h] = ALL[rel];
   const entry = (byUnit[unitKey] ??= { big: [], expressions: [] });
-  if (
-    (meta.width === 256 && (meta.height === 512 || meta.height === 256)) ||
-    (meta.width === 512 && meta.height === 2048)
-  ) {
-    // full-body loading art (512x2048) and standing art (256x512) beat squares
-    entry.big.push(key);
-  } else if (meta.width === 128 && meta.height === 128 && m[2]) {
-    entry.expressions.push(key);
+  if ((w === 256 && (h === 512 || h === 256)) || (w === 512 && h === 2048)) {
+    entry.big.push(rel);
+  } else if (w === 128 && h === 128 && m[2]) {
+    entry.expressions.push(rel);
   }
 }
 
 // art priority: bright 256x512 standing cut > full-body loading
 // illustration (darker background) > 256x256 square crop
-const artPriority = (h: number, w: number) =>
-  h === 512 ? 3 : (w === 512 && h === 2048 ? 2 : 1);
+const artPriority = (rel) => {
+  const [w, h] = ALL[rel];
+  return h === 512 ? 3 : w === 512 && h === 2048 ? 2 : 1;
+};
 for (const entry of Object.values(byUnit)) {
-  entry.big.sort(
-    (a, b) =>
-      artPriority(files[b].default.height || 0, files[b].default.width || 0) -
-      artPriority(files[a].default.height || 0, files[a].default.width || 0)
-  );
+  entry.big.sort((a, b) => artPriority(b) - artPriority(a));
 }
 
 const released = TAIMANIN_SQUAD_CHARACTERS.filter((c) => RELEASED_UNIT_IDS.has(c.id));
@@ -68,6 +57,12 @@ const variants = released
   .map((c) => ({ char: c, imgs: byUnit[c.icon]?.expressions ?? [] }))
   .filter((e) => e.imgs.length > 0)
   .sort((a, b) => a.char.names?.english.localeCompare(b.char.names?.english));
+
+// story/collab event banners, newest first; art from official news or the
+// official X account (credited) where the news post predates images
+const eventBanners = TS_EVENTS
+  .filter((e) => (e.type === 'story' || e.type === 'collab') && e.image)
+  .sort((a, b) => b.start.localeCompare(a.start));
 ---
 
 <LandingLayout title={title} description={description} gameTitle={gameTitle}>
@@ -84,12 +79,30 @@ const variants = released
         standing.map(({ char, art }) => (
           <a class="ts-gal-cell" href={`/guides/taimanin-squad/characters/${char.slug}/`}>
             <div class="ts-gal-cell-img">
-              <Image src={files[art].default} alt={char.names?.english || char.name} widths={[256, 384]} sizes="(max-width: 700px) 45vw, 180px" loading="lazy" decoding="async" />
+              <img src={img(art)} alt={char.names?.english || char.name} width="180" height="320" loading="lazy" decoding="async" />
             </div>
             <span class="ts-gal-cell-name">{char.names?.english || char.name}</span>
             <span class="ts-gal-cell-meta">
               {char.rarity_name}, {char.element}
             </span>
+          </a>
+        ))
+      }
+    </div>
+
+    <h2 class="ts-gal-section-title">Event Banners ({eventBanners.length})</h2>
+    <div class="ts-gal-events">
+      {
+        eventBanners.map((e) => (
+          <a class="ts-gal-event-card" href="/guides/taimanin-squad/events/">
+            <img src={e.image} alt={`${e.name} event banner`} loading="lazy" decoding="async" width={820} height={460} />
+            <div class="ts-gal-event-info">
+              <span class="ts-gal-event-name">{e.name}</span>
+              <span class="ts-gal-event-meta">
+                {getEventTypeLabel(e.type)} · {e.start}{e.end && ' - ' + e.end}{!e.end && ' onward'}
+              </span>
+              {e.imageSource && <span class="ts-gal-event-src">{e.imageSource.label}</span>}
+            </div>
           </a>
         ))
       }
@@ -103,7 +116,7 @@ const variants = released
             <span class="ts-gal-variant-head">{char.names?.english || char.name}</span>
             <div class="ts-gal-variant-row">
               {imgs.map((k) => (
-                    <Image src={files[k].default} alt={`${char.names?.english || char.name} expression`} widths={[128]} sizes="72px" loading="lazy" decoding="async" />
+                <img class="ts-gal-variant-img" src={img(k)} alt={`${char.names?.english || char.name} expression`} width="72" height="72" loading="lazy" decoding="async" />
               ))}
             </div>
           </div>

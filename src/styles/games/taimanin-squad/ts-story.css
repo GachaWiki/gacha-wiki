@@ -1,0 +1,77 @@
+/* Taimanin Squad Story & World page styles */
+/* Flat cards with the game archive's own order; character terms link out */
+
+.ts-story-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1.5rem;
+}
+
+.ts-story-intro {
+  color: var(--ts-text-secondary, #b3a8ab);
+  font-size: var(--text-md);
+  line-height: 1.6;
+  margin: 0 0 1.5rem;
+}
+
+.ts-story-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+
+.ts-story-card {
+  background: var(--ts-bg-secondary, #1a171f);
+  border: 1px solid var(--ts-border, #2e2838);
+  border-radius: 10px;
+  padding: 1rem 1.1rem;
+}
+
+.ts-story-card-head {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  margin-bottom: 0.6rem;
+}
+
+.ts-story-card-icon img,
+.ts-story-card-icon .ts-char-icon {
+  border-radius: 8px;
+  object-fit: contain;
+}
+
+.ts-story-card-titles {
+  display: flex;
+  flex-direction: column;
+  gap: 0.1rem;
+}
+
+.ts-story-card-title {
+  font-size: var(--text-lg);
+  font-weight: 700;
+  color: var(--ts-text-primary, #fff);
+}
+
+.ts-story-card-title-link {
+  text-decoration: none;
+  color: var(--ts-accent, #9a8aaa);
+}
+
+.ts-story-card-jp {
+  font-size: var(--text-sm);
+  color: var(--ts-text-muted, #888);
+}
+
+.ts-story-card-desc {
+  margin: 0;
+  font-size: var(--text-md);
+  line-height: 1.6;
+  color: var(--ts-text-secondary, #d3d3d3);
+  white-space: pre-line;
+}
+
+@media (max-width: 800px) {
+  .ts-story-grid {
+    grid-template-columns: 1fr;
+  }
+}

@@ -63,7 +63,7 @@ const ended = TS_EVENTS.filter((e) => getEventStatus(e) === 'ended');
                 <h3 class="ts-ev-card-title">{e.name}</h3>
                 {e.rewardUnit && (
                   <div class="ts-ev-card-reward">
-                    <TSCharacterImage icon={e.rewardUnit.icon} alt={e.rewardUnit.name} width={36} height={36} />
+                    <TSCharacterImage icon={e.rewardUnit.icon} alt={e.rewardUnit.name} width={64} height={64} />
                     <span>
                       <span class="ts-ev-reward-label">Reward: </span>
                       {e.rewardUnit.name} <span class="ts-ev-reward-rarity">({e.rewardUnit.rarity})</span>
@@ -74,6 +74,11 @@ const ended = TS_EVENTS.filter((e) => getEventStatus(e) === 'ended');
                   <p class="ts-ev-card-weapon">Reward weapon: {e.rewardWeapon}</p>
                 )}
                 {e.notes && <p class="ts-ev-card-notes">{e.notes}</p>}
+                {e.imageSource && (
+                  <a class="ts-ev-card-artsrc" href={e.imageSource.url} target="_blank" rel="noopener noreferrer">
+                    {e.imageSource.label}
+                  </a>
+                )}
                 <a class="ts-ev-card-source" href={`/guides/taimanin-squad/updates/${e.source}/`}>
                   Official announcement
                 </a>
@@ -111,7 +116,7 @@ const ended = TS_EVENTS.filter((e) => getEventStatus(e) === 'ended');
               <h3 class="ts-ev-card-title">{e.name}</h3>
               {e.rewardUnit && (
                 <div class="ts-ev-card-reward">
-                  <TSCharacterImage icon={e.rewardUnit.icon} alt={e.rewardUnit.name} width={36} height={36} />
+                  <TSCharacterImage icon={e.rewardUnit.icon} alt={e.rewardUnit.name} width={64} height={64} />
                   <span>
                     <span class="ts-ev-reward-label">Reward: </span>
                     {e.rewardUnit.name} <span class="ts-ev-reward-rarity">({e.rewardUnit.rarity})</span>
@@ -120,6 +125,11 @@ const ended = TS_EVENTS.filter((e) => getEventStatus(e) === 'ended');
               )}
               {e.rewardWeapon && <p class="ts-ev-card-weapon">Reward weapon: {e.rewardWeapon}</p>}
               {e.notes && <p class="ts-ev-card-notes">{e.notes}</p>}
+              {e.imageSource && (
+                <a class="ts-ev-card-artsrc" href={e.imageSource.url} target="_blank" rel="noopener noreferrer">
+                  {e.imageSource.label}
+                </a>
+              )}
               <a class="ts-ev-card-source" href={`/guides/taimanin-squad/updates/${e.source}/`}>
                 Official announcement
               </a>

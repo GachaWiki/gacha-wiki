@@ -2,12 +2,7 @@
 // Taimanin Squad Role Icon Component
 // Displays role icons (Attacker, Defender, Support) from game images
 
-import { Image } from 'astro:assets';
-
-const roleImages = import.meta.glob<{ default: ImageMetadata }>(
-  '../../assets/images/games/taimanin-squad/Role/*.png',
-  { eager: true }
-);
+import { tsImg } from '../../data/taimanin-squad/r2-images.js';
 
 export interface Props {
   role: string;
@@ -16,22 +11,19 @@ export interface Props {
 
 const { role, size = 48 } = Astro.props;
 
-const imageKey = Object.keys(roleImages).find(key =>
-  key.includes(`/${role}.png`)
-);
-const imageModule = imageKey ? roleImages[imageKey].default : null;
+const imageSrc = tsImg('Role', `${role}.png`);
 ---
 
-{imageModule ? (
-  <Image
-    src={imageModule}
+{imageSrc ? (
+  <img
+    src={imageSrc}
     alt={role}
     width={size}
     height={size}
     class="ts-role-icon-img"
     title={role}
-    quality="max"
-    format="png"
+    loading="lazy"
+    decoding="async"
   />
 ) : (
   <div class="ts-role-icon-fallback" style={`width: ${size}px; height: ${size}px;`}>
@@ -53,9 +45,8 @@ const imageModule = imageKey ? roleImages[imageKey].default : null;
     justify-content: center;
     background: var(--ts-bg-tertiary, #242028);
     color: var(--ts-text-muted, #888);
+    font-size: var(--text-2xs);
     font-weight: 700;
-    font-size: var(--text-md);
     border-radius: 8px;
-    border: 1px dashed var(--ts-border, #2e2838);
   }
 </style>

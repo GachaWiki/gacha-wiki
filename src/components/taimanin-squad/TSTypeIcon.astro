@@ -2,12 +2,7 @@
 // Taimanin Squad Type Icon Component
 // Displays type icons (Agility, Power, Technique, Balance) from game images
 
-import { Image } from 'astro:assets';
-
-const typeImages = import.meta.glob<{ default: ImageMetadata }>(
-  '../../assets/images/games/taimanin-squad/Type/*.png',
-  { eager: true }
-);
+import { tsImg } from '../../data/taimanin-squad/r2-images.js';
 
 export interface Props {
   type: string;
@@ -16,22 +11,19 @@ export interface Props {
 
 const { type, size = 48 } = Astro.props;
 
-const imageKey = Object.keys(typeImages).find(key =>
-  key.includes(`/${type}.png`)
-);
-const imageModule = imageKey ? typeImages[imageKey].default : null;
+const imageModule = tsImg('Type', `${type}.png`);
 ---
 
 {imageModule ? (
-  <Image
+  <img
     src={imageModule}
     alt={type}
     width={size}
     height={size}
     class="ts-type-icon-img"
     title={type}
-    quality="max"
-    format="png"
+    loading="lazy"
+    decoding="async"
   />
 ) : (
   <div class="ts-type-icon-fallback" style={`width: ${size}px; height: ${size}px;`}>

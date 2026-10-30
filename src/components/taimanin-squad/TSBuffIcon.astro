@@ -2,20 +2,7 @@
 // TSBuffIcon - Reusable component for displaying Taimanin Squad buff/debuff icons
 // Used on buff-debuff reference page and can be used on character skill pages
 
-import { Image } from 'astro:assets';
-
-// Import all buff icons dynamically from the buff_icons directory
-const buffImages = import.meta.glob<{ default: ImageMetadata }>(
-  '../../assets/images/games/taimanin-squad/buff_icons/*.png',
-  { eager: true }
-);
-
-// Build a map from filename to image metadata
-const iconMap: Record<string, ImageMetadata> = {};
-for (const [path, module] of Object.entries(buffImages)) {
-  const filename = path.split('/').pop() || '';
-  iconMap[filename] = module.default;
-}
+import { tsImg } from '../../data/taimanin-squad/r2-images.js';
 
 // Icon aliases for effects that share the same icon
 const iconAliases: Record<string, string> = {
@@ -45,19 +32,18 @@ const {
 const baseIcon = icon.endsWith('.png') ? icon.slice(0, -4) : icon;
 const resolvedIcon = iconAliases[baseIcon] || baseIcon;
 const iconFilename = `${resolvedIcon}.png`;
-const imageSrc = iconMap[iconFilename];
+const imageSrc = tsImg('buff_icons', iconFilename);
 ---
 
 {imageSrc ? (
-  <Image
+  <img
     src={imageSrc}
     alt={alt}
     width={width}
     height={height}
     class={`ts-buff-icon ${className}`}
     loading={loading}
-    format="webp"
-    quality={85}
+    decoding="async"
   />
 ) : (
   <div class={`ts-buff-icon-missing ${className}`} style={`width: ${width}px; height: ${height}px;`}>

@@ -7,7 +7,7 @@ export const taimaninSquadConfig = {
     description:
       'Complete Taimanin Squad wiki with character guides, tier lists, and game database. Download now on Steam, Google Play, App Store & Galaxy Store. Collecting RPG for PC, Android & iOS.',
     gameTitle: 'Taimanin Squad',
-    heroImage: '/images/games/taimanin-squad/taimanin-squad.jpg',
+    heroImage: 'https://k2b1c5ab57ed98e51.gachawiki.info/taimanin-squad/taimanin-squad.jpg',
   },
 
   gameInfo: {
