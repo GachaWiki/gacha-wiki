@@ -84,7 +84,7 @@ const variants = released
         standing.map(({ char, art }) => (
           <a class="ts-gal-cell" href={`/guides/taimanin-squad/characters/${char.slug}/`}>
             <div class="ts-gal-cell-img">
-              <Image src={files[art].default} alt={char.names?.english || char.name} widths={[160, 256, 384]} sizes="(max-width: 700px) 45vw, 180px" loading="lazy" decoding="async" />
+              <Image src={files[art].default} alt={char.names?.english || char.name} widths={[256, 384]} sizes="(max-width: 700px) 45vw, 180px" loading="lazy" decoding="async" />
             </div>
             <span class="ts-gal-cell-name">{char.names?.english || char.name}</span>
             <span class="ts-gal-cell-meta">
@@ -103,7 +103,7 @@ const variants = released
             <span class="ts-gal-variant-head">{char.names?.english || char.name}</span>
             <div class="ts-gal-variant-row">
               {imgs.map((k) => (
-                <Image src={files[k].default} alt={`${char.names?.english || char.name} expression`} widths={[72, 128]} sizes="72px" loading="lazy" decoding="async" />
+                    <Image src={files[k].default} alt={`${char.names?.english || char.name} expression`} widths={[128]} sizes="72px" loading="lazy" decoding="async" />
               ))}
             </div>
           </div>

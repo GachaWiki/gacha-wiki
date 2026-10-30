@@ -44,7 +44,7 @@ const ended = TS_EVENTS.filter((e) => getEventStatus(e) === 'ended');
                   <img src={e.image} alt={`${e.name} event art`} loading="lazy" decoding="async" width={820} height={260} />
                 ) : e.rewardUnit ? (
                   <div class="ts-ev-card-art-portrait">
-                    <TSCharacterImage icon={e.rewardUnit.icon} alt={e.rewardUnit.name} width={110} height={110} />
+                    <TSCharacterImage icon={e.rewardUnit.icon} alt={e.rewardUnit.name} width={128} height={128} />
                   </div>
                 ) : (
                   <div class="ts-ev-card-art-portrait ts-ev-art-none">No event art</div>
@@ -94,7 +94,7 @@ const ended = TS_EVENTS.filter((e) => getEventStatus(e) === 'ended');
                 <img src={e.image} alt={`${e.name} event art`} loading="lazy" decoding="async" width={820} height={260} />
               ) : e.rewardUnit ? (
                 <div class="ts-ev-card-art-portrait">
-                  <TSCharacterImage icon={e.rewardUnit.icon} alt={e.rewardUnit.name} width={110} height={110} />
+                  <TSCharacterImage icon={e.rewardUnit.icon} alt={e.rewardUnit.name} width={128} height={128} />
                 </div>
               ) : (
                 <div class="ts-ev-card-art-portrait ts-ev-art-none">No event art</div>
