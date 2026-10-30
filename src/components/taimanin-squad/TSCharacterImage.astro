@@ -8,8 +8,9 @@ import fs from 'node:fs';
 import path from 'node:path';
 
 // Import all character images from the new organized folder structure
+// (png icons/variants + webp full-body loading art)
 const characterImages = import.meta.glob<{ default: ImageMetadata }>(
-  '../../assets/images/games/taimanin-squad/characterimage/**/*.png',
+  '../../assets/images/games/taimanin-squad/characterimage/**/*.{png,webp}',
   { eager: true }
 );
 
@@ -43,15 +44,27 @@ function findCharacterImage() {
 
   if (charImages.length === 0) return null;
 
-// Target dimensions based on variant
+  // Target dimensions based on variant
   const targetWidth = variant === 'icon' ? 128 : 256;
   const targetHeight = variant === 'icon' ? 128 : 512;
 
   // Find all images matching target dimensions
-  const matchingImages = charImages.filter(key => {
+  let matchingImages = charImages.filter(key => {
     const imgMeta = characterImages[key].default;
     return imgMeta.width === targetWidth && imgMeta.height === targetHeight;
   });
+
+  // the 512x2048 loading-screen illustration is the fallback full-body side
+  // portrait for units with no 256x512 standing art (recent units ship only
+  // the loading illustration). Standing art wins when present: it is the
+  // clean bright cut; loading art carries a darker background.
+  if (variant === 'side' && matchingImages.length === 0) {
+    const full = charImages.filter(key => {
+      const imgMeta = characterImages[key].default;
+      return imgMeta.width === 512 && imgMeta.height === 2048;
+    });
+    if (full.length) matchingImages = full;
+  }
 
   if (matchingImages.length === 0) {
     // Fallback: prefer icon-size (128x128) images as portrait stand-in

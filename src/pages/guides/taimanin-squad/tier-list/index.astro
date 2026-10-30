@@ -1,6 +1,6 @@
 ---
 // Taimanin Squad Tier List Page
-// Unified tier list, all elements visible on one page
+// Tabbed: our wiki tier list plus the JP/TW community tier lists
 // Only released SR/SR+/SSR characters
 
 import TierListLayout from '../../../../layouts/taimanin-squad/TierListLayout.astro';
@@ -15,15 +15,22 @@ import {
   ELEMENTS,
   getTotalReleasedCount,
 } from '../../../../data/taimanin-squad/tier-list-v2.js';
+import { getAllCharacters } from '../../../../data/taimanin-squad/characters.js';
+import { COMMUNITY_TIER_LISTS } from '../../../../data/taimanin-squad/community-tiers.js';
 
 const tierData = buildTierList();
 const totalChars = getTotalReleasedCount();
+
+// community lists reference units by our English display name
+const charByName = new Map(
+  getAllCharacters().map((c) => [c.names?.english || c.name, c])
+);
 
 const STAR_MAP = { 'SSR': '★★★★★', 'SR+': '★★★★', 'SR': '★★★', 'R+': '★★', 'R': '★' };
 const STAR_COUNT = { 'SSR': 5, 'SR+': 4, 'SR': 3, 'R+': 2, 'R': 1 };
 
 const pageTitle = 'Tier List - Taimanin Squad Wiki | GachaWiki';
-const pageDescription = `Complete tier list for ${totalChars} characters in Taimanin Squad. Rankings organized by element: Power, Technique, Agility, Balance.`;
+const pageDescription = `Complete tier list for ${totalChars} characters in Taimanin Squad, plus the Japanese and Traditional Chinese community tier lists. Rankings organized by element: Power, Technique, Agility, Balance.`;
 ---
 
 <TierListLayout
@@ -32,48 +39,123 @@ const pageDescription = `Complete tier list for ${totalChars} characters in Taim
   gameTitle="Tier List"
 >
   <div class="tier-list-container">
-    {Object.entries(tierData).map(([elementName, data]) => (
-      <section class="ts-tl-section">
-        <div class="ts-tl-section-header">
-          <TSTypeIcon type={elementName} size={24} />
-          <h3 class="ts-tl-section-title">{elementName}</h3>
-          <span class="ts-tl-section-count">{data.total} characters</span>
-        </div>
+    <div class="ts-tabs ts-tl-tabs">
+      <button class="ts-tab active" data-tab="wiki">Wiki Tier List</button>
+      {COMMUNITY_TIER_LISTS.map((list) => (
+        <button class="ts-tab" data-tab={list.id}>{list.tabLabel}</button>
+      ))}
+    </div>
 
-        <div class="tier-list-grid">
-          {TIER_ORDER.map(tier => {
-            const chars = data.tiers[tier];
-            if (!chars || chars.length === 0) return null;
-            return (
-              <div class={`tier-row tier-${tier.toLowerCase()}`}>
-                <div
-                  class="tier-label"
-                  style={`color: ${TIER_DEFINITIONS[tier].color}`}
-                >
-                  <span class="tier-name">{tier}</span>
+    <div class="ts-tab-content active" id="wiki-content">
+      {Object.entries(tierData).map(([elementName, data]) => (
+        <section class="ts-tl-section">
+          <div class="ts-tl-section-header">
+            <TSTypeIcon type={elementName} size={24} />
+            <h3 class="ts-tl-section-title">{elementName}</h3>
+            <span class="ts-tl-section-count">{data.total} characters</span>
+          </div>
+
+          <div class="tier-list-grid">
+            {TIER_ORDER.map(tier => {
+              const chars = data.tiers[tier];
+              if (!chars || chars.length === 0) return null;
+              return (
+                <div class={`tier-row tier-${tier.toLowerCase()}`}>
+                  <div
+                    class="tier-label"
+                    style={`color: ${TIER_DEFINITIONS[tier].color}`}
+                  >
+                    <span class="tier-name">{tier}</span>
+                  </div>
+                  <div class="tier-characters">
+                    {chars.map(char => (
+                      <a class="character-card" href={`/guides/taimanin-squad/characters/${char.slug}`} title={char.names?.english}>
+                        <TSCharacterImage
+                          icon={char.icon}
+                          alt={char.names?.english || 'Character'}
+                          width={64}
+                          height={64}
+                        />
+                        <span class={`ts-badge-stars stars-${STAR_COUNT[char.rarity] || 3}`}>
+                          {STAR_MAP[char.rarity] || char.rarity}
+                        </span>
+                        <span class="character-name">{char.names?.english}</span>
+                      </a>
+                    ))}
+                  </div>
+                </div>
+              );
+            })}
+          </div>
+        </section>
+      ))}
+    </div>
+
+    {COMMUNITY_TIER_LISTS.map((list) => (
+      <div class="ts-tab-content" id={`${list.id}-content`}>
+        <div class="ts-community-block">
+          <div class="ts-community-head">
+            <h4 class="ts-community-title">
+              <span class="ts-community-lang">{list.community}</span>
+              {list.source}
+            </h4>
+            <span class="ts-community-updated">Updated {list.updated}</span>
+            <a class="ts-community-link" href={list.url} target="_blank" rel="noopener noreferrer">
+              View source
+            </a>
+          </div>
+          <p class="ts-community-note">{list.note}</p>
+          <div class="tier-list-grid">
+            {list.tiers.map((row) => (
+              <div class={`tier-row tier-${row.tier.toLowerCase().replace('.', '')}`}>
+                <div class="tier-label" style={`color: ${list.tierColorMap[row.tier] || '#e8e2ee'}`}>
+                  <span class="tier-name">{row.tier}</span>
                 </div>
                 <div class="tier-characters">
-                  {chars.map(char => (
-                    <a class="character-card" href={`/guides/taimanin-squad/characters/${char.slug}`} title={char.names?.english}>
-                      <TSCharacterImage
-                        icon={char.icon}
-                        alt={char.names?.english || 'Character'}
-                        width={64}
-                        height={64}
-                      />
-                      <span class={`ts-badge-stars stars-${STAR_COUNT[char.rarity] || 3}`}>
-                        {STAR_MAP[char.rarity] || char.rarity}
-                      </span>
-                      <span class="character-name">{char.names?.english}</span>
-                    </a>
-                  ))}
+                  {row.characters.map((name) => {
+                    const char = charByName.get(name);
+                    if (!char) return <span class="character-name">{name}</span>;
+                    return (
+                      <a class="character-card" href={`/guides/taimanin-squad/characters/${char.slug}`} title={char.names?.english}>
+                        <TSCharacterImage
+                          icon={char.icon}
+                          alt={char.names?.english || 'Character'}
+                          width={64}
+                          height={64}
+                        />
+                        <span class={`ts-badge-stars stars-${STAR_COUNT[char.rarity] || 3}`}>
+                          {STAR_MAP[char.rarity] || char.rarity}
+                        </span>
+                        <span class="character-name">{char.names?.english}</span>
+                      </a>
+                    );
+                  })}
                 </div>
               </div>
-            );
-          })}
+            ))}
+          </div>
+          <p class="ts-community-footnote">
+            Korean and Chinese communities have no maintained text tier list; Korean discussion happens on
+            Arca.live and Chinese guides are video-only. Portraits link to the character pages on this wiki.
+          </p>
         </div>
-      </section>
+      </div>
     ))}
-
-   </div>
+  </div>
 </TierListLayout>
+
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const tabs = document.querySelectorAll('.ts-tl-tabs .ts-tab');
+    const contents = document.querySelectorAll('.tier-list-container > .ts-tab-content');
+    tabs.forEach(tab => {
+      tab.addEventListener('click', () => {
+        tabs.forEach(t => t.classList.remove('active'));
+        contents.forEach(c => c.classList.remove('active'));
+        tab.classList.add('active');
+        const content = document.getElementById(`${tab.getAttribute('data-tab')}-content`);
+        if (content) content.classList.add('active');
+      });
+    });
+  });
+</script>

@@ -18,7 +18,7 @@ const description =
 const gameTitle = 'Gallery';
 
 const files = import.meta.glob<{ default: ImageMetadata }>(
-  '../../../assets/images/games/taimanin-squad/characterimage/**/*.png',
+  '../../../assets/images/games/taimanin-squad/characterimage/**/*.{png,webp}',
   { eager: true }
 );
 
@@ -34,13 +34,27 @@ for (const key of Object.keys(files)) {
   const unitKey = m[1];
   const meta = files[key].default;
   const entry = (byUnit[unitKey] ??= { big: [], expressions: [] });
-  if (meta.width === 256 && (meta.height === 512 || meta.height === 256)) {
-    // base standing art (512 tall) or the square stand-in newer units ship
-    if (!m[2]) entry.big.unshift(key);
-    else entry.big.push(key);
+  if (
+    (meta.width === 256 && (meta.height === 512 || meta.height === 256)) ||
+    (meta.width === 512 && meta.height === 2048)
+  ) {
+    // full-body loading art (512x2048) and standing art (256x512) beat squares
+    entry.big.push(key);
   } else if (meta.width === 128 && meta.height === 128 && m[2]) {
     entry.expressions.push(key);
   }
+}
+
+// art priority: bright 256x512 standing cut > full-body loading
+// illustration (darker background) > 256x256 square crop
+const artPriority = (h: number, w: number) =>
+  h === 512 ? 3 : (w === 512 && h === 2048 ? 2 : 1);
+for (const entry of Object.values(byUnit)) {
+  entry.big.sort(
+    (a, b) =>
+      artPriority(files[b].default.height || 0, files[b].default.width || 0) -
+      artPriority(files[a].default.height || 0, files[a].default.width || 0)
+  );
 }
 
 const released = TAIMANIN_SQUAD_CHARACTERS.filter((c) => RELEASED_UNIT_IDS.has(c.id));

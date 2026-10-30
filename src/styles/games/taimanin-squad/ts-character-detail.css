@@ -506,3 +506,50 @@
   font-size: var(--text-xs);
   color: #34D399;
 }
+
+/* Other Versions of the same character */
+.ts-cd-versions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.ts-cd-version-card {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  text-decoration: none;
+  padding: 0.5rem 0.75rem;
+  border-radius: 10px;
+  background: var(--ts-bg-secondary, #1a171f);
+  border: 1px solid var(--ts-border, #2e2838);
+}
+
+.ts-cd-version-card img {
+  width: 48px;
+  height: 48px;
+  border-radius: 8px;
+  object-fit: contain;
+}
+
+.ts-cd-version-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+}
+
+.ts-cd-version-name {
+  font-size: var(--text-md);
+  font-weight: 600;
+  color: var(--ts-text-primary, #fff);
+}
+
+.ts-cd-version-meta {
+  font-size: var(--text-sm);
+  display: flex;
+  gap: 0.4rem;
+}
+
+.ts-cd-version-element {
+  color: var(--ts-text-secondary, #b3a8ab);
+}

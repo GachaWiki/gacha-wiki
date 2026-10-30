@@ -290,6 +290,41 @@ function formatMultiplier(skill: any): string | null {
       </div>
     </div>
 
+    {(() => {
+      // Other versions of the same character: same base name ignoring the [Tag] prefix
+      const stripTag = (n: string) => n.replace(/^\[[^\]]+\]\s*/, '').trim();
+      const currentKey = stripTag(charName);
+      if (!currentKey || currentKey.startsWith('Tbl_Unit_Name')) return null;
+      const versions = TAIMANIN_SQUAD_CHARACTERS
+        .filter(c => c.id !== data.id && stripTag(c.names?.english || c.name || '') === currentKey)
+        .sort((a, b) => a.id - b.id);
+      if (versions.length === 0) return null;
+      const STAR_TEXT = { 'SSR': '★★★★★', 'SR+': '★★★★', 'SR': '★★★', 'R+': '★★', 'R': '★' };
+      const STAR_N = { 'SSR': 5, 'SR+': 4, 'SR': 3, 'R+': 2, 'R': 1 };
+      return (
+        <section class="ts-cd-section ts-cd-versions-section">
+          <h2 class="ts-cd-section-title">Other Versions</h2>
+          <div class="ts-cd-versions">
+            {versions.map(v => {
+              const vName = v.names?.english || v.name;
+              return (
+                <a href={`/guides/taimanin-squad/characters/${v.slug}/`} class="ts-cd-version-card">
+                  <TSCharacterImage icon={v.icon} alt={vName} width={56} height={56} />
+                  <div class="ts-cd-version-info">
+                    <span class="ts-cd-version-name">{vName}</span>
+                    <span class="ts-cd-version-meta">
+                      <span class={`ts-badge-stars stars-${STAR_N[v.rarity] || 3}`}>{STAR_TEXT[v.rarity] || v.rarity}</span>
+                      <span class="ts-cd-version-element">{v.element}</span>
+                    </span>
+                  </div>
+                </a>
+              );
+            })}
+          </div>
+        </section>
+      );
+    })()}
+
     <!-- Lore -->
     {data.lore?.english && (
       <section class="ts-cd-section">
