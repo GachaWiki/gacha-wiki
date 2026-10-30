@@ -34,25 +34,23 @@ const now = new Date();
             <div class="bb-rec-banner-full">
               <BBBannerImage bannerId={rec.bannerId} alt={rec.character} />
             </div>
-            <div class:list={['bb-rec-verdict-strip', `bb-rec-verdict-strip-${rec.verdict}`]}>
-              <span class={`bb-rec-verdict bb-rec-verdict-${rec.verdict}`}>{style.label}</span>
-            </div>
-            <div class="bb-rec-head">
-              <div class="bb-rec-head-info">
+            <div class="bb-rec-body">
+              <div class="bb-rec-title-row">
                 <h3 class="bb-rec-char-name">{rec.character}</h3>
-                <div class="bb-rec-meta">
-                  {rec.bannerType && <span>{rec.bannerType}</span>}
-                  {dateStr && <span>{dateStr}</span>}
-                  {ended && <span class="bb-rec-ended">Ended</span>}
-                </div>
-                {charUrl && <a href={charUrl} class="bb-rec-char-link">View Character &rarr;</a>}
+                <span class={`bb-rec-verdict bb-rec-verdict-${rec.verdict}`}>{style.label}</span>
               </div>
+              <div class="bb-rec-meta">
+                {rec.bannerType && <span>{rec.bannerType}</span>}
+                {dateStr && <span>{dateStr}</span>}
+                {ended && <span class="bb-rec-ended">Ended</span>}
+              </div>
+              {charUrl && <a href={charUrl} class="bb-rec-char-link">View Character &rarr;</a>}
+              <ul class="bb-rec-reasons">
+                {rec.reasons.map((reason) => (
+                  <li class="bb-rec-reason">{reason}</li>
+                ))}
+              </ul>
             </div>
-            <ul class="bb-rec-reasons">
-              {rec.reasons.map((reason) => (
-                <li class="bb-rec-reason">{reason}</li>
-              ))}
-            </ul>
           </div>
         );
       })}
