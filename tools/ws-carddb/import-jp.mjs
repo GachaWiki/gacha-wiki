@@ -28,7 +28,7 @@ const pages = first.page_count;
 const total = first.total;
 console.log('cards total:', total, '| pages:', pages);
 
-const items = new Array(total);
+const items = Array.from({ length: total });
 const pageRange = [...Array(pages).keys()].map((i) => i + 1);
 const queue = [...pageRange];
 await Promise.all(

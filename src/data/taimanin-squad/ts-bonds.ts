@@ -89,10 +89,10 @@ export const TS_SKILL_SYNERGIES = [
   },
 ];
 
-export function getBondsForUnit(unitId) {
+export function getBondsForUnit(unitId: number) {
   return TS_BONDS.filter(b => b.unitIds.includes(unitId));
 }
 
-export function getSynergiesForUnit(unitId) {
+export function getSynergiesForUnit(unitId: number) {
   return TS_SKILL_SYNERGIES.filter(s => s.unitId === unitId || s.requiresUnitId === unitId);
 }

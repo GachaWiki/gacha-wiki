@@ -120,7 +120,7 @@ for (const job of toFetch) {
     await sharp(buf).resize({ width: 640, height: 640, fit: 'inside', withoutEnlargement: true }).webp({ quality: 80 }).toFile(file);
     jobs.push({ key: `ws-cards/${job.setId}/box.webp`, file });
     done++;
-  } catch (e) {
+  } catch {
     console.log('[skip]', job.setId);
   }
   await new Promise((r) => setTimeout(r, 120));

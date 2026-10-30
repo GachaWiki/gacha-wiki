@@ -2,7 +2,6 @@
 // HTTP via curl (the cardlist rejects some non-browser user agents), and the
 // card HTML fragment parser. No external dependencies.
 import { execFileSync } from 'node:child_process';
-import fs from 'node:fs';
 
 export const CARDLIST_BASE = 'https://en.ws-tcg.com';
 export const R2_BASE = 'https://pub-dd9a9c01bc7a43d0bb977b255815a5c4.r2.dev';

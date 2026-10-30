@@ -11,8 +11,6 @@ const outDir = path.join(REPO_ROOT, 'src', 'data', 'ws-cards');
 fs.mkdirSync(outDir, { recursive: true });
 
 const args = process.argv.slice(2);
-const jsId = (setId) => setId.replace(/-([a-z0-9])/g, (_, c) => c.toUpperCase());
-const jsConst = (setId) => jsId(setId).replace(/^(.)/, (c) => c.toUpperCase()) + 'Set';
 
 for (const setId of args) {
   const set = JSON.parse(fs.readFileSync(path.join(setsDir, `${setId}.json`), 'utf8'));

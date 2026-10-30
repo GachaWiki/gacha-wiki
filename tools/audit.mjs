@@ -23,7 +23,6 @@ function walk(dir, exts, acc = []) {
 
 const codeFiles = walk(SRC, ['.astro', '.ts', '.js', '.mjs', '.svelte']);
 const navFile = path.join(SRC, 'data/game-navigation.ts');
-const dataCode = codeFiles.filter((f) => f.includes(`${SRC}/data`));
 const pagesCode = codeFiles.filter((f) => !f.includes(`${SRC}/data`));
 
 // ---------- 1. internal links ----------
@@ -104,7 +103,6 @@ out.push('  nav GameKey:    ' + fmt(gameKeyUnion));
 out.push('  NAV_DATA keys:  ' + fmt(navDataKeys));
 out.push('  seo g() ids:    ' + fmt(seoLookups));
 out.push('  breadcrumb ids: ' + fmt(bcrumbKeys));
-const base = new Set(dataDirs.filter((d) => d !== 'stella-sora' || true));
 for (const d of dataDirs.sort()) {
   const miss = [];
   if (!idInGames.includes(d)) miss.push('games.ts');
