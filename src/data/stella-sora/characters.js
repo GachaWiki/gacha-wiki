@@ -441,13 +441,11 @@ function transformDiscData(disc) {
   // Get max level stats (last entry in stats array)
   const maxStats = disc.stats[disc.stats.length - 1];
   const atkStat = maxStats.find(s => s.id === 'atk');
-  const dmgStat = maxStats.find(s => s.id !== 'atk');
 
   // Get max level skill params (last entry in params array)
   const maxMainParams = disc.mainSkill.params[disc.mainSkill.params.length - 1];
 
   // Build element damage key (e.g., 'ventusDmg')
-  const elementDmgKey = disc.element.toLowerCase() + 'Dmg';
 
   // Build support melodies from supportNote
   // supportNote is an array of levels (1-9), each containing melody notes the disc provides
@@ -484,10 +482,10 @@ function transformDiscData(disc) {
     element: disc.element,
     tags: disc.tag,
     stats: {
+      // full Lv.90 stat rows straight from the disc (hp / atk / element|skill|ultimate damage)
+      statRows: maxStats,
       basicAtk: atkStat?.value || 0,
-      dupeAtkBonus: disc.dupe?.[4]?.[0]?.value || 0,
       dupeAtkTiers: [0, ...(disc.dupe || []).map(row => row[0]?.value || 0)],
-      [elementDmgKey]: dmgStat ? `${dmgStat.value}%` : '0%',
     },
     skills: {
       melody: {
