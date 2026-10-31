@@ -245,12 +245,16 @@
   min-width: 0;
 }
 
-/* skill rank selector: value line above the badge row, click a rank to switch */
+/* skill rank selector: badges + current values on one picker row, divided
+   from the description below so the changing numbers never read as body text */
 .bd2-skill-ranks {
-  display: inline-flex;
-  flex-direction: column;
-  gap: 4px;
-  margin-top: 6px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px 14px;
+  margin-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid var(--bd2-border);
 }
 
 .bd2-rank-value {
@@ -340,6 +344,133 @@
   word-break: break-word;
 }
 
+/* ---------- stats & growth (level curve, awakening, potential) ---------- */
+.bd2-growth-block {
+  margin-bottom: 1.25rem;
+}
+
+.bd2-growth-block:last-child {
+  margin-bottom: 0;
+}
+
+.bd2-growth-block h3 {
+  margin: 0 0 0.5rem;
+  font-size: var(--text-base);
+  font-weight: 700;
+  color: var(--bd2-text);
+}
+
+.bd2-growth-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: var(--text-sm);
+}
+
+.bd2-growth-table th,
+.bd2-growth-table td {
+  text-align: right;
+  padding: 6px 10px;
+  border-bottom: 1px solid var(--bd2-border);
+}
+
+.bd2-growth-table th:first-child,
+.bd2-growth-table td:first-child {
+  text-align: left;
+  color: var(--bd2-text-dim);
+}
+
+.bd2-growth-table th {
+  color: var(--bd2-text-dim);
+  font-size: var(--text-xs);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.bd2-growth-note {
+  margin: 0.5rem 0 0;
+  font-size: var(--text-xs);
+  color: var(--bd2-text-dim);
+}
+
+.bd2-growth-inline {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+.bd2-potential-slot {
+  display: flex;
+  gap: 10px;
+  align-items: baseline;
+  flex-wrap: wrap;
+  margin-bottom: 6px;
+}
+
+.bd2-potential-name {
+  min-width: 90px;
+  font-size: var(--text-sm);
+  font-weight: 700;
+  color: var(--bd2-accent-strong);
+}
+
+.bd2-potential-levels {
+  display: inline-flex;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+.bd2-potential-lv {
+  font-size: var(--text-xs);
+  color: var(--bd2-text-dim);
+  background: var(--bd2-bg-secondary);
+  border: 1px solid var(--bd2-border);
+  border-radius: 5px;
+  padding: 2px 7px;
+}
+
+/* potential liberation: three labeled tracks */
+.bd2-potential-track {
+  margin-bottom: 0.75rem;
+}
+
+.bd2-potential-track-name {
+  display: inline-block;
+  font-size: var(--text-xs);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--bd2-accent-strong);
+  margin-bottom: 2px;
+}
+
+/* awakening bonuses: plain stat rows (no badges) */
+.bd2-awaken-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.bd2-awaken-list li {
+  display: flex;
+  justify-content: space-between;
+  padding: 6px 10px;
+  border-bottom: 1px solid var(--bd2-border);
+  font-size: var(--text-sm);
+}
+
+.bd2-awaken-list li:last-child {
+  border-bottom: none;
+}
+
+.bd2-awaken-stat {
+  color: var(--bd2-text-dim);
+}
+
+.bd2-awaken-val {
+  font-weight: 700;
+  color: var(--bd2-accent-strong);
+}
+
 /* ---------- section cards ---------- */
 .bd2-detail-section {
   background: var(--bd2-bg-tertiary);
@@ -360,29 +491,15 @@
   font-weight: 600;
 }
 
-/* ---------- solid chips ---------- */
-.bd2-chip {
+/* ---------- detail header meta: plain text items (no chips) ---------- */
+.bd2-meta-item {
   display: inline-flex;
   align-items: center;
   gap: 6px;
-  border-radius: 5px;
-  padding: 3px 10px;
-  font-size: var(--text-xs);
-  font-weight: 700;
-  color: #ffffff;
-  background: #5e5544;
+  font-size: var(--text-sm);
+  font-weight: 600;
+  color: var(--bd2-text);
   line-height: 1.5;
-}
-
-.bd2-chip-el-0 { background: #41729b; }
-.bd2-chip-el-1 { background: #a8524a; }
-.bd2-chip-el-2 { background: #4f7d55; }
-.bd2-chip-el-3 { background: #a8934a; color: #1c1710; }
-.bd2-chip-el-4 { background: #6d5c8c; }
-
-.bd2-chip-dim {
-  background: var(--bd2-accent-tint);
-  color: var(--bd2-accent-strong);
 }
 
 /* ---------- toolbar (search + count + filters) ---------- */
@@ -599,6 +716,39 @@ a.bd2-card:active {
   color: var(--bd2-text);
 }
 
+/* bonding chips: one clickable control per bonding node; active ones rescale
+   the skill numbers (interactive controls, not informational badges) */
+.bd2-bond-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px;
+  margin: 8px 0 14px;
+}
+
+.bd2-bond-row-label {
+  font-size: var(--text-xs);
+  font-weight: 600;
+  color: var(--bd2-accent-strong);
+}
+
+.bd2-bond-node {
+  font-size: var(--text-xs);
+  font-weight: 600;
+  padding: 3px 10px;
+  border-radius: 6px;
+  border: 1px solid var(--bd2-border);
+  background: var(--bd2-bg-tertiary);
+  color: var(--bd2-text);
+  cursor: pointer;
+}
+
+.bd2-bond-node.active {
+  border-color: var(--bd2-accent);
+  background: var(--bd2-accent-tint);
+  color: var(--bd2-accent-strong);
+}
+
 .bd2-skill-meta {
   font-size: var(--text-xs);
   color: var(--bd2-text-dim);
@@ -606,10 +756,48 @@ a.bd2-card:active {
 }
 
 .bd2-skill-desc {
-  margin: 4px 0 0;
+  margin: 10px 0 0;
   font-size: var(--text-sm);
   color: var(--bd2-text-dim);
   line-height: 1.5;
+}
+
+/* ---------- per-unit gallery (story CGs + official art) ---------- */
+.bd2-gallery-block {
+  margin-bottom: 1.25rem;
+}
+
+.bd2-gallery-block:last-child {
+  margin-bottom: 0;
+}
+
+.bd2-gallery-block h3 {
+  margin: 0 0 0.5rem;
+  font-size: var(--text-base);
+  font-weight: 700;
+  color: var(--bd2-text);
+}
+
+.bd2-gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 8px;
+}
+
+.bd2-gallery-item {
+  display: block;
+  border: 1px solid var(--bd2-border);
+  border-radius: 8px;
+  overflow: hidden;
+  /* uniform square tiles; non-square art is matted, never cropped */
+  background: var(--bd2-bg-tertiary);
+}
+
+.bd2-gallery-item img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 1;
+  object-fit: contain;
 }
 
 /* ---------- ambient hero video (BB pattern: viewport-centered, contain, shallow fade) ---------- */

@@ -3,6 +3,7 @@
 // Old base-character URLs redirect to the character's default unit page.
 import GameLayout from '../../../../layouts/brown-dust-2/GameLayout.astro';
 import { ELEMENTS, getBD2Unit, getBD2Character } from '../../../../data/brown-dust-2/characters.js';
+import { getBD2Gallery } from '../../../../data/brown-dust-2/gallery.js';
 
 export async function getStaticPaths() {
   const { brownDust2Units, brownDust2Characters } = await import('../../../../data/brown-dust-2/characters.js');
@@ -34,6 +35,10 @@ if (!unit) {
 const elementName = ELEMENTS[unit.element] || 'Water';
 const ch = getBD2Character(unit.charSlug);
 const siblingUnits = ch ? ch.units.filter((s) => s !== unit.slug) : [];
+const gallery = getBD2Gallery(unit.slug);
+// bonding nodes scale effect numbers marked [[buffIdx|number]] in tier texts;
+// base views render the numbers plain
+const stripBond = (s) => (s || '').replace(/\[\[\d+\|([0-9.]+)\]\]/g, '$1');
 ---
 
 <GameLayout
@@ -60,22 +65,41 @@ const siblingUnits = ch ? ch.units.filter((s) => s !== unit.slug) : [];
           {unit.nameJp ? `${unit.nameJp} · ` : ''}{unit.charName}
         </p>
         <div class="bd2-meta">
-          <span class={`bd2-chip bd2-chip-el-${unit.element}`}>
+          <span class="bd2-meta-item">
             <img class="bd2-el-icon" src={ELEMENT_ICONS[elementName]} alt="" width="18" height="18" loading="lazy" />
             {elementName}
           </span>
-          <span class="bd2-chip bd2-chip-dim bd2-stars-row">
+          <span class="bd2-meta-item bd2-stars-row">
             {Array.from({ length: Math.min(unit.grade, 5) }).map(() => (
               <img class="bd2-star-icon" src={STAR} alt="" width="16" height="16" loading="lazy" />
             ))}
           </span>
-          {unit.vaJp && <span class="bd2-chip bd2-chip-dim">JP VA: {unit.vaJp}</span>}
+          {unit.vaJp && <span class="bd2-meta-item">JP VA: {unit.vaJp}</span>}
         </div>
       </div>
     </div>
 
     <div class="bd2-detail-section">
       <h2>Skills</h2>
+      {unit.bonding?.length > 0 && (
+        <div class="bd2-bond-row">
+          <span class="bd2-bond-row-label">Bonding</span>
+          {unit.bonding.map((b) => (
+            <button
+              type="button"
+              class="bd2-bond-node"
+              data-v={b.v ?? 0}
+              data-vi={b.vi ? JSON.stringify(b.vi) : undefined}
+              data-s={b.s ?? 0}
+              data-c={b.c ?? 0}
+              data-t={b.t ?? 0}
+              aria-pressed="false"
+            >
+              {b.label}
+            </button>
+          ))}
+        </div>
+      )}
       {unit.skills.map((skill) => (
         <div class="bd2-skill-row">
           {(skill.icon || unit.skillCard) && (
@@ -91,7 +115,9 @@ const siblingUnits = ch ? ch.units.filter((s) => s !== unit.slug) : [];
           <div class="bd2-skill-body">
             <span class="bd2-skill-name">{skill.name}</span>
             {skill.cooldown != null && (
-              <span class="bd2-skill-meta">CD {skill.cooldown} turn{skill.cooldown === 1 ? '' : 's'}</span>
+              <span class="bd2-skill-meta" data-cd={skill.cooldown}>
+                CD {skill.cooldown} turn{skill.cooldown === 1 ? '' : 's'}
+              </span>
             )}
             {skill.tiers && skill.tiers.length > 1 && (
               <div class="bd2-skill-ranks" data-ranks>
@@ -101,8 +127,11 @@ const siblingUnits = ch ? ch.units.filter((s) => s !== unit.slug) : [];
                       type="button"
                       class={`bd2-rank-btn${t.rank === 0 ? ' active' : ''}`}
                       data-text={t.text}
-                      data-meta={[t.value != null ? `${t.value}%` : '', t.turns != null ? `${t.turns} turns` : '', t.sp != null ? `SP ${t.sp}` : ''].filter(Boolean).join(' · ')}
-                      aria-label={`Skill rank ${t.rank}`}
+                      data-l={t.tier && t.tier !== 'Base' ? t.tier : undefined}
+                      data-v={t.value != null ? t.value : undefined}
+                      data-t={t.turns != null ? t.turns : undefined}
+                      data-s={t.sp != null ? t.sp : undefined}
+                      aria-label={`Skill rank ${t.rank}${t.tier && t.tier !== 'Base' ? ` ${t.tier}` : ''}`}
                     >
                       {t.rank === 0 ? (
                         <span class="bd2-rank-zero">0</span>
@@ -120,17 +149,139 @@ const siblingUnits = ch ? ch.units.filter((s) => s !== unit.slug) : [];
                   ))}
                 </span>
                 <span class="bd2-rank-value" data-rank-value>
-                  {skill.tiers[0].value != null ? `${skill.tiers[0].value}%` : ''}
-                  {skill.tiers[0].turns != null && ` · ${skill.tiers[0].turns} turns`}
-                  {skill.tiers[0].sp != null && ` · SP ${skill.tiers[0].sp}`}
+                  {[
+                    skill.tiers[0].value != null ? `${skill.tiers[0].value}%` : '',
+                    skill.tiers[0].turns != null ? `${skill.tiers[0].turns} turns` : '',
+                    skill.tiers[0].sp != null ? `SP ${skill.tiers[0].sp}` : '',
+                  ].filter(Boolean).join(' · ')}
                 </span>
               </div>
             )}
-            <p class="bd2-skill-desc" data-skill-desc>{skill.desc}</p>
+            <p class="bd2-skill-desc" data-skill-desc>{stripBond(skill.desc)}</p>
           </div>
         </div>
       ))}
     </div>
+
+    {(unit.growth?.length || unit.awakening?.length || unit.potential?.length) && (
+      <div class="bd2-detail-section">
+        <h2>Stats and Growth</h2>
+
+        {unit.growth?.length > 0 && (
+          <div class="bd2-growth-block">
+            <h3>Level growth (rank-up caps)</h3>
+            <table class="bd2-growth-table">
+              <thead>
+                <tr>
+                  <th>Level</th>
+                  <th>HP</th>
+                  <th>ATK</th>
+                  <th>MAG</th>
+                  <th>DEF</th>
+                  <th>M.RES</th>
+                </tr>
+              </thead>
+              <tbody>
+                {(() => {
+                  const base = {
+                    HP: unit.stats?.hp || 0,
+                    ATK: unit.stats?.physAtk || 0,
+                  };
+                  let hp = base.HP, atk = base.ATK, mag = 0, def = unit.stats?.physDef || 0, mres = 0;
+                  return unit.growth.map((g) => {
+                    hp += g.gains.Health || 0;
+                    atk += g.gains.PhysicalPower || 0;
+                    mag += g.gains.MagicPower || 0;
+                    def += g.gains.PhysicalDefense || 0;
+                    mres += g.gains.MagicDefense || 0;
+                    return (
+                      <tr>
+                        <td>Lv {g.cap}{g.grade < 5 ? ` (rank ${g.grade})` : ' (max)'}</td>
+                        <td>{Math.round(hp)}</td>
+                        <td>{Math.round(atk)}</td>
+                        <td>{Math.round(mag)}</td>
+                        <td>{Math.round(def)}</td>
+                        <td>{Math.round(mres)}</td>
+                      </tr>
+                    );
+                  });
+                })()}
+              </tbody>
+            </table>
+            <p class="bd2-growth-note">Totals are base stats plus the level curve; each rank-up raises the level cap.</p>
+          </div>
+        )}
+
+        {unit.awakening?.length > 0 && (
+          <div class="bd2-growth-block">
+            <h3>Awakening bonuses</h3>
+            <ul class="bd2-awaken-list">
+              {unit.awakening.map((a) => (
+                <li>
+                  <span class="bd2-awaken-stat">{a.stat}</span>
+                  <span class="bd2-awaken-val">+{a.value}{a.pct ? '%' : ''}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
+        )}
+
+        {unit.potential && (unit.potential.permanent?.length || unit.potential.skill?.length || unit.potential.bonding?.length) && (
+          <div class="bd2-growth-block">
+            <h3>Potential Liberation</h3>
+
+            {unit.potential.permanent?.length > 0 && (
+              <div class="bd2-potential-track">
+                <span class="bd2-potential-track-name">Permanent</span>
+                <ul class="bd2-awaken-list">
+                  {unit.potential.permanent.map((p) => (
+                    <li>
+                      <span class="bd2-awaken-stat">{p.stat}{p.count > 1 ? ` x${p.count}` : ''}</span>
+                      <span class="bd2-awaken-val">+{p.value}{p.pct ? '%' : ''}</span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            )}
+
+            {unit.potential.skill?.length > 0 && (
+              <div class="bd2-potential-track">
+                <span class="bd2-potential-track-name">Skill</span>
+                <ul class="bd2-awaken-list">
+                  {unit.potential.skill.map((p) => (
+                    <li>
+                      <span class="bd2-awaken-stat">{p.effect}</span>
+                      <span class="bd2-awaken-val">{p.count > 1 ? `x${p.count}` : ''}</span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            )}
+
+            {unit.potential.bonding?.length > 0 && (
+              <div class="bd2-potential-track">
+                <span class="bd2-potential-track-name">Bonding</span>
+                <ul class="bd2-awaken-list">
+                  {unit.potential.bonding.map((p) => (
+                    <li>
+                      <span class="bd2-awaken-stat">
+                        {p.effect || `${p.stat} +${p.value}${p.pct ? '%' : ''}`}
+                      </span>
+                      <span class="bd2-awaken-val">{p.count > 1 ? `x${p.count}` : ''}</span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            )}
+
+            <p class="bd2-growth-note">
+              Per-costume potential nodes. Permanent nodes raise stats, Skill nodes modify the
+              costume's skills, Bonding nodes unlock through the character bond.
+            </p>
+          </div>
+        )}
+      </div>
+    )}
 
     {unit.talent && unit.talent.skills.length > 0 && (
       <div class="bd2-detail-section">
@@ -159,6 +310,36 @@ const siblingUnits = ch ? ch.units.filter((s) => s !== unit.slug) : [];
       </div>
     )}
 
+    {gallery && (gallery.story?.length || gallery.official?.length) && (
+      <div class="bd2-detail-section">
+        <h2>Gallery</h2>
+        {gallery.story?.length > 0 && (
+          <div class="bd2-gallery-block">
+            <h3>Story</h3>
+            <div class="bd2-gallery-grid">
+              {gallery.story.map((g) => (
+                <a class="bd2-gallery-item" href={g.src} target="_blank" rel="noopener">
+                  <img src={g.src} alt={`${unit.name} story CG`} loading="lazy" />
+                </a>
+              ))}
+            </div>
+          </div>
+        )}
+        {gallery.official?.length > 0 && (
+          <div class="bd2-gallery-block">
+            <h3>Official art</h3>
+            <div class="bd2-gallery-grid">
+              {gallery.official.map((g) => (
+                <a class="bd2-gallery-item" href={g.src} target="_blank" rel="noopener">
+                  <img src={g.src} alt={`${unit.name} official art`} loading="lazy" />
+                </a>
+              ))}
+            </div>
+          </div>
+        )}
+      </div>
+    )}
+
     {siblingUnits.length > 0 && (
       <div class="bd2-detail-section">
         <h2>Other {unit.charName} units</h2>
@@ -179,38 +360,110 @@ const siblingUnits = ch ? ch.units.filter((s) => s !== unit.slug) : [];
 </GameLayout>
 
 <script is:inline>
-  // Skill rank selector: clicking a rank badge shows that rank's value.
+  // Skill rank selector + per-node bonding chips. Picking a rank swaps the
+  // value line and description to that rank; each bonding chip toggles ONE
+  // node, and every active subset rescales the [[buffIdx|number]] markers in
+  // the descriptions plus the value line, SP costs and cooldowns. A "+15%"
+  // chip ADDS 15 to percent numbers (200 -> 215) instead of multiplying;
+  // changed numbers show "boosted (base > boosted)".
   (function () {
-    document.querySelectorAll('[data-ranks]').forEach(function (group) {
+    var chips = [].slice.call(document.querySelectorAll('.bd2-bond-node'));
+
+    function fmt(n) {
+      var r = Math.round(n * 10) / 10;
+      return String(Math.abs(r - Math.round(r)) < 1e-9 ? Math.round(r) : r);
+    }
+
+    function became(base, boosted) {
+      return ' (' + fmt(base) + ' > ' + fmt(boosted) + ')';
+    }
+
+    function activeSums() {
+      var sum = { v: 0, s: 0, c: 0, t: 0, vi: {} };
+      chips.forEach(function (ch) {
+        if (!ch.classList.contains('active')) return;
+        sum.v += parseFloat(ch.getAttribute('data-v')) || 0;
+        sum.s += parseFloat(ch.getAttribute('data-s')) || 0;
+        sum.c += parseFloat(ch.getAttribute('data-c')) || 0;
+        sum.t += parseFloat(ch.getAttribute('data-t')) || 0;
+        var vi = ch.getAttribute('data-vi');
+        if (vi) {
+          try {
+            vi = JSON.parse(vi);
+            for (var k in vi) sum.vi[k] = (sum.vi[k] || 0) + vi[k];
+          } catch (e) { /* bad payload, ignore */ }
+        }
+      });
+      return sum;
+    }
+
+    // bonding fraction for a buff index; percent numbers add it x100 (a 0.15
+    // chip adds 15 to the displayed percent), flat numbers add it as-is
+    function addFor(sum, idx, isPct) {
+      var amt = sum.v + (sum.vi[String(idx)] || 0);
+      return isPct ? amt * 100 : amt;
+    }
+
+    function renderGroup(group, sum) {
+      var active = group.querySelector('.bd2-rank-btn.active');
+      if (!active) return;
       var value = group.querySelector('[data-rank-value]');
-      var buttons = group.querySelectorAll('.bd2-rank-btn');
-      buttons.forEach(function (btn) {
+      var desc = group.closest('.bd2-skill-body').querySelector('[data-skill-desc]');
+      var parts = [];
+      var l = active.getAttribute('data-l');
+      if (l) parts.push(l);
+      var v = active.getAttribute('data-v');
+      if (v != null) {
+        var base = parseFloat(v);
+        var boosted = base + addFor(sum, 0, true); // value line is percent-displayed
+        parts.push(fmt(boosted) + '%' + (boosted !== base ? became(base, boosted) : ''));
+      }
+      var t = active.getAttribute('data-t');
+      if (t != null) {
+        var tb = (parseInt(t, 10) || 0) + sum.t;
+        parts.push(tb + ' turns' + (sum.t ? ' (' + t + ' > ' + tb + ')' : ''));
+      }
+      var sp = active.getAttribute('data-s');
+      if (sp != null) {
+        var spb = Math.max(0, (parseInt(sp, 10) || 0) - sum.s);
+        parts.push('SP ' + spb + (sum.s ? ' (' + sp + ' > ' + spb + ')' : ''));
+      }
+      value.textContent = parts.join(' · ');
+      var text = active.getAttribute('data-text') || '';
+      desc.textContent = text.replace(/\[\[(\d+)\|([\d.]+)\]\](%?)/g, function (_, idx, num, pct) {
+        var b = parseFloat(num);
+        var boosted = b + addFor(sum, parseInt(idx, 10), !!pct);
+        return fmt(boosted) + (pct || '') + (boosted !== b ? became(b, boosted) : '');
+      });
+    }
+
+    function renderAll() {
+      var sum = activeSums();
+      document.querySelectorAll('[data-ranks]').forEach(function (g) { renderGroup(g, sum); });
+      document.querySelectorAll('[data-cd]').forEach(function (el) {
+        var cd = el.getAttribute('data-cd');
+        if (cd == null) return;
+        var base = parseInt(cd, 10) || 0;
+        var cdb = Math.max(0, base - sum.c);
+        el.textContent = 'CD ' + cdb + ' turn' + (cdb === 1 ? '' : 's') + (sum.c ? ' (' + base + ' > ' + cdb + ')' : '');
+      });
+    }
+
+    document.querySelectorAll('[data-ranks]').forEach(function (group) {
+      group.querySelectorAll('.bd2-rank-btn').forEach(function (btn) {
         btn.addEventListener('click', function () {
-          buttons.forEach(function (b) { b.classList.remove('active'); });
+          group.querySelectorAll('.bd2-rank-btn').forEach(function (b) { b.classList.remove('active'); });
           btn.classList.add('active');
-          var parts = [btn.getAttribute('data-value'), btn.getAttribute('data-turns'), btn.getAttribute('data-sp')].filter(Boolean);
-          value.textContent = parts.join(' · ');
+          renderGroup(group, activeSums());
         });
       });
     });
-  })();
-</script>
 
-<script is:inline>
-  // Skill rank selector: badges sit above the text; clicking a rank swaps the
-  // full description and the value line to that rank's resolved numbers.
-  (function () {
-    document.querySelectorAll('[data-ranks]').forEach(function (group) {
-      var value = group.querySelector('[data-rank-value]');
-      var desc = group.closest('.bd2-skill-body').querySelector('[data-skill-desc]');
-      var buttons = group.querySelectorAll('.bd2-rank-btn');
-      buttons.forEach(function (btn) {
-        btn.addEventListener('click', function () {
-          buttons.forEach(function (b) { b.classList.remove('active'); });
-          btn.classList.add('active');
-          value.textContent = btn.getAttribute('data-meta') || '';
-          desc.textContent = btn.getAttribute('data-text') || desc.textContent;
-        });
+    chips.forEach(function (ch) {
+      ch.addEventListener('click', function () {
+        ch.classList.toggle('active');
+        ch.setAttribute('aria-pressed', ch.classList.contains('active') ? 'true' : 'false');
+        renderAll();
       });
     });
   })();
