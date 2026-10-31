@@ -1,0 +1,76 @@
+---
+// Global Google AdSense responsive display unit, rendered from Header.astro
+// right below the news ticker on every page. Renders nothing at all until
+// ADSENSE_CLIENT + ADSENSE_SLOT_HEADER are filled in src/consts.ts. In dev,
+// PUBLIC_ADS_PREVIEW=1 shows an empty placeholder box at the same spot so the
+// placement can be checked on localhost without hitting Google.
+import { ADSENSE_CLIENT, ADSENSE_SLOT_HEADER } from '../consts';
+
+const enabled = Boolean(ADSENSE_CLIENT && ADSENSE_SLOT_HEADER) && !import.meta.env.DEV;
+const preview = import.meta.env.DEV && import.meta.env.PUBLIC_ADS_PREVIEW === '1';
+---
+
+{
+  enabled && (
+    <div class="gw-ad-slot">
+      <span class="gw-ad-label">Advertisement</span>
+      <ins
+        class="adsbygoogle"
+        style="display:block"
+        data-ad-client={ADSENSE_CLIENT}
+        data-ad-slot={ADSENSE_SLOT_HEADER}
+        data-ad-format="auto"
+        data-full-width-responsive="true"
+      />
+      <script is:inline set:html="(adsbygoogle = window.adsbygoogle || []).push({});" />
+    </div>
+  )
+}
+
+{
+  preview && (
+    <div class="gw-ad-slot">
+      <span class="gw-ad-label">Advertisement</span>
+      <div class="gw-ad-preview-box">Ad unit placeholder (dev preview)</div>
+    </div>
+  )
+}
+
+<style>
+  /* Same page chrome as NewsTicker: content-width container, no background of
+     its own. The label sits muted above the unit; if AdSense returns no fill
+     the <ins> stays empty and the whole slot collapses via :has. */
+  .gw-ad-slot {
+    max-width: 72rem;
+    margin: 0 auto;
+    padding: 0.5rem 1.25rem 0.75rem;
+  }
+
+  .gw-ad-slot:has(> ins:empty) {
+    display: none;
+  }
+
+  .gw-ad-label {
+    display: block;
+    text-align: center;
+    color: var(--text-inverse, #ffffff);
+    opacity: 0.55;
+    font-size: var(--text-2xs);
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    margin-bottom: 0.25rem;
+  }
+
+  /* Dev-only placement preview: quiet dark box, same amber border idiom as
+     the header bar. Never ships to production. */
+  .gw-ad-preview-box {
+    border: 1px solid rgba(255, 183, 77, 0.3);
+    background: var(--bg-dark);
+    color: var(--text-inverse, #ffffff);
+    opacity: 0.6;
+    font-size: var(--text-sm);
+    text-align: center;
+    padding: 3.25rem 1rem;
+    border-radius: 8px;
+  }
+</style>

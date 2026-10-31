@@ -19,7 +19,7 @@
   "scripts": {
     "dev": "astro dev",
     "build": "astro check && astro build",
-    "build:cloudflare": "astro build",
+    "build:cloudflare": "astro build && node scripts/sanitize-dist.mjs",
     "preview": "astro preview",
     "start": "astro preview",
     "astro": "astro",

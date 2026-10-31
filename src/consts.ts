@@ -18,6 +18,15 @@ export const SITE = {
   // Webhooks are handled server-side only for security
 } as const;
 
+// Google AdSense config. The loader (Analytics.astro) renders once the client
+// ID is set; the header unit (AdSlot.astro) additionally needs a slot ID
+// created in the AdSense console (Ads -> By ad unit -> Display ads).
+// PUBLIC_ADSENSE_* env vars override the baked defaults.
+export const ADSENSE_CLIENT: string =
+  import.meta.env.PUBLIC_ADSENSE_CLIENT || 'ca-pub-5642874552102319';
+export const ADSENSE_SLOT_HEADER: string =
+  import.meta.env.PUBLIC_ADSENSE_SLOT_HEADER || '3435163100';
+
 // Backward compatibility exports
 export const SITE_TITLE = SITE.TITLE;
 export const SITE_DESCRIPTION = SITE.DESCRIPTION;

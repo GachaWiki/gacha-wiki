@@ -1,5 +1,9 @@
 ---
-// Google Analytics component for GA4 integration
+// Site-wide third-party scripts: GA4 analytics + the Google AdSense loader.
+// Included inside <head> by every layout. The AdSense loader only renders
+// once ADSENSE_CLIENT is filled in src/consts.ts.
+import { ADSENSE_CLIENT } from '../consts';
+
 const gaId = import.meta.env.PUBLIC_GA_ID || 'G-LZV7DF140B';
 const isDev = import.meta.env.DEV;
 ---
@@ -23,5 +27,16 @@ const isDev = import.meta.env.DEV;
       gtag('config', '${gaId}');`}
       />
     </>
+  )
+}
+
+{
+  ADSENSE_CLIENT && !isDev && (
+    <script
+      async
+      src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${ADSENSE_CLIENT}`}
+      crossorigin="anonymous"
+      data-cfasync="false"
+    />
   )
 }
