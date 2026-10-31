@@ -70,11 +70,6 @@ const NOTE_ZH = {
     title: '게임 전체 최고의 방어력 감소 능력',
     text: '팔레카는 게임 전체에서 가장 뛰어난 방어력 감소 능력을 보유하고 있습니다. "시련의 글귀"가 부여하는 [불안정]은 모든 방어를 1140 즉시 감소시키고, 시전자의 회피 수치에 따라 최대 200까지 추가 감소시키며, 대상이 받는 피해량도 증가시킵니다. 보스에게 걸면 부대 전체의 화력이 눈에 띄게 상승하므로, 원킬 전법에서 핵심 서포터입니다.',
   },
-  Garud: {
-    type: 'info',
-    title: 'SSS 또는 UR, 검증 필요',
-    text: '가루드는 SSS와 UR 사이의 평가를 받고 있으며, 아직 더 많은 테스트가 필요하지만 잠재력이 매우 높아 상당한 초격차가 될 것으로 전망됩니다.',
-  },
   Matrotho: {
     type: 'warning',
     title: '부대 조합 필요',
@@ -203,7 +198,7 @@ function getTierClassName(tier) {
         {MODE_ZH['map-clear'].description}
       </p>
       <p class="tier-list-updated" id="list-updated" data-initial-type="map-clear">
-        최종 업데이트: 2026-09-28
+        최종 업데이트: 2026-10-31
       </p>
     </div>
 
@@ -509,8 +504,8 @@ function getTierClassName(tier) {
         if (listDescription && listDescription.textContent !== mode.description) {
           listDescription.textContent = mode.description;
         }
-        if (listUpdated && listUpdated.textContent !== '최종 업데이트: 2026-09-28') {
-          listUpdated.textContent = '최종 업데이트: 2026-09-28';
+        if (listUpdated && listUpdated.textContent !== '최종 업데이트: 2026-10-31') {
+          listUpdated.textContent = '최종 업데이트: 2026-10-31';
         }
 
         const allDisplays = document.querySelectorAll('.tier-list-display');

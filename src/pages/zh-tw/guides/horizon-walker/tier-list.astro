@@ -70,11 +70,6 @@ const NOTE_ZH = {
     title: '全遊戲最高削防能力',
     text: '帕萊卡擁有全遊戲最高的削防能力：她的「試煉之文」附帶的 [Unstable] 會直接削減 1140 點所有防禦，並依自身迴避最多再削減 200 點防禦，同時還會提高目標的受傷量。施加給 Boss 後全隊輸出都會顯著提升，是秒殺打法中的核心輔助。',
   },
-  Garud: {
-    type: 'info',
-    title: 'SSS 或 UR，有待驗證',
-    text: '她的定位在 SSS 或 UR 之間，目前仍需更多測試，但她潛力極高，有望變得非常超模。',
-  },
   Matrotho: {
     type: 'warning',
     title: '需要隊伍配合',
@@ -203,7 +198,7 @@ function getTierClassName(tier) {
         {MODE_ZH['map-clear'].description}
       </p>
       <p class="tier-list-updated" id="list-updated" data-initial-type="map-clear">
-        最後更新：2026-09-28
+        最後更新：2026-10-31
       </p>
     </div>
 
@@ -509,8 +504,8 @@ function getTierClassName(tier) {
         if (listDescription && listDescription.textContent !== mode.description) {
           listDescription.textContent = mode.description;
         }
-        if (listUpdated && listUpdated.textContent !== '最後更新：2026-09-28') {
-          listUpdated.textContent = '最後更新：2026-09-28';
+        if (listUpdated && listUpdated.textContent !== '最後更新：2026-10-31') {
+          listUpdated.textContent = '最後更新：2026-10-31';
         }
 
         const allDisplays = document.querySelectorAll('.tier-list-display');

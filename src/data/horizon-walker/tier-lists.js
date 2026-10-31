@@ -127,8 +127,8 @@ export const GAME_MODES = {
 
 // Character lists from your tier list data (only characters with EX Weapons)
 const MAP_CLEAR_CHARACTERS = {
-  UR: ['Cora', 'Luise', 'Juza', 'Garud'],
-  SSS: ['Olivia', 'Vlissing', 'Palekar', 'Matrotho', 'Eugenia', 'Ahram', 'Nari'],
+  UR: ['Cora', 'Luise', 'Juza', 'Mu Yingying'],
+  SSS: ['Olivia', 'Vlissing', 'Palekar', 'Matrotho', 'Eugenia', 'Ahram', 'Nari', 'Garud'],
   SS: [
     'Yui',
     'Valeta',
@@ -194,8 +194,8 @@ const MAP_CLEAR_CHARACTERS = {
 };
 
 const SPECIAL_OPERATIONS_CHARACTERS = {
-  UR: ['Cora', 'Luise', 'Juza', 'Garud'],
-  SSS: ['Yeonwoo', 'Leah', 'Nymset', 'Palekar', 'Juha', 'So Joo-Hee', 'Mahari', 'Matrotho', 'Eugenia', 'Ahram', 'Nari'],
+  UR: ['Cora', 'Luise', 'Juza', 'Mu Yingying'],
+  SSS: ['Yeonwoo', 'Leah', 'Nymset', 'Palekar', 'Juha', 'So Joo-Hee', 'Mahari', 'Matrotho', 'Eugenia', 'Ahram', 'Nari', 'Garud'],
   SS: [
     'Olivia',
     'Yvonna',
@@ -254,7 +254,7 @@ const SPECIAL_OPERATIONS_CHARACTERS = {
 };
 
 const DOPAMIN_CHARACTERS = {
-  UR: ['Cora', 'Luise', 'Juza', 'Garud'],
+  UR: ['Cora', 'Luise', 'Juza', 'Mu Yingying'],
   SSS: [
     'Olivia',
     'Kaul',
@@ -276,6 +276,7 @@ const DOPAMIN_CHARACTERS = {
     'Ahram',
     'Nari',
     'Marhim',
+    'Garud',
   ],
   SS: [
     'Kalina',
@@ -479,11 +480,6 @@ export const TIER_CHARACTER_NOTES = {
     shortTitle: 'Best DEF Down',
     title: 'Highest DEF Down in the Game',
     text: 'Palekar has the highest DEF down of any character: [Unstable] from her Verse of Ordeal slashes All DEF by a massive 1140, shreds up to 200 more DEF based on her Evasion, and increases the DMG Taken of the target on top. Apply it to a boss and your whole team hits dramatically harder, making her a premier enabler for one shotting things.',
-  },
-  Garud: {
-    type: 'info',
-    title: 'Either SSS or UR, Needs Testing',
-    text: 'She is either SSS or UR. She needs more testing as of now, but she has so much potential to be busted~',
   },
   Matrotho: {
     type: 'warning',

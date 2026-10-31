@@ -70,11 +70,6 @@ const NOTE_ZH = {
     title: '全ゲーム最高の防御減少能力',
     text: 'パレッカは全ゲームで最も高い防御減少能力を持ちます。彼女の「試練の綴り」が付与する [不安定] は、すべての防御を直接 1140 減少させ、さらに自身の回避に応じて最大 200 まで防御を追加で減少させると同時に、対象の被ダメージ量も増加させます。ボスに付与すればパーティー全体の火力が大きく上がる、一撃必殺戦術の核となるサポートです。',
   },
-  Garud: {
-    type: 'info',
-    title: 'SSS か UR か、検証中',
-    text: '彼女の評価は SSS と UR の間にあり、まだ多くの検証が必要ですが、潜在能力は非常に高く、とんでもない性能になる有望視されています。',
-  },
   Matrotho: {
     type: 'warning',
     title: '編成が重要',
@@ -203,7 +198,7 @@ function getTierClassName(tier) {
         {MODE_ZH['map-clear'].description}
       </p>
       <p class="tier-list-updated" id="list-updated" data-initial-type="map-clear">
-        最終更新：2026-09-28
+        最終更新：2026-10-31
       </p>
     </div>
 
@@ -509,8 +504,8 @@ function getTierClassName(tier) {
         if (listDescription && listDescription.textContent !== mode.description) {
           listDescription.textContent = mode.description;
         }
-        if (listUpdated && listUpdated.textContent !== '最終更新：2026-09-28') {
-          listUpdated.textContent = '最終更新：2026-09-28';
+        if (listUpdated && listUpdated.textContent !== '最終更新：2026-10-31') {
+          listUpdated.textContent = '最終更新：2026-10-31';
         }
 
         const allDisplays = document.querySelectorAll('.tier-list-display');
