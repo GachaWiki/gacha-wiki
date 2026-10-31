@@ -62,12 +62,6 @@ export const TIER_DEFINITIONS = {
       'A tier characters are solid picks that can fill specific roles well but may need team support.',
     color: '#10B981', // Green
   },
-  B: {
-    label: 'B',
-    description:
-      'B tier characters are situational picks that work in specific team compositions or content.',
-    color: '#6B7280', // Gray
-  },
 };
 
 // Game mode definitions
@@ -101,9 +95,18 @@ export const GAME_MODES = {
 // Placements synthesized from cross-community consensus (Oct 2026, post v2.0):
 // AppMedia + Game8 (JP, Oct 22), Gamemeca + DC Inside + Arca.live (KR, Oct 20),
 // Kaiden.gg (EN, Oct 20), Bahamut team-strength one-pager + bilibili guides (CN/TW, Oct 20)
+// 2026-10-31: Otoha + Suntide Willow raised to SSS (KR Gamemeca SS + TW Bahamut tower-8
+// meta sheet: Otoha must-pull def-shred support, Suntide Willow Ventus core);
+// Fuyuka lowered to SS (both KR and TW rate her a notch below Firstlight Noya);
+// Firefly raised to SS (anniversary rerun banner unit, S everywhere in KR/JP);
+// B tier merged into A (lowest tier is now A);
+// Wraith, Eleanor, Donna, Snowish Laru, Springseek Coronis raised to SS;
+// Firenze, Freesia, Flora, Cosette raised to S;
+// Nanoha lowered to A
 const OVERALL_CHARACTERS = {
-  SSS: ['Firstlight Noya', 'Fuyuka'],
+  SSS: ['Firstlight Noya', 'Otoha', 'Suntide Willow'],
   SS: [
+    'Fuyuka',
     'Allie',
     'Chitose',
     'Nazuka',
@@ -112,34 +115,30 @@ const OVERALL_CHARACTERS = {
     'Chaton',
     'Sparkla',
     'Nazuna',
-  ],
-  S: [
-    'Wraith',
-    'Otoha',
-    'Eleanor',
     'Firefly',
+    'Wraith',
+    'Eleanor',
     'Donna',
-    'Suntide Willow',
     'Snowish Laru',
     'Springseek Coronis',
+  ],
+  S: [
     'Gerie',
     'Minova',
-    'Nanoha',
     'Tilia',
+    'Firenze',
+    'Freesia',
+    'Flora',
+    'Cosette',
   ],
   A: [
-    'Firenze',
+    'Nanoha',
     'Chixia',
     'Mistique',
-    'Freesia',
     'Ridge',
-    'Cosette',
-    'Flora',
     'Ann',
     'Teresa',
     'Jinglin',
-  ],
-  B: [
     'Amber',
     'Iris',
     'Kasimira',
@@ -151,7 +150,6 @@ const OVERALL_CHARACTERS = {
     'Shimiao',
   ],
 };
-
 const STORY_CHARACTERS = {
   SSS: ['Firstlight Noya', 'Nanoha'],
   SS: ['Fuyuka', 'Allie', 'Nazuna', 'Chitose', 'Shia', 'Chixia', 'Karin', 'Chaton'],
@@ -171,8 +169,25 @@ const STORY_CHARACTERS = {
     'Donna',
     'Nazuka',
   ],
-  A: ['Tilia', 'Jinglin', 'Teresa', 'Cosette', 'Flora', 'Ann', 'Firenze'],
-  B: ['Ridge', 'Canace', 'Amber', 'Iris', 'Kasimira', 'Noya', 'Laru', 'Caramel', 'Coronis', 'Shimiao'],
+  A: [
+    'Tilia',
+    'Jinglin',
+    'Teresa',
+    'Cosette',
+    'Flora',
+    'Ann',
+    'Firenze',
+    'Ridge',
+    'Canace',
+    'Amber',
+    'Iris',
+    'Kasimira',
+    'Noya',
+    'Laru',
+    'Caramel',
+    'Coronis',
+    'Shimiao',
+  ],
 };
 
 const MONOLITH_CHARACTERS = {
@@ -200,8 +215,24 @@ const MONOLITH_CHARACTERS = {
     'Springseek Coronis',
     'Freesia',
     'Tilia',
+    'Chixia',
+    'Firenze',
+    'Jinglin',
+    'Ridge',
+    'Cosette',
+    'Flora',
+    'Teresa',
+    'Ann',
+    'Amber',
+    'Iris',
+    'Kasimira',
+    'Canace',
+    'Noya',
+    'Laru',
+    'Caramel',
+    'Coronis',
+    'Shimiao',
   ],
-  B: ['Chixia', 'Firenze', 'Jinglin', 'Ridge', 'Cosette', 'Flora', 'Teresa', 'Ann', 'Amber', 'Iris', 'Kasimira', 'Canace', 'Noya', 'Laru', 'Caramel', 'Coronis', 'Shimiao'],
 };
 
 const SUPPORT_CHARACTERS = {
@@ -243,8 +274,15 @@ const SUPPORT_CHARACTERS = {
     'Cosette',
     'Canace',
     'Jinglin',
+    'Nanoha',
+    'Coronis',
+    'Kasimira',
+    'Noya',
+    'Laru',
+    'Caramel',
+    'Shimiao',
+    'Amber',
   ],
-  B: ['Nanoha', 'Coronis', 'Kasimira', 'Noya', 'Laru', 'Caramel', 'Shimiao', 'Amber'],
 };
 
 // Process all character lists to create tier lists with valid characters

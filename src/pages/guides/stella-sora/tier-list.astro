@@ -20,7 +20,11 @@ STELLA_SORA_CHARACTERS.forEach(char => {
 // Page metadata
 const pageTitle = 'Stella Sora Tier List - Character Rankings';
 const pageDescription =
-  'Complete Stella Sora tier list ranking all Trekkers from SSS to B tier. Updated December 2025 with best characters for overall performance.';
+  'Stella Sora tier list ranking all Trekkers from SSS to A tier based on cross-community consensus, updated October 2026.';
+
+// Intro note shown on the page (kept out of the meta description)
+const tierListIntro =
+  'It is hard to make a tier list that covers everything, however this is a general tier list to give an idea. There are many interesting builds with some characters that can push A tier characters to SS or even SSS, but it needs some luck and a bit of investment. At the end, opinions differ from person to person, this is more of a consensus.';
 
 // Generate structured data for tier list (ItemList schema)
 const tierListStructuredData = {
@@ -68,8 +72,8 @@ const tierListStructuredData = {
 
     <!-- Tier List Info -->
     <div class="tier-list-info" id="tier-list-info">
-      <p class="tier-list-description">{pageDescription}</p>
-      <p class="tier-list-updated">Last Updated: December 2025</p>
+      <p class="tier-list-description">{tierListIntro}</p>
+      <p class="tier-list-updated">Last Updated: October 2026</p>
     </div>
 
     <!-- Maker Mode: Character Pool (Grid Layout) -->
@@ -101,7 +105,7 @@ const tierListStructuredData = {
     <div id="maker-tier-list" style="display: none;">
       {Object.entries(TIER_DEFINITIONS).map(([tier, definition]) => (
         <div class={`tier-row tier-${tier.toLowerCase()}`}>
-          <div class="tier-label" style={`background-color: ${definition.color}`}>
+          <div class="tier-label">
             <span class="tier-name">{definition.label}</span>
           </div>
           <div class="tier-characters droppable" data-tier={tier}>
@@ -115,7 +119,7 @@ const tierListStructuredData = {
     <div class="tier-list-grid" id="tier-list-display">
       {overallTierList.tiers.map(tierData => (
         <div class={`tier-row tier-${tierData.tier.toLowerCase()}`}>
-          <div class="tier-label" style={`background-color: ${tierData.definition.color}`}>
+          <div class="tier-label">
             <span class="tier-name">{tierData.tier}</span>
           </div>
           <div class="tier-characters">
@@ -145,31 +149,16 @@ const tierListStructuredData = {
       ))}
     </div>
 
-    <!-- Tier Legend -->
-    <div class="tier-legend" id="tier-legend">
-      {Object.entries(TIER_DEFINITIONS).map(([tier, definition]) => (
-        <div class="legend-item">
-          <div class="legend-tier" style={`background-color: ${definition.color}`}>
-            {definition.label}
-          </div>
-          <div class="legend-description">
-            <span class="legend-label">{definition.label} Tier</span>
-            <span class="legend-text">{definition.description}</span>
-          </div>
-        </div>
-      ))}
-    </div>
   </div>
 
   <!-- Tier List Maker Script -->
-  <script define:vars={{ characterMap, TIER_DEFINITIONS }}>
+  <script define:vars={{ characterMap }}>
     document.addEventListener('DOMContentLoaded', () => {
       const viewModeBtn = document.getElementById('view-mode-btn');
       const makerModeBtn = document.getElementById('maker-mode-btn');
       const makerModeContent = document.getElementById('maker-mode-content');
       const tierListInfo = document.getElementById('tier-list-info');
       const tierListDisplay = document.getElementById('tier-list-display');
-      const tierLegend = document.getElementById('tier-legend');
 
       // Maker mode elements
       const makerPool = document.getElementById('maker-pool');
@@ -190,7 +179,6 @@ const tierListStructuredData = {
         makerModeContent.style.display = 'none';
         tierListInfo.style.display = 'block';
         tierListDisplay.style.display = 'flex';
-        if (tierLegend) tierLegend.style.display = 'grid';
         if (makerPool) makerPool.style.display = 'none';
         if (makerTierList) makerTierList.style.display = 'none';
       });
@@ -203,7 +191,6 @@ const tierListStructuredData = {
         makerModeContent.style.display = 'block';
         tierListInfo.style.display = 'none';
         tierListDisplay.style.display = 'none';
-        if (tierLegend) tierLegend.style.display = 'none';
         if (makerPool) makerPool.style.display = 'block';
         if (makerTierList) makerTierList.style.display = 'flex';
         if (!makerInitialized) {

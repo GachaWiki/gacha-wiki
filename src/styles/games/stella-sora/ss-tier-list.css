@@ -54,8 +54,8 @@
   padding: 1rem;
   font-weight: bold;
   font-size: var(--text-2xl);
-  color: #000;
-  text-shadow: 0 1px 2px rgba(255, 255, 255, 0.3);
+  color: var(--ss-primary, #7dd3fc);
+  border-right: 1px solid var(--ss-border, #404040);
 }
 
 .tier-name {
@@ -105,27 +105,6 @@
   color: var(--ss-text-muted, #666);
   font-style: italic;
   padding: 1rem;
-}
-
-/* Tier-specific border accents */
-.tier-sss .tier-label {
-  background: linear-gradient(135deg, #ffd700, #ffa500);
-}
-
-.tier-ss .tier-label {
-  background: linear-gradient(135deg, #9333ea, #7c3aed);
-}
-
-.tier-s .tier-label {
-  background: linear-gradient(135deg, #3b82f6, #2563eb);
-}
-
-.tier-a .tier-label {
-  background: linear-gradient(135deg, #10b981, #059669);
-}
-
-.tier-b .tier-label {
-  background: linear-gradient(135deg, #6b7280, #4b5563);
 }
 
 /* Responsive */
@@ -367,56 +346,6 @@
   transition: opacity 0.2s ease;
 }
 
-
-/* Tier Legend */
-.tier-legend {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 1rem;
-  margin-top: 2rem;
-  padding: 1rem;
-  background: var(--ss-card-bg, rgba(30, 30, 40, 0.8));
-  border-radius: 8px;
-  border: 1px solid var(--ss-border, rgba(255, 255, 255, 0.1));
-}
-
-.legend-item {
-  display: flex;
-  align-items: flex-start;
-  gap: 1rem;
-}
-
-.legend-tier {
-  width: 60px;
-  height: 40px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: var(--text-base);
-  font-weight: 900;
-  color: #000;
-  text-shadow: 0 1px 2px rgba(255, 255, 255, 0.3);
-  flex-shrink: 0;
-  border-radius: 6px;
-}
-
-.legend-description {
-  flex: 1;
-  min-width: 0;
-}
-
-.legend-label {
-  display: block;
-  font-weight: 600;
-  color: var(--ss-text-primary, #fff);
-  margin-bottom: 0.25rem;
-}
-
-.legend-text {
-  font-size: var(--text-md);
-  color: var(--ss-text-muted, #666);
-  line-height: 1.3;
-}
 
 /* Maker Mode Responsive */
 @media (max-width: 768px) {
