@@ -59,13 +59,22 @@ if (autoGenerate) {
     { name: 'Rebellion Gilgamesh', href: '/guides/rebellion-gilgamesh/' },
   ];
 }
+
+// A back button whose only target is the site root says nothing about where
+// it leads, so it becomes a history Back instead: previous page when the
+// visitor came from this site, the home link as fallback for direct entry.
+const isHomeBack = backNavigation !== null && backNavigation.href === '/';
 ---
 
 <nav class="rg-breadcrumb" aria-label="Breadcrumb">
   <div class="rg-breadcrumb-container">
     {
       backNavigation && (
-        <a href={backNavigation.href} class="rg-back-button">
+        <a
+          href={backNavigation.href}
+          class="rg-back-button"
+          data-history-back={isHomeBack ? '' : undefined}
+        >
           <svg
             class="rg-back-arrow"
             width="16"
@@ -80,7 +89,9 @@ if (autoGenerate) {
           >
             <path d="M15 18l-6-6 6-6" />
           </svg>
-          <span class="rg-back-text">{backNavigation.parentName || 'Back'}</span>
+          <span class="rg-back-text">
+            {isHomeBack ? 'Back' : backNavigation.parentName || 'Back'}
+          </span>
         </a>
       )
     }
@@ -107,3 +118,8 @@ if (autoGenerate) {
     </ol>
   </div>
 </nav>
+
+<script>
+  // History-aware Back for buttons whose only target is the site root.
+  import '../../scripts/history-back.js';
+</script>

@@ -50,6 +50,10 @@ if (autoGenerate) {
     };
   }
 }
+// A back button whose only target is the site root says nothing about where
+// it leads, so it becomes a history Back instead: previous page when the
+// visitor came from this site, the home link as fallback for direct entry.
+const isHomeBack = backNavigation !== null && backNavigation.href === '/';
 ---
 
 {breadcrumbItems.length > 0 && (
@@ -67,12 +71,21 @@ if (autoGenerate) {
       ))}
     </ol>
     {backNavigation && (
-      <a href={backNavigation.href} class="dir-breadcrumb-back">
-        ← {backNavigation.name}
+      <a
+        href={backNavigation.href}
+        class="dir-breadcrumb-back"
+        data-history-back={isHomeBack ? '' : undefined}
+      >
+        ← {isHomeBack ? 'Back' : backNavigation.name || 'Back'}
       </a>
     )}
   </nav>
 )}
+
+<script>
+  // History-aware Back for buttons whose only target is the site root.
+  import '../../scripts/history-back.js';
+</script>
 
 <style>
   .dir-breadcrumb {
