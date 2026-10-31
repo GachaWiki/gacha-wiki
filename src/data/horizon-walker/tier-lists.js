@@ -465,7 +465,7 @@ export const TIER_CHARACTER_NOTES = {
     variant: 'wave-clear',
     shortTitle: 'Best Wave Clear',
     title: 'Best Wave Clear in the Game',
-    text: 'Cora is the best wave-clear character in the game: her Volcanic Eruption hits every enemy on the entire battlefield at once. Her single-target damage is also very strong, so she is no wave-clear one-trick: after an eruption her Forbidden Land detonations hit 8 times harder, and they double again when they go off on her own turn. Just note that she needs a bit of investment before it one-shots mobs in events and daily tasks, so do not expect it right away on a fresh account. Pair her with Eugenia and whole maps melt in a single cast.',
+    text: 'Cora is the best wave-clear character in the game: her Volcanic Eruption hits every enemy on the entire battlefield at once. Her single-target damage is also very strong, so wave clearing is not all she can do: after an eruption her Forbidden Land detonations hit 8 times harder, and they double again when they go off on her own turn. Just note that she needs a bit of investment before it one-shots mobs in events and daily tasks, so do not expect it right away on a fresh account. Pair her with Eugenia and whole maps melt in a single cast.',
   },
   Eugenia: {
     type: 'info',
