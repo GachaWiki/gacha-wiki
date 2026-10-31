@@ -102,22 +102,16 @@
   gap: 0.4rem;
 }
 
-.tbuild-system-tag {
-  padding: 0.14rem 0.5rem;
-  font-size: var(--text-2xs);
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.06em;
-  border-radius: 5px;
-  background: var(--ss-primary-dark);
-  color: #fff;
-}
-
 .tbuild-name {
   margin: 0;
   font-size: var(--text-xl);
   font-weight: 700;
   color: var(--ss-text-primary);
+}
+
+.tbuild-name a {
+  color: var(--ss-text-primary);
+  text-decoration: none;
 }
 
 .tbuild-grade {
@@ -145,10 +139,6 @@
   user-select: none;
   -webkit-user-select: none;
   -webkit-tap-highlight-color: transparent;
-}
-
-.tbuild-cta:hover {
-  background: var(--ss-primary-hover);
 }
 
 .tbuild-cta-arrow {
@@ -191,10 +181,6 @@
   border: 1px solid var(--ss-border);
   border-radius: var(--ss-radius-sm);
   text-decoration: none;
-}
-
-.tbuild-member.is-main {
-  border-color: var(--ss-primary-dark);
 }
 
 .tbuild-member img {
@@ -368,10 +354,6 @@
   text-decoration: none;
 }
 
-.community-char-link:hover {
-  text-decoration: underline;
-}
-
 .community-char .community-meta {
   margin: 0 0 0.75rem 0;
   font-size: var(--text-md);
@@ -399,25 +381,23 @@
   flex-wrap: wrap;
 }
 
+/* Source language of a build: plain colored text, no pill */
 .community-lang {
-  padding: 0.12rem 0.5rem;
-  border-radius: 4px;
   font-size: var(--text-2xs);
   font-weight: 700;
   letter-spacing: 0.08em;
-  color: #fff;
 }
 
 .community-lang.lang-zh {
-  background: #b91c1c;
+  color: #f87171;
 }
 
 .community-lang.lang-ja {
-  background: #d97706;
+  color: #fbbf24;
 }
 
 .community-lang.lang-ko {
-  background: #2563eb;
+  color: #60a5fa;
 }
 
 .community-build-name {
@@ -429,10 +409,6 @@
 .community-build-name a {
   color: var(--ss-primary);
   text-decoration: none;
-}
-
-.community-build-name a:hover {
-  text-decoration: underline;
 }
 
 .community-build-src {
@@ -474,10 +450,6 @@
   border: 1px solid var(--ss-border);
   border-radius: 999px;
   text-decoration: none;
-}
-
-.community-member.is-main {
-  border-color: var(--ss-primary-dark);
 }
 
 .community-member img {
@@ -637,14 +609,6 @@
   flex: none;
 }
 
-.community-buildcount {
-  font-size: var(--text-2xs);
-  color: var(--ss-text-secondary);
-  border: 1px solid var(--ss-border);
-  border-radius: var(--ss-radius-sm);
-  padding: 0.1rem 0.4rem;
-}
-
 .community-meta-clamp {
   margin: 0;
   display: -webkit-box;
@@ -656,35 +620,47 @@
 .community-builds-rows {
   display: flex;
   flex-direction: column;
-  gap: 0.4rem;
-}
-
-.community-row {
-  display: flex;
-  align-items: center;
   gap: 0.5rem;
-  min-width: 0;
 }
 
-.community-row-name {
-  flex: 1 1 auto;
+/* One tile per build: the name row opens the build page, each team icon
+   links to that Trekker's own page. All builds sit at equal weight. */
+.community-build-tile {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  padding: 0.55rem 0.7rem;
+  background: var(--ss-white-opacity-05);
+  border: 1px solid var(--ss-border);
+  border-radius: var(--ss-radius-sm);
+}
+
+.community-build-tile-head {
+  display: flex;
+  align-items: baseline;
+  gap: 0.45rem;
   min-width: 0;
+  text-decoration: none;
+}
+
+.community-build-tile-name {
+  flex: 1;
+  min-width: 0;
+  font-size: var(--text-sm);
+  font-weight: 600;
+  color: var(--ss-primary);
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
-  color: var(--ss-primary);
-  text-decoration: none;
-  font-size: var(--text-sm);
 }
 
-.community-row-team {
+.community-build-tile-team {
   display: flex;
   align-items: center;
-  gap: 0.2rem;
-  flex: none;
+  gap: 0.25rem;
 }
 
-.community-row-team img {
+.community-build-tile-team img {
   display: block;
   border-radius: var(--ss-radius-sm);
 }

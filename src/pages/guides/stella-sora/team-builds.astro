@@ -103,25 +103,22 @@ const structuredData = {
               data-rarity={char.rarity}
             >
               <div class="tbuild-card-head community-head">
-                <img
-                  class="community-portrait"
-                  src={`${R2}/charart/${char.id}01_SK.png`}
+                <SSCharacterSmallImage
+                  characterName={char.slug}
                   alt={`${char.name} portrait`}
+                  class="community-portrait"
                   width={72}
                   height={72}
-                  loading="lazy"
-                  decoding="async"
                 />
                 <div class="tbuild-card-title">
                   <h2 class="tbuild-name">
-                    <a href={getCommunityBuildPath(char.slug, 0)}>{char.name}</a>
+                    <a href={`/guides/stella-sora/characters/${char.slug}/`}>{char.name}</a>
                   </h2>
                   <div class="community-char-badges">
                     <span class={`element-badge element-${char.element.toLowerCase()}`}>
                       {char.element}
                     </span>
                     <span class="tbuild-grade">{char.rarity}-Star</span>
-                    <span class="community-buildcount">{entry.builds.length} build{entry.builds.length > 1 ? 's' : ''}</span>
                   </div>
                 </div>
               </div>
@@ -130,26 +127,26 @@ const structuredData = {
 
               <div class="community-builds-rows">
                 {entry.builds.map((b, i) => (
-                  <div class="community-row">
-                    <span class={`community-lang lang-${b.lang}`}>{LANG_LABELS[b.lang]}</span>
-                    <a class="community-row-name" href={getCommunityBuildPath(char.slug, i)}>
-                      {b.name}
+                  <div class="community-build-tile">
+                    <a class="community-build-tile-head" href={getCommunityBuildPath(char.slug, i)}>
+                      <span class={`community-lang lang-${b.lang}`}>{LANG_LABELS[b.lang]}</span>
+                      <span class="community-build-tile-name">{b.name}</span>
                     </a>
-                    <span class="community-row-team">
-                      {b.team.map((slug, idx) => {
+                    <div class="community-build-tile-team">
+                      {b.team.map(slug => {
                         const m = charBySlug[slug];
                         return (
                           <a href={`/guides/stella-sora/characters/${slug}/`} title={m?.name || slug}>
                             <SSCharacterSmallImage
                               characterName={slug}
                               alt={`${m?.name || slug} icon`}
-                              width={26}
-                              height={26}
+                              width={30}
+                              height={30}
                             />
                           </a>
                         );
                       })}
-                    </span>
+                    </div>
                   </div>
                 ))}
               </div>
@@ -192,7 +189,6 @@ const structuredData = {
                   decoding="async"
                 />
                 <div class="tbuild-card-title">
-                  <span class="tbuild-system-tag">System Preset</span>
                   <h2 class="tbuild-name">{char.name}</h2>
                   <span class={`element-badge element-${char.element.toLowerCase()}`}>
                     {char.element}
