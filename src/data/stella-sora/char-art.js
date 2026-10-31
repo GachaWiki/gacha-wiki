@@ -1,6 +1,6 @@
 // Stella Sora character art manifest: main portrait / gallery / skins per character.
 // Auto-generated from the CharacterSkin table + extracted head textures (charart/ on R2).
-// Gallery also includes official X account art (x/ on R2, harvested 2026-09).
+// Gallery also includes official X account art (x/ on R2, EN+JP, harvested 2026-09/10).
 export const CHAR_ART = {
   "amber": {
     "base": "10301",
@@ -72,6 +72,22 @@ export const CHAR_ART = {
       {
         "src": "x/1869669008745570634-0.webp",
         "caption": "Introduction card"
+      },
+      {
+        "src": "x/1869669005449138668-0.webp",
+        "caption": "Introduction card (JP)"
+      },
+      {
+        "src": "x/2009610009576194345-0.webp",
+        "caption": "Official X art (JP)"
+      },
+      {
+        "src": "x/2017795037120143544-0.webp",
+        "caption": "Skin promo: Playful Innocence"
+      },
+      {
+        "src": "x/2042981417051918509-0.webp",
+        "caption": "Official X art (JP)"
       }
     ]
   },
@@ -141,6 +157,14 @@ export const CHAR_ART = {
       {
         "src": "x/1990676344846291097-0.webp",
         "caption": "Birthday Log art (Nov 2025)"
+      },
+      {
+        "src": "x/1931274933994221934-0.webp",
+        "caption": "Introduction card (JP)"
+      },
+      {
+        "src": "x/1931274940256518544-0.webp",
+        "caption": "Introduction card"
       }
     ]
   },
@@ -177,6 +201,14 @@ export const CHAR_ART = {
       {
         "src": "dating/kasimira-event-1.png",
         "caption": "Date: Flawless Accuracy"
+      },
+      {
+        "src": "x/1952293436108976556-0.webp",
+        "caption": "Introduction card (JP)"
+      },
+      {
+        "src": "x/1952293437304099064-0.webp",
+        "caption": "Introduction card"
       }
     ]
   },
@@ -231,6 +263,22 @@ export const CHAR_ART = {
       {
         "src": "x/1977675688120582502-0.webp",
         "caption": "Release countdown art"
+      },
+      {
+        "src": "x/2009550712670466525-0.webp",
+        "caption": "Introduction card"
+      },
+      {
+        "src": "x/2009830053853475068-0.webp",
+        "caption": "Skill introduction card"
+      },
+      {
+        "src": "x/2010247993874886697-0.webp",
+        "caption": "Official X art (JP)"
+      },
+      {
+        "src": "x/2014903484802596872-0.webp",
+        "caption": "Misti's Investigation Journal"
       }
     ]
   },
@@ -296,6 +344,10 @@ export const CHAR_ART = {
       {
         "src": "x/1985648213093654687-0.webp",
         "caption": "Nova Doodles comic"
+      },
+      {
+        "src": "x/1871027951484969110-0.webp",
+        "caption": "Introduction card (JP)"
       }
     ]
   },
@@ -359,6 +411,10 @@ export const CHAR_ART = {
       {
         "src": "x/1871752738863747117-0.webp",
         "caption": "Introduction card"
+      },
+      {
+        "src": "x/1871752727216132574-0.webp",
+        "caption": "Introduction card (JP)"
       }
     ]
   },
@@ -401,6 +457,14 @@ export const CHAR_ART = {
       {
         "src": "dating/shimiao-event-1.png",
         "caption": "Date: Pressure Relief"
+      },
+      {
+        "src": "x/1890325109925085435-0.webp",
+        "caption": "Introduction card (JP)"
+      },
+      {
+        "src": "x/1890325123103678628-0.webp",
+        "caption": "Introduction card"
       }
     ]
   },
@@ -493,6 +557,18 @@ export const CHAR_ART = {
       {
         "src": "x/2054509458525757458-0.webp",
         "caption": "Trekker PV key art"
+      },
+      {
+        "src": "x/2053400903093534748-0.webp",
+        "caption": "VA announcement art (JP)"
+      },
+      {
+        "src": "x/2053777141456642319-0.webp",
+        "caption": "Official X art (JP)"
+      },
+      {
+        "src": "x/2055936370984534215-0.webp",
+        "caption": "Official X art (JP)"
       }
     ]
   },
@@ -579,6 +655,18 @@ export const CHAR_ART = {
       {
         "src": "dating/jinglin-event-1.png",
         "caption": "Date: Freshly Picked"
+      },
+      {
+        "src": "x/1884436304936796646-0.webp",
+        "caption": "Official X art"
+      },
+      {
+        "src": "x/1887788396166201808-0.webp",
+        "caption": "Introduction card (JP)"
+      },
+      {
+        "src": "x/1887788396833091773-0.webp",
+        "caption": "Introduction card"
       }
     ]
   },
@@ -627,6 +715,10 @@ export const CHAR_ART = {
       {
         "src": "x/1895398541801201914-0.webp",
         "caption": "Introduction card"
+      },
+      {
+        "src": "x/1895398548491161652-0.webp",
+        "caption": "Introduction card (JP)"
       }
     ]
   },
@@ -682,6 +774,18 @@ export const CHAR_ART = {
       {
         "src": "Banner_timeline/3/Nanoha.jpg",
         "caption": "Recruitment: A Fateful Encounter"
+      },
+      {
+        "src": "x/1879815859981734257-0.webp",
+        "caption": "Introduction card"
+      },
+      {
+        "src": "x/1879815871259988255-0.webp",
+        "caption": "Introduction card (JP)"
+      },
+      {
+        "src": "Banner_timeline/official/11119.webp",
+        "caption": "Recruitment: A Fateful Encounter"
       }
     ]
   },
@@ -736,6 +840,14 @@ export const CHAR_ART = {
       {
         "src": "x/2100057097979249067-0.webp",
         "caption": "Misti's Investigation Journal"
+      },
+      {
+        "src": "x/1951206273631854785-0.webp",
+        "caption": "Introduction card"
+      },
+      {
+        "src": "x/1951206275964084421-0.webp",
+        "caption": "Introduction card (JP)"
       }
     ]
   },
@@ -786,6 +898,14 @@ export const CHAR_ART = {
       {
         "src": "x/1872568105639252054-0.webp",
         "caption": "Introduction card"
+      },
+      {
+        "src": "x/1872568099968635333-0.webp",
+        "caption": "Introduction card (JP)"
+      },
+      {
+        "src": "x/1960265965058597238-0.webp",
+        "caption": "Official X art"
       }
     ]
   },
@@ -849,6 +969,10 @@ export const CHAR_ART = {
       {
         "src": "x/2097641726664126506-0.webp",
         "caption": "Birthday Log art (Sep 2026)"
+      },
+      {
+        "src": "x/1874742434871324968-0.webp",
+        "caption": "Introduction card (JP)"
       }
     ]
   },
@@ -905,6 +1029,14 @@ export const CHAR_ART = {
       {
         "src": "x/1978400467932864830-0.webp",
         "caption": "Release countdown art"
+      },
+      {
+        "src": "x/1892861823990333852-0.webp",
+        "caption": "Introduction card (JP)"
+      },
+      {
+        "src": "x/1967528822838100199-0.webp",
+        "caption": "VA announcement art (JP)"
       }
     ]
   },
@@ -951,6 +1083,14 @@ export const CHAR_ART = {
       {
         "src": "dating/teresa-event-1.png",
         "caption": "Date: Bond-Aid"
+      },
+      {
+        "src": "x/1937435530431726019-0.webp",
+        "caption": "Introduction card"
+      },
+      {
+        "src": "x/1937435534516977979-0.webp",
+        "caption": "Introduction card (JP)"
       }
     ]
   },
@@ -995,6 +1135,22 @@ export const CHAR_ART = {
       {
         "src": "x/2032652949483335998-0.webp",
         "caption": "Trekker PV key art"
+      },
+      {
+        "src": "x/2032381148840812853-0.webp",
+        "caption": "Introduction card (JP)"
+      },
+      {
+        "src": "x/2032381151982317894-0.webp",
+        "caption": "Introduction card"
+      },
+      {
+        "src": "x/2032382407312019828-0.webp",
+        "caption": "VA announcement art (JP)"
+      },
+      {
+        "src": "Banner_timeline/official/10130.webp",
+        "caption": "Recruitment: Heartfelt Messages, Delivered on Time"
       }
     ]
   },
@@ -1056,6 +1212,10 @@ export const CHAR_ART = {
       {
         "src": "x/1978762854825415153-0.webp",
         "caption": "Release countdown art"
+      },
+      {
+        "src": "x/1877279142145671445-0.webp",
+        "caption": "Introduction card (JP)"
       }
     ]
   },
@@ -1123,6 +1283,10 @@ export const CHAR_ART = {
       {
         "src": "x/1997146480876872144-0.webp",
         "caption": "Skill introduction card"
+      },
+      {
+        "src": "x/1996868396428714415-0.webp",
+        "caption": "VA announcement art (JP)"
       }
     ]
   },
@@ -1190,6 +1354,14 @@ export const CHAR_ART = {
       {
         "src": "x/2093905297051902015-0.webp",
         "caption": "Recruitment art: Fireworks Dazzling the Night"
+      },
+      {
+        "src": "x/1989626931042816424-0.webp",
+        "caption": "Skill introduction card"
+      },
+      {
+        "src": "x/1990332831407460440-0.webp",
+        "caption": "Rate-up key art (JP)"
       }
     ]
   },
@@ -1263,6 +1435,14 @@ export const CHAR_ART = {
       {
         "src": "x/1986010611038531677-0.webp",
         "caption": "Nova Doodles comic"
+      },
+      {
+        "src": "x/1882352585362858368-0.webp",
+        "caption": "Introduction card (JP)"
+      },
+      {
+        "src": "x/1882714968480530704-0.webp",
+        "caption": "Trekker Trivia art"
       }
     ]
   },
@@ -1426,6 +1606,10 @@ export const CHAR_ART = {
       {
         "src": "x/1956642090231967814-0.webp",
         "caption": "Introduction card"
+      },
+      {
+        "src": "x/1956642090617618621-0.webp",
+        "caption": "Introduction card (JP)"
       }
     ]
   },
@@ -1480,6 +1664,10 @@ export const CHAR_ART = {
       {
         "src": "x/1953018211978625256-0.webp",
         "caption": "Introduction card"
+      },
+      {
+        "src": "x/1953018213500965304-0.webp",
+        "caption": "Introduction card (JP)"
       }
     ]
   },
@@ -1524,6 +1712,14 @@ export const CHAR_ART = {
       {
         "src": "x/2025050346348052711-0.webp",
         "caption": "Skill introduction card"
+      },
+      {
+        "src": "x/2024771016741060879-0.webp",
+        "caption": "Official X art"
+      },
+      {
+        "src": "Banner_timeline/official/10143.webp",
+        "caption": "Recruitment: Silver Shattering the Dark"
       }
     ]
   },
@@ -1647,6 +1843,14 @@ export const CHAR_ART = {
       {
         "src": "dating/otoha-event-1.png",
         "caption": "Date: Beyond the Horizon"
+      },
+      {
+        "src": "x/2042915674973258100-0.webp",
+        "caption": "Introduction card"
+      },
+      {
+        "src": "x/2042958346827768021-0.webp",
+        "caption": "Introduction card (JP)"
       }
     ]
   },
@@ -1743,6 +1947,10 @@ export const CHAR_ART = {
       {
         "src": "x/1955554961850314970-0.webp",
         "caption": "Introduction card"
+      },
+      {
+        "src": "x/1955554944079004122-0.webp",
+        "caption": "Introduction card (JP)"
       }
     ]
   },
@@ -1787,6 +1995,18 @@ export const CHAR_ART = {
       {
         "src": "x/2090333012885926104-0.webp",
         "caption": "Birthday Log art (Aug 2026)"
+      },
+      {
+        "src": "x/1919678526837653524-0.webp",
+        "caption": "Introduction card (JP)"
+      },
+      {
+        "src": "x/1919678527835930850-0.webp",
+        "caption": "Introduction card"
+      },
+      {
+        "src": "x/1920765690673590650-0.webp",
+        "caption": "Official X art"
       }
     ]
   },
@@ -1861,6 +2081,14 @@ export const CHAR_ART = {
       {
         "src": "x/2092507341815976251-0.webp",
         "caption": "Birthday Log art (Aug 2026)"
+      },
+      {
+        "src": "x/1982440829626044611-0.webp",
+        "caption": "VA announcement art (JP)"
+      },
+      {
+        "src": "x/1983745928898261177-0.webp",
+        "caption": "Official X art (JP)"
       }
     ]
   },
@@ -1912,6 +2140,14 @@ export const CHAR_ART = {
       {
         "src": "charart/15603_adv.png",
         "caption": "Skin Promo: Quirky Tea Party"
+      },
+      {
+        "src": "x/1946132843094245532-0.webp",
+        "caption": "Introduction card"
+      },
+      {
+        "src": "x/1946132845707342195-0.webp",
+        "caption": "Introduction card (JP)"
       }
     ]
   },
@@ -1976,6 +2212,10 @@ export const CHAR_ART = {
       {
         "src": "x/2094681670351724890-0.webp",
         "caption": "Birthday Log art (Sep 2026)"
+      },
+      {
+        "src": "x/2088460677929447531-0.webp",
+        "caption": "Official X art (JP)"
       }
     ]
   },
@@ -2048,6 +2288,10 @@ export const CHAR_ART = {
       {
         "src": "x/2017440201052754032-0.webp",
         "caption": "Skill introduction card"
+      },
+      {
+        "src": "x/2017160864164684216-0.webp",
+        "caption": "Official X art"
       }
     ]
   },
@@ -2092,69 +2336,83 @@ export const CHAR_ART = {
     ]
   },
   "allie": {
-      "base": "13901",
-      "main": "charart/13901_SK.png",
-      "skins": [
-        {
-          "unit": "13901",
-          "name": "Default",
-          "desc": "",
-          "type": 1
-        },
-        {
-          "unit": "13902",
-          "name": "Awakened",
-          "desc": "",
-          "type": 2
-        }
-      ],
-      "gallery": [
-        {
-          "src": "charart/13901_GOODS.png",
-          "caption": "Illustrated Card"
-        },
-        {
-          "src": "charart/13901_Q.png",
-          "caption": "Portrait"
-        },
-        {
-          "src": "gameimg/characters/Allie.jpg",
-          "caption": "Splash Art"
-        },
-        {
-          "src": "dating/allie-event-0.png",
-          "caption": "Date: Call Your Parents"
-        },
-        {
-          "src": "dating/allie-event-1.png",
-          "caption": "Date: The Charcoal Cake"
-        }
-      ]
-    },
+    "base": "13901",
+    "main": "charart/13901_SK.png",
+    "skins": [
+      {
+        "unit": "13901",
+        "name": "Default",
+        "desc": "",
+        "type": 1
+      },
+      {
+        "unit": "13902",
+        "name": "Awakened",
+        "desc": "",
+        "type": 2
+      }
+    ],
+    "gallery": [
+      {
+        "src": "charart/13901_GOODS.png",
+        "caption": "Illustrated Card"
+      },
+      {
+        "src": "charart/13901_Q.png",
+        "caption": "Portrait"
+      },
+      {
+        "src": "gameimg/characters/Allie.jpg",
+        "caption": "Splash Art"
+      },
+      {
+        "src": "dating/allie-event-0.png",
+        "caption": "Date: Call Your Parents"
+      },
+      {
+        "src": "dating/allie-event-1.png",
+        "caption": "Date: The Charcoal Cake"
+      },
+      {
+        "src": "x/2103409169932181746-0.webp",
+        "caption": "Introduction card"
+      }
+    ]
+  },
   "firstlight-noya": {
-      "base": "16201",
-      "main": "charart/16201_SK.png",
-      "skins": [
-        { "unit": "16201", "name": "Default", "desc": "", "type": 1 },
-        { "unit": "16202", "name": "Awakened", "desc": "", "type": 2 },
-      ],
-      "gallery": [
-        {
-          "src": "charart/16201_GOODS.png",
-          "caption": "Illustrated Card"
-        },
-        {
-          "src": "charart/16201_Q.png",
-          "caption": "Portrait"
-        },
-        {
-          "src": "dating/firstlight-noya-event-0.png",
-          "caption": "Date: A Bitter Defeat"
-        },
-        {
-          "src": "dating/firstlight-noya-event-1.png",
-          "caption": "Date: Warmth"
-        },
-      ],
-    },
+    "base": "16201",
+    "main": "charart/16201_SK.png",
+    "skins": [
+      {
+        "unit": "16201",
+        "name": "Default",
+        "desc": "",
+        "type": 1
+      },
+      {
+        "unit": "16202",
+        "name": "Awakened",
+        "desc": "",
+        "type": 2
+      }
+    ],
+    "gallery": [
+      {
+        "src": "charart/16201_GOODS.png",
+        "caption": "Illustrated Card"
+      },
+      {
+        "src": "charart/16201_Q.png",
+        "caption": "Portrait"
+      },
+      {
+        "src": "dating/firstlight-noya-event-0.png",
+        "caption": "Date: A Bitter Defeat"
+      },
+      {
+        "src": "dating/firstlight-noya-event-1.png",
+        "caption": "Date: Warmth"
+      }
+    ]
+  }
 };

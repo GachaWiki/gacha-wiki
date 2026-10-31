@@ -22,6 +22,18 @@ import { disc as ripplesOfNostalgia } from './discs/ripples-of-nostalgia.js';
 import { disc as clawTheClaw } from './discs/claw-the-claw.js';
 import { disc as snowyNightSurprise } from './discs/snowy-night-surprise.js';
 import { disc as myGuidingStar } from './discs/my-guiding-star.js';
+import { disc as bedtimeStory } from './discs/bedtime-story.js';
+import { disc as theCatsTreasure } from './discs/the-cat-s-treasure.js';
+import { disc as soaringBlue } from './discs/soaring-blue.js';
+import { disc as flyOCagedBird } from './discs/fly-o-caged-bird.js';
+import { disc as stellarDestination } from './discs/stellar-destination.js';
+import { disc as wisteriaDream } from './discs/wisteria-dream.js';
+import { disc as rideTheWavesWithMe } from './discs/ride-the-waves-with-me.js';
+import { disc as petalsOfBloomingMirage } from './discs/petals-of-blooming-mirage.js';
+import { disc as littleParadise } from './discs/little-paradise.js';
+import { disc as veiledDawnOfSpring } from './discs/veiled-dawn-of-spring.js';
+import { disc as fleetingGlimmers } from './discs/fleeting-glimmers.js';
+import { disc as chroniclesOfSpring } from './discs/chronicles-of-spring.js';
 
 // Import full character data from new character files
 import { Amber } from './characters/characters/amber.js';
@@ -129,6 +141,18 @@ const characterDiscMap = {
   nazuna: clawTheClaw,
   snowishLaru: snowyNightSurprise,
   'firstlight-noya': myGuidingStar,
+  allie: bedtimeStory,
+  chaton: theCatsTreasure,
+  donna: soaringBlue,
+  eleanor: flyOCagedBird,
+  firefly: stellarDestination,
+  firenze: wisteriaDream,
+  karin: rideTheWavesWithMe,
+  otoha: petalsOfBloomingMirage,
+  sparkla: littleParadise,
+  'springseek-coronis': veiledDawnOfSpring,
+  'suntide-willow': fleetingGlimmers,
+  wraith: chroniclesOfSpring,
 };
 
 // Game Mechanics Reference

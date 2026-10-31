@@ -984,6 +984,382 @@ export const STORY_GALLERY = {
     {
       "file": "x/2075414709877235944-2.webp",
       "caption": "Wallpaper: A Sandstorm of Gunfire (3)"
+    },
+    {
+      "file": "x/1871541345652789632-0.webp",
+      "caption": "Official celebration art (1)"
+    },
+    {
+      "file": "x/1881627804795818214-0.webp",
+      "caption": "Nova Archives: Soul Stones"
+    },
+    {
+      "file": "x/1884209811434398128-0.webp",
+      "caption": "Official X art (1)"
+    },
+    {
+      "file": "x/1884209814865068422-0.webp",
+      "caption": "Official X art (2)"
+    },
+    {
+      "file": "x/1889615442970374278-0.webp",
+      "caption": "Official X art (3)"
+    },
+    {
+      "file": "x/1891774667351863621-0.webp",
+      "caption": "Nova Archives: The Loongs"
+    },
+    {
+      "file": "x/1894311378946855291-0.webp",
+      "caption": "Nova Archives: Companies"
+    },
+    {
+      "file": "x/1896848090075636075-0.webp",
+      "caption": "Nova Archives: Monolith Convenience Store"
+    },
+    {
+      "file": "x/1909531667267543543-0.webp",
+      "caption": "Nova Archives: Trekker Association"
+    },
+    {
+      "file": "x/1912068390765859172-0.webp",
+      "caption": "Trekker Association: Willow"
+    },
+    {
+      "file": "x/1917051213729915018-0.webp",
+      "caption": "Official X art (4)"
+    },
+    {
+      "file": "x/1917058760540918185-0.webp",
+      "caption": "Official X art (5)"
+    },
+    {
+      "file": "x/1917058762323726637-0.webp",
+      "caption": "Official X art (6)"
+    },
+    {
+      "file": "x/1917141808376668507-0.webp",
+      "caption": "Grace Imperium: Bastelina"
+    },
+    {
+      "file": "x/1922215243973067135-0.webp",
+      "caption": "Nova Archives: Ashwind Clan"
+    },
+    {
+      "file": "x/1924751965722181949-0.webp",
+      "caption": "Ashwind Clan: Neuvira"
+    },
+    {
+      "file": "x/1925023745296761284-0.webp",
+      "caption": "Official X art (7)"
+    },
+    {
+      "file": "x/1925023756436591012-0.webp",
+      "caption": "Official X art (8)"
+    },
+    {
+      "file": "x/1925750322418397545-0.webp",
+      "caption": "Official X art (9)"
+    },
+    {
+      "file": "x/1927288683574530373-0.webp",
+      "caption": "Ashwind Clan: Vollara"
+    },
+    {
+      "file": "x/1927922917788078236-0.webp",
+      "caption": "Official X art (10)"
+    },
+    {
+      "file": "x/1938039511432540167-0.webp",
+      "caption": "Official X art (11)"
+    },
+    {
+      "file": "x/1940976491904618917-0.webp",
+      "caption": "Official X art (12)"
+    },
+    {
+      "file": "x/1940976491904618917-1.webp",
+      "caption": "Official X art (13)"
+    },
+    {
+      "file": "x/1940976491904618917-2.webp",
+      "caption": "Official X art (14)"
+    },
+    {
+      "file": "x/1940976491904618917-3.webp",
+      "caption": "Official X art (15)"
+    },
+    {
+      "file": "x/1943596131919020384-0.webp",
+      "caption": "Petal Bloom: Kaede"
+    },
+    {
+      "file": "x/1943596134112350276-0.webp",
+      "caption": "Official X art (16)"
+    },
+    {
+      "file": "x/1970802221165248704-0.webp",
+      "caption": "Official X art (17)"
+    },
+    {
+      "file": "x/1975502611987185731-0.webp",
+      "caption": "Official X art (18)"
+    },
+    {
+      "file": "x/1975848641136083169-0.webp",
+      "caption": "Official X art (19)"
+    },
+    {
+      "file": "x/1977335941443490050-0.webp",
+      "caption": "Official X art (20)"
+    },
+    {
+      "file": "x/1977345046086046058-0.webp",
+      "caption": "Official X art (21)"
+    },
+    {
+      "file": "x/1979555603786924176-0.webp",
+      "caption": "Official X art (22)"
+    },
+    {
+      "file": "x/1980423789478597004-0.webp",
+      "caption": "Official X art (23)"
+    },
+    {
+      "file": "x/1980469473217061276-0.webp",
+      "caption": "Official X art (24)"
+    },
+    {
+      "file": "x/1980574786955731313-0.webp",
+      "caption": "Official X art (25)"
+    },
+    {
+      "file": "x/1980613853647106320-0.webp",
+      "caption": "Official X art (26)"
+    },
+    {
+      "file": "x/1981279196786889099-0.webp",
+      "caption": "Official X art (27)"
+    },
+    {
+      "file": "x/1981556407528018040-0.webp",
+      "caption": "Official X art (28)"
+    },
+    {
+      "file": "x/1982399316519215297-0.webp",
+      "caption": "Official X art (29)"
+    },
+    {
+      "file": "x/1982401398810804591-0.webp",
+      "caption": "Official X art (30)"
+    },
+    {
+      "file": "x/1982418085144371521-0.webp",
+      "caption": "Event key visual (1)"
+    },
+    {
+      "file": "x/1982756660255858748-0.webp",
+      "caption": "Official X art (31)"
+    },
+    {
+      "file": "x/1983149249647739347-0.webp",
+      "caption": "Official X art (32)"
+    },
+    {
+      "file": "x/1984213761113374858-0.webp",
+      "caption": "Official X art (33)"
+    },
+    {
+      "file": "x/1984488342059413585-0.webp",
+      "caption": "Official X art (34)"
+    },
+    {
+      "file": "x/1986742983434400020-0.webp",
+      "caption": "Official X art (35)"
+    },
+    {
+      "file": "x/1986742983434400020-1.webp",
+      "caption": "Official X art (36)"
+    },
+    {
+      "file": "x/1986742983434400020-2.webp",
+      "caption": "Official X art (37)"
+    },
+    {
+      "file": "x/1986742983434400020-3.webp",
+      "caption": "Official X art (38)"
+    },
+    {
+      "file": "x/1986750480555422019-0.webp",
+      "caption": "Official X art (39)"
+    },
+    {
+      "file": "x/1987445063321006168-0.webp",
+      "caption": "Official wallpaper (JP)"
+    },
+    {
+      "file": "x/1989287197045088260-0.webp",
+      "caption": "Official X art (40)"
+    },
+    {
+      "file": "x/1996882240727380425-0.webp",
+      "caption": "Version 1.3 update preview"
+    },
+    {
+      "file": "x/1997871253705588967-0.webp",
+      "caption": "Rate-up notice (JP)"
+    },
+    {
+      "file": "x/1998588485683524051-0.webp",
+      "caption": "Event celebration art"
+    },
+    {
+      "file": "x/2002694760709107781-0.webp",
+      "caption": "Official X art (41)"
+    },
+    {
+      "file": "x/2002724483472277898-0.webp",
+      "caption": "Official X art (42)"
+    },
+    {
+      "file": "x/2002724483472277898-1.webp",
+      "caption": "Official X art (43)"
+    },
+    {
+      "file": "x/2002728258367029751-0.webp",
+      "caption": "Voice cast announcement (JP)"
+    },
+    {
+      "file": "x/2002944684398965235-0.webp",
+      "caption": "Official X art (44)"
+    },
+    {
+      "file": "x/2004099795497963542-0.webp",
+      "caption": "Official celebration art (2)"
+    },
+    {
+      "file": "x/2006296774437126343-0.webp",
+      "caption": "Sticker pack: Nazuna"
+    },
+    {
+      "file": "x/2006304331407003720-0.webp",
+      "caption": "Official X art (45)"
+    },
+    {
+      "file": "x/2006304331407003720-1.webp",
+      "caption": "Official X art (46)"
+    },
+    {
+      "file": "x/2007029105938833736-0.webp",
+      "caption": "Faction Introduction: United Harvest"
+    },
+    {
+      "file": "x/2009565817201926545-0.webp",
+      "caption": "Official X art (47)"
+    },
+    {
+      "file": "x/2009565817201926545-1.webp",
+      "caption": "Official X art (48)"
+    },
+    {
+      "file": "x/2024046231958552680-0.webp",
+      "caption": "Official X art (49)"
+    },
+    {
+      "file": "x/2029399000126820699-0.webp",
+      "caption": "Nova Doodles: A View from Above"
+    },
+    {
+      "file": "x/2030516361110106320-0.webp",
+      "caption": "Official X art (50)"
+    },
+    {
+      "file": "x/2030516361110106320-1.webp",
+      "caption": "Official X art (51)"
+    },
+    {
+      "file": "x/2030516361110106320-2.webp",
+      "caption": "Official X art (52)"
+    },
+    {
+      "file": "x/2038118958981927012-0.webp",
+      "caption": "Official X art (53)"
+    },
+    {
+      "file": "x/2038836184198037826-0.webp",
+      "caption": "Official X art (54)"
+    },
+    {
+      "file": "x/2042935773880815708-0.webp",
+      "caption": "Official X art (55)"
+    },
+    {
+      "file": "x/2042981319219777843-0.webp",
+      "caption": "Official X art (56)"
+    },
+    {
+      "file": "x/2044974136003551383-0.webp",
+      "caption": "Official X art (57)"
+    },
+    {
+      "file": "x/2046786079970427354-0.webp",
+      "caption": "Official X art (58)"
+    },
+    {
+      "file": "x/2047510843840147864-0.webp",
+      "caption": "Official X art (59)"
+    },
+    {
+      "file": "x/2051504658783629791-0.webp",
+      "caption": "Official X art (60)"
+    },
+    {
+      "file": "x/2052946664902553868-0.webp",
+      "caption": "Official celebration art (3)"
+    },
+    {
+      "file": "x/2053407195812000242-0.webp",
+      "caption": "Event key visual (2)"
+    },
+    {
+      "file": "x/2079046135717433669-0.webp",
+      "caption": "Official X art (61)"
+    },
+    {
+      "file": "x/2090257514029813857-0.webp",
+      "caption": "Official X art (62)"
+    },
+    {
+      "file": "x/2095708429226594512-0.webp",
+      "caption": "Event key visual (3)"
+    },
+    {
+      "file": "x/2103035461077966997-0.webp",
+      "caption": "Official X art (63)"
+    },
+    {
+      "file": "x/2105144974992159195-0.webp",
+      "caption": "Official X art (64)"
+    },
+    {
+      "file": "x/2105591046813999492-0.webp",
+      "caption": "Official X art (65)"
+    },
+    {
+      "file": "x/2106315823602110535-0.webp",
+      "caption": "Official X art (66)"
+    },
+    {
+      "file": "x/2106315823841456514-0.webp",
+      "caption": "Official X art (67)"
+    },
+    {
+      "file": "x/2107040599211696468-0.webp",
+      "caption": "Official X art (68)"
+    },
+    {
+      "file": "x/2107667228036403350-0.webp",
+      "caption": "Official X art (69)"
     }
   ]
 };
