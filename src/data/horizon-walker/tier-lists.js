@@ -523,6 +523,11 @@ export const TIER_CHARACTER_NOTES = {
     title: 'Dopamin Specialist',
     text: 'Marhim needs her Demi skill to be great at Dopamin: with it she is really strong there. On other maps she is not that much.',
   },
+  'Mu Yingying': {
+    type: 'info',
+    title: 'Super Tanky, Busted Damage',
+    text: 'Mu Yingying does an insane amount of damage while also being super tanky: she is one of the tankiest characters in the game. The damage she puts out is straight up busted and she is super strong, and she does not need dupes either.',
+  },
 };
 
 export default HORIZON_WALKER_TIER_LISTS;
