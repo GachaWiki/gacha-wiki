@@ -481,6 +481,11 @@ export const TIER_CHARACTER_NOTES = {
     title: 'Highest DEF Down in the Game',
     text: 'Palekar has the highest DEF down of any character: [Unstable] from her Verse of Ordeal slashes All DEF by a massive 1140, shreds up to 200 more DEF based on her Evasion, and increases the DMG Taken of the target on top. Apply it to a boss and your whole team hits dramatically harder, making her a premier enabler for one shotting things.',
   },
+  Garud: {
+    type: 'warning',
+    title: 'High Potential, Feels Mid',
+    text: 'Garud has a lot of potential to be busted, but when you actually use her she feels mid. Compared to the other units, there are much better options out there.',
+  },
   Matrotho: {
     type: 'warning',
     title: 'Requires Team Synergy',
