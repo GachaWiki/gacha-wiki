@@ -1794,7 +1794,7 @@ function getTotalDupes(rarity: string): number {
                   height={24}
                 />
                 <p class="disc-meta-line">
-                  <span class={`element-word element-${character.disc.element.toLowerCase()}`}>
+                  <span class={`element-word word-${character.disc.element.toLowerCase()}`}>
                     {character.disc.element}
                   </span>
                   {character.disc.tags && character.disc.tags.length > 0 && (
@@ -1840,8 +1840,9 @@ function getTotalDupes(rarity: string): number {
                     </span>
                     {character.disc.stats.dupeAtkTiers &&
                       character.disc.stats.dupeAtkTiers.length > 1 && (
-                        <select
-                          class="dupe-select"
+                        <span
+                          class="dupe-tier-row"
+                          role="group"
                           aria-label="Dupe level"
                           data-base={character.disc.stats.baseATk ||
                             character.disc.stats.baseATK ||
@@ -1849,14 +1850,17 @@ function getTotalDupes(rarity: string): number {
                           data-tiers={JSON.stringify(character.disc.stats.dupeAtkTiers)}
                         >
                           {character.disc.stats.dupeAtkTiers.map((_: number, i: number) => (
-                            <option
-                              value={i}
-                              selected={i === character.disc.stats.dupeAtkTiers.length - 1}
+                            <button
+                              type="button"
+                              class={`dupe-tier-btn${
+                                i === character.disc.stats.dupeAtkTiers.length - 1 ? ' active' : ''
+                              }`}
+                              data-tier={i}
                             >
                               D{i}
-                            </option>
+                            </button>
                           ))}
-                        </select>
+                        </span>
                       )}
                   </span>
                 </div>
@@ -2668,21 +2672,25 @@ function getTotalDupes(rarity: string): number {
     });
   }
 
-  // Disc dupe-level selector: updates Base ATK for the chosen dupe tier (D0-D5)
+  // Disc dupe-level buttons: update Base ATK for the chosen dupe tier (D0-D5)
   function initializeDupeSelectors() {
-    document.querySelectorAll('.dupe-select').forEach(sel => {
-      const valueEl = sel.parentElement?.querySelector('.disc-atk-value');
+    document.querySelectorAll('.dupe-tier-row').forEach(row => {
+      const valueEl = row.parentElement?.querySelector('.disc-atk-value');
       if (!valueEl) return;
-      const base = Number(sel.dataset.base || 0);
+      const base = Number(row.dataset.base || 0);
       let tiers = [];
       try {
-        tiers = JSON.parse(sel.dataset.tiers || '[]');
+        tiers = JSON.parse(row.dataset.tiers || '[]');
       } catch (e) {
         tiers = [];
       }
-      sel.addEventListener('change', () => {
-        const bonus = tiers[Number(sel.value)] || 0;
-        valueEl.textContent = (base + bonus).toLocaleString();
+      row.querySelectorAll('.dupe-tier-btn').forEach(btn => {
+        btn.addEventListener('click', () => {
+          row.querySelectorAll('.dupe-tier-btn').forEach(b => b.classList.remove('active'));
+          btn.classList.add('active');
+          const bonus = tiers[Number(btn.dataset.tier)] || 0;
+          valueEl.textContent = (base + bonus).toLocaleString();
+        });
       });
     });
   }

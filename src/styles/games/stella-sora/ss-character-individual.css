@@ -1826,30 +1826,42 @@
   margin: 0;
 }
 
-/* Element name keeps the game's element color for scannability */
-.disc-meta-line .element-word.element-aqua { color: var(--ss-element-aqua); }
-.disc-meta-line .element-word.element-ignis { color: var(--ss-element-ignis); }
-.disc-meta-line .element-word.element-ventus { color: var(--ss-element-ventus); }
-.disc-meta-line .element-word.element-terra { color: var(--ss-element-terra); }
-.disc-meta-line .element-word.element-lux { color: var(--ss-element-lux); }
-.disc-meta-line .element-word.element-umbra { color: var(--ss-element-umbra); }
+/* Element name keeps the game's element color for scannability
+   (word-* names avoid the shared .element-* badge classes in ss-badge-colours.css) */
+.disc-meta-line .word-aqua { color: var(--ss-element-aqua); }
+.disc-meta-line .word-ignis { color: var(--ss-element-ignis); }
+.disc-meta-line .word-ventus { color: var(--ss-element-ventus); }
+.disc-meta-line .word-terra { color: var(--ss-element-terra); }
+.disc-meta-line .word-lux { color: var(--ss-element-lux); }
+.disc-meta-line .word-umbra { color: var(--ss-element-umbra); }
 
-/* Base ATK value + dupe-level selector (interactive control) */
+/* Base ATK value + dupe-level buttons (interactive control) */
 .stat-value-wrap {
   display: inline-flex;
   align-items: center;
   gap: 0.5rem;
 }
 
-.dupe-select {
+.dupe-tier-row {
+  display: inline-flex;
+  gap: 0.25rem;
+}
+
+.dupe-tier-btn {
   background: var(--ss-bg-primary);
-  color: var(--ss-primary);
+  color: var(--ss-text-secondary);
   border: 1px solid var(--ss-border);
-  border-radius: 6px;
-  font-size: var(--text-xs);
+  border-radius: 5px;
+  font-size: var(--text-2xs);
   font-weight: 600;
-  padding: 0.2rem 0.45rem;
+  padding: 0.15rem 0.4rem;
   cursor: pointer;
+  line-height: 1.4;
+}
+
+.dupe-tier-btn.active {
+  color: var(--ss-primary);
+  border-color: var(--ss-primary);
 }
 
 .view-full-disc-link {
@@ -1916,12 +1928,6 @@
   font-size: var(--text-base);
 }
 
-.disc-stat-item .dupe-bonus {
-  color: var(--ss-primary);
-  font-size: var(--text-xs);
-  font-weight: 600;
-  margin-left: 0.35rem;
-}
 
 /* Skills - Enhanced Style */
 .disc-skills-content {
