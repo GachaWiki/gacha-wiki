@@ -1269,20 +1269,7 @@
 
 /* Mobile */
 
-.swipeable-indicator {
-  display: none;
-  color: var(--amber-glow);
-  font-size: var(--text-sm);
-  font-weight: 600;
-  text-align: center;
-  margin-bottom: 1rem;
-}
-
 @media (max-width: 768px) {
-  .swipeable-indicator {
-    display: block;
-  }
-
   .content-section {
     padding: 1.25rem;
     margin-bottom: 1.5rem;

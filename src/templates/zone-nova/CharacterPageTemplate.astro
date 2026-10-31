@@ -13,7 +13,6 @@ import {
 } from '../../utils/zone-nova/skill-highlighting.js';
 import { BUFF_EXPLANATIONS } from '../../data/zone-nova/memories.js';
 import { getCharGallery } from '../../data/zone-nova/char-galleries.js';
-import CharacterNavigation from '../../components/zone-nova/CharacterNavigation.astro';
 
 interface Props {
   characterData: any;
@@ -21,8 +20,8 @@ interface Props {
 
 const { characterData } = Astro.props;
 
-// URL slug of this character page (e.g. /guides/zone-nova/characters/erika/ → erika)
-// — used by the mobile side-tap navigation. Matches the index's slug/detailUrl.
+// URL slug of this character page (e.g. /guides/zone-nova/characters/erika/ → erika).
+// Matches the index's slug/detailUrl.
 const currentSlug = Astro.url.pathname.replace(/\/+$/, '').split('/').pop() ?? '';
 
 // Story event artwork for this character (R2 gallery), if any exists
@@ -103,10 +102,6 @@ function renderSkillWithState(skill, highlightedSkill) {
 }
 
 ---
-
-<!-- Mobile navigation instruction at top of main content -->
-<div class="swipeable-indicator">Touch the sides to move between characters</div>
-<CharacterNavigation currentCharacterSlug={currentSlug} />
 
 <!-- Character Header & Overview -->
 <section class="content-section character-overview-section">
