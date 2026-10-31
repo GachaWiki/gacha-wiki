@@ -60,21 +60,18 @@ if (autoGenerate) {
   ];
 }
 
-// A back button whose only target is the site root says nothing about where
-// it leads, so it becomes a history Back instead: previous page when the
-// visitor came from this site, the home link as fallback for direct entry.
-const isHomeBack = backNavigation !== null && backNavigation.href === '/';
+// A back button never targets home: a game landing's natural parent is the
+// wikis library, so home-level back buttons point there instead.
+if (backNavigation && backNavigation.href === '/') {
+  backNavigation = { ...backNavigation, href: '/guides/', parentName: 'Wikis' };
+}
 ---
 
 <nav class="rg-breadcrumb" aria-label="Breadcrumb">
   <div class="rg-breadcrumb-container">
     {
       backNavigation && (
-        <a
-          href={backNavigation.href}
-          class="rg-back-button"
-          data-history-back={isHomeBack ? '' : undefined}
-        >
+        <a href={backNavigation.href} class="rg-back-button">
           <svg
             class="rg-back-arrow"
             width="16"
@@ -90,7 +87,7 @@ const isHomeBack = backNavigation !== null && backNavigation.href === '/';
             <path d="M15 18l-6-6 6-6" />
           </svg>
           <span class="rg-back-text">
-            {isHomeBack ? 'Back' : backNavigation.parentName || 'Back'}
+            {backNavigation.parentName || 'Back'}
           </span>
         </a>
       )
@@ -118,8 +115,3 @@ const isHomeBack = backNavigation !== null && backNavigation.href === '/';
     </ol>
   </div>
 </nav>
-
-<script>
-  // History-aware Back for buttons whose only target is the site root.
-  import '../../scripts/history-back.js';
-</script>
