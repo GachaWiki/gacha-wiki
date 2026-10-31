@@ -1828,6 +1828,12 @@
 
 /* Element name keeps the game's element color for scannability
    (word-* names avoid the shared .element-* badge classes in ss-badge-colours.css) */
+.disc-meta-line .element-word {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+
 .disc-meta-line .word-aqua { color: var(--ss-element-aqua); }
 .disc-meta-line .word-ignis { color: var(--ss-element-ignis); }
 .disc-meta-line .word-ventus { color: var(--ss-element-ventus); }

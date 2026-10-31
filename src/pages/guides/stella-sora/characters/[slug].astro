@@ -1795,6 +1795,12 @@ function getTotalDupes(rarity: string): number {
                 />
                 <p class="disc-meta-line">
                   <span class={`element-word word-${character.disc.element.toLowerCase()}`}>
+                    <SSElementImage
+                      elementName={character.disc.element}
+                      alt={character.disc.element}
+                      width={18}
+                      height={18}
+                    />
                     {character.disc.element}
                   </span>
                   {character.disc.tags && character.disc.tags.length > 0 && (
