@@ -159,16 +159,6 @@
   flex-wrap: wrap;
 }
 
-.pv-badge {
-  padding: 0.25rem 0.7rem;
-  font-size: var(--text-xs);
-  font-weight: 700;
-  border-radius: 5px;
-  background: var(--ss-primary-dark);
-  color: #fff;
-  letter-spacing: 0.02em;
-}
-
 .pv-stage {
   max-width: 860px;
   margin: 1rem auto 0.85rem auto;
@@ -256,22 +246,6 @@
   display: block;
 }
 
-.skin-type-badge {
-  position: absolute;
-  top: 8px;
-  left: 8px;
-  padding: 0.2rem 0.5rem;
-  font-size: var(--text-2xs);
-  font-weight: 700;
-  border-radius: 5px;
-  background: rgba(0, 0, 0, 0.7);
-  color: #fff;
-}
-
-.skin-type-2 {
-  color: var(--ss-primary);
-}
-
 /* Skin promo art cards: full-width feature banner, wide art shown complete */
 .skin-has-adv {
   grid-column: 1 / -1;
@@ -348,6 +322,14 @@
   flex-wrap: wrap;
   gap: 0.75rem;
   margin-bottom: 2rem;
+}
+
+/* Character meta values: plain text (no badge pills), same degree as content */
+.character-meta .meta-value {
+  font-size: var(--text-md);
+  font-weight: 600;
+  color: var(--ss-text-primary);
+  align-self: center;
 }
 
 .element-badge-container {
@@ -1825,16 +1807,49 @@
   font-family: var(--font-display);
 }
 
-.disc-meta {
+/* Disc rarity row: game star image + plain text meta line (no badge pills) */
+.disc-rarity-row {
   display: flex;
+  align-items: center;
   gap: 0.75rem;
   flex-wrap: wrap;
 }
 
-.disc-tags {
-  display: flex;
+.disc-rarity-row img {
+  display: block;
+}
+
+.disc-meta-line {
+  font-size: var(--text-sm);
+  font-weight: 600;
+  color: var(--ss-text-primary);
+  margin: 0;
+}
+
+/* Element name keeps the game's element color for scannability */
+.disc-meta-line .element-word.element-aqua { color: var(--ss-element-aqua); }
+.disc-meta-line .element-word.element-ignis { color: var(--ss-element-ignis); }
+.disc-meta-line .element-word.element-ventus { color: var(--ss-element-ventus); }
+.disc-meta-line .element-word.element-terra { color: var(--ss-element-terra); }
+.disc-meta-line .element-word.element-lux { color: var(--ss-element-lux); }
+.disc-meta-line .element-word.element-umbra { color: var(--ss-element-umbra); }
+
+/* Base ATK value + dupe-level selector (interactive control) */
+.stat-value-wrap {
+  display: inline-flex;
+  align-items: center;
   gap: 0.5rem;
-  flex-wrap: wrap;
+}
+
+.dupe-select {
+  background: var(--ss-bg-primary);
+  color: var(--ss-primary);
+  border: 1px solid var(--ss-border);
+  border-radius: 6px;
+  font-size: var(--text-xs);
+  font-weight: 600;
+  padding: 0.2rem 0.45rem;
+  cursor: pointer;
 }
 
 .view-full-disc-link {
@@ -1890,15 +1905,22 @@
 }
 
 .disc-stat-item .stat-label {
-  color: var(--ss-text-secondary);
+  color: var(--ss-primary);
   font-size: var(--text-sm);
-  font-weight: var(--font-medium);
+  font-weight: 600;
 }
 
 .disc-stat-item .stat-value {
-  color: var(--ss-primary);
-  font-weight: var(--font-semibold);
+  color: var(--ss-text-primary);
+  font-weight: var(--ss-font-semibold, 600);
   font-size: var(--text-base);
+}
+
+.disc-stat-item .dupe-bonus {
+  color: var(--ss-primary);
+  font-size: var(--text-xs);
+  font-weight: 600;
+  margin-left: 0.35rem;
 }
 
 /* Skills - Enhanced Style */
@@ -1946,8 +1968,8 @@
 .disc-skill h5 {
   margin: 0 0 0.25rem 0;
   font-size: var(--text-sm);
-  color: var(--ss-text-tertiary);
-  font-weight: var(--font-medium);
+  color: var(--ss-primary);
+  font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.05em;
 }
@@ -2149,19 +2171,6 @@
   display: flex;
   flex-wrap: wrap;
   gap: 0.5rem;
-}
-
-.tag {
-  background: var(--ss-bg-primary);
-  color: var(--ss-text-secondary);
-  padding: 0.5rem 1rem;
-  border-radius: 6px;
-  border: 1px solid var(--ss-border);
-  font-size: var(--text-sm);
-  font-family: var(--font-primary);
-  font-weight: var(--font-medium);
-  line-height: var(--leading-normal);
-  letter-spacing: var(--tracking-normal);
 }
 
 /* ===== RESPONSIVE DESIGN FOR INDIVIDUAL CHARACTER PAGES ===== */

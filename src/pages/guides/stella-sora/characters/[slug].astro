@@ -318,14 +318,9 @@ function getTotalDupes(rarity: string): number {
               <div class="element-icon-detail">
                 <SSElementImage elementName={character.element} alt={character.element} />
               </div>
-              <span
-                class={`element-badge element-${(character.element || 'Unknown').toLowerCase()}`}
-                >{character.element || 'Unknown'}</span
-              >
+              <span class="meta-value">{character.element || 'Unknown'}</span>
             </div>
-            <span class={`position-badge position-${(character.role || 'Unknown').toLowerCase()}`}
-              >{character.role || 'Unknown'}</span
-            >
+            <span class="meta-value">{character.role || 'Unknown'}</span>
             {
               character.attackType && (
                 <div class="attack-type-badge-container">
@@ -335,19 +330,13 @@ function getTotalDupes(rarity: string): number {
                       alt={character.attackType}
                     />
                   </div>
-                  <span
-                    class={`attack-type-badge attack-type-${character.attackType.toLowerCase()}`}
-                  >
-                    {character.attackType}
-                  </span>
+                  <span class="meta-value">{character.attackType}</span>
                 </div>
               )
             }
             {
               character.style && (
-                <span class={`style-badge style-${character.style.toLowerCase()}`}>
-                  {character.style}
-                </span>
+                <span class="meta-value">{character.style}</span>
               )
             }
           </div>
@@ -412,7 +401,6 @@ function getTotalDupes(rarity: string): number {
         <section class="character-pv-section">
           <div class="pv-heading-row">
             <h2 class="section-title">Trekker PV</h2>
-            <span class="pv-badge">Official Video</span>
           </div>
           <p class="gallery-explanation">
             Watch {character.name} star in the official introduction video, straight from the Stella Sora team.
@@ -492,11 +480,8 @@ function getTotalDupes(rarity: string): number {
                     decoding="async"
                   />
                 )}
-                {skin.type !== 3 && (
-                  <span class={`skin-type-badge skin-type-${skin.type}`}>{skin.name}</span>
-                )}
               </div>
-              {skin.type === 3 && <p class="skin-name">{skin.name}</p>}
+              <p class="skin-name">{skin.name}</p>
               {skin.desc && <p class="skin-desc">{skin.desc}</p>}
             </a>
           ))}
@@ -1800,20 +1785,22 @@ function getTotalDupes(rarity: string): number {
             </div>
             <div class="disc-hero-info">
               <h3>{character.disc.name}</h3>
-              <div class="disc-meta">
-                <span
-                  class={`rarity-badge ${character.disc.rarity.toLowerCase().replace('-star', '-star').replace('5-star', 'five-star').replace('4-star', 'four-star').replace('3-star', 'three-star')}`}
-                >
-                  {character.disc.rarity}
-                </span>
-                <span class={`element-badge element-${character.disc.element.toLowerCase()}`}>
-                  {character.disc.element}
-                </span>
-              </div>
-              <div class="disc-tags">
-                {character.disc.tags.map((tag: string) => (
-                  <span class="tag">{tag}</span>
-                ))}
+              <div class="disc-rarity-row">
+                <SSRarityImage
+                  rarity={character.disc.star}
+                  type="character"
+                  alt={character.disc.rarity}
+                  width={80}
+                  height={24}
+                />
+                <p class="disc-meta-line">
+                  <span class={`element-word element-${character.disc.element.toLowerCase()}`}>
+                    {character.disc.element}
+                  </span>
+                  {character.disc.tags && character.disc.tags.length > 0 && (
+                    <span class="disc-meta-rest">{`, ${character.disc.tags.join(', ')}`}</span>
+                  )}
+                </p>
               </div>
               <a
                 href={`/guides/stella-sora/discs/${character.disc.slug}`}
@@ -1828,7 +1815,7 @@ function getTotalDupes(rarity: string): number {
             <div class="disc-card disc-stats-card">
               <h4>Stats Details (LV. 90)</h4>
               <div class="disc-stats-list">
-                <div class="disc-stat-item">
+                <div class="disc-stat-item disc-atk-row">
                   <span class="stat-label">
                     <HighlightedText
                       text={
@@ -1838,12 +1825,39 @@ function getTotalDupes(rarity: string): number {
                       }
                     />
                   </span>
-                  <span class="stat-value">
-                    {(
-                      character.disc.stats.baseATk ||
-                      character.disc.stats.baseATK ||
-                      character.disc.stats.basicAtk
-                    )?.toLocaleString() || 'N/A'}
+                  <span class="stat-value-wrap">
+                    <span class="stat-value disc-atk-value">
+                      {(
+                        (character.disc.stats.baseATk ||
+                          character.disc.stats.baseATK ||
+                          character.disc.stats.basicAtk) +
+                          (character.disc.stats.dupeAtkTiers?.[
+                            character.disc.stats.dupeAtkTiers.length - 1
+                          ] ||
+                            character.disc.stats.dupeAtkBonus ||
+                            0)
+                      )?.toLocaleString() || 'N/A'}
+                    </span>
+                    {character.disc.stats.dupeAtkTiers &&
+                      character.disc.stats.dupeAtkTiers.length > 1 && (
+                        <select
+                          class="dupe-select"
+                          aria-label="Dupe level"
+                          data-base={character.disc.stats.baseATk ||
+                            character.disc.stats.baseATK ||
+                            character.disc.stats.basicAtk}
+                          data-tiers={JSON.stringify(character.disc.stats.dupeAtkTiers)}
+                        >
+                          {character.disc.stats.dupeAtkTiers.map((_: number, i: number) => (
+                            <option
+                              value={i}
+                              selected={i === character.disc.stats.dupeAtkTiers.length - 1}
+                            >
+                              D{i}
+                            </option>
+                          ))}
+                        </select>
+                      )}
                   </span>
                 </div>
                 {character.disc.stats.baseHP && (
@@ -2654,11 +2668,31 @@ function getTotalDupes(rarity: string): number {
     });
   }
 
+  // Disc dupe-level selector: updates Base ATK for the chosen dupe tier (D0-D5)
+  function initializeDupeSelectors() {
+    document.querySelectorAll('.dupe-select').forEach(sel => {
+      const valueEl = sel.parentElement?.querySelector('.disc-atk-value');
+      if (!valueEl) return;
+      const base = Number(sel.dataset.base || 0);
+      let tiers = [];
+      try {
+        tiers = JSON.parse(sel.dataset.tiers || '[]');
+      } catch (e) {
+        tiers = [];
+      }
+      sel.addEventListener('change', () => {
+        const bonus = tiers[Number(sel.value)] || 0;
+        valueEl.textContent = (base + bonus).toLocaleString();
+      });
+    });
+  }
+
   // Initialize on DOM ready
   function initializeAll() {
     initializeStatsLevelSelector();
     initializeSkillLevelSelector();
     initializePotentials();
+    initializeDupeSelectors();
   }
 
   if (document.readyState === 'loading') {

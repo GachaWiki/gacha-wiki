@@ -37,7 +37,7 @@ imageKey = imageKey.replace(/\.(jpg|jpeg|png|webp)$/i, '');
 let imageSrc: string | null = null;
 let imageAlt = alt;
 if (FILES.has(imageKey)) {
-  imageSrc = `${R2}/Notes/${imageKey}.jpg`;
+  imageSrc = `${R2}/Notes/${imageKey}.webp`;
 } else {
   // Fallback if image not found
   imageAlt = `Image not found: ${alt}`;

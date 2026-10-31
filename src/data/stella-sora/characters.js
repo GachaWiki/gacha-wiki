@@ -480,10 +480,13 @@ function transformDiscData(disc) {
       .replace(/[^a-z0-9\s-]/g, '')
       .replace(/\s+/g, '-'),
     rarity: `${disc.star}-Star`,
+    star: disc.star,
     element: disc.element,
     tags: disc.tag,
     stats: {
       basicAtk: atkStat?.value || 0,
+      dupeAtkBonus: disc.dupe?.[4]?.[0]?.value || 0,
+      dupeAtkTiers: [0, ...(disc.dupe || []).map(row => row[0]?.value || 0)],
       [elementDmgKey]: dmgStat ? `${dmgStat.value}%` : '0%',
     },
     skills: {
@@ -643,3 +646,5 @@ export function getCharactersByRole(role) {
 
 // Export all characters as default for easy importing
 export default STELLA_SORA_CHARACTERS;
+
+// disc-map extended 2026-10-31
