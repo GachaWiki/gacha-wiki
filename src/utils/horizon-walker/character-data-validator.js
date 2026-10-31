@@ -339,34 +339,3 @@ export function validateSkillReplacements(skills) {
   };
 }
 
-/**
- * Performance monitoring wrapper for validation
- * @param {Function} validationFunction - The validation function to monitor
- * @returns {Function} Wrapped function with performance tracking
- */
-export function withValidationMonitoring(validationFunction) {
-  return function (...args) {
-    const startTime = performance.now();
-    const result = validationFunction.apply(this, args);
-    const endTime = performance.now();
-
-    const executionTime = endTime - startTime;
-
-    // Log performance warnings
-    if (executionTime > 50) {
-      // 50ms threshold for validation
-      console.warn(`Validation took ${executionTime.toFixed(2)}ms - consider optimization`);
-    }
-
-    return {
-      ...result,
-      performance: {
-        executionTime: executionTime.toFixed(2) + 'ms',
-      },
-    };
-  };
-}
-
-// Export performance-monitored versions
-export const validateCharacterDataWithMonitoring = withValidationMonitoring(validateCharacterData);
-export const validateSkillsWithMonitoring = withValidationMonitoring(validateSkills);

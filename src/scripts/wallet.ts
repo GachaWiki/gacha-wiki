@@ -11,7 +11,6 @@
 import { createAppKit } from '@reown/appkit';
 import { EthersAdapter } from '@reown/appkit-adapter-ethers';
 import type { AppKitNetwork } from '@reown/appkit/networks';
-import { BrowserProvider, Contract, formatUnits } from 'ethers';
 
 // ---------------------------------------------------------------------------
 // Configuration
@@ -42,39 +41,6 @@ export const robinhoodChain: AppKitNetwork = {
   // AppKit uses these for the "rh" ticker label and testnet/mainnet detection.
   testnet: false,
 } as const;
-
-export const EXPLORER_URL = 'https://robinhoodchain.blockscout.com';
-
-// $GW ERC-20 contract (used by the wallet button and the /swap + /verify pages).
-export const GW_CONTRACT = '0x50bE7832849EFEdB15611799074FcC409522f27A';
-
-// Minimal ERC-20 ABI surface for the balance read.
-const ERC20_ABI = [
-  {
-    constant: true,
-    inputs: [{ name: 'owner', type: 'address' }],
-    name: 'balanceOf',
-    outputs: [{ name: '', type: 'uint256' }],
-    stateMutability: 'view',
-    type: 'function',
-  },
-  {
-    constant: true,
-    inputs: [],
-    name: 'decimals',
-    outputs: [{ name: '', type: 'uint8' }],
-    stateMutability: 'view',
-    type: 'function',
-  },
-  {
-    constant: true,
-    inputs: [],
-    name: 'symbol',
-    outputs: [{ name: '', type: 'string' }],
-    stateMutability: 'view',
-    type: 'function',
-  },
-] as const;
 
 // ---------------------------------------------------------------------------
 // Reown project id — get one free at https://cloud.reown.com → "Create Project".
@@ -151,74 +117,6 @@ export async function openConnectModal(): Promise<void> {
 /** Current connected EVM address, if any. */
 export function getConnectedAddress(): string | undefined {
   return appKit?.getAddress();
-}
-
-/** Disconnect the active wallet. Used by the wallet menu's Disconnect button. */
-export async function disconnectWallet(): Promise<void> {
-  const kit = appKit ?? (await getAppKit());
-  await kit.disconnect();
-}
-
-// ---------------------------------------------------------------------------
-// $GW balance read (live on-chain via ethers)
-// ---------------------------------------------------------------------------
-
-export interface BalanceResult {
-  formatted: string; // e.g. "1,234.5"
-  symbol: string; // e.g. "$GW" (falls back if the contract read fails)
-  display: string; // e.g. "1,234.5 $GW"
-}
-
-let cachedDecimals: number | null = null;
-let cachedSymbol: string | null = null;
-
-/**
- * Read the live $GW balance for `address` on Robinhood Chain.
- * Uses the connected wallet's provider so it reflects the user's real holdings.
- */
-export async function readGwBalance(address: string): Promise<BalanceResult> {
-  const kit = appKit ?? (await getAppKit());
-  // EIP-1193 provider from the active wallet.
-  const rawProvider = kit.getProvider<{ request: (a: unknown) => Promise<unknown> }>('eip155');
-  if (!rawProvider) throw new Error('No wallet provider available');
-
-  const provider = new BrowserProvider(rawProvider as never);
-  const contract = new Contract(GW_CONTRACT, ERC20_ABI, provider);
-
-  // Read decimals + symbol once, cache for the session.
-  if (cachedDecimals === null) {
-    try {
-      cachedDecimals = Number(await contract.decimals());
-      if (!Number.isFinite(cachedDecimals) || cachedDecimals < 0) cachedDecimals = 18;
-    } catch {
-      cachedDecimals = 18;
-    }
-  }
-  if (cachedSymbol === null) {
-    try {
-      const s = (await contract.symbol()) as string;
-      cachedSymbol = s && s.length > 0 ? s : 'GW';
-    } catch {
-      cachedSymbol = 'GW';
-    }
-  }
-
-  const symbol = cachedSymbol.startsWith('$') ? cachedSymbol : `$${cachedSymbol}`;
-
-  const balance = (await contract.balanceOf(address)) as bigint;
-  const raw = formatUnits(balance, cachedDecimals);
-  const formatted = formatBalanceString(raw);
-
-  return { formatted, symbol, display: `${formatted} ${symbol}` };
-}
-
-/** Group thousands, trim trailing zeros, cap at 4 decimals. */
-function formatBalanceString(raw: string): string {
-  const [whole, fracRaw] = raw.split('.');
-  const grouped = Number(whole).toLocaleString('en-US');
-  if (!fracRaw) return grouped;
-  const frac = fracRaw.replace(/0+$/, '').slice(0, 4);
-  return frac ? `${grouped}.${frac}` : grouped;
 }
 
 // ---------------------------------------------------------------------------

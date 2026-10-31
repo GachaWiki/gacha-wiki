@@ -1321,30 +1321,6 @@ export function getGameConfig(gameKey: string): GameSEOConfig | null {
 }
 
 /**
- * Add new game configuration dynamically (for future games)
- * @param gameKey - The game identifier
- * @param config - Game configuration object
- * @note Currently unused but available for dynamic game addition in the future
- */
-export function addGameConfig(
-  gameKey: string,
-  config: Partial<GameSEOConfig> & { gameName: string }
-): void {
-  if (GAME_SEO_CONFIG[gameKey]) {
-    // Game configuration already exists - overwriting
-  }
-
-  (GAME_SEO_CONFIG as Record<string, GameSEOConfig>)[gameKey] = {
-    gameName: config.gameName,
-    keywords: config.keywords || [],
-    themeColor: config.themeColor || '#4a90e2',
-    description: config.description || `Complete guide for ${config.gameName}`,
-    genres: config.genres || ['RPG', 'Gacha'],
-    platform: config.platform || 'Mobile',
-  };
-}
-
-/**
  * Validate that all required SEO data is present
  * @param data - SEO data to validate
  * @returns Validation result with any missing fields
@@ -1465,35 +1441,6 @@ export function generateFAQStructuredData(faqs: FAQItem[]): StructuredDataFAQ {
         '@type': 'Answer',
         text: faq.answer,
       },
-    })),
-  };
-}
-
-/**
- * Generate HowTo structured data for tutorials and guides
- * @param name - Name of the tutorial/guide
- * @param description - Description of what the guide teaches
- * @param steps - Array of steps in the tutorial
- * @param image - Optional main image for the guide
- * @returns HowTo structured data object
- */
-export function generateHowToStructuredData(
-  name: string,
-  description: string,
-  steps: HowToStep[],
-  image?: string
-): StructuredDataHowTo {
-  return {
-    '@context': 'https://schema.org',
-    '@type': 'HowTo',
-    name: name,
-    description: description,
-    image: image,
-    step: steps.map(step => ({
-      '@type': 'HowToStep',
-      name: step.name,
-      text: step.text,
-      image: step.image,
     })),
   };
 }

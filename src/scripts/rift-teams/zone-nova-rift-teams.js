@@ -285,34 +285,3 @@ function cleanupEventListeners() {
   eventListeners.length = 0;
 }
 
-// Export cleanup function for external use
-export function cleanupRiftTeamDatabase() {
-  cleanupEventListeners();
-  characterElementCache.clear();
-  // Clear DOM caches
-  cachedSortButtons = null;
-  cachedTableBody = null;
-  cachedMobileContainer = null;
-}
-
-// Utility function to get current filter state (for debugging)
-export function getCurrentRiftState() {
-  return {
-    teams: currentRiftTeams,
-    filters: currentRiftFilters,
-    sort: currentRiftSort,
-  };
-}
-
-// Utility function to manually set filters (for programmatic use)
-export function setRiftFilters(filters) {
-  currentRiftFilters = { ...currentRiftFilters, ...filters };
-  applyRiftFiltersAndSort();
-}
-
-// Utility function to manually set sort (for programmatic use)
-export function setRiftSort(key, direction = 'asc') {
-  currentRiftSort = { key, direction };
-  updateRiftSortButtonStates();
-  applyRiftFiltersAndSort();
-}

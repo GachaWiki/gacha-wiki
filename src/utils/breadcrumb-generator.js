@@ -395,22 +395,6 @@ function formatSegmentName(segment) {
 }
 
 /**
- * Detect game key from pathname
- * @param {string} pathname - The current page path
- * @returns {string|null} Detected game key or null
- */
-export function detectGameKey(pathname) {
-  const segments = pathname.split('/').filter(segment => segment.length > 0);
-
-  if (segments[0] === 'guides' && segments.length > 1) {
-    const gameKey = segments[1];
-    return GAME_CONFIG[gameKey] ? gameKey : null;
-  }
-
-  return null;
-}
-
-/**
  * Get game configuration
  * @param {string} gameKey - Game identifier
  * @returns {Object|null} Game configuration or null

@@ -6,15 +6,6 @@
 // info before merging. No unreviewed or invented product data. cardPreviews
 // are sample-card images harvested by fetch_card_previews.mjs.
 
-// Display labels for the item type filter and grid badges.
-export const SHOP_TYPES = {
-  'booster-box': 'Booster Box',
-  'trial-deck': 'Trial Deck',
-  'special-set': 'Special Set',
-  'booster-pack': 'Booster Pack',
-  other: 'TCG Product',
-};
-
 export const SHOP_ITEMS = [
   {
     id: 'nikke-vol2',
@@ -410,7 +401,3 @@ export const SHOP_ITEMS = [
   },
 ];
 
-// Unique sorted franchise list for the shop filter dropdown.
-export function getShopFranchises() {
-  return [...new Set(SHOP_ITEMS.map((i) => i.franchise).filter(Boolean))].sort();
-}

@@ -12,21 +12,4 @@ export const aboutData = {
   },
 };
 
-// Helper functions for about data
-export const getAboutSection = sectionId => {
-  return aboutData.sections.find(section => section.id === sectionId);
-};
-
-export const getAllSections = () => {
-  return aboutData.sections;
-};
-
-export const getPageMetadata = () => {
-  return {
-    title: aboutData.title,
-    subtitle: aboutData.subtitle,
-    description: aboutData.description,
-  };
-};
-
 export default aboutData;

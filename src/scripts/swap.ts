@@ -61,13 +61,6 @@ export interface TokenInfo {
   logoUri?: string;
 }
 
-// Curated default token list. ETH (native) + $GW + WETH, with logos.
-export const DEFAULT_TOKENS: TokenInfo[] = [
-  { address: NATIVE_TOKEN, symbol: 'ETH', name: 'Ether', decimals: 18, logoUri: 'https://www.google.com/s2/favicons?domain=ethereum.org&sz=64' },
-  { address: GW_TOKEN, symbol: 'GW', name: 'GachaWiki', decimals: 18, logoUri: 'https://www.google.com/s2/favicons?domain=gachawiki.info&sz=64' },
-  { address: WETH_TOKEN, symbol: 'WETH', name: 'Wrapped Ether', decimals: 18, logoUri: 'https://www.google.com/s2/favicons?domain=ethereum.org&sz=64' },
-];
-
 // NOTE: This page swaps a single fixed pair (ETH ↔ $GW), so there's no token
 // picker, no curated-list fetch, and no on-chain metadata resolution here.
 // (An earlier version carried fetchCuratedTokens / fetchTokenList /

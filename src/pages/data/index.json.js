@@ -144,8 +144,6 @@ export async function GET() {
         'Complete leveling data for characters, memories, and runes with EXP values, credit costs, breakthrough materials, and efficiency analysis (Zone Nova)',
       craftingItems:
         'Crafting items for rune customization including Dice, Card, and Laser Machine with substat info and usage tips (Zone Nova)',
-      updates:
-        'Game update history with maintenance notes, character recruitment announcements, events, and TL;DR summaries (Zone Nova)',
       redeemCodes: 'Active gift codes for free in-game rewards',
       updates:
         'Official updates archive with patch notes, maintenance notices, and event announcements (Stella Sora)',

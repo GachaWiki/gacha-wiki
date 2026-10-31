@@ -172,34 +172,3 @@ export function batchValidateHtml(htmlContents) {
   };
 }
 
-/**
- * Performance monitoring wrapper for HTML validation
- * @param {Function} validationFunction - The validation function to monitor
- * @returns {Function} Wrapped function with performance tracking
- */
-export function withPerformanceMonitoring(validationFunction) {
-  return function (...args) {
-    const startTime = performance.now();
-    const result = validationFunction.apply(this, args);
-    const endTime = performance.now();
-
-    const executionTime = endTime - startTime;
-
-    // Log performance warnings for slow operations
-    if (executionTime > 10) {
-      // 10ms threshold
-      console.warn(`HTML validation took ${executionTime.toFixed(2)}ms - consider optimization`);
-    }
-
-    return {
-      ...result,
-      performance: {
-        executionTime: executionTime.toFixed(2) + 'ms',
-      },
-    };
-  };
-}
-
-// Export performance-monitored versions
-export const validateHtmlContentWithMonitoring = withPerformanceMonitoring(validateHtmlContent);
-export const safeHtmlRendererWithMonitoring = withPerformanceMonitoring(safeHtmlRenderer);
