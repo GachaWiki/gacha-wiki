@@ -9,5 +9,8 @@ export const R2_BASE = 'https://k2b1c5ab57ed98e51.gachawiki.info';
  * @returns full R2 URL
  */
 export function r2Url(game, path) {
-  return `${R2_BASE}/${game}/${path}`;
+  // Taimanin Squad unit art was re-cut 2026-10-31; the version param re-keys
+  // CDN and browser caches so the corrected art is fetched everywhere at once.
+  const v = game === 'taimanin-squad' ? '?v=20261031' : '';
+  return `${R2_BASE}/${game}/${path}${v}`;
 }
