@@ -35,7 +35,7 @@ for (const f of linkFiles) {
   let m;
   while ((m = hrefRe.exec(t))) {
     const link = m[1].split('?')[0].split('#')[0];
-    if (link === '/' || link.startsWith('//')) continue;
+    if (link === '/' || link.startsWith('//') || link.includes('${')) continue;
     if (/\.(png|jpe?g|webp|svg|ico|mp3|mp4|json|xml|txt|webmanifest|css|js)$/.test(link)) {
       const pub = path.join(ROOT, 'public', link);
       if (!fs.existsSync(pub)) brokenLinks.set(link + '  (asset)', f.replace(ROOT + '/', ''));
@@ -68,7 +68,9 @@ sec('2. UNRESOLVED RELATIVE IMPORTS (missing files)');
 let badImports = 0;
 const impRe = /import\s+(?:[\s\S]*?from\s+)?["'](\.\.?\/[^"']+)["']/g;
 for (const f of codeFiles) {
-  const t = fs.readFileSync(f, 'utf8');
+  if (/template/i.test(path.basename(f))) continue; // scaffold files carry placeholder imports
+  // strip full-line comments (usage examples in barrel files would false-positive)
+  const t = fs.readFileSync(f, 'utf8').replace(/^[ \t]*\/\/[^\n]*/gm, '');
   let m;
   while ((m = impRe.exec(t))) {
     const spec = m[1];
@@ -93,9 +95,9 @@ const bcrumb = fs.readFileSync(path.join(SRC, 'utils/breadcrumb-generator.js'), 
 const dataDirs = fs.readdirSync(path.join(SRC, 'data')).filter((n) => fs.statSync(path.join(SRC, 'data', n)).isDirectory() && n !== 'clock');
 const idInGames = [...gamesTs.matchAll(/id:\s*['"]([^'"]+)['"]/g)].map((m) => m[1]);
 const gameKeyUnion = [...navTs.matchAll(/['"]([a-z0-9-]+)['"](?=\s*[|;}])/g)].map((m) => m[1]);
-const navDataKeys = [...navTs.matchAll(/['"]([a-z0-9-]+)['"]:\s*\{/g)].map((m) => m[1]);
+const navDataKeys = [...navTs.matchAll(/['"]?([a-z0-9-]+)['"]?:\s*\{/g)].map((m) => m[1]);
 const seoLookups = [...seoTs.matchAll(/g\(['"]([^'"]+)['"]\)/g)].map((m) => m[1]);
-const bcrumbKeys = [...bcrumb.matchAll(/['"]([a-z0-9-]+)['"]:\s*\{/g)].map((m) => m[1]);
+const bcrumbKeys = [...bcrumb.matchAll(/['"]?([a-z0-9-]+)['"]?:\s*\{/g)].map((m) => m[1]);
 const fmt = (a) => [...new Set(a)].sort().join(', ');
 out.push('  data dirs:      ' + dataDirs.sort().join(', '));
 out.push('  games.ts ids:   ' + fmt(idInGames));
@@ -104,6 +106,7 @@ out.push('  NAV_DATA keys:  ' + fmt(navDataKeys));
 out.push('  seo g() ids:    ' + fmt(seoLookups));
 out.push('  breadcrumb ids: ' + fmt(bcrumbKeys));
 for (const d of dataDirs.sort()) {
+  if (d === 'ws-cards') continue; // Weiss Schwarz card DB feature, not a gacha game
   const miss = [];
   if (!idInGames.includes(d)) miss.push('games.ts');
   if (!gameKeyUnion.includes(d)) miss.push('GameKey');
