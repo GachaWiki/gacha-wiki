@@ -465,21 +465,21 @@ export const TIER_CHARACTER_NOTES = {
     variant: 'wave-clear',
     shortTitle: 'Best Wave Clear',
     title: 'Best Wave Clear in the Game',
-    text: 'Cora is the best wave clear character in the game: her Volcanic Eruption hits every enemy on the entire battlefield at once. Her single target damage is also very strong, so she is no wave clear one trick: after an eruption her Forbidden Land detonations hit 8 times harder, and they double again when they go off on her own turn. Just note that she needs a bit of investment before it one shots mobs in events and daily tasks, so do not expect it right away on a fresh account. Pair her with Eugenia and whole maps melt in a single cast.',
+    text: 'Cora is the best wave-clear character in the game: her Volcanic Eruption hits every enemy on the entire battlefield at once. Her single-target damage is also very strong, so she is no wave-clear one-trick: after an eruption her Forbidden Land detonations hit 8 times harder, and they double again when they go off on her own turn. Just note that she needs a bit of investment before it one-shots mobs in events and daily tasks, so do not expect it right away on a fresh account. Pair her with Eugenia and whole maps melt in a single cast.',
   },
   Eugenia: {
     type: 'info',
     variant: 'buffer',
     shortTitle: 'Best Buffer',
     title: 'One of the Best Buffers in the Game',
-    text: 'Eugenia is one of the best buffers in the game: her Soul Resonance grants a carry a huge ATK increase that scales with her Max HP, and every attack the buffed target makes deals additional Immaterial DMG on top. She pushes good damage into one shot territory, which is why so many notes on this page tell you to pair with her.',
+    text: 'Eugenia is one of the best buffers in the game: her Soul Resonance grants a carry a huge ATK increase that scales with her Max HP, and every attack the buffed target makes deals additional Immaterial DMG on top. She pushes good damage into one-shot territory, which is why so many notes on this page tell you to pair with her.',
   },
   Palekar: {
     type: 'info',
     variant: 'def-down',
     shortTitle: 'Best DEF Down',
     title: 'Highest DEF Down in the Game',
-    text: 'Palekar has the highest DEF down of any character: [Unstable] from her Verse of Ordeal slashes All DEF by a massive 1140, shreds up to 200 more DEF based on her Evasion, and increases the DMG Taken of the target on top. Apply it to a boss and your whole team hits dramatically harder, making her a premier enabler for one shotting things.',
+    text: 'Palekar has the highest DEF down of any character: [Unstable] from her Verse of Ordeal slashes All DEF by a massive 1140, shreds up to 200 more DEF based on her Evasion, and increases the DMG Taken of the target on top. Apply it to a boss and your whole team hits dramatically harder, making her a premier enabler for one-shotting things.',
   },
   Garud: {
     type: 'warning',
@@ -494,7 +494,7 @@ export const TIER_CHARACTER_NOTES = {
   Luise: {
     type: 'info',
     title: 'Demi Skill & Weapon Required',
-    text: 'Luise needs her Demi skill unlocked to reach UR potential. Without it she performs significantly lower. She also requires at least a 4/5 weapon to be usable and a good team to enable her full potential. Unlike Cora who is easier to deal damage with, Luise has a higher skill ceiling but deals more damage when fully built.',
+    text: 'Luise needs her Demi skill unlocked to reach UR potential. Without it she performs significantly lower. She also requires at least a 4/5 weapon to be usable and a good team to enable her full potential. Unlike Cora, who is easier to deal damage with, Luise has a higher skill ceiling but deals more damage when fully built.',
   },
   Juza: {
     type: 'info',
@@ -511,12 +511,12 @@ export const TIER_CHARACTER_NOTES = {
   Ines: {
     type: 'warning',
     title: 'Weak Point Hits & AP Required',
-    text: 'Ines has the potential to be quite strong and deal quite a bit of damage, but you need to hit the target in its weak point, and she needs quite a bit of AP so she can one shot. She also needs her Demi skill. She is quite great for clearing maps and Dopamin, but she is not very good at Total War or any other kind of maps, and she is also quite bad in Special Operations.',
+    text: 'Ines has the potential to be quite strong and deal quite a bit of damage, but you need to hit the target in its weak point, and she needs quite a bit of AP so she can one-shot. She also needs her Demi skill. She is quite great for clearing maps and Dopamin, but she is not very good at Total War or any other kind of maps, and she is also quite bad in Special Operations.',
   },
   'Yeon Chae-Young': {
     type: 'warning',
     title: 'Needs Investment, Has Potential',
-    text: 'Yeon Chae-Young\'s damage is actually quite good and you can get a lot of turns, but you need back attacks and quite a bit of AP recovery, and she needs her Demi skill. She is not that great and there are a lot of much better characters than her, though she has some potential, so do not dismiss her fully. She is not great for free to play because she needs quite a bit of investment.',
+    text: 'Yeon Chae-Young\'s damage is actually quite good and you can get a lot of turns, but you need back attacks and quite a bit of AP recovery, and she needs her Demi skill. She is not that great and there are a lot of much better characters than her, though she has some potential, so do not dismiss her fully. She is not great for free-to-play because she needs quite a bit of investment.',
   },
   Marhim: {
     type: 'info',
@@ -526,7 +526,7 @@ export const TIER_CHARACTER_NOTES = {
   'Mu Yingying': {
     type: 'info',
     title: 'Super Tanky, Busted Damage',
-    text: 'Mu Yingying does an insane amount of damage while also being super tanky: she is one of the tankiest characters in the game. The damage she puts out is straight up busted and she is super strong, and she does not need dupes either.',
+    text: 'Mu Yingying does an insane amount of damage while also being super tanky: she is one of the tankiest characters in the game. The damage she puts out is straight-up busted and she is super strong, and she does not need dupes either.',
   },
 };
 
