@@ -1,4 +1,10 @@
-# Codex Instructions
+# ZCode Instructions
+
+## Git Rules (CRITICAL)
+
+- **NEVER `git commit` or `git push` without explicit permission from the user.**
+- Always make changes locally, tell the user what was changed, and wait for the user to verify and say "push it" before touching git.
+- Never push broken or unverified code. The user must test in the browser first.
 
 ## Environment
 
@@ -7,7 +13,7 @@
 
 ## Build Rules
 
-- **Do NOT run `bun run build` unless explicitly asked** - the user has a dev server running and will test changes themselves
+- **Do NOT run `bun run build` unless explicitly asked** - the dev server is already running locally and the user will test changes themselves in the browser
 - Never run build tests unless explicitly asked by the user
 
 ## Typography Rules (site-wide, 2026-10-15)
@@ -16,6 +22,12 @@
 - Run `bun run lint:fonts` to check (it fails on any off-scale literal). Need a size between steps? Add or adjust a step in the scale, never a literal in a component.
 - Relative `em`/`%` sizes, container-query units (`cqh`), and token-composed `clamp(var(--text-*), Nvw, var(--text-*))` are allowed.
 - The only literal exceptions live in `scripts/check-font-scales.mjs`'s EXCEPTIONS list (iOS 16px input zoom guard, z-index debug overlay, decorative 404 numeral).
+
+## Astro Config (CRITICAL)
+
+- **NEVER change `inlineStylesheets` from `'always'`** — setting it to `'auto'` or `'never'` breaks CSS on production (external CSS files fail to load, causing broken styling on all pages). This happened on 2026-04-03 and took down the entire site.
+- The `manualChunks` function in `astro.config.mjs` must keep `node_modules` check BEFORE the `/utils/` check to avoid circular dependency errors (`Cannot access 'SITE' before initialization`)
+- Always verify `astro.config.mjs` changes by running `bun run build` locally before pushing
 
 ## Data Entry Rules
 
@@ -27,11 +39,10 @@
 
 ## File Creation Guidelines
 
-When creating new files, always include a comment block at the top explaining concisely what the file does. This helps Codex navigate the codebase more autonomously in fresh sessions.
+When creating new files, always include a comment block at the top explaining concisely what the file does. This helps the agent navigate the codebase more autonomously in fresh sessions.
 
 Example formats:
 - JavaScript/TypeScript: `// Description of what this file does`
 - Python: `# Description of what this file does`
 - CSS: `/* Description of what this file does */`
 - HTML/Astro: `<!-- Description of what this file does -->`
-
