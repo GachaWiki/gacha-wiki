@@ -3,9 +3,9 @@
 // is hand-curated per slug below; everything else (skill text, awakening text, card stats/effects, set bonuses)
 // is pulled from the data files so it stays accurate. Run: bun gen_character_builds.mjs
 import { readdirSync, readFileSync, writeFileSync } from 'node:fs';
-import { ZONE_NOVA_CHARACTERS } from './src/data/zone-nova/characters.js';
-import { ZONE_NOVA_MEMORIES } from './src/data/zone-nova/memories.js';
-import { RUNE_SETS } from './src/data/zone-nova/runes.js';
+import { ZONE_NOVA_CHARACTERS } from '../src/data/zone-nova/characters.js';
+import { ZONE_NOVA_MEMORIES } from '../src/data/zone-nova/memories.js';
+import { RUNE_SETS } from '../src/data/zone-nova/runes.js';
 
 const SLUGS = [
   'anubis', 'arthur', 'bastet', 'bedivere', 'belphegar', 'bors', 'cleopatra', 'erika',
@@ -21,7 +21,7 @@ const fmt = (n) => Number(n).toLocaleString('en-US');
 // from the PvE tier list by role instead of hand-typed per character. Supporters pair
 // with the top carries, carries with the top supports/healers/tanks, and so on.
 const TIER_RANK = { UR: 0, SSS: 1, SS: 2, S: 3, A: 4, Situational: 5 };
-const { PVE_TIER_LIST } = await import('./src/data/zone-nova/tier-lists.js');
+const { PVE_TIER_LIST } = await import('../src/data/zone-nova/tier-lists.js');
 const rankedByRole = { DPS: [], Tank: [], Healer: [], Supporter: [], Disruptor: [] };
 for (const ch of ZONE_NOVA_CHARACTERS) {
   const entry = Object.entries(PVE_TIER_LIST.tiers).find(([tier, arr]) => arr.some((x) => x.name === ch.name));
@@ -64,7 +64,7 @@ const SYNERGY_NOTE = {
 
 // Class-locked memory card pools straight from the memory tier list (cards only equip
 // on their own class). Trimmed names, grouped by tier.
-const { MEMORY_TIER_LIST } = await import('./src/data/zone-nova/memory-tier-list.js');
+const { MEMORY_TIER_LIST } = await import('../src/data/zone-nova/memory-tier-list.js');
 const memPools = {};
 for (const [cls, tiers] of Object.entries(MEMORY_TIER_LIST.tiers)) {
   memPools[cls] = {};
@@ -642,17 +642,17 @@ const roster = new Map(ZONE_NOVA_CHARACTERS.map((c) => [c.slug, c]));
 const cardsByName = new Map(ZONE_NOVA_MEMORIES.map((c) => [c.name.trim(), c]));
 
 // Image coverage check against ZNMemoryImage map keys
-const znMemSrc = readFileSync(new URL('./src/components/zone-nova/ZNMemoryImage.astro', import.meta.url), 'utf8');
+const znMemSrc = readFileSync(new URL('../src/components/zone-nova/ZNMemoryImage.astro', import.meta.url), 'utf8');
 const memMapKeys = new Set([...znMemSrc.matchAll(/'([^']+)'\s*:/g)].map((x) => x[1]));
 
-const outDir = new URL('./src/data/zone-nova/character-builds/', import.meta.url);
+const outDir = new URL('../src/data/zone-nova/character-builds/', import.meta.url);
 const problems = [];
 
 for (const slug of SLUGS) {
   const e = E[slug];
   if (!e) { problems.push(`no editorial entry for ${slug}`); continue; }
   const rosterChar = roster.get(slug);
-  const mod = await import(new URL(`./src/data/zone-nova/characters/${slug}.js`, import.meta.url).href);
+  const mod = await import(new URL(`../src/data/zone-nova/characters/${slug}.js`, import.meta.url).href);
   const c = mod.default || Object.values(mod)[0];
 
   // --- skill priority
@@ -839,7 +839,7 @@ function serialize(v, indent) {
 }
 
 // --- wire imports + entries into character-builds.js
-const aggPath = new URL('./src/data/zone-nova/character-builds.js', import.meta.url);
+const aggPath = new URL('../src/data/zone-nova/character-builds.js', import.meta.url);
 let agg = readFileSync(aggPath, 'utf8');
 const NL = agg.includes('\r\n') ? '\r\n' : '\n';
 const imports = SLUGS.map((s) => `import { ${camelize(s)}Build } from './character-builds/${s}.js';`).join(NL);

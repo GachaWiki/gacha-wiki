@@ -1,6 +1,7 @@
 import json, os, subprocess, re, tempfile
 
-REPO = os.path.dirname(os.path.abspath(__file__))
+# tools/ -> repo root
+REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 # 1. Get current tier entries + card data via bun (authoritative JS parse)
 BUN = r"""

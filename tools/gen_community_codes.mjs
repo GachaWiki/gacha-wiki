@@ -5,8 +5,8 @@
 //   9x 3-bit normal levels, 3x 3-bit common levels. Main packs the MASTER lists,
 //   supports pack their ASSIST lists. Normals are encoded at level 6 (the game's
 //   PotentialPreselectionMaxLevel). Writes src/data/stella-sora/community-build-codes.js.
-import { COMMUNITY_BUILDS } from './src/data/stella-sora/community-builds.js';
-import { POTENTIAL_LISTS } from './src/data/stella-sora/potential-lists.js';
+import { COMMUNITY_BUILDS } from '../src/data/stella-sora/community-builds.js';
+import { POTENTIAL_LISTS } from '../src/data/stella-sora/potential-lists.js';
 
 const MAX_LEVEL = 6;
 
@@ -135,7 +135,7 @@ const body =
 
 const fs = await import('node:fs');
 fs.writeFileSync(
-  new URL('./src/data/stella-sora/community-build-codes.js', import.meta.url),
+  new URL('../src/data/stella-sora/community-build-codes.js', import.meta.url),
   body,
   'utf8',
 );
