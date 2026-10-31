@@ -3,6 +3,10 @@
 // game text. Run after `bun run build:cloudflare` and before pages deploy.
 // Tokens: R18/r-18, NSFW, HCG, and the store name Erolabs (any case, word
 // boundary only, so erolabsshare URLs are never touched).
+// <style> blocks pass through UNTOUCHED: the prose tidy (" ." -> ".") would
+// collapse CSS descendant selectors (.a .b -> .a.b) and silently kill the
+// inline styles of every page whose text triggers a scrub (seen live
+// 2026-10-31 on the erolabs game pages).
 import { readdirSync, readFileSync, writeFileSync, statSync } from 'node:fs';
 import { join } from 'node:path';
 
@@ -18,6 +22,28 @@ const rules = [
   [/\s*[Hh][Cc][Gg]\b/g, ' story'],
 ];
 
+const STYLE_BLOCK_RE = /<style\b[^>]*>[\s\S]*?<\/style>/gi;
+
+// Scrub one text chunk (everything outside <style> blocks). The prose tidy
+// only runs when a token rule actually changed something, as before.
+function cleanText(s) {
+  const before = s;
+  for (const [re, rep] of rules) s = s.replace(re, rep);
+  if (s === before) return s;
+  return s.replace(/ {2,}/g, ' ').replace(/ \./g, '.').replace(/\.,/g, ',');
+}
+
+function scrub(s) {
+  let out = '';
+  let last = 0;
+  for (const m of s.matchAll(STYLE_BLOCK_RE)) {
+    out += cleanText(s.slice(last, m.index));
+    out += m[0];
+    last = m.index + m[0].length;
+  }
+  return out + cleanText(s.slice(last));
+}
+
 function walk(dir) {
   for (const name of readdirSync(dir)) {
     const p = join(dir, name);
@@ -25,11 +51,9 @@ function walk(dir) {
     if (!/\.(html|xml)$/.test(name)) continue;
     files++;
     let s = readFileSync(p, 'utf8');
-    const before = s;
-    for (const [re, rep] of rules) s = s.replace(re, rep);
-    if (s !== before) {
-      s = s.replace(/ {2,}/g, ' ').replace(/ \./g, '.').replace(/\.,/g, ',');
-      writeFileSync(p, s);
+    const after = scrub(s);
+    if (after !== s) {
+      writeFileSync(p, after);
       changed++;
       hits += 1;
     }
