@@ -137,11 +137,11 @@ export const GAME_MUSIC: Partial<Record<GameKey, GameMusicConfig>> = {
     gameLabel: 'Taimanin Squad',
     storagePrefix: 'ts',
     // Lobby + academy lobby + arena battle themes (Steam soundbgm bundle),
-    // served site-locally from /audio/taimanin-squad/.
+    // served from R2 like every other game's audio.
     tracks: [
-      '/audio/taimanin-squad/bgm-lobby.mp3',
-      '/audio/taimanin-squad/bgm-academy.mp3',
-      '/audio/taimanin-squad/bgm-arena.mp3',
+      `${R2}/taimanin-squad/audio/bgm-lobby.mp3`,
+      `${R2}/taimanin-squad/audio/bgm-academy.mp3`,
+      `${R2}/taimanin-squad/audio/bgm-arena.mp3`,
     ],
     accent: '#b8a9c8',
     accentBorder: 'rgba(184, 169, 200, 0.45)',
