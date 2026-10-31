@@ -360,6 +360,12 @@ export function getParentBreadcrumb(breadcrumbs) {
   // Return the second-to-last breadcrumb that has an href
   for (let i = breadcrumbs.length - 2; i >= 0; i--) {
     if (breadcrumbs[i].href) {
+      // Back buttons are this function's only consumers, and a back button
+      // never targets home: when the parent is the site root (game landing
+      // pages), point at the wikis library instead.
+      if (breadcrumbs[i].href === '/') {
+        return { name: 'Wikis', href: '/guides/' };
+      }
       return breadcrumbs[i];
     }
   }

@@ -50,11 +50,6 @@ if (autoGenerate) {
     };
   }
 }
-// A back button never targets home: a game landing's natural parent is the
-// wikis library, so home-level back buttons point there instead.
-if (backNavigation && backNavigation.href === '/') {
-  backNavigation = { ...backNavigation, href: '/guides/', name: 'Wikis' };
-}
 ---
 
 {breadcrumbItems.length > 0 && (
@@ -73,7 +68,7 @@ if (backNavigation && backNavigation.href === '/') {
     </ol>
     {backNavigation && (
       <a href={backNavigation.href} class="dir-breadcrumb-back">
-        ← {backNavigation.name || 'Back'}
+        ← {backNavigation.name || backNavigation.parentName || 'Back'}
       </a>
     )}
   </nav>
