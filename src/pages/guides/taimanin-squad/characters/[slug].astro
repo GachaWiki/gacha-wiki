@@ -269,24 +269,24 @@ function formatMultiplier(skill: any): string | null {
       <div class="ts-cd-header-info">
         <h1 class="ts-cd-name">{charName}</h1>
         {data.names?.japanese && <span class="ts-cd-name-jp">{data.names.japanese}</span>}
-        <div class="ts-cd-badges">
+        <div class="ts-cd-meta">
           <span class={`ts-badge-stars ${starClass(data.rarity_stars)}`}>{data.rarity_stars}</span>
-          <span class="ts-cd-badge ts-cd-badge-element">
+          <span class={`ts-cd-meta-el el-${(data.element || '').toLowerCase()}`}>
             <TSTypeIcon type={data.element} size={16} />
             {data.element}
           </span>
-          <span class="ts-cd-badge ts-cd-badge-role">
+          <span class="ts-cd-meta-role">
             <TSRoleIcon role={data.role} size={16} />
             {data.role}
           </span>
           {data.trait && (
-            <span class="ts-cd-badge ts-cd-badge-trait">
+            <span class="ts-cd-meta-trait">
               <TSTraitIcon trait={data.trait} size={16} />
               {data.trait}
             </span>
           )}
         </div>
-        {data.btl_power && <div class="ts-cd-bpower">Battle Power: {data.btl_power?.toLocaleString()}</div>}
+        {data.btl_power && <div class="ts-cd-bpower">Battle Power: <span class="ts-cd-bpower-value">{data.btl_power?.toLocaleString()}</span></div>}
         {data.lore?.english && (
           <div class="ts-cd-lore" set:html={cleanDescription(data.lore.english)} />
         )}
@@ -332,14 +332,14 @@ function formatMultiplier(skill: any): string | null {
     {data.stats && (
       <section class="ts-cd-section">
         <h2 class="ts-cd-section-title">Max Stats (Grade 6)</h2>
-        <div class="ts-cd-stats-grid">
+        <div class="ts-cd-stats-list">
           {STATS_CONFIG.map(sc => {
             const val = data.stats[sc.key];
             if (!val && val !== 0) return null;
             return (
-              <div class="ts-cd-stat-card">
-                <div class="ts-cd-stat-label">{sc.label}</div>
-                <div class="ts-cd-stat-value">{formatStatValue(sc.key, val)}</div>
+              <div class="ts-cd-stat-row">
+                <span class="ts-cd-stat-label">{sc.label}</span>
+                <span class="ts-cd-stat-value">{formatStatValue(sc.key, val)}</span>
               </div>
             );
           })}
