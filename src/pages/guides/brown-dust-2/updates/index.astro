@@ -1,0 +1,51 @@
+---
+// Brown Dust 2 update notes index: official weekly event schedules and
+// developer notes from the game's own news feed, newest first.
+import GameLayout from '../../../../layouts/brown-dust-2/GameLayout.astro';
+import { BD2_UPDATES } from '../../../../data/brown-dust-2/updates.js';
+
+const R2 = 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/updates';
+---
+
+<GameLayout
+  title="Brown Dust 2 Updates: Weekly Update Notes and Developer Notes"
+  description={`Official Brown Dust 2 update notes: ${BD2_UPDATES.length} posts covering the weekly event schedules and developer notes, with the posts' own artwork.`}
+  crumbName="Updates"
+  pageTitle="Updates"
+>
+  <div class="bd2-content-section">
+    <p class="bd2-updates-intro">
+      Official update notes from the Brown Dust 2 news feed, newest first. The
+      weekly posts list every event after each update, and the monthly developer
+      notes cover the roadmap ahead. Every entry keeps the post's own artwork.
+    </p>
+
+    <div class="bd2-update-list">
+      {BD2_UPDATES.map((u) => (
+        <a class="bd2-update-card" href={`/guides/brown-dust-2/updates/${u.slug}/`}>
+          {u.firstImage ? (
+            <div class="bd2-update-thumb">
+              <img
+                src={u.firstImage.src}
+                alt=""
+                width={u.firstImage.w}
+                height={u.firstImage.h}
+                loading="lazy"
+              />
+            </div>
+          ) : (
+            <div class="bd2-update-thumb"></div>
+          )}
+          <div class="bd2-update-card-body">
+            <h2 class="bd2-update-card-title">{u.title}</h2>
+            <div class="bd2-update-meta">
+              <span class="bd2-update-tag">{u.tag}</span>
+              <span>{u.dateDisplay}</span>
+            </div>
+            {u.summary && <p class="bd2-update-summary">{u.summary}</p>}
+          </div>
+        </a>
+      ))}
+    </div>
+  </div>
+</GameLayout>

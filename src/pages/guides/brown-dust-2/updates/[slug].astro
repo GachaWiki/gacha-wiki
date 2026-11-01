@@ -1,0 +1,53 @@
+---
+// Brown Dust 2 update note detail: one official post with its own artwork,
+// plus newer/older navigation. Images are re-hosted from the official feed.
+import GameLayout from '../../../../layouts/brown-dust-2/GameLayout.astro';
+import { BD2_UPDATES } from '../../../../data/brown-dust-2/updates.js';
+
+export function getStaticPaths() {
+  return BD2_UPDATES.map((u) => ({ params: { slug: u.slug } }));
+}
+
+const { slug } = Astro.params;
+const idx = BD2_UPDATES.findIndex((u) => u.slug === slug);
+const entry = BD2_UPDATES[idx];
+const newer = idx > 0 ? BD2_UPDATES[idx - 1] : null;
+const older = idx < BD2_UPDATES.length - 1 ? BD2_UPDATES[idx + 1] : null;
+---
+
+<GameLayout
+  title={`${entry.title} - Brown Dust 2 Update`}
+  description={`Brown Dust 2 update note from ${entry.dateDisplay}: ${entry.title}. Full event schedule and details from the official news feed.`}
+  crumbName={entry.title}
+>
+  <div class="bd2-content-section">
+    <a class="bd2-update-back" href="/guides/brown-dust-2/updates/">All updates</a>
+
+    <h1 class="bd2-update-detail-title">{entry.title}</h1>
+    <div class="bd2-update-meta">
+      <span class="bd2-update-tag">{entry.tag}</span>
+      <span>{entry.dateDisplay}</span>
+    </div>
+    <p class="bd2-update-source">
+      Source:
+      <a href={entry.officialUrl} target="_blank" rel="noopener noreferrer">
+        official Brown Dust 2 news post
+      </a>
+    </p>
+
+    <div class="bd2-update-content" set:html={entry.contentHtml} />
+
+    <div class="bd2-update-nav">
+      {newer ? (
+        <a href={`/guides/brown-dust-2/updates/${newer.slug}/`}>Newer: {newer.title}</a>
+      ) : (
+        <span class="bd2-update-nav-empty">Newest post</span>
+      )}
+      {older ? (
+        <a href={`/guides/brown-dust-2/updates/${older.slug}/`}>Older: {older.title}</a>
+      ) : (
+        <span class="bd2-update-nav-empty">Oldest post</span>
+      )}
+    </div>
+  </div>
+</GameLayout>

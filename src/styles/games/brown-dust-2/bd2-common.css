@@ -1002,6 +1002,163 @@ a.bd2-card:active {
   overflow-wrap: break-word;
 }
 
+/* ---------- official update notes (weekly events + developer notes) ---------- */
+.bd2-updates-intro {
+  margin: 0 0 1.25rem;
+  font-size: var(--text-sm);
+  color: var(--bd2-text-dim);
+}
+
+.bd2-update-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.bd2-update-card {
+  display: flex;
+  gap: 14px;
+  align-items: flex-start;
+  background: var(--bd2-bg-tertiary);
+  border: 1px solid var(--bd2-border);
+  border-radius: 12px;
+  padding: 1.1rem;
+  text-decoration: none;
+  color: var(--bd2-text);
+}
+
+.bd2-update-thumb {
+  width: 168px;
+  flex-shrink: 0;
+  aspect-ratio: 16 / 9;
+  border-radius: 8px;
+  border: 1px solid var(--bd2-border);
+  overflow: hidden;
+  background: var(--bd2-bg-secondary);
+}
+
+.bd2-update-thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.bd2-update-card-body {
+  flex: 1;
+  min-width: 0;
+}
+
+.bd2-update-card-title {
+  margin: 0 0 4px;
+  font-size: var(--text-lg);
+  font-weight: 700;
+  color: var(--bd2-text);
+}
+
+.bd2-update-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2px 12px;
+  font-size: var(--text-xs);
+  color: var(--bd2-text-dim);
+}
+
+.bd2-update-tag {
+  color: var(--bd2-accent-strong);
+  font-weight: 600;
+}
+
+.bd2-update-summary {
+  margin: 8px 0 0;
+  font-size: var(--text-sm);
+  color: var(--bd2-text-dim);
+  line-height: 1.5;
+}
+
+/* detail page */
+.bd2-update-back {
+  display: inline-block;
+  margin-bottom: 1rem;
+  font-size: var(--text-sm);
+  color: var(--bd2-accent-strong);
+  text-decoration: none;
+}
+
+.bd2-update-detail-title {
+  margin: 0 0 6px;
+  font-size: var(--text-3xl);
+  color: var(--bd2-text);
+}
+
+.bd2-update-source {
+  font-size: var(--text-xs);
+}
+
+.bd2-update-source a {
+  color: var(--bd2-accent-strong);
+}
+
+/* rendered official post content */
+.bd2-update-content {
+  margin-top: 1.25rem;
+  font-size: var(--text-sm);
+  line-height: 1.65;
+  color: var(--bd2-text);
+}
+
+.bd2-update-content p {
+  margin: 0 0 0.7rem;
+}
+
+.bd2-update-content h3 {
+  margin: 1.4rem 0 0.6rem;
+  font-size: var(--text-base);
+  font-weight: 700;
+  color: var(--bd2-accent-strong);
+}
+
+.bd2-update-content strong {
+  color: var(--bd2-accent-strong);
+  font-weight: 600;
+}
+
+.bd2-update-content a {
+  color: var(--bd2-accent-strong);
+}
+
+.bd2-update-content ul,
+.bd2-update-content ol {
+  margin: 0 0 0.7rem;
+  padding-left: 1.2rem;
+}
+
+.bd2-update-content img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0.9rem auto;
+  border-radius: 8px;
+  border: 1px solid var(--bd2-border);
+}
+
+.bd2-update-nav {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-top: 1.5rem;
+  font-size: var(--text-sm);
+}
+
+.bd2-update-nav a {
+  color: var(--bd2-accent-strong);
+  text-decoration: none;
+}
+
+.bd2-update-nav .bd2-update-nav-empty {
+  color: var(--bd2-text-dim);
+}
+
 @media (max-width: 640px) {
   .bd2-container {
     padding: 16px 12px 48px;
@@ -1026,5 +1183,12 @@ a.bd2-card:active {
   /* rank strips wider than the body wrap their buttons, never overflow */
   .bd2-rank-badges {
     flex-wrap: wrap;
+  }
+  /* update cards stack the thumb above the text */
+  .bd2-update-card {
+    flex-wrap: wrap;
+  }
+  .bd2-update-thumb {
+    width: 100%;
   }
 }
