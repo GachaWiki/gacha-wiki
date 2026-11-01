@@ -1,0 +1,89 @@
+---
+// Brown Dust 2 community tier list: standard tier rows (label + character
+// tiles). Placements from GameWith (October 26, 2026), cross-checked with
+// Gamerch and UrGameTips. JP and EN names differ for two entries (JP Jenis =
+// Zenith, JP Ruvia = Rubia); Kyubi has no wiki page yet and stays unlinked.
+import GameLayout from '../../../layouts/brown-dust-2/GameLayout.astro';
+import { ELEMENTS, brownDust2Characters, getBD2Unit } from '../../../data/brown-dust-2/characters.js';
+import { BD2_TIER_LIST } from '../../../data/brown-dust-2/tier-list.js';
+
+const R2 = 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/gameimg';
+const ELEMENT_ICONS: Record<string, string> = {
+  Water: `${R2}/elements/water.webp`,
+  Fire: `${R2}/elements/fire.webp`,
+  Wind: `${R2}/elements/wind.webp`,
+  Light: `${R2}/elements/light.webp`,
+  Dark: `${R2}/elements/dark.webp`,
+};
+const STAR = `${R2}/star.webp`;
+
+const bySlug = new Map(brownDust2Characters.map((c) => [c.slug, c]));
+// entry: a slug, or a capitalized name string for characters without a page
+const resolve = (entry: string) => {
+  const c = bySlug.get(entry);
+  if (!c) return { name: entry, slug: null, elementName: null, grade: 0, icon: null };
+  return {
+    name: c.name,
+    slug: c.slug,
+    elementName: ELEMENTS[c.element] || null,
+    grade: c.grade,
+    icon: getBD2Unit(c.defaultUnit)?.icon || null,
+  };
+};
+---
+
+<GameLayout
+  title="Brown Dust 2 Tier List: Community Character Rankings"
+  description="Brown Dust 2 community tier list: SS, S and A character placements from GameWith, Gamerch and UrGameTips, updated October 2026."
+  crumbName="Tier List"
+  pageTitle="Tier List"
+>
+  <div class="bd2-content-section">
+    {BD2_TIER_LIST.tiers.map((t) => (
+      <div class={`bd2-tier-row bd2-tier-row-${t.tier.toLowerCase()}`}>
+        <div class="bd2-tier-badge">{t.tier}</div>
+        <div class="bd2-tier-chars">
+          {t.chars.map((entry) => {
+            const c = resolve(entry);
+            const tile = (
+              <>
+                {c.icon ? (
+                  <img class="bd2-tier-tile-img" src={c.icon} alt={c.name} width="96" height="96" loading="lazy" />
+                ) : (
+                  <span class="bd2-tier-tile-img bd2-tier-tile-mono">{c.name.slice(0, 2)}</span>
+                )}
+                <span class="bd2-tier-tile-name">{c.name}</span>
+                {c.elementName && (
+                  <span class="bd2-tier-tile-meta">
+                    <img class="bd2-el-icon" src={ELEMENT_ICONS[c.elementName]} alt="" width="16" height="16" loading="lazy" />
+                    <span class="bd2-stars-row">
+                      {Array.from({ length: Math.min(c.grade, 5) }).map(() => (
+                        <img class="bd2-star-icon" src={STAR} alt="" width="12" height="12" loading="lazy" />
+                      ))}
+                    </span>
+                  </span>
+                )}
+              </>
+            );
+            return c.slug ? (
+              <a class="bd2-tier-tile" href={`/guides/brown-dust-2/characters/${c.slug}/`}>{tile}</a>
+            ) : (
+              <div class="bd2-tier-tile">{tile}</div>
+            );
+          })}
+        </div>
+      </div>
+    ))}
+
+    <p class="bd2-updates-intro" style="margin-top: 1.25rem;">
+      SS, S and A follow the GameWith ranking (October 26, 2026); the B row holds the
+      characters it does not rate, placed per DotGG's PvE table (October 3, 2026); NR means
+      the primary sources do not rate them. Cross-checked against Kamigame, the Korean
+      Arca.live dealer table and the Bahamut guide, all updated October 2026. BD2 is
+      costume-driven, so placements reflect each character's best costumes; the
+      costumes themselves are ranked on the{' '}
+      <a href="/guides/brown-dust-2/costume-tier-list/">costume tier list</a>.
+      Kyubi has no wiki page yet.
+    </p>
+  </div>
+</GameLayout>

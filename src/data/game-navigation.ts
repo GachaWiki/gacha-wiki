@@ -587,6 +587,8 @@ export const NAV_DATA: Record<GameKey, { sections: NavigationSection[] }> = {
         title: 'Characters',
         links: [
           { name: 'Database', href: '/guides/brown-dust-2/characters/' },
+          { name: 'Tier List', href: '/guides/brown-dust-2/tier-list/' },
+          { name: 'Costume Tier List', href: '/guides/brown-dust-2/costume-tier-list/' },
         ],
       },
       {

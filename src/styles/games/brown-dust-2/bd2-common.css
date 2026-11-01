@@ -11,6 +11,7 @@
   --bd2-bg-tertiary: #211d16;
   --bd2-text: #e7e1d4;
   --bd2-text-dim: #a49c8c;
+  --bd2-link: #79a5dd;
 }
 
 .bd2-body {
@@ -1009,6 +1010,10 @@ a.bd2-card:active {
   color: var(--bd2-text-dim);
 }
 
+.bd2-updates-intro a {
+  color: var(--bd2-link);
+}
+
 .bd2-update-list {
   display: flex;
   flex-direction: column;
@@ -1076,12 +1081,121 @@ a.bd2-card:active {
   line-height: 1.5;
 }
 
+/* ---------- community tier list (standard tier rows: label + tiles) ---------- */
+.bd2-tier-row {
+  display: flex;
+  gap: 12px;
+  align-items: stretch;
+  margin-bottom: 14px;
+}
+
+.bd2-tier-badge {
+  width: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: var(--text-3xl);
+  font-weight: 800;
+  border: 1px solid var(--bd2-border);
+  border-radius: 10px;
+  background: var(--bd2-bg-tertiary);
+  flex-shrink: 0;
+}
+
+.bd2-tier-row-ss .bd2-tier-badge {
+  color: var(--bd2-accent-strong);
+}
+
+.bd2-tier-row-s .bd2-tier-badge {
+  color: var(--bd2-accent);
+}
+
+.bd2-tier-row-a .bd2-tier-badge,
+.bd2-tier-row-b .bd2-tier-badge {
+  color: var(--bd2-text-dim);
+}
+
+/* not-rated row: same tiles, muted down so the rated tiers stay the focus */
+.bd2-tier-row-nr .bd2-tier-badge {
+  color: var(--bd2-text-dim);
+  font-size: var(--text-2xl);
+}
+
+.bd2-tier-row-nr .bd2-tier-chars {
+  background: none;
+  border-style: dashed;
+}
+
+.bd2-tier-row-nr .bd2-tier-tile {
+  opacity: 0.75;
+}
+
+.bd2-tier-chars {
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 10px;
+  background: var(--bd2-bg-secondary);
+  border: 1px solid var(--bd2-border);
+  border-radius: 10px;
+}
+
+.bd2-tier-tile {
+  width: 96px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  text-align: center;
+  text-decoration: none;
+  color: var(--bd2-text);
+}
+
+.bd2-tier-tile-img {
+  width: 96px;
+  height: 96px;
+  object-fit: cover;
+  border-radius: 8px;
+  border: 1px solid var(--bd2-border);
+  background: var(--bd2-bg-tertiary);
+  display: block;
+}
+
+.bd2-tier-tile-mono {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: var(--text-2xl);
+  font-weight: 800;
+  color: var(--bd2-accent-strong);
+}
+
+.bd2-tier-tile-name {
+  font-size: var(--text-xs);
+  font-weight: 600;
+  word-break: break-word;
+}
+
+/* costume tier tiles: the owning character, caption-level */
+.bd2-tier-tile-char {
+  font-size: var(--text-3xs);
+  color: var(--bd2-text-dim);
+  margin-top: -2px;
+}
+
+.bd2-tier-tile-meta {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
 /* detail page */
 .bd2-update-back {
   display: inline-block;
   margin-bottom: 1rem;
   font-size: var(--text-sm);
-  color: var(--bd2-accent-strong);
+  color: var(--bd2-link);
   text-decoration: none;
 }
 
@@ -1096,7 +1210,7 @@ a.bd2-card:active {
 }
 
 .bd2-update-source a {
-  color: var(--bd2-accent-strong);
+  color: var(--bd2-link);
 }
 
 /* rendered official post content */
@@ -1124,7 +1238,7 @@ a.bd2-card:active {
 }
 
 .bd2-update-content a {
-  color: var(--bd2-accent-strong);
+  color: var(--bd2-link);
 }
 
 .bd2-update-content ul,
@@ -1151,7 +1265,7 @@ a.bd2-card:active {
 }
 
 .bd2-update-nav a {
-  color: var(--bd2-accent-strong);
+  color: var(--bd2-link);
   text-decoration: none;
 }
 
@@ -1190,5 +1304,15 @@ a.bd2-card:active {
   }
   .bd2-update-thumb {
     width: 100%;
+  }
+  /* tier rows stack the badge above the tiles */
+  .bd2-tier-row {
+    flex-direction: column;
+    gap: 8px;
+  }
+  .bd2-tier-badge {
+    width: auto;
+    padding: 6px 0;
+    font-size: var(--text-2xl);
   }
 }

@@ -1,0 +1,71 @@
+---
+// Brown Dust 2 COSTUME tier list: standard tier rows of costume (unit) tiles.
+// Placements follow Kamigame's strongest-costume ranking (October 22, 2026):
+// its top two rating bands become SS and S. Each tile links to that costume's
+// own unit page. Character-level placements live on the character tier list.
+import GameLayout from '../../../layouts/brown-dust-2/GameLayout.astro';
+import { ELEMENTS, brownDust2Units } from '../../../data/brown-dust-2/characters.js';
+import { BD2_COSTUME_TIER_LIST } from '../../../data/brown-dust-2/costume-tier-list.js';
+
+const R2 = 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/gameimg';
+const ELEMENT_ICONS: Record<string, string> = {
+  Water: `${R2}/elements/water.webp`,
+  Fire: `${R2}/elements/fire.webp`,
+  Wind: `${R2}/elements/wind.webp`,
+  Light: `${R2}/elements/light.webp`,
+  Dark: `${R2}/elements/dark.webp`,
+};
+const STAR = `${R2}/star.webp`;
+
+const bySlug = new Map(brownDust2Units.map((u) => [u.slug, u]));
+---
+
+<GameLayout
+  title="Brown Dust 2 Costume Tier List: Best Costumes Ranked"
+  description="Brown Dust 2 costume tier list: the strongest costumes (units) ranked SS and S from Kamigame's October 2026 ranking, each linking to its unit page."
+  crumbName="Costume Tier List"
+  pageTitle="Costume Tier List"
+>
+  <div class="bd2-content-section">
+    {BD2_COSTUME_TIER_LIST.tiers.map((t) => (
+      <div class={`bd2-tier-row bd2-tier-row-${t.tier.toLowerCase()}`}>
+        <div class="bd2-tier-badge">{t.tier}</div>
+        <div class="bd2-tier-chars">
+          {t.units.map((slug) => {
+            const u = bySlug.get(slug);
+            if (!u) return null;
+            const elementName = ELEMENTS[u.element] || 'Water';
+            return (
+              <a class="bd2-tier-tile" href={`/guides/brown-dust-2/characters/${u.slug}/`}>
+                {u.icon ? (
+                  <img class="bd2-tier-tile-img" src={u.icon} alt={u.name} width="96" height="96" loading="lazy" />
+                ) : (
+                  <span class="bd2-tier-tile-img bd2-tier-tile-mono">{u.name.slice(0, 2)}</span>
+                )}
+                <span class="bd2-tier-tile-name">{u.name}</span>
+                <span class="bd2-tier-tile-char">{u.charName}</span>
+                <span class="bd2-tier-tile-meta">
+                  <img class="bd2-el-icon" src={ELEMENT_ICONS[elementName]} alt="" width="16" height="16" loading="lazy" />
+                  <span class="bd2-stars-row">
+                    {Array.from({ length: Math.min(u.grade, 5) }).map(() => (
+                      <img class="bd2-star-icon" src={STAR} alt="" width="12" height="12" loading="lazy" />
+                    ))}
+                  </span>
+                </span>
+              </a>
+            );
+          })}
+        </div>
+      </div>
+    ))}
+
+    <p class="bd2-updates-intro" style="margin-top: 1.25rem;">
+      Placements follow Kamigame's strongest-costume ranking (October 22, 2026):
+      its top two rating bands become SS and S here. Only those bands are
+      published as text by the source, so costumes outside them are not listed.
+      BD2 is costume-driven, so this list changes with every costume release.
+      Character-level placements are on the{' '}
+      <a href="/guides/brown-dust-2/tier-list/">character tier list</a>.
+    </p>
+  </div>
+</GameLayout>
