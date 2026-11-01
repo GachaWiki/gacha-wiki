@@ -1,4 +1,4 @@
-/* Zone Nova updates index: update cards in the Brown Dust 2 updates style */
+/* Zone Nova updates index: plain news list (date + title rows, no cards/badges) */
 
 .content-section {
   background: var(--zn-bg-secondary);
@@ -8,53 +8,39 @@
   border: none;
 }
 
-.zn-update-list {
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
+.zn-news-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
-.zn-update-card {
+.zn-news-item {
+  border-bottom: 1px solid var(--zn-border);
+}
+
+.zn-news-item:last-child {
+  border-bottom: none;
+}
+
+.zn-news-link {
   display: flex;
-  gap: 14px;
-  align-items: flex-start;
-  background: var(--zn-bg-tertiary);
-  border: 1px solid var(--zn-border);
-  border-radius: 12px;
-  padding: 1.1rem;
+  align-items: baseline;
+  gap: 1.25rem;
+  padding: 0.8rem 0.25rem;
   text-decoration: none;
 }
 
-.zn-update-card-body {
-  flex: 1;
-  min-width: 0;
-}
-
-.zn-update-card-title {
-  margin: 0 0 4px;
-  font-size: var(--text-lg);
-  font-weight: 700;
-  color: var(--zn-text-primary);
-}
-
-.zn-update-meta {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 2px 12px;
-  font-size: var(--text-xs);
-  color: var(--zn-text-primary);
-}
-
-.zn-update-tag {
+.zn-news-date {
+  flex: 0 0 150px;
   color: var(--amber-glow);
   font-weight: 600;
+  font-size: var(--text-sm);
 }
 
-.zn-update-summary {
-  margin: 8px 0 0;
-  font-size: var(--text-sm);
+.zn-news-title {
   color: var(--zn-text-primary);
-  line-height: 1.5;
+  font-weight: 600;
+  font-size: var(--text-md);
 }
 
 @media (max-width: 640px) {
@@ -62,7 +48,13 @@
     padding: 1.25rem;
   }
 
-  .zn-update-card {
-    padding: 0.9rem;
+  .zn-news-link {
+    flex-direction: column;
+    gap: 0.15rem;
+    padding: 0.7rem 0.15rem;
+  }
+
+  .zn-news-date {
+    flex-basis: auto;
   }
 }

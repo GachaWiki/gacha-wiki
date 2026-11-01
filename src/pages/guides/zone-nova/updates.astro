@@ -1,16 +1,8 @@
 ---
-// Zone Nova announcements index: update cards (title, type + date, summary),
-// newest first, in the Brown Dust 2 updates style.
+// Zone Nova announcements index: plain news list, one row per update (date + title).
 import ZoneNovaLayout from '../../../layouts/zone-nova/UpdatesListLayout.astro';
 import { zoneNovaUpdates } from '../../../data/zone-nova/updates.js';
 import '../../../styles/games/zone-nova/zn-updates.css';
-
-const TYPE_LABELS = {
-  maintenance: 'Maintenance',
-  announcement: 'Announcement',
-  recruitment: 'Recruitment',
-  event: 'Event',
-};
 ---
 
 <ZoneNovaLayout
@@ -19,21 +11,17 @@ const TYPE_LABELS = {
   gameTitle="Announcements & Maintenance"
 >
   <section class="content-section">
-    <div class="zn-update-list">
+    <ul class="zn-news-list">
       {
         zoneNovaUpdates.map(update => (
-          <a class="zn-update-card" href={update.url}>
-            <div class="zn-update-card-body">
-              <h2 class="zn-update-card-title" set:text={update.title} />
-              <div class="zn-update-meta">
-                <span class="zn-update-tag" set:text={TYPE_LABELS[update.type] || 'Update'} />
-                <span set:text={update.date} />
-              </div>
-              {update.summary && <p class="zn-update-summary" set:text={update.summary} />}
-            </div>
-          </a>
+          <li class="zn-news-item">
+            <a href={update.url} class="zn-news-link">
+              <span class="zn-news-date" set:text={update.date} />
+              <span class="zn-news-title" set:text={update.title} />
+            </a>
+          </li>
         ))
       }
-    </div>
+    </ul>
   </section>
 </ZoneNovaLayout>
