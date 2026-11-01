@@ -204,3 +204,46 @@ export const TAIMANIN_SQUAD_CHARACTER_ARTISTS = {
   300: ["Kagami Hirotaka"],
   302: ["Kagami Hirotaka"],
 };
+
+// Verified Pixiv / X accounts for the credited artists.
+// Sources: Taimanin Wiki "Illustrators" page, VNDB staff pages, and targeted
+// web verification (2026-11-01). Artists without verified accounts stay as
+// plain text on the page - do not add unverified handles.
+
+export const TAIMANIN_SQUAD_ARTIST_LINKS = {
+  "Abdooly": { pixiv: "https://www.pixiv.net/en/users/118651452", x: "https://x.com/Abdooly111" },
+  "Aikawa Arisa": { x: "https://x.com/arisa_mondaiji" },
+  "Aoi Nagisa": { pixiv: "https://www.pixiv.net/en/users/8477", x: "https://x.com/aoi_nagisa" },
+  "Asahi": { pixiv: "https://www.pixiv.net/en/users/3863254", x: "https://x.com/ASAHIFM" },
+  "Asanagi": { pixiv: "https://www.pixiv.net/en/users/355065", x: "https://x.com/Victim_Girls" },
+  "Ban!": { x: "https://x.com/bansanv3" },
+  "Fuji Choco": { pixiv: "https://www.pixiv.net/en/users/27517", x: "https://x.com/fuzichoco" },
+  "Fuufuu": { x: "https://x.com/f_fuu" },
+  "Gara Ayuri": { pixiv: "https://www.pixiv.net/en/users/6794656", x: "https://x.com/gara_ayuri" },
+  "Genyaky": { x: "https://x.com/gn_yaky" },
+  "Hien": { x: "https://x.com/maidoll" },
+  "Homura Yuni": { pixiv: "https://www.pixiv.net/en/users/4378228", x: "https://x.com/homu_uni" },
+  "Ikkilo": { pixiv: "https://www.pixiv.net/en/users/64289", x: "https://x.com/ikkilo" },
+  "K-SUWABE": { pixiv: "https://www.pixiv.net/en/users/24517", x: "https://x.com/KSUWABE" },
+  "Kuuchuu Yousai": { pixiv: "https://www.pixiv.net/en/users/99093266", x: "https://x.com/pagumagu" },
+  "MISAWA K": { x: "https://x.com/misawa_K" },
+  "Matsumoto Mitsuaki": { x: "https://x.com/mtmtmtak32" },
+  "Namaniku": { pixiv: "https://www.pixiv.net/en/users/841771", x: "https://x.com/namaniku_ATK" },
+  "Nijimaarc": { pixiv: "https://www.pixiv.net/en/users/4355382" },
+  "Nishikikope": { x: "https://x.com/nishikikope" },
+  "Obui": { pixiv: "https://www.pixiv.net/en/users/17606", x: "https://x.com/ovvv" },
+  "Ookuma Mai": { x: "https://x.com/m_okuma0831" },
+  "Potion": { pixiv: "https://www.pixiv.net/en/users/565527", x: "https://x.com/potion01" },
+  "Rabidhowl": { pixiv: "https://www.pixiv.net/en/users/4130993", x: "https://x.com/HanekuraBou" },
+  "Rindou": { x: "https://x.com/rindou2902" },
+  "SASAYUKi": { pixiv: "https://www.pixiv.net/en/users/3473519", x: "https://x.com/SASAYUKi_" },
+  "Sage Joe": { pixiv: "https://www.pixiv.net/en/users/415521" },
+  "Saijou Satoru": { x: "https://x.com/saijosatoru" },
+  "Sakiyamama": { pixiv: "https://www.pixiv.net/en/users/10948474", x: "https://x.com/sakiyama8ma" },
+  "Sano Toshihide": { x: "https://x.com/sanuteii" },
+  "ShindoL": { x: "https://x.com/Shindo_L" },
+  "Sian": { pixiv: "https://www.pixiv.net/en/users/249990", x: "https://x.com/sian_sasaland" },
+  "TANA": { pixiv: "https://www.pixiv.net/en/users/1780304", x: "https://x.com/tana0111" },
+  "Yuuji": { x: "https://x.com/yujixxxxx" },
+  "ZOL": { x: "https://x.com/NaniwaComteg" },
+};

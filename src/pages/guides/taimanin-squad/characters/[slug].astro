@@ -2,7 +2,7 @@
 // Taimanin Squad Individual Character Detail Page
 import CharacterDatabaseLayout from '../../../../layouts/taimanin-squad/CharacterDatabaseLayout.astro';
 import { TAIMANIN_SQUAD_CHARACTERS } from '../../../../data/taimanin-squad/characters.js';
-import { TAIMANIN_SQUAD_CHARACTER_ARTISTS } from '../../../../data/taimanin-squad/character-artists.js';
+import { TAIMANIN_SQUAD_CHARACTER_ARTISTS, TAIMANIN_SQUAD_ARTIST_LINKS } from '../../../../data/taimanin-squad/character-artists.js';
 import '../../../../styles/games/taimanin-squad/ts-character-detail.css';
 import TSCharacterImage from '../../../../components/taimanin-squad/TSCharacterImage.astro';
 import TSTypeIcon from '../../../../components/taimanin-squad/TSTypeIcon.astro';
@@ -289,7 +289,25 @@ function formatMultiplier(skill: any): string | null {
           )}
         </div>
         {illustrators && (
-          <div class="ts-cd-artist">Illustrator: <span class="ts-cd-artist-name">{illustrators.join(', ')}</span></div>
+          <div class="ts-cd-artist">Illustrator:{' '}
+            {illustrators.map((a: string, i: number) => {
+              const l = TAIMANIN_SQUAD_ARTIST_LINKS[a];
+              const main = l?.x || l?.pixiv;
+              return (
+                <>
+                  {i > 0 && ', '}
+                  {main ? (
+                    <a class="ts-cd-artist-name ts-cd-artist-link" href={main} target="_blank" rel="noopener noreferrer">{a}</a>
+                  ) : (
+                    <span class="ts-cd-artist-name">{a}</span>
+                  )}
+                  {l?.pixiv && l?.x && (
+                    <> <a class="ts-cd-artist-sub" href={l.pixiv} target="_blank" rel="noopener noreferrer">(Pixiv)</a></>
+                  )}
+                </>
+              );
+            })}
+          </div>
         )}
         {data.btl_power && <div class="ts-cd-bpower">Battle Power: <span class="ts-cd-bpower-value">{data.btl_power?.toLocaleString()}</span></div>}
         {data.lore?.english && (

@@ -102,6 +102,20 @@
   font-weight: 600;
 }
 
+.ts-cd-artist-link {
+  text-decoration: underline;
+  text-decoration-color: var(--ts-border, #2e2838);
+  text-underline-offset: 3px;
+}
+
+.ts-cd-artist-sub {
+  color: var(--ts-text-muted, #888);
+  font-size: var(--text-xs);
+  text-decoration: underline;
+  text-decoration-color: var(--ts-border, #2e2838);
+  text-underline-offset: 2px;
+}
+
 /* Sections */
 .ts-cd-section {
   margin-bottom: 2rem;
