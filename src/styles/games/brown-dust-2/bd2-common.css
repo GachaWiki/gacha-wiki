@@ -386,6 +386,24 @@
   letter-spacing: 0.06em;
 }
 
+/* scroll wrapper: the 6-column curve scrolls inside its card if it is ever
+   wider than the block (insurance for very narrow phones) */
+.bd2-table-scroll {
+  overflow-x: auto;
+}
+
+@media (max-width: 640px) {
+  .bd2-growth-table th,
+  .bd2-growth-table td {
+    padding: 6px 4px;
+    font-size: var(--text-xs);
+  }
+
+  .bd2-growth-table th {
+    letter-spacing: 0.04em;
+  }
+}
+
 .bd2-growth-note {
   margin: 0.5rem 0 0;
   font-size: var(--text-xs);
@@ -993,5 +1011,20 @@ a.bd2-card:active {
   }
   .bd2-detail-header {
     padding: 1rem;
+  }
+  .bd2-detail-section {
+    padding: 1rem;
+  }
+  /* phone skill rows: the fixed icon + paddings left only ~112px for the text
+     column; stack the body full-width under the icon instead */
+  .bd2-skill-row {
+    flex-wrap: wrap;
+  }
+  .bd2-skill-body {
+    flex-basis: 100%;
+  }
+  /* rank strips wider than the body wrap their buttons, never overflow */
+  .bd2-rank-badges {
+    flex-wrap: wrap;
   }
 }

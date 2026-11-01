@@ -170,44 +170,46 @@ const stripBond = (s) => (s || '').replace(/\[\[\d+\|([0-9.]+)\]\]/g, '$1');
         {unit.growth?.length > 0 && (
           <div class="bd2-growth-block">
             <h3>Level growth (rank-up caps)</h3>
-            <table class="bd2-growth-table">
-              <thead>
-                <tr>
-                  <th>Level</th>
-                  <th>HP</th>
-                  <th>ATK</th>
-                  <th>MAG</th>
-                  <th>DEF</th>
-                  <th>M.RES</th>
-                </tr>
-              </thead>
-              <tbody>
-                {(() => {
-                  const base = {
-                    HP: unit.stats?.hp || 0,
-                    ATK: unit.stats?.physAtk || 0,
-                  };
-                  let hp = base.HP, atk = base.ATK, mag = 0, def = unit.stats?.physDef || 0, mres = 0;
-                  return unit.growth.map((g) => {
-                    hp += g.gains.Health || 0;
-                    atk += g.gains.PhysicalPower || 0;
-                    mag += g.gains.MagicPower || 0;
-                    def += g.gains.PhysicalDefense || 0;
-                    mres += g.gains.MagicDefense || 0;
-                    return (
-                      <tr>
-                        <td>Lv {g.cap}{g.grade < 5 ? ` (rank ${g.grade})` : ' (max)'}</td>
-                        <td>{Math.round(hp)}</td>
-                        <td>{Math.round(atk)}</td>
-                        <td>{Math.round(mag)}</td>
-                        <td>{Math.round(def)}</td>
-                        <td>{Math.round(mres)}</td>
-                      </tr>
-                    );
-                  });
-                })()}
-              </tbody>
-            </table>
+            <div class="bd2-table-scroll">
+              <table class="bd2-growth-table">
+                <thead>
+                  <tr>
+                    <th>Level</th>
+                    <th>HP</th>
+                    <th>ATK</th>
+                    <th>MAG</th>
+                    <th>DEF</th>
+                    <th>M.RES</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {(() => {
+                    const base = {
+                      HP: unit.stats?.hp || 0,
+                      ATK: unit.stats?.physAtk || 0,
+                    };
+                    let hp = base.HP, atk = base.ATK, mag = 0, def = unit.stats?.physDef || 0, mres = 0;
+                    return unit.growth.map((g) => {
+                      hp += g.gains.Health || 0;
+                      atk += g.gains.PhysicalPower || 0;
+                      mag += g.gains.MagicPower || 0;
+                      def += g.gains.PhysicalDefense || 0;
+                      mres += g.gains.MagicDefense || 0;
+                      return (
+                        <tr>
+                          <td>Lv {g.cap}{g.grade < 5 ? ` (rank ${g.grade})` : ' (max)'}</td>
+                          <td>{Math.round(hp)}</td>
+                          <td>{Math.round(atk)}</td>
+                          <td>{Math.round(mag)}</td>
+                          <td>{Math.round(def)}</td>
+                          <td>{Math.round(mres)}</td>
+                        </tr>
+                      );
+                    });
+                  })()}
+                </tbody>
+              </table>
+            </div>
             <p class="bd2-growth-note">Totals are base stats plus the level curve; each rank-up raises the level cap.</p>
           </div>
         )}
