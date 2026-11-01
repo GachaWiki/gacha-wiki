@@ -12,7 +12,9 @@
   display: flex;
   align-items: baseline;
   gap: 0.9rem;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1.75rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--zn-border);
 }
 
 .zn-article-date {
@@ -27,7 +29,11 @@
 }
 
 .zn-article-tldr {
-  margin-bottom: 2rem;
+  background: var(--zn-bg-tertiary);
+  border: 1px solid var(--zn-border);
+  border-radius: 10px;
+  padding: 1.25rem 1.5rem;
+  margin-bottom: 2.25rem;
 }
 
 .zn-article-heading {
@@ -47,6 +53,10 @@
   font-size: var(--text-md);
   line-height: 1.6;
   margin-bottom: 0.5rem;
+}
+
+.zn-article-body {
+  max-width: 78ch;
 }
 
 .zn-article-body p {
