@@ -150,3 +150,77 @@
     grid-template-columns: 1fr;
   }
 }
+
+/* Story & event CGs */
+.ts-gal-group-title {
+  color: var(--ts-accent-light, #b8a9c8);
+  font-size: var(--text-base);
+  font-weight: 700;
+  margin: 1.3rem 0 0.6rem;
+}
+
+.ts-gal-group-note {
+  color: #b3a8ab;
+  font-size: var(--text-sm);
+  margin: -0.4rem 0 0.8rem;
+  max-width: 60rem;
+}
+
+.ts-gal-cg-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 1rem;
+}
+
+.ts-gal-cg-cell {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  text-decoration: none;
+}
+
+.ts-gal-cg-img {
+  background: var(--ts-bg-card, #1e1a23);
+  border: 1px solid var(--ts-border, #2e2838);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.ts-gal-cg-img img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.ts-gal-cg-name {
+  color: var(--ts-accent-light, #b8a9c8);
+  font-size: var(--text-sm);
+  font-weight: 600;
+}
+
+/* Game banners (wide art) */
+.ts-gal-banner-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1rem;
+}
+
+.ts-gal-banner-cell {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  text-decoration: none;
+}
+
+.ts-gal-banner-img {
+  background: var(--ts-bg-card, #1e1a23);
+  border: 1px solid var(--ts-border, #2e2838);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.ts-gal-banner-img img {
+  display: block;
+  width: 100%;
+  height: auto;
+}

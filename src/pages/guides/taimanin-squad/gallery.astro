@@ -19,6 +19,52 @@ const gameTitle = 'Gallery';
 const img = (rel) => r2Url('taimanin-squad', 'characterimage/' + rel);
 const ALL = TS_IMAGE_MANIFEST.characterimage;
 
+// story / event CGs and game banners live under their own R2 prefixes
+const cgUrl = (key) => r2Url('taimanin-squad', 'storycg/' + key);
+const bannerUrl = (key) => r2Url('taimanin-squad', 'banners/' + key);
+const CGS = TS_IMAGE_MANIFEST.storycg || {};
+const GAME_BANNERS = TS_IMAGE_MANIFEST.banners || {};
+const natural = (a, b) => a.localeCompare(b, undefined, { numeric: true });
+const cgName = (k) => k.replace(/\.webp$/, '');
+const cgAll = Object.keys(CGS).sort(natural);
+const eventCGs = cgAll.filter((k) => /^E\d/.test(cgName(k)));
+const storyStills = cgAll.filter((k) => /^S\d/.test(cgName(k)));
+
+const bannerKeys = Object.keys(GAME_BANNERS).sort(natural);
+const bannerLabel = (k) => {
+  const n = k.replace(/\.webp$/, '');
+  if (n.startsWith('BN_Lo_')) {
+    const parts = n.split('_'); // BN Lo S/L <id> <LOC>
+    return `Login Bonus ${parts[3]} (${parts[4]})`;
+  }
+  if (n.startsWith('BN_St_')) {
+    const parts = n.split('_'); // BN St S/L <id> <LOC>
+    return `Store ${parts[3]} (${parts[4]})`;
+  }
+  if (n.startsWith('LobbyBanner_Portal')) return `Lobby Portal (${n.split('_').pop()})`;
+  if (n.startsWith('Portal_Banner_L_Pickup_2_')) return `Portal Pickup 2 L (${n.split('_').pop()})`;
+  if (n.startsWith('Portal_Banner_L_Pickup_')) return `Portal Pickup L (${n.split('_').pop()})`;
+  if (n.startsWith('Portal_Banner_Pickup_2_')) return `Portal Pickup 2 (${n.split('_').pop()})`;
+  if (n.startsWith('Portal_Banner_Pickup_')) return `Portal Pickup (${n.split('_').pop()})`;
+  if (n.startsWith('BN_Evb')) return `Event Banner B ${n.split('_').pop()}`;
+  if (n.startsWith('BN_Evc')) return `Event Banner C ${n.split('_').pop()}`;
+  if (n.startsWith('BN_Evs')) return `Event Banner S ${n.split('_').pop()}`;
+  if (n.startsWith('BN_Evtb_S_1')) return 'Event Tab 1';
+  if (n.startsWith('BN_Evtb_S_2')) return 'Event Tab 2';
+  if (n.startsWith('Banner_Action_L')) return 'Action Banner L';
+  if (n.startsWith('Banner_Action_S')) return 'Action Banner S';
+  return n.replace(/_/g, ' ');
+};
+// the wiki is English: for per-locale banners show the ENG and JPN art only
+// (every locale variant is stored on R2 regardless)
+const wantLocale = (k) => /(ENG|JPN)\.webp$/.test(k) || !/[A-Z]{3}\.webp$/.test(k);
+const bannerGroups = [
+  { title: 'In-Game Event Banners', keys: bannerKeys.filter((k) => /^BN_Ev|^Banner_Action/.test(k)) },
+  { title: 'Login Bonus Banners', keys: bannerKeys.filter((k) => /^BN_Lo_L_/.test(k) && wantLocale(k)) },
+  { title: 'Portal / Gacha Banners', keys: bannerKeys.filter((k) => /^(Portal_|LobbyBanner_Portal)/.test(k) && wantLocale(k)) },
+  { title: 'Store Banners', keys: bannerKeys.filter((k) => /^BN_St_|^Shop_/.test(k) && wantLocale(k)) },
+];
+
 // group files by unit icon prefix ("259_Hebiko" catches "259_Hebiko.png" and
 // hashed variants alike), bucketed by texture dimensions
 const byUnit = {};
@@ -107,6 +153,76 @@ const eventBanners = TS_EVENTS
         ))
       }
     </div>
+
+    <h2 class="ts-gal-section-title">Story &amp; Event CGs ({cgAll.length})</h2>
+    <p class="ts-gal-group-note">
+      Scene stills from the in-game story player. E-numbered CGs are from the current event story; S-numbered stills are from the main story.
+      Click to view the full-size image.
+    </p>
+    {eventCGs.length > 0 && (
+      <>
+        <h3 class="ts-gal-group-title">Event CGs ({eventCGs.length})</h3>
+        <div class="ts-gal-cg-grid">
+          {eventCGs.map((k) => {
+            const [w, h] = CGS[k];
+            return (
+              <a class="ts-gal-cg-cell" href={cgUrl(k)} target="_blank" rel="noopener noreferrer">
+                <div class="ts-gal-cg-img">
+                  <img src={cgUrl(k)} alt={`Event CG ${cgName(k)}`} width={w} height={h} loading="lazy" decoding="async" />
+                </div>
+                <span class="ts-gal-cg-name">{cgName(k)}</span>
+              </a>
+            );
+          })}
+        </div>
+      </>
+    )}
+    {storyStills.length > 0 && (
+      <>
+        <h3 class="ts-gal-group-title">Main Story Stills ({storyStills.length})</h3>
+        <div class="ts-gal-cg-grid">
+          {storyStills.map((k) => {
+            const [w, h] = CGS[k];
+            return (
+              <a class="ts-gal-cg-cell" href={cgUrl(k)} target="_blank" rel="noopener noreferrer">
+                <div class="ts-gal-cg-img">
+                  <img src={cgUrl(k)} alt={`Story still ${cgName(k)}`} width={w} height={h} loading="lazy" decoding="async" />
+                </div>
+                <span class="ts-gal-cg-name">{cgName(k)}</span>
+              </a>
+            );
+          })}
+        </div>
+      </>
+    )}
+
+    <h2 class="ts-gal-section-title">Game Banners ({bannerKeys.length})</h2>
+    <p class="ts-gal-group-note">
+      In-game event, login bonus, and gacha banners extracted from the client (all five language variants are stored;
+      English and Japanese art is shown here). Click to view the full-size image.
+    </p>
+    {bannerGroups.map((g) => (
+      <>
+        {g.keys.length > 0 && (
+          <>
+            <h3 class="ts-gal-group-title">{g.title} ({g.keys.length})</h3>
+            <div class="ts-gal-banner-grid">
+              {g.keys.map((k) => {
+                const [w, h] = GAME_BANNERS[k];
+                return (
+                  <a class="ts-gal-banner-cell" href={bannerUrl(k)} target="_blank" rel="noopener noreferrer">
+                    <div class="ts-gal-banner-img">
+                      <img src={bannerUrl(k)} alt={bannerLabel(k)} width={w} height={h} loading="lazy" decoding="async" />
+                    </div>
+                    <span class="ts-gal-cg-name">{bannerLabel(k)}</span>
+                  </a>
+                );
+              })}
+            </div>
+          </>
+        )}
+      </>
+    ))}
 
     <h2 class="ts-gal-section-title">Expression Variants</h2>
     <div class="ts-gal-grid">
