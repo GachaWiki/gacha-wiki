@@ -115,7 +115,7 @@
 }
 
 .ts-upd-card-title {
-  color: #e8e2ee;
+  color: var(--ts-accent-light, #b8a9c8);
   font-size: var(--text-base);
   line-height: 1.35;
 }
@@ -166,7 +166,7 @@
 }
 
 .ts-upd-detail-title {
-  color: #e8e2ee;
+  color: var(--ts-accent-light, #b8a9c8);
   font-size: var(--text-2xl);
   line-height: 1.3;
   margin-bottom: 1.25rem;

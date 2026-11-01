@@ -49,12 +49,12 @@
 .ts-story-card-title {
   font-size: var(--text-lg);
   font-weight: 700;
-  color: var(--ts-text-primary, #fff);
+  color: var(--ts-accent-light, #b8a9c8);
 }
 
 .ts-story-card-title-link {
   text-decoration: none;
-  color: var(--ts-accent, #9a8aaa);
+  color: var(--ts-accent-light, #b8a9c8);
 }
 
 .ts-story-card-jp {

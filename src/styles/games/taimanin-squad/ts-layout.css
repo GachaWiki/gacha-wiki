@@ -71,7 +71,7 @@
   font-family: var(--font-display);
   font-size: var(--text-4xl);
   font-weight: 700;
-  color: var(--ts-primary, #6b5b7a);
+  color: var(--ts-accent-light, #b8a9c8);
   margin: 0;
 }
 
@@ -117,7 +117,7 @@
   font-family: var(--font-display);
   font-size: var(--text-4xl);
   font-weight: 700;
-  color: var(--ts-primary, #6b5b7a);
+  color: var(--ts-accent-light, #b8a9c8);
   margin: 0;
 }
 

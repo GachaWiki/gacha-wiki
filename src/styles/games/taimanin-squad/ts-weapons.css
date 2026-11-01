@@ -248,7 +248,7 @@
 .weapon-detail-name {
   font-weight: 600;
   font-size: var(--text-base);
-  color: var(--ts-text-primary, #f5f5f5);
+  color: var(--ts-accent-light, #b8a9c8);
 }
 
 .weapon-detail-stars {
@@ -319,7 +319,7 @@
 .weapon-skill-name {
   font-size: var(--text-md);
   font-weight: 600;
-  color: var(--ts-text-primary, #f5f5f5);
+  color: var(--ts-accent-light, #b8a9c8);
 }
 
 .weapon-skill-desc {

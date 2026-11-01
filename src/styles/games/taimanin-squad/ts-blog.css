@@ -35,10 +35,8 @@
 .ts-blog-section-title {
   font-size: var(--text-xl);
   font-weight: 600;
-  color: var(--ts-text-primary);
+  color: var(--ts-accent-light, #b8a9c8);
   margin-bottom: 1rem;
-  padding-left: 0.8rem;
-  border-left: 3px solid var(--ts-primary);
   text-transform: uppercase;
   letter-spacing: 1px;
 }
@@ -106,7 +104,7 @@
 .ts-blog-card-title {
   font-size: var(--text-lg);
   font-weight: 600;
-  color: var(--ts-text-primary);
+  color: var(--ts-accent-light, #b8a9c8);
   margin: 0;
   line-height: 1.4;
 }
@@ -142,7 +140,7 @@
 .ts-blog-empty h3 {
   font-size: var(--text-xl);
   font-weight: 600;
-  color: var(--ts-text-primary);
+  color: var(--ts-accent-light, #b8a9c8);
   margin: 0 0 0.5rem 0;
 }
 

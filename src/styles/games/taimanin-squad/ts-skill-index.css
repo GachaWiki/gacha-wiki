@@ -40,7 +40,7 @@
 .ts-si-group-title {
   font-size: var(--text-lg);
   font-weight: 700;
-  color: var(--ts-text-primary);
+  color: var(--ts-accent-light, #b8a9c8);
   margin: 0 0 1rem 0;
   padding-bottom: 0.5rem;
   border-bottom: 1px solid var(--ts-border);
@@ -83,7 +83,7 @@
 .ts-si-mechanic-name {
   font-size: var(--text-body);
   font-weight: 700;
-  color: var(--ts-text-primary);
+  color: var(--ts-accent-light, #b8a9c8);
   margin: 0;
 }
 
@@ -202,7 +202,7 @@
 .ts-si-char-name {
   font-size: var(--text-xs);
   font-weight: 600;
-  color: var(--ts-text-primary);
+  color: var(--ts-accent-light, #b8a9c8);
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;

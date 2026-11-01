@@ -75,7 +75,7 @@
 .ts-effect-name {
   font-size: var(--text-lg);
   font-weight: 700;
-  color: var(--ts-text-primary);
+  color: var(--ts-accent-light, #b8a9c8);
   margin: 0 0 0.25rem 0;
   line-height: 1.3;
 }
@@ -157,7 +157,7 @@
 .ts-bd-category-title {
   font-size: var(--text-xl);
   font-weight: 700;
-  color: var(--ts-text-primary);
+  color: var(--ts-accent-light, #b8a9c8);
   margin: 0 0 1rem 0;
   padding-bottom: 0.5rem;
   border-bottom: 2px solid var(--ts-border);

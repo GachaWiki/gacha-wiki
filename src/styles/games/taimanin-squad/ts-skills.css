@@ -98,7 +98,7 @@
 .skills-card-name {
   font-size: var(--text-lg);
   font-weight: 600;
-  color: var(--ts-text-primary, #fff);
+  color: var(--ts-accent-light, #b8a9c8);
   margin: 0 0 0.25rem 0;
 }
 
@@ -185,7 +185,7 @@
 .skill-name {
   font-size: var(--text-base);
   font-weight: 600;
-  color: var(--ts-text-primary, #fff);
+  color: var(--ts-accent-light, #b8a9c8);
   margin: 0;
 }
 

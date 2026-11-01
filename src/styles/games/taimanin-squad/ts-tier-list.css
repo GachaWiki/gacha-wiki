@@ -40,7 +40,7 @@
 .ts-tl-section-title {
   margin: 0;
   font-size: var(--text-lg);
-  color: var(--ts-text-primary, #fff);
+  color: var(--ts-accent-light, #b8a9c8);
 }
 
 .ts-tl-section-count {
@@ -242,7 +242,7 @@
 }
 
 .ts-community-title {
-  color: #e8e2ee;
+  color: var(--ts-accent-light, #b8a9c8);
   font-size: var(--text-md);
   font-weight: 700;
 }

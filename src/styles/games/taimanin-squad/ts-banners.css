@@ -79,35 +79,28 @@
 .ts-bn-type,
 .ts-bn-status {
   font-size: var(--text-2xs);
-  font-weight: 800;
-  padding: 0.15rem 0.55rem;
-  border-radius: 999px;
+  font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.05em;
 }
 
 .ts-bn-type-pickup {
-  background: rgba(184, 169, 200, 0.16);
   color: #cdbfd9;
 }
 
 .ts-bn-type-stepup {
-  background: rgba(216, 165, 118, 0.16);
   color: #e2c3a2;
 }
 
 .ts-bn-type-launch {
-  background: rgba(255, 255, 255, 0.08);
   color: #c5bdcf;
 }
 
 .ts-bn-status-active {
-  background: rgba(103, 197, 138, 0.16);
   color: #67c58a;
 }
 
 .ts-bn-status-ended {
-  background: rgba(255, 255, 255, 0.06);
   color: #7d7486;
 }
 
@@ -117,7 +110,7 @@
 }
 
 .ts-bn-card-title {
-  color: #e8e2ee;
+  color: var(--ts-accent-light, #b8a9c8);
   font-size: var(--text-lg);
 }
 

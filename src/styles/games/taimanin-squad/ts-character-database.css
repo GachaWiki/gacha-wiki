@@ -260,7 +260,7 @@
 .ts-cdb-grid-name {
   display: block;
   font-size: var(--text-xs);
-  color: var(--ts-text-primary, #fff);
+  color: var(--ts-accent-light, #b8a9c8);
   margin-bottom: 0.25rem;
   overflow: hidden;
   text-overflow: ellipsis;

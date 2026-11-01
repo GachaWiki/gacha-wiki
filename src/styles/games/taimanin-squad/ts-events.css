@@ -113,7 +113,7 @@
 }
 
 .ts-ev-card-title {
-  color: #e8e2ee;
+  color: var(--ts-accent-light, #b8a9c8);
   font-size: var(--text-lg);
 }
 

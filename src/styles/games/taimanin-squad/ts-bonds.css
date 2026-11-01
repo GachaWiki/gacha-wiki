@@ -17,7 +17,7 @@
 
 .ts-bonds-section-title {
   font-size: var(--text-xl);
-  color: var(--ts-text-primary, #fff);
+  color: var(--ts-accent-light, #b8a9c8);
   margin: 0 0 1rem;
   padding-bottom: 0.5rem;
   border-bottom: 2px solid var(--ts-primary, #6b5b7a);
@@ -55,15 +55,13 @@
 .ts-bond-name {
   font-size: var(--text-base);
   font-weight: 700;
-  color: var(--ts-text-primary, #fff);
+  color: var(--ts-accent-light, #b8a9c8);
   margin: 0;
 }
 
 .ts-bond-bonus {
   font-size: var(--text-xs);
-  padding: 0.2rem 0.6rem;
-  border-radius: 4px;
-  background: rgba(255, 215, 0, 0.15);
+  font-weight: 600;
   color: #FFD700;
   white-space: nowrap;
 }
@@ -92,7 +90,7 @@
 .ts-bond-unit-name {
   font-size: var(--text-md);
   font-weight: 500;
-  color: var(--ts-text-primary, #f5f5f5);
+  color: var(--ts-accent-light, #b8a9c8);
 }
 
 .ts-bond-skill {
@@ -117,7 +115,7 @@
 .ts-bond-skill-name {
   font-size: var(--text-md);
   font-weight: 700;
-  color: #60A5FA;
+  color: var(--ts-accent-light, #b8a9c8);
 }
 
 .ts-bond-skill-mult {
