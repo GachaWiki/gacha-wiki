@@ -1545,6 +1545,36 @@ export const BUSTY_BURST_PALADINS = [
     role: 'Attacker',
     tier: 'SS',
   },
+  {
+    id: 'aiming-for-your-heart-shaty',
+    characterId: 2149,
+    name: 'Aiming for Your Heart♪: Shaty',
+    fileName: 'Shaty',
+    rarity: 'SSR',
+    element: 'Water',
+    role: 'Attacker',
+    tier: 'SS',
+  },
+  {
+    id: 'riding-the-big-wave-of-love-priscilla',
+    characterId: 2150,
+    name: 'Riding the Big Wave of Love: Priscilla',
+    fileName: 'Priscilla',
+    rarity: 'SSR',
+    element: 'Wind',
+    role: 'Attacker',
+    tier: 'SS',
+  },
+  {
+    id: 'skateboarder-nue',
+    characterId: 2152,
+    name: 'Skateboarder: Nue',
+    fileName: 'Nue',
+    rarity: 'SSR',
+    element: 'Wind',
+    role: 'Tank',
+    tier: 'S',
+  },
 ];
 
 export const getPaladinById = id => {

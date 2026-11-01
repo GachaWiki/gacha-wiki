@@ -34,6 +34,9 @@ export const BUSTY_BURST_TIER_LISTS = {
           'school-bloomers-black-knight', 'ange', 'raffine', 'the-bride-of-luck-theresia', 'alluring-naked-apron-zilka', 'gil', 'nina',
           // October 2026 Entwined with the Wind release (user: SS; skip the banner, she joins the Tower of Trials Summon pool / 200 pity exchange)
           'lin',
+          // October 2026 Octopus Empire's Counterattack release (user verdict: SS)
+          'aiming-for-your-heart-shaty',
+          'riding-the-big-wave-of-love-priscilla',
         ],
       },
       {
@@ -79,6 +82,8 @@ export const BUSTY_BURST_TIER_LISTS = {
           'eva',
           'yaksha',
           'fionore',
+          // October 2026 FANZINE 4th release (user verdict: S)
+          'skateboarder-nue',
         ],
       },
       {
