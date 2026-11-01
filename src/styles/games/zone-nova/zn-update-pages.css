@@ -1,42 +1,5 @@
-/* Zone Nova Update Pages Styles */
-/* This file contains component styles for individual update pages */
-/* Layout structure is now handled by zn-layout.css */
+/* Zone Nova update detail pages: news article layout (single container, flowing text) */
 
-/* ===== LINK STYLES ===== */
-/* Override global amber link colors with ZN branding */
-.zone-nova-main .content-section a,
-.zone-nova-main .official-section a,
-.zone-nova-main .tldr-section a,
-.zone-nova-main .info-card a,
-.zone-nova-main .collapsible-inner a {
-  color: var(--zn-text-primary);
-  text-decoration: none;
-  border-bottom: 1px solid var(--amber-glow);
-}
-
-/* ===== SOURCE INFORMATION STYLES ===== */
-.source-link {
-  text-decoration: none;
-  color: inherit;
-}
-
-.source-info-card {
-  cursor: default;
-}
-
-.source-text {
-  text-align: center;
-  color: var(--zn-text-primary);
-  font-style: italic;
-  margin: 0;
-}
-
-.source-name {
-  color: var(--amber-glow);
-  font-weight: var(--font-medium);
-}
-
-/* ===== CONTENT SECTIONS ===== */
 .content-section {
   background: var(--zn-bg-secondary);
   padding: 2rem;
@@ -45,396 +8,98 @@
   border: none;
 }
 
-.section-title {
-  font-family: var(--font-display);
-  font-size: var(--text-3xl);
-  font-weight: var(--font-bold);
-  color: var(--zn-text-primary);
-  margin: 0 0 2rem 0;
-  text-align: center;
-  line-height: var(--leading-tight);
-}
-
-/* ===== TLDR SECTION ===== */
-.tldr-section ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-.tldr-section li {
-  background: var(--zn-bg-primary);
-  padding: 1.25rem 1.5rem;
-  margin-bottom: 1rem;
-  border-radius: 10px;
-  font-family: var(--font-primary);
-  font-size: var(--text-base);
-  line-height: var(--leading-relaxed);
-  color: var(--zn-text-primary);
-}
-
-.tldr-section li:last-child {
-  margin-bottom: 0;
-}
-
-/* ===== OFFICIAL SECTION ===== */
-.official-section .info-card {
-  background: var(--zn-bg-primary);
-  padding: 2rem;
-  border-radius: 12px;
-  border: 1px solid var(--zn-border);
-}
-
-.official-section p {
-  margin: 0 0 1rem 0;
-  font-family: var(--font-primary);
-  font-size: var(--text-base);
-  line-height: var(--leading-relaxed);
-  color: var(--zn-text-primary);
-}
-
-.official-section p:last-child {
-  margin-bottom: 0;
-}
-
-/* ===== INFO CARD ===== */
-.info-card {
-  background: var(--zn-bg-primary);
-  padding: 2rem;
-  border-radius: 12px;
-  border: 1px solid var(--zn-border);
-}
-
-/* ===== RESPONSIVE VISIBILITY ===== */
-.mobile-only {
-  display: none;
-}
-
-.desktop-only {
-  display: block;
-}
-
-/* ===== COLLAPSIBLE SECTIONS ===== */
-.collapsible-section {
-  background: var(--zn-bg-primary);
-  border-radius: 12px;
-  border: 1px solid var(--zn-border);
-  overflow: hidden;
-}
-
-.collapsible-header {
-  width: 100%;
-  padding: 1rem 1.5rem;
-  background: var(--zn-bg-hover);
-  border: none;
-  text-align: left;
-  font-family: var(--font-primary);
-  font-size: var(--text-base);
-  font-weight: var(--font-medium);
-  color: var(--zn-text-primary);
-  cursor: pointer;
+.zn-article-meta {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  /* Touch optimizations */
-  touch-action: manipulation;
-  -webkit-tap-highlight-color: transparent;
-  min-height: 44px;
+  align-items: baseline;
+  gap: 0.9rem;
+  margin-bottom: 1.5rem;
 }
 
-.collapsible-toggle {
-}
-
-.collapsible-section.expanded .collapsible-toggle {
-  transform: rotate(180deg);
-}
-
-.collapsible-content {
-  max-height: 0;
-  overflow: hidden;
-}
-
-.collapsible-inner {
-  padding: 1.5rem;
-}
-
-/* ===== DATA SECTION ===== */
-.data-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 1rem;
-  margin-top: 1rem;
-}
-
-.data-item {
-  background: var(--zn-bg-primary);
-  padding: 1rem;
-  border-radius: 8px;
-  border: 1px solid var(--zn-border);
-  text-align: center;
-}
-
-.data-label {
-  font-family: var(--font-primary);
-  font-size: var(--text-sm);
-  font-weight: var(--font-medium);
+.zn-article-date {
   color: var(--amber-glow);
-  text-transform: uppercase;
-  letter-spacing: var(--tracking-wide);
+  font-weight: 600;
+  font-size: var(--text-sm);
+}
+
+.zn-article-type {
+  color: var(--zn-text-primary);
+  font-size: var(--text-sm);
+}
+
+.zn-article-tldr {
+  margin-bottom: 2rem;
+}
+
+.zn-article-heading {
+  color: var(--amber-glow);
+  font-weight: 700;
+  font-size: var(--text-xl);
+  margin: 0 0 0.75rem;
+}
+
+.zn-article-tldr ul {
+  margin: 0;
+  padding-left: 1.25rem;
+}
+
+.zn-article-tldr li {
+  color: var(--zn-text-primary);
+  font-size: var(--text-md);
+  line-height: 1.6;
   margin-bottom: 0.5rem;
 }
 
-.data-value {
-  font-family: var(--font-primary);
-  font-size: var(--text-base);
-  font-weight: var(--font-medium);
-  color: var(--amber-glow);
-}
-
-/* ===== TOUCH DEVICE OPTIMIZATIONS ===== */
-@media (max-width: 768px), (hover: none) and (pointer: coarse) {
-  /* Content sections touch-friendly */
-  .content-section {
-    padding: 1.5rem;
-    margin-bottom: 1.5rem;
-    border-radius: 16px;
-    /* Touch targets */
-    min-height: 44px;
-  }
-
-  .section-title {
-    font-size: var(--text-2xl);
-    margin-bottom: 1rem;
-    line-height: 1.3;
-  }
-
-  .data-grid {
-    grid-template-columns: 1fr;
-    gap: 1rem;
-  }
-
-  /* Touch-friendly buttons and interactive elements */
-  .collapsible-header {
-    min-height: 48px;
-    padding: 1rem;
-    font-size: var(--text-base);
-    line-height: 1.4;
-  }
-
-  .data-item {
-    padding: 1rem;
-    min-height: 44px;
-    border-radius: 12px;
-  }
-
-  .data-label {
-    margin-bottom: 0.25rem;
-    line-height: 1.3;
-  }
-
-  .data-value {
-    line-height: 1.2;
-  }
-
-  /* Responsive visibility */
-  .mobile-only {
-    display: block;
-  }
-
-  .desktop-only {
-    display: none;
-  }
-
-  /* Reduce background complexity on touch devices for better performance */
-  .bg-accent-2,
-  .bg-accent-3 {
-    display: none;
-  }
-
-  .bg-accent-1 {
-    opacity: 0.5;
-  }
-
-  /* Disable transitions on touch for better performance */
-  .collapsible-section,
-  .collapsible-header,
-  .data-item {
-    transition: none;
-    animation: none;
-  }
-}
-
-/* ===== SMALL MOBILE DEVICES ===== */
-@media (max-width: 480px) {
-  /* Extra touch-friendly spacing */
-  .content-section {
-    padding: 1rem;
-    border-radius: 12px;
-    margin-bottom: 1.5rem;
-  }
-
-  .section-title {
-    font-size: var(--text-xl);
-    margin-bottom: 1rem;
-  }
-
-  /* Larger touch targets */
-  .collapsible-header {
-    min-height: 52px;
-    padding: 1.25rem 1rem;
-    font-size: var(--text-lg);
-  }
-
-  .data-item {
-    padding: 1.25rem;
-    min-height: 48px;
-  }
-
-  /* Better text spacing and readability */
-  .tldr-section li {
-    padding: 1rem;
-    margin-bottom: 0.75rem;
-    border-radius: 8px;
-    line-height: 1.5;
-  }
-
-  .official-section .info-card,
-  .info-card {
-    padding: 1.25rem;
-    border-radius: 8px;
-  }
-
-  .official-section p {
-    margin-bottom: 0.75rem;
-    line-height: 1.5;
-  }
-
-  .collapsible-inner {
-    padding: 1rem;
-    line-height: 1.5;
-  }
-}
-
-@media (prefers-contrast: high) {
-  .section-title {
-    color: var(--zn-text-primary) !important;
-  }
-
-  .data-value {
-    color: var(--zn-text-primary) !important;
-  }
-}
-
-/* ===== UPDATE CONTENT HIGHLIGHTING STYLES ===== */
-/* Simplified two-color highlighting system matching skill highlighting */
-
-/* Primary highlighting - Red theme (characters, events, rewards, mechanics, announcements) */
-.zn-update-highlight-primary {
-  color: #d32f2f;
-  font-weight: 600;
-  background: rgba(211, 47, 47, 0.1);
-  padding: 0.125rem 0.25rem;
-  border-radius: 4px;
-}
-
-/* Secondary highlighting - Blue theme (dates, numbers) */
-.zn-update-highlight-secondary {
-  color: #1976d2;
-  font-weight: 600;
-  background: rgba(25, 118, 210, 0.1);
-  padding: 0.125rem 0.25rem;
-  border-radius: 4px;
-}
-
-/* Hover effects for better interactivity */
-
-
-/* Dark mode compatibility */
-@media (prefers-color-scheme: dark) {
-  .zn-update-highlight-primary {
-    background: rgba(211, 47, 47, 0.15);
-  }
-
-  .zn-update-highlight-secondary {
-    background: rgba(25, 118, 210, 0.15);
-  }
-}
-
-/* Reduced motion accessibility */
-@media (prefers-reduced-motion: reduce) {
-  
-}
-
-/* Mobile responsiveness - reduce padding on small screens */
-@media (max-width: 767px) {
-  .zn-update-highlight-primary,
-  .zn-update-highlight-secondary {
-    padding: 0.1rem 0.2rem;
-    font-size: 0.95em;
-  }
-}
-
-/* ===== CONTENT HIERARCHY AND TYPOGRAPHY ===== */
-/* Section headers styling */
-.content-section-header {
-  font-size: var(--text-lg);
-  font-weight: var(--font-semibold);
+.zn-article-body p {
   color: var(--zn-text-primary);
-  margin-top: 2rem !important;
-  margin-bottom: 1rem !important;
-  border-bottom: 2px solid var(--amber-glow);
-  padding-bottom: 0.5rem;
-  font-family: var(--font-display);
+  font-size: var(--text-md);
+  line-height: 1.7;
+  margin: 0 0 1rem;
 }
 
-/* Event item headers */
-.event-item-header {
-  font-size: var(--text-base);
-  font-weight: var(--font-medium);
+.zn-article-greeting {
+  font-weight: 700;
+}
+
+.zn-article-sub {
   color: var(--amber-glow);
-  margin-top: 1.5rem !important;
-  margin-bottom: 0.75rem !important;
-  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: var(--text-lg);
+  margin: 1.75rem 0 0.75rem;
 }
 
-/* Improve paragraph spacing in update content */
-.official-section .info-card p,
-.official-section .collapsible-inner p {
-  margin-bottom: 1rem;
-  line-height: 1.6;
+.zn-article-kv {
+  margin: 0 0 0.5rem;
 }
 
-/* Empty paragraphs for spacing */
-.official-section .info-card p:empty,
-.official-section .collapsible-inner p:empty {
-  margin-bottom: 0.75rem;
-  height: 0;
+.zn-kv-label {
+  color: var(--amber-glow);
+  font-weight: 600;
+  margin-right: 0.4rem;
 }
 
-/* First paragraph in sections shouldn't have extra top margin */
-.official-section .info-card p:first-child,
-.official-section .collapsible-inner p:first-child {
-  margin-top: 0;
+.zn-article-closing {
+  margin-top: 1.5rem;
 }
 
-/* Mobile typography adjustments */
-@media (max-width: 767px) {
-  .content-section-header {
-    font-size: var(--text-base);
-    margin-top: 1.5rem !important;
-    margin-bottom: 0.75rem !important;
-    padding-bottom: 0.25rem;
+.zn-article-source {
+  color: var(--zn-text-muted);
+  font-size: var(--text-sm);
+  margin-top: 2rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--zn-border);
+}
+
+.zn-source-link {
+  color: var(--zn-text-muted);
+  text-decoration: underline;
+}
+
+@media (max-width: 640px) {
+  .content-section {
+    padding: 1.25rem;
   }
 
-  .event-item-header {
-    font-size: var(--text-sm);
-    margin-top: 1rem !important;
-    margin-bottom: 0.5rem !important;
-  }
-
-  .official-section .info-card p,
-  .official-section .collapsible-inner p {
-    margin-bottom: 0.75rem;
-    line-height: 1.5;
+  .zn-article-sub {
+    font-size: var(--text-md);
   }
 }

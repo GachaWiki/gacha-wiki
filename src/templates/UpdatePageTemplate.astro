@@ -1,20 +1,15 @@
 ---
 // @ts-nocheck
+// News-article template for Zone Nova update/announcement pages.
+// No highlighting, no nested cards: title + meta, TL;DR, flowing article body.
 import ZoneNovaUpdateLayout from '../layouts/zone-nova/UpdateLayout.astro';
 import Breadcrumb from '../components/zone-nova/Breadcrumb.astro';
-import FormattedDate from '../components/FormattedDate.astro';
-import {
-  highlightUpdateText,
-  highlightUpdateContentArray,
-  highlightTldrArray,
-} from '../utils/zone-nova/update-highlighting.js';
 
 export interface Props {
   updateData: {
     title: string;
     date: string;
     type: string;
-    data?: any; // flexible data object
     tldr?: string[];
     officialUpdate: {
       greeting?: string;
@@ -35,243 +30,120 @@ export interface Props {
 
 const { updateData, seoData } = Astro.props;
 
-// Apply highlighting to update content for better readability
-const highlightedTldr = updateData.tldr ? highlightTldrArray(updateData.tldr) : updateData.tldr;
-const highlightedContent = updateData.officialUpdate.content
-  ? highlightUpdateContentArray(updateData.officialUpdate.content)
-  : updateData.officialUpdate.content;
-const highlightedGreeting = updateData.officialUpdate.greeting
-  ? highlightUpdateText(updateData.officialUpdate.greeting)
-  : updateData.officialUpdate.greeting;
-const highlightedClosing = updateData.officialUpdate.closing
-  ? highlightUpdateText(updateData.officialUpdate.closing)
-  : updateData.officialUpdate.closing;
+const TYPE_LABELS = {
+  maintenance: 'Maintenance',
+  announcement: 'Announcement',
+  recruitment: 'Recruitment',
+  event: 'Event',
+};
+const typeLabel = TYPE_LABELS[updateData.type] || 'Update';
 
-// Security: URL validation function
-function isValidUrl(url: string): boolean {
+// Notice section headers: 【1. ...】 bracketed titles or numbered lines
+function isSectionHeader(text) {
+  return /^【.+】$/.test(text) || /^\d+\.\s+\S/.test(text);
+}
+
+// Short "Label: value" lines (Event Period, Class, Attribute...) get label styling.
+// Long sentences that merely contain a colon must stay body paragraphs.
+function splitKeyValue(text) {
+  if (text.length > 90) return null;
+  const m = text.match(/^([A-Z][A-Za-z ]{1,24}):\s+(\S.*)$/);
+  return m ? { label: `${m[1]}:`, value: m[2] } : null;
+}
+
+const bodyBlocks = (updateData.officialUpdate.content || [])
+  .map(item => (typeof item === 'string' ? item.trim() : ''))
+  .filter(text => text.length > 0)
+  .map(text => {
+    if (isSectionHeader(text)) return { kind: 'header', text };
+    const kv = splitKeyValue(text);
+    if (kv) return { kind: 'kv', ...kv };
+    return { kind: 'p', text };
+  });
+
+// Security: only allow http(s) source links
+function isValidUrl(url) {
   try {
     const urlObj = new URL(url);
-    // Only allow http and https protocols
     return urlObj.protocol === 'http:' || urlObj.protocol === 'https:';
   } catch {
     return false;
   }
 }
-
-// Security: Validate gameUrl if present
-if (updateData.sourceInfo.gameUrl && !isValidUrl(updateData.sourceInfo.gameUrl)) {
-  updateData.sourceInfo.gameUrl = undefined; // Remove invalid URL
-}
-
-// You can also get updateType from the filename
-// const updateType = getUpdateType(Astro.url.pathname);
+const sourceUrl =
+  updateData.sourceInfo.gameUrl && isValidUrl(updateData.sourceInfo.gameUrl)
+    ? updateData.sourceInfo.gameUrl
+    : undefined;
 ---
 
-<ZoneNovaUpdateLayout
-  title={seoData.title}
-  description={seoData.description}
-  gameTitle={updateData.title}
-  showBackButton={true}
-  backButtonHref="/guides/zone-nova/updates/"
-  backButtonText="Back to Updates"
->
+<ZoneNovaUpdateLayout title={seoData.title} description={seoData.description} gameTitle={updateData.title}>
   <Fragment slot="head">
     <style>
-      /* Override layout title glow for update pages */
+      /* Update pages: keep the page title static (news article look) */
       .hero-title,
       .title-only-heading {
         animation: none !important;
       }
-
-      /* Responsive visibility classes */
-      .mobile-only {
-        display: none;
-      }
-
-      .desktop-only {
-        display: block;
-      }
-
-      @media (max-width: 767px) {
-        .mobile-only {
-          display: block;
-        }
-
-        .desktop-only {
-          display: none;
-        }
-      }
     </style>
-
-    <script is:inline>
-      function toggleCollapsible(button) {
-        const section = button.parentElement;
-        const content = section?.querySelector('.collapsible-content');
-
-        if (section && content) {
-          if (section.classList.contains('expanded')) {
-            section.classList.remove('expanded');
-            content.style.maxHeight = '0';
-          } else {
-            section.classList.add('expanded');
-            content.style.maxHeight = content.scrollHeight + 'px';
-          }
-        }
-      }
-
-      // Auto-expand on desktop or if content is short
-      document.addEventListener('DOMContentLoaded', function () {
-        const collapsibleSections = document.querySelectorAll('.collapsible-section');
-
-        collapsibleSections.forEach(section => {
-          const content = section.querySelector('.collapsible-content');
-          const isMobile = window.innerWidth <= 767;
-
-          // Auto-expand if not mobile or if content is short
-          if (content && (!isMobile || content.scrollHeight < 400)) {
-            section.classList.add('expanded');
-            content.style.maxHeight = content.scrollHeight + 'px';
-          }
-        });
-      });
-    </script>
   </Fragment>
 
-  <!-- Breadcrumb Navigation -->
-  <Breadcrumb
-    autoGenerate={true}
-    gameKey="zone-nova"
-    currentPageName={updateData.title}
-    showBackButton={true}
-  />
+  <Breadcrumb autoGenerate={true} gameKey="zone-nova" currentPageName={updateData.title} showBackButton={true} />
 
-  <div class="update-page">
-    <div class="update-container">
-      <!-- TLDR Section -->
-      {
-        highlightedTldr && highlightedTldr.length > 0 && (
-          <section class="content-section tldr-section">
-            <h2 class="section-title">TL;DR</h2>
-            <ul>
-              {highlightedTldr.map(point => (
-                <li set:html={point} />
-              ))}
-            </ul>
-          </section>
-        )
-      }
-
-      <!-- Official Update -->
-      <section class="content-section official-section">
-        <h2 class="section-title">Official Update</h2>
-
-        <!-- Mobile Collapsible Version -->
-        <div class="collapsible-section mobile-only">
-          <button class="collapsible-header" onclick="toggleCollapsible(this)">
-            <span>Full Official Update Details</span>
-            <span class="collapsible-toggle">▼</span>
-          </button>
-          <div class="collapsible-content">
-            <div class="collapsible-inner">
-              {
-                highlightedGreeting && (
-                  <p>
-                    <strong set:html={highlightedGreeting} />
-                  </p>
-                )
-              }
-              {
-                highlightedContent.map((paragraph, index) => {
-                  // Check if paragraph looks like a section header
-                  const isHeader =
-                    paragraph.match(/^[A-Z][^:]*:?\s*$/) || paragraph.match(/^[0-9]+\.\s/);
-                  // Check if paragraph is a numbered event item
-                  const isEventItem = paragraph.match(/^[0-9]+\.\s+Launch\s+/i);
-
-                  return (
-                    <p
-                      class={
-                        isHeader ? 'content-section-header' : isEventItem ? 'event-item-header' : ''
-                      }
-                    >
-                      <span set:html={paragraph} />
-                    </p>
-                  );
-                })
-              }
-            </div>
-          </div>
-        </div>
-
-        <!-- Desktop Version -->
-        <div class="info-card desktop-only">
-          {
-            highlightedGreeting && (
-              <p>
-                <strong set:html={highlightedGreeting} />
-              </p>
-            )
-          }
-          {
-            highlightedContent.map((paragraph, index) => {
-              // Check if paragraph looks like a section header
-              const isHeader =
-                paragraph.match(/^[A-Z][^:]*:?\s*$/) || paragraph.match(/^[0-9]+\.\s/);
-              // Check if paragraph is a numbered event item
-              const isEventItem = paragraph.match(/^[0-9]+\.\s+Launch\s+/i);
-
-              return (
-                <p
-                  class={
-                    isHeader ? 'content-section-header' : isEventItem ? 'event-item-header' : ''
-                  }
-                >
-                  <span set:html={paragraph} />
-                </p>
-              );
-            })
-          }
-        </div>
-      </section>
-
-      <!-- Closing -->
-      {
-        highlightedClosing && (
-          <section class="content-section">
-            <h2 class="section-title">Closing</h2>
-            <div class="info-card">
-              <p set:html={highlightedClosing} />
-            </div>
-          </section>
-        )
-      }
-
-      <!-- Source Information -->
-      <section class="content-section">
-        <h2 class="section-title">Source Information</h2>
-        {
-          updateData.sourceInfo.gameUrl ? (
-            <a
-              href={updateData.sourceInfo.gameUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-              class="source-link"
-            >
-              <div class="info-card source-info-card">
-                <p class="source-text">
-                  Source: <span class="source-name" set:text={updateData.sourceInfo.source} />
-                </p>
-              </div>
-            </a>
-          ) : (
-            <div class="info-card">
-              <p class="source-text">
-                Source: <span class="source-name" set:text={updateData.sourceInfo.source} />
-              </p>
-            </div>
-          )
-        }
-      </section>
+  <article class="zn-article">
+    <div class="zn-article-meta">
+      <span class="zn-article-date" set:text={updateData.date} />
+      <span class="zn-article-type" set:text={typeLabel} />
     </div>
-  </div>
+
+    {
+      updateData.tldr && updateData.tldr.length > 0 && (
+        <section class="zn-article-tldr">
+          <h2 class="zn-article-heading">TL;DR</h2>
+          <ul>
+            {updateData.tldr.map(point => (
+              <li set:text={point} />
+            ))}
+          </ul>
+        </section>
+      )
+    }
+
+    <div class="zn-article-body">
+      {
+        updateData.officialUpdate.greeting && (
+          <p class="zn-article-greeting" set:text={updateData.officialUpdate.greeting} />
+        )
+      }
+      {
+        bodyBlocks.map(block =>
+          block.kind === 'header' ? (
+            <h3 class="zn-article-sub" set:text={block.text} />
+          ) : block.kind === 'kv' ? (
+            <p class="zn-article-kv">
+              <span class="zn-kv-label" set:text={block.label} />
+              <span set:text={block.value} />
+            </p>
+          ) : (
+            <p set:text={block.text} />
+          )
+        )
+      }
+      {
+        updateData.officialUpdate.closing && (
+          <p class="zn-article-closing" set:text={updateData.officialUpdate.closing} />
+        )
+      }
+    </div>
+
+    <div class="zn-article-source">
+      Source:{' '}
+      {
+        sourceUrl ? (
+          <a href={sourceUrl} target="_blank" rel="noopener noreferrer" class="zn-source-link" set:text={updateData.sourceInfo.source} />
+        ) : (
+          <span set:text={updateData.sourceInfo.source} />
+        )
+      }
+    </div>
+  </article>
 </ZoneNovaUpdateLayout>
