@@ -85,4 +85,19 @@ const imageKey = findCharacterImage();
   .ts-char-icon {
     object-fit: contain;
   }
+
+  .ts-char-icon-fallback {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0.25rem;
+    box-sizing: border-box;
+    background: var(--ts-bg-tertiary, #242028);
+    border: 1px dashed var(--ts-border, #2e2838);
+    border-radius: 8px;
+    color: var(--ts-text-muted, #888);
+    font-size: var(--text-3xs, 10px);
+    line-height: 1.3;
+  }
 </style>

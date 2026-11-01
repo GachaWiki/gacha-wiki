@@ -287,6 +287,9 @@ function formatMultiplier(skill: any): string | null {
           )}
         </div>
         {data.btl_power && <div class="ts-cd-bpower">Battle Power: {data.btl_power?.toLocaleString()}</div>}
+        {data.lore?.english && (
+          <div class="ts-cd-lore" set:html={cleanDescription(data.lore.english)} />
+        )}
       </div>
     </div>
 
@@ -324,14 +327,6 @@ function formatMultiplier(skill: any): string | null {
         </section>
       );
     })()}
-
-    <!-- Lore -->
-    {data.lore?.english && (
-      <section class="ts-cd-section">
-        <h2 class="ts-cd-section-title">Lore</h2>
-        <div class="ts-cd-lore" set:html={cleanDescription(data.lore.english)} />
-      </section>
-    )}
 
     <!-- Stats -->
     {data.stats && (

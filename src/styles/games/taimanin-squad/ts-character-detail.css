@@ -96,15 +96,12 @@
   margin: 1.5rem 0 0.75rem;
 }
 
-/* Lore */
+/* Lore: sits inside the header card next to the name and badges */
 .ts-cd-lore {
   color: var(--ts-text-secondary, #d3d3d3);
   font-size: var(--text-md);
   line-height: 1.7;
-  padding: 1rem;
-  background: var(--ts-bg-secondary, #1a171f);
-  border-radius: 10px;
-  border: 1px solid var(--ts-border, #2e2838);
+  margin-top: 0.75rem;
 }
 
 /* Stats Grid */
@@ -393,6 +390,10 @@
     justify-content: center;
   }
 
+  .ts-cd-lore {
+    text-align: left;
+  }
+
   .ts-cd-skill-header {
     flex-wrap: wrap;
   }
@@ -521,6 +522,7 @@
   align-items: center;
   gap: 0.6rem;
   text-decoration: none;
+  color: var(--ts-text-primary, #fff);
   padding: 0.5rem 0.75rem;
   border-radius: 10px;
   background: var(--ts-bg-secondary, #1a171f);
