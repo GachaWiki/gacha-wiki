@@ -2,6 +2,7 @@
 // Taimanin Squad Individual Character Detail Page
 import CharacterDatabaseLayout from '../../../../layouts/taimanin-squad/CharacterDatabaseLayout.astro';
 import { TAIMANIN_SQUAD_CHARACTERS } from '../../../../data/taimanin-squad/characters.js';
+import { TAIMANIN_SQUAD_CHARACTER_ARTISTS } from '../../../../data/taimanin-squad/character-artists.js';
 import '../../../../styles/games/taimanin-squad/ts-character-detail.css';
 import TSCharacterImage from '../../../../components/taimanin-squad/TSCharacterImage.astro';
 import TSTypeIcon from '../../../../components/taimanin-squad/TSTypeIcon.astro';
@@ -31,6 +32,7 @@ try {
 if (!data) return Astro.redirect('/guides/taimanin-squad/characters/');
 
 const charName = data.names?.english || data.name || slug;
+const illustrators = TAIMANIN_SQUAD_CHARACTER_ARTISTS[data.id] || null;
 const pageTitle = `${charName} - Taimanin Squad Wiki | GachaWiki`;
 const pageDescription = `${charName} character guide for Taimanin Squad. Stats, skills, weapons, and evolution data.`;
 
@@ -286,6 +288,9 @@ function formatMultiplier(skill: any): string | null {
             </span>
           )}
         </div>
+        {illustrators && (
+          <div class="ts-cd-artist">Illustrator: <span class="ts-cd-artist-name">{illustrators.join(', ')}</span></div>
+        )}
         {data.btl_power && <div class="ts-cd-bpower">Battle Power: <span class="ts-cd-bpower-value">{data.btl_power?.toLocaleString()}</span></div>}
         {data.lore?.english && (
           <div class="ts-cd-lore" set:html={cleanDescription(data.lore.english)} />

@@ -92,6 +92,16 @@
   font-weight: 600;
 }
 
+.ts-cd-artist {
+  font-size: var(--text-md);
+  color: var(--ts-text-muted, #888);
+}
+
+.ts-cd-artist-name {
+  color: var(--ts-text-primary, #fff);
+  font-weight: 600;
+}
+
 /* Sections */
 .ts-cd-section {
   margin-bottom: 2rem;
