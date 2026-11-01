@@ -6,7 +6,7 @@ export const BUSTY_BURST_TIER_LISTS = {
     name: 'SSR Tier List',
     description:
       'Tier list for SSR characters. Covers general performance across all game modes.',
-    lastUpdated: '2026-10-27',
+    lastUpdated: '2026-11-01',
     tiers: [
       {
         tier: 'SSS',
@@ -15,7 +15,7 @@ export const BUSTY_BURST_TIER_LISTS = {
           description: 'Must-have for beginners',
           color: '#ff6b6b',
         },
-        characters: ['festive_attire_estiriel', 'liesel', 'frey', 'dragon_crusher_medusa', 'messeria', 'top_dancer_messeria', 'sweet-bunny-artia', 'underboob-cheerleader-gemini', 'tempting-naked-apron-diana',
+        characters: ['festive_attire_estiriel', 'frey', 'dragon_crusher_medusa', 'messeria', 'top_dancer_messeria', 'sweet-bunny-artia', 'underboob-cheerleader-gemini', 'tempting-naked-apron-diana',
           // October 2026 Burst FES release (user correction: SSS DPS)
           'elaine',
           // October 2026 The Sun and the Moon release (user: SSS support duo, both work on physical and magic teams)
@@ -46,7 +46,6 @@ export const BUSTY_BURST_TIER_LISTS = {
         characters: [
           'festival_empress_shamshel',
           'elegant_portrait_shamshel',
-          'nerys',
           'artia',
           'estiriel',
           'hildis',
@@ -55,21 +54,14 @@ export const BUSTY_BURST_TIER_LISTS = {
           'hisara',
           'bianca',
           'natasha',
-          'venus',
-          'artemis',
           'queen_of_pies_and_cookies_aphrodia',
           'killer_bikini_theresia',
           'lucie',
           'viatrice',
-          'rui',
-          'slightly-mischievous-devil-luca',
-          'sr_farneria',
           'underboob_cheerleader_vanessa',
-          'sr_gracie',
           'ishtovia',
           'seductive_vampire_soltina',
           'noble_succubus_empress_shamshel',
-          'chocolate-shaty',
           'chocolate-frey',
           'fruit_basket_bianca',
           'lycorys',
@@ -101,32 +93,17 @@ export const BUSTY_BURST_TIER_LISTS = {
           'sobrina',
           'nora',
           'yu_lima_elka',
-          'festive_natasha',
-          'holy_night_succubus_yu_rima_elca',
           'magical_holy_night_festival_kaguya',
           'new_years_calligraphy_pastel',
           'pastel',
-          'overflowing_jubako_lynette',
           'seductive_high_cut_swimsuit_nerys',
-          'epic_fishing_meinias',
-          'sr_azura',
-          'sr_gladys',
-          'nue',
-          'sr_constantia',
-          'sr_veronica',
-          'sr_celestia',
-          'sr_athena',
-          'sr_irina',
           'raguen',
           'soltina',
-          'sr_medusa',
           'elegant_portrait_aysis',
           'golem_summoner_nerys',
-          'want_some_beer_stenrina',
           'the_strongest_witch_shaharl',
           'kaguya',
           'mischievous_mermaid_princess_lorelia',
-          'katisha',
           'magdalena',
           // Summer 2026 wave (rated from kits)
           'bonita',
@@ -142,7 +119,7 @@ export const BUSTY_BURST_TIER_LISTS = {
     name: 'SR Tier List',
     description:
       'Tier list for SR characters in SR Raid mode.',
-    lastUpdated: '2026-10-22',
+    lastUpdated: '2026-11-01',
     tiers: [
       {
         tier: 'SSS',
@@ -175,6 +152,8 @@ export const BUSTY_BURST_TIER_LISTS = {
           'collie',
           'the-bride-of-seduction-ophelio',
           'sarka',
+          // November 2026 list split: SR units moved out of the SSR list, tier letters kept
+          'sr_gracie',
           // October 2026 The Sun and the Moon SR (user correction: S tier)
           'sharik',
         ],
@@ -213,6 +192,9 @@ export const BUSTY_BURST_TIER_LISTS = {
           'beautia',
           'underboob-cheerleader-henrietti',
           'ashley',
+          // November 2026 list split: SR units moved out of the SSR list, tier letters kept
+          'want_some_beer_stenrina',
+          'katisha',
         ],
       },
       {

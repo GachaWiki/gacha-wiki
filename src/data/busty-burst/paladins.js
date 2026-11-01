@@ -250,16 +250,6 @@ export const BUSTY_BURST_PALADINS = [
     tier: 'S',
   },
   {
-    id: 'nerys',
-    characterId: 2042,
-    name: 'Messenger of Stone Soldiers Nerys',
-    fileName: 'Messenge_of_Stone_soldiers_Nerys',
-    rarity: 'SSR',
-    element: 'Wind',
-    role: 'Summoner',
-    tier: 'S',
-  },
-  {
     id: 'soltina',
     characterId: 2047,
     name: 'Soltina',
