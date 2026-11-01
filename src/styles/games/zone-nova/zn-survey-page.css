@@ -41,7 +41,7 @@
 }
 
 .section-description {
-  color: var(--zn-text-secondary);
+  color: var(--zn-text-primary);
   font-family: var(--font-primary);
   font-size: var(--text-lg);
   line-height: var(--leading-relaxed);
@@ -152,7 +152,7 @@
 }
 
 .warning-content {
-  color: var(--zn-text-secondary);
+  color: var(--zn-text-primary);
   font-family: var(--font-primary);
   font-size: var(--text-base);
   line-height: var(--leading-relaxed);

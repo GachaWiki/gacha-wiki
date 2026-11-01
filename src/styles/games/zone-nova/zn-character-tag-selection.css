@@ -60,7 +60,7 @@
   font-size: var(--text-lg);
   font-weight: var(--font-normal);
   line-height: var(--leading-relaxed);
-  color: var(--zn-text-secondary);
+  color: var(--zn-text-primary);
 }
 
 .character-selector {

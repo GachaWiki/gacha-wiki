@@ -77,7 +77,7 @@
 }
 
 .stat-value.rate-up {
-  color: var(--amber-glow);
+  color: var(--zn-text-primary);
   font-size: var(--text-base);
   line-height: var(--leading-relaxed);
   text-align: center;
@@ -88,12 +88,12 @@
 }
 
 .stat-value.ssr {
-  color: #fbbf24;
+  color: var(--zn-text-primary);
   font-weight: var(--font-bold);
 }
 
 .stat-value.sr {
-  color: #a855f7;
+  color: var(--zn-text-primary);
   font-weight: var(--font-bold);
 }
 
@@ -361,7 +361,7 @@
   font-weight: var(--font-semibold);
   line-height: var(--leading-normal);
   letter-spacing: var(--tracking-wide);
-  color: var(--zn-text-secondary);
+  color: var(--amber-glow);
   text-transform: uppercase;
   margin-bottom: 0.25rem;
 }
@@ -372,7 +372,7 @@
   font-weight: var(--font-bold);
   line-height: var(--leading-tight);
   letter-spacing: var(--tracking-normal);
-  color: var(--amber-glow);
+  color: var(--zn-text-primary);
   word-wrap: break-word;
   text-align: center;
 }

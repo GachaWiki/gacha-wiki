@@ -24,7 +24,7 @@
 }
 
 .exp-section-description p {
-  color: var(--zn-text-secondary);
+  color: var(--zn-text-primary);
   font-size: var(--text-base);
   line-height: 1.5;
   margin: 0;
@@ -56,7 +56,7 @@
 }
 
 .exp-subsection-description p {
-  color: var(--zn-text-secondary);
+  color: var(--zn-text-primary);
   font-size: var(--text-md);
   line-height: 1.4;
   margin: 0;
@@ -95,7 +95,7 @@
 .exp-card-title {
   font-size: var(--text-md);
   font-weight: 600;
-  color: var(--zn-text-secondary);
+  color: var(--amber-glow);
   margin-bottom: 0.25rem;
 }
 
@@ -167,7 +167,7 @@
 }
 
 .credit-amount {
-  color: var(--zn-text-secondary);
+  color: var(--zn-text-primary);
 }
 
 /* Table Row Styles */
@@ -228,7 +228,7 @@
 
 .breakthrough-quantity-cell {
   font-weight: 600;
-  color: var(--zn-text-secondary);
+  color: var(--zn-text-primary);
 }
 
 .stone-type-low {
@@ -279,7 +279,7 @@
 }
 
 .calc-label {
-  color: var(--zn-text-secondary);
+  color: var(--amber-glow);
   font-size: var(--text-md);
   font-weight: 500;
   margin-bottom: 0.5rem;
@@ -357,7 +357,7 @@
 }
 
 .rune-label {
-  color: var(--zn-text-secondary);
+  color: var(--amber-glow);
   font-size: var(--text-md);
   font-weight: 500;
   text-transform: uppercase;

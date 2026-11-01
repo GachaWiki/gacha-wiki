@@ -63,7 +63,7 @@
   font-family: var(--font-primary);
   font-size: var(--text-sm);
   font-weight: var(--font-semibold);
-  color: var(--zn-text-secondary);
+  color: var(--amber-glow);
   margin-bottom: 0.5rem;
   text-transform: uppercase;
   letter-spacing: 0.05em;

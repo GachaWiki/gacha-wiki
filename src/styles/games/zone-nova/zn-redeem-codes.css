@@ -305,10 +305,11 @@
 
 .code-label {
   font-size: var(--text-xs);
-  color: var(--zn-text-secondary);
+  color: var(--amber-glow);
   text-transform: uppercase;
   letter-spacing: 1px;
   margin-bottom: 0.25rem;
+  font-weight: 600;
 }
 
 .code-value-display {
@@ -426,13 +427,13 @@
 }
 
 .redeem-instruction-step p {
-  color: var(--zn-text-secondary);
+  color: var(--zn-text-primary);
   margin-bottom: 1.5rem;
   line-height: var(--leading-relaxed);
 }
 
 .redeem-step-list {
-  color: var(--zn-text-secondary);
+  color: var(--zn-text-primary);
   line-height: var(--leading-relaxed);
   margin-bottom: 1.5rem;
 }

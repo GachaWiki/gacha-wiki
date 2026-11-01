@@ -20,7 +20,7 @@
 }
 
 .section-description {
-  color: var(--zn-text-secondary);
+  color: var(--zn-text-primary);
   font-family: var(--font-primary);
   font-size: var(--text-lg);
   line-height: var(--leading-relaxed);
@@ -90,7 +90,7 @@
 }
 
 .survey-meta {
-  color: var(--zn-text-secondary);
+  color: var(--zn-text-primary);
   font-size: var(--text-sm);
   font-weight: var(--font-medium);
   margin: 0;

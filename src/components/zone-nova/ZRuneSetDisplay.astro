@@ -139,7 +139,7 @@ const config = getRuneConfiguration(runeSet);
         </div>
         <div style="margin-top: 0.75rem; text-align: left;">
           {config.runes.map(rune => (
-            <div style="font-size: var(--text-md); color: var(--zn-text-secondary); margin-bottom: 0.5rem;">
+            <div style="font-size: var(--text-md); color: var(--zn-text-primary); margin-bottom: 0.5rem;">
               <strong style="color: var(--zn-primary);">{lookupSet(rune.name)?.name || rune.name.replace('-', ' ')}:</strong>{' '}
               {lookupSet(rune.name)?.twoPiece || rune.effect.replace(/^2-piece:\s*/, '')}
             </div>
@@ -191,19 +191,19 @@ const config = getRuneConfiguration(runeSet);
         </div>
         <div style="margin-top: 0.75rem; text-align: left;">
           {config.mainRune2Piece && (
-            <div style="font-size: var(--text-md); color: var(--zn-text-secondary); margin-bottom: 0.5rem;">
+            <div style="font-size: var(--text-md); color: var(--zn-text-primary); margin-bottom: 0.5rem;">
               <strong style="color: var(--zn-primary);">2-piece ({config.mainRuneName}):</strong>{' '}
               {config.mainRune2Piece.replace(/^2-piece:\s*/, '')}
             </div>
           )}
           {config.mainRune4Piece && (
-            <div style="font-size: var(--text-md); color: var(--zn-text-secondary); margin-bottom: 0.5rem;">
+            <div style="font-size: var(--text-md); color: var(--zn-text-primary); margin-bottom: 0.5rem;">
               <strong style="color: var(--zn-primary);">4-piece ({config.mainRuneName}):</strong>{' '}
               {config.mainRune4Piece.replace(/^4-piece:\s*/, '')}
             </div>
           )}
           {config.secondaryRuneEffect && (
-            <div style="font-size: var(--text-md); color: var(--zn-text-secondary);">
+            <div style="font-size: var(--text-md); color: var(--zn-text-primary);">
               <strong style="color: var(--zn-primary);">2-piece ({config.secondaryRuneName}):</strong>{' '}
               {config.secondaryRuneEffect.replace(/^2-piece:\s*/, '')}
             </div>
@@ -220,7 +220,7 @@ const config = getRuneConfiguration(runeSet);
         <div style="color: var(--zn-text-primary); font-weight: 600; font-size: var(--text-base);">
           {config.name}
         </div>
-        <div style="margin-top: 0.75rem; text-align: left; color: var(--zn-text-secondary);">
+        <div style="margin-top: 0.75rem; text-align: left; color: var(--zn-text-primary);">
           Rune set configuration not recognized
         </div>
       </>

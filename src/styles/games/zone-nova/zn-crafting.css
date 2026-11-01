@@ -23,7 +23,7 @@
 }
 
 .section-description {
-  color: var(--zn-text-secondary);
+  color: var(--zn-text-primary);
   font-size: var(--text-lg);
   line-height: var(--leading-relaxed);
   margin-bottom: 2rem;
@@ -60,7 +60,7 @@
 }
 
 .crafting-card p {
-  color: var(--zn-text-secondary);
+  color: var(--zn-text-primary);
   line-height: var(--leading-relaxed);
   margin-bottom: 1rem;
   font-size: var(--text-base);
@@ -74,7 +74,7 @@
 }
 
 .material-list li {
-  color: var(--zn-text-secondary);
+  color: var(--zn-text-primary);
   padding: 0.5rem 0;
   border-bottom: 1px solid var(--zn-border);
   display: flex;
@@ -148,7 +148,7 @@
 }
 
 .item-info p {
-  color: var(--zn-text-secondary);
+  color: var(--zn-text-primary);
   line-height: var(--leading-relaxed);
   margin: 0;
   font-size: var(--text-lg);

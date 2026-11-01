@@ -88,7 +88,7 @@
 }
 
 .rift-description {
-  color: var(--zn-text-secondary);
+  color: var(--zn-text-primary);
   line-height: var(--leading-relaxed);
   margin-bottom: 0.75rem;
   font-size: var(--text-base);
@@ -120,7 +120,7 @@
 }
 
 .rift-detail-value {
-  color: var(--zn-text-secondary);
+  color: var(--zn-text-primary);
   font-size: var(--text-sm);
 }
 
@@ -241,7 +241,7 @@
 .rift-overview .meta-label {
   font-size: var(--text-sm);
   font-weight: 600;
-  color: var(--zn-text-muted);
+  color: var(--amber-glow);
   flex: 0 0 7.25rem;
 }
 

@@ -52,7 +52,7 @@
 
 .zn-cf-content-section p {
   font-size: var(--text-base);
-  color: var(--zn-text-secondary);
+  color: var(--zn-text-primary);
   line-height: 1.6;
   margin: 1rem 0;
   max-width: none;
@@ -108,7 +108,7 @@
 
 .zn-cf-calculator-content > p {
   font-size: var(--text-sm);
-  color: var(--zn-text-secondary);
+  color: var(--zn-text-primary);
   margin: 0 0 var(--zn-cf-spacing-lg) 0;
   text-align: center;
 }
@@ -227,7 +227,7 @@
 
 .ability-desc {
   font-size: var(--text-sm);
-  color: var(--zn-text-secondary);
+  color: var(--zn-text-primary);
   line-height: 1.4;
 }
 
@@ -483,7 +483,7 @@
 .formula-item p {
   margin: var(--zn-cf-spacing-sm) 0 0 0;
   font-size: var(--text-body);
-  color: var(--zn-text-secondary);
+  color: var(--zn-text-primary);
   line-height: 1.5;
 }
 
@@ -536,7 +536,7 @@
 .chart-header p {
   margin: 0;
   font-size: var(--text-body);
-  color: var(--zn-text-secondary);
+  color: var(--zn-text-primary);
   line-height: 1.5;
 }
 
@@ -577,7 +577,7 @@
 
 .insight-label {
   font-size: var(--text-md);
-  color: var(--zn-text-secondary);
+  color: var(--amber-glow);
   margin-bottom: 0.5rem;
   text-align: center;
   font-weight: 500;
@@ -593,7 +593,7 @@
 
 .insight-value .percentage {
   font-size: var(--text-xs);
-  color: var(--zn-text-secondary);
+  color: var(--zn-text-primary);
   font-weight: 500;
   display: block;
   margin-top: 0.125rem;

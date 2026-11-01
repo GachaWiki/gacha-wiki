@@ -137,8 +137,9 @@
 }
 
 .zn-db-sort-label {
-  color: var(--zn-text-muted);
+  color: var(--amber-glow);
   font-size: var(--text-sm);
+  font-weight: 600;
 }
 
 .zn-db-sort-btn {

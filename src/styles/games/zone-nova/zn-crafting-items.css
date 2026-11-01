@@ -22,7 +22,7 @@
 }
 
 .section-description {
-  color: var(--zn-text-secondary);
+  color: var(--zn-text-primary);
   font-size: var(--text-lg);
   line-height: var(--leading-relaxed);
   margin-bottom: 2rem;
@@ -280,7 +280,7 @@
 }
 
 .sub-stats-table td.value-cell {
-  color: var(--zn-text-secondary);
+  color: var(--zn-text-primary);
   font-style: italic;
   background: rgba(255, 193, 7, 0.1);
 }

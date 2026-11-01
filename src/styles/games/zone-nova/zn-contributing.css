@@ -28,7 +28,7 @@
 }
 
 .contact-card p {
-  color: var(--zn-text-secondary);
+  color: var(--zn-text-primary);
   line-height: 1.6;
   margin-bottom: 1.5rem;
 }

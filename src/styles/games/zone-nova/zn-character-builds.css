@@ -101,13 +101,13 @@
 }
 
 .character-card-class {
-  color: var(--zn-text-secondary);
+  color: var(--zn-text-primary);
   font-size: var(--text-md);
   margin: 0 0 0.1rem 0;
 }
 
 .character-card-faction {
-  color: var(--zn-text-tertiary);
+  color: var(--zn-text-primary);
   font-size: var(--text-md);
   margin: 0;
 }
@@ -182,7 +182,7 @@
 }
 
 .character-card-preview {
-  color: var(--zn-text-secondary);
+  color: var(--zn-text-primary);
   font-size: var(--text-md);
   line-height: 1.4;
   flex: 1;
@@ -256,7 +256,7 @@
 }
 
 .build-character-faction {
-  color: var(--zn-text-secondary);
+  color: var(--zn-text-primary);
   font-size: var(--text-base);
   margin: 0;
 }
@@ -364,7 +364,7 @@
   white-space: nowrap;
 }
 .memory-card-effect {
-  color: var(--zn-text-secondary);
+  color: var(--zn-text-primary);
   font-size: var(--text-md);
   line-height: 1.5;
   margin-bottom: 0.75rem;
@@ -373,7 +373,7 @@
 
 .memory-card-stats {
   font-size: var(--text-sm);
-  color: var(--zn-text-secondary);
+  color: var(--zn-text-primary);
   margin-bottom: 0.5rem;
   padding-top: 0.5rem;
   border-top: 1px solid var(--zn-border);
@@ -484,7 +484,7 @@
 }
 
 .equipment-description {
-  color: var(--zn-text-secondary);
+  color: var(--zn-text-primary);
   font-size: var(--text-md);
   margin: 0;
 }
@@ -510,7 +510,7 @@
 }
 
 .team-synergy-description {
-  color: var(--zn-text-secondary);
+  color: var(--zn-text-primary);
   font-size: var(--text-md);
   line-height: 1.4;
   margin: 0;
@@ -529,7 +529,7 @@
   border-radius: 3px;
   padding: 0.25rem 0.5rem;
   font-size: var(--text-sm);
-  color: var(--zn-text-secondary);
+  color: var(--zn-text-primary);
 }
 
 /* Build tips section */
@@ -723,7 +723,8 @@
 }
 
 .main-stat-options-label {
-  color: var(--zn-text-secondary);
+  color: var(--amber-glow);
+  font-weight: 600;
   font-size: var(--text-md);
   margin-bottom: 0.5rem;
 }
@@ -748,11 +749,11 @@
 
 .main-stat-option:not(.recommended) {
   background-color: var(--zn-bg-tertiary);
-  color: var(--zn-text-secondary);
+  color: var(--zn-text-primary);
 }
 
 .main-stat-description {
-  color: var(--zn-text-secondary);
+  color: var(--zn-text-primary);
   font-style: italic;
   font-size: var(--text-md);
   margin-top: 0.75rem;
@@ -826,7 +827,7 @@
 }
 
 .awakening-effect {
-  color: var(--zn-text-secondary);
+  color: var(--zn-text-primary);
   font-size: var(--text-md);
   line-height: 1.5;
   margin: 0;
