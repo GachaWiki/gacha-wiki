@@ -1081,6 +1081,94 @@ a.bd2-card:active {
   line-height: 1.5;
 }
 
+/* ---------- redeem codes ---------- */
+.bd2-code-title {
+  margin: 1.5rem 0 0.75rem;
+  font-size: var(--text-xl);
+  font-weight: 600;
+  color: var(--bd2-accent-strong);
+}
+
+.bd2-code-card {
+  background: var(--bd2-bg-tertiary);
+  border: 1px solid var(--bd2-border);
+  border-radius: 12px;
+  padding: 1.25rem;
+  margin-bottom: 1.25rem;
+}
+
+.bd2-code-line {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.bd2-code-value {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: var(--text-2xl);
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  color: var(--bd2-accent-strong);
+}
+
+.bd2-copy-btn {
+  background: var(--bd2-accent);
+  color: #171209;
+  border: 1px solid var(--bd2-accent);
+  border-radius: 8px;
+  padding: 8px 14px;
+  font-size: var(--text-sm);
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.bd2-code-period {
+  margin: 8px 0 0;
+  font-size: var(--text-sm);
+  color: var(--bd2-text-dim);
+}
+
+.bd2-code-img {
+  display: block;
+  width: 380px;
+  max-width: 100%;
+  height: auto;
+  margin-top: 12px;
+  border-radius: 8px;
+  border: 1px solid var(--bd2-border);
+}
+
+.bd2-code-source {
+  margin: 10px 0 0;
+  font-size: var(--text-xs);
+}
+
+.bd2-code-source a {
+  color: var(--bd2-link);
+}
+
+.bd2-code-steps,
+.bd2-code-expired {
+  margin: 0;
+  padding-left: 1.2rem;
+  font-size: var(--text-sm);
+  line-height: 1.7;
+}
+
+.bd2-code-steps a {
+  color: var(--bd2-link);
+}
+
+.bd2-code-expired {
+  color: var(--bd2-text-dim);
+}
+
+.bd2-code-expired-value {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-weight: 700;
+}
+
 /* ---------- community tier list (standard tier rows: label + tiles) ---------- */
 .bd2-tier-row {
   display: flex;

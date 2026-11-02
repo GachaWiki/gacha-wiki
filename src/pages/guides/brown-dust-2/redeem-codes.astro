@@ -1,0 +1,103 @@
+---
+// Brown Dust 2 redeem codes: current official coupon codes with a copy button,
+// how to redeem per platform, and past codes. Codes come from the official
+// news feed (see src/data/brown-dust-2/codes.js for the update rule).
+import GameLayout from '../../../layouts/brown-dust-2/GameLayout.astro';
+import { BD2_CODES } from '../../../data/brown-dust-2/codes.js';
+---
+
+<GameLayout
+  title="Brown Dust 2 Redeem Codes: Current Coupon Codes"
+  description={`Brown Dust 2 redeem codes: the current official coupon code (${BD2_CODES.active[0].code}) with its redemption period, how to redeem on Android, iOS and PC, and past codes.`}
+  crumbName="Redeem Codes"
+  pageTitle="Redeem Codes"
+>
+  <div class="bd2-content-section">
+    <p class="bd2-updates-intro">
+      Official coupon codes from the game's news feed. A new monthly code is
+      posted at the end of each month and runs to the end of the next month (UTC).
+      Each code works once per account and the rewards go to your in-game inbox.
+    </p>
+
+    <h2 class="bd2-code-title">Active codes</h2>
+    {BD2_CODES.active.map((c) => (
+      <div class="bd2-code-card">
+        <div class="bd2-code-line">
+          <span class="bd2-code-value">{c.code}</span>
+          <button class="bd2-copy-btn" type="button" data-code={c.code}>Copy code</button>
+        </div>
+        <p class="bd2-code-period">Valid {c.period}.</p>
+        {c.image && (
+          <img
+            class="bd2-code-img"
+            src={c.image}
+            alt="Official coupon reward announcement"
+            width="1280"
+            height="1280"
+            loading="lazy"
+          />
+        )}
+        <p class="bd2-code-source">
+          Source:
+          <a href={c.source} target="_blank" rel="noopener noreferrer">official coupon post</a>
+        </p>
+      </div>
+    ))}
+
+    <h2 class="bd2-code-title">How to redeem</h2>
+    <ul class="bd2-code-steps">
+      <li>Android: open the game, go to [Other] &gt; [Register Coupon] and enter the code.</li>
+      <li>
+        iOS and PC: use the
+        <a href={BD2_CODES.redeemPage} target="_blank" rel="noopener noreferrer">official coupon redemption page</a>,
+        enter the code and your in-game name, and the rewards go to that account's inbox.
+      </li>
+      <li>Rewards are sent to the in-game name you provide, so enter it exactly.</li>
+    </ul>
+
+    <h2 class="bd2-code-title">Expired codes</h2>
+    <p class="bd2-updates-intro">
+      The full official code history since launch, newest first. Monthly codes
+      run from the last day of the previous month to the end of their month (UTC).
+    </p>
+    <ul class="bd2-code-expired">
+      {BD2_CODES.expired.map((c) => (
+        <li>
+          <span class="bd2-code-expired-value">{c.code}</span>,
+          {c.reward ? ` ${c.reward},` : ''} {c.period}
+        </li>
+      ))}
+    </ul>
+
+    <p class="bd2-updates-intro" style="margin-top: 1.25rem;">
+      Last checked {BD2_CODES.lastUpdated}. New codes appear in the official news
+      feed around the end of each month.
+    </p>
+  </div>
+</GameLayout>
+
+<script is:inline>
+  // Copy the code to the clipboard and confirm on the button itself.
+  (function () {
+    document.querySelectorAll('.bd2-copy-btn').forEach(function (btn) {
+      btn.addEventListener('click', function () {
+        var code = btn.getAttribute('data-code');
+        function done() {
+          btn.textContent = 'Copied';
+          setTimeout(function () { btn.textContent = 'Copy code'; }, 1500);
+        }
+        if (navigator.clipboard && navigator.clipboard.writeText) {
+          navigator.clipboard.writeText(code).then(done, done);
+        } else {
+          var ta = document.createElement('textarea');
+          ta.value = code;
+          document.body.appendChild(ta);
+          ta.select();
+          try { document.execCommand('copy'); } catch (e) { /* clipboard unavailable */ }
+          document.body.removeChild(ta);
+          done();
+        }
+      });
+    });
+  })();
+</script>
