@@ -4,7 +4,6 @@
 // No highlighting, no nested cards: title + meta, TL;DR, flowing article body.
 import ZoneNovaUpdateLayout from '../layouts/zone-nova/UpdateLayout.astro';
 import Breadcrumb from '../components/zone-nova/Breadcrumb.astro';
-import { zoneNovaUpdates } from '../data/zone-nova/updates.js';
 
 export interface Props {
   updateData: {
@@ -71,17 +70,6 @@ function isValidUrl(url) {
     return false;
   }
 }
-// Newer/older navigation (registry is newest-first)
-const currentPath = Astro.url.pathname;
-const registryIndex = zoneNovaUpdates.findIndex(
-  u => u.url === currentPath || u.url === currentPath.replace(/\/+$/, '') || `${u.url}` === `${currentPath}/`
-);
-const newerUpdate = registryIndex > 0 ? zoneNovaUpdates[registryIndex - 1] : null;
-const olderUpdate =
-  registryIndex !== -1 && registryIndex < zoneNovaUpdates.length - 1
-    ? zoneNovaUpdates[registryIndex + 1]
-    : null;
-
 const sourceUrl =
   updateData.sourceInfo.gameUrl && isValidUrl(updateData.sourceInfo.gameUrl)
     ? updateData.sourceInfo.gameUrl
@@ -101,9 +89,8 @@ const sourceUrl =
 
   <Breadcrumb autoGenerate={true} gameKey="zone-nova" currentPageName={updateData.title} showBackButton={true} />
 
-  <article class="zn-article">
-    <a class="zn-article-back" href="/guides/zone-nova/updates/">All updates</a>
-
+  <section class="content-section">
+    <article class="zn-article">
     <div class="zn-article-head">
       <div class="zn-article-meta">
         <span class="zn-article-type" set:text={typeLabel} />
@@ -161,21 +148,6 @@ const sourceUrl =
       }
     </div>
 
-    <div class="zn-article-nav">
-      {
-        newerUpdate ? (
-          <a href={newerUpdate.url}>Newer: {newerUpdate.title}</a>
-        ) : (
-          <span class="zn-article-nav-empty">Newest post</span>
-        )
-      }
-      {
-        olderUpdate ? (
-          <a href={olderUpdate.url}>Older: {olderUpdate.title}</a>
-        ) : (
-          <span class="zn-article-nav-empty">Oldest post</span>
-        )
-      }
-    </div>
-  </article>
+    </article>
+  </section>
 </ZoneNovaUpdateLayout>
