@@ -204,7 +204,7 @@ function renderTeams() {
             <div class="zn-team-member">
               <img src="${teamImgSrc(char.image)}" alt="${char.name}" class="zn-team-member-img" loading="lazy" width="64" height="64" />
               <span class="zn-team-member-name">${char.name}</span>
-              ${element ? `<span class="character-element">${element}</span>` : ''}
+              ${element ? `<span class="character-element"><span class="zn-text-${element.toLowerCase()}">${element}</span></span>` : ''}
             </div>
           `;
           })

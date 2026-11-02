@@ -130,7 +130,8 @@ import '../../../styles/games/zone-nova/zn-character.css';
               <div class="character-info">
                 <h3>{char.name}</h3>
                 <p class="character-meta">
-                  {[char.rarity, char.class, char.faction].filter(Boolean).join(', ')}
+                  <span class={`zn-text-${char.rarity.toLowerCase()}`}>{char.rarity}</span>
+                  {[char.class, char.faction].filter(Boolean).map(v => `, ${v}`)}
                 </p>
                 <div class="character-stats" aria-label="Character max statistics">
                   <div class="stat-item">

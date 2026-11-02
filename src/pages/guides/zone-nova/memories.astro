@@ -115,7 +115,9 @@ const getImageFilename = (imagePath: string): string => {
                       />
                     </td>
                     <td>{memory.name}</td>
-                    <td data-sort-key="rarity">{memory.rarity}</td>
+                    <td data-sort-key="rarity">
+                      <span class={`zn-text-${memory.rarity.toLowerCase()}`}>{memory.rarity}</span>
+                    </td>
                     <td style="text-align: center; vertical-align: middle;">
                       {(() => {
                         const memoryClass = getMemoryClass(memory);
@@ -171,7 +173,8 @@ const getImageFilename = (imagePath: string): string => {
                       const memoryClass = getMemoryClass(memory);
                       return (
                         <p class="mobile-card-meta">
-                          {memoryClass ? `${memory.rarity}, ${memoryClass}` : memory.rarity}
+                          <span class={`zn-text-${memory.rarity.toLowerCase()}`}>{memory.rarity}</span>
+                          {memoryClass ? `, ${memoryClass}` : ''}
                         </p>
                       );
                     })()}

@@ -51,8 +51,12 @@ import { ZONE_NOVA_CHARACTERS } from '../../data/zone-nova/characters.js';
               </div>
             </td>
             <td>{char.name}</td>
-            <td data-sort-key="rarity">{char.rarity}</td>
-            <td data-sort-key="element">{char.element}</td>
+            <td data-sort-key="rarity">
+              <span class={`zn-text-${char.rarity.toLowerCase()}`}>{char.rarity}</span>
+            </td>
+            <td data-sort-key="element">
+              <span class={`zn-text-${char.element.toLowerCase()}`}>{char.element}</span>
+            </td>
             <td style="text-align: center; vertical-align: middle;">
               <ZNClassImage
                 className={char.class}

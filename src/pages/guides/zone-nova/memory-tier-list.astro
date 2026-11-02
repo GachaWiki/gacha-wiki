@@ -88,7 +88,9 @@ const classSections = getGroupedMemorySections();
                           </div>
                           <div class="tl-char-name">{memory.name}</div>
                           <div class="tl-char-meta">
-                            {memory.rarity && <>{memory.rarity}</>}
+                            {memory.rarity && (
+                              <span class={`zn-text-${memory.rarity.toLowerCase()}`}>{memory.rarity}</span>
+                            )}
                             {memory.character && <span>, {memory.character}</span>}
                           </div>
                         </div>
@@ -134,7 +136,7 @@ const classSections = getGroupedMemorySections();
               </div>
               <div class="tl-pool-name">{memory.name}</div>
               <div class="tl-char-meta">
-                {memory.rarity}
+                <span class={`zn-text-${memory.rarity.toLowerCase()}`}>{memory.rarity}</span>
                 {memory.character && <span>, {memory.character}</span>}
               </div>
             </div>

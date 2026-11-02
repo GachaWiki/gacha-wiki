@@ -7,6 +7,7 @@ import {
   TIER_ORDER,
   getGroupedTierSections,
   getRoleHighlights,
+  RECOMMENDED_PAIRS,
 } from '../../../data/zone-nova/tier-lists.js';
 import { ZNCharacterImage, ZNClassImage } from '../../../components/zone-nova/index.astro';
 
@@ -69,6 +70,59 @@ structuredListTypes.forEach(listType => {
         <p class="tl-updated" id="list-updated">Last updated: {ALL_TIER_LISTS.pve.lastUpdated}</p>
       </div>
 
+      <!-- Recommended Pairs -->
+      {
+        RECOMMENDED_PAIRS.length > 0 && (
+          <section class="tl-pairs">
+            <p class="tl-rune-note">
+              Note: when building character runes, always choose the % percentage option over flat.
+              Even if you needed ATK for a DPS but got HP or DEF %, they give more value than flat
+              by quite a bit. For DPS choose HP %, it is the best defense, even for tanks.
+            </p>
+            <h3 class="tl-pairs-title">Recommended Pairs</h3>
+            <div class="tl-pairs-row">
+            {RECOMMENDED_PAIRS.map(pair => (
+              <div class="tl-pair">
+                {pair.title && <div class="tl-pair-title">{pair.title}</div>}
+                <div class="tl-pair-members">
+                  {pair.characters.map((name, i) => {
+                    const c = characterMap[name];
+                    return (
+                      <>
+                        {i > 0 && <span class="tl-pair-plus">+</span>}
+                        {c && (
+                          <a class="tl-pair-member" href={c.detailUrl}>
+                            <ZNCharacterImage
+                              imageName={c.image}
+                              alt={c.name}
+                              width={64}
+                              height={64}
+                              loading="lazy"
+                              quality={90}
+                              format="webp"
+                            />
+                            <span class="tl-pair-member-info">
+                              <span class="tl-pair-member-name">{c.name}</span>
+                              <span class="tl-pair-member-meta">
+                                <span class={`zn-text-${c.rarity.toLowerCase()}`}>{c.rarity}</span>
+                                {c.element && (
+                                  <span class={`zn-text-${c.element.toLowerCase()}`}>, {c.element}</span>
+                                )}
+                              </span>
+                            </span>
+                          </a>
+                        )}
+                      </>
+                    );
+                  })}
+                </div>
+              </div>
+            ))}
+            </div>
+          </section>
+        )
+      }
+
       <!-- Structured Tier Displays -->
       {structuredListTypes.map(listType => (
         <div
@@ -121,8 +175,12 @@ structuredListTypes.forEach(listType => {
                                 </div>
                                 <div class="tl-char-name">{charData.name}</div>
                                 <div class="tl-char-meta">
-                                  {charData.rarity && <>{charData.rarity}</>}
-                                  {charData.element && <>, {charData.element}</>}
+                                  {charData.rarity && (
+                                    <span class={`zn-text-${charData.rarity.toLowerCase()}`}>{charData.rarity}</span>
+                                  )}
+                                  {charData.element && (
+                                    <span class={`zn-text-${charData.element.toLowerCase()}`}>, {charData.element}</span>
+                                  )}
                                 </div>
                               </div>
                             );
@@ -137,6 +195,7 @@ structuredListTypes.forEach(listType => {
           </div>
         </div>
       ))}
+
     </div>
 
     <!-- Maker Mode Content -->
@@ -172,8 +231,8 @@ structuredListTypes.forEach(listType => {
               </div>
               <div class="tl-pool-name">{char.name}</div>
               <div class="tl-char-meta">
-                {char.rarity}
-                {char.element && <>, {char.element}</>}
+                <span class={`zn-text-${char.rarity.toLowerCase()}`}>{char.rarity}</span>
+                {char.element && <span class={`zn-text-${char.element.toLowerCase()}`}>, {char.element}</span>}
               </div>
             </div>
           ))}
@@ -371,7 +430,7 @@ structuredListTypes.forEach(listType => {
             <img src="${poolCard.querySelector('img').src}" alt="${characterName}" loading="lazy" />
           </div>
           <div class="tl-char-name">${characterName}</div>
-          <div class="tl-char-meta">${charData?.rarity || 'SR'}${charData?.element ? `, ${elementName}` : ''}</div>
+          <div class="tl-char-meta"><span class="zn-text-${(charData?.rarity || 'SR').toLowerCase()}">${charData?.rarity || 'SR'}</span>${charData?.element ? `, <span class="zn-text-${charData.element.toLowerCase()}">${elementName}</span>` : ''}</div>
           <button class="tl-remove-btn" title="Remove from tier">&times;</button>
         `;
 

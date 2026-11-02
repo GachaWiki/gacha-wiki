@@ -40,6 +40,12 @@ export const TIER_DEFINITIONS = {
 
 export const TIER_ORDER = Object.keys(TIER_DEFINITIONS);
 export const ROLE_ORDER = ['Healer', 'Supporter', 'Disruptor', 'Tank', 'DPS'];
+
+// Duos that work well together (user-driven verdicts; extend as pairs land).
+export const RECOMMENDED_PAIRS = [
+  { title: 'Crit Damage Build', characters: ['Nephthys', 'Sharin'] },
+  { title: 'Universally Good', characters: ['Tamamo-no-Mae', 'Medusa'] },
+];
 // Game class order (Tank=1 … Healer=7, matches character_data_info enum)
 export const CLASS_ORDER = [
   'Tank',
