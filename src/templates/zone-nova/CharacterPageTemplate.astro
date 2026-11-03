@@ -13,6 +13,7 @@ import {
 } from '../../utils/zone-nova/skill-highlighting.js';
 import { BUFF_EXPLANATIONS } from '../../data/zone-nova/memories.js';
 import { getCharGallery } from '../../data/zone-nova/char-galleries.js';
+import { CUTE_AVATARS } from '../../data/zone-nova/avatars.js';
 
 interface Props {
   characterData: any;
@@ -23,6 +24,9 @@ const { characterData } = Astro.props;
 // URL slug of this character page (e.g. /guides/zone-nova/characters/erika/ → erika).
 // Matches the index's slug/detailUrl.
 const currentSlug = Astro.url.pathname.replace(/\/+$/, '').split('/').pop() ?? '';
+
+// Profile chibi avatar (only characters that have one in the game)
+const cuteAvatar = CUTE_AVATARS[currentSlug];
 
 // Story event artwork for this character (R2 gallery), if any exists
 const gallery = getCharGallery(currentSlug);
@@ -123,7 +127,7 @@ function renderSkillWithState(skill, highlightedSkill) {
           {characterData.name}
         </h1>
         <p class="character-class-info">
-          {characterData.rarity}
+          <span class={`zn-text-${characterData.rarity.toLowerCase()}`}>{characterData.rarity}</span>
           {characterData.class}
         </p>
         <p class="character-faction-info">
@@ -146,16 +150,37 @@ function renderSkillWithState(skill, highlightedSkill) {
           </div>
           <div class="character-info-item">
             <div class="character-info-label">Rarity</div>
-            <div class="character-info-value">{characterData.rarity}</div>
+            <div class="character-info-value">
+              <span class={`zn-text-${characterData.rarity.toLowerCase()}`}>{characterData.rarity}</span>
+            </div>
           </div>
           <div class="character-info-item">
             <div class="character-info-label">Element</div>
-            <div class="character-info-value">{characterData.element}</div>
+            <div class="character-info-value">
+              <span class={`zn-text-${characterData.element.toLowerCase()}`}>{characterData.element}</span>
+            </div>
           </div>
           <div class="character-info-item">
             <div class="character-info-label">Role</div>
             <div class="character-info-value">{characterData.role || 'TBA'}</div>
           </div>
+          {
+            cuteAvatar && (
+              <div class="character-info-item">
+                <div class="character-info-label">Avatar</div>
+                <div class="character-info-value">
+                  <img
+                    class="character-cute-avatar"
+                    src={cuteAvatar}
+                    alt={`${characterData.name} profile avatar`}
+                    width={56}
+                    height={56}
+                    loading="lazy"
+                  />
+                </div>
+              </div>
+            )
+          }
           <div class="faction-section">
             <div class="character-info-label">Faction</div>
             <div class="character-info-value">

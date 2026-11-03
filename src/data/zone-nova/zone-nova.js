@@ -78,6 +78,7 @@ export const zoneNovaConfig = {
       description: 'Utility tools, codes, and game information',
       size: 'medium',
       guides: [
+        { id: 'beginner-guide', title: 'Beginner Guide', url: '/guides/zone-nova/beginner-guide/' },
         { id: 'clock', title: 'Clock', url: '/clock/zone-nova/' },
         { id: 'redeem-codes', title: 'Redeem Codes', url: '/guides/zone-nova/redeem-codes/' },
         { id: 'summon-faq', title: 'Summon FAQ', url: '/guides/zone-nova/summon-faq/' },

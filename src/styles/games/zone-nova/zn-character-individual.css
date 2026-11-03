@@ -136,6 +136,15 @@
   font-size: var(--text-md);
 }
 
+/* Profile chibi avatar in the info grid */
+.character-cute-avatar {
+  display: block;
+  width: 56px;
+  height: 56px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
 /* Plain-text values in the character info grid (badges removed) */
 .character-info-value {
   color: var(--zn-text-primary);

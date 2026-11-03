@@ -145,6 +145,17 @@
   transition: all 0.2s ease;
 }
 
+.zn-resource-icon {
+  width: 28px;
+  height: 28px;
+  border-radius: 6px;
+  flex-shrink: 0;
+}
+
+.zn-resource-button {
+  gap: 0.5rem;
+}
+
 .guide-card-link {
   text-decoration: none;
   color: inherit;

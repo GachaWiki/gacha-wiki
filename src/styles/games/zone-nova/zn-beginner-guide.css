@@ -1,0 +1,156 @@
+/* Zone Nova beginner guide (community guide by Tekvorian): news-style article layout */
+
+.zguide-section {
+  background: var(--zn-bg-secondary);
+  border-radius: 14px;
+  padding: 2rem;
+  margin-bottom: 2rem;
+}
+
+.zguide-title {
+  color: var(--amber-glow);
+  font-weight: 700;
+  font-size: var(--text-xl);
+  margin: 0 0 1rem;
+}
+
+.zguide-subtitle {
+  color: var(--amber-glow);
+  font-weight: 600;
+  font-size: var(--text-md);
+  margin: 1.5rem 0 0.5rem;
+}
+
+.zguide-section p {
+  color: var(--zn-text-primary);
+  font-size: var(--text-md);
+  line-height: 1.7;
+  margin: 0 0 0.9rem;
+}
+
+.zguide-section p:last-child {
+  margin-bottom: 0;
+}
+
+.zguide-section ul,
+.zguide-section ol {
+  margin: 0 0 0.9rem;
+  padding-left: 1.4rem;
+}
+
+.zguide-section li {
+  color: var(--zn-text-primary);
+  font-size: var(--text-md);
+  line-height: 1.7;
+  margin-bottom: 0.4rem;
+}
+
+.zguide-section a {
+  color: var(--amber-glow);
+  text-decoration: underline;
+}
+
+/* glossary / shop entries */
+.zguide-def {
+  margin-bottom: 0.9rem;
+}
+
+.zguide-def-term {
+  color: var(--amber-glow);
+  font-weight: 600;
+  font-size: var(--text-md);
+  margin: 0 0 0.15rem;
+}
+
+.zguide-def-desc {
+  color: var(--zn-text-primary);
+  font-size: var(--text-md);
+  line-height: 1.6;
+  margin: 0;
+}
+
+.zguide-note {
+  color: var(--zn-text-muted);
+  font-size: var(--text-sm);
+  font-style: italic;
+  margin: 0.4rem 0 0.9rem;
+}
+
+/* table of contents */
+.zguide-toc {
+  columns: 2;
+  column-gap: 2rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.zguide-toc li {
+  margin-bottom: 0.45rem;
+  break-inside: avoid;
+}
+
+/* author credit */
+.zguide-corner-chibi {
+  float: right;
+  width: 72px;
+  margin: 0 0 0.75rem 1rem;
+  border-radius: 10px;
+  background: var(--zn-bg-tertiary);
+}
+
+.zguide-chibi-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin: 1rem 0 0.4rem;
+}
+
+.zguide-chibi-row img {
+  width: 56px;
+  height: 56px;
+  border-radius: 8px;
+  background: var(--zn-bg-tertiary);
+}
+
+.zguide-inline-icon {
+  vertical-align: middle;
+  margin: 0 0.2rem;
+}
+
+.zguide-cover {
+  float: right;
+  width: 220px;
+  max-width: 45%;
+  margin: 0 0 1rem 1.5rem;
+  border-radius: 10px;
+}
+
+.zguide-credit {
+  color: var(--zn-text-muted);
+  font-size: var(--text-sm);
+  margin: 0 0 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--zn-border);
+}
+
+@media (max-width: 640px) {
+  .zguide-corner-chibi {
+    width: 56px;
+  }
+
+  .zguide-cover {
+    float: none;
+    display: block;
+    width: 180px;
+    margin: 0 auto 1rem;
+  }
+
+  .zguide-section {
+    padding: 1.25rem;
+  }
+
+  .zguide-toc {
+    columns: 1;
+  }
+}

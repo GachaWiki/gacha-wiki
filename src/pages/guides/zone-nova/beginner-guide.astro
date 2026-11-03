@@ -1,0 +1,999 @@
+---
+// Zone Nova beginner guide: community-written overview by Tekvorian [BUZZ],
+// transcribed from their Discord post (October 31, 2026) with their permission.
+import ZoneNovaLayout from '../../../layouts/zone-nova/LandingLayout.astro';
+import '../../../styles/games/zone-nova/zn-beginner-guide.css';
+---
+
+<ZoneNovaLayout
+  title="Zone Nova Beginner Guide - GachaWiki"
+  description="Community beginner guide for Zone Nova: battles, arena, gacha, shops, guild, characters, runes crafting, and everything a new captain needs."
+  gameTitle="Beginner Guide"
+>
+  <section class="zguide-section">
+    <img
+      class="zguide-cover"
+      src="https://k2b1c5ab57ed98e51.gachawiki.info/zone-nova/beginner-guide/newbie-guide.webp"
+      alt="Zone Nova Halloween event artwork of Mila"
+      width={510}
+      height={500}
+      loading="eager"
+    />
+    <p class="zguide-credit">
+      Community guide by Tekvorian [BUZZ] from the Zone Nova Discord, written October 31, 2026.
+    </p>
+    <p>
+      From a newbie, for newbies: an overview of important, consolidated information. The goal is
+      to find the latest information in a very fast way to save time. More information will be
+      added as the author goes and learns the game. Feedback is welcome.
+    </p>
+  </section>
+
+  <section class="zguide-section">
+    <h2 class="zguide-title">Contents</h2>
+    <ul class="zguide-toc">
+      <li><a href="#websites">Main Websites and Servers</a></li>
+      <li><a href="#battles">Battles Screen</a></li>
+      <li><a href="#arena">Pinnacle Arena</a></li>
+      <li><a href="#glossary">Glossary</a></li>
+      <li><a href="#profile">Player Profile</a></li>
+      <li><a href="#market">Market and Battle Pass (P2W)</a></li>
+      <li><a href="#gacha">Gacha</a></li>
+      <li><a href="#shops">Shops</a></li>
+      <li><a href="#events">Events</a></li>
+      <li><a href="#missions">Daily, Weekly and Monthly Missions</a></li>
+      <li><a href="#bag">Items Bag</a></li>
+      <li><a href="#guild">Guild</a></li>
+      <li><a href="#guild-wars">Guild Wars</a></li>
+      <li><a href="#characters">Characters</a></li>
+      <li><a href="#runes">Runes Crafting</a></li>
+    </ul>
+  </section>
+
+  <section class="zguide-section" id="websites">
+      <img
+        class="zguide-corner-chibi"
+        src="https://k2b1c5ab57ed98e51.gachawiki.info/zone-nova/avatars/4050-cute.png"
+        alt="Erika chibi avatar"
+        width=72
+        height=72
+        loading="lazy"
+      />
+    <h2 class="zguide-title">Main Websites</h2>
+    <ul>
+      <li>
+        Wiki:
+        <a href="/guides/zone-nova/">gachawiki.info/guides/zone-nova</a>. Characters, tier lists,
+        combat information, progression information, resources. Updated regularly with each Zone
+        Nova patch.
+      </li>
+      <li>
+        Zone Nova Timers and Server Resets:
+        <a href="/clock/zone-nova/">gachawiki.info/clock/zone-nova</a>. Daily reset at the
+        specified time in the link, weekly reset every Sunday, monthly reset every 1st of each
+        month.
+      </li>
+      <li>
+        Official Nutaku Help Page:
+        <a
+          href="https://nutakupublishing.helpshift.com/hc/en/87-zone-nova/"
+          target="_blank"
+          rel="noopener noreferrer">nutakupublishing.helpshift.com</a>.
+      </li>
+    </ul>
+
+    <h3 class="zguide-subtitle">Servers</h3>
+    <p>
+      There are currently 3 servers (as of Nov. 2026; you cannot use an account from one server
+      for the other):
+    </p>
+    <ul>
+      <li>EroLabs (Web, mobile, PC)</li>
+      <li>Nutaku (1 month behind in content. Web, mobile, PC)</li>
+      <li>Steam (1 year behind in content, PC only)</li>
+    </ul>
+  </section>
+
+  <section class="zguide-section" id="battles">
+      <img
+        class="zguide-corner-chibi"
+        src="https://k2b1c5ab57ed98e51.gachawiki.info/zone-nova/avatars/4030-cute.png"
+        alt="Hiyori chibi avatar"
+        width=72
+        height=72
+        loading="lazy"
+      />
+    <h2 class="zguide-title">Battles Screen</h2>
+
+    <h3 class="zguide-subtitle">Idle Rewards</h3>
+    <p>
+      Get aether points and bonding items for free. Maximum time limit: 24h. You can collect at
+      any time you want. The rarity and size of the rewards depend on your story mode
+      progression.
+    </p>
+    <p>
+      Use the free daily "Quick" rewards button for an additional 120 minutes of idle rewards.
+      Usually, it is not worth it to invest Luminite for more!
+    </p>
+
+    <h3 class="zguide-subtitle">Arena</h3>
+    <p>
+      PvP area. Fights are done automatically. You can only set up the team, ultimate order and
+      select the opponent (5 tries each day). For more details see the Pinnacle Arena section
+      below.
+    </p>
+    <p>
+      You earn "Arena Coins" that you can use to buy items in the "Arena Shop". Make sure to
+      worship the current champion for a free 50 Luminites reward.
+    </p>
+
+    <h3 class="zguide-subtitle">Raid</h3>
+    <p>
+      This has 4 categories: Raid, Annihilation Battle (AB), Temporal Rift, Trial.
+    </p>
+    <ul>
+      <li>
+        Raid: Invest stamina to gain various resources. Use as needed to progress your
+        characters. Also, this is the place when some missions ask you to do "resource raid",
+        "veteran raid" or "rune raid". Tip: you can increase the challenge attempts to do several
+        of them in one go. Saves lots of time.
+      </li>
+      <li>
+        AB: Do as much damage as possible to a PvE boss within a time limit. 20x reward chests is
+        the maximum (10M damage?). Then you can use the daily "sweep" to immediately claim the
+        20x chests three times without battle. Use the coins to buy resources in the shop.
+      </li>
+      <li>Temporal Rift: Fight enemies with increasing difficulty for rewards.</li>
+      <li>
+        Rift Invasion (15 stages, stage 10+ requires 2 full teams instead of 1 team) is
+        permanently available. Rift Surges (10 stages each, 2 full teams required) have a 2 week
+        time limit (see the wiki for more details). Rift Laws apply that give active effects
+        during battle. Click on the "Details" button to learn about the Rift Laws. Build your
+        team accordingly!
+      </li>
+      <li>
+        Trial: Fight enemies with increasing difficulty for rewards.
+        <ul>
+          <li>
+            Adversity Trial: Permanently available. Trial of Freedom has no character
+            restrictions. The other 4 trials have a limited 3 daily attempts and character
+            restrictions. Note that these trials are also needed to complete some missions, so do
+            them when you can!
+          </li>
+          <li>
+            Trial of Bravery: 2 week limited event with character restrictions. The enemies are
+            very tanky and there are active special effects. Click on "View Details" inside the
+            Trial of Bravery window to see them. Build your team accordingly! More details on the
+            wiki (note: Nutaku is 2 weeks behind EroLabs).
+          </li>
+        </ul>
+      </li>
+    </ul>
+
+    <h3 class="zguide-subtitle">Story Mode Battle</h3>
+    <p>
+      Main source for account XP. Provides additional rewards. Increases rarity and size of
+      "Idle Rewards". As of Nov. 2026, the maximum story mode chapter is Ch. 68-9.
+    </p>
+    <p>
+      Enemy: Shows the enemy lineup, recommended damage types for your team and rewards for the
+      next story mode battle.
+    </p>
+
+    <h3 class="zguide-subtitle">Team</h3>
+    <p>
+      Shows the currently active team. A team consists of 4 characters and max 1 instance of a
+      specific character. You can set up to 8 teams.
+    </p>
+    <p>
+      The order of characters is important and can be changed. The first character is controlled
+      by the player (keyboard: use WASD for movement, mouse for ultimates, Enter in the num lock
+      area for activating the last ultimate). Enemies focus their damage on the first character.
+      If she dies, then on the second character and so on.
+    </p>
+    <p>
+      If you click on the left "combo" button, then it shows which combos are active in this
+      team. Most of the time, you want to create a team where all 4 combos are active! However,
+      in some situations, it is not possible for certain characters that are still worth using
+      because they are very strong (e.g. Medusa).
+    </p>
+    <p>
+      If you click on the "1-2-3" button at the bottom right, you can set up a character skill
+      auto-queue for ultimates. However, this only works if "Auto" mode has been activated.
+    </p>
+    <ul>
+      <li>
+        You can set multiple ultimates for round 1: just click into the area and select the
+        character ultimates that you want to use. If only one round is set, skills will activate
+        in queue order once enough energy is accumulated.
+      </li>
+      <li>
+        You can set up multiple rounds the same way (maximum 20 rounds). If multiple rounds are
+        set, skills will execute from lowest to highest round.
+      </li>
+      <li>
+        If you click on "Auto Queue", then all rounds and ultimates are consolidated into fewer
+        rounds (preserving the order).
+      </li>
+      <li>
+        If you click on "Clear All", then all rounds are deleted. This cannot be undone. You must
+        set up the ultimates again.
+      </li>
+    </ul>
+    <p>Stamina: Resource for raids. More details in the glossary.</p>
+  </section>
+
+  <section class="zguide-section" id="arena">
+      <img
+        class="zguide-corner-chibi"
+        src="https://k2b1c5ab57ed98e51.gachawiki.info/zone-nova/avatars/4017-cute.png"
+        alt="Athena chibi avatar"
+        width=72
+        height=72
+        loading="lazy"
+      />
+    <h2 class="zguide-title">Pinnacle Arena</h2>
+    <p>
+      Pinnacle Arena is a stage to showcase your strength, where you can spar with other players.
+    </p>
+    <p>
+      Sparring earns Arena Coins, which can be spent in the Arena Shop on growth items and
+      bonding items characters love. Battles are fully automatic, with players setting formations
+      and ULT queues beforehand.
+    </p>
+
+    <h3 class="zguide-subtitle">Seasons</h3>
+    <ul>
+      <li>Each season lasts 28 days, divided into 3 phases: Ranked Match, Pinnacle Tournament, and Worship.</li>
+      <li>
+        Each season includes 4 Ranked Matches and 1 Pinnacle Tournament. After crowning a
+        Pinnacle champion, the season enters the Worship phase until the next champion emerges.
+      </li>
+    </ul>
+
+    <h3 class="zguide-subtitle">Ranked Match</h3>
+    <ul>
+      <li>
+        Ranked Matches span 27 days, with 4 matches per season. The first begins Monday at 04:00
+        after a new season starts. Players have 5 daily Challenge Attempts, with extra attempts
+        purchasable using Luminite Crystals. Attempts refresh daily at 04:00.
+      </li>
+      <li>
+        Players start with 1000 points as Candidates. Each challenge consumes an attempt, earning
+        varying Arena Coins based on victory or defeat.
+      </li>
+      <li>
+        Winning against players adds points. Losing at Noble Platinum tier or above deducts
+        points; otherwise, no deduction.
+      </li>
+      <li>Every 5 consecutive wins without refreshing the opponent list grants an extra challenge attempt.</li>
+      <li>If points are tied at settlement, the player who reached the rank earlier takes precedence.</li>
+      <li>
+        Each Ranked Match ends at midnight Sunday, followed by reward settlement. Points remain
+        static, and no sparring is allowed during this time.
+      </li>
+      <li>The top 32 players in the final Ranked Match's leaderboard qualify for the Pinnacle Tournament.</li>
+    </ul>
+
+    <h3 class="zguide-subtitle">Pinnacle Tournament</h3>
+    <ul>
+      <li>The top 32 from the final Ranked Match qualify.</li>
+      <li>
+        The brackets are predetermined: Rank 1 goes to bracket A, Rank 2 to bracket B, Rank 3 to
+        bracket C, Rank 4 to bracket D, and Rank 5 restarts and goes back to bracket A. So it is
+        important to choose which rank you want to be at by the end of the season.
+      </li>
+      <li>
+        32 players are split into 4 groups of 8, battling in pairs. Each group produces 1 player
+        for the Top 4 Slots, who advance to the Championship group for Semifinals and Finals to
+        determine the champion and runner-up.
+      </li>
+      <li>
+        On tournament day, from 04:00 to 15:15, participants can set their deployed teams. After
+        15:15, the set teams are used for all duels until the tournament ends.
+      </li>
+      <li>Non-qualified players can bet on each Pinnacle match, earning returns for successful bets.</li>
+      <li>Rewards for winning: profile card background, profile frame, up to 1600 Luminites.</li>
+    </ul>
+
+    <h3 class="zguide-subtitle">Hall of Fame</h3>
+    <ul>
+      <li>
+        You can check the player teams and fully replay all battles of all tournament seasons
+        that have ever happened.
+      </li>
+      <li>Click at the top right to select a season.</li>
+      <li>Click on "Peak Review" for the details.</li>
+      <li>
+        Replaying a battle also provides a "statistics" button. It shows statistics for both
+        players (e.g. damage dealt, damage taken, recovery amount).
+      </li>
+    </ul>
+
+    <h3 class="zguide-subtitle">Betting Record</h3>
+    <ul>
+      <li>
+        When the tournament starts, you can set bets on each match. More specifically: after the
+        formation timer has ended (click on "Tournament", then the timer in the center above
+        "Rewards". It is NOT the "Remaining" timer before clicking on "Tournament").
+      </li>
+      <li>
+        The betting window is quite tight (45 minutes). You need to be there and bet before a
+        match round starts (once every 1 hour).
+      </li>
+      <li>
+        Investment is Arena Coins (500 to 1500 for each match; winning doubles the amount). So
+        even if you lose, it is not that big as you have many Arena Coins, usually.
+      </li>
+      <li>
+        You can see the total bettors count for a match near the name of the player. Maybe this
+        is a good indicator on which team to bet on.
+      </li>
+      <li>
+        After the matches are done, there is a 15 minutes cooldown until the next bets can be
+        placed. After that, the new 45 minutes betting window begins.
+      </li>
+      <li>
+        The betting record is updated at the end of the tournament. The Arena Coin winnings are
+        given through the mail system.
+      </li>
+    </ul>
+  </section>
+
+  <section class="zguide-section" id="glossary">
+      <img
+        class="zguide-corner-chibi"
+        src="https://k2b1c5ab57ed98e51.gachawiki.info/zone-nova/avatars/4029-cute.png"
+        alt="Keller chibi avatar"
+        width=72
+        height=72
+        loading="lazy"
+      />
+    <h2 class="zguide-title">Glossary</h2>
+    <div class="zguide-def">
+      <div class="zguide-def-term">Aether Points</div>
+      <p class="zguide-def-desc">
+        Used for everything that needs leveling: characters, remembrances, talents, runes.
+      </p>
+    </div>
+    <div class="zguide-def">
+      <div class="zguide-def-term">Annihilation Coin</div>
+      <p class="zguide-def-desc">
+        Currency earned in the Annihilation Battle. Can be used in the "Starbreaker" shop for
+        various items including low ranked remembrances.
+      </p>
+    </div>
+    <div class="zguide-def">
+      <div class="zguide-def-term">Arena Coins</div>
+      <p class="zguide-def-desc">
+        Currency earned in the arena. Can be used in the "Arena Shop" for various items such as
+        levelling items, training props, luminite, profile card backgrounds.
+      </p>
+    </div>
+    <div class="zguide-def">
+      <div class="zguide-def-term">Bonding Attempts</div>
+      <p class="zguide-def-desc">
+        Increase the bonding item uses per day. If you P2W, it can go above the free maximum of
+        30 bonding attempts. This stops the natural regeneration until it falls below the 30
+        attempts again. See "Training Props" for more.
+      </p>
+    </div>
+    <div class="zguide-def">
+      <div class="zguide-def-term">Combat EXP</div>
+      <p class="zguide-def-desc">
+        Used to level up the account level (as of Nov. 2026, max is level 70).
+      </p>
+    </div>
+    <div class="zguide-def">
+      <div class="zguide-def-term">Energy</div>
+      <p class="zguide-def-desc">
+        Resource for character ultimates during battles. Each character has a base "Energy
+        Recovery" of 0.25 per second. With all 4 alive and no buffs or debuffs: 1 energy per
+        second. Certain characters can buff or debuff this (e.g. Sharin, Belz, Tamamo, Bedivere).
+      </p>
+    </div>
+    <div class="zguide-def">
+      <div class="zguide-def-term">Luminite Crystal</div>
+      <p class="zguide-def-desc">
+        Mainly used for Mirage Cube exchange. Get new characters and remembrances in the Gacha
+        area.
+      </p>
+    </div>
+    <div class="zguide-def">
+      <div class="zguide-def-term">Stamina</div>
+      <p class="zguide-def-desc">
+        Resource for raids. Natural regeneration is 1 stamina every 5 minutes (25 hours from 0 to
+        300). Various items can be used to refill stamina such as Luminite (not worth it!),
+        Stamina Restorer (the green tanks, 60 stamina each, only if you happen to have some),
+        special event rewards such as Halloween pumpkin candy (300 stamina each).
+      </p>
+    </div>
+    <div class="zguide-def">
+      <div class="zguide-def-term">Training Props</div>
+      <p class="zguide-def-desc">
+        Character bonding items. You can use 30 of them daily for free. Natural regeneration: 1
+        attempt per 30 minutes. If you cannot wait, you will need additional "bonding attempts"
+        items.
+      </p>
+    </div>
+  </section>
+
+  <section class="zguide-section" id="profile">
+      <img
+        class="zguide-corner-chibi"
+        src="https://k2b1c5ab57ed98e51.gachawiki.info/zone-nova/avatars/4024-cute.png"
+        alt="Freya chibi avatar"
+        width=72
+        height=72
+        loading="lazy"
+      />
+    <h2 class="zguide-title">Player Profile</h2>
+    <p>
+      From the start page, click on the account profile icon
+      <img
+        class="zguide-inline-icon"
+        src="https://k2b1c5ab57ed98e51.gachawiki.info/zone-nova/beginner-guide/icon-account.png"
+        alt="Account profile icon"
+        width={36}
+        height={36}
+        loading="lazy"
+      />
+      (the girl avatar) at the top left corner. Here, you can:
+    </p>
+    <ul>
+      <li>Change your name (once every 72 hours).</li>
+      <li>Change your icon (selection depends on the unlocked girls).</li>
+      <li>
+        Note that the chibi icons are ordered depending on their banner releases. This order
+        allows you to predict their reruns.
+      </li>
+      <li>Change your frame (many of them are won by participating in PvP).</li>
+      <li>Edit profile (meaning: leave a message in your profile).</li>
+      <li>Change profile background (can be bought in shops. Some of them are won in the PvP tournament).</li>
+      <li>Showcase your favorite characters.</li>
+      <li>
+        Add support characters. A friend can use one of these during their battles (instead of
+        their own character; story mode battles only?).
+      </li>
+    </ul>
+    <div class="zguide-chibi-row">
+      <img src="https://k2b1c5ab57ed98e51.gachawiki.info/zone-nova/avatars/4031-cute.png" alt="Sharin chibi avatar" width={56} height={56} loading="lazy" />
+      <img src="https://k2b1c5ab57ed98e51.gachawiki.info/zone-nova/avatars/4057-cute.png" alt="Medusa chibi avatar" width={56} height={56} loading="lazy" />
+      <img src="https://k2b1c5ab57ed98e51.gachawiki.info/zone-nova/avatars/4025-cute.png" alt="Tamamo-no-Mae chibi avatar" width={56} height={56} loading="lazy" />
+      <img src="https://k2b1c5ab57ed98e51.gachawiki.info/zone-nova/avatars/4061-cute.png" alt="Suzuka Gozen chibi avatar" width={56} height={56} loading="lazy" />
+    </div>
+    <p class="zguide-note">Examples of the chibi style profile avatars.</p>
+  </section>
+
+  <section class="zguide-section" id="market">
+      <img
+        class="zguide-corner-chibi"
+        src="https://k2b1c5ab57ed98e51.gachawiki.info/zone-nova/avatars/4005-cute.png"
+        alt="Cleopatra chibi avatar"
+        width=72
+        height=72
+        loading="lazy"
+      />
+    <h2 class="zguide-title">Market and Battle Pass (P2W)</h2>
+
+    <h3 class="zguide-subtitle">Market</h3>
+    <p>
+      From the start page, the golden market icon is on the left side. It has P2W offers only!
+      This guide offers P2W recommendations in terms of best value (in Luminites) per price.
+    </p>
+    <p>The market consists of 4 categories: Recommended, Monthly Pass, Featured, Recharge.</p>
+    <ul>
+      <li>Recommended: These offers are better than the "recharge" ones, usually.</li>
+      <li>
+        Monthly Pass: Probably the best value per price. 3000 Luminites over the course of 30
+        days for about 5.
+      </li>
+      <li>
+        Featured: It has some specific offers. Usually, the offers are better than the "recharge"
+        ones. Some have bigger value than others, e.g. the Memories Bundle gives you an item that
+        lets you choose a Remembrance card.
+      </li>
+      <li>
+        Recharge: Once a month (or even every 14 days?), you get a one-time bonus on each
+        purchase. So you should wait before buying more as it resets. Even with that bonus, these
+        offers are usually worse than the other categories.
+      </li>
+    </ul>
+
+    <h3 class="zguide-subtitle">Battle Pass</h3>
+    <p>
+      From the start page, the "Pass" is on the right side. It is a monthly battle pass. It
+      consists of 3 categories: Homepage, Missions, Remembrances.
+    </p>
+    <ul>
+      <li>
+        Homepage: It has a free track and a premium track. 70 levels in total. Each level
+        requires 1000 points. There is a weekly limit of 15k points. Points are earned through
+        missions.
+      </li>
+      <li>
+        Depending on your character needs, the premium pass is worth it as it gives you many
+        resources and rare items for levelling them up. Just get the standard premium. No need to
+        push the +10 levels as you will get to level 70 anyway.
+      </li>
+      <li>Missions: complete these missions to gain levels for the battle pass.</li>
+      <li>Weekly missions: they reset every week, so that they can be repeated.</li>
+      <li>
+        Period missions: they can be completed only once. Sometimes, an event with character
+        selector might be here. Keep an eye on the news, so you do not miss it.
+      </li>
+      <li>Remembrance: showcase of the current remembrance cards in rotation. Nothing more.</li>
+    </ul>
+  </section>
+
+  <section class="zguide-section" id="gacha">
+      <img
+        class="zguide-corner-chibi"
+        src="https://k2b1c5ab57ed98e51.gachawiki.info/zone-nova/avatars/4037-cute.png"
+        alt="Lavinia chibi avatar"
+        width=72
+        height=72
+        loading="lazy"
+      />
+    <h2 class="zguide-title">Gacha</h2>
+    <p>
+      You can get strong characters and their remembrances with "Mirage Cubes" and others with
+      "Energy Cubes".
+    </p>
+    <p>
+      You can get cubes in various ways: events, market (Featured category), shops (buy them for
+      a specific currency, exchange them for 20 dust, exchange them for 160 Luminites),
+      missions, achievements, etc.
+    </p>
+    <p>
+      The probability rates and other details are explained on each Gacha page (information icon
+      at the top right corner). Dust is earned through playing Gacha.
+    </p>
+    <p>
+      Make sure that you set up the 3x custom selections, so you get characters and remembrances
+      that you want.
+    </p>
+    <p>Recommendations for new players:</p>
+    <ul>
+      <li>
+        Try to get many characters and remembrances so you are able to set up 2 to 3 teams. Do
+        not worry about "Awakening" levels for characters yet. More information can be found on
+        the wiki.
+      </li>
+      <li>
+        Complete the new player Gacha. It has a better ratio (8x energy cubes for 10x gacha
+        rolls) than the other gachas.
+      </li>
+    </ul>
+  </section>
+
+  <section class="zguide-section" id="shops">
+      <img
+        class="zguide-corner-chibi"
+        src="https://k2b1c5ab57ed98e51.gachawiki.info/zone-nova/avatars/4008-cute.png"
+        alt="Guinevere chibi avatar"
+        width=72
+        height=72
+        loading="lazy"
+      />
+    <h2 class="zguide-title">Shops</h2>
+    <p>
+      From the start page, the "Shop" is on the right side. It consists of many various shops;
+      most of them use ingame currency from various activities and events.
+    </p>
+    <p>
+      Here, the best value per cost ratios are recommended (ingame, they are marked by a "value"
+      icon or by a small flame icon).
+    </p>
+    <p>
+      The packages in the shops have various reset timers. Some reset once a month, others every
+      14 days or even less.
+    </p>
+    <p>All currency is permanent, as far as the author knows. Nothing gets lost after a season ends.</p>
+    <div class="zguide-def">
+      <div class="zguide-def-term">Dust Shop</div>
+      <p class="zguide-def-desc">
+        Currency: dust from Gacha rolls. Once a month under "Cube Dust Exchange", get the mirage
+        cube, energy cube and the "Original Aether".
+      </p>
+    </div>
+    <div class="zguide-def">
+      <div class="zguide-def-term">Arena Shop</div>
+      <p class="zguide-def-desc">
+        Currency: Arena Coins from PvP. Get the rare ones that are marked as "value" or flame
+        icon, e.g. Luminites, Cubes, Laser Engraver. Everything else is optional and depends on
+        what you need.
+      </p>
+    </div>
+    <div class="zguide-def">
+      <div class="zguide-def-term">Gold Medal Shop</div>
+      <p class="zguide-def-desc">
+        Currency: Gold Medals, various sources, e.g. from events. Buy Remembrances from the
+        current rotation and Laser Engraver for runes creation.
+      </p>
+    </div>
+    <div class="zguide-def">
+      <div class="zguide-def-term">Event Exchange Shop</div>
+      <p class="zguide-def-desc">
+        Currency: event specific. Buy all that are marked as "value" or flame icon, e.g.
+        Luminites, Gold Medals, "the Original Aether", Cubes. Other than that, only what you
+        currently need for your characters. Note: you must invest a certain currency amount to
+        unlock higher rarity options (the concrete numbers are shown on each item).
+      </p>
+    </div>
+    <div class="zguide-def">
+      <div class="zguide-def-term">Starbreaker Shop</div>
+      <p class="zguide-def-desc">
+        Currency: Annihilation Coins from the Annihilation Battle. Buy all that are marked as
+        "value" or flame icon, e.g. Luminites, "the Original Aether", Cubes.
+      </p>
+    </div>
+    <div class="zguide-def">
+      <div class="zguide-def-term">Guild Shop</div>
+      <p class="zguide-def-desc">
+        Currency: Guild Coins and Guild Conquest Tokens. Buy the rare items like Cubes, Laser
+        Engraver, Engraver Card, "the Original Aether", Reshape Dice. Buy the "value" Kappa and
+        Iota runes as needed for your characters!
+      </p>
+    </div>
+  </section>
+
+  <section class="zguide-section" id="events">
+      <img
+        class="zguide-corner-chibi"
+        src="https://k2b1c5ab57ed98e51.gachawiki.info/zone-nova/avatars/4028-cute.png"
+        alt="Jorogumo chibi avatar"
+        width=72
+        height=72
+        loading="lazy"
+      />
+    <h2 class="zguide-title">Events</h2>
+    <p>
+      From the start page, the events can be found at the bottom left corner. Usually, each event
+      lasts for 14 days.
+    </p>
+
+    <h3 class="zguide-subtitle">Featured Events</h3>
+    <ul>
+      <li>Story driven events for event specific currency that can be used in the Event Exchange Shop.</li>
+      <li>Get bonus currency for owning specific characters (click on the "Bonus" button for details).</li>
+      <li>
+        After the featured event is over, the specific Event Exchange Shop stays online for a few
+        days more, so that you can exchange your event currency.
+      </li>
+      <li>
+        Each event consists of 13 event story missions with specific rewards (5 free tries each
+        day). After they have been completed, you can use the daily free 5 tries for
+        auto-collecting the event currency.
+      </li>
+      <li>
+        In addition, there are 5 challenges (Easy, Normal, Hard, Very Hard, Challenge). Completing
+        them gives additional rewards (click on the "Rewards" button).
+      </li>
+      <li>
+        Try to do as much as possible from an event because it provides good rewards like e.g.
+        "the Original Aether" and Luminites.
+      </li>
+    </ul>
+
+    <h3 class="zguide-subtitle">Limited Events</h3>
+    <p>Gacha, login rewards, special mission rewards. For Gacha, see above.</p>
+  </section>
+
+  <section class="zguide-section" id="missions">
+      <img
+        class="zguide-corner-chibi"
+        src="https://k2b1c5ab57ed98e51.gachawiki.info/zone-nova/avatars/4039-cute.png"
+        alt="Nina chibi avatar"
+        width=72
+        height=72
+        loading="lazy"
+      />
+    <h2 class="zguide-title">Daily, Weekly and Monthly Missions</h2>
+    <p>There are several missions that can be done:</p>
+    <ul>
+      <li>
+        From the start page, click on "Missions" on the right side. Best way to do the 500 points
+        daily: login (100 points), 1 resource raid (200), consume 100 stamina (200; it can be
+        combined with one single resource raid to save time). Rewards: Luminite, levelling items,
+        account XP, Aether Points.
+      </li>
+      <li>There are missions in the battle pass (weekly and monthly). See the Battle Pass section for more information.</li>
+      <li>There are missions for the guild (weekly). See the Guild section for more information.</li>
+    </ul>
+  </section>
+
+  <section class="zguide-section" id="bag">
+      <img
+        class="zguide-corner-chibi"
+        src="https://k2b1c5ab57ed98e51.gachawiki.info/zone-nova/avatars/4038-cute.png"
+        alt="Lily chibi avatar"
+        width=72
+        height=72
+        loading="lazy"
+      />
+    <h2 class="zguide-title">Items Bag</h2>
+    <p>
+      From the start page, the bag is located at the centre bottom. It consists of 5 categories:
+      Enhancement Materials, Remembrance, Runes, Affinity, Other Items.
+    </p>
+    <div class="zguide-def">
+      <div class="zguide-def-term">Enhancement Materials (unlimited storage)</div>
+      <p class="zguide-def-desc">
+        Contains all items that are needed for levelling up your characters. At the bottom, there
+        is a "Synthesize" button. For a small amount of Aether Points, you can synthesize or
+        decompose items back and forth as needed to level up your characters. In addition, there
+        is a rune craft area. More information on that in the Runes Crafting section.
+      </p>
+    </div>
+    <div class="zguide-def">
+      <div class="zguide-def-term">Remembrance (max 1500 storage)</div>
+      <p class="zguide-def-desc">
+        Contains all Remembrances. In theory, you can decompose all generic ones to save space.
+        However, they barely give any rewards. Also, it might be advisable to lock all valuable
+        ones (SSR for sure, maybe even SR) with the "Lock" button. Note that identical
+        Remembrances can be used to level up a Remembrance. This increases its power and numbers.
+        More information on that in the Characters section.
+      </p>
+    </div>
+    <div class="zguide-def">
+      <div class="zguide-def-term">Runes (max 2000 storage)</div>
+      <p class="zguide-def-desc">
+        Contains all runes. At the top and at the bottom, there are rune filters. At the bottom,
+        there are also 2 buttons for crafting and decomposing runes. More information on that in
+        the Runes Crafting section.
+      </p>
+    </div>
+    <div class="zguide-def">
+      <div class="zguide-def-term">Affinity (unlimited storage)</div>
+      <p class="zguide-def-desc">
+        Contains all training props. In addition, there is a destroy button. However, it provides
+        no value.
+      </p>
+    </div>
+    <div class="zguide-def">
+      <div class="zguide-def-term">Other Items (unlimited storage)</div>
+      <p class="zguide-def-desc">
+        Contains all kinds of items, including special items that you get from shops or the P2W
+        market. Note that for some of these items, you need to select them and then click the
+        "Use" button to get the reward.
+      </p>
+    </div>
+  </section>
+
+  <section class="zguide-section" id="guild">
+      <img
+        class="zguide-corner-chibi"
+        src="https://k2b1c5ab57ed98e51.gachawiki.info/zone-nova/avatars/4021-cute.png"
+        alt="Thor chibi avatar"
+        width=72
+        height=72
+        loading="lazy"
+      />
+    <h2 class="zguide-title">Guild</h2>
+    <p>From the start page, the guild is located at the centre bottom. Core features:</p>
+    <ul>
+      <li>Create and join: players can create their own guild or apply to join existing ones.</li>
+      <li>
+        Guild level and activity: guilds accumulate experience through members' efforts (e.g.
+        completing missions, doing guild conquest and guild battles), raising the guild level.
+        Higher levels allow recruiting more members (max 30).
+      </li>
+      <li>Guild chat: a dedicated guild chat channel lets members discuss tactics and share stories.</li>
+      <li>
+        Guild shop: actively completing guild missions and guild conquests earns guild currency.
+        Actively participating in guild battles provides even more rewards. See the Shops section
+        for more information.
+      </li>
+      <li>Guild log: shows donations and member activity (e.g. joined or left the guild).</li>
+      <li>
+        Donations: guild members can donate to the guild once per day. The guild leader can use
+        them to increase the attack, defense and HP of every member (max lvl 50 each; each level
+        provides a 1% bonus). The donations can be farmed at the resource raids. Also, the donor
+        gets a small amount of guild currency for the guild shop.
+      </li>
+      <li>
+        Missions (resets weekly): no particular advice here as the 800 points are naturally
+        completed by being active.
+      </li>
+      <li>
+        Guild Conquest (reward: guild currency for the guild shop; additional rewards per level
+        completed, max 250 levels): this is a guild effort to take down as many bosses as
+        possible. Do as much damage as possible to a PvE boss within a time limit. If you have
+        strong characters, then a team of 2 supports, 1 damage dealer and 1 tank or healer is the
+        best combination for maximum damage. 3 tries daily (requires 3 different teams; a
+        character cannot be used twice). Law effects may apply (click on the "Details" button to
+        learn about them). Guild rewards are given for up to 250 boss defeats. After that, you
+        will still get a small amount of rewards (mostly Aether Points) through the mail system.
+        Guild conquest resets weekly.
+      </li>
+      <li>
+        Guild War: occurs every two weeks (12 matches, 1 season). For more information see the
+        Guild Wars section.
+      </li>
+    </ul>
+  </section>
+
+  <section class="zguide-section" id="guild-wars">
+      <img
+        class="zguide-corner-chibi"
+        src="https://k2b1c5ab57ed98e51.gachawiki.info/zone-nova/avatars/4020-cute.png"
+        alt="Odin chibi avatar"
+        width=72
+        height=72
+        loading="lazy"
+      />
+    <h2 class="zguide-title">Guild Wars</h2>
+    <p>
+      In short: take part in it, your leader will assign you to a proper position, use your 3
+      attacks on Tuesday and Saturday, get rewards.
+    </p>
+
+    <h3 class="zguide-subtitle">Introduction</h3>
+    <ul>
+      <li>Guild battles occur once every two weeks, with a total of 12 matches forming one season.</li>
+      <li>
+        The group assignment for guild battles is determined based on the previous week's Guild
+        Conquest ranking. Once assigned, the same group will be used for 2 consecutive guild
+        battles.
+      </li>
+      <li>
+        Guild battles are divided into three main phases: Preparation Phase, Decisive Battle
+        Phase, and Settlement Phase.
+      </li>
+      <li>Preparation Phase: Mondays and Fridays, 05:00:00 to next day 03:59:59 (UTC+8).</li>
+      <li>Decisive Battle Phase: Tuesdays and Saturdays, 04:00:00 to next day 23:59:59 (UTC+8).</li>
+      <li>Settlement Phase: Thursdays and Mondays, 00:00:00 to 03:59:59 (UTC+8).</li>
+    </ul>
+
+    <h3 class="zguide-subtitle">Phase Details</h3>
+    <ul>
+      <li>
+        During the Preparation Phase, guild members can form 2 teams with at least 1 character
+        each to participate. Details can be found on the participation page.
+      </li>
+      <li>
+        During the Decisive Battle Phase, only participating guild members can join. Each
+        participating member has 3 attack opportunities to assault enemy strongholds. Each attack
+        reduces the corresponding HP of the stronghold and gains capture points based on the wins
+        and losses of 2 battles. When a stronghold is destroyed, additional capture points are
+        gained.
+      </li>
+      <li>
+        During the Settlement Phase, attacks are not allowed. Victory or defeat is determined
+        based on the difference in guild capture points. Both winning and losing teams earn guild
+        points, with additional guild points awarded based on the number of strongholds
+        destroyed. Settlement rewards are distributed via mail to all participating guild
+        members.
+      </li>
+    </ul>
+
+    <h3 class="zguide-subtitle">Stronghold Details</h3>
+    <ul>
+      <li>Stronghold types are divided into: Base, Defense Tower, and Position.</li>
+      <li>
+        Each type of stronghold has different HP and destruction points. The most important
+        stronghold is the Base, which has the highest HP, but when destroyed, the enemy gains
+        more additional capture points. Next is the Defense Tower, and finally the Position.
+      </li>
+    </ul>
+    <p class="zguide-note">
+      Note: guild battle rewards and settings may be adjusted in different seasons based on the
+      current game version. Any changes will be announced in the game announcements. In the
+      season settlement rewards, the condition for obtaining guild member rewards is
+      participating in at least one guild war during the season.
+    </p>
+  </section>
+
+  <section class="zguide-section" id="characters">
+      <img
+        class="zguide-corner-chibi"
+        src="https://k2b1c5ab57ed98e51.gachawiki.info/zone-nova/avatars/4057-cute.png"
+        alt="Medusa chibi avatar"
+        width=72
+        height=72
+        loading="lazy"
+      />
+    <h2 class="zguide-title">Characters</h2>
+    <p>
+      From the start page, the characters screen can be found at the bottom right corner. For
+      each character, it consists of 9 important categories and buttons:
+    </p>
+
+    <h3 class="zguide-subtitle">Details</h3>
+    <ul>
+      <li>
+        4 important buttons here on the right side: Attributes, Skills, Level Up/Ascend and
+        Bonding.
+      </li>
+      <li>Note also the information button near the class. It explains the class function.</li>
+      <li>There is also a details button with more statistics.</li>
+      <li>
+        Each character has 5 skills: a normal attack (NA; it has a cooldown), a combo (only
+        active if the requirement is met), a skill (used automatically; it has a cooldown), a
+        passive (permanently active) and an ultimate (manual or auto activation possible; it has
+        energy cost and a cooldown).
+      </li>
+      <li>
+        Characters can be levelled up and ascended to max level 80. Every 10 levels, specific
+        ascend items are needed to progress further.
+      </li>
+      <li>
+        Bonding increases the stats of a character and unlocks new art and clips. It requires
+        class specific training props. You can use 30 of them daily for free. Natural
+        regeneration: 1 attempt per 30 minutes. If you cannot wait, you will need additional
+        "bonding attempts" items.
+      </li>
+    </ul>
+
+    <h3 class="zguide-subtitle">Remembrances</h3>
+    <p>
+      Set and enhance a remembrance the same way a character is levelled up. It increases its
+      stats. In addition, it can be awakened 5 times for even more stats with the same
+      remembrance cards.
+    </p>
+
+    <h3 class="zguide-subtitle">Talents</h3>
+    <ul>
+      <li>Talents and skills can be increased here.</li>
+      <li>
+        The most critical resource and bottleneck here is "the Original Aether". Everything else
+        can be raided and synthesized.
+      </li>
+      <li>
+        It is very expensive to level up skills past level 7. Consider investing your resources
+        in a different character first.
+      </li>
+    </ul>
+
+    <h3 class="zguide-subtitle">Runes</h3>
+    <p>Set and level up runes as described in the Runes Crafting section.</p>
+
+    <h3 class="zguide-subtitle">Awaken</h3>
+    <p>
+      When you get a second copy of the girl, it can be invested here to increase her abilities.
+      Check out the wiki for recommendations on which awakening levels are worth it.
+    </p>
+
+    <h3 class="zguide-subtitle">Info</h3>
+    <p>Dialog and story content.</p>
+
+    <p>
+      From the start page, please also note the "Codex" on the right side. It lists all girls and
+      remembrances, even the ones that you do not own yet. In addition, all unlocked main story
+      and event story parts can be revisited here.
+    </p>
+  </section>
+
+  <section class="zguide-section" id="runes">
+      <img
+        class="zguide-corner-chibi"
+        src="https://k2b1c5ab57ed98e51.gachawiki.info/zone-nova/avatars/4053-cute.png"
+        alt="Nephthys chibi avatar"
+        width=72
+        height=72
+        loading="lazy"
+      />
+    <h2 class="zguide-title">Runes Crafting</h2>
+    <ul>
+      <li>There are 6 runes: I, II, III, IV, V, VI.</li>
+      <li>Craft the runes as recommended for the character builds in the wiki.</li>
+      <li>Use the laser engraver to set the main stat of runes IV, V and VI.</li>
+      <li>Optional: use an engraver card to set one secondary stat.</li>
+      <li>
+        Level up the rune to level 10. Levels 11 to 15 are quite expensive (see the wiki graph
+        for more details).
+      </li>
+      <li>
+        More information about rune crafting including screenshots can be found on the wiki:
+        the <a href="/guides/zone-nova/runes/">runes overview</a>, the
+        <a href="/guides/zone-nova/crafting/">crafting guide</a> and the
+        <a href="/guides/zone-nova/crafting-items/">crafting items list</a>.
+      </li>
+    </ul>
+    <p>
+      When crafting, flat stats are usually worse than % stats. Aim for % stats mainly (except
+      for HP, where flat and % are both worth it).
+    </p>
+  </section>
+</ZoneNovaLayout>

@@ -3,6 +3,16 @@ import ZoneNovaLandingLayout from '../../layouts/zone-nova/LandingLayout.astro';
 import FormattedDate from '../../components/FormattedDate.astro';
 import DiscordPromo from '../../components/DiscordPromo.astro';
 import { zoneNovaConfig } from '../../data/zone-nova/zone-nova.js';
+import { CUTE_AVATARS } from '../../data/zone-nova/avatars.js';
+
+// Chibi icons for the Resources buttons (game profile avatars)
+const RESOURCE_ICONS = {
+  'beginner-guide': CUTE_AVATARS['chiya'],
+  clock: CUTE_AVATARS['hiyori'],
+  'redeem-codes': CUTE_AVATARS['nina'],
+  'summon-faq': CUTE_AVATARS['lavinia'],
+  'data-extractor': CUTE_AVATARS['keller'],
+};
 // Hero image served from Cloudflare R2
 const heroImg = 'https://k2b1c5ab57ed98e51.gachawiki.info/zone-nova/zonenova1.jpg';
 
@@ -126,6 +136,16 @@ const breadcrumbs = [
                   target={guide.url.startsWith('http') ? '_blank' : undefined}
                   rel={guide.url.startsWith('http') ? 'noopener noreferrer' : undefined}
                 >
+                  {RESOURCE_ICONS[guide.id] && (
+                    <img
+                      class="zn-resource-icon"
+                      src={RESOURCE_ICONS[guide.id]}
+                      alt=""
+                      width={28}
+                      height={28}
+                      loading="lazy"
+                    />
+                  )}
                   {guide.title}
                 </a>
               ))}
