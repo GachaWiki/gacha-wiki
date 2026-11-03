@@ -3,6 +3,21 @@
 
 export const summonRecommendations = [
   {
+    bannerId: 'banner-midsummer-sky-festival',
+    character: 'Viatrice & Raguen',
+    characterSlug: 'fireworks-master-of-the-sky-festival-viatrice',
+    bannerType: 'Event Summon',
+    startDate: '2026-11-03',
+    endDate: '2026-11-17',
+    verdict: 'skip',
+    reasons: [
+      'Overall a skip: two solid attackers, but neither reshapes a team the way the Sun and the Moon duo did.',
+      'Viatrice is AoE control (guaranteed-hit normal, stun plus M.DEF down on 3 targets, Block and Action Speed down on ult) with modest multipliers for a pure damage pick.',
+      'Raguen is the consideration: Silence plus Charm on demand, self crit damage and Accuracy buffs, and MP recovery after ults. Pull her only if you need a Light physical core.',
+      'The wave\'s SR support, Songstress of the Sky Festival Bernadette, is not on this banner at all.',
+    ],
+  },
+  {
     bannerId: 'banner-entwined-with-the-wind',
     character: 'Lin',
     characterSlug: 'lin',
