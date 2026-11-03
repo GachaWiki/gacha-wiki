@@ -42,8 +42,8 @@ export const info = {
     }
   },
   "obtain": {
-    "type": "unknown",
-    "source": ""
+    "type": "event",
+    "source": "Midsummer Sky Festival Event (Free)"
   },
   "characterId": 2159
 };
