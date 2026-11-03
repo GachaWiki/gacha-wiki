@@ -41,8 +41,8 @@ export const info = {
     }
   },
   "obtain": {
-    "type": "unknown",
-    "source": ""
+    "type": "event",
+    "source": "Battle Pass"
   },
   "characterId": 2138
 };
@@ -126,7 +126,7 @@ export const skills = {
       "rank": 1,
       "name": "The God-Shattering Barrage",
       "icon": "skill001/skill0012_1",
-      "description": "Deals magic damage to the nearest enemy. Also Inflicts Fear(LV 1) to the enemy for 5 seconds and applies Fear(MP --50 per secondBlock 0) to self for 5 seconds",
+      "description": "Deals magic damage to the nearest enemy. Also inflicts Fear to the enemy for 5 seconds (MP -50 over time, Block 0) and increases Malevolent attribute attack power for 12 seconds (20%, depending on LV)",
       "effect": "1200% + 1000",
       "buffEffects": [
         {
@@ -147,7 +147,7 @@ export const skills = {
       "rank": 2,
       "name": "The God-Shattering Barrage",
       "icon": "skill001/skill0012_2",
-      "description": "Deals magic damage to the nearest enemy. Also Inflicts Fear(LV 1) to the enemy for 5 seconds and applies Fear(MP --70 per secondBlock 0) to self for 5 seconds",
+      "description": "Deals magic damage to the nearest enemy. Also inflicts Fear to the enemy for 5 seconds (MP -70 over time, Block 0) and increases Malevolent attribute attack power for 12 seconds (25%, depending on LV)",
       "effect": "1440% + 1250",
       "buffEffects": [
         {
@@ -168,7 +168,7 @@ export const skills = {
       "rank": 3,
       "name": "The God-Shattering Barrage",
       "icon": "skill001/skill0012_3",
-      "description": "Deals magic damage to the nearest enemy. Also Inflicts Fear(LV 1) to the enemy for 5 seconds and applies Fear(MP --80 per secondBlock 0) to self for 5 seconds",
+      "description": "Deals magic damage to the nearest enemy. Also inflicts Fear to the enemy for 5 seconds (MP -80 over time, Block 0) and increases Malevolent attribute attack power for 12 seconds (29%, depending on LV)",
       "effect": "1620% + 1500",
       "buffEffects": [
         {
@@ -189,7 +189,7 @@ export const skills = {
       "rank": 4,
       "name": "The God-Shattering Barrage",
       "icon": "skill001/skill0012_4",
-      "description": "Deals magic damage to the nearest enemy. Also Inflicts Fear(LV 1) to the enemy for 5 seconds and applies Fear(MP --90 per secondBlock 0) to self for 5 seconds",
+      "description": "Deals magic damage to the nearest enemy. Also inflicts Fear to the enemy for 5 seconds (MP -90 over time, Block 0) and increases Malevolent attribute attack power for 12 seconds (32%, depending on LV)",
       "effect": "1739% + 1700",
       "buffEffects": [
         {
@@ -210,7 +210,7 @@ export const skills = {
       "rank": 5,
       "name": "The God-Shattering Barrage",
       "icon": "skill001/skill0012_5",
-      "description": "Deals magic damage to the nearest enemy. Also Inflicts Fear(LV 1) to the enemy for 5 seconds and applies Fear(MP --100 per secondBlock 0) to self for 5 seconds",
+      "description": "Deals magic damage to the nearest enemy. Also inflicts Fear to the enemy for 5 seconds (MP -100 over time, Block 0) and increases Malevolent attribute attack power for 12 seconds (35%, depending on LV)",
       "effect": "1800% + 1900",
       "buffEffects": [
         {
