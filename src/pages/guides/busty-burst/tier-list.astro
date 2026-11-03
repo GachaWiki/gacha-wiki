@@ -7,6 +7,7 @@ import {
   getTierList,
   getElementTierList,
   getAllTierLists,
+  TIER_NOTES,
 } from "../../../data/busty-burst/tier-lists.js";
 import { BUSTY_BURST_PALADINS } from "../../../data/busty-burst/paladins.js";
 import { getSlugByCharacterId } from "../../../data/busty-burst/character-database.js";
@@ -178,32 +179,51 @@ const gameTitle = "Tier List";
                     {definition.label}
                   </div>
                   <div class="bb-tier-characters">
-                    {characters.map((character) => (
-                      <a
-                        href={charPageUrl(character.id)}
-                        class="bb-tier-character-card"
-                        data-name={character.name?.toLowerCase() || ""}
-                      >
-                        <div class="bb-character-image-wrapper">
-                          <PaladinImage
-                            characterId={character.characterId ?? 0}
-                            alt={character.name}
-                            width={180}
-                            height={180}
-                            quality={95}
-                            loading="lazy"
-                          />
-                        </div>
-                        <div class="bb-character-name">{character.name}</div>
-                        <div class="bb-tier-rarity">
-                          <RarityImage
-                            rarity={character.rarity || "SR"}
-                            width={64}
-                            height={32}
-                          />
-                        </div>
-                      </a>
-                    ))}
+                    {characters.map((character) => {
+                      const note = TIER_NOTES[character.id];
+                      return (
+                        <a
+                          href={charPageUrl(character.id)}
+                          class={`bb-tier-character-card${note ? " has-note" : ""}`}
+                          data-name={character.name?.toLowerCase() || ""}
+                        >
+                          {note && (
+                            <div
+                              class={`bb-tier-note-badge bb-tier-note-${note.type}${note.variant ? ` bb-note-variant-${note.variant}` : ""}`}
+                              tabindex="0"
+                              aria-label={note.title}
+                            >
+                              <span class="bb-tier-note-icon">{note.variant ? "★" : "!"}</span>
+                              <div class="bb-tier-note-tooltip">
+                                <div class="bb-tier-note-tooltip-title">{note.title}</div>
+                                <div class="bb-tier-note-tooltip-text">{note.text}</div>
+                              </div>
+                            </div>
+                          )}
+                          <div class="bb-character-image-wrapper">
+                            {note?.variant && (
+                              <div class="bb-tier-card-highlight">{note.shortTitle}</div>
+                            )}
+                            <PaladinImage
+                              characterId={character.characterId ?? 0}
+                              alt={character.name}
+                              width={180}
+                              height={180}
+                              quality={95}
+                              loading="lazy"
+                            />
+                          </div>
+                          <div class="bb-character-name">{character.name}</div>
+                          <div class="bb-tier-rarity">
+                            <RarityImage
+                              rarity={character.rarity || "SR"}
+                              width={64}
+                              height={32}
+                            />
+                          </div>
+                        </a>
+                      );
+                    })}
                   </div>
                 </div>
               ))}
@@ -268,32 +288,51 @@ const gameTitle = "Tier List";
                     {definition.label}
                   </div>
                   <div class="bb-tier-characters">
-                    {characters.map((character) => (
-                      <a
-                        href={charPageUrl(character.id)}
-                        class="bb-tier-character-card"
-                        data-name={character.name?.toLowerCase() || ""}
-                      >
-                        <div class="bb-character-image-wrapper">
-                          <PaladinImage
-                            characterId={character.characterId ?? 0}
-                            alt={character.name}
-                            width={180}
-                            height={180}
-                            quality={95}
-                            loading="lazy"
-                          />
-                        </div>
-                        <div class="bb-character-name">{character.name}</div>
-                        <div class="bb-tier-rarity">
-                          <RarityImage
-                            rarity={character.rarity || "SR"}
-                            width={64}
-                            height={32}
-                          />
-                        </div>
-                      </a>
-                    ))}
+                    {characters.map((character) => {
+                      const note = TIER_NOTES[character.id];
+                      return (
+                        <a
+                          href={charPageUrl(character.id)}
+                          class={`bb-tier-character-card${note ? " has-note" : ""}`}
+                          data-name={character.name?.toLowerCase() || ""}
+                        >
+                          {note && (
+                            <div
+                              class={`bb-tier-note-badge bb-tier-note-${note.type}${note.variant ? ` bb-note-variant-${note.variant}` : ""}`}
+                              tabindex="0"
+                              aria-label={note.title}
+                            >
+                              <span class="bb-tier-note-icon">{note.variant ? "★" : "!"}</span>
+                              <div class="bb-tier-note-tooltip">
+                                <div class="bb-tier-note-tooltip-title">{note.title}</div>
+                                <div class="bb-tier-note-tooltip-text">{note.text}</div>
+                              </div>
+                            </div>
+                          )}
+                          <div class="bb-character-image-wrapper">
+                            {note?.variant && (
+                              <div class="bb-tier-card-highlight">{note.shortTitle}</div>
+                            )}
+                            <PaladinImage
+                              characterId={character.characterId ?? 0}
+                              alt={character.name}
+                              width={180}
+                              height={180}
+                              quality={95}
+                              loading="lazy"
+                            />
+                          </div>
+                          <div class="bb-character-name">{character.name}</div>
+                          <div class="bb-tier-rarity">
+                            <RarityImage
+                              rarity={character.rarity || "SR"}
+                              width={64}
+                              height={32}
+                            />
+                          </div>
+                        </a>
+                      );
+                    })}
                   </div>
                 </div>
               ))}

@@ -6,7 +6,7 @@ export const BUSTY_BURST_TIER_LISTS = {
     name: 'SSR Tier List',
     description:
       'Tier list for SSR characters. Covers general performance across all game modes.',
-    lastUpdated: '2026-11-01',
+    lastUpdated: '2026-11-03',
     tiers: [
       {
         tier: 'SSS',
@@ -37,6 +37,8 @@ export const BUSTY_BURST_TIER_LISTS = {
           // October 2026 Octopus Empire's Counterattack release (user verdict: SS)
           'aiming-for-your-heart-shaty',
           'riding-the-big-wave-of-love-priscilla',
+          // November 2026 Midsummer Sky Festival release (user verdict: SS; Holy damage taken UP debuff, can tank in front, mostly physical teams but works with magic)
+          'swordsman-of-the-sky-festival-raguen',
         ],
       },
       {
@@ -84,6 +86,8 @@ export const BUSTY_BURST_TIER_LISTS = {
           'fionore',
           // October 2026 FANZINE 4th release (user verdict: S)
           'skateboarder-nue',
+          // November 2026 Midsummer Sky Festival release (user verdict: S; good AoE dealer, some events and maps need her, not game-breaking)
+          'fireworks-master-of-the-sky-festival-viatrice',
         ],
       },
       {
@@ -124,7 +128,7 @@ export const BUSTY_BURST_TIER_LISTS = {
     name: 'SR Tier List',
     description:
       'Tier list for SR characters in SR Raid mode.',
-    lastUpdated: '2026-11-01',
+    lastUpdated: '2026-11-03',
     tiers: [
       {
         tier: 'SSS',
@@ -214,6 +218,27 @@ export const BUSTY_BURST_TIER_LISTS = {
         ],
       },
     ],
+  },
+};
+
+// Per-character tier notes keyed by tier list character id.
+// Shape follows the Horizon Walker tier notes: type info/warning,
+// optional variant + shortTitle for the on-card highlight chip.
+export const TIER_NOTES = {
+  'riding-the-big-wave-of-love-priscilla': {
+    type: 'info',
+    title: 'Best def down and Wind damage taken up',
+    text: 'Best def down and Wind damage taken up using her ultimate. Works very well with physical and mono teams.',
+  },
+  'swordsman-of-the-sky-festival-raguen': {
+    type: 'info',
+    title: 'Holy damage taken UP debuff, front tank',
+    text: 'Her Holy type damage taken UP debuff is a really good damage increase for the team, and she can act as a tank in front. Mostly used in physical teams but works with magic teams too. Good damage.',
+  },
+  'fireworks-master-of-the-sky-festival-viatrice': {
+    type: 'info',
+    title: 'Good AoE dealer for events and maps',
+    text: 'Good AoE dealer, some events and maps need her. Not game-breaking.',
   },
 };
 

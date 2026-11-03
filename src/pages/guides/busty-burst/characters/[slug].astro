@@ -23,6 +23,8 @@ import { SPEED_LABELS } from '../../../../data/busty-burst/characters/index.js';
 import { BB_X_CARDS, BB_X_VIDEO_ART } from '../../../../data/busty-burst/x-art.js';
 import { BB_X_GAME_ART_BY_SLUG } from '../../../../data/busty-burst/x-game-art-by-slug.js';
 import { R2 } from '../../../../data/busty-burst/image-manifest.js';
+import { BUSTY_BURST_TIER_LISTS, TIER_NOTES } from '../../../../data/busty-burst/tier-lists.js';
+import { BUSTY_BURST_PALADINS } from '../../../../data/busty-burst/paladins.js';
 
 // Import CSS
 import '../../../../styles/games/busty-burst/busty-burst-character-individual.css';
@@ -63,6 +65,22 @@ const positionNameMap = {
 const xCards = (BB_X_CARDS[slug] || []).slice().sort((a, b) => (a.lang === b.lang ? a.date.localeCompare(b.date) : a.lang === 'en' ? -1 : 1));
 const xVideos = BB_X_VIDEO_ART[slug] || [];
 const xGameArt = BB_X_GAME_ART_BY_SLUG[slug] || [];
+
+// Tier placement + note for this character from the tier lists
+const tierPlacement = (() => {
+  if (!character?.characterId) return null;
+  for (const list of Object.values(BUSTY_BURST_TIER_LISTS)) {
+    for (const tier of list.tiers) {
+      for (const id of tier.characters) {
+        const paladin = BUSTY_BURST_PALADINS.find(p => p.id === id);
+        if (paladin && paladin.characterId === character.characterId) {
+          return { listName: list.name, tier: tier.tier, color: tier.definition.color, note: TIER_NOTES[id] || null };
+        }
+      }
+    }
+  }
+  return null;
+})();
 
 // Action Speed values (time in seconds)
 const ACTION_SPEED_VALUES = {
@@ -329,6 +347,27 @@ const description = `${character.displayName || character.name} - ${character.ra
                   <span class="bb-char-profile-size-label">Hips</span>
                 </div>
               </div>
+            </div>
+          </div>
+        )}
+
+        {tierPlacement && (
+          <div class="bb-char-info-card">
+            <div class="bb-char-info-card-title">Tier Rating</div>
+            <div class="bb-char-info-card-content">
+              <div class="bb-char-tier-line">
+                <span class="bb-char-tier-label">Tier</span>
+                <span class="bb-char-tier-value" style={`color: ${tierPlacement.color};`}>{tierPlacement.tier}</span>
+                <span class="bb-char-tier-list-name">{tierPlacement.listName}</span>
+              </div>
+              {tierPlacement.note && (
+                <p class="bb-char-tier-note">
+                  <span class="bb-char-tier-note-title">{tierPlacement.note.title}:</span> {tierPlacement.note.text}
+                </p>
+              )}
+              <p class="bb-char-tier-link">
+                <a href="/guides/busty-burst/tier-list/">See the full tier list</a>
+              </p>
             </div>
           </div>
         )}

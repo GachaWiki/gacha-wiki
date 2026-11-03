@@ -1575,6 +1575,26 @@ export const BUSTY_BURST_PALADINS = [
     role: 'Tank',
     tier: 'S',
   },
+  {
+    id: 'fireworks-master-of-the-sky-festival-viatrice',
+    characterId: 2157,
+    name: 'Fireworks Master of the Sky Festival: Viatrice',
+    fileName: 'Viatrice',
+    rarity: 'SSR',
+    element: 'Fire',
+    role: 'Attacker',
+    tier: 'S',
+  },
+  {
+    id: 'swordsman-of-the-sky-festival-raguen',
+    characterId: 2158,
+    name: 'Swordsman of the Sky Festival: Raguen',
+    fileName: 'Raguen',
+    rarity: 'SSR',
+    element: 'Light',
+    role: 'Attacker',
+    tier: 'SS',
+  },
 ];
 
 export const getPaladinById = id => {
