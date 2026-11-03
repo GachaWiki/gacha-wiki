@@ -70,9 +70,9 @@ export const skills = {
       "slot": 3,
       "name": "Single-Minded Strike",
       "icon": "skill001/skill0019",
-      "description": "Applies Hit-Based Physical Damage UP(150%+500, 1 hit(s)) to self for 4 secondsand Debuff Resistance 1%UP for 4 seconds",
-      "descriptionLv1": "Applies Hit-Based Physical Damage UP(150%+500, 1 hit(s)) to self for 4 secondsand Debuff Resistance 1%UP for 4 seconds",
-      "descriptionLv90": "Applies Hit-Based Physical Damage UP(150%+500, 45001 hit(s)) to self for 4 secondsand Debuff Resistance 1%UP for 4 seconds",
+      "description": "Applies Hit-Based Physical Damage UP(150%+500, 1 hit(s)) to self for 4 seconds and Debuff Resistance 1%UP for 4 seconds",
+      "descriptionLv1": "Applies Hit-Based Physical Damage UP(150%+500, 1 hit(s)) to self for 4 seconds and Debuff Resistance 1%UP for 4 seconds",
+      "descriptionLv90": "Applies Hit-Based Physical Damage UP(150%+500, 4500, 1 hit(s)) to self for 4 seconds and Debuff Resistance 1%UP for 4 seconds",
       "target": "Self",
       "castTime": 1.6,
       "damageScaling": null,
@@ -107,7 +107,7 @@ export const skills = {
       "rank": 1,
       "name": "Ten-Thousand Blade Flash",
       "icon": "skill001/skill0003_1",
-      "description": "Deals physical damage to the 3 nearest enemies and inflicts Physical Defense DOWN(LV 1) for 10 secondsand BlockDOWN(LV 1) for 10 seconds",
+      "description": "Deals physical damage to the 3 nearest enemies and inflicts Physical Defense DOWN(LV 1) for 10 seconds and BlockDOWN(LV 1) for 10 seconds",
       "effect": "280% + 300",
       "buffEffects": [
         {
@@ -128,7 +128,7 @@ export const skills = {
       "rank": 2,
       "name": "Ten-Thousand Blade Flash",
       "icon": "skill001/skill0003_2",
-      "description": "Deals physical damage to the 3 nearest enemies and inflicts Physical Defense DOWN(LV 2) for 10 secondsand BlockDOWN(LV 2) for 10 seconds",
+      "description": "Deals physical damage to the 3 nearest enemies and inflicts Physical Defense DOWN(LV 2) for 10 seconds and BlockDOWN(LV 2) for 10 seconds",
       "effect": "330% + 400",
       "buffEffects": [
         {
@@ -149,7 +149,7 @@ export const skills = {
       "rank": 3,
       "name": "Ten-Thousand Blade Flash",
       "icon": "skill001/skill0003_3",
-      "description": "Deals physical damage to the 3 nearest enemies and inflicts Physical Defense DOWN(LV 3) for 10 secondsand BlockDOWN(LV 3) for 10 seconds",
+      "description": "Deals physical damage to the 3 nearest enemies and inflicts Physical Defense DOWN(LV 3) for 10 seconds and BlockDOWN(LV 3) for 10 seconds",
       "effect": "370% + 500",
       "buffEffects": [
         {
@@ -170,7 +170,7 @@ export const skills = {
       "rank": 4,
       "name": "Ten-Thousand Blade Flash",
       "icon": "skill001/skill0003_4",
-      "description": "Deals physical damage to the 3 nearest enemies and inflicts Physical Defense DOWN(LV 4) for 10 secondsand BlockDOWN(LV 4) for 10 seconds",
+      "description": "Deals physical damage to the 3 nearest enemies and inflicts Physical Defense DOWN(LV 4) for 10 seconds and BlockDOWN(LV 4) for 10 seconds",
       "effect": "400% + 550",
       "buffEffects": [
         {
@@ -191,7 +191,7 @@ export const skills = {
       "rank": 5,
       "name": "Ten-Thousand Blade Flash",
       "icon": "skill001/skill0003_5",
-      "description": "Deals physical damage to the 3 nearest enemies and inflicts Physical Defense DOWN(LV 5) for 10 secondsand BlockDOWN(LV 5) for 10 seconds",
+      "description": "Deals physical damage to the 3 nearest enemies and inflicts Physical Defense DOWN(LV 5) for 10 seconds and BlockDOWN(LV 5) for 10 seconds",
       "effect": "420% + 600",
       "buffEffects": [
         {

@@ -128,7 +128,7 @@ export const skills = {
       "rank": 1,
       "name": "May Everyone’s Feelings Reach…",
       "icon": "skill001/skill0022_1",
-      "description": "Restores HP by to all allies and inflicts Count-Based Recovery Shield(LV 1) for 20 secondsand BlockUP(LV 1) for 10 seconds",
+      "description": "Restores HP to all allies and applies Count-Based Recovery Shield(LV 1) for 20 seconds and BlockUP(LV 1) for 10 seconds",
       "effect": "3000% + 1000",
       "buffEffects": [
         {
@@ -149,7 +149,7 @@ export const skills = {
       "rank": 2,
       "name": "May Everyone’s Feelings Reach…",
       "icon": "skill001/skill0022_2",
-      "description": "Restores HP by to all allies and inflicts Count-Based Recovery Shield(LV 2) for 20 secondsand BlockUP(LV 2) for 10 seconds",
+      "description": "Restores HP to all allies and applies Count-Based Recovery Shield(LV 2) for 20 seconds and BlockUP(LV 2) for 10 seconds",
       "effect": "3400% + 1300",
       "buffEffects": [
         {
@@ -170,7 +170,7 @@ export const skills = {
       "rank": 3,
       "name": "May Everyone’s Feelings Reach…",
       "icon": "skill001/skill0022_3",
-      "description": "Restores HP by to all allies and inflicts Count-Based Recovery Shield(LV 3) for 20 secondsand BlockUP(LV 3) for 10 seconds",
+      "description": "Restores HP to all allies and applies Count-Based Recovery Shield(LV 3) for 20 seconds and BlockUP(LV 3) for 10 seconds",
       "effect": "3700% + 1500",
       "buffEffects": [
         {
@@ -191,7 +191,7 @@ export const skills = {
       "rank": 4,
       "name": "May Everyone’s Feelings Reach…",
       "icon": "skill001/skill0022_4",
-      "description": "Restores HP by to all allies and inflicts Count-Based Recovery Shield(LV 4) for 20 secondsand BlockUP(LV 4) for 10 seconds",
+      "description": "Restores HP to all allies and applies Count-Based Recovery Shield(LV 4) for 20 seconds and BlockUP(LV 4) for 10 seconds",
       "effect": "4000% + 1600",
       "buffEffects": [
         {
@@ -212,7 +212,7 @@ export const skills = {
       "rank": 5,
       "name": "May Everyone’s Feelings Reach…",
       "icon": "skill001/skill0022_5",
-      "description": "Restores HP by to all allies and inflicts Count-Based Recovery Shield(LV 5) for 20 secondsand BlockUP(LV 5) for 10 seconds",
+      "description": "Restores HP to all allies and applies Count-Based Recovery Shield(LV 5) for 20 seconds and BlockUP(LV 5) for 10 seconds",
       "effect": "4200% + 1700",
       "buffEffects": [
         {

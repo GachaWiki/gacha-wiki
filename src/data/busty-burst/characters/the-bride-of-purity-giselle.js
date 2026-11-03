@@ -54,9 +54,9 @@ export const skills = {
       "slot": 2,
       "name": "CULEAR STORYA",
       "icon": "skill001/skill0010",
-      "description": "Deals magic damage to the nearest enemy and inflicts Magic Defense-23%-50 DOWN for 6 seconds and Burn(HP --150 per second) for 15 seconds",
-      "descriptionLv1": "Deals magic damage to the nearest enemy and inflicts Magic Defense-23%-50 DOWN for 6 seconds and Burn(HP --150 per second) for 15 seconds",
-      "descriptionLv90": "Deals magic damage to the nearest enemy and inflicts Magic Defense-23%-320 DOWN for 6 seconds and Burn(HP --1500 per second) for 15 seconds",
+      "description": "Deals magic damage to the nearest enemy and inflicts Magic Defense-23%-50 DOWN for 6 seconds and Burn(HP -150 per second) for 15 seconds",
+      "descriptionLv1": "Deals magic damage to the nearest enemy and inflicts Magic Defense-23%-50 DOWN for 6 seconds and Burn(HP -150 per second) for 15 seconds",
+      "descriptionLv90": "Deals magic damage to the nearest enemy and inflicts Magic Defense-23%-320 DOWN for 6 seconds and Burn(HP -1500 per second) for 15 seconds",
       "target": "Nearest Enemy",
       "castTime": 1.3,
       "damageScaling": "370% ATK",
@@ -127,7 +127,7 @@ export const skills = {
       "rank": 1,
       "name": "Taubte Liebeslieder",
       "icon": "skill001/skill0006_1",
-      "description": "Deals magic damage to the nearest enemy and inflicts Burn(LV 1) for 15 secondsand applies Burn(LV 1) to self for 15 seconds",
+      "description": "Deals magic damage to the nearest enemy, inflicts Burn(LV 1) for 15 seconds, and increases Fire attribute attack power for 8 seconds (10%, depending on LV)",
       "effect": "1100% + 800",
       "buffEffects": [
         {
@@ -148,7 +148,7 @@ export const skills = {
       "rank": 2,
       "name": "Taubte Liebeslieder",
       "icon": "skill001/skill0006_2",
-      "description": "Deals magic damage to the nearest enemy and inflicts Burn(LV 2) for 15 secondsand applies Burn(LV 2) to self for 15 seconds",
+      "description": "Deals magic damage to the nearest enemy, inflicts Burn(LV 2) for 15 seconds, and increases Fire attribute attack power for 9 seconds (13%, depending on LV)",
       "effect": "1320% + 1000",
       "buffEffects": [
         {
@@ -169,7 +169,7 @@ export const skills = {
       "rank": 3,
       "name": "Taubte Liebeslieder",
       "icon": "skill001/skill0006_3",
-      "description": "Deals magic damage to the nearest enemy and inflicts Burn(LV 3) for 15 secondsand applies Burn(LV 3) to self for 15 seconds",
+      "description": "Deals magic damage to the nearest enemy, inflicts Burn(LV 3) for 15 seconds, and increases Fire attribute attack power for 9 seconds (16%, depending on LV)",
       "effect": "1470% + 1150",
       "buffEffects": [
         {
@@ -190,7 +190,7 @@ export const skills = {
       "rank": 4,
       "name": "Taubte Liebeslieder",
       "icon": "skill001/skill0006_4",
-      "description": "Deals magic damage to the nearest enemy and inflicts Burn(LV 4) for 15 secondsand applies Burn(LV 4) to self for 15 seconds",
+      "description": "Deals magic damage to the nearest enemy, inflicts Burn(LV 4) for 15 seconds, and increases Fire attribute attack power for 10 seconds (18%, depending on LV)",
       "effect": "1590% + 1300",
       "buffEffects": [
         {
@@ -211,7 +211,7 @@ export const skills = {
       "rank": 5,
       "name": "Taubte Liebeslieder",
       "icon": "skill001/skill0006_5",
-      "description": "Deals magic damage to the nearest enemy and inflicts Burn(LV 5) for 15 secondsand applies Burn(LV 5) to self for 15 seconds",
+      "description": "Deals magic damage to the nearest enemy, inflicts Burn(LV 5) for 15 seconds, and increases Fire attribute attack power for 10 seconds (20%, depending on LV)",
       "effect": "1700% + 1400",
       "buffEffects": [
         {

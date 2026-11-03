@@ -54,9 +54,9 @@ export const skills = {
       "slot": 2,
       "name": "Blooming Flowers",
       "icon": "skill001/skill0007",
-      "description": "Deals physical damage to the 3 nearest enemies and inflicts Block-11 DOWN for 8 secondsand when defeating an enemy, gain MP Recovery 30",
-      "descriptionLv1": "Deals physical damage to the 3 nearest enemies and inflicts Block-11 DOWN for 8 secondsand when defeating an enemy, gain MP Recovery 30",
-      "descriptionLv90": "Deals physical damage to the 3 nearest enemies and inflicts Block-23 DOWN for 8 secondsand when defeating an enemy, gain MP Recovery 30",
+      "description": "Deals physical damage to the 3 nearest enemies and inflicts Block-11 DOWN for 8 seconds, and when defeating an enemy, gain MP Recovery 30",
+      "descriptionLv1": "Deals physical damage to the 3 nearest enemies and inflicts Block-11 DOWN for 8 seconds, and when defeating an enemy, gain MP Recovery 30",
+      "descriptionLv90": "Deals physical damage to the 3 nearest enemies and inflicts Block-23 DOWN for 8 seconds, and when defeating an enemy, gain MP Recovery 30",
       "target": "Nearest Enemy",
       "castTime": 1.38,
       "damageScaling": "100% ATK",
@@ -125,7 +125,7 @@ export const skills = {
       "rank": 1,
       "name": "A Charming Maiden — Wrapped in Breeze, Surrounded by Blossoms",
       "icon": "skill001/skill0003_1",
-      "description": "Deals physical damage to all enemies and inflicts Wind Type ATK UP(LV 1) for 5 secondsand when defeating an enemy, gain MP Recovery 40",
+      "description": "Deals physical damage to all enemies, applies Wind Type ATK UP(LV 1, 10%) to self for 5 seconds, and when defeating an enemy, gain MP Recovery 40",
       "effect": "500% + 600",
       "buffEffects": [
         {
@@ -145,7 +145,7 @@ export const skills = {
       "rank": 2,
       "name": "A Charming Maiden — Wrapped in Breeze, Surrounded by Blossoms",
       "icon": "skill001/skill0003_2",
-      "description": "Deals physical damage to all enemies and inflicts Wind Type ATK UP(LV 2) for 6 secondsand when defeating an enemy, gain MP Recovery 50",
+      "description": "Deals physical damage to all enemies, applies Wind Type ATK UP(LV 2, 13%) to self for 6 seconds, and when defeating an enemy, gain MP Recovery 50",
       "effect": "700% + 800",
       "buffEffects": [
         {
@@ -165,7 +165,7 @@ export const skills = {
       "rank": 3,
       "name": "A Charming Maiden — Wrapped in Breeze, Surrounded by Blossoms",
       "icon": "skill001/skill0003_3",
-      "description": "Deals physical damage to all enemies and inflicts Wind Type ATK UP(LV 3) for 6 secondsand when defeating an enemy, gain MP Recovery 60",
+      "description": "Deals physical damage to all enemies, applies Wind Type ATK UP(LV 3, 16%) to self for 6 seconds, and when defeating an enemy, gain MP Recovery 60",
       "effect": "850% + 900",
       "buffEffects": [
         {
@@ -185,7 +185,7 @@ export const skills = {
       "rank": 4,
       "name": "A Charming Maiden — Wrapped in Breeze, Surrounded by Blossoms",
       "icon": "skill001/skill0003_4",
-      "description": "Deals physical damage to all enemies and inflicts Wind Type ATK UP(LV 4) for 7 secondsand when defeating an enemy, gain MP Recovery 70",
+      "description": "Deals physical damage to all enemies, applies Wind Type ATK UP(LV 4, 18%) to self for 7 seconds, and when defeating an enemy, gain MP Recovery 70",
       "effect": "950% + 1000",
       "buffEffects": [
         {
@@ -205,7 +205,7 @@ export const skills = {
       "rank": 5,
       "name": "A Charming Maiden — Wrapped in Breeze, Surrounded by Blossoms",
       "icon": "skill001/skill0003_5",
-      "description": "Deals physical damage to all enemies and inflicts Wind Type ATK UP(LV 5) for 7 secondsand when defeating an enemy, gain MP Recovery 80",
+      "description": "Deals physical damage to all enemies, applies Wind Type ATK UP(LV 5, 20%) to self for 7 seconds, and when defeating an enemy, gain MP Recovery 80",
       "effect": "1000% + 1100",
       "buffEffects": [
         {
