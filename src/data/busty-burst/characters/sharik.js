@@ -41,8 +41,8 @@ export const info = {
     }
   },
   "obtain": {
-    "type": "banner",
-    "source": "Standard Banner"
+    "type": "event",
+    "source": "The Sun and the Moon Event (Free)"
   },
   "characterId": 2155
 };

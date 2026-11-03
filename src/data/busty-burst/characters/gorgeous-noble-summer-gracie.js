@@ -40,8 +40,8 @@ export const info = {
     }
   },
   "obtain": {
-    "type": "unknown",
-    "source": ""
+    "type": "event",
+    "source": "Octopus Empire's Counterattack Event (Free)"
   },
   "characterId": 2151
 };
