@@ -165,6 +165,8 @@ export const BUSTY_BURST_TIER_LISTS = {
           'sr_gracie',
           // October 2026 The Sun and the Moon SR (user correction: S tier)
           'sharik',
+          // November 2026 Midsummer Sky Festival SR, free event unit (user verdict: S; nice support that increases crit rate, activates her ultimate quite fast)
+          'songstress-of-the-sky-festival-bernadette',
         ],
       },
       {
@@ -239,6 +241,11 @@ export const TIER_NOTES = {
     type: 'info',
     title: 'Good AoE dealer for events and maps',
     text: 'Good AoE dealer, some events and maps need her. Not game-breaking.',
+  },
+  'songstress-of-the-sky-festival-bernadette': {
+    type: 'info',
+    title: 'Nice support with fast ultimates',
+    text: 'Nice support that increases crit rate, and she can activate her ultimate quite fast.',
   },
 };
 

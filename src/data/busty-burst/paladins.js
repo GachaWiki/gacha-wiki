@@ -1595,6 +1595,16 @@ export const BUSTY_BURST_PALADINS = [
     role: 'Attacker',
     tier: 'SS',
   },
+  {
+    id: 'songstress-of-the-sky-festival-bernadette',
+    characterId: 2159,
+    name: 'Songstress of the Sky Festival: Bernadette',
+    fileName: 'Bernadette',
+    rarity: 'SR',
+    element: 'Wind',
+    role: 'Support',
+    tier: 'S',
+  },
 ];
 
 export const getPaladinById = id => {
