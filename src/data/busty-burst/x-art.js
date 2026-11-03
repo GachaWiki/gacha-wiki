@@ -372,6 +372,9 @@ export const BB_X_CARDS = {
   "songstress-of-the-sky-festival-bernadette": [
     { src: "x/1826190003291971810-1.webp", lang: "jp", date: "2024-08-21", name: "【大空祭の歌姫】ベルナデット" },
   ],
+  "swordsman-of-the-sky-festival-raguen": [
+    { src: "x/1826197553395679369-1.webp", lang: "jp", date: "2024-08-21", name: "【大空祭の剣士】ラーグエン" },
+  ],
   "steaming-dim-sum-lilirara": [
     { src: "x/1828726718292533721-1.webp", lang: "jp", date: "2024-08-28", name: "【ホカホカ点心】リリララ" },
   ],
@@ -634,6 +637,9 @@ export const BB_X_VIDEO_ART = {
     { src: "x/1899769843118993890-1.webp", lang: "jp", date: "2025-03-12", video: "x/videos/1899769843118993890.mp4" },
   ],
   "fireworks-master-of-the-sky-festival-viatrice": [
+    { src: "x/1826212660884521461-1.webp", lang: "jp", date: "2024-08-21", video: "x/videos/1826212660884521461.mp4" },
+  ],
+  "swordsman-of-the-sky-festival-raguen": [
     { src: "x/1826212660884521461-1.webp", lang: "jp", date: "2024-08-21", video: "x/videos/1826212660884521461.mp4" },
   ],
   "gil": [
