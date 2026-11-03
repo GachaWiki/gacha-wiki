@@ -7,7 +7,7 @@ export const damageMechanicsIndex = {
     description:
       "Complete collection of Zone Nova damage mechanics, character calculations, and mathematical formulas. Your one-stop guide for understanding the game's combat system.",
     lastUpdated: new Date(),
-    totalGuides: 2, // Will be updated as we add more
+    totalGuides: 3, // Will be updated as we add more
   },
 
   // Hero section content
@@ -34,6 +34,21 @@ export const damageMechanicsIndex = {
       icon: '⚔️',
       color: 'amber', // Will use --amber-glow
       guides: [
+        {
+          id: 'combat-modifier-system',
+          title: 'Combat Modifier System',
+          description:
+            'Every combat modifier decoded from the game code: the five damage categories, Defense vs Resistance, attack speed, crit rules, and the complete modifier table',
+          url: '/guides/zone-nova/damage-mechanics/modifier-system/',
+          difficulty: 'Intermediate',
+          estimatedTime: '8 min read',
+          features: [
+            'Complete 102-entry modifier table',
+            'Defense vs Resistance explained',
+            'Attack speed decoded',
+            'Crit and DOT rules',
+          ],
+        },
         {
           id: 'damage-defense-formulas',
           title: 'Damage & Defense Formulas',

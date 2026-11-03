@@ -1,0 +1,267 @@
+---
+// Zone Nova combat modifier system, decoded from the game client code:
+// the complete BuffModifierType battle enum (102 entries) cross-referenced with
+// the official stat-name localization (MOD_* keys). Client wave: November 2026.
+import DamageMechanicsPageLayout from '../../../../layouts/zone-nova/DamageMechanicsPageLayout.astro';
+
+export const prerender = true;
+
+const CORE_STATS = [
+  ['HP_ADD / HP_RATE', 'HP / HP Rate', 'Flat and percent HP'],
+  ['DP_ADD / DP_RATE', 'Durability', 'Shield (DP) pool, flat and percent'],
+  ['ATK_ADD / ATK_RATE', 'Attack / Atk Rate', 'Flat and percent Attack'],
+  ['DEF_ADD / DEF_RATE', 'Defense / Def Rate', 'Flat and percent Defense, the universal mitigation stat'],
+  ['MANA_RATE_ADD / RATE', 'Energy Recovery', 'Energy provided per second (base 0.25/s per character)'],
+  ['MOVE_SPEED_ADD', 'Movement Speed Bonus', 'Field movement only'],
+];
+
+const CRIT_BLOCK = [
+  ['CRITICAL_CHANCE_ADD', 'Crit Rate', 'Crit chance'],
+  ['CRITICAL_DAMAGE_ADD', 'Crit Damage', 'Crit damage bonus'],
+  ['CRITICAL_CHANCE_RESIST', 'Crit Resist', 'Reduces the attacker crit chance against this unit'],
+  ['BLOCK_CHANCE_ADD', 'Block Damage Reduction', 'Chance to block, and how much a block reduces'],
+  ['NEUTRALIZE_RATE / DAMAGE_REDUCE', 'Neutralize', 'Chance to reduce an incoming hit by 30%. Critical damage ignores Neutralize checks'],
+];
+
+const PENETRATION = [
+  ['DEF_PENERATE_ADD', 'Penetration', 'Flat Defense ignored by this character'],
+  ['DEF_PENERATE_RATE', 'Pene Rate', 'Percentage of enemy Defense ignored'],
+  ['DAMAGE_RESIST_PENERATE (+5 element)', 'Resist Penetration', 'Ignores the target Resist layer, generic or per element. Example: Zeus Pursue penetrates 20% Elemental Resistance'],
+];
+
+const DAMAGE_CATEGORIES = [
+  ['NORMAL_ATK_DAMAGE_GAIN', 'Normal Attack DMG', 'Dealt +: normal attacks'],
+  ['SKILL_ATK_DAMAGE_GAIN', 'Skill DMG', 'Dealt +: skills'],
+  ['ULTIMATE_ATK_DAMAGE_GAIN', 'Ultimate DMG', 'Dealt +: ultimates'],
+  ['PURSUE_ATK_DAMAGE_GAIN', 'Pursue DMG', 'Dealt +: pursue (follow-up) damage'],
+  ['DOT_ATK_DAMAGE_GAIN', 'Continuous DMG', 'Dealt +: damage over time'],
+  ['DAMAGE_GAIN', 'DMG', 'Generic dealt +, stacks with the category versions'],
+  ['(same 5 + generic) _VULNERABLE', 'Damage Taken', 'Taken +: per category and generic'],
+  ['(same 5 + generic) _REDUCE', 'Damage Reduce', 'Reduction: per category and generic'],
+];
+
+const ELEMENTS = [
+  ['WIND_DAMAGE_GAIN', 'Storm DMG', 'Dealt + for Wind'],
+  ['FIRE_DAMAGE_GAIN', 'Blaze DMG', 'Dealt + for Fire'],
+  ['ICE_DAMAGE_GAIN', 'Frost DMG', 'Dealt + for Ice'],
+  ['LIGHT_DAMAGE_GAIN', 'Holy DMG', 'Dealt + for Holy'],
+  ['DARK_DAMAGE_GAIN', 'Chaos DMG', 'Dealt + for Chaos'],
+  ['(same 5) _DAMAGE_VULNERABLE', 'Attribute Damage Taken', 'Taken + per element, e.g. Holy Attribute Damage Taken'],
+  ['DAMAGE_RESIST_ADD (+5 element)', 'Resist', 'The element Resist layer, generic or per element (what Holy Resistance means)'],
+  ['WIND..DARK_ELEMENT_WEAKNESS', 'Element Weakness', 'Enemy-side weakness values. Hitting a weakness with the matching element deals bonus damage'],
+];
+
+const COOLDOWNS = [
+  ['NORMAL_SKILL_CD_RATE', 'Attack Speed', 'The stat shown as Attack Speed is internally the Normal Attack cooldown rate. It only affects normal attacks'],
+  ['CHAR_SKILL_CD_RATE', 'Skill Cooldown', 'Skills only'],
+  ['CHAR_ULT_CD_RATE', 'ULT Cooldown', 'Ultimates only'],
+  ['ALL_SKILL_CD_RATE', '(all)', 'Rare: all three at once'],
+];
+
+const UTILITY = [
+  ['HP_HEAL_GAIN / HP_BEING_HEAL_GAIN', 'Heal Bonus / Heal', 'Healing done and healing received'],
+  ['SHIELD_EFFECT_GAIN / BEING', 'Shield', 'Shield strength given and received'],
+  ['KD_DAMAGE_VULNERABLE / KD_DURATION_ADD', 'Knockback', 'Knockback damage taken and duration'],
+  ['CS_DURATION_ADD', 'Control Duration', 'Crowd control duration on this unit'],
+  ['RESIST_CONTROL / KNOCKBACK / DYING / DAMAGE', 'Resists', 'Resistance to control, knockback, lethal damage, and damage'],
+  ['STUNNING', 'Stunning', 'Stun state'],
+  ['SKILL_HPCOST_MOD', 'HP Cost', 'Modifies HP costs (e.g. Nini Frost Burning)'],
+];
+---
+
+<DamageMechanicsPageLayout
+  title="Zone Nova Combat Modifier System (Game Code Reference) - GachaWiki"
+  description="Every combat modifier in Zone Nova decoded from the game code: damage categories, Defense vs Resistance, attack speed, crit rules, and the complete 102-entry modifier table with official in-game names."
+  gameTitle="Combat Modifier System"
+>
+  <div class="gaia-mechanics-main-container">
+    <section class="zn-cf-content-section">
+      <h2>Source: The Game Client Code</h2>
+      <p>
+        Everything on this page is decoded from the game itself: the battle code ships one complete
+        modifier enum (<strong>BuffModifierType</strong>, 102 entries in the November 2026 client)
+        and the game's own localization maps every stat to its in-game display name. No community
+        guesswork below except where marked.
+      </p>
+    </section>
+
+    <section class="zn-cf-content-section">
+      <h2>The Five Damage Categories</h2>
+      <p>
+        Every damage instance in Zone Nova belongs to exactly one category:
+        <strong>Normal Attack, Skill, Ultimate, Pursue, or Continuous (DOT)</strong>. Each category
+        has its own dealt-plus, taken-plus, and reduction modifiers (plus generic versions that
+        stack with them). That is why buffs like Suzuka Gozen's [Keen Eye] read
+        "Ultimate and Pursue damage +15%" as two separate things, and why Zeus's extra greatsword
+        hit is "treated as Pursue Damage": it inherits the Pursue category, including his Pursue-only
+        Elemental Resistance penetration.
+      </p>
+      <p>
+        Pursue is the follow-up damage category (Athena's and Suzuka's extra hits, pursuit splashes).
+        Continuous is damage over time. See the crit section for what DOT can never do.
+      </p>
+    </section>
+
+    <section class="zn-cf-content-section">
+      <h2>Defense vs Resistance</h2>
+      <p><strong>Short answer: Defense reduces ALL damage, including elemental. Element mitigation is a separate layer that stacks on top.</strong></p>
+      <p>
+        The complete modifier enum proves the split: <strong>Defense</strong> (Defense, Def Rate,
+        Penetration, Pene Rate, Def Reduce) has <strong>no per-element variants</strong>. It is one
+        universal mitigation step in the core formula (see the
+        <a href="/guides/zone-nova/damage-mechanics/core-formulas/">Core Damage Formulas</a>
+        page: Final Damage = (Attack x K) / (Defense + K) x (1 - Damage Reduction%), K = 972.95).
+      </p>
+      <p>
+        <strong>Resistance is the elemental layer</strong>: five element pairs of "Blaze / Frost /
+        Storm / Holy / Chaos DMG" (deal more) and "Attribute Damage Taken" (take more), plus the
+        Resist family (generic and per element) with its own Resist Penetration. When a skill says
+        "45% Holy Resistance" or "penetrates 20% Elemental Resistance", it touches this layer, not
+        Defense. Since every skill in the game deals elemental damage, Defense could not skip
+        elemental hits without being a dead stat for every attack in the game.
+      </p>
+    </section>
+
+    <section class="zn-cf-content-section">
+      <h2>Attack Speed and Cooldowns, Decoded</h2>
+      <p>
+        The stat the game displays as <strong>"Attack Speed" is internally the Normal Attack
+        cooldown rate</strong> (NORMAL_SKILL_CD_RATE). It only makes normal attacks faster. Skills
+        and Ultimates run on their own separate stats: Skill Cooldown and ULT Cooldown. Athena's
+        passive lists them side by side: "increase attack speed by X and reduce skill cooldown by Y".
+      </p>
+      <p>
+        "Basic / Base attack speed" (Freya and Nini ultimates) raises the baseline of the normal
+        attack speed stat, while regular attack speed buffs stack on top: Freya's Golden Wind Bind
+        applies both at once (base +50%, attack speed +60%). Nini's Frost Burning "Basic skill
+        colddown decreased to 3s" (typo is in the official text) sets her skill cooldown baseline
+        to a flat 3 seconds.
+      </p>
+    </section>
+
+    <section class="zn-cf-content-section">
+      <h2>Crit Rules</h2>
+      <p>
+        Three crit stats exist: Crit Rate, Crit Damage, and a defensive
+        <strong>Crit Resist</strong> that lowers the attacker's crit chance against that unit.
+      </p>
+      <p>
+        <strong>Damage over time can never crit.</strong> Odin's kit states it outright: "All of
+        Odin's damage is considered damage over time, which cannot crit", and that is why her
+        passive converts every 1% Crit Rate into 1% Blaze DMG instead. Individual hits can also be
+        flagged no-crit regardless of category (Athena's Pursue follow-up "cannot crit").
+      </p>
+    </section>
+
+    <section class="zn-cf-content-section">
+      <h2>Buff Interaction Terms</h2>
+      <p>
+        <strong>Dispel</strong> removes beneficial buffs (buff stacks) from enemies. Suzuka Gozen's
+        Sevenfold Tide Slash "removes 1 stack from each beneficial buff on every enemy hit", and her
+        [Bow Draw] notes it "can be dispelled". <strong>Cleanse</strong> removes debuffs from your
+        own side. Her passive uses both in one sentence: "cannot be dispelled or cleansed".
+      </p>
+      <p>
+        <strong>Base Attack / Base Defense / Base HP</strong> (the stat details screen) are the
+        unbuffed values. Skills that target "the enemy with the highest base Attack" ignore buffs,
+        and Bedivere's [Frost Lock] slows the attacker's "Basic Attack and Skill cooldown" (Basic
+        Attack = the normal attack action itself).
+      </p>
+    </section>
+
+    <section class="zn-cf-content-section">
+      <h2>The Complete Modifier Table</h2>
+      <p>
+        Internal enum key with its official in-game display name, grouped by family. Values use a
+        per-thousand basis internally (1000 = 100%).
+      </p>
+
+      <h3>Core Stats</h3>
+      <table class="zn-cf-mod-table">
+        <tr><th>Modifier</th><th>In-game name</th><th>Notes</th></tr>
+        {CORE_STATS.map(r => <tr><td class="zn-cf-mod-key">{r[0]}</td><td>{r[1]}</td><td>{r[2]}</td></tr>)}
+      </table>
+
+      <h3>Crit, Block and Neutralize</h3>
+      <table class="zn-cf-mod-table">
+        <tr><th>Modifier</th><th>In-game name</th><th>Notes</th></tr>
+        {CRIT_BLOCK.map(r => <tr><td class="zn-cf-mod-key">{r[0]}</td><td>{r[1]}</td><td>{r[2]}</td></tr>)}
+      </table>
+
+      <h3>Penetration and Resist</h3>
+      <table class="zn-cf-mod-table">
+        <tr><th>Modifier</th><th>In-game name</th><th>Notes</th></tr>
+        {PENETRATION.map(r => <tr><td class="zn-cf-mod-key">{r[0]}</td><td>{r[1]}</td><td>{r[2]}</td></tr>)}
+      </table>
+
+      <h3>Damage Categories (dealt / taken / reduced)</h3>
+      <table class="zn-cf-mod-table">
+        <tr><th>Modifier</th><th>In-game name</th><th>Notes</th></tr>
+        {DAMAGE_CATEGORIES.map(r => <tr><td class="zn-cf-mod-key">{r[0]}</td><td>{r[1]}</td><td>{r[2]}</td></tr>)}
+      </table>
+
+      <h3>Element Layer</h3>
+      <table class="zn-cf-mod-table">
+        <tr><th>Modifier</th><th>In-game name</th><th>Notes</th></tr>
+        {ELEMENTS.map(r => <tr><td class="zn-cf-mod-key">{r[0]}</td><td>{r[1]}</td><td>{r[2]}</td></tr>)}
+      </table>
+
+      <h3>Cooldowns</h3>
+      <table class="zn-cf-mod-table">
+        <tr><th>Modifier</th><th>In-game name</th><th>Notes</th></tr>
+        {COOLDOWNS.map(r => <tr><td class="zn-cf-mod-key">{r[0]}</td><td>{r[1]}</td><td>{r[2]}</td></tr>)}
+      </table>
+
+      <h3>Utility and Control</h3>
+      <table class="zn-cf-mod-table">
+        <tr><th>Modifier</th><th>In-game name</th><th>Notes</th></tr>
+        {UTILITY.map(r => <tr><td class="zn-cf-mod-key">{r[0]}</td><td>{r[1]}</td><td>{r[2]}</td></tr>)}
+      </table>
+
+      <p class="zn-cf-note">
+        Not yet verified from the client: the exact multiplication ORDER of the layers (which layer
+        applies before Defense, where element weakness sits), and the K = 972.95 coefficient is
+        community research (GameKee) carried on our Core Formulas page. The battle math runs on the
+        server, so the enum above is the code-level truth while the ordering stays flagged as
+        community knowledge.
+      </p>
+    </section>
+  </div>
+</DamageMechanicsPageLayout>
+
+<style>
+  .zn-cf-mod-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0.75rem 0 1.5rem;
+    font-size: var(--text-sm);
+  }
+
+  .zn-cf-mod-table th {
+    text-align: left;
+    color: var(--amber-glow);
+    font-weight: 600;
+    padding: 0.5rem 0.6rem;
+    border-bottom: 1px solid var(--zn-border);
+    font-size: var(--text-xs);
+  }
+
+  .zn-cf-mod-table td {
+    padding: 0.5rem 0.6rem;
+    border-bottom: 1px solid var(--zn-border);
+    color: var(--zn-text-primary);
+    vertical-align: top;
+  }
+
+  .zn-cf-mod-table .zn-cf-mod-key {
+    font-weight: 600;
+    white-space: normal;
+    word-break: break-word;
+  }
+
+  .zn-cf-note {
+    color: var(--zn-text-muted);
+    font-size: var(--text-sm);
+    font-style: italic;
+  }
+</style>
