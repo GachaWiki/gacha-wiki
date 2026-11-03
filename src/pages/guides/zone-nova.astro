@@ -5,13 +5,38 @@ import DiscordPromo from '../../components/DiscordPromo.astro';
 import { zoneNovaConfig } from '../../data/zone-nova/zone-nova.js';
 import { CUTE_AVATARS } from '../../data/zone-nova/avatars.js';
 
-// Chibi icons for the Resources buttons (game profile avatars)
+// Chibi icons for the guide buttons (game profile avatars)
 const RESOURCE_ICONS = {
-  'beginner-guide': CUTE_AVATARS['chiya'],
+  // Characters
+  characters: CUTE_AVATARS['medusa'],
+  'tier-list': CUTE_AVATARS['nephthys'],
+  'character-rankings': CUTE_AVATARS['athena'],
+  'character-builds': CUTE_AVATARS['sharin'],
+  'character-tags': CUTE_AVATARS['chiya'],
+  // Combat
+  'damage-mechanics': CUTE_AVATARS['wrath-samael'],
+  rifts: CUTE_AVATARS['fenrir'],
+  'rift-teams': CUTE_AVATARS['suzuka-gozen'],
+  'trial-of-bravery': CUTE_AVATARS['sigurd'],
+  memories: CUTE_AVATARS['tamamo-no-mae'],
+  'memory-tier-list': CUTE_AVATARS['shuten-doji'],
+  'team-synergy': CUTE_AVATARS['bors'],
+  // Progression
+  'exp-requirements': CUTE_AVATARS['lily'],
+  runes: CUTE_AVATARS['set'],
+  crafting: CUTE_AVATARS['jill'],
+  'crafting-items': CUTE_AVATARS['apep'],
+  items: CUTE_AVATARS['hela'],
+  // Resources
+  'beginner-guide': CUTE_AVATARS['erika'],
   clock: CUTE_AVATARS['hiyori'],
   'redeem-codes': CUTE_AVATARS['nina'],
   'summon-faq': CUTE_AVATARS['lavinia'],
   'data-extractor': CUTE_AVATARS['keller'],
+  // Community
+  updates: CUTE_AVATARS['veronica'],
+  surveys: CUTE_AVATARS['gaia'],
+  contributing: CUTE_AVATARS['freya'],
 };
 // Hero image served from Cloudflare R2
 const heroImg = 'https://k2b1c5ab57ed98e51.gachawiki.info/zone-nova/zonenova1.jpg';
