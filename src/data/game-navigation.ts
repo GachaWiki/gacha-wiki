@@ -123,6 +123,7 @@ export const NAV_DATA: Record<GameKey, { sections: NavigationSection[] }> = {
       {
         title: 'Resources',
         links: [
+          { name: 'Beginner Guide', href: '/guides/zone-nova/beginner-guide/' },
           { name: 'Clock', href: '/clock/zone-nova/' },
           { name: 'Redeem Codes', href: '/guides/zone-nova/redeem-codes/' },
           { name: 'Summon FAQ', href: '/guides/zone-nova/summon-faq/' },
