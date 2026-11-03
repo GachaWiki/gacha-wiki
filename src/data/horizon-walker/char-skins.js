@@ -240,6 +240,7 @@ export const CHAR_SKINS = {
     { id: 75, number: 'S02', name: "Halloween", icon: 'UI_Icon_Hero_Vlissing_S02.png', fullIcon: 'UI_Icon_Hero_Full_Vlissing_S02.png', isDefault: false },
     { id: 148, number: 'S03', name: "Lingerie", icon: 'UI_Icon_Hero_Vlissing_S03.png', fullIcon: 'UI_Icon_Hero_Full_Vlissing_S03.png', isDefault: false },
     { id: 174, number: 'S04', name: "Barely-Maid", icon: 'UI_Icon_Hero_Vlissing_S04.png', fullIcon: 'UI_Icon_Hero_Full_Vlissing_S04.png', isDefault: false },
+    { id: 234, number: 'S05', name: "Halloween 2", icon: 'UI_Icon_Hero_Vlissing_S05.png', fullIcon: 'UI_Icon_Hero_Full_Vlissing_S05.png', isDefault: false },
   ],
   48: [
     { id: 33, number: 'N01', name: "Default", icon: 'UI_Icon_Hero_Valeta_N01.png', fullIcon: 'UI_Icon_Hero_Full_Valeta_N01.png', isDefault: true },
