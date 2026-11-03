@@ -5,6 +5,31 @@
  */
 
 export const bannerTimelineData = [
+  // #49 - "Midsummer Sky Festival" / Viatrice & Raguen (Nov 3 - Nov 17) - CURRENT
+  {
+    id: 'midsummer-sky-festival-2026',
+    title: '"Midsummer Sky Festival" Event Summon',
+    bannerType: 'event',
+    featuredPaladins: [
+      {
+        name: 'Viatrice',
+        rarity: 'SSR',
+        type: 'Attacker',
+      },
+      {
+        name: 'Raguen',
+        rarity: 'SSR',
+        type: 'Attacker',
+      },
+    ],
+    startDate: '2026-11-03T04:00:00Z',
+    endDate: '2026-11-17T03:00:00Z',
+    description:
+      '"Midsummer Sky Festival" Event Summon! New Paladin Rate Up! Viatrice (SSR Fire Magical Attacker), a back-row fireworks artisan whose volleys always hit, stun the crowd and shred enemy magic defense, and Raguen (SSR Light Physical Attacker), a front-row festival swordsman who silences targets and charms the nearest enemy. Guaranteed SR Paladin when performing a 10-pull.',
+    note: 'Viatrice (characterId 2157) and Raguen (2158), first banner pickups. Official EN skill text landed with the Nov 3 hot-update (their pages previously carried fan translations: Pop it out! / Snap snap snap~!! / Fabulous Bang! Bang! Bang~!! renamed officially to Fire it! / Clack~Clack~Clack~!! / Spectacular Bang! Bang! Boom!! for Viatrice; Bern Sacred Sword Art - Courage Slash Vestment ver renamed to Vern Sacred Sword Art: Brave slash Yukata version for Raguen). The wave\'s third unit, Songstress of the Sky Festival Bernadette (SR Wind Support, 2159), is on no banner, following the Sharik pattern. The heroes\' Title field reads "2024 Sky Festival", the JP-era event year; EN receives the event in 2026. End time from game data (2026/11/17 03:00 UTC); start from the rotation switch on Nov 3 when "Entwined with the Wind" and "The Sun and the Moon" ended.',
+    status: 'current',
+    image: 'banner-midsummer-sky-festival',
+  },
   // #48 - "Entwined with the Wind" / Lin (Oct 27 - Nov 3) - CURRENT
   {
     id: 'entwined-with-the-wind-2026',
@@ -1209,6 +1234,81 @@ seasonalCharactersData.forEach(season => {
  * Guild Battle pickup summons, tracked separately from the main timeline.
  */
 export const guildBattleData = [
+  // Competitive Battle WATER pick up (Nov 3 - Nov 17) - CURRENT
+  {
+    id: 'competitive-battle-water-2026-11',
+    title: 'Competitive Battle・WATER Pick Up Summon',
+    bannerType: 'event',
+    featuredPaladins: [
+      {
+        name: '[Hypnotic Dancer] Messeria',
+        rarity: 'SSR',
+        type: 'Support',
+      },
+      {
+        name: 'Estiriel',
+        rarity: 'SSR',
+        type: 'Attacker',
+      },
+      {
+        name: 'Luca',
+        rarity: 'SSR',
+        type: 'Attacker',
+      },
+      {
+        name: 'Meinias',
+        rarity: 'SSR',
+        type: 'Attacker',
+      },
+      {
+        name: 'Hisara',
+        rarity: 'SSR',
+        type: 'Attacker',
+      },
+      {
+        name: 'Shaty',
+        rarity: 'SSR',
+        type: 'Attacker',
+      },
+      {
+        name: 'Lucie',
+        rarity: 'SSR',
+        type: 'Attacker',
+      },
+      {
+        name: 'Magdalena',
+        rarity: 'SSR',
+        type: 'Tank',
+      },
+      {
+        name: 'Nerys',
+        rarity: 'SR',
+        type: 'Attacker',
+      },
+      {
+        name: 'Messeria',
+        rarity: 'SR',
+        type: 'Support',
+      },
+      {
+        name: 'Artemis',
+        rarity: 'SR',
+        type: 'Attacker',
+      },
+      {
+        name: 'Celestia',
+        rarity: 'SR',
+        type: 'Support',
+      },
+    ],
+    startDate: '2026-11-03T04:00:00Z',
+    endDate: '2026-11-17T03:00:00Z',
+    description:
+      'Competitive Battle WATER support summon! Rate up for Wind-attribute paladins ahead of the WATER Competitive Battle: Hypnotic Dancer Messeria, Estiriel, Luca, Meinias, Hisara, Shaty, Lucie and Magdalena at SSR, plus Nerys, Messeria, Artemis and Celestia at SR. Guaranteed SR Paladin when performing a 10-pull.',
+    note: 'Attribute pickup summon for the Competitive Battle WATER season, boosting the counter element (Wind), like MIND boosted Dark and FIRE boosted Water. Two-week run: end time from game data (2026/11/17 03:00 UTC); start from the rotation switch on Nov 3 when the MIND pickup ended. This season\'s 804x434 art shipped in the activity-banner-2047 bundle (Summon_keigeki_22), unlike the FIRE season whose keigeki art existed in no cached bundle. Both Messeria versions are rate up: the Hypnotic Dancer SSR variant (2044) and the base SR (2021).',
+    status: 'current',
+    image: 'banner-competitive-battle-water-nov',
+  },
   // Competitive Battle MIND pick up (Oct 20 - Nov 3) - CURRENT
   {
     id: 'competitive-battle-mind-2026-10',

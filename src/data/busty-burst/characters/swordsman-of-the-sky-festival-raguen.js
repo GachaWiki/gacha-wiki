@@ -41,8 +41,8 @@ export const info = {
     }
   },
   "obtain": {
-    "type": "unknown",
-    "source": ""
+    "type": "banner",
+    "source": "Midsummer Sky Festival Event Summon"
   },
   "characterId": 2158
 };
@@ -52,11 +52,11 @@ export const skills = {
   "skills": [
     {
       "slot": 2,
-      "name": "Bern Sacred Sword Art - Courage Slash Vestment ver ",
+      "name": "Vern Sacred Sword Art: Brave slash Yukata version",
       "icon": "skill001/skill0002",
-      "description": "Deals physical damage to the nearest enemy and inflicts Physical Defense -23%-50 DOWN for 6 seconds, 3s",
-      "descriptionLv1": "Deals physical damage to the nearest enemy and inflicts Physical Defense -23%-50 DOWN for 6 seconds, 3s",
-      "descriptionLv90": "Deals physical damage to the nearest enemy and inflicts Physical Defense -23%-320 DOWN for 6 seconds, 3s",
+      "description": "Deals physical damage to the nearest enemy. Also inflicts Physical Defense -23%-50 DOWN for 6 seconds and SILENCE for 3 seconds",
+      "descriptionLv1": "Deals physical damage to the nearest enemy. Also inflicts Physical Defense -23%-50 DOWN for 6 seconds and SILENCE for 3 seconds",
+      "descriptionLv90": "Deals physical damage to the nearest enemy. Also inflicts Physical Defense -23%-320 DOWN for 6 seconds and SILENCE for 3 seconds",
       "target": "Nearest Enemy",
       "castTime": 1.45,
       "damageScaling": "350% ATK",
@@ -87,11 +87,11 @@ export const skills = {
     },
     {
       "slot": 3,
-      "name": "So hot...",
+      "name": "Too Hot…",
       "icon": "skill001/skill0011",
-      "description": "Applies Physical Critical Damage 50 UP to self for 12 seconds and Accuracy 11 UP for 12 seconds, 1 enemies 4s",
-      "descriptionLv1": "Applies Physical Critical Damage 50 UP to self for 12 seconds and Accuracy 11 UP for 12 seconds, 1 enemies 4s",
-      "descriptionLv90": "Applies Physical Critical Damage 680 UP to self for 12 seconds and Accuracy 23 UP for 12 seconds, 1 enemies 4s",
+      "description": "Applies Physical Critical Damage 50 UP to self for 12 seconds and Accuracy 11 UP for 12 seconds. Also inflicts CHARM to the nearest enemy for 4 seconds",
+      "descriptionLv1": "Applies Physical Critical Damage 50 UP to self for 12 seconds and Accuracy 11 UP for 12 seconds. Also inflicts CHARM to the nearest enemy for 4 seconds",
+      "descriptionLv90": "Applies Physical Critical Damage 680 UP to self for 12 seconds and Accuracy 23 UP for 12 seconds. Also inflicts CHARM to the nearest enemy for 4 seconds",
       "target": "Nearest Enemy",
       "castTime": 1.45,
       "damageScaling": null,
@@ -133,7 +133,7 @@ export const skills = {
   "ultimate": [
     {
       "rank": 1,
-      "name": "Caeroclal Fladius!",
+      "name": "Kaerokural Fladius!!",
       "icon": "skill001/skill0003_1",
       "description": "Deals physical damage to the nearest enemy and inflicts Holy Type Damage Taken UP(LV 1) for 8 seconds and BlockDOWN(LV 1) for 10 seconds",
       "effect": "1100% + 800",
@@ -154,7 +154,7 @@ export const skills = {
     },
     {
       "rank": 2,
-      "name": "Caeroclal Fladius!",
+      "name": "Kaerokural Fladius!!",
       "icon": "skill001/skill0003_2",
       "description": "Deals physical damage to the nearest enemy and inflicts Holy Type Damage Taken UP(LV 2) for 8 seconds and BlockDOWN(LV 2) for 10 seconds",
       "effect": "1320% + 1000",
@@ -175,7 +175,7 @@ export const skills = {
     },
     {
       "rank": 3,
-      "name": "Caeroclal Fladius!",
+      "name": "Kaerokural Fladius!!",
       "icon": "skill001/skill0003_3",
       "description": "Deals physical damage to the nearest enemy and inflicts Holy Type Damage Taken UP(LV 3) for 8 seconds and BlockDOWN(LV 3) for 10 seconds",
       "effect": "1470% + 1150",
@@ -196,7 +196,7 @@ export const skills = {
     },
     {
       "rank": 4,
-      "name": "Caeroclal Fladius!",
+      "name": "Kaerokural Fladius!!",
       "icon": "skill001/skill0003_4",
       "description": "Deals physical damage to the nearest enemy and inflicts Holy Type Damage Taken UP(LV 4) for 8 seconds and BlockDOWN(LV 4) for 10 seconds",
       "effect": "1590% + 1300",
@@ -217,7 +217,7 @@ export const skills = {
     },
     {
       "rank": 5,
-      "name": "Caeroclal Fladius!",
+      "name": "Kaerokural Fladius!!",
       "icon": "skill001/skill0003_5",
       "description": "Deals physical damage to the nearest enemy and inflicts Holy Type Damage Taken UP(LV 5) for 8 seconds and BlockDOWN(LV 5) for 10 seconds",
       "effect": "1700% + 1400",
@@ -242,7 +242,7 @@ export const skills = {
       "slot": 1,
       "name": "Action Speed +, MP Recovery",
       "icon": "skill001/skill1001",
-      "description": "Gain Action Speed UP(Medium), after casting an ultimate, self MP Recovery 200",
+      "description": "Gain Action Speed UP(Medium) and also MP Recovery 200 after casting ultimate",
       "effect": "Action Speed + (+10), MP Recovery (+200%)",
       "effectValues": [
         {

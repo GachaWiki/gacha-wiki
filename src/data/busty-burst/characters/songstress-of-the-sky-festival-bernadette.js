@@ -53,7 +53,7 @@ export const skills = {
   "skills": [
     {
       "slot": 2,
-      "name": "Can you stay away from me?",
+      "name": "Get away from me",
       "icon": "skill001/skill0007",
       "description": "Deals physical damage to the nearest enemy and inflicts Block-11 DOWN for 6 seconds",
       "descriptionLv1": "Deals physical damage to the nearest enemy and inflicts Block-11 DOWN for 6 seconds",
@@ -81,7 +81,7 @@ export const skills = {
     },
     {
       "slot": 3,
-      "name": "I look elegant in anything!",
+      "name": "I look elegant no matter what I wear!",
       "icon": "skill001/skill0019",
       "description": "Applies MP Regeneration 30 to self for 10 seconds and Block 11 UP for 12 seconds",
       "descriptionLv1": "Applies MP Regeneration 30 to self for 10 seconds and Block 11 UP for 12 seconds",
@@ -118,9 +118,9 @@ export const skills = {
   "ultimate": [
     {
       "rank": 1,
-      "name": "My Radiant Flower Shining in the Night Sky",
+      "name": "Night Sky Sparkling Great Bloom",
       "icon": "skill001/skill0020_1",
-      "description": "Applies Accuracy UP(LV 1) to all allies for 10 seconds and Physical Critical DamageUP(LV 1) for 10 seconds, 10s Magic Critical DamageUP(LV 1)",
+      "description": "Applies Accuracy UP(LV 1) to all allies for 10 seconds, Physical Critical DamageUP(LV 1) for 10 seconds and Magic Critical DamageUP(LV 1) for 10 seconds",
       "effect": "300% + 0",
       "buffEffects": [
         {
@@ -145,9 +145,9 @@ export const skills = {
     },
     {
       "rank": 2,
-      "name": "My Radiant Flower Shining in the Night Sky",
+      "name": "Night Sky Sparkling Great Bloom",
       "icon": "skill001/skill0020_2",
-      "description": "Applies Accuracy UP(LV 2) to all allies for 10 seconds and Physical Critical DamageUP(LV 2) for 10 seconds, 10s Magic Critical DamageUP(LV 2)",
+      "description": "Applies Accuracy UP(LV 2) to all allies for 10 seconds, Physical Critical DamageUP(LV 2) for 10 seconds and Magic Critical DamageUP(LV 2) for 10 seconds",
       "effect": "300% + 0",
       "buffEffects": [
         {
@@ -172,9 +172,9 @@ export const skills = {
     },
     {
       "rank": 3,
-      "name": "My Radiant Flower Shining in the Night Sky",
+      "name": "Night Sky Sparkling Great Bloom",
       "icon": "skill001/skill0020_3",
-      "description": "Applies Accuracy UP(LV 3) to all allies for 10 seconds and Physical Critical DamageUP(LV 3) for 10 seconds, 10s Magic Critical DamageUP(LV 3)",
+      "description": "Applies Accuracy UP(LV 3) to all allies for 10 seconds, Physical Critical DamageUP(LV 3) for 10 seconds and Magic Critical DamageUP(LV 3) for 10 seconds",
       "effect": "300% + 0",
       "buffEffects": [
         {
@@ -199,9 +199,9 @@ export const skills = {
     },
     {
       "rank": 4,
-      "name": "My Radiant Flower Shining in the Night Sky",
+      "name": "Night Sky Sparkling Great Bloom",
       "icon": "skill001/skill0020_4",
-      "description": "Applies Accuracy UP(LV 4) to all allies for 10 seconds and Physical Critical DamageUP(LV 4) for 10 seconds, 10s Magic Critical DamageUP(LV 4)",
+      "description": "Applies Accuracy UP(LV 4) to all allies for 10 seconds, Physical Critical DamageUP(LV 4) for 10 seconds and Magic Critical DamageUP(LV 4) for 10 seconds",
       "effect": "300% + 0",
       "buffEffects": [
         {
@@ -226,9 +226,9 @@ export const skills = {
     },
     {
       "rank": 5,
-      "name": "My Radiant Flower Shining in the Night Sky",
+      "name": "Night Sky Sparkling Great Bloom",
       "icon": "skill001/skill0020_5",
-      "description": "Applies Accuracy UP(LV 5) to all allies for 10 seconds and Physical Critical DamageUP(LV 5) for 10 seconds, 10s Magic Critical DamageUP(LV 5)",
+      "description": "Applies Accuracy UP(LV 5) to all allies for 10 seconds, Physical Critical DamageUP(LV 5) for 10 seconds and Magic Critical DamageUP(LV 5) for 10 seconds",
       "effect": "300% + 0",
       "buffEffects": [
         {
@@ -257,7 +257,7 @@ export const skills = {
       "slot": 1,
       "name": "MP Recovery",
       "icon": "skill001/skill1003",
-      "description": "After an ally casts an ultimate, Gain MP Recovery 50",
+      "description": "Gain MP Recovery 50 after allies casting ultimate",
       "effect": "MP Recovery (+50%)",
       "effectValues": [
         {
@@ -272,7 +272,7 @@ export const skills = {
       "slot": 2,
       "name": "Action Speed +, Max HP +",
       "icon": "skill001/skill1005",
-      "description": "Gain Action Speed UP(Medium), before casting an ultimate, all allies gain 3% Max HP UP(max 15%)",
+      "description": "Gain Action Speed UP(Medium). Apply to all allies max HP up 3% before casting ultimate(Max 15%)",
       "effect": "Action Speed + (+10)",
       "effectValues": [
         {

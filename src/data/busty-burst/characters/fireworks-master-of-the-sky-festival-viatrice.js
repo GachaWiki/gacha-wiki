@@ -41,8 +41,8 @@ export const info = {
     }
   },
   "obtain": {
-    "type": "unknown",
-    "source": ""
+    "type": "banner",
+    "source": "Midsummer Sky Festival Event Summon"
   },
   "characterId": 2157
 };
@@ -52,7 +52,7 @@ export const skills = {
   "skills": [
     {
       "slot": 2,
-      "name": "Pop it out!",
+      "name": "Fire it!",
       "icon": "skill001/skill0005",
       "description": "Deals magic damage to the nearest enemy, guaranteed hit",
       "descriptionLv1": "Deals magic damage to the nearest enemy, guaranteed hit",
@@ -69,11 +69,11 @@ export const skills = {
     },
     {
       "slot": 3,
-      "name": "Snap snap snap~!!",
+      "name": "Clack~Clack~Clack~!!",
       "icon": "skill001/skill0011",
-      "description": "Deals magic damage to the 3 nearest enemies and inflicts Magic Defense-18%-30 DOWN for 6 seconds, 1.5s",
-      "descriptionLv1": "Deals magic damage to the 3 nearest enemies and inflicts Magic Defense-18%-30 DOWN for 6 seconds, 1.5s",
-      "descriptionLv90": "Deals magic damage to the 3 nearest enemies and inflicts Magic Defense-18%-210 DOWN for 6 seconds, 1.5s",
+      "description": "Deals magic damage to the 3 nearest enemies. Also inflicts Magic Defense-18%-30 DOWN for 6 seconds and STUN for 1.5 seconds",
+      "descriptionLv1": "Deals magic damage to the 3 nearest enemies. Also inflicts Magic Defense-18%-30 DOWN for 6 seconds and STUN for 1.5 seconds",
+      "descriptionLv90": "Deals magic damage to the 3 nearest enemies. Also inflicts Magic Defense-18%-210 DOWN for 6 seconds and STUN for 1.5 seconds",
       "target": "Nearest Enemy",
       "castTime": 1.32,
       "damageScaling": "80% ATK",
@@ -106,9 +106,9 @@ export const skills = {
   "ultimate": [
     {
       "rank": 1,
-      "name": "Fabulous Bang! Bang! Bang~!!",
+      "name": "Spectacular Bang! Bang! Boom!!",
       "icon": "skill001/skill0006_1",
-      "description": "To all enemiesmagic damage and inflicts BlockDOWN(LV 1) for 10 seconds and Action Speed DOWN(LV 1) for 10 seconds",
+      "description": "Deals magic damage to all enemies. Also inflicts BlockDOWN(LV 1) for 10 seconds and Action Speed DOWN(LV 1) for 10 seconds",
       "effect": "500% + 500",
       "buffEffects": [
         {
@@ -127,9 +127,9 @@ export const skills = {
     },
     {
       "rank": 2,
-      "name": "Fabulous Bang! Bang! Bang~!!",
+      "name": "Spectacular Bang! Bang! Boom!!",
       "icon": "skill001/skill0006_2",
-      "description": "To all enemiesmagic damage and inflicts BlockDOWN(LV 2) for 10 seconds and Action Speed DOWN(LV 2) for 10 seconds",
+      "description": "Deals magic damage to all enemies. Also inflicts BlockDOWN(LV 2) for 10 seconds and Action Speed DOWN(LV 2) for 10 seconds",
       "effect": "700% + 750",
       "buffEffects": [
         {
@@ -148,9 +148,9 @@ export const skills = {
     },
     {
       "rank": 3,
-      "name": "Fabulous Bang! Bang! Bang~!!",
+      "name": "Spectacular Bang! Bang! Boom!!",
       "icon": "skill001/skill0006_3",
-      "description": "To all enemiesmagic damage and inflicts BlockDOWN(LV 3) for 10 seconds and Action Speed DOWN(LV 3) for 10 seconds",
+      "description": "Deals magic damage to all enemies. Also inflicts BlockDOWN(LV 3) for 10 seconds and Action Speed DOWN(LV 3) for 10 seconds",
       "effect": "850% + 900",
       "buffEffects": [
         {
@@ -169,9 +169,9 @@ export const skills = {
     },
     {
       "rank": 4,
-      "name": "Fabulous Bang! Bang! Bang~!!",
+      "name": "Spectacular Bang! Bang! Boom!!",
       "icon": "skill001/skill0006_4",
-      "description": "To all enemiesmagic damage and inflicts BlockDOWN(LV 4) for 10 seconds and Action Speed DOWN(LV 4) for 10 seconds",
+      "description": "Deals magic damage to all enemies. Also inflicts BlockDOWN(LV 4) for 10 seconds and Action Speed DOWN(LV 4) for 10 seconds",
       "effect": "950% + 1000",
       "buffEffects": [
         {
@@ -190,9 +190,9 @@ export const skills = {
     },
     {
       "rank": 5,
-      "name": "Fabulous Bang! Bang! Bang~!!",
+      "name": "Spectacular Bang! Bang! Boom!!",
       "icon": "skill001/skill0006_5",
-      "description": "To all enemiesmagic damage and inflicts BlockDOWN(LV 5) for 10 seconds and Action Speed DOWN(LV 5) for 10 seconds",
+      "description": "Deals magic damage to all enemies. Also inflicts BlockDOWN(LV 5) for 10 seconds and Action Speed DOWN(LV 5) for 10 seconds",
       "effect": "1000% + 1100",
       "buffEffects": [
         {
