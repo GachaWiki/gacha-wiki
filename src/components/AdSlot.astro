@@ -38,16 +38,30 @@ const preview = import.meta.env.DEV && import.meta.env.PUBLIC_ADS_PREVIEW === '1
 
 <style>
   /* Same page chrome as NewsTicker: content-width container, no background of
-     its own. The label sits muted above the unit; if AdSense returns no fill
-     the <ins> stays empty and the whole slot collapses via :has. */
+     its own. The label sits muted above the unit. The slot must stay VISIBLE
+     while the auction is pending: AdSense measures the ins at request time, and
+     a display:none parent reads as a 0x0 hidden slot that never fills (seen
+     live 2026-11-04, every pageview returned the google_esf empty-slot
+     fallback). So we collapse only AFTER Google itself marks the ins
+     data-ad-status="unfilled" (or "collapsed"), and keep the label hidden
+     until data-ad-status="filled" so the pending state does not flash. */
   .gw-ad-slot {
     max-width: 72rem;
     margin: 0 auto;
     padding: 0.5rem 1.25rem 0.75rem;
   }
 
-  .gw-ad-slot:has(> ins:empty) {
+  .gw-ad-slot:has(> ins[data-ad-status='unfilled']),
+  .gw-ad-slot:has(> ins[data-ad-status='collapsed']) {
     display: none;
+  }
+
+  .gw-ad-label {
+    visibility: hidden;
+  }
+
+  .gw-ad-slot:has(> ins[data-ad-status='filled']) .gw-ad-label {
+    visibility: visible;
   }
 
   .gw-ad-label {
