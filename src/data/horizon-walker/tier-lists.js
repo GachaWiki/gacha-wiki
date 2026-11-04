@@ -535,6 +535,13 @@ export const TIER_CHARACTER_NOTES = {
     title: 'Insane Damage with Ahram',
     text: 'With Ahram she can deal an insane amount of damage. Ahram\'s Assault Formation stacks a huge Ranged ATK bonus on her while Suppression shreds the target\'s Pierce DEF, so her crit pierce shots tear through everything.',
   },
+  Ahram: {
+    type: 'info',
+    variant: 'def-down',
+    shortTitle: 'Best Pierce DEF Down',
+    title: 'Best Pierce DEF Down in the Game',
+    text: 'Ahram has the best Pierce DEF down in the game: Suppression strips up to 300% of her Ranged ATK from the target\'s Pierce DEF, and it keeps scaling as you build her. Assault Formation hands that same number to allies as Ranged ATK, which is why she turns Kim Ga-young into a monster.',
+  },
 };
 
 export default HORIZON_WALKER_TIER_LISTS;
