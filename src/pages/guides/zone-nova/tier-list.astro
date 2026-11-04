@@ -34,15 +34,6 @@ function formatCharacterNames(characters: { name: string }[], limit = 3): string
 
 const structuredListTypes = ['pve', 'pvp', 'new-player'];
 
-// Element weakness reference (game's own element icons; rift weaknesses from the rift teams data)
-const ELEMENTS_R2 = 'https://k2b1c5ab57ed98e51.gachawiki.info/zone-nova/elements';
-const ZN_ELEMENTS = ['Wind', 'Fire', 'Ice', 'Chaos', 'Holy'];
-const RIFT_WEAKNESSES = [
-  { rift: 'Rift VII', weak: ['Fire', 'Wind'] },
-  { rift: 'Rift VIII', weak: ['Holy', 'Ice'] },
-  { rift: 'Rift IX', weak: ['Chaos', 'Holy'] },
-  { rift: 'Rift XI', weak: ['Fire', 'Ice'] },
-];
 
 const structuredTierViews: Record<string, { roleHighlights: ReturnType<typeof getRoleHighlights>; classSections: ReturnType<typeof getGroupedTierSections> }> = {};
 structuredListTypes.forEach(listType => {
@@ -132,41 +123,6 @@ structuredListTypes.forEach(listType => {
           </section>
         )
       }
-
-      <!-- Element Weakness -->
-      <section class="tl-elements">
-        <h3 class="tl-pairs-title">Element Weakness</h3>
-        <div class="tl-element-row">
-          {
-            ZN_ELEMENTS.map(el => (
-              <div class="tl-element">
-                <img src={`${ELEMENTS_R2}/${el}.png`} alt={el} width={44} height={44} loading="lazy" />
-                <span class={`zn-text-${el.toLowerCase()}`}>{el}</span>
-              </div>
-            ))
-          }
-        </div>
-        <div class="tl-rift-weak">
-          {
-            RIFT_WEAKNESSES.map(r => (
-              <div class="tl-rift-weak-row">
-                <span class="tl-rift-name">{r.rift}</span>
-                {r.weak.map(el => (
-                  <span class="tl-rift-weak-item">
-                    <img src={`${ELEMENTS_R2}/${el}.png`} alt={el} width={20} height={20} loading="lazy" />
-                    <span class={`zn-text-${el.toLowerCase()}`}>{el}</span>
-                  </span>
-                ))}
-              </div>
-            ))
-          }
-        </div>
-        <p class="tl-element-note">
-          Enemies carry their own elemental weaknesses and these icons mark them in-game. Deal
-          damage with a matching element for bonus damage, and check a rift's listed weaknesses
-          before building the team.
-        </p>
-      </section>
 
       <!-- Structured Tier Displays -->
       {structuredListTypes.map(listType => (
