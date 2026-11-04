@@ -25,6 +25,11 @@ const version = packageInfo.version;
             Open source under <a href="/LICENSE" class="license-link">MIT License</a> · <a href="/about" class="license-link">About</a>
           </span>
         </div>
+        <div class="contact-row">
+          <span class="license-text">
+            Advertising &amp; business inquiries: <a href="mailto:bitwaifu.chan.cafe@gmail.com" class="license-link">bitwaifu.chan.cafe@gmail.com</a>
+          </span>
+        </div>
       </div>
 
       <!-- Center: Copyright -->
@@ -64,10 +69,13 @@ const version = packageInfo.version;
     min-height: 60px;
   }
 
-  /* Footer Left: Version and License */
+  /* Footer Left: Version, License, business contact */
   .footer-left {
     display: flex;
+    flex-direction: column;
+    align-items: flex-start;
     justify-content: flex-start;
+    gap: 0.35rem;
   }
 
   /* Footer Center: Copyright */
