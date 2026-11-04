@@ -159,6 +159,7 @@ const MAP_CLEAR_CHARACTERS = {
     'Kotoha',
     'Yeon Chae-Young',
     'Ines',
+    'Kim ga-young',
   ],
   S: [
     'Echidna',
@@ -174,7 +175,6 @@ const MAP_CLEAR_CHARACTERS = {
     'Puppy shooter',
     'Kobold mercenary',
     'Fammene',
-    'Kim ga-young',
   ],
   A: [
     'Canisk',
@@ -215,6 +215,7 @@ const SPECIAL_OPERATIONS_CHARACTERS = {
     'Kotoha',
     'Yeon Chae-Young',
     'Ines',
+    'Kim ga-young',
   ],
   S: [
     'Echidna',
@@ -234,7 +235,6 @@ const SPECIAL_OPERATIONS_CHARACTERS = {
     'Kaul',
     'Puppy stepper',
     'Kobold mercenary',
-    'Kim ga-young',
   ],
   A: [
     'Min Eun-sol',
@@ -527,6 +527,13 @@ export const TIER_CHARACTER_NOTES = {
     type: 'info',
     title: 'Super Tanky, Busted Damage',
     text: 'Mu Yingying does an insane amount of damage while also being super tanky: she is one of the tankiest characters in the game. The damage she puts out is straight-up busted and she is super strong, and she does not need dupes either.',
+  },
+  'Kim Ga-young': {
+    type: 'info',
+    variant: 'dps',
+    shortTitle: 'Ahram Synergy',
+    title: 'Insane Damage with Ahram',
+    text: 'With Ahram she can deal an insane amount of damage. Ahram\'s Assault Formation stacks a huge Ranged ATK bonus on her while Suppression shreds the target\'s Pierce DEF, so her crit pierce shots tear through everything.',
   },
 };
 
