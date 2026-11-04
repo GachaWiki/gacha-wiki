@@ -8,7 +8,7 @@ const version = packageInfo.version;
 <footer class="footer">
   <div class="footer-container">
     <div class="footer-content">
-      <!-- Left Side: Version and License -->
+      <!-- Left Side: Version, License and business contact (one line) -->
       <div class="footer-left">
         <div class="version-license-row">
           <a
@@ -22,12 +22,7 @@ const version = packageInfo.version;
             </div>
           </a>
           <span class="license-text">
-            Open source under <a href="/LICENSE" class="license-link">MIT License</a> · <a href="/about" class="license-link">About</a>
-          </span>
-        </div>
-        <div class="contact-row">
-          <span class="license-text">
-            Advertising &amp; business inquiries: <a href="mailto:bitwaifu.chan.cafe@gmail.com" class="license-link">bitwaifu.chan.cafe@gmail.com</a>
+            Open source under <a href="/LICENSE" class="license-link">MIT License</a> · <a href="/about" class="license-link">About</a> · Ads &amp; business: <a href="mailto:bitwaifu.chan.cafe@gmail.com" class="license-link">bitwaifu.chan.cafe@gmail.com</a>
           </span>
         </div>
       </div>
@@ -62,7 +57,11 @@ const version = packageInfo.version;
 
   .footer-content {
     display: grid;
-    grid-template-columns: 1fr auto 1fr;
+    /* Left track sizes to its one-line content when space allows (so the
+       contact email sits inline, not wrapped below); it can still shrink
+       and wrap on narrower desktop windows. minmax(0,...) prevents
+       horizontal overflow since html clips overflow-x. */
+    grid-template-columns: minmax(0, max-content) auto 1fr;
     align-items: center;
     gap: 1rem;
     padding: 1rem 0;
@@ -72,10 +71,7 @@ const version = packageInfo.version;
   /* Footer Left: Version, License, business contact */
   .footer-left {
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
     justify-content: flex-start;
-    gap: 0.35rem;
   }
 
   /* Footer Center: Copyright */
