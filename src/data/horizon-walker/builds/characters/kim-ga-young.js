@@ -10,7 +10,12 @@ export const kimGaYoungBuildConfig = {
     {
       title: 'Stealth',
       description:
-        'Most of the time Kim is going to be in stealth mode, so you are not in danger of getting hit. You also benefit from stigma and other buffs that scale with stealth. The main problem with Kim is that she is single target and needs a lot of crit to scale, also including weak base Ranged ATK.',
+        'Most of the time Kim is going to be in stealth mode, so you are not in danger of getting hit. You also benefit from stigma and other buffs that scale with stealth. Her main weaknesses are that she is single target and her base Ranged ATK is weak, but both are covered by the team below.',
+    },
+    {
+      title: 'The Ahram + Mu Team',
+      description:
+        'Run her with Ahram, Juha and Mu Yingying: that is exactly 18 deployment cost. Ahram\'s Assault Formation grants her a huge Ranged ATK bonus and Suppression shreds the target\'s Pierce DEF, Juha adds +24% Pierce Boost and flat Pierce DEF down, and Mu Yingying\'s Ambush Cover gives allies in Stealth up to +100% Crit Rate while Camaraderie adds +200% Crit DMG. In this team her Crit Rate is fully covered while she is in Stealth, so you stack Crit DMG and Ranged ATK instead.',
     },
     {
       title: 'EX Weapon Traits',
@@ -30,16 +35,16 @@ export const kimGaYoungBuildConfig = {
     {
       title: 'Two Stigma Choices',
       description:
-        'There are two stigma builds for her: Four Horsemen and Phantom Banquet. Both can work and there is quite a different playstyle with each. The main problem that we face is that Kim lacks crit rate to take off, and we need to somehow increase her crit rate. Without crit rate her damage really falls off and missing one crit hit is quite crucial. Four Horsemen can give higher crit rate, but you need to hit them at least 5 times to reach full potential. Phantom Banquet is more stable, and you also benefit from stealth damage increase which is not bad. Honestly, both can work.',
+        'There are two stigma builds for her: Four Horsemen and Phantom Banquet. With Mu Yingying on the team your Crit Rate is already covered by Ambush Cover while she is in Stealth, so Phantom Banquet is the default pick: it is stable and the stealth damage increase fits how she plays. Four Horsemen only makes sense when you run her without Mu and need the extra crit rate, and it needs at least 5 hits to reach full potential.',
     },
   ],
   recommendedSubstats: [
     { stat: 'Crit DMG', scale: '6% - 10%', priority: 'Best' },
     { stat: 'Crit DMG', scale: '6% - 10%', priority: 'Best' },
-    { stat: 'Crit Rate', scale: '3% - 5%', priority: 'Best' },
-    { stat: 'Ranged ATK', scale: '3% - 5%', priority: 'Good Alternative' },
+    { stat: 'Ranged ATK', scale: '3% - 5%', priority: 'Best' },
+    { stat: 'Crit Rate', scale: '3% - 5%', priority: 'Good Alternative' },
   ],
-  substatsPriority: 'Crit DMG (2 slots) → Crit Rate → Ranged ATK (alternative)',
+  substatsPriority: 'Crit DMG (2 slots) → Ranged ATK → Crit Rate (only without Mu Yingying)',
   traitsType: 'Crit DMG + Ranged ATK + EX Weapon Synergy',
   recommendedTraits: [
     {
@@ -60,12 +65,12 @@ export const kimGaYoungBuildConfig = {
     {
       name: 'Heaven-sent',
       effects: ['Crit Rate: +5%'],
-      priority: 'Best',
+      priority: 'Alternative',
     },
     {
       name: 'Fortunate',
       effects: ['Crit Rate: +4%'],
-      priority: 'Best',
+      priority: 'Alternative',
     },
     {
       name: 'Efficient',
@@ -75,7 +80,7 @@ export const kimGaYoungBuildConfig = {
     {
       name: 'Technical',
       effects: ['Ranged ATK: +3%'],
-      priority: 'Alternative',
+      priority: 'Best',
     },
     {
       name: 'Professional',
@@ -89,5 +94,5 @@ export const kimGaYoungBuildConfig = {
     },
   ],
   traitRecommendation:
-    'Competent → Methodical (EX Weapon synergy) → Doom → Heaven-sent → Fortunate (Core Crit DMG + Crit Rate build). Prioritize crit traits since Kim needs high crit to scale damage. Efficient is optional as Kim mainly does support attacks and does not need AP.',
+    'Competent → Methodical (EX Weapon synergy) → Doom → Technical (Ranged ATK). In the Ahram + Mu team your Crit Rate is covered by Ambush Cover while in Stealth, so stack Crit DMG and Ranged ATK. Keep Heaven-sent or Fortunate only if you run her without Mu Yingying. Efficient is optional as Kim mainly does support attacks and does not need AP.',
 };
