@@ -128,7 +128,7 @@ export const GAME_MODES = {
 // Character lists from your tier list data (only characters with EX Weapons)
 const MAP_CLEAR_CHARACTERS = {
   UR: ['Cora', 'Luise', 'Juza', 'Mu Yingying'],
-  SSS: ['Olivia', 'Vlissing', 'Palekar', 'Matrotho', 'Eugenia', 'Ahram', 'Nari', 'Garud'],
+  SSS: ['Olivia', 'Vlissing', 'Palekar', 'Matrotho', 'Eugenia', 'Ahram', 'Nari', 'Garud', 'Kim ga-young'],
   SS: [
     'Yui',
     'Valeta',
@@ -159,7 +159,6 @@ const MAP_CLEAR_CHARACTERS = {
     'Kotoha',
     'Yeon Chae-Young',
     'Ines',
-    'Kim ga-young',
   ],
   S: [
     'Echidna',
@@ -195,7 +194,7 @@ const MAP_CLEAR_CHARACTERS = {
 
 const SPECIAL_OPERATIONS_CHARACTERS = {
   UR: ['Cora', 'Luise', 'Juza', 'Mu Yingying'],
-  SSS: ['Yeonwoo', 'Leah', 'Nymset', 'Palekar', 'Juha', 'So Joo-Hee', 'Mahari', 'Matrotho', 'Eugenia', 'Ahram', 'Nari', 'Garud'],
+  SSS: ['Yeonwoo', 'Leah', 'Nymset', 'Palekar', 'Juha', 'So Joo-Hee', 'Mahari', 'Matrotho', 'Eugenia', 'Ahram', 'Nari', 'Garud', 'Kim ga-young'],
   SS: [
     'Olivia',
     'Yvonna',
@@ -215,7 +214,6 @@ const SPECIAL_OPERATIONS_CHARACTERS = {
     'Kotoha',
     'Yeon Chae-Young',
     'Ines',
-    'Kim ga-young',
   ],
   S: [
     'Echidna',
@@ -277,6 +275,7 @@ const DOPAMIN_CHARACTERS = {
     'Nari',
     'Marhim',
     'Garud',
+    'Kim ga-young',
   ],
   SS: [
     'Kalina',
@@ -292,7 +291,6 @@ const DOPAMIN_CHARACTERS = {
     'Headless knight',
     'puppy stepper',
     'Emilia',
-    'Kim ga-young',
     'Maximilia',
     'Mira',
     'Mirana',
