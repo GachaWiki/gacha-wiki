@@ -529,9 +529,9 @@ export const TIER_CHARACTER_NOTES = {
   'Kim Ga-young': {
     type: 'info',
     variant: 'dps',
-    shortTitle: 'Ahram Synergy',
-    title: 'Insane Damage with Ahram',
-    text: 'With Ahram she can deal an insane amount of damage. Ahram\'s Assault Formation stacks a huge Ranged ATK bonus on her while Suppression shreds the target\'s Pierce DEF, so her crit pierce shots tear through everything.',
+    shortTitle: 'Ahram + Mu Synergy',
+    title: 'Insane Damage with Ahram and Mu',
+    text: 'With Ahram and Mu Yingying she can deal an insane amount of damage. Ahram\'s Assault Formation stacks a huge Ranged ATK bonus on her while Suppression shreds the target\'s Pierce DEF, and Mu Yingying\'s Camaraderie gives her +200% Crit DMG, so her crit pierce shots tear through everything.',
   },
   Ahram: {
     type: 'info',
