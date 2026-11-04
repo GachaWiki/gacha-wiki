@@ -152,67 +152,15 @@ const stigmaSections: any[] =
     </div>
     <div class="character-build-info">
       <h2 class="character-build-name">{character.name} Build</h2>
-      <div class="character-build-badges">
-        <span class="hw-badge" data-type="Cost">{build.cost}</span>
+      <div class="character-build-meta">
         <HWRarityIcon rarity={build.rarity} width={44} height={22} />
-        <span class="character-tag damage-scaling">{buildConfig.damageScaling}</span>
+        <span class="character-build-meta-cost">Cost {build.cost}</span>
+        <span class="character-build-meta-scaling">{buildConfig.damageScaling}</span>
       </div>
     </div>
   </div>
 
-  <!-- Core Stats Section -->
-  <section class="character-build-section">
-    <h3 class="character-build-section-title">Core Stats</h3>
-    <!-- Core Stats Explanation -->
-    <div class="core-stats-explanation">
-      <div class="stat-explanation-grid">
-        <span
-          ><span class="stat-name">Strength:</span>
-          <span class="stat-description">Increases Melee ATK</span></span
-        >
-        <span
-          ><span class="stat-name">Technic:</span>
-          <span class="stat-description">Increases Ranged ATK</span></span
-        >
-        <span
-          ><span class="stat-name">Intelligence:</span>
-          <span class="stat-description">Increases Magic ATK</span></span
-        >
-        <span
-          ><span class="stat-name">Vitality:</span>
-          <span class="stat-description">Increases Max HP</span></span
-        >
-        <span
-          ><span class="stat-name">Agility:</span>
-          <span class="stat-description">Increases evasion and AP Recovery</span></span
-        >
-      </div>
-    </div>
-    <div class="core-stats-grid">
-      <div class="core-stat-card">
-        <div class="core-stat-title">Strength</div>
-        <div class="core-stat-value">{character.stats?.strength || 'N/A'}</div>
-      </div>
-      <div class="core-stat-card">
-        <div class="core-stat-title">Technic</div>
-        <div class="core-stat-value">{character.stats?.technic || 'N/A'}</div>
-      </div>
-      <div class="core-stat-card">
-        <div class="core-stat-title">Intelligence</div>
-        <div class="core-stat-value">{character.stats?.intelligence || 'N/A'}</div>
-      </div>
-      <div class="core-stat-card">
-        <div class="core-stat-title">Vitality</div>
-        <div class="core-stat-value">{character.stats?.vitality || 'N/A'}</div>
-      </div>
-      <div class="core-stat-card">
-        <div class="core-stat-title">Agility</div>
-        <div class="core-stat-value">{character.stats?.agility || 'N/A'}</div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Build Strategy Box -->
+  <!-- Build Note + Core Stats (one section) -->
   <section class="character-build-section">
     <h3 class="character-build-section-title">Build Note</h3>
     <div class="strategy-box">
@@ -229,6 +177,18 @@ const stigmaSections: any[] =
         }
       </div>
     </div>
+    <table class="core-stats-table">
+      <thead>
+        <tr><th>Core Stat</th><th>Value</th><th>Effect</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Strength</td><td>{character.stats?.strength ?? 'N/A'}</td><td>Increases Melee ATK</td></tr>
+        <tr><td>Technic</td><td>{character.stats?.technic ?? 'N/A'}</td><td>Increases Ranged ATK</td></tr>
+        <tr><td>Intelligence</td><td>{character.stats?.intelligence ?? 'N/A'}</td><td>Increases Magic ATK</td></tr>
+        <tr><td>Vitality</td><td>{character.stats?.vitality ?? 'N/A'}</td><td>Increases Max HP</td></tr>
+        <tr><td>Agility</td><td>{character.stats?.agility ?? 'N/A'}</td><td>Increases evasion and AP Recovery</td></tr>
+      </tbody>
+    </table>
   </section>
 
   <!-- Recommended Stigma Section -->
@@ -610,9 +570,9 @@ const stigmaSections: any[] =
                 </div>
               )
             }
-            <div class="substats-note">
-              <strong>Priority:</strong> {buildConfig.substatsPriority}
-            </div>
+            {buildConfig.substatsPriority && (
+              <div class="substats-note">{buildConfig.substatsPriority}</div>
+            )}
                     </div>
         </div>
       </section>
@@ -715,15 +675,14 @@ const stigmaSections: any[] =
                 <h5>Best Traits for {buildConfig.traitsType} (Max {buildConfig.traitsMax || 5} Traits)</h5>
                 <div class="traits-list">
                   {buildConfig.recommendedTraits.map((trait, index) => (
-                    <div class={`trait-item ${trait.priority === 'Best' ? 'priority-best' : 'priority-alternative'}`}>
+                    <div class={`trait-item ${trait.priority === 'Best' ? 'priority-best' : trait.priority ? 'priority-alternative' : ''}`}>
                       <div class="trait-info">
                         <div class="trait-name">{trait.name}</div>
-                        <span
-                          class="hw-badge"
-                          data-type={trait.priority === 'Best' ? 'Main' : 'Alt'}
-                        >
-                          {trait.priority === 'Best' ? 'Main' : 'Alt'}
-                        </span>
+                        {buildConfig.recommendedTraits.some((t: any) => t.priority) && (
+                          <span class={`trait-priority-text ${trait.priority === 'Best' ? 'main' : 'alt'}`}>
+                            {trait.priority === 'Best' ? 'Main' : 'Alt'}
+                          </span>
+                        )}
                       </div>
                       <div class="trait-effects">
                         {trait.effects.map(effect => (
@@ -733,9 +692,7 @@ const stigmaSections: any[] =
                     </div>
                   ))}
                 </div>
-                <div class="traits-note">
-                  <strong>Recommended Selection:</strong> {buildConfig.traitRecommendation}
-                </div>
+                <div class="traits-note">{buildConfig.traitRecommendation}</div>
               </>
             )}
           </div>
