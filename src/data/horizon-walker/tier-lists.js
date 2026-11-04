@@ -504,7 +504,7 @@ export const TIER_CHARACTER_NOTES = {
   Nari: {
     type: 'warning',
     title: 'Conditional, Needs Her Demi Skill',
-    text: 'Nari needs her Demi skill to scale. Without it she is really quite weak. The only reason she is rated this high is Total War: she can speedrun it quite fast. On other maps she is not that great, and there are a lot of characters much better than her. Overall she is quite conditional, so keep her for Total War.',
+    text: 'Nari needs her Demi skill to scale. Without it she is really quite weak. The only reason she is rated this high is Total War: she can speedrun it quite fast. On other maps she is not that great, and there are a lot of characters much better than her. Her single-target damage does go way up with Ahram, who shreds Pierce DEF with Suppression and buffs her Ranged ATK with Assault Formation. Overall she is quite conditional, so keep her for Total War.',
   },
   Ines: {
     type: 'warning',
