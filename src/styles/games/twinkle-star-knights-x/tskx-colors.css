@@ -1,0 +1,48 @@
+/* Twinkle Star Knights X Color System - Starry magenta on dark navy */
+
+:root {
+  --tskx-primary: #e8368f;
+  --tskx-primary-light: #f06ba8;
+  --tskx-primary-dark: #c41f74;
+
+  --tskx-secondary: #2a1630;
+  --tskx-secondary-light: #3d1e45;
+
+  --tskx-accent: #7b8cf0;
+  --tskx-accent-light: #a3b0f5;
+
+  --tskx-gold: #f5c542;
+
+  --tskx-bg-primary: #0d0f1c;
+  --tskx-bg-secondary: #131627;
+  --tskx-bg-tertiary: #191d33;
+  --tskx-bg-card: #151829;
+  --tskx-bg-hover: #1e2340;
+
+  --tskx-text-primary: #ecebf5;
+  --tskx-text-secondary: #a8a7c4;
+  --tskx-text-tertiary: #76749a;
+  --tskx-text-muted: #4c4a6b;
+
+  --tskx-border: #262a45;
+  --tskx-border-light: #323757;
+
+  --tskx-gradient-primary: linear-gradient(135deg, var(--tskx-primary) 0%, var(--tskx-primary-dark) 100%);
+  --tskx-gradient-card: linear-gradient(135deg, var(--tskx-bg-card) 0%, var(--tskx-bg-secondary) 100%);
+}
+
+.tskx-card {
+  background: var(--tskx-gradient-card);
+  border: 1px solid var(--tskx-border);
+  border-radius: 12px;
+}
+
+.tskx-button {
+  background: var(--tskx-gradient-primary);
+  color: var(--tskx-bg-primary);
+  border: none;
+  border-radius: 8px;
+  padding: 12px 24px;
+  font-weight: 600;
+  cursor: pointer;
+}

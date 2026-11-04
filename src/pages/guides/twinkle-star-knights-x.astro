@@ -1,0 +1,122 @@
+---
+// Twinkle Star Knights X landing page (pre-registration stage)
+import TSKXLayout from '../../layouts/twinkle-star-knights-x/LandingLayout.astro';
+import FormattedDate from '../../components/FormattedDate.astro';
+import DiscordPromo from '../../components/DiscordPromo.astro';
+import { twinkleStarKnightsXConfig } from '../../data/twinkle-star-knights-x/twinkle-star-knights-x.js';
+
+// Key visual served from Cloudflare R2
+const heroImg = 'https://k2b1c5ab57ed98e51.gachawiki.info/twinkle-star-knights-x/gameimg/keyvisual.webp';
+
+const { meta, gameInfo, story, prereg, links, categoryGroups } = twinkleStarKnightsXConfig;
+---
+
+<TSKXLayout
+  title={meta.title}
+  description={meta.description}
+  gameTitle={meta.gameTitle}
+  heroImage={heroImg}
+>
+  <section class="content-section">
+    <h2 class="section-title">Story</h2>
+    <div class="story-content">
+      {story.content.map(paragraph => <p>{paragraph}</p>)}
+    </div>
+
+    <div class="game-description">
+      <p>{gameInfo.description}</p>
+    </div>
+  </section>
+
+  <section class="content-section">
+    <h2 class="tskx-prereg-title">Pre-Registration</h2>
+    <p class="tskx-prereg-sub">Pre-register now and get Star Jewels at every milestone</p>
+
+    <div class="tskx-milestones">
+      {
+        prereg.milestones.map(m => (
+          <div class="tskx-milestone">
+            <img
+              src={`https://k2b1c5ab57ed98e51.gachawiki.info/twinkle-star-knights-x/${m.image}`}
+              alt={`${m.preregistrations.toLocaleString('en-US')} pre-registrations: ${m.reward}`}
+              width="315"
+              height="332"
+              loading="lazy"
+              decoding="async"
+            />
+          </div>
+        ))
+      }
+    </div>
+
+    <div class="tskx-prereg-cta-row">
+      <a href={prereg.page} class="tskx-prereg-cta" target="_blank" rel="noopener noreferrer">
+        Pre-Register on EROLABS
+      </a>
+    </div>
+
+    <h3 class="tskx-event-title">Referral Sharing Mission</h3>
+    <p class="tskx-event-meta">
+      <span class="tskx-meta-label">Reward:</span> {prereg.referralEvent.reward}
+    </p>
+    <p class="tskx-event-meta">
+      <span class="tskx-meta-label">Event Time:</span> {prereg.referralEvent.time}
+    </p>
+    <p class="tskx-event-meta">
+      <span class="tskx-meta-label">Code Expiry:</span> {prereg.referralEvent.codeExpiry}
+    </p>
+    <ul class="tskx-event-rules">
+      {prereg.referralEvent.rules.map(rule => <li>{rule}</li>)}
+    </ul>
+  </section>
+
+  <section class="content-section">
+    <div class="tskx-social-links-container">
+      <div class="tskx-social-links">
+        <a href={links.official} class="tskx-social-link" target="_blank" rel="noopener">Official Pre-Registration Page</a>
+        <a href={links.discord} class="tskx-social-link" target="_blank" rel="noopener">Discord</a>
+      </div>
+    </div>
+
+    <DiscordPromo accent="#e8368f" />
+
+    <p class="last-updated">
+      Last Updated: <FormattedDate date={gameInfo.lastUpdated} />
+    </p>
+  </section>
+
+  <section class="tskx-resources-section">
+    <h2 class="tskx-resources-title">Guides & Resources</h2>
+
+    <div class="tskx-resources-grid">
+      {
+        categoryGroups.map(category => (
+          <div class={`tskx-resource-category tskx-category-${category.size}`}>
+            <div class="tskx-category-header">
+              <h3>{category.title}</h3>
+              <p class="tskx-category-description">{category.description}</p>
+            </div>
+            <div class="tskx-buttons-grid">
+              {category.guides.map(guide => (
+                <a
+                  href={guide.url}
+                  class="tskx-resource-button"
+                  aria-label={`Navigate to ${guide.title}`}
+                >
+                  {guide.title}
+                </a>
+              ))}
+            </div>
+          </div>
+        ))
+      }
+    </div>
+  </section>
+
+  <section class="content-section">
+    <div class="tskx-coming-soon-banner">
+      <p><strong>Twinkle Star Knights X</strong> has not launched yet and is currently in pre-registration on EROLABS.</p>
+      <p style="margin-top: 0.5rem;">Stats, skills, and full guides will be added after the game goes live.</p>
+    </div>
+  </section>
+</TSKXLayout>

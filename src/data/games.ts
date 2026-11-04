@@ -201,6 +201,17 @@ export const GAMES: Game[] = [
     themeColor: '#b89a5e',
     sections: ['Characters', 'Costumes', 'Elements'],
   },
+  {
+    id: 'twinkle-star-knights-x',
+    name: 'Twinkle Star Knights X',
+    slug: 'twinkle-star-knights-x',
+    description: 'RPG • EROLABS • Pre-Registration • 5 Characters Revealed',
+    image: r2Url('twinkle-star-knights-x', 'gameimg/icon.webp'),
+    url: '/guides/twinkle-star-knights-x/',
+    status: 'coming-soon',
+    themeColor: '#e8368f',
+    sections: ['Characters', 'Pre-Registration'],
+  },
 ];
 
 export function getGameById(id: string): Game | undefined {

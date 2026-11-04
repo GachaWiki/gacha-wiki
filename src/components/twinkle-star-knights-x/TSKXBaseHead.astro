@@ -1,0 +1,64 @@
+---
+// Base head tags for Twinkle Star Knights X pages
+import { SITE_TITLE } from '../../consts';
+
+export interface Props {
+  title?: string;
+  description?: string;
+}
+
+const {
+  title = SITE_TITLE,
+  description = 'Twinkle Star Knights X Wiki - Revealed Characters & Pre-Registration Info',
+} = Astro.props;
+
+const metaTitle = title === SITE_TITLE ? SITE_TITLE : `${title} | Twinkle Star Knights X Wiki`;
+const canonicalURL = new URL(Astro.url.pathname, Astro.site).href;
+---
+
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<link rel="icon" type="image/x-icon" href="/favicon.ico" />
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+<link rel="manifest" href="/manifest.json" />
+
+<title>{metaTitle}</title>
+<meta name="title" content={metaTitle} />
+<meta name="description" content={description} />
+<meta name="generator" content={Astro.generator} />
+
+<meta name="application-category" content="game" />
+<meta name="application-subcategory" content="rpg" />
+
+<meta http-equiv="X-Content-Type-Options" content="nosniff" />
+<meta http-equiv="X-XSS-Protection" content="1; mode=block" />
+
+<link rel="preload" href="/fonts/dm-sans-400.woff2" as="font" type="font/woff2" crossorigin />
+<link rel="preload" href="/fonts/space-grotesk-700.woff2" as="font" type="font/woff2" crossorigin />
+<link rel="preload" href="/fonts/space-grotesk-600.woff2" as="font" type="font/woff2" crossorigin />
+<link rel="preload" href="/fonts/dm-sans-600.woff2" as="font" type="font/woff2" crossorigin />
+
+<meta name="game:title" content="Twinkle Star Knights X" />
+<meta name="game:genre" content="RPG, Gacha" />
+<meta name="game:platform" content="EROLABS" />
+<meta name="game:publisher" content="EROLABS" />
+
+<script
+  type="application/ld+json"
+  set:html={JSON.stringify({
+    '@context': 'https://schema.org',
+    '@type': 'VideoGame',
+    name: 'Twinkle Star Knights X',
+    description: 'R18 RPG coming to EROLABS. Lead the Star Knights of the Ryusei academies as the Demon King destined to save the world. Currently in pre-registration.',
+    genre: ['RPG', 'Gacha'],
+    applicationCategory: 'Game',
+    operatingSystem: 'EROLABS',
+    playMode: 'SinglePlayer',
+    publisher: {
+      '@type': 'Organization',
+      name: 'EROLABS',
+    },
+    url: canonicalURL,
+  })}
+/>

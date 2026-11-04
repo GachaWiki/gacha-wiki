@@ -1,0 +1,57 @@
+---
+// Twinkle Star Knights X revealed character detail page
+import TSKXLayout from '../../../../layouts/twinkle-star-knights-x/LandingLayout.astro';
+import TSKXCharacterImage from '../../../../components/twinkle-star-knights-x/TSKXCharacterImage.astro';
+import { TSKX_CHARACTERS } from '../../../../data/twinkle-star-knights-x/characters.js';
+import '../../../../styles/games/twinkle-star-knights-x/tskx-character-database.css';
+
+export function getStaticPaths() {
+  return TSKX_CHARACTERS.map(char => ({
+    params: { slug: char.slug },
+    props: { character: char },
+  }));
+}
+
+const { character: char } = Astro.props;
+---
+
+<TSKXLayout
+  title={`${char.name} - Twinkle Star Knights X Character`}
+  description={`${char.name} character profile for Twinkle Star Knights X. ${char.race}, ${char.affiliation}.`}
+  gameTitle={char.name}
+>
+  <a href="/guides/twinkle-star-knights-x/characters/" class="tskx-back">&larr; Back to Characters</a>
+
+  <section class="tskx-content-section">
+    <div class="tskx-detail-header">
+      <TSKXCharacterImage filename={char.image} alt={char.name} class="tskx-detail-portrait" loading="eager" />
+      <div class="tskx-detail-info">
+        <h1>{char.name}</h1>
+        <p class="tskx-detail-meta">{char.race}, {char.affiliation}</p>
+        <p class="tskx-detail-desc">{char.description}</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="tskx-content-section">
+    <div class="tskx-detail-section">
+      <h2>Artwork</h2>
+      <div class="tskx-artworks">
+        <div>
+          <TSKXCharacterImage filename={char.image} alt={`${char.name} artwork`} class="tskx-artwork" />
+          <p class="tskx-artwork-caption">Default</p>
+        </div>
+        <div>
+          <TSKXCharacterImage filename={char.altImage} alt={`${char.name} alternate artwork`} class="tskx-artwork" />
+          <p class="tskx-artwork-caption">Alternate</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="tskx-content-section">
+    <div class="tskx-coming-soon-banner">
+      <p><strong>{char.name}</strong> is a revealed character. Detailed stats, skills, and builds will be added after game launch.</p>
+    </div>
+  </section>
+</TSKXLayout>

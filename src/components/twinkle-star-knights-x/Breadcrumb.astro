@@ -1,0 +1,8 @@
+---
+// Twinkle Star Knights X breadcrumb: shared pill design, TSKX magenta accent.
+import BreadcrumbBase from '../BreadcrumbBase.astro';
+const style =
+  '--bc-accent:var(--tskx-primary, #e8368f);--bc-focus:var(--tskx-primary, #e8368f);--bc-list:rgba(255, 255, 255, 0.5)';
+---
+
+<BreadcrumbBase {...Astro.props} classPrefix="tskx" style={style} />

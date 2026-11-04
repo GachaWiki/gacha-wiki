@@ -1,0 +1,160 @@
+/* Twinkle Star Knights X layout styles */
+
+.tskx-body {
+  background: var(--tskx-bg-primary);
+  color: var(--tskx-text-primary);
+  font-family: var(--font-primary);
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.bg-layer {
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+}
+
+.tskx-bg-primary {
+  background: var(--tskx-bg-primary);
+}
+
+.tskx-bg-accent-1 {
+}
+
+.tskx-bg-accent-2 {
+}
+
+.tskx-bg-accent-3 {
+}
+
+.tskx-content {
+  position: relative;
+  z-index: 10;
+  flex: 1;
+}
+
+.tskx-container {
+  position: relative;
+  max-width: 75rem;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.hero-section {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.hero-image-wrapper {
+  position: relative;
+  margin-bottom: 2rem;
+}
+
+.hero-image-container {
+  width: 100%;
+  max-width: 60rem;
+  height: auto;
+  border-radius: 1rem;
+  overflow: hidden;
+  margin: 0 auto;
+  position: relative;
+  border: 2px solid rgba(232, 54, 143, 0.35);
+}
+
+.hero-image {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.hero-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 25%;
+  background: linear-gradient(to top, rgba(13, 15, 28, 0.5) 0%, transparent 100%);
+  pointer-events: none;
+}
+
+.hero-title {
+  font-family: var(--font-display);
+  font-size: var(--text-4xl);
+  font-weight: 700;
+  color: var(--tskx-primary-light);
+  margin: 0;
+}
+
+.tskx-title-only-section {
+  text-align: center;
+  margin-bottom: 3rem;
+  padding: 2rem 0;
+}
+
+.tskx-title-only-heading {
+  font-family: var(--font-display);
+  font-size: var(--text-4xl);
+  font-weight: 700;
+  color: var(--tskx-primary-light);
+}
+
+.content-area {
+  width: 100%;
+  position: relative;
+}
+
+.game-description {
+  font-size: var(--text-lg);
+  font-family: var(--font-primary);
+  line-height: var(--leading-relaxed);
+  color: var(--tskx-text-primary);
+  margin-bottom: 2rem;
+  text-align: center;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (max-width: 768px) {
+  .hero-image-container {
+    border-radius: 12px;
+    margin: 0 1rem;
+  }
+
+  .hero-section {
+    margin-bottom: 2rem;
+    padding: 0 1rem;
+  }
+
+  .tskx-container {
+    padding: 1rem;
+  }
+
+  .hero-title,
+  .tskx-title-only-heading {
+    font-size: var(--text-3xl);
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-image-container {
+    border-radius: 8px;
+    margin: 0 0.5rem;
+  }
+
+  .hero-section {
+    margin-bottom: 1.5rem;
+    padding: 0 0.5rem;
+  }
+
+  .tskx-container {
+    padding: 0.75rem;
+  }
+
+  .hero-title,
+  .tskx-title-only-heading {
+    font-size: var(--text-2xl);
+  }
+}

@@ -1,0 +1,78 @@
+---
+// Twinkle Star Knights X revealed character database
+import TSKXLayout from '../../../../layouts/twinkle-star-knights-x/LandingLayout.astro';
+import TSKXCharacterImage from '../../../../components/twinkle-star-knights-x/TSKXCharacterImage.astro';
+import { TSKX_CHARACTERS, TSKX_RACES } from '../../../../data/twinkle-star-knights-x/characters.js';
+import '../../../../styles/games/twinkle-star-knights-x/tskx-character-database.css';
+
+const characters = TSKX_CHARACTERS;
+const races = TSKX_RACES;
+---
+
+<TSKXLayout
+  title="Character Database - Twinkle Star Knights X"
+  description="Revealed characters for Twinkle Star Knights X. Browse the 5 Star Knights announced on the official pre-registration page with race and affiliation info."
+  gameTitle="Characters"
+>
+  <section class="tskx-content-section">
+    <div class="tskx-toolbar">
+      <input type="text" class="tskx-search" placeholder="Search characters..." id="tskx-search" />
+      <button class="tskx-filter-btn active" data-filter="all">All</button>
+      {races.map(r => (
+        <button class="tskx-filter-btn" data-filter={r.id}>{r.name}</button>
+      ))}
+      <span class="tskx-count" id="tskx-count">{characters.length} characters</span>
+    </div>
+
+    <div class="tskx-char-grid" id="tskx-char-grid">
+      {characters.map(char => (
+        <a href={`/guides/twinkle-star-knights-x/characters/${char.slug}/`} class="tskx-char-card" data-race={char.race.toLowerCase()} data-name={char.name.toLowerCase()}>
+          <div class="tskx-char-card-header">
+            <TSKXCharacterImage filename={char.thumbnail} alt={char.name} class="tskx-char-avatar" />
+            <div class="tskx-char-info">
+              <p class="tskx-char-name">{char.name}</p>
+              <p class="tskx-char-meta">{char.race}, {char.affiliation}</p>
+            </div>
+          </div>
+        </a>
+      ))}
+    </div>
+  </section>
+</TSKXLayout>
+
+<script>
+  const search = document.getElementById('tskx-search') as HTMLInputElement;
+  const grid = document.getElementById('tskx-char-grid');
+  const countEl = document.getElementById('tskx-count');
+  const filterBtns = document.querySelectorAll('.tskx-filter-btn');
+
+  function updateDisplay() {
+    if (!search || !grid) return;
+    const query = search.value.toLowerCase();
+    const activeFilter = document.querySelector('.tskx-filter-btn.active')?.getAttribute('data-filter') || 'all';
+    const cards = grid?.querySelectorAll('.tskx-char-card') as NodeListOf<HTMLElement>;
+    let visible = 0;
+
+    cards?.forEach(card => {
+      const name = card.dataset.name || '';
+      const race = card.dataset.race || '';
+      const matchesSearch = name.includes(query);
+      const matchesFilter = activeFilter === 'all' || race === activeFilter;
+      const show = matchesSearch && matchesFilter;
+      card.style.display = show ? '' : 'none';
+      if (show) visible++;
+    });
+
+    if (countEl) countEl.textContent = `${visible} character${visible !== 1 ? 's' : ''}`;
+  }
+
+  search?.addEventListener('input', updateDisplay);
+
+  filterBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      filterBtns.forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      updateDisplay();
+    });
+  });
+</script>

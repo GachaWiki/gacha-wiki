@@ -1,0 +1,22 @@
+---
+// Twinkle Star Knights X character image component, served from Cloudflare R2
+const R2 = 'https://k2b1c5ab57ed98e51.gachawiki.info/twinkle-star-knights-x';
+
+export interface Props {
+  filename: string;
+  alt?: string;
+  class?: string;
+  loading?: 'eager' | 'lazy';
+}
+
+const { filename, alt = 'Character', class: className = '', loading = 'lazy' } = Astro.props;
+const imageSrc = filename ? `${R2}/${filename}` : null;
+---
+
+{imageSrc ? (
+  <img src={imageSrc} alt={alt} class={className} loading={loading} decoding="async" />
+) : (
+  <div class={`tskx-image-fallback ${className}`} style="background: var(--tskx-bg-secondary); border-radius: 8px; display: flex; align-items: center; justify-content: center; color: var(--tskx-text-muted); font-size: var(--text-xs); min-height: 100px;">
+    {alt}
+  </div>
+)}

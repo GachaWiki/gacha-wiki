@@ -722,3 +722,24 @@
   background: #7d6740;
   color: white;
 }
+
+
+/* ============================================
+   TWINKLE STAR KNIGHTS X SPECIFIC STYLING
+   ============================================ */
+.game-nav-mobile[data-game='twinkle-star-knights-x'] .game-title {
+  color: #f06ba8;
+}
+
+.mobile-links[data-game='twinkle-star-knights-x'] .mobile-game-name {
+  color: #f06ba8;
+}
+
+.mobile-links[data-game='twinkle-star-knights-x'] .mobile-section-title {
+  color: #f06ba8;
+}
+
+.mobile-links[data-game='twinkle-star-knights-x'] .mobile-link.active {
+  background: #c41f74;
+  color: white;
+}

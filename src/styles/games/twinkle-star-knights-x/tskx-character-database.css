@@ -1,0 +1,242 @@
+/* Twinkle Star Knights X character database styles */
+
+.tskx-content-section {
+  margin-bottom: 2rem;
+}
+
+.tskx-toolbar {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  margin-bottom: 1.5rem;
+  padding: 0.75rem 1rem;
+  background: var(--tskx-bg-secondary);
+  border: 1px solid var(--tskx-border);
+  border-radius: 12px;
+}
+
+.tskx-search {
+  padding: 0.5rem 0.75rem;
+  background: var(--tskx-bg-tertiary);
+  border: 1px solid var(--tskx-border);
+  border-radius: 8px;
+  color: var(--tskx-text-primary);
+  font-size: var(--text-md);
+  outline: none;
+  min-width: 180px;
+}
+
+.tskx-search:focus {
+  border-color: var(--tskx-primary);
+}
+
+.tskx-search::placeholder {
+  color: var(--tskx-text-muted);
+}
+
+.tskx-filter-btn {
+  padding: 0.4rem 0.75rem;
+  background: var(--tskx-bg-tertiary);
+  border: 1px solid var(--tskx-border);
+  border-radius: 6px;
+  color: var(--tskx-text-secondary);
+  font-size: var(--text-sm);
+  cursor: pointer;
+}
+
+.tskx-filter-btn.active {
+  background: var(--tskx-primary);
+  border-color: var(--tskx-primary);
+  color: var(--tskx-bg-primary);
+  font-weight: 600;
+}
+
+.tskx-count {
+  margin-left: auto;
+  font-size: var(--text-sm);
+  color: var(--tskx-text-muted);
+}
+
+.tskx-char-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 0.75rem;
+}
+
+.tskx-char-card {
+  display: block;
+  background: var(--tskx-bg-card);
+  border: 1px solid var(--tskx-border);
+  border-radius: 12px;
+  text-decoration: none;
+  overflow: hidden;
+}
+
+.tskx-char-card-header {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.75rem;
+}
+
+.tskx-char-avatar {
+  width: 64px;
+  height: 64px;
+  border-radius: 8px;
+  object-fit: cover;
+  object-position: top;
+  flex-shrink: 0;
+}
+
+.tskx-char-info {
+  min-width: 0;
+  flex: 1;
+}
+
+.tskx-char-name {
+  font-size: var(--text-body);
+  font-weight: 600;
+  color: var(--tskx-text-primary);
+  margin: 0 0 0.35rem;
+}
+
+.tskx-char-meta {
+  margin: 0;
+  color: var(--tskx-text-primary);
+  font-size: var(--text-sm);
+  line-height: 1.5;
+}
+
+/* Detail page styles */
+.tskx-back {
+  display: inline-block;
+  margin-bottom: 1rem;
+  color: var(--tskx-primary-light);
+  text-decoration: none;
+  font-size: var(--text-md);
+}
+
+.tskx-detail-header {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.5rem;
+}
+
+.tskx-detail-portrait {
+  width: 220px;
+  height: auto;
+  border-radius: 12px;
+  border: 1px solid var(--tskx-border);
+  object-fit: cover;
+  flex-shrink: 0;
+  display: block;
+}
+
+.tskx-detail-info h1 {
+  margin: 0 0 0.25rem;
+  font-size: var(--text-2xl);
+  color: var(--tskx-text-primary);
+}
+
+.tskx-detail-meta {
+  margin: 0 0 1rem;
+  color: var(--tskx-text-primary);
+  font-size: var(--text-body);
+  line-height: 1.6;
+}
+
+.tskx-detail-desc {
+  color: var(--tskx-text-primary);
+  line-height: 1.7;
+  margin: 0;
+  font-size: var(--text-body);
+}
+
+.tskx-detail-section {
+  background: var(--tskx-bg-card);
+  border: 1px solid var(--tskx-border);
+  border-radius: 12px;
+  padding: 1.25rem;
+}
+
+.tskx-detail-section h2 {
+  margin: 0 0 0.75rem;
+  font-size: var(--text-lg);
+  font-weight: 700;
+  color: var(--tskx-primary-light);
+}
+
+.tskx-artworks {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.tskx-artwork {
+  width: 240px;
+  height: auto;
+  border-radius: 10px;
+  border: 1px solid var(--tskx-border);
+  display: block;
+}
+
+.tskx-artwork-caption {
+  margin: 0.375rem 0 0;
+  text-align: center;
+  color: var(--tskx-text-muted);
+  font-size: var(--text-sm);
+}
+
+.tskx-coming-soon-banner {
+  background: var(--tskx-bg-tertiary);
+  border: 1px solid var(--tskx-border);
+  border-radius: 8px;
+  padding: 1rem;
+  text-align: center;
+  color: var(--tskx-text-primary);
+  font-size: var(--text-md);
+}
+
+.tskx-coming-soon-banner strong {
+  color: var(--tskx-primary-light);
+}
+
+@media (max-width: 768px) {
+  .tskx-toolbar {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .tskx-search {
+    width: 100%;
+    min-width: 0;
+  }
+
+  .tskx-count {
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .tskx-char-grid {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  }
+
+  .tskx-detail-header {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .tskx-detail-portrait {
+    width: 180px;
+  }
+
+  .tskx-detail-meta {
+    text-align: center;
+  }
+
+  .tskx-artworks {
+    justify-content: center;
+  }
+}

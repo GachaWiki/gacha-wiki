@@ -523,3 +523,16 @@
   background: #7d6740;
   color: white;
 }
+
+
+/* ============================================
+   TWINKLE STAR KNIGHTS X SPECIFIC STYLING
+   ============================================ */
+.game-nav-desktop[data-game='twinkle-star-knights-x'] .game-title {
+  color: #f06ba8;
+}
+
+.game-nav-desktop[data-game='twinkle-star-knights-x'] .dropdown-link.active {
+  background: #c41f74;
+  color: white;
+}

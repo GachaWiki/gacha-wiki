@@ -27,6 +27,7 @@ const agentX = g('agent-x');
 const geneSysAdam = g('gene-sys-adam');
 const muvLuvGirlsGarden = g('muv-luv-girls-garden');
 const brownDust2 = g('brown-dust-2');
+const twinkleStarKnightsX = g('twinkle-star-knights-x');
 
 // Type definitions for better code quality and IntelliSense
 export interface SocialLinks {
@@ -1113,6 +1114,39 @@ const GAME_SEO_CONFIG: Record<string, GameSEOConfig> = {
     alternateName: ['브라운더스트2', 'ブラウンダスト2', 'BrownDust II'],
     inLanguage: 'en',
     availableLanguage: ['en', 'ja', 'ko', 'zh-Hans', 'zh-Hant'],
+    playMode: 'SinglePlayer',
+  },
+  [twinkleStarKnightsX.id]: {
+    gameName: twinkleStarKnightsX.name,
+    keywords: [
+      twinkleStarKnightsX.name,
+      'twinkle star knights x',
+      'twinkle star knights',
+      'tskx game',
+      'twinkle star knights x wiki',
+      'twinkle star knights x guide',
+      'twinkle star knights x characters',
+      'twinkle star knights x database',
+      'twinkle star knights x pre registration',
+      'twinkle star knights x preregistration',
+      'erolabs twinkle star knights',
+      // Character names (revealed on the official pre-registration page)
+      'venus kujo',
+      'ana twinkle star knights',
+      'matoi yomino',
+      'sasha kanade',
+      'fiona hoshimi',
+      // Game-type keywords
+      'r18 gacha game',
+      'erolabs rpg',
+      'gacha game',
+      'mobile rpg',
+      'character database',
+    ] as const,
+    themeColor: twinkleStarKnightsX.themeColor,
+    description: 'Twinkle Star Knights X wiki: R18 RPG coming to EROLABS. Revealed character profiles, story, pre-registration rewards and referral event info, ready for launch.',
+    genres: ['RPG', 'Gacha'] as const,
+    platform: 'Mobile',
     playMode: 'SinglePlayer',
   },
 } as const;

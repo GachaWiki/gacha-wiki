@@ -14,7 +14,8 @@ export type GameKey =
   | 'agent-x'
   | 'muv-luv-girls-garden'
   | 'gene-sys-adam'
-  | 'brown-dust-2';
+  | 'brown-dust-2'
+  | 'twinkle-star-knights-x';
 
 export interface NavigationLink {
   name: string;
@@ -598,6 +599,20 @@ export const NAV_DATA: Record<GameKey, { sections: NavigationSection[] }> = {
           { name: 'Updates', href: '/guides/brown-dust-2/updates/' },
           { name: 'Redeem Codes', href: '/guides/brown-dust-2/redeem-codes/' },
         ],
+      },
+    ],
+  },
+  'twinkle-star-knights-x': {
+    sections: [
+      {
+        title: 'Characters',
+        links: [
+          { name: 'Database', href: '/guides/twinkle-star-knights-x/characters/' },
+        ],
+      },
+      {
+        title: 'Resources',
+        links: [],
       },
     ],
   },
