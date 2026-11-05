@@ -3,6 +3,7 @@ import TierListLayout from '../../../layouts/zone-nova/TierListLayout.astro';
 import { ZONE_NOVA_CHARACTERS } from '../../../data/zone-nova/characters.js';
 import {
   ALL_TIER_LISTS,
+  CLASS_SECTION_NOTES,
   TIER_DEFINITIONS,
   TIER_ORDER,
   getGroupedTierSections,
@@ -33,7 +34,6 @@ function formatCharacterNames(characters: { name: string }[], limit = 3): string
 }
 
 const structuredListTypes = ['pve', 'pvp', 'new-player'];
-
 
 const structuredTierViews: Record<string, { roleHighlights: ReturnType<typeof getRoleHighlights>; classSections: ReturnType<typeof getGroupedTierSections> }> = {};
 structuredListTypes.forEach(listType => {
@@ -117,6 +117,7 @@ structuredListTypes.forEach(listType => {
                     );
                   })}
                 </div>
+                {pair.description && <p class="tl-pair-desc">{pair.description}</p>}
               </div>
             ))}
             </div>
@@ -143,6 +144,9 @@ structuredListTypes.forEach(listType => {
                         <p class="tl-class-desc">
                           Best {section.label.toLowerCase()} picks for {getListModeLabel(listType)}.
                         </p>
+                        {CLASS_SECTION_NOTES[section.label] && (
+                          <p class="tl-class-note">{CLASS_SECTION_NOTES[section.label]}</p>
+                        )}
                       </div>
                     </div>
                   </div>

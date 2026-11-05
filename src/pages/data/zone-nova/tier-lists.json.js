@@ -3,6 +3,7 @@
 
 import {
   ALL_TIER_LISTS,
+  CLASS_SECTION_NOTES,
   TIER_DEFINITIONS,
   TIER_LIST_CHANGELOG,
   getGroupedTierSections,
@@ -19,6 +20,7 @@ export async function GET() {
       'Role and class-based character rankings for the main Zone Nova modes: PvE, PvP, and New Player / F2P.',
     lastUpdated: new Date().toISOString().split('T')[0],
     tierDefinitions: TIER_DEFINITIONS,
+    classSectionNotes: CLASS_SECTION_NOTES,
     tierLists: {
       pve: {
         name: ALL_TIER_LISTS.pve.name,

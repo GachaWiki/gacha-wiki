@@ -1109,6 +1109,15 @@
   line-height: 1.6;
 }
 
+/* Class section note (attention meta verdicts, e.g. Tank role status) */
+.tl-class-note {
+  color: var(--zn-badge-red);
+  font-size: var(--text-xs);
+  line-height: 1.6;
+  margin: 0.4rem 0 0;
+  max-width: 720px;
+}
+
 .tl-pair {
   background: var(--zn-bg-tertiary);
   border: 1px solid var(--zn-border);
@@ -1118,6 +1127,14 @@
   max-width: 100%;
 }
 
+/* Second description line inside a pair card (why these units, user verdicts) */
+.tl-pair-desc {
+  color: var(--zn-text-primary);
+  font-size: var(--text-xs);
+  line-height: 1.6;
+  margin: 0.75rem 0 0;
+  max-width: 420px;
+}
 
 .tl-pair-title {
   color: var(--amber-glow);

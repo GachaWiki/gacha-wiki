@@ -45,7 +45,24 @@ export const ROLE_ORDER = ['Healer', 'Supporter', 'Disruptor', 'Tank', 'DPS'];
 export const RECOMMENDED_PAIRS = [
   { title: 'Crit Damage Build', characters: ['Nephthys', 'Sharin'] },
   { title: 'Universally Good', characters: ['Tamamo-no-Mae', 'Medusa'] },
+  {
+    title: 'AOE DPS',
+    characters: ['Keller', 'Nephthys'],
+    description:
+      'These units are used everywhere now to clear event maps and raids. Good at AOE and single target. More units will be added.',
+  },
+  {
+    title: 'Most Used Healers',
+    characters: ['Medusa', 'Jill'],
+    description: 'The prime 2 healers for now. They become really core for any build.',
+  },
 ];
+
+// Notes rendered inside specific class sections on the tier list (user-driven meta verdicts, red for attention).
+export const CLASS_SECTION_NOTES = {
+  Tank:
+    'Tanks are less important right now. Healing has overtaken the tank role: supporters and disruptors can work as tank, buffer and healer at the same time, so you no longer need a dedicated tank. Monsters hit your DPS hard, so buffs, debuffs and heals keep the team alive. Bors is an example: a support acting as tank because her DEF stat is high, and the healer just keeps her alive.',
+};
 // Game class order (Tank=1 … Healer=7, matches character_data_info enum)
 export const CLASS_ORDER = [
   'Tank',
@@ -60,7 +77,7 @@ export const CLASS_ORDER = [
 // Overall PvE Tier List - General content performance
 export const PVE_TIER_LIST = {
   name: 'PvE Rankings by Class & Role',
-  lastUpdated: '2026-10-27',
+  lastUpdated: '2026-11-05',
   description:
     'Class-based PvE rankings with role highlights for story, events, and general progression.',
   tiers: {
@@ -70,7 +87,6 @@ export const PVE_TIER_LIST = {
       { name: 'Gluttony - Beelzebub' },
       { name: 'Freya' },
       { name: 'Hela' },
-      { name: 'Gaia' },
       { name: 'Jill' },
       { name: 'Keller' },
       { name: 'Lust - Asmodeus' },
@@ -89,6 +105,7 @@ export const PVE_TIER_LIST = {
       { name: 'Brynhild' },
     ],
     SS: [
+      { name: 'Gaia' },
       { name: 'Guinevere' },
       { name: 'Athena' },
       { name: 'Chiya' },
@@ -147,12 +164,13 @@ export const PVE_TIER_LIST = {
 // PvP Arena Tier List
 export const PVP_TIER_LIST = {
   name: 'Arena PvP Rankings by Class & Role',
-  lastUpdated: '2026-10-27',
+  lastUpdated: '2026-11-05',
   description: 'Class-based Arena PvP rankings with role highlights for competitive play.',
   tiers: {
     UR: [{ name: 'Pride-Lucifer' }, { name: 'Bors' }, { name: 'Medusa' }, { name: 'Mila' }],
-    SSS: [{ name: 'Sharin' }, { name: 'Gluttony - Beelzebub' }, { name: 'Keller' }, { name: 'Nina' }, { name: 'Morgan Le Fay' }, { name: 'Odin' }, { name: 'Tamamo-no-Mae' }, { name: 'Wrath-Samael' }, { name: 'Gaia' }, { name: 'Jill' }, { name: 'Jorogumo' }, { name: 'Thor' }, { name: 'Apep' }, { name: 'Artemis' }, { name: 'Freya' }, { name: 'Hiyori' }, { name: 'Veronica' }, { name: 'Set' }, { name: 'Brynhild' }, { name: 'Fenrir' }, { name: 'Ootakemaru' }, { name: 'Suzuka Gozen' }],
+    SSS: [{ name: 'Sharin' }, { name: 'Gluttony - Beelzebub' }, { name: 'Keller' }, { name: 'Nina' }, { name: 'Morgan Le Fay' }, { name: 'Odin' }, { name: 'Tamamo-no-Mae' }, { name: 'Wrath-Samael' }, { name: 'Jill' }, { name: 'Jorogumo' }, { name: 'Thor' }, { name: 'Apep' }, { name: 'Artemis' }, { name: 'Freya' }, { name: 'Hiyori' }, { name: 'Veronica' }, { name: 'Set' }, { name: 'Brynhild' }, { name: 'Fenrir' }, { name: 'Ootakemaru' }, { name: 'Suzuka Gozen' }],
     SS: [
+      { name: 'Gaia' },
       { name: 'Guinevere' },
       { name: 'Frigga' },
       { name: 'Athena' },
@@ -371,6 +389,13 @@ export function getCharactersByTier(tierLevel, listType = 'pve') {
 
 // Tier list changelog
 export const TIER_LIST_CHANGELOG = [
+  {
+    date: '2026-11-05',
+    changes: [
+      'Gaia moved from SSS to SS in PvE and PvP: her healing output is falling behind Medusa and Jill',
+      'Tank section note added: tanks are less important now, healing plus buffs and debuffs keep teams alive, supports with high DEF like Bors act as tank while the healer keeps them alive',
+    ],
+  },
   {
     date: '2026-10-27',
     changes: [
