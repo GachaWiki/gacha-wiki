@@ -10,7 +10,7 @@ import '../../../../styles/games/horizon-walker/hw-redeem-codes.css';
 
 export const prerender = true;
 
-const { availableCodes, expiredCodes, communitySection, warnings, meta } = horizonWalkerRedeemCodes;
+const { availableCodes, expiredCodes, meta } = horizonWalkerRedeemCodes;
 
 // localize the data's English date strings without changing the values
 const MONTH_NUM = {
@@ -41,10 +41,6 @@ const stepsZh = [
   { title: '확인 및 받기', description: '"확인" 또는 "교환" 버튼을 눌러 코드를 제출합니다. 성공하면 보상이 게임 내 우편함으로 지급됩니다.' },
 ];
 
-const communityButtonsZh = communitySection.buttons.map((b) => ({
-  ...b,
-  textZh: b.id === 'discord' ? 'Discord에 알리기' : b.id === 'github' ? 'GitHub에 스타 주기' : b.text,
-}));
 ---
 
 <HwLangLayout lang="ko" ui={HW_ZH}
@@ -141,26 +137,7 @@ const communityButtonsZh = communitySection.buttons.map((b) => ({
           )
         }
       </div>
-
-      <div class="hw-redeem-community-section">
-        <h2 class="hw-redeem-section-title">최신 상태 유지를 도와주세요</h2>
-        <p class="hw-redeem-section-description">만료된 코드나 새 코드를 발견하셨나요? 커뮤니티에 알려주세요!</p>
-
-        <div class="hw-community-buttons">
-          {
-            communityButtonsZh.map((button) => (
-              <a
-                href={button.url}
-                class={`hw-community-button ${button.type}`}
-                target={button.external ? '_blank' : '_self'}
-                rel={button.external ? 'noopener noreferrer' : ''}
-              >
-                {button.textZh}
-              </a>
-            ))
-          }
-        </div>
-      </div>
+    
     </div>
   </section>
 </HwLangLayout>

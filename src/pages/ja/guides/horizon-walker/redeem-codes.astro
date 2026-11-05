@@ -10,7 +10,7 @@ import '../../../../styles/games/horizon-walker/hw-redeem-codes.css';
 
 export const prerender = true;
 
-const { availableCodes, expiredCodes, communitySection, warnings, meta } = horizonWalkerRedeemCodes;
+const { availableCodes, expiredCodes, meta } = horizonWalkerRedeemCodes;
 
 // localize the data's English date strings without changing the values
 const MONTH_NUM = {
@@ -41,10 +41,6 @@ const stepsJa = [
   { title: '確定して受け取る', description: '「確認」または「引換」ボタンを押してコードを送信します。成功すると報酬がゲーム内メールに届きます。' },
 ];
 
-const communityButtonsJa = communitySection.buttons.map((b) => ({
-  ...b,
-  textJa: b.id === 'discord' ? 'Discord で報告する' : b.id === 'github' ? 'GitHub でスターを付ける' : b.text,
-}));
 ---
 
 <HwLangLayout lang="ja" ui={HW_ZH}
@@ -141,26 +137,7 @@ const communityButtonsJa = communitySection.buttons.map((b) => ({
           )
         }
       </div>
-
-      <div class="hw-redeem-community-section">
-        <h2 class="hw-redeem-section-title">情報提供にご協力ください</h2>
-        <p class="hw-redeem-section-description">期限切れのコードや新しいコードを見つけたら、ぜひコミュニティにお知らせください！</p>
-
-        <div class="hw-community-buttons">
-          {
-            communityButtonsJa.map((button) => (
-              <a
-                href={button.url}
-                class={`hw-community-button ${button.type}`}
-                target={button.external ? '_blank' : '_self'}
-                rel={button.external ? 'noopener noreferrer' : ''}
-              >
-                {button.textJa}
-              </a>
-            ))
-          }
-        </div>
-      </div>
+    
     </div>
   </section>
 </HwLangLayout>

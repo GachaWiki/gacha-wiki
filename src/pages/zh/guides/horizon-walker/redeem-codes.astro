@@ -10,7 +10,7 @@ import '../../../../styles/games/horizon-walker/hw-redeem-codes.css';
 
 export const prerender = true;
 
-const { availableCodes, expiredCodes, communitySection, warnings, meta } = horizonWalkerRedeemCodes;
+const { availableCodes, expiredCodes, meta } = horizonWalkerRedeemCodes;
 
 // localize the data's English date strings without changing the values
 const MONTH_NUM = {
@@ -41,10 +41,6 @@ const stepsZh = [
   { title: '确认并领取', description: '点击「确认」或「兑换」按钮提交兑换码。成功后奖励会发送到游戏内邮箱。' },
 ];
 
-const communityButtonsZh = communitySection.buttons.map((b) => ({
-  ...b,
-  textZh: b.id === 'discord' ? '在 Discord 反馈' : b.id === 'github' ? '在 GitHub 加星' : b.text,
-}));
 ---
 
 <HwZhLayout
@@ -141,26 +137,7 @@ const communityButtonsZh = communitySection.buttons.map((b) => ({
           )
         }
       </div>
-
-      <div class="hw-redeem-community-section">
-        <h2 class="hw-redeem-section-title">帮助我们保持更新</h2>
-        <p class="hw-redeem-section-description">发现过期兑换码或新兑换码？欢迎告诉社区！</p>
-
-        <div class="hw-community-buttons">
-          {
-            communityButtonsZh.map((button) => (
-              <a
-                href={button.url}
-                class={`hw-community-button ${button.type}`}
-                target={button.external ? '_blank' : '_self'}
-                rel={button.external ? 'noopener noreferrer' : ''}
-              >
-                {button.textZh}
-              </a>
-            ))
-          }
-        </div>
-      </div>
+    
     </div>
   </section>
 </HwZhLayout>
