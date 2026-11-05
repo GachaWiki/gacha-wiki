@@ -128,9 +128,8 @@ export const GAME_MODES = {
 // Character lists from your tier list data (only characters with EX Weapons)
 const MAP_CLEAR_CHARACTERS = {
   UR: ['Cora', 'Luise', 'Juza', 'Mu Yingying'],
-  SSS: ['Olivia', 'Vlissing', 'Palekar', 'Matrotho', 'Eugenia', 'Ahram', 'Nari', 'Garud', 'Kim ga-young'],
+  SSS: ['Olivia', 'Vlissing', 'Palekar', 'Matrotho', 'Eugenia', 'Ahram', 'Nari', 'Garud', 'Kim ga-young', 'Yui'],
   SS: [
-    'Yui',
     'Valeta',
     'Everette',
     'Yvonna',
@@ -194,7 +193,7 @@ const MAP_CLEAR_CHARACTERS = {
 
 const SPECIAL_OPERATIONS_CHARACTERS = {
   UR: ['Cora', 'Luise', 'Juza', 'Mu Yingying'],
-  SSS: ['Yeonwoo', 'Leah', 'Nymset', 'Palekar', 'Juha', 'So Joo-Hee', 'Mahari', 'Matrotho', 'Eugenia', 'Ahram', 'Nari', 'Garud', 'Kim ga-young'],
+  SSS: ['Yeonwoo', 'Leah', 'Nymset', 'Palekar', 'Juha', 'So Joo-Hee', 'Mahari', 'Matrotho', 'Eugenia', 'Ahram', 'Nari', 'Garud', 'Kim ga-young', 'Yui'],
   SS: [
     'Olivia',
     'Yvonna',
@@ -208,7 +207,6 @@ const SPECIAL_OPERATIONS_CHARACTERS = {
     'Efreeti',
     'Maximilia',
     'Emilia',
-    'Yui',
     'Mira',
     'Mirana',
     'Kotoha',
@@ -532,6 +530,13 @@ export const TIER_CHARACTER_NOTES = {
     shortTitle: 'Ahram + Mu Synergy',
     title: 'Insane Damage with Ahram and Mu',
     text: 'With Ahram and Mu Yingying she can deal an insane amount of damage. Ahram\'s Assault Formation stacks a huge Ranged ATK bonus on her while Suppression shreds the target\'s Pierce DEF, and Mu Yingying gives her +100% Crit Rate while she is in Stealth through Ambush Cover plus +200% Crit DMG from Camaraderie, so her crit pierce shots tear through everything.',
+  },
+  Yui: {
+    type: 'info',
+    variant: 'dps',
+    shortTitle: 'Mu + Ahram Synergy',
+    title: 'Really Strong with Mu and Ahram',
+    text: 'With Mu Yingying she can be really strong: Camaraderie gives her +200% Crit DMG and Ambush Cover covers her Crit Rate while she is in Stealth. Add Ahram, who buffs her Ranged ATK and shreds Pierce DEF, and Ahram + Yui + Mu is a full 18-cost team.',
   },
   Ahram: {
     type: 'info',
