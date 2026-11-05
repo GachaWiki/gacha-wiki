@@ -1,7 +1,7 @@
 ---
 import { r2Url } from '../../../data/r2-config.js';
 import TierListLayout from '../../../layouts/horizon-walker/TierListLayout.astro';
-import { HORIZON_WALKER_TIER_LISTS, TIER_DEFINITIONS, TIER_CHARACTER_NOTES } from '../../../data/horizon-walker/tier-lists.js';
+import { HORIZON_WALKER_TIER_LISTS, TIER_DEFINITIONS, TIER_CHARACTER_NOTES, DEMI_REQUIRED_UNITS, RECOMMENDED_UNITS, QUEEN_UNIT } from '../../../data/horizon-walker/tier-lists.js';
 import { HORIZON_WALKER_CHARACTERS } from '../../../data/horizon-walker/characters.js';
 import { HORIZON_WALKER_MERCENARIES } from '../../../data/horizon-walker/mercenaries.js';
 import { CharacterImage, MercenaryImage, HWRarityIcon } from '../../../components/horizon-walker/index.astro';
@@ -40,6 +40,13 @@ allUnits.forEach(unit => {
 function getTierClassName(tier: string): string {
   return tier.toLowerCase().replace('+', '-plus').replace(/\s+/g, '-');
 }
+
+// Recommended Units portraits: try the display-name key first, fall back to
+// the character's image basename (mirrors the tier-card logic).
+const recImageKey = (name: string): string => {
+  const char = HORIZON_WALKER_CHARACTERS.find((c: any) => c.name === name);
+  return char?.image?.split('/').pop() || name;
+};
 
 // Pre-compute character notes lookup
 const charNoteMap: Record<string, { type: string; variant?: string; shortTitle?: string; title: string; text: string }> = TIER_CHARACTER_NOTES;
@@ -80,6 +87,23 @@ const charNoteMap: Record<string, { type: string; variant?: string; shortTitle?:
         <button class="control-btn" id="reset-tier-list">Reset Tier List</button>
       </div>
     </div>
+
+    <!-- Recommended Units -->
+    <section class="recommended-units-section">
+      <h2 class="recommended-units-title">Recommended Units</h2>
+      <p class="recommended-units-tagline">{RECOMMENDED_UNITS.tagline}</p>
+      <div class="recommended-units-list">
+        {RECOMMENDED_UNITS.units.map(unit => (
+          <div class="recommended-unit">
+            <CharacterImage imageName={recImageKey(unit.name)} alt={unit.name} width={56} height={56} loading="lazy" quality={90} />
+            <div class="recommended-unit-info">
+              <span class="recommended-unit-name">{unit.name}</span>
+              <span class="recommended-unit-text">{unit.text}</span>
+            </div>
+          </div>
+        ))}
+      </div>
+    </section>
 
     <!-- Tier List Info -->
     <div class="tier-list-info" id="tier-list-info">
@@ -160,7 +184,7 @@ const charNoteMap: Record<string, { type: string; variant?: string; shortTitle?:
               const noteVariantClass = note?.variant ? ` tier-note-${note.variant}` : '';
               return (
               <div
-                class={`tier-character-card${note ? ` has-note${noteVariantClass ? ` note-variant-${note.variant}` : ''}` : ''}`}
+                class={`tier-character-card${note ? ` has-note${noteVariantClass ? ` note-variant-${note.variant}` : ''}` : ''}${charData.name === QUEEN_UNIT ? ' is-queen' : ''}`}
                 onclick={`window.location.href=${JSON.stringify(charData.detailUrl || '#')}`}
               >
                 {note && (
@@ -172,7 +196,17 @@ const charNoteMap: Record<string, { type: string; variant?: string; shortTitle?:
                     </div>
                   </div>
                 )}
-                <div class="character-image-wrapper">
+                {charData.name === QUEEN_UNIT && (
+                  <img
+                    class="tier-queen-crown"
+                    src={r2Url('horizon-walker', 'gift-icons/ItemIcon_FriendshipGift_QueensTiara.png')}
+                    alt="The Queen"
+                    width="20"
+                    height="20"
+                    loading="lazy"
+                  />
+                )}
+                <div class={`character-image-wrapper${charData.name === QUEEN_UNIT ? ' is-queen' : ''}`}>
                   {note?.variant && <div class="tier-card-highlight">{note.shortTitle}</div>}
                   {charData.isMercenary ? (
                     <MercenaryImage
@@ -196,7 +230,11 @@ const charNoteMap: Record<string, { type: string; variant?: string; shortTitle?:
                     <div class="character-placeholder">📷</div>
                   )}
                 </div>
-                <div class="character-name">{charData.name}</div>
+                <div class={`character-name${charData.name === QUEEN_UNIT ? ' is-queen' : ''}`}>{charData.name}</div>
+                {charData.name === QUEEN_UNIT && <div class="tier-queen-tag">Queen</div>}
+                {DEMI_REQUIRED_UNITS[charData.name] && (
+                  <div class="tier-demi-marker" title="Tier assumes the Demi-Ascension skill is unlocked">[ Need Demi ]</div>
+                )}
               </div>
               );
             })}
@@ -218,7 +256,7 @@ const charNoteMap: Record<string, { type: string; variant?: string; shortTitle?:
               const noteVariantClass = note?.variant ? ` tier-note-${note.variant}` : '';
               return (
               <div
-                class={`tier-character-card${note ? ` has-note${noteVariantClass ? ` note-variant-${note.variant}` : ''}` : ''}`}
+                class={`tier-character-card${note ? ` has-note${noteVariantClass ? ` note-variant-${note.variant}` : ''}` : ''}${charData.name === QUEEN_UNIT ? ' is-queen' : ''}`}
                 onclick={`window.location.href=${JSON.stringify(charData.detailUrl || '#')}`}
               >
                 {note && (
@@ -230,7 +268,17 @@ const charNoteMap: Record<string, { type: string; variant?: string; shortTitle?:
                     </div>
                   </div>
                 )}
-                <div class="character-image-wrapper">
+                {charData.name === QUEEN_UNIT && (
+                  <img
+                    class="tier-queen-crown"
+                    src={r2Url('horizon-walker', 'gift-icons/ItemIcon_FriendshipGift_QueensTiara.png')}
+                    alt="The Queen"
+                    width="20"
+                    height="20"
+                    loading="lazy"
+                  />
+                )}
+                <div class={`character-image-wrapper${charData.name === QUEEN_UNIT ? ' is-queen' : ''}`}>
                   {note?.variant && <div class="tier-card-highlight">{note.shortTitle}</div>}
                   {charData.isMercenary ? (
                     <MercenaryImage
@@ -254,7 +302,11 @@ const charNoteMap: Record<string, { type: string; variant?: string; shortTitle?:
                     <div class="character-placeholder">📷</div>
                   )}
                 </div>
-                <div class="character-name">{charData.name}</div>
+                <div class={`character-name${charData.name === QUEEN_UNIT ? ' is-queen' : ''}`}>{charData.name}</div>
+                {charData.name === QUEEN_UNIT && <div class="tier-queen-tag">Queen</div>}
+                {DEMI_REQUIRED_UNITS[charData.name] && (
+                  <div class="tier-demi-marker" title="Tier assumes the Demi-Ascension skill is unlocked">[ Need Demi ]</div>
+                )}
               </div>
               );
             })}
@@ -276,7 +328,7 @@ const charNoteMap: Record<string, { type: string; variant?: string; shortTitle?:
               const noteVariantClass = note?.variant ? ` tier-note-${note.variant}` : '';
               return (
               <div
-                class={`tier-character-card${note ? ` has-note${noteVariantClass ? ` note-variant-${note.variant}` : ''}` : ''}`}
+                class={`tier-character-card${note ? ` has-note${noteVariantClass ? ` note-variant-${note.variant}` : ''}` : ''}${charData.name === QUEEN_UNIT ? ' is-queen' : ''}`}
                 onclick={`window.location.href=${JSON.stringify(charData.detailUrl || '#')}`}
               >
                 {note && (
@@ -288,7 +340,17 @@ const charNoteMap: Record<string, { type: string; variant?: string; shortTitle?:
                     </div>
                   </div>
                 )}
-                <div class="character-image-wrapper">
+                {charData.name === QUEEN_UNIT && (
+                  <img
+                    class="tier-queen-crown"
+                    src={r2Url('horizon-walker', 'gift-icons/ItemIcon_FriendshipGift_QueensTiara.png')}
+                    alt="The Queen"
+                    width="20"
+                    height="20"
+                    loading="lazy"
+                  />
+                )}
+                <div class={`character-image-wrapper${charData.name === QUEEN_UNIT ? ' is-queen' : ''}`}>
                   {note?.variant && <div class="tier-card-highlight">{note.shortTitle}</div>}
                   {charData.isMercenary ? (
                     <MercenaryImage
@@ -312,7 +374,11 @@ const charNoteMap: Record<string, { type: string; variant?: string; shortTitle?:
                     <div class="character-placeholder">📷</div>
                   )}
                 </div>
-                <div class="character-name">{charData.name}</div>
+                <div class={`character-name${charData.name === QUEEN_UNIT ? ' is-queen' : ''}`}>{charData.name}</div>
+                {charData.name === QUEEN_UNIT && <div class="tier-queen-tag">Queen</div>}
+                {DEMI_REQUIRED_UNITS[charData.name] && (
+                  <div class="tier-demi-marker" title="Tier assumes the Demi-Ascension skill is unlocked">[ Need Demi ]</div>
+                )}
               </div>
               );
             })}
@@ -333,10 +399,20 @@ const charNoteMap: Record<string, { type: string; variant?: string; shortTitle?:
           <div class="priorities-characters-grid">
             {section.characters.map(charData => (
               <div
-                class="priorities-character-card"
+                class={`priorities-character-card${charData.name === QUEEN_UNIT ? ' is-queen' : ''}`}
                 onclick={`window.location.href=${JSON.stringify(charData.detailUrl || '#')}`}
               >
-                <div class="character-image-wrapper">
+                {charData.name === QUEEN_UNIT && (
+                  <img
+                    class="tier-queen-crown"
+                    src={r2Url('horizon-walker', 'gift-icons/ItemIcon_FriendshipGift_QueensTiara.png')}
+                    alt="The Queen"
+                    width="20"
+                    height="20"
+                    loading="lazy"
+                  />
+                )}
+                <div class={`character-image-wrapper${charData.name === QUEEN_UNIT ? ' is-queen' : ''}`}>
                   {charData.image && charData.image.split('/').pop() ? (
                     charData.isMercenary ? (
                       <MercenaryImage
@@ -361,7 +437,11 @@ const charNoteMap: Record<string, { type: string; variant?: string; shortTitle?:
                     <div class="character-placeholder">📷</div>
                   )}
                 </div>
-                <div class="character-name">{charData.name}</div>
+                <div class={`character-name${charData.name === QUEEN_UNIT ? ' is-queen' : ''}`}>{charData.name}</div>
+                {charData.name === QUEEN_UNIT && <div class="tier-queen-tag">Queen</div>}
+                {DEMI_REQUIRED_UNITS[charData.name] && (
+                  <div class="tier-demi-marker" title="Tier assumes the Demi-Ascension skill is unlocked">[ Need Demi ]</div>
+                )}
               </div>
             ))}
           </div>

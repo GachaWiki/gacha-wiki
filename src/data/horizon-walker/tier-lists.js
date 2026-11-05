@@ -79,6 +79,9 @@ const processUnitList = names => {
 
 // Tier definitions for Horizon Walker
 export const TIER_DEFINITIONS = {
+  URP: {
+    label: 'UR+',
+  },
   UR: {
     label: 'UR',
   },
@@ -127,8 +130,9 @@ export const GAME_MODES = {
 
 // Character lists from your tier list data (only characters with EX Weapons)
 const MAP_CLEAR_CHARACTERS = {
-  UR: ['Cora', 'Luise', 'Juza', 'Mu Yingying'],
-  SSS: ['Olivia', 'Vlissing', 'Palekar', 'Matrotho', 'Eugenia', 'Ahram', 'Nari', 'Garud', 'Kim ga-young', 'Yui'],
+  URP: ['Mu Yingying'],
+  UR: ['Cora', 'Luise', 'Juza', 'Yui'],
+  SSS: ['Olivia', 'Vlissing', 'Palekar', 'Matrotho', 'Eugenia', 'Ahram', 'Nari', 'Garud', 'Kim ga-young'],
   SS: [
     'Valeta',
     'Everette',
@@ -192,8 +196,9 @@ const MAP_CLEAR_CHARACTERS = {
 };
 
 const SPECIAL_OPERATIONS_CHARACTERS = {
-  UR: ['Cora', 'Luise', 'Juza', 'Mu Yingying'],
-  SSS: ['Yeonwoo', 'Leah', 'Nymset', 'Palekar', 'Juha', 'So Joo-Hee', 'Mahari', 'Matrotho', 'Eugenia', 'Ahram', 'Nari', 'Garud', 'Kim ga-young', 'Yui'],
+  URP: ['Mu Yingying'],
+  UR: ['Cora', 'Luise', 'Juza', 'Yui'],
+  SSS: ['Yeonwoo', 'Leah', 'Nymset', 'Palekar', 'Juha', 'So Joo-Hee', 'Mahari', 'Matrotho', 'Eugenia', 'Ahram', 'Nari', 'Garud', 'Kim ga-young'],
   SS: [
     'Olivia',
     'Yvonna',
@@ -250,7 +255,8 @@ const SPECIAL_OPERATIONS_CHARACTERS = {
 };
 
 const DOPAMIN_CHARACTERS = {
-  UR: ['Cora', 'Luise', 'Juza', 'Mu Yingying'],
+  URP: ['Mu Yingying'],
+  UR: ['Cora', 'Luise', 'Juza', 'Yui'],
   SSS: [
     'Olivia',
     'Kaul',
@@ -336,13 +342,13 @@ const PRIORITIES_CORE_CHARACTERS = [
   'Eugenia',
   'Cora',
   'Palekar',
+  'Yui',
+  'So joo-hee',
 ];
 const PRIORITIES_SECONDARY_CHARACTERS = [
   'Mahari',
   'Bella',
   'Yeonwoo',
-  'Yui',
-  'So joo-hee',
   'Korabi',
   'Leah',
   'Maximilia',
@@ -383,6 +389,11 @@ export const HORIZON_WALKER_TIER_LISTS = {
   [GAME_MODES.PRIORITIES.id]: {
     ...GAME_MODES.PRIORITIES,
     sections: [
+      {
+        id: 'queen',
+        title: 'The Queen',
+        characters: processUnitList(['Mu Yingying']),
+      },
       {
         id: 'core',
         title: 'Core',
@@ -455,6 +466,33 @@ export const TIER_LIST_CHANGELOG = [];
 // variant (optional): marks a unique "best in class" attribute and gives the badge
 // its own color + on-card title chip: 'dps' red, 'wave-clear' orange, 'buffer' green,
 // 'def-down' purple. shortTitle is the label shown on the card (e.g. 'Best DPS').
+// Units whose tier placement DEPENDS on their Demi-Ascension skill. Their
+// tier cards carry a demi marker (skill icon + label) so readers know the
+// rank assumes the Authority skill is unlocked.
+export const DEMI_REQUIRED_UNITS = {
+  Yui: 'UI_SkillIcon_DemiGod_EternalLegion',
+  Luise: 'UI_SkillIcon_HellfireOfLonging',
+  Nari: 'UI_SkillIcon_JudgementalOfPenetration',
+};
+
+// The Queen of the tier list: crowned card + unique color.
+export const QUEEN_UNIT = 'Mu Yingying';
+
+// Recommended Units segment: the queens of the current meta.
+export const RECOMMENDED_UNITS = {
+  tagline: 'These two are the queens of the current meta.',
+  units: [
+    {
+      name: 'Cora',
+      text: 'Fast clears for daily maps, events, Wish and Bounty. One-shot AoE, good for speeding up dailies.',
+    },
+    {
+      name: 'Mu Yingying',
+      text: 'Insane combo with her crit buff: she deals huge damage herself and makes the others insane too. You only need 1 EX copy.',
+    },
+  ],
+};
+
 export const TIER_CHARACTER_NOTES = {
   Cora: {
     type: 'info',
@@ -521,8 +559,10 @@ export const TIER_CHARACTER_NOTES = {
   },
   'Mu Yingying': {
     type: 'info',
-    title: 'Super Tanky, Busted Damage',
-    text: 'Mu Yingying does an insane amount of damage while also being super tanky: she is one of the tankiest characters in the game. The damage she puts out is straight-up busted and she is super strong, and she does not need dupes either. She is also the best enabler for stealth crit carries like Kim Ga-young: Ambush Cover gives allies in Stealth up to +100% Crit Rate and Camaraderie gives Discover allies +200% Crit DMG.',
+    variant: 'wave-clear',
+    shortTitle: 'The Queen',
+    title: 'The Queen',
+    text: 'She enables strong team combos and is very strong herself. Ambush Cover gives allies in Stealth up to +100% Crit Rate and Camaraderie gives Discover allies +200% Crit DMG, and she does not need dupes either.',
   },
   'Kim Ga-young': {
     type: 'info',

@@ -1126,3 +1126,122 @@
     gap: 0.75rem;
   }
 }
+
+/* Recommended Units segment: plain text roles, no badges */
+.recommended-units-section {
+  margin: 2rem 0;
+}
+
+.recommended-units-title {
+  font-size: var(--text-xl);
+  font-weight: var(--font-bold);
+  color: var(--hw-primary-warm, #ffb74d);
+  margin: 0 0 0.4rem;
+}
+
+.recommended-units-tagline {
+  font-size: var(--text-md);
+  color: var(--hw-text-muted, #999);
+  margin: 0 0 1rem;
+}
+
+.recommended-units-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 1rem;
+}
+
+.recommended-unit {
+  display: flex;
+  align-items: center;
+  gap: 0.9rem;
+  border: 1px solid var(--hw-border-light, #444);
+  border-radius: 8px;
+  padding: 0.9rem 1rem;
+}
+
+.recommended-unit img {
+  flex-shrink: 0;
+  border-radius: 6px;
+}
+
+.recommended-unit-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  min-width: 0;
+}
+
+.recommended-unit-name {
+  font-size: var(--text-md);
+  font-weight: var(--font-semibold);
+  color: var(--hw-primary-warm, #ffb74d);
+}
+
+.recommended-unit-text {
+  font-size: var(--text-sm);
+  color: var(--hw-text-light, #fff);
+  line-height: 1.5;
+}
+
+/* Demi marker on tier cards: red status line below the name */
+.tier-demi-marker {
+  margin: 0.2rem 0 0;
+  color: #ff7676;
+  font-size: var(--text-xs);
+  font-weight: var(--font-semibold);
+  text-align: center;
+}
+
+/* One color for every tier label font */
+.tier-label.tier-urp,
+.tier-label.tier-ur,
+.tier-label.tier-sss,
+.tier-label.tier-ss,
+.tier-label.tier-s,
+.tier-label.tier-a,
+.tier-label.tier-b,
+.legend-tier.tier-urp,
+.legend-tier.tier-ur,
+.legend-tier.tier-sss,
+.legend-tier.tier-ss,
+.legend-tier.tier-s,
+.legend-tier.tier-a,
+.legend-tier.tier-b {
+  color: var(--hw-primary-warm, #ffb74d);
+}
+
+/* The Queen: crown above the portrait, unique violet name + tag */
+.tier-character-card.is-queen,
+.priorities-character-card.is-queen {
+  position: relative;
+}
+
+/* Mu stands alone in UR+: center her crowned card in the row */
+.tier-row[data-tier='URP'] .tier-characters {
+  justify-content: center;
+}
+
+/* Crown sits inside the card's top edge, small: no space taken, portrait
+   aligned with every other card. */
+.tier-queen-crown {
+  position: absolute;
+  top: 3px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 16px;
+  height: 16px;
+  z-index: 5;
+}
+
+.character-name.is-queen {
+  color: var(--hw-primary-warm, #ffb74d);
+}
+
+.tier-queen-tag {
+  margin: 0.2rem 0 0;
+  color: var(--hw-primary-warm, #ffb74d);
+  font-size: var(--text-xs);
+  font-weight: var(--font-semibold);
+  text-align: center;
+}
