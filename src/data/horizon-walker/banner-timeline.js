@@ -5,6 +5,18 @@
 // later "Searches have ended" announcement (its own patch note is not on the wiki).
 export const bannerRuns = [
   {
+    type: "rerun",
+    start: "2026-11-05", end: "2026-11-19",
+    approximate: false, reconstructed: false,
+    entries: [
+      { name: "Intelligence Division's Wildcard", kind: "vanguard", charSlug: "yui" },
+      { name: "Phantom Stiletto", kind: "weapon", weaponImage: "Weapon_FullIMG_DualPistol_ForYui" },
+    ],
+    bannerImage: "patch-notes/e452e20c3a5d.webp",
+    sourceNote: "update-2026-11-04",
+    sourceUrl: "/guides/horizon-walker/updates/update-2026-11-04/",
+  },
+  {
     type: "debut",
     start: "2026-10-22", end: "2026-11-05",
     approximate: false, reconstructed: false,
@@ -1715,6 +1727,14 @@ export const characterReleases = [
 // Demi-God Ascension release dates. batch: true = released with the system
 // itself (the patch note introduces the system without naming characters).
 export const demiReleases = [
+  {
+    "name": "Yui",
+    "slug": "yui",
+    "date": "2026-11-05",
+    "batch": false,
+    "note": "update-2026-11-04",
+    "url": "/guides/horizon-walker/updates/update-2026-11-04/"
+  },
   {
     "name": "Emilia",
     "slug": "emilia",

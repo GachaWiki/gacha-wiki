@@ -17,6 +17,10 @@ export const STORY_CG = {
     {
       "file": "story-cg/MuYingying/MuYingying_Friendship_003.webp",
       "caption": "Friendship Story CG 3"
+    },
+    {
+      "file": "story-cg/MuYingying/MuYingying_S01_Pass.webp",
+      "caption": "Mu Yingying Pass Key Art"
     }
   ],
   "70": [
@@ -461,6 +465,12 @@ export const STORY_CG = {
       "caption": "Friendship Story CG 2"
     }
   ],
+  "29": [
+    {
+      "file": "story-cg/SoJooHee/SoJoohee_S04_Pass.webp",
+      "caption": "So Joo-hee Pass Key Art"
+    }
+  ],
   "53": [
     {
       "file": "story-cg/Yui/Yui_001.webp",
@@ -493,6 +503,10 @@ export const STORY_CG = {
     {
       "file": "story-cg/Yui/Yui_Friendship_002.webp",
       "caption": "Friendship Story CG 2"
+    },
+    {
+      "file": "story-cg/Yui/Yui_S02_Pass.webp",
+      "caption": "Yui Pass Key Art"
     }
   ]
 };

@@ -263,6 +263,7 @@ export const CHAR_SKINS = {
   53: [
     { id: 129, number: 'N01', name: "Default", icon: 'UI_Icon_Hero_MatsumotoYui_N01.png', fullIcon: 'UI_Icon_Hero_Full_MatsumotoYui_N01.png', isDefault: true },
     { id: 130, number: 'S01', name: "Lingerie", icon: 'UI_Icon_Hero_MatsumotoYui_S01.png', fullIcon: 'UI_Icon_Hero_Full_MatsumotoYui_S01.png', isDefault: false },
+    { id: 232, number: 'S02', name: "Vampire Hunter", icon: 'UI_Icon_Hero_MatsumotoYui_S02.png', fullIcon: 'UI_Icon_Hero_Full_MatsumotoYui_S02.png', isDefault: false },
   ],
   54: [
     { id: 135, number: 'N01', name: "Default", icon: 'UI_Icon_Hero_Yeonwoo_N01.png', fullIcon: 'UI_Icon_Hero_Full_Yeonwoo_N01.png', isDefault: true },

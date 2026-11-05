@@ -1,0 +1,111 @@
+---
+// Horizon Walker Accessory System catalog: all Season 1 accessories from game data
+import GuideLayout from '../../../layouts/horizon-walker/GuideLayout.astro';
+import { r2Url } from '../../../data/r2-config.js';
+import { HW_ACCESSORIES } from '../../../data/horizon-walker/accessories.js';
+
+const title = 'Accessory System - All Accessories Catalog | Horizon Walker Wiki';
+const description =
+  'Horizon Walker Accessory System reference: every Season 1 accessory with its type, icon and description. Accessories are cosmetic items you equip on Vanguards and fine-tune their position, rotation and scale.';
+
+const types = [...new Set(HW_ACCESSORIES.map(a => a.type))].sort();
+---
+
+<GuideLayout title={title} description={description} pageTitle="Accessory System" subtitle={`${HW_ACCESSORIES.length} accessories, ${types.length} types`}>
+  <p class="acc-intro">
+    The Accessory System arrived with the November 5, 2026 update. Accessories are cosmetic items (rings, halos,
+    chokers, bunny ears and more) you equip on a Vanguard's detail screen, then fine-tune their position, rotation
+    and scale. Season 1 supports all Vanguards up to So Joo-hee. Accessories come from the revamped Shop (Costume
+    and Accessory tabs), Accessory Season 1 packs and event rewards.
+  </p>
+
+  <table class="acc-table">
+    <thead>
+      <tr>
+        <th>Icon</th>
+        <th>Name</th>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      {HW_ACCESSORIES.map(acc => (
+        <tr>
+          <td class="acc-icon-cell">
+            <img src={r2Url('horizon-walker', `accessories/${acc.icon}.png`)} alt={acc.name} width="48" height="48" loading="lazy" />
+          </td>
+          <td class="acc-name">{acc.name}</td>
+          <td class="acc-type">{acc.type}</td>
+          <td class="acc-desc">{acc.description}</td>
+        </tr>
+      ))}
+    </tbody>
+  </table>
+</GuideLayout>
+
+<style>
+  .acc-intro {
+    font-size: var(--text-md);
+    color: var(--hw-text-medium, #ccc);
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+    max-width: 72rem;
+  }
+
+  .acc-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  .acc-table th,
+  .acc-table td {
+    padding: 0.6rem 0.9rem;
+    border: 1px solid var(--hw-border-light, #444);
+    text-align: left;
+    font-size: var(--text-md);
+    vertical-align: middle;
+  }
+
+  .acc-table th {
+    color: var(--hw-primary-warm, #ffb74d);
+    font-weight: var(--font-semibold, 600);
+  }
+
+  .acc-icon-cell {
+    width: 64px;
+    text-align: center;
+  }
+
+  .acc-name {
+    font-weight: var(--font-semibold, 600);
+    color: var(--hw-text-light, #fff);
+    white-space: nowrap;
+  }
+
+  .acc-type {
+    color: var(--hw-text-muted, #999);
+    white-space: nowrap;
+  }
+
+  .acc-desc {
+    color: var(--hw-text-medium, #ccc);
+    line-height: 1.5;
+  }
+
+  @media (max-width: 768px) {
+    .acc-table th,
+    .acc-table td {
+      font-size: var(--text-sm);
+      padding: 0.5rem 0.6rem;
+    }
+
+    .acc-icon-cell {
+      width: 44px;
+    }
+
+    .acc-icon-cell img {
+      width: 32px;
+      height: 32px;
+    }
+  }
+</style>

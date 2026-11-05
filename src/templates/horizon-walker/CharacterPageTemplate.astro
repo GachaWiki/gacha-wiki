@@ -237,8 +237,10 @@ const DEFAULT_LABELS = {
   // demi-ascension
   demiTitle: 'Demi-Ascension',
   exRequiredBadge: 'EX Required',
+  demiExScalingNote:
+    'Authority skill values increase with EX rarity. EX 7 (full EX) is the highest stage and unlocks the maximum values.',
   demiBanner:
-    'Upon Demi-Ascension, this character can replace the leader as party Executor, granting the squad Oblivia immunity. Deployment costs {n} Divine Power.',
+    'Upon Demi-Ascension, this character can replace the leader as party Executor, granting the squad Oblivia immunity. In Total War, deploying her costs {n} Divine Power. In all other content she simply becomes the leader and adds nothing to the 18-point deployment cost.',
   authoritySkillBadge: 'Authority Skill',
   demiStageValuesLabel: 'Ascension stage values:',
   demiStageView: 'Stage {n}',
@@ -948,7 +950,7 @@ function getSkillCardClasses(skill: any, key: string, isBase: boolean = false, i
             <h1 class="character-name">{characterData.name}</h1>
             <div class="character-portrait-badges">
               <HWRarityIcon rarity={characterData.rarity} width={56} height={28} />
-              <span class="hw-badge" data-type="Cost">{fill(labels.costBadge, { n: characterData.cost })}</span>
+              <span class="hw-meta-text is-cost">{fill(labels.costBadge, { n: characterData.cost })}</span>
             </div>
           </div>
         </div>
@@ -1471,15 +1473,15 @@ function getSkillCardClasses(skill: any, key: string, isBase: boolean = false, i
             <h3 class="trait-title">{trait.name}</h3>
             {trait.name === labels.interestedTraitName ? (
               <div class="trait-badges">
-                <span class="hw-badge" data-type="Special">
+                <span class="hw-meta-text is-label">
                   {labels.giftLevel5Badge}
                 </span>
-                <span class="hw-badge" data-type="Trait">
+                <span class="hw-meta-text is-muted">
                   {labels.uniqueTraitBadge}
                 </span>
               </div>
             ) : (
-              <span class="hw-badge" data-type="Trait">
+              <span class="hw-meta-text is-muted">
                 {labels.uniqueTraitBadge}
               </span>
             )}
@@ -1528,14 +1530,14 @@ function getSkillCardClasses(skill: any, key: string, isBase: boolean = false, i
       <h2 class="section-title">{labels.demiTitle}</h2>
 
       <div class="demiskill-info-banner">
-        <span class="hw-badge" data-type="EX">{labels.exRequiredBadge}</span>
+        <p class="demiskill-ex-note"><span class="demiskill-ex-note-label">{labels.exRequiredBadge}:</span> {labels.demiExScalingNote}</p>
         <p>{fill(labels.demiBanner, { n: demiskillData.deploymentCost })}</p>
       </div>
 
       <div class="demiskill-authority-card">
         <div class="demiskill-authority-header">
           <h3 class="demiskill-authority-title">{demiskillData.authoritySkill.name}</h3>
-          <span class="hw-badge" data-type="Trait">{labels.authoritySkillBadge}</span>
+          <span class="demiskill-authority-label">{labels.authoritySkillBadge}</span>
         </div>
         <div class="demiskill-authority-tierbar">
           <span class="demiskill-tierbar-label">{labels.demiStageValuesLabel}</span>
@@ -1559,7 +1561,7 @@ function getSkillCardClasses(skill: any, key: string, isBase: boolean = false, i
 
         <div class="demiskill-tier-probabilities">
           {TIER_PROBABILITIES.map((tp: any) => (
-            <span class={`demiskill-tier-badge demiskill-tier-${tp.tier}`}>T{tp.tier}: {tp.probability}</span>
+            <span class={`demiskill-tier-text demiskill-tier-${tp.tier}`}>T{tp.tier} {tp.probability}</span>
           ))}
         </div>
 
@@ -1683,7 +1685,7 @@ function getSkillCardClasses(skill: any, key: string, isBase: boolean = false, i
               />
             </div>
             <div class="weapon-meta-row">
-              <span class="hw-badge" data-type="WeaponType">{characterData.weapon.type}</span>
+              <span class="hw-meta-text is-label">{characterData.weapon.type}</span>
               <HWRarityIcon rarity={characterData.weapon.rarity} width={48} height={24} />
             </div>
           </div>

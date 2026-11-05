@@ -1,254 +1,136 @@
 ---
+// Horizon Walker redeem codes: active and expired codes from official notices
 import HWLandingLayout from '../../../layouts/horizon-walker/LandingLayout.astro';
 import FormattedDate from '../../../components/FormattedDate.astro';
-
-// Import redeem codes data and CSS
 import {
   horizonWalkerRedeemCodes,
   generateRedeemCodesStructuredData,
 } from '../../../data/horizon-walker/redeem-codes.js';
 import '../../../styles/games/horizon-walker/hw-redeem-codes.css';
 
-// Extract data from the data file
-const { meta, availableCodes, expiredCodes, redeemInstructions, communitySection, warnings } =
-  horizonWalkerRedeemCodes;
-
-// Page metadata
+const { meta, availableCodes, expiredCodes, redeemInstructions } = horizonWalkerRedeemCodes;
 const title = meta.title;
 const description = meta.description;
 const gameTitle = 'Redeem Codes';
-const lastUpdated = meta.lastUpdated;
-
-// Generate structured data for SEO
-const structuredData = generateRedeemCodesStructuredData();
 ---
 
 <HWLandingLayout title={title} description={description} gameTitle={gameTitle}>
   <section class="page-content">
-    <!-- Single Main Container -->
     <div class="hw-redeem-main-container">
-      <!-- Header with Combined Warnings -->
-      <div class="hw-redeem-header-section">
-        <p class="important-notice">{warnings.important}</p>
-        <h3>{warnings.noGuarantees.title}</h3>
-        <p>{warnings.noGuarantees.message}</p>
-        <p class="last-updated">
-          Last Updated: <FormattedDate date={lastUpdated} />
-        </p>
-      </div>
+      <p class="hw-redeem-updated">
+        Codes come from official notices and can expire without warning. Last updated:
+        <FormattedDate date={meta.lastUpdated} />
+      </p>
 
-      <!-- Available Codes -->
-      <div class="hw-redeem-codes-section">
-        <h2 class="hw-redeem-section-title">Available Codes</h2>
-        <p class="hw-redeem-section-description">
-          These codes were shared by the community. Try them and see!
-        </p>
-
-        <div class="hw-redeem-codes-grid">
+      <h2 class="hw-redeem-section-title">Available Codes</h2>
+      <table class="hw-redeem-table">
+        <thead>
+          <tr>
+            <th>Code</th>
+            <th>Rewards</th>
+            <th>Expires</th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody>
           {
             availableCodes.map(codeData => (
-              <div class="hw-redeem-code-card">
-                <div class="hw-code-info">
-                  <div class="hw-code-label">Redeem Code</div>
-                  <div class="hw-code-value">{codeData.code}</div>
-                </div>
-                <div class="hw-code-rewards">{codeData.rewards}</div>
-                {codeData.platformNote && <div class="hw-code-platform">{codeData.platformNote}</div>}
-                <div class="hw-code-meta">
-                  <span class={`hw-code-status ${codeData.status}`}>
-                    {codeData.status === 'unknown' ? 'Unverified' : codeData.status}
-                  </span>
-                  <span class="hw-code-date">Checked: {codeData.lastChecked}</span>
-                </div>
-                {codeData.expiryDate && (
-                  <div class="hw-code-expiry">Expires: {codeData.expiryDate}</div>
-                )}
-                <button class="hw-copy-button" data-code={codeData.code}>
-                  <svg
-                    width="16"
-                    height="16"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-width="2"
-                  >
-                    <rect x="9" y="9" width="13" height="13" rx="2" ry="2" />
-                    <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1" />
-                  </svg>
-                  Copy Code
-                </button>
-              </div>
+              <tr>
+                <td class="hw-code-value">{codeData.code}</td>
+                <td class="hw-code-rewards">
+                  {codeData.rewards}
+                  {codeData.platformNote && <span class="hw-code-platform">{codeData.platformNote}</span>}
+                </td>
+                <td class="hw-code-expiry">{codeData.expiryDate ?? 'Unknown'}</td>
+                <td class="hw-code-copy-cell">
+                  <button class="hw-copy-button" data-code={codeData.code}>Copy</button>
+                </td>
+              </tr>
             ))
           }
-        </div>
-      </div>
+        </tbody>
+      </table>
 
-      <!-- Instructions -->
-      <div class="hw-redeem-instructions-section">
-        <h2 class="hw-redeem-section-title">{redeemInstructions.title}</h2>
-        <p class="hw-redeem-section-description">{redeemInstructions.description}</p>
-
-        <h3>Step-by-Step Guide:</h3>
+      <h2 class="hw-redeem-section-title">{redeemInstructions.title}</h2>
+      <ol class="hw-redeem-steps">
         {
-          redeemInstructions.steps.map((step, index) => (
-            <div class="hw-instruction-step" data-step={index + 1}>
-              <h4>{step.title}</h4>
-              <p>{step.description}</p>
-            </div>
+          redeemInstructions.steps.map(step => (
+            <li>
+              <span class="hw-redeem-step-title">{step.title}</span>
+              <span class="hw-redeem-step-desc">{step.description}</span>
+            </li>
           ))
         }
-      </div>
+      </ol>
 
-      <!-- Expired Codes -->
-      <div class="hw-redeem-expired-section">
-        <h2 class="hw-redeem-section-title">Expired Codes</h2>
-        {
-          expiredCodes.length > 0 ? (
-            <>
-              <p class="hw-redeem-section-description">
-                These codes are no longer active but kept for reference.
-              </p>
-              <div class="hw-redeem-codes-grid">
-                {expiredCodes.map(codeData => (
-                  <div class="hw-redeem-code-card expired">
-                    <div class="hw-code-info">
-                      <div class="hw-code-label">Expired Code</div>
-                      <div class="hw-code-value">{codeData.code}</div>
-                    </div>
-                    <div class="hw-code-rewards">{codeData.rewards}</div>
-                    <p class="hw-code-expiry">Expired: {codeData.expiryDate}</p>
-                  </div>
-                ))}
-              </div>
-            </>
-          ) : (
-            <div class="hw-empty-section">
-              <p class="hw-empty-message">
-                No expired codes yet! All available codes are still worth trying.
-              </p>
-            </div>
-          )
-        }
-      </div>
-
-      <!-- Community -->
-      <div class="hw-redeem-community-section">
-        <h2 class="hw-redeem-section-title">{communitySection.title}</h2>
-        <p class="hw-redeem-section-description">{communitySection.description}</p>
-
-        <div class="hw-community-buttons">
-          {
-            communitySection.buttons.map(button => (
-              <a
-                href={button.url}
-                class={`hw-community-button ${button.type}`}
-                target={button.external ? '_blank' : '_self'}
-                rel={button.external ? 'noopener noreferrer' : ''}
-              >
-                {button.text}
-              </a>
-            ))
-          }
-        </div>
-      </div>
+      <h2 class="hw-redeem-section-title">Expired Codes</h2>
+      {
+        expiredCodes.length > 0 ? (
+          <table class="hw-redeem-table is-expired">
+            <thead>
+              <tr>
+                <th>Code</th>
+                <th>Rewards</th>
+                <th>Expired</th>
+              </tr>
+            </thead>
+            <tbody>
+              {expiredCodes.map(codeData => (
+                <tr>
+                  <td class="hw-code-value">{codeData.code}</td>
+                  <td class="hw-code-rewards">{codeData.rewards}</td>
+                  <td class="hw-code-expiry">{codeData.expiryDate}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        ) : (
+          <p class="hw-redeem-empty">No expired codes yet.</p>
+        )
+      }
     </div>
   </section>
 
-  <!-- Structured Data for SEO -->
-  <script type="application/ld+json" set:html={JSON.stringify(structuredData)} />
+  <script type="application/ld+json" set:html={JSON.stringify(generateRedeemCodesStructuredData())} />
 </HWLandingLayout>
 
 <script>
-  // Simple copy functionality with multiple fallbacks
-  function copyCode(button: HTMLButtonElement) {
-    const code = button.getAttribute('data-code');
-    if (!code) return;
-
-    const originalHTML = button.innerHTML;
-    button.disabled = true;
-    button.textContent = 'Copying...';
-
-    // Try method 1: Modern Clipboard API
-    if (navigator.clipboard && window.isSecureContext) {
-      navigator.clipboard
-        .writeText(code)
-        .then(() => {
-          showSuccess(button, originalHTML);
-        })
-        .catch(() => {
-          // Try method 2: execCommand
-          tryExecCommand(button, originalHTML, code);
-        });
-    } else {
-      // Try method 2 directly
-      tryExecCommand(button, originalHTML, code);
-    }
-  }
-
-  function tryExecCommand(button: HTMLButtonElement, originalHTML: string, code: string) {
-    try {
-      // Create hidden textarea
-      const textarea = document.createElement('textarea');
-      textarea.value = code;
-      textarea.style.position = 'fixed';
-      textarea.style.opacity = '0';
-      textarea.style.left = '-9999px';
-      textarea.setAttribute('readonly', '');
-      document.body.appendChild(textarea);
-
-      // Select and copy
-      textarea.select();
-      textarea.setSelectionRange(0, 99999);
-
-      const success = document.execCommand('copy');
-      document.body.removeChild(textarea);
-
-      if (success) {
-        showSuccess(button, originalHTML);
+  // Copy control: modern Clipboard API with a textarea fallback.
+  const buttons = document.querySelectorAll<HTMLButtonElement>('.hw-copy-button');
+  buttons.forEach(button => {
+    button.addEventListener('click', () => {
+      const code = button.getAttribute('data-code');
+      if (!code) return;
+      const done = () => {
+        button.textContent = 'Copied';
+        button.disabled = true;
+        window.setTimeout(() => {
+          button.textContent = 'Copy';
+          button.disabled = false;
+        }, 1600);
+      };
+      if (navigator.clipboard && window.isSecureContext) {
+        navigator.clipboard.writeText(code).then(done).catch(() => fallback(code, done));
       } else {
-        throw new Error('execCommand failed');
+        fallback(code, done);
       }
-    } catch (err) {
-      console.error('Copy failed:', err);
-      showError(button, originalHTML);
-    }
-  }
-
-  function showSuccess(button: HTMLButtonElement, originalHTML: string) {
-    button.textContent = 'Copied!';
-    button.style.background = '#10b981';
-    button.style.color = 'white';
-
-    setTimeout(() => {
-      button.innerHTML = originalHTML;
-      button.style.background = '';
-      button.style.color = '';
-      button.disabled = false;
-    }, 2000);
-  }
-
-  function showError(button: HTMLButtonElement, originalHTML: string) {
-    button.textContent = 'Try Again';
-    button.style.background = '#ef4444';
-    button.style.color = 'white';
-
-    setTimeout(() => {
-      button.innerHTML = originalHTML;
-      button.style.background = '';
-      button.style.color = '';
-      button.disabled = false;
-    }, 2000);
-  }
-
-  // Initialize copy buttons
-  document.addEventListener('DOMContentLoaded', function () {
-    const buttons = document.querySelectorAll('.hw-copy-button');
-
-    buttons.forEach(button => {
-      button.addEventListener('click', function (e) {
-        e.preventDefault();
-        copyCode(this as HTMLButtonElement);
-      });
     });
   });
+
+  function fallback(code: string, done: () => void) {
+    const ta = document.createElement('textarea');
+    ta.value = code;
+    ta.style.position = 'fixed';
+    ta.style.opacity = '0';
+    ta.setAttribute('readonly', '');
+    document.body.appendChild(ta);
+    ta.select();
+    try {
+      document.execCommand('copy');
+      done();
+    } catch {
+      /* ignore */
+    }
+    document.body.removeChild(ta);
+  }
 </script>

@@ -462,6 +462,19 @@ export const DEMI_CHARACTERS = {
       "icon": "UI_SkillIcon_DemiGod_DemiGodBrilliantFruitOfTrials",
       "description": "Increases Skill Range by 3m.\nWhen using a skill other than Standby on an ally, consumes 20% of their current HP and increases their Crush Boost by {8,15,22,29,36,43,50}% for 2R. Stacks up to 3 times.\nWhile the Crush Boost effect is active, recovers 30% of HP lost when attacking.\nWhen using a skill other than Standby, grants all allies except the target a Shield equal to {10,20,30,40,50,60,70,80}% of Magic ATK for 2R.\nIncreases Healing Received by all allies by 100%."
     }
+  },
+  "53": {
+    "name": "Yui",
+    "heroId": 53,
+    "slug": "yui",
+    "faceIcon": "UI_Icon_Hero_MatsumotoYui_N01.png",
+    "deploymentCost": 9,
+    "authoritySkill": {
+      "name": "Eternal Battalion",
+      "gameKey": "EternalLegion",
+      "icon": "UI_SkillIcon_DemiGod_EternalLegion",
+      "description": "Enters Stealth at the end of the turn after performing a Weak Point Attack.\nWhen attacking 5 or more enemies, increases Crit DMG by {100,200,300,400,500,600,700}% until the end of the turn.\n\nWhen attacking with 'Pistol Fire', performs a Weak Point Attack regardless of direction, and the summoned unit 'Bullet Battalion' performs a Support ATK.\nWhen attacking with 'Pistol Fire', if the summoned unit 'Bullet Battalion' has <b>[Calibration]</b>, Bullet Battalion gains 200 AP at the end of the turn.\n\nWhen attacking with 'Anarchic Barrage', deals additional Pierce DMG equal to 300% of Ranged ATK.\nThis additional Pierce DMG increases by up to 1000% at 1000% Crit DMG.\n\nWhen the summoned unit 'Bullet Battalion' uses 'Bullet Battalion · Gunfire', Yui gains {9,10,11,12,13,14,15} AP.\n'Spectral Lock-on' is enhanced, granting a 100% chance to reduce the cooldown of 'Anarchic Barrage' by 1R whenever the summoned unit 'Bullet Battalion' successfully lands a Basic ATK.\n\nFrom the start to the end of any unit's turn, the summoned unit 'Bullet Battalion' gains <b>[Battalion Enhancement]</b>.\n\n<b>[Battalion Enhancement]</b>: Increases Ranged ATK by {100,120,140,160,180,200,220}% of the caster's Ranged ATK."
+    }
   }
 };
 

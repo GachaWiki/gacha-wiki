@@ -137,50 +137,6 @@ export const horizonWalkerRedeemCodes = {
     ],
   },
 
-  communitySection: {
-    title: 'Help Us Stay Updated',
-    description:
-      'Found expired codes or discovered new ones? Help the community by letting us know!',
-    buttons: [
-      {
-        id: 'discord',
-        text: 'Report on Discord',
-        url: 'https://discord.gg/horizon-walker',
-        type: 'discord',
-      },
-      {
-        id: 'github',
-        text: 'Star on GitHub',
-        url: 'https://github.com/boring877/gacha-wiki',
-        type: 'github',
-        external: true,
-      },
-    ],
-  },
-
-  warnings: {
-    important:
-      "Important: These codes may or may not work! Games can disable codes anytime without notice.",
-    noGuarantees: {
-      title: 'No Guarantees',
-      message:
-        'These codes are community-sourced and may have expired or have limited uses.',
-    },
-  },
-};
-
-// Helper functions for data manipulation
-export const getCodeById = id => {
-  const allCodes = [...horizonWalkerRedeemCodes.availableCodes, ...horizonWalkerRedeemCodes.expiredCodes];
-  return allCodes.find(code => code.id === id);
-};
-
-export const getCodesByStatus = status => {
-  return horizonWalkerRedeemCodes.availableCodes.filter(code => code.status === status);
-};
-
-export const getTotalActiveCodes = () => {
-  return horizonWalkerRedeemCodes.availableCodes.length;
 };
 
 // Generate structured data for SEO

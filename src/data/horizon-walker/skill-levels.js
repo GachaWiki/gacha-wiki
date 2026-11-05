@@ -74,6 +74,18 @@ export const SKILL_LEVELS = {
     9: { min: '4.5', max: '5.45' },
     10: { min: '4.75', max: '5.75' },
   },
+  'Annihilation': {
+    1: { min: '0.6', max: '0.73' },
+    2: { min: '0.66', max: '0.8' },
+    3: { min: '0.72', max: '0.87' },
+    4: { min: '0.78', max: '0.94' },
+    5: { min: '0.84', max: '1.02' },
+    6: { min: '0.9', max: '1.09' },
+    7: { min: '0.96', max: '1.16' },
+    8: { min: '1.02', max: '1.23' },
+    9: { min: '1.08', max: '1.31' },
+    10: { min: '1.14', max: '1.38' },
+  },
   'AnnihilationTyphoon': {
     1: { min: '2', max: '2.42' },
     2: { min: '2.2', max: '2.66' },
@@ -742,6 +754,12 @@ export const SKILL_LEVELS = {
   'DreamLiar_BishopOfNate_Release': {
     1: { min: '0.6', max: '0.73' },
   },
+  'DreamLiar_HumanGod_Encroachment': {
+    1: { min: '100', max: '121' },
+  },
+  'DreamLiar_HumanGod_EndlessNightmare': {
+    1: { min: '0.1', max: '0.12' },
+  },
   'DreamLiar_KingNateSummoned_DA': {
     1: { min: '0.1', max: '0.12' },
   },
@@ -750,12 +768,6 @@ export const SKILL_LEVELS = {
   },
   'DreamLiar_KingNate_Attack': {
     1: { min: '1', max: '1.21' },
-  },
-  'DreamLiar_KingNate_Encroachment': {
-    1: { min: '100', max: '121' },
-  },
-  'DreamLiar_KingNate_EndlessNightmare': {
-    1: { min: '0.1', max: '0.12' },
   },
   'DreamLiar_KnightOfNate_Leap': {
     1: { min: '1', max: '1.21' },
@@ -1701,6 +1713,18 @@ export const SKILL_LEVELS = {
   'MultipleAttackST': {
     1: { min: '1', max: '1.21' },
   },
+  'MythCleave': {
+    1: { min: '6', max: '7.26' },
+    2: { min: '6.6', max: '7.99' },
+    3: { min: '7.2', max: '8.71' },
+    4: { min: '7.8', max: '9.44' },
+    5: { min: '8.4', max: '10.16' },
+    6: { min: '9', max: '10.89' },
+    7: { min: '9.6', max: '11.62' },
+    8: { min: '10.2', max: '12.34' },
+    9: { min: '10.8', max: '13.07' },
+    10: { min: '11.4', max: '13.79' },
+  },
   'NightmareMaterializes': {
     1: { min: '0.6', max: '0.73' },
     2: { min: '0.66', max: '0.8' },
@@ -2105,6 +2129,18 @@ export const SKILL_LEVELS = {
   'RuthlessDash': {
     1: { min: '1', max: '1.21' },
   },
+  'ScatteringSword': {
+    1: { min: '3', max: '3.63' },
+    2: { min: '3.3', max: '3.99' },
+    3: { min: '3.6', max: '4.36' },
+    4: { min: '3.9', max: '4.72' },
+    5: { min: '4.2', max: '5.08' },
+    6: { min: '4.5', max: '5.45' },
+    7: { min: '4.8', max: '5.81' },
+    8: { min: '5.1', max: '6.17' },
+    9: { min: '5.4', max: '6.53' },
+    10: { min: '5.7', max: '6.9' },
+  },
   'SelfConfirmationMadnessRoar': {
     1: { min: '1', max: '1.21' },
   },
@@ -2195,6 +2231,18 @@ export const SKILL_LEVELS = {
     8: { min: '1.02', max: '1.23' },
     9: { min: '1.08', max: '1.31' },
     10: { min: '1.14', max: '1.38' },
+  },
+  'SilverFlash': {
+    1: { min: '1.2', max: '1.45' },
+    2: { min: '1.32', max: '1.6' },
+    3: { min: '1.44', max: '1.74' },
+    4: { min: '1.56', max: '1.89' },
+    5: { min: '1.68', max: '2.03' },
+    6: { min: '1.8', max: '2.18' },
+    7: { min: '1.92', max: '2.32' },
+    8: { min: '2.04', max: '2.47' },
+    9: { min: '2.16', max: '2.61' },
+    10: { min: '2.28', max: '2.76' },
   },
   'SkyPiercingThrust': {
     1: { min: '1.2', max: '1.45' },
@@ -2676,6 +2724,18 @@ export const SKILL_LEVELS = {
   'Sweep_Enhance': {
     1: { min: '0.8', max: '0.97' },
   },
+  'SwiftAssistance': {
+    1: { min: '1', max: '1.21' },
+    2: { min: '1.1', max: '1.33' },
+    3: { min: '1.2', max: '1.45' },
+    4: { min: '1.3', max: '1.57' },
+    5: { min: '1.4', max: '1.69' },
+    6: { min: '1.5', max: '1.82' },
+    7: { min: '1.6', max: '1.94' },
+    8: { min: '1.7', max: '2.06' },
+    9: { min: '1.8', max: '2.18' },
+    10: { min: '1.9', max: '2.3' },
+  },
   'SwiftPunishmentMeteorShower': {
     1: { min: '1.5', max: '1.82' },
     2: { min: '1.65', max: '2' },
@@ -2804,6 +2864,18 @@ export const SKILL_LEVELS = {
   },
   'TossPollutant': {
     1: { min: '0.6', max: '0.73' },
+  },
+  'TotalChaos': {
+    1: { min: '2.4', max: '2.9' },
+    2: { min: '2.64', max: '3.19' },
+    3: { min: '2.88', max: '3.48' },
+    4: { min: '3.12', max: '3.78' },
+    5: { min: '3.36', max: '4.07' },
+    6: { min: '3.6', max: '4.36' },
+    7: { min: '3.84', max: '4.65' },
+    8: { min: '4.08', max: '4.94' },
+    9: { min: '4.32', max: '5.23' },
+    10: { min: '4.56', max: '5.52' },
   },
   'ToxicBolt': {
     1: { min: '0.3', max: '0.36' },

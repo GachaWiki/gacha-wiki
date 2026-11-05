@@ -40,9 +40,14 @@ export const prerender = true;
         <h3>What is Demi-Ascension?</h3>
         <p>
           EX characters can undergo Demi-Ascension. A Demi-Ascended character can replace the leader
-          as the party Executor, granting the squad Oblivia immunity. Deploying them costs Divine
-          Power, and each brings a unique <strong>Authority skill</strong> that grows through 7
-          ascension stages.
+          as the party Executor, granting the squad Oblivia immunity. Deploying them in Total War
+          costs Divine Power; in all other content they simply become the leader and add nothing to
+          the 18-point deployment cost. Each brings a unique <strong>Authority skill</strong> that
+          grows through 7 ascension stages.
+        </p>
+        <p class="demi-db-ex-note">
+          EX Required: Authority skill values increase with EX rarity. EX 7 (full EX) is the highest
+          stage and unlocks the maximum values.
         </p>
       </div>
       <div class="demi-db-intro-card">
@@ -162,6 +167,13 @@ export const prerender = true;
     margin: 0 0 0.5rem;
     font-size: var(--text-base);
   }
+  .demi-db-ex-note {
+    color: var(--hw-primary-warm, #ffb74d);
+    font-weight: var(--font-semibold);
+    font-size: var(--text-md);
+    margin-top: 0.5rem;
+  }
+
   .demi-db-intro-card p {
     color: #ccc;
     font-size: var(--text-body);

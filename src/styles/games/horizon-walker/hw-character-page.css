@@ -1089,14 +1089,49 @@
     margin-bottom: 1.5rem;
   }
 
-  .demiskill-tier-badge {
-    font-size: var(--text-2xs);
-    padding: 0.2rem 0.6rem;
-    border-radius: 4px;
-    font-weight: var(--font-bold);
+  .demiskill-tier-text {
+    font-size: var(--text-sm);
+    font-weight: var(--font-semibold);
+    color: var(--hw-text-medium, #ccc);
+    white-space: nowrap;
   }
 
-  .demiskill-tier-badge { background: #3a3a3a; color: #cccccc; }
+  .demiskill-authority-label {
+    font-size: var(--text-sm);
+    font-weight: var(--font-semibold);
+    color: var(--hw-primary-warm, #ffb74d);
+    white-space: nowrap;
+  }
+
+  .demiskill-ex-note {
+    font-size: var(--text-md);
+    color: var(--hw-primary-warm, #ffb74d);
+    font-weight: var(--font-semibold);
+    margin: 0;
+  }
+
+  .demiskill-ex-note-label {
+    font-weight: var(--font-bold);
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    font-size: var(--text-sm);
+  }
+
+  .hw-meta-text {
+    font-size: var(--text-sm);
+    font-weight: var(--font-semibold);
+    line-height: 1;
+    white-space: nowrap;
+  }
+
+  .hw-meta-text.is-cost,
+  .hw-meta-text.is-label {
+    color: var(--hw-primary-warm, #ffb74d);
+  }
+
+  .hw-meta-text.is-muted {
+    color: var(--hw-text-muted, #999);
+  }
 
   .demiskill-might-grid {
     display: grid;
