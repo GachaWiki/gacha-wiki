@@ -143,6 +143,12 @@
   height: 56px;
   border-radius: 8px;
   object-fit: cover;
+  margin: 0 auto;
+}
+
+/* Avatar spans the full grid width so it centers instead of sitting orphaned in one column */
+.character-avatar-item {
+  grid-column: 1 / -1;
 }
 
 /* Plain-text values in the character info grid (badges removed) */

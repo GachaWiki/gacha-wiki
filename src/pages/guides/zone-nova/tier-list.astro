@@ -6,6 +6,7 @@ import {
   CLASS_SECTION_NOTES,
   TIER_DEFINITIONS,
   TIER_ORDER,
+  UNIT_RECOMMENDATIONS,
   getGroupedTierSections,
   getRoleHighlights,
   RECOMMENDED_PAIRS,
@@ -120,6 +121,50 @@ structuredListTypes.forEach(listType => {
                 {pair.description && <p class="tl-pair-desc">{pair.description}</p>}
               </div>
             ))}
+            </div>
+          </section>
+        )
+      }
+
+      <!-- Recommended Units (category picks, not synergy duos) -->
+      {
+        UNIT_RECOMMENDATIONS.length > 0 && (
+          <section class="tl-pairs">
+            <h3 class="tl-pairs-title">Recommended Units</h3>
+            <div class="tl-pairs-row">
+              {UNIT_RECOMMENDATIONS.map(rec => (
+                <div class="tl-pair">
+                  {rec.title && <div class="tl-pair-title">{rec.title}</div>}
+                  <div class="tl-pair-members">
+                    {rec.characters.map(name => {
+                      const c = characterMap[name];
+                      return c ? (
+                        <a class="tl-pair-member" href={c.detailUrl}>
+                          <ZNCharacterImage
+                            imageName={c.image}
+                            alt={c.name}
+                            width={64}
+                            height={64}
+                            loading="lazy"
+                            quality={90}
+                            format="webp"
+                          />
+                          <span class="tl-pair-member-info">
+                            <span class="tl-pair-member-name">{c.name}</span>
+                            <span class="tl-pair-member-meta">
+                              <span class={`zn-text-${c.rarity.toLowerCase()}`}>{c.rarity}</span>
+                              {c.element && (
+                                <span class={`zn-text-${c.element.toLowerCase()}`}>, {c.element}</span>
+                              )}
+                            </span>
+                          </span>
+                        </a>
+                      ) : null;
+                    })}
+                  </div>
+                  {rec.description && <p class="tl-pair-desc">{rec.description}</p>}
+                </div>
+              ))}
             </div>
           </section>
         )

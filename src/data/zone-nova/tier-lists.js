@@ -45,6 +45,10 @@ export const ROLE_ORDER = ['Healer', 'Supporter', 'Disruptor', 'Tank', 'DPS'];
 export const RECOMMENDED_PAIRS = [
   { title: 'Crit Damage Build', characters: ['Nephthys', 'Sharin'] },
   { title: 'Universally Good', characters: ['Tamamo-no-Mae', 'Medusa'] },
+];
+
+// Unit recommendations (categories of strong picks, not synergy duos; extend as verdicts land).
+export const UNIT_RECOMMENDATIONS = [
   {
     title: 'AOE DPS',
     characters: ['Keller', 'Nephthys'],
