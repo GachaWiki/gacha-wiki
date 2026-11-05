@@ -132,8 +132,9 @@ export const GAME_MODES = {
 const MAP_CLEAR_CHARACTERS = {
   URP: ['Mu Yingying'],
   UR: ['Cora', 'Luise', 'Juza', 'Yui'],
-  SSS: ['Olivia', 'Vlissing', 'Palekar', 'Matrotho', 'Eugenia', 'Ahram', 'Nari', 'Garud', 'Kim ga-young'],
+  SSS: ['Olivia', 'Palekar', 'Matrotho', 'Eugenia', 'Ahram', 'Nari', 'Garud', 'Kim ga-young'],
   SS: [
+    'Vlissing',
     'Valeta',
     'Everette',
     'Yvonna',
@@ -200,6 +201,7 @@ const SPECIAL_OPERATIONS_CHARACTERS = {
   UR: ['Cora', 'Luise', 'Juza', 'Yui'],
   SSS: ['Yeonwoo', 'Leah', 'Nymset', 'Palekar', 'Juha', 'So Joo-Hee', 'Mahari', 'Matrotho', 'Eugenia', 'Ahram', 'Nari', 'Garud', 'Kim ga-young'],
   SS: [
+    'Vlissing',
     'Olivia',
     'Yvonna',
     'Vlissing',
@@ -265,7 +267,6 @@ const DOPAMIN_CHARACTERS = {
     'Yui',
     'Valeta',
     'Yvonna',
-    'Vlissing',
     'Everette',
     'Mahari',
     'juha',
@@ -282,6 +283,7 @@ const DOPAMIN_CHARACTERS = {
     'Kim ga-young',
   ],
   SS: [
+    'Vlissing',
     'Kalina',
     'Griselda',
     'Kilon',
@@ -473,6 +475,7 @@ export const DEMI_REQUIRED_UNITS = {
   Yui: 'UI_SkillIcon_DemiGod_EternalLegion',
   Luise: 'UI_SkillIcon_HellfireOfLonging',
   Nari: 'UI_SkillIcon_JudgementalOfPenetration',
+  Matrotho: 'UI_SkillIcon_DevouringStorm',
 };
 
 // The Queen of the tier list: crowned card + unique color.
