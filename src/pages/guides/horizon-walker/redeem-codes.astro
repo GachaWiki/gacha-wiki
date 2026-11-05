@@ -53,6 +53,7 @@ const structuredData = generateRedeemCodesStructuredData();
                   <div class="hw-code-value">{codeData.code}</div>
                 </div>
                 <div class="hw-code-rewards">{codeData.rewards}</div>
+                {codeData.platformNote && <div class="hw-code-platform">{codeData.platformNote}</div>}
                 <div class="hw-code-meta">
                   <span class={`hw-code-status ${codeData.status}`}>
                     {codeData.status === 'unknown' ? 'Unverified' : codeData.status}

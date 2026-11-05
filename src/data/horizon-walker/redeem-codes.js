@@ -6,10 +6,31 @@ export const horizonWalkerRedeemCodes = {
     title: 'Horizon Walker Redeem Codes - Free Rewards & Gift Codes | GachaWiki',
     description:
       'Working Horizon Walker redeem codes for free rewards, EX character selectors, and items. Updated codes with step-by-step redemption guide.',
-    lastUpdated: new Date('2026-10-23'),
+    lastUpdated: new Date('2026-11-05'),
   },
 
   availableCodes: [
+    {
+      id: '26happyhw',
+      code: '26HAPPYHW',
+      rewards:
+        'Soul Shear ×1 + Soul Stone ×3 + FairyNet Multi-Search Ticket ×3 + Large Rift Stone Box ×5 + Legendary Memory-Forged Equipment ×300 + Queen\'s Tiara ×3',
+      status: 'working',
+      lastChecked: 'November 2026',
+      dateAdded: '2026-11-05',
+      expiryDate: 'November 30, 2026 (KST)',
+    },
+    {
+      id: '26happyhwe',
+      code: '26HAPPYHWE',
+      rewards:
+        'Soul Shear ×1 + Soul Stone ×3 + FairyNet Multi-Search Ticket ×3 + Large Rift Stone Box ×5 + Legendary Memory-Forged Equipment ×300 + Queen\'s Tiara ×3',
+      status: 'working',
+      lastChecked: 'November 2026',
+      dateAdded: '2026-11-05',
+      expiryDate: 'November 30, 2026 (KST)',
+      platformNote: 'Erolabs build only',
+    },
     {
       id: 'hw2ndannivwpn',
       code: 'HW2NDANNIVWPN',
