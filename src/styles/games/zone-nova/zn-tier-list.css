@@ -1188,3 +1188,27 @@
   font-size: var(--text-md);
 }
 
+/* Mobile: pair/unit members no longer fit side by side, so stack them and
+   center the plus connector between the rows instead of letting it wrap loose. */
+@media (max-width: 480px) {
+  .tl-pairs {
+    padding: 1.25rem 1rem;
+  }
+
+  .tl-pair {
+    width: 100%;
+    padding: 1rem;
+  }
+
+  .tl-pair-members {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.4rem;
+  }
+
+  .tl-pair-plus {
+    align-self: center;
+    line-height: 1;
+  }
+}
+
