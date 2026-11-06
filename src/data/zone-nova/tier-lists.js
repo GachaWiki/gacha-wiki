@@ -64,7 +64,7 @@ export const UNIT_RECOMMENDATIONS = [
     title: 'PvP',
     characters: ['Suzuka Gozen'],
     description:
-      'her ult shreds Holy Resistance on targets (up to 24% more Holy damage taken) and she deals quite good damage.',
+      'the only unit that removes beneficial buff stacks from targets (1 stack per skill hit, 2 after Awakening 2), which is really strong in PvP, and she deals quite good damage.',
   },
 ];
 
