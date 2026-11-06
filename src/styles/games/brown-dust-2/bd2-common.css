@@ -1404,3 +1404,73 @@ a.bd2-card:active {
     font-size: var(--text-2xl);
   }
 }
+
+/* unique weapon section on unit pages */
+.bd2-weapon-wrap {
+  display: flex;
+  gap: 16px;
+  align-items: flex-start;
+}
+
+.bd2-weapon-icon {
+  width: 144px;
+  height: auto;
+  border: 1px solid var(--bd2-border);
+  border-radius: 10px;
+  background: var(--bd2-accent-tint);
+  flex-shrink: 0;
+}
+
+.bd2-weapon-body {
+  flex: 1;
+  min-width: 0;
+}
+
+.bd2-weapon-alt {
+  margin: 0 0 2px;
+  font-size: var(--text-sm);
+  color: var(--bd2-text-dim);
+}
+
+.bd2-weapon-note {
+  margin: 0 0 10px;
+  font-size: var(--text-xs);
+  color: var(--bd2-text-dim);
+}
+
+.bd2-weapon-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: var(--text-sm);
+}
+
+.bd2-weapon-table th,
+.bd2-weapon-table td {
+  border: 1px solid var(--bd2-border);
+  padding: 8px 10px;
+  text-align: left;
+  vertical-align: top;
+}
+
+.bd2-weapon-table th {
+  font-size: var(--text-xs);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--bd2-accent-strong);
+}
+
+@media (max-width: 640px) {
+  .bd2-weapon-wrap {
+    flex-direction: column;
+  }
+
+  .bd2-weapon-icon {
+    width: 120px;
+  }
+
+  .bd2-weapon-table th,
+  .bd2-weapon-table td {
+    padding: 6px 4px;
+    font-size: var(--text-xs);
+  }
+}

@@ -4,6 +4,7 @@
 import GameLayout from '../../../../layouts/brown-dust-2/GameLayout.astro';
 import { ELEMENTS, getBD2Unit, getBD2Character } from '../../../../data/brown-dust-2/characters.js';
 import { getBD2Gallery } from '../../../../data/brown-dust-2/gallery.js';
+import { getBD2Weapon } from '../../../../data/brown-dust-2/weapons.js';
 
 export async function getStaticPaths() {
   const { brownDust2Units, brownDust2Characters } = await import('../../../../data/brown-dust-2/characters.js');
@@ -36,6 +37,15 @@ const elementName = ELEMENTS[unit.element] || 'Water';
 const ch = getBD2Character(unit.charSlug);
 const siblingUnits = ch ? ch.units.filter((s) => s !== unit.slug) : [];
 const gallery = getBD2Gallery(unit.slug);
+const weapon = getBD2Weapon(unit.charSlug);
+// weapon stat list -> "MAG +37, MAG +25%, Crit Damage +50%" plain text
+const fmtStats = (stats) =>
+  (stats || [])
+    .map(([nm, v]) => {
+      const isPct = nm.includes('%') || nm.startsWith('Crit');
+      return `${nm.replace(' %', '')} +${v}${isPct ? '%' : ''}`;
+    })
+    .join(', ');
 // bonding nodes scale effect numbers marked [[buffIdx|number]] in tier texts;
 // base views render the numbers plain
 const stripBond = (s) => (s || '').replace(/\[\[\d+\|([0-9.]+)\]\]/g, '$1');
@@ -309,6 +319,48 @@ const stripBond = (s) => (s || '').replace(/\[\[\d+\|([0-9.]+)\]\]/g, '$1');
             </div>
           </div>
         ))}
+      </div>
+    )}
+
+    {weapon && (
+      <div class="bd2-detail-section">
+        <h2>Unique Weapon: {weapon.name}</h2>
+        <div class="bd2-weapon-wrap">
+          {weapon.icon && (
+            <img
+              class="bd2-weapon-icon"
+              src={weapon.icon}
+              alt={weapon.name}
+              width="144"
+              height="288"
+              loading="lazy"
+            />
+          )}
+          <div class="bd2-weapon-body">
+            {weapon.nameKr && <p class="bd2-weapon-alt">{weapon.nameKr}</p>}
+            <p class="bd2-weapon-note">
+              Exclusive to {unit.charName}. Values are the top tier within each grade. Main 2
+              unlocks at grade 2. Sub options roll 3 slots from the listed pool.
+            </p>
+            <div class="bd2-table-scroll">
+              <table class="bd2-weapon-table">
+                <thead>
+                  <tr><th>Grade</th><th>Main 1</th><th>Main 2</th><th>Sub option pool</th></tr>
+                </thead>
+                <tbody>
+                  {weapon.grades.map((g) => (
+                    <tr>
+                      <td>{g.grade}</td>
+                      <td>{fmtStats(g.main1)}</td>
+                      <td>{g.main2 ? fmtStats(g.main2) : 'None'}</td>
+                      <td>{fmtStats(g.subs)}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
       </div>
     )}
 

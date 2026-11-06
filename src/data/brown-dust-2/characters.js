@@ -43,7 +43,7 @@ export const brownDust2Units = [
         },
         {
           'name': 'Herbalist\'s Sense',
-          'desc': '',
+          'desc': 'Detects the location of hidden objects for 45 seconds.',
           'value': 60,
           'catalyst': 5,
           'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_6_s.webp'
@@ -280,7 +280,7 @@ export const brownDust2Units = [
         },
         {
           'name': 'Herbalist\'s Sense',
-          'desc': '',
+          'desc': 'Detects the location of hidden objects for 45 seconds.',
           'value': 60,
           'catalyst': 5,
           'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_6_s.webp'
@@ -515,7 +515,7 @@ export const brownDust2Units = [
         },
         {
           'name': 'Herbalist\'s Sense',
-          'desc': '',
+          'desc': 'Detects the location of hidden objects for 45 seconds.',
           'value': 60,
           'catalyst': 5,
           'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_6_s.webp'
@@ -756,7 +756,7 @@ export const brownDust2Units = [
         },
         {
           'name': 'Herbalist\'s Sense',
-          'desc': '',
+          'desc': 'Detects the location of hidden objects for 45 seconds.',
           'value': 60,
           'catalyst': 5,
           'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_6_s.webp'
@@ -999,7 +999,7 @@ export const brownDust2Units = [
         },
         {
           'name': 'Herbalist\'s Sense',
-          'desc': '',
+          'desc': 'Detects the location of hidden objects for 45 seconds.',
           'value': 60,
           'catalyst': 5,
           'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_6_s.webp'
@@ -1242,7 +1242,7 @@ export const brownDust2Units = [
         },
         {
           'name': 'Herbalist\'s Sense',
-          'desc': '',
+          'desc': 'Detects the location of hidden objects for 45 seconds.',
           'value': 60,
           'catalyst': 5,
           'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_6_s.webp'
@@ -1472,7 +1472,7 @@ export const brownDust2Units = [
         },
         {
           'name': 'Chef of the Battlefield',
-          'desc': '',
+          'desc': 'You can make 2nd rank B-chelin dishes.',
           'value': null,
           'catalyst': 2,
           'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_7_s.webp'
@@ -1713,7 +1713,7 @@ export const brownDust2Units = [
         },
         {
           'name': 'Chef of the Battlefield',
-          'desc': '',
+          'desc': 'You can make 2nd rank B-chelin dishes.',
           'value': null,
           'catalyst': 2,
           'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_7_s.webp'
@@ -1954,7 +1954,7 @@ export const brownDust2Units = [
         },
         {
           'name': 'Chef of the Battlefield',
-          'desc': '',
+          'desc': 'You can make 2nd rank B-chelin dishes.',
           'value': null,
           'catalyst': 2,
           'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_7_s.webp'
@@ -2191,7 +2191,7 @@ export const brownDust2Units = [
         },
         {
           'name': 'Chef of the Battlefield',
-          'desc': '',
+          'desc': 'You can make 2nd rank B-chelin dishes.',
           'value': null,
           'catalyst': 2,
           'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_7_s.webp'
@@ -2432,7 +2432,7 @@ export const brownDust2Units = [
         },
         {
           'name': 'Chef of the Battlefield',
-          'desc': '',
+          'desc': 'You can make 2nd rank B-chelin dishes.',
           'value': null,
           'catalyst': 2,
           'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_7_s.webp'
@@ -2671,7 +2671,7 @@ export const brownDust2Units = [
         },
         {
           'name': 'Type 1 Alchemy',
-          'desc': '',
+          'desc': 'Lv. 2 limit: You can use Alchemy.',
           'value': 64,
           'catalyst': 3,
           'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_8_s.webp'
@@ -2912,7 +2912,7 @@ export const brownDust2Units = [
         },
         {
           'name': 'Type 1 Alchemy',
-          'desc': '',
+          'desc': 'Lv. 2 limit: You can use Alchemy.',
           'value': 64,
           'catalyst': 3,
           'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_8_s.webp'
@@ -3149,7 +3149,7 @@ export const brownDust2Units = [
         },
         {
           'name': 'Type 1 Alchemy',
-          'desc': '',
+          'desc': 'Lv. 2 limit: You can use Alchemy.',
           'value': 64,
           'catalyst': 3,
           'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_8_s.webp'
@@ -3390,7 +3390,7 @@ export const brownDust2Units = [
         },
         {
           'name': 'Type 1 Alchemy',
-          'desc': '',
+          'desc': 'Lv. 2 limit: You can use Alchemy.',
           'value': 64,
           'catalyst': 3,
           'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_8_s.webp'
@@ -6038,6 +6038,13 @@ export const brownDust2Units = [
           'name': '',
           'desc': 'You can create a Magic Circle and travel only to other Magic Circles in a Safe Zone.',
           'value': null,
+          'catalyst': 10,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_15_s.webp'
+        },
+        {
+          'name': '',
+          'desc': 'You can create a Magic Circle and travel only to other Magic Circles in a Safe Zone.',
+          'value': null,
           'catalyst': 5,
           'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_15_s.webp'
         }
@@ -6265,6 +6272,13 @@ export const brownDust2Units = [
           'desc': 'You can create a Magic Circle and travel only to other Magic Circles in a Safe Zone.',
           'value': null,
           'catalyst': 15,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_15_s.webp'
+        },
+        {
+          'name': '',
+          'desc': 'You can create a Magic Circle and travel only to other Magic Circles in a Safe Zone.',
+          'value': null,
+          'catalyst': 10,
           'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_15_s.webp'
         },
         {
@@ -6504,6 +6518,13 @@ export const brownDust2Units = [
           'name': '',
           'desc': 'You can create a Magic Circle and travel only to other Magic Circles in a Safe Zone.',
           'value': null,
+          'catalyst': 10,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_15_s.webp'
+        },
+        {
+          'name': '',
+          'desc': 'You can create a Magic Circle and travel only to other Magic Circles in a Safe Zone.',
+          'value': null,
           'catalyst': 5,
           'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_15_s.webp'
         }
@@ -6731,6 +6752,13 @@ export const brownDust2Units = [
           'name': '',
           'desc': 'You can create a Magic Circle and travel only to other Magic Circles in a Safe Zone.',
           'value': null,
+          'catalyst': 10,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_15_s.webp'
+        },
+        {
+          'name': '',
+          'desc': 'You can create a Magic Circle and travel only to other Magic Circles in a Safe Zone.',
+          'value': null,
           'catalyst': 5,
           'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_15_s.webp'
         }
@@ -6945,28 +6973,35 @@ export const brownDust2Units = [
       'mark': 'Talent_Buff024_Mark',
       'skills': [
         {
-          'name': '',
+          'name': 'Maid Footwork',
           'desc': 'For 10 seconds, Dash skill recharge speed is increased by 95%.',
           'value': null,
           'catalyst': 30,
           'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_24_s.webp'
         },
         {
-          'name': '',
+          'name': 'Maid Footwork',
+          'desc': '',
+          'value': null,
+          'catalyst': 25,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_24_s.webp'
+        },
+        {
+          'name': 'Maid Footwork',
           'desc': 'For 14 seconds, Dash skill recharge speed is increased by 95%.',
           'value': null,
           'catalyst': 20,
           'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_24_s.webp'
         },
         {
-          'name': '',
+          'name': 'Maid Footwork',
           'desc': 'For 16 seconds, Dash skill recharge speed is increased by 95%.',
           'value': null,
           'catalyst': 15,
           'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_24_s.webp'
         },
         {
-          'name': '',
+          'name': 'Maid Footwork',
           'desc': 'For 20 seconds, Dash skill recharge speed is increased by 95%.',
           'value': null,
           'catalyst': 10,
@@ -7183,28 +7218,35 @@ export const brownDust2Units = [
       'mark': 'Talent_Buff024_Mark',
       'skills': [
         {
-          'name': '',
+          'name': 'Maid Footwork',
           'desc': 'For 10 seconds, Dash skill recharge speed is increased by 95%.',
           'value': null,
           'catalyst': 30,
           'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_24_s.webp'
         },
         {
-          'name': '',
+          'name': 'Maid Footwork',
+          'desc': '',
+          'value': null,
+          'catalyst': 25,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_24_s.webp'
+        },
+        {
+          'name': 'Maid Footwork',
           'desc': 'For 14 seconds, Dash skill recharge speed is increased by 95%.',
           'value': null,
           'catalyst': 20,
           'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_24_s.webp'
         },
         {
-          'name': '',
+          'name': 'Maid Footwork',
           'desc': 'For 16 seconds, Dash skill recharge speed is increased by 95%.',
           'value': null,
           'catalyst': 15,
           'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_24_s.webp'
         },
         {
-          'name': '',
+          'name': 'Maid Footwork',
           'desc': 'For 20 seconds, Dash skill recharge speed is increased by 95%.',
           'value': null,
           'catalyst': 10,
@@ -7415,28 +7457,35 @@ export const brownDust2Units = [
       'mark': 'Talent_Buff024_Mark',
       'skills': [
         {
-          'name': '',
+          'name': 'Maid Footwork',
           'desc': 'For 10 seconds, Dash skill recharge speed is increased by 95%.',
           'value': null,
           'catalyst': 30,
           'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_24_s.webp'
         },
         {
-          'name': '',
+          'name': 'Maid Footwork',
+          'desc': '',
+          'value': null,
+          'catalyst': 25,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_24_s.webp'
+        },
+        {
+          'name': 'Maid Footwork',
           'desc': 'For 14 seconds, Dash skill recharge speed is increased by 95%.',
           'value': null,
           'catalyst': 20,
           'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_24_s.webp'
         },
         {
-          'name': '',
+          'name': 'Maid Footwork',
           'desc': 'For 16 seconds, Dash skill recharge speed is increased by 95%.',
           'value': null,
           'catalyst': 15,
           'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_24_s.webp'
         },
         {
-          'name': '',
+          'name': 'Maid Footwork',
           'desc': 'For 20 seconds, Dash skill recharge speed is increased by 95%.',
           'value': null,
           'catalyst': 10,
@@ -7653,28 +7702,35 @@ export const brownDust2Units = [
       'mark': 'Talent_Buff024_Mark',
       'skills': [
         {
-          'name': '',
+          'name': 'Maid Footwork',
           'desc': 'For 10 seconds, Dash skill recharge speed is increased by 95%.',
           'value': null,
           'catalyst': 30,
           'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_24_s.webp'
         },
         {
-          'name': '',
+          'name': 'Maid Footwork',
+          'desc': '',
+          'value': null,
+          'catalyst': 25,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_24_s.webp'
+        },
+        {
+          'name': 'Maid Footwork',
           'desc': 'For 14 seconds, Dash skill recharge speed is increased by 95%.',
           'value': null,
           'catalyst': 20,
           'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_24_s.webp'
         },
         {
-          'name': '',
+          'name': 'Maid Footwork',
           'desc': 'For 16 seconds, Dash skill recharge speed is increased by 95%.',
           'value': null,
           'catalyst': 15,
           'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_24_s.webp'
         },
         {
-          'name': '',
+          'name': 'Maid Footwork',
           'desc': 'For 20 seconds, Dash skill recharge speed is increased by 95%.',
           'value': null,
           'catalyst': 10,
@@ -9058,6 +9114,13 @@ export const brownDust2Units = [
       'skills': [
         {
           'name': '',
+          'desc': 'Using this ability instantly overpowers certain spawned monsters on the map.\\n● Daily Uses: 10',
+          'value': null,
+          'catalyst': 50,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_27_s.webp'
+        },
+        {
+          'name': '',
           'desc': 'Using this ability instantly overpowers certain spawned monsters on the map.\\n● Daily Uses: 15',
           'value': null,
           'catalyst': 45,
@@ -9287,6 +9350,13 @@ export const brownDust2Units = [
       'skills': [
         {
           'name': '',
+          'desc': 'Using this ability instantly overpowers certain spawned monsters on the map.\\n● Daily Uses: 10',
+          'value': null,
+          'catalyst': 50,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_27_s.webp'
+        },
+        {
+          'name': '',
           'desc': 'Using this ability instantly overpowers certain spawned monsters on the map.\\n● Daily Uses: 15',
           'value': null,
           'catalyst': 45,
@@ -9514,6 +9584,13 @@ export const brownDust2Units = [
       'name': 'Overpower',
       'mark': 'Talent_Buff027_Mark',
       'skills': [
+        {
+          'name': '',
+          'desc': 'Using this ability instantly overpowers certain spawned monsters on the map.\\n● Daily Uses: 10',
+          'value': null,
+          'catalyst': 50,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_27_s.webp'
+        },
         {
           'name': '',
           'desc': 'Using this ability instantly overpowers certain spawned monsters on the map.\\n● Daily Uses: 15',
@@ -11309,28 +11386,35 @@ export const brownDust2Units = [
       'mark': '0',
       'skills': [
         {
-          'name': '',
+          'name': 'Glutti Adventurer',
           'desc': 'Greedy Patty, Troublesome Rusty can bring you useful items.\\nDispatch ends at 09 a.m. (KST)',
           'value': 64,
           'catalyst': 5,
           'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_18_s.webp'
         },
         {
-          'name': '',
+          'name': 'Glutti Adventurer',
           'desc': 'Greedy Patty, Troublesome Rusty, Sassy Dusty can bring you useful items.\\nDispatch ends at 09 a.m. (KST)',
           'value': 64,
           'catalyst': 5,
           'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_18_s.webp'
         },
         {
-          'name': '',
+          'name': 'Glutti Adventurer',
+          'desc': 'Greedy Patty, Troublesome Rusty, Sassy Dusty can bring you useful items.\\nDispatch ends at 09 a.m. (KST)',
+          'value': 15936,
+          'catalyst': 5,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_18_s.webp'
+        },
+        {
+          'name': 'Glutti Adventurer',
           'desc': 'Greedy Patty, Troublesome Rusty, Sassy Dusty can bring you a bit more useful items.\\nDispatch ends at 09 a.m. (KST)',
           'value': 64,
           'catalyst': 5,
           'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_18_s.webp'
         },
         {
-          'name': '',
+          'name': 'Glutti Adventurer',
           'desc': 'Greedy Patty, Troublesome Rusty, Sassy Dusty can bring you very useful items.\\nDispatch ends at 09 a.m. (KST)',
           'value': null,
           'catalyst': 5,
@@ -11535,28 +11619,35 @@ export const brownDust2Units = [
       'mark': '0',
       'skills': [
         {
-          'name': '',
+          'name': 'Glutti Adventurer',
           'desc': 'Greedy Patty, Troublesome Rusty can bring you useful items.\\nDispatch ends at 09 a.m. (KST)',
           'value': 64,
           'catalyst': 5,
           'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_18_s.webp'
         },
         {
-          'name': '',
+          'name': 'Glutti Adventurer',
           'desc': 'Greedy Patty, Troublesome Rusty, Sassy Dusty can bring you useful items.\\nDispatch ends at 09 a.m. (KST)',
           'value': 64,
           'catalyst': 5,
           'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_18_s.webp'
         },
         {
-          'name': '',
+          'name': 'Glutti Adventurer',
+          'desc': 'Greedy Patty, Troublesome Rusty, Sassy Dusty can bring you useful items.\\nDispatch ends at 09 a.m. (KST)',
+          'value': 15936,
+          'catalyst': 5,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_18_s.webp'
+        },
+        {
+          'name': 'Glutti Adventurer',
           'desc': 'Greedy Patty, Troublesome Rusty, Sassy Dusty can bring you a bit more useful items.\\nDispatch ends at 09 a.m. (KST)',
           'value': 64,
           'catalyst': 5,
           'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_18_s.webp'
         },
         {
-          'name': '',
+          'name': 'Glutti Adventurer',
           'desc': 'Greedy Patty, Troublesome Rusty, Sassy Dusty can bring you very useful items.\\nDispatch ends at 09 a.m. (KST)',
           'value': null,
           'catalyst': 5,
@@ -11761,28 +11852,35 @@ export const brownDust2Units = [
       'mark': '0',
       'skills': [
         {
-          'name': '',
+          'name': 'Glutti Adventurer',
           'desc': 'Greedy Patty, Troublesome Rusty can bring you useful items.\\nDispatch ends at 09 a.m. (KST)',
           'value': 64,
           'catalyst': 5,
           'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_18_s.webp'
         },
         {
-          'name': '',
+          'name': 'Glutti Adventurer',
           'desc': 'Greedy Patty, Troublesome Rusty, Sassy Dusty can bring you useful items.\\nDispatch ends at 09 a.m. (KST)',
           'value': 64,
           'catalyst': 5,
           'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_18_s.webp'
         },
         {
-          'name': '',
+          'name': 'Glutti Adventurer',
+          'desc': 'Greedy Patty, Troublesome Rusty, Sassy Dusty can bring you useful items.\\nDispatch ends at 09 a.m. (KST)',
+          'value': 15936,
+          'catalyst': 5,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_18_s.webp'
+        },
+        {
+          'name': 'Glutti Adventurer',
           'desc': 'Greedy Patty, Troublesome Rusty, Sassy Dusty can bring you a bit more useful items.\\nDispatch ends at 09 a.m. (KST)',
           'value': 64,
           'catalyst': 5,
           'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_18_s.webp'
         },
         {
-          'name': '',
+          'name': 'Glutti Adventurer',
           'desc': 'Greedy Patty, Troublesome Rusty, Sassy Dusty can bring you very useful items.\\nDispatch ends at 09 a.m. (KST)',
           'value': null,
           'catalyst': 5,
@@ -15818,7 +15916,7 @@ export const brownDust2Units = [
         },
         {
           'name': 'I\'ll take this as a tip.',
-          'desc': '',
+          'desc': 'Uses Absorption to absorb Finds on the map. If Search Finds are in an acquirable state, they can also be absorbed.\\n● Number of daily usage: 6 times',
           'value': null,
           'catalyst': 20,
           'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_26_s.webp'
@@ -16059,7 +16157,7 @@ export const brownDust2Units = [
         },
         {
           'name': 'I\'ll take this as a tip.',
-          'desc': '',
+          'desc': 'Uses Absorption to absorb Finds on the map. If Search Finds are in an acquirable state, they can also be absorbed.\\n● Number of daily usage: 6 times',
           'value': null,
           'catalyst': 20,
           'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_26_s.webp'
@@ -16302,7 +16400,7 @@ export const brownDust2Units = [
         },
         {
           'name': 'I\'ll take this as a tip.',
-          'desc': '',
+          'desc': 'Uses Absorption to absorb Finds on the map. If Search Finds are in an acquirable state, they can also be absorbed.\\n● Number of daily usage: 6 times',
           'value': null,
           'catalyst': 20,
           'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_26_s.webp'
@@ -24680,7 +24778,7 @@ export const brownDust2Units = [
         },
         {
           'name': 'Danger Detection On!',
-          'desc': '',
+          'desc': 'For 60 seconds, you can spot traps and damage-dealing fiends like Gloom Glutti in a small area around you.',
           'value': null,
           'catalyst': 5,
           'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_12_s.webp'
@@ -24923,7 +25021,7 @@ export const brownDust2Units = [
         },
         {
           'name': 'Danger Detection On!',
-          'desc': '',
+          'desc': 'For 60 seconds, you can spot traps and damage-dealing fiends like Gloom Glutti in a small area around you.',
           'value': null,
           'catalyst': 5,
           'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_12_s.webp'
@@ -25164,7 +25262,7 @@ export const brownDust2Units = [
         },
         {
           'name': 'Danger Detection On!',
-          'desc': '',
+          'desc': 'For 60 seconds, you can spot traps and damage-dealing fiends like Gloom Glutti in a small area around you.',
           'value': null,
           'catalyst': 5,
           'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_12_s.webp'
@@ -25977,28 +26075,35 @@ export const brownDust2Units = [
       'mark': 'Talent_Buff017_Mark',
       'skills': [
         {
-          'name': '',
+          'name': 'Voluntary Outsider',
           'desc': 'Moves for 30 seconds while in Stealth mode.',
           'value': null,
           'catalyst': 15,
           'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_17_s.webp'
         },
         {
-          'name': '',
+          'name': 'Voluntary Outsider',
           'desc': 'Moves for 36 seconds while in Stealth mode.',
           'value': null,
           'catalyst': 15,
           'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_17_s.webp'
         },
         {
-          'name': '',
+          'name': 'Voluntary Outsider',
+          'desc': '',
+          'value': null,
+          'catalyst': 15,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_17_s.webp'
+        },
+        {
+          'name': 'Voluntary Outsider',
           'desc': 'Moves for 54 seconds while in Stealth mode.',
           'value': null,
           'catalyst': 15,
           'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_17_s.webp'
         },
         {
-          'name': '',
+          'name': 'Voluntary Outsider',
           'desc': 'Moves for 72 seconds while in Stealth mode.',
           'value': null,
           'catalyst': 15,
@@ -26208,28 +26313,35 @@ export const brownDust2Units = [
       'mark': 'Talent_Buff017_Mark',
       'skills': [
         {
-          'name': '',
+          'name': 'Voluntary Outsider',
           'desc': 'Moves for 30 seconds while in Stealth mode.',
           'value': null,
           'catalyst': 15,
           'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_17_s.webp'
         },
         {
-          'name': '',
+          'name': 'Voluntary Outsider',
           'desc': 'Moves for 36 seconds while in Stealth mode.',
           'value': null,
           'catalyst': 15,
           'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_17_s.webp'
         },
         {
-          'name': '',
+          'name': 'Voluntary Outsider',
+          'desc': '',
+          'value': null,
+          'catalyst': 15,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_17_s.webp'
+        },
+        {
+          'name': 'Voluntary Outsider',
           'desc': 'Moves for 54 seconds while in Stealth mode.',
           'value': null,
           'catalyst': 15,
           'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_17_s.webp'
         },
         {
-          'name': '',
+          'name': 'Voluntary Outsider',
           'desc': 'Moves for 72 seconds while in Stealth mode.',
           'value': null,
           'catalyst': 15,
@@ -26439,28 +26551,35 @@ export const brownDust2Units = [
       'mark': 'Talent_Buff017_Mark',
       'skills': [
         {
-          'name': '',
+          'name': 'Voluntary Outsider',
           'desc': 'Moves for 30 seconds while in Stealth mode.',
           'value': null,
           'catalyst': 15,
           'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_17_s.webp'
         },
         {
-          'name': '',
+          'name': 'Voluntary Outsider',
           'desc': 'Moves for 36 seconds while in Stealth mode.',
           'value': null,
           'catalyst': 15,
           'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_17_s.webp'
         },
         {
-          'name': '',
+          'name': 'Voluntary Outsider',
+          'desc': '',
+          'value': null,
+          'catalyst': 15,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_17_s.webp'
+        },
+        {
+          'name': 'Voluntary Outsider',
           'desc': 'Moves for 54 seconds while in Stealth mode.',
           'value': null,
           'catalyst': 15,
           'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_17_s.webp'
         },
         {
-          'name': '',
+          'name': 'Voluntary Outsider',
           'desc': 'Moves for 72 seconds while in Stealth mode.',
           'value': null,
           'catalyst': 15,
@@ -28501,7 +28620,7 @@ export const brownDust2Units = [
         },
         {
           'name': 'Hunter\'s Intuition',
-          'desc': '',
+          'desc': 'Detects the location of hidden objects for 120 seconds.',
           'value': 60,
           'catalyst': 15,
           'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_6_s.webp'
@@ -28746,7 +28865,7 @@ export const brownDust2Units = [
         },
         {
           'name': 'Hunter\'s Intuition',
-          'desc': '',
+          'desc': 'Detects the location of hidden objects for 120 seconds.',
           'value': 60,
           'catalyst': 15,
           'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_6_s.webp'
@@ -38171,6 +38290,13 @@ export const brownDust2Units = [
       'skills': [
         {
           'name': '',
+          'desc': 'Boosts the movement speed by 75% for 15 seconds.',
+          'value': null,
+          'catalyst': 30,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_13_s.webp'
+        },
+        {
+          'name': '',
           'desc': 'Boosts the movement speed by 75% for 20 seconds.',
           'value': null,
           'catalyst': 30,
@@ -38391,6 +38517,13 @@ export const brownDust2Units = [
       'name': 'Rush',
       'mark': 'Talent_Buff013_Mark',
       'skills': [
+        {
+          'name': '',
+          'desc': 'Boosts the movement speed by 75% for 15 seconds.',
+          'value': null,
+          'catalyst': 30,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_13_s.webp'
+        },
         {
           'name': '',
           'desc': 'Boosts the movement speed by 75% for 20 seconds.',
@@ -38621,6 +38754,13 @@ export const brownDust2Units = [
       'name': 'Rush',
       'mark': 'Talent_Buff013_Mark',
       'skills': [
+        {
+          'name': '',
+          'desc': 'Boosts the movement speed by 75% for 15 seconds.',
+          'value': null,
+          'catalyst': 30,
+          'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/talent/talent_bufficon_13_s.webp'
+        },
         {
           'name': '',
           'desc': 'Boosts the movement speed by 75% for 20 seconds.',
@@ -40778,6 +40918,211 @@ export const brownDust2Units = [
     'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/67902/icon.webp',
     'body': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/67902/body.webp',
     'skillCard': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/skillart/067902.webp'
+  },
+  {
+    'id': 68001,
+    'slug': 'night-of-betrayal-valze',
+    'name': 'Night of Betrayal',
+    'nameJp': '叛逆の夜',
+    'nameKr': '배반의 밤',
+    'charSlug': 'valze',
+    'charName': 'Valze',
+    'element': 4,
+    'grade': 5,
+    'vaJp': 'Emiri Kato',
+    'talent': null,
+    'stats': {
+      'hp': 73.0,
+      'physAtk': null,
+      'physDef': null,
+      'critChance': 0.1,
+      'critDmg': 0.5
+    },
+    'growth': [
+      {
+        'grade': 1,
+        'cap': 20,
+        'gains': {
+          'Health': 42.0,
+          'PhysicalPower': 21.0,
+          'MagicPower': 21.0
+        }
+      },
+      {
+        'grade': 2,
+        'cap': 40,
+        'gains': {
+          'Health': 164.0,
+          'PhysicalPower': 82.0,
+          'MagicPower': 82.0
+        }
+      },
+      {
+        'grade': 3,
+        'cap': 60,
+        'gains': {
+          'Health': 366.0,
+          'PhysicalPower': 183.0,
+          'MagicPower': 183.0
+        }
+      },
+      {
+        'grade': 4,
+        'cap': 80,
+        'gains': {
+          'Health': 648.0,
+          'PhysicalPower': 324.0,
+          'MagicPower': 324.0
+        }
+      },
+      {
+        'grade': 5,
+        'cap': 100,
+        'gains': {
+          'Health': 1010.0,
+          'PhysicalPower': 505.0,
+          'MagicPower': 505.0
+        }
+      }
+    ],
+    'awakening': [
+      {
+        'stat': 'MAG',
+        'value': 12,
+        'pct': true
+      },
+      {
+        'stat': 'Dark dmg',
+        'value': 10,
+        'pct': true
+      }
+    ],
+    'potential': {
+      'permanent': [
+        {
+          'stat': 'MAG',
+          'value': 11.0,
+          'pct': false,
+          'count': 4
+        },
+        {
+          'stat': 'MAG',
+          'value': 4.0,
+          'pct': false,
+          'count': 4
+        },
+        {
+          'stat': 'MAG',
+          'value': 7.1,
+          'pct': true,
+          'count': 2
+        },
+        {
+          'stat': 'MAG',
+          'value': 18.0,
+          'pct': false,
+          'count': 2
+        },
+        {
+          'stat': 'MAG',
+          'value': 11.8,
+          'pct': true,
+          'count': 2
+        }
+      ],
+      'skill': [],
+      'bonding': [
+        {
+          'effect': 'Skill buff value +5%',
+          'count': 1
+        },
+        {
+          'effect': 'Skill buff duration +2 turn(s)',
+          'count': 1
+        },
+        {
+          'effect': 'Skill buff value +25%',
+          'count': 1
+        }
+      ]
+    },
+    'vaKr': 'Jang Chae-yeon',
+    'maxLevel': 5,
+    'skills': [
+      {
+        'name': 'Blade of Betrayal',
+        'desc': 'Apply X stacks of Bloodfever to yourself for 6 turn(s), increasing damage dealt from your DoTs by [[1|5]]%. Can stack up to X times. Attack the enemy ~18~ times, dealing X Magic DMG equal to X% of your Magic ATK per hit for every Bloodfever stack making up the Total Bloodfever. Apply Bleed to the enemy for 4 turn(s), dealing X Magic DMG equal to [[2|300]]% of your Magic ATK.',
+        'cooldown': 3,
+        'tiers': [
+          {
+            'rank': 0,
+            'tier': 'Base',
+            'sp': 5,
+            'value': 15,
+            'turns': 6,
+            'text': 'Apply X stacks of Bloodfever to yourself for 6 turn(s), increasing damage dealt from your DoTs by [[1|5]]%. Can stack up to X times. Attack the enemy ~18~ times, dealing X Magic DMG equal to X% of your Magic ATK per hit for every Bloodfever stack making up the Total Bloodfever. Apply Bleed to the enemy for 4 turn(s), dealing X Magic DMG equal to [[2|300]]% of your Magic ATK.'
+          },
+          {
+            'rank': 1,
+            'tier': 'Base',
+            'sp': 5,
+            'value': 15,
+            'turns': 6,
+            'text': 'Apply X stacks of Bloodfever to yourself for 6 turn(s), increasing damage dealt from your DoTs by [[1|5]]%. Can stack up to X times. Attack the enemy ~18~ times, dealing X Magic DMG equal to X% of your Magic ATK per hit for every Bloodfever stack making up the Total Bloodfever. Apply Bleed to the enemy for 4 turn(s), dealing X Magic DMG equal to [[2|325]]% of your Magic ATK.'
+          },
+          {
+            'rank': 2,
+            'tier': 'Base',
+            'sp': 5,
+            'value': 20,
+            'turns': 6,
+            'text': 'Apply X stacks of Bloodfever to yourself for 6 turn(s), increasing damage dealt from your DoTs by [[1|5]]%. Can stack up to X times. Attack the enemy ~18~ times, dealing X Magic DMG equal to X% of your Magic ATK per hit for every Bloodfever stack making up the Total Bloodfever. Apply Bleed to the enemy for 4 turn(s), dealing X Magic DMG equal to [[2|325]]% of your Magic ATK.'
+          },
+          {
+            'rank': 3,
+            'tier': 'High',
+            'sp': 5,
+            'value': 20,
+            'turns': 6,
+            'text': 'Apply X stacks of Bloodfever to yourself for 6 turn(s), increasing damage dealt from your DoTs by [[1|5]]%. Can stack up to X times. Attack the enemy ~18~ times, dealing X Magic DMG equal to X% of your Magic ATK per hit for every Bloodfever stack making up the Total Bloodfever. Apply Bleed to the enemy for 4 turn(s), dealing X Magic DMG equal to [[2|350]]% of your Magic ATK.'
+          },
+          {
+            'rank': 4,
+            'tier': 'High',
+            'sp': 5,
+            'value': 25,
+            'turns': 6,
+            'text': 'Apply X stacks of Bloodfever to yourself for 6 turn(s), increasing damage dealt from your DoTs by [[1|5]]%. Can stack up to X times. Attack the enemy ~18~ times, dealing X Magic DMG equal to X% of your Magic ATK per hit for every Bloodfever stack making up the Total Bloodfever. Apply Bleed to the enemy for 4 turn(s), dealing X Magic DMG equal to [[2|350]]% of your Magic ATK.'
+          },
+          {
+            'rank': 5,
+            'tier': 'Highest',
+            'sp': 5,
+            'value': 25,
+            'turns': 6,
+            'text': 'Apply X stacks of Bloodfever to yourself for 6 turn(s), increasing damage dealt from your DoTs by [[1|5]]%. Can stack up to X times. Attack the enemy ~18~ times, dealing X Magic DMG equal to X% of your Magic ATK per hit for every Bloodfever stack making up the Total Bloodfever. Apply Bleed to the enemy for 4 turn(s), dealing X Magic DMG equal to [[2|375]]% of your Magic ATK.'
+          }
+        ]
+      }
+    ],
+    'bonding': [
+      {
+        'label': 'Buff value +5%',
+        'v': 0.05
+      },
+      {
+        'label': 'Duration +2 turns',
+        't': 2
+      },
+      {
+        'label': 'Buff value +25%',
+        'vi': {
+          '2': 0.25
+        }
+      }
+    ],
+    'icon': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/68001/icon.webp',
+    'body': 'https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/units/68001/body.webp'
   }
 ];
 
@@ -41752,6 +42097,16 @@ export const brownDust2Characters = [
     'units': [
       'savage-warrior-aquila',
       'sealed-desires-aquila'
+    ]
+  },
+  {
+    'slug': 'valze',
+    'name': 'Valze',
+    'element': 4,
+    'grade': 5,
+    'defaultUnit': 'night-of-betrayal-valze',
+    'units': [
+      'night-of-betrayal-valze'
     ]
   }
 ];

@@ -4,6 +4,22 @@
 // manual edits to this file will be overwritten.
 export const BD2_UPDATES = [
   {
+    "slug": "2026-11-03-events-after-the-november-4-utc-update",
+    "date": "2026-11-03",
+    "dateDisplay": "November 3, 2026",
+    "title": "Events after the November 4 (UTC) Update",
+    "tag": "Update",
+    "summary": "Weekly event schedule: Night of Betrayal Valze Pickup Event Mission, [RERUN] Maid Name R Liatris Pickup Event Mission.",
+    "officialUrl": "https://www.browndust2.com/en-us/news/view?id=01M6FSGH29816A58VKEGXQE139",
+    "firstImage": {
+      "src": "https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/updates/2026-11-03-events-after-the-november-4-utc-update/01.webp",
+      "w": 849,
+      "h": 326
+    },
+    "imageCount": 7,
+    "contentHtml": "<p>Full Burst RPG: BrownDust2.<strong><br></strong></p><p>We would like to inform you about the events following the November 4 update.</p><p>Please refer to the details below.<br><br><strong><br>■ Event Update</strong></p><h3><strong><em>1. Pickup Event Mission</em></strong></h3><p>- Night of Betrayal Valze Pickup Event Mission will be held.</p><p>Event Period: After the November 4 maintenance - before the November 18 maintenance.</p><p>- [RERUN] Maid Name R Liatris Pickup Event Mission will be held.</p><p>Event Period: After the November 4 maintenance - before the December 2 maintenance.</p><p>- For RERUN Pickups, the event will proceed with the missions already completed based on the enhancements that have been made. Rewards for missions that have already been completed cannot be claimed again.</p><img src=\"https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/updates/2026-11-03-events-after-the-november-4-utc-update/01.webp\" alt=\"\" width=\"849\" height=\"326\" loading=\"lazy\"><h3><strong>2. One Last Move Login Event</strong></h3><p>- One Last Move Login Event will be held.</p><p>Event Period: After the November 4 maintenance - before the November 18 maintenance.</p><img src=\"https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/updates/2026-11-03-events-after-the-november-4-utc-update/02.webp\" alt=\"\" width=\"952\" height=\"312\" loading=\"lazy\"><h3><strong>3. Toire's Casino Roulette</strong></h3><p>- Toire's Casino Roulette event will be held.</p><p>Event Period: After the November 4 maintenance - before the November 18 maintenance.</p><img src=\"https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/updates/2026-11-03-events-after-the-november-4-utc-update/03.webp\" alt=\"\" width=\"697\" height=\"526\" loading=\"lazy\"><img src=\"https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/updates/2026-11-03-events-after-the-november-4-utc-update/04.webp\" alt=\"\" width=\"1280\" height=\"1022\" loading=\"lazy\"><h3><strong>4. Blood Royale Season Event Boosting Mission</strong></h3><p>- Play the Season Event \"Blood Royale\" and earn Dias.</p><p>Event Period: After the November 4 maintenance - before the November 18 maintenance.</p><img src=\"https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/updates/2026-11-03-events-after-the-november-4-utc-update/05.webp\" alt=\"\" width=\"1158\" height=\"316\" loading=\"lazy\"><h3><strong>5. Blood Royale Season Pass</strong></h3><p>- The Blood Royale Season Pass will be added.</p><p>Event Period: After the November 4 maintenance - before the December 2 maintenance.</p><p>- Completing missions will grant pass experience and various rewards. The mission list and pass rewards are as follows:</p><img src=\"https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/updates/2026-11-03-events-after-the-november-4-utc-update/06.webp\" alt=\"\" width=\"1280\" height=\"968\" loading=\"lazy\"><h3><strong>6. Webshop Coupon Distribution</strong></h3><img src=\"https://k2b1c5ab57ed98e51.gachawiki.info/brown-dust-2/updates/2026-11-03-events-after-the-november-4-utc-update/07.webp\" alt=\"\" width=\"1280\" height=\"250\" loading=\"lazy\"><p>- A discount coupon will be issued when you log in to the webshop during the coupon distribution period.</p><p>Coupon Name: [15%] Limited-Time Discount Coupon</p><p>Distribution Period: After the November 4 maintenance - November 19, 02:59 PM (UTC)</p><p>※ The coupon is valid for 30 days after issuance.</p><p>※ Discount coupons cannot be used in combination.<br><br><br>Thank you.</p>"
+  },
+  {
     "slug": "2026-10-30-55th-developer-notes-november-update",
     "date": "2026-10-30",
     "dateDisplay": "October 30, 2026",
