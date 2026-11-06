@@ -81,7 +81,7 @@ export const CLASS_ORDER = [
 // Overall PvE Tier List - General content performance
 export const PVE_TIER_LIST = {
   name: 'PvE Rankings by Class & Role',
-  lastUpdated: '2026-11-05',
+  lastUpdated: '2026-11-06',
   description:
     'Class-based PvE rankings with role highlights for story, events, and general progression.',
   tiers: {
@@ -107,6 +107,7 @@ export const PVE_TIER_LIST = {
       { name: 'Set' },
       { name: 'Nephthys' },
       { name: 'Brynhild' },
+      { name: 'Suzuka Gozen' },
     ],
     SS: [
       { name: 'Gaia' },
@@ -131,7 +132,6 @@ export const PVE_TIER_LIST = {
       { name: 'Bedivere' },
       { name: 'Fenrir' },
       { name: 'Ootakemaru' },
-      { name: 'Suzuka Gozen' },
     ],
     S: [
       { name: 'Zashiki-warashi' },
@@ -167,12 +167,12 @@ export const PVE_TIER_LIST = {
 
 // PvP Arena Tier List
 export const PVP_TIER_LIST = {
-  name: 'Arena PvP Rankings by Class & Role',
-  lastUpdated: '2026-11-05',
+  name: 'PvP Rankings by Class & Role',
+  lastUpdated: '2026-11-06',
   description: 'Class-based Arena PvP rankings with role highlights for competitive play.',
   tiers: {
-    UR: [{ name: 'Pride-Lucifer' }, { name: 'Bors' }, { name: 'Medusa' }, { name: 'Mila' }],
-    SSS: [{ name: 'Sharin' }, { name: 'Gluttony - Beelzebub' }, { name: 'Keller' }, { name: 'Nina' }, { name: 'Morgan Le Fay' }, { name: 'Odin' }, { name: 'Tamamo-no-Mae' }, { name: 'Wrath-Samael' }, { name: 'Jill' }, { name: 'Jorogumo' }, { name: 'Thor' }, { name: 'Apep' }, { name: 'Artemis' }, { name: 'Freya' }, { name: 'Hiyori' }, { name: 'Veronica' }, { name: 'Set' }, { name: 'Brynhild' }, { name: 'Fenrir' }, { name: 'Ootakemaru' }, { name: 'Suzuka Gozen' }],
+    UR: [{ name: 'Pride-Lucifer' }, { name: 'Bors' }, { name: 'Medusa' }, { name: 'Mila' }, { name: 'Suzuka Gozen' }],
+    SSS: [{ name: 'Sharin' }, { name: 'Gluttony - Beelzebub' }, { name: 'Keller' }, { name: 'Nina' }, { name: 'Morgan Le Fay' }, { name: 'Odin' }, { name: 'Tamamo-no-Mae' }, { name: 'Wrath-Samael' }, { name: 'Jill' }, { name: 'Jorogumo' }, { name: 'Thor' }, { name: 'Apep' }, { name: 'Artemis' }, { name: 'Freya' }, { name: 'Hiyori' }, { name: 'Veronica' }, { name: 'Set' }, { name: 'Brynhild' }, { name: 'Fenrir' }, { name: 'Ootakemaru' }],
     SS: [
       { name: 'Gaia' },
       { name: 'Guinevere' },
@@ -393,6 +393,12 @@ export function getCharactersByTier(tierLevel, listType = 'pve') {
 
 // Tier list changelog
 export const TIER_LIST_CHANGELOG = [
+  {
+    date: '2026-11-06',
+    changes: [
+      'Suzuka Gozen moved from SS to SSS in PvE and from SSS to UR in PvP (New Players stays S)',
+    ],
+  },
   {
     date: '2026-11-05',
     changes: [
