@@ -58,7 +58,13 @@ export const UNIT_RECOMMENDATIONS = [
   {
     title: 'Most Used Healers',
     characters: ['Medusa', 'Jill'],
-    description: 'The prime 2 healers for now. They become really core for any build.',
+    description: 'the prime 2 healers for now. They become really core for any build.',
+  },
+  {
+    title: 'PvP',
+    characters: ['Suzuka Gozen'],
+    description:
+      'she removes buffs from targets which are really strong in PvP, and deals quite good damage.',
   },
 ];
 
