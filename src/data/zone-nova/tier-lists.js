@@ -64,7 +64,7 @@ export const UNIT_RECOMMENDATIONS = [
     title: 'PvP',
     characters: ['Suzuka Gozen'],
     description:
-      'she removes buffs from targets which are really strong in PvP, and deals quite good damage.',
+      'her ult shreds Holy Resistance on targets (up to 24% more Holy damage taken) and she deals quite good damage.',
   },
 ];
 
