@@ -1,14 +1,14 @@
 /* Star Lusts shared styles (PINKCORE R18 bullet hell shmup).
    Palette from the official site: deep space #080818 backgrounds,
-   lavender #BFA9FF accent, periwinkle #6878c8 secondary. */
+   dusty periwinkle #9DB4E8 accent, periwinkle #6878c8 secondary. */
 
 :root {
   --sl-bg: #080818;
-  --sl-bg-raised: rgba(191, 169, 255, 0.05);
+  --sl-bg-raised: rgba(157, 180, 232, 0.05);
   --sl-card: rgba(255, 255, 255, 0.04);
   --sl-border: #2c2c48;
-  --sl-accent: #bfa9ff;
-  --sl-accent-dim: #8f7cc4;
+  --sl-accent: #9db4e8;
+  --sl-accent-dim: #7391c4;
   --sl-text-primary: #e8e6f2;
   --sl-text-muted: #8b89a6;
   --sl-radius: 10px;
@@ -27,7 +27,7 @@
 }
 
 .bg-layer.sl-bg-accent-1 {
-  background: radial-gradient(circle at 85% 20%, rgba(191, 169, 255, 0.08), transparent 45%);
+  background: radial-gradient(circle at 85% 20%, rgba(157, 180, 232, 0.08), transparent 45%);
   z-index: 0;
 }
 
@@ -335,7 +335,7 @@
 }
 
 .sl-filter-btn.active {
-  background: rgba(191, 169, 255, 0.16);
+  background: rgba(157, 180, 232, 0.16);
   border-color: var(--sl-accent-dim);
   color: var(--sl-accent);
 }
