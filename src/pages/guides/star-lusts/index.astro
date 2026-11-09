@@ -15,15 +15,20 @@ const ssrCount = STAR_LUSTS_CHARACTERS.filter(c => c.rarity === 'SSR').length;
   description="Star Lusts wiki: the R18 bullet hell shoot 'em up by PINKCORE/ICECONE — Adult Only on Steam, 18+ on EROLABS and Nutaku. Character database with stats, skills and profiles, built from extracted game data."
 >
   <section class="sl-hero-section sl-hero-over-video">
-    <!-- Full key art, contained in the content container so nothing is cropped -->
+    <!-- The game's own title movie, contained in the content container -->
     <div class="sl-hero-banner-wrap">
-      <img
-        src={`${R2}/gameimg/title-bg-wide.webp`}
-        alt="Star Lusts title screen key art"
-        width={1260}
-        height={540}
+      <video
         class="sl-hero-banner"
-      />
+        autoplay
+        muted
+        loop
+        playsinline
+        preload="metadata"
+        poster={`${R2}/gameimg/title-bg-wide.webp`}
+        aria-label="Star Lusts title screen movie"
+      >
+        <source src={`${R2}/videos/sl-hero.mp4`} type="video/mp4" />
+      </video>
     </div>
     <h1 class="sl-hero-title">Star Lusts</h1>
     <p class="sl-hero-tag">
@@ -35,10 +40,10 @@ const ssrCount = STAR_LUSTS_CHARACTERS.filter(c => c.rarity === 'SSR').length;
   <section class="sl-content-section">
     <div class="sl-story">
       <p>
-        From the official Steam page: "StarLusts is a bullet hell-style shoot 'em up game
-        which fuses sci-fi, mecha, and anthropomorphic themes. Players become Captains of
-        an Earth Federation ship, leading mecha Cadettes through space to battle alien
-        threats and capture ancient beauties called Mimics."
+        <strong>Star Lusts</strong> is a bullet hell-style shoot 'em up which fuses
+        sci-fi, mecha and anthropomorphic themes. Players become Captains of an Earth
+        Federation ship, leading mecha Cadettes through space to battle alien threats and
+        capture ancient beauties called Mimics.
       </p>
       <p>
         <strong>This is an adult game.</strong> The Steam release is flagged
