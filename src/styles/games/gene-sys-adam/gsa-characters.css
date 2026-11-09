@@ -405,6 +405,22 @@
   margin-top: 8px;
 }
 
+/* Skill status chips: game debuff/buff icon + name, linking to the
+   matching tile in the Statuses & Buffs section below. */
+a.gsa-status-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  text-decoration: none;
+  color: inherit;
+}
+
+a.gsa-status-chip img {
+  width: 16px;
+  height: 16px;
+  display: block;
+}
+
 .gsa-skill-awake {
   margin-top: 8px;
   padding: 8px 10px;

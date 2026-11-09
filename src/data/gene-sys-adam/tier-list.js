@@ -173,8 +173,8 @@ export const GSA_TIER_NOTES = {
   },
   'awana': {
     type: 'info',
-    title: 'Best farmable unit.',
-    text: 'Free SSR from her Investigation stage with a debuff on every skill, and one of only two Ebon appliers with Yulia. The Dark pursuit chain has no Finisher yet: the day one ships she is already on the field.',
+    title: 'Must have for Dark teams.',
+    text: 'Free SSR from her Investigation stage with a debuff on every skill, and one of only two Ebon appliers with Yulia: she is the core of every Dark roster and the easiest SSR to max. The Dark pursuit chain has no Finisher yet: the day one ships she is already on the field.',
   },
   // 'chloe': { type: 'info', variant: '', shortTitle: '', title: '', text: '' },
   // 'milena': { type: 'info', variant: '', shortTitle: '', title: '', text: '' },
@@ -233,6 +233,11 @@ export const GSA_PAIRS_NOTE = {
       note: 'Li Mu and Amelie for crit damage and crit team buffs.',
     },
     {
+      name: 'Single-target pair',
+      members: ['awana', 'ruby'],
+      note: 'Awana and Ruby are the strongest single-target damage dealers, each in her own element: Awana covers Dark and Ruby covers Wind. Pick whichever the matchup calls for.',
+    },
+    {
       name: 'Universal fits',
       members: ['jessica', 'kurosawa-shion'],
       note: 'Jessica and Kurosawa Shion work in the majority of teams, but the game can introduce much better fits for other element types later on.',
@@ -241,7 +246,7 @@ export const GSA_PAIRS_NOTE = {
   ],
 };
 
-export const GSA_TIER_UPDATED = 'October 17, 2026';
+export const GSA_TIER_UPDATED = 'November 9, 2026';
 
 // Early-game callout rendered above the views. The tiers rate end-state
 // power; this box explains why low placements still carry your account early.
@@ -290,7 +295,7 @@ export const GSA_TIER_PLACEMENTS = {
   'kurosawa-shion': { tier: 'SS', rarity: 'SSR', reason: 'The EN supplier. Her Auto Skill increases the party’s EN by 4.5 every 6 seconds, her Ultimate grants the whole party EN Gain Up 45% for 24s, and her Talent Skill stacks party Basic Damage Up 15% up to three times. Every Ultimate in the team comes online faster with her on the field.' },
   'chloe': { tier: 'A', rarity: 'SSR', reason: 'Her thirteen-hit 585% Ultimate is better than it looks, and the self-inflicted Pain cost is manageable behind any healing support.' },
   'charlotte': { tier: 'S', rarity: 'SSR', reason: 'A niche S rather than a power pick: her Passive 2 after Class Up grants the whole party Dark Res Up 7% for Light into Dark matchups, and her Ultimate makes her one of only two characters who can inflict Judgment, feeding Sanction Pursuits for any Light Finisher. Her own output is middling (a nine-hit 34% per-hit Ultimate behind big self Shields). The game is young and better Light units will ship, so raise her only as far as current content demands.' },
-  'rachel': { tier: 'SS', rarity: 'SSR', reason: 'Utility Sniper: her Auto Skill prioritizes furthest targets and Interrupts their skills, the Ultimate is a straight-line strike that triggers a Sanction L Pursuit on targets with the Judgment status, and kills inflict Damage Decrease 15% on enemy Sniper and Breaker Type targets.' },
+  'rachel': { tier: 'SS', rarity: 'SSR', reason: 'Utility Sniper: her Auto Skill prioritizes furthest targets and Interrupts their skills, the Ultimate is a straight-line strike that triggers a Sanction L Pursuit on targets with the Judgment status, and kills inflict Damage Decrease 15% on enemy Sniper and Breaker Type targets. Her base ATK scaling is the second highest in the game: she sits in the rate 2.0 rarity group with Komachi Sayaka, Elena and Qing Yin, so her raw stat ceiling is far higher than her utility kit suggests.' },
   'milena': { tier: 'S', rarity: 'SSR', reason: 'A ten-hit 800% single-target Ultimate, Knockdown and Petrify control, and a passive that stacks DMG Block Down on Guardian Type targets. An SSR whose duplicates are still worth the investment.' },
   'amelie': { tier: 'S', rarity: 'SSR', reason: 'All-target specialist: the Ultimate hits all targets five times and Bleed uptime is reliable, but her Auto Skill buffs Random allies and her single-target numbers trail the SR damage leaders.' },
   'annabelle': { tier: 'A', rarity: 'SSR', reason: 'AoE Light damage with control: a seven-hit two-target Ultimate that also lands Dark ATK Down 20% and ATK SPD Down 30%, Light Res Down 5% on her Auto Skill, and party Block Penetration Up 6% after Class Up. The 385% total is modest for an SSR and she has no pursuit role, but the layered debuffs make Light teams hit harder.' },
@@ -310,7 +315,7 @@ export const GSA_TIER_PLACEMENTS = {
   'fujiwara-arisa': { tier: 'SS', rarity: 'SSR', reason: 'Tied for the hardest single hit in the game: a nine-hit 900% single-target Ultimate that ends in a Stun and Burn M, backed by a 435% to 585% Talent Skill and Burn S on her Auto Skill. She is also the premium Burn Initiator, keeping the Fire status up so Theodore can Detonate. Raw ceiling plus chain value; the only thing she lacks is team amplification.' },
   'jessica': { tier: 'SSS', rarity: 'SSR', reason: 'Best defensive support: a 795% Shield to all party members on an 8s cooldown, continuous healing on her Auto Skill and passives, and an Ultimate that Cleanses debuffs from all party members and applies a 1285% Shield.' },
   'belle-clumsy-cowgirl': { tier: 'S', rarity: 'SSR', reason: 'The self-sufficient Shatter Initiator: she applies her own Petrify before her five-hit all-targets Ultimate, so she triggers Stone Shatter pursuits without any feeder, on top of spread damage and small party heals. Weaknesses are real (spread damage splits, no party buffs), but she is the only unit who runs the Earth chain entirely alone.' },
-  'awana': { tier: 'SS', rarity: 'SSR', reason: 'The best farmable unit in the game: perfect-clear stage 6 of her Investigation stage recruits her, so duplicates come with patience instead of pulls. A debuff-stacking Dark Sniper: her awakened kit chips enemies from every angle (Energy DMG Down 15%, Light ATK Down 12%, ACC Down 10%, Crit Chance Down 20%) while self-buffs (Crit Chance Up 30%, Dark ATK Up 20%) feed a 558% single-target Ultimate, and after awakening the whole party gains Light Res Up 7.5%, an anti-Light niche. Random targeting is the tax: she cannot focus priority targets. She is also one of only two Ebon appliers alongside Yulia, and the Dark pursuit chain has no released Finisher yet, so that half of her value is still waiting. SS now, SSS-potential the day a Dark trigger ships.' },
+  'awana': { tier: 'SSS', rarity: 'SSR', reason: 'The easiest SSR in the game to max and a must-have for Dark teams: perfect-clear stage 6 of her Investigation stage recruits her, so duplicates come with patience instead of pulls. A debuff-stacking Dark Sniper: her awakened kit chips enemies from every angle (Energy DMG Down 15%, Light ATK Down 12%, ACC Down 10%, Crit Chance Down 20%) while self-buffs (Crit Chance Up 30%, Dark ATK Up 20%) feed a 558% single-target Ultimate, and after awakening the whole party gains Light Res Up 7.5%. One of only two Ebon appliers alongside Yulia, she is the core every Dark roster is built around, and the day a Dark pursuit Finisher ships she is already on the field. Random targeting is the only tax: she cannot focus priority targets.' },
 };
 
 // Element-view placements: the By Element view rates units inside their

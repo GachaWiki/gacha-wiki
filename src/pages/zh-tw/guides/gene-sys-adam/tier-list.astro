@@ -52,6 +52,7 @@ const PAIRS_NOTE = {
     { name: '冰破組合', members: ['andou-kana', 'komachi-sayaka'], note: '加奈施加凍結，咲香將每個凍結目標轉為冰破追擊傷害。' },
     { name: '大地核心', members: ['belle-clumsy-cowgirl', 'hijikata-chizuru', 'ruo-lan'], note: '千鶴坦住前線並施加石化，若蘭提升大地屬性攻擊，牛仔貝兒粉碎帶狀態的目標。' },
     { name: '風屬性暴擊核心', members: ['li-mu', 'amelie'], note: '李沐與愛蜜莉提供暴擊傷害與暴擊團隊增益。' },
+    { name: '單體輸出組合', members: ['awana', 'ruby'], note: '沫沫與露比是全遊戲最強的單體輸出，各據一方屬性：沫沫主打闇屬性、露比主打風屬性，依關卡需求擇一上場。' },
     { name: '通用百搭', members: ['jessica', 'kurosawa-shion'], note: '潔西卡與黑澤詩音適合大多數隊伍，但遊戲之後可能推出更適合其他屬性類型的角色。', universal: true },
   ],
 };
@@ -77,7 +78,7 @@ const NOTES_ZH = {
   'liz': [null, '只有奧義能看，數值也太低。', '沒有追擊定位、沒有團隊增益、沒有狀態，就是一個坦。'],
   'danxin': [null, '難取得但很坦。', '如果抽到並練滿（要好幾個月），她還行但沒有到爆炸。不過她的護盾真的爆炸。'],
   'amber': [null, '坦克，無狀態。', '很容易練滿，前期帳號很好用，但比其他坦克沒多帶什麼，就只是坦。'],
-  'awana': [null, '最佳免費取得角色。', '調查關卡可獲得的免費 SSR，每個技能都帶減益，並且是與尤莉亞並列唯二能施加漆黑的角色。暗屬性追擊鏈還沒有終結者：等其上線那天，她已經站在場上了。'],
+  'awana': [null, '闇隊必練。', '調查關卡可獲得的免費 SSR，每個技能都帶減益，並且是與尤莉亞並列唯二能施加漆黑的角色：她是所有闇隊的核心，也是最容易練滿的 SSR。闇屬性追擊鏈還沒有終結者：等其上線那天，她已經站在場上了。'],
 };
 const noteZh = slug => NOTES_ZH[slug] || null;
 
@@ -138,7 +139,7 @@ const total = tierTabs.reduce((n, t) => n + tabCount(t.rarity), 0);
 
 <GsaZhLayout
   title="排行榜"
-  description={`黑色基因排行榜（2026年10月17日更新）：依職業戰鬥風格評比全部 ${total} 名已實裝角色，評分依據來自解密資料表的技能數據。`}
+  description={`黑色基因排行榜（2026年11月9日更新）：依職業戰鬥風格評比全部 ${total} 名已實裝角色，評分依據來自解密資料表的技能數據。`}
   gameTitle="排行榜"
   breadcrumbItems={[{ name: GSA_ZH.gameName, href: base }, { name: '排行榜' }]}
 >

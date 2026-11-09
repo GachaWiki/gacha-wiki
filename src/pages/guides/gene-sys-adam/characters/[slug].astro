@@ -76,6 +76,15 @@ const myStatuses = (GSA_CHAR_STATUSES[slug] || [])
   .filter(Boolean)
   .sort((a, b) => (a.kind === b.kind ? a.name.localeCompare(b.name) : a.kind === 'debuff' ? -1 : 1));
 
+// Skill status chips resolve to their catalog entry (by name) so each chip
+// can carry the game's own buff/debuff icon and link to its tile below.
+const statusByName = {};
+for (const st of Object.values(GSA_STATUSES)) {
+  statusByName[st.name] = st;
+  if (st.nameZh) statusByName[st.nameZh] = st;
+  for (const n of Object.values(st.names || {})) statusByName[n] = st;
+}
+
 const profile = c.profile || {};
 const stats = c.stats || {};
 
@@ -555,7 +564,12 @@ const growth = c.growth || { rate: 1, hp: [0, 0, 0, 0, 0, 0], atk: [0, 0, 0, 0, 
                 )}
                 {s.statuses?.length ? (
                   <div class="gsa-skill-statuses">
-                    {s.statuses.map(st => <span class="gsa-chip solid-muted">{st}</span>)}
+                    {s.statuses.map(st => {
+                      const e = statusByName[st];
+                      return e
+                        ? <a class="gsa-chip solid-muted gsa-status-chip" href={`#gsa-st-${e.id}`}>{e.icon && <img src={e.icon} alt="" width="16" height="16" loading="lazy" />}{st}</a>
+                        : <span class="gsa-chip solid-muted">{st}</span>;
+                    })}
                   </div>
                 ) : null}
               </div>
@@ -589,7 +603,7 @@ const growth = c.growth || { rate: 1, hp: [0, 0, 0, 0, 0, 0], atk: [0, 0, 0, 0, 
         </p>
         <div class="gsa-status-grid">
           {myStatuses.map(st => (
-            <div class={`gsa-status-tile gsa-status-${st.kind}`}>
+            <div class={`gsa-status-tile gsa-status-${st.kind}`} id={`gsa-st-${st.id}`}>
               <span class="gsa-status-head">
                 {st.icon ? (
                   <img class="gsa-status-icon" src={st.icon} alt={st.name} width="28" height="28" loading="lazy" />

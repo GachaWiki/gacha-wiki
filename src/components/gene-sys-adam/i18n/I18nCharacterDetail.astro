@@ -105,8 +105,23 @@ const langKey = base.split('/')[1];
 const myStatuses = (GSA_CHAR_STATUSES[slug] || [])
   .map(id => GSA_STATUSES[id])
   .filter(Boolean)
-  .map(st => ({ ...st, dispName: st.names?.[langKey] || st.name }))
+  .map(st => ({
+    ...st,
+    dispName: st.names?.[langKey] || st.name,
+    // zh-tw uses the official Traditional Chinese text; other locales fall
+    // back to the English explanation (game has not localized these yet)
+    dispDesc: langKey === 'zh-tw' ? (st.descZh || st.desc) : st.desc,
+  }))
   .sort((a, b) => (a.kind === b.kind ? a.dispName.localeCompare(b.dispName) : a.kind === 'debuff' ? -1 : 1));
+
+// Skill status chips resolve to their catalog entry (by any localized name)
+// so each chip carries the game's own buff/debuff icon and links to its tile.
+const statusByName = {};
+for (const st of Object.values(GSA_STATUSES)) {
+  statusByName[st.name] = st;
+  if (st.nameZh) statusByName[st.nameZh] = st;
+  for (const n of Object.values(st.names || {})) statusByName[n] = st;
+}
 ---
 
 <div class="gsa-content-section">
@@ -469,7 +484,12 @@ const myStatuses = (GSA_CHAR_STATUSES[slug] || [])
               )}
               {s.statuses?.length ? (
                 <div class="gsa-skill-statuses">
-                  {s.statuses.map(st => <span class="gsa-chip solid-muted">{st}</span>)}
+                  {s.statuses.map(st => {
+                    const e = statusByName[st];
+                    return e
+                      ? <a class="gsa-chip solid-muted gsa-status-chip" href={`#gsa-st-${e.id}`}>{e.icon && <img src={e.icon} alt="" width="16" height="16" loading="lazy" />}{st}</a>
+                      : <span class="gsa-chip solid-muted">{st}</span>;
+                  })}
                 </div>
               ) : null}
             </div>
@@ -484,7 +504,7 @@ const myStatuses = (GSA_CHAR_STATUSES[slug] || [])
       <h2>{L.statusesTitle}</h2>
       <div class="gsa-status-grid">
         {myStatuses.map(st => (
-          <div class={`gsa-status-tile gsa-status-${st.kind}`}>
+          <div class={`gsa-status-tile gsa-status-${st.kind}`} id={`gsa-st-${st.id}`}>
             <span class="gsa-status-head">
               {st.icon ? (
                 <img class="gsa-status-icon" src={st.icon} alt={st.dispName} width="28" height="28" loading="lazy" />
@@ -494,9 +514,11 @@ const myStatuses = (GSA_CHAR_STATUSES[slug] || [])
               <b class="gsa-status-name">{st.dispName}</b>
               <span class={`gsa-chip ${st.kind === 'buff' ? 'solid-accent' : 'gsa-status-kind-debuff'}`}>{st.kind === 'buff' ? L.buffLabel : L.debuffLabel}</span>
             </span>
+            {st.dispDesc && <p class="gsa-status-desc">{st.dispDesc}</p>}
           </div>
         ))}
       </div>
     </div>
   )}
 </div>
+

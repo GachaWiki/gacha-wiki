@@ -9,10 +9,10 @@ export const GSA_STATUSES = {
     "name": "Electrocute",
     "nameZh": "觸電",
     "names": {
-      "ja": "Electrocute",
-      "ko": "Electrocute",
-      "th": "Electrocute",
-      "vi": "Electrocute",
+      "ja": "感電",
+      "ko": "감전",
+      "th": "ไฟฟ้าช็อต",
+      "vi": "Điện Giật",
       "zh-cn": "触电"
     },
     "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/buff_Shock_Icon.webp",
@@ -26,9 +26,9 @@ export const GSA_STATUSES = {
     "name": "Overload",
     "nameZh": "超載",
     "names": {
-      "ja": "Overload",
-      "ko": "Overload",
-      "th": "Overload",
+      "ja": "過負荷",
+      "ko": "과부하",
+      "th": "โอเวอร์โหลด",
       "vi": "Overload",
       "zh-cn": "超载"
     },
@@ -43,10 +43,10 @@ export const GSA_STATUSES = {
     "name": "Petrify",
     "nameZh": "石化",
     "names": {
-      "ja": "Petrify",
-      "ko": "Petrify",
-      "th": "Petrify",
-      "vi": "Petrify",
+      "ja": "石化",
+      "ko": "석화",
+      "th": "แข็งเป็นหิน",
+      "vi": "Hóa Đá",
       "zh-cn": "石化"
     },
     "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/buff_Petrify_Icon.webp",
@@ -60,10 +60,10 @@ export const GSA_STATUSES = {
     "name": "Shatter",
     "nameZh": "碎石",
     "names": {
-      "ja": "Shatter",
-      "ko": "Shatter",
-      "th": "Shatter",
-      "vi": "Shatter",
+      "ja": "砕石",
+      "ko": "쇄석",
+      "th": "ทุบหิน",
+      "vi": "Phá Đá",
       "zh-cn": "碎石"
     },
     "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/buff_Obliterate_Icon.webp",
@@ -77,10 +77,10 @@ export const GSA_STATUSES = {
     "name": "Burn",
     "nameZh": "燃燒",
     "names": {
-      "ja": "Burn",
-      "ko": "Burn",
-      "th": "Burn",
-      "vi": "Burn",
+      "ja": "燃焼",
+      "ko": "연소",
+      "th": "แผดเผา",
+      "vi": "Thiêu Đốt",
       "zh-cn": "燃烧"
     },
     "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/buff_Burn_Icon.webp",
@@ -94,10 +94,10 @@ export const GSA_STATUSES = {
     "name": "Detonate",
     "nameZh": "引爆",
     "names": {
-      "ja": "Detonate",
-      "ko": "Detonate",
-      "th": "Detonate",
-      "vi": "Detonate",
+      "ja": "起爆",
+      "ko": "기폭",
+      "th": "ระเบิด",
+      "vi": "Kích Nổ",
       "zh-cn": "引爆"
     },
     "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/buff_Explode_Icon.webp",
@@ -111,10 +111,10 @@ export const GSA_STATUSES = {
     "name": "Frozen",
     "nameZh": "冰凍",
     "names": {
-      "ja": "Frozen",
-      "ko": "Frozen",
-      "th": "Frozen",
-      "vi": "Frozen",
+      "ja": "冷凍",
+      "ko": "빙결",
+      "th": "แช่แข็ง",
+      "vi": "Đóng Băng",
       "zh-cn": "冰冻"
     },
     "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/buff_Freeze_Icon.webp",
@@ -128,10 +128,10 @@ export const GSA_STATUSES = {
     "name": "Ice Break",
     "nameZh": "破冰",
     "names": {
-      "ja": "Ice Break",
-      "ko": "Ice Break",
-      "th": "Ice Break",
-      "vi": "Ice Break",
+      "ja": "解氷",
+      "ko": "쇄빙",
+      "th": "ทำลายน้ำแข็ง",
+      "vi": "Phá Băng",
       "zh-cn": "破冰"
     },
     "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/buff_BrokenFreeze_Icon.webp",
@@ -145,10 +145,10 @@ export const GSA_STATUSES = {
     "name": "Judgement",
     "nameZh": "審判",
     "names": {
-      "ja": "Judgement",
-      "ko": "Judgement",
-      "th": "Judgement",
-      "vi": "Judgement",
+      "ja": "審判",
+      "ko": "심판",
+      "th": "พิพากษา",
+      "vi": "Phán Quyết",
       "zh-cn": "审判"
     },
     "icon": null,
@@ -162,10 +162,10 @@ export const GSA_STATUSES = {
     "name": "Sanction",
     "nameZh": "制裁",
     "names": {
-      "ja": "Sanction",
-      "ko": "Sanction",
-      "th": "Sanction",
-      "vi": "Sanction",
+      "ja": "制裁",
+      "ko": "제재",
+      "th": "ลงทัณฑ์",
+      "vi": "Trừng Phạt",
       "zh-cn": "制裁"
     },
     "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/buff_LightCombo_Icon.webp",
@@ -179,27 +179,27 @@ export const GSA_STATUSES = {
     "name": "Ebon",
     "nameZh": "漆黑",
     "names": {
-      "ja": "Ebon",
-      "ko": "Ebon",
-      "th": "Ebon",
-      "vi": "Ebon",
+      "ja": "漆黒",
+      "ko": "칠흑",
+      "th": "ดำมืด",
+      "vi": "Bóng Đêm",
       "zh-cn": "漆黑"
     },
     "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/buff_DarkStart_Icon.webp",
     "kind": "debuff",
     "order": 11,
-    "desc": "Ebon status. Feeds the Abyss pursuit, which prevents the target from being healed for a period.",
-    "descZh": "漆黑狀態，餵養深淵追擊，一段時間內阻止目標受到治療。"
+    "desc": "The Dark element Initiator status, like Burn for Fire or Freeze for Water. It feeds the Abyss pursuit, which prevents the target from being healed for a period. Yulia and Awana are the only released appliers, and no released unit triggers Abyss yet.",
+    "descZh": "漆黑是闇屬性的追擊起始狀態，如同火屬性的燃燒或水屬性的冰凍。它餵養深淵追擊，一段時間內阻止目標受到治療。目前僅由尤莉亞與沫沫施加，尚無已實裝角色能觸發深淵。"
   },
   "139000011": {
     "id": "139000011",
     "name": "Abyss",
     "nameZh": "深淵",
     "names": {
-      "ja": "Abyss",
-      "ko": "Abyss",
-      "th": "Abyss",
-      "vi": "Abyss",
+      "ja": "深淵",
+      "ko": "심연",
+      "th": "หุบเหว",
+      "vi": "Vực Thẳm",
       "zh-cn": "深渊"
     },
     "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/buff_DarkCombo_Icon.webp",
@@ -213,10 +213,10 @@ export const GSA_STATUSES = {
     "name": "Non-Elemental Pursuit",
     "nameZh": "無屬性追擊",
     "names": {
-      "ja": "Non-Elemental Pursuit",
-      "ko": "Non-Elemental Pursuit",
-      "th": "Non-Elemental Pursuit",
-      "vi": "Non-Elemental Pursuit",
+      "ja": "無属性追撃",
+      "ko": "무속성 추격",
+      "th": "ไล่ล่าไม่มีสเตตัส",
+      "vi": "Truy kích Neutral",
       "zh-cn": "无属性追击"
     },
     "icon": null,
@@ -230,10 +230,10 @@ export const GSA_STATUSES = {
     "name": "Knock Down",
     "nameZh": "擊倒",
     "names": {
-      "ja": "Knock Down",
-      "ko": "Knock Down",
-      "th": "Knock Down",
-      "vi": "Knock Down",
+      "ja": "ノックダウン",
+      "ko": "녹다운",
+      "th": "ล้มลง",
+      "vi": "Hạ Gục",
       "zh-cn": "击倒"
     },
     "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/buff_KnockDown_Icon.webp",
@@ -247,10 +247,10 @@ export const GSA_STATUSES = {
     "name": "Stun",
     "nameZh": "暈眩",
     "names": {
-      "ja": "Stun",
-      "ko": "Stun",
-      "th": "Stun",
-      "vi": "Stun",
+      "ja": "めまい",
+      "ko": "스턴",
+      "th": "มึนงง",
+      "vi": "Choáng",
       "zh-cn": "晕眩"
     },
     "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/buff_Stun_Icon.webp",
@@ -264,10 +264,10 @@ export const GSA_STATUSES = {
     "name": "Bleed",
     "nameZh": "流血",
     "names": {
-      "ja": "Bleed",
-      "ko": "Bleed",
-      "th": "Bleed",
-      "vi": "Bleed",
+      "ja": "流血",
+      "ko": "출혈",
+      "th": "เลือดไหล",
+      "vi": "Mất Máu",
       "zh-cn": "流血"
     },
     "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/buff_Blood_Icon.webp",
@@ -281,10 +281,10 @@ export const GSA_STATUSES = {
     "name": "Silence",
     "nameZh": "禁言",
     "names": {
-      "ja": "Silence",
-      "ko": "Silence",
-      "th": "Silence",
-      "vi": "Silence",
+      "ja": "沈黙",
+      "ko": "침묵",
+      "th": "ใบ้",
+      "vi": "Im lặng",
       "zh-cn": "禁言"
     },
     "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/buff_Silence_Icon.webp",
@@ -298,10 +298,10 @@ export const GSA_STATUSES = {
     "name": "Interrupt",
     "nameZh": "中斷",
     "names": {
-      "ja": "Interrupt",
-      "ko": "Interrupt",
-      "th": "Interrupt",
-      "vi": "Interrupt",
+      "ja": "中断",
+      "ko": "차단",
+      "th": "ขัดจังหวะ",
+      "vi": "Ngắt Đòn",
       "zh-cn": "中断"
     },
     "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/buff_Break_Icon.webp",
@@ -315,10 +315,10 @@ export const GSA_STATUSES = {
     "name": "Poison",
     "nameZh": "中毒",
     "names": {
-      "ja": "Poison",
-      "ko": "Poison",
-      "th": "Poison",
-      "vi": "Poison",
+      "ja": "毒",
+      "ko": "중독",
+      "th": "ติดพิษ",
+      "vi": "Trúng Độc",
       "zh-cn": "中毒"
     },
     "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/buff_Poison_Icon.webp",
@@ -332,10 +332,10 @@ export const GSA_STATUSES = {
     "name": "Suffocate",
     "nameZh": "窒息",
     "names": {
-      "ja": "Suffocate",
-      "ko": "Suffocate",
-      "th": "Suffocate",
-      "vi": "Suffocate",
+      "ja": "窒息",
+      "ko": "질식",
+      "th": "ขาดอากาศ",
+      "vi": "Ngộp Thở",
       "zh-cn": "窒息"
     },
     "icon": null,
@@ -349,10 +349,10 @@ export const GSA_STATUSES = {
     "name": "Insulation",
     "nameZh": "絕緣",
     "names": {
-      "ja": "Insulation",
-      "ko": "Insulation",
-      "th": "Insulation",
-      "vi": "Insulation",
+      "ja": "絶縁",
+      "ko": "절연",
+      "th": "ตัดรัก",
+      "vi": "Cô Lập",
       "zh-cn": "绝缘"
     },
     "icon": null,
@@ -366,10 +366,10 @@ export const GSA_STATUSES = {
     "name": "Comatose",
     "nameZh": "昏睡",
     "names": {
-      "ja": "Comatose",
-      "ko": "Comatose",
-      "th": "Comatose",
-      "vi": "Comatose",
+      "ja": "昏睡",
+      "ko": "깊은 잠",
+      "th": "ง่วง",
+      "vi": "Hôn Mê",
       "zh-cn": "昏睡"
     },
     "icon": null,
@@ -383,10 +383,10 @@ export const GSA_STATUSES = {
     "name": "Blight",
     "nameZh": "腐化",
     "names": {
-      "ja": "Blight",
-      "ko": "Blight",
-      "th": "Blight",
-      "vi": "Blight",
+      "ja": "腐敗",
+      "ko": "부패",
+      "th": "เน่าเปื่อย",
+      "vi": "Ăn Mòn",
       "zh-cn": "腐化"
     },
     "icon": null,
@@ -400,10 +400,10 @@ export const GSA_STATUSES = {
     "name": "Shield",
     "nameZh": "護盾",
     "names": {
-      "ja": "Shield",
-      "ko": "Shield",
-      "th": "Shield",
-      "vi": "Shield",
+      "ja": "シールド",
+      "ko": "쉴드",
+      "th": "โล่",
+      "vi": "Khiên Chắn",
       "zh-cn": "护盾"
     },
     "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/buff_Barrier_Icon.webp",
@@ -417,10 +417,10 @@ export const GSA_STATUSES = {
     "name": "Hit Shield",
     "nameZh": "次數盾",
     "names": {
-      "ja": "Hit Shield",
-      "ko": "Hit Shield",
-      "th": "Hit Shield",
-      "vi": "Hit Shield",
+      "ja": "回数盾",
+      "ko": "횟수 쉴드",
+      "th": "โล่จำนวนครั้ง",
+      "vi": "Lượt Khiên Chắn",
       "zh-cn": "次数盾"
     },
     "icon": null,
@@ -434,10 +434,10 @@ export const GSA_STATUSES = {
     "name": "Invincible",
     "nameZh": "無敵",
     "names": {
-      "ja": "Invincible",
-      "ko": "Invincible",
-      "th": "Invincible",
-      "vi": "Invincible",
+      "ja": "無敵",
+      "ko": "무적",
+      "th": "ไร้เทียมทาน",
+      "vi": "Bất khả chiến bại",
       "zh-cn": "无敌"
     },
     "icon": null,
@@ -451,10 +451,10 @@ export const GSA_STATUSES = {
     "name": "Heal",
     "nameZh": "治療",
     "names": {
-      "ja": "Heal",
-      "ko": "Heal",
-      "th": "Heal",
-      "vi": "Heal",
+      "ja": "治癒",
+      "ko": "치유",
+      "th": "รักษา",
+      "vi": "Trị Liệu",
       "zh-cn": "治疗"
     },
     "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/buff_Heal_Icon.webp",
@@ -468,10 +468,10 @@ export const GSA_STATUSES = {
     "name": "Resurrect",
     "nameZh": "重生",
     "names": {
-      "ja": "Resurrect",
-      "ko": "Resurrect",
-      "th": "Resurrect",
-      "vi": "Resurrect",
+      "ja": "蘇生",
+      "ko": "부활",
+      "th": "คืนชีพ",
+      "vi": "Hồi Sinh",
       "zh-cn": "重生"
     },
     "icon": null,
@@ -485,10 +485,10 @@ export const GSA_STATUSES = {
     "name": "Dispel Debuffs",
     "nameZh": "清除負面效果",
     "names": {
-      "ja": "Dispel Debuffs",
-      "ko": "Dispel Debuffs",
-      "th": "Dispel Debuffs",
-      "vi": "Dispel Debuffs",
+      "ja": "デバフ除去",
+      "ko": "디버프 삭제",
+      "th": "ลบเอฟเฟกต์ดีบัฟ",
+      "vi": "Xóa Debuff",
       "zh-cn": "清除负面效果"
     },
     "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/buff_purify_Icon.webp",
@@ -502,10 +502,10 @@ export const GSA_STATUSES = {
     "name": "Dispel Buffs",
     "nameZh": "清除正面效果",
     "names": {
-      "ja": "Dispel Buffs",
-      "ko": "Dispel Buffs",
-      "th": "Dispel Buffs",
-      "vi": "Dispel Buffs",
+      "ja": "バフ除去",
+      "ko": "버프 효과 삭제",
+      "th": "ลบเอฟเฟกต์บัฟ",
+      "vi": "Xóa Buff",
       "zh-cn": "清除正面效果"
     },
     "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/buff_disperse_Icon.webp",
@@ -519,10 +519,10 @@ export const GSA_STATUSES = {
     "name": "Max HP Up",
     "nameZh": "生命值上限提升",
     "names": {
-      "ja": "Max HP Up",
-      "ko": "Max HP Up",
-      "th": "Max HP Up",
-      "vi": "Max HP Up",
+      "ja": "HP上限アップ",
+      "ko": "최대 HP 상승",
+      "th": "เพิ่มขีดจำกัดสูงสุดค่า HP",
+      "vi": "Tăng Max HP",
       "zh-cn": "生命值上限提升"
     },
     "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/buff_Hp_Up_Icon.webp",
@@ -536,10 +536,10 @@ export const GSA_STATUSES = {
     "name": "Attack Up",
     "nameZh": "攻擊力提升",
     "names": {
-      "ja": "Attack Up",
-      "ko": "Attack Up",
-      "th": "Attack Up",
-      "vi": "Attack Up",
+      "ja": "攻撃力アップ",
+      "ko": "공격력 상승",
+      "th": "เพิ่มพลังโจมตี",
+      "vi": "Tăng ATK",
       "zh-cn": "攻击力提升"
     },
     "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/buff_Atk_Up_Icon.webp",
@@ -553,10 +553,10 @@ export const GSA_STATUSES = {
     "name": "Physical DMG Up",
     "nameZh": "物理傷害提升",
     "names": {
-      "ja": "Physical DMG Up",
-      "ko": "Physical DMG Up",
-      "th": "Physical DMG Up",
-      "vi": "Physical DMG Up",
+      "ja": "物理ダメージアップ",
+      "ko": "물리 피해 상승",
+      "th": "เพิ่มดาเมจกายภาพ",
+      "vi": "Tăng Dame Vật Lý",
       "zh-cn": "物理伤害提升"
     },
     "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/buff_Pdmg_Up_Icon.webp",
@@ -570,10 +570,10 @@ export const GSA_STATUSES = {
     "name": "Energy DMG Up",
     "nameZh": "能量傷害提升",
     "names": {
-      "ja": "Energy DMG Up",
-      "ko": "Energy DMG Up",
-      "th": "Energy DMG Up",
-      "vi": "Energy DMG Up",
+      "ja": "エネルギーダメージアップ",
+      "ko": "에너지 피해 상승",
+      "th": "เพิ่มดาเมจพลังงาน",
+      "vi": "Tăng Dame Năng Lượng",
       "zh-cn": "能量伤害提升"
     },
     "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/buff_Mdmg_Up_Icon.webp",
@@ -587,10 +587,10 @@ export const GSA_STATUSES = {
     "name": "Physical Damage Taken Decreased",
     "nameZh": "受到物理傷害降低",
     "names": {
-      "ja": "Physical Damage Taken Decreased",
-      "ko": "Physical Damage Taken Decreased",
-      "th": "Physical Damage Taken Decreased",
-      "vi": "Physical Damage Taken Decreased",
+      "ja": "物理被ダメージダウン",
+      "ko": "받는 물리 피해 하락",
+      "th": "ลดดาเมจกายภาพที่ได้รับ",
+      "vi": "Giảm Dame Vật Lý phải chịu",
       "zh-cn": "受到物理伤害降低"
     },
     "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/buff_Prdc_Up_Icon.webp",
@@ -604,10 +604,10 @@ export const GSA_STATUSES = {
     "name": "Energy Damage Taken Decreased",
     "nameZh": "受到能量傷害降低",
     "names": {
-      "ja": "Energy Damage Taken Decreased",
-      "ko": "Energy Damage Taken Decreased",
-      "th": "Energy Damage Taken Decreased",
-      "vi": "Energy Damage Taken Decreased",
+      "ja": "エネルギー被ダメージダウン",
+      "ko": "받는 에너지 피해 하락",
+      "th": "ลดดาเมจพลังงานที่ได้รับ",
+      "vi": "Giảm Dame Năng Lượng phải chịu",
       "zh-cn": "受到能量伤害降低"
     },
     "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/buff_Mrdc_Up_Icon.webp",
@@ -621,10 +621,10 @@ export const GSA_STATUSES = {
     "name": "Damage Up",
     "nameZh": "傷害提升",
     "names": {
-      "ja": "Damage Up",
-      "ko": "Damage Up",
-      "th": "Damage Up",
-      "vi": "Damage Up",
+      "ja": "ダメージ増加",
+      "ko": "피해 상승",
+      "th": "เพิ่มดาเมจ",
+      "vi": "Tăng Dame",
       "zh-cn": "伤害提升"
     },
     "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/buff_Dmg_Up_Icon.webp",
@@ -638,10 +638,10 @@ export const GSA_STATUSES = {
     "name": "Damage Taken Decreased",
     "nameZh": "受到傷害降低",
     "names": {
-      "ja": "Damage Taken Decreased",
-      "ko": "Damage Taken Decreased",
-      "th": "Damage Taken Decreased",
-      "vi": "Damage Taken Decreased",
+      "ja": "被ダメージダウン",
+      "ko": "받는 피해 하락",
+      "th": "ลดดาเมจที่ได้รับ",
+      "vi": "Giảm Dame nhận vào",
       "zh-cn": "受到伤害降低"
     },
     "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/buff_Rdc_Up_Icon.webp",
@@ -655,10 +655,10 @@ export const GSA_STATUSES = {
     "name": "ACC Up",
     "nameZh": "命中提升",
     "names": {
-      "ja": "ACC Up",
-      "ko": "ACC Up",
-      "th": "ACC Up",
-      "vi": "ACC Up",
+      "ja": "命中アップ",
+      "ko": "명중 상승",
+      "th": "เพิ่มแม่นยำ",
+      "vi": "Tăng Đánh Trúng",
       "zh-cn": "命中提升"
     },
     "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/buff_Hit_Up_Icon.webp",
@@ -672,10 +672,10 @@ export const GSA_STATUSES = {
     "name": "Evasion UP",
     "nameZh": "閃避提升",
     "names": {
-      "ja": "Evasion UP",
-      "ko": "Evasion UP",
-      "th": "Evasion UP",
-      "vi": "Evasion UP",
+      "ja": "回避アップ",
+      "ko": "회피 상승",
+      "th": "เพิ่มหลบหลีก",
+      "vi": "Dodge UP",
       "zh-cn": "闪避提升"
     },
     "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/buff_Ddg_Up_Icon.webp",
@@ -689,10 +689,10 @@ export const GSA_STATUSES = {
     "name": "Crit Chance Up",
     "nameZh": "暴擊提升",
     "names": {
-      "ja": "Crit Chance Up",
-      "ko": "Crit Chance Up",
-      "th": "Crit Chance Up",
-      "vi": "Crit Chance Up",
+      "ja": "会心アップ",
+      "ko": "치명 상승",
+      "th": "เพิ่มโจมตีคริ",
+      "vi": "Tăng CRIT",
       "zh-cn": "暴击提升"
     },
     "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/buff_Crit_Up_Icon.webp",
@@ -706,10 +706,10 @@ export const GSA_STATUSES = {
     "name": "Crit Evasion Up",
     "nameZh": "暴擊閃避提升",
     "names": {
-      "ja": "Crit Evasion Up",
-      "ko": "Crit Evasion Up",
-      "th": "Crit Evasion Up",
-      "vi": "Crit Evasion Up",
+      "ja": "会心回避アップ",
+      "ko": "치명타 회피 상승",
+      "th": "เพิ่มหลบหลีกโจมตีคริ",
+      "vi": "Tăng Né CRIT",
       "zh-cn": "暴击闪避提升"
     },
     "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/buff_CritRst_Up_Icon.webp",
@@ -723,10 +723,10 @@ export const GSA_STATUSES = {
     "name": "Crit DMG Up",
     "nameZh": "暴擊傷害提升",
     "names": {
-      "ja": "Crit DMG Up",
-      "ko": "Crit DMG Up",
-      "th": "Crit DMG Up",
-      "vi": "Crit DMG Up",
+      "ja": "会心ダメージアップ",
+      "ko": "치명타 피해 상승",
+      "th": "เพิ่มดาเมจโจมตีคริ",
+      "vi": "Tăng CRIT Dame",
       "zh-cn": "暴击伤害提升"
     },
     "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/buff_CritAmp_Up_Icon.webp",
@@ -740,10 +740,10 @@ export const GSA_STATUSES = {
     "name": "Block Penetration Up",
     "nameZh": "格擋無視提升",
     "names": {
-      "ja": "Block Penetration Up",
-      "ko": "Block Penetration Up",
-      "th": "Block Penetration Up",
-      "vi": "Block Penetration Up",
+      "ja": "ブロック無視アップ",
+      "ko": "가드 무시 상승",
+      "th": "เพิ่มเพิกเฉยบล็อก",
+      "vi": "Tăng Bỏ Qua Block",
       "zh-cn": "格挡无视提升"
     },
     "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/buff_BlkPen_Up_Icon.webp",
@@ -757,10 +757,10 @@ export const GSA_STATUSES = {
     "name": "Block Up",
     "nameZh": "格擋提升",
     "names": {
-      "ja": "Block Up",
-      "ko": "Block Up",
-      "th": "Block Up",
-      "vi": "Block Up",
+      "ja": "ブロックアップ",
+      "ko": "가드 상승",
+      "th": "เพิ่มบล็อก",
+      "vi": "Tăng Block",
       "zh-cn": "格挡提升"
     },
     "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/buff_Blk_Up_Icon.webp",
@@ -774,10 +774,10 @@ export const GSA_STATUSES = {
     "name": "DMG Block Up",
     "nameZh": "格擋減傷提升",
     "names": {
-      "ja": "DMG Block Up",
-      "ko": "DMG Block Up",
-      "th": "DMG Block Up",
-      "vi": "DMG Block Up",
+      "ja": "ブロックダメ軽減アップ",
+      "ko": "가드 피해 감소 상승",
+      "th": "เพิ่มลดดาเมจบล็อค",
+      "vi": "Tăng Damage Block",
       "zh-cn": "格挡减伤提升"
     },
     "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/buff_BlkRdc_Up_Icon.webp",
@@ -791,10 +791,10 @@ export const GSA_STATUSES = {
     "name": "PHY PEN Up",
     "nameZh": "物理穿透提升",
     "names": {
-      "ja": "PHY PEN Up",
-      "ko": "PHY PEN Up",
-      "th": "PHY PEN Up",
-      "vi": "PHY PEN Up",
+      "ja": "物理貫通アップ",
+      "ko": "물리 관통 상승",
+      "th": "เพิ่มทะลวงกายภาพ",
+      "vi": "Tăng PHY Penetration",
       "zh-cn": "物理穿透提升"
     },
     "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/buff_pDefPen_Up_Icon.webp",
@@ -808,10 +808,10 @@ export const GSA_STATUSES = {
     "name": "Energy PEN Up",
     "nameZh": "能量穿透提升",
     "names": {
-      "ja": "Energy PEN Up",
-      "ko": "Energy PEN Up",
-      "th": "Energy PEN Up",
-      "vi": "Energy PEN Up",
+      "ja": "エネルギー貫通アップ",
+      "ko": "에너지 관통 상승",
+      "th": "เพิ่มทะลวงพลังงาน",
+      "vi": "Tăng Xuyên Năng Lượng",
       "zh-cn": "能量穿透提升"
     },
     "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/buff_mDefPen_Up_Icon.webp",
@@ -825,10 +825,10 @@ export const GSA_STATUSES = {
     "name": "Healing Crit Up",
     "nameZh": "治療暴擊提升",
     "names": {
-      "ja": "Healing Crit Up",
-      "ko": "Healing Crit Up",
-      "th": "Healing Crit Up",
-      "vi": "Healing Crit Up",
+      "ja": "治療会心アップ",
+      "ko": "치유 치명타 상승",
+      "th": "เพิ่มโจมตีคริการรักษา",
+      "vi": "Tăng CRIT Hồi Máu",
       "zh-cn": "治疗暴击提升"
     },
     "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/buff_HealCrit_Up_Icon.webp",
@@ -842,10 +842,10 @@ export const GSA_STATUSES = {
     "name": "Healing Crit Bonus Up",
     "nameZh": "治療暴擊加成提升",
     "names": {
-      "ja": "Healing Crit Bonus Up",
-      "ko": "Healing Crit Bonus Up",
-      "th": "Healing Crit Bonus Up",
-      "vi": "Healing Crit Bonus Up",
+      "ja": "治療会心ボーナスアップ",
+      "ko": "치유 치명타 보너스 상승",
+      "th": "เพิ่มเอฟเฟกต์การรักษา",
+      "vi": "Tăng Bonus CRIT Hồi Máu",
       "zh-cn": "治疗暴击加成提升"
     },
     "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/buff_HealCritAmp_Up_Icon.webp",
@@ -859,10 +859,10 @@ export const GSA_STATUSES = {
     "name": "Healing Up",
     "nameZh": "治療效果提升",
     "names": {
-      "ja": "Healing Up",
-      "ko": "Healing Up",
-      "th": "Healing Up",
-      "vi": "Healing Up",
+      "ja": "治療効果アップ",
+      "ko": "치유 효과 상승",
+      "th": "เพิ่มเอฟเฟกต์การรักษา",
+      "vi": "Tăng hiệu quả hồi phục",
       "zh-cn": "治疗效果提升"
     },
     "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/buff_Heal_Up_Icon.webp",
@@ -876,10 +876,10 @@ export const GSA_STATUSES = {
     "name": "Healing Received Up",
     "nameZh": "受治療效果提升",
     "names": {
-      "ja": "Healing Received Up",
-      "ko": "Healing Received Up",
-      "th": "Healing Received Up",
-      "vi": "Healing Received Up",
+      "ja": "被治療効果アップ",
+      "ko": "받는 치유 효과 상승",
+      "th": "เพิ่มเอฟเฟกต์การรักษาที่ได้รับ",
+      "vi": "Tăng hiệu quả hồi phục nhận được",
       "zh-cn": "受治疗效果提升"
     },
     "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/buff_RecHeal_Up_Icon.webp",
@@ -893,10 +893,10 @@ export const GSA_STATUSES = {
     "name": "EN Gain Up",
     "nameZh": "EN值獲取提升",
     "names": {
-      "ja": "EN Gain Up",
-      "ko": "EN Gain Up",
-      "th": "EN Gain Up",
-      "vi": "EN Gain Up",
+      "ja": "EN値獲得アップ",
+      "ko": "EN 획득 상승",
+      "th": "ได้รับเพิ่มค่า EN ",
+      "vi": "Tăng lượng EN nhận được",
       "zh-cn": "EN值获取提升"
     },
     "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/buff_ManaAmp_Up_Icon.webp",
@@ -910,10 +910,10 @@ export const GSA_STATUSES = {
     "name": "ATK SPD Up",
     "nameZh": "攻擊速度提升",
     "names": {
-      "ja": "ATK SPD Up",
-      "ko": "ATK SPD Up",
-      "th": "ATK SPD Up",
-      "vi": "ATK SPD Up",
+      "ja": "攻撃速度アップ",
+      "ko": "공격속도 상승",
+      "th": "เพิ่มสปีดโจมตี",
+      "vi": "Tăng ATK SPD",
       "zh-cn": "攻击速度提升"
     },
     "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/buff_AtkHaste_Up_Icon.webp",
@@ -927,10 +927,10 @@ export const GSA_STATUSES = {
     "name": "CD Time Decrease",
     "nameZh": "冷卻時間縮短",
     "names": {
-      "ja": "CD Time Decrease",
-      "ko": "CD Time Decrease",
-      "th": "CD Time Decrease",
-      "vi": "CD Time Decrease",
+      "ja": "クールタイム短縮",
+      "ko": "쿨타임 단축",
+      "th": "เวลา CD ลดลง",
+      "vi": "Rút ngắn CD",
       "zh-cn": "冷却时间缩短"
     },
     "icon": null,
@@ -944,10 +944,10 @@ export const GSA_STATUSES = {
     "name": "Wind ATK Up",
     "nameZh": "風屬性攻擊提升",
     "names": {
-      "ja": "Wind ATK Up",
-      "ko": "Wind ATK Up",
-      "th": "Wind ATK Up",
-      "vi": "Wind ATK Up",
+      "ja": "風属性攻撃アップ",
+      "ko": "풍 속성 공격 상승",
+      "th": "เพิ่มโจมตีธาตุลม",
+      "vi": "Tăng ATK Hệ Phong",
       "zh-cn": "风属性攻击提升"
     },
     "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/buff_WindAtk_Up_Icon.webp",
@@ -961,10 +961,10 @@ export const GSA_STATUSES = {
     "name": "Earth ATK Up",
     "nameZh": "土屬性攻擊提升",
     "names": {
-      "ja": "Earth ATK Up",
-      "ko": "Earth ATK Up",
-      "th": "Earth ATK Up",
-      "vi": "Earth ATK Up",
+      "ja": "土属性攻撃アップ",
+      "ko": "흙 속성 공격 상승",
+      "th": "เพิ่มโจมตีธาตุดิน",
+      "vi": "Tăng ATK Hệ Thổ",
       "zh-cn": "土属性攻击提升"
     },
     "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/buff_EarthAtk_Up_Icon.webp",
@@ -978,10 +978,10 @@ export const GSA_STATUSES = {
     "name": "Fire ATK Up",
     "nameZh": "火屬性攻擊提升",
     "names": {
-      "ja": "Fire ATK Up",
-      "ko": "Fire ATK Up",
-      "th": "Fire ATK Up",
-      "vi": "Fire ATK Up",
+      "ja": "火属性攻撃アップ",
+      "ko": "불 속성 공격 상승",
+      "th": "เพิ่มโจมตีธาตุไฟ",
+      "vi": "Tăng ATK Hệ Hỏa",
       "zh-cn": "火属性攻击提升"
     },
     "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/buff_FireAtk_Up_Icon.webp",
@@ -995,10 +995,10 @@ export const GSA_STATUSES = {
     "name": "Water ATK Up",
     "nameZh": "水屬性攻擊提升",
     "names": {
-      "ja": "Water ATK Up",
-      "ko": "Water ATK Up",
-      "th": "Water ATK Up",
-      "vi": "Water ATK Up",
+      "ja": "水属性攻撃アップ",
+      "ko": "물 속성 공격 상승",
+      "th": "เพิ่มโจมตีธาตุน้ำ",
+      "vi": "Tăng ATK Hệ Thủy",
       "zh-cn": "水属性攻击提升"
     },
     "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/buff_WaterAtk_Up_Icon.webp",
@@ -1012,10 +1012,10 @@ export const GSA_STATUSES = {
     "name": "Light ATK Up",
     "nameZh": "光屬性攻擊提升",
     "names": {
-      "ja": "Light ATK Up",
-      "ko": "Light ATK Up",
-      "th": "Light ATK Up",
-      "vi": "Light ATK Up",
+      "ja": "光属性攻撃アップ",
+      "ko": "빛 속성 공격 상승",
+      "th": "เพิ่มโจมตีธาตุแสง",
+      "vi": "Tăng ATK Hệ Quang",
       "zh-cn": "光属性攻击提升"
     },
     "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/buff_LightAtk_Up_Icon.webp",
@@ -1029,10 +1029,10 @@ export const GSA_STATUSES = {
     "name": "Dark ATK Up",
     "nameZh": "闇屬性攻擊提升",
     "names": {
-      "ja": "Dark ATK Up",
-      "ko": "Dark ATK Up",
-      "th": "Dark ATK Up",
-      "vi": "Dark ATK Up",
+      "ja": "闇属性攻撃アップ",
+      "ko": "암 속성 공격 상승",
+      "th": "เพิ่มโจมตีธาตุมืด",
+      "vi": "Tăng ATK Hệ Tối",
       "zh-cn": "暗属性攻击提升"
     },
     "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/buff_DarkAtk_Up_Icon.webp",
@@ -1046,10 +1046,10 @@ export const GSA_STATUSES = {
     "name": "Wind Res Up",
     "nameZh": "風屬性抗性提升",
     "names": {
-      "ja": "Wind Res Up",
-      "ko": "Wind Res Up",
-      "th": "Wind Res Up",
-      "vi": "Wind Res Up",
+      "ja": "風属性耐性アップ",
+      "ko": "풍 속성 저항 상승",
+      "th": "เพิ่มต้านทานธาตุลม",
+      "vi": "Tăng Kháng Hệ Phong",
       "zh-cn": "风属性抗性提升"
     },
     "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/buff_WindRes_Up_Icon.webp",
@@ -1063,10 +1063,10 @@ export const GSA_STATUSES = {
     "name": "Earth Res Up",
     "nameZh": "土屬性抗性提升",
     "names": {
-      "ja": "Earth Res Up",
-      "ko": "Earth Res Up",
-      "th": "Earth Res Up",
-      "vi": "Earth Res Up",
+      "ja": "土属性耐性アップ",
+      "ko": "흙 속성 저항 상승",
+      "th": "เพิ่มต้านทานธาตุดิน",
+      "vi": "Tăng Kháng Hệ Thổ",
       "zh-cn": "土属性抗性提升"
     },
     "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/buff_EarthRes_Up_Icon.webp",
@@ -1080,10 +1080,10 @@ export const GSA_STATUSES = {
     "name": "Fire Res Up",
     "nameZh": "火屬性抗性提升",
     "names": {
-      "ja": "Fire Res Up",
-      "ko": "Fire Res Up",
-      "th": "Fire Res Up",
-      "vi": "Fire Res Up",
+      "ja": "火属性耐性アップ",
+      "ko": "불 속성 저항 상승",
+      "th": "เพิ่มต้านทานธาตุไฟ",
+      "vi": "Tăng Kháng Hệ Hỏa",
       "zh-cn": "火属性抗性提升"
     },
     "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/buff_FireRes_Up_Icon.webp",
@@ -1097,10 +1097,10 @@ export const GSA_STATUSES = {
     "name": "Water Res Up",
     "nameZh": "水屬性抗性提升",
     "names": {
-      "ja": "Water Res Up",
-      "ko": "Water Res Up",
-      "th": "Water Res Up",
-      "vi": "Water Res Up",
+      "ja": "水属性耐性アップ",
+      "ko": "물 속성 저항 상승",
+      "th": "เพิ่มต้านทานธาตุน้ำ",
+      "vi": "Tăng Kháng Hệ Thủy",
       "zh-cn": "水属性抗性提升"
     },
     "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/buff_WaterRes_Up_Icon.webp",
@@ -1114,10 +1114,10 @@ export const GSA_STATUSES = {
     "name": "Light Res Up",
     "nameZh": "光屬性抗性提升",
     "names": {
-      "ja": "Light Res Up",
-      "ko": "Light Res Up",
-      "th": "Light Res Up",
-      "vi": "Light Res Up",
+      "ja": "光属性耐性アップ",
+      "ko": "빛 속성 저항 상승",
+      "th": "เพิ่มต้านทานธาตุแสง",
+      "vi": "Tăng Kháng Hệ Quang",
       "zh-cn": "光属性抗性提升"
     },
     "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/buff_LightRes_Up_Icon.webp",
@@ -1131,10 +1131,10 @@ export const GSA_STATUSES = {
     "name": "Dark Res Up",
     "nameZh": "闇屬性抗性提升",
     "names": {
-      "ja": "Dark Res Up",
-      "ko": "Dark Res Up",
-      "th": "Dark Res Up",
-      "vi": "Dark Res Up",
+      "ja": "闇属性耐性アップ",
+      "ko": "암 속성 저항 상승",
+      "th": "เพิ่มต้านทานธาตุมืด",
+      "vi": "Tăng Kháng Hệ Tối",
       "zh-cn": "暗属性抗性提升"
     },
     "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/buff_DarkRes_Up_Icon.webp",
@@ -1148,10 +1148,10 @@ export const GSA_STATUSES = {
     "name": "Max HP Down",
     "nameZh": "生命值上限降低",
     "names": {
-      "ja": "Max HP Down",
-      "ko": "Max HP Down",
-      "th": "Max HP Down",
-      "vi": "Max HP Down",
+      "ja": "HP上限ダウン",
+      "ko": "최대 HP 하락",
+      "th": "ลดขีดจำกัดสูงสุดค่า HP",
+      "vi": "Giảm Max HP",
       "zh-cn": "生命值上限降低"
     },
     "icon": null,
@@ -1165,10 +1165,10 @@ export const GSA_STATUSES = {
     "name": "Attack Down",
     "nameZh": "攻擊力降低",
     "names": {
-      "ja": "Attack Down",
-      "ko": "Attack Down",
-      "th": "Attack Down",
-      "vi": "Attack Down",
+      "ja": "攻撃力ダウン",
+      "ko": "공격력 하락",
+      "th": "ลดพลังโจมตี",
+      "vi": "Giảm ATK",
       "zh-cn": "攻击力降低"
     },
     "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/buff_Atk_Down_Icon.webp",
@@ -1182,10 +1182,10 @@ export const GSA_STATUSES = {
     "name": "Physical DMG Down",
     "nameZh": "物理傷害降低",
     "names": {
-      "ja": "Physical DMG Down",
-      "ko": "Physical DMG Down",
-      "th": "Physical DMG Down",
-      "vi": "Physical DMG Down",
+      "ja": "物理ダメージダウン",
+      "ko": "물리 피해 하락",
+      "th": "ลดดาเมจกายภาพ",
+      "vi": "Giảm Dame Vật Lý",
       "zh-cn": "物理伤害降低"
     },
     "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/buff_Pdmg_Down_Icon.webp",
@@ -1199,10 +1199,10 @@ export const GSA_STATUSES = {
     "name": "Energy Damage Down",
     "nameZh": "能量傷害降低",
     "names": {
-      "ja": "Energy Damage Down",
-      "ko": "Energy Damage Down",
-      "th": "Energy Damage Down",
-      "vi": "Energy Damage Down",
+      "ja": "エネルギーダメージダウン",
+      "ko": "에너지 피해 하락",
+      "th": "ลดดาเมจพลังงาน",
+      "vi": "Giảm Dame Năng Lượng",
       "zh-cn": "能量伤害降低"
     },
     "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/buff_Mdmg_Down_Icon.webp",
@@ -1216,10 +1216,10 @@ export const GSA_STATUSES = {
     "name": "Physical DMG Taken Up",
     "nameZh": "受到物理傷害提升",
     "names": {
-      "ja": "Physical DMG Taken Up",
-      "ko": "Physical DMG Taken Up",
-      "th": "Physical DMG Taken Up",
-      "vi": "Physical DMG Taken Up",
+      "ja": "物理被ダメージアップ",
+      "ko": "받는 물리 피해 증가",
+      "th": "เพิ่มดาเมจกายภาพที่ได้รับ",
+      "vi": "Tăng Dame Vật Lý Phải Chịu",
       "zh-cn": "受到物理伤害提升"
     },
     "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/buff_Prdc_Down_Icon.webp",
@@ -1233,10 +1233,10 @@ export const GSA_STATUSES = {
     "name": "Energy DMG Taken Up",
     "nameZh": "受到能量傷害提升",
     "names": {
-      "ja": "Energy DMG Taken Up",
-      "ko": "Energy DMG Taken Up",
-      "th": "Energy DMG Taken Up",
-      "vi": "Energy DMG Taken Up",
+      "ja": "エネルギー被ダメージアップ",
+      "ko": "받는 에너지 피해 증가",
+      "th": "เพิ่มดาเมจพลังงานที่ได้รับ",
+      "vi": "Tăng Dame Năng Lượng Phải Chịu",
       "zh-cn": "受到能量伤害提升"
     },
     "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/buff_Mrdc_Down_Icon.webp",
@@ -1250,10 +1250,10 @@ export const GSA_STATUSES = {
     "name": "Damage Decrease",
     "nameZh": "傷害降低",
     "names": {
-      "ja": "Damage Decrease",
-      "ko": "Damage Decrease",
-      "th": "Damage Decrease",
-      "vi": "Damage Decrease",
+      "ja": "与ダメージダウン",
+      "ko": "피해 하락",
+      "th": "ลดดาเมจ",
+      "vi": "Giảm Dame",
       "zh-cn": "伤害降低"
     },
     "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/buff_Dmg_Down_Icon.webp",
@@ -1267,10 +1267,10 @@ export const GSA_STATUSES = {
     "name": "Damage Taken Up",
     "nameZh": "受到傷害提升",
     "names": {
-      "ja": "Damage Taken Up",
-      "ko": "Damage Taken Up",
-      "th": "Damage Taken Up",
-      "vi": "Damage Taken Up",
+      "ja": "被ダメージアップ",
+      "ko": "받는 피해 증가",
+      "th": "เพิ่มดาเมจที่ได้รับ",
+      "vi": "Tăng Dame Phải Chịu",
       "zh-cn": "受到伤害提升"
     },
     "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/buff_Rdc_Down_Icon.webp",
@@ -1284,10 +1284,10 @@ export const GSA_STATUSES = {
     "name": "ACC Down",
     "nameZh": "命中降低",
     "names": {
-      "ja": "ACC Down",
-      "ko": "ACC Down",
-      "th": "ACC Down",
-      "vi": "ACC Down",
+      "ja": "命中ダウン",
+      "ko": "명중 하락",
+      "th": "ลดแม่นยำ",
+      "vi": "Giảm Đánh Trúng",
       "zh-cn": "命中降低"
     },
     "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/buff_Hit_Down_Icon.webp",
@@ -1301,10 +1301,10 @@ export const GSA_STATUSES = {
     "name": "Evasion Down",
     "nameZh": "閃避降低",
     "names": {
-      "ja": "Evasion Down",
-      "ko": "Evasion Down",
-      "th": "Evasion Down",
-      "vi": "Evasion Down",
+      "ja": "回避ダウン",
+      "ko": "회피 하락",
+      "th": "ลดหลบหลีก",
+      "vi": "Giảm Dodge",
       "zh-cn": "闪避降低"
     },
     "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/buff_Ddg_Down_Icon.webp",
@@ -1318,10 +1318,10 @@ export const GSA_STATUSES = {
     "name": "Crit Chance Down",
     "nameZh": "暴擊降低",
     "names": {
-      "ja": "Crit Chance Down",
-      "ko": "Crit Chance Down",
-      "th": "Crit Chance Down",
-      "vi": "Crit Chance Down",
+      "ja": "会心ダウン",
+      "ko": "치명 하락",
+      "th": "ลดโจมตีคริ",
+      "vi": "Giảm CRIT",
       "zh-cn": "暴击降低"
     },
     "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/buff_Crit_Down_Icon.webp",
@@ -1335,10 +1335,10 @@ export const GSA_STATUSES = {
     "name": "Crit Evasion Down",
     "nameZh": "暴擊閃避降低",
     "names": {
-      "ja": "Crit Evasion Down",
-      "ko": "Crit Evasion Down",
-      "th": "Crit Evasion Down",
-      "vi": "Crit Evasion Down",
+      "ja": "会心回避ダウン",
+      "ko": "치명타 회피 하락",
+      "th": "ลดหลบหลีกโจมตีคริ",
+      "vi": "Giảm Né CRIT",
       "zh-cn": "暴击闪避降低"
     },
     "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/buff_CritRst_Down_Icon.webp",
@@ -1352,10 +1352,10 @@ export const GSA_STATUSES = {
     "name": "Crit DMG Down",
     "nameZh": "暴擊傷害降低",
     "names": {
-      "ja": "Crit DMG Down",
-      "ko": "Crit DMG Down",
-      "th": "Crit DMG Down",
-      "vi": "Crit DMG Down",
+      "ja": "会心ダメージダウン",
+      "ko": "치명타 피해 하락",
+      "th": "ลดดาเมจโจมตีคริ",
+      "vi": "Giảm CRIT Dame",
       "zh-cn": "暴击伤害降低"
     },
     "icon": null,
@@ -1369,10 +1369,10 @@ export const GSA_STATUSES = {
     "name": "Block Penetration Down",
     "nameZh": "格擋無視降低",
     "names": {
-      "ja": "Block Penetration Down",
-      "ko": "Block Penetration Down",
-      "th": "Block Penetration Down",
-      "vi": "Block Penetration Down",
+      "ja": "ブロック無視ダウン",
+      "ko": "가드 무시 하락",
+      "th": "ลดเพิกเฉยบล็อก",
+      "vi": "Giảm Bỏ Qua Block",
       "zh-cn": "格挡无视降低"
     },
     "icon": null,
@@ -1386,10 +1386,10 @@ export const GSA_STATUSES = {
     "name": "Block Down",
     "nameZh": "格擋降低",
     "names": {
-      "ja": "Block Down",
-      "ko": "Block Down",
-      "th": "Block Down",
-      "vi": "Block Down",
+      "ja": "ブロックダウン",
+      "ko": "가드 하락",
+      "th": "ลดบล็อก",
+      "vi": "Giảm Block",
       "zh-cn": "格挡降低"
     },
     "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/buff_Blk_Down_Icon.webp",
@@ -1403,10 +1403,10 @@ export const GSA_STATUSES = {
     "name": "DMG Block Down",
     "nameZh": "格擋減傷降低",
     "names": {
-      "ja": "DMG Block Down",
-      "ko": "DMG Block Down",
-      "th": "DMG Block Down",
-      "vi": "DMG Block Down",
+      "ja": "ブロックダメ軽減ダウン",
+      "ko": "가드 피해 감소 하락",
+      "th": "ลดดาเมจบล็อคลดลง",
+      "vi": "Giảm Damage Block",
       "zh-cn": "格挡减伤降低"
     },
     "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/buff_BlkRdc_Down_Icon.webp",
@@ -1420,10 +1420,10 @@ export const GSA_STATUSES = {
     "name": "PHY PEN Down",
     "nameZh": "物理穿透降低",
     "names": {
-      "ja": "PHY PEN Down",
-      "ko": "PHY PEN Down",
-      "th": "PHY PEN Down",
-      "vi": "PHY PEN Down",
+      "ja": "物理貫通ダウン",
+      "ko": "물리 관통 하락",
+      "th": "ทะลวงกายภาพลดลง",
+      "vi": "Giảm PHY Penetration",
       "zh-cn": "物理穿透降低"
     },
     "icon": null,
@@ -1437,10 +1437,10 @@ export const GSA_STATUSES = {
     "name": "Energy PEN Down",
     "nameZh": "能量穿透降低",
     "names": {
-      "ja": "Energy PEN Down",
-      "ko": "Energy PEN Down",
-      "th": "Energy PEN Down",
-      "vi": "Energy PEN Down",
+      "ja": "エネルギー貫通ダウン",
+      "ko": "에너지 관통 하락",
+      "th": "ลดทะลวงพลังงาน",
+      "vi": "Giảm Xuyên Năng Lượng",
       "zh-cn": "能量穿透降低"
     },
     "icon": null,
@@ -1454,10 +1454,10 @@ export const GSA_STATUSES = {
     "name": "Healing Crit Down",
     "nameZh": "治療暴擊降低",
     "names": {
-      "ja": "Healing Crit Down",
-      "ko": "Healing Crit Down",
-      "th": "Healing Crit Down",
-      "vi": "Healing Crit Down",
+      "ja": "治療会心ダウン",
+      "ko": "치유 치명타 하락",
+      "th": "ลดโจมตีคริการรักษา",
+      "vi": "Giảm CRIT Hồi Máu",
       "zh-cn": "治疗暴击降低"
     },
     "icon": null,
@@ -1471,10 +1471,10 @@ export const GSA_STATUSES = {
     "name": "Healing Crit Bonus Down",
     "nameZh": "治療暴擊加成降低",
     "names": {
-      "ja": "Healing Crit Bonus Down",
-      "ko": "Healing Crit Bonus Down",
-      "th": "Healing Crit Bonus Down",
-      "vi": "Healing Crit Bonus Down",
+      "ja": "治療会心ボーナスダウン",
+      "ko": "치유 치명타 보너스 하락",
+      "th": "ลดโบนัสโจมตีคริการรักษา",
+      "vi": "Giảm Bonus CRIT Hồi Máu",
       "zh-cn": "治疗暴击加成降低"
     },
     "icon": null,
@@ -1488,10 +1488,10 @@ export const GSA_STATUSES = {
     "name": "Healing Down",
     "nameZh": "治療效果降低",
     "names": {
-      "ja": "Healing Down",
-      "ko": "Healing Down",
-      "th": "Healing Down",
-      "vi": "Healing Down",
+      "ja": "治療効果ダウン",
+      "ko": "치유 효과 하락",
+      "th": "ลดเอฟเฟกต์การรักษา",
+      "vi": "Giảm Hiệu Quả Trị Liệu",
       "zh-cn": "治疗效果降低"
     },
     "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/buff_Heal_Down_Icon.webp",
@@ -1505,10 +1505,10 @@ export const GSA_STATUSES = {
     "name": "Healing Received Down",
     "nameZh": "受治療效果降低",
     "names": {
-      "ja": "Healing Received Down",
-      "ko": "Healing Received Down",
-      "th": "Healing Received Down",
-      "vi": "Healing Received Down",
+      "ja": "被治療効果ダウン",
+      "ko": "받는 치유 효과 하락",
+      "th": "ลดเอฟเฟกต์การรักษาที่ได้รับ",
+      "vi": "Giảm Hiệu Quả Trị Liệu Nhận Được",
       "zh-cn": "受治疗效果降低"
     },
     "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/buff_RecHeal_Down_Icon.webp",
@@ -1522,10 +1522,10 @@ export const GSA_STATUSES = {
     "name": "EN Gain Down",
     "nameZh": "EN值獲取降低",
     "names": {
-      "ja": "EN Gain Down",
-      "ko": "EN Gain Down",
-      "th": "EN Gain Down",
-      "vi": "EN Gain Down",
+      "ja": "EN値獲得ダウン",
+      "ko": "EN 획득 하락",
+      "th": "ลดได้รับค่า EN",
+      "vi": "Giảm Nhận EN",
       "zh-cn": "EN值获取降低"
     },
     "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/buff_ManaAmp_Down_Icon.webp",
@@ -1539,10 +1539,10 @@ export const GSA_STATUSES = {
     "name": "ATK SPD Down",
     "nameZh": "攻擊速度降低",
     "names": {
-      "ja": "ATK SPD Down",
-      "ko": "ATK SPD Down",
-      "th": "ATK SPD Down",
-      "vi": "ATK SPD Down",
+      "ja": "攻撃速度ダウン",
+      "ko": "공격속도 하락",
+      "th": "ลดสปีดโจมตี",
+      "vi": "Giảm ATK SPD",
       "zh-cn": "攻击速度降低"
     },
     "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/buff_AtkHaste_Down_Icon.webp",
@@ -1556,10 +1556,10 @@ export const GSA_STATUSES = {
     "name": "Cooldown Increased",
     "nameZh": "冷卻時間延長",
     "names": {
-      "ja": "Cooldown Increased",
-      "ko": "Cooldown Increased",
-      "th": "Cooldown Increased",
-      "vi": "Cooldown Increased",
+      "ja": "クールタイム増加",
+      "ko": "쿨타임 증가",
+      "th": "ยืดเวลา CD",
+      "vi": "Kéo dài CD",
       "zh-cn": "冷却时间延长"
     },
     "icon": null,
@@ -1573,10 +1573,10 @@ export const GSA_STATUSES = {
     "name": "Wind ATK Down",
     "nameZh": "風屬性攻擊降低",
     "names": {
-      "ja": "Wind ATK Down",
-      "ko": "Wind ATK Down",
-      "th": "Wind ATK Down",
-      "vi": "Wind ATK Down",
+      "ja": "風属性攻撃ダウン",
+      "ko": "풍 속성 공격 하락",
+      "th": "ลดโจมตีธาตุลม",
+      "vi": "Giảm ATK Hệ Phong",
       "zh-cn": "风属性攻击降低"
     },
     "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/buff_WindAtk_Down_Icon.webp",
@@ -1590,10 +1590,10 @@ export const GSA_STATUSES = {
     "name": "Earth ATK Down",
     "nameZh": "土屬性攻擊降低",
     "names": {
-      "ja": "Earth ATK Down",
-      "ko": "Earth ATK Down",
-      "th": "Earth ATK Down",
-      "vi": "Earth ATK Down",
+      "ja": "土属性攻撃ダウン",
+      "ko": "흙 속성 공격 하락",
+      "th": "ลดโจมตีธาตุดิน",
+      "vi": "Giảm ATK Hệ Thổ",
       "zh-cn": "土属性攻击降低"
     },
     "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/buff_EarthAtk_Down_Icon.webp",
@@ -1607,10 +1607,10 @@ export const GSA_STATUSES = {
     "name": "Fire ATK Down",
     "nameZh": "火屬性攻擊降低",
     "names": {
-      "ja": "Fire ATK Down",
-      "ko": "Fire ATK Down",
-      "th": "Fire ATK Down",
-      "vi": "Fire ATK Down",
+      "ja": "火属性攻撃ダウン",
+      "ko": "불 속성 공격 하락",
+      "th": "ลดโจมตีธาตุไฟ",
+      "vi": "Giảm ATK Hệ Hỏa",
       "zh-cn": "火属性攻击降低"
     },
     "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/buff_FireAtk_Down_Icon.webp",
@@ -1624,10 +1624,10 @@ export const GSA_STATUSES = {
     "name": "Water ATK Down",
     "nameZh": "水屬性攻擊降低",
     "names": {
-      "ja": "Water ATK Down",
-      "ko": "Water ATK Down",
-      "th": "Water ATK Down",
-      "vi": "Water ATK Down",
+      "ja": "水属性攻撃ダウン",
+      "ko": "물 속성 공격 하락",
+      "th": "ลดโจมตีธาตุน้ำ",
+      "vi": "Giảm ATK Hệ Thủy",
       "zh-cn": "水属性攻击降低"
     },
     "icon": null,
@@ -1641,10 +1641,10 @@ export const GSA_STATUSES = {
     "name": "Light ATK Down",
     "nameZh": "光屬性攻擊降低",
     "names": {
-      "ja": "Light ATK Down",
-      "ko": "Light ATK Down",
-      "th": "Light ATK Down",
-      "vi": "Light ATK Down",
+      "ja": "光属性攻撃ダウン",
+      "ko": "빛 속성 공격 하락",
+      "th": "ลดโจมตีธาตุแสง",
+      "vi": "Giảm ATK Hệ Quang",
       "zh-cn": "光属性攻击降低"
     },
     "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/buff_LightAtk_Down_Icon.webp",
@@ -1658,10 +1658,10 @@ export const GSA_STATUSES = {
     "name": "Dark ATK Down",
     "nameZh": "闇屬性攻擊降低",
     "names": {
-      "ja": "Dark ATK Down",
-      "ko": "Dark ATK Down",
-      "th": "Dark ATK Down",
-      "vi": "Dark ATK Down",
+      "ja": "闇属性攻撃ダウン",
+      "ko": "암 속성 공격 하락",
+      "th": "ลดโจมตีธาตุมืด",
+      "vi": "Giảm ATK Hệ Tối",
       "zh-cn": "暗属性攻击降低"
     },
     "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/buff_DarkAtk_Down_Icon.webp",
@@ -1675,10 +1675,10 @@ export const GSA_STATUSES = {
     "name": "Wind Res Down",
     "nameZh": "風屬性抗性降低",
     "names": {
-      "ja": "Wind Res Down",
-      "ko": "Wind Res Down",
-      "th": "Wind Res Down",
-      "vi": "Wind Res Down",
+      "ja": "風属性耐性ダウン",
+      "ko": "풍 속성 저항 하락",
+      "th": "ลดต้านทานธาตุลม",
+      "vi": "Giảm Kháng Hệ Phong",
       "zh-cn": "风属性抗性降低"
     },
     "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/buff_WindRes_Down_Icon.webp",
@@ -1692,10 +1692,10 @@ export const GSA_STATUSES = {
     "name": "Earth Res Down",
     "nameZh": "土屬性抗性降低",
     "names": {
-      "ja": "Earth Res Down",
-      "ko": "Earth Res Down",
-      "th": "Earth Res Down",
-      "vi": "Earth Res Down",
+      "ja": "土属性耐性ダウン",
+      "ko": "흙 속성 저항 하락",
+      "th": "ลดต้านทานธาตุดิน",
+      "vi": "Giảm Kháng Hệ Thổ",
       "zh-cn": "土属性抗性降低"
     },
     "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/buff_EarthRes_Down_Icon.webp",
@@ -1709,10 +1709,10 @@ export const GSA_STATUSES = {
     "name": "Fire Res Down",
     "nameZh": "火屬性抗性降低",
     "names": {
-      "ja": "Fire Res Down",
-      "ko": "Fire Res Down",
-      "th": "Fire Res Down",
-      "vi": "Fire Res Down",
+      "ja": "火属性耐性ダウン",
+      "ko": "불 속성 저항 하락",
+      "th": "ลดต้านทานธาตุไฟ",
+      "vi": "Giảm Kháng Hệ Hỏa",
       "zh-cn": "火属性抗性降低"
     },
     "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/buff_FireRes_Down_Icon.webp",
@@ -1726,10 +1726,10 @@ export const GSA_STATUSES = {
     "name": "Water Res Down",
     "nameZh": "水屬性抗性降低",
     "names": {
-      "ja": "Water Res Down",
-      "ko": "Water Res Down",
-      "th": "Water Res Down",
-      "vi": "Water Res Down",
+      "ja": "水属性耐性ダウン",
+      "ko": "물 속성 저항 하락",
+      "th": "ลดต้านทานธาตุน้ำ",
+      "vi": "Giảm Kháng Hệ Thủy",
       "zh-cn": "水属性抗性降低"
     },
     "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/buff_WaterRes_Down_Icon.webp",
@@ -1743,10 +1743,10 @@ export const GSA_STATUSES = {
     "name": "Light Res Down",
     "nameZh": "光屬性抗性降低",
     "names": {
-      "ja": "Light Res Down",
-      "ko": "Light Res Down",
-      "th": "Light Res Down",
-      "vi": "Light Res Down",
+      "ja": "光属性耐性ダウン",
+      "ko": "빛 속성 저항 하락",
+      "th": "ลดต้านทานธาตุแสง",
+      "vi": "Giảm Kháng Hệ Quang",
       "zh-cn": "光属性抗性降低"
     },
     "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/buff_LightRes_Down_Icon.webp",
@@ -1760,10 +1760,10 @@ export const GSA_STATUSES = {
     "name": "Dark Res Down",
     "nameZh": "闇屬性抗性降低",
     "names": {
-      "ja": "Dark Res Down",
-      "ko": "Dark Res Down",
-      "th": "Dark Res Down",
-      "vi": "Dark Res Down",
+      "ja": "闇属性耐性ダウン",
+      "ko": "암 속성 저항 하락",
+      "th": "ลดต้านทานธาตุมืด",
+      "vi": "Giảm Kháng Hệ Tối",
       "zh-cn": "暗属性抗性降低"
     },
     "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/buff_DarkRes_Down_Icon.webp",
@@ -1777,10 +1777,10 @@ export const GSA_STATUSES = {
     "name": "Basic Damage Up",
     "nameZh": "普攻傷害提升",
     "names": {
-      "ja": "Basic Damage Up",
-      "ko": "Basic Damage Up",
-      "th": "Basic Damage Up",
-      "vi": "Basic Damage Up",
+      "ja": "通常攻撃ダメージアップ",
+      "ko": "일반 공격 피해 상승",
+      "th": "เพิ่มดาเมจพื้นฐาน",
+      "vi": "Tăng Dame Đánh Thường",
       "zh-cn": "普攻伤害提升"
     },
     "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/buff_normalAtk_Up_Icon.webp",
@@ -1794,10 +1794,10 @@ export const GSA_STATUSES = {
     "name": "Basic Attack Damage Taken Decreased",
     "nameZh": "受到普攻傷害降低",
     "names": {
-      "ja": "Basic Attack Damage Taken Decreased",
-      "ko": "Basic Attack Damage Taken Decreased",
-      "th": "Basic Attack Damage Taken Decreased",
-      "vi": "Basic Attack Damage Taken Decreased",
+      "ja": "通常攻撃被ダメージダウン",
+      "ko": "받는 일반 공격 피해 하락",
+      "th": "ลดดาเมจพื้นฐานที่ได้รับ",
+      "vi": "Giảm Dame Đánh Thường phải chịu",
       "zh-cn": "受到普攻伤害降低"
     },
     "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/buff_normalAtkRdc_Up_Icon.webp",
@@ -1811,10 +1811,10 @@ export const GSA_STATUSES = {
     "name": "Skill Damage Up",
     "nameZh": "技能傷害提升",
     "names": {
-      "ja": "Skill Damage Up",
-      "ko": "Skill Damage Up",
-      "th": "Skill Damage Up",
-      "vi": "Skill Damage Up",
+      "ja": "スキルダメージアップ",
+      "ko": "스킬 피해 상승",
+      "th": "เพิ่มดาเมจสกิล",
+      "vi": "Tăng Dame Kỹ Năng",
       "zh-cn": "技能伤害提升"
     },
     "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/buff_skillAtk_Up_Icon.webp",
@@ -1828,10 +1828,10 @@ export const GSA_STATUSES = {
     "name": "Skill Damage Taken Decreased",
     "nameZh": "受到技能傷害降低",
     "names": {
-      "ja": "Skill Damage Taken Decreased",
-      "ko": "Skill Damage Taken Decreased",
-      "th": "Skill Damage Taken Decreased",
-      "vi": "Skill Damage Taken Decreased",
+      "ja": "スキル被ダメージダウン",
+      "ko": "받는 스킬 피해 하락",
+      "th": "ลดดาเมจสกิลที่ได้รับ",
+      "vi": "Giảm Dame Kỹ Năng phải chịu",
       "zh-cn": "受到技能伤害降低"
     },
     "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/buff_skillAtkRdc_Up_Icon.webp",
@@ -1845,10 +1845,10 @@ export const GSA_STATUSES = {
     "name": "Basic Damage Down",
     "nameZh": "普攻傷害降低",
     "names": {
-      "ja": "Basic Damage Down",
-      "ko": "Basic Damage Down",
-      "th": "Basic Damage Down",
-      "vi": "Basic Damage Down",
+      "ja": "通常攻撃ダメージダウン",
+      "ko": "일반 공격 피해 하락",
+      "th": "ลดดาเมจพื้นฐาน",
+      "vi": "Giảm Dame Đánh Thường",
       "zh-cn": "普攻伤害降低"
     },
     "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/buff_normalAtk_Down_Icon.webp",
@@ -1862,10 +1862,10 @@ export const GSA_STATUSES = {
     "name": "Basic ATK DMG Taken Up",
     "nameZh": "受到普攻傷害提升",
     "names": {
-      "ja": "Basic ATK DMG Taken Up",
-      "ko": "Basic ATK DMG Taken Up",
-      "th": "Basic ATK DMG Taken Up",
-      "vi": "Basic ATK DMG Taken Up",
+      "ja": "通常攻撃被ダメージアップ",
+      "ko": "받는 일반 공격 피해 증가",
+      "th": "เพิ่มดาเมจโจมตีพื้นฐานที่ได้รับ",
+      "vi": "Tăng Dame Thường Phải Chịu",
       "zh-cn": "受到普攻伤害提升"
     },
     "icon": null,
@@ -1879,10 +1879,10 @@ export const GSA_STATUSES = {
     "name": "Skill Damage Down",
     "nameZh": "技能傷害降低",
     "names": {
-      "ja": "Skill Damage Down",
-      "ko": "Skill Damage Down",
-      "th": "Skill Damage Down",
-      "vi": "Skill Damage Down",
+      "ja": "スキルダメージダウン",
+      "ko": "스킬 피해 하락",
+      "th": "ลดดาเมจสกิล",
+      "vi": "Giảm Dame Kỹ Năng",
       "zh-cn": "技能伤害降低"
     },
     "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/buff_skillAtk_Down_Icon.webp",
@@ -1896,10 +1896,10 @@ export const GSA_STATUSES = {
     "name": "Skill DMG Taken Up",
     "nameZh": "受到技能傷害提升",
     "names": {
-      "ja": "Skill DMG Taken Up",
-      "ko": "Skill DMG Taken Up",
-      "th": "Skill DMG Taken Up",
-      "vi": "Skill DMG Taken Up",
+      "ja": "スキル被ダメージアップ",
+      "ko": "받는 스킬 피해 증가",
+      "th": "เพิ่มดาเมจสกิลที่ได้รับ",
+      "vi": "Tăng Dame Skill Phải Chịu",
       "zh-cn": "受到技能伤害提升"
     },
     "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/buff_skillAtkRdc_Down_Icon.webp",
@@ -1913,10 +1913,10 @@ export const GSA_STATUSES = {
     "name": "Counter Attack",
     "nameZh": "反制",
     "names": {
-      "ja": "Counter Attack",
-      "ko": "Counter Attack",
-      "th": "Counter Attack",
-      "vi": "Counter Attack",
+      "ja": "カウンター",
+      "ko": "반격",
+      "th": "ตอบโต้",
+      "vi": "Phản Chế",
       "zh-cn": "反制"
     },
     "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/buff_Counter_Icon.webp",

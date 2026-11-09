@@ -133,6 +133,14 @@ const myStatusesZh = (GSA_CHAR_STATUSES[slug] || [])
   .map(id => GSA_STATUSES[id])
   .filter(Boolean)
   .sort((a, b) => (a.kind === b.kind ? a.name.localeCompare(b.name) : a.kind === 'debuff' ? -1 : 1));
+
+// 技能狀態小籤依名稱反查狀態目錄，附官方圖示並連結到下方說明磚。
+const statusByNameZh = {};
+for (const st of Object.values(GSA_STATUSES)) {
+  statusByNameZh[st.name] = st;
+  if (st.nameZh) statusByNameZh[st.nameZh] = st;
+  for (const n of Object.values(st.names || {})) statusByNameZh[n] = st;
+}
 // 官方 EN 數值說明 -> 官方繁中說明（反查），找不到就不顯示小字。
 const zhDesc = enLabel => {
   const en = gsaPropertyTypes[enLabel];
@@ -594,7 +602,12 @@ const growth = c.growth || { rate: 1, hp: [0, 0, 0, 0, 0, 0], atk: [0, 0, 0, 0, 
                 )}
                 {s.statuses?.length ? (
                   <div class="gsa-skill-statuses">
-                    {s.statuses.map(st => <span class="gsa-chip solid-muted">{st}</span>)}
+                    {s.statuses.map(st => {
+                      const e = statusByNameZh[st];
+                      return e
+                        ? <a class="gsa-chip solid-muted gsa-status-chip" href={`#gsa-st-${e.id}`}>{e.icon && <img src={e.icon} alt="" width="16" height="16" loading="lazy" />}{st}</a>
+                        : <span class="gsa-chip solid-muted">{st}</span>;
+                    })}
                   </div>
                 ) : null}
               </div>
@@ -622,7 +635,7 @@ const growth = c.growth || { rate: 1, hp: [0, 0, 0, 0, 0, 0], atk: [0, 0, 0, 0, 
         </p>
         <div class="gsa-status-grid">
           {myStatusesZh.map(st => (
-            <div class={`gsa-status-tile gsa-status-${st.kind}`}>
+            <div class={`gsa-status-tile gsa-status-${st.kind}`} id={`gsa-st-${st.id}`}>
               <span class="gsa-status-head">
                 {st.icon ? (
                   <img class="gsa-status-icon" src={st.icon} alt={st.nameZh} width="28" height="28" loading="lazy" />
