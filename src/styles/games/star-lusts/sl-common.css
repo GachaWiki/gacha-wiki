@@ -1,0 +1,609 @@
+/* Star Lusts shared styles (PINKCORE R18 bullet hell shmup).
+   Palette from the official site: deep space #080818 backgrounds,
+   lavender #BFA9FF accent, periwinkle #6878c8 secondary. */
+
+:root {
+  --sl-bg: #080818;
+  --sl-bg-raised: rgba(191, 169, 255, 0.05);
+  --sl-card: rgba(255, 255, 255, 0.04);
+  --sl-border: #2c2c48;
+  --sl-accent: #bfa9ff;
+  --sl-accent-dim: #8f7cc4;
+  --sl-text-primary: #e8e6f2;
+  --sl-text-muted: #8b89a6;
+  --sl-radius: 10px;
+}
+
+.sl-body {
+  background: var(--sl-bg);
+  color: var(--sl-text-primary);
+}
+
+.bg-layer.sl-bg-primary {
+  background:
+    radial-gradient(ellipse 80% 50% at 70% -10%, rgba(104, 120, 200, 0.16), transparent 60%),
+    radial-gradient(ellipse 60% 40% at 10% 110%, rgba(131, 3, 114, 0.12), transparent 55%);
+  z-index: 0;
+}
+
+.bg-layer.sl-bg-accent-1 {
+  background: radial-gradient(circle at 85% 20%, rgba(191, 169, 255, 0.08), transparent 45%);
+  z-index: 0;
+}
+
+.bg-layer.sl-bg-accent-2 {
+  background: radial-gradient(circle at 15% 80%, rgba(104, 120, 200, 0.07), transparent 40%);
+  z-index: 0;
+}
+
+.sl-content {
+  position: relative;
+  z-index: 1;
+}
+
+.sl-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 24px 20px 60px;
+}
+
+.sl-main {
+  min-height: 60vh;
+  position: relative;
+}
+
+/* page title: accent, heavy */
+.sl-page-title {
+  font-size: var(--text-4xl);
+  font-weight: 700;
+  color: var(--sl-accent);
+  margin: 18px 0 14px;
+  letter-spacing: 0.01em;
+}
+
+/* section titles inside pages */
+.sl-section-title {
+  font-size: var(--text-2xl);
+  font-weight: 700;
+  color: var(--sl-accent);
+  margin: 34px 0 14px;
+}
+
+/* labels: accent, semibold, smaller */
+.sl-label {
+  font-size: var(--text-sm);
+  font-weight: 600;
+  color: var(--sl-accent);
+}
+
+/* muted captions */
+.sl-caption {
+  font-size: var(--text-sm);
+  color: var(--sl-text-muted);
+}
+
+/* meta line under card titles: plain primary text, no pills */
+.sl-meta {
+  font-size: var(--text-sm);
+  color: var(--sl-text-primary);
+  font-weight: 400;
+}
+
+/* ---- static hero background: game title screen key art, dimmed (BD2 band pattern) ---- */
+.sl-hero-bg {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100vw;
+  height: 70vh;
+  pointer-events: none;
+  z-index: 0;
+  background-image: url('https://k2b1c5ab57ed98e51.gachawiki.info/star-lusts/gameimg/title-bg-wide.webp');
+  background-size: cover;
+  background-position: 50% 50%;
+  opacity: 0.4;
+  -webkit-mask-image: linear-gradient(to bottom, #000 0%, #000 22%, transparent 82%);
+  mask-image: linear-gradient(to bottom, #000 0%, #000 22%, transparent 82%);
+}
+
+@media (max-width: 720px) {
+  .sl-hero-bg {
+    height: 45vh;
+  }
+}
+
+/* ---- landing (standard wiki landing: hero, story, download, resources) ---- */
+.sl-hero-section {
+  position: relative;
+  z-index: 1;
+  min-height: 46vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 2.5rem 1rem 2rem;
+  margin-bottom: 1rem;
+}
+
+.sl-hero-logo {
+  width: min(300px, 70vw);
+  height: auto;
+  margin-bottom: 1rem;
+}
+
+.sl-hero-title {
+  margin: 0;
+  font-size: var(--text-5xl);
+  font-weight: 800;
+  color: var(--sl-accent);
+  text-shadow: 0 2px 24px rgba(0, 0, 0, 0.8);
+}
+
+.sl-hero-tag {
+  margin: 10px 0 0;
+  font-size: var(--text-md);
+  color: var(--sl-text-primary);
+  max-width: 560px;
+  text-shadow: 0 1px 12px rgba(0, 0, 0, 0.9);
+}
+
+.sl-content-section {
+  position: relative;
+  z-index: 1;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  background: var(--sl-card);
+  border-radius: 16px;
+  border: 1px solid var(--sl-border);
+}
+
+@media (max-width: 720px) {
+  .sl-content-section {
+    padding: 1rem;
+  }
+}
+
+.sl-story {
+  max-width: 800px;
+  margin: 0 auto 2rem;
+}
+
+.sl-story p {
+  color: var(--sl-text-muted);
+  line-height: 1.8;
+  margin-bottom: 1rem;
+  font-size: var(--text-base);
+}
+
+.sl-story strong {
+  color: var(--sl-accent);
+  font-weight: 600;
+}
+
+.sl-download-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.sl-download-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: var(--sl-accent);
+  color: #14102a;
+  font-weight: 700;
+  font-size: var(--text-base);
+  padding: 0.85rem 1.75rem;
+  border-radius: 10px;
+  text-decoration: none;
+  border: 1px solid var(--sl-accent);
+}
+
+.sl-download-arrow {
+  font-size: var(--text-lg);
+}
+
+.sl-last-updated {
+  text-align: center;
+  font-size: var(--text-xs);
+  color: var(--sl-text-muted);
+  margin: 1.5rem 0 0;
+}
+
+.sl-resources-heading {
+  font-size: var(--text-4xl);
+  margin: 0 0 1rem;
+  font-weight: 700;
+  text-align: center;
+  color: var(--sl-accent);
+}
+
+.sl-resources-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1.2rem;
+  margin-top: 2rem;
+  width: 100%;
+}
+
+.sl-resource-category {
+  background: var(--sl-card);
+  padding: 2rem;
+  border-radius: 16px;
+  border: 1px solid var(--sl-border);
+  display: flex;
+  flex-direction: column;
+}
+
+.sl-category-header {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.sl-category-header h3 {
+  color: var(--sl-text-primary);
+  margin: 0 0 0.5rem 0;
+  font-size: var(--text-xl);
+  font-weight: 700;
+}
+
+.sl-category-description {
+  color: var(--sl-text-muted);
+  font-size: var(--text-md);
+  margin: 0;
+  line-height: 1.4;
+}
+
+.sl-buttons-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  grid-auto-rows: 72px;
+  gap: 0.75rem;
+  flex: 1;
+}
+
+.sl-resource-button {
+  box-sizing: border-box;
+  color: var(--sl-text-primary);
+  text-decoration: none;
+  padding: 1rem;
+  border-radius: 12px;
+  background: var(--sl-bg-raised);
+  border: 1px solid var(--sl-border);
+  font-size: var(--text-md);
+  font-weight: 500;
+  text-align: center;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow-wrap: break-word;
+}
+
+/* ---- info page sections (boxed like landing sections) ---- */
+.sl-info-container {
+  max-width: 62rem;
+}
+
+.sl-section {
+  background: var(--sl-card);
+  border: 1px solid var(--sl-border);
+  border-radius: 16px;
+  padding: 1.5rem 1.75rem;
+  margin-bottom: 1.4rem;
+  position: relative;
+  z-index: 1;
+}
+
+.sl-section-sub {
+  font-size: var(--text-sm);
+  color: var(--sl-text-muted);
+  margin: -6px 0 16px;
+}
+
+.sl-facts-list {
+  margin: 0;
+  border-top: 1px solid var(--sl-border);
+}
+
+.sl-fact-row {
+  display: grid;
+  grid-template-columns: 190px 1fr;
+  gap: 0.2rem 1.5rem;
+  padding: 0.8rem 0;
+  border-bottom: 1px solid var(--sl-border);
+}
+
+.sl-fact-label {
+  font-size: var(--text-xs);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--sl-accent);
+  font-weight: 600;
+  padding-top: 0.2rem;
+}
+
+.sl-fact-value {
+  margin: 0;
+  font-weight: 700;
+  color: var(--sl-text-primary);
+  font-size: var(--text-base);
+  line-height: 1.5;
+}
+
+.sl-fact-sub {
+  display: block;
+  font-size: var(--text-sm);
+  font-weight: 400;
+  color: var(--sl-text-muted);
+  margin-top: 0.15rem;
+}
+
+.sl-info-h3 {
+  font-size: var(--text-lg);
+  font-weight: 700;
+  color: var(--sl-accent);
+  margin: 1.6rem 0 0.5rem;
+}
+
+.sl-info-p {
+  font-size: var(--text-base);
+  line-height: 1.75;
+  color: var(--sl-text-primary);
+  margin: 0 0 0.8rem;
+  max-width: 52rem;
+}
+
+/* ---- character database ---- */
+.sl-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+  margin: 6px 0 20px;
+}
+
+.sl-search {
+  background: var(--sl-card);
+  border: 1px solid var(--sl-border);
+  border-radius: 8px;
+  color: var(--sl-text-primary);
+  font-size: var(--text-sm);
+  padding: 8px 12px;
+  width: 220px;
+}
+
+.sl-search:focus {
+  outline: 1px solid var(--sl-accent-dim);
+}
+
+/* filter buttons: interactive controls (allowed styling) */
+.sl-filter-btn {
+  background: var(--sl-card);
+  border: 1px solid var(--sl-border);
+  border-radius: 8px;
+  color: var(--sl-text-muted);
+  font-size: var(--text-sm);
+  font-weight: 600;
+  padding: 7px 14px;
+  cursor: pointer;
+}
+
+.sl-filter-btn.active {
+  background: rgba(191, 169, 255, 0.16);
+  border-color: var(--sl-accent-dim);
+  color: var(--sl-accent);
+}
+
+.sl-count {
+  font-size: var(--text-sm);
+  color: var(--sl-text-muted);
+  margin-left: auto;
+}
+
+.sl-char-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 12px;
+}
+
+.sl-char-card {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  background: var(--sl-card);
+  border: 1px solid var(--sl-border);
+  border-radius: var(--sl-radius);
+  padding: 12px;
+  text-decoration: none;
+}
+
+.sl-char-icon {
+  width: 96px;
+  height: 96px;
+  border-radius: 10px;
+  object-fit: cover;
+  background: var(--sl-bg-raised);
+  align-self: center;
+}
+
+.sl-char-name {
+  font-size: var(--text-sm);
+  font-weight: 600;
+  color: var(--sl-text-primary);
+  line-height: 1.35;
+  text-align: center;
+  min-height: 2.7em;
+}
+
+.sl-char-meta {
+  font-size: var(--text-xs);
+  color: var(--sl-text-muted);
+  text-align: center;
+}
+
+.sl-no-results {
+  display: none;
+  text-align: center;
+  color: var(--sl-text-muted);
+  font-size: var(--text-base);
+  padding: 40px 0;
+}
+
+/* ---- character detail ---- */
+.sl-detail {
+  display: grid;
+  grid-template-columns: 220px 1fr;
+  gap: 26px;
+  margin-top: 8px;
+}
+
+.sl-portrait-wrap {
+  background: var(--sl-card);
+  border: 1px solid var(--sl-border);
+  border-radius: var(--sl-radius);
+  padding: 12px;
+  align-self: start;
+  text-align: center;
+}
+
+.sl-portrait {
+  width: 100%;
+  max-width: 196px;
+  height: auto;
+  border-radius: 8px;
+}
+
+.sl-portrait-caption {
+  margin-top: 10px;
+}
+
+.sl-detail-name {
+  font-size: var(--text-3xl);
+  font-weight: 700;
+  color: var(--sl-text-primary);
+  margin-bottom: 6px;
+}
+
+.sl-profile-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 10px;
+  margin-top: 14px;
+}
+
+.sl-profile-item {
+  background: var(--sl-card);
+  border: 1px solid var(--sl-border);
+  border-radius: 8px;
+  padding: 10px 12px;
+}
+
+.sl-profile-item .sl-label {
+  display: block;
+  margin-bottom: 4px;
+}
+
+.sl-profile-value {
+  font-size: var(--text-sm);
+  color: var(--sl-text-primary);
+  font-weight: 500;
+}
+
+.sl-stats-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: var(--text-sm);
+}
+
+.sl-stats-table th,
+.sl-stats-table td {
+  text-align: left;
+  padding: 8px 12px;
+  border-bottom: 1px solid var(--sl-border);
+}
+
+.sl-stats-table th {
+  color: var(--sl-accent);
+  font-weight: 600;
+}
+
+.sl-stats-table td {
+  color: var(--sl-text-primary);
+  font-weight: 500;
+}
+
+.sl-skill-block {
+  background: var(--sl-card);
+  border: 1px solid var(--sl-border);
+  border-radius: var(--sl-radius);
+  padding: 16px 18px;
+  margin-bottom: 14px;
+}
+
+.sl-skill-name {
+  font-size: var(--text-lg);
+  font-weight: 700;
+  color: var(--sl-accent);
+  margin-bottom: 4px;
+}
+
+.sl-skill-type {
+  font-size: var(--text-xs);
+  color: var(--sl-text-muted);
+  margin-bottom: 8px;
+}
+
+.sl-skill-desc {
+  font-size: var(--text-sm);
+  line-height: 1.65;
+  color: var(--sl-text-primary);
+  white-space: pre-line;
+}
+
+.sl-desc-lore {
+  font-size: var(--text-base);
+  line-height: 1.7;
+  color: var(--sl-text-primary);
+}
+
+@media (max-width: 720px) {
+  .sl-fact-row {
+    grid-template-columns: 1fr;
+    gap: 0.15rem;
+    padding: 0.7rem 0;
+  }
+
+  .sl-detail {
+    grid-template-columns: 1fr;
+  }
+
+  .sl-portrait-wrap {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    text-align: left;
+  }
+
+  .sl-portrait {
+    width: 128px;
+  }
+
+  .sl-char-grid {
+    grid-template-columns: repeat(auto-fill, minmax(124px, 1fr));
+  }
+
+  .sl-search {
+    width: 100%;
+  }
+
+  .sl-count {
+    width: 100%;
+    margin: 0;
+  }
+}

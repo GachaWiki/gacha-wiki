@@ -1,0 +1,99 @@
+---
+// Star Lusts landing (standard wiki landing: hero, story, download, resources).
+import StarLustsLayout from '../../../layouts/star-lusts/StarLustsLayout.astro';
+import FormattedDate from '../../../components/FormattedDate.astro';
+import DiscordPromo from '../../../components/DiscordPromo.astro';
+import { STAR_LUSTS_CHARACTERS } from '../../../data/star-lusts/characters.js';
+
+const R2 = 'https://k2b1c5ab57ed98e51.gachawiki.info/star-lusts';
+const unitCount = STAR_LUSTS_CHARACTERS.length;
+const ssrCount = STAR_LUSTS_CHARACTERS.filter(c => c.rarity === 'SSR').length;
+---
+
+<StarLustsLayout
+  title="Home"
+  description="Star Lusts wiki: the R18 bullet hell shoot 'em up RPG by PINKCORE on EROLABS. Character database with stats, skills and profiles, built from extracted game data."
+>
+  <!-- Static hero background: the game's own title screen key art, dimmed -->
+  <div class="sl-hero-bg" aria-hidden="true"></div>
+
+  <section class="sl-hero-section sl-hero-over-video">
+    <img src={`${R2}/gameimg/gameicon.webp`} alt="Star Lusts" width={326} height={142} class="sl-hero-logo" />
+    <h1 class="sl-hero-title">Star Lusts</h1>
+    <p class="sl-hero-tag">
+      R18 bullet hell shoot 'em up RPG by PINKCORE. Sortie with Cadettes and Mimics against
+      the alien insurgency.
+    </p>
+  </section>
+
+  <section class="sl-content-section">
+    <div class="sl-story">
+      <p>
+        <strong>Star Lusts</strong> is an adult bullet hell shoot 'em up developed by
+        PINKCORE Inc. and published on EROLABS, fusing sci-fi, mecha and monster girl
+        themes. You command a crew protecting humanity from an alien insurgency, dodging
+        and weaving through bullet hell stages that mix shmup dodging with RPG stat
+        growth.
+      </p>
+      <p>
+        The roster counts {unitCount} playable units ({ssrCount} SSR): base girls and their
+        costume variants across two factions, the Cadettes of the Earth Federation and the
+        Mimics, primordial courtesans created by the ancient gods. Each unit is a live
+        Spine animated character with her own active skill, passive and five elements to
+        build around: Void, Stellergy, Physical, Aether and Ectoplasm.
+      </p>
+    </div>
+
+    <div class="sl-download-row">
+      <a
+        class="sl-download-btn"
+        href="https://game.erolabsshare.live/app/f302f717/Star_Lusts"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Download &amp; Play Star Lusts
+        <span class="sl-download-arrow">&rarr;</span>
+      </a>
+    </div>
+
+    <DiscordPromo />
+
+    <p class="sl-last-updated">
+      Last Updated: <FormattedDate date={new Date('2026-11-08')} />
+    </p>
+  </section>
+
+  <section class="sl-content-section">
+    <h2 class="sl-resources-heading">Guides &amp; Resources</h2>
+    <div class="sl-resources-grid">
+      <div class="sl-resource-category">
+        <div class="sl-category-header">
+          <h3>Characters</h3>
+          <p class="sl-category-description">
+            All {unitCount} units with rarity, element, race, base stats, skills and
+            profiles, extracted from the game data.
+          </p>
+        </div>
+        <div class="sl-buttons-grid">
+          <a href="/guides/star-lusts/characters/" class="sl-resource-button">
+            Character Database
+          </a>
+        </div>
+      </div>
+      <div class="sl-resource-category">
+        <div class="sl-category-header">
+          <h3>Game Info</h3>
+          <p class="sl-category-description">
+            The element system with the game's own text, summon rates and pity, and
+            how the roster is structured.
+          </p>
+        </div>
+        <div class="sl-buttons-grid">
+          <a href="/guides/star-lusts/info/" class="sl-resource-button">
+            Elements &amp; Gacha
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+</StarLustsLayout>

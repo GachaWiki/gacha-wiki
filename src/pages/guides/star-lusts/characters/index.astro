@@ -1,0 +1,81 @@
+---
+// Star Lusts character database: all playable units with search and element filters
+import StarLustsLayout from '../../../../layouts/star-lusts/StarLustsLayout.astro';
+import { STAR_LUSTS_CHARACTERS, STAR_LUSTS_ELEMENTS } from '../../../../data/star-lusts/characters.js';
+
+const R2 = 'https://k2b1c5ab57ed98e51.gachawiki.info/star-lusts';
+const characters = STAR_LUSTS_CHARACTERS;
+const iconFor = (id: number) => `${R2}/icons/Icon_Role_${String(id).padStart(4, '0')}.webp`;
+---
+
+<StarLustsLayout
+  title="Character Database"
+  description="All playable Star Lusts characters and costume variants with rarity, element, race, stats and skills. Built from extracted game data."
+  gameTitle="Characters"
+>
+  <section>
+    <div class="sl-toolbar">
+      <input type="text" class="sl-search" placeholder="Search characters..." id="sl-search" />
+      <button class="sl-filter-btn active" data-filter="all">All</button>
+      {STAR_LUSTS_ELEMENTS.map(el => (
+        <button class="sl-filter-btn" data-filter={el}>{el}</button>
+      ))}
+      <span class="sl-count" id="sl-count">{characters.length} characters</span>
+    </div>
+
+    <div class="sl-char-grid" id="sl-char-grid">
+      {characters.map(c => (
+        <a
+          href={`/guides/star-lusts/characters/${c.slug}/`}
+          class="sl-char-card"
+          data-element={c.element}
+          data-name={c.name.toLowerCase()}
+        >
+          <img src={iconFor(c.id)} alt={c.name} width={96} height={96} loading="lazy" class="sl-char-icon" />
+          <p class="sl-char-name">{c.name}</p>
+          <p class="sl-char-meta">{c.rarity}, {c.element}</p>
+        </a>
+      ))}
+    </div>
+    <p class="sl-no-results" id="sl-no-results">No characters match the current filters.</p>
+  </section>
+</StarLustsLayout>
+
+<script>
+  const search = document.getElementById('sl-search') as HTMLInputElement;
+  const grid = document.getElementById('sl-char-grid');
+  const countEl = document.getElementById('sl-count');
+  const noResults = document.getElementById('sl-no-results');
+  const filterBtns = document.querySelectorAll('.sl-filter-btn');
+
+  function updateDisplay() {
+    if (!search || !grid) return;
+    const query = search.value.toLowerCase();
+    const activeFilter = document.querySelector('.sl-filter-btn.active')?.getAttribute('data-filter') || 'all';
+    const cards = grid?.querySelectorAll('.sl-char-card') as NodeListOf<HTMLElement>;
+    let visible = 0;
+
+    cards?.forEach(card => {
+      const name = card.dataset.name || '';
+      const element = card.dataset.element || '';
+      const matchesSearch = name.includes(query);
+      const matchesFilter = activeFilter === 'all' || element === activeFilter;
+      const show = matchesSearch && matchesFilter;
+      card.style.display = show ? '' : 'none';
+      if (show) visible++;
+    });
+
+    if (countEl) countEl.textContent = `${visible} character${visible !== 1 ? 's' : ''}`;
+    if (noResults) noResults.style.display = visible === 0 ? 'block' : 'none';
+  }
+
+  search?.addEventListener('input', updateDisplay);
+
+  filterBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      filterBtns.forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      updateDisplay();
+    });
+  });
+</script>

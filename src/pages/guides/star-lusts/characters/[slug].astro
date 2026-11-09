@@ -1,0 +1,102 @@
+---
+// Star Lusts character detail: profile, stats, skill and passive from game data
+import StarLustsLayout from '../../../../layouts/star-lusts/StarLustsLayout.astro';
+import { STAR_LUSTS_CHARACTERS } from '../../../../data/star-lusts/characters.js';
+
+export async function getStaticPaths() {
+  return STAR_LUSTS_CHARACTERS.map(c => ({
+    params: { slug: c.slug },
+    props: { character: c },
+  }));
+}
+
+const R2 = 'https://k2b1c5ab57ed98e51.gachawiki.info/star-lusts';
+const { character: c } = Astro.props;
+const icon = `${R2}/icons/Icon_Role_${String(c.id).padStart(4, '0')}.webp`;
+const portrait = `${R2}/portraits/HalfLength_Role_${String(c.id).padStart(6, '0')}.webp`;
+---
+
+<StarLustsLayout
+  title={c.name}
+  description={`${c.name}: ${c.rarity} ${c.element} unit in Star Lusts. Stats, skill, passive and profile from game data.`}
+  gameTitle={c.name}
+>
+  <section class="sl-detail">
+    <div class="sl-portrait-wrap">
+      <img src={portrait} alt={c.name} width={196} class="sl-portrait" loading="eager" />
+      <p class="sl-portrait-caption sl-caption">In-game portrait</p>
+    </div>
+
+    <div>
+      <h2 class="sl-detail-name">{c.name}</h2>
+      <p class="sl-meta">{c.rarity}, {c.element}, {c.race}</p>
+
+      <div class="sl-profile-grid">
+        <div class="sl-profile-item">
+          <span class="sl-label">Age</span>
+          <span class="sl-profile-value">{c.age || '-'}</span>
+        </div>
+        <div class="sl-profile-item">
+          <span class="sl-label">Birthday</span>
+          <span class="sl-profile-value">{c.birthday || '-'}</span>
+        </div>
+        <div class="sl-profile-item">
+          <span class="sl-label">Cup</span>
+          <span class="sl-profile-value">{c.cup || '-'}</span>
+        </div>
+        <div class="sl-profile-item">
+          <span class="sl-label">Characteristics</span>
+          <span class="sl-profile-value">{c.characteristics || '-'}</span>
+        </div>
+        {c.painter && (
+          <div class="sl-profile-item">
+            <span class="sl-label">Illustrator</span>
+            <span class="sl-profile-value">{c.painter}</span>
+          </div>
+        )}
+        {c.cvJp && (
+          <div class="sl-profile-item">
+            <span class="sl-label">CV (JP)</span>
+            <span class="sl-profile-value">{c.cvJp}</span>
+          </div>
+        )}
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2 class="sl-section-title">Base Stats</h2>
+    <table class="sl-stats-table">
+      <thead>
+        <tr><th>Stat</th><th>Value</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Max HP</td><td>{c.hp.toLocaleString('en-US')}</td></tr>
+        <tr><td>ATK</td><td>{c.atk.toLocaleString('en-US')}</td></tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section>
+    <h2 class="sl-section-title">Skills</h2>
+    {c.skillName && (
+      <div class="sl-skill-block">
+        <p class="sl-skill-name">{c.skillName}</p>
+        <p class="sl-skill-type">Active Skill</p>
+        <p class="sl-skill-desc">{c.skillDescription || '-'}</p>
+      </div>
+    )}
+    {c.passiveName && (
+      <div class="sl-skill-block">
+        <p class="sl-skill-name">{c.passiveName}</p>
+        <p class="sl-skill-type">Passive</p>
+        <p class="sl-skill-desc">{c.passiveDescription || '-'}</p>
+      </div>
+    )}
+  </section>
+
+  <section>
+    <h2 class="sl-section-title">Profile</h2>
+    <p class="sl-desc-lore">{c.description || '-'}</p>
+  </section>
+</StarLustsLayout>
