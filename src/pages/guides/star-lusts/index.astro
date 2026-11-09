@@ -5,7 +5,6 @@ import FormattedDate from '../../../components/FormattedDate.astro';
 import DiscordPromo from '../../../components/DiscordPromo.astro';
 import { STAR_LUSTS_CHARACTERS } from '../../../data/star-lusts/characters.js';
 
-const R2 = 'https://k2b1c5ab57ed98e51.gachawiki.info/star-lusts';
 const unitCount = STAR_LUSTS_CHARACTERS.length;
 const ssrCount = STAR_LUSTS_CHARACTERS.filter(c => c.rarity === 'SSR').length;
 ---
@@ -18,7 +17,6 @@ const ssrCount = STAR_LUSTS_CHARACTERS.filter(c => c.rarity === 'SSR').length;
   <div class="sl-hero-bg" aria-hidden="true"></div>
 
   <section class="sl-hero-section sl-hero-over-video">
-    <img src={`${R2}/gameimg/gameicon.webp`} alt="Star Lusts" width={326} height={142} class="sl-hero-logo" />
     <h1 class="sl-hero-title">Star Lusts</h1>
     <p class="sl-hero-tag">
       R18 bullet hell shoot 'em up RPG by PINKCORE. Sortie with Cadettes and Mimics against
