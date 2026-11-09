@@ -536,3 +536,15 @@
   background: #c41f74;
   color: white;
 }
+
+/* ============================================
+   Star Lusts (PINKCORE R18 bullet hell shmup)
+   ============================================ */
+.game-nav-desktop[data-game='star-lusts'] .game-title {
+  color: #9db4e8;
+}
+
+.game-nav-desktop[data-game='star-lusts'] .dropdown-link.active {
+  background: #5e76ad;
+  color: white;
+}

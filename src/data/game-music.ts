@@ -148,6 +148,31 @@ export const GAME_MUSIC: Partial<Record<GameKey, GameMusicConfig>> = {
     idleBorder: 'var(--ts-border, #2e2838)',
     idleColor: '#b3a8ab',
   },
+  'star-lusts': {
+    gameLabel: 'Star Lusts',
+    storagePrefix: 'sl',
+    // Decoded from the game's FMOD banks and served from R2: the LOCAL APK
+    // Master_Bank (sharedassets0) holds the login-screen music (TitleMovie,
+    // subsong 1) and the theme song Love Dive with vocals (3) and the
+    // instrumental (4); Remote_Master_Bank subsongs 61 (title menu), 43 (main
+    // menu battle mix), 33 (summon), 47 (battle), 44 (boss), 66 (results), and
+    // Event_Bank subsong 5 (Christmas event theme).
+    tracks: [
+      `${R2}/star-lusts/audio/bgm-title-movie.mp3`,
+      `${R2}/star-lusts/audio/love-dive.mp3`,
+      `${R2}/star-lusts/audio/love-dive-inst.mp3`,
+      `${R2}/star-lusts/audio/bgm-main-menu.mp3`,
+      `${R2}/star-lusts/audio/bgm-gacha.mp3`,
+      `${R2}/star-lusts/audio/bgm-battle.mp3`,
+      `${R2}/star-lusts/audio/bgm-boss.mp3`,
+      `${R2}/star-lusts/audio/bgm-results.mp3`,
+      `${R2}/star-lusts/audio/bgm-event-xmas.mp3`,
+    ],
+    accent: '#9db4e8',
+    accentBorder: 'rgba(157, 180, 232, 0.45)',
+    idleBorder: 'var(--sl-border, #2c2c48)',
+    idleColor: '#b3b3b3',
+  },
 };
 
 export function getMusicConfig(gameKey: string | undefined): GameMusicConfig | undefined {
