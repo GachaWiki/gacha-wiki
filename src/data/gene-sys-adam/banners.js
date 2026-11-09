@@ -14,7 +14,7 @@ const bySlug = Object.fromEntries(gsaCharacters.map(c => [c.slug, c]));
 
 const R2 = 'https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam';
 
-export const GSA_BANNERS_UPDATED = 'October 27, 2026';
+export const GSA_BANNERS_UPDATED = 'November 9, 2026';
 
 // status: live (running now) | ended (observed running, since superseded) |
 // beta (ran in the Sep 17 beta window) | scheduled (machines configured in
@@ -25,8 +25,8 @@ export const GSA_BANNERS = [
     name: 'Black Gold Hunter: Cowgirl Belle',
     nameZh: '黑金獵人 - 乳牛貝兒',
     kind: 'Event Ticket Recruit',
-    status: 'live',
-    since: 'Live again since October 13, 2026, running to November 3, 06:59 (UTC+8)',
+    status: 'ended',
+    since: 'Re-run October 13 to November 3, 2026, 06:59 (UTC+8)',
     featured: ['belle-clumsy-cowgirl'],
     pity: 120,
     eventToken: 'Warrant Gems and Gold Bars',
@@ -39,7 +39,7 @@ export const GSA_BANNERS = [
     name: 'Lunar Splendor of the Pleasure District',
     nameZh: '繁華遊廓的月之華',
     kind: 'Dual Rate-Up',
-    status: 'live',
+    status: 'ended',
     since: 'Official launch, September 22 to November 3, 2026',
     featured: ['komachi-sayaka', 'hijikata-chizuru'],
     pity: 120,
@@ -60,7 +60,7 @@ export const GSA_BANNERS = [
     eventToken: "Heaven's Door summon letters",
     training: ['Jessica'],
     image: `${R2}/Draw_Bg_36.webp`,
-    note: "The Heaven's Door special missions returned with the October 27 wave and the client pulled the Jessica banner panel (Draw_Bg_36) the same day, confirming the machine live. A 120-pull featured guarantee on the limited lane; the September 17 official notice first introduced the ticket recruit during the non-wipe beta. The Connie phase sits behind this one in the activity pipeline.",
+    note: "The Heaven's Door special missions returned with the October 27 wave and the client pulled the Jessica banner panel (Draw_Bg_36) the same day, confirming the machine live. Still running in the November 8 wave, which refreshed the event's promo art. A 120-pull featured guarantee on the limited lane; the September 17 official notice first introduced the ticket recruit during the non-wipe beta. The Connie phase sits behind this one in the activity pipeline.",
   },
   {
     slug: 'milena-rate-up',
@@ -74,7 +74,7 @@ export const GSA_BANNERS = [
     eventToken: null,
     training: [],
     image: null,
-    note: 'The solo rate-up rotation moved on to Milena: the client pulled her banner panel (Draw_Bg_30) and tab icon with the October 27 wave. The panel art itself stays off the wiki, so the card shows the featured strip. Same deal as every solo: SSR rate x2, a Designated Seal per pull and a 100-pull featured guarantee.',
+    note: 'The solo rate-up rotation moved on to Milena: the client pulled her banner panel (Draw_Bg_30) and tab icon with the October 27 wave, and the banner was still serving on November 9. The panel art itself stays off the wiki, so the card shows the featured strip. Same deal as every solo: SSR rate x2, a Designated Seal per pull and a 100-pull featured guarantee.',
   },
   {
     slug: 'heavens-door-connie',
@@ -102,7 +102,7 @@ export const GSA_BANNERS = [
     eventToken: 'Phantom Emblem',
     training: ['Elena', 'Victoria'],
     image: null,
-    note: 'Dual limited banner for Elena and Victoria (art panels Draw_Bg_34_1 and _34_2) with the Collect Phantom Emblems event. The October 27 wave preloaded the banner text and shipped Elena\'s portrait to the client, so the wave is visibly next in line; both featured kits were reworked in the October tables while waiting in the wings.',
+    note: 'Dual limited banner for Elena and Victoria (art panels Draw_Bg_34_1 and _34_2) with the Collect Phantom Emblems event. The October 27 wave preloaded the banner text and shipped Elena\'s portrait to the client, and the November 8 wave swapped the event\'s home-screen entrance art to a second variant, so the wave is visibly next in line; both featured kits were reworked in the October tables while waiting in the wings.',
   },
   {
     slug: 'lingering-echoes',

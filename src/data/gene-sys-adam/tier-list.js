@@ -163,13 +163,18 @@ export const GSA_TIER_NOTES = {
   },
   'jessica': {
     type: 'info',
-    title: 'Not released yet.',
-    text: 'She has not been released yet, though she is broken and in the game files.',
+    title: 'The best support.',
+    text: 'Party-wide shields on a short cooldown, continuous healing and a cleansing Ultimate: she fits every team. Currently the only SSS.',
   },
   'belle-clumsy-cowgirl': {
     type: 'warning',
     title: 'Damage feels weak.',
     text: 'Her damage is just weak. She is good for Earth and AoE damage, but she feels weak and you never use her skills in maps.',
+  },
+  'awana': {
+    type: 'info',
+    title: 'Best farmable unit.',
+    text: 'Free SSR from her Investigation stage with a debuff on every skill, and one of only two Ebon appliers with Yulia. The Dark pursuit chain has no Finisher yet: the day one ships she is already on the field.',
   },
   // 'chloe': { type: 'info', variant: '', shortTitle: '', title: '', text: '' },
   // 'milena': { type: 'info', variant: '', shortTitle: '', title: '', text: '' },
@@ -305,6 +310,7 @@ export const GSA_TIER_PLACEMENTS = {
   'fujiwara-arisa': { tier: 'SS', rarity: 'SSR', reason: 'Tied for the hardest single hit in the game: a nine-hit 900% single-target Ultimate that ends in a Stun and Burn M, backed by a 435% to 585% Talent Skill and Burn S on her Auto Skill. She is also the premium Burn Initiator, keeping the Fire status up so Theodore can Detonate. Raw ceiling plus chain value; the only thing she lacks is team amplification.' },
   'jessica': { tier: 'SSS', rarity: 'SSR', reason: 'Best defensive support: a 795% Shield to all party members on an 8s cooldown, continuous healing on her Auto Skill and passives, and an Ultimate that Cleanses debuffs from all party members and applies a 1285% Shield.' },
   'belle-clumsy-cowgirl': { tier: 'S', rarity: 'SSR', reason: 'The self-sufficient Shatter Initiator: she applies her own Petrify before her five-hit all-targets Ultimate, so she triggers Stone Shatter pursuits without any feeder, on top of spread damage and small party heals. Weaknesses are real (spread damage splits, no party buffs), but she is the only unit who runs the Earth chain entirely alone.' },
+  'awana': { tier: 'SS', rarity: 'SSR', reason: 'The best farmable unit in the game: perfect-clear stage 6 of her Investigation stage recruits her, so duplicates come with patience instead of pulls. A debuff-stacking Dark Sniper: her awakened kit chips enemies from every angle (Energy DMG Down 15%, Light ATK Down 12%, ACC Down 10%, Crit Chance Down 20%) while self-buffs (Crit Chance Up 30%, Dark ATK Up 20%) feed a 558% single-target Ultimate, and after awakening the whole party gains Light Res Up 7.5%, an anti-Light niche. Random targeting is the tax: she cannot focus priority targets. She is also one of only two Ebon appliers alongside Yulia, and the Dark pursuit chain has no released Finisher yet, so that half of her value is still waiting. SS now, SSS-potential the day a Dark trigger ships.' },
 };
 
 // Element-view placements: the By Element view rates units inside their

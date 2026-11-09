@@ -6,6 +6,23 @@
 // approximate; content lists are exact.
 export const GSA_UPDATES = [
   {
+    slug: '2026-11-08-origin-of-chaos',
+    date: 'November 8, 2026',
+    title: 'Origin of Chaos story event goes live',
+    tag: 'Datamine',
+    summary: 'The November 8 wave opened the Origin of Chaos story event with the Odysseus Squad cast and its emblem, summon ticket and armament resupply economy, while the summon screen kept the Heaven\'s Door Jessica and Milena banners; no new playable characters shipped.',
+    points: [
+      'The Origin of Chaos event went live: a limited story event starring the Odysseus Squad, Leonisse\'s mercenary team (Rien, Florette and the hacker Yupin) infiltrating the Purigen headquarters in Tobia. Roughly 180 English story lines landed with the wave and the client downloaded the story scenes for the cast; the event is R18 and its scenes stay off the wiki.',
+      'Event economy, all in the item tables: Chaos Emblems as the collect token, [Origin of Chaos] Summon Tickets and 10-Pull Tickets (including an ECoin variant), a Summon Letter, Armament Resupply Chests that always drop an Armament Resupply Certificate with a 4% chance of a complete Specialized equipment set, and a limited portrait frame. As with every token event, the tickets and certificates are reclaimed when the event ends.',
+      'No new playable characters, items or draw machines: only two game tables changed in this wave (the home-screen entrance art assignment and a story-table cleanup), making it the smallest table wave since launch.',
+      'Banner states: the Black Gold Hunter re-run and the Lunar Splendor launch banner both ended on November 3, 06:59 (UTC+8), per their official periods. The Heaven\'s Door Jessica limited banner and the Milena solo rate-up kept running through this wave; the client refreshed the Heaven\'s Door promo art on November 8.',
+      'The War & Music and Lingering Echoes waves advanced another step in preload: the client swapped the War & Music home-screen entrance art to a second variant with this wave, on top of the banner text and Elena\'s portrait from October. Neither banner is live yet.',
+      'Localization grew by 182 English entries, almost entirely Origin of Chaos story dialogue, plus a pass of reworded lines in earlier story chapters.',
+      'Client hot-update module landed October 30 (162 KB). On the wiki side, Awana\'s six skill icons were pulled from this wave\'s device data and are now live on her character page in every language.',
+    ],
+    source: 'Decrypted table diff, Patch pulls of October 29 and November 9, 2026 (update wave of November 8).',
+  },
+  {
     slug: '2026-10-27-awana-and-heavens-door',
     date: 'October 27, 2026',
     title: "New SSR Awana, Heaven's Door goes live, and the 1.5M Downloads celebration",
