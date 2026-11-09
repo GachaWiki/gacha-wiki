@@ -288,11 +288,7 @@
   overflow-wrap: break-word;
 }
 
-/* ---- info page sections (boxed like landing sections) ---- */
-.sl-info-container {
-  max-width: 62rem;
-}
-
+/* ---- boxed section (character detail) ---- */
 .sl-section {
   background: var(--sl-card);
   border: 1px solid var(--sl-border);
@@ -301,65 +297,6 @@
   margin-bottom: 1.4rem;
   position: relative;
   z-index: 1;
-}
-
-.sl-section-sub {
-  font-size: var(--text-sm);
-  color: var(--sl-text-muted);
-  margin: -6px 0 16px;
-}
-
-.sl-facts-list {
-  margin: 0;
-  border-top: 1px solid var(--sl-border);
-}
-
-.sl-fact-row {
-  display: grid;
-  grid-template-columns: 190px 1fr;
-  gap: 0.2rem 1.5rem;
-  padding: 0.8rem 0;
-  border-bottom: 1px solid var(--sl-border);
-}
-
-.sl-fact-label {
-  font-size: var(--text-xs);
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-  color: var(--sl-accent);
-  font-weight: 600;
-  padding-top: 0.2rem;
-}
-
-.sl-fact-value {
-  margin: 0;
-  font-weight: 700;
-  color: var(--sl-text-primary);
-  font-size: var(--text-base);
-  line-height: 1.5;
-}
-
-.sl-fact-sub {
-  display: block;
-  font-size: var(--text-sm);
-  font-weight: 400;
-  color: var(--sl-text-muted);
-  margin-top: 0.15rem;
-}
-
-.sl-info-h3 {
-  font-size: var(--text-lg);
-  font-weight: 700;
-  color: var(--sl-accent);
-  margin: 1.6rem 0 0.5rem;
-}
-
-.sl-info-p {
-  font-size: var(--text-base);
-  line-height: 1.75;
-  color: var(--sl-text-primary);
-  margin: 0 0 0.8rem;
-  max-width: 52rem;
 }
 
 /* ---- character database ---- */
@@ -576,12 +513,6 @@
 }
 
 @media (max-width: 720px) {
-  .sl-fact-row {
-    grid-template-columns: 1fr;
-    gap: 0.15rem;
-    padding: 0.7rem 0;
-  }
-
   .sl-detail {
     grid-template-columns: 1fr;
   }
