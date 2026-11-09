@@ -5,6 +5,7 @@ import FormattedDate from '../../../components/FormattedDate.astro';
 import DiscordPromo from '../../../components/DiscordPromo.astro';
 import { STAR_LUSTS_CHARACTERS } from '../../../data/star-lusts/characters.js';
 
+const R2 = 'https://k2b1c5ab57ed98e51.gachawiki.info/star-lusts';
 const unitCount = STAR_LUSTS_CHARACTERS.length;
 const ssrCount = STAR_LUSTS_CHARACTERS.filter(c => c.rarity === 'SSR').length;
 ---
@@ -13,10 +14,17 @@ const ssrCount = STAR_LUSTS_CHARACTERS.filter(c => c.rarity === 'SSR').length;
   title="Home"
   description="Star Lusts wiki: the R18 bullet hell shoot 'em up by PINKCORE/ICECONE — Adult Only on Steam, 18+ on EROLABS and Nutaku. Character database with stats, skills and profiles, built from extracted game data."
 >
-  <!-- Static hero background: the game's own title screen key art, dimmed -->
-  <div class="sl-hero-bg" aria-hidden="true"></div>
-
   <section class="sl-hero-section sl-hero-over-video">
+    <!-- Full key art, contained in the content container so nothing is cropped -->
+    <div class="sl-hero-banner-wrap">
+      <img
+        src={`${R2}/gameimg/title-bg-wide.webp`}
+        alt="Star Lusts title screen key art"
+        width={1260}
+        height={540}
+        class="sl-hero-banner"
+      />
+    </div>
     <h1 class="sl-hero-title">Star Lusts</h1>
     <p class="sl-hero-tag">
       An R18 bullet hell shoot 'em up by PINKCORE. Lead mecha Cadettes through space to

@@ -98,35 +98,27 @@
   font-weight: 400;
 }
 
-/* ---- static hero background: game title screen key art, dimmed (BD2 band pattern) ---- */
-.sl-hero-bg {
-  position: absolute;
-  top: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 100vw;
-  height: 70vh;
-  pointer-events: none;
-  z-index: 0;
-  background-image: url('https://k2b1c5ab57ed98e51.gachawiki.info/star-lusts/gameimg/title-bg-wide.webp');
-  background-size: cover;
-  background-position: 50% 50%;
-  opacity: 0.4;
-  -webkit-mask-image: linear-gradient(to bottom, #000 0%, #000 22%, transparent 82%);
-  mask-image: linear-gradient(to bottom, #000 0%, #000 22%, transparent 82%);
+/* ---- hero banner: full key art contained in the content container ---- */
+.sl-hero-banner-wrap {
+  width: 100%;
+  max-width: 920px;
+  margin: 0 auto 1.25rem;
+  border-radius: 14px;
+  overflow: hidden;
+  border: 1px solid var(--sl-border);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.55);
 }
 
-@media (max-width: 720px) {
-  .sl-hero-bg {
-    height: 45vh;
-  }
+.sl-hero-banner {
+  display: block;
+  width: 100%;
+  height: auto;
 }
 
 /* ---- landing (standard wiki landing: hero, story, download, resources) ---- */
 .sl-hero-section {
   position: relative;
   z-index: 1;
-  min-height: 46vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
