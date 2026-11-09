@@ -212,6 +212,17 @@ export const GAMES: Game[] = [
     themeColor: '#e8368f',
     sections: ['Characters', 'Pre-Registration'],
   },
+  {
+    id: 'star-lusts',
+    name: 'Star Lusts',
+    slug: 'star-lusts',
+    description: 'Bullet Hell Shmup RPG • EROLABS • 97 Characters • 5 Elements',
+    image: 'https://k2b1c5ab57ed98e51.gachawiki.info/star-lusts/gameimg/appicon.webp',
+    url: '/guides/star-lusts/',
+    status: 'active',
+    themeColor: '#9DB4E8',
+    sections: ['Characters'],
+  },
 ];
 
 export function getGameById(id: string): Game | undefined {

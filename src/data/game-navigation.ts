@@ -15,7 +15,8 @@ export type GameKey =
   | 'muv-luv-girls-garden'
   | 'gene-sys-adam'
   | 'brown-dust-2'
-  | 'twinkle-star-knights-x';
+  | 'twinkle-star-knights-x'
+  | 'star-lusts';
 
 export interface NavigationLink {
   name: string;
@@ -608,6 +609,20 @@ export const NAV_DATA: Record<GameKey, { sections: NavigationSection[] }> = {
         title: 'Characters',
         links: [
           { name: 'Database', href: '/guides/twinkle-star-knights-x/characters/' },
+        ],
+      },
+      {
+        title: 'Resources',
+        links: [],
+      },
+    ],
+  },
+  'star-lusts': {
+    sections: [
+      {
+        title: 'Characters',
+        links: [
+          { name: 'Database', href: '/guides/star-lusts/characters/' },
         ],
       },
       {

@@ -28,6 +28,7 @@ const geneSysAdam = g('gene-sys-adam');
 const muvLuvGirlsGarden = g('muv-luv-girls-garden');
 const brownDust2 = g('brown-dust-2');
 const twinkleStarKnightsX = g('twinkle-star-knights-x');
+const starLusts = g('star-lusts');
 
 // Type definitions for better code quality and IntelliSense
 export interface SocialLinks {
@@ -1147,6 +1148,35 @@ const GAME_SEO_CONFIG: Record<string, GameSEOConfig> = {
     description: 'Twinkle Star Knights X wiki: R18 RPG coming to EROLABS. Revealed character profiles, story, pre-registration rewards and referral event info, ready for launch.',
     genres: ['RPG', 'Gacha'] as const,
     platform: 'Mobile',
+    playMode: 'SinglePlayer',
+  },
+  [starLusts.id]: {
+    gameName: starLusts.name,
+    keywords: [
+      starLusts.name,
+      'star lusts',
+      'starlusts',
+      'star lusts game',
+      'star lusts pinkcore',
+      'pinkcore star lusts',
+      'star lusts wiki',
+      'star lusts guide',
+      'star lusts characters',
+      'star lusts database',
+      'star lusts tier list',
+      'erolabs star lusts',
+      'star lusts mia',
+      'star lusts gacha',
+      'r18 shooter gacha game',
+      'bullet hell gacha game',
+    ] as const,
+    themeColor: starLusts.themeColor,
+    description: 'Star Lusts wiki: R18 bullet hell shoot em up RPG by PINKCORE on EROLABS. Full character database with stats, skills, profiles and voice actors, built from extracted game data.',
+    genres: ['Shoot em Up', 'Bullet Hell', 'Gacha'] as const,
+    platform: 'Mobile, PC, Browser',
+    alternateName: ['StarLusts', 'スターラスト'],
+    inLanguage: 'en',
+    availableLanguage: ['en'],
     playMode: 'SinglePlayer',
   },
 } as const;
