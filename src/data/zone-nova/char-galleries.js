@@ -226,6 +226,12 @@ export const CHAR_GALLERIES = {
     { label: 'Event 8 Banner', title: '[Goddess of the Night: The Trial of Nightmares] Part 2', image: 'https://k2b1c5ab57ed98e51.gachawiki.info/zone-nova/gallery/campaign/campaign-16.webp', w: 433, h: 212 },
     { label: 'Gacha Banner', image: 'https://k2b1c5ab57ed98e51.gachawiki.info/zone-nova/gallery/gacha/morgan-le-fay.webp', w: 433, h: 212 },
   ],
+  'nahema': [
+    { label: 'Awakened', image: 'https://k2b1c5ab57ed98e51.gachawiki.info/zone-nova/gallery/awaken/nahema.webp', w: 256, h: 256 },
+    { label: 'Event 21', title: '[Moonlit Revelry: A Rebellious Dance and Sweet Dreams] Part 1', image: 'https://k2b1c5ab57ed98e51.gachawiki.info/zone-nova/events/event-21-a.webp', w: 1024, h: 512 },
+    { label: 'Event 21 Banner', title: '[Moonlit Revelry: A Rebellious Dance and Sweet Dreams] Part 1', image: 'https://k2b1c5ab57ed98e51.gachawiki.info/zone-nova/gallery/campaign/campaign-41.webp', w: 433, h: 212 },
+    { label: 'Gacha Banner', image: 'https://k2b1c5ab57ed98e51.gachawiki.info/zone-nova/gallery/gacha/nahema.webp', w: 433, h: 212 },
+  ],
   'naiya': [
     { label: 'Awakened', image: 'https://k2b1c5ab57ed98e51.gachawiki.info/zone-nova/gallery/awaken/naiya.webp', w: 256, h: 256 },
   ],

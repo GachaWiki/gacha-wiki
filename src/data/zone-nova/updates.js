@@ -1,6 +1,14 @@
 // Zone Nova Updates Data
 export const zoneNovaUpdates = [
   {
+    id: 'maintenance-november-10-2026',
+    title: 'November 10, 2026 Maintenance Update',
+    date: 'November 10, 2026',
+    type: 'maintenance',
+    summary: "Maintenance on November 10, 2026 (14:00 UTC+8, ~2 hours). Nahema (Tank, Fire) limited recruitment November 10, 2026 14:15 - November 24, 2026 03:59 (UTC+8). Rift Surge XLI open November 10, 2026 - December 8, 2026 (a 28-day window, the first extended Surge). New Fire Tank who scales entirely off Defense and punishes enemy healing: every ally holds [Covenant Flame] stacks (damage taken -53% while held, each stack cuts the incoming attack's Defense Penetration by 35.3%, every new stack shields the holder for 7.1% Max HP), replenished whenever an enemy receives healing or a new enemy enters. Her Skill refills all allies to 3 stacks plus 328.9% DEF fire damage, and her Ultimate grants [Blazing Oath] (damage reduction becomes 132% of base and stacks stop being consumed) with a 530% DEF frontal strike. While any enemy has Immortality or Tenacity, allies holding [Covenant Flame] revive with 1 HP, up to 3 times each per battle. New signature Remembrance: Crimson Invitation (SSR, Tank, Defense +57% and Max HP +26% at max awaken, plus a 71% Defense shield whenever an enemy receives healing), on the limited Remembrance banner alongside her recruitment banner. Moonlit Revelry: A Rebellious Dance and Sweet Dreams (Nahema's event) runs November 10 - November 24, 2026. Poseidon and Pride-Lucifer limited recruitment reruns November 17 - November 24, 2026. Double 11 celebration: login event November 11, Special Gift Packs I/II/III, and a Mirage Cube x3 gift. Login event November 17 plus Quest EXP 2x November 17 - November 24 and December 1 - December 8. Main story chapters 69-79 added. Trial of Bravery season 30 (November 10 - November 24): Safir, Otis, Heikyo Castle, and Bikta factions, with a rule that regenerates 3% Max HP every 10 seconds for all units and grants 4 seconds of [Tenacity] the first time a unit survives dropping below 30% HP.",
+    url: '/guides/zone-nova/updates/maintenance-november-10-2026/',
+  },
+  {
     id: 'maintenance-october-27-2026',
     title: 'October 27, 2026 Maintenance Update',
     date: 'October 27, 2026',

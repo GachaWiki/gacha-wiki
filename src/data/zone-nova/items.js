@@ -1,5 +1,5 @@
 // Zone Nova item database - generated from decrypted stack_item_info master data
-// 515 items. Source: D:\ZoneNova\output\masterdata (AES crack 2026-09-03).
+// 520 items. Source: D:\ZoneNova\output\masterdata (AES crack 2026-09-03).
 // Regen: python D:\ZoneNova\gen_items_js.py
 
 export const items = [
@@ -668,6 +668,22 @@ export const items = [
     icon: 'Campaign_Token_40.png',
   },
   {
+    id: 8041,
+    name: 'Event Currency',
+    description: 'A Rebellious Dance and Sweet Dreams (I) Token',
+    rarity: 'SSR',
+    type: 'Campaign Token',
+    icon: 'Campaign_Token_41.png',
+  },
+  {
+    id: 8042,
+    name: 'Event Currency',
+    description: 'A Rebellious Dance and Sweet Dreams (II) Token',
+    rarity: 'SSR',
+    type: 'Campaign Token',
+    icon: 'Campaign_Token_42.png',
+  },
+  {
     id: 8801,
     name: 'Event Currency',
     description: 'Phantom Night Festival: The Chase Beneath the Mask Token',
@@ -797,7 +813,7 @@ export const items = [
   },
   {
     id: 9015,
-    name: 'Selectable Limited Remembrance II',
+    name: 'Selectable Limited Character II',
     description: 'You can choose one of the specified limited-time characters or permanent characters.',
     rarity: 'SSR',
     type: 'Selection Box',
@@ -805,7 +821,7 @@ export const items = [
   },
   {
     id: 9016,
-    name: 'Selectable Limited Character II',
+    name: 'Selectable Limited Remembrance II',
     description: 'You can choose to obtain one of the specified limited memories or permanent Remembrance.',
     rarity: 'SSR',
     type: 'Selection Box',
@@ -2026,6 +2042,22 @@ export const items = [
     rarity: 'SSR',
     type: 'Avatar',
     icon: 'Icon_Player_Icon_8002_Cute.png',
+  },
+  {
+    id: 91043,
+    name: 'Nakhma (S)',
+    description: '',
+    rarity: 'SSR',
+    type: 'Avatar',
+    icon: 'Icon_Player_Icon_4062_Cute.png',
+  },
+  {
+    id: 91044,
+    name: 'Lazy Dreams - Paimon (S)',
+    description: '',
+    rarity: 'SSR',
+    type: 'Avatar',
+    icon: 'Icon_Player_Icon_4063_Cute.png',
   },
   {
     id: 92002,
@@ -4108,6 +4140,14 @@ export const items = [
     icon: 'Icon_Character_Awaken_4061.png',
   },
   {
+    id: 1104062,
+    name: 'Nahema\'s Soul Stone',
+    description: 'Inside, there seems to be a ball of everlasting flame slowly rotating, occasionally flashing bright spots like stars. Its surface is engraved with tiny cracks, but it exudes an indestructible aura, as if it has experienced the baptism of countless years. When you hold it in your hand, a warm and heavy feeling will spread along the palm of your hand and reach the bottom of your heart.',
+    rarity: 'SSR',
+    type: 'Awakening',
+    icon: 'Icon_Character_Awaken_4062.png',
+  },
+  {
     id: 1108001,
     name: 'Sigurd Soul Stone',
     description: 'Inside, there seems to be a ball of everlasting flame slowly rotating, occasionally flashing bright spots like stars. Its surface is engraved with tiny cracks, but it exudes an indestructible aura, as if it has experienced the baptism of countless years. When you hold it in your hand, a warm and heavy feeling will spread along the palm of your hand and reach the bottom of your heart.',
@@ -4126,9 +4166,9 @@ export const items = [
 ];
 
 export const itemTypes = [
-  { name: 'Avatar', count: 184 },
-  { name: 'Awakening', count: 69 },
-  { name: 'Campaign Token', count: 41 },
+  { name: 'Avatar', count: 186 },
+  { name: 'Awakening', count: 70 },
+  { name: 'Campaign Token', count: 43 },
   { name: 'Character EXP', count: 3 },
   { name: 'Character Rank-Up', count: 21 },
   { name: 'Character Special', count: 11 },
