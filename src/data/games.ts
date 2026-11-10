@@ -217,7 +217,7 @@ export const GAMES: Game[] = [
     name: 'Star Lusts',
     slug: 'star-lusts',
     description: 'Bullet Hell Shmup RPG • EROLABS • 97 Characters • 5 Elements',
-    image: 'https://k2b1c5ab57ed98e51.gachawiki.info/star-lusts/gameimg/apkicon432.webp',
+    image: 'https://k2b1c5ab57ed98e51.gachawiki.info/star-lusts/gameimg/apkiconxf.webp',
     url: '/guides/star-lusts/',
     status: 'active',
     themeColor: '#9DB4E8',
