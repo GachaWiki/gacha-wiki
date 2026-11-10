@@ -131,8 +131,8 @@ export const GAME_MODES = {
 // Character lists from your tier list data (only characters with EX Weapons)
 const MAP_CLEAR_CHARACTERS = {
   URP: ['Mu Yingying'],
-  UR: ['Cora', 'Luise', 'Juza', 'Yui'],
-  SSS: ['Olivia', 'Palekar', 'Matrotho', 'Eugenia', 'Ahram', 'Nari', 'Garud', 'Kim ga-young'],
+  UR: ['Cora', 'Luise', 'Juza', 'Yui', 'Ahram'],
+  SSS: ['Olivia', 'Palekar', 'Matrotho', 'Eugenia', 'Nari', 'Garud', 'Kim ga-young'],
   SS: [
     'Vlissing',
     'Valeta',
@@ -198,8 +198,8 @@ const MAP_CLEAR_CHARACTERS = {
 
 const SPECIAL_OPERATIONS_CHARACTERS = {
   URP: ['Mu Yingying'],
-  UR: ['Cora', 'Luise', 'Juza', 'Yui'],
-  SSS: ['Yeonwoo', 'Leah', 'Nymset', 'Palekar', 'Juha', 'So Joo-Hee', 'Mahari', 'Matrotho', 'Eugenia', 'Ahram', 'Nari', 'Garud', 'Kim ga-young'],
+  UR: ['Cora', 'Luise', 'Juza', 'Yui', 'Ahram'],
+  SSS: ['Yeonwoo', 'Leah', 'Nymset', 'Palekar', 'Juha', 'So Joo-Hee', 'Mahari', 'Matrotho', 'Eugenia', 'Nari', 'Garud', 'Kim ga-young'],
   SS: [
     'Vlissing',
     'Olivia',
@@ -258,7 +258,7 @@ const SPECIAL_OPERATIONS_CHARACTERS = {
 
 const DOPAMIN_CHARACTERS = {
   URP: ['Mu Yingying'],
-  UR: ['Cora', 'Luise', 'Juza', 'Yui'],
+  UR: ['Cora', 'Luise', 'Juza', 'Yui', 'Ahram'],
   SSS: [
     'Olivia',
     'Kaul',
@@ -276,7 +276,6 @@ const DOPAMIN_CHARACTERS = {
     'Palekar',
     'Eugenia',
     'Matrotho',
-    'Ahram',
     'Nari',
     'Marhim',
     'Garud',
@@ -586,7 +585,7 @@ export const TIER_CHARACTER_NOTES = {
     variant: 'def-down',
     shortTitle: 'Best Pierce DEF Down',
     title: 'Best Pierce DEF Down in the Game',
-    text: 'Ahram has the best Pierce DEF down in the game: Suppression strips up to 300% of her Ranged ATK from the target\'s Pierce DEF, and it keeps scaling as you build her. Assault Formation hands that same number to allies as Ranged ATK, which is why she turns Kim Ga-young into a monster.',
+    text: 'Ahram has the best Pierce DEF down in the game: Suppression strips up to 300% of her Ranged ATK from the target\'s Pierce DEF, and it keeps scaling as you build her. Assault Formation hands that same number to allies as Ranged ATK, which is why she turns Kim Ga-young into a monster. She pushes team damage to insane amounts.',
   },
 };
 
