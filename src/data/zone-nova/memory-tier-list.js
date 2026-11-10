@@ -50,7 +50,7 @@ export const MEMORY_CLASS_ORDER = [
 
 export const MEMORY_TIER_LIST = {
   name: 'Memory Card Rankings by Class',
-  lastUpdated: '2026-10-13',
+  lastUpdated: '2026-11-10',
   description:
     'Memory card rankings by class. Each character can only equip memories matching their class.',
   tiers: {
@@ -58,6 +58,7 @@ export const MEMORY_TIER_LIST = {
       UR: [],
       SSS: [{ name: "Sea Deity's Soft Ritual" }, { name: "Under the Holy Armor" }],
       SS: [
+        { name: "Crimson Invitation" },
         { name: "Eating secretly in a cafe" },
         { name: "Her Trainer" },
         { name: "Simple Birdcage" },

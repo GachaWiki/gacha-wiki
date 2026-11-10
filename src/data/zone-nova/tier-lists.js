@@ -87,7 +87,7 @@ export const CLASS_ORDER = [
 // Overall PvE Tier List - General content performance
 export const PVE_TIER_LIST = {
   name: 'PvE Rankings by Class & Role',
-  lastUpdated: '2026-11-06',
+  lastUpdated: '2026-11-10',
   description:
     'Class-based PvE rankings with role highlights for story, events, and general progression.',
   tiers: {
@@ -138,6 +138,7 @@ export const PVE_TIER_LIST = {
       { name: 'Bedivere' },
       { name: 'Fenrir' },
       { name: 'Ootakemaru' },
+      { name: 'Nahema' },
     ],
     S: [
       { name: 'Zashiki-warashi' },
@@ -174,7 +175,7 @@ export const PVE_TIER_LIST = {
 // PvP Arena Tier List
 export const PVP_TIER_LIST = {
   name: 'PvP Rankings by Class & Role',
-  lastUpdated: '2026-11-06',
+  lastUpdated: '2026-11-10',
   description: 'Class-based Arena PvP rankings with role highlights for competitive play.',
   tiers: {
     UR: [{ name: 'Pride-Lucifer' }, { name: 'Bors' }, { name: 'Medusa' }, { name: 'Mila' }, { name: 'Suzuka Gozen' }],
@@ -201,6 +202,7 @@ export const PVP_TIER_LIST = {
       { name: 'Nephthys' },
       { name: 'Bedivere' },
       { name: 'Ibaraki-doji' },
+      { name: 'Nahema' },
     ],
     S: [
       { name: 'Arthur' },
@@ -233,7 +235,7 @@ export const PVP_TIER_LIST = {
 // New Player Tier List (F2P Friendly)
 export const NEW_PLAYER_TIER_LIST = {
   name: 'New Player / F2P Tier List',
-  lastUpdated: '2026-10-27',
+  lastUpdated: '2026-11-10',
   description:
     'You can get any character from this list from day 1. This tier list focuses on accessibility for new players. The main problem early on is finding good damage dealers.',
   tiers: {
@@ -399,6 +401,15 @@ export function getCharactersByTier(tierLevel, listType = 'pve') {
 
 // Tier list changelog
 export const TIER_LIST_CHANGELOG = [
+  {
+    date: '2026-11-10',
+    changes: [
+      'New character added: Nahema (SS PvE, SS PvP). Not listed for New Players: she is a limited recruitment character and cannot be obtained on a new account',
+      'Nahema is a Fire Tank who scales entirely off Defense and punishes enemy healing: every ally holds [Covenant Flame] (damage taken -53% while held, each stack cuts incoming Defense Penetration by 35.3%, every new stack shields for 7.1% Max HP), replenished whenever an enemy receives healing or a new enemy enters. Her Ultimate grants [Blazing Oath] (damage reduction at 132% of base, stacks stop being consumed) and allies holding stacks revive with 1 HP vs Immortality or Tenacity enemies, up to 3 times each per battle',
+      "Season synergy: Rift Surge XLI (November 10 - December 8, a 28-day window) buffs Blaze damage by 50% and grants +35% damage after a Guardian Ultimate, and Trial of Bravery 30 pairs her sustain with the 3% regen + [Tenacity] rule",
+      'Memory card added: Crimson Invitation (SS for Tanks)',
+    ],
+  },
   {
     date: '2026-11-06',
     changes: [
