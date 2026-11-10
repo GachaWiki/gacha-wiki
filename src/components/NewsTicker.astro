@@ -84,7 +84,7 @@ const tapeItems = [...tickerItems.filter(item => !item.code), ...getTickerUpdate
     width: 100%;
     background: var(--bg-dark);
     border-bottom: 1px solid rgba(255, 183, 77, 0.3);
-    font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    font-family: var(--font-primary);
   }
 
   .ticker-inner {
@@ -144,7 +144,7 @@ const tapeItems = [...tickerItems.filter(item => !item.code), ...getTickerUpdate
 
   .ticker-code-value {
     display: inline-block;
-    font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    font-family: var(--font-mono);
     font-weight: 700;
     line-height: 1;
     font-variant-numeric: tabular-nums;

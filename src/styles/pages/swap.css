@@ -145,7 +145,7 @@
   border: none;
   outline: none;
   color: var(--text-inverse, #fff);
-  font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+  font-family: var(--font-mono);
   font-size: var(--text-md);
   min-width: 0;
 }
@@ -203,7 +203,7 @@
   border: none;
   outline: none;
   color: var(--text-inverse, #fff);
-  font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+  font-family: var(--font-mono);
   font-size: var(--text-2xl);
   font-weight: 600;
   padding: 0;
@@ -448,7 +448,7 @@
 }
 
 .swap-alerts-hero-value {
-  font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+  font-family: var(--font-mono);
   font-size: var(--text-4xl);
   font-weight: 800;
   line-height: 1.1;
@@ -542,7 +542,7 @@
 }
 
 .swap-alerts-amount-prefix {
-  font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+  font-family: var(--font-mono);
   font-size: var(--text-xl);
   font-weight: 700;
   color: var(--amber-glow, #ffb74d); /* explicit — otherwise inherits slate body text */
@@ -558,7 +558,7 @@
   outline: none;
   color: var(--text-inverse, #fff);
   caret-color: var(--amber-glow, #ffb74d);
-  font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+  font-family: var(--font-mono);
   font-size: var(--text-xl);
   font-weight: 700;
 }
@@ -622,7 +622,7 @@
 }
 
 .swap-alerts-row-cond strong {
-  font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+  font-family: var(--font-mono);
 }
 
 .swap-alerts-row-state {

@@ -119,9 +119,9 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site).href;
 <!-- Stella Sora Theme CSS Variables (Inline for faster loading) -->
 <style>
   :root {
-    --ss-theme-color: #7dd3fc;
-    --ss-theme-color-dark: #0ea5e9;
-    --ss-theme-color-light: #bae6fd;
+    --stss-theme-color: #7dd3fc;
+    --stss-theme-color-dark: #0ea5e9;
+    --stss-theme-color-light: #bae6fd;
   }
 </style>
 
@@ -129,3 +129,74 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site).href;
 <link rel="preconnect" href="https://stellasora.global" />
 <link rel="preconnect" href="https://x.com" />
 <link rel="preconnect" href="https://youtube.com" />
+
+<!-- Keyword auto-coloring: element / position / attack-type / style names get their
+     unique color wherever they appear on any Stella Sora page (classes in ss-colors.css).
+     No backslashes in the regex (build pipeline mangles them). -->
+<script>
+  (function () {
+    if (window.__ssKwHighlight) return;
+    window.__ssKwHighlight = true;
+    var MAP = {
+      Aqua: 'ss-kw-element-aqua', Ignis: 'ss-kw-element-ignis', Ventus: 'ss-kw-element-ventus',
+      Terra: 'ss-kw-element-terra', Lux: 'ss-kw-element-lux', Umbra: 'ss-kw-element-umbra',
+      Vanguard: 'ss-kw-position', Versatile: 'ss-kw-position', Support: 'ss-kw-position',
+      Melee: 'ss-kw-attack', Ranged: 'ss-kw-attack',
+      Steady: 'ss-kw-style', Adventurous: 'ss-kw-style', Collector: 'ss-kw-style',
+      Creative: 'ss-kw-style', Inquisitive: 'ss-kw-style'
+    };
+    var keys = Object.keys(MAP).sort(function (a, b) { return b.length - a.length; });
+    var RE = new RegExp('(^|[^A-Za-z])(' + keys.join('|') + ')(?![A-Za-z])', 'g');
+    var SKIP = { SCRIPT: 1, STYLE: 1, TEXTAREA: 1, SELECT: 1, OPTION: 1, BUTTON: 1, A: 1, TITLE: 1 };
+    function matches(s) {
+      RE.lastIndex = 0;
+      return RE.test(s);
+    }
+    function paint() {
+      var walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT, {
+        acceptNode: function (n) {
+          var p = n.parentElement;
+          if (!p) return NodeFilter.FILTER_REJECT;
+          if (SKIP[p.tagName]) return NodeFilter.FILTER_REJECT;
+          if (p.closest('[class*="ss-kw"]')) return NodeFilter.FILTER_REJECT;
+          return matches(n.nodeValue) ? NodeFilter.FILTER_ACCEPT : NodeFilter.FILTER_REJECT;
+        }
+      });
+      var nodes = [], n;
+      while ((n = walker.nextNode())) nodes.push(n);
+      nodes.forEach(function (textNode) {
+        var frag = document.createDocumentFragment();
+        var s = textNode.nodeValue, last = 0, m;
+        RE.lastIndex = 0;
+        while ((m = RE.exec(s))) {
+          var kw = m[2];
+          var start = m.index + m[1].length;
+          if (start > last) frag.appendChild(document.createTextNode(s.slice(last, start)));
+          var span = document.createElement('span');
+          span.className = MAP[kw];
+          span.textContent = kw;
+          frag.appendChild(span);
+          last = start + kw.length;
+        }
+        if (last < s.length) frag.appendChild(document.createTextNode(s.slice(last)));
+        textNode.parentNode.replaceChild(frag, textNode);
+      });
+    }
+    window.__ssKwPaint = paint;
+    function run() {
+      paint();
+      var queued = false;
+      var obs = new MutationObserver(function () {
+        if (queued) return;
+        queued = true;
+        requestAnimationFrame(function () { queued = false; paint(); });
+      });
+      obs.observe(document.body, { childList: true, subtree: true });
+    }
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', run);
+    } else {
+      run();
+    }
+  })();
+</script>

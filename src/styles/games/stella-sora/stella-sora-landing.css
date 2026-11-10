@@ -5,7 +5,7 @@
   margin-bottom: 2rem;
   background: rgba(35, 35, 35, 0.95);
   border-radius: 16px;
-  border: 1px solid var(--ss-border);
+  border: 1px solid var(--stss-border);
 }
 
 .section-title {
@@ -13,7 +13,7 @@
   margin-bottom: 1.5rem;
   font-weight: 700;
   text-align: center;
-  color: var(--ss-primary);
+  color: var(--stss-primary);
 }
 
 .ss-resources-section {
@@ -21,7 +21,7 @@
   margin-bottom: 2rem;
   background: rgba(35, 35, 35, 0.95);
   border-radius: 16px;
-  border: 1px solid var(--ss-border);
+  border: 1px solid var(--stss-border);
 }
 
 .ss-resources-title {
@@ -29,7 +29,7 @@
   margin-bottom: 1.5rem;
   font-weight: 700;
   text-align: center;
-  color: var(--ss-primary);
+  color: var(--stss-primary);
 }
 
 .ss-resources-title-link {
@@ -38,7 +38,7 @@
   display: block;
   margin: 0 auto;
   max-width: fit-content;
-  transition: var(--ss-transition);
+  transition: var(--stss-transition);
 }
 
 .ss-resources-grid {
@@ -55,7 +55,7 @@
   background: #1e1e1e;
   padding: 2rem;
   border-radius: 16px;
-  border: 1px solid var(--ss-border);
+  border: 1px solid var(--stss-border);
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -112,7 +112,7 @@
   padding: 1rem;
   border-radius: 12px;
   background: rgba(255, 255, 255, 0.08);
-  border: 1px solid var(--ss-border);
+  border: 1px solid var(--stss-border);
   font-size: var(--text-md);
   font-weight: 500;
   text-align: center;
@@ -133,7 +133,7 @@
   display: inline-flex;
   align-items: center;
   gap: 0.75rem;
-  background: var(--ss-primary);
+  background: var(--stss-primary);
   color: white;
   padding: 1rem 2rem;
   border-radius: 50px;
@@ -164,7 +164,7 @@
   font-size: var(--text-lg);
   font-family: var(--font-display);
   font-weight: var(--font-semibold);
-  color: var(--ss-primary);
+  color: var(--stss-primary);
   margin-bottom: 1rem;
 }
 
@@ -191,21 +191,21 @@
 .story-content p {
   font-size: var(--text-base);
   font-family: var(--font-primary);
-  font-weight: var(--ss-font-normal);
+  font-weight: var(--stss-font-normal);
   line-height: 1.8;
   margin-bottom: 1.5rem;
-  color: var(--ss-text-secondary);
+  color: var(--stss-text-secondary);
   text-align: left;
 }
 
 .story-heading {
   font-size: var(--text-xl);
   font-family: var(--font-display);
-  font-weight: var(--ss-font-bold);
+  font-weight: var(--stss-font-bold);
   margin: 1.5rem 0 0.75rem 0;
   text-align: left;
-  color: var(--ss-primary);
-  border-left: 3px solid var(--ss-border);
+  color: var(--stss-primary);
+  border-left: 3px solid var(--stss-border);
   padding-left: 0.75rem;
 }
 
@@ -242,10 +242,10 @@
 .hero-title {
   font-size: var(--text-4xl);
   font-family: var(--font-display);
-  font-weight: var(--ss-font-bold);
+  font-weight: var(--stss-font-bold);
   margin: 2rem 0;
   line-height: var(--leading-normal);
-  color: var(--ss-primary);
+  color: var(--stss-primary);
 }
 
 .hero-version-link {
@@ -259,10 +259,10 @@
 .hero-version {
   font-size: var(--text-lg);
   font-family: var(--font-display);
-  font-weight: var(--ss-font-semibold);
+  font-weight: var(--stss-font-semibold);
   margin: 0.5rem 0 1rem 0;
   line-height: var(--leading-normal);
-  color: var(--ss-primary);
+  color: var(--stss-primary);
   text-align: center;
   letter-spacing: 0.05em;
 }
@@ -275,10 +275,10 @@
 .title-only-heading {
   font-size: var(--text-4xl);
   font-family: var(--font-display);
-  font-weight: var(--ss-font-bold);
+  font-weight: var(--stss-font-bold);
   margin: 2.5rem 0;
   line-height: var(--leading-normal);
-  color: var(--ss-primary);
+  color: var(--stss-primary);
 }
 
 .features-grid {
@@ -289,24 +289,24 @@
 }
 
 .feature-card {
-  background: var(--ss-bg-secondary);
+  background: var(--stss-bg-secondary);
   padding: 1.5rem;
   border-radius: 10px;
-  border: 1px solid var(--ss-border);
+  border: 1px solid var(--stss-border);
 }
 
 .feature-title {
   font-size: var(--text-xl);
   font-family: var(--font-display);
   font-weight: var(--font-semibold);
-  color: var(--ss-primary);
+  color: var(--stss-primary);
   margin-bottom: 0.8rem;
 }
 
 .feature-description {
   font-size: var(--text-base);
   font-family: var(--font-primary);
-  color: var(--ss-text-secondary);
+  color: var(--stss-text-secondary);
   line-height: 1.5;
 }
 
@@ -315,38 +315,38 @@
   padding: 3rem 2rem;
   background: rgba(102, 126, 234, 0.1);
   border-radius: 10px;
-  border: 1px solid var(--ss-border);
+  border: 1px solid var(--stss-border);
 }
 
 .coming-soon-notice p {
   font-size: var(--text-lg);
-  color: var(--ss-primary);
+  color: var(--stss-primary);
   margin-bottom: 1rem;
   line-height: 1.6;
 }
 
 .ss-breadcrumb {
-  margin: var(--ss-spacing-lg) 0;
-  padding: 0 var(--ss-spacing-md);
+  margin: var(--stss-spacing-lg) 0;
+  padding: 0 var(--stss-spacing-md);
 }
 
 .ss-breadcrumb-container {
   display: flex;
   align-items: center;
-  gap: var(--ss-spacing-lg);
+  gap: var(--stss-spacing-lg);
   flex-wrap: wrap;
 }
 
 .ss-breadcrumb-back {
   display: flex;
   align-items: center;
-  gap: var(--ss-spacing-sm);
-  color: var(--ss-text-secondary);
+  gap: var(--stss-spacing-sm);
+  color: var(--stss-text-secondary);
   text-decoration: none;
-  padding: var(--ss-spacing-sm) var(--ss-spacing-md);
-  border-radius: var(--ss-radius-md);
-  background: var(--ss-bg-secondary);
-  border: 1px solid var(--ss-border);
+  padding: var(--stss-spacing-sm) var(--stss-spacing-md);
+  border-radius: var(--stss-radius-md);
+  background: var(--stss-bg-secondary);
+  border: 1px solid var(--stss-border);
   font-size: var(--text-sm);
   font-family: var(--font-primary);
 }
@@ -358,7 +358,7 @@
 .ss-breadcrumb-list {
   display: flex;
   align-items: center;
-  gap: var(--ss-spacing-sm);
+  gap: var(--stss-spacing-sm);
   list-style: none;
   margin: 0;
   padding: 0;
@@ -368,26 +368,26 @@
 .ss-breadcrumb-item {
   display: flex;
   align-items: center;
-  gap: var(--ss-spacing-sm);
+  gap: var(--stss-spacing-sm);
 }
 
 .ss-breadcrumb-link {
-  color: var(--ss-text-secondary);
+  color: var(--stss-text-secondary);
   text-decoration: none;
-  padding: var(--ss-spacing-xs) var(--ss-spacing-sm);
-  border-radius: var(--ss-radius-sm);
+  padding: var(--stss-spacing-xs) var(--stss-spacing-sm);
+  border-radius: var(--stss-radius-sm);
   font-size: var(--text-sm);
   font-family: var(--font-primary);
 }
 
 .ss-breadcrumb-separator {
-  color: var(--ss-text-muted);
+  color: var(--stss-text-muted);
   font-size: var(--text-sm);
-  margin: 0 var(--ss-spacing-xs);
+  margin: 0 var(--stss-spacing-xs);
 }
 
 .ss-breadcrumb-current {
-  color: var(--ss-primary);
+  color: var(--stss-primary);
   font-weight: var(--font-semibold);
   font-size: var(--text-sm);
   font-family: var(--font-primary);

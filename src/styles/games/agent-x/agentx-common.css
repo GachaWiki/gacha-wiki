@@ -185,7 +185,7 @@
 .ax-skill-id {
   font-size: var(--text-xs);
   color: var(--ax-text-muted);
-  font-family: monospace;
+  font-family: var(--font-mono);
 }
 
 .ax-buff-chips {

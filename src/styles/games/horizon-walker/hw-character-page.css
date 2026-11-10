@@ -1002,8 +1002,9 @@
     padding: 1rem 1.25rem;
     margin-bottom: 2rem;
     display: flex;
-    align-items: center;
-    gap: 1rem;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0.5rem;
   }
 
   .demiskill-info-banner p {

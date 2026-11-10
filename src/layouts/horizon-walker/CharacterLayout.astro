@@ -66,16 +66,17 @@ const { title, description, gameTitle } = Astro.props;
 
       <div class="horizon-walker-container">
         <main class="horizon-walker-main" id="main-content">
-          <!-- Character Database Hero Section -->
-          <section class="hw-char-db-hero-section">
-            <!-- Page Title -->
-            <h1 class="hw-char-db-hero-title">{gameTitle || 'Character Database'}</h1>
+          {gameTitle && (
+            <section class="hw-char-db-hero-section">
+              <!-- Page Title -->
+              <h1 class="hw-char-db-hero-title">{gameTitle}</h1>
 
-            <!-- Subtitle -->
-            <p class="hw-char-db-hero-subtitle">Database that has all Characters, and waifu</p>
+              <!-- Subtitle -->
+              <p class="hw-char-db-hero-subtitle">Database that has all Characters, and waifu</p>
 
-            <DecorativeLines />
-          </section>
+              <DecorativeLines />
+            </section>
+          )}
 
           <!-- Breadcrumb Navigation -->
           <Breadcrumb autoGenerate={true} gameKey="horizon-walker" showBackButton={true} />

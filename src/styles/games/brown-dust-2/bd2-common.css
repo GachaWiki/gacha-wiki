@@ -1105,7 +1105,7 @@ a.bd2-card:active {
 }
 
 .bd2-code-value {
-  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-family: var(--font-mono);
   font-size: var(--text-2xl);
   font-weight: 800;
   letter-spacing: 0.08em;
@@ -1165,7 +1165,7 @@ a.bd2-card:active {
 }
 
 .bd2-code-expired-value {
-  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-family: var(--font-mono);
   font-weight: 700;
 }
 

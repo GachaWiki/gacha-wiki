@@ -39,7 +39,7 @@
 }
 
 .hw-code-value {
-  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-family: var(--font-mono);
   font-weight: var(--font-bold);
   color: var(--success-color, #4caf50);
   white-space: nowrap;

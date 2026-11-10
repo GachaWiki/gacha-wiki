@@ -7,7 +7,7 @@ export const damageMechanicsIndex = {
     description:
       "Complete collection of Zone Nova damage mechanics, character calculations, and mathematical formulas. Your one-stop guide for understanding the game's combat system.",
     lastUpdated: new Date(),
-    totalGuides: 3, // Will be updated as we add more
+    totalGuides: 4, // Will be updated as we add more
   },
 
   // Hero section content
@@ -47,6 +47,20 @@ export const damageMechanicsIndex = {
             'Defense vs Resistance explained',
             'Attack speed decoded',
             'Crit and DOT rules',
+          ],
+        },
+        {
+          id: 'stat-stacking-guide',
+          title: 'Stat Stacking Guide',
+          description:
+            'Which stats to stack: Defense vs element Resistance, ATK vs element DMG, and the multiplicative layer rule with worked numbers',
+          url: '/guides/zone-nova/damage-mechanics/stat-stacking/',
+          difficulty: 'Intermediate',
+          estimatedTime: '5 min read',
+          features: [
+            'Defense diminishing returns math',
+            'ATK bucket saturation example',
+            'Per-stat quick reference',
           ],
         },
         {

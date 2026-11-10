@@ -71,7 +71,7 @@
 /* Stats page */
 .ax-formula {
   text-align: center;
-  font-family: monospace;
+  font-family: var(--font-mono);
   font-size: var(--text-body);
   color: var(--ax-primary);
   background: var(--ax-bg-tertiary);

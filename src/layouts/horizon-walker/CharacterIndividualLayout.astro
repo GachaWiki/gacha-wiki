@@ -53,7 +53,7 @@ const characterSlug = urlParts[urlParts.length - 1] || '';
           title={title}
           description={description}
           additionalKeywords={[
-            gameTitle?.toLowerCase() || '',
+            character?.name?.toLowerCase() || gameTitle?.toLowerCase() || '',
             'waifu guide',
             'character build',
             'stats guide 2025',

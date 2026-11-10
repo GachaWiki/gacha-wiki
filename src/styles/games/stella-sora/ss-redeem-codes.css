@@ -10,10 +10,10 @@
 
 /* Main Container - Single Container for Everything */
 .main-container {
-  background: var(--ss-bg-secondary);
+  background: var(--stss-bg-secondary);
   border-radius: 16px;
   padding: 2rem;
-  border: 1px solid var(--ss-border);
+  border: 1px solid var(--stss-border);
   display: flex;
   flex-direction: column;
   gap: 3rem;
@@ -24,16 +24,16 @@
 .instructions-section,
 .expired-section,
 .community-section {
-  background: var(--ss-bg-card);
+  background: var(--stss-bg-card);
   border-radius: 12px;
   padding: 2rem;
-  border: 1px solid var(--ss-border);
+  border: 1px solid var(--stss-border);
 }
 
 /* Header section - clean and readable warning box */
 .header-section {
-  background: var(--ss-bg-card);
-  border: 1px solid var(--ss-border);
+  background: var(--stss-bg-card);
+  border: 1px solid var(--stss-border);
   border-radius: 8px;
   padding: 1.5rem;
   margin: 0 auto;
@@ -43,25 +43,25 @@
 /* Warning Content Styles - Clean and readable */
 .important-notice {
   font-size: var(--text-base);
-  color: var(--ss-text-primary);
+  color: var(--stss-text-primary);
   font-weight: 500;
   margin: 0 0 1rem 0;
   line-height: 1.5;
   padding: 0.75rem;
   background: rgba(245, 158, 11, 0.1);
   border-radius: 6px;
-  border: 1px solid var(--ss-border);
+  border: 1px solid var(--stss-border);
 }
 
 .header-section h3 {
-  color: var(--ss-text-primary);
+  color: var(--stss-primary);
   margin-bottom: 0.75rem;
   font-size: var(--text-lg);
   font-weight: 600;
 }
 
 .header-section p {
-  color: var(--ss-text-secondary);
+  color: var(--stss-text-secondary);
   line-height: 1.6;
   margin: 0 0 1rem 0;
 }
@@ -71,18 +71,18 @@
 }
 
 .last-updated {
-  color: var(--ss-text-tertiary);
+  color: var(--stss-text-tertiary);
   font-size: var(--text-md);
   margin-top: 1.5rem;
   padding-top: 1rem;
-  border-top: 1px solid var(--ss-border);
+  border-top: 1px solid var(--stss-border);
   font-style: normal;
   opacity: 0.8;
 }
 
 .redeem-codes-description {
   font-size: var(--text-lg);
-  color: var(--ss-text-secondary);
+  color: var(--stss-text-secondary);
   line-height: 1.6;
   max-width: 60rem;
   margin: 0 auto 2rem;
@@ -90,8 +90,8 @@
 
 /* Warning Card - SS Style */
 .redeem-codes-warning {
-  background: var(--ss-bg-secondary);
-  border: 1px solid var(--ss-border);
+  background: var(--stss-bg-secondary);
+  border: 1px solid var(--stss-border);
   border-radius: 12px;
   padding: 1.5rem;
   margin: 2rem auto;
@@ -99,21 +99,21 @@
 }
 
 .redeem-codes-warning h3 {
-  color: var(--ss-text-primary);
+  color: var(--stss-primary);
   margin-bottom: 0.5rem;
   font-size: var(--text-lg);
   font-weight: 600;
 }
 
 .redeem-codes-warning p {
-  color: var(--ss-text-secondary);
+  color: var(--stss-text-secondary);
   line-height: 1.5;
   margin: 0;
   font-size: var(--text-base);
 }
 
 .last-updated {
-  color: var(--ss-text-tertiary);
+  color: var(--stss-text-tertiary);
   font-size: var(--text-md);
   margin-top: 1rem;
   font-style: italic;
@@ -123,14 +123,14 @@
 .section-title {
   font-size: var(--text-3xl);
   font-weight: 600;
-  color: var(--ss-text-primary);
+  color: var(--stss-primary);
   margin: 0 0 1.5rem 0;
   text-align: center;
 }
 
 .section-description {
   text-align: center;
-  color: var(--ss-text-secondary);
+  color: var(--stss-text-secondary);
   margin-bottom: 2rem;
   font-size: var(--text-lg);
   line-height: 1.6;
@@ -145,8 +145,8 @@
 }
 
 .redeem-code-card {
-  background: var(--ss-bg-card);
-  border: 1px solid var(--ss-border);
+  background: var(--stss-bg-card);
+  border: 1px solid var(--stss-border);
   border-radius: 12px;
   padding: 1.5rem;
   position: relative;
@@ -163,7 +163,7 @@
   top: 0;
   bottom: 0;
   width: 3px;
-  background: var(--ss-primary);
+  background: var(--stss-primary);
   transform: scaleY(0);
 }
 
@@ -179,7 +179,7 @@
 
 .code-label {
   font-size: var(--text-sm);
-  color: var(--ss-text-tertiary);
+  color: var(--stss-text-tertiary);
   text-transform: uppercase;
   letter-spacing: 0.05em;
   margin-bottom: 0.25rem;
@@ -189,7 +189,7 @@
   font-family: var(--font-mono);
   font-size: var(--text-2xl);
   font-weight: 600;
-  color: var(--ss-text-primary);
+  color: var(--stss-text-primary);
   letter-spacing: 0.05em;
   margin: 0.5rem 0;
   word-break: break-all;
@@ -212,18 +212,18 @@
 
 .code-status.working {
   background: rgba(16, 185, 129, 0.2);
-  color: var(--ss-text-primary);
-  border: 1px solid var(--ss-border);
+  color: var(--stss-text-primary);
+  border: 1px solid var(--stss-border);
 }
 
 .code-status.unknown {
   background: rgba(245, 158, 11, 0.2);
-  color: var(--ss-text-primary);
-  border: 1px solid var(--ss-border);
+  color: var(--stss-text-primary);
+  border: 1px solid var(--stss-border);
 }
 
 .code-date {
-  color: var(--ss-text-muted);
+  color: var(--stss-text-muted);
   font-size: var(--text-sm);
 }
 
@@ -233,9 +233,9 @@
 }
 
 .copy-button {
-  background: var(--ss-bg-tertiary);
-  color: var(--ss-text-primary);
-  border: 1px solid var(--ss-border);
+  background: var(--stss-bg-tertiary);
+  color: var(--stss-text-primary);
+  border: 1px solid var(--stss-border);
   padding: 0.75rem 1.5rem;
   border-radius: 8px;
   font-weight: 600;
@@ -252,8 +252,8 @@
 }
 
 .copy-button:active {
-  background: var(--ss-primary);
-  color: var(--ss-text-light);
+  background: var(--stss-primary);
+  color: var(--stss-text-light);
 }
 
 .copy-button:disabled {
@@ -263,13 +263,13 @@
 
 .copy-button.copy-success {
   background: #10b981;
-  border-color: var(--ss-text-primary);
+  border-color: var(--stss-text-primary);
   color: white;
 }
 
 /* Instructions Section - Direct styling */
 .instructions-section h3 {
-  color: var(--ss-text-primary);
+  color: var(--stss-primary);
   margin-bottom: 1.5rem;
   font-size: var(--text-2xl);
   font-weight: 600;
@@ -279,7 +279,7 @@
 .instruction-step {
   margin-bottom: 2rem;
   padding-bottom: 2rem;
-  border-bottom: 1px solid var(--ss-border);
+  border-bottom: 1px solid var(--stss-border);
 }
 
 .instruction-step:last-child {
@@ -306,14 +306,14 @@
 }
 
 .instruction-step h4 {
-  color: var(--ss-primary);
+  color: var(--stss-primary);
   font-size: var(--text-xl);
   margin-bottom: 0.5rem;
   font-weight: 600;
 }
 
 .instruction-step p {
-  color: var(--ss-text-secondary);
+  color: var(--stss-text-secondary);
   line-height: 1.6;
   margin: 0;
 }
@@ -322,14 +322,14 @@
 .empty-section {
   text-align: center;
   padding: 2rem;
-  background: var(--ss-bg-secondary);
-  border: 1px solid var(--ss-border);
+  background: var(--stss-bg-secondary);
+  border: 1px solid var(--stss-border);
   border-radius: 12px;
   margin-top: 1.5rem;
 }
 
 .empty-message {
-  color: var(--ss-text-secondary);
+  color: var(--stss-text-secondary);
   font-size: var(--text-lg);
   margin: 0;
   font-style: italic;
@@ -338,8 +338,8 @@
 /* Expired Codes */
 .redeem-code-card.expired {
   opacity: 0.7;
-  border-color: var(--ss-border);
-  background: var(--ss-bg-secondary);
+  border-color: var(--stss-border);
+  background: var(--stss-bg-secondary);
 }
 
 
@@ -357,14 +357,14 @@
 .redeem-code-text {
   font-size: var(--text-xl);
   font-weight: 600;
-  color: var(--ss-text-muted);
+  color: var(--stss-text-muted);
   text-decoration: line-through;
   font-family: var(--font-mono);
 }
 
 .expired-label {
-  background: var(--ss-error);
-  color: var(--ss-text-primary);
+  background: var(--stss-error);
+  color: var(--stss-text-primary);
   padding: 0.25rem 0.75rem;
   border-radius: 20px;
   font-weight: 600;
@@ -373,7 +373,7 @@
 }
 
 .code-expiry {
-  color: var(--ss-text-muted);
+  color: var(--stss-text-muted);
   font-size: var(--text-md);
   margin: 0;
 }
@@ -406,22 +406,22 @@
 
 
 .community-button.contribute {
-  background: var(--ss-primary);
-  color: var(--ss-text-primary);
-  border-color: var(--ss-border);
+  background: var(--stss-primary);
+  color: var(--stss-text-primary);
+  border-color: var(--stss-border);
 }
 
 
 .community-button.github {
   background: transparent;
-  color: var(--ss-text-secondary);
-  border: 1px solid var(--ss-border);
+  color: var(--stss-text-secondary);
+  border: 1px solid var(--stss-border);
 }
 
 
 /* Copy Success State */
 .code-copied {
-  border-color: var(--ss-text-primary) !important;
+  border-color: var(--stss-text-primary) !important;
 }
 
 /* Responsive Design */

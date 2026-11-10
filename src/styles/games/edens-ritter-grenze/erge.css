@@ -98,7 +98,7 @@
 }
 
 .erge-code {
-  font-family: ui-monospace, Consolas, monospace;
+  font-family: var(--font-mono);
   font-size: var(--text-sm);
   background: rgba(0, 0, 0, 0.45);
   border: 1px solid var(--erge-border);

@@ -9,7 +9,7 @@
 
 .tag-selection-intro p,
 .character-info h3 {
-  color: #c0c0c0;
+  color: var(--sab-text-light);
 }
 
 .tag-selection-intro .intro-text {
@@ -25,14 +25,14 @@
 }
 
 .tag-selection-intro .section-title {
-  color: #c0c0c0;
+  color: var(--sab-calm-red, #c26b6b);
   font-size: var(--text-4xl);
   font-weight: 700;
   margin-bottom: 1rem;
 }
 
 .tag-selection-intro .intro-text {
-  color: #a0a0a0;
+  color: var(--sab-text-medium);
   margin: 1rem 0;
   font-size: var(--text-base);
 }
@@ -56,7 +56,7 @@
 }
 
 .tag-selector h2 {
-  color: #c0c0c0;
+  color: var(--sab-calm-red, #c26b6b);
   font-weight: 600;
   font-size: var(--text-xl);
   text-align: center;
@@ -209,7 +209,7 @@
 }
 
 .results-header h2 {
-  color: #c0c0c0;
+  color: var(--sab-calm-red, #c26b6b);
   font-size: var(--text-2xl);
   font-weight: 600;
 }
@@ -222,7 +222,7 @@
 }
 
 .match-count {
-  color: #a0a0a0;
+  color: var(--sab-text-medium);
   font-size: var(--text-md);
   white-space: nowrap;
 }

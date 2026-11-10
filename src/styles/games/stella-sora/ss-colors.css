@@ -2,99 +2,99 @@
 
 :root {
   /* Primary Stella Sora brand colors - Premium sky blue */
-  --ss-primary: #7dd3fc;
-  --ss-primary-hover: #38bdf8;
-  --ss-primary-light: #bae6fd;
-  --ss-primary-dark: #0ea5e9;
+  --stss-primary: #7dd3fc;
+  --stss-primary-hover: #38bdf8;
+  --stss-primary-light: #bae6fd;
+  --stss-primary-dark: #0ea5e9;
 
   /* Accent colors - Premium mint green for highlights */
-  --ss-accent: #6ee7b7;
-  --ss-accent-hover: #34d399;
-  --ss-accent-light: #a7f3d0;
-  --ss-accent-dark: #22c55e;
-  --ss-accent-20: rgba(110, 231, 183, 0.1);
+  --stss-accent: #6ee7b7;
+  --stss-accent-hover: #34d399;
+  --stss-accent-light: #a7f3d0;
+  --stss-accent-dark: #22c55e;
+  --stss-accent-20: rgba(110, 231, 183, 0.1);
 
   /* Secondary color - Additional accent color */
-  --ss-secondary: #6ee7b7;
-  --ss-secondary-hover: #34d399;
-  --ss-secondary-light: #a7f3d0;
+  --stss-secondary: #6ee7b7;
+  --stss-secondary-hover: #34d399;
+  --stss-secondary-light: #a7f3d0;
 
   /* Background colors - Dark theme with blue-green gradient accents */
-  --ss-bg-primary: #1a1a1a;
-  --ss-bg-secondary: #1f2422;
-  --ss-bg-tertiary: #252a29;
-  --ss-bg-card: #212426;
-  --ss-bg-hover: #262a2a;
+  --stss-bg-primary: #1a1a1a;
+  --stss-bg-secondary: #1f2422;
+  --stss-bg-tertiary: #252a29;
+  --stss-bg-card: #212426;
+  --stss-bg-hover: #262a2a;
 
   /* Text colors - Original light text for dark backgrounds */
-  --ss-text-primary: #ffffff;
-  --ss-text-secondary: #b3b3b3;
-  --ss-text-tertiary: #999999;
-  --ss-text-muted: #666666;
-  --ss-text-light: #c0c0c0;
+  --stss-text-primary: #ffffff;
+  --stss-text-secondary: #b3b3b3;
+  --stss-text-tertiary: #999999;
+  --stss-text-muted: #666666;
+  --stss-text-light: #c0c0c0;
 
   /* Tertiary color for badges and special elements */
-  --ss-tertiary: #0ea5e9;
+  --stss-tertiary: #0ea5e9;
 
   /* Element-specific colors */
-  --ss-element-aqua: #3b82f6;
-  --ss-element-ignis: #dc2626;
-  --ss-element-lux: #ffd700;
-  --ss-element-terra: #8b4513;
-  --ss-element-umbra: #6b46c1;
-  --ss-element-ventus: #10b981;
+  --stss-element-aqua: #3b82f6;
+  --stss-element-ignis: #dc2626;
+  --stss-element-lux: #ffd700;
+  --stss-element-terra: #8b4513;
+  --stss-element-umbra: #6b46c1;
+  --stss-element-ventus: #10b981;
 
   /* Danger button colors */
-  --ss-danger: #ef4444;
-  --ss-danger-hover: #dc2626;
+  --stss-danger: #ef4444;
+  --stss-danger-hover: #dc2626;
 
   /* Common opacity patterns */
-  --ss-white-opacity-02: rgba(255, 255, 255, 0.02);
-  --ss-white-opacity-05: rgba(255, 255, 255, 0.05);
-  --ss-white-opacity-06: rgba(255, 255, 255, 0.06);
-  --ss-white-opacity-08: rgba(255, 255, 255, 0.08);
+  --stss-white-opacity-02: rgba(255, 255, 255, 0.02);
+  --stss-white-opacity-05: rgba(255, 255, 255, 0.05);
+  --stss-white-opacity-06: rgba(255, 255, 255, 0.06);
+  --stss-white-opacity-08: rgba(255, 255, 255, 0.08);
 
   /* Border colors - Original subtle borders */
-  --ss-border: #404040;
-  --ss-border-light: #555555;
-  --ss-border-dark: #2a2a2a;
-  --ss-border-subtle: rgba(255, 255, 255, 0.05);
-  --ss-primary-subtle: rgba(125, 211, 252, 0.2);
-  --ss-primary-border: rgba(125, 211, 252, 0.3);
+  --stss-border: #404040;
+  --stss-border-light: #555555;
+  --stss-border-dark: #2a2a2a;
+  --stss-border-subtle: rgba(255, 255, 255, 0.05);
+  --stss-primary-subtle: rgba(125, 211, 252, 0.2);
+  --stss-primary-border: rgba(125, 211, 252, 0.3);
 
   /* Shadows */
-  --ss-shadow-sm: 0 2px 8px rgba(125, 211, 252, 0.2);
+  --stss-shadow-sm: 0 2px 8px rgba(125, 211, 252, 0.2);
 
   /* Status colors - Soft versions */
-  --ss-success: #10b981;
-  --ss-warning: #f59e0b;
-  --ss-error: #f87171;
-  --ss-info: #60a5fa;
+  --stss-success: #10b981;
+  --stss-warning: #f59e0b;
+  --stss-error: #f87171;
+  --stss-info: #60a5fa;
 
   /* Rarity colors for Stella Sora characters - Premium happy theme */
-  --ss-legendary: #fbbf24;
-  --ss-five-star: #ef4444; /* More distinct red for 5-star */
-  --ss-epic: #9333ea; /* Distinct purple for 4-star */
-  --ss-rare: #7dd3fc;
-  --ss-common: #9ca3af;
-  --ss-mythic: #34d399;
+  --stss-legendary: #fbbf24;
+  --stss-five-star: #ef4444; /* More distinct red for 5-star */
+  --stss-epic: #9333ea; /* Distinct purple for 4-star */
+  --stss-rare: #7dd3fc;
+  --stss-common: #9ca3af;
+  --stss-mythic: #34d399;
 
   /* Background Gradients - Original dark backgrounds with blue/green accents */
-  --ss-gradient-primary: linear-gradient(
+  --stss-gradient-primary: linear-gradient(
     135deg,
-    var(--ss-bg-primary) 0%,
-    var(--ss-bg-secondary) 35%,
-    var(--ss-bg-tertiary) 100%
+    var(--stss-bg-primary) 0%,
+    var(--stss-bg-secondary) 35%,
+    var(--stss-bg-tertiary) 100%
   );
-  --ss-gradient-secondary: linear-gradient(
+  --stss-gradient-secondary: linear-gradient(
     135deg,
-    var(--ss-bg-secondary) 0%,
-    var(--ss-bg-tertiary) 100%
+    var(--stss-bg-secondary) 0%,
+    var(--stss-bg-tertiary) 100%
   );
-  --ss-gradient-card: linear-gradient(135deg, var(--ss-bg-card) 0%, var(--ss-bg-secondary) 100%);
+  --stss-gradient-card: linear-gradient(135deg, var(--stss-bg-card) 0%, var(--stss-bg-secondary) 100%);
 
   /* Background gradients for main layout */
-  --ss-bg-gradient-primary: linear-gradient(
+  --stss-bg-gradient-primary: linear-gradient(
     135deg,
     #1a1a1a 0%,
     #1f2422 25%,
@@ -102,24 +102,24 @@
     #1a1d1f 75%,
     #1a1a1a 100%
   );
-  --ss-bg-gradient-subtle: linear-gradient(
+  --stss-bg-gradient-subtle: linear-gradient(
     135deg,
-    var(--ss-bg-secondary) 0%,
-    var(--ss-bg-tertiary) 100%
+    var(--stss-bg-secondary) 0%,
+    var(--stss-bg-tertiary) 100%
   );
-  --ss-bg-gradient-hero: linear-gradient(
+  --stss-bg-gradient-hero: linear-gradient(
     180deg,
     rgba(26, 26, 26, 0.9) 0%,
     rgba(58, 58, 58, 0.8) 100%
   );
 
   /* Star-themed gradients for Nova Continent - Premium happy theme */
-  --ss-gradient-star: linear-gradient(135deg, #7dd3fc 0%, #6ee7b7 50%, #bae6fd 100%);
-  --ss-gradient-trekker: linear-gradient(135deg, #7dd3fc 0%, #38bdf8 100%);
-  --ss-gradient-nature: linear-gradient(135deg, #0ea5e9 0%, #6ee7b7 50%, #a7f3d0 100%);
+  --stss-gradient-star: linear-gradient(135deg, #7dd3fc 0%, #6ee7b7 50%, #bae6fd 100%);
+  --stss-gradient-trekker: linear-gradient(135deg, #7dd3fc 0%, #38bdf8 100%);
+  --stss-gradient-nature: linear-gradient(135deg, #0ea5e9 0%, #6ee7b7 50%, #a7f3d0 100%);
 
   /* Clock-specific gradient with blue-green in black */
-  --ss-bg-gradient-clock: linear-gradient(
+  --stss-bg-gradient-clock: linear-gradient(
     135deg,
     #1a1a1a 0%,
     #1f2422 25%,
@@ -129,71 +129,71 @@
   );
 
   /* Transitions */
-  --ss-transition: all 0.2s ease-in-out;
-  --ss-transition-slow: all 0.3s ease-in-out;
+  --stss-transition: all 0.2s ease-in-out;
+  --stss-transition-slow: all 0.3s ease-in-out;
 
   /* Additional card and border variables for shop events */
-  --ss-bg-card: #212426;
-  --ss-gradient-card: linear-gradient(135deg, var(--ss-bg-card) 0%, var(--ss-bg-secondary) 100%);
-  --ss-primary-border: rgba(125, 211, 252, 0.3);
-  --ss-border: #404040;
-  --ss-shadow-sm: 0 2px 8px rgba(125, 211, 252, 0.2);
+  --stss-bg-card: #212426;
+  --stss-gradient-card: linear-gradient(135deg, var(--stss-bg-card) 0%, var(--stss-bg-secondary) 100%);
+  --stss-primary-border: rgba(125, 211, 252, 0.3);
+  --stss-border: #404040;
+  --stss-shadow-sm: 0 2px 8px rgba(125, 211, 252, 0.2);
 
   /* Dimensions - Following other games pattern */
-  --ss-radius-sm: 4px; /* Small border radius */
-  --ss-radius-md: 8px; /* Medium border radius */
-  --ss-radius-lg: 12px; /* Large border radius */
+  --stss-radius-sm: 4px; /* Small border radius */
+  --stss-radius-md: 8px; /* Medium border radius */
+  --stss-radius-lg: 12px; /* Large border radius */
 
   /* Spacing - Following other games pattern */
-  --ss-spacing-xs: 0.25rem; /* Extra small spacing */
-  --ss-spacing-sm: 0.5rem; /* Small spacing */
-  --ss-spacing-md: 1rem; /* Medium spacing */
-  --ss-spacing-lg: 1.5rem; /* Large spacing */
-  --ss-spacing-xl: 2rem; /* Extra large spacing */
+  --stss-spacing-xs: 0.25rem; /* Extra small spacing */
+  --stss-spacing-sm: 0.5rem; /* Small spacing */
+  --stss-spacing-md: 1rem; /* Medium spacing */
+  --stss-spacing-lg: 1.5rem; /* Large spacing */
+  --stss-spacing-xl: 2rem; /* Extra large spacing */
 
   /* Font weights - Following global typography system */
-  --ss-font-normal: 400; /* Normal weight */
-  --ss-font-medium: 500; /* Medium weight */
-  --ss-font-semibold: 600; /* Semibold weight */
-  --ss-font-bold: 700; /* Bold weight */
+  --stss-font-normal: 400; /* Normal weight */
+  --stss-font-medium: 500; /* Medium weight */
+  --stss-font-semibold: 600; /* Semibold weight */
+  --stss-font-bold: 700; /* Bold weight */
 
   /* Additional SS badge colors for skill types */
-  --ss-level-purple: rgba(167, 139, 250, 0.1);
-  --ss-level-color: #a78bfa;
-  --ss-level-border: rgba(167, 139, 250, 0.2);
+  --stss-level-purple: rgba(167, 139, 250, 0.1);
+  --stss-level-color: #a78bfa;
+  --stss-level-border: rgba(167, 139, 250, 0.2);
 
   /* Versatile role color - Purple/Indigo theme */
-  --ss-versatile: #8b5cf6;
-  --ss-versatile-hover: #7c3aed;
-  --ss-versatile-light: #a78bfa;
-  --ss-versatile-dark: #6d28d9;
+  --stss-versatile: #8b5cf6;
+  --stss-versatile-hover: #7c3aed;
+  --stss-versatile-light: #a78bfa;
+  --stss-versatile-dark: #6d28d9;
 
   /* Skill type opacity patterns */
-  --ss-error-opacity-25: rgba(248, 113, 113, 0.25);
-  --ss-primary-opacity-25: rgba(125, 211, 252, 0.25);
-  --ss-accent-opacity-25: rgba(110, 231, 183, 0.25);
-  --ss-legendary-opacity-25: rgba(251, 191, 36, 0.25);
-  --ss-info-opacity-15: rgba(96, 165, 250, 0.15);
-  --ss-mythic-opacity-15: rgba(52, 211, 153, 0.15);
+  --stss-error-opacity-25: rgba(248, 113, 113, 0.25);
+  --stss-primary-opacity-25: rgba(125, 211, 252, 0.25);
+  --stss-accent-opacity-25: rgba(110, 231, 183, 0.25);
+  --stss-legendary-opacity-25: rgba(251, 191, 36, 0.25);
+  --stss-info-opacity-15: rgba(96, 165, 250, 0.15);
+  --stss-mythic-opacity-15: rgba(52, 211, 153, 0.15);
 }
 
 /* Global Design Tokens - Required by shop event components */
 :root {
   /* Global aliases for consistency with shop event CSS */
-  --spacing-xs: var(--ss-spacing-xs);
-  --spacing-sm: var(--ss-spacing-sm);
-  --spacing-md: var(--ss-spacing-md);
-  --spacing-lg: var(--ss-spacing-lg);
-  --spacing-xl: var(--ss-spacing-xl);
+  --spacing-xs: var(--stss-spacing-xs);
+  --spacing-sm: var(--stss-spacing-sm);
+  --spacing-md: var(--stss-spacing-md);
+  --spacing-lg: var(--stss-spacing-lg);
+  --spacing-xl: var(--stss-spacing-xl);
 
-  --radius-sm: var(--ss-radius-sm);
-  --radius-md: var(--ss-radius-md);
-  --radius-lg: var(--ss-radius-lg);
+  --radius-sm: var(--stss-radius-sm);
+  --radius-md: var(--stss-radius-md);
+  --radius-lg: var(--stss-radius-lg);
 
-  --font-normal: var(--ss-font-normal);
-  --font-medium: var(--ss-font-medium);
-  --font-semibold: var(--ss-font-semibold);
-  --font-bold: var(--ss-font-bold);
+  --font-normal: var(--stss-font-normal);
+  --font-medium: var(--stss-font-medium);
+  --font-semibold: var(--stss-font-semibold);
+  --font-bold: var(--stss-font-bold);
 }
 
 /* Background layer classes for visual depth */
@@ -211,22 +211,22 @@
 
 /* Stella Sora specific component classes */
 .ss-card {
-  background: var(--ss-gradient-card);
-  border: 1px solid var(--ss-border);
+  background: var(--stss-gradient-card);
+  border: 1px solid var(--stss-border);
   border-radius: 12px;
-  transition: var(--ss-transition);
+  transition: var(--stss-transition);
 }
 
 
 .ss-button {
-  background: var(--ss-gradient-star);
-  color: var(--ss-text-primary);
+  background: var(--stss-gradient-star);
+  color: var(--stss-text-primary);
   border: none;
   border-radius: 8px;
   padding: 12px 24px;
   font-weight: 500;
   cursor: pointer;
-  transition: var(--ss-transition);
+  transition: var(--stss-transition);
 }
 
 
@@ -236,56 +236,68 @@
 
 /* Character/Trekker rarity indicators */
 .ss-rarity-legendary {
-  color: var(--ss-legendary);
+  color: var(--stss-legendary);
 }
 
 .ss-rarity-epic {
-  color: var(--ss-epic);
+  color: var(--stss-epic);
 }
 
 .ss-rarity-rare {
-  color: var(--ss-rare);
+  color: var(--stss-rare);
 }
 
 .ss-rarity-common {
-  color: var(--ss-common);
+  color: var(--stss-common);
 }
 
 /* Utility classes */
 .ss-bg-primary {
-  background-color: var(--ss-bg-primary);
+  background-color: var(--stss-bg-primary);
 }
 .ss-bg-secondary {
-  background-color: var(--ss-bg-secondary);
+  background-color: var(--stss-bg-secondary);
 }
 .ss-bg-tertiary {
-  background-color: var(--ss-bg-tertiary);
+  background-color: var(--stss-bg-tertiary);
 }
 
 .ss-text-primary {
-  color: var(--ss-text-primary);
+  color: var(--stss-text-primary);
 }
 .ss-text-secondary {
-  color: var(--ss-text-secondary);
+  color: var(--stss-text-secondary);
 }
 .ss-text-muted {
-  color: var(--ss-text-muted);
+  color: var(--stss-text-muted);
 }
 
 .ss-border {
-  border-color: var(--ss-border);
+  border-color: var(--stss-border);
 }
 .ss-border-light {
-  border-color: var(--ss-border-light);
+  border-color: var(--stss-border-light);
 }
 
 /* Star Tower themed elements - Static */
 .ss-star-element {
-  background: var(--ss-gradient-nature);
+  background: var(--stss-gradient-nature);
   border-radius: 50%;
 }
 
 .ss-happy-glow {
-  background: var(--ss-gradient-star);
+  background: var(--stss-gradient-star);
   border-radius: 12px;
 }
+
+/* Keyword color system: element / position / attack-type / style names carry
+   their own color wherever they appear (char hero meta, disc meta). Tokens only. */
+.ss-kw-element-aqua { color: var(--stss-element-aqua); }
+.ss-kw-element-ignis { color: var(--stss-element-ignis); }
+.ss-kw-element-ventus { color: var(--stss-element-ventus); }
+.ss-kw-element-terra { color: var(--stss-element-terra); }
+.ss-kw-element-lux { color: var(--stss-element-lux); }
+.ss-kw-element-umbra { color: var(--stss-element-umbra); }
+.ss-kw-position { color: var(--stss-primary); }
+.ss-kw-attack { color: var(--stss-warning); }
+.ss-kw-style { color: var(--stss-accent); }

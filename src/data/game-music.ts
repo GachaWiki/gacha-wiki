@@ -79,7 +79,7 @@ export const GAME_MUSIC: Partial<Record<GameKey, GameMusicConfig>> = {
     ],
     accent: '#e8a53d',
     accentBorder: 'rgba(232, 165, 61, 0.4)',
-    idleBorder: 'var(--ss-border, #404040)',
+    idleBorder: 'var(--stss-border, #404040)',
     idleColor: '#b3b3b3',
   },
   'gene-sys-adam': {

@@ -8,14 +8,14 @@
 
 .banner-timeline-content h1 {
   text-align: center;
-  color: var(--ss-text-primary);
+  color: var(--stss-text-primary);
   margin-bottom: 1rem;
   font-size: var(--text-5xl);
 }
 
 .intro-text {
   text-align: center;
-  color: var(--ss-text-secondary);
+  color: var(--stss-text-secondary);
   margin-bottom: 2rem;
   font-size: var(--text-base);
   max-width: 760px;
@@ -29,15 +29,15 @@
   flex-wrap: wrap;
   align-items: center;
   gap: 0.5rem;
-  background: var(--ss-bg-card);
-  border: 1px solid var(--ss-border);
+  background: var(--stss-bg-card);
+  border: 1px solid var(--stss-border);
   border-radius: 10px;
   padding: 0.9rem 1rem;
   margin-bottom: 2rem;
 }
 
 .ss-legend-text {
-  color: var(--ss-text-secondary);
+  color: var(--stss-text-secondary);
   font-size: var(--text-md);
   line-height: 1.5;
   flex: 1 1 320px;
@@ -49,11 +49,11 @@
 }
 
 .ss-section-title {
-  color: var(--ss-text-primary);
+  color: var(--stss-primary);
   font-size: var(--text-2xl);
   margin-bottom: 1rem;
   padding-bottom: 0.5rem;
-  border-bottom: 1px solid var(--ss-border);
+  border-bottom: 1px solid var(--stss-border);
 }
 
 /* Solid badge chips (game-wide convention: filled bg, white text, 5px radius) */
@@ -70,7 +70,7 @@
 }
 
 .ss-chip--limited {
-  background: var(--ss-primary, #3d7dd8);
+  background: var(--stss-primary, #3d7dd8);
 }
 
 .ss-chip--exclusive {
@@ -79,11 +79,11 @@
 }
 
 .ss-chip--rateup {
-  background: var(--ss-success, #2f9e63);
+  background: var(--stss-success, #2f9e63);
 }
 
 .ss-chip--beginner {
-  background: var(--ss-epic, #8b5cf6);
+  background: var(--stss-epic, #8b5cf6);
 }
 
 .ss-chip--rerun {
@@ -91,11 +91,11 @@
 }
 
 .ss-chip--status.ss-chip--current {
-  background: var(--ss-success, #2f9e63);
+  background: var(--stss-success, #2f9e63);
 }
 
 .ss-chip--status.ss-chip--upcoming {
-  background: var(--ss-info, #3d8fd8);
+  background: var(--stss-info, #3d8fd8);
 }
 
 .ss-chip--status.ss-chip--ended {
@@ -105,8 +105,8 @@
 
 /* Run cards */
 .ss-run {
-  background: var(--ss-bg-card);
-  border: 1px solid var(--ss-border);
+  background: var(--stss-bg-card);
+  border: 1px solid var(--stss-border);
   border-radius: 10px;
   overflow: hidden;
 }
@@ -138,7 +138,7 @@
 }
 
 .ss-run-num {
-  color: var(--ss-text-tertiary);
+  color: var(--stss-text-tertiary);
   font-size: var(--text-sm);
   font-weight: 700;
 }
@@ -148,7 +148,7 @@
   display: block;
   width: 100%;
   height: auto;
-  background: var(--ss-bg-tertiary);
+  background: var(--stss-bg-tertiary);
 }
 
 .ss-run-body {
@@ -156,13 +156,13 @@
 }
 
 .ss-run-title {
-  color: var(--ss-text-primary);
+  color: var(--stss-primary);
   font-size: var(--text-lg);
   margin: 0 0 0.35rem;
 }
 
 .ss-run-type {
-  color: var(--ss-text-tertiary);
+  color: var(--stss-text-tertiary);
   font-size: var(--text-sm);
   text-transform: uppercase;
   letter-spacing: 0.05em;
@@ -174,7 +174,7 @@
 .ss-run-countdown,
 .ss-run-guarantee,
 .ss-run-boosted {
-  color: var(--ss-text-secondary);
+  color: var(--stss-text-secondary);
   font-size: var(--text-md);
   margin: 0 0 0.35rem;
   line-height: 1.5;
@@ -182,11 +182,11 @@
 
 .ss-run-featured strong,
 .ss-run-period strong {
-  color: var(--ss-text-primary);
+  color: var(--stss-text-primary);
 }
 
 .ss-run-featured a {
-  color: var(--ss-primary-light, #7fb1ec);
+  color: var(--stss-primary-light, #7fb1ec);
   text-decoration: none;
 }
 
@@ -195,28 +195,28 @@
 }
 
 .ss-run-countdown {
-  color: var(--ss-primary-light, #7fb1ec);
-  font-weight: var(--ss-font-semibold, 600);
+  color: var(--stss-primary-light, #7fb1ec);
+  font-weight: var(--stss-font-semibold, 600);
 }
 
 .ss-run--ended .ss-run-countdown {
-  color: var(--ss-text-tertiary);
-  font-weight: var(--ss-font-normal, 400);
+  color: var(--stss-text-tertiary);
+  font-weight: var(--stss-font-normal, 400);
 }
 
 .ss-run-guarantee {
-  color: var(--ss-five-star, #e8a53d);
+  color: var(--stss-five-star, #e8a53d);
 }
 
 .ss-run-desc {
-  color: var(--ss-text-secondary);
+  color: var(--stss-text-secondary);
   font-size: var(--text-md);
   line-height: 1.55;
   margin: 0.6rem 0 0;
 }
 
 .ss-run-note {
-  color: var(--ss-text-tertiary);
+  color: var(--stss-text-tertiary);
   font-size: var(--text-sm);
   line-height: 1.5;
   margin: 0.4rem 0 0;

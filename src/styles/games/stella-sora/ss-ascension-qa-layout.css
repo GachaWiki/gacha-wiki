@@ -10,9 +10,9 @@
 /* Intro */
 .ascension-intro {
   font-size: var(--text-sm);
-  color: var(--ss-text-secondary);
-  background: var(--ss-bg-secondary);
-  border: 1px solid var(--ss-border);
+  color: var(--stss-text-secondary);
+  background: var(--stss-bg-secondary);
+  border: 1px solid var(--stss-border);
   border-radius: 12px;
   padding: 1rem 1.25rem;
   margin: 0 0 2rem 0;
@@ -27,27 +27,27 @@
 .ascension-search-input {
   width: 100%;
   padding: 0.75rem 1rem;
-  background: var(--ss-bg-secondary);
-  border: 1px solid var(--ss-border);
+  background: var(--stss-bg-secondary);
+  border: 1px solid var(--stss-border);
   border-radius: 12px;
-  color: var(--ss-text-primary);
+  color: var(--stss-text-primary);
   font-size: var(--text-sm);
   font-family: var(--font-primary);
 }
 
 .ascension-search-input:focus {
   outline: none;
-  border-color: var(--ss-border);
+  border-color: var(--stss-border);
 }
 
 .ascension-search-input::placeholder {
-  color: var(--ss-text-muted);
+  color: var(--stss-text-muted);
 }
 
 /* No Results */
 .ascension-no-results {
-  background: var(--ss-bg-secondary);
-  border: 1px solid var(--ss-border);
+  background: var(--stss-bg-secondary);
+  border: 1px solid var(--stss-border);
   border-radius: 12px;
   padding: 2rem 1.25rem;
   text-align: center;
@@ -58,13 +58,13 @@
   font-family: var(--font-display), sans-serif;
   font-size: var(--text-base);
   font-weight: 600;
-  color: var(--ss-text-primary);
+  color: var(--stss-primary);
   margin: 0 0 0.35rem 0;
 }
 
 .ascension-no-results-hint {
   font-size: var(--text-sm);
-  color: var(--ss-text-secondary);
+  color: var(--stss-text-secondary);
   margin: 0;
   line-height: 1.5;
 }
@@ -90,12 +90,12 @@
   font-family: var(--font-display), sans-serif;
   font-size: var(--text-xl);
   font-weight: 700;
-  color: var(--ss-text-primary);
+  color: var(--stss-primary);
   margin: 0;
 }
 
 .ascension-event-name {
-  color: var(--ss-primary);
+  color: var(--stss-primary);
   font-size: var(--text-base);
   font-weight: 600;
 }
@@ -103,8 +103,8 @@
 .ascension-event-reward {
   font-size: var(--text-xs);
   font-weight: 600;
-  color: var(--ss-bg-primary);
-  background: var(--ss-primary);
+  color: var(--stss-bg-primary);
+  background: var(--stss-primary);
   padding: 0.35rem 0.75rem;
   border-radius: 6px;
   white-space: nowrap;
@@ -119,8 +119,8 @@
 
 /* Q&A Card */
 .qa-card {
-  background: var(--ss-bg-card);
-  border: 1px solid var(--ss-border);
+  background: var(--stss-bg-card);
+  border: 1px solid var(--stss-border);
   border-radius: 12px;
   padding: 1.5rem;
 }
@@ -132,7 +132,7 @@
   gap: 0.75rem;
   margin-bottom: 1rem;
   padding-bottom: 1rem;
-  border-bottom: 1px solid var(--ss-border);
+  border-bottom: 1px solid var(--stss-border);
 }
 
 .qa-avatar {
@@ -146,7 +146,7 @@
   font-family: var(--font-display), sans-serif;
   font-size: var(--text-base);
   font-weight: 600;
-  color: var(--ss-primary);
+  color: var(--stss-primary);
 }
 
 /* Question */
@@ -154,7 +154,7 @@
   font-family: var(--font-display), sans-serif;
   font-size: var(--text-lg);
   font-weight: 500;
-  color: var(--ss-text-primary);
+  color: var(--stss-text-primary);
   line-height: 1.4;
   margin: 0 0 1.25rem 0;
 }
@@ -179,7 +179,7 @@
 
 .qa-option.correct {
   background: rgba(110, 231, 183, 0.12);
-  border: 1px solid var(--ss-border);
+  border: 1px solid var(--stss-border);
 }
 
 .qa-option:not(.correct) {
@@ -206,17 +206,17 @@
 
 .qa-option:not(.correct) .option-num {
   background: rgba(255, 255, 255, 0.08);
-  color: var(--ss-text-secondary);
+  color: var(--stss-text-secondary);
 }
 
 .option-text {
   flex: 1;
-  color: var(--ss-text-primary);
+  color: var(--stss-text-primary);
   line-height: 1.4;
 }
 
 .qa-option:not(.correct) .option-text {
-  color: var(--ss-text-secondary);
+  color: var(--stss-text-secondary);
 }
 
 .correct-badge {
@@ -241,20 +241,20 @@
   font-family: var(--font-display), sans-serif;
   font-size: var(--text-xl);
   font-weight: 700;
-  color: var(--ss-text-primary);
+  color: var(--stss-primary);
   margin: 0 0 0.5rem 0;
 }
 
 .ascension-other-intro {
   font-size: var(--text-sm);
-  color: var(--ss-text-secondary);
+  color: var(--stss-text-secondary);
   margin: 0 0 1.5rem 0;
   line-height: 1.55;
 }
 
 .ascension-event-group {
-  background: var(--ss-bg-card);
-  border: 1px solid var(--ss-border);
+  background: var(--stss-bg-card);
+  border: 1px solid var(--stss-border);
   border-radius: 12px;
   padding: 1.25rem 1.5rem;
   margin-bottom: 1.25rem;
@@ -264,13 +264,13 @@
   font-family: var(--font-display), sans-serif;
   font-size: var(--text-base);
   font-weight: 600;
-  color: var(--ss-primary);
+  color: var(--stss-primary);
   margin: 0 0 0.35rem 0;
 }
 
 .ascension-event-group-note {
   font-size: var(--text-xs);
-  color: var(--ss-text-secondary);
+  color: var(--stss-text-secondary);
   margin: 0 0 0.9rem 0;
   line-height: 1.5;
 }
@@ -290,7 +290,7 @@
   gap: 0.6rem;
   padding: 0.45rem 0.65rem;
   background: rgba(255, 255, 255, 0.03);
-  border: 1px solid var(--ss-border);
+  border: 1px solid var(--stss-border);
   border-radius: 8px;
   font-size: var(--text-xs);
 }
@@ -299,12 +299,12 @@
   flex-shrink: 0;
   font-family: var(--font-display), sans-serif;
   font-weight: 600;
-  color: var(--ss-primary-light);
+  color: var(--stss-primary-light);
   white-space: nowrap;
 }
 
 .ascension-event-label {
-  color: var(--ss-text-secondary);
+  color: var(--stss-text-secondary);
   line-height: 1.35;
 }
 

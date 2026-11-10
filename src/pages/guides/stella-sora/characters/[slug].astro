@@ -40,6 +40,7 @@ const charArt = CHAR_ART[character.slug];
 
 // Official Trekker PV video (absent for characters Yostar has not featured yet)
 const charVideo = CHAR_VIDEOS[character.slug];
+const discAtkBase = character.disc?.stats?.statRows?.find((s: any) => s.id === 'atk')?.value ?? 0;
 
 // Safety check to ensure character data exists
 if (!character) {
@@ -279,7 +280,7 @@ function getTotalDupes(rarity: string): number {
 }
 ---
 
-<CharacterIndividualLayout title={character.name} gameTitle={character.name} character={character}>
+<CharacterIndividualLayout title={character.name} character={character}>
   <div class="character-content">
     <!-- Character Header -->
     <section class="character-header">
@@ -306,39 +307,39 @@ function getTotalDupes(rarity: string): number {
         <div class="character-details">
           <h1>{character.name}</h1>
           <div class="character-meta">
-            <div class="rarity-badge-container">
-              <SSRarityImage
-                rarity={character.grade || 4}
-                alt={character.rarity}
-                width={80}
-                height={24}
-              />
-            </div>
-            <div class="element-badge-container">
+            <div class="meta-icons">
+              <div class="rarity-badge-container">
+                <SSRarityImage
+                  rarity={character.grade || 4}
+                  alt={character.rarity}
+                  width={80}
+                  height={24}
+                />
+              </div>
               <div class="element-icon-detail">
                 <SSElementImage elementName={character.element} alt={character.element} />
               </div>
-              <span class="meta-value">{character.element || 'Unknown'}</span>
-            </div>
-            <span class="meta-value">{character.role || 'Unknown'}</span>
-            {
-              character.attackType && (
-                <div class="attack-type-badge-container">
-                  <div class="attack-type-icon-detail">
-                    <SSAttackTypeImage
-                      attackType={character.attackType}
-                      alt={character.attackType}
-                    />
-                  </div>
-                  <span class="meta-value">{character.attackType}</span>
+              {character.attackType && (
+                <div class="attack-type-icon-detail">
+                  <SSAttackTypeImage
+                    attackType={character.attackType}
+                    alt={character.attackType}
+                  />
                 </div>
-              )
-            }
-            {
-              character.style && (
-                <span class="meta-value">{character.style}</span>
-              )
-            }
+              )}
+            </div>
+            <p class="meta-text-line">
+              <span
+                class={`ss-kw-element-${(character.element || 'unknown').toLowerCase()}`}
+              >
+                {character.element || 'Unknown'}
+              </span>
+              {character.role && <span>, <span class="ss-kw-position">{character.role}</span></span>}
+              {character.attackType && (
+                <span>, <span class="ss-kw-attack">{character.attackType}</span></span>
+              )}
+              {character.style && <span>, <span class="ss-kw-style">{character.style}</span></span>}
+            </p>
           </div>
           <div class="character-lore">
             <h3>Lore</h3>
@@ -1784,7 +1785,15 @@ function getTotalDupes(rarity: string): number {
               />
             </div>
             <div class="disc-hero-info">
-              <h3>{character.disc.name}</h3>
+              <div class="disc-title-row">
+                <h3>{character.disc.name}</h3>
+                <a
+                  href={`/guides/stella-sora/discs/${character.disc.slug}`}
+                  class="view-full-disc-link"
+                >
+                  Full Disc Details
+                </a>
+              </div>
               <div class="disc-rarity-row">
                 <SSRarityImage
                   rarity={character.disc.star}
@@ -1794,7 +1803,9 @@ function getTotalDupes(rarity: string): number {
                   height={24}
                 />
                 <p class="disc-meta-line">
-                  <span class={`element-word word-${character.disc.element.toLowerCase()}`}>
+                  <span
+                    class={`element-word ss-kw-element-${character.disc.element.toLowerCase()}`}
+                  >
                     <SSElementImage
                       elementName={character.disc.element}
                       alt={character.disc.element}
@@ -1808,41 +1819,43 @@ function getTotalDupes(rarity: string): number {
                   )}
                 </p>
               </div>
-              <a
-                href={`/guides/stella-sora/discs/${character.disc.slug}`}
-                class="view-full-disc-link"
-              >
-                View Full Disc Details
-              </a>
-            </div>
-          </div>
-
-          <div class="disc-details-grid">
-            <div class="disc-card disc-stats-card">
-              <h4>Stats Details (LV. 90)</h4>
-              <div class="disc-stats-list">
-                {(character.disc.stats.statRows || []).map((stat: any) => (
-                  <div class="disc-stat-item">
-                    <span class="stat-label">
-                      <HighlightedText text={`${stat.label}:`} />
-                    </span>
-                    {stat.id === 'atk' ? (
-                      <span class="stat-value-wrap">
-                        <span class="stat-value disc-atk-value">
-                          {(
-                            stat.value +
-                            (character.disc.stats.dupeAtkTiers?.[
-                              character.disc.stats.dupeAtkTiers.length - 1
-                            ] || 0)
-                          )?.toLocaleString() || 'N/A'}
-                        </span>
-                        {character.disc.stats.dupeAtkTiers &&
-                          character.disc.stats.dupeAtkTiers.length > 1 && (
+              <div class="disc-hero-stats">
+                <h4>Stats (LV. 90)</h4>
+                <table class="disc-stats-table">
+                  <tbody>
+                    {(character.disc.stats.statRows || []).map((stat: any) => (
+                      <tr>
+                        <td class="stat-label">
+                          <HighlightedText text={`${stat.label}:`} />
+                        </td>
+                        {stat.id === 'atk' ? (
+                          <td class="stat-value disc-atk-value">
+                            {(
+                              stat.value +
+                              (character.disc.stats.dupeAtkTiers?.[
+                                character.disc.stats.dupeAtkTiers.length - 1
+                              ] || 0)
+                            )?.toLocaleString() || 'N/A'}
+                          </td>
+                        ) : (
+                          <td class="stat-value">
+                            {stat.value?.toLocaleString()}{stat.unit || ''}
+                          </td>
+                        )}
+                      </tr>
+                    ))}
+                    {character.disc.stats.dupeAtkTiers &&
+                      character.disc.stats.dupeAtkTiers.length > 1 && (
+                        <tr class="disc-dupe-row">
+                          <td class="stat-label">
+                            <HighlightedText text="Dupes:" />
+                          </td>
+                          <td class="stat-value">
                             <span
                               class="dupe-tier-row"
                               role="group"
                               aria-label="Dupe level"
-                              data-base={stat.value}
+                              data-base={discAtkBase}
                               data-tiers={JSON.stringify(character.disc.stats.dupeAtkTiers)}
                             >
                               {character.disc.stats.dupeAtkTiers.map((_: number, i: number) => (
@@ -1859,198 +1872,154 @@ function getTotalDupes(rarity: string): number {
                                 </button>
                               ))}
                             </span>
-                          )}
-                      </span>
-                    ) : (
-                      <span class="stat-value">
-                        {stat.value?.toLocaleString()}{stat.unit || ''}
-                      </span>
-                    )}
-                  </div>
-                ))}
+                          </td>
+                        </tr>
+                      )}
+                  </tbody>
+                </table>
               </div>
             </div>
+          </div>
 
-            <div class="disc-card disc-skills-card">
+          <div class="disc-details-grid">
+            <div class="disc-table-block">
               <h4>Skills</h4>
-              <div class="disc-skills-content">
-                <div class="disc-skill">
-                  <div class="disc-skill-header">
-                    <span class="skill-number">1</span>
-                    <div class="disc-skill-title">
-                      <h5>Melody Skill</h5>
-                      <h6>{character.disc.skills.melody.name}</h6>
-                    </div>
-                  </div>
-                  <div class="skill-description">
-                    <HighlightedText text={character.disc.skills.melody.effect} />
-                  </div>
-                </div>
-
-                {/* Handle Harmony Skills - can be single object or array */}
-                {Array.isArray(character.disc.skills.harmony) ? (
-                  (character.disc.skills.harmony as any[]).map(
-                    (harmonySkill: any, harmonyIndex: number) => (
-                      <div class="disc-skill">
-                        <div class="disc-skill-header">
-                          <span class="skill-number">2.{harmonyIndex + 1}</span>
-                          <div class="disc-skill-title">
-                            <h5>Harmony Skill</h5>
-                            <h6>{harmonySkill.name}</h6>
-                          </div>
-                        </div>
-                        <div class="skill-level">
-                          <HighlightedText text={`Lv. ${harmonySkill.level}`} />
-                        </div>
+              <table class="disc-skills-table">
+                <tbody>
+                  <tr>
+                    <td class="skill-num">1</td>
+                    <td class="skill-type-cell">Melody Skill</td>
+                    <td class="skill-name-cell">{character.disc.skills.melody.name}</td>
+                    <td class="skill-lv-cell">Max</td>
+                    <td class="skill-effect-cell">
+                      <div class="skill-description">
+                        <HighlightedText text={character.disc.skills.melody.effect} />
+                      </div>
+                    </td>
+                  </tr>
+                  {(
+                    Array.isArray(character.disc.skills.harmony)
+                      ? character.disc.skills.harmony
+                      : [character.disc.skills.harmony]
+                  ).map((harmonySkill: any, harmonyIndex: number) => (
+                    <>
+                      {harmonySkill && (
+                        <tr>
+                          <td class="skill-num">{harmonyIndex + 2}</td>
+                          <td class="skill-type-cell">Harmony Skill</td>
+                          <td class="skill-name-cell">{harmonySkill.name}</td>
+                          <td class="skill-lv-cell">Lv. {harmonySkill.level}</td>
+                          <td class="skill-effect-cell">
+                            <div class="skill-description">
+                              <HighlightedText text={harmonySkill.effect} />
+                            </div>
+                            {harmonySkill.requirements && (
+                              <div class="skill-requirements">
+                                <h6>Activation Requirements:</h6>
+                                <div class="requirements-list">
+                                  {Object.entries(harmonySkill.requirements).map(
+                                    ([melody, requirement]) => (
+                                      <div class="requirement">
+                                        <SSNotesImage
+                                          imageName={`${melody.replace(/ /g, '_')}.jpg`}
+                                          alt={melody}
+                                          width={32}
+                                          height={32}
+                                        />
+                                        <div class="requirement-info">
+                                          <span class="melody-name">{melody}</span>
+                                          <span class="requirement-level">{requirement}</span>
+                                        </div>
+                                      </div>
+                                    )
+                                  )}
+                                </div>
+                              </div>
+                            )}
+                          </td>
+                        </tr>
+                      )}
+                    </>
+                  ))}
+                  {character.disc.skills.skill && (
+                    <tr>
+                      <td class="skill-num">3</td>
+                      <td class="skill-type-cell">Skill</td>
+                      <td class="skill-name-cell">{character.disc.skills.skill.name}</td>
+                      <td class="skill-lv-cell">Lv. {character.disc.skills.skill.level}</td>
+                      <td class="skill-effect-cell">
                         <div class="skill-description">
-                          <HighlightedText text={harmonySkill.effect} />
+                          <HighlightedText text={character.disc.skills.skill.effect} />
                         </div>
-                        {harmonySkill.requirements && (
-                          <div class="skill-requirements">
-                            <h6>Activation Requirements:</h6>
-                            <div class="requirements-list">
-                              {Object.entries(harmonySkill.requirements).map(
-                                ([melody, requirement]) => (
-                                  <div class="requirement">
-                                    <SSNotesImage
-                                      imageName={`${melody.replace(/ /g, '_')}.jpg`}
-                                      alt={melody}
-                                      width={32}
-                                      height={32}
-                                    />
-                                    <div class="requirement-info">
-                                      <span class="melody-name">{melody}</span>
-                                      <span class="requirement-level">{requirement}</span>
-                                    </div>
+                        <div class="skill-requirements">
+                          <h6>Activation Requirements:</h6>
+                          <div class="requirements-list">
+                            {Object.entries(character.disc.skills.skill.requirements).map(
+                              ([melody, requirement]) => (
+                                <div class="requirement">
+                                  <SSNotesImage
+                                    imageName={`${melody.replace(/ /g, '_')}.jpg`}
+                                    alt={melody}
+                                    width={32}
+                                    height={32}
+                                  />
+                                  <div class="requirement-info">
+                                    <span class="melody-name">{melody}</span>
+                                    <span class="requirement-level">{requirement}</span>
                                   </div>
-                                )
-                              )}
-                            </div>
+                                </div>
+                              )
+                            )}
                           </div>
-                        )}
-                      </div>
-                    )
-                  )
-                ) : (
-                  <div class="disc-skill">
-                    <div class="disc-skill-header">
-                      <span class="skill-number">2</span>
-                      <div class="disc-skill-title">
-                        <h5>Harmony Skill</h5>
-                        <h6>{character.disc.skills.harmony.name}</h6>
-                      </div>
-                    </div>
-                    <div class="skill-level">
-                      <HighlightedText text={`Lv. ${character.disc.skills.harmony.level}`} />
-                    </div>
-                    <div class="skill-description">
-                      <HighlightedText text={character.disc.skills.harmony.effect} />
-                    </div>
-                    <div class="skill-requirements">
-                      <h6>Activation Requirements:</h6>
-                      <div class="requirements-list">
-                        {Object.entries(character.disc.skills.harmony.requirements).map(
-                          ([melody, requirement]) => (
-                            <div class="requirement">
-                              <SSNotesImage
-                                imageName={`${melody.replace(/ /g, '_')}.jpg`}
-                                alt={melody}
-                                width={32}
-                                height={32}
-                              />
-                              <div class="requirement-info">
-                                <span class="melody-name">{melody}</span>
-                                <span class="requirement-level">{requirement}</span>
-                              </div>
-                            </div>
-                          )
-                        )}
-                      </div>
-                    </div>
-                  </div>
-                )}
-
-                {/* Optional Skill section - not all discs have this */}
-                {character.disc.skills.skill && (
-                  <div class="disc-skill">
-                    <div class="disc-skill-header">
-                      <span class="skill-number">3</span>
-                      <div class="disc-skill-title">
-                        <h5>Skill</h5>
-                        <h6>{character.disc.skills.skill.name}</h6>
-                      </div>
-                    </div>
-                    <div class="skill-level">
-                      <HighlightedText text={`Lv. ${character.disc.skills.skill.level}`} />
-                    </div>
-                    <div class="skill-description">
-                      <HighlightedText text={character.disc.skills.skill.effect} />
-                    </div>
-                    <div class="skill-requirements">
-                      <h6>Activation Requirements:</h6>
-                      <div class="requirements-list">
-                        {Object.entries(character.disc.skills.skill.requirements).map(
-                          ([melody, requirement]) => (
-                            <div class="requirement">
-                              <SSNotesImage
-                                imageName={`${melody.replace(/ /g, '_')}.jpg`}
-                                alt={melody}
-                                width={32}
-                                height={32}
-                              />
-                              <div class="requirement-info">
-                                <span class="melody-name">{melody}</span>
-                                <span class="requirement-level">{requirement}</span>
-                              </div>
-                            </div>
-                          )
-                        )}
-                      </div>
-                    </div>
-                  </div>
-                )}
-              </div>
+                        </div>
+                      </td>
+                    </tr>
+                  )}
+                </tbody>
+              </table>
             </div>
 
-            <div class="disc-card disc-support-card">
+            <div class="disc-table-block">
               <h4>Support Notes (Melody Notes Provided)</h4>
-              <div class="disc-support-content">
-                <div class="musical-notes-source">
-                  <h5>Musical Notes Source</h5>
-                  <p>
-                    Musical Notes are obtained through{' '}
-                    <strong>{character.disc.support.musicalNotesSource}</strong>.
-                  </p>
-                </div>
-
-                <div class="melodies">
+              <p class="disc-support-hint">
+                Musical Notes are obtained through{' '}
+                {character.disc.support.musicalNotesSource}.
+              </p>
+              <table class="disc-support-table">
+                <thead>
+                  <tr>
+                    <th>Note</th>
+                    <th>Base (Lv.1)</th>
+                    <th>Max (Lv.9)</th>
+                  </tr>
+                </thead>
+                <tbody>
                   {Object.entries(character.disc.support.melodies || {}).map(
                     ([melodyKey, melodyData]: [string, any]) => (
-                      <div class="melody-item">
-                        <div class="melody-header">
+                      <tr>
+                        <td class="support-note-cell">
                           <SSNotesImage
-                            imageName={`Melody_of_${melodyKey.charAt(0).toUpperCase() + melodyKey.slice(1)}.jpg`}
-                            alt={`Melody of ${melodyKey.charAt(0).toUpperCase() + melodyKey.slice(1)}`}
-                            width={50}
-                            height={50}
+                            imageName={`Melody_of_${
+                              melodyKey.charAt(0).toUpperCase() + melodyKey.slice(1)
+                            }.jpg`}
+                            alt={`Melody of ${
+                              melodyKey.charAt(0).toUpperCase() + melodyKey.slice(1)
+                            }`}
+                            width={32}
+                            height={32}
                           />
-                          <h5>
-                            Melody of {melodyKey.charAt(0).toUpperCase() + melodyKey.slice(1)}
-                          </h5>
-                        </div>
-                        <div class="melody-effects">
-                          <p>
-                            <strong>Base (Lv.1):</strong> {melodyData.baseEffect}
-                          </p>
-                          <p>
-                            <strong>Max (Lv.9):</strong> {melodyData.maxEffect}
-                          </p>
-                        </div>
-                      </div>
+                          <span>
+                            Melody of{' '}
+                            {melodyKey.charAt(0).toUpperCase() + melodyKey.slice(1)}
+                          </span>
+                        </td>
+                        <td class="support-val-cell">{melodyData.baseEffect}</td>
+                        <td class="support-val-cell">{melodyData.maxEffect}</td>
+                      </tr>
                     )
                   )}
-                </div>
-              </div>
+                </tbody>
+              </table>
             </div>
           </div>
         </section>
@@ -2659,7 +2628,7 @@ function getTotalDupes(rarity: string): number {
   // Disc dupe-level buttons: update Base ATK for the chosen dupe tier (D0-D5)
   function initializeDupeSelectors() {
     document.querySelectorAll('.dupe-tier-row').forEach(row => {
-      const valueEl = row.parentElement?.querySelector('.disc-atk-value');
+      const valueEl = row.closest('.disc-hero-stats')?.querySelector('.disc-atk-value');
       if (!valueEl) return;
       const base = Number(row.dataset.base || 0);
       let tiers = [];

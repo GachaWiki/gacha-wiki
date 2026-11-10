@@ -30,15 +30,11 @@
 
 /* Section titles - flat text */
 .builds-section-title {
-  color: var(--zn-text-primary);
+  color: var(--zn-primary);
   font-size: var(--text-3xl);
   font-weight: 700;
   margin: 0 0 1.5rem 0;
   text-align: left;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-  padding-left: 0.8rem;
-  border-left: 3px solid var(--zn-primary);
 }
 
 /* ═══════════════════════════════════════════════════════════════════════ */

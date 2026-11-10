@@ -45,7 +45,7 @@ export const clockLandingGames = [
     description: 'Fantasy RPG with Trekkers',
     image: '/images/games/stella-sora/gameimg/Banner.jpg',
     url: '/clock/stella-sora',
-    themeColor: 'var(--ss-primary)',
+    themeColor: 'var(--stss-primary)',
     active: true,
   },
   {

@@ -1,9 +1,9 @@
 /* Stella Sora Team Builds (System Presets) page styles */
 
 .team-builds-page {
-  background: var(--ss-bg-secondary);
-  border: 1px solid var(--ss-border);
-  border-radius: var(--ss-radius-lg);
+  background: var(--stss-bg-secondary);
+  border: 1px solid var(--stss-border);
+  border-radius: var(--stss-radius-lg);
   padding: 1.5rem;
   margin-bottom: 1.5rem;
 }
@@ -11,11 +11,11 @@
 .tbuilds-intro {
   margin: 0 0 1.25rem 0;
   font-size: var(--text-md);
-  color: var(--ss-text-secondary);
+  color: var(--stss-text-secondary);
 }
 
 .tbuilds-intro strong {
-  color: var(--ss-text-primary);
+  color: var(--stss-text-primary);
 }
 
 /* Controls */
@@ -31,19 +31,19 @@
   min-width: 220px;
   padding: 0.5rem 0.75rem;
   font-size: var(--text-md);
-  color: var(--ss-text-primary);
-  background: var(--ss-bg-tertiary);
-  border: 1px solid var(--ss-border);
-  border-radius: var(--ss-radius-sm);
+  color: var(--stss-text-primary);
+  background: var(--stss-bg-tertiary);
+  border: 1px solid var(--stss-border);
+  border-radius: var(--stss-radius-sm);
 }
 
 .tbuilds-select {
   padding: 0.5rem 0.75rem;
   font-size: var(--text-md);
-  color: var(--ss-text-primary);
-  background: var(--ss-bg-tertiary);
-  border: 1px solid var(--ss-border);
-  border-radius: var(--ss-radius-sm);
+  color: var(--stss-text-primary);
+  background: var(--stss-bg-tertiary);
+  border: 1px solid var(--stss-border);
+  border-radius: var(--stss-radius-sm);
 }
 
 /* Cards grid */
@@ -55,9 +55,9 @@
 
 .tbuild-card {
   position: relative;
-  background: var(--ss-bg-tertiary);
-  border: 1px solid var(--ss-border);
-  border-radius: var(--ss-radius-md);
+  background: var(--stss-bg-tertiary);
+  border: 1px solid var(--stss-border);
+  border-radius: var(--stss-radius-md);
   padding: 1rem;
   display: flex;
   flex-direction: column;
@@ -71,11 +71,11 @@
   position: absolute;
   inset: 0;
   z-index: 1;
-  border-radius: var(--ss-radius-md);
+  border-radius: var(--stss-radius-md);
 }
 
 .tbuild-card-link:focus-visible::after {
-  outline: 2px solid var(--ss-primary);
+  outline: 2px solid var(--stss-primary);
   outline-offset: 2px;
 }
 
@@ -89,8 +89,8 @@
 .tbuild-main-portrait {
   width: 84px;
   height: auto;
-  border-radius: var(--ss-radius-sm);
-  border: 1px solid var(--ss-border);
+  border-radius: var(--stss-radius-sm);
+  border: 1px solid var(--stss-border);
   background: rgba(0, 0, 0, 0.25);
   flex-shrink: 0;
 }
@@ -106,18 +106,18 @@
   margin: 0;
   font-size: var(--text-xl);
   font-weight: 700;
-  color: var(--ss-text-primary);
+  color: var(--stss-text-primary);
 }
 
 .tbuild-name a {
-  color: var(--ss-text-primary);
+  color: var(--stss-text-primary);
   text-decoration: none;
 }
 
 .tbuild-grade {
   font-size: var(--text-xs);
   font-weight: 600;
-  color: var(--ss-text-secondary);
+  color: var(--stss-text-secondary);
 }
 
 /* Primary call to action: the main thing people click */
@@ -130,12 +130,12 @@
   gap: 0.45rem;
   margin-top: auto;
   padding: 0.7rem 1rem;
-  background: var(--ss-primary-dark);
+  background: var(--stss-primary-dark);
   color: #fff;
   font-size: var(--text-body);
   font-weight: 700;
   text-decoration: none;
-  border-radius: var(--ss-radius-sm);
+  border-radius: var(--stss-radius-sm);
   user-select: none;
   -webkit-user-select: none;
   -webkit-tap-highlight-color: transparent;
@@ -148,7 +148,7 @@
 
 /* Preset blocks */
 .tbuild-preset {
-  border-top: 1px solid var(--ss-border);
+  border-top: 1px solid var(--stss-border);
   padding-top: 0.75rem;
 }
 
@@ -157,7 +157,7 @@
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.05em;
-  color: var(--ss-text-secondary);
+  color: var(--stss-text-secondary);
   margin-bottom: 0.5rem;
 }
 
@@ -177,9 +177,9 @@
   align-items: center;
   gap: 0.25rem;
   padding: 0.5rem 0.4rem;
-  background: var(--ss-white-opacity-05);
-  border: 1px solid var(--ss-border);
-  border-radius: var(--ss-radius-sm);
+  background: var(--stss-white-opacity-05);
+  border: 1px solid var(--stss-border);
+  border-radius: var(--stss-radius-sm);
   text-decoration: none;
 }
 
@@ -193,7 +193,7 @@
 .tbuild-member-name {
   font-size: var(--text-xs);
   font-weight: 600;
-  color: var(--ss-text-primary);
+  color: var(--stss-text-primary);
   text-align: center;
 }
 
@@ -202,17 +202,17 @@
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.05em;
-  color: var(--ss-text-secondary);
+  color: var(--stss-text-secondary);
 }
 
 .tbuild-member-role.role-main {
-  color: var(--ss-primary);
+  color: var(--stss-primary);
 }
 
 .tbuilds-empty {
   margin: 1rem 0 0 0;
   text-align: center;
-  color: var(--ss-text-secondary);
+  color: var(--stss-text-secondary);
 }
 
 @media (max-width: 768px) {
@@ -235,9 +235,9 @@
   text-transform: uppercase;
   letter-spacing: 0.06em;
   border-radius: 4px;
-  background: var(--ss-white-opacity-05);
-  border: 1px solid var(--ss-border);
-  color: var(--ss-text-secondary);
+  background: var(--stss-white-opacity-05);
+  border: 1px solid var(--stss-border);
+  color: var(--stss-text-secondary);
   vertical-align: middle;
 }
 
@@ -246,7 +246,7 @@
   display: flex;
   gap: 0.4rem;
   margin-bottom: 1rem;
-  border-bottom: 1px solid var(--ss-border);
+  border-bottom: 1px solid var(--stss-border);
 }
 
 .tbuild-tab {
@@ -257,14 +257,14 @@
   padding: 0.6rem 1rem;
   font-size: var(--text-body);
   font-weight: 700;
-  color: var(--ss-text-secondary);
+  color: var(--stss-text-secondary);
   border-bottom: 2px solid transparent;
   margin-bottom: -1px;
 }
 
 .tbuild-tab.active {
-  color: var(--ss-text-primary);
-  border-bottom-color: var(--ss-primary);
+  color: var(--stss-text-primary);
+  border-bottom-color: var(--stss-primary);
 }
 
 .tbuild-tab-count {
@@ -272,14 +272,14 @@
   padding: 0.05rem 0.45rem;
   font-size: var(--text-2xs);
   border-radius: 999px;
-  background: var(--ss-white-opacity-05);
-  border: 1px solid var(--ss-border);
-  color: var(--ss-text-secondary);
+  background: var(--stss-white-opacity-05);
+  border: 1px solid var(--stss-border);
+  color: var(--stss-text-secondary);
 }
 
 .tbuild-tab.active .tbuild-tab-count {
-  background: var(--ss-primary-dark);
-  border-color: var(--ss-primary-dark);
+  background: var(--stss-primary-dark);
+  border-color: var(--stss-primary-dark);
   color: #fff;
 }
 
@@ -291,21 +291,21 @@
 .community-meta {
   margin: 0 0 0.4rem 0;
   font-size: var(--text-md);
-  color: var(--ss-text-primary);
+  color: var(--stss-text-primary);
 }
 
 .community-note-top {
   margin: 0 0 1rem 0;
   font-size: var(--text-xs);
-  color: var(--ss-text-secondary);
+  color: var(--stss-text-secondary);
 }
 
 /* Landing page community tab: per-character blocks */
 .community-char {
   padding: 1rem;
-  background: var(--ss-bg-tertiary);
-  border: 1px solid var(--ss-border);
-  border-radius: var(--ss-radius-md);
+  background: var(--stss-bg-tertiary);
+  border: 1px solid var(--stss-border);
+  border-radius: var(--stss-radius-md);
   margin-bottom: 1rem;
 }
 
@@ -321,7 +321,7 @@
   height: 56px;
   border-radius: 8px;
   object-fit: cover;
-  border: 1px solid var(--ss-border);
+  border: 1px solid var(--stss-border);
 }
 
 .community-char-id {
@@ -336,7 +336,7 @@
 }
 
 .community-char-name a {
-  color: var(--ss-text-primary);
+  color: var(--stss-text-primary);
   text-decoration: none;
 }
 
@@ -350,7 +350,7 @@
   flex-shrink: 0;
   font-size: var(--text-sm);
   font-weight: 600;
-  color: var(--ss-primary);
+  color: var(--stss-primary);
   text-decoration: none;
 }
 
@@ -367,9 +367,9 @@
 
 .community-build {
   padding: 0.9rem;
-  background: var(--ss-white-opacity-05);
-  border: 1px solid var(--ss-border);
-  border-radius: var(--ss-radius-md);
+  background: var(--stss-white-opacity-05);
+  border: 1px solid var(--stss-border);
+  border-radius: var(--stss-radius-md);
   margin-bottom: 0.9rem;
 }
 
@@ -407,18 +407,18 @@
 }
 
 .community-build-name a {
-  color: var(--ss-primary);
+  color: var(--stss-primary);
   text-decoration: none;
 }
 
 .community-build-src {
   margin: 0 0 0.45rem 0;
   font-size: var(--text-sm);
-  color: var(--ss-text-secondary);
+  color: var(--stss-text-secondary);
 }
 
 .community-build-src a {
-  color: var(--ss-primary);
+  color: var(--stss-primary);
   text-decoration: none;
 }
 
@@ -429,9 +429,9 @@
   font-size: var(--text-xs);
   font-weight: 600;
   border-radius: 4px;
-  background: var(--ss-white-opacity-05);
-  border: 1px solid var(--ss-border);
-  color: var(--ss-text-secondary);
+  background: var(--stss-white-opacity-05);
+  border: 1px solid var(--stss-border);
+  color: var(--stss-text-secondary);
 }
 
 .community-team {
@@ -446,8 +446,8 @@
   align-items: center;
   gap: 0.4rem;
   padding: 0.22rem 0.6rem 0.22rem 0.25rem;
-  background: var(--ss-white-opacity-05);
-  border: 1px solid var(--ss-border);
+  background: var(--stss-white-opacity-05);
+  border: 1px solid var(--stss-border);
   border-radius: 999px;
   text-decoration: none;
 }
@@ -462,7 +462,7 @@
 .community-member-name {
   font-size: var(--text-sm);
   font-weight: 600;
-  color: var(--ss-text-primary);
+  color: var(--stss-text-primary);
 }
 
 .community-member-role {
@@ -470,13 +470,13 @@
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.05em;
-  color: var(--ss-primary);
+  color: var(--stss-primary);
 }
 
 .community-build-desc {
   margin: 0 0 0.6rem 0;
   font-size: var(--text-md);
-  color: var(--ss-text-primary);
+  color: var(--stss-text-primary);
   line-height: 1.55;
 }
 
@@ -497,7 +497,7 @@
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.06em;
-  color: var(--ss-text-secondary);
+  color: var(--stss-text-secondary);
 }
 
 .community-pot-picks {
@@ -511,9 +511,9 @@
   padding: 0.14rem 0.5rem;
   font-size: var(--text-xs);
   border-radius: 4px;
-  background: var(--ss-white-opacity-05);
-  border: 1px solid var(--ss-border);
-  color: var(--ss-text-primary);
+  background: var(--stss-white-opacity-05);
+  border: 1px solid var(--stss-border);
+  color: var(--stss-text-primary);
 }
 
 @media (max-width: 768px) {
@@ -538,9 +538,9 @@
   align-items: center;
   gap: 0.6rem;
   padding: 0.5rem 0.75rem;
-  background: var(--ss-white-opacity-05);
-  border: 1px solid var(--ss-border);
-  border-radius: var(--ss-radius-md);
+  background: var(--stss-white-opacity-05);
+  border: 1px solid var(--stss-border);
+  border-radius: var(--stss-radius-md);
 }
 
 .preset-code-label {
@@ -549,23 +549,23 @@
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.06em;
-  color: var(--ss-text-secondary);
+  color: var(--stss-text-secondary);
 }
 
 .preset-code-value {
-  font-family: var(--ss-font-mono, ui-monospace, monospace);
+  font-family: var(--font-mono);
   font-size: var(--text-sm);
-  color: var(--ss-text-primary);
+  color: var(--stss-text-primary);
   overflow-wrap: anywhere;
 }
 
 .preset-code-copy {
   flex-shrink: 0;
-  background: var(--ss-bg-tertiary);
-  color: var(--ss-text-primary);
-  border: 1px solid var(--ss-border);
+  background: var(--stss-bg-tertiary);
+  color: var(--stss-text-primary);
+  border: 1px solid var(--stss-border);
   padding: 0.5rem 1.1rem;
-  border-radius: var(--ss-radius-md);
+  border-radius: var(--stss-radius-md);
   font-weight: 600;
   font-size: var(--text-md);
   cursor: pointer;
@@ -583,7 +583,7 @@
 .preset-code-hint {
   margin: 0 0 0.9rem 0;
   font-size: var(--text-xs);
-  color: var(--ss-text-secondary);
+  color: var(--stss-text-secondary);
 }
 
 /* ---- Community tab compact cards (v2.0 redesign): portrait + chips +
@@ -604,8 +604,8 @@
   width: 72px;
   height: 72px;
   object-fit: cover;
-  border-radius: var(--ss-radius-sm);
-  border: 1px solid var(--ss-border);
+  border-radius: var(--stss-radius-sm);
+  border: 1px solid var(--stss-border);
   flex: none;
 }
 
@@ -630,9 +630,9 @@
   flex-direction: column;
   gap: 0.35rem;
   padding: 0.55rem 0.7rem;
-  background: var(--ss-white-opacity-05);
-  border: 1px solid var(--ss-border);
-  border-radius: var(--ss-radius-sm);
+  background: var(--stss-white-opacity-05);
+  border: 1px solid var(--stss-border);
+  border-radius: var(--stss-radius-sm);
 }
 
 .community-build-tile-head {
@@ -648,7 +648,7 @@
   min-width: 0;
   font-size: var(--text-sm);
   font-weight: 600;
-  color: var(--ss-primary);
+  color: var(--stss-primary);
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -662,12 +662,12 @@
 
 .community-build-tile-team img {
   display: block;
-  border-radius: var(--ss-radius-sm);
+  border-radius: var(--stss-radius-sm);
 }
 
 .tbuilds-count {
   font-size: var(--text-xs);
-  color: var(--ss-text-secondary);
+  color: var(--stss-text-secondary);
   margin-left: auto;
   white-space: nowrap;
 }

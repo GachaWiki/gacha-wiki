@@ -75,7 +75,7 @@
 .ss-game-name,
 .ss-timer-main-label,
 .server-reset-card .ss-timer-main-label {
-  color: var(--ss-primary);
+  color: var(--stss-primary);
 }
 
 .ss-timer-main-label {
@@ -95,8 +95,8 @@
 /* === STELLA SORA TIMER CARD COLORS === */
 /* Main clock card styling */
 .master-clock {
-  border: 1px solid var(--ss-primary-border);
-  background: var(--ss-bg-card);
+  border: 1px solid var(--stss-primary-border);
+  background: var(--stss-bg-card);
   backdrop-filter: blur(10px);
 }
 
@@ -123,14 +123,14 @@
   font-family: var(--font-mono);
   font-size: var(--text-6xl);
   font-weight: var(--font-bold);
-  color: var(--ss-primary);
+  color: var(--stss-primary);
   line-height: 1;
   display: block;
 }
 
 .time-label {
   font-size: var(--text-sm);
-  color: var(--ss-text-secondary);
+  color: var(--stss-text-secondary);
   text-transform: uppercase;
   letter-spacing: var(--tracking-wide);
   margin-top: 0.5rem;
@@ -139,7 +139,7 @@
 .time-separator {
   font-size: var(--text-6xl);
   font-weight: var(--font-bold);
-  color: var(--ss-primary);
+  color: var(--stss-primary);
   margin: 0 0.5rem;
 }
 
@@ -155,7 +155,7 @@
 
 .timer-subtitle {
   font-size: var(--text-base);
-  color: var(--ss-text-secondary);
+  color: var(--stss-text-secondary);
   margin-top: 0.5rem;
 }
 
@@ -250,8 +250,8 @@
 
 /* === STELLA SORA TIMER CARDS === */
 .timer-card {
-  background: var(--ss-bg-card);
-  border: 1px solid var(--ss-border);
+  background: var(--stss-bg-card);
+  border: 1px solid var(--stss-border);
   border-radius: 12px;
   padding: 1.5rem;
   height: 100%;
@@ -268,12 +268,12 @@
   font-family: var(--font-display);
   font-size: var(--text-lg);
   font-weight: var(--font-bold);
-  color: var(--ss-primary);
+  color: var(--stss-primary);
 }
 
 .timer-card-subtitle {
   font-size: var(--text-sm);
-  color: var(--ss-text-secondary);
+  color: var(--stss-text-secondary);
   margin-bottom: 1rem;
 }
 
@@ -291,26 +291,26 @@
 }
 
 .status-online {
-  background-color: var(--ss-success);
+  background-color: var(--stss-success);
 }
 
 .status-maintenance {
-  background-color: var(--ss-warning);
+  background-color: var(--stss-warning);
 }
 
 .status-coming-soon {
-  background-color: var(--ss-info);
+  background-color: var(--stss-info);
 }
 
 .status-text {
   font-size: var(--text-xs);
-  color: var(--ss-text-secondary);
+  color: var(--stss-text-secondary);
 }
 
 /* === STELLA SORA LAUNCH COUNTDOWN === */
 .launch-countdown-card {
-  border-color: var(--ss-primary-border);
-  background: linear-gradient(135deg, var(--ss-bg-card), rgba(125, 211, 252, 0.05));
+  border-color: var(--stss-primary-border);
+  background: linear-gradient(135deg, var(--stss-bg-card), rgba(125, 211, 252, 0.05));
 }
 
 .launch-countdown {
@@ -334,13 +334,13 @@
   font-family: var(--font-mono);
   font-size: var(--text-5xl);
   font-weight: var(--font-bold);
-  color: var(--ss-primary);
+  color: var(--stss-primary);
   line-height: 1;
 }
 
 .countdown-label {
   font-size: var(--text-xs);
-  color: var(--ss-text-secondary);
+  color: var(--stss-text-secondary);
   text-transform: uppercase;
   letter-spacing: var(--tracking-wide);
   margin-top: 0.25rem;
@@ -348,12 +348,12 @@
 
 .launch-date {
   font-size: var(--text-sm);
-  color: var(--ss-text-secondary);
+  color: var(--stss-text-secondary);
 }
 
 /* === STELLA SORA RESET TIMERS === */
 .weekly-card {
-  border-color: var(--ss-accent-20);
+  border-color: var(--stss-accent-20);
 }
 
 .reset-item {
@@ -367,13 +367,13 @@
 
 .reset-name {
   font-weight: var(--font-semibold);
-  color: var(--ss-text-primary);
+  color: var(--stss-text-primary);
   margin-bottom: 0.25rem;
 }
 
 .reset-subtitle {
   font-size: var(--text-sm);
-  color: var(--ss-text-secondary);
+  color: var(--stss-text-secondary);
   margin-bottom: 0.5rem;
 }
 
@@ -381,13 +381,13 @@
   font-family: var(--font-mono);
   font-size: var(--text-xl);
   font-weight: var(--font-bold);
-  color: var(--ss-accent);
+  color: var(--stss-accent);
   text-align: right;
 }
 
 /* === STELLA SORA MAINTENANCE TIMER === */
 .maintenance-card {
-  border-color: var(--ss-warning);
+  border-color: var(--stss-warning);
 }
 
 .maintenance-item {
@@ -401,7 +401,7 @@
 
 .maintenance-name {
   font-weight: var(--font-semibold);
-  color: var(--ss-text-primary);
+  color: var(--stss-text-primary);
   margin-bottom: 0.5rem;
 }
 
@@ -409,7 +409,7 @@
   font-family: var(--font-mono);
   font-size: var(--text-xl);
   font-weight: var(--font-bold);
-  color: var(--ss-warning);
+  color: var(--stss-warning);
   text-align: right;
 }
 
@@ -419,13 +419,13 @@
 }
 
 .no-maintenance .maintenance-name {
-  color: var(--ss-text-secondary);
+  color: var(--stss-text-secondary);
   font-weight: var(--font-normal);
 }
 
 /* === STELLA SORA LAUNCH CARD (Days Since) === */
 .launch-card {
-  border-color: var(--ss-primary-border);
+  border-color: var(--stss-primary-border);
 }
 
 .launch-card-content {
@@ -442,44 +442,44 @@
   font-family: var(--font-mono);
   font-size: var(--text-4xl);
   font-weight: var(--font-bold);
-  color: var(--ss-primary);
+  color: var(--stss-primary);
   line-height: 1;
   margin-bottom: 0.5rem;
 }
 
 /* === STELLA SORA HOLIDAY CARDS === */
 .halloween-card {
-  border-color: var(--ss-primary-border); /* Blue border like other timers */
+  border-color: var(--stss-primary-border); /* Blue border like other timers */
 }
 
 .halloween-card .launch-days {
-  color: var(--ss-primary); /* Blue to match theme */
+  color: var(--stss-primary); /* Blue to match theme */
 }
 
 .newyear-card {
-  border-color: var(--ss-primary-border); /* Blue border for New Year */
+  border-color: var(--stss-primary-border); /* Blue border for New Year */
 }
 
 .newyear-card .launch-days {
-  color: var(--ss-primary); /* Blue for New Year */
+  color: var(--stss-primary); /* Blue for New Year */
 }
 
 /* === STELLA SORA EVENT CARDS === */
 .event-duration-card {
-  border-color: var(--ss-primary-border); /* Blue border like other timers */
+  border-color: var(--stss-primary-border); /* Blue border like other timers */
 }
 
 .event-duration-card .event-days {
-  color: var(--ss-primary); /* Blue to match other timer colors */
+  color: var(--stss-primary); /* Blue to match other timer colors */
   font-size: var(--text-4xl); /* Consistent font size */
 }
 
 .event-shop-card {
-  border-color: var(--ss-primary-border); /* Blue border to match color */
+  border-color: var(--stss-primary-border); /* Blue border to match color */
 }
 
 .event-shop-card .event-days {
-  color: var(--ss-primary);
+  color: var(--stss-primary);
   font-size: var(--text-4xl); /* Smaller font size like other timers */
 }
 
@@ -496,20 +496,20 @@
   font-family: var(--font-mono);
   font-size: var(--text-6xl);
   font-weight: var(--font-bold);
-  color: var(--ss-primary);
+  color: var(--stss-primary);
   line-height: 1;
   margin-bottom: 0.5rem;
 }
 
 .event-date {
   font-size: var(--text-sm);
-  color: var(--ss-text-secondary);
+  color: var(--stss-text-secondary);
   margin-bottom: 0.25rem;
 }
 
 .event-period {
   font-size: var(--text-xs);
-  color: var(--ss-text-muted);
+  color: var(--stss-text-muted);
 }
 
 /* === STELLA SORA RESPONSIVE DESIGN === */
@@ -573,8 +573,8 @@
 
 /* Banner Timer Styles */
 .banner-timer-card {
-  background: linear-gradient(135deg, var(--ss-bg-accent-1), var(--ss-bg-accent-2));
-  border: 1px solid var(--ss-primary);
+  background: linear-gradient(135deg, var(--stss-bg-accent-1), var(--stss-bg-accent-2));
+  border: 1px solid var(--stss-primary);
 }
 
 .banner-timer-display {
@@ -598,18 +598,18 @@
 .banner-countdown .countdown-value {
   font-size: var(--text-xl);
   font-weight: 600;
-  color: var(--ss-primary);
-  background: var(--ss-bg-card);
+  color: var(--stss-primary);
+  background: var(--stss-bg-card);
   padding: 0.5rem;
   border-radius: 6px;
   min-width: 50px;
   text-align: center;
-  border: 1px solid var(--ss-border);
+  border: 1px solid var(--stss-border);
 }
 
 .banner-countdown .countdown-label {
   font-size: var(--text-xs);
-  color: var(--ss-text-secondary);
+  color: var(--stss-text-secondary);
   text-transform: uppercase;
   margin-top: 0.25rem;
   font-weight: 500;
@@ -617,14 +617,14 @@
 
 .banner-period {
   font-size: var(--text-md);
-  color: var(--ss-text-secondary);
+  color: var(--stss-text-secondary);
   margin-bottom: 0.5rem;
   font-weight: 500;
 }
 
 .banner-featured {
   font-size: var(--text-md);
-  color: var(--ss-primary);
+  color: var(--stss-primary);
   font-weight: 600;
 }
 

@@ -24,7 +24,7 @@
 .rarity-badge {
   text-transform: uppercase;
   letter-spacing: 0.05em;
-  border: 1px solid var(--ss-border-subtle);
+  border: 1px solid var(--stss-border-subtle);
 }
 
 .rarity-badge.five-star,
@@ -39,8 +39,8 @@
 
 .rarity-badge.five-star,
 .rarity-badge.\35-star {
-  background: var(--ss-five-star);
-  color: var(--ss-text-primary);
+  background: var(--stss-five-star);
+  color: var(--stss-text-primary);
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.05em;
@@ -48,31 +48,31 @@
 
 .rarity-badge.four-star,
 .rarity-badge.\34-star {
-  background: var(--ss-epic);
-  color: var(--ss-text-primary);
+  background: var(--stss-epic);
+  color: var(--stss-text-primary);
 }
 
 .rarity-badge.three-star,
 .rarity-badge.\33-star {
-  background: var(--ss-rare);
-  color: var(--ss-text-primary);
+  background: var(--stss-rare);
+  color: var(--stss-text-primary);
 }
 
 /* Numeric rarity classes for team builds */
 .rarity-badge.rarity-5 {
-  background: var(--ss-five-star);
-  color: var(--ss-text-primary);
+  background: var(--stss-five-star);
+  color: var(--stss-text-primary);
   font-weight: 700;
 }
 
 .rarity-badge.rarity-4 {
-  background: var(--ss-epic);
-  color: var(--ss-text-primary);
+  background: var(--stss-epic);
+  color: var(--stss-text-primary);
 }
 
 .rarity-badge.rarity-3 {
-  background: var(--ss-rare);
-  color: var(--ss-text-primary);
+  background: var(--stss-rare);
+  color: var(--stss-text-primary);
 }
 
 /* Element Badges */
@@ -85,39 +85,39 @@
 /* Element badges for all elements used by characters */
 
 .element-aqua {
-  background: var(--ss-primary-dark);
-  color: var(--ss-text-primary);
+  background: var(--stss-primary-dark);
+  color: var(--stss-text-primary);
 }
 
 .element-ignis {
-  background: var(--ss-element-ignis);
-  color: var(--ss-text-primary);
+  background: var(--stss-element-ignis);
+  color: var(--stss-text-primary);
 }
 
 .element-lux {
-  background: var(--ss-element-lux);
-  color: var(--ss-bg-primary);
+  background: var(--stss-element-lux);
+  color: var(--stss-bg-primary);
 }
 
 .element-terra {
-  background: var(--ss-element-terra);
-  color: var(--ss-text-primary);
+  background: var(--stss-element-terra);
+  color: var(--stss-text-primary);
 }
 
 .element-umbra {
-  background: var(--ss-element-umbra);
-  color: var(--ss-text-primary);
+  background: var(--stss-element-umbra);
+  color: var(--stss-text-primary);
 }
 
 .element-ventus {
-  background: var(--ss-element-ventus);
-  color: var(--ss-text-primary);
+  background: var(--stss-element-ventus);
+  color: var(--stss-text-primary);
 }
 
 /* Position Badges */
 .position-badge {
-  background: var(--ss-primary);
-  color: var(--ss-text-primary);
+  background: var(--stss-primary);
+  color: var(--stss-text-primary);
   border: none;
   text-transform: capitalize;
   font-weight: 600;
@@ -130,7 +130,7 @@
   gap: 0.25rem;
   padding: 0.1875rem 0.375rem;
   border-radius: 6px;
-  background: var(--ss-white-opacity-05);
+  background: var(--stss-white-opacity-05);
   border: none;
 }
 
@@ -165,40 +165,40 @@
 }
 
 .attack-type-melee {
-  background: var(--ss-error-opacity-25);
-  color: var(--ss-text-primary);
+  background: var(--stss-error-opacity-25);
+  color: var(--stss-text-primary);
 }
 
 .attack-type-ranged {
-  background: var(--ss-info-opacity-15);
-  color: var(--ss-primary);
+  background: var(--stss-info-opacity-15);
+  color: var(--stss-primary);
 }
 
 /* Position badges for different roles */
 .position-vanguard {
-  background: var(--ss-primary-dark);
-  color: var(--ss-text-primary);
+  background: var(--stss-primary-dark);
+  color: var(--stss-text-primary);
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.05em;
 }
 
 .position-versatile {
-  background: var(--ss-versatile);
-  color: var(--ss-text-primary);
+  background: var(--stss-versatile);
+  color: var(--stss-text-primary);
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.05em;
-  border: 1px solid var(--ss-border);
+  border: 1px solid var(--stss-border);
 }
 
 .position-support {
-  background: var(--ss-accent);
-  color: var(--ss-text-primary);
+  background: var(--stss-accent);
+  color: var(--stss-text-primary);
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.05em;
-  border: 1px solid var(--ss-border);
+  border: 1px solid var(--stss-border);
 }
 
 /* Style Badges */
@@ -215,47 +215,47 @@
   line-height: 1.2;
   white-space: nowrap;
   min-width: fit-content;
-  background: var(--ss-accent-dark);
-  color: var(--ss-text-primary);
-  border: 1px solid var(--ss-border-subtle);
+  background: var(--stss-accent-dark);
+  color: var(--stss-text-primary);
+  border: 1px solid var(--stss-border-subtle);
   text-transform: capitalize;
 }
 
 /* Style badge specific themes */
 .style-badge.style-collector {
   background: rgba(234, 179, 8, 0.2);
-  border-color: var(--ss-border);
-  color: var(--ss-text-primary);
+  border-color: var(--stss-border);
+  color: var(--stss-text-primary);
 }
 
 .style-badge.style-adventurous {
   background: rgba(239, 68, 68, 0.2);
-  border-color: var(--ss-border);
-  color: var(--ss-text-primary);
+  border-color: var(--stss-border);
+  color: var(--stss-text-primary);
 }
 
 .style-badge.style-steady {
   background: rgba(34, 197, 94, 0.2);
-  border-color: var(--ss-border);
-  color: var(--ss-text-primary);
+  border-color: var(--stss-border);
+  color: var(--stss-text-primary);
 }
 
 .style-badge.style-creative {
   background: rgba(168, 85, 247, 0.2);
-  border-color: var(--ss-border);
+  border-color: var(--stss-border);
   color: #c084fc;
 }
 
 .style-badge.style-inquisitive {
   background: rgba(59, 130, 246, 0.2);
-  border-color: var(--ss-border);
-  color: var(--ss-primary);
+  border-color: var(--stss-border);
+  color: var(--stss-primary);
 }
 
 .style-badge.empty {
   background: transparent;
-  color: var(--ss-text-secondary);
-  border: 1px dashed var(--ss-border-subtle);
+  color: var(--stss-text-secondary);
+  border: 1px dashed var(--stss-border-subtle);
 }
 
 /* Table-specific badge styling */
@@ -278,7 +278,7 @@
   gap: 0.25rem;
   padding: 0.1875rem 0.375rem;
   border-radius: 6px;
-  background: var(--ss-white-opacity-05);
+  background: var(--stss-white-opacity-05);
   border: none;
 }
 
@@ -320,23 +320,23 @@
 
 /* Skill type color coding - using SS color system */
 .skill-type-attack {
-  background: var(--ss-error-opacity-25);
-  color: var(--ss-text-primary);
+  background: var(--stss-error-opacity-25);
+  color: var(--stss-text-primary);
 }
 
 .skill-type-main-skill {
-  background: var(--ss-primary-opacity-25);
-  color: var(--ss-primary);
+  background: var(--stss-primary-opacity-25);
+  color: var(--stss-primary);
 }
 
 .skill-type-support-skill {
-  background: var(--ss-accent-opacity-25);
-  color: var(--ss-primary);
+  background: var(--stss-accent-opacity-25);
+  color: var(--stss-primary);
 }
 
 .skill-type-ultimate {
-  background: var(--ss-legendary-opacity-25);
-  color: var(--ss-text-primary);
+  background: var(--stss-legendary-opacity-25);
+  color: var(--stss-text-primary);
   font-weight: 700;
   letter-spacing: 0.1em;
 }
@@ -364,21 +364,21 @@
 
 /* Skill Level Badge - Purple theme */
 .skill-level {
-  background: var(--ss-level-purple);
-  color: var(--ss-primary);
-  border: 1px solid var(--ss-border);
+  background: var(--stss-level-purple);
+  color: var(--stss-primary);
+  border: 1px solid var(--stss-border);
 }
 
 /* Skill Cooldown Badge - Blue theme */
 .skill-cooldown {
-  background: var(--ss-info-opacity-15);
-  color: var(--ss-primary);
+  background: var(--stss-info-opacity-15);
+  color: var(--stss-primary);
 }
 
 /* Skill Energy Badge - Green theme */
 .skill-energy {
-  background: var(--ss-mythic-opacity-15);
-  color: var(--ss-text-primary);
+  background: var(--stss-mythic-opacity-15);
+  color: var(--stss-text-primary);
 }
 
 /* Strong tag styling within skill badges for HighlightedText component */
@@ -457,20 +457,20 @@
 .style-badge.style-steady,
 .style-badge.style-creative,
 .style-badge.style-inquisitive {
-  background: var(--ss-white-opacity-05);
-  border: 1px solid var(--ss-border-subtle);
-  color: var(--ss-text-primary);
+  background: var(--stss-white-opacity-05);
+  border: 1px solid var(--stss-border-subtle);
+  color: var(--stss-text-primary);
 }
 
 .attack-type-melee,
 .attack-type-ranged {
-  background: var(--ss-white-opacity-05);
-  color: var(--ss-text-primary);
+  background: var(--stss-white-opacity-05);
+  color: var(--stss-text-primary);
 }
 
 .position-versatile,
 .position-support {
-  background: var(--ss-primary-dark);
-  color: var(--ss-text-primary);
+  background: var(--stss-primary-dark);
+  color: var(--stss-text-primary);
   border: none;
 }

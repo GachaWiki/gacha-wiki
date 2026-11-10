@@ -1,9 +1,9 @@
 /* Stella Sora Story Gallery page styles */
 
 .story-gallery-content {
-  background: var(--ss-bg-secondary);
-  border: 1px solid var(--ss-border);
-  border-radius: var(--ss-radius-lg);
+  background: var(--stss-bg-secondary);
+  border: 1px solid var(--stss-border);
+  border-radius: var(--stss-radius-lg);
   padding: 1.5rem;
   margin-bottom: 1.5rem;
 }
@@ -11,7 +11,7 @@
 .story-gallery-intro {
   margin: 0 0 1.25rem 0;
   font-size: var(--text-md);
-  color: var(--ss-text-secondary);
+  color: var(--stss-text-secondary);
 }
 
 /* Tabs */
@@ -20,7 +20,7 @@
   flex-wrap: wrap;
   gap: 0.5rem;
   margin-bottom: 1.5rem;
-  border-bottom: 1px solid var(--ss-border);
+  border-bottom: 1px solid var(--stss-border);
   padding-bottom: 0.75rem;
 }
 
@@ -28,22 +28,22 @@
   padding: 0.5rem 0.9rem;
   font-size: var(--text-md);
   font-weight: 600;
-  color: var(--ss-text-secondary);
-  background: var(--ss-bg-tertiary);
-  border: 1px solid var(--ss-border);
-  border-radius: var(--ss-radius-sm);
+  color: var(--stss-text-secondary);
+  background: var(--stss-bg-tertiary);
+  border: 1px solid var(--stss-border);
+  border-radius: var(--stss-radius-sm);
   cursor: pointer;
 }
 
 .story-tab[aria-selected='true'] {
-  color: var(--ss-primary);
-  border-color: var(--ss-border);
+  color: var(--stss-primary);
+  border-color: var(--stss-border);
 }
 
 .story-tab-count {
   margin-left: 0.4rem;
   font-size: var(--text-xs);
-  color: var(--ss-text-secondary);
+  color: var(--stss-text-secondary);
 }
 
 /* Chapter groups */
@@ -55,7 +55,7 @@
   margin: 0 0 0.75rem 0;
   font-size: var(--text-lg);
   font-weight: 700;
-  color: var(--ss-text-primary);
+  color: var(--stss-primary);
 }
 
 /* Card grid */
@@ -68,9 +68,9 @@
 .story-card {
   display: flex;
   flex-direction: column;
-  background: var(--ss-bg-tertiary);
-  border: 1px solid var(--ss-border);
-  border-radius: var(--ss-radius-md);
+  background: var(--stss-bg-tertiary);
+  border: 1px solid var(--stss-border);
+  border-radius: var(--stss-radius-md);
   overflow: hidden;
   text-decoration: none;
 }
@@ -88,8 +88,8 @@
 .story-caption {
   padding: 0.5rem 0.75rem;
   font-size: var(--text-sm);
-  color: var(--ss-text-secondary);
-  border-top: 1px solid var(--ss-border);
+  color: var(--stss-text-secondary);
+  border-top: 1px solid var(--stss-border);
 }
 
 @media (max-width: 768px) {
@@ -114,9 +114,9 @@
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
-  background: var(--ss-bg-tertiary);
-  border: 1px solid var(--ss-border);
-  border-radius: var(--ss-radius-md);
+  background: var(--stss-bg-tertiary);
+  border: 1px solid var(--stss-border);
+  border-radius: var(--stss-radius-md);
   padding: 0.75rem;
 }
 
@@ -124,6 +124,6 @@
   width: 100%;
   aspect-ratio: 16 / 9;
   background: #000;
-  border-radius: var(--ss-radius-sm);
+  border-radius: var(--stss-radius-sm);
   display: block;
 }

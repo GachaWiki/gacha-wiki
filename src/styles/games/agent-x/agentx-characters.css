@@ -164,7 +164,7 @@
 .ax-id-line {
   font-size: var(--text-xs);
   color: var(--ax-text-muted);
-  font-family: monospace;
+  font-family: var(--font-mono);
   margin-bottom: 1rem;
 }
 

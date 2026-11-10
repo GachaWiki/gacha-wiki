@@ -45,25 +45,25 @@ const imageSrc = `${R2}/${codeImageMap[imageKey] || codeImageMap['1.jpg']}`;
 
 <style>
   .code-tutorial-image {
-    border-radius: var(--ss-radius-lg);
+    border-radius: var(--stss-radius-lg);
     overflow: hidden;
-    border: 1px solid var(--ss-border);
-    box-shadow: var(--ss-shadow-sm);
-    background: var(--ss-bg-card);
-    transition: var(--ss-transition);
+    border: 1px solid var(--stss-border);
+    box-shadow: var(--stss-shadow-sm);
+    background: var(--stss-bg-card);
+    transition: var(--stss-transition);
   }
 
   .code-tutorial-image:hover {
     transform: translateY(-2px);
     box-shadow: 0 8px 25px rgba(125, 211, 252, 0.15);
-    border-color: var(--ss-border);
+    border-color: var(--stss-border);
   }
 
   .code-img-fill {
     width: 100%;
     height: auto;
     display: block;
-    border-radius: var(--ss-radius-lg);
+    border-radius: var(--stss-radius-lg);
   }
 
   /* Responsive sizing for mobile */
@@ -76,7 +76,7 @@ const imageSrc = `${R2}/${codeImageMap[imageKey] || codeImageMap['1.jpg']}`;
 
   @media (max-width: 480px) {
     .code-tutorial-image {
-      border-radius: var(--ss-radius-md);
+      border-radius: var(--stss-radius-md);
     }
   }
 </style>

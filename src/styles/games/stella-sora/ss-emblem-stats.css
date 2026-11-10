@@ -10,11 +10,11 @@
 
 /* ===== HERO SECTION ===== */
 .emblem-hero {
-  background: var(--ss-gradient-card);
+  background: var(--stss-gradient-card);
   border-radius: 12px;
   padding: 2rem;
   margin-bottom: 2rem;
-  border: 1px solid var(--ss-border-subtle);
+  border: 1px solid var(--stss-border-subtle);
 }
 
 .emblem-hero-content {
@@ -23,7 +23,7 @@
 
 .emblem-hero-description {
   font-size: var(--text-lg);
-  color: var(--ss-text-secondary);
+  color: var(--stss-text-secondary);
   margin-bottom: 2rem;
   line-height: 1.6;
 }
@@ -44,7 +44,7 @@
 .hero-rarity-title {
   font-size: var(--text-xl);
   font-weight: 700;
-  color: var(--ss-text-primary);
+  color: var(--stss-primary);
   margin-bottom: 1.5rem;
   text-align: center;
   font-family: var(--font-primary);
@@ -74,27 +74,27 @@
 .hero-rarity-step.gold-step,
 .hero-rarity-step.rainbow-step {
   background: rgba(125, 211, 252, 0.15);
-  border: 1px solid var(--ss-border);
+  border: 1px solid var(--stss-border);
 }
 
 .hero-rarity-info h4 {
   font-size: var(--text-md);
   font-weight: 700;
-  color: var(--ss-text-primary);
+  color: var(--stss-text-primary);
   margin-bottom: 0.25rem;
   font-family: var(--font-primary);
 }
 
 .hero-rarity-info p {
   font-size: var(--text-2xs);
-  color: var(--ss-text-secondary);
+  color: var(--stss-text-secondary);
   line-height: 1.4;
   margin: 0;
 }
 
 .hero-progression-arrow {
   font-size: var(--text-xl);
-  color: var(--ss-primary);
+  color: var(--stss-primary);
   font-weight: 700;
   margin: 0 0.25rem;
 }
@@ -109,13 +109,13 @@
 .stat-number {
   font-size: var(--text-5xl);
   font-weight: 700;
-  color: var(--ss-primary);
+  color: var(--stss-primary);
   font-family: var(--font-primary);
 }
 
 .stat-label {
   font-size: var(--text-md);
-  color: var(--ss-text-secondary);
+  color: var(--stss-text-secondary);
   text-transform: uppercase;
   letter-spacing: 0.05em;
   font-weight: 600;
@@ -125,7 +125,7 @@
 .section-title {
   font-size: var(--text-2xl);
   font-weight: 700;
-  color: var(--ss-text-primary);
+  color: var(--stss-primary);
   margin-bottom: 1rem;
   font-family: var(--font-primary);
   position: relative;
@@ -139,13 +139,13 @@
   left: 0;
   width: 60px;
   height: 3px;
-  background: var(--ss-primary);
+  background: var(--stss-primary);
   border-radius: 2px;
 }
 
 .section-description {
   font-size: var(--text-base);
-  color: var(--ss-text-secondary);
+  color: var(--stss-text-secondary);
   margin-bottom: 2rem;
   line-height: 1.6;
 }
@@ -163,8 +163,8 @@
 }
 
 .level-overview-card {
-  background: var(--ss-gradient-card);
-  border: 1px solid var(--ss-border);
+  background: var(--stss-gradient-card);
+  border: 1px solid var(--stss-border);
   border-radius: 12px;
   padding: 1.5rem;
   display: flex;
@@ -183,14 +183,14 @@
 .level-overview-name {
   font-size: var(--text-lg);
   font-weight: 700;
-  color: var(--ss-text-primary);
+  color: var(--stss-text-primary);
   margin-bottom: 0.5rem;
   font-family: var(--font-primary);
 }
 
 .level-overview-description {
   font-size: var(--text-md);
-  color: var(--ss-text-secondary);
+  color: var(--stss-text-secondary);
   line-height: 1.5;
   margin: 0;
 }
@@ -213,11 +213,11 @@
 .mobile-category-title {
   font-size: var(--text-xl);
   font-weight: 700;
-  color: var(--ss-primary);
+  color: var(--stss-primary);
   margin-bottom: 1rem;
   font-family: var(--font-primary);
   padding-bottom: 0.5rem;
-  border-bottom: 1px solid var(--ss-border);
+  border-bottom: 1px solid var(--stss-border);
 }
 
 .stats-cards-grid {
@@ -227,8 +227,8 @@
 }
 
 .stat-card {
-  background: var(--ss-gradient-card);
-  border: 1px solid var(--ss-border-subtle);
+  background: var(--stss-gradient-card);
+  border: 1px solid var(--stss-border-subtle);
   border-radius: 12px;
   padding: 1.25rem;
   transition: transform 0.2s ease;
@@ -238,13 +238,13 @@
 .stat-card-header {
   margin-bottom: 1rem;
   padding-bottom: 0.75rem;
-  border-bottom: 1px solid var(--ss-border-subtle);
+  border-bottom: 1px solid var(--stss-border-subtle);
 }
 
 .stat-card-name {
   font-size: var(--text-lg);
   font-weight: 700;
-  color: var(--ss-text-primary);
+  color: var(--stss-text-primary);
   margin: 0;
   font-family: var(--font-primary);
 }
@@ -264,7 +264,7 @@
 .stat-section-title {
   font-size: var(--text-body);
   font-weight: 600;
-  color: var(--ss-primary);
+  color: var(--stss-primary);
   margin: 0;
   font-family: var(--font-primary);
 }
@@ -280,25 +280,25 @@
   align-items: center;
   gap: 0.75rem;
   padding: 0.5rem;
-  background: var(--ss-bg-secondary);
+  background: var(--stss-bg-secondary);
   border-radius: 8px;
   font-size: var(--text-md);
 }
 
 .level-item span:first-of-type {
-  color: var(--ss-text-secondary);
+  color: var(--stss-text-secondary);
   font-weight: 500;
   min-width: 45px;
 }
 
 .level-item .available {
-  color: var(--ss-text-primary);
+  color: var(--stss-text-primary);
   font-weight: 700;
   font-size: var(--text-base);
 }
 
 .level-item .unavailable {
-  color: var(--ss-text-primary);
+  color: var(--stss-text-primary);
   font-weight: 700;
   font-size: var(--text-base);
 }
@@ -314,7 +314,7 @@
   align-items: center;
   justify-content: space-between;
   padding: 0.5rem;
-  background: var(--ss-bg-secondary);
+  background: var(--stss-bg-secondary);
   border-radius: 8px;
   font-size: var(--text-md);
 }
@@ -330,47 +330,47 @@
 }
 
 .rarity-value .unavailable {
-  color: var(--ss-text-primary);
+  color: var(--stss-text-primary);
   font-weight: 700;
 }
 
 .green-label {
-  color: var(--ss-text-primary);
+  color: var(--stss-text-primary);
 }
 
 .green-value {
-  color: var(--ss-text-primary);
+  color: var(--stss-text-primary);
 }
 
 .blue-label {
-  color: var(--ss-text-primary);
+  color: var(--stss-text-primary);
 }
 
 .blue-value {
-  color: var(--ss-text-primary);
+  color: var(--stss-text-primary);
 }
 
 .gold-label {
-  color: var(--ss-text-primary);
+  color: var(--stss-text-primary);
 }
 
 .gold-value {
-  color: var(--ss-text-primary);
+  color: var(--stss-text-primary);
 }
 
 .rainbow-label {
-  color: var(--ss-primary);
+  color: var(--stss-primary);
 }
 
 .rainbow-value {
-  color: var(--ss-primary);
+  color: var(--stss-primary);
 }
 
 .table-wrapper {
   overflow-x: auto;
   border-radius: 12px;
-  border: 1px solid var(--ss-border-subtle);
-  background: var(--ss-bg-card);
+  border: 1px solid var(--stss-border-subtle);
+  background: var(--stss-bg-card);
 }
 
 .emblem-stats-table {
@@ -380,12 +380,12 @@
 }
 
 .emblem-stats-table th {
-  background: var(--ss-bg-tertiary);
-  color: var(--ss-text-primary);
+  background: var(--stss-bg-tertiary);
+  color: var(--stss-text-primary);
   font-weight: 600;
   text-align: center;
   padding: 1rem 0.75rem;
-  border-bottom: 1px solid var(--ss-border);
+  border-bottom: 1px solid var(--stss-border);
   font-family: var(--font-primary);
   position: sticky;
   top: 0;
@@ -401,7 +401,7 @@
 .level-header {
   min-width: 80px;
   font-weight: 600;
-  color: var(--ss-primary);
+  color: var(--stss-primary);
 }
 
 .level-header-content {
@@ -419,34 +419,34 @@
 }
 
 .green-rarity {
-  color: var(--ss-text-primary);
+  color: var(--stss-text-primary);
   background: rgba(125, 211, 252, 0.1);
 }
 
 .blue-rarity {
-  color: var(--ss-text-primary);
+  color: var(--stss-text-primary);
   background: rgba(110, 231, 183, 0.1);
 }
 
 .gold-rarity {
-  color: var(--ss-text-primary);
+  color: var(--stss-text-primary);
   background: rgba(251, 191, 36, 0.1);
 }
 
 .rainbow-rarity {
-  color: var(--ss-text-primary);
+  color: var(--stss-text-primary);
   background: rgba(239, 68, 68, 0.1);
   font-weight: 700;
 }
 
 /* Category Headers */
 .category-header td {
-  background: var(--ss-bg-secondary);
-  color: var(--ss-primary);
+  background: var(--stss-bg-secondary);
+  color: var(--stss-primary);
   font-weight: 700;
   text-align: left;
   padding: 1rem;
-  border-bottom: 1px solid var(--ss-border);
+  border-bottom: 1px solid var(--stss-border);
   font-family: var(--font-primary);
   text-transform: uppercase;
   letter-spacing: 0.05em;
@@ -455,20 +455,20 @@
 
 /* Table Rows */
 .stat-row:nth-child(even) {
-  background: var(--ss-white-opacity-02);
+  background: var(--stss-white-opacity-02);
 }
 
 .stat-row td {
   padding: 0.75rem;
-  border-bottom: 1px solid var(--ss-border-subtle);
-  color: var(--ss-text-primary);
+  border-bottom: 1px solid var(--stss-border-subtle);
+  color: var(--stss-text-primary);
   text-align: center;
 }
 
 .stat-name {
   text-align: left;
   font-weight: 600;
-  color: var(--ss-text-primary);
+  color: var(--stss-text-primary);
   font-family: var(--font-primary);
 }
 
@@ -479,15 +479,15 @@
 }
 
 .level-cell .available {
-  color: var(--ss-text-primary);
+  color: var(--stss-text-primary);
 }
 
 .level-cell .unavailable {
-  color: var(--ss-text-primary);
+  color: var(--stss-text-primary);
 }
 
 .rarity-cell .unavailable {
-  color: var(--ss-text-primary);
+  color: var(--stss-text-primary);
   font-style: italic;
 }
 
@@ -497,19 +497,19 @@
 }
 
 .green-cell {
-  color: var(--ss-text-primary);
+  color: var(--stss-text-primary);
 }
 
 .blue-cell {
-  color: var(--ss-text-primary);
+  color: var(--stss-text-primary);
 }
 
 .gold-cell {
-  color: var(--ss-text-primary);
+  color: var(--stss-text-primary);
 }
 
 .rainbow-cell {
-  color: var(--ss-text-primary);
+  color: var(--stss-text-primary);
   font-weight: 700;
 }
 
@@ -519,8 +519,8 @@
 }
 
 .rainbow-container {
-  background: var(--ss-gradient-card);
-  border: 1px solid var(--ss-border);
+  background: var(--stss-gradient-card);
+  border: 1px solid var(--stss-border);
   border-radius: 12px;
   padding: 1.5rem;
   margin-top: 1.5rem;
@@ -536,13 +536,13 @@
 }
 
 .rainbow-stat-item {
-  color: var(--ss-text-secondary);
+  color: var(--stss-text-secondary);
   line-height: 1.6;
   font-size: var(--text-body);
   padding: 0.75rem 0;
   position: relative;
   padding-left: 1.5rem;
-  border-bottom: 1px solid var(--ss-border);
+  border-bottom: 1px solid var(--stss-border);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -561,14 +561,14 @@
   content: '*';
   position: absolute;
   left: 0;
-  color: var(--ss-primary);
+  color: var(--stss-primary);
   font-weight: 700;
   font-size: var(--text-lg);
   line-height: 1.6;
 }
 
 .rainbow-stat-name {
-  color: var(--ss-text-secondary);
+  color: var(--stss-text-secondary);
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.05em;
@@ -576,7 +576,7 @@
 }
 
 .rainbow-stat-value {
-  color: var(--ss-primary);
+  color: var(--stss-primary);
   font-weight: 700;
   font-family: var(--font-primary);
   font-size: var(--text-base);
@@ -588,9 +588,9 @@
 }
 
 .notes-container {
-  background: var(--ss-bg-card);
+  background: var(--stss-bg-card);
   border-radius: 12px;
-  border: 1px solid var(--ss-border-subtle);
+  border: 1px solid var(--stss-border-subtle);
   padding: 1.5rem;
   margin-top: 1.5rem;
 }
@@ -602,13 +602,13 @@
 }
 
 .note-item {
-  color: var(--ss-text-secondary);
+  color: var(--stss-text-secondary);
   line-height: 1.6;
   font-size: var(--text-body);
   padding: 0.75rem 0;
   position: relative;
   padding-left: 1.5rem;
-  border-bottom: 1px solid var(--ss-border-subtle);
+  border-bottom: 1px solid var(--stss-border-subtle);
 }
 
 .note-item:last-child {
@@ -624,7 +624,7 @@
   content: '*';
   position: absolute;
   left: 0;
-  color: var(--ss-primary);
+  color: var(--stss-primary);
   font-weight: 700;
   font-size: var(--text-lg);
   line-height: 1.6;
@@ -660,26 +660,26 @@
 .gold-step,
 .rainbow-step {
   background: rgba(125, 211, 252, 0.15);
-  border: 1px solid var(--ss-border);
+  border: 1px solid var(--stss-border);
 }
 
 .rarity-info h3 {
   font-size: var(--text-base);
   font-weight: 700;
-  color: var(--ss-text-primary);
+  color: var(--stss-primary);
   margin-bottom: 0.25rem;
   font-family: var(--font-primary);
 }
 
 .rarity-info p {
   font-size: var(--text-xs);
-  color: var(--ss-text-secondary);
+  color: var(--stss-text-secondary);
   line-height: 1.4;
 }
 
 .progression-arrow {
   font-size: var(--text-2xl);
-  color: var(--ss-primary);
+  color: var(--stss-primary);
   font-weight: 700;
   margin: 0 0.5rem;
 }
@@ -799,7 +799,7 @@
     overflow-y: hidden;
     -webkit-overflow-scrolling: touch;
     scrollbar-width: thin;
-    scrollbar-color: var(--ss-primary) var(--ss-bg-card);
+    scrollbar-color: var(--stss-primary) var(--stss-bg-card);
   }
 
   .table-wrapper::-webkit-scrollbar {
@@ -807,11 +807,11 @@
   }
 
   .table-wrapper::-webkit-scrollbar-track {
-    background: var(--ss-bg-card);
+    background: var(--stss-bg-card);
   }
 
   .table-wrapper::-webkit-scrollbar-thumb {
-    background: var(--ss-primary);
+    background: var(--stss-primary);
     border-radius: 3px;
   }
 
@@ -1143,11 +1143,11 @@
 /* High contrast mode */
 @media (prefers-contrast: high) {
   .emblem-stats-table th {
-    border-bottom: 1px solid var(--ss-border);
+    border-bottom: 1px solid var(--stss-border);
   }
 
   .category-header td {
-    border-bottom: 1px solid var(--ss-border);
+    border-bottom: 1px solid var(--stss-border);
   }
 
   .rarity-step {

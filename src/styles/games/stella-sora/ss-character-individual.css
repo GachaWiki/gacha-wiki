@@ -26,10 +26,10 @@
 
 /* Character Header Section */
 .character-header {
-  background: var(--ss-bg-secondary);
+  background: var(--stss-bg-secondary);
   border-radius: 12px;
   padding: 2rem;
-  border: 1px solid var(--ss-border);
+  border: 1px solid var(--stss-border);
 }
 
 .character-basic-info {
@@ -45,7 +45,7 @@
   height: 300px;
   border-radius: 12px;
   overflow: hidden;
-  border: 1px solid var(--ss-border);
+  border: 1px solid var(--stss-border);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -85,9 +85,9 @@
 /* ===== Art Gallery Section ===== */
 .character-gallery-section,
 .character-skins-section {
-  background: var(--ss-bg-secondary);
-  border: 1px solid var(--ss-border);
-  border-radius: var(--ss-radius-lg);
+  background: var(--stss-bg-secondary);
+  border: 1px solid var(--stss-border);
+  border-radius: var(--stss-radius-lg);
   padding: 1.5rem;
   margin-bottom: 1.5rem;
 }
@@ -96,13 +96,13 @@
 .character-skins-section .section-title {
   margin: 0 0 0.25rem 0;
   font-size: var(--text-2xl);
-  color: var(--ss-text-primary);
+  color: var(--stss-primary);
 }
 
 .gallery-explanation {
   margin: 0 0 1rem 0;
   font-size: var(--text-md);
-  color: var(--ss-text-secondary);
+  color: var(--stss-text-secondary);
 }
 
 .gallery-grid {
@@ -114,9 +114,9 @@
 .gallery-card {
   display: flex;
   flex-direction: column;
-  background: var(--ss-bg-tertiary);
-  border: 1px solid var(--ss-border);
-  border-radius: var(--ss-radius-md);
+  background: var(--stss-bg-tertiary);
+  border: 1px solid var(--stss-border);
+  border-radius: var(--stss-radius-md);
   overflow: hidden;
   text-decoration: none;
 }
@@ -133,15 +133,15 @@
 .gallery-caption {
   padding: 0.5rem 0.75rem;
   font-size: var(--text-sm);
-  color: var(--ss-text-secondary);
-  border-top: 1px solid var(--ss-border);
+  color: var(--stss-text-secondary);
+  border-top: 1px solid var(--stss-border);
 }
 
 /* ===== Trekker PV Video Section ===== */
 .character-pv-section {
-  background: var(--ss-bg-secondary);
-  border: 1px solid var(--ss-border);
-  border-radius: var(--ss-radius-lg);
+  background: var(--stss-bg-secondary);
+  border: 1px solid var(--stss-border);
+  border-radius: var(--stss-radius-lg);
   padding: 1.5rem;
   margin-bottom: 1.5rem;
 }
@@ -149,7 +149,7 @@
 .character-pv-section .section-title {
   margin: 0;
   font-size: var(--text-2xl);
-  color: var(--ss-text-primary);
+  color: var(--stss-primary);
 }
 
 .pv-heading-row {
@@ -162,8 +162,8 @@
 .pv-stage {
   max-width: 860px;
   margin: 1rem auto 0.85rem auto;
-  border: 1px solid var(--ss-border);
-  border-radius: var(--ss-radius-md);
+  border: 1px solid var(--stss-border);
+  border-radius: var(--stss-radius-md);
   overflow: hidden;
   background: rgba(0, 0, 0, 0.35);
 }
@@ -188,19 +188,19 @@
   font-size: var(--text-xs);
   font-weight: 700;
   border-radius: 5px;
-  background: var(--ss-primary-dark);
+  background: var(--stss-primary-dark);
   color: #fff;
 }
 
 .pv-caption {
   font-size: var(--text-md);
-  color: var(--ss-text-secondary);
+  color: var(--stss-text-secondary);
 }
 
 .pv-source {
   margin-left: auto;
   font-size: var(--text-sm);
-  color: var(--ss-primary);
+  color: var(--stss-primary);
   text-decoration: none;
 }
 
@@ -224,15 +224,15 @@
 .skin-card {
   display: flex;
   flex-direction: column;
-  background: var(--ss-bg-tertiary);
-  border: 1px solid var(--ss-border);
-  border-radius: var(--ss-radius-md);
+  background: var(--stss-bg-tertiary);
+  border: 1px solid var(--stss-border);
+  border-radius: var(--stss-radius-md);
   overflow: hidden;
   text-decoration: none;
 }
 
 .skin-default {
-  border-color: var(--ss-border);
+  border-color: var(--stss-border);
 }
 
 .skin-image-wrap {
@@ -266,9 +266,9 @@
   width: 48px;
   height: 48px;
   border-radius: 8px;
-  border: 2px solid var(--ss-border);
+  border: 2px solid var(--stss-border);
   object-fit: cover;
-  background: var(--ss-bg-secondary);
+  background: var(--stss-bg-secondary);
 }
 
 
@@ -278,14 +278,14 @@
   margin: 0.5rem 0.75rem 0.25rem 0.75rem;
   font-size: var(--text-md);
   font-weight: 600;
-  color: var(--ss-text-primary);
+  color: var(--stss-text-primary);
 }
 
 .skin-desc {
   margin: 0 0.75rem 0.75rem 0.75rem;
   font-size: var(--text-xs);
   line-height: 1.4;
-  color: var(--ss-text-secondary);
+  color: var(--stss-text-secondary);
 }
 
 @media (max-width: 768px) {
@@ -311,7 +311,7 @@
 .character-details h1 {
   margin: 0 0 1rem 0;
   font-size: var(--text-5xl);
-  color: var(--ss-text-primary);
+  color: var(--stss-text-primary);
   font-weight: 700;
   text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
   letter-spacing: 0.02em;
@@ -324,12 +324,20 @@
   margin-bottom: 2rem;
 }
 
-/* Character meta values: plain text (no badge pills), same degree as content */
-.character-meta .meta-value {
+/* Character hero meta: icons grouped left, keyword text line right (no badge pills) */
+.character-meta .meta-icons {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  flex-wrap: wrap;
+}
+
+.character-meta .meta-text-line {
   font-size: var(--text-md);
   font-weight: 600;
-  color: var(--ss-text-primary);
+  color: var(--stss-text-primary);
   align-self: center;
+  margin: 0;
 }
 
 .element-badge-container {
@@ -346,11 +354,11 @@
 
 .character-lore h3 {
   margin: 0 0 0.5rem 0;
-  color: var(--ss-text-primary);
+  color: var(--stss-primary);
 }
 
 .character-lore p {
-  color: var(--ss-text-secondary);
+  color: var(--stss-text-secondary);
   line-height: 1.6;
 }
 
@@ -358,12 +366,12 @@
 .character-personal-info {
   margin-top: 1.5rem;
   padding-top: 1.5rem;
-  border-top: 1px solid var(--ss-border);
+  border-top: 1px solid var(--stss-border);
 }
 
 .character-personal-info h3 {
   margin: 0 0 1rem 0;
-  color: var(--ss-text-primary);
+  color: var(--stss-primary);
   font-size: var(--text-base);
 }
 
@@ -381,33 +389,33 @@
 
 .personal-info-grid .info-label {
   font-size: var(--text-xs);
-  color: var(--ss-text-muted);
+  color: var(--stss-text-muted);
   text-transform: uppercase;
   letter-spacing: 0.05em;
 }
 
 .personal-info-grid .info-value {
   font-size: var(--text-md);
-  color: var(--ss-text-primary);
+  color: var(--stss-text-primary);
 }
 
 .personal-info-grid .localized-name {
-  color: var(--ss-text-secondary);
+  color: var(--stss-text-secondary);
   font-size: var(--text-md);
 }
 
 /* Character Stats Section - Clean Table Layout */
 .character-stats-container {
-  background: var(--ss-bg-secondary);
+  background: var(--stss-bg-secondary);
   border-radius: 8px;
   padding: 1.5rem;
-  border: 1px solid var(--ss-border);
+  border: 1px solid var(--stss-border);
 }
 
 .character-stats-container h2 {
   margin: 0 0 1.5rem 0;
   font-size: var(--text-xl);
-  color: var(--ss-primary);
+  color: var(--stss-primary);
   text-align: center;
   font-weight: 600;
   font-family: var(--font-display);
@@ -418,11 +426,11 @@
 .character-stats-container .stats-section-title {
   margin: 0 0 1rem 0;
   font-size: var(--text-base);
-  color: var(--ss-primary);
+  color: var(--stss-primary);
   font-weight: 600;
   text-align: left;
   padding-bottom: 0.5rem;
-  border-bottom: 1px solid var(--ss-border);
+  border-bottom: 1px solid var(--stss-border);
   text-transform: uppercase;
   letter-spacing: 0.05em;
   position: relative;
@@ -435,7 +443,7 @@
   left: 0;
   width: 40px;
   height: 2px;
-  background: var(--ss-primary);
+  background: var(--stss-primary);
 }
 
 .character-stats-container .stats-section-title:first-child {
@@ -454,7 +462,7 @@
   gap: 1.5rem;
   margin-bottom: 1.5rem;
   padding-bottom: 1rem;
-  border-bottom: 1px solid var(--ss-border);
+  border-bottom: 1px solid var(--stss-border);
 }
 
 .stats-level-selector,
@@ -466,7 +474,7 @@
 
 .stats-level-selector label,
 .stats-ascension-selector label {
-  color: var(--ss-text-secondary);
+  color: var(--stss-text-secondary);
   font-size: var(--text-md);
 }
 
@@ -475,16 +483,16 @@
   padding: 0.5rem 0.75rem;
   font-size: var(--text-body);
   font-family: inherit;
-  background: var(--ss-bg-tertiary);
-  border: 1px solid var(--ss-border);
+  background: var(--stss-bg-tertiary);
+  border: 1px solid var(--stss-border);
   border-radius: 6px;
-  color: var(--ss-text);
+  color: var(--stss-text);
   text-align: center;
 }
 
 .stats-selectors-row .level-input:focus {
   outline: none;
-  border-color: var(--ss-border);
+  border-color: var(--stss-border);
   box-shadow: 0 0 0 2px rgba(0, 171, 186, 0.2);
 }
 
@@ -502,17 +510,17 @@
   padding: 0.5rem 0.75rem;
   font-size: var(--text-md);
   font-family: inherit;
-  background: var(--ss-bg-tertiary);
-  border: 1px solid var(--ss-border);
+  background: var(--stss-bg-tertiary);
+  border: 1px solid var(--stss-border);
   border-radius: 6px;
-  color: var(--ss-text);
+  color: var(--stss-text);
   cursor: pointer;
   min-width: 140px;
 }
 
 .stats-selectors-row .level-select:focus {
   outline: none;
-  border-color: var(--ss-border);
+  border-color: var(--stss-border);
   box-shadow: 0 0 0 2px rgba(0, 171, 186, 0.2);
 }
 
@@ -521,15 +529,15 @@
   align-items: center;
   gap: 0.75rem;
   font-size: var(--text-md);
-  color: var(--ss-text-secondary);
+  color: var(--stss-text-secondary);
 }
 
 .ascension-bonus .bonus-label {
-  color: var(--ss-text-muted);
+  color: var(--stss-text-muted);
 }
 
 .ascension-bonus .bonus-value {
-  color: var(--ss-text-primary);
+  color: var(--stss-text-primary);
   font-weight: 500;
 }
 
@@ -562,7 +570,7 @@
   display: flex;
   align-items: flex-start;
   padding: 0.5rem 0;
-  border-bottom: 1px solid var(--ss-border-subtle);
+  border-bottom: 1px solid var(--stss-border-subtle);
 }
 
 .stat-list-item:last-child {
@@ -580,7 +588,7 @@
 
 .stat-item-label {
   font-weight: 500;
-  color: var(--ss-text-secondary);
+  color: var(--stss-text-secondary);
   font-size: var(--text-md);
   flex-shrink: 0;
   min-width: 180px;
@@ -588,7 +596,7 @@
 
 .stat-item-value {
   font-weight: 600;
-  color: var(--ss-text-primary);
+  color: var(--stss-text-primary);
   font-family: var(--font-primary), -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
   font-size: var(--text-md);
   text-align: right;
@@ -598,21 +606,21 @@
 
 .stat-item-value.large {
   font-size: var(--text-base);
-  color: var(--ss-text-primary);
+  color: var(--stss-text-primary);
 }
 
 /* Stat Description */
 .stat-item-description {
   font-size: var(--text-xs);
-  color: var(--ss-text-tertiary);
+  color: var(--stss-text-tertiary);
   font-style: italic;
   margin-top: 0.25rem;
   line-height: 1.3;
 }
 
 .stat-card {
-  background: var(--ss-bg-primary);
-  border: 1px solid var(--ss-border);
+  background: var(--stss-bg-primary);
+  border: 1px solid var(--stss-border);
   border-radius: 8px;
   padding: 1rem;
   display: flex;
@@ -626,7 +634,7 @@
 
 .stat-card .stat-name {
   font-size: var(--text-md);
-  color: var(--ss-text-secondary);
+  color: var(--stss-text-secondary);
   font-weight: 600;
   margin-bottom: 0.5rem;
 }
@@ -634,25 +642,25 @@
 .stat-card .stat-value {
   font-size: var(--text-xl);
   font-weight: 700;
-  color: var(--ss-primary);
+  color: var(--stss-primary);
   line-height: 1.3;
 }
 
 .stat-card .stat-value.large {
   font-size: var(--text-2xl);
   font-weight: 800;
-  color: var(--ss-primary);
+  color: var(--stss-primary);
 }
 
 .stat-card .stat-desc {
   font-size: var(--text-xs);
-  color: var(--ss-text-secondary);
+  color: var(--stss-text-secondary);
   line-height: 1.4;
   font-style: italic;
   opacity: 0.85;
   margin-top: 0.5rem;
   padding-top: 0.5rem;
-  border-top: 1px solid var(--ss-border);
+  border-top: 1px solid var(--stss-border);
 }
 
 .stat-card.with-desc {
@@ -661,22 +669,22 @@
 
 /* Character Skills Section - Fresh Design */
 .character-skills {
-  background: var(--ss-bg-secondary);
+  background: var(--stss-bg-secondary);
   padding: 2rem;
   border-radius: 12px;
-  border: 1px solid var(--ss-border);
+  border: 1px solid var(--stss-border);
 }
 
 .character-skills h2 {
   margin: 0 0 1.5rem 0;
   font-size: var(--text-2xl);
-  color: var(--ss-primary);
+  color: var(--stss-primary);
   text-align: left;
   font-weight: var(--font-semibold);
   letter-spacing: var(--tracking-tight);
   position: relative;
   padding-bottom: 0.75rem;
-  border-bottom: 1px solid var(--ss-border);
+  border-bottom: 1px solid var(--stss-border);
   font-family: var(--font-display);
   line-height: var(--leading-tight);
   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
@@ -687,7 +695,7 @@
 .skills-section-title {
   margin: 0 0 1.5rem 0;
   font-size: var(--text-2xl);
-  color: var(--ss-primary);
+  color: var(--stss-primary);
   text-align: left;
   font-weight: 600;
   letter-spacing: 0.01em;
@@ -704,13 +712,13 @@
   gap: 0.75rem;
   margin-bottom: 1.5rem;
   padding: 0.75rem 1rem;
-  background: var(--ss-bg-tertiary);
-  border: 1px solid var(--ss-border);
+  background: var(--stss-bg-tertiary);
+  border: 1px solid var(--stss-border);
   border-radius: 8px;
 }
 
 .skill-level-selector label {
-  color: var(--ss-text-secondary);
+  color: var(--stss-text-secondary);
   font-size: var(--text-md);
   font-weight: 500;
 }
@@ -720,10 +728,10 @@
   padding: 0.5rem 0.75rem;
   font-size: var(--text-md);
   font-family: inherit;
-  background: var(--ss-bg-dark);
-  border: 1px solid var(--ss-border);
+  background: var(--stss-bg-dark);
+  border: 1px solid var(--stss-border);
   border-radius: 6px;
-  color: var(--ss-text-primary);
+  color: var(--stss-text-primary);
   cursor: pointer;
   min-width: 80px;
   text-align: center;
@@ -736,7 +744,7 @@
 .skill-level-selector .level-select:focus,
 .skill-level-selector .level-input:focus {
   outline: none;
-  border-color: var(--ss-border);
+  border-color: var(--stss-border);
   box-shadow: 0 0 0 2px rgba(157, 78, 221, 0.2);
 }
 
@@ -764,9 +772,9 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background: var(--ss-bg-dark);
-  border: 1px solid var(--ss-border);
-  color: var(--ss-text-primary);
+  background: var(--stss-bg-dark);
+  border: 1px solid var(--stss-border);
+  color: var(--stss-text-primary);
   font-size: var(--text-lg);
   font-weight: 600;
   cursor: pointer;
@@ -802,8 +810,8 @@
 }
 
 .skill-card {
-  background: var(--ss-bg-tertiary);
-  border: 1px solid var(--ss-border);
+  background: var(--stss-bg-tertiary);
+  border: 1px solid var(--stss-border);
   border-radius: 12px;
   padding: 1.5rem;
   margin: 0;
@@ -829,8 +837,8 @@
   height: 80px;
   border-radius: 8px;
   overflow: hidden;
-  background: var(--ss-bg-dark, rgba(0, 0, 0, 0.3));
-  border: 2px solid var(--ss-border);
+  background: var(--stss-bg-dark, rgba(0, 0, 0, 0.3));
+  border: 2px solid var(--stss-border);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -898,8 +906,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background: var(--ss-bg-dark, rgba(0, 0, 0, 0.3));
-  color: var(--ss-text-muted, #666);
+  background: var(--stss-bg-dark, rgba(0, 0, 0, 0.3));
+  color: var(--stss-text-muted, #666);
   font-size: var(--text-2xs);
 }
 
@@ -935,7 +943,7 @@
 
 .skill-name {
   margin: 0;
-  color: var(--ss-primary);
+  color: var(--stss-primary);
   font-size: var(--text-xl);
   font-weight: var(--font-semibold);
   letter-spacing: 0.01em;
@@ -957,7 +965,7 @@
 }
 
 .skill-description {
-  color: var(--ss-text-secondary);
+  color: var(--stss-text-secondary);
   margin: 0 0 1rem 0;
   font-size: var(--text-base);
   line-height: var(--leading-relaxed);
@@ -970,7 +978,7 @@
 /* Skill Strike and Bullet Point Styling */
 .skill-strike,
 .skill-bullet {
-  color: var(--ss-text-secondary);
+  color: var(--stss-text-secondary);
   margin: 0.5rem 0;
   padding-left: 1.5rem;
   font-size: var(--text-base);
@@ -987,7 +995,7 @@
   content: '•';
   position: absolute;
   left: 0;
-  color: var(--ss-primary);
+  color: var(--stss-primary);
   font-weight: bold;
   font-size: 1.2em;
   line-height: 1;
@@ -995,13 +1003,13 @@
 
 .skill-strike strong,
 .skill-bullet strong {
-  color: var(--ss-primary);
+  color: var(--stss-primary);
   font-weight: 700;
 }
 
 .skill-strike span,
 .skill-bullet span {
-  color: var(--ss-text-secondary);
+  color: var(--stss-text-secondary);
 }
 
 .skill-damage {
@@ -1009,7 +1017,7 @@
   padding: 0;
   position: relative;
   line-height: var(--leading-normal);
-  color: var(--ss-text-secondary);
+  color: var(--stss-text-secondary);
   font-size: var(--text-sm);
   font-family: var(--font-primary);
   font-weight: var(--font-normal);
@@ -1026,17 +1034,17 @@
 /* Strike emphasis styling */
 .strike-emphasis {
   font-weight: var(--font-semibold);
-  color: var(--ss-primary);
+  color: var(--stss-primary);
 }
 /* Status Effects strong tag styling */
 .status-effect-description strong {
-  color: var(--ss-primary);
+  color: var(--stss-primary);
   font-weight: var(--font-semibold);
 }
 
 /* Talents strong tag styling */
 .talent-description strong {
-  color: var(--ss-primary);
+  color: var(--stss-primary);
   font-weight: var(--font-semibold);
 }
 
@@ -1044,7 +1052,7 @@
 .skill-strike strong,
 .skill-bullet strong,
 .talent-description strong {
-  color: var(--ss-primary);
+  color: var(--stss-primary);
   font-weight: var(--font-semibold);
 }
 
@@ -1055,7 +1063,7 @@
 
 .skill-effects h4 {
   margin: 0 0 1rem 0;
-  color: var(--ss-text-primary);
+  color: var(--stss-text-primary);
   font-size: var(--text-sm);
   font-weight: var(--font-medium);
   text-transform: uppercase;
@@ -1076,7 +1084,7 @@
   font-size: var(--text-sm);
   padding-left: 1.5rem;
   position: relative;
-  color: var(--ss-text-secondary);
+  color: var(--stss-text-secondary);
   font-family: var(--font-primary);
   letter-spacing: var(--tracking-normal);
 }
@@ -1088,7 +1096,7 @@
   top: 0.6rem;
   width: 6px;
   height: 6px;
-  background: var(--ss-primary);
+  background: var(--stss-primary);
   border-radius: 50%;
 }
 /* Status Effects Section - Improved Organization */
@@ -1102,8 +1110,8 @@
 }
 
 .status-effect-item {
-  background: var(--ss-bg-tertiary);
-  border: 1px solid var(--ss-border);
+  background: var(--stss-bg-tertiary);
+  border: 1px solid var(--stss-border);
   border-radius: 12px;
   padding: 1.5rem;
   position: relative;
@@ -1115,7 +1123,7 @@
 
 .status-effect-name {
   margin: 0 0 0.75rem 0;
-  color: var(--ss-primary);
+  color: var(--stss-primary);
   font-size: var(--text-lg);
   font-weight: var(--font-semibold);
   font-family: var(--font-primary);
@@ -1124,7 +1132,7 @@
 }
 
 .status-effect-description {
-  color: var(--ss-text-secondary);
+  color: var(--stss-text-secondary);
   margin: 0;
   line-height: var(--leading-relaxed);
   font-family: var(--font-primary);
@@ -1135,22 +1143,22 @@
 
 /* Character Talents Section */
 .character-talents {
-  background: var(--ss-bg-secondary);
+  background: var(--stss-bg-secondary);
   border-radius: 12px;
   padding: 2rem;
-  border: 1px solid var(--ss-border);
+  border: 1px solid var(--stss-border);
 }
 
 .character-talents h2 {
   margin: 0 0 1.5rem 0;
   font-size: var(--text-2xl);
-  color: var(--ss-primary);
+  color: var(--stss-primary);
   text-align: left;
   font-weight: var(--font-semibold);
   letter-spacing: var(--tracking-tight);
   position: relative;
   padding-bottom: 0.75rem;
-  border-bottom: 1px solid var(--ss-border);
+  border-bottom: 1px solid var(--stss-border);
   font-family: var(--font-display);
   line-height: var(--leading-tight);
 }
@@ -1164,8 +1172,8 @@
 }
 
 .talent-item {
-  background: var(--ss-bg-tertiary);
-  border: 1px solid var(--ss-border);
+  background: var(--stss-bg-tertiary);
+  border: 1px solid var(--stss-border);
   border-radius: 12px;
   padding: 1.5rem;
   position: relative;
@@ -1179,8 +1187,8 @@
 }
 
 .talent-number {
-  background: var(--ss-primary);
-  color: var(--ss-bg-primary);
+  background: var(--stss-primary);
+  color: var(--stss-bg-primary);
   font-family: var(--font-display);
   font-size: var(--text-lg);
   font-weight: var(--font-bold);
@@ -1197,7 +1205,7 @@
 
 .talent-name {
   margin: 0;
-  color: var(--ss-primary);
+  color: var(--stss-primary);
   font-size: var(--text-xl);
   font-weight: var(--font-semibold);
   font-family: var(--font-primary);
@@ -1206,7 +1214,7 @@
 }
 
 .talent-description {
-  color: var(--ss-text-secondary);
+  color: var(--stss-text-secondary);
   margin: 0;
   line-height: var(--leading-relaxed);
   font-family: var(--font-primary);
@@ -1221,34 +1229,34 @@
   align-items: center;
   gap: 0.75rem;
   padding: 1rem 1.25rem;
-  background: var(--ss-bg-tertiary);
-  border: 1px solid var(--ss-border);
+  background: var(--stss-bg-tertiary);
+  border: 1px solid var(--stss-border);
   border-radius: 8px;
   margin-bottom: 1.5rem;
 }
 
 .shard-total-label {
-  color: var(--ss-text-secondary);
+  color: var(--stss-text-secondary);
   font-size: var(--text-body);
   font-weight: 500;
 }
 
 .shard-total-value {
-  color: var(--ss-text-primary);
+  color: var(--stss-text-primary);
   font-size: var(--text-xl);
   font-weight: 700;
 }
 
 .shard-dupe-info {
-  color: var(--ss-text-muted);
+  color: var(--stss-text-muted);
   font-size: var(--text-md);
   font-weight: 500;
 }
 
 /* Talent Cards - Expanded Design */
 .talent-card {
-  background: var(--ss-bg-tertiary);
-  border: 1px solid var(--ss-border);
+  background: var(--stss-bg-tertiary);
+  border: 1px solid var(--stss-border);
   border-radius: 12px;
   padding: 1.25rem;
   margin-bottom: 1rem;
@@ -1260,19 +1268,19 @@
   gap: 1rem;
   margin-bottom: 1rem;
   padding-bottom: 1rem;
-  border-bottom: 1px solid var(--ss-border);
+  border-bottom: 1px solid var(--stss-border);
 }
 
 .talent-icon-wrapper {
   flex-shrink: 0;
   width: 56px;
   height: 56px;
-  background: var(--ss-bg-dark);
+  background: var(--stss-bg-dark);
   border-radius: 8px;
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 1px solid var(--ss-border);
+  border: 1px solid var(--stss-border);
 }
 
 .talent-card .talent-info {
@@ -1285,7 +1293,7 @@
 .talent-card .talent-number {
   display: block;
   font-size: var(--text-2xs);
-  color: var(--ss-text-muted);
+  color: var(--stss-text-muted);
   text-transform: uppercase;
   letter-spacing: 0.05em;
   background: none;
@@ -1309,19 +1317,19 @@
   align-items: center;
   gap: 0.5rem;
   padding: 0.5rem 0.75rem;
-  background: var(--ss-bg-dark);
+  background: var(--stss-bg-dark);
   border-radius: 8px;
-  border: 1px solid var(--ss-border);
+  border: 1px solid var(--stss-border);
 }
 
 .talent-shard .shard-cost {
-  color: var(--ss-text-primary);
+  color: var(--stss-text-primary);
   font-size: var(--text-lg);
   font-weight: 700;
 }
 
 .talent-shard .shard-dupe-cost {
-  color: var(--ss-text-muted);
+  color: var(--stss-text-muted);
   font-size: var(--text-xs);
   font-weight: 500;
 }
@@ -1329,14 +1337,14 @@
 .talent-main-effect {
   margin-bottom: 1rem;
   padding: 1rem;
-  background: var(--ss-bg-dark);
+  background: var(--stss-bg-dark);
   border-radius: 8px;
-  border: 1px solid var(--ss-border);
+  border: 1px solid var(--stss-border);
 }
 
 .talent-main-effect h4 {
   font-size: var(--text-md);
-  color: var(--ss-primary);
+  color: var(--stss-primary);
   margin: 0 0 0.5rem 0;
   text-transform: uppercase;
   letter-spacing: 0.05em;
@@ -1345,13 +1353,13 @@
 
 .talent-effect-text {
   margin: 0;
-  color: var(--ss-text-primary);
+  color: var(--stss-text-primary);
   line-height: 1.6;
   font-size: var(--text-body);
 }
 
 .talent-effect-text strong {
-  color: var(--ss-text-primary);
+  color: var(--stss-text-primary);
   font-weight: 700;
   font-size: var(--text-base);
 }
@@ -1359,13 +1367,13 @@
 .talent-stat-summary {
   margin-bottom: 1rem;
   padding: 1rem;
-  background: var(--ss-bg-dark);
+  background: var(--stss-bg-dark);
   border-radius: 8px;
 }
 
 .talent-stat-summary h4 {
   font-size: var(--text-md);
-  color: var(--ss-primary);
+  color: var(--stss-primary);
   margin: 0 0 0.75rem 0;
   text-transform: uppercase;
   letter-spacing: 0.05em;
@@ -1383,14 +1391,14 @@
   align-items: center;
   gap: 0.5rem;
   padding: 0.5rem 0.75rem;
-  background: var(--ss-bg-tertiary);
+  background: var(--stss-bg-tertiary);
   border-radius: 6px;
   font-size: var(--text-md);
-  border: 1px solid var(--ss-border);
+  border: 1px solid var(--stss-border);
 }
 
 .stat-summary-item .stat-type {
-  color: var(--ss-text-primary);
+  color: var(--stss-text-primary);
   font-weight: 600;
 }
 
@@ -1400,13 +1408,13 @@
 }
 
 .stat-summary-item .flat-value {
-  color: var(--ss-primary);
+  color: var(--stss-primary);
   font-weight: 700;
   font-size: var(--text-body);
 }
 
 .stat-summary-item .percent-value {
-  color: var(--ss-text-primary);
+  color: var(--stss-text-primary);
   font-weight: 700;
   font-size: var(--text-body);
 }
@@ -1414,32 +1422,32 @@
 /* Collapsible talent details */
 .talent-details {
   margin-top: 0.5rem;
-  border-top: 1px solid var(--ss-border);
+  border-top: 1px solid var(--stss-border);
   padding-top: 0.5rem;
 }
 
 .talent-details summary {
   cursor: pointer;
   padding: 0.5rem 0.75rem;
-  color: var(--ss-text-secondary);
+  color: var(--stss-text-secondary);
   font-size: var(--text-md);
   user-select: none;
   display: flex;
   align-items: center;
   gap: 0.5rem;
-  background: var(--ss-bg-dark);
+  background: var(--stss-bg-dark);
   border-radius: 6px;
   transition: all 0.15s ease;
 }
 
 
 .talent-details summary::marker {
-  color: var(--ss-primary);
+  color: var(--stss-primary);
 }
 
 .talent-details[open] summary {
   margin-bottom: 0.75rem;
-  color: var(--ss-primary);
+  color: var(--stss-primary);
 }
 
 .stat-bonuses-grid {
@@ -1447,7 +1455,7 @@
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   gap: 0.5rem;
   padding: 0.5rem;
-  background: var(--ss-bg-dark);
+  background: var(--stss-bg-dark);
   border-radius: 8px;
 }
 
@@ -1456,14 +1464,14 @@
   align-items: center;
   gap: 0.5rem;
   padding: 0.5rem 0.75rem;
-  background: var(--ss-bg-tertiary);
+  background: var(--stss-bg-tertiary);
   border-radius: 6px;
   font-size: var(--text-md);
-  border: 1px solid var(--ss-border);
+  border: 1px solid var(--stss-border);
 }
 
 .stat-bonus-item .bonus-level {
-  color: var(--ss-primary);
+  color: var(--stss-primary);
   font-size: var(--text-sm);
   min-width: 40px;
   font-weight: 700;
@@ -1471,34 +1479,34 @@
 
 .stat-bonus-item .bonus-name {
   flex: 1;
-  color: var(--ss-text-primary);
+  color: var(--stss-text-primary);
   font-weight: 500;
 }
 
 .stat-bonus-item .bonus-value {
-  color: var(--ss-text-primary);
+  color: var(--stss-text-primary);
   font-weight: 700;
   font-size: var(--text-md);
 }
 
 /* Character Potentials Section */
 .character-potentials {
-  background: var(--ss-bg-secondary);
+  background: var(--stss-bg-secondary);
   border-radius: 12px;
   padding: 2rem;
-  border: 1px solid var(--ss-border);
+  border: 1px solid var(--stss-border);
 }
 
 .character-potentials h2 {
   margin: 0 0 1.5rem 0;
   font-size: var(--text-2xl);
-  color: var(--ss-primary);
+  color: var(--stss-primary);
   text-align: left;
   font-weight: var(--font-semibold);
   letter-spacing: var(--tracking-tight);
   position: relative;
   padding-bottom: 0.75rem;
-  border-bottom: 1px solid var(--ss-border);
+  border-bottom: 1px solid var(--stss-border);
   font-family: var(--font-display);
   line-height: var(--leading-tight);
 }
@@ -1506,13 +1514,13 @@
 .potential-build-header {
   margin: 0 0 1.5rem 0;
   padding: 1.5rem;
-  background: var(--ss-bg-tertiary);
+  background: var(--stss-bg-tertiary);
   border-radius: 12px;
 }
 
 .potential-build-header .build-title {
   margin: 0 0 0.75rem 0;
-  color: var(--ss-primary);
+  color: var(--stss-primary);
   font-size: var(--text-2xl);
   font-weight: var(--font-bold);
   font-family: var(--font-display);
@@ -1520,7 +1528,7 @@
   letter-spacing: var(--tracking-normal);
 }
 .potential-build-header .build-description {
-  color: var(--ss-text-secondary);
+  color: var(--stss-text-secondary);
   margin: 0;
   line-height: var(--leading-relaxed);
   font-family: var(--font-primary);
@@ -1537,7 +1545,7 @@
 .potentials-summary h2 {
   margin: 0 0 1rem 0;
   font-size: var(--text-2xl);
-  color: var(--ss-text-primary);
+  color: var(--stss-primary);
   font-weight: var(--font-medium);
   font-family: var(--font-display);
   line-height: var(--leading-tight);
@@ -1551,16 +1559,16 @@
 }
 
 .summary-section {
-  background: var(--ss-bg-secondary);
+  background: var(--stss-bg-secondary);
   border-radius: 12px;
   padding: 1.5rem;
-  border: 1px solid var(--ss-border);
+  border: 1px solid var(--stss-border);
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
 .summary-section h3 {
   margin: 0 0 0.75rem 0;
-  color: var(--ss-text-primary);
+  color: var(--stss-primary);
   font-size: var(--text-lg);
   font-weight: var(--font-semibold);
   font-family: var(--font-primary);
@@ -1578,9 +1586,9 @@
   flex-direction: column;
   gap: 0.4rem;
   padding: 0.5rem;
-  background: var(--ss-bg-secondary);
+  background: var(--stss-bg-secondary);
   border-radius: 6px;
-  border: 1px solid var(--ss-border);
+  border: 1px solid var(--stss-border);
 }
 
 .stat-item {
@@ -1593,12 +1601,12 @@
 .stat-item.total {
   margin-top: 0.75rem;
   padding-top: 0.75rem;
-  border-top: 1px solid var(--ss-border);
+  border-top: 1px solid var(--stss-border);
   font-weight: var(--font-semibold);
 }
 
 .stat-label {
-  color: var(--ss-text-secondary);
+  color: var(--stss-text-secondary);
   font-size: var(--text-xs);
   font-family: var(--font-primary);
   line-height: var(--leading-tight);
@@ -1607,7 +1615,7 @@
 }
 
 .stat-value {
-  color: var(--ss-text-primary);
+  color: var(--stss-text-primary);
   font-weight: var(--font-medium);
   font-size: var(--text-xs);
   font-family: var(--font-primary);
@@ -1616,13 +1624,13 @@
 }
 
 .summary-section.overall {
-  background: var(--ss-bg-tertiary);
-  border-color: var(--ss-border);
+  background: var(--stss-bg-tertiary);
+  border-color: var(--stss-border);
 }
 
 .potentials-build-header h3 {
   margin: 0 0 0.75rem 0;
-  color: var(--ss-text-primary);
+  color: var(--stss-primary);
   font-size: var(--text-2xl);
   font-weight: var(--font-semibold);
   font-family: var(--font-display);
@@ -1631,7 +1639,7 @@
 }
 
 .build-description {
-  color: var(--ss-text-secondary);
+  color: var(--stss-text-secondary);
   margin: 0;
   line-height: var(--leading-relaxed);
   font-family: var(--font-primary);
@@ -1664,8 +1672,8 @@
 .potential-item {
   display: flex;
   gap: 1.5rem;
-  background: var(--ss-bg-secondary);
-  border: 1px solid var(--ss-border);
+  background: var(--stss-bg-secondary);
+  border: 1px solid var(--stss-border);
   border-radius: 12px;
   padding: 1.5rem;
   position: relative;
@@ -1679,7 +1687,7 @@
   height: 300px;
   border-radius: 12px;
   overflow: hidden;
-  border: 1px solid var(--ss-border);
+  border: 1px solid var(--stss-border);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1707,7 +1715,7 @@
 
 .potential-name {
   margin: 0;
-  color: var(--ss-primary);
+  color: var(--stss-primary);
   font-size: var(--text-xl);
   font-weight: var(--font-semibold);
   font-family: var(--font-primary);
@@ -1716,9 +1724,9 @@
 }
 
 .potential-level {
-  background: var(--ss-level-purple);
-  color: var(--ss-primary);
-  border: 1px solid var(--ss-border);
+  background: var(--stss-level-purple);
+  color: var(--stss-primary);
+  border: 1px solid var(--stss-border);
   font-family: var(--font-primary);
   font-size: var(--text-sm);
   font-weight: var(--font-semibold);
@@ -1728,7 +1736,7 @@
 }
 
 .potential-description {
-  color: var(--ss-text-secondary);
+  color: var(--stss-text-secondary);
   margin: 0;
   line-height: var(--leading-relaxed);
   font-family: var(--font-primary);
@@ -1738,30 +1746,30 @@
 }
 
 .potential-description strong {
-  color: var(--ss-primary);
+  color: var(--stss-primary);
   font-weight: var(--font-semibold);
 }
 
 /* Character Disc Section */
 .character-disc {
-  background: var(--ss-bg-secondary);
+  background: var(--stss-bg-secondary);
   border-radius: 12px;
   padding: 2rem;
   margin-bottom: 2rem;
-  border: 1px solid var(--ss-border);
+  border: 1px solid var(--stss-border);
 }
 
 .character-disc h2 {
   margin: 0 0 1.5rem 0;
   font-size: var(--text-2xl);
-  color: var(--ss-primary);
+  color: var(--stss-primary);
   font-weight: var(--font-semibold);
   font-family: var(--font-display);
   line-height: var(--leading-tight);
   letter-spacing: var(--tracking-tight);
   position: relative;
   padding-bottom: 0.75rem;
-  border-bottom: 1px solid var(--ss-border);
+  border-bottom: 1px solid var(--stss-border);
 }
 
 /* Disc Hero Section with Large Image */
@@ -1770,9 +1778,9 @@
   align-items: center;
   gap: 2rem;
   padding: 2rem;
-  background: var(--ss-bg-tertiary);
+  background: var(--stss-bg-tertiary);
   border-radius: 12px;
-  border: 1px solid var(--ss-border);
+  border: 1px solid var(--stss-border);
   margin-bottom: 2rem;
 }
 
@@ -1782,7 +1790,7 @@
   height: 300px;
   border-radius: 12px;
   overflow: hidden;
-  border: 1px solid var(--ss-border);
+  border: 1px solid var(--stss-border);
 }
 
 .disc-image-large img {
@@ -1802,7 +1810,7 @@
 .disc-hero-info h3 {
   margin: 0;
   font-size: var(--text-2xl);
-  color: var(--ss-primary);
+  color: var(--stss-primary);
   font-weight: var(--font-semibold);
   font-family: var(--font-display);
 }
@@ -1822,24 +1830,22 @@
 .disc-meta-line {
   font-size: var(--text-sm);
   font-weight: 600;
-  color: var(--ss-text-primary);
+  color: var(--stss-text-primary);
   margin: 0;
+  line-height: 1.4;
 }
 
-/* Element name keeps the game's element color for scannability
-   (word-* names avoid the shared .element-* badge classes in ss-badge-colours.css) */
 .disc-meta-line .element-word {
   display: inline-flex;
   align-items: center;
   gap: 0.3rem;
 }
 
-.disc-meta-line .word-aqua { color: var(--ss-element-aqua); }
-.disc-meta-line .word-ignis { color: var(--ss-element-ignis); }
-.disc-meta-line .word-ventus { color: var(--ss-element-ventus); }
-.disc-meta-line .word-terra { color: var(--ss-element-terra); }
-.disc-meta-line .word-lux { color: var(--ss-element-lux); }
-.disc-meta-line .word-umbra { color: var(--ss-element-umbra); }
+.disc-meta-line .element-word img {
+  flex-shrink: 0;
+}
+
+/* Element name color comes from the global ss-kw-element-* classes in ss-colors.css */
 
 /* Base ATK value + dupe-level buttons (interactive control) */
 .stat-value-wrap {
@@ -1854,9 +1860,9 @@
 }
 
 .dupe-tier-btn {
-  background: var(--ss-bg-primary);
-  color: var(--ss-text-secondary);
-  border: 1px solid var(--ss-border);
+  background: var(--stss-bg-primary);
+  color: var(--stss-text-secondary);
+  border: 1px solid var(--stss-border);
   border-radius: 5px;
   font-size: var(--text-2xs);
   font-weight: 600;
@@ -1866,21 +1872,47 @@
 }
 
 .dupe-tier-btn.active {
-  color: var(--ss-primary);
-  border-color: var(--ss-primary);
+  color: var(--stss-primary);
+  border-color: var(--stss-primary);
+}
+
+.disc-title-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
 }
 
 .view-full-disc-link {
   display: inline-block;
-  margin-top: 0.5rem;
-  padding: 0.5rem 1rem;
-  background: var(--ss-primary);
-  color: var(--ss-bg-primary);
+  flex-shrink: 0;
+  margin-top: 0;
+  padding: 0.25rem 0.7rem;
+  background: var(--stss-primary);
+  color: var(--stss-bg-primary);
   text-decoration: none;
   border-radius: 6px;
   font-weight: var(--font-medium);
-  font-size: var(--text-sm);
+  font-size: var(--text-xs);
 }
+
+/* Lv.90 stat rows living inside the disc hero (main disc container) */
+.disc-hero-stats {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.disc-hero-stats h4 {
+  margin: 0;
+  font-size: var(--text-sm);
+  color: var(--stss-primary);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
 
 /* Disc Details Grid */
 .disc-details-grid {
@@ -1889,125 +1921,154 @@
   gap: 1.5rem;
 }
 
-.disc-card {
-  padding: 1.5rem;
-  background: var(--ss-bg-tertiary);
-  border-radius: 12px;
-  border: 1px solid var(--ss-border);
-}
-
-.disc-card h4 {
-  margin: 0 0 1rem 0;
-  font-size: var(--text-xl);
-  color: var(--ss-primary);
-  font-weight: var(--font-semibold);
-  padding-bottom: 0.5rem;
-  border-bottom: 1px solid var(--ss-border);
-}
-
 /* Stats Grid */
-.disc-stats-list {
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-}
 
-.disc-stat-item {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1rem;
-  background: var(--ss-bg-secondary);
-  border-radius: 8px;
-  border: 1px solid var(--ss-border);
-}
-
-.disc-stat-item .stat-label {
-  color: var(--ss-primary);
+/* Disc skills + support notes as list tables (no cards) */
+.disc-table-block h4 {
+  margin: 0 0 0.75rem 0;
   font-size: var(--text-sm);
-  font-weight: 600;
-}
-
-.disc-stat-item .stat-value {
-  color: var(--ss-text-primary);
-  font-weight: var(--ss-font-semibold, 600);
-  font-size: var(--text-base);
-}
-
-
-/* Skills - Enhanced Style */
-.disc-skills-content {
-  display: flex;
-  flex-direction: column;
-  gap: 1.5rem;
-}
-
-.disc-skill {
-  padding: 1.5rem;
-  background: var(--ss-bg-secondary);
-  border-radius: 8px;
-  border: 1px solid var(--ss-border);
-}
-
-.disc-skill-header {
-  display: flex;
-  align-items: flex-start;
-  gap: 1rem;
-  margin-bottom: 1rem;
-  padding-bottom: 1rem;
-  border-bottom: 1px solid var(--ss-border);
-}
-
-.skill-number {
-  flex-shrink: 0;
-  width: 36px;
-  height: 36px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: var(--ss-primary);
-  color: var(--ss-bg-primary);
-  border-radius: 50%;
-  font-weight: var(--font-bold);
-  font-size: var(--text-base);
-  font-family: var(--font-display);
-}
-
-.disc-skill-title {
-  flex: 1;
-}
-
-.disc-skill h5 {
-  margin: 0 0 0.25rem 0;
-  font-size: var(--text-sm);
-  color: var(--ss-primary);
+  color: var(--stss-primary);
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.05em;
 }
 
-.disc-skill h6 {
-  margin: 0;
-  font-size: var(--text-base);
-  color: var(--ss-primary);
-  font-weight: var(--font-semibold);
+.disc-skills-table,
+.disc-support-table {
+  width: 100%;
+  border-collapse: collapse;
 }
+
+.disc-skills-table td,
+.disc-support-table td,
+.disc-support-table th {
+  padding: 0.6rem 0.6rem;
+  border-bottom: 1px solid var(--stss-border);
+  vertical-align: top;
+  text-align: left;
+}
+
+.disc-skills-table tr:last-child td,
+.disc-support-table tr:last-child td,
+.disc-support-table th {
+  border-bottom: none;
+}
+
+.disc-support-table th {
+  border-bottom: 1px solid var(--stss-border);
+  color: var(--stss-primary);
+  font-size: var(--text-xs);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.disc-skills-table .skill-num {
+  color: var(--stss-primary);
+  font-weight: 700;
+  font-size: var(--text-base);
+  white-space: nowrap;
+}
+
+.disc-skills-table .skill-type-cell {
+  color: var(--stss-primary);
+  font-size: var(--text-xs);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  white-space: nowrap;
+}
+
+.disc-skills-table .skill-name-cell {
+  color: var(--stss-text-primary);
+  font-weight: 600;
+  font-size: var(--text-sm);
+  white-space: nowrap;
+}
+
+.disc-skills-table .skill-lv-cell {
+  color: var(--stss-text-secondary);
+  font-size: var(--text-xs);
+  white-space: nowrap;
+}
+
+.disc-skills-table .skill-effect-cell {
+  color: var(--stss-text-primary);
+  font-size: var(--text-sm);
+  line-height: 1.5;
+}
+
+.disc-support-table .support-note-cell {
+  color: var(--stss-text-primary);
+  font-weight: 600;
+  font-size: var(--text-sm);
+}
+
+.disc-support-table .support-note-cell .notes-image {
+  margin-right: 0.5rem;
+  vertical-align: middle;
+}
+
+.disc-support-table .support-val-cell {
+  color: var(--stss-text-primary);
+  font-size: var(--text-sm);
+  text-align: right;
+  white-space: nowrap;
+}
+
+.disc-support-hint {
+  font-size: var(--text-xs);
+  color: var(--stss-text-secondary);
+  margin: 0 0 0.75rem 0;
+}
+
+/* Disc stats as a two-column table inside the hero */
+.disc-stats-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.disc-stats-table td {
+  padding: 0.45rem 0.5rem;
+  border-bottom: 1px solid var(--stss-border);
+  vertical-align: middle;
+}
+
+.disc-stats-table tr:last-child td {
+  border-bottom: none;
+}
+
+.disc-stats-table td.stat-label {
+  color: var(--stss-primary);
+  font-size: var(--text-sm);
+  font-weight: 600;
+  text-align: left;
+  white-space: nowrap;
+}
+
+.disc-stats-table td.stat-value {
+  color: var(--stss-text-primary);
+  font-weight: 600;
+  font-size: var(--text-base);
+  text-align: right;
+}
+
 
 .skill-description {
   margin-bottom: 0.75rem;
   line-height: var(--leading-relaxed);
   font-size: var(--text-sm);
-  color: var(--ss-text-primary);
+  color: var(--stss-text-primary);
 }
 
 .skill-description strong {
-  color: var(--ss-primary);
+  color: var(--stss-primary);
   font-weight: var(--font-semibold);
 }
 
 /* Skill value highlighting (orange color values from game) */
 .skill-value {
-  color: var(--ss-text-primary);
+  color: var(--stss-text-primary);
   font-weight: 600;
 }
 
@@ -2022,15 +2083,15 @@
 .skill-requirements {
   margin-top: 1rem;
   padding: 1rem;
-  background: var(--ss-bg-tertiary);
+  background: var(--stss-bg-tertiary);
   border-radius: 8px;
-  border: 1px solid var(--ss-border);
+  border: 1px solid var(--stss-border);
 }
 
 .skill-requirements h6 {
   margin: 0 0 0.75rem 0;
   font-size: var(--text-sm);
-  color: var(--ss-primary);
+  color: var(--stss-primary);
   font-weight: var(--font-semibold);
   text-transform: uppercase;
   letter-spacing: 0.05em;
@@ -2047,9 +2108,9 @@
   align-items: center;
   gap: 0.75rem;
   padding: 0.5rem;
-  background: var(--ss-bg-secondary);
+  background: var(--stss-bg-secondary);
   border-radius: 6px;
-  border: 1px solid var(--ss-border);
+  border: 1px solid var(--stss-border);
 }
 
 .requirement-info {
@@ -2060,13 +2121,13 @@
 }
 
 .melody-name {
-  color: var(--ss-text-primary);
+  color: var(--stss-text-primary);
   font-size: var(--text-sm);
   font-weight: var(--font-medium);
 }
 
 .requirement-level {
-  color: var(--ss-primary);
+  color: var(--stss-primary);
   font-weight: var(--font-semibold);
   font-size: var(--text-sm);
 }
@@ -2080,15 +2141,15 @@
 
 .musical-notes-source {
   padding: 1rem;
-  background: var(--ss-bg-secondary);
+  background: var(--stss-bg-secondary);
   border-radius: 8px;
-  border: 1px solid var(--ss-border);
+  border: 1px solid var(--stss-border);
 }
 
 .musical-notes-source h5 {
   margin: 0 0 0.75rem 0;
   font-size: var(--text-base);
-  color: var(--ss-primary);
+  color: var(--stss-primary);
   font-weight: var(--font-semibold);
 }
 
@@ -2096,7 +2157,7 @@
   margin: 0;
   line-height: var(--leading-relaxed);
   font-size: var(--text-base);
-  color: var(--ss-text-secondary);
+  color: var(--stss-text-secondary);
 }
 
 .melodies {
@@ -2107,9 +2168,9 @@
 
 .melody-item {
   padding: 1.5rem;
-  background: var(--ss-bg-secondary);
+  background: var(--stss-bg-secondary);
   border-radius: 8px;
-  border: 1px solid var(--ss-border);
+  border: 1px solid var(--stss-border);
 }
 
 .melody-header {
@@ -2118,13 +2179,13 @@
   gap: 1rem;
   margin-bottom: 1rem;
   padding-bottom: 0.75rem;
-  border-bottom: 1px solid var(--ss-border);
+  border-bottom: 1px solid var(--stss-border);
 }
 
 .melody-header h5 {
   margin: 0;
   font-size: var(--text-base);
-  color: var(--ss-primary);
+  color: var(--stss-primary);
   font-weight: var(--font-semibold);
 }
 
@@ -2132,7 +2193,7 @@
   margin: 0 0 0.5rem 0;
   line-height: var(--leading-relaxed);
   font-size: var(--text-sm);
-  color: var(--ss-text-secondary);
+  color: var(--stss-text-secondary);
 }
 
 .melody-effects p:last-child {
@@ -2142,7 +2203,7 @@
 .melody-item h5 {
   margin: 0 0 0.75rem 0;
   font-size: var(--text-base);
-  color: var(--ss-primary);
+  color: var(--stss-primary);
   font-weight: var(--font-semibold);
 }
 
@@ -2150,7 +2211,7 @@
   margin: 0 0 0.5rem 0;
   line-height: var(--leading-relaxed);
   font-size: var(--text-sm);
-  color: var(--ss-text-secondary);
+  color: var(--stss-text-secondary);
 }
 
 .melody-item p:last-child {
@@ -2158,21 +2219,21 @@
 }
 
 .melody-item strong {
-  color: var(--ss-text-primary);
+  color: var(--stss-text-primary);
   font-weight: var(--font-semibold);
 }
 /* Character Tags Section */
 .character-tags {
-  background: var(--ss-bg-secondary);
+  background: var(--stss-bg-secondary);
   border-radius: 12px;
   padding: 2rem;
-  border: 1px solid var(--ss-border);
+  border: 1px solid var(--stss-border);
 }
 
 .character-tags h2 {
   margin: 0 0 1rem 0;
   font-size: var(--text-2xl);
-  color: var(--ss-text-primary);
+  color: var(--stss-primary);
   font-weight: var(--font-semibold);
   font-family: var(--font-display);
   line-height: var(--leading-tight);
@@ -2592,7 +2653,7 @@
 
   .character-skills h2 {
     font-size: var(--text-3xl);
-    color: var(--ss-text-primary);
+    color: var(--stss-primary);
     text-align: left;
     font-weight: 300;
     letter-spacing: -0.02em;
@@ -3078,7 +3139,7 @@
   .stat-item.total {
     margin-top: 0.5rem;
     padding-top: 0.5rem;
-    border-top: 1px solid var(--ss-border);
+    border-top: 1px solid var(--stss-border);
     align-items: stretch;
     text-align: center;
   }
@@ -3109,27 +3170,27 @@
 
 /* ===== CHARACTER POTENTIALS CARD-BASED SECTION ===== */
 .character-potentials-section {
-  background: var(--ss-bg-secondary);
+  background: var(--stss-bg-secondary);
   border-radius: 12px;
   padding: 2rem;
-  border: 1px solid var(--ss-border);
+  border: 1px solid var(--stss-border);
 }
 
 .character-potentials-section h2 {
   margin: 0 0 1.5rem 0;
   font-size: var(--text-2xl);
-  color: var(--ss-primary);
+  color: var(--stss-primary);
   font-weight: var(--font-semibold);
   padding-bottom: 0.75rem;
-  border-bottom: 1px solid var(--ss-border);
+  border-bottom: 1px solid var(--stss-border);
 }
 
 /* Potentials Tabs */
 .potentials-tabs {
   display: flex;
-  background: var(--ss-bg-tertiary);
+  background: var(--stss-bg-tertiary);
   border-radius: 8px 8px 0 0;
-  border-bottom: 1px solid var(--ss-border);
+  border-bottom: 1px solid var(--stss-border);
   margin-bottom: 1.5rem;
 }
 
@@ -3138,7 +3199,7 @@
   padding: 1rem 1.5rem;
   background: transparent;
   border: none;
-  color: var(--ss-text-muted);
+  color: var(--stss-text-muted);
   font-size: var(--text-base);
   font-weight: 600;
   cursor: pointer;
@@ -3148,8 +3209,8 @@
 
 
 .potentials-tab.active {
-  color: var(--ss-text-primary);
-  background: var(--ss-bg-secondary);
+  color: var(--stss-text-primary);
+  background: var(--stss-bg-secondary);
 }
 
 .potentials-tab.active::after {
@@ -3188,7 +3249,7 @@
   gap: 1rem;
   padding: 0.5rem 1rem;
   background: linear-gradient(90deg, rgba(0, 212, 255, 0.15), transparent);
-  border: 1px solid var(--ss-border);
+  border: 1px solid var(--stss-border);
   border-radius: 8px;
   margin-bottom: 1rem;
 }
@@ -3200,13 +3261,13 @@
 .character-potentials-section .build-header .build-title {
   font-size: var(--text-base);
   font-weight: 700;
-  color: var(--ss-text-primary);
+  color: var(--stss-primary);
   margin: 0;
 }
 
 .character-potentials-section .build-header .build-description {
   font-size: var(--text-sm);
-  color: var(--ss-text-secondary);
+  color: var(--stss-text-secondary);
   margin: 0;
 }
 
@@ -3244,19 +3305,19 @@
 /* Core Card - Pink */
 .character-potentials-section .potential-card-mini.core {
   background: transparent;
-  border: 1px solid var(--ss-border);
+  border: 1px solid var(--stss-border);
 }
 
 /* Normal Card - Purple (rarity 1) */
 .character-potentials-section .potential-card-mini.normal.rarity-1 {
   background: transparent;
-  border: 1px solid var(--ss-border);
+  border: 1px solid var(--stss-border);
 }
 
 /* Normal Card - Orange/Gold (rarity 2) */
 .character-potentials-section .potential-card-mini.normal.rarity-2 {
   background: transparent;
-  border: 1px solid var(--ss-border);
+  border: 1px solid var(--stss-border);
 }
 
 /* Card Level Badge */
@@ -3276,7 +3337,7 @@
 /* Card Name */
 .character-potentials-section .card-name {
   font-size: var(--text-sm);
-  color: var(--ss-text-primary);
+  color: var(--stss-text-primary);
   text-align: center;
   font-weight: 500;
   line-height: 1.3;
@@ -3289,8 +3350,8 @@
 .character-potentials-section .potential-detail-panel {
   display: none;
   width: 100%;
-  background: var(--ss-bg-tertiary);
-  border: 1px solid var(--ss-border);
+  background: var(--stss-bg-tertiary);
+  border: 1px solid var(--stss-border);
   border-radius: 8px;
   padding: 1.5rem;
   margin-top: 1rem;
@@ -3330,38 +3391,38 @@
 .character-potentials-section .detail-name {
   font-size: var(--text-xl);
   font-weight: 700;
-  color: var(--ss-text-primary);
+  color: var(--stss-text-primary);
   margin: 0 0 0.5rem 0;
 }
 
 .character-potentials-section .detail-description {
   font-size: var(--text-body);
   line-height: 1.6;
-  color: var(--ss-text-secondary);
+  color: var(--stss-text-secondary);
 }
 
 .character-potentials-section .detail-description .color-cyan {
-  color: var(--ss-primary);
+  color: var(--stss-primary);
 }
 
 .character-potentials-section .detail-description .color-orange {
-  color: var(--ss-text-primary);
+  color: var(--stss-text-primary);
 }
 
 .character-potentials-section .detail-description .color-yellow {
-  color: var(--ss-text-primary);
+  color: var(--stss-text-primary);
 }
 
 .character-potentials-section .detail-description .color-green {
-  color: var(--ss-text-primary);
+  color: var(--stss-text-primary);
 }
 
 .character-potentials-section .detail-description .color-purple {
-  color: var(--ss-text-primary);
+  color: var(--stss-text-primary);
 }
 
 .character-potentials-section .detail-description .color-blue {
-  color: var(--ss-primary);
+  color: var(--stss-primary);
 }
 
 /* Level Selector */
@@ -3371,22 +3432,22 @@
   gap: 0.5rem;
   margin-top: 1rem;
   padding-top: 1rem;
-  border-top: 1px solid var(--ss-border);
+  border-top: 1px solid var(--stss-border);
 }
 
 .character-potentials-section .level-label {
   font-size: var(--text-md);
-  color: var(--ss-text-muted);
+  color: var(--stss-text-muted);
   margin-right: 0.5rem;
 }
 
 .character-potentials-section .level-btn {
   width: 40px;
   height: 40px;
-  border: 1px solid var(--ss-border);
+  border: 1px solid var(--stss-border);
   border-radius: 4px;
-  background: var(--ss-bg-secondary);
-  color: var(--ss-text-primary);
+  background: var(--stss-bg-secondary);
+  color: var(--stss-text-primary);
   font-size: var(--text-xl);
   cursor: pointer;
   display: flex;
@@ -3399,10 +3460,10 @@
 .character-potentials-section .level-input {
   width: 50px;
   height: 40px;
-  border: 1px solid var(--ss-border);
+  border: 1px solid var(--stss-border);
   border-radius: 4px;
-  background: var(--ss-bg-secondary);
-  color: var(--ss-text-primary);
+  background: var(--stss-bg-secondary);
+  color: var(--stss-text-primary);
   font-size: var(--text-base);
   text-align: center;
   -moz-appearance: textfield;
@@ -3416,12 +3477,12 @@
 
 .character-potentials-section .level-input:focus {
   outline: none;
-  border-color: var(--ss-border);
+  border-color: var(--stss-border);
 }
 
 .character-potentials-section .level-max {
   font-size: var(--text-xs);
-  color: var(--ss-text-muted);
+  color: var(--stss-text-muted);
 }
 
 /* Responsive for Potentials Cards */
@@ -3635,18 +3696,18 @@
 .character-gifts {
   margin-top: 2rem;
   padding: 1.5rem;
-  background: var(--ss-surface, rgba(255, 255, 255, 0.03));
+  background: var(--stss-surface, rgba(255, 255, 255, 0.03));
   border-radius: 12px;
-  border: 1px solid var(--ss-border, rgba(255, 255, 255, 0.1));
+  border: 1px solid var(--stss-border, rgba(255, 255, 255, 0.1));
 }
 
 .character-gifts h2 {
   font-size: var(--text-3xl);
   font-weight: 700;
-  color: var(--ss-text-primary, #ffffff);
+  color: var(--stss-primary, #ffffff);
   margin-bottom: 1.25rem;
   padding-bottom: 0.75rem;
-  border-bottom: 1px solid var(--ss-border);
+  border-bottom: 1px solid var(--stss-border);
   text-transform: uppercase;
   letter-spacing: 0.05em;
 }
@@ -3658,7 +3719,7 @@
 }
 
 .gifts-category {
-  background: var(--ss-surface-elevated, rgba(255, 255, 255, 0.05));
+  background: var(--stss-surface-elevated, rgba(255, 255, 255, 0.05));
   border-radius: 8px;
   padding: 1rem;
 }
@@ -3672,13 +3733,13 @@
 }
 
 .gifts-category-title.loves {
-  color: var(--ss-text-primary);
-  border-color: var(--ss-border);
+  color: var(--stss-primary);
+  border-color: var(--stss-border);
 }
 
 .gifts-category-title.hates {
-  color: var(--ss-text-primary);
-  border-color: var(--ss-border);
+  color: var(--stss-primary);
+  border-color: var(--stss-border);
 }
 
 .gifts-grid {
@@ -3693,9 +3754,9 @@
   align-items: center;
   gap: 0.5rem;
   padding: 0.75rem;
-  background: var(--ss-bg-dark, rgba(0, 0, 0, 0.3));
+  background: var(--stss-bg-dark, rgba(0, 0, 0, 0.3));
   border-radius: 8px;
-  border: 1px solid var(--ss-border, rgba(255, 255, 255, 0.1));
+  border: 1px solid var(--stss-border, rgba(255, 255, 255, 0.1));
 }
 
 .gift-image-wrapper {
@@ -3704,7 +3765,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background: var(--ss-surface, rgba(255, 255, 255, 0.05));
+  background: var(--stss-surface, rgba(255, 255, 255, 0.05));
   border-radius: 8px;
   overflow: hidden;
 }
@@ -3717,7 +3778,7 @@
 
 .gift-name {
   font-size: var(--text-sm);
-  color: var(--ss-text-secondary, #a0a0a0);
+  color: var(--stss-text-secondary, #a0a0a0);
   text-align: center;
   line-height: 1.2;
   word-break: break-word;
@@ -3728,22 +3789,22 @@
   font-weight: 600;
   padding: 0.15rem 0.4rem;
   border-radius: 4px;
-  background: var(--ss-bg-dark, rgba(0, 0, 0, 0.3));
+  background: var(--stss-bg-dark, rgba(0, 0, 0, 0.3));
 }
 
 .gift-rarity.rarity-3 {
-  color: var(--ss-text-primary);
-  border: 1px solid var(--ss-border);
+  color: var(--stss-text-primary);
+  border: 1px solid var(--stss-border);
 }
 
 .gift-rarity.rarity-4 {
-  color: var(--ss-text-primary);
-  border: 1px solid var(--ss-border);
+  color: var(--stss-text-primary);
+  border: 1px solid var(--stss-border);
 }
 
 .gift-rarity.rarity-5 {
-  color: var(--ss-text-primary);
-  border: 1px solid var(--ss-border);
+  color: var(--stss-text-primary);
+  border: 1px solid var(--stss-border);
 }
 
 .gift-points {
@@ -3752,16 +3813,16 @@
 }
 
 .gift-points.loved {
-  color: var(--ss-text-primary);
+  color: var(--stss-text-primary);
 }
 
 .gift-points.hated {
-  color: var(--ss-text-primary);
+  color: var(--stss-text-primary);
 }
 
 .gift-needed {
   font-size: var(--text-2xs);
-  color: var(--ss-text-muted, #888);
+  color: var(--stss-text-muted, #888);
   margin-top: 0.15rem;
 }
 
@@ -3813,7 +3874,7 @@
   gap: 1.5rem;
   margin-bottom: 1.5rem;
   padding: 1rem;
-  background: var(--ss-surface-elevated, rgba(255, 255, 255, 0.05));
+  background: var(--stss-surface-elevated, rgba(255, 255, 255, 0.05));
   border-radius: 8px;
 }
 
@@ -3829,24 +3890,24 @@
   align-items: center;
   padding: 0.5rem 1rem;
   border-radius: 6px;
-  background: var(--ss-bg-dark, rgba(0, 0, 0, 0.3));
+  background: var(--stss-bg-dark, rgba(0, 0, 0, 0.3));
 }
 
 .point-item.loved,
 .point-item.neutral,
 .point-item.hated {
-  border: 1px solid var(--ss-border);
+  border: 1px solid var(--stss-border);
 }
 
 .point-label {
   font-weight: 600;
   font-size: var(--text-md);
-  color: var(--ss-text-primary, #ffffff);
+  color: var(--stss-text-primary, #ffffff);
 }
 
 .point-value {
   font-size: var(--text-sm);
-  color: var(--ss-text-secondary, #a0a0a0);
+  color: var(--stss-text-secondary, #a0a0a0);
 }
 
 .point-table {
@@ -3864,22 +3925,22 @@
 .point-table td {
   padding: 0.5rem;
   text-align: center;
-  border: 1px solid var(--ss-border, rgba(255, 255, 255, 0.1));
+  border: 1px solid var(--stss-border, rgba(255, 255, 255, 0.1));
 }
 
 .point-table th {
-  background: var(--ss-bg-dark, rgba(0, 0, 0, 0.3));
+  background: var(--stss-bg-dark, rgba(0, 0, 0, 0.3));
   font-weight: 600;
-  color: var(--ss-text-primary, #ffffff);
+  color: var(--stss-text-primary, #ffffff);
 }
 
 .point-table td.loved {
-  color: var(--ss-text-primary);
+  color: var(--stss-text-primary);
   font-weight: 600;
 }
 
 .point-table td.hated {
-  color: var(--ss-text-primary);
+  color: var(--stss-text-primary);
 }
 
 /* Gift Recommendation Section */
@@ -3887,20 +3948,20 @@
   margin-bottom: 1.5rem;
   padding: 1rem;
   background: linear-gradient(135deg, rgba(157, 78, 221, 0.1), rgba(157, 78, 221, 0.05));
-  border: 1px solid var(--ss-border);
+  border: 1px solid var(--stss-border);
   border-radius: 8px;
 }
 
 .gifts-recommendation h4 {
   font-size: var(--text-lg);
   font-weight: 600;
-  color: var(--ss-primary, #9d4edd);
+  color: var(--stss-primary, #9d4edd);
   margin-bottom: 0.5rem;
 }
 
 .gifts-recommendation p {
   font-size: var(--text-md);
-  color: var(--ss-text-secondary, #a0a0a0);
+  color: var(--stss-text-secondary, #a0a0a0);
   line-height: 1.5;
   margin-bottom: 0.75rem;
 }
@@ -3914,25 +3975,25 @@
 
 .lv30-stats .stat {
   padding: 0.3rem 0.75rem;
-  background: var(--ss-bg-dark, rgba(0, 0, 0, 0.3));
+  background: var(--stss-bg-dark, rgba(0, 0, 0, 0.3));
   border-radius: 4px;
   font-size: var(--text-md);
   font-weight: 600;
-  color: var(--ss-text-primary, #ffffff);
+  color: var(--stss-text-primary, #ffffff);
 }
 
 .lv30-stats .stat.highlight {
-  background: var(--ss-primary, #9d4edd);
+  background: var(--stss-primary, #9d4edd);
   color: #fff;
 }
 
 .lv30-cost {
   font-size: var(--text-md);
-  color: var(--ss-text-secondary, #a0a0a0);
+  color: var(--stss-text-secondary, #a0a0a0);
 }
 
 .lv30-cost strong {
-  color: var(--ss-primary, #9d4edd);
+  color: var(--stss-primary, #9d4edd);
 }
 
 /* Gift Guide Link */
@@ -3944,7 +4005,7 @@
 .gift-guide-link {
   display: inline-block;
   padding: 0.75rem 1.5rem;
-  background: var(--ss-primary, #9d4edd);
+  background: var(--stss-primary, #9d4edd);
   color: #fff;
   font-weight: 600;
   font-size: var(--text-body);
@@ -3974,4 +4035,17 @@
     width: 100%;
     text-align: center;
   }
+}
+
+.element-icon-detail,
+.attack-type-icon-detail {
+  display: inline-flex;
+  align-items: center;
+}
+
+/* Hero meta icons share one box size so the row reads aligned */
+.character-meta .element-icon-detail,
+.character-meta .attack-type-icon-detail {
+  width: 24px;
+  height: 24px;
 }

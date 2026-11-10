@@ -4,90 +4,90 @@
 
 /* Main Talents Container */
 .talents-index {
-  padding: var(--ss-spacing-xl) 0;
+  padding: var(--stss-spacing-xl) 0;
 }
 
 /* Shard Requirements Info Section */
 .shard-requirements-info {
-  background: var(--ss-gradient-card);
-  border: 1px solid var(--ss-border);
-  border-radius: var(--ss-radius-lg);
-  padding: var(--ss-spacing-lg);
-  margin-bottom: var(--ss-spacing-xl);
+  background: var(--stss-gradient-card);
+  border: 1px solid var(--stss-border);
+  border-radius: var(--stss-radius-lg);
+  padding: var(--stss-spacing-lg);
+  margin-bottom: var(--stss-spacing-xl);
 }
 
 .shard-requirements-info h2 {
   font-size: var(--text-xl);
-  font-weight: var(--ss-font-bold);
-  color: var(--ss-text-primary);
-  margin-bottom: var(--ss-spacing-sm);
+  font-weight: var(--stss-font-bold);
+  color: var(--stss-primary);
+  margin-bottom: var(--stss-spacing-sm);
 }
 
 .shard-info-desc {
-  color: var(--ss-text-secondary);
+  color: var(--stss-text-secondary);
   font-size: var(--text-md);
-  margin-bottom: var(--ss-spacing-lg);
+  margin-bottom: var(--stss-spacing-lg);
 }
 
 .shard-requirements-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: var(--ss-spacing-lg);
-  margin-bottom: var(--ss-spacing-md);
+  gap: var(--stss-spacing-lg);
+  margin-bottom: var(--stss-spacing-md);
 }
 
 .shard-requirement-card {
-  background: var(--ss-bg-tertiary);
-  border-radius: var(--ss-radius-md);
-  padding: var(--ss-spacing-md);
-  border: 1px solid var(--ss-border);
+  background: var(--stss-bg-tertiary);
+  border-radius: var(--stss-radius-md);
+  padding: var(--stss-spacing-md);
+  border: 1px solid var(--stss-border);
 }
 
 .shard-requirement-card.rarity-4 {
-  border-color: var(--ss-border);
+  border-color: var(--stss-border);
 }
 
 .shard-requirement-card.rarity-5 {
-  border-color: var(--ss-border);
+  border-color: var(--stss-border);
 }
 
 .shard-card-header {
   display: flex;
   align-items: center;
-  gap: var(--ss-spacing-sm);
-  margin-bottom: var(--ss-spacing-md);
-  padding-bottom: var(--ss-spacing-sm);
-  border-bottom: 1px solid var(--ss-border);
+  gap: var(--stss-spacing-sm);
+  margin-bottom: var(--stss-spacing-md);
+  padding-bottom: var(--stss-spacing-sm);
+  border-bottom: 1px solid var(--stss-border);
 }
 
 .shard-rarity-label {
   font-size: var(--text-base);
-  font-weight: var(--ss-font-semibold);
-  color: var(--ss-text-primary);
+  font-weight: var(--stss-font-semibold);
+  color: var(--stss-text-primary);
 }
 
 .shard-card-content {
   display: flex;
   flex-direction: column;
-  gap: var(--ss-spacing-sm);
+  gap: var(--stss-spacing-sm);
 }
 
 .shard-row {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: var(--ss-spacing-xs) 0;
+  padding: var(--stss-spacing-xs) 0;
 }
 
 .shard-label {
   font-size: var(--text-md);
-  color: var(--ss-text-secondary);
+  color: var(--stss-text-secondary);
 }
 
 .shard-value {
   font-size: var(--text-md);
-  font-weight: var(--ss-font-semibold);
-  color: var(--ss-text-primary);
+  font-weight: var(--stss-font-semibold);
+  color: var(--stss-text-primary);
   display: inline-flex;
   align-items: center;
   gap: 4px;
@@ -99,49 +99,49 @@
 
 .dupe-info {
   font-size: var(--text-xs);
-  font-weight: var(--ss-font-medium);
-  color: var(--ss-primary);
+  font-weight: var(--stss-font-medium);
+  color: var(--stss-primary);
   margin-left: 4px;
 }
 
 .shard-note {
   font-size: var(--text-sm);
-  color: var(--ss-text-muted);
+  color: var(--stss-text-muted);
   font-style: italic;
   margin: 0;
 }
 
 .total-row {
-  border-top: 1px solid var(--ss-border);
-  padding-top: var(--ss-spacing-sm);
-  margin-top: var(--ss-spacing-xs);
+  border-top: 1px solid var(--stss-border);
+  padding-top: var(--stss-spacing-sm);
+  margin-top: var(--stss-spacing-xs);
 }
 
 .total-row .shard-value {
-  color: var(--ss-primary);
+  color: var(--stss-primary);
 }
 
 /* Filter Section */
 .talents-filters {
-  background: var(--ss-gradient-card);
-  border: 1px solid var(--ss-border);
-  border-radius: var(--ss-radius-lg);
-  padding: var(--ss-spacing-lg);
-  margin-bottom: var(--ss-spacing-xl);
+  background: var(--stss-gradient-card);
+  border: 1px solid var(--stss-border);
+  border-radius: var(--stss-radius-lg);
+  padding: var(--stss-spacing-lg);
+  margin-bottom: var(--stss-spacing-xl);
 }
 
 .talents-filters h2 {
   font-size: var(--text-xl);
-  font-weight: var(--ss-font-bold);
-  color: var(--ss-text-primary);
-  margin-bottom: var(--ss-spacing-md);
+  font-weight: var(--stss-font-bold);
+  color: var(--stss-primary);
+  margin-bottom: var(--stss-spacing-md);
 }
 
 .filter-row {
   display: flex;
   flex-wrap: wrap;
-  gap: var(--ss-spacing-md);
-  margin-bottom: var(--ss-spacing-md);
+  gap: var(--stss-spacing-md);
+  margin-bottom: var(--stss-spacing-md);
 }
 
 .filter-row:last-child {
@@ -151,24 +151,24 @@
 .filter-group {
   display: flex;
   flex-direction: column;
-  gap: var(--ss-spacing-xs);
+  gap: var(--stss-spacing-xs);
 }
 
 .filter-group label {
   font-size: var(--text-xs);
-  font-weight: var(--ss-font-semibold);
-  color: var(--ss-text-muted);
+  font-weight: var(--stss-font-semibold);
+  color: var(--stss-text-muted);
   text-transform: uppercase;
   letter-spacing: 0.5px;
 }
 
 .filter-group select,
 .filter-group input[type="text"] {
-  padding: var(--ss-spacing-sm) var(--ss-spacing-md);
-  background: var(--ss-bg-tertiary);
-  border: 1px solid var(--ss-border);
-  border-radius: var(--ss-radius-md);
-  color: var(--ss-text-primary);
+  padding: var(--stss-spacing-sm) var(--stss-spacing-md);
+  background: var(--stss-bg-tertiary);
+  border: 1px solid var(--stss-border);
+  border-radius: var(--stss-radius-md);
+  color: var(--stss-text-primary);
   font-size: var(--text-md);
   min-width: 150px;
 }
@@ -182,13 +182,13 @@
 }
 
 .filter-group input[type="text"]::placeholder {
-  color: var(--ss-text-muted);
+  color: var(--stss-text-muted);
 }
 
 .filter-group select:focus,
 .filter-group input[type="text"]:focus {
   outline: none;
-  border-color: var(--ss-border);
+  border-color: var(--stss-border);
 }
 
 /* Character Section */
@@ -199,16 +199,16 @@
 .talent-character-header {
   display: flex;
   align-items: center;
-  gap: var(--ss-spacing-md);
-  margin-bottom: var(--ss-spacing-lg);
-  padding-bottom: var(--ss-spacing-sm);
-  border-bottom: 1px solid var(--ss-border);
+  gap: var(--stss-spacing-md);
+  margin-bottom: var(--stss-spacing-lg);
+  padding-bottom: var(--stss-spacing-sm);
+  border-bottom: 1px solid var(--stss-border);
 }
 
 .character-icon-container {
   width: 64px;
   height: 64px;
-  border-radius: var(--ss-radius-md);
+  border-radius: var(--stss-radius-md);
   overflow: hidden;
   flex-shrink: 0;
 }
@@ -225,37 +225,37 @@
 
 .talent-character-name {
   font-size: var(--text-2xl);
-  font-weight: var(--ss-font-bold);
-  color: var(--ss-text-primary);
+  font-weight: var(--stss-font-bold);
+  color: var(--stss-text-primary);
   margin: 0;
 }
 
 .talent-character-meta {
   display: flex;
-  gap: var(--ss-spacing-sm);
-  margin-top: var(--ss-spacing-xs);
+  gap: var(--stss-spacing-sm);
+  margin-top: var(--stss-spacing-xs);
 }
 
 .talent-meta-badge {
   padding: 2px 8px;
-  border-radius: var(--ss-radius-sm);
+  border-radius: var(--stss-radius-sm);
   font-size: var(--text-xs);
-  font-weight: var(--ss-font-medium);
+  font-weight: var(--stss-font-medium);
 }
 
 /* Talents Grid */
 .talents-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
-  gap: var(--ss-spacing-lg);
+  gap: var(--stss-spacing-lg);
 }
 
 /* Talent Card */
 .talent-card {
-  background: var(--ss-gradient-card);
-  border: 1px solid var(--ss-border);
-  border-radius: var(--ss-radius-lg);
-  padding: var(--ss-spacing-lg);
+  background: var(--stss-gradient-card);
+  border: 1px solid var(--stss-border);
+  border-radius: var(--stss-radius-lg);
+  padding: var(--stss-spacing-lg);
   display: flex;
   flex-direction: column;
 }
@@ -264,20 +264,20 @@
 .talent-card-header {
   display: flex;
   align-items: flex-start;
-  gap: var(--ss-spacing-md);
-  margin-bottom: var(--ss-spacing-md);
+  gap: var(--stss-spacing-md);
+  margin-bottom: var(--stss-spacing-md);
 }
 
 .talent-icon-container {
   position: relative;
   width: 56px;
   height: 56px;
-  border-radius: var(--ss-radius-md);
+  border-radius: var(--stss-radius-md);
   flex-shrink: 0;
   display: flex;
   align-items: center;
   justify-content: center;
-  background: var(--ss-bg-tertiary);
+  background: var(--stss-bg-tertiary);
   overflow: hidden;
 }
 
@@ -294,8 +294,8 @@
 
 .talent-card-number {
   font-size: var(--text-3xs);
-  font-weight: var(--ss-font-semibold);
-  color: var(--ss-primary);
+  font-weight: var(--stss-font-semibold);
+  color: var(--stss-primary);
   text-transform: uppercase;
   letter-spacing: 0.5px;
   margin-bottom: 2px;
@@ -303,8 +303,8 @@
 
 .talent-card-name {
   font-size: var(--text-lg);
-  font-weight: var(--ss-font-bold);
-  color: var(--ss-text-primary);
+  font-weight: var(--stss-font-bold);
+  color: var(--stss-text-primary);
   line-height: 1.3;
   word-wrap: break-word;
   overflow-wrap: break-word;
@@ -313,35 +313,35 @@
 
 /* Main Effect Section */
 .talent-main-effect {
-  background: var(--ss-bg-tertiary);
-  border-radius: var(--ss-radius-md);
-  padding: var(--ss-spacing-md);
-  margin-bottom: var(--ss-spacing-md);
+  background: var(--stss-bg-tertiary);
+  border-radius: var(--stss-radius-md);
+  padding: var(--stss-spacing-md);
+  margin-bottom: var(--stss-spacing-md);
 }
 
 .talent-effect-label {
   font-size: var(--text-xs);
-  font-weight: var(--ss-font-semibold);
-  color: var(--ss-primary);
+  font-weight: var(--stss-font-semibold);
+  color: var(--stss-primary);
   text-transform: uppercase;
   letter-spacing: 0.5px;
-  margin-bottom: var(--ss-spacing-xs);
+  margin-bottom: var(--stss-spacing-xs);
 }
 
 .talent-effect-description {
   font-size: var(--text-md);
-  color: var(--ss-text-secondary);
+  color: var(--stss-text-secondary);
   line-height: 1.5;
 }
 
 /* Talent description styling for parsed HTML */
 .talent-effect-description .talent-highlight {
-  font-weight: var(--ss-font-semibold);
+  font-weight: var(--stss-font-semibold);
 }
 
 .talent-effect-description .talent-skill-ref {
-  color: var(--ss-primary);
-  font-weight: var(--ss-font-medium);
+  color: var(--stss-primary);
+  font-weight: var(--stss-font-medium);
   text-decoration: underline;
   text-decoration-style: dotted;
   text-underline-offset: 2px;
@@ -362,23 +362,23 @@
 
 .talent-bonuses-label {
   font-size: var(--text-xs);
-  font-weight: var(--ss-font-semibold);
-  color: var(--ss-text-muted);
+  font-weight: var(--stss-font-semibold);
+  color: var(--stss-text-muted);
   text-transform: uppercase;
   letter-spacing: 0.5px;
-  margin-bottom: var(--ss-spacing-sm);
+  margin-bottom: var(--stss-spacing-sm);
 }
 
 .talent-bonuses-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: var(--ss-spacing-xs);
+  gap: var(--stss-spacing-xs);
 }
 
 .talent-bonus-item {
-  background: var(--ss-bg-secondary);
-  border-radius: var(--ss-radius-sm);
-  padding: var(--ss-spacing-xs) var(--ss-spacing-sm);
+  background: var(--stss-bg-secondary);
+  border-radius: var(--stss-radius-sm);
+  padding: var(--stss-spacing-xs) var(--stss-spacing-sm);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -386,43 +386,43 @@
 }
 
 .talent-bonus-name {
-  color: var(--ss-text-secondary);
+  color: var(--stss-text-secondary);
 }
 
 .talent-bonus-value {
-  font-weight: var(--ss-font-semibold);
-  color: var(--ss-text-primary);
+  font-weight: var(--stss-font-semibold);
+  color: var(--stss-text-primary);
 }
 
 /* Stat type colors */
 .talent-bonus-item[data-stat="atk"] .talent-bonus-value {
-  color: var(--ss-text-primary);
+  color: var(--stss-text-primary);
 }
 
 .talent-bonus-item[data-stat="hp"] .talent-bonus-value {
-  color: var(--ss-text-primary);
+  color: var(--stss-text-primary);
 }
 
 .talent-bonus-item[data-stat="def"] .talent-bonus-value {
-  color: var(--ss-primary);
+  color: var(--stss-primary);
 }
 
 .talent-bonus-item[data-stat="crit"] .talent-bonus-value {
-  color: var(--ss-text-primary);
+  color: var(--stss-text-primary);
 }
 
 /* Talent Shard Requirements */
 .talent-shard-requirements {
-  margin-top: var(--ss-spacing-md);
-  padding-top: var(--ss-spacing-md);
-  border-top: 1px solid var(--ss-border);
+  margin-top: var(--stss-spacing-md);
+  padding-top: var(--stss-spacing-md);
+  border-top: 1px solid var(--stss-border);
 }
 
 .shard-req-header {
   display: flex;
   align-items: center;
-  gap: var(--ss-spacing-sm);
-  margin-bottom: var(--ss-spacing-md);
+  gap: var(--stss-spacing-sm);
+  margin-bottom: var(--stss-spacing-md);
 }
 
 .shard-req-icon {
@@ -431,35 +431,35 @@
 
 .shard-req-title {
   font-size: var(--text-base);
-  font-weight: var(--ss-font-bold);
-  color: var(--ss-text-primary);
+  font-weight: var(--stss-font-bold);
+  color: var(--stss-primary);
   margin: 0;
 }
 
 .shard-req-content {
   display: flex;
   flex-direction: column;
-  gap: var(--ss-spacing-xs);
+  gap: var(--stss-spacing-xs);
 }
 
 .shard-req-item {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: var(--ss-bg-secondary);
-  border-radius: var(--ss-radius-sm);
-  padding: var(--ss-spacing-xs) var(--ss-spacing-sm);
+  background: var(--stss-bg-secondary);
+  border-radius: var(--stss-radius-sm);
+  padding: var(--stss-spacing-xs) var(--stss-spacing-sm);
 }
 
 .shard-req-text {
   font-size: var(--text-xs);
-  color: var(--ss-text-secondary);
+  color: var(--stss-text-secondary);
 }
 
 .shard-req-value {
   font-size: var(--text-xs);
-  font-weight: var(--ss-font-semibold);
-  color: var(--ss-text-primary);
+  font-weight: var(--stss-font-semibold);
+  color: var(--stss-text-primary);
   display: inline-flex;
   align-items: center;
   gap: 4px;
@@ -467,56 +467,56 @@
 
 .shard-req-dupe {
   font-size: var(--text-3xs);
-  font-weight: var(--ss-font-medium);
-  color: var(--ss-primary);
+  font-weight: var(--stss-font-medium);
+  color: var(--stss-primary);
   margin-left: 2px;
 }
 
 .shard-req-shards {
   font-size: var(--text-3xs);
-  font-weight: var(--ss-font-normal);
-  color: var(--ss-text-muted);
+  font-weight: var(--stss-font-normal);
+  color: var(--stss-text-muted);
   margin-left: 4px;
 }
 
 /* Summary Stats */
 .talent-summary {
-  background: var(--ss-gradient-card);
-  border: 1px solid var(--ss-border);
-  border-radius: var(--ss-radius-lg);
-  padding: var(--ss-spacing-lg);
-  margin-bottom: var(--ss-spacing-xl);
+  background: var(--stss-gradient-card);
+  border: 1px solid var(--stss-border);
+  border-radius: var(--stss-radius-lg);
+  padding: var(--stss-spacing-lg);
+  margin-bottom: var(--stss-spacing-xl);
 }
 
 .talent-summary h2 {
   font-size: var(--text-xl);
-  font-weight: var(--ss-font-bold);
-  color: var(--ss-text-primary);
-  margin-bottom: var(--ss-spacing-md);
+  font-weight: var(--stss-font-bold);
+  color: var(--stss-primary);
+  margin-bottom: var(--stss-spacing-md);
 }
 
 .summary-stats {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-  gap: var(--ss-spacing-md);
+  gap: var(--stss-spacing-md);
 }
 
 .summary-stat {
   text-align: center;
-  padding: var(--ss-spacing-md);
-  background: var(--ss-bg-tertiary);
-  border-radius: var(--ss-radius-md);
+  padding: var(--stss-spacing-md);
+  background: var(--stss-bg-tertiary);
+  border-radius: var(--stss-radius-md);
 }
 
 .summary-stat-value {
   font-size: var(--text-2xl);
-  font-weight: var(--ss-font-bold);
-  color: var(--ss-primary);
+  font-weight: var(--stss-font-bold);
+  color: var(--stss-primary);
 }
 
 .summary-stat-label {
   font-size: var(--text-xs);
-  color: var(--ss-text-muted);
+  color: var(--stss-text-muted);
   text-transform: uppercase;
   letter-spacing: 0.5px;
   margin-top: 2px;
@@ -524,45 +524,45 @@
 
 /* Total Stats Summary per Character */
 .character-total-stats {
-  background: var(--ss-bg-secondary);
-  border-radius: var(--ss-radius-md);
-  padding: var(--ss-spacing-md);
-  margin-top: var(--ss-spacing-lg);
+  background: var(--stss-bg-secondary);
+  border-radius: var(--stss-radius-md);
+  padding: var(--stss-spacing-md);
+  margin-top: var(--stss-spacing-lg);
 }
 
 .character-total-stats h4 {
   font-size: var(--text-md);
-  font-weight: var(--ss-font-semibold);
-  color: var(--ss-text-primary);
-  margin-bottom: var(--ss-spacing-sm);
+  font-weight: var(--stss-font-semibold);
+  color: var(--stss-text-primary);
+  margin-bottom: var(--stss-spacing-sm);
 }
 
 .total-stats-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-  gap: var(--ss-spacing-sm);
+  gap: var(--stss-spacing-sm);
 }
 
 .total-stat-item {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: var(--ss-spacing-sm);
-  background: var(--ss-bg-tertiary);
-  border-radius: var(--ss-radius-sm);
+  padding: var(--stss-spacing-sm);
+  background: var(--stss-bg-tertiary);
+  border-radius: var(--stss-radius-sm);
 }
 
 .total-stat-label {
   font-size: var(--text-3xs);
-  color: var(--ss-text-muted);
+  color: var(--stss-text-muted);
   text-transform: uppercase;
   letter-spacing: 0.3px;
 }
 
 .total-stat-value {
   font-size: var(--text-md);
-  font-weight: var(--ss-font-bold);
-  color: var(--ss-text-primary);
+  font-weight: var(--stss-font-bold);
+  color: var(--stss-text-primary);
 }
 
 /* Responsive Design */
@@ -574,13 +574,13 @@
 
 @media (max-width: 768px) {
   .talents-index {
-    padding: var(--ss-spacing-lg) var(--ss-spacing-md);
+    padding: var(--stss-spacing-lg) var(--stss-spacing-md);
   }
 
   .talents-filters,
   .talent-summary,
   .shard-requirements-info {
-    padding: var(--ss-spacing-md);
+    padding: var(--stss-spacing-md);
   }
 
   .filter-row {
@@ -594,17 +594,17 @@
 
   .talents-grid {
     grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-    gap: var(--ss-spacing-md);
+    gap: var(--stss-spacing-md);
   }
 
   .talent-card {
-    padding: var(--ss-spacing-md);
+    padding: var(--stss-spacing-md);
   }
 
   .talent-character-header {
     flex-direction: column;
     align-items: flex-start;
-    gap: var(--ss-spacing-sm);
+    gap: var(--stss-spacing-sm);
   }
 
   .talent-character-name {
@@ -620,7 +620,7 @@
   }
 
   .shard-req-header {
-    gap: var(--ss-spacing-xs);
+    gap: var(--stss-spacing-xs);
   }
 
   .shard-req-icon {
@@ -645,17 +645,17 @@
 
 @media (max-width: 480px) {
   .talents-index {
-    padding: var(--ss-spacing-md) var(--ss-spacing-sm);
+    padding: var(--stss-spacing-md) var(--stss-spacing-sm);
   }
 
   .talents-filters,
   .talent-summary,
   .shard-requirements-info {
-    padding: var(--ss-spacing-sm);
+    padding: var(--stss-spacing-sm);
   }
 
   .talent-card {
-    padding: var(--ss-spacing-sm);
+    padding: var(--stss-spacing-sm);
   }
 
   .talent-icon-container {
@@ -682,11 +682,11 @@
 
   /* Shard requirements mobile */
   .shard-requirement-card {
-    padding: var(--ss-spacing-sm);
+    padding: var(--stss-spacing-sm);
   }
 
   .shard-card-header {
-    gap: var(--ss-spacing-xs);
+    gap: var(--stss-spacing-xs);
   }
 
   .shard-rarity-label {
@@ -736,32 +736,32 @@
 
 .element-ignis {
   background: rgba(251, 146, 60, 0.2);
-  color: var(--ss-text-primary);
+  color: var(--stss-text-primary);
 }
 
 .element-aqua {
   background: rgba(96, 165, 250, 0.2);
-  color: var(--ss-primary);
+  color: var(--stss-primary);
 }
 
 .element-terra {
   background: rgba(167, 139, 250, 0.2);
-  color: var(--ss-text-primary);
+  color: var(--stss-text-primary);
 }
 
 .element-ventus {
   background: rgba(52, 211, 153, 0.2);
-  color: var(--ss-text-primary);
+  color: var(--stss-text-primary);
 }
 
 .element-lux {
   background: rgba(251, 191, 36, 0.2);
-  color: var(--ss-text-primary);
+  color: var(--stss-text-primary);
 }
 
 .element-umbra {
   background: rgba(156, 163, 175, 0.2);
-  color: var(--ss-text-primary);
+  color: var(--stss-text-primary);
 }
 
 /* Element badge with icon */
@@ -774,7 +774,7 @@
 /* Position badge */
 .position-badge {
   background: rgba(139, 92, 246, 0.2);
-  color: var(--ss-text-primary);
+  color: var(--stss-text-primary);
 }
 
 /* Rarity badge */

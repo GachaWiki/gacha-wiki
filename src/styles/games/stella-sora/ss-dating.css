@@ -5,45 +5,45 @@
    ======================================== */
 
 .dating-page {
-  padding: var(--ss-spacing-md);
+  padding: var(--stss-spacing-md);
 }
 
 /* Stats Overview Section */
 .dating-stats-overview {
-  margin-bottom: var(--ss-spacing-xl);
+  margin-bottom: var(--stss-spacing-xl);
 }
 
 .dating-stats-overview h2 {
-  color: var(--ss-text-primary);
+  color: var(--stss-primary);
   font-size: var(--text-2xl);
-  font-weight: var(--ss-font-semibold);
-  margin-bottom: var(--ss-spacing-md);
+  font-weight: var(--stss-font-semibold);
+  margin-bottom: var(--stss-spacing-md);
 }
 
 .dating-stats-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-  gap: var(--ss-spacing-md);
+  gap: var(--stss-spacing-md);
 }
 
 .dating-stat-card {
-  background: var(--ss-gradient-card);
-  border: 1px solid var(--ss-border);
-  border-radius: var(--ss-radius-lg);
-  padding: var(--ss-spacing-lg);
+  background: var(--stss-gradient-card);
+  border: 1px solid var(--stss-border);
+  border-radius: var(--stss-radius-lg);
+  padding: var(--stss-spacing-lg);
   text-align: center;
 }
 
 .dating-stat-number {
   font-size: var(--text-5xl);
-  font-weight: var(--ss-font-bold);
-  color: var(--ss-primary);
+  font-weight: var(--stss-font-bold);
+  color: var(--stss-primary);
   line-height: 1;
-  margin-bottom: var(--ss-spacing-xs);
+  margin-bottom: var(--stss-spacing-xs);
 }
 
 .dating-stat-label {
-  color: var(--ss-text-secondary);
+  color: var(--stss-text-secondary);
   font-size: var(--text-md);
   text-transform: uppercase;
   letter-spacing: 0.05em;
@@ -54,30 +54,30 @@
    ======================================== */
 
 .dating-controls {
-  background: var(--ss-bg-secondary);
-  border: 1px solid var(--ss-border);
-  border-radius: var(--ss-radius-lg);
-  padding: var(--ss-spacing-lg);
-  margin-bottom: var(--ss-spacing-xl);
+  background: var(--stss-bg-secondary);
+  border: 1px solid var(--stss-border);
+  border-radius: var(--stss-radius-lg);
+  padding: var(--stss-spacing-lg);
+  margin-bottom: var(--stss-spacing-xl);
 }
 
 .dating-controls-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: var(--ss-spacing-md);
+  margin-bottom: var(--stss-spacing-md);
 }
 
 .dating-controls-title {
-  color: var(--ss-text-primary);
+  color: var(--stss-primary);
   font-size: var(--text-lg);
-  font-weight: var(--ss-font-semibold);
+  font-weight: var(--stss-font-semibold);
 }
 
 .dating-filter-row {
   display: flex;
   flex-wrap: wrap;
-  gap: var(--ss-spacing-md);
+  gap: var(--stss-spacing-md);
   align-items: center;
 }
 
@@ -89,28 +89,28 @@
 .dating-search-input {
   width: 100%;
   padding: 0.75rem 1rem;
-  background: var(--ss-bg-tertiary);
-  border: 1px solid var(--ss-border);
-  border-radius: var(--ss-radius-md);
-  color: var(--ss-text-primary);
+  background: var(--stss-bg-tertiary);
+  border: 1px solid var(--stss-border);
+  border-radius: var(--stss-radius-md);
+  color: var(--stss-text-primary);
   font-size: var(--text-md);
 }
 
 .dating-search-input:focus {
   outline: none;
-  border-color: var(--ss-border);
+  border-color: var(--stss-border);
 }
 
 .dating-search-input::placeholder {
-  color: var(--ss-text-muted);
+  color: var(--stss-text-muted);
 }
 
 .dating-filter-select {
   padding: 0.75rem 1rem;
-  background: var(--ss-bg-tertiary);
-  border: 1px solid var(--ss-border);
-  border-radius: var(--ss-radius-md);
-  color: var(--ss-text-primary);
+  background: var(--stss-bg-tertiary);
+  border: 1px solid var(--stss-border);
+  border-radius: var(--stss-radius-md);
+  color: var(--stss-text-primary);
   font-size: var(--text-md);
   cursor: pointer;
   min-width: 150px;
@@ -118,15 +118,15 @@
 
 .dating-filter-select:focus {
   outline: none;
-  border-color: var(--ss-border);
+  border-color: var(--stss-border);
 }
 
 .dating-clear-btn {
   padding: 0.75rem 1.25rem;
   background: transparent;
-  border: 1px solid var(--ss-border);
-  border-radius: var(--ss-radius-md);
-  color: var(--ss-text-secondary);
+  border: 1px solid var(--stss-border);
+  border-radius: var(--stss-radius-md);
+  color: var(--stss-text-secondary);
   font-size: var(--text-md);
   cursor: pointer;
   display: flex;
@@ -139,54 +139,54 @@
    ======================================== */
 
 .dating-characters-section {
-  margin-bottom: var(--ss-spacing-xl);
+  margin-bottom: var(--stss-spacing-xl);
 }
 
 .dating-section-header {
-  margin-bottom: var(--ss-spacing-lg);
+  margin-bottom: var(--stss-spacing-lg);
 }
 
 .dating-section-header h2 {
-  color: var(--ss-text-primary);
+  color: var(--stss-primary);
   font-size: var(--text-2xl);
-  font-weight: var(--ss-font-semibold);
-  margin-bottom: var(--ss-spacing-xs);
+  font-weight: var(--stss-font-semibold);
+  margin-bottom: var(--stss-spacing-xs);
 }
 
 .dating-section-description {
-  color: var(--ss-text-secondary);
+  color: var(--stss-text-secondary);
   font-size: var(--text-md);
 }
 
 .dating-characters-grid {
   display: flex;
   flex-direction: column;
-  gap: var(--ss-spacing-lg);
+  gap: var(--stss-spacing-lg);
 }
 
 /* Character Dating Card */
 .dating-character-card {
-  background: var(--ss-gradient-card);
-  border: 1px solid var(--ss-border);
-  border-radius: var(--ss-radius-lg);
+  background: var(--stss-gradient-card);
+  border: 1px solid var(--stss-border);
+  border-radius: var(--stss-radius-lg);
   overflow: hidden;
 }
 
 .dating-character-header {
   display: flex;
   align-items: center;
-  gap: var(--ss-spacing-md);
-  padding: var(--ss-spacing-md) var(--ss-spacing-lg);
-  background: var(--ss-bg-tertiary);
-  border-bottom: 1px solid var(--ss-border);
+  gap: var(--stss-spacing-md);
+  padding: var(--stss-spacing-md) var(--stss-spacing-lg);
+  background: var(--stss-bg-tertiary);
+  border-bottom: 1px solid var(--stss-border);
 }
 
 .dating-character-avatar {
   width: 60px;
   height: 60px;
-  border-radius: var(--ss-radius-md);
+  border-radius: var(--stss-radius-md);
   overflow: hidden;
-  border: 1px solid var(--ss-border);
+  border: 1px solid var(--stss-border);
   flex-shrink: 0;
 }
 
@@ -202,9 +202,9 @@
 }
 
 .dating-character-name {
-  color: var(--ss-text-primary);
+  color: var(--stss-text-primary);
   font-size: var(--text-xl);
-  font-weight: var(--ss-font-semibold);
+  font-weight: var(--stss-font-semibold);
 }
 
 .dating-character-name a {
@@ -214,29 +214,29 @@
 
 .dating-events-count {
   flex-shrink: 0;
-  background: var(--ss-primary);
-  color: var(--ss-bg-primary);
+  background: var(--stss-primary);
+  color: var(--stss-bg-primary);
   font-size: var(--text-xs);
-  font-weight: var(--ss-font-semibold);
+  font-weight: var(--stss-font-semibold);
   padding: 0.35rem 0.75rem;
-  border-radius: var(--ss-radius-sm);
+  border-radius: var(--stss-radius-sm);
   white-space: nowrap;
 }
 
 /* Dating Events List: the 2 events sit side by side so each
    illustration gets half the page width instead of a narrow column */
 .dating-events-list {
-  padding: var(--ss-spacing-lg);
+  padding: var(--stss-spacing-lg);
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: var(--ss-spacing-lg);
+  gap: var(--stss-spacing-lg);
   align-items: stretch;
 }
 
 .dating-event-item {
-  background: var(--ss-bg-secondary);
-  border: 1px solid var(--ss-border);
-  border-radius: var(--ss-radius-md);
+  background: var(--stss-bg-secondary);
+  border: 1px solid var(--stss-border);
+  border-radius: var(--stss-radius-md);
   overflow: hidden;
   display: flex;
   flex-direction: column;
@@ -247,7 +247,7 @@
   aspect-ratio: 1 / 1;
   overflow: hidden;
   position: relative;
-  background: var(--ss-bg-tertiary);
+  background: var(--stss-bg-tertiary);
 }
 
 .dating-event-image-container img {
@@ -261,48 +261,48 @@
   flex: 1;
   display: flex;
   flex-direction: column;
-  gap: var(--ss-spacing-sm);
-  padding: var(--ss-spacing-md);
-  border-top: 1px solid var(--ss-border);
+  gap: var(--stss-spacing-sm);
+  padding: var(--stss-spacing-md);
+  border-top: 1px solid var(--stss-border);
 }
 
 .dating-event-name {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  gap: var(--ss-spacing-sm);
-  color: var(--ss-text-primary);
+  gap: var(--stss-spacing-sm);
+  color: var(--stss-text-primary);
   font-size: var(--text-base);
-  font-weight: var(--ss-font-semibold);
+  font-weight: var(--stss-font-semibold);
   line-height: 1.35;
 }
 
 .dating-event-index {
   flex-shrink: 0;
-  background: var(--ss-primary);
-  color: var(--ss-bg-primary);
+  background: var(--stss-primary);
+  color: var(--stss-bg-primary);
   font-size: var(--text-2xs);
-  font-weight: var(--ss-font-semibold);
+  font-weight: var(--stss-font-semibold);
   text-transform: uppercase;
   letter-spacing: 0.04em;
   padding: 0.25rem 0.6rem;
-  border-radius: var(--ss-radius-sm);
+  border-radius: var(--stss-radius-sm);
   white-space: nowrap;
 }
 
 .dating-event-details {
   display: flex;
   flex-direction: column;
-  gap: var(--ss-spacing-sm);
+  gap: var(--stss-spacing-sm);
 }
 
 .dating-event-detail {
   display: flex;
   align-items: baseline;
-  gap: var(--ss-spacing-sm);
-  padding: var(--ss-spacing-sm) var(--ss-spacing-md);
-  border: 1px solid var(--ss-border);
-  border-radius: var(--ss-radius-sm);
+  gap: var(--stss-spacing-sm);
+  padding: var(--stss-spacing-sm) var(--stss-spacing-md);
+  border: 1px solid var(--stss-border);
+  border-radius: var(--stss-radius-sm);
   font-size: var(--text-md);
 }
 
@@ -319,23 +319,23 @@
 }
 
 .dating-detail-choice .dating-event-value {
-  color: var(--ss-primary-light);
+  color: var(--stss-primary-light);
   font-style: italic;
 }
 
 .dating-event-label {
   flex-shrink: 0;
   min-width: 52px;
-  color: var(--ss-text-secondary);
+  color: var(--stss-text-secondary);
   font-size: var(--text-2xs);
-  font-weight: var(--ss-font-semibold);
+  font-weight: var(--stss-font-semibold);
   text-transform: uppercase;
   letter-spacing: 0.06em;
 }
 
 .dating-event-value {
   margin: 0;
-  color: var(--ss-text-secondary);
+  color: var(--stss-text-secondary);
 }
 
 /* ========================================
@@ -345,25 +345,25 @@
 .dating-location-tabs {
   display: flex;
   flex-wrap: wrap;
-  gap: var(--ss-spacing-sm);
-  margin-bottom: var(--ss-spacing-lg);
+  gap: var(--stss-spacing-sm);
+  margin-bottom: var(--stss-spacing-lg);
 }
 
 .dating-location-tab {
   padding: 0.5rem 1rem;
-  background: var(--ss-bg-tertiary);
-  border: 1px solid var(--ss-border);
-  border-radius: var(--ss-radius-md);
-  color: var(--ss-text-secondary);
+  background: var(--stss-bg-tertiary);
+  border: 1px solid var(--stss-border);
+  border-radius: var(--stss-radius-md);
+  color: var(--stss-text-secondary);
   font-size: var(--text-md);
   cursor: pointer;
 }
 
 .dating-location-tab.active {
-  background: var(--ss-primary);
-  border-color: var(--ss-border);
-  color: var(--ss-bg-primary);
-  font-weight: var(--ss-font-medium);
+  background: var(--stss-primary);
+  border-color: var(--stss-border);
+  color: var(--stss-bg-primary);
+  font-weight: var(--stss-font-medium);
 }
 
 /* ========================================
@@ -373,7 +373,7 @@
 /* Tablet */
 @media (max-width: 768px) {
   .dating-page {
-    padding: var(--ss-spacing-sm);
+    padding: var(--stss-spacing-sm);
   }
 
   .dating-stats-overview h2,
@@ -383,11 +383,11 @@
 
   .dating-stats-grid {
     grid-template-columns: repeat(2, 1fr);
-    gap: var(--ss-spacing-sm);
+    gap: var(--stss-spacing-sm);
   }
 
   .dating-stat-card {
-    padding: var(--ss-spacing-md);
+    padding: var(--stss-spacing-md);
   }
 
   .dating-stat-number {
@@ -399,7 +399,7 @@
   }
 
   .dating-controls {
-    padding: var(--ss-spacing-md);
+    padding: var(--stss-spacing-md);
   }
 
   .dating-filter-row {
@@ -420,11 +420,11 @@
   }
 
   .dating-characters-grid {
-    gap: var(--ss-spacing-md);
+    gap: var(--stss-spacing-md);
   }
 
   .dating-character-header {
-    padding: var(--ss-spacing-md);
+    padding: var(--stss-spacing-md);
   }
 
   .dating-character-name {
@@ -434,8 +434,8 @@
   /* Narrow viewports: stack the 2 events so the art keeps its size */
   .dating-events-list {
     grid-template-columns: 1fr;
-    padding: var(--ss-spacing-md);
-    gap: var(--ss-spacing-md);
+    padding: var(--stss-spacing-md);
+    gap: var(--stss-spacing-md);
   }
 
   .dating-location-tabs {
@@ -444,7 +444,7 @@
     -webkit-overflow-scrolling: touch;
     scrollbar-width: none;
     -ms-overflow-style: none;
-    padding-bottom: var(--ss-spacing-xs);
+    padding-bottom: var(--stss-spacing-xs);
   }
 
   .dating-location-tabs::-webkit-scrollbar {
@@ -465,16 +465,16 @@
 /* Mobile */
 @media (max-width: 480px) {
   .dating-page {
-    padding: var(--ss-spacing-xs);
+    padding: var(--stss-spacing-xs);
   }
 
   .dating-stats-grid {
     grid-template-columns: repeat(2, 1fr);
-    gap: var(--ss-spacing-xs);
+    gap: var(--stss-spacing-xs);
   }
 
   .dating-stat-card {
-    padding: var(--ss-spacing-sm);
+    padding: var(--stss-spacing-sm);
   }
 
   .dating-stat-number {
@@ -483,7 +483,7 @@
 
   .dating-controls-header {
     flex-direction: column;
-    gap: var(--ss-spacing-sm);
+    gap: var(--stss-spacing-sm);
     align-items: stretch;
   }
 
@@ -505,17 +505,17 @@
   }
 
   .dating-events-list {
-    padding: var(--ss-spacing-sm);
-    gap: var(--ss-spacing-sm);
+    padding: var(--stss-spacing-sm);
+    gap: var(--stss-spacing-sm);
   }
 
   .dating-event-content {
-    padding: var(--ss-spacing-sm);
+    padding: var(--stss-spacing-sm);
   }
 
   .dating-event-detail {
     flex-direction: column;
-    gap: var(--ss-spacing-xs);
+    gap: var(--stss-spacing-xs);
   }
 
   .dating-event-label {
@@ -549,24 +549,24 @@
 
 .dating-no-results {
   text-align: center;
-  padding: var(--ss-spacing-xl);
-  color: var(--ss-text-secondary);
+  padding: var(--stss-spacing-xl);
+  color: var(--stss-text-secondary);
 }
 
 .dating-no-results-icon {
   font-size: var(--text-6xl);
-  margin-bottom: var(--ss-spacing-md);
+  margin-bottom: var(--stss-spacing-md);
   opacity: 0.5;
 }
 
 .dating-no-results-text {
   font-size: var(--text-lg);
-  margin-bottom: var(--ss-spacing-sm);
+  margin-bottom: var(--stss-spacing-sm);
 }
 
 .dating-no-results-hint {
   font-size: var(--text-md);
-  color: var(--ss-text-muted);
+  color: var(--stss-text-muted);
 }
 
 /* ═══════════════════════════════════════════════════════════════════════ */

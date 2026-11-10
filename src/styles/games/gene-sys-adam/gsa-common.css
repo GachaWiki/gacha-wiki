@@ -18,7 +18,7 @@
 .gsa-body {
   background: var(--gsa-bg);
   color: var(--gsa-text);
-  font-family: var(--body-font, 'Segoe UI', system-ui, sans-serif);
+  font-family: var(--font-primary);
   margin: 0;
 }
 
@@ -139,7 +139,7 @@
   font-size: var(--text-lg);
   font-weight: 700;
   margin: 0 0 10px;
-  color: var(--gsa-text);
+  color: var(--gsa-accent-strong);
 }
 
 .gsa-text-dim {

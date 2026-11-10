@@ -104,7 +104,7 @@
   object-fit: contain;
 }
 .mlgg-collector-title {
-  font-family: 'M PLUS Rounded 1c', 'Hiragino Maru Gothic ProN', 'Yu Gothic UI', sans-serif;
+  font-family: var(--font-primary);
   font-size: clamp(var(--text-body), 1.7vw, var(--text-2xl));
   font-weight: 800;
   color: #151e2f;
@@ -149,7 +149,7 @@
 }
 .mlgg-collector-os {
   text-align: center;
-  font-family: 'M PLUS Rounded 1c', 'Hiragino Maru Gothic ProN', 'Yu Gothic UI', sans-serif;
+  font-family: var(--font-primary);
   font-size: clamp(var(--text-xl), 2.6vw, var(--text-4xl));
   line-height: 1.15;
   font-weight: 800;
@@ -316,7 +316,7 @@
   gap: 2px;
 }
 .mlgg-sctile-title {
-  font-family: 'M PLUS Rounded 1c', 'Hiragino Maru Gothic ProN', 'Yu Gothic UI', sans-serif;
+  font-family: var(--font-primary);
   font-size: var(--text-body);
   font-weight: 800;
   color: var(--mlgg-text-primary);

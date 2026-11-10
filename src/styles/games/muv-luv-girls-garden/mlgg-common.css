@@ -8,7 +8,7 @@
 .mlgg-section-title {
   font-size: var(--text-xl);
   font-weight: 700;
-  color: var(--mlgg-text-primary);
+  color: var(--mlgg-accent-light);
   margin-bottom: 0.4rem;
 }
 

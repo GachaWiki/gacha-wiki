@@ -10,7 +10,7 @@
   text-decoration: none;
   padding: 1rem 1.5rem;
   border-radius: 12px;
-  border: 1px solid var(--amber-glow);
+  border: 1px solid var(--zn-primary);
   font-family: var(--font-display);
   font-weight: var(--font-semibold);
   font-size: var(--text-base);
@@ -27,14 +27,14 @@
   padding: 3rem;
   border-radius: 20px;
   margin-bottom: 3rem;
-  border: 1px solid var(--amber-glow);
+  border: 1px solid var(--zn-primary);
 }
 
 .section-title {
   font-family: var(--font-display);
   font-size: var(--text-4xl);
   font-weight: var(--font-bold);
-  color: var(--amber-glow);
+  color: var(--zn-primary);
   margin: 0 0 2rem 0;
   text-align: center;
   line-height: var(--leading-tight);
@@ -72,7 +72,7 @@
   font-family: var(--font-display);
   font-size: var(--text-xl);
   font-weight: var(--font-semibold);
-  color: var(--amber-glow);
+  color: var(--zn-primary);
   margin: 0 0 1.5rem 0;
   line-height: var(--leading-tight);
 }
@@ -134,7 +134,7 @@
 /* ===== WARNING BOXES ===== */
 .warning-box {
   background: var(--zn-bg-primary);
-  border: 1px solid var(--amber-glow);
+  border: 1px solid var(--zn-primary);
   border-radius: 12px;
   padding: 1.5rem;
   margin-bottom: 2rem;
@@ -144,7 +144,7 @@
   font-family: var(--font-display);
   font-size: var(--text-lg);
   font-weight: var(--font-bold);
-  color: var(--amber-glow);
+  color: var(--zn-primary);
   margin: 0 0 0.75rem 0;
   display: flex;
   align-items: center;
