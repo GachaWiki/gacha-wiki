@@ -1,0 +1,61 @@
+---
+// Layout for Eden's Ritter Grenze guide pages (standard wiki page wrapper).
+import GameSEO from '../../components/GameSEO.astro';
+import Analytics from '../../components/Analytics.astro';
+import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
+import GameNavigationHeader from '../../components/GameNavigationHeader.astro';
+import MobileMenu from '../../components/MobileMenu.astro';
+import CustomScrollbar from '../../components/CustomScrollbar.astro';
+import { SITE_TITLE } from '../../consts';
+
+import '../../styles/global.css';
+import '../../styles/typography.css';
+import '../../styles/games/edens-ritter-grenze/erge.css';
+
+export interface Props {
+  title: string;
+  description?: string;
+  gameTitle?: string;
+  bare?: boolean; // true: page renders its own hero (landing); false: layout renders the h1
+}
+
+const { title, description, gameTitle = "Eden's Ritter Grenze", bare = false } = Astro.props;
+const seoTitle = title === SITE_TITLE ? SITE_TITLE : `${title} | Eden's Ritter Grenze`;
+const seoDescription =
+  description ||
+  "Eden's Ritter Grenze English translation guide: play the DMM game outside Japan with a VPN and install the unofficial English fan translation.";
+const canonicalURL = new URL(Astro.url.pathname, Astro.site).href;
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="manifest" href="/manifest.json" />
+    <link rel="canonical" href={canonicalURL} />
+    <meta name="generator" content={Astro.generator} />
+    <title>{seoTitle}</title>
+    <meta name="description" content={seoDescription} />
+    <meta property="og:title" content={seoTitle} />
+    <meta property="og:description" content={seoDescription} />
+    <meta property="og:url" content={canonicalURL} />
+    <GameSEO gameKey="edens-ritter-grenze" title={seoTitle} description={seoDescription} />
+    <Analytics />
+  </head>
+  <body class="erge-body">
+    <CustomScrollbar />
+    <Header />
+    <GameNavigationHeader currentPath={Astro.url.pathname} gameKey="edens-ritter-grenze" />
+    <MobileMenu />
+    <div class="erge-page">
+      <main class="erge-main" id="main-content">
+        {!bare && <h1 class="erge-page-title">{gameTitle}</h1>}
+        <slot />
+      </main>
+    </div>
+    <Footer />
+  </body>
+</html>

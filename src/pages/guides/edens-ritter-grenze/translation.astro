@@ -1,0 +1,140 @@
+---
+// Eden's Ritter Grenze: English translation guide (VPN, DMM account, game install, mod install).
+import LandingLayout from '../../../layouts/edens-ritter-grenze/LandingLayout.astro';
+
+const MOD_URL = 'https://k2b1c5ab57ed98e51.gachawiki.info/edens-ritter-grenze/mod/erge-en-mod-v1.zip';
+---
+
+<LandingLayout
+  title="English Translation Guide"
+  gameTitle="English Translation Guide"
+  description="Play Eden's Ritter Grenze in English: Japan VPN, DMM account, game install and the unofficial English translation download."
+>
+
+  <div class="erge-guide-container">
+
+    <section class="erge-section">
+      <h2 class="erge-section-title">Coverage</h2>
+      <p>
+        All game system text is translated: menus, character profiles with voice actor and artist
+        credits, items, equipment, skills, buffs, quests, events, shops, gacha details and the
+        in-game dictionary, 543,000+ entries. Story dialogue in cutscenes is still Japanese,
+        translated in progress.
+      </p>
+      <div class="erge-download">
+        <a class="erge-download-link" href={MOD_URL} download>erge-en-mod-v1.zip</a>
+        <div class="erge-download-meta">34 MB, updated November 9, 2026. One click installer and README included.</div>
+      </div>
+      <p class="erge-caption">
+        Unofficial fan translation for personal use, not affiliated with FUNYOURS JAPAN or DMM Games.
+      </p>
+    </section>
+
+    <section class="erge-section">
+      <h2 class="erge-section-title">Requirements</h2>
+      <ul>
+        <li>Windows PC</li>
+        <li>VPN with Japan servers, any provider or your own on a Japan VPS</li>
+        <li>Free DMM account</li>
+        <li>About 4 GB of disk space</li>
+      </ul>
+    </section>
+
+    <section class="erge-section">
+      <h2 class="erge-section-title">1. Connect a Japan VPN</h2>
+      <p>
+        DMM blocks foreign IP addresses during account creation, download and game launch. Connect
+        through any commercial VPN with Japan servers, or your own OpenVPN or WireGuard server on a
+        Japan VPS. Keep it connected for the whole setup, and again every time you launch the game.
+      </p>
+    </section>
+
+    <section class="erge-section">
+      <h2 class="erge-section-title">2. Create a DMM account</h2>
+      <ol>
+        <li>
+          With the VPN on, open
+          <a class="erge-link" href="https://www.dmm.com/" target="_blank" rel="noopener">dmm.com</a>
+          and register a free account. The site is Japanese, the registration form is the green
+          button area top right.
+        </li>
+        <li>Verify the e mail address if asked.</li>
+        <li>
+          While signed in, open
+          <a class="erge-link" href="https://games.dmm.co.jp/" target="_blank" rel="noopener">games.dmm.co.jp</a>
+          once so the account can see R18 titles.
+        </li>
+      </ol>
+    </section>
+
+    <section class="erge-section">
+      <h2 class="erge-section-title">3. Install the game</h2>
+      <ol>
+        <li>Download and install DMM Game Player, sign in with the VPN connected.</li>
+        <li>
+          Open the
+          <a class="erge-link" href="https://games.dmm.co.jp/detail/edensgrenzex/" target="_blank" rel="noopener">Eden's Ritter Grenze</a>
+          game page and start the install.
+        </li>
+        <li>Launch the game once, let it reach the title screen and finish downloading data, then fully close it.</li>
+      </ol>
+    </section>
+
+    <section class="erge-section">
+      <h2 class="erge-section-title">4. Install the translation</h2>
+      <h3 class="erge-sub-title">Automatic</h3>
+      <ol>
+        <li>Download and unzip <a class="erge-link" href={MOD_URL} download>erge-en-mod-v1.zip</a> anywhere.</li>
+        <li>Double click install.bat. It backs up the Japanese data and installs the translation.</li>
+      </ol>
+      <h3 class="erge-sub-title">Manual</h3>
+      <ol>
+        <li>
+          Open the game data folder:
+          <div class="erge-code">%USERPROFILE%\AppData\LocalLow\FY\grenzex_cl\res</div>
+        </li>
+        <li>Rename setting_tw to setting_tw.jp.bak, this keeps the Japanese original.</li>
+        <li>Copy the setting_tw file from the zip into that folder.</li>
+      </ol>
+      <p>Launch the game from DMM Game Player. Everything except story dialogue is now English.</p>
+    </section>
+
+    <section class="erge-section">
+      <h2 class="erge-section-title">After a game update</h2>
+      <p>
+        Game updates re-download the Japanese text file and the interface turns Japanese again. The
+        mod only replaces the local copy: download the updated zip from this page and run
+        install.bat again. Account and save data are on the server, nothing is lost.
+      </p>
+      <h3 class="erge-sub-title">Restoring Japanese</h3>
+      <p>
+        In the res folder, delete setting_tw and rename setting_tw.jp.bak back to setting_tw.
+      </p>
+    </section>
+
+    <section class="erge-section">
+      <h2 class="erge-section-title">Troubleshooting</h2>
+      <table class="erge-table">
+        <tbody>
+          <tr>
+            <th>install.bat cannot find the game</th>
+            <td>Launch the game once so the data folder exists, close it, run the script again.</td>
+          </tr>
+          <tr>
+            <th>DMM shows a region error</th>
+            <td>The VPN is off or not on a Japan server. Reconnect and retry.</td>
+          </tr>
+          <tr>
+            <th>Game boots but text is Japanese</th>
+            <td>A game update replaced the file. Re-run install.bat with the latest zip.</td>
+          </tr>
+          <tr>
+            <th>Download link does not work</th>
+            <td>CDN caching, retry in a few minutes.</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+  </div>
+</LandingLayout>

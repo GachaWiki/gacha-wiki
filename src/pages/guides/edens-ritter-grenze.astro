@@ -1,0 +1,129 @@
+---
+// Eden's Ritter Grenze landing (standard wiki landing: hero, story, download, resources).
+import LandingLayout from '../../layouts/edens-ritter-grenze/LandingLayout.astro';
+import FormattedDate from '../../components/FormattedDate.astro';
+import DiscordPromo from '../../components/DiscordPromo.astro';
+
+const R2 = 'https://k2b1c5ab57ed98e51.gachawiki.info/edens-ritter-grenze';
+const MOD_URL = `${R2}/mod/erge-en-mod-v1.zip`;
+---
+
+<LandingLayout
+  title="Home"
+  bare={true}
+  description="Eden's Ritter Grenze wiki: the dark fantasy RPG by FUNYOURS JAPAN on DMM Games, with an unofficial English translation guide, VPN setup and mod download."
+>
+  <section class="erge-hero-section">
+    <div class="erge-bg-video-wrap" aria-hidden="true">
+      <video
+        class="erge-bg-video"
+        autoplay
+        muted
+        loop
+        playsinline
+        preload="auto"
+        src={`${R2}/media/video-hero.mp4`}></video>
+    </div>
+    <h1 class="erge-hero-title">Eden's Ritter Grenze</h1>
+    <p class="erge-hero-tag">
+      Dark fantasy real time battle RPG by FUNYOURS JAPAN on DMM Games. Knights wielding
+      sacred relics stand against the succubi hordes of Vi-La-Eden.
+    </p>
+  </section>
+
+  <section class="erge-content-section">
+    <div class="erge-story">
+      <p>
+        <strong>Eden's Ritter Grenze</strong> is an adults only dark fantasy RPG published on
+        DMM Games and developed by FUNYOURS JAPAN, a continuation of the Eden's Ritter series.
+        In the world of Vi-La-Eden, humanity lives under the constant threat of succubi, incubi
+        and monster hordes, and the Eden's Ritters, knights bound to sacred relics, are its last
+        line of defense. The game runs on PC through the DMM Game Player client with auto
+        battle, sped up play and team building around five elements, six weapon types and
+        Ultimate skills.
+      </p>
+      <p>
+        An unofficial English translation is available: menus and interface, character profiles
+        with voice actor and artist credits, items, equipment, skills, buffs, quests, events,
+        shops, the story chapter index and the in-game dictionary, over 543,000 translated text
+        entries. Story dialogue is being translated in progress. The guide covers VPN setup for
+        playing DMM from outside Japan, game installation and the one click translation
+        installer.
+      </p>
+    </div>
+
+    <div class="erge-download-row">
+      <a class="erge-download-btn" href="/guides/edens-ritter-grenze/translation/">
+        English Translation Guide
+        <span class="erge-download-arrow">&rarr;</span>
+      </a>
+      <a class="erge-download-btn" href={MOD_URL} download>
+        Download Translation v1
+        <span class="erge-download-arrow">&rarr;</span>
+      </a>
+    </div>
+
+    <div class="erge-download-row erge-download-row-secondary">
+      <a
+        class="erge-download-ghost"
+        href="https://games.dmm.co.jp/detail/edensgrenzex/"
+        target="_blank"
+        rel="noopener noreferrer">Official DMM Game Page</a
+      >
+      <a class="erge-download-ghost" href="https://www.dmm.com/" target="_blank"
+        rel="noopener noreferrer">DMM Games</a
+      >
+    </div>
+
+    <DiscordPromo accent="#c8a04a" />
+
+    <p class="erge-last-updated">
+      Last Updated: <FormattedDate date={new Date('2026-11-09')} />
+    </p>
+  </section>
+
+  <section class="erge-content-section">
+    <h2 class="erge-resources-heading">Guides &amp; Resources</h2>
+    <div class="erge-resources-grid">
+      <div class="erge-resource-category">
+        <div class="erge-category-header">
+          <h3>English Translation</h3>
+          <p class="erge-category-description">
+            Play the game in English: Japan VPN setup, DMM account and game install, the
+            translation download and its one click installer.
+          </p>
+        </div>
+        <div class="erge-buttons-grid">
+          <a href="/guides/edens-ritter-grenze/translation/" class="erge-resource-button">
+            English Translation Guide
+          </a>
+        </div>
+      </div>
+      <div class="erge-resource-category">
+        <div class="erge-category-header">
+          <h3>Official Links</h3>
+          <p class="erge-category-description">
+            The game's official DMM page and the DMM Games platform. A Japan VPN is required to
+            reach them from outside Japan.
+          </p>
+        </div>
+        <div class="erge-buttons-grid">
+          <a
+            href="https://games.dmm.co.jp/detail/edensgrenzex/"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="erge-resource-button">
+            Official DMM Page
+          </a>
+          <a
+            href="https://www.dmm.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="erge-resource-button">
+            DMM Games
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+</LandingLayout>

@@ -1,0 +1,404 @@
+/* Eden's Ritter Grenze guide pages: shared layout + content styles.
+   Text roles only (title/label/body/caption), no badges, no hover effects. */
+
+.erge-body {
+  --erge-accent: #c8a04a;
+  --erge-accent-soft: rgba(200, 160, 74, 0.14);
+  --erge-border: rgba(255, 255, 255, 0.1);
+  --erge-text-primary: #f1ece1;
+  --erge-text-muted: #a89f8d;
+  min-height: 100vh;
+  background:
+    radial-gradient(1200px 500px at 80% -10%, rgba(200, 160, 74, 0.08), transparent 60%),
+    #14120e;
+  color: var(--erge-text-primary);
+}
+
+.erge-content {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 24px 20px 80px;
+}
+
+.erge-page-title {
+  font-size: var(--text-3xl);
+  font-weight: 700;
+  color: var(--erge-accent);
+  margin: 18px 0 6px;
+}
+
+.erge-page-sub {
+  font-size: var(--text-md);
+  color: var(--erge-text-muted);
+  margin: 0 0 26px;
+}
+
+.erge-section {
+  margin: 34px 0;
+}
+
+.erge-section-title {
+  font-size: var(--text-2xl);
+  font-weight: 700;
+  color: var(--erge-accent);
+  margin: 0 0 14px;
+}
+
+.erge-sub-title {
+  font-size: var(--text-lg);
+  font-weight: 600;
+  color: var(--erge-accent);
+  margin: 22px 0 10px;
+}
+
+.erge-body p,
+.erge-body li {
+  font-size: var(--text-body);
+  line-height: 1.75;
+  color: var(--erge-text-primary);
+  margin: 10px 0;
+}
+
+.erge-body ul,
+.erge-body ol {
+  padding-left: 22px;
+  margin: 8px 0;
+}
+
+/* Guide pages (translation): one big container for the whole page, plain
+   sections inside, no boxed callouts. */
+.erge-guide-container {
+  padding: 2.5rem;
+  background: rgba(255, 255, 255, 0.03);
+  border-radius: 16px;
+  border: 1px solid var(--erge-border);
+}
+
+.erge-guide-container .erge-section:first-child {
+  margin-top: 0;
+}
+
+.erge-guide-container .erge-section:last-child {
+  margin-bottom: 0;
+}
+
+.erge-caption {
+  font-size: var(--text-sm);
+  color: var(--erge-text-muted);
+  margin: 14px 0 0;
+}
+
+.erge-code {
+  font-family: ui-monospace, Consolas, monospace;
+  font-size: var(--text-sm);
+  background: rgba(0, 0, 0, 0.45);
+  border: 1px solid var(--erge-border);
+  border-radius: 8px;
+  padding: 10px 14px;
+  margin: 10px 0;
+  color: #e8dfc8;
+  overflow-x: auto;
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
+.erge-download {
+  border: 1px solid var(--erge-accent);
+  background: var(--erge-accent-soft);
+  border-radius: 10px;
+  padding: 20px 22px;
+  margin: 18px 0;
+}
+
+.erge-download-link {
+  display: inline-block;
+  font-size: var(--text-lg);
+  font-weight: 700;
+  color: var(--erge-accent);
+  text-decoration: underline;
+  margin: 6px 0 4px;
+}
+
+.erge-download-meta {
+  font-size: var(--text-sm);
+  color: var(--erge-text-muted);
+}
+
+.erge-link {
+  color: #79a5dd;
+  text-decoration: underline;
+}
+
+.erge-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 14px 0;
+  font-size: var(--text-sm);
+}
+
+.erge-table th {
+  text-align: left;
+  font-weight: 600;
+  color: var(--erge-accent);
+  border-bottom: 1px solid var(--erge-border);
+  padding: 8px 10px;
+}
+
+.erge-table td {
+  border-bottom: 1px solid var(--erge-border);
+  padding: 8px 10px;
+  color: var(--erge-text-primary);
+  vertical-align: top;
+}
+
+.erge-hero {
+  width: 100%;
+  border: 1px solid var(--erge-border);
+  border-radius: 10px;
+  margin: 14px 0;
+  display: block;
+}
+
+/* Landing pattern (mirrors the Muv-Luv GG landing): hero, content card,
+   download buttons, resources grid. */
+
+.erge-page {
+  position: relative;
+  z-index: 1;
+}
+
+.erge-main {
+  max-width: 72rem;
+  margin: 0 auto;
+  padding: 24px 16px 60px;
+}
+
+.erge-hero-section {
+  position: relative;
+  z-index: 1;
+  min-height: 46vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 2.5rem 1rem 2rem;
+  margin-bottom: 1rem;
+}
+
+.erge-hero-title {
+  margin: 0;
+  font-size: var(--text-5xl);
+  font-weight: 800;
+  color: var(--erge-accent);
+  text-shadow: 0 2px 24px rgba(0, 0, 0, 0.8);
+}
+
+.erge-hero-tag {
+  margin: 10px 0 0;
+  font-size: var(--text-md);
+  color: var(--erge-text-primary);
+  max-width: 560px;
+  text-shadow: 0 1px 12px rgba(0, 0, 0, 0.9);
+}
+
+.erge-content-section {
+  padding: 2.5rem;
+  margin-bottom: 2rem;
+  background: rgba(255, 255, 255, 0.03);
+  border-radius: 16px;
+  border: 1px solid var(--erge-border);
+}
+
+.erge-story {
+  max-width: 800px;
+  margin: 0 auto 2rem;
+}
+
+.erge-story p {
+  color: var(--erge-text-primary);
+  line-height: 1.7;
+  margin-bottom: 1rem;
+  font-size: var(--text-body);
+}
+
+.erge-download-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.8rem;
+  flex-wrap: wrap;
+  margin: 1.5rem 0 0;
+}
+
+.erge-download-row.erge-download-row-secondary {
+  margin: 0.7rem 0 1.5rem;
+}
+
+.erge-download-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  background: var(--erge-accent);
+  color: #14120e;
+  border: none;
+  border-radius: 8px;
+  padding: 0.85rem 1.4rem;
+  font-weight: 700;
+  font-size: var(--text-body);
+  text-decoration: none;
+}
+
+.erge-download-arrow {
+  font-size: var(--text-base);
+}
+
+.erge-download-ghost {
+  display: inline-flex;
+  align-items: center;
+  background: var(--erge-accent-soft);
+  border: 1px solid rgba(200, 160, 74, 0.35);
+  color: var(--erge-accent);
+  border-radius: 8px;
+  padding: 0.85rem 1.2rem;
+  font-weight: 600;
+  font-size: var(--text-md);
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.erge-resources-section {
+  padding: 2.5rem;
+  margin-bottom: 2rem;
+  background: rgba(255, 255, 255, 0.03);
+  border-radius: 16px;
+  border: 1px solid var(--erge-border);
+}
+
+.erge-resources-heading {
+  font-size: var(--text-4xl);
+  margin: 0 0 1rem;
+  font-weight: 700;
+  text-align: center;
+  color: var(--erge-accent);
+}
+
+.erge-resources-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1.2rem;
+  margin-top: 2rem;
+  width: 100%;
+}
+
+.erge-resource-category {
+  background: rgba(0, 0, 0, 0.25);
+  border: 1px solid var(--erge-border);
+  border-radius: 16px;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.erge-category-header {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.erge-category-header h3 {
+  font-size: var(--text-xl);
+  font-weight: 700;
+  color: var(--erge-text-primary);
+  margin: 0 0 0.5rem 0;
+}
+
+.erge-category-header p {
+  font-size: var(--text-md);
+  color: var(--erge-text-muted);
+  margin: 0;
+  line-height: 1.4;
+}
+
+.erge-buttons-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  grid-auto-rows: 72px;
+  gap: 0.75rem;
+  flex: 1;
+}
+
+.erge-resource-button {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid var(--erge-border);
+  border-radius: 12px;
+  color: var(--erge-text-primary);
+  font-size: var(--text-md);
+  font-weight: 600;
+  text-decoration: none;
+  padding: 1rem;
+}
+
+.erge-last-updated {
+  color: var(--erge-text-muted);
+  font-size: var(--text-sm);
+  margin-top: 1rem;
+  text-align: center;
+}
+
+@media (max-width: 640px) {
+  .erge-download-btn,
+  .erge-download-ghost {
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .erge-download-row {
+    flex-direction: column;
+  }
+
+  .erge-hero-title {
+    font-size: var(--text-3xl);
+  }
+}
+
+/* Ambient hero background video ( Busty Burst pattern: contain, top-anchored,
+   masked fade, opacity .45, off for reduced-motion ). */
+.erge-hero-section {
+  position: relative;
+  overflow: hidden;
+}
+
+.erge-hero-title,
+.erge-hero-tag {
+  position: relative;
+  z-index: 1;
+}
+
+.erge-bg-video-wrap {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  opacity: 0.45;
+  pointer-events: none;
+  -webkit-mask-image: linear-gradient(to bottom, transparent 0%, black 22%, black 82%, transparent 100%);
+  mask-image: linear-gradient(to bottom, transparent 0%, black 22%, black 82%, transparent 100%);
+}
+
+.erge-bg-video {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: 50% 0%;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .erge-bg-video-wrap {
+    display: none;
+  }
+}

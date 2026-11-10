@@ -548,3 +548,12 @@
   background: #5e76ad;
   color: white;
 }
+
+.game-nav-desktop[data-game='edens-ritter-grenze'] .game-title {
+  color: #c8a04a;
+}
+
+.game-nav-desktop[data-game='edens-ritter-grenze'] .dropdown-link.active {
+  background: #8a6c2e;
+  color: white;
+}

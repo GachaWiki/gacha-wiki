@@ -29,6 +29,7 @@ const muvLuvGirlsGarden = g('muv-luv-girls-garden');
 const brownDust2 = g('brown-dust-2');
 const twinkleStarKnightsX = g('twinkle-star-knights-x');
 const starLusts = g('star-lusts');
+const edensRitterGrenze = g('edens-ritter-grenze');
 
 // Type definitions for better code quality and IntelliSense
 export interface SocialLinks {
@@ -1175,6 +1176,34 @@ const GAME_SEO_CONFIG: Record<string, GameSEOConfig> = {
     genres: ['Shoot em Up', 'Bullet Hell', 'Gacha'] as const,
     platform: 'Mobile, PC, Browser',
     alternateName: ['StarLusts', 'スターラスト'],
+    inLanguage: 'en',
+    availableLanguage: ['en'],
+    playMode: 'SinglePlayer',
+  },
+  [edensRitterGrenze.id]: {
+    gameName: edensRitterGrenze.name,
+    keywords: [
+      edensRitterGrenze.name,
+      'edens ritter grenze',
+      'eden ritter grenze',
+      "eden's ritter",
+      'edens ritter',
+      'エデンズリッターグレンツェ',
+      'エデンズリッター',
+      'edens ritter grenze english',
+      'edens ritter grenze translation',
+      'edens ritter grenze english patch',
+      'dmm english translation',
+      'how to play dmm games in english',
+      'how to play dmm games outside japan',
+      'dmm games vpn',
+      'dmm game player english',
+    ] as const,
+    themeColor: edensRitterGrenze.themeColor,
+    description: "Eden's Ritter Grenze English guide: play the DMM dark fantasy RPG outside Japan with a VPN and install the unofficial English fan translation of menus, profiles, items, skills and quests.",
+    genres: ['Dark Fantasy', 'RPG', 'Gacha'] as const,
+    platform: 'PC',
+    alternateName: ['ERGE', 'エデンズリッターグレンツェ'],
     inLanguage: 'en',
     availableLanguage: ['en'],
     playMode: 'SinglePlayer',

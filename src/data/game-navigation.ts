@@ -16,7 +16,8 @@ export type GameKey =
   | 'gene-sys-adam'
   | 'brown-dust-2'
   | 'twinkle-star-knights-x'
-  | 'star-lusts';
+  | 'star-lusts'
+  | 'edens-ritter-grenze';
 
 export interface NavigationLink {
   name: string;
@@ -628,6 +629,16 @@ export const NAV_DATA: Record<GameKey, { sections: NavigationSection[] }> = {
       {
         title: 'Resources',
         links: [],
+      },
+    ],
+  },
+  'edens-ritter-grenze': {
+    sections: [
+      {
+        title: 'Guides',
+        links: [
+          { name: 'English Translation', href: '/guides/edens-ritter-grenze/translation/' },
+        ],
       },
     ],
   },

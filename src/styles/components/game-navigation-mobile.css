@@ -763,3 +763,19 @@
   background: #5e76ad;
   color: white;
 }
+
+.game-nav-mobile[data-game='edens-ritter-grenze'] .game-title {
+  color: #c8a04a;
+}
+
+.mobile-links[data-game='edens-ritter-grenze'] .mobile-game-name {
+  color: #c8a04a;
+}
+
+.mobile-links[data-game='edens-ritter-grenze'] .mobile-section-title {
+  color: #c8a04a;
+}
+
+.mobile-links[data-game='edens-ritter-grenze'] .mobile-link.active {
+  color: #c8a04a;
+}

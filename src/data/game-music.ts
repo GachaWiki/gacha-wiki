@@ -148,6 +148,21 @@ export const GAME_MUSIC: Partial<Record<GameKey, GameMusicConfig>> = {
     idleBorder: 'var(--ts-border, #2e2838)',
     idleColor: '#b3a8ab',
   },
+  'edens-ritter-grenze': {
+    gameLabel: "Eden's Ritter Grenze",
+    storagePrefix: 'erge',
+    // Title (000_TOP), main (003_MAIN) and event (ER1_bgm03) themes,
+    // pulled from the game's own bgm bundles and served from R2.
+    tracks: [
+      `${R2}/edens-ritter-grenze/media/bgm-000_TOP.mp3`,
+      `${R2}/edens-ritter-grenze/media/bgm-003_MAIN.mp3`,
+      `${R2}/edens-ritter-grenze/media/bgm-ER1_bgm03.mp3`,
+    ],
+    accent: '#c8a04a',
+    accentBorder: 'rgba(200, 160, 74, 0.45)',
+    idleBorder: 'rgba(255, 255, 255, 0.15)',
+    idleColor: '#b3b3b3',
+  },
   'star-lusts': {
     gameLabel: 'Star Lusts',
     storagePrefix: 'sl',
