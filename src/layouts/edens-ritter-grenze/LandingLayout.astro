@@ -52,7 +52,13 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site).href;
     <MobileMenu />
     <div class="erge-page">
       <main class="erge-main" id="main-content">
-        {!bare && <h1 class="erge-page-title">{gameTitle}</h1>}
+        {
+          !bare && (
+            <section class="erge-title-section">
+              <h1 class="erge-page-title">{gameTitle}</h1>
+            </section>
+          )
+        }
         <slot />
       </main>
     </div>
