@@ -223,6 +223,17 @@ export const GAMES: Game[] = [
     themeColor: '#9DB4E8',
     sections: ['Characters'],
   },
+  {
+    id: 'edens-ritter-grenze',
+    name: "Eden's Ritter Grenze",
+    slug: 'edens-ritter-grenze',
+    description: 'Dark Fantasy RPG • DMM • Unofficial English Translation',
+    image: 'https://k2b1c5ab57ed98e51.gachawiki.info/edens-ritter-grenze/gameimg/icon-apk.png',
+    url: '/guides/edens-ritter-grenze/',
+    status: 'active',
+    themeColor: '#c8a04a',
+    sections: ['English Translation'],
+  },
 ];
 
 export function getGameById(id: string): Game | undefined {
