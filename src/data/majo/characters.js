@@ -738,6 +738,47 @@ export const majoCharacters = [
     },
   },
   {
+    id: 'P0021',
+    slug: 'daphine',
+    nameZh: "妲芙缇",
+    nameEn: "Daphine",
+    nameJa: "ダフティ",
+    titleZh: "异域调香师",
+    titleEn: "Exotic Perfumer",
+    titleJa: "異域の調香師",
+    rarity: 'UR',
+    cls: 'Healer',
+    attackType: 'Mental',
+    faction: 'Human',
+    icon: 'P0021_figure_s.png',
+    image: 'P0021_figure_m.png',
+    awakenImage: 'P0021_Awaken_figure_m.png',
+    descriptionZh: "精通调香与跟香料相关的知识，但对除此之外的事一窍不通，像是不食人间烟火的异域公主。兴趣是调制薰香跟香水，但常常莫名附带奇怪的功效。\n\n关于她从哪里来、加入MAJO前的身分、对香料熟悉的原因等，全都是未解之谜，虽然魔女们有各自的揣测，但没人能从她口中得到证实。\n\n神秘、优雅、沉静，拥有与生俱来的贵族气质，但少根筋。刚认识她的魔女会觉得她不说话时很神秘、摸不透她在想些什么，后来才发现她是什么都没在想。会用平静沉稳的态度做出脱序的举动，或说出毫无常识的惊人发言。\n\n撇除不正常的部分，本质上还是个天然的柔媚大姐姐，但本人完全没有意识到这点，她甚至连柔媚的概念都不清楚。",
+    descriptionEn: "She's proficient in perfuming and spice-related knowledge but knows nothing about anything else, like an exotic princess who doesn't partake in worldly affairs. Her interest is blending incense and perfumes, but they often mysteriously have strange effects.\n\nEverything about where she comes from, her identity before joining MAJO, and why she's familiar with spices remains a mystery. Although the witches have their own speculations, no one can get confirmation from her.\n\nMysterious, elegant, and serene, she has an innate noble temperament but is absent-minded. Witches who first meet her think she's very mysterious when she doesn't speak, unable to fathom what she's thinking, only to later discover she's not thinking about anything. She'll calmly and steadily perform erratic actions or make startling statements that lack common sense.\n\nSetting aside the abnormal parts, she's essentially a naturally gentle and charming big sister, but she's completely unaware of this, she doesn't even understand the concept of being charming.",
+    skills: {
+      normal: [
+        { nameZh: "粉红胡椒", nameEn: "Pink Pepper", infoZh: "3段攻击敌人。", infoEn: "Attacks an enemy 3 times.", detailEn: "Hit 1: Deals <color=#C8B450>{DAMAGE:damageAdjust+115}%</color> damage to one enemy.\nHit 2: Deals <color=#C8B450>{DAMAGE:damageAdjust+115}%</color> damage to one enemy.\nHit 3: Deals <color=#C8B450>{DAMAGE:damageAdjust+115}%</color> damage to one enemy.", detailZh: "一段：对一名敌方造成<color=#C8B450>{DAMAGE:damageAdjust+115}%</color>伤害。\n二段：对一名敌方造成<color=#C8B450>{DAMAGE:damageAdjust+115}%</color>伤害。\n三段：对一名敌方造成<color=#C8B450>{DAMAGE:damageAdjust+115}%</color>伤害。" },
+      ],
+      class: [
+        { nameZh: "愈创木", nameEn: "Guaiacum", infoZh: "[治愈] 治疗范围内我方角色。", infoEn: "[Heal] Heals allies inside area.", detailEn: "[Heal]\nHeals allies within a circular area centered on self for <color=#C8B450>{HEAL:healAdjust+95}%</color> Health.", detailZh: "[治愈]\n治疗以自身为中心之圆形范围内我方角色<color=#C8B450>{HEAL:healAdjust+95}%</color>生命值。" },
+      ],
+      auto: [
+        { nameZh: "薄荷", nameEn: "Peppermint", infoZh: "[极式衍生] 治疗全体我方角色，并赋予精神攻击的角色攻击时失衡值提升。", infoEn: "[Ultimate Salvo] Heals all allies, and grants allies who perform Mental Attack an additional Stagger value on their attacks.", detailEn: "[Ultimate Salvo]\nTrigger Conditions: Activates after fully unleashing the Extreme Skill\nHeals all allies for <color=#C8B450>{HEAL:healAdjust+58}%</color> Health, and grants allies with Mental Attack an additional 1 stack of <color=#C8B450>0.5</color> Stagger Value when attacking for <color=#C8B450>10</color> seconds (max <color=#C8B450>1</color> stack).", detailZh: "[极式衍生]\n触发条件：在完整施展极式后发动\n治疗全体我方角色<color=#C8B450>{HEAL:healAdjust+58}%</color>生命值，并赋予精神攻击的我方角色攻击时提升<color=#C8B450>0.5</color>点失衡值效果1层(最大<color=#C8B450>1</color>层)(持续<color=#C8B450>10</color>秒)。" },
+        { nameZh: "薄荷", nameEn: "Peppermint", infoZh: "[极式衍生] 治疗全体我方角色，并赋予精神攻击的角色攻击时失衡值提升。", infoEn: "[Ultimate Salvo] Heals all allies, and grants allies who perform Mental Attack an additional Stagger value on their attacks.", detailEn: "[Ultimate Salvo]\nTrigger Conditions: Activates after fully unleashing the Extreme Skill\nHeals all allies for <color=#C8B450>{HEAL:healAdjust_ex+68}%</color> Health, and grants allies with Mental Attack an additional <color=#C8B450>0.5</color> Stagger Value when attacking, 1 stack (max <color=#C8B450>1</color> stack) (lasts <color=#C8B450>15</color> seconds).", detailZh: "[极式衍生]\n触发条件：在完整施展极式后发动\n治疗全体我方角色<color=#C8B450>{HEAL:healAdjust_ex+68}%</color>生命值，并赋予精神攻击的我方角色攻击时提升<color=#C8B450>0.5</color>点失衡值效果1层(最大<color=#C8B450>1</color>层)(持续<color=#C8B450>15</color>秒)。" },
+      ],
+      extreme: [
+        { nameZh: "广藿香", nameEn: "Patchouli", infoZh: "移动至指定地点，多次治疗范围内我方角色并赋予额外伤害提升，精神攻击的角色可再获得提升。", infoEn: "Moves to the designated location, heals allies inside the area multiple times, and grants Extra Damage. Characters with Mental Attack gain additional benefits.", detailEn: "Moves to the designated location, healing allies within the circular area <color=#C8B450>5</color> times, healing <color=#C8B450>{HEAL:healAdjust+111}%</color> Health each time. With each heal, grants allies inside area Extra Damage <color=#C8B450>+{STACKABLEBUFF:StackableBuff_P0021_ExtrameSkill_1_Lv1:stackableBuffIdAdjust:0}%</color> for <color=#C8B450>10</color> seconds (max <color=#C8B450>10</color> stacks), with allies that have Mental Attack additionally gaining Extra Damage <color=#C8B450>+{STACKABLEBUFF:StackableBuff_P0021_ExtrameSkill_2_Lv1:stackableBuffIdAdjust2:0}%</color> for <color=#C8B450>10</color> seconds (max <color=#C8B450>10</color> stacks).", detailZh: "移动至指定地点，对圆形范围内我方角色造成<color=#C8B450>5</color>次治疗，每次治疗<color=#C8B450>{HEAL:healAdjust+111}%</color>生命值。每次治疗时，赋予范围内我方角色额外伤害<color=#C8B450>+{STACKABLEBUFF:StackableBuff_P0021_ExtrameSkill_1_Lv1:stackableBuffIdAdjust:0}%</color>效果(最大<color=#C8B450>10</color>层)(持续<color=#C8B450>10</color>秒)，其中精神攻击的我方角色再获得额外伤害<color=#C8B450>+{STACKABLEBUFF:StackableBuff_P0021_ExtrameSkill_2_Lv1:stackableBuffIdAdjust2:0}%</color>效果(最大<color=#C8B450>10</color>层)(持续<color=#C8B450>10</color>秒)。" },
+        { nameZh: "广藿香", nameEn: "Patchouli", infoZh: "移动至指定地点，多次治疗范围内我方角色并赋予大幅额外伤害提升，精神攻击的角色可再获得提升。", infoEn: "Moves to the designated location, heals allies inside the area multiple times, and grants a large increase to Extra Damage. Characters with Mental Attack gain additional benefits.", detailEn: "Moves to the designated location, healing allies within the circular area <color=#C8B450>5</color> times, healing <color=#C8B450>{HEAL:healAdjust_ex+142}%</color> Health each time. With each heal, grants allies inside area Extra Damage <color=#C8B450>+{STACKABLEBUFF:StackableBuff_P0021_ExtrameSkillEx_1_Lv1:stackableBuffIdAdjust_ex:0}%</color> for <color=#C8B450>15</color> seconds (max <color=#C8B450>10</color> stacks), with allies that have Mental Attack additionally gaining Extra Damage <color=#C8B450>+{STACKABLEBUFF:StackableBuff_P0021_ExtrameSkillEx_2_Lv1:stackableBuffIdAdjust2_ex:0}%</color> for <color=#C8B450>15</color> seconds (max <color=#C8B450>10</color> stacks).", detailZh: "移动至指定地点，对圆形范围内我方角色造成<color=#C8B450>5</color>次治疗，每次治疗<color=#C8B450>{HEAL:healAdjust_ex+142}%</color>生命值。每次治疗时，赋予范围内我方角色额外伤害<color=#C8B450>+{STACKABLEBUFF:StackableBuff_P0021_ExtrameSkillEx_1_Lv1:stackableBuffIdAdjust_ex:0}%</color>效果(最大<color=#C8B450>10</color>层)(持续<color=#C8B450>15</color>秒)，其中精神攻击的我方角色再获得额外伤害<color=#C8B450>+{STACKABLEBUFF:StackableBuff_P0021_ExtrameSkillEx_2_Lv1:stackableBuffIdAdjust2_ex:0}%</color>效果(最大<color=#C8B450>10</color>层)(持续<color=#C8B450>15</color>秒)。" },
+      ],
+      interference: [
+        { nameZh: "试香", nameEn: "Scent Testing", infoZh: "装备者对精神攻击角色治疗时，治疗效果提升\n装备者发动极式后，创造一个强化领域。", infoEn: "When the equipper heals characters with Mental Attack, healing effect increases.\nAfter the equipper uses an Extreme Skill, creates an enhanced zone.", detailEn: "When the equipper heals characters with Mental Attack, healing effect <color=#C8B450>+{BUFF:buffEffectAdjust+16}%</color>.\nAfter the equipper uses an Extreme Skill, they create a circular zone (lasts <color=#C8B450>10</color> seconds) that grants allies within area <color=#C8B450>1</color> stack of Attack <color=#C8B450>+3%</color> (max <color=#C8B450>8</color> stacks), every <color=#C8B450>1</color> second for <color=#C8B450>{STACKDURATION:stackableBuffDurationAdjust+9}</color> seconds. (The zone is not considered this character's skill)", detailZh: "装备者对精神攻击角色治疗时，治疗效果提升<color=#C8B450>+{BUFF:buffEffectAdjust+16}%</color>\n装备者发动极式后，创造一个圆形领域(持续<color=#C8B450>10</color>秒)，每<color=#C8B450>1</color>秒赋予范围内我方角色攻击力<color=#C8B450>+3%</color>效果<color=#C8B450>1</color>层(最大<color=#C8B450>8</color>层)(持续<color=#C8B450>{STACKDURATION:stackableBuffDurationAdjust+9}</color>秒)。 (领域不视为本角色的技能)" },
+      ],
+      passive: [
+        { nameZh: "叠香", nameEn: "Layered Fragrance", infoZh: "我方角色施展处决时，增加自身极式蓄能。", infoEn: "When an ally uses an Execution, increases own Extreme Skill charge.", detailEn: "Each time an ally uses an Execution, increases own Extreme Skill charge by <color=#C8B450>{COST:costAdjust+32000}</color>.", detailZh: "每次我方角色施展处决时，增加自身极式蓄能<color=#C8B450>{COST:costAdjust+32000}</color>。" },
+      ],
+    },
+  },
+  {
     id: 'P0022',
     slug: 'zhijie',
     nameZh: "芝洁",
@@ -854,6 +895,47 @@ export const majoCharacters = [
       ],
       passive: [
         { nameZh: "惜百兽", nameEn: "Cherishing the Beasts", infoZh: "我方角色施展极式时，将自身特攻冷却时间缩短。", infoEn: "When an ally uses an Extreme Skill, reduces own Special Attack CD.", detailEn: "Each time an ally uses an Extreme Skill, reduces own Special Attack CD by <color=#C8B450>{CDELAPSED:cdElapsedTimeAdjust+7}</color> seconds.", detailZh: "每次我方角色施展极式时，将自身特攻冷却时间缩短<color=#C8B450>{CDELAPSED:cdElapsedTimeAdjust+7}</color>秒。" },
+      ],
+    },
+  },
+  {
+    id: 'P0029',
+    slug: 'yingbo',
+    nameZh: "英筠",
+    nameEn: "Yingbo",
+    nameJa: "エイン",
+    titleZh: "向死之人",
+    titleEn: "One Bound for Death",
+    titleJa: "死へ向かう者",
+    rarity: 'SSR',
+    cls: 'Tank',
+    attackType: 'Physical',
+    faction: 'Human',
+    icon: 'P0029_figure_s.png',
+    image: 'P0029_figure_m.png',
+    awakenImage: 'P0029_Awaken_figure_m.png',
+    descriptionZh: "原本是军人，因为严重的战后创伤被迫退役。基于仍渴望保卫家园、为民众贡献的心，主动申请加入了对心理健康几乎没有要求的MAJO。在执行任务时基本能够保持正常，只有在碰到型态接近人类的目标时，才会触发应激反应。\n\n正直大方、守纪律，执行任务时也勤奋认真，在性格鲜明的魔女中显得较为平凡。私底下则过着颓废的生活，透过酒精与痛觉刺激混沌度日。\n\n对于自己中途退出战场感到羞耻与愧疚，希望能透过自我牺牲来达成贡献，在获得解脱的同时一并弥补曾经的亏欠，因此不管发生什么，下意识想到的解方都是自杀式任务，但因为提议太过荒谬，通常都不被当作一回事。\n\n把酒当水喝，连水壶里装的都是酒，并且为了省钱与方便，喝的都是医疗酒精。",
+    descriptionEn: "Originally a soldier, she was forced into retirement due to severe post-war trauma. Still driven by the desire to protect her homeland and contribute to its people, she voluntarily applied to join MAJO, an organization with virtually no mental health requirements. She can generally maintain composure during missions, only triggering a stress response when encountering targets that closely resemble human forms.\n \nUpright, generous, and disciplined, she is diligent and conscientious when carrying out missions, appearing rather ordinary among the more distinctly colorful Witches. Behind closed doors, however, she leads a decadent life, numbing herself day by day with alcohol and pain stimulation.\n \nShe feels shame and guilt over having withdrawn from the battlefield partway, and hopes to atone through self-sacrifice, seeking both liberation and a way to make up for her past failings. As a result, no matter what happens, her subconscious solution is always some kind of suicide mission, though such proposals are usually dismissed as too absurd to take seriously.\n \nShe drinks alcohol like water, even filling her canteen with it, and to save money and for convenience, what she drinks is medical-grade alcohol.",
+    skills: {
+      normal: [
+        { nameZh: "弹无虚发", nameEn: "Sharpshooter", infoZh: "2段攻击范围内敌人。", infoEn: "Attacks enemies in range 2 times.", detailEn: "Stage 1: Deals <color=#C8B450>{DAMAGE:damageAdjust+40}%</color> damage <color=#C8B450>2</color> times to enemies in a fan-shaped area ahead.\nStage 2: Deals <color=#C8B450>{DAMAGE:damageAdjust2+55}%</color> damage to enemies in a fan-shaped area ahead.", detailZh: "一段：对面前扇形范围内敌人造成<color=#C8B450>2</color>次<color=#C8B450>{DAMAGE:damageAdjust+40}%</color>伤害。\n二段：对面前扇形范围内敌人造成<color=#C8B450>{DAMAGE:damageAdjust2+55}%</color>伤害。" },
+      ],
+      class: [
+        { nameZh: "快枪一击", nameEn: "Quickdraw Strike", infoZh: "[格挡反击] 赋予自身攻击力提升效果，并赋予自身防御力提升效果。", infoEn: "[Block Counter] Grants self an Attack increase effect and a Defense increase effect.", detailEn: "[Block Counter]\nTrigger Condition: Activates after a Block, only if there is a target within Range\nGrants self Attack <color=#C8B450>+{BUFF:buffEffectAdjust+10}%</color> and Defense <color=#C8B450>+{BUFF:buffEffectAdjust2+20}%</color> effects (lasts <color=#C8B450>12</color> secs).", detailZh: "[格挡反击]\n触发条件：格挡后，射程内有目标才发动\n赋予自身攻击力<color=#C8B450>+{BUFF:buffEffectAdjust+10}%</color>效果、防御力<color=#C8B450>+{BUFF:buffEffectAdjust2+20}%</color>效果(持续<color=#C8B450>12</color>秒)。" },
+      ],
+      auto: [
+        { nameZh: "烟硝弹药", nameEn: "Smoke Bomb Ammunition", infoZh: "[普攻衍生] 攻击范围内敌人，并附加嘲讽效果。", infoEn: "[Normal Attack Salvo] Attacks enemies in range and applies Taunt.", detailEn: "[Normal Attack Salvo]\nTrigger Condition: Activates after the final Normal Attack stage is completed\nDeals <color=#C8B450>{DAMAGE:damageAdjust+281}%</color> damage to enemies in the designated circular area and applies Taunt.", detailZh: "[普攻衍生]\n触发条件：完成最后一段普攻后施展\n对指定圆形范围内敌人造成<color=#C8B450>{DAMAGE:damageAdjust+281}%</color>伤害，并附加嘲讽效果。" },
+        { nameZh: "烟硝弹药", nameEn: "Smoke Bomb Ammunition", infoZh: "[普攻衍生] 攻击范围内敌人，并附加嘲讽效果，并赋予自身减伤提升效果。", infoEn: "[Normal Attack Salvo] Attacks enemies in range, applies Taunt, and grants self an increased Damage Reduction effect.", detailEn: "[Normal Attack Salvo]\nTrigger Condition: Activates after the final Normal Attack stage is completed\nDeals <color=#C8B450>{DAMAGE:damageAdjust_ex+316}%</color> damage to enemies in the designated circular area, applies Taunt, and grants self Damage Reduction <color=#C8B450>+{BUFF:buffEffectAdjust_ex+11}%</color> (lasts <color=#C8B450>6</color> secs).", detailZh: "[普攻衍生]\n触发条件：完成最后一段普攻后施展\n对指定圆形范围内敌人造成<color=#C8B450>{DAMAGE:damageAdjust_ex+316}%</color>伤害，并附加嘲讽效果，并赋予自身减伤<color=#C8B450>+{BUFF:buffEffectAdjust_ex+11}%</color>效果(持续<color=#C8B450>6</color>秒)。" },
+      ],
+      extreme: [
+        { nameZh: "死神穿眼", nameEn: "Deathpiercer", infoZh: "连续攻击范围内敌人。", infoEn: "Attacks enemies in range consecutively.", detailEn: "Deals <color=#C8B450>{DAMAGE:damageAdjust+375}%</color> damage <color=#C8B450>2</color> times to enemies in a fan-shaped area ahead, and this attack's Crit Rate increases by <color=#C8B450>100%</color>. Then deals <color=#C8B450>{DAMAGE:damageAdjust2+600}%</color> damage to enemies in a rectangular area ahead. This attack's Crit Rate increases by <color=#C8B450>100%</color>.", detailZh: "对面前扇形范围内敌人造成<color=#C8B450>2</color>次<color=#C8B450>{DAMAGE:damageAdjust+375}%</color>伤害，此攻击暴击率提高<color=#C8B450>100%</color>，随后对面前矩形范围内敌人造成<color=#C8B450>{DAMAGE:damageAdjust2+600}%</color>伤害，此攻击暴击率提高<color=#C8B450>100%</color>。" },
+        { nameZh: "死神穿眼", nameEn: "Deathpiercer", infoZh: "连续攻击范围内敌人。", infoEn: "Attacks enemies in range consecutively.", detailEn: "Deals <color=#C8B450>{DAMAGE:damageAdjust_ex+450}%</color> damage <color=#C8B450>2</color> times to enemies in a fan-shaped area ahead, then deals <color=#C8B450>{DAMAGE:damageAdjust2_ex+875}%</color> damage to enemies in a rectangular area ahead. For all attacks, Crit Rate increases by <color=#C8B450>100%</color> and Crit Damage increases by <color=#C8B450>50%</color>.", detailZh: "对面前扇形范围内敌人造成<color=#C8B450>2</color>次<color=#C8B450>{DAMAGE:damageAdjust_ex+450}%</color>伤害，随后对面前矩形范围内敌人造成<color=#C8B450>{DAMAGE:damageAdjust2_ex+875}%</color>伤害，所有攻击暴击率提高<color=#C8B450>100%</color>、暴击伤害提高<color=#C8B450>50%</color>。" },
+      ],
+      interference: [
+        { nameZh: "枪手直觉", nameEn: "Gunslinger's Instinct", infoZh: "装备者格挡率提升。  \n装备者暴击时，赋予自身攻击力、防御力提升效果。", infoEn: "Increases the Equipper's Block Rate. \nWhen the Equipper lands a crit, grants self Attack and Defense increase effects.", detailEn: "The Equipper's Block Rate <color=#C8B450>+{BUFF:buffEffectAdjust+5.5}%</color>.\nWhen the Equipper lands a crit, gains Attack <color=#C8B450>+1%</color> and Defense <color=#C8B450>+1%</color> effects, <color=#C8B450>1</color> stack (max <color=#C8B450>15</color> stacks) (lasts <color=#C8B450>{STACKDURATION:stackableBuffDurationAdjust+9}</color> sec(s)).", detailZh: "装备者格挡率<color=#C8B450>+{BUFF:buffEffectAdjust+5.5}%</color>。\n装备者暴击时，自身攻击力<color=#C8B450>+1%</color>与防御力<color=#C8B450>+1%</color>效果<color=#C8B450>1</color>层(最大<color=#C8B450>15</color>层)(持续<color=#C8B450>{STACKDURATION:stackableBuffDurationAdjust+9}</color>秒)。" },
+      ],
+      passive: [
+        { nameZh: "神枪意志", nameEn: "Marksman's Will", infoZh: "每段普攻完成后，赋予自身减伤提升效果。", infoEn: "After each Normal Attack stage is completed, grants self an increased Damage Reduction effect.", detailEn: "After each Normal Attack stage is completed, grants self Damage Reduction <color=#C8B450>+{STACKABLEBUFF:StackableBuff_P0029_PassiveSkill_Lv1:stackableBuffIdAdjust:0}%</color>, <color=#C8B450>1</color> stack (max <color=#C8B450>1</color> stack) (lasts <color=#C8B450>4</color> secs).", detailZh: "每段普攻完成后，赋予自身减伤<color=#C8B450>+{STACKABLEBUFF:StackableBuff_P0029_PassiveSkill_Lv1:stackableBuffIdAdjust:0}%</color>效果<color=#C8B450>1</color>层(最大<color=#C8B450>1</color>层)(持续<color=#C8B450>4</color>秒)。" },
       ],
     },
   },
@@ -1173,6 +1255,47 @@ export const majoCharacters = [
       passive: [
                 { nameZh: "同巢庇护", nameEn: "Nest of Shelter", infoZh: "自身以外的我方角色施展极式后，缩短自身职系技冷却时间并提升自身极式伤害。", infoEn: "When an ally other than self uses an Extreme Skill, reduces self Class Skill CD and increases self Extreme Skill damage.", detailEn: "When an ally other than self uses an Extreme Skill, reduces self Class Skill CD by <color=#C8B450>2</color> seconds, and grants self Extreme Skill damage <color=#C8B450>+3%</color> for 1 stack (max <color=#C8B450>6</color> stacks) (lasts <color=#C8B450>{STACKDURATION:stackableBuffDurationAdjust+10.5}</color> seconds).", detailZh: "自身以外的我方角色施展极式后，自身职系技冷却时间缩短<color=#C8B450>2</color>秒，并赋予自身极式伤害<color=#C8B450>+3%</color>效果1层(最大<color=#C8B450>6</color>层)(持续<color=#C8B450>{STACKDURATION:stackableBuffDurationAdjust+10.5}</color>秒)。" },
                 { nameZh: "同巢庇护", nameEn: "Nest of Shelter", infoZh: "自身以外的我方角色施展极式后，缩短自身职系技冷却时间并提升自身极式伤害。", infoEn: "When an ally other than self uses an Extreme Skill, reduces self Class Skill CD and increases self Extreme Skill damage.", detailEn: "When an ally other than self uses an Extreme Skill, reduces self Class Skill CD by <color=#C8B450>2</color> seconds, and grants self Extreme Skill damage <color=#C8B450>+4%</color> for 1 stack (max <color=#C8B450>10</color> stacks) (lasts <color=#C8B450>{STACKDURATION:stackableBuffDurationAdjust_ex+10.5}</color> seconds).", detailZh: "自身以外的我方角色施展极式后，自身职系技冷却时间缩短<color=#C8B450>2</color>秒，并赋予自身极式伤害<color=#C8B450>+4%</color>效果1层(最大<color=#C8B450>10</color>层)(持续<color=#C8B450>{STACKDURATION:stackableBuffDurationAdjust_ex+10.5}</color>秒)。" },
+      ],
+    },
+  },
+  {
+    id: 'P0043',
+    slug: 'tuxi',
+    nameZh: "图曦",
+    nameEn: "Tuxi",
+    nameJa: "トゥーシー",
+    titleZh: "心火之流",
+    titleEn: "Stream of Heart Fire",
+    titleJa: "心火の流れ",
+    rarity: 'SSR',
+    cls: 'Tank',
+    attackType: 'Physical',
+    faction: 'Android',
+    icon: 'P0043_figure_s.png',
+    image: 'P0043_figure_m.png',
+    awakenImage: 'P0043_Awaken_figure_m.png',
+    descriptionZh: "原本是一名消防员。情绪稳定、理性过人，让她在火场中总能做出完美的精准判断。\n\n然而在能力觉醒后，她才真正明白：自己之所以能在火场中发挥如此异常的实力，并不是训练的结果，而是因为她下意识就能控制火焰的流向与强弱。\n\n加入MAJO后，指导魔女点醒了她——她之所以如此冷静，从来不是天生的性格，而是一种自我防卫：身边的火焰会与她的情绪产生微妙的连动。于是她渐渐活成了一个没有情绪的人。\n\n虽然平时醒着的时候很冷静，但其实在睡前容易内耗。会检讨自己、以及想起那些没有成功救出火场的那些罹难者。",
+    descriptionEn: "She was originally a firefighter. Her emotional stability and exceptional rationality always allowed her to make perfect, precise judgments in fire scenes.\n\nHowever, after her abilities awakened, she truly understood: her ability to display such abnormal prowess in fire scenes wasn't the result of training, but because she could subconsciously control flame direction and intensity.\n\nAfter joining MAJO, the guiding witch enlightened her, her calmness was never innate personality, but a form of self-defense: the flames around her would subtly connect with her emotions. So she gradually became a person without emotions.\n\nAlthough she's calm when awake during the day, she actually tends to overthink before sleep, reviewing herself and remembering those victims she failed to successfully rescue from fires.",
+    skills: {
+      normal: [
+        { nameZh: "飞溅星火", nameEn: "Scattering Sparks", infoZh: "3段攻击范围内敌人。", infoEn: "Attacks enemies in range 3 times.", detailEn: "Stage 1: Deals <color=#C8B450>{DAMAGE:damageAdjust+74}%</color> damage to enemies in a fan-shaped area ahead.\nStage 2: Deals <color=#C8B450>{DAMAGE:damageAdjust+74}%</color> damage to enemies in a fan-shaped area ahead.\nStage 3: Deals <color=#C8B450>{DAMAGE:damageAdjust+100}%</color> damage to enemies in a fan-shaped area ahead.", detailZh: "一段：对面前扇形范围内敌人造成<color=#C8B450>{DAMAGE:damageAdjust+74}%</color>伤害。\n二段：对面前扇形范围内敌人造成<color=#C8B450>{DAMAGE:damageAdjust+74}%</color>伤害。\n三段：对面前扇形范围内敌人造成<color=#C8B450>{DAMAGE:damageAdjust+100}%</color>伤害。" },
+      ],
+      class: [
+        { nameZh: "爆燃炙光", nameEn: "Blazing Combustion", infoZh: "[格挡反击] 增加自身极式蓄能，随后攻击范围内敌人，并附加嘲讽效果。", infoEn: "[Block Counter] Increases self Extreme Skill Charge, then attacks enemies in range and applies Taunt.", detailEn: "[Block Counter]\nTrigger Condition: Activates after a Block, only if there is a target within Range\nIncreases self Extreme Skill Charge by <color=#C8B450>{COST:costAdjust+6000}</color>, then applies Taunt to enemies in a fan-shaped area ahead and deals <color=#C8B450>{DAMAGE:damageAdjust+73}%</color> damage 2 times.", detailZh: "[格挡反击]\n触发条件：格挡后，射程内有目标才发动\n增加自身极式蓄能<color=#C8B450>{COST:costAdjust+6000}</color>，随后对面前扇形范围内敌人附加嘲讽效果，并造成2次<color=#C8B450>{DAMAGE:damageAdjust+73}%</color>伤害。" },
+      ],
+      auto: [
+        { nameZh: "焦灼灿焰", nameEn: "Scorching Blaze", infoZh: "[极式衍生] 攻击范围内敌人。并赋予敌人受到的物理伤害提升效果。", infoEn: "[Extreme Skill Salvo] Attacks enemies in range. Also grants an effect that increases the Physical damage enemies take.", detailEn: "[Extreme Skill Salvo]\nTrigger Condition: Activates after the Extreme Skill is fully cast\nDeals <color=#C8B450>{DAMAGE:damageAdjust+293}%</color> damage to enemies in a circular area. This attack's Crit Rate increases by <color=#C8B450>100%</color>, and grants the target Physical Resistance <color=#C8B450>{BUFF:buffEffectAdjust+-16}%</color> (lasts <color=#C8B450>5</color> secs).", detailZh: "[极式衍生]\n触发条件：在完整施展极式后发动\n对圆形范围内敌人造成<color=#C8B450>{DAMAGE:damageAdjust+293}%</color>伤害，此攻击暴击率提高<color=#C8B450>100%</color>，并赋予目标物理抗性<color=#C8B450>{BUFF:buffEffectAdjust+-16}%</color>效果(持续<color=#C8B450>5</color>秒)。" },
+      ],
+      extreme: [
+        { nameZh: "狂袭热浪", nameEn: "Raging Heatwave", infoZh: "赋予全体我方角色防御力与暴击率提升效果，并赋予自身格挡率提升效果与固定职系技冷却时间，移动至指定地点后攻击范围内敌人并附加嘲讽效果。", infoEn: "Grants all allies Defense and Crit Rate increase effects, and grants self a Block Rate increase effect and a fixed Class Skill CD effect. After moving to the designated location, attacks enemies in range and applies Taunt.", detailEn: "Grants all allies Defense <color=#C8B450>+20%</color> and Crit Rate <color=#C8B450>+15%</color> (lasts <color=#C8B450>{BUFFDURATION:buffDurationAdjust+10.5}</color> sec(s)). Increases self Block Rate to <color=#C8B450>100%</color> and fixes Class Skill CD at <color=#C8B450>3</color> secs, <color=#C8B450>1</color> stack (max <color=#C8B450>1</color> stack) (lasts <color=#C8B450>{STACKDURATION:stackableBuffDurationAdjust+10.5}</color> sec(s)). Moves to the designated location and deals <color=#C8B450>{DAMAGE:damageAdjust+780}%</color> damage to enemies in the designated circular area. This attack's Crit Rate increases by <color=#C8B450>100%</color>, and applies Taunt.", detailZh: "赋予全体我方角色防御力<color=#C8B450>+20%</color>与暴击率<color=#C8B450>+15%</color>效果(持续<color=#C8B450>{BUFFDURATION:buffDurationAdjust+10.5}</color>秒)，赋予自身格挡率提升至<color=#C8B450>100%</color>，并将职系技冷却时间固定为<color=#C8B450>3</color>秒效果<color=#C8B450>1</color>层(最大<color=#C8B450>1</color>层)(持续<color=#C8B450>{STACKDURATION:stackableBuffDurationAdjust+10.5}</color>秒)，移动至指定地点对指定圆形范围内敌人造成<color=#C8B450>{DAMAGE:damageAdjust+780}%</color>伤害，此攻击暴击率提高<color=#C8B450>100%</color>，并附加嘲讽效果。" },
+        { nameZh: "狂袭热浪", nameEn: "Raging Heatwave", infoZh: "赋予全体我方角色防御力与暴击率提升效果，并赋予自身格挡率提升效果与固定职系技冷却时间，移动至指定地点后攻击范围内敌人并附加嘲讽效果。", infoEn: "Grants all allies Defense and Crit Rate increase effects, and grants self a Block Rate increase effect and a fixed Class Skill cooldown period. After moving to the designated location, attacks enemies in range and applies Taunt.", detailEn: "Grants all allies Defense <color=#C8B450>+20%</color>, Crit Rate <color=#C8B450>+15%</color>, and Mental Resistance <color=#C8B450>+20%</color> (lasts <color=#C8B450>{BUFFDURATION:buffDurationAdjust_ex+10.5}</color> sec(s)). Increases self Block Rate to <color=#C8B450>100%</color> and fixes Class Skill CD at <color=#C8B450>3</color> secs, <color=#C8B450>1</color> stack (max <color=#C8B450>1</color> stack) (lasts <color=#C8B450>{STACKDURATION:stackableBuffDurationAdjust_ex+10.5}</color> sec(s)). Moves to the designated location, applies Taunt to enemies in a circular area, and deals <color=#C8B450>{DAMAGE:damageAdjust_ex+550}%</color> damage 2 times. This attack's Crit Rate increases by <color=#C8B450>100%</color>.", detailZh: "赋予全体我方角色防御力<color=#C8B450>+20%</color>、暴击率<color=#C8B450>+15%</color>与精神抗性<color=#C8B450>+20%</color>效果(持续<color=#C8B450>{BUFFDURATION:buffDurationAdjust_ex+10.5}</color>秒)，赋予自身格挡率提升至<color=#C8B450>100%</color>，并将职系技冷却时间固定为<color=#C8B450>3</color>秒效果<color=#C8B450>1</color>层(最大<color=#C8B450>1</color>层)(持续<color=#C8B450>{STACKDURATION:stackableBuffDurationAdjust_ex+10.5}</color>秒)，移动至指定地点对圆形范围内敌人附加嘲讽效果，并造成2次<color=#C8B450>{DAMAGE:damageAdjust_ex+550}%</color>伤害，此攻击暴击率提高<color=#C8B450>100%</color>。" },
+      ],
+      interference: [
+        { nameZh: "残火", nameEn: "Smoldering Embers", infoZh: "装备者暴击率提升。\n装备者每次格挡时治疗自身。", infoEn: "Increases the Equipper's Crit Rate. \nHeals self each time the Equipper blocks.", detailEn: "The Equipper's Crit Rate <color=#C8B450>+{BUFF:buffEffectAdjust+10}%</color>.\nWhen the Equipper blocks, heals <color=#C8B450>1%</color> of Max HP.", detailZh: "装备者暴击率<color=#C8B450>+{BUFF:buffEffectAdjust+10}%</color>。\n装备者格挡时，治疗<color=#C8B450>1%</color>最大生命值。" },
+      ],
+      passive: [
+        { nameZh: "复燃", nameEn: "Rekindle", infoZh: "格挡时治疗自身，赋予全体我方角色暴击率提升效果。", infoEn: "Heals self when blocking and grants all allies a Crit Rate increase effect.", detailEn: "Each time self blocks, heals <color=#C8B450>1%</color> of Max HP and grants all allies Crit Rate <color=#C8B450>+{STACKABLEBUFF:P0043_PassiveSkill_Lv1:stackableBuffIdAdjust:0}%</color>, <color=#C8B450>1</color> stack (max <color=#C8B450>2</color> stacks) (lasts <color=#C8B450>10</color> secs).", detailZh: "每次格挡时，治疗自身<color=#C8B450>1%</color>最大生命值，赋予全体我方角色暴击率<color=#C8B450>+{STACKABLEBUFF:P0043_PassiveSkill_Lv1:stackableBuffIdAdjust:0}%</color>效果<color=#C8B450>1</color>层(最大<color=#C8B450>1</color>层)(持续<color=#C8B450>10</color>秒)。" },
+        { nameZh: "复燃", nameEn: "Rekindle", infoZh: "格挡时治疗自身，赋予全体我方角色暴击率提升效果。", infoEn: "Heals self when blocking and grants all allies a Crit Rate increase effect.", detailEn: "Each time self blocks, heals <color=#C8B450>2%</color> of Max HP and grants all allies Crit Rate <color=#C8B450>+{STACKABLEBUFF:P0043_PassiveSkillEx_Lv1:stackableBuffIdAdjust_ex:0}%</color>, <color=#C8B450>1</color> stack (max <color=#C8B450>3</color> stacks) (lasts <color=#C8B450>10</color> secs).", detailZh: "每次格挡时，治疗自身<color=#C8B450>2%</color>最大生命值，赋予全体我方角色暴击率<color=#C8B450>+{STACKABLEBUFF:P0043_PassiveSkillEx_Lv1:stackableBuffIdAdjust_ex:0}%</color>效果<color=#C8B450>1</color>层(最大<color=#C8B450>3</color>层)(持续<color=#C8B450>10</color>秒)。" },
       ],
     },
   },

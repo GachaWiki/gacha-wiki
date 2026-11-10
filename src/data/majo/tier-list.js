@@ -35,7 +35,7 @@ export const MAJO_TYPE_LAW_ICONS = {
   Mental: 'atk_spirit',
 };
 
-export const MAJO_TIER_UPDATED = 'October 12, 2026';
+export const MAJO_TIER_UPDATED = 'November 5, 2026';
 
 // slug -> { tier, reason, isNew? }
 export const MAJO_TIER_PLACEMENTS = {
@@ -170,6 +170,21 @@ export const MAJO_TIER_PLACEMENTS = {
   zhijie: {
     tier: 'A',
     reason: 'The physical meta deck\'s healer and the highest healer ceiling in the game (CN players rate her T0, JP S): area heals with Defense buffs, get-up and posture support on her auto, and an Extreme that heals then attacks. Whale-spec to acquire and limit-break, which is the only thing keeping her out of SS. Free players should run Peseshet.',
+  },
+  daphine: {
+    tier: 'SS',
+    isNew: true,
+    reason: 'New (Oct 28). The first Mental-attack UR Healer and the piece Mental teams were missing: an Extreme that repositions and multi-heals the area while stacking Extra Damage (Mental attackers get more), an Ultimate Salvo that heals the whole team and adds Stagger to Mental attackers\' hits, an Interference that boosts healing received by Mental characters and drops an enhanced zone after her ult, and ally Executions feed her Extreme charge. UR acquisition cost is the only knock.',
+  },
+  yingbo: {
+    tier: 'A',
+    isNew: true,
+    reason: 'New (Nov 11). SSR sustain Tank: a Taunting Normal Attack Salvo (awakened adds self Damage Reduction), stacking Damage Reduction after each Normal stage, Block Rate with crit-triggered Attack and Defense up, and a consecutive-hit Extreme.',
+  },
+  tuxi: {
+    tier: 'S',
+    isNew: true,
+    reason: 'New (Nov 11). SSR Android Tank with team amp: her Extreme Skill Salvo applies a Physical-damage-taken UP debuff to enemies, her Extreme grants all allies Defense and Crit Rate plus a fixed Class Skill cooldown for herself while taunting, and blocking heals her and raises ally Crit Rate. Also the first new Android since the Android Exploration Zone opened.',
   },
 };
 

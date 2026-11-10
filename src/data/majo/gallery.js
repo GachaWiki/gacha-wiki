@@ -134,6 +134,14 @@ export const WITCH_ILLUSTRATIONS = [
     ],
   },
   {
+    id: 'P0021',
+    images: [
+      { file: 'P0021_basic.webp', label: 'Default', w: 476, h: 640 },
+      { file: 'P0021_awaken.webp', label: 'Awakened', w: 720, h: 960 },
+      { file: 'P0021_special.webp', label: 'Special', w: 1440, h: 1920 },
+    ],
+  },
+  {
     id: 'P0022',
     images: [
       { file: 'P0022_basic.webp', label: 'Default', w: 480, h: 640 },
@@ -152,6 +160,13 @@ export const WITCH_ILLUSTRATIONS = [
     images: [
       { file: 'P0028_basic.webp', label: 'Default', w: 480, h: 640 },
       { file: 'P0028_awaken.webp', label: 'Awakened', w: 720, h: 960 },
+    ],
+  },
+  {
+    id: 'P0029',
+    images: [
+      { file: 'P0029_basic.webp', label: 'Default', w: 1440, h: 1920 },
+      { file: 'P0029_awaken.webp', label: 'Awakened', w: 1440, h: 1920 },
     ],
   },
   {
@@ -207,6 +222,13 @@ export const WITCH_ILLUSTRATIONS = [
     images: [
       { file: 'P0041_basic.webp', label: 'Default', w: 622, h: 830 },
       { file: 'P0041_awaken.webp', label: 'Awakened', w: 1440, h: 1920 },
+    ],
+  },
+  {
+    id: 'P0043',
+    images: [
+      { file: 'P0043_basic.webp', label: 'Default', w: 1440, h: 1920 },
+      { file: 'P0043_awaken.webp', label: 'Awakened', w: 1440, h: 1920 },
     ],
   },
   {

@@ -28,6 +28,14 @@ const STACKABLE_VALUES = {
   'P0045_PassiveSkillEffectsEx_ExtraDamage_Lv1': 4.2,
   StackableBuff_P0028_AutoSkill_1_Lv1: null, // value not in client data
   StackableBuff_P0037_PassiveSkill_2_Lv1: 11,
+  // Nov 2026 wave
+  StackableBuff_P0029_PassiveSkill_Lv1: 5.5, // raw 550
+  P0043_PassiveSkill_Lv1: 3.2, // raw 320
+  P0043_PassiveSkillEx_Lv1: 3.2, // raw 320, max 3 stacks
+  'StackableBuff_P0021_ExtrameSkill_1_Lv1': null, // lives in character_prefabs_p0021 (not pulled yet)
+  'StackableBuff_P0021_ExtrameSkill_2_Lv1': null,
+  'StackableBuff_P0021_ExtrameSkillEx_1_Lv1': null,
+  'StackableBuff_P0021_ExtrameSkillEx_2_Lv1': null,
 };
 
 export function resolveSkillFormula(text = '') {

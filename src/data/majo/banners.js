@@ -75,6 +75,18 @@ export const bannerTypes = [
 
 export const bannerTimeline = [
   {
+    name: 'Tuxi + Yingbo dual Pickup',
+    image: 'https://k2b1c5ab57ed98e51.gachawiki.info/majo/banners/ssr-pu-4-tuxi-yingbo.webp',
+    imageWidth: 1200,
+    imageHeight: 480,
+    type: 'Limited Contact',
+    date: 'Nov 11 to Dec 2, 2026',
+    dateNote: 'run window',
+    featured: ['Tuxi', 'Yingbo'],
+    slugs: ['tuxi', 'yingbo'],
+    note: 'November Limited Contact duo announced with the Nov 4 update: Tuxi (SSR Tank, Physical, Android) and Yingbo (SSR Tank, Physical, Human). Decreasing pity 100, then 80, then 60 onward; untriggered pity counts carry over to the next Limited Contact period, but the cap resets.',
+  },
+  {
     name: 'Daphine UR Pickup',
     image: 'https://k2b1c5ab57ed98e51.gachawiki.info/majo/banners/ur-pu-4-daphine.webp',
     imageWidth: 1200,
@@ -83,8 +95,20 @@ export const bannerTimeline = [
     date: 'Oct 28 to Nov 18, 2026',
     dateNote: 'run window',
     featured: ['Daphine'],
-    slugs: [],
-    note: 'Announced in the October update. Daphine is a UR Healer per client data (P0021, "Exotic Perfumer"); her kit ships Oct 28 with her event, The Perfumer\'s Final Destination. Same Eternal pity rules: 80, then 70, then 60, carried over between Eternal pools.',
+    slugs: ['daphine'],
+    note: 'Announced in the October update and live since Oct 28: Daphine (P0021, "Exotic Perfumer"), a UR Healer with Mental attacks. Her event, The Perfumer\'s Final Destination, runs alongside the banner. Same Eternal pity rules: 80, then 70, then 60, carried over between Eternal pools.',
+  },
+  {
+    name: 'Lumi Origin Rerun',
+    image: 'https://k2b1c5ab57ed98e51.gachawiki.info/majo/banners/lumi-gacha.webp',
+    imageWidth: 1440,
+    imageHeight: 1920,
+    type: 'Origin Contact',
+    date: 'Oct 21 to Nov 11, 2026',
+    dateNote: 'run window',
+    featured: ['Lumi'],
+    slugs: ['lumi'],
+    note: 'Origin Contact rate-up return for Lumi, confirmed by the live pool text (regular_PU_5). Duplicates give Witch Crystals (SSR 60 / SR 5); Origin pity does not carry over.',
   },
   {
     name: 'Bellakey UR Pickup',
@@ -144,7 +168,7 @@ export const bannerTimeline = [
     dateNote: 'rotation',
     featured: ['Daphine', 'Dayu', 'Macak'],
     slugs: ['dayu', 'macak'],
-    note: 'The live Eternal Contact pool texts name these three as the standing rotation rate-ups ([Daphine, Dayu, Macak]), while featured runs take the banner one at a time: Isabelle (Aug 26), Bazhuli (Sep 16 to Oct 7), Bellakey (Oct 7 to Oct 28), Daphine (Oct 28 to Nov 18). Dayu is also obtainable from the event exchange shop (about 3,250 event tokens per copy). Daphine joins the wiki roster when she becomes playable on Oct 28 (UR Healer per client data).',
+    note: 'The live Eternal Contact pool texts name these three as the standing rotation rate-ups ([Daphine, Dayu, Macak]), while featured runs take the banner one at a time: Isabelle (Aug 26), Bazhuli (Sep 16 to Oct 7), Bellakey (Oct 7 to Oct 28), Daphine (Oct 28 to Nov 18). Dayu is also obtainable from the event exchange shop (about 3,250 event tokens per copy).',
   },
   {
     name: 'Isabelle UR Pickup',
