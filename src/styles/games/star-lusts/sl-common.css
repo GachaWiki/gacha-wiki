@@ -75,7 +75,11 @@
   font-size: var(--text-2xl);
   font-weight: 700;
   color: var(--sl-accent);
-  margin: 34px 0 14px;
+  margin: 0 0 14px;
+}
+
+.sl-detail .sl-section-title {
+  margin: 0;
 }
 
 /* labels: accent, semibold, smaller */
@@ -392,21 +396,18 @@
   display: grid;
   grid-template-columns: 220px 1fr;
   gap: 26px;
-  margin-top: 8px;
+  align-items: start;
 }
 
 .sl-portrait-wrap {
-  background: var(--sl-card);
-  border: 1px solid var(--sl-border);
-  border-radius: var(--sl-radius);
-  padding: 12px;
+  padding: 8px;
   align-self: start;
   text-align: center;
 }
 
 .sl-portrait {
-  width: 100%;
-  max-width: 196px;
+  width: 196px;
+  max-width: 100%;
   height: auto;
   border-radius: 8px;
 }
