@@ -3557,6 +3557,282 @@ export const gsaSignatureGear = [
     ]
   },
   {
+    "slug": "elena",
+    "char": "Elena",
+    "cr": 70,
+    "element": "Fire",
+    "weaponClass": "Energy",
+    "slot": "Gloves",
+    "name": "Tattoo Stickers",
+    "nameEx": "Tattoo Stickers EX",
+    "flavor": "A lot of friends who go to music festivals with her have tattoos, so to fit in, Elena wears temporary tattoo stickers on her fingers during events.",
+    "icon": "Equip_cr070_glove",
+    "quality": "Blue",
+    "stats": [
+      {
+        "label": "ATK",
+        "pct": false,
+        "base": 88,
+        "max": 112
+      },
+      {
+        "label": "Fire ATK",
+        "pct": true,
+        "base": 1000,
+        "max": 1000
+      },
+      {
+        "label": "ACC",
+        "pct": false,
+        "base": 58,
+        "max": 70
+      },
+      {
+        "label": "Judgment Hit Rate",
+        "pct": true,
+        "base": 62,
+        "max": 74
+      }
+    ]
+  },
+  {
+    "slug": "elena",
+    "char": "Elena",
+    "cr": 70,
+    "element": "Fire",
+    "weaponClass": "Energy",
+    "slot": "Weapon",
+    "name": "Father's Old Pistol",
+    "nameEx": "Father's Old Pistol EX",
+    "flavor": "The weapon used by Elena's father before his death. Even with his early passing, she wields his heirloom to fight in his stead, struggling alongside her mother to survive in the underworld.",
+    "icon": "Equip_cr070_wp",
+    "quality": "Blue",
+    "stats": [
+      {
+        "label": "ATK",
+        "pct": false,
+        "base": 88,
+        "max": 112
+      },
+      {
+        "label": "Fire ATK",
+        "pct": true,
+        "base": 1000,
+        "max": 1000
+      },
+      {
+        "label": "Crit",
+        "pct": false,
+        "base": 1000,
+        "max": 1000
+      },
+      {
+        "label": "Block PEN",
+        "pct": false,
+        "base": 0,
+        "max": 0
+      }
+    ]
+  },
+  {
+    "slug": "elena",
+    "char": "Elena",
+    "cr": 70,
+    "element": "Fire",
+    "weaponClass": "Energy",
+    "slot": "Shoes",
+    "name": "Premium Custom Women's Shoes",
+    "nameEx": "Premium Custom Women's Shoes EX",
+    "flavor": "Wanting to become an outstanding person like her mother, Elena secretly ordered this pair of shoes from her mother's favorite designer.",
+    "icon": "Equip_cr070_shoe",
+    "quality": "Blue",
+    "stats": [
+      {
+        "label": "ATK",
+        "pct": false,
+        "base": 88,
+        "max": 112
+      },
+      {
+        "label": "Fire ATK",
+        "pct": true,
+        "base": 1000,
+        "max": 1000
+      },
+      {
+        "label": "ATK Speed",
+        "pct": false,
+        "base": 182,
+        "max": 210
+      },
+      {
+        "label": "Crit Evasion",
+        "pct": false,
+        "base": 58,
+        "max": 60
+      }
+    ]
+  },
+  {
+    "slug": "elena",
+    "char": "Elena",
+    "cr": 70,
+    "element": null,
+    "weaponClass": "Energy",
+    "slot": "Accessory",
+    "name": "Elena's Chosen Perfume",
+    "nameEx": "Elena's Chosen Perfume EX",
+    "flavor": "Elena's favorite scent. Though it doesn't quite match her usual style, this floral perfume with notes of apple carries a sweet fragrance.",
+    "icon": null,
+    "quality": "Gold",
+    "stats": [
+      {
+        "label": "ATK",
+        "pct": false,
+        "base": 77,
+        "max": 86
+      }
+    ]
+  },
+  {
+    "slug": "victoria",
+    "char": "Victoria",
+    "cr": 71,
+    "element": "Earth",
+    "weaponClass": "Energy",
+    "slot": "Gloves",
+    "name": "Black Nail Polish",
+    "nameEx": "Black Nail Polish EX",
+    "flavor": "A birthday present she once received from her daughter. The color is suitable for all ages, showing how much thought was put into choosing it.",
+    "icon": "Equip_cr071_glove",
+    "quality": "Blue",
+    "stats": [
+      {
+        "label": "ATK",
+        "pct": false,
+        "base": 100,
+        "max": 136
+      },
+      {
+        "label": "Earth ATK",
+        "pct": true,
+        "base": 1000,
+        "max": 1000
+      },
+      {
+        "label": "ACC",
+        "pct": false,
+        "base": 58,
+        "max": 70
+      },
+      {
+        "label": "Judgment Hit Rate",
+        "pct": true,
+        "base": 62,
+        "max": 74
+      }
+    ]
+  },
+  {
+    "slug": "victoria",
+    "char": "Victoria",
+    "cr": 71,
+    "element": "Earth",
+    "weaponClass": "Energy",
+    "slot": "Weapon",
+    "name": "Bloodbound Oath",
+    "nameEx": "Bloodbound Oath EX",
+    "flavor": "For her precious child, even a mother can become a demon who kills without blinking an eye.",
+    "icon": "Equip_cr071_wp",
+    "quality": "Blue",
+    "stats": [
+      {
+        "label": "ATK",
+        "pct": false,
+        "base": 100,
+        "max": 136
+      },
+      {
+        "label": "Earth ATK",
+        "pct": true,
+        "base": 1000,
+        "max": 1000
+      },
+      {
+        "label": "Crit",
+        "pct": false,
+        "base": 97,
+        "max": 140
+      },
+      {
+        "label": "Block PEN",
+        "pct": false,
+        "base": 217,
+        "max": 244
+      }
+    ]
+  },
+  {
+    "slug": "victoria",
+    "char": "Victoria",
+    "cr": 71,
+    "element": "Earth",
+    "weaponClass": "Energy",
+    "slot": "Shoes",
+    "name": "Designer Custom Heels",
+    "nameEx": "Designer Custom Heels EX",
+    "flavor": "Only a fine pair of shoes can truly showcase a woman's commanding presence and unique taste.",
+    "icon": "Equip_cr071_shoe",
+    "quality": "Blue",
+    "stats": [
+      {
+        "label": "ATK",
+        "pct": false,
+        "base": 100,
+        "max": 136
+      },
+      {
+        "label": "Earth ATK",
+        "pct": true,
+        "base": 1000,
+        "max": 1000
+      },
+      {
+        "label": "ATK Speed",
+        "pct": false,
+        "base": 182,
+        "max": 210
+      },
+      {
+        "label": "Crit Evasion",
+        "pct": false,
+        "base": 80,
+        "max": 95
+      }
+    ]
+  },
+  {
+    "slug": "victoria",
+    "char": "Victoria",
+    "cr": 71,
+    "element": null,
+    "weaponClass": "Energy",
+    "slot": "Accessory",
+    "name": "Black Hair Dye",
+    "nameEx": "Black Hair Dye EX",
+    "flavor": "A woman's age is her secret, but it's about time to start using some \"chemistry\" to keep that youthful glow.",
+    "icon": null,
+    "quality": "Gold",
+    "stats": [
+      {
+        "label": "ATK",
+        "pct": false,
+        "base": 77,
+        "max": 86
+      }
+    ]
+  },
+  {
     "slug": "jessica",
     "char": "Jessica",
     "cr": 74,
@@ -3704,7 +3980,7 @@ export const gsaSignatureGear = [
     "name": "HL Work Gloves",
     "nameEx": "HL Work Gloves EX",
     "flavor": "Heavy-duty non-slip gloves featuring reinforced palms and knuckles, built for grueling labor and material transport. Out in the field, many personnel refuse to take them off post-shift, taking no chances with unexpected injuries.",
-    "icon": null,
+    "icon": "Equip_cr078_glove",
     "quality": "Blue",
     "stats": [
       {
@@ -3743,7 +4019,7 @@ export const gsaSignatureGear = [
     "name": "Keg Pack",
     "nameEx": "Keg Pack EX",
     "flavor": "A pressurized draft beer delivery backpack, equipped with padded shoulder and waist straps to distribute the weight of the nearly 20 kg keg, allowing for single-handed dispensing of ice-cold beer. Health regulations mandate that all refills on location must come straight from the pack.",
-    "icon": null,
+    "icon": "Equip_cr078_wp",
     "quality": "Blue",
     "stats": [
       {
@@ -3782,7 +4058,7 @@ export const gsaSignatureGear = [
     "name": "Athletic Sneakers",
     "nameEx": "Athletic Sneakers EX",
     "flavor": "Lightweight sneakers featuring a breathable mesh upper and wear-resistant soles. Awana frequently goes road running to build up her stamina, wearing through her soles faster than the changing of seasons.",
-    "icon": null,
+    "icon": "Equip_cr078_shoe",
     "quality": "Blue",
     "stats": [
       {

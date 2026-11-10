@@ -57,6 +57,17 @@ const PAIRS_NOTE = {
   ],
 };
 
+// 推薦角色（用戶編選，2026-11-10）：梯次之外值得圍繞其組隊的核心，渲染在推薦組合下方。
+const RECOMMENDED_NOTE = {
+  title: '推薦角色',
+  intro: '梯次之外值得圍繞其組隊的核心：讓整支隊伍運轉的增益與啟動角色。',
+  picks: [
+    { name: '暴擊傷害輔助', slug: 'victoria', note: '自動技能為攻擊力最高的兩名隊友提供暴擊傷害提升 40%，與沫沫的闇隊搭配絕佳。' },
+    { name: '感電啟動者', slug: 'li-mu', note: '自動技能持續上感電M，奧義再提升感電命中率，與露比並肩接超載追擊。' },
+    { name: '全隊電池', slug: 'kurosawa-shion', note: '幫隊伍回 EN，讓技能與奧義轉得更快，什麼隊伍都能放。' },
+  ],
+};
+
 // 繁中版角色短評（對應 GSA_TIER_NOTES 的在地化標題與內文，未列出的角色回退英文）。
 const NOTES_ZH = {
   'amelie': [null, '滿編風隊時可到 SS。', '她是 S，但如果有完整的風屬性隊伍可以到 SS。她的增益與暴擊率都不錯。'],
@@ -67,7 +78,7 @@ const NOTES_ZH = {
   'sugimoto-arina': [null, '唯一的優秀治療。', '遊戲目前沒有好的治療角色。之後會有更好的，她的重要性會下降，但現在她是唯一的好選擇。'],
   'lin-lin': ['輸出與火屬狀態。', '擅長打後排目標。', '她的奧義與技能會打血量最低的目標，通常就是輸出手。PVP 表現不錯但傷害稍弱，優點是她能上火屬狀態。'],
   'shiraishi-ai': [null, '有 SSS 潛力。', '老實說她可以到 SSS：她針對支援型的目標很強，傷害也很好。只是缺狀態效果。'],
-  'jessica': [null, '最強輔助。', '短冷卻的全隊護盾、持續治療與淨化奧義：她適合所有隊伍，抽到就是賺到。目前唯一的 SSS。'],
+  'jessica': [null, '最強輔助。', '短冷卻的全隊護盾、持續治療與淨化奧義：她適合所有隊伍，抽到就是賺到。'],
   'ruby': ['風屬最佳單體。', '非常強的單體輸出。', '她的每個技能都打單一目標：奧義在覺醒狀態下三段各 300%（感電命中率提升 30%），天賦技能三段各 93% 並附加感電 S。她還能持續上感電讓清音與李沐接超載追擊。而且她是最容易練滿的 SSR：任務可取得重複、專武可取得。'],
   'komachi-sayaka': ['冰破終結者', '冰破終結者。', '她是目前遊戲最強的輸出之一，尤其冰隊。她能收掉冰破追擊，奧義非常強，與安藤加奈搭配更是無解。'],
   'hijikata-chizuru': ['最強坦克', '最強坦克。', '她是目前遊戲最好的坦克之一，尤其大地隊。她能觸發石化大地狀態，被動也很好。'],
@@ -79,6 +90,8 @@ const NOTES_ZH = {
   'danxin': [null, '難取得但很坦。', '如果抽到並練滿（要好幾個月），她還行但沒有到爆炸。不過她的護盾真的爆炸。'],
   'amber': [null, '坦克，無狀態。', '很容易練滿，前期帳號很好用，但比其他坦克沒多帶什麼，就只是坦。'],
   'awana': [null, '闇隊必練。', '調查關卡可獲得的免費 SSR，每個技能都帶減益，並且是與尤莉亞並列唯二能施加漆黑的角色：她是所有闇隊的核心，也是最容易練滿的 SSR。闇屬性追擊鏈還沒有終結者：等其上線那天，她已經站在場上了。'],
+  'elena': [null, '強力火屬範圍輸出。', '覺醒奧義對全體目標連擊十八段，天賦技能持續上燃燒M，清圖與群戰表現優秀，與藤原亞璃紗組成火屬隊伍。單體首領戰仍以專精單體角色優先。'],
+  'victoria': [null, '暴擊傷害隊伍的核心。', '自動技能為攻擊力最高的兩名隊友提供暴擊傷害提升 40%，與沫沫搭配絕佳：暴擊增益餵養闇屬性核心，石化則鎖住重點目標。「戰爭與音樂」活動可直接農到她，練滿需要的是耐心而非抽數。'],
 };
 const noteZh = slug => NOTES_ZH[slug] || null;
 
@@ -139,7 +152,7 @@ const total = tierTabs.reduce((n, t) => n + tabCount(t.rarity), 0);
 
 <GsaZhLayout
   title="排行榜"
-  description={`黑色基因排行榜（2026年11月9日更新）：依職業戰鬥風格評比全部 ${total} 名已實裝角色，評分依據來自解密資料表的技能數據。`}
+  description={`黑色基因排行榜（2026年11月10日更新）：依職業戰鬥風格評比全部 ${total} 名已實裝角色，評分依據來自解密資料表的技能數據。`}
   gameTitle="排行榜"
   breadcrumbItems={[{ name: GSA_ZH.gameName, href: base }, { name: '排行榜' }]}
 >
@@ -204,6 +217,30 @@ const total = tierTabs.reduce((n, t) => n + tabCount(t.rarity), 0);
             <span class="gsa-pairs-note">{pair.note}</span>
           </div>
         ))}
+      </div>
+    </div>
+
+    <div class="gsa-beginner-box gsa-pairs-box">
+      <h2 class="gsa-beginner-title">{RECOMMENDED_NOTE.title}</h2>
+      <p class="gsa-beginner-intro">{RECOMMENDED_NOTE.intro}</p>
+      <div class="gsa-pairs-grid">
+        {RECOMMENDED_NOTE.picks.map(pick => {
+          const c = gsaCharactersZh.find(x => x.slug === pick.slug);
+          return (
+            <div class="gsa-pairs-card">
+              <span class="gsa-pairs-name">{pick.name}</span>
+              <div class="gsa-pairs-members">
+                <a class="gsa-pairs-member" href={`/zh-tw/guides/gene-sys-adam/characters/${pick.slug}/`}>
+                  {c?.icon
+                    ? <img class="gsa-pairs-thumb" src={c.icon} alt={c.name} width="48" height="48" loading="lazy" />
+                    : <span class="gsa-pairs-thumb gsa-monogram">{c?.name?.[0]}</span>}
+                  <span class="gsa-pairs-member-name">{c?.name ?? pick.slug}</span>
+                </a>
+              </div>
+              <span class="gsa-pairs-note">{pick.note}</span>
+            </div>
+          );
+        })}
       </div>
     </div>
 
@@ -356,3 +393,4 @@ const total = tierTabs.reduce((n, t) => n + tabCount(t.rarity), 0);
     });
   })();
 </script>
+

@@ -476,6 +476,67 @@ export const GSA_PURSUIT_ROLES = {
     "riders": [],
     "synergy": []
   },
+  "elena": {
+    "role": "enabler",
+    "triggers": [],
+    "applies": [
+      {
+        "element": "Fire",
+        "status": "Burn",
+        "statusZh": "燃燒",
+        "grades": [
+          "M",
+          "L"
+        ],
+        "chance": "Medium",
+        "via": null,
+        "skills": [
+          "Talent",
+          "Ultimate"
+        ],
+        "skillsZh": [
+          "天賦",
+          "奧義技"
+        ]
+      }
+    ],
+    "riders": [],
+    "synergy": [
+      {
+        "en": "Bonus kit lines that only work against Burning targets",
+        "zh": "部分效果僅對燃燒狀態目標生效"
+      }
+    ]
+  },
+  "victoria": {
+    "role": "enabler",
+    "triggers": [],
+    "applies": [
+      {
+        "element": "Earth",
+        "status": "Petrify",
+        "statusZh": "石化",
+        "grades": [
+          "M"
+        ],
+        "chance": null,
+        "via": null,
+        "skills": [
+          "Talent"
+        ],
+        "skillsZh": [
+          "天賦"
+        ]
+      }
+    ],
+    "riders": [],
+    "synergy": [
+      {
+        "en": "Bonus kit lines that only work against Petrified or Block Down targets",
+        "zh": "部分效果僅對石化或格擋下降目標生效"
+      }
+    ]
+  },
   "awana": {
     "role": "enabler",
     "triggers": [],

@@ -93,6 +93,27 @@ const PAIRS_NOTE = {
     }
   ]
 };
+const RECOMMENDED_NOTE = {
+  "title": "추천 캐릭터",
+  "intro": "티어 표 너머의 편성 핵심: 팀을 굴리는 버퍼와 시동 캐릭터.",
+  "picks": [
+    {
+      "name": "치명타 피해 버퍼",
+      "slug": "victoria",
+      "note": "오토 스킬로 공격력 최상위 2명에게 치명타 피해 증가 40%를 부여. 아와나 어둠 파티와 궁합이 최고."
+    },
+    {
+      "name": "감전 부여",
+      "slug": "li-mu",
+      "note": "오토 스킬로 감전M을 유지하고 궁극기는 감전 명중을 올린다. 루비와 함께 과부하 추격을 이어간다."
+    },
+    {
+      "name": "EN 배터리",
+      "slug": "kurosawa-shion",
+      "note": "파티 EN 회복으로 스킬과 궁극기 회전을 높인다. 어느 팀에나 들어간다."
+    }
+  ]
+};
 // localized tier notes [shortTitle?, title, text]; EN fallback at render
 const NOTES = {
   "amelie": [
@@ -194,6 +215,16 @@ const NOTES = {
     null,
     "어둠 파티 필수.",
     "조사 스테이지에서 얻는 무료 SSR. 모든 스킬에 디버프가 붙고 칠흑을 부여하는 것은 그녀와 율리아 둘뿐이다: 모든 어둠 파티의 핵이자 가장 키우기 쉬운 SSR이다. 어둠 추격 체인은 아직 마무리 역할이 없지만 나오는 날 그녀는 이미 필드에 서 있다."
+  ],
+  "victoria": [
+    null,
+    "치명타 피해 딜의 주력.",
+    "오토 스킬로 공격력 최상위 2명에게 치명타 피해 증가 40%를 부여하며 아와나와의 조합이 최고: 치명타 버프는 어둠 코어를 살리고 석화는 우선 순위 대상을 묶는다. 전쟁 속 페스티벌 이벤트에서 직접 파밍할 수 있어 최대 육성에 필요한 것은 뽑기가 아니라 인내다."
+  ],
+  "elena": [
+    null,
+    "강력한 화염 범위 딜러.",
+    "각성 궁극기가 전 대상에게 18연타를 날리고 재능 스킬로 연소M을 유지한다. 맵 정리와 다수전에 강하며 후지와라 아리사와 함께 화염 파티를 짤 수 있다. 단일 보스전은 단일 특화 캐릭터가 우선이다."
   ]
 };
 const noteOf = slug => NOTES[slug] || null;
@@ -316,6 +347,30 @@ const total = tierTabs.reduce((n, t) => n + tabCount(t.rarity), 0);
             <span class="gsa-pairs-note">{pair.note}</span>
           </div>
         ))}
+      </div>
+    </div>
+
+    <div class="gsa-beginner-box gsa-pairs-box">
+      <h2 class="gsa-beginner-title">{RECOMMENDED_NOTE.title}</h2>
+      <p class="gsa-beginner-intro">{RECOMMENDED_NOTE.intro}</p>
+      <div class="gsa-pairs-grid">
+        {RECOMMENDED_NOTE.picks.map(pick => {
+          const c = bySlug[pick.slug];
+          return (
+            <div class="gsa-pairs-card">
+              <span class="gsa-pairs-name">{pick.name}</span>
+              <div class="gsa-pairs-members">
+                <a class="gsa-pairs-member" href={`${base}characters/${pick.slug}/`}>
+                  {c?.icon
+                    ? <img class="gsa-pairs-thumb" src={c.icon} alt={c.name} width="48" height="48" loading="lazy" />
+                    : <span class="gsa-pairs-thumb gsa-monogram">{c?.name?.[0]}</span>}
+                  <span class="gsa-pairs-member-name">{c?.name ?? pick.slug}</span>
+                </a>
+              </div>
+              <span class="gsa-pairs-note">{pick.note}</span>
+            </div>
+          );
+        })}
       </div>
     </div>
 

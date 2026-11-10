@@ -93,6 +93,27 @@ const PAIRS_NOTE = {
     }
   ]
 };
+const RECOMMENDED_NOTE = {
+  "title": "推荐角色",
+  "intro": "排名之外值得围绕其组队的核心：让整支队伍运转的增益与启动角色。",
+  "picks": [
+    {
+      "name": "暴击伤害辅助",
+      "slug": "victoria",
+      "note": "自动技能为攻击力最高的两名队友提供暴击伤害提升 40%，与沫沫的暗队搭配绝佳。"
+    },
+    {
+      "name": "感电赋予者",
+      "slug": "li-mu",
+      "note": "自动技能持续上感电M，奥义再提升感电命中率，与露比并肩接超载追击。"
+    },
+    {
+      "name": "全队电池",
+      "slug": "kurosawa-shion",
+      "note": "帮队伍回 EN，让技能与奥义转得更快，什么队伍都能放。"
+    }
+  ]
+};
 // localized tier notes [shortTitle?, title, text]; EN fallback at render
 const NOTES = {
   "amelie": [
@@ -194,6 +215,16 @@ const NOTES = {
     null,
     "暗队必练。",
     "调查关卡可获得的免费SSR，每个技能都带减益，并且是与尤莉亚并列唯二能施加漆黑的角色：她是所有暗队的核心，也是最容易练满的SSR。暗属性追击链尚无终结角色：等其上线那天，她已经站在场上了。"
+  ],
+  "victoria": [
+    null,
+    "暴击伤害队伍的核心。",
+    "自动技能为攻击力最高的两名队友提供暴击伤害提升 40%，与沫沫搭配绝佳：暴击增益喂养暗属性核心，石化则锁住重点目标。「战争与音乐」活动可直接农到她，练满需要的是耐心而非抽数。"
+  ],
+  "elena": [
+    null,
+    "强力火属性范围输出。",
+    "觉醒奥义对全体目标十八连击，天赋技能持续上燃烧M，清图与群战表现出色，与藤原亚璃纱组成火属性队伍。单体首领战仍以专精单体角色优先。"
   ]
 };
 const noteOf = slug => NOTES[slug] || null;
@@ -316,6 +347,30 @@ const total = tierTabs.reduce((n, t) => n + tabCount(t.rarity), 0);
             <span class="gsa-pairs-note">{pair.note}</span>
           </div>
         ))}
+      </div>
+    </div>
+
+    <div class="gsa-beginner-box gsa-pairs-box">
+      <h2 class="gsa-beginner-title">{RECOMMENDED_NOTE.title}</h2>
+      <p class="gsa-beginner-intro">{RECOMMENDED_NOTE.intro}</p>
+      <div class="gsa-pairs-grid">
+        {RECOMMENDED_NOTE.picks.map(pick => {
+          const c = bySlug[pick.slug];
+          return (
+            <div class="gsa-pairs-card">
+              <span class="gsa-pairs-name">{pick.name}</span>
+              <div class="gsa-pairs-members">
+                <a class="gsa-pairs-member" href={`${base}characters/${pick.slug}/`}>
+                  {c?.icon
+                    ? <img class="gsa-pairs-thumb" src={c.icon} alt={c.name} width="48" height="48" loading="lazy" />
+                    : <span class="gsa-pairs-thumb gsa-monogram">{c?.name?.[0]}</span>}
+                  <span class="gsa-pairs-member-name">{c?.name ?? pick.slug}</span>
+                </a>
+              </div>
+              <span class="gsa-pairs-note">{pick.note}</span>
+            </div>
+          );
+        })}
       </div>
     </div>
 

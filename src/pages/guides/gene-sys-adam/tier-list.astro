@@ -4,7 +4,7 @@
 // explains the status-to-pursuit chains the element view is built around.
 // Reasons live in tier-list.js, not on the page.
 import GSALayout from '../../../layouts/gene-sys-adam/LandingLayout.astro';
-import { GSA_TIER_VIEWS, gsaTierSsrCount, GSA_TIER_UPDATED, GSA_BEGINNER_NOTE, GSA_PAIRS_NOTE, GSA_PURSUIT_NOTE, GSA_TIER_PLACEMENTS, gsaRarityBadge, GSA_ELEMENT_SECTIONS, gsaFullDisplayName, GSA_TIER_NOTES } from '../../../data/gene-sys-adam/tier-list.js';
+import { GSA_TIER_VIEWS, gsaTierSsrCount, GSA_TIER_UPDATED, GSA_BEGINNER_NOTE, GSA_PAIRS_NOTE, GSA_RECOMMENDED_NOTE, GSA_PURSUIT_NOTE, GSA_TIER_PLACEMENTS, gsaRarityBadge, GSA_ELEMENT_SECTIONS, gsaFullDisplayName, GSA_TIER_NOTES } from '../../../data/gene-sys-adam/tier-list.js';
 import { gsaCharacters } from '../../../data/gene-sys-adam/characters.js';
 import { gsaPursuitRole } from '../../../data/gene-sys-adam/pursuit-roles.js';
 import GSAElementCard from '../../../components/gene-sys-adam/GSAElementCard.astro';
@@ -90,6 +90,30 @@ const TIER_ROLE_LABEL = {
             <span class="gsa-pairs-note">{pair.note}</span>
           </div>
         ))}
+      </div>
+    </div>
+
+    <div class="gsa-beginner-box gsa-pairs-box">
+      <h2 class="gsa-beginner-title">{GSA_RECOMMENDED_NOTE.title}</h2>
+      <p class="gsa-beginner-intro">{GSA_RECOMMENDED_NOTE.intro}</p>
+      <div class="gsa-pairs-grid">
+        {GSA_RECOMMENDED_NOTE.picks.map(pick => {
+          const c = gsaCharacters.find(x => x.slug === pick.slug);
+          return (
+            <div class="gsa-pairs-card">
+              <span class="gsa-pairs-name">{pick.name}</span>
+              <div class="gsa-pairs-members">
+                <a class="gsa-pairs-member" href={`/guides/gene-sys-adam/characters/${pick.slug}/`}>
+                  {c?.icon
+                    ? <img class="gsa-pairs-thumb" src={c.icon} alt={c.name} width="48" height="48" loading="lazy" />
+                    : <span class="gsa-pairs-thumb gsa-monogram">{c?.name?.[0]}</span>}
+                  <span class="gsa-pairs-member-name">{c?.name ?? pick.slug}</span>
+                </a>
+              </div>
+              <span class="gsa-pairs-note">{pick.note}</span>
+            </div>
+          );
+        })}
       </div>
     </div>
 

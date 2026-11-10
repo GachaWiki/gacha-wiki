@@ -1,4 +1,4 @@
-// Gene-Sys: Adam character roster (38 profiled characters).
+// Gene-Sys: Adam character roster (40 profiled characters).
 // Source: live game data from BlueStacks (com.neversoft.cr.erolabs), Patch/_settings
 // DES-CBC tables decrypted to pipe-text in D:/GeneSysAdam/output/tables_json.
 // Skill descs resolved from SkillTemplateTextData + EN localization + SkillEffectData
@@ -6502,6 +6502,384 @@ export const gsaCharacters = [
       "personality": "Composed, steadfast, driven by a strong sense of justice, well-educated.",
       "resumeParas": [
         "An executive of the Gekka Group, ranking just below Aida Ryuunosuke. The daughter of a renowned samurai family, she was raised with excellent manners and carries herself with grace and dignity. A noble female samurai who combines a righteous nature with cool composure and commanding authority. She prioritizes mental discipline, swordsmanship, and etiquette above all else, diligently practicing kendou, tea ceremony, and flower arrangement without neglect. She believes that the strong have a duty to shoulder responsibility and refuses to show them any leniency. However, having been sheltered and raised in an environment dominated almost entirely by men, she can be surprisingly oblivious to certain social norms. She does not particularly mind nudity and is almost oblivious to men on the battlefield or in ordinary situations. However, when encountering men in an overtly erotic atmosphere, she becomes hyper-aware, growing intensely flustered and excited."
+      ]
+    },
+    "stats": {
+      "atkRange": "180",
+      "normalAttackGCD": "10000",
+      "critPer": "1000",
+      "critRstPer": "0",
+      "critAmpPer": "5000",
+      "critDmgRdcPer": "0",
+      "hitPer": "8500",
+      "ddgPer": "0",
+      "blkPer": "2500",
+      "blkPenPer": "1500",
+      "blkRdcPer": "2000",
+      "healCritPer": "1000",
+      "healCritAmpPer": "5000",
+      "atkHastePer": "0",
+      "cdHastePer": "0",
+      "manaAmpPer": "0",
+      "hpRcvPer": "1000"
+    }
+  },
+  {
+    "id": "133007000",
+    "tierStats": [
+      {"tier": 1, "hp": 3928, "atk": 252},
+      {"tier": 2, "hp": 5875, "atk": 375},
+      {"tier": 3, "hp": 11788, "atk": 756},
+      {"tier": 4, "hp": 17663, "atk": 1131},
+      {"tier": 5, "hp": 23578, "atk": 1512},
+      {"tier": 6, "hp": 31438, "atk": 2016},
+      {"tier": 7, "hp": 39299, "atk": 2520},
+      {"tier": 8, "hp": 47158, "atk": 3024},
+      {"tier": 9, "hp": 56589, "atk": 3627},
+      {"tier": 10, "hp": 67930, "atk": 4356}
+    ],
+    "growth": {"rate": 2, "hp": [53.38, 106.76, 266.91, 427.05, 587.2, 747.34], "atk": [2.4, 4.8, 12, 19.2, 26.4, 33.6]},
+    "affection": [{"label": "Evasion %", "value": 50}, {"label": "Evasion %", "value": 50}, {"label": "Evasion %", "value": 50}, {"label": "Evasion %", "value": 50}, {"label": "Evasion %", "value": 100}, {"label": "Evasion %", "value": 100}, {"label": "Evasion %", "value": 100}, {"label": "Evasion %", "value": 100}, {"label": "Evasion %", "value": 100}, {"label": "Evasion %", "value": 100}],
+    "gear": [{"slot": "Gloves", "name": "Tattoo Stickers EX", "stats": [{"label": "ATK", "base": 88, "pct": false}, {"label": "Fire ATK", "base": 1200, "pct": true}, {"label": "ACC", "base": 42, "pct": false}, {"label": "Judgment Hit Rate", "base": 1500, "pct": true}]}, {"slot": "Weapon", "name": "Father's Old Pistol EX", "stats": [{"label": "ATK", "base": 88, "pct": false}, {"label": "Fire ATK", "base": 1200, "pct": true}, {"label": "Crit", "base": 50, "pct": false}, {"label": "Block PEN", "base": 50, "pct": false}]}, {"slot": "Shoes", "name": "Premium Custom Women's Shoes EX", "stats": [{"label": "ATK", "base": 88, "pct": false}, {"label": "Fire ATK", "base": 1200, "pct": true}, {"label": "ATK Speed", "base": 50, "pct": false}, {"label": "Crit Evasion", "base": 50, "pct": false}]}, {"slot": "Accessory", "name": "Elena's Chosen Perfume", "stats": [{"label": "ATK", "base": 77, "pct": false}]}],
+    "model": "cr070",
+    "slug": "elena",
+    "name": "Elena",
+    "nameZh": "伊蓮娜",
+    "title": "Rebellious Red Thorn",
+    "epithet": "Alluring Beauty, Rose Onslaught",
+    "sex": "Female",
+    "inGacha": true,
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/cr070_Icon_Texture.webp",
+    "sortOrder": 70,
+    "rarity": "SSR",
+    "element": {
+      "id": 1,
+      "name": "Fire",
+      "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/battleelement_1.webp"
+    },
+    "job": {
+      "id": 5,
+      "name": "Breaker",
+      "color": "#9433EA",
+      "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/master_1.webp"
+    },
+    "attackType": {
+      "id": 2,
+      "name": "Energy",
+      "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Attributes_01.webp"
+    },
+    "skills": [
+      {
+        "id": "150007000",
+        "name": "Agitated Notes",
+        "slot": "Basic Attack",
+        "unlockStar": 0,
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr070_1.webp",
+        "type": "Instant",
+        "mainStat": "ATK",
+        "gcd": "10s",
+        "desc": "Deal two hits of 50% Energy DMG to a target.",
+        "detail": null,
+        "cooldown": null,
+        "cost": null,
+        "statuses": []
+      },
+      {
+        "id": "150007010",
+        "name": "Total Detonation",
+        "slot": "Talent",
+        "unlockStar": 0,
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr070_2.webp",
+        "type": "Instant",
+        "mainStat": "ATK",
+        "gcd": null,
+        "desc": "Deal five hits of 40% Energy DMG to up to 3 targets within the forward area.\nOn final hit, Medium chance to inflict Burn M (6s).",
+        "detail": null,
+        "cooldown": "10s",
+        "cost": 1,
+        "statuses": [
+          "Burn"
+        ],
+        "awakened": {
+          "desc": "Deal five hits of 56% Energy DMG to up to 3 targets within the forward area.\nOn final hit, High chance to inflict Burn M (6s).",
+          "detail": null
+        }
+      },
+      {
+        "id": "150007020",
+        "name": "Opening Act",
+        "slot": "Auto",
+        "unlockStar": 1,
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr070_3.webp",
+        "type": "Instant",
+        "mainStat": null,
+        "gcd": null,
+        "desc": "Grant self Crit Evasion Up 20% (12s).\nGrant self Skill Damage Up 12% (12s).\nGrant self ATK SPD Up 22% (12s).",
+        "detail": null,
+        "cooldown": "6s",
+        "cost": null,
+        "statuses": [
+          "Crit Evasion Up",
+          "Skill Damage Up",
+          "ATK SPD Up"
+        ],
+        "awakened": {
+          "desc": "Grant self Crit Evasion Up 24% (12s).\nGrant self Skill Damage Up 15% (12s).\nGrant self ATK SPD Up 40% (12s).",
+          "detail": null
+        }
+      },
+      {
+        "id": "150007030",
+        "name": "I'm Telling My Mom!",
+        "slot": "Passive 1",
+        "unlockStar": 4,
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr070_5.webp",
+        "type": "Passive",
+        "mainStat": null,
+        "gcd": null,
+        "desc": "On hit, if the target is Burning, grant self 0% (0s).\nThis effect can only trigger once every 6 seconds.",
+        "detail": "With her mother backing her up, no matter what Elena does, she knows she'll be forgiven~",
+        "cooldown": null,
+        "cost": null,
+        "statuses": [],
+        "awakened": {
+          "desc": "On hit, if the target is Burning, grant self 0% (0s).\nThis effect can only trigger once every 6 seconds.\nGrant all party members Crit DMG Up 15%.",
+          "detail": null
+        }
+      },
+      {
+        "id": "150007050",
+        "name": "Supreme Revelry",
+        "slot": "Passive 2",
+        "unlockStar": 6,
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr070_6.webp",
+        "type": "Passive",
+        "mainStat": null,
+        "gcd": null,
+        "desc": "Grant self Energy DMG Up 10%.",
+        "detail": "Every gunshot sets the beat of the party! With each attack, Elena gets more fired up and gradually enters a frenzy in battle.",
+        "cooldown": null,
+        "cost": null,
+        "statuses": [],
+        "awakened": {
+          "desc": "Grant all party members Energy DMG Up 10%.\nIn PVP mode, grant self Attack Up 8%.",
+          "detail": null
+        }
+      },
+      {
+        "id": "150007041",
+        "name": "Scarlet Thorn Frenzy",
+        "slot": "Ultimate",
+        "unlockStar": 2,
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr070_4.webp",
+        "type": "Instant",
+        "mainStat": "ATK",
+        "gcd": null,
+        "desc": "Enter the Awakening state, granting self Energy DMG Up 15% (24s).\nDeal eighteen hits of 14% Energy DMG to all targets.\nOn final hit, High chance to inflict Burn L (6s).\nOn final hit, inflict Skill Damage Down 12% (8s) on the target.",
+        "detail": null,
+        "cooldown": "24s",
+        "cost": 3,
+        "statuses": []
+      }
+    ],
+    "profile": {
+      "title": "Rebellious Red Thorn",
+      "birthday": "12 / 12",
+      "age": "20",
+      "height": "165",
+      "weight": "48",
+      "interest": "Attending music festivals, partying, attending the opera",
+      "personality": "Outgoing, lively, cocky, passionate, and rebellious.",
+      "resumeParas": [
+        "She grew up within the Rosian Brotherhood. Because of her parents' status and influence, no one dared to take advantage of her. Instead, people would go out of their way to curry favor with her in hopes of earning a promotion. She takes full advantage of this, ordering members of the organization around as long as it doesn't tarnish her mother's reputation. Because she grew up in an environment rife with deceit and treachery, her intuition about people is remarkably accurate. She also doesn't mind being used by others, as she seeks to extract benefits from them in return. Her mother intends for her to inherit her current position and has specifically arranged private tutors for her education. However, she frequently skips classes, causing constant worry for both her teachers and her mother. She shares her mother's love for opera but, out of sheer rebellion, pretends to hate it. Instead, she frequently attends music festivals that her mother deems unsophisticated."
+      ]
+    },
+    "stats": {
+      "atkRange": "480",
+      "normalAttackGCD": "10000",
+      "critPer": "1000",
+      "critRstPer": "0",
+      "critAmpPer": "5000",
+      "critDmgRdcPer": "0",
+      "hitPer": "8000",
+      "ddgPer": "0",
+      "blkPer": "2500",
+      "blkPenPer": "0",
+      "blkRdcPer": "2000",
+      "healCritPer": "1000",
+      "healCritAmpPer": "5000",
+      "atkHastePer": "0",
+      "cdHastePer": "2500",
+      "manaAmpPer": "0",
+      "hpRcvPer": "1000"
+    }
+  },
+  {
+    "id": "133007100",
+    "tierStats": [
+      {"tier": 1, "hp": 5613, "atk": 315},
+      {"tier": 2, "hp": 8393, "atk": 471},
+      {"tier": 3, "hp": 16841, "atk": 945},
+      {"tier": 4, "hp": 25236, "atk": 1416},
+      {"tier": 5, "hp": 33684, "atk": 1890},
+      {"tier": 6, "hp": 44912, "atk": 2520},
+      {"tier": 7, "hp": 56142, "atk": 3150},
+      {"tier": 8, "hp": 67370, "atk": 3780},
+      {"tier": 9, "hp": 80844, "atk": 4536},
+      {"tier": 10, "hp": 97044, "atk": 5445}
+    ],
+    "growth": {"rate": 1.5, "hp": [76.26, 152.52, 381.3, 610.08, 838.86, 1067.64], "atk": [3, 6, 15, 24, 33, 42]},
+    "affection": [{"label": "Earth ATK %", "value": 50}, {"label": "Earth ATK %", "value": 50}, {"label": "Earth ATK %", "value": 50}, {"label": "Earth ATK %", "value": 50}, {"label": "Earth ATK %", "value": 50}, {"label": "Earth ATK %", "value": 50}, {"label": "Earth ATK %", "value": 100}, {"label": "Earth ATK %", "value": 100}, {"label": "Earth ATK %", "value": 100}, {"label": "Earth ATK %", "value": 200}],
+    "gear": [{"slot": "Gloves", "name": "Black Nail Polish EX", "stats": [{"label": "ATK", "base": 100, "pct": false}, {"label": "Earth ATK", "base": 1200, "pct": true}, {"label": "ACC", "base": 42, "pct": false}, {"label": "Judgment Hit Rate", "base": 1500, "pct": true}]}, {"slot": "Weapon", "name": "Bloodbound Oath EX", "stats": [{"label": "ATK", "base": 100, "pct": false}, {"label": "Earth ATK", "base": 1200, "pct": true}, {"label": "Crit", "base": 50, "pct": false}, {"label": "Block PEN", "base": 50, "pct": false}]}, {"slot": "Shoes", "name": "Designer Custom Heels EX", "stats": [{"label": "ATK", "base": 100, "pct": false}, {"label": "Earth ATK", "base": 1200, "pct": true}, {"label": "ATK Speed", "base": 50, "pct": false}, {"label": "Crit Evasion", "base": 50, "pct": false}]}, {"slot": "Accessory", "name": "Black Hair Dye", "stats": [{"label": "ATK", "base": 77, "pct": false}]}],
+    "model": "cr071",
+    "slug": "victoria",
+    "name": "Victoria",
+    "nameZh": "維多莉亞",
+    "title": "Machiavellian Witch",
+    "epithet": "Nightmare Mirage, Stonebound Seal",
+    "sex": "Female",
+    "inGacha": true,
+    "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/cr071_Icon_Texture.webp",
+    "sortOrder": 71,
+    "rarity": "SSR",
+    "element": {
+      "id": 2,
+      "name": "Earth",
+      "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/battleelement_2.webp"
+    },
+    "job": {
+      "id": 2,
+      "name": "Striker",
+      "color": "#EA3333",
+      "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/fighters_2.webp"
+    },
+    "attackType": {
+      "id": 2,
+      "name": "Energy",
+      "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Attributes_01.webp"
+    },
+    "skills": [
+      {
+        "id": "150007100",
+        "name": "Elegant Assassination",
+        "slot": "Basic Attack",
+        "unlockStar": 0,
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr071_1.webp",
+        "type": "Instant",
+        "mainStat": "ATK",
+        "gcd": "10s",
+        "desc": "Deal two hits of 41.5% Energy DMG to a target.",
+        "detail": null,
+        "cooldown": null,
+        "cost": null,
+        "statuses": []
+      },
+      {
+        "id": "150007110",
+        "name": "Witch's Elegy",
+        "slot": "Talent",
+        "unlockStar": 0,
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr071_2.webp",
+        "type": "Instant",
+        "mainStat": "ATK",
+        "gcd": null,
+        "desc": "Deal 300% Energy DMG to a target.\nOn hit, inflict Petrify M (4s).",
+        "detail": null,
+        "cooldown": "10s",
+        "cost": 1,
+        "statuses": [
+          "Petrify"
+        ],
+        "awakened": {
+          "desc": "Deal 420% Energy DMG to a target.\nOn hit, inflict Petrify M (4s).\nOn hit, inflict Block Down 15% (8s) on the target.",
+          "detail": null
+        }
+      },
+      {
+        "id": "150007120",
+        "name": "Witch's Blessing",
+        "slot": "Auto",
+        "unlockStar": 1,
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr071_3.webp",
+        "type": "Instant",
+        "mainStat": null,
+        "gcd": null,
+        "desc": "Grant 2 highest ATK party members Crit DMG Up 40% (8s).",
+        "detail": null,
+        "cooldown": "6s",
+        "cost": null,
+        "statuses": [
+          "Crit DMG Up"
+        ],
+        "awakened": {
+          "desc": "Grant 2 highest ATK party members Crit DMG Up 45% (10s).",
+          "detail": null
+        }
+      },
+      {
+        "id": "150007130",
+        "name": "Witch's Curse",
+        "slot": "Passive 1",
+        "unlockStar": 4,
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr071_5.webp",
+        "type": "Passive",
+        "mainStat": null,
+        "gcd": null,
+        "desc": "When basic attack hits a Petrified or Block Down target, inflict Healing Received Down 22% (6s).\nThis effect can only trigger once every 6 seconds.",
+        "detail": "A rumor circulates within the Rosian Brotherhood, anyone who sees the witch's true identity will die a violent death.",
+        "cooldown": null,
+        "cost": null,
+        "statuses": [],
+        "awakened": {
+          "desc": "When basic attack hits a Petrified or Block Down target, inflict Healing Received Down 22% (6s).\nThis effect can only trigger once every 6 seconds.\nGrant all party members Crit Evasion Up 6.5%.",
+          "detail": null
+        }
+      },
+      {
+        "id": "150007150",
+        "name": "Might is Supreme",
+        "slot": "Passive 2",
+        "unlockStar": 6,
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr071_6.webp",
+        "type": "Passive",
+        "mainStat": null,
+        "gcd": null,
+        "desc": "Grant self Earth ATK Up 8.5%.",
+        "detail": "In Rosian, power and strength are everything.",
+        "cooldown": null,
+        "cost": null,
+        "statuses": [],
+        "awakened": {
+          "desc": "Grant all party members Earth ATK Up 8.5%.\nIn PVP mode, grant self Block Up 9%.",
+          "detail": null
+        }
+      },
+      {
+        "id": "150007141",
+        "name": "Phantom Assault",
+        "slot": "Ultimate",
+        "unlockStar": 2,
+        "icon": "https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam/Icon_cr071_4.webp",
+        "type": "Instant",
+        "mainStat": "ATK",
+        "gcd": null,
+        "desc": "Enter the Awakening state, granting self EN Gain Up 45% (24s).\nDeal eight hits of 53% Energy DMG to up to 3 targets within the forward area.\nOn final hit, inflict Crit Evasion Down 15% (12s) on the target.",
+        "detail": null,
+        "cooldown": "24s",
+        "cost": 3,
+        "statuses": []
+      }
+    ],
+    "profile": {
+      "title": "Machiavellian Witch",
+      "birthday": "11 / 11",
+      "age": "37",
+      "height": "168",
+      "weight": "64",
+      "interest": "Wine tasting, visiting art galleries, attending the opera",
+      "personality": "Calm, distant.",
+      "resumeParas": [
+        "At 18, she married a former executive of the Rosian Brotherhood and gave birth to Elena; shortly after, her husband perished in a power struggle. For her daughter's future, she decided to succeed her late husband's position within the organization. With Nikola's aid, she successfully inherited her late husband's authority and status, ultimately rising even higher than he ever did. Her brutal methods earned her the nickname \"The Witch\" among Brotherhood members."
       ]
     },
     "stats": {

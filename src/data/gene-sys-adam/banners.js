@@ -14,7 +14,7 @@ const bySlug = Object.fromEntries(gsaCharacters.map(c => [c.slug, c]));
 
 const R2 = 'https://k2b1c5ab57ed98e51.gachawiki.info/gene-sys-adam';
 
-export const GSA_BANNERS_UPDATED = 'November 9, 2026';
+export const GSA_BANNERS_UPDATED = 'November 10, 2026';
 
 // status: live (running now) | ended (observed running, since superseded) |
 // beta (ran in the Sep 17 beta window) | scheduled (machines configured in
@@ -95,14 +95,14 @@ export const GSA_BANNERS = [
     name: 'War & Music',
     nameZh: '戰爭與音樂',
     kind: 'Dual Rate-Up',
-    status: 'scheduled',
-    since: 'Configured in the client tables, not yet observed live',
+    status: 'live',
+    since: 'Live in the November 10, 2026 wave',
     featured: ['elena', 'victoria'],
     pity: 120,
     eventToken: 'Phantom Emblem',
     training: ['Elena', 'Victoria'],
     image: null,
-    note: 'Dual limited banner for Elena and Victoria (art panels Draw_Bg_34_1 and _34_2) with the Collect Phantom Emblems event. The October 27 wave preloaded the banner text and shipped Elena\'s portrait to the client, and the November 8 wave swapped the event\'s home-screen entrance art to a second variant, so the wave is visibly next in line; both featured kits were reworked in the October tables while waiting in the wings.',
+    note: 'Dual limited banner for Elena and Victoria (art panels Draw_Bg_34_1 and _34_2) with the Collect Phantom Emblems event, live from the November 10 wave: the client pulled both panel halves, the banner text and the group icon that day, and both featured kits entered the roster the same day. The panel art stays off the wiki, so the card uses the featured strip. Elena is the banner\'s Fire Breaker AoE (Burn M synergy on her Talent Skill, an eighteen-hit Awakening ultimate), Victoria the Earth Striker nuke (four-second Petrify on her Talent Skill, party Crit DMG Up 40% for the two highest ATK allies); the event\'s reward track also lists a farmable Victoria, the same pattern as Arisa and Awana before her. A 120-pull featured guarantee on the limited lane; the Heaven\'s Door Jessica and Milena solo banners were still configured alongside it.',
   },
   {
     slug: 'lingering-echoes',

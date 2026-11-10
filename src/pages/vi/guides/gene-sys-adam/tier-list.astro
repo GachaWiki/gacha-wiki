@@ -93,6 +93,27 @@ const PAIRS_NOTE = {
     }
   ]
 };
+const RECOMMENDED_NOTE = {
+  "title": "Nhân vật đề xuất",
+  "intro": "Những hạt nhân dựng đội ngoài bảng xếp hạng: các buffer và unit khởi động khiến cả đội vận hành.",
+  "picks": [
+    {
+      "name": "Buffer sát thương chí mạng",
+      "slug": "victoria",
+      "note": "Kỹ năng tự động tăng sát thương chí mạng 40% cho hai đồng đội ATK cao nhất, hợp cực tốt với đội Hệ Tối của Awana."
+    },
+    {
+      "name": "Unit gây Điện Giật",
+      "slug": "li-mu",
+      "note": "Kỹ năng tự động giữ Điện Giật M liên tục, ultimate tăng tỉ lệ hit Điện Giật, tiếp chuỗi truy kích Overload cạnh Ruby."
+    },
+    {
+      "name": "Cục pin EN",
+      "slug": "kurosawa-shion",
+      "note": "Hồi EN cho cả đội để kỹ năng và ultimate xoay nhanh hơn, hợp mọi đội hình."
+    }
+  ]
+};
 // localized tier notes [shortTitle?, title, text]; EN fallback at render
 const NOTES = {
   "amelie": [
@@ -194,6 +215,16 @@ const NOTES = {
     null,
     "Bắt buộc có cho đội Hệ Tối.",
     "SSR miễn phí từ Ải Điều Tra, mỗi kỹ năng đều kèm hiệu ứng bất lợi, và chỉ cô cùng Yulia áp dụng được Bóng Đêm: cô là nhân vật cốt lõi của mọi đội hình Hệ Tối và là SSR dễ max nhất. Chuỗi truy kích Hệ Tối chưa có người kết thúc, ngày nó xuất hiện cô đã sẵn sàng trên sân."
+  ],
+  "victoria": [
+    null,
+    "Nhân vật chủ chốt cho build sát thương chí mạng.",
+    "Kỹ năng tự động tăng sát thương chí mạng 40% cho hai đồng đội ATK cao nhất, và ghép cặp cực tốt với Awana: buff chí mạng nuôi cốt đội Hệ Tối, còn Hoá Đá khoá mục tiêu ưu tiên. Có thể farm trực tiếp từ sự kiện Giao Hưởng Loạn Lạc, nuôi max cần sự kiên nhẫn chứ không cần lượt quay."
+  ],
+  "elena": [
+    null,
+    "Đơn vị đánh diện rộng hệ Hỏa mạnh.",
+    "Ultimate ở trạng thái Giác Tỉnh đánh 18 hit vào mọi mục tiêu, kỹ năng thiên phú giữ Thiêu Đốt M liên tục: dọn map và đánh nhiều mục tiêu rất tốt, ghép với Fujiwara Arisa thành đội hệ Hỏa. Boss đơn mục tiêu vẫn ưu tiên các unit chuyên đánh đơn."
   ]
 };
 const noteOf = slug => NOTES[slug] || null;
@@ -316,6 +347,30 @@ const total = tierTabs.reduce((n, t) => n + tabCount(t.rarity), 0);
             <span class="gsa-pairs-note">{pair.note}</span>
           </div>
         ))}
+      </div>
+    </div>
+
+    <div class="gsa-beginner-box gsa-pairs-box">
+      <h2 class="gsa-beginner-title">{RECOMMENDED_NOTE.title}</h2>
+      <p class="gsa-beginner-intro">{RECOMMENDED_NOTE.intro}</p>
+      <div class="gsa-pairs-grid">
+        {RECOMMENDED_NOTE.picks.map(pick => {
+          const c = bySlug[pick.slug];
+          return (
+            <div class="gsa-pairs-card">
+              <span class="gsa-pairs-name">{pick.name}</span>
+              <div class="gsa-pairs-members">
+                <a class="gsa-pairs-member" href={`${base}characters/${pick.slug}/`}>
+                  {c?.icon
+                    ? <img class="gsa-pairs-thumb" src={c.icon} alt={c.name} width="48" height="48" loading="lazy" />
+                    : <span class="gsa-pairs-thumb gsa-monogram">{c?.name?.[0]}</span>}
+                  <span class="gsa-pairs-member-name">{c?.name ?? pick.slug}</span>
+                </a>
+              </div>
+              <span class="gsa-pairs-note">{pick.note}</span>
+            </div>
+          );
+        })}
       </div>
     </div>
 

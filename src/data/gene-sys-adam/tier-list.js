@@ -161,10 +161,20 @@ export const GSA_TIER_NOTES = {
     title: 'F2P friendly single target damage dealer, but takes time to fully max out.',
     text: 'You can get her from the event page which is always available. Her ultimate is very strong single target damage, though it takes time to fully max her out.',
   },
+  'elena': {
+    type: 'info',
+    title: 'Strong Fire cleave.',
+    text: 'Her Awakening ultimate hits every target eighteen times and her talent keeps Burn M up, so she clears map waves and pairs with Arisa for Fire teams. Single-target bosses still prefer the specialists.',
+  },
+  'victoria': {
+    type: 'info',
+    title: 'Main pick for crit damage builds.',
+    text: 'Her auto skill grants Crit DMG Up 40% to the two highest ATK allies, and she pairs with Awana: the crit buff feeds the Dark core while her Petrify locks priority targets. Farmable from the War and Music event, so maxing her costs patience, not pulls.',
+  },
   'jessica': {
     type: 'info',
     title: 'The best support.',
-    text: 'Party-wide shields on a short cooldown, continuous healing and a cleansing Ultimate: she fits every team. Currently the only SSS.',
+    text: 'Party-wide shields on a short cooldown, continuous healing and a cleansing Ultimate: she fits every team.',
   },
   'belle-clumsy-cowgirl': {
     type: 'warning',
@@ -246,7 +256,33 @@ export const GSA_PAIRS_NOTE = {
   ],
 };
 
-export const GSA_TIER_UPDATED = 'November 9, 2026';
+// Recommended characters (user-curated, added 2026-11-10): build-around
+// picks beyond the tier rows, rendered as its own box under the Recommended
+// pairs section. name = the role the pick fills; note = why, user voice.
+// No apostrophes (single-quoted strings), no em dashes.
+export const GSA_RECOMMENDED_NOTE = {
+  title: 'Recommended characters',
+  intro: 'Build-around picks beyond the tier rows: the buffers and enablers that make every team work.',
+  picks: [
+    {
+      name: 'Crit damage buffer',
+      slug: 'victoria',
+      note: 'Crit DMG Up 40% for the two highest ATK allies on her auto skill. Pairs with Awana in Dark teams.',
+    },
+    {
+      name: 'Electrocute applier',
+      slug: 'li-mu',
+      note: 'Her auto skill keeps Electrocute M up and her Ultimate raises Electrocute hit rate, feeding Overload pursuits next to Ruby.',
+    },
+    {
+      name: 'EN battery',
+      slug: 'kurosawa-shion',
+      note: 'Party EN recovery so skills and Ultimates cycle faster. Fits every team.',
+    },
+  ],
+};
+
+export const GSA_TIER_UPDATED = 'November 10, 2026';
 
 // Early-game callout rendered above the views. The tiers rate end-state
 // power; this box explains why low placements still carry your account early.
@@ -316,6 +352,8 @@ export const GSA_TIER_PLACEMENTS = {
   'jessica': { tier: 'SSS', rarity: 'SSR', reason: 'Best defensive support: a 795% Shield to all party members on an 8s cooldown, continuous healing on her Auto Skill and passives, and an Ultimate that Cleanses debuffs from all party members and applies a 1285% Shield.' },
   'belle-clumsy-cowgirl': { tier: 'S', rarity: 'SSR', reason: 'The self-sufficient Shatter Initiator: she applies her own Petrify before her five-hit all-targets Ultimate, so she triggers Stone Shatter pursuits without any feeder, on top of spread damage and small party heals. Weaknesses are real (spread damage splits, no party buffs), but she is the only unit who runs the Earth chain entirely alone.' },
   'awana': { tier: 'SSS', rarity: 'SSR', reason: 'The easiest SSR in the game to max and a must-have for Dark teams: perfect-clear stage 6 of her Investigation stage recruits her, so duplicates come with patience instead of pulls. A debuff-stacking Dark Sniper: her awakened kit chips enemies from every angle (Energy DMG Down 15%, Light ATK Down 12%, ACC Down 10%, Crit Chance Down 20%) while self-buffs (Crit Chance Up 30%, Dark ATK Up 20%) feed a 558% single-target Ultimate, and after awakening the whole party gains Light Res Up 7.5%. One of only two Ebon appliers alongside Yulia, she is the core every Dark roster is built around, and the day a Dark pursuit Finisher ships she is already on the field. Random targeting is the only tax: she cannot focus priority targets.' },
+  'elena': { tier: 'SS', rarity: 'SSR', reason: 'Fire cleave pick (user verdict): an eighteen-hit all-targets Awakening ultimate with Burn M kept up by her talent clears map waves and pairs with Arisa on burn teams; single-target boss fights still favor the specialists.' },
+  'victoria': { tier: 'SSS', rarity: 'SSR', reason: 'The main pick for crit damage builds (user verdict): her Auto Skill grants Crit DMG Up 40% to the two highest ATK party members, she pairs with Awana as the Dark core amplifier, and her Talent Skill lands a four-second Petrify on a 10s cooldown, the hardest single control effect in the game. The War and Music event reward track farms her directly, so a second copy needs patience instead of pulls.' },
 };
 
 // Element-view placements: the By Element view rates units inside their
@@ -348,10 +386,11 @@ const placementOf = slug =>
 // preloads future kits and draw-table buckets into the client before the
 // server enables them, and a unit's art bundle only downloads once it is
 // actually encounterable in game, so "has art" = "released". Artless units stay
-// off the list. Since 2026-10-15 the five artless entries of that pull
-// (qing-yin, leng-zhen, elena, victoria, connie) are removed from the
-// published roster entirely per user confirmation that artless = unreleased;
-// re-add them from roster.json the day their art ships.
+// off the list. Since 2026-10-15 the artless entries of that pull
+// (qing-yin, leng-zhen, elena, victoria, connie) were removed from the
+// published roster per user confirmation that artless = unreleased; elena
+// and victoria shipped with the War and Music wave on 2026-11-10 and are
+// back. qing-yin, leng-zhen and connie stay gated until their art lands.
 const isReleased = c => Boolean(c.icon);
 const isSSR = c => (placementOf(c.slug).rarity || 'SSR') === 'SSR';
 

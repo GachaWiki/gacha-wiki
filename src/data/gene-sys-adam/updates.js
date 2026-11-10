@@ -6,6 +6,23 @@
 // approximate; content lists are exact.
 export const GSA_UPDATES = [
   {
+    slug: '2026-11-10-war-and-music',
+    date: 'November 10, 2026',
+    title: 'War & Music goes live: new SSRs Elena and Victoria',
+    tag: 'Datamine',
+    summary: 'The November 10 wave activated the War & Music dual limited banner for the new SSRs Elena and Victoria with the Collect Phantom Emblems event, the smallest possible wave: not a single game table or localization string changed, every byte of content had already shipped in earlier preload.',
+    points: [
+      'The War & Music dual limited banner went live: the client pulled both banner art panels (Draw_Bg_34_1 and Draw_Bg_34_2), the banner title art and the group icon on November 10, confirming the machine active. A 120-pull featured guarantee on the limited lane, an ECoin variant with a guaranteed SSR, and the Collect Phantom Emblems event run alongside. The panel art stays off the wiki, so the banner card uses the featured strip.',
+      'Two new playable SSRs, both now profiled on the wiki roster in every language with full kits, signature gear and affection tracks: Elena (Rebellious Red Thorn), a Fire Breaker energy attacker whose talent applies Burn M and whose Awakening-state ultimate lands eighteen hits on all targets, and Victoria (Machiavellian Witch), an Earth Striker single-target nuke with a four-second Petrify on her talent, a party Crit DMG Up 40% auto skill for the two highest ATK allies, and an anti-heal passive against Petrified or Block Down targets. Both had been reworked twice in the October tables while waiting in the wings.',
+      'The event reward track lists a farmable Victoria, the same pattern as Arisa and Awana before her: the event recruit grants her directly, so pulls are not the only route.',
+      'Signature gear shipped for both new units and entered the Armament page: Elena (Tattoo Stickers EX, Father\'s Old Pistol EX, Premium Custom Women\'s Shoes EX, Elena\'s Chosen Perfume) and Victoria (Black Nail Polish EX, Bloodbound Oath EX, Designer Custom Heels EX, Black Hair Dye). Awana\'s gear art also finished downloading with this wave, completing her Armament section.',
+      'Zero table and localization changes: every one of the 263 decrypted tables and the 28,288 English localization lines is byte-identical to the November 9 state. The wave is a pure server-side activation, plus story-event media downloads: the event\'s story scenes, a new story CG, enemy art and the R18 scene media (which stays off the wiki), Awana SNS episode 3, and her team and touch voice lines.',
+      'Banner states: the Heaven\'s Door Jessica limited banner and the Milena solo rate-up remain configured in the home banner tables alongside the new banner. Still scheduled behind this wave: the Lingering Echoes dual banner (Qing Yin and Leng Zhen with the Gagaku Emblem event), the 1.5M Downloads celebration summon, the Li Mu solo machine and the Heaven\'s Door Connie phase.',
+      'New story cast art: the event story downloads art for Nikola (cr099), a named role with a battle model but no playable kit, gacha pool or profile; she stays off the roster.',
+    ],
+    source: 'Decrypted table diff, Patch pulls of November 9 and November 10, 2026 (update wave of November 10).',
+  },
+  {
     slug: '2026-11-08-origin-of-chaos',
     date: 'November 8, 2026',
     title: 'Origin of Chaos story event goes live',
