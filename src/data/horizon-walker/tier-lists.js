@@ -335,7 +335,6 @@ const DOPAMIN_CHARACTERS = {
 // Split into two sections: the core must-haves and the rest
 const PRIORITIES_CORE_CHARACTERS = [
   'Olivia',
-  'Vlissing',
   'Juha',
   'Juza',
   'Nymset',
@@ -346,8 +345,10 @@ const PRIORITIES_CORE_CHARACTERS = [
   'Palekar',
   'Yui',
   'So joo-hee',
+  'Emilia',
 ];
 const PRIORITIES_SECONDARY_CHARACTERS = [
+  'Vlissing',
   'Mahari',
   'Bella',
   'Yeonwoo',
@@ -356,7 +357,6 @@ const PRIORITIES_SECONDARY_CHARACTERS = [
   'Maximilia',
   'Yvonna',
   'Kotoha',
-  'Emilia',
 ];
 
 // Process all character lists to create tier lists with valid characters

@@ -151,7 +151,6 @@ export const NAV_DATA: Record<GameKey, { sections: NavigationSection[] }> = {
           { name: 'Database', href: '/guides/horizon-walker/characters/' },
           { name: 'Tier List', href: '/guides/horizon-walker/tier-list/' },
           { name: 'Builds', href: '/guides/horizon-walker/builds/' },
-          { name: 'Community Builds', href: '/guides/horizon-walker/builds/community/' },
           { name: 'Mercenaries', href: '/guides/horizon-walker/mercenaries/' },
           { name: 'Weapons', href: '/guides/horizon-walker/weapons/' },
           { name: 'Stigmas', href: '/guides/horizon-walker/stigmas/' },

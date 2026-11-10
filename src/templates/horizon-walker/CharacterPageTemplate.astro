@@ -15,7 +15,6 @@ import { r2Url } from '../../data/r2-config.js';
 import { getSkinsByHeroId } from '../../data/horizon-walker/char-skins.js';
 import { getStoryCgByHeroId } from '../../data/horizon-walker/story-cg.js';
 import { getDemiskillData, getMightSkillList, TIER_PROBABILITIES } from '../../data/horizon-walker/demiskills.js';
-import { getCommunityBuild } from '../../data/horizon-walker/community-builds.js';
 import RecommendedBuildSection from '../../components/horizon-walker/RecommendedBuildSection.astro';
 import { getReworkArchive } from '../../data/horizon-walker/rework-archive.js';
 import { getVideosBySlug, VIDEO_TYPE_LABELS } from '../../data/horizon-walker/videos.js';
@@ -29,7 +28,6 @@ import {
   CrystalIcon,
 } from '../../components/horizon-walker/index.astro';
 import CharacterFullBodyImage from '../../components/horizon-walker/CharacterFullBodyImage.astro';
-import CommunityBuildSection from '../../components/horizon-walker/CommunityBuildSection.astro';
 import SkillIcon from '../../components/horizon-walker/SkillIcon.astro';
 
 interface CharacterStats {
@@ -160,6 +158,7 @@ const DEFAULT_LABELS = {
   profileTitle: 'Profile',
   ageLabel: 'Age:',
   raceLabel: 'Race:',
+  factionLabel: 'Faction:',
   homelandLabel: 'Homeland:',
   heightLabel: 'Height:',
   birthdayLabel: 'Birthday:',
@@ -331,6 +330,21 @@ const fill = (tpl: string, values: Record<string, string | number>): string =>
   );
 // English name for internal data lookups (zh pages pass nameEn; EN pages this
 // is just characterData.name, keeping their output unchanged).
+// Faction shown in the profile grid, derived from the unit's gameplay tags
+// (Discover / Noctis Nebula / Orke Republic / Tranel Republic).
+const DISCOVER_UNITS = new Set(['Mu Yingying', 'Kim Ga-young', 'Araha', 'Yeon Chae-Young', 'Yui']);
+const factionOf = (tags?: string[], name?: string): string | null => {
+  if (name && DISCOVER_UNITS.has(name)) return 'Discover';
+  for (const t of tags ?? []) {
+    if (t.includes('Discover')) return 'Discover';
+    if (t.includes('Noctis Nebula')) return 'Noctis Nebula';
+    if (t.includes('Orke Republic')) return 'Orke Republic';
+    if (t.includes('Tranel Republic')) return 'Tranel Republic';
+  }
+  return null;
+};
+const heroFaction = factionOf(characterData.tags, characterData.name);
+
 const enName = (characterData as any).nameEn || characterData.name;
 const skinDisplayName = (skin: any): string => labels.skinNames[skin.id] || skin.name;
 const itemDisplayName = (name: string): string => labels.itemNames[name] || name;
@@ -342,7 +356,6 @@ const normHwName = (s: unknown) => String(s ?? '').toLowerCase().replace(/[^a-z0
 const hwCharEntry = HORIZON_WALKER_CHARACTERS.find(
   (c: any) => normHwName(c.name) === normHwName(enName)
 );
-const communityBuild = hwCharEntry ? getCommunityBuild(hwCharEntry.slug) : null;
 const reworkArchive = hwCharEntry ? getReworkArchive(hwCharEntry.slug) : null;
 
 // Official YouTube videos (from the @official.horizonwalker channel, keyed by character slug).
@@ -974,6 +987,12 @@ function getSkillCardClasses(skill: any, key: string, isBase: boolean = false, i
                   <span class="profile-label">{labels.raceLabel}</span>
                   <span class="profile-value">{characterData.profile.racial}</span>
                 </div>
+                {heroFaction && (
+                  <div class="profile-item">
+                    <span class="profile-label">{labels.factionLabel}</span>
+                    <span class="profile-value">{heroFaction}</span>
+                  </div>
+                )}
                 <div class="profile-item">
                   <span class="profile-label">{labels.homelandLabel}</span>
                   <span class="profile-value">{characterData.profile.homeland}</span>
@@ -1516,11 +1535,6 @@ function getSkillCardClasses(skill: any, key: string, isBase: boolean = false, i
   hwCharEntry && (
     <RecommendedBuildSection characterSlug={hwCharEntry.slug} character={characterData} />
   )
-}
-
-<!-- Community Build Section -->
-{
-  communityBuild && <CommunityBuildSection communityBuild={communityBuild} character={characterData} />
 }
 
 <!-- Demiskill Section -->
