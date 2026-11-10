@@ -26,6 +26,7 @@ export const CUTE_AVATARS = {
   'lust-asmodeus': 'https://k2b1c5ab57ed98e51.gachawiki.info/zone-nova/avatars/4033-cute.png',
   'medusa': 'https://k2b1c5ab57ed98e51.gachawiki.info/zone-nova/avatars/4057-cute.png',
   'morgan-le-fay': 'https://k2b1c5ab57ed98e51.gachawiki.info/zone-nova/avatars/4040-cute.png',
+  'nahema': 'https://k2b1c5ab57ed98e51.gachawiki.info/zone-nova/avatars/4062-cute.png',
   'nephthys': 'https://k2b1c5ab57ed98e51.gachawiki.info/zone-nova/avatars/4053-cute.png',
   'nina': 'https://k2b1c5ab57ed98e51.gachawiki.info/zone-nova/avatars/4039-cute.png',
   'odin': 'https://k2b1c5ab57ed98e51.gachawiki.info/zone-nova/avatars/4020-cute.png',

@@ -1,0 +1,16 @@
+---
+import CharacterIndividualLayout from '../../../../layouts/zone-nova/CharacterIndividualLayout.astro';
+import CharacterPageTemplate from '../../../../templates/zone-nova/CharacterPageTemplate.astro';
+import { nahemaData, nahemaSEO } from '../../../../data/zone-nova/characters/nahema.js';
+
+export const prerender = true;
+---
+
+<CharacterIndividualLayout
+  title={nahemaSEO.title}
+  description={nahemaSEO.description}
+  gameTitle={nahemaData.name}
+  character={nahemaData}
+>
+  <CharacterPageTemplate characterData={nahemaData} />
+</CharacterIndividualLayout>

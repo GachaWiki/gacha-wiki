@@ -14,6 +14,7 @@ import { fenrirData } from '../../../../data/zone-nova/characters/fenrir.js';
 import { ootakemaruData } from '../../../../data/zone-nova/characters/ootakemaru.js';
 import { suzukagozenData } from '../../../../data/zone-nova/characters/suzuka-gozen.js';
 import { milaData } from '../../../../data/zone-nova/characters/mila.js';
+import { nahemaData } from '../../../../data/zone-nova/characters/nahema.js';
 import { naiyaData } from '../../../../data/zone-nova/characters/naiya.js';
 import { pennyData } from '../../../../data/zone-nova/characters/penny.js';
 import { apolloData } from '../../../../data/zone-nova/characters/apollo.js';
@@ -125,6 +126,8 @@ const characterData =
                                      ? suzukagozenData
                                      : finalCharacter.slug === 'mila'
                                        ? milaData
+                                       : finalCharacter.slug === 'nahema'
+                                         ? nahemaData
                                    : finalCharacter.slug === 'hiyori'
                                      ? hiyoriData
                                      : null;

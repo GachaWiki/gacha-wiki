@@ -44,6 +44,7 @@ import { fenrirBuild } from './character-builds/fenrir.js';
 import { ootakemaruBuild } from './character-builds/ootakemaru.js';
 import { suzukagozenBuild } from './character-builds/suzuka-gozen.js';
 import { milaBuild } from './character-builds/mila.js';
+import { nahemaBuild } from './character-builds/nahema.js';
 import { cleopatraBuild } from './character-builds/cleopatra.js';
 import { erikaBuild } from './character-builds/erika.js';
 import { greedMammonBuild } from './character-builds/greed-mammon.js';
@@ -200,6 +201,8 @@ export const CHARACTER_BUILDS = {
   'suzuka-gozen': suzukagozenBuild,
   // Mila Build - SSR Chaos Supporter
   'mila': milaBuild,
+  // Nahema Build - SSR Fire Tank
+  'nahema': nahemaBuild,
 
   // Cleopatra Build - SSR Chaos Destroyer
   'cleopatra': cleopatraBuild,

@@ -76,6 +76,7 @@ export const ZONE_NOVA_FACTIONS = {
       'Belphegar',
       'Pride-Lucifer',
       'Wrath-Samael',
+      'Nahema',
     ],
     color: '#673ab7',
     description: 'The Bikta faction with demonic influences',
