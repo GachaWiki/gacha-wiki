@@ -217,22 +217,11 @@ export const GAMES: Game[] = [
     name: 'Star Lusts',
     slug: 'star-lusts',
     description: 'Bullet Hell Shmup RPG • EROLABS • 97 Characters • 5 Elements',
-    image: 'https://k2b1c5ab57ed98e51.gachawiki.info/star-lusts/gameimg/apkicon.webp',
+    image: 'https://k2b1c5ab57ed98e51.gachawiki.info/star-lusts/gameimg/apkicon432.webp',
     url: '/guides/star-lusts/',
     status: 'active',
     themeColor: '#9DB4E8',
     sections: ['Characters'],
-  },
-  {
-    id: 'edens-ritter-grenze',
-    name: "Eden's Ritter Grenze",
-    slug: 'edens-ritter-grenze',
-    description: 'Dark Fantasy RPG • DMM • Unofficial English Translation',
-    image: 'https://k2b1c5ab57ed98e51.gachawiki.info/edens-ritter-grenze/gameimg/icon-apk.png',
-    url: '/guides/edens-ritter-grenze/',
-    status: 'active',
-    themeColor: '#c8a04a',
-    sections: ['English Translation'],
   },
 ];
 
