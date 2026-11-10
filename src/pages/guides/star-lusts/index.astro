@@ -3,11 +3,8 @@
 import StarLustsLayout from '../../../layouts/star-lusts/StarLustsLayout.astro';
 import FormattedDate from '../../../components/FormattedDate.astro';
 import DiscordPromo from '../../../components/DiscordPromo.astro';
-import { STAR_LUSTS_CHARACTERS } from '../../../data/star-lusts/characters.js';
 
 const R2 = 'https://k2b1c5ab57ed98e51.gachawiki.info/star-lusts';
-const unitCount = STAR_LUSTS_CHARACTERS.length;
-const ssrCount = STAR_LUSTS_CHARACTERS.filter(c => c.rarity === 'SSR').length;
 ---
 
 <StarLustsLayout
@@ -54,13 +51,6 @@ const ssrCount = STAR_LUSTS_CHARACTERS.filter(c => c.rarity === 'SSR').length;
         Face off against a stream of enemy forces and weave through a hail of bullets
         with intuitive and thrilling shoot 'em up gameplay. Deploy your girls' exclusive
         skills to wipe out the competition with a single blow!
-      </p>
-      <p>
-        The roster counts {unitCount} playable units ({ssrCount} SSR): base girls and their
-        costume variants across two factions, the Cadettes of the Earth Federation and the
-        Mimics, primordial courtesans created by the ancient gods. Each unit is a live
-        Spine animated character with her own active skill, passive and five elements to
-        build around: Void, Stellergy, Physical, Aether and Ectoplasm.
       </p>
     </div>
 
