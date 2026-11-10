@@ -106,8 +106,6 @@ export const PVE_TIER_LIST = {
       { name: 'Tamamo-no-Mae' },
       { name: 'Yuis' },
       { name: 'Pride-Lucifer' },
-      { name: 'Thor' },
-      { name: 'Wrath-Samael' },
       { name: 'Frigga' },
       { name: 'Veronica' },
       { name: 'Set' },
@@ -139,6 +137,8 @@ export const PVE_TIER_LIST = {
       { name: 'Fenrir' },
       { name: 'Ootakemaru' },
       { name: 'Nahema' },
+      { name: 'Thor' },
+      { name: 'Wrath-Samael' },
     ],
     S: [
       { name: 'Zashiki-warashi' },
@@ -179,7 +179,7 @@ export const PVP_TIER_LIST = {
   description: 'Class-based Arena PvP rankings with role highlights for competitive play.',
   tiers: {
     UR: [{ name: 'Pride-Lucifer' }, { name: 'Bors' }, { name: 'Medusa' }, { name: 'Mila' }, { name: 'Suzuka Gozen' }],
-    SSS: [{ name: 'Sharin' }, { name: 'Gluttony - Beelzebub' }, { name: 'Keller' }, { name: 'Nina' }, { name: 'Morgan Le Fay' }, { name: 'Odin' }, { name: 'Tamamo-no-Mae' }, { name: 'Wrath-Samael' }, { name: 'Jill' }, { name: 'Jorogumo' }, { name: 'Thor' }, { name: 'Apep' }, { name: 'Artemis' }, { name: 'Freya' }, { name: 'Hiyori' }, { name: 'Veronica' }, { name: 'Set' }, { name: 'Brynhild' }, { name: 'Fenrir' }, { name: 'Ootakemaru' }],
+    SSS: [{ name: 'Sharin' }, { name: 'Gluttony - Beelzebub' }, { name: 'Keller' }, { name: 'Nina' }, { name: 'Morgan Le Fay' }, { name: 'Odin' }, { name: 'Tamamo-no-Mae' }, { name: 'Jill' }, { name: 'Jorogumo' }, { name: 'Apep' }, { name: 'Artemis' }, { name: 'Freya' }, { name: 'Hiyori' }, { name: 'Veronica' }, { name: 'Set' }, { name: 'Brynhild' }, { name: 'Fenrir' }, { name: 'Ootakemaru' }],
     SS: [
       { name: 'Gaia' },
       { name: 'Guinevere' },
@@ -203,6 +203,8 @@ export const PVP_TIER_LIST = {
       { name: 'Bedivere' },
       { name: 'Ibaraki-doji' },
       { name: 'Nahema' },
+      { name: 'Thor' },
+      { name: 'Wrath-Samael' },
     ],
     S: [
       { name: 'Arthur' },
@@ -408,6 +410,7 @@ export const TIER_LIST_CHANGELOG = [
       'Nahema is a Fire Tank who scales entirely off Defense and punishes enemy healing: every ally holds [Covenant Flame] (damage taken -53% while held, each stack cuts incoming Defense Penetration by 35.3%, every new stack shields for 7.1% Max HP), replenished whenever an enemy receives healing or a new enemy enters. Her Ultimate grants [Blazing Oath] (damage reduction at 132% of base, stacks stop being consumed) and allies holding stacks revive with 1 HP vs Immortality or Tenacity enemies, up to 3 times each per battle',
       "Season synergy: Rift Surge XLI (November 10 - December 8, a 28-day window) buffs Blaze damage by 50% and grants +35% damage after a Guardian Ultimate, and Trial of Bravery 30 pairs her sustain with the 3% regen + [Tenacity] rule",
       'Memory card added: Crimson Invitation (SS for Tanks)',
+      'Thor and Wrath-Samael moved from SSS to SS in both PvE and PvP',
     ],
   },
   {
